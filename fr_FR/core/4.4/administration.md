@@ -9,24 +9,21 @@ Bien que nombreux, une majorité de paramètres est configurée par défaut.
 
 Dans cet onglet on retrouve des informations générales sur Jeedom :
 
-- **Version** : Version de Jeedom installée.
 - **Nom de votre Jeedom** : Permet d’identifier votre Jeedom, notamment dans le Market. Il peut être réutilisé dans les scénarios ou permettre d’identifier une sauvegarde.
-- **Afficher sur la page de connexion** : Affiche le nom de votre Jeedom sur la page de connexion.
 - **Langue** : Langue utilisée dans votre Jeedom.
-- **Moteur TTS** : Type de moteur utilisé pour la synthèse vocale.
+- **Système** : Type de matériel sur lequel est installé le système où votre Jeedom tourne.
 - **Date et heure** : Choix de votre fuseau horaire. Vous pouvez cliquer sur **Forcer la synchronisation de l’heure** pour rétablir une mauvaise heure affichée en haut à droite.
 - **Serveur de temps optionnel** : Indique quel serveur de temps doit être utilisé si vous cliquez sur **Forcer la synchronisation de l’heure** (à réserver aux experts).
 - **Ignorer la vérification de l’heure** : indique à Jeedom de ne pas vérifier si l’heure est cohérente entre lui-même et le système sur lequel il tourne. Peut être utile par exemple, si vous ne connectez pas Jeedom à Internet et qu’il n’a pas de pile RTC sur le matériel utilisé.
-- **Système** : Type de matériel sur lequel est installé le système où votre Jeedom tourne.
-- **Clé d’installation** : Clé matérielle identifiant votre Jeedom sur le Market. Si votre Jeedom n’apparaît pas dans la liste de vos Jeedom sur le Market, il est conseillé de cliquer sur le bouton **Remise à zéro**.
+- **Système** : Indique le type de matériel sur lequel Jeedom est installé.
+- **Clef d’installation** : Clef matérielle de votre Jeedom sur le Market. Si votre Jeedom n’apparaît pas dans la liste de vos Jeedom sur le Market, il est conseillé de cliquer sur le bouton **Remise à zéro**.
 - **Dernière date connue** : Date enregistrée par Jeedom, utilisée après un redémarrage pour des systèmes n'ayant pas de pile RTC.
 
-En dessous, plusieurs paramètres qui centralisent des informations pouvant être utilisées par les plugins, évitant de les renseigner dans chaque plugin.
+En dessous, plusieurs paramètres qui centralisent des informations pouvant être utilisés par les plugins, évitant de les renseigner dans chaque plugin.
 
 - Coordonnées : Latitude, Longitude et Altitude de votre habitation / site.
 - Adresse : Adresse postale de votre habitation / site.
 - Divers : Surface et nombre d'occupants de votre habitation / site.
-
 
 ## Onglet Interface
 
@@ -34,29 +31,26 @@ Vous trouverez dans cet onglet les paramètres de personnalisation de l'affichag
 
 ### Thèmes
 
-- **Desktop principal et alternatif** : Vous permet de définir un thème clair et un sombre pour le Desktop.
-- **Mobile principal et alternatif** : idem que précédemment pour la version Mobile.
-- **Thème principal de** : Vous permet de définir une plage horaire durant laquelle le thème principal choisi précédemment sera utilisé. Il faut cependant cocher l'option **Basculer le thème en fonction de l'heure**.
-- **Cookie** : Bouton permettant de supprimer le cookie utilisé par votre  navigateur pour le thème.
+- **Desktop clair et sombre** : Vous permet de choisir un thème clair et un sombre pour le Desktop.
+- **Mobile clair et sombre** : idem que précédemment pour la version Mobile.
+- **Thème clair de / à** : Vous permet de définir une plage horaire durant laquelle le thème clair choisi précédemment sera utilisé. Il faut cependant cocher l'option **Bascule du thème en fonction de l'heure**.
 - **Capteur de luminosité**   : Uniquement en interface mobile, nécessite d'activer *generic extra sensor* dans Chrome, page chrome://flags.
-- **Désactiver l'interface mobile** : Rends l'interface mobile identique à l'interface Desktop.
 
 ### Tuiles
 
-- **Pas vertical** : Contraint la hauteur des tuiles tous les x pixels.
 - **Pas horizontal** : Contraint la largeur des tuiles tous les x pixels.
+- **Pas vertical** : Contraint la hauteur des tuiles tous les x pixels.
 - **Marge** : Espace vertical et horizontal entre les tuiles, en pixels.
-- **Dashboard colonnes sur écran large/moyen/petit** : Nombre de colonnes sur le Dashboard (1 Colonne = 1 Objet).
 - **Centrage vertical des tuiles** : Centre verticalement le contenu des tuiles.
 - **Icônes widgets colorées** : Coloration des icônes de widgets en fonction de leur état. Modifiable par scénario, *setColoredIcon* ('Coloration des icônes').
-- **Mobile : une colonne par defaut** : Affichage pleine largeur des tuiles en mobile.
-- **Icônes widgets colorées** : Colorisation des icônes de widgets en fonction de leur état, modifiable par scénario avec la commande setColoredIcon.
 - **Catégories colorées** : Colorisation du titre des tuiles en fonction de la catégorie.
+- **Mobile : une colonne par defaut** : Affichage pleine largeur des tuiles en mobile
+
 
 ### Images de fond
 
-- **Afficher les images de fond** : Afficher les images de fond d'écran que l'on trouve pour les pages scénarios, objets, interactions, etc.
-- **Flou des fonds des objets** : Permet de flouter automatiquement les images de fond des Objets / Pièces.
+- **Afficher les images de fonds** : Afficher les images de fonds que l'on trouve dans les pages scénarios, objets, interactions, etc.
+- **Flou des fonds des objets** : Permet de flouter automatiquement les images de fonds des objets / Pièces.
 - **Image Dashboard** : Image de fond pour les pages du Dashboard (En fonction des options de l'objet).
 - **Image Analyse** : Image de fond pour les pages du menu Analyse.
 - **Image Outils** : Image de fond pour les pages du menu Outils.
@@ -69,51 +63,40 @@ Vous trouverez dans cet onglet les paramètres de personnalisation de l'affichag
 - **Position des notifications** : Position sur la page de l'apparition des notifications.
 - **Durée des notifications** : Durée de l'affichage des notifications en seconde. 0 pour ne pas les masquer automatiquement.
 
-### Widget de commande par défaut
-
-- Permet de définir un widget (Core ou Custom) par défaut en fonction du type de commande.
-
 ### Personnalisation
 
-- **Activer** : Active l'utilisation des options ci-dessous.
+- **Activer** : Active l'utilisation des options en dessous.
 - **Transparence** : Affiche les tuiles du Dashboard et certains contenus avec une transparence. 1 : totalement opaque, 0 : totalement transparent.
 - **Arrondi** : Affiche les éléments de l'interface avec des angles arrondis. 0 : aucun arrondi, 1 : arrondi maximal.
 - **Désactiver les ombres** : Désactive les ombres des tuiles sur le Dashboard, des menus, et de certains éléments de l'interface.
-- **Personnalisation avancée** : Vous permet d'ouvrir 'linterface de personnalisation directement.
-- **Activer** : Permet d'activer la Personnalisation avancée.
 
-### Scénario
-
-- **Désactiver l'autocomplétion** :  supprimer la proposition des commandes au fur et à mesure de la saisie.
 
 
 ## Onglet Réseaux
 
-Il est impératif de configurer correctement cette partie importante de Jeedom afin d'éviter le dysfonctionnement de nombreux Plugins! 
-Il existe 2 manières d’accéder à Jeedom, depuis le réseau de votre habitation (Interne) ou depuis n'importe où dans le monde (Externe).
+Il faut absolument configurer correctement cette partie importante de Jeedom sinon beaucoup de plugins risquent de ne pas fonctionner. Il est possible d’accéder à Jeedom de deux manières différentes : L'**accès interne** (depuis le même réseau local que Jeedom) et l'**accès externe** (depuis un autre réseau notamment depuis Internet).
 
 > **Important**
 >
-> Cette partie renseigne le moteur de Jeedom sur son environnement :
-> une modification du port ou de l’IP dans cet onglet ne modifiera pas le port ou l’IP d'accès à votre Jeedom réellement! Pour cela il faut se connecter en SSH et éditer le fichier /etc/network/interfaces pour l’IP et les fichiers etc/apache2/sites-available/default et etc/apache2/sites-available/default\_ssl (pour le HTTPS).
+> Cette partie est juste là pour expliquer à Jeedom son environnement :
+> une modification du port ou de l’IP dans cet onglet ne changera pas le port ou l’IP de Jeedom réellement. Pour cela il faut se connecter en SSH et éditer le fichier /etc/network/interfaces pour l’IP et les fichiers etc/apache2/sites-available/default et etc/apache2/sites-available/default\_ssl (pour le HTTPS).
 > Cependant, en cas de mauvaise manipulation de votre Jeedom, l’équipe Jeedom ne pourra être tenue pour responsable et pourra refuser toute demande de support.
 
 - **Accès interne** : informations pour joindre Jeedom à partir d’un équipement du même réseau que Jeedom (LAN)
     - **OK/NOK** : indique si la configuration réseau interne est correcte.
-    - **Protocole** : le protocole à utiliser, par défaut HTTP.
-    - **Adresse URL ou IP** : adresse IP de la machine Linux à renseigner.
-    - **Port** : le port de l’interface web de Jeedom, par défaut 80.
-        Attention changer le port ici ne change pas le port réel d'accès à Jeedom. Ce dernier est définit sous Linux.
+    - **Protocole** : le protocole à utiliser, souvent HTTP.
+    - **Adresse URL ou IP** : IP de Jeedom à renseigner.
+    - **Port** : le port de l’interface web de Jeedom, en général 80.
+        Attention changer le port ici ne change pas le port réel de Jeedom qui restera le même.
     - **Complément** : le fragment d’URL complémentaire (exemple : /Jeedom) pour accéder à Jeedom.
 
 - **Accès externe** : informations pour joindre Jeedom de l’extérieur du réseau local. À ne remplir que si vous n’utilisez pas le DNS Jeedom.
     - **OK/NOK** : indique si la configuration réseau externe est correcte.
     - **Protocole** : protocole utilisé pour l’accès extérieur.
     - **Adresse URL ou IP** : IP externe, si elle est fixe. Sinon, donnez l’URL pointant sur l’adresse IP externe de votre réseau.
-    - **Port** : le port de l’interface web de Jeedom, par défaut 443.
     - **Complément** : le fragment d’URL complémentaire (exemple : /Jeedom) pour accéder à Jeedom.
 
-- **Utiliser un Proxy pour le Market** : activation du proxy.
+- **Proxy pour Market** : activation du proxy.
     - Cocher la case activer le proxy.
     - **Adresse Proxy** : Renseigner l'adresse du proxy,
     - **Port du Proxy** : Renseigner le port du proxy,
@@ -122,30 +105,30 @@ Il existe 2 manières d’accéder à Jeedom, depuis le réseau de votre habitat
 
 > **Tip**
 >
-> Pour utiliser le protocol HTTPS pour l'accès externe, vous devez générer un certificat.
+> Si vous êtes en HTTPS le port est le 443 (par défaut) et en HTTP le port est le 80 (par défaut). Pour utiliser HTTPS depuis l’extérieur, un plugin letsencrypt est maintenant disponible sur le market.
 
 > **Tip**
 >
 > Pour savoir si vous avez besoin de définir une valeur dans le champ **complément**, regardez, quand vous vous connectez à Jeedom dans votre navigateur Internet, si vous devez ajouter /Jeedom (ou autre chose) après l’IP.
 
 - **Gestion avancée** : Cette partie peut ne pas apparaître, en fonction de la compatibilité avec votre matériel.
-    Vous y trouverez la liste de vos interfaces réseaux. Vous pourrez indiquer à Jeedom de ne pas monitorer le réseau en cliquant sur **Désactiver la gestion du réseau par Jeedom** (à cocher si Jeedom n’est connecté à aucun réseau). Vous pouvez aussi y préciser la plage d'ip locale sous la forme 192.168.1.* (à n'utiliser que dans des installations de type Docker).
+    Vous y trouverez la liste de vos interfaces réseaux. Vous pourrez indiquer à Jeedom de ne pas monitorer le réseau en cliquant sur **désactiver la gestion du réseau par Jeedom** (à cocher si Jeedom n’est connecté à aucun réseau). Vous pouvez aussi y préciser la plage d'ip locale sous la forme 192.168.1.* (à n'utiliser que dans des installations de type Docker).
 - **Proxy Market** : permet un accès distant à votre Jeedom sans avoir besoin d’un DNS, d’une IP fixe ou d’ouvrir les ports de votre box Internet.
     - **Utiliser les DNS Jeedom** : active les DNS Jeedom (attention cela nécessite au moins un service pack).
-    - **Statut DNS** : statut du DNS HTTPS.
+    - **Statut DNS** : statut du DNS HTTP.
     - **Gestion** : permet d’arrêter et relancer le service DNS Jeedom.
 
 > **Important**
 >
 > Si vous n’arrivez pas à faire fonctionner le DNS Jeedom, regardez la configuration du pare-feu et du filtre parental de votre box Internet (sur livebox il faut par exemple le pare-feu en niveau moyen).
-
+- **Durée de vie des sessions (heure)** : durée de vie des sessions PHP, il est déconseillé de toucher à ce paramètre.
 
 ## Onglet Logs
 
 ### Timeline
 
-- **Nombre maximum d’évènements** : Définit le nombre maximum d'évènements à afficher dans la Timeline.
-- **Supprimer tous les évènements** : Permet de purger la Timeline de tous ses évènements enregistrés.
+- **Nombre maximum d’évènements** : Définit le nombre maximum d'évènements à afficher dans la timeline.
+- **Supprimer tous les évènements** : Permet de vider la timeline de tous ses évènements enregistrés.
 
 ### Messages
 
@@ -153,12 +136,10 @@ Il existe 2 manières d’accéder à Jeedom, depuis le réseau de votre habitat
 - **Action sur message** : Permet de faire une action lors de l'ajout d'un message dans le centre des messages. Vous avez 2 tags pour ces actions :
         - #subject# : message en question.
         - #plugin# : plugin qui a déclenché le message.
-- **Action sur message, channel Alerte des commandes** : Permet de faire une action lorsque une alerte Warning ou Danger se déclenche (Configuration commande, onglet Alertes d'un équipement).
-- **Action sur message, channel Retour à l'état normal des commandes** : Permet de faire une action lorsque l'alerte Warning ou Danger revient à l'état normal (Configuration commande, onglet Alertes d'un équipement).
 
-### Action sur Alertes
+### Alertes
 
-- **Ajouter un message à chaque Timeout** : Ajoute un message dans le centre de messages si un équipement tombe en **timeout**.
+- **Ajouter un message à chaque Timeout** : Ajoute un message dans le centre de message si un équipement tombe en **timeout**.
 - **Commande sur Timeout** : Commande de type **message** à utiliser si un équipement est en **timeout**.
 - **Ajouter un message à chaque Batterie en Warning** : Ajoute un message dans le centre de messages si un équipement a son niveau de batterie en **warning**.
 - **Commande sur Batterie en Warning** : Commande de type **message** à utiliser si un équipement a son niveau de batterie en **warning**.
@@ -169,7 +150,7 @@ Il existe 2 manières d’accéder à Jeedom, depuis le réseau de votre habitat
 - **Ajouter un message à chaque Danger** : Ajoute un message dans le centre de messages si une commande passe en alerte **danger**.
 - **Commande sur Danger** : Commande de type **message** à utiliser si une commande passe en alerte **danger**.
 
-### Niveau de Logs
+### Logs
 
 - **Moteur de log** : Permet de changer le moteur de log pour, par exemple, les envoyer à un demon syslog(d).
 - **Format des logs** : Format de log à utiliser (Attention : ça n’affecte pas les logs des démons).
@@ -178,22 +159,20 @@ Il existe 2 manières d’accéder à Jeedom, depuis le réseau de votre habitat
 
 En dessous vous retrouvez un tableau permettant de gérer finement le niveau de log des éléments essentiels de Jeedom ainsi que celui des plugins.
 
-
 ## Onglet Résumés
 
 [Voir documentation sur les résumés.](/fr_FR/concept/summary)
-
 
 ## Onglet Equipements
 
 ### Equipements
 
-- **Echecs avant désactivation** : Nombre d’échecs de communication avec l’équipement avant désactivation de celui-ci (un message vous préviendra si cela arrive). (0 signifie pas de désactivation).
+- **Nombre d’échecs avant désactivation de l’équipement** : Nombre d’échecs de communication avec l’équipement avant désactivation de celui-ci (un message vous préviendra si cela arrive).
 - **Seuils des piles** : Permet de gérer les seuils d’alertes globaux sur les piles.
 
-### Historique des commandes
-
 De nombreuses commandes peuvent être historisées. Ainsi, dans Analyse→Historique, vous obtenez des graphiques représentant leur utilisation. Cet onglet permet de fixer des paramètres globaux à l’historisation des commandes.
+
+### Historique des commandes
 
 - **Afficher les statistiques sur les widgets** : Permet d’afficher les statistiques sur les widgets. Il faut que le widget soit compatible, ce qui est le cas pour la plupart. Il faut aussi que la commande soit de type numérique.
 - **Période de calcul pour min, max, moyenne (en heures)** : Période de calcul des statistiques (24h par défaut). Il n’est pas possible de mettre moins d’une heure.
@@ -203,12 +182,10 @@ De nombreuses commandes peuvent être historisées. Ainsi, dans Analyse→Histor
 - **Seuil de calcul de tendance basse** : Cette valeur indique la valeur à partir de laquelle Jeedom indique que la tendance est à la baisse. Il doit être négatif (par défaut -0.1).
 - **Seuil de calcul de tendance haut** : Même chose pour la hausse.
 - **Période d’affichage des graphiques par défaut** : Période qui est utilisée par défaut lorsque vous voulez afficher l’historique d’une commande. Plus la période est courte, plus Jeedom sera rapide pour afficher le graphique demandé.
-- **Purger l'historique si plus vieux que** : Permet de définir une valeur en temps de purge de l'historique.
-- **Autoriser les dates dans le futur** : Autorise l'affichage d'historiques avec des dates dans le futur.
 
 > **Note**
 >
-> Le premier paramètre **Afficher les statistiques sur les widgets** est possible mais désactivé par défaut car il rallonge sensiblement le temps d’affichage du Dashboard. Si vous activez cette option, par défaut, Jeedom se fonde sur les données des dernières 24h pour calculer ces statistiques.
+> Le premier paramètre **Afficher les statistiques sur les widgets** est possible mais désactivé par défaut car il rallonge sensiblement le temps d’affichage du dashboard. Si vous activez cette option, par défaut, Jeedom se fonde sur les données des dernières 24h pour calculer ces statistiques.
 > La méthode de calcul de tendance est fondée sur le calcul des moindres carrés (voir [ici](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s) pour le détail).
 
 ### Push
@@ -219,23 +196,6 @@ De nombreuses commandes peuvent être historisées. Ainsi, dans Analyse→Histor
 **\#humanname\#** pour le nom complet de la commande (ex : \#\[Salle de bain\]\[Hydrometrie\]\[Humidité\]\#),
 **\#eq_name\#** pour le nom de l'équipement
 
-### InfluxDB
-
-Permet de configurer un serveur influxDB pour y envoyer les historiques.
-
-### Réorganisation automatique des tuiles
-
-- **Poids des actions humaines** :
-- **Poids des actions automatiques** :
-- **Poids de la consultation des historiques** :
-  
-### Spécial
-
-- **Guillemets automatiques** : Gére automatiquement les guillemets d'une chaine de caractères dans les expressions (Activé par défaut).
-- **Ne pas exécuter la commande si l’équipement est déjà dans le bon état (alpha)** : Permet de ne pas exécuter la commande si l'équipment est déjà bon état (exemple : allumer une lumière déjà allumée)
-- **Core js (dev)** : Ne charge pas jQuery / Bootstrap et leurs librairies. (Désactivé par défaut)
-
-  
 ## Onglet Rapports
 
 Permet de configurer la génération et la gestion des rapports
@@ -243,10 +203,9 @@ Permet de configurer la génération et la gestion des rapports
 - **Délai d’attente après génération de la page (en ms)** : Délai d’attente après chargement du rapport pour faire la "photo", à changer si votre rapport est incomplet par exemple.
 - **Nettoyer les rapports plus anciens de (jours)** : Définit le nombre de jours avant de supprimer un rapport (les rapports prennent un peu de place donc attention à ne pas mettre trop de conservation).
 
-
 ## Onglet Liens
 
-Permet de configurer les graphiques de liens. Ces liens permettent de voir, sous forme d’un graphique, les relations entre les objets, les équipements, etc.
+Permet de configurer les graphiques de liens. Ces liens permettent de voir, sous forme d’un graphique, les relations entre les objets, les équipements, les objets, etc.
 
 - **Profondeur pour les scénarios** : Permet de définir, lors de l’affichage d’un graphique de liens d’un scénario, le nombre d’éléments maximum à afficher (plus il y a d’éléments plus le graphique sera lent à générer et plus il sera difficile à lire).
 - **Profondeur pour les objets** : Idem pour les objets.
@@ -255,7 +214,6 @@ Permet de configurer les graphiques de liens. Ces liens permettent de voir, sous
 - **Profondeur pour les variables** : Idem pour les variables.
 - **Paramètre de prerender** : Permet d’agir sur la disposition du graphique.
 - **Paramètre de render** : Idem.
-
 
 ## Onglet Interactions
 
@@ -314,50 +272,31 @@ Voici donc les différentes options disponibles :
 - **Synonyme commande slider maximum** : Synonyme pour mettre une commande de type slider au maximum (ex ouvre pour ouvre le volet de la chambre ⇒ volet chambre à 100%).
 - **Synonyme commande slider minimum** : Synonyme pour mettre une commande de type slider au minimum (ex ferme pour fermer le volet de la chambre ⇒ volet chambre à 0%).
 
-### Couleurs
-
-Permet d'ajouter une couleur et son code html.
-
-
 ## Onglet Sécurité
-
-### Connexion
-
-- **Durée de vie des sessions (heure)** : durée de vie des sessions PHP, il est déconseillé de toucher à ce paramètre.
-- **Nombre d’échecs tolérés** : définit le nombre de tentatives successives non autorisées avant de bannir l’IP.
-- **Temps maximum entre les échecs (en secondes)** : temps maximum pour que 2 tentatives soient considérées comme successives.
-- **Durée du bannissement (en secondes), -1 pour infini** : temps de bannissement de l’IP.
-- **IP "blanche"** : liste des IP qui ne peuvent jamais être bannies.
-- **Supprimer les IPs bannies** : Permet de vider la liste des IP actuellement bannies
-
-La liste des IP bannies se trouve au bas de cette page. Vous y trouverez l’IP, la date de bannissement et la date de fin de bannissement programmée.
 
 ### LDAP
 
 - **Activer l’authentification LDAP** : active l’authentification à travers un AD (LDAP).
-- **Samba4** :
-- **tls** :
 - **Hôte** : serveur hébergeant l’AD.
-- **Port** : port du serveur à utiliser (par défaut LDAP:389, LDAP:636).
 - **Domaine** : domaine de votre AD.
-- **Base DN des utilisateurs** : base DN de votre AD.
+- **Base DN** : base DN de votre AD.
 - **Nom d’utilisateur** : nom d’utilisateur pour que Jeedom se connecte à l’AD.
 - **Mot de passe** : mot de passe pour que Jeedom se connecte à l’AD.
 - **Champs recherche utilisateur** : champs de recherche du login utilisateur. En général uid pour LDAP, SamAccountName pour Windows AD.
 - **Filtre administrateurs (optionnel)** : filtre administrateurs sur l’AD (pour la gestion des groupes par exemple)
 - **Filtre utilisateurs (optionnel)** : filtre utilisateurs sur l’AD (pour la gestion des groupes par exemple)
 - **Filtre utilisateurs limités (optionnel)** : filtre utilisateurs limités sur l’AD (pour la gestion des groupes par exemple)
+- **Autoriser REMOTE\_USER** : Active le REMOTE\_USER (utilisé en SSO par exemple).
 
-### Single Sign On
+### Connexion
 
-- **Activer l'authentification SSO** : active l'authentification Single Sign On.
-- **Configurer Entête HTTP** : Permet de déterminer l'entête HTTP contenant l'identifiant utilisateur. (exemple :HTTP_REMOTE_USER).
+- **Nombre d’échecs tolérés** : définit le nombre de tentatives successives autorisées avant de bannir l’IP
+- **Temps maximum entre les échecs (en secondes)** : temps maximum pour que 2 tentatives soient considérées comme successives
+- **Durée du bannissement (en secondes), -1 pour infini** : temps de bannissement de l’IP
+- **IP "blanche"** : liste des IP qui ne peuvent jamais être bannies
+- **Supprimer les IPs bannies** : Permet de vider la liste des IP actuellement bannies
 
-### Dépendance et démon
-
-- **Autoriser l'installation des dépendances d'un même plugin à moins de 45s d'intervalle** : Active l'autorisation.
-- **Autoriser le lancement du démon d'un même plugin à moins de 30s d'intervalle** : Active l'autorisation.
-
+La liste des IP bannies se trouve au bas de cette page. Vous y trouverez l’IP, la date de bannissement et la date de fin de bannissement programmée.
 
 ## Onglet Mise à jour/Market
 
@@ -365,9 +304,9 @@ La liste des IP bannies se trouve au bas de cette page. Vous y trouverez l’IP,
 
 - **Source de mise à jour** : Choisissez la source de mise à jour du core de Jeedom.
 - **Version du core** : Version du core à récupérer.
-- **Vérifier automatiquement s’il y a des mises à jour** : Active l'automatisme de vérification de nouvelles mises à jour (attention pour éviter de surcharger le Market, l’heure de vérification peut changer).
+- **Vérifier automatiquement s’il y a des mises à jour** : Indique si il faut chercher automatiquement s'il y a de nouvelles mises à jour (attention pour éviter de surcharger le Market, l’heure de vérification peut changer).
 
-### Configuration des dépôts
+### Les dépôts
 
 Les dépôts sont des espaces de stockage (et de service) pour pouvoir déplacer des sauvegardes, récupérer des plugins, récupérer le core de Jeedom, etc.
 
@@ -388,28 +327,22 @@ Dépôt servant à relier Jeedom à Github.
 
 Dépôt servant à relier Jeedom au Market, il est vivement conseillé d’utiliser ce dépôt. Attention : toute demande de support pourra être refusée si vous utilisez un autre dépôt que celui-ci.
 
-- **Activer Market** : Permet d'activer le dépôt.
 - **Adresse** : Adresse du Market.(https://market.jeedom.com).
 - **Nom d’utilisateur** : Votre nom d’utilisateur sur le Market.
 - **Mot de passe** : Votre mot de passe du Market.
-- **Pas de validation SSL** : Ne fait pas de vérification SSL.
 - **[Backup cloud] Nom** : Nom de votre backup cloud (attention doit être unique pour chaque Jeedom sous risque qu'ils s'écrasent entre eux).
 - **[Backup cloud] Mot de passe** : Mot de passe du backup cloud. IMPORTANT vous ne devez surtout pas le perdre, il n'y a aucun moyen de le récupérer. Sans celui-ci vous ne pourrez plus restaurer votre Jeedom.
-- **[Backup cloud] Mot de passe (confirmation)** : Resaisir le mot de passe.
-- **[Monitoring cloud] Désactiver** : Désactive le monitoring du Backup Cloud.
-- **Tester/Synchroniser** : Permet de tester/synchroniser la configuration faite ci-dessus.
+- **[Backup cloud] Fréquence backup full** : Fréquence du backup cloud full. Un backup full est plus long qu'un incrémental (qui n'envoie que les différences). Il est recommandé d'en faire 1 par mois.
 
 #### Samba
 
 Dépôt permettant d’envoyer automatiquement une sauvegarde de Jeedom sur un partage Samba (ex : NAS Synology).
 
-- **Activer Samba** : Permet d'activer le dépôt.
-- **\[Backup\] IP** : Adresse IP du serveur Samba.
+- **\[Backup\] IP** : IP du serveur Samba.
 - **\[Backup\] Utilisateur** : Nom d’utilisateur pour la connexion (les connexions anonymes ne sont pas possibles). Il faut forcément que l’utilisateur ait les droits en lecture ET en écriture sur le répertoire de destination.
 - **\[Backup\] Mot de passe** : Mot de passe de l’utilisateur (attention les caractères spéciaux ne sont pas autorisés).
 - **\[Backup\] Partage** : Chemin du partage (attention à bien s’arrêter au niveau du partage).
 - **\[Backup\] Chemin** : Chemin dans le partage (à mettre en relatif), celui-ci doit exister.
-- **Tester/Synchroniser** : Permet de tester/synchroniser la configuration faite ci-dessus.
 
 > **Note**
 >
@@ -426,10 +359,10 @@ Dépôt permettant d’envoyer automatiquement une sauvegarde de Jeedom sur un p
 
 > **Important**
 >
-> Le protocole Samba comporte plusieurs versions, la v1 est compromise niveau sécurité et sur certains NAS vous pouvez obliger le client à utiliser la v2 ou la v3 pour vous connecter. Donc si vous avez une erreur *protocol negotiation failed: NT_STATUS_INVAID_NETWORK_RESPONSE* il y a de forte chance que côté NAS la restriction soit en place. Vous devez alors modifier sur l'OS de votre Jeedom le fichier /etc/samba/smb.conf et y ajouter ces deux lignes :
+> Le protocole Samba comporte plusieurs versions, la v1 est compromise niveau sécurité et sur certains NAS vous pouvez obliger le client à utiliser la v2 ou la v3 pour se connecter. Donc si vous avez une erreur *protocol negotiation failed: NT_STATUS_INVAID_NETWORK_RESPONSE* il y a de forte chance que côté NAS la restriction soit en place. Vous devez alors modifier sur l'OS de votre Jeedom le fichier /etc/samba/smb.conf et y ajouter ces deux lignes :
 > client max protocol = SMB3
 > client min protocol = SMB2
-> Le smbclient côté Jeedom utilisera alors v2 ou v3 et en mettant SMB3 aux 2 uniquement SMB3. A vous donc d'adapter en fonction des restrictions côté NAS ou autre serveur Samba.
+> Le smbclient côté Jeedom utilisera alors v2 ou v3 et en mettant SMB3 aux 2 uniquement SMB3. A vous donc d'adapter en fonction des restrictions côté NAS ou autre serveur Samba
 
 > **Important**
 >
@@ -437,32 +370,27 @@ Dépôt permettant d’envoyer automatiquement une sauvegarde de Jeedom sur un p
 
 #### URL
 
-- **Activer URL** : Permet d'activer le dépôt.
 - **URL core Jeedom**
 - **URL version core Jeedom**
-
 
 ## Onglet Cache
 
 Permet de surveiller et d’agir sur le cache de Jeedom :
 
 - **Statistiques** : Nombre d’objets actuellement en cache.
-- **Moteur de cache** : Moteur de cache utilisé par Jeedom.
-- **Temps de pause pour le long polling** : Fréquence à laquelle Jeedom vérifie s'il y a des événements en attente pour les clients (interface web, application mobile…​). Plus ce temps est court, plus l’interface se mettra à jour rapidement, en contre-partie cela utilise plus de ressources et peut donc ralentir Jeedom.
 - **Nettoyer le cache** : Force la suppression des objets qui ne sont plus utiles. Jeedom le fait automatiquement toutes les nuits.
-- **Vider le cache des widgets** : Vide le cache dédié aux widgets.
-- **Désactiver le cache des widgets** : Cocher la case pour désactiver le cache des widgets.
 - **Vider toutes les données en cache** : Vide complètement le cache.
     Attention cela peut faire perdre des données !
+- **Vider le cache des widgets** : Vide le cache dédié aux widgets.
+- **Désactiver le cache des widgets** : Cocher la case pour désactiver le cache des widgets.
+- **Temps de pause pour le long polling** : Fréquence à laquelle Jeedom vérifie s'il y a des événements en attente pour les clients (interface web, application mobile…​). Plus ce temps est court, plus l’interface se mettra à jour rapidement, en contre-partie cela utilise plus de ressources et peut donc ralentir Jeedom.
 
 ## Onglet API
 
 Vous trouvez ici la liste des différentes clés API disponibles dans votre Jeedom. De base, le core a deux clés API :
 
-- **Clé API** : clé générale, il faut éviter de l’utiliser autant que possible.
-- **Accès API TTS** : clé API pour la synthèse vocale.
-- **Clé API Pro** : clé pour les professionnels, utilisée pour la gestion de parc. Elle peut être vide.
-- **Clé Market** : clé utilisée pour le Market.
+- une générale : autant que possible, il faut éviter de l’utiliser,
+- et une autre pour les professionnels : utilisée pour la gestion de parc. Elle peut être vide.
 - Puis, vous trouverez une clé API par plugin en ayant besoin.
 
 Pour chaque clé API de plugin, ainsi que pour les APIs HTTP, JsonRPC et TTS, vous pouvez définir leur portée :
@@ -483,7 +411,7 @@ Pour chaque clé API de plugin vous pouvez leur interdire les méthodes core (g�
 
 ### Vérifications Système
 
-- **Vérification générale** : Permet de lancer le test de consistance de Jeedom.
+- **Vérification générale** : Permet de lancer de test de consistance de Jeedom.
 - **Rétablissement des droits** : Permet de ré-appliquer les bons droits sur les répertoires et fichiers du Core de Jeedom.
 - **Vérification des packages système** : Permet de lancer une vérification des packages installés.
 - **Vérification de la base de données** : Permet de lancer une vérification sur la base de données de Jeedom et de corriger si nécessaire les erreurs.
@@ -492,7 +420,7 @@ Pour chaque clé API de plugin vous pouvez leur interdire les méthodes core (g�
 
 ### Outils Système
 
-- **Editeur de fichiers** : Permet d'accéder aux différents fichiers du système d'exploitation et de les éditer, supprimer ou d'en créer.
+- **Editeur de fichiers** : Permet d'accéder aux différents fichiers du système d'exploitation et de les éditer ou supprimer ou d'en créer.
 - **Administration Système** : Permet d’accéder à une interface d’administration système. C’est une sorte de console shell dans laquelle vous pouvez lancer les commandes les plus utiles, notamment pour obtenir des informations sur le système.
 - **Editeur en masse** : Outil d'édition en masse d'équipements, commandes, objets, scénarios.
 - **Administration Base de données** : Permet d’accéder à la base de données de Jeedom. Vous pouvez alors lancer des commandes dans le champ du haut.

@@ -21,7 +21,7 @@ Ce compte-rendu (contrairement aux vues et designs) est auto-généré par Jeedo
 
 > **Tip**
 >
-> L'ordre d'affichage des objets sur le Dashboard est celui visible dans **Analyse → Résumé domotique**. Vous pouvez modifier l'ordre des objets en allant dans **Outils → Objets et faire un clic droit sur un objet pour sélectionner son objet parent ou le positionner après un autre objet.
+> L'ordre d'affichage des objets sur le Dashboard est celui visible dans **Analyse → Résumé domotique**. Vous pouvez sur cette page modifier cet ordre par glisser - déposer.
 
 Pour qu'un équipement apparaisse sur le Dashboard, il doit :
 - Être actif.
@@ -40,7 +40,7 @@ De plus, vous pouvez cliquer sur le titre de la tuile (le nom de l'équipement) 
 > **Tip**
 >
 > Il est possible d’aller directement sur un seul objet de votre domotique, par le menu **Accueil → Dashboard → Nom de l'objet**.
-> Cela permet de n’avoir que les équipements qui vous intéressent et de charger la page plus rapidement.
+> Cela permet de n’avoir que les équipements qui vous intéressent, et de charger la page plus rapidement.
 
 - Vous avez en haut à gauche une petite icône pour afficher l’arbre des objets au survol.
 - Un champ de recherche permet de rechercher un équipement par son nom, sa catégorie, son plugin, un tag, etc.
@@ -56,7 +56,7 @@ De plus, vous pouvez cliquer sur le titre de la tuile (le nom de l'équipement) 
 
 ## Mode édition
 
-Le mode édition (*le crayon tout en haut à droite*) vous permet changer la taille des tuiles et leur disposition sur le Dashboard.
+En mode édition (*le crayon tout en haut à droite*), vous pouvez changer la taille des tuiles et leur disposition sur le Dashboard.
 
 les icônes refresh des équipements sont remplacées par une icône permettant d'accéder à leur configuration. Cette icône ouvre une fenêtre d'édition comportant les paramètres d'affichage de l'équipement et de ses commandes.
 

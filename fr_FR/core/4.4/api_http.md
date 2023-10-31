@@ -12,7 +12,7 @@ Cette API s’utilise très facilement par de simples requêtes HTTP via URL.
 
 > **Note**
 >
-> Pour toute cette documentation, \#API\_KEY\# correspond à votre clé API, propre à votre installation. Pour la trouver, il faut aller dans le menu "Réglages" → "Système" → "Configuration" → onglet "API".
+> Pour toute cette documentation, \#API\_KEY\# correspond à votre clé API, propre à votre installation. Pour la trouver, il faut aller dans le menu "Général" → "Configuration" → onglet "Général".
 
 > **Note**
 >
