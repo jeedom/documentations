@@ -15,6 +15,10 @@
 - Ändern der Konfiguration *Aeotec Zwa012*  um die Eigenschaften zu verwenden
 - Änderung einer Untereigenschaft *einfache Benachrichtigung* für Eigentum *Öffnung*
 
+**Verbesserungen**
+
+- Zur Version wechseln *9.1.2* von ZwaveJsUI
+
 # 10.11.2023
 
 **Behebt**

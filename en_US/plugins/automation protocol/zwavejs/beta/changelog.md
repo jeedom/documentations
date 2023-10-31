@@ -15,6 +15,10 @@
 - Changing the configuration *Aeotec Zwa012*  to use the properties
 - Modification of a subproperty *simple-notification* for property *Opening*
 
+**Improvements**
+
+- Switch to version *9.1.2* by ZwaveJsUI
+
 # 11/10/2023
 
 **Fixes**
