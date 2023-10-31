@@ -2,20 +2,20 @@
 
 >**IMPORTANT**
 >
->Attention la version 4.4 est une mise à jour majeur de jeedom, meme si visuellement les changements pour vous seront minime tous le code de l'interface à été réécris (pour etre plus rapidement en particulier), de meme la gestion des dépendances php à été revu. Meme si l'équipement Jeedom et des betatesteurs a fait enormement de test il y a autant de version de jeedom qu'il y a de jeedom. Il n'est donc pas possible de garantir que ca marchera chez tous le monde dans 100% des cas. Nous vous conseillons donc de ne pas vous jeter sur la mise à jour.
->Pour rappel en cas de soucis vous pouvez ecrire au support (si vous avez un service pack ou plus) depuis votre page profils du market.
+>Attention la version 4.4 est une mise à jour majeure de Jeedom, même si visuellement les changements pour vous seront minimes tout le code de l'interface à été réécris (pour être plus rapide en particulier), de même la gestion des dépendances php a été revue. Même si l'équipe Jeedom et des betatesteurs ont fait énormement de tests il y a autant de version de Jeedom différentes qu'il y a de Jeedom installés. Il n'est donc pas possible de garantir que ca marchera chez tout le monde dans 100% des cas. Nous vous conseillons donc de ne pas vous jeter sur la mise à jour.
+>Pour rappel en cas de soucis vous pouvez écrire au support (si vous avez un service pack ou plus) depuis votre page profil du market.
 
 
 ### 4.4 : Pré-requis
 
-- Debian 10 Buster
+- Debian 11 Bulleyes
 - Php 7.3
 
 ### 4.4 : Nouveautés / Améliorations
 
 - **Historique** : La modale d'historique et la page Historique permettent d'utiliser les boutons *Week, Month, Year* pour recharger dynamiquement un historique plus large.
-- **Fenêtre de sélection d'image** : Ajout d'un menu contextuel permettant d'envoyer des images et de créer, renommer ou supprimer un dossier.
-- **Fenêtre de sélection d'icône** : Possibilité d'ajouter un paramètre `path` lors de l'appel à `jeedomUtils.chooseIcon` par un plugin pour afficher uniquement ses icônes.
+- **Fenêtre de sélection d'images** : Ajout d'un menu contextuel permettant d'envoyer des images et de créer, renommer ou supprimer un dossier.
+- **Fenêtre de sélection d'icônes** : Possibilité d'ajouter un paramètre `path` lors de l'appel à `jeedomUtils.chooseIcon` par un plugin pour afficher uniquement ses icônes.
 - **Dashboard** : Possibilité d'afficher plusieurs objets côte à côte *(Réglages → Système → Configuration / Interface)*.
 - **Dashboard** : La fenêtre d'édition des tuiles en Mode Edition permet de renommer les commandes.
 - **Dashboard** : En disposition tableau, possibilité d'insérer des attributs HTML *(colspan/rowspan notamment)* pour chaque cellule.
@@ -34,14 +34,14 @@
 - **Thème** : Suppression du thème **Core2019 Legacy** *(alpha)*.
 - **Rapport** : Possibilité de choisir le thème lors d'un rapport sur une page Jeedom.
 - **Menu Jeedom** : Un délai de 0.25s a été introduit sur l'ouverture des sous-menus.
-- **Systeme** : Possibilitée d'ajout des commandes personalisées (voir documentation)
+- **Système** : Possibilité d'ajout des commandes personalisées (voir documentation)
 
 
 ### 4.4 : Autre
 
 - **Core** : Début du développement en pure js, sans jQuery. Voir [doc dev](https://doc.jeedom.com/fr_FR/dev/core4.4).
 - **Core** : Listing plus détaillé des périphériques USB.
-- **Core** : Un menu contextuel a été ajouté à différents endroits au niveau des cases à cocher pour les sélectionner toutes, aucunes, ou inverser la sélection *(voir [Doc dev](https://doc.jeedom.com/fr_FR/dev/core4.4))*.
+- **Core** : Un menu contextuel a été ajouté à différents endroits au niveau des cases à cocher pour les sélectionner toutes, aucune, ou inverser la sélection *(voir [Doc dev](https://doc.jeedom.com/fr_FR/dev/core4.4))*.
 - **Lib** : Update Highchart v9.3.2 vers v10.3.2 (Le module *solid-gauge* n'est plus importé).
 - **Commandes** :  Ajout d'une option *(alpha)* pour ne pas exécuter une action si l'équipement est déjà dans l'état attendu.
 
@@ -55,12 +55,12 @@
 
 > **Widgets**
 >
-> Les widgets Core ont été réécrit en pure js / css. Il faudra éditer le Dashboard *(Edition puis bouton ⁝ sur les tuiles)* et utiliser l'option *Retour à la ligne après* sur certaines commandes pour retrouver le même aspect visuel.
+> Les widgets Core ont été réécrits en pure js / css. Il faudra éditer le Dashboard *(Edition puis bouton ⁝ sur les tuiles)* et utiliser l'option *Retour à la ligne après* sur certaines commandes pour retrouver le même aspect visuel.
 > Tous les widgets Core supportent maintenant l'affichage des *time*, en ajoutant un paramètre optionnel *time* / *duration* ou *date*.
 
 > **Boites de dialogue**
 >
-> Toutes les boites de dialogue (bootstrap, bootbox, jQuery UI) ont été migré sur une lib interne du Core (jeeDialog) développée spécialement. Les boites de dialogue redimensionnable ont maintenant un bouton pour passer en *fullscreen*.
+> Toutes les boites de dialogue (bootstrap, bootbox, jQuery UI) ont été migrées sur une lib interne du Core (jeeDialog) développée spécialement. Les boites de dialogues redimensionnables ont maintenant un bouton pour passer en *fullscreen*.
 
 
 # Changelog Jeedom V4.3
