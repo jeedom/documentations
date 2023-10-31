@@ -8,15 +8,15 @@ Odroid C2               | Stabil                  |
 SMART                   | Stabil                  |                          
 RPI1                    | Stabil                  |                          
 RPI2                    | Stabil                  |                          
-RPI3                    | Stabil                  | Seien Sie vorsichtig, wenn Sie ein Razberry verwenden, das WLAN / Bluetooth wird nicht funktionieren
-RPI4                    | Stabil                  | Seien Sie vorsichtig, wenn Sie ein Razberry verwenden, das WLAN / Bluetooth wird nicht funktionieren
+RPI3                    | Stabil                  | Seien Sie vorsichtig, wenn Sie ein Razberry verwenden, WLAN/Bluetooth funktioniert nicht
+RPI4                    | Stabil                  | Seien Sie vorsichtig, wenn Sie ein Razberry verwenden, WLAN/Bluetooth funktioniert nicht
 64 Bit                 | Stabil                  |                          
 32 Bit                 | Wird nicht unterstützt            |                          
 VMware                  | Stabil                  | Keine Unterstützung für VMware, nur für Jeedom.
 
 Das Jeedom-Team empfiehlt Sie (abhängig von Ihrem Budget) :
 
-- Jeedom Smart (alles ist vorinstalliert, Sie müssen nichts tun)
+- Jeedom Atlas oder Luna (alles ist vorinstalliert, Sie müssen nichts tun)
 - Odroid C2 (bestes Leistungs- / Preisverhältnis)
 - Intel Nuc gen (extreme Leistung, siehe die Tutorial-Kategorie für die Auswahl in den verschiedenen Modellen und Installation)
 - RPI4

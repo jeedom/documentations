@@ -1,6 +1,6 @@
 # Cloud-Dienst
 
-Der Cloud-Dienst ist ein Jeedom-Dienst, mit dem Sie die Möglichkeiten Ihres Jeedom einfach und schnell erweitern können. Seine Aufgabe ist es, als Gateway zwischen Ihrem Jeedom und den Cloud-Diensten eines anderen Dienstanbieters zu fungieren.
+Der Cloud-Dienst ist ein Jeedom-Dienst, mit dem Sie die Möglichkeiten Ihres Jeedom einfach und schnell erweitern können. Seine Rolle besteht darin, als Gateway zwischen Ihrem Jeedom und den Cloud-Diensten anderer Dienstanbieter zu dienen.
 
 Um Missbrauch zu vermeiden, unterliegt der Service abhängig von Ihrer Art des Service Packs Quoten.
 
@@ -29,4 +29,4 @@ Um Missbrauch zu vermeiden, unterliegt der Service abhängig von Ihrer Art des S
 
 
 
-\* Der TTS-Dienst ist etwas Besonderes. Die Zählung erfolgt nur für die Sätze, die Sie nie von Ihrem Jeedom angefordert haben. Sätze werden in Stapeln von 160 Zeichen geschnitten. Jedes Los zählt für 1 Quote
+\* Der TTS-Dienst ist etwas Besonderes, die Zählung erfolgt nur für die Sätze, die nie von Ihrem Jeedom angefordert wurden. Die Sätze sind in Stapel von 160 Zeichen unterteilt. Jedes Los zählt für 1 Quote

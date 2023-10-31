@@ -6,7 +6,7 @@ The first thing to do is to connect in SSH to Jeedom (with a software type kitty
 
 >**Reminders**
 >
->By default, the SSH connection identifiers on jeedom (smart, mini and mini +) are either :
+>By default, the SSH connection credentials on Jeedom (Luna, Atlas, Smart, Mini and Mini+) are either :
 >- Username : jeedom, password Mjeedom96
 >- Username : root, password Mjeedom96
 
@@ -24,7 +24,7 @@ php /var/www/html/core/php/jeecli.php user password [username] [password]
 
 With : 
 - ``[username]`` : user name
-- ``[password]`` : the new password, be careful you don't need spaces and a minimum length of 8 characters
+- ``[password]`` : the new password, be careful, no spaces are required and a minimum length of 8 characters
 
 # > 3.3.50
 
@@ -32,7 +32,7 @@ The first thing to do is to connect in SSH to Jeedom (with a software type kitty
 
 >**Reminders**
 >
->By default, the SSH login credentials on jeedom (Atlas, Smart, Mini and Mini +) are either :
+>By default, the SSH connection credentials on Jeedom (Luna, Atlas, Smart, Mini and Mini+) are either :
 >- Username : jeedom, password Mjeedom96
 >- Username : root, password Mjeedom96
 
@@ -42,7 +42,7 @@ Then you just have to type :
 php /var/www/html/install/reset_password.php
 ````
 
-The system will ask you for the username for which you have lost the password (you have the list of all users in case), once typed (attention to the capital letter / lowercase) press the enter key. And you will have your new password.
+The system will ask you for the username for which you lost the password (you have the list of all users just in case), once typed (be careful with upper/lower case) press the enter key. And you will have your new password.
 
 Example :
 
@@ -86,7 +86,7 @@ Here. You can disconnect / reconnect to your Jeedom with the adminTmp / admin id
 
 >**IMPORTANT**
 >
->Remember once your access is recovered to delete the adminTmp user, leaving it could be a potential security breach for which you are solely responsible.
+>Don't forget once you have regained your access to delete the adminTmp user, leaving it could be a potential security breach for which you would be solely responsible.
 
 >**IMPORTANT**
 >

@@ -2,14 +2,14 @@
 
 We will see here how to create a VM under VMware.
 
-Before there is an important thing to know about VMware, there are 2 ways to manage it :
+There is a little important thing to know about VMware, there are 2 ways to manage it :
 
 -   the web interface (present by default in 6.0 update 2, or through a vib for the other versions), it is accessed by IP\_ESXI / ui
 -   the heavy and historical client of VMware (vSphere client)
 
-Here I will mainly use the web interface because I think that it is the future of VMware which increasingly abandons the thick client (besides all the new features since the 5.1 cannot be used with the thick client).
+Here I will mainly use the web interface because I think it is the future of VMware which is increasingly abandoning the heavy client (in fact all the new features since 5.1 cannot be used with the thick client).
 
-Also note that the web interface is still being implemented at VMware, indeed you will surely encounter some bugs or slowdowns with but a little refresh of the page and it starts again without worries.
+Also note that the web interface is still being implemented at VMware, in fact you will surely encounter some bugs or slowdowns but a small refresh of the page and it will start again without problems.
 
 # Connection to the web interface
 
@@ -28,14 +28,14 @@ Enter your login credentials to ESXI :
 As you can see the interface is quite nice and allows you to do a lot of things, I will not go into details but you can already from this screen :
 
 -   stop / restart the ESXi
--   see resource usage (CPU, memory and disk)
+-   view resource usage (CPU, memory and disk)
 -   have information about your system (operating time, version of VMware, version of the bios, display of datastores)
 -   button to create a VM (we will use it right after)
 -   an action button which allows you to switch to maintenance mode (useful if you have an ESXi cluster otherwise you will never use it), activate / deactivate the SSH service (is used in the backup configuration tutorial)
 
 # Sending installation ISO
 
-After downloading your installation ISO ([here](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) for example for debian 8.5 in netinstall), you need to put it on your datastore.
+After downloading your installation ISO ([here](https://cdimage.debian.org/cdimage/archive/11.8.0/amd64/iso-cd/debian-11.8.0-amd64-netinst.iso) for example for debian 11.8 in netinstall), you need to put it on your datastore.
 
 For that click on datastore :
 
@@ -83,13 +83,13 @@ Indicate the target datastore :
 
 ![vmware.createvm8](images/vmware.createvm8.PNG)
 
-Here you will be able to configure the parameters of your machine (hard disk, cpu, memory…) :
+Here you will be able to configure the parameters of your machine (hard disk, CPU, memory, etc.)) :
 
 ![vmware.createvm9](images/vmware.createvm9.PNG)
 
 > **NOTE**
 >
-> All these parameters can be modified afterwards without worries, note all the same that it is not really possible to reduce the size of a hard disk, we can increase it (but you have to know how to manage this at the level of the 'OS then) but not reduce it.
+> All these parameters can be modified afterwards without any problems, note however that it is not really possible to reduce the size of a hard drive, you can increase it (but you have to know how to manage this at the level of the hard drive). 'OS next) but not reduce it.
 
 In the CD / DVD drive, select "ISO file database" :
 

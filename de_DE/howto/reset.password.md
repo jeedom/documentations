@@ -6,7 +6,7 @@ Das erste, was Sie tun müssen, ist, in SSH eine Verbindung zu Jeedom herzustell
 
 >**Erinnerungen**
 >
->Standardmäßig sind die SSH-Verbindungskennungen bei jeedom (smart, mini und mini +) entweder :
+>Standardmäßig sind die SSH-Verbindungsanmeldeinformationen auf Jeedom (Luna, Atlas, Smart, Mini und Mini+) entweder :
 >- Benutzername : jeedom, Passwort Mjeedom96
 >- Benutzername : root, Passwort Mjeedom96
 
@@ -24,7 +24,7 @@ php /var/www/html/core/php/jeecli.php user password [username] [password]
 
 Mit : 
 - ``[username]`` : Nutzername
-- ``[password]`` : das neue Passwort, achten Sie darauf, dass Sie keine Leerzeichen und eine Mindestlänge von 8 Zeichen benötigen
+- ``[password]`` : Seien Sie beim neuen Passwort vorsichtig, es sind keine Leerzeichen erforderlich und eine Mindestlänge von 8 Zeichen
 
 # > 3.3.50
 
@@ -32,7 +32,7 @@ Das erste, was Sie tun müssen, ist, in SSH eine Verbindung zu Jeedom herzustell
 
 >**Erinnerungen**
 >
->Standardmäßig sind die SSH-Anmeldedaten auf jeedom (Atlas, Smart, Mini und Mini +) entweder :
+>Standardmäßig sind die SSH-Verbindungsanmeldeinformationen auf Jeedom (Luna, Atlas, Smart, Mini und Mini+) entweder :
 >- Benutzername : jeedom, Passwort Mjeedom96
 >- Benutzername : root, Passwort Mjeedom96
 
@@ -42,7 +42,7 @@ Dann müssen Sie nur noch tippen :
 php /var/www/html/install/reset_password.php
 ````
 
-Das System fragt Sie nach dem Benutzernamen, für den Sie das Passwort verloren haben (Sie haben die Liste aller Benutzer für den Fall), und drücken Sie nach der Eingabe (Groß- / Kleinschreibung beachten) die Eingabetaste. Und Sie haben Ihr neues Passwort.
+Das System fragt Sie nach dem Benutzernamen, für den Sie das Passwort verloren haben (für alle Fälle haben Sie die Liste aller Benutzer). Drücken Sie nach der Eingabe (achten Sie auf die Groß-/Kleinschreibung) die Eingabetaste. Und Sie haben Ihr neues Passwort.
 
 Beispiel :
 
@@ -86,7 +86,7 @@ Hier. Sie können die Verbindung zu Ihrem Jeedom mit den Kennungen adminTmp / ad
 
 >**Wichtig**
 >
->Denken Sie daran, dass nach dem Wiederherstellen Ihres Zugriffs zum Löschen des adminTmp-Benutzers möglicherweise eine Sicherheitsverletzung vorliegt, für die Sie allein verantwortlich sind.
+>Vergessen Sie nicht, den adminTmp-Benutzer zu löschen, sobald Sie Ihren Zugriff wiedererlangt haben. Das Verlassen könnte eine potenzielle Sicherheitsverletzung darstellen, für die Sie allein verantwortlich wären.
 
 >**Wichtig**
 >

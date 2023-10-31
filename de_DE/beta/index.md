@@ -3,7 +3,7 @@
 
 ### Definition
 
-Ein Betatester ist ein Benutzer, der Softwareversionen testet, bevor sie für alle Benutzer freigegeben werden. Betatests ermöglichen die Meldung von Fehlern (z. B. Funktionsfehler oder Bedenken bezüglich der Benutzeroberfläche) während der Entwicklungsphase. Es ist daher eine wichtige Quelle der Verbesserung für das Projekt, die frische Ideen einbringen und die Neuheiten unter realen Bedingungen testen kann. 
+Ein Betatester ist ein Benutzer, der Versionen der Software testet, bevor sie für alle Benutzer freigegeben werden. Betatests ermöglichen die Meldung von Fehlern (z. B. Funktionsfehler oder Bedenken bezüglich der Benutzeroberfläche) während der Entwicklungsphase. Es ist daher eine wichtige Quelle der Verbesserung für das Projekt, die frische Ideen einbringen und die Neuheiten unter realen Bedingungen testen kann. 
 
 ### Vorsichtsmaßnahmen
 
@@ -44,7 +44,7 @@ Diese Aufzüge sind gemacht auf **[Gemeinschaft](https://community.jeedom.com/)*
 
 In diesem Abschnitt kann ein Tester auch ein Thema erstellen, um eine Verbesserung vorzuschlagen.
 
-> Jedes Thema in diesem Abschnitt muss mit dem Tag der in Entwicklung befindlichen Version identifiziert werden. Beispielsweise : Tag v4_4 (ein Unterstrich wird verwendet, weil Punkte in Tags auf Discourse verboten sind.
+> Jedes Thema in diesem Abschnitt muss mit dem Tag der in Entwicklung befindlichen Version identifiziert werden. Beispielsweise : Tag v4_4 (ein Unterstrich wird verwendet, da Punkte in Tags auf Discourse verboten sind.
 
 Dieser Abschnitt ist nicht öffentlich zugänglich. Um darauf zuzugreifen, müssen Sie ein Formular ausfüllen, damit das Jeedom-Team geben kann [Zugriff auf Ihr Konto](https://blog.jeedom.com/jeedom-partenaire-beta-testeur/).
 
@@ -56,7 +56,7 @@ In Version **Stabil**, jede Änderung führt zu einer Änderung der Version (ger
 
 In Version **Beta** und **Alpha**, Änderungen sind viel häufiger (mehrmals am Tag) und führen nicht zu einem Versionswechsel. Sie erscheinen daher nicht im *Update-Center*, Es obliegt dem Tester, den Core regelmäßig zu aktualisieren, vorzugsweise vor jeder Testphase und bevor ein Problem gemeldet wird, um sicherzustellen, dass es nicht bereits früher behoben wurde.
 
-> Das Team ändert manchmal die Version während der Entwicklung, um bestimmte Phasen zu markieren. Aber im Gegensatz zur Stable-Version werden viele Änderungen zwischen zwei Versionen vorgenommen. Jeder Tester kann Commits auf Branches folgen [Github](https://github.com/jeedom/core).
+> Das Team ändert manchmal die Version während der Entwicklung, um bestimmte Phasen zu markieren. Aber im Gegensatz zur stabilen Version werden viele Änderungen zwischen zwei Versionen vorgenommen. Jeder Tester kann Commits auf Branches folgen [Github](https://github.com/jeedom/core).
 
 ### Changelog
 

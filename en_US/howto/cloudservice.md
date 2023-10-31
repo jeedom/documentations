@@ -1,6 +1,6 @@
 # Cloud service
 
-The cloud service is a Jeedom service allowing you to expand the possibilities of your Jeedom easily and quickly. Its role is to act as a gateway between your Jeedom and the cloud services of another service provider.
+The cloud service is a Jeedom service allowing you to expand the possibilities of your Jeedom easily and quickly. Its role is to serve as a gateway between your Jeedom and the cloud services of other service providers.
 
 To avoid any abuse, the service is subject to quotas depending on your type of service pack.
 
@@ -29,4 +29,4 @@ To avoid any abuse, the service is subject to quotas depending on your type of s
 
 
 
-\* The TTS service is a bit special, the count is only made on the sentences never requested from your Jeedom. Sentences are cut in batches of 160 characters. Each lot counts for 1 quota
+\* The TTS service is a bit special, the count is only done on the sentences never requested from your Jeedom. The sentences are divided into batches of 160 characters. Each lot counts for 1 quota

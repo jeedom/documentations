@@ -477,11 +477,11 @@
     },
     "contribute\/index.md": {
         "Contribuer au développement de Jeedom": "Contribuer au développement de Jeedom",
-        "Les contributions, quelles soient sur le Core ou sur le Documentation, sont toujours bienvenues, et nous faisons le maximum pour les traiter rapidement": "Les contributions, quelles soient sur le Core ou sur le Documentation, sont toujours bienvenues, et nous faisons le maximum pour les traiter rapidement",
+        "Les contributions, qu'elles soient sur le Core ou sur la Documentation, sont toujours bienvenues et nous faisons le maximum pour les traiter rapidement": "Les contributions, qu'elles soient sur le Core ou sur la Documentation, sont toujours bienvenues et nous faisons le maximum pour les traiter rapidement",
         "Une faute sur la documentation, un passage qui pourrait être plus clair, un bug sur le Core": "Une faute sur la documentation, un passage qui pourrait être plus clair, un bug sur le Core",
         "Les contributions sont là pour çà": "Les contributions sont là pour çà",
         "Les Pull Request ne sont pas toujours acceptés, mais dans le cas contraire nous essayons d'expliquer pourquoi, afin qu'un prochain PR le soit": "Les Pull Request ne sont pas toujours acceptés, mais dans le cas contraire nous essayons d'expliquer pourquoi, afin qu'un prochain PR le soit",
-        "Jeedom n'est pas sensé tout faire pour tout le monde, certaines choses sont plus propice aux plugins par exemple": "Jeedom n'est pas sensé tout faire pour tout le monde, certaines choses sont plus propice aux plugins par exemple",
+        "Jeedom n'est pas sensé tout faire pour tout le monde, certaines choses sont plus propices aux plugins par exemple": "Jeedom n'est pas sensé tout faire pour tout le monde, certaines choses sont plus propices aux plugins par exemple",
         "Les effets de bords de modifications à l'apparence simple peuvent aussi être importants": "Les effets de bords de modifications à l'apparence simple peuvent aussi être importants",
         "C'est pourquoi nous pouvons décider de ne pas intégrer certaines demandes, ou de le faire différemment": "C'est pourquoi nous pouvons décider de ne pas intégrer certaines demandes, ou de le faire différemment",
         "Community": "Community",

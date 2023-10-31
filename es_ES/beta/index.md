@@ -3,7 +3,7 @@
 
 ### Definición
 
-Un Beta Tester es un usuario que prueba versiones de software antes de que se publiquen para todos los usuarios. Las pruebas beta permiten informar errores (errores funcionales o problemas de la interfaz de usuario, por ejemplo) durante la fase de desarrollo. Por tanto, es una importante fuente de mejora para el proyecto, que puede aportar ideas frescas y probar las novedades en condiciones reales. 
+Un Beta Tester es un usuario que prueba las versiones del software antes de que se lancen a todos los usuarios. Las pruebas beta permiten informar errores (errores funcionales o problemas de la interfaz de usuario, por ejemplo) durante la fase de desarrollo. Por tanto, es una importante fuente de mejora para el proyecto, que puede aportar ideas frescas y probar las novedades en condiciones reales. 
 
 ### Precauciones
 
@@ -44,7 +44,7 @@ Estos ascensores se realizan en **[Comunidad](https://community.jeedom.com/)** e
 
 También es en esta sección donde un evaluador puede crear un tema para proponer una mejora.
 
-> Cada tema de esta sección debe identificarse con la etiqueta de la versión en desarrollo. Por ejemplo : etiqueta v4_4 (se usa un guión bajo porque los puntos están prohibidos en las etiquetas en Discourse.
+> Cada tema de esta sección debe identificarse con la etiqueta de la versión en desarrollo. Por ejemplo : etiqueta v4_4 (se utiliza un guión bajo porque los puntos están prohibidos en las etiquetas de Discourse.
 
 Esta sección no es de acceso público. Para acceder a él, debe completar un formulario para que el equipo de Jeedom pueda dar [acceso a su cuenta](https://blog.jeedom.com/jeedom-partenaire-beta-testeur/).
 
@@ -56,7 +56,7 @@ En versión **Estable**, cada cambio provoca un cambio de versión (menor, por e
 
 En versión **Beta** y **Alfa**, los cambios son mucho más frecuentes (varias veces al día) y no provocan un cambio de versión. Por lo tanto, no aparecerán en el *Centro de actualización*, Depende del probador actualizar regularmente el Core, preferiblemente antes de cualquier fase de prueba y antes de informar un problema para asegurarse de que no se haya corregido antes.
 
-> El equipo a veces cambia de versión durante el desarrollo, para marcar ciertas fases. Pero a diferencia de la versión estable, se realizan muchos cambios entre dos versiones. Cada evaluador puede seguir las confirmaciones en las sucursales [Github](https://github.com/jeedom/core).
+> El equipo a veces cambia de versión durante el desarrollo, para marcar ciertas fases. Pero a diferencia de la versión Estable, se realizan muchos cambios entre dos versiones. Cada evaluador puede seguir las confirmaciones en las sucursales [Github](https://github.com/jeedom/core).
 
 ### Changelog
 

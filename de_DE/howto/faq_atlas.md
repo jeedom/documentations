@@ -2,4 +2,4 @@
 
 ## Während eines Marktverbindungstests I : "Konnte nicht aufgelöst werden...."
 
-Versuchen Sie, die Atlas-Box neu zu starten. Dies ist ein Problem während der DHCP-Aushandlung, das den DNS nicht gut wiederherstellt, ein Neustart der Box behebt das Problem (was normalerweise nur einmal auftritt))
+Versuchen Sie, die Atlas-Box neu zu starten. Hierbei handelt es sich um ein Problem während der DHCP-Aushandlung, bei dem der DNS nicht ordnungsgemäß wiederhergestellt wird. Ein Neustart der Box behebt das Problem (was im Allgemeinen nur einmal auftritt))

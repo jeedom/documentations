@@ -2,10 +2,10 @@
 
 # Automatic installation
 
-For an automatic installation, please follow the documentation corresponding to your type of system : 
+For automatic installation please follow the documentation corresponding to your system type : 
 
 - On a [VM](https://doc.jeedom.com/en_US/installation/vm)
-- On [bearemetal (type Intel Nuc)](https://doc.jeedom.com/en_US/installation/baremetal)
+- On [bare metal (Intel Nuc type)](https://doc.jeedom.com/en_US/installation/baremetal)
 
 # Manual installation
 
@@ -13,7 +13,7 @@ Here you will find the documentation to install Jeedom on Debian
 
 > **Important**
 >
-> Debian 10 (Buster) is the officially supported distribution for version 3.3.X or more of Jeedom (but Stretch remains perfectly functional). If you do not have a minimum command of Linux environments, we advise you to start with a Smart.
+> Debian 10 (Buster) is the officially supported distribution for version 3.3.X from Jeedom (but Stretch remains perfectly functional).  Debian 11 is the official distribution for version 4.xx. If you do not have a minimum understanding of Linux environments, we advise you to opt for a Jeedom box such as Luna, Atlas or Smart.
 
 > **Important**
 >
