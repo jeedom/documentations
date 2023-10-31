@@ -4,7 +4,7 @@ Jeedom peut être installé sur différents composants hardware :
 
 -   un Raspberry Pi 2, 3 ou 4 
 -   un NAS Synology
--   tout système Linux basé sur Debian 10 (Buster)
+-   tout système Linux basé sur Debian 11 (Bullseye)
 -   Freebox Delta
 
 Vous pouvez aussi acheter une box toute faite avec Jeedom préinstallé qui contient en plus un service pack (plus de support et de services) et des plugins offerts :
@@ -29,8 +29,8 @@ Soit un total de 125 € pour une box domotique open source avec une maîtrise c
 > **Tip**
 >
 > - Il est possible d’ajouter ou de changer par une antenne Rfxcom, ou une clef enOcean, etc. 
-> - En principe, il vous faut une clef USB par protocole suplémentaire. En fonction de leur nombre et de leur consommation cumulée, sur un Raspberry Pi vous pouvez avoir besoin d'un hub USB complémentaire avec son alimentation dédiée. 
-> - Pour la clef Z-Wave Aeotec Gen 5 en utilisation cumulée avec un Raspberry Pi 4 (modèles antérieurs non concernés), il faut en utliser une récente si vous souhaitez vous affranchir d'un hub USB. Se renseigner et se fournir chez un vendeur d'équipement domotiques.
+> - En principe, il vous faut une clef USB par protocole supplémentaire. En fonction de leur nombre et de leur consommation cumulée, sur un Raspberry Pi vous pouvez avoir besoin d'un hub USB complémentaire avec son alimentation dédiée. 
+> - Pour la clef Z-Wave Aeotec Gen 5 en utilisation cumulée avec un Raspberry Pi 4 (modèles antérieurs non concernés), il faut en utliser une récente si vous souhaitez vous affranchir d'un hub USB. Se renseigner et se fournir chez un vendeur d'équipements domotiques.
 > - Sur RPi 4, il est vivement conseillé de remplacer la carte microSD par un disque dur mSATA USB3, directement relié au port USB3 avec boot natif. Les cartes microSD ont une durée de vie très limitée en échange de données intensif: à ne réserver que pour de courtes périodes de tests.
 
 > **Tip**
@@ -55,6 +55,6 @@ Je veux installer Jeedom :
 - Sur une [VM](https://doc.jeedom.com/fr_FR/installation/vm)
 - Sur un [Docker](https://doc.jeedom.com/fr_FR/installation/docker). Note : Nous ne recommandons pas ce mode d'installation qui rend l'utilisation de certains équipements compliquée à cause du mode de réseaux de Docker
 - Sur un [NAS Synology](https://doc.jeedom.com/fr_FR/installation/synology). Note : Nous ne recommandons pas ce mode d'installation qui rend l'utilisation de certains équipements compliquée à cause du mode de réseaux de Docker
-- Sur du [bearemetal (type Intel Nuc)](https://doc.jeedom.com/fr_FR/installation/baremetal)
+- Sur du [bare metal (type Intel Nuc)](https://doc.jeedom.com/fr_FR/installation/baremetal)
 
 Une fois l'installation faite, n'oubliez pas de consulter la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
