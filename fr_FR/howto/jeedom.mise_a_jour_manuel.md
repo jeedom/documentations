@@ -1,4 +1,4 @@
-# Mise à jour en ligne de commande de jeedom
+# Mise à jour en ligne de commande de Jeedom
 
 Nous allons voir comment mettre à jour manuellement votre Jeedom *(si vous ne pouvez plus accéder à l'interface par exemple)*
 
