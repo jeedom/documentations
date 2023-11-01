@@ -4,6 +4,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- ATTENTION !!!!!! Change in behavior on the shutters, reversal of direction, the plugin no longer indicates the % closing but the % opening
+
+
 # 02/07/2022
 
 - Update for Jeedom 4.2

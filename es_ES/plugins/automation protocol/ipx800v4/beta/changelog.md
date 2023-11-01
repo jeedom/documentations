@@ -4,6 +4,9 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- ATENCIÓN !!!!!! Cambio de comportamiento en las persianas, inversión de dirección, el complemento ya no indica el % de cierre sino el % de apertura
+
+
 # 07/02/2022
 
 - Actualización para Jeedom 4.2

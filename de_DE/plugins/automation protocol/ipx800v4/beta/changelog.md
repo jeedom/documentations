@@ -4,6 +4,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- AUFMERKSAMKEIT !!!!!! Verhaltensänderung an den Rollläden, Richtungsumkehr, das Plugin zeigt nicht mehr die %-Schließung, sondern die %-Öffnung an
+
+
 # 07.02.2022
 
 - Update für Jeedom 4.2
