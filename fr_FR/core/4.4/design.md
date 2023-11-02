@@ -16,7 +16,7 @@ Dans le menu (clic droit), nous retrouvons les actions suivantes :
 
 - **Designs** : Affiche la liste de vos designs et permet d’y accéder.
 - **Edition** : Permet de passer en mode édition.
-- **Plein écran** : Permet d’utiliser toute la page Internet, ce qui enlèvera le menu du haut de Jeedom.
+- **Plein écran** : Permet d’utiliser toute la page Internet, ce qui enlèvera le menu de Jeedom du haut.
 - **Ajouter graphique** : Permet d’ajouter un graphique.
 - **Ajouter texte/html** : Permet d’ajouter du texte ou du code HTML/JavaScript.
 - **Ajouter scénario** : Permet d’ajouter un scénario.
