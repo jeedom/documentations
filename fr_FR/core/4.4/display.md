@@ -1,30 +1,30 @@
 # Résumé Domotique
 **Analyse → Résumé domotique**
 
-Cette page permet de rassembler sur une seule page les différents éléments configurés sur son Jeedom. Elle donne également l’accès à des fonctions d’organisation des équipements et des commandes, à leur configuration avancée ainsi qu’à des possibilités de configuration d’affichage.
+Cette page permet de rassembler sur une seule page les différents éléments configurés sur son Jeedom. Elle donne également l’accès à des fonctions d’organisation des équipements et des commandes à leur configuration avancée ainsi qu’à des possibilités de configuration d’affichage.
 
 {% include lightbox.html src="images/doc-display_01.jpg" data="Display" title="Display" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 ## Informations
 
 Sur le haut de la page, on retrouve :
-- **Nombre d’objets** : Nombre total d’objets configurés dans notre Jeedom, en comptant les éléments inactifs.
+- **Nombre d’objets** : Nombre total d’objets configurés dans Jeedom, en comptant les éléments inactifs.
 - **Nombre d’équipements** : Idem pour les équipements.
 - **Nombre de commandes** : Idem pour les commandes.
 - **Inactif** : Cochez cette case si vous voulez que les éléments inactifs soient bien affichés sur cette page.
 - **Rechercher** : Permet de rechercher un élément particulier. Ce peut être le nom d’un équipement, d’une commande ou le nom du plugin par lequel a été créé l’équipement.
 - **Export CSV** : Permet d'exporter tous les objets, équipements et leurs commandes dans un fichier CSV.
 
-Vous avez aussi un onglet **Historique**, affichant l'historique des commandes, équipements, objets, vues, design, design 3d, scénarios et utilisateurs supprimés.
+Vous avez aussi un onglet **Historique de suppression**, affichant l'historique des commandes, équipements, objets, vues, design, design 3d, scénarios et utilisateurs supprimés.
 
 ## Les cadres objet
 
-En dessous on retrouve un cadre par objet. Dans chaque cadre, on trouve la liste des équipements  qui ont pour parent cet objet.
+En dessous on retrouve un cadre par objet. Dans chaque cadre, on trouve la liste des équipements qui ont pour parent cet objet.
 Le premier cadre **Aucun** représente les équipements qui n’ont pas de parent affecté.
 
 Pour chaque objet, à côté de son libellé, deux boutons sont disponibles.
 - Le premier sert à ouvrir la page de configuration de l’objet dans un nouvel onglet.
-- Le deuxième apporte quelques informations sur l’objet,
+- Le deuxième apporte quelques informations sur l’objet.
 
 > **Tip**
 >
@@ -32,20 +32,20 @@ Pour chaque objet, à côté de son libellé, deux boutons sont disponibles.
 
 > **Tip**
 >
-> Avec un cliquer-déposer sur les objets ou équipements, vous pouvez changer leur ordre ou même les affecter à un autre objet. C’est à partir de l’ordre établi dans cette page que l’affichage du Dashboard est calculé.
+> Avec un cliquer-déposer sur les équipements, vous pouvez changer leur ordre ou même les affecter à un autre objet. C’est à partir de l’ordre établi dans cette page que l’affichage du Dashboard est calculé.
 
 ## Les équipements
 
 Sur chaque équipement on retrouve :
 
-- Une **case à cocher** pour sélectionner l’équipement (vous pouvez en sélectionner plusieurs). Si au moins un équipement est sélectionné, vous avez des boutons d’action qui apparaissent en haut à gauche  pour **supprimer**, rendre **visible**/**invisible**,  **actif**/**inactif** les équipements sélectionnés.
+- Une **case à cocher** pour sélectionner l’équipement (vous pouvez en sélectionner plusieurs). Si au moins un équipement est sélectionné, vous avez des boutons d’action qui apparaissent en haut à droite pour **supprimer**, rendre **visible**/**invisible**,  **actif**/**inactif** les équipements sélectionnés.
 - L'**id** de l'équipement.
 - Le **type** d’équipement : Identifiant du plugin auquel il appartient.
 - Le **nom** de l’équipement.
 - **Inactif** (petite croix) : Signifie que l’équipement est inactif (si elle n’y est pas, l’équipement est actif).
 - **Invisible** (œil barré) : Signifie que l’équipement est invisible (s’il n’y est pas, l’équipement est visible).
 
-Si le plugin de l'équipement est désactivé, les deux icône à droite n'apparaissent pas:
+Si le plugin de l'équipement est désactivé, les deux icônes à droite n'apparaissent pas:
 - **Lien externe** (carré avec une flèche) : Permet d’ouvrir dans un nouvel onglet la page de configuration de l’équipement.
 - **Configuration avancée** (roue crantée) : permet d’ouvrir la fenêtre de configuration avancée de l’équipement.
 
@@ -132,7 +132,7 @@ Cet onglet permet d’avoir les informations sur la batterie de l’équipement 
 
 Dessous, vous pourrez aussi définir les seuils spécifiques d’alerte de batterie pour cet équipement. Si vous laissez les cases vides, ceux sont les seuils par défaut qui seront appliqués.
 
-On peut également gérer le timeout, en minutes, de l’équipement. Par exemple, 30 indique à jeedom que si l’équipement n’a pas communiqué depuis 30 minutes, alors il faut le mettre en alerte.
+On peut également gérer le timeout, en minutes, de l’équipement. Par exemple, 30 indique à Jeedom que si l’équipement n’a pas communiqué depuis 30 minutes, alors il faut le mettre en alerte.
 
 > **Tip**
 >
