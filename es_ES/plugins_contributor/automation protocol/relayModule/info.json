@@ -1,35 +1,30 @@
 {
-    "id": "mybin",
-    "name": "My Bin",
-    "description": {
-        "fr_FR": "Poubelle verte ? Poubelle jaune ? Laquelle faut-il sortir ce soir ? Utilisez ce petit plugin pour ne plus avoir à vous en rappeler ! ",
-        "en_US": "Green bin? Yellow bin? Which one needs to be put out tonight? Use this simple plugin for not having to remember it anymore!"
-    },
-    "utilization": "Créez un équipement et définissez vos critères de ramassage et notification de vos poubelles. (Auteur original @hugoKs3)",
-    "licence": "AGPL",
-    "author": "tomitomas",
-    "require": "4.2",
-    "category": "organization",
-    "hasDependency": false,
-    "hasOwnDeamon": false,
-    "maxDependancyInstallTime": 0,
-    "changelog": "https://tomitomas.github.io/jeedom_doc/MyBin/#language#/changelog",
-    "changelog_beta": "https://tomitomas.github.io/jeedom_doc/MyBin/#language#/changelog_beta",
-    "documentation": "https://tomitomas.github.io/jeedom_doc/MyBin/#language#/",
-    "documentation_beta": "https://tomitomas.github.io/jeedom_doc/MyBin/#language#/",
-    "link": {
-        "forum": "https://community.jeedom.com/t/plugin-mybin-actualties/61993"
-    },
-    "language": [
-        "fr_FR",
-        "en_US"
-    ],
-    "compatibility": [
-        "miniplus",
-        "smart",
-        "rpi",
-        "docker",
-        "diy",
-        "v4"
-    ]
+	"id": "MQTTDiscovery",
+	"name": "MQTT Discovery",
+	"description": "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' (ou 'HA Discovery') qui existe sous home assistant. Cela permet d'utiliser Open MQTT Gateway (https://docs.openmqttgateway.com/) sur esp32 ou l'équivalent Theengs gateway (https://gateway.theengs.io/) sur pi. Il devient très facile de faire de la gestion de présence de tag bluetooth tel que les nuts ou d'intégrer une liste importante de matériel compatible BLEA. Mais c'est également compatible avec tout équipement supportant 'MQTT Discovery' tel que Nuki Smart Lock Pro, myfox2mqtt, zwave-js, zigbee2mqtt...",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.3",
+	"category": "automation protocol",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"rpi",
+		"diy",
+		"v4",
+		"atlas"
+	],
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-MQTTDiscovery",
+		"video": ""
+	},
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/"
 }
