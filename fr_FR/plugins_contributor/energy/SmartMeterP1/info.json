@@ -1,0 +1,31 @@
+{
+	"id": "SmartMeterP1",
+	"name": "SmartMeter P1",
+	"description": "Plugin de se connecter à un SmartMeter équipé d'un port P1",
+	"utilization": "",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.2",
+	"category": "energy",
+	"hasDependency": false,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 30,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-SmartMeterP1",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
+}

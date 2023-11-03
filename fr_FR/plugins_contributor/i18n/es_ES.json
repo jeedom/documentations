@@ -503,6 +503,8 @@
         "Il récupère les informations sur l'ECU, les micro-onduleurs, la puissance générée par module, les tensions, les températures": "Recupera información sobre ECU, microinversores, potencia generada por módulo, voltajes, temperaturas",
         "APSystems ECU": "ECU de sistemas AP",
         "Plugin récupérant les données d'un ECU d'APSystems dans Jeedom": "Complemento que recupera datos de una ECU de APSystems en Jeedom",
+        "SmartMeter P1": "Medidor inteligente P1",
+        "Plugin de se connecter à un SmartMeter équipé d'un port P1": "Complemento para conectarse a un SmartMeter equipado con un puerto P1",
         "Plugin pour se connecter à l'API RTE": "Complemento para conectarse a la API RTE",
         "Electricity Cost permet de récupérer les coûts journalier, hebdomadaire, mensuel et annuel": "Electricity Cost permite recuperar los costos diarios, semanales, mensuales y anuales",
         "Plugin pour se connecter à l'API Ecogaz": "Complemento para conectarse a la API de Ecogaz",
