@@ -4,6 +4,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 11/06/2023
+
+- transição para versão estável
+
 # 10/04/2023
 
 - Chamadas atualizadas para serem compatíveis com a API V5 Enedis Data-Connect
@@ -13,6 +17,10 @@
 - Adicionada opção para desabilitar dados por hora
 - Dependências removidas já necessárias para o núcleo
 - As configurações de cores do modelo de widget agora estão na configuração do equipamento, guia Exibir, seção Widget
+
+# 23/10/2022
+
+- transição para versão estável
 
 # 18/10/2022
 

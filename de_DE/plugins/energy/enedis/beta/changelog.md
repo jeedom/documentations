@@ -4,6 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 11.06.2023
+
+- Übergang zur stabilen Version
+
 # 10.04.2023
 
 - Aktualisierte Aufrufe, um mit der V5 Enedis Data-Connect API kompatibel zu sein
@@ -13,6 +17,10 @@
 - Option hinzugefügt, um stündliche Daten zu deaktivieren
 - Entfernte Abhängigkeiten, die bereits für den Kern benötigt wurden
 - Die Farbeinstellungen der Widget-Vorlage befinden sich jetzt in der Gerätekonfiguration, Registerkarte Anzeige, Abschnitt Widget
+
+# 23.10.2022
+
+- Übergang zur stabilen Version
 
 # 18.10.2022
 

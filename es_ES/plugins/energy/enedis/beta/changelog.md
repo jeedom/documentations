@@ -4,6 +4,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 11/06/2023
+
+- transición a la versión estable
+
 # 10/04/2023
 
 - Llamadas actualizadas para que sean compatibles con la API V5 Enedis Data-Connect
@@ -13,6 +17,10 @@
 - Opción agregada para deshabilitar datos por hora
 - Se eliminaron las dependencias que ya se necesitaban para el núcleo
 - La configuración de color de la plantilla del widget ahora está en la configuración del equipo, pestaña Pantalla, sección Widget
+
+# 23/10/2022
+
+- transición a la versión estable
 
 # 18/10/2022
 

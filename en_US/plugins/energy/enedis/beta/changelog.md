@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 06/11/2023
+
+- transition to stable version
+
 # 04/10/2023
 
 - Updated calls to be compatible with the V5 Enedis Data-Connect API
@@ -13,6 +17,10 @@
 - Added option to disable hourly data
 - Removed dependencies already needed for core
 - The widget template color settings are now in the equipment configuration, Display tab, Widget section
+
+# 10/23/2022
+
+- transition to stable version
 
 # 10/18/2022
 
