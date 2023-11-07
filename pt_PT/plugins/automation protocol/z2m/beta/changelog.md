@@ -4,6 +4,11 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 11/06/2023
+
+- Corrigido um bug no gerenciamento de grupo
+- Otimização de código
+- Corrigidos bugs durante a instalação do plugin (erro 500)
 
 # 22/09/2023
 

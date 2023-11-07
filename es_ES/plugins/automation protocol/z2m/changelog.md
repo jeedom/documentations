@@ -13,10 +13,6 @@
 >
 >Para aquellos que tienen problemas con un módulo inalcanzable después de la actualización anterior, deben restaurar una copia de seguridad previa a la actualización y luego rehacer la actualización. Pido disculpas sinceras por este error que les ocurre a algunos de ustedes, proviene de una función inesperada de zigbee2mqtt que no tengo en mis diferentes laboratorios.
 
->**IMPORTANTE**
->
-> Tenga en cuenta que todavía hay un error en esta versión donde vaciar el campo de versión puede causar un error, esto se está analizando actualmente y se corregirá en las próximas horas
-
 # 20/09/2023
 
 - Se corrigió un error en la versión zigbee2mqtt

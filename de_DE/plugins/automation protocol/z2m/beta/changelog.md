@@ -4,6 +4,11 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 11.06.2023
+
+- Ein Fehler in der Gruppenverwaltung wurde behoben
+- Codeoptimierung
+- Fehler während der Plugin-Installation behoben (Fehler 500)
 
 # 22.09.2023
 

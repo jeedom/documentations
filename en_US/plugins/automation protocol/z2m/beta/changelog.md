@@ -4,6 +4,11 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 06/11/2023
+
+- Fixed a bug in group management
+- Code Optimization
+- Fixed bugs during plugin installation (error 500)
 
 # 09/22/2023
 

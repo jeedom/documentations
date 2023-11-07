@@ -4,6 +4,11 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 11/06/2023
+
+- Se corrigió un error en la gestión de grupos
+- Optimización de código
+- Se corrigieron errores durante la instalación del complemento (error 500)
 
 # 22/09/2023
 
