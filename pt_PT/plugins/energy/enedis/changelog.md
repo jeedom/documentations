@@ -4,6 +4,28 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 11/06/2023
+
+- transição para versão estável
+
+# 10/04/2023
+
+- Chamadas atualizadas para serem compatíveis com a API V5 Enedis Data-Connect
+
+# 24/10/2022
+
+- Adicionada opção para desabilitar dados por hora
+- Dependências removidas já necessárias para o núcleo
+- As configurações de cores do modelo de widget agora estão na configuração do equipamento, guia Exibir, seção Widget
+
+# 23/10/2022
+
+- transição para versão estável
+
+# 18/10/2022
+
+- Lista de comandos atualizada para Jeedom v4.3
+
 # 15/08/2022
 
 - Corrigido um bug de exibição de dados de produção no caso de vários widgets na página

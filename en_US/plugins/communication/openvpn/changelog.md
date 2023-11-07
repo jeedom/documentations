@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 01/13/2023
+
+- Reduced load for DNS infrastructure
+
 # 02/15/2021
 
 - Beginning of high availability support for the new DNS system

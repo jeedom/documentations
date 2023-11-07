@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 11.06.2023
+
+- Fehlerbehebungen und Optimierung
+- Möglichkeit, Zertifikat, Passwort oder beides zu verwenden
+
 # 13.01.2023
 
 - Reduzierte Last für die DNS-Infrastruktur
