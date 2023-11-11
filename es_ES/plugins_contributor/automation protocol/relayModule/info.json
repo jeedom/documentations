@@ -1,13 +1,20 @@
 {
-	"id": "MQTTDiscovery",
-	"name": "MQTT Discovery",
-	"description": "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' (ou 'HA Discovery') qui existe sous home assistant. Cela permet d'utiliser Open MQTT Gateway (https://docs.openmqttgateway.com/) sur esp32 ou l'équivalent Theengs gateway (https://gateway.theengs.io/) sur pi. Il devient très facile de faire de la gestion de présence de tag bluetooth tel que les nuts ou d'intégrer une liste importante de matériel compatible BLEA. Mais c'est également compatible avec tout équipement supportant 'MQTT Discovery' tel que Nuki Smart Lock Pro, myfox2mqtt, zwave-js, zigbee2mqtt...",
+	"id": "tgw",
+	"name": "Theengs Gateway",
+	"description": {
+		"fr_FR": "Plugin pour installer et configurer facilement des antennes tournant sous Theengs Gateway qui permet de capter des périphérique bluetooth (BLEA) et les remonter vers Jeedom pour être intégré via le plugin MQTT Discovery"
+	},
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.3",
-	"category": "automation protocol",
-	"hasDependency": true,
-	"hasOwnDeamon": true,
+	"require": "4.2.0",
+	"category": "programming",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-tgw",
+		"video": ""
+	},
 	"language": [
 		"fr_FR",
 		"en_US"
@@ -15,16 +22,13 @@
 	"compatibility": [
 		"smart",
 		"rpi",
+		"docker",
 		"diy",
 		"v4",
 		"atlas"
 	],
-	"link": {
-		"forum": "https://community.jeedom.com/tags/plugin-MQTTDiscovery",
-		"video": ""
-	},
-	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
-	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/",
-	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
-	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/"
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/tgw/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/tgw/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/tgw/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/tgw/#language#/"
 }
