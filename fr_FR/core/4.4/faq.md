@@ -2,19 +2,19 @@
 **Réglages → Version : FAQ**
 
 ### Jeedom nécessite-t-il un abonnement ?
-Non, Jeedom est pleinement utilisable sans aucune nécessité de quelque abonnement que ce soit. Cependant, il existe des services proposés pour les sauvegardes ou les appel/SMS, mais qui restent réellement optionnels.
+Non, Jeedom est pleinement utilisable sans aucune nécessité de quelque abonnement que ce soit. Cependant, il existe des services proposés pour les sauvegardes ou les appels/SMS, mais qui restent réellement optionnels.
 
 ### Jeedom utilise-t-il des serveurs extérieurs pour fonctionner ?
 Non, Jeedom n’utilise pas d’infrastructure type "Cloud". Tout se fait en local et vous n’avez pas besoin de nos serveurs pour que votre installation fonctionne. Seuls les services comme le Market, la sauvegarde en ligne ou le DNS Jeedom nécessitent l’utilisation de nos serveurs.
 
 ### Y a-t-il une application mobile dédiée ?
-Jeedom possède une version mobile adaptée à l’utilisation sur mobile et tablette. Il existe aussi une application native pour Android et iOS.
+Jeedom possède une version mobile adaptée à l’utilisation sur mobile et tablette. Il existe également une application native pour Android et iOS.
 
 ### Quels sont les identifiants pour me connecter la première fois ?
-Lors de votre première connexion à Jeedom (et même après si vous ne les avez pas modifiés), le nom d’utilisateur et le mot de passe par défaut sont admin/admin. A la première connexion, il vous est fortement recommandé de modifier ces identifiants pour plus de sécurité.
+Lors de votre première connexion à Jeedom, le nom d’utilisateur et le mot de passe par défaut sont admin/admin. A la première connexion, il vous est fortement recommandé de modifier ces identifiants pour plus de sécurité.
 
 ### Je n'arrive plus à me connecter à mon Jeedom
-Depuis Jeedom 3.2 il n'est plus possible de se connecter avec admin/admin à distance pour des raisons évidentes de sécurité. Les identifiants admin/admin ne marchent plus qu'en local. Attention si vous passer par le DNS même en local vous êtes forcement identifié comme à distance. Autre point par défaut seules les IP sur 192.168.*.* ou 127.0.0.1 sont reconnues comme locales. Cela se configure dans l'administration de Jeedom partie sécurité puis IP "blanche". Si malgré tout çà vous n'arrivez toujours pas à vous connecter il faut utiliser la procédure de remise à zéro de mot de passe, voir [ici](https://doc.jeedom.com/fr_FR/howto/reset.password).
+Depuis Jeedom 3.2 il n'est plus possible de se connecter avec admin/admin à distance pour des raisons évidentes de sécurité. Les identifiants admin/admin ne fonctionnent qu'en local. Attention si vous passer par le DNS Jeedom même en local vous êtes forcement identifié comme étant à distance. Autre point par défaut seules les IP sur 192.168.*.* ou 127.0.0.1 sont reconnues comme locales. Cela se configure dans l'administration de Jeedom partie sécurité puis IP "blanche". Si malgré tout çà vous n'arrivez toujours pas à vous connecter il faut utiliser la procédure de remise à zéro de mot de passe, voir [ici](https://doc.jeedom.com/fr_FR/howto/reset.password).
 
 ### Je ne vois pas tous mes équipements sur le Dashboard
 Souvent cela est dû au fait que les équipements sont affectés à un objet qui n’est pas le fils ou l’objet lui-même du premier objet sélectionné à gauche dans l’arbre (vous pouvez configurer celui-ci dans votre profil).
@@ -45,7 +45,8 @@ Oui : Soit vous avez un pack power ou plus, dans ce cas il vous
 suffit d’utiliser le [DNS Jeedom](https://jeedom.github.io/documentation/howto/fr_FR/mise_en_place_dns_jeedom). Soit avec un DNS et vous savez mettre en place un certificat valide, dans ce cas c’est une installation standard d’un certificat.
 
 ### Comment se connecter en SSH ?
-Voila une [documentation](https://www.alsacreations.com/tuto/lire/612-Premiere-connexion-SSH.html), partie "Sous Windows : Putty". Le "hostname" étant l'ip de votre Jeedom, les identifiants étant :
+Voila une [documentation](https://www.alsacreations.com/tuto/lire/612-Premiere-connexion-SSH.html), partie "Sous Windows : Putty". Le "hostname" étant l'ip de votre Jeedom.
+Les identifiants des images officielles Jeedom ou des box offcielles étant :
 
 - Username : "root", password : "Mjeedom96"
 - Username : "jeedom", password : "Mjeedom96"
@@ -61,6 +62,8 @@ sudo su -
 chmod -R 775 /var/www/html
 chown -R www-data:www-data /var/www/html
 ```
+
+OU via le menu **Réglages -> Système -> Configuration** puis dans **OS/DB** et cliquez sur le bouton Rétablissement des droits des dossiers et fichiers.
 
 ### Comment mettre à jour Jeedom en SSH ?
 En SSH faites :
@@ -78,13 +81,13 @@ La webapp nécessite un smartphone supportant le HTML5 et le CSS3. Elle n’est 
 ### Sur quelles plateformes Jeedom peut-il fonctionner ?
 Pour que Jeedom fonctionne, il faut une plateforme linux avec les droits root ou un système type docker. Il ne fonctionne donc pas sur une plateforme android pure.
 
-### Je ne peux mettre à jour certain plugin "Echec lors du téléchargement du fichier. Veuillez réessayer plus tard (taille inférieure à 100 octets)..." ?
+### Je ne peux mettre à jour certains plugins "Echec lors du téléchargement du fichier. Veuillez réessayer plus tard (taille inférieure à 100 octets)..." ?
 Cela peut être dû à plusieurs choses, il faut :
 
 - Vérifier que votre Jeedom est toujours connecté au market (dans la page d'administration de Jeedom, partie mise à jour vous avez un bouton de test).
 - Vérifier que le compte market a bien acheté le plugin en question.
-- Vérifier que vous avez bien de la place sur Jeedom (la page santé vous l'indiquera).
-- Vérifier que votre version de Jeedom est bien compatible avec le plugin.
+- Vérifier que vous avez bien la place disque nécessaire sur Jeedom (la page santé vous l'indiquera).
+- Vérifier que votre version de Jeedom est bien compatible avec la version requise par le plugin.
 
 ### J’ai une page blanche
 Il faut se connecter en SSH à Jeedom et lancer le script d’auto-diagnostic :
@@ -110,7 +113,7 @@ sudo chown www-data:www-data core/config/common.config.php
 ```
 
 ### J’ai des \{\{…​\}\} partout
-La cause la plus fréquente est l’utilisation d’un plugin en version beta et Jeedom en stable, ou l’inverse. Pour avoir le détail de l’erreur, il faut regarder le log http.error (dans /var/www/html/log).
+La cause la plus fréquente est l’utilisation d’un plugin en version beta et Jeedom en stable ou l’inverse. Pour avoir le détail de l’erreur, il faut regarder le log http.error (dans /var/www/html/log).
 
 ### Lors d’une commande j’ai une roue qui tourne sans s’arrêter
 Encore une fois cela est souvent dû à un plugin en beta alors que Jeedom est en stable. Pour voir l’erreur, il faut faire F12 puis console.
@@ -130,7 +133,7 @@ Cela est dû à MySQL qui s’est arrêté, ce n’est pas normal, les cas coura
 
 - Manque de place sur le système de fichiers (peut être vérifié en faisant la commande "df -h", en SSH)
 - Problème de corruption de fichier(s), ce qui arrive souvent suite à un arrêt non propre de Jeedom (coupure de courant)
-- Soucis mémoire, le système manque de mémoire et tue le process le plus consommateur (souvent la base de données). Cela peut se voir dans l'administration de l'OS puis dmesg, vous devez voir un kill par "oom". Si c'est le cas il faut réduire la consommation de Jeedom en désactivant des plugins.
+- Soucis mémoire, le système manque de mémoire et tue le process le plus consommateur (souvent la base de données). Cela peut se voir dans l'administration de l'OS puis dmesg, vous devez voir un kill par "oom". Si c'est le cas il faut réduire la consommation mémoire de Jeedom en désactivant des plugins.
 
 Malheureusement, il n’y a pas beaucoup de solution si c’est le deuxième cas, le mieux étant de récupérer une sauvegarde (disponible dans /var/www/html/backup par défaut), de réinstaller Jeedom et de restaurer la sauvegarde. Vous pouvez aussi regarder pourquoi MySQL ne veut pas démarrer depuis une console SSH :
 ``` {.bash}
@@ -163,15 +166,15 @@ echo "PrivateTmp=no" >> /etc/systemd/system/apache2.service.d/privatetmp.conf
 ```
 
 ### J'ai un soucis d'heure sur mes historiques
-Essayez de vider le cache de chrome, l'affichage des historiques est calculé par rapport à l'heure du navigateur.
+Essayez de vider le cache de votre navigateur, l'affichage des historiques est calculé par rapport à l'heure du navigateur.
 
-### J'ai l'erreur "Souci réseaux détecté, redémarrage du réseaux"
-Jeedom ne trouve pas ou n'arrive pas a pinguer la gateway. En général ca arrive si la box adsl redémarre (en particulier les livebox) et que Jeedom n'a pas redémarré ou a redémarré plus vite que la box. Par sécurité il vous dit donc qu'il a trouvé un soucis et relance le processus de connexion réseaux. Vous pouvez désactiver ce mécanisme en allant dans la configuration de Jeedom et en désactivant la gestion du réseaux par Jeedom.
+### J'ai l'erreur "Souci réseaux détecté, redémarrage du réseau"
+Jeedom ne trouve pas ou n'arrive pas a pinguer la gateway. En général ca arrive si la box adsl redémarre (en particulier les livebox) et que Jeedom n'a pas redémarré ou a redémarré plus vite que la box. Par sécurité il vous dit donc qu'il a trouvé un soucis et relance le processus de connexion réseau. Vous pouvez désactiver ce mécanisme en allant dans la configuration de Jeedom et en désactivant la gestion du réseau par Jeedom.
 
 ### J'ai le message "Echec durant la sauvegarde de la base de données. Vérifiez que mysqldump est présent."
-Ça veut dire que Jeedom n'arrive pas a backuper la base de données ce qui peut laisser penser à un soucis de corruption de base de données et de filesystem. Il n'y a malheureusement pas de commande miracle pour corriger. Le mieux est de lancer un backup et d'analyser le log de celui-ci. Dans les cas connus de soucis nous avons:
+Ça veut dire que Jeedom n'arrive pas à sauvegarder la base de données ce qui peut laisser penser à un soucis de corruption de base de données et de filesystem. Il n'y a malheureusement pas de commande miracle pour corriger. Le mieux est de lancer une sauvegarde et d'analyser le log de celle-ci. Dans les cas connus de soucis nous avons:
 
-- une table de la base corrompue => là c'est mal parti il faut voir pour essayer de réparer et si ca marche pas repartir du dernier bon backup (si vous êtes sur carte SD c'est le bon moment pour la changer)
+- une table de la base corrompue => là c'est mal parti il faut voir pour essayer de réparer et si ca ne fonctionne pas repartir de la dernière sauvegarde correcte (si vous êtes sur carte SD c'est le bon moment pour la changer)
 - pas assez de place sur le filesystem => regarder la page santé celle-ci peut vous l'indiquer
 
 ### J'ai des erreurs de type "Class 'eqLogic' not found", des fichiers semblent être manquant ou j'ai une page blanche
@@ -200,12 +203,12 @@ Il faut :
 - aller dans l'onglet OS/DB
 - lancer l'administration Système
 - cliquer sur Dpkg configure
-- attendre 10min
-- relancer les dépendances du plugins qui bloque
+- attendre 10 minutes
+- relancer les dépendances du plugin qui bloque
 
-### J'ai cette erreur sur l'installation des dependances d'un plugin : "from pip._internal import main"
+### J'ai cette erreur sur l'installation des dépendances d'un plugin : "from pip._internal import main"
 
-Il faut dans la console systeme de Jeedom ou en ssh faire
+Il faut dans la console système de Jeedom ou en ssh faire
 
 ````
 sudo easy_install pip
@@ -214,12 +217,11 @@ sudo easy_install3 pip
 
 Puis relancer les dépendances
 
-
 ### Depuis la 4.2, je ne peux plus afficher d'iframe
 
 Le Core 4.2 renforce énormément la sécurité de Jeedom. Si vraiment (en connaissance de cause) vous avez besoin de revenir à une version non sécurisée de votre Jeedom :
 Allez dans **Réglages -> Système -> Configuration** puis dans **OS/DB**, lancez la console d'administration système et cliquez sur **Apache non sécurisé**. Un redémarrage de Jeedom est recommandé suite à ce changement.
 
-### Depuis la 4.2, certains plugins ne marchent plus et dans la console du navigateur (touche F12) j'ai des erreurs 403
+### Depuis la 4.2, certains plugins ne fonctionnent plus et dans la console du navigateur (touche F12) j'ai des erreurs 403
 
-C'est du a la sécurisation d'Apache qui impose aux développeur de plugin de mettre les bons fichiers dans les bons répertoires pour limiter la surface d'attaque de Jeedom. Cette sécurisation ce fait dans le fichier .htaccess (écrasé à chaque mise à jour du Core). Vous pouvez faire un fichier .htaccess_custom avec vos propre règles qui si il existe sera utilisé à la place du fichier .htaccess du Core.
+C'est du à la sécurisation d'Apache qui impose aux développeurs de plugin de mettre les bons fichiers dans les bons répertoires pour limiter la surface d'attaque de Jeedom. Cette sécurisation se fait dans le fichier .htaccess (écrasé à chaque mise à jour du Core). Vous pouvez faire un fichier .htaccess_custom avec vos propres règles qui si il existe sera utilisé à la place du fichier .htaccess du Core.
