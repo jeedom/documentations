@@ -4,6 +4,21 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 27/10/2023
+
+**Adiciones de configuración**
+
+- Agregar una subpropiedad *puerta de notificación* para la propiedad *Inclinación*
+
+**Cambios de configuración**
+
+- Cambiar la configuración *Aeotec Zwa012*  para usar las propiedades
+- Modificación de una subpropiedad *notificación simple* para la propiedad *Apertura*
+
+**Mejoras**
+
+- Cambiar a versión *9.1.2* por ZwaveJsUI
+
 # 10/11/2023
 
 **Arreglos**
