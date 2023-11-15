@@ -74,17 +74,17 @@ Dans l’onglet **Général**, on retrouve les paramètres principaux du scénar
 >**IMPORTANT**
 >
 >Le multi lancement marche à la seconde, c'est à dire que si vous avez 2 lancements dans la même seconde sans la case cochée il y aura quand même 2 lancements du scénario (alors qu'il ne devrait pas). De même lors de plusieurs lancements dans la même seconde il se peut que certains lancements perdent les tags. Conclusion il faut ABSOLUMENT éviter de multiples lancements dans la même seconde.
-- **Mode synchrone** : Lance le scénario dans le thread courant au lieu d'un thread dédié. Permet d'augmenter la vitesse de lancement du scénario, mais peut rendre le système instable. Attention a ne surtout pas mettre de scénario complexe ou avec des pauses (sleep) ou wait en synchrone, cela engendre un comportement instable de jeedom et ne pourra être couvert par le support.
+- **Mode synchrone** : Lance le scénario dans le thread courant au lieu d'un thread dédié. Permet d'augmenter la vitesse de lancement du scénario, mais peut rendre le système instable. Attention à ne surtout pas mettre de scénario complexe ou avec des pauses (sleep) ou wait en synchrone, cela engendre un comportement instable de Jeedom et ne pourra être couvert par le support.
 - **Log** : Le type de log souhaité pour le scénario. Vous pouvez couper les logs du scénario ou au contraire le faire apparaître dans Analyse → Temps réel.
 - **Timeline** : Permet de garder un suivi du scénario dans la timeline (voir doc Historique).
 - **Icône** : Permet de choisir une icône pour le scénario en lieu et place de l’icône standard.
 - **Description** : Permet d’écrire un petit texte pour décrire votre scénario.
-- **Mode du scénario** : Le scénario peut être programmé, déclenché ou les deux à la fois. Vous aurez ensuite le choix d’indiquer le(s) déclencheur(s) (15 déclencheurs maximum) et la/les programmation(s).
+- **Mode du scénario** : Le scénario peut être programmé, déclenché ou les deux à la fois. Vous aurez ensuite le choix d’indiquer le(s) déclencheur(s) (15 déclencheurs maximum) et/ou la/les programmation(s).
 
 > **Tip**
 >
 > En mode déclenché, des conditions peuvent à présent être saisies. Par ex : ``#[Garage][Open Garage][Ouverture]# == 1``
-> Attention : vous pouvez avoir au maximum 28 déclencheurs/programmations pour un scénario.
+> Attention : vous pouvez avoir au maximum 28 déclencheurs/programmations par scénario.
 
 > **Tip Mode programmé**
 >
@@ -462,8 +462,8 @@ Et les exemples pratiques :
 
 ### Les fonctions diverses
 
-- ``sun(elevation)`` : Donne en ° l'élevation du soleil (attention il faut avoir renseigné vos coordonées géographique dans la configuration de jeedom)
-- ``sun(azimuth)`` : Donne en ° l'azimuth du soleil (attention il faut avoir renseigné vos coordonées géographique dans la configuration de jeedom)
+- ``sun(elevation)`` : Donne en ° l'élevation du soleil (attention il faut avoir renseigné vos coordonées géographique dans la configuration de Jeedom)
+- ``sun(azimuth)`` : Donne en ° l'azimuth du soleil (attention il faut avoir renseigné vos coordonées géographique dans la configuration de Jeedom)
 
 ### Les commandes spécifiques
 
@@ -474,18 +474,18 @@ En plus des commandes domotiques, vous avez accès aux actions suivantes :
 - **Supprimer variable** (delete_variable) : Permet de supprimer une variable.
 - **genericType(GENERIC, #[Object]#)** : Modification d'une commande info (event) ou action (execCmd) par Type Générique, dans un objet. Par exemple, éteindre toutes les lumières dans le Salon.
 - **Scénario** (scenario) : Permet de contrôler des scénarios. La partie tags permet d’envoyer des tags au scénario, ex : montag=2 (attention il ne faut utiliser que des lettre de a à z. Pas de majuscules, pas d’accents et pas de caractères spéciaux). On récupère le tag dans le scénario cible avec la fonction tag(montag).
-    - Démarrer : Démarre le scenario dans un thread diffèrent. Le scenario démarré s’exécute indépendamment du scénario appelant.
+    - Démarrer : Démarre le scénario dans un thread diffèrent. Le scénario démarré s’exécute indépendamment du scénario appelant.
     - Démarrer (Sync) : Démarre le scénario appelé et met en pause le scénario appelant, le temps que le scénario appelé ait fini de s’exécuter.
-    - Arrêter : Arrête le scenario.
+    - Arrêter : Arrête le scénario.
     - Activer : Active un scénario désactivé.
-    - Désactiver : Désactive le scénario. Il ne se lance plus quelque soit les déclencheurs.
+    - Désactiver : Désactive le scénario. Il ne se lance plus quelques soient les déclencheurs.
     - Remise à zéro des SI : Permet de remettre à zéro le statut des **SI**. Ce statut est utilisé pour la non répétition des actions d’un **SI**, si l’évaluation de la condition donne le même résultat que la précédente évaluation.
 - **Stop** (stop) : Arrête le scénario.
 - **Attendre** (wait) : Attend jusqu’à ce que la condition soit valide (maximum 2h), le timeout est en seconde(s).
 - **Aller au design** (gotodesign) : Change le design affiché sur tous les navigateurs par le design demandé.
 - **Ajouter un log** (log) : Permet de rajouter un message dans les logs.
 - **Créer un message** (message) : Permet d’ajouter un message dans le centre de messages.
-- **Activer/Désactiver Masquer/afficher un équipement** (equipement) : Permet de modifier les propriétés d’un équipement visible/invisible, actif/inactif.
+- **Activer/Désactiver Masquer/Afficher un équipement** (equipement) : Permet de modifier les propriétés d’un équipement visible/invisible, actif/inactif.
 - **Faire une demande** (ask) : Permet d’indiquer à Jeedom qu’il faut poser une question à l’utilisateur. La réponse est stockée dans une variable, il suffit ensuite de tester sa valeur.
     Pour le moment, seuls les plugins sms, slack, telegram et snips sont compatibles, ainsi que l'application mobile.
     Attention, cette fonction est bloquante. Tant qu’il n’y a pas de réponse ou que le timeout n’est pas atteint, le scénario attend. Note pour une réponse libre mettre * dans la liste des réponses possible.
@@ -493,14 +493,14 @@ En plus des commandes domotiques, vous avez accès aux actions suivantes :
 - **Retourner un texte/une donnée** (scenario_return) : Retourne un texte ou une valeur pour une interaction par exemple.
 - **Icône** (icon) : Permet de changer l’icône de représentation du scénario.
 - **Alerte** (alert) : Permet d’afficher un petit message d’alerte sur tous les navigateurs qui ont une page Jeedom ouverte. Vous pouvez, en plus, choisir 4 niveaux d’alerte.
-- **Pop-up** (popup) : Permet d’afficher un pop-up qui doit absolument être validé sur tous les navigateurs qui ont une page jeedom ouverte.
-- **Rapport** (report) : Permet d’exporter une vue au format (PDF,PNG, JPEG ou SVG) et de l’envoyer par le biais d’une commande de type message. Attention, si votre accès Internet est en HTTPS non-signé, cette fonctionnalité ne fonctionnera pas. Il faut du HTTP ou HTTPS signé. Le "delai" est en milli-seconde (ms).
+- **Pop-up** (popup) : Permet d’afficher un pop-up qui doit absolument être validé sur tous les navigateurs qui ont une page Jeedom ouverte.
+- **Rapport** (report) : Permet d’exporter une vue au format (PDF,PNG, JPEG ou SVG) et de l’envoyer par le biais d’une commande de type message. Attention, si votre accès Internet est en HTTPS non-signé, cette fonctionnalité ne fonctionnera pas. Il faut du HTTP ou HTTPS signé. Le "délai" est en milliseconde (ms).
 - **Supprimer bloc DANS/A programmé** (remove_inat) : Permet de supprimer la programmation de tous les blocs DANS et A du scénario.
 - **Evènement** (event) : Permet de pousser une valeur dans une commande de type information de manière arbitraire.
 - **Tag** (tag) : Permet d'ajouter/modifier un tag (le tag n'existe que pendant l'exécution en cours du scénario à la différence des variables qui survivent à la fin du scénario).
 - **Coloration des icônes du dashboard** (setColoredIcon) : Permet d'activer ou non la coloration des icônes sur le Dashboard.
 - **Changement de thème** (changetheme) : Permet de changer le thème en cours de l'interface en Dark ou Light.
-- **Export historique** (exportHistory) : permet d'exporter l'historique en csv d'une commande sous forme d'un fichier (envoi par mail par exemple). Vous pouvez mettre plusieurs commandes (séparées par des &&). La selection de la période se fait sous la forme :
+- **Export historique** (exportHistory) : permet d'exporter l'historique en csv d'une commande sous forme d'un fichier (envoi par mail par exemple). Vous pouvez mettre plusieurs commandes (séparées par des &&). La sélection de la période se fait sous la forme :
   - "-1 month" => -1 mois
   - "-1 day midnight" => -1 jour à minuit
   - "now" => maintenant
@@ -519,13 +519,11 @@ En cliquant sur le bouton **template** en haut de page, vous ouvrez la fenêtre 
 A partir de celle-ci, vous avez la possibilité :
 
 - D’envoyer un template à Jeedom (fichier JSON préalablement récupéré).
-- De consulter la liste des scénarios disponibles sur le Market.
 - De créer un template à partir du scénario courant (n’oubliez pas de donner un nom).
 - De consulter les templates actuellement présents sur votre Jeedom.
 
 En cliquant sur un template, vous pourrez :
 
-- **Partager** : Partager le template sur le Market.
 - **Supprimer** : Supprimer le template.
 - **Télécharger** : Récupérer le template sous forme de fichier JSON pour le renvoyer sur un autre Jeedom par exemple.
 
