@@ -40,7 +40,7 @@ Uma vez que o corretor Mosquitto está instalado *(se necessário)*, você pode 
 
   >**IMPORTANTE**
   >
-  >A autenticação é obrigatória no modo local. Também é necessário após a adição reiniciar o jeedom para que seja levado em consideração.
+  >A autenticação é obrigatória no modo local. Após a adição, o Jeedom deve ser reiniciado para que isso tenha efeito.
 
 - **Jeedom root topic** : Tópico raiz para enviar um comando ao Jeedom ou no qual ele envia os eventos. Atenção só é possível colocar 1 ou 2 níveis no máximo.
 
@@ -98,7 +98,7 @@ Você deve indicar o tópico raiz do equipamento *(`teste` por exemplo)*, então
 
 # Autodescoberta)
 
-O plug-in pode fazer a descoberta automática de vários tipos de módulos. Para fazer isso, você só precisa autorizar a descoberta automática na página principal do plug-in e reiniciar o demônio.
+O plugin pode descobrir automaticamente vários tipos de módulos. Para fazer isso, você só precisa autorizar a descoberta automática na página principal do plug-in e reiniciar o demônio.
 
 >**IMPORTANTE**
 >

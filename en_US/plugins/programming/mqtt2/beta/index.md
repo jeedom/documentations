@@ -40,7 +40,7 @@ Once the Mosquitto broker is installed *(if necessary)*, you can continue with t
 
   >**IMPORTANT**
   >
-  >Authentication is mandatory in local mode. It is also necessary following the addition to restart jeedom so that it is taken into account.
+  >Authentication is mandatory in local mode. Following the addition, Jeedom must be restarted for this to take effect.
 
 - **Jeedom root topic** : Root topic to send a command to Jeedom or on which it sends the events. Attention it is only possible to put 1 or 2 levels maximum.
 
@@ -98,7 +98,7 @@ It is possible to pilot Jeedom through MQTT. Here are the different possible top
 
 # Self-Discovery)
 
-The plugin can do auto discovery of several types of modules. To do this, you just need to authorize auto discovery on the main page of the plugin and restart the demon.
+The plugin can auto-discover several types of modules. To do this, you just need to authorize auto discovery on the main page of the plugin and restart the demon.
 
 >**IMPORTANT**
 >

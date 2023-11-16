@@ -6,6 +6,12 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+
+# 11.11.2023
+
+- Behebung des Ereignisses FullArm R401
+
+
 # 19.01.2022
 
 - V4.2-Optimierungen

@@ -40,7 +40,7 @@ Una vez instalado el bróker Mosquitto *(si es necesario)*, puedes continuar con
 
   >**IMPORTANTE**
   >
-  >La autenticación es obligatoria en modo local. También es necesario después de la adición reiniciar jeedom para que se tenga en cuenta.
+  >La autenticación es obligatoria en modo local. Después de la adición, se debe reiniciar Jeedom para que esto surta efecto.
 
 - **Tema raíz de Jeedom** : Tema raíz para enviar un comando a Jeedom o sobre el que envía los eventos. Atención, solo es posible poner 1 o 2 niveles como máximo.
 
@@ -98,7 +98,7 @@ Es posible pilotar Jeedom a través de MQTT. Aquí están los diferentes temas p
 
 # Autodescubrimiento)
 
-El complemento puede realizar el descubrimiento automático de varios tipos de módulos. Para hacer esto, solo necesita autorizar el descubrimiento automático en la página principal del complemento y reiniciar el demonio.
+El complemento puede descubrir automáticamente varios tipos de módulos. Para hacer esto, solo necesita autorizar el descubrimiento automático en la página principal del complemento y reiniciar el demonio.
 
 >**IMPORTANTE**
 >

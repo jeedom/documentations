@@ -40,7 +40,7 @@ Sobald der Mosquitto-Broker installiert ist *(im Bedarfsfall)*, Sie können mit 
 
   >**WICHTIG**
   >
-  >Im lokalen Modus ist die Authentifizierung obligatorisch. Nach dem Zusatz ist es außerdem erforderlich, jeedom neu zu starten, damit es berücksichtigt wird.
+  >Im lokalen Modus ist die Authentifizierung obligatorisch. Nach dem Hinzufügen muss Jeedom neu gestartet werden, damit dies wirksam wird.
 
 - **Jeedom-Wurzelthema** : Stammthema, um einen Befehl an Jeedom zu senden oder auf dem es die Ereignisse sendet. Achtung, es ist nur möglich, maximal 1 oder 2 Ebenen zu setzen.
 
@@ -98,7 +98,7 @@ Es ist möglich, Jeedom über MQTT zu steuern. Hier sind die verschiedenen mögl
 
 # Selbstfindung)
 
-Das Plugin kann verschiedene Arten von Modulen automatisch erkennen. Dazu müssen Sie nur die automatische Erkennung auf der Hauptseite des Plugins autorisieren und den Dämon neu starten.
+Das Plugin kann verschiedene Modultypen automatisch erkennen. Dazu müssen Sie nur die automatische Erkennung auf der Hauptseite des Plugins autorisieren und den Dämon neu starten.
 
 >**WICHTIG**
 >
