@@ -7,10 +7,13 @@
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
 
+# 16.11.2023
+
+- Ereignisse beheben : PartialArm R456 & Add E407-R407 KeyPad Events
+
 # 11.11.2023
 
 - Behebung des Ereignisses FullArm R401
-
 
 # 19.01.2022
 
