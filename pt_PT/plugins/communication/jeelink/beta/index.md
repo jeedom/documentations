@@ -23,7 +23,7 @@ Este plugin não requer nenhuma configuração especial e simplesmente precisa s
 
 >**IMPORTANTE**
 >
->Observe que a desativação do plug-in leva à exclusão dos jeedoms de destino do plug-in sem qualquer meio de recuperá-los (exceto restaurar um backup)
+>Observe que a desativação do plugin resulta na exclusão dos Jeedoms alvo do plugin sem qualquer meio de recuperá-los (exceto restaurar um backup)
 
 >**IMPORTANTE**
 >
@@ -31,7 +31,7 @@ Este plugin não requer nenhuma configuração especial e simplesmente precisa s
 
 >**IMPORTANTE**
 >
->É importante não ter a mesma chave de API em vários alvos jeedom. A chave de um equipamento é baseada na chave api (portanto não deve ser alterada após a configuração) e no id da fonte do equipamento. Ter a mesma chave de API nos jeedoms de destino, portanto, causará problemas de sincronização com equipamentos que podem não aparecer na fonte.
+>Definitivamente, você não deve ter a mesma chave de API em vários alvos Jeedom. A chave de um dispositivo é baseada na chave API (portanto, não deve ser alterada após a configuração) e no ID de origem do dispositivo. Ter a mesma chave API no Jeedom alvo causará, portanto, problemas de sincronização com equipamentos que podem não aparecer na fonte.
 
 ## Configuração do alvo Jeedom
 
@@ -64,7 +64,7 @@ Adicione o equipamento que deseja carregar no **Jeedom Target** clicando em **Ad
 
 >**EM FORMAÇÃO**
 >
->Plugins que usam um widget específico não o encontrarão no **Jeedom Target** *(Plugin de Câmera, Redes, etc…​)*.
+>Plugins que usam um widget específico não o encontrarão no **Jeedom Target** *(Câmera de plug-in, redes, etc.)*.
 
 >**IMPORTANTE**
 >

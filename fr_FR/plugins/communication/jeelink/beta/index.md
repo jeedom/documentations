@@ -23,7 +23,7 @@ Ce plugin ne nécessite pas de configuration particulière et doit simplement ê
 
 >**IMPORTANT**
 >
->Attention la désactivation du plugin entraine la suppression des jeedoms cibles du plugin sans aucun moyen de les récuperer (hormis restorer un backup)
+>Attention la désactivation du plugin entraine la suppression des Jeedoms cibles du plugin sans aucun moyen de les récuperer (hormis restaurer un backup)
 
 >**IMPORTANT**
 >
@@ -31,7 +31,7 @@ Ce plugin ne nécessite pas de configuration particulière et doit simplement ê
 
 >**IMPORTANT**
 >
->Il ne faut surtout pas avoir la meme clef api sur plusieurs jeedom cible. La clef d'un équimement est basé sur la clef api (il ne faut donc pas la changer après la configuration) et l'id source de l'équipement. Avoir la meme clef api sur les jeedom cibles entrainera donc des problemes de synchronisation avec des équipements qui pourraient ne pas apparaitre sur la source.
+>Il ne faut surtout pas avoir la même clé api sur plusieurs Jeedom cibles. La clé d'un équimement est basé sur la clé api (il ne faut donc pas la changer après la configuration) et l'id source de l'équipement. Avoir la même clé api sur les Jeedom cibles entrainera donc des problèmes de synchronisation avec des équipements qui pourraient ne pas apparaître sur la source.
 
 ## Configuration Jeedom cible
 
@@ -42,7 +42,7 @@ Pour se faire, dirigez-vous vers le menu **Plugins → Communication → Jeedom 
 Une fenêtre va s'ouvrir à partir de laquelle vous pourrez ajouter ou modifier des **Jeedom(s) cible(s)**. Pour ajouter un **Jeedom cible**, il suffit de renseigner :
 
 - Le nom du **Jeedom cible**.
-- L’adresse IP ou le nom DNS à laquelle le **Jeedom cible** est joignable.
+- L’adresse IP ou le nom DNS auquell le **Jeedom cible** est joignable.
 - La **clé API du plugin Jeedom Link** du **Jeedom cible**.
 - Le mode d'accès, interne ou externe (utilisé pour le retour d’informations du **Jeedom source** vers le **Jeedom cible**).
 
@@ -64,7 +64,7 @@ Ajoutez les équipements que vous désirez remonter vers le **Jeedom cible** en 
 
 >**INFORMATION**
 >
->Les plugins utilisant un widget spécifique ne le retrouveront pas sur le **Jeedom cible** *(plugin Caméra, Networks, etc…​)*.
+>Les plugins utilisant un widget spécifique ne le retrouveront pas sur le **Jeedom cible** *(plugin Caméra, Networks, etc.)*.
 
 >**IMPORTANT**
 >

@@ -23,7 +23,7 @@ This plugin does not require any special configuration and simply needs to be ac
 
 >**Important**
 >
->Please note that the deactivation of the plugin leads to the deletion of the target jeedoms of the plugin without any means of recovering them (except restoring a backup)
+>Please note, deactivating the plugin results in the deletion of the target Jeedoms of the plugin without any means of recovering them (except restoring a backup)
 
 >**Important**
 >
@@ -31,7 +31,7 @@ This plugin does not require any special configuration and simply needs to be ac
 
 >**Important**
 >
->It is important not to have the same api key on several target jeedom. The key of an equipment is based on the api key (so it should not be changed after configuration) and the source id of the equipment. Having the same api key on the target jeedoms will therefore cause synchronization problems with equipment that may not appear on the source.
+>You should definitely not have the same API key on several Jeedom targets. The key of a device is based on the API key (therefore it should not be changed after configuration) and the source id of the device. Having the same API key on the target Jeedom will therefore cause synchronization problems with equipment that may not appear on the source.
 
 ## Target Jeedom configuration
 
@@ -64,7 +64,7 @@ Add the equipment you want to upload to the **Jeedom Target** clicking on **Add 
 
 >**INFORMATION**
 >
->Plugins using a specific widget will not find it on the **Jeedom Target** *(Plugin Camera, Networks, etc…​)*.
+>Plugins using a specific widget will not find it on the **Jeedom Target** *(Plugin Camera, Networks, etc.)*.
 
 >**Important**
 >
