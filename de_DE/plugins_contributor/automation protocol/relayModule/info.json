@@ -1,32 +1,21 @@
 {
-    "id":"myuplink_internal",
-    "name":"MyUplink Internal API",
-    "description": {
-      "fr_FR":"Ce plugin permet de récupérer les informations des pompes à chaleur NiBe depuis l'API internal du site https://myUplink.com. Ce plugin ne fonctionne pas avec l'ancienne API http://www.nibeuplink.com.</br>En plus des commandes de base, le plugin permet de générer des commandes depuis l'interface console (consommations, durées...)",
-      "en_US":"This plugin allows you to retrieve NiBe heat pump information from the internal API of https://myUplink.com. This plugin does not work with the old API http://www.nibeuplink.com.</br>In addition to the basic commands, the plugin allows you to generate commands from the console interface (consumptions, durations)"
-    },
-    "licence":"AGPL",
-    "installation":"Le guide de configuration se trouve sur cette page : <i><a class='btn btn-warning btn-xs' target='_blank' href='https://flobul-domotique.fr/configuration-du-plugin-myuplink-pour-jeedom/'><i class='fas fa-cog'></i><strong> Configuration du plugin</strong></a></i></br>1) Une fois le plugin installé, activez-le.</br>2) Vérifiez bien que vous avez correctement configuré la partie Générale -> Administration -> Configuration puis reseaux, en effet, il faut lors de l'association de Jeedom au compte My Uplink que votre Jeedom soit accessible de l'extérieur.</br>3) Puis rendez-vous sur la page du plugin et cliquez sur Synchronisation.",
-    "author":"DomoFlo1",
-    "require":"4.0",
-    "category":"wellness",
-    "changelog":"https://flobul-domotique.fr/liste-des-versions-du-plugin-myuplink-internal-pour-jeedom/",
-    "documentation":"https://flobul-domotique.fr/documentation-du-plugin-myuplink-internal-pour-jeedom",
-    "hasDependency":false,
-    "hasOwnDeamon":false,
-    "maxDependancyInstallTime":0,
-    "language":[
-        "fr_FR",
-        "en_US"
-    ],
-    "compatibility":[
-        "miniplus",
-        "smart",
-        "rpi",
-        "docker",
-        "diy",
-        "mobile",
-        "v4",
-        "atlas"
-    ]
+	"id" : "conso",
+	"name" : "Suivi Conso",
+	"description" : "Plugin pour gérer sa consommation énergétique (gaz, électricité et eau) ainsi que sa production ",
+	"licence" : "AGPL",
+	"author" : "Mickeys",
+	"require" : "3.3",
+	"category" : "energy",
+	"display" : "panel",
+	"hasDependency" : false,
+	"hasOwnDeamon" : true,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://mickeys27.github.io/Docs/conso/#language#/changelog",
+	"documentation" : "https://mickeys27.github.io/Docs/conso/#language#/",
+	"link" : {
+		"forum":"https://www.jeedom.com/forum/viewtopic.php?f=149&t=8500",
+		"Community":"https://community.jeedom.com/t/plugin-suivi-conso-debuggage/8246"
+	},
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
 }
