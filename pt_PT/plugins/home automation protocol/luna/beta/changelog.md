@@ -7,13 +7,20 @@
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 >
 
+# 18/11/2023
+
+- Várias correções e melhorias de código
+
 # 29/10/2023
+
 - Corrigir o status da bateria.
 
 # 20/10/2023
+
 - Adição do LiXee-GSM às regras USB (desconecte e reconecte o equipamento para vê-lo com o novo link USB)
 
 # 14/09/2023
+
 - Nova interface para o plugin móvel.
 - Hotspot
 - 2 wi-fis disponíveis.
@@ -23,9 +30,10 @@
 - Defina um endereço IP (Wi-Fi e Ethernet)
 
 # 09/06/2023
+
 - Mudando o cenário do botão Power na parte traseira da caixa. (veja a documentação)
 - Atualização LTE para erro de solicitação LTE enquanto a caixa não é compatível.
-  
+
 # 02/05/2023
 
 - LocalHost patch (mudança de direitos).
@@ -33,7 +41,6 @@
 - Função LTE adicionada para caixas com opção LTE.
 - Adição da função LORA para caixas com opção LORA.
 - Adição de usb fixo (ttyUSBLUNA-Zigbee para usar dnas o plug-in Zigbee para não precisar mais se preocupar com a mudança de usb.)
-
 
 # 27/03/2023
 
@@ -48,7 +55,6 @@
 - Ativação Lora para Luna com Lora integrado (Pro).
 - Corrigir problema de Localhost na caixa.
 
-
 # 19/11/2022
 
 - SD (gerenciamento)
@@ -57,7 +63,7 @@
 
 # 11/03/2022
 
-Adição de novidades : 
+Adição de novidades :
 
 - Conexão wifi
 - LED (gerenciamento)
