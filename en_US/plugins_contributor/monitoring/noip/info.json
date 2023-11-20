@@ -8,7 +8,7 @@
     "utilization": "Ajoutez un compte no-ip.com , puis cliquez sur Scanner pour récupérer vos noms de domaines.",
     "licence": "AGPL",
     "author": "tomitomas",
-    "require": "4.0.62",
+    "require": "4.2",
     "category": "monitoring",
     "hasDependency": true,
     "hasOwnDeamon": false,
