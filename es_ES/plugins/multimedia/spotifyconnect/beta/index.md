@@ -6,7 +6,7 @@ Este complemento le permite recuperar el estado de los reproductores de Spotify 
 
 ## Configuración del complemento
 
-Como cualquier complemento de Jeedom, el complemento **Spotify Connect** debe activarse después de la instalación.
+Como cualquier complemento de Jeedom, el complemento **Spotify Connect** debe activarse después de la instalación. Una vez activado debes vincular jeedom con tu cuenta de Spotify para hacer esto debes ir a complemento -> administración de complementos -> Spotify y luego hacer clic en el botón para vincular con una cuenta de usuario.
 
 ### Descubrimiento de lectores
 

@@ -6,7 +6,7 @@ This plugin allows you to retrieve the status of Spotify Connect players and to 
 
 ## Plugin configuration
 
-Like any Jeedom plugin, the plugin **Spotify Connect** must be activated after installation.
+Like any Jeedom plugin, the plugin **Spotify Connect** must be activated after installation. Once activated you must link jeedom with your Spotify account to do this you must go to plugin -> plugin management -> Spotify then click on the button to link with a user account.
 
 ### Discovery of readers
 

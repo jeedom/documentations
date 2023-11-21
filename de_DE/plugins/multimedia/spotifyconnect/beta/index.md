@@ -6,7 +6,7 @@ Mit diesem Plugin können Sie den Status von Spotify Connect-Playern abrufen und
 
 ## Plugin Konfiguration
 
-Wie jedes Jeedom-Plugin auch das Plugin **Spotify Connect** muss nach der Installation aktiviert werden.
+Wie jedes Jeedom-Plugin auch das Plugin **Spotify Connect** muss nach der Installation aktiviert werden. Nach der Aktivierung müssen Sie jeedom mit Ihrem Spotify-Konto verknüpfen. Gehen Sie dazu zu Plugin -> Plugin-Verwaltung -> Spotify und klicken Sie dann auf die Schaltfläche, um eine Verknüpfung mit einem Benutzerkonto herzustellen.
 
 ### Entdeckung der Leser
 
