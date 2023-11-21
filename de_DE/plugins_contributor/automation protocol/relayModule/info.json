@@ -1,21 +1,16 @@
 {
-	"id" : "conso",
-	"name" : "Suivi Conso",
-	"description" : "Plugin pour gérer sa consommation énergétique (gaz, électricité et eau) ainsi que sa production ",
+	"id" : "eibd",
+	"name" : "EIB - KNX",
+	"description" : "Connecter Jeedom avec votre installation domotique KNX et Jeedom deviendra un participant de votre installation",
 	"licence" : "AGPL",
-	"author" : "Mickeys",
-	"require" : "3.3",
-	"category" : "energy",
-	"display" : "panel",
-	"hasDependency" : false,
+	"author" : "Halbout Michael",
+	"installation" : "Choisissez le programme de votre choix et lancer l'installation des dependance",
+	"maxDependancyInstallTime" : 130,
 	"hasOwnDeamon" : true,
-	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://mickeys27.github.io/Docs/conso/#language#/changelog",
-	"documentation" : "https://mickeys27.github.io/Docs/conso/#language#/",
-	"link" : {
-		"forum":"https://www.jeedom.com/forum/viewtopic.php?f=149&t=8500",
-		"Community":"https://community.jeedom.com/t/plugin-suivi-conso-debuggage/8246"
-	},
-	"language" : ["fr_FR"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
+	"hasDependency" : true,
+	"require" : "4.2.12",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+	"category" : "automation protocol",
+ 	"documentation" : "http://mika-nt28.github.io/Documentations/eibd/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/eibd/#language#/changelog"
 }
