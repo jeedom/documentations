@@ -2,8 +2,8 @@
 
 >**IMPORTANT**
 >
->Attention la version 4.4 est une mise à jour majeur de jeedom, meme si visuellement les changements pour vous seront minime tous le code de l'interface à été réécris (pour etre plus rapidement en particulier), de meme la gestion des dépendances php à été revu. Meme si l'équipement Jeedom et des betatesteurs a fait enormement de test il y a autant de version de jeedom qu'il y a de jeedom. Il n'est donc pas possible de garantir que ca marchera chez tous le monde dans 100% des cas. Nous vous conseillons donc de ne pas vous jeter sur la mise à jour.
->Pour rappel en cas de soucis vous pouvez ecrire au support (si vous avez un service pack ou plus) depuis votre page profils du market.
+>Attention la version 4.4 est une mise à jour majeure de Jeedom, même si visuellement les changements pour vous seront minimes, tout le code de l'interface a été réécrit (pour être plus rapide en particulier), de même la gestion des dépendances php a été revua. Même si l'équipe Jeedom et des betatesteurs ont fait énormement de tests il y a autant de versions de Jeedom qu'il y a de Jeedom. Il n'est donc pas possible de garantir que cela fonctionne chez tout le monde dans 100% des cas. Nous vous conseillons donc de ne pas vous jeter sur la mise à jour.
+>Pour rappel en cas de souci vous pouvez écrire au support (si vous avez un service pack ou plus) depuis votre page profils du Market.
 
 
 ### 4.4 : Pré-requis
@@ -41,7 +41,7 @@
 
 - **Core** : Début du développement en pure js, sans jQuery. Voir [doc dev](https://doc.jeedom.com/fr_FR/dev/core4.4).
 - **Core** : Listing plus détaillé des périphériques USB.
-- **Core** : Un menu contextuel a été ajouté à différents endroits au niveau des cases à cocher pour les sélectionner toutes, aucunes, ou inverser la sélection *(voir [Doc dev](https://doc.jeedom.com/fr_FR/dev/core4.4))*.
+- **Core** : Un menu contextuel a été ajouté à différents endroits au niveau des cases à cocher pour les sélectionner toutes, aucune, ou inverser la sélection *(voir [Doc dev](https://doc.jeedom.com/fr_FR/dev/core4.4))*.
 - **Lib** : Update Highchart v9.3.2 vers v10.3.2 (Le module *solid-gauge* n'est plus importé).
 - **Commandes** :  Ajout d'une option *(alpha)* pour ne pas exécuter une action si l'équipement est déjà dans l'état attendu.
 
@@ -49,18 +49,18 @@
 
 > **Dashboard**
 >
-> Sur le **Dashboard** et les **Vues**, le Core v4.4 redimensionne maintenant automatiquement les tuiles pour construire une grille homogène. Les unités (plus petite hauteur et plus petit largeur d'une tuile) de cette grille sont définies dans **Réglages → Système → Configuration / Interface** par les valeurs *Pas vertical (mini 100)* et *Pas horizontal (mini 110)*. La valeur *Marge* définissant l'espace entre les tuiles.
+> Sur le **Dashboard** et les **Vues**, le Core v4.4 redimensionne maintenant automatiquement les tuiles pour construire une grille homogène. Les unités (plus petite hauteur et plus petite largeur d'une tuile) de cette grille sont définies dans **Réglages → Système → Configuration / Interface** par les valeurs *Pas vertical (mini 60)* et *Pas horizontal (mini 80)*. La valeur *Marge* définissant l'espace entre les tuiles.
 > Les tuiles s'adaptent aux dimensions de la grille et peuvent faire une fois, deux fois etc. ces valeurs en hauteur ou largeur. Il faudra certainement passer en [mode Edition du Dashboard](https://doc.jeedom.com/fr_FR/core/4.4/dashboard#Mode%20%C3%A9dition) pour affiner la taille de certaines tuiles après la mise à jour.
 
 
 > **Widgets**
 >
-> Les widgets Core ont été réécrit en pure js / css. Il faudra éditer le Dashboard *(Edition puis bouton ⁝ sur les tuiles)* et utiliser l'option *Retour à la ligne après* sur certaines commandes pour retrouver le même aspect visuel.
+> Les widgets Core ont été réécrits en pure js / css. Il faudra éditer le Dashboard *(Edition puis bouton ⁝ sur les tuiles)* et utiliser l'option *Retour à la ligne après* sur certaines commandes pour retrouver le même aspect visuel.
 > Tous les widgets Core supportent maintenant l'affichage des *time*, en ajoutant un paramètre optionnel *time* / *duration* ou *date*.
 
 > **Boites de dialogue**
 >
-> Toutes les boites de dialogue (bootstrap, bootbox, jQuery UI) ont été migré sur une lib interne du Core (jeeDialog) développée spécialement. Les boites de dialogue redimensionnable ont maintenant un bouton pour passer en *fullscreen*.
+> Toutes les boites de dialogue (bootstrap, bootbox, jQuery UI) ont été migrées sur une lib interne du Core (jeeDialog) développée spécialement. Les boites de dialogue redimensionnables ont maintenant un bouton pour passer en *fullscreen*.
 
 
 # Changelog Jeedom V4.3
