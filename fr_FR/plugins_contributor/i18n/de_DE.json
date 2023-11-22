@@ -2,6 +2,8 @@
     "plugins_contributor\/automation protocol\/index.md": {
         "Niren TcpKpI8O8": "Niren TcpKpI8O8",
         "Plugin tcpkp pour la gestion des cartes entrees sorties Niren tcpkp": "Tcpkp-Plugin zum Verwalten von Niren tcpkp-I\/O-Karten",
+        "Relay Module": "Relaismodul",
+        "Plugin pour piloter des modules de relais ethernet": "Plugin zur Steuerung von Ethernet-Relaismodulen",
         "Plugin pour la gestion de matériel qui ont le protocol ModBus": "Plugin für die Verwaltung von Materialien, die das ModBus-Protokoll haben",
         "Modbus TCP Server": "Modbus TCP-Server",
         "Plugin transformant votre Jeedom en seveur modbus TCP": "Plugin, das Ihr Jeedom in einen Modbus-TCP-Server verwandelt",

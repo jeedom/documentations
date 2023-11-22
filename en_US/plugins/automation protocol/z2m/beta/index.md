@@ -194,7 +194,7 @@ Zigbee2mqtt allows you to add external converters (to support modules not offici
 
 >**I got the error `Error: Reset error: Error: {"sequence":-1} after 10000ms` and an ELELABS key or an Atlas box**
 >
->You must update the firmware of your zigbee key, to do this in the configuration of the jeezigbee plugin click on update firmware and fill in the different fields in the window then validate. Be careful not to do this on a luna box, it breaks the zigbee key.
+>You must update the firmware of your zigbee key, to do this in the configuration of the jeezigbee plugin click on update firmware and fill in the different fields in the window then validate. Be careful not to do this on a luna box, it breaks the zigbee key. If the update does not work, you should then try to do a "Bootloader Correction".
 
 >**My equipment is not recognized**
 >

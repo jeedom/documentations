@@ -194,7 +194,7 @@ Zigbee2mqtt permite adicionar conversores externos (para suportar módulos não 
 
 >**Recebi o erro `Erro: Erro de redefinição: Error: {"sequence":-1} após 10000ms` e uma chave ELELABS ou uma caixa Atlas**
 >
->Você deve atualizar o firmware da sua chave zigbee, para fazer isso na configuração do plugin jeezigbee clique em atualizar firmware e preencha os diferentes campos da janela e valide. Tenha cuidado para não fazer isso em uma caixa luna, pois quebra a chave zigbee.
+>Você deve atualizar o firmware da sua chave zigbee, para fazer isso na configuração do plugin jeezigbee clique em atualizar firmware e preencha os diferentes campos da janela e valide. Tenha cuidado para não fazer isso em uma caixa luna, pois quebra a chave zigbee. Se a atualização não funcionar, você deve tentar fazer uma “Correção do Bootloader".
 
 >**Meu equipamento não é reconhecido**
 >

@@ -1,16 +1,31 @@
 {
-	"id" : "eibd",
-	"name" : "EIB - KNX",
-	"description" : "Connecter Jeedom avec votre installation domotique KNX et Jeedom deviendra un participant de votre installation",
-	"licence" : "AGPL",
-	"author" : "Halbout Michael",
-	"installation" : "Choisissez le programme de votre choix et lancer l'installation des dependance",
-	"maxDependancyInstallTime" : 130,
-	"hasOwnDeamon" : true,
-	"hasDependency" : true,
-	"require" : "4.2.12",
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
-	"category" : "automation protocol",
- 	"documentation" : "http://mika-nt28.github.io/Documentations/eibd/#language#/",
-	"changelog" : "https://mika-nt28.github.io/Documentations/eibd/#language#/changelog"
+  "id": "relayModule",
+  "name": "Relay Module",
+  "description": {
+		"fr_FR": "Plugin pour piloter des modules de relais ethernet"
+  },
+  "licence": "AGPL",
+  "author": "fobsoft",
+  "require": "4",
+  "category": "automation protocol",
+  "hasDependency" : 1,
+  "hasOwnDeamon" : 0,
+  "maxDependancyInstallTime" : 0,
+	"changelog" :           "http:\/\/fobsoft.github.io\/jeedom-plugins-documentation\/relayModule\/#language#\/changelog",
+	"documentation" :       "http:\/\/fobsoft.github.io\/jeedom-plugins-documentation\/relayModule\/#language#",
+	"changelog_beta" :      "http:\/\/fobsoft.github.io\/jeedom-plugins-documentation\/relayModule\/#language#\/changelog",
+	"documentation_beta" :  "http:\/\/fobsoft.github.io\/jeedom-plugins-documentation\/relayModule\/#language#",
+	"language": [
+		"fr_FR"
+	],  
+  "compatibility": [
+    "miniplus",
+    "smart",
+    "rpi",
+    "docker",
+    "diy",
+    "mobile",
+    "v4",
+		"atlas"
+  ]
 }

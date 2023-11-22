@@ -194,7 +194,7 @@ Mit Zigbee2mqtt können Sie externe Konverter hinzufügen (um Module zu unterst�
 
 >**Ich habe die Fehlermeldung „Fehler“ erhalten: Fehler zurücksetzen: Error: {"sequence":-1} nach 10000ms` und einem ELELABS-Schlüssel oder einer Atlas-Box**
 >
->Sie müssen die Firmware Ihres ZigBee-Schlüssels aktualisieren. Klicken Sie dazu in der Konfiguration des JeezigBee-Plugins auf Firmware aktualisieren, füllen Sie die verschiedenen Felder im Fenster aus und bestätigen Sie dann. Achten Sie darauf, dies nicht auf einer Luna-Box zu tun, da sonst der ZigBee-Schlüssel beschädigt wird.
+>Sie müssen die Firmware Ihres ZigBee-Schlüssels aktualisieren. Klicken Sie dazu in der Konfiguration des JeezigBee-Plugins auf Firmware aktualisieren, füllen Sie die verschiedenen Felder im Fenster aus und bestätigen Sie dann. Achten Sie darauf, dies nicht auf einer Luna-Box zu tun, da sonst der ZigBee-Schlüssel beschädigt wird. Wenn das Update nicht funktioniert, müssen Sie versuchen, eine „Bootloader-Korrektur“ durchzuführen".
 
 >**Meine Ausrüstung wird nicht erkannt**
 >

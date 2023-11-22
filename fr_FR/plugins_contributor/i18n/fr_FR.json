@@ -2,6 +2,8 @@
     "plugins_contributor\/automation protocol\/index.md": {
         "Niren TcpKpI8O8": "Niren TcpKpI8O8",
         "Plugin tcpkp pour la gestion des cartes entrees sorties Niren tcpkp": "Plugin tcpkp pour la gestion des cartes entrees sorties Niren tcpkp",
+        "Relay Module": "Relay Module",
+        "Plugin pour piloter des modules de relais ethernet": "Plugin pour piloter des modules de relais ethernet",
         "MyModbus": "MyModbus",
         "Plugin pour la gestion de matériel qui ont le protocol ModBus": "Plugin pour la gestion de matériel qui ont le protocol ModBus",
         "Modbus TCP Server": "Modbus TCP Server",

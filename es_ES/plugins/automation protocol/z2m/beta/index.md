@@ -194,7 +194,7 @@ Zigbee2mqtt le permite agregar convertidores externos (para admitir módulos no 
 
 >**Recibí el error `Error: Restablecer error: Error: {"sequence":-1} después de 10000ms` y una clave ELELABS o una caja Atlas**
 >
->Debes actualizar el firmware de tu llave zigbee, para ello en la configuración del plugin jeezigbee haz clic en actualizar firmware y llena los diferentes campos en la ventana luego valida. Tenga cuidado de no hacer esto en una caja luna, se rompe la tecla zigbee.
+>Debes actualizar el firmware de tu llave zigbee, para ello en la configuración del plugin jeezigbee haz clic en actualizar firmware y llena los diferentes campos en la ventana luego valida. Tenga cuidado de no hacer esto en una caja luna, se rompe la tecla zigbee. Si la actualización no funciona, entonces debes intentar hacer una “Corrección del cargador de arranque”".
 
 >**Mi equipo no es reconocido**
 >

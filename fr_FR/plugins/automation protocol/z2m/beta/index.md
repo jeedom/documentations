@@ -194,7 +194,7 @@ Zigbee2mqtt vous autorise à ajouter des convertisseurs externe (pour supporter 
 
 >**J'ai l'erreur `Error: Reset error: Error: {"sequence":-1} after 10000ms` et une clef ELELABS ou une box Atlas**
 >
->Il faut mettre a jour le firmware de votre clef zigbee, pour cela dans la configuration du plugin jeezigbee cliquez sur mettre à jour le firmware et remplisez les different champs de la fenetre puis validez. Attention a ne surtout pas faire ca sur une box luna, cela casse la clef zigbee.
+>Il faut mettre a jour le firmware de votre clef zigbee, pour cela dans la configuration du plugin jeezigbee cliquez sur mettre à jour le firmware et remplisez les different champs de la fenetre puis validez. Attention a ne surtout pas faire ca sur une box luna, cela casse la clef zigbee. Si la mise à jour ne marche pas il faut alors tester de faire une "Correction bootloader".
 
 >**Mon équipement n'est pas reconnu**
 >
