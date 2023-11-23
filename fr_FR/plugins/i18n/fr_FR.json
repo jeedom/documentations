@@ -465,6 +465,9 @@
     "plugins\/organization\/index.md": {
         "Mode": "Mode",
         "Plugin permettant de créer et gérer différents modes (maison\/appartement, alarme, présences, etc...) et d'effectuer des actions automatiquement lors de l'entrée et\/ou la sortie d'un mode": "Plugin permettant de créer et gérer différents modes (maison\/appartement, alarme, présences, etc...) et d'effectuer des actions automatiquement lors de l'entrée et\/ou la sortie d'un mode",
+        "Gestionnaire de réservations Misterbooking": "Gestionnaire de réservations Misterbooking",
+        "Misterbooking": "Misterbooking",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
         "Geoloc": "Geoloc",
         "Plugin permettant à Jeedom de gérer la géolocalisation (Uniquement pour Android via l'application Tasker": "Plugin permettant à Jeedom de gérer la géolocalisation (Uniquement pour Android via l'application Tasker",
         "La démarche est expliquée dans la documentation": "La démarche est expliquée dans la documentation",
@@ -515,7 +518,9 @@
         "Saison": "Saison",
         "Saint du jour": "Saint du jour",
         "Il est capable d'interpréter les titres des évènements comme interaction": "Il est capable d'interpréter les titres des évènements comme interaction",
-        "ce plugin nécessite d'avoir un compte dev chez Google (tout le monde peut en avoir c'est gratuit et sans impact": "ce plugin nécessite d'avoir un compte dev chez Google (tout le monde peut en avoir c'est gratuit et sans impact"
+        "ce plugin nécessite d'avoir un compte dev chez Google (tout le monde peut en avoir c'est gratuit et sans impact": "ce plugin nécessite d'avoir un compte dev chez Google (tout le monde peut en avoir c'est gratuit et sans impact",
+        "Documentation beta": "Documentation beta",
+        "Changelog beta": "Changelog beta"
     },
     "plugins\/other\/index.md": {
         "IMPORTANT": "IMPORTANT",
