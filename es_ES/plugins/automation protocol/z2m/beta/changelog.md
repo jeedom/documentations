@@ -4,6 +4,8 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+- Soporte de actualización de firmware Zigbee en Luna
+
 # 11/06/2023
 
 - Se corrigió un error en la gestión de grupos

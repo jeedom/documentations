@@ -4,6 +4,8 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+- Support de la mise à jour du firmware zigbee sur Luna
+
 # 06/11/2023
 
 - Correction d'un bug sur la gestion des groupes

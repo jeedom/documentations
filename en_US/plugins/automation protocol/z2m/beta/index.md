@@ -215,3 +215,7 @@ Zigbee2mqtt allows you to add external converters (to support modules not offici
 >**SONOFF model P key: Flashing and fixing the “unknown record type 3” issue**
 >
 >An explanation of flashing the key was proposed on the forum. If you have the unkown record type3 error it is necessary to convert your file .hex to .bin as explained in the tutorial. Thanks to JeedGeek for the explanation [here](https://community.jeedom.com/t/flasher-sa-cle-usb-zigbee-sonoff-p-avec-lutilitaire-ti-sous-windows/109453)
+
+>**I have an error when updating firmware on Luna**
+>
+>You must deactivate the plugin daemon (Plugin -> Plugin management -> Jeezigbee then Automatic management -> deactivate), restart the luna (Settings -> System -> Restart). Once the box restarts, you must restart the firmware update. Please note this may take up to 10 minutes

@@ -215,3 +215,7 @@ Mit Zigbee2mqtt können Sie externe Konverter hinzufügen (um Module zu unterst�
 >**SONOFF Modell P-Taste: Flashen und Beheben des Problems „Unbekannter Datensatztyp 3“**
 >
 >Im Forum wurde eine Erklärung zum Blinken des Schlüssels vorgeschlagen. Wenn der Fehler „Unbekannter Datensatztyp 3“ auftritt, müssen Sie Ihre Datei konvertieren .verhexen .bin, wie im Tutorial erklärt. Vielen Dank an JeedGeek für die Erklärung [Hier](https://community.jeedom.com/t/flasher-sa-cle-usb-zigbee-sonoff-p-avec-lutilitaire-ti-sous-windows/109453)
+
+>**Beim Aktualisieren der Firmware auf Luna ist ein Fehler aufgetreten**
+>
+>Sie müssen den Plugin-Daemon deaktivieren (Plugin -> Plugin-Verwaltung -> Jeezigbee, dann Automatische Verwaltung -> Deaktivieren) und Luna neu starten (Einstellungen -> System -> Neu starten)). Sobald die Box neu gestartet ist, müssen Sie das Firmware-Update erneut starten. Bitte beachten Sie, dass dies bis zu 10 Minuten dauern kann

@@ -215,3 +215,7 @@ Zigbee2mqtt permite adicionar conversores externos (para suportar módulos não 
 >**Chave SONOFF modelo P: Piscando e corrigindo o problema de “tipo de registro desconhecido 3”**
 >
 >Uma explicação sobre como piscar a chave foi proposta no fórum. Se você tiver o erro de registro desconhecido type3, é necessário converter seu arquivo .hexadecimal para .bin conforme explicado no tutorial. Obrigado ao JeedGeek pela explicação [aqui](https://community.jeedom.com/t/flasher-sa-cle-usb-zigbee-sonoff-p-avec-lutilitaire-ti-sous-windows/109453)
+
+>**Eu tenho um erro ao atualizar o firmware no Luna**
+>
+>Você deve desativar o daemon do plugin (Plugin -> Gerenciamento de plugins -> Jeezigbee então Gerenciamento automático -> desativar), reiniciar o luna (Configurações -> Sistema -> Reiniciar). Assim que a caixa for reiniciada, você deve reiniciar a atualização do firmware. Observe que isso pode levar até 10 minutos
