@@ -218,4 +218,4 @@ Zigbee2mqtt le permite agregar convertidores externos (para admitir módulos no 
 
 >**Tengo error al actualizar firmware en Luna**
 >
->Debe desactivar el demonio del complemento (Complemento -> Administración de complementos -> Jeezigbee luego Administración automática -> desactivar), reiniciar la luna (Configuración -> Sistema -> Reiniciar). Una vez que la caja se reinicie, debes reiniciar la actualización del firmware. Tenga en cuenta que esto puede tardar hasta 10 minutos
+>Debe desactivar el demonio del complemento (Complemento -> Administración de complementos -> Jeezigbee luego Administración automática -> desactivar), reiniciar la luna (Configuración -> Sistema -> Reiniciar). Una vez que la caja se reinicie, debes reiniciar la actualización del firmware. Tenga en cuenta que esto puede tardar hasta 10 minutos. No olvide reactivar la gestión automática de demonios una vez que haya completado la actualización.

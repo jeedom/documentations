@@ -218,4 +218,4 @@ Zigbee2mqtt vous autorise à ajouter des convertisseurs externe (pour supporter 
 
 >**J'ai une erreur lors de la mise à jour du firmware sur Luna**
 >
->Il faut desactiver le démon du plugin (Plugin -> Gestion de plugin -> Jeezigbee puis Gestion automatique -> désactiver), redemarrer la luna (Réglage -> Systeme -> Redemarrer). Une fois la box redemarrer il faut relancer la mise à jour du firmware. Attention cela peut prendre jusqu'a 10min
+>Il faut desactiver le démon du plugin (Plugin -> Gestion de plugin -> Jeezigbee puis Gestion automatique -> désactiver), redemarrer la luna (Réglage -> Systeme -> Redemarrer). Une fois la box redemarrer il faut relancer la mise à jour du firmware. Attention cela peut prendre jusqu'a 10min. N'oubliez pas une fois la mise à jour faire de réactiver la gestion automatique du démon.

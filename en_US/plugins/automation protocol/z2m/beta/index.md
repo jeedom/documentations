@@ -218,4 +218,4 @@ Zigbee2mqtt allows you to add external converters (to support modules not offici
 
 >**I have an error when updating firmware on Luna**
 >
->You must deactivate the plugin daemon (Plugin -> Plugin management -> Jeezigbee then Automatic management -> deactivate), restart the luna (Settings -> System -> Restart). Once the box restarts, you must restart the firmware update. Please note this may take up to 10 minutes
+>You must deactivate the plugin daemon (Plugin -> Plugin management -> Jeezigbee then Automatic management -> deactivate), restart the luna (Settings -> System -> Restart). Once the box restarts, you must restart the firmware update. Please note this may take up to 10 minutes. Don't forget to reactivate automatic daemon management once you have completed the update.

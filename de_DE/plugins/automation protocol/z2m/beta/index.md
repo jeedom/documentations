@@ -218,4 +218,4 @@ Mit Zigbee2mqtt können Sie externe Konverter hinzufügen (um Module zu unterst�
 
 >**Beim Aktualisieren der Firmware auf Luna ist ein Fehler aufgetreten**
 >
->Sie müssen den Plugin-Daemon deaktivieren (Plugin -> Plugin-Verwaltung -> Jeezigbee, dann Automatische Verwaltung -> Deaktivieren) und Luna neu starten (Einstellungen -> System -> Neu starten)). Sobald die Box neu gestartet ist, müssen Sie das Firmware-Update erneut starten. Bitte beachten Sie, dass dies bis zu 10 Minuten dauern kann
+>Sie müssen den Plugin-Daemon deaktivieren (Plugin -> Plugin-Verwaltung -> Jeezigbee, dann Automatische Verwaltung -> Deaktivieren) und Luna neu starten (Einstellungen -> System -> Neu starten)). Sobald die Box neu gestartet ist, müssen Sie das Firmware-Update erneut starten. Bitte beachten Sie, dass dies bis zu 10 Minuten dauern kann. Vergessen Sie nicht, die automatische Daemon-Verwaltung nach Abschluss des Updates wieder zu aktivieren.
