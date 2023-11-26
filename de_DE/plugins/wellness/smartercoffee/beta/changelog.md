@@ -4,6 +4,12 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 25.11.2023
+
+- Korrigieren Sie die Debian 11- und Python 3-Kompatibilität
+- Verwendung des Plugin-API-Schlüssels anstelle des Kernschlüssels für die Konnektivität mit dem Daemon
+- Diverse Fehlerbehebungen und Verbesserungen
+
 # 23.03.2023
 
 - Installation von Abhängigkeiten hinzugefügt

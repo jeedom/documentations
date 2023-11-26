@@ -4,6 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 25/11/2023
+
+- Fix compatibilité Debian 11 & Python 3
+- Utilisation de la clé API du plugin au lieu de celle du core pour la connectivité avec le démon
+- Diverses corrections de bugs et améliorations
+
 # 23/03/2023
 
 - Ajout de l'installation des dépendances

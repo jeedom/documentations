@@ -4,6 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 25/11/2023
+
+- Reparar la compatibilidad de Debian 11 y Python 3
+- Usar la clave API del complemento en lugar de la clave principal para la conectividad con el demonio
+- Varias correcciones de errores y mejoras
+
 # 23/03/2023
 
 - Instalación de dependencias añadidas
