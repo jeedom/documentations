@@ -6,6 +6,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
 
+# 27/11/2023
+
+- Mejor gestión de los modos del termostato
+
 # 10/02/2023
 
 - Corrección de errores
