@@ -4,6 +4,12 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 27/11/2023
+
+- Atualizada a biblioteca `fullcalendar` para 6.0.1 a 6.1.9
+- Adicionando uma visualização **Ano**
+- A visualização selecionada é salva ao salvar o equipamento
+
 # 17/03/2023
 - Fornecimento de uma API para listar, adicionar, modificar e excluir um evento.
 
@@ -22,6 +28,7 @@
 
 - Correções de bugs
 - Preparação para Jeedom 4.2
+- Mudar para a versão estável
 
 # 11/08/2021
 

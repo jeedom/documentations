@@ -27,7 +27,7 @@ On this page you will find the list of your Agendas. Click on an agenda to acces
 
 - **List of calendar events** : displays the list of all calendar events *(a click on the name allows you to edit the event)*.
 
-The tab **Agenda** allows you to display an agenda type view including all events. You can move around the calendar, choose to display it by day, week or month and even move events by drag and drop. Clicking on an event opens the editing window for the event concerned.
+The tab **Agenda** allows you to display an agenda type view including all events. You can move around in the calendar, choose to display it by year, month, week, day or weekly schedule. Clicking on an event opens the editing window for the event concerned.
 
 # Events
 
@@ -124,18 +124,18 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
 ## event::getAllCalendarAndEvents
 **Input parameters**
 /Aucun/
-```
+```json
 {
     "jsonrpc": "2.0",
     "method": "event::getAllCalendarAndEvents",
     "params": {
         "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
         "plugin": "calendar"
-    }    
+    }
 }
 ```
 **Example of result**
-```
+```json
 {
   "jsonrpc": "2.0",
   "id": 99999,
@@ -335,10 +335,10 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
 }
 ```
 
-## event::getAllEvents**
+## event::getAllEvents
 **Input parameters**
 - eqLogic_id /int/
-```
+```json
 {
     "jsonrpc": "2.0",
     "method": "event::getAllEvents",
@@ -346,11 +346,11 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
         "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
         "plugin": "calendar",
         "eqLogic_id": 641
-    }    
+    }
 }
 ```
 **Example of result**
-```     
+```json
 {
   "jsonrpc": "2.0",
   "id": 99999,
@@ -439,10 +439,10 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
 }
 ```
 
-## event::byId**
+## event::byId
 **Input parameters**
 - event_id /int/
-```
+```json
 {
     "jsonrpc": "2.0",
     "method": "event::byId",
@@ -450,11 +450,11 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
         "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
         "plugin": "calendar",
         "event_id": 5
-    }    
+    }
 }
 ```
 **Example of result**
-```
+```json
 {
   "jsonrpc": "2.0",
   "id": 99999,
@@ -526,10 +526,10 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
 }
 ```
 
-## event::save**
+## event::save
 **Input parameters**
 - event /json object/
-```
+```json
 {
     "jsonrpc": "2.0",
     "method": "event::save",
@@ -600,11 +600,11 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
   },
   "until": ""
 }
-    }    
+    }
 }
 ```
 **Example of result**
-```    
+```json
 {
   "jsonrpc": "2.0",
   "id": 99999,
@@ -676,10 +676,10 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
 }
 ```
 
-## event::remove**
+## event::remove
 **Input parameters**
 - event_id /int/
-```
+```json
 {
     "jsonrpc": "2.0",
     "method": "event::remove",
@@ -687,11 +687,11 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
         "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
         "plugin": "calendar",
         "event_id": 5
-    }    
+    }
 }
 ```
 **Example of result**
-```
+```json
 {
   "jsonrpc": "2.0",
   "id": 99999,

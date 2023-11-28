@@ -4,6 +4,12 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 11/27/2023
+
+- Updated the `fullcalendar` library to 6.0.1 to 6.1.9
+- Adding a view **Year**
+- The selected view is saved when saving the equipment
+
 # 03/17/2023
 - Provision of an API to list, add, modify and delete an event.
 
@@ -22,6 +28,7 @@
 
 - Bugfix
 - Preparation for Jeedom 4.2
+- Switch to stable version
 
 # 08/11/2021
 

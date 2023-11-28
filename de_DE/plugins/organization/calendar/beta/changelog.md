@@ -4,6 +4,12 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 27.11.2023
+
+- Die „fullcalendar“-Bibliothek wurde auf 6.0 aktualisiert.1 bis 6.1.9
+- Hinzufügen einer Ansicht **Jahr**
+- Die ausgewählte Ansicht wird beim Speichern des Equipments gespeichert
+
 # 17.03.2023
 - Bereitstellung einer API zum Auflisten, Hinzufügen, Ändern und Löschen eines Ereignisses.
 
@@ -22,6 +28,7 @@
 
 - Fehlerbehebungen
 - Vorbereitung für Jeedom 4.2
+- Wechseln Sie zur stabilen Version
 
 # 08.11.2021
 

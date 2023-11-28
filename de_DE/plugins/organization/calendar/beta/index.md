@@ -27,7 +27,7 @@ Auf dieser Seite finden Sie die Liste Ihrer Agendas. Klicken Sie auf eine Agenda
 
 - **Liste der Kalenderereignisse** : zeigt die Liste aller Kalenderereignisse an *(ein Klick auf den Namen ermöglicht es Ihnen, das Ereignis zu bearbeiten)*.
 
-Die Registerkarte **Agenda** ermöglicht die Anzeige einer Agenda-Typ-Ansicht mit allen Ereignissen. Sie können sich im Kalender bewegen, ihn nach Tag, Woche oder Monat anzeigen lassen und sogar Ereignisse per Drag & Drop verschieben. Ein Klick auf ein Ereignis öffnet das Bearbeitungsfenster für das betreffende Ereignis.
+Die Registerkarte **Agenda** ermöglicht die Anzeige einer Agenda-Typ-Ansicht mit allen Ereignissen. Sie können sich im Kalender bewegen und ihn nach Jahr, Monat, Woche, Tag oder Wochenplan anzeigen lassen. Ein Klick auf ein Ereignis öffnet das Bearbeitungsfenster für das betreffende Ereignis.
 
 # Veranstaltungen
 
@@ -124,18 +124,18 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 ## event::getAllCalendarAndEvents
 **Eingabeparameter**
 /Aucun/
-```
+```json
 {
     "jsonrpc": "2.0",
     "method": "event::getAllCalendarAndEvents",
     "params": {
         "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
         "plugin": "calendar"
-    }    
+    }
 }
 ```
 **Ergebnisbeispiel**
-```
+```json
 {
   "jsonrpc": "2.0",
   "id": 99999,
@@ -335,10 +335,10 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 }
 ```
 
-## event::getAllEvents**
+## event::getAllEvents
 **Eingabeparameter**
 - eqLogic_id /int/
-```
+```json
 {
     "jsonrpc": "2.0",
     "method": "event::getAllEvents",
@@ -346,11 +346,11 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
         "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
         "plugin": "calendar",
         "eqLogic_id": 641
-    }    
+    }
 }
 ```
 **Ergebnisbeispiel**
-```     
+```json
 {
   "jsonrpc": "2.0",
   "id": 99999,
@@ -439,10 +439,10 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 }
 ```
 
-## event::byId**
+## event::byId
 **Eingabeparameter**
 - event_id /int/
-```
+```json
 {
     "jsonrpc": "2.0",
     "method": "event::byId",
@@ -450,11 +450,11 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
         "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
         "plugin": "calendar",
         "event_id": 5
-    }    
+    }
 }
 ```
 **Ergebnisbeispiel**
-```
+```json
 {
   "jsonrpc": "2.0",
   "id": 99999,
@@ -526,10 +526,10 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 }
 ```
 
-## event::save**
+## event::save
 **Eingabeparameter**
 - Ereignis /json-Objekt/
-```
+```json
 {
     "jsonrpc": "2.0",
     "method": "event::save",
@@ -600,11 +600,11 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
   },
   "until": ""
 }
-    }    
+    }
 }
 ```
 **Ergebnisbeispiel**
-```    
+```json
 {
   "jsonrpc": "2.0",
   "id": 99999,
@@ -676,10 +676,10 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 }
 ```
 
-## event::remove**
+## event::remove
 **Eingabeparameter**
 - event_id /int/
-```
+```json
 {
     "jsonrpc": "2.0",
     "method": "event::remove",
@@ -687,11 +687,11 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
         "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
         "plugin": "calendar",
         "event_id": 5
-    }    
+    }
 }
 ```
 **Ergebnisbeispiel**
-```
+```json
 {
   "jsonrpc": "2.0",
   "id": 99999,
