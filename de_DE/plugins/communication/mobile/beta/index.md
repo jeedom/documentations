@@ -4,14 +4,11 @@ Plugin zur Verwendung der Jeedom Mobile-Anwendung.
 
 Die mobile Jeedom-Anwendung erfordert die Installation dieses Plugins, damit die Box mit der mobilen Anwendung kommunizieren kann.
 
-
-
 # Konfiguration des Mobile-Plugins für Application V2
 
 Nach der Installation des Plugins müssen Sie es nur noch aktivieren :
 
 ![mobile1](./images/mobile1.png)
-
 
 # Erste Verbindung mit der V2-Anwendung
 
@@ -20,42 +17,33 @@ Auf dem ersten Bildschirm der Anwendung wird Ihnen angeboten, Ihr Marktkonto zu 
 
 ![v2ConnectMarket](./images/v2firstConnect.jpeg)
 
->**WICHTIG**
+> **WICHTIG**
 >
 > Um von den Funktionalitäten der Anwendung profitieren zu können, muss sich der Kern Ihres Jeedom in 4.4 befinden.Mindestens 0
 
-
-
-
-#### __LOGIN ÜBER DAS MARKET ACCOUNT__ :
+#### **LOGIN ÜBER MARKET-KONTO** :
 
 ![v2ConnectMarket](./images/v2connectMarket.PNG)
 
 Sie müssen lediglich Ihre Markt-ID und Ihr Passwort eingeben.
 
-
-#### __LOGIN ÜBER BOX-ID__ :
+#### **VERBINDUNG ÜBER BOX-ID** :
 
 ![v22methods](./images/v22methods.PNG)
 
 Mehrere Auswahlmöglichkeiten auf diesem Bildschirm :
 
-  - Sie geben die URL Ihres Jeedoms (intern oder extern) sowie die Zugangskennungen dazu ein und bestätigen mit dem LOGIN-Button
+- Sie geben die URL Ihres Jeedoms (intern oder extern) sowie die Zugangskennungen dazu ein und bestätigen mit dem LOGIN-Button
 
-
-  - Sie klicken auf QR-Code : ein neuer Bildschirm erscheint; Sie können einen QRCode aus dem Mobile-Plugin der Box, die Sie hinzufügen möchten, über die Registerkarte QRCODE des Plugins scannen.
+- Sie klicken auf QR-Code : ein neuer Bildschirm erscheint; Sie können einen QRCode aus dem Mobile-Plugin der Box, die Sie hinzufügen möchten, über die Registerkarte QRCODE des Plugins scannen.
 
 ![v2ModalQrApp](./images/v2QRCodeConnect.PNG)
 
-
 > Registerkarte „Qr-Code“ des Mobile-Plugins
 
->> ![v2ModalPlugin](./images/v2ModalQrCode.png)
-
-
+> > ![v2ModalPlugin](./images/v2ModalQrCode.png)
 
 Nach diesem ersten Schritt sind Sie in der Anwendung registriert: Wenn Sie das Mobile-Plugin haben, haben Sie über das Menü Zugriff auf Benachrichtigungen, QrCodes, Menüanpassung ....
-
 
 Im Menü haben Sie eine Registerkarte Boxen, die alle auf diesem Marktkonto vorhandenen Boxen zusammenfasst
 
@@ -69,19 +57,17 @@ Das Feld wird an den Anfang der Liste gestellt, nachdem es seine Authentifizieru
 Sie können dies für mehrere Boxen tun.
 
 Sie können auch unten rechts auf die Schaltfläche + klicken, um auf verschiedene Optionen zuzugreifen
-  - QRCode zum Hinzufügen einer Box zur Liste über das Mobile-Plugin,
-  - Manuell, um eine Box manuell hinzuzufügen
-  - Erkennung Atlas und Luna (wenn Sie mit WLAN verbunden sind, erkennen die Boxen im Netzwerk)
-  - Market-Synchronisierung, um konfigurierte Market-Kontoinformationen zu aktualisieren
+
+- QRCode zum Hinzufügen einer Box zur Liste über das Mobile-Plugin,
+- Manuell, um eine Box manuell hinzuzufügen
+- Erkennung Atlas und Luna (wenn Sie mit WLAN verbunden sind, erkennen die Boxen im Netzwerk)
+- Market-Synchronisierung, um konfigurierte Market-Kontoinformationen zu aktualisieren
 
 ![v2greenBtnAdd](./images/v2greenBtnAdd.PNG)
-
 
 Um auf Funktionen wie Benachrichtigungen, Menüpersonalisierung oder Geolokalisierung zugreifen zu können, müssen Sie zunächst mindestens ein aktuelles Feld ausgewählt haben'
 
 ![v2ActualBoxFlouted](./images/v2ActualBoxFlouted.jpeg)
-
-
 
 # So funktioniert Geolokalisierung
 
@@ -90,32 +76,23 @@ Wir fügen eine Geolocation-Zone hinzu, indem wir auf das +-Symbol klicken
 ![v2AddZone](./images/v2AddZone.jpeg)
 
 Wir geben die gesuchte Adresse ein und bestätigen mit der Eingabetaste auf seinem Telefon. Der Cursor positioniert sich dann auf der gewünschten Adresse.
-Anschließend können wir einen Namen hinzufügen und die Zone speichern. 
+Anschließend können wir einen Namen hinzufügen und die Zone speichern.
 
 Dadurch wird auf Ihrem mobilen Gerät ein neuer Befehl vom Binärtyp erstellt, der den Ein- und Ausgängen der Zone entspricht, wenn die Geolokalisierung auf Ihrem Mobiltelefon aktiviert ist.
 
-Wir können auch den Radius der Zone ändern, um die Erkennung der Zone zu erweitern. 
+Wir können auch den Radius der Zone ändern, um die Erkennung der Zone zu erweitern.
 
 ![v2ModifyBigRadius](./images/v2ModifyBigRadius.jpeg)
 
-
-
-
-
-
 # FAQ
 
->**Ich habe Probleme mit Benachrichtigungen**
+> **Ich habe Probleme mit Benachrichtigungen**
 >
->Dieser Teil wird derzeit in der Beta-Anwendung verbessert und optimiert.
+> Dieser Teil wird derzeit in der Beta-Anwendung verbessert und optimiert.
 
-
->**Ich habe Probleme bei der Anzeige meiner Webansicht**
+> **Ich habe Probleme bei der Anzeige meiner Webansicht**
 >
->Überprüfen Sie auf Ihrem Jeedom in den Einstellungen, ob die mobile Startseite HOME ist.
-
-
-
+> Überprüfen Sie auf Ihrem Jeedom in den Einstellungen, ob die mobile Startseite HOME ist.
 
 # Einrichten des Mobile V1-Plugins
 
@@ -134,10 +111,10 @@ Mobile** → **Hinzufügen**
 
 Hier sind die einzugebenden Parameter :
 
--   **Name der mobilen Ausrüstung** : Telefonname
--   **Aktivieren** : Aktivieren des Zugriffs für dieses Mobiltelefon
--   **Mobiler Typ** : Auswahl des Telefonbetriebssystems (iOS, Android)
--   **Benutzer** : Benutzer, der diesem Zugriff zugeordnet ist
+- **Name der mobilen Ausrüstung** : Telefonname
+- **Aktivieren** : Aktivieren des Zugriffs für dieses Mobiltelefon
+- **Mobiler Typ** : Auswahl des Telefonbetriebssystems (iOS, Android)
+- **Benutzer** : Benutzer, der diesem Zugriff zugeordnet ist
 
 > **Spitze**
 >
@@ -234,91 +211,90 @@ Besser als Worte, hier ist ein Beispiel für die generischen Credits für ein Li
 
 ### Die Lichter
 
-Bild                           | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
-:-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![LIGHT](../images/LIGHT_1.jpg) | `Lumière Bouton On`<br/>`Button Off Light` | `LIGHT_ON`<br/>`LIGHT_OFF`| Vorhandensein von zwei Tasten "EIN" und "Aus" keine Statusrückmeldung. |
-![LIGHT](../images/LIGHT_2.jpg) | `Lumière Bouton On`<br/>`Button Off Light`<br/>`State Light` | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE` | Bei vorhandener Statusrückmeldung wechselt die linke Taste zwischen Ein und Aus |
-![LIGHT](../images/LIGHT_2.jpg) | `Lumière Bouton Toggle`<br/>`State Light` | `LIGHT_TOGGLE`<br/>`LIGHT_STATE` | Bei vorhandener Statusrückmeldung wechselt die linke Taste zwischen Ein und Aus |
-![LIGHT](../images/LIGHT_3.jpg) | `Lumière Bouton On`<br/>`Button Off Light`<br/>`State Light`<br/>`Light Slider` | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER` | Bei vorhandener Statusrückmeldung können Sie mit der linken Taste zwischen Ein und Aus wechseln und mit dem Schieberegler die Intensität steuern |
-![LIGHT](../images/LIGHT_4.jpg) | `Lumière Bouton On`<br/>`Button Off Light`<br/>`State Light`<br/>`Light Slider`<br/>`Lichtfarbe (info)`<br/>`Lichtfarbe (Aktion)`<br/>`Lichtmodus` (optional, wird verwendet, um Lichtmodi zu haben, zum Beispiel Regenbogen auf Hue philips) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Bei vorhandener Statusrückmeldung können Sie mit der linken Taste zwischen Ein und Aus wechseln und mit dem Schieberegler die Intensität steuern. Im Kreis ist die Farbe der Lampe vorhanden. Wenn Sie darauf klicken, können Sie die Farbe ändern und einen Modus aktivieren |
+|              Bild              | Typ Gattung                                                                                                                                                                                                                                                   | Dev Plugin Teil                                                                                                        |                                                                                                                           Beschreibung                                                                                                                            |
+| :-----------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![LICHT](../images/LIGHT_1.jpg) | „Lichttaste ein“<br/>`Button Off Light`                                                                                                                                                                                                                     | `LIGHT_ON`<br/>`LIGHT_OFF`                                                                                               |                                                                                                   Vorhandensein von zwei Tasten "EIN" und "Aus" keine Statusrückmeldung.                                                                                                   |
+| ![LICHT](../images/LIGHT_2.jpg) | „Lichttaste ein“<br/>`Button Off Light`<br/>`State Light`                                                                                                                                                                                                  | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`                                                                             |                                                                                          Bei vorhandener Statusrückmeldung wechselt die linke Taste zwischen Ein und Aus                                                                                           |
+| ![LICHT](../images/LIGHT_2.jpg) | „Licht-Umschalttaste“<br/>`State Light`                                                                                                                                                                                                                       | `LIGHT_TOGGLE`<br/>`LIGHT_STATE`                                                                                         |                                                                                          Bei vorhandener Statusrückmeldung wechselt die linke Taste zwischen Ein und Aus                                                                                           |
+| ![LICHT](../images/LIGHT_3.jpg) | „Lichttaste ein“<br/>`Button Off Light`<br/>`State Light`<br/>`Light Slider`                                                                                                                                                                             | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`                                                          |                                                                    Bei vorhandener Statusrückmeldung können Sie mit der linken Taste zwischen Ein und Aus wechseln und mit dem Schieberegler die Intensität steuern                                                                    |
+| ![LICHT](../images/LIGHT_4.jpg) | „Lichttaste ein“<br/>`Button Off Light`<br/>`State Light`<br/>`Light Slider`<br/>`Lichtfarbe (info)`<br/>`Lichtfarbe (Aktion)`<br/>`Lichtmodus` (optional, wird verwendet, um Lichtmodi zu haben, zum Beispiel Regenbogen auf Hue philips) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Bei vorhandener Statusrückmeldung können Sie mit der linken Taste zwischen Ein und Aus wechseln und mit dem Schieberegler die Intensität steuern. Im Kreis ist die Farbe der Lampe vorhanden. Wenn Sie darauf klicken, können Sie die Farbe ändern und einen Modus aktivieren |
 
 ### Die Steckdosen
 
-Bild                           | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
-:-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![ENERGY](../images/ENERGY_1.jpg) | `Prise Bouton On`<br/>`Button Off Socket`| `ENERGY_ON`<br/>`ENERGY_OFF`| Vorhandensein von zwei Tasten "EIN" und "Aus" keine Statusrückmeldung. |
-![ENERGY](../images/ENERGY_2.jpg) | `Prise Bouton On`<br/>`Button Off Socket`<br/>`State Taking` | `ENERGY_ON`<br/>`ENERGY_OFF`<br/>`ENERGY_STATE` | Bei vorhandener Statusrückmeldung wechselt die linke Taste zwischen Ein und Aus |
-![ENERGY](../images/ENERGY_3.jpg) | `Prise Bouton On`<br/>`Button Off Socket`<br/>`State Taking`<br/>`Slider Socket` | `ENERGY_ON`<br/>`ENERGY_OFF`<br/>`ENERGY_STATE`<br/>`ENERGY_SLIDER` | Bei vorhandener Statusrückmeldung können Sie mit der linken Taste zwischen Ein und Aus wechseln und mit dem Schieberegler die Intensität steuern |
+|               Bild               | Typ Gattung                                                               | Dev Plugin Teil                                                   |                                                        Beschreibung                                                         |
+| :-------------------------------: | :--------------------------------------------------------------------------- | :------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------: |
+| ![ENERGIE](../images/ENERGY_1.jpg) | „Steckdosenknopf ein“<br/>`Button Off Socket`                                     | `ENERGY_ON`<br/>`ENERGY_OFF`                                        |                                Vorhandensein von zwei Tasten "EIN" und "Aus" keine Statusrückmeldung.                                |
+| ![ENERGIE](../images/ENERGY_2.jpg) | „Steckdosenknopf ein“<br/>`Button Off Socket`<br/>`State Taking`                    | `ENERGY_ON`<br/>`ENERGY_OFF`<br/>`ENERGY_STATE`                     |                       Bei vorhandener Statusrückmeldung wechselt die linke Taste zwischen Ein und Aus                        |
+| ![ENERGIE](../images/ENERGY_3.jpg) | „Steckdosenknopf ein“<br/>`Button Off Socket`<br/>`State Taking`<br/>`Slider Socket` | `ENERGY_ON`<br/>`ENERGY_OFF`<br/>`ENERGY_STATE`<br/>`ENERGY_SLIDER` | Bei vorhandener Statusrückmeldung können Sie mit der linken Taste zwischen Ein und Aus wechseln und mit dem Schieberegler die Intensität steuern |
 
 ### Die Fensterläden
 
-Bild                           | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
-:-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![FLAP](../images/FLAP_1.jpg)   | `Volet Bouton Monter`<br/>`Down-Button-Bereich`<br/>`Stop Button Pane`<br/>`State pane` (optional)) | `FLAP_UP`<br/>`FLAP_DOWN`<br/>`FLAP_STOP`<br/>`FLAP_STATE` (optional) | Vorhandensein von drei Tasten "Auf", "Ab", "Stopp", optionale Statusrückmeldung. |
-![FLAP](../images/FLAP_2.jpg)   | `Volet Bouton Monter`<br/>`Down-Button-Bereich`<br/>`Stop Button Pane`<br/>`State pane`<br/>`Slider Button Pane` | `FLAP_UP`<br/>`FLAP_DOWN`<br/>`FLAP_STOP`<br/>`FLAP_STATE`<br/>`FLAP_SLIDER` | Vorhandensein eines Schiebereglers mit einer Auf / Ab-Taste in Umschalten (mit Statussymbol) |
+|              Bild              | Typ Gattung                                                                                                        | Dev Plugin Teil                                                            |                                     Beschreibung                                     |
+| :-----------------------------: | :-------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------- | :---------------------------------------------------------------------------------: |
+| ![KLAPPE](../images/FLAP_1.jpg)   | „Mount-Button-Bereich“<br/>`Down-Button-Bereich`<br/>`Stop Button Pane`<br/>`State pane` (optional))                | `FLAP_UP`<br/>`FLAP_DOWN`<br/>`FLAP_STOP`<br/>`FLAP_STATE` (optional)        |  Vorhandensein von drei Tasten "Auf", "Ab", "Stopp", optionale Statusrückmeldung.  |
+| ![KLAPPE](../images/FLAP_2.jpg)   | „Mount-Button-Bereich“<br/>`Down-Button-Bereich`<br/>`Stop Button Pane`<br/>`State pane`<br/>`Slider Button Pane` | `FLAP_UP`<br/>`FLAP_DOWN`<br/>`FLAP_STOP`<br/>`FLAP_STATE`<br/>`FLAP_SLIDER` | Vorhandensein eines Schiebereglers mit einer Auf / Ab-Taste in Umschalten (mit Statussymbol) |
 
 ### Inondation
 
-Bild                           | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
-:-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![FLOOD](../images/FLOOD.jpg)   | `Innondation`<br/>`TEMPERATUR` (optional)<br/>`Luftfeuchtigkeit` (optional)<br/>`SABOTAGE` (optional)|`FLOOD`<br/>`TEMPERATUR` (optional)<br/>`FEUCHTIGKEIT` (optional)<br/>`FEUCHTIGKEIT` (optional) | Ermöglicht es Ihnen, Ihren gesamten Hochwassersensor in einer einzigen Leitung zu haben.
+|              Bild              | Typ Gattung                                                                                 | Dev Plugin Teil                                                                        |                             Beschreibung                              |
+| :-----------------------------: | :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- | :------------------------------------------------------------------: |
+| ![FLUT](../images/FLOOD.jpg)   | `Innondation`<br/>`TEMPERATUR` (optional)<br/>`Luftfeuchtigkeit` (optional)<br/>`SABOTAGE` (optional) | `FLOOD`<br/>`TEMPERATUR` (optional)<br/>`FEUCHTIGKEIT` (optional)<br/>`FEUCHTIGKEIT` (optional) | Ermöglicht es Ihnen, Ihren gesamten Hochwassersensor in einer einzigen Leitung zu haben. |
 
 ### Serrure
 
-Bild                         | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
-:---------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![LOCK](../images/LOCK.jpg)   | `Sperren Etat`<br/>`Open Button Lock`<br/>`Lock Button Close` | `LOCK_STATE`<br/>`LOCK_OPEN`<br/>`LOCK_CLOSE` | Bei vorhandener Statusrückmeldung wechselt die linke Taste zwischen Ein und Aus |
+|             Bild             | Typ Gattung                                                         | Dev Plugin Teil                             |                                  Beschreibung                                  |
+| :---------------------------: | :--------------------------------------------------------------------- | :-------------------------------------------- | :---------------------------------------------------------------------------: |
+| ![SPERREN](../images/LOCK.jpg)   | „Staatssperre“<br/>`Open Button Lock`<br/>`Lock Button Close` | `LOCK_STATE`<br/>`LOCK_OPEN`<br/>`LOCK_CLOSE` | Bei vorhandener Statusrückmeldung wechselt die linke Taste zwischen Ein und Aus |
 
 ### Meerjungfrau
 
-Bild                         | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
-:---------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![SIREN](../images/SIREN.jpg)   | `Meerjungfrau Etat`<br/>`Siren Button On`<br/>`Siren Button Off` | `SIREN_STATE`<br/>`SIREN_ON`<br/>`SIREN_OFF` | Bei vorhandener Statusrückmeldung wechselt die linke Taste zwischen Ein und Aus |
+|              Bild              | Typ Gattung                                               | Dev Plugin Teil                            |                                  Beschreibung                                  |
+| :-----------------------------: | :----------------------------------------------------------- | :------------------------------------------- | :---------------------------------------------------------------------------: |
+| ![SIRENE](../images/SIREN.jpg)   | „Sirenenstaat“<br/>`Siren Button On`<br/>`Siren Button Off` | `SIREN_STATE`<br/>`SIREN_ON`<br/>`SIREN_OFF` | Bei vorhandener Statusrückmeldung wechselt die linke Taste zwischen Ein und Aus |
 
 ### Rauch
 
-Bild                           | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
-:-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![SMOKE](../images/SMOKE.jpg)   | `Rauch`<br/>`TEMPERATUR` (optional)|`SMOKE`<br/>`TEMPERATUR` (optional) | Ermöglicht es Ihnen, Ihren kompletten Rauchsensor in einer einzigen Leitung zu haben.
+|              Bild              | Typ Gattung                       | Dev Plugin Teil                    |                           Beschreibung                            |
+| :-----------------------------: | :----------------------------------- | :----------------------------------- | :--------------------------------------------------------------: |
+| ![RAUCH](../images/SMOKE.jpg)   | „Rauch“<br/>`TEMPERATUR` (optional) | `SMOKE`<br/>`TEMPERATUR` (optional) | Ermöglicht es Ihnen, Ihren kompletten Rauchsensor in einer einzigen Leitung zu haben. |
 
 ### Temperatur
 
-Bild                                       | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
-:-----------------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![TEMPERATURE](../images/TEMPERATURE.jpg)   | `Temperatur`<br/>`Luftfeuchtigkeit` (optional)|`TEMPERATURE`<br/>`FEUCHTIGKEIT` (optional) | Siehe Bild.
+|                    Bild                    | Typ Gattung                          | Dev Plugin Teil                       | Beschreibung |
+| :-----------------------------------------: | :-------------------------------------- | :-------------------------------------- | :---------: |
+| ![Temperatur](../images/TEMPERATURE.jpg)   | `TEMPERATUR`<br/>`Luftfeuchtigkeit` (optional) | `TEMPERATURE`<br/>`FEUCHTIGKEIT` (optional) | Siehe Bild. |
 
 ### Präsenz
 
-Bild                                 | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
-:-----------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![PRESENCE](../images/PRESENCE.jpg)   | `Präsenz`<br/>`TEMPERATUR` (optional)<br/>`Helligkeit` (optional)<br/>`Luftfeuchtigkeit` (optional)<br/>`UV` (optional)<br/>`SABOTAGE` (optional)|`PRESENCE`<br/>`TEMPERATUR` (optional)<br/>`BRIGHTNESS` (optional)<br/>`FEUCHTIGKEIT` (optional)<br/>`UV` (optional)<br/>`SABOTAGE` (optional) | Siehe Bild.
+|                 Bild                 | Typ Gattung                                                                                                                              | Dev Plugin Teil                                                                                                                           | Beschreibung |
+| :-----------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------ | :---------: |
+| ![Präsenz](../images/PRESENCE.jpg)   | "PRÄSENZ"<br/>`TEMPERATUR` (optional)<br/>`Helligkeit` (optional)<br/>`Luftfeuchtigkeit` (optional)<br/>`UV` (optional)<br/>`SABOTAGE` (optional) | `PRESENCE`<br/>`TEMPERATUR` (optional)<br/>`BRIGHTNESS` (optional)<br/>`FEUCHTIGKEIT` (optional)<br/>`UV` (optional)<br/>`SABOTAGE` (optional) | Siehe Bild. |
 
 ### Ouvrant
 
-Bild                                       | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
-:-----------------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![OPENING](../images/OPENING.jpg)   | `Porte / Fenêtre`<br/>`TEMPERATUR` (optional)|`OPENING / OPENING_WINDOW`<br/>`TEMPERATUR` (optional) | Siehe Bild (d. H. Sie können zwischen Fenster und Tür wählen).
+|                Bild                | Typ Gattung                                 | Dev Plugin Teil                                       |                              Beschreibung                              |
+| :---------------------------------: | :--------------------------------------------- | :------------------------------------------------------ | :-------------------------------------------------------------------: |
+| ![ÖFFNUNG](../images/OPENING.jpg)   | „Tür/Fenster“<br/>`TEMPERATUR` (optional) | `OPENING / OPENING_WINDOW`<br/>`TEMPERATUR` (optional) | Siehe Bild (d. H. Sie können zwischen Fenster und Tür wählen). |
 
 ### Pilotdraht
 
-Bild                               | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
-:---------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![HEATING](../images/HEATING.jpg)   | `Chauffage fil pilote Bouton ON`<br/>`Taste zum Ausheizen des Pilotkabels AUS`<br/>`Heizungs-Pilotdrahtzustand`<br/>`Button Pilot Wire Heizung` (optional) | `HEATING_ON`<br/>`HEATING_OFF`<br/>`HEATING_STATE`<br/>`HEATING_OTHER`|Mit den Schaltflächen EIN / AUS und Status können Sie die Schaltfläche ganz links in der Vorlage erstellen, und mit der Taste "Pilotdrahtheizung" können Sie Schaltflächen hinzufügen (max. 5))
+|                Bild                | Typ Gattung                                                                                                                                      | Dev Plugin Teil                                                      |                                                                          Beschreibung                                                                           |
+| :---------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![HEIZUNG](../images/HEATING.jpg)   | „Einschalttaste für Pilotdrahtheizung“<br/>`Taste zum Ausheizen des Pilotkabels AUS`<br/>`Heizungs-Pilotdrahtzustand`<br/>`Button Pilot Wire Heizung` (optional) | `HEATING_ON`<br/>`HEATING_OFF`<br/>`HEATING_STATE`<br/>`HEATING_OTHER` | Mit den Schaltflächen EIN / AUS und Status können Sie die Schaltfläche ganz links in der Vorlage erstellen, und mit der Taste "Pilotdrahtheizung" können Sie Schaltflächen hinzufügen (max. 5)) |
 
 ## DIE JOKERS
 
 ### Allgemeine Aktion
 
-Bild                             | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
-:-------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![ACTION](../images/ACTION.jpg)   | `Action Générique`           | `GENERIC_ACTION`             | Le bouton prend la forme du type de l'action. Par défaut c'est un toggle, si c'est un message alors vous avez une enveloppe, si slider vous avez un slider etc...
+|               Bild               | Typ Gattung               | Dev Plugin Teil |                                                                            Beschreibung                                                                            |
+| :-------------------------------: | :--------------------------- | :---------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![AKTION](../images/ACTION.jpg)   | „Generische Aktion“ | „GENERIC_ACTION“  | Die Schaltfläche hat die Form des Aktionstyps. Standardmäßig ist es ein Umschalter. Wenn es sich um eine Nachricht handelt, haben Sie einen Umschlag, bei einem Schieberegler haben Sie einen Schieberegler usw... |
 
 ### Allgemeine Informationen
 
-Bild                         | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
-:---------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![INFO](../images/INFO.jpg)   | `Information Générique`           | `GENERIC_INFO`             | Le bouton prend la forme du type de l'info.
-
+|             Bild             | Typ Gattung                    | Dev Plugin Teil |                 Beschreibung                 |
+| :---------------------------: | :-------------------------------- | :---------------- | :-----------------------------------------: |
+| ![DIE INFO](../images/INFO.jpg)   | „Allgemeine Informationen“ | „GENERIC_INFO“    | Der Button nimmt die Form der Art der Information an. |
 
 # Troubleshooting
 

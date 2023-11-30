@@ -4,14 +4,11 @@ Plugin for using the Jeedom Mobile application.
 
 The Jeedom mobile application requires the installation of this plugin so that the box can communicate with the Mobile application.
 
-
-
 # Configuration of the Mobile plugin for Application V2
 
 After installing the plugin, you just need to activate it :
 
 ![mobile1](./images/mobile1.png)
-
 
 # First connection to the V2 application
 
@@ -20,42 +17,33 @@ on the first screen of the application, you are offered to connect your market a
 
 ![v2ConnectMarket](./images/v2firstConnect.jpeg)
 
->**IMPORTANT**
+> **IMPORTANT**
 >
 > To benefit from the application's functionalities, the core of your Jeedom must be in 4.4.0 minimum
 
-
-
-
-#### __LOGIN VIA THE MARKET ACCOUNT__ :
+#### **LOGIN VIA MARKET ACCOUNT** :
 
 ![v2ConnectMarket](./images/v2connectMarket.PNG)
 
 All you have to do is enter your Market ID and password.
 
-
-#### __LOGIN VIA BOX ID__ :
+#### **CONNECTION VIA BOX ID** :
 
 ![v22methods](./images/v22methods.PNG)
 
 Several choices on this screen :
 
-  - You enter the url of your Jeedom (internal or external), as well as the access identifiers to it and you confirm with the LOGIN button
+- You enter the url of your Jeedom (internal or external), as well as the access identifiers to it and you confirm with the LOGIN button
 
-
-  - You click on QR Code : a new screen appears; you can scan a QRCode from the Mobile plugin of the box you want to add, via the QRCODE tab of the plugin.
+- You click on QR Code : a new screen appears; you can scan a QRCode from the Mobile plugin of the box you want to add, via the QRCODE tab of the plugin.
 
 ![v2ModalQrApp](./images/v2QRCodeConnect.PNG)
 
-
 > Qr Code tab of the Mobile plugin
 
->> ![v2ModalPlugin](./images/v2ModalQrCode.png)
-
-
+> > ![v2ModalPlugin](./images/v2ModalQrCode.png)
 
 Once this first step has been completed, you are registered in the application: if you have the Mobile plugin, you will have access via the menu to Notifications, QrCodes, Menu customization ....
-
 
 In the menu, you will have a Boxs tab, which groups together all the boxes present on this market account
 
@@ -69,19 +57,17 @@ The box will go to the top of the list, having validated its authentication.
 You can do this for several boxes.
 
 You can also click on the + button at the bottom right to access different options;
-  - QrCode to add a box to the list via the Mobile plugin,
-  - Manual to manually add a box
-  - Detection Atlas and Luna (if you are on Wifi, will detect the boxes on the network)
-  - Market sync to update configured Market account information
+
+- QrCode to add a box to the list via the Mobile plugin,
+- Manual to manually add a box
+- Detection Atlas and Luna (if you are on Wifi, will detect the boxes on the network)
+- Market sync to update configured Market account information
 
 ![v2greenBtnAdd](./images/v2greenBtnAdd.PNG)
-
 
 To access features such as Notifications, Menu Personalization or Geolocation, you must first have selected at least one current box'
 
 ![v2ActualBoxFlouted](./images/v2ActualBoxFlouted.jpeg)
-
-
 
 # How Geolocation works
 
@@ -90,32 +76,23 @@ We add a Geolocation zone by clicking on the + icon
 ![v2AddZone](./images/v2AddZone.jpeg)
 
 We type the address we are looking for, we validate with Enter on his phone; the cursor will then position itself on the desired address.
-We can then add a name and save the zone. 
+We can then add a name and save the zone.
 
 This will create a new command on your mobile equipment, of binary type, which will correspond to the entries and exits of the zone if geolocation is activated on your mobile phone.
 
-We can also change the radius of the zone, to extend the detection of the zone. 
+We can also change the radius of the zone, to extend the detection of the zone.
 
 ![v2ModifyBigRadius](./images/v2ModifyBigRadius.jpeg)
 
-
-
-
-
-
 # FAQ
 
->**I have problems with notifications**
+> **I have problems with notifications**
 >
->This part is currently being improved and optimized on the beta application.
+> This part is currently being improved and optimized on the beta application.
 
-
->**I have problems displaying my webview**
+> **I have problems displaying my webview**
 >
->On your Jeedom, in the Preferences, check that the mobile home page is HOME.
-
-
-
+> On your Jeedom, in the Preferences, check that the mobile home page is HOME.
 
 # Setting up the Mobile V1 plugin
 
@@ -134,10 +111,10 @@ Mobile** → **Add**
 
 Here are the parameters to enter :
 
--   **Name of mobile equipment** : Phone name
--   **Activate** : Enabling access for this mobile
--   **Mobile Type** : Phone OS selection (iOS, Android)
--   **User** : User associated with this access
+- **Name of mobile equipment** : Phone name
+- **Activate** : Enabling access for this mobile
+- **Mobile Type** : Phone OS selection (iOS, Android)
+- **User** : User associated with this access
 
 > **Tip**
 >
@@ -234,91 +211,90 @@ Better than words, here is an example of the generic credits for a light with al
 
 ### The lights
 
-Picture                           | Type generic               | Dev plugin part            | Description          |
-:-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![LIGHT](../images/LIGHT_1.jpg) | `Lumière Bouton On`<br/>`Button Off Light` | `LIGHT_ON`<br/>`LIGHT_OFF`| presence of two buttons "ON" and "Off" no status feedback. |
-![LIGHT](../images/LIGHT_2.jpg) | `Lumière Bouton On`<br/>`Button Off Light`<br/>`State Light` | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE` | Status feedback present, the left button toggles between on and off |
-![LIGHT](../images/LIGHT_2.jpg) | `Lumière Bouton Toggle`<br/>`State Light` | `LIGHT_TOGGLE`<br/>`LIGHT_STATE` | Status feedback present, the left button toggles between on and off |
-![LIGHT](../images/LIGHT_3.jpg) | `Lumière Bouton On`<br/>`Button Off Light`<br/>`State Light`<br/>`Light Slider` | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER` | Status feedback present, the left button allows to switch between On and Off and the slider allows to control the intensity |
-![LIGHT](../images/LIGHT_4.jpg) | `Lumière Bouton On`<br/>`Button Off Light`<br/>`State Light`<br/>`Light Slider`<br/>`Light Color (info)`<br/>`Light Color (action)`<br/>`Light Mode` (optional, it is used to have light modes, for example rainbow on Hue philips) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Status feedback present, the left button allows to switch between On and Off and the slider allows to control the intensity. In the circle the color of the lamp is present and when you click it you can change the color and activate a mode |
+|              Picture              | Type generic                                                                                                                                                                                                                                                   | Dev plugin part                                                                                                        |                                                                                                                           Description                                                                                                                            |
+| :-----------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![LIGHT](../images/LIGHT_1.jpg) | `Light Button On`<br/>`Button Off Light`                                                                                                                                                                                                                     | `LIGHT_ON`<br/>`LIGHT_OFF`                                                                                               |                                                                                                   presence of two buttons "ON" and "Off" no status feedback.                                                                                                   |
+| ![LIGHT](../images/LIGHT_2.jpg) | `Light Button On`<br/>`Button Off Light`<br/>`State Light`                                                                                                                                                                                                  | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`                                                                             |                                                                                          Status feedback present, the left button toggles between on and off                                                                                           |
+| ![LIGHT](../images/LIGHT_2.jpg) | `Light Toggle Button`<br/>`State Light`                                                                                                                                                                                                                       | `LIGHT_TOGGLE`<br/>`LIGHT_STATE`                                                                                         |                                                                                          Status feedback present, the left button toggles between on and off                                                                                           |
+| ![LIGHT](../images/LIGHT_3.jpg) | `Light Button On`<br/>`Button Off Light`<br/>`State Light`<br/>`Light Slider`                                                                                                                                                                             | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`                                                          |                                                                    Status feedback present, the left button allows to switch between On and Off and the slider allows to control the intensity                                                                    |
+| ![LIGHT](../images/LIGHT_4.jpg) | `Light Button On`<br/>`Button Off Light`<br/>`State Light`<br/>`Light Slider`<br/>`Light Color (info)`<br/>`Light Color (action)`<br/>`Light Mode` (optional, it is used to have light modes, for example rainbow on Hue philips) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Status feedback present, the left button allows to switch between On and Off and the slider allows to control the intensity. In the circle the color of the lamp is present and when you click it you can change the color and activate a mode |
 
 ### The plugs
 
-Picture                           | Type generic               | Dev plugin part            | Description          |
-:-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![ENERGY](../images/ENERGY_1.jpg) | `Prise Bouton On`<br/>`Button Off socket`| `ENERGY_ON`<br/>`ENERGY_OFF`| presence of two buttons "ON" and "Off" no status feedback. |
-![ENERGY](../images/ENERGY_2.jpg) | `Prise Bouton On`<br/>`Button Off socket`<br/>`State Taking` | `ENERGY_ON`<br/>`ENERGY_OFF`<br/>`ENERGY_STATE` | Status feedback present, the left button toggles between on and off |
-![ENERGY](../images/ENERGY_3.jpg) | `Prise Bouton On`<br/>`Button Off socket`<br/>`State Taking`<br/>`Slider socket` | `ENERGY_ON`<br/>`ENERGY_OFF`<br/>`ENERGY_STATE`<br/>`ENERGY_SLIDER` | Status feedback present, the left button allows to switch between On and Off and the slider allows to control the intensity |
+|               Picture               | Type generic                                                               | Dev plugin part                                                   |                                                        Description                                                         |
+| :-------------------------------: | :--------------------------------------------------------------------------- | :------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------: |
+| ![ENERGY](../images/ENERGY_1.jpg) | `Socket Button On`<br/>`Button Off socket`                                     | `ENERGY_ON`<br/>`ENERGY_OFF`                                        |                                presence of two buttons "ON" and "Off" no status feedback.                                |
+| ![ENERGY](../images/ENERGY_2.jpg) | `Socket Button On`<br/>`Button Off socket`<br/>`State Taking`                    | `ENERGY_ON`<br/>`ENERGY_OFF`<br/>`ENERGY_STATE`                     |                       Status feedback present, the left button toggles between on and off                        |
+| ![ENERGY](../images/ENERGY_3.jpg) | `Socket Button On`<br/>`Button Off socket`<br/>`State Taking`<br/>`Slider socket` | `ENERGY_ON`<br/>`ENERGY_OFF`<br/>`ENERGY_STATE`<br/>`ENERGY_SLIDER` | Status feedback present, the left button allows to switch between On and Off and the slider allows to control the intensity |
 
 ### Shutters
 
-Picture                           | Type generic               | Dev plugin part            | Description          |
-:-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![FLAP](../images/FLAP_1.jpg)   | `Volet Bouton Monter`<br/>`Down button pane`<br/>`Stop Button Pane`<br/>`State pane` (optional) | `FLAP_UP`<br/>`FLAP_DOWN`<br/>`FLAP_STOP`<br/>`FLAP_STATE` (optional) | Presence of three buttons "Up", "Down", "Stop", optional status feedback. |
-![FLAP](../images/FLAP_2.jpg)   | `Volet Bouton Monter`<br/>`Down button pane`<br/>`Stop Button Pane`<br/>`State pane`<br/>`Slider Button Pane` | `FLAP_UP`<br/>`FLAP_DOWN`<br/>`FLAP_STOP`<br/>`FLAP_STATE`<br/>`FLAP_SLIDER` | Presence of a slider, with an Up / Down button in Toggle (with status icon) |
+|              Picture              | Type generic                                                                                                        | Dev plugin part                                                            |                                     Description                                     |
+| :-----------------------------: | :-------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------- | :---------------------------------------------------------------------------------: |
+| ![FLAP](../images/FLAP_1.jpg)   | `Mount Button Pane`<br/>`Down button pane`<br/>`Stop Button Pane`<br/>`State pane` (optional)                | `FLAP_UP`<br/>`FLAP_DOWN`<br/>`FLAP_STOP`<br/>`FLAP_STATE` (optional)        |  Presence of three buttons "Up", "Down", "Stop", optional status feedback.  |
+| ![FLAP](../images/FLAP_2.jpg)   | `Mount Button Pane`<br/>`Down button pane`<br/>`Stop Button Pane`<br/>`State pane`<br/>`Slider Button Pane` | `FLAP_UP`<br/>`FLAP_DOWN`<br/>`FLAP_STOP`<br/>`FLAP_STATE`<br/>`FLAP_SLIDER` | Presence of a slider, with an Up / Down button in Toggle (with status icon) |
 
 ### Inondation
 
-Picture                           | Type generic               | Dev plugin part            | Description          |
-:-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![FLOOD](../images/FLOOD.jpg)   | `Innondation`<br/>`TEMPERATURE` (optional)<br/>`Humidity` (optional)<br/>`SABOTAGE` (optional)|`FLOOD`<br/>`TEMPERATURE` (optional)<br/>`HUMIDITY` (optional)<br/>`HUMIDITY` (optional) | Allows you to have your complete flood sensor on a single line.
+|              Picture              | Type generic                                                                                 | Dev plugin part                                                                        |                             Description                              |
+| :-----------------------------: | :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- | :------------------------------------------------------------------: |
+| ![FLOOD](../images/FLOOD.jpg)   | `Innondation`<br/>`TEMPERATURE` (optional)<br/>`Humidity` (optional)<br/>`SABOTAGE` (optional) | `FLOOD`<br/>`TEMPERATURE` (optional)<br/>`HUMIDITY` (optional)<br/>`HUMIDITY` (optional) | Allows you to have your complete flood sensor on a single line. |
 
 ### Serrure
 
-Picture                         | Type generic               | Dev plugin part            | Description          |
-:---------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![LOCK](../images/LOCK.jpg)   | `Lock Etat`<br/>`Open Button Lock`<br/>`Lock Button Close` | `LOCK_STATE`<br/>`LOCK_OPEN`<br/>`LOCK_CLOSE` | Status feedback present, the left button toggles between on and off |
+|             Picture             | Type generic                                                         | Dev plugin part                             |                                  Description                                  |
+| :---------------------------: | :--------------------------------------------------------------------- | :-------------------------------------------- | :---------------------------------------------------------------------------: |
+| ![LOCK](../images/LOCK.jpg)   | `State Lock`<br/>`Open Button Lock`<br/>`Lock Button Close` | `LOCK_STATE`<br/>`LOCK_OPEN`<br/>`LOCK_CLOSE` | Status feedback present, the left button toggles between on and off |
 
 ### Mermaid
 
-Picture                         | Type generic               | Dev plugin part            | Description          |
-:---------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![SIREN](../images/SIREN.jpg)   | `Mermaid Etat`<br/>`Siren Button On`<br/>`Siren Button Off` | `SIREN_STATE`<br/>`SIREN_ON`<br/>`SIREN_OFF` | Status feedback present, the left button toggles between on and off |
+|              Picture              | Type generic                                               | Dev plugin part                            |                                  Description                                  |
+| :-----------------------------: | :----------------------------------------------------------- | :------------------------------------------- | :---------------------------------------------------------------------------: |
+| ![SIREN](../images/SIREN.jpg)   | `Siren State`<br/>`Siren Button On`<br/>`Siren Button Off` | `SIREN_STATE`<br/>`SIREN_ON`<br/>`SIREN_OFF` | Status feedback present, the left button toggles between on and off |
 
 ### Smoke
 
-Picture                           | Type generic               | Dev plugin part            | Description          |
-:-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![SMOKE](../images/SMOKE.jpg)   | `Smoke`<br/>`TEMPERATURE` (optional)|`SMOKE`<br/>`TEMPERATURE` (optional) | Allows you to have your complete smoke sensor on a single line.
+|              Picture              | Type generic                       | Dev plugin part                    |                           Description                            |
+| :-----------------------------: | :----------------------------------- | :----------------------------------- | :--------------------------------------------------------------: |
+| ![SMOKE](../images/SMOKE.jpg)   | `Smoke`<br/>`TEMPERATURE` (optional) | `SMOKE`<br/>`TEMPERATURE` (optional) | Allows you to have your complete smoke sensor on a single line. |
 
 ### Temperature
 
-Picture                                       | Type generic               | Dev plugin part            | Description          |
-:-----------------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![TEMPERATURE](../images/TEMPERATURE.jpg)   | `Temperature`<br/>`Humidity` (optional)|`TEMPERATURE`<br/>`HUMIDITY` (optional) | See picture.
+|                    Picture                    | Type generic                          | Dev plugin part                       | Description |
+| :-----------------------------------------: | :-------------------------------------- | :-------------------------------------- | :---------: |
+| ![Temperature](../images/TEMPERATURE.jpg)   | `TEMPERATURE`<br/>`Humidity` (optional) | `TEMPERATURE`<br/>`HUMIDITY` (optional) | See picture. |
 
 ### Presence
 
-Picture                                 | Type generic               | Dev plugin part            | Description          |
-:-----------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![PRESENCE](../images/PRESENCE.jpg)   | `Presence`<br/>`TEMPERATURE` (optional)<br/>`Brightness` (optional)<br/>`Humidity` (optional)<br/>`UV` (optional)<br/>`SABOTAGE` (optional)|`PRESENCE`<br/>`TEMPERATURE` (optional)<br/>`BRIGHTNESS` (optional)<br/>`HUMIDITY` (optional)<br/>`UV` (optional)<br/>`SABOTAGE` (optional) | See picture.
+|                 Picture                 | Type generic                                                                                                                              | Dev plugin part                                                                                                                           | Description |
+| :-----------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------ | :---------: |
+| ![Presence](../images/PRESENCE.jpg)   | `PRESENCE`<br/>`TEMPERATURE` (optional)<br/>`Brightness` (optional)<br/>`Humidity` (optional)<br/>`UV` (optional)<br/>`SABOTAGE` (optional) | `PRESENCE`<br/>`TEMPERATURE` (optional)<br/>`BRIGHTNESS` (optional)<br/>`HUMIDITY` (optional)<br/>`UV` (optional)<br/>`SABOTAGE` (optional) | See picture. |
 
 ### Ouvrant
 
-Picture                                       | Type generic               | Dev plugin part            | Description          |
-:-----------------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![OPENING](../images/OPENING.jpg)   | `Porte / Fenêtre`<br/>`TEMPERATURE` (optional)|`OPENING / OPENING_WINDOW`<br/>`TEMPERATURE` (optional) | See Image (i.e. you can choose between window and door).
+|                Picture                | Type generic                                 | Dev plugin part                                       |                              Description                              |
+| :---------------------------------: | :--------------------------------------------- | :------------------------------------------------------ | :-------------------------------------------------------------------: |
+| ![OPENING](../images/OPENING.jpg)   | `Door/Window`<br/>`TEMPERATURE` (optional) | `OPENING / OPENING_WINDOW`<br/>`TEMPERATURE` (optional) | See Image (i.e. you can choose between window and door). |
 
 ### Pilot wire
 
-Picture                               | Type generic               | Dev plugin part            | Description          |
-:---------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![HEATING](../images/HEATING.jpg)   | `Chauffage fil pilote Bouton ON`<br/>`Heating pilot wire OFF button`<br/>`Heating pilot wire State`<br/>`Button pilot wire heating` (optional) | `HEATING_ON`<br/>`HEATING_OFF`<br/>`HEATING_STATE`<br/>`HEATING_OTHER`|The ON / OFF and Status buttons allow you to create the button on the far left of the template and the `button pilot wire heating` are there to add buttons (5 max)
+|                Picture                | Type generic                                                                                                                                      | Dev plugin part                                                      |                                                                          Description                                                                           |
+| :---------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![HEATING](../images/HEATING.jpg)   | `Pilot wire heating ON button`<br/>`Heating pilot wire OFF button`<br/>`Heating pilot wire State`<br/>`Button pilot wire heating` (optional) | `HEATING_ON`<br/>`HEATING_OFF`<br/>`HEATING_STATE`<br/>`HEATING_OTHER` | The ON / OFF and Status buttons allow you to create the button on the far left of the template and the `button pilot wire heating` are there to add buttons (5 max) |
 
 ## THE JOKERS
 
 ### Generic Action
 
-Picture                             | Type generic               | Dev plugin part            | Description          |
-:-------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![ACTION](../images/ACTION.jpg)   | `Action Générique`           | `GENERIC_ACTION`             | Le bouton prend la forme du type de l'action. Par défaut c'est un toggle, si c'est un message alors vous avez une enveloppe, si slider vous avez un slider etc...
+|               Picture               | Type generic               | Dev plugin part |                                                                            Description                                                                            |
+| :-------------------------------: | :--------------------------- | :---------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![ACTION](../images/ACTION.jpg)   | `Generic Action` | `GENERIC_ACTION`  | The button takes the form of the action type. By default it's a toggle, if it's a message then you have an envelope, if slider you have a slider etc... |
 
 ### Generic Info
 
-Picture                         | Type generic               | Dev plugin part            | Description          |
-:---------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![INFO](../images/INFO.jpg)   | `Information Générique`           | `GENERIC_INFO`             | Le bouton prend la forme du type de l'info.
-
+|             Picture             | Type generic                    | Dev plugin part |                 Description                 |
+| :---------------------------: | :-------------------------------- | :---------------- | :-----------------------------------------: |
+| ![INFO](../images/INFO.jpg)   | `Generic Information` | `GENERIC_INFO`    | The button takes the form of the type of information. |
 
 # Troubleshooting
 

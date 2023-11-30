@@ -1,19 +1,16 @@
 # Changelog Mobile App
 
->**Importante**
+> **Importante**
 >
->Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
-
-
+> Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
 # 22/10/2023
 
 - Reparar la actualización de geolocalización de la aplicación v2
-  
+
 # 10/12/2023
 
 - Actualizado para tener en cuenta la nueva Aplicación Móvil
-
 
 # 09/06/2023
 
@@ -25,13 +22,11 @@
 - Relaciones públicas por PhpVarious
 - Corregir errores menores
 
-
 # 10/05/2023
 
 - Comandos GeoLoc V2
 - Eliminar la parte de ARN móvil de AppV2
 - Actualizar mobile.api
-
 
 # 10/01/2023
 

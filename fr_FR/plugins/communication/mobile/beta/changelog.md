@@ -1,19 +1,16 @@
 # Changelog App Mobile
 
->**IMPORTANT**
+> **IMPORTANT**
 >
->Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
-
-
+> Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
 # 22/10/2023
 
 - Fix mise à jour geolocalisation de l'app v2
-  
+
 # 12/10/2023
 
 - Mise à jour pour prendre en compte la nouvelle Application mobile
-
 
 # 09/06/2023
 
@@ -25,13 +22,11 @@
 - PR by PhpVarious
 - Fix bugs mineurs
 
-
 # 10/05/2023
 
 - Commandes GeoLoc V2
 - Suppression partie ARN mobile AppV2
 - MAJ mobile.api
-
 
 # 10/01/2023
 
