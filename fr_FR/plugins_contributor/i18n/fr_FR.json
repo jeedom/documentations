@@ -181,6 +181,8 @@
         "Il permet de vérouiller\/dévérouiller son véhicules et suivant les régions du monde, Démarrer son véhicule": "Il permet de vérouiller\/dévérouiller son véhicules et suivant les régions du monde, Démarrer son véhicule",
         "FordCar": "FordCar",
         "Plugin permettant de ce connecté à Ford Pass et à récuperrer toutes les information de votre Véhicule": "Plugin permettant de ce connecté à Ford Pass et à récuperrer toutes les information de votre Véhicule",
+        "Arenti": "Arenti",
+        "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API Arenti": "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API Arenti",
         "Le lien entre le serveur Amazon (Alexa) et les équipements est quant à lui assuré par les skills de chaque fabriquant (Xiaomi, SmartLife, Tuya, Netatmo, Wemo, Somfy, eWelink,…) ce qui rend les possibilités totalement infinies": "Le lien entre le serveur Amazon (Alexa) et les équipements est quant à lui assuré par les skills de chaque fabriquant (Xiaomi, SmartLife, Tuya, Netatmo, Wemo, Somfy, eWelink,…) ce qui rend les possibilités totalement infinies",
         "Alexa - SmartHome": "Alexa - SmartHome",
         "Le plugin a été totalement refondu et relooké pour accepter les équipements que détecte l'application Alexa": "Le plugin a été totalement refondu et relooké pour accepter les équipements que détecte l'application Alexa",
