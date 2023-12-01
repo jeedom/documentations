@@ -5,6 +5,8 @@
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
 - Unterstützung für Zigbee-Firmware-Updates auf Luna
+- Unterstützung für lange logische IDs bei Befehlen
+- Möglichkeit, einen Aktualisierungsbefehl zu erstellen (Sie müssen einen Befehl hinzufügen, dann action/default eingeben und im Feld „Logische ID“ „refresh“ eingeben)
 
 # 11.06.2023
 

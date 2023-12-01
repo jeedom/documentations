@@ -5,6 +5,8 @@
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 - Support de la mise à jour du firmware zigbee sur Luna
+- Support de logicalId long sur les commandes
+- POssibilité de créer une commande refresh (il faut ajouter une commande puis type action/defaut et dans le champs logical id mettre refresh)
 
 # 06/11/2023
 

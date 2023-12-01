@@ -5,6 +5,8 @@
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
 - Soporte de actualización de firmware Zigbee en Luna
+- Soporte para ID lógico largo en comandos
+- Posibilidad de crear un comando de actualización (debe agregar un comando, luego escribir acción/default y en el campo id lógico poner actualizar)
 
 # 11/06/2023
 

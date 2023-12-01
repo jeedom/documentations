@@ -5,6 +5,8 @@
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
 - Zigbee firmware update support on Luna
+- Support for long logicalId on commands
+- Possibility of creating a refresh command (you must add a command then type action/default and in the logical id field put refresh)
 
 # 06/11/2023
 
