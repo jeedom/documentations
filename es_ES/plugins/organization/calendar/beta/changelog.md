@@ -4,6 +4,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 01/12/2023
+
+- Optimización del cálculo de ocurrencia **Incluir/Excluir por fecha**
+
 # 27/11/2023
 
 - Se actualizó la biblioteca `fullcalendar` a 6.0.1 a 6.1.9

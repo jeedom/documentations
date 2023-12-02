@@ -4,6 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 12.01.2023
+
+- Optimierung der Vorkommensberechnung **Nach Datum einschließen/ausschließen**
+
 # 27.11.2023
 
 - Die „fullcalendar“-Bibliothek wurde auf 6.0 aktualisiert.1 bis 6.1.9

@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 01/12/2023
+
+- Optimisation du calcul des occurences **Inclure/Exclure par date**
+
 # 27/11/2023
 
 - Mise à jour de la librairie `fullcalendar` de 6.0.1 vers 6.1.9
