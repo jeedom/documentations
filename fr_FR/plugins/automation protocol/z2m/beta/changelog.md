@@ -6,7 +6,9 @@
 
 - Support de la mise à jour du firmware zigbee sur Luna
 - Support de logicalId long sur les commandes
-- POssibilité de créer une commande refresh (il faut ajouter une commande puis type action/defaut et dans le champs logical id mettre refresh)
+- Possibilité de créer une commande refresh (il faut ajouter une commande puis type action/defaut et dans le champs logical id mettre refresh)
+- Possibilité d'ajouter un cron qui demande l'actualisation des valeurs (attention rien ne garantie que le module va vraiment les mettres à jour il faut qu'il le supporte)
+
 
 # 06/11/2023
 

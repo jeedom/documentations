@@ -87,6 +87,7 @@ Other more specific parameters are also accessible :
 
 - **Identification** : unique device identifier. Even during a re-inclusion or if you change the type of Zigbee controller.
 - **Z2m Controller** : allows you to select the Zigbee controller in communication with the equipment (for the moment the plugin does not support multiple controllers)
+- **Self-refresh (cron)** : allows you to add a cron which requests the updating of the equipment values (be careful, nothing guarantees that the module will really update them, it must support it)
 
 The part **Information** allows to see the model of the equipment. We also find the visual of the equipment (non-modifiable because it comes from zigbee2mqtt) and access to the configuration of the module
 

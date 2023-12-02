@@ -7,6 +7,8 @@
 - Soporte de actualización de firmware Zigbee en Luna
 - Soporte para ID lógico largo en comandos
 - Posibilidad de crear un comando de actualización (debe agregar un comando, luego escribir acción/default y en el campo id lógico poner actualizar)
+- Posibilidad de añadir un cron que solicite la actualización de los valores (ojo, nada garantiza que el módulo realmente los actualice, debe soportarlo))
+
 
 # 11/06/2023
 

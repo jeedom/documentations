@@ -4,6 +4,12 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 12/01/2023
+
+**Melhorias**
+
+- Mudar para a versão *9.5.0* por ZwaveJsUI
+
 # 27/10/2023
 
 **Adições de configuração**
@@ -93,7 +99,7 @@
 - Adição de um gráfico *Rota de rede* representando as últimas rotas tomadas (irá escalar e pode não lidar com todos os casos depende do SDK do controlador)
 - Adição de uma mensagem no centro de mensagens quando um nó fica inoperante (além do comando de status do equipamento)
 - Adição de uma mensagem no centro de mensagens quando um nó fica Alive depois de Morto (além do comando de status do equipamento)
-- Adição de uma mensagem no centro de mensagens quando um nó não acordou após 4 vezes seu intervalo de ativação 
+- Adição de uma mensagem no centro de mensagens quando um nó não acordou após 4 vezes seu intervalo de ativação
 
 
 **Adições de configuração**
@@ -425,7 +431,7 @@
 
 **Melhorias**
 
-- Gestão *comandos sem unidades* enquanto deveria (no retorno do zwaveJS) para não poluir o log 
+- Gestão *comandos sem unidades* enquanto deveria (no retorno do zwaveJS) para não poluir o log
 
 **Alterações de configuração**
 
@@ -488,7 +494,7 @@
 
 - Adição de um *Gerenciamento de versão da interface do usuário do ZwaveJS*
 - Adição de uma mensagem no *centro de mensagens* e na página do plugin quando ZwaveJS UI *precisa ser atualizado*
-- Passagem do *Versão da IU do ZwaveJS* para versão *8.5.1* 
+- Passagem do *Versão da IU do ZwaveJS* para versão *8.5.1*
 
 **Alterações de configuração**
 

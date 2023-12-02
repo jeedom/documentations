@@ -7,6 +7,8 @@
 - Unterstützung für Zigbee-Firmware-Updates auf Luna
 - Unterstützung für lange logische IDs bei Befehlen
 - Möglichkeit, einen Aktualisierungsbefehl zu erstellen (Sie müssen einen Befehl hinzufügen, dann action/default eingeben und im Feld „Logische ID“ „refresh“ eingeben)
+- Möglichkeit, einen Cron hinzuzufügen, der die Aktualisierung der Werte anfordert (Achtung, nichts garantiert, dass das Modul sie wirklich aktualisiert, es muss dies unterstützen))
+
 
 # 11.06.2023
 

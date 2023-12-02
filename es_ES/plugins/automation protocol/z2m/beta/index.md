@@ -87,6 +87,7 @@ También se puede acceder a otros parámetros más específicos :
 
 - **Identificación** : identificador único de dispositivo. Incluso durante una reinclusión o si cambia el tipo de controlador Zigbee.
 - **Controlador Z2m** : permite seleccionar el controlador Zigbee en comunicación con el equipo (por el momento el plugin no soporta múltiples controladores)
+- **Actualización automática (cron)** : permite agregar un cron que solicita la actualización de los valores del equipo (ojo, nada garantiza que el módulo realmente los actualice, debe soportarlo))
 
 La parte **Información** permite ver el modelo del equipo. También encontramos el visual del equipo (no modificable porque proviene de zigbee2mqtt) y el acceso a la configuración del módulo
 
