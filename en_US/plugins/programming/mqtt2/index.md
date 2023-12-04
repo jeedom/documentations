@@ -40,7 +40,7 @@ Once the Mosquitto broker is installed *(if necessary)*, you can continue with t
 
   >**IMPORTANT**
   >
-  >Authentication is mandatory in local mode.
+  >Authentication is mandatory in local mode. It is also necessary following the addition to restart jeedom so that it is taken into account.
 
 - **Jeedom root topic** : Root topic to send a command to Jeedom or on which it sends the events. Attention it is only possible to put 1 or 2 levels maximum.
 
@@ -103,3 +103,9 @@ The plugin can do auto discovery of several types of modules. To do this, you ju
 >**IMPORTANT**
 >
 >For tasmota type modules it is absolutely necessary that the full topic configuration be `%topic%/%prefix%/`
+
+# FAQ
+
+>**Following an update of the system packages (apt) or an unattended upgrades, nothing works anymore**
+>
+>Updating the mosquitto package resets the service file to default and therefore mosquitto no longer points to the correct configuration file. To correct this, it's very simple, just restart the installation of mosquitto from the plugin configuration page.

@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Verbesserung beim Moduswechsel (Klimaanlage, Heizung oder beides))
+- Entfernen Sie veralteten Code von imperihome
+
+# 20.04.2023
+
 - Verbesserte Verwaltung von Öffnungen
 
 # 10.03.2022

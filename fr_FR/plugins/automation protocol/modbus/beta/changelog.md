@@ -4,11 +4,24 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 29/05/2023
+
+FAIRE BACKUP DE JEEDOM AVANT INSTALLE NOUVELLE BETA.
+- Ecriture 1 Bit
+- Import/Exports Commandes via Xlsx
+- Nouvelle syntaxe Operation sur Commande (voir Doc)
+- Fixs
+
+# 15/05/2023
+
+- Nouvelle UI paramètrage des commandes
+- Optimisations conversions Valeurs
+- Parametre Retour Hexa
+
 # 03/04/2023
 
 - Nouvelle UI paramètrage des commandes
 - Paramètre TableauRegistres pour écrire a la suite en partant d'un registre de depart
- FAIRE UN BACKUP JEEDOM avant de tester cette beta. Les configs Commandes du plugin étant longues et fastidieuses, avoir un backup en cas de souci de passage de version est conseillé.
 
 # 10/01/2023
 - Fix import packages pour python 3.9

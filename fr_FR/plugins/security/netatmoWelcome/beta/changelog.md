@@ -4,6 +4,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 13/06/2023
+
+- Version minimum du core requise: 4.2
+- Mise à jours liste des commandes pour Jeedom v4.3
+- Corrections & optimisations mineures dans l'écran de gestion des équipements
+
+# 29/08/2022
 
 - Correction d'un warning lors des backups
 - Support de la Doorbell (il faut refaire la connexion entre Jeedom et Netatmo)
@@ -29,7 +36,6 @@
 - Refonte complete du moteur de communication avec Netatmo
 - Support du detecteur d'incendie
 - Renommage en netatmo security
-
 
 IMPORTANT : cette version est une reecriture complete du plugin, il y a donc un impact sur les widgets (qui est maintenant standard au core, changement majeur de l'affichage de celui-ci). Il est vivement conseillé de supprimer les équipement crées et de refaire une synchronisation
 

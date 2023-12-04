@@ -1,36 +1,57 @@
 # Änderungsprotokoll jeeZigbee
 
-# Änderungsprotokoll jeeZigbee
-
-# Änderungsprotokoll Zigbee2Mqtt
-
-# Changelog-Plugin-Vorlage
-
 >**WICHTIG**
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# 19.01.2022
+- Unterstützung für Zigbee-Firmware-Updates auf Luna
+- Unterstützung für lange logische IDs bei Befehlen
+- Möglichkeit, einen Aktualisierungsbefehl zu erstellen (Sie müssen einen Befehl hinzufügen, dann action/default eingeben und im Feld „Logische ID“ „refresh“ eingeben)
+- Möglichkeit, einen Cron hinzuzufügen, der die Aktualisierung der Werte anfordert (Achtung, nichts garantiert, dass das Modul sie wirklich aktualisiert, es muss dies unterstützen))
 
-- V4.2-Optimierungen
 
-# 20.11.2020
+# 11.06.2023
 
-- Offizielle Präsentation V4
-- Informationselemente und Parameter für Befehle hinzugefügt
+- Ein Fehler in der Gruppenverwaltung wurde behoben
+- Codeoptimierung
+- Fehler während der Plugin-Installation behoben (Fehler 500)
 
-# 16.11.2020
+# 22.09.2023
 
-- Jeedom Mindestversion: 3.3.39 (letzte kritische Aktualisierung)
+- Möglichkeit, die Version von zigbee2mqtt auszuwählen
 
-# 11.04.2020
+>**WICHTIG**
+>
+>Wenn Sie nach dem vorherigen Update Probleme mit einem nicht erreichbaren Modul haben, müssen Sie ein Jeedom-Backup von vor dem Update wiederherstellen und dann das Update wiederholen. Ich entschuldige mich aufrichtig für diesen Fehler, der bei einigen von Ihnen auftritt. Er kommt von einer unerwarteten Funktion von zigbee2mqtt, die ich in meinen verschiedenen Laboren nicht habe.
 
-- Neue Darstellung der Objektliste
+# 20.09.2023
 
-# 08.07.2020
+- Ein Fehler in der zigbee2mqtt-Version wurde behoben
 
-- Kommentare hinzufügen
+# 19.09.2023
 
-# 17.05.2020
+- Ein Fehler beim Aktualisieren von Abhängigkeiten (zigbee2mqtt) wurde behoben, wenn Sie jeedom wiederhergestellt haben
 
-- Aktualisierung der Dokumentation
+# 08.09.2023
+
+- Es wurde ein Fehler behoben, der verhinderte, dass Bestellungen korrekt erstellt wurden
+
+# 04.09.2023
+
+- Möglichkeit, den Überwachungsport von zigbee2mqtt zu konfigurieren
+- Ein Problem mit Farbtypbefehlen wurde behoben
+- Korrektur bei der Generierung von Befehlen, die in bestimmten Fällen nicht funktionieren konnten
+- Verbesserte Befehlsbenennung
+- Möglichkeit für Atlas-Boxen oder Elelabs-Controller, die Firmware von Jeedom aus zu aktualisieren
+
+# 07.03.2023
+
+- Ein Problem beim Senden eines Positionierungsbefehls (Verschlusstyp) wurde behoben)
+
+# 27.06.2023
+
+- Ein Problem bei der Erkennung bestimmter Module (einschließlich Profalux) wurde behoben)
+
+# 30.05.2023
+
+- Erste Version

@@ -260,7 +260,7 @@ Un tag est remplacé lors de l’exécution du scénario par sa valeur. Vous pou
 
 > **Tip**
 >
-> Pour avoir les zéros initiaux à l’affichage, il faut utiliser la fonction Date(). Voir [ici](http://php.net/manual/fr/function.date.php).
+> Pour avoir les zéros initiaux à l’affichage, il faut utiliser la fonction Date(). Voir [ici](https://www.php.net/manual/fr/function.date.php).
 
 - ``#seconde#`` : Seconde courante (sans les zéros initiaux, ex : 6 pour 08:07:06).
 - ``#hour#`` : Heure courante au format 24h (sans les zéros initiaux). Ex : 8 pour 08:07:06 ou 17 pour 17:15.
@@ -298,17 +298,17 @@ Vous avez aussi les tags suivants en plus si votre scénario a été déclenché
 
 Plusieurs fonctions sont disponibles pour les équipements :
 
-- ``average(commande,période)`` et ``averageBetween(commande,start,end)`` : Donnent la moyenne de la commande sur la période (period=[month,day,hour,min] ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)).
+- ``average(commande,période)`` et ``averageBetween(commande,start,end)`` : Donnent la moyenne de la commande sur la période (period=[month,day,hour,min] ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
-- ``min(commande,période)`` et ``minBetween(commande,start,end)`` : Donnent le minimum de la commande sur la période (period=[month,day,hour,min] ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)).
+- ``min(commande,période)`` et ``minBetween(commande,start,end)`` : Donnent le minimum de la commande sur la période (period=[month,day,hour,min] ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
-- ``max(commande,période)`` et ``maxBetween(commande,start,end)`` : Donnent le maximum de la commande sur la période (period=[month,day,hour,min] ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)).
+- ``max(commande,période)`` et ``maxBetween(commande,start,end)`` : Donnent le maximum de la commande sur la période (period=[month,day,hour,min] ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
-- ``duration(commande, valeur, période)`` et ``durationbetween(commande,valeur,start,end)`` : Donnent la durée en minutes pendant laquelle l’équipement avait la valeur choisie sur la période (period=[month,day,hour,min] ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)).
+- ``duration(commande, valeur, période)`` et ``durationbetween(commande,valeur,start,end)`` : Donnent la durée en minutes pendant laquelle l’équipement avait la valeur choisie sur la période (period=[month,day,hour,min] ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
-- ``statistics(commande,calcul,période)`` et ``statisticsBetween(commande,calcul,start,end)`` : Donnent le résultat de différents calculs statistiques (sum, count, std, variance, avg, min, max) sur la période (period=[month,day,hour,min] ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)).
+- ``statistics(commande,calcul,période)`` et ``statisticsBetween(commande,calcul,start,end)`` : Donnent le résultat de différents calculs statistiques (sum, count, std, variance, avg, min, max) sur la période (period=[month,day,hour,min] ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
-- ``tendance(commande,période,seuil)`` : Donne la tendance de la commande sur la période (period=[month,day,hour,min] ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)).
+- ``tendance(commande,période,seuil)`` : Donne la tendance de la commande sur la période (period=[month,day,hour,min] ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
 - ``stateDuration(commande)`` : Donne la durée en secondes depuis le dernier changement de valeur.
     -1 : Aucun historique n’existe ou la valeur n’existe pas dans l'historique.
@@ -325,9 +325,9 @@ Plusieurs fonctions sont disponibles pour les équipements :
 - ``age(commande)`` : Donne l'age en secondes de la valeur de la commande (``collecDate``)
     -1 : La commande n’existe pas ou elle n'est pas de type info.
 
-- ``stateChanges(commande,[valeur], période)`` et ``stateChangesBetween(commande, [valeur], start, end)`` : Donnent le nombre de changements d’état (vers une certaine valeur si indiquée, ou au total sinon) sur la période (period=[month,day,hour,min] ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)).
+- ``stateChanges(commande,[valeur], période)`` et ``stateChangesBetween(commande, [valeur], start, end)`` : Donnent le nombre de changements d’état (vers une certaine valeur si indiquée, ou au total sinon) sur la période (period=[month,day,hour,min] ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
-- ``lastBetween(commande,start,end)`` : Donne la dernière valeur enregistrée pour l’équipement entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)).
+- ``lastBetween(commande,start,end)`` : Donne la dernière valeur enregistrée pour l’équipement entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
 - ``variable(mavariable,valeur par défaut)`` : Récupère la valeur d’une variable ou de la valeur souhaitée par défaut.
 
@@ -342,11 +342,11 @@ Plusieurs fonctions sont disponibles pour les équipements :
 - ``lastScenarioExecution(scenario)`` : Donne la durée en secondes depuis le dernier lancement du scénario.
     0 : Le scénario n'existe pas
 
-- ``collectDate(cmd,[format])`` : Renvoie la date de la dernière donnée pour la commande donnée en paramètre, le 2ème paramètre optionnel permet de spécifier le format de retour (détails [ici](http://php.net/manual/fr/function.date.php)).
+- ``collectDate(cmd,[format])`` : Renvoie la date de la dernière donnée pour la commande donnée en paramètre, le 2ème paramètre optionnel permet de spécifier le format de retour (détails [ici](https://www.php.net/manual/fr/function.date.php)).
     -1 : La commande est introuvable,
     -2 : La commande n’est pas de type info.
 
-- ``valueDate(cmd,[format])`` : Renvoie la date de la dernière donnée pour la commande donnée en paramètre, le 2ème paramètre optionnel permet de spécifier le format de retour (détails [ici](http://php.net/manual/fr/function.date.php)).
+- ``valueDate(cmd,[format])`` : Renvoie la date de la dernière donnée pour la commande donnée en paramètre, le 2ème paramètre optionnel permet de spécifier le format de retour (détails [ici](https://www.php.net/manual/fr/function.date.php)).
     -1 : La commande est introuvable,
     -2 : La commande n’est pas de type info.
 
@@ -361,11 +361,11 @@ Plusieurs fonctions sont disponibles pour les équipements :
 
 - ``name(type,commande)`` : Permet de récupérer le nom de la commande, de l’équipement ou de l’objet. Type : cmd, eqLogic ou object.
 
-- ``lastCommunication(equipment,[format])`` : Renvoie la date de la dernière communication pour l'équipement donnée en paramètre, le 2ème paramètre optionnel permet de spécifier le format de retour (détails [ici](http://php.net/manual/fr/function.date.php)). Un retour de -1 signifie que l’équipement est introuvable.
+- ``lastCommunication(equipment,[format])`` : Renvoie la date de la dernière communication pour l'équipement donnée en paramètre, le 2ème paramètre optionnel permet de spécifier le format de retour (détails [ici](https://www.php.net/manual/fr/function.date.php)). Un retour de -1 signifie que l’équipement est introuvable.
 
 - ``color_gradient(couleur_debut,couleur_fin,valuer_min,valeur_max,valeur)`` : Renvoi une couleur calculé par rapport à valeur dans l'intervalle couleur_debut/couleur_fin. La valeur doit etre comprise entre valeur_min et valeur_max.
 
-Les périodes et intervalles de ces fonctions peuvent également s'utiliser avec [des expressions PHP](http://php.net/manual/fr/datetime.formats.relative.php) comme par exemple :
+Les périodes et intervalles de ces fonctions peuvent également s'utiliser avec [des expressions PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative) comme par exemple :
 
 - ``Now`` : maintenant.
 - ``Today`` : 00:00 aujourd’hui (permet par exemple d’obtenir des résultats de la journée si entre ``Today`` et ``Now``).

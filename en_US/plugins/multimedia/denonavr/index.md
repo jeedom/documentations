@@ -12,7 +12,7 @@ The configuration of Denon equipment is accessible from the Plugins menu then mu
 
 Here you find all the configuration of your equipment :
 
--   **Name de l'équipement Denon** : name of your Denon equipment,
+-   **Name of the Denon Equipment** : name of your Denon equipment,
 -   **Parent object** : indicates the parent object to which the equipment belongs,
 -   **Category** : equipment categories (it can belong to several categories),
 -   **Activate** : makes your equipment active,

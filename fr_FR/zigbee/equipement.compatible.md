@@ -179,6 +179,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/LiXe.ZiPulses.png" width="60" />|Lixee|Lixe ZiPulse - Compteur d'impulsions communiquant en ZigBee 3.0.|Compteur|||
 |<img src="../../fr_FR/zigbee/images/LiXee.ZLinky_TIC.png" width="60" />|Lixee|Module TIC pour compteur Linky|Compteur||[Acheter](https://www.domadoo.fr/fr/box-domotique/5914-lixee-module-tic-vers-zigbee-30-pour-compteur-linky-3770014375148.html?domid=4&id_campaign=9)|
 
 # MLI
@@ -472,6 +473,7 @@
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.STARKVIND_Air_purifier.png" width="60" />|Ikea|Purificateur d’air IKEA Starkvind||||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.STARKVIND_Air_purifier_table.png" width="60" />|Ikea|Purificateur d’air IKEA Starkvind table||||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.SYMFONISK_Sound_Controller.png" width="60" />|Ikea|Symfonisk sound controller|Télécommande|||
+|<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.SYMFONISK_sound_remote_gen2.png" width="60" />|Ikea|Symfonisk sound controller gen2|Télécommande|||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_10W.png" width="60" />|Ikea|Driver 10W||||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_30W.png" width="60" />|Ikea|Driver 30W||||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_SHORTCUT_Button.png" width="60" />|Ikea|SHORTCUT Button|Télécommande|||
@@ -591,16 +593,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zigbee/images/TZ3000_5sfi3baz.TS0041.png" width="60" />|Loratap|LORATAP - INTERRUPTEUR MURAL DE SCÈNE SANS FIL ZIGBEE 3.0 - 1 BOUTON|Interrupteur,Télécommande||[Acheter](https://www.domadoo.fr/fr/peripheriques/6031-loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-1-bouton.html?domid=4&id_campaign=9)|
 |<img src="../../fr_FR/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Loratap|Module volet roulant||||
-|<img src="../../fr_FR/zigbee/images/TZ3000_b7bxojrg.TS0044.png" width="60" />|Loratap|INTERRUPTEUR MURAL DE SCÈNE SANS FIL ZIGBEE 3.0 - 4 BOUTONS|Interrupteur,Télécommande||[Acheter](https://www.domadoo.fr/fr/peripheriques/6040-loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-4-boutons.html?domid=4&id_campaign=9)|
-|<img src="../../fr_FR/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Loratap|LORATAP - Télécommande 3 boutons|Télécommande||[Acheter](https://www.domadoo.fr/fr/peripheriques/5712-loratap-telecommande-zigbee-3-boutons.html?domid=4&id_campaign=9)|
-|<img src="../../fr_FR/zigbee/images/TZ3000_ee8nrt2l.TS0044.png" width="60" />|Loratap|LORATAP - Télécommande 4 boutons|Télécommande||[Acheter](https://www.domadoo.fr/fr/peripheriques/6015-loratap-telecommande-zigbee-30-4-boutons.html?domid=4&id_campaign=9)|
-|<img src="../../fr_FR/zigbee/images/TZ3000_i3rjdrwu.TS0042.png" width="60" />|Loratap|LORATAP - INTERRUPTEUR MURAL DE SCÈNE SANS FIL ZIGBEE 3.0 - 2 BOUTON|Interrupteur,Télécommande||[Acheter](https://www.domadoo.fr/fr/peripheriques/6038-loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-2-boutons.html?domid=4&id_campaign=9)|
-|<img src="../../fr_FR/zigbee/images/TZ3000_t8hzpgnd.TS0042.png" width="60" />|Loratap|LORATAP - Télécommande 2 boutons|Télécommande||[Acheter](https://www.domadoo.fr/fr/peripheriques/6014-loratap-telecommande-zigbee-30-2-boutons.html?domid=4&id_campaign=9)|
-|<img src="../../fr_FR/zigbee/images/TZ3000_ufhtxr59.TS0044.png" width="60" />|Loratap|LORATAP - Télécommande 4 boutons|Télécommande||[Acheter](https://www.domadoo.fr/fr/peripheriques/6015-loratap-telecommande-zigbee-30-4-boutons.html?domid=4&id_campaign=9)|
-|<img src="../../fr_FR/zigbee/images/TZ3000_xrqsdxq6.TS0041.png" width="60" />|Loratap|LORATAP - Télécommande 1 bouton|Télécommande||[Acheter](https://www.domadoo.fr/fr/peripheriques/6013-loratap-telecommande-zigbee-30-1-bouton.html?domid=4&id_campaign=9)|
-|<img src="../../fr_FR/zigbee/images/TZ3000_yw5tvzsk.TS0043.png" width="60" />|Loratap|LORATAP - INTERRUPTEUR MURAL DE SCÈNE SANS FIL ZIGBEE 3.0 - 3 BOUTONS|Interrupteur,Télécommande||[Acheter](https://www.domadoo.fr/fr/peripheriques/6039-loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-3-boutons.html?domid=4&id_campaign=9)|
+|<img src="../../fr_FR/zigbee/images/TZ3000_gszjt2xx.TS0207.png" width="60" />|Loratap|LORATAP - Repeteur de signal Zigbee 3.0|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5984-loratap-repeteur-de-signal-zigbee-30.html?domid=4&id_campaign=9)|
 
 # Miboxer
 
@@ -620,6 +614,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/TZ3000_5ynfoj1f.TS0207.png" width="60" />|Neo|NEO CoolCam NAS-WS02||||
 |<img src="../../fr_FR/zigbee/images/TZ3000_gjnozsaz.TS011F.png" width="60" />|Neo|NEO - Prise intelligente Zigbee Tuya 16A + mesure de consommation|||[Acheter](https://www.domadoo.fr/fr/peripheriques/6473-neo-prise-intelligente-zigbee-tuya-16a-mesure-de-consommation.html?domid=4&id_campaign=9 )|
 
 # Nodon
@@ -677,12 +672,13 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/OWON.CB432-32.png" width="60" />|Owon|Relais Rail-Din 32A et compteur d'énergie Zigbee|Contacteur,Compteur||[Documentation](https://www.owon-smart.com/uploads/Quick-Start-Guide-CB432-Din-Rail-Relay1.pdf)<br/>|
-|<img src="../../fr_FR/zigbee/images/OWON.PC321.png" width="60" />|Owon|OWON - COMPTEUR DE CONSOMMATION ÉLECTRIQUE - 3 PINCES AMPÈREMÉTRIQUES MONOPHASÉE / TRIPHASÉE ZIGBEE - 80A|||[Documentation](https://www.owon-smart.com/uploads/Quick-Start-Guide-PC321-Power-Clamp.pdf)<br/>[Acheter](https://www.domadoo.fr/fr/peripheriques/6057-owon-compteur-de-consommation-electrique-3-pinces-amperemetriques-monophasee-triphasee-zigbee-80a.html?domid=4&id_campaign=9)|
+|<img src="../../fr_FR/zigbee/images/OWON.PC321.png" width="60" />|Owon|OWON - COMPTEUR DE CONSOMMATION ÉLECTRIQUE ZIGBEE MONOPHASÉ/TRIPHASÉ (80 À 300A) - COMPATIBLE JEEDOM/HOME ASSISTANT|||[Documentation](https://www.owon-smart.com/uploads/Quick-Start-Guide-PC321-Power-Clamp.pdf)<br/>[Acheter](https://www.domadoo.fr/fr/peripheriques/6372-owon-compteur-de-consommation-electrique-zigbee-monophasetriphase-80-a-300a.html?domid=4&id_campaign=9)|
 |<img src="../../fr_FR/zigbee/images/OWON.PCT504.png" width="60" />|Owon|THERMOSTAT POUR VENTILO-CONVECTEUR ZIGBEE (100V-240V)|Thermostat||[Documentation](https://www.owon-smart.com/uploads/Quick-Start-Guide-%E2%80%93-PCT504-ZigBee-Fan-coil-Thermostat.pdf)<br/>[Acheter](https://www.domadoo.fr/fr/peripheriques/6056-owon-thermostat-de-ventilo-convecteur-zigbee-100v-240v.html)|
 |<img src="../../fr_FR/zigbee/images/OWON.PIR313.png" width="60" />|Owon|Multi-Sensor (Mouvement/Temperature/Humidite/Luminosite)|||[Documentation](https://www.owon-smart.com/uploads/Quick-Start-Guide-PIR313-Multisensor-V0.4.pdf)<br/>[Acheter](https://www.domadoo.fr/fr/peripheriques/6010-owon-capteur-de-mouvement-temperature-et-humidite-zigbee.html?domid=4&id_campaign=9)|
 |<img src="../../fr_FR/zigbee/images/OWON.PIR323-PTH.png" width="60" />|Owon|Multi-Sensor (Mouvement/Temperature/Humidite)|||[Documentation](https://www.owon-smart.com/uploads/Quick-Start-Guide-PIR323-ZigBee-Multi-Sensor.pdf)<br/>[Acheter](https://www.domadoo.fr/fr/peripheriques/6009-owon-capteur-de-mouvement-temperature-et-humidite-zigbee.html?domid=4&id_campaign=9)|
 |<img src="../../fr_FR/zigbee/images/OWON.SLC602.png" width="60" />|Owon|OWON - INTERRUPTEUR MURAL ZIGBEE HA ON/OFF + FONCTION BINDING|||[Acheter](https://www.domadoo.fr/fr/peripheriques/6318-owon-interrupteur-zigbee-ha-onoff-fonction-binding-2-piles-aaa.html?domid=4&id_campaign=9)|
 |<img src="../../fr_FR/zigbee/images/OWON.THS317-ET.png" width="60" />|Owon|Sonde de température déportée sur câble|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5998-owon-sonde-de-temperature-deportee-sur-cable-zigbee.html)|
+|<img src="../../fr_FR/zigbee/images/OWON_Technology_Inc..PC321.png" width="60" />|Owon|OWON - COMPTEUR DE CONSOMMATION ÉLECTRIQUE ZIGBEE MONOPHASÉ/TRIPHASÉ (80 À 300A) - COMPATIBLE JEEDOM/HOME ASSISTANT|||[Documentation](https://www.owon-smart.com/uploads/Quick-Start-Guide-PC321-Power-Clamp.pdf)<br/>[Acheter](https://www.domadoo.fr/fr/peripheriques/6372-owon-compteur-de-consommation-electrique-zigbee-monophasetriphase-80-a-300a.html?domid=4&id_campaign=9)|
 
 # Philips
 
@@ -802,7 +798,9 @@
 |<img src="../../fr_FR/zigbee/images/SONOFF.01MINIZB.png" width="60" />|Sonoff|Micromodule commutateur connecté|Contacteur,Lumière||[Acheter](https://www.domadoo.fr/fr/peripheriques/5375-sonoff-micromodule-commutateur-connecte-zigbee.html)|
 |<img src="../../fr_FR/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|Micromodule commutateur 10A|Contacteur||[Documentation](http://dl.itead.cc/basiczbr3/BASICZBR3-user-manual-V-1-1.pdf)<br/>[Acheter](https://www.domadoo.fr/fr/peripheriques/5258-sonoff-module-commutateur-10a-zigbee-30.html)|
 |<img src="../../fr_FR/zigbee/images/SONOFF.S26R2ZB.png" width="60" />|Sonoff|PRISE INTELLIGENTE 16A|Prise||[Acheter](https://www.domadoo.fr/fr/peripheriques/5880-sonoff-prise-intelligente-16a-zigbee-30-version-fr.html)|
+|<img src="../../fr_FR/zigbee/images/SONOFF.SNZB-02D.png" width="60" />|Sonoff|SONOFF - Capteur de température et d'humidité Zigbee 3.0 avec écran|||[Acheter](https://www.domadoo.fr/fr/peripheriques/6614-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30-avec-ecran.html?domid=4&id_campaign=9)|
 |<img src="../../fr_FR/zigbee/images/SONOFF.ZBMINI-L.png" width="60" />|Sonoff|ZigBee Interrupteur Sans Fil Aucun Fil Neutre||||
+|<img src="../../fr_FR/zigbee/images/SONOFF.ZBMINIL2.png" width="60" />|Sonoff|SONOFF - Commutateur intelligent sans neutre Zigbee 3.0 ZBMINIL2|||[Acheter](https://www.domadoo.fr/fr/peripheriques/6619-sonoff-commutateur-intelligent-sans-neutre-zigbee-30-zbminil2.html?domid=4&id_campaign=9)|
 |<img src="../../fr_FR/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff|Capteur d'ouverture porte/fenêtre|Capteur,Ouverture|Attention il y a un bug dans le firmware qui le fait remonter comme un module de température et d'humidité il faut donc suite à l'inclusion remettre le bon model et supprimer les commandes de température et d'humidité|[Documentation](http://dl.itead.cc/SNZB-04/Instructions/SNZB-04_V1.0_User_manual_20201116.pdf)<br/>[Acheter](https://www.domadoo.fr/fr/peripheriques/5320-sonoff-capteur-d-ouverture-de-portefenetre-zigbee.html)|
 |<img src="../../fr_FR/zigbee/images/eWeLink.DS01.png" width="60" />|Sonoff|Capteur d'ouverture porte/fenêtre|Capteur,Ouverture||[Documentation](http://dl.itead.cc/SNZB-04/Instructions/SNZB-04_V1.0_User_manual_20201116.pdf)<br/>[Acheter](https://www.domadoo.fr/fr/peripheriques/5320-sonoff-capteur-d-ouverture-de-portefenetre-zigbee.html)|
 |<img src="../../fr_FR/zigbee/images/eWeLink.MS01.png" width="60" />|Sonoff|Détecteur de mouvement intelligent|Capteur,Mouvement||[Documentation](http://dl.itead.cc/SNZB-03/Instructions/SNZB-03_V1.0_User_manual_20201116.pdf)<br/>[Acheter](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.html)|
@@ -1052,4 +1050,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2023-04-09 02:32:13
+2023-12-04 01:32:10

@@ -1,11 +1,45 @@
 {
     "id": "denonavr",
     "name": "Denon",
-    "description": "Plugin permettant de piloter les amplificateurs Denon",
+    "description": {
+        "fr_FR": "Plugin permettant de piloter les amplificateurs Denon",
+        "en_US": "Plugin to control Denon amplifiers",
+        "es_ES": "Plugin para controlar amplificadores Denon",
+        "de_DE": "Plugin zur Steuerung von Denon-Verstärkern",
+        "pt_PT": "Plugin para controle de amplificadores Denon",
+        "ru_RU": "Plugin permettant de piloter les amplificateurs Denon",
+        "id_ID": "Plugin permettant de piloter les amplificateurs Denon",
+        "it_IT": "Plugin permettant de piloter les amplificateurs Denon",
+        "ja_JP": "Plugin permettant de piloter les amplificateurs Denon",
+        "tr": "Plugin permettant de piloter les amplificateurs Denon"
+    },
     "licence": "AGPL",
     "author": "Loïc",
     "require": "3.0",
     "category": "multimedia",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/denonavr\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/denonavr\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/denonavr\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/denonavr\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/denonavr\/beta"
 }

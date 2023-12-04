@@ -2,10 +2,10 @@
 
 Once the service has been purchased, it is necessary in jeedom : 
 
-- go to the administration of it then in the tab "Update / Market" and fill
-  - [Backup cloud] Name : name of the folder or put the backups of jeedom (if you have a jeedom simply put jeedom, otherwise put a folder by jeedom)
-  - [Backup cloud] Password : backup encryption password. BE CAREFUL if you lose it the backups are lost it is impossible to recover the password
-- in the backup management check the "Send backups" box at the "Market Backups" level"
+- go to its administration then in the “Updates/Market” tab and fill in
+  - [Backup cloud] Name : name of the folder where to put the Jeedom backups (if you have a Jeedom simply put jeedom, otherwise put a folder by Jeedom)
+  - [Backup cloud] Password : backup encryption password. WARNING if you lose it the backups are lost, it is impossible to recover the password
+- in backup management, check the “Sending backups” box at the “Backups Market” level"
 
 >**NOTE**
 >

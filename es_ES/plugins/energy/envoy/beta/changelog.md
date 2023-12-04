@@ -4,6 +4,18 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 12/07/2023
+
+- Mejor manejo de errores con el firmware v7
+- Adición de un sistema de recuperación automática de tokens para firmware en v7
+
+# 07/07/2023
+
+- Compatibilidad añadida con firmwares V7
+
+  >**Importante**
+  > Debe reiniciar una sincronización desde la página del complemento; de lo contrario, tendrá errores y nada funcionará
+
 # 05/05/2020
 
 - Cambiar de tiempo de espera a 10 segundos

@@ -39,3 +39,8 @@ Il faudra ensuite renseigner les coordonnées GPS du lieu dont vous souhaitez r�
 - **Longitude** : Longitude du lieu dont vous souhaitez récupérer la méteo *(sous la forme XX.XXXXXXX)*.
 
 En cliquant sur l'onglet **Commandes**, on retrouve la liste de toutes les commandes disponibles ainsi que la possibilité d’historiser les valeurs numériques.
+
+
+## Code méteo
+
+Vous trouverez [ici](https://www.weatherapi.com/docs/weather_conditions.json) la signification des differents code météo

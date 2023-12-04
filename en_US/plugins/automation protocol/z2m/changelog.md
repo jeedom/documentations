@@ -1,0 +1,46 @@
+# Changelog jeeZigbee
+
+>**IMPORTANT**
+>
+>If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
+
+
+# 09/22/2023
+
+- Possibility to choose the version of zigbee2mqtt
+
+>**IMPORTANT**
+>
+>For those having problems with an unreachable module following the previous update, you must restore a jeedom backup from before the update then redo the update. I sincerely apologize for this bug which occurs to some of you, it comes from an unexpected function of zigbee2mqtt which I do not have on my different labs.
+
+# 09/20/2023
+
+- Fixed a bug on the zigbee2mqtt version
+
+# 09/19/2023
+
+- Fixed a bug when updating dependencies (zigbee2mqtt) if you restored jeedom
+
+# 08/09/2023
+
+- Fixed a bug that prevented orders from being created correctly
+
+# 04/09/2023
+
+- Ability to configure the listening port of zigbee2mqtt
+- Fixed an issue with color type commands
+- Correction on the generation of commands which could not work in certain cases
+- Improved command naming
+- Possibility for atlas boxes or Elelabs type controllers to update the firmware from jeedom
+
+# 03/07/2023
+
+- Fixed a problem when sending a positioning command (shutter type)
+
+# 06/27/2023
+
+- Fixed a problem with detecting certain modules (including profalux)
+
+# 05/30/2023
+
+- Initial version

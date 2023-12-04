@@ -6,7 +6,7 @@ Ce plugin permet de récupérer l'état des lecteurs Spotify Connect et de les c
 
 ## Configuration du plugin
 
-Comme tout plugin Jeedom, le plugin **Spotify Connect** doit être activé après l'installation.
+Comme tout plugin Jeedom, le plugin **Spotify Connect** doit être activé après l'installation. Une fois activé il faut liée jeedom avec votre compte Spotify pour se faire il faut aller dans plugin -> gestion de plugin -> Spotify puis cliquer sur le bouton pour lier avec un compte utilisateur.
 
 ### Découverte des lecteurs
 

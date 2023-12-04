@@ -6,11 +6,11 @@
 
 # 18/03/2022
 
-- Apresentação atualizada das telas de configuração do equipamento
+- Apresentação atualizada da tela de configuração do equipamento
 
 # 06/04/2021
 
-- Possibilidade de utilização dos serviços Jeedom Cloud para envio de mensagens (em beta limitado a 5 e-mails por dia)
+- Possibilidade de utilização dos serviços Jeedom Cloud para envio de emails (em beta limitado a 5 emails por dia)
 
 # 19/11/2020
 

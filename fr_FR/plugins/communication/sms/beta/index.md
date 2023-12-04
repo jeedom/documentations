@@ -56,9 +56,18 @@ En dessous vous retrouvez quelques paramètres spécifiques:
 
 ## Les commandes
 
-- **Nom** : le nom affiché sur le dashboard.
-- **Utilisateur** : utilisateur correspondant dans Jeedom (permet de restreindre certaines interactions à certains utilisateurs).
-- **Numéro** : numéro de téléphone à qui envoyer les messages. Vous pouvez mettre plusieurs numéros en les séparant avec des ; *(exemple: +33612345678;+33698765432)*. IMPORTANT : il faut mettre les numéros au format international (+33 pour la France par exemple)
+Chaque équipement dispose des commandes suivantes:
+
+- **Signal**: donne la force du signal;
+- **Message**: contient le dernier message sms reçu;
+- **Expediteur**: contient le nom du dernier expéditeur si celui-ci est connu, le numéro dans le cas contraire;
+- **Envoyer message à**: une commande action permettant d'envoyer un message d'envoyer un sms à un numéro personnalisé sans devoir créer la commande du contact. Cela permet d'envoyer un sms à un numéro obtenu via une commande info d'un autre équipement sous Jeedom par exemple. Attention, aucune vérification du numéro n'est effectuée, il faut fournir les numéros au format international.
+
+De plus, vous pouvez créer autant d'autres commandes actions que souhaité correspondantes à vos contacts, pour chacune d'elle il faudra renseigner:
+
+- **Nom**: le nom de la commande;
+- **Utilisateur**: utilisateur correspondant dans Jeedom (permet de restreindre certaines interactions à certains utilisateurs);
+- **Numéro**: numéro de téléphone à qui envoyer les messages. Vous pouvez mettre plusieurs numéros en les séparant avec des `;` (exemple: `+33612345678;+33698765432`). *IMPORTANT* : il faut mettre les numéros au format international (+33 pour la France par exemple).
 
 > **IMPORTANT**
 >

@@ -4,9 +4,8 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+# 06/06/2023
 
-
-- Possibility of going through an mqtt mode for SIA information feedback, via nodered
 - Add fibra hub
 
 # 08/23/2022

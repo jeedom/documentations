@@ -4,7 +4,14 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+# 04/24/2023
+
+- Add fibra hub
+
+# 08/23/2022
+
 - Added group management
+- Improved multi transmitter support
 
 # 06/09/2022
 

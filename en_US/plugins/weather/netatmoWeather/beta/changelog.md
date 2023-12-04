@@ -4,6 +4,21 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 06/16/2023
+
+- Minimum core version required: 4.2
+- Updated list of commands for Jeedom v4.3
+- Minor fixes & optimizations in the equipment management screen
+- Fixed a bug that overwritten command configurations when updating the plugin
+
+# 04/05/2023
+
+- Bugfix
+
+# 02/05/2023
+
+- Bugfix
+
 # 01/23/2023
 
 - Passage of a data update every 10min

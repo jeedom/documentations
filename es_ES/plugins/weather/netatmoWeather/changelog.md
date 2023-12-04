@@ -4,6 +4,14 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 05/02/2023
+
+- Arreglo del fallo
+
+# 23/01/2023
+
+- Paso de una actualización de datos cada 10min
+
 # 19/10/2020
 
 - Corrección de errores

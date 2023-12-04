@@ -4,6 +4,24 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Soporte de firmware V3 mejorado
+- Adición de información de tele-info
+
+# 15/12/2021
+
+- Corrección de errores en Index_TORE (gracias @Math)
+- Adición de la API de TI (tele-info)
+- Adición de la API de estado
+
+# 02/12/2021
+
+- Corrección de errores si se reinicia rt2
+
+# 23/11/2020
+
+- Nueva presentación de la lista de objetos
+- Adición de la etiqueta "compatibilidad V4"
+
 # 30/03/2020
 
 - Soporte para sondas XTHL

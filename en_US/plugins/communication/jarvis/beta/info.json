@@ -1,0 +1,45 @@
+{
+    "id": "jarvis",
+    "name": "Jarvis",
+    "description": {
+        "fr_FR": "Plugin permettant de gérer un ou plusieurs Jarvis",
+        "en_US": "Plugin to manage one or more Jarvis",
+        "es_ES": "Complemento para administrar uno o más Jarvis",
+        "de_DE": "Plugin zum Verwalten eines oder mehrerer Jarvis",
+        "pt_PT": "Plugin que permite gerenciar um ou mais Jarvis",
+        "ru_RU": "Plugin permettant de gérer un ou plusieurs Jarvis",
+        "id_ID": "Plugin permettant de gérer un ou plusieurs Jarvis",
+        "it_IT": "Plugin permettant de gérer un ou plusieurs Jarvis",
+        "ja_JP": "Plugin permettant de gérer un ou plusieurs Jarvis",
+        "tr": "Plugin permettant de gérer un ou plusieurs Jarvis"
+    },
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "category": "communication",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/jarvis\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/jarvis\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/jarvis\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/jarvis\/beta"
+}

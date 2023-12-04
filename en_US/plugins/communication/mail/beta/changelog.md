@@ -6,11 +6,11 @@
 
 # 03/18/2022
 
-- Updated presentation of the equipment configuration screens
+- Updated presentation of the equipment configuration screen
 
 # 04/06/2021
 
-- Possibility of using Jeedom Cloud services for sending messages (in beta limited to 5 mails per day)
+- Possibility of using Jeedom Cloud services for sending emails (in beta limited to 5 emails per day)
 
 # 11/19/2020
 

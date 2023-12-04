@@ -39,3 +39,8 @@ You will then need to enter the GPS coordinates of the place from which you wish
 - **Longitude** : Longitude of the place whose weather you want to retrieve *(Under the form XX.XXXXXXX)*.
 
 By clicking on the tab **Commands**, we find the list of all the commands available as well as the possibility of logging the numerical values.
+
+
+## Weather code
+
+You will find [here](https://www.weatherapi.com/docs/weather_conditions.json) the meaning of the different weather codes

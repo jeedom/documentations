@@ -361,7 +361,7 @@ Sie können den unten stehenden Code kopieren / einfügen und die angezeigten Ze
         }
 
         $path = realpath(dirname(__FILE__) . '/../../resources/demond'); // répertoire du démon à modifier
-        $cmd = 'python3 ' . $path . '/demond.py'; // nom du démon à modifier
+        $cmd = 'Python3 ' . $path . '/demond.py'; // nom du démon à modifier
         $cmd .= ' --loglevel ' . log::convertLogLevel(log::getLogLevel(__CLASS__));
         $cmd .= ' --socketport ' . config::byKey('socketport', __CLASS__, '55009'); // port par défaut à modifier
         $cmd .= ' --callback ' . network::getNetworkAccess('internal', 'proto:127.0.0.1:port:comp') . '/plugins/template/core/php/jeeTemplate.php'; // chemin de la callback url à modifier (voir ci-dessous)
@@ -588,8 +588,100 @@ Gleiches Beispiel wie bei der Deklaration des Daemons, Sie müssen die Eigenscha
 
 #### Erstellung der Datei plugin_info/packages.json
 
-Die Syntax dieser Datei wird hier beschrieben. In der Zwischenzeit finden Sie hier Informationen
-[Blogeintrag](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/).
+Die Syntax dieser Datei wird hier beschrieben. Siehe auch 
+[Der Startartikel im Blog](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/).
+
+Diese Datei kann einen der folgenden Abschnitte enthalten:
+##### pre-install: Der Pfad zu einem Skript, das vor der Installation ausgeführt werden soll
+Beispiel :
+`` ``json
+{
+  "pre-install" : {
+    "script" : "Plugins/openzwave/resources/post-install.sh"
+  }
+`` ``
+
+##### post-install:
+Dies kann der Pfad zu einem Skript sein, das nach der Installation ausgeführt werden soll, oder die Aktion „Apache neu starten“. 
+Beispiel :
+`` ``json
+{
+  "post-install" : {
+    "restart_apache" : true,
+    "script" : "Plugins/openzwave/resources/post-install.sh"
+  }
+`` ``
+
+##### apt: Debian-Abhängigkeiten
+Exemple
+`` ``json
+{
+  "apt" : {
+    "libav-tools" : {"alternative" : ["ffmpeg"]},
+    "ffmpeg" : {"alternative" : ["libav-tools"]},
+    "python-pil" : {},
+    "php-gd" : {}
+  }
+}
+`` ``
+
+Für jedes Paket können wir „Version“ angeben, um eine Version festzulegen, „Alternative“, falls verfügbar,
+ „optional“, wenn es optional ist, „reinstall“, um die Neuinstallation des Pakets zu erzwingen, „remark“, um einen kostenlosen Kommentar hinzuzufügen.
+##### pip3: Python3-Abhängigkeiten (Pip2 werden ebenfalls unterstützt)
+Exemple:
+`` ``json
+{
+  "apt" : {
+    "python3" : {},
+    "python3-pip" : {},
+    "python3-pyudev" : {},
+    "Python3-Anfragen" : {},
+    "Python3-Setuptools" : {},
+    "python3-dev" : {}
+  },
+  "pip3" : {
+    "wheel" : {},
+    "pyserial" : {},
+    "tornado" : {},
+    "zigpy" : {"reinstall" : true},
+    "zha-quirks" : {"reinstall" : true},
+    "zigpy-znp" : {"reinstall" : true},
+    "zigpy-xbee" : {"reinstall" : true},
+    "zigpy-deconz" : {"reinstall" : true},
+    "zigpy-zigate" : {"reinstall" : true},
+    "zigpy-cc" : {"reinstall" : true},
+    "bellows" : {"reinstall" : true}
+  }
+}
+`` ``
+
+##### npm: Abhängigkeiten für NodeJS
+Für NodeJS befinden sich die Abhängigkeiten in einer anderen „Pakete“-Datei.json` in einem eigenen Format, 
+Wenn sie beispielsweise im Verzeichnis „/resources“ abgelegt wird, wird diese Datei in der von Jeedom angezeigt:
+`` ``json
+{
+  "apt" : {
+    "nodejs" : {}
+  },
+  "npm" : {
+    "Plugins/dyson/resources/dysond"  : {}
+  }
+}
+`` ``
+
+##### composer: um eine weitere PHP-Abhängigkeit zu installieren
+kein Beispiel vorhanden; Die Syntax ist ähnlich wie bei anderen Paketen, mit dem Schlüsselwort „compose“.
+
+##### Abhängigkeiten von einem anderen Plugin:
+Wenn ein Plugin die Installation eines anderen Plugins erfordert, ist dies auch mit der folgenden Syntax möglich; 
+Das Plugin muss kostenlos oder bereits gekauft sein :
+`` ``json
+{
+    "plugin":{
+        "mqtt2": {}
+    }
+}
+`` ``
 
 ### Die prozedurale Methode
 Es gibt 3 Voraussetzungen, die wir gleich erläutern werden.
@@ -610,7 +702,9 @@ Gleiches Beispiel wie bei der Deklaration des Daemons, Sie müssen die Eigenscha
 }
 `` ``
 
-Die Eigenschaft `maxDependancyInstallTime` ist die Verzögerung in Minuten, nach der der Kern die Installation als fehlgeschlagen betrachtet. In diesem Fall wird der Auto-Modus des Daemons deaktiviert und eine Nachricht in der Benachrichtigungszentrale veröffentlicht. Wenn diese Eigenschaft nicht definiert ist, beträgt die Standardzeit 30 Minuten.
+Die Eigenschaft `maxDependancyInstallTime` ist die Verzögerung in Minuten, nach der der Kern die Installation als fehlgeschlagen betrachtet.
+ In diesem Fall wird der Auto-Modus des Daemons deaktiviert und eine Nachricht in der Benachrichtigungszentrale veröffentlicht.
+ Wenn diese Eigenschaft nicht definiert ist, beträgt die Standardzeit 30 Minuten.
 
 > **TRINKGELD**
 >

@@ -57,7 +57,7 @@ Dado el tiempo que lleva tener que configurar en ocasiones determinados equipos,
 Por lo tanto, puede importarlo fácilmente en otra caja en un nuevo equipo del mismo tipo (solo para cambiar lo que difiere en términos de su conexión)
 
 
-En la página del equipo, abajo a la derecha, tienes este inserto : 
+En la página del equipo, abajo a la derecha, tienes este inserto :
 
 ![dependances](../images/exportFunction.png)
 
@@ -66,7 +66,7 @@ Haga clic en Lista de pedidos para exportar; se abre una ventana con los comando
 
 ![dependances](../images/choiceCmds.png)
 
-Puede seleccionarlos todos si es necesario usando el botón en la parte superior de la ventana. 
+Puede seleccionarlos todos si es necesario usando el botón en la parte superior de la ventana.
 Cuando se elijan los comandos, haga clic en Validar.
 
 
@@ -87,43 +87,50 @@ Para importar comandos al equipo : haga clic en la parte superior derecha del eq
 
 
 
-También puede elegir directamente un modelo de equipo disponible en la configuración del complemento, para cargar los comandos proporcionados en este modelo; 
-Elija el modelo elegido, luego Valide. Entonces puedes Guardar. 
+También puede elegir directamente un modelo de equipo disponible en la configuración del complemento, para cargar los comandos proporcionados en este modelo;
+Elija el modelo elegido, luego Valide. Entonces puedes Guardar.
 
 
+DETALLES MODBUS :
 
+
+El tamaño de un registro Modbus es de 2 bytes (2 bytes), es decir, 16 bits
 
 
 
 CONTROLES DE REPRODUCCIÓN :
 
-Para bobinas y entradas discretas :  
+Para entradas de bobinas  :  
   - Agrega un nuevo comando Modbus y nombra el comando. Elija un comando de tipo de información, en tipo binario o numérico.
-  - Elija el código de función correspondiente : FC01 o FC02
-  - Entonces es necesario elegir el registro inicial así como el número de bytes a leer (el número de registros)
-  Cuando guarde, el comando creado se eliminará, para crear tantos comandos como el número de bytes especificado.
-  Ex: Si elige un registro de inicio de 1 y un número de bytes de 4, los comandos se crearán : LeerBobina_1, LeerBobina_2, LeerBobina_3, LeerBobina_4
-  - Por supuesto, puede cambiar el nombre de ReadCoils/Discretes a su gusto.
+  - Elija el código de función correspondiente : FC01
+  - Entonces es necesario elegir el registro de inicio, así como el número de registros para leer
+  Al guardar se borrará el comando creado, para crear tantos comandos como registros especificados.
+  Ex: Si elige un registro de inicio de 1 y un número de registros de 4, los comandos se crearán : LeerBobina_1, LeerBobina_2, LeerBobina_3, LeerBobina_4
+  - Por supuesto, puede cambiar el nombre de las ReadCoils a su gusto.
 
+Para lectura discreta Fc2 :
+
+- Crear un pedido de tipo Info, bajo otro tipo
+- Elige fc02
+- Elija el formato Bits, Big Endian, Big Word
+- Completa el registro
+- Y rellena el campo : Número de bits a leer (0 a 15)
+
+Cuando regrese de leer, tendrá un comando de tipo cadena con el valor de los bits solicitados
 
 
   Para registros de existencias y registros de entradas:
   - Agrega un nuevo comando Modbus y nombra el comando. Elige un comando de tipo de información, en Tipo numérico.
   - Elige el formato correspondiente : Flotante, Largo/Entero o Bits
   - Elija el código de función correspondiente : FC04 o FC03
-  - El registro inicial así como el número de bytes : para flotantes, el número máximo de registros codificados es de 4 registros.
-  
-  
+  - El registro inicial así como el número de registros : para flotantes, el valor se codifica en un máximo de 4 registros, el mínimo es 2.
+
+
+
 Algunos registros solo se pueden leer leyendo varios registros al mismo tiempo en el mismo comando :
 
-ejemplo : Creamos un comando, elegimos Info y otro subtipo, especificando 10 bytes (10 registros); al verificar LectureMultiRegistres, esto creará automáticamente 10 nuevos pedidos, utilizando el nombre del pedido original, más la identificación del pedido en iteración. Por supuesto, puede cambiar el nombre de los comandos; al leer el comando original, su valor contendrá una cadena de caracteres de los 10 valores de registro y actualizará los 10 comandos correspondientes.
-
-
-
-Algunos registros pueden requerir ser divididos en varios bytes :
-ejemplo : un registro 17, según la documentación del dispositivo, debe devolver un valor FF o 00 (para saber si un ventilador funciona o no) en el primer byte del registro, así como un valor numérico en el segundo byte del registro.
-Entonces es necesario crear un comando en fc3, y especificar en el campo nbOctets el número 2; esto creará 2 comandos adicionales, basados en el nombre del comando inicial; estos 2 comandos corresponden cada uno a un byte. Los valores devueltos arriba estarán en hexadecimal; si necesita el valor numérico, debe verificar Hexa2dec en este mismo comando.
-
+ejemplo : Creamos un comando, elegimos Info y otro subtipo, especificando 10 registros;
+Ver Parámetros Específicos al final de la documentación
 
 
 ESCRIBIR COMANDOS:
@@ -137,15 +144,27 @@ IMPORTANTE :
  Su principio de funcionamiento:
 
 
-
 ![cmdEcritures](../images/modbusCmdsEcritures.png)
 
 
-NUEVA ESCRITURA :
 
- - Al crear un comando Acción -> Otro subtipo, luego al elegir Fc16, y al completar el Registro de inicio y la nueva línea de la Tabla de registros en los Parámetros del comando, podemos ejecutar este comando para escribir desde el registro de inicio los valores ingresados :
 
- Ex : Inicio Registro : 10
+  CAMBIO DE BITS DE REGISTRO :
+
+  Para cambiar el bit de un registro, debe utilizar el comando mensaje WriteBit; en la configuración del comando, en el campo Registro de inicio, debe elegir el número del registro a escribir. No se necesita otra configuración
+  Luego, en el cuerpo del mensaje del comando en el tablero, debe usar la siguiente sintaxis : valor de bit y bit de índice
+  Posible valor de bit 0 o 1
+  indexBit es el valor entre 0 y 15 (valores incluidos)
+  Consulte la documentación de su equipo para ver el índice de la broca a cambiar
+
+
+
+
+   NUEVA ESCRITURA EN VARIOS REGISTROS A UNA SOLICITUD:
+
+      - Al crear un comando Acción -> Otro subtipo, luego elegir Fc16 y completar el Registro de inicio y la nueva línea de la Tabla de registros en los Parámetros del comando, podemos ejecutar este comando para escribir desde el registro de inicio los valores ingresados :
+
+      Ex : Inicio Registro : 10
       Registro de tabla de líneas : 10-45-22-25.6-2360
       Enviaremos en los registros 10,11,12,13 y 14, los valores 10,45,22,22.6 y 2360
       Los valores deben estar separados por un -, y para números decimales, poner un .
@@ -162,24 +181,24 @@ NUEVA ESCRITURA :
 
 
   - Escritura multibobina : en la configuración del comando, debe ingresar el registro de inicio
-  Por defecto, el código de función es fc15. Por favor, deje esta configuración por defecto.
+      Por defecto, el código de función es fc15. Por favor, deje esta configuración por defecto.
 
-  Para cambiar los valores en los registros, use esta sintaxis:
-  -  Ex : 01110111 Entonces esto enviará desde el registro de inicio configurado los valores True(1) o False(0) a los registros
+      Para cambiar los valores en los registros, use esta sintaxis:
+      Ex : 01110111 Entonces esto enviará desde el registro de inicio configurado los valores True(1) o False(0) a los registros
 
 
 
   - Bit de escritura : en la configuración del comando se debe ingresar el registro de inicio, así como el orden de los bytes y palabra.
-  Por defecto, el código de función es fc03, porque este comando le dará el valor del registro establecido en binario al comando info "infobitbinary".
+     Por defecto, el código de función es fc03, porque este comando le dará el valor del registro establecido en binario al comando info "infobitbinary".
 
-  Por favor, deje esta configuración por defecto.
+     Por favor, deje esta configuración por defecto.
 
-  En el comando info "infobitbinary", tendrá el valor binario del registro de parámetros en el comando Write Bit.
-  Para cambiar el bit en el registro
+     En el comando info "infobitbinary", tendrá el valor binario del registro de parámetros en el comando Write Bit.
+     Para cambiar el bit en el registro :
 
-  - valuetoend&PositionBit :   Ex:  1&4 Enviamos el valor 1 al bit de la posición 4 empezando por la derecha
-  En el comando de información "infobitbinary", verá el valor 10000101, que corresponde al valor binario del registro de parámetros.
-  Al escribir 1 y 6, ahora tendrá el valor : 10100101 en el registro configurado.
+        valuetoend&PositionBit :   Ex:  1&4 Enviamos el valor 1 al bit de la posición 4 empezando por la derecha
+        En el comando de información "infobitbinary", verá el valor 10000101, que corresponde al valor binario del registro de parámetros.
+        Al escribir 1 y 6, ahora tendrá el valor : 10100101 en el registro configurado.
 
 
 
@@ -187,14 +206,7 @@ IMPORTANTE :
 
 
 Algunos PLC no tienen la función fc06
-Puede crear un comando de acción, en Tipo de mensaje, y elegir fc16
-Compruebe el registro Fc16 no rastreado
-En el tablero, debe usar esta sintaxis :
-registro de salida ! value & nbregisters separados por un |
-
-Ex: 7!122.5 y 2|10!22 y 2
-
-Escribiremos del registro 7, el valor 122.5 en 2 registros y también del registro 10, el valor 22, en 2 registros
+  Ver Parámetros Específicos al final de la documentación
 
 
 
@@ -230,5 +242,54 @@ Para escribir en un registro de retención :
 
 
 
-Cuando se realiza una escritura, ya sea que tenga éxito o no, aparece un mensaje en Jeedom. 
+Cuando se realiza una escritura, ya sea que tenga éxito o no, aparece un mensaje en Jeedom.
 Puede deshabilitar/habilitar este mensaje desde la configuración del complemento.
+
+
+
+
+
+# Parámetros específicos
+
+RETORNO HEXAGONAL :
+  Para tener un comando que devuelva el valor del registro en HexaDecimal (para un comando que reporte los errores de un equipo por ejemplo), creas tu comando, configuralo como siempre,
+  y marque Retorno hexadecimal.
+
+  Esto creará un nuevo comando al regresar que tendrá el nombre del comando original, seguido de _HEXAVALUE
+
+
+
+LECTURA MULTIREGISTRO :
+  al verificar LectureMultiRegistres, esto creará automáticamente tantos comandos nuevos como el número especificado en Número de registros, usando el nombre del comando original, más la identificación del comando en iteración. Por supuesto, puede cambiar el nombre de los comandos; al leer el comando original, su valor contendrá una cadena de caracteres de los 10 valores de registro y actualizará los 10 comandos correspondientes.
+
+
+
+Fc16 REGISTROS SIN SEGUIMIENTO :
+  Algunos PLC no tienen la función fc06
+  Puede crear un comando de acción, en Tipo de mensaje, y elegir fc16
+  Compruebe el registro Fc16 no rastreado
+  En el tablero, debe usar esta sintaxis :
+  registro de salida ! value & nbregisters separados por un |
+
+  Ex: 7!122.5 y 2|10!22 y 2
+
+  Escribiremos del registro 7, el valor 122.5 en 2 registros y también del registro 10, el valor 22, en 2 registros
+
+
+
+OPERACIÓN A LA ORDEN :
+  Para una operación de devolución de valor : en el campo Operación del pedido, puede completar una operación matemática colocando la etiqueta #value# para indicar el valor de este comando :
+  ejemplo : (#value# / 10 ) * 2
+  El cálculo se realizará en la devolución de datos de este comando.
+  Haz buen uso de * para multiplicaciones
+
+
+
+
+
+
+# Comandos XLS de importación/exportaciónX
+
+Después de la creación de un equipo, puede importar un archivo xlsx para la creación de sus pedidos
+El archivo de plantilla se puede encontrar en plugins/modbus/data/templateXlsx/exportModbus.xls
+Puede acceder a él y descargarlo a través de su Jeedom -> Configuración-> Sistema-> Editor de archivos

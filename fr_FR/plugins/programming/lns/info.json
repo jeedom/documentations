@@ -1,0 +1,45 @@
+{
+    "id": "lns",
+    "name": "LNS",
+    "specialAttributes": [],
+    "description": {
+        "fr_FR": "Plugin servant à installer Chirpstack V3 sur Jeedom Luna Lora"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2.0",
+    "category": "programming",
+    "hasDependency": true,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 45,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/lns\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/lns\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/lns\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/lns\/beta",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas"
+    ]
+}

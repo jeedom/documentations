@@ -1,12 +1,12 @@
 # Plug-in de energia
 
-Plugin que permite visualizar um gráfico global das energias da casa (água, gás, eletricidade, produção de eletricidade).
+Plugin que permite exibir um gráfico global da energia doméstica (água, gás, eletricidade, produção elétrica).
 
-Apresenta também um painel de controlo que mostra o desempenho de um sistema de painel solar, os consumos (água, gás e eletricidade) bem como os detalhes do consumo de eletricidade de determinados equipamentos (necessita, claro, de ter um módulo para o medir)
+Também exibe um painel que mostra o desempenho de um sistema de painéis solares, consumos (água, gás e eletricidade), bem como detalhes do consumo de eletricidade de determinados equipamentos (claro que requer um módulo para medi-lo)
 
 Para quem tem energia solar, também pode mostrar a previsão de produção de acordo com as características da sua instalação (a preencher)
 
-Observe que o plug-in não calcula e não calculará nenhum custo (não é e não será seu objetivo)
+Observe que o plugin não faz e não fará nenhum cálculo de custos (este não é e não será seu propósito)
 
 Para funcionar, requer que você tenha módulos que carreguem essas informações :
 
@@ -34,7 +34,7 @@ Se você tiver painéis solares, precisará de mais :
 
 >**IMPORTANTE**
 >
->Dependendo dos seus comandos, pode ser necessário adaptar a unidade na página de configuração de comandos para o equipamento de energia que você criou
+>Dependendo dos seus pedidos, poderá ser necessário adaptar a unidade na página de configuração do pedido do equipamento de energia que você criou
 
 ## Detalhes
 
@@ -42,4 +42,4 @@ Para eletricidade é possível indicar os consumidores na aba de detalhes, pode 
 
 # Panel
 
-Para visualizar os históricos, previsão de produção e outros, lembre-se na página de configuração do plugin (plugin -> plugin management) para ativar o painel (no desktop e/ou mobile) e então atualizar a página (f5). Então em casa você encontrará o painel do plugin.
+Para visualizar os históricos, previsões de produção e outras coisas, você deve pensar bem na página de configuração do plugin (Plugins -> gerenciamento de plugins) para ativar o painel (no desktop e/ou mobile) e depois atualizar a página (F5). Então em casa você encontrará o painel de plugins.

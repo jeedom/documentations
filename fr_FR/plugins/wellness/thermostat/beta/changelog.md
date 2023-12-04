@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Amélioration lors des changement de mode (climatisation, chauffage ou les deux)
+- Suppression du code obselete d'imperihome
+
+# 20/04/2023
+
 - Amélioration de la gestion des ouvrants
 
 # 03/10/2022

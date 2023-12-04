@@ -1,0 +1,34 @@
+{
+	"id" : "elevenlabs",
+	"name" : "Elevenlabs TTS",
+
+	"description" : {
+		"fr_FR": "Permet d'utiliser le TTS de elevenlabs",
+		"en_US": "Allows you to use elevenlabs TTS"
+	},
+	"licence" : "AGPL",
+	"author" : "Jeedom SAS",
+	"require" : "4.2.0",
+	"category" : "communication",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"hasTtsEngine": true,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://github.com/kenin/jeedom-tts-elevenlabs/blob/main/docs/fr_FR/changelog.md",
+	"documentation" : "https://github.com/kenin/jeedom-tts-elevenlabs/blob/main/docs/fr_FR/index.md",
+	"changelog_beta" : "https://github.com/kenin/jeedom-tts-elevenlabs/blob/beta/docs/fr_FR/changelog.md",
+	"documentation_beta" : "https://github.com/kenin/jeedom-tts-elevenlabs/blob/beta/docs/fr_FR/index.md",
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"v4",
+		"atlas"
+	]
+}

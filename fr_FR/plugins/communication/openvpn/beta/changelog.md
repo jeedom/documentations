@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 06/11/2023
+
+- Correction de bug et optimisation
+- Possibilité d'utiliser un certificat, un mot de passe ou les deux
+
 # 13/01/2023
 
 - Reduction de la charge pour l'infrastructure DNS

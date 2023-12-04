@@ -4,6 +4,17 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Added Ikea Symfonisk Floor Lamp
+
+# 05/25/2023
+
+- Added Sonos Era
+
+# 10/18/2022
+
+- Update command list for Jeedom v4.3
+- Added Sonos Ray
+
 # 03/22/2022
 
 - Support for the new SYMFONISK loudspeaker
@@ -97,17 +108,17 @@
 - Global optimizations
 
 **Important**
+
 - Compatible PHP7 only
 - Some features had to be removed
 
-
 # 2018
 
-- 	Added management of sonos favorites
--   Support for Sonos One and Playbase
--   Tongue correction with picotts
--   Adding a "line entry" command"
--   Update of sound communication library
--   Optimized loading of playlists
--   Addition of picotts for local TTS generation
--   Correction of the play / pause button when updating the widget
+-  Added management of sonos favorites
+- Support for Sonos One and Playbase
+- Tongue correction with picotts
+- Adding a "line entry" command"
+- Update of sound communication library
+- Optimized loading of playlists
+- Addition of picotts for local TTS generation
+- Correction of the play / pause button when updating the widget

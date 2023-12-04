@@ -6,7 +6,7 @@
   },
   "licence": "AGPL",
   "author": "fobsoft",
-  "require": "3.3",
+  "require": "4.3",
   "category": "energy",
   "hasDependency" : 1,
   "hasOwnDeamon" : 0,

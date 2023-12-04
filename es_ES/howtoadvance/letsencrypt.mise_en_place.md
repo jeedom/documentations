@@ -1,3 +1,9 @@
+> **Importante**
+>
+> Este tutorial no está hecho por Jeedom SAS sino por un usuario de la comunidad, por lo que no podemos garantizar que funcione o que aún esté actualizado.
+
+
+
 # Instalación de Letsencrypt
 
 Estos son los comandos para iniciar la instalación de letsencrypt antes de la generación :

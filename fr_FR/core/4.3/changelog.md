@@ -1,5 +1,18 @@
 # Changelog Jeedom V4.3
 
+## 4.3.20
+
+- Amélioration de la detection des ports USB
+
+## 4.3.19
+
+- Correction installation et mise à jour de nodejs
+
+## 4.3.18
+
+- Passage en nodejs v18
+- Correction de bugs
+
 ## 4.3.17
 
 - Correction de bugs

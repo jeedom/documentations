@@ -5,7 +5,7 @@
 	"utilization": "Le plugin utilise les API officielles du group Husqvarna / Gardena pour piloter vos équipements, cela devrait donc être plus stable dans le temps que d'autres intégrations. Une clé API (gratuite) est nécesaire pour la configuration; tout est détaillé dans la page de configuration du plugin.",
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.0",
+	"require": "4.2",
 	"category": "nature",
 	"hasDependency": true,
 	"hasOwnDeamon": true,

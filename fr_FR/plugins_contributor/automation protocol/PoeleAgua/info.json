@@ -1,7 +1,7 @@
 {
 	"id" : "PoeleAgua",
-	"name" : "Poele Agua IOT",
-	"description" : "Plugin PoeleAgua pour la gestion des poêle à bois et granulé utilisant la plateforme aqua iot ex: Jolly Mec",
+	"name" : "Poêle Agua IOT Micronova navel 2.0",
+  	"description" : "Plugin PoeleAgua pour la gestion des poêles à bois et granulé utilisant la plateforme aqua iot  de micronova (navel 2.0) ex: Jolly Mec / Piazzetta / superior / MCZ et bien plus. Voir la documentation pour les modèles supportés",
 	"licence" : "AGPL",
 	"author" : "LEFILLIATRE",
 	"require" : "3.2",
@@ -14,5 +14,6 @@
 	"changelog_beta" : "https://lefilliatre.github.io/lefilliatre-documentation/PoeleAgua/#language#/changelog",
 	"documentation_beta" : "https://lefilliatre.github.io/lefilliatre-documentation/PoeleAgua/#language#/",
 	"language" : ["fr_FR"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","atlas"]
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","atlas"],
+  	"utilization" : "Renseigner les informations de connexion à la plateforme micronova de votre poêle. Ces infos sont récupérables dans la documentation du plugin : https://lefilliatre.github.io/lefilliatre-documentation/PoeleAgua/#language#/"
 }

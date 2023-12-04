@@ -2,7 +2,16 @@
     "id": "lorapayload",
     "name": "Lora Payload",
     "description": {
-        "fr_FR": "Plugin permetant le traduire les Payloads Lora, uniquement destiné au projet de l'équipe Jeedom"
+        "fr_FR": "Plugin permetant le traduire les Payloads Lora, uniquement destiné au projet de l'équipe Jeedom",
+        "en_US": "Plugin allowing the Lora Payloads to be translated, only intended for the Jeedom team project",
+        "es_ES": "Complemento que permite traducir Lora Payloads, solo destinado al proyecto del equipo Jeedom",
+        "de_DE": "Plugin, mit dem die Lora-Nutzdaten übersetzt werden können, nur für das Jeedom-Teamprojekt vorgesehen",
+        "ru_RU": "Plugin permetant le traduire les Payloads Lora, uniquement destiné au projet de l'équipe Jeedom",
+        "id_ID": "Plugin permetant le traduire les Payloads Lora, uniquement destiné au projet de l'équipe Jeedom",
+        "it_IT": "Plugin permetant le traduire les Payloads Lora, uniquement destiné au projet de l'équipe Jeedom",
+        "ja_JP": "Plugin permetant le traduire les Payloads Lora, uniquement destiné au projet de l'équipe Jeedom",
+        "pt_PT": "Plugin que permite a tradução de Lora Payloads, destinado apenas ao projeto da equipe Jeedom",
+        "tr": "Plugin permetant le traduire les Payloads Lora, uniquement destiné au projet de l'équipe Jeedom"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -16,7 +25,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
@@ -25,5 +39,7 @@
         "docker",
         "diy",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/lorapayload\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/lorapayload\/beta"
 }

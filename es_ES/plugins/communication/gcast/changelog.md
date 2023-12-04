@@ -4,12 +4,18 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 06/06/2023
+
 - Revisión importante del complemento 
 - Cambiar de Python a PHP (más rápido)
 
 >**Importante**
 >
 >Atención, ciertos comandos se eliminan y otros se agregan, luego de la actualización es ABSOLUTAMENTE necesario verificar sus escenarios y otros que usan comandos del complemento
+
+# 02/01/2022
+
+- Se corrigió un error en el TTS
 
 # 30/01/2022
 

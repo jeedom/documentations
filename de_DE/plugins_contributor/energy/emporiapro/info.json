@@ -1,0 +1,31 @@
+{
+	"id" : "emporiapro",
+	"name" : "Emporia Energy",
+	"description" : {
+		"fr_FR": "Monitoring de consommation d'énergie en temps réel (Vue Energy Monitor)"
+	},
+	"licence" : "AGPL",
+	"author" : "Jeedom SAS",
+	"require" : "4.0.63",
+	"category" : "energy",
+	"hasDependency" : true,
+	"hasOwnDeamon" : true,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://thanaus.github.io/jeedom_docs/plugins/emporiapro/fr_FR/changelog",
+	"documentation" : "https://thanaus.github.io/jeedom_docs/plugins/emporiapro/fr_FR/",
+	"changelog_beta" : "https://thanaus.github.io/jeedom_docs/plugins/emporiapro/fr_FR/changelog",
+	"documentation_beta" : "https://thanaus.github.io/jeedom_docs/plugins/emporiapro/fr_FR/",
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
+}

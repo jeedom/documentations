@@ -92,3 +92,9 @@ Normalmente, si todo está bien, debería ver el cambio de "Estación central" a
 >**IMPORTANTE**
 >
 > Cierta información solo se devuelve si el AIS está configurado
+
+# FAQ
+
+>**Configuración de MQTT**
+>
+>En la configuración del complemento tiene la posibilidad de pasar por la parte SIA en mqtt, voluntariamente no hay una explicación de cómo porque la implementación es relativamente compleja. La opción está ahí para satisfacer una necesidad del cliente solamente.

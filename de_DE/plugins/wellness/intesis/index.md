@@ -1,4 +1,6 @@
-# Intesis 
+# Intesis
+
+#Description
 
 Plugin zur Steuerung **les passerelles « Intesis Wifi (ASCII) AC Interfaces » (anciennement dénommées Intesisbox).**  basierend auf dem WMP-Protokoll.
 
@@ -8,9 +10,9 @@ Dieses Plugin unterstützt alle Modelle von Intesis Wifi (ASCII) AC-Schnittstell
 
 Intesis Wifi (ASCII) AC Interfaces Gateways sind [hier zum Verkauf angeboten.](https://www.domadoo.fr/fr/323_intesis-unites-ac-domestiques-daikin-vers-une-interface-wi-fi-rac)
 
-# Plugin Konfiguration 
+# Plugin Konfiguration
 
-Nach dem Herunterladen des Plugins müssen Sie es zunächst als aktivieren <br>ein beliebiges Jeedom-Plugin :
+Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es wie jedes Jeedom-Plugin zuerst aktivieren :
 
 ![conf](./images/intesisConf.png)
 
@@ -34,14 +36,14 @@ Rien n'est à modifier dans le champ « Port socket interne » de la section « 
 
 # So deklarieren Sie eine neue Intesis-Wifi-Schnittstelle in Jeedom
 
-Rendez-vous dans le menu « Plugins / Protocole domotique / Intesis » :
+Rendez-vous dans le menu « Plugins → Confort → Intesis » :
 
 ![menu](./images/intesisMenu.png)
 
 Sie gelangen auf die nächste Seite, die aus zwei Abschnitten besteht :
 
-- « Gestion », avec les options suivantes : « Ajouter » et « Configuration » (cette option vous renvoie à la page de configuration du plugin, décrite au point précédent).
-- « Meine Intesis » : Hier werden die von Jeedom verwalteten Intesis-WLAN-Gateways angezeigt.
+- **Management** mit den folgenden Optionen : « Ajouter » et « Configuration » (cette option vous renvoie à la page de configuration du plugin, décrite au point précédent).
+- **Meine Intesis** : Hier werden die von Jeedom verwalteten Intesis-WLAN-Gateways angezeigt.
 
 ![gestion](./images/intesisGest.png)
 
@@ -67,7 +69,7 @@ Ici vous pouvez masquer et rendre visibles les différentes commandes de type «
 
 ![cmd](./images/intesisCmd.png)
 
-Das Plugin bietet insgesamt 14 Befehle. 
+Das Plugin bietet insgesamt 14 Befehle.
 
 Bestellungen de type « action » (actionneurs) disponibles sont les suivantes :
 

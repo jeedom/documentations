@@ -25,10 +25,6 @@ Enquanto o plugin não tiver recuperado todos os dados do dia anterior, ele cont
 
 Como qualquer plugin Jeedom, o plugin **Enedis** deve ser ativado após a instalação.
 
-## Gerenciamento de dependências
-
-O plugin requer a presença do pacote Linux `php-mbstring` normalmente presente por padrão, então o status de dependência deve ser **Certo** assim que o plugin for instalado. Caso contrário, clique no botão **Reviver** para instalar o pacote que falta.
-
 ## Configuração do plugin
 
 Se ainda não o fez, comece por autorizar a partilha de dados Enedis com a Jeedom clicando no botão **Autorizar acesso aos servidores Enedis : Eu acesso minha área de cliente Enedis** da página de configuração do plugin :
@@ -67,6 +63,8 @@ Durante o 1º backup de um dispositivo ativo e configurado, o plugin irá criar 
 >
 >Os dados de consumo por hora são recuperados nos últimos 7 dias, no máximo.
 
+Se você não ativou **registro e coleta de consumo por hora** na sua conta Enedis, você deve marcar a caixa **Dados horários : Desativar** para que os pedidos correspondentes não sejam criados.
+
 # Adicionando dados
 
 É possível integrar histórias sob demanda, até 3 anos atrás, diretamente do site da Enedis. Para fazer isso, basta clicar no botão azul **Acréscimos históricos** da guia **Pedidos** de um item de equipamento, na coluna **Açao** da ordem em questão :
@@ -91,11 +89,13 @@ O plugin oferece a possibilidade de exibir dados de consumo e / ou produção em
 
 ![Template de widget](../images/enedis_screenshot1.png)
 
-Para ativar esta opção, basta marcar a caixa **Template de widget** na página geral do equipamento em questão. Uma vez que a caixa é marcada, uma opção permite que você selecione a cor de fundo do widget *(163, 204, 40 por padrão)*.
+Para ativar esta opção, basta marcar a caixa **Permitir** seção **Template de widget** na página geral do equipamento em questão. Depois que o modelo de widget estiver ativado, vá para a guia **Exibição** da configuração do equipamento para escolher a cor de fundo do widget *(`Modelo : background-color` - 163, 204, 40 por padrão)* e/ou cor do título *(`Modelo : titlebar-color` - transparente por padrão)* dependendo da versão de acesso Jeedom *(desktop ou celular)*.
+
+![Personnaliser le widget](../images/enedis_customizeWidget.png)
 
 >**DICA**
 >
->Na versão desktop, as informações exibidas no widget se adaptam em tamanho ao redimensionar o bloco.
+>A caixa "Padrão" permite que você mantenha as cores padrão do bloco.
 
 # FAQ
 

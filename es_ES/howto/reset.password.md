@@ -6,7 +6,7 @@ Lo primero que debe hacer es conectarse en SSH a Jeedom (con un software tipo ki
 
 >**Recordatorios**
 >
->De forma predeterminada, los identificadores de conexión SSH en jeedom (smart, mini y mini +) son :
+>De forma predeterminada, las credenciales de conexión SSH en Jeedom (Luna, Atlas, Smart, Mini y Mini+) son :
 >- Nombre de usuario : jeedom, contraseña Mjeedom96
 >- Nombre de usuario : root, contraseña Mjeedom96
 
@@ -24,7 +24,7 @@ php /var/www/html/core/php/jeecli.php user password [username] [password]
 
 Con : 
 - ``[username]`` : nombre de usuario
-- ``[password]`` : la nueva contraseña, tenga cuidado de no necesitar espacios y una longitud mínima de 8 caracteres
+- ``[password]`` : la nueva contraseña, ojo, no se necesitan espacios y una longitud mínima de 8 caracteres
 
 # > 3.3.50
 
@@ -32,7 +32,7 @@ Lo primero que debe hacer es conectarse en SSH a Jeedom (con un software tipo ki
 
 >**Recordatorios**
 >
->De forma predeterminada, las credenciales de inicio de sesión SSH en jeedom (Atlas, Smart, Mini y Mini +) son :
+>De forma predeterminada, las credenciales de conexión SSH en Jeedom (Luna, Atlas, Smart, Mini y Mini+) son :
 >- Nombre de usuario : jeedom, contraseña Mjeedom96
 >- Nombre de usuario : root, contraseña Mjeedom96
 
@@ -42,7 +42,7 @@ Entonces solo tienes que escribir :
 php /var/www/html/install/reset_password.php
 ````
 
-El sistema le pedirá el nombre de usuario para el que perdió la contraseña (tiene la lista de todos los usuarios por si acaso), una vez escrita (atención a la letra mayúscula / minúscula) presione la tecla Intro. Y tendrás tu nueva contraseña.
+El sistema te pedirá el nombre de usuario del que perdiste la contraseña (tienes la lista de todos los usuarios por si acaso), una vez escrito (ojo con mayúsculas/minúsculas) presiona la tecla enter. Y tendrás tu nueva contraseña.
 
 Ejemplo :
 
@@ -86,7 +86,7 @@ Listo. Puede desconectarse / volver a conectarse a su Jeedom con los identificad
 
 >**Importante**
 >
->Recuerde que una vez que se recupere su acceso para eliminar el usuario adminTmp, dejarlo podría ser una posible violación de seguridad de la cual usted es el único responsable.
+>No olvides una vez que hayas recuperado tu acceso eliminar el usuario adminTmp, dejarlo podría ser una potencial violación de seguridad de la cual serías el único responsable.
 
 >**Importante**
 >

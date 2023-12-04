@@ -6,8 +6,16 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
+# 06/05/2023
+
+- Adicionado UDM PRO SE
+- Adicionar UVC G5 Pro
+
+
+# 26/04/2023
 
 - Suporte Unifios 2.3.10
+- Adição do site (para UDM PRO SE)
 
 # 11/12/2021
 

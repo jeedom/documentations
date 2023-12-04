@@ -40,7 +40,7 @@ Sobald der Mosquitto-Broker installiert ist *(im Bedarfsfall)*, Sie können mit 
 
   >**WICHTIG**
   >
-  >Im lokalen Modus ist die Authentifizierung obligatorisch.
+  >Im lokalen Modus ist die Authentifizierung obligatorisch. Nach dem Zusatz ist es außerdem erforderlich, jeedom neu zu starten, damit es berücksichtigt wird.
 
 - **Jeedom-Wurzelthema** : Stammthema, um einen Befehl an Jeedom zu senden oder auf dem es die Ereignisse sendet. Achtung, es ist nur möglich, maximal 1 oder 2 Ebenen zu setzen.
 
@@ -103,3 +103,9 @@ Das Plugin kann verschiedene Arten von Modulen automatisch erkennen. Dazu müsse
 >**WICHTIG**
 >
 >Für Module vom Typ Tasmota ist es absolut notwendig, dass die vollständige Topic-Konfiguration `%topic%/%prefix%/` ist
+
+# FAQ
+
+>**Nach einem Update der Systempakete (apt) oder einem unbeaufsichtigten Upgrade funktioniert nichts mehr**
+>
+>Durch das Aktualisieren des Mosquito-Pakets wird die Servicedatei auf die Standardeinstellungen zurückgesetzt, sodass Mosquito nicht mehr auf die richtige Konfigurationsdatei verweist. Um dies zu beheben, ist es sehr einfach, die Installation von Mosquito auf der Plugin-Konfigurationsseite neu zu starten.

@@ -1,4 +1,6 @@
-# Intesis 
+# Intesis
+
+#Description
 
 Plugin para controlar **les passerelles « Intesis Wifi (ASCII) AC Interfaces » (anciennement dénommées Intesisbox).**  basado en el protocolo WMP.
 
@@ -8,9 +10,9 @@ Este complemento es compatible con todos los modelos de interfaces de CA Intesis
 
 Las puertas de enlace de las interfaces de CA Intesis Wifi (ASCII) son [disponible para la venta aquí.](https://www.domadoo.fr/fr/323_intesis-unites-ac-domestiques-daikin-vers-une-interface-wi-fi-rac)
 
-# Configuración del plugin 
+# Configuración del plugin
 
-Después de descargar el complemento, primero debe activarlo, ya que <br>cualquier complemento de Jeedom :
+Después de descargar el complemento, primero debe activarlo, como cualquier complemento de Jeedom :
 
 ![conf](./images/intesisConf.png)
 
@@ -34,14 +36,14 @@ Rien n'est à modifier dans le champ « Port socket interne » de la section « 
 
 # Cómo declarar una nueva interfaz wifi intesis en Jeedom
 
-Rendez-vous dans le menu « Plugins / Protocole domotique / Intesis » :
+Rendez-vous dans le menu « Plugins → Confort → Intesis » :
 
 ![menu](./images/intesisMenu.png)
 
 Llegas a la página siguiente, que consta de dos secciones :
 
-- « Gestion », avec les options suivantes : « Ajouter » et « Configuration » (cette option vous renvoie à la page de configuration du plugin, décrite au point précédent).
-- « Mi síntesis » : Aquí es donde se muestran las puertas de enlace wifi Intesis administradas por Jeedom.
+- **Gestión** con las siguientes opciones : « Ajouter » et « Configuration » (cette option vous renvoie à la page de configuration du plugin, décrite au point précédent).
+- **Mi síntesis** : Aquí es donde se muestran las puertas de enlace wifi Intesis administradas por Jeedom.
 
 ![gestion](./images/intesisGest.png)
 
@@ -67,7 +69,7 @@ Ici vous pouvez masquer et rendre visibles les différentes commandes de type «
 
 ![cmd](./images/intesisCmd.png)
 
-El complemento ofrece un total de 14 comandos. 
+El complemento ofrece un total de 14 comandos.
 
 Las órdenes de type « action » (actionneurs) disponibles sont les suivantes :
 

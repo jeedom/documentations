@@ -40,7 +40,7 @@ Une fois le broker Mosquitto installé *(si nécessaire)*, vous pouvez passer à
 
   >**IMPORTANT**
   >
-  >L'authentification est obligatoire en mode local.
+  >L'authentification est obligatoire en mode local. Il faut aussi suite a l'ajout redemarrer jeedom pour que ca soit pris en compte.
 
 - **Topic racine Jeedom** : Sujet racine pour envoyer une commande à Jeedom ou sur lequel il renvoit les évènements. Attention il n'est possible de mettre que 1 ou 2 niveaux maximum.
 
@@ -103,3 +103,9 @@ Le plugin peux faire de la decouverte auto de plusieurs type de module. Pour cel
 >**IMPORTANT**
 >
 >Pour les modules de type tasmota il faut absolument que la configuration du full topic soit `%topic%/%prefix%/`
+
+# FAQ
+
+>**Suite a une mise à jour des packages systeme (apt) ou a un unattended upgrades plus rien de marche**
+>
+>La mise à jour du package mosquitto remet par defaut le fichier de service et donc mosquitto ne pointe plus vers le bon fichier de configuration. Pour corriger cela c'est très simple il suffit de relancer l'installation de mosquitto depuis la page de configuration du plugin.

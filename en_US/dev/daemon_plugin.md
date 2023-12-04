@@ -588,8 +588,100 @@ Same example as for the declaration of the daemon, you must add the `hasDependen
 
 #### Creation of the plugin_info/packages.json file
 
-The syntax of this file will be described here. In the meantime, you will find information in this
-[blog post](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/).
+The syntax of this file is described here. See as well 
+[the launch article on the blog](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/).
+
+This file may contain any of the following sections:
+##### pre-install: the path to a script to run before installation
+Example :
+`` ``json
+{
+  "pre-install" : {
+    "script" : "plugins/openzwave/resources/post-install.sh"
+  }
+`` ``
+
+##### post-install:
+This can be the path to a script to run after installation, or the restart apache action. 
+Example :
+`` ``json
+{
+  "post-install" : {
+    "restart_apache" : true,
+    "script" : "plugins/openzwave/resources/post-install.sh"
+  }
+`` ``
+
+##### apt: Debian dependencies
+Exemple
+`` ``json
+{
+  "apt" : {
+    "libav-tools" : {"alternative" : ["ffmpeg"]},
+    "ffmpeg" : {"alternative" : ["libav-tools"]},
+    "python-pil" : {},
+    "php-gd" : {}
+  }
+}
+`` ``
+
+For each package, we can specify `version` to set a version, `alternative` if available,
+ `optional` if it is optional, `reinstall` to force the re-installation of the package, `remark` to add a free comment.
+##### pip3: Python3 dependencies (pip2 also supported)
+Exemple:
+`` ``json
+{
+  "apt" : {
+    "python3" : {},
+    "python3-pip" : {},
+    "python3-pyudev" : {},
+    "python3-requests" : {},
+    "python3-setuptools" : {},
+    "python3-dev" : {}
+  },
+  "pip3" : {
+    "wheel" : {},
+    "pyserial" : {},
+    "tornado" : {},
+    "zigpy" : {"reinstall" : true},
+    "zha-quirks" : {"reinstall" : true},
+    "zigpy-znp" : {"reinstall" : true},
+    "zigpy-xbee" : {"reinstall" : true},
+    "zigpy-deconz" : {"reinstall" : true},
+    "zigpy-zigate" : {"reinstall" : true},
+    "zigpy-cc" : {"reinstall" : true},
+    "bellows" : {"reinstall" : true}
+  }
+}
+`` ``
+
+##### npm: dependencies for NodeJS
+For NodeJS the dependencies are in another `packages' file.json` in its own format, 
+placed in the `/resources` directory for example, it is this file which will be indicated in that of Jeedom:
+`` ``json
+{
+  "apt" : {
+    "nodejs" : {}
+  },
+  "npm" : {
+    "plugins/dyson/resources/dysond"  : {}
+  }
+}
+`` ``
+
+##### composer: to install another PHP dependency
+no example at hand; the syntax is similar to other packages, with the `compose` keyword.
+
+##### Dependencies on another plugin:
+If a plugin requires the installation of another plugin, this is also possible with the following syntax; 
+the plugin must be free, or already purchased :
+`` ``json
+{
+    "plugin":{
+        "mqtt2": {}
+    }
+}
+`` ``
 
 ### The procedural method
 There are 3 prerequisites that we will detail right away.
@@ -610,7 +702,9 @@ Same example as for the declaration of the daemon, you must add the `hasDependen
 }
 `` ``
 
-The `maxDependancyInstallTime` property is the delay in minutes after which the core will consider that the installation was unsuccessful. In this case, the auto mode of the daemon will be disabled and a message will be posted in the notification center. If this property is not defined, the default time will be 30min.
+The `maxDependancyInstallTime` property is the delay in minutes after which the core will consider that the installation was unsuccessful.
+ In this case, the auto mode of the daemon will be disabled and a message will be posted in the notification center.
+ If this property is not defined, the default time will be 30min.
 
 > **TIP**
 >

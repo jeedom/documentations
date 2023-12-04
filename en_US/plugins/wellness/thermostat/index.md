@@ -105,7 +105,7 @@ Everything relating to the controls of the radiator or air conditioner is descri
 
 ![Actions sur les appareils](./images/actionssurappareil.png)
 
-Actions are those that allow heating, cooling (air conditioning), stopping the command. An additional action can be envisaged at each setpoint change, whether in manual or automatic mode.
+Actions are those that allow heating, cooling (air conditioning), stopping the command. An additional action can be envisaged at each setpoint change, whether in manual or automatic mode. You may want to use #slider# in the action's options to pass the current setpoint to the action.
 
 ## The trends : the starting point for automation
 

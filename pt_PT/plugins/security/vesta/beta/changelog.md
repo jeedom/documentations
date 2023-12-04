@@ -6,6 +6,15 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+
+# 16/11/2023
+
+- Corrigir eventos : PartialArm R456 e adicionar eventos de teclado E407-R407
+
+# 11/11/2023
+
+- Corrigir evento FullArm R401
+
 # 19/01/2022
 
 - Otimizações da V4.2

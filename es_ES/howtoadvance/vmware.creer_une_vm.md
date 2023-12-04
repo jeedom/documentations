@@ -2,14 +2,14 @@
 
 Veremos aquí cómo crear una VM en VMware.
 
-Antes de que haya algo importante que saber sobre VMware, hay 2 formas de administrarlo :
+Hay una pequeña cosa importante que debes saber sobre VMware, hay 2 formas de administrarlo :
 
 -   la interfaz web (presente por defecto en 6.0 actualización 2, o mediante un vib para las otras versiones), se accede por IP\_ESXI / ui
 -   El cliente pesado e histórico de VMware (cliente vSphere)
 
-Aquí utilizaré principalmente la interfaz web porque creo que es el futuro de VMware el que abandona cada vez más al cliente grueso (además de todas las nuevas características desde el 5.1 no se puede usar con el cliente grueso).
+Aquí usaré principalmente la interfaz web porque creo que es el futuro de VMware el que está abandonando cada vez más el cliente pesado (de hecho, todas las características nuevas desde 5.1 no se puede usar con el cliente grueso).
 
-También tenga en cuenta que la interfaz web todavía se está implementando en VMware, de hecho, seguramente encontrará algunos errores o ralentizaciones con solo una pequeña actualización de la página y comienza de nuevo sin preocupaciones.
+También tenga en cuenta que la interfaz web todavía se está implementando en VMware; de hecho, seguramente encontrará algunos errores o ralentizaciones, pero una pequeña actualización de la página comenzará de nuevo sin problemas.
 
 # Conexión a la interfaz web
 
@@ -28,14 +28,14 @@ Ingrese sus credenciales de inicio de sesión en ESXI :
 Como puede ver, la interfaz es bastante agradable y le permite hacer muchas cosas, no entraré en detalles, pero ya puede hacerlo desde esta pantalla :
 
 -   detener / reiniciar el ESXi
--   ver uso de recursos (CPU, memoria y disco)
+-   ver el uso de recursos (CPU, memoria y disco))
 -   tener información sobre su sistema (tiempo de funcionamiento, versión de VMware, versión de la BIOS, visualización de almacenes de datos)
 -   botón para crear una VM (la usaremos justo después)
 -   un botón de acción que le permite cambiar al modo de mantenimiento (útil si tiene un clúster ESXi; de lo contrario, nunca lo usará), active / desactive el servicio SSH (se usa en el tutorial de configuración de respaldo)
 
 # Envío de instalación ISO
 
-Después de descargar su instalación ISO ([aquí](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) por ejemplo para debian 8.5 en netinstall), debe ponerlo en su almacén de datos.
+Después de descargar su instalación ISO ([aquí](https://cdimage.debian.org/cdimage/archive/11.8.0/amd64/iso-cd/debian-11.8.0-amd64-netinst.iso) por ejemplo para debian 11.8 en netinstall), debes colocarlo en tu almacén de datos.
 
 Para ese clic en el almacén de datos :
 
@@ -83,13 +83,13 @@ Indique el almacén de datos de destino :
 
 ![vmware.createvm8](images/vmware.createvm8.PNG)
 
-Aquí podrá configurar los parámetros de su máquina (disco duro, CPU, memoria) :
+Aquí podrás configurar los parámetros de tu máquina (disco duro, CPU, memoria, etc.)) :
 
 ![vmware.createvm9](images/vmware.createvm9.PNG)
 
 > **Nota**
 >
-> Todos estos parámetros se pueden modificar después sin preocupaciones, tenga en cuenta que no es realmente posible reducir el tamaño de un disco duro, podemos aumentarlo (pero debe saber cómo administrar esto a nivel de 'OS entonces) pero no lo reduce.
+> Todos estos parámetros se pueden modificar posteriormente sin problemas, pero tenga en cuenta que realmente no es posible reducir el tamaño de un disco duro, se puede aumentar (pero hay que saber gestionar esto a nivel del disco duro). . 'OS next) pero no reducirlo.
 
 En la unidad de CD / DVD, seleccione "Base de datos de archivos ISO" :
 

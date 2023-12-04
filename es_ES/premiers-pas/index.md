@@ -6,7 +6,7 @@ Bienvenido a la documentación de este primer paso, le ayudará a poner su Jeedo
 
 Lo primero que debe hacer es crear una cuenta en el Mercado para poder registrar su Jeedom en él. Haga clic en [aquí](https://market.jeedom.com/).
 
-Haga clic en el botón "Registrarse" en la esquina superior izquierda:
+Haga clic en el botón "Registrarse" en la esquina superior izquierda :
 
 ![S'enregistrer sur le Mercado](images/FirstStep_market1.jpg)
 
@@ -33,7 +33,7 @@ Luego ve a tu página de perfil:
 
 ![Profil Mercado](images/FirstStep_market_sp1.jpg)
 
-Luego haga clic en la pestaña "Mis servicios" e ingrese su número de paquete de servicio y valide.
+Luego haga clic en la pestaña “Mis servicios” e ingrese su número de Service Pack y valide.
 
 > **Punta**
 >
@@ -47,7 +47,7 @@ Una vez que Jeedom esté conectado eléctricamente y conectado a su red local, a
 
 #### A través del mercado
 
-La solución más simple (pero no funciona en el 100% de los casos dependiendo de la configuración de su acceso a Internet), debe iniciar el cuadro, esperar unos 10 minutos (tenga cuidado si usa una imagen de tipo de instalación neta, será más de 30 minutos) e ir [aquí](https://www.jeedom.com/market/index.php?v=d&p=find)
+Solution la plus simple (mais ne marche pas dans 100% des cas en fonction de la configuration de votre accès internet), il faut démarrer la box, attendre environ 10 minutes (attention si vous utilisez une image type netinstallation, ça sera plutôt 30 minutes ) e ir [aquí](https://www.jeedom.com/market/index.php?v=d&p=find)
 
 > **Punta**
 >
@@ -73,12 +73,12 @@ Cualquiera que sea el método utilizado, llegarás a la página de inicio de ses
 
 Veremos aquí cómo vincular su Jeedom a su cuenta de Market.
 
--   Una vez conectado a su libertad, debe ir a **Preferencias → Sistema → Configuración**
--   Click en la pestaña **Actualizaciones / Mercado**
--   A continuación, haga clic en la pestaña **Mercado**
--   Marca la casilla **Activar**
--   Remplissez l'adresse : `https://market.jeedom.com`
--   También complete los campos **Nombre de usuario** y **Contraseña** basado en sus identificadores (identificadores de mercado y no Jeedom)
+-   Una vez conectado a su libertad, debe ir a **Preferencias → Sistema → Configuración**.
+-   Click en la pestaña **Actualizaciones / Mercado**.
+-   A continuación, haga clic en la pestaña **Mercado**.
+-   Marca la casilla **Activar**.
+-   Remplissez l'adresse : `https://market.jeedom.com`.
+-   También complete los campos **Nombre de usuario** y **Contraseña** basado en sus identificadores (identificadores de mercado y no Jeedom).
 -   Puede probar para verificar que la conexión se realizó correctamente.
 -   No olvides guardar !
 
@@ -94,7 +94,7 @@ Luego ve a la parte de "Redes""
 
 ![Réseaux](images/FirstStep_dns.jpg)
 
-Una vez aquí, solo actívala **Usando Jeedom DNS** luego en la línea **Gestión** de hacer **Reiniciar** y su URL aparecerá en el nivel de estado HTTP, por supuesto, puede personalizarla desde la página de perfil de Market
+Una vez aquí, solo actívala **Usando Jeedom DNS** luego en la línea **Gestión** de hacer **Reiniciar** y su URL aparecerá en el nivel de estado HTTP, por supuesto, puede personalizarla desde la página de perfil de Market.
 
 > **Importante**
 >
@@ -122,8 +122,8 @@ En Jeedom, puede ser cualquier cosa, pero se recomienda hacerlo de acuerdo a sus
 
 Nada podría ser más simple para crear un objeto :
 
--   Vaya a Herramientas → Objetos
--   Haga clic en el botón Agregar
+-   Vaya a Herramientas → Objetos.
+-   Haga clic en el botón Agregar.
 -   Jeedom te preguntará el nombre. Validar. Este es tu primer objeto creado :
 
 ![Objet](images/FirstStep_object.jpg)
@@ -199,8 +199,8 @@ Los diferentes paquetes de servicio son :
 - Power : 10 entradas / mes
 - Pro : 100 entradas / mes
 
-Puede encontrar el detalle de los paquetes de servicio [aquí](https://www.jeedom.com/site/fr/soft.html#obtenir)
+Puede encontrar el detalle de los paquetes de servicio [aquí](https://www.jeedom.com/site/fr/soft.html#obtenir).
 
 >**Importante**
 >
->Atención, vemos a muchos usuarios con buzones de correo "mailinblack", que durante el 1er intercambio le piden al remitente que valide un enlace para demostrar que efectivamente es un humano. Este sistema no es compatible con nuestro sistema de ticketing, por lo que aunque te respondamos, nunca recibirás la respuesta en tu buzón porque nos bloquea. Así que gracias en su página de perfiles de mercado por poner una dirección de correo electrónico que no usa este sistema, de lo contrario nunca recibirá nuestra respuesta.
+>Ojo, vemos muchos usuarios con buzones "mailinblack", que durante el primer intercambio piden al remitente que valide un enlace para demostrar que efectivamente se trata de un humano. Este sistema no es compatible con nuestro sistema de ticketing, por lo que aunque te contestemos nunca recibirás la respuesta en tu buzón porque nos bloquea. Por lo tanto, ingrese una dirección de correo electrónico en su página de perfil de mercado que no utilice este sistema; de lo contrario, nunca recibirá nuestra respuesta.

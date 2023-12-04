@@ -3,7 +3,7 @@
 
 ### Definition
 
-A Beta Tester is a user who tests versions of software before they are released to all users. Beta testing makes it possible to report errors (functional bug or user interface concerns for example) during the development phase. It is therefore an important source of improvement for the project, which can bring fresh ideas and test the novelties in real conditions. 
+A Beta Tester is a user who tests versions of the software before they are released to all users. Beta testing makes it possible to report errors (functional bug or user interface concerns for example) during the development phase. It is therefore an important source of improvement for the project, which can bring fresh ideas and test the novelties in real conditions. 
 
 ### Precautions
 
@@ -44,7 +44,7 @@ These lifts are made on **[Community](https://community.jeedom.com/)** in the se
 
 It is also on this section that a tester can create a subject to propose an improvement.
 
-> Each topic on this section must be identified with the tag of the version under development. For example : tag v4_4 (an underscore is used because dots are forbidden in tags on Discourse.
+> Each topic on this section must be identified with the tag of the version under development. For example : tag v4_4 (an underscore is used because periods are prohibited in tags on Discourse.
 
 This section is not publicly accessible. To access it, you must fill out a form so that the Jeedom team can give [access to your account](https://blog.jeedom.com/jeedom-partenaire-beta-testeur/).
 
@@ -56,7 +56,7 @@ In version **Stable**, each change causes a change of version (minor, for exampl
 
 In version **Beta** and **Alpha**, changes are much more frequent (several times a day) and do not cause a version change. They will therefore not appear in the *Update Center*, it is up to the tester to regularly update the Core, preferably before any test phase and before reporting a problem in order to ensure that it has not already been corrected earlier.
 
-> The team sometimes changes version during development, to mark certain phases. But unlike the Stable version, a lot of changes are made between two versions. Each tester can follow commits on branches [Github](https://github.com/jeedom/core).
+> The team sometimes changes version during development, to mark certain phases. But unlike the Stable version, many changes are made between two versions. Each tester can follow commits on branches [Github](https://github.com/jeedom/core).
 
 ### Changelog
 

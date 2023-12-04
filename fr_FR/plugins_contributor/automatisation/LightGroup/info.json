@@ -1,0 +1,31 @@
+{
+    "id": "LightGroup",
+    "name": "Light group",
+    "description": {
+        "fr_FR": "Light group vous permet de gérer l'ensemble de vos lumières. Le plugin vous propose de grouper vos lumières, homogénéiser les différentes valeurs et propose des automatismes pré concus."
+    },
+    "licence": "AGPL",
+    "author": "hbedek",
+    "require": "3.3.39",
+    "category": "automatisation",
+    "display": "panel",
+    "hasDependency": false,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https://hbedek.github.io/Jeedom_docs/docs/LightGroup/#language#/changelog",
+    "documentation": "https://hbedek.github.io/Jeedom_docs/docs/LightGroup/#language#/",
+    "changelog_beta": "https://hbedek.github.io/Jeedom_docs/docs/LightGroup/#language#/changelog",
+    "documentation_beta": "https://hbedek.github.io/Jeedom_docs/docs/LightGroup/#language#/",
+    "language": [
+        "fr_FR"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
+}

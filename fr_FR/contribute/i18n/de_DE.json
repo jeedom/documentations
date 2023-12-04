@@ -1035,11 +1035,11 @@
     },
     "contribute\/index.md": {
         "Contribuer au développement de Jeedom": "Tragen Sie zur Entwicklung von Jeedom bei",
-        "Les contributions, quelles soient sur le Core ou sur le Documentation, sont toujours bienvenues, et nous faisons le maximum pour les traiter rapidement": "Beiträge, ob im Kern oder in der Dokumentation, sind immer willkommen und wir bemühen uns, sie schnell zu verarbeiten",
+        "Les contributions, qu'elles soient sur le Core ou sur la Documentation, sont toujours bienvenues et nous faisons le maximum pour les traiter rapidement": "Beiträge, ob zum Kern oder zur Dokumentation, sind immer willkommen und wir tun unser Bestes, sie schnell zu bearbeiten",
         "Une faute sur la documentation, un passage qui pourrait être plus clair, un bug sur le Core": "Ein Fehler in der Dokumentation, eine Passage, die klarer sein könnte, ein Fehler im Core",
         "Les contributions sont là pour çà": "Die Beiträge sind dafür da",
         "Les Pull Request ne sont pas toujours acceptés, mais dans le cas contraire nous essayons d'expliquer pourquoi, afin qu'un prochain PR le soit": "Pull-Anfragen werden nicht immer akzeptiert, aber wenn nicht, versuchen wir zu erklären, warum, so dass eine nächste PR ist",
-        "Jeedom n'est pas sensé tout faire pour tout le monde, certaines choses sont plus propice aux plugins par exemple": "Jeedom soll nicht alles für alle tun, manche Dinge sind zum Beispiel für Plugins förderlicher",
+        "Jeedom n'est pas sensé tout faire pour tout le monde, certaines choses sont plus propices aux plugins par exemple": "Jeedom soll nicht alles für jeden tun, manche Dinge sind beispielsweise für Plugins förderlicher",
         "Les effets de bords de modifications à l'apparence simple peuvent aussi être importants": "Die Randeffekte einfach aussehender Modifikationen können ebenfalls wichtig sein",
         "C'est pourquoi nous pouvons décider de ne pas intégrer certaines demandes, ou de le faire différemment": "Aus diesem Grund können wir entscheiden, bestimmte Anforderungen nicht oder anders zu integrieren",
         "Avant de développer du code de votre coté, nous conseillons d'en discuter sur": "Bevor Sie selbst Code entwickeln, empfehlen wir, ihn auf . zu besprechen",

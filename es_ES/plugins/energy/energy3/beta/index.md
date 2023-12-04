@@ -1,12 +1,12 @@
 # Complemento de energía
 
-Complemento que permite mostrar un gráfico global de las energías de la casa (agua, gas, electricidad, producción de electricidad)).
+Complemento que le permite mostrar un gráfico global de la energía del hogar (agua, gas, electricidad, producción eléctrica)).
 
-También muestra un tablero que muestra el rendimiento de un sistema de paneles solares, el consumo (agua, gas y electricidad), así como los detalles del consumo de electricidad de ciertos equipos (necesita, por supuesto, tener un módulo para medirlo))
+También muestra un tablero que muestra el rendimiento de un sistema de paneles solares, el consumo (agua, gas y electricidad) así como el detalle del consumo eléctrico de ciertos equipos (por supuesto requiere tener un módulo para medirlo))
 
 Para los que dispongan de energía solar, también puede mostrarles la previsión de producción según las características de su instalación (a rellenar)
 
-Tenga en cuenta que el complemento no calcula ni calculará ningún costo (no es ni será su propósito)
+Tenga en cuenta que el complemento no realiza ni realizará ningún cálculo de costos (este no es ni será su propósito))
 
 Para funcionar requiere que tengas módulos que carguen esta información :
 
@@ -34,7 +34,7 @@ Si tienes paneles solares necesitas más :
 
 >**IMPORTANTE**
 >
->Dependiendo de sus comandos, es posible que deba adaptar la unidad en la página de configuración de comandos para el equipo de energía que ha creado
+>Dependiendo de tus pedidos, es posible que necesites adaptar la unidad en la página de configuración de pedidos del equipo de energía que hayas creado
 
 ## Detalles
 
@@ -42,4 +42,4 @@ Para la electricidad, es posible indicar los consumidores en la pestaña de deta
 
 # Panel
 
-Para ver los historiales, el pronóstico de producción y otros, debe recordar en la página de configuración del complemento (complemento -> administración de complementos) para activar el panel (en el escritorio y/o móvil) y luego actualizar la página (f5). Luego en home encontrarás el panel del plugin.
+Para ver los historiales, pronósticos de producción y otras cosas, debe pensar detenidamente en la página de configuración del complemento (Complementos -> administración de complementos) para activar el panel (en escritorio y/o dispositivo móvil) y luego actualizar la página (F5). Luego en casa encontrarás el panel de complementos.

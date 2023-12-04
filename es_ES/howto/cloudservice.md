@@ -1,6 +1,6 @@
 # Servicio de almacenamiento en la nube
 
-El servicio en la nube es un servicio de Jeedom que le permite ampliar las posibilidades de su Jeedom de forma fácil y rápida. Su función es actuar como puerta de enlace entre su Jeedom y los servicios en la nube de otro proveedor de servicios.
+El servicio en la nube es un servicio de Jeedom que le permite ampliar las posibilidades de su Jeedom de forma fácil y rápida. Su función es servir como puerta de enlace entre su Jeedom y los servicios en la nube de otros proveedores de servicios.
 
 Para evitar cualquier abuso, el servicio está sujeto a cuotas según su tipo de paquete de servicio.
 
@@ -29,4 +29,4 @@ Para evitar cualquier abuso, el servicio está sujeto a cuotas según su tipo de
 
 
 
-\* El servicio TTS es un poco especial, el conteo solo se realiza en las oraciones nunca solicitadas a tu Jeedom. Las oraciones se cortan en lotes de 160 caracteres. Cada lote cuenta con 1 cuota
+\* El servicio TTS es un poco especial, el recuento sólo se realiza en las frases nunca solicitadas a tu Jeedom. Las frases se dividen en lotes de 160 caracteres. Cada lote cuenta con 1 cuota

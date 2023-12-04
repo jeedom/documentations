@@ -16,9 +16,9 @@
     "utilization": "Cliquer sur le bouton pour lier Enedis avec Jeedom depuis la configuration générale du plugin. Créer ensuite un équipement et indiquer le numéro de PDL et le type de mesure à récolter (consommation, production ou les deux).",
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.3.39",
+    "require": "4.2",
     "category": "energy",
-    "hasDependency": true,
+    "hasDependency": false,
     "hasOwnDeamon": false,
     "maxDependancyInstallTime": 0,
     "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/enedis\/beta\/changelog",
@@ -38,7 +38,7 @@
         "tr"
     ],
     "compatibility": [
-        "miniplus",
+        "luna",
         "smart",
         "rpi",
         "docker",

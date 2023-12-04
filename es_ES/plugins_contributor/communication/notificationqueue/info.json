@@ -5,13 +5,15 @@
 	"utilization": "Cela permet, par exemple, de ne délivrer une notification par voix (TTS) dans un pièce donnée que si quelqu'un si trouve, de vous avertir d'une action à faire que si vous êtes présent chez vous, de n'envoyer certaines communications que pendant la journée et éviter de faire sonner votre téléphone la nuit, de gérer automatiquement les (non-)répétitions de messages...",
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.0",
+	"require": "4.2",
 	"category": "communication",
 	"hasDependency": false,
 	"hasOwnDeamon": false,
 	"maxDependancyInstallTime": 0,
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/#language#/",
 	"link": {
 		"forum": "https://community.jeedom.com/tags/plugin-notificationqueue",
 		"video": ""

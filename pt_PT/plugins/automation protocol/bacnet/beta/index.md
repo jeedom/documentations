@@ -67,7 +67,7 @@ Um exemplo de detecção de equipamento Bacnet :
 
 ![tableau](../images/BacnetTableau.png)
 
-Dependendo do fabricante do equipamento, alguns valores não estão disponíveis; 
+Dependendo do fabricante do equipamento, alguns valores não estão disponíveis;
 
 Tudo o que você precisa fazer é selecionar os pedidos a serem criados marcando uma das opções de acordo com a sua escolha (tipo de comando informação ou tipo de ação):
 
@@ -118,6 +118,38 @@ As entradas / saídas AnalogValue, BinaryValue ou MultistateValue podem ser soli
 
 
 Ao criar os pedidos do tipo de gravação escolhidos, um pedido de ação associado também será criado, por padrão não visível no painel.
-Ao clicar nele, ele redefine a tabela de prioridade de gravação de uma entrada / saída para o padrão. 
+Ao clicar nele, ele redefine a tabela de prioridade de gravação de uma entrada / saída para o padrão.
 Terá um nome com << resetPrioritesEcriture >>
 Para tornar este comando visível no seu painel, acesse os comandos do seu equipamento e marque a opção “Mostrar"
+
+
+
+# Lista na Ação de Comando (para MultiStateValue)
+
+Quando você criou um comando Write como de costume a partir dos resultados da verificação, é básico em Slider ou On Off, dependendo do tipo de ponto Bacnet retornado (analógico, binário) : agora, se você escolher um multiState, o comando será do tipo Slider por padrão, mas você pode listá-lo na lista de comandos do equipamento; um novo campo Lista de valores aparecerá;
+Você pode colocar os valores que quiser, separados por um -, sem espaço : por exemplo 1-4-5-8
+Ao salvar o equipamento, este colocará esses valores na lista do pedido no Dashboard
+Ao alterar este valor, enviará a escrita do valor no ponto parametrizado.
+
+
+
+
+# Prioridade de gravação
+
+    A Manuseie com cuidado
+
+    Um campo de prioridade de gravação está disponível em cada pedido criado
+
+    De acordo com a documentação :
+
+    No BACnet, o objeto para o qual podemos escrever geralmente fornece o que é chamado de priorityArray. Esta matriz contém 16 níveis nos quais podemos escrever (1 sendo a prioridade mais alta).
+
+    O uso típico de prioridade é :
+
+    1 Segurança de Vida Manual 2 Segurança de Vida Automática 3 Disponível 4 Disponível 5 Controle de Equipamento Crítico 6 Mínimo On/Off 7 Disponível 8 Operador Manual (Substituir) 9 Disponível 10 Disponível (Controle Típico de um Supervisor) 11 Disponível 12 Disponível 13 Disponível 14 Disponível 15 Disponíveis (Agenda) 16 Disponíveis
+
+
+
+    Você pode escolher uma prioridade de gravação nos comandos desejados, escolhendo um número entre 1 e 16
+
+    Se nenhum valor for inserido em um comando de gravação, por padrão, o valor será definido como 8.

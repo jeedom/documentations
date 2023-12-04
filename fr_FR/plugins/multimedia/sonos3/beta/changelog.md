@@ -4,6 +4,16 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Ajout Sonos Move 2
+
+# 24/08/2023
+
+- Ajout Ikea Symfonisk Floor Lamp
+
+# 25/05/2023
+
+- Ajout Sonos Era
+
 # 18/10/2022
 
 - Mise à jour liste des commandes pour Jeedom v4.3

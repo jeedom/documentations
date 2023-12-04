@@ -588,8 +588,100 @@ El mismo ejemplo que para la declaración del demonio, debe agregar la propiedad
 
 #### Creación del archivo plugin_info/packages.json
 
-La sintaxis de este archivo se describirá aquí. Mientras tanto, encontrará información en este
-[entrada en el blog](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/).
+La sintaxis de este archivo se describe aquí. Ver también 
+[el artículo de lanzamiento en el blog](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/).
+
+Este archivo puede contener cualquiera de las siguientes secciones:
+##### pre-install: la ruta a un script para ejecutar antes de la instalación
+Ejemplo :
+`` ``json
+{
+  "pre-install" : {
+    "script" : "complementos/openzwave/resources/post-install.sh"
+  }
+`` ``
+
+##### post-install:
+Esta puede ser la ruta a un script que se ejecutará después de la instalación o la acción de reiniciar Apache. 
+Ejemplo :
+`` ``json
+{
+  "post-install" : {
+    "reiniciar_apache" : true,
+    "script" : "complementos/openzwave/resources/post-install.sh"
+  }
+`` ``
+
+##### apt: dependencias de debian
+Exemple
+`` ``json
+{
+  "apt" : {
+    "libav-tools" : {"alternative" : ["ffmpeg"]},
+    "ffmpeg" : {"alternative" : ["libav-herramientas"]},
+    "python-pil" : {},
+    "php-gd" : {}
+  }
+}
+`` ``
+
+Para cada paquete, podemos especificar "versión" para establecer una versión, "alternativa" si está disponible,
+ `opcional` si es opcional, `reinstalar` para forzar la reinstalación del paquete, `comentario` para agregar un comentario gratuito.
+##### pip3: Dependencias de Python3 (también se admite pip2))
+Exemple:
+`` ``json
+{
+  "apt" : {
+    "python3" : {},
+    "python3-pip" : {},
+    "python3-pyudev" : {},
+    "solicitudes de python3" : {},
+    "herramientas de configuración de python3" : {},
+    "python3-dev" : {}
+  },
+  "pip3" : {
+    "wheel" : {},
+    "pyserial" : {},
+    "tornado" : {},
+    "zigpy" : {"reinstall" : true},
+    "zha-quirks" : {"reinstall" : true},
+    "zigpy-znp" : {"reinstall" : true},
+    "zigpy-xbee" : {"reinstall" : true},
+    "zigpy-deconz" : {"reinstall" : true},
+    "zigpy-zigate" : {"reinstall" : true},
+    "zigpy-cc" : {"reinstall" : true},
+    "bellows" : {"reinstall" : true}
+  }
+}
+`` ``
+
+##### npm: dependencias para NodeJS
+Para NodeJS las dependencias están en otro archivo de 'paquetes'.json` en su propio formato, 
+colocado en el directorio `/resources` por ejemplo, es este archivo el que se indicará en el de Jeedom:
+`` ``json
+{
+  "apt" : {
+    "nodejs" : {}
+  },
+  "npm" : {
+    "complementos/dyson/recursos/dysond"  : {}
+  }
+}
+`` ``
+
+##### composer: para instalar otra dependencia de PHP
+no hay ningún ejemplo a la mano; la sintaxis es similar a la de otros paquetes, con la palabra clave `compose`.
+
+##### Dependencias de otro complemento:
+Si un complemento requiere la instalación de otro complemento, esto también es posible con la siguiente sintaxis; 
+el complemento debe ser gratuito o ya comprado :
+`` ``json
+{
+    "plugin":{
+        "mqtt2": {}
+    }
+}
+`` ``
 
 ### El método procesal
 Hay 3 requisitos previos que detallaremos a continuación.
@@ -610,7 +702,9 @@ El mismo ejemplo que para la declaración del demonio, debe agregar la propiedad
 }
 `` ``
 
-La propiedad `maxDependancyInstallTime` es el retraso en minutos después del cual el núcleo considerará que la instalación no se realizó correctamente. En este caso, el modo automático del demonio se desactivará y se publicará un mensaje en el centro de notificaciones. Si esta propiedad no está definida, el tiempo predeterminado será de 30 minutos.
+La propiedad `maxDependancyInstallTime` es el retraso en minutos después del cual el núcleo considerará que la instalación no se realizó correctamente.
+ En este caso, el modo automático del demonio se desactivará y se publicará un mensaje en el centro de notificaciones.
+ Si esta propiedad no está definida, el tiempo predeterminado será de 30 minutos.
 
 > **INCLINAR**
 >

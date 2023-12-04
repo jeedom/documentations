@@ -1,10 +1,10 @@
 {
 	"id" : "Mercedes_me",
 	"name" : "Mercedes Me",
-	"description" : "Plugin pour récuperer les informations de votre Mercedes.<br>Se base sur l'API officielle.",
+	"description" : "Plugin arrété car Mercedes arrête l'API BYOC: https://developer.mercedes-benz.com/news/bringyourowncar-sundown<br/>Plugin pour récuperer les informations de votre Mercedes. <br/>Se base sur l'API officielle.",
 	"licence" : "AGPL",
 	"author" : "Marc GUYARD",
-	"version" : "1.3.0",
+	"version" : "1.3.1",
 	"require" : "3.2",
 	"category" : "devicecommunication",
 	"hasDependency" : false,

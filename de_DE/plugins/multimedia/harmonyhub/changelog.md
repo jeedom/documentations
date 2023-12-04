@@ -4,6 +4,16 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, handelt es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text.
 
+# 17.09.2023
+
+- Korrigieren Sie die Debian 11- und Python 3-Kompatibilität
+- Mindestkernversion erforderlich: v4.2
+
+# 19.10.2022
+
+- Aktualisierte Befehlsliste für Jeedom v4.3
+- Kleinere Korrekturen und Optimierungen im Ausrüstungsverwaltungsbildschirm
+
 # 18.05.2021
 
 - Korrektur einer Fehlfunktion einiger Steuerungen

@@ -4,7 +4,7 @@ Jeedom can be installed on different hardware components :
 
 -   a Raspberry Pi 2, 3 or 4 
 -   Synology NAS
--   any Linux system based on Debian 10 (Buster)
+-   any Linux system based on Debian 11 (Bullseye)
 -   Freebox Delta
 
 You can also buy a ready-made box with Jeedom preinstalled which also contains a service pack (more support and services) and plugins offered :
@@ -55,6 +55,6 @@ I want to install Jeedom :
 - On a [VM](https://doc.jeedom.com/en_US/installation/vm)
 - On a [Docker](https://doc.jeedom.com/en_US/installation/docker). NOTE : We do not recommend this installation mode which makes the use of certain equipment complicated because of Docker's network mode
 - On a [NAS Synology](https://doc.jeedom.com/en_US/installation/synology). NOTE : We do not recommend this installation mode which makes the use of certain equipment complicated because of Docker's network mode
-- On [bearemetal (type Intel Nuc)](https://doc.jeedom.com/en_US/installation/baremetal)
+- On [bare metal (Intel Nuc type)](https://doc.jeedom.com/en_US/installation/baremetal)
 
 Once the installation is done, do not forget to consult the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)

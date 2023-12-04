@@ -4,6 +4,16 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 01/12/2023
+
+- Optimisation du calcul des occurences **Inclure/Exclure par date**
+
+# 27/11/2023
+
+- Mise à jour de la librairie `fullcalendar` de 6.0.1 vers 6.1.9
+- Ajout d'une vue **Année**
+- La vue sélectionnée est enregistrée lors de la sauvegarde de l'équipement
+
 # 17/03/2023
 - Mise à disposition d'une api pour lister, ajouter, modifier et supprimer un évènement.
 
@@ -22,6 +32,7 @@
 
 - Correction de bugs
 - Preparation pour Jeedom 4.2
+- Passage en version stable
 
 # 08/11/2021
 

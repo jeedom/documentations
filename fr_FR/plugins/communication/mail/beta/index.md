@@ -31,15 +31,15 @@ Vous retrouvez ici toute la configuration de votre équipement :
 -   **Nom expéditeur** : nom de l’expéditeur du mail (ex : Jeedom)
 -   **Mail expéditeur** : mail de l’expéditeur (ex : <jeedom@moi.fr>)
 -   **Mode d’envoi** : mode d’envoi du mail :
-    -   Jeedom cloud : aucune configuration a faire envoi des mails par le services cloud Jeedom, en phase beta pour le moment, limité à 5 mails par jour
-    -   SMTP : mode le plus courant pour l’envoi de mail
+    -   Jeedom cloud : aucune configuration à faire, envoi des mails par le service Cloud Jeedom, en phase beta pour le moment, limité à 5 mails par jour
+    -   SMTP : mode le plus courant pour l’envoi de mails
     -   Sendmail
     -   Qmail
     -   Mail()\[PHP Function\] : utilise la [fonction d’envoi standard de PHP,window="\_blank"](http://fr.php.net/manual/fr/function.mail.php), nécessite de configurer le système d’exploitation
 
 Hormis l’option SMTP, les autres options nécessitent la configuration de l’OS (Linux) pour pouvoir fonctionner. Autrement dit, de base seule la fonction SMTP fonctionne, les autres sont réservées aux experts qui pourront, s’ils le souhaitent, paramétrer eux-mêmes ces options.
 
-L’onglet configuration SMTP permet de renseigner les informations du serveur d’email que vous voulez utilisé.
+L’onglet configuration SMTP permet de renseigner les informations du serveur d’email que vous voulez utiliser.
 
 ![mail screenshot3](../images/mail_screenshot3.jpg)
 
@@ -68,7 +68,7 @@ A partir de l’onglet "Commandes", vous pouvez ajouter des commandes qui corres
 ![mail screenshot4](../images/mail_screenshot4.jpg)
 
 -   **nom** : nom de la commande
--   **email** : l’addresse email à laquelle envoyer le message. Vous pouvez en mettre plusieurs en les séparants par des ,
+-   **email** : l’adresse email à laquelle envoyer le message. Vous pouvez en mettre plusieurs en les séparants par des ,
 -   **configuration avancée** (petites roues crantées) : permet     d’afficher la configuration avancée de la commande (méthode     d’historisation, widget, etc.)
 -   **tester** : permet de tester la commande,
 -   **supprimer** (signe -) : permet de supprimer la commande.
@@ -81,7 +81,7 @@ Dans un scénario, une fois sélectionné dans une action, il faudra saisir le t
 
 > **Important**
 >
-> Si vous êtes en double authentification avec Gmail il faut donner un mot de passe spécifique pour l’application : Mon compte ⇒ connexion et sécurité ⇒ Se connecter à Google ⇒ Mots de passe d’application, si ce n'est pas le cas vous devez renseigner votre mot de passe gmail habituel.
+> Si vous êtes en double authentification avec Gmail il faut donner un mot de passe spécifique pour l’application : Mon compte ⇒ connexion et sécurité ⇒ Se connecter à Google ⇒ Mots de passe d’application, si ce n'est pas le cas vous devez renseigner votre mot de passe Gmail habituel.
 
 > **Tip**
 >

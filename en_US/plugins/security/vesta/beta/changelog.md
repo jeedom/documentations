@@ -6,6 +6,15 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+
+# 11/16/2023
+
+- Fix Events : PartialArm R456 & Add E407-R407 KeyPad Events
+
+# 11/11/2023
+
+- Fix Event FullArm R401
+
 # 01/19/2022
 
 - V4.2 optimizations

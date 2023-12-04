@@ -1,0 +1,41 @@
+{
+    "id": "lgthinq",
+    "name": "LG Smart Thinq",
+    "description": {
+        "fr_FR": "Plugin pour les Objets Connectés de la marque LG compatibles 'Smart Thinq APIv1'",
+        "en_US": "Plugin for 'Smart Thinq APIv1'-compatible LG Connected Objects",
+        "en_ES": "Plugin para LG Connected Objects compatible con 'Smart Thinq APIv1",
+        "de_DE": "Plugin für Smart Thinq APIv1-kompatible Connected Objects der Marke LG"
+    },
+    "pluginVersion": "1.2.0",
+    "licence": "AGPL",
+    "author": "Pifou25",
+    "require": "4.2",
+    "category": "devicecommunication",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https://pifou25.github.io/jeedom-lgthinq-plugin/#language#/changelog",
+    "documentation": "https://pifou25.github.io/jeedom-lgthinq-plugin/#language#/",
+    "changelog_beta": "https://pifou25.github.io/jeedom-lgthinq-plugin/#language#/changelog_beta",
+    "documentation_beta": "https://pifou25.github.io/jeedom-lgthinq-plugin/#language#/index_beta",
+    "link": {
+        "forum": "https://community.jeedom.com/t/recherche-dev-pour-un-nouveau-plugin-lg-smart/2932",
+        "video": "Lien vers une video",
+        "github": "https://github.com/pifou25/jeedom-lgthinq-plugin"
+    },
+    "language": [
+        "fr_FR",
+        "en_US"
+    ],
+    "compatibility": [
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas",
+        "luna"
+    ]
+}

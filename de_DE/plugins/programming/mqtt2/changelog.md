@@ -4,6 +4,26 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 27.10.2023
+
+- Es wurde ein Fehler im Status des Daemons behoben (gestartet, wenn nicht))
+
+
+# 10.05.2023
+
+- Ein Fehler im Brocker-Status wurde behoben
+
+# 10.02.2023
+
+- Möglichkeit zur Korrektur des Standard-QOS
+- Bug-Fix
+- Beginn des Hinzufügens des automatischen Erkennungssystems
+- Verbesserte Handhabung von Mücken im lokalen Modus
+
+# 22.03.2023
+
+- Bug-Fix
+
 # 03.07.2023
 
 - Hinzufügen eines Autodiscovery-Systems für einige Beta-Module (esphome, tasmota und shelly)

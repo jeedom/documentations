@@ -1,10 +1,10 @@
-**Documentación del archivo Info.json**
+# Documentación del archivo Info.json
 
 Integrado desde la versión 3.0 de Jeedom, el archivo ``info.json`` es obligatorio para el correcto funcionamiento de los complementos y su despliegue adecuado en el mercado Jeedom.
 
 El archivo de información.json se guarda en la carpeta ``/plugin_info/`` de tu complemento.
 
-Lista de variables de archivo ``info.json``
+## Lista de variables de archivo ``info.json``
 
 Los campos marcados con * son campos obligatorios.
 
@@ -17,7 +17,7 @@ Campos                   | Valores                                              
 ``licence`` *                | Tipo de licencia.                                                                                                          |
 ``author`` *                 | Nombre del autor del complemento, tal como se mostrará una vez que el complemento esté instalado, en la información del complemento.         |
 ``require`` *                | Versión mínima requerida de Jeedom (Core).                                                                                                |
-``category`` *               | Categoría de clasificación del complemento en el mercado Jeedom. **Es esencial respetar la nomenclatura de la tabla a continuación** |
+``category`` *               | Categoría de clasificación del complemento en el mercado Jeedom. **Es imperativo respetar la [nomenclatura de la siguiente tabla](https://doc.jeedom.com/es_ES/dev/structure_info_json/#NOMENCLATURE%20CATEGORIES)** |
 ``display``                  | Si el complemento usa un panel dedicado en el escritorio,. Este es el nombre del archivo principal para este panel.                    |
 ``mobile``                   | Si el complemento usa un panel dedicado en la aplicación web Jeedom. Este es el nombre del archivo principal para este panel.   |
 ``changelog`` *              | Enlace HTML al registro de cambios.                                                                                              |
@@ -28,17 +28,17 @@ Campos                   | Valores                                              
 ``link`` -> ``forum``               | Enlace HTML al foro sobre el tema oficial del complemento.                                                                  |
 ``languages``                | Lista de idiomas disponibles para el complemento: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP``, ``pt_PT``            |
 ``compatibility``            | Compatibilidad de complementos: miniplus, inteligente, ventana acoplable, rpi, bricolaje, mobileapp, v4.                                                   |
-``hasDependency``            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
-``hasOwnDeamon``             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
+``hasDependency``            | «true» si [el complemento debe instalar dependencias](https://doc.jeedom.com/es_ES/dev/daemon_plugin#Les%20d%C3%A9pendance), sinon «false» ou absent.                                              |
+``hasOwnDeamon``             | «true» si [el complemento debe ejecutar demonios](https://doc.jeedom.com/es_ES/dev/daemon_plugin#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), sinon «false» ou absent.                                                   |
 ``maxDependancyInstallTime`` | Tiempo máximo permitido para la instalación de dependencias, expresado en minutos.                                            |
-``specialAttributes`` | Permite que los complementos soliciten parámetros adicionales en objetos o usuarios (mire el ejemplo de la plantilla de complemento)                                            |
+``specialAttributes`` | Permet aux plugin de demander des [parametre suplémentaire](https://doc.jeedom.com/es_ES/dev/structure_info_json#SpecialAttributes) sur [des objets](https://doc.jeedom.com/es_ES/dev/structure_info_json#Atributos%20Objeto) o [usuarios](https://doc.jeedom.com/es_ES/dev/structure_info_json#Attributs%20User) (mire bien el ejemplo del complemento de plantilla) (Ver explicaciones a continuación)                                            |
 ``issue``                    | URL al rastreador de errores si es externo (si no está lleno, recibirá un correo electrónico)
 
-**Ejemplo** :
+## Exemple
 
 [Plugin-template file / plugin_info / info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
 
-**CATEGORÍA NOMENCLATURA**
+## CATEGORÍA NOMENCLATURA
 
 Mercado de la libertad         | Información.JSON               |
 --------------------- | ----------------------- |
@@ -57,3 +57,47 @@ Protocolo de domótica   | ``automation protocol``     |
 Salud                 | ``health``                  |
 Seguridad              | ``security``                |
 Automatismo           | ``automatisation``          |
+
+## SpecialAttributes
+
+Estos atributos permiten solicitar a los usuarios parámetros adicionales para cada objeto (`objeto` en el sentido de Jeedom : Menú Herramientas / Objetos; normalmente esto representa las habitaciones de nuestra domótica) o para cada usuario.
+
+### Utilisation
+
+En su código, puede recuperar el valor de estos parámetros usando el objeto `Usuario` para un atributo de Usuario, o el objeto `jeeObject` para un atributo de objeto:
+
+```
+usuario : $user->getOptions(‹ plugin::Complemento_id::llave ›)
+objeto : $jeeObject->getConfiguration(‹ plugin::Complemento_id::llave ›)
+```
+* ID_plugin es el ID de su complemento
+* clef es la clave en su configuración json (en el ejemplo: foo, foo 2 ...)
+
+### Atributos de objeto
+
+La sintaxis es la siguiente para proponer 2 parámetros específicos por objeto :
+```
+	"specialAttributes" : {
+		"object" : {
+			"toto" : {"name" : {"fr_FR" : "Plop, soy un atributo especial"},"tipo" : "input"},
+			"toto2" : {"name" : {"fr_FR" : "Plop, tengo un número de atributo especial"},"escriba" : "number"}
+		}
+	}
+```
+
+El usuario podrá definir estos 2 parámetros para cada objeto en el menú de configuración de objetos (menú Herramientas / Objetos).
+Aquí un texto libre, y un digital.
+![Attribut Objet](images/SpecialAttributeObject.png)
+
+### Atributos de usuario
+
+```
+	"specialAttributes" : {
+		"user" : {
+			"toto" : {"name" : {"fr_FR" : "Plop, soy un atributo especial usuarios"},"tipo" : "seleccionar","valores" : [{"valor" : "1", "nombre" : "valor 1"},{"valor" : "plop", "nombre" : "valor de plop"}]}
+		}
+	}
+```
+
+Aquí, este atributo permite a cada usuario definir un parámetro propio (en el menú Configuración / Preferencias)
+![Attribut Utilisateur](images/SpecialAttributeUser.png)

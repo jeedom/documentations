@@ -4,6 +4,36 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 06/09/2023
+
+- Consertar Notificações
+- Adição de exibição de equipamentos por tabela
+
+# 19/05/2023
+
+- PR por PhpVarious
+- Corrigir pequenos bugs
+
+
+# 10/05/2023
+
+- Comandos GeoLoc V2
+- Remova a parte do RNA móvel do AppV2
+- Atualizar mobile.api
+
+
+# 10/01/2023
+
+- FUTURA INTEGRAÇÃO APPV2 ALPHA EM PLUGIN MÓVEL
+- Nova Interface Futuro AppV2
+- Menu Personalizado Modal Futuro AppV2
+- Modal QrCode Future AppV2
+
+# 13/12/2021
+
+- Modo offline para QrCode (criação de QrCode sem internet.).
+- Compatibilidade 4.2 Jeedom Core
+
 # 11/10/2021
 
 - Adição do plug-in Zigbee em plug-ins compatíveis.

@@ -13,11 +13,9 @@
         "ja_JP": "Plugin pour gérer le délestage. 3 modes de fonctionnement possibles : <br>- Intelligent <br>- Hiérarchique <br>- Cascadocyclique",
         "tr": "Plugin pour gérer le délestage. 3 modes de fonctionnement possibles : <br>- Intelligent <br>- Hiérarchique <br>- Cascadocyclique"
     },
-    "icon": "fa loisir-beach4",
     "licence": "AGPL",
     "author": "Jeedom",
-    "require": "2.3",
-    "installation": "Aucune",
+    "require": "4.2",
     "hasDependency": 0,
     "hasOwnDeamon": 0,
     "category": "energy",
@@ -29,12 +27,7 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "ru_RU",
-        "id_ID",
-        "it_IT",
-        "ja_JP",
-        "pt_PT",
-        "tr"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",

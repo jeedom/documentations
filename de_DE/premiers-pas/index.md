@@ -6,7 +6,7 @@ Willkommen zu dieser Dokumentation des ersten Schritts, die Ihnen hilft, Ihr Jee
 
 Das erste, was Sie tun müssen, ist, ein Konto auf dem Markt zu erstellen, um Ihr Jeedom darauf registrieren zu können. Klicken Sie auf [hier](https://market.jeedom.com/).
 
-Klicken Sie oben links auf die Schaltfläche "Registrieren":
+Klicken Sie oben links auf die Schaltfläche "Registrieren" :
 
 ![S'enregistrer sur le Markt](images/FirstStep_market1.jpg)
 
@@ -33,7 +33,7 @@ Dann gehen Sie zu Ihrer Profilseite:
 
 ![Profil Markt](images/FirstStep_market_sp1.jpg)
 
-Klicken Sie dann auf die Registerkarte "Meine Dienste", geben Sie Ihre Service Pack-Nummer ein und bestätigen Sie.
+Klicken Sie dann auf die Registerkarte „Meine Dienste“, geben Sie Ihre Service Pack-Nummer ein und bestätigen Sie.
 
 > **Spitze**
 >
@@ -47,7 +47,7 @@ Sobald Jeedom elektrisch verbunden und mit Ihrem lokalen Netzwerk verbunden ist,
 
 #### Durch den Markt
 
-Die einfachste Lösung (funktioniert jedoch in 100% der Fälle nicht, abhängig von der Konfiguration Ihres Internetzugangs). Sie müssen die Box starten und etwa 10 Minuten warten (seien Sie vorsichtig, wenn Sie ein Image vom Typ Netzinstallation verwenden, es dauert eher 30 Minuten). und geh [hier](https://www.jeedom.com/market/index.php?v=d&p=find)
+Die einfachste Lösung (funktioniert jedoch je nach Konfiguration Ihres Internetzugangs nicht in 100 % der Fälle): Sie müssen die Box starten und etwa 10 Minuten warten (seien Sie vorsichtig, wenn Sie ein Image vom Typ „Netzinstallation“ verwenden, es wird eher so aussehen 30 Minuten) und los [hier](https://www.jeedom.com/market/index.php?v=d&p=find)
 
 > **Spitze**
 >
@@ -73,12 +73,12 @@ Unabhängig davon, welche Methode verwendet wird, gelangen Sie auf die Anmeldese
 
 Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen können.
 
--   Sobald Sie mit Ihrer Freiheit verbunden sind, müssen Sie zu gehen **Einstellungen → System → Konfiguration**
--   Klicken Sie auf die Registerkarte **Updates / Markt**
--   Klicken Sie unten auf die Registerkarte **Markt**
--   Aktivieren Sie das Kontrollkästchen **Aktivieren**
--   Remplissez l'adresse : `https://market.jeedom.com`
--   Füllen Sie auch die Felder aus **Benutzername** und **Passwort** basierend auf Ihren Kennungen (Marktkennungen und nicht Jeedom)
+-   Sobald Sie mit Ihrer Freiheit verbunden sind, müssen Sie zu gehen **Einstellungen → System → Konfiguration**.
+-   Klicken Sie auf die Registerkarte **Updates / Markt**.
+-   Klicken Sie unten auf die Registerkarte **Markt**.
+-   Aktivieren Sie das Kontrollkästchen **Aktivieren**.
+-   Remplissez l'adresse : `https://market.jeedom.com`.
+-   Füllen Sie auch die Felder aus **Benutzername** und **Passwort** basierend auf Ihren Kennungen (Marktkennungen und nicht Jeedom).
 -   Sie können testen, ob die Verbindung korrekt hergestellt wurde.
 -   Vergiss nicht zu sparen !
 
@@ -94,7 +94,7 @@ Gehen Sie dann zum Teil "Netzwerke""
 
 ![Réseaux](images/FirstStep_dns.jpg)
 
-Sobald Sie hier sind, aktivieren Sie einfach **Verwenden von Jeedom DNS** dann auf der Linie **Verwaltung** zu tun **Neu starten** und Ihre URL wird auf HTTP-Statusebene angezeigt. Sie können sie natürlich auf der Marktprofilseite anpassen
+Sobald Sie hier sind, aktivieren Sie einfach **Verwenden von Jeedom DNS** dann auf der Linie **Verwaltung** zu tun **Neu starten** und Ihre URL wird auf HTTP-Statusebene angezeigt. Sie können sie natürlich auf der Marktprofilseite anpassen.
 
 > **Wichtig**
 >
@@ -122,8 +122,8 @@ In Jeedom kann es alles und jedes sein, aber es wird empfohlen, es entsprechend 
 
 Nichts könnte einfacher sein, ein Objekt zu erstellen :
 
--   Gehen Sie zu Extras → Objekte
--   Klicken Sie auf die Schaltfläche Hinzufügen
+-   Gehen Sie zu Extras → Objekte.
+-   Klicken Sie auf die Schaltfläche Hinzufügen.
 -   Jeedom wird dich nach dem Namen fragen. Validieren. Dies ist Ihr erstes erstelltes Objekt :
 
 ![Objet](images/FirstStep_object.jpg)
@@ -199,8 +199,8 @@ Die verschiedenen Service Packs sind :
 - Power : 10 Tickets / Monat
 - Pro : 100 Tickets / Monat
 
-Sie finden die Details der Service Packs [hier](https://www.jeedom.com/site/fr/soft.html#obtenir)
+Sie finden die Details der Service Packs [hier](https://www.jeedom.com/site/fr/soft.html#obtenir).
 
 >**Wichtig**
 >
->Achtung, wir sehen viele Benutzer mit "mailinblack"-Postfächern, die beim ersten Austausch den Absender bitten, einen Link zu validieren, um zu beweisen, dass es sich tatsächlich um einen Menschen handelt. Dieses System ist nicht mit unserem Ticketing-System kompatibel. Selbst wenn wir Ihnen antworten, erhalten Sie die Antwort nie in Ihrem Postfach, da es uns blockiert. Vielen Dank, dass Sie auf Ihrer Marktprofilseite eine E-Mail-Adresse angeben, die dieses System nicht verwendet, andernfalls werden Sie unsere Antwort nie erhalten.
+>Seien Sie vorsichtig, wir sehen viele Benutzer mit „mailinblack“-Postfächern, die beim ersten Austausch den Absender bitten, einen Link zu bestätigen, um zu beweisen, dass es sich tatsächlich um einen Menschen handelt. Dieses System ist nicht mit unserem Ticketsystem kompatibel. Selbst wenn wir Ihnen antworten, erhalten Sie die Antwort nie in Ihrem Postfach, da es uns blockiert. Geben Sie daher bitte auf Ihrer Marktprofilseite eine E-Mail-Adresse an, die dieses System nicht nutzt, sonst erhalten Sie nie unsere Antwort.

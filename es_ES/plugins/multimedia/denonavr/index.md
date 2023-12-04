@@ -12,7 +12,7 @@ Se puede acceder a la configuración del equipo Denon desde el menú Complemento
 
 Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nombre de l'équipement Denon** : nombre de su equipo Denon,
+-   **Denon nombre del equipo** : nombre de su equipo Denon,
 -   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
 -   **Categoría** : categorías de equipos (puede pertenecer a varias categorías),
 -   **Activar** : activa su equipo,

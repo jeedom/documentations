@@ -4,11 +4,24 @@
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
+# 05/29/2023
+
+MAKE BACKUP OF JEEDOM BEFORE INSTALLING NEW BETA.
+- Write 1 Bit
+- Import/Export Orders via Xlsx
+- New Syntax Operation on Command (see Doc)
+- Fixs
+
+# 05/15/2023
+
+- New UI command settings
+- Conversion optimizations Values
+- Hex Return Parameter
+
 # 04/03/2023
 
 - New UI command settings
 - ArrayRegistres parameter to write consecutively starting from a starting register
- MAKE A JEEDOM BACKUP before testing this beta. The Commands plugin configs being long and tedious, having a backup in case of a version upgrade problem is recommended.
 
 # 01/10/2023
 - Fix import packages for python 3.9

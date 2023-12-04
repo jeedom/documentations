@@ -1,36 +1,57 @@
 # Changelog jeeZigbee
 
-# Changelog jeeZigbee
-
-# Changelog Zigbee2Mqtt
-
-# Changelog plugin template
-
 >**IMPORTANT**
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 01/19/2022
+- Zigbee firmware update support on Luna
+- Support for long logicalId on commands
+- Possibility of creating a refresh command (you must add a command then type action/default and in the logical id field put refresh)
+- Possibility of adding a cron which requests the updating of the values (be careful, nothing guarantees that the module will really update them, it must support it)
 
-- V4.2 optimizations
 
-# 20/11/2020
+# 06/11/2023
 
-- Official presentation V4
-- Added information items and parameters for commands
+- Fixed a bug in group management
+- Code Optimization
+- Fixed bugs during plugin installation (error 500)
 
-# 16/11/2020
+# 09/22/2023
 
-- Jeedom minimum version: 3.3.39 (last critical update)
+- Possibility to choose the version of zigbee2mqtt
 
-# 04/11/2020
+>**IMPORTANT**
+>
+>For those having problems with an unreachable module following the previous update, you must restore a jeedom backup from before the update then redo the update. I sincerely apologize for this bug which occurs to some of you, it comes from an unexpected function of zigbee2mqtt which I do not have on my different labs.
 
-- New presentation of the list of objects
+# 09/20/2023
 
-# 07/08/2020
+- Fixed a bug on the zigbee2mqtt version
 
-- Adding comments
+# 09/19/2023
 
-# 05/17/2020
+- Fixed a bug when updating dependencies (zigbee2mqtt) if you restored jeedom
 
-- Documentation update
+# 08/09/2023
+
+- Fixed a bug that prevented orders from being created correctly
+
+# 04/09/2023
+
+- Ability to configure the listening port of zigbee2mqtt
+- Fixed an issue with color type commands
+- Correction on the generation of commands which could not work in certain cases
+- Improved command naming
+- Possibility for atlas boxes or Elelabs type controllers to update the firmware from jeedom
+
+# 03/07/2023
+
+- Fixed a problem when sending a positioning command (shutter type)
+
+# 06/27/2023
+
+- Fixed a problem with detecting certain modules (including profalux)
+
+# 05/30/2023
+
+- Initial version

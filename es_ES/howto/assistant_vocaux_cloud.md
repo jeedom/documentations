@@ -5,7 +5,7 @@
 Este servicio le permite conectar su Jeedom con asistentes de voz de Google y Amazon.
 
 Se puede usar con 
-- el complemento Dialogflow, [Documentación](https://doc.jeedom.com/es_ES/plugins/communication/dialogflow)
+
 - o el complemento de Google Smarthome, [Documentación](https://doc.jeedom.com/es_ES/plugins/communication/gsh)
 - o el complemento de Alexa, [Documentación](https://doc.jeedom.com/es_ES/plugins/communication/ash)
 

@@ -8,15 +8,15 @@ Odroid C2               | Stabil                  |
 SMART                   | Stabil                  |                          
 RPI1                    | Stabil                  |                          
 RPI2                    | Stabil                  |                          
-RPI3                    | Stabil                  | Seien Sie vorsichtig, wenn Sie ein Razberry verwenden, das WLAN / Bluetooth wird nicht funktionieren
-RPI4                    | Stabil                  | Seien Sie vorsichtig, wenn Sie ein Razberry verwenden, das WLAN / Bluetooth wird nicht funktionieren
+RPI3                    | Stabil                  | Seien Sie vorsichtig, wenn Sie ein Razberry verwenden, WLAN/Bluetooth funktioniert nicht
+RPI4                    | Stabil                  | Seien Sie vorsichtig, wenn Sie ein Razberry verwenden, WLAN/Bluetooth funktioniert nicht
 64 Bit                 | Stabil                  |                          
 32 Bit                 | Wird nicht unterstützt            |                          
 VMware                  | Stabil                  | Keine Unterstützung für VMware, nur für Jeedom.
 
 Das Jeedom-Team empfiehlt Sie (abhängig von Ihrem Budget) :
 
-- Jeedom Smart (alles ist vorinstalliert, Sie müssen nichts tun)
+- Jeedom Atlas oder Luna (alles ist vorinstalliert, Sie müssen nichts tun)
 - Odroid C2 (bestes Leistungs- / Preisverhältnis)
 - Intel Nuc gen (extreme Leistung, siehe die Tutorial-Kategorie für die Auswahl in den verschiedenen Modellen und Installation)
 - RPI4
@@ -35,8 +35,6 @@ Sie finden alle Jeedom-Bilder [hier](https://images.jeedom.com/)
 | Freebox        | Freebox Delta  | Stabil         | root / Mjeedom96 | So installieren Sie direkt von der Freebox               | [Freebox](https://doc.jeedom.com/de_DE/installation/freeboxdelta) |
 | Synologie (Docker)| NAS-Synologie | Beta          | root / Mjeedom96  |                | [Synologie](https://doc.jeedom.com/de_DE/installation/synology) |
 
-\* Jeedom unterstützt offiziell nur die Debian-Distribution. Debian 10 wird vollständig unterstützt, Debian 11 befindet sich im Test, siehe [hier](https://doc.jeedom.com/de_DE/compatibility/debian11).
-
 > **Information**
 >
 > Sie können Jeedom auch manuell auf jedem Debian-System installieren, indem Sie diesen Anweisungen folgen [Dokumentation](https://doc.jeedom.com/de_DE/installation/cli).
@@ -45,7 +43,7 @@ Sie finden alle Jeedom-Bilder [hier](https://images.jeedom.com/)
 
 > **Wichtig**
 >
-> Jeedom unterstützt nur Debian Stretch (nicht empfohlen) und Buster (stable). Jede andere Version (Wheezy, Jessie…) oder Distribution (Ubuntu…) wird von Jeedom nicht unterstützt.
+> Jeedom unterstützt nur Debian Stretch (nicht empfohlen), Buster (Ende der Lebensdauer) und Bullseye (empfohlen). Jede andere Version (Wheezy, Jessie…) oder Distribution (Ubuntu…) wird von Jeedom nicht unterstützt.
 
 | Name                     | Zustand                    | Bemerkungen                |
 |-------------------------|-------------------------|--------------------------|

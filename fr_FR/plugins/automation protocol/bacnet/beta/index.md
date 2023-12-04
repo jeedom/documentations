@@ -67,7 +67,7 @@ Un exemple de détection d'un équipement Bacnet :
 
 ![tableau](../images/BacnetTableau.png)
 
-Suivant les constructeurs d'équipements, certaines valeurs ne sont pas disponibles; 
+Suivant les constructeurs d'équipements, certaines valeurs ne sont pas disponibles;
 
 Il vous suffit de sélectionner les commandes à créées en cochant une des options suivant votre choix (commande de type info ou de type action):
 
@@ -118,6 +118,38 @@ Celles des entrées/sorties de type AnalogValue, BinaryValue ou MultistateValue 
 
 
 A la création des commandes choisies de type écriture, une commande action associée sera également créée, par défaut non visible sur le dashboard.
-En cliquant dessus, elle permet de remettre par défaut le tableau de priorités d'écriture d'une entrée/sortie. 
+En cliquant dessus, elle permet de remettre par défaut le tableau de priorités d'écriture d'une entrée/sortie.
 Elle portera un nom avec << resetPrioritesEcriture >>
 Pour rendre visible cette commande sur votre dashboard, il faut vous rendre dans les commandes de votre équipement et de cocher la case "Afficher"
+
+
+
+# Liste sur Commande Action (pour MultiStateValue)
+
+Quand vous avez créez une commande d'Ecriture comme habituellement depuis les résultats du scan, elle est de base en Slider ou On Off, suivant le type de point Bacnet remonté (analog, binary) : maintenant, si vous choisissez une multiState, la commande sera de type Slider par défaut, mais vous pouvez la mettre en Liste dans la liste des commandes de l'équipement; un nouveau champ Valeur Liste apparaitra;
+Vous pouvez y mettre les valeurs que vous désirez, séparés par un -, sans espace : par exemple 1-4-5-8
+A la sauvegarde de l'équipement, cela mettra ces valeurs dans la liste de la commande sur le Dashboard
+Au changement de cette valeur, cela enverra la valeur écrire sur le point paramètré.
+
+
+
+
+# Priorite des ecritures
+
+    A Manipuler avec prudence
+
+    Un champ Priorité Ecriture est disponible sur chaque commande créée
+
+    Comme d'après la documentation :
+
+    In BACnet, object to which we can write often provide what is called the priorityArray. This array contains 16 levels to which we can write (1 being the highest priority).
+
+    Typical usage of priority is :
+
+    1 Manual-Life Safety 2 Automatic-Life Safety 3 Available 4 Available 5 Critical Equipment Control 6 Minimum On/Off 7 Available 8 Manual Operator (Override) 9 Available 10 Available (Typical Control from a Supervisor) 11 Available 12 Available 13 Available 14 Available 15 Available (Schedule) 16 Available
+
+
+
+    Vous pouvez choisir une priorité d'écriture sur les commande souhaites, en choisissant un nombre entre 1 et 16
+
+    Si pas de valeur entrée sur une commande d'ecriture, par defaut la valeur sera établie a 8.

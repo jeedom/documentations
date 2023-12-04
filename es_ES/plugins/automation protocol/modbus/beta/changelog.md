@@ -4,11 +4,24 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
+# 29/05/2023
+
+HAGA UNA COPIA DE SEGURIDAD DE JEEDOM ANTES DE INSTALAR LA NUEVA BETA.
+- Escribir 1 bit
+- Órdenes de importación/exportación a través de Xlsx
+- Nueva operación de sintaxis en el comando (ver Doc)
+- Fixs
+
+# 15/05/2023
+
+- Nueva configuración de comandos de la interfaz de usuario
+- Optimizaciones de conversión Valores
+- Parámetro de retorno hexadecimal
+
 # 03/04/2023
 
 - Nueva configuración de comandos de la interfaz de usuario
 - Parámetro ArrayRegistres para escribir consecutivamente a partir de un registro inicial
- HAGA UNA COPIA DE SEGURIDAD DE JEEDOM antes de probar esta versión beta. Las configuraciones del complemento Commands son largas y tediosas, se recomienda tener una copia de seguridad en caso de un problema de actualización de versión.
 
 # 10/01/2023
 - Arreglar paquetes de importación para python 3.9

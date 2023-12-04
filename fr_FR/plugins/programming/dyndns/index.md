@@ -34,6 +34,7 @@ Vous retrouvez ici toute la configuration de votre équipement :
 -   **Nom d’utilisateur** : nom d’utilisateur sur le service en question
 -   **Mot de passer** : mot de passe sur le service en question
 -   **Token** : token utilisé pour duckdns
+-   **IPv6** : Votre **Service** supporte IPv6. Sélectionnez si vous désirez mettre à jour votre entrée **Hostname** de type AAAA.
 
 En-dessous vous retrouvez la liste des commandes :
 
@@ -52,3 +53,8 @@ En-dessous vous retrouvez la liste des commandes :
 > **Note**
 >
 > Si vous utilisez OVH, attention le nom d’utilisateur est de la forme mondomaine.com-identificant alors que le domaine est bien sous la forme mon-dynHost.mmondomaine.com
+
+> **IPv6**
+>
+> Vous devez avoir configuré dans votre **Service** une entrée DNS de type AAAA pour votre **Hostname**.
+> Tous les **Service** ne supportent pas ou ne fournissent pas les informations pour IPv6.

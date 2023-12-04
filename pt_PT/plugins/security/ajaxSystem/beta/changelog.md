@@ -4,9 +4,8 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto
 
+# 06/06/2023
 
-
-- Possibilidade de passar por um modo mqtt para feedback de informações SIA, via nodered
 - Adicionar cubo de fibra
 
 # 23/08/2022

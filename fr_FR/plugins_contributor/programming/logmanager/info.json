@@ -1,0 +1,33 @@
+{
+	"id": "logmanager",
+	"name": "LogManager",
+	"description": "Plugin permettant une gestion de log personnalisée dans vos scénarios. Il est possible de créer autant de log que voulu, différent niveau de log sont possible pour chaque fichier de log. Cela permet d'organiser vos logs de scénario selon vos préférences, de par exemple regrouper toutes les actions sur un équipement dans le même log quelque soit le scénario.",
+	"utilization": "La consultation des logs se fait via l'interface standard de Jeedom. La purge des logs est également gérée par la config générale de Jeedom.",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.2",
+	"category": "programming",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/logmanager/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/logmanager/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/logmanager/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/logmanager/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-logmanager",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
+}

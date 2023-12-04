@@ -4,7 +4,7 @@ Jeedom kann auf verschiedenen Hardwarekomponenten installiert werden :
 
 -   ein Raspberry Pi 2, 3 oder 4 
 -   Synology NAS
--   jedes Linux-System basierend auf Debian 10 (Buster)
+-   jedes Linux-System basierend auf Debian 11 (Bullseye)
 -   Freebox Delta
 
 Sie können auch eine vorgefertigte Box mit vorinstalliertem Jeedom kaufen, die auch ein Service Pack (mehr Support und Services) und angebotene Plugins enthält :
@@ -29,8 +29,8 @@ Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Ko
 > **Spitze**
 >
 > - Es ist möglich, eine Rfxcom-Antenne oder einen enOcean-Schlüssel usw. hinzuzufügen oder zu ändern. 
-> - Grundsätzlich benötigen Sie einen USB-Stick pro zusätzlichem Protokoll. Abhängig von ihrer Anzahl und ihrem kumulierten Verbrauch benötigen Sie auf einem Raspberry Pi möglicherweise einen zusätzlichen USB-Hub mit dediziertem Netzteil. 
-> - Für den Z-Wave Aeotec Gen 5-Schlüssel, der kumulativ mit einem Raspberry Pi 4 verwendet wird (frühere Modelle sind nicht betroffen), müssen Sie einen neueren verwenden, wenn Sie einen USB-Hub entfernen möchten. Erhalten Sie Informationen und Zubehör von einem Verkäufer von Hausautomationsgeräten.
+> - Grundsätzlich benötigen Sie pro Zusatzprotokoll einen USB-Stick. Abhängig von ihrer Anzahl und ihrem kumulierten Verbrauch benötigen Sie auf einem Raspberry Pi möglicherweise einen zusätzlichen USB-Hub mit dediziertem Netzteil. 
+> - Für den Z-Wave Aeotec Gen 5-Schlüssel, der kumulativ mit einem Raspberry Pi 4 verwendet wird (frühere Modelle sind nicht betroffen), müssen Sie einen neueren verwenden, wenn Sie einen USB-Hub entfernen möchten. Holen Sie sich Informationen und Zubehör von einem Verkäufer von Hausautomationsgeräten.
 > - Unter RPi 4 wird dringend empfohlen, die microSD-Karte durch eine mSATA USB3-Festplatte zu ersetzen, die mit nativem Start direkt an den USB3-Anschluss angeschlossen ist. MicroSD-Karten haben aufgrund des intensiven Datenaustauschs eine sehr begrenzte Lebensdauer: Nur für kurze Testzeiten reserviert.
 
 > **Spitze**
@@ -55,6 +55,6 @@ Ich möchte Jeedom installieren :
 - Auf einem [VM](https://doc.jeedom.com/de_DE/installation/vm)
 - Auf einem [Docker](https://doc.jeedom.com/de_DE/installation/docker). Notiz : Wir empfehlen diesen Installationsmodus nicht, da die Verwendung bestimmter Geräte aufgrund des Docker-Netzwerkmodus kompliziert ist
 - Auf einem [NAS-Synologie](https://doc.jeedom.com/de_DE/installation/synology). Notiz : Wir empfehlen diesen Installationsmodus nicht, da die Verwendung bestimmter Geräte aufgrund des Docker-Netzwerkmodus kompliziert ist
-- Auf [Bärenmetall (Typ Intel Nuc)](https://doc.jeedom.com/de_DE/installation/baremetal)
+- Auf [Bare-Metal (Typ Intel Nuc))](https://doc.jeedom.com/de_DE/installation/baremetal)
 
 Vergessen Sie nach der Installation nicht, die Dokumentation zu lesen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)

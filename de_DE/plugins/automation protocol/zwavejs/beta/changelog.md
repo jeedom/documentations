@@ -4,6 +4,193 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 12.01.2023
+
+**Verbesserungen**
+
+- Zur Version wechseln *9.5.0* von ZwaveJsUI
+
+# 27.10.2023
+
+**Konfigurationsergänzungen**
+
+- Hinzufügen einer Untereigenschaft *Benachrichtigungstür* für Eigentum *Neigung*
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Aeotec Zwa012*  um die Eigenschaften zu verwenden
+- Änderung einer Untereigenschaft *einfache Benachrichtigung* für Eigentum *Öffnung*
+
+**Verbesserungen**
+
+- Zur Version wechseln *9.1.2* von ZwaveJsUI
+
+# 10.11.2023
+
+**Behebt**
+
+- Zur Version wechseln *8.26.0* von ZwaveJsUI vorübergehend
+
+# 10.09.2023
+
+**Behebt**
+
+- Korrektur zur Vermeidung bestimmter Meldungen im Protokoll *HTTP Fehler* in bestimmten Sonderfällen
+
+**Verbesserungen**
+
+- Zur Version wechseln *9.1.0* von ZwaveJsUI
+- Option zum Verwalten hinzugefügt *Benachrichtigungen* im Nachrichtencenter *tote und lebendige Knoten*
+- Option zum Verwalten hinzugefügt *Benachrichtigungen* im Nachrichtencenter *verpasstes Erwachen und Rückkehr*
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Aeotec ZW187 Einbautür* (Eigenschaften : Einfaches Öffnen, Batterie, Benachrichtigungssoftware, Benachrichtigung über den Energiestatus)
+- Konfig hinzugefügt *Thermofloor Heat It ZM-Relais mit hoher Leistung* (Eigenschaften : Schalter, Strom, Energie, Wärmesensorbenachrichtigung, Überlastbenachrichtigung, Centra-Szene)
+- Hinzufügen einer Untereigenschaft *einfache Benachrichtigung* für Eigentum *Öffnung*
+
+
+# 11.09.2023
+
+**Behebt**
+
+- Update-Fix *OTA* einer Modul-Firmware nach einer ZwaveJSUI-Änderung
+
+**Verbesserungen**
+
+- Zur Version wechseln *8.25.1* von ZwaveJsUI.
+- Möglichkeit hinzugefügt, ein Update durchzuführen *OTW* einen Controller (falls kompatibel))
+- Option zum Verwalten hinzugefügt *Benachrichtigungen* im Nachrichtencenter *tote und lebendige Knoten*
+- Option zum Verwalten hinzugefügt *Benachrichtigungen* im Nachrichtencenter *verpasstes Erwachen und Rückkehr*
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Shelly Qubino Wave 13:00 Uhr* (Eigenschaften : Schalter, Stromversorgung, Energie, Netzbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung)
+- Konfig hinzugefügt *Shelly Qubino Welle 1* (Eigenschaften : Schalter, Stromversorgung, Energie, Netzbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung)
+- Hinzufügen einer Untereigenschaft *binäres Wasser* für Eigentum *Flut*
+- Hinzufügen einer Untereigenschaft *onlevel-barriere* für Eigentum *Mehrstufig*
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *MCOhome Mh8FC*  um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *NeoCoolCam WS02Z*  um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Kaipule IM20*  um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *HRT4_SRT321* um die Eigenschaften besser zu nutzen
+- Ändern der Konfiguration *Benext Plug-In-Dimmer* um die Eigenschaften besser zu nutzen
+- Ändern der Konfiguration *Dome On Off Plug-In-Schalter Plug-In-Dimmer* um die Eigenschaften besser zu nutzen
+- Ändern der Konfiguration *Domux Dx2skz* um die Eigenschaften besser zu nutzen
+- Ändern der Konfiguration *Swiid-Stecker* um die Eigenschaften besser zu nutzen
+- Ändern der Konfiguration *Everspring SM810* um die Eigenschaften besser zu nutzen
+- Ändern der Konfiguration *Zipato PD01z* um die Eigenschaften besser zu nutzen
+- Ändern der Konfiguration *Vision-Sicherheit ZS5101* um die Eigenschaften besser zu nutzen
+
+# 08.02.2023
+
+**Verbesserungen**
+
+- Zur Version wechseln *8.22.0* von ZwaveJsUI.
+- Addition von allem *tty* in der Liste der Ports (dies wird mit dem neuen Kern nutzlos sein, der es Ihnen ermöglicht, einen Port direkt anhand der ID auszuwählen)
+- Letzte Route auf der Statistikseite eines Knotens hinzugefügt (abhängig vom Controller-SDK))
+- Letzte Geschwindigkeits-Baudrate auf der Statistikseite eines Knotens hinzugefügt (abhängig vom Controller-SDK))
+- Letzte Geschwindigkeits-Baudrate auf der globalen Statistikseite hinzugefügt (abhängig vom Controller-SDK))
+- Letzte Route auf der globalen Statistikseite hinzugefügt (abhängig vom Controller-SDK))
+- Neueste RSSI auf der globalen Statistikseite hinzugefügt (abhängig vom Controller-SDK))
+- Neueste RSSI auf der Statistikseite eines Knotens hinzugefügt (abhängig vom Controller-SDK))
+- Hinzufügen eines Diagramms *Netzwerkroute* Stellt die zuletzt genommenen Routen dar (wird skaliert und kann möglicherweise nicht alle Fälle verarbeiten, abhängig vom Controller-SDK)
+- Hinzufügen einer Nachricht im Nachrichtencenter, wenn ein Knoten ausfällt (zusätzlich zum Gerätestatusbefehl))
+- Hinzufügen einer Nachricht im Nachrichtencenter, wenn ein Knoten aktiv wird, nachdem er tot ist (zusätzlich zum Gerätestatusbefehl))
+- Hinzufügen einer Nachricht im Nachrichtencenter, wenn ein Knoten nach dem 4-fachen seines Weckintervalls nicht aufgewacht ist
+
+
+**Konfigurationsergänzungen**
+
+- Hinzufügen einer Eigenschaft *ThermostatFanState*
+- Hinzufügen eines Unterbefehls *Etikettenstatus* auf die Barriere-Operator-Eigenschaft (um zusätzlich zum numerischen Befehl einen Beschriftungsbefehl mit Text zu haben))
+- Konfig hinzugefügt *MCOhome Mh8FC* (Eigenschaften : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperatur)
+- Konfig hinzugefügt *Heltun HE-FT01* (Eigenschaften : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperatur, Beleuchtungsstärke, Luftfeuchtigkeit, Leistung, Energie)
+- Konfig hinzugefügt *MCOhome MH3901* (Eigenschaften : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatOperatingState, Temperatur)
+- Hinzufügen eines Unterbefehls *Etikettenstatus* auf die Eigenschaft „Thermostat-Betriebszustand“ (um zusätzlich zum numerischen Befehl einen Beschriftungsbefehl mit Text zu haben))
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *HRT4_SRT321* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *SRT323* um die Eigenschaften zu verwenden
+- Bearbeiten des Bildes *HRT4_SRT321* (Ausschnitt)
+- Bearbeiten des Bildes *SRT323* (Ausschnitt)
+- Bearbeiten des Bildes *SSR303* (Ausschnitt)
+- Bearbeiten des Bildes *SIR321* (Ausschnitt)
+- Bearbeiten des Bildes *SES303* (Ausschnitt)
+- Bearbeiten des Bildes *SES302* (Ausschnitt)
+- Bearbeiten des Bildes *SCSC17* (Ausschnitt)
+
+# 26.06.2023
+
+**Verbesserungen**
+
+- Zur Version wechseln *8.19.0* von ZwaveJsUI.
+- Module *FLIRS* werden im Netz im Netzwerkdiagramm nicht mehr als aktiv betrachtet
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Aeotec DSB04100 Türfenstersensor* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC10 Hochleistungsschalter* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC06106 Intelligenter Energieschalter* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC11 Smart Strip* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC08101 Smart Energy Illuminator* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC014104 Jalousiesteuerung* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC17103 Mikro-Doppelschalter* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC18103 Mikroschalter 2* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC26103 Mikroschalter 2* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC27103 Mikrodimmer 2* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Benext Panikuhr* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Nächster Panikknopf* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Benext Plug-In-Dimmer* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Dome On Off Plug-In-Schalter Plug-In-Dimmer* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Domux Dx2skz* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Everspring AD142* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Everspring AN145* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Everspring EH403 LED-Flutlicht* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Heiman Dx2skz* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Philio Smart Dimmer E27* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Philio Pan03* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Popp Smart Plug* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Popp 009105* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Schlage an der Wand* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Sigma-Netzstecker* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Swiid-Stecker* um die Eigenschaften zu verwenden
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Heat It ZM Dimmer* (Eigenschaften : Mehrstufig, Strom, Energie, CentralScene, Benachrichtigung)
+- Konfig hinzugefügt *Sigma PZ701U* (Eigenschaften : Switch)
+- Konfig hinzugefügt *Neo RC03Z* (Eigenschaften : Zentrale Szene, Batterie)
+- Hinzufügen einer Untereigenschaft *Wärmesensor* im Eigentum *Benachrichtigung*
+- Konfig hinzugefügt *U-Fee GR-201N* (Eigenschaften : Switch)
+
+# 10.04.2023
+
+**Verbesserungen**
+
+- DER *Aktualisierung* kann jetzt bis zu 100 Sekunden statt 60 gehen
+- Zur Version wechseln *8.13.1* von ZwaveJsUI.
+- Ändern der Funktion *pollValue* für Immobilien bei *Wert* (danke @superbricolo)
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Aeotec ZWA19 Wassersensor* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec ZWA24 7in1* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Everspring SM810* um die Eigenschaften zu verwenden
+- Bearbeiten einer Eigenschaft *Geschwindigkeit*
+- Bearbeiten des Bildes *Dlink 510* (Ausschnitt)
+- Bearbeiten des Bildes *Fibaro Fgs-213* (Ausschnitt)
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Sigma PZ701U* (Eigenschaften : Switch)
+- Konfig hinzugefügt *Neo RC03Z* (Eigenschaften : Zentrale Szene, Batterie)
+- Hinzufügen einer Untereigenschaft *Wärmesensor* im Eigentum *Benachrichtigung*
+- Konfig hinzugefügt *U-Fee GR-201N* (Eigenschaften : Switch)
+
 # 14.02.2023
 
 **Konfigurationsänderungen**
@@ -244,7 +431,7 @@
 
 **Verbesserungen**
 
-- Management *Befehle ohne Einheiten* während es (in der zwaveJS-Rückgabe) sollte, um das Protokoll nicht zu verschmutzen 
+- Management *Befehle ohne Einheiten* während es (in der zwaveJS-Rückgabe) sollte, um das Protokoll nicht zu verschmutzen
 
 **Konfigurationsänderungen**
 
@@ -307,7 +494,7 @@
 
 - Ergänzung von a *Versionsverwaltung der ZwaveJS-Benutzeroberfläche*
 - Hinzufügen einer Nachricht in der *Nachrichtenzentrum* und auf der Plugin-Seite, wenn ZwaveJS UI *muss aktualisiert werden*
-- Durchgang der *ZwaveJS-UI-Version* zu Version *8.5.1* 
+- Durchgang der *ZwaveJS-UI-Version* zu Version *8.5.1*
 
 **Konfigurationsänderungen**
 

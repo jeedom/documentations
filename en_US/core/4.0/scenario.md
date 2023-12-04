@@ -260,7 +260,7 @@ A tag is replaced during the execution of the scenario by its value. You can use
 
 > **Tip**
 >
-> To have the leading zeros displayed, use the Date () function. See [here](http://php.net/manual/fr/function.date.php).
+> To have the leading zeros displayed, use the Date () function. See [here](https://www.php.net/manual/fr/function.date.php).
 
 - ``#seconde#`` : Current second (without leading zeros, ex : 6 for 08:07:06).
 - ``#hour#`` : Current time in 24h format (without leading zeros). Ex : 8 for 08:07:06 or 17 for 17:15.
@@ -298,17 +298,17 @@ You also have the following additional tags if your scenario was triggered by an
 
 Several functions are available for the equipment :
 
-- ``average(commande,période)`` and ``averageBetween(commande,start,end)`` : Give the average of the commandover the period (period=[month, day, hour, min] or [PHP expression](http://php.net/manual/fr/datetime.formats.relative.php)) or between the 2 required terminals (in the form Ymd H:i:s or [PHP expression](http://php.net/manual/fr/datetime.formats.relative.php)).
+- ``average(commande,période)`` and ``averageBetween(commande,start,end)`` : Give the average of the commandover the period (period=[month, day, hour, min] or [PHP expression](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) or between the 2 required terminals (in the form Ymd H:i:s or [PHP expression](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
-- ``min(commande,période)`` and ``minBetween(commande,start,end)`` : Give the minimum command over the period (period=[month, day, hour, min] or [PHP expression](http://php.net/manual/fr/datetime.formats.relative.php)) or between the 2 required terminals (in the form Ymd H:i:s or [PHP expression](http://php.net/manual/fr/datetime.formats.relative.php)).
+- ``min(commande,période)`` and ``minBetween(commande,start,end)`` : Give the minimum command over the period (period=[month, day, hour, min] or [PHP expression](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) or between the 2 required terminals (in the form Ymd H:i:s or [PHP expression](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
-- ``max(commande,période)`` and ``maxBetween(commande,start,end)`` : Give the maximum of the commandover the period (period=[month, day, hour, min] or [PHP expression](http://php.net/manual/fr/datetime.formats.relative.php)) or between the 2 required terminals (in the form Ymd H:i:s or [PHP expression](http://php.net/manual/fr/datetime.formats.relative.php)).
+- ``max(commande,période)`` and ``maxBetween(commande,start,end)`` : Give the maximum of the commandover the period (period=[month, day, hour, min] or [PHP expression](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) or between the 2 required terminals (in the form Ymd H:i:s or [PHP expression](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
-- ``duration(commande, valeur, période)`` and ``durationbetween(commande,valeur,start,end)`` : Give the duration in minutes during which the equipment had the chosen value over the period (period=[month, day, hour, min] or [PHP expression](http://php.net/manual/fr/datetime.formats.relative.php)) or between the 2 required terminals (in the form Ymd H:i:s or [PHP expression](http://php.net/manual/fr/datetime.formats.relative.php)).
+- ``duration(commande, valeur, période)`` and ``durationbetween(commande,valeur,start,end)`` : Give the duration in minutes during which the equipment had the chosen value over the period (period=[month, day, hour, min] or [PHP expression](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) or between the 2 required terminals (in the form Ymd H:i:s or [PHP expression](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
-- ``statistics(commande,calcul,période)`` and ``statisticsBetween(commande,calcul,start,end)`` : Give the result of different statistical calculations (sum, count, std, variance, avg, min, max) over the period (period=[month, day, hour, min] or [PHP expression](http://php.net/manual/fr/datetime.formats.relative.php)) or between the 2 required terminals (in the form Ymd H:i:s or [PHP expression](http://php.net/manual/fr/datetime.formats.relative.php)).
+- ``statistics(commande,calcul,période)`` and ``statisticsBetween(commande,calcul,start,end)`` : Give the result of different statistical calculations (sum, count, std, variance, avg, min, max) over the period (period=[month, day, hour, min] or [PHP expression](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) or between the 2 required terminals (in the form Ymd H:i:s or [PHP expression](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
-- ``tendance(commande,période,seuil)`` : Gives the trend of the command over the period (period=[month, day, hour, min] or [PHP expression](http://php.net/manual/fr/datetime.formats.relative.php)).
+- ``tendance(commande,période,seuil)`` : Gives the trend of the command over the period (period=[month, day, hour, min] or [PHP expression](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
 - ``stateDuration(commande)`` : Gives the duration in seconds since the last change in value.
     -1 : No history exists or value does not exist in history.
@@ -325,9 +325,9 @@ Several functions are available for the equipment :
 - ``age(commande)`` : Gives the age in seconds of the value of the command (``collecDate``)
     -1 : The command does not exist or it is not of type info.
 
-- ``stateChanges(commande,[valeur], période)`` and ``stateChangesBetween(commande, [valeur], start, end)`` : Give the number of state changes (towards a certain value if indicated, or in total if not) over the period (period=[month, day, hour, min] or [PHP expression](http://php.net/manual/fr/datetime.formats.relative.php)) or between the 2 required terminals (in the form Ymd H:i:s or [PHP expression](http://php.net/manual/fr/datetime.formats.relative.php)).
+- ``stateChanges(commande,[valeur], période)`` and ``stateChangesBetween(commande, [valeur], start, end)`` : Give the number of state changes (towards a certain value if indicated, or in total if not) over the period (period=[month, day, hour, min] or [PHP expression](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) or between the 2 required terminals (in the form Ymd H:i:s or [PHP expression](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
-- ``lastBetween(commande,start,end)`` : Gives the last value recorded for the equipment between the 2 requested terminals (in the form Ymd H:i:s or [PHP expression](http://php.net/manual/fr/datetime.formats.relative.php)).
+- ``lastBetween(commande,start,end)`` : Gives the last value recorded for the equipment between the 2 requested terminals (in the form Ymd H:i:s or [PHP expression](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
 - ``variable(mavariable,valeur par défaut)`` : Retrieves the value of a variable or the desired value by default.
 
@@ -342,11 +342,11 @@ Several functions are available for the equipment :
 - ``lastScenarioExecution(scenario)`` : Gives the duration in seconds since the last launch of the scenario.
     0 : The scenario does not exist
 
-- ``collectDate(cmd,[format])`` : Returns the date of the last data for the command given in parameter, the 2nd optional parameter allows to specify the return format (details [here](http://php.net/manual/fr/function.date.php)).
+- ``collectDate(cmd,[format])`` : Returns the date of the last data for the command given in parameter, the 2nd optional parameter allows to specify the return format (details [here](https://www.php.net/manual/fr/function.date.php)).
     -1 : The command could not be found,
     -2 : The command is not of type info.
 
-- ``valueDate(cmd,[format])`` : Returns the date of the last data for the command given in parameter, the 2nd optional parameter allows to specify the return format (details [here](http://php.net/manual/fr/function.date.php)).
+- ``valueDate(cmd,[format])`` : Returns the date of the last data for the command given in parameter, the 2nd optional parameter allows to specify the return format (details [here](https://www.php.net/manual/fr/function.date.php)).
     -1 : The command could not be found,
     -2 : The command is not of type info.
 
@@ -361,11 +361,11 @@ Several functions are available for the equipment :
 
 - ``name(type,commande)`` : Used to retrieve the name of the command, equipment or object. Type : cmd, eqLogic or object.
 
-- ``lastCommunication(equipment,[format])`` : Returns the date of the last communication for the equipment given as a parameter, the 2nd optional parameter allows you to specify the return format (details [here](http://php.net/manual/fr/function.date.php)). A return of -1 means that the equipment cannot be found.
+- ``lastCommunication(equipment,[format])`` : Returns the date of the last communication for the equipment given as a parameter, the 2nd optional parameter allows you to specify the return format (details [here](https://www.php.net/manual/fr/function.date.php)). A return of -1 means that the equipment cannot be found.
 
 - ``color_gradient(couleur_debut,couleur_fin,valuer_min,valeur_max,valeur)`` : Returns a color calculated with respect to value in the range color_start / color_end. The value must be between min_value and max_value.
 
-The periods and intervals of these functions can also be used with [PHP expressions](http://php.net/manual/fr/datetime.formats.relative.php) For example :
+The periods and intervals of these functions can also be used with [PHP expressions](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative) For example :
 
 - ``Now`` : now.
 - ``Today`` : 00:00 today (allows for example to obtain results for the day if between ``Today`` and ``Now``).

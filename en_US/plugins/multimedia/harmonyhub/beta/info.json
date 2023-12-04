@@ -14,8 +14,8 @@
         "tr": "Plugin permettant de contrôler un ou plusieurs Harmony Hub"
     },
     "licence": "AGPL",
-    "author": "Ludovic SARAKHA",
-    "require": "3.3.39",
+    "author": "Jeedom SAS",
+    "require": "4.2",
     "category": "multimedia",
     "hasDependency": true,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/harmonyhub\/changelog",
@@ -33,7 +33,7 @@
         "tr"
     ],
     "compatibility": [
-        "miniplus",
+        "atlas",
         "smart",
         "rpi",
         "docker",

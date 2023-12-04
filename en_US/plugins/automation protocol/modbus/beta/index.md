@@ -57,7 +57,7 @@ Given the time spent having to sometimes configure certain equipment, it is poss
 You can therefore import it either on another box easily on a new equipment of the same type (just to change what differs in terms of its connection)
 
 
-On the equipment page, at the bottom right, you have this insert : 
+On the equipment page, at the bottom right, you have this insert :
 
 ![dependances](../images/exportFunction.png)
 
@@ -66,7 +66,7 @@ Click on List of orders to export; a window opens with the existing commands on 
 
 ![dependances](../images/choiceCmds.png)
 
-You can select them all if necessary using the button at the top of the window. 
+You can select them all if necessary using the button at the top of the window.
 When the commands are chosen, click on Validate.
 
 
@@ -87,43 +87,50 @@ To import commands to equipment : click at the top right of the equipment on the
 
 
 
-You can also choose directly an equipment model available in the configuration of the plugin, to load commands provided in this model; 
-Choose the chosen model, then Validate. Then you can Save. 
+You can also choose directly an equipment model available in the configuration of the plugin, to load commands provided in this model;
+Choose the chosen model, then Validate. Then you can Save.
 
 
+MODBUS DETAILS :
 
+
+The size of a Modbus register is 2bytes (2 bytes), i.e. 16bits
 
 
 
 PLAYBACK CONTROLS :
 
-For Coils and Discrete Inputs :  
+For Coils inputs  :  
   - You add a New Modbus Command, and you name the command. You choose an Info type command, under Binary or Numeric type.
-  - Choose the corresponding function code : FC01 or FC02
-  - It is then necessary to choose the starting register as well as the number of bytes to read (the number of registers)
-  When you save, the command created will be deleted, to create as many commands as the specified number of bytes.
-  Ex: If you choose a start register of 1 and a number of bytes of 4, the commands will be created : ReadCoil_1, ReadCoil_2, ReadCoil_3, ReadCoil_4
-  - You can of course then rename the ReadCoils/Discretes to your liking.
+  - Choose the corresponding function code : FC01
+  - It is then necessary to choose the starting register as well as the number of registers to read
+  When you save, the command created will be deleted, to create as many commands as the number of registers specified.
+  Ex: If you choose a start register of 1 and a number of registers of 4, the commands will be created : ReadCoil_1, ReadCoil_2, ReadCoil_3, ReadCoil_4
+  - You can of course then rename the ReadCoils to your liking.
 
+For Fc2 Read Discrete :
+
+- Create an Info type order, under other type
+- Choose fc02
+- Choose Bits, Big Endian, Big Word format
+- Complete the register
+- And fill in the field : Number of bits to read (0 to 15)
+
+When you return from reading, you will have a string type command with the value of the requested bits
 
 
   For Holdings Registers and Inputs Registers:
   - You add a New Modbus Command, and you name the command. You choose an Info type command, under Numeric type.
   - Choose the corresponding format : Float , Long/Integer or Bits
   - Choose the corresponding function code : FC04 or FC03
-  - The starting register as well as the number of bytes : for floats, the maximum number of encoded registers is 4 registers.
-  
-  
+  - The starting register as well as the number of registers : for floats, the value is encoded on a maximum of 4 registers, the minimum is 2.
+
+
+
 Some registers can only be read by reading several registers at the same time on the same command :
 
-example : We create a command, choose Info and other subtype, specifying 10 bytes (10 registers); by checking LectureMultiRegistres, this will automatically create 10 new orders, using the name of the original order, plus the id of the order in iteration. You can of course rename the commands; when reading the original command, its value will contain a character string of the 10 register values, and will update the 10 corresponding commands.
-
-
-
-Some registers may require to be split into several bytes :
-example : a register 17, according to the documentation of the device, must return a value FF or 00 (to know if a fan works or not) on the first byte of the register, as well as a numerical value on the second byte of the register.
-It is then necessary to create a command in fc3, and to specify in the nbOctets field the figure 2; this will create 2 additional commands, based on the name of the initial command; these 2 commands each correspond to a byte. The values returned above will be in hexadecimal; if you need the numerical value, then you have to check Hexa2dec on this same command.
-
+example : We create a command, choose Info and other subtype, specifying 10 registers;
+See Specific Parameters at the end of the documentation
 
 
 WRITE COMMANDS:
@@ -137,15 +144,27 @@ IMPORTANT :
  Their principle of operation:
 
 
-
 ![cmdEcritures](../images/modbusCmdsEcritures.png)
 
 
-NEW WRITING :
 
- - By creating an Action -> Other subtype command, then by choosing Fc16, and by filling in the Start Register and the new Register Table line in the Parameters of the command, we can execute this command to write from the start register the entered values :
 
- Ex : Start Register : 10
+  CHANGING REGISTER BITS :
+
+  To change the bit of a register, you must use the message WriteBit command; in the configuration of the command, in the Start register field, you must choose the number of the register to write. No other configuration needed
+  Then, on the message body of the command on the dashboard, you must use the following syntax : bitValue&indexbit
+  Possible bit value 0 or 1
+  indexBit is the value between 0 and 15 (values included)
+  Please refer to the documentation of your equipment for the index of the bit to change
+
+
+
+
+   NEW WRITE ON SEVERAL REGISTERS TO A REQUEST:
+
+      - By creating an Action -> Other subtype command, then choosing Fc16, and filling in the Start Register and the new Register Table line in the Command Parameters, we can execute this command to write from the start register the entered values :
+
+      Ex : Start Register : 10
       Line Table Register : 10-45-22-25.6-2360
       We will send on registers 10,11,12,13 and 14, the values 10,45,22,22.6 and 2360
       Values must be separated by a - , and for decimal numbers, put a .
@@ -162,24 +181,24 @@ NEW WRITING :
 
 
   - MultiCoil Writing : in the configuration of the command, you must enter the starting register
-  By default, the functionCode is fc15. Please leave this configuration as default.
+      By default, the functionCode is fc15. Please leave this configuration as default.
 
-  To change the values on the registers, use this syntax:
-  -  Ex : 01110111 So this will send from the configured starting register the values True(1) or False(0) to the registers
+      To change the values on the registers, use this syntax:
+      Ex : 01110111 So this will send from the configured starting register the values True(1) or False(0) to the registers
 
 
 
   - Write Bit : in the configuration of the command, you must enter the starting register, as well as the order of the bytes and word.
-  By default, the functionCode is fc03, because this command will give the value of the register set in binary to the command info "infobitbinary".
+     By default, the functionCode is fc03, because this command will give the value of the register set in binary to the command info "infobitbinary".
 
-  Please leave this configuration as default.
+     Please leave this configuration as default.
 
-  On the info "infobitbinary" command, you will have the binary value of the parameter register at the Write Bit command.
-  To change the bit on the register
+     On the info "infobitbinary" command, you will have the binary value of the parameter register at the Write Bit command.
+     To change the bit on the register :
 
-  - valuetosend&PositionBit :   Ex:  1&4 We send the value 1 to the bit of position 4 starting from the right
-  On the info command "infobitbinary", you see the value 10000101, which corresponds to the binary value of the parameter register.
-  By writing 1&6, you will now have the value : 10100101 on the configured register.
+        valuetosend&PositionBit :   Ex:  1&4 We send the value 1 to the bit of position 4 starting from the right
+        On the info command "infobitbinary", you see the value 10000101, which corresponds to the binary value of the parameter register.
+        By writing 1&6, you will now have the value : 10100101 on the configured register.
 
 
 
@@ -187,14 +206,7 @@ IMPORTANT :
 
 
 Some PLCs do not have the fc06 function
-You can create an Action command, under Message type, and choose fc16
-Check Fc16 Register Not Tracked
-In the dashboard, you must use this syntax :
-departure register ! value & nbregisters separated by a |
-
-Ex: 7!122.5&2|10!22&2
-
-We will write from register 7, the value 122.5 on 2 registers and also from register 10, the value 22, on 2 registers
+  See Specific Parameters at the end of the documentation
 
 
 
@@ -230,5 +242,54 @@ To Write to a Holding Register :
 
 
 
-When a write is done, whether it succeeds or not, a message appears on Jeedom. 
+When a write is done, whether it succeeds or not, a message appears on Jeedom.
 You can disable/enable this message from the plugin configuration.
+
+
+
+
+
+# Specific Parameters
+
+HEX RETURN :
+  To have a command that returns the value of the register in HexaDecimal (for a command that reports the errors of an equipment for example), you create your command, configure it as usual,
+  and tick Return Hexa.
+
+  This will create a new command on return that will have the name of the original command, followed by _HEXAVALUE
+
+
+
+MULTI-REGISTER READING :
+  by checking LectureMultiRegistres, this will automatically create as many new commands as the number specified in Number of registers, using the name of the original command, plus the id of the command in iteration. You can of course rename the commands; when reading the original command, its value will contain a character string of the 10 register values, and will update the 10 corresponding commands.
+
+
+
+Fc16 UNTRACKED REGISTERS :
+  Some PLCs do not have the fc06 function
+  You can create an Action command, under Message type, and choose fc16
+  Check Fc16 Register Not Tracked
+  In the dashboard, you must use this syntax :
+  departure register ! value & nbregisters separated by a |
+
+  Ex: 7!122.5&2|10!22&2
+
+  We will write from register 7, the value 122.5 on 2 registers and also from register 10, the value 22, on 2 registers
+
+
+
+OPERATION ON ORDER :
+  For an operation on the return of value : in the Operation field on the order, you can fill in a mathematical operation by putting the tag #value# to indicate the value of this command :
+  example : (#value# / 10 ) * 2
+  The calculation will be performed on the return of data from this command.
+  Make good use of * for multiplications
+
+
+
+
+
+
+# Import/Export XLS CommandsX
+
+After the creation of an equipment, you can import an xlsx file for the creation of your orders
+The template file can be found in plugins/modbus/data/templateXlsx/exportModbus.xls
+You can access it and download it via your Jeedom -> Settings-> System-> File editor

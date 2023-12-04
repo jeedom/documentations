@@ -1,0 +1,37 @@
+{
+	"id" : "edf_tempo",
+	"name" : "EDF Tempo",
+	"description" : {
+		"fr_FR": "Plugin permettant de récupérer les informations EDF Tempo et d'afficher les jours restants pour chaque couleur, ainsi que les tarifs en heure creuse / heure pleine."
+	},
+	"utilization": "Installez le plugins, activez le et ajouter un équipement. Aucune autre configuration n'est requise. Vous pouvez personnaliser les tarifs Tempo dans la page de configuration du Plugin.",
+	"link": {
+		"forum": "https://community.jeedom.com/t/edf-tempo-connaitre-la-couleur-du-jour-de-demain/110520"
+	},
+	"licence" : "AGPL",
+	"author" : "IDO",
+	"require" : "4.2.0",
+	"category" : "energy",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://github.com/idoexp/jeedom_edf_tempo#changelog",
+	"documentation" : "https://github.com/idoexp/jeedom_edf_tempo#edf-tempo-pour-jeedom",
+	"link" : {
+		"forum":"https://community.jeedom.com/t/edf-tempo-connaitre-la-couleur-du-jour-de-demain/110520",
+		"video" : "Lien vers une video"
+	},
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
+}

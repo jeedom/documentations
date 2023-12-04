@@ -1,5 +1,10 @@
 # Registro de cambios Jeedom V4.4
 
+>**IMPORTANTE**
+>
+>Nota versión 4.4 es una actualización importante de jeedom, incluso si visualmente los cambios para usted serán mínimos, se ha reescrito todo el código de la interfaz (para que sea más rápido en particular), así como también se ha revisado la gestión de las dependencias de php. Incluso si el equipo Jeedom y los betatesters han realizado muchas pruebas, hay tantas versiones de Jeedom como Jeedom. Por lo tanto, no es posible garantizar que funcionará para todos en el 100% de los casos. Por lo tanto, le recomendamos que no salte sobre la actualización.
+>Como recordatorio, en caso de problemas, puede escribir al soporte (si tiene un paquete de servicio o más) desde su página de perfiles de mercado.
+
 
 ### 4.4 : Prerrequisitos
 
@@ -26,8 +31,10 @@
 - **Administración** : Capacidad para establecer widgets de comando predeterminados.
 - **Tablero** : posibilidad en la página de configuración del objeto de pedirle a jeedom que reordene el equipo de acuerdo con su uso.
 - **Temática** : Posibilidad de elegir el tema directamente desde la url (agregando &theme=Dark o &theme=Light).
+- **Temática** : Eliminación del tema **Legado Core2019** *(alpha)*.
 - **Relación** : Posibilidad de elegir el tema durante un informe en una página de jeedom.
 - **Menú Jeedom** : Un retraso de 0.25s se introdujo en la apertura de submenús.
+- **Sistema** : Posibilidad de añadir comandos personalizados (ver documentación)
 
 
 ### 4.4 : Autre
@@ -36,7 +43,7 @@
 - **Centro** : Lista más detallada de dispositivos USB.
 - **Centro** : Se ha añadido un menú contextual en diferentes lugares al nivel de los checkboxes para seleccionarlos todos, ninguno, o invertir la selección *(ver [Desarrollador de documentos](https://doc.jeedom.com/es_ES/dev/core4.4))*.
 - **Liberación** : Actualizar Highchart v9.3.2 a v10.3.2 (El módulo *calibre sólido* ya no importa).
-- **Pedidos** :  agregó una opción (en alfa) para no ejecutar una acción si el estado del equipo ya es bueno
+- **Pedidos** :  Se agregó una opción *(alpha)* no ejecutar una acción si el equipo ya está en el estado esperado.
 
 ### 4.4 : Remarques
 

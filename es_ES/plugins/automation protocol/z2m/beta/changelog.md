@@ -1,36 +1,57 @@
 # Registro de cambios jeeZigbee
 
-# Registro de cambios jeeZigbee
-
-# Registro de cambios Zigbee2Mqtt
-
-# Plantilla de complemento de registro de cambios
-
 >**IMPORTANTE**
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# 19/01/2022
+- Soporte de actualización de firmware Zigbee en Luna
+- Soporte para ID lógico largo en comandos
+- Posibilidad de crear un comando de actualización (debe agregar un comando, luego escribir acción/default y en el campo id lógico poner actualizar)
+- Posibilidad de añadir un cron que solicite la actualización de los valores (ojo, nada garantiza que el módulo realmente los actualice, debe soportarlo))
 
-- Optimizaciones V4.2
 
-# 20/11/2020
+# 11/06/2023
 
-- Presentación oficial V4
-- Se agregaron elementos de información y parámetros para los comandos
+- Se corrigió un error en la gestión de grupos
+- Optimización de código
+- Se corrigieron errores durante la instalación del complemento (error 500)
 
-# 16/11/2020
+# 22/09/2023
 
-- Versión mínima de Jeedom: 3.3.39 (última actualización crítica)
+- Posibilidad de elegir la versión de zigbee2mqtt
 
-# 11/04/2020
+>**IMPORTANTE**
+>
+>Para aquellos que tienen problemas con un módulo inalcanzable después de la actualización anterior, deben restaurar una copia de seguridad previa a la actualización y luego rehacer la actualización. Pido disculpas sinceras por este error que les ocurre a algunos de ustedes, proviene de una función inesperada de zigbee2mqtt que no tengo en mis diferentes laboratorios.
 
-- Nueva presentación de la lista de objetos
+# 20/09/2023
 
-# 08/07/2020
+- Se corrigió un error en la versión zigbee2mqtt
 
-- Agregar comentarios
+# 19/09/2023
 
-# 17/05/2020
+- Se corrigió un error al actualizar las dependencias (zigbee2mqtt) si restauraba jeedom
 
-- Actualización de documentación
+# 09/08/2023
+
+- Se corrigió un error que impedía que los pedidos se crearan correctamente
+
+# 09/04/2023
+
+- Capacidad para configurar el puerto de escucha de zigbee2mqtt
+- Se solucionó un problema con los comandos de tipo de color
+- Corrección en la generación de comandos que no podían funcionar en ciertos casos
+- Nomenclatura de comandos mejorada
+- Posibilidad para cajas atlas o controladores tipo Elelabs de actualizar el firmware desde jeedom
+
+# 07/03/2023
+
+- Solucionado un problema al enviar un comando de posicionamiento (tipo obturador)
+
+# 27/06/2023
+
+- Se solucionó un problema con la detección de ciertos módulos (incluido profalux)
+
+# 30/05/2023
+
+- Versión inicial

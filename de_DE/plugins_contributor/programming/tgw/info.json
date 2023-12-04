@@ -1,0 +1,34 @@
+{
+	"id": "tgw",
+	"name": "Theengs Gateway",
+	"description": {
+		"fr_FR": "Plugin pour installer et configurer facilement des antennes tournant sous Theengs Gateway qui permet de capter des périphérique bluetooth (BLEA) et les remonter vers Jeedom pour être intégré via le plugin MQTT Discovery"
+	},
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.2.0",
+	"category": "programming",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-tgw",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"v4",
+		"atlas"
+	],
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/tgw/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/tgw/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/tgw/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/tgw/#language#/"
+}

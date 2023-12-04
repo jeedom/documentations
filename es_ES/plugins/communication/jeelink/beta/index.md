@@ -23,11 +23,15 @@ Este complemento no requiere ninguna configuración especial y simplemente debe 
 
 >**Importante**
 >
->Tenga en cuenta que la desactivación del complemento conduce a la eliminación de los problemas de destino del complemento sin ningún medio para recuperarlos (excepto restaurar una copia de seguridad)
+>Tenga en cuenta que desactivar el complemento da como resultado la eliminación de los Jeedoms de destino del complemento sin ningún medio para recuperarlos (excepto restaurar una copia de seguridad))
 
 >**Importante**
 >
 >Las configuraciones de red de todos los Jeedoms *(origen Destino)* DEBE estar bien, de lo contrario el complemento no funcionará.
+
+>**Importante**
+>
+>Definitivamente no deberías tener la misma clave API en varios objetivos de Jeedom. La clave de un dispositivo se basa en la clave API (por lo tanto, no debe cambiarse después de la configuración) y la identificación de origen del dispositivo. Por lo tanto, tener la misma clave API en el Jeedom de destino causará problemas de sincronización con el equipo que puede no aparecer en el origen.
 
 ## Configuración de Target Jeedom
 
@@ -38,7 +42,7 @@ Para hacerlo, vaya al menú **Complementos → Comunicación → Jeedom Link** l
 Se abrirá una ventana desde la que podrá añadir o modificar **Jeedom (s) Target (s))**. Para agregar un **Jeedom Target**, solo completa :
 
 - El nombre de **Jeedom Target**.
-- La dirección IP o el nombre DNS al que pertenece el **Jeedom Target** puede ser alcanzado.
+- La dirección IP o el nombre DNS al que **Jeedom Target** puede ser alcanzado.
 - El **Clave API del complemento Jeedom Link** del **Jeedom Target**.
 - El modo de acceso, interno o externo (usado para la retroalimentación del **Fuente de la libertad** hacia **Jeedom Target**).
 
@@ -60,7 +64,7 @@ Añade el equipo que quieras subir a la **Jeedom Target** haciendo clic en **Agr
 
 >**INFORMACIÓN**
 >
->Los complementos que usan un widget específico no lo encontrarán en el **Jeedom Target** *(Complemento Cámara, Redes, etc…​)*.
+>Los complementos que usan un widget específico no lo encontrarán en el **Jeedom Target** *(Complemento de cámara, redes, etc.)*.
 
 >**Importante**
 >

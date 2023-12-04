@@ -4,11 +4,24 @@
 >
 >Zur Erinnerung: Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 29.05.2023
+
+Erstellen Sie ein Backup von JEEDOM, bevor Sie die neue Beta installieren.
+- Schreiben Sie 1 Bit
+- Bestellungen über Xlsx importieren/exportieren
+- Neue Syntaxoperation auf Befehl (siehe Dok)
+- Fixs
+
+# 15.05.2023
+
+- Neue UI-Befehlseinstellungen
+- Conversion-Optimierungswerte
+- Hex-Rückgabeparameter
+
 # 03.04.2023
 
 - Neue UI-Befehlseinstellungen
 - ArrayRegistres-Parameter zum fortlaufenden Schreiben ab einem Startregister
- MACHEN SIE EINE JEEDOM-SICHERUNG, bevor Sie diese Beta testen. Die Konfigurationen des Befehls-Plugins sind lang und mühsam, daher wird empfohlen, im Falle eines Versions-Upgrade-Problems ein Backup zu haben.
 
 # 10.01.2023
 - Importpakete für Python 3.9 korrigiert

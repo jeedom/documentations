@@ -4,12 +4,18 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 06.06.2023
+
 - Grundlegende Überarbeitung des Plugins 
 - Wechsel von Python zu PHP (schneller)
 
 >**Wichtig**
 >
 >Achtung, bestimmte Befehle werden gelöscht und andere hinzugefügt. Nach dem Update ist es ABSOLUT erforderlich, Ihre Szenarien zu überprüfen und andere, die Befehle aus dem Plugin verwenden
+
+# 01.02.2022
+
+- Fehler im TTS behoben
 
 # 30.01.2022
 

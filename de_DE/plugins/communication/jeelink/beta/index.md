@@ -23,11 +23,15 @@ Dieses Plugin erfordert keine spezielle Konfiguration und muss nach der Installa
 
 >**Wichtig**
 >
->Bitte beachten Sie, dass die Deaktivierung des Plugins dazu führt, dass die Zieldateien des Plugins gelöscht werden, ohne dass sie wiederhergestellt werden können (außer dem Wiederherstellen eines Backups)
+>Bitte beachten Sie, dass die Deaktivierung des Plugins dazu führt, dass die Ziel-Jedoms des Plugins gelöscht werden, ohne dass eine Möglichkeit zur Wiederherstellung besteht (außer der Wiederherstellung eines Backups))
 
 >**Wichtig**
 >
 >Die Netzwerkkonfigurationen aller Jeedoms *(Quellenziel)* MUSS in Ordnung sein, sonst funktioniert das Plugin nicht.
+
+>**Wichtig**
+>
+>Sie sollten auf keinen Fall auf mehreren Jeedom-Zielen denselben API-Schlüssel haben. Der Schlüssel eines Geräts basiert auf dem API-Schlüssel (daher sollte er nach der Konfiguration nicht geändert werden) und der Quell-ID des Geräts. Derselbe API-Schlüssel auf dem Ziel-Jeedom führt daher zu Synchronisierungsproblemen mit Geräten, die möglicherweise nicht auf der Quelle angezeigt werden.
 
 ## Target Jeedom-Konfiguration
 
@@ -38,7 +42,7 @@ Gehen Sie dazu in das Menü **Plugins → Kommunikation → Jeedom Link** Klicke
 Es öffnet sich ein Fenster, in dem Sie hinzufügen oder ändern können **Jeedom (s) Ziel (e))**. Hinzufügen eines **Jeedom Ziel**, einfach ausfüllen :
 
 - Der Name von **Jeedom Ziel**.
-- Die IP-Adresse oder der DNS-Name, an den die **Jeedom Ziel** kann erreicht werden.
+- Die IP-Adresse oder der DNS-Name, zu dem die **Jeedom Ziel** kann erreicht werden.
 - Der **API-Schlüssel des Jeedom Link-Plugins** die **Jeedom Ziel**.
 - Der Zugriffsmodus, intern oder extern (verwendet für Feedback von der **Jeedom Source** in Richtung **Jeedom Ziel**).
 
@@ -60,7 +64,7 @@ Fügen Sie die Ausrüstung hinzu, die Sie hochladen möchten **Jeedom Ziel** ank
 
 >**INFORMATION**
 >
->Plugins, die ein bestimmtes Widget verwenden, finden es nicht auf der **Jeedom Ziel** *(Plugin Kamera, Netzwerke, etc…​)*.
+>Plugins, die ein bestimmtes Widget verwenden, finden es nicht auf der **Jeedom Ziel** *(Plugin-Kamera, Netzwerke usw.)*.
 
 >**Wichtig**
 >

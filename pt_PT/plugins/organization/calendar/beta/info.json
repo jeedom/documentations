@@ -35,12 +35,13 @@
         "tr"
     ],
     "compatibility": [
-        "miniplus",
+        "luna",
         "smart",
         "atlas",
         "rpi",
         "docker",
         "diy",
-        "v4"
+        "v4",
+        "mobile"
     ]
 }

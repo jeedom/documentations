@@ -4,6 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 14/06/2023
+
+- Versão mínima do núcleo necessária: 4.2
+- Pequenas correções e otimizações na tela de gerenciamento de equipamentos
+
 # 19/11/2020
 
 - Nova apresentação da lista de objetos

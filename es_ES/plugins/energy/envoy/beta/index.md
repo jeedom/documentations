@@ -47,3 +47,7 @@ El complemento le permite informar la siguiente información (si tiene un Enviad
     - Potencia máxima (en W)
     - % de carga
     - Temperatura máxima (en ° C)
+
+# Firmware V7
+
+Si está en el firmware v7, puede recuperar el token usted mismo yendo [allá](https://entrez.enphaseenergy.com/), conéctese luego haga clic en "Crear token de acceso" y copie el código jwt en la configuración del complemento jeedom (Por el momento no sabemos si este código es válido por un período ilimitado o solo por unos meses). **O** usted indica en su nombre de usuario de Enphase en "[v7] Nombre de usuario", su contraseña en "[v7] Contraseña" y finalmente el número de serie de su puerta de enlace en "[v7] Número de serie del envío", con esta información jeedom recuperará automáticamente el token tan pronto como sea necesario.

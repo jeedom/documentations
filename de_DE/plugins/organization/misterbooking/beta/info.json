@@ -1,0 +1,47 @@
+{
+    "id": "misterbooking",
+    "name": "Misterbooking",
+    "description": {
+        "fr_FR": "Gestionnaire de réservations Misterbooking",
+        "en_US": "Reservations manager Misterbooking",
+        "es_ES": "Gestor de reservas Misterbooking",
+        "de_DE": "Reservierungsmanager Misterbooking",
+        "ru_RU": "Gestionnaire de réservations Misterbooking",
+        "id_ID": "Gestionnaire de réservations Misterbooking",
+        "it_IT": "Gestionnaire de réservations Misterbooking",
+        "ja_JP": "Gestionnaire de réservations Misterbooking",
+        "pt_PT": "Gerente de reservas Misterbooking",
+        "tr": "Gestionnaire de réservations Misterbooking"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2.0",
+    "category": "organization",
+    "hasDependency": true,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/misterbooking\/beta\/changelog",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/misterbooking\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/misterbooking\/beta",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/misterbooking",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "v4",
+        "atlas"
+    ]
+}

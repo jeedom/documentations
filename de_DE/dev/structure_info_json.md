@@ -1,10 +1,10 @@
-**Info.json-Dateidokumentation**
+# Info.json-Dateidokumentation
 
 Integriert seit Version 3.0 von Jeedom, der Datei ``info.json`` ist für das ordnungsgemäße Funktionieren von Plugins und deren ordnungsgemäße Bereitstellung auf dem Jeedom-Markt obligatorisch.
 
 Die Info-Datei.json wird im Ordner gespeichert ``/plugin_info/`` Ihres Plugins.
 
-Liste der Dateivariablen ``info.json``
+## Liste der Dateivariablen ``info.json``
 
 Mit * gekennzeichnete Felder sind Pflichtfelder.
 
@@ -17,7 +17,7 @@ Felder                   | Werte                                                
 ``licence`` *                | Art der Lizenz.                                                                                                          |
 ``author`` *                 | Name des Plugin-Autors, der nach der Installation des Plugins in den Plugin-Informationen angezeigt wird.         |
 ``require`` *                | Erforderliche Mindestversion von Jeedom (Core).                                                                                                |
-``category`` *               | Ranking-Kategorie des Plugins auf dem Jeedom Market. **Es ist wichtig, die Nomenklatur in der folgenden Tabelle zu beachten** |
+``category`` *               | Ranking-Kategorie des Plugins auf dem Jeedom Market. **Es ist unbedingt zu respektieren [Nomenklatur der Tabelle unten](https://doc.jeedom.com/de_DE/dev/structure_info_json/#NOMENCLATURE%20CATEGORIES)** |
 ``display``                  | Wenn das Plugin ein dediziertes Panel auf dem Desktop verwendet,. Dies ist der Name der Hauptdatei für dieses Panel.                    |
 ``mobile``                   | Wenn das Plugin ein dediziertes Panel auf der Jeedom-WebApp verwendet. Dies ist der Name der Hauptdatei für dieses Panel.   |
 ``changelog`` *              | HTML-Link zu Changelog.                                                                                              |
@@ -28,17 +28,17 @@ Felder                   | Werte                                                
 ``link`` -> ``forum``               | HTML-Link zum Forum zum offiziellen Thema des Plugins.                                                                  |
 ``languages``                | Liste der für das Plugin verfügbaren Sprachen: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP``, ``pt_PT``            |
 ``compatibility``            | Plugin-Kompatibilität: Miniplus, Smart, Docker, RPI, DIY, Mobileapp, v4.                                                   |
-``hasDependency``            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
-``hasOwnDeamon``             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
+``hasDependency``            | «true» si [Das Plugin muss Abhängigkeiten installieren](https://doc.jeedom.com/de_DE/dev/daemon_plugin#Les%20d%C3%A9pendance), sinon «false» ou absent.                                              |
+``hasOwnDeamon``             | «true» si [Das Plugin muss Daemons ausführen](https://doc.jeedom.com/de_DE/dev/daemon_plugin#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), sinon «false» ou absent.                                                   |
 ``maxDependancyInstallTime`` | Maximal zulässige Zeit für die Installation von Abhängigkeiten, ausgedrückt in Minuten.                                            |
-``specialAttributes`` | Ermöglicht Plugins, zusätzliche Parameter für Objekte oder Benutzer anzufordern (siehe Beispiel der Plugin-Vorlage))                                            |
+``specialAttributes`` | Permet aux plugin de demander des [parametre suplémentaire](https://doc.jeedom.com/de_DE/dev/structure_info_json#SpecialAttributes) sur [des objets](https://doc.jeedom.com/de_DE/dev/structure_info_json#Attribute%20Object) oder [Benutzer](https://doc.jeedom.com/de_DE/dev/structure_info_json#Attributs%20User) (Schauen Sie sich das Beispiel des Template-Plugins genau an) (Siehe Erläuterungen unten)                                            |
 ``issue``                    | URL zum Bugtracker, falls extern (wenn nicht ausgefüllt, erhalten Sie eine E-Mail)
 
-**Beispiel** :
+## Exemple
 
 [Plugin-Vorlagendatei / plugin_info / info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
 
-**KATEGORIE-NOMENKLATUR**
+## KATEGORIE-NOMENKLATUR
 
 Jeedom Markt         | Info.json               |
 --------------------- | ----------------------- |
@@ -57,3 +57,47 @@ Hausautomationsprotokoll   | ``automation protocol``     |
 Gesundheit                 | ``health``                  |
 Sicherheit              | ``security``                |
 Automatismus           | ``automatisation``          |
+
+## SpecialAttributes
+
+Diese Attribute ermöglichen es, Benutzer nach zusätzlichen Parametern für jedes Objekt („Objekt“ im Sinne von Jeedom) zu fragen : Menü „Extras/Objekte“; Typischerweise stellt dies die Räume in unserer Hausautomation dar) oder für jeden Benutzer.
+
+### Utilisation
+
+In Ihrem Code können Sie den Wert dieser Parameter mithilfe des „User“-Objekts für ein Benutzerattribut oder des „jeeObject“-Objekts für ein Objektattribut abrufen:
+
+„
+Benutzer : $user->getOptions(‹ plugin::Plugin_ID::Schlüssel ›)
+Objekt : $jeeObject->getConfiguration(‹ plugin::Plugin_ID::Schlüssel ›)
+„
+* ID_plugin ist die ID Ihres Plugins
+* clef ist der Schlüssel in Ihrer JSON-Konfiguration (im Beispiel: foo, foo 2 ...)
+
+### Objektattribute
+
+Die Syntax lautet wie folgt, um 2 spezifische Parameter pro Objekt vorzuschlagen :
+„
+	"specialAttributes" : {
+		"object" : {
+			"toto" : {"name" : {"fr_FR" : "Plop, ich bin ein besonderes Attribut"},"type" : "input"},
+			"toto2" : {"name" : {"fr_FR" : "Plop, ich habe ein spezielles Attribut Nummer"},"Typ" : "number"}
+		}
+	}
+„
+
+Der Benutzer kann diese beiden Parameter für jedes Objekt im Objektkonfigurationsmenü (Menü Extras / Objekte) definieren).
+Hier ein freier Text und ein digitaler.
+![Attribut Objet](images/SpecialAttributeObject.png)
+
+### Benutzerattribute
+
+„
+	"specialAttributes" : {
+		"user" : {
+			"toto" : {"name" : {"fr_FR" : "Plop, ich bin ein besonderer Attributbenutzer"},"Typ" : "Wählen Sie „Werte“ aus" : [{"Wert" : "1", "Name" : "Wert 1"},{"Wert" : "plopp“, „Name" : "Plop-Wert"}]}
+		}
+	}
+„
+
+Hier ermöglicht dieses Attribut jedem Benutzer, einen eigenen Parameter zu definieren (im Menü Einstellungen / Präferenzen))
+![Attribut Utilisateur](images/SpecialAttributeUser.png)

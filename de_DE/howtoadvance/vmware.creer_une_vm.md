@@ -2,14 +2,14 @@
 
 Wir werden hier sehen, wie Sie eine VM unter VMware erstellen.
 
-Bevor Sie etwas Wichtiges über VMware wissen müssen, gibt es zwei Möglichkeiten, es zu verwalten :
+Es gibt etwas Wichtiges über VMware zu wissen: Es gibt zwei Möglichkeiten, es zu verwalten :
 
 -   die Weboberfläche (standardmäßig in 6 vorhanden.0 Update 2 oder über ein Vib für die anderen Versionen) wird über IP\_ESXI / ui darauf zugegriffen
 -   der schwere und historische Client von VMware (vSphere-Client)
 
-Hier werde ich hauptsächlich das Webinterface verwenden, da ich denke, dass es die Zukunft von VMware ist, die den Thick Client zunehmend aufgibt (neben all den neuen Funktionen seit dem 5.1 kann nicht mit dem Thick Client verwendet werden).
+Hier werde ich hauptsächlich die Weboberfläche verwenden, weil ich denke, dass es die Zukunft von VMware ist, die zunehmend auf den Heavy-Client verzichtet (eigentlich alle neuen Funktionen seit 5.1 kann nicht mit dem Thick Client verwendet werden).
 
-Beachten Sie auch, dass die Weboberfläche bei VMware noch implementiert ist. In der Tat werden Sie sicherlich auf einige Fehler oder Verlangsamungen stoßen, wenn Sie die Seite nur ein wenig aktualisieren, und sie beginnt ohne Sorgen von vorne.
+Beachten Sie auch, dass die Weboberfläche bei VMware noch implementiert wird. Tatsächlich werden Sie sicherlich auf einige Fehler oder Verlangsamungen stoßen, aber nach einer kleinen Aktualisierung der Seite wird sie ohne Probleme wieder gestartet.
 
 # Verbindung zum Webinterface
 
@@ -28,14 +28,14 @@ Geben Sie Ihre Anmeldeinformationen bei ESXI ein :
 Wie Sie sehen können, ist die Benutzeroberfläche sehr schön und ermöglicht es Ihnen, viele Dinge zu tun. Ich werde nicht auf Details eingehen, aber Sie können bereits von diesem Bildschirm aus :
 
 -   Stoppen Sie den ESXi / starten Sie ihn neu
--   Siehe Ressourcennutzung (CPU, Speicher und Festplatte))
+-   Ressourcennutzung anzeigen (CPU, Speicher und Festplatte))
 -   Informationen zu Ihrem System haben (Betriebszeit, Version von VMware, Version des BIOS, Anzeige von Datenspeichern)
 -   Schaltfläche zum Erstellen einer VM (wir werden sie direkt danach verwenden)
 -   Mit einer Aktionsschaltfläche, mit der Sie in den Wartungsmodus wechseln können (praktisch, wenn Sie einen ESXi-Cluster haben, den Sie sonst nie verwenden werden), aktivieren / deaktivieren Sie den SSH-Dienst (wird im Tutorial zur Sicherungskonfiguration verwendet)
 
 # Installations-ISO senden
 
-Nach dem Herunterladen Ihrer Installation ISO ([hier](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) zum Beispiel für debian 8.5 in netinstall) müssen Sie es in Ihrem Datenspeicher ablegen.
+Nach dem Herunterladen Ihrer Installation ISO ([hier](https://cdimage.debian.org/cdimage/archive/11.8.0/amd64/iso-cd/debian-11.8.0-amd64-netinst.iso) zum Beispiel für Debian 11.8 in netinstall) müssen Sie es in Ihrem Datenspeicher ablegen.
 
 Klicken Sie dazu auf Datenspeicher :
 
@@ -83,13 +83,13 @@ Geben Sie den Zieldatenspeicher an :
 
 ![vmware.createvm8](images/vmware.createvm8.PNG)
 
-Hier können Sie die Parameter Ihres Computers konfigurieren (Festplatte, CPU, Speicher…)) :
+Hier können Sie die Parameter Ihrer Maschine konfigurieren (Festplatte, CPU, Speicher usw.)) :
 
 ![vmware.createvm9](images/vmware.createvm9.PNG)
 
 > **Notiz**
 >
-> Alle diese Parameter können anschließend ohne Bedenken geändert werden. Beachten Sie jedoch, dass es nicht wirklich möglich ist, die Größe einer Festplatte zu reduzieren. Wir können sie erhöhen (aber Sie müssen wissen, wie man sie verwaltet) 'OS dann) aber nicht reduzieren.
+> Alle diese Parameter können nachträglich problemlos geändert werden. Beachten Sie jedoch, dass es nicht wirklich möglich ist, die Größe einer Festplatte zu verringern. Sie können sie vergrößern (Sie müssen jedoch wissen, wie Sie dies auf der Ebene der Festplatte verwalten). . 'OS next), aber nicht reduzieren.
 
 Wählen Sie im CD / DVD-Laufwerk "ISO-Dateidatenbank" aus" :
 

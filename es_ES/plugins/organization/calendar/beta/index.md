@@ -27,7 +27,7 @@ En esta página encontrará la lista de sus agendas. Haga clic en una agenda par
 
 - **Lista de eventos del calendario** : muestra la lista de todos los eventos del calendario *(un clic en el nombre le permite editar el evento)*.
 
-La tabla **Calendario** le permite mostrar una vista de tipo de agenda que incluye todos los eventos. Puede moverse por el calendario, elegir mostrarlo por día, semana o mes e incluso mover eventos arrastrando y soltando. Al hacer clic en un evento, se abre la ventana de edición del evento en cuestión.
+La tabla **Calendario** le permite mostrar una vista de tipo de agenda que incluye todos los eventos. Puede moverse por el calendario y elegir mostrarlo por año, mes, semana, día o horario semanal. Al hacer clic en un evento, se abre la ventana de edición del evento en cuestión.
 
 # Eventos
 
@@ -124,18 +124,18 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
 ## event::getAllCalendarAndEvents
 **Parámetros de entrada**
 /Aucun/
-```
+```json
 {
     "jsonrpc": "2.0",
     "method": "event::getAllCalendarAndEvents",
     "params": {
         "apikey": "0EVJcR8UyTBlhUFYbcbombaAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
         "plugin": "calendar"
-    }    
+    }
 }
 ```
 **Ejemplo de resultado**
-```
+```json
 {
   "jsonrpc": "2.0",
   "id": 99999,
@@ -335,10 +335,10 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
 }
 ```
 
-## event::getAllEvents**
+## event::getAllEvents
 **Parámetros de entrada**
 - eqLogic_id /int/
-```
+```json
 {
     "jsonrpc": "2.0",
     "method": "event::getAllEvents",
@@ -346,11 +346,11 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
         "apikey": "0EVJcR8UyTBlhUFYbcbombaAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
         "plugin": "calendar",
         "eqLogic_id": 641
-    }    
+    }
 }
 ```
 **Ejemplo de resultado**
-```     
+```json
 {
   "jsonrpc": "2.0",
   "id": 99999,
@@ -439,10 +439,10 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
 }
 ```
 
-## event::byId**
+## event::byId
 **Parámetros de entrada**
 - evento_id /int/
-```
+```json
 {
     "jsonrpc": "2.0",
     "method": "event::byId",
@@ -450,11 +450,11 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
         "apikey": "0EVJcR8UyTBlhUFYbcbombaAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
         "plugin": "calendar",
         "evento_id": 5
-    }    
+    }
 }
 ```
 **Ejemplo de resultado**
-```
+```json
 {
   "jsonrpc": "2.0",
   "id": 99999,
@@ -526,10 +526,10 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
 }
 ```
 
-## event::save**
+## event::save
 **Parámetros de entrada**
 - evento /objeto json/
-```
+```json
 {
     "jsonrpc": "2.0",
     "method": "event::save",
@@ -600,11 +600,11 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
   },
   "until": ""
 }
-    }    
+    }
 }
 ```
 **Ejemplo de resultado**
-```    
+```json
 {
   "jsonrpc": "2.0",
   "id": 99999,
@@ -676,10 +676,10 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
 }
 ```
 
-## event::remove**
+## event::remove
 **Parámetros de entrada**
 - evento_id /int/
-```
+```json
 {
     "jsonrpc": "2.0",
     "method": "event::remove",
@@ -687,11 +687,11 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
         "apikey": "0EVJcR8UyTBlhUFYbcbombaAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
         "plugin": "calendar",
         "evento_id": 5
-    }    
+    }
 }
 ```
 **Ejemplo de resultado**
-```
+```json
 {
   "jsonrpc": "2.0",
   "id": 99999,

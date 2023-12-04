@@ -5,6 +5,39 @@
 >**IMPORTANTE**
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
+>
+
+# 20/10/2023
+- Adição do LiXee-GSM às regras USB (desconecte e reconecte o equipamento para vê-lo com o novo link USB)
+
+# 14/09/2023
+- Nova interface para o plugin móvel.
+- Hotspot
+- 2 wi-fis disponíveis.
+- LTE com suporte para plug-in SMS
+- Novo formato de cartão SD
+- Priorização de conexões.
+- Defina um endereço IP (Wi-Fi e Ethernet)
+
+# 09/06/2023
+- Mudando o cenário do botão Power na parte traseira da caixa. (veja a documentação)
+- Atualização LTE para erro de solicitação LTE enquanto a caixa não é compatível.
+  
+# 02/05/2023
+
+- LocalHost patch (mudança de direitos).
+- Função patch done (piscar do led verde da caixa resolvido).
+- Função LTE adicionada para caixas com opção LTE.
+- Adição da função LORA para caixas com opção LORA.
+- Adição de usb fixo (ttyUSBLUNA-Zigbee para usar dnas o plug-in Zigbee para não precisar mais se preocupar com a mudança de usb.)
+
+
+# 27/03/2023
+
+- Nova imagem Luna
+- Patch de host local
+- Patch de bateria
+- Patch USB corrigido (LORA-zigbee corrigido)
 
 # 21/02/2023
 

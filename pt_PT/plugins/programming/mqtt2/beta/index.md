@@ -40,7 +40,7 @@ Uma vez que o corretor Mosquitto está instalado *(se necessário)*, você pode 
 
   >**IMPORTANTE**
   >
-  >A autenticação é obrigatória no modo local.
+  >A autenticação é obrigatória no modo local. Após a adição, o Jeedom deve ser reiniciado para que isso tenha efeito.
 
 - **Jeedom root topic** : Tópico raiz para enviar um comando ao Jeedom ou no qual ele envia os eventos. Atenção só é possível colocar 1 ou 2 níveis no máximo.
 
@@ -98,8 +98,14 @@ Você deve indicar o tópico raiz do equipamento *(`teste` por exemplo)*, então
 
 # Autodescoberta)
 
-O plug-in pode fazer a descoberta automática de vários tipos de módulos. Para fazer isso, você só precisa autorizar a descoberta automática na página principal do plug-in e reiniciar o demônio.
+O plugin pode descobrir automaticamente vários tipos de módulos. Para fazer isso, você só precisa autorizar a descoberta automática na página principal do plug-in e reiniciar o demônio.
 
 >**IMPORTANTE**
 >
 >Para módulos do tipo tasmota é absolutamente necessário que a configuração completa do tópico seja `%topic%/%prefix%/`
+
+# FAQ
+
+>**Após uma atualização dos pacotes do sistema (apt) ou atualizações autônomas, nada funciona mais**
+>
+>A atualização do pacote mosquitto redefine o arquivo de serviço para o padrão e, portanto, o mosquitto não aponta mais para o arquivo de configuração correto. Para corrigir isso é muito simples, basta reiniciar a instalação do mosquitto na página de configuração do plugin.
