@@ -4,6 +4,17 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+- Zigbee firmware update support on Luna
+- Support for long logicalId on commands
+- Possibility of creating a refresh command (you must add a command then type action/default and in the logical id field put refresh)
+- Possibility of adding a cron which requests the updating of the values (be careful, nothing guarantees that the module will really update them, it must support it)
+
+
+# 06/11/2023
+
+- Fixed a bug in group management
+- Code Optimization
+- Fixed bugs during plugin installation (error 500)
 
 # 09/22/2023
 

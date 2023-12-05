@@ -87,6 +87,7 @@ También se puede acceder a otros parámetros más específicos :
 
 - **Identificación** : identificador único de dispositivo. Incluso durante una reinclusión o si cambia el tipo de controlador Zigbee.
 - **Controlador Z2m** : permite seleccionar el controlador Zigbee en comunicación con el equipo (por el momento el plugin no soporta múltiples controladores)
+- **Actualización automática (cron)** : permite agregar un cron que solicita la actualización de los valores del equipo (ojo, nada garantiza que el módulo realmente los actualice, debe soportarlo))
 
 La parte **Información** permite ver el modelo del equipo. También encontramos el visual del equipo (no modificable porque proviene de zigbee2mqtt) y el acceso a la configuración del módulo
 
@@ -194,7 +195,7 @@ Zigbee2mqtt le permite agregar convertidores externos (para admitir módulos no 
 
 >**Recibí el error `Error: Restablecer error: Error: {"sequence":-1} después de 10000ms` y una clave ELELABS o una caja Atlas**
 >
->Debes actualizar el firmware de tu llave zigbee, para ello en la configuración del plugin jeezigbee haz clic en actualizar firmware y llena los diferentes campos en la ventana luego valida. Tenga cuidado de no hacer esto en una caja luna, se rompe la tecla zigbee.
+>Debes actualizar el firmware de tu llave zigbee, para ello en la configuración del plugin jeezigbee haz clic en actualizar firmware y llena los diferentes campos en la ventana luego valida. Tenga cuidado de no hacer esto en una caja luna, se rompe la tecla zigbee. Si la actualización no funciona, entonces debes intentar hacer una “Corrección del cargador de arranque”".
 
 >**Mi equipo no es reconocido**
 >
@@ -215,3 +216,7 @@ Zigbee2mqtt le permite agregar convertidores externos (para admitir módulos no 
 >**Tecla SONOFF modelo P: Intermitente y solución del problema del “tipo de registro desconocido 3”**
 >
 >Se propuso una explicación sobre cómo mostrar la clave en el foro. Si tiene el error de tipo 3 de registro desconocido, es necesario convertir su archivo .hexadecimal a .bin como se explica en el tutorial. Gracias a JeedGeek por la explicación [aquí](https://community.jeedom.com/t/flasher-sa-cle-usb-zigbee-sonoff-p-avec-lutilitaire-ti-sous-windows/109453)
+
+>**Tengo error al actualizar firmware en Luna**
+>
+>Debe desactivar el demonio del complemento (Complemento -> Administración de complementos -> Jeezigbee luego Administración automática -> desactivar), reiniciar la luna (Configuración -> Sistema -> Reiniciar). Una vez que la caja se reinicie, debes reiniciar la actualización del firmware. Tenga en cuenta que esto puede tardar hasta 10 minutos. No olvide reactivar la gestión automática de demonios una vez que haya completado la actualización.

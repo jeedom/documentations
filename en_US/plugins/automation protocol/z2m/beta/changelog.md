@@ -4,10 +4,13 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-- Zigbee firmware update support on Luna
+# 05/12/2023
+
+- Support for zigbee firmware update on Luna (beta)
 - Support for long logicalId on commands
 - Possibility of creating a refresh command (you must add a command then type action/default and in the logical id field put refresh)
 - Possibility of adding a cron which requests the updating of the values (be careful, nothing guarantees that the module will really update them, it must support it)
+- Fixed a bug with the latest version of zigbee2mqtt
 
 
 # 06/11/2023

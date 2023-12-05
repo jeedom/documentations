@@ -87,6 +87,7 @@ Auf andere, spezifischere Parameter kann ebenfalls zugegriffen werden :
 
 - **Identifikation** : eindeutige Gerätekennung. Auch bei einer Wiedereinbindung oder wenn Sie den Typ des Zigbee-Controllers wechseln.
 - **Z2m-Controller** : ermöglicht Ihnen die Auswahl des Zigbee-Controllers für die Kommunikation mit dem Gerät (im Moment unterstützt das Plugin nicht mehrere Controller))
+- **Selbstaktualisierung (cron)** : ermöglicht das Hinzufügen eines Crons, der die Aktualisierung der Gerätewerte anfordert (Achtung, nichts garantiert, dass das Modul sie wirklich aktualisiert, es muss dies unterstützen))
 
 Das Teil **Information** ermöglicht es, das Modell der Ausrüstung zu sehen. Wir finden auch die visuelle Darstellung des Geräts (nicht veränderbar, da es von zigbee2mqtt stammt) und Zugriff auf die Konfiguration des Moduls
 
@@ -194,7 +195,7 @@ Mit Zigbee2mqtt können Sie externe Konverter hinzufügen (um Module zu unterst�
 
 >**Ich habe die Fehlermeldung „Fehler“ erhalten: Fehler zurücksetzen: Error: {"sequence":-1} nach 10000ms` und einem ELELABS-Schlüssel oder einer Atlas-Box**
 >
->Sie müssen die Firmware Ihres ZigBee-Schlüssels aktualisieren. Klicken Sie dazu in der Konfiguration des JeezigBee-Plugins auf Firmware aktualisieren, füllen Sie die verschiedenen Felder im Fenster aus und bestätigen Sie dann. Achten Sie darauf, dies nicht auf einer Luna-Box zu tun, da sonst der ZigBee-Schlüssel beschädigt wird.
+>Sie müssen die Firmware Ihres ZigBee-Schlüssels aktualisieren. Klicken Sie dazu in der Konfiguration des JeezigBee-Plugins auf Firmware aktualisieren, füllen Sie die verschiedenen Felder im Fenster aus und bestätigen Sie dann. Achten Sie darauf, dies nicht auf einer Luna-Box zu tun, da sonst der ZigBee-Schlüssel beschädigt wird. Wenn das Update nicht funktioniert, müssen Sie versuchen, eine „Bootloader-Korrektur“ durchzuführen".
 
 >**Meine Ausrüstung wird nicht erkannt**
 >
@@ -215,3 +216,7 @@ Mit Zigbee2mqtt können Sie externe Konverter hinzufügen (um Module zu unterst�
 >**SONOFF Modell P-Taste: Flashen und Beheben des Problems „Unbekannter Datensatztyp 3“**
 >
 >Im Forum wurde eine Erklärung zum Blinken des Schlüssels vorgeschlagen. Wenn der Fehler „Unbekannter Datensatztyp 3“ auftritt, müssen Sie Ihre Datei konvertieren .verhexen .bin, wie im Tutorial erklärt. Vielen Dank an JeedGeek für die Erklärung [Hier](https://community.jeedom.com/t/flasher-sa-cle-usb-zigbee-sonoff-p-avec-lutilitaire-ti-sous-windows/109453)
+
+>**Beim Aktualisieren der Firmware auf Luna ist ein Fehler aufgetreten**
+>
+>Sie müssen den Plugin-Daemon deaktivieren (Plugin -> Plugin-Verwaltung -> Jeezigbee, dann Automatische Verwaltung -> Deaktivieren) und Luna neu starten (Einstellungen -> System -> Neu starten)). Sobald die Box neu gestartet ist, müssen Sie das Firmware-Update erneut starten. Bitte beachten Sie, dass dies bis zu 10 Minuten dauern kann. Vergessen Sie nicht, die automatische Daemon-Verwaltung nach Abschluss des Updates wieder zu aktivieren.

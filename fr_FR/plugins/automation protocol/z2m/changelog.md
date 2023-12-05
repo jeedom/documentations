@@ -4,6 +4,15 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 05/12/2023
+
+- Support de la mise à jour du firmware zigbee sur Luna (beta)
+- Support de logicalId long sur les commandes
+- Possibilité de créer une commande refresh (il faut ajouter une commande puis type action/defaut et dans le champs logical id mettre refresh)
+- Possibilité d'ajouter un cron qui demande l'actualisation des valeurs (attention rien ne garantie que le module va vraiment les mettres à jour il faut qu'il le supporte)
+- Correction d'un bug avec la derniere version de zigbee2mqtt
+
+
 # 06/11/2023
 
 - Correction d'un bug sur la gestion des groupes

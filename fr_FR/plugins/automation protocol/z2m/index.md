@@ -87,6 +87,7 @@ D'autres paramètres plus spécifiques sont également accessibles :
 
 - **Identification** : identifiant unique de l'équipement. Même lors d'une ré-inclusion ou si vous changez de type de contrôleur Zigbee.
 - **Contrôleur Z2m** : permet de sélectionner le contrôleur Zigbee en communication avec l'équipement (pour le moment le plugin ne supporte pas de multiple controleur)
+- **Auto-actualisation (cron)** : permet dajouter un cron qui demande l'actualisation des valeurs de l'équipement (attention rien ne garantie que le module va vraiment les mettres à jour il faut qu'il le supporte)
 
 La partie **Informations** permet de voir le modèle de l'équipement. On y retrouve également le visuel de l'équipement (non modifiable car provenant de zigbee2mqtt) et l'accès a la configuration du module
 
@@ -194,7 +195,7 @@ Zigbee2mqtt vous autorise à ajouter des convertisseurs externe (pour supporter 
 
 >**J'ai l'erreur `Error: Reset error: Error: {"sequence":-1} after 10000ms` et une clef ELELABS ou une box Atlas**
 >
->Il faut mettre a jour le firmware de votre clef zigbee, pour cela dans la configuration du plugin jeezigbee cliquez sur mettre à jour le firmware et remplisez les different champs de la fenetre puis validez. Attention a ne surtout pas faire ca sur une box luna, cela casse la clef zigbee.
+>Il faut mettre a jour le firmware de votre clef zigbee, pour cela dans la configuration du plugin jeezigbee cliquez sur mettre à jour le firmware et remplisez les different champs de la fenetre puis validez. Attention a ne surtout pas faire ca sur une box luna, cela casse la clef zigbee. Si la mise à jour ne marche pas il faut alors tester de faire une "Correction bootloader".
 
 >**Mon équipement n'est pas reconnu**
 >
@@ -215,3 +216,7 @@ Zigbee2mqtt vous autorise à ajouter des convertisseurs externe (pour supporter 
 >**Clé SONOFF modèle P: Flashage et résolution du problème "unknown record type 3**
 >
 >Une explication du flashage de la clé a été proposé sur le forum. Si vous avez l'erreur unkown record type3 il est nécéssaire de convertir votre fichier .hex en .bin comme expliqué dans le tutoriel. Merci à JeedGeek pour l'explication [ici](https://community.jeedom.com/t/flasher-sa-cle-usb-zigbee-sonoff-p-avec-lutilitaire-ti-sous-windows/109453)
+
+>**J'ai une erreur lors de la mise à jour du firmware sur Luna**
+>
+>Il faut desactiver le démon du plugin (Plugin -> Gestion de plugin -> Jeezigbee puis Gestion automatique -> désactiver), redemarrer la luna (Réglage -> Systeme -> Redemarrer). Une fois la box redemarrer il faut relancer la mise à jour du firmware. Attention cela peut prendre jusqu'a 10min. N'oubliez pas une fois la mise à jour faire de réactiver la gestion automatique du démon.

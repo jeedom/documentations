@@ -4,6 +4,17 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+- Suporte para atualização de firmware Zigbee no Luna
+- Suporte para ID lógico longo em comandos
+- Possibilidade de criar um comando de atualização (você deve adicionar um comando e digitar action/default e no campo id lógico colocar atualização)
+- Possibilidade de adicionar um cron que solicite a atualização dos valores (atenção, nada garante que o módulo realmente os atualizará, deve suportá-lo)
+
+
+# 11/06/2023
+
+- Corrigido um bug no gerenciamento de grupo
+- Otimização de código
+- Corrigidos bugs durante a instalação do plugin (erro 500)
 
 # 22/09/2023
 

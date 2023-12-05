@@ -4,10 +4,13 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-- Unterstützung für Zigbee-Firmware-Updates auf Luna
+# 12.05.2023
+
+- Unterstützung für ZigBee-Firmware-Update auf Luna (Beta)
 - Unterstützung für lange logische IDs bei Befehlen
 - Möglichkeit, einen Aktualisierungsbefehl zu erstellen (Sie müssen einen Befehl hinzufügen, dann action/default eingeben und im Feld „Logische ID“ „refresh“ eingeben)
 - Möglichkeit, einen Cron hinzuzufügen, der die Aktualisierung der Werte anfordert (Achtung, nichts garantiert, dass das Modul sie wirklich aktualisiert, es muss dies unterstützen))
+- Ein Fehler mit der neuesten Version von zigbee2mqtt wurde behoben
 
 
 # 11.06.2023
