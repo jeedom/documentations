@@ -80,6 +80,8 @@ Una vez que se han configurado los comandos, puede hacer clic en Validar.
 Los comandos se inyectarán en el servidorModbus y, por lo tanto, serán accesibles a través de un clienteModbus, en el puerto elegido en la configuración
 
 
-Para una actualización de los valores, puede configurar el cron en la configuración del complemento.
+Al configurar y agregar un comando al servidor Modbus, a través del modal, se creará un Jeedom Listener en el complemento, para monitorear los cambios en el estado del comando inicial y así actualizar el comando alias en jeeModbusServer
+
+
 
 

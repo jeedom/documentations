@@ -80,6 +80,8 @@ Nachdem die Befehle konfiguriert wurden, können Sie auf Validieren klicken.
 Die Befehle werden auf dem ServerModbus injiziert und sind daher über einen ClientModbus auf dem in der Konfiguration ausgewählten Port zugänglich
 
 
-Für eine Aktualisierung der Werte können Sie den Cron in der Konfiguration des Plugins einstellen.
+Beim Konfigurieren und Hinzufügen eines Befehls zum Modbus-Server über das Modal wird ein Jeedom-Listener im Plugin erstellt, um Änderungen im Status des ursprünglichen Befehls zu überwachen und so den Alias-Befehl auf dem jeeModbusServer zu aktualisieren
+
+
 
 

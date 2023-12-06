@@ -80,6 +80,8 @@ Une fois les commandes configurées, on peut cliquer sur Valider.
 Les commandes seront injectées sur le serverModbus, et donc accesibles via un clientModbus, sur le port choisi en configuration
 
 
-Pour une actualisation des valeurs, on peut regler le cron dans la configuration du plugin.
+A la configuration et l'ajout d'une commande sur le serveur Modbus, via la modale, alors un Listener Jeedom sera créé sur le plugin, pour surveiller les changements d'etats de la commande initiale, et ainsi mettre a jour l'alias de commande sur le jeeModbusServer
+
+
 
 

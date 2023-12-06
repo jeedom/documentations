@@ -41,9 +41,6 @@
         "tr"
     ],
     "compatibility": [
-        "smart",
-        "rpi",
-        "diy",
         "v4",
         "atlas"
     ]
