@@ -18,7 +18,7 @@ Après installation et activation du plugin, l’installation des dépendances d
 
 ## Configuration du plugin
 
-Pour commencer la configuration du plugin, il est nécessaire de sélectionner le mode de connexion au broker parmis les 3 choix possibles :
+Pour commencer la configuration du plugin, il est nécessaire de sélectionner le mode de connexion au broker parmi les 3 choix possibles :
 
 - **Broker local** : Le broker Mosquitto est installé directement sur la machine qui héberge Jeedom *(mode par défaut)*.
 
@@ -36,7 +36,7 @@ Une fois le broker Mosquitto installé *(si nécessaire)*, vous pouvez passer à
 
   - en mode local vous pouvez renseigner un `nom d'utilisateur:mot de passe` par ligne, chaque couple d'identifiant aura un accès valide au broker. S'il n'existe aucun identifiant, Jeedom en crée un automatiquement.
 
-  - en mode standalone il suffit de mettre sur la première ligne le couple `identifiant:mot de passe` pour Jeedom (exemple : si le nom d'utilisateur est `jeedom`et le mot de passe `mqtt`, il faut renseigner `jeedom:mqtt`).
+  - en mode standalone il suffit de mettre sur la première ligne le couple `identifiant:mot de passe` pour Jeedom (exemple : si le nom d'utilisateur est `jeedom` et le mot de passe `mqtt`, il faut renseigner `jeedom:mqtt`).
 
   >**IMPORTANT**
   >

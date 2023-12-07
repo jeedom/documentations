@@ -18,7 +18,7 @@ Nach der Installation und Aktivierung des Plugins sollte die Installation von Ab
 
 ## Plugin-Setup
 
-Um die Konfiguration des Plugins zu starten, muss der Verbindungsmodus zum Broker unter den 3 möglichen Optionen ausgewählt werden :
+Um mit der Konfiguration des Plugins zu beginnen, muss aus den drei möglichen Optionen der Verbindungsmodus zum Broker ausgewählt werden :
 
 - **Lokaler Makler** : Der Mosquitto-Broker wird direkt auf dem Rechner installiert, der Jeedom hostet *(Standardmodus)*.
 

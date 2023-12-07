@@ -18,7 +18,7 @@ Después de instalar y activar el complemento, la instalación de dependencias d
 
 ## Configuración del complemento
 
-Para iniciar la configuración del plugin, es necesario seleccionar el modo de conexión al broker entre las 3 opciones posibles :
+Para comenzar a configurar el complemento, es necesario seleccionar el modo de conexión al broker entre las 3 opciones posibles :
 
 - **Corredor local** : El corredor Mosquitto se instala directamente en la máquina que aloja Jeedom *(modo por defecto)*.
 
@@ -36,7 +36,7 @@ Una vez instalado el bróker Mosquitto *(si es necesario)*, puedes continuar con
 
   - en modo local puede ingresar un `nombre de usuario:password` por línea, cada par de identificadores tendrá acceso válido al corredor. Si no hay un identificador, Jeedom crea uno automáticamente.
 
-  - en modo standalone es suficiente poner en la primera línea el identificador de pareja `:contraseña` para Jeedom (ejemplo : si el nombre de usuario es `jeedom` y la contraseña `mqtt`, debe completar `jeedom`:mqtt'').
+  - en modo standalone es suficiente poner en la primera línea el identificador de pareja `:contraseña` para Jeedom (ejemplo : si el nombre de usuario es `jeedom` y la contraseña `mqtt`, debes ingresar `jeedom`:mqtt'').
 
   >**IMPORTANTE**
   >
