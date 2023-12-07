@@ -3,12 +3,14 @@
 	"name" : "Govee",
 	"description" : "Plugin permettant de piloter les équipements Govee",
 	"licence" : "AGPL",
-	"author" : "jeremyarnoux",
+	"author" : "Jexou",
 	"require" : "4.2",
 	"category" : "devicecommunication",
 	"hasDependency" : false,
-	"changelog_beta" : "https://jeremyarnoux.github.io/jeedom/plugins/govee/changelog.html",
-	"documentation_beta" : "https://jeremyarnoux.github.io/jeedom/plugins/govee/index.html",
+	"changelog" : "https://youdom.net/plugin-govee-changelog/",
+	"documentation" : "https://youdom.net/plugin-govee-with-youdom/",
+	"changelog_beta" : "https://youdom.net/plugin-govee-changelog/",
+	"documentation_beta" : "https://youdom.net/plugin-govee-with-youdom/",
 	"language" : ["fr_FR"],
 	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
 }
