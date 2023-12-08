@@ -7,6 +7,11 @@
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 >
 
+# 12/07/2023
+
+- Novo módulo para hotspot com dhcp.
+
+
 # 18/11/2023
 
 - Várias correções e melhorias de código
