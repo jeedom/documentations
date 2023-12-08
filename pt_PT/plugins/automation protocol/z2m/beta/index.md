@@ -88,6 +88,7 @@ Outros parâmetros mais específicos também estão acessíveis :
 - **Identificação** : identificador de dispositivo exclusivo. Mesmo durante uma reinclusão ou se você alterar o tipo de controlador Zigbee.
 - **Controlador Z2m** : permite-lhe seleccionar o controlador Zigbee em comunicação com o equipamento (no momento o plugin não suporta múltiplos controladores)
 - **Autoatualização (cron)** : permite adicionar um cron que solicita a atualização dos valores do equipamento (atenção, nada garante que o módulo realmente os atualizará, ele deve suportá-lo)
+- **Não permitir mensagens se o equipamento não for visto há mais de (s))** : cada dispositivo zigbee tem uma data de "última comunicação" (visto pela última vez) em casos raros é possível que o Zigbee2mqtt envie mensagens do dispositivo mesmo que ele não esteja mais lá (não está mais conectado ou não resta bateria). Neste caso para evitar a "falsa" atualização dos comandos é possível dizer "se a última comunicação do equipamento for anterior a X segundos então ignore as atualizações dos valores". Observe que esta opção é reservada para usuários avançados.
 
 A parte **Informação** permite ver o modelo do equipamento. Encontramos também o visual do equipamento (não modificável porque vem do zigbee2mqtt) e acesso à configuração do módulo
 

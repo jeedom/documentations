@@ -4,10 +4,13 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-- Soporte de actualización de firmware Zigbee en Luna
+# 12/05/2023
+
+- Soporte para la actualización del firmware zigbee en Luna (beta)
 - Soporte para ID lógico largo en comandos
 - Posibilidad de crear un comando de actualización (debe agregar un comando, luego escribir acción/default y en el campo id lógico poner actualizar)
 - Posibilidad de añadir un cron que solicite la actualización de los valores (ojo, nada garantiza que el módulo realmente los actualice, debe soportarlo))
+- Se corrigió un error con la última versión de zigbee2mqtt
 
 
 # 11/06/2023

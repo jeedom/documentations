@@ -4,6 +4,11 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+
+# 08/12/2023
+
+- Ajout d'une option "Ne pas autorisé les message si l'équipement n'a pas été vue depuis plus de (s)" (Réservé aux utilisateurs avancés)
+
 # 05/12/2023
 
 - Support de la mise à jour du firmware zigbee sur Luna (beta)

@@ -4,6 +4,11 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+
+# 12/08/2023
+
+- Se agregó una opción "No permitir mensajes si el equipo no ha sido visto por más de (s)" (Reservado para usuarios avanzados)
+
 # 12/05/2023
 
 - Soporte para la actualización del firmware zigbee en Luna (beta)
