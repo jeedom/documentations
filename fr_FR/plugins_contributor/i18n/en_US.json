@@ -22,7 +22,7 @@
         "Voir la documentation pour les modèles supportés": "See documentation for supported models",
         "Plugin PoeleAgua pour la gestion des poêles à bois et granulé utilisant la plateforme aqua iot  de micronova (navel 2": "PoeleAgua plugin for managing wood and pellet stoves using the micronova aqua iot platform (navel 2",
         "Poêle Agua IOT Micronova navel 2": "Agua IOT Micronova navel 2 stove",
-        "Mais c'est également compatible avec tout équipement supportant 'MQTT Discovery' tel que Nuki Smart Lock Pro, myfox2mqtt, zwave-js, zigbee2mqtt": "But it is also compatible with any equipment supporting 'MQTT Discovery' such as Nuki Smart Lock Pro, myfox2mqtt, zwave-js, zigbee2mqtt",
+        "Mais c'est également compatible avec tout équipement supportant 'MQTT Discovery": "But it is also compatible with any equipment supporting 'MQTT Discovery",
         "MQTT Discovery": "MQTT Discovery",
         "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' (ou 'HA Discovery') qui existe sous home assistant": "Plugin for automatic discovery of MQTT equipment based on the principle of 'MQTT Auto Discovery' (or 'HA Discovery') which exists under home assistant",
         "Protocole domotique": "Domotic protocol",
