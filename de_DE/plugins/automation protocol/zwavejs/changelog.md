@@ -4,6 +4,12 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 12.01.2023
+
+**Verbesserungen**
+
+- Zur Version wechseln *9.5.0* von ZwaveJsUI
+
 # 27.10.2023
 
 **Konfigurationsergänzungen**
@@ -93,7 +99,7 @@
 - Hinzufügen eines Diagramms *Netzwerkroute* Stellt die zuletzt genommenen Routen dar (wird skaliert und kann möglicherweise nicht alle Fälle verarbeiten, abhängig vom Controller-SDK)
 - Hinzufügen einer Nachricht im Nachrichtencenter, wenn ein Knoten ausfällt (zusätzlich zum Gerätestatusbefehl))
 - Hinzufügen einer Nachricht im Nachrichtencenter, wenn ein Knoten aktiv wird, nachdem er tot ist (zusätzlich zum Gerätestatusbefehl))
-- Hinzufügen einer Nachricht im Nachrichtencenter, wenn ein Knoten nach dem 4-fachen seines Weckintervalls nicht aufgewacht ist 
+- Hinzufügen einer Nachricht im Nachrichtencenter, wenn ein Knoten nach dem 4-fachen seines Weckintervalls nicht aufgewacht ist
 
 
 **Konfigurationsergänzungen**
@@ -425,7 +431,7 @@
 
 **Verbesserungen**
 
-- Management *Befehle ohne Einheiten* während es (in der zwaveJS-Rückgabe) sollte, um das Protokoll nicht zu verschmutzen 
+- Management *Befehle ohne Einheiten* während es (in der zwaveJS-Rückgabe) sollte, um das Protokoll nicht zu verschmutzen
 
 **Konfigurationsänderungen**
 
@@ -488,7 +494,7 @@
 
 - Ergänzung von a *Versionsverwaltung der ZwaveJS-Benutzeroberfläche*
 - Hinzufügen einer Nachricht in der *Nachrichtenzentrum* und auf der Plugin-Seite, wenn ZwaveJS UI *muss aktualisiert werden*
-- Durchgang der *ZwaveJS-UI-Version* zu Version *8.5.1* 
+- Durchgang der *ZwaveJS-UI-Version* zu Version *8.5.1*
 
 **Konfigurationsänderungen**
 

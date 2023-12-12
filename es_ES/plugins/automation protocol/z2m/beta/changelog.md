@@ -5,6 +5,9 @@
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
 
+- Eliminación de la noción de instancia
+- Posibilidad de iniciar una inclusión directamente en un módulo enrutador
+
 # 12/08/2023
 
 - Se agregó una opción "No permitir mensajes si el equipo no ha sido visto por más de (s)" (Reservado para usuarios avanzados)

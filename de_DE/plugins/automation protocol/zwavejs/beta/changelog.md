@@ -4,11 +4,34 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# 12.01.2023
+# 12.11.2023
 
 **Verbesserungen**
 
-- Zur Version wechseln *9.5.0* von ZwaveJsUI
+- Zur Version wechseln *9.5.1* von ZwaveJsUI (um einen Port im Pfadformat auswählen zu können, der auf bestimmten VMs erforderlich ist, müssen Sie den Kern aktualisieren)
+**Behebt**
+
+- Behebung des Include-Fehlers *S2* Auf der Seite der ZwaveJS-Benutzeroberfläche wurde Folgendes korrigiert: (Tatsächlich wurden die Rückrufe nicht durchgeführt, es sei denn, Sie hatten ein Fenster auf der ZwaveJS-Benutzeroberfläche geöffnet)
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Shelly Qubino Wave 13:00 Uhr* (Eigenschaften : Schalter, Stromversorgung, Energie, Netzbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung)
+- Konfig hinzugefügt *Shelly Qubino Welle 1* (Eigenschaften : Schalter, Stromversorgung, Energie, Netzbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung)
+- Konfig hinzugefügt *Shelly Qubino Wave Shutter* (Eigenschaften : Verschluss, Stromversorgung, Energie, Zeigerbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung)
+- Konfig hinzugefügt *Shelly Qubino Wave 14:00 Uhr* (Eigenschaften : Schalter, Stromversorgung, Energie, Netzbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung)
+- Konfig hinzugefügt *Shelly Qubino Welle 1* (Eigenschaften : Schalter, Zeigerbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung)  *Zweifel, ob Strom und Energie hinzugefügt werden sollen (machen Sie ein Ticket, wenn das Gerät den Verbrauch melden soll, aber ich glaube nicht)*
+- Hinzufügen einer Eigenschaft *Fensterverkleidung*
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Benext-Tastatur* um die Eigenschaften zu nutzen (Kopie von Zipato, aber in der Benext-Version))
+- Ändern der Konfiguration *MCOhome Mh8FC* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *MCOhome Mh8FC-4* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Qubino ZMNKID – Flush OnOff Thermostat 2* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Widom Meta-Kabelmotor* , um die Windows-Abdeckungseigenschaft zu verwenden
+- Ändern der Konfiguration *Wenzhou TZ78* Verwendung von Endpunkt 0 anstelle von Endpunkt 1 (gemäß Rückmeldung von Benutzern))
+- Bearbeiten des Bildes *MCOhome Mh8FC* (Ausschnitt)
+- Bearbeiten des Bildes *MCOhome Mh8FC-4* (Ausschnitt)
 
 # 27.10.2023
 

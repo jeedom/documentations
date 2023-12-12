@@ -5,6 +5,9 @@
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 
+- Suppression de la notion d'instance
+- Possibilité de lancer une inclusion directement sur un module routeur
+
 # 08/12/2023
 
 - Ajout d'une option "Ne pas autorisé les message si l'équipement n'a pas été vue depuis plus de (s)" (Réservé aux utilisateurs avancés)

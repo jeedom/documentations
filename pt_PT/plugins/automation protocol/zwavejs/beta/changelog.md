@@ -4,11 +4,34 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# 12/01/2023
+# 12/11/2023
 
 **Melhorias**
 
-- Mudar para a versão *9.5.0* por ZwaveJsUI
+- Mudar para a versão *9.5.1* do ZwaveJsUI (para poder escolher uma porta no formato de caminho necessário em determinadas VMs você deve atualizar o núcleo)
+**Conserta**
+
+- Correção inclui bug *S2* corrigido no lado da UI do ZwaveJS a seguir aumentou (na verdade, os retornos de chamada não eram feitos a menos que você tivesse uma janela aberta na interface da UI do ZwaveJS)
+
+**Adições de configuração**
+
+- Configuração adicionada *Shelly Qubino Onda 13h* (propriedades : Interruptor, alimentação, energia, notificação de rede elétrica, notificação de sobrecorrente, notificação de sensor de calor)
+- Configuração adicionada *Shelly Qubino Onda 1* (propriedades : Interruptor, alimentação, energia, notificação de rede elétrica, notificação de sobrecorrente, notificação de sensor de calor)
+- Configuração adicionada *Obturador de ondas Shelly Qubino* (propriedades : Obturador, alimentação, energia, notificação manual, notificação de sobrecorrente, notificação de sensor de calor)
+- Configuração adicionada *Shelly Qubino Onda 14h* (propriedades : Interruptor, alimentação, energia, notificação de rede elétrica, notificação de sobrecorrente, notificação de sensor de calor)
+- Configuração adicionada *Shelly Qubino Onda 1* (propriedades : Interruptor, notificação de mãos, notificação de sobrecorrente, notificação de sensor de calor)  *duvido se devo adicionar Potência e Energia (faça um ticket se o dispositivo deveria informar consumo, mas acho que não)*
+- Adicionando uma propriedade *Cobertura de janelas*
+
+**Alterações de configuração**
+
+- Mudando a configuração *Teclado Benex* usar as propriedades (cópia do Zipato mas na próxima versão)
+- Mudando a configuração *MCOhome Mh8FC* para usar as propriedades
+- Mudando a configuração *MCOhome Mh8FC-4* para usar as propriedades
+- Mudando a configuração *Qubino ZMNKID - Termostato de descarga OnOff 2* para usar as propriedades
+- Mudando a configuração *Motor com fio Widom Meta* para usar a propriedade Windows Covering
+- Mudando a configuração *Wenzhou TZ78* uso do endpoint 0 no lugar do endpoint 1 (de acordo com o feedback dos usuários)
+- Editando a imagem *MCOhome Mh8FC* (recorte)
+- Editando a imagem *MCOhome Mh8FC-4* (recorte)
 
 # 27/10/2023
 

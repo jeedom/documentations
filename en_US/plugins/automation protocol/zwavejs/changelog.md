@@ -4,6 +4,12 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 01/12/2023
+
+**Improvements**
+
+- Switch to version *9.5.0* by ZwaveJsUI
+
 # 10/27/2023
 
 **Configuration Additions**
@@ -93,7 +99,7 @@
 - Addition of a graph *Network route* representing last routes taken (will scale and may not handle all cases depends on controller SDK)
 - Addition of a message in the message center when a node goes Dead (in addition to the equipment status command)
 - Addition of a message in the message center when a node goes Alive after being Dead (in addition to the equipment status command)
-- Addition of a message in the message center when a node has not woken up after 4 times its wakeup interval 
+- Addition of a message in the message center when a node has not woken up after 4 times its wakeup interval
 
 
 **Configuration Additions**
@@ -425,7 +431,7 @@
 
 **Improvements**
 
-- Management *commands without units* while it should (in the zwaveJS return) so as not to pollute the log 
+- Management *commands without units* while it should (in the zwaveJS return) so as not to pollute the log
 
 **Configuration Changes**
 
@@ -488,7 +494,7 @@
 
 - Addition of a *ZwaveJS UI version management*
 - Addition of a message in the *message center* and on the plugin page when ZwaveJS UI *needs to be updated*
-- Passage of the *ZwaveJS UI version* to version *8.5.1* 
+- Passage of the *ZwaveJS UI version* to version *8.5.1*
 
 **Configuration Changes**
 

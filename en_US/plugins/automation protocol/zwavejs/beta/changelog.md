@@ -4,11 +4,34 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 01/12/2023
+# 11/12/2023
 
 **Improvements**
 
-- Switch to version *9.5.0* by ZwaveJsUI
+- Switch to version *9.5.1* of ZwaveJsUI (to be able to choose a port in path format necessary on certain VMs you must update the core)
+**Fixes**
+
+- Fix include bug *S2* corrected on the ZwaveJS UI side following went up (in fact the callbacks were not done unless you had a window open on the ZwaveJS UI interface)
+
+**Configuration Additions**
+
+- Added config *Shelly Qubino Wave 1PM* (properties : Switch, Power, Energy, Mains Notification, Over-Current Notification, Heat-Sensor Notification)
+- Added config *Shelly Qubino Wave 1* (properties : Switch, Power, Energy, Mains Notification, Over-Current Notification, Heat-Sensor Notification)
+- Added config *Shelly Qubino Wave Shutter* (properties : Shutter, Power, Energy, Hands Notification, Over-Current Notification, Heat-Sensor Notification)
+- Added config *Shelly Qubino Wave 2PM* (properties : Switch, Power, Energy, Mains Notification, Over-Current Notification, Heat-Sensor Notification)
+- Added config *Shelly Qubino Wave 1* (properties : Switch, Hands Notification, Over-Current Notification, Heat-Sensor Notification)  *doubt whether to add Power and Energy (make a ticket if the device is supposed to report consumption but I don't think so)*
+- Adding a property *Windows Covering*
+
+**Configuration Changes**
+
+- Changing the configuration *Benext Keypad* to use the properties (copy of Zipato but in benext version)
+- Changing the configuration *MCOhome Mh8FC* to use the properties
+- Changing the configuration *MCOhome Mh8FC-4* to use the properties
+- Changing the configuration *Qubino ZMNKID - Flush OnOff Thermostat 2* to use the properties
+- Changing the configuration *Widom Meta Wired Motor* to use the Windows Covering property
+- Changing the configuration *Wenzhou TZ78* use of endpoint 0 in place of endpoint 1 (in accordance with feedback from users)
+- Editing the image *MCOhome Mh8FC* (clipping)
+- Editing the image *MCOhome Mh8FC-4* (clipping)
 
 # 10/27/2023
 

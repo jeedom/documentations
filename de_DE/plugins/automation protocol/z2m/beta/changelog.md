@@ -5,6 +5,9 @@
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
 
+- Streichung des Instanzbegriffs
+- Möglichkeit, eine Einbindung direkt auf einem Router-Modul zu starten
+
 # 12.08.2023
 
 - Option „Nachrichten nicht zulassen, wenn das Gerät länger als (s) nicht gesehen wurde“ hinzugefügt (Reserviert für fortgeschrittene Benutzer)

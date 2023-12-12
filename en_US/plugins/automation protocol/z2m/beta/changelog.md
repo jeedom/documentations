@@ -5,6 +5,9 @@
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
 
+- Removal of the notion of instance
+- Possibility of launching an inclusion directly on a router module
+
 # 08/12/2023
 
 - Added an option "Do not allow messages if the equipment has not been seen for more than (s)" (Reserved for advanced users)

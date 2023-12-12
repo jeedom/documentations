@@ -4,6 +4,35 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 11/12/2023
+
+**Améliorations**
+
+- Passage à la version *9.5.1* de ZwaveJsUI (pour pouvoir choisir un port au format path nécessaire sur certaines VMs il faut mettre le core à jour)
+**Corrections**
+
+- Correction du bug d'inclusion *S2* corrigé côté ZwaveJS UI suite a remonté (en effet les callbacks n'étaient pas fait à moins d'avoir une fenêtre ouverte sur l'interface ZwaveJS UI)
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Shelly Qubino Wave 1PM* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor)
+- Ajout de la configuration *Shelly Qubino Wave 1* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor)
+- Ajout de la configuration *Shelly Qubino Wave Shutter* (propriétés : Shutter, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor)
+- Ajout de la configuration *Shelly Qubino Wave 2PM* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor)
+- Ajout de la configuration *Shelly Qubino Wave 1* (propriétés : Switch, Notification Mains, Notification Over-Current, Notification Heat-Sensor)  *doute s'il faut rajouter Power et Energy (faire un ticket si le device est censé remonter consommation mais je ne pense pas)*
+- Ajout d'une propriété *WindowsCovering*
+
+**Modifications de Configurations**
+
+- Modification de la configuration *Benext Keypad* pour utiliser les propriétés (copie du Zipato mais en version benext)
+- Modification de la configuration *MCOhome Mh8FC* pour utiliser les propriétés
+- Modification de la configuration *MCOhome Mh8FC-4* pour utiliser les propriétés
+- Modification de la configuration *Qubino ZMNKID - Flush OnOff Thermostat 2* pour utiliser les propriétés
+- Modification de la configuration *Widom Meta Wired Motor* pour utiliser la propriété Windows Covering
+- Modification de la configuration *Wenzhou TZ78* utilsiation du endpoint 0 en lieu et place du endpoint 1 (conformément à la remonté des utilisateurs)
+- Modification de l'image *MCOhome Mh8FC* (détourage)
+- Modification de l'image *MCOhome Mh8FC-4* (détourage)
+
 # 27/10/2023
 
 **Ajouts de Configurations**
@@ -93,7 +122,7 @@
 - Rajout d'un graph *Route réseau* représentant les dernières routes empruntées (évoluera et peut ne pas gérer tous les cas dépend du SDK du contrôleur)
 - Rajout d'un message dans le centre de message lorsqu'un noeud passe Dead (en plus de la commande statut de l'équipement)
 - Rajout d'un message dans le centre de message lorsqu'un noeud passe Alive après avoir été Dead (en plus de la commande statut de l'équipement)
-- Rajout d'un message dans le centre de message lorsqu'un noeud ne s'est pas réveillé après 4 fois son interval de réveil 
+- Rajout d'un message dans le centre de message lorsqu'un noeud ne s'est pas réveillé après 4 fois son interval de réveil
 
 
 **Ajouts de Configurations**
@@ -425,7 +454,7 @@
 
 **Améliorations**
 
-- Gestion des *commandes sans unités* alors qu'elle devrait (dans le retour zwaveJS) pour ne pas polluer la log 
+- Gestion des *commandes sans unités* alors qu'elle devrait (dans le retour zwaveJS) pour ne pas polluer la log
 
 **Modifications de Configurations**
 
@@ -488,7 +517,7 @@
 
 - Rajout d'une *gestion de version ZwaveJS UI*
 - Rajout d'un message dans le *centre de message* et sur la page du plugin lorsque ZwaveJS UI *doit être mis à jour*
-- Passage de la *version ZwaveJS UI* à la version *8.5.1* 
+- Passage de la *version ZwaveJS UI* à la version *8.5.1*
 
 **Modifications de Configurations**
 
