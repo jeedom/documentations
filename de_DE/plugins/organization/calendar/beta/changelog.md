@@ -4,6 +4,9 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+
+- Benutzer mit eingeschränkten Rechten können jetzt Änderungen über das Widget vornehmen
+
 # 12.01.2023
 
 - Optimierung der Vorkommensberechnung **Nach Datum einschließen/ausschließen**

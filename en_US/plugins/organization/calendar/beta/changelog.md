@@ -4,6 +4,9 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+
+- Users with limited rights can now make changes from the widget
+
 # 01/12/2023
 
 - Optimization of occurrence calculation **Include/Exclude by date**

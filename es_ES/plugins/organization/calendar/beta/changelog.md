@@ -4,6 +4,9 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+
+- Los usuarios con derechos limitados ahora pueden realizar cambios desde el widget
+
 # 01/12/2023
 
 - Optimización del cálculo de ocurrencia **Incluir/Excluir por fecha**
