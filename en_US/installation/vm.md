@@ -12,27 +12,36 @@ Download the jeedom iso [here](https://images.jeedom.com/x86-64/).
 
 ## Configuring the VM environment
 
-Click on new and fill in the fields as below :
+Click on “New” and fill in the fields as below :
 
-![VirtualBox1](images/VirtualBox1.PNG)
+![VirtualBox1](images/VM1.png)
 
--   Click on next, adapt the memory size in relation to your system (1024 are sufficient)
--   Click next, create a virtual disk now
--   Click Create, choose VDI
--   Click on next, dynamically allocated
--   Click on next, Choose a size for the space (4GB is enough)
--   Click on create
+-   Click next, adapt the memory size to your system (1024 Mb is sufficient)
+
+![VirtualBox3](images/VM2.png)
+
+-   Click next
+-   Then click on “Create a virtual disk now” (8GB is enough)
+
+![VirtualBox1](images/VM3.png)
+
+-   Click next
+-   Click Finish
 
 ## VM launch
 
 -   Click on configuration
--   Select storage
--   Add an optical drive
--   Choose a disc
-![VirtualBox2](images/VirtualBox2.PNG)
--   Indicate the image previously downloaded
+-   Click + next to controller (1)
+-   Indicate the previously downloaded image (2)
+-   Click choose (3)
+
+![VirtualBox2](images/VM5.png)
+
+
 -   Then select network and choose "bridge access" in network access mode.
-![VirtualBox3](images/VirtualBox3.PNG)
+  
+![VirtualBox1](images/VM6.png)
+
 -   Click on OK
 -   Click on start
 
@@ -40,7 +49,10 @@ Select "Install on disk" (enter key on the keyboard), confirm with yes (down arr
 
 >**TIPS**
 >
->To find out the IP of the VM (once connected to it, the identifiers are displayed on the connection screen) ``ip -s -c -h a``
+>To find out the IP of the vm (once connected to it, the identifiers are displayed on the connection screen) type the command below respecting the spaces: 
+````
+ip -s -c -h a
+````
 
 > **Information**
 >
@@ -58,28 +70,35 @@ Download a debian 11 minimalist image [here](https://www.debian.org/releases/bul
 
 Click on new and fill in the fields as below :
 
-![VirtualBox1](images/VirtualBox1.PNG)
+![VirtualBox1](images/VM1.png)
 
 -   Click on next, adapt the memory size in relation to your system (1024 are sufficient)
--   Click next, create a virtual disk now
--   Click Create, choose VDI
--   Click on next, dynamically allocated
--   Click on next, Choose a size for the space (4GB is enough)
--   Click on create
+
+![VirtualBox3](images/VM2.png)
+
+-   Click next, create a virtual disk now (8GB is enough)
+
+![VirtualBox1](images/VM3.png)
+
+-   Click next
+-   Click Finish
 
 ## VM launch
 
 -   Click on configuration
--   Select storage
--   Add an optical drive
--   Choose a disc
-![VirtualBox2](images/VirtualBox2.PNG)
--   Indicate the image previously downloaded
+-   Click + next to controller (1)
+-   Indicate the previously downloaded image (2)
+-   Click choose (3)
+
+![VirtualBox2](images/VM5.png)
+
+
 -   Then select network and choose "bridge access" in network access mode.
+  
+![VirtualBox1](images/VM6.png)
 
-![VirtualBox3](images/VirtualBox3.PNG)
-
--   Click OK \* Click start
+-   Click on OK
+-   Click on start
 
 ## Installing debian 11
 

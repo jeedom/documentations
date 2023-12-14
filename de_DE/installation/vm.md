@@ -12,27 +12,36 @@ Laden Sie die Jeedom ISO herunter [hier](https://images.jeedom.com/x86-64/).
 
 ## Konfigurieren der VM-Umgebung
 
-Klicken Sie auf Neu und füllen Sie die Felder wie folgt aus :
+Klicken Sie auf „Neu“ und füllen Sie die untenstehenden Felder aus :
 
-![VirtualBox1](images/VirtualBox1.PNG)
+![VirtualBox1](images/VM1.png)
 
--   Klicken Sie auf Weiter und passen Sie die Speichergröße an Ihr System an (1024 sind ausreichend)
--   Klicken Sie auf Weiter und erstellen Sie jetzt eine virtuelle Festplatte
--   Klicken Sie auf Erstellen und wählen Sie VDI
--   Klicken Sie auf Weiter, dynamisch zugeordnet
--   Klicken Sie auf Weiter. Wählen Sie eine Größe für den Speicherplatz (4 GB sind ausreichend)
--   Klicken Sie auf Erstellen
+-   Klicken Sie auf Weiter und passen Sie die Speichergröße an Ihr System an (1024 MB sind ausreichend))
+
+![VirtualBox3](images/VM2.png)
+
+-   Weiter klicken
+-   Klicken Sie dann auf „Jetzt eine virtuelle Festplatte erstellen“ (8 GB reichen aus))
+
+![VirtualBox1](images/VM3.png)
+
+-   Weiter klicken
+-   Klicken Sie auf Fertig stellen
 
 ## VM-Start
 
 -   Klicken Sie auf Konfiguration
--   Speicher auswählen
--   Fügen Sie ein optisches Laufwerk hinzu
--   Wählen Sie eine Disc
-![VirtualBox2](images/VirtualBox2.PNG)
--   Geben Sie das zuvor heruntergeladene Bild an
+-   Klicken Sie auf + neben Controller (1)
+-   Geben Sie das zuvor heruntergeladene Bild an (2)
+-   Klicken Sie auf „Auswählen“ (3)
+
+![VirtualBox2](images/VM5.png)
+
+
 -   Wählen Sie dann Netzwerk und im Netzwerkzugriffsmodus "Bridge-Zugriff".
-![VirtualBox3](images/VirtualBox3.PNG)
+  
+![VirtualBox1](images/VM6.png)
+
 -   Klicken Sie auf OK
 -   Klicken Sie auf Start
 
@@ -40,7 +49,10 @@ Wählen Sie "Auf Festplatte installieren" (Eingabetaste auf der Tastatur), best�
 
 >**Tipps**
 >
->Um die IP der VM herauszufinden (sobald sie mit ihr verbunden ist, werden die Kennungen auf dem Verbindungsbildschirm angezeigt) ``ip -s -c -h a``
+>Um die IP der VM herauszufinden (sobald die Verbindung hergestellt ist, werden die Kennungen auf dem Verbindungsbildschirm angezeigt), geben Sie den folgenden Befehl ein und beachten Sie dabei die Leerzeichen: 
+````
+ip -s -c -h a
+````
 
 > **Informationen**
 >
@@ -58,28 +70,35 @@ Laden Sie ein minimalistisches Debian 11-Image herunter [hier](https://www.debia
 
 Klicken Sie auf Neu und füllen Sie die Felder wie folgt aus :
 
-![VirtualBox1](images/VirtualBox1.PNG)
+![VirtualBox1](images/VM1.png)
 
 -   Klicken Sie auf Weiter und passen Sie die Speichergröße an Ihr System an (1024 sind ausreichend)
--   Klicken Sie auf Weiter und erstellen Sie jetzt eine virtuelle Festplatte
--   Klicken Sie auf Erstellen und wählen Sie VDI
--   Klicken Sie auf Weiter, dynamisch zugeordnet
--   Klicken Sie auf Weiter. Wählen Sie eine Größe für den Speicherplatz (4 GB sind ausreichend)
--   Klicken Sie auf Erstellen
+
+![VirtualBox3](images/VM2.png)
+
+-   Klicken Sie auf „Weiter“ und erstellen Sie jetzt eine virtuelle Festplatte (8 GB reichen aus))
+
+![VirtualBox1](images/VM3.png)
+
+-   Weiter klicken
+-   Klicken Sie auf Fertig stellen
 
 ## VM-Start
 
 -   Klicken Sie auf Konfiguration
--   Speicher auswählen
--   Fügen Sie ein optisches Laufwerk hinzu
--   Wählen Sie eine Disc
-![VirtualBox2](images/VirtualBox2.PNG)
--   Geben Sie das zuvor heruntergeladene Bild an
+-   Klicken Sie auf + neben Controller (1)
+-   Geben Sie das zuvor heruntergeladene Bild an (2)
+-   Klicken Sie auf „Auswählen“ (3)
+
+![VirtualBox2](images/VM5.png)
+
+
 -   Wählen Sie dann Netzwerk und im Netzwerkzugriffsmodus "Bridge-Zugriff".
+  
+![VirtualBox1](images/VM6.png)
 
-![VirtualBox3](images/VirtualBox3.PNG)
-
--   Klicken Sie auf OK \* Klicken Sie auf Start
+-   Klicken Sie auf OK
+-   Klicken Sie auf Start
 
 ## Debian 11 installieren
 
