@@ -12,27 +12,36 @@ Téléchargez l'iso jeedom [ici](https://images.jeedom.com/x86-64/).
 
 ## Configuration de l’environnement de la VM
 
-Cliquez sur nouvelle et renseignez les champs comme ci dessous :
+Cliquez sur "Nouvelle" et renseignez les champs comme ci dessous :
 
-![VirtualBox1](images/VirtualBox1.PNG)
+![VirtualBox1](images/VM1.png)
 
--   Cliquez sur suivant, adapter la taille de la mémoire par rapport à votre système (1024 sont suffisants)
--   Cliquez sur suivant, créer un disque virtuel maintenant
--   Cliquez sur Créer, choisissez VDI
--   Cliquez sur suivant, dynamiquement alloué
--   Cliquez sur suivant, Choisissez une taille pour l’espace (4Go suffisent)
--   Cliquez sur créer
+-   Cliquez sur suivant, adapter la taille de la mémoire par rapport à votre système (1024 Mb sont suffisants)
+
+![VirtualBox3](images/VM2.png)
+
+-   Cliquez sur suivant
+-   Ensuite cliquer sur "Créer un disque virtuel maintenant" (8Go suffisent)
+
+![VirtualBox1](images/VM3.png)
+
+-   Cliquez sur suivant
+-   Cliquez sur Finish
 
 ## Lancement de la VM
 
 -   Cliquez sur configuration
--   Sélectionnez stockage
--   Ajoutez un lecteur optique
--   Choisissez un disque
-![VirtualBox2](images/VirtualBox2.PNG)
--   Indiquez l’image précédemment téléchargée
+-   Cliquez sur + à côté de contrôleur (1)
+-   Indiquez l’image précédemment téléchargée (2)
+-   Cliquez sur choisir (3)
+
+![VirtualBox2](images/VM5.png)
+
+
 -   Sélectionnez ensuite réseau et choisissez "accès par pont" dans le mode d’accès réseau.
-![VirtualBox3](images/VirtualBox3.PNG)
+  
+![VirtualBox1](images/VM6.png)
+
 -   Cliquez sur OK
 -   Cliquez sur démarrer
 
@@ -40,7 +49,10 @@ Selectionnez "Install on disk" (touche entrée du clavier), valider avec yes (to
 
 >**TIPS**
 >
->Pour connaitre l'ip de la vm (une fois connecté dessus, les identifiants s'affichent sur l'écran de connexion) faite ``ip -s -c -h a``
+>Pour connaitre l'ip de la vm (une fois connecté dessus, les identifiants s'affichent sur l'écran de connexion) tapez la commande ci dessous en respectant les espaces: 
+````
+ip -s -c -h a
+````
 
 > **Information**
 >
@@ -56,30 +68,37 @@ Téléchargez une image minimaliste debian 11 [ici](https://www.debian.org/relea
 
 ## Configuration de l’environnement de la VM
 
-Cliquez sur nouvelle et renseignez les champs comme ci dessous :
+Cliquez sur Nouvelle et renseignez les champs comme ci dessous :
 
-![VirtualBox1](images/VirtualBox1.PNG)
+![VirtualBox1](images/VM1.png)
 
 -   Cliquez sur suivant, adapter la taille de la mémoire par rapport à votre système (1024 sont suffisants)
--   Cliquez sur suivant, créer un disque virtuel maintenant
--   Cliquez sur Créer, choisissez VDI
--   Cliquez sur suivant, dynamiquement alloué
--   Cliquez sur suivant, Choisissez une taille pour l’espace (4Go suffisent)
--   Cliquez sur créer
+
+![VirtualBox3](images/VM2.png)
+
+-   Cliquez sur suivant, créer un disque virtuel maintenant (8Go suffisent)
+
+![VirtualBox1](images/VM3.png)
+
+-   Cliquez sur suivant
+-   Cliquez sur Finish
 
 ## Lancement de la VM
 
 -   Cliquez sur configuration
--   Sélectionnez stockage
--   Ajoutez un lecteur optique
--   Choisissez un disque
-![VirtualBox2](images/VirtualBox2.PNG)
--   Indiquez l’image précédemment téléchargée
+-   Cliquez sur + à côté de contrôleur (1)
+-   Indiquez l’image précédemment téléchargée (2)
+-   Cliquez sur choisir (3)
+
+![VirtualBox2](images/VM5.png)
+
+
 -   Sélectionnez ensuite réseau et choisissez "accès par pont" dans le mode d’accès réseau.
+  
+![VirtualBox1](images/VM6.png)
 
-![VirtualBox3](images/VirtualBox3.PNG)
-
--   Cliquez sur OK \*Cliquez sur démarrer
+-   Cliquez sur OK
+-   Cliquez sur démarrer
 
 ## Installation de debian 11
 
