@@ -4,11 +4,19 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# XX/12/2023
+
+**Mejoras**
+
+- Se agregó una opción para habilitar o deshabilitar el *Reinicio suave* 
+
+
 # 12/11/2023
 
 **Mejoras**
 
 - Cambiar a versión *9.5.1* de ZwaveJsUI (para poder elegir un puerto en el formato de ruta necesario en ciertas VM, debe actualizar el núcleo)
+
 **Arreglos**
 
 - Corregir error de inclusión *T2* corregido en el lado de la interfaz de usuario de ZwaveJS, lo siguiente subió (de hecho, las devoluciones de llamada no se realizaron a menos que tuviera una ventana abierta en la interfaz de la interfaz de usuario de ZwaveJS))

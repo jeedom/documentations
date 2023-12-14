@@ -4,11 +4,19 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# XX/12/2023
+
+**Verbesserungen**
+
+- Option zum Aktivieren oder Deaktivieren hinzugefügt *Soft-Reset* 
+
+
 # 12.11.2023
 
 **Verbesserungen**
 
 - Zur Version wechseln *9.5.1* von ZwaveJsUI (um einen Port im Pfadformat auswählen zu können, der auf bestimmten VMs erforderlich ist, müssen Sie den Kern aktualisieren)
+
 **Behebt**
 
 - Behebung des Include-Fehlers *S2* Auf der Seite der ZwaveJS-Benutzeroberfläche wurde Folgendes korrigiert: (Tatsächlich wurden die Rückrufe nicht durchgeführt, es sei denn, Sie hatten ein Fenster auf der ZwaveJS-Benutzeroberfläche geöffnet)
