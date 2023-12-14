@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 14/12/2023
+
+- Se corrigió el oyente del comando Umbral
+
 # 10/04/2023
 
 - Correcciones de errores menores

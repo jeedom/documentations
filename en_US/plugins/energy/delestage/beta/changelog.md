@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 14/12/2023
+
+- Fixed the Threshold command listener
+
 # 04/10/2023
 
 - Minor bug fixes
