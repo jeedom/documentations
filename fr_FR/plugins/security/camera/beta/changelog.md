@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 26/09/2023
+
+- Prise en charge des commandes PTZ ONVIF
+
 # 10/02/2022
 
 - Correction d'un soucis de clef api non visible
