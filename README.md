@@ -2,12 +2,12 @@
 
 ## documentations
 
-- [Accede a la documentación](https://doc.jeedom.com)
-- [Contribuir a la documentación](https://doc.jeedom.com/en_US/contribute/doc)
+- [Access the documentation](https://doc.jeedom.com)
+- [Contribute to documentation](https://doc.jeedom.com/en_US/contribute/doc)
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
-> Las carpetas `plugins` `plugins_contributor` y `core` se generan automáticamente cuando las agregas al core como fuentes. Tenga en cuenta que los cambios se escribirán cuando el robot pase.
+> The folders `plugins` `plugins_contributor` and `core` are generated automatically when the aggregates in the core as sources. Tenga en cuenta que los cambios se scribirán when the robot passes.
 
 <p align="center">
 <img src="https://doc.jeedom.com/img/img_home.png" width="80%">
