@@ -1,9 +1,9 @@
 {
     "..\/README.md": {
-        "Accede a la documentación": "Greifen Sie auf die Dokumentation zu",
-        "Contribuir a la documentación": "Tragen Sie zur Dokumentation bei",
-        "Las carpetas `plugins` `plugins_contributor` y `core` se generan automáticamente tomando los complementos o el core como fuentes": "Die Ordner „plugins“, „plugins_contributor“ und „core“ werden automatisch generiert, wenn Sie sie als Quellen zum Core hinzufügen",
-        "No tiene sentido, por lo que los cambios se sobrescribirán cuando el robot pase": "Bitte beachten Sie, dass die Änderungen geschrieben werden, wenn der Roboter vorbeikommt",
+        "Access the documentation": "Greifen Sie auf die Dokumentation zu",
+        "Contribute to documentation": "Tragen Sie zur Dokumentation bei",
+        "The folders `plugins` `plugins_contributor` and `core` are generated automatically when you add them to the core as sources": "Die Ordner „plugins“, „plugins_contributor“ und „core“ werden automatisch generiert, wenn Sie sie als Quellen zum Core hinzufügen",
+        "Please note that the changes will be written when the robot passes": "Bitte beachten Sie, dass die Änderungen geschrieben werden, wenn der Roboter vorbeikommt",
         " documentations.": " Dokumentationen.",
         " documentations?": " Dokumentationen?",
         "documentations ": "Dokumentationen ",
@@ -11,12 +11,12 @@
         "[documentations]": "[Dokumentationen]",
         "*documentations*": "*Dokumentationen*",
         " documentations*": " Dokumentationen*",
-        " IMPORTANT.": " WICHTIG.",
-        " IMPORTANT?": " WICHTIG?",
-        "IMPORTANT ": "WICHTIG ",
-        " IMPORTANT]": " WICHTIG]",
-        "[IMPORTANT]": "[WICHTIG]",
-        "*IMPORTANT*": "*WICHTIG*",
-        " IMPORTANT*": " WICHTIG*"
+        " IMPORTANTE.": " WICHTIG.",
+        " IMPORTANTE?": " WICHTIG?",
+        "IMPORTANTE ": "WICHTIG ",
+        " IMPORTANTE]": " WICHTIG]",
+        "[IMPORTANTE]": "[WICHTIG]",
+        "*IMPORTANTE*": "*WICHTIG*",
+        " IMPORTANTE*": " WICHTIG*"
     }
 }
