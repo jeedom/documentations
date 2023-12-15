@@ -1,7 +1,10 @@
 {
     "..\/README.md": {
         "documentations": "documentations",
-        "Access the documentation": "Access the documentation",
-        "Contribute to documentation": "Contribute to documentation"
+        "Accede a la documentación": "Accede a la documentación",
+        "Contribuir a la documentación": "Contribuir a la documentación",
+        "IMPORTANT": "IMPORTANT",
+        "Les dossiers `plugins` `plugins_contributor` et `core` sont automatiquement generé en prenant les plugins ou le core comme sources": "Les dossiers `plugins` `plugins_contributor` et `core` sont automatiquement generé en prenant les plugins ou le core comme sources",
+        "Il ne sert a rien donc de faire des modifications dessus elles seront ecrasé lors du passage du robot": "Il ne sert a rien donc de faire des modifications dessus elles seront ecrasé lors du passage du robot"
     }
 }
