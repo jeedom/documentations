@@ -4,6 +4,15 @@
 >
 > Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+
+
+
+# 15/12/2023
+
+- Attention : Refactorisation importante du code : le menu Custom préalablement enregistré sur l'appV2 est susceptible de ne plus etre enregistré.
+- Une fonction pour enregistrer les menus dans le plugin est en cours d'ajout
+
+
 # 22/10/2023
 
 - Fix mise à jour geolocalisation de l'app v2

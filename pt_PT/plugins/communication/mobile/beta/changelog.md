@@ -4,6 +4,15 @@
 >
 > Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+
+
+
+# 15/12/2023
+
+- Atenção : Refatoração significativa de código : o menu Personalizado salvo anteriormente no appV2 não poderá mais ser salvo.
+- Uma função para salvar menus no plugin está sendo adicionada
+
+
 # 22/10/2023
 
 - Corrigir atualização de geolocalização do aplicativo v2

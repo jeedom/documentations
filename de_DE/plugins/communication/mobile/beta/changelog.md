@@ -4,6 +4,15 @@
 >
 > Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+
+
+
+# 15.12.2023
+
+- Aufmerksamkeit : Erhebliche Code-Umgestaltung : Das zuvor auf der AppV2 gespeicherte benutzerdefinierte Menü kann möglicherweise nicht mehr gespeichert werden.
+- Eine Funktion zum Speichern von Menüs im Plugin wird hinzugefügt
+
+
 # 22.10.2023
 
 - Geolokalisierungsaktualisierung der v2-App behoben

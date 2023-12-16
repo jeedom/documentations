@@ -4,6 +4,15 @@
 >
 > As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+
+
+
+# 15/12/2023
+
+- Attention : Significant code refactoring : the Custom menu previously saved on the appV2 may no longer be saved.
+- A function to save menus in the plugin is being added
+
+
 # 10/22/2023
 
 - Fix geolocation update of the v2 app
