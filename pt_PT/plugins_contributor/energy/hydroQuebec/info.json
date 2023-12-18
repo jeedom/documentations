@@ -9,7 +9,7 @@
   "require": "4.3",
   "category": "energy",
   "hasDependency" : 1,
-  "hasOwnDeamon" : 1,
+  "hasOwnDeamon" : 0,
 	"changelog" :           "http:\/\/fobsoft.github.io\/jeedom-plugins-documentation\/hydroQuebec\/#language#\/changelog",
 	"documentation" :       "http:\/\/fobsoft.github.io\/jeedom-plugins-documentation\/hydroQuebec\/#language#",
 	"changelog_beta" :      "http:\/\/fobsoft.github.io\/jeedom-plugins-documentation\/hydroQuebec\/#language#\/changelog",
