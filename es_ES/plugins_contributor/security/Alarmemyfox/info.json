@@ -1,7 +1,7 @@
 {
 	"id": "Alarmemyfox",
     "name": "Myfox V2",
-    "description": "je reprends le plugin qui a été abondonner" "Plugin V2 pour utiliser la centrale Myfox, Evology, Easybox, permet de recuperer les infos du capteur de temperature, luminosite, congelateur, fumee, chauffage, evenements, etat de l'alarme, et d'activer / desactiver l'alarme et des equipements, jouer des scenarios",
+    "description": "je reprends le plugin qui a été abondonner. Plugin V2 pour utiliser la centrale Myfox, Evology, Easybox, permet de recuperer les infos du capteur de temperature, luminosite, congelateur, fumee, chauffage, evenements, etat de l'alarme, et d'activer / desactiver l'alarme et des equipements, jouer des scenarios",
     "licence": "AGPL",
     "author": "vegeta",
     "require": "4.0",
