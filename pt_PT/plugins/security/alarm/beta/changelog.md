@@ -5,6 +5,7 @@
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
 - Corrigido um problema com a opção "zonas separadas" ao alterar o modo
+- Melhoria da interface
 
 # 22/01/2020
 

@@ -5,6 +5,7 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
 - Correction d'un soucis sur l'option "séparer les zones" lors d'un changement de mode
+- Amélioration de l'interface
 
 # 22/01/2020
 
