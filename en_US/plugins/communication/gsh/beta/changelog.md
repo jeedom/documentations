@@ -4,12 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Improved light support
+
 # 14/10/2023
 
 - Added Soundbar type
-
-#
-
 - Fixed a bug on authentication in standalone mode (thanks @bad)
 - Improved color temperature management (thanks @apern)
 - Bugfix

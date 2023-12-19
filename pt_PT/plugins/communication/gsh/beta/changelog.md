@@ -4,12 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Suporte de luz aprimorado
+
 # 14/10/2023
 
 - Adicionado tipo de barra de som
-
-#
-
 - Corrigido um bug na autenticação no modo autônomo (obrigado @bad)
 - Gerenciamento de temperatura de cor aprimorado (obrigado @apern)
 - Correções de bugs
