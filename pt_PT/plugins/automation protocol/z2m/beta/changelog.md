@@ -7,6 +7,8 @@
 
 - Remoção da noção de instância
 - Possibilidade de lançar uma inclusão diretamente em um módulo roteador
+- Adicionado suporte para conbee 3
+- Adicionado suporte para raspbee 2
 
 # 12/08/2023
 

@@ -7,6 +7,8 @@
 
 - Removal of the notion of instance
 - Possibility of launching an inclusion directly on a router module
+- Added conbee 3 support
+- Added raspbee 2 support
 
 # 08/12/2023
 

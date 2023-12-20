@@ -7,6 +7,8 @@
 
 - Streichung des Instanzbegriffs
 - Möglichkeit, eine Einbindung direkt auf einem Router-Modul zu starten
+- Conbee 3-Unterstützung hinzugefügt
+- Unterstützung für Raspberry 2 hinzugefügt
 
 # 12.08.2023
 

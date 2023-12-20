@@ -7,6 +7,8 @@
 
 - Eliminación de la noción de instancia
 - Posibilidad de iniciar una inclusión directamente en un módulo enrutador
+- Se agregó soporte para conbee 3
+- Se agregó soporte para raspbee 2
 
 # 12/08/2023
 
