@@ -4,8 +4,14 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-- Improvement when changing modes (air conditioning, heating or both))
-- Remove obsolete code from imperihome
+# 12/19/2023
+
+- Possibility of entering negative values for Offsets commands relating to internal contributions
+
+# 04/27/2023
+
+- Improvement when changing modes *(air conditioning, heating or both)*
+- Removing obsolete code for Imperihome
 
 # 04/20/2023
 

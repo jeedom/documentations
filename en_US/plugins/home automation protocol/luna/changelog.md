@@ -7,10 +7,25 @@
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 >
 
+# 07/12/2023
+
+- New module for hotspot with dhcp.
+
+
+# 11/18/2023
+
+- Various code fixes and improvements
+
+# 10/29/2023
+
+- Fix battery status.
+
 # 10/20/2023
+
 - Addition of LiXee-GSM to the USB rules (unplug then reconnect the equipment to see it with the new USB link)
 
 # 09/14/2023
+
 - New interface for the mobile plugin.
 - Hotspot
 - 2 wifis available.
@@ -20,9 +35,10 @@
 - Set an IP address (Wifi and Ethernet)
 
 # 06/09/2023
+
 - Changing the scenario of the Power button on the back of the box. (see documentation)
 - LTE update for LTE request error while box not compatible.
-  
+
 # 02/05/2023
 
 - LocalHost patch (change of rights).
@@ -30,7 +46,6 @@
 - Added LTE function for boxes with LTE option.
 - Addition of the LORA function for boxes with LORA option.
 - Addition of Fixed usb (ttyUSBLUNA-Zigbee to use dnas the Zigbee plugin to no longer have to worry about usb changing.)
-
 
 # 03/27/2023
 
@@ -45,7 +60,6 @@
 - Lora activation for Luna with integrated Lora (Pro).
 - Fix Localhost issue on the box.
 
-
 # 11/19/2022
 
 - SD (management)
@@ -54,7 +68,7 @@
 
 # 3/11/2022
 
-Addition of novelties : 
+Addition of novelties :
 
 - Wi-Fi connection
 - LED (management)

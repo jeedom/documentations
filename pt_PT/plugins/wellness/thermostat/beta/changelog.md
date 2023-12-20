@@ -4,8 +4,14 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-- Melhoria ao mudar os modos (ar condicionado, aquecimento ou ambos))
-- Remova o código obsoleto do imperihome
+# 19/12/2023
+
+- Possibilidade de inserir valores negativos para comandos de Compensações relativos a contribuições internas
+
+# 27/04/2023
+
+- Melhoria ao mudar de modo *(ar condicionado, aquecimento ou ambos)*
+- Removendo código obsoleto do Imperihome
 
 # 20/04/2023
 
