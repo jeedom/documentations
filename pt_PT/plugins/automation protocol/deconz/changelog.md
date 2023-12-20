@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 15/02/2023
+
+- Melhoria da página de pedidos (inclusão do status)
+
 # 11/10/2022
 
 - Correção de bug

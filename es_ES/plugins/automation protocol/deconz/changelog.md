@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 15/02/2023
+
+- Mejora de la página de pedidos (adición del estado)
+
 # 10/11/2022
 
 - Arreglo del fallo

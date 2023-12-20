@@ -4,6 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 19/12/2023
+
+- Suporte aprimorado para configuração de rede interna jeedom
+- Correções de bugs
+
 # 15/02/2023
 
 - Melhoria da página de pedidos (inclusão do status)
