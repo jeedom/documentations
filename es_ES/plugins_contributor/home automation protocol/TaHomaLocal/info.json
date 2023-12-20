@@ -30,23 +30,23 @@
 		}
 	},
 	"description": {
-		"fr_FR": "Plugin destiné à permettre une interface entre Jeedom et une box Somfy TaHoma (ou box Somfy équivalente éligible) sur laquelle l'API locale Somfy a été activée.",
-		"en_US": "Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated."
+		"fr_FR": "Plugin destiné à permettre une interface entre Jeedom et une box Somfy TaHoma (ou box Somfy équivalente éligible) sur laquelle l'API locale Somfy a été activée. Permet un fonctionnement 'Cloudless' et des retours d'état immédiats.<br> - IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale).",
+		"en_US": "Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses.<br> - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation)."
 	},
 	"licence": "AGPL",
 	"author": "Eridani78",
 	"require": "4.2.0",
 	"category": "home automation protocol",
-	"hasDependency": false,
+	"hasDependency": true,
 	"hasOwnDeamon": true,
 	"maxDependancyInstallTime": 0,
 	"changelog": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/changelog",
 	"documentation": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/",
-	"changelog_beta": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/beta/changelog",
-	"documentation_beta": "",
+	"changelog_beta": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/changelog",
+	"documentation_beta": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/",
 	"link": {
-		"forum": "Lien vers le forum",
-		"video": "Lien vers une video"
+		"forum": "",
+		"video": ""
 	},
 	"language": [
 		"fr_FR",
@@ -58,6 +58,7 @@
 		"rpi",
 		"docker",
 		"diy",
+		"mobile",
 		"v4",
 		"atlas",
 		"luna"

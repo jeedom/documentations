@@ -674,6 +674,7 @@
     "plugins_contributor\/home automation protocol\/index.md": {
         "Yokis passerelle": "Yokis passerelle",
         "Plugin pour commander les modules Yokis en local": "Plugin pour commander les modules Yokis en local",
+        "IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale": "IMPORTANT - First of all, make sure that you have a compatible Somfy box on which it is possible to activate Developer mode on your Somfy account (activates the Local API",
         "Plugin destiné à permettre une interface entre Jeedom et une box Somfy TaHoma (ou box Somfy équivalente éligible) sur laquelle l'API locale Somfy a été activée": "Plugin intended to enable an interface between Jeedom and a Somfy TaHoma box (or eligible equivalent Somfy box) on which the Somfy local API has been activated",
         "Plugin pour contrôler les appareils MEROSS": "Plugin to control MEROSS devices",
         "Passerelle domotique": "Home automation gateway",
@@ -689,6 +690,7 @@
         "De même si vous avez un bug \/ une question \/ un message amical": "Likewise if you have a bug \/ a question \/ a friendly message",
         "Changelog Stable": "Changelog Stable",
         "Changelog Beta": "Changelog Beta",
+        "Permet un fonctionnement 'Cloudless' et des retours d'état immédiats": "Allows 'Cloudless' operation and immediate status feedback",
         " TaHomaLocal.": " TaHomaLocal.",
         " TaHomaLocal?": " TaHomaLocal?",
         "TaHomaLocal ": "TaHomaLocal ",

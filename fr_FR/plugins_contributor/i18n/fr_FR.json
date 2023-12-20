@@ -314,6 +314,7 @@
     "plugins_contributor\/home automation protocol\/index.md": {
         "Yokis passerelle": "Yokis passerelle",
         "Plugin pour commander les modules Yokis en local": "Plugin pour commander les modules Yokis en local",
+        "IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale": "IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale",
         "TaHomaLocal": "TaHomaLocal",
         "Plugin destiné à permettre une interface entre Jeedom et une box Somfy TaHoma (ou box Somfy équivalente éligible) sur laquelle l'API locale Somfy a été activée": "Plugin destiné à permettre une interface entre Jeedom et une box Somfy TaHoma (ou box Somfy équivalente éligible) sur laquelle l'API locale Somfy a été activée",
         "MerosSync": "MerosSync",
@@ -333,7 +334,8 @@
         "De même si vous avez un bug \/ une question \/ un message amical": "De même si vous avez un bug \/ une question \/ un message amical",
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
-        "Changelog Beta": "Changelog Beta"
+        "Changelog Beta": "Changelog Beta",
+        "Permet un fonctionnement 'Cloudless' et des retours d'état immédiats": "Permet un fonctionnement 'Cloudless' et des retours d'état immédiats"
     },
     "plugins_contributor\/monitoring\/index.md": {
         "Unifi Access & Unifi VOIP": "Unifi Access & Unifi VOIP",
