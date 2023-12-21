@@ -6,7 +6,6 @@
 
 
 
-
 # 15/12/2023
 
 - Atención : Refactorización de código significativa : Es posible que el menú personalizado previamente guardado en la aplicación V2 ya no se guarde.

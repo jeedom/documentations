@@ -6,7 +6,6 @@
 
 
 
-
 # 15/12/2023
 
 - Attention : Refactorisation importante du code : le menu Custom préalablement enregistré sur l'appV2 est susceptible de ne plus etre enregistré.

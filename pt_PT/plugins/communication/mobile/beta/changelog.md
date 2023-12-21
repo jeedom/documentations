@@ -6,7 +6,6 @@
 
 
 
-
 # 15/12/2023
 
 - Atenção : Refatoração significativa de código : o menu Personalizado salvo anteriormente no appV2 não poderá mais ser salvo.

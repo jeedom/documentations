@@ -6,7 +6,6 @@
 
 
 
-
 # 15.12.2023
 
 - Aufmerksamkeit : Erhebliche Code-Umgestaltung : Das zuvor auf der AppV2 gespeicherte benutzerdefinierte Menü kann möglicherweise nicht mehr gespeichert werden.
