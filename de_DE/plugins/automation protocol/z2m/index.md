@@ -88,6 +88,7 @@ Auf andere, spezifischere Parameter kann ebenfalls zugegriffen werden :
 - **Identifikation** : eindeutige Gerätekennung. Auch bei einer Wiedereinbindung oder wenn Sie den Typ des Zigbee-Controllers wechseln.
 - **Z2m-Controller** : ermöglicht Ihnen die Auswahl des Zigbee-Controllers für die Kommunikation mit dem Gerät (im Moment unterstützt das Plugin nicht mehrere Controller))
 - **Selbstaktualisierung (cron)** : ermöglicht das Hinzufügen eines Crons, der die Aktualisierung der Gerätewerte anfordert (Achtung, nichts garantiert, dass das Modul sie wirklich aktualisiert, es muss dies unterstützen))
+- **Erlauben Sie keine Nachrichten, wenn das Gerät länger als (s) nicht gesehen wurde)** : Jedes Zigbee-Gerät hat ein Datum der „letzten Kommunikation“ (zuletzt gesehen). In seltenen Fällen ist es möglich, dass Zigbee2mqtt Nachrichten vom Gerät sendet, auch wenn es nicht mehr vorhanden ist (nicht mehr angeschlossen oder keine Batterie mehr vorhanden)). Um in diesem Fall eine „falsche“ Aktualisierung der Befehle zu vermeiden, kann man sagen: „Wenn die letzte Kommunikation vom Gerät älter als X Sekunden ist, ignorieren Sie die Aktualisierungen der Werte.“". Bitte beachten Sie, dass diese Option fortgeschrittenen Benutzern vorbehalten ist.
 
 Das Teil **Information** ermöglicht es, das Modell der Ausrüstung zu sehen. Wir finden auch die visuelle Darstellung des Geräts (nicht veränderbar, da es von zigbee2mqtt stammt) und Zugriff auf die Konfiguration des Moduls
 

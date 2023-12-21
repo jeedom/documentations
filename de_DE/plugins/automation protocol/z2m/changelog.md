@@ -4,6 +4,16 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+
+- Streichung des Instanzbegriffs
+- Möglichkeit, eine Einbindung direkt auf einem Router-Modul zu starten
+- Conbee 3-Unterstützung hinzugefügt
+- Unterstützung für Raspberry 2 hinzugefügt
+
+# 12.08.2023
+
+- Option „Nachrichten nicht zulassen, wenn das Gerät länger als (s) nicht gesehen wurde“ hinzugefügt (Reserviert für fortgeschrittene Benutzer)
+
 # 12.05.2023
 
 - Unterstützung für ZigBee-Firmware-Update auf Luna (Beta)

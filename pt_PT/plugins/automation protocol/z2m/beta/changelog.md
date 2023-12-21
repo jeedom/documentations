@@ -4,6 +4,7 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 21/12/2023
 
 - Remoção da noção de instância
 - Possibilidade de lançar uma inclusão diretamente em um módulo roteador

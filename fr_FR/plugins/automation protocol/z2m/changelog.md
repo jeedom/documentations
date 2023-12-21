@@ -4,6 +4,12 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 21/12/2023
+
+- Suppression de la notion d'instance
+- Possibilité de lancer une inclusion directement sur un module routeur
+- Ajout du support de la conbee 3
+- Ajout du support de la raspbee 2
 
 # 08/12/2023
 
