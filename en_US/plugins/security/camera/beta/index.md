@@ -44,6 +44,7 @@ ONVIF settings :
 -   **Profile token** : token used to launch commands by onvif
 -   **X, Y and Z speeds** : ptz movement speed (between 0 to 1)
 -   **Delay before stop command (in ms)** : time before Ptz stop order
+    - You must enter the Stop command on each PTZ movement command in the field provided for this purpose
 
 > **NOTE**
 >

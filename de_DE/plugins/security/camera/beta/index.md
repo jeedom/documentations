@@ -44,6 +44,7 @@ ONVIF-Einstellungen :
 -   **Profil-Token** : Token, der zum Starten von Befehlen durch onvif verwendet wird
 -   **X-, Y- und Z-Geschwindigkeiten** : PTZ-Bewegungsgeschwindigkeit (zwischen 0 und 1))
 -   **Verzögerung vor Stoppbefehl (in ms))** : Zeit bis zum PTZ-Stoppbefehl
+    - Sie müssen bei jedem PTZ-Bewegungsbefehl den Stoppbefehl in das dafür vorgesehene Feld eingeben
 
 > **Notiz**
 >

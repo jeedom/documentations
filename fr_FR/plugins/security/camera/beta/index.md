@@ -44,6 +44,7 @@ Les paramètres ONVIF :
 -   **Jeton de profil** : jeton servant à lancer les commandes par onvif
 -   **Vitesses X, Y et Z** : vitesse de mouvement ptz (entre 0 à 1)
 -   **Délai avant commande stop (en ms)** : délai avant commande de stop ptz
+    - Il faut renseigner la commande de Stop sur chaque commande de mouvement PTZ dans le champ prévu à cet effet
 
 > **NOTE**
 >

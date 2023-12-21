@@ -44,6 +44,7 @@ Configurações ONVIF :
 -   **Token de perfil** : token usado para iniciar comandos pelo onvif
 -   **Velocidades X, Y e Z** : velocidade de movimento ptz (entre 0 a 1)
 -   **Atraso antes do comando de parada (em ms)** : tempo antes da ordem de parada Ptz
+    - Você deve inserir o comando Parar em cada comando de movimento PTZ no campo fornecido para esse fim
 
 > **NOTA**
 >
