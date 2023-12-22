@@ -1,37 +1,13 @@
 {
 	"id": "TaHomaLocal",
 	"name": "TaHomaLocal",
-	"specialAttributes": {
-		"object": {
-			"toto": {
-				"name": { "fr_FR": "Plop je suis un attribut spécial" },
-				"type": "input"
-			},
-			"toto2": {
-				"name": { "fr_FR": "Plop je suis un attribut spécial number" },
-				"type": "number"
-			}
-		},
-		"user": {
-			"toto": {
-				"name": { "fr_FR": "Plop je suis un attribut spécial" },
-				"type": "select",
-				"values": [
-					{
-						"value": "1",
-						"name": "valeur 1"
-					},
-					{
-						"value": "plop",
-						"name": "valeur plop"
-					}
-				]
-			}
-		}
-	},
 	"description": {
 		"fr_FR": "Plugin destiné à permettre une interface entre Jeedom et une box Somfy TaHoma (ou box Somfy équivalente éligible) sur laquelle l'API locale Somfy a été activée. Permet un fonctionnement 'Cloudless' et des retours d'état immédiats.<br> - IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale).",
-		"en_US": "Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses.<br> - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation)."
+		"en_US": "Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses.<br> - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation).",
+		"de_DE": "Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses.<br> - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation).",
+		"es_ES": "Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses.<br> - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation).",
+		"it_IT": "Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses.<br> - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation).",
+		"pt_PT": "Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses.<br> - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation)."
 	},
 	"licence": "AGPL",
 	"author": "Eridani78",
@@ -40,17 +16,23 @@
 	"hasDependency": true,
 	"hasOwnDeamon": true,
 	"maxDependancyInstallTime": 0,
+	"version": "1.1.15",
 	"changelog": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/changelog",
 	"documentation": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/",
 	"changelog_beta": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/changelog",
 	"documentation_beta": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/",
 	"link": {
-		"forum": "",
-		"video": ""
+		"forum": "https://community.jeedom.com/tags/plugin-tahomalocal",
+		"video": "",
+		"SMART Mode supported devices": "https://eridani78.github.io/TaHomaLocal-Doc/compatibility/supported_devices"
 	},
 	"language": [
 		"fr_FR",
-		"en_US"
+		"en_US",
+		"de_DE",
+		"es_ES",
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"miniplus",
