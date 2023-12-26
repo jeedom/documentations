@@ -4,6 +4,11 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 26/12/2023
+
+- Desligamento aprimorado do daemon zigbee2mqtt
+- Correções de bugs
+
 # 21/12/2023
 
 - Remoção da noção de instância

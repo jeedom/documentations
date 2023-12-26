@@ -4,6 +4,11 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 26.12.2023
+
+- Verbessertes Herunterfahren des zigbee2mqtt-Daemons
+- Fehlerbehebung
+
 # 21.12.2023
 
 - Streichung des Instanzbegriffs

@@ -4,6 +4,11 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 12/26/2023
+
+- Improved zigbee2mqtt daemon shutdown
+- Bug fixes
+
 # 12/21/2023
 
 - Removal of the notion of instance

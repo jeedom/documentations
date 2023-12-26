@@ -4,6 +4,11 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 26/12/2023
+
+- Apagado mejorado del demonio zigbee2mqtt
+- Corrección de errores
+
 # 21/12/2023
 
 - Eliminación de la noción de instancia
