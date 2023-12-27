@@ -4,12 +4,17 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# XX/12/2023
+# 12/26/2023
 
 **Improvements**
 
-- Added an option to enable or disable the *Soft Reset* 
+- Added an option to enable or disable the *Soft Reset*
+- Switch to version *9.6.2* by ZwaveJsUI 
 
+**Configuration Additions**
+
+- Added config *HeatIt Z-TRM6* (properties : Temperature, ThermostatMode, ThermostatOperatingState, ThermostatModeAction, ThermostatSetpoint, Heat-Sensor Notification, Over-Load Notification)
+- Added config *Sunricher Remote Control 12 Button* (properties : CentralScene x12, Battery)
 
 # 11/12/2023
 

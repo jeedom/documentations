@@ -4,12 +4,17 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# XX/12/2023
+# 26/12/2023
 
 **Mejoras**
 
-- Se agregó una opción para habilitar o deshabilitar el *Reinicio suave* 
+- Se agregó una opción para habilitar o deshabilitar el *Reinicio suave*
+- Cambiar a versión *9.6.2* por ZwaveJsUI 
 
+**Adiciones de configuración**
+
+- Configuración añadida *HeatIt Z-TRM6* (propiedades : Temperatura, modo termostato, estado de funcionamiento del termostato, acción del modo termostato, punto de ajuste del termostato, notificación del sensor de calor, notificación de sobrecarga)
+- Configuración añadida *Control remoto Sunricher de 12 botones* (propiedades : CentralScene x12, Batería)
 
 # 12/11/2023
 

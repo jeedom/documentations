@@ -4,12 +4,17 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# XX/12/2023
+# 26/12/2023
 
 **Améliorations**
 
-- Rajout d'une option permettant d'activer ou désactiver le *Soft Reset* 
+- Rajout d'une option permettant d'activer ou désactiver le *Soft Reset*
+- Passage à la version *9.6.2* de ZwaveJsUI 
 
+**Ajouts de Configurations**
+
+- Ajout de la configuration *HeatIt Z-TRM6* (propriétés : Temperature, ThermostatMode, ThermostatOperatingState, ThermostatModeAction, ThermostatSetpoint, Notification Heat-Sensor, Notification Over-Load)
+- Ajout de la configuration *Sunricher Remote Control 12 Button* (propriétés : CentralScene x12, Battery)
 
 # 11/12/2023
 

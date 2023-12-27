@@ -4,12 +4,17 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# XX/12/2023
+# 26.12.2023
 
 **Verbesserungen**
 
-- Option zum Aktivieren oder Deaktivieren hinzugefügt *Soft-Reset* 
+- Option zum Aktivieren oder Deaktivieren hinzugefügt *Soft-Reset*
+- Zur Version wechseln *9.6.2* von ZwaveJsUI 
 
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *HeatIt Z-TRM6* (Eigenschaften : Temperatur, ThermostatMode, ThermostatOperatingState, ThermostatModeAction, ThermostatSetpoint, Wärmesensorbenachrichtigung, Überlastbenachrichtigung)
+- Konfig hinzugefügt *Sunricher Fernbedienung 12 Tasten* (Eigenschaften : CentralScene x12, Batterie)
 
 # 12.11.2023
 

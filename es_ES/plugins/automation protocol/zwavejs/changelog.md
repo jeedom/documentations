@@ -4,11 +4,42 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# 01/12/2023
+# XX/12/2023
 
 **Mejoras**
 
-- Cambiar a versión *9.5.0* por ZwaveJsUI
+- Se agregó una opción para habilitar o deshabilitar el *Reinicio suave* 
+
+
+# 12/11/2023
+
+**Mejoras**
+
+- Cambiar a versión *9.5.1* de ZwaveJsUI (para poder elegir un puerto en el formato de ruta necesario en ciertas VM, debe actualizar el núcleo)
+
+**Arreglos**
+
+- Corregir error de inclusión *T2* corregido en el lado de la interfaz de usuario de ZwaveJS, lo siguiente subió (de hecho, las devoluciones de llamada no se realizaron a menos que tuviera una ventana abierta en la interfaz de la interfaz de usuario de ZwaveJS))
+
+**Adiciones de configuración**
+
+- Configuración añadida *Shelly Qubino Ola 1PM* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
+- Configuración añadida *Shelly Qubino Ola 1* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
+- Configuración añadida *Obturador de ondas Shelly Qubino* (propiedades : Obturador, potencia, energía, notificación de manos, notificación de sobrecorriente, notificación de sensor de calor)
+- Configuración añadida *Shelly Qubino Ola 2PM* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
+- Configuración añadida *Shelly Qubino Ola 1* (propiedades : Interruptor, notificación de manos, notificación de sobrecorriente, notificación de sensor de calor)  *duda si agregar Potencia y Energía (haga un ticket si se supone que el dispositivo debe informar consumo pero no lo creo))*
+- Agregar una propiedad *Revestimiento de ventanas*
+
+**Cambios de configuración**
+
+- Cambiar la configuración *Teclado inferior* para usar las propiedades (copia de Zipato pero en la siguiente versión))
+- Cambiar la configuración *MCOhome Mh8FC* para usar las propiedades
+- Cambiar la configuración *MCOhome Mh8FC-4* para usar las propiedades
+- Cambiar la configuración *Qubino ZMNKID - Termostato de encendido y apagado 2* para usar las propiedades
+- Cambiar la configuración *Motor con cable Widom Meta* para utilizar la propiedad Cubierta de Windows
+- Cambiar la configuración *Wenzhou TZ78* uso del punto final 0 en lugar del punto final 1 (de acuerdo con los comentarios de los usuarios)
+- Editando la imagen *MCOhome Mh8FC* (recorte)
+- Editando la imagen *MCOhome Mh8FC-4* (recorte)
 
 # 27/10/2023
 

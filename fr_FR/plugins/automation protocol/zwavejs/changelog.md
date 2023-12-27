@@ -4,11 +4,24 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 26/12/2023
+
+**Améliorations**
+
+- Rajout d'une option permettant d'activer ou désactiver le *Soft Reset*
+- Passage à la version *9.6.2* de ZwaveJsUI 
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *HeatIt Z-TRM6* (propriétés : Temperature, ThermostatMode, ThermostatOperatingState, ThermostatModeAction, ThermostatSetpoint, Notification Heat-Sensor, Notification Over-Load)
+- Ajout de la configuration *Sunricher Remote Control 12 Button* (propriétés : CentralScene x12, Battery)
+
 # 11/12/2023
 
 **Améliorations**
 
 - Passage à la version *9.5.1* de ZwaveJsUI (pour pouvoir choisir un port au format path nécessaire sur certaines VMs il faut mettre le core à jour)
+
 **Corrections**
 
 - Correction du bug d'inclusion *S2* corrigé côté ZwaveJS UI suite a remonté (en effet les callbacks n'étaient pas fait à moins d'avoir une fenêtre ouverte sur l'interface ZwaveJS UI)
