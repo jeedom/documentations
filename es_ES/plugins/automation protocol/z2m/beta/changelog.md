@@ -7,7 +7,7 @@
 # 26/12/2023
 
 - Apagado mejorado del demonio zigbee2mqtt
-- Corrección de errores
+- Arreglo del fallo
 
 # 21/12/2023
 
@@ -41,7 +41,7 @@
 
 >**IMPORTANTE**
 >
->Para aquellos que tienen problemas con un módulo inalcanzable después de la actualización anterior, deben restaurar una copia de seguridad previa a la actualización y luego rehacer la actualización. Pido disculpas sinceras por este error que les ocurre a algunos de ustedes, proviene de una función inesperada de zigbee2mqtt que no tengo en mis diferentes laboratorios.
+>Para aquellos que tienen problemas con un módulo inalcanzable después de actualizaciones anteriores, deben restaurar una copia de seguridad previa a la actualización y luego rehacer la actualización. Pido disculpas sinceras por este error que les ocurre a algunos de ustedes, proviene de una función inesperada de Zigbee2MQTT que no tengo en mis diferentes laboratorios.
 
 # 20/09/2023
 
@@ -49,7 +49,7 @@
 
 # 19/09/2023
 
-- Se corrigió un error al actualizar las dependencias (zigbee2mqtt) si restauraba jeedom
+- Se corrigió un error al actualizar las dependencias (Zigbee2MQTT) si restauraba jeedom
 
 # 09/08/2023
 
@@ -61,7 +61,7 @@
 - Se solucionó un problema con los comandos de tipo de color
 - Corrección en la generación de comandos que no podían funcionar en ciertos casos
 - Nomenclatura de comandos mejorada
-- Posibilidad para cajas atlas o controladores tipo Elelabs de actualizar el firmware desde jeedom
+- Posibilidad de que las cajas Atlas con controladores tipo Elelabs actualicen el firmware desde jeedom
 
 # 07/03/2023
 

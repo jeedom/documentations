@@ -15,7 +15,7 @@
 
 >**WICHTIG**
 >
-> Zunächst müssen Sie die Firmware Ihres Schlüssels aktualisieren (insbesondere für EZSP, insbesondere für Popp-Schlüssel). Andernfalls kann der Dämon nicht funktionieren. Sie müssen die Dokumentation des Herstellers konsultieren. Zögern Sie nicht, die offizielle Zigbee2mqtt-Seite zu konsultieren, um die für Ihren Schlüssel verfügbare Firmware zu finden [Hier](https://www.zigbee2mqtt.io/guide/adapters/)
+> Zunächst müssen Sie die Firmware Ihres Schlüssels aktualisieren (insbesondere für EZSP, insbesondere für Popp-Schlüssel). Andernfalls kann der Dämon nicht funktionieren. Sie müssen die Dokumentation des Herstellers konsultieren. Zögern Sie nicht, die offizielle Zigbee2MQTT-Seite zu konsultieren, um die für Ihren Schlüssel verfügbare Firmware zu finden [Hier](https://www.zigbee2mqtt.io/guide/adapters/)
 
 Darüber hinaus ist das Plugin mit vielen Tools ausgestattet, die es ermöglichen :
 
@@ -27,37 +27,37 @@ Darüber hinaus ist das Plugin mit vielen Tools ausgestattet, die es ermögliche
 
 >**SEHR WICHTIG**
 >
-> Aufgrund des Firmware-/Hardware-Walzes auf Herstellerseite und möglicher Fehler in der Firmware (ohne unbedingt die Möglichkeit zu haben, sie von Jeedom aus zu aktualisieren, da die meisten Hersteller diese nicht kommunizieren) ist es möglich, dass ein als kompatibel gekennzeichnetes Modul nur teilweise (a Taste, die nicht funktioniert, oder kein Unterschied zwischen der Auf- und Ab-Taste, kein CO2-Anstieg oder ein Modulsensor...). Leider können wir Sie in der Liste nicht vorab warnen, da : 
+> Aufgrund des Firmware-/Hardware-Walzes auf Seiten des Herstellers und möglicher Fehler in der Firmware (ohne unbedingt die Möglichkeit zu haben, sie von Jeedom aus zu aktualisieren, da die meisten Hersteller diese nicht mitteilen) ist es möglich, dass ein als kompatibel gekennzeichnetes Modul nur teilweise (a Taste, die nicht funktioniert, oder kein Unterschied zwischen Auf- und Ab-Taste, kein CO2-Anstieg oder ein Modulsensor...). Leider können wir Sie in der Liste nicht vorab warnen, da :
 >- Wir haben nicht unbedingt das betreffende Modul, viele Module werden durch Benutzerfeedback hinzugefügt
 >- Von einer Woche auf die andere kann sich das Modul geändert haben (neue Hardware, neue Firmware oder sogar ein neues Modul, dessen Name sich nicht geändert hat))
->Unter keinen Umständen kann Jeedom für das Fehlen einer Funktion (oder sogar für ein nicht funktionierendes Modul) haftbar gemacht werden, wenn es als kompatibel angegeben wird. Wir unterliegen wie Sie den vom Hersteller auferlegten Änderungen
+>Jeedom kann unter keinen Umständen für fehlende Funktionen (oder sogar für ein nicht funktionierendes Modul) haftbar gemacht werden, auch wenn es als kompatibel angegeben ist. Wir unterliegen wie Sie den vom Hersteller auferlegten Änderungen. ( S)
 
 # Configuration
 
 ## Plugin-Setup
 
-**Jeezigbee-Plugin** nutzt Abhängigkeiten, die zuerst installiert werden müssen (je nach System kann dies mehrere Stunden dauern)). 
+**Jeezigbee-Plugin** nutzt Abhängigkeiten, die zuerst installiert werden müssen (je nach System kann dies mehrere Stunden dauern)).
 
 Das Plugin verwendet das MQTT-Protokoll, um mit Jeedom zu chatten; Daher ist es erforderlich, dass das MQTT-Manager-Plugin installiert und korrekt konfiguriert ist (in der Praxis sollte Jeedom alles selbst erledigen, wenn dies nicht der Fall ist)).
 
-Sobald die Abhängigkeiten installiert sind, können Sie durch Eingabe einen Zigbee-Controller konfigurieren **Controller-Typ, Controller-Port**, Starten Sie dann den Daemon (neu).    
+Sobald die Abhängigkeiten installiert sind, können Sie durch Eingabe einen Zigbee-Controller konfigurieren **Controller-Typ, Controller-Port**, Starten Sie dann den Daemon (neu).
 
-Das können Sie in der Plugin-Konfiguration : 
+Das können Sie in der Plugin-Konfiguration :
 
-- Wählen Sie die Version von zigbee2mqtt aus, indem Sie einfach die Versionsnummer in das dafür vorgesehene Feld eingeben (über eine Schaltfläche neben diesem Feld können Sie die verfügbaren Versionen anzeigen)). Dann speichern Sie einfach die Abhängigkeiten und starten Sie sie neu
+- Wählen Sie die Version von Zigbee2MQTT, indem Sie einfach die Versionsnummer in das dafür vorgesehene Feld eingeben (über die Schaltfläche neben diesem Feld können Sie die verfügbaren Versionen anzeigen)). Dann speichern Sie einfach die Abhängigkeiten und starten Sie sie neu
 - Das Plugin teilt Ihnen auch mit, ob Sie (mindestens) die von jeedom empfohlene Version haben. Dies ist nicht obligatorisch, wird jedoch empfohlen, diese oder eine höhere Version zu verwenden
-- Sie können den Überwachungsport der zigbee2mqtt-Schnittstelle ändern (es wird nicht empfohlen, diesen zu berühren, es sei denn, Sie wissen, was Sie tun))
+- Sie können den Überwachungsport der Zigbee2MQTT-Schnittstelle ändern (es wird nicht empfohlen, diesen zu berühren, es sei denn, Sie wissen, was Sie tun))
 - Bei EZSP Elelabs-Controllern ist es möglich, die Firmware zu aktualisieren
 
 >**WICHTIG**
 >
-> Es gibt 2 Modi für das Plugin : lokal, alles ist auf Ihrem Jeedom, dies ist der empfohlene Modus. Für fortgeschrittene Benutzer ist es möglich, den Remote-Modus zu verwenden; In diesem Fall verwaltet Jeedom Zigbee2mqtt nicht, es muss von Ihnen installiert werden (normalerweise auf einem Docker auf Jeedom oder auf einer anderen Maschine)). Achtung im Remote-Modus ist es notwendig, dass Mqtt Manager und Zigbee2mqtt mit demselben Brocker MQTT (Mosquitto) verbunden sind)
+> Es gibt 2 Modi für das Plugin : lokal, alles ist auf Ihrem Jeedom, dies ist der empfohlene Modus. Für fortgeschrittene Benutzer ist es möglich, den Remote-Modus zu verwenden; In diesem Fall verwaltet Jeedom Zigbee2mqtt nicht, es muss von Ihnen installiert werden (normalerweise auf einem Docker auf Jeedom oder auf einer anderen Maschine)). Seien Sie im Remote-Modus vorsichtig, Mqtt-Manager und Zigbee2MQTT müssen mit demselben Mqtt-Broker (Mosquitto) verbunden sein)
 
 >**WICHTIG**
 >
-> Wenn Sie sich im lokalen Modus befinden, ist es bei der ersten Verwendung UNBEDINGT notwendig, die Abhängigkeiten zu starten (auch wenn dies in Ordnung ist)). Beachten Sie, dass Sie zum Aktualisieren von zigbee2mqtt einfach die Abhängigkeiten ausführen müssen. Sie können dann die neuen Versionen von zigbee2mqtt sehen [Hier](https://github.com/Koenkk/zigbee2mqtt/tags)
+> Wenn Sie sich im lokalen Modus befinden, ist es bei der ersten Verwendung UNBEDINGT notwendig, die Abhängigkeiten zu starten (auch wenn dies in Ordnung ist)). Beachten Sie, dass Sie zum Aktualisieren von Zigbee2MQTT lediglich die Abhängigkeiten starten müssen. Sie können dann die neuen Versionen von Zigbee2MQTT sehen [Hier](https://github.com/Koenkk/zigbee2mqtt/tags)
 
-Um vom JEEZIGBEE-Plugin zu Zigbee2MQTT zu gelangen (z. B. um das Löschen eines Moduls zu erzwingen), müssen Sie zur Konfiguration des Jeezgibee-Plugins gehen und dann im Konfigurationsteil auf Schnittstelle z2m klicken. „Hier“ öffnet sich die Seite von Zigbee2MQTT, sobald Sie im Modul sind, werden Sie nach der Kennung gefragt, die sich auf der Konfigurationsseite von Jeezigbee befindet.
+Um vom Jeezigbee-Plugin zu Zigbee2MQTT zu gelangen (z. B. um das Löschen eines Moduls zu erzwingen), müssen Sie zur Konfiguration des Jeezgibee-Plugins gehen und dann im Abschnitt „Konfiguration“ auf Schnittstelle z2m klicken. „Hier“ öffnen Sie die Zigbee2MQTT-Webseite Schnittstelle, sobald Sie im Modul sind, werden Sie nach der Kennung gefragt, die Sie auf der Jeezigbee-Konfigurationsseite finden.
 
 Achtung, dies ist nur möglich, wenn Sie sich in der lokalen Installation von zigbee2mqtt befinden.
 
@@ -67,7 +67,7 @@ Sie können finden [Hier](https://www.zigbee2mqtt.io/supported-devices/) die Lis
 
 >**WICHTIG**
 >
->Für den Moment, in dem das Plugin eine Autokonfiguration durchführt, das heißt, dass es keine spezifische Konfiguration für ein bestimmtes Modul enthält, ruft es die Informationen von zigbee2mqtt ab, um die Befehle automatisch zu generieren. Dies bedeutet, dass jedes mit zigbee2mqtt kompatible Modul sofort mit dem Plugin funktionieren sollte. Andererseits hat dies zur Folge, dass viele Befehle generiert werden, die nicht immer alle nützlich sind. Wir sind dabei, für bestimmte Module ein spezifisches Konfigurationssystem hinzuzufügen und so deren Befehle und Darstellung zu verbessern
+>Für den Moment, in dem das Plugin eine Autokonfiguration durchführt, das heißt, dass es keine spezifische Konfiguration für ein bestimmtes Modul enthält, ruft es die Informationen von zigbee2mqtt ab, um die Befehle automatisch zu generieren. Dies bedeutet, dass jedes mit zigbee2mqtt kompatible Modul sofort mit dem Plugin funktionieren sollte. Andererseits hat dies zur Folge, dass viele Befehle generiert werden, die nicht immer alle nützlich sind. Wir sind dabei, für bestimmte Module ein spezifisches Konfigurationssystem hinzuzufügen und so die Befehle und deren Darstellung zu verbessern
 
 ## Gerätekonfiguration
 
@@ -79,7 +79,7 @@ Das Aufnahmeverfahren ist für jedes Modul spezifisch. Um dies zu erreichen, les
 
 >**TRICK**
 >
->Vergessen Sie nicht, das Gerät zurückzusetzen *(reset)* des Moduls vor der Aufnahme. Es ist auch notwendig, zum Zeitpunkt der Einbindung daran zu denken, das Modul wach zu halten (achten Sie darauf, es nicht zu lange wach zu halten und einen Reset zu starten, ohne dies absichtlich zu tun))
+>Vergessen Sie nicht, das Gerät zurückzusetzen *(reset)* des Moduls vor der Aufnahme. Sie müssen beim Einbinden auch sorgfältig darüber nachdenken, das Modul wach zu halten (achten Sie darauf, es nicht zu lange wach zu halten und einen Reset zu starten, ohne dies absichtlich zu tun))
 
 Wie gewohnt können Sie Ihrer Ausrüstung einen Namen geben, ihr eine Kategorie oder ein übergeordnetes Objekt zuweisen und sie aktivieren oder sichtbar machen.
 
@@ -88,7 +88,7 @@ Auf andere, spezifischere Parameter kann ebenfalls zugegriffen werden :
 - **Identifikation** : eindeutige Gerätekennung. Auch bei einer Wiedereinbindung oder wenn Sie den Typ des Zigbee-Controllers wechseln.
 - **Z2m-Controller** : ermöglicht Ihnen die Auswahl des Zigbee-Controllers für die Kommunikation mit dem Gerät (im Moment unterstützt das Plugin nicht mehrere Controller))
 - **Selbstaktualisierung (cron)** : ermöglicht das Hinzufügen eines Crons, der die Aktualisierung der Gerätewerte anfordert (Achtung, nichts garantiert, dass das Modul sie wirklich aktualisiert, es muss dies unterstützen))
-- **Erlauben Sie keine Nachrichten, wenn das Gerät länger als (s) nicht gesehen wurde)** : Jedes Zigbee-Gerät hat ein Datum der „letzten Kommunikation“ (zuletzt gesehen). In seltenen Fällen ist es möglich, dass Zigbee2mqtt Nachrichten vom Gerät sendet, auch wenn es nicht mehr vorhanden ist (nicht mehr angeschlossen oder keine Batterie mehr vorhanden)). Um in diesem Fall eine „falsche“ Aktualisierung der Befehle zu vermeiden, kann man sagen: „Wenn die letzte Kommunikation vom Gerät älter als X Sekunden ist, ignorieren Sie die Aktualisierungen der Werte.“". Bitte beachten Sie, dass diese Option fortgeschrittenen Benutzern vorbehalten ist.
+- **Erlauben Sie keine Nachrichten, wenn das Gerät länger als (s) nicht gesehen wurde)** : Jedes Zigbee-Gerät hat ein Datum der „letzten Kommunikation“ (zuletzt gesehen). In seltenen Fällen ist es möglich, dass Zigbee2MQTT Nachrichten vom Gerät sendet, auch wenn es nicht mehr da ist (nicht mehr angeschlossen oder keine Batterie mehr übrig)). Um in diesem Fall eine „falsche“ Aktualisierung der Befehle zu vermeiden, kann man sagen: „Wenn die letzte Kommunikation vom Gerät älter als X Sekunden ist, ignorieren Sie die Aktualisierungen der Werte.“". Bitte beachten Sie, dass diese Option fortgeschrittenen Benutzern vorbehalten ist.
 
 Das Teil **Information** ermöglicht es, das Modell der Ausrüstung zu sehen. Wir finden auch die visuelle Darstellung des Geräts (nicht veränderbar, da es von zigbee2mqtt stammt) und Zugriff auf die Konfiguration des Moduls
 
@@ -96,17 +96,17 @@ In der Registerkarte **Aufträge**, Wir finden, wie üblich, die Befehle, die di
 
 ### Modulkonfiguration
 
-Dies ist ein wichtiges Fenster, das Sie hier finden : 
+Dies ist ein wichtiges Fenster, das Sie hier finden :
 
 - Information : enthält alle nützlichen Informationen zu Ihrem Modul (Modell, Hersteller, Status, Stromversorgung, OTA, Beschreibung, Endpunkte)....)
 - Aufbau : enthält die Konfigurationsparameter Ihres Moduls, falls vorhanden (häufig sind keine vorhanden, daher ist es leer))
-- Bindung : Hier finden Sie die bestehende Anbindung (Link) (im Allgemeinen haben Sie immer eine Zeile, um Ihr Modul mit Ihrem Koordinator zu verknüpfen)). Sie können auch eine Bindung (Link) zwischen zwei Modulen hinzufügen. Achten Sie darauf, die Module beim Bingen im Akkubetrieb aufzuwecken. Wichtig: die Bindung hängt von den Herstellern ab (und nicht vom Plugin), einige Hersteller unterstützen keine direkte Bindung und es ist unbedingt erforderlich, eine Gruppe zu haben, es gibt auch Inkompatibilitäten zwischen Herstellern (wir können diese leider nicht auflisten))
+- Bindung : Hier finden Sie die bestehende Anbindung (im Allgemeinen haben Sie immer eine Zeile, um Ihr Modul mit Ihrem Koordinator zu verknüpfen)). Sie können auch eine Bindung (Link) zwischen zwei Modulen hinzufügen. Achten Sie darauf, die Module beim Bingen im Akkubetrieb aufzuwecken. Wichtig: die Bindung hängt von den Herstellern ab (und nicht vom Plugin), einige Hersteller unterstützen keine direkte Bindung und es ist unbedingt erforderlich, eine Gruppe zu haben, es gibt auch Inkompatibilitäten zwischen Herstellern (wir können diese leider nicht auflisten))
 - Berichterstattung : Wenn das Modul dies unterstützt, können Sie hier die Häufigkeit konfigurieren, mit der Informationen vom Modul an den Koordinator (Jeedom) gesendet werden)
 - Rohinformationen : dient nur der Unterstützung, Sie werden gefragt, ob Sie ein Problem mit einem Modul haben
 
 ### Modul nicht erkannt
 
-Wenn das Modul vom Plugin nicht erkannt wird (kein Befehl), müssen Sie nachsehen [Hier](https://www.zigbee2mqtt.io/supported-devices/), Wenn es unterstützt wird, müssen Sie sich an den Jeedom-Support wenden (oder in der Community schreiben), um herauszufinden, warum. Wenn Ihr Modul nicht in der Liste der von zigbee2mqtt unterstützten Module enthalten ist, müssen Sie warten, bis es hinzugefügt wird.
+Wenn das Modul vom Plugin nicht erkannt wird (kein Befehl), müssen Sie nachsehen [Hier](https://www.zigbee2mqtt.io/supported-devices/), Wenn es unterstützt wird, müssen Sie sich an den Jeedom-Support wenden (oder in der Community schreiben), um herauszufinden, warum. Wenn Ihr Modul nicht in der Liste der von Zigbee2MQTT unterstützten Module enthalten ist, müssen Sie warten, bis es hinzugefügt wird.
 
 >**INFORMATION**
 >
@@ -132,7 +132,7 @@ Der Aufbau eines qualitativ hochwertigen Zigbee-Netzwerks wird durch die im Plug
 
 ## Configuration
 
-Hier finden Sie alle erweiterten Konfigurationen von Zigbee2mqtt. Achten Sie darauf, dass es sich um eine von Zigbee2mqtt generierte Liste handelt (daher ist alles auf Englisch))
+Hier finden Sie alle erweiterten Konfigurationen von Zigbee2MQTT. Seien Sie vorsichtig, dies ist eine von Zigbee2MQTT generierte Liste (daher ist alles auf Englisch))
 
 ## Netzwerkdiagramm
 
@@ -140,7 +140,7 @@ Das Netzwerkdiagramm bietet einen Überblick über das Zigbee-Netzwerk und die Q
 
 >**WICHTIG**
 >
->Das Netzwerkdiagramm dient nur zu Informationszwecken und ist möglicherweise nicht genau (insbesondere bei batteriebetriebenen Modulen, die ihr Routing nicht oft oder manchmal sogar überhaupt nicht senden))
+>Das Netzwerkdiagramm dient nur zu Informationszwecken und ist möglicherweise nicht genau (insbesondere bei Batteriemodulen, die ihr Routing nicht oft oder manchmal sogar nicht melden))
 
 ## Optimieren Sie das Netzwerk
 
@@ -149,7 +149,7 @@ Um die Zuverlässigkeit Ihres Zigbee-Netzwerks zu optimieren, **Es wird mehr als
 Ein weiterer wichtiger Punkt ist, dass beim Entfernen eines Router-Moduls ein Teil des „Endgeräts“ beschädigt werden kann" *(Nicht-Router-Module)* geht für mehr oder weniger lange Zeit verloren *(in zehn Stunden oder mehr)* oder sogar dauerhaft und Sie müssen sie erneut einbeziehen.
 Leider liegt dies an der Art und Weise, wie der Hersteller die Integration seiner Hardware in ein Zigbee-Netzwerk geplant hat, und kann daher nicht durch das Plugin korrigiert werden, das den Routing-Teil nicht verwaltet.
 
-Abschließend möchten wir Sie daran erinnern, dass Zigbee-Gateways in WLAN oder Remote per Definition weniger zuverlässig sind als USB-Gateways, auch wenn es für manche offensichtlich erscheinen mag. Das Jeedom-Team rät daher zum Einsatz eines Zigbee-Gateways in USB.  
+Abschließend möchten wir Sie daran erinnern, dass Zigbee-Gateways in WLAN oder Remote per Definition weniger zuverlässig sind als USB-Gateways, auch wenn es für manche offensichtlich erscheinen mag. Das Jeedom-Team rät daher zum Einsatz eines Zigbee-Gateways in USB.
 
 # Externer Konverter
 
@@ -157,7 +157,7 @@ Mit Zigbee2mqtt können Sie externe Konverter hinzufügen (um Module zu unterst�
 
 >**WICHTIG**
 >
->Der Support deckt nicht den Erstellungs-/Nutzungsteil externer Konverter ab.
+>Der Support deckt nicht die Erstellung/Nutzung externer Konverter ab.
 
 # FAQ
 
@@ -178,17 +178,17 @@ Mit Zigbee2mqtt können Sie externe Konverter hinzufügen (um Module zu unterst�
 >**Ich kann keine neuen Module hinzufügen**
 >
 >Mehrere Möglichkeiten hierfür :
->- Sie haben bereits viele Module und haben die maximale Anzahl an Live-Modulen (im Allgemeinen 31) überschritten). Sie müssen es versuchen, indem Sie Router-Knoten hinzufügen (achten Sie darauf, dass es keinen klaren Standard für Router-Knoten gibt, sodass es zu Inkompatibilitäten zwischen den Herstellern kommt)...)
->- Du bist auf Conbee : Ziehen Sie den Schlüssel zwei Minuten lang ab, stecken Sie ihn wieder ein und starten Sie den Daemon neu. Es handelt sich um eine Krankheit, die den Conbee-Tasten bekannt ist (sogar unter Deconz). Es ist ein Kaltstart erforderlich, damit die Einbindung wieder funktioniert
+>- Sie haben bereits viele Module und haben das Limit für die Anzahl der Live-Module (normalerweise 31) überschritten). Sie müssen versuchen, Router-Knoten hinzuzufügen (achten Sie darauf, dass es keinen klaren Standard für Router-Knoten gibt, sodass es zu Inkompatibilitäten zwischen den Herstellern kommt)...)
+>- Du bist auf Conbee : Ziehen Sie den Schlüssel zwei Minuten lang ab, stecken Sie ihn wieder ein und starten Sie den Daemon neu. Es handelt sich um eine bekannte Erkrankung der Conbee-Schlüssel (sogar unter Deconz). Sie benötigen einen „Kaltneustart“, damit die Einbindung wieder funktioniert
 >- Sie haben eine SSD an USB3 angeschlossen. Versuchen Sie, sie an einen USB2-Anschluss anzuschließen
 
 >**Ich habe nicht so viele Befehle wie Tasten auf meiner Fernbedienung**
 >
->Auf meiner Fernbedienung habe ich zum Beispiel 2 Tasten, aber in der Liste der Jeedom-Befehle habe ich nur einen Befehl !!! Es ist normal; Der Befehl in Jeedom nimmt je nach gedrückter physischer Taste einen anderen Wert an. Der einfachste Weg, dies anzuzeigen, besteht darin, zu „Erweiterte Konfiguration“ (oben rechts) und dann zu „Protokolle“ (ebenfalls oben rechts) zu gehen und die Tasten auf der Fernbedienung zu drücken, um die verschiedenen Werte der Befehle anzuzeigen.
+>Auf meiner Fernbedienung habe ich zum Beispiel 2 Tasten, aber in der Liste der Jeedom-Befehle habe ich nur einen Befehl !!! Es ist normal; Der Befehl in Jeedom nimmt je nach gedrückter physischer Taste einen anderen Wert an. Der einfachste Weg, dies anzuzeigen, besteht darin, zu „Erweiterte Konfiguration“ (oben rechts) und dann zu „Protokolle“ (ebenfalls oben rechts) zu gehen und die Tasten auf der Fernbedienung zu drücken, um die verschiedenen Befehlswerte anzuzeigen.
 
 >**Ich habe kein Bild meines Moduls**
 >
->Nichts Ernstes, das bedeutet nicht, dass es nicht verwendbar oder nicht erkennbar ist, das Bild dient nur zur Veranschaulichung. Wenn Sie es wirklich möchten, müssen Sie sich an den Support wenden, um herauszufinden, warum Sie es nicht haben (normalerweise liegt es an einem nicht standardmäßigen Zeichen im Modulmodellnamen))
+>Nichts Ernstes, das bedeutet nicht, dass es nicht verwendet oder erkannt werden kann, das Bild dient lediglich der Veranschaulichung. Wenn Sie es wirklich wollen, müssen Sie sich an den Support wenden, damit dieser sehen kann, warum Sie es nicht haben (normalerweise liegt es an einem nicht standardmäßigen Zeichen im Namen des Modulmodells))
 
 >**Ändern Sie die PAN_ID und den Netzwerkschlüssel**
 >
@@ -196,7 +196,7 @@ Mit Zigbee2mqtt können Sie externe Konverter hinzufügen (um Module zu unterst�
 
 >**Ich habe die Fehlermeldung „Fehler“ erhalten: Fehler zurücksetzen: Error: {"sequence":-1} nach 10000ms` und einem ELELABS-Schlüssel oder einer Atlas-Box**
 >
->Sie müssen die Firmware Ihres ZigBee-Schlüssels aktualisieren. Klicken Sie dazu in der Konfiguration des JeezigBee-Plugins auf Firmware aktualisieren, füllen Sie die verschiedenen Felder im Fenster aus und bestätigen Sie dann. Achten Sie darauf, dies nicht auf einer Luna-Box zu tun, da sonst der ZigBee-Schlüssel beschädigt wird. Wenn das Update nicht funktioniert, müssen Sie versuchen, eine „Bootloader-Korrektur“ durchzuführen".
+>Sie müssen die Firmware Ihres Zigbee-Schlüssels aktualisieren. Klicken Sie dazu in der Konfiguration des Jeezigbee-Plugins auf Firmware aktualisieren, füllen Sie die verschiedenen Felder im Fenster aus und bestätigen Sie dann. Achten Sie darauf, dies nicht auf einer Luna-Box zu tun, da sonst der ZigBee-Schlüssel beschädigt wird. Wenn das Update nicht funktioniert, müssen Sie versuchen, eine „Bootloader-Korrektur“ durchzuführen".
 
 >**Meine Ausrüstung wird nicht erkannt**
 >
@@ -207,7 +207,7 @@ Mit Zigbee2mqtt können Sie externe Konverter hinzufügen (um Module zu unterst�
 >Sobald der Konverter erstellt ist, müssen Sie ihn zum Testen in das Plugin einfügen.
 >1) Aus dem Jeedom-Dateieditor,
 >- Erstellen Sie einen Ordner mit dem Markennamen Ihrer Ausrüstung in Plugin/z2m/core/converters>
->- Betreten dieses Ordners
+>- Betreten Sie diesen Ordner
 >- Erstellen Sie eine Datei mit dem Namen „Equipment reference brand“.js Für das Beispiel verwenden wir Tuya_TZE204_81yrt3lo.js
 >- Fügen Sie in diese Datei die Elemente des Konverters ein.
 >- Speichern und schließen Sie die Datei.
@@ -216,8 +216,8 @@ Mit Zigbee2mqtt können Sie externe Konverter hinzufügen (um Module zu unterst�
 
 >**SONOFF Modell P-Taste: Flashen und Beheben des Problems „Unbekannter Datensatztyp 3“**
 >
->Im Forum wurde eine Erklärung zum Blinken des Schlüssels vorgeschlagen. Wenn der Fehler „Unbekannter Datensatztyp 3“ auftritt, müssen Sie Ihre Datei konvertieren .verhexen .bin, wie im Tutorial erklärt. Vielen Dank an JeedGeek für die Erklärung [Hier](https://community.jeedom.com/t/flasher-sa-cle-usb-zigbee-sonoff-p-avec-lutilitaire-ti-sous-windows/109453)
+>Im Forum wurde eine Erklärung zum Blinken des Schlüssels vorgeschlagen. Wenn Sie die Fehlermeldung „Unbekannter Datensatztyp3“ erhalten, ist eine Konvertierung Ihrer Datei erforderlich .verhexen .bin, wie im Tutorial erklärt. Vielen Dank an JeedGeek für die Erklärung [Hier](https://community.jeedom.com/t/flasher-sa-cle-usb-zigbee-sonoff-p-avec-lutilitaire-ti-sous-windows/109453)
 
 >**Beim Aktualisieren der Firmware auf Luna ist ein Fehler aufgetreten**
 >
->Sie müssen den Plugin-Daemon deaktivieren (Plugin -> Plugin-Verwaltung -> Jeezigbee, dann Automatische Verwaltung -> Deaktivieren) und Luna neu starten (Einstellungen -> System -> Neu starten)). Sobald die Box neu gestartet ist, müssen Sie das Firmware-Update erneut starten. Bitte beachten Sie, dass dies bis zu 10 Minuten dauern kann. Vergessen Sie nicht, die automatische Daemon-Verwaltung nach Abschluss des Updates wieder zu aktivieren.
+>Sie müssen den Plugin-Daemon deaktivieren (Plugin -> Plugin-Verwaltung -> Jeezigbee, dann Automatische Verwaltung -> Deaktivieren) und Luna neu starten (Einstellungen -> System -> Neu starten)). Sobald die Box neu gestartet ist, müssen Sie das Firmware-Update erneut starten. Bitte beachten Sie, dass dies bis zu 10 Minuten dauern kann. Vergessen Sie nicht, nach Abschluss des Updates die automatische Daemon-Verwaltung erneut zu aktivieren.
