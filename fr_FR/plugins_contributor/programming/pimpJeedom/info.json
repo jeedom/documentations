@@ -1,0 +1,31 @@
+{
+	"id": "pimpJeedom",
+	"name": "Pimp my Jeedom",
+	"description": "Personnalisez Jeedom en fonction de VOS envies !<br/> Installez facilement les widgets réalisés par Salvialf et les menus de designs réalisés par Noodom et paramétrez les options de personnalisation en quelques clics.<br/> En cas de mise à jour disponible pour un widget un message vous notifie dans Jeedom afin de toujours bénéficier des dernières évolutions.</br> Le plugin inclus également un outil permettant de créer et de gérer les widgets tiers. De nombreuses fonctions sont disponibles : gestion des commandes liées au widget, des paramètres du widget, possibilité d'inclure ou de supprimer des fichiers, éditeur de code et prévisualisation en temps réel.<br/> De nombreuses autres fonctions sont en cours de développement afin de rendre la personnalisation de Jeedom accessible à tout un chacun.",
+	"utilization": "Installer et activer le plugin puis se rendre dans \"plugins → programmation → Pimp my Jeedom\".<br/> L'interface est intuitive pour permettre une utilisation aisée à tous.",
+	"licence": "AGPL",
+	"author": "Salvialf",
+	"require": "4.2",
+	"category": "programming",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://salvialf.github.io/Salvialf-Documentation/pimpJeedom/fr_FR/changelog",
+	"documentation": "https://salvialf.github.io/Salvialf-Documentation/pimpJeedom/fr_FR/",
+	"link": {
+		"forum": "https://community.jeedom.com/t/pimp-my-jeedom-presentation-et-nouveautes/30172"
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"luna",
+		"smart",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
+}
