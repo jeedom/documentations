@@ -5,6 +5,7 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
 - ATTENTION !!!!!! Changement du comportement sur les volets, inversion du sens, le plugin n'indique plus le % de fermeture mais le % d'ouverture
+- Controle du code retour de l'ipx lors d'une commande et si erreur Jeedom retentera la commande 150ms plus tard
 
 
 # 07/02/2022

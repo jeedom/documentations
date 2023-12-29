@@ -5,6 +5,7 @@
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
 - ATTENTION !!!!!! Change in behavior on the shutters, reversal of direction, the plugin no longer indicates the % closing but the % opening
+- Checking the ipx return code during a command and if there is an error Jeedom will retry the command 150ms later
 
 
 # 02/07/2022

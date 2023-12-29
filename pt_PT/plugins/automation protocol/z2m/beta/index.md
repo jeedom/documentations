@@ -159,6 +159,12 @@ Zigbee2mqtt permite adicionar conversores externos (para suportar módulos não 
 >
 >O suporte não cobre a parte de criação/utilização de conversores externos.
 
+# Comandos específicos
+
+## Controle infravermelho
+
+O caso de módulos que enviam códigos IR é um pouco específico porque não há uma lista predefinida de códigos IR, então você mesmo deve encontrar o comando IR e, em seguida, adicionar um comando com ID lógico : `ir_code_to_send::SEU CÓDIGO IR
+
 # FAQ
 
 [Link](https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html) para as perguntas frequentes do Zigbee2mqtt

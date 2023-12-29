@@ -159,6 +159,12 @@ Mit Zigbee2mqtt können Sie externe Konverter hinzufügen (um Module zu unterst�
 >
 >Der Support deckt nicht die Erstellung/Nutzung externer Konverter ab.
 
+# Spezifische Befehle
+
+## IR-Steuerung
+
+Der Fall von Modulen, die IR-Codes senden, ist etwas spezifisch, da es keine vordefinierte Liste von IR-Codes gibt. Sie müssen also den IR-Befehl selbst finden und dann ggf. einen Befehl mit logischer ID hinzufügen : `ir_code_to_send::IHR IR-CODE
+
 # FAQ
 
 [Verknüpfung](https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html) zu den Zigbee2mqtt-FAQ

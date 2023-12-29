@@ -159,6 +159,12 @@ Zigbee2mqtt allows you to add external converters (to support modules not offici
 >
 >Support does not cover the creation/use of external converters part.
 
+# Specific commands
+
+## IR control
+
+The case of modules sending IR codes is a bit specific because there is no predefined list of IR codes so you have to find the IR command yourself then in jeedom add a command with logical ID : `ir_code_to_send::YOUR IR CODE
+
 # FAQ
 
 [Link](https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html) to the Zigbee2mqtt FAQ

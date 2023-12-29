@@ -159,6 +159,12 @@ Zigbee2MQTT vous autorise à ajouter des convertisseurs externe (pour supporter 
 >
 >Le support ne couvre pas la partie création/utilisation des convertisseurs externes.
 
+# Commande spécifiques
+
+## Commande IR
+
+Le cas des modules envoyant des codes IR est un peu spécifique car il n'y a pas de liste predefini des codes IR il faut donc trouver vous meme la commande IR puis dans jeedom ajouter une commande avec en logical ID : `ir_code_to_send::VOTRE CODE IR`
+
 # FAQ
 
 [Lien](https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html) vers la FAQ de Zigbee2MQTT
