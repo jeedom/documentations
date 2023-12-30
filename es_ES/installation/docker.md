@@ -112,6 +112,9 @@ services:
       - "--innodb_flush_log_at_trx_commit=2"
       - "--innodb_log_file_size=32M"
       - "--innodb_large_prefix=activado"
+      - "--conectar_tiempo de espera = 600"
+      - "--tiempo de espera = 600"
+      - "--tiempo_espera_interactivo=600"
     volumes:
       - db:/var/lib/mysql
     restart: always
