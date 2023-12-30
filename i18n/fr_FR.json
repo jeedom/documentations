@@ -1,10 +1,10 @@
 {
     "..\/README.md": {
         "documentations": "documentations",
-        "Accede a la documentación": "Accede a la documentación",
-        "Contribuir a la documentación": "Contribuir a la documentación",
-        "IMPORTANT": "IMPORTANT",
-        "Las carpetas `plugins` `plugins_contributor` y `core` se generan automáticamente cuando se agregan en el core como fuentes": "Las carpetas `plugins` `plugins_contributor` y `core` se generan automáticamente cuando se agregan en el core como fuentes",
-        "Tenga en cuenta que los cambios se escribirán cuando pase el robot": "Tenga en cuenta que los cambios se escribirán cuando pase el robot"
+        "Access the documentation": "Access the documentation",
+        "Contribute to documentation": "Contribute to documentation",
+        "IMPORTANTE": "IMPORTANTE",
+        "The folders `plugins` `plugins_contributor` and `core` are generated automatically when they are aggregated in the core as sources": "The folders `plugins` `plugins_contributor` and `core` are generated automatically when they are aggregated in the core as sources",
+        "Please note that the changes will be written when the robot passes": "Please note that the changes will be written when the robot passes"
     }
 }
