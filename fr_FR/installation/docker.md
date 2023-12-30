@@ -112,6 +112,9 @@ services:
       - "--innodb_flush_log_at_trx_commit=2"
       - "--innodb_log_file_size=32M"
       - "--innodb_large_prefix=on"
+      - "--connect_timeout=600"
+      - "--wait_timeout=600"
+      - "--interactive_timeout=600"
     volumes:
       - db:/var/lib/mysql
     restart: always
