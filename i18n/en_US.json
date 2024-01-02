@@ -1,9 +1,9 @@
 {
     "..\/README.md": {
-        "Accede a la documentación": "Access the documentation",
-        "Contribuir a la documentación": "Contribute to documentation",
-        "Las carpetas `plugins` `plugins_contributor` y `core` se generan automáticamente cuando se agregan en el core como fuentes": "The folders `plugins` `plugins_contributor` and `core` are generated automatically when they are aggregated in the core as sources",
-        "Tenga en cuenta que los cambios se escribirán cuando el robot pase": "Tenga en cuenta que los cambios se scribirán when the robot passes",
+        "Access the documentation": "Access the documentation",
+        "Contribute to documentation": "Contribute to documentation",
+        "The folders `plugins` `plugins_contributor` and `core` are generated automatically when they are aggregated in the core as sources": "The folders `plugins` `plugins_contributor` and `core` are generated automatically when they are aggregated in the core as sources",
+        "Tenga en cuenta que los cambios se scribirán when the robot passes": "Tenga en cuenta que los cambios se scribirán when the robot passes",
         " documentations.": " documentations.",
         " documentations?": " documentations?",
         "documentations ": "documentations ",
@@ -11,12 +11,12 @@
         "[documentations]": "[documentations]",
         "*documentations*": "*documentations*",
         " documentations*": " documentations*",
-        " IMPORTANT.": " IMPORTANT.",
-        " IMPORTANT?": " IMPORTANT?",
-        "IMPORTANT ": "IMPORTANT ",
-        " IMPORTANT]": " IMPORTANT]",
-        "[IMPORTANT]": "[IMPORTANT]",
-        "*IMPORTANT*": "*IMPORTANT*",
-        " IMPORTANT*": " IMPORTANT*"
+        " IMPORTANTE.": " IMPORTANT.",
+        " IMPORTANTE?": " IMPORTANT?",
+        "IMPORTANTE ": "IMPORTANT ",
+        " IMPORTANTE]": " IMPORTANT]",
+        "[IMPORTANTE]": "[IMPORTANT]",
+        "*IMPORTANTE*": "*IMPORTANT*",
+        " IMPORTANTE*": " IMPORTANT*"
     }
 }
