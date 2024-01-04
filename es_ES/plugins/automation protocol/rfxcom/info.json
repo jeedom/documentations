@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.1",
+    "require": "4.3",
     "category": "automation protocol",
     "hasDependency": true,
     "hasOwnDeamon": true,

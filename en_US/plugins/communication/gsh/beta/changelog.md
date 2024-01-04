@@ -4,7 +4,12 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 03/01/2024
+
+- Preparing for jeedom 4.4
 - Improved light support
+- Bugfix
+- Display of active devices only
 
 # 14/10/2023
 

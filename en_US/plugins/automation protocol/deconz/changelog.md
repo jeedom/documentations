@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 12/19/2023
+
+- Improved support for jeedom internal network configuration
+- Bugfix
+
 # 02/15/2023
 
 - Improvement of the orders page (addition of the status)

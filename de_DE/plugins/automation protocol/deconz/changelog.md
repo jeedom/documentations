@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 19.12.2023
+
+- Verbesserte Unterstützung für die interne Netzwerkkonfiguration von jeedom
+- Fehlerbehebungen
+
 # 15.02.2023
 
 - Verbesserung der Bestellseite (Hinzufügen der Status)

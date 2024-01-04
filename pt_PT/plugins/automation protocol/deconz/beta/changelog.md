@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 01/03/2024
+
+- Preparando-se para Jeedom 4.4
+
 # 19/12/2023
 
 - Suporte aprimorado para configuração de rede interna jeedom

@@ -4,7 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 01/03/2024
+
+- Preparándose para el apuro 4.4
 - Soporte de luz mejorado
+- Correcciones de errores
+- Visualización solo de dispositivos activos
 
 # 14/10/2023
 

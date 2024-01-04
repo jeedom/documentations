@@ -4,6 +4,7 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 09/26/2022
 
 - Fixed a problem if the user has hard-coded the activation of the protocols in the rfxcom rom
 

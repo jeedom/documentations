@@ -4,6 +4,20 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 03/01/2024
+
+- Préparation pour jeedom 4.4
+- Amélioration du support des lumieres
+- Correction de bugs
+- Affichage des équipements actifs seulement
+
+# 14/10/2023
+
+- Ajout du type Barre de son
+- Correction d'un bug sur l'authentification en mode standalone (merci @bad)
+- Amélioration de la gestion des température de couleur (merci @apern)
+- Correction de bugs
+
 # 12/09/2022
 
 - Correction d'un bug sur le retour d'information des Sensors (attention toujours pas d'affichage dans Google Home ou de retour vocal, il faut attendre que Google finisse l'implementation)

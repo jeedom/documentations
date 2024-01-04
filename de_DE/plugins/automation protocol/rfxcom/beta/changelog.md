@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 01.03.2024
+
+- Vorbereitung auf Jeedom 4.4
+
 # 26.09.2022
 
 - Behebung eines Problems, wenn der Benutzer die Aktivierung der Protokolle im rfxcom-ROM fest codiert hat
