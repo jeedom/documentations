@@ -4,6 +4,12 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+# 03/01/2024
+
+- Preparing for jeedom 4.4
+- Improved SIA management
+- Bug fix
+
 # 06/06/2023
 
 - Add fibra hub

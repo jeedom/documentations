@@ -4,6 +4,14 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 09/26/2023
+
+- ONVIF PTZ command support
+
+# 02/10/2022
+
+- Fixed an issue with api key not visible
+
 # 01/31/2022
 
 - Update API call

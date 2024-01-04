@@ -25,6 +25,12 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/camera/images/bluestork.cam.png" width="60" />|Bluestork|Cámara||||
 
+# Bosh
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../es_ES/camera/images/bosh.dinion_ip.png" width="60" />|Bosch|IP DINÓN||||
+
 # D-link
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -138,6 +144,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/camera/images/doorbell.png" width="60" />|Netatmo|Doorbell||Requiere absolutamente el complemento de seguridad de Netatmo (pago)||
 |<img src="../../es_ES/camera/images/presence.png" width="60" />|Netatmo|Presence||Requiere absolutamente el complemento de seguridad de Netatmo (pago)|[Comprar](https://www.domadoo.fr/fr/objets-communicants/3855-netatmo-camera-exterieure-de-securite-presence-3700730501866.html)|
 |<img src="../../es_ES/camera/images/welcome.png" width="60" />|Netatmo|Welcome||Requiere absolutamente el complemento de seguridad de Netatmo (pago)|[Comprar](https://www.domadoo.fr/fr/objets-communicants/3064-netatmo-camera-a-reconnaissance-faciale-welcome-3700730500623.html)|
 
@@ -193,7 +200,7 @@
 |<img src="../../es_ES/camera/images/ubiquiti.UVC G3 Instant.png" width="60" />|Ubiquiti|Ubiquiti G3 Instant||||
 |<img src="../../es_ES/camera/images/ubiquiti.UVC G3 Pro.png" width="60" />|Ubiquiti|Ubiquiti G3 Pro||||
 |<img src="../../es_ES/camera/images/ubiquiti.UVC G4 Bullet.png" width="60" />|Ubiquiti|Bullet Ubiquiti G4||||
-|<img src="../../es_ES/camera/images/ubiquiti.UVC G4 Doorbell.png" width="60" />|Ubiquiti|Bullet Ubiquiti G4||||
+|<img src="../../es_ES/camera/images/ubiquiti.UVC G4 Timbre de la puerta.png" width="60" />|Ubiquiti|Bullet Ubiquiti G4||||
 |<img src="../../es_ES/camera/images/ubiquiti.UVC G4 Pro.png" width="60" />|Ubiquiti|Ubiquiti G4 Pro||||
 
 # Vistacam
@@ -239,4 +246,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2024-01-03 01:20:04
+2024-01-04 01:20:07

@@ -16,7 +16,7 @@
     "utilization": "Créez un nouvel équipement dans Plugins → Organisation → Mode puis ajoutez les modes souhaités avant de définir les actions d'entrée et\/ou de sortie de chaque mode.",
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "4.2",
+    "require": "4.3",
     "category": "organization",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/mode\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/mode\/",

@@ -4,6 +4,11 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
+# 01/03/2024
+
+- Preparándose para el apuro 4.4
+- Se agregó un comando para reproducir las acciones del modo actual (es necesario volver a guardar el equipo))
+
 # 19/01/2022
 
 - Optimizaciones V4.2

@@ -4,10 +4,14 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+# 03/01/2024
+
+- Preparing for jeedom 4.4
+- Improved mosquitto management under Docker
+
 # 10/27/2023
 
 - Fixed a bug on the state of the daemon (started when not)
-
 
 # 05/10/2023
 

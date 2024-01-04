@@ -25,6 +25,12 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/camera/images/bluestork.cam.png" width="60" />|Bluestork|Camera||||
 
+# Bosh
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/camera/images/bosh.dinion_ip.png" width="60" />|Bosch|DINION IP||||
+
 # D-link
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -138,6 +144,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../en_US/camera/images/doorbell.png" width="60" />|Netatmo|Doorbell||Absolutely requires the Netatmo Security plugin (paid)||
 |<img src="../../en_US/camera/images/presence.png" width="60" />|Netatmo|Presence||Absolutely requires the Netatmo Security plugin (paid)|[Buy](https://www.domadoo.fr/fr/objets-communicants/3855-netatmo-camera-exterieure-de-securite-presence-3700730501866.html)|
 |<img src="../../en_US/camera/images/welcome.png" width="60" />|Netatmo|Welcome||Absolutely requires the Netatmo Security plugin (paid)|[Buy](https://www.domadoo.fr/fr/objets-communicants/3064-netatmo-camera-a-reconnaissance-faciale-welcome-3700730500623.html)|
 
@@ -239,4 +246,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2024-01-03 01:20:04
+2024-01-04 01:20:07

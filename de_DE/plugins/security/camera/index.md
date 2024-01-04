@@ -39,6 +39,13 @@ Hier haben Sie die wichtigsten Informationen Ihrer Kamera :
 -   **Videostream-Option** : Wenn Sie sich im Video-Stream-Modus befinden (Stream-URL ausgefüllt), können Sie hier zusätzliche Parameter an ffmpeg und avconv übergeben (für Experten reserviert))
 -   **Modell** : ermöglicht die Auswahl des Kameramodells. Achtung : Wenn Sie dies ändern, werden Ihre Konfigurationseinstellungen überschrieben.
 
+ONVIF-Einstellungen :
+-   **ONVIF-Port** : der für onvif verwendete Port
+-   **Profil-Token** : Token, der zum Starten von Befehlen durch onvif verwendet wird
+-   **X-, Y- und Z-Geschwindigkeiten** : PTZ-Bewegungsgeschwindigkeit (zwischen 0 und 1))
+-   **Verzögerung vor Stoppbefehl (in ms))** : Zeit bis zum PTZ-Stoppbefehl
+    - Sie müssen bei jedem PTZ-Bewegungsbefehl den Stoppbefehl in das dafür vorgesehene Feld eingeben
+
 > **Notiz**
 >
 > Sie können finden [Hier](https://www.ispyconnect.com/cameras) Konfiguration für viele Kameras und daher in der Lage sein, Ihre Kamera selbst in Jeedom zu integrieren, wenn es nicht in der Liste ist

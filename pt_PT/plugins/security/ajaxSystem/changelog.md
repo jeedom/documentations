@@ -4,7 +4,7 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto
 
-# 24/04/2023
+# 06/06/2023
 
 - Adicionar cubo de fibra
 

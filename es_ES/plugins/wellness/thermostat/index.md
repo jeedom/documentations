@@ -105,7 +105,7 @@ Todo lo relacionado con los controles del radiador o del aire acondicionado se d
 
 ![Acciones sur les appareils](./images/actionssurappareil.png)
 
-Las acciones son aquellas que permiten calentar, enfriar (aire acondicionado), deteniendo el comando. Se puede prever una acción adicional en cada cambio de punto de ajuste, ya sea en modo manual o automático. Puede usar #slider# en la opción para pasar el punto de ajuste a la acción.
+Las acciones son aquellas que permiten calentar, enfriar (aire acondicionado), deteniendo el comando. Se puede prever una acción adicional en cada cambio de punto de ajuste, ya sea en modo manual o automático.
 
 ## Las modas : el punto de partida para la automatización
 

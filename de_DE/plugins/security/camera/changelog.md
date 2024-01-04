@@ -4,6 +4,14 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 26.09.2023
+
+- ONVIF PTZ-Befehlsunterstützung
+
+# 10.02.2022
+
+- Es wurde ein Problem behoben, bei dem der API-Schlüssel nicht sichtbar war
+
 # 31.01.2022
 
 - API-Aufruf aktualisieren

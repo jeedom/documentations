@@ -54,6 +54,7 @@
         "Welcome": "Welcome",
         "Necessite absolument le plugin Netatmo Security (payant": "Necessite absolument le plugin Netatmo Security (payant",
         "Presence": "Presence",
+        "Doorbell": "Doorbell",
         "Mustcam": "Mustcam",
         "HD motorisée": "HD motorisée",
         "Konx": "Konx",
@@ -109,6 +110,8 @@
         "DCS": "DCS",
         "DCS 932l": "DCS 932l",
         "DCS-5300G": "DCS-5300G",
+        "Bosch": "Bosch",
+        "DINION IP": "DINION IP",
         "Bluestork": "Bluestork",
         "Axis": "Axis",
         "207w": "207w",
@@ -117,6 +120,7 @@
         "Alcatel": "Alcatel",
         "IP_Linkcom\/portier video": "IP_Linkcom\/portier video",
         "Compatibilité des caméras": "Compatibilité des caméras",
+        "Bosh": "Bosh",
         "D-link": "D-link",
         "Acheter": "Acheter",
         "Hedden": "Hedden",
@@ -126,6 +130,6 @@
         "Trendnet": "Trendnet",
         "Ycam": "Ycam",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2024-01-03 01": "2024-01-03 01"
+        "2024-01-04 01": "2024-01-04 01"
     }
 }

@@ -105,7 +105,7 @@ Tout ce qui concerne les commandes du radiateur ou du climatiseur est décrit da
 
 ![Actions sur les appareils](./images/actionssurappareil.png)
 
-Les actions sont celles qui permettent de chauffer, de refroidir (climatisation), d’arrêter la commande. Une action complémentaire peut être envisagée à chaque changement de consigne, que ce soit en mode manuel ou automatique. On peut utiliser #slider# dans les options de la commande pour utiliser la consigne reçue.
+Les actions sont celles qui permettent de chauffer, de refroidir (climatisation), d’arrêter la commande. Une action complémentaire peut être envisagée à chaque changement de consigne, que ce soit en mode manuel ou automatique.
 
 ## Les modes : le point de départ pour l’automatisation
 

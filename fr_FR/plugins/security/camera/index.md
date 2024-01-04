@@ -39,6 +39,13 @@ Ici vous avez les informations principales de votre caméra :
 -   **Option flux video** : si vous etês en mode flux video (URL du flux remplis) alors vous pouvez passer des parametres suplementaire ici à ffmpeg et avconv (reservé aux experts)
 -   **Modèle** : permet de choisir le modèle de la caméra. Attention : si vous changez cela écrasera vos paramètres de configuration.
 
+Les paramètres ONVIF :
+-   **Port ONVIF** : le port servant pour onvif
+-   **Jeton de profil** : jeton servant à lancer les commandes par onvif
+-   **Vitesses X, Y et Z** : vitesse de mouvement ptz (entre 0 à 1)
+-   **Délai avant commande stop (en ms)** : délai avant commande de stop ptz
+    - Il faut renseigner la commande de Stop sur chaque commande de mouvement PTZ dans le champ prévu à cet effet
+
 > **NOTE**
 >
 > Vous pouvez retrouver [ici](https://www.ispyconnect.com/cameras) des configuration pour pas mal de camera et donc pouvoir integrer votre camera vous meme à Jeedom si elle n'est pas dans la liste

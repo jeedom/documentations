@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 03/01/2024
+
+- Preparing for jeedom 4.4
+
 # 09/26/2023
 
 - ONVIF PTZ command support

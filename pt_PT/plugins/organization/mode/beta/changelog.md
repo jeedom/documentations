@@ -4,6 +4,11 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
+# 01/03/2024
+
+- Preparando-se para Jeedom 4.4
+- Adicionado um comando para repetir as ações do modo atual (é necessário salvar novamente o equipamento)
+
 # 19/01/2022
 
 - Otimizações da V4.2

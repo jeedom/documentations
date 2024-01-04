@@ -4,6 +4,12 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 01.03.2024
+
+- Vorbereitung auf Jeedom 4.4
+- Verbessertes SIA-Management
+- Bug-Fix
+
 # 06.06.2023
 
 - Fasernabe hinzufügen

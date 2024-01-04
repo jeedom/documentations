@@ -4,6 +4,11 @@
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
+# 03/01/2024
+
+- Preparing for jeedom 4.4
+- Added a command to replay the actions of the current mode (need to resave equipment)
+
 # 01/19/2022
 
 - V4.2 optimizations

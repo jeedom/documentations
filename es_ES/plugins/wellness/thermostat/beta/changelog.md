@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 01/03/2024
+
+- Preparándose para el apuro 4.4
+
 # 19/12/2023
 
 - Posibilidad de ingresar valores negativos para los comandos de Compensaciones relacionados con contribuciones internas

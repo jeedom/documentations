@@ -4,6 +4,12 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
+# 01/03/2024
+
+- Preparándose para el apuro 4.4
+- Gestión mejorada de SIA
+- Arreglo del fallo
+
 # 06/06/2023
 
 - Agregar concentrador de fibra

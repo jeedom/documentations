@@ -15,8 +15,8 @@
     },
     "utilization": "Créez un nouvel équipement dans Plugins → Organisation → Mode puis ajoutez les modes souhaités avant de définir les actions d'entrée et\/ou de sortie de chaque mode.",
     "licence": "AGPL",
-    "author": "Loïc",
-    "require": "3.3.39",
+    "author": "Jeedom SAS",
+    "require": "4.3",
     "category": "organization",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/mode\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/mode\/",
@@ -33,14 +33,14 @@
         "tr"
     ],
     "compatibility": [
-        "miniplus",
         "smart",
         "atlas",
         "rpi",
         "docker",
         "diy",
         "mobile",
-        "v4"
+        "v4",
+        "luna"
     ],
     "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/mode\/beta\/changelog",
     "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/mode\/beta"

@@ -4,6 +4,17 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 19/12/2023
+
+- Posibilidad de ingresar valores negativos para los comandos de Compensaciones relacionados con contribuciones internas
+
+# 27/04/2023
+
+- Mejora al cambiar de modo *(aire acondicionado, calefacción o ambos)*
+- Eliminando código obsoleto para Imperihome
+
+# 20/04/2023
+
 - Mejora en la gestión de aperturas
 
 # 10/03/2022

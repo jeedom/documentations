@@ -4,6 +4,9 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 01/03/2024
+
+- Preparándose para el apuro 4.4
 - Se solucionó un problema con la opción "zonas separadas" al cambiar de modo
 - Mejora de la interfaz
 

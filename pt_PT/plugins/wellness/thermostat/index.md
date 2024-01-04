@@ -105,7 +105,7 @@ Tudo relacionado aos controles do radiador ou ar condicionado é descrito na gui
 
 ![Estoque sur les appareils](./images/actionssurappareil.png)
 
-Ações são aquelas que permitem aquecimento, resfriamento (ar condicionado), parada do comando. Uma ação adicional pode ser prevista a cada alteração do ponto de ajuste, seja no modo manual ou automático. Você pode usar #slider# na opção para passar o setpoint para a ação.
+Ações são aquelas que permitem aquecimento, resfriamento (ar condicionado), parada do comando. Uma ação adicional pode ser prevista a cada alteração do ponto de ajuste, seja no modo manual ou automático.
 
 ## Modas : o ponto de partida para automação
 

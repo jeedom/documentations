@@ -105,7 +105,7 @@ Alles, was mit der Steuerung des Kühlers oder der Klimaanlage zu tun hat, wird 
 
 ![Lager sur les appareils](./images/actionssurappareil.png)
 
-Aktionen sind solche, die das Heizen, Kühlen (Klimatisieren) und Stoppen des Befehls ermöglichen. Bei jeder Sollwertänderung kann eine zusätzliche Aktion ins Auge gefasst werden, sei es im manuellen oder im automatischen Modus. Sie können #slider# in der Option verwenden, um den Sollwert an die Aktion zu übergeben.
+Aktionen sind solche, die das Heizen, Kühlen (Klimatisieren) und Stoppen des Befehls ermöglichen. Bei jeder Sollwertänderung kann eine zusätzliche Aktion ins Auge gefasst werden, sei es im manuellen oder im automatischen Modus.
 
 ## Mode : der Ausgangspunkt für die Automatisierung
 

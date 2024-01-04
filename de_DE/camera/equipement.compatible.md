@@ -25,6 +25,12 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/camera/images/bluestork.cam.png" width="60" />|Bluestork|Kamera||||
 
+# Bosh
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/camera/images/bosh.dinion_ip.png" width="60" />|Bosch|DINION IP||||
+
 # D-link
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -138,6 +144,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../de_DE/camera/images/doorbell.png" width="60" />|Netatmo|Doorbell||Erfordert unbedingt das Netatmo Security Plugin (kostenpflichtig))||
 |<img src="../../de_DE/camera/images/presence.png" width="60" />|Netatmo|Presence||Erfordert unbedingt das Netatmo Security Plugin (kostenpflichtig))|[Kaufen](https://www.domadoo.fr/fr/objets-communicants/3855-netatmo-camera-exterieure-de-securite-presence-3700730501866.html)|
 |<img src="../../de_DE/camera/images/welcome.png" width="60" />|Netatmo|Welcome||Erfordert unbedingt das Netatmo Security Plugin (kostenpflichtig))|[Kaufen](https://www.domadoo.fr/fr/objets-communicants/3064-netatmo-camera-a-reconnaissance-faciale-welcome-3700730500623.html)|
 
@@ -193,7 +200,7 @@
 |<img src="../../de_DE/camera/images/ubiquiti.UVC G3 Instant.png" width="60" />|Ubiquiti|Ubiquiti G3 Instant||||
 |<img src="../../de_DE/camera/images/ubiquiti.UVC G3 Pro.png" width="60" />|Ubiquiti|Ubiquiti G3 Pro||||
 |<img src="../../de_DE/camera/images/ubiquiti.UVC G4 Bullet.png" width="60" />|Ubiquiti|Ubiquiti G4 Kugel||||
-|<img src="../../de_DE/camera/images/ubiquiti.UVC G4 Doorbell.png" width="60" />|Ubiquiti|Ubiquiti G4 Kugel||||
+|<img src="../../de_DE/camera/images/ubiquiti.UVC G4 Türklingel.png" width="60" />|Ubiquiti|Ubiquiti G4 Kugel||||
 |<img src="../../de_DE/camera/images/ubiquiti.UVC G4 Pro.png" width="60" />|Ubiquiti|Ubiquiti G4 Pro||||
 
 # Vistacam
@@ -239,4 +246,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2024-01-03 01:20:04
+2024-01-04 01:20:07

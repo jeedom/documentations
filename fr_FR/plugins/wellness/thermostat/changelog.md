@@ -4,6 +4,19 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 03/01/2024
+
+- Préparation pour jeedom 4.4
+
+# 19/12/2023
+
+- Possibilité de saisir des valeurs négatives pour les commandes Offsets relatives aux apports internes
+
+# 27/04/2023
+
+- Amélioration lors des changements de mode *(climatisation, chauffage ou les deux)*
+- Suppression du code obsolète pour Imperihome
+
 # 20/04/2023
 
 - Amélioration de la gestion des ouvrants

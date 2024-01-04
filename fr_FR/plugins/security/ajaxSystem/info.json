@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "4.1",
+    "require": "4.3",
     "category": "security",
     "hasDependency": true,
     "hasOwnDeamon": true,

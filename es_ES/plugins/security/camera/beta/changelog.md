@@ -4,6 +4,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 01/03/2024
+
+- Preparándose para el apuro 4.4
+
 # 26/09/2023
 
 - Compatibilidad con comandos ONVIF PTZ

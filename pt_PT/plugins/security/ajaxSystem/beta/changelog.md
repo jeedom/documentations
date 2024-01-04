@@ -4,6 +4,12 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto
 
+# 01/03/2024
+
+- Preparando-se para Jeedom 4.4
+- Melhor gestão da SIA
+- Correção de bug
+
 # 06/06/2023
 
 - Adicionar cubo de fibra

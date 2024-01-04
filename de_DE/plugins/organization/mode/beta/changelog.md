@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 01.03.2024
+
+- Vorbereitung auf Jeedom 4.4
+- Es wurde ein Befehl hinzugefügt, um die Aktionen des aktuellen Modus wiederzugeben (Ausrüstung muss erneut gespeichert werden))
+
 # 19.01.2022
 
 - V4.2-Optimierungen

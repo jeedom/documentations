@@ -4,6 +4,17 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 19.12.2023
+
+- Möglichkeit der Eingabe negativer Werte für Offset-Befehle in Bezug auf interne Beiträge
+
+# 27.04.2023
+
+- Verbesserung beim Moduswechsel *(Klimaanlage, Heizung oder beides)*
+- Entfernen veralteten Codes für Imperihome
+
+# 20.04.2023
+
 - Verbesserte Verwaltung von Öffnungen
 
 # 10.03.2022
