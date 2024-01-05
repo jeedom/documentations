@@ -4,6 +4,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 01/05/2024
+
+- Corrigido um bug na exibição de câmeras no celular
+
 # 01/03/2024
 
 - Preparando-se para Jeedom 4.4

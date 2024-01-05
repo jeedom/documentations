@@ -4,6 +4,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 01/03/2024
+
+- Preparando-se para Jeedom 4.4
+
 # 26/09/2023
 
 - Suporte ao comando ONVIF PTZ
