@@ -4,6 +4,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+- Atualização de firmware aprimorada no Luna
+- Melhor gerenciamento portuário em Luna
+- Simplificando a lista de portas
+
 # 26/12/2023
 
 - Desligamento aprimorado do daemon zigbee2mqtt

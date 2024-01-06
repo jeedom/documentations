@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+- Improved firmware update on Luna
+- Better port management on Luna
+- Simplifying the port list
+
 # 12/26/2023
 
 - Improved zigbee2mqtt daemon shutdown

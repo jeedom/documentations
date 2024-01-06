@@ -2,7 +2,7 @@
 
 El complemento **Gestión de persianas** le permitirá gestionar fácilmente el posicionamiento automático de sus persianas de acuerdo con la elevación y el azimut del sol y / u otras condiciones de su elección. Todos los cálculos se llevan a cabo directamente por el complemento sin necesidad de una conexión a Internet.
 
-Bien entendido, este complemento puede reemplazar todos los escenarios relacionados con la apertura, cierre o posicionamiento de sus persianas. Puede encontrar un ejemplo de uso leyendo [este artículo de blog escrito por Loïc](https://www.jeedom.com/blog/?p=4310){:target = "\_ en blanco"}.
+Bien entendido, este complemento puede reemplazar todos los escenarios relacionados con la apertura, cierre o posicionamiento de sus persianas. Puede encontrar un ejemplo de uso leyendo [este artículo de blog escrito por Loïc](https://blog.jeedom.com/5543-gestion-de-mes-volets/).
 
 >**Importante**
 >

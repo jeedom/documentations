@@ -2,7 +2,7 @@
 
 Das Plugin **Verwaltung von Rollläden** ermöglicht es Ihnen, die automatische Positionierung Ihrer Rollläden entsprechend der Höhe und dem Azimut der Sonne und / oder anderen Bedingungen Ihrer Wahl zu verwalten. Alle Berechnungen werden direkt vom Plugin durchgeführt, ohne dass eine Internetverbindung erforderlich ist.
 
-Gut verstanden, kann dieses Plugin alle Szenarien zum Öffnen, Schließen oder Positionieren Ihrer Rollläden ersetzen. Ein Anwendungsbeispiel finden Sie unter [dieser Blogartikel von Loïc](https://www.jeedom.com/blog/?p=4310){:Ziel = "\_ leer"}.
+Gut verstanden, kann dieses Plugin alle Szenarien zum Öffnen, Schließen oder Positionieren Ihrer Rollläden ersetzen. Ein Anwendungsbeispiel finden Sie unter [dieser Blogartikel von Loïc](https://blog.jeedom.com/5543-gestion-de-mes-volets/).
 
 >**Wichtig**
 >

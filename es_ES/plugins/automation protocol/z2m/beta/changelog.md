@@ -4,6 +4,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+- Actualización de firmware mejorada en Luna
+- Mejor gestión portuaria en Luna
+- Simplificando la lista de puertos
+
 # 26/12/2023
 
 - Apagado mejorado del demonio zigbee2mqtt

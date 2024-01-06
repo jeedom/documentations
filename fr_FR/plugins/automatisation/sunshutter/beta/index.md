@@ -2,7 +2,7 @@
 
 Le plugin **Gestion des Volets** va vous permettre de gérer facilement le positionnement automatique de vos volets en fonction de l'élévation et de l'azimuth du soleil et/ou d'autres conditions de votre choix. Tous les calculs sont effectués directement par le plugin sans nécessiter de connexion à internet.
 
-Bien appréhendé, ce plugin est en mesure de remplacer l'ensemble des scénarios relatifs à l'ouverture, la fermeture ou le positionnement de vos volets. Vous pouvez retrouver un exemple d'utilisation à la lecture de [cet article du blog rédigé par Loïc](https://www.jeedom.com/blog/?p=4310){:target="\_blank"}.
+Bien appréhendé, ce plugin est en mesure de remplacer l'ensemble des scénarios relatifs à l'ouverture, la fermeture ou le positionnement de vos volets. Vous pouvez retrouver un exemple d'utilisation à la lecture de [cet article du blog rédigé par Loïc](https://blog.jeedom.com/5543-gestion-de-mes-volets/).
 
 >**IMPORTANT**
 >

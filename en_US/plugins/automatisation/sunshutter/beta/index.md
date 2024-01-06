@@ -2,7 +2,7 @@
 
 The plugin **Management of shutters** will allow you to easily manage the automatic positioning of your shutters according to the elevation and azimuth of the sun and / or other conditions of your choice. All calculations are carried out directly by the plugin without requiring an internet connection.
 
-Well understood, this plugin is able to replace all the scenarios relating to the opening, closing or positioning of your shutters. You can find an example of use by reading [this blog article written by Loïc](https://www.jeedom.com/blog/?p=4310){:target = "\_ blank"}.
+Well understood, this plugin is able to replace all the scenarios relating to the opening, closing or positioning of your shutters. You can find an example of use by reading [this blog article written by Loïc](https://blog.jeedom.com/5543-gestion-de-mes-volets/).
 
 >**Important**
 >

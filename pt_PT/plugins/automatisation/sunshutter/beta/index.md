@@ -2,7 +2,7 @@
 
 O plugin **Gestão de persianas** irá permitir-lhe gerir facilmente o posicionamento automático das suas persianas de acordo com a elevação e azimute do sol e / ou outras condições à sua escolha. Todos os cálculos são realizados diretamente pelo plugin, sem a necessidade de conexão com a internet.
 
-Bem entendido, este plugin é capaz de substituir todos os cenários relativos à abertura, fechamento ou posicionamento de suas venezianas. Você pode encontrar um exemplo de uso lendo [este artigo de blog escrito por Loïc](https://www.jeedom.com/blog/?p=4310){:target = "\_ em branco"}.
+Bem entendido, este plugin é capaz de substituir todos os cenários relativos à abertura, fechamento ou posicionamento de suas venezianas. Você pode encontrar um exemplo de uso lendo [este artigo de blog escrito por Loïc](https://blog.jeedom.com/5543-gestion-de-mes-volets/).
 
 >**IMPORTANTE**
 >

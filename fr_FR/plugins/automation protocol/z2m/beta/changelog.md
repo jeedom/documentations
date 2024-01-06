@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+- Amélioration de la mise à jour du firmware sur Luna
+- Meilleure gestion du port sur Luna
+- Simplification de la liste des ports
+
 # 26/12/2023
 
 - Amélioration de l'arrêt du démon Zigbee2MQTT
