@@ -34,7 +34,7 @@ En dessous, nous allons pouvoir configurer le moteur de gestion automatique en l
 - **Condition pour vérification** : Condition à remplir pour que la gestion automatique s'active, si cette condition n'est pas vraie, le plugin ne modifiera pas la position du volet *(vide par défaut = toujours active)*.
 - **Fréquence de vérification** : Fréquence de contrôle des exceptions et des conditions de positionnement.
 - **Reprendre la main** : Autorisez ou non le système de gestion automatique à modifier la position du volet si celui-ci a été manœuvré manuellement.
->*Exemple : le système ferme le volet puis vous l'ouvrez manuellement quelques minutes plus tard, alors la gestion automatique ne se fera que si **Reprendre la main** est à "**Oui**" ou que le délai de reprise de main est dépassé ou encore que la commande **Reprendre gestion** ne soit déclenchée.*
+>*Exemple : le système ferme le volet puis vous l'ouvrez manuellement quelques minutes plus tard, alors la gestion automatique ne se fera que si **Reprendre la main** est à "**Oui**" ou que le délai de reprise de main est dépassé ou encore que la commande **Reprendre** ne soit déclenchée.*
 
 - **Reprendre sur changement de mode** : Cochez la case pour reprendre la gestion automatique en cas de changement de mode.
 - **Action immédiate prioritaire** : Cochez la case pour que les exceptions avec action immédiate s'exécutent peu importe les autres conditions, même en cas de suspension.
@@ -53,7 +53,7 @@ ou
 - **Longitude** : La longitude du bâtiment ou du volet.
 - **Altitude** : L'altitude du bâtiment ou du volet.
 
-Enfin, ne reste plus qu'à renseigner les informations relatives au contrôle du volet :
+Enfin, il ne reste plus qu'à renseigner les informations relatives au contrôle du volet :
 
 - **Pourcentages de fermeture/ouverture** : Indiquez le pourcentage minimal de fermeture *(généralement 0)* et maximal d'ouverture *(généralement 99 ou 100)*.
 - **Durée d'un déplacement** : Délai maximum en secondes pour effectuer un mouvement complet d'ouverture ou de fermeture.
@@ -66,7 +66,7 @@ Enfin, ne reste plus qu'à renseigner les informations relatives au contrôle du
 
 # Exceptions
 
-Cet onglet va permettre de définir des règles spécifiques qui viendront en exception aux conditions relatives à la position du soleil de l'onglet suivant. Les règles sont vérifiées les unes après les autres, le moteur de gestion automatique s'arrête à la première règle valide et place le volet à la position indiquée.
+Cet onglet va permettre de définir des règles spécifiques qui viendront en exception aux conditions relatives à la position du soleil de l'onglet **Positionnement**. Les règles sont vérifiées les unes après les autres, le moteur de gestion automatique s'arrête à la première règle valide et place le volet à la position indiquée.
 
 - **Condition** : La condition à remplir pour que la règle soit valide *(facultatif)*.
 - **Mode** : Si renseigné, la condition ne sera valide que si le volet est actuellement dans le mode spécifié. Il est possible de spécifier plusieurs modes en les séparant par des virgules *(facultatif)*.
@@ -107,7 +107,7 @@ Ce dernier onglet donne accès à la liste des commandes et permet de définir/s
 >Il est bien sûr possible d'utiliser les valeurs des commandes **Azimuth soleil** et **Elévation soleil** ailleurs dans Jeedom.
 
 - **Etat gestion** : Etat actuel de la gestion automatique en binaire *(0 = suspendue / 1 = active)*.
-- **Forcer action** : Force le calcul de position du volet en fonction de la position du soleil et des exceptionbs et applique le positionnement quel que soit l\'état de la gestion automatique *(suspendue ou non)*.
+- **Forcer action** : Force le calcul de position du volet en fonction de la position du soleil et des exceptions et applique le positionnement quel que soit l\'état de la gestion automatique *(suspendue ou non)*.
 - **Dernière position** : Dernière position demandée au volet par le plugin.
 - **Label** : Label correspondant à une exception ou une condition de positionnement valide.
 - **Suspendre** : Suspend la gestion automatique du volet.
