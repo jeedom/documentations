@@ -11,16 +11,16 @@
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,
 	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://www.carle.fr/plugin-metar-taf-infos/3-changelog.html",
+	"changelog": "https://jealg.github.io/documentation/plugin-Metar_infos/#language#/changelog",
 	"documentation" : "https://www.carle.fr/plugin-metar-taf-infos/4-documentation.html",
-	"changelog_beta" : "https://www.carle.fr/plugin-metar-taf-infos/3-changelog.html",
+	"changelog_beta" : "https://jealg.github.io/documentation/plugin-Metar_infos/#language#/changelog_beta",
 	"documentation_beta" : "https://www.carle.fr/plugin-metar-taf-infos/4-documentation.html",
+	"link" : {
+		"forum":"https://community.jeedom.com/tag/plugin-Metar_info"
+	},
 	"language": [
 		"fr_FR"
 	],
-	"link" : {
-		"forum":"https://community.jeedom.com/tag/plugin-metar_infos"
-	},
 	"compatibility": [
 		"miniplus",
 		"smart",
