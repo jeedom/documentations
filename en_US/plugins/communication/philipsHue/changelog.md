@@ -6,11 +6,14 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-- Added a button to activate the hue bridge touchlink
 
-# 04/1/2022
+- Complete rewrite of the plugin to use the hue 2.0 api
+- Requires resynchronization to walk
+- WARNING : For the sensors the commands change completely so you have to review your scenarios
+- Important : certain commands will no longer be available with this new version, including alerts, the rainbow and animations
+- Important : Scenes are now of type action other, so there is a command not scene
+- VERY IMPORTANT : once in beta you must not return to stable or go through a backup restoration
 
-- Bugfix
 
 # 04/10/2021
 

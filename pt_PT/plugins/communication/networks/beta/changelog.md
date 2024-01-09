@@ -4,6 +4,12 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 01/08/2024
+
+- Preparando-se para Jeedom 4.4
+- Correção de bug
+- Otimização da gestão da unidade
+
 # 17/10/2022
 
 - Adição da apresentação do modo de tabela de equipamentos

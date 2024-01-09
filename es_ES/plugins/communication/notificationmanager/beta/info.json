@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "4.2",
+    "require": "4.3",
     "category": "communication",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/notificationmanager\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/notificationmanager\/",
@@ -24,7 +24,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",

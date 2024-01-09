@@ -14,37 +14,27 @@ Plug-in para enviar SMS e fazer chamadas com mensagens automáticas da Jeedom.
 >
 > As mensagens de texto são limitadas a 140 caracteres e as chamadas a 450 caracteres.
 
-# Configuração do plugin 
+# Configuração do plugin
 
 Depois de baixar o plugin, você só precisa ativá-lo, não há configuração neste nível.
 
-![phonemarket1](../images/phonemarket1.PNG)
+# Configuração do equipamento
 
-# Configuração do equipamento 
+A configuração dos equipamentos do mercado telefônico é acessível no menu Plugins → Comunicação.
 
-A configuração do equipamento Phonemarket pode ser acessada no menu do plugin :
+Depois que um equipamento é adicionado, você acaba com :
 
-![phonemarket2](../images/phonemarket2.PNG)
+- **Nome do equipamento** : nome do seu equipamento no mercado telefônico,
+- **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
+- **Categoria** : categoria de equipamento,
+- **Ativar** : torna seu equipamento ativo,
+- **Visivél** : torna seu equipamento visível no painel.
 
-É assim que a página do plugin Phonemarket se parece (aqui com 1 dispositivo já) :
+Ao clicar na aba Pedidos, você encontra a lista de pedidos:
 
-![phonemarket3](../images/phonemarket3.PNG)
-
-Depois de clicar em um deles, você obtém :
-
-![phonemarket4](../images/phonemarket4.PNG)
-
-Aqui você encontra toda a configuração do seu equipamento :
-
--   **Nome do equipamento do telefone comercial** : nome do seu equipamento Phonemarket,
--   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
--   **Ativar** : torna seu equipamento ativo,
--   **Visivél** : torna seu equipamento visível no painel.
-
-Abaixo você encontra a lista de pedidos :
-
--   **Nome** : o nome exibido no painel,
--   **Tipo** : tipo de comando (chamadas ou sms),
--   **Número** : número de telefone a ser chamado ou para quem um SMS deve ser enviado (dependendo do tipo),
--   **Teste** : permite testar o comando,
--   **Remover** (placa -) : permite excluir o comando.
+- **Nome** : o nome exibido no painel,
+- **Tipo** : tipo de comando (chamadas ou sms),
+- **Número** : número de telefone a ser chamado ou para quem um SMS deve ser enviado (dependendo do tipo),
+- **Mostrar** : permite que você exiba o pedido no painel,
+- **Teste** : permite testar o comando,
+- **Remover** (placa -) : permite excluir o comando.

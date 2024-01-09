@@ -4,9 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 08/01/2024
+
 - ATENCIÓN !!!!!! Cambio de comportamiento en las persianas, inversión de dirección, el complemento ya no indica el % de cierre sino el % de apertura
 - Verificar el código de retorno de ipx durante un comando y, si hay un error, Jeedom volverá a intentar el comando 150 ms después
-
+- Preparándose para el apuro 4.4
 
 # 07/02/2022
 

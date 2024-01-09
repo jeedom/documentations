@@ -6,11 +6,14 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-- Se agregó un botón para activar el enlace táctil del puente hue
 
-# 01/04/2022
+- Reescritura completa del complemento para usar la api hue 2.0
+- Requiere resincronización para caminar
+- ATENCIÓN : Para los sensores, los comandos cambian por completo, por lo que debe revisar sus escenarios
+- Importante : algunos comandos ya no estarán disponibles con esta nueva versión, incluidas las alertas, el arcoíris y las animaciones
+- Importante : Las escenas ahora son de tipo action other, por lo que hay un comando, no una escena
+- MUY IMPORTANTE : una vez en beta, no debe volver a estable ni pasar por una restauración de copia de seguridad
 
-- Correcciones de errores
 
 # 10/04/2021
 

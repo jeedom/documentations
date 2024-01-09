@@ -6,6 +6,7 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 01/08/2024
 
 - Reescrita completa do plugin para usar a API Hue 2.0
 - Requer ressincronização para andar

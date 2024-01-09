@@ -31,6 +31,10 @@ Vous avez comme options :
 >
 > Vous avez aussi un test par commande dans la notification.
 
+> **IMPORTANT**
+>
+> Le plugin ne supporte pas le renommage des commandes de notification. Si vous voulez changer le nom d'une commande de notification il faudra passer sur tout les scénarios/équipements qui l'utilise pour faire la mise à jour
+
 
 **Exemple simple**
 

@@ -14,37 +14,27 @@ Plugin permettant d’envoyer des SMS et de passer des appels avec messages auto
 >
 > Les SMS sont limités à 140 caractères et les appels à 450 caractères.
 
-# Configuration du plugin 
+# Configuration du plugin
 
 Après téléchargement du plugin, il vous suffit juste d’activer celui-ci, il n’y a aucune configuration à ce niveau.
 
-![phonemarket1](./images/phonemarket1.PNG)
+# Configuration des équipements
 
-# Configuration des équipements 
+La configuration des équipements Phone market est accessible à partir du menu Plugins → Communication.
 
-La configuration des équipements Phonemarket est accessible à partir du menu plugin :
+Une fois un équipement ajouté vous vous retrouvez avec :
 
-![phonemarket2](./images/phonemarket2.PNG)
+- **Nom de l’équipement** : nom de votre équipement Phone market,
+- **Objet parent** : indique l’objet parent auquel appartient l’équipement,
+- **Catégorie** : la catégorie de l’équipement,
+- **Activer** : permet de rendre votre équipement actif,
+- **Visible** : rend votre équipement visible sur le dashboard.
 
-Voilà à quoi ressemble la page du plugin Phonemarket (ici avec déjà 1 équipement) :
+En cliquant sur l’onglet Commandes, vous retrouvez la liste des commandes:
 
-![phonemarket3](./images/phonemarket3.PNG)
-
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
-
-![phonemarket4](./images/phonemarket4.PNG)
-
-Vous retrouvez ici toute la configuration de votre équipement :
-
--   **Nom de l’équipement Phonemarket** : nom de votre équipement Phonemarket,
--   **Objet parent** : indique l’objet parent auquel appartient l’équipement,
--   **Activer** : permet de rendre votre équipement actif,
--   **Visible** : rend votre équipement visible sur le dashboard.
-
-En-dessous vous retrouvez la liste des commandes :
-
--   **Nom** : le nom affiché sur le dashboard,
--   **Type** : type de commande (appels ou sms),
--   **Numéro** : numéro de téléphone qui doit être appelé ou à qui un SMS doit être envoyé (en fonction du type),
--   **Tester** : permet de tester la commande,
--   **Supprimer** (signe -) : permet de supprimer la commande.
+- **Nom** : le nom affiché sur le dashboard,
+- **Type** : type de commande (appels ou sms),
+- **Numéro** : numéro de téléphone qui doit être appelé ou à qui un SMS doit être envoyé (en fonction du type),
+- **Afficher** : permet d’afficher la commande sur le dashboard,
+- **Tester** : permet de tester la commande,
+- **Supprimer** (signe -) : permet de supprimer la commande.

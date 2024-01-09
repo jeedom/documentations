@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 11/06/2023
+
+- Corrección de errores y optimización
+- Posibilidad de utilizar certificado, contraseña o ambos
+
 # 13/01/2023
 
 - Carga reducida para la infraestructura de DNS

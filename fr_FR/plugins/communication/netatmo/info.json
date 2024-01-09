@@ -4,7 +4,7 @@
 	"description" : "Plugin pour recuperer les équipements Netatmo (Weather,Energie,Securité). A travers le cloud Jeedom. Attention pour l'instant il n'est pas possible d'avoir le flux des cameras.",
 	"licence" : "AGPL",
 	"author" : "Jeedom SAS",
-	"require" : "4.0",
+	"require" : "4.3",
 	"category" : "communication",
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,

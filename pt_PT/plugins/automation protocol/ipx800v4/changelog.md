@@ -4,6 +4,14 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- ATENÇÃO !!!!!! Mudança de comportamento nas venezianas, inversão de direção, o plugin não indica mais o % fechamento mas sim o % abertura
+- Verificando o código de retorno ipx durante um comando e se houver um erro, Jeedom tentará novamente o comando 150 ms depois
+
+
+# 02/07/2022
+
+- Atualização para Jeedom 4.2
+
 # 25/10/2021
 
 - Adicionando um modelo

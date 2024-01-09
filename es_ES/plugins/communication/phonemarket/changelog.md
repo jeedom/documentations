@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 18/11/2023
+
+- Interfaz de complemento actualizada para Jeedom v4
+- Versión mínima requerida Jeedom v4.2
+
 # 08/07/2019
 
 - Actualizando el documento

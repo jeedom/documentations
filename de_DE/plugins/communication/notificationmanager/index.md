@@ -1,60 +1,66 @@
 # Notification Manager-Plugin
 
-Mit diesem Plugin können Sie Benachrichtigungen verwalten (Wiederherstellung im Fehlerfall, Texterzeugung...)
+Dieses Plugin wird zum Verwalten von Benachrichtigungen verwendet (Wiederherstellung im Fehlerfall, Generierung von Text usw.)...).
 
 # Plugin Konfiguration
 
-Nach dem Herunterladen des Plugins müssen Sie das Plugin lediglich aktivieren.
+Nach dem Herunterladen des Plugins müssen Sie lediglich das Plugin aktivieren. Es ist keine weitere Konfiguration erforderlich.
 
 # Gerätekonfiguration
 
 ## Equipement
 
-Auf die Konfiguration der Notification Manager-Geräte kann über das Menü Plugins und dann über Kommunikation zugegriffen werden. Hier finden Sie die Konfiguration Ihrer Geräte :
+Gerätekonfiguration **Benachrichtigungsmanager** ist über das Menü Plugins → Kommunikation zugänglich. Hier finden Sie die Konfiguration Ihrer Geräte :
 
-- Name des zu benachrichtigenden Geräts : Name der Ausrüstung
-- Übergeordnetes Objekt : sein übergeordnetes Objekt
-- Activer
-- Visible
+- **Name des Benachrichtigers** : Name der Ausrüstung.
+- **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört.
+- **Aktivieren** : macht Ihre Ausrüstung aktiv.
+- **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar.
 
 ## Commande
 
-Hier können Sie Benachrichtigungsbefehle hinzufügen. Nach dem Hinzufügen für jeden Befehl können Sie die zu verwendenden Nachrichtentypbefehle in der Reihenfolge ihrer Priorität definieren.
+Hier können Sie Benachrichtigungsbefehle hinzufügen. Für jeden Benachrichtigungsbefehl können Sie die zu verwendenden Nachrichtentypbefehle in der Reihenfolge ihrer Priorität definieren.
+
+![Benachrichtigungsmanager présentation](./images/notifmanager1.png)
 
 Sie haben Optionen :
 
-- Ausführungstest : Ermöglicht das Hinzufügen eines Tests vor der Ausführung der Benachrichtigung. Wenn der Test falsch ist, führt das Plugin nichts aus. Wenn dies der Fall ist, werden die Benachrichtigungen in der Reihenfolge der Prioritäten ausgeführt, bis eine funktionierende gefunden wird. Wenn das Feld leer ist, wird der Test ignoriert.
+- **Ausführungstest** : Ermöglicht das Hinzufügen eines Tests vor der Ausführung der Benachrichtigung. Wenn der Test falsch ist, tut das Plugin nichts. Wenn es wahr ist, führt es die Benachrichtigungen in der Reihenfolge ihrer Priorität aus, bis es eine funktionierende findet. Wenn das Feld leer ist, wird der Test ignoriert.
 
 > **Notiz**
 >
 > Sie haben auch einen Test pro Bestellung in der Benachrichtigung.
 
+> **Wichtig**
+>
+> Das Plugin unterstützt nicht das Umbenennen von Benachrichtigungsbefehlen. Wenn Sie den Namen eines Benachrichtigungsbefehls ändern möchten, müssen Sie zu allen Szenarien / Geräten wechseln, die ihn zum Aktualisieren verwenden
+
 
 **Einfaches Beispiel**
 
-Beispiel: Sie können zuerst einen Befehl vom Typ Slack und dann einen Befehl vom Typ SMS eingeben. Wenn das Senden per Slack nicht funktioniert, wird die Nachricht per SMS gesendet.
+*Sie können zuerst einen Befehl vom Typ Slack und dann einen Befehl vom Typ SMS eingeben. Wenn das Senden per Slack nicht funktioniert, wird die Nachricht per SMS gesendet.*
 
 **Komplexeres Beispiel**
 
-Beispiel: Sie können zuerst einen Slack-Befehl und einen SMS-Befehl (im selben durch && getrennten Feld) und dann eine E-Mail eingeben. Wenn Sie das Plugin verwenden, wird die Nachricht zuerst auf Slack und SMS gesendet. Wenn die beiden nicht funktionieren, wird sie per E-Mail gesendet.
+*Sie können zuerst einen Slack-Befehl und einen SMS-Befehl eingeben (im selben Feld, getrennt durch ``&&``), dann Mail. Das Plugin sendet die Nachricht zuerst per Slack und SMS. Wenn beide nicht funktionieren, sendet es die Benachrichtigung per E-Mail.*
 
 # Texterzeugung
 
-Das Plugin bietet auch die Möglichkeit der Texterzeugung, sodass die Nachrichten nicht immer gleich sind. Das System ist das gleiche wie für Interaktionen :
+Das Plugin bietet auch die Möglichkeit der Texterzeugung, so dass die Nachrichten nicht immer identisch sind. Das System ist das gleiche wie für Interaktionen :
 
-- [Hallo]|Hi] wie geht es dir ? => Wird entweder "Hallo, wie geht es dir?" oder "Hallo, wie geht es dir? ?"
+- ``[Coucou|Salut] ca va ?`` wird entweder zurückkehren "*Hallo, wie geht es dir ?*" oder  "*Hallo, wie geht es dir ?*"
 
 # Bedingter Text
 
-Sie können auch bedingten Text in die Form {(test) ? War : faux}.
+Es ist auch möglich, bedingten Text in das Formular einzufügen ``{(test) ? vrai : faux}``.
 
 > **Wichtig**
 >
-> Es ist unbedingt erforderlich, den Test (die Bedingung) in Klammern zu setzen
+> Es ist unbedingt erforderlich, den Test (die Bedingung) in Klammern zu setzen.
 
 Hier ist ein Beispiel für das Morgenwetter mit bedingtem Text und Texterzeugung :
 
-\ [Hallo \|Salut\.|Hi \] \ [Ich hoffe du hast gut geschlafen ?\.|gut geschlafen ?\.|wie geht es dir ?\.] . \ [Heute wird es sein \|Heute wird das Wetter sein|Wettervorhersage \] \#[Maison\.]\.[Météo\.]\.[Condition\.]\.# \ [und die Temperatur wird \ sein|mit \] {(\#\.[Maison\.]\.[Météo\.]\.[Température Max\.]\.# < 6) ? \ [oula es wird kalt sein \|oula es gerinnt \]: } \.#\.[Maison\.]\.[Météo\.]\.[Température Max\.]\.# Grad.
+``[Bonjour|Salut|Coucou] [j'espères que tu as bien dormi ?|bien dormi ?|ça va ?]. [Aujourd'hui il fera|Aujourd'hui le temps sera|La météo annonce] #[Maison][Météo][Condition]# [et la température sera de|avec] {(#[Maison][Météo][Température Max]# < 6) ? [oula il va faire froid|oula il caille]: } #[Maison][Météo][Température Max]# degrés.``
 
 # FAQ
 

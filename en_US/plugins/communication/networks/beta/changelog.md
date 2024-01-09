@@ -4,6 +4,12 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 01/08/2024
+
+- Preparing for jeedom 4.4
+- Bugfix
+- Optimization of unit management
+
 # 10/17/2022
 
 - Addition of equipment table mode presentation

@@ -14,8 +14,8 @@
         "tr": "Plugin pour utiliser le market comme passerelle SMS et pour passer des appels"
     },
     "licence": "AGPL",
-    "author": "Loïc",
-    "require": "3.0",
+    "author": "Jeedom SAS",
+    "require": "4.3",
     "category": "communication",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/phonemarket\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/phonemarket\/",
@@ -24,12 +24,7 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "ru_RU",
-        "id_ID",
-        "it_IT",
-        "ja_JP",
-        "pt_PT",
-        "tr"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",
@@ -39,5 +34,7 @@
         "diy",
         "mobile",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/phonemarket\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/phonemarket\/beta"
 }

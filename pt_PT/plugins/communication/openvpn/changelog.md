@@ -4,6 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 11/06/2023
+
+- Correções de bugs e otimização
+- Capacidade de usar certificado, senha ou ambos
+
 # 13/01/2023
 
 - Carga reduzida para infraestrutura de DNS

@@ -4,6 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 08/01/2024
+
+- ATTENTION !!!!!! Changement du comportement sur les volets, inversion du sens, le plugin n'indique plus le % de fermeture mais le % d'ouverture
+- Controle du code retour de l'ipx lors d'une commande et si erreur Jeedom retentera la commande 150ms plus tard
+- Préparation pour jeedom 4.4
+
 # 07/02/2022
 
 - Mise à jour pour Jeedom 4.2

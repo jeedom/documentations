@@ -4,6 +4,14 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- AUFMERKSAMKEIT !!!!!! Verhaltensänderung an den Rollläden, Richtungsumkehr, das Plugin zeigt nicht mehr die %-Schließung, sondern die %-Öffnung an
+- Überprüfen des IPX-Rückgabecodes während eines Befehls und wenn ein Fehler auftritt, wird Jeedom den Befehl 150 ms später wiederholen
+
+
+# 07.02.2022
+
+- Update für Jeedom 4.2
+
 # 25.10.2021
 
 - Vorlage hinzufügen

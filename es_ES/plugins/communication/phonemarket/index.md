@@ -14,37 +14,27 @@ Complemento para enviar SMS y hacer llamadas con mensajes automáticos de Jeedom
 >
 > Los mensajes de texto están limitados a 140 caracteres y las llamadas a 450 caracteres.
 
-# Configuración del plugin 
+# Configuración del plugin
 
 Después de descargar el complemento, solo necesita activarlo, no hay configuración en este nivel.
 
-![phonemarket1](./images/phonemarket1.PNG)
+# Configuración del equipo
 
-# Configuración del equipo 
+La configuración de los equipos de Phone Market es accesible desde el menú Complementos → Comunicación.
 
-Se puede acceder a la configuración del equipo de Phonemarket desde el menú de complementos :
+Una vez que se agrega una pieza de equipo, terminas con :
 
-![phonemarket2](./images/phonemarket2.PNG)
+- **Nombre del equipo** : nombre de su equipo del mercado telefónico,
+- **Objeto padre** : indica el objeto padre al que pertenece el equipo,
+- **Categoría** : categoría de equipo,
+- **Activar** : activa su equipo,
+- **Visible** : hace que su equipo sea visible en el tablero.
 
-Así es como se ve la página del complemento Phonemarket (aquí con 1 dispositivo ya) :
+Al hacer clic en la pestaña Pedidos, encontrará la lista de pedidos:
 
-![phonemarket3](./images/phonemarket3.PNG)
-
-Una vez que haces clic en uno de ellos, obtienes :
-
-![phonemarket4](./images/phonemarket4.PNG)
-
-Aquí encontrarás toda la configuración de tu equipo :
-
--   **Nombre del equipo del mercado telefónico** : nombre de su equipo de Phonemarket,
--   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
--   **Activar** : activa su equipo,
--   **Visible** : hace que su equipo sea visible en el tablero.
-
-A continuación encontrará la lista de pedidos :
-
--   **Nombre** : el nombre que se muestra en el tablero,
--   **Tipo** : tipo de comando (llamadas o sms),
--   **Número** : número de teléfono al que se debe llamar o a quién se debe enviar un SMS (según el tipo),
--   **Probar** : Se usa para probar el comando,
--   **Borrar** (signo -) : permite eliminar el comando.
+- **Nombre** : el nombre que se muestra en el tablero,
+- **Tipo** : tipo de comando (llamadas o sms),
+- **Número** : número de teléfono al que se debe llamar o a quién se debe enviar un SMS (según el tipo),
+- **Mostrar** : le permite mostrar el pedido en el tablero,
+- **Probar** : Se usa para probar el comando,
+- **Borrar** (signo -) : permite eliminar el comando.

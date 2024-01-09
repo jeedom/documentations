@@ -6,6 +6,7 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 01/08/2024
 
 - Complete rewrite of the plugin to use the hue 2.0 api
 - Requires resynchronization to walk

@@ -4,6 +4,16 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 14.06.2023
+
+- Mindestkernversion erforderlich: 4.2
+- Kleinere Korrekturen und Optimierungen im Geräteverwaltungsbildschirm
+
+# 19.11.2020
+
+- Neue Darstellung der Objektliste
+- Hinzufügung des Tags "V4-Kompatibilität"
+
 # 29.04.2019
 
 - Möglichkeit, für jede Benachrichtigung einen Test hinzuzufügen

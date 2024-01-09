@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 06/11/2023
+
+- Bug fixes and optimization
+- Ability to use certificate, password or both
+
 # 01/13/2023
 
 - Reduced load for DNS infrastructure
