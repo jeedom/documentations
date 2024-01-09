@@ -4,7 +4,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 01/08/2024
 
+- Preparando-se para Jeedom 4.4
 - Capacidade de configurar a porta SSH
 - Adicionada uma ferramenta para navegar na árvore snmp
 

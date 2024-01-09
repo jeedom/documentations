@@ -4,6 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 12/07/2023
+
+- Melhor tratamento de erros com firmware v7
+- Adição de um sistema de recuperação automática de token para firmware na v7
+
 # 07/07/2023
 
 - Adicionado compatibilidade com firmwares V7

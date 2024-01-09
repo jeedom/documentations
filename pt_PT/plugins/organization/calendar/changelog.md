@@ -2,11 +2,44 @@
 
 >**IMPORTANTE**
 >
->Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+>Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
+
+
+- Usuários com direitos limitados agora podem fazer alterações no widget
+
+# 12/01/2023
+
+- Otimização do cálculo de ocorrências **Incluir/Excluir por data**
+
+# 27/11/2023
+
+- Atualizada a biblioteca `fullcalendar` para 6.0.1 a 6.1.9
+- Adicionando uma visualização **Ano**
+- A visualização selecionada é salva ao salvar o equipamento
+
+# 17/03/2023
+- Fornecimento de uma API para listar, adicionar, modificar e excluir um evento.
+
+# 22/12/2022
+
+- Biblioteca `fullcalendar` atualizada de 3.10.5 a 6.0.1
+- Adicionando uma visualização **Cronograma** listando todos os eventos da semana
+- Versão mínima do núcleo do Jeedom necessária : 4.2
+
+# 25/01/2022
+
+- Corrigido um bug que poderia mudar eventos repetidos com uma data de início ou término entre 2h e 3h
+- Otimizações da V4.2
+
+# 02/12/2021
+
+- Correções de bugs
+- Preparação para Jeedom 4.2
+- Mudar para a versão estável
 
 # 11/08/2021
 
-- Possibilidade de incluir / excluir datas de acordo com todos os eventos de um diário 
+- Possibilidade de incluir / excluir datas de acordo com todos os eventos de um diário
 
 # 21/10/2021
 

@@ -2,11 +2,44 @@
 
 >**Wichtig**
 >
->Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
+>Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
+
+
+- Benutzer mit eingeschränkten Rechten können jetzt Änderungen über das Widget vornehmen
+
+# 12.01.2023
+
+- Optimierung der Vorkommensberechnung **Nach Datum einschließen/ausschließen**
+
+# 27.11.2023
+
+- Die „fullcalendar“-Bibliothek wurde auf 6.0 aktualisiert.1 bis 6.1.9
+- Hinzufügen einer Ansicht **Jahr**
+- Die ausgewählte Ansicht wird beim Speichern des Equipments gespeichert
+
+# 17.03.2023
+- Bereitstellung einer API zum Auflisten, Hinzufügen, Ändern und Löschen eines Ereignisses.
+
+# 22.12.2022
+
+- Aktualisierte `fullcalendar`-Bibliothek von 3.10.5 bis 6.0.1
+- Hinzufügen einer Ansicht **Zeitplan** listet alle Veranstaltungen der Woche auf
+- Mindestversion des Jeedom-Kerns erforderlich : 4.2
+
+# 25.01.2022
+
+- Es wurde ein Fehler behoben, der wiederholte Ereignisse mit einem Start- oder Enddatum zwischen 2 und 3 Uhr morgens verschieben konnte
+- V4.2-Optimierungen
+
+# 12.02.2021
+
+- Fehlerbehebungen
+- Vorbereitung für Jeedom 4.2
+- Wechseln Sie zur stabilen Version
 
 # 08.11.2021
 
-- Möglichkeit, Daten gemäß allen Ereignissen eines Tagebuchs ein- / auszuschließen 
+- Möglichkeit, Daten gemäß allen Ereignissen eines Tagebuchs ein- / auszuschließen
 
 # 21.10.2021
 

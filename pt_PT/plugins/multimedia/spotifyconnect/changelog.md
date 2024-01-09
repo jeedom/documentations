@@ -4,6 +4,10 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+# 16/02/2023
+
+- Bugs corrigidos (incluindo muitos na parte de gerenciamento da lista de reprodução)
+
 # 30/06/2021
 
 - Bugfix

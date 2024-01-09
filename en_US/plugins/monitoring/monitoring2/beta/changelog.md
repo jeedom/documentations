@@ -4,7 +4,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 01/08/2024
 
+- Preparing for jeedom 4.4
 - Ability to configure SSH port
 - Added a tool to browse the snmp tree
 

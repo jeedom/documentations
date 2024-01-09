@@ -4,6 +4,9 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 08/01/2024
+
+- Preparándose para el apuro 4.4
 - Eliminación del editor de secuencias de comandos integrado para cambiar al principal
 - Soporte para etiquetas en URL de comandos de tipo xml, json y html como ya estaba en los comandos http
 - Mejor compatibilidad con json en acciones de tipo http, json y xml (lea atentamente la documentación para saber cómo hacerlo))

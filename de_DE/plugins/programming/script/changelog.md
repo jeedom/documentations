@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Entfernen des integrierten Skripteditors, um zum Kern zu wechseln
+- Unterstützung für Tags in URLs von XML-, JSON- und HTML-Befehlen, wie es bereits bei http-Befehlen der Fall war
+- Bessere JSON-Unterstützung bei Aktionen vom Typ http, json und xml (lesen Sie die Dokumentation sorgfältig durch, um zu erfahren, wie das geht))
+
 # 17.10.2022
 
 - Befehlsliste für Jeedom v4.3 aktualisieren

@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Removal of the integrated script editor to switch to the core one
+- Support for tags in URLs of xml, json & html type commands as it was already on http commands
+- Better json support in http, json and xml type actions (read the documentation carefully to know how to do this))
+
 # 10/17/2022
 
 - Update command list for Jeedom v4.3

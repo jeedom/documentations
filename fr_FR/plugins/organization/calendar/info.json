@@ -15,11 +15,13 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.3.39",
+    "require": "4.3",
     "category": "organization",
     "mobile": "event",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/calendar\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/calendar\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/calendar\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/calendar\/beta",
     "language": [
         "fr_FR",
         "en_US",
@@ -33,14 +35,13 @@
         "tr"
     ],
     "compatibility": [
-        "miniplus",
+        "luna",
         "smart",
         "atlas",
         "rpi",
         "docker",
         "diy",
-        "v4"
-    ],
-    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/calendar\/beta\/changelog",
-    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/calendar\/beta"
+        "v4",
+        "mobile"
+    ]
 }

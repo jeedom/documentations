@@ -172,6 +172,7 @@ Hier können Sie alle vom Plugin vorgefertigten Bash-Befehle oder Befehle verwen
 |--------------------------------------|--------------------------------------|
 | cpufreq                              | CPU-Frequenz                        |
 | cputemp                              | CPU-Temperatur                      |
+| CPU auslastung                             | CPU-Auslastung in %                 |
 | memuse                               | % des verwendeten Speichers                 |
 | tauschen                                 | % des verwendeten Swaps                    |
 | loadavg15                            | Laden Sie über 15 Minuten                     |

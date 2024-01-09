@@ -6,11 +6,16 @@
         "en_US": "Plugin allowing you to put HTML code in an equipment widget (for example allows you to make your own menu for designs)",
         "es_ES": "Complemento que le permite poner código HTML en un widget de equipo (por ejemplo, le permite crear su propio menú de diseños)",
         "de_DE": "Plugin, mit dem Sie HTML-Code in ein Geräte-Widget einfügen können (z. B. können Sie Ihr eigenes Menü für Designs erstellen)",
-        "pt_PT": "Plugin que permite colocar código HTML em um widget de equipamento (permite, por exemplo, fazer seu próprio menu para designs)"
+        "pt_PT": "Plugin que permite colocar código HTML em um widget de equipamento (permite, por exemplo, fazer seu próprio menu para designs)",
+        "ru_RU": "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs)",
+        "id_ID": "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs)",
+        "it_IT": "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs)",
+        "ja_JP": "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs)",
+        "tr": "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs)"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "4.0",
+    "require": "4.3",
     "category": "programming",
     "hasDependency": false,
     "hasOwnDeamon": false,
@@ -22,7 +27,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
@@ -32,5 +42,7 @@
         "diy",
         "mobile",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/htmldisplay\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/htmldisplay\/beta"
 }

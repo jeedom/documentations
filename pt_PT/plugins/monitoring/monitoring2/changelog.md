@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+
+- Capacidade de configurar a porta SSH
+- Adicionada uma ferramenta para navegar na árvore snmp
+
 # 06/06/2018
 
 - Correção de um bug na troca

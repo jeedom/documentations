@@ -6,7 +6,7 @@ Este plugin permite que você recupere o status dos jogadores do Spotify Connect
 
 ## Configuração de plug-in
 
-Como qualquer plugin Jeedom, o plugin **Spotify Connect** deve ser ativado após a instalação.
+Como qualquer plugin Jeedom, o plugin **Spotify Connect** deve ser ativado após a instalação. Uma vez ativado, você deve vincular o jeedom à sua conta do Spotify, para fazer isso, você deve ir em plugin -> gerenciamento de plugins -> Spotify e clicar no botão para vincular a uma conta de usuário.
 
 ### Descoberta de leitores
 
@@ -42,6 +42,10 @@ O Spotify não permite que aplicativos de terceiros sejam reproduzidos em um dis
 - Verifique se você está em **Storage → Cookies → https://open.spotify.com** no menu esquerdo,
 - Pesquise através do campo **Pesquisa / Filtro** enquanto digita ``sp_``,
 - Finalmente recupere os valores do cookie ``sp_key`` e ``sp_dc`` e insira-os nos campos fornecidos para este propósito na configuração do plugin.
+
+>**IMPORTANTE**
+>
+>Esta função não é autorizada pelo Spotify nem documentada pelo Google, portanto não pode ser oficialmente suportada pelo Jeedom SAS. Funciona para menos de 50% dos usuários (depende de parâmetro externo que infelizmente não podemos definir).
 
 >**IMPORTANTE**
 >

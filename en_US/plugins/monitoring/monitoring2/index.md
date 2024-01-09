@@ -172,6 +172,7 @@ Here you can use all bash commands or commands pre-made by the plugin :
 |--------------------------------------|--------------------------------------|
 | cpufreq                              | CPU frequency                        |
 | cputemp                              | CPU temperature                      |
+| cpuusage                             | CPU usage in%                 |
 | memuse                               | % of memory used                 |
 | swap                                 | % of swap used                    |
 | loadavg15                            | Charge over 15min                     |

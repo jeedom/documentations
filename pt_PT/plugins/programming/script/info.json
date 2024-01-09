@@ -15,7 +15,7 @@
     "name": "Script",
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.2",
+    "require": "4.3",
     "category": "programming",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/script\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/script\/",

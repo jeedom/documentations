@@ -1,8 +1,16 @@
-# Changelog klingt
+# Changelog Sounds und TTS
 
 >**Wichtig**
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
+
+# 04/06/2021
+
+- [BETA] Möglichkeit der Verwendung des Plugins für TTS (basierend auf dem Google-Dienst, nach der Aktualisierung des Plugins, das in der Jeedom-Konfiguration konfiguriert ist). Die Aufmerksamkeit ist auf 2 neue TTS pro Tag begrenzt.
+
+# 24/11/2020
+
+- Hinzufügung des Tags "V4-Kompatibilität"
 
 # 16.12.2019
 

@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+
+- Möglichkeit zur Konfiguration des SSH-Ports
+- Tool zum Durchsuchen des SNMP-Baums hinzugefügt
+
 # 07/06/2018
 
 - Korrektur eines Fehlers beim Tausch

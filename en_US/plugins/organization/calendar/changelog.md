@@ -2,11 +2,44 @@
 
 >**Important**
 >
->As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+>If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
+
+
+- Users with limited rights can now make changes from the widget
+
+# 01/12/2023
+
+- Optimization of occurrence calculation **Include/Exclude by date**
+
+# 11/27/2023
+
+- Updated the `fullcalendar` library to 6.0.1 to 6.1.9
+- Adding a view **Year**
+- The selected view is saved when saving the equipment
+
+# 03/17/2023
+- Provision of an API to list, add, modify and delete an event.
+
+# 22/12/2022
+
+- Updated `fullcalendar` library from 3.10.5 to 6.0.1
+- Adding a view **Schedule** listing all the events of the week
+- Minimum Jeedom core version required : 4.2
+
+# 01/25/2022
+
+- Fixed a bug that could shift repeated events with a start or end date between 2 a.m. and 3 a.m
+- V4.2 optimizations
+
+# 12/02/2021
+
+- Bugfix
+- Preparation for Jeedom 4.2
+- Switch to stable version
 
 # 08/11/2021
 
-- Possibility to include / exclude dates according to all the events of a diary 
+- Possibility to include / exclude dates according to all the events of a diary
 
 # 10/21/2021
 

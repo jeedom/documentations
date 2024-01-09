@@ -14,21 +14,20 @@ O equipamento é acessível a partir do menu **Plugins → Organização → Age
 
 Nesta página você encontrará a lista de suas agendas. Clique em uma agenda para acessar a configuração do equipamento correspondente :
 
-- **Nome da agenda** : nome do seu calendário.
-- **Objeto pai** : indica o objeto pai ao qual o equipamento pertence.
-- **Categoria** : categorias de equipamentos *(pode pertencer a várias categorias)*.
-- **Ativar** : permite tornar o equipamento ativo.
-- **Visivél** : permite tornar o equipamento visível no painel.
-
+- **Nome do calendário** : Calendário do nome do equipamento.
+- **Objeto pai** : Indica o objeto pai ao qual o equipamento pertence.
+- **Categoria** : Permite escolher a categoria do equipamento.
+- **Opções** :
+    - **Ativar** : Permite tornar o equipamento ativo.
+    - **Visivél** : Torna o equipamento visível.
 
 - **Ferramenta** :
     - **Número de dias** : definir o número máximo de dias para exibir no widget.
     - **Número de eventos** : definir o número máximo de eventos a serem exibidos no widget.
 
-
 - **Lista de eventos do calendário** : exibe a lista de todos os eventos da agenda *(um clique no nome permite que você edite o evento)*.
 
-A guia **Agenda** permite que você exiba uma visão do tipo de agenda incluindo todos os eventos. Você pode mover o calendário, escolher exibi-lo por dia, semana ou mês e até mover eventos arrastando e soltando. Clicar em um evento abre a janela de edição para o evento em questão.
+A guia **Agenda** permite que você exiba uma visão do tipo de agenda incluindo todos os eventos. Você pode navegar no calendário, optar por exibi-lo por ano, mês, semana, dia ou programação semanal. Clicar em um evento abre a janela de edição para o evento em questão.
 
 # Eventos
 
@@ -108,3 +107,594 @@ Um diário tem vários comandos :
 >**EM FORMAÇÃO**
 >
 >É possível usar o comando "Em andamento" como um gatilho de cenário. Cada atualização de informação irá disparar a execução do cenário, por isso é preferível usar este comando em um cenário programado com um teste no valor.
+
+>**IMPORTANTE**
+>
+>Atenção é importante não fazer eventos repetidos que se sobrepõem, esse tipo de caso não é gerenciado pelo plugin. Exemplo um evento que dura 48 horas e se repete todos os dias.
+
+# API
+A API é baseada na API jsonrpc, oferece os seguintes métodos para o plugin:
+
+- **event::getAllCalendarAndEvents** permite que você recupere todos os calendários e eventos
+- **event::getAllEvents** permite que você recupere todos os eventos de um calendário
+- **event::byId** permite recuperar um evento de acordo com seu ID
+- **event::save** permite criar/modificar um evento
+- **event::remove** permite que você exclua um evento
+
+## event::getAllCalendarAndEvents
+**Parâmetros de entrada**
+/Aucun/
+```json
+{
+    "jsonrpc": "2.0",
+    "method": "event::getAllCalendarAndEvents",
+    "params": {
+        "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
+        "plugin": "calendar"
+    }
+}
+```
+**Exemplo de resultado**
+```json
+{
+  "jsonrpc": "2.0",
+  "id": 99999,
+  "result": [
+    {
+      "id": "641",
+      "name": "labo",
+      "logicalId": "",
+      "generic_type": null,
+      "object_id": null,
+      "eqType_name": "calendar",
+      "isVisible": "0",
+      "isEnable": "1",
+      "configuration": {
+        "createtime": "16/03/2023 14:40:50",
+        "nbWidgetDay": 7
+      },
+      "timeout": null,
+      "category": [],
+      "display": {
+        "backGraph::info": 0
+      },
+      "order": "9999",
+      "comment": null,
+      "tags": null,
+      "status": {
+        "lastCommunication": "17/03/2023 11:02:46",
+        "timeout": 0,
+        "warning": 0,
+        "danger": 0
+      },
+      "cache": [],
+      "events": [
+        {
+          "id": "2",
+          "eqLogic_id": "641",
+          "cmd_param": {
+            "eventName": "Meu evento",
+            "noDisplayOnDashboard": "0",
+            "icon": "",
+            "color": "#2980b9",
+            "transparent": "0",
+            "cor do texto": "#ffffff",
+            "start": [],
+            "end": [],
+            "em andamento": 1
+          },
+          "startDate": "17/03/2023 10:30:00",
+          "endDate": "17/03/2023 14:30:00",
+          "repeat": {
+            "includeDate": "",
+            "includeDateFromCalendar": "",
+            "excludeDate": "",
+            "excludeDateFromCalendar": "",
+            "enable": "0",
+            "mode": "simple",
+            "positionAt": "first",
+            "day": "monday",
+            "freq": 0,
+            "unite": "days",
+            "excludeDay": {
+              "1": "1",
+              "2": "1",
+              "3": "1",
+              "4": "1",
+              "5": "1",
+              "6": "1",
+              "7": "1"
+            },
+            "nationalDay": "all"
+          },
+          "until": null
+        },
+        {
+          "id": "3",
+          "eqLogic_id": "641",
+          "cmd_param": {
+            "eventName": "Meu evento 2",
+            "noDisplayOnDashboard": "0",
+            "icon": "",
+            "color": "#2980b9",
+            "transparent": "0",
+            "cor do texto": "#ffffff",
+            "start": [],
+            "end": [],
+            "em andamento": 0
+          },
+          "startDate": "17/03/2023 11:30:00",
+          "endDate": "17/03/2023 11:45:00",
+          "repeat": {
+            "includeDate": "",
+            "includeDateFromCalendar": "",
+            "excludeDate": "",
+            "excludeDateFromCalendar": "",
+            "enable": "0",
+            "mode": "simple",
+            "positionAt": "first",
+            "day": "monday",
+            "freq": 0,
+            "unite": "days",
+            "excludeDay": {
+              "1": "1",
+              "2": "1",
+              "3": "1",
+              "4": "1",
+              "5": "1",
+              "6": "1",
+              "7": "1"
+            },
+            "nationalDay": "all"
+          },
+          "until": null
+        },
+        {
+          "id": "4",
+          "eqLogic_id": "641",
+          "cmd_param": {
+            "eventName": "Meu evento",
+            "noDisplayOnDashboard": "0",
+            "icon": "",
+            "color": "#2980b9",
+            "transparent": "0",
+            "cor do texto": "#ffffff",
+            "start": [],
+            "end": [],
+            "em andamento": 0
+          },
+          "startDate": "18/03/2023 10:30:00",
+          "endDate": "18/03/2023 14:30:00",
+          "repeat": {
+            "includeDate": "",
+            "includeDateFromCalendar": "",
+            "excludeDate": "",
+            "excludeDateFromCalendar": "",
+            "enable": "0",
+            "mode": "simple",
+            "positionAt": "first",
+            "day": "monday",
+            "freq": 0,
+            "unite": "days",
+            "excludeDay": {
+              "1": "1",
+              "2": "1",
+              "3": "1",
+              "4": "1",
+              "5": "1",
+              "6": "1",
+              "7": "1"
+            },
+            "nationalDay": "all"
+          },
+          "until": null
+        },
+        {
+          "id": "5",
+          "eqLogic_id": "641",
+          "cmd_param": {
+            "eventName": "Meu evento",
+            "noDisplayOnDashboard": "0",
+            "icon": "",
+            "color": "#2980b9",
+            "transparent": "0",
+            "cor do texto": "#ffffff",
+            "start": [],
+            "end": [],
+            "em andamento": 0
+          },
+          "startDate": "18/03/2023 10:40:00",
+          "endDate": "18/03/2023 14:50:00",
+          "repeat": {
+            "includeDate": "",
+            "includeDateFromCalendar": "",
+            "excludeDate": "",
+            "excludeDateFromCalendar": "",
+            "enable": "0",
+            "mode": "simple",
+            "positionAt": "first",
+            "day": "monday",
+            "freq": 0,
+            "unite": "days",
+            "excludeDay": {
+              "1": "1",
+              "2": "1",
+              "3": "1",
+              "4": "1",
+              "5": "1",
+              "6": "1",
+              "7": "1"
+            },
+            "nationalDay": "all"
+          },
+          "until": null
+        }
+      ]
+    }
+  ]
+}
+```
+
+## event::getAllEvents
+**Parâmetros de entrada**
+- eqLogic_id /int/
+```json
+{
+    "jsonrpc": "2.0",
+    "method": "event::getAllEvents",
+    "params": {
+        "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
+        "plugin": "calendar",
+        "eqLogic_id": 641
+    }
+}
+```
+**Exemplo de resultado**
+```json
+{
+  "jsonrpc": "2.0",
+  "id": 99999,
+  "result": [
+    {
+      "id": "2",
+      "eqLogic_id": "641",
+      "cmd_param": {
+        "eventName": "Meu evento",
+        "noDisplayOnDashboard": "0",
+        "icon": "",
+        "color": "#2980b9",
+        "transparent": "0",
+        "cor do texto": "#ffffff",
+        "start": [],
+        "end": [],
+        "em andamento": 0
+      },
+      "startDate": "17/03/2023 10:30:00",
+      "endDate": "17/03/2023 14:30:00",
+      "repeat": {
+        "includeDate": "",
+        "includeDateFromCalendar": "",
+        "excludeDate": "",
+        "excludeDateFromCalendar": "",
+        "enable": "0",
+        "mode": "simple",
+        "positionAt": "first",
+        "day": "monday",
+        "freq": 0,
+        "unite": "days",
+        "excludeDay": {
+          "1": "1",
+          "2": "1",
+          "3": "1",
+          "4": "1",
+          "5": "1",
+          "6": "1",
+          "7": "1"
+        },
+        "nationalDay": "all"
+      },
+      "until": null
+    },
+    {
+      "id": "3",
+      "eqLogic_id": "641",
+      "cmd_param": {
+        "eventName": "Meu evento 2",
+        "noDisplayOnDashboard": "0",
+        "icon": "",
+        "color": "#2980b9",
+        "transparent": "0",
+        "cor do texto": "#ffffff",
+        "start": [],
+        "end": [],
+        "em andamento": 0
+      },
+      "startDate": "17/03/2023 11:30:00",
+      "endDate": "17/03/2023 11:45:00",
+      "repeat": {
+        "includeDate": "",
+        "includeDateFromCalendar": "",
+        "excludeDate": "",
+        "excludeDateFromCalendar": "",
+        "enable": "0",
+        "mode": "simple",
+        "positionAt": "first",
+        "day": "monday",
+        "freq": 0,
+        "unite": "days",
+        "excludeDay": {
+          "1": "1",
+          "2": "1",
+          "3": "1",
+          "4": "1",
+          "5": "1",
+          "6": "1",
+          "7": "1"
+        },
+        "nationalDay": "all"
+      },
+      "until": null
+    }
+  ]
+}
+```
+
+## event::byId
+**Parâmetros de entrada**
+- id_do_evento /int/
+```json
+{
+    "jsonrpc": "2.0",
+    "method": "event::byId",
+    "params": {
+        "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
+        "plugin": "calendar",
+        "event_id": 5
+    }
+}
+```
+**Exemplo de resultado**
+```json
+{
+  "jsonrpc": "2.0",
+  "id": 99999,
+  "result": {
+    "id": "5",
+    "eqLogic_id": "641",
+    "cmd_param": {
+      "eventName": "Meu evento mudou novamente",
+      "noDisplayOnDashboard": "0",
+      "icon": "",
+      "color": "#2980b9",
+      "transparent": "0",
+      "cor do texto": "#ffffff",
+      "start": [
+        {
+          "options": {
+            "enable": "1",
+            "background": "0"
+          },
+          "cmd": "#2507#"
+        },
+        {
+          "options": {
+            "enable": "1",
+            "background": "0",
+            "level": "success",
+            "message": "salut"
+          },
+          "cmd": "alert"
+        }
+      ],
+      "end": [
+        {
+          "options": {
+            "enable": "1",
+            "background": "0"
+          },
+          "cmd": "#2507#"
+        }
+      ],
+      "em andamento": 0
+    },
+    "startDate": "18/03/2023 10:19:00",
+    "endDate": "18/03/2023 11:50:00",
+    "repeat": {
+      "includeDate": "",
+      "includeDateFromCalendar": "",
+      "excludeDate": "",
+      "excludeDateFromCalendar": "",
+      "enable": "0",
+      "mode": "simple",
+      "positionAt": "first",
+      "day": "monday",
+      "freq": 0,
+      "unite": "days",
+      "excludeDay": {
+        "1": "1",
+        "2": "1",
+        "3": "1",
+        "4": "1",
+        "5": "1",
+        "6": "1",
+        "7": "1"
+      },
+      "nationalDay": "all"
+    },
+    "until": null
+  }
+}
+```
+
+## event::save
+**Parâmetros de entrada**
+- evento /objeto json/
+```json
+{
+    "jsonrpc": "2.0",
+    "method": "event::save",
+    "params": {
+        "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
+        "plugin": "calendar",
+        "event":    {
+  "eqLogic_id": "641",
+  "id": "5",
+  "cmd_param": {
+    "eventName": "Meu evento mudou novamente",
+    "noDisplayOnDashboard": "0",
+    "icon": "",
+    "color": "#2980b9",
+    "transparent": "0",
+    "cor do texto": "#ffffff",
+    "start": [
+      {
+        "options": {
+          "enable": "1",
+          "background": "0"
+        },
+        "cmd": "#[Aucun][ 00:15:bc:00:31:01:01:79][Sirene Off]#"
+      },
+      {
+        "options": {
+          "enable": "1",
+          "background": "0",
+          "level": "success",
+          "message": "salut"
+        },
+        "cmd": "alert"
+      }
+    ],
+    "end": [
+      {
+        "options": {
+          "enable": "1",
+          "background": "0"
+        },
+        "cmd": "#[Aucun][ 00:15:bc:00:31:01:01:79][Sirene Off]#"
+      }
+    ]
+  },
+  "startDate": "18/03/2023 10:19:00",
+  "endDate": "18/03/2023 11:50:00",
+  "repeat": {
+    "includeDate": "",
+    "includeDateFromCalendar": "",
+    "excludeDate": "",
+    "excludeDateFromCalendar": "",
+    "enable": "0",
+    "mode": "simple",
+    "positionAt": "first",
+    "day": "monday",
+    "freq": "0",
+    "unite": "days",
+    "excludeDay": {
+      "1": "1",
+      "2": "1",
+      "3": "1",
+      "4": "1",
+      "5": "1",
+      "6": "1",
+      "7": "1"
+    },
+    "nationalDay": "all"
+  },
+  "until": ""
+}
+    }
+}
+```
+**Exemplo de resultado**
+```json
+{
+  "jsonrpc": "2.0",
+  "id": 99999,
+  "result": {
+    "id": null,
+    "eqLogic_id": "641",
+    "cmd_param": {
+      "eventName": "Meu evento mudou novamente",
+      "noDisplayOnDashboard": "0",
+      "icon": "",
+      "color": "#2980b9",
+      "transparent": "0",
+      "cor do texto": "#ffffff",
+      "start": [
+        {
+          "options": {
+            "enable": "1",
+            "background": "0"
+          },
+          "cmd": "#2507#"
+        },
+        {
+          "options": {
+            "enable": "1",
+            "background": "0",
+            "level": "success",
+            "message": "salut"
+          },
+          "cmd": "alert"
+        }
+      ],
+      "end": [
+        {
+          "options": {
+            "enable": "1",
+            "background": "0"
+          },
+          "cmd": "#2507#"
+        }
+      ],
+      "em andamento": 0
+    },
+    "startDate": "18/03/2023 10:19:00",
+    "endDate": "18/03/2023 11:50:00",
+    "repeat": {
+      "includeDate": "",
+      "includeDateFromCalendar": "",
+      "excludeDate": "",
+      "excludeDateFromCalendar": "",
+      "enable": "0",
+      "mode": "simple",
+      "positionAt": "first",
+      "day": "monday",
+      "freq": 0,
+      "unite": "days",
+      "excludeDay": {
+        "1": "1",
+        "2": "1",
+        "3": "1",
+        "4": "1",
+        "5": "1",
+        "6": "1",
+        "7": "1"
+      },
+      "nationalDay": "all"
+    },
+    "until": null
+  }
+}
+```
+
+## event::remove
+**Parâmetros de entrada**
+- id_do_evento /int/
+```json
+{
+    "jsonrpc": "2.0",
+    "method": "event::remove",
+    "params": {
+        "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
+        "plugin": "calendar",
+        "event_id": 5
+    }
+}
+```
+**Exemplo de resultado**
+```json
+{
+  "jsonrpc": "2.0",
+  "id": 99999,
+  "result": "success"
+}
+```

@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Loïc",
-    "require": "3.0",
+    "require": "4.3",
     "category": "monitoring",
     "hasDependency": true,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/monitoring2\/changelog",
@@ -40,5 +40,7 @@
         "diy",
         "mobile",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/monitoring2\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/monitoring2\/beta"
 }

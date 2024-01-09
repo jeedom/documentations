@@ -2,16 +2,46 @@
 
 >**IMPORTANT**
 >
->Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+>S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
+
+# 08/01/2024
+
+- Préparation pour jeedom 4.4
+- Les utilisateurs avec des droits limités peuvent maintenant faire des modifications depuis le widget
+
+# 01/12/2023
+
+- Optimisation du calcul des occurences **Inclure/Exclure par date**
+
+# 27/11/2023
+
+- Mise à jour de la librairie `fullcalendar` de 6.0.1 vers 6.1.9
+- Ajout d'une vue **Année**
+- La vue sélectionnée est enregistrée lors de la sauvegarde de l'équipement
+
+# 17/03/2023
+- Mise à disposition d'une api pour lister, ajouter, modifier et supprimer un évènement.
+
+# 22/12/2022
+
+- Mise à jour de la librairie `fullcalendar` de 3.10.5 vers 6.0.1
+- Ajout d'une vue **Planning** listant tous les évènements de la semaine
+- Version minimale du core Jeedom requise : 4.2
+
+# 25/01/2022
+
+- Correction d'un bug pouvant décaler les évènements répétés avec une date de début ou de fin entre 2h et 3h du matin
+- Optimisations V4.2
 
 # 02/12/2021
 
 - Correction de bugs
 - Preparation pour Jeedom 4.2
+- Passage en version stable
 
 # 08/11/2021
 
-- Possibilité d'inclure/exclure des dates en fonction de l'ensemble des évènements d'un agenda 
+- Possibilité d'inclure/exclure des dates en fonction de l'ensemble des évènements d'un agenda
 
 # 21/10/2021
 

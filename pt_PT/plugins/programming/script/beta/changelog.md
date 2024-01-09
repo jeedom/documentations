@@ -4,6 +4,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 01/08/2024
+
+- Preparando-se para Jeedom 4.4
 - Remoção do editor de script integrado para alternar para o principal
 - Suporte para tags em URLs de comandos do tipo xml, json e html como já estava em comandos http
 - Melhor suporte a json em ações do tipo http, json e xml (leia a documentação com atenção para saber como fazer isso))

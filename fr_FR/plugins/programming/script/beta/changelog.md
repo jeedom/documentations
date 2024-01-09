@@ -4,6 +4,9 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 08/01/2024
+
+- Préparation pour jeedom 4.4
 - Suppression de l'éditeur intégré de script pour passage sur celui du core
 - Prise en charge des tags dans les URLs des commandes de type xml, json & html comme ce l'était déjà sur les commandes http
 - Meilleurs support du json dans les actions de type http,json et xml (bien lire la documentation pour savoir comment faire)

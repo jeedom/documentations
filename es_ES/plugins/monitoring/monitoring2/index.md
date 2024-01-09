@@ -172,6 +172,7 @@ Aquí puede usar todos los comandos bash o comandos creados previamente por el c
 |--------------------------------------|--------------------------------------|
 | cpufreq                              | Frecuencia de la CPU                        |
 | cputemp                              | Temperatura de la CPU                      |
+| uso de CPU                             | Uso de CPU en%                 |
 | memuse                               | % de memoria utilizada                 |
 | intercambiar                                 | % de intercambio utilizado                    |
 | loadavg15                            | Carga más de 15 minutos                     |

@@ -50,4 +50,4 @@ O plug-in permite que você relate as seguintes informações (se você tiver um
 
 # Firmware V7
 
-Se você está no firmware v7, você deve ir [lá](https://entrez.enphaseenergy.com/), faça o login e clique em "Criar token de acesso" e copie o código jwt na configuração do plugin jeedom. Observe que não sabemos no momento se este código é válido por um período ilimitado ou apenas por alguns meses
+Se você estiver no firmware v7, poderá recuperar o token por conta própria acessando [lá](https://entrez.enphaseenergy.com/), conecte-se então clique em "Criar token de acesso" e copie o código jwt na configuração do plugin jeedom (No momento não sabemos se este código é válido por período ilimitado ou apenas por alguns meses). **OU** você indica no seu nome de usuário Enphase em "[v7] Username", sua senha em "[v7] Password" e por fim o número serial do seu gateway em "[v7] Serial number of the send", com esta informação o jeedom recuperará automaticamente o token assim que necessário.

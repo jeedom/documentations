@@ -6,6 +6,9 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 08/01/2024
+
+- Preparándose para el apuro 4.4
 - Eliminación de los comandos que dan el consumo de energía por consumidor (debido a que no es muy útil, información disponible en el equipo original y conduce a un consumo importante de recursos)
 
 # 24/04/2023

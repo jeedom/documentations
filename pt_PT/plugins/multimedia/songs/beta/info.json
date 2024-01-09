@@ -1,0 +1,49 @@
+{
+    "id": "songs",
+    "name": "Sons et TTS",
+    "description": {
+        "fr_FR": "Plugin permettant d'ajouter des MP3 et d'avoir la voix Google pour les textes pour etre jouer par des plugins TTS (utilisant le TTS Jeedom)",
+        "en_US": "Plugin allowing to add MP3 and to have Google voice for texts to be played by TTS plugins (using TTS Jeedom)",
+        "es_ES": "Complemento que permite agregar MP3 y tener Google Voice para que los textos sean reproducidos por complementos TTS (usando TTS Jeedom)",
+        "de_DE": "Plugin zum Hinzufügen von MP3 und zur Verwendung von Google Voice für Texte, die von TTS-Plugins abgespielt werden sollen (mit TTS Jeedom)",
+        "pt_PT": "Plug-in que permite adicionar MP3 e ter voz do Google para textos a serem reproduzidos por plug-ins TTS (usando TTS Jeedom)",
+        "ru_RU": "Plugin permettant d'ajouter des MP3 et d'avoir la voix Google pour les textes pour etre jouer par des plugins TTS (utilisant le TTS Jeedom)",
+        "id_ID": "Plugin permettant d'ajouter des MP3 et d'avoir la voix Google pour les textes pour etre jouer par des plugins TTS (utilisant le TTS Jeedom)",
+        "it_IT": "Plugin permettant d'ajouter des MP3 et d'avoir la voix Google pour les textes pour etre jouer par des plugins TTS (utilisant le TTS Jeedom)",
+        "ja_JP": "Plugin permettant d'ajouter des MP3 et d'avoir la voix Google pour les textes pour etre jouer par des plugins TTS (utilisant le TTS Jeedom)",
+        "tr": "Plugin permettant d'ajouter des MP3 et d'avoir la voix Google pour les textes pour etre jouer par des plugins TTS (utilisant le TTS Jeedom)"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.3",
+    "category": "multimedia",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "hasTtsEngine": true,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/songs\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/songs\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/songs\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/songs\/beta"
+}

@@ -172,6 +172,7 @@ Ici vous pouvez utiliser toutes les commandes bash ou des commandes pré-faite p
 |--------------------------------------|--------------------------------------|
 | cpufreq                              | Fréquence CPU                        |
 | cputemp                              | Température CPU                      |
+| cpuusage                             | Utilisation CPU en %                 |
 | memuse                               | % de mémoire utilisé                 |
 | swap                                 | % de swap utilisé                    |
 | loadavg15                            | Charge sur 15min                     |

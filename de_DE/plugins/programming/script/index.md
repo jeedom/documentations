@@ -35,45 +35,49 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 ![commandes](./images/commandes.png)
 Hier finden Sie die Liste der Bestellungen :
 
--   **Name** : Dieses Feld enthält den Namen, den Sie Ihrer Bestellung / Information geben möchten.
--   **Symbol** : In diesem Feld können Sie Ihrem Namen ein Symbol zuordnen (in diesem Fall ersetzt Jeedom den Namen durch das Symbol im Dashboard).
--   **Skripttyp** :
-    -   Der Typ **Http** : Ermöglicht das Senden einer Anforderung an ein externes Gerät, ohne unbedingt auf die Rückgabe dieses Befehls warten zu müssen. Das Beispiel, das als Unterstützung für den http-Typ dient, ist die Konfiguration einer Anforderung an eine Vera, ein Licht einzuschalten.
-    -   Der Typ **Skript** : Wird hauptsächlich zum Ausführen interner Jeedom-Skripte verwendet. Das Beispiel, das als Unterstützung für den Skripttyp dient, ist die Konfiguration des Temperaturüberwachungsskripts der Himbeere.
-    -   Der Typ **XML** : Ermöglicht das Abrufen von in XML codierten Informationen von einem Remote-Gerät. Das Beispiel, das als Unterstützung für den XML-Typ dient, ist die Konfiguration des Skripts zum Abfragen eines Öko-Geräts.
-    -   Der Typ **Json** : Ermöglicht das Abrufen von in JSON codierten Informationen von einem Remote-Gerät. Das Beispiel, das als Unterstützung für den JSON-Typ dient, ist die Konfiguration des Skripts zum Abfragen von Sickbeard (oder XBMC)).
--   **der Typ** und die **Untertyp**
--   Das Feld **Petition**
-    -   Dieses Feld muss die Abfrage selbst oder den Skriptpfad enthalten, wenn das Feld "Skripttyp" Skript ist. Die Schaltfläche "Durchsuchen"" : Mit dieser Option können Sie die Datei auswählen, die im internen Ordner Jeedom enthalten ist.
+- **Name** : Dieses Feld enthält den Namen, den Sie Ihrer Bestellung / Information geben möchten.
+- **Symbol** : In diesem Feld können Sie Ihrem Namen ein Symbol zuordnen (in diesem Fall ersetzt Jeedom den Namen durch das Symbol im Dashboard).
+- **Skripttyp** :
+  - Der Typ **Http** : Ermöglicht das Senden einer Anforderung an ein externes Gerät, ohne unbedingt auf die Rückgabe dieses Befehls warten zu müssen. Das Beispiel, das als Unterstützung für den http-Typ dient, ist die Konfiguration einer Anforderung an eine Vera, ein Licht einzuschalten.
+  - Der Typ **Skript** : Wird hauptsächlich zum Ausführen interner Jeedom-Skripte verwendet. Das Beispiel, das als Unterstützung für den Skripttyp dient, ist die Konfiguration des Temperaturüberwachungsskripts der Himbeere.
+  - Der Typ **XML** : Ermöglicht das Abrufen von in XML codierten Informationen von einem Remote-Gerät. Das Beispiel, das als Unterstützung für den XML-Typ dient, ist die Konfiguration des Skripts zum Abfragen eines Öko-Geräts.
+  - Der Typ **Json** : Ermöglicht das Abrufen von in JSON codierten Informationen von einem Remote-Gerät. Das Beispiel, das als Unterstützung für den JSON-Typ dient, ist die Konfiguration des Skripts zum Abfragen von Sickbeard (oder XBMC)).
+- **der Typ** und die **Untertyp**
+- Das Feld **Petition**
+  - Dieses Feld muss die Abfrage selbst oder den Skriptpfad enthalten, wenn das Feld "Skripttyp" Skript ist. Die Schaltfläche "Durchsuchen"" : Mit dieser Option können Sie die Datei auswählen, die im internen Ordner Jeedom enthalten ist.
 
-        > Auf diese Datei kann in SSH in zugegriffen werden ``/var/www/html/plugins/script/data/``. Zu Ihrer Information, der SSH-Befehl zum Zuweisen von Rechten ``www-data`` zu einer Datei ist : ``sudo chown www-data:www-data NOMDUSCRIPT.EXTENSION``. Beachten Sie, dass ein Skript zum Ausführen von Rechten über WWW-Daten verfügen muss.
+        > Auf diese Datei kann in SSH in zugegriffen werden ``/var/www/html/plugins/script/data/``. Zu Ihrer Information, der SSH-Befehl zum Zuweisen von Rechten ``www-data`` zu einer Datei ist : ``sudo chown www-data:www-Daten NOMDUSCRIPT.EXTENSION``. Beachten Sie, dass ein Skript zum Ausführen von Rechten über WWW-Daten verfügen muss.
 
-    -   Die Schaltfläche **Bearbeiten** : Mit dieser Option können Sie eine der im Verzeichnis enthaltenen Dateien mit einem internen Code-Editor bearbeiten und so auf den Dateicode zugreifen.
-    -   Die Schaltfläche **Neu** : ermöglicht das Erstellen einer Befehlsdatei.
+  - Die Schaltfläche **Bearbeiten** : Mit dieser Option können Sie eine der im Verzeichnis enthaltenen Dateien mit einem internen Code-Editor bearbeiten und so auf den Dateicode zugreifen.
+  - Die Schaltfläche **Neu** : ermöglicht das Erstellen einer Befehlsdatei.
 
         > Vergessen Sie nicht, den Namen der Datei und ihre vollständige Erweiterung einzugeben, da sonst Ihr hervorragendes Skript nicht funktioniert. Ohne Erweiterung kann Jeedom die mit Ihrer Datei verknüpfte Sprache nicht erkennen. CF. : Allgemeinheit
-    -   Die Schaltfläche **Löschen** : ermöglicht das Löschen einer Befehlsdatei.
--   Das Feld **Optionen** : Feld mit variablen Optionen abhängig von der Wahl des Skripttyps.
--   **Unit** : Dateneinheit (kann leer sein).
--   **min / max** : Datengrenzen (können leer sein).
--   **Chronik** : ermöglicht das Historisieren der Daten.
--   **Anzeige** : ermöglicht die Anzeige der Daten im Dashboard.
+  - Die Schaltfläche **Löschen** : ermöglicht das Löschen einer Befehlsdatei.
+- Das Feld **Optionen** : Feld mit variablen Optionen abhängig von der Wahl des Skripttyps.
+- **Unit** : Dateneinheit (kann leer sein).
+- **min / max** : Datengrenzen (können leer sein).
+- **Chronik** : ermöglicht das Historisieren der Daten.
+- **Anzeige** : ermöglicht die Anzeige der Daten im Dashboard.
 
 > **Wichtig**
 >
 > Sonderzeichen sollten im Skriptpfad oder in seinen Parametern so weit wie möglich vermieden werden. Die erlaubten Zeichen sind : Zahlen, Buchstaben (Groß- oder Kleinschreibung)
 
+> **Wichtig**
+>
+> Sie können im Anfragefeld (für http, json, xml) json eingeben, Sie müssen ihm nur `json voranstellen::`, Beispiel `json::{"clef":"valeur"}`
+
 ![exemple](./images/exemple.png)
 
 Wird verwendet, um eine URL aufzurufen oder die Rückgabe einer URL abzurufen.
 
--   ein Kontrollkästchen "SSL nicht aktivieren" : Wenn diese Option aktiviert ist, kann Jeedom auf Anfrage die Felder "Benutzer" und "Kennwort" nicht senden. Jeedom wird nicht versuchen, sich gegenüber dem Remote-Standort / der Remote-Maschine zu identifizieren.
--   ein Kontrollkästchen "Leere Antwort zulassen" : Wenn diese Option aktiviert ist, kann Jeedom nicht auf eine Antwort warten oder eine Antwort auf den übertragenen Frame ignorieren. Im Allgemeinen prüfen wir, ob Jeedom einen "Curl-Fehler" zurückgibt : Leere Antwort vom Server".
--   ein Kontrollkästchen "Niemals Fehler melden" : Ermöglicht es, im Fehlerfall keine Warnung auszulösen.
--   ein Timeout-Feld" : Ohne Eingabe beträgt das Zeitlimit der Anforderung standardmäßig 2 Sekunden, andernfalls ist es den eingegebenen Wert wert.
--   ein Feld "Maximale Versuche" : Standardmäßig maximal 4 Tests.
--   ein "Benutzer" -Feld" : um einen Benutzernamen einzugeben.
--   ein "Passwort" Feld" : um ein Passwort einzugeben.
+- ein Kontrollkästchen "SSL nicht aktivieren" : Wenn diese Option aktiviert ist, kann Jeedom auf Anfrage die Felder "Benutzer" und "Kennwort" nicht senden. Jeedom wird nicht versuchen, sich gegenüber dem Remote-Standort / der Remote-Maschine zu identifizieren.
+- ein Kontrollkästchen "Leere Antwort zulassen" : Wenn diese Option aktiviert ist, kann Jeedom nicht auf eine Antwort warten oder eine Antwort auf den übertragenen Frame ignorieren. Im Allgemeinen prüfen wir, ob Jeedom einen "Curl-Fehler" zurückgibt : Leere Antwort vom Server".
+- ein Kontrollkästchen "Niemals Fehler melden" : Ermöglicht es, im Fehlerfall keine Warnung auszulösen.
+- ein Timeout-Feld" : Ohne Eingabe beträgt das Zeitlimit der Anforderung standardmäßig 2 Sekunden, andernfalls ist es den eingegebenen Wert wert.
+- ein Feld "Maximale Versuche" : Standardmäßig maximal 4 Tests.
+- ein "Benutzer" -Feld" : um einen Benutzernamen einzugeben.
+- ein "Passwort" Feld" : um ein Passwort einzugeben.
 
 # Die HTML-Auswahl
 
@@ -103,7 +107,9 @@ Ermöglicht die Wiederherstellung von json und die gezielte Suche nach einem Wer
 
 Das Optionsfeld enthält ein Feld "JSON-Datei-URL"" : Dieses Feld enthält daher den Link zu dem Computer, auf dem sich die betreffende JSON-Datei befindet.
 
-# HTTP-Beispiel : Eine Vera steuern
+# Exemples
+
+## Http : Eine Vera steuern
 
 Das Beispiel basiert auf einer Vera und besteht aus dem Antreiben einer dimmbaren Glühbirne. Ich werde nicht näher darauf eingehen, wie eine Vera per http-Anfrage gesteuert werden kann. Das TLD-Forum ist voller Antworten. Außerdem entspricht das Beispiel meiner Materialart und muss an Ihre angepasst werden.
 
@@ -113,25 +119,25 @@ Das Beispiel basiert auf einer Vera und besteht aus dem Antreiben einer dimmbare
 
 Lassen Sie uns gehen :
 
--   Wir schaffen Ausrüstung : Zum Beispiel LUM KÜCHE (Ich denke, wir haben alle eine Küche zur Hand)
--   Wir verknüpfen es mit einem übergeordneten Objekt : Mit VERA kann ich beispielsweise alle mit VERA verbundenen Bestellungen auf einem einzigen Elternteil zentralisieren.
--   Wählen Sie Ihre Kategorie.
--   Aktivieren Sie Ihre Ausrüstung, überprüfen Sie sie nicht sichtbar, wir werden etwas später sehen, wie Sie sie mit einer virtuellen (sexier, mehr WAF) verknüpfen können)
--   Geben Sie zur Selbstaktualisierung nichts ein, es handelt sich um einen Impulsbefehl, der mit einem Knopfdruck oder einem Szenario verknüpft ist !
--   Fügen Sie einen Skriptbefehl hinzu
--   Denken Sie daran, zu speichern
+- Wir schaffen Ausrüstung : Zum Beispiel LUM KÜCHE (Ich denke, wir haben alle eine Küche zur Hand)
+- Wir verknüpfen es mit einem übergeordneten Objekt : Mit VERA kann ich beispielsweise alle mit VERA verbundenen Bestellungen auf einem einzigen Elternteil zentralisieren.
+- Wählen Sie Ihre Kategorie.
+- Aktivieren Sie Ihre Ausrüstung, überprüfen Sie sie nicht sichtbar, wir werden etwas später sehen, wie Sie sie mit einer virtuellen (sexier, mehr WAF) verknüpfen können)
+- Geben Sie zur Selbstaktualisierung nichts ein, es handelt sich um einen Impulsbefehl, der mit einem Knopfdruck oder einem Szenario verknüpft ist !
+- Fügen Sie einen Skriptbefehl hinzu
+- Denken Sie daran, zu speichern
 
 Erklärungen :
 
--   Name : 100%, weil wir ein Licht mit voller Leistung einschalten
--   Skripttyp : http
--   Typ : Aktion (dies ist ein Befehl)
--   Untertyp : Standard
--   Petition :
+- Name : 100%, weil wir ein Licht mit voller Leistung einschalten
+- Skripttyp : http
+- Typ : Aktion (dies ist ein Befehl)
+- Untertyp : Standard
+- Petition :
 
-`` ''`
+`` ''url
 http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=100
-`` ''`
+`` ''
 
 > **Spitze**
 >
@@ -141,29 +147,29 @@ Mit der Schaltfläche "Test" können Sie Ihre Bestellung testen !
 
 Sie können daher Bestellungen in derselben Ausrüstung multiplizieren, indem Sie beispielsweise eine Bestellung mit 60% für schwaches Licht aufgeben und eine dritte Bestellung mit 30% für Nachtfahrten erstellen, die in einem Szenario kombiniert werden sollen usw
 
-Es ist auch möglich, einen Befehl vom Typ Schieberegler zu erstellen, indem Sie das Tag \ einfügen#slider\# in der Anfrage :
+Es ist auch möglich, einen Schieberegler-Befehl zu erstellen, indem Sie das Tag `#slider#` in der Abfrage :
 
-`` ''`
+`` ''url
 http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=#slider#
-`` ''`
+`` ''
 
 > **Spitze**
 >
-> Wenn Ihre Bestellung vom Nachrichtentyp ist, können Sie die Tags \ verwenden#message\# und \#title\#, Das Gleiche gilt für eine Farbbestellung mit dem Tag \#color\#, oder Schieberegler mit #slider# oder Liste mit #select#
+> Wenn Ihr Befehl vom Typ Nachricht ist, können Sie die Tags ` verwenden#message#` und `#title#`, dasselbe für einen Farbtypbefehl mit dem Tag `#color#`, oder Slider-Typ mit `#slider#` oder Liste mit `#select#`
 
-# HTTP-Beispiel : Benachrichtigung an XBMC senden
+## Http : Benachrichtigung an XBMC senden
 
 Ziel : Senden Sie eine Benachrichtigung an XBMC, wenn Sie eine Vordertür öffnen.
 
--   Name : XBMC DRÜCKEN
--   Skripttyp : http
--   Typ : Aktion (dies ist ein Befehl)
--   Untertyp : Standard
--   Petition :
+- Name : XBMC DRÜCKEN
+- Skripttyp : http
+- Typ : Aktion (dies ist ein Befehl)
+- Untertyp : Standard
+- Petition :
 
-`` ''`
-http://IP_DE_XBMC:8080/jsonrpc?request={ %22jsonrpc%22:%222.0%22,%22method%22:%22GUI.ShowNotification%22,%22params%22:{ %22title%22:%22Mouvement% 20Detecté%22,%22message%22:%22Porte% 20Entrée%22},%22id%22:1}
-`` ''`
+`` ''url
+http://IP_DE_XBMC:8080/jsonrpc?request={ %22jsonrpc%22:%222.0%22,%22method%22:%22GUI.ShowNotification%22,%22params%22:{ %22title%22:%22Mouvement% 20Détecté%22,%22message%22:%22Porte% 20Entrée%22},%22id%22:1}
+`` ''
 
 Es liegt an Ihnen, dies beispielsweise in einem Szenario zu testen !
 
@@ -173,14 +179,14 @@ Ziel : Senden Sie eine Benachrichtigung an XBMC, wenn die Temperatur einen besti
 
 Nehmen Sie das obige Beispiel :
 
--   Ersetzen Sie "Bewegung% 20 erkannt" durch "Risiko% 20 von% 20gel""
--   Ersetzen Sie "Tür% 20Eingang" durch "Temperatur% 20exterior% 20":% 20 \#\ [AUSSEN \] \ [AUSSEN \] \ [TEMPERATUR \]\#% 20"
+- Ersetzen Sie „Movement%20Detected“ durch „Risk%20of%20freeze“
+- Ersetzen Sie `Door%20Entry` durch `Temperature%20exterior%20:% 20#[EXTERIEUR][EXTERIEUR][TEMPERATURE]#`
 
-Testen Sie ein Szenario *\ [AUSSEN \] \ [AUSSEN \] \ [TEMPERATUR \]* &lt; 15 par exemple
+Testen Sie ein Szenario `#[EXTERIEUR][EXTERIEUR][TEMPERATURE]# < 5` par exemple
 
 Aktion : Starten Sie das Skript über eine virtuelle Ausrüstung, die mit Ihrem Skript verknüpft ist !
 
-# SCRIPT-Beispiel
+## SCRIPT
 
 Das Schönste, aber nicht das Einfachste zu erklären.
 
@@ -191,13 +197,14 @@ Das Schönste, aber nicht das Einfachste zu erklären.
 > Die Erweiterung Ihres Skripts muss unbedingt dem Typ entsprechen. In der Tat basiert Jeedom auf der Erweiterung des Skripts für den Start der ausführbaren Datei
 >
 > Wenn Ihr Dateiname nicht enthält :
-> * .php .py .pl .rb
+>
+> - .php .py .pl .rb
 >
 
 Das Skript-Plugin startet eine Shell, die es basierend auf der Direktive der 1. Zeile (shebang) ausführt ).
 Beispiel :
 
-`` ''
+`` ''bash
 #!/ bin / csh -f
 #!/ bin / ksh
 #!/ usr / bin / env python3
@@ -205,7 +212,6 @@ Beispiel :
 #!/ usr / bin / env Knoten
 Usw. ...
 `` ''
-
 
 Das Skript zur Überwachung der Himbeertemperatur dient als Beispiel für die Verwendung des Skripttyps : Script
 
@@ -215,138 +221,138 @@ Aus Neugier können Sie den Inhalt der Datei anzeigen, indem Sie auf die Schaltf
 
 Dies ist ein PHP-Skript, das außerhalb von Jeedom wiederverwendet werden kann !
 
-`` ''`
- <?php
-    $temp = shell_exec("cat /sys/class/thermal/thermal_zone0/temp");
-    $temp = $temp / 1000;
-    $temp = round($temp,1);
-    echo $temp;
- ?>
- `` ''`
+`` ''php
+<?php
+$temp = shell_exec("cat /sys/class/thermal/thermal_zone0/temp");
+$temp = $temp / 1000;
+$temp = round($temp,1);
+echo $temp;
+?>
+ `` ''
 
 Notiz : konkret ist es die PHP "Echo" -Funktion, die Jeedom den Wert gibt
 
-## Die Parameter
+### Die Parameter
 
 Holen Sie sich Jeedom's Informationen, um sie in einem Skript zu verwenden. Die Wiederherstellung hängt von der Art des verwendeten Skripts ab :
 
--   In der Leitung : ``/usr/share/nginx/www/jeedom/plugins/script/data/MON\_SCRIPT\_PHP.php`` list, das Argument "list" ist eine Zeichenfolge (fest), die im PHP-Skript mit der folgenden Funktion \ $ argv \ [1 \] abgerufen wird : Google für weitere Informationen zum Abrufen von Einstellungen in PHP.
--   Wir haben zuvor gesehen, dass es möglich ist, dynamische Werte aus Jeedom abzurufen.
--   In der Leitung : ``/usr/share/nginx/www/jeedom/plugins/script/data/radio.py`` FLUG *Schieber* , das Argument "*Schieber*" wird auf diese Weise abgerufen argv \ [2 \]. Wenn das Skript von jeedom ausgeführt wird, wird es automatisch ersetzt *Schieber* durch den Wert (numerisch) des Schiebereglers. CF. : Weitere Informationen zum Abrufen von Einstellungen in Python finden Sie bei Google.
+- In der Leitung : `/var/www/html/plugins/script/data/my_script.php my_value`, das Argument `my_value` est une chaîne de caractères (fixe) récupérée dans le Skript php dans le tableau d'arguments `$argv` voir <https://www.php.net/manual/fr/reserved.variables.argv.php> für weitere Details.
+- Wir haben zuvor gesehen, dass es möglich ist, dynamische Werte aus Jeedom abzurufen.
+- In der Leitung : `/var/www/html/plugins/script/data/radio.py VOL #slider#`, das Argument `#slider#` wird auf diese Weise `$argv[2]` abgerufen. Wenn das Skript von Jeedom ausgeführt wird, ersetzt es automatisch `#slider#` durch den (numerischen) Wert des Schiebereglers. siehe Google für Details zum Abrufen von Parametern in Python.
 
--   Stärker : Möglicherweise können alle Variablen, auf die Jeedom zugreifen kann, vom Skript-Plugin verwendet werden :
-    -   Sie möchten den Wert der Küchentemperatur wiederherstellen, um sie außerhalb von Jeedom zu speichern ?
-    -   Überspringen *\ [KÜCHE \] \ [KÜCHE \] \ [Temperatur \]* Jeedom ersetzt das Skript durch den beim Lesen gelesenen Wert.
+- Stärker : Möglicherweise können alle Variablen, auf die Jeedom zugreifen kann, vom Skript-Plugin verwendet werden :
+  - Sie möchten den Wert der Küchentemperatur wiederherstellen, um sie außerhalb von Jeedom zu speichern ?
+  - Überspringen `#[MAISON][CUISINE][Température]#` als Parameter an das Skript und Jeedom ersetzt es durch den beim Senden gelesenen Wert.
 
 Empfehlung zum Testen der Parameter im PHP-Skript :
 
-`` ''`
+`` ''php
 if (isset($argv)) {
- foreach ($argv as $arg) {
-     $argList = explode('=', $arg);
-     if (isset($argList[0]) && isset($argList[1])) {
-         $_GET[$argList[0]] = $argList[1];
-     }
- }
+    foreach ($argv als $arg) {
+        $argList = explode('=', $arg);
+        if (isset($argList[0]) && isset($argList[1])) {
+            $_GET[$argList[0]] = $argList[1];
+        }
+    }
 }
-`` ''`
+`` ''
 
-# Einfaches XML-Beispiel
+## XEinzel-ML
 
 Hier ist das Format des Standard-XML :
 
-`` ''`
+`` ''xml
 <root>
     <led0>1</led0>
     <leds>
-      <led1>toto</led1>
+        <led1>toto</led1>
     </leds>
 </root>
-`` ''`
+`` ''
 
 Wenn Sie den Wert von led0 in der Abfrage haben möchten, geben Sie led0 ein. Si vous voulez la valeur de la led1 qui est le fils de leds vous mettez leds &gt; led1.
 
 Notez que l'élément racine &lt;root&gt; n'est pas à préciser dans le champ Petition.
 
-# Komplexes XML-Beispiel
+## XKomplexes ML
 
-`` ''`
- <root>
-   <led0>1</led0>
-   <leds>
-     <led1>toto</led1>
-   </leds>
-   <leds>
-     <led1>tata</led1>
-   </leds>
- </root>
- `` ''`
+`` ''xml
+<root>
+    <led0>1</led0>
+    <leds>
+        <led1>toto</led1>
+    </leds>
+    <leds>
+        <led1>tata</led1>
+    </leds>
+</root>
+ `` ''
 
 Die Syntax lautet :
 
-leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de rang du tableau !
+`leds > 1 > led1`, was Tata als Antwort gibt, wobei 1 die Zeilennummer des Arrays ist !
 
-# Komplexeres XML-Beispiel
+## XKomplexer ML
 
-`` ''`
+`` ''xml
 <AKT_Data ID="SMS-Liste" ZeitSt="01.05.2017 18:55">
- <MesPar DH="HBCHa" StrNr="2167" Typ="02" Var="02">
-   <Name>Tresa - Ponte Tresa, Rocchetta</Name>
-   <Datum>01.05.2017</Datum>
-   <Zeit>18:50</Zeit>
-   <Wert>268.56</Wert>
-   <Wert dt="-24h">268.51</Wert>
-   <Wert Typ="delta24">0.051</Wert>
-   <Wert Typ="m24">268.52</Wert>
-   <Wert Typ="max24">268.56</Wert>
-   <Wert Typ="min24">268.50</Wert>
- </MesPar>
- <MesPar DH="HBCHa" StrNr="2265" Typ="03" Var="02">
-  <Name>Inn - Tarasp</Name>
-  <Datum>01.05.2017</Datum>
-  <Zeit>18:50</Zeit>
-  <Wert>4.85</Wert>
-  <Wert dt="-24h">7.98</Wert>
-  <Wert Typ="delta24">-3.130</Wert>
-  <Wert Typ="m24">6.15</Wert>
-  <Wert Typ="max24">7.98</Wert>
-  <Wert Typ="min24">4.85</Wert>
- </MesPar>
- <MesPar DH="HBCHa" StrNr="2270" Typ="02" Var="32">
-  <Name>Doubs - Combe des Sarrasins</Name>
-  <Datum>01.05.2017</Datum>
-  <Zeit>18:00</Zeit>
-  <Wert>500.65</Wert>
-  <Wert dt="-24h">500.65</Wert>
-  <Wert Typ="delta24">0.000</Wert>
-  <Wert Typ="m24">500.65</Wert>
-  <Wert Typ="max24">500.65</Wert>
-  <Wert Typ="min24">500.64</Wert>
- </MesPar>
+    <MesPar DH="HBCHa" StrNr="2167" Typ="02" Var="02">
+        <Name>Tresa - Ponte Tresa, Rocchetta</Name>
+        <Datum>01.05.2017</Datum>
+        <Zeit>18:50</Zeit>
+        <Wert>268.56</Wert>
+        <Wert dt="-24h">268.51</Wert>
+        <Wert Typ="delta24">0.051</Wert>
+        <Wert Typ="m24">268.52</Wert>
+        <Wert Typ="max24">268.56</Wert>
+        <Wert Typ="min24">268.50</Wert>
+    </MesPar>
+    <MesPar DH="HBCHa" StrNr="2265" Typ="03" Var="02">
+        <Name>Inn - Tarasp</Name>
+        <Datum>01.05.2017</Datum>
+        <Zeit>18:50</Zeit>
+        <Wert>4.85</Wert>
+        <Wert dt="-24h">7.98</Wert>
+        <Wert Typ="delta24">-3.130</Wert>
+        <Wert Typ="m24">6.15</Wert>
+        <Wert Typ="max24">7.98</Wert>
+        <Wert Typ="min24">4.85</Wert>
+    </MesPar>
+    <MesPar DH="HBCHa" StrNr="2270" Typ="02" Var="32">
+        <Name>Doubs - Combe des Sarrasins</Name>
+        <Datum>01.05.2017</Datum>
+        <Zeit>18:00</Zeit>
+        <Wert>500.65</Wert>
+        <Wert dt="-24h">500.65</Wert>
+        <Wert Typ="delta24">0.000</Wert>
+        <Wert Typ="m24">500.65</Wert>
+        <Wert Typ="max24">500.65</Wert>
+        <Wert Typ="min24">500.64</Wert>
+    </MesPar>
 </AKT_Data>
-`` ''`
+`` ''
 
 Informationen aus dem Feld Wert des 1. Blocks abrufen:
 
-``MesPar>0>Wert>0 qui retourne donc "268.56 "``
+`MesPar>0>Wert>0` was also "268.56 "
 
-Um das nächste Element in der Wert "Struktur" zurückzugeben, müssen Sie nur die Bestellnummer in der Struktur angeben. Ce qui donne pour l'élément '&lt;Wert Typ="delta24"&gt;0.051&lt;/Wert&gt;' le code suivant :
+Um das nächste Element in der Wert "Struktur" zurückzugeben, müssen Sie nur die Bestellnummer in der Struktur angeben. Was für das Element `<Wert Typ="delta24"> 0.051</Wert> ` den folgenden Code :
 
-``MesPar>1>Wert>2``
+`MesPar>1>Wert>2`
 
 Um zum nächsten "MyPar" -Block zu gelangen, müssen Sie daher den Index entsprechend ändern : die 1 mal 2 zum Beispiel.
 
 Achtung : Wenn sich die Reihenfolge in der XML-Datei ändert, funktioniert die Anforderung nicht mehr. Die Anforderung muss entsprechend der zurückgegebenen Bestellung angepasst werden.
 
-# JSON-Beispiel
+## JSON
 
 Wie beim XML-Typ ist es möglich, Informationen aus einer JSON-Rückgabe zu lesen.
 
-Zur Erklärung werde ich mich auf JSON-Informationen mit der Sickbeard-Anwendung (boo… cpasbien) stützen, aber hier nur auf die Haupttechnik, nicht auf das Tool !
+Zur Erklärung werde ich mich auf JSON-Informationen mit der Sickbeard-Anwendung (boo… cpasbien) stützen, aber hier nur auf die Haupttechnik, nicht auf das Tool!
 
 Der Zugriff auf diese Datei ist über die folgende URL möglich :
 
-``http://<IP_DELAMACHINEQUIEBERGESICKBEARD>:8083/api/XXXX/?cmd=history&limit=3``
+`http://<IP_DELAMACHINEQUIEBERGESICKBEARD>:8083/api/XXXX/?cmd=history&limit=3`
 
 Notiz : XXXX ist die für jeden SICKBEARD spezifische API-Schlüsselnummer.
 
@@ -356,50 +362,50 @@ Bevor Sie mit der Konfiguration des JSON-Skript-Plugins beginnen, müssen Sie zu
 
 Beispiel für die Rückgabe :
 
-`` ''`
- {
-     "data": [
-         {
-             "date": "2014-09-10 01:37",
-             "episode": 4,
-             "provider": "RNT",
-             "quality": "SD TV",
-             "resource": "XXX",
-             "resource_path": "XXXX",
-             "season": 2,
-             "show_name": "Totovaalaplage S2E4",
-             "status": "Downloaded",
-             "tvdbid": XXXXX
-         },
-         {
-             "date": "2014-09-10 01:36",
-             "episode": 3,
-             "provider": "RNT",
-             "quality": "SD TV",
-             "resource": "XXXX",
-             "resource_path": "XXX",
-             "season": 2,
-             "show_name": "Totovaalaplage S2E3",
-             "status": "Downloaded",
-             "tvdbid": XXXXX
-         },
-         {
-             "date": "2014-09-10 01:21",
-             "episode": 1,
-             "provider": "Cpasbien",
-             "quality": "SD TV",
-             "resource": "XXXX",
-             "resource_path": "XXXX",
-             "season": 1,
- ICI -->     "show_name": "Totovaplusauski mais Totovaalaplage S1E1",
-             "status": "Snatched",
-             "tvdbid": XXXX
-         }
-     ],
-     "message": "",
-     "result": "success"
- }
- `` ''`
+`` ''json
+{
+    "data": [
+        {
+            "date": "10.09.2014 01:37",
+            "episode": 4,
+            "provider": "RNT",
+            "quality": "SD-TV",
+            "resource": "XXX",
+            "Ressourcenpfad": "XXXX",
+            "season": 2,
+            "Name anzeigen": "Totovaalaplage S2E4",
+            "status": "Downloaded",
+            "tvdbid": XXXXX
+        },
+        {
+            "date": "10.09.2014 01:36",
+            "episode": 3,
+            "provider": "RNT",
+            "quality": "SD-TV",
+            "resource": "XXXX",
+            "Ressourcenpfad": "XXX",
+            "season": 2,
+            "Name anzeigen": "Totovaalaplage S2E3",
+            "status": "Downloaded",
+            "tvdbid": XXXXX
+        },
+        {
+            "date": "10.09.2014 01:21",
+            "episode": 1,
+            "provider": "Cpasbien",
+            "quality": "SD-TV",
+            "resource": "XXXX",
+            "Ressourcenpfad": "XXXX",
+            "season": 1,
+HIER --> "show_name": "Totovaplusauski aber Totovaalaplage S1E1",
+            "status": "Snatched",
+            "tvdbid": XXXX
+        }
+    ],
+    "message": "",
+    "result": "success"
+}
+`` ''
 
 In der Hypothese, in der wir den show\_name des 3. Elements in php (HIER markiert) zurückgeben möchten, müssten wir dies tun : data> 2> show\_name, der Rückgabearray-Index, der bei Null beginnt.
 
@@ -411,10 +417,10 @@ Beachten Sie die Syntax des Abfragebefehls vom Typ element0> Array-Index> elemen
 
 Nachteile :
 
--   Mit dieser Methode kann jeweils nur ein Element wiederhergestellt werden.
--   Wenn Sie alle Werte von "show\_name" zurückgeben möchten, ist dies leider nicht möglich. Sie müssen das Skript so oft wie nötig duplizieren.
+- Mit dieser Methode kann jeweils nur ein Element wiederhergestellt werden.
+- Wenn Sie alle Werte von "show\_name" zurückgeben möchten, ist dies leider nicht möglich. Sie müssen das Skript so oft wie nötig duplizieren.
 
-# HTML-Beispiel
+## HTML
 
 Hier werden wir versuchen, die letzte FML abzurufen.
 
@@ -424,13 +430,13 @@ Zuerst müssen Sie die URL konfigurieren :
 
 Dann müssen Sie den "Pfad" der letzten FML finden. Gehen Sie dazu zur Website, klicken Sie mit der rechten Maustaste auf den gewünschten Artikel und überprüfen Sie den Artikel, den Sie erhalten :
 
-![HTML-Beispiel 1](./images/exemple_HTML_1.png)
+![Beispiel HTML 1](./images/exemple_HTML_1.png)
 
 Dies ist der komplexeste Teil und erfordert eine kleine Analyse. Hier befindet sich mein Text in einem "a" -Tag, das sich in einem Element vom Typ p befindet, das ein Post-Artikel der Klasse div ist". Also muss ich das erste div-Element der Klasse "post" und "article" auswählen, dann das erste Element p und ich bekomme alles in den darin enthaltenen "a" -Tags. Also habe ich : "div.post.article:erste p:zuerst a".
 
 Also bekommen wir :
 
-![HTML-Beispiel VDM](./images/exemple_HTML_VDM.png)
+![Beispiel HTML VDM](./images/exemple_HTML_VDM.png)
 
 Für ein Update in Echtzeit ist es möglich, ein Update zu erstellen.
 

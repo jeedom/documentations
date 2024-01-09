@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+
+- Capacidad para configurar el puerto SSH
+- Se agregó una herramienta para navegar por el árbol snmp
+
 # 07/06/2018
 
 - Corrección de un error en el intercambio

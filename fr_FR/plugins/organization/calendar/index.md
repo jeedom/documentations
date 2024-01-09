@@ -14,21 +14,20 @@ Les équipements sont accessibles à partir du menu **Plugins → Organisation �
 
 Sur cette page vous retrouvez la liste de vos Agendas. Cliquez sur un agenda pour accéder à la configuration de l'équipement correspondant :
 
-- **Nom de l'agenda** : nom de votre agenda.
-- **Objet parent** : indique l’objet parent auquel appartient l’équipement.
-- **Catégorie** : les catégories de l’équipement *(peut appartenir à plusieurs catégories)*.
-- **Activer** : permet de rendre l'équipement actif.
-- **Visible** : permet de rendre l'équipement visible sur le dashboard.
-
+- **Nom de agenda** : Nom de l'équipement Agenda.
+- **Objet parent** : Indique l’objet parent auquel appartient l’équipement.
+- **Catégorie** : Permet de choisir la catégorie de l'équipement.
+- **Options** :
+    - **Activer** : Permet de rendre l'équipement actif.
+    - **Visible** : Rend l'équipement visible.
 
 - **Widget** :
     - **Nombre de jours** : défini le nombre de jours maximum à afficher sur le widget.
     - **Nombre d’évènements** : défini le nombre d’évènements maximum à afficher sur le widget.
 
-
 - **Liste des évènements de l’agenda** : affiche la liste de tous les évènements de l’agenda *(un clic sur le nom permet d’éditer l’évènement)*.
 
-L'onglet **Agenda** permet d'afficher une vue type agenda incluant tous les évènements. Vous pouvez vous déplacer dans l'agenda, choisir de l’afficher par jour, semaine ou mois et même déplacer des évènements par glisser/déposer. Un clic sur un évènement ouvre la fenêtre d’édition de l'évènement concerné.
+L'onglet **Agenda** permet d'afficher une vue type agenda incluant tous les évènements. Vous pouvez vous déplacer dans l'agenda, choisir de l’afficher par année, mois, ,semaine, jour ou planning à la semaine. Un clic sur un évènement ouvre la fenêtre d’édition de l'évènement concerné.
 
 # Evènements
 
@@ -108,3 +107,594 @@ Un agenda possède plusieurs commandes :
 >**INFORMATION**
 >
 >Il est possible d’utiliser la commande "En cours" comme déclencheur de scénario. Chaque mise à jour de l’information déclenchera l’exécution du scénario, il est donc préférable d’utiliser cette commande dans un scénario programmé avec un test sur la valeur.
+
+>**IMPORTANT**
+>
+>Attention il ne faut surtout pas faire d'evenement à répétition qui se chevauge lui meme, ce genre de cas n'est pas géré par le plugin. Exemple un evenement qui dure 48h et qui se répéte tous les jours.
+
+# API
+L'api se repose sur l'api jsonrpc, elle propose pour le plugin les méthodes suivantes:
+
+- **event::getAllCalendarAndEvents** permet de récupérer l'ensemble des agendas et des évènements
+- **event::getAllEvents** permet de récupérer tous les évènements d'un calendrier
+- **event::byId** permet de récupérer un évènement en fonction de son ID
+- **event::save** permet de créer / modifier un évènement
+- **event::remove** permet de supprimer un évènement
+
+## event::getAllCalendarAndEvents
+**Paramètres d'entrée**
+/Aucun/
+```json
+{
+    "jsonrpc": "2.0",
+    "method": "event::getAllCalendarAndEvents",
+    "params": {
+        "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
+        "plugin": "calendar"
+    }
+}
+```
+**Exemple de résultat**
+```json
+{
+  "jsonrpc": "2.0",
+  "id": 99999,
+  "result": [
+    {
+      "id": "641",
+      "name": "labo",
+      "logicalId": "",
+      "generic_type": null,
+      "object_id": null,
+      "eqType_name": "calendar",
+      "isVisible": "0",
+      "isEnable": "1",
+      "configuration": {
+        "createtime": "2023-03-16 14:40:50",
+        "nbWidgetDay": 7
+      },
+      "timeout": null,
+      "category": [],
+      "display": {
+        "backGraph::info": 0
+      },
+      "order": "9999",
+      "comment": null,
+      "tags": null,
+      "status": {
+        "lastCommunication": "2023-03-17 11:02:46",
+        "timeout": 0,
+        "warning": 0,
+        "danger": 0
+      },
+      "cache": [],
+      "events": [
+        {
+          "id": "2",
+          "eqLogic_id": "641",
+          "cmd_param": {
+            "eventName": "Mon event",
+            "noDisplayOnDashboard": "0",
+            "icon": "",
+            "color": "#2980b9",
+            "transparent": "0",
+            "text_color": "#ffffff",
+            "start": [],
+            "end": [],
+            "in_progress": 1
+          },
+          "startDate": "2023-03-17 10:30:00",
+          "endDate": "2023-03-17 14:30:00",
+          "repeat": {
+            "includeDate": "",
+            "includeDateFromCalendar": "",
+            "excludeDate": "",
+            "excludeDateFromCalendar": "",
+            "enable": "0",
+            "mode": "simple",
+            "positionAt": "first",
+            "day": "monday",
+            "freq": 0,
+            "unite": "days",
+            "excludeDay": {
+              "1": "1",
+              "2": "1",
+              "3": "1",
+              "4": "1",
+              "5": "1",
+              "6": "1",
+              "7": "1"
+            },
+            "nationalDay": "all"
+          },
+          "until": null
+        },
+        {
+          "id": "3",
+          "eqLogic_id": "641",
+          "cmd_param": {
+            "eventName": "Mon event 2",
+            "noDisplayOnDashboard": "0",
+            "icon": "",
+            "color": "#2980b9",
+            "transparent": "0",
+            "text_color": "#ffffff",
+            "start": [],
+            "end": [],
+            "in_progress": 0
+          },
+          "startDate": "2023-03-17 11:30:00",
+          "endDate": "2023-03-17 11:45:00",
+          "repeat": {
+            "includeDate": "",
+            "includeDateFromCalendar": "",
+            "excludeDate": "",
+            "excludeDateFromCalendar": "",
+            "enable": "0",
+            "mode": "simple",
+            "positionAt": "first",
+            "day": "monday",
+            "freq": 0,
+            "unite": "days",
+            "excludeDay": {
+              "1": "1",
+              "2": "1",
+              "3": "1",
+              "4": "1",
+              "5": "1",
+              "6": "1",
+              "7": "1"
+            },
+            "nationalDay": "all"
+          },
+          "until": null
+        },
+        {
+          "id": "4",
+          "eqLogic_id": "641",
+          "cmd_param": {
+            "eventName": "Mon event",
+            "noDisplayOnDashboard": "0",
+            "icon": "",
+            "color": "#2980b9",
+            "transparent": "0",
+            "text_color": "#ffffff",
+            "start": [],
+            "end": [],
+            "in_progress": 0
+          },
+          "startDate": "2023-03-18 10:30:00",
+          "endDate": "2023-03-18 14:30:00",
+          "repeat": {
+            "includeDate": "",
+            "includeDateFromCalendar": "",
+            "excludeDate": "",
+            "excludeDateFromCalendar": "",
+            "enable": "0",
+            "mode": "simple",
+            "positionAt": "first",
+            "day": "monday",
+            "freq": 0,
+            "unite": "days",
+            "excludeDay": {
+              "1": "1",
+              "2": "1",
+              "3": "1",
+              "4": "1",
+              "5": "1",
+              "6": "1",
+              "7": "1"
+            },
+            "nationalDay": "all"
+          },
+          "until": null
+        },
+        {
+          "id": "5",
+          "eqLogic_id": "641",
+          "cmd_param": {
+            "eventName": "Mon event",
+            "noDisplayOnDashboard": "0",
+            "icon": "",
+            "color": "#2980b9",
+            "transparent": "0",
+            "text_color": "#ffffff",
+            "start": [],
+            "end": [],
+            "in_progress": 0
+          },
+          "startDate": "2023-03-18 10:40:00",
+          "endDate": "2023-03-18 14:50:00",
+          "repeat": {
+            "includeDate": "",
+            "includeDateFromCalendar": "",
+            "excludeDate": "",
+            "excludeDateFromCalendar": "",
+            "enable": "0",
+            "mode": "simple",
+            "positionAt": "first",
+            "day": "monday",
+            "freq": 0,
+            "unite": "days",
+            "excludeDay": {
+              "1": "1",
+              "2": "1",
+              "3": "1",
+              "4": "1",
+              "5": "1",
+              "6": "1",
+              "7": "1"
+            },
+            "nationalDay": "all"
+          },
+          "until": null
+        }
+      ]
+    }
+  ]
+}
+```
+
+## event::getAllEvents
+**Paramètres d'entrée**
+- eqLogic_id /int/
+```json
+{
+    "jsonrpc": "2.0",
+    "method": "event::getAllEvents",
+    "params": {
+        "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
+        "plugin": "calendar",
+        "eqLogic_id": 641
+    }
+}
+```
+**Exemple de résultat**
+```json
+{
+  "jsonrpc": "2.0",
+  "id": 99999,
+  "result": [
+    {
+      "id": "2",
+      "eqLogic_id": "641",
+      "cmd_param": {
+        "eventName": "Mon event",
+        "noDisplayOnDashboard": "0",
+        "icon": "",
+        "color": "#2980b9",
+        "transparent": "0",
+        "text_color": "#ffffff",
+        "start": [],
+        "end": [],
+        "in_progress": 0
+      },
+      "startDate": "2023-03-17 10:30:00",
+      "endDate": "2023-03-17 14:30:00",
+      "repeat": {
+        "includeDate": "",
+        "includeDateFromCalendar": "",
+        "excludeDate": "",
+        "excludeDateFromCalendar": "",
+        "enable": "0",
+        "mode": "simple",
+        "positionAt": "first",
+        "day": "monday",
+        "freq": 0,
+        "unite": "days",
+        "excludeDay": {
+          "1": "1",
+          "2": "1",
+          "3": "1",
+          "4": "1",
+          "5": "1",
+          "6": "1",
+          "7": "1"
+        },
+        "nationalDay": "all"
+      },
+      "until": null
+    },
+    {
+      "id": "3",
+      "eqLogic_id": "641",
+      "cmd_param": {
+        "eventName": "Mon event 2",
+        "noDisplayOnDashboard": "0",
+        "icon": "",
+        "color": "#2980b9",
+        "transparent": "0",
+        "text_color": "#ffffff",
+        "start": [],
+        "end": [],
+        "in_progress": 0
+      },
+      "startDate": "2023-03-17 11:30:00",
+      "endDate": "2023-03-17 11:45:00",
+      "repeat": {
+        "includeDate": "",
+        "includeDateFromCalendar": "",
+        "excludeDate": "",
+        "excludeDateFromCalendar": "",
+        "enable": "0",
+        "mode": "simple",
+        "positionAt": "first",
+        "day": "monday",
+        "freq": 0,
+        "unite": "days",
+        "excludeDay": {
+          "1": "1",
+          "2": "1",
+          "3": "1",
+          "4": "1",
+          "5": "1",
+          "6": "1",
+          "7": "1"
+        },
+        "nationalDay": "all"
+      },
+      "until": null
+    }
+  ]
+}
+```
+
+## event::byId
+**Paramètres d'entrée**
+- event_id /int/
+```json
+{
+    "jsonrpc": "2.0",
+    "method": "event::byId",
+    "params": {
+        "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
+        "plugin": "calendar",
+        "event_id": 5
+    }
+}
+```
+**Exemple de résultat**
+```json
+{
+  "jsonrpc": "2.0",
+  "id": 99999,
+  "result": {
+    "id": "5",
+    "eqLogic_id": "641",
+    "cmd_param": {
+      "eventName": "Mon event encore modifié",
+      "noDisplayOnDashboard": "0",
+      "icon": "",
+      "color": "#2980b9",
+      "transparent": "0",
+      "text_color": "#ffffff",
+      "start": [
+        {
+          "options": {
+            "enable": "1",
+            "background": "0"
+          },
+          "cmd": "#2507#"
+        },
+        {
+          "options": {
+            "enable": "1",
+            "background": "0",
+            "level": "success",
+            "message": "salut"
+          },
+          "cmd": "alert"
+        }
+      ],
+      "end": [
+        {
+          "options": {
+            "enable": "1",
+            "background": "0"
+          },
+          "cmd": "#2507#"
+        }
+      ],
+      "in_progress": 0
+    },
+    "startDate": "2023-03-18 10:19:00",
+    "endDate": "2023-03-18 11:50:00",
+    "repeat": {
+      "includeDate": "",
+      "includeDateFromCalendar": "",
+      "excludeDate": "",
+      "excludeDateFromCalendar": "",
+      "enable": "0",
+      "mode": "simple",
+      "positionAt": "first",
+      "day": "monday",
+      "freq": 0,
+      "unite": "days",
+      "excludeDay": {
+        "1": "1",
+        "2": "1",
+        "3": "1",
+        "4": "1",
+        "5": "1",
+        "6": "1",
+        "7": "1"
+      },
+      "nationalDay": "all"
+    },
+    "until": null
+  }
+}
+```
+
+## event::save
+**Paramètres d'entrée**
+- event /json object/
+```json
+{
+    "jsonrpc": "2.0",
+    "method": "event::save",
+    "params": {
+        "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
+        "plugin": "calendar",
+        "event":    {
+  "eqLogic_id": "641",
+  "id": "5",
+  "cmd_param": {
+    "eventName": "Mon event encore modifié",
+    "noDisplayOnDashboard": "0",
+    "icon": "",
+    "color": "#2980b9",
+    "transparent": "0",
+    "text_color": "#ffffff",
+    "start": [
+      {
+        "options": {
+          "enable": "1",
+          "background": "0"
+        },
+        "cmd": "#[Aucun][ 00:15:bc:00:31:01:01:79][Sirene Off]#"
+      },
+      {
+        "options": {
+          "enable": "1",
+          "background": "0",
+          "level": "success",
+          "message": "salut"
+        },
+        "cmd": "alert"
+      }
+    ],
+    "end": [
+      {
+        "options": {
+          "enable": "1",
+          "background": "0"
+        },
+        "cmd": "#[Aucun][ 00:15:bc:00:31:01:01:79][Sirene Off]#"
+      }
+    ]
+  },
+  "startDate": "2023-03-18 10:19:00",
+  "endDate": "2023-03-18 11:50:00",
+  "repeat": {
+    "includeDate": "",
+    "includeDateFromCalendar": "",
+    "excludeDate": "",
+    "excludeDateFromCalendar": "",
+    "enable": "0",
+    "mode": "simple",
+    "positionAt": "first",
+    "day": "monday",
+    "freq": "0",
+    "unite": "days",
+    "excludeDay": {
+      "1": "1",
+      "2": "1",
+      "3": "1",
+      "4": "1",
+      "5": "1",
+      "6": "1",
+      "7": "1"
+    },
+    "nationalDay": "all"
+  },
+  "until": ""
+}
+    }
+}
+```
+**Exemple de résultat**
+```json
+{
+  "jsonrpc": "2.0",
+  "id": 99999,
+  "result": {
+    "id": null,
+    "eqLogic_id": "641",
+    "cmd_param": {
+      "eventName": "Mon event encore modifié",
+      "noDisplayOnDashboard": "0",
+      "icon": "",
+      "color": "#2980b9",
+      "transparent": "0",
+      "text_color": "#ffffff",
+      "start": [
+        {
+          "options": {
+            "enable": "1",
+            "background": "0"
+          },
+          "cmd": "#2507#"
+        },
+        {
+          "options": {
+            "enable": "1",
+            "background": "0",
+            "level": "success",
+            "message": "salut"
+          },
+          "cmd": "alert"
+        }
+      ],
+      "end": [
+        {
+          "options": {
+            "enable": "1",
+            "background": "0"
+          },
+          "cmd": "#2507#"
+        }
+      ],
+      "in_progress": 0
+    },
+    "startDate": "2023-03-18 10:19:00",
+    "endDate": "2023-03-18 11:50:00",
+    "repeat": {
+      "includeDate": "",
+      "includeDateFromCalendar": "",
+      "excludeDate": "",
+      "excludeDateFromCalendar": "",
+      "enable": "0",
+      "mode": "simple",
+      "positionAt": "first",
+      "day": "monday",
+      "freq": 0,
+      "unite": "days",
+      "excludeDay": {
+        "1": "1",
+        "2": "1",
+        "3": "1",
+        "4": "1",
+        "5": "1",
+        "6": "1",
+        "7": "1"
+      },
+      "nationalDay": "all"
+    },
+    "until": null
+  }
+}
+```
+
+## event::remove
+**Paramètres d'entrée**
+- event_id /int/
+```json
+{
+    "jsonrpc": "2.0",
+    "method": "event::remove",
+    "params": {
+        "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
+        "plugin": "calendar",
+        "event_id": 5
+    }
+}
+```
+**Exemple de résultat**
+```json
+{
+  "jsonrpc": "2.0",
+  "id": 99999,
+  "result": "success"
+}
+```

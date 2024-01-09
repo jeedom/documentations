@@ -6,7 +6,7 @@ This plugin allows you to retrieve the status of Spotify Connect players and to 
 
 ## Plugin configuration
 
-Like any Jeedom plugin, the plugin **Spotify Connect** must be activated after installation.
+Like any Jeedom plugin, the plugin **Spotify Connect** must be activated after installation. Once activated you must link jeedom with your Spotify account to do this you must go to plugin -> plugin management -> Spotify then click on the button to link with a user account.
 
 ### Discovery of readers
 
@@ -42,6 +42,10 @@ Spotify does not allow third-party applications to play on a Chromecast device, 
 - Check that you are in **Storage → Cookies → https://open.spotify.com** in the left menu,
 - Search via the field **Search / Filter** while typing ``sp_``,
 - Finally retrieve the cookie values ``sp_key`` and ``sp_dc`` and enter them in the fields provided for this purpose in the plugin configuration.
+
+>**IMPORTANT**
+>
+>This function is neither authorized by Spotify nor documented by Google, so it cannot be officially supported by Jeedom SAS. It works for less than 50% of users (depends on external parameter that we unfortunately cannot define).
 
 >**IMPORTANT**
 >
