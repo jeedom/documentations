@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 01.10.2024
+
+- Ein Fehler beim Abrufen von HTTP-Typ-Anfragen wurde behoben
+
 # 01.08.2024
 
 - Vorbereitung auf Jeedom 4.4

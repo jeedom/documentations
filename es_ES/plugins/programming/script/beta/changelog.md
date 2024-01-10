@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 01/10/2024
+
+- Se corrigió un error al obtener solicitudes de tipo http
+
 # 08/01/2024
 
 - Preparándose para el apuro 4.4

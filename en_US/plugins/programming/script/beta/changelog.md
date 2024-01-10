@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 10/01/2024
+
+- Fixed a bug on get http type requests
+
 # 01/08/2024
 
 - Preparing for jeedom 4.4
