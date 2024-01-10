@@ -6,6 +6,7 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 08/01/2024
 
 - Reescritura completa del complemento para usar la api hue 2.0
 - Requiere resincronización para caminar

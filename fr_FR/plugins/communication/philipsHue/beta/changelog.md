@@ -6,6 +6,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 10/01/2024
+
+- Support des scénes sur les zones
+
 # 08/01/2024
 
 - Réécriture complete du plugin pour utiliser l'api hue 2.0
@@ -13,7 +17,7 @@
 - ATTENTION : Pour les capteurs les commandes changent completement il faut donc revoir vos scénarios
 - IMPORTANT : certaine commandes ne seront plus disponible avec cette nouvelle version dont les alertes, l'arc en ciel et les animation
 - IMPORTANT : Les scenes sont maintenant de type action other, il y a donc une commande pas scene
-- TRES IMPORTANT : une fois passé en beta il ne faut pas revenir en stable ou alors passer par une restoration de backup
+- TRES IMPORTANT : Seul le pont v2 est compatible, si vous etes sur le pont v1 alors il ne faut surtout pas mettre à jour car Philips Hue n'a pas porté l'api v2 sur le pont v1.
 
 
 # 04/10/2021

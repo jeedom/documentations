@@ -6,6 +6,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 01/10/2024
+
+- Soporte para escenas en zonas
+
 # 08/01/2024
 
 - Reescritura completa del complemento para usar la api hue 2.0
@@ -13,7 +17,7 @@
 - ATENCIÓN : Para los sensores, los comandos cambian por completo, por lo que debe revisar sus escenarios
 - Importante : algunos comandos ya no estarán disponibles con esta nueva versión, incluidas las alertas, el arcoíris y las animaciones
 - Importante : Las escenas ahora son de tipo action other, por lo que hay un comando, no una escena
-- MUY IMPORTANTE : una vez en beta, no debe volver a estable ni pasar por una restauración de copia de seguridad
+- MUY IMPORTANTE : Solo el puente v2 es compatible; si está en el puente v1, definitivamente no debería actualizar porque Philips Hue no ha portado la API v2 al puente v1.
 
 
 # 10/04/2021
