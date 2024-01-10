@@ -7,6 +7,7 @@
 - Atualização de firmware aprimorada no Luna
 - Melhor gerenciamento portuário em Luna
 - Simplificando a lista de portas
+- Possibilidade de enviar mensagem sobre um subtópico do comando set : arm_mode/modo::armando_ficar
 
 # 26/12/2023
 

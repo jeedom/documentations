@@ -7,6 +7,7 @@
 - Improved firmware update on Luna
 - Better port management on Luna
 - Simplifying the port list
+- Possibility of sending a message on a subtopic of the set command : arm_mode/mode::arming_stay
 
 # 12/26/2023
 
