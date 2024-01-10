@@ -5,7 +5,10 @@
 >**IMPORTANTE**
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
->
+
+# 19/12/2023
+
+- error solucionado (La secuencia o archivo "/var/www/html/core/class/../../log/" no se pudo abrir en modo agregar: fallo al abrir Stream: Es un directorio)
 
 # 12/07/2023
 

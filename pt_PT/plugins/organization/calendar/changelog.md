@@ -4,7 +4,9 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 01/08/2024
 
+- Preparando-se para Jeedom 4.4
 - Usuários com direitos limitados agora podem fazer alterações no widget
 
 # 12/01/2023

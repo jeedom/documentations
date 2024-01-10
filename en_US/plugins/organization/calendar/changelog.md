@@ -4,7 +4,9 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 01/08/2024
 
+- Preparing for jeedom 4.4
 - Users with limited rights can now make changes from the widget
 
 # 01/12/2023

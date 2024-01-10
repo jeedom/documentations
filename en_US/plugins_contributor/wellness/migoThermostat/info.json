@@ -8,7 +8,7 @@
         "fr_FR": " Plugin pour intégrer les équipements MiGo(Saunier-Duval) et eRelax/Vsmart(Vaillant) dans Jeedom.\n\n Le plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).\n\n L'actualisation se fait via API.\n\n Compatible avec le plugin mobile",
         "en_US": " Plugin pour intégrer les équipements MiGo(Saunier-Duval) et eRelax/Vsmart(Vaillant) dans Jeedom.\n\n Le plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).\n\n L'actualisation se fait via API.\n\n Compatible avec le plugin mobile"
     },
-    "utilization": "Il faut disposer d'un compte Email et d'un mot de passe valides",
+    "utilization": "Il faut disposer d'un compte Email et d'un mot de passe valides. Vérifier la comptibilité de votre matériel. Non compatible si vous utilsez les applications MigoLink/Myvaillant MiControl/sensoApp mipPro/multiMATIC, dans ce ca se tourner vers les autres plugins",
     "category": "wellness",
     "hasDependency": false,
     "hasOwnDeamon": false,
