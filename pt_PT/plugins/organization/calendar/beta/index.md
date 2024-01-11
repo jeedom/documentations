@@ -18,12 +18,12 @@ Nesta página você encontrará a lista de suas agendas. Clique em uma agenda pa
 - **Objeto pai** : Indica o objeto pai ao qual o equipamento pertence.
 - **Categoria** : Permite escolher a categoria do equipamento.
 - **Opções** :
-    - **Ativar** : Permite tornar o equipamento ativo.
-    - **Visivél** : Torna o equipamento visível.
+  - **Ativar** : Permite tornar o equipamento ativo.
+  - **Visivél** : Torna o equipamento visível.
 
 - **Ferramenta** :
-    - **Número de dias** : definir o número máximo de dias para exibir no widget.
-    - **Número de eventos** : definir o número máximo de eventos a serem exibidos no widget.
+  - **Número de dias** : definir o número máximo de dias para exibir no widget.
+  - **Número de eventos** : definir o número máximo de eventos a serem exibidos no widget.
 
 - **Lista de eventos do calendário** : exibe a lista de todos os eventos da agenda *(um clique no nome permite que você edite o evento)*.
 
@@ -39,17 +39,17 @@ Para criar um novo evento, clique no botão **Adicionar evento** na página de c
 
 A janela de criação / configuração de eventos permite que você defina os parâmetros, ações e recorrência específicos para cada evento. Na primeira guia, você encontra :
 
--   **Nome do evento** : Nome do seu evento.
--   **Esconder no Widget** : permite não exibir este evento no widget.
--   **ícone** : permite que você adicione um ícone na frente do nome do evento *(clique no botão "Escolha um ícone")*.
--   **Cor de fundo** : permite que você escolha a cor de fundo do evento *(marque a caixa para um fundo transparente)*.
--   **Cor do texto** : permite-lhe escolher a cor do texto do evento.
+- **Nome do evento** : Nome do seu evento.
+- **Esconder no Widget** : permite não exibir este evento no widget.
+- **ícone** : permite que você adicione um ícone na frente do nome do evento *(clique no botão "Escolha um ícone")*.
+- **Cor de fundo** : permite que você escolha a cor de fundo do evento *(marque a caixa para um fundo transparente)*.
+- **Cor do texto** : permite-lhe escolher a cor do texto do evento.
 
 No canto superior direito da janela de edição de eventos existem 3 botões:
 
 - **Duplicado** : permite que você duplique o evento para criar um novo *(lembre-se de salvar o novo evento assim gerado)*.
 - **Salve ** : permite que você salve o evento.
-- **Deletar** : permite-lhe apagar todo o evento ou apenas uma ocorrência.
+- **Deletar** : permite excluir todo o evento ou apenas uma ocorrência.
 
 ## Iniciar / terminar ações
 
@@ -68,11 +68,11 @@ As ações podem ser comandos Jeedom padrão ou [comandos específicos do cenár
 É nesta aba que você encontra toda a gestão de tempo do seu evento :
 
 - **Datas** :
-    - **Começo** : Data de início do evento.
-    - **Final** : Data de término do evento *(o ícone no final da linha é usado para definir o evento durante todo o dia)*.
-- **Incluir por data** : permite que você adicione uma data de ocorrência. Você pode definir vários separando-os por ``, (virgules)`` *(exemple: AAAA-MM-DD, AAAA-MM-DD)*. Também é possível definir um intervalo de datas com ``: (deux points)`` *(exemple: AAAA-MM-JJ:AAAA-MM-JJ)*.
-- **Incluir por calendário** : permite incluir ocorrências de acordo com as de outra agenda ou de outro evento. Por exemplo, você tem um evento ``A``, repetido toda segunda-feira, o que você inclui em seu evento atual : então o seu evento atual também será repetido todas as segundas-feiras.
-- **Excluir por data** : igual a **Incluir por data** mas para ignorar as ocorrências.
+  - **Começo** : Data de início do evento.
+  - **Final** : Data de término do evento *(o ícone no final da linha é usado para definir o evento durante todo o dia)*.
+- **Incluir por data** : permite adicionar uma data de ocorrência. Você pode definir vários separando-os por ``, (virgules)`` *(exemple: AAAA-MM-DD, AAAA-MM-DD)*. Também é possível definir um intervalo de datas com ``: (deux points)`` *(exemple: AAAA-MM-JJ:AAAA-MM-JJ)*.
+- **Incluir por calendário** : permite incluir ocorrências com base em outro calendário ou outro evento. Por exemplo, você tem um evento ``A``, repetido toda segunda-feira, o que você inclui em seu evento atual : então o seu evento atual também será repetido todas as segundas-feiras.
+- **Excluir por data** : igual a **Incluir por data** mas ignorar ocorrências.
 - **Excluir por calendário** : permite que você exclua este evento de acordo com outra agenda ou evento *(para evitar que 2 eventos contraditórios sejam encontrados juntos, por exemplo)*.
 
 >**EM FORMAÇÃO**
@@ -81,14 +81,14 @@ As ações podem ser comandos Jeedom padrão ou [comandos específicos do cenár
 
 ## Repetição de eventos
 
-A repetição irá permitir-lhe configurar as ocorrências dos seus eventos exactamente como deseja :
+A repetição permitirá que você configure as ocorrências de seus eventos exatamente como desejar :
 
 - **Ativar** : marque a caixa para ativar a repetição e exibir as opções correspondentes.
 - **Modo - repetição única** :
-    - **Repita cada** : permite que você defina a frequência de repetição do evento *(a cada 3 dias, a cada 2 meses, etc)*.
-    - **Somente o** : permite restringir a repetição a determinados dias da semana.
+  - **Repita cada** : permite que você defina a frequência de repetição do evento *(a cada 3 dias, a cada 2 meses, etc)*.
+  - **Somente o** : permite restringir a repetição a determinados dias da semana.
 - **Modo - Repetição avançada** :
-    - **Frequência** : permite que você escolha uma repetição toda segunda segunda-feira do mês, por exemplo...
+  - **Frequência** : permite que você escolha uma repetição toda segunda segunda-feira do mês, por exemplo...
 - **Restrição** : permite excluir feriados ou restringir o evento apenas a feriados / semanas pares / semanas ímpares.
 - **Até** : última data de ocorrência do evento.
 
@@ -113,6 +113,7 @@ Um diário tem vários comandos :
 >Atenção é importante não fazer eventos repetidos que se sobrepõem, esse tipo de caso não é gerenciado pelo plugin. Exemplo um evento que dura 48 horas e se repete todos os dias.
 
 # API
+
 A API é baseada na API jsonrpc, oferece os seguintes métodos para o plugin:
 
 - **event::getAllCalendarAndEvents** permite que você recupere todos os calendários e eventos
@@ -122,8 +123,10 @@ A API é baseada na API jsonrpc, oferece os seguintes métodos para o plugin:
 - **event::remove** permite que você exclua um evento
 
 ## event::getAllCalendarAndEvents
+
 **Parâmetros de entrada**
 /Aucun/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -134,7 +137,9 @@ A API é baseada na API jsonrpc, oferece os seguintes métodos para o plugin:
     }
 }
 ```
+
 **Exemplo de resultado**
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -336,8 +341,11 @@ A API é baseada na API jsonrpc, oferece os seguintes métodos para o plugin:
 ```
 
 ## event::getAllEvents
+
 **Parâmetros de entrada**
+
 - eqLogic_id /int/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -349,7 +357,9 @@ A API é baseada na API jsonrpc, oferece os seguintes métodos para o plugin:
     }
 }
 ```
+
 **Exemplo de resultado**
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -440,8 +450,11 @@ A API é baseada na API jsonrpc, oferece os seguintes métodos para o plugin:
 ```
 
 ## event::byId
+
 **Parâmetros de entrada**
+
 - id_do_evento /int/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -453,7 +466,9 @@ A API é baseada na API jsonrpc, oferece os seguintes métodos para o plugin:
     }
 }
 ```
+
 **Exemplo de resultado**
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -527,8 +542,11 @@ A API é baseada na API jsonrpc, oferece os seguintes métodos para o plugin:
 ```
 
 ## event::save
+
 **Parâmetros de entrada**
+
 - evento /objeto json/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -603,7 +621,9 @@ A API é baseada na API jsonrpc, oferece os seguintes métodos para o plugin:
     }
 }
 ```
+
 **Exemplo de resultado**
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -677,8 +697,11 @@ A API é baseada na API jsonrpc, oferece os seguintes métodos para o plugin:
 ```
 
 ## event::remove
+
 **Parâmetros de entrada**
+
 - id_do_evento /int/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -690,7 +713,9 @@ A API é baseada na API jsonrpc, oferece os seguintes métodos para o plugin:
     }
 }
 ```
+
 **Exemplo de resultado**
+
 ```json
 {
   "jsonrpc": "2.0",

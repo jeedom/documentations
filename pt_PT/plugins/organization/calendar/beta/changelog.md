@@ -4,6 +4,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 01/10/2024
+
+- Corrigido um bug ao excluir uma ocorrência de um evento recorrente
+
 # 01/08/2024
 
 - Preparando-se para Jeedom 4.4
@@ -20,6 +24,7 @@
 - A visualização selecionada é salva ao salvar o equipamento
 
 # 17/03/2023
+
 - Fornecimento de uma API para listar, adicionar, modificar e excluir um evento.
 
 # 22/12/2022
@@ -98,13 +103,13 @@
 
 # 18/03/2019
 
-- Quando um evento é excluído, as ações finais não são mais executadas
+- Ao excluir um evento as ações finais não são mais executadas
 - Interface melhorada
 - Correções de bugs
 
 # 01/08/2018
 
-- Correção de um bug durante a inclusão / exclusão de datas, se estas forem excluídas / incluídas
+- Corrigido um bug ao incluir/excluir datas caso elas fossem excluídas/incluídas
 
 # 14/10/2018
 
@@ -138,4 +143,4 @@
 
 # 27/02/2018
 
--	Remoção de comandos de ativação / desativação *(para desativar uma agenda de um cenário, você deve agora usar a função de desativação de equipamento)*
+- Remoção de comandos de ativação / desativação *(para desativar uma agenda de um cenário, você deve agora usar a função de desativação de equipamento)*

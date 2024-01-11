@@ -18,12 +18,12 @@ En esta página encontrará la lista de sus agendas. Haga clic en una agenda par
 - **Objeto padre** : Indica el objeto padre al que pertenece el equipo.
 - **Categoría** : Permite elegir la categoría del equipo.
 - **Opciones** :
-    - **Activar** : Permite activar el equipo.
-    - **Visible** : Hace que el equipo sea visible.
+  - **Activar** : Permite activar el equipo.
+  - **Visible** : Hace que el equipo sea visible.
 
 - **Widget** :
-    - **Número de días** : establecer el número máximo de días que se mostrarán en el widget.
-    - **Numero de eventos** : establecer el número máximo de eventos que se mostrarán en el widget.
+  - **Número de días** : establecer el número máximo de días que se mostrarán en el widget.
+  - **Numero de eventos** : establecer el número máximo de eventos que se mostrarán en el widget.
 
 - **Lista de eventos del calendario** : muestra la lista de todos los eventos del calendario *(un clic en el nombre le permite editar el evento)*.
 
@@ -39,11 +39,11 @@ Para crear un nuevo evento, haga clic en el botón **Agregar evento** desde la p
 
 La ventana de creación / configuración de eventos le permite definir los parámetros, acciones y recurrencia específicos de cada evento. En la primera pestaña, encontrará :
 
--   **Nombre del evento** : Nombre de tu evento.
--   **Ocultar en widget** : permite no mostrar este evento en el widget.
--   **Icono** : le permite agregar un icono delante del nombre del evento *(haga clic en el botón "Elija un icono")*.
--   **Color de fondo** : te permite elegir el color de fondo del evento *(marque la casilla para un fondo transparente)*.
--   **Color del texto** : te permite elegir el color del texto del evento.
+- **Nombre del evento** : Nombre de tu evento.
+- **Ocultar en widget** : permite no mostrar este evento en el widget.
+- **Icono** : le permite agregar un icono delante del nombre del evento *(haga clic en el botón "Elija un icono")*.
+- **Color de fondo** : te permite elegir el color de fondo del evento *(marque la casilla para un fondo transparente)*.
+- **Color del texto** : te permite elegir el color del texto del evento.
 
 En la parte superior derecha de la ventana de edición de eventos hay 3 botones:
 
@@ -68,11 +68,11 @@ Las acciones pueden ser comandos estándar de Jeedom o [comandos específicos de
 Es en esta pestaña donde puedes encontrar toda la gestión del tiempo de tu evento :
 
 - **Fechas** :
-    - **Inicio** : Fecha de inicio del evento.
-    - **Final** : Fecha de finalización del evento *(el icono al final de la línea se utiliza para definir el evento durante todo el día)*.
+  - **Inicio** : Fecha de inicio del evento.
+  - **Final** : Fecha de finalización del evento *(el icono al final de la línea se utiliza para definir el evento durante todo el día)*.
 - **Incluir por fecha** : le permite agregar una fecha de ocurrencia. Puede definir varios separándolos por ``, (virgules)`` *(exemple: AAAA-MM-DD, AAAA-MM-DD)*. También es posible definir un rango de fechas con ``: (deux points)`` *(exemple: AAAA-MM-JJ:AAAA-MM-JJ)*.
-- **Incluir por calendario** : permite incluir ocurrencias de acuerdo con las de otra agenda o de otro evento. Por ejemplo, tienes un evento ``A``, repetido todos los lunes, que incluye en su evento actual : entonces su evento actual también se repetirá todos los lunes.
-- **Excluir por fecha** : igual que **Incluir por fecha** pero para ignorar ocurrencias.
+- **Incluir por calendario** : le permite incluir ocurrencias basadas en las de otro calendario u otro evento. Por ejemplo, tienes un evento ``A``, repetido todos los lunes, que incluye en su evento actual : entonces su evento actual también se repetirá todos los lunes.
+- **Excluir por fecha** : igual que **Incluir por fecha** pero ignorar los sucesos.
 - **Excluir por calendario** : le permite excluir este evento de acuerdo con otra agenda o evento *(para evitar que 2 eventos contradictorios se encuentren juntos por ejemplo)*.
 
 >**INFORMACIÓN**
@@ -81,14 +81,14 @@ Es en esta pestaña donde puedes encontrar toda la gestión del tiempo de tu eve
 
 ## Repetición de eventos
 
-La repetición le permitirá configurar las ocurrencias de sus eventos exactamente como lo desee :
+La repetición le permitirá configurar las ocurrencias de sus eventos exactamente como desee :
 
 - **Activar** : marque la casilla para activar la repetición y mostrar las opciones correspondientes.
 - **Modo - Repetición única** :
-    - **Repite cada** : le permite definir la frecuencia de repetición del evento *(cada 3 días, cada 2 meses, etc)*.
-    - **Solo el** : le permite restringir la repetición a ciertos días de la semana.
+  - **Repite cada** : le permite definir la frecuencia de repetición del evento *(cada 3 días, cada 2 meses, etc)*.
+  - **Solo el** : le permite restringir la repetición a ciertos días de la semana.
 - **Modo: repetición avanzada** :
-    - **Frecuencia** : le permite elegir una repetición cada segundo lunes del mes, por ejemplo...
+  - **Frecuencia** : le permite elegir una repetición cada segundo lunes del mes, por ejemplo...
 - **Restricción** : permite excluir días festivos o restringir el evento a días festivos / semanas pares / semanas impares solamente.
 - **Hasta** : última fecha de ocurrencia del evento.
 
@@ -113,6 +113,7 @@ Un diario tiene varios comandos :
 >Atención, es importante no hacer eventos repetidos que se superponen a sí mismos, este tipo de casos no son administrados por el complemento. Ejemplo un evento que dura 48 horas y se repite todos los días.
 
 # API
+
 La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complemento:
 
 - **event::getAllCalendarAndEvents** le permite recuperar todos los calendarios y eventos
@@ -122,8 +123,10 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
 - **event::remove** le permite eliminar un evento
 
 ## event::getAllCalendarAndEvents
+
 **Parámetros de entrada**
 /Aucun/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -134,7 +137,9 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
     }
 }
 ```
+
 **Ejemplo de resultado**
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -336,8 +341,11 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
 ```
 
 ## event::getAllEvents
+
 **Parámetros de entrada**
+
 - eqLogic_id /int/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -349,7 +357,9 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
     }
 }
 ```
+
 **Ejemplo de resultado**
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -440,8 +450,11 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
 ```
 
 ## event::byId
+
 **Parámetros de entrada**
+
 - evento_id /int/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -453,7 +466,9 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
     }
 }
 ```
+
 **Ejemplo de resultado**
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -527,8 +542,11 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
 ```
 
 ## event::save
+
 **Parámetros de entrada**
+
 - evento /objeto json/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -603,7 +621,9 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
     }
 }
 ```
+
 **Ejemplo de resultado**
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -677,8 +697,11 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
 ```
 
 ## event::remove
+
 **Parámetros de entrada**
+
 - evento_id /int/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -690,7 +713,9 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
     }
 }
 ```
+
 **Ejemplo de resultado**
+
 ```json
 {
   "jsonrpc": "2.0",

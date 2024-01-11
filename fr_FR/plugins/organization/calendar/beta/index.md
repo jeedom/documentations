@@ -18,12 +18,12 @@ Sur cette page vous retrouvez la liste de vos Agendas. Cliquez sur un agenda pou
 - **Objet parent** : Indique l’objet parent auquel appartient l’équipement.
 - **Catégorie** : Permet de choisir la catégorie de l'équipement.
 - **Options** :
-    - **Activer** : Permet de rendre l'équipement actif.
-    - **Visible** : Rend l'équipement visible.
+  - **Activer** : Permet de rendre l'équipement actif.
+  - **Visible** : Rend l'équipement visible.
 
 - **Widget** :
-    - **Nombre de jours** : défini le nombre de jours maximum à afficher sur le widget.
-    - **Nombre d’évènements** : défini le nombre d’évènements maximum à afficher sur le widget.
+  - **Nombre de jours** : défini le nombre de jours maximum à afficher sur le widget.
+  - **Nombre d’évènements** : défini le nombre d’évènements maximum à afficher sur le widget.
 
 - **Liste des évènements de l’agenda** : affiche la liste de tous les évènements de l’agenda *(un clic sur le nom permet d’éditer l’évènement)*.
 
@@ -39,17 +39,17 @@ Pour créer un nouvel évènement, cliquez sur le bouton **Ajouter évènement**
 
 La fenêtre de création/configuration des évènements permet de définir les paramètres, les actions et la récurrence propres à chaque évènement. Sur le premier onglet, vous retrouvez :
 
--   **Nom de l’événement** : nom de votre événement.
--   **Masquer sur le widget** : permet de ne pas afficher cet évènement sur le widget.
--   **Icône** : permet d’ajouter une icône devant le nom de l'évènement *(cliquer sur le bouton "Choisir une icône")*.
--   **Couleur de fond** : permet de choisir la couleur de fond de l'événement *(cocher la case pour un fond transparent)*.
--   **Couleur du texte** : permet de choisir la couleur du texte l'événement.
+- **Nom de l’événement** : nom de votre événement.
+- **Masquer sur le widget** : permet de ne pas afficher cet évènement sur le widget.
+- **Icône** : permet d’ajouter une icône devant le nom de l'évènement *(cliquer sur le bouton "Choisir une icône")*.
+- **Couleur de fond** : permet de choisir la couleur de fond de l'événement *(cocher la case pour un fond transparent)*.
+- **Couleur du texte** : permet de choisir la couleur du texte l'événement.
 
 En haut à droite de la fenêtre d'édition des évènements se trouvent 3 boutons:
 
 - **Dupliquer** : permet de dupliquer l'évènement pour en créer un nouveau *(pensez à sauvegarder le nouvel évènement ainsi généré)*.
 - **Enregistrer** : permet de sauvegarder l'évènement.
-- **Supprimer** : permet de supprimer l'évènement complet ou seulement une occurence.
+- **Supprimer** : permet de supprimer l'évènement complet ou seulement une occurrence.
 
 ## Actions de début/fin
 
@@ -68,11 +68,11 @@ Les actions peuvent être des commandes Jeedom standards ou bien [des commandes 
 C’est au sein de cet onglet que se trouve toute la gestion temporelle de votre évènement :
 
 - **Dates** :
-    - **Début** : date de début de l'évènement.
-    - **Fin** : date de fin de l'évènement *(l'icône en bout de ligne permet de définir l'évènement sur toute la journée)*.
-- **Inclure par date** : permet d'ajouter une date d’occurence. Vous pouvez en définir plusieurs en les séparant par des ``, (virgules)`` *(exemple: AAAA-MM-JJ,AAAA-MM-JJ)*. Il est également possible de définir une plage de dates avec ``: (deux points)`` *(exemple: AAAA-MM-JJ:AAAA-MM-JJ)*.
-- **Inclure par agenda** : permet d’inclure des occurences en fonction de celles d'un autre agenda ou d'un autre évènement. Par exemple, vous avez un événement ``A``, répété tous les lundis, que vous incluez dans votre évènement courant : alors votre évènement courant sera également répété tous les lundis.
-- **Exclure par date** : idem que **Inclure par date** mais pour ignorer des occurences.
+  - **Début** : date de début de l'évènement.
+  - **Fin** : date de fin de l'évènement *(l'icône en bout de ligne permet de définir l'évènement sur toute la journée)*.
+- **Inclure par date** : permet d'ajouter une date d’occurrence. Vous pouvez en définir plusieurs en les séparant par des ``, (virgules)`` *(exemple: AAAA-MM-JJ,AAAA-MM-JJ)*. Il est également possible de définir une plage de dates avec ``: (deux points)`` *(exemple: AAAA-MM-JJ:AAAA-MM-JJ)*.
+- **Inclure par agenda** : permet d’inclure des occurrences en fonction de celles d'un autre agenda ou d'un autre évènement. Par exemple, vous avez un événement ``A``, répété tous les lundis, que vous incluez dans votre évènement courant : alors votre évènement courant sera également répété tous les lundis.
+- **Exclure par date** : idem que **Inclure par date** mais pour ignorer des occurrences.
 - **Exclure par agenda** : permet de mettre en exclusion cet événement en fonction d’un autre agenda ou évènement *(pour éviter que 2 événements contradictoires se retrouvent ensembles par exemple)*.
 
 >**INFORMATION**
@@ -81,16 +81,16 @@ C’est au sein de cet onglet que se trouve toute la gestion temporelle de votre
 
 ## Répétition des évènements
 
-La répétition va vous permettre de paramétrer les occurences de vos évènements exactement comme vous le désirez :
+La répétition va vous permettre de paramétrer les occurrences de vos évènements exactement comme vous le désirez :
 
 - **Activer** : cocher la case pour activer la répétition et afficher les options correspondantes.
 - **Mode - Répétition simple** :
-    - **Répéter tous les** : permet de définir la fréquence de répétition de l’évènement *(tous les 3 jours, tous les 2 mois, etc…​)*.
-    - **Uniquement les** : permet de restreindre la répétition à certains jours de la semaine.
+  - **Répéter tous les** : permet de définir la fréquence de répétition de l’évènement *(tous les 3 jours, tous les 2 mois, etc…​)*.
+  - **Uniquement les** : permet de restreindre la répétition à certains jours de la semaine.
 - **Mode - Répétition avancée** :
-    - **Fréquence** : permet de choisir une répétition tous les 2ème lundis du mois par exemple...
+  - **Fréquence** : permet de choisir une répétition tous les 2ème lundis du mois par exemple...
 - **Restriction** : permet d’exclure les jours fériés ou de restreindre l’événement aux jours fériés / semaines paires / semaines impaires uniquement.
-- **Jusqu’à** : dernière date d’occurence de l’événement.
+- **Jusqu’à** : dernière date d’occurrence de l’événement.
 
 >**INFORMATION**
 >
@@ -113,6 +113,7 @@ Un agenda possède plusieurs commandes :
 >Attention il ne faut surtout pas faire d'evenement à répétition qui se chevauge lui meme, ce genre de cas n'est pas géré par le plugin. Exemple un evenement qui dure 48h et qui se répéte tous les jours.
 
 # API
+
 L'api se repose sur l'api jsonrpc, elle propose pour le plugin les méthodes suivantes:
 
 - **event::getAllCalendarAndEvents** permet de récupérer l'ensemble des agendas et des évènements
@@ -122,8 +123,10 @@ L'api se repose sur l'api jsonrpc, elle propose pour le plugin les méthodes sui
 - **event::remove** permet de supprimer un évènement
 
 ## event::getAllCalendarAndEvents
+
 **Paramètres d'entrée**
 /Aucun/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -134,7 +137,9 @@ L'api se repose sur l'api jsonrpc, elle propose pour le plugin les méthodes sui
     }
 }
 ```
+
 **Exemple de résultat**
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -336,8 +341,11 @@ L'api se repose sur l'api jsonrpc, elle propose pour le plugin les méthodes sui
 ```
 
 ## event::getAllEvents
+
 **Paramètres d'entrée**
+
 - eqLogic_id /int/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -349,7 +357,9 @@ L'api se repose sur l'api jsonrpc, elle propose pour le plugin les méthodes sui
     }
 }
 ```
+
 **Exemple de résultat**
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -440,8 +450,11 @@ L'api se repose sur l'api jsonrpc, elle propose pour le plugin les méthodes sui
 ```
 
 ## event::byId
+
 **Paramètres d'entrée**
+
 - event_id /int/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -453,7 +466,9 @@ L'api se repose sur l'api jsonrpc, elle propose pour le plugin les méthodes sui
     }
 }
 ```
+
 **Exemple de résultat**
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -527,8 +542,11 @@ L'api se repose sur l'api jsonrpc, elle propose pour le plugin les méthodes sui
 ```
 
 ## event::save
+
 **Paramètres d'entrée**
+
 - event /json object/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -603,7 +621,9 @@ L'api se repose sur l'api jsonrpc, elle propose pour le plugin les méthodes sui
     }
 }
 ```
+
 **Exemple de résultat**
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -677,8 +697,11 @@ L'api se repose sur l'api jsonrpc, elle propose pour le plugin les méthodes sui
 ```
 
 ## event::remove
+
 **Paramètres d'entrée**
+
 - event_id /int/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -690,7 +713,9 @@ L'api se repose sur l'api jsonrpc, elle propose pour le plugin les méthodes sui
     }
 }
 ```
+
 **Exemple de résultat**
+
 ```json
 {
   "jsonrpc": "2.0",

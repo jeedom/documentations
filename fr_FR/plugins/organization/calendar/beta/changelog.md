@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 10/01/2024
+
+- Correction d'un bug sur la suppression d'une occurrence d'un événement récurent
+
 # 08/01/2024
 
 - Préparation pour jeedom 4.4
@@ -11,7 +15,7 @@
 
 # 01/12/2023
 
-- Optimisation du calcul des occurences **Inclure/Exclure par date**
+- Optimisation du calcul des occurrences **Inclure/Exclure par date**
 
 # 27/11/2023
 
@@ -20,6 +24,7 @@
 - La vue sélectionnée est enregistrée lors de la sauvegarde de l'équipement
 
 # 17/03/2023
+
 - Mise à disposition d'une api pour lister, ajouter, modifier et supprimer un évènement.
 
 # 22/12/2022
@@ -98,13 +103,13 @@
 
 # 18/03/2019
 
-- Lors de la supression d'un évènement les actions de fin ne sont plus exécutées
+- Lors de la suppression d'un évènement les actions de fin ne sont plus exécutées
 - Amélioration de l'interface
 - Correction de bugs
 
 # 08/01/2018
 
-- Correction d'un bug lors de l'inclusion/exclusion de dates si celles-ci sont excluses/incluses
+- Correction d'un bug lors de l'inclusion/exclusion de dates si celles-ci sont exclues/inclues
 
 # 14/10/2018
 
@@ -138,4 +143,4 @@
 
 # 27/02/2018
 
--	Suppression des commandes d'activation/désactivation *(pour désactiver un agenda depuis un scénario il faut maintenant utiliser la fonction de désactivation d'équipement)*
+- Suppression des commandes d'activation/désactivation *(pour désactiver un agenda depuis un scénario il faut maintenant utiliser la fonction de désactivation d'équipement)*
