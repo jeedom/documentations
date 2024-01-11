@@ -8,10 +8,10 @@ Mit dem SMS-Plugin können Sie per SMS mit Jeedom interagieren. Außerdem kann J
 
 # Plugin Konfiguration
 
-Nachdem Sie das Plugin heruntergeladen haben, aktivieren Sie es einfach und konfigurieren Sie den Port. Nach dem Speichern sollte der Dämon starten.    
+Nachdem Sie das Plugin heruntergeladen haben, aktivieren Sie es einfach und konfigurieren Sie den Port. Nach dem Speichern sollte der Dämon starten.
 Das Plugin ist bereits standardmäßig konfiguriert, sodass Sie nichts weiter tun müssen. Sie können diese Konfiguration jedoch ändern. Hier finden Sie die Details :
 
--   **SMS-Port** : Der USB-Anschluss, an den Ihr GSM-Schlüssel angeschlossen ist.
+- **SMS-Port** : der USB-Port, an dem Ihr GSM-Schlüssel angeschlossen ist (zum Beispiel kann es /dev/ttyUSB0 sein, um ihn zu sehen, führen Sie einfach `dmesg` aus und schließen Sie das Modem an).
 
 > **TIPP**
 >
@@ -21,15 +21,15 @@ Das Plugin ist bereits standardmäßig konfiguriert, sodass Sie nichts weiter tu
 >
 > Bitte beachten Sie, dass sich einige 3G-Schlüssel standardmäßig im Modemmodus und nicht in GSM befinden. Sie müssen mithilfe der Software Ihres Schlüsselherstellers den Modus des Schlüssels in GSM (oder Text oder seriell) ändern).
 
--   **Kommunikationsgeschwindigkeit** : Die letzten Schlüssel arbeiten mit 115200 Baud. Sie haben die Möglichkeit, auf 9600 Baud umzuschalten, falls Ihre Ausrüstung dies erfordert.
--   **PIN-Code** : Hier können Sie den PIN-Code der SIM-Karte angeben und leer lassen, wenn Sie keinen haben.
--   **Textmodus** : Erweiterter Kompatibilitätsmodus, der nur verwendet wird, wenn das Senden und / oder Empfangen von Nachrichten nicht funktioniert.
--   **Schneiden Sie Nachrichten nach Zeichenpaket** : Gibt die maximale Anzahl von Zeichen pro Textnachricht an.
--   **SMS / SMS Gateway (im Fehlerfall ändern : CMS 330 SMSC-Nummer nicht festgelegt)** : Ändern Sie nur, wenn Sie den Fehler "CMS 330 SMSC-Nummer nicht festgelegt" haben. In diesem Fall müssen Sie die SMS-Gateway-Nummer Ihres Telefonisten angeben.
--   **Signalstärke** : Signalstärke Ihres GSM-Schlüssels.
--   **Netzwerk** : Telefonnetz Ihres GSM-Schlüssels (kann "Keine" sein, wenn Jeedom ihn nicht wiederherstellen kann).
--   **Interner Socket-Port (gefährliche Änderung)** : Ermöglicht das Ändern des internen Kommunikationsports des Dämons.
--   **Fahrräder)** : Daemon-Scan-Zyklus zum Senden und Empfangen von SMS. Eine zu niedrige Zahl kann zu Instabilität führen.
+- **Kommunikationsgeschwindigkeit** : Die letzten Schlüssel arbeiten mit 115200 Baud. Sie haben die Möglichkeit, auf 9600 Baud umzuschalten, falls Ihre Ausrüstung dies erfordert.
+- **PIN-Code** : Hier können Sie den PIN-Code der SIM-Karte angeben und leer lassen, wenn Sie keinen haben.
+- **Textmodus** : Erweiterter Kompatibilitätsmodus, der nur verwendet wird, wenn das Senden und / oder Empfangen von Nachrichten nicht funktioniert.
+- **Schneiden Sie Nachrichten nach Zeichenpaket** : Gibt die maximale Anzahl von Zeichen pro Textnachricht an.
+- **SMS / SMS Gateway (im Fehlerfall ändern : CMS 330 SMSC-Nummer nicht festgelegt)** : Ändern Sie nur, wenn Sie den Fehler "CMS 330 SMSC-Nummer nicht festgelegt" haben. In diesem Fall müssen Sie die SMS-Gateway-Nummer Ihres Telefonisten angeben.
+- **Signalstärke** : Signalstärke Ihres GSM-Schlüssels.
+- **Netzwerk** : Telefonnetz Ihres GSM-Schlüssels (kann "Keine" sein, wenn Jeedom ihn nicht wiederherstellen kann).
+- **Interner Socket-Port (gefährliche Änderung)** : Ermöglicht das Ändern des internen Kommunikationsports des Dämons.
+- **Fahrräder)** : Daemon-Scan-Zyklus zum Senden und Empfangen von SMS. Eine zu niedrige Zahl kann zu Instabilität führen.
 
 # Gerätekonfiguration
 
@@ -37,37 +37,48 @@ Auf die Konfiguration von SMS-Geräten kann über das Menü Plugins → Kommunik
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name des SMS-Geräts** : Name Ihres SMS-Geräts.
--   **Aktivieren** : macht Ihre Ausrüstung aktiv.
--   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar.
--   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört.
+- **Ausrüstungsname** : Name Ihres SMS-Geräts.
+- **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört.
+- **Aktivieren** : macht Ihre Ausrüstung aktiv.
+- **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar.
 
-Nachfolgend finden Sie die Liste der Bestellungen :
+Nachfolgend finden Sie einige spezifische Parameter:
 
--   **Name** : Der im Dashboard angezeigte Name.
--   **Benutzer** : entsprechender Benutzer in Jeedom (ermöglicht es Ihnen, bestimmte Interaktionen auf bestimmte Benutzer zu beschränken).
--   **Anzahl** : Telefonnummer, an die Nachrichten gesendet werden sollen. Sie können mehrere Zahlen eingeben, indem Sie sie durch trennen *(exemple: 0612345678; 0698765432)*. Wichtig : Es ist notwendig, die Zahlen im internationalen Format (+33 für Frankreich zum Beispiel) anzugeben)
+- **Interaktionen deaktivieren**: ermöglicht es Ihnen, Interaktionen für alle Nummern dieses Geräts zu verbieten (wenn Sie Interaktionen für bestimmte Nummern und nicht für andere verbieten möchten, können Sie mehrere Geräte erstellen)
+- **Nachrichten von unbekannten Nummern zulassen**: Ermöglicht Ihnen, Nachrichten von unbekannten Nummern anzunehmen. Die empfangene Nachricht sowie die Nummer des Absenders sind wie bei jeder anderen Nachricht über die Befehle verfügbar. Interaktionen sind für diese Nummern immer deaktiviert
+- **Fügen Sie unbekannte Nummern hinzu**: ermöglicht es Ihnen, die Nummer automatisch zur Liste der Bestellungen hinzuzufügen (also eine neue Bestellung zu erstellen), wenn Sie eine Nachricht von einer unbekannten Nummer erhalten
+
+> **WARNUNG**
+>
+> Diese Option kann gefährlich sein, da sie der Nummer automatisch einen entsprechenden Befehl hinzufügt, wenn Sie eine Nachricht von einer unbekannten Nummer erhalten.
+> Wenn Sie auf derselben Ausrüstung Interaktionen aktivieren, bedeutet dies, dass jeder beginnen kann, mit Ihrem Jeedom zu interagieren.
+> Aktivieren Sie diese Option nur, wenn Sie dieses Risiko sicher akzeptieren.
+
+## Die Bestellungen
+
+Jedes Gerät verfügt über die folgenden Befehle:
+
+- **Signal**: gibt Signalstärke;
+- **Nachricht**: enthält die zuletzt empfangene SMS-Nachricht;
+- **Absender**: enthält den Namen des letzten Absenders, sofern bekannt, andernfalls die Nummer;
+- **Nachricht senden an**: Ein Aktionsbefehl zum Senden einer Nachricht zum Senden einer SMS an eine personalisierte Nummer, ohne dass der Kontaktbefehl erstellt werden muss. Auf diese Weise können Sie beispielsweise eine SMS an eine Nummer senden, die Sie über einen Info-Befehl von einem anderen Gerät unter Jeedom erhalten haben. Achtung, es erfolgt keine Überprüfung der Nummer, Sie müssen die Nummern im internationalen Format angeben.
+
+Darüber hinaus können Sie passend zu Ihren Kontakten beliebig viele weitere Aktionsbefehle erstellen, für die Sie jeweils eine Eingabe vornehmen müssen:
+
+- **Name**: der Name des Befehls;
+- **Benutzer**: entsprechender Benutzer in Jeedom (ermöglicht Ihnen, bestimmte Interaktionen auf bestimmte Benutzer zu beschränken);
+- **Anzahl**: Telefonnummer, an die Nachrichten gesendet werden sollen. Sie können mehrere Zahlen eingeben, indem Sie sie durch „;“ trennen (Beispiel: „+33612345678;+33698765432“.). *Wichtig* : Es ist notwendig, die Zahlen im internationalen Format (+33 für Frankreich zum Beispiel) anzugeben).
 
 > **Wichtig**
 >
-> Nur die in einem Gerät deklarierten Telefonnummern können die Interaktionen verwenden, da nur sie autorisiert werden.
-
--   **Anzeige** : ermöglicht die Anzeige der Daten im Dashboard.
--   **Erweiterte Konfiguration** (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an (Protokollierungsmethode, Widget usw.)).
--   **Test** : Wird zum Testen des Befehls verwendet.
--   **Löschen** (Schild -) : ermöglicht das Löschen des Befehls.
+> Nur die in einem Gerät angegebenen Telefonnummern können die Interaktionen verwenden, da nur sie autorisiert werden.
 
 # Mit dem Plugin
 
-Dies ist ziemlich normal in seiner Funktionsweise, auf der Seite Allgemein → Plugin, dann durch Auswahl des SMS-Plugins :
+Dieser funktioniert ziemlich standardmäßig, also müssen Sie neue Geräte hinzufügen und dann konfigurieren:
 
--   Der Port (Pfad) zu dem Gerät, das als Modem dient (z. B. kann es / dev / ttyUSB0 sein, um zu sehen, dass es gerade gestartet wird ``dmesg`` Schließen Sie dann das Modem an)
--   Der PIN-Code der SIM-Karte
-
-Sie müssen also neue Geräte hinzufügen und diese dann konfigurieren :
-
--   Der Name davon,
--   Ob es aktiv ist oder nicht,
+- Der Name davon,
+- Ob es aktiv ist oder nicht,
 
 Dann müssen Sie die Befehle hinzufügen, die aus einem Namen und einer Nummer bestehen. Nur die in der Befehlsliste aufgeführten Nummern können eine Antwort von Jeedom erhalten (dies ermöglicht die Sicherung, ohne ein Kennwort festzulegen jeder Start einer an Jeedom gesendeten SMS). Sie können auch angeben, welcher Benutzer mit dieser Nummer verknüpft ist (für die Rechteverwaltung auf Interaktionsebene).
 
@@ -80,11 +91,11 @@ Um mit Jeedom zu kommunizieren, reicht es dann aus, ihm eine Nachricht von einer
 
 # Liste der kompatiblen Schlüssel
 
--   HUAWEI E220
--   Alcatel One Touch X220L
--   HSDPA 7.2MBPS 3G Wireless
--   HUAWEI E3372
--   USB SIM800C (Geschwindigkeit 9600)
+- HUAWEI E220
+- Alcatel One Touch X220L
+- HSDPA 7.2MBPS 3G Wireless
+- HUAWEI E3372
+- USB SIM800C (Geschwindigkeit 9600)
 
 # FAQ
 
@@ -99,9 +110,9 @@ Um mit Jeedom zu kommunizieren, reicht es dann aus, ihm eine Nachricht von einer
 >
 >Und auf dem Plugin tun :
 >
->-   Wählen Sie den ersten USB-Anschluss und nicht den zweiten
->-   Geschwindigkeit : 9600
->-   Textmodus aus
+>- Wählen Sie den ersten USB-Anschluss und nicht den zweiten
+>- Geschwindigkeit : 9600
+>- Textmodus aus
 
 > **Ich kann den USB-Anschluss meines Schlüssels nicht sehen**
 >
@@ -113,7 +124,7 @@ Um mit Jeedom zu kommunizieren, reicht es dann aus, ihm eine Nachricht von einer
 
 > **Ich habe einen CME-Fehler XX**
 >
->Sie können finden [hier](:http://www.micromedia-int.com/fr/gsm-2/669-cme-error-gsm-equipment-related-errors) Beschreibung der verschiedenen CME-Fehler.
+>Sie können finden [hier](https://support.micromedia-int.com/hc/fr/articles/360010426299-Modem-GSM-CME-ERRORS-Erreurs-GSM-li%C3%A9es-%C3%A0-l-%C3%A9quipement-) Beschreibung der verschiedenen CME-Fehler.
 
 > **Konfiguration der Alcatel One-Touch-X220L-Taste**
 >
@@ -173,8 +184,8 @@ Um mit Jeedom zu kommunizieren, reicht es dann aus, ihm eine Nachricht von einer
 >
 >Dieser Fehler tritt auf, wenn der Schlüssel nicht innerhalb von 10 Sekunden nach einer Anforderung antwortet. Bekannte Ursachen können sein :
 >
->-   Inkompatibilität des GSM-Schlüssels,
->-   Problem mit der Firmware-Version des Sticks.
+>- Inkompatibilität des GSM-Schlüssels,
+>- Problem mit der Firmware-Version des Sticks.
 
 > **Beim Starten im Debug-Modus habe ich : "Steckdose bereits in Gebrauch"**
 >

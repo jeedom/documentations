@@ -4,17 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 25/06/2023
+# 10/01/2024
 
 - Ajout d'une nouvelle commande **Envoyer message à** permettant d'envoyer un sms à un numéro personnalisé sans devoir créer la commande du contact. Cela permet d'envoyer un sms à un numéro obtenu via une commande info d'un autre équipement sous Jeedom par exemple. Attention, aucune vérification du numéro n'est effectuée, il faut fournir les numéros au format international.
 - Désactivation du flow control lors de la connexion au modem pour éviter des problèmes avec certains modem (par exemple modem lixee)
-
-# 06/11/2022
-
 - Ajout de deux nouvelles options: **Autoriser les messages de numéros inconnus** & **Ajouter automatiquement les numéros inconnus**; voir documentation.
-
-# 21/10/2022
-
 - Fix un problème avec certaines clés gsm renvoyant des caractères incorrectes lors du démarrage du démon.
 
 # 18/10/2022

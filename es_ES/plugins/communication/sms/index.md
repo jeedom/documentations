@@ -8,10 +8,10 @@ El complemento de SMS le permite interactuar con Jeedom a través de SMS. Tambi�
 
 # Configuración del plugin
 
-Después de descargar el complemento, simplemente actívelo y configure el puerto. Después de salvar al demonio debería lanzar.    
+Después de descargar el complemento, simplemente actívelo y configure el puerto. Después de salvar al demonio debería lanzar.
 El complemento ya está configurado de forma predeterminada, por lo que no tiene que hacer nada más. Sin embargo, puede modificar esta configuración, aquí está el detalle :
 
--   **Puerto de SMS** : el puerto USB en el que está conectada su llave GSM.
+- **Puerto de SMS** : el puerto USB en el que está conectada su llave GSM (por ejemplo, puede ser /dev/ttyUSB0, para verlo simplemente ejecute `dmesg` y luego conecte el módem).
 
 > **CONSEJO**
 >
@@ -21,15 +21,15 @@ El complemento ya está configurado de forma predeterminada, por lo que no tiene
 >
 > Tenga en cuenta que algunas teclas 3G están en modo módem por defecto y no GSM. Debe, utilizando el software del fabricante de su clave, cambiar el modo de la clave a GSM (o texto, o serial).
 
--   **Velocidad de comunicación** : teclas recientes funcionan a 115200 baudios. Tiene la opción de cambiar a 9600 baudios en caso de que su equipo lo requiera.
--   **Código PIN** : Le permite indicar el código PIN de la tarjeta SIM, dejar en blanco si no tiene una.
--   **Modo de texto** : Modo de compatibilidad extendida, para usar solo si enviar y / o recibir mensajes no funciona.
--   **Cortar mensajes por paquete de caracteres** : Indica el número máximo de caracteres por mensaje de texto.
--   **SMS / SMS Gateway (modificar en caso de error : CMS 330 Número SMSC no establecido)** : Solo cámbielo si tiene el error `CMS 330 SMSC number not set`, en este caso debe indicar el número de puerta de enlace SMS de su operador telefónico.
--   **Fuerza de la señal** : Intensidad de la señal de su clave GSM.
--   **Red** : Red telefónica de su clave GSM (puede ser "Ninguna" si Jeedom no puede recuperarla)).
--   **Puerto de enchufe interno (modificación peligrosa)** : permite modificar el puerto de comunicación interna del demonio.
--   **Ciclo (s))** : ciclo de escaneo de demonios para enviar y recibir SMS. Un número demasiado bajo puede provocar inestabilidad.
+- **Velocidad de comunicación** : teclas recientes funcionan a 115200 baudios. Tiene la opción de cambiar a 9600 baudios en caso de que su equipo lo requiera.
+- **Código PIN** : Le permite indicar el código PIN de la tarjeta SIM, dejar en blanco si no tiene una.
+- **Modo de texto** : Modo de compatibilidad extendida, para usar solo si enviar y / o recibir mensajes no funciona.
+- **Cortar mensajes por paquete de caracteres** : Indica el número máximo de caracteres por mensaje de texto.
+- **SMS / SMS Gateway (modificar en caso de error : CMS 330 Número SMSC no establecido)** : Solo cámbielo si tiene el error `CMS 330 SMSC number not set`, en este caso debe indicar el número de puerta de enlace SMS de su operador telefónico.
+- **Fuerza de la señal** : Intensidad de la señal de su clave GSM.
+- **Red** : Red telefónica de su clave GSM (puede ser "Ninguna" si Jeedom no puede recuperarla)).
+- **Puerto de enchufe interno (modificación peligrosa)** : permite modificar el puerto de comunicación interna del demonio.
+- **Ciclo (s))** : ciclo de escaneo de demonios para enviar y recibir SMS. Un número demasiado bajo puede provocar inestabilidad.
 
 # Configuración del equipo
 
@@ -37,37 +37,48 @@ La configuración de dispositivos SMS es accesible desde el menú Complementos �
 
 Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nombre del equipo SMS** : nombre de su equipo de SMS.
--   **Activar** : activa su equipo.
--   **Visible** : hace que su equipo sea visible en el tablero.
--   **Objeto padre** : indica el objeto padre al que pertenece el equipo.
+- **Nombre del equipo** : nombre de su equipo de SMS.
+- **Objeto padre** : indica el objeto padre al que pertenece el equipo.
+- **Activar** : activa su equipo.
+- **Visible** : hace que su equipo sea visible en el tablero.
 
-A continuación encontrará la lista de pedidos :
+A continuación encontrará algunos parámetros específicos:
 
--   **Nombre** : el nombre que se muestra en el tablero.
--   **Usuario** : usuario correspondiente en Jeedom (le permite restringir ciertas interacciones a ciertos usuarios).
--   **Número** : número de teléfono al que enviar mensajes. Puede poner varios números separándolos con; *(exemple: 0612345678; 0698765432)*. Importante : es necesario poner los números en formato internacional (+33 para Francia por ejemplo)
+- **Deshabilitar interacciones**: te permite prohibir interacciones para todos los números de este equipo (si quieres prohibir interacciones para ciertos números y no para otros, puedes crear varios equipos)
+- **Permitir mensajes de números desconocidos**: Le permite aceptar mensajes de números desconocidos. El mensaje recibido así como el número del remitente estarán disponibles a través de los comandos como para cualquier otro mensaje. Las interacciones siempre están deshabilitadas para estos números
+- **Añadir números desconocidos**: le permite agregar automáticamente el número a la lista de pedidos (por lo tanto, para crear un nuevo pedido) cuando recibe un mensaje de un número desconocido
+
+> **ATENCIÓN**
+>
+> Esta opción puede ser peligrosa de usar porque agregará automáticamente un comando correspondiente al número cuando reciba un mensaje de un número desconocido.
+> Si en el mismo equipo activa interacciones, esto significa que cualquiera puede comenzar a interactuar con su Jeedom.
+> Active esta opción solo si está seguro de aceptar este riesgo.
+
+## Las órdenes
+
+Cada dispositivo tiene los siguientes comandos:
+
+- **Señal**: da fuerza de la señal;
+- **Mensaje**: contiene el último mensaje sms recibido;
+- **Remitente**: contiene el nombre del último remitente si se conoce, el número de lo contrario;
+- **Enviar mensaje a**: un comando de acción para enviar un mensaje para enviar un sms a un número personalizado sin tener que crear el comando de contacto. Esto le permite enviar un sms a un número obtenido a través de un comando de información desde otro dispositivo bajo Jeedom, por ejemplo. Atención, no se realiza ninguna verificación del número, debe proporcionar los números en formato internacional.
+
+Además, puede crear tantos otros comandos de acción como desee correspondientes a sus contactos, para cada uno de ellos deberá ingresar:
+
+- **Nombre**: el nombre del comando;
+- **Usuario**: usuario correspondiente en Jeedom (le permite restringir ciertas interacciones a ciertos usuarios);
+- **Número**: número de teléfono al que enviar mensajes. Puedes poner varios números separándolos con `;` (ejemplo: `+33612345678;+33698765432`). *Importante* : es necesario poner los números en formato internacional (+33 para Francia por ejemplo).
 
 > **Importante**
 >
-> Solo los números de teléfono declarados en un dispositivo pueden usar las interacciones porque solo ellos estarán autorizados.
-
--   **Mostrar** : permite mostrar los datos en el tablero.
--   **Configuración avanzada** (ruedas con muescas pequeñas) : muestra la configuración avanzada del comando (método de registro, widget, etc.)).
--   **Probar** : Se usa para probar el comando.
--   **Borrar** (signo -) : permite eliminar el comando.
+> Solo los números de teléfono declarados en un dispositivo podrán utilizar las interacciones porque solo ellos estarán autorizados.
 
 # Usando el complemento
 
-Esto es bastante estándar en su funcionamiento, en la página General → Complemento y luego seleccionando el complemento de SMS :
+Este es bastante estándar en su funcionamiento, por lo que debe agregar nuevos equipos y luego configurar:
 
--   El puerto (ruta) al dispositivo que sirve como módem (por ejemplo, puede ser / dev / ttyUSB0, para verlo simplemente iniciar ``dmesg`` luego conecte el módem)
--   El código pin de la tarjeta sim
-
-Por lo tanto, debe agregar nuevo equipo y luego configurarlo :
-
--   El nombre,
--   Si está activo o no,
+- El nombre,
+- Si está activo o no,
 
 Luego debe agregar los comandos que estarán compuestos por un nombre y un número, solo los números enumerados en la lista de comandos pueden recibir una respuesta de Jeedom (esto hace posible asegurar, al tiempo que evita establecer una contraseña para cada inicio de un SMS enviado a Jeedom). También puede indicar qué usuario está vinculado a este número (para la gestión de derechos a nivel de interacción).
 
@@ -80,11 +91,11 @@ Para comunicarse con Jeedom, será suficiente enviarle un mensaje desde un núme
 
 # Lista de claves compatibles
 
--   HUAWEI E220
--   Alcatel one touch X220L
--   HSDPA 7.2MBPS 3G inalámbrico
--   HUAWEI E3372
--   USB SIM800C (velocidad 9600)
+- HUAWEI E220
+- Alcatel one touch X220L
+- HSDPA 7.2MBPS 3G inalámbrico
+- HUAWEI E3372
+- USB SIM800C (velocidad 9600)
 
 # FAQ
 
@@ -99,9 +110,9 @@ Para comunicarse con Jeedom, será suficiente enviarle un mensaje desde un núme
 >
 >Y en el complemento hacer :
 >
->-   Elija el primer puerto USB y no el segundo
->-   Velocidad : 9600
->-   Modo de texto desactivado
+>- Elija el primer puerto USB y no el segundo
+>- Velocidad : 9600
+>- Modo de texto desactivado
 
 > **No puedo ver el puerto USB en mi llave**
 >
@@ -113,7 +124,7 @@ Para comunicarse con Jeedom, será suficiente enviarle un mensaje desde un núme
 
 > **Tengo un error de CME XX**
 >
->Puedes encontrar [aquí](:http://www.micromedia-int.com/fr/gsm-2/669-cme-error-gsm-equipment-related-errors) descripción de los diferentes errores de CME.
+>Puedes encontrar [aquí](https://support.micromedia-int.com/hc/fr/articles/360010426299-Modem-GSM-CME-ERRORS-Erreurs-GSM-li%C3%A9es-%C3%A0-l-%C3%A9quipement-) descripción de los diferentes errores de CME.
 
 > **Configuración de la tecla Alcatel one touch X220L**
 >
@@ -173,8 +184,8 @@ Para comunicarse con Jeedom, será suficiente enviarle un mensaje desde un núme
 >
 >Este error ocurre cuando la clave no responde dentro de los 10 segundos de una solicitud. Las causas conocidas pueden ser :
 >
->-   incompatibilidad de la clave GSM,
->-   problema con la versión de firmware del stick.
+>- incompatibilidad de la clave GSM,
+>- problema con la versión de firmware del stick.
 
 > **Al comenzar en modo de depuración tengo : "zócalo ya en uso"**
 >

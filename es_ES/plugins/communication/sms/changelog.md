@@ -4,6 +4,23 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 25/06/2023
+
+- Se agregó un nuevo comando **Enviar mensaje a** permitiéndole enviar un SMS a un número personalizado sin tener que crear el pedido del contacto. Esto le permite enviar un sms a un número obtenido a través de un comando de información desde otro dispositivo bajo Jeedom, por ejemplo. Atención, no se realiza ninguna verificación del número, debe proporcionar los números en formato internacional.
+- Deshabilitar el control de flujo al conectarse al módem para evitar problemas con ciertos módems (por ejemplo, módem lixee)
+
+# 06/11/2022
+
+- Se agregaron dos nuevas opciones: **Permitir mensajes de números desconocidos** & **Agregar automáticamente números desconocidos**; ver documentos.
+
+# 21/10/2022
+
+- Solucione un problema con algunas teclas gsm que devuelven caracteres incorrectos al iniciar el daemon.
+
+# 18/10/2022
+
+- Lista de comandos de actualización para Jeedom v4.3
+
 # 20/07/2022
 
 - Migrando daemon a python3
