@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 01/11/2024
+
+- Fixed a bug when updating info commands during an action
+
 # 10/01/2024
 
 - Fixed a bug on get http type requests

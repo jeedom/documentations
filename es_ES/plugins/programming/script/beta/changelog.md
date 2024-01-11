@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 01/11/2024
+
+- Se corrigió un error al actualizar los comandos de información durante una acción
+
 # 01/10/2024
 
 - Se corrigió un error al obtener solicitudes de tipo http

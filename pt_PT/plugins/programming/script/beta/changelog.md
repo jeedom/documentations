@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 11/01/2024
+
+- Corrigido um bug ao atualizar comandos de informações durante uma ação
+
 # 01/10/2024
 
 - Corrigido um bug ao obter solicitações do tipo http
