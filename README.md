@@ -2,7 +2,7 @@
 
 # FR
 
-- [Consulter la documentation Jeedom](https://doc.jeedom.com/fr_FR/){:target="\_blank"}
+- [Consulter la documentation Jeedom](https://doc.jeedom.com/fr_FR/)
 
 ## Contribuer aux documentations
 
@@ -35,12 +35,13 @@ Comme pour le core Jeedom, la documentation des plugins officiels est automatiqu
 Tout comme la documentation, le core Jeedom est open source et ouvert aux contributions. L'intégralité du code est consultable à cette adresse : <https://github.com/jeedom/core/tree/alpha>.
 Sauf indication contraire, **les modifications doivent impérativement être soumises sur la branche `alpha`**.
 
+------------
 
 <img align="right" src="https://www.jeedom.com/site/logo.png" width="100">
 
 # EN
 
-- [View Jeedom documentation](https://doc.jeedom.com/en_US/){:target="\_blank"}
+- [View Jeedom documentation](https://doc.jeedom.com/en_US/)
 
 ## Contribute to documentations
 
