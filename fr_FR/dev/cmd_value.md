@@ -39,3 +39,9 @@ Cette documentation rassemble les recommandations pour les valeurs des commandes
 |Type générique  | Valeurs / Action |
 |---------------|----------------|
 |Info/Porte<br/>Info/Fenêtre<br/>(même traitement)|0 = Contact (Fermé)<br/>1 = Pas de contact (Ouvert)| 
+
+## Electricité
+|Type générique  | Valeurs / Action |
+|---------------|----------------|
+|Info/Puissance Electrique|Watts| 
+|Info/Consommation Electrique|KWh| 
