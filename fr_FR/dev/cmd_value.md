@@ -15,9 +15,9 @@ Cette documentation rassemble les recommandations pour les valeurs des commandes
 |Type générique  | Valeurs / Action |
 |---------------|----------------|
 |Info/Volet Etat|Si Binaire :<br/>0 = Fermé<br/>1 = Ouvert<br/>Si Numérique :<br/>min du Bouton Slider(sinon min de l'Etat, sinon 0) = Fermé <br/>max du Bouton Slider(sinon max de l'Etat, sinon 100) = Ouvert<br/>Si pas de bouton Silder : Min et Max obligatoires dans l'Etat !|
-|Action/Volet Bouton Monter|Ouverture du volet| 
-|Action/Volet Bouton Descendre|Fermeture du volet|
-|Action/Volet Bouton Stop|Arret du volet|
+|Action/Volet Bouton Monter|Ouverture du volet<br/>Lancement de l'ouverture ou set valeur max slider ou état ou 100| 
+|Action/Volet Bouton Descendre|Fermeture du volet<br/>Lancement de la fermeture ou set valeur min slider ou état ou 0|
+|Action/Volet Bouton Stop|Arret du mouvement du volet|
 |Action/Volet Bouton Slider|Donne la proportion d'ouverture du volet<br/>Si présent:<br/>Min et Max obligatoires|
 
 ## Serrures
