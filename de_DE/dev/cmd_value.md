@@ -176,8 +176,8 @@ oder auch :
 |Info/CO2 (ppm)|PPM oder binär ?|
 |Info/Temperatur|-50 → 300°C| 
 |Info/Batterie|%| 
-|Info/Akkuladung|0 = NEIN<br/>1 = JA<br/>Nicht vorhanden = Nicht wiederaufladbar| 
-|Info/Batterie schwach|0 = NEIN<br/>1 = JA| 
+|Info/Akkuladung|0 = nein<br/>1 = ja<br/>Nicht vorhanden = Nicht wiederaufladbar| 
+|Info/Batterie schwach|0 = nein<br/>1 = ja| 
 |Info/Raucherkennung|0 = Kein Rauch<br/>1 = Rauch erkannt| 
 |Info/Überschwemmung<br/>Info/Wasserleck|0 = Kein Leck erkannt<br/>1 = Leck erkannt| 
 |Info/Sabotage|0 = Keine Sabotage<br/>1 = Sabotage| 

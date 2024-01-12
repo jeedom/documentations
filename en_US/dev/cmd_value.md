@@ -176,8 +176,8 @@ or either :
 |Info/CO2 (ppm)|PPM or binary ?|
 |Info/Temperature|-50 → 300°C| 
 |Info/Battery|%| 
-|Info/Battery charging|0 = NO<br/>1 = YES<br/>Not present = Not Rechargeable| 
-|Info/Low Battery|0 = NO<br/>1 = YES| 
+|Info/Battery charging|0 = no<br/>1 = yes<br/>Not present = Not Rechargeable| 
+|Info/Low Battery|0 = no<br/>1 = yes| 
 |Info/Smoke detection|0 = No smoke<br/>1 = Smoke detected| 
 |Info/Flood<br/>Info/Water leak|0 = No leak detected<br/>1 = Leak detected| 
 |Info/Sabotage|0 = No sabotage<br/>1 = Sabotage| 
