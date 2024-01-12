@@ -18,7 +18,7 @@ Cette documentation rassemble les recommandations pour les valeurs des commandes
 |Action/Volet Bouton Monter|Ouverture du volet| 
 |Action/Volet Bouton Descendre|Fermeture du volet|
 |Action/Volet Bouton Stop|Arret du volet|
-|Action/Volet Bouton Slider|Si présent:<br/>Min et Max obligatoires|
+|Action/Volet Bouton Slider|Donne la proportion d'ouverture du volet<br/>Si présent:<br/>Min et Max obligatoires|
 
 ## Serrures
 
