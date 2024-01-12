@@ -38,4 +38,4 @@ Cette documentation rassemble les recommandations pour les valeurs des commandes
 
 |Type générique  | Valeurs / Action |
 |---------------|----------------|
-|Info/Porte<br/>Info/Fenêtre<br/>(même traitement)|**Si pas inversé :**<br/>0 = Pas de contact (ouvert)<br/>1 = Contact (fermé)<br/>**Si inversé :**<br/>0 = Contact (fermé)<br/>1 = Pas de contact (ouvert)| 
+|Info/Porte<br/>Info/Fenêtre<br/>(même traitement)|0 = Contact (Fermé)<br/>1 = Pas de contact (Ouvert)| 
