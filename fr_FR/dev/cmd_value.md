@@ -73,6 +73,12 @@ Cette documentation rassemble les recommandations pour les valeurs des commandes
 |---------------|----------------|
 |Info/Porte<br/>Info/Fenêtre<br/>(même traitement)|0 = Contact (Fermé)<br/>1 = Pas de contact (Ouvert)| 
 
+## Sirènes
+
+|Type générique  | Valeurs / Action |
+|---------------|----------------|
+|Info/Sirène Etat|0 = Sonne pas<br/>1 = Sonne|
+
 ## Alarme
 
 |Type générique  | Valeurs / Action |
