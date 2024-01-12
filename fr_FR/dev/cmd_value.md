@@ -6,8 +6,8 @@ Cette documentation rassemble les recommandations pour les valeurs des commandes
 
 | Etat            | Valeur        |
 | --------------- | ------------- |
-| Ouvert          |   0%          |
-| Fermé           | 100%          |
+| Ouvert          | 100%          |
+| Fermé           |   0%          |
 
 ## Mouvement
 
