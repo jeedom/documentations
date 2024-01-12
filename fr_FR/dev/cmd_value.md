@@ -148,6 +148,8 @@ ou soit :
 |Info/Pression|bar|
 |Info/Son (dB)|dB|
 
+## Statuts d'équipements
+
 |Type générique  | Valeurs / Action |
 |---------------|----------------|
 |Info/Statut Actif|0 = inactif<br/>1 = actif|
