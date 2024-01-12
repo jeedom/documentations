@@ -26,6 +26,23 @@ Cette documentation rassemble les recommandations pour les valeurs des commandes
 |Action/Prise<br/>Bouton On|Allumer la prise| 
 |Action/Prise<br/>Bouton Off|Eteindre la prise|
 
+## Interrupteurs
+
+|Type générique  | Valeurs / Action |
+|----------------|------------|
+|Info/Interrupteur<br/>Etat|0 = Eteint<br/>1 = Allumé|
+|Action/Interrupteur<br/>Bouton On|Allumer l'interrupteur| 
+|Action/Interrupteur<br/>Bouton Off|Eteindre l'interrupteur|
+
+## Ventilateur
+
+|Type générique  | Valeurs / Action |
+|----------------|------------|
+|Info/Ventilateur<br/>Etat|0 = Eteint<br/>1 = Allumé<br/>ou gradation si vitesse|
+|Action/Ventilateur<br/>Bouton On|Allumer| 
+|Action/Ventilateur<br/>Bouton Off|Eteindre|
+|Action/Ventilateur<br/>Vitesse<br/>Rotation|Min Max Obligatoire|
+
 ## Volet
 
 |Type générique  | Valeurs / Action |
@@ -56,8 +73,73 @@ Cette documentation rassemble les recommandations pour les valeurs des commandes
 |---------------|----------------|
 |Info/Porte<br/>Info/Fenêtre<br/>(même traitement)|0 = Contact (Fermé)<br/>1 = Pas de contact (Ouvert)| 
 
+## Alarme
+
+|Type générique  | Valeurs / Action |
+|---------------|----------------|
+|Info/Alarme état|1 = Déclenchée<br/>(prioritaire sur activée et modes)|
+|Info/Alarme état activée|0 = Désarmée<br/>(prioritaire sur modes)|
+|Info/Alarme mode|Libellé affichant **exactement** le nom d'une commande Action/Alarme Mode|
+|Action/Alarme armée|Arme l'alarme|
+|Action/Alarme libérée|Désarme l'alarme|
+|Action/Alarme Mode|Mode de l'alarme, peut être multiple|
+
+## Thermostats
+
+|Type générique  | Valeurs / Action |
+|---------------|----------------|
+|Info/Thermostat Etat (BINAIRE)|0 = Eteint<br/>1 = Allumé|
+|Info/Thermostat Etat (HUMAIN)|'off' ou 'arrêté' ou 'arret'<br/>'heat' ou 'chauffage'<br/>'cool' ou 'climatisation'<br/><br/>Préférer l'anglais| 
+|Info/Thermostat Mode|'Off' ou 'Arret' = OFF<br/>'Aucun' ou 'Thermostat' = Mode Consigne<br/>Libellé affichant **exactement** le nom d'une commande Action/Thermostat Mode|
+|Action/Thermostat Mode|Mode du thermostat, peut être multiple|
+|Info/Thermostat Température Extérieur|Degrés Celcius|
+|Info/Thermostat Température ambiante|Degrés Celcius| 
+|Info/Thermostat Consigne|Valeur entre Min et Max de l'Action/Thermostat Consigne| 
+|Action/Thermostat Consigne|Min&Max Obligatoires| 
+|Info/Thermostat Verrouillage|0 = Non Verrouillé<br/>1 = Verrouillé| 
+|Action/Thermostat Verrouillage|Verrouiller le thermostat|
+|Action/Thermostat Déverrouillage|Déverrouiller le thermostat|
+
+## Portails ou Garages
+
+|Type générique  | Valeurs / Action |
+|---------------|----------------|
+|Info/Portail état ouvrant<br/>Info/Garage état ouvrant<br/>(même traitement)|0 = Fermé<br/>252 = Fermeture en cours<br/>253 = Stoppé<br/>254 = Ouverture en cours<br/>255 = Ouvert<br/>(Basé sur un équipement z-wave, pourrait être aussi binaire ou libellé ?)|
+avec soit :
+|Type générique  | Valeurs / Action |
+|---------------|----------------|
+|Action/Portail ou garage bouton toggle|Interrupteur ouvrant si fermé et fermant si ouvert<br/>Ouvrant si bloqué (par sécurité)| 
+ou soit :
+|Type générique  | Valeurs / Action |
+|---------------|----------------|
+|Action/Portail ou garage bouton d’ouverture|Ouverture|
+|Action/Portail ou garage bouton de fermeture|Fermeture|
+
 ## Electricité
+
 |Type générique  | Unité |
 |---------------|----------------|
 |Info/Puissance Electrique|Watts| 
 |Info/Consommation Electrique|KWh| 
+
+## Divers
+
+|Type générique  | Valeurs / Unité |
+|---------------|----------------|
+|Info/Présence Occupation|0 = Personne<br/>1 = Quelqu'un|
+|Info/Qualité d'air (Indice AQI)|indice AQI|
+|Info/Qualité d'air (Indice Personnalisable)|ppb ou µg/m3|
+|Info/Détecteur CO|0 = CO normal<br/>1 = CO anormal|
+|Info/Luminosité|0 → 100000 lux| 
+|Info/Humidité|%|
+|Info/CO2 (ppm)|PPM ou binaire ?|
+|Info/Température|-50 → 300 °C| 
+|Info/Batterie|%| 
+|Info/Batterie en charge|0 = NON<br/>1 = OUI<br/>Non présent = Non Rechargable| 
+|Info/Batterie Basse|0 = NON<br/>1 = OUI| 
+|Info/Détection de fumée|0 = Pas de fumée<br/>1 = Fumée détectée| 
+|Info/Inondation<br/>Info/Fuite d'eau|0 = Pas de fuite détectée<br/>1 = Fuite détectée| 
+|Info/Sabotage|0 = Pas de sabotage<br/>1 = Sabotage| 
+|Info/Choc|0 = Pas de choc<br/>1 = Choc| 
+|Info/Pression|bar|
+|Info/Son (dB)|dB|
