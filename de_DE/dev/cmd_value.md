@@ -2,23 +2,46 @@
 
 Diese Dokumentation fasst Empfehlungen für Befehlswerte (Aktion oder Info) je nach Typ zusammen. Es ist nicht verpflichtend, sie zu befolgen, aber für eine bessere Integration in Jeedom wird dies dringend empfohlen.
 
+## Prise
+
+|Allgemeiner Typ  | Werte / Handeln |
+|----------------|------------|
+|Info/Steckdose<br/>Etat|0 = Aus<br/>1 = Ein|
+|Aktion/Ergriffen<br/>Ein-Taste|Schalten Sie die Steckdose ein| 
+|Aktion/Ergriffen<br/>Aus-Taste|Schalten Sie die Steckdose aus|
+
 ## Volet
 
-| Zustand            | Wert        |
-| --------------- | ------------- |
-| Offen          |   0%          |
-| Bauernhof           | 100%          |
+|Allgemeiner Typ  | Werte / Handeln |
+|---------------|----------------|
+|Info-/Statusbereich|Wenn binär :<br/>0 = Geschlossen<br/>1 = Offen<br/>Wenn digital :<br/>Min. des Button-Schiebereglers (sonst Min. des Zustands, sonst 0) = Geschlossen <br/>Maximalwert des Button-Schiebereglers (sonst Maximalwert des Status, ansonsten 100) = Offen<br/>Wenn keine Silder-Taste vorhanden ist : Obligatorische Mindest- und Höchstwerte im Bundesstaat !|
+|Aktions-/Schildtaste nach oben|Den Verschluss öffnen<br/>Start der Öffnung oder Festlegen des maximalen Schiebereglerwerts oder -zustands oder 100| 
+|Aktion/Auslöser gedrückt|Schließen des Verschlusses<br/>Start des Abschlusses oder Festlegen des minimalen Schiebereglerwerts oder -zustands oder 0|
+|Aktions-/Auslöser-Stopp-Taste|Stoppen der Verschlussbewegung|
+|Aktions-/Bedienfeldschaltflächen-Schieberegler|Gibt den Öffnungsanteil des Verschlusses an<br/>Falls vorhanden:<br/>Obligatorische Mindest- und Höchstwerte|
+
+## Serrures
+
+|Allgemeiner Typ  | Werte / Handeln |
+|---------------|----------------|
+|Info/Sperrstatus|0 = Nicht sicher (nicht gesperrt))<br/>1 = Sicher (gesperrt)|
+|Aktions-/Sperr-Öffnen-Taste|Entsperren| 
+|Schaltfläche „Aktion/Schließen sperren“|Verrouillage| 
 
 ## Mouvement
 
-| Zustand            | Wert        |
-| --------------- | ------------- |
-| Keiner           | 0             |
-| Erkennung       | 1             |
+|Allgemeiner Typ  | Werte / Handeln |
+|---------------|----------------|
+|Info/Anwesenheit|0 = Keine Bewegung<br/>1 = Bewegung|
 
-## Ouverture
+## Öffnung 
 
-| Zustand            | Wert        |
-| --------------- | ------------- |
-| Bauernhof           | 0             |
-| Offen          | 1             |
+|Allgemeiner Typ  | Werte / Handeln |
+|---------------|----------------|
+|Info/Tür<br/>Info/Fenster<br/>(gleiche Behandlung)|0 = Kontakt (geschlossen)<br/>1 = Kein Kontakt (Offen)| 
+
+## Electricité
+|Allgemeiner Typ  | Einheit |
+|---------------|----------------|
+|Info/Strom|Watts| 
+|Info/Stromverbrauch|KWh| 
