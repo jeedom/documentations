@@ -2,6 +2,22 @@
 
 Cette documentation rassemble les recommandations pour les valeurs des commandes (action ou info) en fonction des types. Il n'est pas obligatoire de les suivres mais pour une meilleure intégration à Jeedom il est vivement conseillé de le faire.
 
+## Lumière
+
+|Type générique  | Valeurs / Action |
+|---------------|-------------|
+|Info/Lumière Etat|Soit Luminosité<br/>0-100 Ou 0-99 ou 0-255<br/>(en fonction du max de Action/Lumière Slider)<br/>ou Soit Binaire<br/>0 = Eteint<br/> autre que 0 = Allumé<br/>**Obligatoire**| 
+|Info/Lumière Luminosité|Luminosité<br/>0-100 Ou 0-99 ou 0-255<br/>(en fonction du max de Action/Lumière Slider)<br/>Toujours utiliser avec Lumière Etat sur la commande binaire|
+|Action/Lumière Slider|Variateur de luminosité<br/>Min&Max Obligatoire|
+|Action/Lumière Bouton On|Allumage de la lumière (Changement de l'Etat)|
+|Action/Lumière Bouton Off|Eteignage de la lumière (Changement de l'Etat)|
+|Info/Lumière Couleur|Format #RRGGBB|
+|Action/Lumière Couleur|Modification de la couleur, Format #RRGGBB|
+|Info/Lumière Température Couleur|Format Mired (<=500) ou Kelvin (>500)|
+|Action/Lumière Température Couleur|Modification de la température couleur<br/>Min&Max Obligatoire|
+|Action/Lumière Toggle|Inversion de l'état si binaire|
+|Action/Lumière Mode|Preset/Scène lumière, peut être multiple|
+
 ## Prise
 
 |Type générique  | Valeurs / Action |
