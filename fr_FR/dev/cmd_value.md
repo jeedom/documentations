@@ -9,3 +9,16 @@ Cette documentation rassemble les recommandations pour les valeurs des commandes
 | Ouvert          |   0%          |
 | Fermé           | 100%          |
 
+## Mouvement
+
+| Etat            | Valeur        |
+| --------------- | ------------- |
+| Aucun           | 0             |
+| Détection       | 1             |
+
+## Ouverture
+
+| Etat            | Valeur        |
+| --------------- | ------------- |
+| Fermé           | 0             |
+| Ouvert          | 1             |
