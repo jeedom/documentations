@@ -26,6 +26,23 @@ Esta documentación reúne recomendaciones para valores de comando (acción o in
 |Acción tomada<br/>Botón de encendido|Enciende el enchufe| 
 |Acción tomada<br/>Botón de apagado|Apague el enchufe|
 
+## Interrupteurs
+
+|Tipo genérico  | Valores/Acción |
+|----------------|------------|
+|Información/Cambiar<br/>Etat|0 = Apagado<br/>1 = activado|
+|Acción/cambio<br/>Botón de encendido|Enciende el interruptor| 
+|Acción/cambio<br/>Botón de apagado|Apague el interruptor|
+
+## Ventilateur
+
+|Tipo genérico  | Valores/Acción |
+|----------------|------------|
+|Información/Ventilador<br/>Etat|0 = Apagado<br/>1 = activado<br/>o atenuación si la velocidad|
+|Acción/Fan<br/>Botón de encendido|Allumer| 
+|Acción/Fan<br/>Botón de apagado|Eteindre|
+|Acción/Fan<br/>Vitesse<br/>Rotation|Mín. Máx. Obligatorio|
+
 ## Volet
 
 |Tipo genérico  | Valores/Acción |
@@ -35,6 +52,37 @@ Esta documentación reúne recomendaciones para valores de comando (acción o in
 |Botón de acción/obturador abajo|Cerrando la persiana<br/>Inicio del cierre o establecimiento del valor o estado mínimo del control deslizante o 0|
 |Botón de acción/parada del obturador|Detener el movimiento de la persiana|
 |Control deslizante del botón de acción/panel|Da la proporción de apertura de la persiana<br/>Si está presente:<br/>Mínimo y máximo obligatorios|
+
+en opción :
+
+|Tipo genérico  | Valores/Acción |
+|---------------|----------------|
+|Panel de estado de información/inclinación horizontal|Ángulo 0->90° (mediante control deslizante)|
+|Control deslizante de acción/obturador Inclinación horizontal|Ángulo 0->90°<br/>modificable mediante min-max del control deslizante|
+|Panel de estado de información/inclinación vertical|Ángulo 0->90° (mediante control deslizante)|
+|Control deslizante de acción/obturador Inclinación vertical|Ángulo 0->90°<br/>modificable mediante min-max del control deslizante|
+
+## Valves
+
+|Tipo genérico  | Valores/Acción |
+|---------------|----------------|
+|Información/Tocar<br/>Etat|0 = Apagado<br/>1 = activado|
+|Acción/Toque<br/>Botón de encendido|Allumer| 
+|Acción/Toque<br/>Botón de apagado|Eteindre|
+
+|Tipo genérico  | Valores/Acción |
+|---------------|----------------|
+|Información/Riego<br/>Etat|0 = Apagado<br/>1 = activado|
+|Acción/Riego<br/>Botón de encendido|Allumer| 
+|Acción/Riego<br/>Botón de apagado|Eteindre|
+
+|Tipo genérico  | Valores/Acción |
+|---------------|----------------|
+|Información/Válvula<br/>Genérico<br/>Etat|0 = Apagado<br/>1 = activado|
+|Acción/Válvula<br/>Genérico<br/>Botón de encendido|Allumer| 
+|Acción/Válvula<br/>Genérico<br/>Botón de apagado|Eteindre|
+
+agregar un atenuador ? y agregue lo digital a la acción ? existe ?
 
 ## Serrures
 
@@ -56,8 +104,91 @@ Esta documentación reúne recomendaciones para valores de comando (acción o in
 |---------------|----------------|
 |Información/Puerta<br/>Información/Ventana<br/>(mismo trato)|0 = Contacto (Cerrado)<br/>1 = Sin contacto (Abierto)| 
 
+## Sirenas
+
+|Tipo genérico  | Valores/Acción |
+|---------------|----------------|
+|Información/estado de sirena|0 = No suena<br/>1 = Anillos|
+
+## Alarme
+
+|Tipo genérico  | Valores/Acción |
+|---------------|----------------|
+|Estado de información/alarma|1 = Activado<br/>(prioridad en modos activados y)|
+|Alarma de información/estado activada|0 = Desarmado<br/>(prioridad en los modos)|
+|Modo información/alarma|Etiqueta que muestra **Exactamente** el nombre de un comando del modo acción/alarma|
+|Acción/Alarma armada|Armar la alarma|
+|Acción/alarma liberada|Desarmar la alarma|
+|Modo de acción/alarma|Modo de alarma, puede ser múltiple|
+
+## Thermostats
+
+|Tipo genérico  | Valores/Acción |
+|---------------|----------------|
+|Información/estado del termostato (BINARIO)|0 = Apagado<br/>1 = activado|
+|Información/Estado del termostato (HUMANO)|'apagado' o 'detenido' o 'arresto'<br/>'calor' o 'calefacción'<br/>'cool' o 'aire acondicionado'<br/><br/>Prefiero inglés| 
+|Modo información/termostato|'Apagado' o 'Arret' = APAGADO<br/>'Ninguno' o 'Termostato' = Modo de punto de ajuste<br/>Etiqueta que muestra **Exactamente** el nombre de un comando de modo acción/termostato|
+|Modo acción/termostato|Modo termostato, puede ser múltiple|
+|Información/Termostato Temperatura exterior|Grados Celsius|
+|Información/Termostato Temperatura ambiente|Grados Celsius| 
+|Información/punto de ajuste del termostato|Valor entre Min y Max del Setpoint de Acción/Termostato| 
+|Punto de ajuste de acción/termostato|Mín. y Máx. obligatorios| 
+|Información/Bloqueo del termostato|0 = No bloqueado<br/>1 = bloqueado| 
+|Bloqueo de acción/termostato|Bloquear el termostato|
+|Desbloqueo de acción/termostato|Desbloquear el termostato|
+
+## Puertas o garajes
+
+|Tipo genérico  | Valores/Acción |
+|---------------|----------------|
+|Información/Estado de apertura del portal<br/>Información/Estado de apertura del garaje<br/>(mismo trato)|0 = Cerrado<br/>252 = Cierre en curso<br/>253 = detenido<br/>254 = Apertura en curso<br/>255 = Abierto<br/>(Basado en equipos de onda z, también podría ser binario o etiquetado ?)|
+
+con cualquiera :
+
+|Tipo genérico  | Valores/Acción |
+|---------------|----------------|
+|Botón de alternancia Acción/Portón o garaje|El interruptor se abre si está cerrado y se cierra si está abierto<br/>Apertura si está bloqueada (por seguridad))| 
+
+o cualquiera :
+
+|Tipo genérico  | Valores/Acción |
+|---------------|----------------|
+|Botón de acción/apertura de portón o garaje|Ouverture|
+|Botón de acción/cierre de puerta o garaje|Fermeture|
+
 ## Electricité
+
 |Tipo genérico  | Unidad |
 |---------------|----------------|
 |Información/Energía Eléctrica|Watts| 
 |Información/Consumo Eléctrico|KWh| 
+
+## Divers
+
+|Tipo genérico  | Valores/Unidad |
+|---------------|----------------|
+|Información/Presencia Ocupación|0 = nadie<br/>1 = alguien|
+|Información/Calidad del aire (Índice ICA)|índice ICA|
+|Información/Calidad del aire (Índice personalizable)|ppb o µg/m3|
+|Información/detector de CO|0 = CO normal<br/>1 = CO anormal|
+|Información/Brillo|0 → 100000 lux| 
+|Información/Humedad|%|
+|Información/CO2 (ppm)|PPM o binario ?|
+|Información/Temperatura|-50 → 300°C| 
+|Información/Batería|%| 
+|Información/Carga de batería|0 = NO<br/>1 = SÍ<br/>No presente = No recargable| 
+|Información/batería baja|0 = NO<br/>1 = SÍ| 
+|Información/Detección de humo|0 = Sin humo<br/>1 = Humo detectado| 
+|Información/inundación<br/>Información/Fuga de agua|0 = No se detectó ninguna fuga<br/>1 = Fuga detectada| 
+|Información/Sabotaje|0 = Sin sabotaje<br/>1 = Sabotaje| 
+|Información/Choque|0 = Sin descarga<br/>1 = Choque| 
+|Información/Presión|bar|
+|Información/Sonido (dB)|dB|
+
+## Estados del equipo
+
+|Tipo genérico  | Valores/Acción |
+|---------------|----------------|
+|Información/Estado activo|0 = inactivo<br/>1 = activo|
+|Información/conectividad en línea|0 = fuera de línea<br/>1 = en línea|
+|Información/estado defectuoso|0 = no<br/>1 = si|
