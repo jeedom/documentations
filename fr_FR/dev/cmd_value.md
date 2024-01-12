@@ -105,11 +105,15 @@ Cette documentation rassemble les recommandations pour les valeurs des commandes
 |Type générique  | Valeurs / Action |
 |---------------|----------------|
 |Info/Portail état ouvrant<br/>Info/Garage état ouvrant<br/>(même traitement)|0 = Fermé<br/>252 = Fermeture en cours<br/>253 = Stoppé<br/>254 = Ouverture en cours<br/>255 = Ouvert<br/>(Basé sur un équipement z-wave, pourrait être aussi binaire ou libellé ?)|
+
 avec soit :
+
 |Type générique  | Valeurs / Action |
 |---------------|----------------|
 |Action/Portail ou garage bouton toggle|Interrupteur ouvrant si fermé et fermant si ouvert<br/>Ouvrant si bloqué (par sécurité)| 
+
 ou soit :
+
 |Type générique  | Valeurs / Action |
 |---------------|----------------|
 |Action/Portail ou garage bouton d’ouverture|Ouverture|
