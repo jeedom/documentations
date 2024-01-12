@@ -4,10 +4,20 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
+# 01/11/2024
+
+- Reescribiendo en javascript puro
+- Se requiere una versión mínima del núcleo de Jeedom : 4.4
+
 # 01/03/2024
 
 - Preparándose para el apuro 4.4
-- Se agregó un comando para reproducir las acciones del modo actual (es necesario volver a guardar el equipo))
+- Se agregó un comando para reproducir las acciones del modo actual *(requiere volver a guardar el equipo)*
+- Transición a estable
+
+# 26/04/2022
+
+- Transición a estable
 
 # 19/01/2022
 
@@ -16,6 +26,7 @@
 # 12/12/2021
 
 - Se agregó un botón para ir al siguiente modo
+- Transición a estable
 
 # 28/06/2021
 
@@ -29,6 +40,10 @@
 # 11/04/2021
 
 - Se agregó un comando de bloqueo para evitar cualquier cambio de modo si está activo
+
+# 12/05/2020
+
+- Transición a estable
 
 # 12/11/2019
 
