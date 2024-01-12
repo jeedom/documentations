@@ -6,6 +6,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Verbessertes Übergangsmanagement
+
 # 10.01.2024
 
 - Unterstützung für Szenen in Zonen

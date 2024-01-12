@@ -6,6 +6,8 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Amélioration de la gestion des transitions
+
 # 10/01/2024
 
 - Support des scénes sur les zones

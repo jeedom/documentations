@@ -6,6 +6,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Gerenciamento de transição aprimorado
+
 # 10/01/2024
 
 - Suporte para cenas em zonas

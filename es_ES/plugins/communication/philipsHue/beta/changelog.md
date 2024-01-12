@@ -6,6 +6,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Gestión de transición mejorada
+
 # 01/10/2024
 
 - Soporte para escenas en zonas
