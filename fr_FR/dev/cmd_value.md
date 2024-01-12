@@ -53,6 +53,37 @@ Cette documentation rassemble les recommandations pour les valeurs des commandes
 |Action/Volet Bouton Stop|Arret du mouvement du volet|
 |Action/Volet Bouton Slider|Donne la proportion d'ouverture du volet<br/>Si présent:<br/>Min et Max obligatoires|
 
+en option :
+
+|Type générique  | Valeurs / Action |
+|---------------|----------------|
+|Info/Volet Etat Inclinaison Horizontale|Angle 0->90° (via slider)|
+|Action/Volet Slider Inclinaison Horizontale|Angle 0->90°<br/>modifiable via min-max du slider|
+|Info/Volet Etat Inclinaison Verticale|Angle 0->90° (via slider)|
+|Action/Volet Slider Inclinaison Verticale|Angle 0->90°<br/>modifiable via min-max du slider|
+
+## Valves
+
+|Type générique  | Valeurs / Action |
+|---------------|----------------|
+|Info/Robinet<br/>Etat|0 = Eteint<br/>1 = Allumé|
+|Action/Robinet<br/>Bouton On|Allumer| 
+|Action/Robinet<br/>Bouton Off|Eteindre|
+
+|Type générique  | Valeurs / Action |
+|---------------|----------------|
+|Info/Irrigation<br/>Etat|0 = Eteint<br/>1 = Allumé|
+|Action/Irrigation<br/>Bouton On|Allumer| 
+|Action/Irrigation<br/>Bouton Off|Eteindre|
+
+|Type générique  | Valeurs / Action |
+|---------------|----------------|
+|Info/Valve<br/>Générique<br/>Etat|0 = Eteint<br/>1 = Allumé|
+|Action/Valve<br/>Générique<br/>Bouton On|Allumer| 
+|Action/Valve<br/>Générique<br/>Bouton Off|Eteindre|
+
+ajouter un variateur ? et ajouter le numérique à l'action ? ça existe ?
+
 ## Serrures
 
 |Type générique  | Valeurs / Action |
