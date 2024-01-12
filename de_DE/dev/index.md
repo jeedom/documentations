@@ -13,6 +13,7 @@ Ein [Entwicklerkonto](https://blog.jeedom.com/jeedom-partenaire/) ist erforderli
 - [Widget eines Plugins](/de_DE/dev/widget_plugin)
 - [Plugin Vorlage](/de_DE/dev/plugin_template)
 - [Daemon- und Plugin-Abhängigkeiten](/de_DE/dev/daemon_plugin)
+- [Empfehlungswert der Bestellungen](/de_DE/dev/cmd_value)
 
 - [Js und Core 4 Entwicklung.4+](/de_DE/dev/corejs/index)
 

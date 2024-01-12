@@ -13,6 +13,7 @@ Una [cuenta de desarrollador](https://blog.jeedom.com/jeedom-partenaire/) es nec
 - [Widget de un complemento](/es_ES/dev/widget_plugin)
 - [Plantilla de complemento](/es_ES/dev/plugin_template)
 - [Dependencias de demonios y complementos](/es_ES/dev/daemon_plugin)
+- [Valor de recomendación de los pedidos](/es_ES/dev/cmd_value)
 
 - [Desarrollo js y core 4.4+](/es_ES/dev/corejs/index)
 

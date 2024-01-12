@@ -12,6 +12,22 @@
         "Depuis 2020, il est recommandé de ne plus mettre le nom sous l'image (attention à garder quand même les mêmes tailles du modèle": "Depuis 2020, il est recommandé de ne plus mettre le nom sous l'image (attention à garder quand même les mêmes tailles du modèle",
         "Merci d'utiliser ce modèle (bords arrondi, taille, fond coloré, transparence autour etc..) ": "Merci d'utiliser ce modèle (bords arrondi, taille, fond coloré, transparence autour etc..) "
     },
+    "dev\/cmd_value.md": {
+        "Ouvert": "Ouvert",
+        "Fermé": "Fermé",
+        "Etat": "Etat",
+        "Valeur": "Valeur",
+        "Détection": "Détection",
+        "Aucun": "Aucun",
+        "100%": "100%",
+        "0%": "0%",
+        "Valeur des commandes": "Valeur des commandes",
+        "Cette documentation rassemble les recommandations pour les valeurs des commandes (action ou info) en fonction des types": "Cette documentation rassemble les recommandations pour les valeurs des commandes (action ou info) en fonction des types",
+        "Il n'est pas obligatoire de les suivres mais pour une meilleure intégration à Jeedom il est vivement conseillé de le faire": "Il n'est pas obligatoire de les suivres mais pour une meilleure intégration à Jeedom il est vivement conseillé de le faire",
+        "Volet": "Volet",
+        "Mouvement": "Mouvement",
+        "Ouverture": "Ouverture"
+    },
     "dev\/core4.0.md": {
         "Développeurs de plugin": "Développeurs de plugin",
         "Core v4": "Core v4",
@@ -1288,6 +1304,7 @@
         "Widget d'un plugin": "Widget d'un plugin",
         "Plugin template": "Plugin template",
         "Démon et dépendances d'un plugin": "Démon et dépendances d'un plugin",
+        "Recommandation valeur des commandes": "Recommandation valeur des commandes",
         "Développement js et Core 4": "Développement js et Core 4",
         "4 +": "4 +",
         "Évolutions du Core et adaptations des plugins": "Évolutions du Core et adaptations des plugins",
