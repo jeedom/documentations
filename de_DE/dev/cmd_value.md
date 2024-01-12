@@ -2,6 +2,22 @@
 
 Diese Dokumentation fasst Empfehlungen für Befehlswerte (Aktion oder Info) je nach Typ zusammen. Es ist nicht verpflichtend, sie zu befolgen, aber für eine bessere Integration in Jeedom wird dies dringend empfohlen.
 
+## Licht
+
+|Allgemeiner Typ  | Werte / Handeln |
+|---------------|-------------|
+|Info/Lichtstatus|Oder Helligkeit<br/>0-100 Oder 0-99 oder 0-255<br/>(abhängig vom maximalen Aktions-/Licht-Schieberegler)<br/>oder Binär<br/>0 = Aus<br/> anders als 0 = Ein<br/>**Obligatorisch**| 
+|Info/Lichthelligkeit|Luminosité<br/>0-100 Oder 0-99 oder 0-255<br/>(abhängig vom maximalen Aktions-/Licht-Schieberegler)<br/>Immer mit Lichtstatus auf Binärbefehl verwenden|
+|Aktions-/Licht-Schieberegler|Helligkeitsdimmer<br/>Min. und Max. obligatorisch|
+|Aktions-/Licht-Ein-Taste|Das Licht einschalten (Change of State)|
+|Aktions-/Licht-Aus-Taste|Das Licht ausschalten (Zustandsänderung)|
+|Info/Lichtfarbe|#RRGGBB-Format|
+|Aktion/Lichtfarbe|Ändern der Farbe, Format #RRGGBB|
+|Info/Lichttemperaturfarbe|Mired-Format (<=500) oder Kelvin-Format (>500))|
+|Aktion/Lichttemperaturfarbe|Ändern der Farbtemperatur<br/>Min. und Max. obligatorisch|
+|Aktion/Licht umschalten|Zustandsumkehr, wenn binär|
+|Aktions-/Lichtmodus|Voreingestellte/Lichtszenen, können mehrere sein|
+
 ## Prise
 
 |Allgemeiner Typ  | Werte / Handeln |

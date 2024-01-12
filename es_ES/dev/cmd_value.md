@@ -2,6 +2,22 @@
 
 Esta documentación reúne recomendaciones para valores de comando (acción o información) según los tipos. No es obligatorio seguirlos, pero para una mejor integración en Jeedom se recomienda encarecidamente hacerlo.
 
+## Luz
+
+|Tipo genérico  | Valores/Acción |
+|---------------|-------------|
+|Información/Estado de la luz|O brillo<br/>0-100 o 0-99 o 0-255<br/>(dependiendo del control deslizante de acción/luz máxima)<br/>o binario<br/>0 = Apagado<br/> distinto de 0 = activado<br/>**Obligatorio**| 
+|Información/Brillo de luz|Luminosité<br/>0-100 o 0-99 o 0-255<br/>(dependiendo del control deslizante de acción/luz máxima)<br/>Usar siempre con estado de luz en comando binario|
+|Control deslizante de acción/luz|Atenuador de brillo<br/>Mín. y Máx. Obligatorio|
+|Botón de acción/encendido de luz|Encendido de la luz (Cambio de Estado))|
+|Botón de acción/apagado de luz|Apagar la luz (Cambio de Estado))|
+|Información/Color de luz|Formato #RRGGBB|
+|Acción/Color de luz|Cambiando el color, Formato #RRGGBB|
+|Información/Temperatura de luz Color|Formato Mired (<=500) o Kelvin (>500))|
+|Acción/Temperatura de luz Color|Cambiar la temperatura del color<br/>Mín. y Máx. Obligatorio|
+|Alternar acción/luz|Inversión de estado si es binario|
+|Modo acción/luz|Escena preestablecida/luz, puede ser múltiple|
+
 ## Prise
 
 |Tipo genérico  | Valores/Acción |
