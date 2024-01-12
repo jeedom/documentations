@@ -143,3 +143,9 @@ ou soit :
 |Info/Choc|0 = Pas de choc<br/>1 = Choc| 
 |Info/Pression|bar|
 |Info/Son (dB)|dB|
+
+|Type générique  | Valeurs / Action |
+|---------------|----------------|
+|Info/Statut Actif|0 = inactif<br/>1 = actif|
+|Info/Connectivité En Ligne|0 = hors ligne<br/>1 = en ligne|
+|Info/Statut Défectueux|0 = non<br/>1 = oui|
