@@ -4,6 +4,12 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# XX/01/2024
+
+**Configuration Changes**
+
+- Changing the configuration *MCOhome Mh7h* to use the properties
+
 # 12/26/2023
 
 **Improvements**

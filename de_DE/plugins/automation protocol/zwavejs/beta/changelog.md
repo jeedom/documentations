@@ -4,6 +4,12 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# XX/01/2024
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *MCOhome Mh7h* um die Eigenschaften zu verwenden
+
 # 26.12.2023
 
 **Verbesserungen**

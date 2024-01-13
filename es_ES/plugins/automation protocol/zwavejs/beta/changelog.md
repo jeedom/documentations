@@ -4,6 +4,12 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# XX/01/2024
+
+**Cambios de configuración**
+
+- Cambiar la configuración *MCOcasa Mh7h* para usar las propiedades
+
 # 26/12/2023
 
 **Mejoras**
