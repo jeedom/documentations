@@ -12,8 +12,10 @@
 	"maxDependancyInstallTime": 30,
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/#language#/",
 	"link": {
-		"forum": "https://community.jeedom.com/tags/plugin-SmartMeterP1",
+		"forum": "https://community.jeedom.com/tag/plugin-SmartMeterP1",
 		"video": ""
 	},
 	"language": [
