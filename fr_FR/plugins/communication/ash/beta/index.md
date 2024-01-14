@@ -25,11 +25,11 @@ Il peut fonctionner en passant par un service cloud mis à disposition par Jeedo
 >
 > Il est important de faire les étapes suivantes dans l'ordre indiqué !!!
 
-## Configuration Market
+## Etape 1 - Configuration Market
 
 Après l'installation du plugin, il vous suffit d'aller dans la partie configuration du plugin puis de cliquer sur envoyer la configuration au market.
 
-## Configuration Alexa
+## Etape 2 - Configuration Alexa
 
 Une fois le service bien actif il faut sur l'application Alexa ou sur le [site web](https://alexa.amazon.fr/spa/index.html) aller dans la partie skill et chercher le skill Jeedom puis l'activer, la il vous demandera des identifants il faut mettre ceux du market (attention bien mettre vos identifiants market et non ceux de votre Jeedom)
 
@@ -44,9 +44,12 @@ Une fois le service bien actif il faut sur l'application Alexa ou sur le [site w
 >
 >Toute modification de configuration des équipements transmis à Alexa (ajout d'un équipement, suppression d'un équipement, changement d'un générique type d'une commande) nécessite forcement d'aller dans Plugin -> Communication -> Alexa puis de faire sauvegarder et dans l'application Alexa de refaire une découverte
 
-## Configuration du plugin
+## Etape 3 - Configuration du plugin
 
-Sur votre Jeedom, allez sur Plugin -> Communication -> Alexa et dans la partie équipement sélectionnez les équipements à transmettre à Alexa ainsi que le type de l'équipement.
+Le Plugin permet de transmettre à Alexa des Equipements, ou des Scènes. Il est nécessaire d'indiquer quels sont les équipements ou scènes à transmettre à Alexa.
+Sur votre Jeedom, allez sur Plugin -> Communication -> Alexa.
+
+L'onglet chargé par défaut concerne les équipements à transmettre : Dans cette partie il faut sélectionner les équipements à transmettre à Alexa ainsi que le type (une catégorie pour Alexa) de l'équipement (ce type est différent des types génériques de Jeedom qui s'appliquent aux commandes). Pour plus de détails sur les catégories Alexa (voir [ici](https://developer.amazon.com/fr-FR/docs/alexa/device-apis/alexa-discovery.html#display-categories))
 
 > **IMPORTANT**
 >
