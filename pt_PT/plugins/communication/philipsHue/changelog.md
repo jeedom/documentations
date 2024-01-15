@@ -6,6 +6,12 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Gerenciamento de transição aprimorado
+
+# 10/01/2024
+
+- Suporte para cenas em zonas
+
 # 01/08/2024
 
 - Reescrita completa do plugin para usar a API Hue 2.0
@@ -13,7 +19,7 @@
 - AVISO : Para os sensores, os comandos mudam completamente, então você precisa revisar seus cenários
 - IMPORTANTE : certos comandos não estarão mais disponíveis com esta nova versão, incluindo alertas, arco-íris e animações
 - IMPORTANTE : As cenas agora são do tipo ação outro, então há um comando não cena
-- MUITO IMPORTANTE : uma vez na versão beta, você não deve retornar ao estável ou passar por uma restauração de backup
+- MUITO IMPORTANTE : Somente a ponte v2 é compatível, se você estiver na ponte v1, definitivamente não deve atualizar porque o Philips Hue não portou a API v2 para a ponte v1.
 
 
 # 10/04/2021

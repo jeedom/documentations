@@ -6,6 +6,12 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Verbessertes Übergangsmanagement
+
+# 10.01.2024
+
+- Unterstützung für Szenen in Zonen
+
 # 01.08.2024
 
 - Komplette Neufassung des Plugins zur Verwendung der hue 2.0 API
@@ -13,7 +19,7 @@
 - WARNUNG : Für die Sensoren ändern sich die Befehle vollständig, sodass Sie Ihre Szenarien überprüfen müssen
 - Wichtig : Einige Befehle sind mit dieser neuen Version nicht mehr verfügbar, darunter Warnungen, Regenbogen und Animationen
 - Wichtig : Szenen sind jetzt vom Typ Aktion andere, also gibt es einen Befehl nicht Szene
-- SEHR WICHTIG : Sobald Sie sich in der Beta befinden, dürfen Sie nicht zu Stable zurückkehren oder eine Backup-Wiederherstellung durchführen
+- SEHR WICHTIG : Nur die v2-Bridge ist kompatibel. Wenn Sie sich auf der v1-Bridge befinden, sollten Sie auf keinen Fall aktualisieren, da Philips Hue die v2-API nicht auf die v1-Bridge portiert hat.
 
 
 # 10.04.2021

@@ -6,7 +6,14 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Übergänge zu gruppierten Zonen, Räumen und Lichtern hinzugefügt
+- Komplette Überarbeitung der Auftragserstellung : Es ist keine Konfiguration erforderlich, damit Ihre Lampe über die richtigen Bedienelemente verfügt. Alles kommt von der Brücke
+
+
+# 15.01.2024
+
 - Verbessertes Übergangsmanagement
+- LTC002 (Hue Ambiance Decke))
 
 # 10.01.2024
 

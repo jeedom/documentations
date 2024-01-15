@@ -6,7 +6,14 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Added transitions to grouped zones, rooms and lights
+- Complete overhaul of order creation : no need to have a configuration so that your lamp has the right controls, everything comes from the bridge
+
+
+# 01/15/2024
+
 - Improved transition management
+- LTC002 (Hue Ambiance Ceiling)
 
 # 01/10/2024
 

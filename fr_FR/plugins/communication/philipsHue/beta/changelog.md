@@ -6,7 +6,14 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Ajout des transistions sur les zones, pieces et lumieres groupées
+- Refonte complete de la créations des commandes : plus besoin d'avoir une configuration pour que votre lampe ait les bonnes commandes, tout vient du pont
+
+
+# 15/01/2024
+
 - Amélioration de la gestion des transitions
+- LTC002 (Hue Ambiance Ceiling)
 
 # 10/01/2024
 
