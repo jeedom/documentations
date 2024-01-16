@@ -18,7 +18,7 @@ Après installation et activation du plugin, l’installation des dépendances d
 
 ## Configuration du plugin
 
-Pour commencer la configuration du plugin, il est nécessaire de sélectionner le mode de connexion au broker parmis les 3 choix possibles :
+Pour commencer la configuration du plugin, il est nécessaire de sélectionner le mode de connexion au broker parmi les 3 choix possibles :
 
 - **Broker local** : Le broker Mosquitto est installé directement sur la machine qui héberge Jeedom *(mode par défaut)*.
 
@@ -36,11 +36,11 @@ Une fois le broker Mosquitto installé *(si nécessaire)*, vous pouvez passer à
 
   - en mode local vous pouvez renseigner un `nom d'utilisateur:mot de passe` par ligne, chaque couple d'identifiant aura un accès valide au broker. S'il n'existe aucun identifiant, Jeedom en crée un automatiquement.
 
-  - en mode standalone il suffit de mettre sur la première ligne le couple `identifiant:mot de passe` pour Jeedom (exemple : si le nom d'utilisateur est `jeedom`et le mot de passe `mqtt`, il faut renseigner `jeedom:mqtt`).
+  - en mode standalone il suffit de mettre sur la première ligne le couple `identifiant:mot de passe` pour Jeedom (exemple : si le nom d'utilisateur est `jeedom` et le mot de passe `mqtt`, il faut renseigner `jeedom:mqtt`).
 
   >**IMPORTANT**
   >
-  >L'authentification est obligatoire en mode local. Il faut aussi suite a l'ajout redemarrer jeedom pour que ca soit pris en compte.
+  >L'authentification est obligatoire en mode local. Suite à l'ajout il faut redémarrer Jeedom pour que cela soit pris en compte.
 
 - **Topic racine Jeedom** : Sujet racine pour envoyer une commande à Jeedom ou sur lequel il renvoit les évènements. Attention il n'est possible de mettre que 1 ou 2 niveaux maximum.
 
@@ -98,7 +98,7 @@ Il est possible de piloter Jeedom à travers MQTT. Ci-après les différents top
 
 # Découverte auto (discovery)
 
-Le plugin peux faire de la decouverte auto de plusieurs type de module. Pour cela il vous suffit juste d'autoriser la decouverte auto sur la page principale du plugin et de relancer le demon.
+Le plugin peut faire de la découverte auto de plusieurs type de module. Pour cela il vous suffit juste d'autoriser la découverte auto sur la page principale du plugin et de relancer le démon.
 
 >**IMPORTANT**
 >
@@ -106,6 +106,6 @@ Le plugin peux faire de la decouverte auto de plusieurs type de module. Pour cel
 
 # FAQ
 
->**Suite a une mise à jour des packages systeme (apt) ou a un unattended upgrades plus rien de marche**
+>**Suite a une mise à jour des packages système (apt) ou a un unattended upgrades plus rien de marche**
 >
->La mise à jour du package mosquitto remet par defaut le fichier de service et donc mosquitto ne pointe plus vers le bon fichier de configuration. Pour corriger cela c'est très simple il suffit de relancer l'installation de mosquitto depuis la page de configuration du plugin.
+>La mise à jour du package mosquitto remet par défaut le fichier de service et donc mosquitto ne pointe plus vers le bon fichier de configuration. Pour corriger cela c'est très simple il suffit de relancer l'installation de mosquitto depuis la page de configuration du plugin.

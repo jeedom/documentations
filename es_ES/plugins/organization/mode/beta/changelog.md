@@ -4,6 +4,10 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
+# 15/01/2024
+
+- El comando correspondiente se actualiza al cambiar el nombre de un modo en lugar de eliminarse
+
 # 01/11/2024
 
 - Reescribiendo en javascript puro

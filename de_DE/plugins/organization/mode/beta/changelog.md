@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 15.01.2024
+
+- Der entsprechende Befehl wird beim Umbenennen eines Modus aktualisiert und nicht gelöscht
+
 # 11.01.2024
 
 - Umschreiben in reinem Javascript

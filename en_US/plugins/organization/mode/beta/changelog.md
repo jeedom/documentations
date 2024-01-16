@@ -4,6 +4,10 @@
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
+# 01/15/2024
+
+- The corresponding command is updated when renaming a mode instead of being deleted
+
 # 01/11/2024
 
 - Rewriting in pure javascript

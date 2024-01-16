@@ -4,6 +4,10 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
+# 15/01/2024
+
+- O comando correspondente é atualizado ao renomear um modo em vez de ser excluído
+
 # 11/01/2024
 
 - Reescrevendo em javascript puro

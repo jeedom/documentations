@@ -4,10 +4,14 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 01.03.2024
+
+- Vorbereitung auf Jeedom 4.4
+- Verbessertes Mückenmanagement unter Docker
+
 # 27.10.2023
 
 - Es wurde ein Fehler im Status des Daemons behoben (gestartet, wenn nicht))
-
 
 # 10.05.2023
 

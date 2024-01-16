@@ -4,7 +4,7 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
-# 01/03/2024
+# 15/01/2024
 
 - Preparándose para el apuro 4.4
 - Manejo mejorado de mosquitos bajo Docker

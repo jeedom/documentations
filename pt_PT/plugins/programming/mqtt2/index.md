@@ -18,7 +18,7 @@ Depois de instalar e ativar o plugin, a instalação das dependências deve come
 
 ## Configuração do plug-in
 
-Para iniciar a configuração do plugin, é necessário selecionar o modo de conexão ao broker entre as 3 opções possíveis :
+Para iniciar a configuração do plugin é necessário selecionar o modo de conexão com a corretora dentre as 3 opções possíveis :
 
 - **Corretor local** : O broker Mosquitto é instalado diretamente na máquina que hospeda o Jeedom *(modo padrão)*.
 
@@ -36,11 +36,11 @@ Uma vez que o corretor Mosquitto está instalado *(se necessário)*, você pode 
 
   - no modo local você pode inserir um `nome de usuário:password` por linha, cada par de identificadores terá acesso válido ao broker. Se não houver identificador, Jeedom cria um automaticamente.
 
-  - no modo autônomo basta colocar na primeira linha o identificador do casal:password` para Jeedom (exemplo : se o nome de usuário for `jeedom` e a senha `mqtt`, você deve preencher `jeedom`:mqtt``).
+  - no modo autônomo basta colocar na primeira linha o identificador do casal:password` para Jeedom (exemplo : se o nome de usuário for `jeedom` e a senha `mqtt`, você deve digitar `jeedom`:mqtt``).
 
   >**IMPORTANTE**
   >
-  >A autenticação é obrigatória no modo local. Também é necessário após a adição reiniciar o jeedom para que seja levado em consideração.
+  >A autenticação é obrigatória no modo local. Após a adição, o Jeedom deve ser reiniciado para que isso tenha efeito.
 
 - **Jeedom root topic** : Tópico raiz para enviar um comando ao Jeedom ou no qual ele envia os eventos. Atenção só é possível colocar 1 ou 2 níveis no máximo.
 
@@ -98,7 +98,7 @@ Você deve indicar o tópico raiz do equipamento *(`teste` por exemplo)*, então
 
 # Autodescoberta)
 
-O plug-in pode fazer a descoberta automática de vários tipos de módulos. Para fazer isso, você só precisa autorizar a descoberta automática na página principal do plug-in e reiniciar o demônio.
+O plugin pode descobrir automaticamente vários tipos de módulos. Para fazer isso, você só precisa autorizar a descoberta automática na página principal do plug-in e reiniciar o demônio.
 
 >**IMPORTANTE**
 >

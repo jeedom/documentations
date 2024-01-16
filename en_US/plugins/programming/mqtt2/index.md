@@ -18,7 +18,7 @@ After installing and activating the plugin, the installation of dependencies sho
 
 ## Plugin Setup
 
-To start the configuration of the plugin, it is necessary to select the mode of connection to the broker among the 3 possible choices :
+To start configuring the plugin, it is necessary to select the connection mode to the broker from the 3 possible choices :
 
 - **Local broker** : The Mosquitto broker is installed directly on the machine that hosts Jeedom *(default mode)*.
 
@@ -36,11 +36,11 @@ Once the Mosquitto broker is installed *(if necessary)*, you can continue with t
 
   - in local mode you can enter a `username:password` per line, each pair of identifiers will have valid access to the broker. If there is no identifier, Jeedom creates one automatically.
 
-  - in standalone mode it is enough to put on the first line the couple ` identifier:password` for Jeedom (example : if the username is `jeedom` and the password `mqtt`, you must fill in `jeedom:mqtt``).
+  - in standalone mode it is enough to put on the first line the couple ` identifier:password` for Jeedom (example : if the username is `jeedom` and the password `mqtt`, you must enter `jeedom`:mqtt``).
 
   >**IMPORTANT**
   >
-  >Authentication is mandatory in local mode. It is also necessary following the addition to restart jeedom so that it is taken into account.
+  >Authentication is mandatory in local mode. Following the addition, Jeedom must be restarted for this to take effect.
 
 - **Jeedom root topic** : Root topic to send a command to Jeedom or on which it sends the events. Attention it is only possible to put 1 or 2 levels maximum.
 
@@ -98,7 +98,7 @@ It is possible to pilot Jeedom through MQTT. Here are the different possible top
 
 # Self-Discovery)
 
-The plugin can do auto discovery of several types of modules. To do this, you just need to authorize auto discovery on the main page of the plugin and restart the demon.
+The plugin can auto-discover several types of modules. To do this, you just need to authorize auto discovery on the main page of the plugin and restart the demon.
 
 >**IMPORTANT**
 >

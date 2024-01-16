@@ -4,7 +4,7 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
-# 01/03/2024
+# 15/01/2024
 
 - Preparando-se para Jeedom 4.4
 - Gerenciamento aprimorado de mosquitos no Docker

@@ -18,7 +18,7 @@ Después de instalar y activar el complemento, la instalación de dependencias d
 
 ## Configuración del complemento
 
-Para iniciar la configuración del plugin, es necesario seleccionar el modo de conexión al broker entre las 3 opciones posibles :
+Para comenzar a configurar el complemento, es necesario seleccionar el modo de conexión al broker entre las 3 opciones posibles :
 
 - **Corredor local** : El corredor Mosquitto se instala directamente en la máquina que aloja Jeedom *(modo por defecto)*.
 
@@ -36,11 +36,11 @@ Una vez instalado el bróker Mosquitto *(si es necesario)*, puedes continuar con
 
   - en modo local puede ingresar un `nombre de usuario:password` por línea, cada par de identificadores tendrá acceso válido al corredor. Si no hay un identificador, Jeedom crea uno automáticamente.
 
-  - en modo standalone es suficiente poner en la primera línea el identificador de pareja `:contraseña` para Jeedom (ejemplo : si el nombre de usuario es `jeedom` y la contraseña `mqtt`, debe completar `jeedom`:mqtt'').
+  - en modo standalone es suficiente poner en la primera línea el identificador de pareja `:contraseña` para Jeedom (ejemplo : si el nombre de usuario es `jeedom` y la contraseña `mqtt`, debes ingresar `jeedom`:mqtt'').
 
   >**IMPORTANTE**
   >
-  >La autenticación es obligatoria en modo local. También es necesario después de la adición reiniciar jeedom para que se tenga en cuenta.
+  >La autenticación es obligatoria en modo local. Después de la adición, se debe reiniciar Jeedom para que esto surta efecto.
 
 - **Tema raíz de Jeedom** : Tema raíz para enviar un comando a Jeedom o sobre el que envía los eventos. Atención, solo es posible poner 1 o 2 niveles como máximo.
 
@@ -98,7 +98,7 @@ Es posible pilotar Jeedom a través de MQTT. Aquí están los diferentes temas p
 
 # Autodescubrimiento)
 
-El complemento puede realizar el descubrimiento automático de varios tipos de módulos. Para hacer esto, solo necesita autorizar el descubrimiento automático en la página principal del complemento y reiniciar el demonio.
+El complemento puede descubrir automáticamente varios tipos de módulos. Para hacer esto, solo necesita autorizar el descubrimiento automático en la página principal del complemento y reiniciar el demonio.
 
 >**IMPORTANTE**
 >
