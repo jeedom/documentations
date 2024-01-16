@@ -38,3 +38,6 @@ Al hacer clic en la pestaña Pedidos, encontrará la lista de pedidos:
 - **Mostrar** : le permite mostrar el pedido en el tablero,
 - **Probar** : Se usa para probar el comando,
 - **Borrar** (signo -) : permite eliminar el comando.
+
+  >**Importante**
+  >Es absolutamente necesario agregar comandos (botón agregar en la parte superior derecha) para poder realizar llamadas o enviar mensajes de texto.

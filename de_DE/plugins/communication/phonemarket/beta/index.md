@@ -38,3 +38,6 @@ Durch Klicken auf die Registerkarte „Bestellungen“ gelangen Sie zur Liste de
 - **Anzeige** : ermöglicht die Anzeige der Bestellung im Dashboard,
 - **Test** : Wird zum Testen des Befehls verwendet,
 - **Löschen** (Schild -) : ermöglicht das Löschen des Befehls.
+
+  >**Wichtig**
+  >Das Hinzufügen von Befehlen (Schaltfläche „Hinzufügen“ oben rechts) ist unbedingt erforderlich, um Anrufe tätigen oder Textnachrichten senden zu können.

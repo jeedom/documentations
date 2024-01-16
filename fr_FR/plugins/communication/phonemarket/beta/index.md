@@ -38,3 +38,6 @@ En cliquant sur l’onglet Commandes, vous retrouvez la liste des commandes:
 - **Afficher** : permet d’afficher la commande sur le dashboard,
 - **Tester** : permet de tester la commande,
 - **Supprimer** (signe -) : permet de supprimer la commande.
+
+  >**IMPORTANT**
+  >Il faut absolument ajouter des commandes (bouton d'ajout en haut a droite) pour pouvoir faire des appels ou envoyer des sms.

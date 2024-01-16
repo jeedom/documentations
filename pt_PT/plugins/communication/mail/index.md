@@ -31,14 +31,15 @@ Aqui você encontra toda a configuração do seu equipamento :
 -   **Nome do remetente** : nome do remetente do e-mail (ex : Jeedom)
 -   **Remetente do correio** : email do remetente (ex : <jeedom@moi.fr>)
 -   **Método de envio** : método de envio do email :
-    -   SMTP : modo mais comum de envio de correio
+    -   Nuvem Jeedom : sem configuração a fazer, envio de emails pelo serviço Jeedom Cloud, em fase beta no momento, limitado a 5 emails por dia
+    -   SMTP : método mais comum para enviar e-mails
     -   Sendmail
     -   Qmail
     -   Mail()\[Função PHP \] : use a [função de envio padrão do PHP, window = "\_ blank"](http://fr.php.net/manual/fr/function.mail.php), requer a configuração do sistema operacional
 
 Além da opção SMTP, as outras opções exigem a configuração do SO (Linux) para poder funcionar. Em outras palavras, basicamente apenas a função SMTP funciona, os outros são reservados para especialistas que podem, se desejarem, configurar essas opções eles mesmos.
 
-A guia de configuração SMTP permite inserir as informações do servidor de email que você deseja usar.
+A guia de configuração SMTP permite inserir informações sobre o servidor de e-mail que você deseja usar.
 
 ![mail screenshot3](../images/mail_screenshot3.jpg)
 
@@ -67,7 +68,7 @@ Na guia "Pedidos", você pode adicionar pedidos que correspondam aos endereços 
 ![mail screenshot4](../images/mail_screenshot4.jpg)
 
 -   **Nome** : nome do comando
--   **E-mail** : o endereço de email para enviar a mensagem para. Você pode colocar vários separando-os com ,
+-   **E-mail** : o endereço de e-mail para enviar a mensagem. Você pode colocar vários separando-os com ,
 -   **Configuração avançada** (pequenas rodas dentadas) : usado para exibir a configuração avançada do comando (método de historização, widget etc.).)
 -   **Teste** : permite testar o comando,
 -   **Remover** (placa -) : permite excluir o comando.

@@ -4,6 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 15/01/2024
+
+- Preparándose para el apuro 4.4
+- El mejor soporte para PHP 8
+- Actualización de la biblioteca de gestión de correo electrónico
+
 # 18/03/2022
 
 - Presentación actualizada de la pantalla de configuración del equipo

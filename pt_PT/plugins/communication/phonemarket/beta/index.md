@@ -38,3 +38,6 @@ Ao clicar na aba Pedidos, você encontra a lista de pedidos:
 - **Mostrar** : permite que você exiba o pedido no painel,
 - **Teste** : permite testar o comando,
 - **Remover** (placa -) : permite excluir o comando.
+
+  >**IMPORTANTE**
+  >É absolutamente necessário adicionar comandos (botão adicionar no canto superior direito) para poder fazer chamadas ou enviar mensagens de texto.

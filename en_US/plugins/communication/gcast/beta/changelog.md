@@ -4,6 +4,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 01/15/2024
+
+- Preparing for Jeedom 4.4
 - Adding a stop command
 
 # 06/06/2023

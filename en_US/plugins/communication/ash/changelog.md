@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 25/10/2022
+
+- Bugfix
+
 # 02/06/2022
 
 - Optimization of the api key rotation process

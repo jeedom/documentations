@@ -46,7 +46,10 @@ Sobald der Dienst aktiv ist, müssen Sie auf der Alexa-App oder auf der [Website
 
 ## Plugin Konfiguration
 
-Gehen Sie auf Ihrem Jeedom zu Plugin -> Kommunikation -> Alexa und wählen Sie im Gerätebereich das Gerät aus, das an Alexa übertragen werden soll, sowie den Gerätetyp.
+Mit dem Plugin können Sie Geräte oder Szenen an Alexa übertragen. Es muss angegeben werden, welche Geräte oder Szenen an Alexa übertragen werden sollen.
+Gehen Sie auf Ihrem Jeedom zu Plugin -> Kommunikation -> Alexa.
+
+Die standardmäßig geladene Registerkarte betrifft die zu übertragenden Geräte : In diesem Teil müssen Sie das Gerät auswählen, das an Alexa übertragen werden soll, sowie den Typ (eine Kategorie für Alexa) des Geräts (dieser Typ unterscheidet sich von den generischen Typen von Jeedom, die für Befehle gelten)). Weitere Einzelheiten zu Alexa-Kategorien (siehe [hier](https://developer.amazon.com/fr-FR/docs/alexa/device-apis/alexa-discovery.html#display-categories))
 
 > **Wichtig**
 >

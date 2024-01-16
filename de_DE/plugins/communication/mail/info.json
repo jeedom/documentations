@@ -3,10 +3,15 @@
     "name": "Mail",
     "description": {
         "fr_FR": "Ce plugin permet d'envoyer des e-mails depuis Jeedom. Cela permet de vous notifier directement par mail lors d'une alerte ou tout simplement pour un bilan journalier. Vous pouvez définir autant de destinataires que vous voulez, cela est utile pour envoyer des rapports personnalisés ou cibler les alertes pour tel ou tel destinataire.",
-        "en_US": "Plugin to send emails",
-        "es_ES": "Complemento para enviar correos electrónicos",
-        "de_DE": "Plugin zum Versenden von E-Mails",
-        "pt_PT": "Plug-in para enviar e-mails"
+        "en_US": "This plugin allows you to send e-mails from Jeedom. This allows you to notify you directly by email during an alert or simply for a daily report. You can define as many recipients as you want, this is useful for sending personalized reports or targeting alerts for a particular recipient",
+        "es_ES": "Este complemento le permite enviar correos electrónicos desde Jeedom. Esto le permite notificarle directamente por correo electrónico durante una alerta o simplemente para un informe diario. Puede definir tantos destinatarios como desee, esto es útil para enviar informes personalizados o alertas de orientación para un destinatario en particular",
+        "de_DE": "Mit diesem Plugin können Sie E-Mails von Jeedom senden. Auf diese Weise können Sie Sie während einer Benachrichtigung oder einfach für einen täglichen Bericht direkt per E-Mail benachrichtigen. Sie können so viele Empfänger definieren, wie Sie möchten. Dies ist nützlich, um personalisierte Berichte zu senden oder Warnungen für einen bestimmten Empfänger auszurichten",
+        "pt_PT": "Este plugin permite enviar e-mails do Jeedom. Isso permite que você o notifique diretamente por e-mail durante um alerta ou simplesmente para um relatório diário. Você pode definir quantos destinatários quiser; isso é útil para enviar relatórios personalizados ou alertas de direcionamento para um destinatário específico",
+        "ru_RU": "Ce plugin permet d'envoyer des e-mails depuis Jeedom. Cela permet de vous notifier directement par mail lors d'une alerte ou tout simplement pour un bilan journalier. Vous pouvez définir autant de destinataires que vous voulez, cela est utile pour envoyer des rapports personnalisés ou cibler les alertes pour tel ou tel destinataire",
+        "id_ID": "Ce plugin permet d'envoyer des e-mails depuis Jeedom. Cela permet de vous notifier directement par mail lors d'une alerte ou tout simplement pour un bilan journalier. Vous pouvez définir autant de destinataires que vous voulez, cela est utile pour envoyer des rapports personnalisés ou cibler les alertes pour tel ou tel destinataire",
+        "it_IT": "Ce plugin permet d'envoyer des e-mails depuis Jeedom. Cela permet de vous notifier directement par mail lors d'une alerte ou tout simplement pour un bilan journalier. Vous pouvez définir autant de destinataires que vous voulez, cela est utile pour envoyer des rapports personnalisés ou cibler les alertes pour tel ou tel destinataire",
+        "ja_JP": "Ce plugin permet d'envoyer des e-mails depuis Jeedom. Cela permet de vous notifier directement par mail lors d'une alerte ou tout simplement pour un bilan journalier. Vous pouvez définir autant de destinataires que vous voulez, cela est utile pour envoyer des rapports personnalisés ou cibler les alertes pour tel ou tel destinataire",
+        "tr": "Ce plugin permet d'envoyer des e-mails depuis Jeedom. Cela permet de vous notifier directement par mail lors d'une alerte ou tout simplement pour un bilan journalier. Vous pouvez définir autant de destinataires que vous voulez, cela est utile pour envoyer des rapports personnalisés ou cibler les alertes pour tel ou tel destinataire"
     },
     "licence": "AGPL",
     "author": "Loïc",
@@ -19,7 +24,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
@@ -29,5 +39,7 @@
         "diy",
         "mobile",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/mail\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/mail\/beta"
 }

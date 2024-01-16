@@ -46,7 +46,10 @@ Une fois le service bien actif il faut sur l'application Alexa ou sur le [site w
 
 ## Configuration du plugin
 
-Sur votre Jeedom, allez sur Plugin -> Communication -> Alexa et dans la partie équipement sélectionnez les équipements à transmettre à Alexa ainsi que le type de l'équipement.
+Le Plugin permet de transmettre à Alexa des Equipements, ou des Scènes. Il est nécessaire d'indiquer quels sont les équipements ou scènes à transmettre à Alexa.
+Sur votre Jeedom, allez sur Plugin -> Communication -> Alexa.
+
+L'onglet chargé par défaut concerne les équipements à transmettre : Dans cette partie il faut sélectionner les équipements à transmettre à Alexa ainsi que le type (une catégorie pour Alexa) de l'équipement (ce type est différent des types génériques de Jeedom qui s'appliquent aux commandes). Pour plus de détails sur les catégories Alexa (voir [ici](https://developer.amazon.com/fr-FR/docs/alexa/device-apis/alexa-discovery.html#display-categories))
 
 > **IMPORTANT**
 >

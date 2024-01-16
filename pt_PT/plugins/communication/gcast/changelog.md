@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Adicionando um comando de parada
+
 # 06/06/2023
 
 - Grande revisão do plugin 

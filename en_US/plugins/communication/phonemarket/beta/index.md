@@ -38,3 +38,6 @@ By clicking on the Orders tab, you find the list of orders:
 - **Display** : allows you to display the order on the dashboard,
 - **Test** : Used to test the command,
 - **Delete** (sign -) : allows to delete the command.
+
+  >**Important**
+  >It is absolutely necessary to add commands (add button at the top right) to be able to make calls or send text messages.
