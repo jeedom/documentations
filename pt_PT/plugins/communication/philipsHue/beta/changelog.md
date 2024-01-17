@@ -8,7 +8,11 @@
 
 - Adicionadas transições para zonas, salas e luzes agrupadas
 - Revisão completa da criação de pedidos : não precisa ter configuração para que sua lâmpada tenha os controles corretos, tudo vem da ponte
+- Adicionado comando de alerta
 
+# 16/01/2024
+
+- Adicionadas ilustrações de produtos HUE (LTV001, LTA011, LTA009, 5047431P6, 929003479601)
 
 # 15/01/2024
 

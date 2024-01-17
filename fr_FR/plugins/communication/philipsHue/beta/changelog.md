@@ -8,7 +8,11 @@
 
 - Ajout des transistions sur les zones, pieces et lumieres groupées
 - Refonte complete de la créations des commandes : plus besoin d'avoir une configuration pour que votre lampe ait les bonnes commandes, tout vient du pont
+- Ajout de la commande alerte
 
+# 16/01/2024
+
+- Ajout d'illustrations produits HUE (LTV001, LTA011, LTA009, 5047431P6, 929003479601)
 
 # 15/01/2024
 

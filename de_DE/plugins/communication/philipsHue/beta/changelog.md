@@ -8,7 +8,11 @@
 
 - Übergänge zu gruppierten Zonen, Räumen und Lichtern hinzugefügt
 - Komplette Überarbeitung der Auftragserstellung : Es ist keine Konfiguration erforderlich, damit Ihre Lampe über die richtigen Bedienelemente verfügt. Alles kommt von der Brücke
+- Alarmbefehl hinzugefügt
 
+# 16.01.2024
+
+- HUE-Produktabbildungen hinzugefügt (LTV001, LTA011, LTA009, 5047431P6, 929003479601))
 
 # 15.01.2024
 

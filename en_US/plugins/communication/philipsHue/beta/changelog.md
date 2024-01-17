@@ -8,7 +8,11 @@
 
 - Added transitions to grouped zones, rooms and lights
 - Complete overhaul of order creation : no need to have a configuration so that your lamp has the right controls, everything comes from the bridge
+- Added alert command
 
+# 01/16/2024
+
+- Added HUE product illustrations (LTV001, LTA011, LTA009, 5047431P6, 929003479601)
 
 # 01/15/2024
 
