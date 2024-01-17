@@ -6,9 +6,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 17/01/2024
+
 - Se agregaron transiciones a zonas, habitaciones y luces agrupadas
 - Revisión completa de la creación de pedidos : no es necesario tener una configuración para que tu lámpara tenga los controles correctos, todo viene del puente
 - Comando de alerta agregado
+- Importante : para aquellos que tienen sockets es posible que tengan un error de sincronización, por lo tanto deben eliminar el comando de estado en los sockets y reiniciar la sincronización
 
 # 16/01/2024
 

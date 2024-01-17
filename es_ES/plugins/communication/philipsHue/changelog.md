@@ -6,7 +6,18 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Se agregaron transiciones a zonas, habitaciones y luces agrupadas
+- Revisión completa de la creación de pedidos : no es necesario tener una configuración para que tu lámpara tenga los controles correctos, todo viene del puente
+- Comando de alerta agregado
+
+# 16/01/2024
+
+- Se agregaron ilustraciones de productos HUE (LTV001, LTA011, LTA009, 5047431P6, 929003479601))
+
+# 15/01/2024
+
 - Gestión de transición mejorada
+- LTC002 (techo de ambiente Hue)
 
 # 01/10/2024
 

@@ -6,9 +6,12 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 17.01.2024
+
 - Übergänge zu gruppierten Zonen, Räumen und Lichtern hinzugefügt
 - Komplette Überarbeitung der Auftragserstellung : Es ist keine Konfiguration erforderlich, damit Ihre Lampe über die richtigen Bedienelemente verfügt. Alles kommt von der Brücke
 - Alarmbefehl hinzugefügt
+- Wichtig : Für diejenigen, die über Sockets verfügen, liegt möglicherweise ein Synchronisierungsfehler vor. Sie müssen daher den Statusbefehl auf den Sockets löschen und die Synchronisierung neu starten
 
 # 16.01.2024
 

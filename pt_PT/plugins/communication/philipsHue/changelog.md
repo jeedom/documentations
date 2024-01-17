@@ -6,7 +6,18 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Adicionadas transições para zonas, salas e luzes agrupadas
+- Revisão completa da criação de pedidos : não precisa ter configuração para que sua lâmpada tenha os controles corretos, tudo vem da ponte
+- Adicionado comando de alerta
+
+# 16/01/2024
+
+- Adicionadas ilustrações de produtos HUE (LTV001, LTA011, LTA009, 5047431P6, 929003479601)
+
+# 15/01/2024
+
 - Gerenciamento de transição aprimorado
+- LTC002 (teto ambiente matiz)
 
 # 10/01/2024
 

@@ -6,9 +6,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 17/01/2024
+
 - Ajout des transistions sur les zones, pieces et lumieres groupées
 - Refonte complete de la créations des commandes : plus besoin d'avoir une configuration pour que votre lampe ait les bonnes commandes, tout vient du pont
 - Ajout de la commande alerte
+- IMPORTANT : pour ceux qui ont des prises il est possible que vous ayez une erreur a la synchronisation, il faut donc sur les prises supprimer la commande état et relancer la synchronisation
 
 # 16/01/2024
 
