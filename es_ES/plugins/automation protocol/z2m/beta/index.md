@@ -151,6 +151,10 @@ Lamentablemente, esto se debe a la forma en que el fabricante ha planificado la 
 
 Por último, y aunque a algunos les parezca una obviedad, os recordamos que las pasarelas Zigbee en Wifi o remotas son por definición menos fiables que las pasarelas USB. Por lo tanto, el equipo de Jeedom recomienda el uso de una puerta de enlace Zigbee en USB.
 
+# Groupe
+
+Es posible en caso de necesidad crear grupos de equipos zigbee. Los grupos pueden contener todo y cualquier cosa, no es posible que jeedom administre los pedidos en estos, por lo que depende de usted agregarlos. Para ello, nada podría ser más sencillo, basta con hacer clic en el botón para agregar un comando, darle un nombre y tomar el ID lógico, tipo y subtipo de uno de los dispositivos del grupo que contiene el comando deseado. Tenga en cuenta que Jeedom gestiona comandos de tipo acción e información en grupos.
+
 # Convertidor externo
 
 Zigbee2mqtt le permite agregar convertidores externos (para admitir módulos no admitidos oficialmente)). Pour ajouter un convertisseur externe il suffit dans la configuration du plugin (Plugin -> Gestion de plugins -> Jeezigbee) de cliquer sur le bouton "Editer" au niveau de la ligne converter et de déposer/éditer votre converter dans le dossier que jeedom vous Reloj.
@@ -164,6 +168,16 @@ Zigbee2mqtt le permite agregar convertidores externos (para admitir módulos no 
 ## Control de infrarrojos
 
 El caso de los módulos que envían códigos IR es un poco específico porque no hay una lista predefinida de códigos IR, por lo que debe encontrar el comando IR usted mismo y, por desgracia, agregar un comando con ID lógica : `ir_code_to_send::TU CÓDIGO IR
+
+## Orden personalizado
+
+Esta parte es más para usuarios avanzados que desean agregar comandos específicos. Todo sucede en el id lógico del comando :
+- acción : `temperature::25` para enviar `{"temperatura":25}` sobre el tema `set` del equipo o `arm_mode/mode::arming_stay` para enviar `{"arm_mode":"arming_stay"}` en el tema del equipo `set/arm_mode`
+- información : `temperatura` para recuperar el campo `temperatura` del json del equipo o `temperatura`::min` para recuperar el subcampo `min` de la tabla de `temperatura` del equipo
+
+>**NOTA**
+>
+> Para comandos de tipo acción, puede utilizar etiquetas `#slider#`,`#message#`,`#title#` o `#select#` dependiendo del subtipo del comando para pasar un parámetro
 
 # FAQ
 

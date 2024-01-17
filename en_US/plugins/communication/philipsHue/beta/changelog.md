@@ -6,6 +6,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Workaround to correct the brightness bug when switching on Hue apiv2
+
 # 01/17/2024
 
 - Added transitions to grouped zones, rooms and lights

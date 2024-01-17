@@ -1,0 +1,14 @@
+{
+	"id" : "todov2",
+	"name" : "todo List v2",
+	"description" : "Plugin qui permet la création de todo list (Reprise pour correction du plugin de zyg0m4t1k)",
+	"licence" : "AGPL",
+	"author" : "DOMLABS",
+	"require" : "4.0",
+	"category" : "organization",
+	"display" : "panel",
+	"changelog" : "https://www.domlabs.fr/jeedom_docs/todo/fr-FR/",
+	"documentation" : "https://www.domlabs.fr/jeedom_docs/ToDo/fr-FR/"	,
+	"language" : ["fr_FR"],
+	"compatibility" : ["v4","rpi","diy","smart","miniplus"]		
+}

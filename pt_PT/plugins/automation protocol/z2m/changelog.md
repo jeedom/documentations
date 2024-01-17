@@ -4,6 +4,17 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+- Atualização de firmware aprimorada no Luna
+- Melhor gerenciamento portuário em Luna
+- Simplificando a lista de portas
+- Possibilidade de enviar mensagem sobre um subtópico do comando set : arm_mode/modo::armando_ficar
+- Correção de bug
+
+# 26/12/2023
+
+- Desligamento aprimorado do daemon zigbee2mqtt
+- Correção de bug
+
 # 21/12/2023
 
 - Remoção da noção de instância
@@ -36,7 +47,7 @@
 
 >**IMPORTANTE**
 >
->Para aqueles que estão tendo problemas com um módulo inacessível após a atualização anterior, você deve restaurar um backup do Jeedom anterior à atualização e refazer a atualização. Peço desculpas sinceramente por esse bug que ocorre com alguns de vocês, ele vem de uma função inesperada do zigbee2mqtt que não tenho em meus diferentes laboratórios.
+>Para aqueles que estão tendo problemas com um módulo inacessível após atualizações anteriores, você deve restaurar um backup do Jeedom anterior à atualização e refazer a atualização. Peço sinceras desculpas por esse bug que ocorre com alguns de vocês, ele vem de um recurso inesperado do Zigbee2MQTT que não tenho em meus outros laboratórios.
 
 # 20/09/2023
 
@@ -44,7 +55,7 @@
 
 # 19/09/2023
 
-- Corrigido um bug ao atualizar dependências (zigbee2mqtt) se você restaurasse o jeedom
+- Corrigido um bug ao atualizar dependências (Zigbee2MQTT) se você restaurasse o jeedom
 
 # 08/09/2023
 
@@ -56,7 +67,7 @@
 - Corrigido um problema com comandos de tipo de cor
 - Correção na geração de comandos que não funcionavam em determinados casos
 - Nomenclatura de comando aprimorada
-- Possibilidade de caixas atlas ou controladores do tipo Elelabs atualizarem o firmware do jeedom
+- Possibilidade de caixas Atlas com controladores do tipo Elelabs atualizarem o firmware do jeedom
 
 # 03/07/2023
 

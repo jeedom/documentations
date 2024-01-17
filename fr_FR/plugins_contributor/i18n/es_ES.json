@@ -975,6 +975,8 @@
         " Market*": " Mercado*"
     },
     "plugins_contributor\/organization\/index.md": {
+        "todo List v2": "Lista de tareas pendientes v2",
+        "Plugin qui permet la création de todo list (Reprise pour correction du plugin de zyg0m4t1k": "Complemento que permite la creación de una lista de tareas pendientes (Reanudado para corrección del complemento zyg0m4t1k",
         "Toutes les données sont généralement disponibles en temps réel mais la fréquence d'actualisation dépend du service utilisé": "Todos los datos generalmente están disponibles en tiempo real, pero la frecuencia de actualización depende del servicio utilizado",
         "Stock exchange": "Bolsa",
         "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin": "Complemento para recuperar los precios del mercado de valores (independientemente del símbolo solicitado), pero también el tipo de cambio entre dos monedas (incluidas las criptomonedas como bitcoin",

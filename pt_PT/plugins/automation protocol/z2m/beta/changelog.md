@@ -4,11 +4,14 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 17/01/2024
+
 - Atualização de firmware aprimorada no Luna
 - Melhor gerenciamento portuário em Luna
 - Simplificando a lista de portas
 - Possibilidade de enviar mensagem sobre um subtópico do comando set : arm_mode/modo::armando_ficar
 - Correção de bug
+- Gerenciamento de feedback de status em grupos
 
 # 26/12/2023
 

@@ -151,6 +151,10 @@ Malheureusement cela est dû à la manière dont le fabricant a prévu l'intégr
 
 Pour finir et même si cela peut paraître évident pour certains, nous rappelons que les passerelles Zigbee en Wifi ou distantes sont par définition moins fiables que les passerelles USB. L'équipe Jeedom conseille donc l'utilisation d'une passerelle Zigbee en USB.
 
+# Groupe
+
+Il est possible dans jeedom de crée des groupes d'équipement zigbee. Les groupes pouvant contenir tout est n'importe quoi il n'est pas possible pour jeedom de gerer les commandes dans ceux-ci, c'est donc a vous de les ajouter. Pour cela rien de plus simple il suffit de cliquer sur le bouton pour ajouter une commande, lui donner un nom et reprendre le logical ID, type et sous type d'un des équipements du groupe qui contient la commande voulu. A noter que Jeedom gere aussi bien les commandes de type action que info dans les groupes.
+
 # Convertisseur externe
 
 Zigbee2MQTT vous autorise à ajouter des convertisseurs externe (pour supporter des modules pas officiellement supportés). Pour ajouter un convertisseur externe il suffit dans la configuration du plugin (Plugin -> Gestion de plugins -> Jeezigbee) de cliquer sur le bouton "Editer" au niveau de la ligne converter et de déposer/éditer votre converter dans le dossier que jeedom vous montre.
@@ -164,6 +168,16 @@ Zigbee2MQTT vous autorise à ajouter des convertisseurs externe (pour supporter 
 ## Commande IR
 
 Le cas des modules envoyant des codes IR est un peu spécifique car il n'y a pas de liste predefini des codes IR il faut donc trouver vous meme la commande IR puis dans jeedom ajouter une commande avec en logical ID : `ir_code_to_send::VOTRE CODE IR`
+
+## Commande personalisée
+
+Cette partie est plutot pour les utilisateurs avancée qui voudraient ajouter des commandes spécifique. Tout se passe dans le logical id de la commande :
+- action : `temperature::25` pour envoyer `{"température":25}` sur le topic `set` de l'équipement ou `arm_mode/mode::arming_stay` pour envoyer  `{"arm_mode":"arming_stay"}` sur le topic `set/arm_mode` de l'équipement
+- info : `temperature` pour récupere le champs `temperature` du json de l'équipement ou `temperature::min` pour recuperer le sous champs `min` du tableau `temperature` de l'équipement
+
+>**NOTE**
+>
+> Pour les commandes de type action vous pouvez utiliser des les tags `#slider#`, `#message#`, `#title#` ou `#select#` en fonction du sous type de la commande pour passer un parametre
 
 # FAQ
 

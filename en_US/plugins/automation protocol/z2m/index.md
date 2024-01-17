@@ -15,7 +15,7 @@
 
 >**IMPORTANT**
 >
-> First of all you must update the firmware of your key (especially for EZSP, popp key in particular) otherwise the demon cannot work you must refer to the manufacturer's documentation. Do not hesitate to consult the official Zigbee2mqtt page to find the firmware available for your key [here](https://www.zigbee2mqtt.io/guide/adapters/)
+> First of all you must update the firmware of your key (especially for EZSP, popp key in particular) otherwise the demon cannot work you must refer to the manufacturer's documentation. Do not hesitate to consult the official Zigbee2MQTT page to find the firmware available for your key [here](https://www.zigbee2mqtt.io/guide/adapters/)
 
 In addition, the plugin is equipped with many tools allowing :
 
@@ -27,37 +27,37 @@ In addition, the plugin is equipped with many tools allowing :
 
 >**VERY IMPORTANT**
 >
-> Due to the waltz of firmware / hardware on the manufacturer side and possible bugs in their firmware (without necessarily having the possibility of updating it from Jeedom because most manufacturers do not communicate them), it is possible that a module marked compatible only partially (a button that does not work, or no difference between the up and down button, no rise in CO2 or a module sensor...). Unfortunately, we cannot warn you in advance in the list because : 
+> Due to the waltz of firmware/hardware on the manufacturer's side and possible bugs in their firmware (without necessarily having the possibility of updating it from Jeedom because most manufacturers do not communicate them), it is possible that a module marked compatible only partially (a button that does not work, or no difference between the up and down button, no CO2 rise or a module sensor...). Unfortunately, we cannot warn you in advance in the list because :
 >- we don't necessarily have the module in question, many modules are added by user feedback
 >- from one week to another the module may have changed (new hardware, new firmware or even a new module that has not changed its name)
->Under no circumstances can Jeedom be held responsible in the event of a missing function (or even a module not working) when it is indicated as compatible, we are subject to the changes imposed by the manufacturer like you
+>Under no circumstances can Jeedom be held responsible in the event of missing function(s) (or even a module not working) even though it is indicated as compatible, like you we are subject to the changes imposed by the manufacturer(s). (s)
 
 # Configuration
 
 ## Plugin Setup
 
-**Jeezigbee plugin** uses dependencies that must be installed first (depending on your system, this may take several hours)). 
+**Jeezigbee plugin** uses dependencies that must be installed first (depending on your system, this may take several hours)).
 
 The plugin uses the MQTT protocol to chat with Jeedom; it is therefore necessary to have the MQTT manager plugin installed and correctly configured (in practice, if this is not the case, Jeedom should do everything on its own).
 
-Once the dependencies are installed, you can configure a Zigbee controller by entering **controller type, controller port**, then (re)start the daemon.    
+Once the dependencies are installed, you can configure a Zigbee controller by entering **controller type, controller port**, then (re)start the daemon.
 
-You can in the plugin configuration : 
+You can in the plugin configuration :
 
-- Choose the version of zigbee2mqtt by simply putting the version number in the field provided for (a button next to this field allows you to see the versions available). Then just save then restart the dependencies
+- Choose the version of Zigbee2MQTT by simply putting the version number in the field provided for (the button next to this field allows you to see the available versions). Then just save then restart the dependencies
 - The plugin also tells you if you have (at least) the version recommended by jeedom, it is not obligatory but recommended to be in this version or higher
-- You can change the listening port of the zigbee2mqtt interface (it is not recommended to touch this unless you know what you are doing)
+- You can change the listening port of the Zigbee2MQTT interface (it is not recommended to touch this unless you know what you are doing)
 - It is possible for EZSP Elelabs controllers to update the firmware
 
 >**IMPORTANT**
 >
-> There are 2 modes for the plugin : local, everything is on your Jeedom, this is the recommended mode. For advanced users, it is possible to use remote mode; in this case Jeedom does not manage Zigbee2mqtt, it must be installed by you (usually on a docker on jeedom or on another machine). Attention in remote mode it is necessary that Mqtt manager and Zigbee2mqtt are connected to the same brocker mqtt (mosquitto)
+> There are 2 modes for the plugin : local, everything is on your Jeedom, this is the recommended mode. For advanced users, it is possible to use remote mode; in this case Jeedom does not manage Zigbee2mqtt, it must be installed by you (usually on a docker on jeedom or on another machine). Be careful in remote mode, Mqtt manager and Zigbee2MQTT must be connected to the same mqtt broker (mosquitto)
 
 >**IMPORTANT**
 >
-> During the first use if you are in local mode it is ABSOLUTELY necessary to launch the dependencies (even if ok). Note that to update zigbee2mqtt just run the dependencies, you can see the new versions of zigbee2mqtt [here](https://github.com/Koenkk/zigbee2mqtt/tags)
+> During the first use if you are in local mode it is ABSOLUTELY necessary to launch the dependencies (even if ok). Note that to update Zigbee2MQTT you just need to launch the dependencies, you can see the new versions of Zigbee2MQTT [here](https://github.com/Koenkk/zigbee2mqtt/tags)
 
-To go to Zigbee2MQTT from the JEEZIGBEE plugin (for example to force the deletion of a module the module) you must go to the configuration of the Jeezgibee plugin then in the Configuration part, click on Interface z2m "Here" you will open the page of Zigbee2MQTT, once in the module you will be asked for the identifier which is on the configuration page of Jeezigbee.
+To go to Zigbee2MQTT from the Jeezigbee plugin (for example to force the deletion of a module) you must go to the configuration of the Jeezgibee plugin then in the "Configuration" section, click on Interface z2m "Here" you will open the Zigbee2MQTT web interface, once in the module you will be asked for the identifier found on the Jeezigbee configuration page.
 
 Attention this is only possible if you are in local installation of zigbee2mqtt.
 
@@ -67,7 +67,7 @@ You can find [here](https://www.zigbee2mqtt.io/supported-devices/) the list of m
 
 >**IMPORTANT**
 >
->For the moment the plugin does autoconfiguration, that is to say that it does not contain any specific configuration for a given module, it retrieves the information from zigbee2mqtt to automatically generate the commands. This implies that any zigbee2mqtt compatible module should work immediately with the plugin. On the other hand, this has the consequence of generating a lot of commands which are not always all useful. We are in the process of adding a specific configuration system for certain modules and thus improving the commands and presentation of these
+>For the moment the plugin does autoconfiguration, that is to say that it does not contain any specific configuration for a given module, it retrieves the information from zigbee2mqtt to automatically generate the commands. This implies that any zigbee2mqtt compatible module should work immediately with the plugin. On the other hand, this has the consequence of generating a lot of commands which are not always all useful. We are in the process of adding a specific configuration system for certain modules and thus improving the commands and their presentation
 
 ## Equipment configuration
 
@@ -79,7 +79,7 @@ The inclusion procedure is specific to each module. Please refer to the manufact
 
 >**TRICK**
 >
->Don't forget to reset *(reset)* of the module before any inclusion. It is also necessary to think, the time of the inclusion, to keep the module awake (be careful not to keep it awake too much and to launch a reset without doing it on purpose)
+>Don't forget to reset *(reset)* of the module before any inclusion. You also have to think carefully, during inclusion, about keeping the module awake (be careful not to keep it awake too much and to launch a reset without doing it on purpose))
 
 As usual, you can give your equipment a name, give it a category or a parent object and activate it or make it visible.
 
@@ -88,7 +88,7 @@ Other more specific parameters are also accessible :
 - **Identification** : unique device identifier. Even during a re-inclusion or if you change the type of Zigbee controller.
 - **Z2m Controller** : allows you to select the Zigbee controller in communication with the equipment (for the moment the plugin does not support multiple controllers)
 - **Self-refresh (cron)** : allows you to add a cron which requests the updating of the equipment values (be careful, nothing guarantees that the module will really update them, it must support it)
-- **Do not allow messages if the equipment has not been seen for more than (s))** : each zigbee device has a "last communication" date (last seen) in rare cases it is possible that Zigbee2mqtt sends messages from the device even if it is no longer there (no longer connected or no battery left). In this case to avoid "false" updating of the commands it is possible to say "if the last communication from the equipment is older than X seconds then ignore the updates of the values". Please note, this option is reserved for advanced users.
+- **Do not allow messages if the equipment has not been seen for more than (s))** : each zigbee device has a "last communication" date (last seen) in rare cases it is possible that Zigbee2MQTT sends messages from the device even if it is no longer there (no longer connected or no battery left). In this case to avoid "false" updating of the commands it is possible to say "if the last communication from the equipment is older than X seconds then ignore the updates of the values". Please note, this option is reserved for advanced users.
 
 The part **Information** allows to see the model of the equipment. We also find the visual of the equipment (non-modifiable because it comes from zigbee2mqtt) and access to the configuration of the module
 
@@ -96,17 +96,17 @@ In the tab **Orders**, we find, as usual, the commands allowing to interact with
 
 ### Module configuration
 
-This is an important window you will find here : 
+This is an important window that you will find here :
 
-- Information : contains all useful information about your module (model, manufacturer, status, power supply, OTA, description, endpoints....)
+- Information : contains all the useful information about your module (model, manufacturer, status, power supply, OTA, description, endpoints....)
 - Configuration : contains the configuration parameters of your module, if there are any (often there are none so it is empty)
-- Binding : You will find here the existing binding (link) (in general you always have a line to link your module to your coordinator). You can also add a binding (link) between two modules, be careful to wake up the modules on battery when binging. Important the binding depends on the manufacturers (and not on the plugin), some manufacturers do not support direct binding and it is absolutely necessary to have a group, there are also incompatibilities between manufacturers (unfortunately we cannot list them)
+- Binding : Here you will find the existing binding (in general you always have a line to link your module to your coordinator). You can also add a binding (link) between two modules, be careful to wake up the modules on battery when binging. Important the binding depends on the manufacturers (and not on the plugin), some manufacturers do not support direct binding and it is absolutely necessary to have a group, there are also incompatibilities between manufacturers (unfortunately we cannot list them)
 - Reporting : if the module supports it, you can configure here the frequency of sending information from the module to the coordinator (Jeedom therefore)
 - Raw information : is just for support, you will be asked if you have a problem with a module
 
 ### Module not recognized
 
-If the module is not recognized by the plugin (no command) you have to look [here](https://www.zigbee2mqtt.io/supported-devices/), if it is supported then you have to contact Jeedom support (or write on the community) to see why. If your module is not in the list of modules supported by zigbee2mqtt then you have to wait for it to be added.
+If the module is not recognized by the plugin (no command) you have to look [here](https://www.zigbee2mqtt.io/supported-devices/), if it is supported then you have to contact Jeedom support (or write on the community) to see why. If your module is not in the list of modules supported by Zigbee2MQTT then you have to wait for it to be added.
 
 >**INFORMATION**
 >
@@ -132,7 +132,7 @@ The constitution of a good quality Zigbee network is greatly helped by the tools
 
 ## Configuration
 
-This is where you find all the advanced configurations of Zigbee2mqtt, be careful it's a list generated from Zigbee2mqtt (hence the fact that everything is in English)
+This is where you find all the advanced configurations of Zigbee2MQTT, be careful this is a list generated from Zigbee2MQTT (hence the fact that everything is in English)
 
 ## Network graph
 
@@ -140,7 +140,7 @@ The network graph provides an overview of the Zigbee network and the quality of 
 
 >**IMPORTANT**
 >
->The network graph is there for informational purposes only and may not be exact (particularly on battery-powered modules which do not often, or sometimes even at all, send their routing)
+>The network graph is there for information purposes only and may not be exact (particularly on battery modules which do not often or even sometimes not report their routing)
 
 ## Optimize the network
 
@@ -149,7 +149,7 @@ To optimize the reliability of your Zigbee network, **it is more than recommende
 Another important point, it is possible, during the removal of a router module, that part of the "end-device" *(non-router modules)* is lost for a more or less long time *(in ten hours or more)* or even permanently and you have to re-include them.
 Unfortunately this is due to the way the manufacturer has planned the integration of its hardware within a Zigbee network and therefore cannot be corrected by the plugin which does not manage the routing part.
 
-Finally, and even if it may seem obvious to some, we remind you that Zigbee gateways in Wifi or remote are by definition less reliable than USB gateways. The Jeedom team therefore advises the use of a Zigbee gateway in USB.  
+Finally, and even if it may seem obvious to some, we remind you that Zigbee gateways in Wifi or remote are by definition less reliable than USB gateways. The Jeedom team therefore advises the use of a Zigbee gateway in USB.
 
 # External converter
 
@@ -157,7 +157,13 @@ Zigbee2mqtt allows you to add external converters (to support modules not offici
 
 >**IMPORTANT**
 >
->The support does not cover the creation/use part of external converters.
+>Support does not cover the creation/use of external converters part.
+
+# Specific commands
+
+## IR control
+
+The case of modules sending IR codes is a bit specific because there is no predefined list of IR codes so you have to find the IR command yourself then in jeedom add a command with logical ID : `ir_code_to_send::YOUR IR CODE
 
 # FAQ
 
@@ -178,17 +184,17 @@ Zigbee2mqtt allows you to add external converters (to support modules not offici
 >**I can't include new modules**
 >
 >Several possibilities for this :
->- You already have a lot of modules and have exceeded the limit of the number of live modules (31 in general). You have to try by adding router nodes (be careful there is no clear standard on router nodes so there are incompatibilities between manufacturers...)
->- You are on Conbee : try unplugging the key for 2 minutes, putting it back in and restarting the daemon; it's a disease known to the Conbee keys (even under deconz), it takes a cold reboot for the inclusion to work again
+>- You already have a lot of modules and have exceeded the limit on the number of live modules (usually 31). You must try by adding router nodes (be careful there is no clear standard on router nodes so there are incompatibilities between manufacturers...)
+>- You are on Conbee : try unplugging the key for 2 minutes, putting it back in and restarting the daemon; it's a known disease of Conbee keys (even under deconz), you need a "cold reboot" for the inclusion to work again
 >- You have an SSD plugged into USB3, try plugging it into a USB2 port
 
->**I don't have as many commands as buttons on my remote**
+>**I don't have as many commands as buttons on my remote control**
 >
->On my remote control I have for example 2 buttons but in the list of Jeedom commands I only have one command !!! It's normal; the command in jeedom takes a different value depending on the physical button pressed. The easiest way to see it is to go to "Advanced configuration" (top right) then "Logs" (top right too) and press the buttons on the remote control to see the different values of the commands.
+>On my remote control I have for example 2 buttons but in the list of Jeedom commands I only have one command !!! It's normal; the command in jeedom takes a different value depending on the physical button pressed. The easiest way to see it is to go to "Advanced configuration" (top right) then "Logs" (also top right) and press the buttons on the remote control to see the different command values.
 
 >**I don't have the image of my module**
 >
->Nothing serious, it does not mean that it is not usable or recognized, the image is just for illustration. If you really want it, you have to contact support to see why you don't have it (usually it's due to a non-standard character in the module model name)
+>Nothing serious, that doesn't mean it can't be used or recognized, the image just serves as an illustration. If you really want it, you have to contact support so they can see why you don't have it (usually it's due to a non-standard character in the module model name)
 
 >**Change the PAN_ID and Network Key**
 >
@@ -207,7 +213,7 @@ Zigbee2mqtt allows you to add external converters (to support modules not offici
 >Once the converter is created, you will have to put it in the plugin to test it.
 >1) From the Jeedom file editor,
 >- Create a folder with the brand name of your equipment in plugin/z2m/core/converters>
->- Entering this folder
+>- Enter this folder
 >- Create a file named Equipment reference brand.js For the example we will use Tuya_TZE204_81yrt3lo.js
 >- In this file, paste the elements of the converter.
 >- Save and close the file.
@@ -216,8 +222,8 @@ Zigbee2mqtt allows you to add external converters (to support modules not offici
 
 >**SONOFF model P key: Flashing and fixing the “unknown record type 3” issue**
 >
->An explanation of flashing the key was proposed on the forum. If you have the unkown record type3 error it is necessary to convert your file .hex to .bin as explained in the tutorial. Thanks to JeedGeek for the explanation [here](https://community.jeedom.com/t/flasher-sa-cle-usb-zigbee-sonoff-p-avec-lutilitaire-ti-sous-windows/109453)
+>An explanation of flashing the key was proposed on the forum. If you have the error "unkown record type3", it is necessary to convert your file .hex to .bin as explained in the tutorial. Thanks to JeedGeek for the explanation [here](https://community.jeedom.com/t/flasher-sa-cle-usb-zigbee-sonoff-p-avec-lutilitaire-ti-sous-windows/109453)
 
 >**I have an error when updating firmware on Luna**
 >
->You must deactivate the plugin daemon (Plugin -> Plugin management -> Jeezigbee then Automatic management -> deactivate), restart the luna (Settings -> System -> Restart). Once the box restarts, you must restart the firmware update. Please note this may take up to 10 minutes. Don't forget to reactivate automatic daemon management once you have completed the update.
+>You must deactivate the plugin daemon (Plugin -> Plugin management -> Jeezigbee then Automatic management -> deactivate), restart the luna (Settings -> System -> Restart). Once the box has restarted, you must restart the firmware update. Please note this may take up to 10 minutes. Don't forget once the update is done to reactivate automatic daemon management.

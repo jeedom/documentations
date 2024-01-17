@@ -151,6 +151,10 @@ Unfortunately this is due to the way the manufacturer has planned the integratio
 
 Finally, and even if it may seem obvious to some, we remind you that Zigbee gateways in Wifi or remote are by definition less reliable than USB gateways. The Jeedom team therefore advises the use of a Zigbee gateway in USB.
 
+# Groupe
+
+It is possible in jeedom to create groups of zigbee equipment. The groups can contain everything and anything, it is not possible for jeedom to manage the orders in these, so it is up to you to add them. For this, nothing could be simpler, just click on the button to add a command, give it a name and take the logical ID, type and subtype of one of the devices in the group which contains the desired command. Note that Jeedom manages both action and info type commands in groups.
+
 # External converter
 
 Zigbee2mqtt allows you to add external converters (to support modules not officially supported). To add an external converter, simply in the plugin configuration (Plugin -> Plugin management -> Jeezigbee) click on the "Edit" button at the converter line and drop/edit your converter in the folder that jeedom gives you. watch.
@@ -164,6 +168,16 @@ Zigbee2mqtt allows you to add external converters (to support modules not offici
 ## IR control
 
 The case of modules sending IR codes is a bit specific because there is no predefined list of IR codes so you have to find the IR command yourself then in jeedom add a command with logical ID : `ir_code_to_send::YOUR IR CODE
+
+## Custom order
+
+This part is more for advanced users who would like to add specific commands. Everything happens in the logical id of the command :
+- action : `temperature::25` to send `{"temperature":25}` on the topic `set` of the equipment or `arm_mode/mode::arming_stay` to send `{"arm_mode":"arming_stay"}` on the equipment `set/arm_mode` topic
+- information : `temperature` to retrieve the `temperature` field from the equipment json or `temperature`::min` to retrieve the `min` subfield of the equipment `temperature` table
+
+>**NOTE**
+>
+> For action type commands you can use ` tags#slider#`, `#message#`, `#title#` or `#select#` depending on the subtype of the command to pass a parameter
 
 # FAQ
 

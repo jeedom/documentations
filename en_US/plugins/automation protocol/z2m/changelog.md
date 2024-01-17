@@ -4,6 +4,17 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+- Improved firmware update on Luna
+- Better port management on Luna
+- Simplifying the port list
+- Possibility of sending a message on a subtopic of the set command : arm_mode/mode::arming_stay
+- Bugfix
+
+# 12/26/2023
+
+- Improved zigbee2mqtt daemon shutdown
+- Bugfix
+
 # 12/21/2023
 
 - Removal of the notion of instance
@@ -36,7 +47,7 @@
 
 >**IMPORTANT**
 >
->For those having problems with an unreachable module following the previous update, you must restore a jeedom backup from before the update then redo the update. I sincerely apologize for this bug which occurs to some of you, it comes from an unexpected function of zigbee2mqtt which I do not have on my different labs.
+>For those having problems with an unreachable module following previous updates, you must restore a jeedom backup from before the update then redo the update. I sincerely apologize for this bug which occurs to some of you, it comes from an unexpected function of Zigbee2MQTT which I do not have on my different labs.
 
 # 09/20/2023
 
@@ -44,7 +55,7 @@
 
 # 09/19/2023
 
-- Fixed a bug when updating dependencies (zigbee2mqtt) if you restored jeedom
+- Fixed a bug when updating dependencies (Zigbee2MQTT) if you restored jeedom
 
 # 08/09/2023
 
@@ -56,7 +67,7 @@
 - Fixed an issue with color type commands
 - Correction on the generation of commands which could not work in certain cases
 - Improved command naming
-- Possibility for atlas boxes or Elelabs type controllers to update the firmware from jeedom
+- Possibility for Atlas boxes with Elelabs type controllers to update the firmware from jeedom
 
 # 03/07/2023
 

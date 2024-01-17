@@ -4,11 +4,14 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 17/01/2024
+
 - Actualización de firmware mejorada en Luna
 - Mejor gestión portuaria en Luna
 - Simplificando la lista de puertos
 - Posibilidad de enviar un mensaje sobre un subtema del comando establecido : modo_armado/modo::armando_quedarse
 - Arreglo del fallo
+- Gestión de comentarios de estado en grupos
 
 # 26/12/2023
 

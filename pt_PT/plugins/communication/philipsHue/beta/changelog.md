@@ -6,6 +6,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Solução alternativa para corrigir o bug de brilho ao ativar o Hue apiv2
+
 # 17/01/2024
 
 - Adicionadas transições para zonas, salas e luzes agrupadas

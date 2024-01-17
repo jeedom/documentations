@@ -151,6 +151,10 @@ Leider liegt dies an der Art und Weise, wie der Hersteller die Integration seine
 
 Abschließend möchten wir Sie daran erinnern, dass Zigbee-Gateways in WLAN oder Remote per Definition weniger zuverlässig sind als USB-Gateways, auch wenn es für manche offensichtlich erscheinen mag. Das Jeedom-Team rät daher zum Einsatz eines Zigbee-Gateways in USB.
 
+# Groupe
+
+Es ist bei jeedom möglich, Gruppen von ZigBee-Geräten zu erstellen. Die Gruppen können alles und jedes enthalten. Es ist jeedom nicht möglich, die darin enthaltenen Bestellungen zu verwalten. Es liegt also an Ihnen, sie hinzuzufügen. Dies geht ganz einfach: Klicken Sie einfach auf die Schaltfläche zum Hinzufügen eines Befehls, geben Sie ihm einen Namen und übernehmen Sie die logische ID, den Typ und den Subtyp eines der Geräte in der Gruppe, die den gewünschten Befehl enthält. Beachten Sie, dass Jeedom sowohl Aktions- als auch Info-Befehle in Gruppen verwaltet.
+
 # Externer Konverter
 
 Mit Zigbee2mqtt können Sie externe Konverter hinzufügen (um Module zu unterstützen, die nicht offiziell unterstützt werden)). Um einen externen Konverter hinzuzufügen, klicken Sie einfach in der Plugin-Konfiguration (Plugin -> Plugin-Verwaltung -> Jeezigbee) auf die Schaltfläche „Bearbeiten“ in der Konverterzeile und legen/bearbeiten Sie Ihren Konverter in dem Ordner, den jeedom Ihnen zur Verfügung stellt. watch.
@@ -164,6 +168,16 @@ Mit Zigbee2mqtt können Sie externe Konverter hinzufügen (um Module zu unterst�
 ## IR-Steuerung
 
 Der Fall von Modulen, die IR-Codes senden, ist etwas spezifisch, da es keine vordefinierte Liste von IR-Codes gibt. Sie müssen also den IR-Befehl selbst finden und dann ggf. einen Befehl mit logischer ID hinzufügen : `ir_code_to_send::IHR IR-CODE
+
+## Kunden Bestellung
+
+Dieser Teil ist eher für fortgeschrittene Benutzer gedacht, die bestimmte Befehle hinzufügen möchten. Alles geschieht in der logischen ID des Befehls :
+- Aktion : `temperature::25` zum Senden von „{"temperatur":25}` zum Thema `set` der Ausrüstung oder `arm_mode/mode::arming_stay` zum Senden von „{"arm_mode":"arming_stay"}` zum Thema Ausrüstung `set/arm_mode`
+- Information : „temperature“, um das Feld „temperature“ aus dem Geräte-JSON oder „temperature“ abzurufen::min“, um das Unterfeld „min“ der „Temperatur“-Tabelle des Geräts abzurufen
+
+>**NOTIZ**
+>
+> Für Aktionsbefehle können Sie „Tags“ verwenden#slider#`, `#message#`, `#title#` oder `#select#` abhängig vom Untertyp des Befehls zur Übergabe eines Parameters
 
 # FAQ
 

@@ -4,11 +4,14 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 01/17/2024
+
 - Improved firmware update on Luna
 - Better port management on Luna
 - Simplifying the port list
 - Possibility of sending a message on a subtopic of the set command : arm_mode/mode::arming_stay
 - Bugfix
+- Management of status feedback on groups
 
 # 12/26/2023
 

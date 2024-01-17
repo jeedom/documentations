@@ -4,11 +4,14 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 17.01.2024
+
 - Verbessertes Firmware-Update auf Luna
 - Bessere Hafenverwaltung auf Luna
 - Vereinfachung der Portliste
 - Möglichkeit, eine Nachricht zu einem Unterthema des Set-Befehls zu senden : arm_mode/mode::arming_stay
 - Bug-Fix
+- Verwaltung von Statusrückmeldungen zu Gruppen
 
 # 26.12.2023
 

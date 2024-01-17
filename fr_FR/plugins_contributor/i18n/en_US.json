@@ -975,6 +975,8 @@
         " Market*": " Market*"
     },
     "plugins_contributor\/organization\/index.md": {
+        "todo List v2": "todo List v2",
+        "Plugin qui permet la création de todo list (Reprise pour correction du plugin de zyg0m4t1k": "Plugin which allows the creation of todo list (Resumed for correction of the zyg0m4t1k plugin",
         "Toutes les données sont généralement disponibles en temps réel mais la fréquence d'actualisation dépend du service utilisé": "All data is generally available in real time but the refresh rate depends on the service used",
         "Stock exchange": "Stock exchange",
         "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin": "Plugin to retrieve stock market prices (regardless of the symbol requested) but also the exchange rate between two currencies (including cryptocurrency such as bitcoin",

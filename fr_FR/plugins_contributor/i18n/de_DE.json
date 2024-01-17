@@ -975,6 +975,8 @@
         " Market*": " Markt*"
     },
     "plugins_contributor\/organization\/index.md": {
+        "todo List v2": "Aufgabenliste v2",
+        "Plugin qui permet la création de todo list (Reprise pour correction du plugin de zyg0m4t1k": "Plugin, das die Erstellung einer ToDo-Liste ermöglicht (Wieder aufgenommen zur Korrektur des zyg0m4t1k-Plugins",
         "Toutes les données sont généralement disponibles en temps réel mais la fréquence d'actualisation dépend du service utilisé": "Alle Daten sind in der Regel in Echtzeit verfügbar, die Aktualisierungsrate hängt jedoch vom verwendeten Dienst ab",
         "Stock exchange": "Börse",
         "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin": "Plugin zum Abrufen von Börsenkursen (unabhängig vom angeforderten Symbol) aber auch des Wechselkurses zwischen zwei Währungen (einschließlich Kryptowährung wie Bitcoin",

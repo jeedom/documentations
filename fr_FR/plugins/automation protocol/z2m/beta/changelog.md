@@ -4,11 +4,14 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 17/01/2024
+
 - Amélioration de la mise à jour du firmware sur Luna
 - Meilleure gestion du port sur Luna
 - Simplification de la liste des ports
 - Possibilité d'envoyer un message sur un sous topic de la commande set : arm_mode/mode::arming_stay
 - Correction de bugs
+- Gestion du retour d'état sur les groupes
 
 # 26/12/2023
 

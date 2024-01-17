@@ -4,6 +4,17 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Verbessertes Firmware-Update auf Luna
+- Bessere Hafenverwaltung auf Luna
+- Vereinfachung der Portliste
+- Möglichkeit, eine Nachricht zu einem Unterthema des Set-Befehls zu senden : arm_mode/mode::arming_stay
+- Bug-Fix
+
+# 26.12.2023
+
+- Verbessertes Herunterfahren des zigbee2mqtt-Daemons
+- Bug-Fix
+
 # 21.12.2023
 
 - Streichung des Instanzbegriffs
@@ -36,7 +47,7 @@
 
 >**WICHTIG**
 >
->Wenn Sie nach dem vorherigen Update Probleme mit einem nicht erreichbaren Modul haben, müssen Sie ein Jeedom-Backup von vor dem Update wiederherstellen und dann das Update wiederholen. Ich entschuldige mich aufrichtig für diesen Fehler, der bei einigen von Ihnen auftritt. Er kommt von einer unerwarteten Funktion von zigbee2mqtt, die ich in meinen verschiedenen Laboren nicht habe.
+>Wenn Sie nach früheren Updates Probleme mit einem nicht erreichbaren Modul haben, müssen Sie ein Jeedom-Backup von vor dem Update wiederherstellen und dann das Update wiederholen. Ich entschuldige mich aufrichtig für diesen Fehler, der bei einigen von Ihnen auftritt. Er kommt von einer unerwarteten Funktion von Zigbee2MQTT, die ich in meinen verschiedenen Laboren nicht habe.
 
 # 20.09.2023
 
@@ -44,7 +55,7 @@
 
 # 19.09.2023
 
-- Ein Fehler beim Aktualisieren von Abhängigkeiten (zigbee2mqtt) wurde behoben, wenn Sie jeedom wiederhergestellt haben
+- Es wurde ein Fehler beim Aktualisieren von Abhängigkeiten (Zigbee2MQTT) behoben, wenn Sie jeedom wiederhergestellt haben
 
 # 08.09.2023
 
@@ -56,7 +67,7 @@
 - Ein Problem mit Farbtypbefehlen wurde behoben
 - Korrektur bei der Generierung von Befehlen, die in bestimmten Fällen nicht funktionieren konnten
 - Verbesserte Befehlsbenennung
-- Möglichkeit für Atlas-Boxen oder Elelabs-Controller, die Firmware von Jeedom aus zu aktualisieren
+- Möglichkeit für Atlas-Boxen mit Elelabs-Controllern, die Firmware von Jeedom aus zu aktualisieren
 
 # 07.03.2023
 
