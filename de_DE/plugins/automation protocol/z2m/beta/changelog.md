@@ -8,6 +8,7 @@
 - Bessere Hafenverwaltung auf Luna
 - Vereinfachung der Portliste
 - Möglichkeit, eine Nachricht zu einem Unterthema des Set-Befehls zu senden : arm_mode/mode::arming_stay
+- Bug-Fix
 
 # 26.12.2023
 

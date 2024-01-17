@@ -8,6 +8,7 @@
 - Mejor gestión portuaria en Luna
 - Simplificando la lista de puertos
 - Posibilidad de enviar un mensaje sobre un subtema del comando establecido : modo_armado/modo::armando_quedarse
+- Arreglo del fallo
 
 # 26/12/2023
 

@@ -6,9 +6,12 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 17/01/2024
+
 - Adicionadas transições para zonas, salas e luzes agrupadas
 - Revisão completa da criação de pedidos : não precisa ter configuração para que sua lâmpada tenha os controles corretos, tudo vem da ponte
 - Adicionado comando de alerta
+- IMPORTANTE : para quem tem sockets é possível que tenha algum erro de sincronização, portanto deve deletar o comando status nos sockets e reiniciar a sincronização
 
 # 16/01/2024
 

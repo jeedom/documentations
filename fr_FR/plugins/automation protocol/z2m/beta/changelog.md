@@ -8,6 +8,7 @@
 - Meilleure gestion du port sur Luna
 - Simplification de la liste des ports
 - Possibilité d'envoyer un message sur un sous topic de la commande set : arm_mode/mode::arming_stay
+- Correction de bugs
 
 # 26/12/2023
 

@@ -8,6 +8,7 @@
 - Melhor gerenciamento portuário em Luna
 - Simplificando a lista de portas
 - Possibilidade de enviar mensagem sobre um subtópico do comando set : arm_mode/modo::armando_ficar
+- Correção de bug
 
 # 26/12/2023
 
