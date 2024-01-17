@@ -4,6 +4,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 01/05/2024
+
+- Se corrigió un error en la visualización de cámaras en el móvil
+
 # 01/03/2024
 
 - Preparándose para el apuro 4.4

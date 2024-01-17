@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 05/01/2024
+
+- Fixed a bug on the display of cameras on mobile
+
 # 03/01/2024
 
 - Preparing for jeedom 4.4

@@ -4,6 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 01.05.2024
+
+- Ein Fehler bei der Anzeige von Kameras auf Mobilgeräten wurde behoben
+
 # 01.03.2024
 
 - Vorbereitung auf Jeedom 4.4

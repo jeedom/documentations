@@ -937,4 +937,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2024-01-16 01:08:10
+2024-01-17 01:08:10

@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 16/01/2024
+
+- Correction d'un bug sur la taille du widget dans les designs
+
 # 05/01/2024
 
 - Correction d'un bug sur l'affichage des caméras en mobile
