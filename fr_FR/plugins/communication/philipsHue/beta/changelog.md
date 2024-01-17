@@ -10,6 +10,7 @@
 
 # 17/01/2024
 
+- Reprise de la luminosité précedente lors d'un on
 - Ajout des transistions sur les zones, pieces et lumieres groupées
 - Refonte complete de la créations des commandes : plus besoin d'avoir une configuration pour que votre lampe ait les bonnes commandes, tout vient du pont
 - Ajout de la commande alerte

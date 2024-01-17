@@ -10,6 +10,7 @@
 
 # 17/01/2024
 
+- Retomada do brilho anterior durante uma ligação
 - Adicionadas transições para zonas, salas e luzes agrupadas
 - Revisão completa da criação de pedidos : não precisa ter configuração para que sua lâmpada tenha os controles corretos, tudo vem da ponte
 - Adicionado comando de alerta
