@@ -16,7 +16,7 @@ Ensuite il vous suffit de taper :
 php /var/www/html/core/php/jeecli.php user list
 ````
 
-Si vous n'avez aucun utilisateur existant vous pouvez faire : 
+## Il n'y a aucun utilisateur, alors il faut en crée un
 
 ````
 php /var/www/html/core/php/jeecli.php user add [username] [password]
@@ -26,7 +26,7 @@ Avec :
 - ``[username]`` : le nom de l'utilisateur
 - ``[password]`` : le nouveau mot de passe, attention il ne faut pas d'espace et une longueur de 8 caractères minimum
 
-Sinon une fois que vous avez repéré le nom de l'utilisateur dont vous voulez changer le mot de passe faite : 
+## Un utilisateur existe il faut juste changer son mot de passe 
 
 ````
 php /var/www/html/core/php/jeecli.php user password [username] [password]
