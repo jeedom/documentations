@@ -10,6 +10,7 @@
 
 # 01/17/2024
 
+- Resumption of the previous brightness during an on
 - Added transitions to grouped zones, rooms and lights
 - Complete overhaul of order creation : no need to have a configuration so that your lamp has the right controls, everything comes from the bridge
 - Added alert command

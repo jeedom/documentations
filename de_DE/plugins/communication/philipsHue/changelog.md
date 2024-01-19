@@ -10,6 +10,7 @@
 
 # 17.01.2024
 
+- Wiederaufnahme der vorherigen Helligkeit während eines Einschaltvorgangs
 - Übergänge zu gruppierten Zonen, Räumen und Lichtern hinzugefügt
 - Komplette Überarbeitung der Auftragserstellung : Es ist keine Konfiguration erforderlich, damit Ihre Lampe über die richtigen Bedienelemente verfügt. Alles kommt von der Brücke
 - Alarmbefehl hinzugefügt

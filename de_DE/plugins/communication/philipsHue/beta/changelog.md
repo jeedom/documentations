@@ -6,6 +6,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 19.01.2024
+
 - Problemumgehung zur Behebung des Helligkeitsfehlers beim Einschalten von Hue apiv2
 
 # 17.01.2024

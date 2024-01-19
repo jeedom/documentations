@@ -21,7 +21,7 @@ The plugin **Philips Hue** uses its own daemon in order to stay in constant cont
 
 ## Compatibilité
 
-You can find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=philipsHue) the list of modules compatible with the plugin
+All modules compatible with the Hue bridge are compatible with the Jeedom plugin. 
 
 ## Equipment configuration
 
@@ -32,10 +32,3 @@ To access the different equipment **Philips Hue**, go to the menu **Plugins → 
 A little peculiar command that is designed to be used in a scenario. It allows to define the duration in seconds of the transition between the current state and the next command.
 
 For example in the morning you may want to simulate the sunrise in 3 minutes. In your scenario you just have to call the transition command with ``180`` in parameter then call the color command to the desired color.
-
-# FAQ
-
-> **My equipment (lamp, switch, etc ...) is not recognized by the plugin, how to do ?**
->
-> It is necessary :
-> - describe the equipment you want us to add with photos and its possibilities and send us the debug log of the synchronization with the bridge, all by contacting us with a support request

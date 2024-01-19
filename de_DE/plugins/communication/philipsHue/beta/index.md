@@ -21,7 +21,7 @@ Das Plugin **Philips Hue** verwendet einen eigenen Daemon, um in ständigem Kont
 
 ## Compatibilité
 
-Sie finden [Hier](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=philipsHue) die Liste der Module, die mit dem Plugin kompatibel sind
+Alle mit der Hue-Bridge kompatiblen Module sind mit dem Jeedom-Plugin kompatibel. 
 
 ## Gerätekonfiguration
 
@@ -32,10 +32,3 @@ Zugriff auf die verschiedenen Geräte **Philips Hue**, Gehe zum Menü **Plugins 
 Ein kleiner eigenartiger Befehl, der für die Verwendung in einem Szenario entwickelt wurde. Hiermit kann die Dauer des Übergangs zwischen dem aktuellen Status und dem nächsten Befehl in Sekunden festgelegt werden.
 
 Zum Beispiel möchten Sie am Morgen den Sonnenaufgang in 3 Minuten simulieren. In Ihrem Szenario müssen Sie nur den Übergangsbefehl mit aufrufen ``180`` Rufen Sie im Parameter den Befehl color auf die gewünschte Farbe auf.
-
-# FAQ
-
-> **Meine Ausrüstung (Lampe, Schalter usw.) wird vom Plugin nicht erkannt ?**
->
-> Du musst :
-> - Beschreiben Sie die Ausrüstung, die wir hinzufügen sollen, mit Fotos und ihren Möglichkeiten und senden Sie uns das Debug-Protokoll der Synchronisation mit der Bridge, während Sie uns mit einer Supportanfrage kontaktieren

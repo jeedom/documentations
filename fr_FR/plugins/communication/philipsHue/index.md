@@ -21,7 +21,7 @@ Le plugin **Philips Hue** utilise son propre démon afin de rester en contact co
 
 ## Compatibilité
 
-Vous pouvez trouver [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=philipsHue) la liste des modules compatible avec le plugin
+Tous les modules compatible avec le pont Hue sont compatibles avec le plugin Jeedom. 
 
 ## Configuration des équipements
 
@@ -32,10 +32,3 @@ Pour accéder aux différents équipements **Philips Hue**, dirigez-vous vers le
 Commande un peu particulière qui est conçue pour être utilisée dans un scénario. Elle permet de définir la durée en secondes de la transition entre l’état actuel et la prochaine commande.
 
 Par exemple le matin vous pouvez vouloir simuler le lever du soleil en 3 minutes. Dans votre scénario vous avez donc juste à appeler la commande transition avec ``180`` en paramètre puis appeler la commande couleur vers la couleur désirée.
-
-# FAQ
-
-> **Mon équipement (lampe, interrupteur, etc...) n'est pas reconnu par le plugin, comment faire ?**
->
-> Il faut :
-> - nous décrire l'équipement que vous voulez qu'on ajoute avec photos et les possibilités de celui-ci et nous envoyer le log en debug de la synchronisation avec le pont, le tout en nous contactant par une demande de support

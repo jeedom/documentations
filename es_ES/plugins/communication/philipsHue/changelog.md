@@ -10,6 +10,7 @@
 
 # 17/01/2024
 
+- Reanudación del brillo anterior durante un encendido
 - Se agregaron transiciones a zonas, habitaciones y luces agrupadas
 - Revisión completa de la creación de pedidos : no es necesario tener una configuración para que tu lámpara tenga los controles correctos, todo viene del puente
 - Comando de alerta agregado
