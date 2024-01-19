@@ -4,6 +4,13 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
 
+
+# 18/01/2024
+
+- Agregar imagen de edificio para la creación de objetos
+- Limpiar objeto jquery.modal
+
+
 # 20/11/2022
 
 - Añadido soporte de Luna

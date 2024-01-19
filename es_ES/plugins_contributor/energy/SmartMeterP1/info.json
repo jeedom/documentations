@@ -25,6 +25,7 @@
 	"compatibility": [
 		"smart",
 		"atlas",
+		"luna",
 		"rpi",
 		"docker",
 		"diy",

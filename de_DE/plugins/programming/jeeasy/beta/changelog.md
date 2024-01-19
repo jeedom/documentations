@@ -4,6 +4,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+
+# 18.01.2024
+
+- Gebäudebild zur Objekterstellung hinzufügen
+- Bereinigen Sie jquery object.modal
+
+
 # 20.11.2022
 
 - Luna-Unterstützung hinzugefügt
