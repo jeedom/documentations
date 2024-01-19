@@ -172,7 +172,7 @@ Der Fall von Modulen, die IR-Codes senden, ist etwas spezifisch, da es keine vor
 ## Kunden Bestellung
 
 Dieser Teil ist eher für fortgeschrittene Benutzer gedacht, die bestimmte Befehle hinzufügen möchten. Alles geschieht in der logischen ID des Befehls :
-- Aktion : `temperature::25` zum Senden von „{"temperatur":25}` zum Thema `set` der Ausrüstung oder `arm_mode/mode::arming_stay` zum Senden von „{"arm_mode":"arming_stay"}` zum Thema Ausrüstung `set/arm_mode`
+- Aktion : `temperature::25` zum Senden von „{"temperatur":25}` auf dem „set“-Thema des Geräts, um einen Befehl zu einem Unterthema zu senden, müssen Sie beispielsweise nur „arm_mode“ in das Unterthema und „mode“ einfügen::arming_stay` in logischer ID zum Senden von `mode::arming_stay` auf `set/arm_mode`
 - Information : „temperature“, um das Feld „temperature“ aus dem Geräte-JSON oder „temperature“ abzurufen::min“, um das Unterfeld „min“ der „Temperatur“-Tabelle des Geräts abzurufen
 
 >**NOTIZ**

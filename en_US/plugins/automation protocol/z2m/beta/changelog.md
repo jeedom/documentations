@@ -4,6 +4,9 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+- Modification on the subtopic (it is now a configuration field specific to the command), be careful to update your commands if you have used them.
+
+
 # 01/17/2024
 
 - Improved firmware update on Luna
