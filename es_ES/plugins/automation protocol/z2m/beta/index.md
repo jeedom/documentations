@@ -172,7 +172,7 @@ El caso de los módulos que envían códigos IR es un poco específico porque no
 ## Orden personalizado
 
 Esta parte es más para usuarios avanzados que desean agregar comandos específicos. Todo sucede en el id lógico del comando :
-- acción : `temperature::25` para enviar `{"temperatura":25}` sobre el tema `set` del equipo, para enviar un comando sobre un subtema solo tienes que poner en subtema `arm_mode` y `mode` por ejemplo::arming_stay` en identificación lógica para enviar `modo::arming_stay` en `set/arm_mode`
+- acción : `json::{"temperature":25}` para enviar `{"temperatura":25}` sobre el tema `set` del equipo, para enviar un comando sobre un subtema solo necesitas poner `arm_mode` en el subtema y `json por ejemplo::{"mode:"arming_stay"}` en ID lógica para enviar `{"modo:"arming_stay"}` en `set/arm_mode`
 - información : `temperatura` para recuperar el campo `temperatura` del json del equipo o `temperatura`::min` para recuperar el subcampo `min` de la tabla de `temperatura` del equipo
 
 >**NOTA**

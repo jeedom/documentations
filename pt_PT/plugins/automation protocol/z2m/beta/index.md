@@ -172,7 +172,7 @@ O caso de módulos que enviam códigos IR é um pouco específico porque não h�
 ## Pedido personalizado
 
 Esta parte é mais para usuários avançados que gostariam de adicionar comandos específicos. Tudo acontece no id lógico do comando :
-- Ação : `temperature::25` para enviar `{"temperatura":25}` no tópico `set` do equipamento, para enviar um comando sobre um subtópico basta colocar `arm_mode` no subtópico e `mode` por exemplo::arming_stay` em id lógico para enviar `mode::arming_stay` em `set/arm_mode`
+- Ação : `json::{"temperature":25}` para enviar `{"temperatura":25}` no tópico `set` do equipamento, para enviar um comando sobre um subtópico basta colocar `arm_mode` no subtópico e `json por exemplo::{"mode:"arming_stay"}` no id lógico para enviar o modo `{":"arming_stay"}` em `set/arm_mode`
 - Informação : `temperature` para recuperar o campo `temperature` do json do equipamento ou `temperature`::min` para recuperar o subcampo `min` da tabela `temperatura` do equipamento
 
 >**OBSERVAÇÃO**
