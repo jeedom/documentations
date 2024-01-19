@@ -172,7 +172,7 @@ The case of modules sending IR codes is a bit specific because there is no prede
 ## Custom order
 
 This part is more for advanced users who would like to add specific commands. Everything happens in the logical id of the command :
-- action : `json::{"temperature":25}` to send `{"temperature":25}` on the `set` topic of the equipment, to send a command on a subtopic you just need to put `arm_mode` in subtopic and `json for example::{"mode:"arming_stay"}` in logical id to send `{"mode:"arming_stay"}` on `set/arm_mode`
+- action : `json::{"temperature":25}` to send `{"temperature":25}` on the `set` topic of the equipment, to send a command on a subtopic you just have to put `/arm_mode` in subtopic and `json for example::{"mode:"arming_stay"}` in logical id to send `{"mode:"arming_stay"}` on `set/arm_mode`
 - information : `temperature` to retrieve the `temperature` field from the equipment json or `temperature`::min` to retrieve the `min` subfield of the equipment `temperature` table
 
 >**NOTE**
