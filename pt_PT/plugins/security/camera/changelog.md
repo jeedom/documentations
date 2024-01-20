@@ -4,6 +4,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 16/01/2024
+
+- Corrigido um bug no tamanho do widget nos designs
+
 # 01/05/2024
 
 - Corrigido um bug na exibição de câmeras no celular
