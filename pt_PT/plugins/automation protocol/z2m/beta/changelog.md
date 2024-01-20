@@ -5,6 +5,7 @@
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
 - Modificação no subtópico (agora é um campo de configuração específico do comando), tome cuidado para atualizar seus comandos caso você os tenha utilizado.
+- Modificação da sintaxe do campo logicId para ações (mudança para modo json::). Para saber das novidades, consulte a documentação do plugin.
 
 
 # 17/01/2024

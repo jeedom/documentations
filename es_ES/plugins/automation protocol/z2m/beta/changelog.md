@@ -5,6 +5,7 @@
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
 - Modificación del subtema (ahora es un campo de configuración específico del comando), tenga cuidado de actualizar sus comandos si los ha utilizado.
+- Modificación de la sintaxis del campo logicId para acciones (cambio a modo json::). Para conocer las novedades, consulte la documentación del complemento.
 
 
 # 17/01/2024

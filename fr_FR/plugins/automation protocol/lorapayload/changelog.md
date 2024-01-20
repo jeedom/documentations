@@ -6,6 +6,23 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 19/01/2024
+- Ajout de la configuration *RAK c15003* (propriétés : Température, Humidité, Pression, Température2)
+
+- Modification de la configuration *Mclimate Vicki* (propriétés : GetKeepAlive, KeepAlive, GetDevicePrimaryOperationalMode, DevicePrimaryOperationalMode, GetOperationalMode, OperationalMode, Proportional control, Equal directional control, Proportional Integral control, GetControlAlgorithm, ControlAlgorithm, Open window detection parameters (1.0 accuracy), Open window detection parameters (0.1 accuracy))
+
+- Ajout de la colonne *Etat* pour afficher la valeur des commandes infos
+
+- Ajout de la configuration *Citylone SmartLighting-Box 2* (propriétés : stateS1, stateS2, stateS3, stateS4, statusS1, statusS2, statusS3, statusS4, entree1, entree2, Off Sortie 1 fixe, On Sortie 1 fixe, Auto Sortie 1 fixe, Off Sortie 2 fixe, On Sortie 2 fixe, Auto Sortie 2 fixe, Off Sortie 3 fixe, On Sortie 3 fixe, Auto Sortie 3 , Off Sortie 4 fixe, On Sortie 4 fixe, Auto Sortie 4 fixe, Off All fixe, On All fixe, Auto All fixe, DureeOnS1, DureeOnS2, DureeOnS3, DureeOnS4, DureeOffS1, DureeOffS2, DureeOffS3, DureeOffS4, RSSI, Timestamp GMT, Timestamp Local, Update via LNS, Longitude, Latitude, Index Base, Index HCHC, Index HCHP, TIC Meter ID, Tariff option, Courant Instantane Monophase, Courant Instantane Phase1, Courant Instantane Phase2, Courant Instantane Phase3, Max Courant Instantane Monophase, Max Courant Instantane Phase1, Max Courant Instantane Phase2, Max Courant Instantane Phase3, Max Puissance Active, Puissance Thresold Alarm, Puissance Instantane Apparente, Power Failure, Time Change State)
+
+- Ajout de la configuration *RAK2171* (propriétés : Message ID, Application ID, Device ID, Battery, Timestamp, GPS Fix Status, Payload Type, Longitude, Latitude, Accuracy, GPS Start Number, SOS, Alarm Level)
+
+- Ajout de la configuration *Milesight WS50x* (propriétés : Version, Voltage, Activer Power, Active Factor, Power Consumption, Current, Switch 1, Switch 2, Switch 3)
+
+- Ajout de la configuration *Milesight WS51x* (propriétés : Version, Voltage, Activer Power, Active Factor, Power Consumption, Current, State)
+
+- Modification de la configuration *SHE MIO LORA V2* (propriétés : ON 1-2, OFF 1-2, ON 1-3, OFF 1-3...)
+
 # 27/03/2023
 
 - Ajout d'un bouton "ChildLockDisable" - Pour que le Child Lock soit automatiquement désactivé lorsque l'appareil est hors ligne

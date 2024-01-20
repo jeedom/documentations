@@ -5,6 +5,7 @@
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
 - Änderung am Unterthema (es ist jetzt ein befehlsspezifisches Konfigurationsfeld). Achten Sie darauf, Ihre Befehle zu aktualisieren, wenn Sie sie verwendet haben.
+- Änderung der Syntax des Feldes logicalId für Aktionen (Wechsel in den JSON-Modus)::). Um die Neuigkeiten zu erfahren, konsultieren Sie bitte die Plugin-Dokumentation.
 
 
 # 17.01.2024

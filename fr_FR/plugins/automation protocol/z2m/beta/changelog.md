@@ -5,6 +5,7 @@
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 - Modification sur le sous-topic (c'est maintenant un champs de configuration propre à la commande), attention a bien mettre a jour vos commandes si vous vous en etes servi.
+- Modification de la syntaxe du champs logicalId pour les actions (passage en mode json::). Pour connaitre la nouvelle merci de consulter la documentation du plugin.
 
 
 # 17/01/2024

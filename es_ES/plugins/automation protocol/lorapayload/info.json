@@ -18,6 +18,7 @@
     "require": "3.3.39",
     "category": "automation protocol",
     "hasDependency": true,
+    "maxDependancyInstallTime": 45,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/lorapayload\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/lorapayload\/",
     "language": [
