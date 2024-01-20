@@ -4,6 +4,13 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+
+# 18/01/2024
+
+- Adicionando imagem de construção para criação de objeto
+- Limpe jquery object.modal
+
+
 # 20/11/2022
 
 - Adicionado suporte Luna

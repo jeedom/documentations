@@ -4,6 +4,13 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
 
+
+# 01/18/2024
+
+- Adding Building Image for object creation
+- Clean jquery object.modal
+
+
 # 20/11/2022
 
 - Added Luna support
