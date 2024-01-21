@@ -4,6 +4,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 17/01/2024
+
+- Corrección de errores en el widget
+
 # 16/01/2024
 
 - Se corrigió un error en el tamaño del widget en los diseños

@@ -16,15 +16,15 @@
 	"hasDependency": true,
 	"hasOwnDeamon": true,
 	"maxDependancyInstallTime": 0,
-	"version": "1.1.15",
+	"version": "1.0.22",
 	"changelog": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/changelog",
 	"documentation": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/",
 	"changelog_beta": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/changelog",
 	"documentation_beta": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/",
 	"link": {
 		"forum": "https://community.jeedom.com/tags/plugin-tahomalocal",
-		"video": "",
-		"SMART Mode supported devices": "https://eridani78.github.io/TaHomaLocal-Doc/compatibility/supported_devices"
+		"video": "https://eridani78.github.io/TaHomaLocal-Doc/docs/compatibility/supported_devices",
+		"SMART Mode supported devices": "https://eridani78.github.io/TaHomaLocal-Doc/docs/compatibility/supported_devices"
 	},
 	"language": [
 		"fr_FR",
