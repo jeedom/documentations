@@ -54,7 +54,7 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="../reports/errors.html">                                    <i class="icon-list-alt"></i>&#160;Errors <span class="label label-info pull-right">3177</span>
+                                <a href="../reports/errors.html">                                    <i class="icon-list-alt"></i>&#160;Errors <span class="label label-info pull-right">3176</span>
                                 </a>
                             </li>
                             <li>
@@ -62,7 +62,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="../reports/deprecated.html">                                    <i class="icon-list-alt"></i>&#160;Deprecated <span class="label label-info pull-right">0</span>
+                                <a href="../reports/deprecated.html">                                    <i class="icon-list-alt"></i>&#160;Deprecated <span class="label label-info pull-right">1</span>
                                 </a>
                             </li>
                         </ul>
@@ -80,7 +80,7 @@
 
         <div class="span2 sidebar">
             <ul class="side-nav nav nav-list">
-                <li class="nav-header">Navigation</li>            </ul>
+                <li class="nav-header">Navigation</li>                        <li><a href="#log.class.php"><i class="icon-file"></i>log.class.php</a></li>            </ul>
         </div>
 
         <div class="span10 offset2">
@@ -89,7 +89,33 @@
                 <li>Deprecated elements</li>
             </ul>
 
-            <div id="marker-accordion">                    <div class="alert alert-info">No deprecated elements have been found in this project.</div>                    </table>
+            <div id="marker-accordion">                    <a name="log.class.php" id="log.class.php"></a>
+                    <h3>
+                        <i class="icon-file"></i>log.class.php
+                        <small style="float: right;padding-right: 10px;">1</small>
+                    </h3>
+                    <div>
+                        <table class="table markers table-bordered">
+                            <tr>
+                                <th>Element</th>
+                                <th>Line</th>
+                                <th>Description</th>
+                            </tr>                                <tr>
+                                    <td>\log::get()</td>
+                                    <td>248</td>
+                                    <td>v4.4
+=&gt; removed in v4.6 (use log::getDelta() instead)
+
+Note that log::get($_log, $_begin, $_nbLines) is equivalent to:
+   $path = (!file_exists($_log) || !is_file($_log)) ? self::getPathToLog($_log) : $_log;
+   if (!file_exists($path)) {
+     return false;
+   }
+   $delta = self::getDelta($_log, $_begin, &#039;&#039;, false, false, 0, $_nbLines);
+   $arr = explode(&quot;\n&quot;, $delta[&#039;logText&#039;]);
+   unset($arr[count($arr) - 1]);
+   $res = array_reverse($arr);</td>
+                                </tr>                    </table>
                 </div>
             </div>
         </div>
@@ -126,7 +152,7 @@
                 <section class="span10 offset1">
                     <hr />
                     Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and authored
-                    onJanuary 21st, 2024 at 01:39.
+                    onJanuary 22nd, 2024 at 01:39.
                 </section>
             </section>
         </section>
