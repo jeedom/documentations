@@ -10,7 +10,7 @@
 	"author" : "Nebz",
 	"hasDependency" : true,
 	"hasOwnDeamon" : true,
-	"require" : "3.3.24",
+	"require" : "4.2",
 	"category" : "monitoring",
 	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
 	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/changelog",
