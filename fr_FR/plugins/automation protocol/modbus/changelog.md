@@ -56,3 +56,8 @@
 # 15/01/2024
 
 - Fix pymodbus version for Constants defaults missing
+
+
+# 22/01/2024
+
+- Fix pymodbus 3.2.2 with unit -> slave
