@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 10/01/2024
+
+- Fixed a bug when deleting an occurrence of a recurring event
+
 # 01/08/2024
 
 - Preparing for jeedom 4.4
@@ -20,6 +24,7 @@
 - The selected view is saved when saving the equipment
 
 # 03/17/2023
+
 - Provision of an API to list, add, modify and delete an event.
 
 # 22/12/2022
@@ -98,13 +103,13 @@
 
 # 03/18/2019
 
-- When an event is deleted, the end actions are no longer executed
+- When deleting an event the end actions are no longer executed
 - Improved interface
 - Bugfix
 
 # 01/08/2018
 
-- Correction of a bug during the inclusion / exclusion of dates if these are excluded / included
+- Fixed a bug when including/excluding dates if they are excluded/included
 
 # 10/14/2018
 
@@ -138,4 +143,4 @@
 
 # 02/27/2018
 
--	Removal of activation / deactivation commands *(to deactivate an agenda from a scenario, you must now use the equipment deactivation function)*
+- Removal of activation / deactivation commands *(to deactivate an agenda from a scenario, you must now use the equipment deactivation function)*

@@ -4,7 +4,7 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# 01/10/2024
+# 23/01/2024
 
 - Se corrigió un error al eliminar una ocurrencia de un evento recurrente
 

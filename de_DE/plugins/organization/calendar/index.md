@@ -18,12 +18,12 @@ Auf dieser Seite finden Sie die Liste Ihrer Agendas. Klicken Sie auf eine Agenda
 - **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört.
 - **Kategorie** : Ermöglicht die Auswahl der Gerätekategorie.
 - **Optionen** :
-    - **Aktivieren** : Ermöglicht es, das Gerät aktiv zu machen.
-    - **Sichtbar** : Macht Ausrüstung sichtbar.
+  - **Aktivieren** : Ermöglicht es, das Gerät aktiv zu machen.
+  - **Sichtbar** : Macht Ausrüstung sichtbar.
 
 - **Widget** :
-    - **Anzahl der Tage** : Legen Sie die maximale Anzahl von Tagen fest, die auf dem Widget angezeigt werden sollen.
-    - **Anzahl der Veranstaltungen** : Legen Sie die maximale Anzahl von Ereignissen fest, die auf dem Widget angezeigt werden sollen.
+  - **Anzahl der Tage** : Legen Sie die maximale Anzahl von Tagen fest, die auf dem Widget angezeigt werden sollen.
+  - **Anzahl der Veranstaltungen** : Legen Sie die maximale Anzahl von Ereignissen fest, die auf dem Widget angezeigt werden sollen.
 
 - **Liste der Kalenderereignisse** : zeigt die Liste aller Kalenderereignisse an *(ein Klick auf den Namen ermöglicht es Ihnen, das Ereignis zu bearbeiten)*.
 
@@ -39,11 +39,11 @@ Um eine neue Veranstaltung zu erstellen, klicken Sie auf die Schaltfläche **Ere
 
 Im Fenster zur Ereigniserstellung / -konfiguration können Sie die für jedes Ereignis spezifischen Parameter, Aktionen und Wiederholungen definieren. Auf der ersten Registerkarte finden Sie :
 
--   **Name der Veranstaltung** : Name Ihrer Veranstaltung.
--   **Auf Widget ausblenden** : erlaubt, dieses Ereignis nicht im Widget anzuzeigen.
--   **Symbol** : ermöglicht das Hinzufügen eines Symbols vor dem Namen des Ereignisses *(Klicken Sie auf den Button "Wählen Sie ein Symbol")*.
--   **Hintergrundfarbe** : ermöglicht es Ihnen, die Hintergrundfarbe des Ereignisses auszuwählen *(Aktivieren Sie das Kontrollkästchen für einen transparenten Hintergrund)*.
--   **Textfarbe** : ermöglicht Ihnen, die Farbe des Ereignistextes zu wählen.
+- **Name der Veranstaltung** : Name Ihrer Veranstaltung.
+- **Auf Widget ausblenden** : erlaubt, dieses Ereignis nicht im Widget anzuzeigen.
+- **Symbol** : ermöglicht das Hinzufügen eines Symbols vor dem Namen des Ereignisses *(Klicken Sie auf den Button "Wählen Sie ein Symbol")*.
+- **Hintergrundfarbe** : ermöglicht es Ihnen, die Hintergrundfarbe des Ereignisses auszuwählen *(Aktivieren Sie das Kontrollkästchen für einen transparenten Hintergrund)*.
+- **Textfarbe** : ermöglicht Ihnen, die Farbe des Ereignistextes zu wählen.
 
 Oben rechts im Ereignisbearbeitungsfenster befinden sich 3 Schaltflächen:
 
@@ -68,11 +68,11 @@ Die Aktionen können Standardbefehle von Jeedom sein oder [szenariospezifische B
 In dieser Registerkarte finden Sie die gesamte Zeitverwaltung Ihrer Veranstaltung :
 
 - **Termine** :
-    - **Anfang** : Startdatum des Ereignisses.
-    - **Ende** : Ereignisenddatum *(das Symbol am Ende der Zeile wird verwendet, um das Ereignis über den ganzen Tag zu definieren)*.
-- **Nach Datum einschließen** : ermöglicht es Ihnen, ein Datum des Auftretens hinzuzufügen. Sie können mehrere definieren, indem Sie sie durch trennen ``, (virgules)`` *(exemple: JJJJ-MM-TT, JJJJ-MM-TT)*. Es ist auch möglich, einen Datumsbereich mit zu definieren ``: (deux points)`` *(exemple: AAAA-MM-JJ:AAAA-MM-JJ)*.
-- **Nach Kalender aufnehmen** : ermöglicht es Ihnen, Ereignisse gemäß denen einer anderen Agenda oder eines anderen Ereignisses aufzunehmen. Sie haben zum Beispiel eine Veranstaltung ``A``, jeden Montag wiederholt, den du in dein aktuelles Event einbeziehst : dann wird dein aktuelles Event auch jeden Montag wiederholt.
-- **Ausschließen nach Datum** : gleich wie **Nach Datum einschließen** aber um Vorkommnisse zu ignorieren.
+  - **Anfang** : Startdatum des Ereignisses.
+  - **Ende** : Ereignisenddatum *(das Symbol am Ende der Zeile wird verwendet, um das Ereignis über den ganzen Tag zu definieren)*.
+- **Nach Datum einschließen** : ermöglicht Ihnen das Hinzufügen eines Ereignisdatums. Sie können mehrere definieren, indem Sie sie durch trennen ``, (virgules)`` *(exemple: JJJJ-MM-TT, JJJJ-MM-TT)*. Es ist auch möglich, einen Datumsbereich mit zu definieren ``: (deux points)`` *(exemple: AAAA-MM-JJ:AAAA-MM-JJ)*.
+- **Nach Kalender aufnehmen** : ermöglicht Ihnen das Einbeziehen von Ereignissen, die auf denen eines anderen Kalenders oder eines anderen Ereignisses basieren. Sie haben zum Beispiel eine Veranstaltung ``A``, jeden Montag wiederholt, den du in dein aktuelles Event einbeziehst : dann wird dein aktuelles Event auch jeden Montag wiederholt.
+- **Ausschließen nach Datum** : gleich wie **Nach Datum einschließen** sondern Vorkommnisse zu ignorieren.
 - **Nach Kalender ausschließen** : ermöglicht es Ihnen, diese Veranstaltung gemäß einer anderen Agenda oder Veranstaltung auszuschließen *(um zu vermeiden, dass zum Beispiel 2 widersprüchliche Ereignisse zusammen gefunden werden)*.
 
 >**INFORMATION**
@@ -85,10 +85,10 @@ Durch die Wiederholung können Sie das Auftreten Ihrer Ereignisse genau nach Ihr
 
 - **Aktivieren** : Aktivieren Sie das Kontrollkästchen, um die Wiederholung zu aktivieren und die entsprechenden Optionen anzuzeigen.
 - **Modus - Einzelwiederholung** :
-    - **Wiederholen Sie alle** : ermöglicht Ihnen, die Wiederholungsfrequenz des Ereignisses zu definieren *(alle 3 Tage, alle 2 Monate usw)*.
-    - **Nur die** : Mit dieser Option können Sie die Wiederholung auf bestimmte Wochentage beschränken.
+  - **Wiederholen Sie alle** : ermöglicht Ihnen, die Wiederholungsfrequenz des Ereignisses zu definieren *(alle 3 Tage, alle 2 Monate usw)*.
+  - **Nur die** : Mit dieser Option können Sie die Wiederholung auf bestimmte Wochentage beschränken.
 - **Modus - Erweiterte Wiederholung** :
-    - **Frequenz** : ermöglicht Ihnen zum Beispiel jeden 2. Montag im Monat eine Wiederholung zu wählen...
+  - **Frequenz** : ermöglicht Ihnen zum Beispiel jeden 2. Montag im Monat eine Wiederholung zu wählen...
 - **Einschränkung** : erlaubt den Ausschluss von Feiertagen oder die Beschränkung der Veranstaltung auf Feiertage / gerade Wochen / nur ungerade Wochen.
 - **Bis zu** : letztes Datum des Auftretens des Ereignisses.
 
@@ -113,6 +113,7 @@ Ein Tagebuch hat mehrere Befehle :
 >Achtung, es ist wichtig, keine wiederholten Ereignisse zu erstellen, die sich überschneiden, diese Art von Fall wird nicht vom Plugin verwaltet. Beispiel ein Ereignis, das 48 Stunden dauert und sich jeden Tag wiederholt.
 
 # API
+
 Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das Plugin:
 
 - **event::getAllCalendarAndEvents** können Sie alle Kalender und Ereignisse abrufen
@@ -122,8 +123,10 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 - **event::remove** ermöglicht Ihnen, ein Ereignis zu löschen
 
 ## event::getAllCalendarAndEvents
+
 **Eingabeparameter**
 /Aucun/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -134,7 +137,9 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
     }
 }
 ```
+
 **Ergebnisbeispiel**
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -336,8 +341,11 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 ```
 
 ## event::getAllEvents
+
 **Eingabeparameter**
+
 - eqLogic_id /int/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -349,7 +357,9 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
     }
 }
 ```
+
 **Ergebnisbeispiel**
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -440,8 +450,11 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 ```
 
 ## event::byId
+
 **Eingabeparameter**
+
 - event_id /int/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -453,7 +466,9 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
     }
 }
 ```
+
 **Ergebnisbeispiel**
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -527,8 +542,11 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 ```
 
 ## event::save
+
 **Eingabeparameter**
+
 - Ereignis /json-Objekt/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -603,7 +621,9 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
     }
 }
 ```
+
 **Ergebnisbeispiel**
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -677,8 +697,11 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 ```
 
 ## event::remove
+
 **Eingabeparameter**
+
 - event_id /int/
+
 ```json
 {
     "jsonrpc": "2.0",
@@ -690,7 +713,9 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
     }
 }
 ```
+
 **Ergebnisbeispiel**
+
 ```json
 {
   "jsonrpc": "2.0",

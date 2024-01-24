@@ -4,6 +4,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 01/10/2024
+
+- Se corrigió un error al eliminar una ocurrencia de un evento recurrente
+
 # 08/01/2024
 
 - Preparándose para el apuro 4.4
@@ -20,6 +24,7 @@
 - La vista seleccionada se guarda al guardar el equipo
 
 # 17/03/2023
+
 - Provisión de una API para enumerar, agregar, modificar y eliminar un evento.
 
 # 22/12/2022
@@ -98,13 +103,13 @@
 
 # 18/03/2019
 
-- Cuando se elimina un evento, las acciones finales ya no se ejecutan
+- Al eliminar un evento ya no se ejecutan las acciones finales
 - Interfaz mejorada
 - Correcciones de errores
 
 # 01/08/2018
 
-- Corrección de un error durante la inclusión / exclusión de fechas si se excluyen / incluyen
+- Se corrigió un error al incluir/excluir fechas si están excluidas/incluidas
 
 # 14/10/2018
 
@@ -138,4 +143,4 @@
 
 # 27/02/2018
 
--	Eliminación de comandos de activación / desactivación *(para desactivar una agenda de un escenario, ahora debes usar la función de desactivación de equipos)*
+- Eliminación de comandos de activación / desactivación *(para desactivar una agenda de un escenario, ahora debes usar la función de desactivación de equipos)*

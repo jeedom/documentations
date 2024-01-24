@@ -4,6 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 01.10.2024
+
+- Ein Fehler beim Löschen eines Vorkommens eines wiederkehrenden Ereignisses wurde behoben
+
 # 01.08.2024
 
 - Vorbereitung auf Jeedom 4.4
@@ -20,6 +24,7 @@
 - Die ausgewählte Ansicht wird beim Speichern des Equipments gespeichert
 
 # 17.03.2023
+
 - Bereitstellung einer API zum Auflisten, Hinzufügen, Ändern und Löschen eines Ereignisses.
 
 # 22.12.2022
@@ -98,13 +103,13 @@
 
 # 18.03.2019
 
-- Wenn ein Ereignis gelöscht wird, werden die Endaktionen nicht mehr ausgeführt
+- Beim Löschen eines Ereignisses werden die Endaktionen nicht mehr ausgeführt
 - Verbesserte Oberfläche
 - Fehlerbehebungen
 
 # 01/08/2018
 
-- Korrektur eines Fehlers beim Einschließen / Ausschließen von Daten, wenn diese ausgeschlossen / eingeschlossen sind
+- Es wurde ein Fehler beim Ein-/Ausschließen von Daten behoben, wenn diese ausgeschlossen/eingeschlossen waren
 
 # 14.10.2008
 
@@ -138,4 +143,4 @@
 
 # 27.02.2008
 
--	Entfernen von Aktivierungs-/Deaktivierungsbefehlen *(Um eine Agenda aus einem Szenario zu deaktivieren, müssen Sie jetzt die Funktion zur Gerätedeaktivierung verwenden)*
+- Entfernen von Aktivierungs-/Deaktivierungsbefehlen *(Um eine Agenda aus einem Szenario zu deaktivieren, müssen Sie jetzt die Funktion zur Gerätedeaktivierung verwenden)*
