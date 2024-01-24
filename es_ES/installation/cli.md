@@ -26,9 +26,9 @@ Aquí encontrará la documentación para instalar Jeedom en Debian
 Conéctese en SSH a su sistema y haga :
 
 ````
-wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
-chmod +x install.sh
-./install.sh
+wget https://www.jeedom.com/install
+chmod +x install
+./install
 ````
 
 Entonces solo ve a ``IP_JEEDOM`` desde su navegador de internet.
@@ -42,7 +42,7 @@ Entonces solo ve a ``IP_JEEDOM`` desde su navegador de internet.
 > Se pueden usar los siguientes argumentos : -w = carpeta del servidor web -z = dependencias de instalación z-wave -m = contraseña de root mysql deseada
 
 ````
-./install.sh -w /var/www/html -z -m Jeedom
+./install -w /var/www/html -z -m Jeedom
 ````
 
 Entonces puedes seguir la documentación [Primer paso con Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index).

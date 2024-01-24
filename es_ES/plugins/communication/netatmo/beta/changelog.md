@@ -6,6 +6,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
 
+# 24/01/2024
+
 - Soporte termostato opentherm
 
 # 08/01/2024
