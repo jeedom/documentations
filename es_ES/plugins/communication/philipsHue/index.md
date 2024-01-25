@@ -21,7 +21,7 @@ El complemento **Philips Hue** utiliza su propio demonio para mantenerse en cont
 
 ## Compatibilité
 
-Puedes encontrar [aquí](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=philipsHue) la lista de módulos compatibles con el complemento
+Todos los módulos compatibles con el puente Hue son compatibles con el complemento Jeedom. 
 
 ## Configuración del equipo
 
@@ -32,10 +32,3 @@ Para acceder a los diferentes equipos **Philips Hue**, ir al menú **Complemento
 Un pequeño comando peculiar que está diseñado para usarse en un escenario. Permite definir la duración en segundos de la transición entre el estado actual y el siguiente comando.
 
 Por ejemplo, por la mañana, es posible que desee simular el amanecer en 3 minutos. En su escenario, solo tiene que llamar al comando de transición con ``180`` en el parámetro, luego llame al comando de color al color deseado.
-
-# FAQ
-
-> **Mi equipo (lámpara, interruptor, etc.) no es reconocido por el complemento, cómo hacerlo ?**
->
-> Hay que :
-> - describe el equipo que quieres que agreguemos con fotos y sus posibilidades y envíanos el debug log de la sincronización con el puente, todo mientras nos contactas con una solicitud de soporte

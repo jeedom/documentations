@@ -6,6 +6,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 24.01.2024
+
+- Es wurde ein Fehler behoben, der in bestimmten Fällen dazu führen konnte, dass doppelte Ereignisse auftraten.
+
 # 19.01.2024
 
 - Problemumgehung zur Behebung des Helligkeitsfehlers beim Einschalten von Hue apiv2
