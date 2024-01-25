@@ -4,6 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 17.01.2024
+
+- Fehlerbehebung beim Widget
+
 # 16.01.2024
 
 - Ein Fehler bei der Widget-Größe in Designs wurde behoben

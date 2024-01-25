@@ -4,6 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 24.01.2024
+
+- Widget-Verbesserung
+
 # 17.01.2024
 
 - Fehlerbehebung beim Widget

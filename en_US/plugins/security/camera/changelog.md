@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 01/17/2024
+
+- Bug fix on widget
+
 # 01/16/2024
 
 - Fixed a bug on widget size in designs
