@@ -6,6 +6,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 24/01/2024
+
+- Corrigido um bug que em certos casos poderia causar a ocorrência de eventos duplicados.
+
 # 19/01/2024
 
 - Solução alternativa para corrigir o bug de brilho ao ativar o Hue apiv2

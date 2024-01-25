@@ -6,6 +6,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 24/01/2024
+
+- Se corrigió un error que en ciertos casos podía causar que ocurrieran eventos duplicados.
+
 # 19/01/2024
 
 - Solución alternativa para corregir el error de brillo al activar Hue apiv2

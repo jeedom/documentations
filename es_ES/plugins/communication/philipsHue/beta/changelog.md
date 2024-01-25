@@ -5,6 +5,11 @@
 >**Importante**
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+>
+
+# 25/01/2024
+
+- Gestión de transición mejorada
 
 # 24/01/2024
 

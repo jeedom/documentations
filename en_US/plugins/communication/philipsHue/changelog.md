@@ -6,6 +6,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 01/24/2024
+
+- Fixed a bug which in certain cases could cause duplicate events to occur.
+
 # 01/19/2024
 
 - Workaround to correct the brightness bug when switching on Hue apiv2

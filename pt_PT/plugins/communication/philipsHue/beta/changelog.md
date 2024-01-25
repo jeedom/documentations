@@ -5,6 +5,11 @@
 >**IMPORTANTE**
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+>
+
+# 25/01/2024
+
+- Gerenciamento de transição aprimorado
 
 # 24/01/2024
 

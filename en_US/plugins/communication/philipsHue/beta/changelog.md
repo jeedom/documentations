@@ -5,6 +5,11 @@
 >**Important**
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+>
+
+# 01/25/2024
+
+- Improved transition management
 
 # 01/24/2024
 
