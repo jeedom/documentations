@@ -11,9 +11,13 @@ Por el momento, el complemento solo tiene en cuenta el acceso con DHCP.
 
 > Recuperación (BETA)
 
-Debe conectar una llave USB de más de 10 GB en el puerto USB derecho (negro) en la parte inferior. una vez hecho esto, puede iniciar la recuperación de la clave y seguir las instrucciones.
-Cela permet à votre Atlas de ce lancer sur cette clé USB vous avez du coup accès a votre atlas recovery mode sur http://jeedomatlasrecovery.local. Bastará con poner admin / admin y luego poner correctamente su cuenta de mercado. para que su recuperación de jeedom pueda restaurar la memoria interna de la caja. solo sigue las instrucciones.
+Debe conectar una llave USB de más de 10 GB en el puerto USB derecho (negro) en la parte inferior. Una vez hecho esto, puede iniciar la recuperación de claves y seguir las instrucciones que se muestran en la pantalla.
+Esto permite que Atlas se inicie en esta memoria USB. Vous avez du coup accès à votre Atlas recovery mode sur http://jeedomatlasrecovery.local. bastará con informar al usuario: administrador y contraseña: administración.Luego, deberá ingresar correctamente su cuenta de mercado para que su recuperación Atlas pueda restaurarse en la memoria interna de la caja (eMMC). solo sigue las instrucciones en pantalla.
+> Important: Desde enero de 2024, la imagen que se instalará contiene Debian 11 así como Core Jeedom en su versión 4.3.21
+> 
+> Una pregunta?, n'hésitez pas à vous rendre sur <a href="https://community.jeedom.es/" target="_blank">Comunidad>
 
+ 
 > Punto de acceso (BETA)
 
-en la parte Wifi del complemento, puede marcar la casilla Hotspot que le permitirá crear un punto de acceso wifi en su Box Atlas. (Reenvío de DNS e IP (puente entre ethernet y wifi) funcional en él).
+En la parte Wifi del complemento, puede marcar la casilla Hotspot que le permitirá crear un punto de acceso wifi en su Box Atlas. (Reenvío de DNS e IP (puente entre ethernet y wifi) funcional en él).
