@@ -1,0 +1,16 @@
+{
+	"id" : "apsez1m",
+	"name" : "APS-EZ1-M",
+	"description" : "Plugin permettant le pilotage et la récupération des informations de Micro-Onduleurs APSystem EZ1-M. Récupération de la puissance par panneaux, globales, etc",
+	"licence" : "AGPL",
+	"author" : "TaG",
+	"require" : "4.3.1",
+	"category" : "monitoring",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://taggou91.github.io/jeedom_docs/plugins/aps-ez1m/changelog.html",
+	"documentation" : "https://taggou91.github.io/jeedom_docs/plugins/aps-ez1m/#language#/",
+	"language" : ["fr_FR"],
+	"compatibility" : ["diy","v4"]
+}
