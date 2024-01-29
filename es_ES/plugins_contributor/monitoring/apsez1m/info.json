@@ -1,6 +1,6 @@
 {
 	"id" : "apsez1m",
-	"name" : "APS-EZ1-M",
+	"name" : "APSEZ1M",
 	"description" : "Plugin permettant le pilotage et la récupération des informations de Micro-Onduleurs APSystem EZ1-M. Récupération de la puissance par panneau, globale, etc",
 	"licence" : "AGPL",
 	"author" : "TaG",
