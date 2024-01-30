@@ -12,5 +12,5 @@
 	"changelog" : "https://taggou91.github.io/jeedom_docs/plugins/aps-ez1m/changelog.html",
 	"documentation" : "https://taggou91.github.io/jeedom_docs/plugins/aps-ez1m/#language#/",
 	"language" : ["fr_FR"],
-	"compatibility" : "compatibility" : ["smart","rpi","docker","diy","v4","atlas","luna"]
+	"compatibility" : ["smart","rpi","docker","diy","v4","atlas","luna"]
 }
