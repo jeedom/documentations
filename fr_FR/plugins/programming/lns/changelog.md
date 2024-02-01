@@ -1,3 +1,5 @@
+# Changelog LNS
+
 # Changelog plugin template
 
 >**IMPORTANT**
