@@ -6,7 +6,7 @@
 
 - Änderung am Unterthema (es ist jetzt ein befehlsspezifisches Konfigurationsfeld). Achten Sie darauf, Ihre Befehle zu aktualisieren, wenn Sie sie verwendet haben.
 - Änderung der Syntax des Feldes logicalId für Aktionen (Wechsel in den JSON-Modus)::). Um die Neuigkeiten zu erfahren, konsultieren Sie bitte die Plugin-Dokumentation.
-
+- Hinzufügen des /dev/ttyAMA0-Ports für raspbee2 auf RPI
 
 # 17.01.2024
 
