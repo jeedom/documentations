@@ -6,6 +6,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
 
+- Improved tag support
+
 # 01/24/2024
 
 - Opentherm thermostat support
