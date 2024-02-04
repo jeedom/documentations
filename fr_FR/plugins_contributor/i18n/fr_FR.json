@@ -549,6 +549,9 @@
         "Plugin pour l'assistance aux personnes âgées - Gestion des boutons d'alertes": "Plugin pour l'assistance aux personnes âgées - Gestion des boutons d'alertes",
         "OpenALPR": "OpenALPR",
         "Plugin permanent de faire de la reconnaissance de plaque d'immatriculation avec nos camera": "Plugin permanent de faire de la reconnaissance de plaque d'immatriculation avec nos camera",
+        "Connexion via API et\/ou en local (si possible": "Connexion via API et\/ou en local (si possible",
+        "Netatmo Sécurité": "Netatmo Sécurité",
+        "Plugin pour gérer les équipements Netatmo Sécurité et particulièrement les cameras": "Plugin pour gérer les équipements Netatmo Sécurité et particulièrement les cameras",
         "jeezviz": "jeezviz",
         "Plugin de pilotage des caméras et visiophones EZVIZ": "Plugin de pilotage des caméras et visiophones EZVIZ",
         "Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos": "Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos",
@@ -577,7 +580,8 @@
         "Changelog Stable": "Changelog Stable",
         "Documentation Beta": "Documentation Beta",
         "Il est possible de contrôler le mode, l'activation et désactivation des caméras, visualiser le flux live des caméras, déclencher des captures et des enregistrements vidéos, déclencher la sirène... Tous les modèles actuels supportés par l'application Arlo (web ou mobile) sont supportés par le plugin": "Il est possible de contrôler le mode, l'activation et désactivation des caméras, visualiser le flux live des caméras, déclencher des captures et des enregistrements vidéos, déclencher la sirène... Tous les modèles actuels supportés par l'application Arlo (web ou mobile) sont supportés par le plugin",
-        "Changelog Beta": "Changelog Beta"
+        "Changelog Beta": "Changelog Beta",
+        "Sans emails intempestifs, Le plugin permet l'acquisition du live(snapshot ou vidéo) soit directement ou via le plugin Caméra sans changer les paramètres de sécurité de votre box": "Sans emails intempestifs, Le plugin permet l'acquisition du live(snapshot ou vidéo) soit directement ou via le plugin Caméra sans changer les paramètres de sécurité de votre box"
     },
     "plugins_contributor\/weather\/index.md": {
         "Température": "Température",

@@ -1,0 +1,37 @@
+{
+    "id": "netatmoSecurity",
+    "name": "Netatmo Sécurité",
+    "licence": "AGPL",
+    "author": "limad44",
+    "require": "4.0",
+    "description": {
+        "fr_FR": "Plugin pour gérer les équipements Netatmo Sécurité et particulièrement les cameras. Sans emails intempestifs, Le plugin permet l’acquisition du live(snapshot ou vidéo) soit directement ou via le plugin Caméra sans changer les paramètres de sécurité de votre box. <br> Connexion via API et/ou en local (si possible)",
+        "en_US": "Plugin to manage Netatmo Security equipments and particularly cameras. Without unwanted emails, the plugin allows the acquisition of live (snapshot or video) either directly or throuth the Camera plugin without changing the security settings of your box. <br> Connection via API and/or locally (if possible)",
+        "es_ES": "Plugin para gestionar equipos de Netatmo Security y en particular cámaras. Sin correos electrónicos no deseados, el complemento permite la adquisición de videos en vivo (instantáneas o videos) directamente o a través del complemento de la cámara sin cambiar la configuración de seguridad de su caja. <br> Conexión vía API y/o localmente (si es posible)"
+    },
+    "utilization": "Il faut disposer d'un compte Netatmo et d'un client_Id/client_Secret crées sur >dev.natatmo.com<. Pour bénéficier des retours webhooks, il est nécessaire d'avoir un accées externe sur le port 80, 443, 88 ou 9443",
+    "category": "security",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "changelog": "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/#language#/changelog",
+    "documentation": "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/#language#/",
+    "changelog_beta": "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/#language#/changelog",
+    "documentation_beta": "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/#language#/",
+    "link": {
+        "forum": "https://community.jeedom.com/tag/plugin-netatmosecurity"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
+}
