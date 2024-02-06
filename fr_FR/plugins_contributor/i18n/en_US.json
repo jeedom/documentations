@@ -476,6 +476,8 @@
         " Attention*": " Attention*"
     },
     "plugins_contributor\/energy\/index.md": {
+        "Wall Connector (Tesla": "Wall Connector (Tesla",
+        "Plugin pour calculer le coût et la consommation des charges de véhicule avec le Wall Connector Gen 3 de Tesla": "Plugin to calculate the cost and consumption of vehicle charges with the Tesla Wall Connector Gen 3",
         "Pour information, le site \"Mon eau & Moi\" sera très prochainement intégré au plugin": "For information, the \"Mon eau & Moi\" site will soon be integrated into the plugin",
         "Veolia Pro": "Veolia Pro",
         "Information sur la consommation d'eau (compteur communicant) depuis le site \"Veolia & moi - Eau": "Information on water consumption (smart meter) from the \"Veolia & moi - Eau",

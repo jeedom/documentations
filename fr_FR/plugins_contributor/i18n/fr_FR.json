@@ -224,6 +224,8 @@
         "Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya\/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc": "Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya\/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc"
     },
     "plugins_contributor\/energy\/index.md": {
+        "Wall Connector (Tesla": "Wall Connector (Tesla",
+        "Plugin pour calculer le coût et la consommation des charges de véhicule avec le Wall Connector Gen 3 de Tesla": "Plugin pour calculer le coût et la consommation des charges de véhicule avec le Wall Connector Gen 3 de Tesla",
         "Pour information, le site \"Mon eau & Moi\" sera très prochainement intégré au plugin": "Pour information, le site \"Mon eau & Moi\" sera très prochainement intégré au plugin",
         "Veolia Pro": "Veolia Pro",
         "Information sur la consommation d'eau (compteur communicant) depuis le site \"Veolia & moi - Eau": "Information sur la consommation d'eau (compteur communicant) depuis le site \"Veolia & moi - Eau",
