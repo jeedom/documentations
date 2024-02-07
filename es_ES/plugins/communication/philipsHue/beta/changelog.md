@@ -7,6 +7,8 @@
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 >
 
+- Se corrigió un error que cambiaba la configuración de controles para habitaciones, grupos de lámparas y zonas durante la sincronización
+
 # 25/01/2024
 
 - Gestión de transición mejorada

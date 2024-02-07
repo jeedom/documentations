@@ -7,6 +7,8 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 >
 
+- Correction d'un bug qui changait la configuration des commandes pour les pieces, groupe de lampe et zone lors de la synchronisation
+
 # 25/01/2024
 
 - Amélioration de la gestion des transition
