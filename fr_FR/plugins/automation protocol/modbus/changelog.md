@@ -61,3 +61,8 @@
 # 22/01/2024
 
 - Fix pymodbus 3.2.2 with unit -> slave
+
+
+# 07/02/2024
+
+- Fix Packages for Debian10
