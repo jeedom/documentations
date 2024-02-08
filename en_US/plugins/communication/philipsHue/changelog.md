@@ -5,6 +5,13 @@
 >**Important**
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+>
+
+- Fixed a bug that changed the configuration of controls for rooms, lamp groups and zones during synchronization
+
+# 01/25/2024
+
+- Improved transition management
 
 # 01/24/2024
 

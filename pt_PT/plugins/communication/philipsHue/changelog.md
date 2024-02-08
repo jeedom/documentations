@@ -5,6 +5,13 @@
 >**IMPORTANTE**
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+>
+
+- Corrigido um bug que alterava a configuração dos controles de salas, grupos de lâmpadas e zonas durante a sincronização
+
+# 25/01/2024
+
+- Gerenciamento de transição aprimorado
 
 # 24/01/2024
 
