@@ -477,7 +477,7 @@
     },
     "plugins_contributor\/energy\/index.md": {
         "Wall Connector (Tesla": "Wandanschluss (Tesla",
-        "Plugin pour calculer le coût et la consommation des charges de vos véhicules avec la borne de recharge Wall Connector Gen 3 de Tesla": "Plugin zur Berechnung der Kosten und des Verbrauchs der Ladungen Ihres Fahrzeugs mit der Ladestation Wall Connector Gen 3 von Tesla",
+        "Ce plugin permet de calculer le coût et la consommation des charges de vos véhicules réalisées avec la borne de recharge Wall Connector Gen 3 de Tesla": "Mit diesem Plugin können Sie die Kosten und den Verbrauch der Ladungen Ihres Fahrzeugs berechnen, die mit der Ladestation Wall Connector Gen 3 von Tesla durchgeführt werden",
         "Pour information, le site \"Mon eau & Moi\" sera très prochainement intégré au plugin": "Zur Information wird in Kürze die Seite „Mon eau & Moi“ in das Plugin integriert",
         "Veolia Pro": "Veolia Pro",
         "Information sur la consommation d'eau (compteur communicant) depuis le site \"Veolia & moi - Eau": "Informationen zum Wasserverbrauch (Smart Meter) aus dem „Veolia & moi – Eau",
