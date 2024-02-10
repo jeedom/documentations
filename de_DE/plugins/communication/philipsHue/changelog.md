@@ -5,7 +5,8 @@
 >**Wichtig**
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
->
+
+# 02.07.2024
 
 - Es wurde ein Fehler behoben, der die Konfiguration der Steuerungen für Räume, Lampengruppen und Zonen während der Synchronisierung änderte
 

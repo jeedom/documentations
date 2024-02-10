@@ -6,6 +6,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 10/02/2024
+
+- Correcciones de errores
+
 # 07/02/2024
 
 - Se corrigió un error que cambiaba la configuración de controles para habitaciones, grupos de lámparas y zonas durante la sincronización
