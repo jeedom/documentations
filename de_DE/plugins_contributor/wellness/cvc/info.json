@@ -1,0 +1,33 @@
+{
+  "id": "cvc",
+  "name": "CVC",
+  "description": {
+		"fr_FR": "Ce plugin permet de créer et de gérer des thermostats pour piloter un système de chauffage central de votre domicile. Il sera en mesure de gérer chaque zone de votre domicile selon les demandes de celless-ci et d'effectuer la demande au bon appareil selon la température extérieur."
+  },
+  "licence": "AGPL",
+  "author": "fobsoft",
+  "require": "3.3",
+  "category": "wellness",
+  "display": "panel",
+  "mobile": "panel",  
+  "hasDependency" : true,
+  "hasOwnDeamon" : false,
+  "maxDependancyInstallTime" : 0,
+	"changelog" :           "http:\/\/fobsoft.github.io\/jeedom-plugins-documentation\/cvc\/#language#\/changelog",
+	"documentation" :       "http:\/\/fobsoft.github.io\/jeedom-plugins-documentation\/cvc\/#language#",
+	"changelog_beta" :      "http:\/\/fobsoft.github.io\/jeedom-plugins-documentation\/cvc\/#language#\/changelog",
+	"documentation_beta" :  "http:\/\/fobsoft.github.io\/jeedom-plugins-documentation\/cvc\/#language#",
+	"language": [
+		"fr_FR"
+	],  
+  "compatibility": [
+    "miniplus",
+    "smart",
+    "rpi",
+    "docker",
+    "diy",
+    "mobile",
+    "v4",
+		"atlas"
+  ]
+}

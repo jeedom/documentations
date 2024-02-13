@@ -85,7 +85,7 @@
         "Installation manuel": "Installation manuel",
         "Vous trouverez ici la documentation pour installer Jeedom sur Debian": "Vous trouverez ici la documentation pour installer Jeedom sur Debian",
         "Important": "Important",
-        "Debian 10 (Buster) est la distribution officiellement supportée pour la version 3.3": "Debian 10 (Buster) est la distribution officiellement supportée pour la version 3.3",
+        "Debian 10 est la distribution officiellement supportée pour la version 3.3": "Debian 10 est la distribution officiellement supportée pour la version 3.3",
         "de Jeedom (mais Stretch reste parfaitement fonctionnelle": "de Jeedom (mais Stretch reste parfaitement fonctionnelle",
         "Debian 11 est la distribution officielle pour la version 4.x.x": "Debian 11 est la distribution officielle pour la version 4.x.x",
         "Si vous ne maîtrisez pas un minimum les environnements Linux, nous vous conseillons de vous orienter vers une box Jeedom de type Luna, Atlas ou Smart": "Si vous ne maîtrisez pas un minimum les environnements Linux, nous vous conseillons de vous orienter vers une box Jeedom de type Luna, Atlas ou Smart",
@@ -100,6 +100,7 @@
         "Les identifiants par défaut sont admin\/admin": "Les identifiants par défaut sont admin\/admin",
         "Les arguments suivants sont utilisables": "Les arguments suivants sont utilisables",
         "w = dossier webserver -z = installation dependances z-wave -m = mot de passe root mysql désiré": "w = dossier webserver -z = installation dependances z-wave -m = mot de passe root mysql désiré",
+        "Si vous voulez installer la version alpha de jeedom il faut faire": "Si vous voulez installer la version alpha de jeedom il faut faire",
         "Premier pas avec Jeedom": "Premier pas avec Jeedom",
         "Ensuite, vous pouvez suivre la documentation": "Ensuite, vous pouvez suivre la documentation"
     },

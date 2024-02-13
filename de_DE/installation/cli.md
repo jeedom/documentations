@@ -13,7 +13,7 @@ Hier finden Sie die Dokumentation zur Installation von Jeedom auf Debian
 
 > **Wichtig**
 >
-> Debian 10 (Buster) ist die offiziell unterstützte Distribution für Version 3.3.X von Jeedom (aber Stretch bleibt vollkommen funktionsfähig).  Debian 11 ist die offizielle Distribution für Version 4.xx. Wenn Sie keine Mindestkenntnisse in Linux-Umgebungen haben, empfehlen wir Ihnen, sich für eine Jeedom-Box wie Luna, Atlas oder Smart zu entscheiden.
+> Debian 10 ist die offiziell unterstützte Distribution für Version 3.3.X von Jeedom (aber Stretch bleibt vollkommen funktionsfähig).  Debian 11 ist die offizielle Distribution für Version 4.xx. Wenn Sie keine Mindestkenntnisse in Linux-Umgebungen haben, empfehlen wir Ihnen, sich für eine Jeedom-Box wie Luna, Atlas oder Smart zu entscheiden.
 
 > **Wichtig**
 >
@@ -43,6 +43,15 @@ Dann geh einfach zu ``IP_JEEDOM`` von Ihrem Internetbrowser.
 
 ````
 ./install -w /var/www/html -z -m Jeedom
+````
+
+>**Notiz**
+>
+>Wenn Sie die Alpha-Version von Jeedom installieren möchten, müssen Sie dies tun :
+````
+wget https://raw.githubusercontent.com/jeedom/core/alpha/install/install.sh
+chmod +x install.sh
+./install.sh version=alpha
 ````
 
 Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index).
