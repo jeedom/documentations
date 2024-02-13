@@ -6,6 +6,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 12/02/2024
+
+- Correção de bug
 - Suporte de tags aprimorado
 
 # 24/01/2024
