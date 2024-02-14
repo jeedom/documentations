@@ -16,7 +16,7 @@
 	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/#language#/changelog",
 	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/#language#/",
 	"link": {
-		"forum": "https://community.jeedom.com/tags/plugin-modbus2mqtt",
+		"forum": "https://community.jeedom.com/tag/plugin-modbus2mqtt",
 		"video": ""
 	},
 	"language": [

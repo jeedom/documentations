@@ -2,7 +2,7 @@
 	"id": "MQTTDiscovery",
 	"name": "MQTT Discovery",
 	"description": "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' (ou 'HA Discovery') qui existe sous home assistant. Cela permet d'utiliser Open MQTT Gateway (https://docs.openmqttgateway.com/) sur esp32 ou l'équivalent Theengs gateway (https://gateway.theengs.io/) sur pi. Il devient très facile de faire de la gestion de présence de tag bluetooth tel que les nuts ou d'intégrer une liste importante de matériel compatible BLEA. Mais c'est également compatible avec tout équipement supportant 'MQTT Discovery'",
-	"utilization": "Intégration possible avec des équipements Bluetooth Low Energy (BLE), zwave, zigbee, Nuki, Switchbot, myfox, Tydom...",
+	"utilization": "Intégration possible avec des équipements Bluetooth Low Energy (BLE), zwave, zigbee, Nuki, Switchbot, Sonos, myfox, MG, Tydom...",
 	"licence": "AGPL",
 	"author": "Mips",
 	"require": "4.2",
@@ -21,7 +21,7 @@
 		"atlas"
 	],
 	"link": {
-		"forum": "https://community.jeedom.com/tags/plugin-MQTTDiscovery",
+		"forum": "https://community.jeedom.com/tag/plugin-mqttdiscovery",
 		"video": ""
 	},
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
