@@ -1,7 +1,7 @@
 {
 	"id": "wallconnector",
 	"name": "Wall Connector (Tesla)",
-	"pluginVersion": "1.0.0",
+	"pluginVersion": "1.1.0",
 	"description": {
 		"fr_FR": "Ce plugin permet de calculer le coût et la consommation des charges de vos véhicules réalisées avec la borne de recharge Wall Connector Gen 3 de Tesla.",
 		"en_US": "Plugin for calculating the cost and consumption of vehicle charging using the Tesla Wall Connector Gen 3.",
@@ -14,13 +14,14 @@
 	"author": "jerpic",
 	"require": "4.0",
 	"category": "energy",
+	"display" : "panel",
 	"hasDependency": false,
 	"hasOwnDeamon": false,
 	"maxDependancyInstallTime": 0,
-	"changelog_beta": "https://doc.jeedom.com/#language#/plugins/energy/wallconnector/beta/changelog",
-	"changelog": "https://doc.jeedom.com/#language#/plugins/energy/wallconnector/changelog",
-	"documentation_beta": "https://www.latourdugeek.fr/plugin/plugins/wall-connector-gen-3-pour-jeedom",
-	"documentation": "https://www.latourdugeek.fr/plugin/plugins/wall-connector-gen-3-pour-jeedom",	
+	"changelog_beta": "https://www.latourdugeek.fr/jeedom/plugin/pluging-wallconnector-changelog/",
+	"changelog": "https://www.latourdugeek.fr/jeedom/plugin/pluging-wallconnector-changelog/",
+	"documentation_beta": "https://www.latourdugeek.fr/jeedom/plugin/wall-connector-gen-3-pour-jeedom/",
+	"documentation": "https://www.latourdugeek.fr/jeedom/plugin/wall-connector-gen-3-pour-jeedom/",	
 	"link" : {
 		"forum" : "https://community.jeedom.com/t/plugin-wall-connector-tesla-presentation-actualites/120805",
 		"video" : ""
