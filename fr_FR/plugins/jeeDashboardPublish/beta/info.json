@@ -1,0 +1,49 @@
+{
+    "id": "jeeDashboardPublish",
+    "name": "JeeDashboard-Publish",
+    "specialAttributes": [],
+    "description": {
+        "fr_FR": "Template servant de base à la création de plugins pour Jeedom",
+        "en_US": "Template serving as a basis for creating plugins for Jeedom",
+        "es_ES": "Plantilla que sirve como base para crear complementos para Jeedom",
+        "de_DE": "Vorlage, die als Grundlage für die Erstellung von Plugins für Jeedom dient",
+        "ru_RU": "Template servant de base à la création de plugins pour Jeedom",
+        "id_ID": "Template servant de base à la création de plugins pour Jeedom",
+        "it_IT": "Template servant de base à la création de plugins pour Jeedom",
+        "ja_JP": "Template servant de base à la création de plugins pour Jeedom",
+        "pt_PT": "Template servindo de base para criação de plugins para Jeedom",
+        "tr": "Template servant de base à la création de plugins pour Jeedom"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2.0",
+    "category": "monitoring",
+    "hasDependency": true,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 45,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/jeeDashboardPublish\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/jeeDashboardPublish\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/jeeDashboardPublish\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/jeeDashboardPublish\/beta",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas"
+    ]
+}
