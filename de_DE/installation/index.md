@@ -53,8 +53,7 @@ Ich möchte Jeedom installieren :
 - Auf einem [Freebox Delta](https://doc.jeedom.com/de_DE/installation/freeboxdelta)
 - In [Befehlszeile](https://doc.jeedom.com/de_DE/installation/cli)
 - Auf einem [VM](https://doc.jeedom.com/de_DE/installation/vm)
-- Auf einem [Docker](https://doc.jeedom.com/de_DE/installation/docker). Notiz : Wir empfehlen diesen Installationsmodus nicht, da die Verwendung bestimmter Geräte aufgrund des Docker-Netzwerkmodus kompliziert ist
-- Auf einem [NAS-Synologie](https://doc.jeedom.com/de_DE/installation/synology). Notiz : Wir empfehlen diesen Installationsmodus nicht, da die Verwendung bestimmter Geräte aufgrund des Docker-Netzwerkmodus kompliziert ist
+- Auf einem [Docker/Synology](https://doc.jeedom.com/de_DE/installation/docker). Notiz : Wir empfehlen diesen Installationsmodus nicht, da die Verwendung bestimmter Geräte aufgrund des Docker-Netzwerkmodus kompliziert ist
 - Auf [Bare-Metal (Typ Intel Nuc))](https://doc.jeedom.com/de_DE/installation/baremetal)
 
 Vergessen Sie nach der Installation nicht, die Dokumentation zu lesen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)
