@@ -4,6 +4,8 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+
+- Correction d'un soucis sur l'installation de mqtt
 - Modification sur le sous-topic (c'est maintenant un champs de configuration propre à la commande), attention a bien mettre a jour vos commandes si vous vous en etes servi.
 - Modification de la syntaxe du champs logicalId pour les actions (passage en mode json::). Pour connaitre la nouvelle merci de consulter la documentation du plugin.
 - Rajout du port /dev/ttyAMA0 pour raspbee2 sur rpi

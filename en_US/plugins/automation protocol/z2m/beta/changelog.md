@@ -4,6 +4,8 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+
+- Fixed a problem with the installation of mqtt
 - Modification on the subtopic (it is now a configuration field specific to the command), be careful to update your commands if you have used them.
 - Modification of the syntax of the logicalId field for actions (change to json mode::). To find out the news, please consult the plugin documentation.
 - Adding the /dev/ttyAMA0 port for raspbee2 on rpi
