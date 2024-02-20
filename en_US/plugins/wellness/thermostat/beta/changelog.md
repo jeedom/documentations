@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 02/19/2024
+
 - Fixed a bug that creates invalid crons
 - Bug fix if there were 2 orders at the same time (thanks @phpvarious)
 

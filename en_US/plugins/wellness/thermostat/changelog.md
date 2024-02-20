@@ -4,6 +4,13 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Fixed a bug that creates invalid crons
+- Bug fix if there were 2 orders at the same time (thanks @phpvarious)
+
+# 03/01/2024
+
+- Preparing for jeedom 4.4
+
 # 12/19/2023
 
 - Possibility of entering negative values for Offsets commands relating to internal contributions

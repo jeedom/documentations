@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 19/02/2024
+
 - Corrigido um bug que cria crons inválidos
 - Correção de bug se houvesse 2 pedidos ao mesmo tempo (obrigado @phpvarious)
 
