@@ -294,6 +294,8 @@
         "Intégration de l'univers Netatmo": "Integration des Netatmo-Universums",
         "Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions (en fonction de l'appareil": "Es ist möglich, auf Gerätedaten zuzugreifen, sie zu überwachen und bestimmte Aktionen auszuführen (abhängig vom Gerät",
         "Plugin permettant d'intégrer tous les appareils de la gamme Miele@Home": "Plugin zur Einbindung aller Geräte der Miele@Home-Reihe",
+        "LG ThinQ": "LG ThinQ",
+        "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API LG ThinQ": "Plugin zum Abrufen von Informationen und zur Steuerung von Geräten, die mit der LG ThinQ API synchronisiert sind",
         "LG Smart Thinq": "LG Smart Thinq",
         "Plugin pour les Objets Connectés de la marque LG compatibles 'Smart Thinq APIv1": "Plugin für Connected Objects der Marke LG, kompatibel mit „Smart Thinq APIv1“",
         "Plugin permettant de piloter les robots aspirateurs (Roomba) et laveurs de sols (Braava) de la marque iRobot": "Plugin zur Steuerung von Saugrobotern (Roomba) und Scheuersaugmaschinen (Braava) der Marke iRobot",

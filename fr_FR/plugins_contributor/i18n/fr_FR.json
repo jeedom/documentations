@@ -165,6 +165,8 @@
         "Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions (en fonction de l'appareil": "Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions (en fonction de l'appareil",
         "Miele": "Miele",
         "Plugin permettant d'intégrer tous les appareils de la gamme Miele@Home": "Plugin permettant d'intégrer tous les appareils de la gamme Miele@Home",
+        "LG ThinQ": "LG ThinQ",
+        "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API LG ThinQ": "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API LG ThinQ",
         "LG Smart Thinq": "LG Smart Thinq",
         "Plugin pour les Objets Connectés de la marque LG compatibles 'Smart Thinq APIv1": "Plugin pour les Objets Connectés de la marque LG compatibles 'Smart Thinq APIv1",
         "iRobot": "iRobot",
