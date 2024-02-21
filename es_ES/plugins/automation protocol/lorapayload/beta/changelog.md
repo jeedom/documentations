@@ -11,8 +11,6 @@
 
 - Cambiar el tipo de módulo *Vista de millas EM500 PT100*
 
-- Agregar ID de pedido al complemento Lorapayload
-
 - Agregar configuración *Dragino D20-LB* (propiedades : Batería, Temperatura Rojo, Alarma, Nivel PA8, MOD)
 
 

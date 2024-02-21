@@ -11,8 +11,6 @@
 
 - Ändern des Modultyps *Milesight EM500 PT100*
 
-- Bestell-ID zum Lorapayload-Plugin hinzufügen
-
 - Konfiguration hinzufügen *Dragino D20-LB* (Eigenschaften : Batterie, Temperatur rot, Alarm, PA8-Pegel, MOD)
 
 
