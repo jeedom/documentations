@@ -9,6 +9,9 @@
 - Modification on the subtopic (it is now a configuration field specific to the command), be careful to update your commands if you have used them.
 - Modification of the syntax of the logicalId field for actions (change to json mode::). To find out the news, please consult the plugin documentation.
 - Adding the /dev/ttyAMA0 port for raspbee2 on rpi
+- Bug fix
+- Added a button to deactivate inclusion mode
+- Improved inclusion mode detection
 
 # 01/17/2024
 

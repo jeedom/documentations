@@ -9,6 +9,9 @@
 - Modificación del subtema (ahora es un campo de configuración específico del comando), tenga cuidado de actualizar sus comandos si los ha utilizado.
 - Modificación de la sintaxis del campo logicId para acciones (cambio a modo json::). Para conocer las novedades, consulte la documentación del complemento.
 - Agregar el puerto /dev/ttyAMA0 para raspbee2 en rpi
+- Arreglo del fallo
+- Se agregó un botón para desactivar el modo de inclusión
+- Detección del modo de inclusión mejorada
 
 # 17/01/2024
 
