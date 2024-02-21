@@ -55,16 +55,16 @@ The Payload tab is very important :
 
 Once done you can save. Following this, the next time you receive a frame, the commands for your equipment will update
 
-# Envoyer des commandes
+# Sending orders
 
-Certains modules Lorawan possèdent des commandes de type Action qui permettent d'envoyer des consignes aux modules via l'interface Jeedom.
+Some Lorawan modules have Action commands which can be used to send instructions to the modules via the Jeedom interface.
 
-Dans l'onglet Equipement du plugin LoraPayload :
+In the LoraPayload plugin's Equipment tab :
 
-- Vous devez choisir la commande d'envoi (que ce soit MQTT ou autres)
-- Vous devez choisir si voulez avoir une confirmation (Ack). C'est une information remontée dans MQTT sur un topic dédié qui n'influence pas les données remontées.
+- You must choose the  command (MQTT or other))
+- You must choose whether you want confirmation (Ack). This information is entered into MQTT on a dedicated topic and has no influence on the data entered.
 
-Concernant la commande d'envoi, dans le cas d'utilisation de MQTT, c'est une commande dans MQTT de type Action et de sous-type Message. Le topic est le topic dédié aux downlinks et la valeur de la commande est #message#.
+The send command, when used with MQTT, is an MQTT command of type Action and sub-type Message. The topic is the topic dedicated to downlinks and the value of the command is #message#.
 
 # FAQ
 

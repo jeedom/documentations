@@ -6,6 +6,16 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
+# 21/02/2024
+- Alterando o nível de log para determinadas informações geradas pelo plugin
+
+- Alterando o tipo de módulo *Milesight EM500 PT100*
+
+- Adicionando ID do pedido ao plugin Lorapayload
+
+- Adicionando configuração *Dragino D20-LB* (propriedades : Bateria, temperatura vermelha, alarme, nível PA8, MOD)
+
+
 # 19/01/2024
 - Adicionando configuração *RAK c15003* (propriedades : Temperatura, Umidade, Pressão, Temperatura2)
 

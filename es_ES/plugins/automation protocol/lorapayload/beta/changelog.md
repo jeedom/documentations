@@ -6,6 +6,16 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
+# 21/02/2024
+- Cambiar el nivel de registro para cierta información generada por el complemento
+
+- Cambiar el tipo de módulo *Vista de millas EM500 PT100*
+
+- Agregar ID de pedido al complemento Lorapayload
+
+- Agregar configuración *Dragino D20-LB* (propiedades : Batería, Temperatura Rojo, Alarma, Nivel PA8, MOD)
+
+
 # 19/01/2024
 - Agregar configuración *RAK c15003* (propiedades : Temperatura, Humedad, Presión, Temperatura2)
 
