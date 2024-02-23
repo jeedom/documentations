@@ -4,6 +4,12 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 22/02/2024
+
+- Rediseño completo del complemento
+- Uso de una nueva fuente de datos, no es necesario tener una cuenta a tu lado, todo pasa a través de la nube de Jeedom
+- Preparándose para el apuro 4.4
+
 # 19/01/2023
 
 - Revisión de plantillas de widgets de escritorio en javascript puro

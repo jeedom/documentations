@@ -4,6 +4,12 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 02/22/2024
+
+- Complete redesign of the plugin
+- Use of a new data source, no need for an account on your side, everything goes through the Jeedom cloud
+- Preparing for jeedom 4.4
+
 # 01/19/2023
 
 - Revision of desktop widget templates in pure javascript

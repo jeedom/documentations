@@ -4,6 +4,12 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 22.02.2024
+
+- Komplette Neugestaltung des Plugins
+- Nutzung einer neuen Datenquelle, kein Konto auf Ihrer Seite erforderlich, alles läuft über die Jeedom-Cloud
+- Vorbereitung auf Jeedom 4.4
+
 # 19.01.2023
 
 - Überarbeitung von Desktop-Widget-Vorlagen in reinem Javascript

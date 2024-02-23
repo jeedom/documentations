@@ -4,6 +4,8 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+- Corrigido um bug no acesso às gravações de vídeo
+
 # 24/01/2024
 
 - Melhoria de widget

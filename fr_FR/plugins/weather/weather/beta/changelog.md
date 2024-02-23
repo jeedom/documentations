@@ -4,6 +4,12 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 22/02/2024
+
+- Refonte complete du plugin
+- Utilisation d'une nouvelle source de données, plus besoin de compte de votre coté tout passe par le cloud Jeedom
+- Préparation pour jeedom 4.4
+
 # 19/01/2023
 
 - Révision des templates de widgets desktop en pur javascript

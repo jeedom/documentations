@@ -4,6 +4,12 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 22/02/2024
+
+- Reformulação completa do plugin
+- Uso de uma nova fonte de dados, sem necessidade de conta do seu lado, tudo passa pela nuvem Jeedom
+- Preparando-se para Jeedom 4.4
+
 # 19/01/2023
 
 - Revisão de modelos de widgets de desktop em javascript puro
