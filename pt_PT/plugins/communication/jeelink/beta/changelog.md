@@ -4,8 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 22/04/2024
+
 - Aviso de Javascript corrigido
 - Sincronização aprimorada de comandos vinculados
+- Preparação do núcleo v4.4
 
 # 26/01/2022
 

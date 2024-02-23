@@ -4,8 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 22/04/2024
+
 - Se corrigió la advertencia de Javascript
 - Sincronización mejorada de comandos vinculados
+- Preparación básica v4.4
 
 # 26/01/2022
 

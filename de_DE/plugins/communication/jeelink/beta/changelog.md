@@ -4,8 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 22.04.2024
+
 - Javascript-Warnung behoben
 - Verbesserte Synchronisation verknüpfter Befehle
+- Vorbereitung für Core v4.4
 
 # 26.01.2022
 

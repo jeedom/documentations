@@ -4,8 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 04/22/2024
+
 - Fixed Javascript warning
 - Improved synchronization of linked commands
+- Core v4.4 preparation
 
 # 01/26/2022
 
