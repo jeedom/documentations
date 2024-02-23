@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 23/02/2024
+
+- Suppression d'un check daemon launchable (fait au lancement du démon dans tous les cas)
+
 # 15/01/2024
 
 - Préparation pour jeedom 4.4

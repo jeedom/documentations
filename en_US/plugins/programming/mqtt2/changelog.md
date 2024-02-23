@@ -4,7 +4,7 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
-# 03/01/2024
+# 01/15/2024
 
 - Preparing for jeedom 4.4
 - Improved mosquitto management under Docker
