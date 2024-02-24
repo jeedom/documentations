@@ -496,7 +496,7 @@
         "Plugin permettant la lecture de données d'un onduleur de panneaux photovoltaïque de la marque Solaredge": "Plugin para leer datos de un inversor de panel fotovoltaico Solaredge",
         "Plugin pour la récupération des données d'une station de recharge WallBox": "Complemento para la recuperación de datos de una estación de carga WallBox",
         "Il peut utiliser plusieures dizaines de transformateurs de courant banals et transmettra les données localement via un serveur web intégré, ou les téléchargera vers n'importe lequel des sites web\/bases de données énergétiques tiers": "Puede usar varias docenas de transformadores de corriente comunes y transmitirá los datos localmente a través de un servidor web integrado, o los cargará en cualquiera de los sitios web\/bases de datos de energía de terceros",
-        "Plugin permettant de récupérer les informations sa box IoTaWatt": "Complemento para recuperar información de su caja IoTaWatt",
+        "Plugin permettant de récupérer les informations de sa box IoTaWatt": "Complemento que le permite recuperar información de su caja IoTaWatt",
         "com), et de créer des crons en fonction des événements": "com), y crear crons basados en eventos",
         "Hydro Québec": "Hidro Quebec",
         "Plugin permettant de récupérer les informations de consommation électrique d'Hydro-Québec (wwww.hydroquebec": "Complemento para recuperar información de consumo de electricidad de Hydro-Québec (wwww.hydroquebec",

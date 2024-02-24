@@ -247,7 +247,7 @@
         "Plugin pour la récupération des données d'une station de recharge WallBox": "Plugin pour la récupération des données d'une station de recharge WallBox",
         "Il peut utiliser plusieures dizaines de transformateurs de courant banals et transmettra les données localement via un serveur web intégré, ou les téléchargera vers n'importe lequel des sites web\/bases de données énergétiques tiers": "Il peut utiliser plusieures dizaines de transformateurs de courant banals et transmettra les données localement via un serveur web intégré, ou les téléchargera vers n'importe lequel des sites web\/bases de données énergétiques tiers",
         "IoTaWatt": "IoTaWatt",
-        "Plugin permettant de récupérer les informations sa box IoTaWatt": "Plugin permettant de récupérer les informations sa box IoTaWatt",
+        "Plugin permettant de récupérer les informations de sa box IoTaWatt": "Plugin permettant de récupérer les informations de sa box IoTaWatt",
         "com), et de créer des crons en fonction des événements": "com), et de créer des crons en fonction des événements",
         "Hydro Québec": "Hydro Québec",
         "Plugin permettant de récupérer les informations de consommation électrique d'Hydro-Québec (wwww.hydroquebec": "Plugin permettant de récupérer les informations de consommation électrique d'Hydro-Québec (wwww.hydroquebec",
