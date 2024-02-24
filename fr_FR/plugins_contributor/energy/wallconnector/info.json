@@ -1,7 +1,7 @@
 {
 	"id": "wallconnector",
 	"name": "Wall Connector (Tesla)",
-	"pluginVersion": "1.1.1",
+	"pluginVersion": "1.2.0",
 	"description": {
 		"fr_FR": "Ce plugin permet de calculer le coût et la consommation des charges de vos véhicules réalisées avec la borne de recharge Wall Connector Gen 3 de Tesla.",
 		"en_US": "Plugin for calculating the cost and consumption of vehicle charging using the Tesla Wall Connector Gen 3.",
