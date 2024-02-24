@@ -1,43 +1,45 @@
 {
-  "id": "arenti",
-  "name": "Arenti",
-  "description": {
-      "fr_FR": "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API Arenti",
-      "en_US": "Plugin to retrieve information and control synchronized devices on the Arenti API",
-      "es_ES": "Plugin para recuperar información y controlar dispositivos sincronizados en la API Arenti",
-      "pt_PT": "Plugin para recuperar informação e controlar dispositivos sincronizados no Arenti API",
-      "de_DE": "Plugin zum Abrufen von Informationen und zum Steuern von Geräten, die über die Arenti API synchronisiert wurden",
-      "it_IT": "Plugin per recuperare informazioni e controllare i dispositivi sincronizzati su Arenti API"
-  },
-  "utilization": "Après avoir entré l'identifiant et le mot de passe dans la page de configuration, lancez une synchronisation.</br>Toutes les commandes viendront au fur et à mesure : en lançant une impression, elles devraient toutes être créées.",
-  "licence": "AGPL",
-  "author": "DomoFlo1",
-  "require": "4.2",
-  "category": "devicecommunication",
-  "hasDependency": false,
-  "hasOwnDeamon": false,
-  "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-arenti-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-arenti-pour-jeedom/",
-  "link": {
-    "forum": "https://community.jeedom.com/tag/plugin-Arenti"
-  },
-  "language": [
-    "fr_FR",
-    "en_US",
-    "es_ES",
-    "pt_PT",
-    "de_DE",
-    "it_IT"
-  ],
-  "compatibility": [
-    "miniplus",
-    "smart",
-    "rpi",
-    "docker",
-    "diy",
-    "mobile",
-    "v4",
-    "atlas"
-  ]
+    "id": "arenti",
+    "name": "Arenti",
+    "description": {
+        "fr_FR": "Plugin permettant de récupérer toutes les informations et de piloter les appareils synchronisés sur l'API Arenti. Pour la visualisation du flux vidéo : création automatique d'un équipement caméra si vous avez le plugin caméra et que ONVIF a été activé sur l'appareil.",
+        "en_US": "Plugin to retrieve all information and control devices synchronized with the Arenti API. For video stream viewing: automatic creation of a camera device if you have the camera plugin and ONVIF has been activated on the device.",
+        "es_ES": "Plugin para recuperar toda la información y controlar los dispositivos sincronizados con la API de Arenti. Para ver el flujo de vídeo: creación automática de un dispositivo de cámara si dispone del plugin de cámara y se ha activado ONVIF en el dispositivo.",
+        "pt_PT": "Plugin para obter todas as informações e controlar os dispositivos sincronizados com a API Arenti. Para visualizar o fluxo de vídeo: criação automática de um dispositivo de câmara se tiver o plugin de câmara e se o ONVIF tiver sido ativado no dispositivo.",
+        "de_DE": "Plugin zum Abrufen aller Informationen und zum Steuern von Geräten, die mit der Arenti API synchronisiert sind. Für die Anzeige des Videostreams: Automatische Erstellung einer Kameraausrüstung, wenn Sie das Kamera-Plugin haben und ONVIF auf dem Gerät aktiviert wurde.",
+        "it_IT": "Plugin per il recupero di tutte le informazioni e il controllo dei dispositivi sincronizzati con l'API Arenti. Per la visualizzazione del flusso video: creazione automatica di un dispositivo telecamera se si dispone del plugin telecamera e se ONVIF è stato attivato sul dispositivo."
+    },
+    "utilization": "Après avoir entré l'identifiant et le mot de passe dans la page de configuration, lancez une synchronisation.</br>Toutes les commandes viendront au fur et à mesure : en lançant une impression, elles devraient toutes être créées.",
+    "licence": "AGPL",
+    "author": "DomoFlo1",
+    "require": "4.2",
+    "category": "devicecommunication",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-arenti-pour-jeedom/",
+    "changelog_beta": "https://flobul-domotique.fr/liste-des-versions-du-plugin-arenti-pour-jeedom/",
+    "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-arenti-pour-jeedom/",
+    "documentation_beta": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-arenti-pour-jeedom/",
+    "link": {
+        "forum": "https://community.jeedom.com/tag/plugin-Arenti"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "pt_PT",
+        "de_DE",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas"
+    ]
 }
