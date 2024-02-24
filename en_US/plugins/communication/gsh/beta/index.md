@@ -6,23 +6,23 @@ This plugin allows you to :
 
 It can work in 2 ways :
 
-- Standalone : you create the applications in dev mode on the Google side then connect your Jeedom to the Google service
+- Standalone : you create the applications in dev mode on Google side then connect your Jeedom to the Google service
 - Cloud : via a cloud service provided by Jeedom
 
 > **Important**
 >
-> Cloud mode requires a subscription to voice services (3 months offered when purchasing the plugin). You can manage your subscription [here](https://market.jeedom.com/index.php?v=d&p=profils#services)
+> Cloud mode requires a subscription to voice services (3 months free when purchasing the plugin). You can manage your subscription [here](https://market.jeedom.com/index.php?v=d&p=profils#services)
 
 > **Important**
 >
 > GOOGLE requires that your Jeedom be accessible in HTTPS (the plugin does not work in HTTP) with a valid certificate (therefore no self-signed certificate)
 >
 > Thanks to the Power or Ultimate Service Packs, your Jeedom is accessible via HTTPS.
-> If you have a Community Service Pack, you must install yourself an SSL certificate issued by a certification authority (ex: Let's encrypt, ...).
+> If you have a Community Service Pack, you must install yourself an SSL certificate issued by a certification authority (ex: Let's encrypt).
 
 > **Important**
 >
-> The plugin does not support equipment with dual functions (2 output as certain zwave Fibaro module). You absolutely have to go through 2 virtual ones to break it down.
+> The plugin does not support equipment with dual functions (2 outputs like certain zwave Fibaro modules). You absolutely have to go through 2 virtual ones to break it down.
 
 # Cloud mode
 
@@ -32,16 +32,16 @@ It can work in 2 ways :
 
 > **Important**
 >
-> If you have an error message telling you that your user password or not is not correct you must :
+> If you get an error message telling you that your user password or password is incorrect, you must :
 > - check that Google Home is active on the market
-> - if this is the case, be sure of your identifiers (attention you must respect upper / lower case) ?
-> - if this is the case change your password on the market and on the configuration of the voice assistant service (market profiles page tab my services) have it saved
+> - if this is the case, are you sure of your identifiers (be careful, you must respect upper/lower case) ?
+> - if this is the case, change your password on the market and on the configuration of the voice assistant service (market profile page my services tab) save
 
 After installing the plugin, simply go to the configuration of the plugin, select the Cloud mode then click on "Send" (this will send the connection information to the plugin API on the market)
 
-Then in Jeedom in Communication / Google Smarthome you must click on save to send your initial configuration, you need at least one device in OK (otherwise when connecting Google Home <-> Jeedom you will get an error)
+Then in Jeedom in Communication/Google Smarthome you must click on save to send your initial configuration, you need at least one device in OK (otherwise when connecting Google Home <-> Jeedom you will have an error)
 
-Then on the Google home application you have to go to the first tab click on Add (the +) :
+Then on the Google Home application you have to go to the first tab click on Add (the +) :
 
 ![gsh](../images/gsh29.png)
 
@@ -61,7 +61,7 @@ Enter your market identifiers (well those market not those of your Jeedom).
 
 ![gsh](../images/gsh6.png)
 
-In plugin -> communication -> Google Smarthome you can configure your different equipment (see chapter Configuration of the plugin)
+In plugins -> communication -> Google Smarthome you can configure your different equipment (see chapter Plugin configuration)
 
 >**NOTE**
 >
@@ -69,7 +69,7 @@ In plugin -> communication -> Google Smarthome you can configure your different 
 >- in the plugin go to cloud then save
 >- wait 24h
 >- in the Google home application you must dissociate testsmarthome (your standalone application)
->- in Communication / Google Smarthome click on save to send your initial configuration
+>- in Communication/Google Smarthome you must click on save to send your initial configuration
 >- Link Jeedom Smarthome in Google Home
 
 
@@ -81,11 +81,11 @@ In plugin -> communication -> Google Smarthome you can configure your different 
 
 > **Important**
 >
-> Google modifying (very) often the interface we do not have the human resources to redo all the captures each time. There can therefore be big differences between the captures and the reality
+> Google modifies the interface (very) often, we do not have the human resources to redo all the screen captures each time. There can therefore be big differences between the captures and reality
 
 > **Important**
 >
-> If you have used cloud mode you should not do this part !!! Go directly to the chapter "Plugin configuration"
+> If you have used cloud mode you should not do this part !!! Go directly to the “Plugin configuration” chapter"
 
 > **Important**
 >
@@ -104,7 +104,7 @@ As a reminder, the plugin allows you to :
 - use the native implementation of Google for the management of connected objects
 - use jeedom interactions using "Talk to ..."
 
-There are therefore 2 applications listed on Google : one for the Google Smarthome part and one for the interaction part (you can of course do only one of the 2)
+There are therefore 2 applications listed on Google : one for the Google Smarthome part and one for the interaction part (you can of course only do one of the 2)
 
 ## Google Smarthome app
 
@@ -112,7 +112,7 @@ Come on [here](https://console.actions.google.com) then click on "Add / import p
 
 ![gsh](../images/gsh7.png)
 
-Give a name to the project change the default language and region and validate :
+Give a name to the project change default language and region and validate :
 
 ![gsh](../images/gsh8.png)
 
@@ -140,7 +140,7 @@ Then "Add your first action" :
 
 ![gsh](../images/gsh14.png)
 
-We will have to give here the url to arrive from Jeedom. To get it it's very simple, in Jeedom you have to go to the plugin management page, choose the "Standalone" mode (and save in passing), the url is the one called "Fulfillment URL"
+You will have to give here the arrival URL of Jeedom. To get it it's very simple, in Jeedom you have to go to the plugin management page, choose the "Standalone" mode (and save in passing), the url is the one called "Fulfillment URL"
 
 ![gsh](../images/gsh15.png)
 
@@ -177,7 +177,7 @@ Write "Toto" then do "Save" :
 
 ![gsh](../images/gsh20.png)
 
-Now configure the homegraph API key, for that go [here](https://console.developers.google.com/apis/dashboard), then right click on "Library" :
+You must now configure the homegraph API key, to do this go [here](https://console.developers.google.com/apis/dashboard), then right click on "Library" :
 
 ![gsh](../images/gsh21.png)
 
@@ -205,11 +205,11 @@ Click on "Create identifiers" then on "API key" :
 
 ![gsh](../images/gsh26.png)
 
-Copy the API key generated and paste it on the Google Smarthome plugin management page in "Google API Homegraph"
+Copy the generated API key and paste it on the Google Smarthome plugin management page in "Homegraph API Google"
 
-Last step to give Jeedom the project id to manage the connection, go [here](https://console.actions.google.com) then click on your project. Recuperez l'url de la forme "https://console.actions.google.com / u / 0 / project / myproject-31023 / overview ", the project id is between project / and / overview, in the example here it is" myproject-31023 ", copy this id on the management page the Google Smarthome plugin in "Smarthome Project ID".
+Last step to give Jeedom the project id to manage the connection, go [here](https://console.actions.google.com) then click on your project. Récuperez l'url de la forme "https://console.actions.google.com / u / 0 / project / myproject-31023 / overview ", the project id is between project / and / overview, in the example here it is" myproject-31023 ", copy this id on the management page the Google Smarthome plugin in "Smarthome Project ID".
 
-Here you can now click on the left on "Action" :
+That's it, you can now click on the left on "Action" :
 
 ![gsh](../images/gsh27.png)
 
@@ -221,30 +221,30 @@ Then you need on a smartphone **android** (must not work on an iphone) connect t
 
 ## Jwt configuration
 
-JWT allows you to automatically report any change in the status of an item of equipment sent to Google, which therefore allows you to have the status more quickly when you request it from Google Home or the Google Home app. It is not compulsory to configure it however if you check the box "Go back to the state" it is absolutely necessary to have done so for it to work.
+JWT allows you to automatically report any change in the status of an item of equipment sent to Google, which therefore allows you to have the status more quickly when you request it from Google Home or the Google Home app. It is not obligatory to configure it, however if you check the "Report status" box, you absolutely must have done it for it to work.
 
 To make the configuration you need
 
-* go [here](https://console.developers.google.com/iam-admin/serviceaccounts), if Google asks you to choose the project (the one created just above).
+* go [here](https://console.developers.google.com/iam-admin/serviceaccounts), if Google asks you, you must choose the project (the one created just above).
 * Click on create a service account
   * Give it a name (you can put whatever you want, avoid )
-  * Recover the generated email just below to copy it into the configuration of the plugin on Jeedom (fields : Mail client (JWT))
+  * Retrieve the email generated just below to copy it into the plugin configuration on Jeedom (fields : Mail client (JWT))
   * Click on create
   * Click on continue without modifying anything
   * Click on "Create a key"
     * Leave JSON and click OK
   * Click on OK
-  * Open the downloaded file and copy the 'private_key' part (starts with "----- BEGIN PRIVATE KEY -----", included and ends with "----- END PRIVATE KEY ----- \ n ", included without") in the configuration of the plugin on Jeedom (fields : Private key (JWT))
+  * Open the downloaded file and copy the 'private_key' part (starts with "-----BEGIN PRIVATE KEY-----", included and ends with "-----END PRIVATE KEY-----\n ", included without the ") in the plugin configuration on Jeedom (fields : Private key (JWT))
 
 # Plugin configuration
 
-On your Jeedom, go to Plugin -> Communication -> Google Smarthome and in the equipment section select the equipment to be transmitted to Google as well as the type of equipment.
+On your Jeedom, go to Plugins -> Communication -> Google Smarthome and in the equipment section select the equipment to transmit to Google as well as the type of equipment.
 
 ![gsh](../images/gsh2.png)
 
 > **Important**
 >
-> The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly.You can see [here](https://doc.jeedom.com/en_US/core/4.2/types) the documentation on generic type
+> The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly.You can see [here](https://doc.jeedom.com/en_US/core/4.4/types) documentation on typical generics
 
 > **NOTE**
 >
@@ -256,24 +256,24 @@ On your Jeedom, go to Plugin -> Communication -> Google Smarthome and in the equ
 On equipment you can configure :
 
 * Options :
-  * Transmit : send the equipment to Google Home so that it can control it (please note that the configuration of the generic credits is OK)
-  * Raise the state : send any change of state information to Google directly (this avoids that during a request for information Google Home questions Jeedom). See section "JWT Configuration"
+  * Transmit : sends the equipment to Google Home so that it can be controlled (be careful, the configuration of the generic types must be OK)
+  * Raise the state : sending any state change information to Google directly (this prevents Google Home from querying Jeedom when requesting information). See section "JWT Configuration"
   * Challenge [None, Code] : if in code mode then Google will ask you for a Code (the one indicated just below) for each action on the equipment
-* Status : indicates if the transmission is OK, if it is NOK then it comes from Generic type. If you click on NOK you can have the information about the generic type needed
+* Status : indicates if the transmission is OK, if it is NOK then it comes from Generic type. If you click on NOK you can have the information on the necessary generic types
 * Type : indicates the type of equipment
 * Pseudo : device nickname, if empty then the device name is used
 * Action :
   * Allows advanced configuration of equipment for Google Home (depends on the type used)
-  * Advanced configuration of equipment, allows access to advanced configuration of commands and therefore to modify generic types
+  * Advanced equipment configuration, allows access to advanced command configuration and therefore modification of generic types
   * Allows you to go directly to the equipment configuration page
 
 ### Type
 
-The types of equipment are important this allows Google to react according to the sentences you say.
+The types of equipment are important this allows Google to react based on the sentences you say.
 
 > **Important**
 >
-> Jeedom support for "beta" types not yet documented at Google so that may or may not work depending on updates at google
+> Jeedom supports "beta" types not yet documented at Google so which may or may not work depending on updates at Google
 
 > **Important**
 >
@@ -281,7 +281,7 @@ The types of equipment are important this allows Google to react according to th
 
 ## Scenario
 
-You can also create scenes in the scene tab, with input and output actions.
+You can also create scenes in the scenario tab, with entry and exit actions.
 
 ![gsh](../images/gsh3.png)
 
@@ -291,7 +291,7 @@ You can also create scenes in the scene tab, with input and output actions.
 
 > **NOTE**
 >
-> When saving Jeedom will automatically request synchronization with Google. Attention in standalone mode if you have an error (type "Requested entity was not found") try to reactivate the test of the application ([here](https://console.actions.google.com)) then click again on the connection button on the page the plugin configuration page. Also check the configuration (especially the oauth part) of your google application (sometimes the fields are cleared by Google)
+> When saving Jeedom will automatically request synchronization with Google. Attention in standalone mode if you have an error (type "Requested entity was not found") try to reactivate the test of the application ([here](https://console.actions.google.com)) then click again on the connection button on the plugin configuration page. Also check the configuration (especially the oauth part) of your Google application (sometimes the fields are deleted by Google)
 
 All you have to do is assign the equipment to the rooms in the Google Home app
 
@@ -300,16 +300,16 @@ All you have to do is assign the equipment to the rooms in the Google Home app
 >**I can't make the association in cloud mode ?**
 >
 > We must verify that :
-> - you are fine in https (if you have a service pack, use jeeodm DNS these are secure by default)
-> - you have activated Google assistant on the market (profile page, tab my services then configuration in the voice assistant section)
-> - you have subscribed to the voice services subscription and it is still valid (necessary from 01/06/2019). This can be seen on your market profiles page, tab my services
-> - it is necessary in plugin -> communication -> Google Smarthome select "transmit" equipment and set the type and finally save
+> - you are in https (if you have a service pack, use jeedom DNS these are secure by default)
+> - you have activated Google Assistant on the market (profiles page, my services tab then configuration in the Voice assistants section)
+> - you have subscribed to the voice services subscription and it is still valid (necessary from 01/06/2019). This can be seen on your market profiles page, my services tab
+> - you must in plugins -> communication -> Google Smarthome select "transmit" equipment and set the type and finally save
 > - use your market credentials well
-> - if you are in certificate let's encrypt forget to put the root and the intermediary in the certification chain
+> - if you have a let's encrypt certificate, don't forget to put the root and the intermediary in the certification chain
 > - no OK module (you must have one otherwise google refuses to link)
-> - if you are on your own domain having concerns about resolving an ip domain name, no idea why. On the jeedom side, the DNS are those provided by default by OVH (we have no control over it anyway). I even had the case of a user having the DNS at OVH and yet unable to resolve it on our machines
+> - if you are on your own domain, problems resolving the domain name in IP, no idea why. On the jeedom side, the DNS are those provided by default by OVH (we have no control over it anyway). I even had the case of a user having the DNS at OVH and yet unable to resolve it on our machines
 > - Problem with the phone, on some brand the browser is either outdated or not chrome by default and it causes problems to make the link
-> - If you still have the problem despite this try to send only a light type module
+> - If you still have the problem, try sending only a light type module
 
 
 >**What are the possible orders ?**
@@ -330,9 +330,9 @@ All you have to do is assign the equipment to the rooms in the Google Home app
 
 >**I get the error message "Cant find resource 404" when saving**
 >
->So no worries everything is saved, it's just automatic synchronization that is not done. To make it say "Synchronize my devices" to your assistant. To try to correct this concern :
+>So no worries, everything is saved, it's just the automatic synchronization that is not done. To make it say "Synchronize my devices" to your assistant. To try to correct this problem :
 > go to the next page [here](https://console.cloud.google.com/cloud-resource-manager). On this page you will see the list of all projects even those invisible on the google actions page. Delete all unused projects.
-> Then redo the tutorial from the step configure the API key Homegraph (activation, generation of key, then dissociate jeedom from your google account and redo the link)
+> Then redo the tutorial from the step configure the Homegraph API key (activation, key generation, then dissociate jeedom from your Google account and redo the link)
 
 
 >**You have a link error or Unable to update the parameter, check your connection in cloud mode**
@@ -341,11 +341,11 @@ All you have to do is assign the equipment to the rooms in the Google Home app
 
 >**I get the error "Apparently Jeedom Smart Home is unavailable at the moment." or "Sorry I can't connect to Jeedom Smart Home."**
 >
->Try to un-associate / re-associate the Google smarthome app. Be careful to take the official application and not a [TEST] application if you have used standalone mode before. If the problem persists watch (especially in a scene) that the execution time remains less than 2s (maximum allowed by Google)
+>Try to un-associate / re-associate the Google smarthome app. Be careful to use the official application and not a [TEST] application if you have used standalone mode before. If the problem persists, check (especially in a scene) that the execution time remains less than 2s (maximum allowed by Google)
 
 >**When adding equipment I have NOK**
 >
->Just click on the NOK a window will tell you the generic type to have on the equipment controls for it to work. You can see [here](https://doc.jeedom.com/en_US/concept/generic_type) the documentation on generic type
+>Simply click on the NOK a window will tell you the type generics to have on the equipment controls for this to work. You can see [here](https://doc.jeedom.com/en_US/concept/generic_type) the documentation on generic type
 
 >**Changing the speed on a fan does not work**
 >

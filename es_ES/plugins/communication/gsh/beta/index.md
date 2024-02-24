@@ -6,23 +6,23 @@ Este complemento te permite :
 
 Puede funcionar de 2 maneras :
 
-- Independiente : crea las aplicaciones en modo de desarrollo en el lado de Google y luego conecta su Jeedom al servicio de Google
+- Independiente : creas las aplicaciones en modo de desarrollo en el lado de Google y luego conectas tu Jeedom al servicio de Google
 - Nube : a través de un servicio en la nube proporcionado por Jeedom
 
 > **Importante**
 >
-> El modo en la nube requiere una suscripción a los servicios de voz (se ofrecen 3 meses al comprar el complemento). Puedes gestionar tu suscripción [aquí](https://market.jeedom.com/index.php?v=d&p=profils#services)
+> El modo nube requiere una suscripción a servicios de voz (3 meses gratis al comprar el complemento)). Puedes gestionar tu suscripción [aquí](https://market.jeedom.com/index.php?v=d&p=profils#services)
 
 > **Importante**
 >
 > GOOGLE requiere que su Jeedom sea accesible en HTTPS (el complemento no funciona en HTTP) con un certificado válido (por lo tanto, sin certificado autofirmado)
 >
 > Gracias a los paquetes de servicio Power o Ultimate, se puede acceder a su Jeedom a través de HTTPS.
-> Si tiene un Community Service Pack, debe instalar usted mismo un certificado SSL emitido por una autoridad de certificación (p. Ej: Vamos a cifrar, ...).
+> Si tiene un Community Service Pack, debe instalar usted mismo un certificado SSL emitido por una autoridad de certificación (p. Ej: Vamos a cifrar).
 
 > **Importante**
 >
-> El complemento no es compatible con equipos con funciones duales (2 salidas como cierto módulo zwave Fibaro). Absolutamente tienes que pasar por 2 virtuales para descomponerlo.
+> El complemento no admite equipos con funciones duales (2 salidas como ciertos módulos zwave Fibaro). Absolutamente tienes que pasar por 2 virtuales para descomponerlo.
 
 # Modo nube
 
@@ -32,16 +32,16 @@ Puede funcionar de 2 maneras :
 
 > **Importante**
 >
-> Si tiene un mensaje de error que le indica que su contraseña de usuario o no es correcta, debe :
+> Si recibe un mensaje de error que le indica que su contraseña de usuario o contraseña es incorrecta, debe :
 > - comprobar que Google Home está activo en el mercado
-> - si este es el caso, asegúrese de sus identificadores (atención debe respetar mayúsculas / minúsculas)) ?
-> - si este es el caso, cambie su contraseña en el mercado y en la configuración del servicio de asistente de voz (pestaña de página de perfiles de mercado mis servicios) guarde
+> - Si este es el caso, ¿estás seguro de tus identificadores (ojo, debes respetar mayúsculas/minúsculas)?) ?
+> - si este es el caso, cambia tu contraseña en el mercado y en la configuración del servicio de asistente de voz (página perfil mercado pestaña mis servicios) guardar
 
 Después de instalar el complemento, simplemente vaya a la configuración del complemento, seleccione el modo Cloud y luego haga clic en "Enviar" (esto enviará la información de conexión a la API del complemento en el mercado)
 
-Luego, en Jeedom in Communication / Google Smarthome debe hacer clic en guardar para enviar su configuración inicial, necesita al menos un dispositivo en Aceptar (de lo contrario, al conectar Google Home <-> Jeedom obtendrá un error)
+Luego en Jeedom en Comunicación/Google Smarthome debes hacer clic en guardar para enviar tu configuración inicial, necesitas al menos un dispositivo en OK (de lo contrario al conectar Google Home <-> Jeedom tendrás un error)
 
-Luego, en la aplicación de inicio de Google, debe ir a la primera pestaña y hacer clic en Agregar (el +) :
+Luego en la aplicación Google Home tienes que ir a la primera pestaña hacer clic en Agregar (el +) :
 
 ![gsh](../images/gsh29.png)
 
@@ -61,7 +61,7 @@ Ingrese sus identificadores de mercado (bueno, esos mercados no son los de su Je
 
 ![gsh](../images/gsh6.png)
 
-En el complemento -> comunicación -> Google Smarthome puede configurar sus diferentes equipos (consulte el capítulo Configuración del complemento)
+En complementos -> comunicación -> Google Smarthome podrás configurar tus diferentes equipos (ver capítulo Configuración de complementos)
 
 >**Nota**
 >
@@ -69,7 +69,7 @@ En el complemento -> comunicación -> Google Smarthome puede configurar sus dife
 >- en el complemento ir a la nube y luego guardar
 >- espera 24h
 >- en la aplicación de inicio de Google debe disociar testsmarthome (su aplicación independiente)
->- en Comunicación / Google Smarthome, haga clic en Guardar para enviar su configuración inicial
+>- en Comunicación/Google Smarthome debes hacer clic en guardar para enviar tu configuración inicial
 >- Enlace Jeedom Smarthome en Google Home
 
 
@@ -81,11 +81,11 @@ En el complemento -> comunicación -> Google Smarthome puede configurar sus dife
 
 > **Importante**
 >
-> Google modificando (muy) a menudo la interfaz no tenemos los recursos humanos para rehacer todas las capturas cada vez. Por tanto, puede haber grandes diferencias entre las capturas y la realidad
+> Google modifica la interfaz (muy) a menudo, no tenemos los recursos humanos para rehacer todas las capturas de pantalla cada vez. Por tanto, puede haber grandes diferencias entre las capturas y la realidad
 
 > **Importante**
 >
-> Si ha utilizado el modo nube, no debe hacer esta parte !!! Vaya directamente al capítulo "Configuración del complemento"
+> Si ha utilizado el modo nube, no debe hacer esta parte !!! Vaya directamente al capítulo “Configuración del complemento”"
 
 > **Importante**
 >
@@ -104,7 +104,7 @@ Como recordatorio, el complemento te permite :
 - usar la implementación nativa de Google para la gestión de objetos conectados
 - usar interacciones de jeedom usando "Talk to ..."
 
-Por lo tanto, hay 2 aplicaciones que figuran en Google : uno para la parte de Google Smarthome y otro para la parte de interacción (por supuesto, solo puede hacer uno de los 2)
+Por lo tanto, hay 2 aplicaciones que figuran en Google : uno para la parte de Google Smarthome y otro para la parte de interacción (por supuesto, solo puedes hacer una de las 2)
 
 ## Aplicación Google Smarthome
 
@@ -112,7 +112,7 @@ Vamos [aquí](https://console.actions.google.com) luego haga clic en "Agregar / 
 
 ![gsh](../images/gsh7.png)
 
-Dé un nombre al proyecto, cambie el idioma y la región predeterminados y valide :
+Dale un nombre al proyecto, cambia el idioma y la región predeterminados y valida :
 
 ![gsh](../images/gsh8.png)
 
@@ -140,7 +140,7 @@ Luego "Agregue su primera acción" :
 
 ![gsh](../images/gsh14.png)
 
-Tendremos que dar aquí la url para llegar desde Jeedom. Para tenerlo es muy simple, en Jeedom tienes que ir a la página de administración de complementos, elegir el modo "Independiente" (y guardar de pasada), la URL es la llamada "URL de cumplimiento"
+Tendrás que dar aquí la URL de llegada de Jeedom. Para tenerlo es muy simple, en Jeedom tienes que ir a la página de administración de complementos, elegir el modo "Independiente" (y guardar de pasada), la URL es la llamada "URL de cumplimiento"
 
 ![gsh](../images/gsh15.png)
 
@@ -173,11 +173,11 @@ No hay nada que hacer simplemente "Siguiente" :
 
 ![gsh](../images/gsh19.png)
 
-Escribe "Toto" y luego haz "Guardar" :
+Escribe "Toto" y luego haz "Guardar"" :
 
 ![gsh](../images/gsh20.png)
 
-Ahora configure la clave API de homegraph, para eso vaya [aquí](https://console.developers.google.com/apis/dashboard), luego haga clic derecho en "Biblioteca" :
+Ahora debes configurar la clave API de homegraph, para hacer esto ve [aquí](https://console.developers.google.com/apis/dashboard), luego haga clic derecho en "Biblioteca" :
 
 ![gsh](../images/gsh21.png)
 
@@ -205,11 +205,11 @@ Haga clic en "Crear identificadores" y luego en "Clave API"" :
 
 ![gsh](../images/gsh26.png)
 
-Copie la clave API generada y péguela en la página de administración del complemento de Google Smarthome en "Google API Homegraph"
+Copie la clave API generada y péguela en la página de administración del complemento Google Smarthome en "Homegraph API Google"
 
-Último paso para darle a Jeedom la identificación del proyecto para administrar la conexión, vaya [aquí](https://console.actions.google.com) luego haga clic en su proyecto. Recuperez l'url de la forme "https://console.actions.google.com / u / 0 / project / myproject-31023 / overview ", la identificación del proyecto está entre project / y / overview, en el ejemplo aquí es" myproject-31023 ", copie esta identificación en la página de administración el complemento de Google Smarthome en "ID del proyecto Smarthome".
+Último paso para darle a Jeedom la identificación del proyecto para administrar la conexión, vaya [aquí](https://console.actions.google.com) luego haga clic en su proyecto. Récuperez l'url de la forme "https://console.actions.google.com / u / 0 / project / myproject-31023 / overview ", la identificación del proyecto está entre project / y / overview, en el ejemplo aquí es" myproject-31023 ", copie esta identificación en la página de administración el complemento de Google Smarthome en "ID del proyecto Smarthome".
 
-Aquí puede hacer clic a la izquierda en "Acción" :
+Eso es todo, ahora puedes hacer clic a la izquierda en "Acción" :
 
 ![gsh](../images/gsh27.png)
 
@@ -221,11 +221,11 @@ Entonces lo necesitas en un teléfono inteligente **Androide** (no debe funciona
 
 ## Configuración Jwt
 
-JWT le permite informar automáticamente cualquier cambio en el estado de un elemento del equipo enviado a Google, lo que le permite tener el estado más rápidamente cuando lo solicita desde Google Home o la aplicación Google Home. No es obligatorio configurarlo, sin embargo, si marca la casilla "Volver al estado", es absolutamente necesario haberlo hecho para que funcione.
+JWT le permite informar automáticamente cualquier cambio en el estado de un elemento del equipo enviado a Google, lo que le permite tener el estado más rápidamente cuando lo solicita desde Google Home o la aplicación Google Home. No es obligatorio configurarlo, sin embargo si marcas la casilla "Estado del informe" es absolutamente necesario haberlo hecho para que funcione.
 
 Para hacer la configuración necesitas
 
-* ir [aquí](https://console.developers.google.com/iam-admin/serviceaccounts), si Google le pide que elija el proyecto (el creado justo arriba).
+* ir [aquí](https://console.developers.google.com/iam-admin/serviceaccounts), si Google te pregunta, debes elegir el proyecto (el creado justo arriba).
 * Haga clic en crear una cuenta de servicio
   * Dale un nombre (puedes poner lo que quieras, evitar )
   * Recupere el correo electrónico generado justo debajo para copiarlo en la configuración del complemento en Jeedom (campos : Cliente de correo (JWT))
@@ -234,17 +234,17 @@ Para hacer la configuración necesitas
   * Haga clic en "Crear una clave"
     * Deje JSON y haga clic en Aceptar
   * Haga clic en Aceptar
-  * Abra el archivo descargado y copie la parte 'private_key' (comienza con "----- BEGIN PRIVATE KEY -----", incluido y termina con "----- END PRIVATE KEY ----- \ n ", incluido sin") en la configuración del complemento en Jeedom (campos : Clave privada (JWT))
+  * Abra el archivo descargado y copie la parte 'private_key' (comienza con "-----BEGIN PRIVATE KEY-----", incluida y termina con "-----END PRIVATE KEY-----\n ", incluido sin ") en la configuración del complemento en Jeedom (campos : Clave privada (JWT))
 
 # Configuración del plugin
 
-En su Jeedom, vaya a Complemento -> Comunicación -> Google Smarthome y en la sección de equipos seleccione el equipo que se transmitirá a Google, así como el tipo de equipo.
+En tu Jeedom, ve a Complementos -> Comunicación -> Google Smarthome y en la sección de equipos selecciona el equipo a transmitir a Google así como el tipo de equipo.
 
 ![gsh](../images/gsh2.png)
 
 > **Importante**
 >
-> El complemento se basa en los tipos genéricos de comandos Jeedom para controlar la automatización de su hogar. Por lo tanto, es muy importante configurarlos correctamente.Podéis ver [aquí](https://doc.jeedom.com/es_ES/core/4.2/types) la documentación sobre tipo genérico
+> El complemento se basa en los tipos genéricos de comandos Jeedom para controlar la automatización de su hogar. Por lo tanto, es muy importante configurarlos correctamente.Podéis ver [aquí](https://doc.jeedom.com/es_ES/core/4.4/types) documentación sobre genéricos típicos
 
 > **Nota**
 >
@@ -256,24 +256,24 @@ En su Jeedom, vaya a Complemento -> Comunicación -> Google Smarthome y en la se
 En el equipo puede configurar :
 
 * Opciones :
-  * Transmitir : envíe el equipo a Google Home para que pueda controlarlo (tenga en cuenta que la configuración de los créditos genéricos está bien)
-  * Elevar el estado : enviar cualquier cambio de información de estado a Google directamente (esto evita que durante una solicitud de información Google Home cuestione Jeedom). Consulte la sección "Configuración de JWT"
+  * Transmitir : envía el equipo a Google Home para que pueda controlarlo (ojo, la configuración de los tipos genéricos debe ser OK))
+  * Elevar el estado : enviar cualquier información de cambio de estado a Google directamente (esto evita que Google Home consulte a Jeedom cuando solicita información)). Consulte la sección "Configuración de JWT"
   * Desafío [Ninguno, Código] : si está en modo de código, Google le pedirá un código (el que se indica a continuación) para cada acción en el equipo
-* Estado : indica si la transmisión está bien, si es NOK, entonces proviene del tipo genérico. Si hace clic en NOK, puede obtener la información sobre el tipo genérico necesario
+* Estado : indica si la transmisión está bien, si es NOK, entonces proviene del tipo genérico. Si haces clic en NOK podrás tener la información de los tipos genéricos necesarios
 * Tipo : indica el tipo de equipo
 * Apodo : apodo del dispositivo, si está vacío, se usa el nombre del dispositivo
 * Acción :
   * Permite la configuración avanzada de equipos para Google Home (depende del tipo utilizado)
-  * Configuración avanzada de equipos, permite el acceso a la configuración avanzada de comandos y, por lo tanto, a modificar tipos genéricos
+  * Configuración avanzada del equipo, permite acceder a configuración avanzada de comandos y por tanto modificación de tipos genéricos
   * Le permite ir directamente a la página de configuración del equipo
 
 ### Type
 
-Los tipos de equipos son importantes, esto le permite a Google reaccionar de acuerdo con las oraciones que dices.
+Los tipos de equipos son importantes, esto permite a Google reaccionar en función de las frases que dices.
 
 > **Importante**
 >
-> El soporte de Jeedom para los tipos "beta" aún no está documentado en Google, por lo que puede o no funcionar dependiendo de las actualizaciones en Google
+> Jeedom admite tipos "beta" que aún no están documentados en Google, por lo que pueden funcionar o no dependiendo de las actualizaciones de Google
 
 > **Importante**
 >
@@ -281,7 +281,7 @@ Los tipos de equipos son importantes, esto le permite a Google reaccionar de acu
 
 ## Escenario
 
-También puede crear escenas en la pestaña de escena, con acciones de entrada y salida.
+También puedes crear escenas en la pestaña de escenario, con acciones de entrada y salida.
 
 ![gsh](../images/gsh3.png)
 
@@ -291,7 +291,7 @@ También puede crear escenas en la pestaña de escena, con acciones de entrada y
 
 > **Nota**
 >
-> Al guardar Jeedom solicitará automáticamente la sincronización con Google. Atención en modo independiente si tiene un error (escriba "No se encontró la entidad solicitada") intente reactivar la prueba de la aplicación ([aquí](https://console.actions.google.com)) luego haga clic nuevamente en el botón de conexión en la página de la página de configuración del complemento. También verifique la configuración (especialmente la parte oauth) de su aplicación de Google (a veces los campos son borrados por Google)
+> Al guardar Jeedom solicitará automáticamente la sincronización con Google. Atención en modo independiente si tiene un error (escriba "No se encontró la entidad solicitada") intente reactivar la prueba de la aplicación ([aquí](https://console.actions.google.com)) luego haga clic nuevamente en el botón de conexión en la página de configuración del complemento. También verifique la configuración (especialmente la parte oauth) de su aplicación de Google (a veces Google elimina los campos))
 
 Todo lo que tiene que hacer es asignar el equipo a las habitaciones en la aplicación Google Home
 
@@ -300,16 +300,16 @@ Todo lo que tiene que hacer es asignar el equipo a las habitaciones en la aplica
 >**No puedo hacer la asociación en modo nube ?**
 >
 > Debemos verificar que :
-> - está bien en https (si tiene un paquete de servicio, use jeeodm DNS, estos son seguros de forma predeterminada)
-> - ha activado el asistente de Google en el mercado (página de perfil, pestaña mis servicios y luego configuración en la sección de asistente de voz)
-> - se ha suscrito a la suscripción de servicios de voz y aún es válida (necesaria desde el 01/06/2019). Esto se puede ver en su página de perfiles de mercado, pestaña mis servicios
-> - es necesario en el complemento -> comunicación -> Google Smarthome selecciona el equipo "transmitir" y configura el tipo y finalmente guarda
+> - estás en https (si tienes un paquete de servicio, usa jeedom DNS, estos son seguros de forma predeterminada))
+> - Ha activado el Asistente de Google en el mercado (página de perfiles, pestaña Mis servicios y luego configuración en la sección Asistentes de voz))
+> - se ha suscrito a la suscripción de servicios de voz y aún es válida (necesaria desde el 01/06/2019). Esto se puede ver en su página de perfiles de mercado, pestaña Mis servicios
+> - debes en complementos -> comunicación -> Google Smarthome seleccionar "transmitir" equipo y configurar el tipo y finalmente guardar
 > - usa bien tus credenciales de mercado
-> - si estás en certificado cifremos olvídate de poner la raíz y el intermediario en la cadena de certificación
+> - Si tiene un certificado let's encrypt, no olvide poner la raíz y el intermediario en la cadena de certificación
 > - ningún módulo OK (debe tener uno, de lo contrario, Google se niega a vincular)
-> - Si está en su propio dominio y tiene inquietudes sobre la resolución de un nombre de dominio IP, no tengo idea de por qué. Por el lado de la libertad, los DNS son los proporcionados por defecto por OVH (de todos modos no tenemos control sobre ellos). Incluso tuve el caso de un usuario que tenía el DNS en OVH y aún no podía resolverlo en nuestras máquinas
+> - si está en su propio dominio, problemas para resolver el nombre de dominio en IP, no tengo idea de por qué. Por el lado de la libertad, los DNS son los proporcionados por defecto por OVH (de todos modos no tenemos control sobre ellos). Incluso tuve el caso de un usuario que tenía el DNS en OVH y aún no podía resolverlo en nuestras máquinas
 > - Problema con el teléfono, en algunas marcas el navegador está desactualizado o no es Chrome de forma predeterminada y causa problemas para hacer el enlace
-> - Si aún tiene el problema a pesar de esto, intente enviar solo un módulo de tipo ligero
+> - Si aún tienes el problema intenta enviar solo un módulo tipo luz
 
 
 >**¿Cuáles son los posibles pedidos? ?**
@@ -330,9 +330,9 @@ Todo lo que tiene que hacer es asignar el equipo a las habitaciones en la aplica
 
 >**Aparece el mensaje de error "No puedo encontrar el recurso 404" al guardar**
 >
->Así que no te preocupes, todo está guardado, es solo una sincronización automática que no se hace. Para hacerlo, diga "Sincronizar mis dispositivos" a su asistente. Para tratar de corregir esta preocupación :
+>Así que no te preocupes, todo se guarda, solo es la sincronización automática la que no se realiza. Para hacerlo, diga "Sincronizar mis dispositivos" a su asistente. Para intentar corregir este problema :
 > ir a la página siguiente [aquí](https://console.cloud.google.com/cloud-resource-manager). En esta página verá la lista de todos los proyectos, incluso los invisibles en la página de acciones de Google. Eliminar todos los proyectos no utilizados.
-> Luego, vuelva a hacer el tutorial desde el paso de configurar la clave de inicio de API (activación, generación de clave, luego disocie jeedom de su cuenta de Google y vuelva a hacer el enlace)
+> Luego, rehaga el tutorial desde el paso configurar la clave API de Homegraph (activación, generación de clave, luego desasociar jeedom de su cuenta de Google y rehacer el enlace))
 
 
 >**Tiene un error de enlace o no puede actualizar el parámetro, verifique su conexión en modo nube**
@@ -341,12 +341,12 @@ Todo lo que tiene que hacer es asignar el equipo a las habitaciones en la aplica
 
 >**Aparece el error "Aparentemente, Jeedom Smart Home no está disponible en este momento". o "Lo siento, no puedo conectarme a Jeedom Smart Home."**
 >
->Intente desasociar / volver a asociar la aplicación Google smarthome. Tenga cuidado de tomar la aplicación oficial y no una aplicación [TEST] si ha utilizado el modo independiente antes. Si el problema persiste, observe (especialmente en una escena) que el tiempo de ejecución sigue siendo inferior a 2 s (máximo permitido por Google)
+>Intente desasociar / volver a asociar la aplicación Google smarthome. Tenga cuidado de utilizar la aplicación oficial y no una aplicación [PRUEBA] si ha utilizado el modo independiente antes. Si el problema persiste, compruebe (especialmente en una escena) que el tiempo de ejecución sea inferior a 2 segundos (máximo permitido por Google)
 
->**Cuando agrego equipo tengo NOK**
+>**Al agregar equipo tengo NOK**
 >
->Simplemente haga clic en NOK, una ventana le indicará el tipo genérico que debe tener en los controles del equipo para que funcione. Podéis ver [aquí](https://doc.jeedom.com/es_ES/concept/generic_type) la documentación sobre tipo genérico
+>Simplemente haga clic en NOK, una ventana le indicará el tipo de genéricos que debe tener en los controles del equipo para que esto funcione. Podéis ver [aquí](https://doc.jeedom.com/es_ES/concept/generic_type) la documentación sobre tipo genérico
 
 >**Cambiar la velocidad de un ventilador no funciona**
 >
->Después del análisis, Google no envía un pedido durante una acción sobre velocidad. Por lo tanto, debemos esperar a que Google corrija
+>Tras el análisis, Google no envía una orden durante una acción de velocidad. Por lo tanto, debemos esperar a que Google corrija
