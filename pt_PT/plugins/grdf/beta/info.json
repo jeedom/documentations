@@ -1,0 +1,35 @@
+{
+    "id": "grdf",
+    "name": "GRDF",
+    "description": {
+        "fr_FR": ""
+    },
+    "utilization": "",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2",
+    "category": "energy",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/grdf\/beta\/changelog",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/grdf\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/grdf\/beta",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/grdf",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "luna",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "v4",
+        "atlas"
+    ]
+}
