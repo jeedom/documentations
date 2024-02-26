@@ -2,9 +2,18 @@
     "id": "grdf",
     "name": "GRDF",
     "description": {
-        "fr_FR": ""
+        "fr_FR": "Récupérez les données de vos compteurs de gaz communicants à partir de votre espace client GRDF. Il suffit d'autoriser le partage des données avec Jeedom et d'indiquer le numéro d'identification PCE du compteur concerné.",
+        "en_US": "Retrieve data from your communicating gas meters from your GRDF customer area. Simply authorize the sharing of data with Jeedom and indicate the PCE identification number of the meter concerned",
+        "es_ES": "Recupere los datos de sus contadores de gas comunicantes desde su área de clientes de GRDF. Simplemente autorice el intercambio de datos con Jeedom e indique el número de identificación PCE del medidor en cuestión",
+        "de_DE": "Rufen Sie Daten Ihrer kommunizierenden Gaszähler aus Ihrem GRDF-Kundenbereich ab. Autorisieren Sie einfach den Datenaustausch mit Jeedom und geben Sie die PCE-Identifikationsnummer des betreffenden Zählers an",
+        "pt_PT": "Recupere dados de seus medidores de gás comunicantes na sua área de cliente GRDF. Basta autorizar a partilha de dados com a Jeedom e indicar o número de identificação PCE do contador em questão",
+        "tr": "Récupérez les données de vos compteurs de gaz communicants à partir de votre espace client GRDF. Il suffit d'autoriser le partage des données avec Jeedom et d'indiquer le numéro d'identification PCE du compteur concerné",
+        "ru_RU": "Récupérez les données de vos compteurs de gaz communicants à partir de votre espace client GRDF. Il suffit d'autoriser le partage des données avec Jeedom et d'indiquer le numéro d'identification PCE du compteur concerné",
+        "id_ID": "Récupérez les données de vos compteurs de gaz communicants à partir de votre espace client GRDF. Il suffit d'autoriser le partage des données avec Jeedom et d'indiquer le numéro d'identification PCE du compteur concerné",
+        "it_IT": "Récupérez les données de vos compteurs de gaz communicants à partir de votre espace client GRDF. Il suffit d'autoriser le partage des données avec Jeedom et d'indiquer le numéro d'identification PCE du compteur concerné",
+        "ja_JP": "Récupérez les données de vos compteurs de gaz communicants à partir de votre espace client GRDF. Il suffit d'autoriser le partage des données avec Jeedom et d'indiquer le numéro d'identification PCE du compteur concerné"
     },
-    "utilization": "",
+    "utilization": "Donnez votre consentement pour l'accès à votre espace client GRDF en cliquant sur l'image depuis la configuration générale du plugin puis créez un équipement et renseignez le numéro du PCE.",
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "4.2",
@@ -34,7 +43,6 @@
         "rpi",
         "docker",
         "diy",
-        "v4",
         "atlas"
     ]
 }
