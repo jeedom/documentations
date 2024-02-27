@@ -1,15 +1,17 @@
 # Registro de cambios Netatmo
 
-# Plantilla de complemento de registro de cambios
+# Complemento de registro de cambios Netatmo
 
 >**Importante**
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
 
-# 12/02/2024
+# 05/02/2024
 
 - Arreglo del fallo
 - Soporte de etiquetas mejorado
+- Identificación del relé (puente) y su tipología para el equipo del módulo de Energía
+- Información agregada a los registros (consultas en la nube cuando el modo de depuración está activado))
 
 # 24/01/2024
 

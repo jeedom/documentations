@@ -4,6 +4,7 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 26/02/2024
 
 - Se solucionó un problema con la instalación de mqtt
 - Modificación del subtema (ahora es un campo de configuración específico del comando), tenga cuidado de actualizar sus comandos si los ha utilizado.
@@ -12,6 +13,7 @@
 - Arreglo del fallo
 - Se agregó un botón para desactivar el modo de inclusión
 - Detección del modo de inclusión mejorada
+- Corrección de errores (el complemento ahora ignora los valores vacíos de los comandos))
 
 # 17/01/2024
 

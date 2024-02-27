@@ -4,6 +4,7 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 02/26/2024
 
 - Fixed a problem with the installation of mqtt
 - Modification on the subtopic (it is now a configuration field specific to the command), be careful to update your commands if you have used them.
@@ -12,6 +13,7 @@
 - Bug fix
 - Added a button to deactivate inclusion mode
 - Improved inclusion mode detection
+- Bug fix (plugin now ignores empty values for commands)
 
 # 01/17/2024
 

@@ -1,15 +1,17 @@
 # Changelog Netatmo
 
-# Changelog Plugin Vorlage
+# Changelog-Plugin Netatmo
 
 >**Wichtig**
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# 12.02.2024
+# 05.02.2024
 
 - Bug-Fix
 - Verbesserte Tag-Unterstützung
+- Identifizierung des Relais (Brücke) und seiner Typologie für die Energiemodulausrüstung
+- Informationen zu Protokollen hinzugefügt (Cloud-Abfragen, wenn der Debug-Modus aktiviert ist))
 
 # 24.01.2024
 

@@ -4,6 +4,7 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 26.02.2024
 
 - Ein Problem bei der Installation von mqtt wurde behoben
 - Änderung am Unterthema (es ist jetzt ein befehlsspezifisches Konfigurationsfeld). Achten Sie darauf, Ihre Befehle zu aktualisieren, wenn Sie sie verwendet haben.
@@ -12,6 +13,7 @@
 - Bug-Fix
 - Es wurde eine Schaltfläche zum Deaktivieren des Inklusionsmodus hinzugefügt
 - Verbesserte Erkennung des Einschlussmodus
+- Fehlerbehebung (Plugin ignoriert jetzt leere Werte für Befehle)
 
 # 17.01.2024
 

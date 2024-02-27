@@ -1,15 +1,17 @@
 # Changelog Netatmo
 
-# Modelo de plugin de registro de mudanças
+# Plug-in de registro de alterações Netatmo
 
 >**IMPORTANTE**
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# 12/02/2024
+# 05/02/2024
 
 - Correção de bug
 - Suporte de tags aprimorado
+- Identificação do relé (ponte) e sua tipologia para os equipamentos do módulo Energia
+- Adicionadas informações aos logs (consultas na nuvem quando o modo de depuração está ativado))
 
 # 24/01/2024
 

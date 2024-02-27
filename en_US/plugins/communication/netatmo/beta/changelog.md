@@ -1,15 +1,17 @@
 # Changelog Netatmo
 
-# Changelog plugin template
+# Changelog plugin Netatmo
 
 >**Important**
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
 
-# 02/12/2024
+# 02/05/2024
 
 - Bugfix
 - Improved tag support
+- Identification of the relay (bridge) and its typology for the Energy module equipment
+- Added information to logs (cloud queries when debug mode is activated))
 
 # 01/24/2024
 

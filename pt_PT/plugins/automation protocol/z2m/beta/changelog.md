@@ -4,6 +4,7 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 26/02/2024
 
 - Corrigido um problema com a instalação do mqtt
 - Modificação no subtópico (agora é um campo de configuração específico do comando), tome cuidado para atualizar seus comandos caso você os tenha utilizado.
@@ -12,6 +13,7 @@
 - Correção de bug
 - Adicionado um botão para desativar o modo de inclusão
 - Detecção aprimorada do modo de inclusão
+- Correção de bug (plugin agora ignora valores vazios para comandos)
 
 # 17/01/2024
 
