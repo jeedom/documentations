@@ -12,10 +12,10 @@ Aún dependiendo del tipo de medidor, los datos disponibles no son los mismos, c
 
 | **Tipo de medidor** | Datos publicados | Datos informativos | Frecuencia de alivio | Frecuencia de llamada |
 |:---:|---|---|---|---|
-| **6M** *(particuliers)* | Datos semestrales | | Cada 6 meses del D+2 al D+3 tras la entrega a pie | 1 a 2 veces al mes |
-| **1M** *(particuliers)* | Datos mensuales mes M-1 | Datos diarios :<br>  - estimado<br>  - últimos meses M-1 | Cada mes desde D+2 hasta D+3 después de la fecha de publicación *(información publicada y definitiva)*<br>Todos los días del D+1 al D+3 *(información estimada)* | 1 a 2 veces al mes *(publicado)*<br>1 vez por día *(informatives)* |
+| **6M** *(particuliers)* | Datos semestrales | | Cada 6 meses desde D+2 hasta D+3 después de la entrega | 1 a 2 veces al mes |
+| **1M** *(particuliers)* | Datos mensuales mes M-1 | Datos diarios :<br>- estimado<br>- últimos meses M-1 | Cada mes desde D+2 hasta D+3 después de la fecha de publicación *(información publicada y definitiva)*<br>Todos los días del D+1 al D+3 *(información estimada)* | 1 a 2 veces al mes *(publicado)*<br>1 vez por día *(informatives)* |
 | **M.M.** *(professionnels)* | Datos mensuales mes M-1 | Datos diarios mes M-1 | Cada mes entre D+2 después de la fecha de publicación y los 7.º Juegos Olímpicos del mes M *(publicado)*<br>Cada mes entre el 10 y el 20 del mes M *(informatives)* | 1 a 14 veces por mes *(publicado)*<br>1 a 11 veces por mes *(informatives)* |
-| **Ni una palabra** *(professionnels)* | Datos diarios :<br>  - estimado<br>  - últimos meses M-1 | | Todos los días del D+1 al D+2 *(estimado publicado)*<br>Cada mes entre la 1.ª y 6.ª Olimpiada del mes M *(publicado definitivamente)* | 1 vez por día |
+| **Ni una palabra** *(professionnels)* | Datos diarios :<br>- estimado<br>- últimos meses M-1 | | Todos los días del D+1 al D+2 *(estimado publicado)*<br>Cada mes entre la 1.ª y 6.ª Olimpiada del mes M *(publicado definitivamente)* | 1 vez por día |
 
 >**INFORMACIÓN**
 >

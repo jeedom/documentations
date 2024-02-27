@@ -12,10 +12,10 @@ Toujours selon le type de compteur, les données disponibles ne sont pas les mê
 
 | **Type de compteur** | Données publiées | Données informatives | Fréquence de relève | Fréquence d'appel |
 |:---:|---|---|---|---|
-| **6M** *(particuliers)* | Données semestrielles | | Tous les 6 mois de J+2 à J+3 après la relève à pied | 1 à 2 fois par mois |
-| **1M** *(particuliers)* | Données mensuelles mois M-1 | Données quotidiennes :<br>  - estimées<br>  - définitives mois M-1 | Tous les mois de J+2 à J+3 après la date de publication *(publiées & informatives définitives)*<br>Tous les jours de J+1 à J+3 *(informatives estimées)* | 1 à 2 fois par mois *(publiées)*<br>1 fois par jour *(informatives)* |
+| **6M** *(particuliers)* | Données semestrielles | | Tous les 6 mois de J+2 à J+3 après la relève | 1 à 2 fois par mois |
+| **1M** *(particuliers)* | Données mensuelles mois M-1 | Données quotidiennes :<br>- estimées<br>- définitives mois M-1 | Tous les mois de J+2 à J+3 après la date de publication *(publiées & informatives définitives)*<br>Tous les jours de J+1 à J+3 *(informatives estimées)* | 1 à 2 fois par mois *(publiées)*<br>1 fois par jour *(informatives)* |
 | **MM** *(professionnels)* | Données mensuelles mois M-1 | Données quotidiennes mois M-1 | Tous les mois entre J+2 après la date de publication et le 7ème JO du mois M *(publiées)*<br>Tous les mois entre le 10 et le 20 du mois M *(informatives)* | 1 à 14 fois par mois *(publiées)*<br>1 à 11 fois par mois *(informatives)* |
-| **JJ** *(professionnels)* | Données quotidiennes :<br>  - estimées<br>  - définitives mois M-1 | | Tous les jours de J+1 à J+2 *(publiées estimées)*<br>Tous les mois entre le 1er et le 6ème JO du mois M *(publiées définitives)* | 1 fois par jour |
+| **JJ** *(professionnels)* | Données quotidiennes :<br>- estimées<br>- définitives mois M-1 | | Tous les jours de J+1 à J+2 *(publiées estimées)*<br>Tous les mois entre le 1er et le 6ème JO du mois M *(publiées définitives)* | 1 fois par jour |
 
 >**INFORMATION**
 >

@@ -12,10 +12,10 @@ Still depending on the type of meter, the data available is not the same, as is 
 
 | **Meter type** | Published data | Informative data | Relief frequency | Call frequency |
 |:---:|---|---|---|---|
-| **6M** *(particuliers)* | Half-year data | | Every 6 months from D+2 to D+3 after handover on foot | 1 to 2 times a month |
-| **1M** *(particuliers)* | Monthly data month M-1 | Daily data :<br>  - estimated<br>  - final months M-1 | Every month from D+2 to D+3 after the publication date *(published & definitive information)*<br>Every day from D+1 to D+3 *(estimated information)* | 1 to 2 times a month *(published)*<br>1 time per day *(informatives)* |
+| **6M** *(particuliers)* | Half-year data | | Every 6 months from D+2 to D+3 after handover | 1 to 2 times a month |
+| **1M** *(particuliers)* | Monthly data month M-1 | Daily data :<br>- estimated<br>- final months M-1 | Every month from D+2 to D+3 after the publication date *(published & definitive information)*<br>Every day from D+1 to D+3 *(estimated information)* | 1 to 2 times a month *(published)*<br>1 time per day *(informatives)* |
 | **M.M.** *(professionnels)* | Monthly data month M-1 | Daily data month M-1 | Every month between D+2 after the publication date and the 7th Olympic Games of month M *(published)*<br>Every month between the 10th and 20th of month M *(informatives)* | 1 to 14 times per month *(published)*<br>1 to 11 times per month *(informatives)* |
-| **Not a word** *(professionnels)* | Daily data :<br>  - estimated<br>  - final months M-1 | | Every day from D+1 to D+2 *(published estimated)*<br>Every month between the 1st and 6th Olympics of month M *(definitively published)* | 1 time per day |
+| **Not a word** *(professionnels)* | Daily data :<br>- estimated<br>- final months M-1 | | Every day from D+1 to D+2 *(published estimated)*<br>Every month between the 1st and 6th Olympics of month M *(definitively published)* | 1 time per day |
 
 >**INFORMATION**
 >

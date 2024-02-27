@@ -12,10 +12,10 @@ Je nach Zählertyp sind die verfügbaren Daten jedoch unterschiedlich, ebenso wi
 
 | **Zählertyp** | Veröffentlichte Daten | Aufschlussreiche Daten | Entlastungshäufigkeit | Anrufhäufigkeit |
 |:---:|---|---|---|---|
-| **6M** *(particuliers)* | Halbjahresdaten | | Alle 6 Monate von D+2 bis D+3 nach Übergabe zu Fuß | 1 bis 2 Mal im Monat |
-| **1M** *(particuliers)* | Monatliche Daten Monat M-1 | Tägliche Daten :<br>  - geschätzt<br>  - letzte Monate M-1 | Jeden Monat von D+2 bis D+3 nach dem Erscheinungsdatum *(veröffentlichte und endgültige Informationen)*<br>Täglich von D+1 bis D+3 *(geschätzte Informationen)* | 1 bis 2 Mal im Monat *(veröffentlicht)*<br>1 Mal pro Tag *(informatives)* |
+| **6M** *(particuliers)* | Halbjahresdaten | | Alle 6 Monate von D+2 bis D+3 nach Übergabe | 1 bis 2 Mal im Monat |
+| **1M** *(particuliers)* | Monatliche Daten Monat M-1 | Tägliche Daten :<br>- geschätzt<br>- letzte Monate M-1 | Jeden Monat von D+2 bis D+3 nach dem Erscheinungsdatum *(veröffentlichte und endgültige Informationen)*<br>Täglich von D+1 bis D+3 *(geschätzte Informationen)* | 1 bis 2 Mal im Monat *(veröffentlicht)*<br>1 Mal pro Tag *(informatives)* |
 | **M.M.** *(professionnels)* | Monatliche Daten Monat M-1 | Täglicher Datenmonat M-1 | Jeden Monat zwischen D+2 nach dem Veröffentlichungsdatum und der 7. Olympiade des Monats M *(veröffentlicht)*<br>Jeden Monat zwischen dem 10. und 20. des Monats M *(informatives)* | 1 bis 14 Mal pro Monat *(veröffentlicht)*<br>1 bis 11 Mal pro Monat *(informatives)* |
-| **Kein Wort** *(professionnels)* | Tägliche Daten :<br>  - geschätzt<br>  - letzte Monate M-1 | | Täglich von D+1 bis D+2 *(geschätzt veröffentlicht)*<br>Jeden Monat zwischen der 1. und 6. Olympiade des Monats M *(endgültig veröffentlicht)* | 1 Mal pro Tag |
+| **Kein Wort** *(professionnels)* | Tägliche Daten :<br>- geschätzt<br>- letzte Monate M-1 | | Täglich von D+1 bis D+2 *(geschätzt veröffentlicht)*<br>Jeden Monat zwischen der 1. und 6. Olympiade des Monats M *(endgültig veröffentlicht)* | 1 Mal pro Tag |
 
 >**INFORMATION**
 >
