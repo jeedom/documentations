@@ -4,7 +4,12 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# XX/01/2024
+# 27/02/2024
+
+**Améliorations**
+
+- Rajout d'une fonction additionalDependancyCheck pour le core
+
 
 **Modifications de Configurations**
 

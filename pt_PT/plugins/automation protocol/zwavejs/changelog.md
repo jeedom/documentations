@@ -4,12 +4,23 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# XX/12/2023
+# XX/01/2024
+
+**Alterações de configuração**
+
+- Mudando a configuração *MCOhome Mh7h* para usar as propriedades
+
+# 26/12/2023
 
 **Melhorias**
 
-- Adicionada uma opção para ativar ou desativar o *Reinicialização suave* 
+- Adicionada uma opção para ativar ou desativar o *Reinicialização suave*
+- Mudar para a versão *9.6.2* por ZwaveJsUI 
 
+**Adições de configuração**
+
+- Configuração adicionada *HeatIt Z-TRM6* (propriedades : Temperatura, ThermostatMode, ThermostatOperatingState, ThermostatModeAction, ThermostatSetpoint, Notificação do sensor de calor, Notificação de sobrecarga)
+- Configuração adicionada *Botão Sunricher de controle remoto 12* (propriedades : CentralScene x12, Bateria)
 
 # 12/11/2023
 

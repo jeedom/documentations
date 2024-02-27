@@ -4,7 +4,12 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# XX/01/2024
+# 02/27/2024
+
+**Improvements**
+
+- Addition of an additionalDependancyCheck function for the core
+
 
 **Configuration Changes**
 

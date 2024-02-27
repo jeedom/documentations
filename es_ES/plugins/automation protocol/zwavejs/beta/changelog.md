@@ -4,7 +4,12 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# XX/01/2024
+# 27/02/2024
+
+**Mejoras**
+
+- Adición de una función adicionalDependancyCheck para el núcleo
+
 
 **Cambios de configuración**
 
