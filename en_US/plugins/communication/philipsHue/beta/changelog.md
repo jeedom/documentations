@@ -6,7 +6,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 02/28/2024
+
 - Better handling of cases where two scenes have the same name
+- Added missing image for modules
 
 # 02/10/2024
 

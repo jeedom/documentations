@@ -6,7 +6,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 28.02.2024
+
 - Bessere Handhabung von Fällen, in denen zwei Szenen denselben Namen haben
+- Fehlendes Bild für Module hinzugefügt
 
 # 10.02.2024
 

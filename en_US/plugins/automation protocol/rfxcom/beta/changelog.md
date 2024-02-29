@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- The plugin is less strict on the rfxcom firmware (firmware authorization not up to date)
+
 # 03/01/2024
 
 - Preparing for jeedom 4.4

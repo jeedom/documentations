@@ -6,7 +6,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 28/02/2024
+
 - Melhor tratamento de casos onde duas cenas possuem o mesmo nome
+- Adicionada imagem ausente para módulos
 
 # 10/02/2024
 
