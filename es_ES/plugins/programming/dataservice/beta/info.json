@@ -19,8 +19,6 @@
     "category": "programming",
     "hasDependency": false,
     "hasOwnDeamon": false,
-    "hasTtsEngine": true,
-    "display": "panel",
     "maxDependancyInstallTime": 0,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/dataservice\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/dataservice\/",
