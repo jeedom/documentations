@@ -90,4 +90,4 @@ Bei der ersten Sicherung aktiver und korrekt konfigurierter Geräte integriert d
 
 >**INFORMATION**
 >
->Die Daten werden spätestens um 7 Uhr morgens erfasst und in Kilowattstunden („kWh“) übermittelt). Sie werden nicht in Echtzeit zur Verfügung gestellt, sondern zum Wertstellungsdatum in Jeedom erfasst.
+>Die Datenübermittlung erfolgt in Kilowattstunden („kWh“) mit Ablesedatum 6 Uhr morgens. Sie werden nicht in Echtzeit zur Verfügung gestellt, sondern zum Zeitpunkt ihres Inkrafttretens in Jeedom erfasst.

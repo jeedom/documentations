@@ -90,4 +90,4 @@ Durante o primeiro backup de equipamentos ativos e corretamente configurados, o 
 
 >**INFORMAÇÃO**
 >
->Os dados são coletados no máximo às 7h e transmitidos em quilowatts-hora (`kWh`). Eles não são disponibilizados em tempo real, mas são registrados em sua data-valor em Jeedom.
+>Os dados são transmitidos em quilowatts-hora (`kWh`) com data de leitura às 6h. Eles não são disponibilizados em tempo real, mas são registrados em sua data de vigência no Jeedom.

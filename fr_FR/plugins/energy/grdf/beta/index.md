@@ -90,4 +90,4 @@ Lors de la 1ère sauvegarde d'un équipement actif et correctement configuré, l
 
 >**INFORMATION**
 >
->Les données sont récupérées à 7h du matin au plus tard et transmises en kilowatt-heure (`kWh`). Elles ne sont pas mises à disposition en temps réel mais sont enregistrées à leur date de valeur dans Jeedom.
+>Les données sont transmises en kilowatt-heure (`kWh`) avec une date de relève à 6h du matin. Elles ne sont pas mises à disposition en temps réel mais sont enregistrées à leur date d'effet dans Jeedom.

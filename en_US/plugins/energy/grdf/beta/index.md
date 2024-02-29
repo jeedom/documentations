@@ -90,4 +90,4 @@ During the first backup of active and correctly configured equipment, the plugin
 
 >**INFORMATION**
 >
->Data is collected at 7 a.m. at the latest and transmitted in kilowatt-hours (`kWh`). They are not made available in real time but are recorded at their value date in Jeedom.
+>Data is transmitted in kilowatt-hours (`kWh`) with a reading date of 6 a.m. They are not made available in real time but are recorded on their effective date in Jeedom.

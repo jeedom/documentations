@@ -90,4 +90,4 @@ Durante la primera copia de seguridad de los equipos activos y correctamente con
 
 >**INFORMACIÓN**
 >
->Los datos se recogen a más tardar a las 7 a. m. y se transmiten en kilovatios-hora (`kWh`). No están disponibles en tiempo real, sino que se registran en su fecha de valor en Jeedom.
+>Los datos se transmiten en kilovatios-hora (`kWh`) con una fecha de lectura de las 6 a. m. No están disponibles en tiempo real, pero se registran en su fecha de vigencia en Jeedom.
