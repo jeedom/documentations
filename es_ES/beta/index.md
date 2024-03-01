@@ -60,7 +60,7 @@ En versión **Beta** y **Alfa**, los cambios son mucho más frecuentes (varias v
 
 ### Changelog
 
-Desde el inicio del desarrollo de la versión **Alfa**, el equipo intenta mantener actualizado el [registro de cambios] futuro (/ fr_FR / core /#VERSION#/ registro de cambios). Como las nuevas características pueden cambiar significativamente o pueden eliminarse o posponerse, no está necesariamente actualizado y no tiene un valor de referencia.
+Desde el inicio del desarrollo de la versión **Alfa**, el equipo intenta mantener el futuro actualizado [Registro de cambios](/es_ES/core/4.4/changelog). Las nuevas funciones pueden cambiar significativamente, eliminarse o posponerse, por lo que no necesariamente están actualizadas y no tienen valor de referencia.
 
 En versión **Estable**, el registro de cambios se hace cargo de cada versión menor (4.1.26 -> 4,1.27 etc.). En versión **Beta** y **Alfa** el registro de cambios tiene el número x.0.0 y por lo tanto no corresponde necesariamente a la versión menor actual. Por ejemplo, durante el desarrollo de v4.2, el registro de cambios solo se anota 4.2.0 mientras que una beta puede estar en 4.2.7. Al cambiar a **Estable**, el registro de cambios tendrá en cuenta cada versión secundaria futura.
 

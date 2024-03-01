@@ -60,7 +60,7 @@ In Version **Beta** und **Alpha**, Änderungen sind viel häufiger (mehrmals am 
 
 ### Changelog
 
-Von Beginn der Versionsentwicklung **Alpha**, das Team versucht das zukünftige [Changelog] aktuell zu halten (/fr_FR/core/#VERSION#/ Änderungsprotokoll). Da sich neue Funktionen erheblich ändern oder gelöscht oder verschoben werden können, ist sie nicht unbedingt aktuell und hat keinen Referenzwert.
+Von Beginn der Versionsentwicklung **Alpha**, Das Team versucht, die Zukunft auf dem Laufenden zu halten [Änderungsprotokoll](/de_DE/core/4.4/changelog). Neue Funktionen können sich erheblich ändern oder gelöscht oder verschoben werden, daher ist dies nicht unbedingt aktuell und hat keinen Referenzwert.
 
 In Version **Stabil**, das Changelog übernimmt jede Nebenversion (4.1.26 -> 4.1.27 usw). In Version **Beta** und **Alpha** das Changelog hat die Nummer x.0.0 und entspricht daher nicht unbedingt der aktuellen Minor-Version. Zum Beispiel während der Entwicklung von v4.2, das Changelog ist nur 4.2 notiert.0, während eine Beta in 4.2.7 sein kann. Beim Wechsel zu **Stabil**, das Changelog berücksichtigt dann jede zukünftige Nebenversion.
 
