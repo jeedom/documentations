@@ -7,6 +7,7 @@
 # 29/02/2024
 
 - Gravação dos dados na data de vigência e não mais leitura. Equipamentos existentes devem ser recriados.
+- Adicionada opção para salvar o coeficiente de conversão diário.
 
 # 26/02/2024
 

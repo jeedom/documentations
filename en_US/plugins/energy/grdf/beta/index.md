@@ -75,6 +75,8 @@ To access the different equipment **GRDF**, you have to go to the menu **Plugins
 
 Once the access authorizations have been validated, all that remains is to provide **the identification number of the PCE** concerned *(spaces are automatically removed)* then save the equipment.
 
+The option **Save the conversion coefficient** allows you to note the ratio between the energy actually consumed *(kWh)* and the volume *(m3)*.
+
 Professional meters *(MM or DD)* have an additional configuration field allowing you to choose the type of measurement to be taken :
  - **Consumption**
  - **Injection** *(Biomethane Producers)*

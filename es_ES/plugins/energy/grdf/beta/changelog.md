@@ -7,6 +7,7 @@
 # 29/02/2024
 
 - Registro de datos en su fecha de vigencia y no lectura. Se deben recrear los equipos existentes.
+- Opción agregada para guardar el coeficiente de conversión diario.
 
 # 26/02/2024
 

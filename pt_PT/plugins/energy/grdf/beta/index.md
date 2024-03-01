@@ -75,6 +75,8 @@ Para acessar os diferentes equipamentos **GRDF**, você tem que ir ao menu **Plu
 
 Uma vez validadas as autorizações de acesso, resta fornecer **o número de identificação do PCE** preocupado *(espaços são removidos automaticamente)* então salve o equipamento.
 
+A opção **Salve o coeficiente de conversão** permite observar a relação entre a energia realmente consumida *(kWh)* e o volume *(m3)*.
+
 Medidores profissionais *(MM ou DD)* possui um campo de configuração adicional que permite escolher o tipo de medição a ser realizada :
  - **Consumo**
  - **Injeção** *(Produtores de biometano)*

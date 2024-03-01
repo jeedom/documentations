@@ -7,6 +7,7 @@
 # 29/02/2024
 
 - Enregistrement des données à leur date d'effet et non plus de relève. Les équipements existants doivent être recréés.
+- Ajout d'une option pour enregistrer le coefficient de conversion quotidien.
 
 # 26/02/2024
 

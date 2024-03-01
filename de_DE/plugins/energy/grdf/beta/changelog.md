@@ -7,6 +7,7 @@
 # 29.02.2024
 
 - Erfassung der Daten zum Zeitpunkt ihres Inkrafttretens und nicht mehr Auslesen. Vorhandene Geräte müssen neu erstellt werden.
+- Option zum Speichern des täglichen Umrechnungskoeffizienten hinzugefügt.
 
 # 26.02.2024
 

@@ -7,6 +7,7 @@
 # 02/29/2024
 
 - Recording of data on their effective date and no longer reading. Existing equipment must be recreated.
+- Added option to save daily conversion coefficient.
 
 # 02/26/2024
 

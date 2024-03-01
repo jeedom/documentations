@@ -75,6 +75,8 @@ Um auf die verschiedenen Geräte zuzugreifen **GRDF**, Sie müssen zum Menü geh
 
 Nach der Validierung der Zugangsberechtigungen bleibt nur noch die Bereitstellung **die Identifikationsnummer des PCE** betroffen *(Leerzeichen werden automatisch entfernt)* Speichern Sie dann die Ausrüstung.
 
+Die Option **Speichern Sie den Umrechnungskoeffizienten** ermöglicht es Ihnen, das Verhältnis zwischen der tatsächlich verbrauchten Energie zu ermitteln *(kWh)* und die Lautstärke *(m3)*.
+
 Professionelle Messgeräte *(MM oder TT)* verfügen über ein zusätzliches Konfigurationsfeld, in dem Sie die Art der durchzuführenden Messung auswählen können :
  - **Verbrauch**
  - **Injektion** *(Biomethan-Produzenten)*

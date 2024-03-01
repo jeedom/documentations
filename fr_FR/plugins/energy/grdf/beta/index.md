@@ -75,6 +75,8 @@ Pour accéder aux différents équipements **GRDF**, il faut se rendre dans le m
 
 Une fois les autorisations d'accès validées, il ne reste plus qu'à renseigner **le numéro d'identification du PCE** concerné *(les espaces sont automatiquement supprimés)* puis sauvegarder l'équipement.
 
+L'option **Enregistrer le coefficient de conversion** permet de relever le rapport entre l'énergie réellement consommée *(kWh)* et le volume *(m3)*.
+
 Les compteurs professionnels *(MM ou JJ)* possèdent un champ de configuration complémentaire permettant de choisir le type de mesure à relever :
  - **Consommation**
  - **Injection** *(Producteurs de Biométhane)*
@@ -82,7 +84,7 @@ Les compteurs professionnels *(MM ou JJ)* possèdent un champ de configuration c
 
 # Commandes
 
-Les commandes sont crées automatiquement en fonction de la fréquence de relève des données *(jour, mois, semestre)* et de leur type *(définitives ou estimées)*.
+Les commandes sont créées automatiquement en fonction de la fréquence de relève des données *(jour, mois, semestre)* et de leur type *(définitives ou estimées)*.
 
 Le plugin se charge d'effectuer les calculs mensuels et annuels lorsque cela est nécessaire c'est pourquoi il est conseillé de renseigner la date de début d'accès aux données de consommation gaz au 1er janvier lors de l'étape de consentement.
 
