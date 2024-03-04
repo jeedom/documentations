@@ -1316,6 +1316,8 @@
         "Plugin ajoutant le support des scripts dans Jeedom": "Complemento para agregar soporte de script en Jeedom",
         "MQTT Manager": "Gerente de MQTT",
         "Plugin servant de base pour les plugins utilisant MQTT": "Complemento que sirve como base para complementos que utilizan MQTT",
+        "Loi d'eau": "Ley de aguas",
+        "Plugin permetant de gérer la loi d eau": "Complemento que le permite gestionar la ley de aguas",
         "Plugin servant à installer Chirpstack V3 sur Jeedom Luna Lora": "Complemento utilizado para instalar Chirpstack V3 en Jeedom Luna Lora",
         "Plugin permettant de configurer facilement Jeedom": "Complemento para configurar fácilmente Jeedom",
         "HTML Display": "Visualización HTML",

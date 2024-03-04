@@ -575,6 +575,8 @@
         "Plugin ajoutant le support des scripts dans Jeedom": "Plugin ajoutant le support des scripts dans Jeedom",
         "MQTT Manager": "MQTT Manager",
         "Plugin servant de base pour les plugins utilisant MQTT": "Plugin servant de base pour les plugins utilisant MQTT",
+        "Loi d'eau": "Loi d'eau",
+        "Plugin permetant de gérer la loi d eau": "Plugin permetant de gérer la loi d eau",
         "LNS": "LNS",
         "Plugin servant à installer Chirpstack V3 sur Jeedom Luna Lora": "Plugin servant à installer Chirpstack V3 sur Jeedom Luna Lora",
         "Jeeasy": "Jeeasy",
