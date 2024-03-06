@@ -6,6 +6,11 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
+# 05/02/2024
+
+- Correção de IP duplo
+- Adicionadas informações de APN para uma melhor conexão 4G
+
 # 19/12/2023
 
 - erro corrigido (o fluxo ou arquivo "/var/www/html/core/class/../../log/" não pôde ser aberto no modo de acréscimo: não foi possível abrir o stream: É um diretório)

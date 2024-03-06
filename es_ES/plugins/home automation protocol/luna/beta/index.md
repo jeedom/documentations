@@ -98,3 +98,4 @@ Detección automática de 4G interno a la caja. Vaya al complemento Luna y haga 
 si se detecta 4G, se inicia un módulo de conexión en segundo plano que cambia automáticamente de Ethernet o wifi a 4G si es necesario.
 El complemento de SMS funciona al mismo tiempo que 4G en el Luna 4G.
 La configuración se realiza en la página LTE del complemento.
+/!\ Atención, necesita APN de tipo IPv4 (bouygue : ebouygtel.com, naranja : naranja, gratis : gratis). /!\

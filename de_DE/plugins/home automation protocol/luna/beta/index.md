@@ -98,3 +98,4 @@ Automatische Erkennung von 4G in der Box. Bitte gehen Sie das Luna-Plugin durch 
 Wenn 4G erkannt wird, wird im Hintergrund ein Verbindungsmodul gestartet, das bei Bedarf automatisch von Ethernet oder WLAN auf 4G umschaltet.
 Das SMS-Plugin funktioniert gleichzeitig mit 4G auf dem Luna 4G.
 Die Einstellungen werden auf der LTE-Seite des Plugins vorgenommen.
+/!\ Achtung, Sie benötigen APNs vom Typ IPv4 (bouygue : ebouygtel.com, Orange : orange, kostenlos : frei). /!\

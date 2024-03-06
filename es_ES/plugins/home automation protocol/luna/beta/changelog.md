@@ -6,6 +6,11 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
+# 05/02/2024
+
+- Doble corrección de IP
+- Se agregó información de APN para una mejor conexión 4G
+
 # 19/12/2023
 
 - error solucionado (La secuencia o archivo "/var/www/html/core/class/../../log/" no se pudo abrir en modo agregar: fallo al abrir Stream: Es un directorio)

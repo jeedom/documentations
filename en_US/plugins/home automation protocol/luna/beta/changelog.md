@@ -6,6 +6,11 @@
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
+# 02/05/2024
+
+- Double IP correction
+- Added APN information for a better 4G connection
+
 # 12/19/2023
 
 - fixed error (The stream or file "/var/www/html/core/class/../../log/" could not be opened in append mode: failed to open stream: Is a directory)
