@@ -2,7 +2,7 @@
 
 The plugin **Management of shutters** will allow you to easily manage the automatic positioning of your shutters according to the elevation and azimuth of the sun and / or other conditions of your choice. All calculations are carried out directly by the plugin without requiring an internet connection.
 
-Well understood, this plugin is able to replace all the scenarios relating to the opening, closing or positioning of your shutters. You can find an example of use by reading [this blog article written by Loïc](https://www.jeedom.com/blog/?p=4310){:target = "\_ blank"}.
+Well understood, this plugin is able to replace all the scenarios relating to the opening, closing or positioning of your shutters. You can find an example of use by reading [this blog article written by Loïc](https://blog.jeedom.com/5543-gestion-de-mes-volets/).
 
 >**Important**
 >
@@ -34,14 +34,14 @@ Below, we will be able to configure the automatic management engine itself :
 - **Condition for verification** : Condition to be fulfilled for automatic management to activate, if this condition is not true, the plugin will not modify the position of the pane *(empty by default = always active)*.
 - **Frequency of verification** : Frequency of checking exceptions and positioning conditions.
 - **Regain control** : Authorize or not the automatic management system to modify the position of the shutter if it has been operated manually.
->*Example : the system closes the shutter then you open it manually a few minutes later, then the automatic management will only be done if **Regain control** is at "**Yes**" or that the recovery time has passed or that the order **Take over management** is triggered.*
+>*Example : the system closes the shutter then you open it manually a few minutes later, then the automatic management will only be done if **Regain control** is at "**Yes**" or that the recovery time has passed or that the command **Take over management** is triggered.*
 
 - **Resume on change of mode** : Check the box to resume automatic management in the event of a change of mode.
 - **Priority immediate action** : Check the box to have immediate action exceptions run regardless of other conditions, even if suspended.
 
 >**Important**
 >
->The "modes" mentioned here relate to the modes defined from the tab **Commands** of each plugin equipment **Shutters management** and do not in any way refer to any plugin modes **Fashion**.
+>The "modes" mentioned here relate to the modes defined from the tab **Commands** of each plugin equipment **Shutters management** and do not in any way refer to any plugin modes **Mode**.
 
 Subsequently it will be necessary to indicate the coordinates of the building to be able to calculate the position of the sun :
 
@@ -69,8 +69,8 @@ Finally, all that remains is to fill in the information relating to the control 
 This tab will allow you to define specific rules that will be an exception to the conditions relating to the position of the sun in the following tab. The rules are checked one after the other, the automatic management engine stops at the first valid rule and places the shutter in the indicated position.
 
 - **Condition** : The condition to be fulfilled for the rule to be valid *(facultatif)*.
-- **Fashion** : If entered, the condition will only be valid if the shutter is currently in the specified mode. It is possible to specify several modes by separating them with commas *(facultatif)*.
-- **Immediate exception** : Check the box to have the rule run immediately as soon as the condition is valid.
+- **Mode** : If entered, the condition will only be valid if the shutter is currently in the specified mode. It is possible to specify several modes by separating them with commas *(facultatif)*.
+- **Immediate exception** : Check the box to have the rule run immediately as soon as the condition is valid. Please note that this only works when the state of the commands changes. If you put for example `#hour# == 1022` the immediate exception will not work. Same for variables.
 - **To suspend** : Check the box to suspend automatic management as long as the rule is valid.
 - **Position** : The desired position in percentage if the rule is valid *(empty = no action)*.
 - **Label** : Label associated with the validation of the exception rule *(facultatif)*.
@@ -103,7 +103,7 @@ This last tab gives access to the list of commands and allows to define / delete
 
 - **Sun azimuth** : Current azimuth angle of the sun.
 - **Sun rise** : Current elevation angle of the sun.
-- **Refresh** : Force update of orders **Sun azimuth** and **Sun rise**.
+- **Refresh** : Force commands update **Sun azimuth** and **Sun rise**.
 >It is of course possible to use the values of the commands **Azimuth sun** and **Sun rise** elsewhere in Jeedom.
 
 - **Management status** : Current state of automatic management in binary *(0 = suspended / 1 = active)*.
@@ -115,7 +115,7 @@ This last tab gives access to the list of commands and allows to define / delete
 - **Resume** : Force restart of automatic management.
 >This is the command that must be executed to switch back to automatic management if you have changed the position of your shutter manually and configured **Regain control** at "**No**".
 
-- **Fashion** : Current shutter mode.
+- **Mode** : Current shutter mode.
 
 The blue button **Add a mode** allows you to add a new action command whose name will correspond to the new current mode from the moment it is executed.
 

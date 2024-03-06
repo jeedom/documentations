@@ -2,7 +2,7 @@
 
 Das Plugin **Verwaltung von Rollläden** ermöglicht es Ihnen, die automatische Positionierung Ihrer Rollläden entsprechend der Höhe und dem Azimut der Sonne und / oder anderen Bedingungen Ihrer Wahl zu verwalten. Alle Berechnungen werden direkt vom Plugin durchgeführt, ohne dass eine Internetverbindung erforderlich ist.
 
-Gut verstanden, kann dieses Plugin alle Szenarien zum Öffnen, Schließen oder Positionieren Ihrer Rollläden ersetzen. Ein Anwendungsbeispiel finden Sie unter [dieser Blogartikel von Loïc](https://www.jeedom.com/blog/?p=4310){:Ziel = "\_ leer"}.
+Gut verstanden, kann dieses Plugin alle Szenarien zum Öffnen, Schließen oder Positionieren Ihrer Rollläden ersetzen. Ein Anwendungsbeispiel finden Sie unter [dieser Blogartikel von Loïc](https://blog.jeedom.com/5543-gestion-de-mes-volets/).
 
 >**Wichtig**
 >
@@ -70,7 +70,7 @@ Auf dieser Registerkarte können Sie spezifische Regeln definieren, die von den 
 
 - **Zustand** : Die Bedingung, die erfüllt sein muss, damit die Regel gültig ist *(facultatif)*.
 - **Modus** : Bei Eingabe ist die Bedingung nur gültig, wenn sich der Rollladen derzeit im angegebenen Modus befindet. Es ist möglich, mehrere Modi anzugeben, indem Sie sie durch Kommas trennen *(facultatif)*.
-- **Sofortige Ausnahme** : Aktivieren Sie das Kontrollkästchen, damit die Regel sofort ausgeführt wird, sobald die Bedingung gültig ist.
+- **Sofortige Ausnahme** : Aktivieren Sie das Kontrollkästchen, damit die Regel sofort ausgeführt wird, sobald die Bedingung gültig ist. Bitte beachten Sie, dass dies nur funktioniert, wenn sich der Status der Befehle ändert. Wenn Sie zum Beispiel „#hour# == 1022` Die sofortige Ausnahme wird nicht funktionieren. Das Gleiche gilt für Variablen.
 - **Anhalten** : Aktivieren Sie das Kontrollkästchen, um die automatische Verwaltung auszusetzen, solange die Regel gültig ist.
 - **Position** : Die gewünschte Position in Prozent, wenn die Regel gültig ist *(leer = keine Aktion)*.
 - **Etikett** : Label, das mit der Validierung der Ausnahmeregel verknüpft ist *(facultatif)*.

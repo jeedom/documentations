@@ -2,7 +2,7 @@
 
 El complemento **Gestión de persianas** le permitirá gestionar fácilmente el posicionamiento automático de sus persianas de acuerdo con la elevación y el azimut del sol y / u otras condiciones de su elección. Todos los cálculos se llevan a cabo directamente por el complemento sin necesidad de una conexión a Internet.
 
-Bien entendido, este complemento puede reemplazar todos los escenarios relacionados con la apertura, cierre o posicionamiento de sus persianas. Puede encontrar un ejemplo de uso leyendo [este artículo de blog escrito por Loïc](https://www.jeedom.com/blog/?p=4310){:target = "\_ en blanco"}.
+Bien entendido, este complemento puede reemplazar todos los escenarios relacionados con la apertura, cierre o posicionamiento de sus persianas. Puede encontrar un ejemplo de uso leyendo [este artículo de blog escrito por Loïc](https://blog.jeedom.com/5543-gestion-de-mes-volets/).
 
 >**Importante**
 >
@@ -70,7 +70,7 @@ Esta pestaña te permitirá definir reglas específicas que serán una excepció
 
 - **Condición** : La condición que debe cumplirse para que la regla sea válida *(facultatif)*.
 - **Modo** : Si se ingresa, la condición solo será válida si el obturador se encuentra actualmente en el modo especificado. Es posible especificar varios modos separándolos con comas *(facultatif)*.
-- **Excepción inmediata** : Marque la casilla para que la regla se ejecute inmediatamente tan pronto como la condición sea válida.
+- **Excepción inmediata** : Marque la casilla para que la regla se ejecute inmediatamente tan pronto como la condición sea válida. Tenga en cuenta que esto solo funciona cuando cambia el estado de los comandos. Si pones por ejemplo `#hour# == 1022` la excepción inmediata no funcionará. Lo mismo para las variables.
 - **Suspender** : Marque la casilla para suspender la gestión automática mientras la regla sea válida.
 - **Posición** : La posición deseada en porcentaje si la regla es válida *(vacío = sin acción)*.
 - **Etiqueta** : Etiqueta asociada a la validación de la regla de excepción *(facultatif)*.

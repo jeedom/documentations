@@ -15,6 +15,11 @@
 - Detección del modo de inclusión mejorada
 - Corrección de errores (el complemento ahora ignora los valores vacíos de los comandos))
 
+# 19/02/2024
+
+- Se solucionó un problema con la instalación de mqtt
+
+
 # 17/01/2024
 
 - Actualización de firmware mejorada en Luna

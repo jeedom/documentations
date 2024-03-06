@@ -4,6 +4,16 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the updating of documentation, translation or text.
 
+# 02/22/2024
+
+- Core 4.4 preparation
+- Bug fixes
+- Optimisations
+
+# 02/05/2022
+
+- Bug fix (thanks @florentde)
+
 # 01/07/2022
 
 - Rewriting logs and optimizing code

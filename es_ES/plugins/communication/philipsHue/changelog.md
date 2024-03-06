@@ -6,6 +6,15 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 28/02/2024
+
+- Mejor manejo de casos en los que dos escenas tienen el mismo nombre
+- Se agregó una imagen faltante para los módulos
+
+# 10/02/2024
+
+- Correcciones de errores
+
 # 07/02/2024
 
 - Se corrigió un error que cambiaba la configuración de controles para habitaciones, grupos de lámparas y zonas durante la sincronización

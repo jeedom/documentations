@@ -15,6 +15,11 @@
 - Amélioration de la detection du mode inclusion
 - Correction de bug (le plugin ignore maintenant les valeurs vide pour les commandes)
 
+# 19/02/2024
+
+- Correction d'un soucis sur l'installation de mqtt
+
+
 # 17/01/2024
 
 - Amélioration de la mise à jour du firmware sur Luna

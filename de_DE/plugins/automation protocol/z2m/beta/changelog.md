@@ -15,6 +15,11 @@
 - Verbesserte Erkennung des Einschlussmodus
 - Fehlerbehebung (Plugin ignoriert jetzt leere Werte für Befehle)
 
+# 19.02.2024
+
+- Ein Problem bei der Installation von mqtt wurde behoben
+
+
 # 17.01.2024
 
 - Verbessertes Firmware-Update auf Luna

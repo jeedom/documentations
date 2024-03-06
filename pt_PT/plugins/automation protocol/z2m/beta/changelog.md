@@ -15,6 +15,11 @@
 - Detecção aprimorada do modo de inclusão
 - Correção de bug (plugin agora ignora valores vazios para comandos)
 
+# 19/02/2024
+
+- Corrigido um problema com a instalação do mqtt
+
+
 # 17/01/2024
 
 - Atualização de firmware aprimorada no Luna

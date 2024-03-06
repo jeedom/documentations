@@ -2,7 +2,7 @@
 
 Le plugin **Gestion des Volets** va vous permettre de gérer facilement le positionnement automatique de vos volets en fonction de l'élévation et de l'azimuth du soleil et/ou d'autres conditions de votre choix. Tous les calculs sont effectués directement par le plugin sans nécessiter de connexion à internet.
 
-Bien appréhendé, ce plugin est en mesure de remplacer l'ensemble des scénarios relatifs à l'ouverture, la fermeture ou le positionnement de vos volets. Vous pouvez retrouver un exemple d'utilisation à la lecture de [cet article du blog rédigé par Loïc](https://www.jeedom.com/blog/?p=4310){:target="\_blank"}.
+Bien appréhendé, ce plugin est en mesure de remplacer l'ensemble des scénarios relatifs à l'ouverture, la fermeture ou le positionnement de vos volets. Vous pouvez retrouver un exemple d'utilisation à la lecture de [cet article du blog rédigé par Loïc](https://blog.jeedom.com/5543-gestion-de-mes-volets/).
 
 >**IMPORTANT**
 >
@@ -70,7 +70,7 @@ Cet onglet va permettre de définir des règles spécifiques qui viendront en ex
 
 - **Condition** : La condition à remplir pour que la règle soit valide *(facultatif)*.
 - **Mode** : Si renseigné, la condition ne sera valide que si le volet est actuellement dans le mode spécifié. Il est possible de spécifier plusieurs modes en les séparant par des virgules *(facultatif)*.
-- **Exception immédiate** : Cochez la case pour que la règle s'exécute immédiatement dès que la condition est valide.
+- **Exception immédiate** : Cochez la case pour que la règle s'exécute immédiatement dès que la condition est valide. Attention cela ne marche que lors de changement d'état de commandes. Si vous mettez par exemple `#hour# == 1022` l'exception immédiate ne marchera pas. Idem pour les variables.
 - **Suspendre** : Cochez la case pour suspendre la gestion automatique tant que la règle est valide.
 - **Position** : La position désirée en pourcentage si la règle est valide *(vide = aucune action)*.
 - **Label** : Label associé à la validation de la règle d'exception *(facultatif)*.

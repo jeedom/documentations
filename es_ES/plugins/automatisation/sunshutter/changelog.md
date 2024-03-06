@@ -4,6 +4,16 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+# 22/02/2024
+
+- Preparación básica 4.4
+- Corrección de errores
+- Optimisations
+
+# 05/02/2022
+
+- Corrección de errores (gracias @florentde)
+
 # 01/07/2022
 
 - Reescritura de registros y optimización de código

@@ -2,7 +2,7 @@
 
 O plugin **Gestão de persianas** irá permitir-lhe gerir facilmente o posicionamento automático das suas persianas de acordo com a elevação e azimute do sol e / ou outras condições à sua escolha. Todos os cálculos são realizados diretamente pelo plugin, sem a necessidade de conexão com a internet.
 
-Bem entendido, este plugin é capaz de substituir todos os cenários relativos à abertura, fechamento ou posicionamento de suas venezianas. Você pode encontrar um exemplo de uso lendo [este artigo de blog escrito por Loïc](https://www.jeedom.com/blog/?p=4310){:target = "\_ em branco"}.
+Bem entendido, este plugin é capaz de substituir todos os cenários relativos à abertura, fechamento ou posicionamento de suas venezianas. Você pode encontrar um exemplo de uso lendo [este artigo de blog escrito por Loïc](https://blog.jeedom.com/5543-gestion-de-mes-volets/).
 
 >**IMPORTANTE**
 >
@@ -70,7 +70,7 @@ Esta página permitirá que você defina regras específicas que serão uma exce
 
 - **Condição** : A condição a ser cumprida para que a regra seja válida *(facultatif)*.
 - **Modo** : Se inserida, a condição só será válida se o obturador estiver atualmente no modo especificado. É possível especificar vários modos, separando-os com vírgulas *(facultatif)*.
-- **Exceção imediata** : Marque a caixa para que a regra seja executada imediatamente assim que a condição for válida.
+- **Exceção imediata** : Marque a caixa para que a regra seja executada imediatamente assim que a condição for válida. Observe que isso só funciona quando o estado dos comandos muda. Se você colocar por exemplo `#hour# == 1022` a exceção imediata não funcionará. O mesmo para variáveis.
 - **Suspender** : Marque a caixa para suspender o gerenciamento automático enquanto a regra for válida.
 - **Posição** : A posição desejada em porcentagem se a regra for válida *(vazio = nenhuma ação)*.
 - **Etiqueta** : Rótulo associado à validação da regra de exceção *(facultatif)*.
