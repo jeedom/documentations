@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Le Plugin Loi d'Eau permet aux utilisateurs d'agir sur une pompe et/ou V3V en se basant sur un calcul spécifique.
+Le Plugin Loi d'Eau permet aux utilisateurs d'agir sur une pompe et/ou une vanne trois voies (V3V) en se basant sur un calcul spécifique prenant en compte la température extérieure.
 
 ## Configuration des équipements
 

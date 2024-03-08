@@ -14,7 +14,7 @@
 	"hasOwnDeamon" : false,
 	"maxDependancyInstallTime" : 0,
 	"changelog" : "https://jeedom.github.io/plugin-template/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-template/#language#/",
+	"documentation" : "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/loideau",
 	"changelog_beta" : "https://jeedom.github.io/plugin-template/#language#/beta/changelog",
 	"documentation_beta" : "https://jeedom.github.io/plugin-template/#language#/beta/",
 	"link" : {
