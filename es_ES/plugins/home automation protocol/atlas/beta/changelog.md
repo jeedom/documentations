@@ -6,6 +6,10 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+# 08/04/2023
+
+- parche deb armbiano 
+
 # 13/04/2022
 
 - Ortografía y traducciones

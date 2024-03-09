@@ -98,3 +98,4 @@ Détection automatique de la 4G interne à la box. Merci de bien vouloir passer 
 si 4G détectée, lancement d'un module de connexion en arrière plan qui passe automatiquement de l'Ethernet ou wifi à la 4G au besoin.
 Le plugin SMS fonctionne en meme temps que la 4G sur la Luna 4G.
 Les paramétrages se font dans la page LTE du plugin.
+/!\ Attention il faut des APN de type ipv4 (bouygue : ebouygtel.com, Orange : orange, free : free). /!\

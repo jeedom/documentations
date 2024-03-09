@@ -6,6 +6,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 08.04.2023
+
+- Armbian Deb-Patch 
+
 # 13.04.2022
 
 - Rechtschreibung und Übersetzungen

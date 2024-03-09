@@ -6,6 +6,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 08/04/2023
+
+- patch armbian deb 
+
 # 13/04/2022
 
 - Orthographe et traductions

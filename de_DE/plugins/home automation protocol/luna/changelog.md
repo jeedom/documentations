@@ -6,6 +6,11 @@
 >
 >Zur Erinnerung: Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 05.02.2024
+
+- Doppelte IP-Korrektur
+- APN-Informationen für eine bessere 4G-Verbindung hinzugefügt
+
 # 19.12.2023
 
 - Fehler behoben (Der Stream oder die Datei „/var/www/html/core/class/../../log/“ konnte nicht im Anhängemodus geöffnet werden: Fehler beim Öffnen des Streams: Ist ein Verzeichnis)

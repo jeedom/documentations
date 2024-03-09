@@ -6,6 +6,10 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+# 08/04/2023
+
+- patch deb armiano 
+
 # 13/04/2022
 
 - Ortografia e traduções
