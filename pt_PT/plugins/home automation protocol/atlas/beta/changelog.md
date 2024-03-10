@@ -6,9 +6,9 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
-# 08/04/2023
+# 03/08/2024
 
-- patch deb armiano 
+- Desativando repositórios Armbian desatualizados.
 
 # 13/04/2022
 

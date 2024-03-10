@@ -6,9 +6,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# 08.04.2023
+# 08.03.2024
 
-- Armbian Deb-Patch 
+- Deaktivieren veralteter Armbian-Repositorys.
 
 # 13.04.2022
 

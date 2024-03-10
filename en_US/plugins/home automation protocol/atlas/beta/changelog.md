@@ -6,9 +6,9 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
-# 04/08/2023
+# 03/08/2024
 
-- armbian deb patch 
+- Disabling outdated Armbian repositories.
 
 # 04/13/2022
 

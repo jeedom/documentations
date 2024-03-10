@@ -6,9 +6,9 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
-# 08/04/2023
+# 08/03/2024
 
-- parche deb armbiano 
+- Deshabilitar repositorios Armbian obsoletos.
 
 # 13/04/2022
 
