@@ -172,7 +172,7 @@ Le cas des modules envoyant des codes IR est un peu spécifique car il n'y a pas
 ## Commande personalisée
 
 Cette partie est plutot pour les utilisateurs avancée qui voudraient ajouter des commandes spécifique. Tout se passe dans le logical id de la commande :
-- action : `temperature::25` pour envoyer `{"température":25}` sur le topic `set` de l'équipement ou `arm_mode/mode::arming_stay` pour envoyer  `{"arm_mode":"arming_stay"}` sur le topic `set/arm_mode` de l'équipement
+- action : `json::{"temperature":25}` pour envoyer `{"température":25}` sur le topic `set` de l'équipement, pour envoyer une commande sur un sous topic il suffit par exemple de mettre `/arm_mode` dans sous topic et `json::{"mode:"arming_stay"}` dans logical id pour envoyer `{"mode:"arming_stay"}` sur `set/arm_mode`
 - info : `temperature` pour récupere le champs `temperature` du json de l'équipement ou `temperature::min` pour recuperer le sous champs `min` du tableau `temperature` de l'équipement
 
 >**NOTE**

@@ -4,11 +4,30 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 26/02/2024
+
+- Se solucionó un problema con la instalación de mqtt
+- Modificación del subtema (ahora es un campo de configuración específico del comando), tenga cuidado de actualizar sus comandos si los ha utilizado.
+- Modificación de la sintaxis del campo logicId para acciones (cambio a modo json::). Para conocer las novedades, consulte la documentación del complemento.
+- Agregar el puerto /dev/ttyAMA0 para raspbee2 en rpi
+- Arreglo del fallo
+- Se agregó un botón para desactivar el modo de inclusión
+- Detección del modo de inclusión mejorada
+- Corrección de errores (el complemento ahora ignora los valores vacíos de los comandos))
+
+# 19/02/2024
+
+- Se solucionó un problema con la instalación de mqtt
+
+
+# 17/01/2024
+
 - Actualización de firmware mejorada en Luna
 - Mejor gestión portuaria en Luna
 - Simplificando la lista de puertos
 - Posibilidad de enviar un mensaje sobre un subtema del comando establecido : modo_armado/modo::armando_quedarse
 - Arreglo del fallo
+- Gestión de comentarios de estado en grupos
 
 # 26/12/2023
 

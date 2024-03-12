@@ -4,11 +4,30 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 02/26/2024
+
+- Fixed a problem with the installation of mqtt
+- Modification on the subtopic (it is now a configuration field specific to the command), be careful to update your commands if you have used them.
+- Modification of the syntax of the logicalId field for actions (change to json mode::). To find out the news, please consult the plugin documentation.
+- Adding the /dev/ttyAMA0 port for raspbee2 on rpi
+- Bug fix
+- Added a button to deactivate inclusion mode
+- Improved inclusion mode detection
+- Bug fix (plugin now ignores empty values for commands)
+
+# 02/19/2024
+
+- Fixed a problem with the installation of mqtt
+
+
+# 01/17/2024
+
 - Improved firmware update on Luna
 - Better port management on Luna
 - Simplifying the port list
 - Possibility of sending a message on a subtopic of the set command : arm_mode/mode::arming_stay
 - Bugfix
+- Management of status feedback on groups
 
 # 12/26/2023
 

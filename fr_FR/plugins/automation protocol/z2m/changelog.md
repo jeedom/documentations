@@ -4,9 +4,21 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 26/02/2024
+
+- Correction d'un soucis sur l'installation de mqtt
+- Modification sur le sous-topic (c'est maintenant un champs de configuration propre à la commande), attention a bien mettre a jour vos commandes si vous vous en etes servi.
+- Modification de la syntaxe du champs logicalId pour les actions (passage en mode json::). Pour connaitre la nouvelle merci de consulter la documentation du plugin.
+- Rajout du port /dev/ttyAMA0 pour raspbee2 sur rpi
+- Correction de bug
+- Ajout d'un bouton pour désactiver le mode inclusion
+- Amélioration de la detection du mode inclusion
+- Correction de bug (le plugin ignore maintenant les valeurs vide pour les commandes)
+
 # 19/02/2024
 
 - Correction d'un soucis sur l'installation de mqtt
+
 
 # 17/01/2024
 

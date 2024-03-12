@@ -4,11 +4,30 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 26.02.2024
+
+- Ein Problem bei der Installation von mqtt wurde behoben
+- Änderung am Unterthema (es ist jetzt ein befehlsspezifisches Konfigurationsfeld). Achten Sie darauf, Ihre Befehle zu aktualisieren, wenn Sie sie verwendet haben.
+- Änderung der Syntax des Feldes logicalId für Aktionen (Wechsel in den JSON-Modus)::). Um die Neuigkeiten zu erfahren, konsultieren Sie bitte die Plugin-Dokumentation.
+- Hinzufügen des /dev/ttyAMA0-Ports für raspbee2 auf RPI
+- Bug-Fix
+- Es wurde eine Schaltfläche zum Deaktivieren des Inklusionsmodus hinzugefügt
+- Verbesserte Erkennung des Einschlussmodus
+- Fehlerbehebung (Plugin ignoriert jetzt leere Werte für Befehle)
+
+# 19.02.2024
+
+- Ein Problem bei der Installation von mqtt wurde behoben
+
+
+# 17.01.2024
+
 - Verbessertes Firmware-Update auf Luna
 - Bessere Hafenverwaltung auf Luna
 - Vereinfachung der Portliste
 - Möglichkeit, eine Nachricht zu einem Unterthema des Set-Befehls zu senden : arm_mode/mode::arming_stay
 - Bug-Fix
+- Verwaltung von Statusrückmeldungen zu Gruppen
 
 # 26.12.2023
 
