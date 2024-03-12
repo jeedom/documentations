@@ -1,0 +1,49 @@
+{
+    "id": "loideau",
+    "name": "Loi d'eau",
+    "specialAttributes": [],
+    "description": {
+        "fr_FR": "Plugin permetant de gérer la loi d eau",
+        "en_US": "Plugin allowing you to manage the water law",
+        "es_ES": "Complemento que le permite gestionar la ley de aguas",
+        "de_DE": "Plugin, mit dem Sie das Wasserrecht verwalten können",
+        "ru_RU": "Plugin permetant de gérer la loi d eau",
+        "id_ID": "Plugin permetant de gérer la loi d eau",
+        "it_IT": "Plugin permetant de gérer la loi d eau",
+        "ja_JP": "Plugin permetant de gérer la loi d eau",
+        "pt_PT": "Plugin que permite gerenciar a legislação hídrica",
+        "tr": "Plugin permetant de gérer la loi d eau"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3.39",
+    "category": "programming",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/loideau\/beta\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/loideau",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/loideau\/beta",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/loideau",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas"
+    ]
+}
