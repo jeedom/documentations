@@ -188,4 +188,14 @@ Pour aller plus loin, vous pouvez actionner physiquement le module et effectuer 
 >
 >En actionnant physiquement le module, vous serez en mesure d'identifier la ligne dont les valeurs changent en conséquence dans la fenêtre des Valeurs du nœud et dont la commande ne serait pas créée ou fonctionnelle. En bout de ligne se trouve un bouton avec une icône en forme de stylo permettant de créer automatiquement la commande correspondante vous octroyant par la même la possibilité de pouvoir utiliser votre module malgré une configuration absente ou erronée.
 
-## Remplacer un module défaillant
+<!-- ## Remplacer un module défaillant -->
+
+# FAQ
+
+>**Est-il possible d'utiliser Z-Wave JS UI en mode déporté ?**
+>
+>Le cahier de route de l'équipe Jeedom concernant le plugin Z-wave JS prévoit effectivement l'ajout de cette possibilité dans les prochains mois sans notion d'urgence car il ne s'agit pas d'une fonctionnalité primordiale au bon fonctionnement du plugin.
+
+>**Est-il possible d'activer le serveur websocket Z-Wave JS UI ?**
+>
+>Pour le bon fonctionnement du plugin et de Jeedom en général il n'est pas possible d'activer le serveur websocket Z-Wave JS UI toutefois le mode déporté à venir permettra les mêmes cas d'usage.

@@ -188,4 +188,14 @@ Para ir más allá, puede activar físicamente el módulo y tomar capturas de pa
 >
 >Al operar físicamente el módulo, podrá identificar la línea cuyos valores cambian en consecuencia en la ventana Valores de nodo y cuyo comando no se crearía ni funcionaría. Al final de la línea hay un botón con un icono en forma de bolígrafo que le permite crear automáticamente el comando correspondiente, lo que le brinda la posibilidad de poder usar su módulo a pesar de una configuración ausente o errónea.
 
-## Reemplace un módulo defectuoso
+<!-- ## Remplacer un module défaillant -->
+
+# FAQ
+
+>**¿Es posible utilizar la interfaz de usuario de Z-Wave JS en modo remoto? ?**
+>
+>La hoja de ruta del equipo de Jeedom sobre el complemento Z-wave JS prevé la incorporación de esta posibilidad en los próximos meses sin ningún sentido de urgencia porque no es una funcionalidad esencial para el correcto funcionamiento del complemento.
+
+>**¿Es posible habilitar el servidor websocket Z-Wave JS UI? ?**
+>
+>Para el correcto funcionamiento del complemento y de Jeedom en general, no es posible activar el servidor websocket Z-Wave JS UI, sin embargo, el próximo modo remoto permitirá los mismos casos de uso.
