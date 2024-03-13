@@ -836,7 +836,7 @@
     },
     "plugins\/home automation protocol\/index.md": {
         "Plugin spécialisé pour la box Jeedom Luna": "Specialized plugin for the Jeedom Luna box",
-        "Plugins spécialisé pour la Atlas": "Specialized plugins for the Atlas",
+        "Plugin spécialisé pour la box Jeedom Atlas": "Specialized plugin for the Jeedom Atlas box",
         "Seuls les plugins officiels ont leur documentation ici": "Only official plugins have their documentation here",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "You can consult the documentation of the other plugins directly from the Jeedom Market",
         "Une fois sur le plugin en question, cliquez sur documentation": "Once on the plugin in question, click on documentation",

@@ -6,5 +6,5 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="atlas/atlas_icon.png" class="pluginLogo" width="100" />|Atlas|Complementos especializados para Atlas|[Documentación estable](atlas/index.md) - [Documentación beta](atlas/beta/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=4195)<br/>[Registro de cambios estable](atlas/changelog.md) - [Registro de cambios Beta](atlas/beta/changelog.md)|
+|<img src="atlas/atlas_icon.png" class="pluginLogo" width="100" />|Atlas|Complemento especializado para la caja Jeedom Atlas.|[Documentación estable](atlas/index.md) - [Documentación beta](atlas/beta/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=4195)<br/>[Registro de cambios estable](atlas/changelog.md) - [Registro de cambios Beta](atlas/beta/changelog.md)|
 |<img src="luna/luna_icon.png" class="pluginLogo" width="100" />|Luna|Complemento especializado para la caja Jeedom Luna.|[Documentación estable](luna/index.md) - [Documentación beta](luna/beta/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=4346)<br/>[Registro de cambios estable](luna/changelog.md) - [Registro de cambios Beta](luna/beta/changelog.md)|

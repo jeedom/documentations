@@ -13,10 +13,10 @@
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,
 	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://jeedom.github.io/plugin-template/#language#/changelog",
+	"changelog_beta" : "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/loideau\/beta\/changelog",
+	"changelog" : "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/loideau\/changelog",
+	"documentation_beta" : "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/loideau\/beta",
 	"documentation" : "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/loideau",
-	"changelog_beta" : "https://jeedom.github.io/plugin-template/#language#/beta/changelog",
-	"documentation_beta" : "https://jeedom.github.io/plugin-template/#language#/beta/",
 	"link" : {
 		"forum":"Lien vers le forum",
 		"video" : "Lien vers une video"
