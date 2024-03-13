@@ -228,6 +228,7 @@
         "Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya\/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc": "Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya\/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc"
     },
     "plugins_contributor\/energy\/index.md": {
+        "Fixe, Heure creuse & Heure pleine ainsi que la tarification Tempo d'EDF": "Fixe, Heure creuse & Heure pleine ainsi que la tarification Tempo d'EDF",
         "Wall Connector (Tesla": "Wall Connector (Tesla",
         "Ce plugin permet de calculer le coût et la consommation des charges de vos véhicules réalisées avec la borne de recharge Wall Connector Gen 3 de Tesla": "Ce plugin permet de calculer le coût et la consommation des charges de vos véhicules réalisées avec la borne de recharge Wall Connector Gen 3 de Tesla",
         "Pour information, le site \"Mon eau & Moi\" sera très prochainement intégré au plugin": "Pour information, le site \"Mon eau & Moi\" sera très prochainement intégré au plugin",
@@ -303,7 +304,8 @@
         "Pour le moment seule l'API Ecowatt est disponible": "Pour le moment seule l'API Ecowatt est disponible",
         "Merci de suivre la documentation pour la configuration": "Merci de suivre la documentation pour la configuration",
         "le plugin récupére automatiquement le token et de ligue ensuite en local sur la passerelle": "le plugin récupére automatiquement le token et de ligue ensuite en local sur la passerelle",
-        "IoTaWatt est un projet à code source ouvert et à matériel ouvert visant à produire un moniteur d'énergie précis, peu coûteux et facile à utiliser": "IoTaWatt est un projet à code source ouvert et à matériel ouvert visant à produire un moniteur d'énergie précis, peu coûteux et facile à utiliser"
+        "IoTaWatt est un projet à code source ouvert et à matériel ouvert visant à produire un moniteur d'énergie précis, peu coûteux et facile à utiliser": "IoTaWatt est un projet à code source ouvert et à matériel ouvert visant à produire un moniteur d'énergie précis, peu coûteux et facile à utiliser",
+        "WallConnector prend en charge 3 modes de tarification": "WallConnector prend en charge 3 modes de tarification"
     },
     "plugins_contributor\/health\/index.md": {
         "Withings \/ Nokia": "Withings \/ Nokia",

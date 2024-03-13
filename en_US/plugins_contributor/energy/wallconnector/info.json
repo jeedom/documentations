@@ -1,15 +1,16 @@
 {
 	"id": "wallconnector",
 	"name": "Wall Connector (Tesla)",
-	"pluginVersion": "1.2.1",
+	"pluginVersion": "1.2.2",
 	"description": {
-		"fr_FR": "Ce plugin permet de calculer le coût et la consommation des charges de vos véhicules réalisées avec la borne de recharge Wall Connector Gen 3 de Tesla.",
+		"fr_FR": "Ce plugin permet de calculer le coût et la consommation des charges de vos véhicules réalisées avec la borne de recharge Wall Connector Gen 3 de Tesla. WallConnector prend en charge 3 modes de tarification : Fixe, Heure creuse & Heure pleine ainsi que la tarification Tempo d'EDF.",
 		"en_US": "Plugin for calculating the cost and consumption of vehicle charging using the Tesla Wall Connector Gen 3.",
         "es_ES": "Plugin para calcular el costo y el consumo de carga de vehículos con el Wall Connector Gen 3 de Tesla.",
         "de_DE": "Plugin zur Berechnung der Kosten und des Verbrauchs für die Fahrzeugladung mit dem Tesla Wall Connector Gen 3.",
         "it_IT": "Plugin per calcolare il costo e il consumo della ricarica del veicolo con il Wall Connector Gen 3 di Tesla.",
         "tr": "Plugin pour gérer sa consommation énergétique"
 	},
+	"utilization": "Dans la section configuration du plugin, veuillez bien indiquer le mode de tarification ainsi que le(s) montant(s) de votre kWh afin que le plugin calcule précisément la consommation de vos recharges. Dans la section équipement, vous pouvez déclarer plusieurs bornes de recharge Tesla ; veuillez pour chacune d'elles préciser leur adresse IP. Je vous invite à lire la documentation, où tout est indiqué ;-)",
 	"licence": "AGPL",
 	"author": "jerpic",
 	"require": "4.0",

@@ -480,6 +480,7 @@
         " Attention*": " Atención*"
     },
     "plugins_contributor\/energy\/index.md": {
+        "Fixe, Heure creuse & Heure pleine ainsi que la tarification Tempo d'EDF": "Horario fijo, valle y pico, así como precios Tempo de EDF",
         "Wall Connector (Tesla": "Conector de pared (Tesla",
         "Ce plugin permet de calculer le coût et la consommation des charges de vos véhicules réalisées avec la borne de recharge Wall Connector Gen 3 de Tesla": "Este complemento le permite calcular el costo y el consumo de las cargas de su vehículo realizadas con la estación de carga Wall Connector Gen 3 de Tesla",
         "Pour information, le site \"Mon eau & Moi\" sera très prochainement intégré au plugin": "Para obtener información, el sitio \"Mon eau & Moi\" pronto se integrará en el complemento",
@@ -542,6 +543,7 @@
         "Merci de suivre la documentation pour la configuration": "Siga la documentación para la configuración",
         "le plugin récupére automatiquement le token et de ligue ensuite en local sur la passerelle": "el complemento recupera automáticamente el token y luego localmente en la puerta de enlace",
         "IoTaWatt est un projet à code source ouvert et à matériel ouvert visant à produire un moniteur d'énergie précis, peu coûteux et facile à utiliser": "IoTaWatt es un proyecto de código abierto y hardware abierto para producir un monitor de energía preciso, económico y fácil de usar",
+        "WallConnector prend en charge 3 modes de tarification": "WallConnector admite 3 modos de precios",
         " Solaredge.": " Borde solar.",
         " Solaredge?": " Borde solar?",
         "Solaredge ": "Borde solar ",
