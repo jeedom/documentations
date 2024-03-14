@@ -6,6 +6,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Controles aprimorados de ativação/desativação do sensor
+
 # 28/02/2024
 
 - Melhor tratamento de casos onde duas cenas possuem o mesmo nome

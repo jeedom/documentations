@@ -6,6 +6,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Controles de activación/desactivación de sensores mejorados
+
 # 28/02/2024
 
 - Mejor manejo de casos en los que dos escenas tienen el mismo nombre
