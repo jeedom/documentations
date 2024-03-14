@@ -1,0 +1,53 @@
+{
+    "id": "genTypePerso",
+    "name": "Generic Type",
+    "pluginVersion": "0.1",
+    "description": {
+        "fr_FR": "Plugin Generic Type",
+        "en_US": "Plugin Generic Type",
+        "es_ES": "Tipo genérico de complemento",
+        "de_DE": "Generischer Plugin-Typ",
+        "ru_RU": "Plugin Generic Type",
+        "id_ID": "Plugin Generic Type",
+        "it_IT": "Plugin Generic Type",
+        "ja_JP": "Plugin Generic Type",
+        "pt_PT": "Tipo genérico de plug-in",
+        "tr": "Plugin Generic Type"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2",
+    "category": "programming",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/genTypePerso\/beta\/changelog",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/genTypePerso\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/genTypePerso\/beta",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/genTypePerso",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "smart",
+        "luna",
+        "atlas",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile"
+    ]
+}
