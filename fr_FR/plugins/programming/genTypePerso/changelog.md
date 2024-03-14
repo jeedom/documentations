@@ -1,3 +1,5 @@
+# Changelog Generic Type
+
 # Changelog plugin template
 
 >**IMPORTANT**
