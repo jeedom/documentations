@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 03/14/2024
+
+- Added /dev/ttyACM0 port
+
 # 03/13/2024
 
 - Limitation of updating the Zigbee firmware to Luna on Luna boxes (avoids breaking the Zigbee chip in the event of a wrong choice)
