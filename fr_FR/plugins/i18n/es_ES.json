@@ -925,7 +925,7 @@
         "Onduleur (NUT": "Inversor (TUERCA",
         "Plugin pour récuperer les informations des onduleurs via nut": "Complemento para recuperar información de los inversores a través de la tuerca",
         "Plugin de Monitoring local et distant par SSH": "Complemento de monitoreo local y remoto por SSH",
-        "Template servant de base à la création de plugins pour Jeedom": "Plantilla que sirve como base para crear complementos para Jeedom",
+        "Plugin permetant de publier des valeurs depuis Jeedom en MQTT": "Complemento que le permite publicar valores de Jeedom en MQTT",
         "ATTENTION plugin disponible uniquement en beta": "ATENCIÓN complemento solo disponible en versión beta",
         "Seuls les plugins officiels ont leur documentation ici": "Solo los complementos oficiales tienen su documentación aquí",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Puede consultar la documentación de los otros complementos directamente desde Jeedom Market",

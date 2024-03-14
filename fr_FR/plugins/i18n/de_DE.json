@@ -925,7 +925,7 @@
         "Onduleur (NUT": "Wechselrichter (MUTTER",
         "Plugin pour récuperer les informations des onduleurs via nut": "Plugin zum Abrufen von Informationen von Wechselrichtern über Mutter",
         "Plugin de Monitoring local et distant par SSH": "Plugin für lokale und Fernüberwachung per SSH",
-        "Template servant de base à la création de plugins pour Jeedom": "Vorlage, die als Grundlage für die Erstellung von Plugins für Jeedom dient",
+        "Plugin permetant de publier des valeurs depuis Jeedom en MQTT": "Plugin, mit dem Sie Werte von Jeedom in MQTT veröffentlichen können",
         "ATTENTION plugin disponible uniquement en beta": "ACHTUNG Plugin nur in der Beta verfügbar",
         "Seuls les plugins officiels ont leur documentation ici": "Nur offizielle Plugins haben hier ihre Dokumentation",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Sie können die Dokumentation der anderen Plugins direkt im Jeedom Market einsehen",

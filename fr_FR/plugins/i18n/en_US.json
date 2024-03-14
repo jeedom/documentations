@@ -925,7 +925,7 @@
         "Onduleur (NUT": "Inverter (NUT",
         "Plugin pour récuperer les informations des onduleurs via nut": "Plugin to retrieve information from inverters via nut",
         "Plugin de Monitoring local et distant par SSH": "Local and remote monitoring plugin by SSH",
-        "Template servant de base à la création de plugins pour Jeedom": "Template serving as a basis for creating plugins for Jeedom",
+        "Plugin permetant de publier des valeurs depuis Jeedom en MQTT": "Plugin allowing you to publish values from Jeedom in MQTT",
         "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin only available in beta",
         "Seuls les plugins officiels ont leur documentation ici": "Only official plugins have their documentation here",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "You can consult the documentation of the other plugins directly from the Jeedom Market",
