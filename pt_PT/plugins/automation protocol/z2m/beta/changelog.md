@@ -4,10 +4,6 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# 14/03/2024
-
-- Adicionada porta /dev/ttyACM0
-
 # 13/03/2024
 
 - Limitação de atualização do firmware Zigbee para Luna nas caixas Luna (evita quebrar o chip Zigbee em caso de escolha errada)

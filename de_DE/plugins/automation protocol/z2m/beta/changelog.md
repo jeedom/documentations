@@ -4,10 +4,6 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# 14.03.2024
-
-- /dev/ttyACM0-Port hinzugefügt
-
 # 13.03.2024
 
 - Beschränkung der Aktualisierung der Zigbee-Firmware auf Luna-auf-Luna-Boxen (vermeidet die Beschädigung des Zigbee-Chips im Falle einer falschen Wahl))
