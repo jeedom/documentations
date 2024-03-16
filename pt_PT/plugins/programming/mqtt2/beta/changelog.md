@@ -4,6 +4,8 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+- Corrigido um problema no php8
+
 # 23/02/2024
 
 - A eliminação de uma verificação do daemon lançável (feita quando o daemon é lançado em todos os casos)
