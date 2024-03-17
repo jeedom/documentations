@@ -1,61 +1,12 @@
 # Installation auf Raspberry Pi
 
-Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-PI **mit einer MiroSD-Karte.**. Es gibt 2 Modi :
-
-- Automatisch (Beta) : Verwendung des Bildes für Raspberry Pi von Jeedom mit vorinstalliertem Jeedom
-- Befehlszeile : manuelle Installation von Jeedom von Raspberry Pi OS
-
-> **Wichtig**
->
-> Debian 10 (Buster) ist die offiziell unterstützte Distribution.
-
-# Automatische Installation
-
-## Laden Sie das neueste Bild herunter
-
-Sie finden die Bilder [hier](https://images.jeedom.com/rpi/)
-
-> **Wichtig**
->
->Es gibt 2 Bilder : jeedom-debian-XXXX-rpi-X.X.XX.Der 32-Bit-Reißverschluss ist kompatibel mit Raspberry PI-Modellen der Generationen 2 und 3 und jeedom-debian-XXXX-rpi-64-X.X.XX.zip, das in 64bits ist, ist es nur für Raspberry Pi4 kompatibel und ist in Alpha (nicht empfohlen)).
-
-Mit dem Raspberry Pi Imager können Sie das Installationsimage von Raspberry Pi OS in der neuesten Version direkt herunterladen.
-
-## Brennen Sie dieses Bild beispielsweise mit dem Raspberry Pi Imager auf eine MicroSD-Karte
-
-Sie können es herunterladen [hier](https://www.raspberrypi.org/downloads/)
-
-## Starten Sie den PI
-
-Legen Sie Ihre MicroSD-Karte ein, schließen Sie das Netzwerkkabel an und schließen Sie die Stromversorgung an.
-
-> **Wichtig**
->
-> Beim ersten Start ist der Raspberry Pi möglicherweise langsam, da die Größe der Partition an die Größe Ihrer MicroSD-Karte angepasst wird. Darüber hinaus ist es ratsam, nach dem ersten Start erneut zu starten, damit der Swap die richtige Größe hat.
-
-Il vous suffit ensuite, dedann votre navigateur, de saisir : http://IP_RPI/ (en remplaçant IP_RPI par l'ip de votre Raspberry Pi).
-
-> **Informationen**
->
-> Die Standard-SSH-Anmeldeinformationen sind : jeedom und Mjeedom96 für das Passwort 
-
-Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)
+Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-PI **mit einer MiroSD-Karte.**. 
 
 # Befehlszeileninstallation
 
 ## Laden Sie das neueste "lite" -Bild herunter"
 
-[hier](https://downloads.raspberrypi.org/raspbian_lite_latest)
-
-Mit dem Raspberry Pi Imager können Sie das Installationsimage von Raspberry Pi OS in der neuesten Version direkt herunterladen.
-
-## Brennen Sie dieses Bild beispielsweise mit dem Raspberry Pi Imager auf eine MiroSD-Karte
-
-[hier](https://www.raspberrypi.org/downloads/)
-
-> **Notiz**
->
-> Wenn Sie Ihr Bild mit Etcher brennen, ist der Dekomprimierungsschritt nutzlos (das Zip-Format wird direkt bei der Auswahl der Bilddatei erkannt).
+[Raspberry Pi Imager](https://www.raspberrypi.com/software/)  ermöglicht es Ihnen, das Raspberry Pi OS-Installationsimage in seiner neuesten Version direkt herunterzuladen und das Image direkt auf die SD-Karte zu brennen. Bitte beachten Sie, dass Sie eine Debian 11-Version (Bullseye) verwenden müssen. Jeedom ist noch nicht mit Debian 12 kompatibel (wir arbeiten jedoch daran)).
 
 ## Aktivieren Sie den SSH-Zugriff
 
@@ -100,7 +51,11 @@ Melden Sie sich mit Anmeldeinformationen an **Pi / Himbeere**
 
 ## Starten Sie das Installationsskript jeedom
 
-``wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash``
+„
+wget https://www.jeedom.com/install
+chmod +x installieren
+./install
+„
 
 **Das Sudo-Passwort lautet ebenfalls Himbeere**
 
@@ -114,30 +69,6 @@ Dann gehen Sie einfach zu IP\_MACHINE\_JEEDOM
 >
 > Die Standardanmeldeinformationen sind admin / admin
 
-> **Notiz**
->
-> Die folgenden Argumente können verwendet werden : -w = Webserver-Ordner -z = Installationsabhängigkeiten z-Wave -m = gewünschtes MySQL-Root-Passwort
-
-````
-./install.sh -w /var/www/html -z
-````
-
-## Systemoptimierung
-
-Wenn Sie Ihren Raspberry Pi für Jeedom ohne angeschlossenen Bildschirm verwenden, wird empfohlen, dem Videoteil mindestens RAM zuzuweisen.
-
-Einfach einloggen **SSH** und ändern Sie die Konfigurationsdatei : ``sudo nano /boot/config.txt``
-
-Hinzufügen **und / oder** Kommentar entfernen (durch Entfernen des #) **und / oder** Bearbeiten Sie die Zeilen :
-
-````
-gpu_mem=16
-disable_l2cache=0
-gpu_freq=250
-````
-
-Beenden Sie durch Speichern : ``CTRL+X`` dann ``O`` dann ``ENTER``
-
-Starten Sie Ihren Raspberry Pi neu
+Weitere Informationen zur Installation von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/installation/cli)
 
 Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)

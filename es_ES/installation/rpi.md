@@ -1,61 +1,12 @@
 # Instalación en Raspberry Pi
 
-Encontrará aquí la documentación para instalar Jeedom en una PI de frambuesa **con una tarjeta MiroSD.**. Hay 2 modos :
-
-- Automático (beta) : uso de la imagen para Raspberry Pi hecha por Jeedom con Jeedom preinstalado
-- Línea de comando : instalación manual de Jeedom desde Raspberry Pi OS
-
-> **Importante**
->
-> Debian 10 (Buster) es la distribución oficialmente compatible.
-
-# Instalación automática
-
-## Descargue la última imagen
-
-Encuentras las imagenes [aquí](https://images.jeedom.com/rpi/)
-
-> **Importante**
->
->Hay 2 imágenes : jeedom-debian-XXXX-rpi-X.X.XX.zip que está en 32bits, es compatible con los modelos Raspberry PI de generación 2 y 3 y jeedom-debian-XXXX-rpi-64-X.X.XX.zip que está en 64 bits, es compatible solo para Raspberry Pi4 y está en alfa (no recomendado).
-
-Raspberry Pi imager le permite descargar directamente la imagen de instalación del sistema operativo Raspberry Pi, en su versión más reciente.
-
-## Grabe esta imagen en una tarjeta MicroSD con Raspberry Pi imager por ejemplo
-
-Puedes descargarlo [aquí](https://www.raspberrypi.org/downloads/)
-
-## Comience el PI
-
-Inserte su tarjeta MicroSD, conecte el cable de red y conecte la alimentación.
-
-> **Importante**
->
-> En el primer arranque, la Raspberry Pi puede ser lenta ya que cambia el tamaño de la partición para que coincida con el tamaño de su tarjeta MicroSD. Además, una vez que se realiza el primer inicio, es recomendable reiniciar nuevamente para que el intercambio sea del tamaño correcto.
-
-Il vous suffit ensuite, dedespués votre navigateur, de saisir : http://IP_RPI/ (en remplaçant IP_RPI par l'ip de votre Raspberry Pi).
-
-> **Información**
->
-> Las credenciales de inicio de sesión SSH predeterminadas son : jeedom y Mjeedom96 para la contraseña 
-
-Entonces puedes seguir la documentación [Primer paso con Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index)
+Encontrará aquí la documentación para instalar Jeedom en una PI de frambuesa **con una tarjeta MiroSD.**. 
 
 # Instalación de línea de comando
 
 ## Descargue la última imagen "lite""
 
-[aquí](https://downloads.raspberrypi.org/raspbian_lite_latest)
-
-Raspberry Pi imager le permite descargar directamente la imagen de instalación del sistema operativo Raspberry Pi, en su versión más reciente.
-
-## Grabe esta imagen en una tarjeta MiroSD con Raspberry Pi imager por ejemplo
-
-[aquí](https://www.raspberrypi.org/downloads/)
-
-> **Nota**
->
-> Si usa Etcher para grabar su imagen, el paso de descompresión es inútil (el formato Zip se reconoce directamente en la selección del archivo de imagen).
+[Generador de imágenes Raspberry Pi](https://www.raspberrypi.com/software/)  le permite descargar directamente la imagen de instalación del sistema operativo Raspberry Pi, en su versión más reciente, y grabar la imagen directamente en la tarjeta SD. Tenga en cuenta que debe tener una versión de Debian 11 (Bullseye), Jeedom aún no es compatible con Debian 12 (pero estamos trabajando en ello)).
 
 ## Habilitar acceso SSH
 
@@ -100,7 +51,11 @@ Inicie sesión con credenciales **pi / frambuesa**
 
 ## Inicie el script de instalación de jeedom
 
-``wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash``
+```
+wget https://www.jeedom.com/install
+chmod +x instalar
+./install
+```
 
 **La contraseña de sudo también es frambuesa**
 
@@ -114,30 +69,6 @@ Luego solo vaya a IP\_MACHINE\_JEEDOM
 >
 > Las credenciales predeterminadas son admin / admin
 
-> **Nota**
->
-> Se pueden usar los siguientes argumentos : -w = carpeta del servidor web -z = dependencias de instalación z-wave -m = contraseña de root mysql deseada
-
-````
-./install.sh -w /var/www/html -z
-````
-
-## Optimización del sistema
-
-Si usa su Raspberry Pi para Jeedom sin una pantalla conectada, se recomienda asignar el mínimo de RAM a la parte de video.
-
-Solo inicia sesión **SSH** y modificar el archivo de configuración : ``sudo nano /boot/config.txt``
-
-Agregar **y O** Descomentar (quitando el #) **y O** Edita las lineas :
-
-````
-gpu_mem=16
-disable_l2cache=0
-gpu_freq=250
-````
-
-Salir guardando : ``CTRL+X`` después ``O`` después ``ENTER``
-
-Reinicia tu Raspberry Pi
+Para obtener más información sobre la instalación de Jeedom, consulte esto [documentación](https://doc.jeedom.com/es_ES/installation/cli)
 
 Entonces puedes seguir la documentación [Primer paso con Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index)

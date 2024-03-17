@@ -1,61 +1,12 @@
 # Installation on Raspberry Pi
 
-You will find here the documentation to install Jeedom on a raspberry PI **with a MiroSD card.**. There are 2 modes :
-
-- Automatic (beta) : use of the image for Raspberry Pi made by Jeedom with Jeedom preinstalled on it
-- Command line : manual installation of Jeedom from Raspberry Pi OS
-
-> **Important**
->
-> Debian 10 (Buster) is the officially supported distribution.
-
-# Automatic installation
-
-## Download the latest image
-
-You find the images [here](https://images.jeedom.com/rpi/)
-
-> **Important**
->
->There are 2 images : jeedom-debian-XXXX-rpi-X.X.XX.zip which is in 32bits, it is compatible with Raspberry PI models of generation 2 and 3 and jeedom-debian-XXXX-rpi-64-X.X.XX.zip which is in 64bits, it is compatible only for Raspberry Pi4 and is in alpha (not recommended).
-
-Raspberry Pi imager allows you to directly download the installation image of Raspberry Pi OS, in its most recent version.
-
-## Burn this image on a MicroSD card with Raspberry Pi imager for example
-
-You can download it [here](https://www.raspberrypi.org/downloads/)
-
-## Start the PI
-
-Insert your MicroSD card, connect the network cable and connect the power.
-
-> **Important**
->
-> On first boot, the Raspberry Pi may be slow as it resizes the partition to match your MicroSD card size. In addition, once the first start is made, it is advisable to restart again so that the Swap is of correct size.
-
-Il vous suffit ensuite, dethen votre navigateur, de saisir : http://IP_RPI/ (en remplaçant IP_RPI par l'ip de votre Raspberry Pi).
-
-> **Information**
->
-> The default SSH login credentials are : jeedom and Mjeedom96 for the password 
-
-Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)
+You will find here the documentation to install Jeedom on a raspberry PI **with a MiroSD card.**. 
 
 # Command line installation
 
 ## Download the latest "lite" image"
 
-[here](https://downloads.raspberrypi.org/raspbian_lite_latest)
-
-Raspberry Pi imager allows you to directly download the installation image of Raspberry Pi OS, in its most recent version.
-
-## Burn this image on a MiroSD card with Raspberry Pi imager for example
-
-[here](https://www.raspberrypi.org/downloads/)
-
-> **NOTE**
->
-> If you use Etcher to burn your image, the decompression step is useless (Zip format recognized directly in the selection of the image file).
+[Raspberry Pi Imager](https://www.raspberrypi.com/software/)  allows you to directly download the Raspberry Pi OS installation image, in its most recent version, and burn the image directly to the SD card. Please note you must take a Debian 11 version (Bullseye), Jeedom is not yet compatible with Debian 12 (but we are working on it).
 
 ## Enable SSH access
 
@@ -100,7 +51,11 @@ Log in with credentials **pi / raspberry**
 
 ## Launch the jeedom installation script
 
-``wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash``
+```
+wget https://www.jeedom.com/install
+chmod +x install
+./install
+```
 
 **The sudo password is also raspberry**
 
@@ -114,30 +69,6 @@ Then just go to IP\_MACHINE\_JEEDOM
 >
 > The default credentials are admin / admin
 
-> **NOTE**
->
-> The following arguments can be used : -w = webserver folder -z = installation dependencies z-wave -m = desired mysql root password
-
-````
-./install.sh -w /var/www/html -z
-````
-
-## System optimization
-
-If you use your Raspberry Pi for Jeedom without a screen connected, it is recommended to allocate the minimum of RAM to the video part.
-
-Just log in **SSH** and modify the config file : ``sudo nano /boot/config.txt``
-
-Add **and or** De-comment (by removing the #) **and or** Edit the lines :
-
-````
-gpu_mem=16
-disable_l2cache=0
-gpu_freq=250
-````
-
-Quit by saving : ``CTRL+X`` then ``O`` then ``ENTER``
-
-Reboot your Raspberry Pi
+For more information on installing Jeedom please see this [documentation](https://doc.jeedom.com/en_US/installation/cli)
 
 Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)

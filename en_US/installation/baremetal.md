@@ -43,7 +43,7 @@ Then you can follow the documentation [First step with Jeedom](https://doc.jeedo
 
 # Manual installation
 
-Once the OS is installed (Latest version of Debian preferred) follow this [Documentation](https://doc.jeedom.com/en_US/installation/cli)
+Once the OS is installed (Latest version of Debian preferred) follow this [documentation](https://doc.jeedom.com/en_US/installation/cli)
 
 
 
