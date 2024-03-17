@@ -108,13 +108,13 @@
         "[NOTE]": "[NOTE]",
         "*NOTE*": "*NOTE*",
         " NOTE*": " NOTE*",
-        " documentation.": " documentation.",
-        " documentation?": " documentation?",
-        "documentation ": "documentation ",
-        " documentation]": " documentation]",
-        "[documentation]": "[documentation]",
-        "*documentation*": "*documentation*",
-        " documentation*": " documentation*"
+        " documentation.": " Documentation.",
+        " documentation?": " Documentation?",
+        "documentation ": "Documentation ",
+        " documentation]": " Documentation]",
+        "[documentation]": "[Documentation]",
+        "*documentation*": "*Documentation*",
+        " documentation*": " Documentation*"
     },
     "installation\/cli.md": {
         "Installation en ligne de commande": "Command line installation",
