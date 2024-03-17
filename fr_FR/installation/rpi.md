@@ -1,45 +1,6 @@
 # Installation sur Raspberry Pi
 
-Vous trouverez ici la documentation pour installer Jeedom sur un raspberry Pi **avec une carte MiroSD.**. Il existe 2 modes :
-
-- Automatique (bêta) : utilisation de l'image pour Raspberry Pi faite par Jeedom avec Jeedom de préinstallé dessus
-- Ligne de commande : installation manuelle de Jeedom à partir de Raspberry Pi OS
-
-> **Important**
->
-> Debian 10 (Buster) est la distribution officiellement supportée.
-
-# Installation automatique
-
-## Télécharger la dernière image
-
-Vous retrouvez les images [ici](https://images.jeedom.com/rpi/)
-
-> **IMPORTANT**
->
->Il y 2 images : jeedom-debian-XXXX-rpi-X.X.XX.zip qui est en 32bits, elle est compatible avec les modèles de Raspberry PI de génération 2 et 3 et jeedom-debian-XXXX-rpi-64-X.X.XX.zip qui est en 64bits, elle est compatible uniquement pour les Raspberry Pi4 et est en alpha (non recommandé).
-
-Raspberry Pi imager permet de télécharger directement l'image d'installation de Raspberry Pi OS, dans sa version la plus récente.
-
-## Gravez cette image sur une carte MicroSD avec Raspberry Pi Imager par exemple
-
-Vous pouvez le télécharger [ici](https://www.raspberrypi.org/downloads/)
-
-## Démarrer le PI
-
-Insérez votre carte MicroSD, branchez le câble réseau et branchez l’alimentation.
-
-> **Important**
->
-> Lors du premier démarrage, le Raspberry Pi peut être lent car il redimensionne la partition pour correspondre à la taille de votre carte MicroSD. De plus, une fois le 1er démarrage fait, il est conseillé de redémarrer à nouveau pour que le Swap soit de taille correcte.
-
-Il vous suffit ensuite, depuis votre navigateur, de saisir : http://IP_RPI/ (en remplaçant IP_RPI par l'ip de votre Raspberry Pi).
-
-> **Information**
->
-> Les identifiants de connexion SSH par défaut sont : jeedom et Mjeedom96 pour le mot de passe 
-
-Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
+Vous trouverez ici la documentation pour installer Jeedom sur un raspberry Pi **avec une carte MiroSD.**. 
 
 # Installation en ligne de commande
 
