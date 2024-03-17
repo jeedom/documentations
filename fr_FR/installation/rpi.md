@@ -57,7 +57,11 @@ Connectez-vous avec les identifiants **pi / raspberry**
 
 ## Lancer le script d’installation jeedom
 
-``wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash``
+```
+wget https://www.jeedom.com/install
+chmod +x install
+./install
+```
 
 **Le mot de passe sudo est également raspberry**
 
@@ -71,13 +75,7 @@ Il vous suffit ensuite d’aller sur IP\_MACHINE\_JEEDOM
 >
 > Les identifiants par défaut sont admin/admin
 
-> **Note**
->
-> Les arguments suivants sont utilisables : -w = dossier webserver -z = installation dependances z-wave -m = mot de passe root mysql désiré
-
-````
-./install.sh -w /var/www/html -z
-````
+Pour plus d'information sur l'installation de Jeedom veuillez consulter cette [documentation](https://doc.jeedom.com/fr_FR/installation/cli)
 
 ## Optimisation du système
 
