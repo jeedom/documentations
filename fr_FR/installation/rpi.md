@@ -6,13 +6,9 @@ Vous trouverez ici la documentation pour installer Jeedom sur un raspberry Pi **
 
 ## Télécharger la dernière image "lite"
 
-[ici](https://downloads.raspberrypi.org/raspbian_lite_latest)
-
-Raspberry Pi Imager permet de télécharger directement l'image d'installation de Raspberry Pi OS, dans sa version la plus récente.
+[Raspberry Pi Imager](https://www.raspberrypi.com/software/)  permet de télécharger directement l'image d'installation de Raspberry Pi OS, dans sa version la plus récente.
 
 ## Gravez cette image sur une carte MiroSD avec Raspberry Pi Imager par exemple
-
-[ici](https://www.raspberrypi.org/downloads/)
 
 > **Note**
 >
