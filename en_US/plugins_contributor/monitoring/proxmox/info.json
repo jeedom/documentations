@@ -16,7 +16,7 @@
 	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/proxmox/#language#/changelog",
 	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/proxmox/#language#/",
 	"link": {
-		"forum": "https://community.jeedom.com/tags/plugin-proxmox",
+		"forum": "https://community.jeedom.com/tag/plugin-proxmox",
 		"video": ""
 	},
 	"language": [
