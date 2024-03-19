@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Apoio ao regresso das persianas EnOcean
+
 # 01/08/2024
 
 - ATENÇÃO !!!!!! Mudança de comportamento nas venezianas, inversão de direção, o plugin não indica mais o % fechamento mas sim o % abertura

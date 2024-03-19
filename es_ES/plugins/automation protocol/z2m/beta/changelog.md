@@ -4,6 +4,9 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+
+- Se corrigió un error con el comando de actualización
+
 # 13/03/2024
 
 - Limitación de actualización del firmware Zigbee a Luna en cajas Luna (evita romper el chip Zigbee en caso de elección incorrecta)

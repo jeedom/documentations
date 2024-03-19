@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Unterstützung für die Rückkehr des EnOcean-Rollladens
+
 # 01.08.2024
 
 - AUFMERKSAMKEIT !!!!!! Verhaltensänderung an den Rollläden, Richtungsumkehr, das Plugin zeigt nicht mehr die %-Schließung, sondern die %-Öffnung an

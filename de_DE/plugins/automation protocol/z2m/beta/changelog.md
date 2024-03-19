@@ -4,6 +4,9 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+
+- Ein Fehler mit dem Aktualisierungsbefehl wurde behoben
+
 # 13.03.2024
 
 - Beschränkung der Aktualisierung der Zigbee-Firmware auf Luna-auf-Luna-Boxen (vermeidet die Beschädigung des Zigbee-Chips im Falle einer falschen Wahl))

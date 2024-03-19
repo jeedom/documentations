@@ -4,6 +4,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Apoyo al regreso del ser para las persianas enrollables EnOcean
+
 # 08/01/2024
 
 - ATENCIÓN !!!!!! Cambio de comportamiento en las persianas, inversión de dirección, el complemento ya no indica el % de cierre sino el % de apertura
