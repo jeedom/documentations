@@ -4,6 +4,7 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 20.03.2024
 
 - Ein Fehler mit dem Aktualisierungsbefehl wurde behoben
 

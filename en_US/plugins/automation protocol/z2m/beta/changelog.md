@@ -4,6 +4,7 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 03/20/2024
 
 - Fixed a bug with the refresh command
 
