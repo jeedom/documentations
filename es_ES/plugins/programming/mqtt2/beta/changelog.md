@@ -4,7 +4,10 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+# 22/03/2024
+
 - Se solucionó un problema en php8
+- Se corrigió un error en Debian 12
 
 # 23/02/2024
 

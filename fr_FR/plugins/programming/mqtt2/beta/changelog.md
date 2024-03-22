@@ -4,7 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 22/03/2024
+
 - Correction d'un soucis sous php8
+- Correction d'un bug sous Debian 12
 
 # 23/02/2024
 
