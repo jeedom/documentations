@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-- Support du retour d'étant pour les volets roulants EnOcean
+- Support des volets roulants EnOcean
 
 # 08/01/2024
 

@@ -4,7 +4,7 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-- Support for the return of being for EnOcean roller shutters
+- EnOcean roller shutter support
 
 # 01/08/2024
 

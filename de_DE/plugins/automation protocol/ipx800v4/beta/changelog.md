@@ -4,7 +4,7 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-- Unterstützung für die Rückkehr des EnOcean-Rollladens
+- EnOcean-Rollladenunterstützung
 
 # 01.08.2024
 
