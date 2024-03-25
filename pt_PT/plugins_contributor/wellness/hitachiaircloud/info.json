@@ -1,0 +1,16 @@
+{
+	"id" : "hitachiaircloud",
+	"name" : "Hitachi AirCloud",
+	"description" : "Plugin permettant le pilotage et la récupération des informations des PAC gérées par l'application AirCloud Go d'HITACHI.",
+	"licence" : "AGPL",
+	"author" : "TaG",
+	"require" : "4.3.1",
+	"category" : "wellness",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://taggou91.github.io/jeedom_docs/plugins/hitachiaircloud/changelog.html",
+	"documentation" : "https://taggou91.github.io/jeedom_docs/plugins/hitachiaircloud/#language#/",
+	"language" : ["fr_FR"],
+	"compatibility" : ["rpi","diy","v4"]
+}

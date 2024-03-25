@@ -656,6 +656,8 @@
         "Très sympa pour donner l'horoscope le matin à une personne via TTS (par exemple avec la caméra Netatmo qui reconnait les visages) ou par SMS": "Très sympa pour donner l'horoscope le matin à une personne via TTS (par exemple avec la caméra Netatmo qui reconnait les visages) ou par SMS",
         "Horoscope": "Horoscope",
         "Plugin permettant de générer une phrase (selon différents thèmes) tous les jours en fonction des différents signes astrologiques": "Plugin permettant de générer une phrase (selon différents thèmes) tous les jours en fonction des différents signes astrologiques",
+        "Hitachi AirCloud": "Hitachi AirCloud",
+        "Plugin permettant le pilotage et la récupération des informations des PAC gérées par l'application AirCloud Go d'HITACHI": "Plugin permettant le pilotage et la récupération des informations des PAC gérées par l'application AirCloud Go d'HITACHI",
         "Heta": "Heta",
         "Plugin pilotage des poëles à pellet Heta, AustroFlamm équipés du boitier WiRCU": "Plugin pilotage des poëles à pellet Heta, AustroFlamm équipés du boitier WiRCU",
         "ELM Touch": "ELM Touch",
