@@ -4,6 +4,11 @@
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
+
+# 03/26/2024
+
+- Fix Update for specific pymodbus version
+
 # 05/29/2023
 
 MAKE BACKUP OF JEEDOM BEFORE INSTALLING NEW BETA.

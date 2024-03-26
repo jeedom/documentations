@@ -4,6 +4,11 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
+
+# 26/03/2024
+
+- Correção de atualização para versão específica do pymodbus
+
 # 29/05/2023
 
 FAÇA BACKUP DO JEEDOM ANTES DE INSTALAR O NOVO BETA.

@@ -4,6 +4,11 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
+
+# 26/03/2024
+
+- Reparar actualización para una versión específica de pymodbus
+
 # 29/05/2023
 
 HAGA UNA COPIA DE SEGURIDAD DE JEEDOM ANTES DE INSTALAR LA NUEVA BETA.
