@@ -4,6 +4,15 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 22.03.2024
+
+- Ein Problem unter PHP8 wurde behoben
+- Ein Fehler unter Debian 12 wurde behoben
+
+# 23.02.2024
+
+- Löschen einer startbaren Daemon-Prüfung (wird in jedem Fall beim Starten des Daemons durchgeführt))
+
 # 15.01.2024
 
 - Vorbereitung auf Jeedom 4.4

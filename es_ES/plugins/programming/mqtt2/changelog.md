@@ -4,6 +4,15 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+# 22/03/2024
+
+- Se solucionó un problema en php8
+- Se corrigió un error en Debian 12
+
+# 23/02/2024
+
+- Eliminar una verificación de demonio ejecutable (se realiza cuando se inicia el demonio en todos los casos))
+
 # 15/01/2024
 
 - Preparándose para el apuro 4.4

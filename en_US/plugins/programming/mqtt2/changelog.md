@@ -4,6 +4,15 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+# 03/22/2024
+
+- Fixed a problem under php8
+- Fixed a bug under Debian 12
+
+# 02/23/2024
+
+- Deleting a launchable daemon check (done when launching the daemon in all cases)
+
 # 01/15/2024
 
 - Preparing for jeedom 4.4
