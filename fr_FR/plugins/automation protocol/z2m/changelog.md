@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 20/03/2024
+
+- Correction d'un bug avec la commande refresh
+
 # 13/03/2024
 
 - Limitation de la mise à jour du firmware zigbee à Luna sur les box Luna (évite de casser la puce Zigbee en cas de mauvais choix)

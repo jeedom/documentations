@@ -4,6 +4,14 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 03/20/2024
+
+- Fixed a bug with the refresh command
+
+# 03/13/2024
+
+- Limitation of updating the Zigbee firmware to Luna on Luna boxes (avoids breaking the Zigbee chip in the event of a wrong choice)
+
 # 02/26/2024
 
 - Fixed a problem with the installation of mqtt

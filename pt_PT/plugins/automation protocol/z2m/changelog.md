@@ -4,6 +4,14 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 20/03/2024
+
+- Corrigido um bug com o comando de atualização
+
+# 13/03/2024
+
+- Limitação de atualização do firmware Zigbee para Luna nas caixas Luna (evita quebrar o chip Zigbee em caso de escolha errada)
+
 # 26/02/2024
 
 - Corrigido um problema com a instalação do mqtt
