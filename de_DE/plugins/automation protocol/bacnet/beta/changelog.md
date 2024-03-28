@@ -6,6 +6,12 @@
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 
+# 27.03.2024
+
+- Korrigieren Sie die OnOff-Befehle
+- Modale Ergänzung für die Bacnet-Punkteverwaltung (Befehle nach ihren Bacnet-Attributen umbenennen))
+
+
 # 21.06.2023
 
 - Listenfeld hinzufügen, wenn Aktion/Listenbefehl (siehe Dokumentation))

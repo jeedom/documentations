@@ -6,6 +6,12 @@
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
 
+# 03/27/2024
+
+- Fix OnOff commands
+- Modal Addition for Bacnet Points Management (rename commands by their bacnet attributes Description)
+
+
 # 06/21/2023
 
 - Add List Control if Action/List command (see documentation)

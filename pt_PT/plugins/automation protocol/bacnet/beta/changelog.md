@@ -6,6 +6,12 @@
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
 
+# 27/03/2024
+
+- Corrigir comandos OnOff
+- Adição Modal para Gerenciamento de Pontos Bacnet (renomear comandos por seus atributos bacnet Descrição)
+
+
 # 21/06/2023
 
 - Adicionar controle de lista se o comando Action/List (consulte a documentação)

@@ -6,6 +6,12 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
 
+# 27/03/2024
+
+- Fix commandes OnOff
+- Ajout Modale pour Gestion Points Bacnet (renommer les commandes par leurs attributs bacnet Description)
+
+
 # 21/06/2023
 
 - Ajout Champ Liste si commande Action/Liste (voir documentation)
