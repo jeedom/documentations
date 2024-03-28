@@ -1,45 +1,43 @@
 {
-  "id": "lgthinq2",
-  "name": "LG ThinQ",
-  "description": {
-      "fr_FR": "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API LG ThinQ",
-      "en_US": "Plugin to retrieve information and control synchronized devices on the LG ThinQ API",
-      "es_ES": "Plugin para recuperar información y controlar dispositivos sincronizados en la API LG ThinQ",
-      "pt_PT": "Plugin para recuperar informação e controlar dispositivos sincronizados no LG ThinQ API",
-      "de_DE": "Plugin zum Abrufen von Informationen und zum Steuern von Geräten, die über die LG ThinQ API synchronisiert wurden",
-      "it_IT": "Plugin per recuperare informazioni e controllare i dispositivi sincronizzati su LG ThinQ API"
-  },
-  "utilization": "Après avoir entré l'identifiant et le mot de passe dans la page de configuration, cliquez sur Connexion pour récupérer le jeton d'authentification puis lancez une synchronisation.</br>Toutes les commandes viendront au fur et à mesure.",
-  "licence": "AGPL",
-  "author": "DomoFlo1",
-  "require": "4.2",
-  "category": "devicecommunication",
-  "hasDependency": false,
-  "hasOwnDeamon": false,
-  "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-lgthinq2-pour-jeedom/",
-  "changelog_beta": "https://flobul-domotique.fr/liste-des-versions-du-plugin-lgthinq2-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-lgthinq2-pour-jeedom/",
-  "documentation_beta": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-lgthinq2-pour-jeedom/",
-  "link": {
-    "forum": "https://community.jeedom.com/tag/plugin-lgthinq2"
-  },
-  "language": [
-    "fr_FR",
-    "en_US",
-    "es_ES",
-    "pt_PT",
-    "de_DE",
-    "it_IT"
-  ],
-  "compatibility": [
-    "miniplus",
-    "smart",
-    "rpi",
-    "docker",
-    "diy",
-    "mobile",
-    "v4",
-    "atlas"
-  ]
+    "id": "lgthinq2",
+    "name": "LG ThinQ",
+    "description": {
+        "fr_FR": "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API LG ThinQ",
+        "en_US": "Plugin to retrieve information and control synchronized devices on the LG ThinQ API",
+        "es_ES": "Plugin para recuperar información y controlar dispositivos sincronizados en la API LG ThinQ",
+        "pt_PT": "Plugin para recuperar informação e controlar dispositivos sincronizados no LG ThinQ API",
+        "de_DE": "Plugin zum Abrufen von Informationen und zum Steuern von Geräten, die über die LG ThinQ API synchronisiert wurden",
+        "it_IT": "Plugin per recuperare informazioni e controllare i dispositivi sincronizzati su LG ThinQ API"
+    },
+    "utilization": "Après avoir entré l'identifiant et le mot de passe dans la page de configuration, cliquez sur Connexion pour récupérer le jeton d'authentification puis lancez une synchronisation.</br>Toutes les commandes viendront au fur et à mesure.",
+    "licence": "AGPL",
+    "author": "DomoFlo1",
+    "require": "4.2",
+    "category": "devicecommunication",
+    "hasDependency": false,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-lgthinq2-pour-jeedom/",
+    "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-lgthinq2-pour-jeedom/",
+    "link": {
+        "forum": "https://community.jeedom.com/tag/plugin-lgthinq2"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "pt_PT",
+        "de_DE",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas"
+    ]
 }
