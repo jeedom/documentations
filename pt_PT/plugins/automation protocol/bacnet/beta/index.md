@@ -153,3 +153,35 @@ Ao alterar este valor, enviará a escrita do valor no ponto parametrizado.
     Você pode escolher uma prioridade de gravação nos comandos desejados, escolhendo um número entre 1 e 16
 
     Se nenhum valor for inserido em um comando de gravação, por padrão, o valor será definido como 8.
+
+
+
+
+# Alterar nomes de comandos por descrição
+
+
+Alguns dispositivos Bacnet possuem códigos de erro contidos na Descrição do Ponto.
+Pode ser útil neste caso querer renomear os comandos pela sua descrição para maior legibilidade
+
+Para alterar o nome padrão dos pedidos criados, você pode então ir ao modal Gestão de Pontos, para escolher os pedidos a serem renomeados através de sua Descrição
+
+Abrimos o modo Bacnet Points Management :
+
+![modalHandle](../images/modalHandle.png)
+
+
+
+
+Vemos a lista de Eqlogics já criada :
+
+![configCmds](../images/configureCmds.png)
+
+
+
+Clicamos em Configurar o equipamento desejado, e vemos a lista de pedidos já criados
+Você pode selecionar os que deseja através da caixa de seleção associada e clicar em Validar Seleção, para escolher se deseja renomear pela Descrição ou retornar ao nome original
+
+
+![allCmds](../images/allCmds.png)
+
+![choice](../images/choice.png)

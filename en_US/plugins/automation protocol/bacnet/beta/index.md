@@ -153,3 +153,35 @@ When changing this value, it will send the value write on the parameterized poin
     You can choose a write priority on the desired commands, by choosing a number between 1 and 16
 
     If no value entered on a write command, by default the value will be set to 8.
+
+
+
+
+# Change Command Names by Description
+
+
+Some Bacnet devices have error codes contained in the Point Description.
+It may be useful in this case to want to rename the commands by their description for greater readability
+
+To change the default name of the orders created, you can then go to the Points Management modal, to choose the orders to be renamed via their Description
+
+We open the Bacnet Points Management mode :
+
+![modalHandle](../images/modalHandle.png)
+
+
+
+
+We see the list of Eqlogics already created :
+
+![configCmds](../images/configureCmds.png)
+
+
+
+We click on Configure the desired equipment, and we see the list of orders already created
+You can select the ones you want via the associated checkbox, and click on Validate Selection, to choose whether you want to rename by the Description, or return to the original name
+
+
+![allCmds](../images/allCmds.png)
+
+![choice](../images/choice.png)

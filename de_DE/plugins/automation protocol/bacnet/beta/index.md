@@ -153,3 +153,35 @@ Wenn dieser Wert geändert wird, wird der Wert auf den parametrierten Punkt gesc
     Sie können eine Schreibpriorität für die gewünschten Befehle festlegen, indem Sie eine Zahl zwischen 1 und 16 wählen
 
     Wenn bei einem Schreibbefehl kein Wert eingegeben wird, wird der Wert standardmäßig auf 8 gesetzt.
+
+
+
+
+# Ändern Sie Befehlsnamen anhand der Beschreibung
+
+
+Bei einigen Bacnet-Geräten sind Fehlercodes in der Punktbeschreibung enthalten.
+In diesem Fall kann es sinnvoll sein, die Befehle zur besseren Lesbarkeit nach ihrer Beschreibung umzubenennen
+
+Um den Standardnamen der erstellten Bestellungen zu ändern, können Sie dann zum Punkteverwaltungs-Modal gehen und die umzubenennenden Bestellungen anhand ihrer Beschreibung auswählen
+
+Wir öffnen den Bacnet-Punkteverwaltungsmodus :
+
+![modalHandle](../images/modalHandle.png)
+
+
+
+
+Wir sehen die Liste der bereits erstellten Eqlogics :
+
+![configCmds](../images/configureCmds.png)
+
+
+
+Wir klicken auf „Gewünschte Ausrüstung konfigurieren“ und sehen die Liste der bereits erstellten Bestellungen
+Sie können die gewünschten Namen über das zugehörige Kontrollkästchen auswählen und auf „Auswahl bestätigen“ klicken, um auszuwählen, ob Sie anhand der Beschreibung umbenennen oder zum ursprünglichen Namen zurückkehren möchten
+
+
+![allCmds](../images/allCmds.png)
+
+![choice](../images/choice.png)

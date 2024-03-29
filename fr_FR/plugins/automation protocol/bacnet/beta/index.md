@@ -153,3 +153,35 @@ Au changement de cette valeur, cela enverra la valeur écrire sur le point param
     Vous pouvez choisir une priorité d'écriture sur les commande souhaites, en choisissant un nombre entre 1 et 16
 
     Si pas de valeur entrée sur une commande d'ecriture, par defaut la valeur sera établie a 8.
+
+
+
+
+# Changement Noms des Commandes par la Description
+
+
+Certains devices Bacnet ont des codes erreurs ccontenus dans la Description des points.
+Il peut etre utile dans ce cas de vouloir renommer les commandes par leur descritpion pour plus de lisibilité
+
+Pour changer le nom par défaut des commandes créées, vous pouvez ensuite venir sur la modale Gestion Points, pour choisir les commandes a renommer via leur Description
+
+On ouvre la modale Gestion Points Bacnet :
+
+![modalHandle](../images/modalHandle.png)
+
+
+
+
+On voit la liste des Eqlogics deja créés :
+
+![configCmds](../images/configureCmds.png)
+
+
+
+On clique sur Configurer de l'equipement desiré, et l'on voit la liste des commandes deja créées
+On peut Selectionner celles que l'on souhaite via la checkbox associés, et cliquer sur Valider Selection, pour choisir si on veut renommer par la Description, ou revenir au nom original
+
+
+![allCmds](../images/allCmds.png)
+
+![choice](../images/choice.png)

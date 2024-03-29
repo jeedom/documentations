@@ -153,3 +153,35 @@ Al cambiar este valor, enviará el valor escrito en el punto parametrizado.
     Puede elegir una prioridad de escritura en los comandos deseados, eligiendo un número entre 1 y 16
 
     Si no se ingresa ningún valor en un comando de escritura, el valor predeterminado se establecerá en 8.
+
+
+
+
+# Cambiar nombres de comandos por descripción
+
+
+Algunos dispositivos Bacnet tienen códigos de error contenidos en la Descripción del punto.
+En este caso puede resultar útil querer cambiar el nombre de los comandos por su descripción para una mayor legibilidad
+
+Para cambiar el nombre predeterminado de los pedidos creados, puede ir al modo Gestión de Puntos, para elegir los pedidos a cambiar de nombre a través de su Descripción
+
+Abrimos el modo Gestión de Puntos Bacnet :
+
+![modalHandle](../images/modalHandle.png)
+
+
+
+
+Vemos la lista de Eqlogics ya creados :
+
+![configCmds](../images/configureCmds.png)
+
+
+
+Damos clic en Configurar el equipo deseado, y vemos la lista de pedidos ya creados
+Puede seleccionar los que desee a través de la casilla de verificación asociada y hacer clic en Validar selección para elegir si desea cambiar el nombre por la Descripción o volver al nombre original
+
+
+![allCmds](../images/allCmds.png)
+
+![choice](../images/choice.png)
