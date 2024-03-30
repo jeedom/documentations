@@ -4,6 +4,8 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+- Correction d'un bug sur la répetition d'un evenement toute les heures
+
 # 23/01/2024
 
 - Correction d'un bug sur la suppression d'une occurrence d'un événement récurent

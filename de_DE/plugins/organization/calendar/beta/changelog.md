@@ -4,6 +4,8 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Ein Fehler bei der stündlichen Wiederholung eines Ereignisses wurde behoben
+
 # 23.01.2024
 
 - Ein Fehler beim Löschen eines Vorkommens eines wiederkehrenden Ereignisses wurde behoben

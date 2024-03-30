@@ -4,6 +4,8 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+- Corrigido um bug na repetição de um evento a cada hora
+
 # 23/01/2024
 
 - Corrigido um bug ao excluir uma ocorrência de um evento recorrente
