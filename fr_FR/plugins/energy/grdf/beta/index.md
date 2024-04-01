@@ -86,7 +86,7 @@ Les compteurs professionnels *(MM ou JJ)* possèdent un champ de configuration c
 
 Les commandes sont créées automatiquement en fonction de la fréquence de relève des données *(jour, mois, semestre)* et de leur type *(définitives ou estimées)*.
 
-Le plugin se charge d'effectuer les calculs mensuels et annuels lorsque cela est nécessaire c'est pourquoi il est conseillé de renseigner la date de début d'accès aux données de consommation gaz au 1er janvier lors de l'étape de consentement.
+Les commandes correspondant à des données estimées sont configurées avec une purge d'historique de "-1 mois" par défaut. Le plugin se charge d'effectuer les calculs mensuels et annuels lorsque cela est nécessaire c'est pourquoi il est conseillé de renseigner la date de début d'accès aux données de consommation gaz au 1er janvier lors de l'étape de consentement.
 
 Lors de la 1ère sauvegarde d'un équipement actif et correctement configuré, le plugin va automatiquement intégrer les historiques disponibles sur l'espace client GRDF depuis la date de début d'accès aux données de consommation gaz. Ce processus est susceptible de durer un long moment, vous pouvez en suivre l'avancée depuis le menu **Analyse → Logs** *(logs en `debug`)*.
 

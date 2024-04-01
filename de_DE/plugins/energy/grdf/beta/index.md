@@ -86,7 +86,7 @@ Professionelle Messgeräte *(MM oder TT)* verfügen über ein zusätzliches Konf
 
 Bestellungen werden automatisch basierend auf der Häufigkeit der Datenerfassung erstellt *(Tag, Monat, Semester)* und ihre Art *(endgültig oder geschätzt)*.
 
-Das Plugin ist dafür verantwortlich, bei Bedarf monatliche und jährliche Berechnungen durchzuführen, weshalb es ratsam ist, in der Einwilligungsphase das Startdatum des Zugriffs auf die Gasverbrauchsdaten auf den 1. Januar einzutragen.
+Bestellungen, die geschätzten Daten entsprechen, werden standardmäßig mit einer Verlaufslöschung von „-1 Monat“ konfiguriert. Das Plugin ist dafür verantwortlich, bei Bedarf monatliche und jährliche Berechnungen durchzuführen, weshalb es ratsam ist, in der Einwilligungsphase das Startdatum des Zugriffs auf die Gasverbrauchsdaten auf den 1. Januar einzutragen.
 
 Bei der ersten Sicherung aktiver und korrekt konfigurierter Geräte integriert das Plugin automatisch die im GRDF-Kundenbereich verfügbaren Historien seit dem Startdatum des Zugriffs auf Gasverbrauchsdaten. Dieser Vorgang wird wahrscheinlich lange dauern. Sie können den Fortschritt über das Menü verfolgen **Analyse → Protokolle** *(meldet sich bei „debug“ an)*.
 

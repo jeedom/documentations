@@ -86,7 +86,7 @@ Professional meters *(MM or DD)* have an additional configuration field allowing
 
 Orders are created automatically based on the frequency of data collection *(day, month, semester)* and their type *(definitive or estimated)*.
 
-The plugin is responsible for carrying out monthly and annual calculations when necessary, which is why it is advisable to enter the start date of access to gas consumption data on January 1 during the consent stage.
+Orders corresponding to estimated data are configured with a history purge of "-1 month" by default. The plugin is responsible for carrying out monthly and annual calculations when necessary, which is why it is advisable to enter the start date of access to gas consumption data on January 1 during the consent stage.
 
 During the first backup of active and correctly configured equipment, the plugin will automatically integrate the histories available on the GRDF customer area since the start date of access to gas consumption data. This process is likely to last a long time, you can follow its progress from the menu **Analysis → Logs** *(logs in `debug`)*.
 

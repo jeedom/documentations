@@ -86,7 +86,7 @@ Medidores profesionales *(MM o DD)* tener un campo de configuración adicional q
 
 Los pedidos se crean automáticamente en función de la frecuencia de recopilación de datos *(día, mes, semestre)* y su tipo *(definitivo o estimado)*.
 
-El complemento se encarga de realizar cálculos mensuales y anuales cuando sea necesario, por lo que es recomendable ingresar la fecha de inicio de acceso a los datos de consumo de gas el 1 de enero durante la etapa de consentimiento.
+Los pedidos correspondientes a datos estimados están configurados con una limpieza del historial de "-1 mes" de forma predeterminada. El complemento se encarga de realizar cálculos mensuales y anuales cuando sea necesario, por lo que es recomendable ingresar la fecha de inicio de acceso a los datos de consumo de gas el 1 de enero durante la etapa de consentimiento.
 
 Durante la primera copia de seguridad de los equipos activos y correctamente configurados, el complemento integrará automáticamente los históricos disponibles en el área de clientes de GRDF desde la fecha de inicio de acceso a los datos de consumo de gas. Es probable que este proceso dure mucho tiempo, puedes seguir su progreso desde el menú **Análisis → Registros** *(inicia sesión en `depuración`)*.
 

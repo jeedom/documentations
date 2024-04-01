@@ -86,7 +86,7 @@ Medidores profissionais *(MM ou DD)* possui um campo de configuração adicional
 
 Os pedidos são criados automaticamente com base na frequência de coleta de dados *(dia, mês, semestre)* e seu tipo *(definitivo ou estimado)*.
 
-O plugin é responsável por realizar cálculos mensais e anuais quando necessário, por isso é aconselhável inserir a data de início de acesso aos dados de consumo de gás no dia 1º de janeiro durante a fase de consentimento.
+Os pedidos correspondentes aos dados estimados são configurados com uma limpeza de histórico de "-1 mês" por padrão. O plugin é responsável por realizar cálculos mensais e anuais quando necessário, por isso é aconselhável inserir a data de início de acesso aos dados de consumo de gás no dia 1º de janeiro durante a fase de consentimento.
 
 Durante o primeiro backup de equipamentos ativos e corretamente configurados, o plugin integrará automaticamente os históricos disponíveis na área de cliente GRDF desde a data de início do acesso aos dados de consumo de gás. É provável que este processo dure muito tempo, você pode acompanhar seu progresso no menu **Análise → Registros** *(efetua login em `debug`)*.
 
