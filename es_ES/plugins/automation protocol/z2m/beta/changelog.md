@@ -4,6 +4,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 04/03/2024
+
+- Se corrigió un error en la imagen de la última versión de zigbee2mqtt
+
 # 20/03/2024
 
 - Se corrigió un error con el comando de actualización

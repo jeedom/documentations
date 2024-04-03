@@ -4,6 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 03.04.2024
+
+- Ein Fehler im Image der neuesten Version von zigbee2mqtt wurde behoben
+
 # 20.03.2024
 
 - Ein Fehler mit dem Aktualisierungsbefehl wurde behoben
