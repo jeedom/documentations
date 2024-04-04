@@ -16,21 +16,18 @@
 	"documentation": "https://spine34.github.io/jeedom-plugin-speedtestByOokla/#language#/",
 	"changelog_beta": "https://spine34.github.io/jeedom-plugin-speedtestByOokla/#language#/beta/changelog",
 	"documentation_beta": "https://spine34.github.io/jeedom-plugin-speedtestByOokla/#language#/beta/",
-	"link": {
-		"forum": "Lien vers le forum"
-	},
 	"language": [
 		"fr_FR",
 		"en_US"
 	],
 	"compatibility": [
-		"miniplus",
 		"smart",
 		"rpi",
 		"docker",
 		"diy",
 		"mobile",
 		"v4",
-		"atlas"
+		"atlas",
+		"luna"
 	]
 }
