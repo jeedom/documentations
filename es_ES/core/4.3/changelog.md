@@ -1,4 +1,108 @@
+# Registro de cambios Jeedom V4.4
+
+>**IMPORTANTE**
+>
+>Aunque no sean necesariamente visibles a primera vista, la versión 4.4 de Jeedom trae cambios importantes con una interfaz que ha sido completamente reescrita para un control total y, sobre todo, una ganancia inigualable en fluidez de navegación. También se ha revisado la gestión de dependencias PHP para poder mantenerlas actualizadas automáticamente. Incluso si el equipo de Jeedom y los probadores beta han hecho muchas pruebas, hay tantas versiones de jeedom como jeedom... Por lo tanto, no es posible garantizar el correcto funcionamiento en el 100% de los casos. Sin embargo, en caso de problema puede [abrir un tema en el foro con la etiqueta `v4_4`](https://community.jeedom.com/) o contacta con soporte desde tu perfil de mercado *(siempre que tenga un paquete de servicio o superior)*.
+
+## 4.4.1
+
+- Soporte PHP8.
+- Verificar la versión básica mínima requerida antes de instalar o actualizar un complemento.
+- Agregar un botón **Asistencia** en la página de configuración del complemento *(Creación automática de una solicitud de ayuda en el foro)*
+
+### 4.4 : Prerrequisitos
+
+- Debian 10 Buster
+- PHP 7.3
+
+### 4.4 : Noticias / Mejoras
+
+- **Histórico** : El modal de historial y la página de historial permiten usar botones *Semana, Mes, Año* para recargar dinámicamente un historial más grande.
+- **Ventana de selección de imagen** : Se agregó un menú contextual para enviar imágenes y crear, renombrar o eliminar una carpeta.
+- **Ventana de selección de iconos** : Posibilidad de agregar un parámetro `ruta` al llamar a `jeedomUtils.chooseIcon` por un complemento para mostrar solo sus iconos.
+- **Tablero** : Capacidad para mostrar varios objetos uno al lado del otro *(Ajustes → Sistema → Configuración / Interfaz)*.
+- **Tablero** : La ventana de edición de mosaicos del modo de edición permite cambiar el nombre de los comandos.
+- **Tablero** : En el diseño de la tabla, posibilidad de insertar atributos HTML *(colspan/rowspan en particular)* para cada celda.
+- **Equipo** : Capacidad para deshabilitar las plantillas de widgets de los complementos que los usan para volver a la pantalla predeterminada de Jeedom *(ventana de configuración del dispositivo)*.
+- **Equipo** : El equipo inactivo desaparece automáticamente de todas las páginas. El equipo reactivado vuelve a aparecer en el tablero si el objeto principal ya está presente.
+- **Equipo** : El equipo invisible desaparece automáticamente del tablero. El equipo que se vuelve a mostrar vuelve a aparecer en el tablero si el objeto principal ya está presente.
+- **Análisis > Equipos / Equipos en alerta** : Los dispositivos que entran en alerta aparecen automáticamente y los que salen de alerta desaparecen automáticamente.
+- **Centro de mensajes** : Los mensajes centrales sobre anomalías ahora informan una acción, por ejemplo, un enlace para abrir el escenario ofensivo, o equipo, configuración de complemento, etc.
+- **Objeto** : Eliminar o crear un resumen da como resultado la actualización del resumen global y el tema.
+- **Herramientas > Reemplazar** : Esta herramienta ahora ofrece un modo *Copiar*, permitiendo copiar las configuraciones de equipos y comandos, sin reemplazarlos en los escenarios y otros.
+- **Línea de tiempo** : La línea de tiempo ahora carga los primeros 35 eventos. Los siguientes eventos se cargan en el desplazamiento en la parte inferior de la página.
+- **Administración** : Posibilidad de diferenciar acciones en caso de error o de alerta de comando.
+- **Administración** : Capacidad para establecer widgets de comando predeterminados.
+- **Tablero** : posibilidad en la página de configuración del objeto de pedirle a jeedom que reordene el equipo de acuerdo con su uso.
+- **Temática** : Posibilidad de elegir el tema directamente desde la url (agregando &theme=Dark o &theme=Light).
+- **Temática** : Eliminación del tema **Legado Core2019** *(alpha)*.
+- **Relación** : Posibilidad de elegir el tema durante un informe en una página de jeedom.
+- **Menú Jeedom** : Un retraso de 0.25s se introdujo en la apertura de submenús.
+- **Sistema** : Posibilidad de añadir comandos personalizados (ver documentación)
+
+
+### 4.4 : Autre
+
+- **Centro** : Inicio de desarrollo en js puro, sin jQuery. Ver [Desarrollador de documentos](https://doc.jeedom.com/es_ES/dev/core4.4).
+- **Centro** : Lista más detallada de dispositivos USB.
+- **Centro** : Se ha añadido un menú contextual en diferentes lugares al nivel de los checkboxes para seleccionarlos todos, ninguno, o invertir la selección *(ver [Desarrollador de documentos](https://doc.jeedom.com/es_ES/dev/core4.4))*.
+- **Liberación** : Actualizar Highchart v9.3.2 a v10.3.2 (El módulo *calibre sólido* ya no importa).
+- **Pedidos** :  Se agregó una opción *(alpha)* no ejecutar una acción si el equipo ya está en el estado esperado.
+
+### 4.4 : Remarques
+
+> **Tablero**
+>
+> Sobre **Tablero** y los **Puntos de vista**, Núcleo v4.4 ahora cambia automáticamente el tamaño de los mosaicos para crear una cuadrícula perfecta. Las unidades (la altura más pequeña y el ancho más pequeño de un mosaico) de esta cuadrícula se definen en **Ajustes → Sistema → Configuración / Interfaz** por valores *Paso vertical (mínimo 100)* y *Paso horizontal (mínimo 110)*. El valor *Margen* definiendo el espacio entre las baldosas.
+> Los mosaicos se adaptan a las dimensiones de la cuadrícula y se pueden hacer una, dos veces, etc. estos valores en alto o ancho. Sin duda será necesario pasar [Modo de edición del tablero](https://doc.jeedom.com/es_ES/core/4.4/dashboard#Mode%20%C3%A9dition) para ajustar el tamaño de algunos mosaicos después de la actualización.
+
+
+> **Widgets**
+>
+> Los widgets principales se han reescrito en js/css puro. Tendrás que editar el Dashboard *(Editar luego botón ⁝ en los mosaicos)* y usa la opcion *Ajuste de línea después* en ciertos comandos para encontrar el mismo aspecto visual.
+> Todos los widgets principales ahora admiten la visualización *tiempo*, agregando un parámetro opcional *tiempo* / *duración* Dónde *fecha*.
+
+> **Cuadros de diálogo**
+>
+> Todos los cuadros de diálogo (bootstrap, bootbox, jQuery UI) se han migrado a una Core lib interna (jeeDialog) especialmente desarrollada. Los cuadros de diálogo redimensionables ahora tienen un botón para cambiar *pantalla completa*.
+
+
 # Registro de cambios Jeedom V4.3
+
+## 4.3.15
+
+- Prohibición de la traducción de Jeedom por parte de los navegadores (evita errores de tipo market.repo).php no encontrado).
+- Optimización de la función de reemplazo.
+
+## 4.3.14
+
+- Carga reducida en DNS.
+
+## 4.3.13
+
+- Corrección de errores en **Herramientas / Reemplazar**.
+
+## 4.3.12
+
+- Optimización en las historias.
+- Resumen de corrección de errores en dispositivos móviles.
+- Corrección de errores del widget de obturador móvil.
+- Curvas de mosaico de corrección de errores con información binaria.
+
+## 4.3.11
+
+- Autorización de una respuesta libre en *pedir* si pones * en el campo de posibles respuestas.
+- **Análisis / Historia** : Corrección de errores en la comparación del historial (error introducido en 4.3.10).
+- **Síntesis** : L'*Acción de Síntesis* de un objeto ahora es compatible con la versión móvil.
+- Corrección de historiales al usar la función de agregación.
+- Se corrigió un error en la instalación de un complemento por otro complemento (Ej : mqtt2 instalado por zwavejs).
+- Se corrigió un error en el historial donde el valor 0 podía sobrescribir el valor anterior.
+
+## 4.3.10
+
+- **Análisis / Historia** : Se corrigieron errores en la eliminación del historial.
+- Visualización de valores fijos en la ventana de configuración de comandos.
+- Se agregó información y control de la herramienta de reemplazo.
 
 ## 4.3.9
 
@@ -206,7 +310,7 @@ Entrada en el blog [aquí](https://blog.jeedom.com/6739-jeedom-4-3/)
 
 ### 4.2 : Noticias / Mejoras
 
-- **Síntesis** : Posibilidad de configurar objetos para ir a un *diseño* o un *vista* desde la síntesis.
+- **Síntesis** : Posibilidad de configurar objetos para ir a un *diseño* o un *visto* desde la síntesis.
 - **Tablero** : La ventana de configuración del dispositivo (modo de edición) ahora le permite configurar widgets móviles y tipos genéricos.
 - **Widgets** : Internacionalización de Widgets de terceros (código de usuario). ver [Desarrollador de documentos](https://doc.jeedom.com/es_ES/dev/core4.2).
 - **Análisis / Historia** : Posibilidad de comparar un historial durante un período determinado.
@@ -247,7 +351,7 @@ Entrada en el blog [aquí](https://blog.jeedom.com/6739-jeedom-4-3/)
 - **Configuración**: Agregar DNS de Jeedom basado en Wireguard en lugar de Openvpn (Administración / redes). Más rápido y más estable, pero aún en prueba. Tenga en cuenta que actualmente esto no es compatible con Jeedom Smart.
 - **Configuración** : Configuración de OSDB: Adición de una herramienta para la edición masiva de equipos, comandos, objetos, escenarios.
 - **Configuración** : Configuración de OSDB: Agregar un constructor de consultas SQL dinámico.
-- **Configuración**: Posibilidad de desactivar el monitoreo en la nube (Administración / Actualizaciones / Mercado).
+- **Configuración**: Capacidad para deshabilitar el monitoreo en la nube (Administración / Actualizaciones / Mercado).
 - **jeeCLI** : Además de ``jeeCli.php`` en la carpeta core / php de Jeedom para administrar algunas funciones de la línea de comandos.
 - *Grandes mejoras en la interfaz en términos de rendimiento / capacidad de respuesta. jeedomUtils {}, jeedomUI {}, menú principal reescrito en CSS puro, eliminación de initRowWorflow (), simplificación del código, correcciones de CSS para pantallas pequeñas, etc.*
 
@@ -256,10 +360,10 @@ Entrada en el blog [aquí](https://blog.jeedom.com/6739-jeedom-4-3/)
 - Ahora se puede acceder a la configuración de los widgets para la versión móvil desde la ventana de configuración del equipo en el modo de edición del tablero.
 - Los parámetros opcionales disponibles en los widgets ahora se muestran para cada widget, ya sea en la configuración del comando o desde el modo de edición del tablero.
 - Muchos Core Widgets ahora aceptan configuraciones de color opcionales. (Control deslizante horizontal y vertical, indicador, brújula, lluvia, obturador, control deslizante de plantillas, etc.).
-- Widgets principales con visualización de *hora* ahora admite un parámetro opcional **hora : con fecha de** para mostrar una fecha relativa (ayer a las 4:48 p.m., último lunes a las 2:00 p.m., etc).
+- Widgets principales con visualización de *tiempo* ahora admite un parámetro opcional **tiempo : fecha** para mostrar una fecha relativa (ayer a las 4:48 p.m., último lunes a las 2:00 p.m., etc).
 - Los widgets de tipo Cursor (acción) ahora aceptan un parámetro opcional *pasos* para definir el paso de cambio en el cursor.
 - El widget **acción.deslizador.valor** ahora está disponible en el escritorio, con un parámetro opcional *deslizador*, lo que lo convierte en un *aporte* sencillo.
-- El widget **info.numeric.default** (*Indicador*) se ha rehecho en CSS puro y se ha integrado en dispositivos móviles. Por lo tanto, ahora son idénticos en computadoras de escritorio y dispositivos móviles.
+- El widget **info.numeric.default** (*Medir*) se ha rehecho en CSS puro y se ha integrado en dispositivos móviles. Por lo tanto, ahora son idénticos en computadoras de escritorio y dispositivos móviles.
 
 ### 4.2 : Respaldo en la nube
 
@@ -351,10 +455,10 @@ Los complementos deben respetar las recomendaciones sobre la estructura de árbo
 ### 4.1 : Noticias / Mejoras
 
 - **Síntesis** : Agregar una nueva página **Inicio → Resumen** Ofrece un resumen visual global de las partes, con acceso rápido a resúmenes.
-- **Investigación** : Adición de un motor de búsqueda en **Herramientas → Buscar**.
+- **Investigar** : Adición de un motor de búsqueda en **Herramientas → Buscar**.
 - **Tablero** : El modo de edición ahora inserta el mosaico movido.
 - **Tablero** : Modo de edición: Los iconos de actualización del equipo se reemplazan por un icono que permite acceder a su configuración, gracias a un nuevo modal simplificado.
-- **Tablero** : Ahora podemos hacer clic en el *hora* widgets de acciones de tiempo para abrir la ventana del historial del comando de información vinculada.
+- **Tablero** : Ahora podemos hacer clic en el *tiempo* widgets de acciones de tiempo para abrir la ventana del historial del comando de información vinculada.
 - **Tablero** : El tamaño del mosaico de un equipo nuevo se adapta a su contenido.
 - **Tablero** : Agregar (¡atrás!) Un botón para filtrar los elementos mostrados por categoría.
 - **Tablero** : Ctrl Click en una información abre la ventana de historial con todos los comandos historizados del equipo visibles en el mosaico. Ctrl Haga clic en una leyenda para mostrar solo esta, Alt Haga clic para mostrarlas todas.
@@ -370,8 +474,8 @@ Los complementos deben respetar las recomendaciones sobre la estructura de árbo
 - **Actualizaciones principales** : Implementación de un sistema para limpiar viejos archivos Core no utilizados.
 - **Guión** : Agregar un motor de búsqueda (a la izquierda del botón Ejecutar).
 - **Guión** : Adición de la función de edad (da la edad del valor del pedido).
-- **Guión** : *stateChanges()* ahora acepta el periodo *hoy dia* (medianoche hasta ahora), *ayer* y *día* (por 1 día).
-- **Guión** : Funciones *estadísticas (), promedio (), máximo (), mínimo (), tendencia (), duración()* : Bugfix durante el período *ayer*, y acepta ahora *día* (por 1 día).
+- **Guión** : *stateChanges()* ahora acepta el periodo *Este Dia* (medianoche hasta ahora), *el dia de ayer* y *día* (por 1 día).
+- **Guión** : Funciones *estadísticas (), promedio (), máximo (), mínimo (), tendencia (), duración()* : Bugfix durante el período *el dia de ayer*, y acepta ahora *día* (por 1 día).
 - **Guión** : Posibilidad de desactivar el sistema de cotización automática (Configuración → Sistema → Configuración : Equipements).
 - **Guión** : Viendo un *advertencia* si no se configura ningún activador.
 - **Guión** : Corrección de errores de *Seleccione* en el bloque copiar / pegar.
@@ -384,10 +488,10 @@ Los complementos deben respetar las recomendaciones sobre la estructura de árbo
 - **Análisis / Historia** : Las opciones *agrupación, tipo, variación, escalera* están activos solo con una sola curva mostrada.
 - **Análisis / Historia** : Ahora podemos usar la opción *Área* con la opción *Escalera*.
 - **Análisis / Registros** : Nueva fuente tipo monoespacio para registros.
-- **Vista** : Posibilidad de poner escenarios.
-- **Vista** : El modo de edición ahora inserta el mosaico movido.
-- **Vista** : Modo de edición: Los iconos de actualización del equipo se reemplazan por un icono que permite acceder a su configuración, gracias a un nuevo modal simplificado.
-- **Vista** : El orden de visualización ahora es independiente del que se muestra en el Panel de control.
+- **Visto** : Posibilidad de poner escenarios.
+- **Visto** : El modo de edición ahora inserta el mosaico movido.
+- **Visto** : Modo de edición: Los iconos de actualización del equipo se reemplazan por un icono que permite acceder a su configuración, gracias a un nuevo modal simplificado.
+- **Visto** : El orden de visualización ahora es independiente del que se muestra en el Panel de control.
 - **Línea de tiempo** : Separación de páginas de historia y cronología.
 - **Línea de tiempo** : Integración de la línea de tiempo en DB por razones de confiabilidad.
 - **Línea de tiempo** : Gestión de múltiples líneas de tiempo.
@@ -413,7 +517,7 @@ Los complementos deben respetar las recomendaciones sobre la estructura de árbo
 	- Ctrl Clic / Clic Center también disponible en sus menús contextuales (en las pestañas).
 - Nueva página ModalDisplay :
 	- Menú de análisis : Ctrl Click / Click Center en *Tiempo real* : Abra la ventana en una pestaña nueva, en pantalla completa.
-	- Menú de herramientas : Ctrl Click / Click Center en *Calificaciones*, *Probador de expresión*, *Variables*, *Investigación* : Abra la ventana en una pestaña nueva, en pantalla completa.
+	- Menú de herramientas : Ctrl Click / Click Center en *Calificaciones*, *Probador de expresión*, *Variables*, *Investigar* : Abra la ventana en una pestaña nueva, en pantalla completa.
 - Bloque de código, Editor de archivos, Personalización avanzada : Adaptación del tema oscuro.
 - Ventana de selección de imágenes mejorada.
 
@@ -441,7 +545,7 @@ Los complementos deben respetar las recomendaciones sobre la estructura de árbo
 - Numerosas optimizaciones de rendimiento de escritorio / móvil.
 
 ### 4.1 : Changements
-- La funcion **escenario-> getHumanName()** de la clase de escenario php ya no regresa *[objeto] [grupo] [nombre]* maíz *[grupo] [objeto] [nombre]*.
+- La funcion **escenario-> getHumanName()** de la clase de escenario php ya no regresa *[objeto] [grupo] [nombre]* pero *[grupo] [objeto] [nombre]*.
 - La funcion **escenario-> byString()** ahora debe llamarse con la estructura *[grupo] [objeto] [nombre]*.
 - Las funciones **red-> getInterfaceIp () red-> getInterfaceMac () red-> getInterfaces()** han sido reemplazados por **network-> getInterfacesInfo()**
 
@@ -542,7 +646,7 @@ Los complementos deben respetar las recomendaciones sobre la estructura de árbo
 - Los campos de búsqueda ahora admiten acentos.
 - Los campos de búsqueda (panel, escenarios, objetos, widgets, interacciones, complementos) ahora están activos cuando se abre la página, lo que le permite escribir una búsqueda directamente.
 - Se agregó un botón X en los campos de búsqueda para cancelar la búsqueda.
-- Durante una búsqueda, la clave *escapar* cancelar búsqueda.
+- Durante una búsqueda, la clave *Escapar* cancelar búsqueda.
 - Tablero : En el modo de edición, el control de búsqueda y sus botones se desactivan y se fijan.
 - Tablero : En el modo de edición, un clic de un botón *expandir* a la derecha de los objetos cambia el tamaño de los mosaicos del objeto a la altura del más alto. Ctrl + clic los reduce a la altura del más bajo.
 - Tablero : La ejecución del comando en un mosaico ahora se indica con el botón *actualizar*. Si no hay ninguno en el mosaico, aparecerá durante la ejecución.

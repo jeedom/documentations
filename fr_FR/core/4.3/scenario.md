@@ -236,7 +236,7 @@ Il existe des déclencheurs spécifiques (autre que ceux fournis par les command
 - ``#variable(nom_variable)#`` : Changement de valeur de la variable nom_variable.
 - ``#genericType(GENERIC, #[Object]#)#`` : Changement d'une commande info de Type Generic GENERIC, dans l'objet Object.
 
-Vous pouvez aussi déclencher un scénario en utilisant l’API HTTP décrite [ici](https://doc.jeedom.com/fr_FR/core/4.1/api_http).
+Vous pouvez aussi déclencher un scénario en utilisant l’API HTTP décrite [ici](https://doc.jeedom.com/fr_FR/core/4.4/api_http).
 
 ### Opérateurs de comparaison et liens entre les conditions
 
@@ -288,6 +288,10 @@ Un tag est remplacé lors de l’exécution du scénario par sa valeur. Vous pou
     - ``user`` s'il a été lancé manuellement,
     - ``start`` pour un lancement au démarrage de Jeedom.
 - ``#triggerValue#`` (déprecié, mieux vaut utiliser triggerValue()) : Pour la valeur de la commande ayant déclenché le scénario
+- ``#latitude#`` : Permet de récuperer l'information de latitude mise dans la configuration de jeedom
+- ``#longitude#`` : Permet de récuperer l'information de longitude mise dans la configuration de jeedom
+- ``#altitude#`` : Permet de récuperer l'information de altitude mise dans la configuration de jeedom
+
 
 Vous avez aussi les tags suivants en plus si votre scénario a été déclenché par une interaction :
 
@@ -369,7 +373,7 @@ Plusieurs fonctions sont disponibles pour les équipements :
 
 - ``name(type,commande)`` : Permet de récupérer le nom de la commande, de l’équipement ou de l’objet. Type : cmd, eqLogic ou object.
 
-- ``lastCommunication(equipment,[format])`` : Renvoie la date de la dernière communication pour l'équipement donné en paramètre, le 2ème paramètre optionnel permet de spécifier le format de retour (détails [ici](https://www.php.net/manual/fr/datetime.format.php)). Un retour de -1 signifie que l’équipement est introuvable.
+- ``lastCommunication(equipment,[format])`` : Renvoie la date de la dernière remontée d'information pour l'équipement donné en paramètre, le 2ème paramètre optionnel permet de spécifier le format de retour (détails [ici](https://www.php.net/manual/fr/datetime.format.php)). Un retour de -1 signifie que l’équipement est introuvable. La date de derniere information est calculé par rapport au commande de type information et de leur date de collecte.
 
 - ``color_gradient(couleur_debut,couleur_fin,valuer_min,valeur_max,valeur)`` : Renvoie une couleur calculée par rapport à une valeur dans l'intervalle couleur_debut/couleur_fin. La valeur doit être comprise entre valeur_min et valeur_max.
 
@@ -456,6 +460,11 @@ Et les exemples pratiques :
 | ``convertDuration(duration(#[Chauffage][Module chaudière][Etat]#,1, first day of this month)*60)`` | Renvoie le temps d'allumage en Jours/Heures/minutes du temps de passage à l'état 1 du module depuis le 1er jour du mois |
 
 
+### Les fonctions diverses
+
+- ``sun(elevation)`` : Donne en ° l'élevation du soleil (attention il faut avoir renseigné vos coordonées géographique dans la configuration de jeedom)
+- ``sun(azimuth)`` : Donne en ° l'azimuth du soleil (attention il faut avoir renseigné vos coordonées géographique dans la configuration de jeedom)
+
 ### Les commandes spécifiques
 
 En plus des commandes domotiques, vous avez accès aux actions suivantes :
@@ -479,13 +488,13 @@ En plus des commandes domotiques, vous avez accès aux actions suivantes :
 - **Activer/Désactiver Masquer/afficher un équipement** (equipement) : Permet de modifier les propriétés d’un équipement visible/invisible, actif/inactif.
 - **Faire une demande** (ask) : Permet d’indiquer à Jeedom qu’il faut poser une question à l’utilisateur. La réponse est stockée dans une variable, il suffit ensuite de tester sa valeur.
     Pour le moment, seuls les plugins sms, slack, telegram et snips sont compatibles, ainsi que l'application mobile.
-    Attention, cette fonction est bloquante. Tant qu’il n’y a pas de réponse ou que le timeout n’est pas atteint, le scénario attend.
+    Attention, cette fonction est bloquante. Tant qu’il n’y a pas de réponse ou que le timeout n’est pas atteint, le scénario attend. Note pour une réponse libre mettre * dans la liste des réponses possible.
 - **Arrêter Jeedom** (jeedom_poweroff) : Demande à Jeedom de s’éteindre.
 - **Retourner un texte/une donnée** (scenario_return) : Retourne un texte ou une valeur pour une interaction par exemple.
 - **Icône** (icon) : Permet de changer l’icône de représentation du scénario.
 - **Alerte** (alert) : Permet d’afficher un petit message d’alerte sur tous les navigateurs qui ont une page Jeedom ouverte. Vous pouvez, en plus, choisir 4 niveaux d’alerte.
 - **Pop-up** (popup) : Permet d’afficher un pop-up qui doit absolument être validé sur tous les navigateurs qui ont une page jeedom ouverte.
-- **Rapport** (report) : Permet d’exporter une vue au format (PDF,PNG, JPEG ou SVG) et de l’envoyer par le biais d’une commande de type message. Attention, si votre accès Internet est en HTTPS non-signé, cette fonctionnalité ne fonctionnera pas. Il faut du HTTP ou HTTPS signé.
+- **Rapport** (report) : Permet d’exporter une vue au format (PDF,PNG, JPEG ou SVG) et de l’envoyer par le biais d’une commande de type message. Attention, si votre accès Internet est en HTTPS non-signé, cette fonctionnalité ne fonctionnera pas. Il faut du HTTP ou HTTPS signé. Le "delai" est en milli-seconde (ms).
 - **Supprimer bloc DANS/A programmé** (remove_inat) : Permet de supprimer la programmation de tous les blocs DANS et A du scénario.
 - **Evènement** (event) : Permet de pousser une valeur dans une commande de type information de manière arbitraire.
 - **Tag** (tag) : Permet d'ajouter/modifier un tag (le tag n'existe que pendant l'exécution en cours du scénario à la différence des variables qui survivent à la fin du scénario).

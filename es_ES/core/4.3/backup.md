@@ -66,10 +66,16 @@ A nivel de protocolo, solo la Z-Wave (OpenZwave) es un poco diferente porque no 
 
 La copia de seguridad en la nube le permite a Jeedom enviar sus copias de seguridad directamente al mercado. Esto le permite restaurarlos fácilmente y asegurarse de no perderlos. The Market conserva las últimas 6 copias de seguridad. Para suscribirte solo ve a tu página **perfil** en el mercado, luego en la pestaña **mis copias de seguridad**. Puede, desde esta página, recuperar una copia de seguridad o comprar una suscripción (durante 1, 3, 6 o 12 meses).
 
-> **Propina**
+> **Consejo**
 >
 > Puede personalizar el nombre de los archivos de copia de seguridad desde la pestaña **Mis jeedoms**, evitando sin embargo los personajes exóticos.
 
 # Frecuencia de respaldos automáticos
 
 Jeedom realiza una copia de seguridad automática todos los días a la misma hora. Es posible modificarlo, desde el &quot;Motor de tareas&quot; (la tarea se denomina **Copia de seguridad de Jeedom**), pero no es recomendable. De hecho, se calcula en relación con la carga del mercado.
+
+# FAQ
+
+>**No puedo restaurar mi copia de seguridad que recuperé de Safari**
+>
+>Por defecto, Safari descomprime tars.gz (en tar), lo que significa que jeedom ya no puede utilizar la copia de seguridad, debe recomprimirse (gzip) en tar.gz

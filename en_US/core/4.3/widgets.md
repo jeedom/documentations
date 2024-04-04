@@ -97,7 +97,7 @@ To do so, it is necessary to take into account 2 prerequisites :
 `` ''
 
 >**Trick**      
->As long as the standardized name remains readable, it is possible to adapt the naming, for example *open_volet* Where *shutter_close*, *walk_2* and *stop_2*, etc..
+>As long as the standardized name remains readable, it is possible to adapt the naming, for example *open_volet* Where *shutter_close*, *walk_2* and *stop_2*, etc.
 
 ## Custom widgets
 
@@ -113,7 +113,7 @@ There are two types of custom widgets :
 ![Widgets](./images/widgets.png)
 
 You have four options :
-- **Add** : Allows you to add a widget *Core*.
+- **To add** : Allows you to add a widget *Core*.
 - **Import** : Allows you to import a widget as a previously exported json file.
 - **Coded** : Access the widget editing page *Third*.
 - **Replacement** : Opens a window allowing you to replace a widget with another on all devices using it.
@@ -143,12 +143,12 @@ Once on the configuration page of a widget, a context menu is accessible by `` R
 
 ### Creating a widget
 
-Once on the page **Tools → Widgets** you have to click on the button "**Add**" and give a name to your new widget.
+Once on the page **Tools → Widgets** you have to click on the button "**To add**" and give a name to your new widget.
 
 Next :
-- You choose whether it applies to an order of type **Action** Where **Information**.
+- You choose whether it applies to an order of type **Stock** Where **Information**.
 - Depending on the previous choice, you will have to **choose the subtype** of the order.
-- At last **the template** among those which will be available according to the previous choices.
+- Finally **the template** among those which will be available according to the previous choices.
 - Once the template has been chosen, Jeedom displays the configuration options for it below.
 
 ### The templates
@@ -225,33 +225,39 @@ In code mode you have access to different tags for orders, here is a list (not n
 When a new value Jeedom will search in the page if the command is there and in Jeedom.cmd.update if there is an update function. If yes it calls it with a single argument which is an object in the form :
 
 `` ''
-{display_value:'#state#',valueDate:'#valueDate#',collectDate:'#collectDate#',alertLevel:'#alertLevel#'}
+{display_value: '#state#', valueDate: '#valueDate#', collectDate: '#collectDate#', alertLevel: '#alertLevel#'}
 `` ''
 
 Here is a simple example of javascript code to put in your widget :
 
 `` ''
 <script>
-    Jeedom.cmd.update ['#id#'] = function (_options){
-      $('.cmd[data-cmd_id=#id#]').attr('title','Date de valeur : '+_options.valueDate+'<br/>Collect date : '+ _options.collectDate)
-      $('.cmd[data-cmd_id=#id#] .state').empty().append(_options.display_value +' #unite#');
+    jeedom.cmd.addUpdateFunction('#id#', function (_options) {
+      if (is_object(cmd = document.querySelector('.cmd[data-cmd_id="#id#"]'))) {
+        cmd.setAttribute('title', '{{Value date}}: ' + _options.valueDate + '<br>{{Collect date}}: ' + _options.collectDate)
+        cmd.querySelector('.value').innerHTML = _options.display_value
+        cmd.querySelector('.unit').innerHTML = _options.unit
+      }
     }
-    Jeedom.cmd.update ['#id#']({display_value:'#state#',valueDate:'#valueDate#',collectDate:'#collectDate#',alertLevel:'#alertLevel#'});
+    jeedom.cmd.refreshValue([{ cmd_id: '#id#', value: '#value#', display_value: '#state#', valueDate: '#valueDate#', collectDate: '#collectDate#', alertLevel: '#alertLevel#', unit: '#unite#' }])
 </script>
 `` ''
 
 Here are two important things :
 
 `` ''
-Jeedom.cmd.update ['#id#'] = function (_options){
-  $('.cmd[data-cmd_id=#id#]').attr('title','Date de valeur : '+_options.valueDate+'<br/>Collect date : '+ _options.collectDate)
-  $('.cmd[data-cmd_id=#id#] .state').empty().append(_options.display_value +' #unite#');
+jeedom.cmd.addUpdateFunction('#id#', function (_options) {
+  if (is_object(cmd = document.querySelector('.cmd[data-cmd_id="#id#"]'))) {
+    cmd.setAttribute('title', '{{Value date}}: ' + _options.valueDate + '<br>{{Collect date}}: ' + _options.collectDate)
+    cmd.querySelector('.value').innerHTML = _options.display_value
+    cmd.querySelector('.unit').innerHTML = _options.unit
+  }
 }
 `` ''
 The function is called during an update of the widget. It then updates the html code of the widget_template.
 
 `` ''
-Jeedom.cmd.update ['#id#']({display_value:'#state#',valueDate:'#valueDate#',collectDate:'#collectDate#',alertLevel:'#alertLevel#'});
+jeedom.cmd.refreshValue([{ cmd_id: '#id#', value: '#value#', display_value: '#state#', valueDate: '#valueDate#', collectDate: '#collectDate#', alertLevel: '#alertLevel#', unit: '#unite#' }])
 `` ''
  The call to this function for the initialization of the widget.
 

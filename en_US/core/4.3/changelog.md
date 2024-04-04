@@ -1,4 +1,108 @@
+# Changelog Jeedom V4.4
+
+>**IMPORTANT**
+>
+>Even if they are not necessarily visible at first glance, version 4.4 from Jeedom brings major changes with an interface that has been completely rewritten for complete control and above all an unrivaled gain in navigation fluidity. The management of PHP dependencies has also been revised in order to be able to keep them up to date automatically. Even if the Jeedom team and the beta testers have done a lot of testing, there are as many versions of jeedom as there are jeedom... It is therefore not possible to guarantee proper functioning in 100% of the However, in case of problem you can [open a topic on the forum with the label `v4_4`](https://community.jeedom.com/) or contact support from your market profile *(provided you have a service pack or higher)*.
+
+## 4.4.1
+
+- PHP8 support.
+- Checking the minimum core version required before installing or updating a plugin.
+- Adding a button **Assistance** on the plugin configuration page *(Automatic creation of a help request on the forum)*
+
+### 4.4 : Prerequisites
+
+- Debian 10 Buster
+- PHP 7.3
+
+### 4.4 : News / Improvements
+
+- **Historical** : History modal and History page allow to use buttons *Week, Month, Year* to dynamically reload a larger history.
+- **Image selection window** : Added a context menu for sending images and creating, renaming or deleting a folder.
+- **Icon selection window** : Ability to add a `path` parameter when calling `jeedomUtils.chooseIcon` by a plugin to display only its icons.
+- **Dashboard** : Ability to display multiple objects side by side *(Settings → System → Configuration / Interface)*.
+- **Dashboard** : Edit Mode tile editing window allows commands to be renamed.
+- **Dashboard** : In table layout, possibility to insert HTML attributes *(colspan/rowspan in particular)* for each cell.
+- **Equipment** : Ability to disable the widget templates of plugins that use them to return to the Jeedom default display *(device configuration window)*.
+- **Equipment** : Equipment made inactive automatically disappears from all pages. Reactivated equipment reappears on the dashboard if the parent object is already present.
+- **Equipment** : Equipment made invisible automatically disappears from the dashboard. The re-displayed equipment reappears on the dashboard if the parent object is already present.
+- **Analysis > Equipment / Equipment on alert** : Devices that go into alert automatically appear and those that come out of an alert automatically disappear.
+- **Message center** : Core messages on anomaly now inform an action, for example a link to open the offending scenario, or equipment, plugin configuration, etc.
+- **Object** : Deleting or creating a summary results in the update of the global summary and the subject.
+- **Tools > Replace** : This tool now offers a mode *To copy*, allowing to copy the configurations of equipment and commands, without replacing them in the scenarios and others.
+- **Timeline** : The Timeline now loads the first 35 events. The following events are loaded on scroll at the bottom of the page.
+- **Administration** : Possibility to differentiate actions on error or on command alert.
+- **Administration** : Ability to set default command widgets.
+- **Dashboard** : possibility on the object configuration page to ask jeedom to reorder the equipment according to their use.
+- **Theme** : Possibility to choose the theme directly from the url (by adding &theme=Dark or &theme=Light).
+- **Theme** : Removal of the theme **Core2019 Legacy** *(alpha)*.
+- **Report** : Possibility to choose the theme during a report on a jeedom page.
+- **Jeedom menu** : A delay of 0.25s was introduced on opening submenus.
+- **System** : Possibility of adding personalized commands (see documentation)
+
+
+### 4.4 : Autre
+
+- **Core** : Start of development in pure js, without jQuery. See [doc dev](https://doc.jeedom.com/en_US/dev/core4.4).
+- **Core** : More detailed listing of USB devices.
+- **Core** : A contextual menu has been added in different places at the level of the checkboxes to select them all, none, or invert the selection *(see [Doc dev](https://doc.jeedom.com/en_US/dev/core4.4))*.
+- **Lib** : Update Highchart v9.3.2 to v10.3.2 (The module *solid gauge* no longer imported).
+- **Orders** :  Added an option *(alpha)* to not execute an action if the equipment is already in the expected state.
+
+### 4.4 : Remarques
+
+> **Dashboard**
+>
+> On the **Dashboard** and the **Views**, Core v4.4 now automatically resizes tiles to build a seamless grid. The units (smallest height and smallest width of a tile) of this grid are defined in **Settings → System → Configuration / Interface** by values *Vertical pitch (minimum 100)* and *Horizontal pitch (minimum 110)*. The value *Margin* defining the space between the tiles.
+> The tiles adapt to the dimensions of the grid and can be done once, twice etc. these values in height or width. It will certainly be necessary to pass [Dashboard edit mode](https://doc.jeedom.com/en_US/core/4.4/dashboard#Mode%20%C3%A9dition) to fine-tune the size of some tiles after the update.
+
+
+> **Widgets**
+>
+> Core widgets have been rewritten in pure js/css. You will have to edit the Dashboard *(Edit then button ⁝ on the tiles)* and use the option *Line wrap after* on certain commands to find the same visual aspect.
+> All Core widgets now support displaying *time*, by adding an optional parameter *time* / *duration* Where *date*.
+
+> **Dialog boxes**
+>
+> All dialog boxes (bootstrap, bootbox, jQuery UI) have been migrated to an internal Core lib (jeeDialog) specially developed. Resizable dialogs now have a button to switch to *fullscreen*.
+
+
 # Changelog Jeedom V4.3
+
+## 4.3.15
+
+- Prohibition of the translation of Jeedom by browsers (avoids market.repo type errors.php not found).
+- Optimization of the replacement function.
+
+## 4.3.14
+
+- Reduced load on DNS.
+
+## 4.3.13
+
+- Bugfix on **Tools / Replace**.
+
+## 4.3.12
+
+- Optimization on the histories.
+- Bugfix Summary on mobile.
+- Mobile shutter widget bugfix.
+- Bugfix tile curves with binary info.
+
+## 4.3.11
+
+- Authorization of a free answer in *ask* if you put * in the possible answers field.
+- **Analysis / History** : Bugfix on history comparison (bug introduced in 4.3.10).
+- **Synthesis** : L'*Action from Synthesis* of an object is now supported on the mobile version.
+- Correction of histories when using aggregation function.
+- Fixed a bug on the installation of a plugin by another plugin (Ex : mqtt2 installed by zwavejs).
+- Fixed a bug on the history where the value 0 could overwrite the previous value.
+
+## 4.3.10
+
+- **Analysis / History** : Fixed bugs on history deletion.
+- Fixed value display in command configuration window.
+- Added replacement tool information and control.
 
 ## 4.3.9
 
@@ -152,7 +256,7 @@ Blog post [here](https://blog.jeedom.com/6739-jeedom-4-3/)
 - Bugfix UI : Displaying an action's folder on the Timeline.
 
 - Bugfix Core : Display of the API key of each plugin on the configuration page.
-- Bugfix Core : Add option *Time* on a chart in Design.
+- Bugfix Core : Add option *Hour* on a chart in Design.
 - Bugfix Core : Tile curve with negative value.
 - Bugfix Core : 403 error on reboot.
 
@@ -206,7 +310,7 @@ Blog post [here](https://blog.jeedom.com/6739-jeedom-4-3/)
 
 ### 4.2 : News / Improvements
 
-- **Synthesis** : Possibility of configuring objects to go to a *design* or a *view* since the synthesis.
+- **Synthesis** : Possibility of configuring objects to go to a *design* or a *seen* since the synthesis.
 - **Dashboard** : The device configuration window (edit mode) now allows you to configure mobile widgets and generic types.
 - **Widgets** : Internationalization of third-party Widgets (user code). see [Doc dev](https://doc.jeedom.com/en_US/dev/core4.2).
 - **Analysis / History** : Possibility to compare a history over a given period.
@@ -247,7 +351,7 @@ Blog post [here](https://blog.jeedom.com/6739-jeedom-4-3/)
 - **Configuration**: Adding Jeedom DNS based on Wireguard instead of Openvpn (Administration / networks). Faster, and more stable, but still in testing. Please note that this is currently not Jeedom Smart compatible.
 - **Configuration** : OSDB settings: Addition of a tool for mass editing of equipment, commands, objects, scenarios.
 - **Configuration** : OSDB settings: Adding a dynamic SQL query constructor.
-- **Configuration**: Possibility to deactivate cloud monitoring (Administration / Updates / Market).
+- **Configuration**: Ability to disable cloud monitoring (Administration / Updates / Market).
 - **jeeCLI** : Addition of ``jeeCli.php`` in the core / php folder of Jeedom to manage some command line functions.
 - *Big improvements to the interface in terms of performance / responsiveness. jeedomUtils {}, jeedomUI {}, main menu rewritten in pure css, removal of initRowWorflow (), simplification of the code, css fixes for small screens, etc.*
 
@@ -256,7 +360,7 @@ Blog post [here](https://blog.jeedom.com/6739-jeedom-4-3/)
 - Widgets settings for the Mobile version are now accessible from the equipment configuration window in Dashboard Edit mode.
 - The optional parameters available on widgets are now displayed for each widget, either in the command configuration or from the Dashboard edit mode.
 - Many Core Widgets now accept optional color settings. (horizontal and vertical slider, gauge, compass, rain, shutter, templates slider, etc.).
-- Core Widgets with display of a *time* now support an optional parameter **time : dated** to display a relative date (Yesterday at 4:48 p.m., Last Monday at 2:00 p.m., etc).
+- Core Widgets with display of a *time* now support an optional parameter **time : date** to display a relative date (Yesterday at 4:48 p.m., Last Monday at 2:00 p.m., etc).
 - Cursor (action) type Widgets now accept an optional parameter *steps* to define the change step at the cursor.
 - The Widget **action.slider.value** is now available in desktop, with an optional parameter *noslider*, which makes it a *input* simple.
 - The Widget **info.numeric.default** (*Gauge*) has been redone in pure css, and integrated in mobile. They are therefore now identical in desktop and mobile.
@@ -337,7 +441,7 @@ The plugins must respect the recommendations on the tree structure of folders an
 - Bugfix of colored summaries on synthesis.
 - Bugfix on scenario comments with json.
 - Bugfix on summary updates on Dashboard mode previews.
-- Bugfix of elements *picture* on a design.
+- Bugfix of elements *image* on a design.
 - Added grouping options by time for charts on views.
 - Conservation of the Synthesis context when clicking on the summaries.
 - Centering of Synthesis images.
@@ -384,10 +488,10 @@ The plugins must respect the recommendations on the tree structure of folders an
 - **Analysis / History** : The options *grouping, type, variation, staircase* are active only with a single displayed curve.
 - **Analysis / History** : We can now use the option *Area* with the option *Stairs*.
 - **Analysis / Logs** : New monospace type font for logs.
-- **View** : Possibility to put scenarios.
-- **View** : Edit mode now inserting the moved tile.
-- **View** : Edit mode: the equipment refresh icons are replaced by an icon allowing access to their configuration, thanks to a new simplified modal.
-- **View** : The display order is now independent of that on the Dashboard.
+- **Seen** : Possibility to put scenarios.
+- **Seen** : Edit mode now inserting the moved tile.
+- **Seen** : Edit mode: the equipment refresh icons are replaced by an icon allowing access to their configuration, thanks to a new simplified modal.
+- **Seen** : The display order is now independent of that on the Dashboard.
 - **Timeline** : Separation of History and Timeline pages.
 - **Timeline** : Integration of the Timeline in DB for reliability reasons.
 - **Timeline** : Management of multiple timelines.
@@ -441,7 +545,7 @@ The plugins must respect the recommendations on the tree structure of folders an
 - Numerous desktop / mobile performance optimizations.
 
 ### 4.1 : Changements
-- Function **scenario-> getHumanName()** of the php scenario class no longer returns *[object] [group] [name]* corn *[group] [object] [name]*.
+- Function **scenario-> getHumanName()** of the php scenario class no longer returns *[object] [group] [name]* but *[group] [object] [name]*.
 - Function **scenario-> byString()** must now be called with the structure *[group] [object] [name]*.
 - Functions **network-> getInterfaceIp () network-> getInterfaceMac () network-> getInterfaces()** have been replaced by **network-> getInterfacesInfo()**
 
@@ -580,7 +684,7 @@ The plugins must respect the recommendations on the tree structure of folders an
 - Configuration : Change of #message# at #subject# in Configuration / Logs / Messages to avoid duplicating the message.
 - Configuration : Possibility in the summaries to add an exclusion of orders that have not been updated for more than XX minutes (example for the calculation of temperature averages if a sensor has not reported anything for more than 30min it will be excluded from the calculation)<br/><br/>
 - Scenario : The colorization of blocks is no longer random, but by block type.
-- Scenario : Possibility by doing a Ctrl + click on the button *execution* save it, launch it, and display the log (if the log level is not on *Any*).
+- Scenario : Possibility by doing a Ctrl + click on the button *execution* save it, launch it, and display the log (if the log level is not on *None*).
 - Scenario : Confirmation of block deletion. Ctrl + click to avoid confirmation.
 - Scenario : Addition of a search function in Code blocks. To research : Ctrl + F then Enter, Next result : Ctrl + G, Previous result : Ctrl+Shift+G
 - Scenario : Possibility of condensing the blocks.

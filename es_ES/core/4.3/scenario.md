@@ -9,15 +9,15 @@ Cerebro real de la automatización del hogar, los escenarios permiten interactua
 
 Allí encontrará la lista de escenarios de su Jeedom, así como las funcionalidades para administrarlos en el mejor de los casos :
 
-- **Agregar** : Crea un escenario. El procedimiento se describe en el siguiente capítulo.
+- **Para agregar** : Crea un escenario. El procedimiento se describe en el siguiente capítulo.
 - **Deshabilitar escenarios** : Deshabilita todos los escenarios. Raramente utilizado y a sabiendas, ya que ningún escenario se ejecutará más.
 - **Resumen** : Le permite tener una visión general de todos los escenarios. Puedes cambiar los valores **activo**, **visible**, **lanzamiento múltiple**, **modo síncrono**, **Tronco** y **Línea de tiempo** (estos parámetros se describen en el siguiente capítulo). También puede acceder a los registros para cada escenario e iniciarlos individualmente.
 
 ## Mis escenarios
 
-Encontrarás en esta parte **lista de escenarios** que creaste. Se clasifican según su **grupo**, posiblemente definido para cada uno de ellos. Cada escenario se muestra con su **apellido** y su **objeto padre**. Los **escenarios atenuados** son los que están deshabilitados.
+Encontrarás en esta parte **lista de escenarios** que creaste. Se clasifican según su **banda**, posiblemente definido para cada uno de ellos. Cada escenario se muestra con su **apellido** y su **objeto padre**. Los **escenarios atenuados** son los que están deshabilitados.
 
-> **Propina**
+> **Consejo**
 >
 > Puede abrir un escenario haciendo :
 > - Haga clic en uno de ellos.
@@ -33,11 +33,11 @@ Una vez en la configuración de un escenario, tiene un menú contextual con clic
 
 ## Creación | Editar un escenario
 
-Después de hacer clic en **Agregar**, debes elegir el nombre de tu escenario. Luego se lo redirige a la página de sus parámetros generales.
+Después de hacer clic en **Para agregar**, debes elegir el nombre de tu escenario. Luego se lo redirige a la página de sus parámetros generales.
 Antes de eso, en la parte superior de la página, hay algunas funciones útiles para administrar este escenario :
 
 - **IDENTIFICACIÓN** : Al lado de la palabra **General**, este es el identificador de escenario.
-- **Estado** : *Detenido* Donde *En curso*, indica el estado actual del escenario.
+- **Estado** : *Detenido* Dónde *En curso*, indica el estado actual del escenario.
 - **Estado anterior / siguiente** : Cancelar / rehacer una acción.
 - **Agregar bloque** : Le permite agregar un bloque del tipo deseado al escenario (ver más abajo).
 - **Tronco** : Muestra los registros del escenario.
@@ -45,19 +45,19 @@ Antes de eso, en la parte superior de la página, hay algunas funciones útiles 
 - **Vínculos** : Le permite ver el gráfico de los elementos relacionados con el escenario.
 - **Edición de texto** : Muestra una ventana que permite editar el escenario en forma de texto / json. No olvides guardar.
 - **Exportar** : Le permite obtener una versión de texto puro del escenario.
-- **Plantilla** : Le permite acceder a las plantillas y aplicar una al escenario del Mercado (explicado en la parte inferior de la página).
-- **Investigación** : Despliega un campo de búsqueda para buscar en el escenario. Esta búsqueda despliega los bloques colapsados si es necesario y los pliega después de la búsqueda.
+- **Modelo** : Le permite acceder a las plantillas y aplicar una al escenario del Mercado (explicado en la parte inferior de la página).
+- **Investigar** : Despliega un campo de búsqueda para buscar en el escenario. Esta búsqueda despliega los bloques colapsados si es necesario y los pliega después de la búsqueda.
 - **Realizar** : Le permite iniciar el escenario manualmente (independientemente de los desencadenantes). Guardar de antemano para tener en cuenta las modificaciones.
-- **Eliminar** : Eliminar escenario.
+- **Borrar** : Eliminar escenario.
 - **Para salvaguardar** : Guardar los cambios realizados.
 
-> **Consejos**
+> **Puntas**
 >
 > Dos herramientas también serán invaluables para usted en la configuración de escenarios :
     > - Las variables, visibles en **Herramientas → Variables**
     > - El probador de expresiones, accesible por **Herramientas → Probador de expresiones**
 >
-> Una **Ctrl Haga clic en el botón ejecutar** le permite guardar, ejecutar y mostrar directamente el registro del escenario (si el nivel de registro no es Ninguno).
+> A **Ctrl Haga clic en el botón ejecutar** le permite guardar, ejecutar y mostrar directamente el registro del escenario (si el nivel de registro no es Ninguno).
 
 ## Pestaña General
 
@@ -65,7 +65,7 @@ En la pestaña **General**, encontramos los principales parámetros del escenari
 
 - **Nombre del escenario** : El nombre de tu escenario.
 - **Nombre para mostrar** : El nombre utilizado para su visualización. Opcional, si no se completa, se usa el nombre del escenario.
-- **Grupo** : Le permite organizar los escenarios, clasificándolos en grupos (visibles en la página de escenarios y en sus menús contextuales).
+- **Banda** : Le permite organizar los escenarios, clasificándolos en grupos (visibles en la página de escenarios y en sus menús contextuales).
 - **Activo** : Activa el escenario. Si no está activo, Jeedom no lo ejecutará, independientemente del modo de disparo.
 - **Visible** : Se utiliza para hacer visible el escenario (Panel de control).
 - **Objeto padre** : Asignación a un objeto padre. Entonces será visible o no según este padre.
@@ -81,27 +81,27 @@ En la pestaña **General**, encontramos los principales parámetros del escenari
 - **Descripción** : Le permite escribir un pequeño texto para describir su escenario.
 - **Modo de escenario** : El escenario puede ser programado, activado o ambos. Luego tendrá la opción de indicar los activadores (máximo de 15 activadores) y la (s) programación (s)).
 
-> **Propina**
+> **Consejo**
 >
 > Las condiciones ahora se pueden ingresar en modo activado. Por ejemplo : ``#[Garage][Open Garage][Ouverture]# == 1``
 > Atención : puede tener un máximo de 28 disparadores / programación para un escenario.
 
 > **Modo de punta programado**
 >
-> El modo programado usa sintaxis **Cron**. Por ejemplo, puede ejecutar un escenario cada 20 minutos con  ``*/ /20 * * * *``, o a las 5 a.m. para arreglar una multitud de cosas para el día con ``0 5 * * *``. Los ? a la derecha de un programa le permite configurarlo sin ser un especialista en sintaxis de Cron.
+> El modo programado usa sintaxis **Cron**. Por ejemplo, puede ejecutar un escenario cada 20 minutos con  ``*/ /20 * * * *``, o a las 5 a.m. para arreglar una multitud de cosas para el día con ``0 5 * * *``. La ? a la derecha de un programa le permite configurarlo sin ser un especialista en sintaxis de Cron.
 
 ## Pestaña Escenario
 
-Aquí es donde construirás tu escenario. Después de crear el escenario, su contenido está vacío, por lo que hará ... nada. Tienes que empezar con **Agregar bloque**, con el botón de la derecha. Una vez que se ha creado un bloque, puede agregar otro **cuadra** o un **acción**.
+Aquí es donde construirás tu escenario. Después de crear el escenario, su contenido está vacío, por lo que hará ... nada. Tienes que empezar con **Agregar bloque**, con el botón de la derecha. Una vez que se ha creado un bloque, puede agregar otro **bloquear** o un **Valores**.
 
 Para mayor comodidad y no tener que reordenar constantemente los bloques en el escenario, se agrega un bloque después del campo en el que se encuentra el cursor del mouse.
 *Por ejemplo, si tiene diez bloques y hace clic en la condición SI del primer bloque, el bloque agregado se agregará después de este bloque, en el mismo nivel. Si no hay ningún campo activo, se agregará al final del escenario.*
 
-> **Propina**
+> **Consejo**
 >
 > En condiciones y acciones, es mejor favorecer comillas simples (') en lugar de dobles (").
 
-> **Propina**
+> **Consejo**
 >
 > Un Ctrl Shift Z o Ctrl Shift Y le permite'**anular** o de **rehacer** una modificación (adición de acción, bloqueo...).
 
@@ -110,18 +110,18 @@ Para mayor comodidad y no tener que reordenar constantemente los bloques en el e
 Aquí están los diferentes tipos de bloques disponibles :
 
 - **If / Then / O** : Permite que las acciones se lleven a cabo bajo condiciones (si esto, entonces eso).
-- **Acción** : Le permite lanzar acciones simples sin ninguna condición.
-- **Lazo** : Permite que las acciones se realicen repetidamente desde 1 hasta un número definido (o incluso el valor de un sensor, o un número aleatorio).
+- **Valores** : Le permite lanzar acciones simples sin ninguna condición.
+- **Círculo** : Permite que las acciones se realicen repetidamente desde 1 hasta un número definido (o incluso el valor de un sensor, o un número aleatorio).
 - **Dentro** : Permite iniciar una acción en X minuto (s) (0 es un valor posible). La peculiaridad es que las acciones se inician en segundo plano, por lo que no bloquean el resto del escenario. Entonces es un bloque sin bloqueo.
-- **EN** : Permite decirle a Jeedom que inicie las acciones del bloque en un momento dado (en la forma hhmm). Este bloque no es bloqueante. Ex : 0030 para 00:30, o 0146 para 1h46 y 1050 para 10h50.
+- **POSEE** : Permite decirle a Jeedom que inicie las acciones del bloque en un momento dado (en la forma hhmm). Este bloque no es bloqueante. Ex : 0030 para 00:30, o 0146 para 1h46 y 1050 para 10h50.
 - **Codificado** : Le permite escribir directamente en código PHP (requiere cierto conocimiento y puede ser arriesgado, pero le permite no tener restricciones).
-- **Observación** : Le permite agregar comentarios a su escenario.
+- **Comentario** : Le permite agregar comentarios a su escenario.
 
 Cada bloque tiene sus opciones para manejarlos mejor :
 
 - A la izquierda :
     - La flecha bidireccional le permite mover un bloque o una acción para reordenarlos en el escenario.
-    - El ojo reduce un bloqueo (*colapso*) para reducir su impacto visual. Ctrl Clic en el ojo los reduce o los muestra todos.
+    - El ojo reduce un bloqueo (*colapsar*) para reducir su impacto visual. Ctrl Clic en el ojo los reduce o los muestra todos.
     - La casilla de verificación le permite desactivar completamente el bloque sin eliminarlo. Por lo tanto, no se ejecutará.
 
 - Sobre la derecha :
@@ -129,14 +129,14 @@ Cada bloque tiene sus opciones para manejarlos mejor :
     - El icono Pegar le permite pegar una copia del bloque copiado previamente después del bloque en el que utiliza esta función.  Ctrl Click en el icono reemplaza el bloque con el bloque copiado.
     - El icono: le permite eliminar el bloque con una solicitud de confirmación. Ctrl Click elimina el bloque sin confirmación.
 
-### Si / Entonces / De lo contrario bloquea | Lazo | Dentro | A
+### Si / Entonces / De lo contrario bloquea | Círculo | Dentro | A
 
 Para las condiciones, Jeedom trata de hacer posible escribirlas tanto como sea posible en lenguaje natural sin dejar de ser flexible.
 > NO use [] en pruebas de condición, solo son posibles paréntesis ().
 
 Hay tres botones disponibles a la derecha de este tipo de bloque para seleccionar un elemento para probar :
 
-- **Encuentra un pedido** : Le permite buscar un pedido en todos los disponibles en Jeedom. Una vez que se encuentra el pedido, Jeedom abre una ventana para preguntarle qué prueba desea realizar. Si eliges **No poner nada**, Jeedom agregará el pedido sin comparación. También puedes elegir **y** Donde **Donde** delante **Próximo** para encadenar pruebas en diferentes equipos.
+- **Encuentra un pedido** : Le permite buscar un pedido en todos los disponibles en Jeedom. Una vez que se encuentra el pedido, Jeedom abre una ventana para preguntarle qué prueba desea realizar. Si eliges **No poner nada**, Jeedom agregará el pedido sin comparación. También puedes elegir **y** Dónde **Dónde** delante **Próximo** para encadenar pruebas en diferentes equipos.
 - **Buscar un escenario** : Le permite buscar un escenario para probar.
 - **Busca equipo** : Lo mismo para el equipo.
 
@@ -145,11 +145,11 @@ Hay tres botones disponibles a la derecha de este tipo de bloque para selecciona
 > En bloques de tipo Si / Entonces / De lo contrario, las flechas circulares a la izquierda del campo de condición permiten activar o no la repetición de acciones si la evaluación de la condición da el mismo resultado que durante la evaluación previa.
 > SI expresión != 0 es equivalente a SI expresión y SI expresión == 0 es equivalente a SI no expresión
 
-> **Propina**
+> **Consejo**
 >
 > Hay una lista de etiquetas que permiten el acceso a las variables desde el escenario u otro, o por la hora, la fecha, un número aleatorio, ... Vea a continuación los capítulos sobre comandos y etiquetas.
 
-Una vez que se completa la condición, debe usar el botón &quot;Agregar&quot; a la izquierda para agregar un nuevo **cuadra** o un **acción** en el bloque actual.
+Una vez que se completa la condición, debe usar el botón &quot;Agregar&quot; a la izquierda para agregar un nuevo **bloquear** o un **Valores** en el bloque actual.
 
 
 ### Código de bloque
@@ -186,14 +186,14 @@ El bloque de código le permite ejecutar código php. Por lo tanto, es muy poten
 - ``$scenario->save();`` : Guardar cambios.
 - ``$scenario->setData($key, $value);`` : Guardar un dato (variable).
     - ``$key`` : clave de valor (int o string).
-    - ``$value`` : valor para almacenar (``int``, ``string``, ``array`` Donde ``object``).
+    - ``$value`` : valor para almacenar (``int``, ``string``, ``array`` Dónde ``object``).
 - ``$scenario->getData($key);`` : Obtener datos (variable).
     - ``$key => 1`` : clave de valor (int o string).
 - ``$scenario->removeData($key);`` : Eliminar datos.
 - ``$scenario->setLog($message);`` : Escribe un mensaje en el registro del script.
 - ``$scenario->persistLog();`` : Forzar la escritura del registro (de lo contrario, se escribe solo al final del escenario). Tenga cuidado, esto puede retrasar un poco el escenario.
 
-> **Propina**
+> **Consejo**
 >
 > Adición de una función de búsqueda en el bloque de Código : Buscar : Ctrl + F luego Enter, Siguiente resultado : Ctrl + G, resultado anterior : Ctrl + Mayús + G
 
@@ -211,11 +211,11 @@ Las acciones agregadas a los bloques tienen varias opciones :
 - Una cabaña **activado** para que este comando se tenga en cuenta en el escenario.
 - Una cabaña **paralelas** para que este comando se inicie en paralelo (al mismo tiempo) con los otros comandos también seleccionados.
 - A **flecha doble vertical** para mover la acción. Solo arrastra y suelta desde allí.
-- Un botón para **Eliminar** la acción.
+- Un botón para **Borrar** la acción.
 - Un botón para acciones específicas, con cada vez la descripción (al pasar el mouse) de esta acción.
 - Un botón para buscar un comando de acción.
 
-> **Propina**
+> **Consejo**
 >
 > Dependiendo del comando seleccionado, se pueden mostrar diferentes campos adicionales.
 
@@ -236,7 +236,7 @@ Hay desencadenantes específicos (distintos de los proporcionados por los comand
 - ``#variable(nom_variable)#`` : Cambiar el valor de la variable name_name.
 - ``#genericType (GENÉRICO, #[Object]#)#`` : Cambio de un comando de información de tipo GENÉRICO genérico, en el objeto Objeto.
 
-También puede activar un escenario utilizando la API HTTP descrita [aquí](https:/ // /doc.jeedom.com/es_ES/core/ /4.1/ /api_http).
+También puede activar un escenario utilizando la API HTTP descrita [aquí](https:/ // /doc.jeedom.com/es_ES/core/ /4.4/ /api_http).
 
 ### Operadores de comparación y enlaces entre condiciones
 
@@ -254,14 +254,14 @@ Puede utilizar cualquiera de los siguientes símbolos para realizar comparacione
 Puedes combinar cualquier comparación con los siguientes operadores :
 
 - ``YY`` : y. También es posible utilizar : ``ET`` / / ``et`` / / ``AND`` / / ``and`` pero puede que no funcione bien con algunas funciones php.
-- ``||`` : Donde. También es posible utilizar : ``OU`` / / ``ou`` / / ``OR`` / / ``or`` pero puede que no funcione bien con algunas funciones php.
+- ``||`` : Dónde. También es posible utilizar : ``OU`` / / ``ou`` / / ``OR`` / / ``or`` pero puede que no funcione bien con algunas funciones php.
 - ``xor``  : o exclusivo. También es posible utilizar : ``XOR`` / / ``^`` pero puede que no funcione bien con algunas funciones php.
 
 ### Etiquetas
 
 Una etiqueta se reemplaza durante la ejecución del escenario por su valor. Puedes usar las siguientes etiquetas :
 
-> **Propina**
+> **Consejo**
 >
 > Para mostrar los ceros iniciales, use la función Fecha (). Ver [aquí](https:/ // /www.php.net/ /manual/ /fr/ /datetime.format.php).
 
@@ -281,12 +281,17 @@ Una etiqueta se reemplaza durante la ejecución del escenario por su valor. Pued
 - ``#smonth#`` : Nombre del mes. Ex : Enero.
 - ``#IP#`` : IP interna de Jeedom.
 - ``#hostname#`` : Nombre de la máquina Jeedom.
+- ``#jeedomName#`` : Nombre de Jeedom.
 - ``#trigger#`` (en desuso, mejor usar ``trigger()``) : Quizás el nombre del comando que inició el escenario :
     - ``api`` si el lanzamiento fue activado por la API,
     - ``schedule`` si se inició programando,
     - ``user`` si se inició manualmente,
     - ``start`` para un lanzamiento al inicio de Jeedom.
-- ``#trigger_value#`` (en desuso, mejor usar triggerValue()) : Por el valor del comando que activó el escenario
+- ``#triggerValue#`` (en desuso, mejor usar triggerValue()) : Por el valor del comando que activó el escenario
+- ``#latitude#`` : Le permite recuperar la información de latitud ingresada en la configuración de jeedom
+- ``#longitude#`` : Le permite recuperar la información de longitud ingresada en la configuración de jeedom
+- ``#altitude#`` : Le permite recuperar la información de altitud ingresada en la configuración de jeedom
+
 
 También tiene las siguientes etiquetas adicionales si su escenario fue desencadenado por una interacción :
 
@@ -301,19 +306,19 @@ También tiene las siguientes etiquetas adicionales si su escenario fue desencad
 
 Hay varias funciones disponibles para el equipo :
 
-- ``average(commande,période)`` Y ``averageBetween(commande,start,end)`` : Indique el promedio del pedido durante el período (período=[mes, día, hora, min] o [expresión PHP](http:/ // /php.net/ /manual/ /fr/ /datetime.formats.relative.php)) o entre los 2 terminales solicitados (en el formulario ``Y-m-d H:i:s`` Donde [Expresión PHP](http:/ // /php.net/ /manual/ /fr/ /datetime.formats.relative.php)).
+- ``average(commande,période)`` Y ``averageBetween(commande,start,end)`` : Indique el promedio del pedido durante el período (período=[mes, día, hora, min] o [expresión PHP](https:/ // /www.php.net/ /manual/ /fr/ /datetime.formats.php#datetime.formats.relative)) o entre los 2 terminales solicitados (en el formulario ``Y-m-d H:i:s`` Dónde [Expresión PHP](https:/ // /www.php.net/ /manual/ /fr/ /datetime.formats.php#datetime.formats.relative)).
 
-- ``averageTemporal(commande,période)`` Y ``averageTemporalBetween(commande,start,end)`` : Indique el promedio de los valores del pedido ponderado por su duración de existencia durante el período (período=[mes, día, hora, min] o [expresión PHP](http:/ // /php.net/ /manual/ /fr/ /datetime.formats.relative.php)) o entre los 2 terminales solicitados (en el formulario ``Y-m-d H:i:s`` Donde [Expresión PHP](http:/ // /php.net/ /manual/ /fr/ /datetime.formats.relative.php)).
+- ``averageTemporal(commande,période)`` Y ``averageTemporalBetween(commande,start,end)`` : Indique el promedio de los valores del pedido ponderado por su duración de existencia durante el período (período=[mes, día, hora, min] o [expresión PHP](https:/ // /www.php.net/ /manual/ /fr/ /datetime.formats.php#datetime.formats.relative)) o entre los 2 terminales solicitados (en el formulario ``Y-m-d H:i:s`` Dónde [Expresión PHP](https:/ // /www.php.net/ /manual/ /fr/ /datetime.formats.php#datetime.formats.relative)).
 
-- ``min(commande,période)`` Y ``minBetween(commande,start,end)`` : Dar el pedido mínimo durante el período (período=[mes, día, hora, min] o [expresión PHP](http:/ // /php.net/ /manual/ /fr/ /datetime.formats.relative.php)) o entre los 2 terminales solicitados (en el formulario ``Y-m-d H:i:s`` Donde [Expresión PHP](http:/ // /php.net/ /manual/ /fr/ /datetime.formats.relative.php)).
+- ``min(commande,période)`` Y ``minBetween(commande,start,end)`` : Dar el pedido mínimo durante el período (período=[mes, día, hora, min] o [expresión PHP](https:/ // /www.php.net/ /manual/ /fr/ /datetime.formats.php#datetime.formats.relative)) o entre los 2 terminales solicitados (en el formulario ``Y-m-d H:i:s`` Dónde [Expresión PHP](https:/ // /www.php.net/ /manual/ /fr/ /datetime.formats.php#datetime.formats.relative)).
 
-- ``max(commande,période)`` Y ``maxBetween(commande,start,end)`` : Dar el máximo del pedido durante el período (período=[mes, día, hora, min] o [expresión PHP](http:/ // /php.net/ /manual/ /fr/ /datetime.formats.relative.php)) o entre los 2 terminales solicitados (en el formulario ``Y-m-d H:i:s`` Donde [Expresión PHP](http:/ // /php.net/ /manual/ /fr/ /datetime.formats.relative.php)).
+- ``max(commande,période)`` Y ``maxBetween(commande,start,end)`` : Dar el máximo del pedido durante el período (período=[mes, día, hora, min] o [expresión PHP](https:/ // /www.php.net/ /manual/ /fr/ /datetime.formats.php#datetime.formats.relative)) o entre los 2 terminales solicitados (en el formulario ``Y-m-d H:i:s`` Dónde [Expresión PHP](https:/ // /www.php.net/ /manual/ /fr/ /datetime.formats.php#datetime.formats.relative)).
 
-- ``duration(commande, valeur, période)`` Y ``durationbetween(commande,valeur,start,end)`` : Indique la duración en minutos durante los cuales el equipo tuvo el valor elegido durante el período (período=[mes, día, hora, min] o [expresión PHP](http:/ // /php.net/ /manual/ /fr/ /datetime.formats.relative.php)) o entre los 2 terminales solicitados (en el formulario ``Y-m-d H:i:s`` Donde [Expresión PHP](http:/ // /php.net/ /manual/ /fr/ /datetime.formats.relative.php)).
+- ``duration(commande, valeur, période)`` Y ``durationbetween(commande,valeur,start,end)`` : Indique la duración en minutos durante los cuales el equipo tuvo el valor elegido durante el período (período=[mes, día, hora, min] o [expresión PHP](https:/ // /www.php.net/ /manual/ /fr/ /datetime.formats.php#datetime.formats.relative)) o entre los 2 terminales solicitados (en el formulario ``Y-m-d H:i:s`` Dónde [Expresión PHP](https:/ // /www.php.net/ /manual/ /fr/ /datetime.formats.php#datetime.formats.relative)).
 
-- ``statistics(commande,calcul,période)`` Y ``statisticsBetween(commande,calcul,start,end)`` : Proporcione el resultado de diferentes cálculos estadísticos (suma, recuento, estándar, varianza, promedio, mínimo, máximo) durante el período (período=[mes, día, hora, min] o [expresión PHP](http:/ // /php.net/ /manual/ /fr/ /datetime.formats.relative.php)) o entre los 2 terminales solicitados (en el formulario ``Y-m-d H:i:s`` Donde [Expresión PHP](http:/ // /php.net/ /manual/ /fr/ /datetime.formats.relative.php)).
+- ``statistics(commande,calcul,période)`` Y ``statisticsBetween(commande,calcul,start,end)`` : Proporcione el resultado de diferentes cálculos estadísticos (suma, recuento, estándar, varianza, promedio, mínimo, máximo) durante el período (período=[mes, día, hora, min] o [expresión PHP](https:/ // /www.php.net/ /manual/ /fr/ /datetime.formats.php#datetime.formats.relative)) o entre los 2 terminales solicitados (en el formulario ``Y-m-d H:i:s`` Dónde [Expresión PHP](https:/ // /www.php.net/ /manual/ /fr/ /datetime.formats.php#datetime.formats.relative)).
 
-- ``tendance(commande,période,seuil)`` : Da la tendencia del pedido durante el período (período=[mes, día, hora, min] o [expresión PHP](http:/ // /php.net/ /manual/ /fr/ /datetime.formats.relative.php)).
+- ``tendance(commande,période,seuil)`` : Da la tendencia del pedido durante el período (período=[mes, día, hora, min] o [expresión PHP](https:/ // /www.php.net/ /manual/ /fr/ /datetime.formats.php#datetime.formats.relative)).
 
 - ``stateDuration(commande)`` : Da la duración en segundos desde el último cambio de valor.
     -1 : No existe historial o el valor no existe en el historial.
@@ -330,9 +335,9 @@ Hay varias funciones disponibles para el equipo :
 - ``age(commande)`` : Da la edad en segundos del valor del comando (``collecDate``)
     -1 : El comando no existe o no es de tipo información.
 
-- ``stateChanges(commande,[valeur], période)`` Y ``stateChangesBetween(commande, [valeur], start, end)`` : Da el número de cambios de estado (hacia un cierto valor si se indica, o si no se indica en comparación con su valor actual) durante el período (período=[mes, día, hora, min] o [expresión PHP](http:/ // /php.net/ /manual/ /fr/ /datetime.formats.relative.php)) o entre los 2 terminales solicitados (en el formulario ``Y-m-d H:i:s`` Donde [Expresión PHP](http:/ // /php.net/ /manual/ /fr/ /datetime.formats.relative.php)).
+- ``stateChanges(commande,[valeur], période)`` Y ``stateChangesBetween(commande, [valeur], start, end)`` : Da el número de cambios de estado (hacia un cierto valor si se indica, o si no se indica en comparación con su valor actual) durante el período (período=[mes, día, hora, min] o [expresión PHP](https:/ // /www.php.net/ /manual/ /fr/ /datetime.formats.php#datetime.formats.relative)) o entre los 2 terminales solicitados (en el formulario ``Y-m-d H:i:s`` Dónde [Expresión PHP](https:/ // /www.php.net/ /manual/ /fr/ /datetime.formats.php#datetime.formats.relative)).
 
-- ``lastBetween(commande,start,end)`` : Da el último valor registrado para el dispositivo entre los 2 terminales solicitados (en el formulario ``Y-m-d H:i:s`` Donde [Expresión PHP](http:/ // /php.net/ /manual/ /fr/ /datetime.formats.relative.php)).
+- ``lastBetween(commande,start,end)`` : Da el último valor registrado para el dispositivo entre los 2 terminales solicitados (en el formulario ``Y-m-d H:i:s`` Dónde [Expresión PHP](https:/ // /www.php.net/ /manual/ /fr/ /datetime.formats.php#datetime.formats.relative)).
 
 - ``variable(mavariable,valeur par défaut)`` : Recupera el valor de una variable o el valor deseado por defecto.
 
@@ -366,13 +371,13 @@ Hay varias funciones disponibles para el equipo :
 
 - ``tag(montag,[defaut])`` : Se usa para recuperar el valor de una etiqueta o el valor predeterminado si no existe.
 
-- ``name(type,commande)`` : Se utiliza para recuperar el nombre del pedido, equipo u objeto. Escribe : cmd, eqLogic u objeto.
+- ``name(type,commande)`` : Se utiliza para recuperar el nombre del pedido, equipo u objeto. Tipo : cmd, eqLogic u objeto.
 
-- ``lastCommunication(equipment,[format])`` : Devuelve la fecha de la última comunicación para el dispositivo dada como parámetro, el segundo parámetro opcional se usa para especificar el formato de retorno (detalles [aquí](https:/ // /www.php.net/ /manual/ /fr/ /datetime.format.php)). Un retorno de -1 significa que no se puede encontrar el equipo.
+- ``lastCommunication(equipment,[format])`` : Devuelve la fecha de la última retroalimentación de información para el equipo dada en el parámetro, el segundo parámetro opcional se usa para especificar el formato de devolución (detalles [aquí](https:/ // /www.php.net/ /manual/ /fr/ /datetime.format.php)). Un retorno de -1 significa que no se puede encontrar el equipo. La fecha de última información se calcula en relación con el tipo de información orden y su fecha de recogida.
 
 - ``color_gradient(couleur_debut,couleur_fin,valuer_min,valeur_max,valeur)`` : Devuelve un color calculado en relación con un valor en el intervalo color_start / color_end. El valor debe estar entre min_value y max_value.
 
-Los períodos e intervalos de estas funciones también se pueden usar con [Expresiones PHP](http:/ // /php.net/ /manual/ /fr/ /datetime.formats.relative.php) como por ejemplo :
+Los períodos e intervalos de estas funciones también se pueden usar con [Expresiones PHP](https:/ // /www.php.net/ /manual/ /fr/ /datetime.formats.php#datetime.formats.relative) como por ejemplo :
 
 - ``Now`` : Ahora.
 - ``Today`` : 00:00 hoy (permite, por ejemplo, obtener resultados para el día si entre ``Today`` y ``Now``).
@@ -455,6 +460,11 @@ Y ejemplos prácticos :
 | ``convertDuration(duration(#[Chauffage][Module chaudière][Etat]#,1, first day of this month)*60)`` | Devuelve el tiempo de encendido en días / horas / minutos del tiempo de transición al estado 1 del módulo desde el primer día del mes |
 
 
+### Funciones misceláneas
+
+- ``sun(elevation)`` : Da en ° la elevación del sol (ojo, debes haber ingresado tus coordenadas geográficas en la configuración de jeedom)
+- ``sun(azimuth)`` : Da en ° el acimut del sol (ojo, debes haber ingresado tus coordenadas geográficas en la configuración de jeedom)
+
 ### Pedidos específicos
 
 Además de los comandos de automatización del hogar, tiene acceso a las siguientes acciones :
@@ -467,10 +477,10 @@ Además de los comandos de automatización del hogar, tiene acceso a las siguien
     - Comenzar : Inicie el escenario en un hilo diferente. El escenario iniciado se ejecuta independientemente del escenario de llamada.
     - Iniciar (sincronizar) : Inicia el escenario llamado y pausa el escenario de llamada, mientras que el escenario llamado ha terminado de ejecutarse.
     - Parar : Detener el escenario.
-    - Activar : Activar un escenario discapacitado.
+    - Habilitar : Activar un escenario discapacitado.
     - Desactivar : Desactivar escenario. Ya no se inicia independientemente de los desencadenantes.
     - Restablecimiento de los IS : Se utiliza para restablecer el estado de **SI**. Este estado se utiliza para la no repetición de las acciones de un **SI**, si la evaluación de la condición da el mismo resultado que la evaluación anterior.
-- **Detener** (stop) : Detener el escenario.
+- **Deténgase** (stop) : Detener el escenario.
 - **Esperar** (wait) : Espere hasta que la condición sea válida (máximo 2 h), el tiempo de espera es en segundos (s).
 - **Ir al diseño** (gotodesign) : Cambie el diseño que se muestra en todos los navegadores por el diseño solicitado.
 - **Agregar un registro** (log) : Le permite agregar un mensaje a los registros.
@@ -478,13 +488,13 @@ Además de los comandos de automatización del hogar, tiene acceso a las siguien
 - **Activar / Desactivar Ocultar / mostrar equipo** (equipement) : Le permite modificar las propiedades de los equipos visibles / invisibles, activos / inactivos.
 - **Hacer una solicitud** (ask) : Permite indicar a Jeedom que es necesario hacerle una pregunta al usuario. La respuesta se almacena en una variable, entonces solo tiene que probar su valor.
     Por el momento, solo los complementos sms, slack, telegram y snips son compatibles, así como la aplicación móvil.
-    Atención, esta función está bloqueando. Mientras no haya respuesta o no se alcance el tiempo de espera, el escenario espera.
+    Atención, esta función está bloqueando. Mientras no haya respuesta o no se alcance el tiempo de espera, el escenario espera. Nota para una respuesta libre poner * en la lista de posibles respuestas.
 - **Stop Jeedom** (jeedom_poweroff) : Pídale a Jeedom que cierre.
 - **Devolver un texto / datos** (vuelta_escenario) : Devuelve un texto o un valor para una interacción, por ejemplo.
 - **Icono** (icon) : Permite cambiar el ícono de representación del escenario.
 - **Alerta** (alert) : Muestra un pequeño mensaje de alerta en todos los navegadores que tienen abierta una página de Jeedom. Además, puedes elegir 4 niveles de alerta.
 - **Surgir** (popup) : Permite mostrar una ventana emergente que debe validarse absolutamente en todos los navegadores que tienen una página abierta.
-- **Relación** (report) : Le permite exportar una vista en formato (PDF, PNG, JPEG o SVG) y enviarla utilizando un comando de tipo mensaje. Tenga en cuenta que si su acceso a Internet está en HTTPS sin firmar, esta funcionalidad no funcionará. Se requiere HTTP o HTTPS firmado.
+- **Relación** (report) : Le permite exportar una vista en formato (PDF, PNG, JPEG o SVG) y enviarla utilizando un comando de tipo mensaje. Tenga en cuenta que si su acceso a Internet está en HTTPS sin firmar, esta funcionalidad no funcionará. Se requiere HTTP o HTTPS firmado. El "retraso" está en milisegundos (ms).
 - **Eliminar bloque IN / A programado** (eliminar_inat) : Le permite eliminar la programación de todos los bloques IN y A del escenario.
 - **Evento** (event) : Le permite insertar un valor en un comando de tipo de información arbitrariamente.
 - **Etiquetas** (tag) : Le permite agregar / modificar una etiqueta (la etiqueta solo existe durante la ejecución actual del escenario a diferencia de las variables que sobreviven al final del escenario).
@@ -504,7 +514,7 @@ Además de los comandos de automatización del hogar, tiene acceso a las siguien
 
 Esta funcionalidad le permite transformar un escenario en una plantilla para, por ejemplo, aplicarlo a otro Jeedom.
 
-Haciendo clic en el botón **Plantilla** en la parte superior de la página, abre la ventana de administración de plantillas.
+Haciendo clic en el botón **Modelo** en la parte superior de la página, abre la ventana de administración de plantillas.
 
 A partir de ahí, tienes la posibilidad :
 
@@ -516,7 +526,7 @@ A partir de ahí, tienes la posibilidad :
 Al hacer clic en una plantilla, puede :
 
 - **Compartir, repartir** : Comparta la plantilla en el mercado.
-- **Eliminar** : Eliminar plantilla.
+- **Borrar** : Eliminar plantilla.
 - **Descargar** : Obtenga la plantilla como un archivo JSON para enviarla a otro Jeedom, por ejemplo.
 
 A continuación, tiene la parte para aplicar su plantilla al escenario actual.
