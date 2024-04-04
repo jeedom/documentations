@@ -1,8 +1,24 @@
 # Changelog Mobile App
 
->**Wichtig**
+> **Wichtig**
 >
->Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
+> Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
+
+
+
+# 15.12.2023
+
+- Aufmerksamkeit : Erhebliche Code-Umgestaltung : Das zuvor auf der AppV2 gespeicherte benutzerdefinierte Menü kann möglicherweise nicht mehr gespeichert werden.
+- Eine Funktion zum Speichern von Menüs im Plugin wird hinzugefügt
+
+
+# 22.10.2023
+
+- Geolokalisierungsaktualisierung der v2-App behoben
+
+# 10.12.2023
+
+- Aktualisiert, um die neue mobile Anwendung zu berücksichtigen
 
 # 09.06.2023
 
@@ -14,13 +30,11 @@
 - PR von PHPVarious
 - Beheben Sie kleinere Fehler
 
-
 # 10.05.2023
 
 - GeoLoc V2-Befehle
 - Entfernen Sie den mobilen RNA-Teil von AppV2
 - Aktualisieren Sie mobile.api
-
 
 # 10.01.2023
 
