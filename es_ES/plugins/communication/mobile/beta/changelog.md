@@ -4,7 +4,8 @@
 >
 > Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-
+# 05/04/2023
+Compatible solo con los 4.4 núcleos o superior.
 
 # 15/12/2023
 

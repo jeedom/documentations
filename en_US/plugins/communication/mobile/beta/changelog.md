@@ -4,7 +4,8 @@
 >
 > As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-
+# 04/05/2023
+Compatible only with the 4.4 core or higher.
 
 # 15/12/2023
 
