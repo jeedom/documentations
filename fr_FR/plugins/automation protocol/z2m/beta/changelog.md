@@ -4,6 +4,8 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+- Correction d'un bug sur duplication de commande (sur les scenes)
+
 # 03/04/2024
 
 - Correction d'un bug sur l'image de la derniere version de zigbee2mqtt

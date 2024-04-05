@@ -4,6 +4,8 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Ein Fehler bei der Befehlsduplizierung (in Szenen) wurde behoben)
+
 # 03.04.2024
 
 - Ein Fehler im Image der neuesten Version von zigbee2mqtt wurde behoben

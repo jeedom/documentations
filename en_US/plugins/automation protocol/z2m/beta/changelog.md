@@ -4,6 +4,8 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+- Fixed a bug on command duplication (on scenes)
+
 # 03/04/2024
 
 - Fixed a bug on the image of the latest version of zigbee2mqtt
