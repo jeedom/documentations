@@ -6,6 +6,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 04.04.2024
+
+- Ein Problem mit der Lesbarkeit des Widgets wurde behoben (#15)
+
 # 01.08.2024
 
 - Vorbereitung auf Jeedom 4.4

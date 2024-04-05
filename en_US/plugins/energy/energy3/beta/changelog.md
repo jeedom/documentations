@@ -6,6 +6,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 04/04/2024
+
+- Fixed a widget readability issue (#15)
+
 # 01/08/2024
 
 - Preparing for jeedom 4.4
