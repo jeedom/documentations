@@ -1,7 +1,7 @@
 {
 	"id" : "govee",
 	"name" : "Govee",
-	"description" : "Plugin permettant de piloter les équipements Govee",
+	"description" : "Plugin permettant de piloter les équipements Govee (gratuit depuis le 07/04/2024)",
 	"licence" : "AGPL",
 	"author" : "Jexou",
 	"require" : "4.2",
