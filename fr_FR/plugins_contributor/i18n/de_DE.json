@@ -157,6 +157,8 @@
         "Plugin pour le support de l'assistant vocal Rhasspy dans Jeedom": "Plugin zur Unterstützung des Rhasspy-Sprachassistenten in Jeedom",
         "JeeMate utilise les types génériques de Jeedom": "JeeMate verwendet generische Jeedom-Typen",
         "JeeMate est une application mobile compatible avec Jeedom": "JeeMate ist eine mobile Anwendung, die mit Jeedom kompatibel ist",
+        "Ios Icloud": "Ios Icloud",
+        "Plugin pour récupérer les infos d'un compte icloud permettant de récupérer la localisation, émettre un son": "Plugin zum Abrufen von Informationen aus einem iCloud-Konto, sodass Sie den Standort abrufen und einen Ton abspielen können",
         "Ces informations ne sont pas toutes gérées par Informe, mais Informe les récupère des autres plugins (de localisation, Blea, Jeemate, Présence, Alarme, …": "Diese Informationen werden nicht alle von Informe verwaltet, aber Informe ruft sie von anderen Plugins ab (Standort, Blea, Jeemate, Präsenz, Alarm usw.)",
         "Ce plugin va vous permettre de simplifier vos scénarios": "Mit diesem Plugin können Sie Ihre Szenarien vereinfachen",
         "Infos & Localisation": "Info & Lage",
