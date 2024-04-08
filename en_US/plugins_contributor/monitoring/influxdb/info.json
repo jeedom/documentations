@@ -1,21 +1,33 @@
 {
-	"id" : "influxdb",
-	"name" : "InfluxDB",
-	"description" : "Plugin permettant la connexion à une DB InfluxDB v1 ou v2. Il permet d'envoyer facilement les informations voulues en sélectionnant simplement les commandes correspondantes dans une liste ce qui permet d'externaliser l'historique qui peut ensuite être consulté via Grafana par exemple.",
-	"utilization" : "",
-	"licence" : "AGPL",
-	"author" : "Mips",
-	"require" : "3.3.24",
-	"category" : "monitoring",
-	"hasDependency" : false,
-	"hasOwnDeamon" : false,
-	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://mips2648.github.io/jeedom-plugins-docs/influxdb/#language#/changelog",
-	"documentation" : "https://mips2648.github.io/jeedom-plugins-docs/influxdb/#language#/",
-	"link" : {
-		"forum":"https://community.jeedom.com/tags/plugin-influxdb",
-		"video" : ""
+	"id": "influxdb",
+	"name": "InfluxDB",
+	"description": "Plugin permettant la connexion à une DB InfluxDB v1 ou v2. Il permet d'envoyer facilement les informations voulues en sélectionnant simplement les commandes correspondantes dans une liste ce qui permet d'externaliser l'historique qui peut ensuite être consulté via Grafana par exemple.",
+	"utilization": "",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.2",
+	"category": "monitoring",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/influxdb/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/influxdb/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/influxdb/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/influxdb/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-influxdb",
+		"video": ""
 	},
-	"language" : ["fr_FR", "en_US"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
 }

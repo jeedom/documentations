@@ -5,15 +5,17 @@
 	"utilization": "Vous devez avoir un compte utilisateur Miele avec au moins un appareil compatible Miele@Home lié et activer l'accès API (voir documentation)",
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.0",
+	"require": "4.2",
 	"category": "devicecommunication",
 	"hasDependency": false,
 	"hasOwnDeamon": false,
 	"maxDependancyInstallTime": 0,
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/miele/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/miele/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/miele/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/miele/#language#/",
 	"link": {
-		"forum": "https://community.jeedom.com/tags/plugin-miele",
+		"forum": "https://community.jeedom.com/tag/plugin-miele",
 		"video": ""
 	},
 	"language": [
