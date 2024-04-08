@@ -1,21 +1,21 @@
 {
 	"id": "vaillantmultimatic",
-	"name": "Vaillant multiMATIC",
-	"description": "Plugin permettant de se connecter à un système Vaillant multiMATIC via sa passerelle internet. Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler: définir le mode (On, Off, Auto...), définir les températures de consigne, activer un mode rapide, activer une marche forcée... Les vannes et les thermostats de la gamme ambiSENSE reliées au système sont également gérés.",
-	"utilization": "Il est nécessaire d'avoir une passerelle internet et un régulateur Vaillant compatibles avec le système multiMATIC.",
+	"name": "myVaillant",
+	"description": "Plugin permettant de se connecter à un système myVaillant, qui remplace nottament sensoApp & multiMATIC, (compatible avec les marques Bulex, Saunier Duval, Vaillant) via sa passerelle internet. Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler: définir le mode (On, Off, Auto...), définir les températures de consigne, activer un mode rapide, activer une marche forcée... Les vannes et les thermostats de la gamme ambiSENSE reliées au système sont également gérés.",
+	"utilization": "Il est nécessaire d'avoir une passerelle internet et un régulateur Vaillant compatibles avec le système myVaillant.",
 	"licence": "AGPL",
 	"author": "Mips",
 	"require": "4.2",
 	"category": "wellness",
 	"hasDependency": true,
 	"hasOwnDeamon": true,
-	"maxDependancyInstallTime": 30,
+	"maxDependancyInstallTime": 60,
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/#language#/",
 	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/#language#/changelog",
 	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/#language#/",
 	"link": {
-		"forum": "https://community.jeedom.com/tags/plugin-vaillantmultimatic",
+		"forum": "https://community.jeedom.com/tag/plugin-vaillantmultimatic",
 		"video": ""
 	},
 	"language": [
@@ -25,6 +25,7 @@
 	"compatibility": [
 		"smart",
 		"atlas",
+		"luna",
 		"rpi",
 		"docker",
 		"diy",
