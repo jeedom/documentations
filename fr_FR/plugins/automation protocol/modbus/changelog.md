@@ -6,6 +6,8 @@
 
 
 
+
+
 # 03/02/2022
 
 - Version Beta, compatible 4.2.7
@@ -66,3 +68,8 @@
 # 07/02/2024
 
 - Fix Packages for Debian10
+
+
+# 09/04/2024
+
+- Fix parameters UI
