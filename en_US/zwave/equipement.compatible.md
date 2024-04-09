@@ -401,6 +401,7 @@
 |<img src="../../en_US/zwave/images/271.769.4097_fgrm222.roller.shutter.controller.jpg" width="60" />|Fibaro|FGRM-222 Roller shutter|Volets|New name of the FGRM-221 module|[Documentation](https://doc.jeedom.com/en_US/zwave/fibaro.fgrm222_-_Volets)<br/>[Buy](http://www.domadoo.fr/fr/peripheriques/2604-fibaro-micromodule-pour-volet-roulant-z-wave-fgrm-222-5902020528227.html)|
 |<img src="../../en_US/zwave/images/271.770.4096_fgr222.roller.shutter.controller.jpg" width="60" />|Fibaro|FGR-222 Roller shutter|Volets|New name of the FGR-221 module|[Documentation](https://doc.jeedom.com/en_US/zwave/fibaro.fgr222_-_Volets)<br/>[Buy](http://www.domadoo.fr/fr/peripheriques/3250-fibaro-micromodule-pour-volet-roulant-z-wave-fgr-222.html)|
 |<img src="../../en_US/zwave/images/271.771.4096_fgr223.roller.shutter.controller.jpg" width="60" />|Fibaro|FGR-223 Roller shutter|Volets|New name of the FGR-222 module|[Buy](https://www.domadoo.fr/fr/peripheriques/4737-fibaro-micromodule-pour-volet-roulant-z-wave-fibaro-roller-shutter-3-fgr-223-5905279987197.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zwave/images/271.772.4096_fgr224.roller.shutter.controller.png" width="60" />|Fibaro|FGR-224 Rolling shutter|Volets|||
 |<img src="../../en_US/zwave/images/271.7937.4096_fgwof011.walli.outlet.type.f.jpg" width="60" />|Fibaro|FGWOF-011 Walli Outlet Type F|Prise||[Buy](https://www.domadoo.fr/fr/peripheriques/4852-fibaro-prise-murale-intelligente-z-wave-fibaro-walli-outlet-type-f-schuko-5902701701345.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zwave/images/271.8961.4096_walli.controller.jpg" width="60" />|Fibaro|Walli Controller|Controller, Remote control||[Documentation](https://manuals.fibaro.com/walli-controller/)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5534-fibaro-interrupteur-mural-sans-fil-z-wave-700-fibaro-walli-controller-5902701702076.html)|
 
@@ -937,4 +938,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2024-04-08 02:08:07
+2024-04-09 02:08:07
