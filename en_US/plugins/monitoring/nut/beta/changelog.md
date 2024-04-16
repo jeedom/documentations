@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+## 04/16/2024
+
+- Fix the version of a dependency (pynut3)
+
 ## 01/25/2023
 
 - Python3 migration

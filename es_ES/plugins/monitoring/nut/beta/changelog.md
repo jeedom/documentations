@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+## 16/04/2024
+
+- Arreglar la versión de una dependencia (pynut3)
+
 ## 25/01/2023
 
 - Migración de python3
