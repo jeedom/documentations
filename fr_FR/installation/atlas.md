@@ -18,15 +18,13 @@ Jeedom propose un service avec abonnement de sauvegarde automatique sur cloud pr
 ## Fonctionnement du recovery mode
 
 >**Note**
->
 >Pensez à mettre de côté (en local) une sauvegarde de configuration Jeedom
 
 >**Important**
->
 >L'application d'un Recovery entraine un changement de l'adresse MAC de votre box Jeedom. Il faudra alors changer votre réservation d'IP dans la configuration de votre serveur DHCP si vous en avez.
 
 >**Important**
-Suivant si vous avez encore accès ou non à votre box, la procédure n'est pas la même.
+>Suivant si vous avez encore accès ou non à votre box, la procédure n'est pas la même.
 
 
 
