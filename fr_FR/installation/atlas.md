@@ -25,8 +25,8 @@ Jeedom propose un service avec abonnement de sauvegarde automatique sur cloud pr
 >
 >L'application d'un Recovery entraine un changement de l'adresse MAC de votre box Jeedom. Il faudra alors changer votre réservation d'IP dans la configuration de votre serveur DHCP si vous en avez.
 
->**Note**
-IMPORTANT : Suivant si vous avez encore accès ou non à votre box, la procédure n'est pas la même.
+>**Important**
+Suivant si vous avez encore accès ou non à votre box, la procédure n'est pas la même.
 
 
 
