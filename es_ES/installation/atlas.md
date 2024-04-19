@@ -21,9 +21,13 @@ Jeedom ofrece un servicio con suscripción de copia de seguridad automática en 
 >
 >Recuerde reservar (localmente) una copia de seguridad de la configuración de Jeedom
 
+>**IMPORTANTE**
+>
+>La aplicación de una recuperación provoca un cambio en la dirección MAC de su caja Jeedom. Luego deberá cambiar su reserva de IP en la configuración de su servidor DHCP, si tiene uno.
 
->**Nota**
-IMPORTANTE : Dependiendo de si sigues teniendo o no acceso a tu caja, el procedimiento no es el mismo.
+>**IMPORTANTE**
+>
+>Dependiendo de si sigues teniendo o no acceso a tu caja, el procedimiento no es el mismo.
 
 
 

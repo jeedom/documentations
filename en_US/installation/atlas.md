@@ -21,9 +21,13 @@ Jeedom offers a service with automatic backup subscription on Jeedom private clo
 >
 >Remember to set aside (locally) a Jeedom configuration backup
 
+>**IMPORTANT**
+>
+>Applying a Recovery leads to a change in the MAC address of your Jeedom box. You will then need to change your IP reservation in the configuration of your DHCP server if you have one.
 
->**Note**
-IMPORTANT : Depending on whether or not you still have access to your box, the procedure is not the same.
+>**IMPORTANT**
+>
+>Depending on whether or not you still have access to your box, the procedure is not the same.
 
 
 

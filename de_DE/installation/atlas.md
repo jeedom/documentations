@@ -21,9 +21,13 @@ Jeedom bietet einen Service mit automatischem Backup-Abonnement in der privaten 
 >
 >Denken Sie daran, (lokal) ein Jeedom-Konfigurations-Backup zu erstellen
 
+>**WICHTIG**
+>
+>Das Anwenden einer Wiederherstellung führt zu einer Änderung der MAC-Adresse Ihrer Jeedom-Box. Anschließend müssen Sie Ihre IP-Reservierung in der Konfiguration Ihres DHCP-Servers ändern, sofern Sie einen haben.
 
->**Notiz**
-WICHTIG : Je nachdem, ob Sie noch Zugriff auf Ihre Box haben oder nicht, ist die Vorgehensweise unterschiedlich.
+>**WICHTIG**
+>
+>Je nachdem, ob Sie noch Zugriff auf Ihre Box haben oder nicht, ist die Vorgehensweise unterschiedlich.
 
 
 
