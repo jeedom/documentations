@@ -6,6 +6,9 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
 
+- Mejor gestión de errores en los equipos
+- Actualización mejorada de valores
+
 # 05/02/2024
 
 - Arreglo del fallo

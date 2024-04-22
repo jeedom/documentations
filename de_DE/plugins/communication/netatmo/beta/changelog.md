@@ -6,6 +6,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Besseres Fehlermanagement an Geräten
+- Verbesserte Aktualisierung von Werten
+
 # 05.02.2024
 
 - Bug-Fix

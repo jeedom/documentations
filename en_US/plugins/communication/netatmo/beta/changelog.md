@@ -6,6 +6,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
 
+- Better error management on equipment
+- Improved updating of values
+
 # 02/05/2024
 
 - Bugfix

@@ -6,6 +6,9 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+- Meilleure gestion des erreurs sur les équipements
+- Amélioration de la mise à jour des valeurs
+
 # 05/02/2024
 
 - Correction de bugs

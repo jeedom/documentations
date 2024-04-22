@@ -6,6 +6,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+- Melhor gerenciamento de erros nos equipamentos
+- Melhor atualização de valores
+
 # 05/02/2024
 
 - Correção de bug

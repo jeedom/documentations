@@ -4,7 +4,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 22/04/2024
+
 - Corrigido um bug na duplicação de comandos (em cenas)
+- Corrigido um bug em controles deslizantes com valor negativo
 
 # 03/04/2024
 

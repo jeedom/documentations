@@ -4,7 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 04/22/2024
+
 - Fixed a bug on command duplication (on scenes)
+- Fixed a bug on sliders with negative value
 
 # 03/04/2024
 
