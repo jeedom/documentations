@@ -1438,7 +1438,7 @@
         "Le fichier plugin-template": "El archivo de plantilla de plugin",
         "js et la plupart des pages du Core utilisent maintenant ces fonctions": "js y la mayoría de las páginas Core ahora usan estas funciones",
         "Vous pouvez bien sûr les utiliser dans les plugins, mais ceux-ci devront alors être installé sur un Core 4": "Por supuesto, puede usarlos en complementos, pero estos deberán instalarse en un Core 4",
-        "4 minimum": "4 mínimo",
+        "4 minimum": "4 o más",
         "fonctions DOM propres au Core": "Funciones DOM específicas del núcleo",
         "Doc Core js": "DocCore js",
         "Fonction php": "Función PHP",
