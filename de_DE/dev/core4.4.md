@@ -82,7 +82,7 @@ Einige Beispiele:
 
 </details>
 
-Die Plugin-Template-Datei.js und die meisten Core-Seiten verwenden diese Funktionen jetzt. Sie können sie natürlich in Plugins verwenden, aber diese müssen dann auf einem Core 4 installiert werden.4 oder mehr.
+Die Plugin-Template-Datei.js und die meisten Core-Seiten verwenden diese Funktionen jetzt. Sie können sie natürlich in Plugins verwenden, aber diese müssen dann auf einem Core 4 installiert werden.Mindestens 4.
 
 Core-spezifische DOM-Funktionen:
 

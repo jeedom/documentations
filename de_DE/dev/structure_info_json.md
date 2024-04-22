@@ -17,6 +17,7 @@ Felder                   | Werte                                                
 ``licence`` *                | Art der Lizenz.                                                                                                          |
 ``author`` *                 | Name des Plugin-Autors, der nach der Installation des Plugins in den Plugin-Informationen angezeigt wird.         |
 ``require`` *                | Erforderliche Mindestversion von Jeedom (Core).                                                                                                |
+``requireOsVersion``                 | Mindestens erforderliche Debian-Version zur Aktivierung des Plugins.(Kern 4.4.Mindestens 4)                                                                                               |
 ``category`` *               | Ranking-Kategorie des Plugins auf dem Jeedom Market. **Es ist unbedingt zu respektieren [Nomenklatur der Tabelle unten](https://doc.jeedom.com/de_DE/dev/structure_info_json/#NOMENCLATURE%20CATEGORIES)** |
 ``display``                  | Wenn das Plugin ein dediziertes Panel auf dem Desktop verwendet,. Dies ist der Name der Hauptdatei für dieses Panel.                    |
 ``mobile``                   | Wenn das Plugin ein dediziertes Panel auf der Jeedom-WebApp verwendet. Dies ist der Name der Hauptdatei für dieses Panel.   |

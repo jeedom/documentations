@@ -8,7 +8,11 @@
 
 - Complete redesign of the plugin
 - Use of a new data source, no need for an account on your side, everything goes through the Jeedom cloud
-- Preparing for jeedom 4.4
+- Bug fixes on Jeedom 4.4
+
+>**Important**
+>
+>The plugin uses a new data source (via the jeedom cloud) it is possible that certain commands change (or no longer exist) and that new ones are created. In case of problems, it is recommended to delete the weather equipment and create new ones.
 
 # 01/19/2023
 

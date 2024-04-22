@@ -8,7 +8,11 @@
 
 - Refonte complete du plugin
 - Utilisation d'une nouvelle source de données, plus besoin de compte de votre coté tout passe par le cloud Jeedom
-- Préparation pour jeedom 4.4
+- Correction de bugs sur Jeedom 4.4
+
+>**IMPORTANT**
+>
+>Le plugin utilisant une nouvelle sources de données (passant par le cloud jeedom) il est possible que certaine commande change (ou n'existe plus) et que de nouvelles soient crées. En cas de soucis il est recommandé de supprimer les équipements météo et d'en crée de nouveau.
 
 # 19/01/2023
 

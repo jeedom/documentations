@@ -82,7 +82,7 @@ Algunos ejemplos:
 
 </details>
 
-El archivo de plantilla de plugin.js y la mayoría de las páginas Core ahora usan estas funciones. Por supuesto, puede usarlos en complementos, pero estos deberán instalarse en un Core 4.4 o más.
+El archivo de plantilla de plugin.js y la mayoría de las páginas Core ahora usan estas funciones. Por supuesto, puede usarlos en complementos, pero estos deberán instalarse en un Core 4.4 mínimo.
 
 Funciones DOM específicas del núcleo:
 

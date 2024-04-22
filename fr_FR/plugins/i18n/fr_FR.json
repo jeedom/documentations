@@ -697,9 +697,8 @@
         "Changelog": "Changelog"
     },
     "plugins\/weather\/index.md": {
-        "Vous vouliez acheter une station météo, ce plugin vous fera sûrement changer d'avis": "Vous vouliez acheter une station météo, ce plugin vous fera sûrement changer d'avis",
         "Weather": "Weather",
-        "Ce plugin permet de récuperer les informations météorologiques de la ville de votre choix telles que les conditions météorologiques et les températures actuelles et des jours à venir, le taux d'humidité, la force du vent et sa direction, les heures de lever et coucher du soleil et plus encore": "Ce plugin permet de récuperer les informations météorologiques de la ville de votre choix telles que les conditions météorologiques et les températures actuelles et des jours à venir, le taux d'humidité, la force du vent et sa direction, les heures de lever et coucher du soleil et plus encore",
+        "Ce plugin permet de récupérer les informations météorologiques du lieu de votre choix telles que les conditions et les températures actuelles et des jours à venir, le taux d'humidité, la force du vent et sa direction, les heures de lever et coucher du soleil et bien plus encore... Vous vouliez acheter une station météo": "Ce plugin permet de récupérer les informations météorologiques du lieu de votre choix telles que les conditions et les températures actuelles et des jours à venir, le taux d'humidité, la force du vent et sa direction, les heures de lever et coucher du soleil et bien plus encore... Vous vouliez acheter une station météo",
         "Publie Meteo": "Publie Meteo",
         "Netatmo Station": "Netatmo Station",
         "Permet de récupérer les informations des stations météo Netatmo": "Permet de récupérer les informations des stations météo Netatmo",
@@ -714,7 +713,8 @@
         "Documentation Beta": "Documentation Beta",
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
-        "Changelog Beta": "Changelog Beta"
+        "Changelog Beta": "Changelog Beta",
+        "Ce plugin vous fera sûrement changer d'avis": "Ce plugin vous fera sûrement changer d'avis"
     },
     "plugins\/wellness\/index.md": {
         "Thinking Cleaner": "Thinking Cleaner",

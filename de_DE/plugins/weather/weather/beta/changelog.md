@@ -8,7 +8,11 @@
 
 - Komplette Neugestaltung des Plugins
 - Nutzung einer neuen Datenquelle, kein Konto auf Ihrer Seite erforderlich, alles läuft über die Jeedom-Cloud
-- Vorbereitung auf Jeedom 4.4
+- Fehlerbehebungen für Jeedom 4.4
+
+>**Wichtig**
+>
+>Das Plugin verwendet eine neue Datenquelle (über die Jeedom-Cloud). Es ist möglich, dass sich bestimmte Befehle ändern (oder nicht mehr existieren) und neue erstellt werden. Bei Problemen empfiehlt es sich, die Wettergeräte zu löschen und neue anzulegen.
 
 # 19.01.2023
 

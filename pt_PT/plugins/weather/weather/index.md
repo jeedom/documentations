@@ -1,39 +1,46 @@
-# Weather Plugin
+# Plugin de clima
 
-O plugin Weather permite recuperar dados climáticos de uma ou mais cidades. Entre outras coisas, fornece informações sobre nascer e pôr do sol, temperatura, previsão, vento, etc. As informações recuperadas vêm do site openweathermap.
+O plugin **Clima** permite que você recupere dados meteorológicos de uma ou mais cidades.
 
-# Configuração do plugin
-
-Depois de instalar o plug-in, você deve ativá-lo e inserir sua chave de API.
-
-Para obter sua chave de API, você precisa ir [aqui](https://home.openweathermap.org), crie uma conta e copie sua chave de API para a área fornecida na página de configuração do plug-in.
-
-> **IMPORTANTE**
->
-> Você precisa esperar algumas horas depois até que a chave esteja ativa para poder recuperar informações
-
-# Configuração do equipamento
-
-Aqui você encontra toda a configuração do seu equipamento :
-
--   **Equipamentos clima nome** : nome do seu equipamento meteorológico
--   **Ativar** : torna seu equipamento ativo
--   **Visivél** : torna seu equipamento visível no painel
--   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence
--   **Cidade** : Você deve colocar o nome da sua cidade seguido pelo código do país, ex : Paris, fr
--   **Exibição móvel completa** : exibe todas as informações meteorológicas ou não no celular
-
-Abaixo, você encontrará todos os comandos disponíveis, além da possibilidade de histórico ou não dos valores numéricos. O código (número), dependendo das condições, está disponível [aqui](https://openweathermap.org/weather-conditions)
-
-Os dados meteorológicos são atualizados a cada 30 minutos.
-
-> **Dica**
->
-> Aconselhamos que você vá [aqui](https://openweathermap.org/find?) para verificar se sua cidade, vila é conhecida ou não. Nesse caso, você terá que encontrar a cidade conhecida mais próxima e inseri-la na configuração do seu equipamento para poder recuperar as informações.
-
-> **Dica**
->
-> Une fois la recherche de votre ville réussie le site openweathermap vous montre les informations disponibles et vous devriez avoir dans votre navigateur une url du type <https://openweathermap.org/city/2988507>. Esse número no final da URL também pode ser inserido no equipamento Jeedom em vez de Paris, fr por exemplo
+Esses dados são atualizados a cada 30 minutos.
 
 >**IMPORTANTE**
->O OpenWeather fornece uma lista de informações pelas próximas 120 horas; portanto, com base no tempo atual, sabemos apenas parte das informações em D + 4. Assim, essa previsão em D + 4 é refinada para se tornar mais precisa à medida que o dia atual progride. Por esse motivo, certas informações, como a temperatura MAX atingida em D + 4, só fazem sentido no final do dia.
+>
+>Após a configuração e ativação do equipamento, é absolutamente necessário lançar uma atualização manual de dados para que o plugin seja atualizado ou aguardar 30min para a atualização automática
+
+# Configuration
+
+## Configuração do plug-in
+
+Este plugin não requer nenhuma configuração especial e simplesmente precisa ser ativado após a instalação.
+
+## Configuração do equipamento
+
+O equipamento meteorológico é acessível a partir do menu **Plugins → Clima → Clima**.
+
+>**EM FORMAÇÃO**
+>
+>O botão **acrescentar** permite adicionar um novo equipamento Meteorológico.
+
+Clicar em um dispositivo leva você diretamente para sua página de configuração :
+
+- **Nome do equipamento** : Equipamentos clima nome.
+- **Objeto pai** : Indica o objeto pai ao qual o equipamento pertence.
+- **Categoria** : Permite escolher a categoria do equipamento.
+- **Opções** :
+    - **Ativar** : Permite ativar o equipamento.
+    - **Visivél** : Torna o equipamento visível.
+    - **Exibição móvel completa** : Marcar a caixa permite exibir todas as informações meteorológicas em celulares.
+    - **Modo de imagem** : Marque a caixa para exibir imagens em vez de ícones no widget.
+
+Em seguida, você precisará inserir as coordenadas GPS do local de onde deseja recuperar as informações meteorológicas :
+
+- **Latitude** : Latitude do local cujo clima você deseja recuperar *(Sob o formulário XX.XXXXXXX)*.
+- **Longitude** : Longitude do local cujo clima você deseja recuperar *(Sob o formulário XX.XXXXXXX)*.
+
+Ao clicar na guia **Comandos**, encontramos a lista de todos os comandos disponíveis, bem como a possibilidade de registrar os valores numéricos.
+
+
+## Código do tempo
+
+Você encontrará [aqui](https://www.weatherapi.com/docs/weather_conditions.json) o significado dos diferentes códigos meteorológicos

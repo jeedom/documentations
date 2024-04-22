@@ -2,7 +2,39 @@
 
 >**IMPORTANT**
 >
->Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+>S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
+
+# 22/02/2024
+
+- Refonte complete du plugin
+- Utilisation d'une nouvelle source de données, plus besoin de compte de votre coté tout passe par le cloud Jeedom
+- Correction de bugs sur Jeedom 4.4
+
+>**IMPORTANT**
+>
+>Le plugin utilisant une nouvelle sources de données (passant par le cloud jeedom) il est possible que certaine commande change (ou n'existe plus) et que de nouvelles soient crées. En cas de soucis il est recommandé de supprimer les équipements météo et d'en crée de nouveau.
+
+# 19/01/2023
+
+- Révision des templates de widgets desktop en pur javascript
+- Prise en charge de l'affichage du graphique de fond de tuile
+- Version minimale du core Jeedom requise : 4.2
+
+# 24/01/2022
+
+- Optimisations V4.2
+
+# 26/05/2021
+
+- Nouveau widget "direction du vent"
+
+# 13/04/2021
+
+- Refonte complète du plugin
+
+>**INFORMATION**
+>
+>Suite à cette mise à jour, il sera nécessaire de reconfigurer les équipements **Weather** afin de renseigner les latitudes et longitudes du lieu dont les informations météorologiques sont à récupérer.
 
 # 11/11/2020
 
@@ -36,4 +68,4 @@
 
 # 28/01/2019
 
-- Le widget peut être redimmensionné
+- Le widget peut être redimensionné

@@ -1603,8 +1603,7 @@
         " Changelog*": " Änderungsprotokoll*"
     },
     "plugins\/weather\/index.md": {
-        "Vous vouliez acheter une station météo, ce plugin vous fera sûrement changer d'avis": "Sie wollten eine Wetterstation kaufen, dieses Plugin wird Sie sicherlich dazu bringen, Ihre Meinung zu ändern",
-        "Ce plugin permet de récuperer les informations météorologiques de la ville de votre choix telles que les conditions météorologiques et les températures actuelles et des jours à venir, le taux d'humidité, la force du vent et sa direction, les heures de lever et coucher du soleil et plus encore": "Mit diesem Plugin können Sie die Wetterinformationen der Stadt Ihrer Wahl abrufen, z. B. die Wetterbedingungen und die aktuellen Temperaturen und die kommenden Tage, die Luftfeuchtigkeitsrate, die Kraft des Windes und seine Richtung, die Zeiten von Sonnenaufgang und Sonnenuntergang. Sonne und mehr",
+        "Ce plugin permet de récupérer les informations météorologiques du lieu de votre choix telles que les conditions et les températures actuelles et des jours à venir, le taux d'humidité, la force du vent et sa direction, les heures de lever et coucher du soleil et bien plus encore... Vous vouliez acheter une station météo": "Mit diesem Plugin können Sie Wetterinformationen von einem Ort Ihrer Wahl abrufen, z. B. aktuelle und zukünftige Bedingungen und Temperaturen, Luftfeuchtigkeit, Windstärke und -richtung, Sonnenauf- und -untergangszeiten und vieles mehr ... Sie wollten eine Wetterstation kaufen",
         "Publie Meteo": "Wetter veröffentlichen",
         "Netatmo Station": "Netatmo Station",
         "Permet de récupérer les informations des stations météo Netatmo": "Ermöglicht das Abrufen von Informationen von Netatmo-Wetterstationen",
@@ -1617,6 +1616,7 @@
         "Documentation Beta": "Beta-Dokumentation",
         "Changelog Stable": "Änderungsprotokoll stabil",
         "Changelog Beta": "Änderungsprotokoll Beta",
+        "Ce plugin vous fera sûrement changer d'avis": "Dieses Plugin wird Ihre Meinung sicherlich ändern",
         " Weather.": " Wetter.",
         " Weather?": " Wetter?",
         "Weather ": "Wetter ",

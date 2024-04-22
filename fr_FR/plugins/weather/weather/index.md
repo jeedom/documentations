@@ -1,42 +1,46 @@
 # Plugin Weather
 
-Le plugin **Weather** permet de récupérer les données météorologiques d'une ou plusieurs villes. Il donne accès, entre autre, aux prévisions météorologiques, aux informations de lever et coucher du soleil, de température, d'humidité, de vent, etc... Les informations proviennent du site internet **openweathermap**.
+Le plugin **Weather** permet de récupérer les données météorologiques d'une ou plusieurs villes.
 
-# Configuration du plugin
-
-Après avoir installé le plugin, il faut l’activer puis renseigner votre clef api.
-
-Pour obtenir votre clef api il faut aller [ici](https://home.openweathermap.org), créer un compte et ensuite il faut copier votre clef api dans la zone prévue sur la page de configuration du Plugin.
-
-> **Important**
->
-> Il faut attendre quelques heures avant de pouvoir récupérer des informations suite à la création du compte, le temps que la clef soit active.
-
-# Configuration des équipements
-
-Vous retrouvez ici la configuration de votre équipement :
-
--   **Nom de l’équipement météo** : nom de votre équipement météo
--   **Activer** : permet de rendre votre équipement actif
--   **Visible** : rend votre équipement visible sur le dashboard
--   **Objet parent** : indique l’objet parent auquel appartient l’équipement
--   **Ville** : Il faut mettre le nom de votre ville suivi du code pays, *(ex : Paris,fr)*
-
--   **Affichage complet en mobile** : permet d’afficher toutes les informations météo ou non en mobile
--   **Mode image** : pour afficher des images à la place des icônes sur le widget
-
-
-En cliquant sur l'onglet **Commandes**, vous retrouvez toutes les commandes disponibles ainsi que la possibilité d’historiser ou non les valeurs numériques. Le code (numéro) en fonction des conditions est consultable [à cette adresse](https://openweathermap.org/weather-conditions)
-
-Le rafraîchissement des données météo s’effectue toutes les 30 minutes.
-
-> **Tip**
->
-> Nous vous conseillons de vous rendre [ici](https://openweathermap.org/find?) afin de vérifier si votre ville, village est connu ou pas. Auquel cas il faudra trouver la ville la plus proche connue et saisir cette dernière dans la configuration de votre équipement pour pouvoir récupérer les informations.
-
-> **Tip**
->
-> Une fois la recherche de votre ville réussie le site openweathermap vous montre les informations disponibles et vous devriez avoir dans votre navigateur une url du type <https://openweathermap.org/city/2988507>. Ce numéro à la fin de l’url peut également être saisi dans l’équipement Jeedom en lieu et place de Paris,fr par exemple
+Le rafraîchissement de ces données s’effectue toutes les 30 minutes.
 
 >**IMPORTANT**
->OpenWeather fournit une liste d'informations sur les 120 heures à venir ; de ce fait, en fonction de l’heure actuelle, nous ne connaissons qu’une partie des informations à J+4. Ainsi, cette prédiction à J+4 s'affine pour devenir plus précise au fur et à mesure de la journée courante. Pour cette raison, certaines informations, comme la température MAX atteinte à J+4 ne pourront faire sens qu'en fin de journée.
+>
+>Suite a la configuration et l'activation de l'équipement il faut absolument lancer une mise à jour manuel des données pour que le plugin se mette à jour ou attendre 30min pour la mise à jour automatique
+
+# Configuration
+
+## Configuration du plugin
+
+Ce plugin ne nécessite pas de configuration particulière et doit simplement être activé après l'installation.
+
+## Configuration des équipements
+
+Les équipements Météo sont accessibles à partir du menu **Plugins → Météo → Weather**.
+
+>**INFORMATION**
+>
+>Le bouton **+ Ajouter** permet d'ajouter un nouvel équipement Météo.
+
+En cliquant sur un équipement, on arrive directement sur sa page de configuration :
+
+- **Nom de l’équipement** : Nom de l'équipement Météo.
+- **Objet parent** : Indique l’objet parent auquel appartient l’équipement.
+- **Catégorie** : Permet de choisir la catégorie de l'équipement.
+- **Options** :
+    - **Activer** : Permet de rendre l'équipement actif.
+    - **Visible** : Rend l'équipement visible.
+    - **Affichage mobile complet** : Cocher la case permet d’afficher toutes les informations météo sur les mobiles.
+    - **Mode image** : Cocher la case pour afficher des images à la place d'icônes sur le widget.
+
+Il faudra ensuite renseigner les coordonnées GPS du lieu dont vous souhaitez récupérer les informations météorologiques :
+
+- **Latitude** : Latitude du lieu dont vous souhaitez récupérer la méteo *(sous la forme XX.XXXXXXX)*.
+- **Longitude** : Longitude du lieu dont vous souhaitez récupérer la méteo *(sous la forme XX.XXXXXXX)*.
+
+En cliquant sur l'onglet **Commandes**, on retrouve la liste de toutes les commandes disponibles ainsi que la possibilité d’historiser les valeurs numériques.
+
+
+## Code méteo
+
+Vous trouverez [ici](https://www.weatherapi.com/docs/weather_conditions.json) la signification des differents code météo

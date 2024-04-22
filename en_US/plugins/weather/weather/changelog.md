@@ -2,16 +2,49 @@
 
 >**Important**
 >
->As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+>If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
+
+# 02/22/2024
+
+- Complete redesign of the plugin
+- Use of a new data source, no need for an account on your side, everything goes through the Jeedom cloud
+- Preparing for jeedom 4.4
+
+# 01/19/2023
+
+- Revision of desktop widget templates in pure javascript
+- Support tile background graph display
+- Minimum Jeedom core version required : 4.2
+
+# 01/24/2022
+
+- V4.2 optimizations
+
+# 05/26/2021
+
+- New "wind direction" widget"
+
+# 04/13/2021
+
+- Complete redesign of the plugin
+
+>**INFORMATION**
+>
+>Following this update, it will be necessary to reconfigure the equipment **Weather** in order to provide the latitudes and longitudes of the place whose meteorological information is to be retrieved.
+
+# 11/11/2020
+
+- New presentation of the list of objects
+- Addition of the tag "V4 compatibility"
 
 # 01/07/2020
 
-- Increased connection timeout
+- Increased connection time
 
 # 11/14/2019
 
 - Widget improvement
-- Bug fix on triggering the sunrise / sunset
+- Bug fix on sunrise / sunset trigger
 
 # 10/03/2019
 
@@ -27,7 +60,7 @@
 
 # 08/01/2019
 
-- Support for php 7.3
+- Support for PHP 7.3
 
 # 01/28/2019
 

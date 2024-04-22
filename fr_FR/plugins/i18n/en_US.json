@@ -1603,8 +1603,7 @@
         " Changelog*": " Changelog*"
     },
     "plugins\/weather\/index.md": {
-        "Vous vouliez acheter une station météo, ce plugin vous fera sûrement changer d'avis": "You wanted to buy a weather station, this plugin will surely make you change your mind",
-        "Ce plugin permet de récuperer les informations météorologiques de la ville de votre choix telles que les conditions météorologiques et les températures actuelles et des jours à venir, le taux d'humidité, la force du vent et sa direction, les heures de lever et coucher du soleil et plus encore": "This plugin allows you to retrieve the weather information of the city of your choice such as the weather conditions and the current temperatures and the days to come, the humidity rate, the force of the wind and its direction, the times of sunrise and sunset. sun and more",
+        "Ce plugin permet de récupérer les informations météorologiques du lieu de votre choix telles que les conditions et les températures actuelles et des jours à venir, le taux d'humidité, la force du vent et sa direction, les heures de lever et coucher du soleil et bien plus encore... Vous vouliez acheter une station météo": "This plugin allows you to retrieve weather information from the location of your choice such as current and future conditions and temperatures, humidity level, wind strength and direction, sunrise and sunset times and much more... You wanted to buy a weather station",
         "Publie Meteo": "Publish Weather",
         "Netatmo Station": "Netatmo Station",
         "Permet de récupérer les informations des stations météo Netatmo": "Allows you to retrieve information from Netatmo weather stations",
@@ -1617,6 +1616,7 @@
         "Documentation Beta": "Beta Documentation",
         "Changelog Stable": "Changelog Stable",
         "Changelog Beta": "Changelog Beta",
+        "Ce plugin vous fera sûrement changer d'avis": "This plugin will surely change your mind",
         " Weather.": " Weather.",
         " Weather?": " Weather?",
         "Weather ": "Weather ",

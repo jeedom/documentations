@@ -17,6 +17,7 @@ Campos                   | Valores                                              
 ``licence`` *                | Tipo de licencia.                                                                                                          |
 ``author`` *                 | Nombre del autor del complemento, tal como se mostrará una vez que el complemento esté instalado, en la información del complemento.         |
 ``require`` *                | Versión mínima requerida de Jeedom (Core).                                                                                                |
+``requireOsVersion``                 | Versión mínima requerida de Debian para activar el complemento.(Núcleo 4.4.4 mínimo)                                                                                               |
 ``category`` *               | Categoría de clasificación del complemento en el mercado Jeedom. **Es imperativo respetar la [nomenclatura de la siguiente tabla](https://doc.jeedom.com/es_ES/dev/structure_info_json/#NOMENCLATURE%20CATEGORIES)** |
 ``display``                  | Si el complemento usa un panel dedicado en el escritorio,. Este es el nombre del archivo principal para este panel.                    |
 ``mobile``                   | Si el complemento usa un panel dedicado en la aplicación web Jeedom. Este es el nombre del archivo principal para este panel.   |

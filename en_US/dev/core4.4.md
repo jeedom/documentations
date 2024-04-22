@@ -82,7 +82,7 @@ Some examples:
 
 </details>
 
-The plugin-template file.js and most Core pages now use these functions. You can of course use them in plugins, but these will then have to be installed on a Core 4.4 or more.
+The plugin-template file.js and most Core pages now use these functions. You can of course use them in plugins, but these will then have to be installed on a Core 4.4 minimum.
 
 Core-specific DOM functions:
 

@@ -8,7 +8,11 @@
 
 - Rediseño completo del complemento
 - Uso de una nueva fuente de datos, no es necesario tener una cuenta a tu lado, todo pasa a través de la nube de Jeedom
-- Preparándose para el apuro 4.4
+- Corrección de errores en Jeedom 4.4
+
+>**Importante**
+>
+>El complemento utiliza una nueva fuente de datos (a través de la nube jeedom). Es posible que ciertos comandos cambien (o ya no existan) y que se creen otros nuevos. En caso de problemas, se recomienda eliminar los equipos meteorológicos y crear otros nuevos.
 
 # 19/01/2023
 

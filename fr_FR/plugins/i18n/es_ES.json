@@ -1603,8 +1603,7 @@
         " Changelog*": " Cambios*"
     },
     "plugins\/weather\/index.md": {
-        "Vous vouliez acheter une station météo, ce plugin vous fera sûrement changer d'avis": "Querías comprar una estación meteorológica, este plugin seguramente te hará cambiar de opinión",
-        "Ce plugin permet de récuperer les informations météorologiques de la ville de votre choix telles que les conditions météorologiques et les températures actuelles et des jours à venir, le taux d'humidité, la force du vent et sa direction, les heures de lever et coucher du soleil et plus encore": "Este complemento le permite recuperar la información meteorológica de la ciudad de su elección, como las condiciones climáticas y las temperaturas actuales y los días venideros, la tasa de humedad, la fuerza del viento y su dirección, las horas de salida y puesta del sol. sol y mas",
+        "Ce plugin permet de récupérer les informations météorologiques du lieu de votre choix telles que les conditions et les températures actuelles et des jours à venir, le taux d'humidité, la force du vent et sa direction, les heures de lever et coucher du soleil et bien plus encore... Vous vouliez acheter une station météo": "Este complemento le permite recuperar información meteorológica de la ubicación de su elección, como condiciones y temperaturas actuales y futuras, nivel de humedad, fuerza y dirección del viento, horas de salida y puesta del sol y mucho más... Querías comprar una estación meteorológica",
         "Publie Meteo": "Publicar el tiempo",
         "Netatmo Station": "Netatmo Station",
         "Permet de récupérer les informations des stations météo Netatmo": "Le permite recuperar información de las estaciones meteorológicas de Netatmo",
@@ -1617,6 +1616,7 @@
         "Documentation Beta": "Documentación beta",
         "Changelog Stable": "Registro de cambios estable",
         "Changelog Beta": "Registro de cambios Beta",
+        "Ce plugin vous fera sûrement changer d'avis": "Este complemento seguramente te hará cambiar de opinión",
         " Weather.": " Clima.",
         " Weather?": " Clima?",
         "Weather ": "Clima ",
