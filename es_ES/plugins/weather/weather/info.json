@@ -16,7 +16,7 @@
     "utilization": "Créez un équipement et indiquez la latitude et la longitude du lieu dont les informations météo sont à récupérer.",
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "4.2",
+    "require": "4.4",
     "category": "weather",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/weather\/changelog",
     "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/weather\/beta\/changelog",

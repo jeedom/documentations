@@ -8,7 +8,11 @@
 
 - Reformulação completa do plugin
 - Uso de uma nova fonte de dados, sem necessidade de conta do seu lado, tudo passa pela nuvem Jeedom
-- Preparando-se para Jeedom 4.4
+- Correções de bugs no Jeedom 4.4
+
+>**IMPORTANTE**
+>
+>O plugin utiliza uma nova fonte de dados (via jeedom cloud) é possível que determinados comandos mudem (ou deixem de existir) e que novos sejam criados. Em caso de problemas, recomenda-se excluir os equipamentos meteorológicos e criar novos.
 
 # 19/01/2023
 
