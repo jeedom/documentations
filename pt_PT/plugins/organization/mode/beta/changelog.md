@@ -4,6 +4,8 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
+- Possibilidade de ter ou não os comandos next, previous e replay
+
 # 15/01/2024
 
 - O comando correspondente é atualizado ao renomear um modo em vez de ser excluído

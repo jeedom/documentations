@@ -4,6 +4,8 @@
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
+- Possibility of having or not the next, previous and replay commands
+
 # 01/15/2024
 
 - The corresponding command is updated when renaming a mode instead of being deleted

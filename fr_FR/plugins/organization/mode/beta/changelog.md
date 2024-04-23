@@ -4,6 +4,8 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+- POssibilité d'avoir ou non les commandes suivante, precedent et rejouter
+
 # 15/01/2024
 
 - La commande correspondante est mise à jour lors du renommage d'un mode au lieu d'être supprimée

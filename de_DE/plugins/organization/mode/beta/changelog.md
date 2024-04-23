@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Möglichkeit, die nächsten, vorherigen und Wiederholungsbefehle zu haben oder nicht
+
 # 15.01.2024
 
 - Der entsprechende Befehl wird beim Umbenennen eines Modus aktualisiert und nicht gelöscht
