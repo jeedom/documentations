@@ -4,6 +4,7 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Fix für Jeedom 4.4
 - Fehlerbehebungen
 - Es wurde ein Problem mit der Neuplanung nach einer Wiederherstellung behoben, die 24 Stunden dauern konnte
 

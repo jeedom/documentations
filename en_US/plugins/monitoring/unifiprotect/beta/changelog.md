@@ -6,6 +6,8 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+- Added support for UVC G4 Doorbell Pro PoE and UP Chime PoE
+
 # 01/15/2024
 
 - Preparing for Jeedom 4.4
