@@ -61,11 +61,10 @@ Se abrirá un modal, donde aparecerán todos los comandos de tipo Info presentes
 >Su equipo debe estar Activo para que los comandos sean detectados en este modal.
 
 
-Debe agregar la unidad de Bacnet que desea inyectar en la instancia de Bacnet. Atención, es absolutamente necesario tener la misma sintaxis que las unidades disponibles en la lista de unidades, disponible haciendo clic en Ver Lista Unidades
+Debes agregar el'**Unidad Bacnet (Unidades de ingeniería)** que desea inyectar en la instancia de Bacnet. Tenga en cuenta que es absolutamente necesario tener la misma sintaxis que las unidades disponibles en la lista de unidades, disponibles en **Apéndice al final de esta documentación.**
+
 También debe nombrar el pedido, rellenando el campo previsto a tal efecto. 
 No ponga espacios en el nombre del comando
-
-![syntaxUnites](../images/BacnetServerList.png)
 
 ![syntaxCmds](../images/BacnetServersyntax.png)
 
@@ -147,3 +146,262 @@ Al hacer clic en este botón, descargará un archivo Json que contiene la config
 - Importar dispositivo :
 
 Al hacer clic en este botón, puede importar el archivo json de configuración de jeeBacnetServer que habría descargado, para usar los comandos que se configuraron en este
+
+# ANNEXE:
+
+# Lista de unidades de ingeniería BACnet)
+
+| Unidades de ingeniería               |
+|---------------------------------|
+| amperiossegundos                   |
+| amperioCuadradoHoras               |
+| amperiosMetros cuadrados              |
+| amperios                         |
+| amperios por metro                 |
+| amperios por metro cuadrado           |
+| barras                            |
+| becquereles                      |
+| btus                            |
+| btusPorHora                     |
+| btusPorLibra                    |
+| tusPorLibraSecoAire               |
+| candela                        |
+| candelaspormetro cuadrado          |
+| centímetros                     |
+| centímetrosDeMercurio            |
+| centímetrosDeAgua              |
+| pie cúbico                       |
+| Pies cúbicos por día                 |
+| pies cúbicos por hora                |
+| pies cúbicos por minuto              |
+| Pies cúbicos por segundo              |
+| metros cubicos                     |
+| Metros cúbicos por día               |
+| Metros cúbicos por hora              |
+| Metros cúbicos por minuto            |
+| Metros cúbicos por segundo            |
+| moneda1                       |
+| moneda10                      |
+| moneda2                       |
+| moneda3                       |
+| moneda4                       |
+| moneda5                       |
+| moneda6                       |
+| moneda7                       |
+| moneda8                       |
+| moneda9                       |
+| ciclosporhora                   |
+| ciclospor minuto                 |
+| días                            |
+| decibeles                        |
+| decibelesA                       |
+| decibelesMilivoltios               |
+| decibelesVoltio                    |
+| gradosDíasCelsius               |
+| gradosDíasFahrenheit            |
+| grados Angular                  |
+| grados Celsius                  |
+| grados Celsius por hora           |
+| grados Celsius por minuto         |
+| grados Fahrenheit               |
+| grados Fahrenheit por hora        |
+| grados Fahrenheit por minuto      |
+| grados Kelvin                   |
+| grados Kelvin por hora            |
+| grados Kelvin por minuto          |
+| gradosFase                    |
+| deltaGradosFahrenheit          |
+| deltaGradosKelvin              |
+| faradios                          |
+| pies                            |
+| piesPorMinuto                   |
+| pies por segundo                   |
+| velas de pie                     |
+| gramos                           |
+| gramos de agua por kilo de aire seco   |
+| gramos por centímetro cúbico         |
+| gramos por metro cúbico              |
+| gramos por gramo                    |
+| gramos por kilogramo                |
+| gramos por litro                   |
+| gramos por mililitro              |
+| gramos por minuto                  |
+| gramos por segundo                  |
+| gramos por metro cuadrado             |
+| gris                            |
+| hectopascales                    |
+| henry                          |
+| hercios                           |
+| caballo de fuerza                      |
+| horas                           |
+| centésimasSegundos               |
+| galones imperiales                 |
+| imperialGalonesPorMinuto        |
+| pulgadas                          |
+| pulgadas de mercurio                 |
+| pulgadas de agua                   |
+| juliosSegundos                    |
+| julios                          |
+| julios por metro cúbico             |
+| julios por grado Kelvin           |
+| juliosporhoras                  |
+| julios por kilogramo grados Kelvin   |
+| julios por kilogramo aire seco         |
+| kiloBtus                        |
+| kiloBtusPorHora                 |
+| kilobecquerelios                  |
+| kilogramos                       |
+| kilogramos por metro cúbico          |
+| kilogramos por hora                |
+| kilogramos por kilogramo            |
+| kilogramos por minuto              |
+| kilogramos por segundo              |
+| kilohercio                       |
+| kiloohmios                         |
+| kilojulios                      |
+| kilojulios por grado Kelvin       |
+| kilojulios por kilogramo           |
+| kilojulios por kilogramo aire seco     |
+| kilómetros                      |
+| Kilómetros por hora               |
+| kilopascales                     |
+| kilovoltiosAmperiosHoras             |
+| kilovoltiosAmperiosHorasReactivo     |
+| kilovoltiosAmperios                 |
+| kilovoltiosAmperiosReactivo         |
+| kilovoltios                       |
+| kilovatioshoras                   |
+| kilovatioshorasporpie cuadrado      |
+| kilovatioshoraspormetro cuadrado     |
+| kilovatioshorasreactivo           |
+| kilovatios                       |
+| litros                          |
+| litrosporhora                   |
+| litrospor minuto                 |
+| litros por segundo                 |
+| lúmenes                          |
+| lujos                           |
+| megaBtus                        |
+| megabequerelios                  |
+| megahercio                       |
+| megajulios                      |
+| megajulios por grado Kelvin       |
+| megajulios por kilogramo aire seco     |
+| megajulios por pie cuadrado         |
+| megajulios por metro cuadrado        |
+| megaAVoltAmpereHoras             |
+| megaAVoltAmpereHorasReactivo     |
+| megaAVoltioAmperios                 |
+| megaAVoltioAmperiosReactivo         |
+| megaAVoltios                       |
+| megavatioshoras                   |
+| megavatiosHorasReactivo           |
+| megavatios                       |
+| megaohmios                         |
+| metros                          |
+| metrosPorHora                   |
+| metrosPorMinuto                 |
+| metros por segundo                 |
+| metros por segundo por segundo        |
+| microSiemens                    |
+| microgramos por metro cúbico         |
+| microgramos por litro              |
+| microgris                       |
+| micrómetros                     |
+| microsieverts                   |
+| microsievertsporhora            |
+| millas por hora                    |
+| miliamperios                    |
+| milibares                       |
+| miligramos                      |
+| miligramos por metro cúbico         |
+| miligramos por gramo               |
+| miligramos por kilogramo           |
+| miligramos por litro              |
+| miligray                       |
+| mililitros                     |
+| mililitros por segundo            |
+| milímetros                     |
+| milímetrosdemercurio            |
+| milímetros de agua              |
+| milímetros por minuto            |
+| milímetros por segundo            |
+| miliohmios                       |
+| milisegundos                    |
+| milisiemens                    |
+| milisieverts                   |
+| milivoltios                      |
+| milivatios                      |
+| minutos                         |
+| minutos por grado Kelvin          |
+| meses                          |
+| nanogramos por metro cúbico          |
+| Unidad de turbidez nefelométrica      |
+| Newton                          |
+| newtonMetros                    |
+| newtonSegundos                   |
+| Newtons por metro                 |
+| noUnidadesohmMetroPorMetroCuadrado   |
+| ohmiosMetros                       |
+| ohmios                            |
+| pH                              |
+| partes por billón                 |
+| acciones por millón                 |
+| pascalSegundos                   |
+| pascales                         |
+| por hora                         |
+| Por milla                        |
+| por minuto                       |
+| por segundo                       |
+| por ciento                         |
+| porcentaje de oscurecimiento por pie       |
+| porcentaje de oscurecimiento por metro      |
+| porcentaje por segundo                |
+| porcentaje de humedad relativa         |
+| librasFuerzaPorPulgadaCuadrada        |
+| librasMasa                      |
+| librasMasaPorHora               |
+| librasMasaPorMinuto             |
+| librasMasaPorSegundo             |
+| Factor de potencia                     |
+| psiPorDegradoFahrenheit          |
+| radianes                         |
+| radianes por segundo                |
+| revoluciones por minuto            |
+| segundos                         |
+| siemens                         |
+| siemens por metro                 |
+| sieverts                        |
+| cuadradosCentímetros               |
+| pies cuadrados                      |
+| pulgadas cuadradas                    |
+| metros cuadrados                    |
+| Metros cuadrados por Newton           |
+| tesla                          |
+| térmico                          |
+| tushoras                        |
+| tonos                            |
+| tonos por hora                     |
+| tonosRefrigeración               |
+| nosotrosGalones                       |
+| nosotros galones por hora                |
+| nosotrosGalonesPorMinuto              |
+| voltiosAmperiosHoras                 |
+| voltiosAmperiosHorasReactivo         |
+| voltiosAmperios                     |
+| voltiosAmperiosReactivo             |
+| voltios                           |
+| voltios por grado Kelvin            |
+| voltios por metro                   |
+| voltiosCuadradoHoras                |
+| vatioshoras                       |
+| vatioshoraspor metro cúbico          |
+| vatiosHorasReactivo               |
+| vatios                           |
+| vatios por metro por grado Kelvin    |
+| vatios por pie cuadrado              |
+| vatios por metro cuadrado             |
+| vatios por metro cuadrado grados Kelvin |
+| webers                          |
+| semanas                           |
+| años                           |

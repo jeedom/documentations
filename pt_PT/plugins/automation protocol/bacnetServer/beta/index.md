@@ -61,11 +61,10 @@ Um modal será aberto, onde aparecerão todos os comandos do tipo Info presentes
 >Seu equipamento deve estar Ativo para que os comandos sejam detectados neste modal.
 
 
-Você deve adicionar a unidade Bacnet que deseja injetar na instância Bacnet. Atenção, é absolutamente necessário ter a mesma sintaxe das unidades disponíveis na lista de unidades, disponível clicando em Ver Lista de Unidades
+Você deve adicionar o'**Unidade Bacnet (unidades de engenharia)** que você deseja injetar na instância do Bacnet. Observe que você absolutamente deve ter a mesma sintaxe das unidades disponíveis na lista de unidades, disponível em **Apêndice na parte inferior desta documentação.**
+
 Deve também dar um nome à encomenda, preenchendo o campo previsto para o efeito. 
 Não coloque espaços no nome do comando
-
-![syntaxUnites](../images/BacnetServerList.png)
 
 ![syntaxCmds](../images/BacnetServersyntax.png)
 
@@ -147,3 +146,262 @@ Ao clicar neste botão, ele fará o download de um arquivo Json contendo a confi
 - Importar dispositivo :
 
 Ao clicar neste botão, você pode importar o arquivo json de configuração do jeeBacnetServer que você teria baixado, para usar os comandos que foram configurados neste
+
+# ANNEXE:
+
+# Lista de Unidades de Engenharia BACnet)
+
+| Unidades de engenharia               |
+|---------------------------------|
+| ampereSegundos                   |
+| ampereSquareHours               |
+| amperesQuadradoMetros              |
+| amperes                         |
+| amperesPorMetro                 |
+| amperesPerSquareMeter           |
+| bares                            |
+| bequerels                      |
+| btus                            |
+| btusPorHora                     |
+| btusPorPound                    |
+| tusPerPoundDryAir               |
+| candela                        |
+| candelasPerSquareMeter          |
+| centímetros                     |
+| centímetrosDeMercúrio            |
+| centímetrosDeÁgua              |
+| pés cúbicos                       |
+| pés cúbicos por dia                 |
+| pés cúbicos por hora                |
+| pés cúbicos por minuto              |
+| pés cúbicos por segundo              |
+| metros cúbicos                     |
+| metros cúbicos por dia               |
+| metros cúbicos por hora              |
+| metros cúbicos por minuto            |
+| metros cúbicos por segundo            |
+| moeda1                       |
+| moeda10                      |
+| moeda2                       |
+| moeda3                       |
+| moeda4                       |
+| moeda5                       |
+| moeda6                       |
+| moeda7                       |
+| moeda8                       |
+| moeda9                       |
+| ciclosPorHora                   |
+| ciclosPerMinute                 |
+| dias                            |
+| decibéis                        |
+| decibéisA                       |
+| decibéisMillivolt               |
+| decibéisVolt                    |
+| grauDiasCelsius               |
+| grauDiasFahrenheit            |
+| grausAngular                  |
+| graus Celsius                  |
+| grausCelsiusPorHora           |
+| grausCelsiusPorMinuto         |
+| graus Fahrenheit               |
+| grausFahrenheitPorHora        |
+| grausFahrenheitPorMinuto      |
+| grausKelvin                   |
+| grausKelvinPorHora            |
+| grausKelvinPorMinuto          |
+| grausFase                    |
+| deltaGrausFahrenheit          |
+| deltaGrausKelvin              |
+| farads                          |
+| pés                            |
+| pésPorMinuto                   |
+| pésPerSecond                   |
+| velas                     |
+| gramas                           |
+| gramasDeÁguaPorQuilogramaAr Seco   |
+| gramasPorCúbicoCentímetro         |
+| gramasPerCubicMeter              |
+| gramasPorGram                    |
+| gramasPor quilograma                |
+| gramasPorLitro                   |
+| gramasPorMilitro              |
+| gramasPorMinuto                  |
+| gramasPorSegundo                  |
+| gramasPerSquareMeter             |
+| cinza                            |
+| hectopascais                    |
+| Henrique                          |
+| hertz                           |
+| cavalos de potência                      |
+| horas                           |
+| centésimosSegundos               |
+| imperialGalões                 |
+| imperialGalõesPorMinuto        |
+| polegadas                          |
+| polegadasOfMercury                 |
+| polegadasOfWater                   |
+| jouleSegundos                    |
+| joules                          |
+| joulesPerCubicMeter             |
+| joulesPerDegreeKelvin           |
+| joulesPorhoras                  |
+| joulesPorKilogramaGrauKelvin   |
+| joulesPorKilogramaSecoAir         |
+| quiloBtus                        |
+| quiloBtusPorHora                 |
+| quilobecquerels                  |
+| quilogramas                       |
+| quilogramasPorCubicMeter          |
+| quilogramas por hora                |
+| quilogramasPorquilograma            |
+| quilogramas por minuto              |
+| quilogramas por segundo              |
+| quilohertz                       |
+| quilohms                         |
+| quilojoules                      |
+| quilojoulesPerDegreeKelvin       |
+| quilojoulesPor quilograma           |
+| quilojoulesPorquilogramaSecoAir     |
+| quilômetros                      |
+| quilometros por hora               |
+| quilopascais                     |
+| quilovoltAmpereHoras             |
+| quilovoltAmpereHorasReativo     |
+| quilovoltAmperes                 |
+| quilovoltAmperesReativo         |
+| quilovolts                       |
+| quilowatt-horas                   |
+| quilowattHoursPerSquareFoot      |
+| quilowattHoursPerSquareMeter     |
+| quilowattHorasReativo           |
+| quilowatts                       |
+| litros                          |
+| litrosPorHora                   |
+| litrosPorMinuto                 |
+| litrosPorSegundo                 |
+| lúmens                          |
+| luxos                           |
+| megaBtus                        |
+| megabecquerels                  |
+| megahertz                       |
+| megajoules                      |
+| megajoulesPerDegreeKelvin       |
+| megajoulesPorquilogramaSecoAir     |
+| megajoulesPerSquareFoot         |
+| megajoulesPerSquareMeter        |
+| megaAVoltAmpereHoras             |
+| megaAVoltAmpereHorasReativo     |
+| megaAVoltAmperes                 |
+| megaAVoltAmperesReativo         |
+| megaAVolts                       |
+| megawatthoras                   |
+| megawattHorasReativo           |
+| megawatts                       |
+| megohms                         |
+| metros                          |
+| metrosPorhora                   |
+| metrosPorMinuto                 |
+| metrosPorSegundo                 |
+| metrosPerSecondPerSecond        |
+| microSiemens                    |
+| microgramasPerCubicMeter         |
+| microgramasPorLitro              |
+| microcinza                       |
+| micrômetros                     |
+| microsieverts                   |
+| microsievertsPorhora            |
+| milhas por hora                    |
+| miliamperes                    |
+| milibares                       |
+| miligramas                      |
+| miligramasPerCubicMeter         |
+| miligramasPorgrama               |
+| miligramasPor quilograma           |
+| miligramasPorLitro              |
+| miligray                       |
+| mililitros                     |
+| mililitros por segundo            |
+| milímetros                     |
+| milímetros de Mercúrio            |
+| milímetros de água              |
+| milímetrosPorMinuto            |
+| milímetrosPorSegundo            |
+| miliohms                       |
+| milissegundos                    |
+| milisiemens                    |
+| milisieverts                   |
+| milivolts                      |
+| miliwatts                      |
+| minutos                         |
+| minutosPorDegreeKelvin          |
+| meses                          |
+| nanogramasPerCubicMeter          |
+| nefelométricoTurbidityUnit      |
+| Newton                          |
+| newtonMetros                    |
+| newtonSegundos                   |
+| newtonsPerMeter                 |
+| noUnitsohmMeterPerSquareMeter   |
+| ohm Metros                       |
+| ohms                            |
+| pH                              |
+| partesPorBillion                 |
+| ações por milhão                 |
+| pascalSegundos                   |
+| pascais                         |
+| por hora                         |
+| por milhar                        |
+| por minuto                       |
+| por segundo                       |
+| por cento                         |
+| porcentagemObscuraçãoPerFoot       |
+| porcentagemObscurationPerMeter      |
+| porcentagem por segundo                |
+| porcentagem de umidade relativa         |
+| librasForcePerSquareInch        |
+| librasMassa                      |
+| librasMassaPorHora               |
+| librasMassaPorMinuto             |
+| librasMassPerSecond             |
+| fator de potência                     |
+| psiPerDegreeFahrenheit          |
+| radianos                         |
+| radianosPerSecond                |
+| revoluções por minuto            |
+| segundos                         |
+| siemens                         |
+| siemensPerMeter                 |
+| sieverts                        |
+| quadradoCentímetros               |
+| pés quadrados                      |
+| Polegadas quadradas                    |
+| metros quadrados                    |
+| Metros quadradosPorNewton           |
+| Tesla                          |
+| térmico                          |
+| suas horas                        |
+| tons                            |
+| tonsPerHour                     |
+| tonsRefrigeração               |
+| nósGalões                       |
+| nósGalõesPorHora                |
+| nósGalõesPorMinuto              |
+| voltAmpereHoras                 |
+| voltAmpereHorasReativo         |
+| voltAmperes                     |
+| voltAmperesReativo             |
+| volts                           |
+| voltsPerDegreeKelvin            |
+| voltsPorMetro                   |
+| voltsQuadradoHoras                |
+| watthoras                       |
+| wattHoursPerCubicMeter          |
+| wattHorasReativo               |
+| watts                           |
+| wattsPerMeterPerDegreeKelvin    |
+| wattsPerSquareFoot              |
+| wattsPerSquareMeter             |
+| wattsPerSquareMeterGrauKelvin |
+| Weber                          |
+| semanas                           |
+| anos                           |
