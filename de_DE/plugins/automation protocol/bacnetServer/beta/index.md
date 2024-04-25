@@ -1,8 +1,8 @@
 # BacnetServer
 
-#Description
+# Description
 
-Mit dem Bacnet-Plugin können Sie eine Bacnet-Ausrüstung Ihres Jeedom erstellen, die im Netzwerk angezeigt wird
+Mit dem Bacnet-Plugin können Sie Bacnet-Geräte für Ihren Jeedom sowie dessen Jeedom-Befehle erstellen, die von einem Bacnet-Supervisor im Netzwerk gesehen werden können
 
 
 
@@ -18,7 +18,7 @@ Dann müssen Sie die Installation der Abhängigkeiten starten (auch wenn sie OK 
 
 Starten Sie abschließend den Daemon :
 
-![demon](../images/BacneServerDemon.png)
+![demon](../images/BacnetServerDemon.png)
 
 
 Rien n'est à modifier dans le champ « Port socket interne » de la section « Configuration ».
@@ -41,7 +41,7 @@ Auf derselben Registerkarte müssen Sie den Cron-Wert zum Aktualisieren Ihrer Au
 >Ihr BACNET-Gerät muss sich im selben Netzwerk wie Ihr Jeedom befinden, um von ihm erkannt zu werden.
 
 
-Standardmäßig wird ein jeeBacnetServer-Gerät erstellt; Es ist dieses „Bacnet“-Gerät, das von Ihrem Bacnet-Supervisor im Netzwerk gesehen wird
+Standardmäßig wird ein jeeBacnetServer-Gerät erstellt. Es ist dieses „Bacnet“-Gerät, das Ihr Bacnet-Supervisor im Netzwerk sehen kann
 
 Sie können seine Geräte-ID in der Plugin-Konfiguration konfigurieren
 
@@ -60,8 +60,6 @@ Es öffnet sich ein Modal, in dem alle Info-Typ-Befehle erscheinen, die in den v
 >
 >Ihre Ausrüstung muss aktiv sein, damit Befehle auf diesem Modal erkannt werden.
 
-
-Sie müssen das hinzufügen'**Bacnet-Einheit (technische Einheiten)** die Sie in die Bacnet-Instanz injizieren möchten. Bitte beachten Sie, dass Sie unbedingt die gleiche Syntax haben müssen wie die in der Liste der verfügbaren Einheiten verfügbaren Einheiten **Anhang am Ende dieser Dokumentation.**
 
 Außerdem müssen Sie die Bestellung benennen, indem Sie das dafür vorgesehene Feld ausfüllen. 
 Fügen Sie keine Leerzeichen in den Befehlsnamen ein
@@ -98,7 +96,9 @@ Sie können das Gerät sowie seine Bacnet-Punkte auch aus dem Netzwerk löschen,
 # Bestellungen einrichten :
 
 
-Um die Einheit der Bacnet-Punkte zu ändern und sie im Netzwerk erscheinen zu sehen, müssen Sie die Einheit in das dafür vorgesehene Feld auf den Bestellungen eingeben.
+Um die Einheit der Bacnet-Punkte zu ändern und sie im Netzwerk anzuzeigen, müssen Sie die Einheit im dafür vorgesehenen Auswahlmenü der Bedienelemente auswählen.
+Jeedom-Befehle vom Typ „String“ müssen keine Einheiten auswählen.
+
 
 Im Bacnet-Netzwerk verwenden die Instanzen der Punkte die Namen der Befehle, die im Feld im Modal „Zusätze von Befehlen“ angegeben sind.
 
@@ -130,7 +130,7 @@ Beispiel :
 ![cmdExist](../images/BacnetServerCmdsExit.png)
 
 
-# Importieren/Exportieren Sie den jeeBacnetServer :
+# Import/Export des jeeBacnetServers (in Kürze erhältlich)):
 
 
 ![accueil](../images/BacnetServerAccueil.png)

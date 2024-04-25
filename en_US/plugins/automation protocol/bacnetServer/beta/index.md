@@ -1,8 +1,8 @@
 # BacnetServer
 
-#Description
+# Description
 
-The Bacnet plugin allows you to create a Bacnet equipment of your Jeedom to be seen on the network
+The Bacnet plugin allows you to create Bacnet equipment for your Jeedom, as well as its Jeedom commands, to be seen on the network by a Bacnet supervisor
 
 
 
@@ -18,7 +18,7 @@ Then, you have to start the installation of the dependencies (even if they appea
 
 Finally, start the daemon :
 
-![demon](../images/BacneServerDemon.png)
+![demon](../images/BacnetServerDemon.png)
 
 
 Rien n'est à modifier dans le champ « Port socket interne » de la section « Configuration ».
@@ -41,7 +41,7 @@ In this same tab, you must choose the Cron value for updating your equipment.
 >Your BACNET equipment must be on the same network as your Jeedom to be detected by it.
 
 
-By default, a jeeBacnetServer device is created; it is this 'bacnet' device that will be seen by your Bacnet supervisor on the network
+By default, a jeeBacnetServer device is created; it is this 'bacnet' equipment which will be seen by your Bacnet supervisor on the network
 
 You can configure its deviceId in the plugin configuration
 
@@ -60,8 +60,6 @@ A modal will open, where all the Info type commands present in the different plu
 >
 >Your equipment must be Active for commands to be detected on this modal.
 
-
-You must add the'**Bacnet unit (Engineering units)** that you want injected into the Bacnet instance. Please note, you absolutely must have the same syntax as the units available in the list of units, available in **Appendix at the bottom of this documentation.**
 
 You must also name the order, by filling in the field provided for this purpose. 
 Do not put spaces in the command name
@@ -98,7 +96,9 @@ You can also delete the device from the network, as well as its bacnet points by
 # Orders Setup :
 
 
-To change the unit of bacnet points, and see them appear on the network, you must enter the unit in the field provided for this purpose on the orders.
+To change the unit of bacnet points, and see them appear on the network, you must choose the unit in the Select menu provided for this purpose on the controls.
+Jeedom commands of type 'string' do not have to select units.
+
 
 On the bacnet network, the instances of the points will use the names of the commands specified in the field on the Additions of commands modal.
 
@@ -130,7 +130,7 @@ Example :
 ![cmdExist](../images/BacnetServerCmdsExit.png)
 
 
-# Import/Export the jeeBacnetServer :
+# Import/Export the jeeBacnetServer (coming soon)):
 
 
 ![accueil](../images/BacnetServerAccueil.png)

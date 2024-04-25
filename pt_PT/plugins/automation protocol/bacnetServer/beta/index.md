@@ -1,8 +1,8 @@
 # BacnetServer
 
-#Description
+# Description
 
-O plugin Bacnet permite que você crie um equipamento Bacnet do seu Jeedom para ser visto na rede
+O plugin Bacnet permite criar equipamentos Bacnet para o seu Jeedom, bem como seus comandos Jeedom, para serem vistos na rede por um supervisor Bacnet
 
 
 
@@ -18,7 +18,7 @@ Então, você deve iniciar a instalação das dependências (mesmo que elas apar
 
 Finalmente, inicie o daemon :
 
-![demon](../images/BacneServerDemon.png)
+![demon](../images/BacnetServerDemon.png)
 
 
 Rien n'est à modifier dans le champ « Port socket interne » de la section « Configuration ».
@@ -41,7 +41,7 @@ Nesta mesma aba, você deve escolher o valor Cron para atualizar seu equipamento
 >Seu equipamento BACNET deve estar na mesma rede que seu Jeedom para ser detectado por ele.
 
 
-Por padrão, um dispositivo jeeBacnetServer é criado; é este dispositivo 'bacnet' que será visto pelo seu supervisor Bacnet na rede
+Por padrão, um dispositivo jeeBacnetServer é criado; é este equipamento 'bacnet' que será visto pelo seu supervisor Bacnet na rede
 
 Você pode configurar seu deviceId na configuração do plugin
 
@@ -60,8 +60,6 @@ Um modal será aberto, onde aparecerão todos os comandos do tipo Info presentes
 >
 >Seu equipamento deve estar Ativo para que os comandos sejam detectados neste modal.
 
-
-Você deve adicionar o'**Unidade Bacnet (unidades de engenharia)** que você deseja injetar na instância do Bacnet. Observe que você absolutamente deve ter a mesma sintaxe das unidades disponíveis na lista de unidades, disponível em **Apêndice na parte inferior desta documentação.**
 
 Deve também dar um nome à encomenda, preenchendo o campo previsto para o efeito. 
 Não coloque espaços no nome do comando
@@ -98,7 +96,9 @@ Você também pode excluir o dispositivo da rede, bem como seus pontos bacnet, c
 # Configuração de pedidos :
 
 
-Para alterar a unidade de pontos bacnet, e vê-los aparecer na rede, deve introduzir a unidade no campo previsto para o efeito nas encomendas.
+Para alterar a unidade dos pontos bacnet, e vê-los aparecer na rede, deve-se escolher a unidade no menu Selecionar previsto para esse fim nos controles.
+Os comandos Jeedom do tipo 'string' não precisam selecionar unidades.
+
 
 Na rede bacnet, as instâncias dos pontos usarão os nomes dos comandos especificados no campo no modal Adições de comandos.
 
@@ -130,7 +130,7 @@ Exemplo :
 ![cmdExist](../images/BacnetServerCmdsExit.png)
 
 
-# Importar/Exportar o jeeBacnetServer :
+# Importe/exporte o jeeBacnetServer (em breve)):
 
 
 ![accueil](../images/BacnetServerAccueil.png)
