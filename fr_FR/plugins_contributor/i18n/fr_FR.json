@@ -481,6 +481,8 @@
         "Plugin pour ajouter un programmateur à une commande": "Plugin pour ajouter un programmateur à une commande",
         "My Bin": "My Bin",
         "Poubelle verte": "Poubelle verte",
+        "ical2Calendar": "ical2Calendar",
+        "import2calendar permet d'importer un calendrier ical dans le plugin agenda": "import2calendar permet d'importer un calendrier ical dans le plugin agenda",
         "8 pour fonctionner": "8 pour fonctionner",
         "Google Keep": "Google Keep",
         "Plugin permettant de synchroniser ses notes et listes avec Google Keep": "Plugin permettant de synchroniser ses notes et listes avec Google Keep",
@@ -496,10 +498,10 @@
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
         "Documentation Beta": "Documentation Beta",
+        "Changelog Beta": "Changelog Beta",
         "Poubelle jaune": "Poubelle jaune",
         "Laquelle faut-il sortir ce soir": "Laquelle faut-il sortir ce soir",
-        "Utilisez ce petit plugin pour ne plus avoir à vous en rappeler": "Utilisez ce petit plugin pour ne plus avoir à vous en rappeler",
-        "Changelog Beta": "Changelog Beta"
+        "Utilisez ce petit plugin pour ne plus avoir à vous en rappeler": "Utilisez ce petit plugin pour ne plus avoir à vous en rappeler"
     },
     "plugins_contributor\/other\/index.md": {
         "Autre": "Autre",
