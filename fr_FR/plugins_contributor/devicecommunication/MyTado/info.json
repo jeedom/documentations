@@ -1,0 +1,33 @@
+{
+	"id": "MyTado",
+	"name": "MyTado",
+	"version": "1.0",
+	"description": {
+		"fr_FR": "Ce plugin permet de gérer les objets connectés Tado",
+		"en_US": "This plugin enables management of Tado devices"
+	},
+	"licence": "AGPL",
+	"author": "eperche",
+	"require": "4.4",
+	"category": "devicecommunication",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"cron": "30",
+	"maxDependancyInstallTime": 0,
+	"changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/MyTado\/beta\/changelog",
+	"changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/MyTado\/changelog",
+	"documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/MyTado\/beta",
+	"documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/MyTado",
+	"link": {
+		"forum": "Lien vers le forum",
+		"video": "Lien vers une video"
+	},
+	"languages": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"luna",
+		"mobile"
+	]
+}
