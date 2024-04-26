@@ -19,7 +19,7 @@
 	"documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/MyTado\/beta",
 	"documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/MyTado",
 	"link": {
-		"forum": "Lien vers le forum",
+		"forum": "https:\/\/community.jeedom.com\/t\/plugin-mytado-pour-objets-connectes-tado-discussion-generale\/125031",
 		"video": "Lien vers une video"
 	},
 	"languages": [
