@@ -6,7 +6,7 @@
 		"fr_FR": "Ce plugin permet de gérer les objets connectés Tado",
 		"en_US": "This plugin enables management of Tado devices"
 	},
-	"licence": "AGPL",
+	"licence": "GNU",
 	"author": "eperche",
 	"require": "4.4",
 	"category": "devicecommunication",
