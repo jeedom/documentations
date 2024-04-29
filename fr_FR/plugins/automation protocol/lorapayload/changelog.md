@@ -6,6 +6,31 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 29/04/2024
+
+- Ajout de la configuration *Dragino D23LBLS* (propriétés : Batterie, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)
+
+- Ajout de la configuration *Citylone SL32 et Citylone SL22* (propriétés : Voltage, Current, Power, Cos Phi, Temperature, LED Voltage, Lamps level, Lamps mode, Request Position, Latitude, Longitude, Request Time Change State, Enable Time Change, Disable Time Change, RSSI, Timestamp, Update via LNS, On Relai, Off Relai)
+
+- Ajout de la configuration *Quandify Cubic Meter* (propriétés : Code Erreur, Volume Total, Etat de fuite, Etat de la batterie, Temp Minimum, Temp Maximum, Temp Ambiante)
+
+- Ajout de la configuration *Eastron SDM630* (propriétés : Serial Number, Total Energy, Frequency, Total Power Factor, Maximum Total System Power Demand, Total Current)
+
+- Ajout de la configuration *Dragino CS01 LB* (propriétés : Batterie, EXTI_Trigger, EXTI_Level, Current1, Current2, Current3, Current4, CurL_status, CurH_status)
+
+- Ajout de la configuration *Enerbee e-VAV* (propriétés : Temperature, Humidite, Debit cible, Debit actuel, CO2, IAQ, Niveau de charge, Niveau d'ouverture registre, Statut système)
+
+- Ajout de la configuration *Milesight EM300TH* (propriétés : Battery, Temperature, Humidity)
+
+- Ajout de la configuration *NKE Triphas'O* (propriétés : Voltage Phase (A, B, C), Current Phase (A, B, C), Angle Voltage Current Phase (A, B, C), Positive Active Energy Phase (ABC, A, B, C), Negative Active Energy Phase (ABC, A, B, C), Positive Reactive Energy Phase (ABC, A, B, C), Positive Active Power Phase (ABC, A, B, C), Negative Active Power Phase (ABC, A, B, C), Positive Reactive Power Phase (ABC, A, B, C), Negative Reactive Power Phase (ABC, A, B, C), Binary Input State Phase (ABC, A, B, C))
+
+- Ajout de la configuration *Thermokon Temp RH* (propriétés : Temperature, Humidity)
+
+- Ajout de la configuration *Milesight EM300TH* (propriétés : Battery, Temperature, Humidity)
+
+- Ajout de la configuration *Milesight EM500LGT* (propriétés : Battery, Illumination)
+
+
 # 21/02/2024
 - Changement du niveau de logs pour certaines informations générées par le plugin
 

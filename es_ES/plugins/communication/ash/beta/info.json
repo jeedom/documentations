@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Loïc",
-    "require": "3.2.1",
+    "require": "4.4",
     "category": "communication",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/ash\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/ash\/",

@@ -8,10 +8,15 @@
 
 
 
+# 04/29/2024
+
+- Add sudo for start server on 502 port
+- Fix Imports and Library
+
+
 # 11/28/2023
 
 - Fix Imports and Library
-
 
 
 # 28/11/2022

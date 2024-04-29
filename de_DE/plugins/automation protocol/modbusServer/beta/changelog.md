@@ -8,10 +8,15 @@
 
 
 
+# 29.04.2024
+
+- Fügen Sie sudo hinzu, um den Server auf Port 502 zu starten
+- Korrigieren Sie Importe und Bibliothek
+
+
 # 28.11.2023
 
 - Korrigieren Sie Importe und Bibliothek
-
 
 
 # 28.11.2022

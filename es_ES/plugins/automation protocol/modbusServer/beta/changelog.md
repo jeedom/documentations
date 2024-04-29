@@ -8,10 +8,15 @@
 
 
 
+# 29/04/2024
+
+- Agregue sudo para iniciar el servidor en el puerto 502
+- Arreglar importaciones y biblioteca
+
+
 # 28/11/2023
 
 - Arreglar importaciones y biblioteca
-
 
 
 # 28/11/2022

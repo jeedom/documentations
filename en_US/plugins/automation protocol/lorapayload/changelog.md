@@ -11,8 +11,6 @@
 
 - Changing the module type *Milesight EM500 PT100*
 
-- Adding order ID to the Lorapayload plugin
-
 - Adding configuration *Dragino D20-LB* (properties : Battery, Temperature Red, Alarm, PA8 Level, MOD)
 
 

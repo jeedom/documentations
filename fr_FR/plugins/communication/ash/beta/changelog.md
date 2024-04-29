@@ -4,6 +4,9 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Correction d'un bug sur jeedom 4.4
+- Attention le plugin est uniquement compatible jeedom 4.4 ou plus
+
 # 15/01/2024
 
 - Préparation pour jeedom 4.4
