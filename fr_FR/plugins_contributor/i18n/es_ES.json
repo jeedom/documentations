@@ -1011,7 +1011,7 @@
         "My Bin": "Mi papelera",
         "Poubelle verte": "Bote de basura verde",
         "ical2Calendar": "ical2Calendario",
-        "import2calendar permet d'importer un calendrier ical dans le plugin agenda": "import2calendar le permite importar un calendario ical al complemento de calendario",
+        "ical2Calendar permet d'importer un calendrier ical dans le plugin agenda officiel que celui-ci viennent de Google, Outlook, Nextcloud ou autre": "ical2Calendar le permite importar un calendario ical al complemento de calendario oficial, ya sea de Google, Outlook, Nextcloud u otro",
         "8 pour fonctionner": "8 para trabajar",
         "Google Keep": "Google mantener",
         "Plugin permettant de synchroniser ses notes et listes avec Google Keep": "Complemento para sincronizar notas y listas con Google Keep",
