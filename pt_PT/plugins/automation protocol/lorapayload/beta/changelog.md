@@ -6,6 +6,35 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
+# xx/04/2024
+
+- Alterando a configuração *Termostato sem fio MClimate* (propriedades : Atualização manual da temperatura alvo)
+
+# 29/04/2024
+
+- Adicionando configuração *Dragino D23LBLS* (propriedades : Bateria, Temp-Branco, Temp-Vermelho, Temp-Preto, Alarme, Nível PA8, Modo)
+
+- Adicionando configuração *Citylone SL32 e Citylone SL22* (propriedades : Tensão, Corrente, Potência, Cos Phi, Temperatura, Tensão do LED, Nível das lâmpadas, Modo das lâmpadas, Solicitar posição, Latitude, Longitude, Solicitar estado de mudança de tempo, Habilitar mudança de tempo, Desabilitar mudança de tempo, RSSI, Registro de data e hora, Atualização via LNS, On Relay , Relé desligado)
+
+- Adicionando configuração *Quantificar Metro Cúbico* (propriedades : Código de erro, volume total, status de vazamento, status da bateria, temperatura mínima, temperatura máxima, temperatura ambiente)
+
+- Adicionando configuração *Eastron SDM630* (propriedades : Número de série, energia total, frequência, fator de potência total, demanda total máxima de energia do sistema, corrente total)
+
+- Adicionando configuração *Dragino CS01 LB* (propriedades : Bateria, EXTI_Trigger, EXTI_Level, Corrente1, Corrente2, Corrente3, Corrente4, CurL_status, CurH_status)
+
+- Adicionando configuração *Enerbee e-VAV* (propriedades : Temperatura, Umidade, Fluxo alvo, Fluxo de corrente, CO2, IAQ, Nível de carga, Nível de abertura do amortecedor, Status do sistema)
+
+- Adicionando configuração *Milhas EM300TH* (propriedades : Bateria, temperatura, umidade)
+
+- Adicionando configuração *NKE Triphas'O* (propriedades : Fase de Tensão (A, B, C), Fase de Corrente (A, B, C), Fase de Corrente de Tensão Angular (A, B, C), Fase de Energia Ativa Positiva (ABC, A, B, C), Fase de Energia Ativa Negativa (ABC, A, B, C), Fase de Energia Reativa Positiva (ABC, A, B, C), Fase de Potência Ativa Positiva (ABC, A, B, C), Fase de Potência Ativa Negativa (ABC, A, B, C ) ), Fase de potência reativa positiva (ABC, A, B, C), Fase de potência reativa negativa (ABC, A, B, C), Fase de estado de entrada binária (ABC, A, B, C))
+
+- Adicionando configuração *Thermokon Temp RH* (propriedades : Temperatura, Umidade)
+
+- Adicionando configuração *Milhas EM300TH* (propriedades : Bateria, temperatura, umidade)
+
+- Adicionando configuração *Milesight EM500LGT* (propriedades : Bateria, Iluminação)
+
+
 # 21/02/2024
 - Alterando o nível de log para determinadas informações geradas pelo plugin
 

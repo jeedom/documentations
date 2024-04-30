@@ -6,6 +6,35 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# xx/04/2024
+
+- Ändern der Konfiguration *Drahtloser MClimate-Thermostat* (Eigenschaften : Manuelle Aktualisierung der Zieltemperatur)
+
+# 29.04.2024
+
+- Konfiguration hinzufügen *Dragino D23LBLS* (Eigenschaften : Batterie, Temperatur-Weiß, Temperatur-Rot, Temperatur-Schwarz, Alarm, PA8-Stufe, Modus)
+
+- Konfiguration hinzufügen *Citylone SL32 und Citylone SL22* (Eigenschaften : Spannung, Strom, Leistung, Cos Phi, Temperatur, LED-Spannung, Lampenniveau, Lampenmodus, Position anfordern, Breitengrad, Längengrad, Status der Zeitänderung anfordern, Zeitänderung aktivieren, Zeitänderung deaktivieren, RSSI, Zeitstempel, Aktualisierung über LNS, On Relay , Aus-Relais)
+
+- Konfiguration hinzufügen *Kubikmeter quantifizieren* (Eigenschaften : Fehlercode, Gesamtvolumen, Leckstatus, Batteriestatus, Mindesttemperatur, Höchsttemperatur, Umgebungstemperatur)
+
+- Konfiguration hinzufügen *Eastron SDM630* (Eigenschaften : Seriennummer, Gesamtenergie, Frequenz, Gesamtleistungsfaktor, Maximaler Gesamtstrombedarf des Systems, Gesamtstrom)
+
+- Konfiguration hinzufügen *Dragino CS01 LB* (Eigenschaften : Batterie, EXTI_Trigger, EXTI_Level, Current1, Current2, Current3, Current4, CurL_status, CurH_status)
+
+- Konfiguration hinzufügen *Enerbee e-VAV* (Eigenschaften : Temperatur, Luftfeuchtigkeit, Zieldurchfluss, aktueller Durchfluss, CO2, IAQ, Ladezustand, Klappenöffnungsgrad, Systemstatus)
+
+- Konfiguration hinzufügen *Milesight EM300TH* (Eigenschaften : Batterie, Temperatur, Luftfeuchtigkeit)
+
+- Konfiguration hinzufügen *NKE Triphas'O* (Eigenschaften : Spannungsphase (A, B, C), Stromphase (A, B, C), Winkelspannungs-Stromphase (A, B, C), positive Wirkenergiephase (ABC, A, B, C), negative Wirkenergiephase (ABC, A, B, C), Positive Blindenergiephase (ABC, A, B, C), Positive Wirkleistungsphase (ABC, A, B, C), Negative Wirkleistungsphase (ABC, A, B, C ) ), Positive Blindleistungsphase (ABC, A, B, C), Negative Blindleistungsphase (ABC, A, B, C), Binäreingangszustandsphase (ABC, A, B, C))
+
+- Konfiguration hinzufügen *Thermokon Temp RH* (Eigenschaften : Temperatur Feuchtigkeit)
+
+- Konfiguration hinzufügen *Milesight EM300TH* (Eigenschaften : Batterie, Temperatur, Luftfeuchtigkeit)
+
+- Konfiguration hinzufügen *Milesight EM500LGT* (Eigenschaften : Batterie, Beleuchtung)
+
+
 # 21.02.2024
 - Ändern der Protokollebene für bestimmte vom Plugin generierte Informationen
 
