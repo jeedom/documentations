@@ -3,19 +3,21 @@
 
 Cet outil permet de remplacer rapidement des équipements et commandes, par exemple dans le cas d'un changement de plugin, ou d'un module.
 
-Comme les options de remplacements sur la configuration avançée d'une commande, il remplacem les commandes dans les scénarios et autre, mais permet aussi de transferer les propriétés des équipements et des commandes.
+Comme les options de remplacements sur la configuration avancée d'une commande, il remplace les commandes dans les scénarios et autre, mais permet aussi de transférer les propriétés des équipements et des commandes.
 
 ## Filtres
 
-Vous pouvoir afficher seulement certains équipements pour plus de lisibilité, en filtrant par objet ou par plugin.
+Vous pouvez afficher seulement certains équipements pour plus de lisibilité, en filtrant par objet ou par plugin.
 
 > Dans le cas d'un remplacement d'un équipement par un équipement d'un autre plugin, sélectionnez les deux plugins.
+> 
+> *Exemple : cochez Z-wave et Z-wave JS, le temps de migrer vos équipements concernés.*
 
 ## Options
 
 > **Remarque**
 >
-> Si aucune de ces options n'est cochée, le remplacement revient à utiliser la fonction *Remplacer cette commande par la commande* en configuration avançée.
+> Si aucune de ces options n'est cochée, le remplacement revient à utiliser la fonction *Remplacer cette commande par la commande* en configuration avancée.
 
 - **Copier la configuration de l'équipement source** :
 Pour chaque équipement, seront copiés de la source vers la cible (liste non exhaustive) :
@@ -36,7 +38,7 @@ Pour chaque équipement, seront copiés de la source vers la cible (liste non ex
 L'équipement source sera également remplacé par l'équipement cible sur les **Design** et les **Vues**.
 
 
-*Cet équipement sera également remplaçé par l'équipement cible sur les Designs et les Vues.*
+*Cet équipement sera également remplacé par l'équipement cible sur les Designs et les Vues.*
 
 - **Cacher l'équipement source** : Permet de rendre l'équipement source invisible une fois remplaçé par l'équipement cible.
 
@@ -65,12 +67,12 @@ Pour chaque commande, seront copiés de la source vers la cible (liste non exhau
 
 ## Remplacements
 
-Le bouton **Filtrer** En haut à droite permet d'afficher tous les équipements, suivant les filtres par objet et par plugin.
+Le bouton **Filtrer** en haut à droite permet d'afficher tous les équipements, suivant les filtres par objet et par plugin.
 
 Pour chaque équipement :
 
 - Cochez la case en début de ligne pour activer son remplacement.
-- Sélectionnez à droite l'équipement par lequel il sera remplaçé.
+- Sélectionnez à droite l'équipement par lequel il sera remplacé.
 - Cliquez sur son nom pour voir ses commandes, et indiquer quelles commandes les remplacent. Au choix d'un équipement, l'outil pré-remplit ces choix si il trouve une commande de même type et même nom sur l'équipement cible.
 
 
