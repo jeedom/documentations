@@ -58,7 +58,7 @@ Once connected with your dev account on the market you must :
     - Compatible hardware
     - A note on use if necessary.
   - Github : this is where you will put the information between the market and Github.
-    - The token (to put only if your plugin is on a private deposit).
+    - The token (this allows you to retrieve the plugin information in the jeedom documentation). Vous pouvez le créer sur la page Github suivante : https://github.com/settings/tokens, choose `token classic`, `no expiration` and check the `repo` part.
     - Your github username.
     - The name of the repository on github.
     - Check the box so that the market manages the translation of your plugin and the documentation (be careful in this case to give all the rights to the user `jeedom-market` of github on your github repository).

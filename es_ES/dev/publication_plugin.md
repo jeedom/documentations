@@ -58,7 +58,7 @@ Una vez conectado con su cuenta de desarrollador en el mercado, debe :
     - Hardware compatible
     - Una nota sobre el uso si es necesario.
   - Github : aquí es donde colocará la información entre el mercado y Github.
-    - El token (para poner solo si su complemento está en un depósito privado).
+    - El token (esto le permite recuperar la información del complemento en la documentación de jeedom). Vous pouvez le créer sur la page Github suivante : https://github.com/settings/tokens, elija `token classic`, `sin vencimiento` y verifique la parte `repo`.
     - Tu nombre de usuario github.
     - El nombre del repositorio en github.
     - Marque la casilla para que el mercado gestione la traducción de su complemento y la documentación (tenga cuidado en este caso de otorgar todos los derechos al usuario `jeedom-market` de github en su repositorio de github).
