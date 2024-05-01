@@ -1,20 +1,44 @@
 {
   "id": "jeemate",
   "name": "JeeMate",
-  "description": "JeeMate est une application mobile compatible avec Jeedom.<br/>Contrôlez facilement votre maison intelligente grâce à son interface intuitive et customisable.<br/>JeeMate dispose de nombreuses fonctionnalités, et est compatible avec de nombreux plugins Jeedom.<br/>Ce plugin permet d'appairer l'application mobile avec votre Jeedom.<br/>JeeMate utilise les types génériques de Jeedom.",
+  "description": {
+    "fr_FR": "JeeMate est une application mobile disponible pour les appareils Android et wearOS (playStore), iOS (Apple store) et Windows (Microsoft store).<br/>JeeMate est compatible avec Jeedom.<br/>Contrôlez facilement votre maison intelligente grâce à son interface intuitive et customisable.<br/>JeeMate dispose de nombreuses fonctionnalités, et est compatible avec de nombreux plugins Jeedom automatiquement.<br/>Ce plugin vous permet de lier l'application mobile à votre Jeedom.<br/>JeeMate utilise les types génériques de Jeedom.<br/>Le plugin inclut Google Fit: créez vos équipements et récupérez vos données de santé.",
+    "es_ES": "JeeMate es una aplicación móvil compatible con Jeedom.<br/>Controla fácilmente tu casa inteligente con su interfaz intuitiva y personalizable.<br/>JeeMate tiene muchas características, y es compatible con muchos plugins de Jeedom.<br/>Este plugin te permite emparejar la aplicación móvil con tu Jeedom.<br/>JeeMate utiliza los tipos genéricos de Jeedom.",
+    "en_US": "JeeMate is a mobile application compatible with Jeedom.<br/>Easily control your smart home with its intuitive and customizable interface.<br/>JeeMate has many features, and is compatible with many Jeedom plugins.<br/>This plugin allows you to pair the mobile application with your Jeedom.<br/>JeeMate uses Jeedom generic types.",
+    "de_DE": "JeeMate ist eine mit Jeedom kompatible mobile Anwendung.<br/>Steuern Sie Ihr Smart Home ganz einfach über die intuitive und anpassbare Benutzeroberfläche.<br/>JeeMate verfügt über zahlreiche Funktionen und ist mit vielen Jeedom-Plugins kompatibel.<br/>Dieses Plugin ermöglicht es Ihnen, die mobile Anwendung mit Ihrem Jeedom zu paaren.<br/>JeeMate verwendet die generischen Typen von Jeedom.",
+    "it_IT": "JeeMate è un'applicazione mobile compatibile con Jeedom.<br/>Controlla facilmente la tua casa intelligente con la sua interfaccia intuitiva e personalizzabile.<br/>JeeMate ha molte funzioni ed è compatibile con molti plugin Jeedom.<br/>Questo plugin consente di associare l'applicazione mobile con il tuo Jeedom.<br/>JeeMate utilizza i tipi generici di Jeedom.",
+    "pt_PT": "JeeMate é uma aplicação móvel compatível com Jeedom.<br/>Controle facilmente a sua casa inteligente com a sua interface intuitiva e personalizável.<br/>JeeMate tem muitas características, e é compatível com muitos plugins Jeedom.<br/>Este plugin permite-lhe emparelhar a aplicação móvel com o seu Jeedom.<br/>JeeMate utiliza tipos genéricos Jeedom."
+  },
   "licence": "AGPL",
-  "author": "Pascal Moreau, Thibaut Trarbach et Sagitaz",
+  "author": "Pascal Moreau et Sagitaz",
   "require": "4.1",
   "category": "communication",
   "display": "panel",
   "hasDependency": false,
   "hasOwnDeamon": false,
   "maxDependancyInstallTime": 300,
-  "version": "1.0.0",
+  "version": "2.3.8",
   "changelog": "https://docs.jeemate.fr/fr/changelog/plugin",
   "documentation": "https://docs.jeemate.fr/fr/home",
   "changelog_beta": "https://docs.jeemate.fr/fr/changelog/plugin",
   "documentation_beta": "https://docs.jeemate.fr/fr/home",
-  "language" : ["fr_FR", "en_US"],
-  "compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
+  "link": {
+    "forum": "https://community.jeedom.com/tags/plugin-jeemate"
+  },
+  "language": [
+    "fr_FR",
+    "en_US",
+    "es_ES",
+    "de_DE",
+    "it_IT",
+    "pt_PT"
+  ],
+  "compatibility": [
+    "miniplus",
+    "smart",
+    "rpi",
+    "docker",
+    "diy",
+    "v4"
+  ]
 }
