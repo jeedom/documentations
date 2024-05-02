@@ -4,6 +4,8 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+- Adicionado tipo de chave Ember
+
 # 22/04/2024
 
 - Corrigido um bug na duplicação de comandos (em cenas)

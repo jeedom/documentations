@@ -4,6 +4,8 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+- Tipo de clave Ember agregado
+
 # 22/04/2024
 
 - Se corrigió un error en la duplicación de comandos (en escenas)

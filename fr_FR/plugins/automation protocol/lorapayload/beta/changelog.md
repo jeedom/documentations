@@ -10,6 +10,9 @@
 
 - Modification de la configuration *MClimate Wireless Thermostat* (propriétés : Manual Target Temperature Update)
 
+- Ajout de la configuration *Milesight WS303* (propriétés : Batterie, Leakage Status)
+
+
 # 29/04/2024
 
 - Ajout de la configuration *Dragino D23LBLS* (propriétés : Batterie, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)
