@@ -1,0 +1,2 @@
+# Complemento CoolAutomation
+

@@ -1,0 +1,2 @@
+# CoolAutomation-Plugin
+

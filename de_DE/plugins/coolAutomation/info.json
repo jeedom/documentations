@@ -1,0 +1,40 @@
+{
+	"id": "coolAutomation",
+	"name": "CoolAutomation",
+	"pluginVersion": "0.1",
+	"description": {
+		"fr_FR": "Plugin CoolAutomation"
+	},
+	"licence": "AGPL",
+	"author": "Jeedom SAS",
+	"require": "4.2",
+	"category": "wellness",
+	"hasDependency": false,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 0,
+	"changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/coolAutomation\/beta\/changelog",
+	"changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/coolAutomation\/changelog",
+	"documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/coolAutomation\/beta",
+	"documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/coolAutomation",
+	"link": {
+		"forum": "Lien vers le forum",
+		"video": "Lien vers une video"
+	},
+	"language": [
+		"fr_FR",
+		"en_US",
+		"es_ES",
+		"de_DE",
+		"ru_RU",
+		"id_ID",
+		"it_IT",
+		"ja_JP",
+		"pt_PT"
+	],
+	"compatibility": [
+		"luna",
+		"atlas",
+		"rpi",
+		"diy"
+	]
+}

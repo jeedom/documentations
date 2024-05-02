@@ -232,6 +232,9 @@
         "Il existe aussi une commande démo ainsi qu'une commande tous (pour agir sur tous les écrans en meme temps) ,ainsi qu'une commande phrase pour splitter une phrase sur les 4 écrans": "Il existe aussi une commande démo ainsi qu'une commande tous (pour agir sur tous les écrans en meme temps) ,ainsi qu'une commande phrase pour splitter une phrase sur les 4 écrans",
         "Avec ce plugin vous pouvez ainsi être notifié par SMS, voire poser une question ou déclencher une action via SMS grâce au moteur d'interactions": "Avec ce plugin vous pouvez ainsi être notifié par SMS, voire poser une question ou déclencher une action via SMS grâce au moteur d'interactions"
     },
+    "plugins\/coolAutomation\/index.md": {
+        "Plugin CoolAutomation": "Plugin CoolAutomation"
+    },
     "plugins\/devicecommunication\/index.md": {
         "Nabaztag": "Nabaztag",
         "Plugin pour commander le Nabaztag": "Plugin pour commander le Nabaztag",
@@ -739,6 +742,9 @@
         "Plugin pour gérer les bouilloires smarter Ikettle et Ikettle 2": "Plugin pour gérer les bouilloires smarter Ikettle et Ikettle 2",
         "Green Momit": "Green Momit",
         "Plugin pour les thermostats Greenmomit": "Plugin pour les thermostats Greenmomit",
+        "Plugin CoolAutomation": "Plugin CoolAutomation",
+        "CoolAutomation": "CoolAutomation",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
         "Brumisateur Alfawise": "Brumisateur Alfawise",
         "Plugin pour contrôler les brumisateurs Alfawise": "Plugin pour contrôler les brumisateurs Alfawise",
         "Airzone Web": "Airzone Web",
@@ -755,6 +761,8 @@
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
         "Changelog Beta": "Changelog Beta",
+        "Documentation beta": "Documentation beta",
+        "Changelog beta": "Changelog beta",
         "Basées sur le protocole WMP, les passerelles \" Intesis Wifi (ASCII) AC Interfaces \" sont des box qui permettent de domotiser des systèmes de climatisation gainables (interface Intesis à connecter en filaire sur le bus du climatisateur) ou à split avec télécommande infrarouge (interface Intesis IR": "Basées sur le protocole WMP, les passerelles \" Intesis Wifi (ASCII) AC Interfaces \" sont des box qui permettent de domotiser des systèmes de climatisation gainables (interface Intesis à connecter en filaire sur le bus du climatisateur) ou à split avec télécommande infrarouge (interface Intesis IR",
         "Il permet de lancer un cycle de nettoyage turbo ou éco, de mettre en pause, de reprendre, de faire un retour base, de connaitre le statut, la présence sur le dock, le niveau de charge, et bien plus encore": "Il permet de lancer un cycle de nettoyage turbo ou éco, de mettre en pause, de reprendre, de faire un retour base, de connaitre le statut, la présence sur le dock, le niveau de charge, et bien plus encore",
         "Vous réviez d'un aspirateur intégré à votre domotique, c'est réalisable grâce à ce plugin": "Vous réviez d'un aspirateur intégré à votre domotique, c'est réalisable grâce à ce plugin",
