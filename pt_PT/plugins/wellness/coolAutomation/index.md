@@ -1,2 +1,93 @@
 # Plug-in CoolAutomation
 
+
+
+
+# Descoberta automática de equipamentos CoolAutomation
+
+
+Basta clicar em Network Scan para começar a detectar equipamentos em sua rede
+
+
+![scanNetwok](../images/scanNetwork.png)
+
+
+Uma vez encontrado, os eqlogics correspondentes serão criados
+
+
+
+
+# Detalhe do equipamento
+
+
+A página de equipamentos reúne as informações necessárias para a criação de equipamentos dependentes deste último
+
+** Todas as informações nesta página são atualizadas ao chegar nesta página.
+
+
+![eqlogicMain](../images/eqlogicMain.png)
+
+No lado direito você encontra os parâmetros do equipamento : versão do firmware, número máximo de linhas no dispositivo, número máximo de unidades etc.
+Estes dados são apenas para fins informativos e não podem ser modificados
+
+
+
+No lado esquerdo encontramos o endereço IP do equipamento, bem como o seu número de série : essas 2 informações são muito importantes porque servem para enviar solicitações à API do dispositivo. 
+
+
+Abaixo dessas informações, encontramos o estado do servidor REST : este é o servidor web do dispositivo, que é usado para se comunicar com o plugin. Você deve, portanto, ativá-lo se ainda não estiver ativado. 
+Pode ser ativado através do plugin, bastando clicar no botão correspondente
+
+![activateRestServer](../images/activateRestServer.png)
+
+> ATTENTION
+
+> Isso fará com que o equipamento seja reiniciado
+
+
+Por fim, na seção Active Line Management, você encontrará as unidades conectadas ao equipamento e disponíveis para criação.
+
+
+
+# Alterar imagem do equipamento
+
+Acessando o equipamento Cool Automation, você pode escolher a imagem correspondente e salvar
+
+![chooseImg](../images/chooseImg.png)
+
+
+# Criação de Unidades e seus Equipamentos Mestres
+
+Para criar o equipamento que controla as unidades conectadas, basta verificá-los na seção Active Line Management e salvar
+
+![checkboxLines](../images/checkboxLines.png)
+
+Isto criará os eqlogics correspondentes, bem como o equipamento Master, permitindo controlar uma linha inteira.
+
+> ATTENTION
+
+> Se você desmarcar uma unidade que já foi criada e salvar, isso excluirá o equipamento. 
+> Se todas as caixas de uma linha estiverem desmarcadas, o equipamento Master da linha também será deletado
+
+
+# Visão geral dos equipamentos e suas unidades
+
+![linesCreated](../images/linesCreated.png)
+
+
+![detailsChilds](../images/detailsChilds.png)
+
+
+
+
+
+# Atribuindo unidades a um objeto
+
+
+Dezenas de unidades podem ter sido criadas e é tedioso ter que ir até cada uma delas para atribuir um objeto pai a elas. 
+
+![attribuateObjects](../images/attribuateObjects.png)
+
+Foi fornecido um sistema para facilitar esta : você só precisa marcar as unidades em uma linha e clicar em Atribuir seleção a um objeto, para escolher o objeto pai ao qual as unidades serão anexadas
+
+

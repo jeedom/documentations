@@ -6,13 +6,7 @@
         "fr_FR": "Plugin CoolAutomation",
         "en_US": "CoolAutomation plugin",
         "es_ES": "Complemento CoolAutomation",
-        "de_DE": "CoolAutomation-Plugin",
-        "ru_RU": "Plugin CoolAutomation",
-        "id_ID": "Plugin CoolAutomation",
-        "it_IT": "Plugin CoolAutomation",
-        "ja_JP": "Plugin CoolAutomation",
-        "pt_PT": "Plug-in CoolAutomation",
-        "tr": "Plugin CoolAutomation"
+        "de_DE": "CoolAutomation-Plugin"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -33,13 +27,7 @@
         "fr_FR",
         "en_US",
         "es_ES",
-        "de_DE",
-        "ru_RU",
-        "id_ID",
-        "it_IT",
-        "ja_JP",
-        "pt_PT",
-        "tr"
+        "de_DE"
     ],
     "compatibility": [
         "luna",
