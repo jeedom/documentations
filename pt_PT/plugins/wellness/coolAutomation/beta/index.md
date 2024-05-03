@@ -91,3 +91,17 @@ Dezenas de unidades podem ter sido criadas e é tedioso ter que ir até cada uma
 Foi fornecido um sistema para facilitar esta : você só precisa marcar as unidades em uma linha e clicar em Atribuir seleção a um objeto, para escolher o objeto pai ao qual as unidades serão anexadas
 
 
+
+# Atualização de dados 
+
+
+Dependendo da configuração do plugin, os dados de todos os equipamentos serão atualizados nesta frequência
+
+Existem 2 outros métodos para atualizar os dados de forma mais específica, sem fazer uma solicitação global para todos os dispositivos :
+
+- clicando no ícone Atualizar de um dispositivo Line Master : os dados de suas unidades vinculadas serão recuperados
+- clicando no ícone Atualizar de um equipamento filho do Mestre : os dados desta unidade somente serão recuperados
+
+
+
+

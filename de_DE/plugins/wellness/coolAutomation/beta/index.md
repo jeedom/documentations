@@ -91,3 +91,17 @@ Möglicherweise wurden Dutzende Einheiten erstellt, und es ist mühsam, zu jeder
 Um dies zu erleichtern, wurde ein System bereitgestellt : Sie müssen lediglich die Einheiten in einer Zeile markieren und dann auf „Auswahl einem Objekt zuweisen“ klicken, um das übergeordnete Objekt auszuwählen, an das die Einheiten angehängt werden sollen
 
 
+
+# Datenaktualisierung 
+
+
+Abhängig von der Konfiguration des Plugins werden die Daten aller Geräte in dieser Häufigkeit aktualisiert
+
+Es gibt zwei weitere Methoden, um die Daten gezielter zu aktualisieren, ohne eine globale Anfrage für alle Geräte zu stellen :
+
+- indem Sie auf das Aktualisierungssymbol eines Line Master-Geräts klicken : Die Daten der verbundenen Einheiten werden wiederhergestellt
+- indem Sie auf das Symbol „Aktualisieren“ einer untergeordneten Ausrüstung des Masters klicken : Nur die Daten dieses Geräts werden wiederhergestellt
+
+
+
+

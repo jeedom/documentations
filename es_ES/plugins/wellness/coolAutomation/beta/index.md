@@ -91,3 +91,17 @@ Es posible que se hayan creado decenas de unidades, y resulta tedioso tener que 
 Se ha proporcionado un sistema para facilitar esto : solo necesita marcar las unidades en una línea, luego hacer clic en Asignar selección a un objeto, para elegir el objeto principal al que se adjuntarán las unidades
 
 
+
+# Actualización de datos 
+
+
+Dependiendo de la configuración del complemento, los datos de todos los equipos se actualizarán con esta frecuencia
+
+Existen otros 2 métodos para actualizar los datos de forma más específica, sin realizar una solicitud global para todos los dispositivos :
+
+- haciendo clic en el icono Actualizar de un dispositivo Line Master : Los datos de sus unidades vinculadas serán recuperados
+- haciendo clic en el icono Actualizar de un equipo hijo del Master : Sólo se recuperarán los datos de esta unidad
+
+
+
+
