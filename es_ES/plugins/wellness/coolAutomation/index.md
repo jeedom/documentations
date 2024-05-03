@@ -89,5 +89,32 @@ Es posible que se hayan creado decenas de unidades, y resulta tedioso tener que 
 ![attribuateObjects](./images/attribuateObjects.png)
 
 Se ha proporcionado un sistema para facilitar esto : solo necesita marcar las unidades en una línea, luego hacer clic en Asignar selección a un objeto, para elegir el objeto principal al que se adjuntarán las unidades
+Incluso puedes seleccionar todas las unidades a través de la casilla de verificación al lado del botón
+
+
+
+# Actualización de datos 
+
+
+Dependiendo de la configuración del complemento, los datos de todos los equipos se actualizarán con esta frecuencia
+
+Existen otros 2 métodos para actualizar los datos de forma más específica, sin realizar una solicitud global para todos los dispositivos :
+
+- haciendo clic en el icono Actualizar de un dispositivo Line Master : Los datos de sus unidades vinculadas serán recuperados
+- haciendo clic en el icono Actualizar de un equipo hijo del Master : Sólo se recuperarán los datos de esta unidad
+
+
+# Gestión de unidades y Másteres
+
+
+Cada unidad se puede controlar individualmente
+
+Para controlar todas las unidades de una línea, puede utilizar los comandos del Maestro asociado. 
+
+> Para las instrucciones, estas están asociadas a un modo: Caliente o frío
+> Un cambio de setpoint en un Master cambiará el setpoint de las unidades dependientes, pero también el modo asociado : Caliente o frío
+> Así que recuerde restablecer el modo deseado una vez que se haya asignado el punto de ajuste general
+
+
 
 

@@ -89,5 +89,32 @@ Dozens of units may have been created, and it is tedious to have to go to each o
 ![attribuateObjects](./images/attribuateObjects.png)
 
 A system has been provided to facilitate this : you just need to check the units in a line, then click on Assign selection to an object, to choose the parent object to which the units will be attached
+You can even select all the units via the checkbox next to the button
+
+
+
+# Data refresh 
+
+
+Depending on the configuration of the plugin, the data of all equipment will be updated at this frequency
+
+There are 2 other methods to update the data more specifically, without making a global request for all devices :
+
+- by clicking on the Refresh icon of a Line Master device : the data of its linked units will be recovered
+- by clicking on the Refresh icon of a child equipment of the Master : data from this unit alone will be recovered
+
+
+# Management of units and Masters
+
+
+Each unit can be controlled individually
+
+To control all the units in a line, you can use the commands of the associated Master. 
+
+> For the instructions, these are associated with a mode: Hot or cold
+> A change of setpoint on a Master will change the setpoint of the dependent units, but also the associated mode : Hot or cold
+> So remember to reset the desired mode once the overall setpoint has been assigned
+
+
 
 

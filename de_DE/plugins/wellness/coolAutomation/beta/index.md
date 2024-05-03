@@ -89,6 +89,7 @@ Möglicherweise wurden Dutzende Einheiten erstellt, und es ist mühsam, zu jeder
 ![attribuateObjects](../images/attribuateObjects.png)
 
 Um dies zu erleichtern, wurde ein System bereitgestellt : Sie müssen lediglich die Einheiten in einer Zeile markieren und dann auf „Auswahl einem Objekt zuweisen“ klicken, um das übergeordnete Objekt auszuwählen, an das die Einheiten angehängt werden sollen
+Sie können sogar alle Einheiten über die Checkbox neben der Schaltfläche auswählen
 
 
 
@@ -101,6 +102,18 @@ Es gibt zwei weitere Methoden, um die Daten gezielter zu aktualisieren, ohne ein
 
 - indem Sie auf das Aktualisierungssymbol eines Line Master-Geräts klicken : Die Daten der verbundenen Einheiten werden wiederhergestellt
 - indem Sie auf das Symbol „Aktualisieren“ einer untergeordneten Ausrüstung des Masters klicken : Nur die Daten dieses Geräts werden wiederhergestellt
+
+
+# Verwaltung von Einheiten und Meistern
+
+
+Jede Einheit kann einzeln gesteuert werden
+
+Um alle Einheiten einer Linie zu steuern, können Sie die Befehle des zugehörigen Masters verwenden. 
+
+> Bei den Anweisungen sind diese einem Modus zugeordnet: Heiß oder kalt
+> Eine Änderung des Sollwerts an einem Master ändert den Sollwert der abhängigen Einheiten, aber auch den zugehörigen Modus : Heiß oder kalt
+> Denken Sie also daran, nach der Zuweisung des Gesamtsollwerts in den gewünschten Modus zurückzukehren
 
 
 

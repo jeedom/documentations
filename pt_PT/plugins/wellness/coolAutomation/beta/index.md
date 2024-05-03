@@ -89,6 +89,7 @@ Dezenas de unidades podem ter sido criadas e é tedioso ter que ir até cada uma
 ![attribuateObjects](../images/attribuateObjects.png)
 
 Foi fornecido um sistema para facilitar esta : você só precisa marcar as unidades em uma linha e clicar em Atribuir seleção a um objeto, para escolher o objeto pai ao qual as unidades serão anexadas
+Você pode até selecionar todas as unidades através da caixa de seleção ao lado do botão
 
 
 
@@ -101,6 +102,18 @@ Existem 2 outros métodos para atualizar os dados de forma mais específica, sem
 
 - clicando no ícone Atualizar de um dispositivo Line Master : os dados de suas unidades vinculadas serão recuperados
 - clicando no ícone Atualizar de um equipamento filho do Mestre : os dados desta unidade somente serão recuperados
+
+
+# Gestão de unidades e Masters
+
+
+Cada unidade pode ser controlada individualmente
+
+Para controlar todas as unidades em uma linha, você pode usar os comandos do Master associado. 
+
+> Para as instruções, estas estão associadas a um modo: Quente ou frio
+> Uma alteração do setpoint num Master irá alterar o setpoint das unidades dependentes, mas também o modo associado : Quente ou frio
+> Portanto, lembre-se de retornar ao modo desejado assim que o ponto de ajuste geral tiver sido atribuído
 
 
 

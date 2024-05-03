@@ -89,6 +89,7 @@ Des dizaines d'unités peuvent avoir été créées, et il est fastidieux de dev
 ![attribuateObjects](../images/attribuateObjects.png)
 
 Il a été prevu un systeme pour faciliter cela : il vous suffit de cocher les unités d'une ligne, puis de cliquer sur Attribue la sélection à un objet, pour choisir l'objet parent auquel seront rattachées les unités
+Vous pouvez meme selectionner toutes les unités via la checkbox à coté du bouton
 
 
 
@@ -101,6 +102,18 @@ Il existe 2 autres méthodes pour actualiser les données plus spécifiquement, 
 
 - en cliquant sur l'icone Refresh d'un equipement Master de Ligne : les données de ses unités liées seront récuperées
 - en cliquant sur l'icone Refresh d'un equipement enfant du Master : les données de cette unités seule seront récuperées
+
+
+# Pilotage des unités et des Masters
+
+
+Chaque unité est pilotable individuellement
+
+Pour commander toute les unités d'une ligne, on peut passer par les commandes du Master associé. 
+
+> Pour les consignes, celles ci sont associés à un mode: Chaud ou Froid
+> Un changement de consigne sur un Master va changer la consigne des unités dépendantes, mais également le mode associé : Chaud ou Froid
+> Pensez donc à remettre le mode souhaité une fois la consigne globale attribuée
 
 
 
