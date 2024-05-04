@@ -7,7 +7,7 @@
     "licence":"AGPL",
     "author":"DomoFlo1",
     "require":"4.0",
-    "hasDependency":false,
+    "hasDependency":true,
     "hasOwnDeamon":false,
     "category":"monitoring",
     "display":"panel",
