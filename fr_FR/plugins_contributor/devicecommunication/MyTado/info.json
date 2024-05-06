@@ -1,7 +1,7 @@
 {
 	"id": "MyTado",
 	"name": "MyTado",
-	"version": "1.0",
+	"version": "1.1",
 	"description": {
 		"fr_FR": "Ce plugin permet de gérer les objets connectés Tado",
 		"en_US": "This plugin enables management of Tado devices"
