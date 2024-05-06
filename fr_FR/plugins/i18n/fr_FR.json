@@ -30,7 +30,7 @@
         "Modbus": "Modbus",
         "Plugin Modbus Non compatible Wago": "Plugin Modbus Non compatible Wago",
         "Lora Payload": "Lora Payload",
-        "Plugin permetant le traduire les Payloads Lora, uniquement destiné au projet de l'équipe Jeedom": "Plugin permetant le traduire les Payloads Lora, uniquement destiné au projet de l'équipe Jeedom",
+        "Plugin permetant le décodage des Payloads Lora": "Plugin permetant le décodage des Payloads Lora",
         "Attention le plugin passera payant quand il passera en stable": "Attention le plugin passera payant quand il passera en stable",
         "IPX800 v5": "IPX800 v5",
         "IPX 800 v4": "IPX 800 v4",
