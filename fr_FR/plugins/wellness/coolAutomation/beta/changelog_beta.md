@@ -3,6 +3,7 @@
 # 06/05/2024
 
 - Fix changement IP sur equipement principal pour transmission aux enfants
+- Ajout Création Manuelle pour Intégration en amont
 
 # 04/05/2024
 

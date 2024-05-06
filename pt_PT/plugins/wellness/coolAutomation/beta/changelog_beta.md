@@ -3,6 +3,7 @@
 # 06/05/2024
 
 - Corrigir alteração de IP no equipamento principal para transmissão para crianças
+- Adicionada criação manual para integração de backstream
 
 # 05/04/2024
 

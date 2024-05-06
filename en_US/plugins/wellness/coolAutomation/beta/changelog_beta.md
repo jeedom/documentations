@@ -3,6 +3,7 @@
 # 05/06/2024
 
 - Fix IP change on main equipment for transmission to children
+- Added Manual Creation for Backstream Integration
 
 # 04/05/2024
 
