@@ -5,6 +5,7 @@
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
 - Tipo de clave Ember agregado
+- Se solucionó un problema al iniciar el demonio por primera vez con respecto a los derechos del archivo de registro
 
 # 22/04/2024
 

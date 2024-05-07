@@ -5,6 +5,7 @@
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 - Ajout du type de clef Ember
+- Correction d'un soucis au premier démarrage du démon sur les droits sur le fichier de log
 
 # 22/04/2024
 
