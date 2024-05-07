@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 05.06.2024
+
+- Interne Änderung zur Vermeidung unerwünschter Nebenwirkungen. Die „Refresh“-Funktion der Klasse *Skript* wurde in „refreshAllInfo“ umbenannt und das der Klasse *scriptCmd* wurde in „refreshInfo“ umbenannt". Wenn Sie diese Methoden in Ihren Codeblockszenarien verwendet haben, müssen Sie sie korrigieren.
+
 # 11.01.2024
 
 - Ein Fehler beim Aktualisieren von Infobefehlen während einer Aktion wurde behoben

@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 05/06/2024
+
+- Internal change to avoid unwanted side effects. The "refresh" function of the class *script* was renamed "refreshAllInfo" and that of the class *scriptCmd* was renamed "refreshInfo". If you used these methods in your code block scenarios you need to correct them.
+
 # 01/11/2024
 
 - Fixed a bug when updating info commands during an action

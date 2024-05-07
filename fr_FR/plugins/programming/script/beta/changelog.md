@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 06/05/2024
+
+- Changement interne pour éviter des effets de bord non désirés. La fonction "refresh" de la class *script* a été renommée "refreshAllInfo" et celle de le class *scriptCmd* a été renommée "refreshInfo". Si vous utilisiez ces méthodes dans vos scénarios bloc code vous devez les corriger.
+
 # 11/01/2024
 
 - Correction d'un bug sur la mise à jour des commandes info lors d'une action
