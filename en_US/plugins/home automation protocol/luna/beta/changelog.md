@@ -8,6 +8,10 @@
 
 # 02/05/2024
 
+- Added controls to turn the battery on and off
+
+# 02/05/2024
+
 - Double IP correction
 - Added APN information for a better 4G connection
 

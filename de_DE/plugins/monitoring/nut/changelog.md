@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+## 16.04.2024
+
+- Korrigieren Sie die Version einer Abhängigkeit (pynut3)
+
 ## 25.01.2023
 
 - Python3-Migration

@@ -9,7 +9,7 @@ Plugin to create and manage wifi cameras (display and recording).
 After installing the plugin, you just need to activate it. Some parameters must be entered in the plugin configuration :
 
 -   **Record path** : indicates the path where Jeedom should store the images it captures from your cameras (it is not recommended to touch it). If your path is not in the Jeedom installation path then you will not be able to view the captures in Jeedom.
--   **Maximum recording folder size (MB)** : indicates the maximum size authorized for the folder where the catches are saved (it is not recommended to touch it). If this quota is reached Jeedom will delete the oldest catches.
+-   **Maximum recording folder size (MB)** : indicates the maximum size authorized for the folder where the catches are saved (it is not recommended to touch it). If this quota is reached Jeedom will delete the oldest captures.
 -   **The camera plugin must react to interactions** : keywords / phrases to which the plugin will react via Jeedom interactions.
 -   **Panel** : allows you to display the panel (Home Menu → Camera) and to have a view of all your cameras (see below). Do not forget to activate the panel in the configuration of the plugin to access it later.
 
@@ -31,12 +31,13 @@ Here you have the main information of your camera :
 -   **Port** : the port for which to attach the camera.
 -   **Protocol** : the communication protocol of your camera (http or https).
 -   **Username** : username to log in to the camera (if required). Please note the plugin does not support special characters (you must therefore limit yourself to numbers, lowercase / uppercase letters).
--   **Password** : password to connect to the camera (if necessary).Be careful, the plugin makes a url_encode for the username and password required for some cameras but this can cause problems for others, if you have a problem try without special characters (be limited to numbers, lowercase / uppercase letters).
+-   **Password** : password to connect to the camera (if necessary). Please note, the plugin makes a url_encode for the username and password mandatory for some cameras but this can cause problems for others, if you have a problem, try without special characters (limit yourself to numbers, lowercase letters/ capital letter).
 -   **Snapshot URL** : Camera snapshot URL. Change depending on the cameras. Be careful not to put a flow url under penalty of crashing Jeedom. You can add the tags \#username\# and \#password\#, which will be automatically replaced by the username and password when using this command.
 -   **Feed URL** : type camera video stream url ``rtsp://#username#:#password#@#ip#:554/videoMain`` (example for Foscam cameras).
--   **RTSP stream stream** : if you are in video stream mode (stream URL filled in) then you can see the camera as a video stream instead of frame by frame. Please note this option consumes a lot of resources and makes the 1st image very to arrive.
+-   **RTSP stream stream** : If you are in video stream mode (stream URLs filled in), then you can view the camera as a video stream instead of frame by frame. Be careful, this option consumes a lot of resources and makes the first image very slow to arrive.
+-   **Convert RTSP stream to x264** : if your camera is configured in H265 video codec, converts on the fly to H264. Be careful, this option consumes a lot of resources and increases lag.
 -   **Preview** : allows you to see if jeedom recovers the video stream (remember to save before testing to see if your modifications work)
--   **Video stream option** : if you are in video stream mode (stream URL filled in) then you can pass additional parameters here to ffmpeg and avconv (reserved for experts)
+-   **Video stream option** : if you are in video stream mode (stream URLs filled), then you can pass additional parameters here to ffmpeg and avconv (reserved for experts)
 -   **Model** : allows to choose the camera model. Be careful : if you change it will overwrite your configuration settings.
 
 ONVIF settings :
@@ -48,7 +49,7 @@ ONVIF settings :
 
 > **NOTE**
 >
-> You can find [here](https://www.ispyconnect.com/cameras) configuration for a lot of camera and therefore be able to integrate your camera yourself in Jeedom if it is not in the list
+> You can find [here](https://www.ispyconnect.com/cameras) configurations for quite a few cameras and therefore be able to integrate your camera yourself into Jeedom if it is not in the list
 
 ## Image
 

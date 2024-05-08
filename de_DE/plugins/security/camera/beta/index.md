@@ -9,7 +9,7 @@ Plugin zum Erstellen und Verwalten von WLAN-Kameras (Anzeige und Aufzeichnung).
 Nach der Installation des Plugins müssen Sie es nur noch aktivieren. Einige Parameter müssen in der Plugin-Konfiguration eingegeben werden :
 
 -   **Pfad aufzeichnen** : Gibt den Pfad an, in dem Jeedom die von Ihren Kameras aufgenommenen Bilder speichern soll (es wird nicht empfohlen, sie zu berühren). Wenn sich Ihr Pfad nicht im Jeedom-Installationspfad befindet, können Sie die Erfassungen in Jeedom nicht anzeigen.
--   **Maximale Größe des Aufnahmeordners (MB)** : Gibt die maximale Größe an, die für den Ordner autorisiert ist, in dem die Fänge gespeichert sind (es wird nicht empfohlen, ihn zu berühren). Wenn diese Quote erreicht ist, löscht Jeedom die ältesten Fänge.
+-   **Maximale Größe des Aufnahmeordners (MB)** : Gibt die maximale Größe an, die für den Ordner autorisiert ist, in dem die Fänge gespeichert sind (es wird nicht empfohlen, ihn zu berühren). Wenn dieses Kontingent erreicht ist, löscht Jeedom die ältesten Aufnahmen.
 -   **Das Kamera-Plugin muss auf Interaktionen reagieren** : Schlüsselwörter / Phrasen, auf die das Plugin über Jeedom-Interaktionen reagiert.
 -   **Platte** : Mit dieser Option können Sie das Bedienfeld anzeigen (Startmenü → Kamera) und alle Ihre Kameras anzeigen (siehe unten)). Vergessen Sie nicht, das Panel in der Konfiguration des Plugins zu aktivieren, um später darauf zugreifen zu können.
 
@@ -31,13 +31,14 @@ Hier haben Sie die wichtigsten Informationen Ihrer Kamera :
 -   **Hafen** : der Anschluss, an den die Kamera angeschlossen werden soll.
 -   **Protokolle** : das Kommunikationsprotokoll Ihrer Kamera (http oder https).
 -   **Benutzername** : Benutzername, um sich bei der Kamera anzumelden (falls erforderlich)). Bitte beachten Sie, dass das Plugin keine Sonderzeichen unterstützt (Sie müssen sich daher auf Zahlen, Klein- / Großbuchstaben beschränken).
--   **Passwort** : Passwort für die Verbindung zur Kamera (falls erforderlich)).Bitte beachten Sie, dass das Plugin für einige Kameras einen url_encode für den Benutzernamen und das Passwort erfordert, dies jedoch bei anderen zu Problemen führen kann. Wenn Sie ein Problem haben, versuchen Sie es ohne Sonderzeichen (beschränken Sie sich auf Zahlen, Klein-/Großbuchstaben).
+-   **Passwort** : Passwort für die Verbindung zur Kamera (falls erforderlich)). Bitte beachten Sie, dass das Plugin für einige Kameras einen URL-Code für den Benutzernamen und das Passwort zwingend vorschreibt, dies kann jedoch bei anderen zu Problemen führen. Wenn Sie ein Problem haben, versuchen Sie es ohne Sonderzeichen (beschränken Sie sich auf Zahlen, Kleinbuchstaben/Großbuchstaben)).
 -   **Snapshot-URL** : Kamera-Snapshot-URL. Ändern Sie je nach Kamera. Achten Sie darauf, dass Sie keine Flow-URL unter die Strafe des Absturzes von Jeedom stellen. Sie können die Tags \ hinzufügen#username\# und \#password\#, Diese werden bei Verwendung dieses Befehls automatisch durch den Benutzernamen und das Kennwort ersetzt.
 -   **Feed-URL** : Typ Kamera Video Stream URL ``rtsp://#username#:#password#@#ip#:554/videoMain`` (Beispiel für Foscam-Kameras).
--   **RTSP-Stream-Stream** : Wenn Sie sich im Videostream-Modus befinden (Stream-URL ausgefüllt), können Sie die Kamera als Videostream anstelle von Frame für Frame sehen. Bitte beachten Sie, dass diese Option viele Ressourcen verbraucht und das erste Bild sehr schnell ankommt.
+-   **RTSP-Stream-Stream** : Wenn Sie sich im Videostream-Modus befinden (Stream-URLs ausgefüllt), können Sie die Kamera als Videostream statt Bild für Bild anzeigen. Seien Sie vorsichtig, diese Option verbraucht viele Ressourcen und sorgt dafür, dass das erste Bild nur sehr langsam ankommt.
+-   **Konvertieren Sie den RTSP-Stream in x264** : Wenn Ihre Kamera im H265-Videocodec konfiguriert ist, erfolgt die Konvertierung im Handumdrehen in H264. Seien Sie vorsichtig, diese Option verbraucht viele Ressourcen und erhöht die Verzögerung.
 -   **Vorschau** : ermöglicht Ihnen zu sehen, ob jeedom den Videostream wiederherstellt (denken Sie daran, vor dem Testen zu speichern, um zu sehen, ob Ihre Änderungen funktionieren)
--   **Videostream-Option** : Wenn Sie sich im Video-Stream-Modus befinden (Stream-URL ausgefüllt), können Sie hier zusätzliche Parameter an ffmpeg und avconv übergeben (für Experten reserviert))
--   **Modell** : ermöglicht die Auswahl des Kameramodells. Achtung : Wenn Sie dies ändern, werden Ihre Konfigurationseinstellungen überschrieben.
+-   **Videostream-Option** : Wenn Sie sich im Videostream-Modus befinden (Stream-URLs gefüllt), können Sie hier zusätzliche Parameter an ffmpeg und avconv übergeben (für Experten reserviert))
+-   **Modell** : ermöglicht die Auswahl des Kameramodells. Achtung : Wenn Sie es ändern, werden Ihre Konfigurationseinstellungen überschrieben.
 
 ONVIF-Einstellungen :
 -   **ONVIF-Port** : der für onvif verwendete Port
@@ -48,7 +49,7 @@ ONVIF-Einstellungen :
 
 > **Notiz**
 >
-> Sie können finden [Hier](https://www.ispyconnect.com/cameras) Konfiguration für viele Kameras und daher in der Lage sein, Ihre Kamera selbst in Jeedom zu integrieren, wenn es nicht in der Liste ist
+> Sie können finden [Hier](https://www.ispyconnect.com/cameras) Konfigurationen für eine ganze Reihe von Kameras und können so Ihre Kamera selbst in Jeedom integrieren, wenn sie nicht in der Liste enthalten ist
 
 ## Image
 

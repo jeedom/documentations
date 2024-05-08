@@ -9,7 +9,7 @@ Plugin permettant de créer et gérer des caméras wifi (affichage et enregistre
 Après installation du plugin, il vous suffit de l'activer. Quelques paramètres sont à renseigner dans la configuration du plugin :
 
 -   **Chemin des enregistrements** : indique le chemin où Jeedom doit stocker les images qu'il capture de vos caméras (il est déconseillé d'y toucher). Si votre chemin n'est pas dans le chemin d'installation de Jeedom alors vous ne pourrez visualiser les captures dans Jeedom.
--   **Taille maximum du dossier d'enregistrement (Mo)** : indique la taille maximum autorisée pour le dossier où les captures sont enregistrées (il est déconseillé d'y toucher). Si ce quotas est atteint Jeedom supprimera les captures les plus anciennes.
+-   **Taille maximum du dossier d'enregistrement (Mo)** : indique la taille maximum autorisée pour le dossier où les captures sont enregistrées (il est déconseillé d'y toucher). Si ce quota est atteint Jeedom supprimera les captures les plus anciennes.
 -   **Le plugin caméra doit réagir aux interactions** : mots clés / phrases auxquel(le)s le plugin réagira via les interactions de Jeedom.
 -   **Panel** : permet d'afficher le panel (Menu Accueil → Caméra) et d'avoir une vue sur l'ensemble de vos caméras (voir plus bas). N'oubliez pas d'activer le panel dans la configuration du plugin pour y avoir accès plus tard.
 
@@ -31,13 +31,14 @@ Ici vous avez les informations principales de votre caméra :
 -   **Port** : le port pour sur lequel joindre la caméra.
 -   **Protocole** : le protocole de communication de votre caméra (http ou https).
 -   **Nom d'utilisateur** : nom d'utilisateur pour se connecter à la caméra (si nécessaire). Attention le plugin ne supporte pas les caractères spéciaux (il faut donc se limiter aux chiffres, lettres minuscule/majuscule).
--   **Mot de passe** : mot de passe pour se connecter à la caméra (si nécessaire).Attention le plugin fait un url_encode pour le nom d'utilisateur et mot de passe obligatoire pour certaine camera mais cela peut poser soucis pour d'autre, si vous avez un soucis essayez sans caractères spéciaux (se limiter aux chiffres, lettres minuscule/majuscule).
+-   **Mot de passe** : mot de passe pour se connecter à la caméra (si nécessaire). Attention, le plugin fait un url_encode pour le nom d'utilisateur et mot de passe obligatoire pour certaines cameras mais cela peut poser soucis pour d'autres, si vous avez un souci, essayez sans caractères spéciaux (se limiter aux chiffres, lettres minuscule/majuscule).
 -   **URL de snapshot** : URL de "snapshot" de la caméra. Change en fonction des caméras. Attention à ne pas mettre une url de flux sous peine de planter Jeedom. Vous pouvez ajouter les tags \#username\# et \#password\#, qui seront automatiquement remplacés par le nom d'utilisateur et le mot de passe lors de l'utilisation de cette commande.
 -   **URL du flux** : url du flux video de la caméra de type ``rtsp://#username#:#password#@#ip#:554/videoMain`` (exemple pour les caméras Foscam).
--   **Stream du flux RTSP** : si vous etês en mode flux video (URL du flux remplis) alors vous pouvez voir la camera sous forme de flux video au lieu d'image par image. Attention cette option est très consommatrice de ressources et rend la 1er image très à arriver.
--   **Previsualiser** : permet de voir si jeedom recupere bien le flux video (pensez bien a sauvegarder avant de test pour voir si vos modifications marchent)
--   **Option flux video** : si vous etês en mode flux video (URL du flux remplis) alors vous pouvez passer des parametres suplementaire ici à ffmpeg et avconv (reservé aux experts)
--   **Modèle** : permet de choisir le modèle de la caméra. Attention : si vous changez cela écrasera vos paramètres de configuration.
+-   **Stream du flux RTSP** : si vous etês en mode flux vidéo (URL du flux remplis), alors vous pouvez voir la caméra sous forme de flux vidéo au lieu d'image par image. Attention, cette option est très consommatrice de ressources et rend la 1re image très lente à arriver.
+-   **Convertir en x264 le flux RTSP** : si votre caméra est configurée en codec vidéo H265, convertit à la volée en H264. Attention, cette option est très consommatrice de ressources et augmente le décalage.
+-   **Previsualiser** : permet de voir si jeedom recupère bien le flux vidéo (pensez bien a sauvegarder avant de test pour voir si vos modifications marchent)
+-   **Option flux video** : si vous êtes en mode flux vidéo (URL du flux remplis), alors vous pouvez passer des paramètres supplémentaires ici à ffmpeg et avconv (reservé aux experts)
+-   **Modèle** : permet de choisir le modèle de la caméra. Attention : si vous changez, cela écrasera vos paramètres de configuration.
 
 Les paramètres ONVIF :
 -   **Port ONVIF** : le port servant pour onvif
@@ -48,7 +49,7 @@ Les paramètres ONVIF :
 
 > **NOTE**
 >
-> Vous pouvez retrouver [ici](https://www.ispyconnect.com/cameras) des configuration pour pas mal de camera et donc pouvoir integrer votre camera vous meme à Jeedom si elle n'est pas dans la liste
+> Vous pouvez retrouver [ici](https://www.ispyconnect.com/cameras) des configurations pour pas mal de cameras et donc pouvoir intégrer votre camera vous-même à Jeedom si elle n'est pas dans la liste
 
 ## Image
 

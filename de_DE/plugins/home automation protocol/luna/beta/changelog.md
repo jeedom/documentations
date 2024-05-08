@@ -8,6 +8,10 @@
 
 # 05.02.2024
 
+- Steuerelemente zum Ein- und Ausschalten des Akkus hinzugefügt
+
+# 05.02.2024
+
 - Doppelte IP-Korrektur
 - APN-Informationen für eine bessere 4G-Verbindung hinzugefügt
 
