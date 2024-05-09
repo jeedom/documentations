@@ -3,6 +3,7 @@
 # 05.06.2024
 
 - IP-Änderung am Hauptgerät für die Übertragung an Kinder behoben
+- Manuelle Erstellung für Backstream-Integration hinzugefügt
 
 # 04.05.2024
 
