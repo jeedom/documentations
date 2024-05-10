@@ -4,6 +4,15 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 05/10/2024
+
+- Fixed a bug when rescheduling sunrise/sunset
+
+# 04/23/2024
+
+- Minimum Jeedom core version required : 4.4
+- Bug fixes on Jeedom 4.4
+
 # 02/22/2024
 
 - Complete redesign of the plugin

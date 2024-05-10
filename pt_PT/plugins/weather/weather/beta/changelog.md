@@ -4,6 +4,15 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 10/05/2024
+
+- Corrigido um bug ao reprogramar o nascer/pôr do sol
+
+# 23/04/2024
+
+- Versão mínima do núcleo do Jeedom necessária : 4.4
+- Correções de bugs no Jeedom 4.4
+
 # 22/02/2024
 
 - Reformulação completa do plugin

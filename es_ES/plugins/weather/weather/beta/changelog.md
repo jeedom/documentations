@@ -4,6 +4,15 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 10/05/2024
+
+- Se corrigió un error al reprogramar el amanecer/atardecer
+
+# 23/04/2024
+
+- Se requiere la versión básica mínima de Jeedom : 4.4
+- Corrección de errores en Jeedom 4.4
+
 # 22/02/2024
 
 - Rediseño completo del complemento
