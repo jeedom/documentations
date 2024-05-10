@@ -5,6 +5,7 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
 - Support des volets roulants EnOcean
+- Possibilité de configurer le port de communication avec l'ip (par défaut 80)
 
 # 08/01/2024
 
