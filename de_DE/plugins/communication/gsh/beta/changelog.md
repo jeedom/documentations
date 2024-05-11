@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 09.05.2024
+
+- Fehlerbehebungen
+
+# 29.04.2024
 
 - Ein Fehler mit Jeedom 4.4 wurde behoben
 - Version nur kompatibel mit Jeedom 4.4 oder mehr
@@ -45,7 +50,7 @@
 - Möglichkeit, jede Anfrage von Google basierend auf einer Bedingung zu sperren
 - Möglichkeit, bei der Aufforderung zum Entsperren eines Schlosses keinen Code zu haben
 
-# 04/05/2021 
+# 04/05/2021
 
 - Wechseln zu NodeJS 14
 
@@ -182,7 +187,6 @@
 - Hinzufügen von Fernsehgeräten (erfordert Jeedom 3.3.x oder mehr)
 - Hinzufügen eines Lautstärkereglers und eines Medienbefehls (Stopp, Pause, Wiedergabe, Weiter, Zurück) für den Lautsprechertyp (erfordert Jeedom 3.3.x oder mehr)
 - Behebung eines Problems der Nicht-Deaktivierung des Getriebes beim Deaktivieren eines Geräts
-
 
 # 01/07/2018
 

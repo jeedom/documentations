@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 09/05/2024
+
+- Correcciones de errores
+
+# 29/04/2024
 
 - Se corrigió un error con Jeedom 4.4
 - Versión sólo compatible con Jeedom 4.4 o más
@@ -45,7 +50,7 @@
 - Posibilidad de prohibir cualquier solicitud de Google basada en una condición
 - Posibilidad de no tener código al solicitar el desbloqueo de una cerradura
 
-# 05/04/2021 
+# 05/04/2021
 
 - Cambiando a nodejs 14
 
@@ -182,7 +187,6 @@
 - Agregar televisores (requiere jeedom 3.3.x o más)
 - Adición de control de volumen y comando de medios (detener, pausar, reproducir, siguiente, anterior) para el tipo de altavoz (requiere jeedom 3.3.x o más)
 - Corrección de un problema de no desactivación de la transmisión al desactivar un equipo
-
 
 # 01/07/2018
 
