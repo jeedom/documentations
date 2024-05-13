@@ -6,8 +6,13 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 13/05/2024
+
 - Melhor gerenciamento de erros nos equipamentos
 - Melhor atualização de valores
+- Melhor suporte para diferentes termostatos
+
+Obrigado @ThePiloo por todas as melhorias
 
 # 05/02/2024
 

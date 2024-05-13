@@ -6,8 +6,13 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
 
+# 13/05/2024
+
 - Mejor gestión de errores en los equipos
 - Actualización mejorada de valores
+- Mejor soporte para diferentes termostatos
+
+Gracias @ThePiloo por todas las mejoras
 
 # 05/02/2024
 

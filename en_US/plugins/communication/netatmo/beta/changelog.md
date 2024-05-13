@@ -6,8 +6,13 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
 
+# 05/13/2024
+
 - Better error management on equipment
 - Improved updating of values
+- Better support for different thermostats
+
+Thanks @ThePiloo for all the improvements
 
 # 02/05/2024
 

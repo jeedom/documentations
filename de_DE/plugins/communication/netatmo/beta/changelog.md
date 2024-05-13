@@ -6,8 +6,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 13.05.2024
+
 - Besseres Fehlermanagement an Geräten
 - Verbesserte Aktualisierung von Werten
+- Bessere Unterstützung für verschiedene Thermostate
+
+Danke @ThePiloo für alle Verbesserungen
 
 # 05.02.2024
 
