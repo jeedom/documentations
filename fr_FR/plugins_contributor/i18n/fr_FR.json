@@ -94,7 +94,7 @@
         "Plugin pour le support de l'assistant vocal Rhasspy dans Jeedom": "Plugin pour le support de l'assistant vocal Rhasspy dans Jeedom",
         "créez vos équipements et récupérez vos données de santé": "créez vos équipements et récupérez vos données de santé",
         "JeeMate": "JeeMate",
-        "JeeMate est une application mobile disponible pour les appareils Android et wearOS (playStore), iOS (Apple store) et Windows (Microsoft store": "JeeMate est une application mobile disponible pour les appareils Android et wearOS (playStore), iOS (Apple store) et Windows (Microsoft store",
+        "JeeMate est une application mobile disponible pour les appareils Android et wearOS (Play store), iOS (Apple store) et Windows (Microsoft store": "JeeMate est une application mobile disponible pour les appareils Android et wearOS (Play store), iOS (Apple store) et Windows (Microsoft store",
         "Ios Icloud": "Ios Icloud",
         "Plugin pour récupérer les infos d'un compte icloud permettant de récupérer la localisation, émettre un son": "Plugin pour récupérer les infos d'un compte icloud permettant de récupérer la localisation, émettre un son",
         "Ces informations ne sont pas toutes gérées par Informe, mais Informe les récupère des autres plugins (de localisation, Blea, Jeemate, Présence, Alarme, …": "Ces informations ne sont pas toutes gérées par Informe, mais Informe les récupère des autres plugins (de localisation, Blea, Jeemate, Présence, Alarme, …",
@@ -133,13 +133,7 @@
         "Passerelle Apple HomeKit pour Jeedom": "Passerelle Apple HomeKit pour Jeedom",
         "Pour informer un utilisateur, il suffira de demander \" Informe Sigalou que la porte du frigo est ouverte": "Pour informer un utilisateur, il suffira de demander \" Informe Sigalou que la porte du frigo est ouverte",
         "En effet, en permanence, le plugin saura où est Sigalou (Dans sa voiture, à la maison, à l'extérieur,…), il saura sur quelle tranche horaire on se trouve (Jour, Nuit, …) et plusieurs niveaux de priorité pourront être définis (par exemple": "En effet, en permanence, le plugin saura où est Sigalou (Dans sa voiture, à la maison, à l'extérieur,…), il saura sur quelle tranche horaire on se trouve (Jour, Nuit, …) et plusieurs niveaux de priorité pourront être définis (par exemple",
-        "Informe, Notifie, Alerte,…": "Informe, Notifie, Alerte,…",
-        "JeeMate est compatible avec Jeedom": "JeeMate est compatible avec Jeedom",
-        "Contrôlez facilement votre maison intelligente grâce à son interface intuitive et customisable": "Contrôlez facilement votre maison intelligente grâce à son interface intuitive et customisable",
-        "JeeMate dispose de nombreuses fonctionnalités, et est compatible avec de nombreux plugins Jeedom automatiquement": "JeeMate dispose de nombreuses fonctionnalités, et est compatible avec de nombreux plugins Jeedom automatiquement",
-        "Ce plugin vous permet de lier l'application mobile à votre Jeedom": "Ce plugin vous permet de lier l'application mobile à votre Jeedom",
-        "JeeMate utilise les types génériques de Jeedom": "JeeMate utilise les types génériques de Jeedom",
-        "Le plugin inclut Google Fit": "Le plugin inclut Google Fit"
+        "Informe, Notifie, Alerte,…": "Informe, Notifie, Alerte,…"
     },
     "plugins_contributor\/devicecommunication\/index.md": {
         "worxLandroidS": "worxLandroidS",
