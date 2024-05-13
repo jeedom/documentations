@@ -1,45 +1,36 @@
 {
-  "id": "beem",
-  "name": "Beem",
-  "description": {
-      "fr_FR": "Plugin permettant de récupérer les informations sa Beembox de chez Beem energy",
-      "en_US": "Plugin to retrieve information from Beem energy's Beembox",
-      "es_ES": "Plugin para recuperar información del Beembox de Beem energy",
-      "pt_PT": "Plugin para recuperar informações da Beem energy's Beembox",
-      "de_DE": "Plugin zum Abrufen von Informationen sa Beembox von Beem energy",
-      "it_IT": "Plugin per recuperare le informazioni dalla Beembox di Beem energy"
-  },
-  "utilization": "Après avoir entré l'email de connexion et le mot de passe dans la page de configuration, sélectionnez l'intervalle de rafraîchissement des informations. Lancez une synchronisation depuis la page des équipements.",
-  "licence": "AGPL",
-  "author": "DomoFlo1",
-  "require": "4.2",
-  "category": "energy",
-  "hasDependency": false,
-  "hasOwnDeamon": false,
-  "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
-  "changelog_beta": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
-  "documentation_beta": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
-  "link": {
-    "forum": "https://community.jeedom.com/tag/plugin-beem"
-  },
-  "language": [
-    "fr_FR",
-    "en_US",
-    "es_ES",
-    "pt_PT",
-    "de_DE",
-    "it_IT"
-  ],
-  "compatibility": [
-    "miniplus",
-    "smart",
-    "rpi",
-    "docker",
-    "diy",
-    "mobile",
-    "v4",
-    "atlas"
-  ]
+    "id": "helloWatt",
+    "name": "helloWatt",
+    "description": {
+    	"fr_FR": "Récupérer les informations de comptage Linky/Gazpar à partir de son compte-client 'Hello Watt'.<br> Permet également de déterminer le couleur du jour Tempo et récuperer les informations d'injection solaire"
+  	},
+  	"utilization": "Il faut disposer d'un compte 'Hello Watt' valide et y avoir associer vos contrat Enedis/Grdf,<br> Dans le plugin vous devez renseigner l'identifiant et le mot de passe de ce compte.<br>Le plugin est basé sur une api non officielle, il peut cesser de fonctionner à tout moment !",
+    "licence": "AGPL",
+    "author": "Limad44",
+    "require": "4.1",
+    "category": "energy",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "display": "panel",
+    "changelog": "https://limad.github.io/plugins-docs/plugin-helloWatt/#language#",
+    "changelog_beta": "https://limad.github.io/plugins-docs/plugin-helloWatt/#language#/changelog",
+  	"documentation": "https://limad.github.io/plugins-docs/plugin-helloWatt/#language#",
+    "documentation_beta": "https://limad.github.io/plugins-docs/plugin-helloWatt/#language#",
+  	"link" : {
+		"forum":"https://community.jeedom.com/search?q=helloWatt"
+	},
+    "language": [
+        "fr_FR",
+        "en_US"
+    ],
+    "compatibility": [
+        "v4",
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "Jeedomboard"
+    ]
 }
