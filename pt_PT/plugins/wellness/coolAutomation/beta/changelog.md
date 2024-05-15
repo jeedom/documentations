@@ -12,6 +12,7 @@
 - Removendo consoles.registros inúteis
 - Corrija eqlogic->save na função queryParameters
 - Adicionada renomeação de UIDs criados manualmente
+- Novo Modal para registro em massa de determinados comandos
 
 
 # 05/06/2024

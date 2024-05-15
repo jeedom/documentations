@@ -12,6 +12,7 @@
 - Suppression des console.log inutiles
 - Fix eqlogic->save dans la fonction queryParameters
 - Ajout Renommages des Uids créées manuellement
+- Nouvelle Modale pour Historisation de masses de certaines commandes
 
 
 # 06/05/2024

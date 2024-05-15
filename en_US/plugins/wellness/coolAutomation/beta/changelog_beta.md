@@ -12,14 +12,15 @@
 - Removing consoles.useless logs
 - Fix eqlogic->save in queryParameters function
 - Added renaming of manually created Uids
+- New Modal for mass logging of certain commands
 
 
-# 06/05/2024
+# 05/06/2024
 
 - Fix IP change on main equipment for transmission to children
 - Added Manual Creation for Backstream Integration
 
-# 05/04/2024
+# 04/05/2024
 
 - Fix Lines Display
 _ Added checkbox select all

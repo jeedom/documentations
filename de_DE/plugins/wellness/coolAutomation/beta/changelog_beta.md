@@ -12,6 +12,7 @@
 - Konsolen entfernen.nutzlose Protokolle
 - Korrigieren Sie eqlogic->save in der queryParameters-Funktion
 - Umbenennung manuell erstellter UIDs hinzugefügt
+- Neues Modal zur Massenprotokollierung bestimmter Befehle
 
 
 # 05.06.2024
@@ -19,7 +20,7 @@
 - IP-Änderung am Hauptgerät für die Übertragung an Kinder behoben
 - Manuelle Erstellung für Backstream-Integration hinzugefügt
 
-# 05.04.2024
+# 04.05.2024
 
 - Fixe Linienanzeige
 _ Kontrollkästchen „Alle auswählen“ hinzugefügt

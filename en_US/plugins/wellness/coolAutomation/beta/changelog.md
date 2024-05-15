@@ -12,6 +12,7 @@
 - Removing consoles.useless logs
 - Fix eqlogic->save in queryParameters function
 - Added renaming of manually created Uids
+- New Modal for mass logging of certain commands
 
 
 # 06/05/2024
@@ -32,7 +33,7 @@ _ Added checkbox select all
 
 # 01/04/2024
 
-- TelNet connection
+- TelNet Connection
 - Api rest with coolLinkHub
 
 # 01/24/2024

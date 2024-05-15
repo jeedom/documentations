@@ -12,6 +12,7 @@
 - Quitar consolas.registros inútiles
 - Arreglar eqlogic->guardar en la función queryParameters
 - Se agregó cambio de nombre de UID creados manualmente
+- Nuevo Modal para registro masivo de ciertos comandos
 
 
 # 05/06/2024

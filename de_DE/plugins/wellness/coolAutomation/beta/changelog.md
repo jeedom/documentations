@@ -12,6 +12,7 @@
 - Konsolen entfernen.nutzlose Protokolle
 - Korrigieren Sie eqlogic->save in der queryParameters-Funktion
 - Umbenennung manuell erstellter UIDs hinzugefügt
+- Neues Modal zur Massenprotokollierung bestimmter Befehle
 
 
 # 05.06.2024

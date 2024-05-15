@@ -12,9 +12,10 @@
 - Removendo consoles.registros inúteis
 - Corrija eqlogic->save na função queryParameters
 - Adicionada renomeação de UIDs criados manualmente
+- Novo Modal para registro em massa de determinados comandos
 
 
-# 05/06/2024
+# 06/05/2024
 
 - Corrigir alteração de IP no equipamento principal para transmissão para crianças
 - Adicionada criação manual para integração de backstream
