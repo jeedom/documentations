@@ -1,11 +1,28 @@
 # Registro de cambios CoolAutomation
 
-# Complemento CoolAutomation de registro de cambios
 
 >**IMPORTANTE**
 >
 >Si no hay información sobre la actualización, significa que solo se trata de actualización de documentación, traducción o texto.
 
+
+# 15/05/2024
+
+- Widget de plantilla adicional para mosaicos
+- Quitar consolas.registros inútiles
+- Arreglar eqlogic->guardar en la función queryParameters
+- Se agregó cambio de nombre de UID creados manualmente
+
+
+# 05/06/2024
+
+- Se corrigió el cambio de IP en el equipo principal para su transmisión a niños
+- Creación manual agregada para la integración backstream
+
+# 04/05/2024
+
+- Visualización de líneas fijas
+_ Se agregó casilla de verificación para seleccionar todo
 
 # 16/04/2024
 
