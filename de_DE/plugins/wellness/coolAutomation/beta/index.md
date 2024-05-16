@@ -117,4 +117,32 @@ Um alle Einheiten einer Linie zu steuern, können Sie die Befehle des zugehörig
 
 
 
+# Massenprotokollierung
 
+
+Sie können bestimmte Befehle auf einer einzelnen Einheit, allen untergeordneten Einheiten von coolMaster/coolLinkHub-Geräten oder allen im Plugin vorhandenen Einheiten protokollieren
+
+Klicken Sie dazu hier :
+
+
+
+![linesCreated](../images/modalHistorize.png)
+
+
+
+Nun wählen Sie die gewünschte Option aus :
+
+
+![linesCreated](../images/chooseOptionHistorize.png)
+
+
+Abhängig von Ihrer Wahl erscheint ein zweiter Selektor, mit dem Sie die entsprechende sekundäre Option auswählen können :
+
+
+![linesCreated](../images/secondSelect.png)
+
+
+Sobald Sie Ihre Wahl getroffen haben, müssen Sie nur noch die gewünschten Befehle auswählen und dann auf „Protokollieren“ klicken, damit die Befehle der ausgewählten Geräte protokolliert werden
+Sie können sie alle über die erste Checkbox auswählen
+
+![linesCreated](../images/selectedCmds.png)

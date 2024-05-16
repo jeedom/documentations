@@ -117,4 +117,32 @@ To control all the units in a line, you can use the commands of the associated M
 
 
 
+# Mass logging
 
+
+You can log certain commands on a single unit, all child units of coolMaster/coolLinkHub type equipment, or all units present on the plugin
+
+To do this, click here :
+
+
+
+![linesCreated](../images/modalHistorize.png)
+
+
+
+Now you select the desired option :
+
+
+![linesCreated](../images/chooseOptionHistorize.png)
+
+
+Depending on your choice, a second selector will appear to choose the corresponding secondary option :
+
+
+![linesCreated](../images/secondSelect.png)
+
+
+Once your choice is made, all you have to do is choose the desired commands, then click on Log so that the chosen equipment(s) have their commands logged
+You can select them all via the first checkbox
+
+![linesCreated](../images/selectedCmds.png)

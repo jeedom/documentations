@@ -117,4 +117,32 @@ Para controlar todas las unidades de una línea, puede utilizar los comandos del
 
 
 
+# Registro masivo
 
+
+Puede registrar ciertos comandos en una sola unidad, en todas las unidades secundarias de equipos tipo coolMaster/coolLinkHub o en todas las unidades presentes en el complemento
+
+Para hacer esto, haga clic aquí :
+
+
+
+![linesCreated](../images/modalHistorize.png)
+
+
+
+Ahora seleccionas la opción deseada :
+
+
+![linesCreated](../images/chooseOptionHistorize.png)
+
+
+Dependiendo de tu elección te aparecerá un segundo selector para elegir la opción secundaria correspondiente :
+
+
+![linesCreated](../images/secondSelect.png)
+
+
+Una vez hecha su elección, todo lo que tiene que hacer es elegir los comandos deseados, luego hacer clic en Iniciar sesión para que los equipos elegidos tengan sus comandos registrados
+Puedes seleccionarlos todos a través de la primera casilla de verificación
+
+![linesCreated](../images/selectedCmds.png)

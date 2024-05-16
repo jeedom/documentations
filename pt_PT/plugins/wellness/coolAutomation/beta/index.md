@@ -117,4 +117,32 @@ Para controlar todas as unidades em uma linha, você pode usar os comandos do Ma
 
 
 
+# Registro em massa
 
+
+Você pode registrar determinados comandos em uma única unidade, em todas as unidades filhas de equipamentos do tipo coolMaster/coolLinkHub ou em todas as unidades presentes no plugin
+
+Para fazer isso, clique aqui :
+
+
+
+![linesCreated](../images/modalHistorize.png)
+
+
+
+Agora você seleciona a opção desejada :
+
+
+![linesCreated](../images/chooseOptionHistorize.png)
+
+
+Dependendo da sua escolha, um segundo seletor aparecerá para escolher a opção secundária correspondente :
+
+
+![linesCreated](../images/secondSelect.png)
+
+
+Feita a escolha, basta escolher os comandos desejados e clicar em Log para que o(s) equipamento(s) escolhido(s) tenha(m) seus comandos registrados
+Você pode selecionar todos eles através da primeira caixa de seleção
+
+![linesCreated](../images/selectedCmds.png)
