@@ -74,9 +74,9 @@ Permet la gestion (formatage) de la carte micro-SD que vous pouvez ajouter à la
 - Détection automatique du module et lancement du packet forwarder, sur le localhost de la Jeedom. Utiliser le plugin LNS pour installation de l'applicatif; rien est à faire depuis le plugin Luna, tout est automatique.
 - possibilité de le désactiver dans la partie LTE
 
-> Hotspot (plugin Luna BETA)
+> Hotspot
 
-Dans la partie Wifi du plugin vous pouvez cocher la case Hotspot ce qui vous permettra de créer un point d'accès wifi sur votre Box luna. (DNS et forwarding IP (pont entre Ethernet et wifi) fonctionnels dessus).
+Dans la partie WiFi du plugin, vous pouvez cocher la case "Hotspot", ce qui vous permettra de créer un point d'accès WiFi sur votre Box Luna. Vous pouvez activer le mode DHCP, qui attribuera automatiquement une adresse IP aux clients qui se connectent à votre Box via le point d'accès. Pour la partie adresse IP du DHCP, voici un exemple : si vous choisissez 192.168.4.1, les adresses IP de votre serveur DHCP seront, selon le masque de sous-réseau (255.255.255.0), dans la plage allant de 192.168.4.2 à 192.168.4.254.
 
 > Fixer une IP
 
@@ -90,12 +90,11 @@ Vous pouvez dans la page d'accueil du plugin priorisé les connexions pour que l
 
 Pour ce faire, aller dans le plugin luna, puis sélectionner l’équipement Luna. A cet endroit vous pouvez activer puis sélectionner le wifi que vous souhaitez (2.4Ghz et 5Ghz), puis taper le mot de passe et sauvegarder.
 
-Pour le moment, le plugin prend en compte uniquement les accès avec DHCP.
-
 > 4G (uniquement compatible avec les boxs Jeedom Luna 4G)
 
 Détection automatique de la 4G interne à la box. Merci de bien vouloir passer par le plugin Luna et cliquer sur 'Détecter le module LTE' Demande code pin et APN dans la page LTE du plugin Luna.
 si 4G détectée, lancement d'un module de connexion en arrière plan qui passe automatiquement de l'Ethernet ou wifi à la 4G au besoin.
 Le plugin SMS fonctionne en meme temps que la 4G sur la Luna 4G.
 Les paramétrages se font dans la page LTE du plugin.
+
 /!\ Attention il faut des APN de type ipv4 (bouygue : ebouygtel.com, Orange : orange, free : free). /!\

@@ -8,6 +8,10 @@
 
 # 05/02/2024
 
+- Se agregaron controles para encender y apagar la batería
+
+# 05/02/2024
+
 - Doble corrección de IP
 - Se agregó información de APN para una mejor conexión 4G
 

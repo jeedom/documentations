@@ -6,6 +6,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 02/05/2024
+
+- Ajout des commandes pour allumer et éteindre la batterie
+
 # 05/02/2024
 
 - Correction double Ip

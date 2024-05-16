@@ -6,14 +6,17 @@
   "utilization": "Après avoir activé le Jailbreak de votre appareil, et lancé OpenSSH, créez un équipement sur Jeedom et renseignez les informations demandées (IP, port SSH, identifiant, mot de passe, preset, widget)",
   "licence": "AGPL",
   "author": "DomoFlo1",
-  "require": "3.0",
+  "require": "4.2",
   "hasDependency": true,
   "hasOwnDeamon": false,
   "category": "monitoring",
   "languages": [
     "fr_FR",
     "en_US",
-    "sp_SP"
+    "es_ES",
+    "pt_PT",
+    "de_DE",
+    "it_IT"
   ],
   "compatibility": [
     "miniplus",

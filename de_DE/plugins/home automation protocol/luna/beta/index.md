@@ -74,9 +74,9 @@ Ermöglicht die Verwaltung (Formatierung) der Micro-SD-Karte, die Sie der Box hi
 - Automatische Erkennung des Moduls und Start des Paketweiterleiters auf dem lokalen Host des Jeedom. Verwenden Sie das LNS-Plugin, um die Anwendung zu installieren. Es muss nichts über das Luna-Plugin erledigt werden, alles läuft automatisch ab.
 - Möglichkeit, es im LTE-Teil zu deaktivieren
 
-> Hotspot (Luna BETA-Plugin)
+> Hotspot
 
-Im WLAN-Teil des Plugins können Sie das Kontrollkästchen Hotspot aktivieren, mit dem Sie einen WLAN-Zugangspunkt auf Ihrer Box Luna erstellen können. (DNS und IP-Weiterleitung (Brücke zwischen Ethernet und WLAN) funktionieren darauf).
+Im WLAN-Teil des Plugins können Sie das Kontrollkästchen „Hotspot“ aktivieren, um einen WLAN-Zugangspunkt auf Ihrer Luna Box zu erstellen. Sie können den DHCP-Modus aktivieren, der Clients, die sich über den Access Point mit Ihrer Box verbinden, automatisch eine IP-Adresse zuweist. Für den IP-Adressteil von DHCP finden Sie hier ein Beispiel : wenn Sie 192.168.4 wählen.1 lauten die IP-Adressen Ihres DHCP-Servers entsprechend der Subnetzmaske (255.255.255.0), im Bereich 192.168.4.2 bis 192.168.4.254.
 
 > Legen Sie eine IP fest
 
@@ -90,12 +90,11 @@ Auf der Startseite des Plugins können Sie die Verbindungen priorisieren, sodass
 
 Gehen Sie dazu zum Luna-Plugin und wählen Sie dann die Luna-Ausrüstung aus. Hier können Sie das gewünschte WLAN aktivieren und anschließend auswählen (2.4 GHz und 5 GHz), geben Sie dann das Passwort ein und speichern Sie es.
 
-Im Moment berücksichtigt das Plugin nur Zugriffe mit DHCP.
-
 > 4G (nur kompatibel mit Jeedom Luna 4G-Boxen)
 
 Automatische Erkennung von 4G in der Box. Bitte gehen Sie das Luna-Plugin durch und klicken Sie auf „LTE-Modul erkennen“. Fordern Sie auf der LTE-Seite des Luna-Plugins PIN-Code und APN an.
 Wenn 4G erkannt wird, wird im Hintergrund ein Verbindungsmodul gestartet, das bei Bedarf automatisch von Ethernet oder WLAN auf 4G umschaltet.
 Das SMS-Plugin funktioniert gleichzeitig mit 4G auf dem Luna 4G.
 Die Einstellungen werden auf der LTE-Seite des Plugins vorgenommen.
+
 /!\ Achtung, Sie benötigen APNs vom Typ IPv4 (bouygue : ebouygtel.com, Orange : orange, kostenlos : frei). /!\

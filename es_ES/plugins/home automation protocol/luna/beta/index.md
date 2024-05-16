@@ -74,9 +74,9 @@ Permite la gestión (formateo) de la tarjeta micro-SD que puede agregar a la caj
 - Detección automática del módulo y lanzamiento del reenviador de paquetes, en el host local de jeedom. Utilice el complemento LNS para instalar la aplicación; no es necesario hacer nada desde el complemento Luna, todo es automático.
 - posibilidad de desactivarlo en la parte LTE
 
-> Punto de acceso (complemento Luna BETA))
+> Hotspot
 
-En la parte Wifi del complemento, puede marcar la casilla Hotspot que le permitirá crear un punto de acceso wifi en su Box luna. (Funcionalmente el reenvío de DNS e IP (puente entre Ethernet y wifi)).
+En la parte WiFi del complemento, puedes marcar la casilla "Hotspot", que te permitirá crear un punto de acceso WiFi en tu Luna Box. Puedes activar el modo DHCP, que asignará automáticamente una dirección IP a los clientes que se conecten a tu Box a través del punto de acceso. Para la parte de la dirección IP de DHCP, aquí hay un ejemplo : si eliges 192.168.4.1, las direcciones IP de su servidor DHCP serán, según la máscara de subred (255.255.255.0), en el rango 192.168.4.2 a 192.168.4.254.
 
 > Establecer una IP
 
@@ -90,12 +90,11 @@ En la página de inicio del complemento puedes priorizar las conexiones para que
 
 Para hacer esto, vaya al complemento luna, luego seleccione el equipo Luna. Aquí puede activar y luego seleccionar el wifi que desea (2.4Ghz y 5Ghz), luego escriba la contraseña y guarde.
 
-Por el momento, el complemento solo tiene en cuenta el acceso con DHCP.
-
 > 4G (solo compatible con cajas Jeedom Luna 4G)
 
 Detección automática de 4G interno a la caja. Vaya al complemento Luna y haga clic en 'Detectar módulo LTE' Solicitar código PIN y APN en la página LTE del complemento Luna.
 si se detecta 4G, se inicia un módulo de conexión en segundo plano que cambia automáticamente de Ethernet o wifi a 4G si es necesario.
 El complemento de SMS funciona al mismo tiempo que 4G en el Luna 4G.
 La configuración se realiza en la página LTE del complemento.
+
 /!\ Atención, necesita APN de tipo IPv4 (bouygue : ebouygtel.com, naranja : naranja, gratis : gratis). /!\

@@ -74,9 +74,9 @@ Permite a gestão (formatação) do cartão micro-SD que pode adicionar à caixa
 - Detecção automática do módulo e lançamento do encaminhador de pacotes, no host local do jeedom. Use o plugin LNS para instalar o aplicativo; nada precisa ser feito no plugin Luna, tudo é automático.
 - possibilidade de desativá-lo na parte LTE
 
-> Hotspot (plug-in Luna BETA)
+> Hotspot
 
-Na parte Wifi do plugin você pode marcar a caixa Hotspot que lhe permitirá criar um ponto de acesso wifi no seu Box luna. (Encaminhamento de DNS e IP (ponte entre ethernet e wifi) funcional nele).
+Na parte WiFi do plugin, você pode marcar a caixa "Hotspot", que permitirá criar um ponto de acesso WiFi em seu Luna Box. Você pode ativar o modo DHCP, que atribuirá automaticamente um endereço IP aos clientes que se conectarem à sua Box através do ponto de acesso. Para a parte do endereço IP do DHCP, aqui está um exemplo : se você escolher 192.168.4.1, os endereços IP do seu servidor DHCP serão, de acordo com a máscara de sub-rede (255.255.255.0), no intervalo 192.168.4.2 para 192.168.4.254.
 
 > Defina um IP
 
@@ -90,12 +90,11 @@ Você pode priorizar as conexões na página inicial do plugin para que a caixa 
 
 Para fazer isso, vá para o plugin luna e selecione o equipamento Luna. Aqui você pode ativar e depois selecionar o wifi que deseja (2.4Ghz e 5Ghz), digite a senha e salve.
 
-Por enquanto, o plugin só leva em conta o acesso com DHCP.
-
 > 4G (compatível apenas com caixas Jeedom Luna 4G)
 
 Detecção automática de 4G interno à caixa. Por favor, acesse o plugin Luna e clique em 'Detectar módulo LTE' Solicitar código PIN e APN na página LTE do plugin Luna.
 se 4G for detectado, lançamento de um módulo de conexão em segundo plano que muda automaticamente de Ethernet ou wifi para 4G, se necessário.
 O plugin SMS funciona ao mesmo tempo que 4G no Luna 4G.
 As configurações são feitas na página LTE do plugin.
+
 /!\ Atenção você precisa de APNs do tipo IPv4 (bouygue : ebouygtel.com, laranja : laranja, grátis : livre). /!\

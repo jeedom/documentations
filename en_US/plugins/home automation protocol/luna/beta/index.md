@@ -74,9 +74,9 @@ Allows the management (formatting) of the micro-SD card that you can add to the 
 - Automatic detection of the module and launch of the packet forwarder, on the localhost of the jeedom. Use the LNS plugin to install the application; nothing needs to be done from the Luna plugin, everything is automatic.
 - possibility of deactivating it in the LTE part
 
-> Hotspot (Luna BETA plugin)
+> Hotspot
 
-In the Wifi part of the plugin you can check the Hotspot box which will allow you to create a wifi access point on your Box luna. (DNS and IP forwarding (bridge between ethernet and wifi) functional on it).
+In the WiFi part of the plugin, you can check the "Hotspot" box, which will allow you to create a WiFi access point on your Luna Box. You can activate DHCP mode, which will automatically assign an IP address to clients who connect to your Box via the access point. For the IP address part of DHCP, here is an example : if you choose 192.168.4.1, the IP addresses of your DHCP server will be, according to the subnet mask (255.255.255.0), in the range 192.168.4.2 to 192.168.4.254.
 
 > Set an IP
 
@@ -90,12 +90,11 @@ In the home page of the plugin you can prioritize the connections so that the bo
 
 To do this, go to the luna plugin, then select the Luna equipment. Here you can activate and then select the wifi you want (2.4Ghz and 5Ghz), then type the password and save.
 
-For the moment, the plugin only takes into account access with DHCP.
-
 > 4G (only compatible with Jeedom Luna 4G boxes)
 
 Automatic detection of 4G internal to the box. Please go through the Luna plugin and click on 'Detect LTE module' Request pin code and APN in the LTE page of the Luna plugin.
 if 4G detected, launch of a connection module in the background which automatically switches from Ethernet or wifi to 4G if necessary.
 The SMS plugin works at the same time as 4G on the Luna 4G.
 The settings are made in the LTE page of the plugin.
+
 /!\ Be careful, you need IPv4 type APNs (bouygue : ebouygtel.com, Orange : orange, free : free). /!\
