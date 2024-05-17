@@ -117,4 +117,32 @@ Pour commander toute les unités d'une ligne, on peut passer par les commandes d
 
 
 
+# Historisation en masse
 
+
+Vous pouvez historiser certaines commandes sur une seul unité, toutes les unités enfantes d'un équipement de type coolMaster/coolLinkHub, ou toutes les unités présentes sur le plugin
+
+Pour cela, il faut cliquer ici :
+
+
+
+![linesCreated](./images/modalHistorize.png)
+
+
+
+Maintenant, vous sélectionnez l'option voulue :
+
+
+![linesCreated](./images/chooseOptionHistorize.png)
+
+
+Suivant votre choix, un second sélecteur apparaitra pour choisir l'option secondaire correspondante :
+
+
+![linesCreated](./images/secondSelect.png)
+
+
+Une fois votre choix fait, il ne vous reste qu'a choisir les commandes souhaitées, puis de cliquer sur Historiser pour que le/les équipements choisi(s) aient leur commandes historisées
+Vous pouvez toutes les sélectionner via la première checkbox
+
+![linesCreated](./images/selectedCmds.png)

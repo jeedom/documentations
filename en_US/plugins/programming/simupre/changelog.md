@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Fix for jeedom 4.4
+- Bugfix
+- Fixed a rescheduling issue following a restoration that could take 24 hours
+
 # 07/10/2020
 
 - Correction of a bug on the management of repetitions

@@ -4,6 +4,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 16/05/2024
+
 - Solución para jeedom 4.4
 - Correcciones de errores
 - Se solucionó un problema de reprogramación después de una restauración que podía demorar 24 horas

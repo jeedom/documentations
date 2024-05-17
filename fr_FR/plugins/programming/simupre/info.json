@@ -6,7 +6,12 @@
         "en_US": "Plugin for presence simulation",
         "es_ES": "Plugin para simulación de presencia",
         "de_DE": "Plugin zur Anwesenheitssimulation",
-        "pt_PT": "Plugin para simulação de presença"
+        "pt_PT": "Plugin para simulação de presença",
+        "ru_RU": "Plugin pour la simulation de présence",
+        "id_ID": "Plugin pour la simulation de présence",
+        "it_IT": "Plugin pour la simulation de présence",
+        "ja_JP": "Plugin pour la simulation de présence",
+        "tr": "Plugin pour la simulation de présence"
     },
     "licence": "GPLv2",
     "author": "Jeedom SAS",
@@ -22,7 +27,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
@@ -32,5 +42,7 @@
         "diy",
         "mobile",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/simupre\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/simupre\/beta"
 }
