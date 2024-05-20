@@ -188,4 +188,14 @@ Um weiter zu gehen, können Sie das Modul physisch aktivieren und Screenshots de
 >
 >Durch die physische Bedienung des Moduls können Sie die Zeile identifizieren, deren Werte sich entsprechend im Fenster Knotenwerte ändern und deren Befehl nicht erstellt oder funktionsfähig wäre. Am Ende der Zeile befindet sich eine Schaltfläche mit einem stiftförmigen Symbol, mit der Sie automatisch den entsprechenden Befehl erstellen können, und haben so die Möglichkeit, Ihr Modul trotz fehlender oder fehlerhafter Konfiguration verwenden zu können.
 
-## Ersetzen Sie ein fehlerhaftes Modul
+<!-- ## Remplacer un module défaillant -->
+
+# FAQ
+
+>**Ist es möglich, die Z-Wave JS-Benutzeroberfläche im Remote-Modus zu verwenden? ?**
+>
+>Die Roadmap des Jeedom-Teams zum Z-Wave JS-Plugin sieht tatsächlich die Hinzufügung dieser Möglichkeit in den kommenden Monaten ohne jegliche Dringlichkeit vor, da es sich nicht um eine wesentliche Funktionalität für das ordnungsgemäße Funktionieren des Plugins handelt.
+
+>**Ist es möglich, den Z-Wave JS UI-Websocket-Server zu aktivieren? ?**
+>
+>Für die ordnungsgemäße Funktion des Plugins und von Jeedom im Allgemeinen ist es nicht möglich, den Z-Wave JS UI-Websocket-Server zu aktivieren, der kommende Remote-Modus wird jedoch dieselben Anwendungsfälle ermöglichen.

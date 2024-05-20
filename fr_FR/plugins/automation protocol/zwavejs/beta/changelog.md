@@ -4,6 +4,31 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 20/05/2024
+
+**Améliorations**
+
+- Passage à la version *9.12.0* de ZwaveJsUI
+- Rajout et gestion des deux nouvelles clés de sécurités S2 Long Range
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Neo Signal Repeater* (propriétés : Temperature, Humidity)
+- Ajout de la configuration *Shelly Qubino Wave 1* (propriétés : Switch, Notification Mains, Notification Over-Current, Notification Heat-Sensor) 
+- Ajout de la configuration *Shelly Qubino Wave 1 PM* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor)
+- Ajout de la configuration *Shelly Qubino Wave Pro 1* (propriétés : Switch, Notification Mains, Notification Heat-Sensor) 
+- Ajout de la configuration *Shelly Qubino Wave Pro 1 PM* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Over-Voltage, Notification Heat-Sensor)
+- Ajout de la configuration *Shelly Qubino Wave 2 PM* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor)
+- Ajout de la configuration *Shelly Qubino Wave Pro 2* (propriétés : Switch)
+- Ajout de la configuration *Shelly Qubino Wave Pro 2 PM* (propriétés : Switch, Power, Energy, Notification Over-Current, Notification Over-Voltage)
+- Ajout de la configuration *Shelly Qubino Wave I4* (propriétés : Central Scene)
+- Ajout de la configuration *Shelly Qubino Wave Shutter* (propriétés : Shutter, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor)
+- Ajout d'une sous propriété *notification-overvoltage* pour la propriété *Notification*
+
+**Modifications de Configurations**
+
+- Modification de la configuration *Neo Plug* pour utiliser les propriétés (*attention certains modèles veulent s'inclure en S2 alors que le fabricant ne fournit aucun DSK, inclure en choisissant non sécurisé au lieu du mode automatique*)
+
 # 27/02/2024
 
 **Améliorations**

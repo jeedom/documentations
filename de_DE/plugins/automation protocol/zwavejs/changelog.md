@@ -4,7 +4,12 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# XX/01/2024
+# 27.02.2024
+
+**Verbesserungen**
+
+- Hinzufügung einer zusätzlichenDependancyCheck-Funktion für den Kern
+
 
 **Konfigurationsänderungen**
 
