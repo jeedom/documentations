@@ -4,11 +4,15 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 19/05/2024
+
+- Correction de bugs
+
 # 13/05/2024
 
 - Meilleure gestion des erreurs sur les équipements
 - Amélioration de la mise à jour des valeurs
-- Meilleur support des differents thermostat
+- Meilleur support des différents thermostat
 
 Merci @ThePiloo pour toute les améliorations
 
@@ -25,7 +29,7 @@ Merci @ThePiloo pour toute les améliorations
 
 # 08/01/2024
 
-- Préparation pour jeedom 4.4
+- Préparation pour Jeedom 4.4
 
 # 27/11/2023
 
