@@ -4,6 +4,9 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Ein seltener Fehler bei der Sonnenaufgangs-/Sonnenuntergangszeit wurde behoben, der auf 1 Uhr morgens fallen konnte
+- Fehlerbehebungen
+
 # 10.05.2024
 
 - Ein Fehler beim Umplanen von Sonnenaufgang/Sonnenuntergang wurde behoben
