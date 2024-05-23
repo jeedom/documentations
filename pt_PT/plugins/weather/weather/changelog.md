@@ -4,6 +4,9 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+- Corrigido um bug raro no horário do nascer/pôr do sol, que poderia cair à 1h
+- Correções de bugs
+
 # 10/05/2024
 
 - Corrigido um bug ao reprogramar o nascer/pôr do sol

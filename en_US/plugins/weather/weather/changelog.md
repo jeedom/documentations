@@ -4,6 +4,9 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+- Fixed a rare bug on sunrise/sunset time which could fall at 1 a.m
+- Bugfix
+
 # 05/10/2024
 
 - Fixed a bug when rescheduling sunrise/sunset

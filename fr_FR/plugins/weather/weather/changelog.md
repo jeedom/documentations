@@ -4,6 +4,11 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 22/05/2024
+
+- Correction d'un bug rare sur l'heure de levé/couché de soleil qui pouvait tomber a 1h du matin
+- Correction de bugs
+
 # 10/05/2024
 
 - Correction d'un bug sur la replanification des levé/couché de soleil
