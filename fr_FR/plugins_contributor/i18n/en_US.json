@@ -314,6 +314,7 @@
         "Le plugin a été totalement refondu et relooké pour accepter les équipements que détecte l'application Alexa": "The plugin has been completely redesigned and redesigned to accept the equipment detected by the Alexa application",
         "3 et une clé API Airthings à créer par vous-même (l'opération est gratuite": "3 and an Airthings API key to be created by yourself (the operation is free",
         "Intégration avec l'API Airthings": "Integration with Airthings API",
+        "Il donne également accès à la météo Tado": "It also provides access to Tado weather",
         "Ce plugin permet de gérer les objets connectés Tado": "This plugin allows you to manage Tado connected objects",
         "Se base sur l'API officielle": "Based on the official API",
         "Bosch Indego": "Bosch Indego",
