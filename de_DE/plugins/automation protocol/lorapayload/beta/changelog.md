@@ -12,6 +12,8 @@
 
 - Konfiguration hinzufügen *Milesight WS303* (Eigenschaften : Batterie, Leckagestatus)
 
+- Ändern der Konfiguration *Vega SI-11 Rev2* (Eigenschaften : Kommunikationszeitraum, Eingabemodus)
+
 
 # 29.04.2024
 

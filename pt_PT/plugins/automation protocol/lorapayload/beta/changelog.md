@@ -12,6 +12,8 @@
 
 - Adicionando configuração *Milhas WS303* (propriedades : Bateria, status de vazamento)
 
+- Alterando a configuração *Vega SI-11 Rev2* (propriedades : Período de comunicação, modo de entrada)
+
 
 # 29/04/2024
 

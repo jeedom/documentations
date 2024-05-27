@@ -12,6 +12,8 @@
 
 - Adding configuration *Milesight WS303* (properties : Battery, Leakage Status)
 
+- Changing the configuration *Vega SI-11 Rev2* (properties : Communication period, Input Mode)
+
 
 # 04/29/2024
 

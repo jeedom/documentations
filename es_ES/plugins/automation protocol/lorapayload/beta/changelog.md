@@ -12,6 +12,8 @@
 
 - Agregar configuración *Mira de millas WS303* (propiedades : Batería, estado de fuga)
 
+- Cambiando la configuración *Vega SI-11 Rev2* (propiedades : Periodo de comunicación, modo de entrada)
+
 
 # 29/04/2024
 
