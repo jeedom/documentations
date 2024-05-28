@@ -4,7 +4,13 @@
 >
 > As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 04/05/2023
+
+# 05/28/2024
+Geolocation modification for next App version
+Storage Notifications in the plugin
+New APIs for the application
+
+# 04/05/2024
 Compatible only with the 4.4 core or higher.
 
 # 15/12/2023

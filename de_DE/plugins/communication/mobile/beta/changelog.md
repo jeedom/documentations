@@ -4,7 +4,13 @@
 >
 > Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 04.05.2023
+
+# 28.05.2024
+Geolokalisierungsänderung für die nächste App-Version
+Speicherbenachrichtigungen im Plugin
+Neue APIs für die Anwendung
+
+# 04.05.2024
 Kompatibel nur mit der 4.4 Kern oder höher.
 
 # 15.12.2023
