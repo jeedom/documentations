@@ -13,7 +13,7 @@ After installing the plugin, you just need to activate it :
 # First connection to the V2 application
 
 To connect your phone : there are 2 possible methods;
-on the first screen of the application, you are offered to connect your market account, and thus find all the boxes associated with this account, or simply add a box.
+On the first screen of the application, you are offered to connect your market account, and thus find all the boxes associated with this account, or simply add a box.
 
 ![v2ConnectMarket](./images/v2firstConnect.jpeg)
 
@@ -35,7 +35,7 @@ Several choices on this screen :
 
 - You enter the url of your Jeedom (internal or external), as well as the access identifiers to it and you confirm with the LOGIN button
 
-- You click on QR Code : a new screen appears; you can scan a QRCode from the Mobile plugin of the box you want to add, via the QRCODE tab of the plugin.
+- You click on QR Code : a new screen appears; you can scan a QR Code from the Mobile plugin of the Box you wish to add, via the QR Code tab of the plugin.
 
 ![v2ModalQrApp](./images/v2QRCodeConnect.PNG)
 
@@ -43,22 +43,22 @@ Several choices on this screen :
 
 > > ![v2ModalPlugin](./images/v2ModalQrCode.png)
 
-Once this first step has been completed, you are registered in the application: if you have the Mobile plugin, you will have access via the menu to Notifications, QrCodes, Menu customization ....
+Once this first step has been completed, you are registered in the application: if you have the Mobile plugin, you will have access via the menu to Notifications, QR Codes, Menu customization ....
 
 In the menu, you will have a Boxs tab, which groups together all the boxes present on this market account
 
-![v2MenuBoxs](./images/v2MenuBoxs.PNG)
+![v2MenuBoxs](./images/v2Menuboxs.PNG)
 
-![v2floutedBoxs](./images/v2floutedBoxs.png)
+![v2floutedBoxs](./images/v2floutedboxs.png)
 
-Simply click on the box where the Mobile plugin is installed, then identify yourself to access the box.
+Simply click on the Box where the Mobile plugin is installed, then identify yourself to access the Box.
 
 The box will go to the top of the list, having validated its authentication.
 You can do this for several boxes.
 
 You can also click on the + button at the bottom right to access different options;
 
-- QrCode to add a box to the list via the Mobile plugin,
+- QR Code to add a Box to the list via the Mobile plugin,
 - Manual to manually add a box
 - Detection Atlas and Luna (if you are on Wifi, will detect the boxes on the network)
 - Market sync to update configured Market account information
@@ -67,7 +67,7 @@ You can also click on the + button at the bottom right to access different optio
 
 To access features such as Notifications, Menu Personalization or Geolocation, you must first have selected at least one current box'
 
-![v2ActualBoxFlouted](./images/v2ActualBoxFlouted.jpeg)
+![v2ActualBoxFlouted](./images/v2ActualboxFlouted.jpeg)
 
 # How Geolocation works
 
@@ -122,7 +122,7 @@ Here are the parameters to enter :
 
 ![mobile3](../images/mobile3.png)
 
-After saving, you will get a QRCode allowing the application to configure itself.
+After saving, you will obtain a QR Code allowing the application to configure itself.
 
 # Configuration of plugins and commands received by the app
 
@@ -158,7 +158,7 @@ After downloading and installing your Jeedom mobile application, launch the appl
 
 You then arrive in a configuration tutorial which we advise you to follow. Some steps have been done previously.
 
-You will then have the choice between a manual or automatic configuration by QRcode. If you choose to configure by QRcode, just flash the QRcode present on the Mobile App plugin in the smartphone equipment created previously. In this case, the application will automatically recover all the configuration of your Jeedom and connect automatically. When it is connected to your home via Wifi, the application will automatically use the Jeedom ethernet address internal to your network. When you are connected in 4G or 3G, it will use your external address to connect to your Jeedom (for example via the Jeedom DNS service if you use it). If you choose manual configuration, in this case you will need to manually enter the internal and external IP addresses of your Jeedom. This option is reserved for an informed public.
+You will then have the choice between manual or automatic configuration by QR Code. If you opt for configuration by QR Code, simply flash the QR Code present on the Mobile App plugin in the previously created smartphone equipment. In this case, the application will automatically recover all the configuration of your Jeedom and connect automatically. When it is connected to your home via Wifi, the application will automatically use the Jeedom ethernet address internal to your network. When you are connected in 4G or 3G, it will use your external address to connect to your Jeedom (for example via the Jeedom DNS service if you use it). If you choose manual configuration, in this case you will need to manually enter the internal and external IP addresses of your Jeedom. This option is reserved for an informed public.
 
 The application will synchronize and you will arrive on its home page (preceded by a mini presentation guide).
 
@@ -195,7 +195,7 @@ As well as the two associated texts :
 ![mobile dashboard 6](../images/mobile_dashboard_6.PNG)
 ![mobile dashboard 7](../images/mobile_dashboard_7.PNG)
 
-Here, you have now a shortcut of your order (in version 1.1 On / Off commands are expected to appear on the same key).
+There you go, you now have a shortcut for your command (in version 1.1 On / Off commands are expected to appear on the same key).
 
 ![mobile dashboard 8](../images/mobile_dashboard_8.PNG)
 
@@ -217,7 +217,7 @@ Better than words, here is an example of the generic credits for a light with al
 | ![LIGHT](../images/LIGHT_2.jpg) | `Light Button On`<br/>`Button Off Light`<br/>`State Light`                                                                                                                                                                                                  | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`                                                                             |                                                                                          Status feedback present, the left button toggles between on and off                                                                                           |
 | ![LIGHT](../images/LIGHT_2.jpg) | `Light Toggle Button`<br/>`State Light`                                                                                                                                                                                                                       | `LIGHT_TOGGLE`<br/>`LIGHT_STATE`                                                                                         |                                                                                          Status feedback present, the left button toggles between on and off                                                                                           |
 | ![LIGHT](../images/LIGHT_3.jpg) | `Light Button On`<br/>`Button Off Light`<br/>`State Light`<br/>`Light Slider`                                                                                                                                                                             | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`                                                          |                                                                    Status feedback present, the left button allows to switch between On and Off and the slider allows to control the intensity                                                                    |
-| ![LIGHT](../images/LIGHT_4.jpg) | `Light Button On`<br/>`Button Off Light`<br/>`State Light`<br/>`Light Slider`<br/>`Light Color (info)`<br/>`Light Color (action)`<br/>`Light Mode` (optional, it is used to have light modes, for example rainbow on Hue philips) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Status feedback present, the left button allows to switch between On and Off and the slider allows to control the intensity. In the circle the color of the lamp is present and when you click it you can change the color and activate a mode |
+| ![LIGHT](../images/LIGHT_4.jpg) | `Light Button On`<br/>`Button Off Light`<br/>`State Light`<br/>`Light Slider`<br/>`Light Color (info)`<br/>`Light Color (action)`<br/>`Light Mode` (optional, it is used to have light modes, for example rainbow on Philips Hue) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Status feedback present, the left button allows to switch between On and Off and the slider allows to control the intensity. In the circle the color of the lamp is present and when you click it you can change the color and activate a mode |
 
 ### The plugs
 
@@ -302,13 +302,11 @@ Better than words, here is an example of the generic credits for a light with al
 
 You had a popup warning you of a concern about the accessibility settings, so you just have to go to the accessibility settings of your mobile and uncheck the applications using this option. (A fix will be brought soon on the app)
 
-**I have a message in one of the lines of my modules telling me that it
-missing a Generic Type !**
+**I have a message in one of the lines of my modules telling me that a Generic Type is missing !**
 
-By reading this message, it tells you what generic type is missing to create a compatible template. Just apply it.Refer to the [doc chapter Generic Type](https://www.jeedom.com/doc/documentation/plugins/mobile/en_US/mobile#_configuration_des_plugins_et_commandes_que_reçoit_l_app).
+By reading this message, it tells you what generic type is missing to create a compatible template. Just apply it. Refer to the [doc chapter Generic Type](https://www.jeedom.com/doc/documentation/plugins/mobile/en_US/mobile#_configuration_des_plugins_et_commandes_que_reçoit_l_app).
 
-**I have a problem with one of the plugins called fully integrated (weather,
-thermostat, alarm, camera) !**
+**I have a problem with one of the so-called fully integrated plugins (Weather, Thermostat, Alarm, Camera) !**
 
 Do not hesitate to access your module and click on save again, this will re-include the generic types associated with the module.
 
@@ -316,10 +314,9 @@ Do not hesitate to access your module and click on save again, this will re-incl
 
 This is normal, it will be available on version 1.1.
 
-**I have the application which takes up a lot of memory in my
-Phone !**
+**I have the application that takes up a lot of memory on my phone !**
 
-There was a bug on versions 1.0.0 and 1.0.1 on the Camera part. The problem will not happen again with 1.0.2, to delete the cache without overpricing the app, simply go to the configuration of your Mobile App and click on "delete the cache".
+There was a bug on versions 1.0.0 and 1.0.1 on the Camera part. The problem will not happen again with 1.0.2, to delete the cache without deleting the app, simply go to the configuration of your Mobile App and click on "delete cache".
 
 **I have a concern of first synchronization on the app or of sql on the mobile plugin !**
 

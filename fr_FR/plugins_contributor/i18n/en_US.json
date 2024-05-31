@@ -2,8 +2,7 @@
     "plugins_contributor\/automation protocol\/index.md": {
         "Niren TcpKpI8O8": "Niren TcpKpI8O8",
         "Plugin tcpkp pour la gestion des cartes entrees sorties Niren tcpkp": "Tcpkp plugin for managing Niren tcpkp I\/O cards",
-        "Relay Module": "Relay Module",
-        "Plugin pour piloter des modules de relais ethernet": "Plugin to control ethernet relay modules",
+        "D'autre type de carte pourrait être ajouté à la demande": "Other type of card could be added upon request",
         "Plugin pour la gestion de matériel qui ont le protocol ModBus": "Plugin for the management of materials that have the ModBus protocol",
         "Modbus TCP Server": "Modbus TCP Server",
         "Plugin transformant votre Jeedom en seveur modbus TCP": "Plugin transforming your Jeedom into a modbus TCP server",
@@ -41,6 +40,7 @@
         "Jolly Mec \/ Piazzetta \/ superior \/ MCZ et bien plus": "Jolly Mec \/ Piazzetta \/ superior \/ MCZ and much more",
         "Le but de ce plugin est de permettre le contrôle de périphériques qui ne sont compatibles que avec le protocole Homekit et aucun autre protocole": "The purpose of this plugin is to allow the control of devices that are only compatible with the Homekit protocol and no other protocol",
         "Donc par exemple pas Philips Hue qui est accessible via un plugin dédié": "So for example not Philips Hue which is accessible via a dedicated plugin",
+        "spm=a2g0o.productlist.main.45.109933f0huhSBo'>Relais réseau IP à 8 canaux, double contrôle, interface Ethernet RJ45<\/a><\/li><\/ul": "spm=a2g0o.productlist.main.45.109933f0huhSBo'>8-channel IP network relay, dual control, RJ45 Ethernet interface<\/li>",
         " MyModbus.": " MyModbus.",
         " MyModbus?": " MyModbus?",
         "MyModbus ": "MyModbus ",

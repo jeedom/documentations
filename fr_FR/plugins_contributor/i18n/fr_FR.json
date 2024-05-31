@@ -2,8 +2,7 @@
     "plugins_contributor\/automation protocol\/index.md": {
         "Niren TcpKpI8O8": "Niren TcpKpI8O8",
         "Plugin tcpkp pour la gestion des cartes entrees sorties Niren tcpkp": "Plugin tcpkp pour la gestion des cartes entrees sorties Niren tcpkp",
-        "Relay Module": "Relay Module",
-        "Plugin pour piloter des modules de relais ethernet": "Plugin pour piloter des modules de relais ethernet",
+        "D'autre type de carte pourrait être ajouté à la demande": "D'autre type de carte pourrait être ajouté à la demande",
         "MyModbus": "MyModbus",
         "Plugin pour la gestion de matériel qui ont le protocol ModBus": "Plugin pour la gestion de matériel qui ont le protocol ModBus",
         "Modbus TCP Server": "Modbus TCP Server",
@@ -46,7 +45,8 @@
         "0) ex": "0) ex",
         "Jolly Mec \/ Piazzetta \/ superior \/ MCZ et bien plus": "Jolly Mec \/ Piazzetta \/ superior \/ MCZ et bien plus",
         "Le but de ce plugin est de permettre le contrôle de périphériques qui ne sont compatibles que avec le protocole Homekit et aucun autre protocole": "Le but de ce plugin est de permettre le contrôle de périphériques qui ne sont compatibles que avec le protocole Homekit et aucun autre protocole",
-        "Donc par exemple pas Philips Hue qui est accessible via un plugin dédié": "Donc par exemple pas Philips Hue qui est accessible via un plugin dédié"
+        "Donc par exemple pas Philips Hue qui est accessible via un plugin dédié": "Donc par exemple pas Philips Hue qui est accessible via un plugin dédié",
+        "spm=a2g0o.productlist.main.45.109933f0huhSBo'>Relais réseau IP à 8 canaux, double contrôle, interface Ethernet RJ45<\/a><\/li><\/ul": "spm=a2g0o.productlist.main.45.109933f0huhSBo'>Relais réseau IP à 8 canaux, double contrôle, interface Ethernet RJ45<\/a><\/li><\/ul"
     },
     "plugins_contributor\/automatisation\/index.md": {
         "Volet proportionel": "Volet proportionel",

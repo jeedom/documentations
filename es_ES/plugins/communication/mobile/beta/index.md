@@ -13,7 +13,7 @@ Después de instalar el complemento, solo necesita activarlo :
 # Primera conexión a la aplicación V2
 
 Para conectar tu teléfono : hay 2 métodos posibles;
-en la primera pantalla de la aplicación, se le ofrece conectar su cuenta de mercado y así encontrar todas las casillas asociadas a esta cuenta, o simplemente agregar una casilla.
+En la primera pantalla de la aplicación, se le ofrece conectar su cuenta de mercado y así encontrar todas las casillas asociadas a esta cuenta, o simplemente agregar una casilla.
 
 ![v2ConnectMarket](./images/v2firstConnect.jpeg)
 
@@ -35,7 +35,7 @@ Varias opciones en esta pantalla :
 
 - Ingresas la url de tu Jeedom (interna o externa), así como los identificadores de acceso a la misma y confirmas con el botón LOGIN
 
-- Haces clic en el código QR : aparece una nueva pantalla; puede escanear un QRCode desde el complemento móvil del cuadro que desea agregar, a través de la pestaña QRCODE del complemento.
+- Haces clic en el código QR : aparece una nueva pantalla; puede escanear un código QR desde el complemento móvil del Box que desea agregar, a través de la pestaña Código QR del complemento.
 
 ![v2ModalQrApp](./images/v2QRCodeConnect.PNG)
 
@@ -43,22 +43,22 @@ Varias opciones en esta pantalla :
 
 > > ![Complemento v2Modal](./images/v2ModalQrCode.png)
 
-Una vez realizado este primer paso, ya estás registrado en la aplicación: si tiene el complemento móvil, tendrá acceso a través del menú a Notificaciones, QrCodes, Personalización del menú ....
+Una vez realizado este primer paso, ya estás registrado en la aplicación: Si tienes el complemento Móvil, tendrás acceso a través del menú a Notificaciones, Códigos QR, Personalización del menú ....
 
 En el menú, tendrá una pestaña Cajas, que agrupa todas las cajas presentes en esta cuenta de mercado
 
-![v2MenuBoxs](./images/v2MenuBoxs.PNG)
+![v2MenuBoxs](./images/v2Menuboxs.PNG)
 
-![v2floutedBoxs](./images/v2floutedBoxs.png)
+![v2floutedBoxs](./images/v2floutedboxs.png)
 
-Simplemente haga clic en el cuadro donde está instalado el complemento móvil, luego identifíquese para acceder al cuadro.
+Simplemente haga clic en el Box donde está instalado el complemento Móvil, luego identifíquese para acceder al Box.
 
 La casilla irá al principio de la lista, habiendo validado su autenticación.
 Puedes hacer esto para varias cajas.
 
 También puede hacer clic en el botón + en la parte inferior derecha para acceder a diferentes opciones;
 
-- QrCode para agregar un cuadro a la lista a través del complemento móvil,
+- Código QR para agregar un Box a la lista mediante el complemento Móvil,
 - Manual para agregar una caja manualmente
 - Detección Atlas y Luna (si estás en Wifi, detectará las cajas en la red)
 - Sincronización de Market para actualizar la información de la cuenta de Market configurada
@@ -67,7 +67,7 @@ También puede hacer clic en el botón + en la parte inferior derecha para acced
 
 Para acceder a funciones como Notificaciones, Personalización de Menú o Geolocalización, primero debes haber seleccionado al menos una casilla actual'
 
-![v2ActualBoxFlouted](./images/v2ActualBoxFlouted.jpeg)
+![v2ActualBoxFlouted](./images/v2ActualboxFlouted.jpeg)
 
 # Cómo funciona la geolocalización
 
@@ -122,7 +122,7 @@ Aquí están los parámetros para ingresar :
 
 ![mobile3](../images/mobile3.png)
 
-Después de guardar, obtendrá un QRCode que permite que la aplicación se configure.
+Después de guardar, obtendrás un código QR que permitirá que la aplicación se configure sola.
 
 # Configuración de complementos y comandos recibidos por la aplicación
 
@@ -158,7 +158,7 @@ Después de descargar e instalar su aplicación móvil Jeedom, inicie la aplicac
 
 Luego llega a un tutorial de configuración que le recomendamos que siga. Algunos pasos se han realizado previamente.
 
-Luego podrá elegir entre una configuración manual o automática por QRcode. Si opta por la configuración de QRcode, simplemente muestre el QRcode presente en el complemento de la aplicación móvil en el equipo del teléfono inteligente creado previamente. En este caso, la aplicación recuperará automáticamente toda la configuración de su Jeedom y se conectará automáticamente. Cuando está conectado a su hogar a través de Wifi, la aplicación usará automáticamente la dirección Ethernet de Jeedom interna de su red. Cuando esté conectado en 4G o 3G, usará su dirección externa para conectarse a su Jeedom (por ejemplo, a través del servicio DNS de Jeedom si lo usa)). Si elige la configuración manual, en este caso deberá ingresar manualmente las direcciones IP internas y externas de su Jeedom. Esta opción está reservada para un público informado.
+Luego podrá elegir entre configuración manual o automática mediante código QR. Si opta por la configuración mediante código QR, simplemente muestre el código QR presente en el complemento de la aplicación móvil en el equipo del teléfono inteligente creado anteriormente. En este caso, la aplicación recuperará automáticamente toda la configuración de su Jeedom y se conectará automáticamente. Cuando está conectado a su hogar a través de Wifi, la aplicación usará automáticamente la dirección Ethernet de Jeedom interna de su red. Cuando esté conectado en 4G o 3G, usará su dirección externa para conectarse a su Jeedom (por ejemplo, a través del servicio DNS de Jeedom si lo usa)). Si elige la configuración manual, en este caso deberá ingresar manualmente las direcciones IP internas y externas de su Jeedom. Esta opción está reservada para un público informado.
 
 La aplicación se sincronizará y usted llegará a su página de inicio (precedida por una mini guía de presentación).
 
@@ -195,7 +195,7 @@ Así como los dos textos asociados :
 ![mobile dashboard 6](../images/mobile_dashboard_6.PNG)
 ![mobile dashboard 7](../images/mobile_dashboard_7.PNG)
 
-Aquí, ahora tiene un acceso directo de su pedido (en la versión 1.1 Se espera que los comandos de encendido / apagado aparezcan en la misma tecla).
+Ahí lo tienes, ahora tienes un atajo para tu comando (en la versión 1.1 Se espera que los comandos de encendido / apagado aparezcan en la misma tecla).
 
 ![mobile dashboard 8](../images/mobile_dashboard_8.PNG)
 
@@ -217,7 +217,7 @@ Mejor que las palabras, aquí hay un ejemplo de los créditos genéricos para un
 | ![LUZ](../images/LIGHT_2.jpg) | `Botón de luz encendido`<br/>`Botón apagado luz`<br/>`State Light`                                                                                                                                                                                                  | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`                                                                             |                                                                                          Comentarios de estado presentes, el botón izquierdo alterna entre encendido y apagado                                                                                           |
 | ![LUZ](../images/LIGHT_2.jpg) | `Botón de alternancia de luz`<br/>`State Light`                                                                                                                                                                                                                       | `LIGHT_TOGGLE`<br/>`LIGHT_STATE`                                                                                         |                                                                                          Comentarios de estado presentes, el botón izquierdo alterna entre encendido y apagado                                                                                           |
 | ![LUZ](../images/LIGHT_3.jpg) | `Botón de luz encendido`<br/>`Botón apagado luz`<br/>`State Light`<br/>`Light Slider`                                                                                                                                                                             | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`                                                          |                                                                    Estado de retroalimentación presente, el botón izquierdo permite cambiar entre Encendido y Apagado y el control deslizante permite controlar la intensidad                                                                    |
-| ![LUZ](../images/LIGHT_4.jpg) | `Botón de luz encendido`<br/>`Botón apagado luz`<br/>`State Light`<br/>`Light Slider`<br/>`Color claro (información)`<br/>`Color claro (acción)`<br/>`Modo de luz` (opcional, se utiliza para tener modos de luz, por ejemplo, arco iris en Hue philips) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Estado de retroalimentación presente, el botón izquierdo permite cambiar entre Encendido y Apagado y el control deslizante permite controlar la intensidad. En el círculo, el color de la lámpara está presente y, al hacer clic en él, puede cambiar el color y activar un modo |
+| ![LUZ](../images/LIGHT_4.jpg) | `Botón de luz encendido`<br/>`Botón apagado luz`<br/>`State Light`<br/>`Light Slider`<br/>`Color claro (información)`<br/>`Color claro (acción)`<br/>`Modo de luz` (opcional, se usa para tener modos de luz, por ejemplo arco iris en Philips Hue) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Estado de retroalimentación presente, el botón izquierdo permite cambiar entre Encendido y Apagado y el control deslizante permite controlar la intensidad. En el círculo, el color de la lámpara está presente y, al hacer clic en él, puede cambiar el color y activar un modo |
 
 ### Los enchufes
 
@@ -302,24 +302,21 @@ Mejor que las palabras, aquí hay un ejemplo de los créditos genéricos para un
 
 Recibió una ventana emergente que le advirtió que le preocupa la configuración de accesibilidad, por lo que solo tiene que ir a la configuración de accesibilidad de su dispositivo móvil y desmarcar las aplicaciones con esta opción. (Pronto se traerá una solución en la aplicación)
 
-**Tengo un mensaje en una de las líneas de mis módulos que me dice que
-falta un tipo genérico !**
+**Tengo un mensaje en una de las líneas de mis módulos diciéndome que falta un Tipo Genérico !**
 
-Al leer este mensaje, le indica qué tipo genérico falta para crear una plantilla compatible. Solo aplícalo.Consulte el [doc capítulo Tipo genérico](https://www.jeedom.com/doc/documentation/plugins/mobile/es_ES/mobile#_configuration_des_plugins_et_commandes_que_reçoit_l_app).
+Al leer este mensaje, le indica qué tipo genérico falta para crear una plantilla compatible. Solo aplícalo. Consulte el [doc capítulo Tipo genérico](https://www.jeedom.com/doc/documentation/plugins/mobile/es_ES/mobile#_configuration_des_plugins_et_commandes_que_reçoit_l_app).
 
-**Tengo un problema con uno de los complementos llamado totalmente integrado (clima,
-termostato, alarma, cámara) !**
+**Tengo un problema con uno de los llamados complementos totalmente integrados (Tiempo, Termostato, Alarma, Cámara) !**
 
-No dude en acceder a su módulo y haga clic en Guardar nuevamente, esto volverá a incluir los tipos genéricos asociados con el módulo.
+No dudes en acceder a tu módulo y hacer clic en guardar nuevamente, esto volverá a incluir los tipos genéricos asociados al módulo.
 
 **No se puede poner una información sobre la bienvenida de la aplicación !**
 
 Esto es normal, estará disponible en la versión 1.1.
 
-**Tengo la aplicación que ocupa mucha memoria en mi
-Teléfono !**
+**Tengo la aplicación que ocupa mucha memoria en mi teléfono !**
 
-Hubo un error en las versiones 1.0.0 y 1.0.1 en la parte de la cámara. El problema no volverá a suceder con 1.0.2, para eliminar el caché sin sobrevalorar la aplicación, simplemente vaya a la configuración de su aplicación móvil y haga clic en "eliminar el caché".
+Hubo un error en las versiones 1.0.0 y 1.0.1 en la parte de la cámara. El problema no volverá a suceder con 1.0.2, para eliminar el caché sin borrar la aplicación, simplemente ve a la configuración de tu App Móvil y haz clic en "eliminar caché".
 
 **Me preocupa la primera sincronización en la aplicación o sql en el complemento móvil !**
 

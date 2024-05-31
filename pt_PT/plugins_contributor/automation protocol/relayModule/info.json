@@ -2,7 +2,7 @@
   "id": "relayModule",
   "name": "Relay Module",
   "description": {
-		"fr_FR": "Plugin pour piloter des modules de relais ethernet"
+		"fr_FR": "Plugin pour piloter des modules de relais ethernet<ul><li><a href='https://fr.aliexpress.com/item/4000999069820.html?spm=a2g0o.productlist.main.1.4be8486f3Ic93qDingtian'>IOT Relay</a></li><li><a href='https://fr.aliexpress.com/item/32914881766.html?spm=a2g0o.productlist.main.45.109933f0huhSBo'>Relais réseau IP à 8 canaux, double contrôle, interface Ethernet RJ45</a></li></ul><br>D'autre type de carte pourrait être ajouté à la demande"
   },
   "licence": "AGPL",
   "author": "fobsoft",

@@ -13,7 +13,7 @@ Depois de instalar o plugin, você só precisa ativá-lo :
 # Primeira conexão com o aplicativo V2
 
 Para conectar seu telefone : existem 2 métodos possíveis;
-na primeira tela do aplicativo, você pode conectar sua conta de mercado e, assim, encontrar todas as caixas associadas a esta conta ou simplesmente adicionar uma caixa.
+Na primeira tela do aplicativo, você pode conectar sua conta de mercado e, assim, encontrar todas as caixas associadas a esta conta ou simplesmente adicionar uma caixa.
 
 ![v2ConnectMarket](./images/v2firstConnect.jpeg)
 
@@ -35,7 +35,7 @@ Várias opções nesta tela :
 
 - Você insere a url do seu Jeedom (interno ou externo), bem como os identificadores de acesso a ele e confirma com o botão LOGIN
 
-- Você clica no QR Code : uma nova tela aparece; você pode digitalizar um QRCode do plugin Mobile da caixa que deseja adicionar, através da guia QRCODE do plugin.
+- Você clica no QR Code : uma nova tela aparece; você pode escanear um QR Code do plugin Mobile da Box que deseja adicionar, através da aba QR Code do plugin.
 
 ![v2ModalQrApp](./images/v2QRCodeConnect.PNG)
 
@@ -43,22 +43,22 @@ Várias opções nesta tela :
 
 > > ![v2ModalPlugin](./images/v2ModalQrCode.png)
 
-Uma vez que esta primeira etapa foi concluída, você está registrado no aplicativo: se você tiver o plugin Mobile, terá acesso através do menu a Notificações, QrCodes, personalização de Menu ....
+Uma vez que esta primeira etapa foi concluída, você está registrado no aplicativo: se você possui o plugin Mobile, terá acesso através do menu às Notificações, QR Codes, Personalização do Menu ....
 
 No menu, você terá a aba Caixas, que agrupa todas as caixas presentes nesta conta de mercado
 
-![v2MenuBoxs](./images/v2MenuBoxs.PNG)
+![v2MenuBoxs](./images/v2Menuboxs.PNG)
 
-![v2floutedBoxs](./images/v2floutedBoxs.png)
+![v2floutedBoxs](./images/v2floutedboxs.png)
 
-Basta clicar na caixa onde está instalado o plugin Mobile, depois se identificar para acessar a caixa.
+Basta clicar na Box onde o plugin Mobile está instalado e depois se identificar para acessar a Box.
 
 A caixa irá para o topo da lista, validada a sua autenticação.
 Você pode fazer isso para várias caixas.
 
 Você também pode clicar no botão + no canto inferior direito para acessar diferentes opções;
 
-- QrCode para adicionar uma caixa à lista através do plugin Mobile,
+- QR Code para adicionar uma Box à lista através do plugin Mobile,
 - Manual para adicionar manualmente uma caixa
 - Detecção Atlas e Luna (se estiver no Wifi, irá detectar as caixas na rede)
 - Sincronização do Market para atualizar as informações configuradas da conta do Market
@@ -67,7 +67,7 @@ Você também pode clicar no botão + no canto inferior direito para acessar dif
 
 Para acessar recursos como Notificações, Personalização de Menu ou Geolocalização, você deve primeiro ter selecionado pelo menos uma caixa atual'
 
-![v2ActualBoxFlouted](./images/v2ActualBoxFlouted.jpeg)
+![v2ActualBoxFlouted](./images/v2ActualboxFlouted.jpeg)
 
 # Como funciona a geolocalização
 
@@ -122,7 +122,7 @@ Aqui estão os parâmetros para inserir :
 
 ![mobile3](../images/mobile3.png)
 
-Após salvar, você receberá um QRCode permitindo que o aplicativo se configure.
+Após salvar, você obterá um QR Code permitindo que o aplicativo se configure.
 
 # Configuração de plugins e comandos recebidos pelo aplicativo
 
@@ -158,7 +158,7 @@ Depois de baixar e instalar seu aplicativo móvel Jeedom, inicie o aplicativo em
 
 Você chega em um tutorial de configuração que recomendamos que você siga. Algumas etapas foram realizadas anteriormente.
 
-Você poderá escolher entre uma configuração manual ou automática pelo QRcode. Se você optar pela configuração do QRcode, basta exibir o QRcode presente no plug-in Mobile App no equipamento para smartphone criado anteriormente. Nesse caso, o aplicativo recuperará automaticamente toda a configuração do seu Jeedom e se conectará automaticamente. Quando estiver conectado à sua casa via Wifi, o aplicativo usará automaticamente o endereço Ethernet Jeedom interno à sua rede. Quando você está conectado em 4G ou 3G, ele usa seu endereço externo para conectar-se ao seu Jeedom (por exemplo, através do serviço DNS Jeedom, se você o usar). Se você escolher a configuração manual, nesse caso, será necessário inserir manualmente os endereços IP internos e externos do seu Jeedom. Esta opção está reservada a um público informado.
+Você terá então a opção entre configuração manual ou automática por QR Code. Caso opte pela configuração por QR Code, basta flashar o QR Code presente no plugin Mobile App no equipamento smartphone previamente criado. Nesse caso, o aplicativo recuperará automaticamente toda a configuração do seu Jeedom e se conectará automaticamente. Quando estiver conectado à sua casa via Wifi, o aplicativo usará automaticamente o endereço Ethernet Jeedom interno à sua rede. Quando você está conectado em 4G ou 3G, ele usa seu endereço externo para conectar-se ao seu Jeedom (por exemplo, através do serviço DNS Jeedom, se você o usar). Se você escolher a configuração manual, nesse caso, será necessário inserir manualmente os endereços IP internos e externos do seu Jeedom. Esta opção está reservada a um público informado.
 
 O aplicativo será sincronizado e você chegará à sua página inicial (precedida por um mini guia de apresentação).
 
@@ -195,7 +195,7 @@ Bem como os dois textos associados :
 ![mobile dashboard 6](../images/mobile_dashboard_6.PNG)
 ![mobile dashboard 7](../images/mobile_dashboard_7.PNG)
 
-Aqui, você tem agora um atalho do seu pedido (na versão 1.1 Espera-se que os comandos liga / desliga apareçam na mesma tecla).
+Pronto, agora você tem um atalho para o seu comando (na versão 1.1 Espera-se que os comandos liga / desliga apareçam na mesma tecla).
 
 ![mobile dashboard 8](../images/mobile_dashboard_8.PNG)
 
@@ -217,7 +217,7 @@ Melhor que as palavras, aqui está um exemplo dos créditos genéricos para uma 
 | ![LUZ](../images/LIGHT_2.jpg) | `Botão de luz ligado`<br/>`Botão apagado`<br/>`Luz do estado`                                                                                                                                                                                                  | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`                                                                             |                                                                                          Feedback de status presente, o botão esquerdo alterna entre ligado e desligado                                                                                           |
 | ![LUZ](../images/LIGHT_2.jpg) | `Botão de alternância de luz`<br/>`Luz do estado`                                                                                                                                                                                                                       | `LIGHT_TOGGLE`<br/>`LIGHT_STATE`                                                                                         |                                                                                          Feedback de status presente, o botão esquerdo alterna entre ligado e desligado                                                                                           |
 | ![LUZ](../images/LIGHT_3.jpg) | `Botão de luz ligado`<br/>`Botão apagado`<br/>`Luz do estado`<br/>`Light Slider`                                                                                                                                                                             | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`                                                          |                                                                    Feedback de status presente, o botão esquerdo permite alternar entre On e Off e o controle deslizante permite controlar a intensidade                                                                    |
-| ![LUZ](../images/LIGHT_4.jpg) | `Botão de luz ligado`<br/>`Botão apagado`<br/>`Luz do estado`<br/>`Light Slider`<br/>`Cor clara (informação)`<br/>`Cor clara (ação)`<br/>`Light Mode` (opcional, é usado para ter modos de luz, por exemplo, arco-íris na Hue philips)) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Feedback de status presente, o botão esquerdo permite alternar entre On e Off e o controle deslizante permite controlar a intensidade. No círculo, a cor da lâmpada está presente e, quando você clica nela, pode alterar a cor e ativar um modo |
+| ![LUZ](../images/LIGHT_4.jpg) | `Botão de luz ligado`<br/>`Botão apagado`<br/>`Luz do estado`<br/>`Light Slider`<br/>`Cor clara (informação)`<br/>`Cor clara (ação)`<br/>`Light Mode` (opcional, é usado para ter modos de luz, por exemplo arco-íris no Philips Hue) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Feedback de status presente, o botão esquerdo permite alternar entre On e Off e o controle deslizante permite controlar a intensidade. No círculo, a cor da lâmpada está presente e, quando você clica nela, pode alterar a cor e ativar um modo |
 
 ### As tomadas
 
@@ -302,24 +302,21 @@ Melhor que as palavras, aqui está um exemplo dos créditos genéricos para uma 
 
 Você tinha um pop-up alertando sobre uma preocupação com as configurações de acessibilidade; basta acessar as configurações de acessibilidade do seu celular e desmarcar os aplicativos usando esta opção. (Uma correção será trazida em breve no aplicativo)
 
-**Eu tenho uma mensagem em uma das linhas dos meus módulos dizendo que
-sem um tipo genérico !**
+**Tenho uma mensagem em uma das linhas dos meus módulos informando que está faltando um tipo genérico !**
 
-Ao ler esta mensagem, ele informa qual tipo genérico está ausente para criar um modelo compatível. Apenas aplique.Consulte o [doc capítulo Tipo genérico](https://www.jeedom.com/doc/documentation/plugins/mobile/pt_PT/mobile#_configuration_des_plugins_et_commandes_que_reçoit_l_app).
+Ao ler esta mensagem, ele informa qual tipo genérico está ausente para criar um modelo compatível. Apenas aplique. Consulte o [doc capítulo Tipo genérico](https://www.jeedom.com/doc/documentation/plugins/mobile/pt_PT/mobile#_configuration_des_plugins_et_commandes_que_reçoit_l_app).
 
-**Estou com um problema com um dos plug-ins chamado totalmente integrado,
-termostato, alarme, câmera) !**
+**Tenho um problema com um dos chamados plug-ins totalmente integrados (clima, termostato, alarme, câmera) !**
 
-Não hesite em acessar seu módulo e clique em Salvar novamente. Isso incluirá novamente os tipos genéricos associados ao módulo.
+Não hesite em acessar o seu módulo e clicar novamente em salvar, isso incluirá novamente os tipos genéricos associados ao módulo.
 
 **Não foi possível colocar uma informação sobre as boas-vindas do aplicativo !**
 
 Isso é normal, estará disponível na versão 1.1.
 
-**Eu tenho o aplicativo que ocupa muita memória no meu
-Telefone !**
+**Tenho o aplicativo que ocupa muita memória do meu celular !**
 
-Houve um erro nas versões 1.0.0 e 1.0.1 na parte da câmera. O problema não acontecerá novamente com 1.0.2, para excluir o cache sem aumentar o preço do aplicativo, basta acessar a configuração do seu aplicativo móvel e clicar em "excluir o cache".
+Houve um erro nas versões 1.0.0 e 1.0.1 na parte da câmera. O problema não acontecerá novamente com 1.0.2, para deletar o cache sem deletar o app, basta ir até a configuração do seu Mobile App e clicar em "deletar cache".
 
 **Tenho uma preocupação de primeira sincronização no aplicativo ou de sql no plug-in móvel !**
 

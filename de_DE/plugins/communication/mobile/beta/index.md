@@ -35,7 +35,7 @@ Mehrere Auswahlmöglichkeiten auf diesem Bildschirm :
 
 - Sie geben die URL Ihres Jeedoms (intern oder extern) sowie die Zugangskennungen dazu ein und bestätigen mit dem LOGIN-Button
 
-- Sie klicken auf QR-Code : ein neuer Bildschirm erscheint; Sie können einen QRCode aus dem Mobile-Plugin der Box, die Sie hinzufügen möchten, über die Registerkarte QRCODE des Plugins scannen.
+- Sie klicken auf QR-Code : ein neuer Bildschirm erscheint; Sie können einen QR-Code vom Mobile-Plugin der Box, die Sie hinzufügen möchten, über die Registerkarte „QR-Code“ des Plugins scannen.
 
 ![v2ModalQrApp](./images/v2QRCodeConnect.PNG)
 
@@ -43,22 +43,22 @@ Mehrere Auswahlmöglichkeiten auf diesem Bildschirm :
 
 > > ![v2ModalPlugin](./images/v2ModalQrCode.png)
 
-Nach diesem ersten Schritt sind Sie in der Anwendung registriert: Wenn Sie das Mobile-Plugin haben, haben Sie über das Menü Zugriff auf Benachrichtigungen, QrCodes, Menüanpassung ....
+Nach diesem ersten Schritt sind Sie in der Anwendung registriert: Wenn Sie das Mobile-Plugin haben, haben Sie über das Menü Zugriff auf Benachrichtigungen, QR-Codes und Menüanpassung ....
 
 Im Menü haben Sie eine Registerkarte Boxen, die alle auf diesem Marktkonto vorhandenen Boxen zusammenfasst
 
-![v2MenuBoxs](./images/v2MenuBoxs.PNG)
+![v2MenuBoxs](./images/v2Menuboxs.PNG)
 
-![v2floutedBoxs](./images/v2floutedBoxs.png)
+![v2floutedBoxs](./images/v2floutedboxs.png)
 
-Klicken Sie einfach auf das Kästchen, in dem das Mobile-Plugin installiert ist, und identifizieren Sie sich dann, um auf das Kästchen zuzugreifen.
+Klicken Sie einfach auf die Box, in der das Mobile-Plugin installiert ist, und identifizieren Sie sich dann, um auf die Box zuzugreifen.
 
 Das Feld wird an den Anfang der Liste gestellt, nachdem es seine Authentifizierung validiert hat.
 Sie können dies für mehrere Boxen tun.
 
 Sie können auch unten rechts auf die Schaltfläche + klicken, um auf verschiedene Optionen zuzugreifen
 
-- QRCode zum Hinzufügen einer Box zur Liste über das Mobile-Plugin,
+- QR-Code zum Hinzufügen einer Box zur Liste über das Mobile-Plugin,
 - Manuell, um eine Box manuell hinzuzufügen
 - Erkennung Atlas und Luna (wenn Sie mit WLAN verbunden sind, erkennen die Boxen im Netzwerk)
 - Market-Synchronisierung, um konfigurierte Market-Kontoinformationen zu aktualisieren
@@ -67,7 +67,7 @@ Sie können auch unten rechts auf die Schaltfläche + klicken, um auf verschiede
 
 Um auf Funktionen wie Benachrichtigungen, Menüpersonalisierung oder Geolokalisierung zugreifen zu können, müssen Sie zunächst mindestens ein aktuelles Feld ausgewählt haben'
 
-![v2ActualBoxFlouted](./images/v2ActualBoxFlouted.jpeg)
+![v2ActualBoxFlouted](./images/v2ActualboxFlouted.jpeg)
 
 # So funktioniert Geolokalisierung
 
@@ -122,7 +122,7 @@ Hier sind die einzugebenden Parameter :
 
 ![mobile3](../images/mobile3.png)
 
-Nach dem Speichern erhalten Sie einen QRCode, mit dem sich die Anwendung selbst konfigurieren kann.
+Nach dem Speichern erhalten Sie einen QR-Code, mit dem sich die Anwendung selbst konfigurieren kann.
 
 # Konfiguration der von der App empfangenen Plugins und Befehle
 
@@ -156,9 +156,9 @@ Wenn Sie die Mobile-Anwendung zum ersten Mal starten, wird Ihnen ein Lernprogram
 
 Nachdem Sie Ihre Jeedom-Mobilanwendung heruntergeladen und installiert haben, starten Sie die Anwendung auf Ihrem Smartphone.
 
-Sie gelangen dann zu einem Konfigurations-Tutorial, dem Sie folgen sollten. Einige Schritte wurden zuvor ausgeführt.
+Sie gelangen dann zu einem Konfigurations-Tutorial, dem Sie folgen sollten. Einige Schritte wurden bereits durchgeführt.
 
-Sie haben dann die Wahl zwischen einer manuellen oder automatischen Konfiguration per QRcode. Wenn Sie sich für die Konfiguration per QR-Code entscheiden, flashen Sie einfach den QR-Code, der im Mobile App-Plugin des zuvor erstellten Smartphone-Geräts vorhanden ist. In diesem Fall stellt die Anwendung automatisch die gesamte Konfiguration Ihres Jeedom wieder her und stellt automatisch eine Verbindung her. Wenn die Verbindung über WLAN mit Ihrem Zuhause verbunden ist, verwendet die Anwendung automatisch die in Ihrem Netzwerk interne Jeedom-Ethernet-Adresse. Wenn Sie mit 4G oder 3G verbunden sind, wird Ihre externe Adresse verwendet, um eine Verbindung zu Ihrem Jeedom herzustellen (z. B. über den Jeedom-DNS-Dienst, wenn Sie diesen verwenden). Wenn Sie sich für eine manuelle Konfiguration entscheiden, müssen Sie in diesem Fall die internen und externen IP-Adressen Ihres Jeedom manuell eingeben. Diese Option ist einer informierten Öffentlichkeit vorbehalten.
+Sie haben dann die Wahl zwischen manueller oder automatischer Konfiguration per QR-Code. Wenn Sie sich für die Konfiguration per QR-Code entscheiden, flashen Sie einfach den im Mobile App-Plugin vorhandenen QR-Code in das zuvor erstellte Smartphone-Gerät. In diesem Fall stellt die Anwendung automatisch die gesamte Konfiguration Ihres Jeedom wieder her und stellt automatisch eine Verbindung her. Wenn die Verbindung über WLAN mit Ihrem Zuhause verbunden ist, verwendet die Anwendung automatisch die in Ihrem Netzwerk interne Jeedom-Ethernet-Adresse. Wenn Sie mit 4G oder 3G verbunden sind, wird Ihre externe Adresse verwendet, um eine Verbindung zu Ihrem Jeedom herzustellen (z. B. über den Jeedom-DNS-Dienst, wenn Sie diesen verwenden). Wenn Sie sich für eine manuelle Konfiguration entscheiden, müssen Sie in diesem Fall die internen und externen IP-Adressen Ihres Jeedom manuell eingeben. Diese Option ist einer informierten Öffentlichkeit vorbehalten.
 
 Die Anwendung wird synchronisiert und Sie gelangen auf die Startseite (vorangestellt von einem Mini-Präsentationshandbuch)).
 
@@ -195,7 +195,7 @@ Sowie die beiden dazugehörigen Texte :
 ![mobile dashboard 6](../images/mobile_dashboard_6.PNG)
 ![mobile dashboard 7](../images/mobile_dashboard_7.PNG)
 
-Hier haben Sie jetzt eine Verknüpfung Ihrer Bestellung (in Version 1.1 Es wird erwartet, dass Ein / Aus-Befehle auf derselben Taste angezeigt werden).
+Nun haben Sie eine Verknüpfung für Ihren Befehl (in Version 1).1 Es wird erwartet, dass Ein / Aus-Befehle auf derselben Taste angezeigt werden).
 
 ![mobile dashboard 8](../images/mobile_dashboard_8.PNG)
 
@@ -217,7 +217,7 @@ Besser als Worte, hier ist ein Beispiel für die generischen Credits für ein Li
 | ![LICHT](../images/LIGHT_2.jpg) | „Lichttaste ein“<br/>`Button Off Light`<br/>`State Light`                                                                                                                                                                                                  | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`                                                                             |                                                                                          Bei vorhandener Statusrückmeldung wechselt die linke Taste zwischen Ein und Aus                                                                                           |
 | ![LICHT](../images/LIGHT_2.jpg) | „Licht-Umschalttaste“<br/>`State Light`                                                                                                                                                                                                                       | `LIGHT_TOGGLE`<br/>`LIGHT_STATE`                                                                                         |                                                                                          Bei vorhandener Statusrückmeldung wechselt die linke Taste zwischen Ein und Aus                                                                                           |
 | ![LICHT](../images/LIGHT_3.jpg) | „Lichttaste ein“<br/>`Button Off Light`<br/>`State Light`<br/>`Light Slider`                                                                                                                                                                             | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`                                                          |                                                                    Bei vorhandener Statusrückmeldung können Sie mit der linken Taste zwischen Ein und Aus wechseln und mit dem Schieberegler die Intensität steuern                                                                    |
-| ![LICHT](../images/LIGHT_4.jpg) | „Lichttaste ein“<br/>`Button Off Light`<br/>`State Light`<br/>`Light Slider`<br/>`Lichtfarbe (info)`<br/>`Lichtfarbe (Aktion)`<br/>`Lichtmodus` (optional, wird verwendet, um Lichtmodi zu haben, zum Beispiel Regenbogen auf Hue philips) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Bei vorhandener Statusrückmeldung können Sie mit der linken Taste zwischen Ein und Aus wechseln und mit dem Schieberegler die Intensität steuern. Im Kreis ist die Farbe der Lampe vorhanden. Wenn Sie darauf klicken, können Sie die Farbe ändern und einen Modus aktivieren |
+| ![LICHT](../images/LIGHT_4.jpg) | „Lichttaste ein“<br/>`Button Off Light`<br/>`State Light`<br/>`Light Slider`<br/>`Lichtfarbe (info)`<br/>`Lichtfarbe (Aktion)`<br/>„Lichtmodus“ (optional, wird verwendet, um Lichtmodi zu haben, zum Beispiel Regenbogen bei Philips Hue) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Bei vorhandener Statusrückmeldung können Sie mit der linken Taste zwischen Ein und Aus wechseln und mit dem Schieberegler die Intensität steuern. Im Kreis ist die Farbe der Lampe vorhanden. Wenn Sie darauf klicken, können Sie die Farbe ändern und einen Modus aktivieren |
 
 ### Die Steckdosen
 
@@ -302,24 +302,21 @@ Besser als Worte, hier ist ein Beispiel für die generischen Credits für ein Li
 
 Sie hatten ein Popup-Fenster, das Sie vor Bedenken hinsichtlich der Eingabehilfeneinstellungen warnte. Sie müssen daher nur zu den Eingabehilfeneinstellungen Ihres Mobiltelefons gehen und die Anwendungen mit dieser Option deaktivieren. (Ein Fix wird in Kürze in der App veröffentlicht)
 
-**Ich habe eine Nachricht in einer der Zeilen meiner Module, die mir sagt, dass es so ist
-Fehlen eines generischen Typs !**
+**In einer Zeile meiner Module erscheint die Meldung, dass ein generischer Typ fehlt !**
 
-Wenn Sie diese Nachricht lesen, erfahren Sie, welcher generische Typ fehlt, um eine kompatible Vorlage zu erstellen. Wenden Sie es einfach an.Siehe die [doc Kapitel Generischer Typ](https://www.jeedom.com/doc/documentation/plugins/mobile/de_DE/mobile#_configuration_des_plugins_et_commandes_que_reçoit_l_app).
+Wenn Sie diese Nachricht lesen, erfahren Sie, welcher generische Typ fehlt, um eine kompatible Vorlage zu erstellen. Wenden Sie es einfach an. Siehe die [doc Kapitel Generischer Typ](https://www.jeedom.com/doc/documentation/plugins/mobile/de_DE/mobile#_configuration_des_plugins_et_commandes_que_reçoit_l_app).
 
-**Ich habe ein Problem mit einem der Plugins namens voll integriert (Wetter,
-Thermostat, Alarm, Kamera) !**
+**Ich habe ein Problem mit einem der sogenannten vollintegrierten Plugins (Wetter, Thermostat, Alarm, Kamera)) !**
 
-Zögern Sie nicht, auf Ihr Modul zuzugreifen, und klicken Sie erneut auf Speichern. Dadurch werden die mit dem Modul verknüpften generischen Typen wieder aufgenommen.
+Zögern Sie nicht, auf Ihr Modul zuzugreifen und erneut auf „Speichern“ zu klicken. Dadurch werden die mit dem Modul verknüpften generischen Typen wieder einbezogen.
 
 **Informationen zur Begrüßung der App können nicht angegeben werden !**
 
 Dies ist normal und wird in Version 1.1 verfügbar sein.
 
-**Ich habe die Anwendung, die viel Speicher in meinem beansprucht
-Telefon !**
+**Ich habe die Anwendung, die viel Speicher auf meinem Telefon beansprucht !**
 
-In Version 1.0 ist ein Fehler aufgetreten.0 und 1,0.1 im Kamerateil. Das Problem wird mit 1.0 nicht wieder auftreten.2 Um den Cache zu löschen, ohne die App zu teuer zu machen, gehen Sie einfach zur Konfiguration Ihrer mobilen App und klicken Sie auf "Cache löschen"".
+In Version 1.0 ist ein Fehler aufgetreten.0 und 1,0.1 im Kamerateil. Das Problem wird mit 1.0 nicht wieder auftreten.2. Um den Cache zu löschen, ohne die App zu löschen, gehen Sie einfach in die Konfiguration Ihrer mobilen App und klicken Sie auf „Cache löschen“".
 
 **Ich habe Bedenken hinsichtlich der ersten Synchronisierung in der App oder von SQL im mobilen Plugin !**
 

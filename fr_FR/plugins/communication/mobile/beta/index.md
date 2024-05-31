@@ -2,7 +2,7 @@
 
 Plugin permettant d’utiliser l’application Mobile Jeedom.
 
-L’application mobile Jeedom nécessite l’installation de ce plugin afin que la box puisse dialoguer avec l’application Mobile.
+L’application mobile Jeedom nécessite l’installation de ce plugin afin que la Box puisse dialoguer avec l’application Mobile.
 
 # Configuration du plugin Mobile pour Application V2
 
@@ -10,16 +10,16 @@ Après installation du plugin, il vous suffit de l’activer :
 
 ![mobile1](./images/mobile1.png)
 
-# Premiere connexion à l'application V2
+# Première connexion à l'application V2
 
 Pour connecter votre téléphone : il y a 2 méthodes possible;
-sur le premier écran de l'application, il vous est proposé de connecter votre compte market, et ainsi de retrouver toutes les boxs associées à ce compte, ou bien simplement ajouter une box.
+Sur le premier écran de l'application, il vous est proposé de connecter votre compte Market, et ainsi de retrouver toutes les Boxs associées à ce compte, ou bien simplement ajouter une Box.
 
 ![v2ConnectMarket](./images/v2firstConnect.jpeg)
 
 > **IMPORTANT**
 >
-> Pour profiter des fonctionnalités de l'application, le core de votre Jeedom doit etre en 4.4.0 minimum
+> Pour profiter des fonctionnalités de l'application, le Core de votre Jeedom doit être en 4.4.0 minimum
 
 #### **CONNEXION VIA LE COMPTE MARKET** :
 
@@ -27,7 +27,7 @@ sur le premier écran de l'application, il vous est proposé de connecter votre 
 
 Il vous faut simplement rentrer votre identifiant Market ainsi que votre mot de passe.
 
-#### **CONNEXION VIA BOX ID** :
+#### **CONNEXION VIA Box ID** :
 
 ![v22methods](./images/v22methods.PNG)
 
@@ -35,50 +35,50 @@ Plusieurs choix sur cet écran :
 
 - Vous entrez l'url de votre Jeedom (interne ou externe), ainsi que les identifiants d'accès à celle-ci et vous confirmez avec le bouton CONNEXION
 
-- Vous cliquez sur QR Code : un nouvel écran apparait; vous pourrez scanner un QRCode depuis le plugin Mobile de la box que vous souhaitez ajoutée, via l'onglet QRCODE du plugin.
+- Vous cliquez sur QR Code : un nouvel écran apparait; vous pourrez scanner un QR Code depuis le plugin Mobile de la Box que vous souhaitez ajoutée, via l'onglet QR Code du plugin.
 
 ![v2ModalQrApp](./images/v2QRCodeConnect.PNG)
 
-> Onglet Qr Code du plugin Mobile
+> Onglet QR Code du plugin Mobile
 
 > > ![v2ModalPlugin](./images/v2ModalQrCode.png)
 
-Une fois cette premiere étape passée, vous êtes enregistré dans l'application: si vous possédez le plugin Mobile, vous aurez accès via le menu aux Notifications, aux QrCodes, la customisation du Menu ....
+Une fois cette première étape passée, vous êtes enregistré dans l'application: si vous possédez le plugin Mobile, vous aurez accès via le menu aux Notifications, aux QR Codes, la customisation du Menu ....
 
-Dans le menu, vous aurez un onglet Boxs, qui regroupe toutes les box présentes sur ce compte market
+Dans le menu, vous aurez un onglet Boxs, qui regroupe toutes les Box présentes sur ce compte Market
 
-![v2MenuBoxs](./images/v2MenuBoxs.PNG)
+![v2MenuBoxs](./images/v2Menuboxs.PNG)
 
-![v2floutedBoxs](./images/v2floutedBoxs.png)
+![v2floutedBoxs](./images/v2floutedboxs.png)
 
-Il vous suffit de cliquer sur la box où le plugin Mobile est installé, puis de vous identifiez pour accéder a la box.
+Il vous suffit de cliquer sur la Box où le plugin Mobile est installé, puis de vous identifier pour accéder à la Box.
 
-La box passera en haut de la liste, ayant validée son authentification.
-Vous pouvez faire ainsi pour plusieurs boxs.
+La Box passera en haut de la liste, ayant validée son authentification.
+Vous pouvez faire ainsi pour plusieurs Boxs.
 
 Vous pouvez aussi cliquer sur le bouton + en bas à droite pour accéder à différentes options;
 
-- QrCode pour ajouter une box à la liste via le plugin Mobile,
-- Manuel pour ajouter manuellement une box
-- Detection Atlas et Luna (si vous êtes en Wifi, détectera les boxs sur le réseau)
+- QR Code pour ajouter une Box à la liste via le plugin Mobile,
+- Manuel pour ajouter manuellement une Box
+- Détection Atlas et Luna (si vous êtes en Wifi, détectera les Boxs sur le réseau)
 - Synchronisation Market pour actualiser les informations du compte Market configuré
 
 ![v2greenBtnAdd](./images/v2greenBtnAdd.PNG)
 
-Pour acceder aux fonctionnalités comme les Notifications, la Personnalisation du Menu ou la Géolocalisation, il faut au préalable avoir selectionné au moins une box 'actuelle'
+Pour accéder aux fonctionnalités comme les Notifications, la Personnalisation du Menu ou la Géolocalisation, il faut au préalable avoir sélectionné au moins une Box 'actuelle'
 
-![v2ActualBoxFlouted](./images/v2ActualBoxFlouted.jpeg)
+![v2ActualBoxFlouted](./images/v2ActualboxFlouted.jpeg)
 
 # Fonctionnement de la Géolocalisation
 
-Nous ajoutons une zone de Géolocalisation en cliquant sur l'icone +
+Nous ajoutons une zone de Géolocalisation en cliquant sur l'icône +
 
 ![v2AddZone](./images/v2AddZone.jpeg)
 
 Nous tapons l'adresse recherchée, nous validons avec Entrée sur son téléphone; le curseur va alors se positionner sur l'adresse recherchée.
 Nous pouvons ensuite ajouter un nom et sauvegarder la zone.
 
-Cela crééra une nouvelle commande sur votre équipement mobile, de type binaire, qui correspondra aux entrées et sorties de la zone si la géolocalisation est activée sur votre téléphone mobile.
+Cela créera une nouvelle commande sur votre équipement mobile, de type binaire, qui correspondra aux entrées et sorties de la zone si la géolocalisation est activée sur votre téléphone mobile.
 
 Nous pouvons également changer le radius de la zone, pour étendre la détection de la zone.
 
@@ -122,7 +122,7 @@ Voici les paramètres à renseigner :
 
 ![mobile3](../images/mobile3.png)
 
-Après avoir sauvegardé, vous obtiendrez un QRCode permettant à l’application de se configurer toute seule.
+Après avoir sauvegardé, vous obtiendrez un QR Code permettant à l’application de se configurer toute seule.
 
 # Configuration des plugins et commandes que reçoit l’app
 
@@ -156,9 +156,9 @@ Au 1er lancement de l’application Mobile, un tutorial vous sera proposé afin 
 
 Après avoir téléchargé et installé votre application mobile Jeedom, lancez l’application sur votre smartphone.
 
-Vous arrivez alors dans un didacticiel de configuration que nous vous conseillons de suivre. Certaines étapes ont étés faites précédemment.
+Vous arrivez alors dans un didacticiel de configuration que nous vous conseillons de suivre. Certaines étapes ont été faites précédemment.
 
-Vous aurez ensuite le choix entre une configuration manuelle ou automatique par QRcode. Si vous optez pour la configuration par QRcode, il suffit de flasher le QRcode présent sur le plugin App Mobile dans l’équipement smartphone créé précédemment. Dans ce cas, l’application va récupérer automatiquement toute la configuration de votre Jeedom et se connecter automatiquement. Lorsqu’il sera connecté chez vous en Wifi, l’application utilisera automatiquement l’adresse Jeedom ethernet interne à votre réseau. Lorsque vous serez connecté en 4G ou 3G, il utilisera votre adresse externe pour se connecter à votre Jeedom (par exemple via le service DNS Jeedom si vous l’utilisez). Si vous optez pour la configuration manuelle, dans ce cas il vous faudra entrer à la main les adresses IP interne et externe de votre Jeedom. Cette option est réservée à un public averti.
+Vous aurez ensuite le choix entre une configuration manuelle ou automatique par QR Code. Si vous optez pour la configuration par QR Code, il suffit de flasher le QR Code présent sur le plugin App Mobile dans l’équipement smartphone créé précédemment. Dans ce cas, l’application va récupérer automatiquement toute la configuration de votre Jeedom et se connecter automatiquement. Lorsqu’il sera connecté chez vous en Wifi, l’application utilisera automatiquement l’adresse Jeedom Ethernet interne à votre réseau. Lorsque vous serez connecté en 4G ou 3G, il utilisera votre adresse externe pour se connecter à votre Jeedom (par exemple via le service DNS Jeedom si vous l’utilisez). Si vous optez pour la configuration manuelle, dans ce cas il vous faudra entrer à la main les adresses IP interne et externe de votre Jeedom. Cette option est réservée à un public averti.
 
 L’application va se synchroniser et vous arrivez sur sa page d’accueil (précédée par un mini guide de présentation).
 
@@ -195,7 +195,7 @@ Ainsi que les deux textes associés :
 ![mobile dashboard 6](../images/mobile_dashboard_6.PNG)
 ![mobile dashboard 7](../images/mobile_dashboard_7.PNG)
 
-Voilà, vous avez maitenant un raccourci de votre commande (dans la version 1.1 il est prévu que les commandes On/Off apparaissent sur la même touche).
+Voilà, vous avez maintenant un raccourci de votre commande (dans la version 1.1 il est prévu que les commandes On/Off apparaissent sur la même touche).
 
 ![mobile dashboard 8](../images/mobile_dashboard_8.PNG)
 
@@ -217,7 +217,7 @@ Mieux que des mots, voici un exemple des génériques types pour une lumière av
 | ![LIGHT](../images/LIGHT_2.jpg) | `Lumière Bouton On`<br/>`Lumière Bouton Off`<br/>`Lumière Etat`                                                                                                                                                                                                  | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`                                                                             |                                                                                          Retour d'état présent, le bouton de gauche permet de switcher entre On et Off                                                                                           |
 | ![LIGHT](../images/LIGHT_2.jpg) | `Lumière Bouton Toggle`<br/>`Lumière Etat`                                                                                                                                                                                                                       | `LIGHT_TOGGLE`<br/>`LIGHT_STATE`                                                                                         |                                                                                          Retour d'état présent, le bouton de gauche permet de switcher entre On et Off                                                                                           |
 | ![LIGHT](../images/LIGHT_3.jpg) | `Lumière Bouton On`<br/>`Lumière Bouton Off`<br/>`Lumière Etat`<br/>`Lumière Slider`                                                                                                                                                                             | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`                                                          |                                                                    Retour d'état présent, le bouton de gauche permet de switcher entre On et Off et le slider permet de contrôler l'intensité                                                                    |
-| ![LIGHT](../images/LIGHT_4.jpg) | `Lumière Bouton On`<br/>`Lumière Bouton Off`<br/>`Lumière Etat`<br/>`Lumière Slider`<br/>`Lumière Couleur (info)`<br/>`Lumière Couleur (action)`<br/>`Lumière Mode` (optionnel, il sert à avoir des mode de lumière,par exemple arc-en-ciel sur les philips Hue) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Retour d'état présent, le bouton de gauche permet de switcher entre On et Off et le slider permet de contrôler l'intensité. Dans le cercle la couleur de la lampe est présente et lors d'un cloc dans celui-ci vous pouvez changer la couleur et activer un mode |
+| ![LIGHT](../images/LIGHT_4.jpg) | `Lumière Bouton On`<br/>`Lumière Bouton Off`<br/>`Lumière Etat`<br/>`Lumière Slider`<br/>`Lumière Couleur (info)`<br/>`Lumière Couleur (action)`<br/>`Lumière Mode` (optionnel, il sert à avoir des mode de lumière, par exemple arc-en-ciel sur les Philips Hue) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Retour d'état présent, le bouton de gauche permet de switcher entre On et Off et le slider permet de contrôler l'intensité. Dans le cercle la couleur de la lampe est présente et lors d'un cloc dans celui-ci vous pouvez changer la couleur et activer un mode |
 
 ### Les Prises
 
@@ -302,25 +302,22 @@ Mieux que des mots, voici un exemple des génériques types pour une lumière av
 
 Vous avez eu un popup vous avertissant d’un souci sur les paramètres d’accessibilité, il vous suffit donc de vous rendre dans les paramètres d’accessibilité de votre mobile et de décocher les applications utilisant cette option. (Un correctif sera apporté prochainement sur l’app)
 
-**J’ai un message dans une des lignes de mes modules me disant qu’il
-manque un Type Générique !**
+**J’ai un message dans une des lignes de mes modules me disant qu’il manque un Type Générique !**
 
-En lisant ce message, il vous dit quel type générique manque pour créer un template compatible. Il suffit juste de l’appliquer.Reportez-vous à la [doc chapitre Type Générique](https://www.jeedom.com/doc/documentation/plugins/mobile/fr_FR/mobile#_configuration_des_plugins_et_commandes_que_reçoit_l_app).
+En lisant ce message, il vous dit quel type générique manque pour créer un Template compatible. Il suffit juste de l’appliquer. Reportez-vous à la [doc chapitre Type Générique](https://www.jeedom.com/doc/documentation/plugins/mobile/fr_FR/mobile#_configuration_des_plugins_et_commandes_que_reçoit_l_app).
 
-**J’ai un souci sur un des plugins dit complètement intégré (météo,
-thermostat, alarme, caméra) !**
+**J’ai un souci sur un des plugins dit complètement intégré (Météo, Thermostat, Alarme, Caméra) !**
 
-N’hésitez pas à accéder à votre module et de bien cliquer sursauvegarder à nouveau, cela permettra de ré-inclure les typesgénériques associés au module.
+N’hésitez pas à accéder à votre module et de bien cliquer sur sauvegarder à nouveau, cela permettra de réinclure les types génériques associés au module.
 
 **Impossible de mettre une info sur l’accueil de l’app !**
 
 Cela est normal, ça sera disponible sur la version 1.1.
 
-**J’ai l’application qui prend enormement de memoire dans mon
-telephone !**
+**J’ai l’application qui prend énormément de mémoire dans mon téléphone !**
 
-Il y avait un bug sur les versions 1.0.0 et 1.0.1 sur la partie Camera. Le souci ne ce reproduira plus avec la 1.0.2, pour supprimer le cache sans surprimer l’app, il suffit d’aller dans la configuration de votre App Mobile et de cliquer sur "supprimer le cache".
+Il y avait un bug sur les versions 1.0.0 et 1.0.1 sur la partie Camera. Le souci ne ce reproduira plus avec la 1.0.2, pour supprimer le cache sans supprimer l’app, il suffit d’aller dans la configuration de votre App Mobile et de cliquer sur "supprimer le cache".
 
-**J'ai un souci de premiere synchronisation sur l'app ou de sql sur le plugin mobile !**
+**J'ai un souci de première synchronisation sur l'app ou de SQL sur le plugin mobile !**
 
-Il faut bien mettre des types génériques et autoriser le plugin a envoyer les generiques voir la doc un peux plus haut.
+Il faut bien mettre des types génériques et autoriser le plugin a envoyer les génériques voir la doc un peux plus haut.
