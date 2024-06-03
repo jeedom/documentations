@@ -4,6 +4,7 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+- Se corrigió un error que indicaba una actualización de zigbee2mqtt cuando la versión ya está actualizada
 - Tipo de clave Ember agregado
 - Se solucionó un problema al iniciar el demonio por primera vez con respecto a los derechos del archivo de registro
 
