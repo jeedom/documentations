@@ -18,7 +18,7 @@
 	"require": "4.2",
 	"category": "home automation protocol",
 	"hasDependency": true,
-	"hasOwnDeamon": false,
+	"hasOwnDeamon": true,
 	"maxDependancyInstallTime": 10,
 	"changelog_beta": "https://eridani78.github.io/SomfyUnified-Doc/#language#/changelog",
 	"changelog": "https://eridani78.github.io/SomfyUnified-Doc/#language#/changelog",
