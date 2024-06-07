@@ -703,8 +703,8 @@
     "plugins_contributor\/home automation protocol\/index.md": {
         "Yokis passerelle": "Yokis passerelle",
         "Plugin pour commander les modules Yokis en local": "Plugin pour commander les modules Yokis en local",
-        "IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale": "IMPORTANTE - En primer lugar, asegúrese de tener una caja Somfy compatible en la que sea posible activar el modo Desarrollador en su cuenta Somfy (activa la API local",
-        "Plugin destiné à permettre une interface entre Jeedom et une box Somfy TaHoma (ou box Somfy équivalente éligible) sur laquelle l'API locale Somfy a été activée": "Complemento destinado a habilitar una interfaz entre Jeedom y una caja Somfy TaHoma (o una caja Somfy equivalente elegible) en la que se ha activado la API local de Somfy",
+        "Voir aussi plugin SOMFYUNIFIED pour des fonctionnalités plus étendues": "Consulte también el complemento SOMFYUNIFIED para obtener funcionalidades más amplias",
+        "Plugin destiné à permettre une interface entre Jeedom et une box Somfy (TaHoma ou équivalente éligible) sur laquelle l'API locale Somfy a été activée": "Complemento destinado a habilitar una interfaz entre Jeedom y una caja Somfy (TaHoma o equivalente elegible) en la que se ha activado la API local de Somfy",
         "Plugin destiné à permettre une interface entre Jeedom et les équipements connectés via les API OverKiz (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Rexel Energeasy Connect, Simu (LiveIn2), Ubiwizz": "Complemento destinado a permitir una interfaz entre Jeedom y los equipos conectados a través de las API de OverKiz (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Rexel Energeasy Connect, Simu (LiveIn2), Ubiwizz",
         "Plugin pour contrôler les appareils MEROSS": "Complemento para controlar dispositivos MEROSS",
         "Passerelle domotique": "Pasarela domótica",
@@ -721,6 +721,7 @@
         "Changelog Stable": "Registro de cambios estable",
         "Changelog Beta": "Registro de cambios Beta",
         "Permet un fonctionnement 'Cloudless' et des retours d'état immédiats": "Permite el funcionamiento 'sin nubes' y retroalimentación inmediata del estado",
+        "IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale": "IMPORTANTE - En primer lugar, asegúrese de tener una caja Somfy compatible en la que sea posible activar el modo Desarrollador en su cuenta Somfy (activa la API local",
         " TaHomaLocal.": " TaHomaLocal.",
         " TaHomaLocal?": " TaHomaLocal?",
         "TaHomaLocal ": "TaHomaLocal ",
