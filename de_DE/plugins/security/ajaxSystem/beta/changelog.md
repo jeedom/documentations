@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Bessere Ereignisverwaltung (wenn die Quelle der Benutzer und nicht der Hub ist))
+
 # 01.06.2024
 
 - Ein Problem bei der Installation von Abhängigkeiten wurde behoben

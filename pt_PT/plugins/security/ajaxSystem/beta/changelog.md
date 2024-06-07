@@ -4,6 +4,8 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto
 
+- Melhor gerenciamento de eventos (se a origem for o usuário e não o hub)
+
 # 01/06/2024
 
 - Corrigido problema com instalação de dependências

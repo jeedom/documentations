@@ -4,6 +4,8 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Meilleurs gestion des evenements (si la source est l'utilisateur et non le hub)
+
 # 06/01/2024
 
 - Correction d'un soucis sur l'installation des dépendances
