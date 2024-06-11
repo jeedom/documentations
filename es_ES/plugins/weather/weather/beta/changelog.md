@@ -4,6 +4,8 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+- Mejor gestión de datos de contacto
+
 # 22/05/2024
 
 - Se corrigió un error poco común en la hora de salida y puesta del sol que podía caer a la 1 a.m

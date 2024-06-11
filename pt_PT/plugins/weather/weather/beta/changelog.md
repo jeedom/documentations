@@ -4,6 +4,8 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+- Melhor gerenciamento de detalhes de contato
+
 # 22/05/2024
 
 - Corrigido um bug raro no horário do nascer/pôr do sol, que poderia cair à 1h

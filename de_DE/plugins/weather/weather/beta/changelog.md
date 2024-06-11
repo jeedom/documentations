@@ -4,6 +4,8 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Bessere Verwaltung von Kontaktdaten
+
 # 22.05.2024
 
 - Ein seltener Fehler bei der Sonnenaufgangs-/Sonnenuntergangszeit wurde behoben, der auf 1 Uhr morgens fallen konnte
