@@ -4,7 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 11/06/2024
+
 - O plugin é menos rigoroso no firmware rfxcom (autorização de firmware não atualizada)
+- Redesenhado o daemon para corrigir um problema de vazamento de memória no Debian 11 (obrigado @Mips2648)
 
 # 01/03/2024
 

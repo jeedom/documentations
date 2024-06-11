@@ -4,7 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 06/11/2024
+
 - The plugin is less strict on the rfxcom firmware (firmware authorization not up to date)
+- Redesigned the daemon to correct a memory leak issue on Debian 11 (thanks @Mips2648)
 
 # 03/01/2024
 

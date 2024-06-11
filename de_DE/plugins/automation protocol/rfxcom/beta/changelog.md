@@ -4,7 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 11.06.2024
+
 - Das Plugin ist weniger streng in Bezug auf die rfxcom-Firmware (Firmware-Autorisierung nicht auf dem neuesten Stand))
+- Der Daemon wurde neu gestaltet, um ein Speicherleckproblem unter Debian 11 zu beheben (danke @Mips2648))
 
 # 01.03.2024
 

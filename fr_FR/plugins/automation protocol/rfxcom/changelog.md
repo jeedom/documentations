@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 11/06/2024
+
+- Le plugin est moins strict sur le firmware du rfxcom (autorisation de firmware non à jour)
+- Refonte du démon pour corriger un soucis de fuite mémoire sur debian 11 (merci @Mips2648)
+
 # 03/01/2024
 
 - Préparation pour jeedom 4.4

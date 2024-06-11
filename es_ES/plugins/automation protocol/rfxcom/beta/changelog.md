@@ -4,7 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 11/06/2024
+
 - El complemento es menos estricto con el firmware rfxcom (la autorización del firmware no está actualizada)
+- Rediseñé el demonio para corregir un problema de pérdida de memoria en Debian 11 (gracias @Mips2648)
 
 # 01/03/2024
 

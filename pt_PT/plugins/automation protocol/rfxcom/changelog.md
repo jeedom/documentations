@@ -4,6 +4,12 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- O plugin é menos rigoroso no firmware rfxcom (autorização de firmware não atualizada)
+
+# 01/03/2024
+
+- Preparando-se para Jeedom 4.4
+
 # 26/09/2022
 
 - Corrigido um problema se o usuário codificasse a ativação dos protocolos na rfxcom rom

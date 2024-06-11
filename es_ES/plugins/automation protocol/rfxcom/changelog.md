@@ -4,6 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- El complemento es menos estricto con el firmware rfxcom (la autorización del firmware no está actualizada)
+
+# 01/03/2024
+
+- Preparándose para el apuro 4.4
+
 # 26/09/2022
 
 - Se solucionó un problema si el usuario ha codificado la activación de los protocolos en la rom rfxcom
