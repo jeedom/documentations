@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 11/06/2024
+
+- Se corrigió un error al finalizar acciones que no se podían ejecutar
+
 # 16/05/2024
 
 - Solución para jeedom 4.4

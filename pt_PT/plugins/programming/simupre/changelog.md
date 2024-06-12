@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 16/05/2024
+
 - Correção para Jeedom 4.4
 - Correções de bugs
 - Correção de um problema de reprogramação após uma restauração que poderia levar 24 horas
