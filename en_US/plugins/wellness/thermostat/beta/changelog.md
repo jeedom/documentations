@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 06/13/2024
+
+- Better management of disabled thermostats
+
 # 02/19/2024
 
 - Fixed a bug that creates invalid crons

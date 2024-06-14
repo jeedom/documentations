@@ -5,6 +5,7 @@
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
 - Mejor gestión de eventos (si la fuente es el usuario y no el centro))
+- Eliminación de la parte SIA (demasiado complicada de mantener y sólo funciona muy raramente))
 
 # 01/06/2024
 

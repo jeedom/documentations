@@ -17,8 +17,8 @@
     "author": "Jeedom SAS",
     "require": "4.3",
     "category": "security",
-    "hasDependency": true,
-    "hasOwnDeamon": true,
+    "hasDependency": false,
+    "hasOwnDeamon": false,
     "maxDependancyInstallTime": 0,
     "language": [
         "fr_FR",

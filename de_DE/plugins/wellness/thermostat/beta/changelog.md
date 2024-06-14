@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 13.06.2024
+
+- Bessere Verwaltung deaktivierter Thermostate
+
 # 19.02.2024
 
 - Es wurde ein Fehler behoben, der ungültige Crons erstellte
