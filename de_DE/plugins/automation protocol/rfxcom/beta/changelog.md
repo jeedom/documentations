@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 19.06.2024
+
+- Debian 12-Kompatibilität hinzugefügt (Jeedom 4.4-Version).7 für Debian 12 erforderlich)
+- Korrektur der Verwaltung des Daemon-Abschaltens im Falle eines Konfigurations- oder Verbindungsproblems mit rfxcom
+
 # 11.06.2024
 
 - Das Plugin ist weniger streng in Bezug auf die rfxcom-Firmware (Firmware-Autorisierung nicht auf dem neuesten Stand))
@@ -20,7 +25,6 @@
 # 02.07.2022
 
 - Problem beim Installieren von Abhängigkeiten unter Jeedom 4.2 behoben
-
 
 # 02.03.2022
 
@@ -44,7 +48,6 @@
 
 - Fehler beim Update behoben
 - Korrektur der Windrichtung (Division durch 10 zu viel)
-
 
 # 01.12.2020
 
@@ -114,5 +117,5 @@ Achtung : Dieses Update ist wichtig und erfordert einen Neustart der Installatio
 
 # 2017-12-01
 
--   Die Aktionsbefehle für die Fernbedienungsmodule sind
+- Die Aktionsbefehle für die Fernbedienungsmodule sind
     automatisch erstellt
