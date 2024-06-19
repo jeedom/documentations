@@ -6,6 +6,12 @@
 >Si no hay información sobre la actualización, significa que solo se trata de actualización de documentación, traducción o texto.
 
 
+# 19/06/2024
+
+- Reparar la gestión de temperatura mínima/máxima del administrador
+- Eliminar comandos obsoletos al actualizar el complemento
+
+
 # 15/05/2024
 
 - Widget de plantilla adicional para mosaicos

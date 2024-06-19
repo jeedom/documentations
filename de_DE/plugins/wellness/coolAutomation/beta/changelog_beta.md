@@ -6,6 +6,12 @@
 >Liegen keine Informationen zur Aktualisierung vor, bedeutet dies, dass es sich nur um die Aktualisierung der Dokumentation, Übersetzung oder des Textes handelt.
 
 
+# 19.06.2024
+
+- Korrigieren Sie die Verwaltung der minimalen/maximalen Temperatur durch den Administrator
+- Löschen veralteter Befehle beim Aktualisieren des Plugins
+
+
 # 15.05.2024
 
 - Zusätzliches Vorlagen-Widget für Kacheln
