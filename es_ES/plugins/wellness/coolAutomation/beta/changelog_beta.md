@@ -9,6 +9,7 @@
 # 19/06/2024
 
 - Reparar la gestión de temperatura mínima/máxima del administrador
+- Se agregó gestión mínima/máxima por parte del maestro
 - Eliminar comandos obsoletos al actualizar el complemento
 
 

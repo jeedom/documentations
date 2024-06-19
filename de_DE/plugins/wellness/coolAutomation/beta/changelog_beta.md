@@ -9,6 +9,7 @@
 # 19.06.2024
 
 - Korrigieren Sie die Verwaltung der minimalen/maximalen Temperatur durch den Administrator
+- Min/Max-Verwaltung durch den Master hinzugefügt
 - Löschen veralteter Befehle beim Aktualisieren des Plugins
 
 

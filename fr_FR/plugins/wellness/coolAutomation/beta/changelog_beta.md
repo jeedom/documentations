@@ -9,6 +9,7 @@
 # 19/06/2024
 
 - Fix Gestion des temperatures min/max administrateur
+- Ajout Gestion Min/Max par Master
 - Suppression de commandes obsoletes a la mise a jour du plugin
 
 
