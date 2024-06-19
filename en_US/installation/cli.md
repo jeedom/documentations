@@ -51,7 +51,7 @@ Then just go to ``IP_JEEDOM`` from your internet browser.
 ````
 wget https://raw.githubusercontent.com/jeedom/core/alpha/install/install.sh
 chmod +x install.sh
-./install.sh version=alpha
+./install.sh -v alpha
 ````
 
 Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index).
