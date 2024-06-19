@@ -48,6 +48,7 @@ Vous pouvez via la commande de type select changer la couleur et l’animation d
 
 > Batterie
 
+La batterie est activée à l'installation/mise à jour du plugin: vous pouvez si vous le souhaitez la désactiver en cliquant sur la commande Eteindre la batterie
 Vous pouvez, via deux retours d’informations, avoir le pourcentage de batterie ainsi que le type d’alimentation de votre box. (`Charging`, `Discharging`, `Full` etc).
 
 > SD

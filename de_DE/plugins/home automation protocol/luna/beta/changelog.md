@@ -6,6 +6,12 @@
 >
 >Zur Erinnerung: Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 19.06.2024
+
+- Aktivierung des Akkus beim Update und der Installation des Plugins
+- Die Syntax auf der Registerkarte „Batterie“ wurde für mehr Präzision korrigiert
+- Hinzufügen eines templateWidget zur Dashboard-Kachel
+
 # 05.02.2024
 
 - Steuerelemente zum Ein- und Ausschalten des Akkus hinzugefügt

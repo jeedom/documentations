@@ -48,6 +48,7 @@ Você pode através do comando select type mudar a cor e a animação do led (po
 
 > Batterie
 
+A bateria é ativada ao instalar/atualizar o plugin: Se desejar, você pode desativá-lo clicando no comando Desligar bateria
 Você pode, por meio de dois comentários, saber a porcentagem da bateria e também o tipo de fonte de alimentação da sua caixa. (`Carregando`, `Descarregando`, `Completo` etc).
 
 > SD

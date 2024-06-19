@@ -6,6 +6,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 19/06/2024
+
+- Activation de la batterie a la mise a jour et installation du plugin
+- Correction Syntaxe sur l'onglet Batterie pour plus de précision
+- Ajout d'un templateWidget sur la tuile du dashboard
+
 # 02/05/2024
 
 - Ajout des commandes pour allumer et éteindre la batterie

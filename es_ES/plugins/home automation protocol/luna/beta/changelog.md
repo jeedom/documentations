@@ -6,6 +6,12 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
+# 19/06/2024
+
+- Activación de la batería al actualizar e instalar el complemento
+- Se corrigió la sintaxis en la pestaña Batería para mayor precisión
+- Agregar un widget de plantilla al mosaico del panel
+
 # 05/02/2024
 
 - Se agregaron controles para encender y apagar la batería

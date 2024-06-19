@@ -48,6 +48,7 @@ You can via the select type command change the color and animation of the led (c
 
 > Batterie
 
+The battery is activated when installing/updating the plugin: If you wish, you can deactivate it by clicking on the Turn off battery command
 You can, via two pieces of feedback, have the battery percentage as well as the type of power supply of your box. (`Charging`, `Discharging`, `Full` etc).
 
 > SD

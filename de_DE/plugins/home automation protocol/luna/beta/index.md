@@ -48,6 +48,7 @@ Sie können über den Befehl Typ auswählen die Farbe und Animation der LED änd
 
 > Batterie
 
+Der Akku wird bei der Installation/Aktualisierung des Plugins aktiviert: Wenn Sie möchten, können Sie es deaktivieren, indem Sie auf den Befehl „Batterie ausschalten“ klicken
 Über zwei Rückmeldungen können Sie den Batteriestand sowie die Art der Stromversorgung Ihrer Box abrufen. („Laden“, „Entladen“, „Voll“ usw).
 
 > SD

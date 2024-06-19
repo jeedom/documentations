@@ -48,6 +48,7 @@ Puede a través del comando seleccionar tipo cambiar el color y la animación de
 
 > Batterie
 
+La batería se activa al instalar/actualizar el complemento: Si lo deseas, puedes desactivarlo pulsando en el comando Apagar batería
 Puedes, a través de dos comentarios, conocer el porcentaje de batería y el tipo de alimentación de tu caja. (`Cargando`, `Descargando`, `Completo`, etc).
 
 > SD

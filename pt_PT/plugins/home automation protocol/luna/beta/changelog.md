@@ -6,6 +6,12 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
+# 19/06/2024
+
+- Ativação da bateria ao atualizar e instalar o plugin
+- Sintaxe corrigida na guia Bateria para maior precisão
+- Adicionando um templateWidget ao bloco do painel
+
 # 05/02/2024
 
 - Adicionados controles para ligar e desligar a bateria

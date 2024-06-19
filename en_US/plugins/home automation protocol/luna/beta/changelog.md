@@ -6,6 +6,12 @@
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
+# 06/19/2024
+
+- Activation of the battery when updating and installing the plugin
+- Fixed Syntax on the Battery tab for more precision
+- Adding a templateWidget to the dashboard tile
+
 # 02/05/2024
 
 - Added controls to turn the battery on and off
