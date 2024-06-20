@@ -6,6 +6,12 @@
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 
+# 19/06/2024
+
+- Fix Gestion des temperatures min/max administrateur
+- Suppression de commandes obsoletes a la mise a jour du plugin
+
+
 # 15/05/2024
 
 - Ajout Template widget pour tuiles

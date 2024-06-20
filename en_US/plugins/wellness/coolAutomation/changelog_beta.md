@@ -6,6 +6,12 @@
 >If there is no information on the update, it means that it only concerns updating documentation, translation or text.
 
 
+# 06/19/2024
+
+- Fix Administrator min/max temperature management
+- Deleting obsolete commands when updating the plugin
+
+
 # 05/15/2024
 
 - Addition Template widget for tiles
