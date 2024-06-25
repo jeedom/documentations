@@ -6,6 +6,13 @@
 >
 >Zur Erinnerung: Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+
+# 25.06.2024
+
+- Js reparieren
+- Optimierung der UI-Verbindungsprioritäten
+
+
 # 19.06.2024
 
 - Aktivierung des Akkus beim Update und der Installation des Plugins

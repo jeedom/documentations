@@ -6,6 +6,13 @@
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
+
+# 06/25/2024
+
+- Fix Js
+- Optimization UI connection priorities
+
+
 # 06/19/2024
 
 - Activation of the battery when updating and installing the plugin

@@ -6,6 +6,13 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
+
+# 25/06/2024
+
+- Arreglar J
+- Prioridades de conexión de la interfaz de usuario de optimización
+
+
 # 19/06/2024
 
 - Activación de la batería al actualizar e instalar el complemento
