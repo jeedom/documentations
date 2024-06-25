@@ -5,6 +5,7 @@
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 - Correction d'un bug sur l'accès aux enregistrements videos
+- Amélioration de la gestion des retours a la ligne dans le widget [LIEN](https://github.com/jeedom/plugin-camera/pull/85)
 
 # 24/01/2024
 

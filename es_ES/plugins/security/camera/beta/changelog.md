@@ -5,6 +5,7 @@
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
 - Se corrigió un error en el acceso a grabaciones de video
+- Manejo mejorado de saltos de línea en el widget [ENLACE](https://github.com/jeedom/plugin-camera/pull/85)
 
 # 24/01/2024
 

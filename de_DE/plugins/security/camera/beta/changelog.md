@@ -5,6 +5,7 @@
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
 - Ein Fehler beim Zugriff auf Videoaufzeichnungen wurde behoben
+- Verbesserte Handhabung von Zeilenumbrüchen im Widget [VERKNÜPFUNG](https://github.com/jeedom/plugin-camera/pull/85)
 
 # 24.01.2024
 
