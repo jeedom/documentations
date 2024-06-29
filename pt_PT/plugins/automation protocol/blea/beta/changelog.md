@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 29/06/2024
+
+- Corrigido um bug na função de exceção do ajax.
+
 # 06/04/2021
 
 - Verificação da versão bluepy removida
