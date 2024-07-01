@@ -13,4 +13,4 @@ Une fois le service acheté il faut dans Jeedom :
 
 >**IMPORTANT**
 >
->La taille maximal de stockage par compte market est de 4go au dela le système supprimera les fichiers de sauvegarde les plus vieux jusqu'à tomber en dessous des 4go.
+>La taille maximal de stockage par compte market est de 2go au dela le système supprimera les fichiers de sauvegarde les plus vieux jusqu'à tomber en dessous des 3go (pour le moment on tolere 1go de plus).
