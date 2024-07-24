@@ -13,4 +13,8 @@ Una vez que se compra el servicio, debe estar en libertad :
 
 >**IMPORTANTE**
 >
->El tamaño máximo de almacenamiento por cuenta de mercado es de 4 gb más allá de eso, el sistema eliminará los archivos de copia de seguridad más antiguos hasta que caiga por debajo de 4 gb.
+>El tamaño máximo de almacenamiento por cuenta de mercado es de 2 GB. Más allá de eso, el sistema eliminará los archivos de copia de seguridad más antiguos hasta que caigan por debajo de 3 GB (por el momento toleramos 1 GB más)).
+
+>**IMPORTANTE**
+>
+>Por el momento no existe un período máximo de retención, pero estamos considerando eliminar automáticamente las copias de seguridad de más de 12 meses.

@@ -1,0 +1,16 @@
+{
+	"id" : "haBridge",
+	"name" : "Ha-Bridge",
+	"description" : "Ce plugin permet l'utilisation d'un serveur Ha-Bridge. Grâce à lui vous pourrez utiliser tous vos équipements ALEXA pour piloter votre domotique d'une simple commande vocale.",
+	"usage" : "ATTENTION! Ce plugin ne fonctionne que pour un serveur Ha-Bridge Local a votre JEEDOM.",
+	"licence" : "AGPL",
+	"author" : "DOMLABS",
+	"require" : "4.0.61",
+	"category" : "monitoring",
+	"changelog": "https://www.domlabs.fr/jeedom_docs/haBridge/fr-FR/",
+    "documentation": "https://www.domlabs.fr/jeedom_docs/haBridge/fr-FR/",
+	"languages" : ["fr_FR"],
+	"compatibility" : ["v4","rpi","diy","smart","miniplus"],
+  	"hasDependency" : true,
+	"hasOwnDeamon" : true
+}

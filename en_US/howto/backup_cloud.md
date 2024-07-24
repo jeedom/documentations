@@ -13,4 +13,8 @@ Once the service has been purchased, it is necessary in jeedom :
 
 >**IMPORTANT**
 >
->The maximum storage size per market account is 4gb beyond that the system will delete the oldest backup files until it falls below 4gb.
+>The maximum storage size per market account is 2GB. Beyond that, the system will delete the oldest backup files until they fall below 3GB (for the moment we tolerate 1GB more).
+
+>**IMPORTANT**
+>
+>For the moment there is no maximum retention period but we are considering automatically deleting backups older than 12 months.

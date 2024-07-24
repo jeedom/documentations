@@ -13,4 +13,8 @@ Sobald der Dienst gekauft wurde, ist es in jeedom notwendig :
 
 >**WICHTIG**
 >
->Die maximale Speichergröße pro Marktkonto beträgt 4 GB, darüber hinaus löscht das System die ältesten Sicherungsdateien, bis sie unter 4 GB fallen.
+>Die maximale Speichergröße pro Marktkonto beträgt 2 GB. Darüber hinaus löscht das System die ältesten Backup-Dateien, bis sie unter 3 GB fallen (im Moment tolerieren wir 1 GB mehr)).
+
+>**WICHTIG**
+>
+>Im Moment gibt es keine maximale Aufbewahrungsdauer, wir erwägen jedoch, Backups, die älter als 12 Monate sind, automatisch zu löschen.
