@@ -4,9 +4,15 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+
+- Fixed a bug displaying the configuration window of a node if a piece of equipment is deleted while it is used in binding in another
+
+# 07/16/2024
+
 - Fixed an error indicating an update of zigbee2mqtt when the version is already up to date
 - Added Ember key type
 - Fixed a problem when starting the daemon for the first time regarding rights to the log file
+- Fixed a problem on some images
 
 # 04/22/2024
 

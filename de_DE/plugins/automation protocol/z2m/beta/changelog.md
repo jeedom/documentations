@@ -4,9 +4,15 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+
+- Es wurde ein Fehler behoben, der dazu führte, dass das Konfigurationsfenster eines Knotens angezeigt wurde, wenn ein Ausrüstungsgegenstand gelöscht wurde, während er für die Bindung an einen anderen Knoten verwendet wurde
+
+# 16.07.2024
+
 - Es wurde ein Fehler behoben, der auf ein Update von zigbee2mqtt hinweist, wenn die Version bereits auf dem neuesten Stand ist
 - Ember-Schlüsseltyp hinzugefügt
 - Beim ersten Start des Daemons wurde ein Problem bezüglich der Rechte an der Protokolldatei behoben
+- Ein Problem bei einigen Bildern wurde behoben
 
 # 22.04.2024
 

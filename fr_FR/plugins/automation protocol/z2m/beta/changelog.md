@@ -4,9 +4,15 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+
+- Correction d'un bug d'affichage de la fenetre de configuration d'un noeud si un équipement est supprimé alors qu'il est utilisé en binding dans un autre
+
+# 16/07/2024
+
 - Correction d'une erreur indiquant une mise à jour de zigbee2mqtt alors que la version est deja à jour
 - Ajout du type de clef Ember
 - Correction d'un soucis au premier démarrage du démon sur les droits sur le fichier de log
+- Correction d'un soucis sur quelques images
 
 # 22/04/2024
 
