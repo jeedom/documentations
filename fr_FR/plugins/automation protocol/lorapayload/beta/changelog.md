@@ -6,13 +6,15 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# xx/04/2024
+# xx/08/2024
 
 - Modification de la configuration *MClimate Wireless Thermostat* (propriétés : Manual Target Temperature Update)
 
 - Ajout de la configuration *Milesight WS303* (propriétés : Batterie, Leakage Status)
 
 - Modification de la configuration *Vega SI-11 Rev2* (propriétés : Communication period, Input Mode)
+
+- Ajout de la configuration *MClimate Fan Coil Thermostat*
 
 
 # 29/04/2024

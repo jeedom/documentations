@@ -6,13 +6,15 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# xx/04/2024
+# xx/08/2024
 
 - Ändern der Konfiguration *Drahtloser MClimate-Thermostat* (Eigenschaften : Manuelle Aktualisierung der Zieltemperatur)
 
 - Konfiguration hinzufügen *Milesight WS303* (Eigenschaften : Batterie, Leckagestatus)
 
 - Ändern der Konfiguration *Vega SI-11 Rev2* (Eigenschaften : Kommunikationszeitraum, Eingabemodus)
+
+- Konfiguration hinzufügen *MClimate-Gebläsekonvektor-Thermostat*
 
 
 # 29.04.2024

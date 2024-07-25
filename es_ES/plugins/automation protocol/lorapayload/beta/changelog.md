@@ -6,13 +6,15 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
-# xx/04/2024
+# xx/08/2024
 
 - Cambiando la configuración *Termostato inalámbrico MClimate* (propiedades : Actualización manual de la temperatura objetivo)
 
 - Agregar configuración *Mira de millas WS303* (propiedades : Batería, estado de fuga)
 
 - Cambiando la configuración *Vega SI-11 Rev2* (propiedades : Periodo de comunicación, modo de entrada)
+
+- Agregar configuración *Termostato Fan Coil Mclimate*
 
 
 # 29/04/2024

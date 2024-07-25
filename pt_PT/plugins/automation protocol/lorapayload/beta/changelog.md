@@ -6,13 +6,15 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
-# xx/04/2024
+# xx/08/2024
 
 - Alterando a configuração *Termostato sem fio MClimate* (propriedades : Atualização manual da temperatura alvo)
 
 - Adicionando configuração *Milhas WS303* (propriedades : Bateria, status de vazamento)
 
 - Alterando a configuração *Vega SI-11 Rev2* (propriedades : Período de comunicação, modo de entrada)
+
+- Adicionando configuração *Termostato de fan coil MClimate*
 
 
 # 29/04/2024
