@@ -277,4 +277,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-24.07.2024 16:50:21
+25.07.2024 02:17:03
