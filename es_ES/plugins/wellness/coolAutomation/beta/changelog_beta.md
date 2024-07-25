@@ -6,6 +6,9 @@
 >Si no hay información sobre la actualización, significa que solo se trata de actualización de documentación, traducción o texto.
 
 
+# 24/07/2024
+- Selección de interfaz de red agregada para escanear
+
 # 19/06/2024
 
 - Reparar la gestión de temperatura mínima/máxima del administrador

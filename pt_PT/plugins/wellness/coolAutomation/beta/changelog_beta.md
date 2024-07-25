@@ -6,6 +6,9 @@
 >Se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
 
+# 24/07/2024
+- Adicionada seleção de interface de rede para digitalização
+
 # 19/06/2024
 
 - Corrigir gerenciamento de temperatura mínima/máxima do administrador
