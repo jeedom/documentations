@@ -104,6 +104,61 @@ Das Plugin kann verschiedene Modultypen automatisch erkennen. Dazu müssen Sie n
 >
 >Für Module vom Typ Tasmota ist es absolut notwendig, dass die vollständige Topic-Konfiguration `%topic%/%prefix%/` ist
 
+
+# Übertragen Sie Informationen zwischen zwei Jeedoms per MQTT
+
+Dank des Plugins ist es möglich, Befehle zwischen zwei Jeedom zu übertragen (dieses System soll Jeelink ersetzen). Hier erfahren Sie, wie Sie es konfigurieren : 
+
+- auf der Jeedom-Quelle, die Sie benötigen :
+  - Konfigurieren Sie in der Konfiguration des MQTT-Manager-Plugins das Feld „Jeedom-Stammthema“. Standardmäßig ist es Jeedom. Es wird empfohlen, einen eindeutigen Wert pro Jeedom einzugeben (z. B : jeedom_salon)
+  - Dann können Sie entweder das Kontrollkästchen „Alle Ereignisse übertragen“ aktivieren (immer noch in der Konfiguration des MQTT-Manager-Plugins). Dies wird nicht unbedingt empfohlen, da dadurch die gesamte Ausrüstung an den Ziel-Jeedom gesendet wird. Am besten gehen Sie zu dem Gerät, das Sie übertragen möchten, in der erweiterten Konfiguration des Geräts (Schaltfläche oben rechts auf der Gerätekonfigurationsseite) und setzen Sie dann unter „Zusätzliche Informationen“ den Haken bei „MQTT-Gerät übertragen“"
+- Auf dem Ziel Jeedom ist es notwendig : 
+  - Konfigurieren Sie in der Konfiguration des MQTT-Manager-Plugins das Feld „Linked Jeedom Topic“, indem Sie den Wert „Jeedom Root Topic“ des Quell-Jeedoms festlegen. Sie können mehrere Jeedom-Quellen angeben, indem Sie sie mit trennen ,. Seien Sie vorsichtig, Sie müssen hier sehr vorsichtig sein, Sie dürfen nicht dasselbe für „Jeedom-Stammthema“ auf Jeedoms haben. Dieses Feld ist die eindeutige Kennung des Jeedoms, daher ist es unbedingt erforderlich, unterschiedliche Werte zu haben
+  - Aktivieren Sie im Plugin -> Programmierung -> Mqtt-Manager die automatische Erkennung (standardmäßig inaktiv))
+
+Dann müssen Sie nur noch in der Plugin-Konfiguration zum Jeedom zurückkehren und „Erkennung senden“ ausführen"
+
+>**WICHTIG**
+>
+>Bei dieser Konfiguration wird davon ausgegangen, dass die Jeedoms mit derselben Brocker-Mücke verbunden sind. Sollte Ihnen dies nicht möglich sein, müssen Sie anschließend einen der beiden Mosquitos so konfigurieren, dass er die Werte der gewünschten Themen an einen anderen Mosquito sendet (siehe nächstes Kapitel))
+
+>**WICHTIG**
+>
+>Wenn Sie den Wert des Felds „Veröffentlichungsvorlage“ (standardmäßig leer) ändern, erstellt die automatische Erkennung nicht die richtigen Bestellungen. In diesem Fall müssen Sie die Konfiguration anpassen
+
+
+# Verknüpft zwei verschiedene Mücken 
+
+Es ist möglich, Themen zwischen mehreren Moskitos zu verknüpfen. Hier ist die Konfiguration zum Hinzufügen in Moskitos. Die Konfiguration muss nur an einem der Brocker-Mücken vorgenommen werden : 
+
+````````
+connection #NOM_CONNEXION#
+address #REMOTE_ADDRESS#:#REMOTE_PORT#
+topic # both 0 #LOCAL_TOPIC#/ #REMOTE_TOPIC#/
+cleansession true
+notifications false
+remote_clientid #REMOTE_CLIENT_ID#
+remote_username #REMOTE_USERNAME#
+remote_password #REMOTE_PASSWORD#
+local_username #LOCAL_USERNAME#
+local_password #LOCAL_PASSWORD#
+start_type automatic
+try_private true
+bridge_insecure true
+bridge_tls_version tlsv1.3
+````````
+
+>**NOTIZ**
+>
+> ``#NOM_CONNEXION#`` : kann alles sein, was du willst, und es spielt keine Rolle. Sie können zum Beispiel „name_jeedom_source-name_jeedom_target“ ausführen
+> ``#REMOTE_CLIENT_ID#`` : spielt auch keine Rolle, Sie müssen nur eine eindeutige Zeichenfolge einfügen 
+> ``#LOCAL_TOPIC#`` : Der Name des lokalen Themas lautet häufig „Jeedom-Stammthema“ des lokalen Jeedoms 
+> ``#REMOTE_TOPIC#`` : Der Name des lokalen Themas ist häufig das „Jeedom-Stammthema“ des entfernten Jeedoms
+
+>**WICHTIG**
+>
+> In jeedom sind die Identifikatoren („Benutzername“ und „Passwort“) auf der Plugin-Konfigurationsseite unter „Authentifizierung“ in der Form „Benutzername“ verfügbar:``password``
+
 # FAQ
 
 >**Nach einem Update der Systempakete (apt) oder einem unbeaufsichtigten Upgrade funktioniert nichts mehr**

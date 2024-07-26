@@ -104,6 +104,61 @@ O plugin pode descobrir automaticamente vários tipos de módulos. Para fazer is
 >
 >Para módulos do tipo tasmota é absolutamente necessário que a configuração completa do tópico seja `%topic%/%prefix%/`
 
+
+# Transmitir informações entre dois jeedoms por MQTT
+
+É possível graças ao plugin transmitir comandos entre dois Jeedom (este sistema é dedicado a substituir o jeelink), veja como configurá-lo : 
+
+- na fonte jeedom que você precisa :
+  - na configuração do plugin mqtt manager, configure o campo "Jeedom root topic", por padrão é jeedom, é recomendado colocar um valor único por Jeedom (ex : jeedom_salon)
+  - então você pode marcar a caixa "Transmitir todos os eventos" (ainda na configuração do plugin mqtt manager), isso não é o mais recomendado pois enviará todos os equipamentos para o jeedom alvo. O melhor é ir até o equipamento que deseja transmitir, na configuração avançada do equipamento (botão no canto superior direito da página de configuração do equipamento) depois em “Informações adicionais” marcar “Transmitir o equipamento MQTT"
+- no alvo jeedom é necessário : 
+  - na configuração do plugin mqtt manager, configure o campo “Linked Jeedom Topic” definindo o valor de “Jeedom root topic” do jeedom de origem. Você pode colocar várias fontes de Jeedom separando-as com ,. Tenha cuidado, você tem que ter muito cuidado aqui, você definitivamente não deveria ter a mesma coisa para "Jeedom root topic" no jeedoms. Este campo é o identificador único do jeedom, portanto é absolutamente necessário ter valores diferentes
+  - em plugin -> programação -> gerenciador Mqtt ativa a descoberta automática (inativo por padrão)
+
+Depois é só retornar ao jeedom ainda na configuração do plugin e fazer "Enviar descoberta"
+
+>**IMPORTANTE**
+>
+>Esta configuração assume que os jeedoms estão conectados ao mesmo brocker mosquitto. Caso não consiga fazer isso, deverá então configurar um dos dois mosquitos para que ele envie os valores dos tópicos desejados para outro mosquito (ver próximo capítulo)
+
+>**IMPORTANTE**
+>
+>Se você alterar o valor do campo "Modelo de publicação" (vazio por padrão), a descoberta automática não criará os pedidos corretos, cabe a você adaptar a configuração neste caso
+
+
+# Vinculou dois mosquitos diferentes 
+
+É possível vincular tópicos entre vários mosquitos, aqui está a configuração para adicionar no mosquito. A configuração só precisa ser feita em um dos brocker mosquitto : 
+
+````````
+connection #NOM_CONNEXION#
+address #REMOTE_ADDRESS#:#REMOTE_PORT#
+topic # both 0 #LOCAL_TOPIC#/ #REMOTE_TOPIC#/
+cleansession true
+notifications false
+remote_clientid #REMOTE_CLIENT_ID#
+remote_username #REMOTE_USERNAME#
+remote_password #REMOTE_PASSWORD#
+local_username #LOCAL_USERNAME#
+local_password #LOCAL_PASSWORD#
+start_type automatic
+try_private true
+bridge_insecure true
+bridge_tls_version tlsv1.3
+````````
+
+>**OBSERVAÇÃO**
+>
+> ``#NOM_CONNEXION#`` : pode ser o que você quiser e não importa. Você pode, por exemplo, fazer name_jeedom_source-name_jeedom_target
+> ``#REMOTE_CLIENT_ID#`` : também não importa, você só precisa colocar uma string única 
+> ``#LOCAL_TOPIC#`` : nome do tópico local geralmente será "Tópico raiz do Jeedom" do jeedom local 
+> ``#REMOTE_TOPIC#`` : nome do tópico local geralmente será "Tópico raiz do Jeedom" do jeedom remoto
+
+>**IMPORTANTE**
+>
+> No jeedom os identificadores (`nome de usuário` e `senha`) estão disponíveis na página de configuração do plugin em "Autenticação" no formato `nome de usuário`:``password``
+
 # FAQ
 
 >**Após uma atualização dos pacotes do sistema (apt) ou atualizações autônomas, nada funciona mais**

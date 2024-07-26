@@ -104,6 +104,61 @@ Le plugin peut faire de la découverte auto de plusieurs type de module. Pour ce
 >
 >Pour les modules de type tasmota il faut absolument que la configuration du full topic soit `%topic%/%prefix%/`
 
+
+# Transmettre des informations entre deux jeedoms par MQTT
+
+Il est possible grace au plugin de transmettre des commandes entre deux Jeedom (ce systeme est voué a remplacer jeelink), voila comment le configurer : 
+
+- sur le jeedom source il faut :
+  - dans la configuration du plugin mqtt manager, configurer le champs "Topic racine Jeedom", par defaut c'est jeedom, il est conseillé de mettre une valeur unique par Jeedom (ex : jeedom_salon)
+  - ensuite vous pouvez soit cocher la case "Transmettre tous les évènements" (toujours dans la configuration du plugin mqtt manager), c'est pas le plus recommander car cela va envoyer tous les équipements vers le jeedom cible. Le mieux étant d'aller sur les équipements que vous voulez transmettre, dans la configuration avancée de l'équipement (bouton en haut a droite sur la page de configuration de l'équipement) puis dans "Informations complémentaires" de cocher "Transmettre l'équipement en MQTT"
+- sur le jeedom cible il faut : 
+  - dans la configuration du plugin mqtt manager, configurer le champs "Topic des Jeedom liée" en mettant la valeur de "Topic racine Jeedom" du jeedom source. Vous pouvez mettre plusieurs Jeedom source en séparant ceux ci par des ,. Attention il faut faire très attention ici il ne faut surtout pas avoir la meme chose pour "Topic racine Jeedom" sur les jeedoms. Ce champs est l'identifiant unique du jeedom il faut donc absolument avoir des valeurs differente
+  - dans plugin -> programmation -> Mqtt manager bien activer l'auto-découverte (inactive par defaut)
+
+Ensuite vous avez juste a retourner sur le jeedom toujours sur la configuration du plugin et faire "Envoyer la découverte"
+
+>**IMPORTANT**
+>
+>Cette configuration part du principe que les jeedoms sont connecté sur le meme brocker mosquitto. Si vous ne pouvez pas le faire il faut alors configurer un des deux mosquitto pour qu'il envoi les valeurs des topic voulu vers un autre mosquitto (voir chapitre suivant)
+
+>**IMPORTANT**
+>
+>Si vous changé la valeur du champs "Template de publication" (vide par defaut) alors l'auto decouverte ne créera pas les bonnes commandes, c'est a vous d'adapter la configuration dans ce cas
+
+
+# Liée deux mosquitto different 
+
+Il est possible de liée des topics entre plusieurs mosquitto, voila la configuration a ajouter dans mosquitto. La configuration n'est a faire que sur un des brocker mosquitto : 
+
+````
+connection #NOM_CONNEXION#
+address #REMOTE_ADDRESS#:#REMOTE_PORT#
+topic # both 0 #LOCAL_TOPIC#/ #REMOTE_TOPIC#/
+cleansession true
+notifications false
+remote_clientid #REMOTE_CLIENT_ID#
+remote_username #REMOTE_USERNAME#
+remote_password #REMOTE_PASSWORD#
+local_username #LOCAL_USERNAME#
+local_password #LOCAL_PASSWORD#
+start_type automatic
+try_private true
+bridge_insecure true
+bridge_tls_version tlsv1.3
+````
+
+>**NOTE**
+>
+> `#NOM_CONNEXION#` : peut etre ce que vous voulez et n'a aucune importance. Vous pouvez par exemple faire nom_jeedom_source-nom_jeedom_cible
+> `#REMOTE_CLIENT_ID#` : n'a pas non plus d'importance il faut juste mettre une chaine unique 
+> `#LOCAL_TOPIC#` : nom du topic local souvent ca sera "Topic racine Jeedom" du jeedom local 
+> `#REMOTE_TOPIC#` : nom du topic local souvent ca sera "Topic racine Jeedom" du jeedom distant
+
+>**IMPORTANT**
+>
+> Dans jeedom les identifiants (`username` et `password`) sont disponible sur la page de configuration du plugin dans "Authentification" sous la forme `username`:`password`
+
 # FAQ
 
 >**Suite a une mise à jour des packages système (apt) ou a un unattended upgrades plus rien de marche**
