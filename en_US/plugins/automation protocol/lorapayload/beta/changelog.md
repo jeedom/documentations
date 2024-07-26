@@ -16,6 +16,9 @@
 
 - Adding configuration *MClimate Fan Coil Thermostat*
 
+- Adding configuration *WATTECO NETW'O network tester*
+
+- Adding configuration *Milesight EM300 DI*
 
 # 04/29/2024
 

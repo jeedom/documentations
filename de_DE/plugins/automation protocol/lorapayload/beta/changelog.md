@@ -16,6 +16,9 @@
 
 - Konfiguration hinzufügen *MClimate-Gebläsekonvektor-Thermostat*
 
+- Konfiguration hinzufügen *WATTECO NETW'O Netzwerktester*
+
+- Konfiguration hinzufügen *Milesight EM300 DI*
 
 # 29.04.2024
 
