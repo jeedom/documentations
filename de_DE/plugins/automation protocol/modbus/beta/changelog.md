@@ -5,6 +5,18 @@
 >Zur Erinnerung: Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
 
+# 26.07.2024
+
+- Neue Methode zum Ändern von Bits in einem Register hinzugefügt (siehe Dokument)
+- In der Plugin-Konfiguration hinzugefügt : Auswahl der Protokollebene der Modbus-Bibliothek
+
+
+# 18.07.2024
+
+- String-Format hinzufügen
+- Höhere Präzision der Datenformate im Selektor
+
+
 # 26.03.2024
 
 - Fix Update für bestimmte Pymodbus-Version

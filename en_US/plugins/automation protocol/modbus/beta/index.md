@@ -33,6 +33,15 @@ You can also choose the number of attempts and the delay between these attempts.
 
 
 
+
+ :warning: Modbus library Log Level choice :
+
+ By default, it is configured to ERROR, the library being verbose
+ You can change its level : you will need to save and restart the daemon
+
+
+
+
 # Use of the plug-in
 
 
@@ -146,10 +155,18 @@ IMPORTANT :
 
 ![cmdEcritures](../images/modbusCmdsEcritures.png)
 
+ :warning: NEW ONE-BIT WRITING METHOD :
+
+ To change a specific bit on a register : you can create an Action type command, and choose the Code Function 'Write Bit'. This will only show you the 2 fields to fill out : Starting register and bit position. 
+ When saving, this will create 2 action commands : one to send 0, and one to send 1, and this will delete the one you have configured.
+ The two new commands will have their type name :
+
+ WriteBit_Register(RegisterNum)_Position(BitPosition)_1 and WriteBit_Register(RegisterNum)_Position(BitPosition)_0
+
+ 
 
 
-
-  CHANGING REGISTER BITS :
+  CHANGE OF BITS OF A REGISTER (Old method):
 
   To change the bit of a register, you must use the message WriteBit command; in the configuration of the command, in the Start register field, you must choose the number of the register to write. No other configuration needed
   Then, on the message body of the command on the dashboard, you must use the following syntax : bitValue&indexbit

@@ -5,6 +5,18 @@
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
 
+# 07/26/2024
+
+- Added new method for changing bits on a register (see doc)
+- Added in Plugin Configuration : Choice of Modbus library log level
+
+
+# 07/18/2024
+
+- Adding String format
+- Better precision of data formats in the selector
+
+
 # 03/26/2024
 
 - Fix Update for specific pymodbus version

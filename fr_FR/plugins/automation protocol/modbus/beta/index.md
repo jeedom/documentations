@@ -33,6 +33,15 @@ Vous pouvez également choisir le nombre de tentatives et le délai entre ces te
 
 
 
+
+ :warning: Choix Niveau de Log de la librairie Modbus :
+
+ Par defaut, il est configuré sur ERROR, la librairie étant verbeuse
+ Vous pouvez changer son niveau : il vous faudra sauvegarder et redemarrer le demon
+
+
+
+
 # Utilisation du plugin
 
 
@@ -146,10 +155,18 @@ IMPORTANT :
 
 ![cmdEcritures](../images/modbusCmdsEcritures.png)
 
+ :warning: NOUVELLE METHODE ECRITURE SUR UN BIT :
+
+ Pour changer un bit specifique sur un registre : vous pouvez créé une commande de type Action, et choisir la Fonction Code 'Ecriture Bit'. Cela vous fera apparaitre seulement les 2 champs a remplir : Registre de départ, et position du bit. 
+ En sauvegardant, cela va créé 2 commandes d'action : une pour envoyer 0, et une pour envoyer 1, et cela supprimera celle que vous avez configurée.
+ Les deux nouvelles commandes auront leur nom de type :
+
+ EcritureBit_Registre(Numduregistre)_Position(PositionduBit)_1 et   EcritureBit_Registre(Numduregistre)_Position(PositionduBit)_0
+
+ 
 
 
-
-  CHANGEMENT DE BITS D'UN REGISTRE :
+  CHANGEMENT DE BITS D'UN REGISTRE (Ancienne methode):
 
   Pour changer le bit d'un registre, vous devez utiliser la commande message EcritureBit; dans la configuration de la commande, dans le champ Registre de départ, vous devez choisir le numero du registre à écrire. Pas besoin d'autre configuration
   Ensuite, sur le corps du message de la commande sur le dashboard, vous devez utiliser la syntaxe suivante : valeurBit&indexbit

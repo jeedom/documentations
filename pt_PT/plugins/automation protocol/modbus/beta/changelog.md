@@ -5,6 +5,18 @@
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
 
+# 26/07/2024
+
+- Adicionado novo método para alterar bits em um registrador (veja o documento)
+- Adicionado na configuração do plugin : Escolha do nível de log da biblioteca Modbus
+
+
+# 18/07/2024
+
+- Adicionando formato String
+- Melhor precisão dos formatos de dados no seletor
+
+
 # 26/03/2024
 
 - Correção de atualização para versão específica do pymodbus

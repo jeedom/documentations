@@ -33,6 +33,15 @@ Você também pode escolher o número de tentativas e o atraso entre essas tenta
 
 
 
+
+ :warning: Escolha do nível de registro da biblioteca Modbus :
+
+ Por padrão, está configurado para ERRO, sendo a biblioteca detalhada
+ Você pode alterar seu nível : você precisará salvar e reiniciar o daemon
+
+
+
+
 # Uso do plug-in
 
 
@@ -146,10 +155,18 @@ IMPORTANTE :
 
 ![cmdEcritures](../images/modbusCmdsEcritures.png)
 
+ :warning: NOVO MÉTODO DE ESCRITA DE UM BIT :
+
+ Para alterar um bit específico em um registro : você pode criar um comando do tipo Action e escolher a função de código 'Write Bit'. Isso mostrará apenas os 2 campos a serem preenchidos : Registro inicial e posição do bit. 
+ Ao salvar, isso criará 2 comandos de ação : um para enviar 0 e outro para enviar 1, e isso excluirá aquele que você configurou.
+ Os dois novos comandos terão seu nome de tipo :
+
+ WriteBit_Register(RegisterNum)_Position(BitPosition)_1 e WriteBit_Register(RegisterNum)_Position(BitPosition)_0
+
+ 
 
 
-
-  MUDANÇA DE BITS DE REGISTRO :
+  MUDANÇA DE BITS DE UM REGISTRO (método antigo):
 
   Para alterar o bit de um registrador, deve-se utilizar o comando message WriteBit; na configuração do comando, no campo Registro inicial, você deve escolher o número do registro para escrever. Nenhuma outra configuração necessária
   Em seguida, no corpo da mensagem do comando no painel, você deve usar a seguinte sintaxe : bitValue&indexbit

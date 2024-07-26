@@ -33,6 +33,15 @@ Sie können auch die Anzahl der Versuche und die Verzögerung zwischen diesen Ve
 
 
 
+
+ :warning: Auswahl der Protokollebene der Modbus-Bibliothek :
+
+ Standardmäßig ist sie auf FEHLER konfiguriert, da die Bibliothek ausführlich ist
+ Sie können die Stufe ändern : Sie müssen den Daemon speichern und neu starten
+
+
+
+
 # Nutzung des Plugins
 
 
@@ -146,10 +155,18 @@ WICHTIG :
 
 ![cmdEcritures](../images/modbusCmdsEcritures.png)
 
+ :warning: NEUE ONE-BIT-SCHREIBMETHODE :
+
+ Um ein bestimmtes Bit in einem Register zu ändern : Sie können einen Befehl vom Typ Aktion erstellen und die Codefunktion „Bit schreiben“ auswählen'. Es werden Ihnen nur die beiden auszufüllenden Felder angezeigt : Startregister und Bitposition. 
+ Beim Speichern werden dadurch 2 Aktionsbefehle erstellt : Eine zum Senden von 0 und eine zum Senden von 1. Dadurch wird die von Ihnen konfigurierte gelöscht.
+ Die beiden neuen Befehle erhalten ihren Typnamen :
+
+ WriteBit_Register(RegisterNum)_Position(BitPosition)_1 und WriteBit_Register(RegisterNum)_Position(BitPosition)_0
+
+ 
 
 
-
-  REGISTRBITS ÄNDERN :
+  ÄNDERUNG DER BITS EINES REGISTERS (Alte Methode):
 
   Um das Bit eines Registers zu ändern, müssen Sie den Befehl message WriteBit verwenden. In der Konfiguration des Befehls müssen Sie im Feld Startregister die Nummer des zu schreibenden Registers auswählen. Keine weitere Konfiguration erforderlich
   Anschließend müssen Sie im Nachrichtentext des Befehls im Dashboard die folgende Syntax verwenden : bitWert&indexbit

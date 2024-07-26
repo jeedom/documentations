@@ -5,6 +5,18 @@
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
 
+# 26/07/2024
+
+- Se agregó un nuevo método para cambiar bits en un registro (ver documento)
+- Agregado en la configuración del complemento : Elección del nivel de registro de la biblioteca Modbus
+
+
+# 18/07/2024
+
+- Agregar formato de cadena
+- Mejor precisión de los formatos de datos en el selector
+
+
 # 26/03/2024
 
 - Reparar actualización para una versión específica de pymodbus

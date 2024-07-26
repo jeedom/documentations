@@ -5,6 +5,18 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 
+# 26/07/2024
+
+- Ajout nouvelle méthode pour changement de bit sur un registre (cf doc)
+- Ajout dans Configuration du plugin : Choix niveau de log de la librairie Modbus
+
+
+# 18/07/2024
+
+- Ajout String format
+- Meilleure precision des formats de données dans le selecteur
+
+
 # 26/03/2024
 
 - Fix Update for specific pymodbus version
