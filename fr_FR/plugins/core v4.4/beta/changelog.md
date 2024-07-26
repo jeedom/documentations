@@ -2,17 +2,18 @@
 
 # 4.4.10
 
-- Déplacement de la gestion des evenements (event) qui sert pour la mise à jour de l'interface en base de données en mémoire [LIEN](https://github.com/jeedom/core/pull/2757)
+- Déplacement de la gestion des evenements (event) qui sert à la mise à jour de l'interface en base de données en mémoire [LIEN](https://github.com/jeedom/core/pull/2757)
 - Ajout d'un filtre sur de nombreuses action dans les scénarios [LIEN](https://github.com/jeedom/core/pull/2753), [LIEN](https://github.com/jeedom/core/pull/2742), [LIEN](https://github.com/jeedom/core/pull/2759), [LIEN](https://github.com/jeedom/core/pull/2743), [LIEN](https://github.com/jeedom/core/pull/2755)
 - Le prix du plugin est masqué si vous l'avez deja acheté [LIEN](https://github.com/jeedom/core/pull/2746)
 - Sur la page de connexion possibilité d'afficher ou nom le mot de passe [LIEN](https://github.com/jeedom/core/pull/2740)
-- Correction d'un bug lorsqu'on quitte la page sans avoir sauvegardé [LIEN](https://github.com/jeedom/core/pull/2745)
+- Correction d'un bug lorsqu'on quitte une page sans avoir sauvegardé [LIEN](https://github.com/jeedom/core/pull/2745)
 - Création (en beta) d'un nouveau systeme de cache [LIEN](https://github.com/jeedom/core/pull/2758) :
   - Fichier : systeme identique a celui d'avant mais repris en interne pour eviter la dépendances a une lib tierce. Le plus performant mais sauvegardé toute les 30min
   - Mysql : utilisation d'une table de cache en base. Le moins performant mais sauvegardé en temps réel (aucune perte de données possible)
   - Redis : réservé aux experts, s'appuie sur redis pour gerer le cache (necessite donc que vous installiez vous meme un redis et les dépendance php-redis)
 - Correction d'un bug sur les alertes des équipements lors de la suppression de la commande en alerte [LIEN](https://github.com/jeedom/core/issues/2775)
 - Possibilité dans la configuration avancée d'un équipement de masquer celui-ci lors de l'affichage sur le dashboard de plusieurs objets [LIEN](https://github.com/jeedom/core/issues/2553)
+- Correction d'un bug sur l'affichage du dossier de timeline dans la configuration avancée d'une commande [LIEN](https://github.com/jeedom/core/issues/2791)
 
 - Refonte du systeme de fail2ban de Jeedom pour qu'il consomme moins de ressource [LIEN](https://github.com/jeedom/core/issues/2684)
 
