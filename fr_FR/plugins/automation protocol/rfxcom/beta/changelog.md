@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 19/06/2024
+# 27/07/2024
 
 - Ajout compatibilité Debian 12 (version Jeedom 4.4.7 requise pour Debian 12)
 - Correction sur la gestion de l'arrêt du démon en cas de problème de configuration ou de connexion avec le rfxcom

@@ -4,7 +4,15 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 19/06/2024
+
+- Se agregó compatibilidad con Debian 12 (versión Jeedom 4.4).7 requeridos para Debian 12)
+- Corrección de la gestión del apagado del demonio en caso de problema de configuración o conexión con rfxcom
+
+# 11/06/2024
+
 - El complemento es menos estricto con el firmware rfxcom (la autorización del firmware no está actualizada)
+- Rediseñé el demonio para corregir un problema de pérdida de memoria en Debian 11 (gracias @Mips2648)
 
 # 01/03/2024
 
@@ -17,7 +25,6 @@
 # 07/02/2022
 
 - Se solucionó el problema de instalación de dependencias en jeedom 4.2
-
 
 # 02/03/2022
 
@@ -41,7 +48,6 @@
 
 - Errores corregidos en el proceso de actualización
 - Corrección de la dirección del viento (división por 10 demasiado)
-
 
 # 12/01/2020
 
@@ -111,5 +117,5 @@ Atención : Esta actualización es importante y requiere reiniciar la instalaci�
 
 # 2017-12-01
 
--   Los comandos de acción para los módulos de tipo de control remoto son
+- Los comandos de acción para los módulos de tipo de control remoto son
     creado automáticamente

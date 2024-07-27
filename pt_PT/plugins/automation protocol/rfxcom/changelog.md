@@ -4,7 +4,15 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 19/06/2024
+
+- Adicionada compatibilidade com Debian 12 (versão Jeedom 4.4).7 necessário para Debian 12)
+- Correção no gerenciamento de desligamento do daemon em caso de problema de configuração ou conexão com rfxcom
+
+# 11/06/2024
+
 - O plugin é menos rigoroso no firmware rfxcom (autorização de firmware não atualizada)
+- Redesenhado o daemon para corrigir um problema de vazamento de memória no Debian 11 (obrigado @Mips2648)
 
 # 01/03/2024
 
@@ -17,7 +25,6 @@
 # 02/07/2022
 
 - Corrigido problema ao instalar dependências no jeedom 4.2
-
 
 # 02/03/2022
 
@@ -41,7 +48,6 @@
 
 - Bugs corrigidos no processo de atualização
 - Correção da direção do vento (divisão por 10 demais)
-
 
 # 01/12/2020
 
@@ -111,5 +117,5 @@ Atenção : Esta atualização é importante e requer reiniciar a instalação d
 
 # 01/12/2017
 
--   Os comandos de ação para os módulos do tipo controle remoto são
+- Os comandos de ação para os módulos do tipo controle remoto são
     criado automaticamente
