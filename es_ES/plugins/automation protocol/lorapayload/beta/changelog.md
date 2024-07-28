@@ -20,6 +20,10 @@
 
 - Agregar configuración *Milesight EM300 DI*
 
+- Agregar configuración *Mclimate Pantalla CO2 lite*
+
+- Agregar configuración *Pantalla climática CO2*
+
 # 29/04/2024
 
 - Agregar configuración *Dragino D23LBLS* (propiedades : Batería, Temp-Blanco, Temp-Rojo, Temp-Negro, Alarma, Nivel PA8, Modo)

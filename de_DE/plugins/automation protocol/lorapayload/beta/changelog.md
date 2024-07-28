@@ -20,6 +20,10 @@
 
 - Konfiguration hinzufügen *Milesight EM300 DI*
 
+- Konfiguration hinzufügen *Mclimate Display CO2 Lite*
+
+- Konfiguration hinzufügen *Mclimate CO2-Anzeige*
+
 # 29.04.2024
 
 - Konfiguration hinzufügen *Dragino D23LBLS* (Eigenschaften : Batterie, Temperatur-Weiß, Temperatur-Rot, Temperatur-Schwarz, Alarm, PA8-Stufe, Modus)
