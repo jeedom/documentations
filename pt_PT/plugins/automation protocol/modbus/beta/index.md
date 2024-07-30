@@ -301,6 +301,10 @@ OPERAÇÃO POR ORDEM :
   Faça bom uso de * para multiplicações
 
 
+Ler bits de registro :
+Ao escolher isto em um comando Info, será criado um comando do tipo info, representando os 16 bits deste registro; este novo comando é criado quando os valores são reportados pela primeira vez, sendo então atualizado a cada novo reporte.
+
+
 
 
 

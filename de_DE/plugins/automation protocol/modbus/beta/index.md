@@ -301,6 +301,10 @@ BETRIEB AUF BESTELLUNG :
   Nutzen Sie * gut für Multiplikationen
 
 
+Registerbits lesen :
+Wenn Sie dies in einem Info-Befehl auswählen, wird ein Info-Befehl erstellt, der die 16 Bits dieses Registers darstellt. Dieser neue Befehl wird erstellt, wenn die Werte zum ersten Mal gemeldet werden, und wird dann bei jedem neuen Bericht aktualisiert.
+
+
 
 
 

@@ -301,6 +301,10 @@ OPERATION ON ORDER :
   Make good use of * for multiplications
 
 
+Read Register Bits :
+By choosing this on an Info command, this will create an info type command, representing the 16 bits of this register; this new command is created when the values are reported for the first time, and is then updated with each new report.
+
+
 
 
 

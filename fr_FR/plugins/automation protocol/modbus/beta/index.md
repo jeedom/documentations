@@ -301,6 +301,10 @@ OPERATION SUR COMMANDE :
   Bien utiliser * pour les multiplications
 
 
+Lecture Bits Registre :
+En choisissant cela sur une commande Info, cela va créer une commande de type info, representant les 16 bits de ce registre ; cette nouvelle commande est crée a la remontée des valeurs pour la premiere fois, et est ensuite mise à jour a chaque nouvelle remontée.
+
+
 
 
 
