@@ -5,6 +5,8 @@
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 
+- Amélioration de la gestion des images
+- Correction du baudrate sur deconz
 - Correction d'un bug d'affichage de la fenetre de configuration d'un noeud si un équipement est supprimé alors qu'il est utilisé en binding dans un autre
 
 # 16/07/2024

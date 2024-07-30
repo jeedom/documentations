@@ -5,6 +5,8 @@
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
 
+- Improved image management
+- Baudrate correction on deconz
 - Fixed a bug displaying the configuration window of a node if a piece of equipment is deleted while it is used in binding in another
 
 # 07/16/2024

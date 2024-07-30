@@ -5,6 +5,8 @@
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
 
+- Gestión de imágenes mejorada
+- Corrección de velocidad en baudios en desconz
 - Se corrigió un error que mostraba la ventana de configuración de un nodo si se elimina una pieza de equipo mientras se usa vinculante en otro
 
 # 16/07/2024
