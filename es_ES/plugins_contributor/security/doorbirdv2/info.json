@@ -1,0 +1,24 @@
+{
+	"id" : "doorbirdv2",
+	"name" : "Doorbird V2",
+	"licence" : "AGPL",
+	"author" : "vegeta0911",
+	"require" : "4.3",
+	"category" : "security",
+    "hasOwnDeamon": false,
+    "hasDependency" : false,
+    "maxDependancyInstallTime" : 0,
+    "language": [
+		"fr_FR"
+	],
+    "compatibility" : [
+        "miniplus",              
+        "smart",
+        "rpi",          
+        "docker",            
+        "diy",                
+        "luna",        
+        "v4",         
+        "Atlas"
+     ]
+}
