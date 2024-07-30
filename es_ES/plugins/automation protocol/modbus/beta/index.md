@@ -205,7 +205,7 @@ IMPORTANTE :
 
 
 
-  - Bit de escritura : en la configuración del comando se debe ingresar el registro de inicio, así como el orden de los bytes y palabra.
+  - Bit de escritura : en la configuración del comando, necesita el orden de bytes y palabras.
      Por defecto, el código de función es fc03, porque este comando le dará el valor del registro establecido en binario al comando info "infobitbinary".
 
      Por favor, deje esta configuración por defecto.
@@ -213,7 +213,7 @@ IMPORTANTE :
      En el comando info "infobitbinary", tendrá el valor binario del registro de parámetros en el comando Write Bit.
      Para cambiar el bit en el registro :
 
-        valuetoend&PositionBit :   Ex:  1&4 Enviamos el valor 1 al bit de la posición 4 empezando por la derecha
+        valorparaenviar&PosicionarBit&Registrar :   Ex:  1&4 Enviamos el valor 1 al bit en la posición 4 desde la derecha, al registro especificado
         En el comando de información "infobitbinary", verá el valor 10000101, que corresponde al valor binario del registro de parámetros.
         Al escribir 1 y 6, ahora tendrá el valor : 10100101 en el registro configurado.
 

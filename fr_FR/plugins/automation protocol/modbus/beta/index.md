@@ -205,7 +205,7 @@ IMPORTANT :
 
 
 
-  - Ecriture Bit : dans la configuration de la commande, il vous faut rentrer le registre de départ, ainsi que l'ordre des bytes et word.
+  - Ecriture Bit : dans la configuration de la commande, il vous faut l'ordre des bytes et word.
      Par défaut, le fonctionCode est de fc03, car cette commande sera a donner la valeur du registre parametré en binaire à la commande info "infobitbinary".
 
      Veuillez laisser cette configuration par défaut.
@@ -213,7 +213,7 @@ IMPORTANT :
      Sur la commande info "infobitbinary", vous aurez la valeur binaire du registre parametre à la commande Ecriture Bit.
      Pour changer le bit sur le registre :
 
-        valeuraenvoyer&PositionBit :   Ex:  1&4      Nous envoyons la valeur 1 au bit de la position 4 en partant de la droite
+        valeuraenvoyer&PositionBit&Registre :   Ex:  1&4      Nous envoyons la valeur 1 au bit de la position 4 en partant de la droite, au registre spécifié
         Sur la commande info "infobitbinary", vous voyez la valeur 10000101, qui correspond a la valeur binaire du registre parametre.
         En écrivant 1&6, vous aurez dorenavant la valeur : 10100101 sur le registre parametré.
 

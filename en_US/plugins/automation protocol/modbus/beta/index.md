@@ -205,7 +205,7 @@ IMPORTANT :
 
 
 
-  - Write Bit : in the configuration of the command, you must enter the starting register, as well as the order of the bytes and word.
+  - Write Bit : in the command configuration, you need the order of bytes and word.
      By default, the functionCode is fc03, because this command will give the value of the register set in binary to the command info "infobitbinary".
 
      Please leave this configuration as default.
@@ -213,7 +213,7 @@ IMPORTANT :
      On the info "infobitbinary" command, you will have the binary value of the parameter register at the Write Bit command.
      To change the bit on the register :
 
-        valuetosend&PositionBit :   Ex:  1&4 We send the value 1 to the bit of position 4 starting from the right
+        valuetosend&PositionBit&Register :   Ex:  1&4 We send the value 1 to the bit in position 4 from the right, to the specified register
         On the info command "infobitbinary", you see the value 10000101, which corresponds to the binary value of the parameter register.
         By writing 1&6, you will now have the value : 10100101 on the configured register.
 

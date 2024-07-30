@@ -205,7 +205,7 @@ WICHTIG :
 
 
 
-  - Bit schreiben : In der Konfiguration des Befehls müssen Sie das Startregister sowie die Reihenfolge der Bytes und des Wortes eingeben.
+  - Bit schreiben : In der Befehlskonfiguration benötigen Sie die Reihenfolge von Bytes und Wörtern.
      Standardmäßig ist der Funktionscode fc03, da dieser Befehl den Wert des Registersatzes binär an die Befehlsinfo "infobitbinary".
 
      Bitte belassen Sie diese Konfiguration als Standard.
@@ -213,7 +213,7 @@ WICHTIG :
      Beim Befehl info "infobitbinary" haben Sie den Binärwert des Parameterregisters beim Befehl Write Bit.
      Um das Bit im Register zu ändern :
 
-        valuetosend&PositionBit :   Ex:  1&4 Wir senden den Wert 1 an das Bit der Position 4 von rechts beginnend
+        valuetosend&PositionBit&Register :   Ex:  1&4 Wir senden den Wert 1 an Bitposition 4 von rechts in das angegebene Register
         Auf dem Info-Befehl „infobitbinary“ sehen Sie den Wert 10000101, was dem binären Wert des Parameterregisters entspricht.
         Indem Sie 1&6 schreiben, haben Sie jetzt den Wert : 10100101 auf dem konfigurierten Register.
 

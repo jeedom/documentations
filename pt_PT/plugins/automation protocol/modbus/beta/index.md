@@ -205,7 +205,7 @@ IMPORTANTE :
 
 
 
-  - Escrever Bit : na configuração do comando, deve-se informar o registrador inicial, assim como a ordem dos bytes e da palavra.
+  - Escrever Bit : na configuração do comando, você precisa da ordem dos bytes e da palavra.
      Por padrão, o functionCode é fc03, pois este comando dará o valor do registrador configurado em binário para o comando info "infobitbinary".
 
      Por favor, deixe esta configuração como padrão.
@@ -213,7 +213,7 @@ IMPORTANTE :
      No comando info "infobitbinary", você terá o valor binário do registrador de parâmetro no comando Write Bit.
      Para alterar o bit no registro :
 
-        valorpara enviar&PositionBit :   Ex:  1&4 Enviamos o valor 1 para o bit da posição 4 começando pela direita
+        valorparaenviar&PosicionarBit&Registrar :   Ex:  1&4 Enviamos o valor 1 para a posição 4 do bit à direita, para o registrador especificado
         No comando info "infobitbinary", você vê o valor 10000101, que corresponde ao valor binário do registrador de parâmetro.
         Ao escrever 1&6, você terá agora o valor : 10100101 no registrador configurado.
 

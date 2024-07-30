@@ -4,6 +4,9 @@
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
+# 07/30/2024
+
+- Adding Register in Message EcritureBit
 
 # 07/26/2024
 

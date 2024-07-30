@@ -4,6 +4,9 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
+# 30/07/2024
+
+- Adicionando registro na mensagem EcritureBit
 
 # 26/07/2024
 
