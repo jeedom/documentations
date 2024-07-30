@@ -1,0 +1,22 @@
+{
+	"id" : "rteEcowatt",
+	"name" : "Rte Ecowatt Tempo",
+	"description" : "Plugin qui extrait les données Ecowatt par jour et par heure ainsi que les couleurs des jours Tempo. Les APIs RTE sont utilisées. Les jours EJP et Tempo sont également récupérables du site web EDF.",
+  "utilization": "Avec Ecowatt, suivant le niveau de consommation électrique des français, Rte attribue un niveau de vigilance pour les coupures d'électricité. Le plugin affiche le niveau de consommation par jour et par heure ainsi que le niveau d'alerte actuel. Faites des scénarios afin de réduire votre consommation électrique lors d'alerte orange ou rouge.<br>Les couleurs du programme Tempo de RTE pour aujourd'hui et demain sont affichées ainsi que le nombre de jours restants dans chaque couleur.<br>Les jours EJP sont extraits du site Web d'Edf.fr",
+	"licence" : "AGPL",
+	"author" : "jpty",
+	"require" : "4.2",
+  "link": {
+		"forum": "https://community.jeedom.com/tag/plugin-rteEcowatt"
+	},
+	"category" : "energy",
+  "hasDependancy": false,
+  "hasOwnDeamon": false,
+  "changelog" : "https://jpty.github.io/jeedom/plugins/rteEcowatt/fr_FR/changelog.html",
+	"documentation" : "https://jpty.github.io/jeedom/plugins/rteEcowatt/fr_FR/index.html",
+	"changelog_beta" : "https://jpty.github.io/jeedom/plugins/rteEcowatt/fr_FR/changelog.html",
+	"documentation_beta" : "https://jpty.github.io/jeedom/plugins/rteEcowatt/fr_FR/index.html",
+	
+	"language" : ["fr_FR"],
+  "compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","atlas"]
+}
