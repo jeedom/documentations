@@ -1,17 +1,17 @@
 {
 	"id": "SomfyUnified",
 	"name": "SomfyUnified",
-	"pluginVersion": "1.0.0",
+	"pluginVersion": "1.1.3",
 	"description": {
-		"fr_FR": "Plugin destiné à permettre une interface entre Jeedom et les équipements connectés via les API OverKiz (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Rexel Energeasy Connect, Simu (LiveIn2), Ubiwizz)",
-		"de_DE": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Rexel Energeasy Connect, Simu (LiveIn2), Ubiwizz)",
-		"en_US": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Rexel Energeasy Connect, Simu (LiveIn2), Ubiwizz)",
-		"es_ES": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Rexel Energeasy Connect, Simu (LiveIn2), Ubiwizz)",
-		"id_ID": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Rexel Energeasy Connect, Simu (LiveIn2), Ubiwizz)",
-		"ja_JP": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Rexel Energeasy Connect, Simu (LiveIn2), Ubiwizz)",
-		"it_IT": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Rexel Energeasy Connect, Simu (LiveIn2), Ubiwizz)",
-		"pt_PT": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Rexel Energeasy Connect, Simu (LiveIn2), Ubiwizz)",
-		"ru_RU": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Rexel Energeasy Connect, Simu (LiveIn2), Ubiwizz)"
+		"fr_FR": "Plugin destiné à permettre une interface entre Jeedom et les équipements connectés via les API OverKiz (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
+		"de_DE": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
+		"en_US": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
+		"es_ES": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
+		"id_ID": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
+		"ja_JP": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
+		"it_IT": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
+		"pt_PT": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
+		"ru_RU": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)"
 	},
 	"licence": "AGPL",
 	"author": "Eridani78",
@@ -25,7 +25,7 @@
 	"documentation_beta": "https://eridani78.github.io/SomfyUnified-Doc/#language#/",
 	"documentation": "https://eridani78.github.io/SomfyUnified-Doc/#language#/",
 	"link": {
-		"forum": "Lien vers le forum",
+		"forum": "https://community.jeedom.com/tag/plugin-somfyunified",
 		"video": "Lien vers une video"
 	},
 	"language": [
