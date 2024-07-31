@@ -99,3 +99,14 @@ O plugin SMS funciona ao mesmo tempo que 4G no Luna 4G.
 As configurações são feitas na página LTE do plugin.
 
 /!\ Atenção você precisa de APNs do tipo IPv4 (bouygue : ebouygtel.com, laranja : laranja, grátis : livre). /!\
+
+
+# FAQ
+
+>**Eu tenho um Luna 4G, mas a guia LTE não é exibida**
+>
+>Na guia Geral, existem Opções Administrativas. Clique em Reiniciar configuração do plugin
+
+![adminTools](../images/adminTools.png)
+
+

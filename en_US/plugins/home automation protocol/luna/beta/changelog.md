@@ -7,6 +7,16 @@
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
 
+# 07/11/2024
+
+- Adding Administration Tools
+
+# 07/09/2024
+
+- Setting up an LTE service to reconnect the modem
+- Resumption of the UI on the LTE part
+- Added several settings for auto connect wifi and hotspot connections (you have to delete the wifi connection and recreate it)
+
 # 06/25/2024
 
 - Fix Js

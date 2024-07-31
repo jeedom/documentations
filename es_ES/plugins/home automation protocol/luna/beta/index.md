@@ -99,3 +99,14 @@ El complemento de SMS funciona al mismo tiempo que 4G en el Luna 4G.
 La configuración se realiza en la página LTE del complemento.
 
 /!\ Atención, necesita APN de tipo IPv4 (bouygue : ebouygtel.com, naranja : naranja, gratis : gratis). /!\
+
+
+# FAQ
+
+>**Tengo un Luna 4G, pero no me aparece la pestaña LTE**
+>
+>En la pestaña General, hay Opciones Administrativas. Haga clic en Reiniciar configuración del complemento
+
+![adminTools](../images/adminTools.png)
+
+
