@@ -1,18 +1,22 @@
-# Plugin-template
+# LNS plugin
 
-This "plugin template" serves as a basis for creating plugins for **Jeedom**.
+## Description
 
-General plugin design documentation is available [here](https://doc.jeedom.com/en_US/dev/).
+This plugin allows you to install and configure a Chirpstack V3 on the Jeedom box.
 
-In details :   
-* [Using the plugin template](https://doc.jeedom.com/en_US/dev/plugin_template) : The plugin template is a plugin base for Jeedom which must be adapted with the id of your plugin and to which you just have to add your own functions.
+## Fonctionnement
+1- Launch dependencies - in order to install the necessary packages.
 
-* [Info.json file](https://doc.jeedom.com/en_US/dev/structure_info_json) : Integrated since version 3.0 from Jeedom, the file **info.json** is mandatory for the proper functioning of the plugins and their proper deployment on the Jeedom Market.
+2- The default port is 8081. It is possible to change it via the LNS plugin interface.
 
-* [Plug-in icon](https://doc.jeedom.com/en_US/dev/Icone_de_plugin) : In order to be published on the Jeedom Market, any plugin must have an icon. Be careful not to use the same color code as the icons of official Jeedom plugins.
+3- Import the MQTT2 configuration - as long as the four fields broker IP address, broker port, connection identifier, MQTT password are not filled then the MQTT2 dependencies are still being installed.
 
-* [Plugin Widget](https://doc.jeedom.com/en_US/dev/widget_plugin) : Presentation of the different ways to include custom widgets to the plugin.
+4- Install Gateway Bridge (optional) - check then save if installation of the Gateway Bridge is necessary.
 
-* [Plugin Documentation](https://doc.jeedom.com/en_US/dev/documentation_plugin) : Overview of setting up documentation because a good plugin is nothing without proper documentation.
+5- Modify the CS configuration - once the four fields are completed, you can modify the configuration files.
 
-* [Publish plugin](https://doc.jeedom.com/en_US/dev/publication_plugin) : Description of the prerequisites essential to the publication of the plugin.
+6- Check the status of services.
+
+7- Open Chirpstack.
+
+8- Automatic creation in CS - enter the CS identifiers in order to create in Chirpstack the Network Server, Service Profile, Gateway, Device Profile (class A and class C).

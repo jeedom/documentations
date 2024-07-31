@@ -1,18 +1,22 @@
-# Plugin template
+# Plugin LNS
 
-Ce "template de plugin" sert de base à la réalisation de plugins pour **Jeedom**.
+## Description
 
-La documentation générale relative à la conception de plugin est consultable [ici](https://doc.jeedom.com/fr_FR/dev/).
+Ce plugin permet d'installer et de configurer un Chirpstack V3 sur la box Jeedom.
 
-Dans le détail :   
-* [Utilisation du template de plugin](https://doc.jeedom.com/fr_FR/dev/plugin_template) : Le template de plugin est une base de plugin pour Jeedom qui doit être adaptée avec l'id de votre plugin et à laquelle il suffit d'ajouter vos propres fonctions.
+## Fonctionnement
+1- Lancer les dépendances - afin d'installer les packages nécessaires.
 
-* [Fichier info.json](https://doc.jeedom.com/fr_FR/dev/structure_info_json) : Intégré depuis la version 3.0 de Jeedom, le fichier **info.json** est obligatoire pour le bon fonctionnement des plugins et leur bon déploiement sur le Market Jeedom.
+2- Le port par défaut est 8081. Il est possible de le changer via l'interface du plugin LNS.
 
-* [Icône du plugin](https://doc.jeedom.com/fr_FR/dev/Icone_de_plugin) : Afin de pouvoir être publié sur le Market Jeedom, tout plugin doit disposer d’une icône. Attention à ne pas utiliser le même code couleur que les icônes des plugins Jeedom officiels.
+3- Importer la configuration de MQTT2 - tant que les quatres champs adresse IP du broker, port du broker, identifiant de connexion, mot de passe MQTT ne sont pas remplis alors les dépendances de MQTT2 sont toujours en cours d'installation.
 
-* [Widget du plugin](https://doc.jeedom.com/fr_FR/dev/widget_plugin) : Présentation des différentes manières d'inclure des widgets personnalisés au plugin.
+4- Installer Gateway Bridge (optionnel) - à cocher puis sauvegarder si l'installation du Gateway Bridge est nécessaire.
 
-* [Documentation du plugin](https://doc.jeedom.com/fr_FR/dev/documentation_plugin) : Présentation de la mise en place d'une documentation car un bon plugin n'est rien sans documentation adéquate.
+5- Modifier la configuration de CS - une fois les quatres champs remplis, on pourra modifier les fichiers de configurations.
 
-* [Publication du plugin](https://doc.jeedom.com/fr_FR/dev/publication_plugin) : Description des pré-requis indispensables à la publication du plugin.
+6- Vérifier l'état des services.
+
+7- Ouvrir Chirpstack.
+
+8- Création automatique dans CS - renseigner les identifiants CS afin de créer dans Chirpstack le Network Server, Service Profile, Gateway, Device Profile (class A et class C).

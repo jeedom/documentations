@@ -1,18 +1,22 @@
-# Plantilla de plugin
+# Complemento LNS
 
-Esta "plantilla de complemento" sirve como base para crear complementos para **Jeedom**.
+## Description
 
-La documentación general de diseño de complementos está disponible [aquí](https://doc.jeedom.com/es_ES/dev/).
+Este complemento le permite instalar y configurar un Chirpstack V3 en la caja Jeedom.
 
-En detalles :   
-* [Usando la plantilla del complemento](https://doc.jeedom.com/es_ES/dev/plugin_template) : La plantilla del complemento es una base de complemento para Jeedom que debe adaptarse con la identificación de su complemento y a la que solo tiene que agregar sus propias funciones.
+## Fonctionnement
+1- Inicie las dependencias - para instalar los paquetes necesarios.
 
-* [Archivo info.json](https://doc.jeedom.com/es_ES/dev/structure_info_json) : Integrado desde la versión 3.0 de Jeedom, el archivo **info.json** es obligatorio para el correcto funcionamiento de los complementos y su correcta implementación en Jeedom Market.
+2- El puerto predeterminado es 8081. Es posible cambiarlo a través de la interfaz del complemento LNS.
 
-* [Icono de complemento](https://doc.jeedom.com/es_ES/dev/Icone_de_plugin) : Para ser publicado en Jeedom Market, cualquier complemento debe tener un ícono. Tenga cuidado de no usar el mismo código de color que los íconos de los complementos oficiales de Jeedom.
+3- Importe la configuración de MQTT2: siempre que los cuatro campos dirección IP del intermediario, puerto del intermediario, identificador de conexión y contraseña de MQTT no estén completos, las dependencias de MQTT2 aún se están instalando.
 
-* [Widget de complemento](https://doc.jeedom.com/es_ES/dev/widget_plugin) : Presentación de las diferentes formas de incluir widgets personalizados al plugin.
+4- Instale el Puente Gateway (opcional): marque y guarde si es necesaria la instalación del Puente Gateway.
 
-* [Documentación del complemento](https://doc.jeedom.com/es_ES/dev/documentation_plugin) : Descripción general de la configuración de la documentación porque un buen complemento no es nada sin la documentación adecuada.
+5- Modifique la configuración del CS: una vez completados los cuatro campos, podrá modificar los archivos de configuración.
 
-* [Complemento de publicación](https://doc.jeedom.com/es_ES/dev/publication_plugin) : Descripción de los requisitos previos esenciales para la publicación del plugin.
+6- Consulta el estado de los servicios.
+
+7- Pila de chirridos abierta.
+
+8- Creación automática en CS: ingrese los identificadores de CS para crear en Chirpstack el servidor de red, perfil de servicio, puerta de enlace, perfil de dispositivo (clase A y clase C)).

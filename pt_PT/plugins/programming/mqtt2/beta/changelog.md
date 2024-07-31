@@ -6,7 +6,9 @@
 
 - Com Jeedom 4.4.8 possibilidade de não enviar mais todos os equipamentos do brocker MQTT, mas apenas alguns (a configurar na configuração avançada do equipamento a ser transmitido)
 - Correções de bugs (especialmente para compatibilidade com php8)
-- Início da descoberta (para fazer com que 2 jeedoms se comuniquem entre si usando mqtt)
+- Descoberta entre Jeedom (para fazer 2 jeedoms se comunicarem entre si por mqtt)
+- Possibilidade na página de configuração do plugin para excluir a assinatura de um plugin
+
 
 # 22/03/2024
 
