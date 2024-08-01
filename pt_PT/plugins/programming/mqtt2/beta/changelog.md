@@ -9,7 +9,6 @@
 - Descoberta entre Jeedom (para fazer 2 jeedoms se comunicarem entre si por mqtt)
 - Possibilidade na página de configuração do plugin para excluir a assinatura de um plugin
 
-
 # 22/03/2024
 
 - Corrigido um problema no php8

@@ -9,7 +9,6 @@
 - Discovery entre Jeedom (pour faire dialoguer 2 jeedoms entre eux par mqtt)
 - Possibilité depuis la page de configuration du plugin de supprimer l'abonnement d'un plugin
 
-
 # 22/03/2024
 
 - Correction d'un soucis sous php8

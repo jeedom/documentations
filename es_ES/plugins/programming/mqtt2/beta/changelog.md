@@ -9,7 +9,6 @@
 - Descubrimiento entre Jeedom (para hacer que 2 jeedoms se comuniquen entre sí mediante mqtt)
 - Posibilidad desde la página de configuración del complemento de eliminar la suscripción de un complemento
 
-
 # 22/03/2024
 
 - Se solucionó un problema en php8

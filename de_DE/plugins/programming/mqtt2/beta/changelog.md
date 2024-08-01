@@ -9,7 +9,6 @@
 - Entdeckung zwischen Jeedom (um zwei Jeedoms durch mqtt miteinander kommunizieren zu lassen)
 - Möglichkeit auf der Plugin-Konfigurationsseite, das Abonnement eines Plugins zu löschen
 
-
 # 22.03.2024
 
 - Ein Problem unter PHP8 wurde behoben
