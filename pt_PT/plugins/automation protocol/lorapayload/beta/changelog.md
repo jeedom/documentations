@@ -24,6 +24,8 @@
 
 - Adicionando configuração *Exibição Mclimate CO2*
 
+- Adicionando configuração *Ventilador inteligente Milesight WT301*
+
 # 29/04/2024
 
 - Adicionando configuração *Dragino D23LBLS* (propriedades : Bateria, Temp-Branco, Temp-Vermelho, Temp-Preto, Alarme, Nível PA8, Modo)

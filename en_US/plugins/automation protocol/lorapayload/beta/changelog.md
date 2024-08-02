@@ -24,6 +24,8 @@
 
 - Adding configuration *Mclimate Display CO2*
 
+- Adding configuration *Milesight Smart Fan Coil WT301*
+
 # 04/29/2024
 
 - Adding configuration *Dragino D23LBLS* (properties : Battery, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)

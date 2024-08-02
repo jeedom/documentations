@@ -24,6 +24,8 @@
 
 - Konfiguration hinzufügen *Mclimate CO2-Anzeige*
 
+- Konfiguration hinzufügen *Milesight Smart Fan Coil WT301*
+
 # 29.04.2024
 
 - Konfiguration hinzufügen *Dragino D23LBLS* (Eigenschaften : Batterie, Temperatur-Weiß, Temperatur-Rot, Temperatur-Schwarz, Alarm, PA8-Stufe, Modus)

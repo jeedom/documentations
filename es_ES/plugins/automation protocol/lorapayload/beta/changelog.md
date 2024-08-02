@@ -24,6 +24,8 @@
 
 - Agregar configuración *Pantalla climática CO2*
 
+- Agregar configuración *Fan Coil inteligente Milesight WT301*
+
 # 29/04/2024
 
 - Agregar configuración *Dragino D23LBLS* (propiedades : Batería, Temp-Blanco, Temp-Rojo, Temp-Negro, Alarma, Nivel PA8, Modo)
