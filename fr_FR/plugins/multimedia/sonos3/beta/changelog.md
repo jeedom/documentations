@@ -13,10 +13,17 @@
 >
 > Voir également [ce sujet sur community](https://community.jeedom.com/t/erreur-you-cannot-create-a-controller-instance-from-a-speaker-that-is-not-the-coordinator-of-its-group/128862) pour plus de détails
 
+# 03/08/2024
+
+- Ajout d'une commande **Jouer une radio mp3** pour lire une radio mp3 directement via une URL (accessible sur internet par exemple)
+- Ajout des commandes **Augmenter le volume** et **Diminuer le volume** de 1%
+- Ajout d'une commande **Transition de volume** qui est très intéressante pour gérer les transitions de niveau de volume. 3 modes possible: *LINEAR*, *ALARM*, *AUTOPLAY*. Voir documentation pour plus d'information.
+
 # 02/08/2024
 
+- Ajout des commandes **Led on**, **Led off** et **Led statut** pour contrôler le voyant d'état
 - Fix un crash du démon si aucun Sonos n'est découvert
-- Ajout des commandes pour contrôler le voyant d'état
+- Amélioration compatibilité Debian 10 / python 3.7
 
 # 01/08/2024
 
@@ -29,7 +36,7 @@
 - Optimisation: plus de perte de mémoire sur le démon et il consomme moins que précédemment.
 
 - Ajout d'une commande action **TV** pour basculer sur l'entrée *TV* sur les équipements compatibles
-- Ajout d'une commande info **Mode de lecture** et action **Choisir mode de lecture** qui permet de sélectionner le mode de lecture parmi les possibilités suivantes: *Normal*, *Répéter tout*, *Aléatoire*, *Aléatoire sans répétition*, *Répéter le morceau*, *Aléatoire et répéter le morceau*
+- Ajout d'une commande info **Mode de lecture** et action **Choisir mode de lecture** qui permet de sélectionner le mode de lecture parmi les possibilités suivantes: *Normal*, *Répéter tout*, *Aléatoire et répéter tout*, *Aléatoire sans répétition*, *Répéter le morceau*, *Aléatoire et répéter le morceau*
 - Ajout d'une commande **Statut de lecture** qui donne la valeur "brut" de l'état de lecture (la commande existante **Statut** donne une valeur traduite en fonction de la langue configurée dans Jeedom)
 - Ajout des commandes **Groupe statut** (indique si l'équipement est groupé ou non) et **Nom du groupe** dans le cas où l'équipement est groupé
 
