@@ -5,6 +5,14 @@
 > As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
 
+# 04/08/2024
+Taking into account retention of notifications for deletion of images
+
+
+# 07/22/2024
+Taking into account retention of notifications
+Target SDK 34 for Android
+
 # 05/28/2024
 Geolocation modification for next App version
 Storage Notifications in the plugin

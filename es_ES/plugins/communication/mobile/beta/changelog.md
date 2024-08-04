@@ -5,6 +5,14 @@
 > Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
 
+# 08/04/2024
+Teniendo en cuenta la retención de notificaciones por eliminación de imágenes
+
+
+# 22/07/2024
+Teniendo en cuenta la retención de notificaciones
+Objetivo SDK 34 para Android
+
 # 28/05/2024
 Modificación de geolocalización para la próxima versión de la aplicación
 Notificaciones de almacenamiento en el complemento
