@@ -104,6 +104,61 @@ El complemento puede descubrir automáticamente varios tipos de módulos. Para h
 >
 >Para los módulos tipo tasmota es absolutamente necesario que la configuración completa del tema sea `%topic%/%prefix%/`
 
+
+# Transmitir información entre dos jeedoms por MQTT
+
+Es posible gracias al complemento transmitir comandos entre dos Jeedom (este sistema está dedicado a reemplazar jeelink), aquí se explica cómo configurarlo : 
+
+- en la fuente jeedom que necesitas :
+  - en la configuración del complemento mqtt manager, configure el campo "Tema raíz de Jeedom", por defecto es jeedom, se recomienda poner un valor único por Jeedom (p. ej : jeedom_salon)
+  - luego puedes marcar la casilla "Transmitir todos los eventos" (aún en la configuración del complemento mqtt manager), esto no es lo más recomendado porque enviará todo el equipo al destino. Lo mejor es ir al equipo que deseas transmitir, en la configuración avanzada del equipo (botón arriba a la derecha en la página de configuración del equipo) luego en "Información adicional" para marcar "Transmitir el equipo MQTT"
+- en el objetivo jeedom es necesario : 
+  - en la configuración del complemento mqtt manager, configure el campo “Tema de Jeedom vinculado” estableciendo el valor de “Tema raíz de Jeedom” del jeedom fuente. Puedes poner varias fuentes de Jeedom separándolas con ,. Tenga cuidado, debe tener mucho cuidado aquí, definitivamente no debería tener lo mismo para el "tema raíz de Jeedom" en jeedoms. Este campo es el identificador único del jeedom por lo que es absolutamente necesario tener valores diferentes
+  - en complemento -> programación -> Mqtt manager activar el descubrimiento automático (inactivo por defecto)
+
+Luego solo tienes que regresar al jeedom aún en la configuración del complemento y hacer "Enviar descubrimiento"
+
+>**IMPORTANTE**
+>
+>Esta configuración supone que los jeedoms están conectados al mismo mosquito brocker. Si no puedes hacer esto, entonces deberás configurar uno de los dos mosquittos para que envíe los valores de los temas deseados a otro mosquitto (ver siguiente capítulo)
+
+>**IMPORTANTE**
+>
+>Si cambia el valor del campo "Plantilla de publicación" (vacío de forma predeterminada), la detección automática no creará los pedidos correctos; en este caso, depende de usted adaptar la configuración
+
+
+# Vinculados dos mosquitos diferentes 
+
+Es posible vincular temas entre varios mosquitto, aquí está la configuración para agregar en mosquitto. La configuración sólo debe realizarse en uno de los brocker mosquitto : 
+
+''''''''
+connection #NOM_CONNEXION#
+address #REMOTE_ADDRESS#:#REMOTE_PORT#
+topic # both 0 #LOCAL_TOPIC#/ #REMOTE_TOPIC#/
+cleansession true
+notifications false
+remote_clientid #REMOTE_CLIENT_ID#
+remote_username #REMOTE_USERNAME#
+remote_password #REMOTE_PASSWORD#
+local_username #LOCAL_USERNAME#
+local_password #LOCAL_PASSWORD#
+start_type automatic
+try_private true
+bridge_insecure true
+bridge_tls_version tlsv1.3
+''''''''
+
+>**NOTA**
+>
+> ''#NOM_CONNEXION#'' : puede ser lo que quieras y no importa. Puedes, por ejemplo, hacer name_jeedom_source-name_jeedom_target
+> ''#REMOTE_CLIENT_ID#'' : tampoco importa, solo tienes que poner una cadena unica 
+> ''#LOCAL_TOPIC#'' : nombre del tema local a menudo será "tema raíz de Jeedom" del jeedom local 
+> ''#REMOTE_TOPIC#'' : El nombre del tema local a menudo será "tema raíz de Jeedom" del jeedom remoto
+
+>**IMPORTANTE**
+>
+> Por desgracia, los identificadores ("nombre de usuario" y "contraseña") están disponibles en la página de configuración del complemento en "Autenticación" en el formato "nombre de usuario":''password''
+
 # FAQ
 
 >**Después de una actualización de los paquetes del sistema (apt) o de una actualización desatendida, ya nada funciona**

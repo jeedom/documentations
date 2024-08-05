@@ -4,7 +4,22 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+
+- Gestión de imágenes mejorada
+- Corrección de velocidad en baudios en desconz
+- Se corrigió un error que mostraba la ventana de configuración de un nodo si se elimina una pieza de equipo mientras se usa vinculante en otro
+
+# 16/07/2024
+
+- Se corrigió un error que indicaba una actualización de zigbee2mqtt cuando la versión ya está actualizada
+- Tipo de clave Ember agregado
+- Se solucionó un problema al iniciar el demonio por primera vez con respecto a los derechos del archivo de registro
+- Se solucionó un problema en algunas imágenes
+
+# 22/04/2024
+
 - Se corrigió un error en la duplicación de comandos (en escenas)
+- Se corrigió un error en los controles deslizantes con valor negativo
 
 # 04/03/2024
 

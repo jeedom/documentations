@@ -4,7 +4,22 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+
+- Gerenciamento de imagem aprimorado
+- Correção de taxa de transmissão no deconz
+- Corrigido um bug que exibia a janela de configuração de um nó se um equipamento fosse excluído enquanto era usado na vinculação de outro
+
+# 16/07/2024
+
+- Corrigido erro indicando atualização do zigbee2mqtt quando a versão já está atualizada
+- Adicionado tipo de chave Ember
+- Corrigido um problema ao iniciar o daemon pela primeira vez em relação aos direitos do arquivo de log
+- Corrigido um problema em algumas imagens
+
+# 22/04/2024
+
 - Corrigido um bug na duplicação de comandos (em cenas)
+- Corrigido um bug em controles deslizantes com valor negativo
 
 # 03/04/2024
 

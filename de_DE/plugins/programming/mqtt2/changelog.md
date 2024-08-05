@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Mit Jeedom 4.4.8 Möglichkeit, nicht mehr alle Geräte auf dem MQTT-Brocker zu senden, sondern nur noch bestimmte (in der erweiterten Konfiguration der zu übertragenden Geräte zu konfigurieren))
+- Fehlerbehebungen (insbesondere für PHP8-Kompatibilität))
+- Entdeckung zwischen Jeedom (um zwei Jeedoms durch mqtt miteinander kommunizieren zu lassen)
+- Möglichkeit auf der Plugin-Konfigurationsseite, das Abonnement eines Plugins zu löschen
+
 # 22.03.2024
 
 - Ein Problem unter PHP8 wurde behoben

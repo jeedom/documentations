@@ -44,5 +44,15 @@
         "v4",
         "atlas",
         "smart"
-    ]
+    ],
+    "specialAttributes": {
+        "eqLogic": {
+            "mqttTranmit": {
+                "type": "checkbox",
+                "name": {
+                    "fr_FR": "Transmettre l'équipement en MQTT"
+                }
+            }
+        }
+    }
 }
