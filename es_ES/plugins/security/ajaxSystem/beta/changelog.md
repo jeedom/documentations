@@ -6,6 +6,7 @@
 
 - Mejor gestión de eventos (si la fuente es el usuario y no el centro))
 - Eliminación de la parte SIA (demasiado complicada de mantener y sólo funciona muy raramente))
+- Se agregó soporte para el módulo MotionCamPhod
 
 # 01/06/2024
 

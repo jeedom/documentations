@@ -6,6 +6,7 @@
 
 - Bessere Ereignisverwaltung (wenn die Quelle der Benutzer und nicht der Hub ist))
 - Löschung des SIA-Teils (zu kompliziert in der Pflege und funktioniert nur zu selten))
+- Unterstützung für das MotionCamPhod-Modul hinzugefügt
 
 # 01.06.2024
 

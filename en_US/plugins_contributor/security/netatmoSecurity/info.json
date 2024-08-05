@@ -13,6 +13,7 @@
     "category": "security",
     "hasDependency": false,
     "hasOwnDeamon": false,
+    "display": "panel",
     "changelog": "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/#language#/changelog",
     "documentation": "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/#language#/",
     "changelog_beta": "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/#language#/changelog",
