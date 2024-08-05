@@ -4,6 +4,7 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 05/08/2024
 
 - Gerenciamento de imagem aprimorado
 - Correção de taxa de transmissão no deconz

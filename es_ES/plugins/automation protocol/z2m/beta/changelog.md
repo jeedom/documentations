@@ -4,6 +4,7 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 08/05/2024
 
 - Gestión de imágenes mejorada
 - Corrección de velocidad en baudios en desconz
