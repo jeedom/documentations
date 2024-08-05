@@ -8,6 +8,25 @@
 - Possibilité de maquer certain menu pour les utilisateurs limités [LIEN](https://github.com/jeedom/core/issues/2651)
 - Les graphiques se mettent à jour automatiquement lors de l'arrivées de nouvelles valeur [LIEN](https://github.com/jeedom/core/issues/2749)
 - Jeedom ajoute automatiquement la hauteur de l'image lors de la création des widgets pour eviter les soucis de chevauchement en mobile [LIEN](https://github.com/jeedom/core/issues/2539)
+- Refonte de la partie backup cloud [LIEN](https://github.com/jeedom/core/issues/2765)
+- [DEV] Mise en place d'un systeme de queue pour l'éxecution d'action [LIEN](https://github.com/jeedom/core/issues/2489)
+- Les tags des scénarios sont maintenant propre a l'instance du scénario (si vous avez deux lancement très proche de scénario les tags du derniers n'écrase plus le premier) [LIEN](https://github.com/jeedom/core/issues/2763)
+- Changement sur la partie trigger des scénarios : [LIEN](https://github.com/jeedom/core/issues/2414)
+  - ``triggerId()`` est maintenant deprecated et sera retiré dans les futurs mises a jour du core
+  - ``trigger()`` est maintenant deprecated et sera retiré dans les futurs mises a jour du core
+  - ``triggerValue()`` est maintenant deprecated et sera retiré dans les futurs mises a jour du core
+  - ``#trigger#`` : Peut être :
+    - ``api`` si le lancement a été déclenché par l'API,
+    - ``TYPEcmd`` si le lancement a été déclenché par une commande, avec TYPE remplacé l'id du plugin (ex virtualCmd),
+    - ``schedule`` s'il a été lancé par une programmation,
+    - ``user`` s'il a été lancé manuellement,
+    - ``start`` pour un lancement au démarrage de Jeedom.
+  - ``#trigger_id#`` : Si c'est une commande qui a déclenché le scénario alors ce tag à la valeur de l'id de la commande qui l'a déclenché
+  - ``#trigger_name#`` : Si c'est une commande qui a déclenché le scénario alors ce tag à la valeur du nom de la commande (sous forme [objet][equipement][commande])
+  - ``#trigger_value#`` : Si c'est une commande qui a déclenché le scénario alors ce tag à la valeur de la commande ayant déclenché le scénario
+- Amélioration de la gestion des plugins sur github (plus de dépendances à une librairie tierce) [LIEN](https://github.com/jeedom/core/issues/2567)
+- Suppression de l'ancien systeme de cache. [LIEN](https://github.com/jeedom/core/pull/2799)
+- Possibilité de suppression les bloc DANS et A en attente d'un autre scénario [LIEN](https://github.com/jeedom/core/pull/2379)
 
 # 4.4.10
 
