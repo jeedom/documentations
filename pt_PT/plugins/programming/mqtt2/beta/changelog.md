@@ -4,6 +4,9 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+- Para equipamentos transmitidos no Mqtt o plugin agora envia o nível da bateria todas as noites
+- O plugin para gerenciar o nível de bateria transmitido entre Jeedom
+
 # 05/08/2024
 
 - Com Jeedom 4.4.8 ou mais possibilidade de não enviar mais todos os equipamentos do brocker MQTT mas apenas alguns (a configurar na configuração avançada do equipamento a transmitir)
