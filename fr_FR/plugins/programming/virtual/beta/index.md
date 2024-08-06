@@ -22,6 +22,20 @@ Un équipement virtuel peut être utile pour les besoins suivants :
 
 Ce plugin ne nécessite pas de configuration particulière et doit simplement être activé après l'installation.
 
+## Créer/Mettre à jour Jeedom monitor
+
+Bouton permettant de créer un équipement Jeedom internet qui vous donnera des informations interne sur jeedom : 
+
+- pour chaque plugin ayant un démon une commande sur l'état du démon
+- pour chaque plugin ayant un démon une commande pour démarrer le démon
+- pour chaque plugin ayant un démon une commande pour arreter le démon
+- nombre de mise a jour disponible
+- nombre de message dans le centre des messages
+- version de jeedom
+- faire un backup
+- lancer la mise a jour de Jeedom (et des plugins)
+
+
 ## Configuration des équipements
 
 Les équipements virtuels sont accessibles à partir du menu **Plugins → Programmation → Virtuel**.
