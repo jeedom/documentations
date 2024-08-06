@@ -6,11 +6,16 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
+- Adicionado suporte para UVC G4 Doorbell Pro PoE e UP Chime PoE
+
+# 15/01/2024
+
+- Preparando-se para Jeedom 4.4
+
 # 06/05/2023
 
 - Adicionado UDM PRO SE
 - Adicionar UVC G5 Pro
-
 
 # 26/04/2023
 
