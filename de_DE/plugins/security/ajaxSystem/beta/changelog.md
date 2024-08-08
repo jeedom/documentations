@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 08.07.2024
+
 - Bessere Ereignisverwaltung (wenn die Quelle der Benutzer und nicht der Hub ist))
 - Löschung des SIA-Teils (zu kompliziert in der Pflege und funktioniert nur zu selten))
 - Unterstützung für das MotionCamPhod-Modul hinzugefügt

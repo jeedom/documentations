@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 04/07/2024
+
+- Suppression de la dependance a une lib tierce pour etre compatible php 12
+
 # 11/06/2024
 
 - Correction d'un bug sur les actions de fin qui pouvaient ne pas s'éxecuter

@@ -4,6 +4,8 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 07/08/2024
+
 - Meilleurs gestion des evenements (si la source est l'utilisateur et non le hub)
 - Suppression de la partie SIA (trop compliqué a maintenir et marche que trop rarement)
 - Ajout support du module MotionCamPhod

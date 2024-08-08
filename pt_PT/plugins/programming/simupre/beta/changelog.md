@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 07/04/2024
+
+- Remoção da dependência de uma biblioteca de terceiros para ser compatível com php 12
+
 # 11/06/2024
 
 - Corrigido um bug nas ações finais que não podiam ser executadas

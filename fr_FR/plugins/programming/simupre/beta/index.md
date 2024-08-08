@@ -24,7 +24,7 @@ Ensuite, vous avez deux autres paramètres à configurer :
 Dans le second onglet vous allez retrouver la configuration des simulations :
 
 - elles ont un nom (pour les retrouver plus facilement)
-- une condition de lancement, si la condition est fausse alors la simulation de ne se fera pas (si vous ne mettez rien alors la configuration se lancera forcément)
+- une condition de lancement, si la condition est fausse alors la simulation de ne se fera pas (si vous ne mettez rien alors la configuration se lancera forcément). Cette condition est évaluée au moment du lancement de la simulation (et non au moment de la programmation)
 - des actions d'entrées : se font lors du lancement de la simulation
 - des action de sorties (optionnelles) : se font lors de la fin de la simulation
 - des heures de début et des durées :
@@ -40,6 +40,14 @@ Dans le second onglet vous allez retrouver la configuration des simulations :
 >
 > Le format pour les heures est le suivant hh:mm, pour 12h30 il faut donc mettre 12:30
 
+>**NOTE**
+>
+> Il faut bien remplir tous les champs sinon le plugin ne sera pas capable de calculer votre simulation et fera n'importe quoi.
+
 >**IMPORTANT**
 >
 > Le plugin vous affiche les heures prévisionnelles de la simulation pour la prochaine période (si vous en avez plusieurs vous ne verrez donc comme la suivante)
+
+>**IMPORTANT**
+>
+> Le plugin travails sur des cycles de 24h de 00h00 à 23:59, une programmation ne peut avoir lieu dans le cycle en cours. En résumé toute programmation commecera donc le lendemain.

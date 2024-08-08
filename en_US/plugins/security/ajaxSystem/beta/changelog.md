@@ -4,6 +4,8 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+# 07/08/2024
+
 - Better event management (if the source is the user and not the hub)
 - Deletion of the SIA part (too complicated to maintain and only works too rarely)
 - Added support for the MotionCamPhod module

@@ -15,10 +15,6 @@ La configuración del complemento es muy simple y se realiza en 2 pasos :
 >
 >Un punto importante Ajax no genera una alerta global cuando se activa una alarma, pero sí eleva el estado del detector que activó la alarma (comando de eventos)
 
->**IMPORTANTE**
->
->El demonio solo se usa para la parte SIA. Si lo desactiva, seguirá teniendo información procedente de la nube. Por lo tanto, puede desactivarlo si no utiliza la parte SIA
-
 ## Compatibilité
 
 Puedes encontrar [aquí](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=ajaxSystem) la lista de módulos compatibles con el complemento
@@ -58,43 +54,3 @@ Pequeña especificidad para el detector de movimiento, no sube a la detección d
 ### Detector de apertura
 
 Para él, no se preocupe, tiene el estado en tiempo real de la información de ventana / puerta abierta / cerrada.
-
-## SIA
-
->**IMPORTANTE**
->
-> Actualmente, esta función no es compatible con los RPI y no parece funcionar correctamente con Debian 11 (que actualmente no es oficialmente compatible con jeedom porque hay demasiados complementos que no la admiten)
-
-También es posible conectar la alarma Ajax a Jeedom mediante el protocolo SIA, que tiene la ventaja de ser local (sin nube) pero que solo puede recibir información (no es posible el control de alarmas).
-
->**IMPORTANTE**
->
-> Si estás en python <3.8 (Debian 10), o si obtiene el `ImportError: no puede importar el nombre 'CommunicationsProtocol' de 'pysiaalarm' debe ir a "Configuración" -> "Sistema" -> "Configuración", luego la pestaña "OS / DB" y luego en "Herramientas del sistema" haga clic en "Abrir" frente a "Sistema Administración". Y haz el comando `sudo pip3 install pysiaalarm == 3.0.0b9`
-
-## Configurar el AIS
-
-La configuración del SIA es bastante simple, en "Complemento" -> "Administración de complementos" -> "Sistemas Ajax", tendrás : 
-- usando el demonio SIA
-- la cuenta SIA
-- la clave de cifrado SIA
-
-Luego debe ir a la aplicación Ajax Systeme (desde su teléfono), ir a "Dispositivos" luego hacer clic en el hub, ir a su configuración (rueda dentada en la parte superior derecha), ir a "Centro de Monitoreo" y completar la información : 
-
-- puerto (el de Jeedom)
-- Cuenta SIA (lo mismo en Jeedom)
-- clave de cifrado (ídem)
-- ip : poner la ip local de Jeedom
-
-También puede cambiar la frecuencia de la prueba de servicio de 1 minuto a 24 horas (para reducir la carga en su Jeedom).
-
-Normalmente, si todo está bien, debería ver el cambio de "Estación central" a "Conectado"
-
->**IMPORTANTE**
->
-> Cierta información solo se devuelve si el AIS está configurado
-
-# FAQ
-
->**Configuración de MQTT**
->
->En la configuración del complemento tiene la posibilidad de pasar por la parte SIA en mqtt, voluntariamente no hay una explicación de cómo porque la implementación es relativamente compleja. La opción está ahí para satisfacer una necesidad del cliente solamente.

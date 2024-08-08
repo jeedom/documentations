@@ -24,7 +24,7 @@ Então você tem dois outros parâmetros para configurar :
 Na segunda aba, você encontrará a configuração das simulações :
 
 - eles têm um nome (para encontrá-los mais facilmente)
-- uma condição de inicialização, se a condição for falsa, a simulação não será feita (se você não colocar nada, a configuração será necessariamente iniciada)
+- uma condição de inicialização, se a condição for falsa, a simulação não será feita (se você não colocar nada, a configuração será necessariamente iniciada). Esta condição é avaliada no momento do lançamento da simulação (e não no momento da programação)
 - ações de entrada : são feitos ao iniciar a simulação
 - ações de saída (opcional) : são feitos no final da simulação
 - horários e durações de início :
@@ -40,6 +40,14 @@ Na segunda aba, você encontrará a configuração das simulações :
 >
 > O formato para as horas é o seguinte hh:mm, para 12:30, então coloque 12:30
 
+>**NOTA**
+>
+> Você deve preencher todos os campos corretamente caso contrário o plugin não conseguirá calcular sua simulação e fará de tudo.
+
 >**IMPORTANTE**
 >
 > O plug-in exibe as horas previstas da simulação para o próximo período (se você tiver várias, não verá as seguintes)
+
+>**IMPORTANTE**
+>
+> O plugin funciona em ciclos de 24 horas, das 00h00 às 23h00:59, a programação não pode ocorrer no ciclo atual. Em resumo, toda a programação começará no dia seguinte.

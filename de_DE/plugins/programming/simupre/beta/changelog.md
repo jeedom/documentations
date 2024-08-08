@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 07.04.2024
+
+- Entfernung der Abhängigkeit von einer Drittanbieter-Bibliothek, um mit PHP 12 kompatibel zu sein
+
 # 11.06.2024
 
 - Es wurde ein Fehler bei Endaktionen behoben, die nicht ausgeführt werden konnten

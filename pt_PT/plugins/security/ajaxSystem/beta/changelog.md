@@ -4,6 +4,8 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto
 
+# 08/07/2024
+
 - Melhor gerenciamento de eventos (se a origem for o usuário e não o hub)
 - Exclusão da parte SIA (muito complicada de manter e funciona muito raramente)
 - Adicionado suporte para o módulo MotionCamPhod

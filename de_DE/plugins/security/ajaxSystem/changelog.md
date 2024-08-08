@@ -4,6 +4,14 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Bessere Ereignisverwaltung (wenn die Quelle der Benutzer und nicht der Hub ist))
+- Löschung des SIA-Teils (zu kompliziert in der Pflege und funktioniert nur zu selten))
+- Unterstützung für das MotionCamPhod-Modul hinzugefügt
+
+# 01.06.2024
+
+- Ein Problem bei der Installation von Abhängigkeiten wurde behoben
+
 # 01.03.2024
 
 - Vorbereitung auf Jeedom 4.4

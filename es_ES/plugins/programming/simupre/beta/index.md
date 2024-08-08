@@ -24,7 +24,7 @@ Entonces tienes otros dos parámetros para configurar :
 En la segunda pestaña encontrarás la configuración de las simulaciones :
 
 - tienen un nombre (para encontrarlos más fácilmente)
-- una condición de inicio, si la condición es falsa, entonces la simulación no se realizará (si no pone nada, entonces la configuración se iniciará necesariamente)
+- una condición de inicio, si la condición es falsa, entonces la simulación no se realizará (si no pone nada, entonces la configuración se iniciará necesariamente). Esta condición se evalúa en el momento de lanzar la simulación (y no en el momento de la programación))
 - acciones de entrada : se realizan al iniciar la simulación
 - acciones de salida (opcional) : se hacen al final de la simulación
 - tiempos de inicio y duraciones :
@@ -40,6 +40,14 @@ En la segunda pestaña encontrarás la configuración de las simulaciones :
 >
 > El formato de las horas es el siguiente hh:mm, para las 12:30 p.m., así que pon 12:30
 
+>**Nota**
+>
+> Debes completar todos los campos correctamente, de lo contrario el complemento no podrá calcular tu simulación y hará cualquier cosa.
+
 >**Importante**
 >
 > El complemento muestra las horas de pronóstico de la simulación para el próximo período (si tiene varias, no verá lo siguiente)
+
+>**Importante**
+>
+> El complemento funciona en ciclos de 24 horas de 00:00 a 23:59, la programación no puede realizarse en el ciclo actual. En resumen, toda la programación comenzará al día siguiente.

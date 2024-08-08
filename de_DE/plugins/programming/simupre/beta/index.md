@@ -24,7 +24,7 @@ Dann müssen Sie zwei weitere Parameter konfigurieren :
 Auf der zweiten Registerkarte finden Sie die Konfiguration der Simulationen :
 
 - Sie haben einen Namen (um sie leichter zu finden)
-- eine Startbedingung, wenn die Bedingung falsch ist, wird die Simulation nicht durchgeführt (wenn Sie nichts eingeben, wird die Konfiguration notwendigerweise gestartet)
+- eine Startbedingung, wenn die Bedingung falsch ist, wird die Simulation nicht durchgeführt (wenn Sie nichts eingeben, wird die Konfiguration notwendigerweise gestartet). Diese Bedingung wird zum Zeitpunkt des Starts der Simulation (und nicht zum Zeitpunkt der Programmierung) ausgewertet)
 - Eingabeaktionen : werden beim Starten der Simulation ausgeführt
 - Ausgabeaktionen (optional) : werden am Ende der Simulation durchgeführt
 - Startzeiten und -dauern :
@@ -40,6 +40,14 @@ Auf der zweiten Registerkarte finden Sie die Konfiguration der Simulationen :
 >
 > Das Format für die Stunden ist wie folgt hh:mm, für 12:30 Uhr, also setzen Sie 12:30
 
+>**Notiz**
+>
+> Sie müssen alle Felder korrekt ausfüllen, sonst kann das Plugin Ihre Simulation nicht berechnen und führt nichts aus.
+
 >**Wichtig**
 >
 > Das Plugin zeigt die prognostizierten Stunden der Simulation für den nächsten Zeitraum an (wenn Sie mehrere haben, sehen Sie Folgendes nicht)
+
+>**Wichtig**
+>
+> Das Plugin funktioniert im 24-Stunden-Zyklus von 00:00 bis 23:00 Uhr:59 kann im aktuellen Zyklus keine Programmierung erfolgen. Zusammenfassend lässt sich sagen, dass die gesamte Programmierung am nächsten Tag beginnen wird.

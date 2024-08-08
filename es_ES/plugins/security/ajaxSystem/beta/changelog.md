@@ -4,6 +4,8 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
+# 08/07/2024
+
 - Mejor gestión de eventos (si la fuente es el usuario y no el centro))
 - Eliminación de la parte SIA (demasiado complicada de mantener y sólo funciona muy raramente))
 - Se agregó soporte para el módulo MotionCamPhod
