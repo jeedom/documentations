@@ -1,26 +1,34 @@
 {
-	"id" : "HomeWizard",
-	"name" : "HomeWizard Energy",
-	"description" : {
-		"fr_FR":"Ce plugin permet d'afficher les données des périphériques HomeWizard Energy et de controler leurs prises connectées. Découverte des équipements via multicast DNS (mDNS) sur le même réseau.",
-		"en_US":"This plugin allow you to display data from HomeWizard Energy devices and to control their wifi sockets. Devices discovery is done via multicast DNS (mDNS) on the same network."
+	"id": "HomeWizard",
+	"name": "HomeWizard Energy",
+	"description": {
+		"fr_FR": "Ce plugin permet d'afficher les données des périphériques HomeWizard Energy et de controler leurs prises connectées. Découverte des équipements via multicast DNS (mDNS) sur le même réseau.",
+		"en_US": "This plugin allow you to display data from HomeWizard Energy devices and to control their wifi sockets. Devices discovery is done via multicast DNS (mDNS) on the same network."
 	},
-	"utilization" : "ATTENTION : Non supporté : Debian Buster(10) Stretch(9) Jessie(8) & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)\n\nJeedom DOIT être sur le même réseau que votre équipement. (pas de routage, pas de NAT) !!!",
-	"licence" : "AGPL",
-	"author" : "Nebz",
-	"hasDependency" : true,
-	"hasOwnDeamon" : true,
-	"require" : "4.3",
-	"category" : "devicecommunication",
-	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
-	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/HomeWizard/fr_FR/changelog",
-	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/HomeWizard/fr_FR/changelog",
-	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/HomeWizard/fr_FR/",
-	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/HomeWizard/fr_FR/",
-	"forum_link" : "https://community.jeedom.com/tags/plugin-HomeWizard",
-	"link" : {
-		"forum":"https://community.jeedom.com/tags/plugin-HomeWizard"
+	"utilization": "ATTENTION : Non supporté : Debian Buster(10) Stretch(9) Jessie(8) & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)\n\nJeedom DOIT être sur le même réseau que votre équipement. (pas de routage, pas de NAT) !!!",
+	"licence": "AGPL",
+	"author": "Nebz",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"require": "4.3",
+	"category": "devicecommunication",
+	"issue": "https://github.com/NebzHB/jeedom_docs/issues",
+	"changelog": "https://nebzhb.github.io/jeedom_docs/plugins/HomeWizard/fr_FR/changelog",
+	"changelog_beta": "https://nebzhb.github.io/jeedom_docs/plugins/HomeWizard/fr_FR/changelog",
+	"documentation": "https://nebzhb.github.io/jeedom_docs/plugins/HomeWizard/fr_FR/",
+	"documentation_beta": "https://nebzhb.github.io/jeedom_docs/plugins/HomeWizard/fr_FR/",
+	"forum_link": "https://community.jeedom.com/tags/plugin-HomeWizard",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-HomeWizard"
 	},
-	"languages" : ["fr_FR"],
-	"compatibility" : ["smart","rpi","diy","v4"]
+	"languages": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"rpi",
+		"diy",
+		"v4"
+	]
 }
