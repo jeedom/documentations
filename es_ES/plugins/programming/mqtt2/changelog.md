@@ -4,8 +4,6 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
-- Se agregó una ventana de configuración global para la transmisión de equipos entre Jeedom
-
 # 08/08/2024
 
 - Para los equipos transmitidos en Mqtt, el complemento ahora envía el nivel de la batería todas las noches
@@ -13,6 +11,7 @@
 - Gestión correcta de los comandos de actualización de los widgets de los equipos transmitidos entre Jeedom
 - Al enviar el descubrimiento entre Jeedom también se transmiten los valores de los comandos (no es necesario esperar una actualización del valor para tenerlo en el objetivo)). Requiere reenviar descubrimiento
 - Al transmitir equipos entre Jeedom, el complemento ahora gestiona el tipo real de equipo para que sea compatible con aplicaciones móviles. Requiere reenviar descubrimiento
+- Se agregó una ventana de configuración global para la transmisión de equipos entre Jeedom
 
 # 08/05/2024
 
