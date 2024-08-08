@@ -4,8 +4,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 08.08.2024
+
 - Für Geräte, die über Mqtt übertragen werden, sendet das Plugin jetzt jede Nacht den Batteriestand
 - Das Plugin zur Verwaltung des zwischen Jeedom übertragenen Batteriestands
+- Korrekte Verwaltung von Aktualisierungsbefehlen für Widgets auf Geräten, die zwischen Jeedom übertragen werden
+- Beim Senden der Entdeckung zwischen Jeedom werden auch die Werte der Befehle übertragen (Sie müssen nicht auf eine Aktualisierung des Werts warten, um ihn auf dem Ziel zu haben). Erfordert erneutes Senden der Erkennung
+- Bei der Übertragung von Geräten zwischen Jeedom verwaltet das Plugin nun den tatsächlichen Gerätetyp, um mit mobilen Anwendungen kompatibel zu sein. Erfordert erneutes Senden der Erkennung
 
 # 08.05.2024
 

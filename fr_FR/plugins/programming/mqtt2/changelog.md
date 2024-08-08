@@ -4,6 +4,14 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 08/08/2024
+
+- Pour les équipements transmis sur Mqtt le plugin envoi maintenant toute les nuits le niveau de batterie
+- Le plugin pour gerer le niveau de batterie transmis entre Jeedom
+- Gestion correcte des commandes de rafraichissement sur les widgets sur les équipements transmis entre Jeedom
+- Lors de l'envoi de la découverte entre Jeedom les valeurs des commandes sont aussi transmisent (plus besoin d'attendre une mise à jour de la valeur pour l'avoir sur la cible). Nécessite de renvoyer la découverte
+- Lors la transmission d'équipement entre Jeedom le plugin gere maintenant le type réel de l'équipement pour etre compatible avec les applications mobile. Nécessite de renvoyer la découverte
+
 # 05/08/2024
 
 - Avec Jeedom 4.4.8 ou plus possibilité de ne plus envoyer tous les équipements sur le brocker MQTT mais seulement certain (à configurer dans la configuration avancée de l'équipement a transmettre)

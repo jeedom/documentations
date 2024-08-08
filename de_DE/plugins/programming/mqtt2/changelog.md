@@ -4,7 +4,17 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-- Mit Jeedom 4.4.8 Möglichkeit, nicht mehr alle Geräte auf dem MQTT-Brocker zu senden, sondern nur noch bestimmte (in der erweiterten Konfiguration der zu übertragenden Geräte zu konfigurieren))
+# 08.08.2024
+
+- Für Geräte, die über Mqtt übertragen werden, sendet das Plugin jetzt jede Nacht den Batteriestand
+- Das Plugin zur Verwaltung des zwischen Jeedom übertragenen Batteriestands
+- Korrekte Verwaltung von Aktualisierungsbefehlen für Widgets auf Geräten, die zwischen Jeedom übertragen werden
+- Beim Senden der Entdeckung zwischen Jeedom werden auch die Werte der Befehle übertragen (Sie müssen nicht auf eine Aktualisierung des Werts warten, um ihn auf dem Ziel zu haben). Erfordert erneutes Senden der Erkennung
+- Bei der Übertragung von Geräten zwischen Jeedom verwaltet das Plugin nun den tatsächlichen Gerätetyp, um mit mobilen Anwendungen kompatibel zu sein. Erfordert erneutes Senden der Erkennung
+
+# 08.05.2024
+
+- Mit Jeedom 4.4.8 oder mehr Möglichkeit, nicht mehr alle Geräte auf dem MQTT-Brocker zu senden, sondern nur noch bestimmte (in der erweiterten Konfiguration der zu übertragenden Geräte zu konfigurieren))
 - Fehlerbehebungen (insbesondere für PHP8-Kompatibilität))
 - Entdeckung zwischen Jeedom (um zwei Jeedoms durch mqtt miteinander kommunizieren zu lassen)
 - Möglichkeit auf der Plugin-Konfigurationsseite, das Abonnement eines Plugins zu löschen

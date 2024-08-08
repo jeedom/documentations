@@ -4,7 +4,17 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
-- With Jeedom 4.4.8 possibility of no longer sending all the equipment on the MQTT brocker but only certain ones (to be configured in the advanced configuration of the equipment to be transmitted)
+# 08/08/2024
+
+- For equipment transmitted on Mqtt the plugin now sends the battery level every night
+- The plugin to manage the battery level transmitted between Jeedom
+- Correct management of refresh commands on widgets on equipment transmitted between Jeedom
+- When sending the discovery between Jeedom the values of the commands are also transmitted (no need to wait for an update of the value to have it on the target). Requires resend discovery
+- When transmitting equipment between Jeedom the plugin now manages the real type of equipment to be compatible with mobile applications. Requires resend discovery
+
+# 05/08/2024
+
+- With Jeedom 4.4.8 or more possibility of no longer sending all the equipment on the MQTT brocker but only certain ones (to be configured in the advanced configuration of the equipment to be transmitted)
 - Bug fixes (especially for php8 compatibility)
 - Discovery between Jeedom (to make 2 jeedoms communicate with each other by mqtt)
 - Possibility from the plugin configuration page to delete the subscription of a plugin
