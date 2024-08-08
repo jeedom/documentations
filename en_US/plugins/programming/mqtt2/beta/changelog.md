@@ -11,6 +11,7 @@
 - Correct management of refresh commands on widgets on equipment transmitted between Jeedom
 - When sending the discovery between Jeedom the values of the commands are also transmitted (no need to wait for an update of the value to have it on the target). Requires resend discovery
 - When transmitting equipment between Jeedom the plugin now manages the real type of equipment to be compatible with mobile applications. Requires resend discovery
+- Added a global configuration window for the transmission of equipment between Jeedom
 
 # 05/08/2024
 

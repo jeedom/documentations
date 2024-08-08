@@ -4,6 +4,8 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+- Added a global configuration window for the transmission of equipment between Jeedom
+
 # 08/08/2024
 
 - For equipment transmitted on Mqtt the plugin now sends the battery level every night

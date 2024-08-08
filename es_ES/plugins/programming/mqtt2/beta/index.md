@@ -34,15 +34,15 @@ Una vez instalado el bróker Mosquitto *(si es necesario)*, puedes continuar con
 
 - **Autenticación**: Puede especificar usuarios / contraseña para la conexión :
 
-  - en modo local puede ingresar un `nombre de usuario:password` por línea, cada par de identificadores tendrá acceso válido al corredor. Si no hay un identificador, Jeedom crea uno automáticamente.
+  - En modo local puede ingresar un `nombre de usuario:password` por línea, cada par de identificadores tendrá acceso válido al corredor. Si no hay un identificador, Jeedom crea uno automáticamente.
 
-  - en modo standalone es suficiente poner en la primera línea el identificador de pareja `:contraseña` para Jeedom (ejemplo : si el nombre de usuario es `jeedom` y la contraseña `mqtt`, debes ingresar `jeedom`:mqtt'').
+  - En modo standalone es suficiente poner en la primera línea el identificador de pareja `:contraseña` para Jeedom (ejemplo : si el nombre de usuario es `jeedom` y la contraseña `mqtt`, debes ingresar `jeedom`:mqtt'').
 
   >**IMPORTANTE**
   >
-  >La autenticación es obligatoria en modo local. Después de la adición, se debe reiniciar Jeedom para que esto surta efecto.
+  > La autenticación es obligatoria en modo local. Después de la adición, se debe reiniciar Jeedom para que esto surta efecto.
 
-- **Tema raíz de Jeedom** : Tema raíz para enviar un comando a Jeedom o sobre el que envía los eventos. Atención, solo es posible poner 1 o 2 niveles como máximo.
+- **Tema raíz de Jeedom** : Asunto raíz para enviar un comando a Jeedom o al que devuelve eventos. Atención, solo es posible poner 1 o 2 niveles como máximo.
 
 - **Transmitir todos los eventos** : Marque la casilla para enviar todos los eventos de comando de Jeedom en MQTT.
 
@@ -109,12 +109,12 @@ El complemento puede descubrir automáticamente varios tipos de módulos. Para h
 
 Es posible gracias al complemento transmitir comandos entre dos Jeedom (este sistema está dedicado a reemplazar jeelink), aquí se explica cómo configurarlo : 
 
-- en la fuente jeedom que necesitas :
-  - en la configuración del complemento mqtt manager, configure el campo "Tema raíz de Jeedom", por defecto es jeedom, se recomienda poner un valor único por Jeedom (p. ej : jeedom_salon)
-  - luego puedes marcar la casilla "Transmitir todos los eventos" (aún en la configuración del complemento mqtt manager), esto no es lo más recomendado porque enviará todo el equipo al destino. Lo mejor es ir al equipo que deseas transmitir, en la configuración avanzada del equipo (botón arriba a la derecha en la página de configuración del equipo) luego en "Información adicional" para marcar "Transmitir el equipo MQTT"
-- en el objetivo jeedom es necesario : 
-  - en la configuración del complemento mqtt manager, configure el campo “Tema de Jeedom vinculado” estableciendo el valor de “Tema raíz de Jeedom” del jeedom fuente. Puedes poner varias fuentes de Jeedom separándolas con ,. Tenga cuidado, debe tener mucho cuidado aquí, definitivamente no debería tener lo mismo para el "tema raíz de Jeedom" en jeedoms. Este campo es el identificador único del jeedom por lo que es absolutamente necesario tener valores diferentes
-  - en complemento -> programación -> Mqtt manager activar el descubrimiento automático (inactivo por defecto)
+- **En la fuente jeedom que necesitas** :
+  - En la configuración del complemento mqtt manager, configure el campo "Tema raíz de Jeedom", por defecto es jeedom, se recomienda poner un valor único por Jeedom (p. ej : jeedom_salon)
+  - Luego puedes marcar la casilla "Transmitir todos los eventos" (aún en la configuración del complemento mqtt manager), esto no es lo más recomendado porque enviará todo el equipo al destino. Lo mejor es ir al equipo que deseas transmitir, en la configuración avanzada del equipo (botón arriba a la derecha en la página de configuración del equipo) luego en "Información adicional" para marcar "Transmitir el equipo MQTT"
+- **En el objetivo jeedom es necesario** : 
+  - Sin configurar el complemento del administrador mqtt, configure el campo “Tema de Jeedom vinculado” estableciendo el valor de “Tema raíz de Jeedom” del jeedom fuente. Puedes poner varias fuentes de Jeedom separándolas con ,. Tenga cuidado, debe tener mucho cuidado aquí, definitivamente no debería tener lo mismo para el "tema raíz de Jeedom" en jeedoms. Este campo es el identificador único del jeedom por lo que es absolutamente necesario tener valores diferentes.
+  - En complemento -> programación -> Mqtt manager activar el descubrimiento automático (inactivo por defecto)
 
 Luego solo tienes que regresar al jeedom aún en la configuración del complemento y hacer "Enviar descubrimiento"
 
@@ -129,7 +129,7 @@ Luego solo tienes que regresar al jeedom aún en la configuración del complemen
 
 # Vinculados dos mosquitos diferentes 
 
-Es posible vincular temas entre varios mosquitto, aquí está la configuración para agregar en mosquitto. La configuración sólo debe realizarse en uno de los brocker mosquitto : 
+Es posible vincular temas entre varios mosquitto, aquí está la configuración para agregar en mosquitto. La configuración sólo debe realizarse en uno de los brocker mosquitto :
 
 ''''''''
 connection #NOM_CONNEXION#
@@ -150,10 +150,10 @@ bridge_tls_version tlsv1.3
 
 >**NOTA**
 >
-> ''#NOM_CONNEXION#'' : puede ser lo que quieras y no importa. Puedes, por ejemplo, hacer name_jeedom_source-name_jeedom_target
-> ''#REMOTE_CLIENT_ID#'' : tampoco importa, solo tienes que poner una cadena unica 
-> ''#LOCAL_TOPIC#'' : nombre del tema local a menudo será "tema raíz de Jeedom" del jeedom local 
-> ''#REMOTE_TOPIC#'' : El nombre del tema local a menudo será "tema raíz de Jeedom" del jeedom remoto
+> - ''#NOM_CONNEXION#'' : puede ser lo que quieras y no importa. Puedes, por ejemplo, hacer name_jeedom_source-name_jeedom_target
+> - ''#REMOTE_CLIENT_ID#'' : tampoco importa, solo tienes que poner una cadena unica
+> - ''#LOCAL_TOPIC#'' : nombre del tema local a menudo será "tema raíz de Jeedom" del jeedom local
+> - ''#REMOTE_TOPIC#'' : El nombre del tema local a menudo será "tema raíz de Jeedom" del jeedom remoto
 
 >**IMPORTANTE**
 >

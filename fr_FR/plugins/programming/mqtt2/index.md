@@ -34,15 +34,15 @@ Une fois le broker Mosquitto installé *(si nécessaire)*, vous pouvez passer à
 
 - **Authentification**: Vous pouvez spécifier des utilisateurs/mot de passe pour la connexion :
 
-  - en mode local vous pouvez renseigner un `nom d'utilisateur:mot de passe` par ligne, chaque couple d'identifiant aura un accès valide au broker. S'il n'existe aucun identifiant, Jeedom en crée un automatiquement.
+  - En mode local vous pouvez renseigner un `nom d'utilisateur:mot de passe` par ligne, chaque couple d'identifiant aura un accès valide au broker. S'il n'existe aucun identifiant, Jeedom en crée un automatiquement.
 
-  - en mode standalone il suffit de mettre sur la première ligne le couple `identifiant:mot de passe` pour Jeedom (exemple : si le nom d'utilisateur est `jeedom` et le mot de passe `mqtt`, il faut renseigner `jeedom:mqtt`).
+  - En mode standalone il suffit de mettre sur la première ligne le couple `identifiant:mot de passe` pour Jeedom (exemple : si le nom d'utilisateur est `jeedom` et le mot de passe `mqtt`, il faut renseigner `jeedom:mqtt`).
 
   >**IMPORTANT**
   >
-  >L'authentification est obligatoire en mode local. Suite à l'ajout il faut redémarrer Jeedom pour que cela soit pris en compte.
+  > L'authentification est obligatoire en mode local. Suite à l'ajout il faut redémarrer Jeedom pour que cela soit pris en compte.
 
-- **Topic racine Jeedom** : Sujet racine pour envoyer une commande à Jeedom ou sur lequel il renvoit les évènements. Attention il n'est possible de mettre que 1 ou 2 niveaux maximum.
+- **Topic racine Jeedom** : Sujet racine pour envoyer une commande à Jeedom ou sur lequel il renvoi les évènements. Attention il n'est possible de mettre que 1 ou 2 niveaux maximum.
 
 - **Transmettre tous les évènements** : Cocher la case pour envoyer tous les évènements des commandes Jeedom sur MQTT.
 
@@ -109,14 +109,14 @@ Le plugin peut faire de la découverte auto de plusieurs type de module. Pour ce
 
 Il est possible grace au plugin de transmettre des commandes entre deux Jeedom (ce systeme est voué a remplacer jeelink), voila comment le configurer : 
 
-- sur le jeedom source il faut :
-  - dans la configuration du plugin mqtt manager, configurer le champs "Topic racine Jeedom", par defaut c'est jeedom, il est conseillé de mettre une valeur unique par Jeedom (ex : jeedom_salon)
-  - ensuite vous pouvez soit cocher la case "Transmettre tous les évènements" (toujours dans la configuration du plugin mqtt manager), c'est pas le plus recommander car cela va envoyer tous les équipements vers le jeedom cible. Le mieux étant d'aller sur les équipements que vous voulez transmettre, dans la configuration avancée de l'équipement (bouton en haut a droite sur la page de configuration de l'équipement) puis dans "Informations complémentaires" de cocher "Transmettre l'équipement en MQTT"
-- sur le jeedom cible il faut : 
-  - dans la configuration du plugin mqtt manager, configurer le champs "Topic des Jeedom liée" en mettant la valeur de "Topic racine Jeedom" du jeedom source. Vous pouvez mettre plusieurs Jeedom source en séparant ceux ci par des ,. Attention il faut faire très attention ici il ne faut surtout pas avoir la meme chose pour "Topic racine Jeedom" sur les jeedoms. Ce champs est l'identifiant unique du jeedom il faut donc absolument avoir des valeurs differente
-  - dans plugin -> programmation -> Mqtt manager bien activer l'auto-découverte (inactive par defaut)
+- **Sur le jeedom source il faut** :
+  - Dans la configuration du plugin mqtt manager, configurer le champs "Topic racine Jeedom", par défaut c'est jeedom, il est conseillé de mettre une valeur unique par Jeedom (ex : jeedom_salon)
+  - Ensuite vous pouvez soit cocher la case "Transmettre tous les évènements" (toujours dans la configuration du plugin mqtt manager), c'est pas le plus recommander car cela va envoyer tous les équipements vers le jeedom cible. Le mieux étant d'aller sur les équipements que vous voulez transmettre, dans la configuration avancée de l'équipement (bouton en haut a droite sur la page de configuration de l'équipement) puis dans "Informations complémentaires" de cocher "Transmettre l'équipement en MQTT"
+- **Sur le jeedom cible il faut** : 
+  - Sans la configuration du plugin mqtt manager, configurer le champs "Topic des Jeedom liée" en mettant la valeur de "Topic racine Jeedom" du jeedom source. Vous pouvez mettre plusieurs Jeedom source en séparant ceux ci par des ,. Attention il faut faire très attention ici, il ne faut surtout pas avoir la meme chose pour "Topic racine Jeedom" sur les jeedoms. Ce champs est l'identifiant unique du jeedom il faut donc absolument avoir des valeurs différente.
+  - Dans plugin -> programmation -> Mqtt manager bien activer l'auto-découverte (inactive par défaut)
 
-Ensuite vous avez juste a retourner sur le jeedom toujours sur la configuration du plugin et faire "Envoyer la découverte"
+Ensuite vous avez juste à retourner sur le jeedom toujours sur la configuration du plugin et faire "Envoyer la découverte"
 
 >**IMPORTANT**
 >
@@ -124,12 +124,12 @@ Ensuite vous avez juste a retourner sur le jeedom toujours sur la configuration 
 
 >**IMPORTANT**
 >
->Si vous changé la valeur du champs "Template de publication" (vide par defaut) alors l'auto decouverte ne créera pas les bonnes commandes, c'est a vous d'adapter la configuration dans ce cas
+>Si vous changé la valeur du champs "Template de publication" (vide par défaut) alors l'auto découverte ne créera pas les bonnes commandes, c'est a vous d'adapter la configuration dans ce cas
 
 
-# Liée deux mosquitto different 
+# Liée deux mosquitto différent 
 
-Il est possible de liée des topics entre plusieurs mosquitto, voila la configuration a ajouter dans mosquitto. La configuration n'est a faire que sur un des brocker mosquitto : 
+Il est possible de lier des topics entre plusieurs mosquitto, voilà la configuration a ajouter dans mosquitto. La configuration n'est a faire que sur un des brocker mosquitto :
 
 ````
 connection #NOM_CONNEXION#
@@ -150,17 +150,17 @@ bridge_tls_version tlsv1.3
 
 >**NOTE**
 >
-> `#NOM_CONNEXION#` : peut etre ce que vous voulez et n'a aucune importance. Vous pouvez par exemple faire nom_jeedom_source-nom_jeedom_cible
-> `#REMOTE_CLIENT_ID#` : n'a pas non plus d'importance il faut juste mettre une chaine unique 
-> `#LOCAL_TOPIC#` : nom du topic local souvent ca sera "Topic racine Jeedom" du jeedom local 
-> `#REMOTE_TOPIC#` : nom du topic local souvent ca sera "Topic racine Jeedom" du jeedom distant
+> - `#NOM_CONNEXION#` : peut être ce que vous voulez et n'a aucune importance. Vous pouvez par exemple faire nom_jeedom_source-nom_jeedom_cible
+> - `#REMOTE_CLIENT_ID#` : n'a pas non plus d'importance il faut juste mettre une chaine unique
+> - `#LOCAL_TOPIC#` : nom du topic local souvent ça sera "Topic racine Jeedom" du jeedom local
+> - `#REMOTE_TOPIC#` : nom du topic local souvent ça sera "Topic racine Jeedom" du jeedom distant
 
 >**IMPORTANT**
 >
-> Dans jeedom les identifiants (`username` et `password`) sont disponible sur la page de configuration du plugin dans "Authentification" sous la forme `username`:`password`
+> Dans jeedom les identifiants (`username` et `password`) sont disponibles sur la page de configuration du plugin dans "Authentification" sous la forme `username`:`password`
 
 # FAQ
 
->**Suite a une mise à jour des packages système (apt) ou a un unattended upgrades plus rien de marche**
+>**Suite a une mise à jour des packages système (apt) ou à un unattended upgrades plus rien de marche**
 >
 >La mise à jour du package mosquitto remet par défaut le fichier de service et donc mosquitto ne pointe plus vers le bon fichier de configuration. Pour corriger cela c'est très simple il suffit de relancer l'installation de mosquitto depuis la page de configuration du plugin.

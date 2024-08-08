@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Ein globales Konfigurationsfenster für die Übertragung von Geräten zwischen Jeedom hinzugefügt
+
 # 08.08.2024
 
 - Für Geräte, die über Mqtt übertragen werden, sendet das Plugin jetzt jede Nacht den Batteriestand

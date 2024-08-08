@@ -11,6 +11,7 @@
 - Gestion correcte des commandes de rafraichissement sur les widgets sur les équipements transmis entre Jeedom
 - Lors de l'envoi de la découverte entre Jeedom les valeurs des commandes sont aussi transmisent (plus besoin d'attendre une mise à jour de la valeur pour l'avoir sur la cible). Nécessite de renvoyer la découverte
 - Lors la transmission d'équipement entre Jeedom le plugin gere maintenant le type réel de l'équipement pour etre compatible avec les applications mobile. Nécessite de renvoyer la découverte
+- Ajout d'une fenetre de configuration globalement pour la transmission d'équipement entre Jeedom
 
 # 05/08/2024
 

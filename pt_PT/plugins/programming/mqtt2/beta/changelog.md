@@ -11,6 +11,7 @@
 - Gerenciamento correto de comandos de atualização em widgets em equipamentos transmitidos entre Jeedom
 - Ao enviar a descoberta entre Jeedom os valores dos comandos também são transmitidos (não é necessário esperar uma atualização do valor para tê-lo no alvo). Requer reenvio de descoberta
 - Ao transmitir equipamentos entre Jeedom o plugin agora gerencia o tipo real de equipamento para ser compatível com aplicações mobile. Requer reenvio de descoberta
+- Adicionada janela de configuração global para transmissão de equipamentos entre Jeedom
 
 # 05/08/2024
 
