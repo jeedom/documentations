@@ -54,7 +54,7 @@ Sobald der Mosquitto-Broker installiert ist *(im Bedarfsfall)*, Sie können mit 
 
 Es ist möglich, MQTT-Equipment direkt im Plugin zu erstellen.
 
-Sie müssen das Wurzelthema des Geräts angeben *(„Testen“ zum Beispiel)*, dann nach Art der Befehle :
+Sie müssen das Wurzelthema des Geräts angeben *(„Testen“ zum Beispiel)*, Achten Sie darauf, dass das Stammthema je nach Befehlstyp nicht mehr als zwei Ebenen haben kann (exe „Ebene1/Ebene2“) :
 
 - **Info-Befehle** : Geben Sie einfach das vollständige Thema an.
   >Wenn Sie beispielsweise „toto/1“ eingeben, werden alle Nachrichten zum Thema „test/toto/1“ automatisch auf den betreffenden Befehl geschrieben. Das System kann Felder vom Typ json verwalten, in diesem Fall müssen Sie `toto/1/key1` oder `toto/1/key1/key2` eingeben, um eine Ebene nach unten zu gehen.

@@ -54,7 +54,7 @@ Once the Mosquitto broker is installed *(if necessary)*, you can continue with t
 
 It is possible to create MQTT equipment directly in the plugin.
 
-You must indicate the root topic of the equipment *(`test` for example)*, then according to the type of commands :
+You must indicate the root topic of the equipment *(`test` for example)*, Be careful the root topic cannot have more than 2 levels (exe `level1/level2`) then depending on the type of commands :
 
 - **Info commands** : just indicate the full topic.
   >For example, if you put `toto/1`, all the messages on the topic `test/toto/1` will be automatically written on the command in question. The system is able to manage json type fields, in this case you have to put `toto/1/key1` or `toto/1/key1/key2` to go down one level.

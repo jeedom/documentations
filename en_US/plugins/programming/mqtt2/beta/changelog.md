@@ -4,6 +4,11 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+# 09/08/2024
+
+- Improved display of the configuration window for transmitted equipment
+- Fixed bug on orphaned commands when transmitting through mqtt
+
 # 08/08/2024
 
 - For equipment transmitted on Mqtt the plugin now sends the battery level every night

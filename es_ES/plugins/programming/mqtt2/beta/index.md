@@ -54,7 +54,7 @@ Una vez instalado el bróker Mosquitto *(si es necesario)*, puedes continuar con
 
 Es posible crear equipos MQTT directamente en el complemento.
 
-Debe indicar el tema raíz del equipo *(`prueba` por ejemplo)*, entonces de acuerdo al tipo de comandos :
+Debe indicar el tema raíz del equipo *(`prueba` por ejemplo)*, tenga cuidado, el tema raíz no puede tener más de 2 niveles (exe `nivel1/nivel2`), dependiendo del tipo de comandos :
 
 - **Comandos de información** : solo indica el tema completo.
   >Por ejemplo, si pones `toto/1`, todos los mensajes sobre el tema `test/toto/1` se escribirán automáticamente en el comando en cuestión. El sistema es capaz de gestionar campos tipo json, en este caso hay que poner `toto/1/key1` o `toto/1/key1/key2` para bajar un nivel.

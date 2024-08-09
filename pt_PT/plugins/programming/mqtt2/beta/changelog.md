@@ -4,6 +4,11 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+# 09/08/2024
+
+- Melhorada a exibição da janela de configuração dos equipamentos transmitidos
+- Corrigido um bug em comandos órfãos quando transmitidos através do mqtt
+
 # 08/08/2024
 
 - Para equipamentos transmitidos no Mqtt o plugin agora envia o nível da bateria todas as noites
