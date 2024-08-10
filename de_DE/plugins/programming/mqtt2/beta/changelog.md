@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 10.08.2024
+
+- Ein Fehler beim Senden von Batterien wurde behoben (nicht statische Anrufmethode))
+
 # 08.09.2024
 
 - Verbesserte Darstellung des Konfigurationsfensters für übertragene Geräte

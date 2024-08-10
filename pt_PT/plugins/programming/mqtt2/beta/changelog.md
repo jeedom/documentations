@@ -4,6 +4,10 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+# 10/08/2024
+
+- Corrigido um bug ao enviar baterias (método de chamada não estático)
+
 # 09/08/2024
 
 - Melhorada a exibição da janela de configuração dos equipamentos transmitidos

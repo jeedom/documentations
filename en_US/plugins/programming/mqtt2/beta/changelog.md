@@ -4,6 +4,10 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+# 10/08/2024
+
+- Fixed a bug on sending batteries (non-static method call))
+
 # 09/08/2024
 
 - Improved display of the configuration window for transmitted equipment
