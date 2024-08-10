@@ -8,6 +8,7 @@
 
 - Controles de activación/desactivación de sensores mejorados
 - Gestión de módulos con el mismo servicio varias veces (como módulos con doble salida de relé))
+- Optimización del demonio
 
 # 28/02/2024
 

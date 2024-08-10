@@ -8,6 +8,7 @@
 
 - Improved sensor enable/disable controls
 - Management of modules with multiple times the same service (such as modules with dual relay outputs)
+- Daemon Optimization
 
 # 02/28/2024
 

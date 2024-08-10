@@ -8,6 +8,7 @@
 
 - Amélioration des commandes d'activation/desactivation des capteurs
 - Gestion des modules avec plusieurs fois le meme service (comme les modules à double sorties relais)
+- Optimisation du démon
 
 # 28/02/2024
 

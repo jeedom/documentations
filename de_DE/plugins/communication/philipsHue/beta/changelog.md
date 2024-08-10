@@ -8,6 +8,7 @@
 
 - Verbesserte Steuerung zum Aktivieren/Deaktivieren von Sensoren
 - Verwaltung von Modulen mit dem gleichen Dienst mehrmals (z. B. Module mit doppelten Relaisausgängen))
+- Daemon-Optimierung
 
 # 28.02.2024
 

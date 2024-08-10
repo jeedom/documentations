@@ -8,6 +8,7 @@
 
 - Controles aprimorados de ativação/desativação do sensor
 - Gerenciamento de módulos com o mesmo serviço diversas vezes (como módulos com saídas duplas de relé)
+- Otimização do Daemon
 
 # 28/02/2024
 
