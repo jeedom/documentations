@@ -4,6 +4,11 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+# 09/08/2024
+
+- Se mejoró la visualización de la ventana de configuración para equipos transmitidos
+- Se corrigió un error en los comandos huérfanos cuando se transmitían a través de mqtt
+
 # 08/08/2024
 
 - Para los equipos transmitidos en Mqtt, el complemento ahora envía el nivel de la batería todas las noches

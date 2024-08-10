@@ -54,7 +54,7 @@ Uma vez que o corretor Mosquitto está instalado *(se necessário)*, você pode 
 
 É possível criar equipamentos MQTT diretamente no plugin.
 
-Você deve indicar o tópico raiz do equipamento *(`teste` por exemplo)*, então de acordo com o tipo de comandos :
+Você deve indicar o tópico raiz do equipamento *(`teste` por exemplo)*, tenha cuidado, o tópico raiz não pode ter mais de 2 níveis (exe `level1/level2`), dependendo do tipo de comandos :
 
 - **Comandos de informações** : basta indicar o tópico completo.
   >Por exemplo, se você colocar `toto/1`, todas as mensagens do tópico `test/toto/1` serão escritas automaticamente no comando em questão. O sistema é capaz de gerenciar campos do tipo json, neste caso você tem que colocar `toto/1/key1` ou `toto/1/key1/key2` para descer um nível.

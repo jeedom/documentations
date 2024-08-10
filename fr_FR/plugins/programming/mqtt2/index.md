@@ -54,7 +54,7 @@ Une fois le broker Mosquitto installé *(si nécessaire)*, vous pouvez passer à
 
 Il est possible de créer des équipements MQTT directement dans le plugin.
 
-Il faut indiquer le topic racine de l'équipement *(`test` par exemple)*, ensuite selon le type de commandes :
+Il faut indiquer le topic racine de l'équipement *(`test` par exemple)*, attention le topic racine ne peux pas avoir plus de 2 niveaux (exe `niveau1/niveau2`) ensuite selon le type de commandes :
 
 - **Commandes info** : il suffit d'indiquer le topic complet.
   >Pour exemple, si vous mettez `toto/1`, tous les messages sur le topic `test/toto/1` seront automatiquement écrits sur la commande en question. Le système est capable de gérer les champs de type json, dans ce cas il faut mettre `toto/1/key1` ou `toto/1/key1/key2` pour descendre d'un niveau.

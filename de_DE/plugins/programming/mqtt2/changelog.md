@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 08.09.2024
+
+- Verbesserte Darstellung des Konfigurationsfensters für übertragene Geräte
+- Ein Fehler bei verwaisten Befehlen bei der Übertragung über mqtt wurde behoben
+
 # 08.08.2024
 
 - Für Geräte, die über Mqtt übertragen werden, sendet das Plugin jetzt jede Nacht den Batteriestand

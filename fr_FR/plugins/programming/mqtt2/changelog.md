@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 09/08/2024
+
+- Amélioration de l'affichage de la fenetre de configuration pour les équipements transmis
+- Correction d'un bug sur les commandes orpheline lors de la transmission a travers mqtt
+
 # 08/08/2024
 
 - Pour les équipements transmis sur Mqtt le plugin envoi maintenant toute les nuits le niveau de batterie
