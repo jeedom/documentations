@@ -7,6 +7,7 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
 - Amélioration des commandes d'activation/desactivation des capteurs
+- Gestion des modules avec plusieurs fois le meme service (comme les modules à double sorties relais)
 
 # 28/02/2024
 

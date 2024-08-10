@@ -7,6 +7,7 @@
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
 - Controles de activación/desactivación de sensores mejorados
+- Gestión de módulos con el mismo servicio varias veces (como módulos con doble salida de relé))
 
 # 28/02/2024
 

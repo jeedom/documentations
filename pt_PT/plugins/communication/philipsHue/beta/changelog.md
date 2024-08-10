@@ -7,6 +7,7 @@
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
 - Controles aprimorados de ativação/desativação do sensor
+- Gerenciamento de módulos com o mesmo serviço diversas vezes (como módulos com saídas duplas de relé)
 
 # 28/02/2024
 

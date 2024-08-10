@@ -7,6 +7,7 @@
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 - Verbesserte Steuerung zum Aktivieren/Deaktivieren von Sensoren
+- Verwaltung von Modulen mit dem gleichen Dienst mehrmals (z. B. Module mit doppelten Relaisausgängen))
 
 # 28.02.2024
 
