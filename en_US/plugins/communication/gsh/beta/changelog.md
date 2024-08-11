@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 11/08/2024
+
 - Toggle support
 
 # 05/09/2024

@@ -4,6 +4,19 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 11/08/2024
+
+- Support des toggles
+
+# 09/05/2024
+
+- Correction de bugs
+
+# 29/04/2024
+
+- Correction d'un bug avec Jeedom 4.4
+- Version uniquement compatible avec Jeedom 4.4 ou plus
+
 # 03/01/2024
 
 - Préparation pour jeedom 4.4
@@ -41,7 +54,7 @@
 - Possibilité d'interdir toute requete de Google en fonction d'une condition
 - Possibilité de ne pas avoir de code lors d'une demande de déverouillage d'une serrure
 
-# 05/04/2021 
+# 05/04/2021
 
 - Passage a nodejs 14
 
@@ -178,7 +191,6 @@
 - Ajout des TV (nécessite jeedom 3.3.x ou plus)
 - Ajout du control de volumes et commande media (stop,pause,lecture,suivant,précedent) pour le type enceinte (nécessite jeedom 3.3.x ou plus)
 - Correction d'un soucis de non désactivation de la transmission lors de la désactivation d'un équipement
-
 
 # 07/01/2018
 

@@ -4,7 +4,23 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Toggle support
+
+# 05/09/2024
+
+- Bugfix
+
+# 04/29/2024
+
+- Fixed a bug with Jeedom 4.4
+- Version only compatible with Jeedom 4.4 or more
+
+# 03/01/2024
+
+- Preparing for jeedom 4.4
 - Improved light support
+- Bugfix
+- Display of active devices only
 
 # 14/10/2023
 
@@ -36,7 +52,7 @@
 - Possibility to ban any request from Google based on a condition
 - Possibility of not having a code when requesting to unlock a lock
 
-# 04/05/2021 
+# 04/05/2021
 
 - Switching to nodejs 14
 
@@ -173,7 +189,6 @@
 - Adding TVs (requires jeedom 3.3.x or more)
 - Addition of volume control and media command (stop, pause, play, next, previous) for the speaker type (requires jeedom 3.3.x or more)
 - Correction of a problem of non-deactivation of the transmission when deactivating an equipment
-
 
 # 01/07/2018
 
