@@ -26,6 +26,8 @@
 
 - Adding configuration *Milesight Smart Fan Coil WT301*
 
+- Adding configuration *Thermokon 798228 - MCS Motion detector, Room sensor temperature, relative humidity, movement, presence*
+
 # 04/29/2024
 
 - Adding configuration *Dragino D23LBLS* (properties : Battery, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)
