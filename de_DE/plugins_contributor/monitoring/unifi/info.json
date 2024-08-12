@@ -1,26 +1,43 @@
 {
-	"id" : "unifi",
-	"name" : "Unifi Network",
-	"description" : {
-		"fr_FR":"Unifi Network - Connexion à un controleur Unifi Network.\nPermet certaines actions (Localiser, Gérer LED du site, Mise à jour Firmware, PowerCycle/Activation/Désactivation POE sur switchs, Activation/Désactivation/Reboot des Point d'accès, Activation/Désactivation des WLAN, Bloquer/Débloquer/Gestion présence des clients WiFi, etc)\n\nN'a pas la vocation de remplacer l'interface du controleur\n\nNon supporté : Unifi Access & Unifi VOIP",
-		"en_US":"Unifi Network - Connect to a Unifi Network controller\nAllow some actions (Localization, Manage site LED, Update Firmware, PowerCycle/Enable/Disable POE on switchs, Enable/Disable/Reboot AP, Enable/Disable WLAN's, Block/Unblock/Presence management of Wi-Fi clients, ...)\n\nDoes not replace Controller Web Interface\n\nNot supported : Unifi Access & Unifi VOIP\n\nWARNING : Not supported : Jessie & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)"
+	"id": "unifi",
+	"name": "Unifi Network",
+	"description": {
+		"fr_FR": "Unifi Network - Connexion à un controleur Unifi Network.\nPermet certaines actions (Localiser, Gérer LED du site, Mise à jour Firmware, PowerCycle/Activation/Désactivation POE sur switchs, Activation/Désactivation/Reboot des Point d'accès, Activation/Désactivation des WLAN, Bloquer/Débloquer/Gestion présence des clients WiFi, etc)\n\nN'a pas la vocation de remplacer l'interface du controleur\n\nNon supporté : Unifi Access & Unifi VOIP",
+		"en_US": "Unifi Network - Connect to a Unifi Network controller\nAllow some actions (Localization, Manage site LED, Update Firmware, PowerCycle/Enable/Disable POE on switchs, Enable/Disable/Reboot AP, Enable/Disable WLAN's, Block/Unblock/Presence management of Wi-Fi clients, ...)\n\nDoes not replace Controller Web Interface\n\nNot supported : Unifi Access & Unifi VOIP\n\nWARNING : Not supported : Debian Buster(10) Stretch(9) Jessie(8) & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)",
+		"es_ES": "Red Unifi - Conexión a un controlador de red Unifi.\nPermite ciertas acciones (Localizar, Gestionar LED de sitio, Actualizar Firmware, PowerCycle/Activar/Desactivar POE en switches, Activar/Desactivar/Reiniciar Puntos de Acceso, Activar/Desactivar WLANs, Bloquear/Desbloquear/Gestionar presencia de clientes WiFi, etc)\n\nNo pretende sustituir a la interfaz del controlador\n\nNo soportado: Unifi Access & Unifi VOIP",
+		"de_DE": "Unifi Network - Verbindung zu einem Unifi Network Controller.\nErmöglicht bestimmte Aktionen (Lokalisieren, Standort-LEDs verwalten, Firmware-Update, PowerCycle/Aktivierung/Deaktivierung von POE auf Switches, Aktivierung/Deaktivierung/Reboot von Access Points, Aktivierung/Deaktivierung von WLANs, Blockieren/Entsperren/Anwesenheitsverwaltung von WiFi-Clients, usw.)\n\nSoll die Controller-Schnittstelle nicht ersetzen\n\nNicht unterstützt: Unifi Access & Unifi VOIP",
+		"it_IT": "Rete Unifi - Connessione a un controller di rete Unifi.\nConsente alcune azioni (localizzazione, gestione del LED del sito, aggiornamento del firmware, PowerCycle/attivazione/disattivazione del POE sugli switch, attivazione/disattivazione/riavvio degli Access Point, attivazione/disattivazione delle WLAN, blocco/sblocco/gestione della presenza di client WiFi, ecc.)\n\nNon è destinato a sostituire l'interfaccia del controller\n\nNon supportato: Unifi Access e Unifi VOIP",
+		"pt_PT": "Rede Unifi - Ligação a um controlador de rede Unifi.\nPermite determinadas acções (localizar, gerir o LED do local, atualizar o firmware, ciclo de energia/ativar/desativar POE nos comutadores, ativar/desativar/reiniciar pontos de acesso, ativar/desativar WLANs, bloquear/desbloquear/gerir a presença de clientes WiFi, etc.)\n\nNão se destina a substituir a interface do controlador\n\nNão suportado: Unifi Access e Unifi VOIP"
 	},
-	"utilization" : "Si votre équipement est dans votre controleur Unifi Network mais ne semble pas supporté (à part VOIP/Access) contactez moi je l'ajouterai.\n\nATTENTION : Non supporté : Jessie & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)",
-	"licence" : "AGPL",
-	"author" : "Nebz",
-	"hasDependency" : true,
-	"hasOwnDeamon" : true,
-	"require" : "4.2",
-	"category" : "monitoring",
-	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
-	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/changelog",
-	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/changelog",
-	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/",
-	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/",
-	"forum_link" : "https://community.jeedom.com/tags/plugin-unifi",
-	"link" : {
-		"forum":"https://community.jeedom.com/tags/plugin-unifi"
+	"utilization": "Si votre équipement est dans votre controleur Unifi Network mais ne semble pas supporté (à part VOIP/Access) contactez moi je l'ajouterai.\n\nATTENTION : Non supporté : Debian Buster(10) Stretch(9) Jessie(8) & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)",
+	"licence": "AGPL",
+	"author": "Nebz",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"require": "4.2",
+	"category": "monitoring",
+	"issue": "https://github.com/NebzHB/jeedom_docs/issues",
+	"changelog": "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/changelog",
+	"changelog_beta": "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/changelog",
+	"documentation": "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/",
+	"documentation_beta": "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/",
+	"forum_link": "https://community.jeedom.com/tags/plugin-unifi",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-unifi"
 	},
-	"languages" : ["fr_FR","en_US"],
-	"compatibility" : ["smart","rpi","docker","diy","v4"]
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
 }

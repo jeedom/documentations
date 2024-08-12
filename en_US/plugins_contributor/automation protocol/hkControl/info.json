@@ -1,26 +1,42 @@
 {
-	"id" : "hkControl",
-	"name" : "Homekit Network Devices Control",
-	"description" : {
-		"fr_FR":"Ce plugin permet de controler dans jeedom vos périphériques Homekit Réseaux (pas les BLE). Le but de ce plugin est de permettre le contrôle de périphériques qui ne sont compatibles que avec le protocole Homekit et aucun autre protocole. Donc par exemple pas Philips Hue qui est accessible via un plugin dédié !",
-		"en_US":"This plugin allow you to control Network Homebridge devices with Jeedom (not BLE ones). The purpose of this plugin is to control \"Homekit only\" devices, eg not Philips Hue bridge or IKEA bridge.\n\nWARNING : Not supported : Jessie & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)"
+	"id": "hkControl",
+	"name": "Homekit Network Devices Control",
+	"description": {
+		"fr_FR": "Ce plugin permet de controler dans jeedom vos périphériques Homekit Réseaux (pas les BLE). Le but de ce plugin est de permettre le contrôle de périphériques qui ne sont compatibles que avec le protocole Homekit et aucun autre protocole. Donc par exemple pas Philips Hue qui est accessible via un plugin dédié !",
+		"en_US": "This plugin allow you to control Network Homebridge devices with Jeedom (not BLE ones). The purpose of this plugin is to control \"Homekit only\" devices, eg not Philips Hue bridge or IKEA bridge.\n\nWARNING : Not supported : Debian Buster(10) Stretch(9) Jessie(8) & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)",
+		"es_ES": "Este plugin te permite controlar tus dispositivos de la Red Homekit (no BLE) en jeedom. El objetivo de este plugin es permitirle controlar los dispositivos que sólo son compatibles con el protocolo Homekit y ningún otro protocolo. ¡Así, por ejemplo, no Philips Hue, que es accesible a través de un plugin dedicado!",
+		"de_DE": "Mit diesem Plugin können Sie in Jeedom Ihre Homekit-Netzwerkgeräte (keine BLE-Geräte) steuern. Der Zweck dieses Plugins ist es, die Steuerung von Geräten zu ermöglichen, die nur mit dem Homekit-Protokoll und keinem anderen Protokoll kompatibel sind. Also zum Beispiel nicht Philips Hue, das über ein eigenes Plugin zugänglich ist!",
+		"it_IT": "Questo plugin consente di controllare i dispositivi della rete Homekit (non BLE) in Jeedom. Lo scopo di questo plugin è quello di consentire il controllo di dispositivi che sono compatibili solo con il protocollo Homekit e nessun altro protocollo. Quindi, ad esempio, non Philips Hue, che è accessibile tramite un plugin dedicato!",
+		"pt_PT": "Este plugin permite-lhe controlar os seus dispositivos da rede Homekit (não BLE) em jeedom. O objetivo deste plugin é permitir-lhe controlar dispositivos que só são compatíveis com o protocolo Homekit e nenhum outro protocolo. Assim, por exemplo, não é possível controlar o Philips Hue, que é acessível através de um plugin dedicado!"
 	},
-	"utilization" : "ATTENTION : Non supporté : Jessie & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)\n\nATTENTION : Si vous désirez ajouter les périphériques Jeedom dans Homekit, pour Siri ou Maison par exemple, ce n'est pas le bon plugin, vous devez utiliser le plugin Homebridge !\n\nVous devez configurer votre périphérique Homekit comme habituellement dans Maison ou avec l'app du constructeur et ensuite le supprimer proprement (le désappairer).\nIl vous sera ensuite possible de le découvrir via le plugin (cela permet de configurer le réseau du périphérique si ce n'est pas encore fait).\n\nEtant donné que votre équipement ne sera donc plus appairé à homekit (mais à jeedom), vous pouvez le réinjecter via le plugin Homebridge mais tout n'est pas garanti de fonctionner (pas tous les types génériques).\n\n!!! Jeedom DOIT être sur le même réseau que votre équipement. (pas de routage, pas de NAT) !!!",
-	"licence" : "AGPL",
-	"author" : "Nebz",
-	"hasDependency" : true,
-	"hasOwnDeamon" : true,
-	"require" : "4.2",
-	"category" : "automation protocol",
-	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
-	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/changelog",
-	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/changelog",
-	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/",
-	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/",
-	"forum_link" : "https://community.jeedom.com/tags/plugin-hkControl",
-	"link" : {
-		"forum":"https://community.jeedom.com/tags/plugin-hkControl"
+	"utilization": "ATTENTION : Non supporté : Debian Buster(10) Stretch(9) Jessie(8) & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)\n\nATTENTION : Si vous désirez ajouter les périphériques Jeedom dans Homekit, pour Siri ou Maison par exemple, ce n'est pas le bon plugin, vous devez utiliser le plugin Homebridge !\n\nVous devez configurer votre périphérique Homekit comme habituellement dans Maison ou avec l'app du constructeur et ensuite le supprimer proprement (le désappairer).\nIl vous sera ensuite possible de le découvrir via le plugin (cela permet de configurer le réseau du périphérique si ce n'est pas encore fait).\n\nEtant donné que votre équipement ne sera donc plus appairé à homekit (mais à jeedom), vous pouvez le réinjecter via le plugin Homebridge mais tout n'est pas garanti de fonctionner (pas tous les types génériques).\n\n!!! Jeedom DOIT être sur le même réseau que votre équipement. (pas de routage, pas de NAT) !!!",
+	"licence": "AGPL",
+	"author": "Nebz",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"require": "4.2",
+	"category": "automation protocol",
+	"issue": "https://github.com/NebzHB/jeedom_docs/issues",
+	"changelog": "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/changelog",
+	"changelog_beta": "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/changelog",
+	"documentation": "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/",
+	"documentation_beta": "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/",
+	"forum_link": "https://community.jeedom.com/tags/plugin-hkControl",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-hkControl"
 	},
-	"languages" : ["fr_FR","en_US"],
-	"compatibility" : ["smart","rpi","diy","v4"]
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"smart",
+		"rpi",
+		"diy",
+		"v4"
+	]
 }

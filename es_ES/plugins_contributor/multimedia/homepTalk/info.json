@@ -1,22 +1,41 @@
 {
-	"id" : "homepTalk",
-	"name" : "HomepTalk",
-	"description" : "TTS vers un Apple HomePod\n\nAjoutez un Apple HomePod ou HomePod Mini et faites-le parler !",
-	"licence" : "AGPL",
-	"author" : "Nebz",
-	"hasDependency" : true,
-	"hasOwnDeamon" : false,
-	"require" : "3.3.24",
-	"category" : "multimedia",
-	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
-	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/changelog",
-	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/changelog",
-	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/",
-	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/",
-	"forum_link" : "https://community.jeedom.com/tags/plugin-homeptalk",
-	"link" : {
-		"forum":"https://community.jeedom.com/tags/plugin-homeptalk"
+	"id": "homepTalk",
+	"name": "HomepTalk",
+	"description": {
+		"fr_FR": "TTS vers un Apple HomePod\n\nAjoutez un Apple HomePod ou HomePod Mini et faites-le parler !",
+		"en_US": "TTS to an Apple HomePod\n\nAdd an Apple HomePod or HomePod Mini and make it talk!",
+		"es_ES": "TTS a un HomePod de Apple\n\n¡Añade un HomePod o HomePod Mini de Apple y haz que hable!",
+		"de_DE": "TTS zu einem Apple HomePod\n\nFügen Sie einen Apple HomePod oder HomePod Mini hinzu und lassen Sie ihn sprechen!",
+		"it_IT": "TTS a un Apple HomePod\n\nAggiungi un Apple HomePod o HomePod Mini e fallo parlare!",
+		"pt_PT": "TTS para um Apple HomePod\n\nAdicione um Apple HomePod ou HomePod Mini e faça-o falar!"
 	},
-	"languages" : ["fr_FR","en_US"],
-	"compatibility" : ["rpi","diy","smart","v4"]
+	"licence": "AGPL",
+	"author": "Nebz",
+	"hasDependency": true,
+	"hasOwnDeamon": false,
+	"require": "3.3.24",
+	"category": "multimedia",
+	"issue": "https://github.com/NebzHB/jeedom_docs/issues",
+	"changelog": "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/changelog",
+	"changelog_beta": "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/changelog",
+	"documentation": "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/",
+	"documentation_beta": "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/",
+	"forum_link": "https://community.jeedom.com/tags/plugin-homeptalk",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-homeptalk"
+	},
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"rpi",
+		"diy",
+		"smart",
+		"v4"
+	]
 }

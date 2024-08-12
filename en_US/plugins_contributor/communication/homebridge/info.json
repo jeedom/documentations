@@ -1,28 +1,44 @@
 {
-	"id" : "homebridge",
-	"name" : "Homebridge",
-	"description" : {
-		"fr_FR":"Plugin pour Homebridge.\nPasserelle Apple HomeKit pour Jeedom.\nControle de certains périphériques Jeedom par Siri et via application Maison et Eve.",
-		"en_US":"Plugin for Homebridge.\nApple Homekit Gateway for Jeedom.\nControl some of your Jeedom equipments via Siri, Home and Eve apps.\n\nWARNING : Not supported : Jessie & Stretch & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)\n\nJeedom MUST be on the same network than your iPhone/AppleTV. (no routing, no NAT).\n\nAn AppleTV 4+ or iPad iOS 10+(old homekit infra only) or HomePod are mandatory for remote access.\n\nSupport on the forum (One request per subject, like a ticket system).",
-		"es_ES":"Complemento para Homebridge.\nApple Homekit Gateway para Jeedom.\nControla algunos de tus equipos Jeedom a través de las aplicaciones Siri, Home y Eve.\n\nIMPORTANTE : No compatible: Jessie & Stretch & Docker & Jeedom Mini + & Raspberry Pi 1-2 & Zero (armv6) y i386 (32bits)\n\nJeedom DEBE estar en la misma red que su iPhone / AppleTV. (sin enrutamiento, sin NAT).\n\nSe requiere un AppleTV 4+ o un iPad con iOS 10+(Solo infraestructura heredada de homekit) o un HomePod para el acceso remoto.\n\nSoporte en el foro (una solicitud por tema, como un sistema de tickets).",
-		"pt_PT":"Plugin para Homebridge.\nApple Homekit Gateway for Jeedom.\nControle alguns de seus equipamentos Jeedom através dos aplicativos Siri, Home e Eve.\n\nAVISO: Não suportado: Jessie & Stretch & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6 ) e i386 (32 bits)\n\nJeedom DEVE estar na mesma rede do seu iPhone/AppleTV. (sem roteamento, sem NAT).\n\nUm AppleTV 4+ ou iPad iOS 10+(Somente infraestrutura herdada do homekit) ou HomePod são obrigatórios para acesso remoto.\n\nSuporte no fórum (uma solicitação por assunto, como um sistema de tickets)."
+	"id": "homebridge",
+	"name": "Homebridge",
+	"description": {
+		"de_DE": "Plugin für Homebridge.\nApple Homekit Gateway für Jeedom.\nSteuern Sie einige Ihrer Jeedom-Geräte über die Apps Siri, Home und Eve.\n\nWARNUNG: Nicht unterstützt: Debian Buster(10) Stretch(9) Jessie(8) & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)\n\nJeedom MUSS sich im selben Netzwerk wie Ihr iPhone/AppleTV befinden. (kein Routing, kein NAT).\n\nFür den Fernzugriff sind ein AppleTV 4+ oder iPad iOS 10+ (nur alte Homekit-Infrastruktur) oder ein HomePod erforderlich.\n\nSupport im Forum (Eine Anfrage pro Thema, wie ein Ticketsystem).",
+		"fr_FR": "Plugin pour Homebridge.\nPasserelle Apple HomeKit pour Jeedom.\nControle de certains périphériques Jeedom par Siri et via application Maison et Eve.",
+		"en_US": "Plugin for Homebridge.\nApple Homekit Gateway for Jeedom.\nControl some of your Jeedom equipments via Siri, Home and Eve apps.\n\nWARNING : Not supported : Debian Buster(10) Stretch(9) Jessie(8) & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)\n\nJeedom MUST be on the same network than your iPhone/AppleTV. (no routing, no NAT).\n\nAn AppleTV 4+ or iPad iOS 10+(old homekit infra only) or HomePod are mandatory for remote access.\n\nSupport on the forum (One request per subject, like a ticket system).",
+		"es_ES": "Complemento para Homebridge.\nApple Homekit Gateway para Jeedom.\nControla algunos de tus equipos Jeedom a través de las aplicaciones Siri, Home y Eve.\n\nIMPORTANTE : No compatible: Debian Buster(10) Stretch(9) Jessie(8) & Docker & Jeedom Mini + & Raspberry Pi 1-2 & Zero (armv6) y i386 (32bits)\n\nJeedom DEBE estar en la misma red que su iPhone / AppleTV. (sin enrutamiento, sin NAT).\n\nSe requiere un AppleTV 4+ o un iPad con iOS 10+(Solo infraestructura heredada de homekit) o un HomePod para el acceso remoto.\n\nSoporte en el foro (una solicitud por tema, como un sistema de tickets).",
+		"pt_PT": "Plugin para Homebridge.\nApple Homekit Gateway for Jeedom.\nControle alguns de seus equipamentos Jeedom através dos aplicativos Siri, Home e Eve.\n\nAVISO: Não suportado: Debian Buster(10) Stretch(9) Jessie(8) & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6 ) e i386 (32 bits)\n\nJeedom DEVE estar na mesma rede do seu iPhone/AppleTV. (sem roteamento, sem NAT).\n\nUm AppleTV 4+ ou iPad iOS 10+(Somente infraestrutura herdada do homekit) ou HomePod são obrigatórios para acesso remoto.\n\nSuporte no fórum (uma solicitação por assunto, como um sistema de tickets).",
+		"it_IT": "Plugin per Homebridge.\nGateway Apple HomeKit per Jeedom.\nControllo di alcuni dispositivi Jeedom tramite Siri e l'applicazione Home and Eve.\n\nATTENZIONE: Non supportati: Debian Buster(10) Stretch(9) Jessie(8) e Docker e Jeedom Mini+ e Raspberry Pi 1-2 e Zero (armv6) e i386 (32 bit)\n\nJeedom DEVE essere sulla stessa rete del tuo iPhone/AppleTV. (nessun routing, nessun NAT).\n\nUn AppleTV 4+ o un iPad iOS 10+ (solo vecchia infrastruttura HomeKit) o ​​un HomePod sono obbligatori per l'accesso remoto.\n\nSupporto sul forum (una richiesta per argomento, come un sistema di ticket)."
 	},
-	"utilization": "ATTENTION : Non supporté : Jessie & Stretch & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)\n\nJeedom DOIT être sur le même réseau que votre iPhone/AppleTV. (pas de routage, pas de NAT).\n\nUne AppleTV 4+ ou un iPad iOS 10+(ancienne infra homekit uniquement) ou un HomePod sont nécessaires pour l'accès à distance.\n\nSupport sur le forum (Une demande par sujet, comme un système de tickets).",
-	"licence" : "AGPL",
-	"author" : "Nebz",
-	"require" : "4.0",
-	"category" : "communication",
-	"hasDependency" : true,
-	"hasOwnDeamon" : true,
-	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
-	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/changelog",
-	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/changelog",
-	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/",
-	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/index-beta",
-	"link" : {
-		"forum":"https://community.jeedom.com/tag/plugin-homebridge"
+	"utilization": "ATTENTION : Non supporté : Debian Buster(10) Stretch(9) Jessie(8) & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)\n\nJeedom DOIT être sur le même réseau que votre iPhone/AppleTV. (pas de routage, pas de NAT).\n\nUne AppleTV 4+ ou un iPad iOS 10+(ancienne infra homekit uniquement) ou un HomePod sont nécessaires pour l'accès à distance.\n\nSupport sur le forum (Une demande par sujet, comme un système de tickets).",
+	"licence": "AGPL",
+	"author": "Nebz",
+	"require": "4.0",
+	"category": "communication",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"issue": "https://github.com/NebzHB/jeedom_docs/issues",
+	"changelog": "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/changelog",
+	"changelog_beta": "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/changelog",
+	"documentation": "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/",
+	"documentation_beta": "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/index-beta",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-homebridge"
 	},
-	"languages" : ["fr_FR","en_US","es_ES","pt_PT"],
-	"compatibility" : ["miniplus","smart","rpi","diy","v4","atlas"],
-	"maxDependancyInstallTime" : 60
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"diy",
+		"v4",
+		"atlas"
+	],
+	"maxDependancyInstallTime": 60
 }
