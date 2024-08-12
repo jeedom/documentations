@@ -27,7 +27,7 @@ Champs                   | Valeurs                                              
 ``documentation_beta`` *          | Lien Html vers la documentation beta du plugin.
 ``link`` -> ``video``               | Lien Html vers une vidéo de présentation.                                                                                 |
 ``link`` -> ``forum``               | Lien Html vers le forum sur le sujet officiel du plugin.                                                                  |
-``languages``                | Liste des langues disponibles pour le plugin : ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP``, ``pt_PT``            |
+``language``                | Liste des langues disponibles pour le plugin : ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP``, ``pt_PT``            |
 ``compatibility``            | Compatibilité du plugin : miniplus, smart, docker, rpi, diy, mobileapp, v4.                                                   |
 ``hasDependency``            | «true» si [le plugin doit installer des dépendances](https://doc.jeedom.com/fr_FR/dev/daemon_plugin#Les%20d%C3%A9pendance), sinon «false» ou absent.                                              |
 ``hasOwnDeamon``             | «true» si [le plugin doit exécuter des deamons](https://doc.jeedom.com/fr_FR/dev/daemon_plugin#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), sinon «false» ou absent.                                                   |
@@ -102,3 +102,20 @@ Ici un texte libre, et un numérique.
 
 Ici, cet attribut permet à chaque utilisateur de définir un paramètre qui lui est propre (dans le menu Réglages / Préférences)
 ![Attribut Utilisateur](images/SpecialAttributeUser.png)
+
+### Attributs EqLogic
+
+```
+	"specialAttributes": {
+        "eqLogic": {
+            "mqttTranmit": {
+                "type": "checkbox",
+                "name": {
+                    "fr_FR": "Transmettre l'équipement en MQTT"
+                }
+            }
+        }
+    }
+```
+
+Ici, cet attribut permet de définir un paramètre pour chaque équipement de jeedom (dans la configuration avancée de l'équipement). Vous le retrouver dans la configuration de l'équipement sous `plugin::mqtt2::mqttTranmit` (`plugin::id_plugin::key`)
