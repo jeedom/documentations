@@ -157,7 +157,7 @@ Here the base is ready. You should have the plugin active but at the moment it d
 
 The goal of the plugin will be to retrieve a random vdm and display it on the dashboard.
 
-It is therefore necessary to create an command of type info to store this information. Elle sera de sous-kind « string » car c'est une chaîne de caractère.
+It is therefore necessary to create an command of type info to store this information. Elle sera de sous-Type « string » car c'est une chaîne de caractère.
 
 For the example we will add a command that refreshes the information. It will therefore be an action type command and other subtype
 
@@ -539,7 +539,7 @@ Not an easy task the widget but we will stay on the default widget for the momen
 
 If you have not touched anything, equipment activated and visible, the widget takes up the entire width of the screen. So we're going to change it.
 
-La commande qui apparaît est la commande «story» de kind info, sous-kind string.
+La commande qui apparaît est la commande «story» de Type info, sous-Type string.
 
 My pleasure is to wake up in the morning is to read a vdm in the morning. It allows me to see that there is worse than me :D
 
@@ -612,7 +612,7 @@ You have to understand that everything is done to make our job easier.
 For a parameter / an option internal to the plugin, we will use one of the methods of the eqLogic class of the core: setConfiguration () by adding the parameters you want. For example:
 
 `` ``php
-$this->setConfiguration("type","mon_type"); // si on veut définir un paramètre kind de valeur mon_type. Comme on a défini la largeur du widget via la méthode setDisplay()
+$this->setConfiguration("type","mon_type"); // si on veut définir un paramètre Type de valeur mon_type. Comme on a défini la largeur du widget via la méthode setDisplay()
 `` ``
 
 To leave the choice to the user, we go back to the desktop file.php that you left open because you are following this TP to the letter :D
@@ -697,7 +697,7 @@ That we will replace by
 <div class="form-group">
   <label class="col-sm-3 control-label" >{{ Type de vdm }}</label>
   <div class="col-sm-3">
-    <select class="form-control eqLogicAttr" data-l1key="configuration" data-l2key="kind ">
+    <select class="form-control eqLogicAttr" data-l1key="configuration" data-l2key="Type ">
       <option value="aleatoire">{{Aleatoire}}</option>
       <option value="epicees">{{Coquin}}</option>
       <option value="tops">{{Best}}</option>
@@ -720,7 +720,7 @@ $url = "http://www.viedemerde.fr/aleatoire";
 And replace with
 
 `` ``php
-$kind = $this->getConfiguration("type", "aleatoire"); //si le paramètre est vide ou n'existe pas, on prends le kind aleatoire
+$Type = $this->getConfiguration("type", "aleatoire"); //si le paramètre est vide ou n'existe pas, on prends le Type aleatoire
 $url = "http://www.viedemerde.fr/{$type}";
 `` ``
 

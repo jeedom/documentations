@@ -4,8 +4,11 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+# 12/08/2024
+
 - Se corrigió un error al enviar equipos desde la ventana de configuración
 - Se agregó un botón para ver los registros de mosquitos (si está en modo de administrador local))
+- Se actualizó la documentación para explicar mejor cómo sincronizar temas entre dos mosquitos
 
 # 10/08/2024
 

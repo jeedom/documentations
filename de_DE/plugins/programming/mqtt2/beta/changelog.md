@@ -4,8 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 12.08.2024
+
 - Ein Fehler beim Senden von Ausrüstung aus dem Konfigurationsfenster wurde behoben
 - Es wurde eine Schaltfläche zum Anzeigen von Mückenprotokollen hinzugefügt (sofern es sich im lokalen Brocker-Modus befindet))
+- Die Dokumentation wurde aktualisiert, um besser zu erklären, wie Themen zwischen zwei Moskitos synchronisiert werden
 
 # 10.08.2024
 

@@ -148,6 +148,35 @@ bridge_insecure true
 bridge_tls_version tlsv1.3
 ````````
 
+Exemplo, você deseja enviar equipamento de jeedom_2 para jeedom_1 tendo : 
+- jeedom_1 : 
+  - IP : 192.168.1.45
+  - tópico raiz : jeedom_1
+  - tópico relacionado : jeedom_2
+  - Autenticação : jeedom:password_1
+- jeedom_2
+  - tópico raiz : jeedom_1
+  - Autenticação : jeedom:password_2
+
+Aqui está a configuração que deve ser adicionada em jeedom_2 (parâmetro mosquito) : 
+
+````````
+connection jeedom_1
+address 192.168.1.45:1883
+topic # both 0 jeedom_2/ jeedom_2/
+cleansession true
+notifications false
+remote_clientid jeedom_2
+remote_username jeedom
+remote_password password_1
+local_username jeedom
+local_password password_2
+start_type automatic
+try_private true
+bridge_insecure true
+bridge_tls_version tlsv1.3
+````````
+
 >**OBSERVAÇÃO**
 >
 > - ``#NOM_CONNEXION#`` : pode ser o que você quiser e não importa. Você pode, por exemplo, fazer name_jeedom_source-name_jeedom_target

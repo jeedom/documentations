@@ -27,7 +27,7 @@ Fields                   | Values                                               
 ``documentation_beta`` *          | Lien Html vers la documentation beta du plugin.
 ``link`` -> ``video``               | Html link to a video presentation.                                                                                 |
 ``link`` -> ``forum``               | Html link to the forum on the official subject of the plugin.                                                                  |
-``language``                | List of languages available for the plugin: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP``, ``pt_PT``            |
+``language``                | List of languages available for the plugin: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``es_ES``, ``pt_PT``            |
 ``compatibility``            | Plugin compatibility: miniplus, smart, docker, rpi, diy, mobileapp, v4.                                                   |
 ``hasDependency``            | «true» si [the plugin must install dependencies](https://doc.jeedom.com/en_US/dev/daemon_plugin#Les%20d%C3%A9pendance), sinon «false» ou absent.                                              |
 ``hasOwnDeamon``             | «true» si [the plugin must run daemons](https://doc.jeedom.com/en_US/dev/daemon_plugin#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), sinon «false» ou absent.                                                   |

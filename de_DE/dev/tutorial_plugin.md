@@ -157,7 +157,7 @@ Hier ist die Basis fertig. Sie sollten das Plugin aktiv haben, aber im Moment tu
 
 Das Ziel des Plugins ist es, einen zufälligen vdm abzurufen und auf dem Dashboard anzuzeigen.
 
-Es ist daher notwendig, einen Befehl vom Typ info zu erstellen, um diese Informationen zu speichern. Elle sera de sous-Art « string » car c'est une chaîne de caractère.
+Es ist daher notwendig, einen Befehl vom Typ info zu erstellen, um diese Informationen zu speichern. Elle sera de sous-Typ « string » car c'est une chaîne de caractère.
 
 Für das Beispiel fügen wir einen Befehl hinzu, der die Informationen aktualisiert. Es wird daher ein Befehl vom Aktionstyp und ein anderer Untertyp sein
 
@@ -539,7 +539,7 @@ Das Widget ist keine leichte Aufgabe, aber wir bleiben vorerst beim Standard-Wid
 
 Wenn Sie nichts berührt haben, die Ausrüstung aktiviert und sichtbar ist, nimmt das Widget die gesamte Bildschirmbreite ein. Also werden wir es ändern.
 
-La commande qui apparaît est la commande «story» de Art info, sous-Art string.
+La commande qui apparaît est la commande «story» de Typ info, sous-Typ string.
 
 Es ist mir ein Vergnügen, morgens aufzuwachen und morgens einen Vdm zu lesen. Es erlaubt mir zu sehen, dass es schlimmer ist als ich :D
 
@@ -612,7 +612,7 @@ Sie müssen verstehen, dass alles getan wird, um unsere Arbeit zu erleichtern.
 Für einen Parameter / eine Option innerhalb des Plugins verwenden wir eine der Methoden der eqLogic-Klasse des Kerns: setConfiguration () durch Hinzufügen der gewünschten Parameter. Zum Beispiel:
 
 `` ``php
-$this->setConfiguration("type","mon_type");; // si on veut définir un paramètre Art de valeur mon_type. Comme on a défini la largeur du widget via la méthode setDisplay()
+$this->setConfiguration("type","mon_type");; // si on veut définir un paramètre Typ de valeur mon_type. Comme on a défini la largeur du widget via la méthode setDisplay()
 `` ``
 
 Um dem Benutzer die Wahl zu überlassen, gehen wir zurück zur Desktop-Datei.php, die Sie offen gelassen haben, weil Sie dieser TP genau folgen :D
@@ -697,7 +697,7 @@ Die wir ersetzen durch
 <div class="form-group">
   <label class="col-sm-3 control-label" >{{ Type de vdm }}</label>
   <div class="col-sm-3">
-    <select class="form-control eqLogicAttr" data-l1key="configuration" data-l2key="Art ">
+    <select class="form-control eqLogicAttr" data-l1key="configuration" data-l2key="Typ ">
       <option value="aleatoire">{{Aleatoire}}</option>
       <option value="epicees">{{Coquin}}</option>
       <option value="tops">{{Best}}</option>
@@ -720,7 +720,7 @@ $url = "http://www.viedemerde.fr/aleatoire";;
 Und ersetzen durch
 
 `` ``php
-$Art = $this->getConfiguration("type", "aleatoire");; //si le paramètre est vide ou n'existe pas, on prends le Art aleatoire
+$Typ = $this->getConfiguration("type", "aleatoire");; //si le paramètre est vide ou n'existe pas, on prends le Typ aleatoire
 $url = "http://www.viedemerde.fr/{$type}";;
 `` ``
 

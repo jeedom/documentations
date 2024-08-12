@@ -4,8 +4,11 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+# 12/08/2024
+
 - Fixed a bug when sending equipment from the configuration window
 - Added a button to see mosquitto logs (if it is in local broker mode))
+- Updated the documentation to better explain how to synchronize topics between two mosquitto
 
 # 10/08/2024
 

@@ -4,8 +4,11 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+# 12/08/2024
+
 - Corrigido um bug ao enviar equipamentos da janela de configuração
 - Adicionado um botão para ver os registros do mosquito (se estiver no modo brocker local)
+- Atualizada a documentação para explicar melhor como sincronizar tópicos entre dois mosquitos
 
 # 10/08/2024
 

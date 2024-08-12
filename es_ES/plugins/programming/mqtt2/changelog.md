@@ -4,6 +4,13 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+- Se corrigió un error al enviar equipos desde la ventana de configuración
+- Se agregó un botón para ver los registros de mosquitos (si está en modo de administrador local))
+
+# 10/08/2024
+
+- Se corrigió un error al enviar baterías (método de llamada no estática))
+
 # 09/08/2024
 
 - Se mejoró la visualización de la ventana de configuración para equipos transmitidos

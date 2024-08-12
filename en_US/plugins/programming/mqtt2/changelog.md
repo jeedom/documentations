@@ -4,6 +4,13 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+- Fixed a bug when sending equipment from the configuration window
+- Added a button to see mosquitto logs (if it is in local broker mode))
+
+# 10/08/2024
+
+- Fixed a bug on sending batteries (non-static method call))
+
 # 09/08/2024
 
 - Improved display of the configuration window for transmitted equipment
