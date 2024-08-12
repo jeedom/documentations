@@ -27,7 +27,7 @@ Fields                   | Values                                               
 ``documentation_beta`` *          | Lien Html vers la documentation beta du plugin.
 ``link`` -> ``video``               | Html link to a video presentation.                                                                                 |
 ``link`` -> ``forum``               | Html link to the forum on the official subject of the plugin.                                                                  |
-``languages``                | List of languages available for the plugin: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP``, ``pt_PT``            |
+``language``                | List of languages available for the plugin: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP``, ``pt_PT``            |
 ``compatibility``            | Plugin compatibility: miniplus, smart, docker, rpi, diy, mobileapp, v4.                                                   |
 ``hasDependency``            | «true» si [the plugin must install dependencies](https://doc.jeedom.com/en_US/dev/daemon_plugin#Les%20d%C3%A9pendance), sinon «false» ou absent.                                              |
 ``hasOwnDeamon``             | «true» si [the plugin must run daemons](https://doc.jeedom.com/en_US/dev/daemon_plugin#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), sinon «false» ou absent.                                                   |
@@ -102,3 +102,20 @@ Here a free text, and a digital.
 
 Here, this attribute allows each user to define a parameter of their own (in the Settings / Preferences menu)
 ![Attribut Utilisateur](images/SpecialAttributeUser.png)
+
+### EqLogic Attributes
+
+```
+	"specialAttributes": {
+        "eqLogic": {
+            "mqttTranmit": {
+                "type": "checkbox",
+                "name": {
+                    "fr_FR": "Transmit equipment in MQTT"
+                }
+            }
+        }
+    }
+```
+
+Here, this attribute allows you to define a parameter for each jeedom equipment (in the advanced configuration of the equipment). You can find it in the equipment configuration under `plugin::mqtt2::mqttTranmit` (`plugin::plugin_id::key`)

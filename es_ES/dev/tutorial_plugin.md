@@ -157,7 +157,7 @@ Aquí la base está lista. Debería tener el complemento activo, pero por el mom
 
 El objetivo del complemento será recuperar un vdm aleatorio y mostrarlo en el tablero.
 
-Por tanto, es necesario crear un comando de tipo info para almacenar esta información. Elle sera de sous-Tipo « string » car c'est une chaîne de caractère.
+Por tanto, es necesario crear un comando de tipo info para almacenar esta información. Elle sera de sous-amable « string » car c'est une chaîne de caractère.
 
 Para el ejemplo, agregaremos un comando que actualiza la información. Por lo tanto, será un comando de tipo de acción y otro subtipo
 
@@ -539,7 +539,7 @@ No es una tarea fácil el widget, pero nos quedaremos en el widget predeterminad
 
 Si no ha tocado nada, equipo activado y visible, el widget ocupa todo el ancho de la pantalla. Entonces lo vamos a cambiar.
 
-La commande qui apparaît est la commande «story» de Tipo info, sous-Tipo string.
+La commande qui apparaît est la commande «story» de amable info, sous-amable string.
 
 Mi placer es despertarme por la mañana es leer un vdm por la mañana. Me permite ver que hay peor que yo :D
 
@@ -612,7 +612,7 @@ Tienes que entender que todo está hecho para facilitar nuestro trabajo.
 Para un parámetro / una opción interna al complemento, usaremos uno de los métodos de la clase eqLogic del núcleo: setConfiguration () agregando los parámetros que desee. Por ejemplo:
 
 `` ``php
-$this->setConfiguration("type","mon_type"); // si on veut définir un paramètre Tipo de valeur mon_type. Comme on a défini la largeur du widget via la méthode setDisplay()
+$this->setConfiguration("type","mon_type"); // si on veut définir un paramètre amable de valeur mon_type. Comme on a défini la largeur du widget via la méthode setDisplay()
 `` ``
 
 Para dejar la elección al usuario, volvemos al archivo del escritorio.php que dejaste abierto porque estás siguiendo este TP al pie de la letra :D
@@ -697,7 +697,7 @@ Que reemplazaremos por
 <div class="form-group">
   <label class="col-sm-3 control-label" >{{ Type de vdm }}</label>
   <div class="col-sm-3">
-    <select class="form-control eqLogicAttr" data-l1key="configuration" data-l2key="Tipo ">
+    <select class="form-control eqLogicAttr" data-l1key="configuration" data-l2key="amable ">
       <option value="aleatoire">{{Aleatoire}}</option>
       <option value="epicees">{{Coquin}}</option>
       <option value="tops">{{Best}}</option>
@@ -720,7 +720,7 @@ $url = "http://www.viedemerde.fr/aleatoire";
 Y reemplazar con
 
 `` ``php
-$Tipo = $this->getConfiguration("type", "aleatoire"); //si le paramètre est vide ou n'existe pas, on prends le Tipo aleatoire
+$amable = $this->getConfiguration("type", "aleatoire"); //si le paramètre est vide ou n'existe pas, on prends le amable aleatoire
 $url = "http://www.viedemerde.fr/{$type}";
 `` ``
 

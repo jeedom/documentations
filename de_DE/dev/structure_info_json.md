@@ -27,7 +27,7 @@ Felder                   | Werte                                                
 ``documentation_beta`` *          | Lien Html vers la documentation beta du plugin.
 ``link`` -> ``video``               | HTML-Link zu einer Videopräsentation.                                                                                 |
 ``link`` -> ``forum``               | HTML-Link zum Forum zum offiziellen Thema des Plugins.                                                                  |
-``languages``                | Liste der für das Plugin verfügbaren Sprachen: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP``, ``pt_PT``            |
+``language``                | Liste der für das Plugin verfügbaren Sprachen: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP``, ``pt_PT``            |
 ``compatibility``            | Plugin-Kompatibilität: Miniplus, Smart, Docker, RPI, DIY, Mobileapp, v4.                                                   |
 ``hasDependency``            | «true» si [Das Plugin muss Abhängigkeiten installieren](https://doc.jeedom.com/de_DE/dev/daemon_plugin#Les%20d%C3%A9pendance), sinon «false» ou absent.                                              |
 ``hasOwnDeamon``             | «true» si [Das Plugin muss Daemons ausführen](https://doc.jeedom.com/de_DE/dev/daemon_plugin#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), sinon «false» ou absent.                                                   |
@@ -102,3 +102,20 @@ Hier ein freier Text und ein digitaler.
 
 Hier ermöglicht dieses Attribut jedem Benutzer, einen eigenen Parameter zu definieren (im Menü Einstellungen / Präferenzen))
 ![Attribut Utilisateur](images/SpecialAttributeUser.png)
+
+### EqLogic-Attribute
+
+„
+	"specialAttributes": {
+        "eqLogic": {
+            "mqttTranmit": {
+                "type": "checkbox",
+                "name": {
+                    "fr_FR": "Übertragen Sie die Ausrüstung in MQTT"
+                }
+            }
+        }
+    }
+„
+
+Hier können Sie mit diesem Attribut einen Parameter für jedes Jeedom-Gerät definieren (in der erweiterten Konfiguration des Geräts)). Sie finden es in der Gerätekonfiguration unter „Plugin“::mqtt2::mqttTranmit` (`plugin::Plugin_ID::key`)

@@ -27,7 +27,7 @@ Campos                   | Valores                                              
 ``documentation_beta`` *          | Lien Html vers la documentation beta du plugin.
 ``link`` -> ``video``               | Enlace HTML a una presentación de video.                                                                                 |
 ``link`` -> ``forum``               | Enlace HTML al foro sobre el tema oficial del complemento.                                                                  |
-``languages``                | Lista de idiomas disponibles para el complemento: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP``, ``pt_PT``            |
+``language``                | Lista de idiomas disponibles para el complemento: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP``, ``pt_PT``            |
 ``compatibility``            | Compatibilidad de complementos: miniplus, inteligente, ventana acoplable, rpi, bricolaje, mobileapp, v4.                                                   |
 ``hasDependency``            | «true» si [el complemento debe instalar dependencias](https://doc.jeedom.com/es_ES/dev/daemon_plugin#Les%20d%C3%A9pendance), sinon «false» ou absent.                                              |
 ``hasOwnDeamon``             | «true» si [el complemento debe ejecutar demonios](https://doc.jeedom.com/es_ES/dev/daemon_plugin#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), sinon «false» ou absent.                                                   |
@@ -102,3 +102,20 @@ Aquí un texto libre, y un digital.
 
 Aquí, este atributo permite a cada usuario definir un parámetro propio (en el menú Configuración / Preferencias)
 ![Attribut Utilisateur](images/SpecialAttributeUser.png)
+
+### Atributos de EqLogic
+
+```
+	"specialAttributes": {
+        "eqLogic": {
+            "mqttTranmit": {
+                "type": "checkbox",
+                "name": {
+                    "fr_FR": "Transmitir el equipo en MQTT"
+                }
+            }
+        }
+    }
+```
+
+Aquí, este atributo permite definir un parámetro para cada equipo jeedom (en la configuración avanzada del equipo). Puedes encontrarlo en la configuración del equipo en `plugin::mqtt2::mqttTranmit` (`complemento::complemento_id::key`)

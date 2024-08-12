@@ -2006,7 +2006,19 @@
         "valeur 1\"},{\"value": "valeur 1\"},{\"value",
         "plop\", \"name": "plop\", \"name",
         "valeur plop": "valeur plop",
-        "Ici, cet attribut permet à chaque utilisateur de définir un paramètre qui lui est propre (dans le menu Réglages \/ Préférences": "Ici, cet attribut permet à chaque utilisateur de définir un paramètre qui lui est propre (dans le menu Réglages \/ Préférences"
+        "Ici, cet attribut permet à chaque utilisateur de définir un paramètre qui lui est propre (dans le menu Réglages \/ Préférences": "Ici, cet attribut permet à chaque utilisateur de définir un paramètre qui lui est propre (dans le menu Réglages \/ Préférences",
+        "Attributs EqLogic": "Attributs EqLogic",
+        "eqLogic": "eqLogic",
+        "mqttTranmit": "mqttTranmit",
+        "type": "type",
+        "checkbox": "checkbox",
+        "Transmettre l'équipement en MQTT": "Transmettre l'équipement en MQTT",
+        "Ici, cet attribut permet de définir un paramètre pour chaque équipement de jeedom (dans la configuration avancée de l'équipement": "Ici, cet attribut permet de définir un paramètre pour chaque équipement de jeedom (dans la configuration avancée de l'équipement",
+        "Vous le retrouver dans la configuration de l'équipement sous `plugin": "Vous le retrouver dans la configuration de l'équipement sous `plugin",
+        "mqtt2": "mqtt2",
+        "mqttTranmit` (`plugin": "mqttTranmit` (`plugin",
+        "id_plugin": "id_plugin",
+        "key`": "key`"
     },
     "dev\/tutorial_plugin.md": {
         "Pour commencer": "Pour commencer",
