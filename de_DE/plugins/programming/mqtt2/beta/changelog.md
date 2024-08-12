@@ -4,6 +4,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Ein Fehler beim Senden von Ausrüstung aus dem Konfigurationsfenster wurde behoben
+- Es wurde eine Schaltfläche zum Anzeigen von Mückenprotokollen hinzugefügt (sofern es sich im lokalen Brocker-Modus befindet))
+
 # 10.08.2024
 
 - Ein Fehler beim Senden von Batterien wurde behoben (nicht statische Anrufmethode))

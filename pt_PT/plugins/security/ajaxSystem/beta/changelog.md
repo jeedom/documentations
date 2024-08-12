@@ -4,6 +4,8 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto
 
+- Melhor limpeza dos pedidos da SIA
+
 # 10/08/2024
 
 - Corrigido um problema com a janela de conexão do Ajax que às vezes podia aparecer abaixo da janela de configuração do plugin

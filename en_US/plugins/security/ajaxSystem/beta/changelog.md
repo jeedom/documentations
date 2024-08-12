@@ -4,6 +4,8 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+- Better cleaning of SIA controls
+
 # 10/08/2024
 
 - Fixed an issue with the Ajax login window that could sometimes appear below the plugin configuration window

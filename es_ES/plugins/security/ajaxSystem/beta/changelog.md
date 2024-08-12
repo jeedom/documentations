@@ -4,6 +4,8 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
+- Mejor limpieza de los pedidos SIA
+
 # 10/08/2024
 
 - Se solucionó un problema con la ventana de conexión Ajax que a veces podía aparecer debajo de la ventana de configuración del complemento

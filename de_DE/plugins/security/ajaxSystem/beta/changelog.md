@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Bessere Reinigung von SIA-Bestellungen
+
 # 10.08.2024
 
 - Es wurde ein Problem mit dem Ajax-Verbindungsfenster behoben, das manchmal unterhalb des Plugin-Konfigurationsfensters erscheinen konnte
