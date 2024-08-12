@@ -21,7 +21,7 @@
 	"link": {
 		"forum": "https://community.jeedom.com/tags/plugin-HomeWizard"
 	},
-	"languages": [
+	"language": [
 		"fr_FR",
 		"en_US"
 	],
