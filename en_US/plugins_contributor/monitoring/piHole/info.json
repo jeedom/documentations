@@ -1,21 +1,45 @@
 {
-	"id" : "piHole",
-	"name" : "piHole",
-	"description" : "Plugin permettant d'activer ou désactiver votre serveur pi-Hole. Un interrupteur pour le désactiver et quelques chiffres, laissez-moi savoir si vous avez besoin de plus (en fonction de ce que l'API permet)",
-	"usage" : "Récupérez l'apikey dans votre pi-Hole :<br />WEBPASSWORD dans /etc/pihole/setupVars.conf<br />ou<br />Settings &gt; API &gt; Show API token &gt; QRCode avec votre mobile, copier",
-	"licence" : "AGPL",
-	"author" : "Nebz",
-	"hasDependency" : false,
-	"hasOwnDeamon" : false,
-	"require" : "3.3.24",
-	"category" : "monitoring",
-	"issue" : "https://github.com/NebzHB/plugin-piHole/issues",
-	"changelog" : "https://nebzhb.github.io/plugin-piHole/#language#/changelog",
-	"documentation" : "https://nebzhb.github.io/plugin-piHole/#language#/",
-	"forum_link" : "https://www.jeedom.com/forum/viewtopic.php?f=144&t=38861",
-	"link" : {
-		"forum":"https://www.jeedom.com/forum/viewtopic.php?f=144&t=38861"
+	"id": "piHole",
+	"name": "piHole",
+	"description": {
+		"fr_FR": "Plugin permettant d'activer ou désactiver votre serveur pi-Hole. Un interrupteur pour le désactiver et quelques chiffres, laissez-moi savoir si vous avez besoin de plus (en fonction de ce que l'API permet)",
+		"en_US": "Plugin to enable or disable your pi-Hole server. A switch to disable it and some numbers, let me know if you need more (depending on what the API allows)",
+		"es_ES": "Plugin para activar o desactivar su servidor pi-Hole. Un interruptor para desactivarlo y algunos números, hágamelo saber si necesita más (dependiendo de lo que permite la API)",
+		"de_DE": "Plugin zum Ein- und Ausschalten Ihres pi-Hole-Servers. Ein Schalter zum Ausschalten und ein paar Zahlen, lassen Sie mich wissen, ob Sie mehr brauchen (je nachdem, was die API erlaubt)",
+		"it_IT": "Plugin per abilitare o disabilitare il vostro server pi-Hole. Un interruttore per disabilitarlo e alcuni numeri, fatemi sapere se avete bisogno di più (a seconda di ciò che l'API permette)",
+		"pt_PT": "Plugin para ativar ou desativar o seu servidor pi-Hole. Um interrutor para o desativar e alguns números, diga-me se precisar de mais (dependendo do que a API permite)"
 	},
-	"languages" : ["fr_FR","en_US"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+	"utilization": "Récupérez l'apikey dans votre pi-Hole :<br />WEBPASSWORD dans /etc/pihole/setupVars.conf<br />ou<br />Settings &gt; API &gt; Show API token &gt; QRCode avec votre mobile, copier",
+	"licence": "AGPL",
+	"author": "Nebz",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"require": "3.3.24",
+	"category": "monitoring",
+	"issue": "https://github.com/NebzHB/plugin-piHole/issues",
+	"changelog": "https://nebzhb.github.io/plugin-piHole/fr_FR/changelog",
+	"changelog_beta": "https://nebzhb.github.io/plugin-piHole/fr_FR/changelog",
+	"documentation": "https://nebzhb.github.io/plugin-piHole/fr_FR/",
+	"documentation_beta": "https://nebzhb.github.io/plugin-piHole/fr_FR/",
+	"forum_link": "https://community.jeedom.com/tag/plugin-pihole",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-pihole"
+	},
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4"
+	]
 }

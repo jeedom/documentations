@@ -3,7 +3,11 @@
 	"name": "HomeWizard Energy",
 	"description": {
 		"fr_FR": "Ce plugin permet d'afficher les données des périphériques HomeWizard Energy et de controler leurs prises connectées. Découverte des équipements via multicast DNS (mDNS) sur le même réseau.",
-		"en_US": "This plugin allow you to display data from HomeWizard Energy devices and to control their wifi sockets. Devices discovery is done via multicast DNS (mDNS) on the same network."
+		"en_US": "This plugin allow you to display data from HomeWizard Energy devices and to control their wifi sockets. Devices discovery is done via multicast DNS (mDNS) on the same network.",
+		"es_ES": "Este plugin permite visualizar los datos de los dispositivos HomeWizard Energy y controlar sus tomas conectadas. Detección de equipos mediante DNS multidifusión (mDNS) en la misma red.",
+		"de_DE": "Mit diesem Plugin können Sie die Daten von HomeWizard Energy-Geräten anzeigen und ihre angeschlossenen Steckdosen steuern. Entdeckung der Geräte über Multicast DNS (mDNS) im selben Netzwerk.",
+		"it_IT": "Questo plugin consente di visualizzare i dati dei dispositivi HomeWizard Energy e di controllare le prese ad essi collegate. Individuazione delle apparecchiature tramite DNS multicast (mDNS) sulla stessa rete.",
+		"pt_PT": "Este plugin permite-lhe visualizar os dados dos dispositivos HomeWizard Energy e controlar as suas tomadas ligadas. Descoberta de equipamentos através de DNS multicast (mDNS) na mesma rede."
 	},
 	"utilization": "ATTENTION : Non supporté : Debian Buster(10) Stretch(9) Jessie(8) & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)\n\nJeedom DOIT être sur le même réseau que votre équipement. (pas de routage, pas de NAT) !!!",
 	"licence": "AGPL",
@@ -22,8 +26,12 @@
 		"forum": "https://community.jeedom.com/tags/plugin-HomeWizard"
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",

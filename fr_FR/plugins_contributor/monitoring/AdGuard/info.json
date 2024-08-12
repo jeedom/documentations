@@ -1,22 +1,45 @@
 {
-	"id" : "AdGuard",
-	"name" : "AdGuard Home",
-	"description" : "Plugin permettant d'activer ou désactiver votre serveur AdGuard Home. De gérer les clients Et beaucoup plus !!",
-	"licence" : "AGPL",
-	"author" : "Nebz",
-	"hasDependency" : false,
-	"hasOwnDeamon" : false,
-	"require" : "3.3.24",
-	"category" : "monitoring",
-	"issue" : "https://github.com/NebzHB/plugin-AdGuard/issues",
-	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/fr_FR/changelog",
-	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/fr_FR/",
-	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/fr_FR/changelog",
-	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/fr_FR/",
-	"forum_link" : "https://community.jeedom.com/tag/plugin-AdGuard",
-	"link" : {
-		"forum":"https://community.jeedom.com/tag/plugin-AdGuard"
+	"id": "AdGuard",
+	"name": "AdGuard Home",
+	"description": {
+		"fr_FR": "Plugin permettant d'activer ou désactiver votre serveur AdGuard Home. De gérer les clients Et beaucoup plus !!",
+		"en_US": "Plugin to activate or deactivate your AdGuard Home server, manage customers and much more!",
+		"es_ES": "Plugin que le permite activar o desactivar su servidor AdGuard Home, gestionar clientes y ¡mucho más!",
+		"de_DE": "Plugin zum Aktivieren oder Deaktivieren Ihres AdGuard Home Servers. Zum Verwalten von Clients Und vieles mehr!!!",
+		"it_IT": "Plugin che consente di attivare o disattivare il server AdGuard Home, gestire i clienti e molto altro ancora!",
+		"pt_PT": "Plugin que lhe permite ativar ou desativar o seu servidor AdGuard Home, gerir clientes e muito mais!"
 	},
-	"languages" : ["fr_FR","en_US","es_ES"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","atlas"]
+	"licence": "AGPL",
+	"author": "Nebz",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"require": "3.3.24",
+	"category": "monitoring",
+	"issue": "https://github.com/NebzHB/plugin-AdGuard/issues",
+	"changelog": "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/fr_FR/changelog",
+	"documentation": "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/fr_FR/",
+	"changelog_beta": "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/fr_FR/changelog",
+	"documentation_beta": "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/fr_FR/",
+	"forum_link": "https://community.jeedom.com/tag/plugin-AdGuard",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-AdGuard"
+	},
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
 }
