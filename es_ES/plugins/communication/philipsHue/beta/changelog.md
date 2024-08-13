@@ -6,6 +6,9 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 13/08/2024
+
+- Se corrigió un error en la detección del estado del demonio
 - Controles de activación/desactivación de sensores mejorados
 - Gestión de módulos con el mismo servicio varias veces (como módulos con doble salida de relé))
 - Optimización del demonio

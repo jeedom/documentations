@@ -6,6 +6,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 13/08/2024
+
+- Correction d'un bug sur la detection de l'état du démon
+- Amélioration des commandes d'activation/desactivation des capteurs
+- Gestion des modules avec plusieurs fois le meme service (comme les modules à double sorties relais)
+- Optimisation du démon
+
 # 28/02/2024
 
 - Meilleure gestion des cas ou deux scénes ont le meme nom

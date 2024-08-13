@@ -6,6 +6,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 13.08.2024
+
+- Ein Fehler bei der Daemon-Statuserkennung wurde behoben
 - Verbesserte Steuerung zum Aktivieren/Deaktivieren von Sensoren
 - Verwaltung von Modulen mit dem gleichen Dienst mehrmals (z. B. Module mit doppelten Relaisausgängen))
 - Daemon-Optimierung

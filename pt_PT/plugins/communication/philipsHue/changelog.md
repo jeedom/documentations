@@ -6,6 +6,13 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 13/08/2024
+
+- Corrigido um bug na detecção do estado do daemon
+- Controles aprimorados de ativação/desativação do sensor
+- Gerenciamento de módulos com o mesmo serviço diversas vezes (como módulos com saídas duplas de relé)
+- Otimização do Daemon
+
 # 28/02/2024
 
 - Melhor tratamento de casos onde duas cenas possuem o mesmo nome

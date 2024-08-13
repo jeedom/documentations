@@ -6,6 +6,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 08/13/2024
+
+- Fixed bug on daemon state detection
 - Improved sensor enable/disable controls
 - Management of modules with multiple times the same service (such as modules with dual relay outputs)
 - Daemon Optimization
