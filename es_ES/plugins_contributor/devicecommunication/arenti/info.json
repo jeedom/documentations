@@ -1,43 +1,43 @@
 {
-  "id": "arenti",
-  "name": "Arenti",
-  "description": {
-      "fr_FR": "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API Arenti",
-      "en_US": "Plugin to retrieve information and control synchronized devices on the Arenti API",
-      "es_ES": "Plugin para recuperar información y controlar dispositivos sincronizados en la API Arenti",
-      "pt_PT": "Plugin para recuperar informação e controlar dispositivos sincronizados no Arenti API",
-      "de_DE": "Plugin zum Abrufen von Informationen und zum Steuern von Geräten, die über die Arenti API synchronisiert wurden",
-      "it_IT": "Plugin per recuperare informazioni e controllare i dispositivi sincronizzati su Arenti API"
-  },
-  "utilization": "Après avoir entré l'identifiant et le mot de passe dans la page de configuration, lancez une synchronisation.</br>Toutes les commandes viendront au fur et à mesure : en lançant une impression, elles devraient toutes être créées.",
-  "licence": "AGPL",
-  "author": "DomoFlo1",
-  "require": "4.2",
-  "category": "devicecommunication",
-  "hasDependency": true,
-  "hasOwnDeamon": false,
-  "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-arenti-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-arenti-pour-jeedom/",
-  "link": {
-    "forum": "https://community.jeedom.com/tag/plugin-Arenti"
-  },
-  "language": [
-    "fr_FR",
-    "en_US",
-    "es_ES",
-    "pt_PT",
-    "de_DE",
-    "it_IT"
-  ],
-  "compatibility": [
-    "miniplus",
-    "smart",
-    "rpi",
-    "docker",
-    "diy",
-    "mobile",
-    "v4",
-    "atlas"
-  ]
+	"id": "arenti",
+	"name": "Arenti",
+	"description": {
+		"fr_FR": "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API Arenti",
+		"en_US": "Plugin to retrieve information and control synchronized devices on the Arenti API",
+		"es_ES": "Plugin para recuperar información y controlar dispositivos sincronizados en la API Arenti",
+		"pt_PT": "Plugin para recuperar informação e controlar dispositivos sincronizados no Arenti API",
+		"de_DE": "Plugin zum Abrufen von Informationen und zum Steuern von Geräten, die über die Arenti API synchronisiert wurden",
+		"it_IT": "Plugin per recuperare informazioni e controllare i dispositivi sincronizzati su Arenti API"
+	},
+	"utilization": "Après avoir entré l'identifiant et le mot de passe dans la page de configuration, lancez une synchronisation.</br>Toutes les commandes viendront au fur et à mesure : en lançant une impression, elles devraient toutes être créées.",
+	"licence": "AGPL",
+	"author": "DomoFlo1",
+	"require": "4.4",
+	"category": "devicecommunication",
+	"hasDependency": true,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-arenti-pour-jeedom/",
+	"documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-arenti-pour-jeedom/",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-Arenti"
+	},
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
 }
