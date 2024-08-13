@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+- Ajout d'un message online et offline lors de du lancement et de l'arret (voulu ou non) du démon dans topic_racine/state
+- Si vous avez un équipement jeedom::monitor depuis le plugin virtuel le plugin va automatiquement ajouter la commande state (online ou offline), si vous avez deja cet équipement il faut relancer la decouverte
+- Correction d'un bug sur la transmission du type réel de l'équipement (lors de la transmission d'équipement entre jeedom)
+- Correction d'un bug sur la duplication de la tache d'écoute des évenements
+
 # 12/08/2024
 
 - Correction d'un bug sur l'envoi des équipements depuis la fenetre de configuration

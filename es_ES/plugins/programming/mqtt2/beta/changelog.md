@@ -4,6 +4,11 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+- Adición de un mensaje en línea y fuera de línea al iniciar y detener (se desee o no) el demonio en topic_racine/state
+- Si tienes equipo jeedom::monitorear desde el complemento virtual el complemento agregará automáticamente el comando de estado (en línea o fuera de línea), si ya tiene este equipo debe reiniciar el descubrimiento
+- Se corrigió un error en la transmisión del tipo real de equipo (cuando se transmite equipo entre jeedom)
+- Se corrigió un error en la duplicación de la tarea de escucha de eventos
+
 # 12/08/2024
 
 - Se corrigió un error al enviar equipos desde la ventana de configuración
