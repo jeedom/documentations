@@ -48,11 +48,11 @@ In v4.2, the Core has integrated the generic types in the scenarios. You can thu
 
 #### Trigger
 
-You can trigger a scenario from sensors. For example, if you have motion detectors in the house, you can create an alarm scenario with each detector triggering : `#[Living room][Move Salon][Presence]# == 1`, `#[Cuisine][Move Cuisine][Presence]# == 1`, etc.. In such a scenario, you will therefore need all your motion detectors, and if you add one, you will have to add it to the triggers. Logic.
+You can trigger a scenario from sensors. For example, if you have motion detectors in the house, you can create an alarm scenario with each detector triggering : ``#[Living room][Move Salon][Presence]# == 1`, `#[Cuisine][Move Cuisine][Presence]# == 1`, etc.. In such a scenario, you will therefore need all your motion detectors, and if you add one, you will have to add it to the triggers. Logic.
 
-Thanks to generic types, you will be able to use a single trigger : `#genericType(PRESENCE)# == 1`. Here, no object is indicated, so the slightest movement throughout the house will trigger the scenario. If you add a new detector in the house, no need to edit the scenario (s)).
+Thanks to generic types, you will be able to use a single trigger : ``#genericType(PRESENCE)# == 1`. Here, no object is indicated, so the slightest movement throughout the house will trigger the scenario. If you add a new detector in the house, no need to edit the scenario (s)).
 
-Here, a trigger on the switching on of a light in the Living room : `#genericType(LIGHT_STATE,#[Living room]#)# > 0`
+Here, a trigger on the switching on of a light in the Living room : ``#genericType(LIGHT_STATE,#[Living room]#)# > 0`
 
 #### Expression
 

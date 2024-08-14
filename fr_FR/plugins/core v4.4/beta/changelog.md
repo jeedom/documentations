@@ -40,6 +40,7 @@
 - Correction d'un bug si une commande dépasse son min ou son max la valeur passait à 0 (au lieu du min/max) [LIEN](https://github.com/jeedom/core/issues/2819)
 - Correction d'un bug de sur l'affichage du menu réglage dans certaines langues [LIEN](https://github.com/jeedom/core/issues/2821)
 - Possibilité dans les déclencheurs programmés des scénarios d'utiliser des calculs/commande/tag/formule donnant en resultat l'heure de lancement sous la forme Gi (heure sans zero initial et minute, exemple pour 09h15 => 915 ou pour 23h40 => 2340) [LIEN](https://github.com/jeedom/core/pull/2808)
+- Possibilité de mettre une image personnalisé pour les équipements dans les plugins (si le plugin le support), pour cela il suffit de mettre l'image dans `data/img` sous la forme `eqLogic#id#.png` avec #id# l'id de l'équipement (vous pouvez le trouver dans la configuration avancée de l'équipement) [LIEN](https://github.com/jeedom/core/pull/2802)
 
 >**IMPORTANT**
 >
@@ -83,7 +84,7 @@
 
 >**IMPORTANT**
 >
->Pour tout ceux en PHP8 il faut ABSOLUMENT cocher la case de pre update avant de lancer la mise à jour de jeedom sinon il vous manquera des fichiers et celui-ci ne marchera plus.
+>Pour tout ceux utilisant PHP8 il est impératif de cocher la case de "pre-update" avant de lancer la mise à jour de jeedom. Sans cette précaution, des fichiers ssentiels pourraitent être manquants, ce qui empêcherait le bon fonctionnement de Jeedom.
 
 # 4.4.9
 

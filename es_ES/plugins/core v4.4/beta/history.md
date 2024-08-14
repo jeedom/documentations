@@ -83,7 +83,7 @@ La página del historial da acceso a algunas opciones adicionales
 
 Permite mostrar una curva de acuerdo con un cálculo en varios comandos (puede hacer prácticamente cualquier cosa, + - / \* valor absoluto ... consulte la documentación de PHP para conocer algunas funciones). Por ejemplo :
 
-`abs(*\ [Jardín \] \ [Higrometría \] \ [Temperatura \]* - *\ [Espacio vital \] \ [Higrometría \] \ [Temperatura \]*)`
+''abs(*\ [Jardín \] \ [Higrometría \] \ [Temperatura \]* - *\ [Espacio vital \] \ [Higrometría \] \ [Temperatura \]*)''
 
 También tiene acceso a una gestión de fórmulas de cálculo que le permite guardarlas para volver a mostrarlas más fácilmente.
 

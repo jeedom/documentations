@@ -83,7 +83,7 @@ The history page gives access to some additional options
 
 Allows to display a curve according to a calculation on several commands (you can pretty much do anything, + - / \* absolute value ... see PHP documentation for some functions). For example :
 
-`abs(*\ [Garden \] \ [Hygrometry \] \ [Temperature \]* - *\ [Living space \] \ [Hygrometry \] \ [Temperature \]*)`
+``abs(*\ [Garden \] \ [Hygrometry \] \ [Temperature \]* - *\ [Living space \] \ [Hygrometry \] \ [Temperature \]*)``
 
 You also have access to a management of calculation formulas which allows you to save them to re-display them more easily.
 

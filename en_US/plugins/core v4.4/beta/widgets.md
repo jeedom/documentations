@@ -174,7 +174,7 @@ For templates using images, you can configure the width of the widget in pixels 
 
 >**Trick**     
 >For advanced users, it is possible to put tags in the replacement values and to specify their value in the advanced configuration of the command.    
->If, for example, in **Desktop width** you put as value `#largeur_desktop#` (**be careful to put the** `#` **autour**) puis dans la configuratiwe avancée d'une commande, ongland affichage → "**Paramètres optionnels widget**" vous ajoutez the paramètre `largeur_desktop` (**sans les** `#`) and give it the value "**90**", this custom widget on this command will be 90 pixels wide. This allows you to adapt the size of the widget to each order without having to make a specific widget each time.
+>If, for example, in **Desktop width** you put as value `#largeur_desktop#`` (**be careful to put the** ``#`` **autour**) puis dans la configuratiwe avancée d'une commande, ongland affichage → "**Paramètres optionnels widget**" vous ajoutez the paramètre ``largeur_desktop`` (**sans les** ``#`) and give it the value "**90**", this custom widget on this command will be 90 pixels wide. This allows you to adapt the size of the widget to each order without having to make a specific widget each time.
 
 #### Test
 
@@ -182,11 +182,11 @@ This is called multistate templates *(several states)*. Instead of putting an im
 
 As before, different images can be selected depending on the theme active on Jeedom and the box **Time-widget** displays the duration since the last change of state.
 
-The tests are in the form : `#value# == 1`, `#value#`will be automatically replaced by the current value of the command. You can also do for example :
+The tests are in the form : ``#value# == 1`, `#value#`will be automatically replaced by the current value of the command. You can also do for example :
 
-- `#value# > 1`
-- `#value# >= 1 && #value# <= 5`
-- `#value# == 'toto'`
+- ``#value# > 1`
+- ``#value# >= 1 && #value# <= 5``
+- ``#value# == 'toto'``
 
 >**NOTE**     
 >It is essential to show the apostrophes (**'**) around the text to compare if the value is text *(info / other)*.
@@ -195,7 +195,7 @@ The tests are in the form : `#value# == 1`, `#value#`will be automatically repla
 >For advanced users, it is also possible to use javascript functions such as `#value#.match ("^ plop") `, here we test if the text starts with` plop`.
 
 >**NOTE**     
->It is possible to display the value of the command in the widget by specifying `#value#`in the HTML code of the test. To display the unit add `#unite#`.
+>It is possible to display the value of the command in the widget by specifying `#value#`in the HTML code of the test. To display the unit add `#unite#``.
 
 ## Code Widget
 

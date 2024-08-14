@@ -87,7 +87,7 @@ Während oder nach einem Update können Sie auf dieser Registerkarte das Protoko
 Es ist möglich, Jeedom direkt in SSH zu aktualisieren.
 Sobald die Verbindung hergestellt ist, ist dies der auszuführende Befehl :
 
-```sudo php /var/www/html/install/update.php```
+``````sudo php /var/www/html/install/update.php``````
 
 Die möglichen Parameter sind :
 
@@ -96,8 +96,8 @@ Die möglichen Parameter sind :
 
 Hier ist ein Beispiel für die Syntax, um ein erzwungenes Update durchzuführen, indem die Änderungen seit 4.0 erneut angewendet werden.04 :
 
-```sudo php  /var/www/html/install/update.php mode=force version=4.0.04```
+``````sudo php  /var/www/html/install/update.php mode=force version=4.0.04``````
 
 Achtung, nach einem Update in der Befehlszeile müssen die Rechte für den Jeedom-Ordner erneut angewendet werden :
 
-```sudo chown -R www-data:www-data /var/www/html```
+``````sudo chown -R www-data:www-data /var/www/html``````

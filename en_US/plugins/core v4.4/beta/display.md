@@ -195,7 +195,7 @@ Below, you will find the list of the different equipment, commands, scenarios or
 #### For an info type command :
 
 - **Calculation and rounding**
-    - **Algorithm (\#value\# for value)** : Allows you to make an operation on the value of the command before processing by Jeedom, example : `#value# - 0.2` to subtract 0.2 (offset on a temperature sensor).
+    - **Algorithm (\#value\# for value)** : Allows you to make an operation on the value of the command before processing by Jeedom, example : ``#value# - 0.2` to subtract 0.2 (offset on a temperature sensor).
     - **Rounded (number after decimal point)** : Used to round the value of the command (Example : put 2 to transform 16.643,345 in 16.64).
 - **Generic type** : Allows you to configure the generic type of the command (Jeedom tries to find it by itself in auto mode). This information is used by the mobile application.
 - **Action on value, if** : Lets do some sort of mini scenarios. You can, for example, say that if the value is worth more than 50 for 3 minutes, then you have to do such action. This allows, for example, to turn off a light X minutes after it has turned on.
@@ -212,7 +212,7 @@ Below, you will find the list of the different equipment, commands, scenarios or
 
 - **Others**
     - **Management of the repetition of values** : In automatic if the command goes up 2 times the same value in a row, then Jeedom will not take into account the 2nd ascent (avoids triggering a scenario several times, unless the command is of binary type). You can force the repetition of the value or prohibit it completely.
-    - **Push url** : Allows to add a URL to call in case of update of the command. You can use the following tags : `#value#`for the value of the command,`#cmd_name#`for the name of the command,`#cmd_id#`for the unique identifier of the command,`#humanname#`for the full name of the command (ex : `#[Salthe de bain][Hydrometrie][Humidité]#`),`#eq_name#`for the name of the equipment.
+    - **Push url** : Allows to add a URL to call in case of update of the command. You can use the following tags : ``#value#`for the value of the command,`#cmd_name#`for the name of the command,`#cmd_id#`for the unique identifier of the command,`#humanname#`for the full name of the command (ex : ``#[Salthe de bain][Hydrometrie][Humidité]#`),`#eq_name#`for the name of the equipment.
 
 #### For an action command :
 

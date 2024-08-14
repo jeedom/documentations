@@ -195,7 +195,7 @@ Abaixo, você encontrará a lista dos diferentes equipamentos, comandos, cenári
 #### Para um pedido de tipo de informação :
 
 - **Cálculo e arredondamento**
-    - **Fórmula de cálculo (\#value\# por valor)** : Permite que você faça uma operação com o valor do pedido antes do processamento por Jeedom, exemplo : `#value# - 0.2` para subtrair 0.2 (deslocamento em um sensor de temperatura).
+    - **Fórmula de cálculo (\#value\# por valor)** : Permite que você faça uma operação com o valor do pedido antes do processamento por Jeedom, exemplo : ``#value# - 0.2` para subtrair 0.2 (deslocamento em um sensor de temperatura).
     - **Arredondado (número após ponto decimal)** : Usado para arredondar o valor do comando (exemplo : colocar 2 para transformar 16.643.345 em 16,64).
 - **Tipo genérico** : Permite configurar o tipo genérico do comando (o Jeedom tenta encontrá-lo sozinho no modo automático). Esta informação é usada pelo aplicativo móvel.
 - **Ação em valor, se** : Vamos fazer algum tipo de mini cenários. Você pode, por exemplo, dizer que, se o valor vale mais de 50 por 3 minutos, você deve executar essa ação. Isso permite, por exemplo, apagar uma luz X minutos depois de acender.
@@ -212,7 +212,7 @@ Abaixo, você encontrará a lista dos diferentes equipamentos, comandos, cenári
 
 - **Outros**
     - **Gestão de valores repetidos** : Em automático, se o comando subir duas vezes o mesmo valor em uma linha, o Jeedom não levará em consideração a segunda subida (evita desencadear um cenário várias vezes, a menos que o comando seja do tipo binário). Você pode forçar a repetição do valor ou proibi-lo completamente.
-    - **URL impulso** : Permite adicionar um URL para chamar em caso de atualização do pedido. Você pode usar as seguintes tags : `#value#`para o valor do pedido '#cmd_name#`para o nome do comando,`#cmd_id#`para o identificador exclusivo da ordem,`#humanname#`para o nome completo do comando (ex : `#[Sala de bain][Hydrometrie][Humidité]#`),`#eq_name#`para o nome do equipamento.
+    - **URL impulso** : Permite adicionar um URL para chamar em caso de atualização do pedido. Você pode usar as seguintes tags : ``#value#`para o valor do pedido '#cmd_name#`para o nome do comando,`#cmd_id#`para o identificador exclusivo da ordem,`#humanname#`para o nome completo do comando (ex : ``#[Sala de bain][Hydrometrie][Humidité]#`),`#eq_name#`para o nome do equipamento.
 
 #### Para um comando de ação :
 

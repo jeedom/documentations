@@ -207,10 +207,10 @@ It is necessary :
 
 It is necessary in the system console of Jeedom or in ssh to make
 
-`` ''`
+`` ''``
 sudo easy_install pip
 sudo easy_install3 pip
-`` ''`
+`` ''``
 
 Then relaunch the dependencies
 

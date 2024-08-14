@@ -174,7 +174,7 @@ Para las plantillas que usan imágenes, puede configurar el ancho del widget en 
 
 >**Truco**     
 >Para usuarios avanzados, es posible colocar etiquetas en los valores de reemplazo y especificar su valor en la configuración avanzada del comando.    
->Si, por ejemplo, en **Ancho de escritorio** pones como valor '#largeur_desktop#` (**tenga cuidado de poner el** `#` **autour**) puis dans la configuratinosotros avancée d'une commande, ongly affichage → "**Paramètres optionnels widget**" vous ajoutez la paramètre `largeur_desktop` (**sans les** `#`) y darle el valor "**90**", este widget personalizado en este comando tendrá 90 píxeles de ancho. Esto le permite adaptar el tamaño del widget a cada pedido sin tener que hacer un widget específico cada vez.
+>Si, por ejemplo, en **Ancho de escritorio** pones como valor '#largeur_desktop#'' (**tenga cuidado de poner el** ''#'' **autour**) puis dans la configuratinosotros avancée d'une commande, ongly affichage → "**Paramètres optionnels widget**" vous ajoutez la paramètre ''largeur_desktop'' (**sans les** ''#`) y darle el valor "**90**", este widget personalizado en este comando tendrá 90 píxeles de ancho. Esto le permite adaptar el tamaño del widget a cada pedido sin tener que hacer un widget específico cada vez.
 
 #### Test
 
@@ -182,11 +182,11 @@ Esto se llama plantillas multiestado *(varios estados)*. En lugar de poner una i
 
 Como antes, se pueden seleccionar diferentes imágenes según el tema activo en Jeedom y el cuadro **Widget de tiempo** muestra la duración desde el último cambio de estado.
 
-Las pruebas están en forma : `#value# == 1`, `#value#`será reemplazado automáticamente por el valor actual del comando. También puedes hacer por ejemplo :
+Las pruebas están en forma : ''#value# == 1`, `#value#`será reemplazado automáticamente por el valor actual del comando. También puedes hacer por ejemplo :
 
-- `#value# > 1`
-- `#value# >= 1 && #value# <= 5`
-- `#value# == 'toto'`
+- ''#value# > 1`
+- ''#value# >= 1 && #value# <= 5''
+- ''#value# == 'toto'''
 
 >**NOTA**     
 >Es imprescindible mostrar los apóstrofos (**'**) alrededor del texto para comparar si el valor es texto *(info / otro)*.
@@ -195,7 +195,7 @@ Las pruebas están en forma : `#value# == 1`, `#value#`será reemplazado automá
 >Para usuarios avanzados, también es posible utilizar funciones javascript como `#value#.match ("^ plop") `, aquí probamos si el texto comienza con` plop`.
 
 >**NOTA**     
->Es posible mostrar el valor del comando en el widget especificando `#value#`en el código HTML de la prueba. Para mostrar la unidad, agregue `#unite#`.
+>Es posible mostrar el valor del comando en el widget especificando `#value#`en el código HTML de la prueba. Para mostrar la unidad, agregue `#unite#''.
 
 ## Widget de código
 

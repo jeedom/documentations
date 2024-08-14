@@ -174,7 +174,7 @@ Bei Vorlagen mit Bildern können Sie die Breite des Widgets je nach Unterstützu
 
 >**Trick**     
 >Für fortgeschrittene Benutzer ist es möglich, Tags in die Ersatzwerte einzufügen und ihren Wert in der erweiterten Konfiguration des Befehls anzugeben.    
->Wenn zum Beispiel in **Desktop-Breite** Sie setzen als Wert `#largeur_desktop#` (**Achten Sie darauf, die** `#` **autour**) puis dans la configuratiwir avancée d'une commande, onglund affichage → "**Paramètres optionnels widget**" vous ajoutez das paramètre `largeur_desktop` (**sans les** `#`) und gib ihm den Wert "**90**", Dieses benutzerdefinierte Widget für diesen Befehl ist 90 Pixel breit. Auf diese Weise können Sie die Größe des Widgets an jede Bestellung anpassen, ohne jedes Mal ein bestimmtes Widget erstellen zu müssen.
+>Wenn zum Beispiel in **Desktop-Breite** Sie setzen als Wert `#largeur_desktop#`` (**Achten Sie darauf, die** ``#`` **autour**) puis dans la configuratiwir avancée d'une commande, onglund affichage → "**Paramètres optionnels widget**" vous ajoutez das paramètre ``largeur_desktop`` (**sans les** ``#`) und gib ihm den Wert "**90**", Dieses benutzerdefinierte Widget für diesen Befehl ist 90 Pixel breit. Auf diese Weise können Sie die Größe des Widgets an jede Bestellung anpassen, ohne jedes Mal ein bestimmtes Widget erstellen zu müssen.
 
 #### Test
 
@@ -182,11 +182,11 @@ Dies wird als mehrstufige Vorlagen bezeichnet *(mehrere Staaten)*. Anstatt ein B
 
 Nach wie vor können je nach dem in Jeedom aktiven Thema und der Box unterschiedliche Bilder ausgewählt werden **Zeit-Widget** Zeigt die Dauer seit der letzten Zustandsänderung an.
 
-Die Tests sind in der Form : `#value# == 1`,`#value#`wird automatisch durch den aktuellen Wert des Befehls ersetzt. Sie können zum Beispiel auch tun :
+Die Tests sind in der Form : ``#value# == 1`,`#value#`wird automatisch durch den aktuellen Wert des Befehls ersetzt. Sie können zum Beispiel auch tun :
 
-- `#value# > 1`
-- `#value# >= 1 && #value# <= 5`
-- `#value# == 'toto'`
+- ``#value# > 1`
+- ``#value# >= 1 && #value# <= 5``
+- ``#value# == 'toto'``
 
 >**HINWEIS**     
 >Es ist wichtig, die Apostrophe zu zeigen (**'**) um den Text herum zu vergleichen, ob der Wert Text ist *(info / andere)*.
@@ -195,7 +195,7 @@ Die Tests sind in der Form : `#value# == 1`,`#value#`wird automatisch durch den 
 >Für fortgeschrittene Benutzer ist es auch möglich, Javascript-Funktionen wie `zu verwenden#value#.match ("^ plop") `, hier testen wir, ob der Text mit` plop` beginnt.
 
 >**HINWEIS**     
->Sie können den Wert des Befehls im Widget anzeigen, indem Sie `angeben#value#`im HTML-Code des Tests. Um das Gerät anzuzeigen, fügen Sie `hinzu#unite#`.
+>Sie können den Wert des Befehls im Widget anzeigen, indem Sie `angeben#value#`im HTML-Code des Tests. Um das Gerät anzuzeigen, fügen Sie `hinzu#unite#``.
 
 ## Code-Widget
 

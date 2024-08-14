@@ -40,6 +40,7 @@
 - Es wurde ein Fehler behoben, bei dem der Wert auf 0 (anstelle von Min/Max) geändert wurde, wenn ein Befehl seine Mindest- oder Höchstgrenze überschritt) [VERKNÜPFUNG](https://github.com/jeedom/core/issues/2819)
 - Ein Fehler in der Anzeige des Einstellungsmenüs in bestimmten Sprachen wurde behoben [VERKNÜPFUNG](https://github.com/jeedom/core/issues/2821)
 - Möglichkeit in den programmierten Szenario-Triggern, Berechnungen/Befehle/Tags/Formeln zu verwenden, die zu einer Startzeit in der Form Gi (Stunde ohne Anfangsnull und Minute) führen, Beispiel für 9:15 Uhr => 915 oder für 23:40 Uhr => 2340) [VERKNÜPFUNG](https://github.com/jeedom/core/pull/2808)
+- Möglichkeit, in den Plugins ein personalisiertes Bild für die Ausrüstung einzufügen (sofern das Plugin dies unterstützt), dazu einfach das Bild in „data/img“ in der Form „eqLogic“ einfügen#id#.png` mit #id# die Geräte-ID (Sie finden sie in der erweiterten Konfiguration des Geräts)) [VERKNÜPFUNG](https://github.com/jeedom/core/pull/2802)
 
 >**WICHTIG**
 >
@@ -83,7 +84,7 @@
 
 >**WICHTIG**
 >
->Für alle in PHP8 müssen Sie UNBEDINGT das Kontrollkästchen vor dem Update aktivieren, bevor Sie das Jeedom-Update starten, sonst fehlen Ihnen Dateien und es funktioniert nicht mehr.
+>Für alle, die PHP8 verwenden, ist es unbedingt erforderlich, das Kontrollkästchen „Vor dem Update“ zu aktivieren, bevor das Jeedom-Update gestartet wird. Ohne diese Vorsichtsmaßnahme könnten wichtige Dateien fehlen, was dazu führen würde, dass Jeedom nicht ordnungsgemäß funktioniert.
 
 # 4.4.9
 

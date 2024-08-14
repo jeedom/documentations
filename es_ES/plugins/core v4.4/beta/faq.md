@@ -207,10 +207,10 @@ Hay que :
 
 Es necesario en la consola del sistema de Jeedom o en ssh hacer
 
-`` ''`
+`` ''''
 sudo easy_install pip
 sudo easy_install3 pip
-`` ''`
+`` ''''
 
 Luego relanzar las dependencias
 

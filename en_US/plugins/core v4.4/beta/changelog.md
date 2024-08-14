@@ -40,6 +40,7 @@
 - Fixed a bug if a command exceeded its min or max the value would go to 0 (instead of min/max) [LINK](https://github.com/jeedom/core/issues/2819)
 - Fixed a bug where the settings menu was not displayed in some languages [LINK](https://github.com/jeedom/core/issues/2821)
 - Possibility in the programmed triggers of the scenarios to use calculations/commands/tags/formulas giving as a result the launch time in the form Gi (hour without initial zero and minute, example for 09:15 => 915 or for 23:40 => 2340) [LINK](https://github.com/jeedom/core/pull/2808)
+- Possibility to put a custom image for equipment in plugins (if the plugin supports it), for this just put the image in `data/img` in the form `eqLogic#id#.png` with #id# the equipment id (you can find it in the advanced equipment configuration) [LINK](https://github.com/jeedom/core/pull/2802)
 
 >**IMPORTANT**
 >
@@ -83,7 +84,7 @@
 
 >**IMPORTANT**
 >
->For all those in PHP8 you ABSOLUTELY have to check the pre update box before launching the jeedom update otherwise you will be missing files and it will no longer work.
+>For all those using PHP8 it is imperative to check the "pre-update" box before launching the jeedom update. Without this precaution, essential files could be missing, which would prevent Jeedom from functioning properly.
 
 # 4.4.9
 

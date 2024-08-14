@@ -40,6 +40,7 @@
 - Se corrigió un error si un comando excedía su mínimo o máximo, el valor cambiaba a 0 (en lugar de mínimo/máximo)) [ENLACE](https://github.com/jeedom/core/issues/2819)
 - Se corrigió un error en la visualización del menú de configuración en ciertos idiomas [ENLACE](https://github.com/jeedom/core/issues/2821)
 - Posibilidad en el escenario programado de activar cálculos/comando/etiqueta/fórmula que resulten en la hora de lanzamiento en formato Gi (hora sin cero ni minuto inicial, ejemplo para las 9:15 a.m. => 915 o para las 11:40 p.m. => 2340) [ENLACE](https://github.com/jeedom/core/pull/2808)
+- Posibilidad de poner una imagen personalizada del equipo en los plugins (si el plugin lo soporta), para ello basta con poner la imagen en `data/img` en el formato `eqLogic#id#.png` con #id# el id del equipo (lo puedes encontrar en la configuración avanzada del equipo)) [ENLACE](https://github.com/jeedom/core/pull/2802)
 
 >**IMPORTANTE**
 >
@@ -83,7 +84,7 @@
 
 >**IMPORTANTE**
 >
->Para todos aquellos en PHP8, debes ABSOLUTAMENTE marcar la casilla de actualización previa antes de iniciar la actualización jeedom, de lo contrario te faltarán archivos y ya no funcionará.
+>Para todos aquellos que usan PHP8 es imperativo marcar la casilla "actualización previa" antes de iniciar la actualización jeedom. Sin esta precaución, podrían faltar archivos esenciales, lo que impediría que Jeedom funcione correctamente.
 
 # 4.4.9
 
