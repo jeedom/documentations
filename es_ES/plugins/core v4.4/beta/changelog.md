@@ -39,6 +39,7 @@
 - Se corrigió un error en el valor de selección del widget predeterminado [ENLACE](https://github.com/jeedom/core/pull/2813)
 - Se corrigió un error si un comando excedía su mínimo o máximo, el valor cambiaba a 0 (en lugar de mínimo/máximo)) [ENLACE](https://github.com/jeedom/core/issues/2819)
 - Se corrigió un error en la visualización del menú de configuración en ciertos idiomas [ENLACE](https://github.com/jeedom/core/issues/2821)
+- Posibilidad en el escenario programado de activar cálculos/comando/etiqueta/fórmula que resulten en la hora de lanzamiento en formato Gi (hora sin cero ni minuto inicial, ejemplo para las 9:15 a.m. => 915 o para las 11:40 p.m. => 2340) [ENLACE](https://github.com/jeedom/core/pull/2808)
 
 >**IMPORTANTE**
 >
@@ -70,6 +71,7 @@
 - Se corrigió un error en las herramientas de reemplazo (no había ningún comando en la opción de reemplazo)) [ENLACE](https://github.com/jeedom/core/issues/2818)
 - Mejora del sistema cron para evitar fallos en el lanzamiento [ENLACE](https://github.com/jeedom/core/commit/533d6d4d508ffe5815f7ba6355ec45497df73313)
 - Se corrigió un error que le permitía tener el mismo oyente varias veces [ENLACE](https://github.com/jeedom/core/issues/2820)
+- Se corrigió un error en PHP8 con la actualización que eliminaba archivos útiles [ENLACE](https://github.com/jeedom/core/issues/2822)
 
 >**IMPORTANTE**
 >
@@ -78,6 +80,10 @@
 >**IMPORTANTE**
 >
 > Durante la actualización, es posible que tenga un error al crear un índice único en la tabla de oyentes, nada grave, se debe a oyentes duplicados y jeedom corregirá esto por sí solo después de 24 horas (la indexación en sí misma se puede hacer verificando la base de datos en la configuración jeedom o simplemente espere las próximas actualizaciones).
+
+>**IMPORTANTE**
+>
+>Para todos aquellos en PHP8, debes ABSOLUTAMENTE marcar la casilla de actualización previa antes de iniciar la actualización jeedom, de lo contrario te faltarán archivos y ya no funcionará.
 
 # 4.4.9
 

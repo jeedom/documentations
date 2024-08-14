@@ -48,11 +48,11 @@ In v4.2 hat der Core die generischen Typen in die Szenarien integriert. So könn
 
 #### Abzug
 
-Sie können ein Szenario über Sensoren auslösen. Wenn Sie beispielsweise Bewegungsmelder im Haus haben, können Sie ein Alarmszenario erstellen, bei dem jeder Melder auslöst : ``#[Wohnzimmer][Move Salon][Presence]# == 1`,`#[Cuisine][Move Cuisine][Presence]# == 1` usw.. In einem solchen Szenario benötigen Sie daher alle Ihre Bewegungsmelder, und wenn Sie einen hinzufügen, müssen Sie ihn zu den Auslösern hinzufügen. Logik.
+Sie können ein Szenario über Sensoren auslösen. Wenn Sie beispielsweise Bewegungsmelder im Haus haben, können Sie ein Alarmszenario erstellen, bei dem jeder Melder auslöst : `#[Wohnzimmer][Move Salon][Presence]# == 1`,`#[Cuisine][Move Cuisine][Presence]# == 1` usw.. In einem solchen Szenario benötigen Sie daher alle Ihre Bewegungsmelder, und wenn Sie einen hinzufügen, müssen Sie ihn zu den Auslösern hinzufügen. Logik.
 
-Generische Typen ermöglichen die Verwendung eines einzigen Triggers : ``#genericType(PRESENCE)# == 1`. Hier wird kein Objekt angezeigt, so dass die kleinste Bewegung im ganzen Haus das Szenario auslöst. Wenn Sie einen neuen Melder im Haus hinzufügen, müssen Sie das Szenario (die Szenarien) nicht bearbeiten).
+Generische Typen ermöglichen die Verwendung eines einzigen Triggers : `#genericType(PRESENCE)# == 1`. Hier wird kein Objekt angezeigt, so dass die kleinste Bewegung im ganzen Haus das Szenario auslöst. Wenn Sie einen neuen Melder im Haus hinzufügen, müssen Sie das Szenario (die Szenarien) nicht bearbeiten).
 
-Hier ein Auslöser beim Einschalten eines Lichts im Wohnzimmer : ``#genericType(LIGHT_STATE,#[Wohnzimmer]#)# > 0`
+Hier ein Auslöser beim Einschalten eines Lichts im Wohnzimmer : `#genericType(LIGHT_STATE,#[Wohnzimmer]#)# > 0`
 
 #### Expression
 

@@ -39,6 +39,7 @@
 - Ein Fehler beim Standard-Widget-Auswahlwert wurde behoben [VERKNÜPFUNG](https://github.com/jeedom/core/pull/2813)
 - Es wurde ein Fehler behoben, bei dem der Wert auf 0 (anstelle von Min/Max) geändert wurde, wenn ein Befehl seine Mindest- oder Höchstgrenze überschritt) [VERKNÜPFUNG](https://github.com/jeedom/core/issues/2819)
 - Ein Fehler in der Anzeige des Einstellungsmenüs in bestimmten Sprachen wurde behoben [VERKNÜPFUNG](https://github.com/jeedom/core/issues/2821)
+- Möglichkeit in den programmierten Szenario-Triggern, Berechnungen/Befehle/Tags/Formeln zu verwenden, die zu einer Startzeit in der Form Gi (Stunde ohne Anfangsnull und Minute) führen, Beispiel für 9:15 Uhr => 915 oder für 23:40 Uhr => 2340) [VERKNÜPFUNG](https://github.com/jeedom/core/pull/2808)
 
 >**WICHTIG**
 >
@@ -70,6 +71,7 @@
 - Ein Fehler bei den Ersatzwerkzeugen wurde behoben (kein Befehl in der Ersatzauswahl)) [VERKNÜPFUNG](https://github.com/jeedom/core/issues/2818)
 - Verbesserung des Cron-Systems, um Startfehler zu vermeiden [VERKNÜPFUNG](https://github.com/jeedom/core/commit/533d6d4d508ffe5815f7ba6355ec45497df73313)
 - Es wurde ein Fehler behoben, der es Ihnen ermöglichte, denselben Listener mehrmals zu verwenden [VERKNÜPFUNG](https://github.com/jeedom/core/issues/2820)
+- Mit dem Update wurde ein Fehler in PHP8 behoben, der nützliche Dateien löschte [VERKNÜPFUNG](https://github.com/jeedom/core/issues/2822)
 
 >**WICHTIG**
 >
@@ -78,6 +80,10 @@
 >**WICHTIG**
 >
 > Während des Updates ist es möglich, dass beim Erstellen eines eindeutigen Indexes für die Listener-Tabelle ein Fehler auftritt. Dies ist kein schwerwiegender Fehler, da es sich um doppelte Listener handelt. Jeedom korrigiert dies nach 24 Stunden selbst (die Indizierung selbst kann entweder durch Überprüfung der Datenbank erfolgen). in der Jeedom-Konfiguration oder warten Sie einfach auf die nächsten Updates).
+
+>**WICHTIG**
+>
+>Für alle in PHP8 müssen Sie UNBEDINGT das Kontrollkästchen vor dem Update aktivieren, bevor Sie das Jeedom-Update starten, sonst fehlen Ihnen Dateien und es funktioniert nicht mehr.
 
 # 4.4.9
 

@@ -39,6 +39,7 @@
 - Correction d'un bug sur la valeur du select du widget par defaut [LIEN](https://github.com/jeedom/core/pull/2813)
 - Correction d'un bug si une commande dépasse son min ou son max la valeur passait à 0 (au lieu du min/max) [LIEN](https://github.com/jeedom/core/issues/2819)
 - Correction d'un bug de sur l'affichage du menu réglage dans certaines langues [LIEN](https://github.com/jeedom/core/issues/2821)
+- Possibilité dans les déclencheurs programmés des scénarios d'utiliser des calculs/commande/tag/formule donnant en resultat l'heure de lancement sous la forme Gi (heure sans zero initial et minute, exemple pour 09h15 => 915 ou pour 23h40 => 2340) [LIEN](https://github.com/jeedom/core/pull/2808)
 
 >**IMPORTANT**
 >
@@ -70,6 +71,7 @@
 - Correction d'un bug sur l'outils de remplacement (pas de commande dans le choix de remplacement) [LIEN](https://github.com/jeedom/core/issues/2818)
 - Amélioration du systeme de cron pour eviter quelque raté de lancement [LIEN](https://github.com/jeedom/core/commit/533d6d4d508ffe5815f7ba6355ec45497df73313)
 - Correction d'un bug autorisant d'avoir plusieurs fois le meme listener [LIEN](https://github.com/jeedom/core/issues/2820)
+- Correction d'un bug en PHP8 avec la mise à jour qui supprimé des fichiers utiles [LIEN](https://github.com/jeedom/core/issues/2822)
 
 >**IMPORTANT**
 >
@@ -78,6 +80,10 @@
 >**IMPORTANT**
 >
 > Lors de la mise à jour il est possible que vous ayez une erreur de création d'indexe unique sur la table listener, rien de grave c'est du à des listener dupliqué et jeedom corrigera ca de lui meme au bout de 24h (l'indexe en lui meme pourra etre fait soit depuis la verification de la base de données dans la configuration de jeedom ou juste attendre les prochaines mises à jour).
+
+>**IMPORTANT**
+>
+>Pour tout ceux en PHP8 il faut ABSOLUMENT cocher la case de pre update avant de lancer la mise à jour de jeedom sinon il vous manquera des fichiers et celui-ci ne marchera plus.
 
 # 4.4.9
 

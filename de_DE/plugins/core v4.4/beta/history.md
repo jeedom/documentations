@@ -83,7 +83,7 @@ Auf der Verlaufsseite können Sie auf einige zusätzliche Optionen zugreifen
 
 Ermöglicht die Anzeige einer Kurve gemäß einer Berechnung mit mehreren Befehlen (Sie können so ziemlich alles tun, + - / \* absoluter Wert ... siehe PHP-Dokumentation für einige Funktionen). Beispielsweise :
 
-``abs(*\ [Garten \] \ [Hygrometrie \] \ [Temperatur \]* - *\ [Wohnraum \] \ [Hygrometrie \] \ [Temperatur \]*)``
+`abs(*\ [Garten \] \ [Hygrometrie \] \ [Temperatur \]* - *\ [Wohnraum \] \ [Hygrometrie \] \ [Temperatur \]*)`
 
 Sie haben auch Zugriff auf eine Verwaltung von Berechnungsformeln, die es Ihnen ermöglicht, diese zu speichern, um sie einfacher wieder anzuzeigen.
 

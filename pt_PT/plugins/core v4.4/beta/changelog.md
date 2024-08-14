@@ -39,6 +39,7 @@
 - Corrigido um bug no valor de seleção do widget padrão [LINK](https://github.com/jeedom/core/pull/2813)
 - Corrigido um bug se um comando excedesse seu mínimo ou máximo, o valor mudava para 0 (em vez de mínimo/máximo) [LINK](https://github.com/jeedom/core/issues/2819)
 - Corrigido um bug na exibição do menu de configurações em determinados idiomas [LINK](https://github.com/jeedom/core/issues/2821)
+- Possibilidade nos acionadores do cenário programado utilizar cálculos/comando/tag/fórmula resultando no horário de lançamento no formato Gi (hora sem zero inicial e minuto, exemplo para 9h15 => 9h15 ou para 23h40 => 23h40) [LINK](https://github.com/jeedom/core/pull/2808)
 
 >**IMPORTANTE**
 >
@@ -70,6 +71,7 @@
 - Corrigido um bug nas ferramentas de substituição (nenhum comando na escolha de substituição) [LINK](https://github.com/jeedom/core/issues/2818)
 - Melhoria do sistema cron para evitar falhas de inicialização [LINK](https://github.com/jeedom/core/commit/533d6d4d508ffe5815f7ba6355ec45497df73313)
 - Corrigido um bug que permitia que você tivesse o mesmo ouvinte diversas vezes [LINK](https://github.com/jeedom/core/issues/2820)
+- Corrigido um bug no PHP8 com a atualização que excluía arquivos úteis [LINK](https://github.com/jeedom/core/issues/2822)
 
 >**IMPORTANTE**
 >
@@ -78,6 +80,10 @@
 >**IMPORTANTE**
 >
 > Durante a atualização é possível que você tenha um erro ao criar um índice único na tabela do listener, nada sério é devido a listeners duplicados e o jeedom irá corrigir isso sozinho após 24 horas (o indexado em si pode ser feito tanto a partir da verificação do banco de dados na configuração do jeedom ou apenas aguarde as próximas atualizações).
+
+>**IMPORTANTE**
+>
+>Para todos aqueles no PHP8 você deve ABSOLUTAMENTE marcar a caixa de pré-atualização antes de iniciar a atualização do jeedom, caso contrário você perderá arquivos e não funcionará mais.
 
 # 4.4.9
 

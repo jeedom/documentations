@@ -207,10 +207,10 @@ Du musst :
 
 Es ist notwendig in der Systemkonsole von Jeedom oder in ssh zu machen
 
-`` ''``
+`` ''`
 sudo easy_install pip
 sudo easy_install3 pip
-`` ''``
+`` ''`
 
 Starten Sie dann die Abhängigkeiten neu
 

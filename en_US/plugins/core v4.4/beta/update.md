@@ -87,7 +87,7 @@ During or after an update, this tab allows you to read the log of this update in
 It is possible to update Jeedom directly in SSH.
 Once connected, this is the command to perform :
 
-``````sudo php /var/www/html/install/update.php``````
+```sudo php /var/www/html/install/update.php```
 
 The possible parameters are :
 
@@ -96,8 +96,8 @@ The possible parameters are :
 
 Here is an example of syntax to make a forced update by reapplying the changes since 4.0.04 :
 
-``````sudo php  /var/www/html/install/update.php mode=force version=4.0.04``````
+```sudo php  /var/www/html/install/update.php mode=force version=4.0.04```
 
 Attention, after an update on command line, it is necessary to re-apply the rights on the Jeedom folder :
 
-``````sudo chown -R www-data:www-data /var/www/html``````
+```sudo chown -R www-data:www-data /var/www/html```
