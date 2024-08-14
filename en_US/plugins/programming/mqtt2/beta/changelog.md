@@ -8,6 +8,7 @@
 - If you have jeedom equipment::monitor from the virtual plugin the plugin will automatically add the state command (online or offline), if you already have this equipment you must restart the discovery
 - Fixed a bug on the transmission of the real type of equipment (when transmitting equipment between jeedom)
 - Fixed bug on duplication of event listening task
+- On exported equipment if the source plugin exists on the target jeedom then jeedom will display the plugin icon
 
 # 12/08/2024
 

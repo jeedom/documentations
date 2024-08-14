@@ -1,32 +1,40 @@
 {
-    "id":"myuplink",
-    "name":"MyUplink API",
-    "description": {
-      "fr_FR":"Ce plugin permet de récupérer les informations des pompes à chaleur NiBe depuis le site https://myUplink.com. Ce plugin ne fonctionne pas avec l'ancienne API http://www.nibeuplink.com.",
-      "en_US":"This plugin allows you to retrieve NiBe heat pump information from https://myUplink.com. This plugin does not work with the old API http://www.nibeuplink.com."
-    },
-    "licence":"AGPL",
-    "installation":"Le guide de configuration se trouve sur cette page : <i><a class='btn btn-warning btn-xs' target='_blank' href='https://flobul-domotique.fr/configuration-du-plugin-myuplink-pour-jeedom/'><i class='fas fa-cog'></i><strong> Configuration du plugin</strong></a></i></br>1) Une fois le plugin installé, activez-le.</br>2) Vérifiez bien que vous avez correctement configuré la partie Générale -> Administration -> Configuration puis reseaux, en effet, il faut lors de l'association de Jeedom au compte My Uplink que votre Jeedom soit accessible de l'extérieur.</br>3) Puis rendez-vous sur la page du plugin et cliquez sur Synchronisation.",
-    "author":"DomoFlo1",
-    "require":"4.0",
-    "category":"wellness",
-    "changelog":"https://flobul-domotique.fr/liste-des-versions-du-plugin-myuplink-pour-jeedom/",
-    "documentation":"https://flobul-domotique.fr/documentation-du-plugin-myuplink-pour-jeedom",
-    "hasDependency":false,
-    "hasOwnDeamon":false,
-    "maxDependancyInstallTime":0,
-    "language":[
-        "fr_FR",
-        "en_US"
-    ],
-    "compatibility":[
-        "miniplus",
-        "smart",
-        "rpi",
-        "docker",
-        "diy",
-        "mobile",
-        "v4",
-        "atlas"
-    ]
+	"id": "myuplink",
+	"name": "MyUplink API",
+	"description": {
+		"fr_FR": "Ce plugin permet de récupérer les informations des pompes à chaleur NiBe depuis le site https://myUplink.com. Ce plugin ne fonctionne pas avec l'ancienne API http://www.nibeuplink.com.",
+		"en_US": "This plugin allows you to retrieve NiBe heat pump information from https://myUplink.com. This plugin does not work with the old API http://www.nibeuplink.com.",
+		"de_DE": "Mit diesem Plugin können Sie Informationen über NiBe-Wärmepumpen von der Website https://myUplink.com abrufen. Dieses Plugin funktioniert nicht mit der alten API http://www.nibeuplink.com.",
+		"es_ES": "Este plugin permite recuperar información sobre las bombas de calor NiBe de la página web https://myUplink.com. Este plugin no funciona con la antigua API http://www.nibeuplink.com.",
+		"it_IT": "Questo plugin consente di recuperare informazioni sulle pompe di calore NiBe dal sito web https://myUplink.com. Questo plugin non funziona con la vecchia API http://www.nibeuplink.com.",
+		"pt_PT": "Este plugin permite-lhe obter informações sobre as bombas de calor NiBe a partir do sítio Web https://myUplink.com. Este plugin não funciona com a antiga API http://www.nibeuplink.com."
+	},
+	"licence": "AGPL",
+	"installation": "Le guide de configuration se trouve sur cette page : <i><a class='btn btn-warning btn-xs' target='_blank' href='https://flobul-domotique.fr/configuration-du-plugin-myuplink-pour-jeedom/'><i class='fas fa-cog'></i><strong> Configuration du plugin</strong></a></i></br>1) Une fois le plugin installé, activez-le.</br>2) Vérifiez bien que vous avez correctement configuré la partie Générale -> Administration -> Configuration puis reseaux, en effet, il faut lors de l'association de Jeedom au compte My Uplink que votre Jeedom soit accessible de l'extérieur.</br>3) Puis rendez-vous sur la page du plugin et cliquez sur Synchronisation.",
+	"author": "DomoFlo1",
+	"require": "4.0",
+	"category": "wellness",
+	"changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-myuplink-pour-jeedom/",
+	"documentation": "https://flobul-domotique.fr/documentation-du-plugin-myuplink-pour-jeedom",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
 }

@@ -8,6 +8,7 @@
 - Si vous avez un équipement jeedom::monitor depuis le plugin virtuel le plugin va automatiquement ajouter la commande state (online ou offline), si vous avez deja cet équipement il faut relancer la decouverte
 - Correction d'un bug sur la transmission du type réel de l'équipement (lors de la transmission d'équipement entre jeedom)
 - Correction d'un bug sur la duplication de la tache d'écoute des évenements
+- Sur les équipements exportés si le plugin source existe sur le jeedom cible alors jeedom affichera l'icone du plugin
 
 # 12/08/2024
 

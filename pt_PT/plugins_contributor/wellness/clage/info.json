@@ -1,39 +1,43 @@
 {
-  "id": "clage",
-  "name": "Clage",
-  "description": {
-      "fr_FR": "Le plugin permet de récupérer toutes les informations de son serveur HSX de Clage. Le serveur HSX récupère les informations de ses chauffe-eau connectés parmi MCX 3-7, CEX/CFX, DEX, DSX, DSX Touch, DSX Twin. Les informations qui remontent dans l’application Smart Control (iOS, Android) remontent également dans le plugin. Aucune connexion internet n’est requise pour récupérer ces informations, tout est en local.",
-      "en_US": "The plugin allows you to retrieve all the information from your HSX server from Clage. The HSX server retrieves information from its connected water heaters among MCX 3-7, CEX/CFX, DEX, DSX, DSX Touch, DSX Twin. The information that goes back into the Smart Control app (iOS, Android) also goes back into the plugin. No internet connection is required to retrieve this information, everything is local."
-  },
-  "utilization": "Après avoir entré l'IP du serveur, sauvegardez et lancer une synchronisation pour créer les appareils.",
-  "licence": "AGPL",
-  "author": "DomoFlo1",
-  "require": "4.2",
-  "category": "wellness",
-  "hasDependency": false,
-  "hasOwnDeamon": true,
-  "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-clage-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-clage-pour-jeedom/",
-  "link": {
-    "forum": "https://community.jeedom.com/tag/plugin-clage"
-  },
-  "language": [
-    "fr_FR",
-    "en_US",
-    "es_ES",
-    "de_DE",
-    "it_IT",
-    "pt_PT"
-  ],
-  "compatibility": [
-    "miniplus",
-    "smart",
-    "rpi",
-    "docker",
-    "diy",
-    "mobile",
-    "v4",
-    "atlas"
-  ]
+	"id": "clage",
+	"name": "Clage",
+	"description": {
+		"fr_FR": "Le plugin permet de récupérer toutes les informations de son serveur HSX de Clage. Le serveur HSX récupère les informations de ses chauffe-eau connectés parmi MCX 3-7, CEX/CFX, DEX, DSX, DSX Touch, DSX Twin. Les informations qui remontent dans l’application Smart Control (iOS, Android) remontent également dans le plugin. Aucune connexion internet n’est requise pour récupérer ces informations, tout est en local.",
+		"en_US": "The plugin allows you to retrieve all the information from your HSX server from Clage. The HSX server retrieves information from its connected water heaters among MCX 3-7, CEX/CFX, DEX, DSX, DSX Touch, DSX Twin. The information that goes back into the Smart Control app (iOS, Android) also goes back into the plugin. No internet connection is required to retrieve this information, everything is local.",
+		"de_DE": "Mit dem Plugin kann man alle Informationen von seinem HSX-Server von Clage abrufen. Der HSX-Server ruft die Informationen von seinen angeschlossenen Warmwasserbereitern ab, darunter MCX 3-7, CEX/CFX, DEX, DSX, DSX Touch, DSX Twin. Die Informationen, die in der Smart Control App (iOS, Android) aufgerufen werden, werden auch in das Plugin übertragen. Es ist keine Internetverbindung erforderlich, um diese Informationen abzurufen, alles läuft lokal.",
+		"es_ES": "El plugin le permite recuperar toda la información de su servidor Clage HSX. El servidor HSX recupera información de sus calentadores de agua conectados, incluyendo MCX 3-7, CEX/CFX, DEX, DSX, DSX Touch y DSX Twin. La información enviada a la aplicación Smart Control (iOS, Android) también se envía al plugin. No se requiere conexión a Internet para recuperar esta información, todo se hace localmente.",
+		"it_IT": "Il plugin consente di recuperare tutte le informazioni dal server HSX di Clage. Il server HSX recupera le informazioni dagli scaldacqua collegati, tra cui MCX 3-7, CEX/CFX, DEX, DSX, DSX Touch e DSX Twin. Anche le informazioni inviate all'applicazione Smart Control (iOS, Android) vengono inviate al plugin. Non è necessaria alcuna connessione a Internet per recuperare queste informazioni, tutto avviene localmente.",
+		"pt_PT": "O plugin permite-lhe recuperar todas as informações do seu servidor Clage HSX. O servidor HSX recupera informações dos seus esquentadores ligados, incluindo MCX 3-7, CEX/CFX, DEX, DSX, DSX Touch e DSX Twin. As informações enviadas para a aplicação Smart Control (iOS, Android) também são enviadas para o plug-in. Não é necessária qualquer ligação à Internet para obter estas informações, tudo é feito localmente."
+	},
+	"utilization": "Après avoir entré l'IP du serveur, sauvegardez et lancer une synchronisation pour créer les appareils.",
+	"licence": "AGPL",
+	"author": "DomoFlo1",
+	"require": "4.2",
+	"category": "wellness",
+	"hasDependency": false,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-clage-pour-jeedom/",
+	"documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-clage-pour-jeedom/",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-clage"
+	},
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
 }

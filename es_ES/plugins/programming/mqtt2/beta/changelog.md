@@ -8,6 +8,7 @@
 - Si tienes equipo jeedom::monitorear desde el complemento virtual el complemento agregará automáticamente el comando de estado (en línea o fuera de línea), si ya tiene este equipo debe reiniciar el descubrimiento
 - Se corrigió un error en la transmisión del tipo real de equipo (cuando se transmite equipo entre jeedom)
 - Se corrigió un error en la duplicación de la tarea de escucha de eventos
+- En el equipo exportado, si el complemento de origen existe en el jeedom de destino, jeedom mostrará el ícono del complemento
 
 # 12/08/2024
 

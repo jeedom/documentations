@@ -1,34 +1,49 @@
 {
-  "id": "Jailbreak",
-  "name": "Jailbreak",
-  "description": "Ce plugin s’adresse à tous les iPad et iPhone retrouvés dans les placards et tiroirs, qui ont pris la poussière, que l’on a oubliés ou délaissés. Il permet d'intéragir avec Jeedom pour remonter des informations, lancer Application, exécuter des actions... Plus d'informations sur la présentation du plugin : https://flobul-domotique.fr/presentation-du-plugin-jailbreak-pour-jeedom/",
-  "installation": "Le guide de configuration se trouve sur cette page : <i><a class='btn btn-warning btn-xs' target='_blank' href='https://flobul-domotique.fr/configuration-du-plugin-jailbreak-pour-jeedom/'><i class='fas fa-cog'></i><strong> Configuration du plugin</strong></a></i></br><strong>Prérequis</strong> :</br>    - Un appareil sous iOS/iPadOS jailbreaké (testé sous iPadOS 13.5, 12.4.3, 9.3.5),</br>    - Le tweak OpenSSH installé et démarré sur l’appareil.</br>Le détail des commandes et leur fonctionnement sur la documentation du plugin: <i><a class='btn btn-primary btn-xs' target='_blank' href='https://flobul-domotique.fr/documentation-du-plugin-jailbreak-pour-jeedom/'><i class='fas fa-book'></i> Documentation du plugin",
-  "utilization": "Après avoir activé le Jailbreak de votre appareil, et lancé OpenSSH, créez un équipement sur Jeedom et renseignez les informations demandées (IP, port SSH, identifiant, mot de passe, preset, widget)",
-  "licence": "AGPL",
-  "author": "DomoFlo1",
-  "require": "4.2",
-  "hasDependency": true,
-  "hasOwnDeamon": false,
-  "category": "monitoring",
-  "languages": [
-    "fr_FR",
-    "en_US",
-    "es_ES",
-    "pt_PT",
-    "de_DE",
-    "it_IT"
-  ],
-  "compatibility": [
-    "miniplus",
-    "smart",
-    "rpi",
-    "docker",
-    "diy",
-    "v4"
-  ],
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-jailbreak-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/documentation-du-plugin-jailbreak-pour-jeedom/",
-  "link": {
-    "forum": "https://community.jeedom.com/t/plugin-tiers-plugin-jailbreak/19430/120"
-  }
+	"id": "Jailbreak",
+	"name": "Jailbreak",
+	"description": {
+		"fr_FR": "Ce plugin s’adresse à tous les iPad et iPhone retrouvés dans les placards et tiroirs, qui ont pris la poussière, que l’on a oubliés ou délaissés. Il permet d'intéragir avec Jeedom pour remonter des informations, lancer Application, exécuter des actions... Plus d'informations sur la présentation du plugin : https://flobul-domotique.fr/presentation-du-plugin-jailbreak-pour-jeedom/",
+		"de_DE": "Dieses Plugin ist für alle iPads und iPhones gedacht, die in Schränken und Schubladen verstauben, die man vergessen oder vernachlässigt hat. Es ermöglicht Ihnen, mit Jeedom zu interagieren, um Informationen zu erhalten, Anwendungen zu starten, Aktionen auszuführen... Weitere Informationen über das Plugin finden Sie unter: https://flobul-domotique.fr/presentation-du-plugin-jailbreak-pour-jeedom/",
+		"en_US": "This plugin is for all those iPads and iPhones you've found in closets and drawers, gathering dust, forgotten or neglected. It allows you to interact with Jeedom to send back information, launch applications, execute actions... More information on the plugin presentation: https://flobul-domotique.fr/presentation-du-plugin-jailbreak-pour-jeedom/",
+		"es_ES": "Este plug-in es para todos esos iPads y iPhones que tienes en armarios y cajones, acumulando polvo, olvidados o descuidados. Te permite interactuar con Jeedom para enviar información, lanzar aplicaciones, ejecutar acciones, etc. Para más información sobre el plugin: https://flobul-domotique.fr/presentation-du-plugin-jailbreak-pour-jeedom/",
+		"it_IT": "Questo plug-in è per tutti gli iPad e gli iPhone che avete in armadi e cassetti, che prendono polvere, che dimenticate o che trascurate. Permette di interagire con Jeedom per inviare informazioni, lanciare applicazioni, eseguire azioni, ecc. Per maggiori informazioni sul plugin: https://flobul-domotique.fr/presentation-du-plugin-jailbreak-pour-jeedom/",
+		"pt_PT": "Este plug-in é para todos os iPads e iPhones que tem nos armários e gavetas, a ganhar pó, esquecidos ou negligenciados. Permite-lhe interagir com o Jeedom para enviar informações, lançar aplicações, executar acções, etc. Para mais informações sobre o plugin: https://flobul-domotique.fr/presentation-du-plugin-jailbreak-pour-jeedom/"
+	},
+	"installation": "Le guide de configuration se trouve sur cette page : <i><a class='btn btn-warning btn-xs' target='_blank' href='https://flobul-domotique.fr/configuration-du-plugin-jailbreak-pour-jeedom/'><i class='fas fa-cog'></i><strong> Configuration du plugin</strong></a></i></br><strong>Prérequis</strong> :</br>    - Un appareil sous iOS/iPadOS jailbreaké (testé sous iPadOS 13.5, 12.4.3, 9.3.5),</br>    - Le tweak OpenSSH installé et démarré sur l’appareil.</br>Le détail des commandes et leur fonctionnement sur la documentation du plugin: <i><a class='btn btn-primary btn-xs' target='_blank' href='https://flobul-domotique.fr/documentation-du-plugin-jailbreak-pour-jeedom/'><i class='fas fa-book'></i> Documentation du plugin",
+	"utilization": "Après avoir activé le Jailbreak de votre appareil, et lancé OpenSSH, créez un équipement sur Jeedom et renseignez les informations demandées (IP, port SSH, identifiant, mot de passe, preset, widget)",
+	"licence": "AGPL",
+	"author": "DomoFlo1",
+	"require": "4.2",
+	"hasDependency": true,
+	"hasOwnDeamon": false,
+	"category": "monitoring",
+	"languages": [
+		"fr_FR",
+		"en_US",
+		"es_ES",
+		"pt_PT",
+		"de_DE",
+		"it_IT"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	],
+	"changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-jailbreak-pour-jeedom/",
+	"documentation": "https://flobul-domotique.fr/documentation-du-plugin-jailbreak-pour-jeedom/",
+	"link": {
+		"forum": "https://community.jeedom.com/t/plugin-tiers-plugin-jailbreak/19430/120"
+	},
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	]
 }

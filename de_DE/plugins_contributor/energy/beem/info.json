@@ -1,45 +1,45 @@
 {
-  "id": "beem",
-  "name": "Beem",
-  "description": {
-      "fr_FR": "Plugin permettant de récupérer les informations sa Beembox de chez Beem energy",
-      "en_US": "Plugin to retrieve information from Beem energy's Beembox",
-      "es_ES": "Plugin para recuperar información del Beembox de Beem energy",
-      "pt_PT": "Plugin para recuperar informações da Beem energy's Beembox",
-      "de_DE": "Plugin zum Abrufen von Informationen sa Beembox von Beem energy",
-      "it_IT": "Plugin per recuperare le informazioni dalla Beembox di Beem energy"
-  },
-  "utilization": "Après avoir entré l'email de connexion et le mot de passe dans la page de configuration, sélectionnez l'intervalle de rafraîchissement des informations. Lancez une synchronisation depuis la page des équipements.",
-  "licence": "AGPL",
-  "author": "DomoFlo1",
-  "require": "4.2",
-  "category": "energy",
-  "hasDependency": false,
-  "hasOwnDeamon": false,
-  "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
-  "changelog_beta": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
-  "documentation_beta": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
-  "link": {
-    "forum": "https://community.jeedom.com/tag/plugin-beem"
-  },
-  "language": [
-    "fr_FR",
-    "en_US",
-    "es_ES",
-    "pt_PT",
-    "de_DE",
-    "it_IT"
-  ],
-  "compatibility": [
-    "miniplus",
-    "smart",
-    "rpi",
-    "docker",
-    "diy",
-    "mobile",
-    "v4",
-    "atlas"
-  ]
+	"id": "beem",
+	"name": "Beem",
+	"description": {
+		"fr_FR": "Plugin permettant de récupérer les informations sa Beembox de chez Beem energy",
+		"en_US": "Plugin to retrieve information from Beem energy's Beembox",
+		"es_ES": "Plugin para recuperar información del Beembox de Beem energy",
+		"pt_PT": "Plugin para recuperar informações da Beem energy's Beembox",
+		"de_DE": "Plugin zum Abrufen von Informationen sa Beembox von Beem energy",
+		"it_IT": "Plugin per recuperare le informazioni dalla Beembox di Beem energy"
+	},
+	"utilization": "Après avoir entré l'email de connexion et le mot de passe dans la page de configuration, sélectionnez l'intervalle de rafraîchissement des informations. Lancez une synchronisation depuis la page des équipements.",
+	"licence": "AGPL",
+	"author": "DomoFlo1",
+	"require": "4.4",
+	"category": "energy",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
+	"documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
+	"changelog_beta": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
+	"documentation_beta": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-beem"
+	},
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
 }

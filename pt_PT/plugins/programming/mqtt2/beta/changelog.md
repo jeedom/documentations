@@ -8,6 +8,7 @@
 - Se você tiver equipamento jeedom::monitor a partir do plugin virtual o plugin adicionará automaticamente o comando state (online ou offline), caso você já possua este equipamento deverá reiniciar o Discovery
 - Corrigido bug na transmissão do tipo real de equipamento (ao transmitir equipamento entre jeedom)
 - Corrigido um bug na duplicação da tarefa de escuta de eventos
+- Em equipamentos exportados, se o plugin de origem existir no jeedom alvo, então o jeedom exibirá o ícone do plugin
 
 # 12/08/2024
 
