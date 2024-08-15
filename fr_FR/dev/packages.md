@@ -54,7 +54,6 @@ A partir de jeedom v4.2 il est possible de confier en partie la gestions des dé
 ```json
 {
   "apt" : {
-    "python3" : {},
     "python3-pip" : {},
     "python3-pyudev" : {},
     "python3-requests" : {},
