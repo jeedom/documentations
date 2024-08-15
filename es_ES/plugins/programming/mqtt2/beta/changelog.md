@@ -9,6 +9,7 @@
 - Se corrigió un error en la transmisión del tipo real de equipo (cuando se transmite equipo entre jeedom)
 - Se corrigió un error en la duplicación de la tarea de escucha de eventos
 - En el equipo exportado, si el complemento de origen existe en el jeedom de destino, jeedom mostrará el ícono del complemento
+- No hay errores en los registros durante la transmisión de comandos (evita romper el jeedom si se corta el demonio))
 
 # 12/08/2024
 

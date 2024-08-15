@@ -9,6 +9,7 @@
 - Corrigido bug na transmissão do tipo real de equipamento (ao transmitir equipamento entre jeedom)
 - Corrigido um bug na duplicação da tarefa de escuta de eventos
 - Em equipamentos exportados, se o plugin de origem existir no jeedom alvo, então o jeedom exibirá o ícone do plugin
+- Nenhum erro nos logs durante a transmissão do comando (evita quebrar o jeedom se o daemon for cortado)
 
 # 12/08/2024
 

@@ -9,6 +9,7 @@
 - Correction d'un bug sur la transmission du type réel de l'équipement (lors de la transmission d'équipement entre jeedom)
 - Correction d'un bug sur la duplication de la tache d'écoute des évenements
 - Sur les équipements exportés si le plugin source existe sur le jeedom cible alors jeedom affichera l'icone du plugin
+- Pas d'erreur dans les logs lors de la transmission de commande (evite de casser jeedom si le demon est coupé)
 
 # 12/08/2024
 
