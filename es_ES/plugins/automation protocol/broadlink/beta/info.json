@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.3.39",
+    "require": "4.4.8",
     "category": "automation protocol",
     "hasDependency": true,
     "hasOwnDeamon": true,
@@ -26,10 +26,14 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
-        "miniplus",
         "smart",
         "atlas",
         "rpi",

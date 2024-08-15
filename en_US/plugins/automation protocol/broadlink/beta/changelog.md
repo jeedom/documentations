@@ -4,6 +4,11 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 08/16/2024
+
+- Debian 12 Compatibility
+- Jeedom v4.4.8 required
+
 # 10/11/2022
 
 - Interface modernization

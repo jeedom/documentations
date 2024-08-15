@@ -4,6 +4,11 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 16.08.2024
+
+- Debian 12-Kompatibilität
+- Jeedom v4.4.8 erforderlich
+
 # 11.10.2022
 
 - Schnittstellenmodernisierung

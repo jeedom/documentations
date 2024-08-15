@@ -4,6 +4,11 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 16/08/2024
+
+- Compatibilidade com Debian 12
+- Jeedom v4.4.8 obrigatório
+
 # 11/10/2022
 
 - Modernização da interface

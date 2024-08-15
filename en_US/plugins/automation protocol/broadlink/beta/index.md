@@ -6,7 +6,7 @@ Plugin to interface Jeedom with Broadlink equipment.
 
 After installing the plugin, it must be activated and ensure the correct installation of dependencies.
 
->**IMPORTANT**
+>**Important**
 >
 >It is not recommended to change the internal socket port.
 

@@ -6,7 +6,7 @@ Complemento para conectar Jeedom con equipos Broadlink.
 
 Después de instalar el complemento, debe activarse y garantizar la correcta instalación de las dependencias.
 
->**IMPORTANTE**
+>**Importante**
 >
 >No se recomienda cambiar el puerto del zócalo interno.
 
