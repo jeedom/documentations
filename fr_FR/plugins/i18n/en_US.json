@@ -1762,5 +1762,8 @@
         "[Attention]": "[Be careful]",
         "*Attention*": "*Be careful*",
         " Attention*": " Be careful*"
+    },
+    "plugins\/zeroTier\/index.md": {
+        "Plugin ZeroTier": "ZeroTier Plugin"
     }
 }

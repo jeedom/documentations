@@ -772,5 +772,8 @@
         "De définir le jour et heure de fin des modes (absent, hors-gel, max et manuel": "De définir le jour et heure de fin des modes (absent, hors-gel, max et manuel",
         "L'ensemble des fonctions sont disponibles via scénarios": "L'ensemble des fonctions sont disponibles via scénarios",
         "Attention": "Attention"
+    },
+    "plugins\/zeroTier\/index.md": {
+        "Plugin ZeroTier": "Plugin ZeroTier"
     }
 }

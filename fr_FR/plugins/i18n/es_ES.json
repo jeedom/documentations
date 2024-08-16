@@ -1762,5 +1762,8 @@
         "[Attention]": "[Atención]",
         "*Attention*": "*Atención*",
         " Attention*": " Atención*"
+    },
+    "plugins\/zeroTier\/index.md": {
+        "Plugin ZeroTier": "Complemento de nivel cero"
     }
 }

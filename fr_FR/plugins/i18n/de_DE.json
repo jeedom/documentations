@@ -1762,5 +1762,8 @@
         "[Attention]": "[Achtung]",
         "*Attention*": "*Achtung*",
         " Attention*": " Achtung*"
+    },
+    "plugins\/zeroTier\/index.md": {
+        "Plugin ZeroTier": "ZeroTier-Plugin"
     }
 }

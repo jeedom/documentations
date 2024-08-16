@@ -1,0 +1,43 @@
+{
+    "id": "zeroTier",
+    "name": "zeroTier",
+    "description": {
+        "fr_FR": "Plugin ZeroTier avec Mode Client ou Mode Administrateur",
+        "en_US": "ZeroTier Plugin with Client Mode or Admin Mode",
+        "es_ES": "Complemento ZeroTier con modo cliente o modo administrador",
+        "de_DE": "ZeroTier-Plugin mit Client-Modus oder Administrator-Modus",
+        "ru_RU": "Plugin ZeroTier avec Mode Client ou Mode Administrateur",
+        "id_ID": "Plugin ZeroTier avec Mode Client ou Mode Administrateur",
+        "it_IT": "Plugin ZeroTier avec Mode Client ou Mode Administrateur",
+        "ja_JP": "Plugin ZeroTier avec Mode Client ou Mode Administrateur",
+        "pt_PT": "Plug-in ZeroTier com modo cliente ou modo administrador",
+        "tr": "Plugin ZeroTier avec Mode Client ou Mode Administrateur"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.4.0",
+    "category": "home automation protocol",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home automation protocol\/zeroTier\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home automation protocol\/zeroTier\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home automation protocol\/zeroTier\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home automation protocol\/zeroTier\/beta",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "v4",
+        "atlas",
+        "luna"
+    ]
+}

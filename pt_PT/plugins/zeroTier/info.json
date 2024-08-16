@@ -1,0 +1,38 @@
+{
+	"id" : "zeroTier",
+	"name" : "zeroTier",
+	"description" : {
+		"fr_FR": "Plugin ZeroTier avec Mode Client ou Mode Administrateur"
+	},
+	"licence" : "AGPL",
+	"author" : "Jeedom SAS",
+	"require" : "4.4.0",
+	"category" : "home automation protocol",
+	"hasDependency" : true,
+	"hasOwnDeamon" : true,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://jeedom.github.io/plugin-zeroTier/#language#/changelog",
+	"documentation" : "https://jeedom.github.io/plugin-zeroTier/#language#/",
+	"changelog_beta" : "https://jeedom.github.io/plugin-zeroTier/#language#/beta/changelog",
+	"documentation_beta" : "https://jeedom.github.io/plugin-zeroTier/#language#/beta/",
+	"link" : {
+		"forum":"Lien vers le forum",
+		"video" : "Lien vers une video"
+	},
+	"language": [
+		"fr_FR",
+		"en_US",
+		"es_ES",
+		"de_DE",
+		"ru_RU",
+		"id_ID",
+		"it_IT",
+		"ja_JP",
+		"pt_PT"
+	],
+	"compatibility": [
+		"v4",
+		"atlas",
+		"luna"
+	]
+}
