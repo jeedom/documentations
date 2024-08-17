@@ -875,7 +875,6 @@
     },
     "plugins\/home automation protocol\/index.md": {
         "Plugin ZeroTier avec Mode Client ou Mode Administrateur": "Complemento ZeroTier con modo cliente o modo administrador",
-        "ATTENTION plugin disponible uniquement en beta": "ATENCIÓN complemento solo disponible en versión beta",
         "Plugin spécialisé pour la box Jeedom Luna": "Complemento especializado para la caja Jeedom Luna",
         "Plugin spécialisé pour la box Jeedom Atlas": "Complemento especializado para la caja Jeedom Atlas",
         "Seuls les plugins officiels ont leur documentation ici": "Solo los complementos oficiales tienen su documentación aquí",
@@ -887,8 +886,6 @@
         "Documentation Beta": "Documentación beta",
         "Changelog Stable": "Registro de cambios estable",
         "Changelog Beta": "Registro de cambios Beta",
-        "Documentation beta": "Documentación beta",
-        "Changelog beta": "Registro de cambios Beta",
         " zeroTier.": " nivel cero.",
         " zeroTier?": " nivel cero?",
         "zeroTier ": "nivel cero ",

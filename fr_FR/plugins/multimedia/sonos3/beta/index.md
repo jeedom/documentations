@@ -50,11 +50,17 @@ Ces commandes vont toujours contrôler l'équipement correspondant, y compris lo
 - **Muet**: Active le mode muet.
 - **Non Muet**: Désactive le mode muet.
 - **Muet statut**: indique si on est en mode muet ou non.
+- **Balance** (action/curseur) et **Balance statut** qui gère la balance selon une valeur comprise entre -100 (tout à gauche) et 100 (tout à droite) pour les Sonos compatibles
+- **Graves** (action/curseur) et **Graves statut** qui gère les graves selon une valeur comprise entre -10 et 10
+- **Aigus** (action/curseur) et **Aigus statut** qui gère la aigus selon une valeur comprise entre -10 et 10
+- **Loudness statut**, **Loudness on**, **Loudness off** contrôle le loudness
+
 - **TV**: pour basculer sur l'entrée *TV* sur les équipements compatibles
 - **Entrée audio analogique**: pour basculer sur l'*Entrée audio analogique* (*Line-in*) sur les équipements compatibles
-- **Led on**: Active la led, le voyant d'état.
-- **Led off**: Désactive la led, le voyant d'état.
-- **Led statut**: indique si le voyant d'état est allumé ou non. Cette info n'est mise à jour qu'une fois par minute dans le cas où elle est modifiée hors Jeedom.
+- **Led on** et **Led off**: Active et désactive la led, le voyant d'état
+- **Led statut**: indique si le voyant d'état est allumé ou non. Cette info n'est mise à jour qu'une fois par minute dans le cas où elle est modifiée hors Jeedom
+- **Commandes tactiles on** et **Commandes tactiles off** Active et désactive les boutons physiques ou tactiles sur le Sonos
+- **Commandes tactiles statut** indique si les commandes tactiles sont activées ou pas
 
 ## Commandes de lecture
 
@@ -71,6 +77,7 @@ Ces commandes indiqueront et contrôleront la lecture en cours sur l'équipement
 - **Aléatoire**: inverse le statut du mode aléatoire.
 - **Répéter statut**: indique si on est en mode répété ou non.
 - **Répéter**: inverse le statut du mode "répéter".
+- **Fondu enchaîné statut**, **Fondu enchaîné on**, **Fondu enchaîné off** pour contrôler et activer ou non le *Fondu enchaîné*
 - **Choisir mode de lecture** permet de choisir parmi les possibilités suivantes:
   - *Normal* (répétition off, aléatoire off),
   - *Répéter tout* (aléatoire off),
@@ -102,6 +109,7 @@ Ces commandes agissent toujours sur l'équipement correspondant.
 - **Nom du groupe** dans le cas où l'équipement est groupé, donne le nom du groupe.
 - **Rejoindre un groupe**: permet de rejoindre le groupe du haut-parleur (un Sonos) donné (pour associer 2 Sonos par exemple). Il faut mettre le nom de la pièce du sonos à rejoindre. Cela peut-être n'importe quel membre d'un groupe existant, cela ne doit pas nécessairement être le coordinateur du groupe, ou un Sonos isolé. Dans un scénario, une liste de possibilité sera automatiquement affichée lorsque vous commencerez à taper.
 - **Quitter le groupe**: permet de quitter le groupe.
+- **Mode fête** permet de grouper tous les Sonos ensemble
 
 # TTS
 

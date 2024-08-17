@@ -382,9 +382,8 @@
         "Changelog Beta": "Changelog Beta"
     },
     "plugins\/home automation protocol\/index.md": {
-        "Plugin ZeroTier avec Mode Client ou Mode Administrateur": "Plugin ZeroTier avec Mode Client ou Mode Administrateur",
         "zeroTier": "zeroTier",
-        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "Plugin ZeroTier avec Mode Client ou Mode Administrateur": "Plugin ZeroTier avec Mode Client ou Mode Administrateur",
         "Luna": "Luna",
         "Plugin spécialisé pour la box Jeedom Luna": "Plugin spécialisé pour la box Jeedom Luna",
         "Atlas": "Atlas",
@@ -400,9 +399,7 @@
         "Documentation Beta": "Documentation Beta",
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
-        "Changelog Beta": "Changelog Beta",
-        "Documentation beta": "Documentation beta",
-        "Changelog beta": "Changelog beta"
+        "Changelog Beta": "Changelog Beta"
     },
     "plugins\/jeeDashboardPublish\/index.md": {
         "Plugin template": "Plugin template",

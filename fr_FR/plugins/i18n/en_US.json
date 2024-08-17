@@ -875,7 +875,6 @@
     },
     "plugins\/home automation protocol\/index.md": {
         "Plugin ZeroTier avec Mode Client ou Mode Administrateur": "ZeroTier Plugin with Client Mode or Admin Mode",
-        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin only available in beta",
         "Plugin spécialisé pour la box Jeedom Luna": "Specialized plugin for the Jeedom Luna box",
         "Plugin spécialisé pour la box Jeedom Atlas": "Specialized plugin for the Jeedom Atlas box",
         "Seuls les plugins officiels ont leur documentation ici": "Only official plugins have their documentation here",
@@ -887,8 +886,6 @@
         "Documentation Beta": "Beta Documentation",
         "Changelog Stable": "Changelog Stable",
         "Changelog Beta": "Changelog Beta",
-        "Documentation beta": "Beta Documentation",
-        "Changelog beta": "Changelog Beta",
         " zeroTier.": " zeroTier.",
         " zeroTier?": " zeroTier?",
         "zeroTier ": "zeroTier ",
