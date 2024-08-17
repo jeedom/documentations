@@ -1,9 +1,14 @@
 {
 	"id": "import2calendar",
 	"name": "ical2Calendar",
-	"pluginVersion": "1.0.0",
+	"pluginVersion": "1.0.8",
 	"description": {
-		"fr_FR": "ical2Calendar permet d'importer un calendrier ical dans le plugin agenda officiel que celui-ci viennent de Google, Outlook, Nextcloud ou autre."
+		"fr_FR": "ical2Calendar permet d'importer un calendrier ical dans le plugin agenda officiel que celui-ci viennent de Google, Outlook, Nextcloud ou autre.",
+		"en_US": "ical2Calendar lets you import an ical calendar into the official calendar plugin, whether it's from Google, Outlook, Nextcloud or another source.",
+		"es_ES": "ical2Calendar le permite importar un calendario ical en el plugin de calendario oficial, ya venga de Google, Outlook, Nextcloud u otra fuente.",
+		"de_DE": "mit ical2Calendar können Sie einen ical-Kalender in das offizielle Kalender-Plugin importieren, unabhängig davon, ob dieser von Google, Outlook, Nextcloud oder anderen Anbietern stammt.",
+		"it_IT": "ical2Calendar consente di importare un calendario ical nel plugin calendario ufficiale, sia che provenga da Google, Outlook, Nextcloud o altra fonte.",
+		"pt_PT": "o ical2Calendar permite-lhe importar um calendário ical para o plug-in de calendário oficial, quer seja proveniente do Google, Outlook, Nextcloud ou outra fonte."
 	},
 	"licence": "AGPL",
 	"author": "Sagitaz",
@@ -20,7 +25,12 @@
 		"forum": "https://community.jeedom.com/tag/plugin-import2calendar"
 	},
 	"language": [
-		"fr_FR"
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",
