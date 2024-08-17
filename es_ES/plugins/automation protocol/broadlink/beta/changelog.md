@@ -8,6 +8,7 @@
 
 - Compatibilidad con Debian 12
 - Jeedom v4.4.8 requeridos
+- Ya no se garantiza la compatibilidad con Debian 10, si todavía estás en Debian 10 y no tienes problemas no instales la actualización.
 
 # 10/11/2022
 
