@@ -1,35 +1,43 @@
 {
-    "id": "linksys",
-    "name": "Linksys",
-    "description": {
-        "fr_FR": "Informations et contrôle de vos routeurs Linksys.",
-        "en_US": "Information and control of your Linksys routers."
-    },
-    "utilization": "Sur la page de l'équipement renseignez l'adresse IP de votre routeur ainsi que l'identifiant et le mot de passe du compte admin, puis cliquez sur le bouton Sauvegarder.",
-    "licence": "AGPL",
-    "author": "Mips",
-    "require": "4.3",
-    "category": "communication",
-    "hasDependency": false,
-    "hasOwnDeamon": false,
-    "maxDependancyInstallTime": 0,
-    "changelog": "https://mips2648.github.io/jeedom-plugins-docs/linksys/#language#/changelog",
-    "documentation": "https://mips2648.github.io/jeedom-plugins-docs/linksys/#language#/",
-    "changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/linksys/#language#/changelog",
-    "documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/linksys/#language#/",
-    "link": {
-        "forum": "https://community.jeedom.com/tag/plugin-linksys"
-    },
-    "language": [
-        "fr_FR",
-        "en_US"
-    ],
-    "compatibility": [
-        "smart",
-        "atlas",
-        "rpi",
-        "docker",
-        "diy",
-        "v4"
-    ]
+	"id": "linksys",
+	"name": "Linksys",
+	"description": {
+		"fr_FR": "Informations et contrôle de vos routeurs Linksys.",
+		"en_US": "Information and control of your Linksys routers.",
+		"es_ES": "Información y control de sus routers Linksys.",
+		"de_DE": "Informationen und Kontrolle über Ihre Linksys-Router.",
+		"it_IT": "Informazioni e controllo dei router Linksys.",
+		"pt_PT": "Informação e controlo dos seus routers Linksys."
+	},
+	"utilization": "Sur la page de l'équipement renseignez l'adresse IP de votre routeur ainsi que l'identifiant et le mot de passe du compte admin, puis cliquez sur le bouton Sauvegarder.",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.3",
+	"category": "communication",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/linksys/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/linksys/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/linksys/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/linksys/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-linksys"
+	},
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"smart",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
 }
