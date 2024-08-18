@@ -246,4 +246,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2024-08-17 02:20:03
+2024-08-18 02:20:03
