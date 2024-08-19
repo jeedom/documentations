@@ -1,7 +1,14 @@
 {
 	"id": "fullup",
 	"name": "Fullup",
-	"description": "Plugin permettant la lecture des données des jauges connectées Fullup. Le plugin actualise les données toutes les heures via un cron.",
+	"description": {
+		"fr_FR": "Plugin permettant la lecture des données des jauges connectées Fullup. Le plugin actualise les données toutes les heures via un cron.",
+		"en_US": "Plugin for reading data from Fullup connected gauges. The plugin updates the data every hour via a cron.",
+		"es_ES": "Plugin para la lectura de datos de los medidores conectados a Fullup. El plugin actualiza los datos cada hora mediante un cron.",
+		"de_DE": "Plugin zum Auslesen der Daten von angeschlossenen Fullup-Messgeräten. Das Plugin aktualisiert die Daten stündlich über einen Cron.",
+		"it_IT": "Plugin per la lettura dei dati dei misuratori collegati a Fullup. Il plugin aggiorna i dati ogni ora tramite un cron.",
+		"pt_PT": "Plugin para leitura de dados de medidores ligados ao Fullup. O plugin actualiza os dados de hora a hora através de um cron."
+	},
 	"utilization": "",
 	"licence": "AGPL",
 	"author": "Mips",
@@ -17,8 +24,12 @@
 		"video": ""
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",

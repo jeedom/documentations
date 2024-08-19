@@ -1,7 +1,14 @@
 {
 	"id": "logmanager",
 	"name": "LogManager",
-	"description": "Plugin permettant une gestion de log personnalisée dans vos scénarios. Il est possible de créer autant de log que voulu, différent niveau de log sont possible pour chaque fichier de log. Cela permet d'organiser vos logs de scénario selon vos préférences, de par exemple regrouper toutes les actions sur un équipement dans le même log quelque soit le scénario.",
+	"description": {
+		"fr_FR": "Plugin permettant une gestion de log personnalisée dans vos scénarios. Il est possible de créer autant de log que voulu, différent niveau de log sont possible pour chaque fichier de log. Cela permet d'organiser vos logs de scénario selon vos préférences, de par exemple regrouper toutes les actions sur un équipement dans le même log quelque soit le scénario.",
+		"en_US": "Plugin for customized log management in your scenarios. You can create as many logs as you like, with different log levels for each log file. This allows you to organize your scenario logs according to your preferences, for example, to group all actions on a piece of equipment in the same log, whatever the scenario.",
+		"es_ES": "Plugin para la gestión personalizada de registros en sus escenarios. Puede crear tantos registros como desee, y son posibles diferentes niveles de registro para cada archivo de registro. Esto te permite organizar los registros de tus escenarios según tus preferencias, por ejemplo agrupando todas las acciones sobre un equipo en un mismo registro, sea cual sea el escenario.",
+		"de_DE": "Plugin, das eine personalisierte Log-Verwaltung in Ihren Szenarien ermöglicht. Es können beliebig viele Logs erstellt werden, wobei für jede Logdatei verschiedene Logstufen möglich sind. So können Sie Ihre Szenarien-Logs nach Ihren Wünschen organisieren, z. B. alle Aktionen an einem Gerät in einem einzigen Log zusammenfassen, unabhängig vom Szenario.",
+		"it_IT": "Plugin per la gestione personalizzata dei log nei vostri scenari. È possibile creare tutti i registri che si desidera e per ogni file di registro sono possibili livelli diversi. Ciò consente di organizzare i registri degli scenari in base alle proprie preferenze, ad esempio raggruppando tutte le azioni su un'apparecchiatura nello stesso registro, indipendentemente dallo scenario.",
+		"pt_PT": "Plugin para uma gestão personalizada dos registos nos seus cenários. Pode criar o número de registos que desejar e são possíveis diferentes níveis de registo para cada ficheiro de registo. Isto permite-lhe organizar os registos dos seus cenários de acordo com as suas preferências, por exemplo, agrupando todas as acções de um equipamento no mesmo registo, independentemente do cenário."
+	},
 	"utilization": "La consultation des logs se fait via l'interface standard de Jeedom. La purge des logs est également gérée par la config générale de Jeedom.",
 	"licence": "AGPL",
 	"author": "Mips",
@@ -19,8 +26,12 @@
 		"video": ""
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",
