@@ -4,8 +4,19 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+- Adición de un mensaje en línea y fuera de línea al iniciar y detener (se desee o no) el demonio en topic_racine/state
+- Si tienes equipo jeedom::monitorear desde el complemento virtual el complemento agregará automáticamente el comando de estado (en línea o fuera de línea), si ya tiene este equipo debe reiniciar el descubrimiento
+- Se corrigió un error en la transmisión del tipo real de equipo (cuando se transmite equipo entre jeedom)
+- Se corrigió un error en la duplicación de la tarea de escucha de eventos
+- En el equipo exportado, si el complemento de origen existe en el jeedom de destino, jeedom mostrará el ícono del complemento
+- No hay errores en los registros durante la transmisión de comandos (evita romper el jeedom si se corta el demonio))
+- Mejor gestión de pedidos huérfanos
+
+# 12/08/2024
+
 - Se corrigió un error al enviar equipos desde la ventana de configuración
 - Se agregó un botón para ver los registros de mosquitos (si está en modo de administrador local))
+- Se actualizó la documentación para explicar mejor cómo sincronizar temas entre dos mosquitos
 
 # 10/08/2024
 

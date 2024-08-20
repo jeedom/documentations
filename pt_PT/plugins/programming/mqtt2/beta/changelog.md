@@ -4,6 +4,8 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+# 20/08/2024
+
 - Adição de uma mensagem online e offline ao iniciar e parar (desejado ou não) o daemon em topic_racine/state
 - Se você tiver equipamento jeedom::monitor a partir do plugin virtual o plugin adicionará automaticamente o comando state (online ou offline), caso você já possua este equipamento deverá reiniciar o Discovery
 - Corrigido bug na transmissão do tipo real de equipamento (ao transmitir equipamento entre jeedom)
@@ -11,6 +13,7 @@
 - Em equipamentos exportados, se o plugin de origem existir no jeedom alvo, então o jeedom exibirá o ícone do plugin
 - Nenhum erro nos logs durante a transmissão do comando (evita quebrar o jeedom se o daemon for cortado)
 - Melhor gerenciamento de pedidos órfãos
+- Corrigido um bug ao executar comandos de tipo de mensagem
 
 # 12/08/2024
 
