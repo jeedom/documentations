@@ -10,6 +10,7 @@
 - Ein Fehler bei der Duplizierung der Ereignisüberwachungsaufgabe wurde behoben
 - Wenn auf exportierten Geräten das Quell-Plugin auf dem Ziel-Jeedom vorhanden ist, zeigt Jeedom das Plugin-Symbol an
 - Kein Fehler in den Protokollen während der Befehlsübertragung (vermeidet die Zerstörung von Jeedom, wenn der Daemon unterbrochen wird))
+- Bestes Management verwaister Bestellungen
 
 # 12.08.2024
 
