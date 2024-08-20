@@ -1,7 +1,14 @@
 {
 	"id": "rocketchat",
 	"name": "Rocket.chat",
-	"description": "Plugin permettant la connexion à un serveur Rocket.chat. Rocket.chat est une plateforme de messagerie collaborative (type slack, HipChat...)",
+	"description": {
+		"fr_FR": "Plugin permettant la connexion à un serveur Rocket.chat. Rocket.chat est une plateforme de messagerie collaborative (type slack, HipChat...)",
+		"en_US": "Plugin for connecting to a Rocket.chat server. Rocket.chat is a collaborative messaging platform (type slack, HipChat...)",
+		"es_ES": "Plugin para conectarse a un servidor Rocket.chat. Rocket.chat es una plataforma de mensajería colaborativa (como slack, HipChat...)",
+		"de_DE": "Plugin, das die Verbindung zu einem Rocket.chat-Server ermöglicht. Rocket.chat ist eine Plattform für kollaboratives Messaging (Typ slack, HipChat...)",
+		"it_IT": "Plugin per la connessione a un server Rocket.chat. Rocket.chat è una piattaforma di messaggistica collaborativa (come Slack, HipChat...)",
+		"pt_PT": "Plugin para ligação a um servidor Rocket.chat. O Rocket.chat é uma plataforma de mensagens colaborativas (como o Slack, o HipChat...)"
+	},
 	"utilization": "Vous devez créer un utilisateur sur votre seveur Rocket.Chat dédié au plugin, de préférence ayant le rôle 'bot'",
 	"licence": "AGPL",
 	"author": "Mips",
@@ -19,8 +26,12 @@
 		"video": ""
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",
