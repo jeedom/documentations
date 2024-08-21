@@ -1,7 +1,14 @@
 {
 	"id": "SmartMeterP1",
 	"name": "SmartMeter P1",
-	"description": "Plugin de se connecter à un SmartMeter équipé d'un port P1",
+	"description": {
+		"fr_FR": "Plugin de se connecter à un SmartMeter équipé d'un port P1",
+		"en_US": "Plugin to connect to a SmartMeter equipped with a P1 port",
+		"es_ES": "Plugin para conectarse a un SmartMeter equipado con un puerto P1",
+		"de_DE": "Plugin zur Verbindung mit einem SmartMeter, der mit einem P1-Anschluss ausgestattet ist",
+		"it_IT": "Plugin per il collegamento a uno SmartMeter dotato di porta P1",
+		"pt_PT": "Plugin para ligação a um contador SmartMeter equipado com uma porta P1"
+	},
 	"utilization": "",
 	"licence": "AGPL",
 	"author": "Mips",
@@ -19,8 +26,12 @@
 		"video": ""
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",

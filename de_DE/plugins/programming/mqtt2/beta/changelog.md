@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Implementierung einer Optimierung der Verwaltung übertragener Geräte mit jeedom 4.5
+
 # 20.08.2024
 
 - Hinzufügen einer Online- und Offline-Meldung beim Starten und Stoppen (gewollt oder nicht) des Daemons in topic_racine/state

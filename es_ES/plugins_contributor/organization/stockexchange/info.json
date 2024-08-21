@@ -1,7 +1,14 @@
 {
 	"id": "stockexchange",
 	"name": "Stock exchange",
-	"description": "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin). Toutes les données sont généralement disponibles en temps réel mais la fréquence d’actualisation dépend du service utilisé.",
+	"description": {
+		"fr_FR": "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin). Toutes les données sont généralement disponibles en temps réel mais la fréquence d’actualisation dépend du service utilisé.",
+		"en_US": "Plugin for retrieving stock market prices (regardless of the symbol requested) as well as the exchange rate between two currencies (including crypto-currencies such as bitcoin). All data is generally available in real time, but the frequency of updates depends on the service used.",
+		"es_ES": "Plugin para recuperar las cotizaciones bursátiles (independientemente del símbolo solicitado), así como el tipo de cambio entre dos divisas (incluidas criptomonedas como el bitcoin). Por lo general, todos los datos están disponibles en tiempo real, pero la frecuencia de las actualizaciones depende del servicio utilizado.",
+		"de_DE": "Plugin zum Abrufen von Börsenkursen (unabhängig vom angeforderten Symbol), aber auch des Wechselkurses zwischen zwei Währungen (einschließlich Kryptowährungen wie Bitcoin). Alle Daten sind in der Regel in Echtzeit verfügbar, die Häufigkeit der Aktualisierung hängt jedoch vom verwendeten Dienst ab.",
+		"it_IT": "Plugin per il recupero delle quotazioni di borsa (indipendentemente dal simbolo richiesto) e del tasso di cambio tra due valute (comprese le criptovalute come il bitcoin). Tutti i dati sono generalmente disponibili in tempo reale, ma la frequenza degli aggiornamenti dipende dal servizio utilizzato.",
+		"pt_PT": "Plugin para obter os preços da bolsa de valores (independentemente do símbolo solicitado), bem como a taxa de câmbio entre duas moedas (incluindo criptomoedas como o bitcoin). Todos os dados estão geralmente disponíveis em tempo real, mas a frequência das actualizações depende do serviço utilizado."
+	},
 	"utilization": "Une clé API (gratuite) est nécessaire, voir documentation.",
 	"licence": "AGPL",
 	"author": "Mips",
@@ -19,8 +26,12 @@
 		"video": ""
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",

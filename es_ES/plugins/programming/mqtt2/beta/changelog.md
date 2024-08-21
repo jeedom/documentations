@@ -4,6 +4,8 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+- Implementación de optimización en la gestión de equipos transmitidos con jeedom 4.5
+
 # 20/08/2024
 
 - Adición de un mensaje en línea y fuera de línea al iniciar y detener (se desee o no) el demonio en topic_racine/state

@@ -4,6 +4,8 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+- Mise en place d'optimisation sur la gestion des équipements tranmis avec jeedom 4.5
+
 # 20/08/2024
 
 - Ajout d'un message online et offline lors de du lancement et de l'arret (voulu ou non) du démon dans topic_racine/state

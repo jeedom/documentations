@@ -4,6 +4,8 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+- Implementation of optimization on the management of equipment transmitted with jeedom 4.5
+
 # 20/08/2024
 
 - Added an online and offline message when starting and stopping (wanted or not) the daemon in topic_racine/state

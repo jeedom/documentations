@@ -4,6 +4,8 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+- Implementação de otimização na gestão de equipamentos transmitidos com jeedom 4.5
+
 # 20/08/2024
 
 - Adição de uma mensagem online e offline ao iniciar e parar (desejado ou não) o daemon em topic_racine/state
