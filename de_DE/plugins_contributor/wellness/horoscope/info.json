@@ -1,26 +1,38 @@
 {
-    "id": "horoscope",
-    "name": "Horoscope",
-    "description": "Plugin permettant de générer une phrase (selon différents thèmes) tous les jours en fonction des différents signes astrologiques.<br/>Très sympa pour donner l'horoscope le matin à une personne via TTS (par exemple avec la caméra Netatmo qui reconnait les visages) ou par SMS.",
-    "usage": "Il suffit de créer un équipement (de préférence le nom d'un signe du zodiaque) et de lui affecter le signe correspondant.<br/>Des petites phrases concernant son horoscope seront ensuite générées tous les jours.<br/>Depuis la dernière version, vous avez désormais accès à toutes les composantes du signe (Amour, Famille, Argent, Phrase de jour, ...).<br/>Cela permet de diversifier les messages TTS pour des personnes possédant le même signe du zodiaque par exemple.",
-    "licence": "AGPL",
-    "author": "JAG",
-    "require": "4.2",
-    "category": "wellness",
-    "hasDependency": false,
-    "hasOwnDeamon": false,
-    "maxDependancyInstallTime": 0,
-    "language": [
-        "fr_FR"
-    ],
-    "changelog": "https://jealg.github.io/documentation/plugin-horoscope/#language#/changelog",
-    "documentation": "https://jealg.github.io/documentation/plugin-horoscope/#language#/",
-    "changelog_beta" : "https://jealg.github.io/documentation/plugin-horoscope/#language#/changelog_beta",
- 	"documentation_beta" : "https://jealg.github.io/documentation/plugin-horoscope/#language#/",
-     "link" : {
-		"forum":"https://community.jeedom.com/tag/plugin-horoscope"
+	"id": "horoscope",
+	"name": "Horoscope",
+	"description": {
+		"fr_FR": "Plugin permettant de générer une phrase (selon différents thèmes) tous les jours en fonction des différents signes astrologiques.<br/>Très sympa pour donner l'horoscope le matin à une personne via TTS (par exemple avec la caméra Netatmo qui reconnait les visages) ou par SMS.",
+		"en_US": "Plugin to generate a phrase (according to different themes) every day based on the different astrological signs.<br/>Very useful for giving the horoscope in the morning to a person via TTS (for example with the Netatmo camera that recognizes faces) or by SMS.",
+		"es_ES": "Plugin que genera una frase (basada en diferentes temas) cada día según los diferentes signos astrológicos.<br/>Muy útil para dar el horóscopo por la mañana a alguien vía TTS (por ejemplo con la cámara Netatmo que reconoce caras) o por SMS.",
+		"de_DE": "Plugin, mit dem man jeden Tag einen Satz (nach verschiedenen Themen) entsprechend der verschiedenen Sternzeichen generieren kann.<br/> Sehr nett, um einer Person morgens das Horoskop über TTS (z.B. mit der Netatmo-Kamera, die Gesichter erkennt) oder per SMS zu geben.",
+		"it_IT": "Plugin che genera ogni giorno una frase (basata su diversi temi) in base ai diversi segni zodiacali.<br/>Molto utile per dare l'oroscopo al mattino a qualcuno via TTS (ad esempio con la telecamera Netatmo che riconosce i volti) o via SMS.",
+		"pt_PT": "Plugin que gera uma frase (com base em diferentes temas) todos os dias, de acordo com os diferentes signos astrológicos.<br/>Muito útil para dar o horóscopo de manhã a alguém através de TTS (por exemplo, com a câmara Netatmo que reconhece rostos) ou por SMS."
 	},
-     "compatibility": [
+	"usage": "Il suffit de créer un équipement (de préférence le nom d'un signe du zodiaque) et de lui affecter le signe correspondant.<br/>Des petites phrases concernant son horoscope seront ensuite générées tous les jours.<br/>Depuis la dernière version, vous avez désormais accès à toutes les composantes du signe (Amour, Famille, Argent, Phrase de jour, ...).<br/>Cela permet de diversifier les messages TTS pour des personnes possédant le même signe du zodiaque par exemple.",
+	"licence": "AGPL",
+	"author": "JAG",
+	"require": "4.2",
+	"category": "wellness",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"changelog": "https://jealg.github.io/documentation/plugin-horoscope/#language#/changelog",
+	"documentation": "https://jealg.github.io/documentation/plugin-horoscope/#language#/",
+	"changelog_beta": "https://jealg.github.io/documentation/plugin-horoscope/#language#/changelog_beta",
+	"documentation_beta": "https://jealg.github.io/documentation/plugin-horoscope/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-horoscope"
+	},
+	"compatibility": [
 		"miniplus",
 		"smart",
 		"rpi",

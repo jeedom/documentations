@@ -1,26 +1,34 @@
 {
-    "id": "rosee",
-    "name": "Rosée - Givre - Tendance",
-    "description": "Plugin permetant de calculer : le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo. <BR/>Le point de givrage ainsi que l'alerte ne se calculent uniquement dans le cas où la température < 5°C. <BR />",
-    "usage": "Il faut renseigner les champs Temperature, Humidité, Pression <br/>Pour l'humidité absolue, on peut indiquer également une pression barométrique, sinon une valeur par défaut est prise en compte<br/> Il est possible d'ajouter un offset sur la température",
-    "licence": "AGPL",
-    "author": "JAG",
-    "require": "4.0",
-    "category": "weather",
-    "hasDependency": false,
-    "hasOwnDeamon": false,
-    "maxDependancyInstallTime": 0,
-    "language": [
-        "fr_FR"
-    ],
-    "changelog": "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog",
-    "documentation": "https://jealg.github.io/documentation/plugin-rosee/#language#/",
-    "changelog_beta" : "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog_beta",
- 	"documentation_beta" : "https://jealg.github.io/documentation/plugin-rosee/#language#/",
-     "link" : {
-		"forum":"https://community.jeedom.com/tag/plugin-rosee"
+	"id": "rosee",
+	"name": "Rosée - Givre - Tendance",
+	"description": {
+		"fr_FR": "Plugin permetant de calculer : le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo. <BR/>Le point de givrage ainsi que l'alerte ne se calculent uniquement dans le cas où la température < 5°C. <BR />",
+		"en_US": "Plugin for calculating: dew point, icing point, absolute humidity and weather trend. <BR />The icing point as well as the alert are calculated only in the case of temperature < 5°C. <BR />",
+		"es_ES": "Plugin para calcular: punto de rocío, punto de congelación, humedad absoluta y tendencia del tiempo. <BR />El punto de congelación así como la alerta sólo se calculan en caso de temperatura < 5°C. <BR />",
+		"de_DE": "Plugin zur Berechnung von: Taupunkt, Vereisungspunkt, absoluter Luftfeuchtigkeit und Wettertrend. <BR/>Der Vereisungspunkt sowie die Warnung werden nur berechnet, wenn die Temperatur < 5°C beträgt. <BR />"
 	},
-     "compatibility": [
+	"usage": "Il faut renseigner les champs Temperature, Humidité, Pression <br/>Pour l'humidité absolue, on peut indiquer également une pression barométrique, sinon une valeur par défaut est prise en compte<br/> Il est possible d'ajouter un offset sur la température",
+	"licence": "AGPL",
+	"author": "JAG",
+	"require": "4.0",
+	"category": "weather",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR"
+	],
+	"changelog": "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog",
+	"documentation": "https://jealg.github.io/documentation/plugin-rosee/#language#/",
+	"changelog_beta": "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog_beta",
+	"documentation_beta": "https://jealg.github.io/documentation/plugin-rosee/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-rosee"
+	},
+	"compatibility": [
 		"miniplus",
 		"smart",
 		"rpi",
