@@ -54,7 +54,6 @@ From jeedom v4.2 it is possible to partly entrust the management of the dependen
 `` ``json
 {
   "apt" : {
-    "python3" : {},
     "python3-pip" : {},
     "python3-pyudev" : {},
     "python3-requests" : {},

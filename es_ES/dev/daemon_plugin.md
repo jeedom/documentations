@@ -361,7 +361,7 @@ Puede copiar / pegar el código a continuación como está y modificar las líne
         }
 
         $path = realpath(dirname(__FILE__) . '/../../resources/demond'); // répertoire du démon à modifier
-        $cmd = 'python3 ' . $path . '/demond.py'; // nom du démon à modifier
+        $cmd = system::getCmdPython3(__CLASS__) . " {$path}/demond.py"; // nom du démon à modifier
         $cmd .= ' --loglevel ' . log::convertLogLevel(log::getLogLevel(__CLASS__));
         $cmd .= ' --socketport ' . config::byKey('socketport', __CLASS__, '55009'); // port par défaut à modifier
         $cmd .= ' --callback ' . network::getNetworkAccess('internal', 'http:127.0.0.1:port:comp') . '/plugins/template/core/php/jeeTemplate.php'; // chemin de la callback url à modifier (voir ci-dessous)
@@ -392,7 +392,7 @@ Puede copiar / pegar el código a continuación como está y modificar las líne
 Solo modifique las líneas con un comentario, el resto debe permanecer sin cambios.
 
 Tenga en cuenta que comenzamos por detener el demonio, esto para administrar el reinicio.
-Luego verificamos si el demonio realmente se puede iniciar con el método `deamon_info ()` y generamos la línea de comando en la variable `$ cmd` para iniciar nuestro demonio, aquí con python3
+Luego verificamos si el demonio realmente se puede iniciar con el método `deamon_info ()` y generamos la línea de comando en la variable `$ cmd` para iniciar nuestro demonio, aquí con python3. Tenga en cuenta el uso de la `función del sistema::getCmdPython3(__CLASS__)` que devolverá la ruta a python3 para usar esto para que sea compatible con Debian 12 si sus dependencias están instaladas por núcleo.
 
 #### Función Deamon_stop()
 
@@ -544,35 +544,30 @@ Voila, tienes un demonio completamente funcional y puedes comunicarte de un lado
 
 Cuando vamos a escribir un demonio, muy a menudo necesitaremos bibliotecas externas además de nuestras propias clases.
 
-En debian, normalmente usaremos la herramienta apt para instalar los paquetes necesarios y para python usaremos pip.
+En Debian, normalmente usaremos las herramientas apt para instalar los paquetes necesarios y para python3, usaremos pip3.
 
 Y para manejar esto, una vez más, todo está planeado en el núcleo de Jeedom para ayudarnos a través de dos métodos distintos:
 
-1. El método procesal.  
+1. El método procesal.
    Este método era el único método posible con versiones de jeedom anteriores a 4.2
-1. El método del archivo json de configuración.  
+1. El método del archivo json de configuración.
    Este método apareció con la versión 4.2 del núcleo de Jeedom.
-  
+
 Ambos métodos se pueden implementar en un solo complemento.
-* Si ambos métodos se implementan en un complemento:
-  * Núcleos antes de 4.2 utilizará el método procesal.
-  * Núcleo 4.2 y posteriores usarán el método de archivo de configuración per json.
-* Si solo se implementa el método de procedimiento en un complemento:
-  * Todos los núcleos utilizarán este método.
-* Si solo se implementa el método del archivo de configuración json en un complemento.
-  * El complemento no será compatible con las versiones principales anteriores a la 4.2
 
-El método del archivo de configuración ofrece varias ventajas sobre la versión de procedimiento. Este método
-debe implementarse en todos los complementos.
+- Si ambos métodos se implementan en un complemento:
+  - Núcleos antes de 4.2 utilizará el método procesal.
+  - Núcleo 4.2 y posteriores usarán el método de archivo de configuración per json.
+- Si solo se implementa el método de procedimiento en un complemento:
+  - Todos los núcleos utilizarán este método.
+- Si solo se implementa el método del archivo de configuración json en un complemento.
+  - El complemento no será compatible con las versiones principales anteriores a la 4.2
 
-El método de procedimiento solo debe implementarse en complementos que deben ser compatibles con núcleos anteriores
-a la versión 4.2. El método del archivo de configuración json también debe implementarse en estos complementos.
+Ambos métodos tienen sus ventajas y desventajas. Depende de usted elegir según su situación.
 
-### El método del archivo de configuración json
-Hay 2 requisitos previos que detallaremos a continuación.
+### Declaración en plugin_info / info.json
 
-#### Declaración en plugin_info / info.json
-
+En ambos casos, debes adaptar tu archivo `info.json`.
 El mismo ejemplo que para la declaración del demonio, debe agregar la propiedad `hasDependency` y asignar el valor` true`:
 
 `` ``json
@@ -582,38 +577,56 @@ El mismo ejemplo que para la declaración del demonio, debe agregar la propiedad
     ...
     "hasDependency" : true,
     "hasOwnDeamon" : true,
+    "maxDependancyInstallTime" : 30,
     ...
 }
 `` ``
 
+La propiedad `maxDependancyInstallTime` es el retraso en minutos después del cual el núcleo considerará que la instalación no se realizó correctamente.
+ En este caso, el modo automático del demonio se desactivará y se publicará un mensaje en el centro de notificaciones.
+ Si esta propiedad no está definida, el tiempo predeterminado será de 30 minutos.
+
+> **INCLINAR**
+>
+> La secuencia de comandos de instalación no se interrumpirá, por lo que puede terminar con éxito. Este es solo el tiempo después del cual el núcleo ya no espera y ya no muestra el progreso.
+
+### El método del archivo de configuración json
+
 #### Creación del archivo plugin_info/packages.json
 
-La sintaxis de este archivo se describe aquí. Ver también 
+La sintaxis de este archivo se describe aquí. Ver también
 [el artículo de lanzamiento en el blog](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/).
 
 Este archivo puede contener cualquiera de las siguientes secciones:
+
 ##### pre-install: la ruta a un script para ejecutar antes de la instalación
+
 Ejemplo :
+
 `` ``json
 {
   "pre-install" : {
-    "script" : "complementos/openzwave/resources/post-install.sh"
+    "script" : "complementos/[ID del complemento]/resources/post-install.sh"
   }
 `` ``
 
-##### post-install:
-Esta puede ser la ruta a un script que se ejecutará después de la instalación o la acción de reiniciar Apache. 
+##### post-install
+
+Esta puede ser la ruta a un script que se ejecutará después de la instalación o la acción de reiniciar Apache.
 Ejemplo :
+
 `` ``json
 {
   "post-install" : {
     "reiniciar_apache" : true,
-    "script" : "complementos/openzwave/resources/post-install.sh"
+    "script" : "complementos/[ID del complemento]/resources/post-install.sh"
   }
 `` ``
 
 ##### apt: dependencias de debian
+
 Exemple
+
 `` ``json
 {
   "apt" : {
@@ -627,16 +640,16 @@ Exemple
 
 Para cada paquete, podemos especificar "versión" para establecer una versión, "alternativa" si está disponible,
  `opcional` si es opcional, `reinstalar` para forzar la reinstalación del paquete, `comentario` para agregar un comentario gratuito.
-##### pip3: Dependencias de Python3 (también se admite pip2))
+
+##### pip3: Dependencias de Python3
+
 Exemple:
+
 `` ``json
 {
   "apt" : {
-    "python3" : {},
-    "python3-pip" : {},
     "python3-pyudev" : {},
     "solicitudes de python3" : {},
-    "herramientas de configuración de python3" : {},
     "python3-dev" : {}
   },
   "pip3" : {
@@ -656,8 +669,10 @@ Exemple:
 `` ``
 
 ##### npm: dependencias para NodeJS
-Para NodeJS las dependencias están en otro archivo de 'paquetes'.json` en su propio formato, 
+
+Para NodeJS las dependencias están en otro archivo de 'paquetes'.json` en su propio formato,
 colocado en el directorio `/resources` por ejemplo, es este archivo el que se indicará en el de Jeedom:
+
 `` ``json
 {
   "apt" : {
@@ -670,11 +685,14 @@ colocado en el directorio `/resources` por ejemplo, es este archivo el que se in
 `` ``
 
 ##### composer: para instalar otra dependencia de PHP
+
 no hay ningún ejemplo a la mano; la sintaxis es similar a la de otros paquetes, con la palabra clave `compose`.
 
-##### Dependencias de otro complemento:
-Si un complemento requiere la instalación de otro complemento, esto también es posible con la siguiente sintaxis; 
+##### Dependencias de otro complemento
+
+Si un complemento requiere la instalación de otro complemento, esto también es posible con la siguiente sintaxis;
 el complemento debe ser gratuito o ya comprado :
+
 `` ``json
 {
     "plugin":{
@@ -684,31 +702,8 @@ el complemento debe ser gratuito o ya comprado :
 `` ``
 
 ### El método procesal
-Hay 3 requisitos previos que detallaremos a continuación.
 
-#### Declaración en plugin_info / info.json
-
-El mismo ejemplo que para la declaración del demonio, debe agregar la propiedad `hasDependency` y asignar el valor` true`:
-
-`` ``json
-{
-    "id" : "pluginID",
-    "name" : "pluginName",
-    ...
-    "hasDependency" : true,
-    "hasOwnDeamon" : true,
-    "maxDependancyInstallTime" : 10,
-    ...
-}
-`` ``
-
-La propiedad `maxDependancyInstallTime` es el retraso en minutos después del cual el núcleo considerará que la instalación no se realizó correctamente.
- En este caso, el modo automático del demonio se desactivará y se publicará un mensaje en el centro de notificaciones.
- Si esta propiedad no está definida, el tiempo predeterminado será de 30 minutos.
-
-> **INCLINAR**
->
-> La secuencia de comandos de instalación no se interrumpirá, por lo que puede terminar con éxito. Este es solo el tiempo después del cual el núcleo ya no espera y ya no muestra el progreso.
+Hay 2 requisitos previos que detallaremos a continuación.
 
 #### Instalación de dependencias
 
@@ -717,7 +712,7 @@ En su clase eqLogic debe agregar esta función si no existe. Puede copiarlo / pe
 `` ``php
     función estática pública instalación_dependencia() {
         log::eliminar (__ CLASS__. '_update');
-        return array ('script' => dirname (__ FILE__). '/../../resources/install_#stype#.sh ' . jeedom::getTmpFolder (__ CLASE__) . '/ dependencia ',' registro '=> registro::getPathToLog (__ CLASS__. '_update'));
+        return array ('script' => dirname (__ FILE__). '/../../resources/install_#stype#.sh ' . jeedom::getTmpFolder (__ CLASE__) . '/dependencia', 'registro' => registro::getPathToLog (__ CLASS__. '_update'));
     }
 `` ``
 
@@ -726,14 +721,20 @@ Esta función comienza eliminando el registro de la instalación anterior si exi
 Tenga en cuenta que el archivo de script devuelto se llama `install_#stype#.sh`. De hecho,#stype#`será reemplazado dinámicamente por el núcleo con la herramienta de administración de paquetes que se utilizará según el sistema en el que esté instalado Jeedom. Entonces '#stype#`será reemplazado por` apt` en un sistema Debian.
 Esto hace posible ofrecer scripts de instalación de dependencias para varios sistemas y, por lo tanto, admitir algo diferente a Debian / apt, que es el mínimo estricto y el único que gestionaremos aquí.
 
-El primer argumento: `jeedom::getTmpFolder (__ CLASE__) . '/ dependency'` es el archivo que se usa para monitorear el progreso de la instalación (el porcentaje que aparece en la pantalla durante la instalación).
+El primer argumento: `jeedom::getTmpFolder (__ CLASE__) . '/dependence'` es el archivo utilizado para monitorear el progreso de la instalación (el porcentaje que aparece en la pantalla durante la instalación).
 
 Eso es todo por la parte de php, ahora tienes que crear el script en `./resources/install_apt.sh` y obviamente el contenido del script dependerá de su complemento y de los paquetes que desee instalar.
 
 Aquí hay un ejemplo de un script bastante simple de uno de mis complementos, pero puede hacerlo mucho más completo y avanzado:
 
+> **Atención**
+>
+> A partir de Debian 12, es obligatorio instalar los paquetes de Python en un entorno virtual; por lo tanto, este script de ejemplo ya no funcionará tal cual, depende de usted adaptarlo en consecuencia.
+>
+> Je vous invite également à consulter cette documentación qui offre une alternative: <https://github.com/Mips2648/dependance.lib/blob/master/pyenv.md>
+
 `` ``bash
-PROGRESS_FILE = / tmp / jeedom / template / dependency #sustituya la plantilla con su ID de complemento
+PROGRESS_FILE=/tmp/jeedom/template/dependence #reemplace la plantilla con su ID de complemento
 
 Si [ ! -z $ 1]; luego
     PROGRESS_FILE = $ 1
@@ -776,7 +777,7 @@ Comenzamos por definir la ubicación predeterminada del archivo de progreso en c
 Y usamos el primer argumento recibido como ubicación porque hicimos el paso anterior correctamente;-).
 
 `` ``bash
-PROGRESS_FILE = / tmp / jeedom / template / dependency #sustituya la plantilla con su ID de complemento
+PROGRESS_FILE=/tmp/jeedom/template/dependence #reemplace la plantilla con su ID de complemento
 
 Si [ ! -z $ 1]; luego
     PROGRESS_FILE = $ 1
@@ -810,8 +811,8 @@ A continuación, se muestra un ejemplo del cual puede utilizar la mayoría:
     función estática pública dependancy_info() {
         $regreso = array();
         $return['log'] = log::getPathToLog(__CLASS__ . '_update');
-        $return['progress_file'] = jeedom::getTmpFolder (__ CLASE__) . '/dependency';
-        si (file_exists (jeedom::getTmpFolder (__ CLASE__) . '/dependency')) {
+        $return['progress_file'] = jeedom::getTmpFolder (__ CLASE__) . '/dependance';
+        si (file_exists (jeedom::getTmpFolder (__ CLASE__) . '/dependance')) {
             $return['state'] = 'in_progress';
         } demás {
             si (exec (sistema::getCmdSudo() . system::obtener ('cmd_check') . '-Ec "python3 \ -requests|python3 \ -voluptuoso|python3 \ -bs4 "') <3) {// adaptar la lista de paquetes y el total
@@ -829,5 +830,9 @@ A continuación, se muestra un ejemplo del cual puede utilizar la mayoría:
 En este ejemplo probamos la presencia de paquetes apt: `system::getCmdSudo() . system::obtener ('cmd_check') . '-Ec "python3 \ -requests|python3 \ -voluptuoso|python3 \ -bs4 "'`. Aquí queremos `python3-request`,` python3-voluptuous` y `python3-bs4` y, por lo tanto, el comando debe devolver 3, de ahí la comparación: `<3`.
 
 Lo mismo para los paquetes de Python: `lista pip3 | grep -Ewc "aiohttp" '`. La presencia de `aiohttp` está validada, solo un paquete, por lo que comparamos: `<1`;
+
+> **Atención**
+>
+> A partir de Debian 12, es obligatorio instalar los paquetes de Python en un entorno virtual, por lo que este comando ya no funcionará tal cual, depende de usted adaptarlo en consecuencia.
 
 Entonces es muy simple: la lista de paquetes y el total son los únicos elementos que debes modificar si solo tienes este tipo de verificación de lo contrario será fácil agregar las otras pruebas relevantes en tu caso.

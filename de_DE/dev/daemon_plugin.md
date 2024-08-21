@@ -361,7 +361,7 @@ Sie können den unten stehenden Code kopieren / einfügen und die angezeigten Ze
         }
 
         $path = realpath(dirname(__FILE__) . '/../../resources/demond'); // répertoire du démon à modifier
-        $cmd = 'Python3 ' . $path . '/demond.py'; // nom du démon à modifier
+        $cmd = system::getCmdPython3(__CLASS__) . " {$path}/demond.py"; // nom du démon à modifier
         $cmd .= ' --loglevel ' . log::convertLogLevel(log::getLogLevel(__CLASS__));
         $cmd .= ' --socketport ' . config::byKey('socketport', __CLASS__, '55009'); // port par défaut à modifier
         $cmd .= ' --callback ' . network::getNetworkAccess('internal', 'http:127.0.0.1:port:comp') . '/plugins/template/core/php/jeeTemplate.php'; // chemin de la callback url à modifier (voir ci-dessous)
@@ -392,7 +392,7 @@ Sie können den unten stehenden Code kopieren / einfügen und die angezeigten Ze
 Ändern Sie nur die Zeilen mit einem Kommentar, der Rest muss unverändert bleiben.
 
 Beachten Sie, dass wir damit beginnen, den Daemon zu stoppen, um den Neustart zu verwalten.
-Dann prüfen wir, ob der Daemon tatsächlich mit der Methode `deamon_info()` gestartet werden kann und generieren die Kommandozeile in der Variablen `$ cmd` um unseren Daemon zu starten, hier mit python3
+Dann prüfen wir, ob der Daemon tatsächlich mit der Methode `deamon_info()` gestartet werden kann und generieren die Kommandozeile in der Variablen `$ cmd` um unseren Daemon zu starten, hier mit python3. Beachten Sie die Verwendung der Systemfunktion::getCmdPython3(__CLASS__)`, das den Pfad zu Python3 zurückgibt, um dies zu verwenden, um mit Debian 12 kompatibel zu sein, wenn Ihre Abhängigkeiten vom Kern installiert werden.
 
 #### Deamon_stop-Funktion()
 
@@ -544,35 +544,30 @@ Voila, Sie haben einen voll funktionsfähigen Daemon und können zwischen Ihrem 
 
 Wenn wir einen Daemon schreiben, benötigen wir neben unseren eigenen Klassen sehr oft externe Bibliotheken.
 
-Unter Debian verwenden wir normalerweise das apt-Tool, um die erforderlichen Pakete zu installieren, und für Python verwenden wir pip.
+Unter Debian verwenden wir normalerweise die apt-Tools, um die erforderlichen Pakete zu installieren, und für Python3 verwenden wir pip3.
 
 Und um dies zu bewältigen, ist alles im Kern von Jeedom geplant, um uns über zwei verschiedene Methoden zu helfen:
 
-1. Die Verfahrensmethode.  
+1. Die Verfahrensmethode.
    Diese Methode war die einzig mögliche Methode mit Versionen von jeedom vor 4.2
-1. Die JSON-Dateikonfigurationsmethode.  
+1. Die JSON-Dateikonfigurationsmethode.
    Diese Methode erschien mit Version 4.2 des Kerns von Jeedom.
-  
+
 Beide Methoden können in einem einzigen Plugin implementiert werden.
-* Wenn beide Methoden in einem Plugin implementiert sind:
-  * Kerne vor 4.2 wendet die Verfahrensmethode an.
-  * Kern 4.2 und höher wird die per json-Konfigurationsdateimethode verwenden.
-* Wenn nur die prozedurale Methode in einem Plugin implementiert ist:
-  * Alle Kerne verwenden diese Methode.
-* Wenn nur die json-Konfigurationsdateimethode in einem Plugin implementiert ist.
-  * Das Plugin ist nicht mit Kernversionen vor 4.2 kompatibel
 
-Die Methode der Konfigurationsdatei bietet gegenüber der prozeduralen Variante mehrere Vorteile. Diese Methode
-sollte in allen Plugins implementiert sein.
+- Wenn beide Methoden in einem Plugin implementiert sind:
+  - Kerne vor 4.2 wendet die Verfahrensmethode an.
+  - Kern 4.2 und höher wird die per json-Konfigurationsdateimethode verwenden.
+- Wenn nur die prozedurale Methode in einem Plugin implementiert ist:
+  - Alle Kerne verwenden diese Methode.
+- Wenn nur die json-Konfigurationsdateimethode in einem Plugin implementiert ist.
+  - Das Plugin ist nicht mit Kernversionen vor 4.2 kompatibel
 
-Die prozedurale Methode sollte nur in Plugins implementiert werden, die mit früheren Kernen kompatibel sein müssen
-auf Version 4.2. Die json-Konfigurationsdateimethode sollte auch in diesen Plugins implementiert werden.
+Beide Methoden haben ihre Vor- und Nachteile. Es liegt an Ihnen, entsprechend Ihrer Situation zu wählen.
 
-### Die json-Konfigurationsdateimethode
-Es gibt 2 Voraussetzungen, die wir gleich erläutern werden.
+### Deklaration in plugin_info / info.json
 
-#### Deklaration in plugin_info / info.json
-
+In beiden Fällen müssen Sie Ihre Datei „info.json“ anpassen.
 Gleiches Beispiel wie bei der Deklaration des Daemons, Sie müssen die Eigenschaft `hasDependency` hinzufügen und den Wert `true` zuweisen:
 
 `` ``json
@@ -582,38 +577,56 @@ Gleiches Beispiel wie bei der Deklaration des Daemons, Sie müssen die Eigenscha
     ...
     "hasDependency" : true,
     "hasOwnDeamon" : true,
+    "maxDependancyInstallTime" : 30,
     ...
 }
 `` ``
 
+Die Eigenschaft `maxDependancyInstallTime` ist die Verzögerung in Minuten, nach der der Kern die Installation als fehlgeschlagen betrachtet.
+ In diesem Fall wird der Auto-Modus des Daemons deaktiviert und eine Nachricht in der Benachrichtigungszentrale veröffentlicht.
+ Wenn diese Eigenschaft nicht definiert ist, beträgt die Standardzeit 30 Minuten.
+
+> **TRINKGELD**
+>
+> Das Installationsskript wird nicht unterbrochen, sodass es möglicherweise erfolgreich abgeschlossen wird. Dies ist nur die Zeit, nach der der Core nicht mehr wartet und keinen Fortschritt mehr anzeigt.
+
+### Die json-Konfigurationsdateimethode
+
 #### Erstellung der Datei plugin_info/packages.json
 
-Die Syntax dieser Datei wird hier beschrieben. Siehe auch 
+Die Syntax dieser Datei wird hier beschrieben. Siehe auch
 [Der Startartikel im Blog](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/).
 
 Diese Datei kann einen der folgenden Abschnitte enthalten:
+
 ##### pre-install: Der Pfad zu einem Skript, das vor der Installation ausgeführt werden soll
+
 Beispiel :
+
 `` ``json
 {
   "pre-install" : {
-    "script" : "Plugins/openzwave/resources/post-install.sh"
+    "script" : "plugins/[pluginID]/resources/post-install.sh"
   }
 `` ``
 
-##### post-install:
-Dies kann der Pfad zu einem Skript sein, das nach der Installation ausgeführt werden soll, oder die Aktion „Apache neu starten“. 
+##### post-install
+
+Dies kann der Pfad zu einem Skript sein, das nach der Installation ausgeführt werden soll, oder die Aktion „Apache neu starten“.
 Beispiel :
+
 `` ``json
 {
   "post-install" : {
     "restart_apache" : true,
-    "script" : "Plugins/openzwave/resources/post-install.sh"
+    "script" : "plugins/[pluginID]/resources/post-install.sh"
   }
 `` ``
 
 ##### apt: Debian-Abhängigkeiten
+
 Exemple
+
 `` ``json
 {
   "apt" : {
@@ -627,16 +640,16 @@ Exemple
 
 Für jedes Paket können wir „Version“ angeben, um eine Version festzulegen, „Alternative“, falls verfügbar,
  „optional“, wenn es optional ist, „reinstall“, um die Neuinstallation des Pakets zu erzwingen, „remark“, um einen kostenlosen Kommentar hinzuzufügen.
-##### pip3: Python3-Abhängigkeiten (Pip2 werden ebenfalls unterstützt)
+
+##### pip3: Python3-Abhängigkeiten
+
 Exemple:
+
 `` ``json
 {
   "apt" : {
-    "python3" : {},
-    "python3-pip" : {},
     "python3-pyudev" : {},
     "Python3-Anfragen" : {},
-    "Python3-Setuptools" : {},
     "python3-dev" : {}
   },
   "pip3" : {
@@ -656,8 +669,10 @@ Exemple:
 `` ``
 
 ##### npm: Abhängigkeiten für NodeJS
-Für NodeJS befinden sich die Abhängigkeiten in einer anderen „Pakete“-Datei.json` in einem eigenen Format, 
+
+Für NodeJS befinden sich die Abhängigkeiten in einer anderen „Pakete“-Datei.json` in einem eigenen Format,
 Wenn sie beispielsweise im Verzeichnis „/resources“ abgelegt wird, wird diese Datei in der von Jeedom angezeigt:
+
 `` ``json
 {
   "apt" : {
@@ -670,11 +685,14 @@ Wenn sie beispielsweise im Verzeichnis „/resources“ abgelegt wird, wird dies
 `` ``
 
 ##### composer: um eine weitere PHP-Abhängigkeit zu installieren
+
 kein Beispiel vorhanden; Die Syntax ist ähnlich wie bei anderen Paketen, mit dem Schlüsselwort „compose“.
 
-##### Abhängigkeiten von einem anderen Plugin:
-Wenn ein Plugin die Installation eines anderen Plugins erfordert, ist dies auch mit der folgenden Syntax möglich; 
+##### Abhängigkeiten von einem anderen Plugin
+
+Wenn ein Plugin die Installation eines anderen Plugins erfordert, ist dies auch mit der folgenden Syntax möglich;
 Das Plugin muss kostenlos oder bereits gekauft sein :
+
 `` ``json
 {
     "plugin":{
@@ -684,31 +702,8 @@ Das Plugin muss kostenlos oder bereits gekauft sein :
 `` ``
 
 ### Die prozedurale Methode
-Es gibt 3 Voraussetzungen, die wir gleich erläutern werden.
 
-#### Deklaration in plugin_info / info.json
-
-Gleiches Beispiel wie bei der Deklaration des Daemons, Sie müssen die Eigenschaft `hasDependency` hinzufügen und den Wert `true` zuweisen:
-
-`` ``json
-{
-    "id" : "pluginID",
-    "name" : "pluginName",
-    ...
-    "hasDependency" : true,
-    "hasOwnDeamon" : true,
-    "maxDependancyInstallTime" : 10,
-    ...
-}
-`` ``
-
-Die Eigenschaft `maxDependancyInstallTime` ist die Verzögerung in Minuten, nach der der Kern die Installation als fehlgeschlagen betrachtet.
- In diesem Fall wird der Auto-Modus des Daemons deaktiviert und eine Nachricht in der Benachrichtigungszentrale veröffentlicht.
- Wenn diese Eigenschaft nicht definiert ist, beträgt die Standardzeit 30 Minuten.
-
-> **TRINKGELD**
->
-> Das Installationsskript wird nicht unterbrochen, sodass es möglicherweise erfolgreich abgeschlossen wird. Dies ist nur die Zeit, nach der der Core nicht mehr wartet und keinen Fortschritt mehr anzeigt.
+Es gibt 2 Voraussetzungen, die wir gleich erläutern werden.
 
 #### Abhängigkeiten installieren
 
@@ -717,7 +712,7 @@ In Ihrer eqLogic-Klasse müssen Sie diese Funktion hinzufügen, wenn sie nicht v
 `` ``php
     öffentliche statische Funktion Dependancy_install() {
         log::entfernen (__ KLASSE__. '_update');
-        return array ('script' => dirname (__ FILE__). '/../../resources/install_#stype#.Sch ' . jeedom::getTmpFolder (__ KLASSE__) . '/ Abhängigkeit ',' log '=> log::getPathToLog (__ KLASSE__. '_update'));
+        return array ('script' => dirname (__ FILE__). '/../../resources/install_#stype#.Sch ' . jeedom::getTmpFolder (__ KLASSE__) . '/dependence', 'log' => log::getPathToLog (__ KLASSE__. '_update'));
     }
 `` ``
 
@@ -726,14 +721,20 @@ Diese Funktion beginnt mit dem Löschen des Protokolls der vorherigen Installati
 Beachten Sie, dass die zurückgegebene Skriptdatei den Namen `install_#stype#.sch`. Tatsächlich, `#stype#`wird dynamisch durch den Kern mit dem zu verwendenden Paketverwaltungstool ersetzt, abhängig vom System, auf dem Jeedom installiert ist. Also `#stype#`wird auf einem Debian-System durch` apt` ersetzt.
 Dies ermöglicht es, Dependency-Installationsskripte für mehrere Systeme anzubieten und daher etwas anderes als Debian / apt zu unterstützen, das das absolute Minimum ist und das einzige, das wir hier verwalten werden.
 
-Das erste Argument: `jeedom::getTmpFolder (__ KLASSE__) . '/ Dependency'` ist die Datei, die verwendet wird, um den Fortschritt der Installation zu überwachen (der Prozentsatz, der während der Installation auf dem Bildschirm angezeigt wird)).
+Das erste Argument: `jeedom::getTmpFolder (__ KLASSE__) . '„/dependence“ ist die Datei, die zur Überwachung des Installationsfortschritts verwendet wird (der Prozentsatz, der während der Installation auf dem Bildschirm angezeigt wird)).
 
 Das ist alles für den PHP-Teil, jetzt müssen Sie das Skript in `./resources/install_apt . erstellen.sh` und natürlich hängt der Inhalt des Skripts von Ihrem Plugin und den Paketen ab, die Sie installieren möchten.
 
 Hier ist ein Beispiel für ein ziemlich einfaches Skript aus einem meiner Plugins, aber Sie können es viel vollständiger und fortgeschrittener machen:
 
+> **Warnung**
+>
+> Ab Debian 12 ist es zwingend erforderlich, die Python-Pakete in einer virtuellen Umgebung zu installieren, dieses Beispielskript funktioniert daher nicht mehr so wie es ist, es liegt an Ihnen, es entsprechend anzupassen.
+>
+> Je vous invite également à consulter cette Dokumentation qui offre une alternative: <https://github.com/Mips2648/dependance.lib/blob/master/pyenv.md>
+
 `` ``bash
-PROGRESS_FILE = /tmp/jeedom/template/dependency #template durch deine Plugin-ID ersetzen
+PROGRESS_FILE=/tmp/jeedom/template/dependence #ersetzen Sie die Vorlage durch Ihre Plugin-ID
 
 wenn [ ! -z$ 1]; dann
     PROGRESS_FILE = $ 1
@@ -776,7 +777,7 @@ Wir beginnen damit, den Standardspeicherort der Fortschrittsdatei zu definieren,
 Und wir verwenden das erste erhaltene Argument als Speicherort, weil wir den vorherigen Schritt korrekt ausgeführt haben;-).
 
 `` ``bash
-PROGRESS_FILE = /tmp/jeedom/template/dependency #template durch deine Plugin-ID ersetzen
+PROGRESS_FILE=/tmp/jeedom/template/dependence #ersetzen Sie die Vorlage durch Ihre Plugin-ID
 
 wenn [ ! -z$ 1]; dann
     PROGRESS_FILE = $ 1
@@ -810,8 +811,8 @@ Hier ist ein Beispiel, von dem Sie die Mehrheit verwenden können:
     öffentliche statische Funktion Dependancy_info() {
         $Rückkehr = array();
         $return['log'] = log::getPathToLog(__CLASS__ . '_update');
-        $return['progress_file'] = jeedom::getTmpFolder (__ KLASSE__) . '/dependency';
-        if (file_exists (jeedom::getTmpFolder (__ KLASSE__) . '/dependency')) {
+        $return['progress_file'] = jeedom::getTmpFolder (__ KLASSE__) . '/dependance';
+        if (file_exists (jeedom::getTmpFolder (__ KLASSE__) . '/dependance')) {
             $return['state'] = 'in_progress';
         } sonst {
             if (exec (system::getCmdSudo() . system::erhalten ('cmd_check') . '-Ec "python3 \ -anfragen|python3 \ -wollüstig|python3 \ -bs4 "') <3) {// Passen Sie die Liste der Pakete und die Gesamtmenge an
@@ -829,5 +830,9 @@ Hier ist ein Beispiel, von dem Sie die Mehrheit verwenden können:
 In diesem Beispiel testen wir das Vorhandensein von apt-Paketen: `system::getCmdSudo() . system::erhalten ('cmd_check') . '-Ec "python3 \ -anfragen|python3 \ -wollüstig|python3 \ -bs4 "'`. Hier wollen wir `python3-requests`,` python3-voluptuous` und `python3-bs4` und deshalb muss der Befehl 3 zurückgeben, daher der Vergleich: `<3`.
 
 Gleiches gilt für Python-Pakete: `pip3-Liste | grep -Ewc "aiohttp" '`. Das Vorhandensein von `aiohttp` ist validiert, nur ein Paket, also vergleichen wir: `<1`;
+
+> **Warnung**
+>
+> Ab Debian 12 ist es zwingend erforderlich, die Python-Pakete in einer virtuellen Umgebung zu installieren, dieser Befehl funktioniert daher nicht mehr so wie er ist, es liegt an Ihnen, ihn entsprechend anzupassen.
 
 Also ganz einfach: die Liste der Pakete und die Gesamtzahl sind die einzigen Elemente, die Sie ändern müssen, wenn Sie nur über diese Art der Überprüfung verfügen. Andernfalls können die anderen relevanten Tests in Ihrem Fall einfach hinzugefügt werden.

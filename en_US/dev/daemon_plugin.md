@@ -361,7 +361,7 @@ You can copy / paste the code below as is and modify the lines indicated.
         }
 
         $path = realpath(dirname(__FILE__) . '/../../resources/demond'); // répertoire du démon à modifier
-        $cmd = 'python3 ' . $path . '/demond.py'; // nom du démon à modifier
+        $cmd = system::getCmdPython3(__CLASS__) . " {$path}/demond.py"; // nom du démon à modifier
         $cmd .= ' --loglevel ' . log::convertLogLevel(log::getLogLevel(__CLASS__));
         $cmd .= ' --socketport ' . config::byKey('socketport', __CLASS__, '55009'); // port par défaut à modifier
         $cmd .= ' --callback ' . network::getNetworkAccess('internal', 'http:127.0.0.1:port:comp') . '/plugins/template/core/php/jeeTemplate.php'; // chemin de la callback url à modifier (voir ci-dessous)
@@ -392,7 +392,7 @@ You can copy / paste the code below as is and modify the lines indicated.
 Only modify the lines with a comment, the rest must remain unchanged.
 
 Note that we start by stopping the daemon, this to manage the restart.
-Then we check if the daemon can actually be started with the `deamon_info ()` method and we generate the command line in the variable `$ cmd` to start our daemon, here with python3
+Then we check if the daemon can actually be started with the `deamon_info ()` method and we generate the command line in the variable `$ cmd` to start our daemon, here with python3. Note the use of the `system` function::getCmdPython3(__CLASS__)` which will return the path to python3 to use this to be compatible with Debian 12 if your dependencies are installed by the core.
 
 #### Deamon_stop function()
 
@@ -544,35 +544,30 @@ Voila, you have a fully functional daemon and you can communicate back and forth
 
 When we are going to write a daemon, we will very often need external libraries in addition to our own classes.
 
-Under debian, typically, we will use the apt tool to install the necessary packages and for python, we will use pip.
+On Debian, typically, we will use the apt tool to install the necessary packages and for python3, we will use pip3.
 
 And to manage this, once again, everything is planned in Jeedom's core to help us via two distinct methods:
 
-1. The procedural method.  
+1. The procedural method.
    This method was the only method possible with versions of jeedom prior to 4.2
-1. The configuration json file method.  
+1. The configuration json file method.
    This method appeared with version 4.2 of the core of Jeedom.
-  
+
 Both methods can be implemented in a single plugin.
-* If both methods are implemented in a plugin:
-  * Cores before 4.2 will use the procedural method.
-  * Core 4.2 and later will use the per json config file method.
-* If only the procedural method is implemented in a plugin:
-  * All cores will use this method.
-* If only the json config file method is implemented in a plugin.
-  * The plugin will not be compatible with core versions prior to 4.2
 
-The configuration file method offers several advantages over the procedural version. This method
-should be implemented in all plugins.
+- If both methods are implemented in a plugin:
+  - Cores before 4.2 will use the procedural method.
+  - Core 4.2 and later will use the per json config file method.
+- If only the procedural method is implemented in a plugin:
+  - All cores will use this method.
+- If only the json config file method is implemented in a plugin.
+  - The plugin will not be compatible with core versions prior to 4.2
 
-The procedural method should only be implemented in plugins that must be compatible with earlier cores
-to version 4.2. The json configuration file method should also be implemented in these plugins.
+Both methods have their advantages and disadvantages. It's up to you to choose according to your situation.
 
-### The json configuration file method
-There are 2 prerequisites that we will detail right away.
+### Declaration in plugin_info / info.json
 
-#### Declaration in plugin_info / info.json
-
+In both cases, you need to adapt your `info.json` file.
 Same example as for the declaration of the daemon, you must add the `hasDependency` property and assign the value` true`:
 
 `` ``json
@@ -582,38 +577,56 @@ Same example as for the declaration of the daemon, you must add the `hasDependen
     ...
     "hasDependency" : true,
     "hasOwnDeamon" : true,
+    "maxDependancyInstallTime" : 30,
     ...
 }
 `` ``
 
+The `maxDependancyInstallTime` property is the delay in minutes after which the core will consider that the installation was unsuccessful.
+ In this case, the auto mode of the daemon will be disabled and a message will be posted in the notification center.
+ If this property is not defined, the default time will be 30min.
+
+> **TIP**
+>
+> The installation script will not be interrupted so it may end up successfully completing. This is only the time after which the core no longer waits and no longer displays progress.
+
+### The json configuration file method
+
 #### Creation of the plugin_info/packages.json file
 
-The syntax of this file is described here. See as well 
+The syntax of this file is described here. See as well
 [the launch article on the blog](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/).
 
 This file may contain any of the following sections:
+
 ##### pre-install: the path to a script to run before installation
+
 Example :
+
 `` ``json
 {
   "pre-install" : {
-    "script" : "plugins/openzwave/resources/post-install.sh"
+    "script" : "plugins/[pluginID]/resources/post-install.sh"
   }
 `` ``
 
-##### post-install:
-This can be the path to a script to run after installation, or the restart apache action. 
+##### post-install
+
+This can be the path to a script to run after installation, or the restart apache action.
 Example :
+
 `` ``json
 {
   "post-install" : {
     "restart_apache" : true,
-    "script" : "plugins/openzwave/resources/post-install.sh"
+    "script" : "plugins/[pluginID]/resources/post-install.sh"
   }
 `` ``
 
 ##### apt: Debian dependencies
+
 Exemple
+
 `` ``json
 {
   "apt" : {
@@ -627,16 +640,16 @@ Exemple
 
 For each package, we can specify `version` to set a version, `alternative` if available,
  `optional` if it is optional, `reinstall` to force the re-installation of the package, `remark` to add a free comment.
-##### pip3: Python3 dependencies (pip2 also supported)
+
+##### pip3: Python3 dependencies
+
 Exemple:
+
 `` ``json
 {
   "apt" : {
-    "python3" : {},
-    "python3-pip" : {},
     "python3-pyudev" : {},
     "python3-requests" : {},
-    "python3-setuptools" : {},
     "python3-dev" : {}
   },
   "pip3" : {
@@ -656,8 +669,10 @@ Exemple:
 `` ``
 
 ##### npm: dependencies for NodeJS
-For NodeJS the dependencies are in another `packages' file.json` in its own format, 
+
+For NodeJS the dependencies are in another `packages' file.json` in its own format,
 placed in the `/resources` directory for example, it is this file which will be indicated in that of Jeedom:
+
 `` ``json
 {
   "apt" : {
@@ -670,11 +685,14 @@ placed in the `/resources` directory for example, it is this file which will be 
 `` ``
 
 ##### composer: to install another PHP dependency
+
 no example at hand; the syntax is similar to other packages, with the `compose` keyword.
 
-##### Dependencies on another plugin:
-If a plugin requires the installation of another plugin, this is also possible with the following syntax; 
+##### Dependencies on another plugin
+
+If a plugin requires the installation of another plugin, this is also possible with the following syntax;
 the plugin must be free, or already purchased :
+
 `` ``json
 {
     "plugin":{
@@ -684,31 +702,8 @@ the plugin must be free, or already purchased :
 `` ``
 
 ### The procedural method
-There are 3 prerequisites that we will detail right away.
 
-#### Declaration in plugin_info / info.json
-
-Same example as for the declaration of the daemon, you must add the `hasDependency` property and assign the value` true`:
-
-`` ``json
-{
-    "id" : "pluginID",
-    "name" : "pluginName",
-    ...
-    "hasDependency" : true,
-    "hasOwnDeamon" : true,
-    "maxDependancyInstallTime" : 10,
-    ...
-}
-`` ``
-
-The `maxDependancyInstallTime` property is the delay in minutes after which the core will consider that the installation was unsuccessful.
- In this case, the auto mode of the daemon will be disabled and a message will be posted in the notification center.
- If this property is not defined, the default time will be 30min.
-
-> **TIP**
->
-> The installation script will not be interrupted so it may end up successfully completing. This is only the time after which the core no longer waits and no longer displays progress.
+There are 2 prerequisites that we will detail right away.
 
 #### Installing dependencies
 
@@ -717,7 +712,7 @@ In your eqLogic class you must add this function if it does not exist. You can c
 `` ``php
     public static function dependancy_install() {
         log::remove (__ CLASS__. '_update');
-        return array ('script' => dirname (__ FILE__). '/../../resources/install_#stype#.sh ' . jeedom::getTmpFolder (__ CLASS__) . '/ dependency ',' log '=> log::getPathToLog (__ CLASS__. '_update'));
+        return array ('script' => dirname (__ FILE__). '/../../resources/install_#stype#.sh ' . jeedom::getTmpFolder (__ CLASS__) . '/dependance', 'log' => log::getPathToLog (__ CLASS__. '_update'));
     }
 `` ``
 
@@ -726,14 +721,20 @@ This function starts by deleting the log of the previous installation if it exis
 Note that the returned script file is named `install_#stype#.sh`. Indeed, `#stype#`will be dynamically replaced by the core with the package management tool to be used depending on the system on which Jeedom is installed. So `#stype#`will be replaced by` apt` on a Debian system.
 This makes it possible to offer dependency installation scripts for several systems and therefore to support something other than Debian / apt which is the strict minimum and the only one that we will manage here.
 
-The first argument: `jeedom::getTmpFolder (__ CLASS__) . '/ dependency'` is the file that is used to monitor the progress of the installation (the percentage that appears on the screen during the installation).
+The first argument: `jeedom::getTmpFolder (__ CLASS__) . '/dependance'` is the file used to track the progress of the installation (the percentage that appears on the screen during installation).
 
 That's all for the php part, now you have to create the script in `./resources/install_apt.sh` and obviously the content of the script will depend on your plugin and the packages you want to install.
 
 Here is an example of a fairly simple script from one of my plugins but you can make it much more complete and advanced:
 
+> **Warning**
+>
+> Starting with Debian 12, it is mandatory to install python packages in a virtual environment, so this example script will no longer work as is, it is up to you to update it accordingly.
+>
+> Je vous invite également à consulter cette documentation qui offre une alternative: <https://github.com/Mips2648/dependance.lib/blob/master/pyenv.md>
+
 `` ``bash
-PROGRESS_FILE = / tmp / jeedom / template / dependency #replace template with your plugin ID
+PROGRESS_FILE=/tmp/jeedom/template/dependance #replace template with the ID of your plugin
 
 if [ ! -z $ 1]; then
     PROGRESS_FILE = $ 1
@@ -776,7 +777,7 @@ We start by defining the default location of the progress file in case we have n
 And we use the first argument received as a location because we did the previous step correctly;-).
 
 `` ``bash
-PROGRESS_FILE = / tmp / jeedom / template / dependency #replace template with your plugin ID
+PROGRESS_FILE=/tmp/jeedom/template/dependance #replace template with the ID of your plugin
 
 if [ ! -z $ 1]; then
     PROGRESS_FILE = $ 1
@@ -810,8 +811,8 @@ Here is an example of which you can use the majority:
     public static function dependancy_info() {
         $return = array();
         $return['log'] = log::getPathToLog(__CLASS__ . '_update');
-        $return['progress_file'] = jeedom::getTmpFolder (__ CLASS__) . '/dependency';
-        if (file_exists (jeedom::getTmpFolder (__ CLASS__) . '/dependency')) {
+        $return['progress_file'] = jeedom::getTmpFolder (__ CLASS__) . '/dependance';
+        if (file_exists (jeedom::getTmpFolder (__ CLASS__) . '/dependance')) {
             $return['state'] = 'in_progress';
         } else {
             if (exec (system::getCmdSudo() . system::get ('cmd_check') . '-Ec "python3 \ -requests|python3 \ -voluptuous|python3 \ -bs4 "') <3) {// adapt the list of packages and the total
@@ -829,5 +830,9 @@ Here is an example of which you can use the majority:
 In this example we test the presence of apt packages: `system::getCmdSudo() . system::get ('cmd_check') . '-Ec "python3 \ -requests|python3 \ -voluptuous|python3 \ -bs4 "'`. Here we want `python3-requests`,` python3-voluptuous` and `python3-bs4` and therefore the command must return 3 hence the comparison: `<3`.
 
 Same thing for python packages: `pip3 list | grep -Ewc "aiohttp" '`. The presence of `aiohttp` is validated, only one package so we compare: `<1`;
+
+> **Warning**
+>
+> Starting with Debian 12, it is mandatory to install python packages in a virtual environment, so this command will no longer work as is, it is up to you to update it accordingly.
 
 So it's very simple: the list of packages and the total are the only elements that you must modify if you only have this type of verification otherwise it will be easy to add the other relevant tests in your case.

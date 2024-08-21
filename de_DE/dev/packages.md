@@ -54,7 +54,6 @@ Aus jeedom v4.2 Es ist möglich, die Verwaltung der Abhängigkeiten Ihrer Plugin
 `` ``json
 {
   "apt" : {
-    "python3" : {},
     "python3-pip" : {},
     "python3-pyudev" : {},
     "Python3-Anfragen" : {},

@@ -54,7 +54,6 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
 `` ``json
 {
   "apt" : {
-    "python3" : {},
     "python3-pip" : {},
     "python3-pyudev" : {},
     "Python3-solicitudes" : {},
