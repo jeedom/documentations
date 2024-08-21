@@ -4,6 +4,9 @@
 >
 > As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 20/08/2024
+Moved notification info to the “Mobile” tab"
+
 
 # 04/08/2024
 Taking into account retention of notifications for deletion of images

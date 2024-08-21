@@ -4,6 +4,9 @@
 >
 > Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 20/08/2024
+Déplacement des infos notifications dans l'onglet "Mobile"
+
 
 # 04/08/2024
 Prise en compte retention des notifications pour suppression des images

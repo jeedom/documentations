@@ -4,6 +4,9 @@
 >
 > Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 20/08/2024
+Movendo informações de notificação para a guia “Celular”"
+
 
 # 08/04/2024
 Levando em consideração a retenção de notificações para exclusão de imagens

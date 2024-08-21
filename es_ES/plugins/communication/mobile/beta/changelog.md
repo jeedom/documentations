@@ -4,6 +4,9 @@
 >
 > Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 20/08/2024
+Mover la información de notificación a la pestaña "Móvil""
+
 
 # 08/04/2024
 Teniendo en cuenta la retención de notificaciones por eliminación de imágenes

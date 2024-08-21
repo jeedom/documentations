@@ -4,6 +4,9 @@
 >
 > Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 20.08.2024
+Benachrichtigungsinformationen auf die Registerkarte „Mobil“ verschieben"
+
 
 # 08.04.2024
 Berücksichtigung der Aufbewahrung von Benachrichtigungen zum Löschen von Bildern
