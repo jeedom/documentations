@@ -1,8 +1,13 @@
 {
 	"id": "Freebox_OS",
 	"name": "Freebox",
-	"description" : {
-		"fr_FR": "Ce plugin permet de récupérer les informations disponibles sur les box Freebox Révolution/Delta/Pop/Ultra.<br/>Pour les Freebox Delta, il permet aussi de récupérer les équipements connectés (Domotique)."
+	"description": {
+		"fr_FR": "Ce plugin permet de récupérer les informations disponibles sur les box Freebox Révolution/Delta/Pop/Ultra.<br/>Pour les Freebox Delta, il permet aussi de récupérer les équipements connectés (Domotique).",
+		"en_US": "This plugin retrieves information available on Freebox Revolution/Delta/Pop/Ultra boxes.<br/>For Freebox Delta, it also retrieves connected equipment (home automation).",
+		"es_ES": "Este plugin permite recuperar la información disponible en las cajas Freebox Revolution/Delta/Pop/Ultra. Para la Freebox Delta, también permite recuperar los equipos conectados (domótica).",
+		"de_DE": "Mit diesem Plugin können Sie die Informationen abrufen, die auf den Boxen Freebox Révolution/Delta/Pop/Ultra verfügbar sind.<br/>Für die Freebox Delta können Sie damit auch die angeschlossenen Geräte (Domotik) abrufen.",
+		"it_IT": "Questo plugin consente di recuperare le informazioni disponibili sui box Freebox Revolution/Delta/Pop/Ultra. Per il Freebox Delta, consente anche di recuperare le apparecchiature collegate (domotica).",
+		"pt_PT": "Este plugin permite recuperar as informações disponíveis nas caixas Freebox Revolution/Delta/Pop/Ultra. Para a Freebox Delta, permite também recuperar o equipamento ligado (domótica)."
 	},
 	"utilization": "Il est possible de commander le Wi-Fi, le planning du Wi-Fi, le contrôle parental.<br/>Pour la Freebox Delta, plusieurs possibilités sont disponibles. Il est entre autre possible de commander le pack sécurité ainsi que les différents équipements compatibles avec celui-ci. Il permet de récupérer toutes les infos disponibles sur la Freebox et pour les Delta il permet de récupérer les équipements connectés.",
 	"licence": "AGPL",
@@ -17,17 +22,15 @@
 	},
 	"documentation": "http://mika-nt28.github.io/Documentations/Freebox_OS/#language#/",
 	"changelog": "https://mika-nt28.github.io/Documentations/Freebox_OS/#language#/changelog",
-	"changelog_beta" : "https://mika-nt28.github.io/Documentations/Freebox_OS/#language#/changelog_beta",
-	"documentation_beta" : "http://mika-nt28.github.io/Documentations/Freebox_OS/#language#/index_beta",
+	"changelog_beta": "https://mika-nt28.github.io/Documentations/Freebox_OS/#language#/changelog_beta",
+	"documentation_beta": "http://mika-nt28.github.io/Documentations/Freebox_OS/#language#/index_beta",
 	"language": [
-		"de_DE", 
-		"en_US", 
-		"es_ES", 
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"id_ID",
-		"it_IT", 
-		"ru_RU", 
-		"sp_SP"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"miniplus",
