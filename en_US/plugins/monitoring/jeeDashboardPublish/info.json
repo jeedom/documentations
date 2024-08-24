@@ -1,0 +1,54 @@
+{
+    "id": "jeeDashboardPublish",
+    "name": "JeeDashboard-Publish",
+    "specialAttributes": [],
+    "description": {
+        "fr_FR": "Plugin permetant de publier des valeurs depuis Jeedom en MQTT",
+        "en_US": "Plugin allowing you to publish values from Jeedom in MQTT",
+        "es_ES": "Complemento que le permite publicar valores de Jeedom en MQTT",
+        "de_DE": "Plugin, mit dem Sie Werte von Jeedom in MQTT veröffentlichen können",
+        "ru_RU": "Plugin permetant de publier des valeurs depuis Jeedom en MQTT",
+        "id_ID": "Plugin permetant de publier des valeurs depuis Jeedom en MQTT",
+        "it_IT": "Plugin permetant de publier des valeurs depuis Jeedom en MQTT",
+        "ja_JP": "Plugin permetant de publier des valeurs depuis Jeedom en MQTT",
+        "pt_PT": "Plugin que permite publicar valores do Jeedom no MQTT",
+        "tr": "Plugin permetant de publier des valeurs depuis Jeedom en MQTT"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2.0",
+    "category": "monitoring",
+    "hasDependency": true,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 45,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/jeeDashboardPublish\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/jeeDashboardPublish\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/jeeDashboardPublish\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/jeeDashboardPublish\/beta",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas"
+    ]
+}
