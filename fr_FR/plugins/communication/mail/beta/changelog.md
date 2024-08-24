@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 24/08/2024
+
+- Mise à jour de la documentation
+
 # 15/01/2024
 
 - Préparation pour jeedom 4.4

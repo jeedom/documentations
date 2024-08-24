@@ -61,6 +61,10 @@ Estos son algunos ejemplos de los principales proveedores de servicios de correo
     -   Puerto SMTP : 465
     -   Seguridad SMTP : SSL
 
+> **Importante**
+>
+> Tenga en cuenta que Google parece haber cambiado su política con respecto a Gmail y ya no es posible usar Gmail con el complemento (incluso usando una clave de aplicación)). Sin embargo, esto no parece afectar a todas las cuentas de Gmail (sin entrar en la regla de quién funciona o no y por qué))
+
 Les champs « Utilisateur SMTP » et « Mot de passe SMTP » correspondent aux identifiants de votre compte E-mail.
 
 Desde la pestaña "Pedidos", puede agregar pedidos que correspondan a las direcciones de correo electrónico a las que desea poder enviar correos electrónicos con Jeedom :

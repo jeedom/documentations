@@ -61,6 +61,10 @@ Hier einige Beispiele für die wichtigsten E-Mail-Dienstanbieter :
     -   SMTP-Port : 465
     -   SMTP-Sicherheit : SSL
 
+> **Wichtig**
+>
+> Bitte beachten Sie, dass Google offenbar seine Richtlinien zu Gmail geändert hat und es nicht mehr möglich ist, Gmail mit dem Plugin zu verwenden (auch nicht mit einem Anwendungsschlüssel)). Allerdings scheint dies nicht alle Gmail-Konten zu betreffen (ohne auf die Regel einzugehen, wer es funktioniert und warum nicht))
+
 Les champs « Utilisateur SMTP » et « Mot de passe SMTP » correspondent aux identifiants de votre compte E-Mail.
 
 Auf der Registerkarte "Bestellungen" können Sie Bestellungen hinzufügen, die den E-Mail-Adressen entsprechen, an die Sie E-Mails mit Jeedom senden möchten :

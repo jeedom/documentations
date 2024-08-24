@@ -4,6 +4,12 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 15.01.2024
+
+- Vorbereitung auf Jeedom 4.4
+- Beste PHP 8-Unterstützung
+- Aktualisieren der E-Mail-Verwaltungsbibliothek
+
 # 18.03.2022
 
 - Aktualisierte Darstellung des Gerätekonfigurationsbildschirms

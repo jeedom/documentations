@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 08/24/2024
+
+- Documentation update
+
 # 01/15/2024
 
 - Preparing for jeedom 4.4

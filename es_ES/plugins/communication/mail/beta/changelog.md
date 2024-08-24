@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 24/08/2024
+
+- Actualización de documentación
+
 # 15/01/2024
 
 - Preparándose para el apuro 4.4

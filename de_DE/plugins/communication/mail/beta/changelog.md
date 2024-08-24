@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 24.08.2024
+
+- Aktualisierung der Dokumentation
+
 # 15.01.2024
 
 - Vorbereitung auf Jeedom 4.4
