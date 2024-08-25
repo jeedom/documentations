@@ -154,3 +154,7 @@ volumes:
 >**Tipps**
 >
 >Vergessen Sie nicht, das „TODO“ mit den gewünschten Passwörtern zu vervollständigen
+
+>**Tipps**
+>
+> Es ist möglich, den Apache-Listening-Port mit der Umgebungsvariablen „APACHE_PORT“ anzugeben. Achten Sie darauf, den „Healthcheck“ mit dem neuen Port zu aktualisieren. Bitte beachten Sie, dass dies erst ab Jeedom 4.5 möglich ist

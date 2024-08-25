@@ -154,3 +154,7 @@ volumes:
 >**TIPS**
 >
 >Do not forget to complete the `TODO` with the desired passwords
+
+>**TIPS**
+>
+> It is possible to specify the Apache listening port with the environment variable `APACHE_PORT`, be careful to update the `healthcheck` with the new port. Please note that this is only possible from Jeedom 4.5

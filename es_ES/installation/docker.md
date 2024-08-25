@@ -154,3 +154,7 @@ volumes:
 >**Consejos**
 >
 >No olvides completar el `TODO` con las contraseñas deseadas
+
+>**Consejos**
+>
+> Es posible especificar el puerto de escucha de Apache con la variable de entorno `APACHE_PORT`, tenga cuidado de actualizar `healthcheck` con el nuevo puerto. Tenga en cuenta que esto solo es posible desde Jeedom 4.5

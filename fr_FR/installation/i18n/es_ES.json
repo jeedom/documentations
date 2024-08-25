@@ -233,6 +233,8 @@
         "DB_NAME=jeedom": "DB_NAME=jeedom",
         "depends_on": "depende de",
         "N'oubliez pas completer les `TODO` avec les mots de passe voulu": "No olvides completar el `TODO` con las contraseñas deseadas",
+        "Il est possible de spécifier le port d'écoute d'Apache avec la variable d'environnement `APACHE_PORT`, attention a bien mettre à jour le `healthcheck` avec le nouveau port": "Es posible especificar el puerto de escucha de Apache con la variable de entorno `APACHE_PORT`, tenga cuidado de actualizar `healthcheck` con el nuevo puerto",
+        "Attention cela n'est possible qu'a partir de Jeedom 4.5": "Tenga en cuenta que esto solo es posible desde Jeedom 4.5",
         " Important.": " Importante.",
         " Important?": " Importante?",
         "Important ": "Importante ",
