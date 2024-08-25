@@ -154,3 +154,7 @@ volumes:
 >**TIPS**
 >
 >N'oubliez pas completer les `TODO` avec les mots de passe voulu
+
+>**TIPS**
+>
+> Il est possible de spécifier le port d'écoute d'Apache avec la variable d'environnement `APACHE_PORT`, attention a bien mettre à jour le `healthcheck` avec le nouveau port. Attention cela n'est possible qu'a partir de Jeedom 4.5
