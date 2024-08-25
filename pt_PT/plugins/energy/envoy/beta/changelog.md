@@ -4,6 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 25/08/2024
+
+- Atualização da documentação
+- Renovação de token aprimorada
+
 # 01/08/2024
 
 - Preparando-se para Jeedom 4.4
