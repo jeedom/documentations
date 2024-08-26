@@ -4,9 +4,14 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- EnOcean-Rollladenunterstützung
+- Möglichkeit der Konfiguration des Kommunikationsports mit der IP (Standard 80))
+
+# 01.08.2024
+
 - AUFMERKSAMKEIT !!!!!! Verhaltensänderung an den Rollläden, Richtungsumkehr, das Plugin zeigt nicht mehr die %-Schließung, sondern die %-Öffnung an
 - Überprüfen des IPX-Rückgabecodes während eines Befehls und wenn ein Fehler auftritt, wird Jeedom den Befehl 150 ms später wiederholen
-
+- Vorbereitung auf Jeedom 4.4
 
 # 07.02.2022
 

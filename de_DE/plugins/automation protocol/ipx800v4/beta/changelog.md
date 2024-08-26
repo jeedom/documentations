@@ -4,8 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 26.08.2024
+
 - EnOcean-Rollladenunterstützung
 - Möglichkeit der Konfiguration des Kommunikationsports mit der IP (Standard 80))
+- Unterstützung für benutzerdefinierte Gerätebilder (Jeedom 4.5)
 
 # 01.08.2024
 

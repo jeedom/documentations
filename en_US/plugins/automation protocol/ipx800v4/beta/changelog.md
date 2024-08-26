@@ -4,8 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 08/26/2024
+
 - EnOcean roller shutter support
 - Possibility of configuring the communication port with the IP (default 80)
+- Support for custom equipment images (Jeedom 4.5)
 
 # 01/08/2024
 

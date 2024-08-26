@@ -4,6 +4,8 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas da atualização de documentação, tradução ou texto.
 
+- Suporte para imagens de equipamentos personalizados (Jeedom 4.5)
+
 # 22/02/2024
 
 - Preparação do Núcleo 4.4

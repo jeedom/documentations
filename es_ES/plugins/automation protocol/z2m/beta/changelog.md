@@ -4,6 +4,8 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+- Posibilidad en cajas con dongles elelabs de actualizar el firmware de Ember (experimentalmente, esto puede romper completamente su dongle y no estará cubierto por la garantía ni por el soporte))
+
 # 08/05/2024
 
 - Gestión de imágenes mejorada

@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 08/26/2024
+
+- Better PHP8 support
+- Support for custom equipment images (Jeedom 4.5)
+
 # 01/08/2024
 
 - Preparing for jeedom 4.4

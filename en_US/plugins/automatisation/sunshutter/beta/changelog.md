@@ -4,6 +4,8 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the updating of documentation, translation or text.
 
+- Support for custom equipment images (Jeedom 4.5)
+
 # 02/22/2024
 
 - Core 4.4 preparation

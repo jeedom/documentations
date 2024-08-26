@@ -4,6 +4,8 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Bei Boxen mit elelabs-Dongles besteht die Möglichkeit, die Ember-Firmware zu flashen (experimentell). Dies kann Ihren Dongle vollständig beschädigen und wird weder von der Garantie noch vom Support abgedeckt)
+
 # 08.05.2024
 
 - Verbesserte Bildverwaltung

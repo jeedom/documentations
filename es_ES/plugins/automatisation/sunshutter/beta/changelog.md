@@ -4,6 +4,8 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+- Soporte para imágenes de equipos personalizados (Jeedom 4.5)
+
 # 22/02/2024
 
 - Preparación básica 4.4

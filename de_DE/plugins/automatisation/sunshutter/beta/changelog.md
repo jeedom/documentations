@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Unterstützung für benutzerdefinierte Gerätebilder (Jeedom 4.5)
+
 # 22.02.2024
 
 - Vorbereitung auf Core 4.4

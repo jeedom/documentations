@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 01/08/2024
+
+- Preparando-se para Jeedom 4.4
+
 # 11/06/2023
 
 - Correções de bugs e otimização

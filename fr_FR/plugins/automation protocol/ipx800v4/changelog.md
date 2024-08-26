@@ -4,6 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 26/08/2024
+
+- Support des volets roulants EnOcean
+- Possibilité de configurer le port de communication avec l'ip (par défaut 80)
+- Support des images d'équipement personnalisées (Jeedom 4.5)
+
 # 08/01/2024
 
 - ATTENTION !!!!!! Changement du comportement sur les volets, inversion du sens, le plugin n'indique plus le % de fermeture mais le % d'ouverture
