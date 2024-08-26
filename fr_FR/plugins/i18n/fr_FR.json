@@ -461,6 +461,8 @@
         "Plugin de Monitoring local et distant par SSH": "Plugin de Monitoring local et distant par SSH",
         "JeeDashboard-Publish": "JeeDashboard-Publish",
         "Plugin permetant de publier des valeurs depuis Jeedom en MQTT": "Plugin permetant de publier des valeurs depuis Jeedom en MQTT",
+        "JeeDashboard-Agbox": "JeeDashboard-Agbox",
+        "Plugin servant à la configuration de JeeDashboard": "Plugin servant à la configuration de JeeDashboard",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",
@@ -469,9 +471,9 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation Stable": "Documentation Stable",
-        "Documentation Beta": "Documentation Beta",
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
+        "Documentation Beta": "Documentation Beta",
         "Changelog Beta": "Changelog Beta"
     },
     "plugins\/multimedia\/index.md": {
