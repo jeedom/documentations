@@ -5,6 +5,7 @@
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
 - Implementation of optimization on the management of equipment transmitted with jeedom 4.5
+- Added security to avoid putting a topic used by a plugin in root topic
 
 # 20/08/2024
 

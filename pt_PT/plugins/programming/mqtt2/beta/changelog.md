@@ -5,6 +5,7 @@
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
 - Implementação de otimização na gestão de equipamentos transmitidos com jeedom 4.5
+- Adicionada segurança para evitar colocar um tópico usado por um plugin como tópico raiz
 
 # 20/08/2024
 

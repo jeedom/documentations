@@ -5,6 +5,7 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 - Mise en place d'optimisation sur la gestion des équipements tranmis avec jeedom 4.5
+- Ajout d'une sécurité pour eviter de mettre en topic racin un topic utilisé par un plugin
 
 # 20/08/2024
 

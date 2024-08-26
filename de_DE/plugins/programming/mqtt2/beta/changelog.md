@@ -5,6 +5,7 @@
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
 - Implementierung einer Optimierung der Verwaltung übertragener Geräte mit jeedom 4.5
+- Es wurde Sicherheit hinzugefügt, um zu verhindern, dass ein von einem Plugin verwendetes Thema als Stammthema festgelegt wird
 
 # 20.08.2024
 
