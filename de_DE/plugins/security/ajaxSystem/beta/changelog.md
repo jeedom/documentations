@@ -5,6 +5,7 @@
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 - Bessere Reinigung von SIA-Bestellungen
+- Bessere Ereignisverwaltung (Ereignisse vom Typ Alarm werden jetzt auf dem Hub gemeldet)
 
 # 10.08.2024
 
