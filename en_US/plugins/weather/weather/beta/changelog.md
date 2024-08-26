@@ -4,7 +4,12 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-- Better contact details management
+# 08/26/2024
+
+- Better coordinate management
+- Support for custom images (Jeedom 4.5)
+- Fixed an error when creating equipment if the coordinates are empty
+- Addition of forecasts at H+1, H+2 and H+3
 
 # 05/22/2024
 

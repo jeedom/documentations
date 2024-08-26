@@ -4,7 +4,12 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 26.08.2024
+
 - Bessere Verwaltung von Kontaktdaten
+- Unterstützung für benutzerdefinierte Bilder (Jeedom 4.5)
+- Es wurde ein Fehler beim Erstellen von Ausrüstung behoben, wenn die Koordinaten leer waren
+- Hinzufügung von Prognosen für H+1, H+2 und H+3
 
 # 22.05.2024
 
