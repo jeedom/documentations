@@ -4,6 +4,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+
+- Änderung des Tags #trigger# von #alarm_trigger#
+
+>**Wichtig**
+>
+> Seien Sie vorsichtig, Sie müssen Ihre Szenarien und die Aktionen in Ihren Alarmen aktualisieren. Diese Änderung ist auf einen Konflikt zwischen den Szenario-Tags und den Alarm-Tags zurückzuführen, die denselben Namen hatten und daher abstürzten
+
 # 01.03.2024
 
 - Vorbereitung auf Jeedom 4.4

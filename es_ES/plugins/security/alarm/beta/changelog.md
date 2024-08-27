@@ -4,6 +4,13 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+
+- Cambio de etiqueta #trigger# por #alarm_trigger#
+
+>**Importante**
+>
+> Tenga en cuenta que debe actualizar sus escenarios y las acciones en sus alarmas. Este cambio se debe a un conflicto entre las etiquetas de escenario y las etiquetas de alarma que tenían el mismo nombre y, por lo tanto, fallaron
+
 # 01/03/2024
 
 - Preparándose para el apuro 4.4

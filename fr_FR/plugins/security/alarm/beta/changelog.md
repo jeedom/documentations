@@ -4,6 +4,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+
+- Changement du tag #trigger# par #alarm_trigger#
+
+>**IMPORTANT**
+>
+> Attention il faut mettre a jour vos scénarios et les actions dans vos alarmes. Ce changement est du a un conflit entre les tags des scénarios et les tags de l'alarme qui avaient le meme nom et donc s'écrasée
+
 # 03/01/2024
 
 - Préparation pour jeedom 4.4

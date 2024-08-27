@@ -4,6 +4,13 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+
+- Change tag #trigger# by #alarm_trigger#
+
+>**Important**
+>
+> Please note that you must update your scenarios and the actions in your alarms. This change is due to a conflict between the scenario tags and the alarm tags which had the same name and therefore were overwritten
+
 # 03/01/2024
 
 - Preparing for jeedom 4.4

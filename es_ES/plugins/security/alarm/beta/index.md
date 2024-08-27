@@ -118,7 +118,7 @@ Esta parte le permite definir las acciones que se realizarán cuando se active l
 > Las posibles etiquetas son :
 >
 > - #mode# : nombre del modo actual
-> - #trigger# : nombre del comando que activó la alerta
+> - #alarm_trigger# : nombre del comando que activó la alerta
 > - #zone# : nombre del área del comando que activó la alerta
 
 >**Cómo restablecer una alarma permanente ?**

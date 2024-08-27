@@ -4,6 +4,13 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+
+- Mudança de etiqueta #trigger# por #alarm_trigger#
+
+>**IMPORTANTE**
+>
+> Tenha cuidado, você deve atualizar seus cenários e as ações em seus alarmes. Esta alteração se deve a um conflito entre as tags de cenário e as tags de alarme que tinham o mesmo nome e portanto travaram
+
 # 01/03/2024
 
 - Preparando-se para Jeedom 4.4
