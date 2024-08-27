@@ -1,0 +1,53 @@
+{
+    "id": "jeeDashboardAgbox",
+    "name": "JeeDashboard-Agbox",
+    "pluginVersion": "0.1",
+    "description": {
+        "fr_FR": "Plugin servant à la configuration de JeeDashboard",
+        "en_US": "Plugin for configuring JeeDashboard",
+        "es_ES": "Complemento utilizado para configurar JeeDashboard",
+        "de_DE": "Plugin zur Konfiguration von JeeDashboard",
+        "ru_RU": "Plugin servant à la configuration de JeeDashboard",
+        "id_ID": "Plugin servant à la configuration de JeeDashboard",
+        "it_IT": "Plugin servant à la configuration de JeeDashboard",
+        "ja_JP": "Plugin servant à la configuration de JeeDashboard",
+        "pt_PT": "Plugin usado para configurar JeeDashboard",
+        "tr": "Plugin servant à la configuration de JeeDashboard"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2",
+    "category": "monitoring",
+    "hasDependency": true,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/jeeDashboardAgbox\/beta\/changelog",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/jeeDashboardAgbox\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/jeeDashboardAgbox\/beta",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/jeeDashboardAgbox",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "smart",
+        "luna",
+        "atlas",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile"
+    ]
+}

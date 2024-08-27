@@ -4,7 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 08/26/2024
+
 - Fixed a bug on the repetition of an event every hour
+- Support for custom equipment images (Jeedom 4.5)
 
 # 01/23/2024
 

@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+- Better contact details management
+
+# 05/22/2024
+
 - Fixed a rare bug on sunrise/sunset time which could fall at 1 a.m
 - Bugfix
 

@@ -4,7 +4,9 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 10/01/2024
+- Fixed a bug on the repetition of an event every hour
+
+# 01/23/2024
 
 - Fixed a bug when deleting an occurrence of a recurring event
 

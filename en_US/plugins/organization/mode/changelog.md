@@ -4,6 +4,27 @@
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
+- Possibility of having or not the next, previous and replay commands
+
+# 01/15/2024
+
+- The corresponding command is updated when renaming a mode instead of being deleted
+
+# 01/11/2024
+
+- Rewriting in pure javascript
+- Minimum Jeedom core version required : 4.4
+
+# 03/01/2024
+
+- Preparing for jeedom 4.4
+- Added a command to replay current mode actions *(requires resaving the equipment)*
+- Transition to stable
+
+# 04/26/2022
+
+- Transition to stable
+
 # 01/19/2022
 
 - V4.2 optimizations
@@ -11,6 +32,7 @@
 # 12/12/2021
 
 - Added a button to go to the next mode
+- Transition to stable
 
 # 06/28/2021
 
@@ -24,6 +46,10 @@
 # 04/11/2021
 
 - Added a lock command to prevent any mode change if active
+
+# 05/12/2020
+
+- Transition to stable
 
 # 12/11/2019
 

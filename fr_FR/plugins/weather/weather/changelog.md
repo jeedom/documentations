@@ -4,6 +4,13 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 26/08/2024
+
+- Meilleure gestion des coordonnées
+- Support des images personnalisées (Jeedom 4.5)
+- Correction d'une erreur a la création de l'équipement si les coordonnées sont vide
+- Ajout des prevision à H+1, H+2 et H+3
+
 # 22/05/2024
 
 - Correction d'un bug rare sur l'heure de levé/couché de soleil qui pouvait tomber a 1h du matin

@@ -39,7 +39,7 @@ Aquí encontrarás la lista de pedidos :
 - **Icono** : Este campo le permite asociar un icono con su nombre (en este caso, Jeedom reemplaza el nombre con el icono en el Tablero).
 - **Tipo de script** :
   - El tipo **Http** : permite enviar una solicitud a un dispositivo externo sin esperar necesariamente la devolución de este comando. El ejemplo que servirá como soporte para el tipo http será la configuración de una solicitud a un Vera para encender una luz.
-  - El tipo **guion** : se usa principalmente para ejecutar scripts internos de Jeedom. El ejemplo que servirá como soporte para el tipo de script será la configuración del script de monitoreo de temperatura de la frambuesa.
+  - El tipo **Guión** : se usa principalmente para ejecutar scripts internos de Jeedom. El ejemplo que servirá como soporte para el tipo de script será la configuración del script de monitoreo de temperatura de la frambuesa.
   - El tipo **XML** : permite recuperar información codificada en XML desde un dispositivo remoto. El ejemplo que servirá como soporte para el tipo XML será la configuración del script para consultar un Eco-Device.
   - El tipo **JSON** : permite recuperar información codificada en JSON desde un dispositivo remoto. El ejemplo que servirá de soporte para el tipo JSON será la configuración del script para consultar Sickbeard (o XBMC).
 - **el tipo** y el **Sub-tipo**
@@ -81,7 +81,7 @@ Se usa para llamar a una URL o recuperar el retorno de una URL.
 
 # La elección de HTML
 
-![guion HTML](../images/script_html.png)
+![Guión HTML](../images/script_html.png)
 
 Le permite pasar una página web (archivo HTML) para recuperar un valor anterior. La sintaxis es la misma que para jquery.
 
@@ -89,7 +89,7 @@ El campo de opción tiene un campo "URL de archivo HTML"" : Por lo tanto, este c
 
 # La elección XML
 
-![guion XML](../images/script_xml.png)
+![Guión XML](../images/script_xml.png)
 
 Le permite recuperar xml y buscar específicamente un valor en él.
 
@@ -101,7 +101,7 @@ El campo de opción tiene un campo "URL del archivo XML"" : este campo contiene 
 
 # La elección de JSON
 
-![guion JSON](../images/script_json.png)
+![Guión JSON](../images/script_json.png)
 
 Permite recuperar json y buscar específicamente un valor en él.
 
@@ -236,7 +236,7 @@ Nota : concretamente, es la función php "echo" la que le dará el valor a Jeedo
 
 Obtenga la información de Jeedom para usarla en un script. La recuperación depende del tipo de script utilizado :
 
-- En la linea : `/var/www/html/plugins/script/data/my_script.php my_value`, el argumento `my_value` est une chaîne de caractères (fixe) récupérée dans le guion php dans le tableau d'arguments `$argv` voir <https://www.php.net/manual/fr/reserved.variables.argv.php> para más detalles.
+- En la linea : `/var/www/html/plugins/script/data/my_script.php my_value`, el argumento `my_value` est une chaîne de caractères (fixe) récupérée dans le Guión php dans le tableau d'arguments `$argv` voir <https://www.php.net/manual/fr/reserved.variables.argv.php> para más detalles.
 - Vimos anteriormente que era posible recuperar valores dinámicos de Jeedom.
 - En la linea : `/var/www/html/plugins/script/datos/radio.py VOL #slider#`, el argumento `#slider#` se recupera de esta manera `$argv[2]`. Cuando Jeedom ejecuta el script, reemplazará automáticamente `#slider#` por el valor (numérico) del control deslizante. consulte Google para obtener detalles sobre la recuperación de parámetros en Python.
 

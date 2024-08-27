@@ -471,9 +471,9 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation Stable": "Documentation Stable",
+        "Documentation Beta": "Documentation Beta",
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
-        "Documentation Beta": "Documentation Beta",
         "Changelog Beta": "Changelog Beta"
     },
     "plugins\/multimedia\/index.md": {

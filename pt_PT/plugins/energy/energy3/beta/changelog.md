@@ -6,6 +6,8 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+- Suporte para imagens de equipamentos personalizados (Jeedom 4.5)
+
 # 04/04/2024
 
 - Corrigido um problema de legibilidade do widget (#15)

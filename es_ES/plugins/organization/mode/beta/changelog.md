@@ -4,6 +4,9 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
+# 26/08/2024
+
+- Soporte para imágenes de equipos personalizados (Jeedom 4.5)
 - Posibilidad de tener o no los comandos siguiente, anterior y repetir
 
 # 15/01/2024

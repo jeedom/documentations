@@ -4,6 +4,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Support des images d'équipement personnalisées (Jeedom 4.5)
+
+# 01/07/2024
+
+- Correction de bug
+- Isolation du système de mise à jour des équipements sur cron pour le fiabiliser
+
 # 06/05/2024
 
 - Changement interne pour éviter des effets de bord non désirés. La fonction "refresh" de la class *script* a été renommée "refreshAllInfo" et celle de le class *scriptCmd* a été renommée "refreshInfo". Si vous utilisiez ces méthodes dans vos scénarios bloc code vous devez les corriger.

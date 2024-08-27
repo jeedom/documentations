@@ -4,10 +4,29 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 26/08/2024
+
+- Support des images d'équipement personnalisées (Jeedom 4.5)
+- Possibilité d'avoir ou non les commandes suivante, precedent et rejouter
+
+# 15/01/2024
+
+- La commande correspondante est mise à jour lors du renommage d'un mode au lieu d'être supprimée
+
+# 11/01/2024
+
+- Réécriture en pur javascript
+- Version minimale du core Jeedom requise : 4.4
+
 # 03/01/2024
 
 - Préparation pour jeedom 4.4
-- Ajout d'une commande pour rejouer les actions du mode en cours (necessite de resauvegarder l'équipement)
+- Ajout d'une commande pour rejouer les actions du mode en cours *(nécessite de resauvegarder l'équipement)*
+- Passage en stable
+
+# 26/04/2022
+
+- Passage en stable
 
 # 19/01/2022
 
@@ -16,6 +35,7 @@
 # 12/12/2021
 
 - Ajout d'un bouton pour aller au mode suivant
+- Passage en stable
 
 # 28/06/2021
 
@@ -29,6 +49,10 @@
 # 11/04/2021
 
 - Ajout d'une commande de verrouillage permettant d'empêcher tout changement de mode si actif
+
+# 12/05/2020
+
+- Passage en stable
 
 # 11/12/2019
 

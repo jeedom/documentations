@@ -6,6 +6,8 @@
 >
 >Zur Erinnerung: Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 26.08.2024
+- Einrichten einer Konfiguration zur Begrenzung des von Protokollen verwendeten Speicherplatzes durch Anpassen der Rotations- und Aufbewahrungsparameter. 
 
 # 11.07.2024
 

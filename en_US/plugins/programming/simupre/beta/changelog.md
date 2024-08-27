@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Support for custom equipment images (Jeedom 4.5)
+
 # 04/07/2024
 
 - Removal of dependency on a third-party lib to be compatible with php 12

@@ -4,6 +4,13 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Suporte para imagens de equipamentos personalizados (Jeedom 4.5)
+
+# 01/07/2024
+
+- Correção de bug
+- Isolamento do sistema de atualização de equipamentos no cron para torná-lo mais confiável
+
 # 05/06/2024
 
 - Mudança interna para evitar efeitos colaterais indesejados. A função "atualizar" da classe *roteiro* foi renomeado como "refreshAllInfo" e o da classe *scriptCmd* foi renomeado como "refreshInfo". Se você usou esses métodos em seus cenários de bloco de código, precisará corrigi-los.

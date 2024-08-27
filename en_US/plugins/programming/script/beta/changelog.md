@@ -4,6 +4,13 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Support for custom equipment images (Jeedom 4.5)
+
+# 01/07/2024
+
+- Bug fix
+- Isolation of the equipment update system on cron to make it more reliable
+
 # 05/06/2024
 
 - Internal change to avoid unwanted side effects. The "refresh" function of the class *script* was renamed "refreshAllInfo" and that of the class *scriptCmd* was renamed "refreshInfo". If you used these methods in your code block scenarios you need to correct them.

@@ -4,7 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 26.08.2024
+
 - Ein Fehler bei der stündlichen Wiederholung eines Ereignisses wurde behoben
+- Unterstützung für benutzerdefinierte Gerätebilder (Jeedom 4.5)
 
 # 23.01.2024
 

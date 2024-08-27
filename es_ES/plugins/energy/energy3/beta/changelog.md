@@ -6,6 +6,8 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+- Soporte para imágenes de equipos personalizados (Jeedom 4.5)
+
 # 04/04/2024
 
 - Se solucionó un problema de legibilidad del widget (#15)

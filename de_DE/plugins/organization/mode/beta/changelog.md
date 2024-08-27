@@ -4,6 +4,9 @@
 >
 >Zur Erinnerung: Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 26.08.2024
+
+- Unterstützung für benutzerdefinierte Gerätebilder (Jeedom 4.5)
 - Möglichkeit, die nächsten, vorherigen und Wiederholungsbefehle zu haben oder nicht
 
 # 15.01.2024

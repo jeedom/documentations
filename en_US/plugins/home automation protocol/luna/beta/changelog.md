@@ -6,6 +6,8 @@
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
+# 08/26/2024
+- Set up a configuration to limit disk space used by logs, by adjusting rotation and retention settings. 
 
 # 07/11/2024
 

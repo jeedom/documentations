@@ -6,6 +6,8 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
+# 26/08/2024
+- Establecer una configuración para limitar el espacio en disco utilizado por los registros, ajustando los parámetros de rotación y retención. 
 
 # 11/07/2024
 

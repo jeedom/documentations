@@ -4,7 +4,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 26/08/2024
+
 - Corrigido um bug na repetição de um evento a cada hora
+- Suporte para imagens de equipamentos personalizados (Jeedom 4.5)
 
 # 23/01/2024
 

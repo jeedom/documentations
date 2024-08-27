@@ -4,6 +4,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Soporte para imágenes de equipos personalizados (Jeedom 4.5)
+
 # 07/04/2024
 
 - Eliminación de la dependencia de una biblioteca de terceros para que sea compatible con PHP 12

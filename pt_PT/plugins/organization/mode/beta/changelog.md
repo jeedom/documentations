@@ -4,6 +4,9 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
+# 26/08/2024
+
+- Suporte para imagens de equipamentos personalizados (Jeedom 4.5)
 - Possibilidade de ter ou não os comandos next, previous e replay
 
 # 15/01/2024

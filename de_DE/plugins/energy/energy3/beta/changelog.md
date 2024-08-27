@@ -6,6 +6,8 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Unterstützung für benutzerdefinierte Gerätebilder (Jeedom 4.5)
+
 # 04.04.2024
 
 - Ein Problem mit der Lesbarkeit des Widgets wurde behoben (#15)

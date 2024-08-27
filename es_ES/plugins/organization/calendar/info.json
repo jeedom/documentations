@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "4.3",
+    "require": "4.4.9",
     "category": "organization",
     "mobile": "event",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/calendar\/changelog",
