@@ -5,6 +5,7 @@
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 - Unterstützung für benutzerdefinierte Gerätebilder (Jeedom 4.5)
+- Unterstützung für die Verwaltung von Verbindungscookies (korrigiert den 401-Fehler, den einige haben))
 
 # 25.08.2024
 

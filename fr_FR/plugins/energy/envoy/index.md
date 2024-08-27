@@ -2,6 +2,10 @@
 
 Plugin pour remonter les informations photovoltaïques des passerelles Envoy
 
+>IMPORTANT
+>
+>Attention le plugin n'est pour le moment pas compatible avec la version 7 du firmware Enphase. La mise a jour est prévu mais il faut attendre que l'équipe de développement la reçoive.
+
 # Configuration
 
 ## Avant le firmware v7

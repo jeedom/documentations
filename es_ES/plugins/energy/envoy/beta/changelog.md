@@ -5,6 +5,7 @@
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
 - Soporte para imágenes de equipos personalizados (Jeedom 4.5)
+- Soporte para gestión de cookies de conexión (corrige el error 401 que tienen algunas)
 
 # 25/08/2024
 

@@ -5,6 +5,7 @@
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
 - Suporte para imagens de equipamentos personalizados (Jeedom 4.5)
+- Suporte para gerenciamento de cookies de conexão (corrige o erro 401 que alguns apresentam)
 
 # 25/08/2024
 

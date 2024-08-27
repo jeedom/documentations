@@ -4,6 +4,13 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Soporte para imágenes de equipos personalizados (Jeedom 4.5)
+
+# 25/08/2024
+
+- Actualización de documentación
+- Renovación de token mejorada
+
 # 08/01/2024
 
 - Preparándose para el apuro 4.4
