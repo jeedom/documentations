@@ -15,9 +15,11 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "4.2",
+    "require": "4.4.8",
     "category": "multimedia",
     "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 60,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/harmonyhub\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/harmonyhub\/",
     "language": [

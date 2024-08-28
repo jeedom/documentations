@@ -18,43 +18,19 @@ Une fois les dépendances installées, vous pouvez renseigner l'adresse IP sur l
 >
 >Le plugin est en mesure de dialoguer avec plusieurs hubs en même temps. Pour se faire, il faudra indiquer l'adresse IP de chaque hub séparée par le symbole `|`.
 
-Cliquez ensuite sur le bouton **Fichiers de configuration** pour générer *(ou mettre à jour)* le(s) fichier(s) contenant toutes les informations sur les dispositifs associés à chaque hub Harmony.
+Sauvegardez la configuration et Démarrer le démon.
 
 ## Configuration des équipements
 
 Pour accéder aux différents équipements, dirigez-vous vers le menu **Plugins → Multimedia → Harmony Hub**.
 
->**INFORMATION**
->
->Le bouton + Ajouter permet d'ajouter un nouvel équipement Harmony Hub.
+Si la configuration du plugin est correcte, tous vos équipements auront été créé automatiquement avec leurs commandes.
 
-Pour chaque équipement nous retrouvons les paramètres généraux habituels ainsi que 2 menus déroulants permettant, pour l'un, de sélectionner le hub concerné par le dispositif et pour l'autre de choisir le type de dispositif parmis :
-
-- **Activités** : Un équipement regroupant toutes vos activités ainsi que
-    le power off général et une information de l’activité en cours.
-
-- **Un de vos dispositifs** : Un équipement regroupant toutes les
-    commandes pour un dispositif donné.
-
-Une fois sélectionné, il suffit de cliquer sur le bouton **Sauvegarder** pour générer automatiquement la liste des commandes correspondantes :    
-
-![harmonyhub screenshot4](../images/harmonyhub_commands.jpg)
-
-# Commandes
-
-Les commandes ne sont pas visibles par défaut, elles sont
-cependant toutes disponibles via scénario, virtuels, etc…​
-
-Si vous voulez en afficher sur votre dashboard, il suffit de les réorganiser en
-glisser/déposer et de cocher la case **Afficher**. Vous pouvez ensuite, en jouant avec les retours à la ligne, des widgets spécifiques ou les icônes
-proposées, créer une pseduo télécommande :
-
-![harmonyhub screenshot5](../images/harmonyhub_screenshot5.jpg)
-![harmonyhub screenshot6](../images/harmonyhub_screenshot6.jpg)
+Pour chaque équipement nous retrouvons les paramètres généraux habituels ainsi que 1 menu déroulant permettant de choisir l'icône du dispositif. Cette configuration est facultative et n'influence en rien le comportement du plugin.
 
 # Information importante
 
-Depuis le 19-02-2019 il faut **activer une option développeur** dans l'application Harmony.
+Vérifiez si vous devez **activer l'option développeur** dans l'application Harmony.
 
 Voir ce lien de Logitech :
 <https://community.logitech.com/s/question/0D55A00008OsX3CSAV/update-to-accessing-harmony-hubs-local-api-via-xmpp>

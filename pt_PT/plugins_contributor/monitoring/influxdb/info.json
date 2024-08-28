@@ -1,7 +1,14 @@
 {
 	"id": "influxdb",
 	"name": "InfluxDB",
-	"description": "Plugin permettant la connexion à une DB InfluxDB v1 ou v2. Il permet d'envoyer facilement les informations voulues en sélectionnant simplement les commandes correspondantes dans une liste ce qui permet d'externaliser l'historique qui peut ensuite être consulté via Grafana par exemple.",
+	"description": {
+		"fr_FR": "Plugin permettant la connexion à une DB InfluxDB v1 ou v2. Il permet d'envoyer facilement les informations voulues en sélectionnant simplement les commandes correspondantes dans une liste ce qui permet d'externaliser l'historique qui peut ensuite être consulté via Grafana par exemple.",
+		"en_US": "Plugin for connection to an InfluxDB v1 or v2 DB, allowing you to easily send the information you need by simply selecting the corresponding commands from a list, thus externalizing the history, which can then be consulted via Grafana, for example.",
+		"es_ES": "Plugin para conectarse a una BD InfluxDB v1 o v2. Facilita el envío de la información que se necesita con sólo seleccionar los comandos correspondientes en una lista. Esto permite externalizar el historial, que luego se puede consultar a través de Grafana, por ejemplo.",
+		"de_DE": "Plugin zur Verbindung mit einer InfluxDB v1 oder v2. Es ermöglicht das einfache Senden der gewünschten Informationen durch einfaches Auswählen der entsprechenden Befehle aus einer Liste, was das Auslagern der Historie ermöglicht, die dann z. B. über Grafana abgerufen werden kann.",
+		"it_IT": "Plugin per la connessione a un DB InfluxDB v1 o v2. Consente di inviare facilmente le informazioni necessarie selezionando semplicemente i comandi corrispondenti in un elenco. Questo permette di esternalizzare lo storico, che può essere consultato ad esempio tramite Grafana.",
+		"pt_PT": "Plugin para ligação a um banco de dados InfluxDB v1 ou v2, que facilita o envio das informações necessárias, bastando selecionar os comandos correspondentes numa lista, o que permite externalizar o histórico, que pode depois ser consultado através do Grafana, por exemplo."
+	},
 	"utilization": "",
 	"licence": "AGPL",
 	"author": "Mips",
@@ -18,10 +25,6 @@
 		"forum": "https://community.jeedom.com/tag/plugin-influxdb",
 		"video": ""
 	},
-	"language": [
-		"fr_FR",
-		"en_US"
-	],
 	"compatibility": [
 		"smart",
 		"atlas",
@@ -29,5 +32,13 @@
 		"docker",
 		"diy",
 		"v4"
+	],
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
 	]
 }

@@ -18,43 +18,19 @@ Once the dependencies are installed, you can enter the IP address on which the H
 >
 >The plugin is able to interact with several hubs at the same time. To do so, you must indicate the IP address of each hub separated by the symbol `|``.
 
-Then click on the button **Configuration files** to generate *(or update)* the file (s) containing all the information on the devices associated with each Harmony hub.
+Save the configuration and Start the daemon.
 
 ## Equipment configuration
 
 To access the different equipment, go to the menu **Plugins → Multimedia → Harmony Hub**.
 
->**INFORMATION**
->
->The + Add button allows you to add a new Harmony Hub device.
+If the plugin configuration is correct, all your equipment will have been created automatically with their commands.
 
-For each device, we find the usual general parameters as well as 2 drop-down menus allowing, for one, to select the hub concerned by the device and for the other to choose the type of device among :
-
-- **Activities** : Equipment bringing together all your activities as well as
-    general power off and information on current activity.
-
-- **One of your devices** : Equipment bringing together all
-    commands for a given device.
-
-Once selected, just click on the button **Save** to automatically generate the list of corresponding commands :    
-
-![harmonyhub screenshot4](../images/harmonyhub_commands.jpg)
-
-# Commandes
-
-The commands are not visible by default, they are
-however all available via scenario, virtual, etc
-
-If you want to display them on your dashboard, just reorganize them into
-drag & drop and tick the box **Display**. You can then, playing with newlines, specific widgets or icons
-proposed, create a remote control pseduo :
-
-![harmonyhub screenshot5](../images/harmonyhub_screenshot5.jpg)
-![harmonyhub screenshot6](../images/harmonyhub_screenshot6.jpg)
+For each piece of equipment we find the usual general parameters as well as a drop-down menu allowing us to choose the device icon. This configuration is optional and does not influence the behavior of the plugin in any way.
 
 # Important information
 
-Since 19-02-2019 it is necessary **activate a developer option** in the Harmony app.
+Check if you need to **enable developer option** in the Harmony app.
 
 See this Logitech link :
 <https://community.logitech.com/s/question/0D55A00008OsX3CSAV/update-to-accessing-harmony-hubs-local-api-via-xmpp>

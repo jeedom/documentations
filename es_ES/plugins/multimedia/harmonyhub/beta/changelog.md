@@ -4,6 +4,28 @@
 >
 >A modo de recordatorio, si no hay información sobre la actualización es porque solo se refiere a la actualización de documentación, traducción o texto.
 
+> Attention
+> Rediseño significativo del complemento: el complemento se ha reescrito por completo, incluida la comunicación con Harmony Hub (a través del demonio ahora)
+>
+> Requiere Jeedom 4.4.8
+>
+> Compatible con Debian 11 y 12! El complemento ya no es compatible con Debian 10, si todavía estás en Debian 10, no instales esta versión.
+>
+> Los equipos antiguos se marcarán como obsoletos y no se migrarán. Utilice la herramienta "Reemplazar" del núcleo si desea adaptar fácilmente sus escenarios.
+>
+> Ver también [este tema en la comunidad](https://community.jeedom.com/t/importante-mise-a-jour-pour-debian-11-et-debian-12/129908) para más detalles
+
+# 28/08/2024
+
+- Reescritura completa del complemento
+- Usando el método de instalación de dependencia central
+- Cambiar la biblioteca para comunicarse con Harmony Hub para utilizar una biblioteca con un mejor seguimiento
+- Usando un demonio para:
+  - para mejorar la capacidad de respuesta de las acciones
+  - para tener retroalimentación de estado en tiempo real
+- Configuración simplificada: Ya solo queda la configuración de la IP del hub para entrar en el plugin config e iniciar el daemon y el equipo se sincroniza con Jeedom.
+- Agregar un pedido **Iniciar actividad** que indica la actividad que se está iniciando (vacío si no hay ninguna))
+
 # 17/09/2023
 
 - Reparar la compatibilidad de Debian 11 y Python 3

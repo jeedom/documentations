@@ -18,43 +18,19 @@ Sobald die Abhängigkeiten installiert sind, können Sie die IP-Adresse eingeben
 >
 >Das Plugin kann gleichzeitig mit mehreren Hubs interagieren. Dazu müssen Sie die IP-Adresse jedes Hubs durch das Symbol `getrennt angeben|``.
 
-Klicken Sie dann auf die Schaltfläche **Konfigurationsdateien** generieren *(oder aktualisieren)* Die Datei (en) mit allen Informationen zu den Geräten, die jedem Harmony-Hub zugeordnet sind.
+Speichern Sie die Konfiguration und starten Sie den Daemon.
 
 ## Gerätekonfiguration
 
 Um auf die verschiedenen Geräte zuzugreifen, gehen Sie zum Menü **Plugins → Multimedia → Harmony Hub**.
 
->**INFORMATION**
->
->Mit der Schaltfläche + Hinzufügen können Sie ein neues Harmony Hub-Gerät hinzufügen.
+Wenn die Plugin-Konfiguration korrekt ist, werden alle Ihre Geräte automatisch mit ihren Befehlen erstellt.
 
-Für jedes Gerät finden wir die üblichen allgemeinen Parameter sowie 2 Dropdown-Menüs, in denen zum einen der vom Gerät betroffene Hub und zum anderen der Gerätetyp ausgewählt werden kann :
-
-- **Aktivitäten** : Ausrüstung, die alle Ihre Aktivitäten zusammenbringt sowie
-    Allgemeines Ausschalten und Informationen zur aktuellen Aktivität.
-
-- **Eines Ihrer Geräte** : Ausrüstung, die alle zusammenbringt
-    Befehle für ein bestimmtes Gerät.
-
-Einmal ausgewählt, klicken Sie einfach auf die Schaltfläche **Speichern** um automatisch die Liste der entsprechenden Befehle zu generieren :    
-
-![harmonyhub screenshot4](../images/harmonyhub_commands.jpg)
-
-# Commandes
-
-Die Befehle sind standardmäßig nicht sichtbar
-jedoch alle über Szenario, virtuell, etc
-
-Wenn Sie sie in Ihrem Dashboard anzeigen möchten, organisieren Sie sie einfach neu
-Ziehen Sie das Kontrollkästchen per Drag & Drop und aktivieren Sie es **Anzeige**. Sie können dann mit Zeilenumbrüchen, bestimmten Widgets oder Symbolen spielen
-vorgeschlagen, erstellen Sie eine Fernbedienung pseduo :
-
-![harmonyhub screenshot5](../images/harmonyhub_screenshot5.jpg)
-![harmonyhub screenshot6](../images/harmonyhub_screenshot6.jpg)
+Für jedes Gerät finden wir die üblichen allgemeinen Parameter sowie 1 Dropdown-Menü, in dem Sie das Gerätesymbol auswählen können. Diese Konfiguration ist optional und hat keinen Einfluss auf das Verhalten des Plugins.
 
 # Wichtige Informationen
 
-Seit dem 19-02-2019 ist es notwendig **Aktivieren Sie eine Entwickleroption** in der Harmony App.
+Überprüfen Sie, ob dies erforderlich ist **Entwickleroption aktivieren** in der Harmony App.
 
 Siehe diesen Logitech-Link :
 <https://community.logitech.com/s/question/0D55A00008OsX3CSAV/update-to-accessing-harmony-hubs-local-api-via-xmpp>

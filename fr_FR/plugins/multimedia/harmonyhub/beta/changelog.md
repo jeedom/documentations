@@ -4,6 +4,28 @@
 >
 >Pour rappel, s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement la mise à jour de documentation, de traduction ou de texte.
 
+> Attention
+> Refonte importante du plugin: le plugin a été entièrement réécrit y compris la communication avec le hub Harmony (via démon à présent)
+>
+> Nécessite Jeedom 4.4.8
+>
+> Compatible Debian 11 et 12! Le plugin n'est plus compatible Debian 10, si vous êtes encore sous Debian 10, n'installez pas cette version.
+>
+> Les anciens équipements seront marqués obsolètes et ne seront pas migrés. Utilisez l'outil "Remplacer" du core si vous souhaitez facilement adapter vos scénarios.
+>
+> Voir également [ce sujet sur community](https://community.jeedom.com/t/importante-mise-a-jour-pour-debian-11-et-debian-12/129908) pour plus de détails
+
+# 28/08/2024
+
+- Réécriture complète du plugin
+- Utilisation de la méthode d'installation des dépendances du core
+- Changement de la librairie pour communiquer avec le hub Harmony afin d'utiliser une librairie disposant d'un meilleur suivi
+- Utilisation d'un démon afin:
+  - d'améliorer la réactivité des actions
+  - d'avoir un retour d'état en temps réel
+- Simplification de la configuration: il ne reste que la configuration de l'IP du hub à renseigner dans la config du plugin et démarrer le démon et les équipements se synchronisent tous seuls avec Jeedom.
+- Ajout d'une commande **Démarrage activité** qui indique l'activité qui est en cours de démarrage (vide si aucune)
+
 # 17/09/2023
 
 - Fix compatibilité Debian 11 & Python 3

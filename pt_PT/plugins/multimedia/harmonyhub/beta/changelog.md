@@ -4,6 +4,28 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+> Attention
+> Redesenho significativo do plugin: o plugin foi completamente reescrito incluindo a comunicação com o hub Harmony (via daemon agora)
+>
+> Requer Jeedom 4.4.8
+>
+> Compatível com Debian 11 e 12! O plugin não é mais compatível com Debian 10, se você ainda estiver no Debian 10, não instale esta versão.
+>
+> Equipamentos antigos serão marcados como obsoletos e não serão migrados. Use a ferramenta "Substituir" do núcleo se quiser adaptar facilmente seus cenários.
+>
+> Veja também [este tópico na comunidade](https://community.jeedom.com/t/importante-mise-a-jour-pour-debian-11-et-debian-12/129908) para mais detalhes
+
+# 28/08/2024
+
+- Reescrita completa do plugin
+- Usando o método de instalação de dependência principal
+- Alterar a biblioteca para se comunicar com o hub Harmony para usar uma biblioteca com melhor rastreamento
+- Usando um daemon para:
+  - para melhorar a capacidade de resposta das ações
+  - para ter feedback de status em tempo real
+- Configuração simplificada: Resta apenas a configuração do IP do hub para entrar na configuração do plugin e iniciar o daemon e o equipamento se sincronizar com o Jeedom.
+- Adicionando um pedido **Iniciar atividade** que indica a atividade que está sendo iniciada (vazio se não houver)
+
 # 17/09/2023
 
 - Corrigir compatibilidade com Debian 11 e Python 3
