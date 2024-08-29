@@ -14,7 +14,11 @@
 	"author": "Nebz",
 	"hasDependency": true,
 	"hasOwnDeamon": true,
-	"require": "4.3",
+	"require": "4.4",
+	"os": {
+		"min": 11,
+		"max": 12
+	},
 	"category": "devicecommunication",
 	"issue": "https://github.com/NebzHB/jeedom_docs/issues",
 	"changelog": "https://nebzhb.github.io/jeedom_docs/plugins/HomeWizard/fr_FR/changelog",

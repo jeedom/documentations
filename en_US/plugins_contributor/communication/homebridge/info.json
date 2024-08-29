@@ -12,7 +12,11 @@
 	"utilization": "ATTENTION : Non supporté : Debian Buster(10) Stretch(9) Jessie(8) & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)\n\nJeedom DOIT être sur le même réseau que votre iPhone/AppleTV. (pas de routage, pas de NAT).\n\nUne AppleTV 4+ ou un iPad iOS 10+(ancienne infra homekit uniquement) ou un HomePod sont nécessaires pour l'accès à distance.\n\nSupport sur le forum (Une demande par sujet, comme un système de tickets).",
 	"licence": "AGPL",
 	"author": "Nebz",
-	"require": "4.0",
+	"require": "4.4",
+	"os": {
+		"min": 11,
+		"max": 12
+	},
 	"category": "communication",
 	"hasDependency": true,
 	"hasOwnDeamon": true,
