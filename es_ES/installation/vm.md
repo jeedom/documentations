@@ -124,9 +124,9 @@ Es clásico
 -   Obtenga el script jeedom, hágalo ejecutable, ejecútelo
 
 ````
-wget https://raw.githubusercontent.com/jeedom/core/V4-stable/install/install.sh
-chmod +x install.sh
-./install.sh
+wget https://www.jeedom.com/install
+chmod +x install
+./install
 ````
 
 -   y déjalo ir
