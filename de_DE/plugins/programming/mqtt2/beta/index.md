@@ -188,6 +188,26 @@ bridge_tls_version tlsv1.3
 >
 > In jeedom sind die Identifikatoren („Benutzername“ und „Passwort“) auf der Plugin-Konfigurationsseite unter „Authentifizierung“ in der Form „Benutzername“ verfügbar:``password``
 
+# Über das Internet mit Jeedom verbunden
+
+>**WICHTIG**
+>
+> Sie sollten dies nur tun, wenn sich Ihre Jeedoms nicht in denselben lokalen Netzwerken befinden. Wenn Sie dies mit zwei Jeedom in denselben lokalen Netzwerken tun, werden Sie Probleme mit der Leistung, Zuverlässigkeit und Verlusten im Falle eines Internetausfalls (oder einer Wartung der Jeedom-Cloud) haben). Zusammenfassend lässt sich sagen, dass diese Konfiguration als letztes Mittel verwendet werden sollte
+
+Um Jeedom über das Internet zu verknüpfen, gibt es mehrere Möglichkeiten: Sie können eine Mücke mit einem Cloud-Host bereitstellen oder eine Ihrer Mücken im Internet öffnen (achten Sie auf die Sicherheit, im Falle eines Problems kann Jeedom nicht haftbar gemacht werden)). Oder nutzen Sie den Cloud-Dienst Jeedom (der einzige Fall, der in dieser Dokumentation behandelt wird)).
+
+>**WICHTIG**
+>
+> Der Jeedom-Cloud-Dienst steht Benutzern nicht zur Verfügung. Wir müssen jedoch zunächst sicherstellen, dass alle Last- und Zuverlässigkeitstests in Ordnung sind
+
+Um den Jeedom-Cloud-Dienst zu nutzen, ist es ganz einfach: Auf dem Quell-Jeedom (demjenigen, der die Informationen sendet) müssen Sie nur zur Plugin-Konfiguration gehen und auf der Ebene „Jeedom-Cloud“ auf „Diesen Jeedom senden“ klicken, dann Sie Bitte beachten Sie: „Jeedom-Cloud-ID". Gehen Sie dann zum Ziel-Jeedom (demjenigen, der die Informationen empfängt) und klicken Sie in der Plugin-Konfiguration auf „Jeedom empfangen“ und geben Sie „Jeedom-Cloud-ID“ der Quelle an (im vorherigen Schritt wiederhergestellt)).
+
+Das ist alles, Sie müssen lediglich die zu übertragenden Geräte auf dem Quell-Jeedom überprüfen und dann in der Quell-Jeedom-Plugin-Konfiguration auf „Erkennung senden“ klicken.
+
+>**WICHTIG**
+>
+> Der Jeedom-Cloud-Service funktioniert nur mit Jeedom, die mit demselben Marktkonto verknüpft sind. Es ist nicht möglich, Informationen zwischen Jeedom auf verschiedenen Marktkonten zu übertragen
+
 # FAQ
 
 >**Nach einem Update der Systempakete (apt) oder einem unbeaufsichtigten Upgrade funktioniert nichts mehr**

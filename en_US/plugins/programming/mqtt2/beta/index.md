@@ -188,6 +188,26 @@ bridge_tls_version tlsv1.3
 >
 > In jeedom the identifiers (`username` and `password`) are available on the plugin configuration page in "Authentication" in the form `username`:``password``
 
+# Linked to Jeedom through the internet
+
+>**IMPORTANT**
+>
+> You only need to do this if your Jeedoms are not on the same local network. If you do this with two Jeedoms on the same local network you will have performance issues, reliability and losses in the event of an internet outage (or maintenance of the Jeedom cloud). To summarize this configuration is to be used as a last resort
+
+To connect Jeedoms through the internet there are several possibilities: you can deploy a mosquitto at a cloud host or open one of your mosquittos on the internet (be careful with security in the event of a problem Jeedom cannot be held responsible). Or use the Jeedom cloud service (only case covered in this documentation)).
+
+>**IMPORTANT**
+>
+> Jeedom cloud service is not yet open to users we must first ensure that all load and reliability tests are ok
+
+To use the Jeedom cloud service it's very simple, on the source Jeedom (the one that sends the information) you just have to go to the plugin configuration and click on "Send this Jeedom" at the "Jeedom cloud" level, then you have to note "Jeedom cloud identifier". Then go to the target Jeedom (the one that receives the information) and in the plugin configuration click on "Receive a Jeedom" and indicate "Jeedom cloud identifier" of the source (retrieved in the previous step).
+
+That's it, it's finished, all you have to do is on the source Jeedom check the equipment to transmit then click on "Send discovery" in the configuration of the source Jeedom plugin.
+
+>**IMPORTANT**
+>
+> The Jeedom cloud service only works with Jeedoms linked to the same market account, it is not possible to transmit information between Jeedoms on different market accounts
+
 # FAQ
 
 >**Following an update of the system packages (apt) or an unattended upgrades, nothing works anymore**

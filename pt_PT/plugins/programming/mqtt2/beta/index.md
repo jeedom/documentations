@@ -188,6 +188,26 @@ bridge_tls_version tlsv1.3
 >
 > No jeedom os identificadores (`nome de usuário` e `senha`) estão disponíveis na página de configuração do plugin em "Autenticação" no formato `nome de usuário`:``password``
 
+# Vinculado ao Jeedom pela internet
+
+>**IMPORTANTE**
+>
+> Você só deve fazer isso se o seu Jeedom não estiver nas mesmas redes locais. Se você fizer isso com dois Jeedom nas mesmas redes locais você terá problemas de desempenho, confiabilidade e perdas em caso de queda de internet (ou manutenção da nuvem Jeedom). Resumindo, esta configuração deve ser usada como último recurso
+
+Para vincular o Jeedom pela internet existem várias possibilidades: você pode implantar um mosquitto com um host na nuvem ou abrir um de seus mosquittos na internet (tenha cuidado com a segurança em caso de problema o Jeedom não pode ser responsabilizado). Ou use o serviço de nuvem Jeedom (o único caso abordado nesta documentação).
+
+>**IMPORTANTE**
+>
+> O serviço de nuvem Jeedom não está aberto aos usuários, mas primeiro precisamos ter certeza de que todos os testes de carga e confiabilidade estão ok
+
+Para utilizar o serviço de nuvem Jeedom é muito simples, na fonte Jeedom (aquela que envia as informações) basta ir até a configuração do plugin e clicar em "Enviar este Jeedom" no nível de "Nuvem Jeedom", então você precisa observar “Identificador de nuvem Jeedom". Em seguida vá até o Jeedom alvo (aquele que recebe as informações) e na configuração do plugin clique em “Receber um Jeedom” e indique “Jeedom cloud identificador” da fonte (recuperado no passo anterior).
+
+É isso, basta verificar o equipamento a ser transmitido na fonte Jeedom e depois clicar em “Enviar descoberta” na configuração do plugin fonte Jeedom.
+
+>**IMPORTANTE**
+>
+> O serviço de nuvem Jeedom só funciona com Jeedom vinculado à mesma conta de mercado, não é possível transmitir informações entre Jeedom em contas de mercado diferentes
+
 # FAQ
 
 >**Após uma atualização dos pacotes do sistema (apt) ou atualizações autônomas, nada funciona mais**

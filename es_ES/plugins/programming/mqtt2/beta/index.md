@@ -188,6 +188,26 @@ bridge_tls_version tlsv1.3
 >
 > Por desgracia, los identificadores ("nombre de usuario" y "contraseña") están disponibles en la página de configuración del complemento en "Autenticación" en el formato "nombre de usuario":''password''
 
+# Vinculado a Jeedom a través de Internet
+
+>**IMPORTANTE**
+>
+> Sólo debes hacer esto si tu Jeedom no está en las mismas redes locales. Si haces esto con dos Jeedom en las mismas redes locales tendrás problemas de rendimiento, confiabilidad y pérdidas en caso de una interrupción de Internet (o mantenimiento de la nube de Jeedom)). En resumen, esta configuración debe utilizarse como último recurso
+
+Para vincular Jeedom a través de Internet, existen varias posibilidades: puede implementar un mosquito con un host en la nube o abrir uno de sus mosquitos en Internet (tenga cuidado con la seguridad, en caso de un problema, Jeedom no se hace responsable)). O utilice el servicio en la nube Jeedom (el único caso cubierto en esta documentación).
+
+>**IMPORTANTE**
+>
+> El servicio en la nube Jeedom no está abierto a los usuarios, pero primero debemos asegurarnos de que todas las pruebas de carga y confiabilidad estén bien
+
+Para utilizar el servicio en la nube de Jeedom es muy simple, en el Jeedom fuente (el que envía la información) solo tienes que ir a la configuración del complemento y hacer clic en "Enviar este Jeedom" en el nivel de "Nube de Jeedom", luego Es necesario tener en cuenta "Identificador de nube Jeedom". Luego vaya al Jeedom de destino (el que recibe la información) y en la configuración del complemento haga clic en "Recibir un Jeedom" e indique "Identificador de nube de Jeedom" de la fuente (recuperado en el paso anterior)).
+
+Eso es todo, todo lo que tiene que hacer es verificar el equipo que se transmitirá en el Jeedom de origen y luego hacer clic en "Enviar descubrimiento" en la configuración del complemento de Jeedom de origen.
+
+>**IMPORTANTE**
+>
+> El servicio en la nube de Jeedom solo funciona con Jeedom vinculado a la misma cuenta de mercado, no es posible transmitir información entre Jeedom en diferentes cuentas de mercado
+
 # FAQ
 
 >**Después de una actualización de los paquetes del sistema (apt) o de una actualización desatendida, ya nada funciona**

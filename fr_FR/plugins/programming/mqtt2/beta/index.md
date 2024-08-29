@@ -188,6 +188,26 @@ bridge_tls_version tlsv1.3
 >
 > Dans jeedom les identifiants (`username` et `password`) sont disponibles sur la page de configuration du plugin dans "Authentification" sous la forme `username`:`password`
 
+# Liée des Jeedom à travers internet
+
+>**IMPORTANT**
+>
+> Il ne faut faire cela que si vos Jeedom ne sont pas sur le meme réseaux local. Si vous faite cela avec deux Jeedom sur le meme réseaux local vous allez avoir des soucis de performance, de fiabilité et des pertes en cas de coupure internet (ou de maintenance du cloud Jeedom). Pour résumer cette configuration est à utiliser en dernier recours
+
+Pour liée des Jeedom à travers internet il y a plusieurs possibilité vous pouvez déployer un mosquitto chez un hebergeur cloud ou ouvrir un de vos mosquitto sur internet (attention à la sécurité en cas de probleme Jeedom ne pourra etre tenu responsable). Ou utiliser le service cloud Jeedom (seul cas traité dans cette documentation).
+
+>**IMPORTANT**
+>
+> Le service cloud Jeedom n'est pas encore ouvert aux utilisateurs nous devons d'abord nous assurer que tous les tests de charge et de fiabilité sont ok
+
+Pour utiliser le service Jeedom cloud c'est très simple, sur le Jeedom source (celui qui envoi les informations) il vous suffit d'aller dans la configuration du plugin et de cliquer sur "Envoyer ce Jeedom" au niveau de "Jeedom cloud", ensuite il vous faut noter "Identifiant Jeedom cloud". Ensuite allez sur le Jeedom cible (celui qui recoit les informations) et dans la configuration du plugin cliquer sur "Recevoir un Jeedom" et indiquez ""Identifiant Jeedom cloud" de la source (récuperé dans l'étape précende).
+
+Voila c'est fini il ne vous reste plus que sur le Jeedom source à cocher les équipements à transmettre puis à cliquer sur "Envoyer la découverte" dans la configuration du plugin du Jeedom source.
+
+>**IMPORTANT**
+>
+> Le service Jeedom cloud ne marche qu'avec des Jeedom liée au meme compte market, il n'est pas possible de transmettre des informations entre des Jeedom sur different compte market
+
 # FAQ
 
 >**Suite a une mise à jour des packages système (apt) ou à un unattended upgrades plus rien de marche**
