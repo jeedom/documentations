@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Corrigido um bug em equipamentos do tipo moda
+
 # 11/08/2024
 
 - Alternar suporte
