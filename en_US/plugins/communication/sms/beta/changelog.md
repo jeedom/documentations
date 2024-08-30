@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+## 08/31/2024
+
+- Debian 12 Compatibility
+- Minimum jeedom version required: 4.4.8
+
 # 10/01/2024
 
 - Added a new command **Send message to** allowing you to send an SMS to a personalized number without having to create the contact's order. This allows you to send an sms to a number obtained via an info command from another device under Jeedom for example. Attention, no verification of the number is carried out, you must provide the numbers in international format.

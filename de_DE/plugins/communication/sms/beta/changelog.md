@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+## 31.08.2024
+
+- Debian 12-Kompatibilität
+- Mindestversion von Jeedom erforderlich: 4.4.8
+
 # 01.10.2024
 
 - Neuer Befehl hinzugefügt **Nachricht senden an** So können Sie eine SMS an eine personalisierte Nummer senden, ohne eine Bestellung für den Kontakt erstellen zu müssen. Auf diese Weise können Sie beispielsweise eine SMS an eine Nummer senden, die Sie über einen Info-Befehl von einem anderen Gerät unter Jeedom erhalten haben. Achtung, es erfolgt keine Überprüfung der Nummer, Sie müssen die Nummern im internationalen Format angeben.

@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+## 31/08/2024
+
+- Compatibilidad con Debian 12
+- Se requiere una versión mínima de jeedom: 4.4.8
+
 # 01/10/2024
 
 - Se agregó un nuevo comando **Enviar mensaje a** permitiéndole enviar un SMS a un número personalizado sin tener que crear el pedido del contacto. Esto le permite enviar un sms a un número obtenido a través de un comando de información desde otro dispositivo bajo Jeedom, por ejemplo. Atención, no se realiza ninguna verificación del número, debe proporcionar los números en formato internacional.
