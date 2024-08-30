@@ -7,6 +7,7 @@
 - Implementação de otimização na gestão de equipamentos transmitidos com jeedom 4.5
 - Adicionada segurança para evitar colocar um tópico usado por um plugin como tópico raiz
 - Adicionada a possibilidade de enviar informações para a nuvem Jeedom para comunicação entre dois jeedoms pela internet (não aberto aos usuários no momento)
+- Ativação da descoberta automática por padrão (pode ser desativada em Plugin -> Programação -> Gerenciador Mqtt)
 
 # 20/08/2024
 

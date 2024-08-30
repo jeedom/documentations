@@ -7,6 +7,7 @@
 - Implementación de optimización en la gestión de equipos transmitidos con jeedom 4.5
 - Seguridad adicional para evitar poner un tema utilizado por un complemento como tema raíz
 - Se agregó la posibilidad de enviar información a la nube de Jeedom para comunicarse entre dos jeedoms a través de Internet (no disponible para los usuarios por el momento))
+- Activación del descubrimiento automático por defecto (se puede desactivar desde Complemento -> Programación -> Administrador Mqtt)
 
 # 20/08/2024
 

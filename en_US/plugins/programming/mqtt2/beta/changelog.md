@@ -7,6 +7,7 @@
 - Implementation of optimization on the management of equipment transmitted with jeedom 4.5
 - Added security to avoid putting a topic used by a plugin in the root topic
 - Added the ability to send information to the Jeedom cloud to make two Jeedoms communicate over the internet (not open to users at the moment))
+- Enable auto-discovery by default (can be disabled from Plugin -> Programming -> Mqtt manager)
 
 # 20/08/2024
 

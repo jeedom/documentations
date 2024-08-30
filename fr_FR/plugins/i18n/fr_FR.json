@@ -757,6 +757,8 @@
         "uniqument compatible avec la version 1 de la cafetière, la version 2 qui gère Ifttt n'est pas compatible": "uniqument compatible avec la version 1 de la cafetière, la version 2 qui gère Ifttt n'est pas compatible",
         "Smarter Coffee": "Smarter Coffee",
         "Plugin permettant de gérer la cafetière smarter": "Plugin permettant de gérer la cafetière smarter",
+        "Robonect": "Robonect",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
         "Les deux widgets (dashboard et mobile) permettent d'accéder à toutes ces fonctionnalités": "Les deux widgets (dashboard et mobile) permettent d'accéder à toutes ces fonctionnalités",
         "Netatmo Thermostat": "Netatmo Thermostat",
         "Plugin pour contrôler son thermostat Netatmo": "Plugin pour contrôler son thermostat Netatmo",
@@ -798,6 +800,8 @@
         "De connaitre le planning actuel ainsi que le suivant (et l'heure de fin du planning actuel": "De connaitre le planning actuel ainsi que le suivant (et l'heure de fin du planning actuel",
         "De définir le jour et heure de fin des modes (absent, hors-gel, max et manuel": "De définir le jour et heure de fin des modes (absent, hors-gel, max et manuel",
         "L'ensemble des fonctions sont disponibles via scénarios": "L'ensemble des fonctions sont disponibles via scénarios",
+        "Documentation beta": "Documentation beta",
+        "Changelog beta": "Changelog beta",
         "Attention": "Attention"
     },
     "plugins\/zeroTier\/index.md": {

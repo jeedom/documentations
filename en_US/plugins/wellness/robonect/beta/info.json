@@ -1,0 +1,37 @@
+{
+    "id": "robonect",
+    "name": "Robonect",
+    "licence": "AGPL",
+    "author": "Ludovic SARAKHA",
+    "require": "3.0",
+    "category": "wellness",
+    "hasDependency": false,
+    "hasOwnDeamon": true,
+    "display": "panel",
+    "mobile": "robonect",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/robonect\/",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/robonect\/changelog",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/robonect\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/robonect\/beta"
+}
