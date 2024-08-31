@@ -129,6 +129,13 @@ Luego solo tienes que regresar al jeedom aún en la configuración del complemen
 
 # Vinculados dos mosquitos diferentes 
 
+## Con asistente
+
+En el Jeedom de destino (el principal) debes ir a la configuración del complemento y hacer clic en "Información MQTT" en el nivel de "Transmisión local Mqtt" luego copiar lo que se muestra en la ventana que aparece. 
+En la fuente Jeedom (la que envía la información) debes hacer clic en "Enviar" en el nivel de "Transmisión local Mqtt" y pegar la información copiada justo antes.
+
+## Manuellement
+
 Es posible vincular temas entre varios mosquitto, aquí está la configuración para agregar en mosquitto. La configuración sólo debe realizarse en uno de los brocker mosquitto :
 
 ''''''''
@@ -200,7 +207,7 @@ Para vincular Jeedom a través de Internet, existen varias posibilidades: puede 
 >
 > El servicio en la nube Jeedom no está abierto a los usuarios, pero primero debemos asegurarnos de que todas las pruebas de carga y confiabilidad estén bien
 
-Para utilizar el servicio en la nube de Jeedom es muy simple, en el Jeedom fuente (el que envía la información) solo tienes que ir a la configuración del complemento y hacer clic en "Enviar este Jeedom" en el nivel de "Nube de Jeedom", luego Es necesario tener en cuenta "Identificador de nube Jeedom". Luego vaya al Jeedom de destino (el que recibe la información) y en la configuración del complemento haga clic en "Recibir un Jeedom" e indique "Identificador de nube de Jeedom" de la fuente (recuperado en el paso anterior)).
+Para utilizar el servicio en la nube de Jeedom es muy simple, en el Jeedom fuente (el que envía la información) solo tienes que ir a la configuración del complemento y hacer clic en "Enviar" en el nivel "nube de Jeedom", luego debes anotar “Identificador de nube Jeedom". Luego vaya al Jeedom de destino (el que recibe la información) y en la configuración del complemento haga clic en "Recibir" e indique "Cloud ID" de la fuente (recuperado en el paso anterior)).
 
 Eso es todo, todo lo que tiene que hacer es verificar el equipo que se transmitirá en el Jeedom de origen y luego hacer clic en "Enviar descubrimiento" en la configuración del complemento de Jeedom de origen.
 

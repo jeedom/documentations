@@ -129,6 +129,13 @@ Dann müssen Sie nur noch in der Plugin-Konfiguration zum Jeedom zurückkehren u
 
 # Verknüpft zwei verschiedene Mücken 
 
+## Mit Assistent
+
+Auf dem Ziel-Jeedom (dem Hauptserver) müssen Sie zur Plugin-Konfiguration gehen und auf der Ebene „Mqtt-Lokalübertragung“ auf „MQTT-Informationen“ klicken und dann kopieren, was im angezeigten Fenster angezeigt wird. 
+Auf dem Quell-Jeedom (demjenigen, der die Informationen sendet) müssen Sie auf der Ebene von „Mqtt local tranmission“ auf „Senden“ klicken und die kopierten Informationen direkt davor einfügen.
+
+## Manuellement
+
 Es ist möglich, Themen zwischen mehreren Moskitos zu verknüpfen. Hier ist die Konfiguration zum Hinzufügen in Moskitos. Die Konfiguration muss nur an einem der Brocker-Mücken vorgenommen werden :
 
 ````````
@@ -200,7 +207,7 @@ Um Jeedom über das Internet zu verknüpfen, gibt es mehrere Möglichkeiten: Sie
 >
 > Der Jeedom-Cloud-Dienst steht Benutzern nicht zur Verfügung. Wir müssen jedoch zunächst sicherstellen, dass alle Last- und Zuverlässigkeitstests in Ordnung sind
 
-Um den Jeedom-Cloud-Dienst zu nutzen, ist es ganz einfach: Auf dem Quell-Jeedom (demjenigen, der die Informationen sendet) müssen Sie nur zur Plugin-Konfiguration gehen und auf der Ebene „Jeedom-Cloud“ auf „Diesen Jeedom senden“ klicken, dann Sie Bitte beachten Sie: „Jeedom-Cloud-ID". Gehen Sie dann zum Ziel-Jeedom (demjenigen, der die Informationen empfängt) und klicken Sie in der Plugin-Konfiguration auf „Jeedom empfangen“ und geben Sie „Jeedom-Cloud-ID“ der Quelle an (im vorherigen Schritt wiederhergestellt)).
+Um den Jeedom-Cloud-Dienst zu nutzen, ist es ganz einfach: Gehen Sie auf dem Quell-Jeedom (demjenigen, der die Informationen sendet) einfach zur Plugin-Konfiguration und klicken Sie auf der Ebene „Jeedom-Cloud“ auf „Senden“. Dann müssen Sie dies tun Hinweis „Jeedom-Cloud-ID". Gehen Sie dann zum Ziel-Jeedom (demjenigen, der die Informationen empfängt) und klicken Sie in der Plugin-Konfiguration auf „Empfangen“ und geben Sie die „Cloud-ID“ der Quelle an (im vorherigen Schritt wiederhergestellt)).
 
 Das ist alles, Sie müssen lediglich die zu übertragenden Geräte auf dem Quell-Jeedom überprüfen und dann in der Quell-Jeedom-Plugin-Konfiguration auf „Erkennung senden“ klicken.
 

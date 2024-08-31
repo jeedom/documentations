@@ -129,6 +129,13 @@ Then you just have to return to the jeedom still on the plugin configuration and
 
 # Linked two different mosquitto 
 
+## With assistant
+
+On the target Jeedom (the main one) you have to go to the plugin configuration and click on "MQTT Information" at the "Mqtt local transmission" level then copy what is displayed in the window that appears. 
+On the source Jeedom (the one that sends the information) you must click on "Send" at the "Mqtt tranmission local" level and paste the information copied just before.
+
+## Manuellement
+
 It is possible to link topics between several mosquitto, here is the configuration to add in mosquitto. The configuration only needs to be done on one of the brocker mosquitto :
 
 ````````
@@ -200,7 +207,7 @@ To connect Jeedoms through the internet there are several possibilities: you can
 >
 > Jeedom cloud service is not yet open to users we must first ensure that all load and reliability tests are ok
 
-To use the Jeedom cloud service it's very simple, on the source Jeedom (the one that sends the information) you just have to go to the plugin configuration and click on "Send this Jeedom" at the "Jeedom cloud" level, then you have to note "Jeedom cloud identifier". Then go to the target Jeedom (the one that receives the information) and in the plugin configuration click on "Receive a Jeedom" and indicate "Jeedom cloud identifier" of the source (retrieved in the previous step).
+To use the Jeedom cloud service it's very simple, on the source Jeedom (the one that sends the information) you just have to go to the plugin configuration and click on "Send" at the "Jeedom cloud" level, then you have to note "Jeedom cloud identifier". Then go to the target Jeedom (the one that receives the information) and in the plugin configuration click on "Receive" and indicate "Cloud Id" of the source (retrieved in the previous step).
 
 That's it, it's finished, all you have to do is on the source Jeedom check the equipment to transmit then click on "Send discovery" in the configuration of the source Jeedom plugin.
 

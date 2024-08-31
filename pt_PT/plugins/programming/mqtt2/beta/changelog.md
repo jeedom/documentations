@@ -6,6 +6,7 @@
 
 - Implementação de otimização na gestão de equipamentos transmitidos com jeedom 4.5
 - Adicionada segurança para evitar colocar um tópico usado por um plugin como tópico raiz
+- Adicionado um assistente para vincular facilmente o mosquito de dois Jeedoms
 - Adicionada a possibilidade de enviar informações para a nuvem Jeedom para comunicação entre dois jeedoms pela internet (não aberto aos usuários no momento)
 - Ativação da descoberta automática por padrão (pode ser desativada em Plugin -> Programação -> Gerenciador Mqtt)
 - Corrigido bug ao criar o comando indicando o status de um jeedom remoto (através do equipamento monitor Jeeodm do plugin virtual)

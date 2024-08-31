@@ -129,6 +129,13 @@ Ensuite vous avez juste à retourner sur le jeedom toujours sur la configuration
 
 # Liée deux mosquitto différent 
 
+## Avec assistant
+
+Sur le Jeedom cible (le principale) il faut aller dans la configuration du plugin et cliquer sur "Informations MQTT" au niveau de "Mqtt tranmission local" puis copier ce qui s'affiche dans la fenetre qui apparait. 
+Sur le Jeedom source (celui qui envoie les informations) il faut cliquer sur "Envoyer" au niveau de "Mqtt tranmission local" et coller les informations copiées juste avant.
+
+## Manuellement
+
 Il est possible de lier des topics entre plusieurs mosquitto, voilà la configuration a ajouter dans mosquitto. La configuration n'est a faire que sur un des brocker mosquitto :
 
 ````
@@ -200,7 +207,7 @@ Pour liée des Jeedom à travers internet il y a plusieurs possibilité vous pou
 >
 > Le service cloud Jeedom n'est pas encore ouvert aux utilisateurs nous devons d'abord nous assurer que tous les tests de charge et de fiabilité sont ok
 
-Pour utiliser le service Jeedom cloud c'est très simple, sur le Jeedom source (celui qui envoi les informations) il vous suffit d'aller dans la configuration du plugin et de cliquer sur "Envoyer ce Jeedom" au niveau de "Jeedom cloud", ensuite il vous faut noter "Identifiant Jeedom cloud". Ensuite allez sur le Jeedom cible (celui qui recoit les informations) et dans la configuration du plugin cliquer sur "Recevoir un Jeedom" et indiquez ""Identifiant Jeedom cloud" de la source (récuperé dans l'étape précende).
+Pour utiliser le service Jeedom cloud c'est très simple, sur le Jeedom source (celui qui envoi les informations) il vous suffit d'aller dans la configuration du plugin et de cliquer sur "Envoyer" au niveau de "Jeedom cloud", ensuite il vous faut noter "Identifiant Jeedom cloud". Ensuite allez sur le Jeedom cible (celui qui recoit les informations) et dans la configuration du plugin cliquer sur "Recevoir" et indiquez "Id cloud" de la source (récuperé dans l'étape précende).
 
 Voila c'est fini il ne vous reste plus que sur le Jeedom source à cocher les équipements à transmettre puis à cliquer sur "Envoyer la découverte" dans la configuration du plugin du Jeedom source.
 
