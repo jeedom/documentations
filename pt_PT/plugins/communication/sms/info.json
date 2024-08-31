@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.3.39",
+    "require": "4.4.8",
     "category": "communication",
     "hasDependency": true,
     "hasOwnDeamon": true,
@@ -34,8 +34,8 @@
         "tr"
     ],
     "compatibility": [
-        "miniplus",
         "smart",
+        "atlas",
         "rpi",
         "docker",
         "diy",
