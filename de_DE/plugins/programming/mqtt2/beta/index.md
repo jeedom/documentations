@@ -131,8 +131,8 @@ Dann müssen Sie nur noch in der Plugin-Konfiguration zum Jeedom zurückkehren u
 
 ## Mit Assistent
 
-Auf dem Ziel-Jeedom (dem Hauptserver) müssen Sie zur Plugin-Konfiguration gehen und auf der Ebene „Mqtt-Lokalübertragung“ auf „MQTT-Informationen“ klicken und dann kopieren, was im angezeigten Fenster angezeigt wird. 
-Auf dem Quell-Jeedom (demjenigen, der die Informationen sendet) müssen Sie auf der Ebene von „Mqtt local tranmission“ auf „Senden“ klicken und die kopierten Informationen direkt davor einfügen.
+Auf dem Quell-Jeedom (demjenigen, der die Informationen sendet) müssen Sie zur Plugin-Konfiguration gehen und auf der Ebene von „Mqtt local tranmission“ auf „MQTT-Informationen“ klicken und dann kopieren, was im angezeigten Fenster angezeigt wird. 
+Auf dem Ziel-Jeedom (dem Empfänger) müssen Sie auf der Ebene „Mqtt-Lokalübertragung“ auf „Empfangen“ klicken und die zuvor kopierten Informationen einfügen.
 
 ## Manuellement
 

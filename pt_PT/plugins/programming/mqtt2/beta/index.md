@@ -131,8 +131,8 @@ Depois é só retornar ao jeedom ainda na configuração do plugin e fazer "Envi
 
 ## Com assistente
 
-No alvo Jeedom (o principal) você deve ir até a configuração do plugin e clicar em "Informações MQTT" no nível de "Transmissão local Mqtt" e depois copiar o que é exibido na janela que aparece. 
-Na fonte Jeedom (aquela que envia as informações) você deve clicar em "Enviar" no nível de "Transmissão local Mqtt" e colar as informações copiadas logo antes.
+Na fonte Jeedom (aquela que envia as informações) você deve ir até a configuração do plugin e clicar em "Informações MQTT" no nível de "Transmissão local Mqtt" e depois copiar o que é exibido na janela que aparece. 
+No Jeedom alvo (aquele que recebe) você deve clicar em "Receber" no nível de "Transmissão local Mqtt" e colar as informações copiadas logo antes.
 
 ## Manuellement
 
