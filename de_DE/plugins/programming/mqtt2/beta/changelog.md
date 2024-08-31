@@ -8,6 +8,7 @@
 - Es wurde Sicherheit hinzugefügt, um zu verhindern, dass ein von einem Plugin verwendetes Thema als Stammthema festgelegt wird
 - Es wurde die Möglichkeit hinzugefügt, Informationen an die Jeedom-Cloud zu senden, um zwischen zwei Jeedoms über das Internet zu kommunizieren (derzeit für Benutzer nicht verfügbar))
 - Standardmäßige Aktivierung der automatischen Erkennung (kann über Plugin -> Programmierung -> Mqtt-Manager deaktiviert werden))
+- Es wurde ein Fehler beim Erstellen des Befehls behoben, der den Status eines Remote-Jeedoms anzeigt (über die Jeeodm-Monitorausrüstung des virtuellen Plugins))
 
 # 20.08.2024
 

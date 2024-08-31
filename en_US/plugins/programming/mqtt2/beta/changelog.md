@@ -8,6 +8,7 @@
 - Added security to avoid putting a topic used by a plugin in the root topic
 - Added the ability to send information to the Jeedom cloud to make two Jeedoms communicate over the internet (not open to users at the moment))
 - Enable auto-discovery by default (can be disabled from Plugin -> Programming -> Mqtt manager)
+- Fixed a bug on the creation of the command indicating the status of a remote jeedom (through the Jeeodm monitor equipment of the virtual plugin)
 
 # 20/08/2024
 

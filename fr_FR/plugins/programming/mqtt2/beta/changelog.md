@@ -8,6 +8,7 @@
 - Ajout d'une sécurité pour eviter de mettre en topic racine un topic utilisé par un plugin
 - Ajout de la possibilité d'envoyer les informations au cloud Jeedom pour faire communiquer deux jeedoms à travers internet (non ouvert aux utilisateurs pour le moment)
 - Activation de la découverte auto par defaut (désactivable depuis Plugin -> Programmation -> Mqtt manager)
+- Correction d'un bug sur la création de la commande indicant l'état d'un jeedom distant (a travers l'équipement Jeeodm monitor du plugin virtuel)
 
 # 20/08/2024
 
