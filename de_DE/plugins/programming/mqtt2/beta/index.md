@@ -107,6 +107,14 @@ Das Plugin kann verschiedene Modultypen automatisch erkennen. Dazu müssen Sie n
 
 # Übertragen Sie Informationen zwischen zwei Jeedoms per MQTT
 
+## Mit Assistent
+
+Auf dem Quell-Jeedom (demjenigen, der die Informationen sendet) müssen Sie zur Plugin-Konfiguration gehen und auf der Ebene von „Mqtt local tranmission“ auf „MQTT-Informationen“ klicken und dann kopieren, was im angezeigten Fenster angezeigt wird. 
+Auf dem Ziel-Jeedom (dem Empfänger) müssen Sie auf der Ebene „Mqtt-Lokalübertragung“ auf „Empfangen“ klicken und die zuvor kopierten Informationen einfügen.
+
+
+## Manuellement
+
 Dank des Plugins ist es möglich, Befehle zwischen zwei Jeedom zu übertragen (dieses System soll Jeelink ersetzen). Hier erfahren Sie, wie Sie es konfigurieren : 
 
 - **Auf der Jeedom-Quelle, die Sie benötigen** :
@@ -120,7 +128,7 @@ Dann müssen Sie nur noch in der Plugin-Konfiguration zum Jeedom zurückkehren u
 
 >**WICHTIG**
 >
->Bei dieser Konfiguration wird davon ausgegangen, dass die Jeedoms mit derselben Brocker-Mücke verbunden sind. Sollte Ihnen dies nicht möglich sein, müssen Sie anschließend einen der beiden Mosquitos so konfigurieren, dass er die Werte der gewünschten Themen an einen anderen Mosquito sendet (siehe nächstes Kapitel))
+>Bei dieser Konfiguration wird davon ausgegangen, dass die Jeedoms mit derselben Brocker-Mücke verbunden sind. Wenn Sie dies nicht können, müssen Sie eine der beiden Mücken so konfigurieren, dass sie die Werte der gewünschten Themen an eine andere Mücke sendet (siehe nächstes Kapitel) oder den Assist-Modus verwenden, der alles für Sie erledigt
 
 >**WICHTIG**
 >
@@ -129,12 +137,9 @@ Dann müssen Sie nur noch in der Plugin-Konfiguration zum Jeedom zurückkehren u
 
 # Verknüpft zwei verschiedene Mücken 
 
-## Mit Assistent
-
-Auf dem Quell-Jeedom (demjenigen, der die Informationen sendet) müssen Sie zur Plugin-Konfiguration gehen und auf der Ebene von „Mqtt local tranmission“ auf „MQTT-Informationen“ klicken und dann kopieren, was im angezeigten Fenster angezeigt wird. 
-Auf dem Ziel-Jeedom (dem Empfänger) müssen Sie auf der Ebene „Mqtt-Lokalübertragung“ auf „Empfangen“ klicken und die zuvor kopierten Informationen einfügen.
-
-## Manuellement
+>**WICHTIG**
+>
+> Wenn Sie den lokalen Übertragungsassistenten verwendet haben, müssen Sie diesen Teil nicht befolgen, Jeedom hat bereits alles für Sie erledigt
 
 Es ist möglich, Themen zwischen mehreren Moskitos zu verknüpfen. Hier ist die Konfiguration zum Hinzufügen in Moskitos. Die Konfiguration muss nur an einem der Brocker-Mücken vorgenommen werden :
 

@@ -107,6 +107,14 @@ El complemento puede descubrir automáticamente varios tipos de módulos. Para h
 
 # Transmitir información entre dos jeedoms por MQTT
 
+## Con asistente
+
+En la fuente Jeedom (la que envía la información) debes ir a la configuración del complemento y hacer clic en "Información MQTT" en el nivel de "Transmisión local Mqtt" y luego copiar lo que se muestra en la ventana que aparece. 
+En el Jeedom de destino (el que recibe) debes hacer clic en "Recibir" en el nivel de "Transmisión local Mqtt" y pegar la información copiada justo antes.
+
+
+## Manuellement
+
 Es posible gracias al complemento transmitir comandos entre dos Jeedom (este sistema está dedicado a reemplazar jeelink), aquí se explica cómo configurarlo : 
 
 - **En la fuente jeedom que necesitas** :
@@ -120,7 +128,7 @@ Luego solo tienes que regresar al jeedom aún en la configuración del complemen
 
 >**IMPORTANTE**
 >
->Esta configuración supone que los jeedoms están conectados al mismo mosquito brocker. Si no puedes hacer esto, entonces deberás configurar uno de los dos mosquittos para que envíe los valores de los temas deseados a otro mosquitto (ver siguiente capítulo)
+>Esta configuración supone que los jeedoms están conectados al mismo mosquito brocker. Si no puede hacer esto, deberá configurar uno de los dos mosquitos para que envíe los valores de los temas deseados a otro mosquito (ver el siguiente capítulo) o utilizar el modo de asistencia que hará todo por usted
 
 >**IMPORTANTE**
 >
@@ -129,12 +137,9 @@ Luego solo tienes que regresar al jeedom aún en la configuración del complemen
 
 # Vinculados dos mosquitos diferentes 
 
-## Con asistente
-
-En la fuente Jeedom (la que envía la información) debes ir a la configuración del complemento y hacer clic en "Información MQTT" en el nivel de "Transmisión local Mqtt" y luego copiar lo que se muestra en la ventana que aparece. 
-En el Jeedom de destino (el que recibe) debes hacer clic en "Recibir" en el nivel de "Transmisión local Mqtt" y pegar la información copiada justo antes.
-
-## Manuellement
+>**IMPORTANTE**
+>
+> Si usaste el asistente de transmisión local no necesitas seguir esta parte, Jeedom ya ha hecho todo por ti
 
 Es posible vincular temas entre varios mosquitto, aquí está la configuración para agregar en mosquitto. La configuración sólo debe realizarse en uno de los brocker mosquitto :
 

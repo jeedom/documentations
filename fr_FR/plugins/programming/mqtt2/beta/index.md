@@ -107,6 +107,14 @@ Le plugin peut faire de la découverte auto de plusieurs type de module. Pour ce
 
 # Transmettre des informations entre deux jeedoms par MQTT
 
+## Avec assistant
+
+Sur le Jeedom source (celui qui envoie les informations) il faut aller dans la configuration du plugin et cliquer sur "Informations MQTT" au niveau de "Mqtt tranmission local" puis copier ce qui s'affiche dans la fenetre qui apparait. 
+Sur le Jeedom cible (celui qui recoit) il faut cliquer sur "Recevoir" au niveau de "Mqtt tranmission local" et coller les informations copiées juste avant.
+
+
+## Manuellement
+
 Il est possible grace au plugin de transmettre des commandes entre deux Jeedom (ce systeme est voué a remplacer jeelink), voila comment le configurer : 
 
 - **Sur le jeedom source il faut** :
@@ -120,7 +128,7 @@ Ensuite vous avez juste à retourner sur le jeedom toujours sur la configuration
 
 >**IMPORTANT**
 >
->Cette configuration part du principe que les jeedoms sont connecté sur le meme brocker mosquitto. Si vous ne pouvez pas le faire il faut alors configurer un des deux mosquitto pour qu'il envoi les valeurs des topic voulu vers un autre mosquitto (voir chapitre suivant)
+>Cette configuration part du principe que les jeedoms sont connecté sur le meme brocker mosquitto. Si vous ne pouvez pas le faire il faut alors configurer un des deux mosquitto pour qu'il envoi les valeurs des topic voulu vers un autre mosquitto (voir chapitre suivant) ou passer par la mode assister qui fera tout pour vous
 
 >**IMPORTANT**
 >
@@ -129,12 +137,9 @@ Ensuite vous avez juste à retourner sur le jeedom toujours sur la configuration
 
 # Liée deux mosquitto différent 
 
-## Avec assistant
-
-Sur le Jeedom source (celui qui envoie les informations) il faut aller dans la configuration du plugin et cliquer sur "Informations MQTT" au niveau de "Mqtt tranmission local" puis copier ce qui s'affiche dans la fenetre qui apparait. 
-Sur le Jeedom cible (celui qui recoit) il faut cliquer sur "Recevoir" au niveau de "Mqtt tranmission local" et coller les informations copiées juste avant.
-
-## Manuellement
+>**IMPORTANT**
+>
+> Si vous avez utilisez l'assistant pour la transmission local vous n'avez pas besoin de suivre cette partie, Jeedom a déja tout fait pour vous
 
 Il est possible de lier des topics entre plusieurs mosquitto, voilà la configuration a ajouter dans mosquitto. La configuration n'est a faire que sur un des brocker mosquitto :
 

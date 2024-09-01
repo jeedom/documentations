@@ -107,6 +107,14 @@ The plugin can auto-discover several types of modules. To do this, you just need
 
 # Transmit information between two jeedoms by MQTT
 
+## With assistant
+
+On the source Jeedom (the one that sends the information) you have to go to the plugin configuration and click on "MQTT Information" at the "Mqtt local transmission" level then copy what is displayed in the window that appears. 
+On the target Jeedom (the one that receives) you must click on "Receive" at the level of "Mqtt tranmission local" and paste the information copied just before.
+
+
+## Manuellement
+
 It is possible thanks to the plugin to transmit commands between two Jeedom (this system is dedicated to replacing jeelink), here is how to configure it : 
 
 - **On the jeedom source you need** :
@@ -120,7 +128,7 @@ Then you just have to return to the jeedom still on the plugin configuration and
 
 >**IMPORTANT**
 >
->This configuration assumes that the jeedoms are connected to the same brocker mosquitto. If you cannot do this, you must then configure one of the two mosquittos so that it sends the values of the desired topics to another mosquitto (see next chapter)
+>This configuration assumes that the jeedoms are connected to the same brocker mosquitto. If you can't do it, you must configure one of the two mosquittos so that it sends the values of the desired topics to another mosquitto (see next chapter) or go through the assist mode which will do everything for you
 
 >**IMPORTANT**
 >
@@ -129,12 +137,9 @@ Then you just have to return to the jeedom still on the plugin configuration and
 
 # Linked two different mosquitto 
 
-## With assistant
-
-On the source Jeedom (the one that sends the information) you have to go to the plugin configuration and click on "MQTT Information" at the "Mqtt local transmission" level then copy what is displayed in the window that appears. 
-On the target Jeedom (the one that receives) you must click on "Receive" at the level of "Mqtt tranmission local" and paste the information copied just before.
-
-## Manuellement
+>**IMPORTANT**
+>
+> If you used the wizard for local transmission you do not need to follow this part, Jeedom has already done everything for you
 
 It is possible to link topics between several mosquitto, here is the configuration to add in mosquitto. The configuration only needs to be done on one of the brocker mosquitto :
 
