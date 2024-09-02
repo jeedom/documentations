@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 02/09/2024
+
+- Added a nightly restart of the daemon (to limit memory issues))
+
 # 06/29/2024
 
 - Fixed a bug on the ajax exception function.

@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 09/02/2024
+
+- Adicionado um reinício do daemon à noite (para limitar problemas de memória)
+
 # 29/06/2024
 
 - Corrigido um bug na função de exceção do ajax.
