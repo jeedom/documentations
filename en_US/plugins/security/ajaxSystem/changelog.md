@@ -4,6 +4,13 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+- Better cleaning of SIA controls
+- Better event management (alarm type events are now sent to the hub)
+
+# 10/08/2024
+
+- Fixed an issue with the Ajax login window that could sometimes appear below the plugin configuration window
+
 # 07/08/2024
 
 - Better event management (if the source is the user and not the hub)

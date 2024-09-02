@@ -4,6 +4,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Bessere Reinigung von SIA-Bestellungen
+- Bessere Ereignisverwaltung (Ereignisse vom Typ Alarm werden jetzt auf dem Hub gemeldet)
+
+# 10.08.2024
+
+- Es wurde ein Problem mit dem Ajax-Verbindungsfenster behoben, das manchmal unterhalb des Plugin-Konfigurationsfensters erscheinen konnte
+
 # 08.07.2024
 
 - Bessere Ereignisverwaltung (wenn die Quelle der Benutzer und nicht der Hub ist))

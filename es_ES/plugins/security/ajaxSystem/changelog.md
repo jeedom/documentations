@@ -4,6 +4,13 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
+- Mejor limpieza de los pedidos SIA
+- Mejor gestión de eventos (los eventos de tipo alarma ahora se informan en el centro))
+
+# 10/08/2024
+
+- Se solucionó un problema con la ventana de conexión Ajax que a veces podía aparecer debajo de la ventana de configuración del complemento
+
 # 08/07/2024
 
 - Mejor gestión de eventos (si la fuente es el usuario y no el centro))

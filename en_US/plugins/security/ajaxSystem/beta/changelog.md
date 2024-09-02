@@ -4,6 +4,8 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+# 01/09/2024
+
 - Better cleaning of SIA controls
 - Better event management (alarm type events are now sent to the hub)
 
