@@ -155,9 +155,6 @@ remote_password #REMOTE_PASSWORD#
 local_username #LOCAL_USERNAME#
 local_password #LOCAL_PASSWORD#
 start_type automatic
-try_private true
-bridge_insecure true
-bridge_tls_version tlsv1.3
 ````````
 
 Example you want to send equipment from jeedom_2 to jeedom_1 by having : 
@@ -184,9 +181,6 @@ remote_password password_1
 local_username jeedom
 local_password password_2
 start_type automatic
-try_private true
-bridge_insecure true
-bridge_tls_version tlsv1.3
 ````````
 
 >**NOTE**
