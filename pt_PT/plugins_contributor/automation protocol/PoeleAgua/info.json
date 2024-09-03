@@ -14,6 +14,6 @@
 	"changelog_beta" : "https://lefilliatre.github.io/lefilliatre-documentation/PoeleAgua/#language#/changelog",
 	"documentation_beta" : "https://lefilliatre.github.io/lefilliatre-documentation/PoeleAgua/#language#/",
 	"language" : ["fr_FR"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","atlas"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","luna","atlas"],
   	"utilization" : "Renseigner les informations de connexion à la plateforme micronova de votre poêle. Ces infos sont récupérables dans la documentation du plugin : https://lefilliatre.github.io/lefilliatre-documentation/PoeleAgua/#language#/"
 }

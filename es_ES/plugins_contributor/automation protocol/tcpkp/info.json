@@ -9,10 +9,11 @@
 	"hasDependency" : true,
 	"maxDependancyInstallTime" : 40,
 	"hasOwnDeamon" : true,
-	"changelog" : "https://lefilliatre.github.io/tcpkp/#language#/changelog",
-	"documentation" : "https://lefilliatre.github.io/tcpkp/#language#/",
-	"changelog_beta" : "https://lefilliatre.github.io/tcpkp/#language#/changelog",
-	"documentation_beta" : "https://lefilliatre.github.io/tcpkp/#language#/",
+	"changelog" : "https://lefilliatre.github.io/lefilliatre-documentation/tcpkp/#language#/changelog",
+	"documentation" : "https://lefilliatre.github.io/lefilliatre-documentation/tcpkp/#language#/",
+	"changelog_beta" : "https://lefilliatre.github.io/lefilliatre-documentation/tcpkp/#language#/changelog",
+	"documentation_beta" : "https://lefilliatre.github.io/lefilliatre-documentation/tcpkp/#language#/",
 	"language" : ["fr_FR"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","atlas"]
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","luna","atlas"],
+	"utilization" : "Renseigner l'adresse IP de la carte. Voir la documentation du plugin : https://lefilliatre.github.io/lefilliatre-documentation/tcpkp/#language#/"
 }
