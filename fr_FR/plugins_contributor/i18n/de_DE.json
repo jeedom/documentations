@@ -798,6 +798,8 @@
         "Ce plugin permet l'utilisation d'un serveur Ha-Bridge": "Dieses Plugin ermöglicht die Nutzung eines Ha-Bridge-Servers",
         "Gain Market": "Markt gewinnen",
         "Récupère votre solde sur le market Jeedom (en tant que développeur) et peut vous alerter lorsqu'il évolue ou que le paiement Jeedom est détecté": "Stellt Ihr Guthaben auf dem Jeedom-Markt (als Entwickler) wieder her und kann Sie benachrichtigen, wenn es sich ändert oder wenn die Jeedom-Zahlung erkannt wird",
+        "Fully KiosK": "Voll KiosK",
+        "Plugin FullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk": "FullyKiosK-Plugin für die Tablet-Verwaltung mit der Fullkiosk-App",
         "Plugin fullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk": "FullyKiosK-Plugin für die Tablet-Verwaltung mit der Fullkiosk-App",
         "Il permet également de bannir et de débannir une adresse ip": "Außerdem können Sie eine IP-Adresse sperren und die Sperrung aufheben",
         "fail2ban": "fail2ban",

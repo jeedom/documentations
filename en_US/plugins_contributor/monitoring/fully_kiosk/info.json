@@ -1,0 +1,25 @@
+{
+	"id" : "fully_kiosk",
+	"name" : "Fully KiosK",
+	"description" : "Plugin FullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk",
+	"licence" : "AGPL",
+	"author" : "vegeta0911",
+	"require" : "4.0",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,	
+	"category" : "monitoring",
+	"changelog" : "https://vegeta0911.github.io/fully_kiosk/changelog.html",
+        "documentation" : "https://vegeta0911.github.io/fully_kiosk/",
+	"utilization" : "ATTENTION : Non supporté : Debian Buster(10)",
+	"language": [
+		"fr_FR"
+	],
+    "compatibility" : [
+        "rpi",          
+        "docker",            
+        "diy",               
+        "luna",        
+        "v4",         
+        "Atlas"
+     ]
+}

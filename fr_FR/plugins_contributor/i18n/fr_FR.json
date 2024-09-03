@@ -397,6 +397,8 @@
         "Ce plugin permet l'utilisation d'un serveur Ha-Bridge": "Ce plugin permet l'utilisation d'un serveur Ha-Bridge",
         "Gain Market": "Gain Market",
         "Récupère votre solde sur le market Jeedom (en tant que développeur) et peut vous alerter lorsqu'il évolue ou que le paiement Jeedom est détecté": "Récupère votre solde sur le market Jeedom (en tant que développeur) et peut vous alerter lorsqu'il évolue ou que le paiement Jeedom est détecté",
+        "Fully KiosK": "Fully KiosK",
+        "Plugin FullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk": "Plugin FullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk",
         "fullyKiosK": "fullyKiosK",
         "Plugin fullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk": "Plugin fullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk",
         "Il permet également de bannir et de débannir une adresse ip": "Il permet également de bannir et de débannir une adresse ip",

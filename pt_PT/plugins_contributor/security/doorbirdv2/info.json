@@ -1,13 +1,15 @@
 {
-	"id" : "doorbirdv2",
-	"name" : "Doorbird V2",
-	"licence" : "AGPL",
-	"author" : "vegeta0911",
-	"require" : "4.3",
-	"category" : "security",
+    "id" : "doorbirdv2",
+    "name" : "Doorbird V2",
+    "licence" : "AGPL",
+    "author" : "vegeta0911",
+    "require" : "4.3",
+    "category" : "security",
     "hasOwnDeamon": false,
     "hasDependency" : false,
     "maxDependancyInstallTime" : 0,
+    "changelog" : "https://vegeta0911.github.io/Doorbirdv2/fr_FR/changelog",
+    "documentation" : "https://vegeta0911.github.io/Doorbirdv2/fr_FR/",
     "language": [
 		"fr_FR"
 	],
