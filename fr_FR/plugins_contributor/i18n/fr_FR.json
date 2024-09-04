@@ -240,9 +240,9 @@
         "Information sur la consommation d'eau (compteur communicant) depuis le site \"Veolia & moi - Eau": "Information sur la consommation d'eau (compteur communicant) depuis le site \"Veolia & moi - Eau",
         "Suivi CO2": "Suivi CO2",
         "Plugin pour le suivi des émissions CO2 liées à sa consommation électrique, de gaz, fioul ou autre": "Plugin pour le suivi des émissions CO2 liées à sa consommation électrique, de gaz, fioul ou autre",
-        "Les jours EJP et Tempo sont également récupérables du site web EDF": "Les jours EJP et Tempo sont également récupérables du site web EDF",
+        "Seules les APIs de RTE sont utilisées": "Seules les APIs de RTE sont utilisées",
         "Rte Ecowatt Tempo": "Rte Ecowatt Tempo",
-        "Plugin qui extrait les données Ecowatt par jour et par heure ainsi que les couleurs des jours Tempo": "Plugin qui extrait les données Ecowatt par jour et par heure ainsi que les couleurs des jours Tempo",
+        "Plugin qui extrait les données Ecowatt par jour et par heure": "Plugin qui extrait les données Ecowatt par jour et par heure",
         "Ce plugin est là pour vous y aider en contrôlant les activations": "Ce plugin est là pour vous y aider en contrôlant les activations",
         "Production Energie": "Production Energie",
         "L'autoconsommation est le but dans la production d'énergie": "L'autoconsommation est le but dans la production d'énergie",
@@ -315,7 +315,8 @@
         "Merci de suivre la documentation pour la configuration": "Merci de suivre la documentation pour la configuration",
         "le plugin récupére automatiquement le token et de ligue ensuite en local sur la passerelle": "le plugin récupére automatiquement le token et de ligue ensuite en local sur la passerelle",
         "IoTaWatt est un projet à code source ouvert et à matériel ouvert visant à produire un moniteur d'énergie précis, peu coûteux et facile à utiliser": "IoTaWatt est un projet à code source ouvert et à matériel ouvert visant à produire un moniteur d'énergie précis, peu coûteux et facile à utiliser",
-        "Les APIs RTE sont utilisées": "Les APIs RTE sont utilisées",
+        "Production décarbonée, signaux vert, orange et rouge": "Production décarbonée, signaux vert, orange et rouge",
+        "Les couleurs des jours EDF Tempo sont aussi récupérées": "Les couleurs des jours EDF Tempo sont aussi récupérées",
         "WallConnector prend en charge 3 modes de tarification": "WallConnector prend en charge 3 modes de tarification"
     },
     "plugins_contributor\/health\/index.md": {
