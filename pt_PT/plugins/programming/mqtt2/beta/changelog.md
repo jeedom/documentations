@@ -10,6 +10,8 @@
 - Adicionada a possibilidade de enviar informações para a nuvem Jeedom para comunicação entre dois jeedoms pela internet (não aberto aos usuários no momento)
 - Ativação da descoberta automática por padrão (pode ser desativada em Plugin -> Programação -> Gerenciador Mqtt)
 - Corrigido bug ao criar o comando indicando o status de um jeedom remoto (através do equipamento monitor Jeeodm do plugin virtual)
+- Adição do tópico SYS (para ter informações internas do MQTT)
+- Adicionando um modelo de mosquito.sys permitindo que informações sejam recuperadas do brocker (mensagem recebida/enviada total/1min/5min/15min, carga de memória...)
 
 # 20/08/2024
 

@@ -10,6 +10,8 @@
 - Added the ability to send information to the Jeedom cloud to make two Jeedoms communicate over the internet (not open to users at the moment))
 - Enable auto-discovery by default (can be disabled from Plugin -> Programming -> Mqtt manager)
 - Fixed a bug on the creation of the command indicating the status of a remote jeedom (through the Jeeodm monitor equipment of the virtual plugin)
+- Added the SYS topic (to have internal MQTT information))
+- Adding a mosquitto template.sys to retrieve information on the broker (message received/sent total/1min/5min/15min, memory load...)
 
 # 20/08/2024
 

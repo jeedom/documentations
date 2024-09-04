@@ -10,6 +10,8 @@
 - Es wurde die Möglichkeit hinzugefügt, Informationen an die Jeedom-Cloud zu senden, um zwischen zwei Jeedoms über das Internet zu kommunizieren (derzeit für Benutzer nicht verfügbar))
 - Standardmäßige Aktivierung der automatischen Erkennung (kann über Plugin -> Programmierung -> Mqtt-Manager deaktiviert werden))
 - Es wurde ein Fehler beim Erstellen des Befehls behoben, der den Status eines Remote-Jeedoms anzeigt (über die Jeeodm-Monitorausrüstung des virtuellen Plugins))
+- Hinzufügung des SYS-Themas (um interne MQTT-Informationen zu erhalten))
+- Hinzufügen einer Mosquito-Vorlage.sys, das den Abruf von Informationen aus dem Brocker ermöglicht (Gesamt empfangene/gesendete Nachrichten/1 Min./5 Min./15 Min., Speicherauslastung)...)
 
 # 20.08.2024
 
