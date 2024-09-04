@@ -28,6 +28,8 @@
 
 - Ajout de la configuration *Thermokon 798228 - MCS Détecteur de mouvement, Capteur d'ambiance température, humidité relative, mouvement, présence*
 
+- Modification de la configuration *SHE MIO LORA V2* (ajouter jusqu'à 20 sondes de températures)
+
 # 29/04/2024
 
 - Ajout de la configuration *Dragino D23LBLS* (propriétés : Batterie, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)

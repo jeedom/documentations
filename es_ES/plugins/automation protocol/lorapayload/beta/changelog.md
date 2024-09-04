@@ -28,6 +28,8 @@
 
 - Agregar configuración *Thermokon 798228 - MCS Detector de movimiento, Sensor ambiente temperatura, humedad relativa, movimiento, presencia*
 
+- Cambiando la configuración *ELLA MIO LORA V2* (añadir hasta 20 sondas de temperatura)
+
 # 29/04/2024
 
 - Agregar configuración *Dragino D23LBLS* (propiedades : Batería, Temp-Blanco, Temp-Rojo, Temp-Negro, Alarma, Nivel PA8, Modo)

@@ -28,6 +28,8 @@
 
 - Adding configuration *Thermokon 798228 - MCS Motion detector, Room sensor temperature, relative humidity, movement, presence*
 
+- Changing the configuration *SHE MIO LORA V2* (add up to 20 temperature probes)
+
 # 04/29/2024
 
 - Adding configuration *Dragino D23LBLS* (properties : Battery, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)
