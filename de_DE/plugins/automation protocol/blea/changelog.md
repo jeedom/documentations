@@ -4,6 +4,18 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 09.02.2024
+
+- Ein Neustart des Daemons in der Nacht wurde hinzugefügt (um Speicherprobleme zu begrenzen))
+
+# 29.06.2024
+
+- Ein Fehler in der Ajax-Ausnahmefunktion wurde behoben.
+
+# 04/06/2021
+
+- Bluepy-Versionsprüfung entfernt
+
 # 20/11/2020
 
 - Allgemeine Optimierungen

@@ -4,6 +4,14 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 02/09/2024
+
+- Ajout d'un redemarrage du demon la nuit (pour limiter les soucis mémoire)
+
+# 29/06/2024
+
+- Correction d'un bug sur la fonction d'execption ajax.
+
 # 06/04/2021
 
 - Suppression du check de la version de bluepy

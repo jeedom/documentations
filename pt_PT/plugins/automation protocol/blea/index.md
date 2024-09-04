@@ -123,4 +123,4 @@ Se não houver erro e sua antena estiver bem criada no plug-in, instale agora as
 
 Alguns equipamentos como o lywsd03 precisam ser adicionados ao mihome pelo menos uma vez antes de estar ativo
 
-Você pode encontrar [aqui](https://doc.jeedom.com/pt_PT/blea/equipement.compatible) a lista de equipamentos compatíveis
+Você pode encontrar [aqui](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=blea) a lista de equipamentos compatíveis

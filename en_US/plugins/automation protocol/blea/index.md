@@ -123,4 +123,4 @@ If there was no error and your antenna is well created in the plugin, you must n
 
 Some equipment like the lywsd03 needs to be added to mihome at least once before being active
 
-You can find [here](https://doc.jeedom.com/en_US/blea/equipement.compatible) the list of compatible equipment
+You can find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=blea) the list of compatible equipment

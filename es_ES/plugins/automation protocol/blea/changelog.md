@@ -4,6 +4,18 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 09/02/2024
+
+- Se agregó un reinicio del demonio por la noche (para limitar los problemas de memoria))
+
+# 29/06/2024
+
+- Se corrigió un error en la función de excepción ajax.
+
+# 06/04/2021
+
+- Se eliminó la verificación de la versión bluepy
+
 # 20/11/2020
 
 - Optimizaciones generales
