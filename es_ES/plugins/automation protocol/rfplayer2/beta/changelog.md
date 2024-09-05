@@ -4,6 +4,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Mejor gestión del nivel de registro si no está activado (el demonio estará en error de registro))
+
 # 25/01/2023
 
 - Quitar la enumeración del paquete > python3.2

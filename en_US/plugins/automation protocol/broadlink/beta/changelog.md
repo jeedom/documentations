@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 05/09/2024
+
+- Added a restart of the daemon every night to avoid a memory problem
+
 # 08/16/2024
 
 - Debian 12 Compatibility

@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Melhor gerenciamento do nível de log se não houver nenhum (o daemon estará com erro de log)
+
 # 25/01/2023
 
 - Remover pacote enum > python3.2

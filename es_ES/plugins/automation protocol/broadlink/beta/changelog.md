@@ -4,6 +4,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 09/05/2024
+
+- Se agregó un reinicio del demonio todas las noches para evitar problemas de memoria
+
 # 16/08/2024
 
 - Compatibilidad con Debian 12

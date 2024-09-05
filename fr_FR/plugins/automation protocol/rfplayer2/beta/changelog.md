@@ -4,6 +4,8 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Meilleur gestion de niveau de log si sur aucun (le demon sera en log error)
+
 # 25/01/2023
 
 - Suppression package enum > python3.2

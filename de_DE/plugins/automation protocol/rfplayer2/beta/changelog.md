@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Bessere Verwaltung der Protokollebene, wenn „Keine“ aktiviert ist (der Daemon weist einen Protokollfehler auf))
+
 # 25.01.2023
 
 - Paketaufzählung entfernen > python3.2
