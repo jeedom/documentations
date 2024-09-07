@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+## 08/09/2024
+
+- Correção no recebimento de SMS
+
 ## 31/08/2024
 
 - Compatibilidade com Debian 12

@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 08/09/2024
+
+- Compatibilité Debian 12
+- Version minimum jeedom requise: 4.4.8
+
 # 03/01/2024
 
 - Préparation pour jeedom 4.4
@@ -36,7 +41,7 @@
 
 # 29/11/2021
 
-- Possibilité de desinstaller Deconz, merci @Benjamin 
+- Possibilité de desinstaller Deconz, merci @Benjamin
 - Ajout ZHAAirQualit, meric @sagitaz
 - Correction d'un bug avec les dernieres version de deconz sur le renvoi des mises à jour des attributs
 - Ajout de la gestion des groupes et du binding

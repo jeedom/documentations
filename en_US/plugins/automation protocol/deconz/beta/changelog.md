@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 08/09/2024
+
+- Debian 12 Compatibility
+- Minimum jeedom version required: 4.4.8
+
 # 03/01/2024
 
 - Preparing for jeedom 4.4
@@ -36,7 +41,7 @@
 
 # 11/29/2021
 
-- Possibility to uninstall Deconz, thank you @Benjamin 
+- Possibility to uninstall Deconz, thank you @Benjamin
 - Added ZHAAirQualit, meric @sagitaz
 - Fixed a bug with the latest version of deconz on returning attribute updates
 - Addition of group and binding management
