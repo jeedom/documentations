@@ -12,6 +12,7 @@
 - Se corrigió un error al crear el comando que indica el estado de un jeedom remoto (a través del equipo de monitor Jeeodm del complemento virtual)
 - Adición del tema SYS (para tener información interna de MQTT)
 - Agregar una plantilla de mosquito.sys que permite recuperar información del brocker (mensaje recibido/enviado total/1min/5min/15min, carga de memoria...)
+- Comprobando el oyente cada vez que se inicia el demonio
 
 # 20/08/2024
 

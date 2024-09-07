@@ -12,6 +12,7 @@
 - Fixed a bug on the creation of the command indicating the status of a remote jeedom (through the Jeeodm monitor equipment of the virtual plugin)
 - Added the SYS topic (to have internal MQTT information))
 - Adding a mosquitto template.sys to retrieve information on the broker (message received/sent total/1min/5min/15min, memory load...)
+- Check the listener each time the daemon starts
 
 # 20/08/2024
 

@@ -12,6 +12,7 @@
 - Corrigido bug ao criar o comando indicando o status de um jeedom remoto (através do equipamento monitor Jeeodm do plugin virtual)
 - Adição do tópico SYS (para ter informações internas do MQTT)
 - Adicionando um modelo de mosquito.sys permitindo que informações sejam recuperadas do brocker (mensagem recebida/enviada total/1min/5min/15min, carga de memória...)
+- Verificando o ouvinte cada vez que o daemon é iniciado
 
 # 20/08/2024
 

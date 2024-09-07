@@ -12,6 +12,7 @@
 - Correction d'un bug sur la création de la commande indicant l'état d'un jeedom distant (a travers l'équipement Jeeodm monitor du plugin virtuel)
 - Ajout du topic SYS (pour avoir les informations interne de MQTT)
 - Ajout d'un template mosquitto.sys permettant de récuperer des informations sur le brocker (message recu/envoyé total/1min/5min/15min, charge mémoire...)
+- Verification du listenner à chaque démarrage du demon
 
 # 20/08/2024
 

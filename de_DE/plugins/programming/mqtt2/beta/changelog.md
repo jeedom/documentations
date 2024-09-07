@@ -12,6 +12,7 @@
 - Es wurde ein Fehler beim Erstellen des Befehls behoben, der den Status eines Remote-Jeedoms anzeigt (über die Jeeodm-Monitorausrüstung des virtuellen Plugins))
 - Hinzufügung des SYS-Themas (um interne MQTT-Informationen zu erhalten))
 - Hinzufügen einer Mosquito-Vorlage.sys, das den Abruf von Informationen aus dem Brocker ermöglicht (Gesamt empfangene/gesendete Nachrichten/1 Min./5 Min./15 Min., Speicherauslastung)...)
+- Überprüfung des Listeners bei jedem Start des Daemons
 
 # 20.08.2024
 
