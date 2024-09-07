@@ -1,7 +1,7 @@
 {
 	"id": "SomfyUnified",
 	"name": "SomfyUnified",
-	"pluginVersion": "1.1.3",
+	"pluginVersion": "1.2.0",
 	"description": {
 		"fr_FR": "Plugin destiné à permettre une interface entre Jeedom et les équipements connectés via les API OverKiz (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
 		"de_DE": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Brandt Smart Control, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
@@ -16,6 +16,10 @@
 	"licence": "AGPL",
 	"author": "Eridani78",
 	"require": "4.2",
+	"os": {
+		"min": 10,
+		"max": 12
+	},
 	"category": "home automation protocol",
 	"hasDependency": true,
 	"hasOwnDeamon": true,
