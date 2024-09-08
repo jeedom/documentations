@@ -4,6 +4,11 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+# 07/09/2024
+
+- Minimum core version 4.4
+- Bug fix on some equipment configuration
+
 # 01/09/2024
 
 - Better cleaning of SIA controls

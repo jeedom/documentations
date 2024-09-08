@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 07.09.2024
+
+- Mindestversion von Core 4.4
+- Fehlerbehebung bei bestimmten Gerätekonfigurationen
+
 # 01.09.2024
 
 - Bessere Reinigung von SIA-Bestellungen

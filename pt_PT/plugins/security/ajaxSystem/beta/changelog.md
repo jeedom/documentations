@@ -4,6 +4,11 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto
 
+# 09/07/2024
+
+- Versão mínima do núcleo 4.4
+- Correção de bug em determinadas configurações de equipamentos
+
 # 01/09/2024
 
 - Melhor limpeza dos pedidos da SIA
