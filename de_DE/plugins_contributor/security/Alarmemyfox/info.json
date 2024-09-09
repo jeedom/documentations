@@ -5,7 +5,11 @@
     "licence": "AGPL",
     "author": "vegeta0911",
     "require": "4.4",
-    "version": "2.2",
+    "pluginVersion": "2.2",
+    "os" : {
+		"min" : 11,
+		"max" : 12
+    },
     "category": "security",
     "hasOwnDeamon": true,
     "hasDependency" : false,
