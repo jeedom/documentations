@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 09.09.2024
+
 - Implementierung einer Optimierung der Verwaltung übertragener Geräte mit jeedom 4.5
 - Es wurde Sicherheit hinzugefügt, um zu verhindern, dass ein von einem Plugin verwendetes Thema als Stammthema festgelegt wird
 - Es wurde ein Assistent hinzugefügt, um die Mücke zweier Jeedoms einfach zu verknüpfen

@@ -4,6 +4,18 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Implementierung einer Optimierung der Verwaltung übertragener Geräte mit jeedom 4.5
+- Es wurde Sicherheit hinzugefügt, um zu verhindern, dass ein von einem Plugin verwendetes Thema als Stammthema festgelegt wird
+- Es wurde ein Assistent hinzugefügt, um die Mücke zweier Jeedoms einfach zu verknüpfen
+- Es wurde die Möglichkeit hinzugefügt, Informationen an die Jeedom-Cloud zu senden, um zwischen zwei Jeedoms über das Internet zu kommunizieren (derzeit für Benutzer nicht verfügbar))
+- Standardmäßige Aktivierung der automatischen Erkennung (kann über Plugin -> Programmierung -> Mqtt-Manager deaktiviert werden))
+- Es wurde ein Fehler beim Erstellen des Befehls behoben, der den Status eines Remote-Jeedoms anzeigt (über die Jeeodm-Monitorausrüstung des virtuellen Plugins))
+- Hinzufügung des SYS-Themas (um interne MQTT-Informationen zu erhalten))
+- Hinzufügen einer Mosquito-Vorlage.sys, das den Abruf von Informationen aus dem Brocker ermöglicht (Gesamt empfangene/gesendete Nachrichten/1 Min./5 Min./15 Min., Speicherauslastung)...)
+- Überprüfung des Listeners bei jedem Start des Daemons
+
+# 20.08.2024
+
 - Hinzufügen einer Online- und Offline-Meldung beim Starten und Stoppen (gewollt oder nicht) des Daemons in topic_racine/state
 - Wenn Sie Jeedom-Ausrüstung haben::Wenn Sie über das virtuelle Plugin überwachen, fügt das Plugin automatisch den Statusbefehl hinzu (online oder offline). Wenn Sie dieses Gerät bereits haben, müssen Sie die Erkennung neu starten
 - Es wurde ein Fehler bei der Übertragung des echten Ausrüstungstyps behoben (bei der Übertragung von Ausrüstung zwischen Jeedom))
@@ -11,6 +23,7 @@
 - Wenn auf exportierten Geräten das Quell-Plugin auf dem Ziel-Jeedom vorhanden ist, zeigt Jeedom das Plugin-Symbol an
 - Kein Fehler in den Protokollen während der Befehlsübertragung (vermeidet die Zerstörung von Jeedom, wenn der Daemon unterbrochen wird))
 - Bestes Management verwaister Bestellungen
+- Ein Fehler beim Ausführen von Nachrichtentypbefehlen wurde behoben
 
 # 12.08.2024
 

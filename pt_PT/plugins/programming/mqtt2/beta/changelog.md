@@ -4,6 +4,8 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+# 09/09/2024
+
 - Implementação de otimização na gestão de equipamentos transmitidos com jeedom 4.5
 - Adicionada segurança para evitar colocar um tópico usado por um plugin como tópico raiz
 - Adicionado um assistente para vincular facilmente o mosquito de dois Jeedoms

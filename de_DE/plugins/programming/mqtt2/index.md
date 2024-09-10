@@ -107,6 +107,14 @@ Das Plugin kann verschiedene Modultypen automatisch erkennen. Dazu müssen Sie n
 
 # Übertragen Sie Informationen zwischen zwei Jeedoms per MQTT
 
+## Mit Assistent
+
+Auf dem Quell-Jeedom (demjenigen, der die Informationen sendet) müssen Sie zur Plugin-Konfiguration gehen und auf der Ebene von „Mqtt local tranmission“ auf „MQTT-Informationen“ klicken und dann kopieren, was im angezeigten Fenster angezeigt wird. 
+Auf dem Ziel-Jeedom (dem Empfänger) müssen Sie auf der Ebene „Mqtt-Lokalübertragung“ auf „Empfangen“ klicken und die zuvor kopierten Informationen einfügen.
+
+
+## Manuellement
+
 Dank des Plugins ist es möglich, Befehle zwischen zwei Jeedom zu übertragen (dieses System soll Jeelink ersetzen). Hier erfahren Sie, wie Sie es konfigurieren : 
 
 - **Auf der Jeedom-Quelle, die Sie benötigen** :
@@ -120,7 +128,7 @@ Dann müssen Sie nur noch in der Plugin-Konfiguration zum Jeedom zurückkehren u
 
 >**WICHTIG**
 >
->Bei dieser Konfiguration wird davon ausgegangen, dass die Jeedoms mit derselben Brocker-Mücke verbunden sind. Sollte Ihnen dies nicht möglich sein, müssen Sie anschließend einen der beiden Mosquitos so konfigurieren, dass er die Werte der gewünschten Themen an einen anderen Mosquito sendet (siehe nächstes Kapitel))
+>Bei dieser Konfiguration wird davon ausgegangen, dass die Jeedoms mit derselben Brocker-Mücke verbunden sind. Wenn Sie dies nicht können, müssen Sie eine der beiden Mücken so konfigurieren, dass sie die Werte der gewünschten Themen an eine andere Mücke sendet (siehe nächstes Kapitel) oder den Assist-Modus verwenden, der alles für Sie erledigt
 
 >**WICHTIG**
 >
@@ -128,6 +136,10 @@ Dann müssen Sie nur noch in der Plugin-Konfiguration zum Jeedom zurückkehren u
 
 
 # Verknüpft zwei verschiedene Mücken 
+
+>**WICHTIG**
+>
+> Wenn Sie den lokalen Übertragungsassistenten verwendet haben, müssen Sie diesen Teil nicht befolgen, Jeedom hat bereits alles für Sie erledigt
 
 Es ist möglich, Themen zwischen mehreren Moskitos zu verknüpfen. Hier ist die Konfiguration zum Hinzufügen in Moskitos. Die Konfiguration muss nur an einem der Brocker-Mücken vorgenommen werden :
 
@@ -143,9 +155,6 @@ remote_password #REMOTE_PASSWORD#
 local_username #LOCAL_USERNAME#
 local_password #LOCAL_PASSWORD#
 start_type automatic
-try_private true
-bridge_insecure true
-bridge_tls_version tlsv1.3
 ````````
 
 Beispiel: Sie möchten Geräte von jeedom_2 an jeedom_1 senden, indem Sie haben : 
@@ -172,9 +181,6 @@ remote_password password_1
 local_username jeedom
 local_password password_2
 start_type automatic
-try_private true
-bridge_insecure true
-bridge_tls_version tlsv1.3
 ````````
 
 >**NOTIZ**
@@ -187,6 +193,26 @@ bridge_tls_version tlsv1.3
 >**WICHTIG**
 >
 > In jeedom sind die Identifikatoren („Benutzername“ und „Passwort“) auf der Plugin-Konfigurationsseite unter „Authentifizierung“ in der Form „Benutzername“ verfügbar:``password``
+
+# Über das Internet mit Jeedom verbunden
+
+>**WICHTIG**
+>
+> Sie sollten dies nur tun, wenn sich Ihre Jeedoms nicht in denselben lokalen Netzwerken befinden. Wenn Sie dies mit zwei Jeedom in denselben lokalen Netzwerken tun, werden Sie Probleme mit der Leistung, Zuverlässigkeit und Verlusten im Falle eines Internetausfalls (oder einer Wartung der Jeedom-Cloud) haben). Zusammenfassend lässt sich sagen, dass diese Konfiguration als letztes Mittel verwendet werden sollte
+
+Um Jeedom über das Internet zu verknüpfen, gibt es mehrere Möglichkeiten: Sie können eine Mücke mit einem Cloud-Host bereitstellen oder eine Ihrer Mücken im Internet öffnen (achten Sie auf die Sicherheit, im Falle eines Problems kann Jeedom nicht haftbar gemacht werden)). Oder nutzen Sie den Cloud-Dienst Jeedom (der einzige Fall, der in dieser Dokumentation behandelt wird)).
+
+>**WICHTIG**
+>
+> Der Jeedom-Cloud-Dienst steht Benutzern nicht zur Verfügung. Wir müssen jedoch zunächst sicherstellen, dass alle Last- und Zuverlässigkeitstests in Ordnung sind
+
+Um den Jeedom-Cloud-Dienst zu nutzen, ist es ganz einfach: Gehen Sie auf dem Quell-Jeedom (demjenigen, der die Informationen sendet) einfach zur Plugin-Konfiguration und klicken Sie auf der Ebene „Jeedom-Cloud“ auf „Senden“. Dann müssen Sie dies tun Hinweis „Jeedom-Cloud-ID". Gehen Sie dann zum Ziel-Jeedom (demjenigen, der die Informationen empfängt) und klicken Sie in der Plugin-Konfiguration auf „Empfangen“ und geben Sie die „Cloud-ID“ der Quelle an (im vorherigen Schritt wiederhergestellt)).
+
+Das ist alles, Sie müssen lediglich die zu übertragenden Geräte auf dem Quell-Jeedom überprüfen und dann in der Quell-Jeedom-Plugin-Konfiguration auf „Erkennung senden“ klicken.
+
+>**WICHTIG**
+>
+> Der Jeedom-Cloud-Service funktioniert nur mit Jeedom, die mit demselben Marktkonto verknüpft sind. Es ist nicht möglich, Informationen zwischen Jeedom auf verschiedenen Marktkonten zu übertragen
 
 # FAQ
 

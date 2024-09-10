@@ -107,6 +107,14 @@ Le plugin peut faire de la découverte auto de plusieurs type de module. Pour ce
 
 # Transmettre des informations entre deux jeedoms par MQTT
 
+## Avec assistant
+
+Sur le Jeedom source (celui qui envoie les informations) il faut aller dans la configuration du plugin et cliquer sur "Informations MQTT" au niveau de "Mqtt tranmission local" puis copier ce qui s'affiche dans la fenetre qui apparait. 
+Sur le Jeedom cible (celui qui recoit) il faut cliquer sur "Recevoir" au niveau de "Mqtt tranmission local" et coller les informations copiées juste avant.
+
+
+## Manuellement
+
 Il est possible grace au plugin de transmettre des commandes entre deux Jeedom (ce systeme est voué a remplacer jeelink), voila comment le configurer : 
 
 - **Sur le jeedom source il faut** :
@@ -120,7 +128,7 @@ Ensuite vous avez juste à retourner sur le jeedom toujours sur la configuration
 
 >**IMPORTANT**
 >
->Cette configuration part du principe que les jeedoms sont connecté sur le meme brocker mosquitto. Si vous ne pouvez pas le faire il faut alors configurer un des deux mosquitto pour qu'il envoi les valeurs des topic voulu vers un autre mosquitto (voir chapitre suivant)
+>Cette configuration part du principe que les jeedoms sont connecté sur le meme brocker mosquitto. Si vous ne pouvez pas le faire il faut alors configurer un des deux mosquitto pour qu'il envoi les valeurs des topic voulu vers un autre mosquitto (voir chapitre suivant) ou passer par la mode assister qui fera tout pour vous
 
 >**IMPORTANT**
 >
@@ -128,6 +136,10 @@ Ensuite vous avez juste à retourner sur le jeedom toujours sur la configuration
 
 
 # Liée deux mosquitto différent 
+
+>**IMPORTANT**
+>
+> Si vous avez utilisez l'assistant pour la transmission local vous n'avez pas besoin de suivre cette partie, Jeedom a déja tout fait pour vous
 
 Il est possible de lier des topics entre plusieurs mosquitto, voilà la configuration a ajouter dans mosquitto. La configuration n'est a faire que sur un des brocker mosquitto :
 
@@ -143,9 +155,6 @@ remote_password #REMOTE_PASSWORD#
 local_username #LOCAL_USERNAME#
 local_password #LOCAL_PASSWORD#
 start_type automatic
-try_private true
-bridge_insecure true
-bridge_tls_version tlsv1.3
 ````
 
 Exemple vous voulez envoyer depuis jeedom_2 des équipements dans jeedom_1 en ayant : 
@@ -172,9 +181,6 @@ remote_password password_1
 local_username jeedom
 local_password password_2
 start_type automatic
-try_private true
-bridge_insecure true
-bridge_tls_version tlsv1.3
 ````
 
 >**NOTE**
@@ -187,6 +193,26 @@ bridge_tls_version tlsv1.3
 >**IMPORTANT**
 >
 > Dans jeedom les identifiants (`username` et `password`) sont disponibles sur la page de configuration du plugin dans "Authentification" sous la forme `username`:`password`
+
+# Liée des Jeedom à travers internet
+
+>**IMPORTANT**
+>
+> Il ne faut faire cela que si vos Jeedom ne sont pas sur le meme réseaux local. Si vous faite cela avec deux Jeedom sur le meme réseaux local vous allez avoir des soucis de performance, de fiabilité et des pertes en cas de coupure internet (ou de maintenance du cloud Jeedom). Pour résumer cette configuration est à utiliser en dernier recours
+
+Pour liée des Jeedom à travers internet il y a plusieurs possibilité vous pouvez déployer un mosquitto chez un hebergeur cloud ou ouvrir un de vos mosquitto sur internet (attention à la sécurité en cas de probleme Jeedom ne pourra etre tenu responsable). Ou utiliser le service cloud Jeedom (seul cas traité dans cette documentation).
+
+>**IMPORTANT**
+>
+> Le service cloud Jeedom n'est pas encore ouvert aux utilisateurs nous devons d'abord nous assurer que tous les tests de charge et de fiabilité sont ok
+
+Pour utiliser le service Jeedom cloud c'est très simple, sur le Jeedom source (celui qui envoi les informations) il vous suffit d'aller dans la configuration du plugin et de cliquer sur "Envoyer" au niveau de "Jeedom cloud", ensuite il vous faut noter "Identifiant Jeedom cloud". Ensuite allez sur le Jeedom cible (celui qui recoit les informations) et dans la configuration du plugin cliquer sur "Recevoir" et indiquez "Id cloud" de la source (récuperé dans l'étape précende).
+
+Voila c'est fini il ne vous reste plus que sur le Jeedom source à cocher les équipements à transmettre puis à cliquer sur "Envoyer la découverte" dans la configuration du plugin du Jeedom source.
+
+>**IMPORTANT**
+>
+> Le service Jeedom cloud ne marche qu'avec des Jeedom liée au meme compte market, il n'est pas possible de transmettre des informations entre des Jeedom sur different compte market
 
 # FAQ
 

@@ -4,6 +4,18 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+- Implementación de optimización en la gestión de equipos transmitidos con jeedom 4.5
+- Seguridad adicional para evitar poner un tema utilizado por un complemento como tema raíz
+- Se agregó un asistente para vincular fácilmente el mosquito de dos Jeedoms
+- Se agregó la posibilidad de enviar información a la nube de Jeedom para comunicarse entre dos jeedoms a través de Internet (no disponible para los usuarios por el momento))
+- Activación del descubrimiento automático por defecto (se puede desactivar desde Complemento -> Programación -> Administrador Mqtt)
+- Se corrigió un error al crear el comando que indica el estado de un jeedom remoto (a través del equipo de monitor Jeeodm del complemento virtual)
+- Adición del tema SYS (para tener información interna de MQTT)
+- Agregar una plantilla de mosquito.sys que permite recuperar información del brocker (mensaje recibido/enviado total/1min/5min/15min, carga de memoria...)
+- Comprobando el oyente cada vez que se inicia el demonio
+
+# 20/08/2024
+
 - Adición de un mensaje en línea y fuera de línea al iniciar y detener (se desee o no) el demonio en topic_racine/state
 - Si tienes equipo jeedom::monitorear desde el complemento virtual el complemento agregará automáticamente el comando de estado (en línea o fuera de línea), si ya tiene este equipo debe reiniciar el descubrimiento
 - Se corrigió un error en la transmisión del tipo real de equipo (cuando se transmite equipo entre jeedom)
@@ -11,6 +23,7 @@
 - En el equipo exportado, si el complemento de origen existe en el jeedom de destino, jeedom mostrará el ícono del complemento
 - No hay errores en los registros durante la transmisión de comandos (evita romper el jeedom si se corta el demonio))
 - Mejor gestión de pedidos huérfanos
+- Se corrigió un error al ejecutar comandos de tipo mensaje
 
 # 12/08/2024
 

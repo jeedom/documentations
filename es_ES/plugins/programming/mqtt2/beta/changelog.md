@@ -4,6 +4,8 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+# 09/09/2024
+
 - Implementación de optimización en la gestión de equipos transmitidos con jeedom 4.5
 - Seguridad adicional para evitar poner un tema utilizado por un complemento como tema raíz
 - Se agregó un asistente para vincular fácilmente el mosquito de dos Jeedoms

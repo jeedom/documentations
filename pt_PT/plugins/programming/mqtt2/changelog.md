@@ -4,6 +4,18 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+- Implementação de otimização na gestão de equipamentos transmitidos com jeedom 4.5
+- Adicionada segurança para evitar colocar um tópico usado por um plugin como tópico raiz
+- Adicionado um assistente para vincular facilmente o mosquito de dois Jeedoms
+- Adicionada a possibilidade de enviar informações para a nuvem Jeedom para comunicação entre dois jeedoms pela internet (não aberto aos usuários no momento)
+- Ativação da descoberta automática por padrão (pode ser desativada em Plugin -> Programação -> Gerenciador Mqtt)
+- Corrigido bug ao criar o comando indicando o status de um jeedom remoto (através do equipamento monitor Jeeodm do plugin virtual)
+- Adição do tópico SYS (para ter informações internas do MQTT)
+- Adicionando um modelo de mosquito.sys permitindo que informações sejam recuperadas do brocker (mensagem recebida/enviada total/1min/5min/15min, carga de memória...)
+- Verificando o ouvinte cada vez que o daemon é iniciado
+
+# 20/08/2024
+
 - Adição de uma mensagem online e offline ao iniciar e parar (desejado ou não) o daemon em topic_racine/state
 - Se você tiver equipamento jeedom::monitor a partir do plugin virtual o plugin adicionará automaticamente o comando state (online ou offline), caso você já possua este equipamento deverá reiniciar o Discovery
 - Corrigido bug na transmissão do tipo real de equipamento (ao transmitir equipamento entre jeedom)
@@ -11,6 +23,7 @@
 - Em equipamentos exportados, se o plugin de origem existir no jeedom alvo, então o jeedom exibirá o ícone do plugin
 - Nenhum erro nos logs durante a transmissão do comando (evita quebrar o jeedom se o daemon for cortado)
 - Melhor gerenciamento de pedidos órfãos
+- Corrigido um bug ao executar comandos de tipo de mensagem
 
 # 12/08/2024
 

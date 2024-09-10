@@ -4,6 +4,18 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+- Implementation of optimization on the management of equipment transmitted with jeedom 4.5
+- Added security to avoid putting a topic used by a plugin in the root topic
+- Added a wizard to easily link the mosquito of two Jeedoms
+- Added the ability to send information to the Jeedom cloud to make two Jeedoms communicate over the internet (not open to users at the moment))
+- Enable auto-discovery by default (can be disabled from Plugin -> Programming -> Mqtt manager)
+- Fixed a bug on the creation of the command indicating the status of a remote jeedom (through the Jeeodm monitor equipment of the virtual plugin)
+- Added the SYS topic (to have internal MQTT information))
+- Adding a mosquitto template.sys to retrieve information on the broker (message received/sent total/1min/5min/15min, memory load...)
+- Check the listener each time the daemon starts
+
+# 20/08/2024
+
 - Added an online and offline message when starting and stopping (wanted or not) the daemon in topic_racine/state
 - If you have jeedom equipment::monitor from the virtual plugin the plugin will automatically add the state command (online or offline), if you already have this equipment you must restart the discovery
 - Fixed a bug on the transmission of the real type of equipment (when transmitting equipment between jeedom)
@@ -11,6 +23,7 @@
 - On exported equipment if the source plugin exists on the target jeedom then jeedom will display the plugin icon
 - No error in the logs when transmitting the command (avoids breaking jeedom if the daemon is cut off)
 - Better orphan order management
+- Fixed a bug on the execution of message type commands
 
 # 12/08/2024
 
