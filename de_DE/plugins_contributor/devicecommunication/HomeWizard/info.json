@@ -17,7 +17,7 @@
 	"require": "4.4",
 	"os": {
 		"min": 11,
-		"max": 12
+		"max": 12.99
 	},
 	"category": "devicecommunication",
 	"issue": "https://github.com/NebzHB/jeedom_docs/issues",
