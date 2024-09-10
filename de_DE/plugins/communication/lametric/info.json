@@ -3,10 +3,10 @@
     "name": "LaMetric",
     "description": {
         "fr_FR": "Plugin permettant d'afficher des notifications sur LaMetric Time.",
-        "en_US": "Plugin to display notifications on LaMetric Time",
+        "en_US": "Plugin for displaying notifications on LaMetric Time",
         "es_ES": "Complemento para mostrar notificaciones en LaMetric Time",
         "de_DE": "Plugin zum Anzeigen von Benachrichtigungen zur LaMetric Time",
-        "pt_PT": "Plug-in para exibir notificações no LaMetric Time"
+        "pt_PT": "Plugin para exibir notificações no LaMetric Time"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",

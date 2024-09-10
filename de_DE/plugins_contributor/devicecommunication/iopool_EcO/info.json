@@ -8,7 +8,7 @@
 	"licence" : "GPLv3",
 	"author" : "Marc GUYARD",
 	"require" : "4.0",
-	"version" : "2.0.19",
+	"version" : "2.1.0",
 	"category" : "devicecommunication",
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,

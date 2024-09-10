@@ -2,7 +2,7 @@
 
 Complemento para mostrar notificaciones / información en LaMetric.
 
-# Configuración del plugin 
+# Configuración del plugin
 
 Una vez que se instala el complemento, es necesario crear una "aplicación indicadora" en el sitio de LaMetric :
 
@@ -11,7 +11,7 @@ Una vez que se instala el complemento, es necesario crear una "aplicación indic
 
 ![lametric1](./images/lametric1.png)
 
--   3 \. Configure un icono, un nombre y seleccione Push in "Comunicación típica" :
+-   3 \. Configure un icono, un nombre y seleccione **Empuje** en "Comunicación típica" :
 
 ![lametric2](./images/lametric2.png)
 
@@ -29,17 +29,17 @@ A continuación, puede crear nuevos equipos en Jeedom y completar los campos sol
 
 ![lametric5](./images/lametric5.png)
 
-# Usando el complemento 
+# Usando el complemento
 
 2 pedidos se crean automáticamente al agregar equipo :
 
--   **Mensaje** ⇒ Permite el envío de mensajes. El comando de tipo de mensaje contiene 2 campos : 
-    - **ID de icono** : Correspond au numéro de l'icône souhaitée (Ne pas mettre le \# ; liste des icônes disponibles ici : <https://developer.lametric.com/icons>)
-    - **Texto** : Corresponde al texto que desea mostrar
--   **Vaciar** ⇒ Se utiliza para restablecer la pantalla a vacía ("JEEDOM" luego se registra)
+-   **Mensaje** : Permite el envío de mensajes. El comando de tipo de mensaje contiene 2 campos :
+    - **ID de icono** : Corresponde al número del icono deseado (no poner el hash ``#``). La liste des icônes disponibles est consultable à cette adresse : <https://developer.lametric.com/icons>).
+    - **Texto** : Corresponde al texto que desea mostrar.
+-   **Vaciar** : Se utiliza para restablecer la pantalla a vacía ("JEEDOM" se registra).
 
-Es posible enviar más mensajes en un solo envío separando los iconos y los textos por el carácter : **|**
+Es posible enviar más mensajes en un solo envío separando los iconos y los textos por el carácter : ``|``.
 
-Aquí hay, por ejemplo, un escenario que envía 4 informaciones diferentes en 1 envío :
+Aquí hay, por ejemplo, un escenario que envía 4 información diferente a la vez :
 
 ![lametric6](./images/lametric6.png)

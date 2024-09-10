@@ -4,7 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 10/09/2024
+
 - Possibility on boxes with elelabs dongles to flash the Ember firmware (experimental this can completely break your dongle and will not be covered by the warranty or support)
+- Fixed bug if root topic is not zigbee2mqtt
 
 # 05/08/2024
 

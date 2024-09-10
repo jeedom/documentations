@@ -1,0 +1,45 @@
+{
+    "id": "lametric",
+    "name": "LaMetric",
+    "description": {
+        "fr_FR": "Plugin permettant d'afficher des notifications sur LaMetric Time.",
+        "en_US": "Plugin for displaying notifications on LaMetric Time",
+        "es_ES": "Complemento para mostrar notificaciones en LaMetric Time",
+        "de_DE": "Plugin zum Anzeigen von Benachrichtigungen zur LaMetric Time",
+        "pt_PT": "Plugin para exibir notificações no LaMetric Time",
+        "ru_RU": "Plugin permettant d'afficher des notifications sur LaMetric Time",
+        "id_ID": "Plugin permettant d'afficher des notifications sur LaMetric Time",
+        "it_IT": "Plugin permettant d'afficher des notifications sur LaMetric Time",
+        "ja_JP": "Plugin permettant d'afficher des notifications sur LaMetric Time",
+        "tr": "Plugin permettant d'afficher des notifications sur LaMetric Time"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3.39",
+    "category": "communication",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/lametric\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/lametric\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/lametric\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/lametric\/beta"
+}

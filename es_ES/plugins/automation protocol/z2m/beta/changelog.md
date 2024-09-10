@@ -4,7 +4,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 10/09/2024
+
 - Posibilidad en cajas con dongles elelabs de actualizar el firmware de Ember (experimentalmente, esto puede romper completamente su dongle y no estará cubierto por la garantía ni por el soporte))
+- Se corrigió un error si el tema raíz no es zigbee2mqtt
 
 # 08/05/2024
 

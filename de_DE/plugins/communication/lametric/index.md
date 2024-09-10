@@ -2,7 +2,7 @@
 
 Plugin zur Anzeige von Benachrichtigungen / Informationen zu LaMetric.
 
-# Plugin Konfiguration 
+# Plugin Konfiguration
 
 Sobald das Plugin installiert ist, muss auf der LaMetric-Site eine "Indikator-App" erstellt werden :
 
@@ -11,7 +11,7 @@ Sobald das Plugin installiert ist, muss auf der LaMetric-Site eine "Indikator-Ap
 
 ![lametric1](./images/lametric1.png)
 
--   3 \. Konfigurieren Sie ein Symbol, einen Namen und wählen Sie Push in "Typische Kommunikation" :
+-   3 \. Konfigurieren Sie ein Symbol, einen Namen und wählen Sie **Drücken** in "Typische Kommunikation" :
 
 ![lametric2](./images/lametric2.png)
 
@@ -29,17 +29,17 @@ Sie können dann in Jeedom neue Ausrüstung erstellen und die gewünschten Felde
 
 ![lametric5](./images/lametric5.png)
 
-# Mit dem Plugin 
+# Mit dem Plugin
 
 Beim Hinzufügen von Geräten werden automatisch 2 Bestellungen erstellt :
 
--   **Nachricht** ⇒ Ermöglicht das Senden von Nachrichten. Der Befehl Nachrichtentyp enthält 2 Felder : 
-    - **Symbol ID** : Correspond au numéro de l'icône souhaitée (Ne pas mettre le \# ; liste des icônes disponibles ici : <https://developer.lametric.com/icons>)
-    - **Text** : Entspricht dem Text, den Sie anzeigen möchten
--   **Leeren** ⇒ Dient zum Zurücksetzen der Anzeige auf leer ("JEEDOM" wird dann registriert)
+-   **Nachricht** : Ermöglicht das Senden von Nachrichten. Der Befehl Nachrichtentyp enthält 2 Felder :
+    - **Symbol ID** : Entspricht der Nummer des gewünschten Symbols (Geben Sie keinen Hash ein ``#``). La liste des icônes disponibles est consultable à cette adresse : <https://developer.lametric.com/icons>).
+    - **Text** : Entspricht dem Text, den Sie anzeigen möchten.
+-   **Leeren** : Wird verwendet, um die Anzeige auf leer zurückzusetzen ("JEEDOM" wird dann registriert).
 
-Es ist möglich, mehrere Nachrichten auf einmal zu senden, indem die Symbole und die Texte durch das Zeichen getrennt werden : **|**
+Es ist möglich, mehrere Nachrichten auf einmal zu senden, indem die Symbole und die Texte durch das Zeichen getrennt werden : ``|``.
 
-Hier ist zum Beispiel ein Szenario, in dem 4 verschiedene Informationen in einem einzigen Sendevorgang gesendet werden :
+Hier ist zum Beispiel ein Szenario, in dem 4 verschiedene Informationen gleichzeitig gesendet werden :
 
 ![lametric6](./images/lametric6.png)
