@@ -4,7 +4,12 @@
 	"description" : "Plugin FullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk",
 	"licence" : "AGPL",
 	"author" : "vegeta0911",
-	"require" : "4.0",
+	"require" : "4.4",
+	"pluginVersion": "1.0",
+        "os" : {
+		"min" : 11,
+		"max" : 12
+        },
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,	
 	"category" : "monitoring",
