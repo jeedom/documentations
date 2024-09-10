@@ -17,8 +17,8 @@
 	"author": "Eridani78",
 	"require": "4.2",
 	"os": {
-		"min": 10,
-		"max": 12
+		"min": 10.00,
+		"max": 12.99
 	},
 	"category": "home automation protocol",
 	"hasDependency": true,

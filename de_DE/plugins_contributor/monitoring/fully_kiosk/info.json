@@ -8,7 +8,7 @@
 	"pluginVersion": "1.0",
         "os" : {
 		"min" : 11,
-		"max" : 12
+		"max" : 12.99
         },
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,	

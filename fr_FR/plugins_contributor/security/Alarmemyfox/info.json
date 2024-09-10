@@ -8,7 +8,7 @@
     "pluginVersion": "2.2",
     "os" : {
 		"min" : 11,
-		"max" : 12
+		"max" : 12.99
     },
     "category": "security",
     "hasOwnDeamon": true,
