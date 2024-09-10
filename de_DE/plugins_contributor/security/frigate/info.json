@@ -13,10 +13,6 @@
 	"licence": "AGPL",
 	"author": "Sagitaz et Noodom",
 	"require": "4.3",
-	"os": {
-		"min": 10,
-		"max": 12
-	},
 	"category": "security",
 	"display": "panel",
 	"hasDependency": false,
