@@ -15,7 +15,7 @@
 	"require": "4.4",
 	"os": {
 		"min": 11,
-		"max": 12.99
+		"max": ""
 	},
 	"category": "communication",
 	"hasDependency": true,
