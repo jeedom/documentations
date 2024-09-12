@@ -10,7 +10,7 @@ Fields marked with * are mandatory fields.
 
 Fields                   | Values                                                                                                                   |
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-``id`` *                     | Unique identifier of the plugin on the Jeedom Market. Must start with a letter. Without accents.                             |
+``id`` *                     | Unique identifier of the plugin on the Jeedom Market. Must start with a letter. Without accents. Cannot contain _                             |
 ``name`` *                   | Plugin name.                                                                                                            |
 ``description`` *            | Description of the plugin, as it will appear on the Jeedom Market. Minimum 80 characters. (``<br/>`` for the new line.). Attention it is a table for the different languages of possible jeedom (look at the example of the template plugin)                                  |                                                                                     |
 ``utilization``                    | Additional information to the documentation on the use of the plugin.                                                    |

@@ -10,7 +10,7 @@ Los campos marcados con * son campos obligatorios.
 
 Campos                   | Valores                                                                                                                   |
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-``id`` *                     | Identificador único del complemento en el mercado de Jeedom. Debe comenzar con una carta. Sin acentos.                             |
+``id`` *                     | Identificador único del complemento en el mercado de Jeedom. Debe comenzar con una carta. Sin acentos. No puede contener _                             |
 ``name`` *                   | Nombre del complemento.                                                                                                            |
 ``description`` *            | Descripción del complemento, tal como aparecerá en Jeedom Market. Mínimo 80 caracteres. (``<br/>`` para la nueva línea.). Atención, es una tabla para los diferentes idiomas de posible jeedom (mire el ejemplo del complemento de plantilla)                                  |                                                                                     |
 ``utilization``                    | Información adicional a la documentación sobre el uso del complemento.                                                    |

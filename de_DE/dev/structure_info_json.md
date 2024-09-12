@@ -10,7 +10,7 @@ Mit * gekennzeichnete Felder sind Pflichtfelder.
 
 Felder                   | Werte                                                                                                                   |
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-``id`` *                     | Eindeutige Kennung des Plugins auf dem Jeedom Market. Muss mit einem Brief beginnen. Ohne Akzente.                             |
+``id`` *                     | Eindeutige Kennung des Plugins auf dem Jeedom Market. Muss mit einem Brief beginnen. Ohne Akzente. Kann _ nicht enthalten                             |
 ``name`` *                   | Name des Plugins.                                                                                                            |
 ``description`` *            | Beschreibung des Plugins, wie es auf dem Jeedom Market erscheinen wird. Mindestens 80 Zeichen. (``<br/>`` für die neue Zeile.). Achtung es ist eine Tabelle für die verschiedenen Sprachen möglicher jeedom (siehe Beispiel des Template Plugins)                                  |                                                                                     |
 ``utilization``                    | Zusätzliche Informationen zur Dokumentation zur Verwendung des Plugins.                                                    |
