@@ -10,7 +10,7 @@ Les champs marqués d’un * sont des champs obligatoires.
 
 Champs                   | Valeurs                                                                                                                   |
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-``id`` *                     | Identifiant unique du plugin sur le Market Jeedom. Doit debuter par une lettre. Sans accents.                             |
+``id`` *                     | Identifiant unique du plugin sur le Market Jeedom. Doit debuter par une lettre. Sans accents. Ne peut pas contenir _                             |
 ``name`` *                   | Nom du plugin.                                                                                                            |
 ``description`` *            | Description du plugin, tel qu'elle s’affichera sur le Market Jeedom. Minimum 80 caractères. (``<br/>`` pour le retour à la ligne.). Attention c'est un tableau pour les differentes langues de jeedom possible (bien regarder l'exemple du plugin template)                                  |                                                                                     |
 ``utilization``                    | Informations complémentaires à la documentation sur l’usage du plugin.                                                    |
