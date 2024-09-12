@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+## 12/09/2024
+
+- Compatibilidad con Debian 12
+- Se requiere una versión mínima de jeedom: 4.4.8
+
 ## 16/04/2024
 
 - Arreglar la versión de una dependencia (pynut3)
