@@ -10,7 +10,10 @@
 	"usage": "Il faut renseigner les champs Temperature, Humidité, Pression <br/>Pour l'humidité absolue, on peut indiquer également une pression barométrique, sinon une valeur par défaut est prise en compte<br/> Il est possible d'ajouter un offset sur la température",
 	"licence": "AGPL",
 	"author": "JAG",
-	"require": "4.0",
+	"require": "4.2",
+	"os": {
+		"min": 10
+	},
 	"category": "weather",
 	"hasDependency": false,
 	"hasOwnDeamon": false,
@@ -36,6 +39,7 @@
 		"diy",
 		"mobile",
 		"v4",
-		"atlas"
+		"atlas",
+		"luna"
 	]
 }
