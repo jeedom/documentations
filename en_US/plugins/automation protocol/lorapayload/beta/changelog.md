@@ -30,6 +30,8 @@
 
 - Changing the configuration *SHE MIO LORA V2* (add up to 20 temperature probes)
 
+- Adding configuration *Enginko MCF - LW13 IO*
+
 # 04/29/2024
 
 - Adding configuration *Dragino D23LBLS* (properties : Battery, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)

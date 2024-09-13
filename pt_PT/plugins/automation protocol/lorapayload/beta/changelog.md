@@ -30,6 +30,8 @@
 
 - Alterando a configuração *ELA MIO LORA V2* (adicione até 20 sondas de temperatura)
 
+- Adicionando configuração *Enginko MCF - LW13 IO*
+
 # 29/04/2024
 
 - Adicionando configuração *Dragino D23LBLS* (propriedades : Bateria, Temp-Branco, Temp-Vermelho, Temp-Preto, Alarme, Nível PA8, Modo)

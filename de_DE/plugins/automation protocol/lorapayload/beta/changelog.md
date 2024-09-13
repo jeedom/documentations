@@ -30,6 +30,8 @@
 
 - Ändern der Konfiguration *SIE MIO LORA V2* (bis zu 20 Temperaturfühler hinzufügen)
 
+- Konfiguration hinzufügen *Enginko MCF - LW13 IO*
+
 # 29.04.2024
 
 - Konfiguration hinzufügen *Dragino D23LBLS* (Eigenschaften : Batterie, Temperatur-Weiß, Temperatur-Rot, Temperatur-Schwarz, Alarm, PA8-Stufe, Modus)
