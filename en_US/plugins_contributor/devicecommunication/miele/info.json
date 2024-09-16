@@ -1,7 +1,14 @@
 {
 	"id": "miele",
 	"name": "Miele",
-	"description": "Plugin permettant d'intégrer tous les appareils de la gamme Miele@Home. Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions (en fonction de l'appareil)",
+	"description": {
+		"fr_FR": "Plugin permettant d'intégrer tous les appareils de la gamme Miele@Home. Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions (en fonction de l'appareil)",
+		"en_US": "Plugin for integrating all appliances in the Miele@Home range. You can access and monitor appliance data and perform certain actions (depending on the appliance)",
+		"es_ES": "Plugin para integrar todos los electrodomésticos de la gama Miele@Home. Puede acceder y supervisar los datos de los electrodomésticos y realizar determinadas acciones (en función del electrodoméstico)",
+		"de_DE": "Plugin, mit dem alle Geräte der Miele@Home-Reihe integriert werden können. Es ist möglich, auf die Daten der Geräte zuzugreifen, sie zu überwachen und bestimmte Aktionen (je nach Gerät) durchzuführen",
+		"it_IT": "Plugin per l'integrazione di tutti gli elettrodomestici della gamma Miele@Home. È possibile accedere e monitorare i dati dell'apparecchio ed eseguire determinate azioni (a seconda dell'apparecchio)",
+		"pt_PT": "Plugin para integração de todos os electrodomésticos da gama Miele@Home. É possível aceder e monitorizar os dados do aparelho e executar determinadas acções (consoante o aparelho)"
+	},
 	"utilization": "Vous devez avoir un compte utilisateur Miele avec au moins un appareil compatible Miele@Home lié et activer l'accès API (voir documentation)",
 	"licence": "AGPL",
 	"author": "Mips",
@@ -19,8 +26,12 @@
 		"video": ""
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",
@@ -29,5 +40,8 @@
 		"docker",
 		"diy",
 		"v4"
-	]
+	],
+	"os": {
+		"min": 11
+	}
 }

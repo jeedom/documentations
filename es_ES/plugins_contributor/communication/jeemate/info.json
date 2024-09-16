@@ -12,12 +12,16 @@
   "licence": "AGPL",
   "author": "Pascal Moreau et Sagitaz",
   "require": "4.1",
+  "os": {
+    "min": 10,
+    "max": 12
+  },
   "category": "communication",
   "display": "panel",
   "hasDependency": false,
   "hasOwnDeamon": false,
   "maxDependancyInstallTime": 300,
-  "version": "2.3.8",
+  "version": "2.3.9",
   "changelog": "https://docs.jeemate.fr/fr/changelog/plugin",
   "documentation": "https://docs.jeemate.fr/fr/home",
   "changelog_beta": "https://docs.jeemate.fr/fr/changelog/plugin",

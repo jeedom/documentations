@@ -1,16 +1,28 @@
 {
 	"id": "kroomba",
 	"name": "iRobot",
-	"description": "Plugin permettant de piloter les robots aspirateurs (Roomba) et laveurs de sols (Braava) de la marque iRobot.",
+	"description": {
+		"fr_FR": "Plugin permettant de piloter les robots aspirateurs (Roomba) et laveurs de sols (Braava) de la marque iRobot.",
+		"en_US": "Plugin to control iRobot vacuum cleaners (Roomba) and floor cleaners (Braava).",
+		"es_ES": "Plugin para controlar aspiradoras (Roomba) y limpiadores de suelos (Braava) de iRobot.",
+		"de_DE": "Plugin zur Steuerung von Staubsaugerrobotern (Roomba) und Bodenwischern (Braava) der Marke iRobot.",
+		"it_IT": "Plugin per controllare gli aspirapolvere (Roomba) e i lavapavimenti (Braava) di iRobot.",
+		"pt_PT": "Plugin para controlar aspiradores iRobot (Roomba) e aspiradores de chão (Braava)."
+	},
 	"licence": "AGPL",
 	"author": "Mips",
 	"require": "4.2",
 	"category": "devicecommunication",
 	"hasDependency": true,
 	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 60,
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",
@@ -19,6 +31,9 @@
 		"diy",
 		"v4"
 	],
+	"os": {
+		"min": 11
+	},
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/kroomba/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/kroomba/#language#/",
 	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/kroomba/#language#/changelog",
