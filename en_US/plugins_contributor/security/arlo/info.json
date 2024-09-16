@@ -2,8 +2,12 @@
 	"id": "arlo",
 	"name": "Arlo",
 	"description": {
-		"fr_FR": "Plugin permettant le contrôle des équipements de la gamme Arlo comme les caméras, la station de base et la sirène intégrée. Il est possible de contrôler le mode, l'activation et désactivation des caméras, visualiser le flux live des caméras, déclencher des captures et des enregistrements vidéos, déclencher la sirène... Tous les modèles actuels supportés par l'application Arlo (web ou mobile) sont supportés par le plugin: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell et Video Doorbell...",
-		"en_US": "Plugin allowing control of Arlo devices such as cameras, base station and built-in siren. It is possible to control the mode, activation and deactivation of cameras, view the live stream of cameras, trigger video captures and recordings, trigger the siren ... All current models supported by the Arlo application (web or mobile) are supported by the plugin: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell and Video Doorbell ..."
+		"fr_FR": "Plugin permettant le contrôle des équipements de la gamme Arlo comme les caméras, la station de base et la sirène intégrée.\nIl est possible de contrôler le mode, l'activation et désactivation des caméras, visualiser le flux live des caméras, déclencher des captures et des enregistrements vidéos, déclencher la sirène...\nTous les modèles actuels supportés par l'application Arlo (web ou mobile) sont supportés par le plugin: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell et Video Doorbell...",
+		"en_US": "Plugin allowing control of Arlo devices such as cameras, base station and built-in siren.\nIt is possible to control the mode, activation and deactivation of cameras, view the live stream of cameras, trigger video captures and recordings, trigger the siren...\nAll current models supported by the Arlo application (web or mobile) are supported by the plugin: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell and Video Doorbell...",
+		"es_ES": "Plugin para controlar los equipos de la gama Arlo, como las cámaras, la estación base y la sirena integrada.\nEs posible controlar el modo, la activación y desactivación de las cámaras, ver la señal en directo de las cámaras, activar la captura y grabación de vídeo, activar la sirena, etc.\nTodos los modelos actuales compatibles con la aplicación Arlo (web o móvil) son compatibles con el plugin: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell y Video Doorbell...",
+		"de_DE": "Plugin, das die Steuerung der Geräte der Arlo-Reihe wie Kameras, Basisstation und integrierte Sirene ermöglicht.\nEs ist möglich, den Modus, das Ein- und Ausschalten der Kameras zu steuern, den Live-Stream der Kameras anzuzeigen, Videoaufnahmen und -aufzeichnungen auszulösen, die Sirene auszulösen...\nAlle aktuellen Modelle, die von der Arlo-App (Web oder Handy) unterstützt werden, werden auch vom Plugin unterstützt: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell und Video Doorbell...",
+		"it_IT": "Plugin per il controllo delle apparecchiature della gamma Arlo, come le telecamere, la stazione base e la sirena integrata.\nÈ possibile controllare la modalità, l'attivazione e la disattivazione delle telecamere, visualizzare il feed live delle telecamere, attivare l'acquisizione e la registrazione video, attivare la sirena, ecc.\nTutti gli attuali modelli supportati dall'applicazione Arlo (web o mobile) sono supportati dal plugin: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell e Video Doorbell...",
+		"pt_PT": "Plugin para controlar os equipamentos da gama Arlo, como as câmaras, a estação de base e a sirene integrada.\nÉ possível controlar o modo, a ativação e a desativação das câmaras, visualizar a transmissão em direto das câmaras, acionar a captura e a gravação de vídeo, acionar a sirene, etc.\nTodos os modelos actuais suportados pela aplicação Arlo (web ou móvel) são suportados pelo plug-in: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell e Video Doorbell..."
 	},
 	"utilization": "Il faut créer un utilisateur dédié à Jeedom dans l'application Arlo (très facile, explication détaillée dans la documentation) ensuite tout se configure automatiquement.",
 	"licence": "AGPL",
@@ -12,18 +16,22 @@
 	"category": "security",
 	"hasDependency": true,
 	"hasOwnDeamon": true,
-	"maxDependancyInstallTime": 10,
+	"maxDependancyInstallTime": 60,
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/arlo/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/arlo/#language#/",
 	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/arlo/#language#/changelog",
 	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/arlo/#language#/",
 	"link": {
-		"forum": "https://community.jeedom.com/tags/plugin-arlo",
+		"forum": "https://community.jeedom.com/tag/plugin-arlo",
 		"video": ""
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"whiteListFolders": [
 		"data/records"
@@ -34,7 +42,9 @@
 		"rpi",
 		"docker",
 		"diy",
-		"mobile",
 		"v4"
-	]
+	],
+	"os": {
+		"min": 11
+	}
 }
