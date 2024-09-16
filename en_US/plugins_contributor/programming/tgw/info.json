@@ -2,7 +2,12 @@
 	"id": "tgw",
 	"name": "Theengs Gateway",
 	"description": {
-		"fr_FR": "Plugin pour installer et configurer facilement des antennes tournant sous Theengs Gateway qui permet de capter des périphérique bluetooth (BLEA) et les remonter vers Jeedom pour être intégré via le plugin MQTT Discovery"
+		"fr_FR": "Plugin pour installer et configurer facilement des antennes tournant sous Theengs Gateway qui permet de capter des périphérique bluetooth (BLEA) et les remonter vers Jeedom pour être intégré via le plugin MQTT Discovery",
+		"en_US": "Plugin for easy installation and configuration of antennas running under Theengs Gateway that can capture Bluetooth devices (BLEA) and upload them to Jeedom for integration via the MQTT Discovery plugin",
+		"es_ES": "Plugin para instalar y configurar fácilmente antenas corriendo bajo Theengs Gateway, que puede captar dispositivos Bluetooth (BLEA) y enviarlos a Jeedom para ser integrados vía el plugin MQTT Discovery",
+		"de_DE": "Plugin zur einfachen Installation und Konfiguration von Antennen, die unter Theengs Gateway laufen, das Bluetooth-Geräte (BLEA) empfängt und an Jeedom zurücksendet, um über das MQTT Discovery Plugin integriert zu werden",
+		"it_IT": "Plugin per installare e configurare facilmente le antenne che funzionano con il Gateway Theengs, in grado di rilevare i dispositivi Bluetooth (BLEA) e di inviarli a Jeedom per essere integrati tramite il plugin MQTT Discovery",
+		"pt_PT": "Plugin para instalar e configurar facilmente antenas que funcionam com o Theengs Gateway, que pode captar dispositivos Bluetooth (BLEA) e enviá-los para o Jeedom para serem integrados através do plugin MQTT Discovery"
 	},
 	"licence": "AGPL",
 	"author": "Mips",
@@ -10,14 +15,17 @@
 	"category": "programming",
 	"hasDependency": false,
 	"hasOwnDeamon": false,
-	"maxDependancyInstallTime": 0,
 	"link": {
 		"forum": "https://community.jeedom.com/tag/plugin-tgw",
 		"video": ""
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",
@@ -27,6 +35,10 @@
 		"v4",
 		"atlas"
 	],
+	"os": {
+		"min": 11,
+		"max": ""
+	},
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/tgw/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/tgw/#language#/",
 	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/tgw/#language#/changelog",
