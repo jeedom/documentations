@@ -14,7 +14,7 @@
   "require": "4.1",
   "os": {
     "min": 10,
-    "max": 12
+    "max": 12.99
   },
   "category": "communication",
   "display": "panel",
