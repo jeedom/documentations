@@ -1,7 +1,14 @@
 {
 	"id": "notificationqueue",
 	"name": "Notification queue",
-	"description": "Plugin permettant de créer des commandes de notifications (commande de type action/message) qui se comportent comme une file d'attente et ne délivrent les notifications (envoyées dans leur file respective) que si une condition est remplie. Cela permet de gérer également les doublons et les (non-)répétitions de messages.",
+	"description": {
+		"fr_FR": "Plugin permettant de créer des commandes de notifications (commande de type action/message) qui se comportent comme une file d'attente et ne délivrent les notifications (envoyées dans leur file respective) que si une condition est remplie. Cela permet de gérer également les doublons et les (non-)répétitions de messages.",
+		"en_US": "Plugin for creating notification commands (action/message type command) that behave like a queue and deliver notifications (sent in their respective queue) only if a condition is met. This also makes it possible to manage message duplication and (non-)repetition.",
+		"es_ES": "Plugin que permite crear comandos de notificación (comandos de tipo acción/mensaje) que se comportan como una cola y sólo entregan notificaciones (enviadas a sus respectivas colas) si se cumple una condición. Esto también permite gestionar la duplicación y (no) repetición de mensajes.",
+		"de_DE": "Plugin zum Erstellen von Benachrichtigungsbefehlen (Befehl vom Typ Aktion/Nachricht), die sich wie eine Warteschlange verhalten und die Benachrichtigungen (die in ihre jeweilige Warteschlange gesendet werden) nur dann ausliefern, wenn eine Bedingung erfüllt ist. Auf diese Weise lassen sich auch doppelte und (nicht) wiederholte Nachrichten verwalten.",
+		"it_IT": "Plugin che consente di creare comandi di notifica (comandi di tipo azione/messaggio) che si comportano come una coda e consegnano le notifiche (inviate alle rispettive code) solo se viene soddisfatta una condizione. Questo permette anche di gestire la duplicazione e la (non) ripetizione dei messaggi.",
+		"pt_PT": "Plugin que permite criar comandos de notificação (comandos do tipo ação/mensagem) que se comportam como uma fila e só entregam notificações (enviadas para as respectivas filas) se uma condição for cumprida. Isto também permite gerir a duplicação e a (não) repetição de mensagens."
+	},
 	"utilization": "Cela permet, par exemple, de ne délivrer une notification par voix (TTS) dans un pièce donnée que si quelqu'un si trouve, de vous avertir d'une action à faire que si vous êtes présent chez vous, de n'envoyer certaines communications que pendant la journée et éviter de faire sonner votre téléphone la nuit, de gérer automatiquement les (non-)répétitions de messages...",
 	"licence": "AGPL",
 	"author": "Mips",
@@ -19,8 +26,12 @@
 		"video": ""
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",
@@ -29,5 +40,8 @@
 		"docker",
 		"diy",
 		"v4"
-	]
+	],
+	"os": {
+		"min": 11
+	}
 }
