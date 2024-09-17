@@ -1,7 +1,14 @@
 {
 	"id": "proxmox",
 	"name": "Proxmox",
-	"description": "Plugin permettant la gestion d'un serveur Proxmox. Il est possible de récupérer toutes les ressources (noeuds, machine virtuelles, stockage...) et toutes leurs propriétés (statut, mémoire, CPU, disque, adresse IP, temps d'activité, list des snapshots...). Le plugin permet aussi de démarrer et arrêter les VMs et les containers ainsi que de prendre des snapshots et des backups. Il dispose également d'une page santé spécifique résumant l'ensemble des informations de vos équipements.",
+	"description": {
+		"fr_FR": "Plugin permettant la gestion d'un serveur Proxmox. Il est possible de récupérer toutes les ressources (noeuds, machine virtuelles, stockage...) et toutes leurs propriétés (statut, mémoire, CPU, disque, adresse IP, temps d'activité, list des snapshots...). Le plugin permet aussi de démarrer et arrêter les VMs et les containers ainsi que de prendre des snapshots et des backups. Il dispose également d'une page santé spécifique résumant l'ensemble des informations de vos équipements.",
+		"en_US": "Plugin for Proxmox server management. All resources (nodes, virtual machines, storage, etc.) and their properties (status, memory, CPU, disk, IP address, activity time, snapshot list, etc.) can be retrieved. The plugin also enables you to start and stop VMs and containers, as well as take snapshots and backups. It also features a dedicated health page summarizing all your equipment information.",
+		"es_ES": "Plugin para gestionar un servidor Proxmox. Permite recuperar todos los recursos (nodos, máquinas virtuales, almacenamiento, etc.) y todas sus propiedades (estado, memoria, CPU, disco, dirección IP, tiempo de actividad, lista de instantáneas, etc.). El plugin también permite iniciar y detener máquinas virtuales y contenedores, y realizar instantáneas y copias de seguridad. También dispone de una página de salud dedicada que resume toda la información sobre tus equipos.",
+		"de_DE": "Plugin, das die Verwaltung eines Proxmox-Servers ermöglicht. Es ist möglich, alle Ressourcen (Knoten, virtuelle Maschinen, Speicher...) und alle ihre Eigenschaften (Status, Speicher, CPU, Festplatte, IP-Adresse, Aktivitätszeit, Snapshot-Liste...) abzurufen. Das Plugin ermöglicht auch das Starten und Stoppen von VMs und Containern sowie das Erstellen von Snapshots und Backups. Es verfügt auch über eine spezielle Gesundheitsseite, die alle Informationen über Ihre Geräte zusammenfasst.",
+		"it_IT": "Plugin per la gestione di un server Proxmox. È possibile recuperare tutte le risorse (nodi, macchine virtuali, storage, ecc.) e tutte le loro proprietà (stato, memoria, CPU, disco, indirizzo IP, tempo di attività, elenco di snapshot, ecc.) Il plugin consente inoltre di avviare e arrestare macchine virtuali e container, nonché di eseguire snapshot e backup. Dispone inoltre di una pagina dedicata allo stato di salute che riassume tutte le informazioni sulle apparecchiature.",
+		"pt_PT": "Plugin para gerir um servidor Proxmox. É possível recuperar todos os recursos (nós, máquinas virtuais, armazenamento, etc.) e todas as suas propriedades (estado, memória, CPU, disco, endereço IP, tempo de atividade, lista de snapshots, etc.). O plugin também lhe permite iniciar e parar VMs e contentores, e tirar instantâneos e cópias de segurança. Dispõe ainda de uma página de saúde dedicada que resume todas as informações sobre o seu equipamento."
+	},
 	"utilization": "Vous devez déjà avoir un serveur Proxmox et il sera nécessaire de créer un utilisateur dédié à Jeedom.",
 	"licence": "AGPL",
 	"author": "Mips",
@@ -20,8 +27,12 @@
 		"video": ""
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",
@@ -30,5 +41,8 @@
 		"docker",
 		"diy",
 		"v4"
-	]
+	],
+	"os": {
+		"min": 11
+	}
 }

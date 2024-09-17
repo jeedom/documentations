@@ -1,7 +1,7 @@
 {
 	"id": "frigate",
 	"name": "Frigate",
-	"pluginVersion": "0.9.5",
+	"pluginVersion": "1.0.0",
 	"description": {
 		"fr_FR": "Plugin Frigate pour Jeedom. Ne fonctionne qu'avec les versions de Frigate > 0.13.0",
 		"en_US": "Frigate plugin for Jeedom. Works only with Frigate versions > 0.13.0",
@@ -27,6 +27,7 @@
 	"documentation_beta": "https://sagitaz.github.io/plugin-frigate/#language#",
 	"documentation": "https://sagitaz.github.io/plugin-frigate/#language#",
 	"link": {
+		"video": "https://www.youtube.com/watch?v=2aw8d3UIcFk",
 		"forum": "https://community.jeedom.com/tags/plugin-frigate"
 	},
 	"language": [

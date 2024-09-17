@@ -1,7 +1,14 @@
 {
 	"id": "vmczehnder",
 	"name": "VMC (Zehnder/Storkair)",
-	"description": "Plugin permettant d'interfacer un VMC de la marque Zehnder aussi connu sous le nom Storkair, ComfoAir, Wernig. Modèles: ComfoAir/ComfoD 250/350/450/550, WHR 920/930/950/960",
+	"description": {
+		"fr_FR": "Plugin permettant d'interfacer un VMC de la marque Zehnder aussi connu sous le nom Storkair, ComfoAir, Wernig. Modèles: ComfoAir/ComfoD 250/350/450/550, WHR 920/930/950/960",
+		"en_US": "Plugin for interfacing a Zehnder CMV, also known as Storkair, ComfoAir, Wernig. Models: ComfoAir/ComfoD 250/350/450/550, WHR 920/930/950/960",
+		"es_ES": "Plugin para la interconexión de un VMC Zehnder, también conocido como Storkair, ComfoAir, Wernig. Modelos: ComfoAir/ComfoD 250/350/450/550, WHR 920/930/950/960",
+		"de_DE": "Plugin für die Anbindung von Zehnder VMCs, auch bekannt als Storkair, ComfoAir, Wernig. Modelle: ComfoAir/ComfoD 250/350/450/550, WHR 920/930/950/960",
+		"it_IT": "Plugin per l'interfacciamento di una VMC Zehnder, nota anche come Storkair, ComfoAir, Wernig. Modelli: ComfoAir/ComfoD 250/350/450/550, WHR 920/930/950/960",
+		"pt_PT": "Plugin para interface com um VMC Zehnder, também conhecido como Storkair, ComfoAir, Wernig. Modelos: ComfoAir/ComfoD 250/350/450/550, WHR 920/930/950/960"
+	},
 	"utilization": "Il est nécessaire d'installer un pi (ou équivalent) proche de la vmc et connecté sur son interface rs232 via un adaptateur USB ensuite le plugin se charge du reste, voir la doc pour plus de détails.",
 	"licence": "AGPL",
 	"author": "Mips",
@@ -19,8 +26,12 @@
 		"video": ""
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",
@@ -29,5 +40,8 @@
 		"docker",
 		"diy",
 		"v4"
-	]
+	],
+	"os": {
+		"min": 11
+	}
 }

@@ -1,7 +1,14 @@
 {
 	"id": "portainer",
 	"name": "Portainer",
-	"description": "Plugin permettant la connexion à Portainer.io, un outils de gestion de dockers, et donc de gérer vos dockers et containers sur Jeedom.",
+	"description": {
+		"fr_FR": "Plugin permettant la connexion à Portainer.io, un outils de gestion de dockers, et donc de gérer vos dockers et containers sur Jeedom.",
+		"en_US": "Plugin to connect to Portainer.io, a docker management tool, and thus manage your dockers and containers on Jeedom.",
+		"es_ES": "Plugin para conectar con Portainer.io, una herramienta de gestión de dockers, para que puedas gestionar tus dockers y contenedores en Jeedom.",
+		"de_DE": "Plugin, das die Verbindung zu Portainer.io, einem Werkzeug zur Verwaltung von Dockern, ermöglicht. Damit können Sie Ihre Docker und Container in Jeedom verwalten.",
+		"it_IT": "Plugin per la connessione a Portainer.io, uno strumento di gestione di docker, in modo da poter gestire i docker e i container su Jeedom.",
+		"pt_PT": "Plugin para ligação ao Portainer.io, uma ferramenta de gestão de docas, para que possa gerir as suas docas e contentores no Jeedom."
+	},
 	"utilization": "Il est nécessaire d'installer Portainer.io sur votre environnement docker. Portainer peut être installé très simplement dans un container.",
 	"licence": "AGPL",
 	"author": "Mips2648",
@@ -16,12 +23,16 @@
 	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/portainer/#language#/changelog",
 	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/portainer/#language#/",
 	"link": {
-		"forum": "https://community.jeedom.com/tags/plugin-portainer",
+		"forum": "https://community.jeedom.com/tag/plugin-portainer",
 		"video": ""
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",
@@ -30,5 +41,8 @@
 		"docker",
 		"diy",
 		"v4"
-	]
+	],
+	"os": {
+		"min": 11
+	}
 }

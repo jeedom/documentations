@@ -1,7 +1,14 @@
 {
 	"id": "vaillantmultimatic",
 	"name": "myVaillant",
-	"description": "Plugin permettant de se connecter à un système myVaillant, qui remplace nottament sensoApp & multiMATIC, (compatible avec les marques Bulex, Saunier Duval, Vaillant) via sa passerelle internet. Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler: définir le mode (On, Off, Auto...), définir les températures de consigne, activer un mode rapide, activer une marche forcée... Les vannes et les thermostats de la gamme ambiSENSE reliées au système sont également gérés.",
+	"description": {
+		"fr_FR": "Plugin permettant de se connecter à un système myVaillant, qui remplace nottament sensoApp & multiMATIC, (compatible avec les marques Bulex, Saunier Duval, Vaillant) via sa passerelle internet. Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler: définir le mode (On, Off, Auto...), définir les températures de consigne, activer un mode rapide, activer une marche forcée... Les vannes et les thermostats de la gamme ambiSENSE reliées au système sont également gérés.",
+		"en_US": "Plugin to connect to a myVaillant system, which replaces sensoApp & multiMATIC, (compatible with Bulex, Saunier Duval, Vaillant brands) via its internet gateway. The status of all connected equipment can be uploaded to Jeedom and controlled: set mode (On, Off, Auto...), define setpoint temperatures, activate fast mode, activate forced operation... Valves and thermostats from the ambiSENSE range connected to the system are also managed.",
+		"es_ES": "Plugin para conectarse a un sistema myVaillant, que sustituye a sensoApp & multiMATIC en particular, (compatible con Bulex, Saunier Duval, Vaillant) a través de su pasarela de Internet. Puede consultar el estado de todos los equipos conectados en Jeedom y controlarlos: establecer el modo (Encendido, Apagado, Auto, etc.), definir temperaturas de consigna, activar un modo rápido, activar el funcionamiento forzado, etc. También se gestionan las válvulas y termostatos de la gama ambiSENSE conectados al sistema.",
+		"de_DE": "Plugin, mit dem man sich über das Internet-Gateway mit einem myVaillant-System verbinden kann, das insbesondere sensoApp & multiMATIC ersetzt (kompatibel mit den Marken Bulex, Saunier Duval, Vaillant). Es ist möglich, den Status aller angeschlossenen Geräte in Jeedom abzurufen und sie zu steuern: Modus einstellen (Ein, Aus, Auto...), Solltemperaturen festlegen, einen Schnellmodus aktivieren, einen Zwangslauf aktivieren... Die an das System angeschlossenen Ventile und Thermostate der ambiSENSE-Reihe werden ebenfalls verwaltet.",
+		"it_IT": "Plugin per la connessione a un sistema myVaillant, che sostituisce in particolare sensoApp e multiMATIC (compatibile con Bulex, Saunier Duval, Vaillant) tramite il suo gateway internet. È possibile verificare lo stato di tutte le apparecchiature collegate a Jeedom e controllarle: impostare la modalità (On, Off, Auto, ecc.), definire le temperature di riferimento, attivare una modalità rapida, attivare il funzionamento forzato, ecc. Vengono gestite anche le valvole e i termostati della gamma ambiSENSE collegati al sistema.",
+		"pt_PT": "Plugin de ligação a um sistema myVaillant, que substitui nomeadamente a sensoApp e o multiMATIC (compatível com Bulex, Saunier Duval, Vaillant) através do seu gateway Internet. Pode verificar o estado de todos os equipamentos ligados no Jeedom e controlá-los: definir o modo (On, Off, Auto, etc.), definir temperaturas de referência, ativar um modo rápido, ativar o funcionamento forçado, etc. As válvulas e termóstatos da gama ambiSENSE ligados ao sistema são igualmente geridos."
+	},
 	"utilization": "Il est nécessaire d'avoir une passerelle internet et un régulateur Vaillant compatibles avec le système myVaillant.",
 	"licence": "AGPL",
 	"author": "Mips",
@@ -19,8 +26,12 @@
 		"video": ""
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",
@@ -30,5 +41,8 @@
 		"docker",
 		"diy",
 		"v4"
-	]
+	],
+	"os": {
+		"min": 11
+	}
 }

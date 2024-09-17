@@ -1,7 +1,14 @@
 {
 	"id": "onduleursolaredge",
 	"name": "Solaredge",
-	"description": "Plugin permettant la lecture de données d'un onduleur de panneaux photovoltaïque de la marque Solaredge.",
+	"description": {
+		"fr_FR": "Plugin permettant la lecture de données d'un onduleur de panneaux photovoltaïque de la marque Solaredge.",
+		"en_US": "Plugin for reading data from a Solaredge photovoltaic inverter.",
+		"es_ES": "Plugin para la lectura de datos de un inversor fotovoltaico Solaredge.",
+		"de_DE": "Plugin zum Auslesen von Daten eines Wechselrichters für Photovoltaikpaneele der Marke Solaredge.",
+		"it_IT": "Plugin per la lettura dei dati di un inverter fotovoltaico Solaredge.",
+		"pt_PT": "Plugin para leitura de dados de um inversor fotovoltaico Solaredge."
+	},
 	"utilization": "",
 	"licence": "AGPL",
 	"author": "Mips",
@@ -17,15 +24,21 @@
 		"video": ""
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",
 		"rpi",
 		"docker",
 		"diy",
-		"mobile",
 		"v4"
-	]
+	],
+	"os": {
+		"min": 11
+	}
 }

@@ -36,8 +36,7 @@
 		"atlas"
 	],
 	"os": {
-		"min": 11,
-		"max": ""
+		"min": 11
 	},
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/tgw/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/tgw/#language#/",

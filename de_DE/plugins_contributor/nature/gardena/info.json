@@ -1,7 +1,14 @@
 {
 	"id": "gardena",
 	"name": "Gardena-Husqvarna",
-	"description": "Plugin permettant d'intégrer tous les appareils de la gamme Gardena Smart System (Water Control, sensor, irrigation control, power socket et Sileno mower) ce qui permet de controler votre système d'arrosage et votre robot tondeuse ainsi que les robots Husqvarna Automower Connect. Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions en fonction de l'appareil (voir la documentation).",
+	"description": {
+		"fr_FR": "Plugin permettant d'intégrer tous les appareils de la gamme Gardena Smart System (Water Control, sensor, irrigation control, power socket et Sileno mower) ce qui permet de controler votre système d'arrosage et votre robot tondeuse ainsi que les robots Husqvarna Automower Connect. Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions en fonction de l'appareil (voir la documentation).",
+		"en_US": "Plugin for integrating all Gardena Smart System devices (Water Control, sensor, irrigation control, power socket and Sileno mower), enabling you to control your watering system and robotic mower, as well as Husqvarna Automower Connect robots. You can access and monitor device data, and perform certain device-specific actions (see documentation).",
+		"es_ES": "Plugin para integrar todos los dispositivos Gardena Smart System (Water Control, sensor, control de riego, toma de corriente y cortacésped Sileno) que le permite controlar su sistema de riego y su robot cortacésped, así como los robots Husqvarna Automower Connect. Es posible acceder a los datos de los dispositivos y supervisarlos, así como realizar determinadas acciones en función del dispositivo (consulte la documentación).",
+		"de_DE": "Plugin zur Integration aller Geräte des Gardena Smart System (Water Control, Sensor, irrigation control, power socket und Sileno mower), mit dem Sie Ihr Bewässerungssystem und Ihren Mähroboter sowie die Husqvarna Automower Connect-Roboter steuern können. Es ist möglich, auf die Daten der Geräte zuzugreifen, sie zu überwachen und bestimmte Aktionen je nach Gerät durchzuführen (siehe Dokumentation).",
+		"it_IT": "Plugin per l'integrazione di tutti i dispositivi Gardena Smart System (controllo dell'acqua, sensore, controllo dell'irrigazione, presa di corrente e tosaerba Sileno) che consente di controllare il sistema di irrigazione e il tosaerba robotizzato, nonché i robot Husqvarna Automower Connect. È possibile accedere e monitorare i dati dei dispositivi ed eseguire determinate azioni a seconda del dispositivo (vedere la documentazione).",
+		"pt_PT": "Plugin para integrar todos os dispositivos Gardena Smart System (controlo de água, sensor, controlo de rega, tomada de corrente e cortador de relva Sileno) que lhe permite controlar o seu sistema de rega e o seu cortador de relva robótico, bem como os robôs Husqvarna Automower Connect. É possível aceder e monitorizar os dados dos dispositivos e realizar determinadas acções em função do dispositivo (ver documentação)."
+	},
 	"utilization": "Le plugin utilise les API officielles du group Husqvarna / Gardena pour piloter vos équipements, cela devrait donc être plus stable dans le temps que d'autres intégrations. Une clé API (gratuite) est nécesaire pour la configuration; tout est détaillé dans la page de configuration du plugin.",
 	"licence": "AGPL",
 	"author": "Mips",
@@ -9,7 +16,7 @@
 	"category": "nature",
 	"hasDependency": true,
 	"hasOwnDeamon": true,
-	"maxDependancyInstallTime": 0,
+	"maxDependancyInstallTime": 60,
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/gardena/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/gardena/#language#/",
 	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/gardena/#language#/changelog",
@@ -19,8 +26,12 @@
 		"video": ""
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",
@@ -29,5 +40,8 @@
 		"diy",
 		"v4",
 		"atlas"
-	]
+	],
+	"os": {
+		"min": 11
+	}
 }

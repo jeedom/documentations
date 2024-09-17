@@ -2,7 +2,12 @@
 	"id": "fail2ban",
 	"name": "fail2ban",
 	"description": {
-		"fr_FR": "Plugin pour monitorer fail2ban. Il permet de remonter toutes les infos instantanées d'une instance de fail2ban locale ou distante (via SSH) mais il garde également des compteurs journaliers des ip bloquées ainsi qu'un compteur pour pays d'origine (pays récupéré par géolocalisation de l'adresse IP).<br>Il permet également de bannir et de débannir une adresse ip."
+		"fr_FR": "Plugin pour monitorer fail2ban. Il permet de remonter toutes les infos instantanées d'une instance de fail2ban locale ou distante (via SSH) mais il garde également des compteurs journaliers des ip bloquées ainsi qu'un compteur pour pays d'origine (pays récupéré par géolocalisation de l'adresse IP).<br>Il permet également de bannir et de débannir une adresse ip.",
+		"en_US": "Plugin for monitoring fail2ban. It allows you to retrieve all instant info from a local or remote (via SSH) fail2ban instance, but it also keeps daily counters of blocked ip's and a counter for country of origin (country retrieved by geolocating the IP address).<br>It also allows you to ban and unban an ip address.",
+		"es_ES": "Plugin para monitorizar fail2ban. Le permite recuperar toda la información instantánea de una instancia fail2ban local o remota (vía SSH) pero también mantiene contadores diarios de direcciones ip bloqueadas así como un contador para el país de origen (país recuperado geolocalizando la dirección IP).<br>También le permite banear y desbanear una dirección ip.",
+		"de_DE": "Plugin zum Überwachen von fail2ban. Das Plugin ermöglicht es, alle sofortigen Informationen von einer lokalen oder entfernten (über SSH) fail2ban-Instanz zu erhalten, aber es behält auch tägliche Zähler für blockierte IPs und einen Zähler für das Herkunftsland (Land, das durch Geolokalisierung der IP-Adresse abgerufen wird).<br> Es ermöglicht auch, eine IP-Adresse zu verbannen und zu debannern.",
+		"it_IT": "Plugin per il monitoraggio di fail2ban. Permette di recuperare tutte le informazioni istantanee da un'istanza fail2ban locale o remota (via SSH), ma anche di tenere un contatore giornaliero degli indirizzi ip bloccati e un contatore per il paese di origine (paese recuperato geolocalizzando l'indirizzo IP).",
+		"pt_PT": "Plugin para monitorizar o fail2ban. Ele permite que você recupere todas as informações instantâneas de uma instância fail2ban local ou remota (via SSH), mas também mantém contadores diários de endereços IP bloqueados, bem como um contador para o país de origem (país recuperado por geolocalização do endereço IP).<br>Ele também permite que você banir e unban um endereço IP."
 	},
 	"licence": "AGPL",
 	"author": "Mips",
@@ -16,8 +21,12 @@
 		"video": ""
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",
@@ -27,6 +36,9 @@
 		"v4",
 		"atlas"
 	],
+	"os": {
+		"min": 11
+	},
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/fail2ban/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/fail2ban/#language#/",
 	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/fail2ban/#language#/changelog",
