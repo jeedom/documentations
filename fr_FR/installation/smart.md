@@ -85,7 +85,7 @@ Afin de réaliser la mise à jour du système, il faut :
 
 Afin de réaliser la mise à jour du système, il faut :
 
-- S'équiper d'**une clé USB (minimum 8Go)** pour ouvrir la box
+- S'équiper d'**une clé USB (minimum 8Go)**
 - Télécharger le fichier [**backupJeedom.tar.gz**](https://images.jeedom.com/smart/backupJeedom.tar.gz)
 
 ### Restauration par USB
