@@ -20,13 +20,13 @@ La procédure suivante explique comment mettre à jour l'environnement système 
 >
 >La restauration système par clé USB n'a pu être maintenue sur ce nouvel environnement, il est donc nécessaire de graver directement le support de stockage interne *(eMMC)* en suivant les étapes suivantes.
 >
->**Avant de vous lancer, n'hésitez surtout pas à visionner la vidéo de remplacement de l'eMMC  détaillant le démontage et le remontage de la box Jeedom Smart** *(2 minutes)* :
+>**Avant de vous lancer, n'hésitez surtout pas à visionner la vidéo de remplacement de l'eMMC  détaillant le démontage et le remontage de la box Jeedom Smart** *(2 minutes)*:
 >
 >[![Démontage/remontage Smart en vidéo](https://img.youtube.com/vi/lUhtP687s2E/hqdefault.jpg)](https://youtu.be/lUhtP687s2E){:target="_blank"}
 
 ### Prérequis
 
-Afin de réaliser la mise à jour du système, il faut :
+Afin de réaliser la mise à jour du système, il faut:
 
 - S'équiper d'**un petit tournevis cruciforme** pour ouvrir la box
 
@@ -37,7 +37,7 @@ Afin de réaliser la mise à jour du système, il faut :
 	**OU**
 
 - Télécharger le fichier [**JeedomSmart_Debian11.img.xz**](https://images.jeedom.com/smart/JeedomSmart_Debian11.img.xz)
-- S'équiper d'**un adapteur eMMC>USB/SD/µSD** pour graver l'image depuis un ordinateur, par exemple:
+- S'équiper d'**un adapteur eMMC>USB/SD/µSD compatible Odroid-C2** pour graver l'image depuis un ordinateur, par exemple:
 
 	![Exemple d'adaptateur eMMC](./images/emmc_adapter.jpg)
 
@@ -45,17 +45,15 @@ Afin de réaliser la mise à jour du système, il faut :
 
 1. Débrancher tous les périphériques externes branchés sur la Smart *(alimentation, éthernet, USB, HDMI...)* et dévisser l'antenne du contrôleur interne.
 
-2. Dévisser les 2 vis à l'avant de la box au niveau de la plaque en plexiglass ***(Attention fragile !)***  :
+2. Dévisser les 2 vis à l'avant de la box au niveau de la plaque en plexiglass ***(Attention fragile!)***.
 
-	 ![Dévisser Smart](./images/smart_unscrew.jpg)
-
-3. Faire coulisser la carte mère vers l'arrière du boitier :
+3. Faire coulisser la carte mère vers l'arrière du boitier:
 
 	 ![Ouvrir la Smart](./images/smart_open.jpg)
 
 ### Gravure de l'eMMC
 
-1. Déclipser le stockage eMMC situé sous la carte mère :
+1. Déclipser le stockage eMMC situé sous la carte mère:
 
 	 ![Déclipser eMMC](./images/smart_emmc.jpg)
 
@@ -63,7 +61,7 @@ Afin de réaliser la mise à jour du système, il faut :
 >
 >**En cas de remplacement de l'eMMC d'origine** par une eMMC avec Jeedom préinstallé sous Debian 11, **clipser la nouvelle eMMC** à la place de l'ancienne **puis passer directement à l'étape de [remontage](#Remontage%20de%20la%20box%20Jeedom%20Smart)**.
 
-2. Clipser l'eMMC sur l'adaptateur et le brancher sur un ordinateur :
+2. Clipser l'eMMC sur l'adaptateur et le brancher sur un ordinateur:
 
 	 ![eMMC sur PC](./images/emmc_to_pc.jpg)
 
@@ -77,7 +75,9 @@ Afin de réaliser la mise à jour du système, il faut :
 
 1. Faire coulisser la carte mère de l'arrière vers l'avant à travers le boitier.
 
-2. Remettre le plexiglass en place puis revisser les 2 vis à l'avant de la box sans forcer.
+2. Remettre le plexiglass en place puis revisser les 2 vis à l'avant de la box sans forcer:
+
+	 ![Dévisser Smart](./images/smart_unscrew.jpg)
 
 3. Revisser l'antenne puis rebrancher les périphériques externes en terminant par le câble d'alimentation.
 
@@ -85,7 +85,7 @@ Afin de réaliser la mise à jour du système, il faut :
 
 ### Prérequis
 
-Afin de réaliser la mise à jour du système, il faut :
+Afin de réaliser la mise à jour du système, il faut:
 
 - S'équiper d'**une clé USB (minimum 8Go)**
 - Télécharger le fichier [**backupJeedom.tar.gz**](https://images.jeedom.com/smart/backupJeedom.tar.gz)
