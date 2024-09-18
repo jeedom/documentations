@@ -61,7 +61,7 @@ In order to perform the system update, it is necessary :
 
 >**INFORMATION**
 >
->If replacing the original eMMC with an eMMC with Jeedom preinstalled under Debian 11, clip the new eMMC in place of the old one then go directly to the step of [reassembly](#remontage-de-la-box-jeedom-smart).
+>**In case of replacement of the original eMMC** by an eMMC with Jeedom preinstalled under Debian 11, **clip the new eMMC** instead of the old one **then go directly to the step of [reassembly](#Remontage%20de%20la%20box%20Jeedom%20Smart)**.
 
 2. Clip the eMMC onto the adapter and plug it into a computer :
 
