@@ -809,7 +809,7 @@
         "target=\"_blank": "target=\"_blank",
         "JeedomSmart_Debian11.img.xz": "JeedomSmart_Debian11.img.xz",
         "Télécharger le fichier": "Download the file",
-        "un adapteur eMMC>USB\/SD\/µSD": "an eMMC>USB\/SD\/µSD adapter",
+        "un adapteur eMMC>USB\/SD\/µSD compatible Odroid-C2": "an Odroid-C2 compatible eMMC>USB\/SD\/µSD adapter",
         "pour graver l'image depuis un ordinateur, par exemple": "to burn the image from a computer, for example",
         "Démontage de la box Jeedom Smart": "Disassembly of the Jeedom Smart box",
         "alimentation, éthernet, USB, HDMI": "power, ethernet, USB, HDMI",

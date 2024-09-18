@@ -20,13 +20,13 @@ Im folgenden Verfahren wird erläutert, wie Sie die Systemumgebung der Jeedom Sm
 >
 >Die Systemwiederherstellung per USB-Stick konnte in dieser neuen Umgebung nicht aufrechterhalten werden, daher ist es notwendig, das interne Speichermedium direkt zu brennen *(eMMC)* indem Sie die folgenden Schritte ausführen.
 >
->**Bevor Sie beginnen, schauen Sie sich unbedingt das eMMC-Austauschvideo an, in dem die Demontage und der erneute Zusammenbau der Jeedom Smart-Box detailliert beschrieben werden** *(2 Minuten)* :
+>**Bevor Sie beginnen, schauen Sie sich unbedingt das eMMC-Austauschvideo an, in dem die Demontage und der erneute Zusammenbau der Jeedom Smart-Box detailliert beschrieben werden** *(2 Minuten)*:
 >
 >[![Smarte Demontage/Wiedermontage im Video](https://img.youtube.com/vi/lUhtP687s2E/hqdefault.jpg)](https://youtu.be/lUhtP687s2E){:target="_blank"}
 
 ### Voraussetzungen
 
-Um das System zu aktualisieren, müssen Sie :
+Um das System zu aktualisieren, müssen Sie:
 
 - Rüsten Sie sich aus mit'**ein kleiner Kreuzschlitzschraubendreher** um die Kiste zu öffnen
 
@@ -37,7 +37,7 @@ Um das System zu aktualisieren, müssen Sie :
 	**ODER**
 
 - Datei herunterladen [**JeedomSmart_Debian11.img.xz**](https://images.jeedom.com/smart/JeedomSmart_Debian11.img.xz)
-- Rüsten Sie sich aus mit'**ein eMMC>USB/SD/µSD-Adapter** um das Bild beispielsweise von einem Computer zu brennen:
+- Rüsten Sie sich aus mit'**ein Odroid-C2-kompatibler eMMC>USB/SD/µSD-Adapter** um das Bild beispielsweise von einem Computer zu brennen:
 
 	![Exemple d'adaptateur eMMC](./images/emmc_adapter.jpg)
 
@@ -45,17 +45,15 @@ Um das System zu aktualisieren, müssen Sie :
 
 1. Trennen Sie alle an den Smart angeschlossenen externen Geräte *(Strom, Ethernet, USB, HDMI...)* und schrauben Sie die Antenne vom internen Controller ab.
 
-2. Lösen Sie die 2 Schrauben vorne an der Box an der Plexiglasplatte ***(Aufmerksamkeit zerbrechlich !)***  :
+2. Lösen Sie die 2 Schrauben vorne an der Box an der Plexiglasplatte ***(Aufmerksamkeit zerbrechlich!)***.
 
-	 ![Dévisser Smart](./images/smart_unscrew.jpg)
-
-3. Schieben Sie das Motherboard zur Rückseite des Gehäuses :
+3. Schieben Sie das Motherboard zur Rückseite des Gehäuses:
 
 	 ![Ouvrir la Smart](./images/smart_open.jpg)
 
 ### Brennen der eMMC
 
-1. Lösen Sie den eMMC-Speicher unter der Hauptplatine :
+1. Lösen Sie den eMMC-Speicher unter der Hauptplatine:
 
 	 ![Déclipser eMMC](./images/smart_emmc.jpg)
 
@@ -63,7 +61,7 @@ Um das System zu aktualisieren, müssen Sie :
 >
 >**Im Falle eines Austauschs der ursprünglichen eMMC** durch eine eMMC mit vorinstalliertem Jeedom unter Debian 11, **Clip die neue eMMC** statt des alten **Gehen Sie dann direkt zum Schritt von [Wiederzusammenbau](#Remontage%20de%20la%20box%20Jeedom%20Smart)**.
 
-2. Befestigen Sie den eMMC am Adapter und schließen Sie ihn an einen Computer an :
+2. Befestigen Sie den eMMC am Adapter und schließen Sie ihn an einen Computer an:
 
 	 ![eMMC sur PC](./images/emmc_to_pc.jpg)
 
@@ -77,7 +75,9 @@ Um das System zu aktualisieren, müssen Sie :
 
 1. Schieben Sie das Motherboard von hinten nach vorne durch das Gehäuse.
 
-2. Setzen Sie das Plexiglas wieder ein und ziehen Sie dann die beiden Schrauben an der Vorderseite der Box ohne Gewalt fest.
+2. Setzen Sie das Plexiglas wieder ein und ziehen Sie dann die beiden Schrauben an der Vorderseite der Box ohne Gewalt fest:
+
+	 ![Dévisser Smart](./images/smart_unscrew.jpg)
 
 3. Schrauben Sie die Antenne wieder fest, schließen Sie dann die externen Geräte wieder an und schließen Sie mit dem Netzkabel ab.
 
@@ -85,7 +85,7 @@ Um das System zu aktualisieren, müssen Sie :
 
 ### Voraussetzungen
 
-Um das System zu aktualisieren, müssen Sie :
+Um das System zu aktualisieren, müssen Sie:
 
 - Rüsten Sie sich aus mit'**einen USB-Stick (mindestens 8 GB))**
 - Datei herunterladen [**backupJeedom.tar.gz**](https://images.jeedom.com/smart/backupJeedom.tar.gz)

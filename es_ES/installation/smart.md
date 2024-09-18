@@ -20,13 +20,13 @@ El siguiente procedimiento explica cómo actualizar el entorno del sistema de Je
 >
 >La restauración del sistema mediante una llave USB no se pudo mantener en este nuevo entorno, por lo que es necesario grabar el medio de almacenamiento interno directamente *(eMMC)* siguiendo los siguientes pasos.
 >
->**Antes de comenzar, no dude en ver el vídeo de reemplazo de eMMC que detalla el desmontaje y montaje de la caja Jeedom Smart** *(2 minutos)* :
+>**Antes de comenzar, no dude en ver el vídeo de reemplazo de eMMC que detalla el desmontaje y montaje de la caja Jeedom Smart** *(2 minutos)*:
 >
 >[![Desmontaje/montaje inteligente en vídeo](https://img.youtube.com/vi/lUhtP687s2E/hqdefault.jpg)](https://youtu.be/lUhtP687s2E){:objetivo="_en blanco"}
 
 ### Requisitos previos
 
-Para actualizar el sistema es necesario :
+Para actualizar el sistema es necesario:
 
 - Equípate con'**un pequeño destornillador Phillips** para abrir la caja
 
@@ -37,7 +37,7 @@ Para actualizar el sistema es necesario :
 	**O**
 
 - Descargar archivo [**JeedomSmart_Debian11.img.xz**](https://images.jeedom.com/smart/JeedomSmart_Debian11.img.xz)
-- Equípate con'**un adaptador eMMC>USB/SD/μSD** para grabar la imagen desde una computadora, por ejemplo:
+- Equípate con'**un adaptador eMMC>USB/SD/μSD compatible con Odroid-C2** para grabar la imagen desde una computadora, por ejemplo:
 
 	![Exemple d'adaptateur eMMC](./images/emmc_adapter.jpg)
 
@@ -45,17 +45,15 @@ Para actualizar el sistema es necesario :
 
 1. Desenchufe todos los dispositivos externos conectados al Smart *(alimentación, ethernet, USB, HDMI...)* y desenrosque la antena del controlador interno.
 
-2. Desatornille los 2 tornillos en la parte frontal de la caja en la placa de plexiglás ***(Atención frágil !)***  :
+2. Desatornille los 2 tornillos en la parte frontal de la caja en la placa de plexiglás ***(Atención frágil!)***.
 
-	 ![Dévisser Smart](./images/smart_unscrew.jpg)
-
-3. Deslice la placa base hacia la parte posterior de la caja :
+3. Deslice la placa base hacia la parte posterior de la caja:
 
 	 ![Ouvrir la Smart](./images/smart_open.jpg)
 
 ### Quemando el eMMC
 
-1. Suelte el almacenamiento eMMC ubicado debajo de la placa base :
+1. Suelte el almacenamiento eMMC ubicado debajo de la placa base:
 
 	 ![Déclipser eMMC](./images/smart_emmc.jpg)
 
@@ -63,7 +61,7 @@ Para actualizar el sistema es necesario :
 >
 >**En caso de sustitución del eMMC original** por un eMMC con Jeedom preinstalado en Debian 11, **recortar el nuevo eMMC** en lugar del viejo **luego vaya directamente al paso de [reensamblaje](#Remontage%20de%20la%20box%20Jeedom%20Smart)**.
 
-2. Sujete el eMMC al adaptador y conéctelo a una computadora :
+2. Sujete el eMMC al adaptador y conéctelo a una computadora:
 
 	 ![eMMC sur PC](./images/emmc_to_pc.jpg)
 
@@ -77,7 +75,9 @@ Para actualizar el sistema es necesario :
 
 1. Deslice la placa base de atrás hacia adelante a través de la carcasa.
 
-2. Vuelva a colocar el plexiglás en su lugar y luego apriete los 2 tornillos en la parte frontal de la caja sin forzar.
+2. Vuelva a colocar el plexiglás en su lugar y luego apriete los 2 tornillos en la parte frontal de la caja sin forzar:
+
+	 ![Dévisser Smart](./images/smart_unscrew.jpg)
 
 3. Vuelva a atornillar la antena y luego vuelva a conectar los dispositivos externos, terminando con el cable de alimentación.
 
@@ -85,7 +85,7 @@ Para actualizar el sistema es necesario :
 
 ### Requisitos previos
 
-Para actualizar el sistema es necesario :
+Para actualizar el sistema es necesario:
 
 - Equípate con'**una llave USB (mínimo 8 GB)**
 - Descargar archivo [**backupJeedom.tar.gz**](https://images.jeedom.com/smart/backupJeedom.tar.gz)

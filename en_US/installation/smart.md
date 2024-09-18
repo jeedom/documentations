@@ -20,13 +20,13 @@ The following procedure explains how to update the system environment of the Jee
 >
 >System restore via USB drive could not be maintained on this new environment, so it is necessary to burn the internal storage media directly *(eMMC)* by following the following steps.
 >
->**Before you start, don't hesitate to watch the eMMC replacement video detailing the disassembly and reassembly of the Jeedom Smart box** *(2 minutes)* :
+>**Before you start, don't hesitate to watch the eMMC replacement video detailing the disassembly and reassembly of the Jeedom Smart box** *(2 minutes)*:
 >
 >[![Smart disassembly/reassembly in video](https://img.youtube.com/vi/lUhtP687s2E/hqdefault.jpg)](https://youtu.be/lUhtP687s2E){:target="_blank"}
 
 ### Prerequisites
 
-In order to perform the system update, it is necessary :
+In order to perform the system update, it is necessary:
 
 - Equip yourself with'**a small crosshead screwdriver** to open the box
 
@@ -37,7 +37,7 @@ In order to perform the system update, it is necessary :
 	**OR**
 
 - Download the file [**JeedomSmart_Debian11.img.xz**](https://images.jeedom.com/smart/JeedomSmart_Debian11.img.xz)
-- Equip yourself with'**an eMMC>USB/SD/µSD adapter** to burn the image from a computer, for example:
+- Equip yourself with'**an Odroid-C2 compatible eMMC>USB/SD/µSD adapter** to burn the image from a computer, for example:
 
 	![Exemple d'adaptateur eMMC](./images/emmc_adapter.jpg)
 
@@ -45,17 +45,15 @@ In order to perform the system update, it is necessary :
 
 1. Disconnect all external devices connected to the Smart *(power, ethernet, USB, HDMI...)* and unscrew the antenna from the internal controller.
 
-2. Unscrew the 2 screws at the front of the box at the level of the plexiglass plate ***(Caution fragile !)***  :
+2. Unscrew the 2 screws at the front of the box at the level of the plexiglass plate ***(Caution fragile!)***.
 
-	 ![Dévisser Smart](./images/smart_unscrew.jpg)
-
-3. Slide the motherboard towards the back of the case :
+3. Slide the motherboard towards the back of the case:
 
 	 ![Ouvrir la Smart](./images/smart_open.jpg)
 
 ### Burning the eMMC
 
-1. Unclip the eMMC storage located under the motherboard :
+1. Unclip the eMMC storage located under the motherboard:
 
 	 ![Déclipser eMMC](./images/smart_emmc.jpg)
 
@@ -63,7 +61,7 @@ In order to perform the system update, it is necessary :
 >
 >**In case of replacement of the original eMMC** by an eMMC with Jeedom preinstalled under Debian 11, **clip the new eMMC** instead of the old one **then go directly to the step of [reassembly](#Remontage%20de%20la%20box%20Jeedom%20Smart)**.
 
-2. Clip the eMMC onto the adapter and plug it into a computer :
+2. Clip the eMMC onto the adapter and plug it into a computer:
 
 	 ![eMMC sur PC](./images/emmc_to_pc.jpg)
 
@@ -77,7 +75,9 @@ In order to perform the system update, it is necessary :
 
 1. Slide the motherboard from back to front through the case.
 
-2. Put the plexiglass back in place then screw the 2 screws back in at the front of the box without forcing it.
+2. Put the plexiglass back in place then screw the 2 screws back in at the front of the box without forcing it:
+
+	 ![Dévisser Smart](./images/smart_unscrew.jpg)
 
 3. Screw the antenna back in and reconnect the external devices, ending with the power cable.
 
@@ -85,7 +85,7 @@ In order to perform the system update, it is necessary :
 
 ### Prerequisites
 
-In order to perform the system update, it is necessary :
+In order to perform the system update, it is necessary:
 
 - Equip yourself with'**a USB key (minimum 8GB)**
 - Download the file [**backupJeedom.tar.gz**](https://images.jeedom.com/smart/backupJeedom.tar.gz)
