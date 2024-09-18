@@ -21,6 +21,7 @@ La procédure suivante explique comment mettre à jour l'environnement système 
 >La restauration système par clé USB n'a pu être maintenue sur ce nouvel environnement, il est donc nécessaire de graver directement le support de stockage interne *(eMMC)* en suivant les étapes suivantes.
 >
 >**Avant de vous lancer, n'hésitez surtout pas à visionner la vidéo de remplacement de l'eMMC  détaillant le démontage et le remontage de la box Jeedom Smart** *(2 minutes)* :
+>
 >[![Démontage/remontage Smart en vidéo](https://img.youtube.com/vi/lUhtP687s2E/hqdefault.jpg)](https://youtu.be/lUhtP687s2E)
 
 ### Prérequis
