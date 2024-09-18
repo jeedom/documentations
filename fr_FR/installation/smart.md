@@ -29,7 +29,9 @@ La procédure suivante explique comment mettre à jour l'environnement système 
 Afin de réaliser la mise à jour du système, il faut :
 
 - S'équiper d'**un petit tournevis cruciforme** pour ouvrir la box
+
 ---
+
 - Acquérir [**une carte eMMC de remplacement**](https://www.domadoo.fr/fr/controleurs-adaptateurs/5539-jeedom-carte-memoire-emmc-16go-de-remplacement-pour-jeedom-smart.html){:target="_blank"}
 
 	**OU**
