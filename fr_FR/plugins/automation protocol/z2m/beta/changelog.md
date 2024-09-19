@@ -4,6 +4,9 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+
+- Ajout d'un lien sur la page de l'équipement qui renvoi sur la page zigbee2mqtt de l'équipement pour avoir plus d'informations
+
 # 10/09/2024
 
 - Possibilité sur les box ayant des dongle elelabs de flasher le firmware Ember (experimental cela peut completement casser votre dongle et ne sera ni couvert par la garantie ni le support)

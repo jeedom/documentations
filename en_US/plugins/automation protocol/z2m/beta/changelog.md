@@ -4,6 +4,9 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+
+- Added a link on the equipment page that redirects to the zigbee2mqtt page of the equipment for more information
+
 # 10/09/2024
 
 - Possibility on boxes with elelabs dongles to flash the Ember firmware (experimental this can completely break your dongle and will not be covered by the warranty or support)

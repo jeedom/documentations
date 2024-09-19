@@ -4,6 +4,9 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+
+- Adicionado um link na página do equipamento que se refere à página do equipamento zigbee2mqtt para obter mais informações
+
 # 10/09/2024
 
 - Possibilidade em caixas com dongles elelabs de atualizar o firmware Ember (experimental isso pode quebrar completamente o seu dongle e não será coberto pela garantia nem pelo suporte)
