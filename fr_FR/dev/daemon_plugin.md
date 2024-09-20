@@ -204,7 +204,7 @@ def shutdown():
     os._exit(0)
 ```
 
-C'est dans cette méthode que vous devez écrire le code à éxécuter en cas de shutdown du démon, par exemple faire un logout du système distant et fermer proprement les connexions ouvertes.
+C'est dans cette méthode que vous devez écrire le code à exécuter en cas de shutdown du démon, par exemple faire un logout du système distant et fermer proprement les connexions ouvertes.
 
 > **Attention**
 >
@@ -301,7 +301,7 @@ Dans la class eqLogic de votre plugin il y a quelques méthodes à implémenter 
 
 #### Fonction deamon_info()
 
-La fonction `deamon_info()` sera appellée par le core lors de l'affichage du cadre suivant dans la page de configuration de votre plugin, elle doit obligatoirement exister:
+La fonction `deamon_info()` sera appelée par le core lors de l'affichage du cadre suivant dans la page de configuration de votre plugin, elle doit obligatoirement exister:
 
 ![image](images/daemon_info.png)
 
@@ -343,7 +343,7 @@ Vous pouvez copier/coller le code ci-dessous tel quel et adapter le code à la f
 >
 > Il n'y a pas de faute de frappe dans l'exemple, la méthode se nomme bien `deamon_info()` et pas `daemon_info`, l'erreur est dans le core.
 
-La clé `state` correspond évidement au statut affiché à l'écran, on peut lire ci-dessus que l'on teste la précense de notre "pid_file" pour savoir si le démon tourne ou pas.
+La clé `state` correspond évidement au statut affiché à l'écran, on peut lire ci-dessus que l'on teste la présence de notre "pid_file" pour savoir si le démon tourne ou pas.
 
 La clé `launchable` correspond à la colonne "Configuration" dans le cadre et on peut donc vérifier si la configuration est complète et correcte pour pouvoir démarrer le démon. `launchable_message` permet d'afficher un message à l'utilisateur en cas de "NOK"
 
@@ -469,7 +469,7 @@ try {
     require_once dirname(__FILE__) . "/../../../../core/php/core.inc.php";
 
     if (!jeedom::apiAccess(init('apikey'), 'template')) { //remplacez template par l'id de votre plugin
-        echo __('Vous n\'etes pas autorisé à effectuer cette action', __FILE__);
+        echo __('Vous n\'êtes pas autorisé à effectuer cette action', __FILE__);
         die();
     }
     if (init('test') != '') {
@@ -497,7 +497,7 @@ Le code commence par valider que l'apikey est correcte:
 
 ```php
     if (!jeedom::apiAccess(init('apikey'), 'template')) { //remplacez template par l'id de votre plugin
-        echo __('Vous n\'etes pas autorisé à effectuer cette action', __FILE__);
+        echo __('Vous n\'êtes pas autorisé à effectuer cette action', __FILE__);
         die();
     }
 ```
@@ -729,7 +729,7 @@ Voici un exemple de script assez simple issu d'un de mes plugins mais vous pouve
 
 > **Attention**
 >
-> A partir de Debian 12, il est obligatoire d'installer les packages python dans un environnment virtuel, ce script exemple ne fonctionnera donc plus tel quel, à vous de l'apdater en conséquence.
+> A partir de Debian 12, il est obligatoire d'installer les packages python dans un environnement virtuel, ce script exemple ne fonctionnera donc plus tel quel, à vous de l'adapter en conséquence.
 >
 > Je vous invite également à consulter cette documentation qui offre une alternative: <https://github.com/Mips2648/dependance.lib/blob/master/pyenv.md>
 
@@ -833,6 +833,6 @@ Même chose pour les paquets python: `pip3 list | grep -Ewc "aiohttp"'`. La pré
 
 > **Attention**
 >
-> A partir de Debian 12, il est obligatoire d'installer les packages python dans un environnment virtuel, cette commande ne fonctionnera donc plus tel quel, à vous de l'apdater en conséquence.
+> A partir de Debian 12, il est obligatoire d'installer les packages python dans un environnement virtuel, cette commande ne fonctionnera donc plus tel quel, à vous de l'adapter en conséquence.
 
 C'est donc très simple: la liste des paquets et le total sont les seuls éléments que vous devez modifier si vous n'avez que ce type de vérification sinon il faut sera facile de rajouter les autres tests relevants dans votre cas.
