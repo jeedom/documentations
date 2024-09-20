@@ -668,6 +668,12 @@ Exemple:
 }
 ```
 
+> *Hint*
+>
+> A partir de Jeedom version 4.4.9, le core peut gérer l'installation des dépendances python3 sous Debian 12. Les dépendances seront installées dans un *venv* (environnement virtuel)
+> Vous devez adapter votre plugin en conséquence et ne plus coder en dur le chemin vers `python3` mais utiliser `system::getCmdPython3(__CLASS__)` à la place.
+> Exemple: `$cmd = system::getCmdPython3(__CLASS__) . " {$path}/demond.py";`
+
 ##### npm: les dépendances pour NodeJS
 
 Pour NodeJS les dépendances sont dans un autre fichier `packages.json` dans un format qui lui est propre,
