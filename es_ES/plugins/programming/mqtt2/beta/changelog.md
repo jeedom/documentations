@@ -4,6 +4,11 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+
+- Se corrigió una advertencia al iniciar el demonio
+- Se corrigió un error con nodejs 20
+- Si un comando es de tipo binario o numérico y jeedom recibe una matriz u objeto, entonces el valor se ignora (soluciona un problema con Shelly 2.5)
+
 # 09/09/2024
 
 - Implementación de optimización en la gestión de equipos transmitidos con jeedom 4.5

@@ -4,6 +4,11 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+
+- Fixed warning when launching the daemon
+- Fixed bug with nodejs 20
+- If a command is of binary or numeric type and jeedom receives an array or object then the value is ignored (corrects a problem with Shelly 2.5)
+
 # 09/09/2024
 
 - Implementation of optimization on the management of equipment transmitted with jeedom 4.5
