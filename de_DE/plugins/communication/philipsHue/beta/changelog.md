@@ -6,6 +6,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Eine Warnung beim Starten des Daemons wurde behoben
+- Ein Problem mit NodeJS 20 wurde behoben
+
 # 13.08.2024
 
 - Ein Fehler bei der Daemon-Statuserkennung wurde behoben

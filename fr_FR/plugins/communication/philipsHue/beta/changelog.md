@@ -6,6 +6,9 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Correction d'un warning sur lors du démarrage du demon
+- Correction d'un soucis avec nodejs 20
+
 # 13/08/2024
 
 - Correction d'un bug sur la detection de l'état du démon
