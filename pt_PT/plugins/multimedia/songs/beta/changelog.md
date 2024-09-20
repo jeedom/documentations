@@ -4,8 +4,6 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-- Suporte para imagens de equipamentos personalizados (Jeedom 4.5)
-
 # 01/08/2024
 
 - Preparando-se para Jeedom 4.4
