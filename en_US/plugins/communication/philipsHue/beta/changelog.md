@@ -6,8 +6,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 09/22/2024
+
 - Fixed warning when starting the daemon
 - Fixed an issue with nodejs 20
+- Warning correction
 
 # 08/13/2024
 

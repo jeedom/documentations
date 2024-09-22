@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 22.09.2024
+
+- Es wurde ein Problem beim Neustart des Daemons in der Nacht behoben, das möglicherweise nicht immer korrekt startete
+
 # 09.02.2024
 
 - Ein Neustart des Daemons in der Nacht wurde hinzugefügt (um Speicherprobleme zu begrenzen))

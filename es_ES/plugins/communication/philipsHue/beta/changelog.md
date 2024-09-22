@@ -6,8 +6,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 22/09/2024
+
 - Se corrigió una advertencia al iniciar el demonio
 - Se solucionó un problema con nodejs 20
+- Arreglar advertencia
 
 # 13/08/2024
 

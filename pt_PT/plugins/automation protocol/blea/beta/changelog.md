@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 22/09/2024
+
+- Corrigido um problema ao reiniciar o daemon à noite, que nem sempre reiniciava corretamente
+
 # 09/02/2024
 
 - Adicionado um reinício do daemon à noite (para limitar problemas de memória)

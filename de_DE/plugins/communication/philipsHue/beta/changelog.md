@@ -6,8 +6,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 22.09.2024
+
 - Eine Warnung beim Starten des Daemons wurde behoben
 - Ein Problem mit NodeJS 20 wurde behoben
+- Warnung beheben
 
 # 13.08.2024
 

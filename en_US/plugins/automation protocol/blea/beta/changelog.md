@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 09/22/2024
+
+- Fixed an issue where restarting the daemon at night might not always restart correctly
+
 # 02/09/2024
 
 - Added a nightly restart of the daemon (to limit memory issues))

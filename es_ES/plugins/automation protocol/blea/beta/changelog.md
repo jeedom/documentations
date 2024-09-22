@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 22/09/2024
+
+- Se solucionó un problema al reiniciar el demonio por la noche que no siempre se reiniciaba correctamente
+
 # 09/02/2024
 
 - Se agregó un reinicio del demonio por la noche (para limitar los problemas de memoria))

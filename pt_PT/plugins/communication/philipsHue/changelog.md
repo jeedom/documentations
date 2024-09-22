@@ -6,6 +6,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Corrigido um aviso ao iniciar o daemon
+- Corrigido um problema com o nodejs 20
+
 # 13/08/2024
 
 - Corrigido um bug na detecção do estado do daemon
