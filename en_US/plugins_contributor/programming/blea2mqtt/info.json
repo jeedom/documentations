@@ -15,7 +15,7 @@
       "installation":"Le guide de configuration se trouve sur cette page : <i><a class='btn btn-warning btn-xs' target='_blank' href='https://flobul-domotique.fr/presentation-et-documentation-du-plugin-blea2mqtt-pour-jeedom/'><i class='fas fa-cog'></i><strong> Configuration du plugin</strong></a></i></br>1) Une fois le plugin installé, activez-le.</br>2) Sélectionnez ensuite un broker MQTT parmis ceux installés sur votre Jeedom ou manuellement.</br>3) Sauvegardez.</br>4) Ajoutez ensuite vos antennes manuellement, et installez les dependences.",
       "licence": "AGPL",
       "author": "DomoFlo1",
-      "require": "4.2.0",
+      "require": "4.4.0",
       "category": "programming",
       "hasDependency": true,
       "hasOwnDeamon": false,
