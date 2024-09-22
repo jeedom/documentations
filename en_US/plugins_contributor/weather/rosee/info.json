@@ -5,9 +5,13 @@
 		"fr_FR": "Plugin permetant de calculer : le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo. <BR/>Le point de givrage ainsi que l'alerte ne se calculent uniquement dans le cas où la température < 5°C. <BR />",
 		"en_US": "Plugin for calculating: dew point, icing point, absolute humidity and weather trend. <BR />The icing point as well as the alert are calculated only in the case of temperature < 5°C. <BR />",
 		"es_ES": "Plugin para calcular: punto de rocío, punto de congelación, humedad absoluta y tendencia del tiempo. <BR />El punto de congelación así como la alerta sólo se calculan en caso de temperatura < 5°C. <BR />",
-		"de_DE": "Plugin zur Berechnung von: Taupunkt, Vereisungspunkt, absoluter Luftfeuchtigkeit und Wettertrend. <BR/>Der Vereisungspunkt sowie die Warnung werden nur berechnet, wenn die Temperatur < 5°C beträgt. <BR />"
+		"de_DE": "Plugin zur Berechnung von: Taupunkt, Vereisungspunkt, absoluter Luftfeuchtigkeit und Wettertrend. <BR/>Der Vereisungspunkt sowie die Warnung werden nur berechnet, wenn die Temperatur < 5°C beträgt. <BR />",
+		"it_IT": "Plugin per il calcolo di: punto di rugiada, punto di congelamento, umidità assoluta e tendenza meteo. <BR />Il punto di rugiada e l'allerta vengono calcolati solo in caso di temperatura < 5°C. <BR />",
+		"pt_PT": "Plugin para cálculo de: ponto de orvalho, ponto de gelo, humidade absoluta e tendência meteorológica. <BR />O ponto de gelo bem como o alerta só são calculados no caso de temperatura < 5°C. <BR />"
 	},
-	"usage": "Il faut renseigner les champs Temperature, Humidité, Pression <br/>Pour l'humidité absolue, on peut indiquer également une pression barométrique, sinon une valeur par défaut est prise en compte<br/> Il est possible d'ajouter un offset sur la température",
+	"usage": {
+		"fr_FR": "Il faut renseigner les champs Température, Humidité, Pression <br/>Pour l'humidité absolue, on peut indiquer également une pression barométrique, sinon une valeur par défaut est prise en compte<br/> Il est possible d'ajouter un offset sur la température"
+	},
 	"licence": "AGPL",
 	"author": "JAG",
 	"require": "4.2",
@@ -22,7 +26,9 @@
 		"de_DE",
 		"en_US",
 		"es_ES",
-		"fr_FR"
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
 	],
 	"changelog": "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog",
 	"documentation": "https://jealg.github.io/documentation/plugin-rosee/#language#/",
