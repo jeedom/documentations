@@ -4,6 +4,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 22/09/2024
+
+- Correction d'un warning lors du lancement du demon
+- Correction d'un bug avec nodejs 20
+- Si une commande est de type binaire ou numerique et que jeedom recoit un array ou objet alors la valeur est ignorée (corrige un soucis avec les Shelly 2.5)
+- Correction d'un bug sur la gestion de la batteries des équipements liée entre Jeedom
+
 # 09/09/2024
 
 - Mise en place d'optimisation sur la gestion des équipements tranmis avec jeedom 4.5

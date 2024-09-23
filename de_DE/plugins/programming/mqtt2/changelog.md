@@ -4,6 +4,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+
+- Eine Warnung beim Starten des Daemons wurde behoben
+- Ein Fehler mit NodeJS 20 wurde behoben
+- Wenn ein Befehl vom binären oder numerischen Typ ist und jeedom ein Array oder Objekt empfängt, wird der Wert ignoriert (behebt ein Problem mit Shelly 2.5)
+
+# 09.09.2024
+
 - Implementierung einer Optimierung der Verwaltung übertragener Geräte mit jeedom 4.5
 - Es wurde Sicherheit hinzugefügt, um zu verhindern, dass ein von einem Plugin verwendetes Thema als Stammthema festgelegt wird
 - Es wurde ein Assistent hinzugefügt, um die Mücke zweier Jeedoms einfach zu verknüpfen
