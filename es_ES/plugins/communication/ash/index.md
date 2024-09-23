@@ -46,7 +46,10 @@ Una vez que el servicio está activo, debe hacerlo en la aplicación Alexa o en 
 
 ## Configuración del plugin
 
-En su Jeedom, vaya a Complemento -> Comunicación -> Alexa y en la sección de equipos seleccione el equipo que se transmitirá a Alexa, así como el tipo de equipo.
+El complemento le permite transmitir equipos o escenas a Alexa. Es necesario indicar qué equipo o escenas transmitir a Alexa.
+En tu Jeedom, ve a Complemento -> Comunicación -> Alexa.
+
+La pestaña cargada por defecto se refiere al equipo a transmitir : En esta parte debes seleccionar el equipo a transmitir a Alexa así como el tipo (una categoría para Alexa) del equipo (este tipo es diferente de los tipos genéricos de Jeedom que se aplican a los comandos)). Para obtener más detalles sobre las categorías de Alexa (consulte [aquí](https://developer.amazon.com/fr-FR/docs/alexa/device-apis/alexa-discovery.html#display-categories))
 
 > **Importante**
 >

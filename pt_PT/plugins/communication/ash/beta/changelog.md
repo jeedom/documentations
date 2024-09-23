@@ -4,8 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 23/09/2024
+
 - Corrigido um bug no Jeedom 4.4
 - Observe que o plugin é compatível apenas com Jeedom 4.4 ou mais
+- Corrigido um aviso na função taAutosize
 
 # 15/01/2024
 

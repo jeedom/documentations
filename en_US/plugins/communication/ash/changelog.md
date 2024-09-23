@@ -4,6 +4,13 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Fixed a bug on jeedom 4.4
+- Please note the plugin is only jeedom 4 compatible.4 or more
+
+# 01/15/2024
+
+- Preparing for jeedom 4.4
+
 # 25/10/2022
 
 - Bugfix
