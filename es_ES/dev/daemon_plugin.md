@@ -301,7 +301,7 @@ En la clase eqLogic de su complemento hay algunos métodos a implementar para la
 
 #### Función Deamon_info()
 
-La función `deamon_info ()` será llamada por el núcleo cuando muestre el siguiente marco en la página de configuración de su complemento, necesariamente debe existir:
+El núcleo llamará a la función `deamon_info()` cuando se muestre el siguiente marco en la página de configuración de su complemento, debe existir:
 
 ![image](images/daemon_info.png)
 
@@ -343,7 +343,7 @@ Puede copiar / pegar el código a continuación tal como está y adaptar el cód
 >
 > No hay error tipográfico en el ejemplo, el método se llama `deamon_info ()` y no `daemon_info`, el error está en el núcleo.
 
-La tecla `state` obviamente corresponde al estado que se muestra en la pantalla, podemos leer arriba que probamos la presencia de nuestro" pid_file "para saber si el demonio se está ejecutando o no.
+La clave `state` obviamente corresponde al estado mostrado en la pantalla, podemos leer arriba que probamos la presencia de nuestro "pid_file" para saber si el demonio se está ejecutando o no.
 
 La tecla `launchable` corresponde a la columna" Configuración "del marco y por tanto podemos comprobar si la configuración está completa y es correcta para poder iniciar el daemon. `launchable_message` permite mostrar un mensaje al usuario en caso de" NOK"
 
@@ -667,6 +667,12 @@ Exemple:
   }
 }
 `` ``
+
+> *Pista*
+>
+> Desde Jeedom versión 4.4.9, el núcleo puede manejar la instalación de dependencias de python3 en Debian 12. Las dependencias se instalarán en un *friv* (entorno virtual)
+> Debe adaptar su complemento en consecuencia y ya no codificar la ruta a `python3` sino usar `system::getCmdPython3(__CLASS__)` en su lugar.
+> Exemple: `$cmd = sistema::getCmdPython3(__CLASS__) . " {$path}/demond.py";`
 
 ##### npm: dependencias para NodeJS
 

@@ -301,7 +301,7 @@ In the eqLogic class of your plugin there are some methods to implement for the 
 
 #### Deamon_info function()
 
-The `deamon_info ()` function will be called by the core when displaying the following frame in the configuration page of your plugin, it must necessarily exist:
+The `deamon_info()` function will be called by the core when displaying the following frame in your plugin's configuration page, it must exist:
 
 ![image](images/daemon_info.png)
 
@@ -343,7 +343,7 @@ You can copy / paste the code below as it is and adapt the code at the end of th
 >
 > There is no typo in the example, the method is named `deamon_info ()` and not `daemon_info`, the error is in the core.
 
-The `state` key obviously corresponds to the status displayed on the screen, we can read above that we test the precense of our" pid_file "to know if the daemon is running or not.
+The `state` key obviously corresponds to the status displayed on the screen, we can read above that we are testing the presence of our "pid_file" to know if the daemon is running or not.
 
 The `launchable` key corresponds to the" Configuration "column in the frame and we can therefore check if the configuration is complete and correct to be able to start the daemon. `launchable_message` allows to display a message to the user in case of" NOK"
 
@@ -668,6 +668,12 @@ Exemple:
 }
 `` ``
 
+> *Hint*
+>
+> From Jeedom version 4.4.9, the core can handle installing python3 dependencies under Debian 12. The dependencies will be installed in a *friday* (virtual environment)
+> You should adapt your plugin accordingly and no longer hardcode the path to `python3` but use `system::getCmdPython3(__CLASS__)` instead.
+> Exemple: `$cmd = system::getCmdPython3(__CLASS__) . " {$path}/demond.py";`
+
 ##### npm: dependencies for NodeJS
 
 For NodeJS the dependencies are in another `packages' file.json` in its own format,
@@ -729,7 +735,7 @@ Here is an example of a fairly simple script from one of my plugins but you can 
 
 > **Warning**
 >
-> Starting with Debian 12, it is mandatory to install python packages in a virtual environment, so this example script will no longer work as is, it is up to you to update it accordingly.
+> Starting with Debian 12, it is mandatory to install python packages in a virtual environment, so this example script will no longer work as is, it is up to you to adapt it accordingly.
 >
 > Je vous invite également à consulter cette documentation qui offre une alternative: <https://github.com/Mips2648/dependance.lib/blob/master/pyenv.md>
 
@@ -833,6 +839,6 @@ Same thing for python packages: `pip3 list | grep -Ewc "aiohttp" '`. The presenc
 
 > **Warning**
 >
-> Starting with Debian 12, it is mandatory to install python packages in a virtual environment, so this command will no longer work as is, it is up to you to update it accordingly.
+> Starting with Debian 12, it is mandatory to install python packages in a virtual environment, so this command will no longer work as is, it is up to you to adapt it accordingly.
 
 So it's very simple: the list of packages and the total are the only elements that you must modify if you only have this type of verification otherwise it will be easy to add the other relevant tests in your case.

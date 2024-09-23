@@ -301,7 +301,7 @@ In der eqLogic-Klasse Ihres Plugins gibt es einige Methoden, die für die ordnun
 
 #### Deamon_info-Funktion()
 
-Die Funktion `deamon_info()` wird vom Core aufgerufen, wenn der folgende Frame in der Konfigurationsseite Ihres Plugins angezeigt wird, sie muss unbedingt vorhanden sein:
+Die Funktion „deamon_info()“ wird vom Kern aufgerufen, wenn der folgende Frame auf der Konfigurationsseite Ihres Plugins angezeigt wird. Er muss vorhanden sein:
 
 ![image](images/daemon_info.png)
 
@@ -343,7 +343,7 @@ Sie können den unten stehenden Code kopieren / einfügen und den Code am Ende d
 >
 > Im Beispiel gibt es keinen Tippfehler, die Methode heißt `deamon_info()` und nicht `daemon_info`, der Fehler liegt im Kern.
 
-Der `state`-Schlüssel entspricht offensichtlich dem auf dem Bildschirm angezeigten Status, wir können oben lesen, dass wir die Präsenz unserer "pid_file" testen, um zu wissen, ob der Daemon läuft oder nicht.
+Der Schlüssel „state“ entspricht offensichtlich dem auf dem Bildschirm angezeigten Status. Wir können oben lesen, dass wir das Vorhandensein unserer „pid_file“ testen, um festzustellen, ob der Daemon ausgeführt wird oder nicht.
 
 Der `startbare` Schlüssel entspricht der Spalte "Konfiguration" im Rahmen und wir können daher überprüfen, ob die Konfiguration vollständig und korrekt ist, um den Daemon starten zu können. `launchable_message` ermöglicht dem Benutzer eine Nachricht im Fall von " NOK . anzuzeigen"
 
@@ -667,6 +667,12 @@ Exemple:
   }
 }
 `` ``
+
+> *Hinweis*
+>
+> Ab Jeedom-Version 4.4.9, Core kann die Installation von Python3-Abhängigkeiten unter Debian 12 bewältigen. Die Nebengebäude werden in einem installiert *friv* (virtuelle Umgebung)
+> Sie sollten Ihr Plugin entsprechend anpassen und den Pfad nicht mehr zu „python3“ fest codieren, sondern „system::getCmdPython3(__CLASS__)` stattdessen.
+> Exemple: `$cmd = system::getCmdPython3(__CLASS__) . " {$path}/demond.py";`
 
 ##### npm: Abhängigkeiten für NodeJS
 
