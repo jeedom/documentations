@@ -6,5 +6,5 @@ Une fois celui-ci trouvé, il ne vous reste plus qu'à contacter l'équipe Jeedo
 
 2 possibilités :
 
-- Écrire un mail à l’adresse dédiée pour les devs ou à s'apprit[a].jeedom.com avec l’adresse mail enregistrée sur le compte dev.
+- Écrire un mail à l’adresse dédiée pour les devs ou à support[a].jeedom.com avec l’adresse mail enregistrée sur le compte dev.
 - Ouvrir une demande de support depuis votre compte market en choisissant assistance technique -> général
