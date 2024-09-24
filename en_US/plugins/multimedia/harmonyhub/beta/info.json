@@ -43,6 +43,9 @@
         "mobile",
         "v4"
     ],
+    "os": {
+        "min": 11
+    },
     "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/harmonyhub\/beta\/changelog",
     "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/harmonyhub\/beta"
 }
