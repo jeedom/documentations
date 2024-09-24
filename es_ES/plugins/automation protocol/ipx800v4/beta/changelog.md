@@ -4,6 +4,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Se solucionó un problema al enviar el comando de parada para persianas enrollables
+
 # 26/08/2024
 
 - Soporte para persianas enrollables EnOcean

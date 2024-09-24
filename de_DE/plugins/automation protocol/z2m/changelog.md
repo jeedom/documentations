@@ -4,7 +4,13 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+
+- Auf der Geräteseite wurde ein Link hinzugefügt, der für weitere Informationen auf die Geräteseite von zigbee2mqtt verweist
+
+# 10.09.2024
+
 - Bei Boxen mit elelabs-Dongles besteht die Möglichkeit, die Ember-Firmware zu flashen (experimentell). Dies kann Ihren Dongle vollständig beschädigen und wird weder von der Garantie noch vom Support abgedeckt)
+- Es wurde ein Fehler behoben, der auftrat, wenn das Stammthema nicht zigbee2mqtt lautete
 
 # 08.05.2024
 

@@ -4,6 +4,7 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 24/09/2024
 
 - Adicionado um link na página do equipamento que se refere à página do equipamento zigbee2mqtt para obter mais informações
 
