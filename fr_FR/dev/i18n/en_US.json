@@ -3108,6 +3108,7 @@
         "Plugin template": "Plugin template",
         "Démon et dépendances d'un plugin": "Daemon and plugin dependencies",
         "Recommandation valeur des commandes": "Recommendation value of orders",
+        "Transfert de plugin": "Plugin Transfer",
         "Développement js et Core 4": "Js and core 4 development",
         "4 +": "4+",
         "Évolutions du Core et adaptations des plugins": "Core evolutions and plugins adaptations",
@@ -4309,6 +4310,16 @@
         "[key`]": "[key`]",
         "*key`*": "*key`*",
         " key`*": " key`*"
+    },
+    "dev\/transfert.md": {
+        "Tranférer son plugin": "Transfer your plugin",
+        "Peu importe la raison, un jour on peut être amené à arrêter le développement de son plugin": "Whatever the reason, one day you may have to stop developing your plugin",
+        "Afin de que la communauté puisse continuer à l'utiliser avec les futures versions de Jeedom, merci de faire une demande sur community pour trouver un repreneur": "In order for the community to continue using it with future versions of Jeedom, please make a request on community to find a buyer",
+        "Une fois celui-ci trouvé, il ne vous reste plus qu'à contacter l'équipe Jeedom pour demander le transfert": "Once you have found it, all you have to do is contact the Jeedom team to request the transfer",
+        "2 possibilités": "2 possibilities",
+        "Écrire un mail à l'adresse dédiée pour les devs ou à support[a].jeedom": "Write an email to the dedicated address for devs or to support[a].jeedom",
+        "com avec l'adresse mail enregistrée sur le compte dev": "com with the email address registered on the dev account",
+        "Ouvrir une demande de support depuis votre compte market en choisissant assistance technique -> général": "Open a support request from your market account by choosing technical support -> general"
     },
     "dev\/tutorial_plugin.md": {
         "Pour commencer": "To begin",

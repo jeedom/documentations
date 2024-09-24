@@ -3108,6 +3108,7 @@
         "Plugin template": "Plugin Vorlage",
         "Démon et dépendances d'un plugin": "Daemon- und Plugin-Abhängigkeiten",
         "Recommandation valeur des commandes": "Empfehlungswert der Bestellungen",
+        "Transfert de plugin": "Plugin-Übertragung",
         "Développement js et Core 4": "Js und Core 4 Entwicklung",
         "4 +": "4+",
         "Évolutions du Core et adaptations des plugins": "Kernentwicklungen und Plugin-Anpassungen",
@@ -4309,6 +4310,16 @@
         "[key`]": "[Schlüssel`]",
         "*key`*": "*Schlüssel`*",
         " key`*": " Schlüssel`*"
+    },
+    "dev\/transfert.md": {
+        "Tranférer son plugin": "Übertragen Sie Ihr Plugin",
+        "Peu importe la raison, un jour on peut être amené à arrêter le développement de son plugin": "Was auch immer der Grund sein mag, eines Tages müssen Sie möglicherweise die Entwicklung Ihres Plugins einstellen",
+        "Afin de que la communauté puisse continuer à l'utiliser avec les futures versions de Jeedom, merci de faire une demande sur community pour trouver un repreneur": "Damit die Community es weiterhin mit zukünftigen Versionen von Jeedom nutzen kann, stellen Sie bitte eine Anfrage an die Community, um einen Käufer zu finden",
+        "Une fois celui-ci trouvé, il ne vous reste plus qu'à contacter l'équipe Jeedom pour demander le transfert": "Sobald Sie es gefunden haben, müssen Sie sich nur noch an das Jeedom-Team wenden, um die Übertragung zu beantragen",
+        "2 possibilités": "2 Möglichkeiten",
+        "Écrire un mail à l'adresse dédiée pour les devs ou à support[a].jeedom": "Schreiben Sie eine E-Mail an die spezielle Adresse für Entwickler oder an support[a].jeedom",
+        "com avec l'adresse mail enregistrée sur le compte dev": "com mit der E-Mail-Adresse, die im Entwicklerkonto registriert ist",
+        "Ouvrir une demande de support depuis votre compte market en choisissant assistance technique -> général": "Öffnen Sie eine Supportanfrage in Ihrem Marktkonto, indem Sie „Technische Hilfe“ -> „Allgemein“ wählen"
     },
     "dev\/tutorial_plugin.md": {
         "Pour commencer": "Beginnen",

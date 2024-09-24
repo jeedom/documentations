@@ -3108,6 +3108,7 @@
         "Plugin template": "Plantilla de complemento",
         "Démon et dépendances d'un plugin": "Dependencias de demonios y complementos",
         "Recommandation valeur des commandes": "Valor de recomendación de los pedidos",
+        "Transfert de plugin": "Transferencia de complementos",
         "Développement js et Core 4": "Desarrollo js y core 4",
         "4 +": "4+",
         "Évolutions du Core et adaptations des plugins": "Evoluciones principales y adaptaciones de complementos",
@@ -4309,6 +4310,16 @@
         "[key`]": "[clave`]",
         "*key`*": "*clave`*",
         " key`*": " clave`*"
+    },
+    "dev\/transfert.md": {
+        "Tranférer son plugin": "Transfiere tu complemento",
+        "Peu importe la raison, un jour on peut être amené à arrêter le développement de son plugin": "Cualquiera sea el motivo, es posible que algún día tengas que dejar de desarrollar tu complemento",
+        "Afin de que la communauté puisse continuer à l'utiliser avec les futures versions de Jeedom, merci de faire une demande sur community pour trouver un repreneur": "Para que la comunidad pueda seguir usándolo con futuras versiones de Jeedom, realice una solicitud en la comunidad para encontrar un comprador",
+        "Une fois celui-ci trouvé, il ne vous reste plus qu'à contacter l'équipe Jeedom pour demander le transfert": "Una vez que lo hayas encontrado, solo tendrás que contactar con el equipo de Jeedom para solicitar la transferencia",
+        "2 possibilités": "2 posibilidades",
+        "Écrire un mail à l'adresse dédiée pour les devs ou à support[a].jeedom": "Escriba un correo electrónico a la dirección dedicada para desarrolladores o al soporte[a].jeedom",
+        "com avec l'adresse mail enregistrée sur le compte dev": "com con la dirección de correo electrónico registrada en la cuenta de desarrollo",
+        "Ouvrir une demande de support depuis votre compte market en choisissant assistance technique -> général": "Abra una solicitud de soporte desde su cuenta de mercado eligiendo asistencia técnica -> general"
     },
     "dev\/tutorial_plugin.md": {
         "Pour commencer": "Para empezar",
