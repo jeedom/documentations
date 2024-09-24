@@ -4315,11 +4315,11 @@
         "Tranférer son plugin": "Transfer your plugin",
         "Peu importe la raison, un jour on peut être amené à arrêter le développement de son plugin": "Whatever the reason, one day you may have to stop developing your plugin",
         "Afin de que la communauté puisse continuer à l'utiliser avec les futures versions de Jeedom, merci de faire une demande sur community pour trouver un repreneur": "In order for the community to continue using it with future versions of Jeedom, please make a request on community to find a buyer",
-        "Une fois celui-ci trouvé, il ne vous reste plus qu'à contacter l'équipe Jeedom pour demander le transfert": "Once you have found it, all you have to do is contact the Jeedom team to request the transfer",
-        "2 possibilités": "2 possibilities",
+        "Une fois celui-ci trouvé, il ne vous reste plus qu'à contacter l'équipe Jeedom pour demander le transfert, 2 possibilités": "Once you have found it, all you have to do is contact the Jeedom team to request the transfer, 2 possibilities",
+        "Ouvrir une demande de support depuis votre compte market en choisissant assistance technique -> developpeur (pas besoin de service pack ou autre il faut juste etre identifié en tant que développeur": "Open a support request from your market account by choosing technical assistance -> developer (no need for a service pack or other, you just need to be identified as a developer",
+        "Cette demande se fait uniquement depuis votre page profils du market en cliquant sur le bouton \"Ouvrir une demande de support\" (bouton tout à droite": "This request is only made from your market profiles page by clicking on the \"Open a support request\" button (button on the far right",
         "Écrire un mail à l'adresse dédiée pour les devs ou à support[a].jeedom": "Write an email to the dedicated address for devs or to support[a].jeedom",
-        "com avec l'adresse mail enregistrée sur le compte dev": "com with the email address registered on the dev account",
-        "Ouvrir une demande de support depuis votre compte market en choisissant assistance technique -> général": "Open a support request from your market account by choosing technical support -> general"
+        "com avec l'adresse mail enregistrée sur le compte dev": "com with the email address registered on the dev account"
     },
     "dev\/tutorial_plugin.md": {
         "Pour commencer": "To begin",
