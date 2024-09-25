@@ -12,11 +12,15 @@
 	"licence": "AGPL",
 	"author": "Eridani78",
 	"require": "4.2.0",
+	"os": {
+		"min": 10.01,
+		"max": 12.99
+	},
 	"category": "home automation protocol",
 	"hasDependency": true,
 	"hasOwnDeamon": true,
 	"maxDependancyInstallTime": 0,
-	"version": "1.0.27",
+	"version": "2.0.0",
 	"changelog": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/changelog",
 	"documentation": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/",
 	"changelog_beta": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/changelog",
