@@ -173,6 +173,8 @@
         "Le plugin Discord Link permet d'envoyer des messages sur son serveur Discord": "Mit dem Discord Link-Plugin können Sie Nachrichten an Ihren Discord-Server senden",
         "Client SIP": "SIP-Client",
         "Connecter Jeedom a votre reseau SIP": "Verbinden Sie Jeedom mit Ihrem SIP-Netzwerk",
+        "Alexa - API": "Alexa – API",
+        "Plugin pour interface Alexa": "Alexa-Schnittstellen-Plugin",
         "Plugin pour envoyer des messages et notification à tout appareil Android via AutoRemote": "Plugin zum Senden von Nachrichten und Benachrichtigungen an jedes Android-Gerät über AutoRemote",
         "Seuls les plugins de contributeur ont leur documentation ici": "Hier haben nur Contributor-Plugins ihre Dokumentation",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Sie können die Dokumentation der offiziellen Plugins direkt vom Jeedom Market abrufen",

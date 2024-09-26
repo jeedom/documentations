@@ -4,6 +4,24 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 26/09/2024
+
+**Mejoras**
+
+- Cambiar a versión *9.20.0* por ZwaveJsUI
+- Preparándose para fusionar el modo remoto en la próxima versión
+- Limpieza de código
+
+**Adiciones de configuración**
+
+- Configuración añadida *Repetidor de señal Neo+* (propiedades : Temperatura, humedad)
+- Configuración añadida *Fibaro FGR224* (propiedades : Interruptor, potencia, energía, notificación de sobrecorriente, notificación de sobretensión)
+
+**Cambios de configuración**
+
+- Cambiar la configuración *Fibaro Fgrgbwm442* para usar las propiedades
+- Cambiar la configuración *Fibaro FGD212* Propiedades de notificación mejoradas
+
 # 20/05/2024
 
 **Mejoras**

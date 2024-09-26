@@ -4,6 +4,24 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 26/09/2024
+
+**Améliorations**
+
+- Passage à la version *9.20.0* de ZwaveJsUI
+- Préparation pour merge le mode distant dans la prochaine version
+- Nettoyage de code
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Neo Signal Repeater +* (propriétés : Temperature, Humidity)
+- Ajout de la configuration *Fibaro FGR224* (propriétés : Switch, Power, Energy, Notification Over-Current, Notification Over-Voltage)
+
+**Modifications de Configurations**
+
+- Modification de la configuration *Fibaro Fgrgbwm442* pour utiliser les propriétés
+- Modification de la configuration *Fibaro FGD212* amélioration des propriétés Notification
+
 # 20/05/2024
 
 **Améliorations**

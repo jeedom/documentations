@@ -3,17 +3,18 @@
 	"name" : "Alexa - API",
 	"description" : "Plugin pour interface Alexa",
 	"licence" : "AGPL",
-	"author" : "Sigalou",
-	"require" : "3.3.24",
+	"author" : "Jexou",
+	"require" : "4.4",
+	"os":{ "min":11 },
 	"version": "0.0.1",
-	"changelog" : "http://sigalou-domotique.fr/plugin-jeedom-alexa-api/65-alexa-api-changelog",
+	"changelog" : "https://youdom.net/alexa-api-et-amazonmusic-deezer-spotify-changelog-todo-list/",
 	"forum_link" : "https://community.jeedom.com/tags/plugin-alexaapi",
-	"documentation" : "http://sigalou-domotique.fr/plugin-jeedom-alexa-api/66-alexa-api-documentation",
+	"documentation" : "http://jeedom.sigalou-domotique.fr/alexa-api-documentation",
 	"category" : "communication",
   "hasDependency" : 1,
   "hasOwnDeamon" : 1,
 	"language" : ["fr_FR","en_US"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"],
-	"maxDependancyInstallTime" : 0
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+	"maxDependancyInstallTime" : 45
 }
 
