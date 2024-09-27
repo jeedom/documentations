@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 09/26/2024
+
+- Fixed a warning
+
 # 08/26/2024
 
 - Better coordinate management

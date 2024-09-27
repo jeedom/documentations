@@ -4,7 +4,12 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 26/08/2024
+
 - Melhor gerenciamento de detalhes de contato
+- Suporte para imagens personalizadas (Jeedom 4.5)
+- Corrigido um erro ao criar equipamentos se as coordenadas estivessem vazias
+- Adição de previsões em H+1, H+2 e H+3
 
 # 22/05/2024
 

@@ -4,6 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 26.09.2024
+
+- Eine Warnung wurde behoben
+
 # 26.08.2024
 
 - Bessere Verwaltung von Kontaktdaten
