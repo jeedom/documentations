@@ -4,6 +4,24 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 26.09.2024
+
+**Verbesserungen**
+
+- Zur Version wechseln *9.20.0* von ZwaveJsUI
+- Wir bereiten die Zusammenführung des Remote-Modus mit der nächsten Version vor
+- Codebereinigung
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Neo Signal Repeater +* (Eigenschaften : Temperatur Feuchtigkeit)
+- Konfig hinzugefügt *Fibaro FGR224* (Eigenschaften : Schalter, Leistung, Energie, Überstrombenachrichtigung, Überspannungsbenachrichtigung)
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Fibaro Fgrgbwm442* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro FGD212* Verbesserte Benachrichtigungseigenschaften
+
 # 20.05.2024
 
 **Verbesserungen**

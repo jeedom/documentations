@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 09/27/2024
+
+- Changed minimum versions, core 4.4 and OS Debian 11 minimum
+
 # 09/24/2024
 
 - Added a link on the equipment page that redirects to the zigbee2mqtt page of the equipment for more information

@@ -4,6 +4,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 27/09/2024
+
+- Cambio de versiones mínimas, core 4.4 y SO Debian 11 mínimo
+
 # 26/09/2024
 
 **Mejoras**
