@@ -9,9 +9,7 @@
 		"it_IT": "Plugin per il calcolo di: punto di rugiada, punto di congelamento, umidità assoluta e tendenza meteo. <BR />Il punto di rugiada e l'allerta vengono calcolati solo in caso di temperatura < 5°C. <BR />",
 		"pt_PT": "Plugin para cálculo de: ponto de orvalho, ponto de gelo, humidade absoluta e tendência meteorológica. <BR />O ponto de gelo bem como o alerta só são calculados no caso de temperatura < 5°C. <BR />"
 	},
-	"usage": {
-		"fr_FR": "Il faut renseigner les champs Température, Humidité, Pression <br/>Pour l'humidité absolue, on peut indiquer également une pression barométrique, sinon une valeur par défaut est prise en compte<br/> Il est possible d'ajouter un offset sur la température"
-	},
+	"usage": "Il faut renseigner les champs Temperature, Humidité, Pression <br/>Pour l'humidité absolue, on peut indiquer également une pression barométrique, sinon une valeur par défaut est prise en compte<br/> Il est possible d'ajouter un offset sur la température",
 	"licence": "AGPL",
 	"author": "JAG",
 	"require": "4.2",
