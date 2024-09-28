@@ -9,9 +9,7 @@
 		"it_IT": "Questo plugin consente di recuperare le informazioni disponibili sui box Freebox Revolution/Delta/Pop/Ultra. Per il Freebox Delta, consente anche di recuperare le apparecchiature collegate (domotica).",
 		"pt_PT": "Este plugin permite recuperar as informações disponíveis nas caixas Freebox Revolution/Delta/Pop/Ultra. Para a Freebox Delta, permite também recuperar o equipamento ligado (domótica)."
 	},
-	"utilization": {
-		"fr_FR": "Il est possible de commander le Wi-Fi, le planning du Wi-Fi, le contrôle parental.<br/>Pour la Freebox Delta, plusieurs possibilités sont disponibles. Il est entre autre possible de commander le pack sécurité ainsi que les différents équipements compatibles avec celui-ci. Il permet de récupérer toutes les infos disponibles sur la Freebox et pour les Delta il permet de récupérer les équipements connectés."
-	},
+	"utilization": "Il est possible de commander le Wi-Fi, le planning du Wi-Fi, le contrôle parental.<br/>Pour la Freebox Delta, plusieurs possibilités sont disponibles. Il est entre autre possible de commander le pack sécurité ainsi que les différents équipements compatibles avec celui-ci. Il permet de récupérer toutes les infos disponibles sur la Freebox et pour les Delta il permet de récupérer les équipements connectés.",
 	"licence": "AGPL",
 	"author": "mika-nt28 | JAG",
 	"require": "4.2",
@@ -22,6 +20,13 @@
 	"hasOwnDeamon": true,
 	"hasDependency": false,
 	"maxDependancyInstallTime": 0,
+	"link": {
+		"forum": "https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673"
+	},
+	"documentation": "http://mika-nt28.github.io/Documentations/Freebox_OS/#language#/",
+	"changelog": "https://mika-nt28.github.io/Documentations/Freebox_OS/#language#/changelog",
+	"changelog_beta": "https://mika-nt28.github.io/Documentations/Freebox_OS/#language#/changelog_beta",
+	"documentation_beta": "http://mika-nt28.github.io/Documentations/Freebox_OS/#language#/index_beta",
 	"language": [
 		"de_DE",
 		"en_US",
@@ -30,13 +35,6 @@
 		"it_IT",
 		"pt_PT"
 	],
-	"documentation": "http://mika-nt28.github.io/Documentations/Freebox_OS/#language#/",
-	"changelog": "https://mika-nt28.github.io/Documentations/Freebox_OS/#language#/changelog",
-	"changelog_beta": "https://mika-nt28.github.io/Documentations/Freebox_OS/#language#/changelog_beta",
-	"documentation_beta": "http://mika-nt28.github.io/Documentations/Freebox_OS/#language#/index_beta",
-	"link": {
-		"forum": "https://community.jeedom.com/t/info-plugin-freebox-nouveautes/30673"
-	},
 	"compatibility": [
 		"miniplus",
 		"smart",
