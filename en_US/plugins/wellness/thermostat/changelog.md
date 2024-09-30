@@ -4,6 +4,17 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Support for custom equipment images (Jeedom 4.5)
+- Fixed bug on decimal instructions support
+
+# 07/22/2024
+
+- Fixed a bug in debian 12
+
+# 06/13/2024
+
+- Better management of disabled thermostats
+
 # 02/19/2024
 
 - Fixed a bug that creates invalid crons

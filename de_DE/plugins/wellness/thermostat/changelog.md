@@ -4,6 +4,17 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Unterstützung für benutzerdefinierte Gerätebilder (Jeedom 4.5)
+- Ein Fehler bei der Unterstützung von Dezimalanweisungen wurde behoben
+
+# 22.07.2024
+
+- Ein Fehler in Debian 12 wurde behoben
+
+# 13.06.2024
+
+- Bessere Verwaltung deaktivierter Thermostate
+
 # 19.02.2024
 
 - Es wurde ein Fehler behoben, der ungültige Crons erstellte

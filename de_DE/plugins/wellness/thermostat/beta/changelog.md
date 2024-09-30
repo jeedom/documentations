@@ -5,6 +5,7 @@
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 - Unterstützung für benutzerdefinierte Gerätebilder (Jeedom 4.5)
+- Ein Fehler bei der Unterstützung von Dezimalanweisungen wurde behoben
 
 # 22.07.2024
 
