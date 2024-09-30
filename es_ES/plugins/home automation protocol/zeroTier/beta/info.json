@@ -17,7 +17,7 @@
     "author": "Jeedom SAS",
     "require": "4.4.0",
     "category": "home automation protocol",
-    "hasDependency": false,
+    "hasDependency": true,
     "hasOwnDeamon": true,
     "maxDependancyInstallTime": 0,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home automation protocol\/zeroTier\/changelog",
