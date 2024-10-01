@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 30/09/2024
+
 - Suporte para imagens de equipamentos personalizados (Jeedom 4.5)
 - Corrigido um bug no suporte para instruções decimais
 

@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 09/30/2024
+
 - Support for custom equipment images (Jeedom 4.5)
 - Fixed bug on decimal instructions support
 
