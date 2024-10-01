@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Ein Fehler beim Anwenden der Vorlage wurde behoben
+
 # 22.09.2024
 
 - Eine Warnung beim Starten des Daemons wurde behoben

@@ -4,6 +4,8 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+- Fixed bug when applying template
+
 # 09/22/2024
 
 - Fixed warning when launching the daemon

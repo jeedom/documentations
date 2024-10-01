@@ -4,6 +4,8 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+- Corrigido um bug ao aplicar o modelo
+
 # 22/09/2024
 
 - Corrigido um aviso ao iniciar o daemon

@@ -4,6 +4,8 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+- Se corrigió un error al aplicar la plantilla
+
 # 22/09/2024
 
 - Se corrigió una advertencia al iniciar el demonio
