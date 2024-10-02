@@ -4,7 +4,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-- Ein Fehler beim Anwenden der Vorlage wurde behoben
+# 10.01.2024
+
+- Ein Fehler beim Anwenden bestimmter Vorlagen wurde behoben
 
 # 22.09.2024
 

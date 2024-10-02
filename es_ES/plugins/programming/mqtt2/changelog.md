@@ -4,10 +4,14 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+- Se corrigió un error al aplicar la plantilla
+
+# 22/09/2024
 
 - Se corrigió una advertencia al iniciar el demonio
 - Se corrigió un error con nodejs 20
 - Si un comando es de tipo binario o numérico y jeedom recibe una matriz u objeto, entonces el valor se ignora (soluciona un problema con Shelly 2.5)
+- Se corrigió un error en la gestión de baterías de equipos vinculados entre Jeedom
 
 # 09/09/2024
 

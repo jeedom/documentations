@@ -4,10 +4,14 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+- Fixed bug when applying template
+
+# 09/22/2024
 
 - Fixed warning when launching the daemon
 - Fixed bug with nodejs 20
 - If a command is of binary or numeric type and jeedom receives an array or object then the value is ignored (corrects a problem with Shelly 2.5)
+- Fixed a bug on the management of equipment batteries linked between Jeedom
 
 # 09/09/2024
 

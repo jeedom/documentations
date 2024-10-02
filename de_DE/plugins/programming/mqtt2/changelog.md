@@ -4,10 +4,14 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Ein Fehler beim Anwenden der Vorlage wurde behoben
+
+# 22.09.2024
 
 - Eine Warnung beim Starten des Daemons wurde behoben
 - Ein Fehler mit NodeJS 20 wurde behoben
 - Wenn ein Befehl vom binären oder numerischen Typ ist und jeedom ein Array oder Objekt empfängt, wird der Wert ignoriert (behebt ein Problem mit Shelly 2.5)
+- Ein Fehler bei der Verwaltung der zwischen Jeedom verbundenen Gerätebatterien wurde behoben
 
 # 09.09.2024
 
