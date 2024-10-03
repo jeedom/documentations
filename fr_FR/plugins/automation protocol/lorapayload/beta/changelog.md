@@ -32,6 +32,10 @@
 
 - Ajout de la configuration *Enginko MCF - LW13 IO*
 
+- Ajout des commandes de downlinks *Quandify Cubic Meter*
+
+- Ajout de la configuration *Thermokon 798808 - MCS Capteur d’ambiance température, humidité relative, luminosité*
+
 # 29/04/2024
 
 - Ajout de la configuration *Dragino D23LBLS* (propriétés : Batterie, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)

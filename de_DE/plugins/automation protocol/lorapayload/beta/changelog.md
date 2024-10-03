@@ -32,6 +32,10 @@
 
 - Konfiguration hinzufügen *Enginko MCF - LW13 IO*
 
+- Downlinks-Befehle hinzugefügt *Kubikmeter quantifizieren*
+
+- Konfiguration hinzufügen *Thermokon 798808 - MCS Raumsensor Temperatur, relative Luftfeuchtigkeit, Helligkeit*
+
 # 29.04.2024
 
 - Konfiguration hinzufügen *Dragino D23LBLS* (Eigenschaften : Batterie, Temperatur-Weiß, Temperatur-Rot, Temperatur-Schwarz, Alarm, PA8-Stufe, Modus)

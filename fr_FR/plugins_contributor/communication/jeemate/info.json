@@ -1,6 +1,7 @@
 {
   "id": "jeemate",
   "name": "JeeMate",
+  "pluginVersion": "2.4.0",
   "description": {
     "fr_FR": "JeeMate est une application mobile disponible pour les appareils Android et wearOS (Play store), iOS (Apple store) et Windows (Microsoft store).<br />Contrôlez facilement votre maison intelligente grâce à son interface intuitive et customisable.<br />JeeMate est compatible avec de nombreux plugins Jeedom automatiquement.<br />Ce plugin vous permet de lier l'application mobile à votre Jeedom.<br />JeeMate utilise les types génériques de Jeedom.<br />Notifications, géolocalisation, TTS, planificateur de scénario, etc... JeeMate vous apporte tout dans une seule application.<br /><br /> Le plugin inclut la synchronisation avec Google Fit: créez vos équipements et récupérez vos données de santé.",
     "es_ES": "JeeMate es una aplicación móvil disponible para dispositivos Android y wearOS (playStore), iOS (Apple store) y Windows (Microsoft store).<br />Controla fácilmente tu casa inteligente con su interfaz intuitiva y personalizable.<br />JeeMate es compatible con muchos plugins Jeedom de forma automática.<br />Este plugin te permite vincular la aplicación móvil a tu Jeedom.<br />JeeMate utiliza tipos genéricos de Jeedom.<br />Notificaciones, geolocalización, TTS, programador de escenarios, etc..... JeeMate te lo trae todo en una sola aplicación.<br /><br />El plugin incluye sincronización con Google Fit: crea tu equipo y recupera tus datos de salud.",
@@ -21,7 +22,6 @@
   "hasDependency": false,
   "hasOwnDeamon": false,
   "maxDependancyInstallTime": 300,
-  "version": "2.3.9",
   "changelog": "https://docs.jeemate.fr/fr/changelog/plugin",
   "documentation": "https://docs.jeemate.fr/fr/home",
   "changelog_beta": "https://docs.jeemate.fr/fr/changelog/plugin",
