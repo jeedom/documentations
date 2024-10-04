@@ -1,7 +1,7 @@
 {
 	"id": "import2calendar",
 	"name": "ical2Calendar",
-	"pluginVersion": "1.0.9",
+	"pluginVersion": "1.1.0",
 	"description": {
 		"fr_FR": "ical2Calendar permet d'importer un calendrier ical dans le plugin agenda officiel que celui-ci viennent de Google, Outlook, Nextcloud ou autre.",
 		"en_US": "ical2Calendar lets you import an ical calendar into the official calendar plugin, whether it's from Google, Outlook, Nextcloud or another source.",
