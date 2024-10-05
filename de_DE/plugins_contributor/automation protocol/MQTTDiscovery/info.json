@@ -9,6 +9,7 @@
 	"category": "automation protocol",
 	"hasDependency": true,
 	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 60,
 	"language": [
 		"fr_FR",
 		"en_US"
