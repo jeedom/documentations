@@ -15,10 +15,10 @@
 	"hasOwnDeamon": false,
 	"cron": "30",
 	"maxDependancyInstallTime": 0,
-	"changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/MyTado\/beta\/changelog",
-	"changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/MyTado\/changelog",
-	"documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/MyTado\/beta",
-	"documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/MyTado",
+	"changelog_beta": "https:\/\/eperche-fr.github.io\/docs\/MyTado\/#language#\/changelog_beta",
+	"changelog": "https:\/\/eperche-fr.github.io\/docs\/MyTado\/#language#\/changelog",
+	"documentation_beta": "https:\/\/eperche-fr.github.io\/docs\/MyTado\/#language#\/",
+	"documentation": "https:\/\/eperche-fr.github.io\/docs\/MyTado\/#language#\/",
 	"link": {
 		"forum": "https:\/\/community.jeedom.com\/t\/plugin-mytado-pour-objets-connectes-tado-discussion-generale\/125031",
 		"video": "Lien vers une video"
