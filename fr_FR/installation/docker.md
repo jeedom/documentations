@@ -39,10 +39,11 @@ Avec :
 -  `` -p 80:80``: le port du container (80) est redirigé vers le port de l'hôte (par défaut 80 aussi)
 
 ### Liste des images disponibles
-- `jeedom/jeedom:latest` : dernière version **stable**
+- `jeedom/jeedom:latest` : dernière version **stable** sur Debian bookworm (beta)
 - `jeedom/jeedom:beta` : dernière version **beta**
 - `jeedom/jeedom:4.x` : les versions sont conservées depuis 4.3
-- `jeedom/jeedom:4.x-buster` : Une variante basée sur Debian Buster
+- `jeedom/jeedom:4.x-bullseye` : Une variante basée sur Debian Bullseye, à privilégier
+- `jeedom/jeedom:4.x-buster` : Une variante basée sur Debian Buster (deprecated)
 - `jeedom/jeedom:4.x-bookworm` : Une variante basée sur Debian bookworm (beta)
 - `jeedom/jeedom:4.x-http-bookworm` : Une variante basée sur Debian bookworm ne contenant que Jeedom, pas de mariadb. Utilisée pour docker composer (beta)
 
