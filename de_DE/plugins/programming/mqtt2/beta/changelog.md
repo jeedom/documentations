@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 10.07.2024
+
+- Es wurde ein Problem behoben, bei dem bestimmte Nachrichten zweimal verarbeitet werden konnten
+
 # 10.01.2024
 
 - Ein Fehler beim Anwenden bestimmter Vorlagen wurde behoben

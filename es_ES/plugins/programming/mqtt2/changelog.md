@@ -4,7 +4,9 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
-- Se corrigió un error al aplicar la plantilla
+# 10/01/2024
+
+- Se corrigió un error al aplicar ciertas plantillas
 
 # 22/09/2024
 
