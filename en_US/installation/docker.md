@@ -39,10 +39,11 @@ With :
 -  `` -p 80:80``: the container port (80) is forwarded to the host port (by default 80 too)
 
 ### List of available images
-- `jeedom/jeedom:latest` : last version **steady**
+- `jeedom/jeedom:latest` : last version **steady** on Debian bookworm (beta)
 - `jeedom/jeedom:beta` : last version **beta**
 - `jeedom/jeedom:4.x` : versions are kept from 4.3
-- `jeedom/jeedom:4.x-buster` : A variant based on Debian Buster
+- `jeedom/jeedom:4.x-bullseye` : A variant based on Debian Bullseye, to be preferred
+- `jeedom/jeedom:4.x-buster` : A variant based on Debian Buster (deprecated)
 - `jeedom/jeedom:4.x-bookworm` : A variant based on Debian bookworm (beta)
 - `jeedom/jeedom:4.x-http-bookworm` : A variant based on Debian bookworm containing only Jeedom, no mariadb. Used for docker composer (beta)
 
