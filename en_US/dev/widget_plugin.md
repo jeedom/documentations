@@ -35,9 +35,9 @@ public static function templateWidget(){
 	$return['info']['string']['state'] = array(
 		'template' => 'tmplmultistate',
 		'test' => array(
-			array('operation' => '#value# == 2','state' => '<i class="icon maison-vacuum6"></i>'),
-			array('operation' => '#value# == 3','state' => '<i class="fa fa-pause"></i>'),
-			array('operation' => '#value# > 3 || #value# < 2','state' => '<i class="fa fa-home"></i>')
+			array('operation' => '#value# == 2','state_light' => '<i class="icon maison-vacuum6"></i>','state_dark' => '<i class="icon maison-vacuum6"></i>'),
+			array('operation' => '#value# == 3','state_light' => '<i class="fa fa-pause"></i>','state_dark' => '<i class="fa fa-pause"></i>'),
+			array('operation' => '#value# > 3 || #value# < 2','state_light' => '<i class="fa fa-home"></i>','state_dark' => '<i class="fa fa-home"></i>')
 		)
 	);
 	return $ return;
