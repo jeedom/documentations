@@ -4,6 +4,49 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 26.09.2024
+
+**Verbesserungen**
+
+- Zur Version wechseln *9.20.0* von ZwaveJsUI
+- Wir bereiten die Zusammenführung des Remote-Modus mit der nächsten Version vor
+- Codebereinigung
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Neo Signal Repeater +* (Eigenschaften : Temperatur Feuchtigkeit)
+- Konfig hinzugefügt *Fibaro FGR224* (Eigenschaften : Schalter, Leistung, Energie, Überstrombenachrichtigung, Überspannungsbenachrichtigung)
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Fibaro Fgrgbwm442* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro FGD212* Verbesserte Benachrichtigungseigenschaften
+
+# 20.05.2024
+
+**Verbesserungen**
+
+- Zur Version wechseln *9.12.0* von ZwaveJsUI
+- Ergänzung und Verwaltung der beiden neuen S2 Long Range Sicherheitsschlüssel
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Neo-Signal-Repeater* (Eigenschaften : Temperatur Feuchtigkeit)
+- Konfig hinzugefügt *Shelly Qubino Welle 1* (Eigenschaften : Schalter, Zeigerbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung) 
+- Konfig hinzugefügt *Shelly Qubino Wave 13 Uhr* (Eigenschaften : Schalter, Stromversorgung, Energie, Netzbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung)
+- Konfig hinzugefügt *Shelly Qubino Wave Pro 1* (Eigenschaften : Schalter, Handbenachrichtigung, Wärmesensorbenachrichtigung) 
+- Konfig hinzugefügt *Shelly Qubino Wave Pro 13:00 Uhr* (Eigenschaften : Schalter, Stromversorgung, Energie, Netzbenachrichtigung, Überstrombenachrichtigung, Überspannungsbenachrichtigung, Wärmesensorbenachrichtigung)
+- Konfig hinzugefügt *Shelly Qubino Wave 14 Uhr* (Eigenschaften : Schalter, Stromversorgung, Energie, Netzbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung)
+- Konfig hinzugefügt *Shelly Qubino Wave Pro 2* (Eigenschaften : Switch)
+- Konfig hinzugefügt *Shelly Qubino Wave Pro 14 Uhr* (Eigenschaften : Schalter, Leistung, Energie, Überstrombenachrichtigung, Überspannungsbenachrichtigung)
+- Konfig hinzugefügt *Shelly Qubino Wave I4* (Eigenschaften : Zentrale Szene)
+- Konfig hinzugefügt *Shelly Qubino Wave Shutter* (Eigenschaften : Verschluss, Stromversorgung, Energie, Zeigerbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung)
+- Hinzufügen einer Untereigenschaft *Überspannungsmeldung* für Eigentum *Benachrichtigung*
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Neo-Stecker* um die Eigenschaften zu verwenden (*Seien Sie vorsichtig, einige Modelle möchten sich selbst in S2 einbinden, obwohl der Hersteller keinen DSK bereitstellt. Binden Sie sie ein, indem Sie den nicht sicheren Modus anstelle des automatischen Modus wählen*)
+
 # 27.02.2024
 
 **Verbesserungen**

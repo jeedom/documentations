@@ -12,9 +12,8 @@
 - **DEV** Configurando um sistema de filas para execução de ações [LINK](https://github.com/jeedom/core/issues/2489)
 - Tags de cenário agora são específicas para a instância do cenário (se você tiver dois lançamentos de cenário muito próximos, as tags do último não sobrescreverão mais as do primeiro) [LINK](https://github.com/jeedom/core/issues/2763)
 - Mudança para a parte de gatilho dos cenários : [LINK](https://github.com/jeedom/core/issues/2414)
-  - ``triggerId()`` agora está obsoleto e será removido em futuras atualizações principais
-  - ``trigger()`` agora está obsoleto e será removido em futuras atualizações principais
-  - ``triggerValue()`` agora está obsoleto e será removido em futuras atualizações principais
+  - ``triggerId()`` agora está obsoleto e será removido em futuras atualizações principais. Se você tiver ``triggerId() == 587`` deve ser substituído por ``#trigger_id# == 587``
+  - ``triggerValue()`` agora está obsoleto e será removido em futuras atualizações principais. Se você tiver ``triggerValue() == 10`` deve ser substituído por ``#trigger_value# == 10``
   - ``#trigger#`` : Talvez :
     - ``api`` se o lançamento foi acionado pela API,
     - ``TYPEcmd`` se a inicialização foi acionada por um comando, com TYPE substituído pelo ID do plugin (por exemplo, virtualCmd),
@@ -77,6 +76,10 @@
 - Se um plugin estiver em beta, mas não tiver um changelog beta, o centro de atualização retornará ao changelog estável [LINK](https://github.com/jeedom/core/commit/2af7b0a4d8680f68810cf9d07c657c51fe9e40bd)
 - Adicionado um alerta se a versão debian for 10 ou inferior [LINK](https://github.com/jeedom/core/issues/2912)
 - Corrigir erro de atualização do banco de dados na tabela de cache [LINK](https://github.com/jeedom/core/commit/a21f3498195f0003c5ead7cd5e8589f1c77c1c06)
+- Se a página do equipamento tiver um elemento img_device (tag tipo img), então o próprio núcleo pode configurar a url para exibir a imagem correta do equipamento (usando a da página de apresentação de todos os equipamentos do plugin) [LINK](https://github.com/jeedom/core/commit/07708ba4cbed982af968919dac3e406707867417)
+- Corrigido um bug com a função time_diff [LINK](https://github.com/jeedom/core/issues/2915)
+- Correção de bug no gerenciamento de dependências do compositor [LINK](https://github.com/jeedom/core/issues/2920)
+- **BETA** Possibilidade de redirecionar automaticamente para a conexão interna caso o usuário esteja na mesma rede do Jeedom, opção para ativar na configuração da rede Jeedom [LINK](https://github.com/jeedom/core/issues/2928)
 
 >**IMPORTANTE**
 >

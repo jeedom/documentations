@@ -12,9 +12,8 @@
 - **DEV** Mise en place d'un système de queue pour l'exécution d'actions [LIEN](https://github.com/jeedom/core/issues/2489)
 - Les tags des scénarios sont maintenant propres à l'instance du scénario (si vous avez deux lancements de scénarios très proches, les tags du dernier n'écrasent plus le premier) [LIEN](https://github.com/jeedom/core/issues/2763)
 - Changement sur la partie trigger des scénarios : [LIEN](https://github.com/jeedom/core/issues/2414)
-  - ``triggerId()`` est maintenant deprecated et sera retiré dans les futures mises à jour du core
-  - ``trigger()`` est maintenant deprecated et sera retiré dans les futures mises à jour du core
-  - ``triggerValue()`` est maintenant deprecated et sera retiré dans les futures mises à jour du core
+  - ``triggerId()`` est maintenant deprecated et sera retiré dans les futures mises à jour du core. Si vous avez ``triggerId() == 587`` il faut le remplacer par ``#trigger_id# == 587``
+  - ``triggerValue()`` est maintenant deprecated et sera retiré dans les futures mises à jour du core. Si vous avez ``triggerValue() == 10`` il faut le remplacer par ``#trigger_value# == 10``
   - ``#trigger#`` : Peut être :
     - ``api`` si le lancement a été déclenché par l'API,
     - ``TYPEcmd`` si le lancement a été déclenché par une commande, avec TYPE remplacé par l'id du plugin (ex virtualCmd),
@@ -78,6 +77,9 @@
 - Ajout d'une alerte si la version de debian est 10 ou moins [LIEN](https://github.com/jeedom/core/issues/2912)
 - Correction d'une erreur de mise à jour DB sur la table cache [LIEN](https://github.com/jeedom/core/commit/a21f3498195f0003c5ead7cd5e8589f1c77c1c06)
 - Si la page d'équipement à un élément img_device (balise de type img) alors le core peut lui meme configuré l'url pour afficher la bonne image d'équipement (en reprenant celle de la page de présentation de tous les équipements du plugin) [LIEN](https://github.com/jeedom/core/commit/07708ba4cbed982af968919dac3e406707867417)
+- Correction d'un bug avec la fonction time_diff [LIEN](https://github.com/jeedom/core/issues/2915)
+- Correction de bug sur la gestion de dépendances composer [LIEN](https://github.com/jeedom/core/issues/2920)
+- **BETA** Possibilité de rediriger automatiquement vers la connexion interne si l'utilisateur est sur le meme réseaux que Jeedom, option à activer dans la configuration réseaux de Jeedom [LIEN](https://github.com/jeedom/core/issues/2928)
 
 >**IMPORTANT**
 >

@@ -12,9 +12,8 @@
 - **ENTW** Einrichten eines Warteschlangensystems zur Ausführung von Aktionen [LINK](https://github.com/jeedom/core/issues/2489)
 - Szenario-Tags sind jetzt spezifisch für die Szenarioinstanz (wenn Sie zwei sehr nahe beieinander liegende Szenariostarts haben, überschreiben die Tags des letzten Szenarios nicht mehr das erste)) [LINK](https://github.com/jeedom/core/issues/2763)
 - Wechseln Sie zum Auslöserteil der Szenarien : [LINK](https://github.com/jeedom/core/issues/2414)
-  - ``triggerId()`` ist jetzt veraltet und wird in zukünftigen Kernaktualisierungen entfernt
-  - ``trigger()`` ist jetzt veraltet und wird in zukünftigen Kernaktualisierungen entfernt
-  - ``triggerValue()`` ist jetzt veraltet und wird in zukünftigen Kernaktualisierungen entfernt
+  - ``triggerId()`` ist jetzt veraltet und wird in zukünftigen Kernaktualisierungen entfernt. Wenn ja ``triggerId() == 587`` es muss durch ersetzt werden ``#trigger_id# == 587``
+  - ``triggerValue()`` ist jetzt veraltet und wird in zukünftigen Kernaktualisierungen entfernt. Wenn ja ``triggerValue() == 10`` es muss durch ersetzt werden ``#trigger_value# == 10``
   - ``#trigger#`` : Vielleicht :
     - ``api`` wenn der Start durch die API ausgelöst wurde,
     - ``TYPEcmd`` Wenn der Start durch einen Befehl ausgelöst wurde, wird TYPE durch die Plugin-ID ersetzt (z. B. virtualCmd),
@@ -77,6 +76,10 @@
 - Wenn sich ein Plugin in der Beta-Phase befindet, aber kein Beta-Änderungsprotokoll hat, kehrt das Update-Center zum stabilen Änderungsprotokoll zurück [LINK](https://github.com/jeedom/core/commit/2af7b0a4d8680f68810cf9d07c657c51fe9e40bd)
 - Es wurde eine Warnung hinzugefügt, wenn die Debian-Version 10 oder niedriger ist [LINK](https://github.com/jeedom/core/issues/2912)
 - Fehler bei der DB-Aktualisierung in der Cache-Tabelle behoben [LINK](https://github.com/jeedom/core/commit/a21f3498195f0003c5ead7cd5e8589f1c77c1c06)
+- Wenn die Geräteseite über ein img_device-Element (img-Typ-Tag) verfügt, kann der Kern selbst die URL konfigurieren, um das richtige Gerätebild anzuzeigen (unter Verwendung des Bildes der Präsentationsseite aller Plugin-Geräte)) [LINK](https://github.com/jeedom/core/commit/07708ba4cbed982af968919dac3e406707867417)
+- Ein Fehler mit der Funktion time_diff wurde behoben [LINK](https://github.com/jeedom/core/issues/2915)
+- Fehlerbehebung bei der Composer-Abhängigkeitsverwaltung [LINK](https://github.com/jeedom/core/issues/2920)
+- **BETA** Möglichkeit der automatischen Umleitung zur internen Verbindung, wenn sich der Benutzer im selben Netzwerk wie Jeedom befindet, Option zur Aktivierung in der Jeedom-Netzwerkkonfiguration [LINK](https://github.com/jeedom/core/issues/2928)
 
 >**WICHTIG**
 >

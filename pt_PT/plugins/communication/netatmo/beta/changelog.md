@@ -6,6 +6,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 10/06/2024
+
+- Correção de avisos
+
 # 19/05/2024
 
 - Correção de bug

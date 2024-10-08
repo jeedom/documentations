@@ -4,6 +4,17 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Suporte para imagens de equipamentos personalizados (Jeedom 4.5)
+- Corrigido um bug no suporte para instruções decimais
+
+# 22/07/2024
+
+- Corrigido um bug no debian 12
+
+# 13/06/2024
+
+- Melhor gerenciamento de termostatos desativados
+
 # 19/02/2024
 
 - Corrigido um bug que cria crons inválidos

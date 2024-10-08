@@ -5,6 +5,7 @@
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 - Unterstützung für benutzerdefinierte Gerätebilder (Jeedom 4.5)
+- Wechsel in den Abhängigkeitsmodus
 
 # 24.08.2024
 

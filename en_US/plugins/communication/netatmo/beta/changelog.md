@@ -6,6 +6,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
 
+# 06/10/2024
+
+- Fixed warnings
+
 # 05/19/2024
 
 - Bugfix

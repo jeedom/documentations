@@ -6,6 +6,10 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+# 09/28/2024
+
+- Unifi protect 4 support.1 and 5.0
+
 # 05/08/2024
 
 - Added support for UVC G4 Doorbell Pro PoE and UP Chime PoE

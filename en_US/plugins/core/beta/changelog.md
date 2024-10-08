@@ -12,9 +12,8 @@
 - **DEV** Setting up a queue system for executing actions [LINK](https://github.com/jeedom/core/issues/2489)
 - Scenario tags are now specific to the scenario instance (if you have two scenario launches very close together, the tags of the last one no longer overwrite the first one)) [LINK](https://github.com/jeedom/core/issues/2763)
 - Change to the trigger part of the scenarios : [LINK](https://github.com/jeedom/core/issues/2414)
-  - ``triggerId()`` is now deprecated and will be removed in future core updates
-  - ``trigger()`` is now deprecated and will be removed in future core updates
-  - ``triggerValue()`` is now deprecated and will be removed in future core updates
+  - ``triggerId()`` is now deprecated and will be removed in future core updates. If you have ``triggerId() == 587`` it must be replaced by ``#trigger_id# == 587``
+  - ``triggerValue()`` is now deprecated and will be removed in future core updates. If you have ``triggerValue() == 10`` it must be replaced by ``#trigger_value# == 10``
   - ``#trigger#`` : Maybe :
     - ``api`` if the launch was triggered by the API,
     - ``TYPEcmd`` if the launch was triggered by a command, with TYPE replaced by the plugin id (eg virtualCmd),
@@ -78,6 +77,9 @@
 - Added alert if debian version is 10 or lower [LINK](https://github.com/jeedom/core/issues/2912)
 - Fix DB update error on cache table [LINK](https://github.com/jeedom/core/commit/a21f3498195f0003c5ead7cd5e8589f1c77c1c06)
 - If the equipment page has an img_device element (img type tag) then the core can itself configure the url to display the correct equipment image (using the one from the presentation page of all the plugin's equipment) [LINK](https://github.com/jeedom/core/commit/07708ba4cbed982af968919dac3e406707867417)
+- Fixed bug with time_diff function [LINK](https://github.com/jeedom/core/issues/2915)
+- Bug fix on composer dependency management [LINK](https://github.com/jeedom/core/issues/2920)
+- **BETA** Possibility to automatically redirect to the internal connection if the user is on the same network as Jeedom, option to activate in the Jeedom network configuration [LINK](https://github.com/jeedom/core/issues/2928)
 
 >**IMPORTANT**
 >

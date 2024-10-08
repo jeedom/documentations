@@ -4,6 +4,49 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 26/09/2024
+
+**Melhorias**
+
+- Mudar para a versão *9.20.0* por ZwaveJsUI
+- Preparando-se para mesclar o modo remoto na próxima versão
+- Limpeza de código
+
+**Adições de configuração**
+
+- Configuração adicionada *Repetidor de Sinal Neo +* (propriedades : Temperatura, Umidade)
+- Configuração adicionada *Fibaro FGR224* (propriedades : Interruptor, alimentação, energia, notificação de sobrecorrente, notificação de sobretensão)
+
+**Alterações de configuração**
+
+- Mudando a configuração *Fibaro Fgrgbwm442* para usar as propriedades
+- Mudando a configuração *Fibaro FGD212* Propriedades de notificação aprimoradas
+
+# 20/05/2024
+
+**Melhorias**
+
+- Mudar para a versão *9.12.0* por ZwaveJsUI
+- Adição e gerenciamento das duas novas chaves de segurança S2 Long Range
+
+**Adições de configuração**
+
+- Configuração adicionada *Repetidor de Sinal Neo* (propriedades : Temperatura, Umidade)
+- Configuração adicionada *Shelly Qubino Onda 1* (propriedades : Interruptor, notificação de mãos, notificação de sobrecorrente, notificação de sensor de calor) 
+- Configuração adicionada *Shelly Qubino Onda 13h* (propriedades : Interruptor, alimentação, energia, notificação de rede elétrica, notificação de sobrecorrente, notificação de sensor de calor)
+- Configuração adicionada *Shelly Qubino Onda Pro 1* (propriedades : Interruptor, notificação de mãos, notificação de sensor de calor) 
+- Configuração adicionada *Shelly Qubino Onda Pro 13h* (propriedades : Interruptor, alimentação, energia, notificação de rede elétrica, notificação de sobrecorrente, notificação de sobretensão, notificação de sensor de calor)
+- Configuração adicionada *Shelly Qubino Onda 14h* (propriedades : Interruptor, alimentação, energia, notificação de rede elétrica, notificação de sobrecorrente, notificação de sensor de calor)
+- Configuração adicionada *Shelly Qubino Onda Pro 2* (propriedades : Switch)
+- Configuração adicionada *Shelly Qubino Onda Pro 14h* (propriedades : Interruptor, alimentação, energia, notificação de sobrecorrente, notificação de sobretensão)
+- Configuração adicionada *Shelly Qubino Onda I4* (propriedades : Cena Central)
+- Configuração adicionada *Obturador de ondas Shelly Qubino* (propriedades : Obturador, alimentação, energia, notificação manual, notificação de sobrecorrente, notificação de sensor de calor)
+- Adicionando uma subpropriedade *notificação de sobretensão* para propriedade *Notificação*
+
+**Alterações de configuração**
+
+- Mudando a configuração *Plugue Neo* para usar as propriedades (*tenha cuidado, alguns modelos desejam se incluir no S2, mesmo que o fabricante não forneça nenhum DSK, inclua-os escolhendo o modo não seguro em vez do modo automático*)
+
 # 27/02/2024
 
 **Melhorias**

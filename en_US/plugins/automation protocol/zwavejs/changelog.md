@@ -4,6 +4,49 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 09/26/2024
+
+**Improvements**
+
+- Switch to version *9.20.0* by ZwaveJsUI
+- Preparing to merge remote mode into next release
+- Code cleaning
+
+**Configuration Additions**
+
+- Added config *Neo Signal Repeater +* (properties : Temperature, Humidity)
+- Added config *Fibaro FGR224* (properties : Switch, Power, Energy, Over-Current Notification, Over-Voltage Notification)
+
+**Configuration Changes**
+
+- Changing the configuration *Fibaro Fgrgbwm442* to use the properties
+- Changing the configuration *Fibaro FGD212* Improved Properties Notification
+
+# 05/20/2024
+
+**Improvements**
+
+- Switch to version *9.12.0* by ZwaveJsUI
+- Addition and management of the two new S2 Long Range security keys
+
+**Configuration Additions**
+
+- Added config *Neo Signal Repeater* (properties : Temperature, Humidity)
+- Added config *Shelly Qubino Wave 1* (properties : Switch, Hands Notification, Over-Current Notification, Heat-Sensor Notification) 
+- Added config *Shelly Qubino Wave 1 PM* (properties : Switch, Power, Energy, Mains Notification, Over-Current Notification, Heat-Sensor Notification)
+- Added config *Shelly Qubino Wave Pro 1* (properties : Switch, Hands Notification, Heat-Sensor Notification) 
+- Added config *Shelly Qubino Wave Pro 1 PM* (properties : Switch, Power, Energy, Mains Notification, Over-Current Notification, Over-Voltage Notification, Heat-Sensor Notification)
+- Added config *Shelly Qubino Wave 2 PM* (properties : Switch, Power, Energy, Mains Notification, Over-Current Notification, Heat-Sensor Notification)
+- Added config *Shelly Qubino Wave Pro 2* (properties : Switch)
+- Added config *Shelly Qubino Wave Pro 2 PM* (properties : Switch, Power, Energy, Over-Current Notification, Over-Voltage Notification)
+- Added config *Shelly Qubino Wave I4* (properties : Central Scene)
+- Added config *Shelly Qubino Wave Shutter* (properties : Shutter, Power, Energy, Hands Notification, Over-Current Notification, Heat-Sensor Notification)
+- Adding a subproperty *overvoltage-notification* for property *Notification*
+
+**Configuration Changes**
+
+- Changing the configuration *Neo Plug* to use the properties (*be careful some models want to include themselves in S2 even though the manufacturer does not provide any DSK, include them by choosing non-secure instead of automatic mode*)
+
 # 02/27/2024
 
 **Improvements**

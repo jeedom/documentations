@@ -6,6 +6,8 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
+# 08/05/2024
+
 - Adicionado suporte para UVC G4 Doorbell Pro PoE e UP Chime PoE
 
 # 15/01/2024

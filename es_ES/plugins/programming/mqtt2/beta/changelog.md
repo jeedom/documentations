@@ -4,6 +4,14 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+# 10/07/2024
+
+- Se solucionó un problema por el cual ciertos mensajes podían procesarse dos veces
+
+# 10/01/2024
+
+- Se corrigió un error al aplicar ciertas plantillas
+
 # 22/09/2024
 
 - Se corrigió una advertencia al iniciar el demonio

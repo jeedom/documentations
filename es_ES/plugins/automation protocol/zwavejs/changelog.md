@@ -4,6 +4,49 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 26/09/2024
+
+**Mejoras**
+
+- Cambiar a versión *9.20.0* por ZwaveJsUI
+- Preparándose para fusionar el modo remoto en la próxima versión
+- Limpieza de código
+
+**Adiciones de configuración**
+
+- Configuración añadida *Repetidor de señal Neo+* (propiedades : Temperatura, humedad)
+- Configuración añadida *Fibaro FGR224* (propiedades : Interruptor, potencia, energía, notificación de sobrecorriente, notificación de sobretensión)
+
+**Cambios de configuración**
+
+- Cambiar la configuración *Fibaro Fgrgbwm442* para usar las propiedades
+- Cambiar la configuración *Fibaro FGD212* Propiedades de notificación mejoradas
+
+# 20/05/2024
+
+**Mejoras**
+
+- Cambiar a versión *9.12.0* por ZwaveJsUI
+- Incorporación y gestión de las dos nuevas llaves de seguridad S2 Long Range
+
+**Adiciones de configuración**
+
+- Configuración añadida *Repetidor de señal neo* (propiedades : Temperatura, humedad)
+- Configuración añadida *Shelly Qubino Ola 1* (propiedades : Interruptor, notificación de manos, notificación de sobrecorriente, notificación de sensor de calor) 
+- Configuración añadida *Shelly Qubino Ola 13:00* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
+- Configuración añadida *Shelly Qubino Wave Pro 1* (propiedades : Interruptor, notificación de manos, notificación de sensor de calor) 
+- Configuración añadida *Shelly Qubino Wave Pro 13:00* (propiedades : Interruptor, potencia, energía, notificación de red, notificación de sobrecorriente, notificación de sobretensión, notificación de sensor de calor)
+- Configuración añadida *Shelly Qubino Ola 2 p.m* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
+- Configuración añadida *Shelly Qubino Wave Pro 2* (propiedades : Switch)
+- Configuración añadida *Shelly Qubino Wave Pro 2 p.m* (propiedades : Interruptor, potencia, energía, notificación de sobrecorriente, notificación de sobretensión)
+- Configuración añadida *Shelly Qubino Ola I4* (propiedades : Escena Central)
+- Configuración añadida *Obturador de ondas Shelly Qubino* (propiedades : Obturador, potencia, energía, notificación de manos, notificación de sobrecorriente, notificación de sensor de calor)
+- Agregar una subpropiedad *notificación-de-sobretensión* para la propiedad *Notificación*
+
+**Cambios de configuración**
+
+- Cambiar la configuración *Enchufe Neo* para usar las propiedades (*Tenga cuidado, algunos modelos quieren incluirse en S2 aunque el fabricante no proporcione ningún DSK, inclúyalos eligiendo el modo no seguro en lugar del automático*)
+
 # 27/02/2024
 
 **Mejoras**

@@ -32,6 +32,10 @@
 
 - Agregar configuración *Enginko MCF - LW13 IO*
 
+- Comandos de enlaces descendentes agregados *Cuantificar Metro Cúbico*
+
+- Agregar configuración *Thermokon 798808 - MCS Sensor ambiente temperatura, humedad relativa, luminosidad*
+
 # 29/04/2024
 
 - Agregar configuración *Dragino D23LBLS* (propiedades : Batería, Temp-Blanco, Temp-Rojo, Temp-Negro, Alarma, Nivel PA8, Modo)

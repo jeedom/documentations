@@ -4,6 +4,14 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+# 07/10/2024
+
+- Fixed an issue where certain messages could be processed twice
+
+# 01/10/2024
+
+- Fixed a bug when applying certain templates
+
 # 09/22/2024
 
 - Fixed warning when launching the daemon

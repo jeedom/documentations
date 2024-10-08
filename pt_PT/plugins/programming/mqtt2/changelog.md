@@ -4,10 +4,16 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+# 10/01/2024
+
+- Corrigido um bug ao aplicar determinados modelos
+
+# 22/09/2024
 
 - Corrigido um aviso ao iniciar o daemon
 - Corrigido um bug com nodejs 20
 - Se um comando for do tipo binário ou numérico e jeedom receber um array ou objeto então o valor será ignorado (corrige um problema com Shelly 2.5)
+- Corrigido bug no gerenciamento de baterias de equipamentos vinculados entre Jeedom
 
 # 09/09/2024
 

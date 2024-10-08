@@ -4,7 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 30/09/2024
+
 - Soporte para imágenes de equipos personalizados (Jeedom 4.5)
+- Se corrigió un error en la compatibilidad con instrucciones decimales
 
 # 22/07/2024
 

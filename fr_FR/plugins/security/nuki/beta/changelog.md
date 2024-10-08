@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+## 07/10/2024
+
+- Optimisations mineurs afin d'éviter des warnings dans le cas où une serrure n'est pas joignable (panne de batterie par exemple)
+- Version Jeedom 4.4 requise
+
 # 03/10/2022
 
 - Mise à jour de la page de configuration des équipements pour Jeedom v4.3

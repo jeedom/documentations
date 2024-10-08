@@ -12,9 +12,8 @@
 - **DESARROLLO** Configurar un sistema de colas para ejecutar acciones [ENLACE](https://github.com/jeedom/core/issues/2489)
 - Las etiquetas de escenario ahora son específicas de la instancia del escenario (si tiene dos lanzamientos de escenario muy cercanos, las etiquetas del último ya no sobrescriben la primera)) [ENLACE](https://github.com/jeedom/core/issues/2763)
 - Cambiar a la parte desencadenante de los escenarios : [ENLACE](https://github.com/jeedom/core/issues/2414)
-  - ``triggerId()`` Ahora está en desuso y se eliminará en futuras actualizaciones principales
-  - ``trigger()`` Ahora está en desuso y se eliminará en futuras actualizaciones principales
-  - ``triggerValue()`` Ahora está en desuso y se eliminará en futuras actualizaciones principales
+  - ``triggerId()`` Ahora está en desuso y se eliminará en futuras actualizaciones principales. Si tienes ``triggerId() == 587`` debe ser reemplazado por ``#trigger_id# == 587``
+  - ``triggerValue()`` Ahora está en desuso y se eliminará en futuras actualizaciones principales. Si tienes ``triggerValue() == 10`` debe ser reemplazado por ``#trigger_value# == 10``
   - ``#trigger#`` : Puede ser :
     - ``api`` si el lanzamiento fue activado por la API,
     - ``TYPEcmd`` si el inicio fue activado por un comando, con TIPO reemplazado por la identificación del complemento (por ejemplo, virtualCmd),
@@ -77,6 +76,10 @@
 - Si un complemento está en versión beta pero no tiene un registro de cambios beta, el centro de actualización volverá al registro de cambios estable [ENLACE](https://github.com/jeedom/core/commit/2af7b0a4d8680f68810cf9d07c657c51fe9e40bd)
 - Se agregó una alerta si la versión de Debian es 10 o menos [ENLACE](https://github.com/jeedom/core/issues/2912)
 - Corregir error de actualización de base de datos en la tabla de caché [ENLACE](https://github.com/jeedom/core/commit/a21f3498195f0003c5ead7cd5e8589f1c77c1c06)
+- Si la página del equipo tiene un elemento img_device (etiqueta de tipo img), entonces el núcleo puede configurar la URL para mostrar la imagen correcta del equipo (usando la de la página de presentación de todos los equipos del complemento)) [ENLACE](https://github.com/jeedom/core/commit/07708ba4cbed982af968919dac3e406707867417)
+- Se corrigió un error con la función time_diff [ENLACE](https://github.com/jeedom/core/issues/2915)
+- Corrección de errores en la gestión de dependencias del compositor [ENLACE](https://github.com/jeedom/core/issues/2920)
+- **BETA** Posibilidad de redirigir automáticamente a la conexión interna si el usuario está en la misma red que Jeedom, opción para activar en la configuración de red de Jeedom [ENLACE](https://github.com/jeedom/core/issues/2928)
 
 >**IMPORTANTE**
 >

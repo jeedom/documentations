@@ -4,6 +4,14 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+# 10/07/2024
+
+- Corrigido um problema em que certas mensagens podiam ser processadas duas vezes
+
+# 10/01/2024
+
+- Corrigido um bug ao aplicar determinados modelos
+
 # 22/09/2024
 
 - Corrigido um aviso ao iniciar o daemon

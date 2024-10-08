@@ -12,7 +12,10 @@
 	"utilization": "Il est possible de commander le Wi-Fi, le planning du Wi-Fi, le contrôle parental.<br/>Pour la Freebox Delta, plusieurs possibilités sont disponibles. Il est entre autre possible de commander le pack sécurité ainsi que les différents équipements compatibles avec celui-ci. Il permet de récupérer toutes les infos disponibles sur la Freebox et pour les Delta il permet de récupérer les équipements connectés.",
 	"licence": "AGPL",
 	"author": "mika-nt28 | JAG",
-	"require": "4.0",
+	"require": "4.2",
+	"os": {
+		"min": 10
+	},
 	"category": "monitoring",
 	"hasOwnDeamon": true,
 	"hasDependency": false,

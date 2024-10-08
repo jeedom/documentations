@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+## 07/10/2024
+
+- Minor optimizations to avoid warnings in the event that a lock cannot be reached (battery failure for example))
+- Jeedom version 4.4 required
+
 # 03/10/2022
 
 - Update of the equipment configuration page for Jeedom v4.3

@@ -39,10 +39,11 @@ Con :
 -  `` -p 80:80``: el puerto del contenedor (80) se reenvía al puerto del host (por defecto 80 también)
 
 ### Lista de imágenes disponibles
-- `jeedom/jeedom:último` : última versión **estable**
+- `jeedom/jeedom:último` : última versión **estable** en el ratón de biblioteca Debian (beta)
 - `jeedom/jeedom:beta` : última versión **beta**
 - `jeedom/jeedom:4.x` : Se mantienen versiones desde la 4.3
-- `jeedom/jeedom:4.x-buster` : Una variante basada en Debian Buster
+- `jeedom/jeedom:4.x-diana` : Se prefiere una variante basada en Debian Bullseye
+- `jeedom/jeedom:4.x-buster` : Una variante basada en Debian Buster (en desuso)
 - `jeedom/jeedom:4.x-ratón de biblioteca` : Una variante basada en Debian bookworm (beta)
 - `jeedom/jeedom:4.x-http-ratón de biblioteca` : Una variante basada en el ratón de biblioteca de Debian que contiene solo Jeedom, sin mariadb. Utilizado para docker composer (beta)
 

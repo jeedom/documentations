@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+## 10.07.2024
+
+- Kleinere Optimierungen zur Vermeidung von Warnungen für den Fall, dass eine Sperre nicht erreicht werden kann (z. B. Batterieausfall))
+- Jeedom 4-Version.4 erforderlich
+
 # 10.03.2022
 
 - Aktualisierung der Gerätekonfigurationsseite für Jeedom v4.3

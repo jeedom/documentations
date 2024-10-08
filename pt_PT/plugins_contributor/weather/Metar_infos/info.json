@@ -1,26 +1,39 @@
 {
-	"id" : "Metar_infos",
-	"name" : "METAR/TAF Infos Météo Aéroports",
-	"description" : {
-		"fr_FR": "Plugin pour recevoir les observations météo des aéroports (METAR) ainsi que les prévisions (TAF)"
+	"id": "Metar_infos",
+	"name": "METAR/TAF Infos Météo Aéroports",
+	"description": {
+		"fr_FR": "Plugin pour recevoir les observations météo des aéroports (METAR) ainsi que les prévisions (TAF)",
+		"en_US": "Plugin to receive airport weather observations (METAR) and forecasts (TAF)",
+		"es_ES": "Plugin para recibir observaciones meteorológicas de aeropuertos (METAR) y previsiones (TAF)",
+		"de_DE": "Plugin zum Empfang von Wetterbeobachtungen von Flughäfen (METAR) sowie Vorhersagen (TAF)",
+		"it_IT": "Plugin per la ricezione delle osservazioni meteorologiche aeroportuali (METAR) e delle previsioni (TAF)",
+		"pt_PT": "Plugin para receber observações meteorológicas do aeroporto (METAR) e previsões (TAF)"
 	},
-	"licence" : "AGPL",
-	"author" : "Patrick CARLE (Patrick)",
-	"require" : "4.0",
-	"category" : "weather",
-	"hasDependency" : false,
-	"hasOwnDeamon" : false,
-	"maxDependancyInstallTime" : 0,
-	"changelog": "https://jealg.github.io/documentation/plugin-Metar_infos/#language#/changelog",
-	"documentation" : "https://www.carle.fr/plugin-metar-taf-infos/4-documentation.html",
-	"changelog_beta" : "https://jealg.github.io/documentation/plugin-Metar_infos/#language#/changelog_beta",
-	"documentation_beta" : "https://www.carle.fr/plugin-metar-taf-infos/4-documentation.html",
-	"link" : {
-		"forum":"https://community.jeedom.com/tag/plugin-Metar_info"
+	"licence": "AGPL",
+	"author": "Patrick CARLE (Patrick) / JAG / Phpvarious",
+	"require": "4.3",
+	"os": {
+		"min": 10
 	},
+	"category": "weather",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
 	"language": [
-		"fr_FR"
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
 	],
+	"changelog": "https://jealg.github.io/documentation/plugin-Metar_infos/#language#/changelog",
+	"documentation": "https://www.carle.fr/plugin-metar-taf-infos/4-documentation.html",
+	"changelog_beta": "https://jealg.github.io/documentation/plugin-Metar_infos/#language#/changelog_beta",
+	"documentation_beta": "https://www.carle.fr/plugin-metar-taf-infos/4-documentation.html",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-Metar_info"
+	},
 	"compatibility": [
 		"miniplus",
 		"smart",
