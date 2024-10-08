@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+## 10/07/2024
+
+- Optimizaciones menores para evitar advertencias en caso de que no se pueda alcanzar un bloqueo (fallo de la batería, por ejemplo))
+- Versión Jeedom 4.4 requeridos
+
 # 10/03/2022
 
 - Actualización de la página de configuración de equipos para Jeedom v4.3
