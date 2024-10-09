@@ -4,6 +4,12 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 10/10/2024
+
+- Compatibilidade do Daemon com Debian 12
+- Jeedom 4.4 ou mais necessários
+- Debian 11 ou superior necessário
+
 # 20/11/2020
 
 - Melhoria do perfil do MAS Ventilairsec

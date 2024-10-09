@@ -4,6 +4,12 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 10/10/2024
+
+- Daemon Compatibility with Debian 12
+- Jeedom 4.4 or more required
+- Debian 11 or later required
+
 # 20/11/2020
 
 - Improvement of the MAS Ventilairsec profile

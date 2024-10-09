@@ -4,6 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 10/10/2024
+
+- Compatibilité du démon avec Debian 12
+- Jeedom 4.4 ou plus requis
+- Debian 11 ou plus requis
+
 # 20/11/2020
 
 - Amélioration du profil MAS Ventilairsec
