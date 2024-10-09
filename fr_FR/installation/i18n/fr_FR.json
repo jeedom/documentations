@@ -1,6 +1,18 @@
 {
     "installation\/atlas.md": {
         "Restauration en mode usine d'une Jeedom Atlas": "Restauration en mode usine d'une Jeedom Atlas",
+        "Sauvegarde de Jeedom": "Sauvegarde de Jeedom",
+        "il est indispensable de réaliser une sauvegarde de Jeedom": "il est indispensable de réaliser une sauvegarde de Jeedom",
+        "Avant toute chose": "Avant toute chose",
+        "qui pourra être restaurée à l'issue de la procédure": "qui pourra être restaurée à l'issue de la procédure",
+        "Réglages > Système > Sauvegardes": "Réglages > Système > Sauvegardes",
+        "1. Se rendre sur l'interface Jeedom puis cliquer sur le menu": "1. Se rendre sur l'interface Jeedom puis cliquer sur le menu",
+        "Lancer une sauvegarde": "Lancer une sauvegarde",
+        "2. Cliquer sur le bouton": "2. Cliquer sur le bouton",
+        "Télécharger la sauvegarde": "Télécharger la sauvegarde",
+        "3. Quand la sauvegarde est terminée, cliquer sur": "3. Quand la sauvegarde est terminée, cliquer sur",
+        "Réglages > Système > Eteindre": "Réglages > Système > Eteindre",
+        "4. Une fois la sauvegarde de Jeedom téléchargée, éteindre le système en passant par le menu": "4. Une fois la sauvegarde de Jeedom téléchargée, éteindre le système en passant par le menu",
         "Présentation": "Présentation",
         "La Jeedom Atlas est équipée d'un disque Emmc, garantissant une meilleure fiabilité qu'une carte SD, mais ce disque n'est pas directement accessible": "La Jeedom Atlas est équipée d'un disque Emmc, garantissant une meilleure fiabilité qu'une carte SD, mais ce disque n'est pas directement accessible",
         "Le Recovery Mode USB englobe à la fois le système, l'OS, et aussi l'application Jeedom": "Le Recovery Mode USB englobe à la fois le système, l'OS, et aussi l'application Jeedom",
@@ -36,9 +48,6 @@
         "mettre un compte market": "mettre un compte market",
         "Une fois cela fait, Jeeasy se lance et vous présente la procédure de recovery": "Une fois cela fait, Jeeasy se lance et vous présente la procédure de recovery",
         "Suivre la procédure": "Suivre la procédure",
-        "Attention": "Attention",
-        "Un Recovery Mode remet quoi qu'il arrive votre Atlas en configuration \" usine \" neuve": "Un Recovery Mode remet quoi qu'il arrive votre Atlas en configuration \" usine \" neuve",
-        "Si vous avez une sauvegarde de votre configuration Jeedom il suffit après de la restaurer": "Si vous avez une sauvegarde de votre configuration Jeedom il suffit après de la restaurer",
         "Ce Recovery Mode n'est compatible qu'avec la Jeedom Atlas": "Ce Recovery Mode n'est compatible qu'avec la Jeedom Atlas"
     },
     "installation\/baremetal.md": {

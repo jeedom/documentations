@@ -1,6 +1,18 @@
 {
     "installation\/atlas.md": {
         "Restauration en mode usine d'une Jeedom Atlas": "Restoration in factory mode of a Jeedom Atlas",
+        "Sauvegarde de Jeedom": "Jeedom Backup",
+        "il est indispensable de réaliser une sauvegarde de Jeedom": "It is essential to make a backup of Jeedom",
+        "Avant toute chose": "First of all",
+        "qui pourra être restaurée à l'issue de la procédure": "which can be restored at the end of the procedure",
+        "Réglages > Système > Sauvegardes": "Settings > System > Backups",
+        "1. Se rendre sur l'interface Jeedom puis cliquer sur le menu": "1. Go to the Jeedom interface then click on the menu",
+        "Lancer une sauvegarde": "Start a backup",
+        "2. Cliquer sur le bouton": "2. Click the button",
+        "Télécharger la sauvegarde": "Download Backup",
+        "3. Quand la sauvegarde est terminée, cliquer sur": "3. When the backup is complete, click on",
+        "Réglages > Système > Eteindre": "Settings > System > Power off",
+        "4. Une fois la sauvegarde de Jeedom téléchargée, éteindre le système en passant par le menu": "4. Once the Jeedom backup is downloaded, turn off the system via the menu",
         "Présentation": "Presentation",
         "La Jeedom Atlas est équipée d'un disque Emmc, garantissant une meilleure fiabilité qu'une carte SD, mais ce disque n'est pas directement accessible": "The Jeedom Atlas is equipped with an Emmc disk, guaranteeing better reliability than an SD card, but this disk is not directly accessible",
         "Le Recovery Mode USB englobe à la fois le système, l'OS, et aussi l'application Jeedom": "USB Recovery Mode includes both the system, the OS, and also the Jeedom application",
@@ -34,8 +46,6 @@
         "mettre un compte market": "put a market account",
         "Une fois cela fait, Jeeasy se lance et vous présente la procédure de recovery": "Once done, Jeeasy launches and shows you the recovery procedure",
         "Suivre la procédure": "Follow the procedure",
-        "Un Recovery Mode remet quoi qu'il arrive votre Atlas en configuration \" usine \" neuve": "A Recovery Mode restores your Atlas to a new \"factory\" configuration whatever happens",
-        "Si vous avez une sauvegarde de votre configuration Jeedom il suffit après de la restaurer": "If you have a backup of your Jeedom configuration, just restore it afterward",
         "Ce Recovery Mode n'est compatible qu'avec la Jeedom Atlas": "This Recovery Mode is only compatible with the Jeedom Atlas",
         " Note.": " Note.",
         " Note?": " Note?",
@@ -50,14 +60,7 @@
         " Important]": " IMPORTANT]",
         "[Important]": "[IMPORTANT]",
         "*Important*": "*IMPORTANT*",
-        " Important*": " IMPORTANT*",
-        " Attention.": " Warning.",
-        " Attention?": " Warning?",
-        "Attention ": "Warning ",
-        " Attention]": " Warning]",
-        "[Attention]": "[Warning]",
-        "*Attention*": "*Warning*",
-        " Attention*": " Warning*"
+        " Important*": " IMPORTANT*"
     },
     "installation\/baremetal.md": {
         "Installation sur une machine physique": "Installation on a physical machine",

@@ -1,5 +1,17 @@
 # Restoration in factory mode of a Jeedom Atlas
 
+## Jeedom Backup
+
+First of all, **It is essential to make a backup of Jeedom** which can be restored at the end of the procedure.
+
+1. Go to the Jeedom interface then click on the menu **Settings > System > Backups**.
+
+2. Click the button **Start a backup**.
+
+3. When the backup is complete, click on **Download Backup**.
+
+4. Once the Jeedom backup is downloaded, turn off the system via the menu **Settings > System > Power off**.
+
 ## Presentation
 
 The Jeedom Atlas is equipped with an Emmc disk, guaranteeing better reliability than an SD card, but this disk is not directly accessible.
@@ -29,70 +41,26 @@ Jeedom offers a service with automatic backup subscription on Jeedom private clo
 >
 >Depending on whether or not you still have access to your box, the procedure is not the same.
 
-
-
 Necessary material : a USB key (minimum 16 GB).
 
-
-
-
 CASE 1 : YOU HAVE ACCESS TO YOUR ATLAS BOX
-
 
 Go to the Atlas plugin (Home Automation Gateway/Atlas Plugin), and click on Recovery, and follow the procedure.
 
 ***
 
-
-
 CASE 2 : YOU DO NOT HAVE ACCESS TO YOUR ATLAS BOX
 
-
-
 - Download the Recovery from your profile on the market : Profile / My Services and click on Download USB Recovery Atlas
-
 ![profilrecovery](images/profilrecovery.png)
-
-
-
 - Download the software [Balena etcher](https://www.balena.io/etcher/)
-
-
-
 - In the software, choose your downloaded image, then your usb key 
-
 ![balenaetcher](images/balenaetcher.png)
-
-
-
 - Once the key is ready, put it in the lower USB 2 port (black USB port), then turn on your Atlas box
-
-
-
 - Wait about 5 to 10 minutes
-
-
-
 - Puis rendez-vous sur http://jeedomatlasrecovery.local/
-
-
-
 - Put username and password :  admin/admin, then change the password, IMPORTANT : put a market account.
-
-
-
 - Once done, Jeeasy launches and shows you the recovery procedure
-
-
-
 - Follow the procedure
-
-
-
-
-> **IMPORTANT**
->
-> Warning ! Un Recovery Mode remet quoi qu'il arrive votre Atlas en configuration « usine » neuve. If you have a backup of your Jeedom configuration, just restore it afterward.
-> 
 
 This Recovery Mode is only compatible with the Jeedom Atlas
