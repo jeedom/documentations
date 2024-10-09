@@ -1,5 +1,9 @@
 # Restauration en mode usine d'une Jeedom Atlas
 
+>**IMPORTANT**
+>
+> Avant toute restoration en mode usine (pour mettre à jour l'os par exemple) il est recommandé/obligatoire de récuperer la derniere sauvegarde de Jeedom en allant sur Réglage -> Systeme -> Sauvegarde
+
 ## Présentation
 
 La Jeedom Atlas est équipée d’un disque Emmc, garantissant une meilleure fiabilité qu'une carte SD, mais ce disque n’est pas directement accessible.
@@ -29,12 +33,7 @@ Jeedom propose un service avec abonnement de sauvegarde automatique sur cloud pr
 >
 >Suivant si vous avez encore accès ou non à votre box, la procédure n'est pas la même.
 
-
-
 Matériel nécessaire : une clé USB (minimum 16Go).
-
-
-
 
 CAS 1 : VOUS AVEZ ACCES A VOTRE BOX ATLAS
 
@@ -42,7 +41,6 @@ CAS 1 : VOUS AVEZ ACCES A VOTRE BOX ATLAS
 Rendez-vous dans le plugin Atlas (Passerelle Domotique/Plugin Atlas), et cliquez sur Recovery, et suivez la procédure.
 
 ***
-
 
 
 CAS 2 : VOUS N'AVEZ PAS ACCES A VOTRE BOX ATLAS
