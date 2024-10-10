@@ -36,6 +36,8 @@
 
 - Adicionando configuração *Thermokon 798808 - MCS Sensor ambiente de temperatura, umidade relativa, brilho*
 
+- Adicionando configuração *Ewattch Lula Pro Rogowski*
+
 # 29/04/2024
 
 - Adicionando configuração *Dragino D23LBLS* (propriedades : Bateria, Temp-Branco, Temp-Vermelho, Temp-Preto, Alarme, Nível PA8, Modo)

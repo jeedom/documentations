@@ -36,6 +36,8 @@
 
 - Konfiguration hinzufügen *Thermokon 798808 - MCS Raumsensor Temperatur, relative Luftfeuchtigkeit, Helligkeit*
 
+- Konfiguration hinzufügen *Ewattch Squid Pro Rogowski*
+
 # 29.04.2024
 
 - Konfiguration hinzufügen *Dragino D23LBLS* (Eigenschaften : Batterie, Temperatur-Weiß, Temperatur-Rot, Temperatur-Schwarz, Alarm, PA8-Stufe, Modus)

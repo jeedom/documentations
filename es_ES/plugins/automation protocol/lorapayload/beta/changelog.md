@@ -36,6 +36,8 @@
 
 - Agregar configuración *Thermokon 798808 - MCS Sensor ambiente temperatura, humedad relativa, luminosidad*
 
+- Agregar configuración *Ewattch Calamar Pro Rogowski*
+
 # 29/04/2024
 
 - Agregar configuración *Dragino D23LBLS* (propiedades : Batería, Temp-Blanco, Temp-Rojo, Temp-Negro, Alarma, Nivel PA8, Modo)

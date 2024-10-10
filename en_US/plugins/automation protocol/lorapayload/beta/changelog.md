@@ -36,6 +36,8 @@
 
 - Adding configuration *Thermokon 798808 - MCS Ambient sensor temperature, relative humidity, brightness*
 
+- Adding configuration *Ewattch Squid Pro Rogowski*
+
 # 04/29/2024
 
 - Adding configuration *Dragino D23LBLS* (properties : Battery, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)
