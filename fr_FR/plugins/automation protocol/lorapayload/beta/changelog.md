@@ -38,6 +38,8 @@
 
 - Ajout de la configuration *Ewattch Squid Pro Rogowski*
 
+- Ajout des commandes downlink de *Thermokon 811187 - NOVOS 3 Capteur d'ambiance température, humidité relative*
+
 # 29/04/2024
 
 - Ajout de la configuration *Dragino D23LBLS* (propriétés : Batterie, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)

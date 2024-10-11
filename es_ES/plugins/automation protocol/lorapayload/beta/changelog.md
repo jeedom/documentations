@@ -38,6 +38,8 @@
 
 - Agregar configuración *Ewattch Calamar Pro Rogowski*
 
+- Comandos de enlace descendente agregados *Thermokon 811187 - NOVOS 3 Sensor ambiente temperatura, humedad relativa*
+
 # 29/04/2024
 
 - Agregar configuración *Dragino D23LBLS* (propiedades : Batería, Temp-Blanco, Temp-Rojo, Temp-Negro, Alarma, Nivel PA8, Modo)
