@@ -4,6 +4,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+
+
+## 13.10.2024
+
+- Korrigieren Sie jeedom.eqLogic.buildSelectCmd() Warnung
+
+
 ## 14.06.2024
 
 - Fehlerbehebung

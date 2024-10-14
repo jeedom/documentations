@@ -1,7 +1,7 @@
 {
   "id" : "RteSync",
   "name": "RteSync",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Plugin pour se connecter à l'API RTE. Pour le moment seule l'API Ecowatt est disponible. Merci de suivre la documentation pour la configuration. [Documentation](https://github.com/impulsio/RteSync/blob/beta/docs/fr_FR/index.md)",
   "licence": "GPL",
   "author": "jercle",

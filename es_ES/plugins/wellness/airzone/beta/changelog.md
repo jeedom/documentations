@@ -4,6 +4,13 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+
+
+## 13/10/2024
+
+- Arreglar jeedom.eqLogic.Advertencia de buildSelectCmd()
+
+
 ## 14/06/2024
 
 - Corrección de errores
