@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Ein Problem mit PHP8 wurde behoben
+
 # 23.09.2024
 
 - Ein Fehler in Jeedom 4.4 wurde behoben

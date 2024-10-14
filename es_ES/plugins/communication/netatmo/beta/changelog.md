@@ -6,6 +6,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
 
+- Corrección de advertencias
+
 # 10/06/2024
 
 - Corrección de advertencias

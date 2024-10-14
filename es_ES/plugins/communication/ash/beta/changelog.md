@@ -4,6 +4,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Se solucionó un problema con PHP8
+
 # 23/09/2024
 
 - Se corrigió un error en Jeedom 4.4

@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Corrigido um bug que poderia preencher logs
+
 # 27/07/2024
 
 - Adicionada compatibilidade com Debian 12 (versão Jeedom 4.4).7 necessário para Debian 12)

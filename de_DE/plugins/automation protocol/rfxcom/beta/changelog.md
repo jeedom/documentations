@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Es wurde ein Fehler behoben, der Protokolle füllen konnte
+
 # 27.07.2024
 
 - Debian 12-Kompatibilität hinzugefügt (Jeedom 4.4-Version).7 für Debian 12 erforderlich)

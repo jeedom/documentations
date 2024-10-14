@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Corrigido um problema com PHP8
+
 # 23/09/2024
 
 - Corrigido um bug no Jeedom 4.4
