@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Der Smartstart respektiert jetzt den minimalen Heizprozentsatz [LINK](https://github.com/jeedom/plugin-thermostat/issues/60)
+
 # 30.09.2024
 
 - Unterstützung für benutzerdefinierte Gerätebilder (Jeedom 4.5)
