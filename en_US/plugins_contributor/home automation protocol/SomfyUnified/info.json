@@ -1,23 +1,23 @@
 {
 	"id": "SomfyUnified",
 	"name": "SomfyUnified",
-	"pluginVersion": "1.2.0",
+	"pluginVersion": "1.2.3",
 	"description": {
-		"fr_FR": "Plugin destiné à permettre une interface entre Jeedom et les équipements connectés via les API OverKiz (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
-		"de_DE": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
-		"en_US": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
-		"es_ES": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
-		"id_ID": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
-		"ja_JP": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
-		"it_IT": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
-		"pt_PT": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)",
-		"ru_RU": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz)"
+		"fr_FR": "Plugin destiné à permettre une interface entre Jeedom et les équipements connectés via les API OverKiz (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz). Ne prend pas en charge Naviclim, Navilink, WiFi Direct.",
+		"de_DE": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz). Not suitable for Naviclim, Navilink, WiFi Direct.",
+		"en_US": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz). Not suitable for Naviclim, Navilink, WiFi Direct.",
+		"es_ES": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz). Not suitable for Naviclim, Navilink, WiFi Direct.",
+		"id_ID": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz). Not suitable for Naviclim, Navilink, WiFi Direct.",
+		"ja_JP": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz). Not suitable for Naviclim, Navilink, WiFi Direct.",
+		"it_IT": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz). Not suitable for Naviclim, Navilink, WiFi Direct.",
+		"pt_PT": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz). Not suitable for Naviclim, Navilink, WiFi Direct.",
+		"ru_RU": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz). Not suitable for Naviclim, Navilink, WiFi Direct."
 	},
 	"licence": "AGPL",
 	"author": "Eridani78",
 	"require": "4.2",
 	"os": {
-		"min": 10.00,
+		"min": 10.01,
 		"max": 12.99
 	},
 	"category": "home automation protocol",

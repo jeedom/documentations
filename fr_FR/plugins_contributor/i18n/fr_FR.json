@@ -342,6 +342,7 @@
         "IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale": "IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale",
         "TaHomaLocal": "TaHomaLocal",
         "Voir aussi nouveau plugin SOMFYUNIFIED pour des fonctionnalités plus étendues": "Voir aussi nouveau plugin SOMFYUNIFIED pour des fonctionnalités plus étendues",
+        "Ne prend pas en charge Naviclim, Navilink, WiFi Direct": "Ne prend pas en charge Naviclim, Navilink, WiFi Direct",
         "SomfyUnified": "SomfyUnified",
         "Plugin destiné à permettre une interface entre Jeedom et les équipements connectés via les API OverKiz (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz": "Plugin destiné à permettre une interface entre Jeedom et les équipements connectés via les API OverKiz (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz",
         "MerosSync": "MerosSync",

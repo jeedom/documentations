@@ -713,6 +713,7 @@
         "Plugin pour commander les modules Yokis en local": "Plugin pour commander les modules Yokis en local",
         "IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale": "WICHTIG – Stellen Sie zunächst sicher, dass Sie über eine kompatible Somfy-Box verfügen, auf der Sie den Entwicklermodus in Ihrem Somfy-Konto aktivieren können (aktiviert die lokale API)",
         "Voir aussi nouveau plugin SOMFYUNIFIED pour des fonctionnalités plus étendues": "Weitere umfangreiche Funktionen finden Sie auch im neuen SOMFYUNIFIED-Plugin",
+        "Ne prend pas en charge Naviclim, Navilink, WiFi Direct": "Unterstützt nicht Naviclim, Navilink, WiFi Direct",
         "Plugin destiné à permettre une interface entre Jeedom et les équipements connectés via les API OverKiz (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz": "Plugin soll eine Schnittstelle zwischen Jeedom und verbundenen Geräten über die OverKiz-APIs (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz) ermöglichen",
         "Plugin pour contrôler les appareils MEROSS": "Plugin zur Steuerung von MEROSS-Geräten",
         "Passerelle domotique": "Hausautomations-Gateway",
