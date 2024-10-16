@@ -1,7 +1,7 @@
 {
 	"id": "frigate",
 	"name": "Frigate",
-	"pluginVersion": "1.1.0",
+	"pluginVersion": "1.1.2",
 	"description": {
 		"fr_FR": "Plugin Frigate pour Jeedom. Ne fonctionne qu'avec les versions de Frigate > 0.13.0",
 		"en_US": "Frigate plugin for Jeedom. Works only with Frigate versions > 0.13.0",
