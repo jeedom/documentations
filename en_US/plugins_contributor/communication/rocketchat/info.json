@@ -12,7 +12,10 @@
 	"utilization": "Vous devez créer un utilisateur sur votre seveur Rocket.Chat dédié au plugin, de préférence ayant le rôle 'bot'",
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.2",
+	"require": "4.4",
+	"os": {
+		"min": 11
+	},
 	"category": "communication",
 	"hasDependency": true,
 	"hasOwnDeamon": true,
@@ -40,8 +43,5 @@
 		"docker",
 		"diy",
 		"v4"
-	],
-	"os": {
-		"min": 11
-	}
+	]
 }
