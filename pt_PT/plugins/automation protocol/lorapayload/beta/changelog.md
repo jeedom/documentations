@@ -40,6 +40,8 @@
 
 - Adicionados comandos de downlink *Thermokon 811187 - NOVOS 3 Sensor ambiente de temperatura, umidade relativa*
 
+- Adicionando configuração *Milesight - Transformador de corrente inteligente CT101*
+
 # 29/04/2024
 
 - Adicionando configuração *Dragino D23LBLS* (propriedades : Bateria, Temp-Branco, Temp-Vermelho, Temp-Preto, Alarme, Nível PA8, Modo)

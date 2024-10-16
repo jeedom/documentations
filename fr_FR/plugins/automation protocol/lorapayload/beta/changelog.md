@@ -40,6 +40,8 @@
 
 - Ajout des commandes downlink de *Thermokon 811187 - NOVOS 3 Capteur d'ambiance température, humidité relative*
 
+- Ajout de la configuration *Milesight - Smart Current Transformer CT101*
+
 # 29/04/2024
 
 - Ajout de la configuration *Dragino D23LBLS* (propriétés : Batterie, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)

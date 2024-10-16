@@ -40,6 +40,8 @@
 
 - Downlink-Befehle hinzugefügt *Thermokon 811187 - NOVOS 3 Raumsensor Temperatur, relative Luftfeuchtigkeit*
 
+- Konfiguration hinzufügen *Milesight – Intelligenter Stromwandler CT101*
+
 # 29.04.2024
 
 - Konfiguration hinzufügen *Dragino D23LBLS* (Eigenschaften : Batterie, Temperatur-Weiß, Temperatur-Rot, Temperatur-Schwarz, Alarm, PA8-Stufe, Modus)
