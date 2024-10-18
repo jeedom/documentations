@@ -7,6 +7,7 @@
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
 
 - Corrección de advertencias
+- Mejor gestión de equipos discapacitados
 
 # 10/06/2024
 

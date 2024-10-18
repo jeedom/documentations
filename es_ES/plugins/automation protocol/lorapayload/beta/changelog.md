@@ -42,6 +42,10 @@
 
 - Agregar configuración *Milesight - Transformador de corriente inteligente CT101*
 
+- Agregar configuración *Dragino - RS485-LN + CarloGavazzi EM540*
+
+- Agregar configuración *Dragino - RS485-LN + OTMetric + Polier*
+
 # 29/04/2024
 
 - Agregar configuración *Dragino D23LBLS* (propiedades : Batería, Temp-Blanco, Temp-Rojo, Temp-Negro, Alarma, Nivel PA8, Modo)

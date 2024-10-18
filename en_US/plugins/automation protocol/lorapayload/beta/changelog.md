@@ -42,6 +42,10 @@
 
 - Adding configuration *Milesight - Smart Current Transformer CT101*
 
+- Adding configuration *Dragino - RS485-LN + CarloGavazzi EM540*
+
+- Adding configuration *Dragino - RS485-LN + OTMetric + Polier*
+
 # 04/29/2024
 
 - Adding configuration *Dragino D23LBLS* (properties : Battery, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)

@@ -42,6 +42,10 @@
 
 - Konfiguration hinzufügen *Milesight – Intelligenter Stromwandler CT101*
 
+- Konfiguration hinzufügen *Dragino - RS485-LN + CarloGavazzi EM540*
+
+- Konfiguration hinzufügen *Dragino - RS485-LN + OTMetric + Polier*
+
 # 29.04.2024
 
 - Konfiguration hinzufügen *Dragino D23LBLS* (Eigenschaften : Batterie, Temperatur-Weiß, Temperatur-Rot, Temperatur-Schwarz, Alarm, PA8-Stufe, Modus)
