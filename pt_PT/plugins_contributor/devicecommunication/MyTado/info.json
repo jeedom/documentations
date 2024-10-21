@@ -1,7 +1,7 @@
 {
 	"id": "MyTado",
 	"name": "MyTado",
-	"version": "1.4",
+	"version": "1.5",
 	"description": {
 		"fr_FR": "Ce plugin permet de gérer les objets connectés Tado. Il donne également accès à la météo Tado.",
 		"en_US": "This plugin enables management of your Tado devices. You may as well access weather data managed by Tado.",
@@ -25,7 +25,8 @@
 	"languages": [
 		"fr_FR",
 		"en_US",
-		"de_DE"
+		"de_DE",
+		"es_ES"
 	],
 	"compatibility": [
 		"luna",
