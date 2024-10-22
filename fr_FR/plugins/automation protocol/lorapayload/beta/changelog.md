@@ -46,6 +46,8 @@
 
 - Ajout de la configuration *Dragino - RS485-LN + OTMetric + Polier*
 
+- Ajout des commandes downlink de *MClimate Wireless Thermostat*
+
 # 29/04/2024
 
 - Ajout de la configuration *Dragino D23LBLS* (propriétés : Batterie, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)

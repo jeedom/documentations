@@ -46,6 +46,8 @@
 
 - Adicionando configuração *Dragino - RS485-LN + OTMetric + Polier*
 
+- Adicionados comandos de downlink *Termostato sem fio MClimate*
+
 # 29/04/2024
 
 - Adicionando configuração *Dragino D23LBLS* (propriedades : Bateria, Temp-Branco, Temp-Vermelho, Temp-Preto, Alarme, Nível PA8, Modo)
