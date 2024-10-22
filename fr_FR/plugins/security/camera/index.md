@@ -135,7 +135,9 @@ Par défaut il suffit de mettre le nombre de captures voulues dans le champ "nom
 
 > **Exemples**
 >
-> nbSnap=3 delay=5 ==> envoi 3 captures faites à 5 secondes d'intervalle (envoi déclenché via le scénario) movie=1 sendFirstSnap=1 enregistre une vidéo jusqu'à la commande "Arrêter Enregistrement" à insérer dans le scénario. Le film sera stocké sur votre Jeedom.
+> ``nbSnap=3 delay=5`` ==> envoi 3 captures faites à 5 secondes d'intervalle (envoi déclenché via le scénario)
+>
+> ``movie=1 sendFirstSnap=1`` ==> enregistre une vidéo jusqu'à la commande "Arrêter Enregistrement" à insérer dans le scénario. Le film sera stocké sur votre Jeedom.
 
 # Envoi de la détection de mouvement à Jeedom
 
