@@ -1,0 +1,48 @@
+{
+    "id": "jeeMeter",
+    "name": "Compteur virtuel",
+    "pluginVersion": "0.1",
+    "description": {
+        "fr_FR": "Créez des compteurs énergétiques sur mesure (tarif unique ou heures pleines\/heures creuses) à partir d'indexs bruts (Wh\/kWh) et\/ou de puissances (W\/kW). Permet également de créer des compteurs par utilisateur (Personnalisé\/OCPP).",
+        "en_US": "Create custom energy meters (single rate or peak\/off-peak hours) from raw indexes (Wh\/kWh) and\/or powers (W\/kW). Also allows you to create meters per user (Custom\/OCPP)",
+        "es_ES": "Cree contadores de energía a medida (tarifa única u horas punta\/valle) a partir de índices brutos (Wh\/kWh) y\/o potencias (W\/kW). También permite crear contadores por usuario (Personalizado\/OCPP)",
+        "de_DE": "Erstellen Sie maßgeschneiderte Energiezähler (Einzeltarif oder Spitzen-\/Nebenzeiten) aus Rohindizes (Wh\/kWh) und\/oder Leistungen (W\/kW). Ermöglicht Ihnen außerdem das Erstellen von Zählern pro Benutzer (Benutzerdefiniert\/OCPP)",
+        "ru_RU": "Créez des compteurs énergétiques sur mesure (tarif unique ou heures pleines\/heures creuses) à partir d'indexs bruts (Wh\/kWh) et\/ou de puissances (W\/kW). Permet également de créer des compteurs par utilisateur (Personnalisé\/OCPP)",
+        "id_ID": "Créez des compteurs énergétiques sur mesure (tarif unique ou heures pleines\/heures creuses) à partir d'indexs bruts (Wh\/kWh) et\/ou de puissances (W\/kW). Permet également de créer des compteurs par utilisateur (Personnalisé\/OCPP)",
+        "it_IT": "Créez des compteurs énergétiques sur mesure (tarif unique ou heures pleines\/heures creuses) à partir d'indexs bruts (Wh\/kWh) et\/ou de puissances (W\/kW). Permet également de créer des compteurs par utilisateur (Personnalisé\/OCPP)",
+        "ja_JP": "Créez des compteurs énergétiques sur mesure (tarif unique ou heures pleines\/heures creuses) à partir d'indexs bruts (Wh\/kWh) et\/ou de puissances (W\/kW). Permet également de créer des compteurs par utilisateur (Personnalisé\/OCPP)",
+        "pt_PT": "Crie medidores de energia sob medida (tarifa única ou horários de pico\/fora de pico) a partir de índices brutos (Wh\/kWh) e\/ou potências (W\/kW). Também permite criar contadores por usuário (Custom\/OCPP)",
+        "tr": "Créez des compteurs énergétiques sur mesure (tarif unique ou heures pleines\/heures creuses) à partir d'indexs bruts (Wh\/kWh) et\/ou de puissances (W\/kW). Permet également de créer des compteurs par utilisateur (Personnalisé\/OCPP)"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.4",
+    "category": "energy",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/jeeMeter\/beta\/changelog",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/jeeMeter\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/jeeMeter\/beta",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/jeeMeter",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "smart",
+        "luna",
+        "atlas",
+        "rpi",
+        "docker",
+        "diy"
+    ]
+}
