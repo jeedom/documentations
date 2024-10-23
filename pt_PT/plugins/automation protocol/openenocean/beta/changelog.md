@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 23/10/2024
+
+- Correção de compatibilidade do Debian 12
+
 # 10/10/2024
 
 - Compatibilidade do Daemon com Debian 12
