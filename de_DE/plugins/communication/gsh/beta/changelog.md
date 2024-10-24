@@ -4,7 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 24.10.2024
+
 - Ein Fehler bei Modeausrüstung wurde behoben
+- Korrektur bei Geräten vom Typ Thermostat
+- Ein Fehler bei der Luftfeuchtigkeitswertmeldung wurde behoben
 
 # 11.08.2024
 

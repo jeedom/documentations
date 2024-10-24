@@ -4,7 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 24/10/2024
+
 - Corrigido um bug em equipamentos do tipo moda
+- Correção em equipamentos tipo Termostato
+- Corrigido um bug no relatório do valor de umidade
 
 # 11/08/2024
 

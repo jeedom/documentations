@@ -4,7 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 10/24/2024
+
 - Fixed a bug on fashion type equipment
+- Correction on Thermostat type equipment
+- Fixed a bug on the humidity value feedback
 
 # 11/08/2024
 
