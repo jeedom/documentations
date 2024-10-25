@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 24/10/2024
+
+- Optimización de la recuperación de IP
+
 # 31/05/2024
 
 - Optimización de la recuperación de IP
