@@ -6,6 +6,15 @@
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
 
+
+# 28/10/2024
+
+- Correção para uso da CPU
+- Threading para leitura de dados
+- Otimização de código
+- Corrija possíveis valores nulos
+
+
 # 27/03/2024
 
 - Corrigir comandos OnOff
