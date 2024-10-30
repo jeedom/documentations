@@ -48,6 +48,8 @@
 
 - Downlink-Befehle hinzugefügt *Drahtloser MClimate-Thermostat*
 
+- Konfiguration hinzufügen *Milesight Smarter Heizkörperthermostat WT101*
+
 # 29.04.2024
 
 - Konfiguration hinzufügen *Dragino D23LBLS* (Eigenschaften : Batterie, Temperatur-Weiß, Temperatur-Rot, Temperatur-Schwarz, Alarm, PA8-Stufe, Modus)

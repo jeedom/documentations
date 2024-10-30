@@ -48,6 +48,8 @@
 
 - Added downlink commands from *MClimate Wireless Thermostat*
 
+- Adding configuration *Milesight Smart Radiator Thermostat WT101*
+
 # 04/29/2024
 
 - Adding configuration *Dragino D23LBLS* (properties : Battery, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)

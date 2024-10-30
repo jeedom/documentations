@@ -48,6 +48,8 @@
 
 - Comandos de enlace descendente agregados *Termostato inalámbrico MClimate*
 
+- Agregar configuración *Termostato de radiador inteligente Milesight WT101*
+
 # 29/04/2024
 
 - Agregar configuración *Dragino D23LBLS* (propiedades : Batería, Temp-Blanco, Temp-Rojo, Temp-Negro, Alarma, Nivel PA8, Modo)
