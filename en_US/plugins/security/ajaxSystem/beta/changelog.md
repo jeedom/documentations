@@ -4,6 +4,8 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+- Better cloud query management
+
 # 07/09/2024
 
 - Minimum core version 4.4

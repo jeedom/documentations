@@ -4,6 +4,8 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Meilleur gestion des requetes au cloud
+
 # 07/09/2024
 
 - Version minimal du core 4.4
