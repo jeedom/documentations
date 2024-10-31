@@ -6,7 +6,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# xx/08/2024
+# 30/10/2024
 
 - Modification de la configuration *MClimate Wireless Thermostat* (propriétés : Manual Target Temperature Update)
 
@@ -76,6 +76,7 @@
 
 
 # 21/02/2024
+
 - Changement du niveau de logs pour certaines informations générées par le plugin
 
 - Changement du type du module *Milesight EM500 PT100*
@@ -84,6 +85,7 @@
 
 
 # 19/01/2024
+
 - Ajout de la configuration *RAK c15003* (propriétés : Température, Humidité, Pression, Température2)
 
 - Modification de la configuration *Mclimate Vicki* (propriétés : GetKeepAlive, KeepAlive, GetDevicePrimaryOperationalMode, DevicePrimaryOperationalMode, GetOperationalMode, OperationalMode, Proportional control, Equal directional control, Proportional Integral control, GetControlAlgorithm, ControlAlgorithm, Open window detection parameters (1.0 accuracy), Open window detection parameters (0.1 accuracy))

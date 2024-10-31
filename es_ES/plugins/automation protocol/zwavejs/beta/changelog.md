@@ -4,6 +4,8 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+- Adición del modo remoto (en beta y tenga cuidado, esto reduce las funciones de los complementos), lea atentamente la documentación, cambiar al modo remoto tiene un fuerte impacto en la facilidad de uso e incluso en la compatibilidad con ciertos módulos
+
 # 27/09/2024
 
 - Cambio de versiones mínimas, core 4.4 y SO Debian 11 mínimo

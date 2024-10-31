@@ -6,7 +6,7 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
-# xx/08/2024
+# 30/10/2024
 
 - Alterando a configuração *Termostato sem fio MClimate* (propriedades : Atualização manual da temperatura alvo)
 
@@ -76,6 +76,7 @@
 
 
 # 21/02/2024
+
 - Alterando o nível de log para determinadas informações geradas pelo plugin
 
 - Alterando o tipo de módulo *Milesight EM500 PT100*
@@ -84,6 +85,7 @@
 
 
 # 19/01/2024
+
 - Adicionando configuração *RAK c15003* (propriedades : Temperatura, Umidade, Pressão, Temperatura2)
 
 - Alterando a configuração *Clima Vicki* (propriedades : GetKeepAlive, KeepAlive, GetDevicePrimaryOperationalMode, DevicePrimaryOperationalMode, GetOperationalMode, OperationalMode, controle proporcional, controle direcional igual, controle integral proporcional, GetControlAlgorithm, ControlAlgorithm, parâmetros de detecção de janela aberta (1.precisão 0), parâmetros de detecção de janela aberta (0.1 precisão))

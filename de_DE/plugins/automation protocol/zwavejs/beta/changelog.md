@@ -4,6 +4,8 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Hinzufügung des Remote-Modus (in der Betaversion und seien Sie vorsichtig, dadurch werden die Funktionen der Plugins eingeschränkt). Lesen Sie die Dokumentation sorgfältig durch. Der Wechsel in den Remote-Modus hat starke Auswirkungen auf die Benutzerfreundlichkeit und sogar auf die Kompatibilität mit bestimmten Modulen
+
 # 27.09.2024
 
 - Änderung der Mindestversionen, Core 4.4 und OS Debian 11 mindestens

@@ -24,6 +24,14 @@ Concernant la configuration du plugin, le point primordial est la bonne sélecti
 
 Les autres paramétrages possibles sont :
 
+- **Mode** : permet de choisir si vous voulez fonctionner en mode local (par defaut et vivement recommandé) ou distant (cas ou vous avez vous meme installé et configuré zwavejs, attention il faut bien sur qu'il soit sur le meme brocker mqtt que jeedom). Le mode distant à quelques contrainte : 
+- plus de gestion du demon bien sur
+- plus de gestion des dépendances
+- plus de gestion de la version zwavejs
+- perte de certaine detections automatique sur les class zwave du module
+- bien sur aucune configuration automatique de zwavejs c'est a vous de gérer le fichier de conf avec toute les informations qui vont bien dedans
+- les modules spécifiques rajouté par jeedom (en plus de ceux supporté par zwavejs) ne seront bien sur plus compatible
+
 - **Appliquer la configuration recommandée** : applique directement le jeu de configuration recommandé par l’équipe Jeedom lors de l'inclusion d'un nouveau module *(conseillé)*.
 
 - **Suppression des périphériques exclus** : permet de supprimer automatiquement les périphériques exclus du réseau Z-Wave si cochée. Sinon, les équipements sont conservés dans Jeedom même s’ils ont été exclus du réseau. L’équipement devra être alors supprimé manuellement ou réutilisé en lui assignant un nouvel identifiant Z-Wave.

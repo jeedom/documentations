@@ -6,7 +6,7 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
-# xx/08/2024
+# 30/10/2024
 
 - Cambiando la configuración *Termostato inalámbrico MClimate* (propiedades : Actualización manual de la temperatura objetivo)
 
@@ -76,6 +76,7 @@
 
 
 # 21/02/2024
+
 - Cambiar el nivel de registro para cierta información generada por el complemento
 
 - Cambiar el tipo de módulo *Vista de millas EM500 PT100*
@@ -84,6 +85,7 @@
 
 
 # 19/01/2024
+
 - Agregar configuración *RAK c15003* (propiedades : Temperatura, Humedad, Presión, Temperatura2)
 
 - Cambiando la configuración *Vicki del clima* (propiedades : GetKeepAlive, KeepAlive, GetDevicePrimaryOperationalMode, DevicePrimaryOperationalMode, GetOperationalMode, OperationalMode, control proporcional, control direccional igual, control integral proporcional, GetControlAlgorithm, ControlAlgorithm, parámetros de detección de ventana abierta (1.0 precisión), parámetros de detección de ventana abierta (0.1 precisión))

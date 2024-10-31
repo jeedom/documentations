@@ -24,6 +24,14 @@ Bei der Konfiguration des Plugins ist der wesentliche Punkt die richtige Auswahl
 
 Andere mögliche Einstellungen sind :
 
+- **Mode** : Hier können Sie wählen, ob Sie im lokalen Modus (standardmäßig und dringend empfohlen) oder remote (falls Sie zwavejs selbst installiert und konfiguriert haben) arbeiten möchten. Achten Sie darauf, dass es sich natürlich auf demselben Brocker MQTT wie Jeedom befinden muss). Der Remote-Modus weist einige Einschränkungen auf : 
+- Natürlich kein Dämonenmanagement mehr
+- mehr Abhängigkeitsmanagement
+- mehr zwavejs-Versionsverwaltung
+- Verlust bestimmter automatischer Erkennungen für die Zwave-Klassen des Moduls
+- Natürlich gibt es keine automatische Konfiguration von zwavejs. Es liegt an Ihnen, die Conf-Datei mit allen darin enthaltenen Informationen zu verwalten
+- Die von jeedom hinzugefügten spezifischen Module (zusätzlich zu den von zwavejs unterstützten) sind natürlich nicht mehr kompatibel
+
 - **Wenden Sie die empfohlene Konfiguration an** : wendet direkt den vom Jeedom-Team empfohlenen Konfigurationssatz an, wenn ein neues Modul hinzugefügt wird *(conseillé)*.
 
 - **Ausgeschlossene Geräte löschen** : entfernt automatisch Geräte, die vom Z-Wave-Netzwerk ausgeschlossen sind, wenn diese Option aktiviert ist. Andernfalls bleibt das Gerät in Jeedom, auch wenn es vom Netzwerk ausgeschlossen wurde. Das Gerät muss dann manuell gelöscht oder wiederverwendet werden, indem ihm eine neue Z-Wave-Kennung zugewiesen wird.

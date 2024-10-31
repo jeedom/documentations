@@ -6,6 +6,75 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
+# xx/08/2024
+
+- Cambiando la configuración *Termostato inalámbrico MClimate* (propiedades : Actualización manual de la temperatura objetivo)
+
+- Agregar configuración *Mira de millas WS303* (propiedades : Batería, estado de fuga)
+
+- Cambiando la configuración *Vega SI-11 Rev2* (propiedades : Periodo de comunicación, modo de entrada)
+
+- Agregar configuración *Termostato Fan Coil Mclimate*
+
+- Agregar configuración *Probador de red WATTECO NETW'O*
+
+- Agregar configuración *Milesight EM300 DI*
+
+- Agregar configuración *Mclimate Pantalla CO2 lite*
+
+- Agregar configuración *Pantalla climática CO2*
+
+- Agregar configuración *Fan Coil inteligente Milesight WT301*
+
+- Agregar configuración *Thermokon 798228 - MCS Detector de movimiento, Sensor ambiente temperatura, humedad relativa, movimiento, presencia*
+
+- Cambiando la configuración *ELLA MIO LORA V2* (añadir hasta 20 sondas de temperatura)
+
+- Agregar configuración *Enginko MCF - LW13 IO*
+
+- Comandos de enlaces descendentes agregados *Cuantificar Metro Cúbico*
+
+- Agregar configuración *Thermokon 798808 - MCS Sensor ambiente temperatura, humedad relativa, luminosidad*
+
+- Agregar configuración *Ewattch Calamar Pro Rogowski*
+
+- Comandos de enlace descendente agregados *Thermokon 811187 - NOVOS 3 Sensor ambiente temperatura, humedad relativa*
+
+- Agregar configuración *Milesight - Transformador de corriente inteligente CT101*
+
+- Agregar configuración *Dragino - RS485-LN + CarloGavazzi EM540*
+
+- Agregar configuración *Dragino - RS485-LN + OTMetric + Polier*
+
+- Comandos de enlace descendente agregados *Termostato inalámbrico MClimate*
+
+- Agregar configuración *Termostato de radiador inteligente Milesight WT101*
+
+# 29/04/2024
+
+- Agregar configuración *Dragino D23LBLS* (propiedades : Batería, Temp-Blanco, Temp-Rojo, Temp-Negro, Alarma, Nivel PA8, Modo)
+
+- Agregar configuración *Citylone SL32 y Citylone SL22* (propiedades : Voltaje, corriente, potencia, cos phi, temperatura, voltaje del LED, nivel de lámparas, modo de lámparas, posición de solicitud, latitud, longitud, estado de cambio de hora de solicitud, habilitar cambio de hora, deshabilitar cambio de hora, RSSI, marca de tiempo, actualización a través de LNS, en relé , Relé apagado)
+
+- Agregar configuración *Cuantificar Metro Cúbico* (propiedades : Código de error, volumen total, estado de fuga, estado de la batería, temperatura mínima, temperatura máxima, temperatura ambiente)
+
+- Agregar configuración *Eastron SDM630* (propiedades : Número de serie, energía total, frecuencia, factor de potencia total, demanda máxima de energía total del sistema, corriente total)
+
+- Agregar configuración *Dragino CS01 LB* (propiedades : Batería, EXTI_Trigger, EXTI_Level, Current1, Current2, Current3, Current4, CurL_status, CurH_status)
+
+- Agregar configuración *Enerbee e-VAV* (propiedades : Temperatura, humedad, flujo objetivo, flujo actual, CO2, IAQ, nivel de carga, nivel de apertura de la compuerta, estado del sistema)
+
+- Agregar configuración *Mira de millas EM300TH* (propiedades : Batería, temperatura, humedad)
+
+- Agregar configuración *NKE Triphas'O* (propiedades : Fase de tensión (A, B, C), Fase de corriente (A, B, C), Fase de corriente de tensión angular (A, B, C), Fase de energía activa positiva (ABC, A, B, C), Fase de energía activa negativa (ABC, A, B, C), Fase de Energía Reactiva Positiva (ABC, A, B, C), Fase de Potencia Activa Positiva (ABC, A, B, C), Fase de Potencia Activa Negativa (ABC, A, B, C) ) ), Fase de potencia reactiva positiva (ABC, A, B, C), Fase de potencia reactiva negativa (ABC, A, B, C), Fase de estado de entrada binaria (ABC, A, B, C))
+
+- Agregar configuración *Temperatura RH Thermokon* (propiedades : Temperatura, humedad)
+
+- Agregar configuración *Mira de millas EM300TH* (propiedades : Batería, temperatura, humedad)
+
+- Agregar configuración *Mira de millas EM500LGT* (propiedades : Batería, Iluminación)
+
+
 # 21/02/2024
 - Cambiar el nivel de registro para cierta información generada por el complemento
 

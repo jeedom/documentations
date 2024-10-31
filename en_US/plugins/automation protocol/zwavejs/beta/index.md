@@ -24,6 +24,14 @@ Regarding the configuration of the plugin, the essential point is the correct se
 
 Other possible settings are :
 
+- **Fashion** : allows you to choose whether you want to operate in local mode (default and highly recommended) or remote (case where you have installed and configured zwavejs yourself, be careful it must of course be on the same mqtt broker as jeedom). Remote mode has some constraints : 
+- more demon management of course
+- more dependency management
+- more zwavejs version management
+- loss of certain automatic detections on the module's zwave class
+- of course no automatic configuration of zwavejs it is up to you to manage the conf file with all the information that goes well in it
+- the specific modules added by jeedom (in addition to those supported by zwavejs) will of course no longer be compatible
+
 - **Apply the recommended configuration** : directly applies the configuration set recommended by the Jeedom team when including a new module *(conseillé)*.
 
 - **Deleting excluded devices** : automatically removes devices excluded from the Z-Wave network if checked. Otherwise, the equipment is kept in Jeedom even if it has been excluded from the network. The equipment will then have to be deleted manually or reused by assigning it a new Z-Wave identifier.

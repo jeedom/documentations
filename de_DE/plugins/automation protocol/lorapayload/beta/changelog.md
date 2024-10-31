@@ -6,7 +6,7 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# xx/08/2024
+# 30.10.2024
 
 - Ändern der Konfiguration *Drahtloser MClimate-Thermostat* (Eigenschaften : Manuelle Aktualisierung der Zieltemperatur)
 
@@ -76,6 +76,7 @@
 
 
 # 21.02.2024
+
 - Ändern der Protokollebene für bestimmte vom Plugin generierte Informationen
 
 - Ändern des Modultyps *Milesight EM500 PT100*
@@ -84,6 +85,7 @@
 
 
 # 19.01.2024
+
 - Konfiguration hinzufügen *RAK c15003* (Eigenschaften : Temperatur, Luftfeuchtigkeit, Druck, Temperatur2)
 
 - Ändern der Konfiguration *Mclimate Vicki* (Eigenschaften : GetKeepAlive, KeepAlive, GetDevicePrimaryOperationalMode, DevicePrimaryOperationalMode, GetOperationalMode, OperationalMode, Proportionalsteuerung, Gleichrichtungssteuerung, Proportional-Integralsteuerung, GetControlAlgorithm, ControlAlgorithm, Parameter zur Erkennung offener Fenster (1.0 Genauigkeit), Parameter zur Erkennung offener Fenster (0.1 Genauigkeit))

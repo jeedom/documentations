@@ -6,6 +6,50 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 30/10/2024
+
+- Modification de la configuration *MClimate Wireless Thermostat* (propriétés : Manual Target Temperature Update)
+
+- Ajout de la configuration *Milesight WS303* (propriétés : Batterie, Leakage Status)
+
+- Modification de la configuration *Vega SI-11 Rev2* (propriétés : Communication period, Input Mode)
+
+- Ajout de la configuration *MClimate Fan Coil Thermostat*
+
+- Ajout de la configuration *WATTECO Testeur de réseau NETW'O*
+
+- Ajout de la configuration *Milesight EM300 DI*
+
+- Ajout de la configuration *Mclimate Display CO2 lite*
+
+- Ajout de la configuration *Mclimate Display CO2*
+
+- Ajout de la configuration *Milesight Smart Fan Coil WT301*
+
+- Ajout de la configuration *Thermokon 798228 - MCS Détecteur de mouvement, Capteur d'ambiance température, humidité relative, mouvement, présence*
+
+- Modification de la configuration *SHE MIO LORA V2* (ajouter jusqu'à 20 sondes de températures)
+
+- Ajout de la configuration *Enginko MCF - LW13 IO*
+
+- Ajout des commandes de downlinks *Quandify Cubic Meter*
+
+- Ajout de la configuration *Thermokon 798808 - MCS Capteur d’ambiance température, humidité relative, luminosité*
+
+- Ajout de la configuration *Ewattch Squid Pro Rogowski*
+
+- Ajout des commandes downlink de *Thermokon 811187 - NOVOS 3 Capteur d'ambiance température, humidité relative*
+
+- Ajout de la configuration *Milesight - Smart Current Transformer CT101*
+
+- Ajout de la configuration *Dragino - RS485-LN + CarloGavazzi EM540*
+
+- Ajout de la configuration *Dragino - RS485-LN + OTMetric + Polier*
+
+- Ajout des commandes downlink de *MClimate Wireless Thermostat*
+
+- Ajout de la configuration *Milesight Smart Radiator Thermostat WT101*
+
 # 29/04/2024
 
 - Ajout de la configuration *Dragino D23LBLS* (propriétés : Batterie, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)
@@ -32,6 +76,7 @@
 
 
 # 21/02/2024
+
 - Changement du niveau de logs pour certaines informations générées par le plugin
 
 - Changement du type du module *Milesight EM500 PT100*
@@ -40,6 +85,7 @@
 
 
 # 19/01/2024
+
 - Ajout de la configuration *RAK c15003* (propriétés : Température, Humidité, Pression, Température2)
 
 - Modification de la configuration *Mclimate Vicki* (propriétés : GetKeepAlive, KeepAlive, GetDevicePrimaryOperationalMode, DevicePrimaryOperationalMode, GetOperationalMode, OperationalMode, Proportional control, Equal directional control, Proportional Integral control, GetControlAlgorithm, ControlAlgorithm, Open window detection parameters (1.0 accuracy), Open window detection parameters (0.1 accuracy))
