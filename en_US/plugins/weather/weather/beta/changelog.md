@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 10/31/2024
+
+- Optimizing weather retrieval
+
 # 09/26/2024
 
 - Fixed a warning
