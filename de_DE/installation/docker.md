@@ -96,8 +96,9 @@ volumes:
 
 „
 services:
-  db:
+  jeedom_db:
     image: mariadb:latest
+    Containername: jeedom_db
     command: 
       - "--default-authentication-plugin=mysql_native_password"
       - "--skip-name-resolve"
@@ -126,8 +127,9 @@ services:
       - MYSQL_PASSWORD=TODO
     expose:
       - 3306
-  http:
+  jeedom_http:
     image: jeedom/jeedom:4.4-http-Bücherwurm
+    Containername: jeedom_http
     volumes:
       - http:/var/www/html
     tmpfs:
@@ -136,7 +138,7 @@ services:
       - 52080:80
     restart: always
     environment:
-      - DB_HOST=db
+      - DB_HOST=jeedom_db
       - DB_USERNAME=jeedom
       - DB_PASSWORD=TODO
       - DB_NAME=jeedom
@@ -146,7 +148,7 @@ services:
       timeout: 10s
       retries: 5
     kommt drauf an:
-      - db
+      - jeedom_db
 volumes:
   db:
   http:
