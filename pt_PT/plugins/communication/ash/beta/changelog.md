@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 11/06/2024
+
 - Corrigido um problema com PHP8
 
 # 23/09/2024

@@ -4,6 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 11/06/2024
+
+-  Correção de bug para PHP8
+-  Melhor gerenciamento de modo
+
 # 24/10/2024
 
 - Corrigido um bug em equipamentos do tipo moda

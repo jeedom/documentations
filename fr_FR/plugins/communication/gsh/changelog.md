@@ -4,6 +4,17 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 06/11/2024
+
+-  Correction de bug pour PHP8
+-  Meilleure gestion des modes
+
+# 24/10/2024
+
+- Correction d'un bug sur les équipements de type mode
+- Correction sur les équipements de type Thermostat
+- Correction d'un bug sur la remonté de valeur d'humidité
+
 # 11/08/2024
 
 - Support des toggles

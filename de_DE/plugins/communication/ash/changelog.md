@@ -4,8 +4,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Ein Problem mit PHP8 wurde behoben
+
+# 23.09.2024
+
 - Ein Fehler in Jeedom 4.4 wurde behoben
 - Bitte beachten Sie, dass das Plugin nur mit Jeedom 4 kompatibel ist.4 oder mehr
+- Eine Warnung zur taAutosize-Funktion wurde behoben
 
 # 15.01.2024
 
