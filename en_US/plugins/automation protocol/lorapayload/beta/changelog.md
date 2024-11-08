@@ -6,6 +6,18 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+# xx/xx/xx
+
+- Adding configuration *NKE Torano*
+
+- Changing the configuration *Dragino LSN50 V2 - MOD4* (properties : Digital Interrupt)
+
+- Adding configuration *Thermokon 798808 - MCS Ambient sensor temperature, relative humidity, brightness*
+
+- Adding configuration *Thermokon 817318 - MCS Motion detector, Room sensor temperature, relative humidity, brightness, movement, presence, status*
+
+- Adding configuration *Thermokon 824248 - NOVOS 3 Room control module temperature, relative humidity, CO2*
+
 # 10/30/2024
 
 - Changing the configuration *MClimate Wireless Thermostat* (properties : Manual Target Temperature Update)

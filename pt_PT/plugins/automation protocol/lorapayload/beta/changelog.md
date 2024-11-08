@@ -6,6 +6,18 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
+# xx/xx/xx
+
+- Adicionando configuração *NKE Torano*
+
+- Alterando a configuração *Dragino LSN50 V2 - MOD4* (propriedades : Interrupção digital)
+
+- Adicionando configuração *Thermokon 798808 - MCS Sensor ambiente de temperatura, umidade relativa, brilho*
+
+- Adicionando configuração *Thermokon 817318 - Detector de movimento MCS, sensor de temperatura ambiente, umidade relativa, brilho, movimento, presença, status*
+
+- Adicionando configuração *Thermokon 824248 - NOVOS 3 Módulo de controle ambiente temperatura, umidade relativa, CO2*
+
 # 30/10/2024
 
 - Alterando a configuração *Termostato sem fio MClimate* (propriedades : Atualização manual da temperatura alvo)

@@ -6,6 +6,18 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# xx/xx/xx
+
+- Ajout de la configuration *NKE Torano*
+
+- Modification de la configuration *Dragino LSN50 V2 - MOD4* (propriétés : Digital Interrupt)
+
+- Ajout de la configuration *Thermokon 798808 - MCS Capteur d’ambiance température, humidité relative, luminosité*
+
+- Ajout de la configuration *Thermokon 817318 - MCS Détecteur de mouvement, Capteur d'ambiance température, humidité relative, luminosité, mouvement, présence, statut*
+
+- Ajout de la configuration *Thermokon 824248 - NOVOS 3 Module de commande d'ambiance température, humidité relative, CO2*
+
 # 30/10/2024
 
 - Modification de la configuration *MClimate Wireless Thermostat* (propriétés : Manual Target Temperature Update)

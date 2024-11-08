@@ -6,6 +6,18 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# xx/xx/xx
+
+- Konfiguration hinzufügen *NKE Torano*
+
+- Ändern der Konfiguration *Dragino LSN50 V2 - MOD4* (Eigenschaften : Digitaler Interrupt)
+
+- Konfiguration hinzufügen *Thermokon 798808 - MCS Raumsensor Temperatur, relative Luftfeuchtigkeit, Helligkeit*
+
+- Konfiguration hinzufügen *Thermokon 817318 - MCS Bewegungsmelder, Raumsensor Temperatur, relative Luftfeuchtigkeit, Helligkeit, Bewegung, Präsenz, Status*
+
+- Konfiguration hinzufügen *Thermokon 824248 - NOVOS 3 Raumsteuermodul Temperatur, relative Luftfeuchtigkeit, CO2*
+
 # 30.10.2024
 
 - Ändern der Konfiguration *Drahtloser MClimate-Thermostat* (Eigenschaften : Manuelle Aktualisierung der Zieltemperatur)
