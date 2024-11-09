@@ -4,6 +4,11 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
+
+# 11/08/2024
+
+- Reparar la pérdida de memoria de Python3
+
 # 30/07/2024
 
 - Agregar registro en el mensaje EcritureBit

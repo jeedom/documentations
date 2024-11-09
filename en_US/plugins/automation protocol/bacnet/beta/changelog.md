@@ -6,6 +6,9 @@
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
 
+# 08/11/2024
+
+- Fix Python3 memory leak
 
 # 10/28/2024
 

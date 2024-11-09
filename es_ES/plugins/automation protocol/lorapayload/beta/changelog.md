@@ -18,6 +18,8 @@
 
 - Agregar configuración *Thermokon 824248 - NOVOS 3 Módulo de control de ambiente temperatura, humedad relativa, CO2*
 
+- Agregar configuración *Dragino RS485-LN + NILAN*
+
 # 30/10/2024
 
 - Cambiando la configuración *Termostato inalámbrico MClimate* (propiedades : Actualización manual de la temperatura objetivo)

@@ -6,6 +6,9 @@
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 
+# 11.08.2024
+
+- Behebung eines Python3-Speicherlecks
 
 # 28.10.2024
 

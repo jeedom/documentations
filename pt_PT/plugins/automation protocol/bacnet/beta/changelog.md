@@ -6,6 +6,9 @@
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
 
+# 11/08/2024
+
+- Corrigir vazamento de memória do Python3
 
 # 28/10/2024
 

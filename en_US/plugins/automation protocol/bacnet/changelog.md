@@ -6,6 +6,15 @@
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
 
+
+# 10/28/2024
+
+- Fix for CPU usage
+- Threading for reading data
+- Code Optimization
+- Fix possible Null Values
+
+
 # 03/27/2024
 
 - Fix OnOff commands

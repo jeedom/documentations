@@ -18,6 +18,8 @@
 
 - Ajout de la configuration *Thermokon 824248 - NOVOS 3 Module de commande d'ambiance température, humidité relative, CO2*
 
+- Ajout de la configuration *Dragino RS485-LN + NILAN*
+
 # 30/10/2024
 
 - Modification de la configuration *MClimate Wireless Thermostat* (propriétés : Manual Target Temperature Update)

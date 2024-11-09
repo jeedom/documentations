@@ -18,6 +18,8 @@
 
 - Konfiguration hinzufügen *Thermokon 824248 - NOVOS 3 Raumsteuermodul Temperatur, relative Luftfeuchtigkeit, CO2*
 
+- Konfiguration hinzufügen *Dragino RS485-LN + NILAN*
+
 # 30.10.2024
 
 - Ändern der Konfiguration *Drahtloser MClimate-Thermostat* (Eigenschaften : Manuelle Aktualisierung der Zieltemperatur)

@@ -6,6 +6,9 @@
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
 
+# 11/08/2024
+
+- Reparar la pérdida de memoria de Python3
 
 # 28/10/2024
 
