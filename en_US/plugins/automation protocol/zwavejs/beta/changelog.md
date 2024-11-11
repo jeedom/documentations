@@ -5,6 +5,7 @@
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
 - Addition of remote mode (in beta and be careful this reduces the functions of the plugin), read the documentation carefully, switching to remote mode has a strong impact on the ease of use and even compatibility with certain modules
+- Support for mqtts protocol
 
 # 09/27/2024
 

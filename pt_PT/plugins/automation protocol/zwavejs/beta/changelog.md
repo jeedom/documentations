@@ -5,6 +5,7 @@
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
 - Adição do modo remoto (em beta e cuidado, isso reduz as funções dos plugins), leia a documentação com atenção, mudar para o modo remoto tem forte impacto na facilidade de uso e até na compatibilidade com determinados módulos
+- Suporte ao protocolo mqtts
 
 # 27/09/2024
 
