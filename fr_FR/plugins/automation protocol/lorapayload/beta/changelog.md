@@ -20,6 +20,10 @@
 
 - Ajout de la configuration *Dragino RS485-LN + NILAN*
 
+- Ajout du panel Chirpstack
+
+- Ajout du bouton "Regeneration de la configuration LoRaWAN"
+
 # 30/10/2024
 
 - Modification de la configuration *MClimate Wireless Thermostat* (propriétés : Manual Target Temperature Update)
