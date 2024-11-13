@@ -53,8 +53,8 @@ Melden Sie sich mit Anmeldeinformationen an **Pi / Himbeere**
 
 „
 wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
-chmod +x installieren
-./install
+chmod +x install.sh
+./install.sh
 „
 
 **Das Sudo-Passwort lautet ebenfalls Himbeere**
