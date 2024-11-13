@@ -52,7 +52,7 @@ Log in with credentials **pi / raspberry**
 ## Launch the jeedom installation script
 
 ```
-wget https://www.jeedom.com/install
+wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
 chmod +x install
 ./install
 ```

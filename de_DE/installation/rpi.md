@@ -52,7 +52,7 @@ Melden Sie sich mit Anmeldeinformationen an **Pi / Himbeere**
 ## Starten Sie das Installationsskript jeedom
 
 „
-wget https://www.jeedom.com/install
+wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
 chmod +x installieren
 ./install
 „
