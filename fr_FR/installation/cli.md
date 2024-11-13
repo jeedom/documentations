@@ -26,7 +26,7 @@ Vous trouverez ici la documentation pour installer Jeedom sur Debian
 Connectez-vous en SSH à votre système et faites :
 
 ````
-wget https://www.jeedom.com/install
+wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
 chmod +x install
 ./install
 ````
