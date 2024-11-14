@@ -24,6 +24,8 @@
 
 - Adicionado botão “Regeneração da configuração LoRaWAN”"
 
+- Adicionando configuração *Sensores de monitoramento de ambiente Milesight AM102*
+
 # 30/10/2024
 
 - Alterando a configuração *Termostato sem fio MClimate* (propriedades : Atualização manual da temperatura alvo)

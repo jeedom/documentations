@@ -27,8 +27,8 @@ Connect in SSH to your system and do :
 
 ````
 wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
-chmod +x install
-./install
+chmod +x install.sh
+./install.sh
 ````
 
 Then just go to ``IP_JEEDOM`` from your internet browser.

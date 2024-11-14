@@ -125,8 +125,8 @@ Es ist klassisch
 
 ````
 wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
-chmod +x install
-./install
+chmod +x install.sh
+./install.sh
 ````
 
 -   und lass es gehen
