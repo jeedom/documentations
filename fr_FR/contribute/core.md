@@ -1,5 +1,3 @@
-
-
 # Contribuer au développement du Core
 
 Vous souhaitez contribuer au développement du Core de Jeedom ?
@@ -9,25 +7,23 @@ Vous souhaitez contribuer au développement du Core de Jeedom ?
 
 Voici les notions de bases à connaître :
 
-> Avant de proposer un PR, mettez à jour votre alpha pour vérifier que le bug n'a pas déjà été corrigé. Et synchronisez votre github.
+> Avant de proposer un PR, mettez à jour votre alpha pour vérifier que le bug n'a pas déjà été corrigé. Et synchronisez votre dépôt github.
 
-> Vérifiez que ce que vous corrigé ne cause pas d'autres bugs. La plupart des fonctions du Core sont appellées par différentes page du Front-End ou par d'autres fonctions du Core, et par les plugins. Faites une recherche sur le Core pour voir/comprendre où les fonctions sont utilisées, et dans le doute, exposez le soucis et votre correction sur [Community](https://community.jeedom.com/).
+> Vérifiez que ce que vous corrigez ne cause pas d'autres bugs. La plupart des fonctions du Core sont appellées par différentes pages du Front-End ou par d'autres fonctions du Core et par les plugins. Faites une recherche sur le Core pour voir/comprendre où les fonctions sont utilisées et, dans le doute, exposez le soucis et votre correction sur [Community](https://community.jeedom.com/).
 
 ## Branches Github
 
 Pour participer au développement de Jeedom, vous devez avoir un compte [Github](https://github.com/).
 
-Le code du Core est Open-Source et disponible [ici](https://github.com/jeedom/core).
+Le code du Core est Open-Source est disponible [ici](https://github.com/jeedom/core).
 
 - **alpha** :  Branche de la version V4 alpha. Principalement destinée aux développeurs pour la version suivante de Jeedom.
 - **beta** : Branche de la version V4 beta. Principalement destinée aux beta-testeurs, pour tester avant passage en Stable.
-- **V4-stable** : Branche stable de V4.
-- **release** : Branche Release Candidate de la V3. Uniquement pour des bugfixs.
-- **master** : Branche de la version stable V3.
+- **master** : Branche stable de V4.
 
 Les mises à jour se font sur ces branches en fonction de la configuration de Jeedom **Réglages → Système → Configuration / Mises à jour/Market**.
 
-Les PRs (*Pull requests*) doivent toujours être fait sur la branche alpha.
+Les PRs (*Pull requests*) doivent toujours être faits sur la branche alpha.
 
 De même, afin de participer aux discussions sur [Community](https://community.jeedom.com/), inscrivez-vous en tant que développeur : [Jeedom dev](https://www.jeedom.com/fr/dev.html).
 
@@ -39,7 +35,7 @@ Pour aider au développement du Core, vous devez maîtriser un ou plusieurs des 
 - javascript : Développement des classes js et du front-end.
 - CSS : Développement de l'interface.
 
-Des connaissances de l’environnent Linux sont également souhaitable.
+Des connaissances de l’environnent Linux sont également souhaitables.
 
 ## Arborescence du Core
 

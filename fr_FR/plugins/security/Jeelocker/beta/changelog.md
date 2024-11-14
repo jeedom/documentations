@@ -1,7 +1,5 @@
 # Changelog jeelocker
 
-# Changelog Jeelocker
-
 # Changelog plugin jeelocker
 
 >**IMPORTANT**
