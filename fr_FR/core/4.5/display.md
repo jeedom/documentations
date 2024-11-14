@@ -19,7 +19,7 @@ Vous avez aussi un onglet **Historique**, affichant l'historique des commandes, 
 
 ## Les cadres objet
 
-En dessous on retrouve un cadre par objet. Dans chaque cadre, on trouve la liste des équipements  qui ont pour parent cet objet.
+En dessous on retrouve un cadre par objet. Dans chaque cadre, on trouve la liste des équipements qui ont pour parent cet objet.
 Le premier cadre **Aucun** représente les équipements qui n’ont pas de parent affecté.
 
 Pour chaque objet, à côté de son libellé, deux boutons sont disponibles.

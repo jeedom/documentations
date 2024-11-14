@@ -1,18 +1,18 @@
 ## Environnement de développement
 
-Nous allons voir ici comment mettre en place un environnement de développement efficace entre un Pi de test et un PC sous Windows pour l'édition du code et la maintenance du repository GitHub.
+Nous allons voir ici comment mettre en place un environnement de développement efficace entre un Pi de test et un PC sous Windows pour l'édition du code et la maintenance du dépôt GitHub.
 
-Cette page concerne le Core de Jeedom mais cette méthode peu-être utilisée pour le développement de plugin.
+Cette page concerne le Core de Jeedom mais cette méthode peut être utilisée pour le développement de plugins.
 
-Certes, pour des éditions rapide de quelques fichiers, on peut utiliser le plugin **jeeXplorer** directement sur Jeedom. Mais c'est rapidement fastidieux, et il faut ensuite reporter toutes les modifications sur le repository local ou directement sur GitHub. Ce n'est pas ce qu'il y a de plus pratique.
+Certes, pour des éditions rapides de quelques fichiers, on peut utiliser l'éditeur de fichiers directement sur Jeedom. Mais c'est rapidement fastidieux et il faut ensuite reporter toutes les modifications sur le dépôt local ou directement sur GitHub. Ce n'est pas ce qu'il y a de plus pratique.
 
 ### Principe
 
 - Mettre en place un Pi de test avec Jeedom et un partage Samba pour y accéder depuis le PC.
-- Dupliquer le repository en local avec **Sublime Merge**.
-- Mettre en place **Sublime Text** pour l'édition de code du repository avec synchronisation sur le Pi de test.
+- Dupliquer le dépôt en local avec **Sublime Merge**.
+- Mettre en place **Sublime Text** pour l'édition de code du dépôt avec synchronisation sur le Pi de test.
 
-**Sublime Merge** et **Sublime Text** sont certes payant (un prix faible avec 3 ans de maj), mais sont très légers, rapides, facilement customisable et très complets sans nécessiter pleins de plugins/packages. De plus, si vous ne prenez pas de licence, vous pouvez les utiliser normalement, vous aurez juste un petit popup de temps en temps avec un bouton *Cancel* !
+**Sublime Merge** et **Sublime Text** sont certes payants (un prix faible avec 3 ans de maj), mais sont très légers, rapides, facilement customisables et très complets sans nécessiter pleins de plugins/packages. De plus, si vous ne prenez pas de licence, vous pouvez les utiliser normalement, vous aurez juste un petit popup de temps en temps avec un bouton *Cancel* !
 
 Cette méthode est également possible avec d'autres outils, comme **Atom** (qui nécessitera quelques packages) et **GitHub Desktop**.
 
@@ -62,9 +62,9 @@ Faites un clic droit sur `jeedomRoot` puis `Connecter un lecteur réseau...`
 Sous Windows, vous avez donc maintenant un Disque Réseau `jeedomRoot` !
 
 
-### Mise en place du repository local
+### Mise en place du dépôt local
 
-Pour dupliquer le repository en local et pouvoir travailler dessus, nous allons récupérer [Sublime Merge portable](https://www.sublimemerge.com/download).
+Pour dupliquer le dépôt en local et pouvoir travailler dessus, nous allons récupérer [Sublime Merge portable](https://www.sublimemerge.com/download).
 
 Récupérer également [Sublime Text portable 64bit](https://www.sublimetext.com/3).
 
@@ -74,16 +74,16 @@ Indiquez à **Sublime Merge** l'éditeur de fichiers :
 
 {% include lightbox.html src="images/sbm_settings1.jpg" data="settings" title="Editeur de fichiers" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
-Puis clonez le repository. Ici, si vous avez les droits sur le repository du Core, clonez le, sinon *forkez* le sur votre compte GitHub et clonez votre *fork*.
+Puis clonez le dépôt. Ici, si vous avez les droits sur le dépôt du Core, clonez le, sinon *forkez* le sur votre compte GitHub et clonez votre *fork*.
 
-**File / Clone Repository ...**
+**File / Clone dépôt...**
 
-{% include lightbox.html src="images/sbm_clonerepo.jpg" data="settings" title="Clone Repository" imgstyle="width:450px;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="images/sbm_clonerepo.jpg" data="settings" title="Clone dépôt" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 
 ### Mise en place de l'édition
 
-Dans **Sublime Text**, *Project* / *Edit Project*, définissez le répertoire de votre repository :
+Dans **Sublime Text**, *Project* / *Edit Project*, définissez le répertoire de votre dépôt :
 
 ````json
 {
@@ -101,13 +101,13 @@ Dans **Sublime Text**, *Project* / *Edit Project*, définissez le répertoire de
 }
 ````
 
-Ici, ajoutez le path du Pi de test n'est pas obligatoire, mais c'est toujours pratique.
+Ici, ajouter le path du Pi de test n'est pas obligatoire, mais c'est toujours pratique.
 
-Vous pouvez donc maintenant, dans **Sublime Text**, éditer directement les fichiers du repository local. Les modifications de ces fichiers apparaîtront dans **Sublime Merge**, où vous pourrez faire des commits de tout ou partie de chaque fichier, ou annulez les modifications si çà ne marche.
+Vous pouvez donc maintenant, dans **Sublime Text**, éditer directement les fichiers du dépôt local. Les modifications de ces fichiers apparaîtront dans **Sublime Merge**, où vous pourrez faire des commits de tout ou partie de chaque fichier ou annuler les modifications si elles ne fonctionnent pas.
 
 Maintenant, il reste à tester ces modifications de code sur le Jeedom de test.
 
-Pour çà, vous pouvez bien sûr copier les fichiers modifiés sur votre Pi grâce au partage samba sur votre PC. Ou pas ! Quand vous modifiez une dizaine de fichiers à différents endroits, çà va vite devenir pénible !
+Pour ça, vous pouvez bien sûr copier les fichiers modifiés sur votre Pi grâce au partage samba sur votre PC. Ou pas ! Quand vous modifiez une dizaine de fichiers à différents endroits, ça va vite devenir pénible !
 
 On va donc configurer **Sublime Text** pour que, quand on sauve un fichier, il le recopie directement sur le Pi !
 
@@ -131,11 +131,11 @@ class EventListener( sublime_plugin.EventListener ):
 
 Et voilà !
 
-A chaque fois que vous sauvez un fichier, si celui-ci fait partie du repository local, **Sublime Text** va également le copier au bon endroit sur votre Pi. Ctrl-S, F5 sur le Pi et voilà ! Si tout est bon, stage/commit/push dans **Sublime Merge**.
+A chaque fois que vous sauvez un fichier, si celui-ci fait partie du dépôt local, **Sublime Text** va également le copier au bon endroit sur votre Pi. Ctrl-S, F5 sur le Pi et voilà ! Si tout est bon, stage/commit/push dans **Sublime Merge**.
 
 Si vous annulez des modifications, en faisant un *Discard* dans **Sublime Merge**, pensez à faire un clic-droit, *Open in Editor*, et Ctrl-S pour le remettre sur le Pi.
 
 Et bien sûr, attention quand vous mettez à jour le Pi, vous allez écraser les fichiers du Core que vous avez modifié.
 
 
-Vous pouvez bien sûr suivre la même méthode pour mettre en place vos repository et synchronisation sur vos plugins.
+Vous pouvez bien sûr suivre la même méthode pour mettre en place vos dépôt et synchronisation sur vos plugins.
