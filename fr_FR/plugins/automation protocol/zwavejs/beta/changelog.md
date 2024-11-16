@@ -4,19 +4,24 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-- Ajout du mode distant (en beta et attention cela réduit les fonctions du plugins), bien lire la documentation le passage en mode distant à un fort impact sur la simplicité d'utilisation et meme la compatibilité avec certain module
+- Passage à la version *9.26.0* de ZwaveJsUI
+- Ajout du mode distant *(Attention: cela réduit les fonctionnalités du plugin)*. Bien lire la documentation, le passage en mode distant à un fort impact sur la simplicité d'utilisation et la compatibilité de certains modules
 - Support du protocole mqtts
+
+# 15/11/2024
+
+- Correction de la méthode d'installation des dépendances
 
 # 27/09/2024
 
-- Changement des versions minimum, core 4.4 et OS Debian 11 minimum
+- Changement des versions minimales: core 4.4 et OS Debian 11
 
 # 26/09/2024
 
 **Améliorations**
 
 - Passage à la version *9.20.0* de ZwaveJsUI
-- Préparation pour merge le mode distant dans la prochaine version
+- Préparation pour intégrer le mode distant
 - Nettoyage de code
 
 **Ajouts de Configurations**
@@ -39,9 +44,9 @@
 **Ajouts de Configurations**
 
 - Ajout de la configuration *Neo Signal Repeater* (propriétés : Temperature, Humidity)
-- Ajout de la configuration *Shelly Qubino Wave 1* (propriétés : Switch, Notification Mains, Notification Over-Current, Notification Heat-Sensor) 
+- Ajout de la configuration *Shelly Qubino Wave 1* (propriétés : Switch, Notification Mains, Notification Over-Current, Notification Heat-Sensor)
 - Ajout de la configuration *Shelly Qubino Wave 1 PM* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor)
-- Ajout de la configuration *Shelly Qubino Wave Pro 1* (propriétés : Switch, Notification Mains, Notification Heat-Sensor) 
+- Ajout de la configuration *Shelly Qubino Wave Pro 1* (propriétés : Switch, Notification Mains, Notification Heat-Sensor)
 - Ajout de la configuration *Shelly Qubino Wave Pro 1 PM* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Over-Voltage, Notification Heat-Sensor)
 - Ajout de la configuration *Shelly Qubino Wave 2 PM* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor)
 - Ajout de la configuration *Shelly Qubino Wave Pro 2* (propriétés : Switch)
@@ -70,7 +75,7 @@
 **Améliorations**
 
 - Rajout d'une option permettant d'activer ou désactiver le *Soft Reset*
-- Passage à la version *9.6.2* de ZwaveJsUI 
+- Passage à la version *9.6.2* de ZwaveJsUI
 
 **Ajouts de Configurations**
 

@@ -4,19 +4,24 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-- Adição do modo remoto (em beta e cuidado, isso reduz as funções dos plugins), leia a documentação com atenção, mudar para o modo remoto tem forte impacto na facilidade de uso e até na compatibilidade com determinados módulos
+- Mudar para a versão *9.26.0* por ZwaveJsUI
+- Adicionado modo remoto *(Attention: isso reduz a funcionalidade do plugin)*. Leia atentamente a documentação, mudar para o modo remoto tem um forte impacto na facilidade de uso e na compatibilidade de determinados módulos
 - Suporte ao protocolo mqtts
+
+# 15/11/2024
+
+- Corrigir método de instalação de dependência
 
 # 27/09/2024
 
-- Mudança de versões mínimas, core 4.4 e SO Debian 11 no mínimo
+- Mudança de versões mínimas: núcleo 4.4 e SO Debian 11
 
 # 26/09/2024
 
 **Melhorias**
 
 - Mudar para a versão *9.20.0* por ZwaveJsUI
-- Preparando-se para mesclar o modo remoto na próxima versão
+- Preparando-se para integrar o modo remoto
 - Limpeza de código
 
 **Adições de configuração**
@@ -39,9 +44,9 @@
 **Adições de configuração**
 
 - Configuração adicionada *Repetidor de Sinal Neo* (propriedades : Temperatura, Umidade)
-- Configuração adicionada *Shelly Qubino Onda 1* (propriedades : Interruptor, notificação de mãos, notificação de sobrecorrente, notificação de sensor de calor) 
+- Configuração adicionada *Shelly Qubino Onda 1* (propriedades : Interruptor, notificação de mãos, notificação de sobrecorrente, notificação de sensor de calor)
 - Configuração adicionada *Shelly Qubino Onda 13h* (propriedades : Interruptor, alimentação, energia, notificação de rede elétrica, notificação de sobrecorrente, notificação de sensor de calor)
-- Configuração adicionada *Shelly Qubino Onda Pro 1* (propriedades : Interruptor, notificação de mãos, notificação de sensor de calor) 
+- Configuração adicionada *Shelly Qubino Onda Pro 1* (propriedades : Interruptor, notificação de mãos, notificação de sensor de calor)
 - Configuração adicionada *Shelly Qubino Onda Pro 13h* (propriedades : Interruptor, alimentação, energia, notificação de rede elétrica, notificação de sobrecorrente, notificação de sobretensão, notificação de sensor de calor)
 - Configuração adicionada *Shelly Qubino Onda 14h* (propriedades : Interruptor, alimentação, energia, notificação de rede elétrica, notificação de sobrecorrente, notificação de sensor de calor)
 - Configuração adicionada *Shelly Qubino Onda Pro 2* (propriedades : Switch)
@@ -70,7 +75,7 @@
 **Melhorias**
 
 - Adicionada uma opção para ativar ou desativar o *Reinicialização suave*
-- Mudar para a versão *9.6.2* por ZwaveJsUI 
+- Mudar para a versão *9.6.2* por ZwaveJsUI
 
 **Adições de configuração**
 
