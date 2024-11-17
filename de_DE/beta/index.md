@@ -15,7 +15,7 @@ Die Kernentwicklung ist abgeschlossen am [Github](https://github.com/jeedom/core
 > Die Umstellung eines Plugins oder Core auf Beta (oder Alpha) ist riskant und verbietet jeglichen Zugriff auf offiziellen Support durch das Jeedom-Team. Die Entwickler sind jedoch auf [Gemeinschaft](https://community.jeedom.com/) um bei Problemen zu helfen, jedoch ohne Gewähr.
 
 > **Wichtig**
-> Es wird dringend empfohlen, keine Beta- oder Alpha-Versionen auf einem Produktions-Jeedom zu installieren ! Es ist unbedingt erforderlich, auf einem Raspberry oder einer Test-VM zu testen, und das Jeedom-Team kann nicht für Fehlfunktionen verantwortlich gemacht werden.
+> Es wird dringend empfohlen, keine Beta- oder Alpha-Versionen auf einem Produktions-Jeedom zu installieren ! Der Test muss unbedingt auf einem Raspberry oder einer Test-VM durchgeführt werden. Das Jeedom-Team kann nicht für Fehlfunktionen verantwortlich gemacht werden.
 
 ### Comment
 
@@ -25,13 +25,13 @@ Der Kern hat drei Hauptzweige auf [Github](https://github.com/jeedom/core):
 
 -  **Alpha** : Zweig der Version V4 alpha. Hauptsächlich für Entwickler der folgenden Version von Jeedom gedacht.
 -  **Beta** : Zweig der Version V4 Beta. Hauptsächlich für Betatester gedacht, um vor dem Wechsel zu Stable zu testen.
--  **V4-stabil** : Stabiler Zweig von V4.
+-  **Master** : Stabiler Zweig von V4.
 
 > **Warnung**
 > Auch hier sollte diese Manipulation fortgeschrittenen Benutzern mit voller Kenntnis der Fakten vorbehalten bleiben.
 
 > **Warnung**
-> Das *Herabstufung* Version wird komplett davon abgeraten und kann Jeedom komplett funktionsunfähig machen. Zum Beispiel Updater von Beta v4.2 bis Stable v4.1 darf nicht gemacht werden ! In diesem Fall ist die beste Lösung, auf die zukünftige Stable-Version der aktuellen Beta zu warten, dann die Jeedom-Konfiguration wieder in die Stable-Version zu übertragen und ein manuelles Update durchzuführen. Ebenso darf ein Backup einer neueren Version nicht auf eine frühere Version wiederhergestellt werden (zum Beispiel Backup 4.2 auf Core 4.1).
+> Das *Herabstufung* Version wird komplett davon abgeraten und kann Jeedom komplett funktionsunfähig machen. Beispielsweise, *Herabstufung* ab Beta v4.2 bis Stable v4.1 darf nicht gemacht werden ! In diesem Fall ist die beste Lösung, auf die zukünftige Stable-Version der aktuellen Beta zu warten, dann die Jeedom-Konfiguration wieder in die Stable-Version zu übertragen und ein manuelles Update durchzuführen. Ebenso darf ein Backup einer neueren Version nicht auf eine frühere Version wiederhergestellt werden (zum Beispiel Backup 4.2 auf Core 4.1).
 
 Um die Version zu ändern, gehen Sie zu *Einstellungen → System → Konfiguration*, Tab *Updates / Markt*. Update-Quelle belassen bei **Fehler** und wähle die gewünschte Version.
 
@@ -52,7 +52,7 @@ Dieser Abschnitt ist nicht öffentlich zugänglich. Um darauf zuzugreifen, müss
 
 ### Verwaltung von Core-Updates
 
-In Version **Stabil**, jede Änderung führt zu einer Änderung der Version (geringfügig, zum Beispiel 4.1.xx), die, wenn Sie überprüft haben **Automatische Suche nach Updates**, bewirkt eine Meldung und das Erscheinen des roten Punktes in der Menüleiste. Diese Updates werden auch in . angezeigt *Einstellungen → System → Update Center* indem Sie manuell auf klicken *Auf Updates prüfen*.
+In Version **Stabil**, jede Änderung führt zu einer Änderung der Version (geringfügig, zum Beispiel 4.1.xx), was, wenn Sie es überprüft haben **Automatische Suche nach Updates**, bewirkt eine Meldung und das Erscheinen des roten Punktes in der Menüleiste. Diese Updates werden auch in . angezeigt *Einstellungen → System → Update Center* indem Sie manuell auf klicken *Auf Updates prüfen*.
 
 In Version **Beta** und **Alpha**, Änderungen sind viel häufiger (mehrmals am Tag) und führen nicht zu einem Versionswechsel. Sie erscheinen daher nicht im *Update-Center*, Es obliegt dem Tester, den Core regelmäßig zu aktualisieren, vorzugsweise vor jeder Testphase und bevor ein Problem gemeldet wird, um sicherzustellen, dass es nicht bereits früher behoben wurde.
 
@@ -60,7 +60,7 @@ In Version **Beta** und **Alpha**, Änderungen sind viel häufiger (mehrmals am 
 
 ### Changelog
 
-Von Beginn der Versionsentwicklung **Alpha**, Das Team versucht, die Zukunft auf dem Laufenden zu halten [Änderungsprotokoll](/de_DE/core/4.4/changelog). Neue Funktionen können sich erheblich ändern oder gelöscht oder verschoben werden, daher ist dies nicht unbedingt aktuell und hat keinen Referenzwert.
+Von Beginn der Versionsentwicklung **Alpha**, Das Team versucht, die Zukunft auf dem Laufenden zu halten [Änderungsprotokoll](/de_DE/core/4.5/changelog). Neue Funktionen können sich erheblich ändern oder gelöscht oder verschoben werden, daher ist dies nicht unbedingt aktuell und hat keinen Referenzwert.
 
 In Version **Stabil**, das Changelog übernimmt jede Nebenversion (4.1.26 -> 4.1.27 usw). In Version **Beta** und **Alpha** das Changelog hat die Nummer x.0.0 und entspricht daher nicht unbedingt der aktuellen Minor-Version. Zum Beispiel während der Entwicklung von v4.2, das Changelog ist nur 4.2 notiert.0, während eine Beta in 4.2.7 sein kann. Beim Wechsel zu **Stabil**, das Changelog berücksichtigt dann jede zukünftige Nebenversion.
 

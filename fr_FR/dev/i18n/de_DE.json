@@ -1492,7 +1492,7 @@
         "`userProfils` -> `jeeFrontEnd.userProfils`": "`userProfils` -> `jeeFrontEnd.userProfils`",
         "Ces modifications peuvent entraîner la nécessité de monter la version Jeedom minimale requise de nombreux plugins": "Diese Änderungen können dazu führen, dass die mindestens erforderliche Jeedom-Version vieler Plugins gemountet werden muss",
         "C'est pourquoi les": "Deshalb die",
-        "n'apparaissent pas sur un Core en branche V4-Stable, mais permettent aux développeurs de voir ce qu'ils peuvent corriger": "nicht auf einem V4-Stable Branch Core erscheinen, sondern Entwicklern ermöglichen, zu sehen, was sie beheben können",
+        "n'apparaissent pas sur un Core en branche master, mais permettent aux développeurs de voir ce qu'ils peuvent corriger": "erscheinen nicht auf einem Core im Master-Zweig, sondern ermöglichen Entwicklern zu sehen, was sie korrigieren können",
         "jQuery Autocomplete": "jQuery-Autovervollständigung",
         "input.jeeComplete": "input.jeeComplete",
         "La lib Autocomplete, dépendante de jQuery, sera supprimée dans une future version du Core": "Die jQuery-abhängige Autocomplete-Bibliothek wird in einer zukünftigen Core-Version entfernt",

@@ -1,5 +1,3 @@
-
-
 # Tragen Sie zur Entwicklung des Kerns bei
 
 Sie möchten zur Entwicklung des Jeedom Core beitragen ?
@@ -9,21 +7,19 @@ Sie möchten zur Entwicklung des Jeedom Core beitragen ?
 
 Hier sind die Grundlagen zu wissen :
 
-> Bevor Sie eine PR einreichen, aktualisieren Sie Ihre Alpha, um sicherzustellen, dass der Fehler nicht bereits behoben wurde. Und synchronisieren Sie Ihren Github.
+> Bevor Sie eine PR einreichen, aktualisieren Sie Ihre Alpha, um sicherzustellen, dass der Fehler nicht bereits behoben wurde. Und synchronisieren Sie Ihr Github-Repository.
 
-> Überprüfen Sie, ob das, was Sie behoben haben, keine anderen Fehler verursacht. Die meisten Core-Funktionen werden von verschiedenen Front-End-Seiten oder von anderen Core-Funktionen und von Plugins aufgerufen. Führen Sie eine Suche im Kern durch, um zu sehen/zu verstehen, wo die Funktionen verwendet werden, und decken Sie im Zweifelsfall die Bedenken und Ihre Korrektur auf [Gemeinschaft](https://community.jeedom.com/).
+> Stellen Sie sicher, dass das, was Sie beheben, keine anderen Fehler verursacht. Die meisten Kernfunktionen werden von verschiedenen Frontend-Seiten oder von anderen Kernfunktionen und von Plugins aufgerufen. Führen Sie eine Suche im Core durch, um zu sehen/zu verstehen, wo die Funktionen verwendet werden, und melden Sie im Zweifelsfall das Problem und Ihre Korrektur [Gemeinschaft](https://community.jeedom.com/).
 
 ## Github-Zweige
 
 Um an der Entwicklung von Jeedom teilnehmen zu können, müssen Sie einen Account haben [Github](https://github.com/).
 
-Der Kerncode ist Open Source und verfügbar [hier](https://github.com/jeedom/core).
+Der Kerncode ist Open-Source und verfügbar [hier](https://github.com/jeedom/core).
 
 - **Alpha** :  Zweig der Version V4 alpha. Hauptsächlich für Entwickler der nächsten Version von Jeedom gedacht.
 - **Beta** : Zweig der Version V4 Beta. Hauptsächlich für Betatester gedacht, um vor dem Wechsel zu Stable zu testen.
-- **V4-stabil** : Stabiler Zweig von V4.
-- **Veröffentlichung** : Geben Sie den Kandidatenzweig von V3 frei. Nur für Bugfixes.
-- **Meister** : Zweig der stabilen Version V3.
+- **Meister** : Stabiler Zweig von V4.
 
 Die Aktualisierungen werden in diesen Zweigen gemäß der Konfiguration von Jeedom vorgenommen **Einstellungen → System → Konfiguration / Updates / Markt**.
 
@@ -39,53 +35,53 @@ Um die Entwicklung des Kerns zu unterstützen, müssen Sie eine oder mehrere der
 - JavaScript : Entwicklung von js Klassen und Frontend.
 - CSS : Schnittstellenentwicklung.
 
-Kenntnisse der Linux-Umgebung sind ebenfalls wünschenswert.
+Kenntnisse im Linux-Umfeld sind ebenfalls wünschenswert.
 
 ## Kernbaum
 
-Der Code wird in verschiedenen Verzeichnissen im Stammverzeichnis von Jeedom verteilt (standardmäßig) : var / www / html) :
+Der Code wird in verschiedenen Verzeichnissen im Stammverzeichnis von Jeedom verteilt (standardmäßig) : /var/www/html) :
 
-- 3. Partei : Datei mit den von Jeedom verwendeten externen Bibliotheken (jQuery, CodeMirror usw.)).
-- Sicherungskopie : Jeedom Backup-Ordner.
+- **3. Partei** : Ordner mit externen Bibliotheken, die von Jeedom verwendet werden (jQuery, CodeMirror usw.)).
+- **Sicherungskopie** : Jeedom Backup-Ordner.
 - **Ader** : Datei mit den internen Funktionen des Core:
 	- **Ajax** : Schnittstelle zwischen PHP-Dateien zwischen JS-Klassen und PHP-Klassen.
-	- API : API PHP-Dateien.
+	- **API** : API PHP-Dateien.
 	- **Klasse** : PHP-Klassendateien (*eqLogic, cmd, jeeObject, history, cron usw.*).
-	- com : Kommunikations-PHP-Klassendateien (*http, Shell*).
-	- Config : Kernkonfiguration PHP-Dateien und *default.config.ini* einschließlich Standardkonfigurationseinstellungen. Versionsdatei für die Core-Version.
-	- CSS : Mit Core und deren CSS verfügbare Symbole.
-	- i18n : Json-Dateien einschließlich übersetzter Zeichenfolgen.
-	- img : Kernbilder (Logos, Hintergründe usw.).
+	- **com** : Kommunikations-PHP-Klassendateien (*http, Shell*).
+	- **Config** : Kernkonfiguration PHP-Dateien und *default.config.ini* einschließlich Standardkonfigurationseinstellungen. Versionsdatei für die Core-Version.
+	- **CSS** : Mit Core und deren CSS verfügbare Symbole.
+	- **i18n** : Json-Dateien einschließlich übersetzter Zeichenfolgen.
+	- **img** : Kernbilder (Logos, Hintergründe usw.).
 	- **js** : Class js-Dateien, die insbesondere von den Jeedom-Seiten aufgerufen werden.
-	- php : Von Core benötigte PHP-Dateien (ausgenommen Klassen)).
-	- Repo : Marktspezifische PHP-Dateien, Samba usw.
+	- **php** : Von Core benötigte PHP-Dateien (ausgenommen Klassen)).
+	- **Repo** : Marktspezifische PHP-Dateien, Samba usw.
 	- **Schablone** : HTML-Dateien (*Dashboard und Mobile*) zum Anzeigen von eqLogics (Tile), Befehlen (Widgets) und Szenarien.
 	- **Themes** : CSS-Dateien der drei Kernthemen (Dark, Light, Legacy) für Dashboard und Mobile.
-- Daten : Ordner mit Benutzerdaten (Berichte, Ansichten, CSS / JS für erweiterte Personalisierung, 3D-Design usw.)).
+- **Daten** : Ordner mit Benutzerdaten (Berichte, Ansichten, CSS / JS für erweiterte Personalisierung, 3D-Design usw.)).
 - **Desktop** : Ordner mit allen auf dem Desktop angezeigten Seiten (der Benutzeroberfläche) und ihren Funktionen.
-	- verbreitet : Js / PHP-Dateien, die allen oder mehreren Seiten gemeinsam sind. Gruppenfunktionen, die von mehreren Seiten aufgerufen werden können, insbesondere die *utils.js*, auf allen Seiten in Desktop vorhanden.
-	- CSS : Desktop-Ansicht spezifische CSS-Dateien.
-	- img : Spezifische Bilder für die Desktop-Ansicht.
-	- js : Js-Dateien, die jeder Seite entsprechen (*Verwaltung, Dashboard, Szenario usw.*).
-	- modal : Modale PHP-Dateien, einschließlich PHP / HTML-Code und JS-Code.
-	- php : PHP-Dateien für jede Seite (*Verwaltung, Dashboard, Szenario usw.*).
-- docs : Dokumentation.
-- installieren : Jeedom-Installationsdateien.
-- log : Ordner mit allen Protokollen (http.Fehler, Aktualisierung usw.) und die der Szenarien (SzenarioLog-Unterordner, benannt nach ID).
+	- **verbreitet** : Js/php-Dateien, die für mehrere Seiten gelten. Gruppenfunktionen, die von mehreren Seiten aufgerufen werden können, insbesondere die *utils.js*, auf allen Seiten in Desktop vorhanden.
+	- **CSS** : Desktop-Ansicht spezifische CSS-Dateien.
+	- **img** : Spezifische Bilder für die Desktop-Ansicht.
+	- **js** : Js-Dateien, die jeder Seite entsprechen (*Verwaltung, Dashboard, Szenario usw.*).
+	- **modal** : Modale PHP-Dateien, einschließlich PHP / HTML-Code und JS-Code.
+	- **php** : PHP-Dateien für jede Seite (*Verwaltung, Dashboard, Szenario usw.*).
+- **docs** : Dokumentation.
+- **installieren** : Jeedom-Installationsdateien.
+- **log** : Ordner mit allen Protokollen (http.Fehler, Aktualisierung usw.) und die der Szenarien (SzenarioLog-Unterordner, benannt nach ID).
 - **Handy** : Ordner mit allen auf dem Handy angezeigten Seiten (Webanwendungsoberfläche) und deren Funktionen.
-	- CSS : Mobile spezifische CSS-Dateien anzeigen.
-	- HTML : HTML-Dateien für jede Seite (*Haus, Ausrüstung, Zeitachse usw.*).
-	- js : Js-Dateien, die jeder Seite entsprechen (*Haus, Ausrüstung, Zeitachse usw.*).
-	- modal : HTML-Dateien, die den Modalitäten in Mobile entsprechen.
-- Plugins : Ordner mit allen installierten Plugins.
-- Skript : Bereitstellungsskript, Zertifikate.
-- Unterstützung : Ordner, der bei Supportanfragen verwendet wird.
-- Verkäufer : Datei mit PHP-Bibliotheken von Drittanbietern.
+	- **CSS** : Mobile spezifische CSS-Dateien anzeigen.
+	- **HTML** : HTML-Dateien für jede Seite (*Haus, Ausrüstung, Zeitachse usw.*).
+	- **js** : Js-Dateien, die jeder Seite entsprechen (*Haus, Ausrüstung, Zeitachse usw.*).
+	- **modal** : HTML-Dateien, die den Modalitäten in Mobile entsprechen.
+- **Plugins** : Ordner mit allen installierten Plugins.
+- **Skript** : Bereitstellungsskript, Zertifikate.
+- **Unterstützung** : Ordner, der bei Supportanfragen verwendet wird.
+- **Verkäufer** : Ordner mit PHP-Bibliotheken von Drittanbietern.
 
 
 ## Front-end
 
-Die Benutzeroberfläche von Jeedom funktioniert wie eine Website, von PHP mit SQL-Schnittstelle bis hin zu JS / CSS.
+Die Schnittstelle von Jeedom funktioniert wie eine Website, bestehend aus PHP, verbunden mit SQL und JS/CSS.
 
 Zunächst lädt der Browser die Datei `/ index.php :
 - Überprüfen Sie die Installation von Jeedom und verweisen Sie auf "Installieren / Einrichten".php` falls nötig.
@@ -104,7 +100,7 @@ Die Hauptdatei in Desktop ist `/ desktop / php / index.php`.
 Jede Seite enthält mindestens zwei Parameter in der URL. Beispiel :
 
 `https://my.dns1.jeedom.com/index.php?v = d & p = Armaturenbrett " :
-- **v** : Schnittstellenversion. d für Desktop, m für Mobilgeräte.
+- **v** : Schnittstellenversion : d für Desktop, m für Mobilgeräte.
 - **p** : Seite zum Anzeigen. Hier "Dashboard".
 
 In diesem Fall die Datei `/ desktop / php / index.php` lädt die Datei `/ desktop / php / dashboard.php` im `div_pageContainer` div. Dadurch wird auch die Datei `/ desktop / js / dashboard geladen.js` einschließlich der für die Anzeige dieser Seite spezifischen js-Funktionen (hier das Dashboard)).
@@ -128,7 +124,7 @@ Der `desktop / common / js / utils.js` ist daher immer vorhanden und wird einmal
 - Verwalten Sie je nach Zeit einen möglichen Themenwechsel.
 - Ermöglichen Sie verschiedenen js-Dateien den Zugriff auf allgemeine Funktionen.
 
-Also der Index.PHP und die Utensilien.js liefern die Grundstruktur und Funktionen der Schnittstelle.
+Also die Indexdateien.PHP und Dienstprogramme.js liefern die Grundstruktur und Funktionen der Schnittstelle.
 Dann wird der Inhalt der aufgerufenen Seite von desktop / php / page geladen.PHP und Desktop / js / page.js.
 Diese rein schnittstellenorientierten Inhaltsdateien können direkt in PHP oder dank js-Klassen (`/ core / js`) über Ajax-Aufrufe auf Core-Funktionen (` / core / class`-Klassen) zugreifen (`/ core / ajax`).
 
@@ -141,7 +137,7 @@ Beispielsweise wird die Funktion „loadPage()“ zuvor im Stammfenster zu „je
 Aus Gründen der Abwärtskompatibilität für Plugins werden alte Funktionen noch deklariert und werden in einer späteren Version veraltet sein. [Siehe die Liste hier](https://github.com/jeedom/core/blob/alpha/desktop/common/js/utils.js#L1423).
 
 #### Kern v4.3
-Fortsetzung von Version 4.2 wurden die Desktop-Frontend-Seiten isoliert, um zu vermeiden, dass Variablen und Funktionen im Root-Fenster referenziert werden. Dies sichert mögliche Deklarationskollisionen ab, erleichtert das Lesen und Verstehen des Codes sowie dessen Debugging.
+Fortsetzung von Version 4.2 wurden die Desktop-Frontend-Seiten isoliert, um zu vermeiden, dass Variablen und Funktionen im Root-Fenster referenziert werden. Dies schützt vor möglichen Deklarationskollisionen und erleichtert das Lesen und Verstehen des Codes sowie dessen Debugging.
 
 Die Datei `core/js/jeedom.class.js` deklariert zwei neue Namespaces :
 ##### jeeFrontEnd[}
@@ -204,7 +200,7 @@ $('#myButton').on('click', function() {
 
 ##### jeephp2js[}
 
-Wird verwendet, um Variablen von einem PHP-Skript an das js-Frontend zu übergeben. Zum Beispiel:
+Wird verwendet, um Variablen von einem PHP-Skript an das js-Frontend zu übergeben. Zum Beispiel :
 
 ```php
 sendVarToJS([
@@ -245,7 +241,7 @@ Ein bemerkenswerter Unterschied bei Mobile ist das Fehlen von PHP-Seiten. Die Co
 
 ### CSS-Dateien
 
-Core CSS basiert hauptsächlich auf diesen Dateien:
+Core CSS basiert hauptsächlich auf diesen Dateien :
 - In Desktop :
 	- Desktop / CSS / Boostrap.CSS : Vom CSS Bootstrap v3.3.7-Team bereinigte Version.
 	- desktop / css / desktop.main.CSS : Hauptschnittstelle CSS.

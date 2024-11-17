@@ -117,9 +117,9 @@
         "bash": "bash",
         "su": "su",
         "cd \/root": "cd \/root",
-        "unzip V4-stable.zip": "unzip V4-stable.zip",
-        "cp -R core-4-stable\/* \/var\/www\/html": "cp -R core-4-stable\/* \/var\/www\/html",
-        "cp -R core-4-stable\/.[^": "cp -R core-4-stable\/.[^",
+        "unzip master.zip": "unzip master.zip",
+        "cp -R core-master\/* \/var\/www\/html": "cp -R core-master\/* \/var\/www\/html",
+        "cp -R core-master\/.[^": "cp -R core-master\/.[^",
         "\/var\/www\/html": "\/var\/www\/html",
         "Si votre installation de Jeedom est un peu ancienne, il faut remplacer tous les": "Si votre installation de Jeedom est un peu ancienne, il faut remplacer tous les",
         "par": "par"

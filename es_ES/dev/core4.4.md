@@ -181,7 +181,7 @@ Como recordatorio:
 
 > **Observación**
 >
-> Estos cambios pueden resultar en la necesidad de montar la versión mínima requerida de Jeedom de muchos complementos. Esta es la razón por la cual el *Obsoleto* no aparecen en un Branch Core V4-Stable, pero permiten a los desarrolladores ver qué pueden solucionar.
+> Estos cambios pueden resultar en la necesidad de montar la versión mínima requerida de Jeedom de muchos complementos. Esta es la razón por la cual el *Obsoleto* no aparecen en un Core en la rama maestra, pero permiten a los desarrolladores ver qué pueden corregir.
 
 #### jQuery Autocompletar
 

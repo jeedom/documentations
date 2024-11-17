@@ -181,7 +181,7 @@ Als eine Erinnerung:
 
 > **Anmerkung**
 >
-> Diese Änderungen können dazu führen, dass die mindestens erforderliche Jeedom-Version vieler Plugins gemountet werden muss. Deshalb die *Veraltet* nicht auf einem V4-Stable Branch Core erscheinen, sondern Entwicklern ermöglichen, zu sehen, was sie beheben können.
+> Diese Änderungen können dazu führen, dass die mindestens erforderliche Jeedom-Version vieler Plugins gemountet werden muss. Deshalb die *Veraltet* erscheinen nicht auf einem Core im Master-Zweig, sondern ermöglichen Entwicklern zu sehen, was sie korrigieren können.
 
 #### jQuery-Autovervollständigung
 

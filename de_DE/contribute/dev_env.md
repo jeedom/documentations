@@ -1,18 +1,18 @@
 ## Entwicklungsumgebung
 
-Hier erfahren Sie, wie Sie eine effiziente Entwicklungsumgebung zwischen einem Test-Pi und einem Windows-PC einrichten, um den Code zu bearbeiten und das GitHub-Repository zu verwalten.
+Hier erfahren Sie, wie Sie eine effiziente Entwicklungsumgebung zwischen einem Test-Pi und einem Windows-PC einrichten, um Code zu bearbeiten und das GitHub-Repository zu verwalten.
 
-Diese Seite betrifft den Jeedom Core, aber diese Methode kann für die Plugin-Entwicklung verwendet werden.
+Diese Seite betrifft Jeedom Core, aber diese Methode kann für die Plugin-Entwicklung verwendet werden.
 
-Natürlich können wir für die schnelle Bearbeitung einiger Dateien das Plugin verwenden **JeeXplorer** direkt auf Jeedom. Aber es ist schnell langweilig und Sie müssen dann alle Änderungen an das lokale Repository oder direkt an GitHub melden. Dies ist nicht die praktischste.
+Für schnelle Bearbeitungen einiger Dateien können Sie natürlich den Dateieditor direkt auf Jeedom verwenden. Aber es wird schnell mühsam und man muss dann alle Änderungen an das lokale Repository oder direkt an GitHub melden. Dies ist nicht die praktischste.
 
 ### Principe
 
 - Richten Sie einen Test-Pi mit Jeedom und einer Samba-Freigabe ein, um vom PC aus darauf zuzugreifen.
 - Duplizieren Sie das Repository lokal mit **Erhabene Verschmelzung**.
-- Implementieren **Erhabener Text** zum Bearbeiten von Code aus dem Repository mit Synchronisation auf dem Test-Pi.
+- Implementieren **Erhabener Text** zum Bearbeiten von Code aus dem Repository mit Synchronisierung auf dem Test-Pi.
 
-**Erhabene Verschmelzung** und **Erhabener Text** werden sicherlich bezahlt (ein niedriger Preis mit 3 Jahren Update), sind aber sehr leicht, schnell, leicht anpassbar und sehr vollständig, ohne dass viele Plugins / Pakete erforderlich sind. Wenn Sie keine Lizenz erwerben, können Sie diese normal verwenden. Ab und zu wird nur ein kleines Popup mit einem Knopf angezeigt *Stornieren* !
+**Erhabene Verschmelzung** und **Erhabener Text** sind sicherlich kostenpflichtig (ein niedriger Preis mit 3 Jahren Aktualisierungszeit), sind aber sehr leicht, schnell, leicht anpassbar und sehr vollständig, ohne dass viele Plugins/Pakete erforderlich sind. Wenn Sie keine Lizenz erwerben, können Sie diese normal verwenden. Ab und zu wird nur ein kleines Popup mit einem Knopf angezeigt *Stornieren* !
 
 Diese Methode ist auch mit anderen Werkzeugen möglich, wie z **Atom** (was einige Pakete erfordert) und **GitHub Desktop**.
 
@@ -62,9 +62,9 @@ Faites un clic droit sur `jeedomRoot` puis `Connecter un lecteur réseau...`
 Sous Windows, vous avez donc maintenant un Disque Réseau `jeedomRoot` !
 
 
-### Mise en place du repository local
+### Mise en place du dépôt local
 
-Pour dupliquer le repository en local und pouvoir travailler dessus, nous allons récupérer [Erhabene Verschmelzung portable](https://www.sublimemerge.com/download).
+Pour dupliquer le dépôt en local und pouvoir travailler dessus, nous allons récupérer [Erhabene Verschmelzung portable](https://www.sublimemerge.com/download).
 
 Récupérer également [Erhabener Text portable 64bit](https://www.sublimetext.com/3).
 
@@ -74,16 +74,16 @@ Indiquez à **Erhabene Verschmelzung** l'éditeur de fichiers :
 
 {% include lightbox.html src="images/sbm_settings1.jpg" data="settings" title="Editeur de fichiers" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
-Puis clonez le repository. Ici, si vous avez les droits sur le repository du Core, clonez le, sinon *forkez* le sur votre compte GitHub und clonez votre *fork*.
+Puis clonez le dépôt. Ici, si vous avez les droits sur le dépôt du Core, clonez le, sinon *forkez* le sur votre compte GitHub und clonez votre *fork*.
 
-**File / Clone Repository ...**
+**File / Clone dépôt...**
 
-{% include lightbox.html src="images/sbm_clonerepo.jpg" data="settings" title="Clone Repository" imgstyle="width:450px;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="images/sbm_clonerepo.jpg" data="settings" title="Clone dépôt" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 
 ### Mise en place de l'édition
 
-Dans **Erhabener Text**, *Project* / *Edit Project*, définissez le répertoire de votre repository :
+Dans **Erhabener Text**, *Project* / *Edit Project*, définissez le répertoire de votre dépôt :
 
 ````json
 {
@@ -101,9 +101,9 @@ Dans **Erhabener Text**, *Project* / *Edit Project*, définissez le répertoire 
 }
 ````
 
-Hier ist das Hinzufügen des Pfades des Test-Pi nicht obligatorisch, aber dennoch praktisch.
+Dabei ist das Hinzufügen des Pfades des Test-Pi nicht zwingend, aber immer sinnvoll.
 
-So können Sie jetzt in **Erhabener Text**, Bearbeiten Sie direkt die Dateien des lokalen Repositorys. Änderungen an diesen Dateien werden in angezeigt **Erhabene Verschmelzung**, Hier können Sie jede Datei ganz oder teilweise festschreiben oder die Änderungen rückgängig machen, wenn dies nicht funktioniert.
+So können Sie jetzt in **Erhabener Text**, Bearbeiten Sie Dateien direkt aus dem lokalen Repository. Änderungen an diesen Dateien werden in angezeigt **Erhabene Verschmelzung**, Hier können Sie Commits für die gesamte Datei oder einen Teil davon vornehmen oder Änderungen rückgängig machen, wenn sie nicht funktionieren.
 
 Jetzt müssen diese Codeänderungen noch auf dem Test Jeedom getestet werden.
 
@@ -131,11 +131,11 @@ Klasse EventListener (sublime_plugin.EventListener ):
 
 Et voilà !
 
-A chaque fois que vous sauvez un fichier, si celui-ci fait partie du repository local, **Erhabener Text** va également le copier au bon endroit sur votre Pi. Ctrl-S, F5 sur le Pi und voilà ! Si tout est bon, stage/commit/push dans **Erhabene Verschmelzung**.
+A chaque fois que vous sauvez un fichier, si celui-ci fait partie du dépôt local, **Erhabener Text** va également le copier au bon endroit sur votre Pi. Ctrl-S, F5 sur le Pi und voilà ! Si tout est bon, stage/commit/push dans **Erhabene Verschmelzung**.
 
 Si vous annulez des modifications, en faisant un *Discard* dans **Erhabene Verschmelzung**, pensez à faire un clic-droit, *Open in Editor*, und Ctrl-S pour le remettre sur le Pi.
 
 Et bien sûr, attention quand vous mettez à jour le Pi, vous allez écraser les fichiers du Core que vous avez modifié.
 
 
-Vous pouvez bien sûr suivre la même méthode pour mettre en place vos repository und synchronisation sur vos plugins.
+Vous pouvez bien sûr suivre la même méthode pour mettre en place vos dépôt und synchronisation sur vos plugins.

@@ -18,7 +18,7 @@ Por ejemplo :
 - [Conceptos](https://doc.jeedom.com/es_ES/concept/)
 - [Contribuir a la documentación](https://doc.jeedom.com/es_ES/contribute/doc)
 
-Estas páginas están disponibles en [repositorio de documentación](https://github.com/jeedom/documentations/tree/master/fr_FR)
+Estas páginas están disponibles en [presentación de documentación](https://github.com/jeedom/documentations/tree/master/fr_FR)
 
 Siguiendo la URL en el sitio de documentación, puede encontrar el archivo md correspondiente. Ejemplos :
 
@@ -33,9 +33,9 @@ Puede ver en este directorio, los directorios principales, complementos, etc. Es
 
 ## Documentación de Jeedom Core
 
-La documentación principal está en el repositorio principal, en el directorio doc : [https://github.com/jeedom/core/tree/alpha/docs/fr_FR](https://github.com/jeedom/core/tree/alpha/docs/fr_FR)
+La documentación del Core está en el repositorio del Core, en el directorio doc : [https://github.com/jeedom/core/tree/alpha/docs/fr_FR](https://github.com/jeedom/core/tree/alpha/docs/fr_FR)
 
-Para cada página de Jeedom, tienes una página.md correspondiente.
+Para cada página de Jeedom, hay un archivo de página.md correspondiente.
 
 Estas son las páginas a las que puede acceder (?) En la parte superior derecha de la interfaz de su Jeedom, y ubicadas en las secciones :
 
@@ -52,9 +52,9 @@ Siguiendo el mismo principio que la documentación principal, la de los compleme
 Por ejemplo, para el complemento OpenZWave
 
 - Accès à la doc ici : https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/
-- Repository du plugin : https://github.com/jeedom/plugin-openzwave/blob/beta/docs/es_ES/index.md
+- dépôt du plugin : https://github.com/jeedom/plugin-openzwave/blob/beta/docs/es_ES/index.md
 
-Allí debe encontrar el repositorio del complemento en cuestión, luego ir a su directorio doc / fr_FR. Al distinguir entre [complementos oficiales](https://github.com/jeedom) complementos de terceros. Además, los complementos de pago (oficiales o de terceros) no son accesibles, porque en repositorios privados. En este caso, siempre puede hacer un mensaje en el [Foro](https://community.jeedom.com/), con la etiqueta documentation-jeedom o el complemento.
+Allí tienes que buscar el repositorio del complemento en cuestión y luego ir a su directorio doc/fr_FR. Al distinguir entre [complementos oficiales](https://github.com/jeedom) complementos de terceros. Además, no se puede acceder a los complementos pagos (oficiales o de terceros), porque en repositorios privados. En este caso, siempre puede hacer un mensaje en el [Foro](https://community.jeedom.com/), con la etiqueta documentation-jeedom o el complemento.
 
 
 ## Las traducciones
@@ -69,7 +69,7 @@ En php : `$ myString = __ ('Mi oración que será traducida', __FILE __);`
 
 En JavaScript : ``{% raw %}var myString = '{{Mi oración que será traducida}}'{% endraw %}``
 
-El sistema de traducción se encargará de su traducción y su referencia en los archivos json (`docs / i18n /`), y el núcleo de su reemplazo en la interfaz.
+El sistema de traducción se encargará entonces de su traducción y de su referencia en los archivos json (`docs/i18n/`) y el Core se encargará de su reemplazo en la interfaz.
 
 Si desea vincular a otra página de documentación, puede agregar `/ fr_FR / contrib / doc`. Al traducir, la parte fr_FR se adaptará automáticamente.
 

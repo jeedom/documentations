@@ -54,19 +54,19 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Divoom|Pixoo|Afficheur|Behalten Sie die empfohlene Verbindungsfunktion bei||
+||Divoom|Pixoo|Afficheur|Verbindungsfunktion beibehalten empfohlen||
 
 # Divoomtimeboxmini
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/blea/images/divoomtimeboxmini.jpg" width="60" />|Divoom|TimeBox Mini|Afficheur|Behalten Sie die obligatorische Verbindungsfunktion bei, damit das Bluetooth-Logo nicht angezeigt wird||
+|<img src="../../de_DE/blea/images/divoomtimeboxmini.jpg" width="60" />|Divoom|TimeBox Mini|Afficheur|Behalten Sie die Verbindungsfunktion bei, um das Bluetooth-Logo zu vermeiden||
 
 # Dotti
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/blea/images/dotti.jpg" width="60" />|Dotti|Dotti|Afficheur|Funktioniert viel besser mit der Option zum Verbinden der Verbindung||
+|<img src="../../de_DE/blea/images/dotti.jpg" width="60" />|Dotti|Dotti|Afficheur|Funktioniert viel besser mit der Option „Verbindung beibehalten“||
 
 # Dreamscreen
 
@@ -114,11 +114,11 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/blea/images/itag.jpg" width="60" />|Itag|Itag Black|Boutons|Damit die Taste funktioniert, müssen Sie überprüfen, ob die Verbindung bestehen bleibt. Ab diesem Moment bleibt die Verbindung erhalten und die Taste ist von anderen Antennen aus nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch Stoppen des Blinkens bestätigt) und dies nur an der bei der Übertragung ausgewählten Antenne (in diesem Fall ist es offensichtlich erforderlich, dieselbe in auszuwählen) Empfang und Übertragung)||
-|<img src="../../de_DE/blea/images/itag.jpg" width="60" />|Itag|Itag Weiß|Boutons|Damit die Taste funktioniert, müssen Sie überprüfen, ob die Verbindung bestehen bleibt. Ab diesem Moment bleibt die Verbindung erhalten und die Taste ist von anderen Antennen aus nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch Stoppen des Blinkens bestätigt) und dies nur an der bei der Übertragung ausgewählten Antenne (in diesem Fall ist es offensichtlich erforderlich, dieselbe in auszuwählen) Empfang und Übertragung)||
-|<img src="../../de_DE/blea/images/itag.jpg" width="60" />|Itag|Itag Rose|Boutons|Damit die Taste funktioniert, müssen Sie überprüfen, ob die Verbindung bestehen bleibt. Ab diesem Moment bleibt die Verbindung erhalten und die Taste ist von anderen Antennen aus nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch Stoppen des Blinkens bestätigt) und dies nur an der bei der Übertragung ausgewählten Antenne (in diesem Fall ist es offensichtlich erforderlich, dieselbe in auszuwählen) Empfang und Übertragung)||
-|<img src="../../de_DE/blea/images/itag.jpg" width="60" />|Itag|Itag Grün|Boutons|Damit die Taste funktioniert, müssen Sie überprüfen, ob die Verbindung bestehen bleibt. Ab diesem Moment bleibt die Verbindung erhalten und die Taste ist von anderen Antennen aus nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch Stoppen des Blinkens bestätigt) und dies nur an der bei der Übertragung ausgewählten Antenne (in diesem Fall ist es offensichtlich erforderlich, dieselbe in auszuwählen) Empfang und Übertragung)||
-|<img src="../../de_DE/blea/images/itag.jpg" width="60" />|Itag|Itag Blau|Boutons|Damit die Taste funktioniert, müssen Sie überprüfen, ob die Verbindung bestehen bleibt. Ab diesem Moment bleibt die Verbindung erhalten und die Taste ist von anderen Antennen aus nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch Stoppen des Blinkens bestätigt) und dies nur an der bei der Übertragung ausgewählten Antenne (in diesem Fall ist es offensichtlich erforderlich, dieselbe in auszuwählen) Empfang und Übertragung)||
+|<img src="../../de_DE/blea/images/itag.jpg" width="60" />|Itag|Itag Black|Boutons|Achten Sie darauf, dass die Schaltfläche funktioniert. Sie müssen die Option „Verbindung beibehalten“ aktivieren. Von diesem Moment an bleibt die Verbindung bestehen und die Schaltfläche ist für andere Antennen nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch das Aufhören des Blinkens bestätigt) und dies nur auf der für die Übertragung ausgewählten Antenne (in diesem Fall müssen Sie natürlich für Empfang und Übertragung dasselbe wählen))||
+|<img src="../../de_DE/blea/images/itag.jpg" width="60" />|Itag|Itag Weiß|Boutons|Achten Sie darauf, dass die Schaltfläche funktioniert. Sie müssen die Option „Verbindung beibehalten“ aktivieren. Von diesem Moment an bleibt die Verbindung bestehen und die Schaltfläche ist für andere Antennen nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch das Aufhören des Blinkens bestätigt) und dies nur auf der für die Übertragung ausgewählten Antenne (in diesem Fall müssen Sie natürlich für Empfang und Übertragung dasselbe wählen))||
+|<img src="../../de_DE/blea/images/itag.jpg" width="60" />|Itag|Itag Rose|Boutons|Achten Sie darauf, dass die Schaltfläche funktioniert. Sie müssen die Option „Verbindung beibehalten“ aktivieren. Von diesem Moment an bleibt die Verbindung bestehen und die Schaltfläche ist für andere Antennen nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch das Aufhören des Blinkens bestätigt) und dies nur auf der für die Übertragung ausgewählten Antenne (in diesem Fall müssen Sie natürlich für Empfang und Übertragung dasselbe wählen))||
+|<img src="../../de_DE/blea/images/itag.jpg" width="60" />|Itag|Itag Grün|Boutons|Achten Sie darauf, dass die Schaltfläche funktioniert. Sie müssen die Option „Verbindung beibehalten“ aktivieren. Von diesem Moment an bleibt die Verbindung bestehen und die Schaltfläche ist für andere Antennen nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch das Aufhören des Blinkens bestätigt) und dies nur auf der für die Übertragung ausgewählten Antenne (in diesem Fall müssen Sie natürlich für Empfang und Übertragung dasselbe wählen))||
+|<img src="../../de_DE/blea/images/itag.jpg" width="60" />|Itag|Itag Blau|Boutons|Achten Sie darauf, dass die Schaltfläche funktioniert. Sie müssen die Option „Verbindung beibehalten“ aktivieren. Von diesem Moment an bleibt die Verbindung bestehen und die Schaltfläche ist für andere Antennen nicht mehr sichtbar. Die Verbindung wird hergestellt, sobald die Taste innerhalb von 20 Sekunden sichtbar ist (dies wird durch das Aufhören des Blinkens bestätigt) und dies nur auf der für die Übertragung ausgewählten Antenne (in diesem Fall müssen Sie natürlich für Empfang und Übertragung dasselbe wählen))||
 
 # Jinlin
 
@@ -171,12 +171,12 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/blea/images/miband1.jpg" width="60" />|Xiaomi|Miband|Santé|Je nach Firmware funktioniert das möglicherweise nicht mehr. Achtung, wenn das Armband mit Ihrem Smartphone verbunden ist, ist es in Bluetooth besser sichtbar||
-|<img src="../../de_DE/blea/images/miband1s.jpg" width="60" />|Xiaomi|Miband1s|Santé|Je nach Firmware funktioniert das möglicherweise nicht mehr. Achtung, wenn das Armband mit Ihrem Smartphone verbunden ist, ist es in Bluetooth besser sichtbar||
-|<img src="../../de_DE/blea/images/miband2.jpg" width="60" />|Xiaomi|Miband2|Santé|Je nach Firmware funktioniert das möglicherweise nicht mehr. Achtung, wenn das Armband mit Ihrem Smartphone verbunden ist, ist es in Bluetooth besser sichtbar||
+|<img src="../../de_DE/blea/images/miband1.jpg" width="60" />|Xiaomi|Miband|Santé|Je nach Firmware funktioniert das möglicherweise nicht mehr. Seien Sie vorsichtig, wenn das Armband mit Ihrem Smartphone verbunden ist und es nicht mehr über Bluetooth sichtbar ist||
+|<img src="../../de_DE/blea/images/miband1s.jpg" width="60" />|Xiaomi|Miband1s|Santé|Je nach Firmware funktioniert das möglicherweise nicht mehr. Seien Sie vorsichtig, wenn das Armband mit Ihrem Smartphone verbunden ist und es nicht mehr über Bluetooth sichtbar ist||
+|<img src="../../de_DE/blea/images/miband2.jpg" width="60" />|Xiaomi|Miband2|Santé|Je nach Firmware funktioniert das möglicherweise nicht mehr. Seien Sie vorsichtig, wenn das Armband mit Ihrem Smartphone verbunden ist und es nicht mehr über Bluetooth sichtbar ist||
 |<img src="../../de_DE/blea/images/miband3.jpg" width="60" />|Xiaomi|Miband 3|Santé|Nur Präsenz für den Moment||
 |<img src="../../de_DE/blea/images/miband4.jpg" width="60" />|Xiaomi|Miband 4|Santé|Nur Präsenz für den Moment||
-|<img src="../../de_DE/blea/images/mibandcolor.jpg" width="60" />|Xiaomi|Miband (mit farbiger LED)|Santé|Je nach Firmware funktioniert das möglicherweise nicht mehr. Achtung, wenn das Armband mit Ihrem Smartphone verbunden ist, ist es in Bluetooth besser sichtbar||
+|<img src="../../de_DE/blea/images/mibandcolor.jpg" width="60" />|Xiaomi|Miband (mit farbiger LED)|Santé|Je nach Firmware funktioniert das möglicherweise nicht mehr. Seien Sie vorsichtig, wenn das Armband mit Ihrem Smartphone verbunden ist und es nicht mehr über Bluetooth sichtbar ist||
 
 # Miflora
 
@@ -261,7 +261,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/blea/images/tb05.jpg" width="60" />|E-Diffuser|Tb05|Diffuseur|Es wird empfohlen, die Option Verbindung beibehalten zu verwenden. Obligatorisch für den experimentellen Versuch, auf direkte Farben zuzugreifen||
+|<img src="../../de_DE/blea/images/tb05.jpg" width="60" />|E-Diffuser|Tb05|Diffuseur|Es wird empfohlen, die Option „Verbindung beibehalten“ zu verwenden. Obligatorisch für den experimentellen Versuch, auf direkte Farben zuzugreifen||
 
 # Ticatag
 

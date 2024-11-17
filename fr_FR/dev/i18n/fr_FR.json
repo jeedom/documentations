@@ -842,7 +842,7 @@
         "deprecated": "deprecated",
         "Ces modifications peuvent entraîner la nécessité de monter la version Jeedom minimale requise de nombreux plugins": "Ces modifications peuvent entraîner la nécessité de monter la version Jeedom minimale requise de nombreux plugins",
         "C'est pourquoi les": "C'est pourquoi les",
-        "n'apparaissent pas sur un Core en branche V4-Stable, mais permettent aux développeurs de voir ce qu'ils peuvent corriger": "n'apparaissent pas sur un Core en branche V4-Stable, mais permettent aux développeurs de voir ce qu'ils peuvent corriger",
+        "n'apparaissent pas sur un Core en branche master, mais permettent aux développeurs de voir ce qu'ils peuvent corriger": "n'apparaissent pas sur un Core en branche master, mais permettent aux développeurs de voir ce qu'ils peuvent corriger",
         "jQuery Autocomplete": "jQuery Autocomplete",
         "input.jeeComplete": "input.jeeComplete",
         "La lib Autocomplete, dépendante de jQuery, sera supprimée dans une future version du Core": "La lib Autocomplete, dépendante de jQuery, sera supprimée dans une future version du Core",

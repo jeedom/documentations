@@ -2,17 +2,17 @@
 
 Hardware | Zustand | Remarques
 --- | --- | ---
-Jeedomboard             | Stabil                  |
-Brummbrett            | Stabil                  |
-Odroid C2               | Stabil                  |                          
-SMART                   | Stabil                  |                          
-RPI1                    | Stabil                  |                          
-RPI2                    | Stabil                  |                          
-RPI3                    | Stabil                  | Seien Sie vorsichtig, wenn Sie ein Razberry verwenden, WLAN/Bluetooth funktioniert nicht
-RPI4                    | Stabil                  | Seien Sie vorsichtig, wenn Sie ein Razberry verwenden, WLAN/Bluetooth funktioniert nicht
-64 Bit                 | Stabil                  |                          
-32 Bit                 | Wird nicht unterstützt            |                          
-VMware                  | Stabil                  | Keine Unterstützung für VMware, nur für Jeedom.
+Jeedomboard      | Stabil        |
+Brummbrett     | Stabil        |
+Odroid C2        | Stabil        |                          
+SMART            | Stabil        |                          
+RPI1             | Stabil        |                          
+RPI2             | Stabil        |                          
+RPI3             | Stabil        | Seien Sie vorsichtig, wenn Sie einen Raspberry verwenden, WLAN/Bluetooth funktioniert nicht
+RPI4             | Stabil        | Seien Sie vorsichtig, wenn Sie einen Raspberry verwenden, WLAN/Bluetooth funktioniert nicht
+64 Bit          | Stabil        |                          
+32 Bit          | Wird nicht unterstützt  |                          
+VMware           | Stabil        | Keine Unterstützung für VMware, nur für Jeedom.
 
 Das Jeedom-Team empfiehlt Sie (abhängig von Ihrem Budget) :
 
@@ -65,15 +65,15 @@ Für die anderen laden wir Sie ein, direkt in die Dokumentation des Plugins zu s
 
 ## Bluetooth
 
-Sie finden die Liste [hier](https://compatibility.jeedom.com/index.php?p=home&plugin=blea) Jeedom-kompatible Bluetooth-Module.
+Du wirst finden [hier](https://compatibility.jeedom.com/index.php?p=home&plugin=blea) die Liste der Jeedom-kompatiblen Bluetooth-Module.
 
 ## Kameras
 
-Sie finden die Liste [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=camera) Jeedom-kompatible Kameras.
+Du wirst finden [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=camera) die Liste der Jeedom-kompatiblen Kameras.
 
 ## Edisio
 
-Sie finden die Liste [hier](https://doc.jeedom.com/de_DE/edisio/equipement.compatible) Jeedom kompatible Edisio Module und [hier](https://doc.jeedom.com/de_DE/edisio/) Dokumentation für einige Module.
+Du wirst finden [hier](https://doc.jeedom.com/de_DE/edisio/equipement.compatible) die Liste der Jeedom-kompatiblen Edisio-Module und [hier](https://doc.jeedom.com/de_DE/edisio/) Dokumentation für einige Module.
 
 ## EnOcean
 
@@ -82,7 +82,7 @@ ENOCEAN-Controller :
 -   [EnOcean USB300 USB-Stick](https://www.domadoo.fr/fr/interface-domotique/3206-enocean-controleur-usb-enocean-avec-connecteur-sma-3700527400280.html)
 -   [EnOcean USB310 USB-Stick (empfohlen)](https://www.domadoo.fr/fr/interface-domotique/2433-enocean-controleur-usb-enocean-3700527400273.html)
 
-Sie finden die Liste [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) Jeedom-kompatible EnOcean-Module.
+Du wirst finden [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) die Liste der Jeedom-kompatiblen EnOcean-Module.
 
 ## RFXcom
 
@@ -91,7 +91,7 @@ RFXcom-Controller :
 -   RFXtrx433 USB
 -   [RFXtrx433E USB (empfohlen)](https://www.domadoo.fr/fr/interface-domotique/4659-rfxcom-interface-radio-recepteuremetteur-xl-43392mhz-usb-chacon-somfy-rts-oregon-et-autres.html)
 
-Sie finden die Liste [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=rfxcom) Jef-kompatible Rfxcom-Module und [hier](https://doc.jeedom.com/de_DE/rfxcom/) Dokumentation für einige Module.
+Du wirst finden [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=rfxcom) die Liste der Jeedom-kompatiblen Rfxcom-Module und [hier](https://doc.jeedom.com/de_DE/rfxcom/) Dokumentation für einige Module.
 
 ## SMS (GSM)
 
@@ -107,7 +107,7 @@ ZigBee-Controller :
 - [Zigate (Beta)](https://www.domadoo.fr/fr/interface-domotique/5734-lixee-dongle-usb-zigbee-zigate-v2-compatible-jeedom-eedomus-domoticz-3770014375094.html?search_query=zigate&results=106)
 - [Popp (Elelabs) - Empfohlen](https://www.domadoo.fr/fr/interface-domotique/5431-popp-dongle-usb-zigbee-zb-stick-chipset-efr32mg13-4251295701554.html)
 
-Sie finden die Liste [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) Jeedom-kompatible ZigBee-Module.
+Du wirst finden [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) die Liste der Jeedom-kompatiblen Zigbee-Module.
 
 ## Zwave
 
@@ -118,4 +118,4 @@ Z-Wave-Controller :
 -   AEON LABS Z-Wellen-Controller Aeon Labs Z-Stick S2
 -   [AEON LABS - Z-Wave Plus Z-Stick GEN5 USB-Controller (empfohlen)](https://www.domadoo.fr/fr/interface-domotique/2917-aeotec-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html?search_query=sigma&results=4)
 
-Sie finden die Liste [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openzwave) Jeedom-kompatible Z-Wave-Module und [hier](https://doc.jeedom.com/de_DE/zwave/) Dokumentation für einige Module.
+Du wirst finden [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openzwave) die Liste der Jeedom-kompatiblen Z-Wave-Module und [hier](https://doc.jeedom.com/de_DE/zwave/) Dokumentation für einige Module.
