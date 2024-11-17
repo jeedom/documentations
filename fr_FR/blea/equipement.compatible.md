@@ -54,19 +54,19 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Divoom|Pixoo|Afficheur|Fonction garder la connection recommandée||
+||Divoom|Pixoo|Afficheur|Fonction garder la connexion recommandée||
 
 # Divoomtimeboxmini
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/divoomtimeboxmini.jpg" width="60" />|Divoom|TimeBox Mini|Afficheur|Fonction garder la connection obligatoire pour pas avoir le logo bluetooth||
+|<img src="../../fr_FR/blea/images/divoomtimeboxmini.jpg" width="60" />|Divoom|TimeBox Mini|Afficheur|Fonction garder la connexion obligatoire pour pas avoir le logo bluetooth||
 
 # Dotti
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/dotti.jpg" width="60" />|Dotti|Dotti|Afficheur|Fonctionnera beaucoup mieux avec option garder la connection||
+|<img src="../../fr_FR/blea/images/dotti.jpg" width="60" />|Dotti|Dotti|Afficheur|Fonctionnera beaucoup mieux avec option garder la connexion||
 
 # Dreamscreen
 
@@ -114,11 +114,11 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/itag.jpg" width="60" />|Itag|Itag Noir|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)||
-|<img src="../../fr_FR/blea/images/itag.jpg" width="60" />|Itag|Itag Blanc|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)||
-|<img src="../../fr_FR/blea/images/itag.jpg" width="60" />|Itag|Itag Rose|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)||
-|<img src="../../fr_FR/blea/images/itag.jpg" width="60" />|Itag|Itag Vert|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)||
-|<img src="../../fr_FR/blea/images/itag.jpg" width="60" />|Itag|Itag Bleu|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)||
+|<img src="../../fr_FR/blea/images/itag.jpg" width="60" />|Itag|Itag Noir|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connexion, à partir de ce moment-là la connexion est gardée et le bouton n'est plus visible des autres antennes. La connexion se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisie en émission (dans ce cas-là il faut bien evidemment choisir la même en réception et émission)||
+|<img src="../../fr_FR/blea/images/itag.jpg" width="60" />|Itag|Itag Blanc|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connexion, à partir de ce moment-là la connexion est gardée et le bouton n'est plus visible des autres antennes. La connexion se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisie en émission (dans ce cas-là il faut bien evidemment choisir la même en réception et émission)||
+|<img src="../../fr_FR/blea/images/itag.jpg" width="60" />|Itag|Itag Rose|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connexion, à partir de ce moment-là la connexion est gardée et le bouton n'est plus visible des autres antennes. La connexion se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisie en émission (dans ce cas-là il faut bien evidemment choisir la même en réception et émission)||
+|<img src="../../fr_FR/blea/images/itag.jpg" width="60" />|Itag|Itag Vert|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connexion, à partir de ce moment-là la connexion est gardée et le bouton n'est plus visible des autres antennes. La connexion se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisie en émission (dans ce cas-là il faut bien evidemment choisir la même en réception et émission)||
+|<img src="../../fr_FR/blea/images/itag.jpg" width="60" />|Itag|Itag Bleu|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connexion, à partir de ce moment-là la connexion est gardée et le bouton n'est plus visible des autres antennes. La connexion se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisie en émission (dans ce cas-là il faut bien evidemment choisir la même en réception et émission)||
 
 # Jinlin
 
@@ -171,12 +171,12 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/miband1.jpg" width="60" />|Xiaomi|Miband|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth||
-|<img src="../../fr_FR/blea/images/miband1s.jpg" width="60" />|Xiaomi|Miband1s|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth||
-|<img src="../../fr_FR/blea/images/miband2.jpg" width="60" />|Xiaomi|Miband2|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth||
+|<img src="../../fr_FR/blea/images/miband1.jpg" width="60" />|Xiaomi|Miband|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il n'est plus visible en bluetooth||
+|<img src="../../fr_FR/blea/images/miband1s.jpg" width="60" />|Xiaomi|Miband1s|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il n'est plus visible en bluetooth||
+|<img src="../../fr_FR/blea/images/miband2.jpg" width="60" />|Xiaomi|Miband2|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il n'est plus visible en bluetooth||
 |<img src="../../fr_FR/blea/images/miband3.jpg" width="60" />|Xiaomi|Miband 3|Santé|Uniquement de la présence pour le moment||
 |<img src="../../fr_FR/blea/images/miband4.jpg" width="60" />|Xiaomi|Miband 4|Santé|Uniquement de la présence pour le moment||
-|<img src="../../fr_FR/blea/images/mibandcolor.jpg" width="60" />|Xiaomi|Miband (avec led couleur)|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth||
+|<img src="../../fr_FR/blea/images/mibandcolor.jpg" width="60" />|Xiaomi|Miband (avec led couleur)|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il n'est plus visible en bluetooth||
 
 # Miflora
 
@@ -261,7 +261,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/blea/images/tb05.jpg" width="60" />|E-Diffuser|Tb05|Diffuseur|Il est recommandé d'utiliser l'option garder la connection. Obligatoire pour tenter expérimentalement l'accès au couleur direct||
+|<img src="../../fr_FR/blea/images/tb05.jpg" width="60" />|E-Diffuser|Tb05|Diffuseur|Il est recommandé d'utiliser l'option garder la connexion. Obligatoire pour tenter expérimentalement l'accès au couleur direct||
 
 # Ticatag
 

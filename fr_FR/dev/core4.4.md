@@ -181,7 +181,7 @@ Pour rappel:
 
 > **Remarque**
 >
-> Ces modifications peuvent entraîner la nécessité de monter la version Jeedom minimale requise de nombreux plugins. C'est pourquoi les *deprecated* n’apparaissent pas sur un Core en branche V4-Stable, mais permettent aux développeurs de voir ce qu'ils peuvent corriger.
+> Ces modifications peuvent entraîner la nécessité de monter la version Jeedom minimale requise de nombreux plugins. C'est pourquoi les *deprecated* n’apparaissent pas sur un Core en branche master, mais permettent aux développeurs de voir ce qu'ils peuvent corriger.
 
 #### jQuery Autocomplete
 
