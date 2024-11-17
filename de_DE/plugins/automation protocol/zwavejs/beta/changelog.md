@@ -4,19 +4,24 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-- Hinzufügung des Remote-Modus (in der Betaversion und seien Sie vorsichtig, dadurch werden die Funktionen der Plugins eingeschränkt). Lesen Sie die Dokumentation sorgfältig durch. Der Wechsel in den Remote-Modus hat starke Auswirkungen auf die Benutzerfreundlichkeit und sogar auf die Kompatibilität mit bestimmten Modulen
+- Zur Version wechseln *9.26.0* von ZwaveJsUI
+- Remote-Modus hinzugefügt *(Attention: Dadurch wird die Funktionalität des Plugins eingeschränkt)*. Lesen Sie die Dokumentation sorgfältig durch. Der Wechsel in den Remote-Modus hat großen Einfluss auf die Benutzerfreundlichkeit und die Kompatibilität bestimmter Module
 - Unterstützung des mqtts-Protokolls
+
+# 15.11.2024
+
+- Korrigieren Sie die Abhängigkeitsinstallationsmethode
 
 # 27.09.2024
 
-- Änderung der Mindestversionen, Core 4.4 und OS Debian 11 mindestens
+- Änderung der Mindestversionen: Kern 4.4 und OS Debian 11
 
 # 26.09.2024
 
 **Verbesserungen**
 
 - Zur Version wechseln *9.20.0* von ZwaveJsUI
-- Wir bereiten die Zusammenführung des Remote-Modus mit der nächsten Version vor
+- Vorbereitung zur Integration des Remote-Modus
 - Codebereinigung
 
 **Konfigurationsergänzungen**
@@ -39,9 +44,9 @@
 **Konfigurationsergänzungen**
 
 - Konfig hinzugefügt *Neo-Signal-Repeater* (Eigenschaften : Temperatur Feuchtigkeit)
-- Konfig hinzugefügt *Shelly Qubino Welle 1* (Eigenschaften : Schalter, Zeigerbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung) 
+- Konfig hinzugefügt *Shelly Qubino Welle 1* (Eigenschaften : Schalter, Zeigerbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung)
 - Konfig hinzugefügt *Shelly Qubino Wave 13 Uhr* (Eigenschaften : Schalter, Stromversorgung, Energie, Netzbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung)
-- Konfig hinzugefügt *Shelly Qubino Wave Pro 1* (Eigenschaften : Schalter, Handbenachrichtigung, Wärmesensorbenachrichtigung) 
+- Konfig hinzugefügt *Shelly Qubino Wave Pro 1* (Eigenschaften : Schalter, Handbenachrichtigung, Wärmesensorbenachrichtigung)
 - Konfig hinzugefügt *Shelly Qubino Wave Pro 13:00 Uhr* (Eigenschaften : Schalter, Stromversorgung, Energie, Netzbenachrichtigung, Überstrombenachrichtigung, Überspannungsbenachrichtigung, Wärmesensorbenachrichtigung)
 - Konfig hinzugefügt *Shelly Qubino Wave 14 Uhr* (Eigenschaften : Schalter, Stromversorgung, Energie, Netzbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung)
 - Konfig hinzugefügt *Shelly Qubino Wave Pro 2* (Eigenschaften : Switch)
@@ -70,7 +75,7 @@
 **Verbesserungen**
 
 - Option zum Aktivieren oder Deaktivieren hinzugefügt *Soft-Reset*
-- Zur Version wechseln *9.6.2* von ZwaveJsUI 
+- Zur Version wechseln *9.6.2* von ZwaveJsUI
 
 **Konfigurationsergänzungen**
 

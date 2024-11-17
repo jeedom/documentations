@@ -4,19 +4,24 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-- Adición del modo remoto (en beta y tenga cuidado, esto reduce las funciones de los complementos), lea atentamente la documentación, cambiar al modo remoto tiene un fuerte impacto en la facilidad de uso e incluso en la compatibilidad con ciertos módulos
+- Cambiar a versión *9.26.0* por ZwaveJsUI
+- Modo remoto agregado *(Attention: esto reduce la funcionalidad del complemento)*. Lea atentamente la documentación, cambiar al modo remoto tiene un fuerte impacto en la facilidad de uso y la compatibilidad de ciertos módulos
 - Soporte del protocolo mqtts
+
+# 15/11/2024
+
+- Arreglar el método de instalación de dependencia
 
 # 27/09/2024
 
-- Cambio de versiones mínimas, core 4.4 y SO Debian 11 mínimo
+- Cambio de versiones mínimas: núcleo 4.4 y sistema operativo Debian 11
 
 # 26/09/2024
 
 **Mejoras**
 
 - Cambiar a versión *9.20.0* por ZwaveJsUI
-- Preparándose para fusionar el modo remoto en la próxima versión
+- Preparándose para integrar el modo remoto
 - Limpieza de código
 
 **Adiciones de configuración**
@@ -39,9 +44,9 @@
 **Adiciones de configuración**
 
 - Configuración añadida *Repetidor de señal neo* (propiedades : Temperatura, humedad)
-- Configuración añadida *Shelly Qubino Ola 1* (propiedades : Interruptor, notificación de manos, notificación de sobrecorriente, notificación de sensor de calor) 
+- Configuración añadida *Shelly Qubino Ola 1* (propiedades : Interruptor, notificación de manos, notificación de sobrecorriente, notificación de sensor de calor)
 - Configuración añadida *Shelly Qubino Ola 13:00* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
-- Configuración añadida *Shelly Qubino Wave Pro 1* (propiedades : Interruptor, notificación de manos, notificación de sensor de calor) 
+- Configuración añadida *Shelly Qubino Wave Pro 1* (propiedades : Interruptor, notificación de manos, notificación de sensor de calor)
 - Configuración añadida *Shelly Qubino Wave Pro 13:00* (propiedades : Interruptor, potencia, energía, notificación de red, notificación de sobrecorriente, notificación de sobretensión, notificación de sensor de calor)
 - Configuración añadida *Shelly Qubino Ola 2 p.m* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
 - Configuración añadida *Shelly Qubino Wave Pro 2* (propiedades : Switch)
@@ -70,7 +75,7 @@
 **Mejoras**
 
 - Se agregó una opción para habilitar o deshabilitar el *Reinicio suave*
-- Cambiar a versión *9.6.2* por ZwaveJsUI 
+- Cambiar a versión *9.6.2* por ZwaveJsUI
 
 **Adiciones de configuración**
 

@@ -4,9 +4,13 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 15/11/2024
+
+- Correction de la méthode d'installation des dépendances
+
 # 27/09/2024
 
-- Changement des versions minimum, core 4.4 et OS Debian 11 minimum
+- Changement des versions minimales: core 4.4 et OS Debian 11
 
 # 26/09/2024
 
@@ -36,9 +40,9 @@
 **Ajouts de Configurations**
 
 - Ajout de la configuration *Neo Signal Repeater* (propriétés : Temperature, Humidity)
-- Ajout de la configuration *Shelly Qubino Wave 1* (propriétés : Switch, Notification Mains, Notification Over-Current, Notification Heat-Sensor) 
+- Ajout de la configuration *Shelly Qubino Wave 1* (propriétés : Switch, Notification Mains, Notification Over-Current, Notification Heat-Sensor)
 - Ajout de la configuration *Shelly Qubino Wave 1 PM* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor)
-- Ajout de la configuration *Shelly Qubino Wave Pro 1* (propriétés : Switch, Notification Mains, Notification Heat-Sensor) 
+- Ajout de la configuration *Shelly Qubino Wave Pro 1* (propriétés : Switch, Notification Mains, Notification Heat-Sensor)
 - Ajout de la configuration *Shelly Qubino Wave Pro 1 PM* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Over-Voltage, Notification Heat-Sensor)
 - Ajout de la configuration *Shelly Qubino Wave 2 PM* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor)
 - Ajout de la configuration *Shelly Qubino Wave Pro 2* (propriétés : Switch)
@@ -67,7 +71,7 @@
 **Améliorations**
 
 - Rajout d'une option permettant d'activer ou désactiver le *Soft Reset*
-- Passage à la version *9.6.2* de ZwaveJsUI 
+- Passage à la version *9.6.2* de ZwaveJsUI
 
 **Ajouts de Configurations**
 
