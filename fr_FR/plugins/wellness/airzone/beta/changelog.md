@@ -5,6 +5,15 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 
+## 18/11/2024
+
+>**IMPORTANT**
+>
+> 18/11/2024
+> Cette nouvelle Beta apporte désormais le support multi passerelles : WebServer, Aidoo ..
+> Vous pouvez désormais configurez plusieurs équipements
+> Cela implique qu'en installant cette version, il vous faudra supprimer tout équipement existant avant cette mise à jour.
+> Il suffit simplement de créé les équipements passerelles, et les équipements de Zones seront automatiquement créés
 
 ## 13/10/2024
 

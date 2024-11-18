@@ -5,6 +5,15 @@
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
 
+## 11/18/2024
+
+>**IMPORTANT**
+>
+> 11/18/2024
+> This new Beta now brings multi-gateway support : WebServer, Aidoo ..
+> You can now configure multiple devices
+> This implies that by installing this version, you will have to remove any equipment existing before this update.
+> You simply need to create the gateway equipment, and the Zone equipment will be automatically created
 
 ## 10/13/2024
 
