@@ -60,7 +60,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/divoomtimeboxmini.jpg" width="60" />|Divoom|TimeBox Mini|Afficheur|Mantenga la función de conexión requerida para evitar tener el logo de bluetooth||
+|<img src="../../es_ES/blea/images/divoomtimeboxmini.jpg" width="60" />|Divoom|TimeBox Mini|Afficheur|Mantener la función de conexión requerida para evitar tener el logo de bluetooth||
 
 # Dotti
 
@@ -114,11 +114,11 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Negro|Boutons|Cuidado para que el botón funcione debes comprobar mantener conexión, a partir de ese momento la conexión se mantiene y el botón ya no es visible para otras antenas. La conexión se realiza en cuanto el botón es visible dentro de 20 segundos (esto se confirma dejando de parpadear) y esto sólo en la antena elegida para la transmisión (en este caso, obviamente, debe elegir la misma en recepción y transmisión))||
-|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Blanco|Boutons|Cuidado para que el botón funcione debes comprobar mantener conexión, a partir de ese momento la conexión se mantiene y el botón ya no es visible para otras antenas. La conexión se realiza en cuanto el botón es visible dentro de 20 segundos (esto se confirma dejando de parpadear) y esto sólo en la antena elegida para la transmisión (en este caso, obviamente, debe elegir la misma en recepción y transmisión))||
-|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Rose|Boutons|Cuidado para que el botón funcione debes comprobar mantener conexión, a partir de ese momento la conexión se mantiene y el botón ya no es visible para otras antenas. La conexión se realiza en cuanto el botón es visible dentro de 20 segundos (esto se confirma dejando de parpadear) y esto sólo en la antena elegida para la transmisión (en este caso, obviamente, debe elegir la misma en recepción y transmisión))||
-|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag verde|Boutons|Cuidado para que el botón funcione debes comprobar mantener conexión, a partir de ese momento la conexión se mantiene y el botón ya no es visible para otras antenas. La conexión se realiza en cuanto el botón es visible dentro de 20 segundos (esto se confirma dejando de parpadear) y esto sólo en la antena elegida para la transmisión (en este caso, obviamente, debe elegir la misma en recepción y transmisión))||
-|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag azul|Boutons|Cuidado para que el botón funcione debes comprobar mantener conexión, a partir de ese momento la conexión se mantiene y el botón ya no es visible para otras antenas. La conexión se realiza en cuanto el botón es visible dentro de 20 segundos (esto se confirma dejando de parpadear) y esto sólo en la antena elegida para la transmisión (en este caso, obviamente, debe elegir la misma en recepción y transmisión))||
+|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Negro|Boutons|Cuidado para que el botón funcione debes comprobar mantener la conexión, a partir de este momento la conexión se mantiene y el botón ya no es visible para otras antenas. La conexión se realiza en cuanto el botón sea visible dentro de 20 segundos (esto se confirma con el cese del parpadeo) y esto sólo en la antena elegida en emisión (en este caso obviamente hay que elegir la misma en recepción y). transmisión)||
+|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Blanco|Boutons|Cuidado para que el botón funcione debes comprobar mantener la conexión, a partir de este momento la conexión se mantiene y el botón ya no es visible para otras antenas. La conexión se realiza en cuanto el botón sea visible dentro de 20 segundos (esto se confirma con el cese del parpadeo) y esto sólo en la antena elegida en emisión (en este caso obviamente hay que elegir la misma en recepción y). transmisión)||
+|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag Rose|Boutons|Cuidado para que el botón funcione debes comprobar mantener la conexión, a partir de este momento la conexión se mantiene y el botón ya no es visible para otras antenas. La conexión se realiza en cuanto el botón sea visible dentro de 20 segundos (esto se confirma con el cese del parpadeo) y esto sólo en la antena elegida en emisión (en este caso obviamente hay que elegir la misma en recepción y). transmisión)||
+|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag verde|Boutons|Cuidado para que el botón funcione debes comprobar mantener la conexión, a partir de este momento la conexión se mantiene y el botón ya no es visible para otras antenas. La conexión se realiza en cuanto el botón sea visible dentro de 20 segundos (esto se confirma con el cese del parpadeo) y esto sólo en la antena elegida en emisión (en este caso obviamente hay que elegir la misma en recepción y). transmisión)||
+|<img src="../../es_ES/blea/images/itag.jpg" width="60" />|Itag|Itag azul|Boutons|Cuidado para que el botón funcione debes comprobar mantener la conexión, a partir de este momento la conexión se mantiene y el botón ya no es visible para otras antenas. La conexión se realiza en cuanto el botón sea visible dentro de 20 segundos (esto se confirma con el cese del parpadeo) y esto sólo en la antena elegida en emisión (en este caso obviamente hay que elegir la misma en recepción y). transmisión)||
 
 # Jinlin
 
@@ -171,12 +171,12 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/blea/images/miband1.jpg" width="60" />|Xiaomi|Miband|Santé|Dependiendo de los firmwares puede que ya no funcione. Tenga cuidado si la pulsera está conectada a su teléfono inteligente, ya no es visible a través de Bluetooth||
-|<img src="../../es_ES/blea/images/miband1s.jpg" width="60" />|Xiaomi|Miband1s|Santé|Dependiendo de los firmwares puede que ya no funcione. Tenga cuidado si la pulsera está conectada a su teléfono inteligente, ya no es visible a través de Bluetooth||
-|<img src="../../es_ES/blea/images/miband2.jpg" width="60" />|Xiaomi|Miband2|Santé|Dependiendo de los firmwares puede que ya no funcione. Tenga cuidado si la pulsera está conectada a su teléfono inteligente, ya no es visible a través de Bluetooth||
+|<img src="../../es_ES/blea/images/miband1.jpg" width="60" />|Xiaomi|Miband|Santé|Dependiendo de los firmwares puede que ya no funcione. Cuidado si la pulsera está conectada a tu smartphone es más visible en Bluetooth||
+|<img src="../../es_ES/blea/images/miband1s.jpg" width="60" />|Xiaomi|Miband1s|Santé|Dependiendo de los firmwares puede que ya no funcione. Cuidado si la pulsera está conectada a tu smartphone es más visible en Bluetooth||
+|<img src="../../es_ES/blea/images/miband2.jpg" width="60" />|Xiaomi|Miband2|Santé|Dependiendo de los firmwares puede que ya no funcione. Cuidado si la pulsera está conectada a tu smartphone es más visible en Bluetooth||
 |<img src="../../es_ES/blea/images/miband3.jpg" width="60" />|Xiaomi|Miband 3|Santé|Única presencia por el momento||
 |<img src="../../es_ES/blea/images/miband4.jpg" width="60" />|Xiaomi|Miband 4|Santé|Única presencia por el momento||
-|<img src="../../es_ES/blea/images/mibandcolor.jpg" width="60" />|Xiaomi|Miband (con led de color)|Santé|Dependiendo de los firmwares puede que ya no funcione. Tenga cuidado si la pulsera está conectada a su teléfono inteligente, ya no es visible a través de Bluetooth||
+|<img src="../../es_ES/blea/images/mibandcolor.jpg" width="60" />|Xiaomi|Miband (con led de color)|Santé|Dependiendo de los firmwares puede que ya no funcione. Cuidado si la pulsera está conectada a tu smartphone es más visible en Bluetooth||
 
 # Miflora
 
@@ -297,4 +297,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2024-11-17 01:21:02
+2024-11-18 01:21:02

@@ -60,7 +60,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/divoomtimeboxmini.jpg" width="60" />|Divoom|TimeBox Mini|Afficheur|Function keep connection required to not have the bluetooth logo||
+|<img src="../../en_US/blea/images/divoomtimeboxmini.jpg" width="60" />|Divoom|TimeBox Mini|Afficheur|Function keep connection required to avoid the bluetooth logo||
 
 # Dotti
 
@@ -114,11 +114,11 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Black|Boutons|Please note that for the button to work you must check keep the connection, from this point on the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by the flashing stopping) and this only on the antenna chosen for transmission (in this case it is obviously necessary to choose the same one for reception and transmission)||
-|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag White|Boutons|Please note that for the button to work you must check keep the connection, from this point on the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by the flashing stopping) and this only on the antenna chosen for transmission (in this case it is obviously necessary to choose the same one for reception and transmission)||
-|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Rose|Boutons|Please note that for the button to work you must check keep the connection, from this point on the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by the flashing stopping) and this only on the antenna chosen for transmission (in this case it is obviously necessary to choose the same one for reception and transmission)||
-|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Green|Boutons|Please note that for the button to work you must check keep the connection, from this point on the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by the flashing stopping) and this only on the antenna chosen for transmission (in this case it is obviously necessary to choose the same one for reception and transmission)||
-|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Blue|Boutons|Please note that for the button to work you must check keep the connection, from this point on the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by the flashing stopping) and this only on the antenna chosen for transmission (in this case it is obviously necessary to choose the same one for reception and transmission)||
+|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Black|Boutons|Please note that for the button to work you must check keep the connection, from this moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by the flashing stopping) and this only on the antenna chosen for transmission (in this case it is obviously necessary to choose the same one for reception and transmission)||
+|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag White|Boutons|Please note that for the button to work you must check keep the connection, from this moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by the flashing stopping) and this only on the antenna chosen for transmission (in this case it is obviously necessary to choose the same one for reception and transmission)||
+|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Rose|Boutons|Please note that for the button to work you must check keep the connection, from this moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by the flashing stopping) and this only on the antenna chosen for transmission (in this case it is obviously necessary to choose the same one for reception and transmission)||
+|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Green|Boutons|Please note that for the button to work you must check keep the connection, from this moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by the flashing stopping) and this only on the antenna chosen for transmission (in this case it is obviously necessary to choose the same one for reception and transmission)||
+|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Blue|Boutons|Please note that for the button to work you must check keep the connection, from this moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by the flashing stopping) and this only on the antenna chosen for transmission (in this case it is obviously necessary to choose the same one for reception and transmission)||
 
 # Jinlin
 
@@ -171,12 +171,12 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/miband1.jpg" width="60" />|Xiaomi|Miband|Santé|Depending on the firmwares may no longer work. Please note that if the bracelet is connected to your smartphone it is no longer visible in Bluetooth||
-|<img src="../../en_US/blea/images/miband1s.jpg" width="60" />|Xiaomi|Miband1s|Santé|Depending on the firmwares may no longer work. Please note that if the bracelet is connected to your smartphone it is no longer visible in Bluetooth||
-|<img src="../../en_US/blea/images/miband2.jpg" width="60" />|Xiaomi|Miband2|Santé|Depending on the firmwares may no longer work. Please note that if the bracelet is connected to your smartphone it is no longer visible in Bluetooth||
+|<img src="../../en_US/blea/images/miband1.jpg" width="60" />|Xiaomi|Miband|Santé|Depending on the firmwares may no longer work. Please note that if the bracelet is connected to your smartphone it is more visible via Bluetooth||
+|<img src="../../en_US/blea/images/miband1s.jpg" width="60" />|Xiaomi|Miband1s|Santé|Depending on the firmwares may no longer work. Please note that if the bracelet is connected to your smartphone it is more visible via Bluetooth||
+|<img src="../../en_US/blea/images/miband2.jpg" width="60" />|Xiaomi|Miband2|Santé|Depending on the firmwares may no longer work. Please note that if the bracelet is connected to your smartphone it is more visible via Bluetooth||
 |<img src="../../en_US/blea/images/miband3.jpg" width="60" />|Xiaomi|Miband 3|Santé|Only presence for the moment||
 |<img src="../../en_US/blea/images/miband4.jpg" width="60" />|Xiaomi|Miband 4|Santé|Only presence for the moment||
-|<img src="../../en_US/blea/images/mibandcolor.jpg" width="60" />|Xiaomi|Miband (with color led)|Santé|Depending on the firmwares may no longer work. Please note that if the bracelet is connected to your smartphone it is no longer visible in Bluetooth||
+|<img src="../../en_US/blea/images/mibandcolor.jpg" width="60" />|Xiaomi|Miband (with color led)|Santé|Depending on the firmwares may no longer work. Please note that if the bracelet is connected to your smartphone it is more visible via Bluetooth||
 
 # Miflora
 
@@ -297,4 +297,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2024-11-17 01:21:02
+2024-11-18 01:21:02
