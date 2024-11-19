@@ -278,6 +278,11 @@ Les types d'équipements sont importants cela permet à Google de réagir en fon
 > **IMPORTANT**
 >
 > Le type thermostat n'est pleinement supporté qu'à travers un équipement venant du plugin thermostat, dans le cas contraire la gestion des modes risque de ne pas marcher
+> 
+> Pour la gestion du mode sur un type thermostat, il faut :
+> - Une info de type "autre" qui prend comme valeur "heat", "cool", "off", "eco" et lui affecter le type generic : Thermostat Mode
+> - Des actions qui réalisent les changements de mode et leur affecter le type generic : Thermostat Mode
+> - Il faut également rattacher dans les paramètres de l'équipement dans le plugin gsh de l'action au mode correspondant (partie "Configuration TemperatureSetting")
 
 ## Scénario
 

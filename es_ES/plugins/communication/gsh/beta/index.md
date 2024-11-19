@@ -278,6 +278,11 @@ Los tipos de equipos son importantes, esto permite a Google reaccionar en funci�
 > **Importante**
 >
 > El tipo de termostato solo es totalmente compatible a través de equipos que provienen del complemento de termostato; de lo contrario, es posible que la administración de los modos no funcione
+> 
+> Para gestionar el modo en un tipo de termostato, debe :
+> - Información de tipo "otro" que toma el valor "calor", "frío", "apagado", "eco" y le asigna el tipo genérico : Modo termostato
+> - Acciones que realizan cambios de modo y les asignan el tipo genérico : Modo termostato
+> - También es necesario conectar la acción al modo correspondiente en los parámetros del equipo en el complemento gsh (sección "Configuración de temperatura")")
 
 ## Escenario
 
