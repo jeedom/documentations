@@ -5,6 +5,7 @@
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
 - Better cloud query management
+- Adding event codes to the remote control (space control)
 
 # 07/09/2024
 

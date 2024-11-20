@@ -5,6 +5,7 @@
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
 - Mejor gestión de las solicitudes en la nube
+- Se agregaron códigos de eventos al control remoto (control de espacio)
 
 # 09/07/2024
 
