@@ -159,6 +159,8 @@
         "afficher l'état de l'appareil, son programme, l'allumer\/l'éteindre, changer de chaîne, lancer une programme...<\/br>J'ai implémenté un widget pour les appareils les plus communs, pour les autres, libre à vous de créer le vôtre, et pourquoi pas le partager": "afficher l'état de l'appareil, son programme, l'allumer\/l'éteindre, changer de chaîne, lancer une programme...<\/br>J'ai implémenté un widget pour les appareils les plus communs, pour les autres, libre à vous de créer le vôtre, et pourquoi pas le partager",
         "SmartThings": "SmartThings",
         "Ce plugin permet de créer un équipement pour chaque appareil identifié sur son compte SmartThings": "Ce plugin permet de créer un équipement pour chaque appareil identifié sur son compte SmartThings",
+        "openHASP": "openHASP",
+        "Plugin pour gérer des écrans multifonctions sous openHASP": "Plugin pour gérer des écrans multifonctions sous openHASP",
         "Netro arrosage": "Netro arrosage",
         "Plugin basé sur le système d'arrosage automatique Netro Smart Garden": "Plugin basé sur le système d'arrosage automatique Netro Smart Garden",
         "Netatmo Pro": "Netatmo Pro",

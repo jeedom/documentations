@@ -1,0 +1,33 @@
+{
+	"id": "openhasp",
+	"name": "openHASP",
+	"pluginVersion": "0.1",
+	"description": {
+		"fr_FR": "Plugin pour gérer des écrans multifonctions sous openHASP"
+	},
+	"licence": "AGPL",
+	"author": "jbbeauf",
+	"require": "4.2",
+	"os" : {
+		"min" : 10,
+		"max" : 12.99
+	},
+	"category": "devicecommunication",
+	"hasDependency": true,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+    "changelog" : "",
+    "documentation" : "",
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"smart",
+		"luna",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile"
+	]
+}
