@@ -409,7 +409,7 @@ Durch Klicken auf diese Schaltfläche können Sie die heruntergeladene jeebacnet
 
 
 
-### Plugin-Konfiguration
+### Plugin-Setup
 
 #### Erweiterter Modus
 
