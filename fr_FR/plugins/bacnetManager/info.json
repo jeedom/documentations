@@ -1,0 +1,46 @@
+{
+    "id": "bacnetManager",
+    "name": "bacnetManager",
+    "description": {
+        "fr_FR": "Plugin permettant de créer un device Bacnet\/Jeedom",
+        "en_US": "Plugin allowing to create a Bacnet\/Jeedom device",
+        "es_ES": "Complemento que permite crear un dispositivo Bacnet\/Jeedom",
+        "de_DE": "Plugin zum Erstellen eines Bacnet\/Jeedom-Geräts",
+        "ru_RU": "Plugin permettant de créer un device Bacnet\/Jeedom",
+        "id_ID": "Plugin permettant de créer un device Bacnet\/Jeedom",
+        "it_IT": "Plugin permettant de créer un device Bacnet\/Jeedom",
+        "ja_JP": "Plugin permettant de créer un device Bacnet\/Jeedom",
+        "pt_PT": "Plugin que permite criar um dispositivo Bacnet\/Jeedom",
+        "tr": "Plugin permettant de créer un device Bacnet\/Jeedom"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.0.62",
+    "category": "automation protocol",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnetManager\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnetManager\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "atlas",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnetManager\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnetManager\/beta"
+}
