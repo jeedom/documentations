@@ -57,7 +57,7 @@
         "Plugin ajoutant le support de la gamme Odace SFSP (sans fil sans pile) Schneider à Jeedom": "Plugin ajoutant le support de la gamme Odace SFSP (sans fil sans pile) Schneider à Jeedom",
         "Plugin permettant de créer un device Bacnet\/Jeedom": "Plugin permettant de créer un device Bacnet\/Jeedom",
         "BACnetServer": "BACnetServer",
-        "bacnetManager": "bacnetManager",
+        "BacnetManager": "BacnetManager",
         "Plugin permettant de créér un device Bacnet, d'y ajouter des commandes infos Jeedom en point Bacnet, et ainsi lire ou écrire sur ce device Bacnet depuis n'importe quel autre client bacnet": "Plugin permettant de créér un device Bacnet, d'y ajouter des commandes infos Jeedom en point Bacnet, et ainsi lire ou écrire sur ce device Bacnet depuis n'importe quel autre client bacnet",
         "BACnet": "BACnet",
         "Plugin permettant de piloter des équipements Bacnet\/IP": "Plugin permettant de piloter des équipements Bacnet\/IP",

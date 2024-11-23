@@ -1,6 +1,6 @@
 {
     "id": "bacnetManager",
-    "name": "bacnetManager",
+    "name": "BacnetManager",
     "description": {
         "fr_FR": "Plugin permettant de créér un device Bacnet, d'y ajouter des commandes infos Jeedom en point Bacnet, et ainsi lire ou écrire sur ce device Bacnet depuis n'importe quel autre client bacnet",
         "en_US": "Plugin to create a Bacnet device, add Jeedom info commands to it at a Bacnet point, and thus read or write to this Bacnet device from any other Bacnet client",
