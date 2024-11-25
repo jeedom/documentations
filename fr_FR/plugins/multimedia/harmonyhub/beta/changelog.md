@@ -15,6 +15,10 @@
 >
 > Voir également [ce sujet sur community](https://community.jeedom.com/t/importante-mise-a-jour-pour-debian-11-et-debian-12/129908) pour plus de détails
 
+# 25/11/2024
+
+- Fix la version d'une dépendance pour éviter un breaking change (async-timeout v5 break timeout context)
+
 # 28/08/2024
 
 - Réécriture complète du plugin
