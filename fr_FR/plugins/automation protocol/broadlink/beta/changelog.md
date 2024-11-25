@@ -4,9 +4,13 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 25/11/2024
+
+- Fix un soucis d'installation de dépendances qui pouvait se produire sur certaines installations
+
 # 05/09/2024
 
-- Ajout d'un redemarrage du demon toute les nuits pour eviter un soucis mémoire
+- Ajout d'un redémarrage du demon toute les nuits pour éviter un soucis mémoire
 
 # 16/08/2024
 
