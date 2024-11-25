@@ -1,5 +1,7 @@
 # Registro de alterações bacnetManager
 
+# Registro de alterações bacnetManager
+
 # Log de alterações BACnetServer
 
 
