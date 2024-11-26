@@ -26,6 +26,8 @@
 
 - Ajout de la configuration *Milesight Ambience Monitoring Sensors AM102*
 
+- Ajout de la configuration *Carte Electronic - TIC LoRaWAN*
+
 # 30/10/2024
 
 - Modification de la configuration *MClimate Wireless Thermostat* (propriétés : Manual Target Temperature Update)
