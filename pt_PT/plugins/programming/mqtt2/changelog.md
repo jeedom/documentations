@@ -2,7 +2,11 @@
 
 >**IMPORTANTE**
 >
->Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
+>Recorde-se que se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
+
+# 10/07/2024
+
+- Corrigido um problema em que certas mensagens podiam ser processadas duas vezes
 
 # 10/01/2024
 
@@ -11,18 +15,18 @@
 # 22/09/2024
 
 - Corrigido um aviso ao iniciar o daemon
-- Corrigido um bug com nodejs 20
+- Corrigido um bug com o Node.ds 20
 - Se um comando for do tipo binário ou numérico e jeedom receber um array ou objeto então o valor será ignorado (corrige um problema com Shelly 2.5)
 - Corrigido bug no gerenciamento de baterias de equipamentos vinculados entre Jeedom
 
 # 09/09/2024
 
-- Implementação de otimização na gestão de equipamentos transmitidos com jeedom 4.5
+- Implementação de otimização na gestão de equipamentos transmitidos com Jeedom 4.5
 - Adicionada segurança para evitar colocar um tópico usado por um plugin como tópico raiz
-- Adicionado um assistente para vincular facilmente o mosquito de dois Jeedoms
-- Adicionada a possibilidade de enviar informações para a nuvem Jeedom para comunicação entre dois jeedoms pela internet (não aberto aos usuários no momento)
+- Adicionado um assistente para vincular facilmente o Mosquitto de dois Jeedoms
+- Adicionada a possibilidade de enviar informações para a nuvem Jeedom para comunicação entre dois Jeedoms pela internet (não aberto aos usuários no momento)
 - Ativação da descoberta automática por padrão (pode ser desativada em Plugin -> Programação -> Gerenciador Mqtt)
-- Corrigido bug ao criar o comando indicando o status de um jeedom remoto (através do equipamento monitor Jeeodm do plugin virtual)
+- Corrigido bug ao criar o comando indicando o status de um Jeedom remoto (através do equipamento monitor Jeedom do plugin virtual)
 - Adição do tópico SYS (para ter informações internas do MQTT)
 - Adicionando um modelo de mosquito.sys permitindo que informações sejam recuperadas do brocker (mensagem recebida/enviada total/1min/5min/15min, carga de memória...)
 - Verificando o ouvinte cada vez que o daemon é iniciado
@@ -30,12 +34,12 @@
 # 20/08/2024
 
 - Adição de uma mensagem online e offline ao iniciar e parar (desejado ou não) o daemon em topic_racine/state
-- Se você tiver equipamento jeedom::monitor a partir do plugin virtual o plugin adicionará automaticamente o comando state (online ou offline), caso você já possua este equipamento deverá reiniciar o Discovery
+- Se você tiver equipamento jeedom::monitor a partir do plugin virtual, o plugin adicionará automaticamente o comando state (online ou offline), caso você já possua este equipamento deverá reiniciar o Discovery
 - Corrigido bug na transmissão do tipo real de equipamento (ao transmitir equipamento entre jeedom)
 - Corrigido um bug na duplicação da tarefa de escuta de eventos
 - Em equipamentos exportados, se o plugin de origem existir no jeedom alvo, então o jeedom exibirá o ícone do plugin
 - Nenhum erro nos logs durante a transmissão do comando (evita quebrar o jeedom se o daemon for cortado)
-- Melhor gerenciamento de pedidos órfãos
+- Melhor tratamento de pedidos órfãos
 - Corrigido um bug ao executar comandos de tipo de mensagem
 
 # 12/08/2024
@@ -51,22 +55,22 @@
 # 09/08/2024
 
 - Melhorada a exibição da janela de configuração dos equipamentos transmitidos
-- Corrigido um bug em comandos órfãos quando transmitidos através do mqtt
+- Corrigido um bug em comandos órfãos ao transmitir através do mqtt
 
 # 08/08/2024
 
-- Para equipamentos transmitidos no Mqtt o plugin agora envia o nível da bateria todas as noites
+- Para equipamentos transmitidos no Mqtt, plugin agora envia nível de bateria todas as noites
 - O plugin para gerenciar o nível de bateria transmitido entre Jeedom
 - Gerenciamento correto de comandos de atualização em widgets em equipamentos transmitidos entre Jeedom
-- Ao enviar a descoberta entre Jeedom os valores dos comandos também são transmitidos (não é necessário esperar uma atualização do valor para tê-lo no alvo). Requer reenvio de descoberta
+- Ao enviar a descoberta entre Jeedom os valores dos comandos também são transmitidos (não é mais necessário esperar uma atualização do valor para tê-lo no alvo). Requer reenvio de descoberta
 - Ao transmitir equipamentos entre Jeedom o plugin agora gerencia o tipo real de equipamento para ser compatível com aplicações mobile. Requer reenvio de descoberta
 - Adicionada janela de configuração global para transmissão de equipamentos entre Jeedom
 
 # 05/08/2024
 
-- Com Jeedom 4.4.8 ou mais possibilidade de não enviar mais todos os equipamentos do brocker MQTT mas apenas alguns (a configurar na configuração avançada do equipamento a transmitir)
+- Com Jeedom 4.4.8 ou mais, possibilidade de não enviar mais todos os equipamentos do brocker MQTT, mas apenas alguns (a configurar na configuração avançada do equipamento a transmitir)
 - Correções de bugs (especialmente para compatibilidade com php8)
-- Descoberta entre Jeedom (para fazer 2 jeedoms se comunicarem entre si por mqtt)
+- Descoberta entre Jeedom (para fazer 2 Jeedoms se comunicarem entre si por mqtt)
 - Possibilidade na página de configuração do plugin para excluir a assinatura de um plugin
 
 # 22/03/2024
@@ -104,7 +108,7 @@
 
 # 07/03/2023
 
-- Adição de um sistema de autodiscovery para alguns módulos beta (esphome, tasmota e shelly)
+- Adicionado um sistema de descoberta automática para determinados módulos beta (esphome, tasmota e shelly)
 - Adicionada a imagem dos módulos
 - Corrigido um bug no ID do cliente (se vários jeedom no mesmo corretor)
 - Suporte de subnível em tópicos de equipamentos

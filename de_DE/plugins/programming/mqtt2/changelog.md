@@ -2,7 +2,11 @@
 
 >**WICHTIG**
 >
->Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
+>Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, bedeutet dies, dass es sich nur um die Aktualisierung der Dokumentation, Übersetzung oder des Textes handelt.
+
+# 10.07.2024
+
+- Es wurde ein Problem behoben, bei dem bestimmte Nachrichten zweimal verarbeitet werden konnten
 
 # 10.01.2024
 
@@ -11,18 +15,18 @@
 # 22.09.2024
 
 - Eine Warnung beim Starten des Daemons wurde behoben
-- Ein Fehler mit NodeJS 20 wurde behoben
+- Ein Fehler mit Node wurde behoben.ds 20
 - Wenn ein Befehl vom binären oder numerischen Typ ist und jeedom ein Array oder Objekt empfängt, wird der Wert ignoriert (behebt ein Problem mit Shelly 2.5)
 - Ein Fehler bei der Verwaltung der zwischen Jeedom verbundenen Gerätebatterien wurde behoben
 
 # 09.09.2024
 
-- Implementierung einer Optimierung der Verwaltung übertragener Geräte mit jeedom 4.5
+- Implementierung einer Optimierung der Verwaltung der mit Jeedom 4.5 übertragenen Geräte
 - Es wurde Sicherheit hinzugefügt, um zu verhindern, dass ein von einem Plugin verwendetes Thema als Stammthema festgelegt wird
-- Es wurde ein Assistent hinzugefügt, um die Mücke zweier Jeedoms einfach zu verknüpfen
+- Es wurde ein Assistent hinzugefügt, um Mosquitto einfach von zwei Jeedoms aus zu verknüpfen
 - Es wurde die Möglichkeit hinzugefügt, Informationen an die Jeedom-Cloud zu senden, um zwischen zwei Jeedoms über das Internet zu kommunizieren (derzeit für Benutzer nicht verfügbar))
 - Standardmäßige Aktivierung der automatischen Erkennung (kann über Plugin -> Programmierung -> Mqtt-Manager deaktiviert werden))
-- Es wurde ein Fehler beim Erstellen des Befehls behoben, der den Status eines Remote-Jeedoms anzeigt (über die Jeeodm-Monitorausrüstung des virtuellen Plugins))
+- Es wurde ein Fehler beim Erstellen des Befehls behoben, der den Status eines Remote-Jeedoms anzeigt (über die Jeedom-Überwachungsausrüstung des virtuellen Plugins))
 - Hinzufügung des SYS-Themas (um interne MQTT-Informationen zu erhalten))
 - Hinzufügen einer Mosquito-Vorlage.sys, das den Abruf von Informationen aus dem Brocker ermöglicht (Gesamt empfangene/gesendete Nachrichten/1 Min./5 Min./15 Min., Speicherauslastung)...)
 - Überprüfung des Listeners bei jedem Start des Daemons
@@ -30,12 +34,12 @@
 # 20.08.2024
 
 - Hinzufügen einer Online- und Offline-Meldung beim Starten und Stoppen (gewollt oder nicht) des Daemons in topic_racine/state
-- Wenn Sie Jeedom-Ausrüstung haben::Wenn Sie über das virtuelle Plugin überwachen, fügt das Plugin automatisch den Statusbefehl hinzu (online oder offline). Wenn Sie dieses Gerät bereits haben, müssen Sie die Erkennung neu starten
+- Wenn Sie Jeedom-Ausrüstung haben::Über das virtuelle Plugin überwachen, fügt das Plugin automatisch den Statusbefehl hinzu (online oder offline). Wenn Sie dieses Gerät bereits haben, müssen Sie die Erkennung neu starten
 - Es wurde ein Fehler bei der Übertragung des echten Ausrüstungstyps behoben (bei der Übertragung von Ausrüstung zwischen Jeedom))
 - Ein Fehler bei der Duplizierung der Ereignisüberwachungsaufgabe wurde behoben
 - Wenn auf exportierten Geräten das Quell-Plugin auf dem Ziel-Jeedom vorhanden ist, zeigt Jeedom das Plugin-Symbol an
 - Kein Fehler in den Protokollen während der Befehlsübertragung (vermeidet die Zerstörung von Jeedom, wenn der Daemon unterbrochen wird))
-- Bestes Management verwaister Bestellungen
+- Bessere Abwicklung verwaister Bestellungen
 - Ein Fehler beim Ausführen von Nachrichtentypbefehlen wurde behoben
 
 # 12.08.2024
@@ -58,13 +62,13 @@
 - Für Geräte, die über Mqtt übertragen werden, sendet das Plugin jetzt jede Nacht den Batteriestand
 - Das Plugin zur Verwaltung des zwischen Jeedom übertragenen Batteriestands
 - Korrekte Verwaltung von Aktualisierungsbefehlen für Widgets auf Geräten, die zwischen Jeedom übertragen werden
-- Beim Senden der Entdeckung zwischen Jeedom werden auch die Werte der Befehle übertragen (Sie müssen nicht auf eine Aktualisierung des Werts warten, um ihn auf dem Ziel zu haben). Erfordert erneutes Senden der Erkennung
+- Beim Senden der Entdeckung zwischen Jeedom werden auch die Werte der Befehle übertragen (Sie müssen nicht mehr auf eine Aktualisierung des Werts warten, um ihn auf dem Ziel zu haben). Erfordert erneutes Senden der Erkennung
 - Bei der Übertragung von Geräten zwischen Jeedom verwaltet das Plugin nun den tatsächlichen Gerätetyp, um mit mobilen Anwendungen kompatibel zu sein. Erfordert erneutes Senden der Erkennung
 - Ein globales Konfigurationsfenster für die Übertragung von Geräten zwischen Jeedom hinzugefügt
 
 # 08.05.2024
 
-- Mit Jeedom 4.4.8 oder mehr Möglichkeit, nicht mehr alle Geräte auf dem MQTT-Brocker zu senden, sondern nur noch bestimmte (in der erweiterten Konfiguration der zu übertragenden Geräte zu konfigurieren))
+- Mit Jeedom 4.4.8 oder mehr, Möglichkeit, nicht mehr alle Geräte auf dem MQTT-Broker zu senden, sondern nur noch bestimmte (in der erweiterten Konfiguration der zu übertragenden Geräte zu konfigurieren))
 - Fehlerbehebungen (insbesondere für PHP8-Kompatibilität))
 - Entdeckung zwischen Jeedom (um zwei Jeedoms durch mqtt miteinander kommunizieren zu lassen)
 - Möglichkeit auf der Plugin-Konfigurationsseite, das Abonnement eines Plugins zu löschen
@@ -104,7 +108,7 @@
 
 # 03.07.2023
 
-- Hinzufügen eines Autodiscovery-Systems für einige Beta-Module (esphome, tasmota und shelly)
+- Für bestimmte Beta-Module (Esphome, Tasmota und Shelly) wurde ein automatisches Erkennungssystem hinzugefügt)
 - Bild der Module hinzugefügt
 - Fehler bei der Client-ID behoben (wenn mehrere jeedom auf demselben Broker)
 - Unterstützung auf untergeordneter Ebene in Ausrüstungsthemen
