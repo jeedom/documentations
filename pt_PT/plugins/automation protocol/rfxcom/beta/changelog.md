@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 21/11/2024
+
 - Corrigido um bug que poderia preencher logs
 
 # 27/07/2024

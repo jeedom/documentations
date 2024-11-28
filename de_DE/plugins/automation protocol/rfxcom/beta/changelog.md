@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 21.11.2024
+
 - Es wurde ein Fehler behoben, der Protokolle füllen konnte
 
 # 27.07.2024

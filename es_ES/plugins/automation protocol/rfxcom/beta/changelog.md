@@ -4,6 +4,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 21/11/2024
+
 - Se corrigió un error que podía llenar registros
 
 # 27/07/2024
