@@ -17,7 +17,7 @@ Le moteur affichera dans les tableaux en dessous :
 - Les **designs** affichant cet équipement.
 - Les **vues** affichant cet équipement.
 - Les **interactions** utilisant cet équipement.
-- Les autres **équipement** utilisant cet équipement.
+- Les autres **équipements** utilisant cet équipement.
 - Les **commandes** utilisant cet équipement.
 
 ## Par Commande
@@ -30,7 +30,7 @@ Le moteur affichera dans les tableaux en dessous :
 - Les **designs** affichant cette commande.
 - Les **vues** affichant cette commande.
 - Les **interactions** utilisant cette commande.
-- Les **équipement** utilisant cette commande.
+- Les **équipements** utilisant cette commande.
 - Les autres **commandes** utilisant cette commande.
 
 ## Par Variable
@@ -41,7 +41,7 @@ Le moteur affichera dans les tableaux en dessous :
 
 - Les **scénarios** utilisant cette variable.
 - Les **interactions** utilisant cette variable.
-- Les **équipement** utilisant cette variable.
+- Les **équipements** utilisant cette variable.
 - Les **commandes** utilisant cette variable.
 
 ## Par Plugin
@@ -54,7 +54,7 @@ Le moteur affichera dans les tableaux en dessous :
 - Les **designs** affichant ce plugin.
 - Les **vues** affichant ce plugin.
 - Les **interactions** utilisant ce plugin.
-- Les **équipement** utilisant ce plugin.
+- Les **équipements** utilisant ce plugin.
 - Les **commandes** utilisant ce plugin.
 
 ## Par Mot
@@ -67,7 +67,7 @@ Le moteur affichera dans les tableaux en dessous :
 	Recherche dans les expressions, les commentaires, les blocs code.
 - Les **interactions** utilisant cette chaîne.
 	Recherche dans les champs *Demande*.
-- Les **équipement** utilisant cette chaîne.
+- Les **équipements** utilisant cette chaîne.
 	Recherche dans les champs *name*, *logicalId*, *eqType*, *comment*, *tags*.
 - Les **commandes** utilisant cette chaîne.
 	Recherche dans les champs *name*, *logicalId*, *eqType*, *generic_type*, .
@@ -90,8 +90,8 @@ Le moteur affichera dans les tableaux en dessous :
 
 ## Résultats
 
-Pour chacun des types de résultat, il permet des actions:
-- **scénarios** : Ouvrir le log du scénario, ou se rendre sur la page du scénario, avec la recherche active sur le terme recherché.
+Pour chacun des types de résultat, les actions suivantes sont possibles :
+- **scénarios** : Ouvrir le log du scénario ou se rendre sur la page du scénario, avec la recherche active sur le terme recherché.
 - **designs** : Afficher le design.
 - **vues** : Afficher la vue.
 - **interactions** : Ouvrir la page de configuration de l'interaction.
@@ -100,4 +100,3 @@ Pour chacun des types de résultat, il permet des actions:
 - **notes** : Ouvrir la Note.
 
 Chacune de ces options ouvre un autre onglet de votre navigateur afin de ne pas perdre la recherche en cours.
-

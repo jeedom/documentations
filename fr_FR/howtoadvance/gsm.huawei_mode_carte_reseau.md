@@ -1,4 +1,4 @@
-# GSM Huawei mode carte réseaux
+# GSM Huawei mode carte réseau
 
 Afin d'utiliser la clé Huawei E3372 en mode carte réseau, il est nécessaire de modifier le mode de fonctionnement de la clé. Par défaut, celle-ci est configurée en mode Modem afin d'être compatible avec le plugin SMS.
 
