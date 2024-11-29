@@ -4,6 +4,12 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 29.11.2024
+
+- Protokollierung im DEBUG-Modus bei Ping-Versuchen hinzugefügt
+- Es wurde eine Konfiguration hinzugefügt, um die maximale Anzahl von Versuchen im Fehlerfall auszuwählen
+- Jeedom 4.4 erforderlich
+
 # 01.08.2024
 
 - Vorbereitung auf Jeedom 4.4

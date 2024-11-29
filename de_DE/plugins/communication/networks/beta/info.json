@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "4.3",
+    "require": "4.4",
     "category": "communication",
     "hasDependency": true,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/networks\/changelog",
@@ -33,7 +33,6 @@
         "tr"
     ],
     "compatibility": [
-        "miniplus",
         "smart",
         "rpi",
         "docker",
