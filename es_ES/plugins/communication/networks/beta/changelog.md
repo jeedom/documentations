@@ -4,6 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 29/11/2024
+
+- Registro agregado en modo DEBUG durante los intentos de ping
+- Se agregó una configuración para elegir el número máximo de intentos en caso de falla
+- Jeedom 4.4 requeridos
+
 # 08/01/2024
 
 - Preparándose para el apuro 4.4

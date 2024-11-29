@@ -1,5 +1,7 @@
 # Änderungsprotokoll bacnetManager
 
+# Änderungsprotokoll bacnetManager
+
 # Änderungsprotokoll BACnetServer
 
 

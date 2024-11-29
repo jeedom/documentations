@@ -26,6 +26,8 @@
 
 - Konfiguration hinzufügen *Milesight-Umgebungsüberwachungssensoren AM102*
 
+- Konfiguration hinzufügen *Elektronische Karte – TIC LoRaWAN*
+
 # 30.10.2024
 
 - Ändern der Konfiguration *Drahtloser MClimate-Thermostat* (Eigenschaften : Manuelle Aktualisierung der Zieltemperatur)

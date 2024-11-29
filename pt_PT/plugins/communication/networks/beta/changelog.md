@@ -4,6 +4,12 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 29/11/2024
+
+- Adicionado log no modo DEBUG durante tentativas de ping
+- Adicionada configuração para escolher o número máximo de tentativas em caso de falha
+- Jeedom 4.4 obrigatório
+
 # 01/08/2024
 
 - Preparando-se para Jeedom 4.4

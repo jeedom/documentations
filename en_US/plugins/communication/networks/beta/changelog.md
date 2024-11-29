@@ -4,6 +4,12 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 11/29/2024
+
+- Added DEBUG mode log when trying to ping
+- Added a configuration to choose the maximum number of attempts in case of failure
+- Jeedom 4.4 required
+
 # 01/08/2024
 
 - Preparing for jeedom 4.4

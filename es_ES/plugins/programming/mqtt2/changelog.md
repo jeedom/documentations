@@ -2,7 +2,11 @@
 
 >**IMPORTANTE**
 >
->Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
+>Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de actualización de documentación, traducción o texto.
+
+# 10/07/2024
+
+- Se solucionó un problema por el cual ciertos mensajes podían procesarse dos veces
 
 # 10/01/2024
 
@@ -11,18 +15,18 @@
 # 22/09/2024
 
 - Se corrigió una advertencia al iniciar el demonio
-- Se corrigió un error con nodejs 20
+- Se corrigió un error con Node.ds 20
 - Si un comando es de tipo binario o numérico y jeedom recibe una matriz u objeto, entonces el valor se ignora (soluciona un problema con Shelly 2.5)
 - Se corrigió un error en la gestión de baterías de equipos vinculados entre Jeedom
 
 # 09/09/2024
 
-- Implementación de optimización en la gestión de equipos transmitidos con jeedom 4.5
+- Implementación de optimización en la gestión de equipos transmitidos con Jeedom 4.5
 - Seguridad adicional para evitar poner un tema utilizado por un complemento como tema raíz
-- Se agregó un asistente para vincular fácilmente el mosquito de dos Jeedoms
-- Se agregó la posibilidad de enviar información a la nube de Jeedom para comunicarse entre dos jeedoms a través de Internet (no disponible para los usuarios por el momento))
+- Se agregó un asistente para vincular fácilmente Mosquitto desde dos Jeedoms
+- Se agregó la posibilidad de enviar información a la nube de Jeedom para comunicarse entre dos Jeedom a través de Internet (no abierto a los usuarios por el momento))
 - Activación del descubrimiento automático por defecto (se puede desactivar desde Complemento -> Programación -> Administrador Mqtt)
-- Se corrigió un error al crear el comando que indica el estado de un jeedom remoto (a través del equipo de monitor Jeeodm del complemento virtual)
+- Se corrigió un error al crear el comando que indica el estado de un Jeedom remoto (a través del equipo de monitor Jeedom del complemento virtual)
 - Adición del tema SYS (para tener información interna de MQTT)
 - Agregar una plantilla de mosquito.sys que permite recuperar información del brocker (mensaje recibido/enviado total/1min/5min/15min, carga de memoria...)
 - Comprobando el oyente cada vez que se inicia el demonio
@@ -30,12 +34,12 @@
 # 20/08/2024
 
 - Adición de un mensaje en línea y fuera de línea al iniciar y detener (se desee o no) el demonio en topic_racine/state
-- Si tienes equipo jeedom::monitorear desde el complemento virtual el complemento agregará automáticamente el comando de estado (en línea o fuera de línea), si ya tiene este equipo debe reiniciar el descubrimiento
+- Si tienes equipo jeedom::monitorear desde el complemento virtual, el complemento agregará automáticamente el comando de estado (en línea o fuera de línea), si ya tiene este equipo debe reiniciar el descubrimiento
 - Se corrigió un error en la transmisión del tipo real de equipo (cuando se transmite equipo entre jeedom)
 - Se corrigió un error en la duplicación de la tarea de escucha de eventos
 - En el equipo exportado, si el complemento de origen existe en el jeedom de destino, jeedom mostrará el ícono del complemento
 - No hay errores en los registros durante la transmisión de comandos (evita romper el jeedom si se corta el demonio))
-- Mejor gestión de pedidos huérfanos
+- Mejor gestión de los pedidos de huérfanos
 - Se corrigió un error al ejecutar comandos de tipo mensaje
 
 # 12/08/2024
@@ -51,22 +55,22 @@
 # 09/08/2024
 
 - Se mejoró la visualización de la ventana de configuración para equipos transmitidos
-- Se corrigió un error en los comandos huérfanos cuando se transmitían a través de mqtt
+- Se corrigió un error en comandos huérfanos al transmitir a través de mqtt
 
 # 08/08/2024
 
 - Para los equipos transmitidos en Mqtt, el complemento ahora envía el nivel de la batería todas las noches
 - El complemento para gestionar el nivel de batería transmitido entre Jeedom
 - Gestión correcta de los comandos de actualización de los widgets de los equipos transmitidos entre Jeedom
-- Al enviar el descubrimiento entre Jeedom también se transmiten los valores de los comandos (no es necesario esperar una actualización del valor para tenerlo en el objetivo)). Requiere reenviar descubrimiento
+- Al enviar el descubrimiento entre Jeedom, los valores de los comandos también se transmiten (ya no es necesario esperar una actualización del valor para tenerlo en el objetivo)). Requiere reenviar descubrimiento
 - Al transmitir equipos entre Jeedom, el complemento ahora gestiona el tipo real de equipo para que sea compatible con aplicaciones móviles. Requiere reenviar descubrimiento
 - Se agregó una ventana de configuración global para la transmisión de equipos entre Jeedom
 
 # 08/05/2024
 
-- Con Jeedom 4.4.8 o más posibilidades de ya no enviar todos los equipos del brocker MQTT sino solo algunos (a configurar en la configuración avanzada del equipo a transmitir))
+- Con Jeedom 4.4.8 o más, posibilidad de ya no enviar todos los equipos del brocker MQTT sino solo algunos (a configurar en la configuración avanzada de los equipos a transmitir))
 - Corrección de errores (especialmente para compatibilidad con php8))
-- Descubrimiento entre Jeedom (para hacer que 2 jeedoms se comuniquen entre sí mediante mqtt)
+- Descubrimiento entre Jeedom (para hacer que 2 Jeedoms se comuniquen entre sí mediante mqtt)
 - Posibilidad desde la página de configuración del complemento de eliminar la suscripción de un complemento
 
 # 22/03/2024
@@ -104,7 +108,7 @@
 
 # 03/07/2023
 
-- Adición de un sistema de autodescubrimiento para algunos módulos beta (esphome, tasmota y shelly))
+- Se agregó un sistema de descubrimiento automático para ciertos módulos beta (esphome, tasmota y shelly))
 - Añadida la imagen de los módulos
 - Se corrigió un error en la identificación del cliente (si varios jeedom en el mismo corredor)
 - Soporte de subnivel en temas de equipos

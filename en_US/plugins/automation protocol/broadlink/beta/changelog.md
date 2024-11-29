@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 11/25/2024
+
+- Fixed a dependency installation issue that could occur on some installations
+
 # 05/09/2024
 
 - Added a restart of the daemon every night to avoid a memory problem
