@@ -1,7 +1,7 @@
-[<< Core js](/fr_FR/dev/corejs/index)  
+[<< Core js](index.md)   
 ## Helpers
 
-Les *helpers* Sont des fonctions du Core prête à l'emploi qui peuvent être appellées par les plugins et se chargent de différentes tâches.
+Les *helpers* sont des fonctions du Core prêtes à l'emploi qui peuvent être appellées par les plugins et se chargent de différentes tâches.
 
 
 ### initTooltips()
@@ -10,15 +10,14 @@ Les *helpers* Sont des fonctions du Core prête à l'emploi qui peuvent être ap
 
 _el : HTMLelement default document : un HTMLelement sur lequel initialiser les tooltips.
 
-Initialise les tooltips en recherchant les éléments html avec un attribut *title*, avec la lib [tippy](https://atomiks.github.io/tippyjs/)
-
+Initialise les tooltips en recherchant les éléments html avec un attribut *title*, avec la lib [tippy](https://atomiks.github.io/tippyjs/).
 
 
 ### initSpinners() 
 
 *jeedomUtils.initSpinners()*
 
-Initialise des spinners en recherchant sur la page les *input[type="number"].ispin*, avec la lib [ISpin](https://unmanner.github.io/ispinjs/)
+Initialise des spinners en recherchant sur la page les *input[type="number"].ispin*, avec la lib [ISpin](https://unmanner.github.io/ispinjs/).
 
 
 ### datePickerInit()
@@ -28,7 +27,7 @@ Initialise des spinners en recherchant sur la page les *input[type="number"].isp
 - _format : String default 'Y-m-d'.  
 - _selector : String default 'input.in_datepicker'.  
 
-Initialise les inputs *input.in_datepicker* avec la lib [flatpick](https://flatpickr.js.org/)
+Initialise les inputs *input.in_datepicker* avec la lib [flatpick](https://flatpickr.js.org/).
 
 ````js
 {% raw %}
@@ -36,17 +35,17 @@ flatpickr(_input, {
     enableTime: _enableTime, //Depends on passed _format
     dateFormat: _format, //Default: 'Y-m-d'
     time_24hr: true,
-})
+});
 {% endraw %}
 ````
 
 ### dateTimePickerInit()
 
-*jeedomUtils.dateTimePickerInit(_step) *
+*jeedomUtils.dateTimePickerInit(_step)*
 
 - _step : Number default 5: Pas de la sélection des minutes.  
 
-Initialise les inputs *input.in_timepicker* ou *input.isdatepicker* avec la lib [flatpick](https://flatpickr.js.org/)
+Initialise les inputs *input.in_timepicker* ou *input.isdatepicker* avec la lib [flatpick](https://flatpickr.js.org/).
 
 ````js
 {% raw %}
@@ -59,7 +58,7 @@ flatpickr(_input, {
 })
 {% endraw %}
 ````
-> Sur ces deux fonctions, la langues est soit us, fr, es en fonction de la langue du Core.
+> Sur ces deux fonctions, la langues est soit us, fr ou es en fonction de la langue du Core.
 
 
 ### setCheckContextMenu() 
@@ -68,7 +67,7 @@ flatpickr(_input, {
 
 - Gestion de checkboxs multiples : Proposer un menu contextuel sur les checkbox : Sélectionner toutes, aucune, Sélection inversée.
 
-Pour l'utiliser, il faut ajouter la class css *checkContext* sur les checkboxs concernées, et appeller la fonction ``jeedomUtils.setCheckContextMenu()``
+Pour l'utiliser, il faut ajouter la class css *checkContext* sur les checkboxs concernées et appeler la fonction ``jeedomUtils.setCheckContextMenu()``.
 
 Les checkboxs seront alors groupées par même *data-l1key* et *data-l2key* si ils existent.
 
@@ -80,9 +79,9 @@ Enfin, vous pouvez définir une fonction callback de la sorte :
 {% raw %}
 var checkContextMenuCallback = function(_el) {
   //_el is an html element.
-  _el.triggerEvent('change')
+  _el.triggerEvent('change');
 }
-jeedomUtils.setCheckContextMenu(checkContextMenuCallback)
+jeedomUtils.setCheckContextMenu(checkContextMenuCallback);
 {% endraw %}
 ````
 

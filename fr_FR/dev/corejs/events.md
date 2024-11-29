@@ -1,4 +1,4 @@
-[<< Core js](/fr_FR/dev/corejs/index)  
+[<< Core js](index.md)  
 ## Gestion des événements (*listeners*) js
 
 ### Persistance des événements
