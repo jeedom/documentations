@@ -1,7 +1,7 @@
 {
 	"id": "openhasp",
 	"name": "openHASP",
-	"pluginVersion": "0.1",
+	"pluginVersion": "1.0",
 	"description": {
 		"fr_FR": "Plugin pour gérer des écrans multifonctions sous openHASP"
 	},
@@ -16,8 +16,9 @@
 	"hasDependency": true,
 	"hasOwnDeamon": false,
 	"maxDependancyInstallTime": 0,
-    "changelog" : "",
-    "documentation" : "",
+	"changelog_beta": "https:\/\/jbbeauf.github.io\/openhasp\/#language#\/changelog_beta",
+    "changelog" : "https:\/\/jbbeauf.github.io\/openhasp\/#language#\/changelog",
+    "documentation" : "https:\/\/jbbeauf.github.io\/openhasp\/#language#",
 	"language": [
 		"fr_FR"
 	],
