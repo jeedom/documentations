@@ -28,6 +28,8 @@
 
 - Agregar configuración *Tarjeta Electrónica - TIC LoRaWAN*
 
+- Arreglar el comando de enlace descendente *Termostato de radiador inteligente Milesight WT101*
+
 # 30/10/2024
 
 - Cambiando la configuración *Termostato inalámbrico MClimate* (propiedades : Actualización manual de la temperatura objetivo)

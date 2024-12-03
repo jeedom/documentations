@@ -28,6 +28,8 @@
 
 - Ajout de la configuration *Carte Electronic - TIC LoRaWAN*
 
+- Correction de la commande de downlink *Milesight Smart Radiator Thermostat WT101*
+
 # 30/10/2024
 
 - Modification de la configuration *MClimate Wireless Thermostat* (propriétés : Manual Target Temperature Update)
