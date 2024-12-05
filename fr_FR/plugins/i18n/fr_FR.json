@@ -589,6 +589,8 @@
         "Plugin servant à relever la téléinfo des compteurs PME-PMI": "Plugin servant à relever la téléinfo des compteurs PME-PMI",
         "Eco RT2": "Eco RT2",
         "Plugin permettant de piloter l'Eco-Devices RT2": "Plugin permettant de piloter l'Eco-Devices RT2",
+        "Ocea": "Ocea",
+        "Plugin permettant de récupérer les donnéees de consommations en utilisant l'API OCEA": "Plugin permettant de récupérer les donnéees de consommations en utilisant l'API OCEA",
         "Uniquement testé avec le modèle 6 prises": "Uniquement testé avec le modèle 6 prises",
         "Mpower": "Mpower",
         "Ce plugin permet de contrôler vos multiprises Mpower": "Ce plugin permet de contrôler vos multiprises Mpower",
