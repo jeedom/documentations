@@ -5,7 +5,7 @@ Dieses „Plugin-Template“ dient als Grundlage für die Erstellung von Plugins
 Allgemeine Dokumentation zum Plugin-Design ist verfügbar [Hier](https://doc.jeedom.com/de_DE/dev/).
 
 Ausführlich :   
-* [Verwendung der Plugin-Vorlage](https://doc.jeedom.com/de_DE/dev/plugin_template) : Das Plugin-Template ist eine Plugin-Basis für Jeedom, die mit der ID Ihres Plugins angepasst werden muss und zu der Sie einfach Ihre eigenen Funktionen hinzufügen.
+* [Verwendung der Plugin-Vorlage](https://doc.jeedom.com/de_DE/dev/plugin_template) : Das Plugin-Template ist eine Plugin-Basis für Jeedom, die mit der ID Ihres Plugins angepasst werden muss und der Sie einfach Ihre eigenen Funktionen hinzufügen.
 
 * [Info.json-Datei](https://doc.jeedom.com/de_DE/dev/structure_info_json) : Integriert seit Version 3.0 von Jeedom, die Datei **info.json** ist für das ordnungsgemäße Funktionieren der Plugins und deren ordnungsgemäßen Einsatz auf dem Jeedom-Markt zwingend erforderlich.
 

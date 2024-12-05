@@ -4,7 +4,7 @@ Esta "plantilla de complemento" sirve como base para crear complementos para **J
 
 La documentación general relacionada con el diseño del complemento está disponible [aquí](https://doc.jeedom.com/es_ES/dev/).
 
-En detalle :   
+En detalles :   
 * [Usando la plantilla del complemento](https://doc.jeedom.com/es_ES/dev/plugin_template) : La plantilla del complemento es una base de complementos para Jeedom que debe adaptarse con la identificación de su complemento y a la que simplemente agrega sus propias funciones.
 
 * [Archivo info.json](https://doc.jeedom.com/es_ES/dev/structure_info_json) : Integrado desde la versión 3.0 de Jeedom, el archivo **info.json** es obligatorio para el correcto funcionamiento de los complementos y su correcta implementación en Jeedom Market.
