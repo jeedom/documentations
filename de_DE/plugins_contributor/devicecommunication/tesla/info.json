@@ -1,7 +1,7 @@
 {
 	"id" : "tesla",
 	"name" : "Tesla",
-	"description" : "Voici le plugin pour monitorer votre ou vos Tesla !<br/>Accédez à votre Tesla depuis Jeedom et contrôlez le chauffage, la charge, les fênetres, ... depuis des scénarios. <br/>Ce plugin contient également un outil de tracking qui permet de suivre l'historique de vos trajets, de vos charges et de vos temps de parking.<br/> Retrouvez les statistiques des trajets réalisés. Définissez des favoris sur la carte avec un rayon d'action et lorsque votre Tesla entre ou sort de ce favori, déclenchez des scénarios, ... <br/><br/>Faites de votre Tesla un objet connecté !<br/><br/>Pas de Cloud, vos données sont stockées chez vous. Pas d'abonnement, pas de frais supplémentaires",
+	"description" : "Voici le plugin pour monitorer votre ou vos Tesla !<br/>Accédez à votre Tesla depuis Jeedom et contrôlez le chauffage, la charge, les fenêtres, ... depuis des scénarios. <br/>Ce plugin contient également un outil de tracking qui permet de suivre l'historique de vos trajets, de vos charges et de vos temps de parking.<br/> Retrouvez les statistiques des trajets réalisés. Définissez des favoris sur la carte avec un rayon d'action et lorsque votre Tesla entre ou sort de ce favori, déclenchez des scénarios, ... <br/><br/>Faites de votre Tesla un objet connecté !<br/><br/>Pas de Cloud, vos données sont stockées chez vous. Pas d'abonnement, pas de frais supplémentaires",
 	"licence" : "AGPL",
 	"author" : "vercors",
 	"require" : "4.2",
