@@ -30,6 +30,8 @@
 
 - Corrigir comando de downlink *Termostato de radiador inteligente Milesight WT101*
 
+- Alterando a configuração *Ewattch Lula Pro Rogowski*
+
 # 30/10/2024
 
 - Alterando a configuração *Termostato sem fio MClimate* (propriedades : Atualização manual da temperatura alvo)

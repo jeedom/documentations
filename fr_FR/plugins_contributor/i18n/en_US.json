@@ -935,6 +935,8 @@
         " Market*": " Market*"
     },
     "plugins_contributor\/multimedia\/index.md": {
+        "TV by Orange": "TV by Orange",
+        "Ce plugin permet de contrôler un décodeur Orange\/Sosh": "This plugin allows you to control an Orange\/Sosh decoder",
         "Plugin pour le pilotage spotify connect": "Plugin for controlling spotify connect",
         "TTS vers un Apple HomePod": "TTS to an Apple HomePod",
         "Alexa - Spotify": "Alexa-Spotify",
