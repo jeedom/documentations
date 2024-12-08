@@ -30,6 +30,8 @@
 
 - Arreglar el comando de enlace descendente *Termostato de radiador inteligente Milesight WT101*
 
+- Cambiando la configuración *Ewattch Calamar Pro Rogowski*
+
 # 30/10/2024
 
 - Cambiando la configuración *Termostato inalámbrico MClimate* (propiedades : Actualización manual de la temperatura objetivo)

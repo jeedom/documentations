@@ -30,6 +30,8 @@
 
 - Downlink-Befehl korrigieren *Milesight Smarter Heizkörperthermostat WT101*
 
+- Ändern der Konfiguration *Ewattch Squid Pro Rogowski*
+
 # 30.10.2024
 
 - Ändern der Konfiguration *Drahtloser MClimate-Thermostat* (Eigenschaften : Manuelle Aktualisierung der Zieltemperatur)

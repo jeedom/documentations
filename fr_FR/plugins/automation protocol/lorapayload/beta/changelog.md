@@ -30,6 +30,8 @@
 
 - Correction de la commande de downlink *Milesight Smart Radiator Thermostat WT101*
 
+- Modification de la configuration *Ewattch Squid Pro Rogowski*
+
 # 30/10/2024
 
 - Modification de la configuration *MClimate Wireless Thermostat* (propriétés : Manual Target Temperature Update)
