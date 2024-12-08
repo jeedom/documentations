@@ -1,7 +1,7 @@
 # Interactions
 **Outils → Interactions**
 
-Le système d’interactions dans Jeedom permet de réaliser des actions à partir de commandes textes ou vocales.
+Dans Jeedom le système d’interactions permet de réaliser des actions à partir de commandes textes ou vocales.
 
 Ces commandes peuvent être obtenues par :
 
@@ -16,15 +16,15 @@ L’intérêt des interactions réside dans l’intégration simplifiée dans d�
 >
 > Vous pouvez ouvrir une interaction en faisant :
 > - Clic sur l'une d'entre elle.
-> - Ctrl Clic ou Clic Centre pour l'ouvrir dans un nouvel onglet du navigateur.
+> - Ctrl+Clic ou Clic Centre pour l'ouvrir dans un nouvel onglet du navigateur.
 
 Vous disposez d'un moteur de recherche permettant de filtrer l'affichage des interactions. La touche Echap annule la recherche.
 A droite du champ de recherche, trois boutons que l'on retrouve à plusieurs endroits de Jeedom:
 - La croix pour annuler la recherche.
-- Le dossier ouvert pour déplier tout les panneaux et afficher toutes les interactions.
-- Le dossier fermé pour replier tout les panneaux.
+- Le dossier ouvert pour déplier tous les panneaux et afficher toutes les interactions.
+- Le dossier fermé pour replier tous les panneaux.
 
-Une fois sur la configuration d'une interaction, vous disposez d'un menu contextuel au Clic Droit sur les onglets de l’interaction. Vous pouvez également utiliser un Ctrl Clic ou Clic Centre pour ouvrir directement une autre interaction dans un nouvel onglet du navigateur.
+Une fois sur la configuration d'une interaction, vous disposez d'un menu contextuel au Clic Droit sur les onglets de l’interaction. Vous pouvez également utiliser un Ctrl+Clic ou Clic Centre pour ouvrir directement une autre interaction dans un nouvel onglet du navigateur.
 
 ## Interactions
 
@@ -63,7 +63,7 @@ La page de configuration est constituée de plusieurs onglets et de boutons :
 - **Demande** : La phrase modèle génératrice (obligatoire).
 - **Synonyme** : Permet de définir des synonymes sur les noms des commandes.
 - **Réponse** : La réponse à fournir.
-- **Attendre avant de répondre (s)** : Permet d'ajouter un délai de X secondes avant de générer la réponse. Ca permet par exemple d'attendre que le retour d'état d'une lampe se fasse avant de répondre.
+- **Attendre avant de répondre (s)** : Permet d'ajouter un délai de X secondes avant de générer la réponse. Ca permet par exemple d'attendre que le retour d'état d'une lampe soit actualisé avant de répondre.
 - **Conversion binaire** : Permet de convertir les valeurs binaires en ouvert/fermé par exemple (uniquement pour les commandes de type info binaire).
 - **Utilisateurs autorisés** : Limite l’interaction à certains utilisateurs (les logins séparés par des \|).
 
@@ -95,13 +95,13 @@ Dans l’exemple qui suit, on peut voir dans le champ "Demande" la phrase exacte
 
 ![interact004](./images/interact004.png)
 
-On peut voir, sur cette capture, la configuration pour avoir une interaction liée à une action spécifique. Cette action est définie dans la partie "Action" de la page.
+Sur cette capture, on peut voir la configuration pour avoir une interaction liée à une action spécifique. Cette action est définie dans la partie "Action" de la page.
 
 On peut très bien imaginer faire de même avec plusieurs actions pour allumer plusieurs lampes dans le salon comme l’exemple qui suit :
 
 ![interact005](./images/interact005.png)
 
-Dans les 2 exemples ci-dessus, la phrase modèle est identique mais les actions qui en découlent changent en fonction de ce qui est configuré dans la partie "Action", on peut donc déjà avec une interaction simple à phrase unique imaginer des actions combinées entre diverses commandes et divers scénarios (on peut aussi déclencher des scénarios dans la partie action des interactions).
+Dans les 2 exemples ci-dessus, la phrase modèle est identique mais les actions qui en découlent changent en fonction de ce qui est configuré dans la partie "Action". Avec une interaction simple à phrase unique, on peut donc déjà imaginer des actions combinées entre diverses commandes et divers scénarios (on peut aussi déclencher des scénarios dans la partie action des interactions).
 
 > **Conseil**
 >
@@ -109,9 +109,9 @@ Dans les 2 exemples ci-dessus, la phrase modèle est identique mais les actions 
 
 #### Interaction multiple commandes
 
-Nous allons ici voir tout l’intérêt et toute la puissance des interactions, avec une phrase modèle nous allons pouvoir générer des phrases pour tout un groupe de commandes.
+Ici, nous allons voir tout l’intérêt et toute la puissance des interactions. Avec une phrase modèle nous allons pouvoir générer des phrases pour tout un groupe de commandes.
 
-On va reprendre ce qui a été fait plus haut, supprimer les actions que l’on avait ajoutées, et à la place de la phrase fixe, dans "Demande", nous allons utiliser les tags **\#commande\#** et **\#equipement\#**. Jeedom va donc remplacer ces tags par le nom des commandes et le nom de l’équipement (on peut voir l’importance d’avoir des noms de commande/équipement cohérents).
+On va reprendre ce qui a été fait plus haut, supprimer les actions que l’on avait ajoutées et, à la place de la phrase fixe, dans "Demande", nous allons utiliser les tags **\#commande\#** et **\#equipement\#**. Jeedom va donc remplacer ces tags par le nom des commandes et le nom de l’équipement (on peut voir l’importance d’avoir des noms de commande/équipement cohérents).
 
 ![interact006](./images/interact006.png)
 
@@ -127,13 +127,13 @@ Dans les synonymes, on va donc indiquer le nom de la commande et le(s) synonyme(
 
 ![interact008](./images/interact008.png)
 
-On peut voir ici une syntaxe un peu nouvelle pour les synonymes. Un nom de commande peut avoir plusieurs synonymes, ici "on" a comme synonyme "allume" et "allumer". La syntaxe est donc "*nom de la commande*" ***=*** "*synonyme 1*"***,*** "*synonyme 2*" (on peut mettre autant de synonyme que l’on veut). Puis, pour ajouter des synonymes pour un autre nom de commande, il suffit d’ajouter après le dernier synonyme une barre verticale "*\|*" à la suite de laquel vous pouvez à nouveau nommer la commande qui va avoir des synonymes comme pour la première partie, etc.
+On peut voir ici une syntaxe un peu nouvelle pour les synonymes. Un nom de commande peut avoir plusieurs synonymes, ici "on" a comme synonyme "allume" et "allumer". La syntaxe est donc "*nom de la commande*" ***=*** "*synonyme 1*"***,*** "*synonyme 2*" (on peut mettre autant de synonyme que l’on veut). Puis, pour ajouter des synonymes pour un autre nom de commande, il suffit d’ajouter une barre verticale "*\|*" après le dernier synonyme et à la suite de laquelle vous pouvez à nouveau nommer la commande qui va avoir des synonymes comme pour la première partie, etc.
 
-C’est déjà mieux, mais il manque encore pour la commande "on" "entrée" le "l' " et pour d’autres le "la" ou "le" ou "un", etc. On pourrait modifier le nom de l’équipement pour l’ajouter, ce serait une solution, sinon on peut utiliser les variations dans la demande. Cela consiste à lister une série de mots possibles à un emplacement de la phrase, Jeedom va donc générer des phrases avec ces variations.
+C’est déjà mieux, mais pour la commande "on" il manque encore "entrée", le "l' " et pour d’autres le "la" ou "le" ou "un", etc. On pourrait modifier le nom de l’équipement pour l’ajouter, ce serait une solution, sinon on peut utiliser les variations dans la demande. Cela consiste à lister une série de mots possibles à un emplacement de la phrase, Jeedom va donc générer des phrases avec ces variations.
 
 ![interact009](./images/interact009.png)
 
-On a maintenant des phrases un peu plus correctes avec des phrases qui ne sont pas justes, pour notre exemple "on" "entrée". on trouve donc "Allume entrée", "Allume un entrée", "Allume une entrée", "Allume l’entrée" etc. On a donc toutes les variantes possibles avec ce que l’on a ajouté entre les "\[ \]" et ceci pour chaque synonyme, ce qui génère rapidement beaucoup de phrases (ici 168).
+On a maintenant des phrases un peu plus correctes avec des phrases qui ne sont pas justes, pour notre exemple "on" "entrée". On trouve donc "Allume entrée", "Allume un entrée", "Allume une entrée", "Allume l’entrée" etc. On a donc toutes les variantes possibles avec ce que l’on a ajouté entre les "\[ \]" et ceci pour chaque synonyme, ce qui génère rapidement beaucoup de phrases (ici 168).
 
 Afin d’affiner et de ne pas avoir des choses improbables telles que "allume l’télé", on peut autoriser Jeedom à supprimer les demandes syntaxiquement incorrectes. Il va donc supprimer ce qui est trop éloigné de la syntaxe réelle d’une phrase. Dans notre cas, on passe de 168 phrases à 130 phrases.
 
@@ -183,7 +183,7 @@ On a 2 endroits pour appliquer une Regexp :
 - Dans l’interaction même dans le champ "Regexp d’exclusion".
 - Dans le menu Administration→Configuration→Interactions→champ "Regexp général d’exclusion pour les interactions".
 
-Pour le champ "Regex général d’exclusion pour les interactions", cette règle sera appliquée à toutes les interactions, qui seront créées ou sauvegardées de nouveau par la suite. Si on veut l’appliquer à toutes les interactions existantes, il faut régénérer les interactions. Généralement, on l’utilise pour effacer des phrases incorrectement formées se retrouvant dans la plupart des interactions générées.
+Pour le champ "Regex général d’exclusion pour les interactions", cette règle sera appliquée à toutes les interactions qui seront créées ou sauvegardées de nouveau par la suite. Si on veut l’appliquer à toutes les interactions existantes, il faut régénérer les interactions. Généralement, on l’utilise pour effacer des phrases incorrectement formées se retrouvant dans la plupart des interactions générées.
 
 Pour le champ "Regexp d’exclusion" dans la page de configuration de chaque interaction, on peut mettre une Regexp spécifique qui va agir uniquement sur ladite interaction. Elle vous permet donc de supprimer plus précisément pour une interaction. Cela peut aussi permettre d’effacer une interaction pour une commande spécifique pour laquelle on ne veut pas offrir cette possibilité dans le cadre d’une génération de multiples commandes.
 
@@ -197,7 +197,7 @@ Une expression régulière se compose comme suit :
 
 - En premier, un délimiteur, ici c’est une barre oblique "/" placée en début et fin d’expression.
 - Le point qui suit la barre oblique représente n’importe quel caractère, espace ou nombre.
-- Le "\*" quant à lui indique qu’il peut y avoir 0 ou plusieurs fois le caractère qui le précède, ici un point, donc en bon français n’importe quel élément.
+- Le "\*" quant à lui indique qu’il peut y avoir 0 ou plusieurs fois le caractère qui le précède, ici un point, donc en bon français n’importe quel caractère.
 - Puis Julie, qui est le mot à rechercher (mot ou autre schéma d’expression), suivi à nouveau d’un point puis barre oblique.
 
 Si on traduit cette expression en une phrase, cela donnerait "cherche le mot Julie qui est précédé par n’importe quoi et suivi de n’importe quoi".
@@ -216,7 +216,7 @@ Pour résoudre le problème de majuscule et minuscule, on peut ajouter à notre 
 
 Avec l’ajout de l’option "i" on constate qu’il ne reste plus que 55 phrases générées et dans la liste de gauche avec le filtre julie pour rechercher les phrases qui contiennent ce mot, on constate qu’il y en a bien plus.
 
-Comme c’est un sujet extrêmement complexe, je ne vais pas aller plus en détail ici, il y a suffisamment de tutos sur le net pour vous aider, et n’oubliez pas que Google est votre ami aussi car oui, c’est mon ami, c’est lui qui m’a appris à comprendre les Regexp et même à coder. Donc s’il m’a aidé, il peut aussi vous aider si vous y mettez de la bonne volonté.
+Comme c’est un sujet extrêmement complexe, je ne vais pas aller plus en détail ici, il y a suffisamment de tutos sur le net pour vous aider et n’oubliez pas que Google est votre ami aussi car oui, c’est mon ami, c’est lui qui m’a appris à comprendre les Regexp et même à coder. Donc s’il m’a aidé, il peut aussi vous aider si vous y mettez de la bonne volonté.
 
 Liens utiles :
 
@@ -230,7 +230,7 @@ Il est aussi possible de mettre plusieurs commandes info dans une réponse, par 
 
 ![interact021](./images/interact021.png)
 
-Dans cet exemple on voit une phrase simple qui va nous retourner une réponse avec 3 températures différentes, on peut donc ici mettre un peu tout ce que l’on veut afin d’avoir un ensemble d’informations en une seule fois.
+Dans cet exemple on voit une phrase simple qui va nous retourner une réponse avec 3 températures différentes, ici on peut donc mettre un peu tout ce que l’on veut afin d’avoir un ensemble d’informations en une seule fois.
 
 ### Y a-t-il quelqu’un dans la chambre ?
 
@@ -259,7 +259,7 @@ Sans le Regexp, on obtient ici 11 phrases, or mon interaction a pour but de gén
 
 #### Version basique
 
-On pourrait écrire la phrase en dur comme par exemple "quelle est la température du salon", mais il faudrait en faire une pour chaque capteur de température, luminosité et humidité. Avec le système de génération de phrase Jeedom, on peut donc avec une seule interaction générer les phrases pour tous les capteurs de ces 3 types de mesure.
+On pourrait écrire la phrase en dur comme par exemple "quelle est la température du salon", mais il faudrait en faire une pour chaque capteur de température, luminosité et humidité. Avec le système de génération de phrase Jeedom, avec une seule interaction on peut donc générer les phrases pour tous les capteurs de ces 3 types de mesure.
 
 Ici un exemple générique qui sert à connaître la température, l’humidité, la luminosité des différentes pièces (objet au sens Jeedom).
 
@@ -273,7 +273,7 @@ Ici un exemple générique qui sert à connaître la température, l’humidité
 
 On peut donc ajouter des synonymes au nom de commande pour avoir quelque chose de plus naturel, ajouter un regexp pour filtrer les commandes qui n’ont rien à voir avec notre interaction.
 
-Ajout de synonyme, permet de dire à Jeedom qu’une commande s’appelant "X" peut aussi s’appeler "Y" et donc dans notre phrase si on a "allume y", Jeedom sait que c’est allumer x. Cette méthode est très pratique pour renommer des noms de commande qui, quand elles sont affichées à l’écran, sont écrites d’une façon qui n’est pas naturelle vocalement ou dans une phrase écrite comme les "ON". Un bouton écrit comme cela est totalement logique mais pas dans le contexte d’une phrase.
+Ajout de synonyme, permet de dire à Jeedom qu’une commande s’appelant "X" peut aussi s’appeler "Y" et donc dans notre phrase si on a "allume y", Jeedom sait que c’est allumer x. Cette méthode est très pratique pour renommer des commandes qui, quand elles sont affichées à l’écran, sont écrites d’une façon qui n’est pas naturelle vocalement ou dans une phrase écrite comme les "ON". Un bouton écrit comme cela est totalement logique mais pas dans le contexte d’une phrase.
 
 On peut aussi ajouter un filtre Regexp pour enlever quelques commandes. En reprenant l’exemple simple, on voit des phrases "batterie" ou encore "latence", qui n’ont rien à voir avec notre interaction température/humidité/luminosité.
 
@@ -305,11 +305,11 @@ Comme on le voit, il y a ici dans la demande le tag **\#consigne\#** (on peut me
 
 #### Evolution
 
-On peut vouloir piloter toutes les commandes de type curseur avec une seule interaction. Avec l’exemple qui suit, on va donc pouvoir commander plusieurs variateurs avec une seule interaction et donc générer un ensemble de phrases pour les contrôler.
+On peut vouloir piloter toutes les commandes de type curseur avec une seule interaction. Avec l’exemple qui suit, on va pouvoir commander plusieurs variateurs avec une seule interaction et donc générer un ensemble de phrases pour les contrôler.
 
 ![interact033](./images/interact033.png)
 
-Dans cette interaction, on n’a pas de commande dans la partie action, on laisse Jeedom générer à partir des tags la liste de phrases. On peut voir le tag **\#slider\#**. Il est impératif d’utiliser ce tag pour les consignes dans une interaction multiple commandes, il peut ne pas être le dernier mot de la phrase. On peut aussi voir dans l’exemple que l’on peut utiliser dans la réponse un tag qui ne fait pas partie de la demande. La majorité des tags disponibles dans les scénarios sont disponibles aussi dans les interactions et donc peuvent être utilisés dans une réponse.
+Dans cette interaction, on n’a pas de commande dans la partie action, on laisse Jeedom générer la liste des phrases à partir des tags. On peut voir le tag **\#slider\#**. Il est impératif d’utiliser ce tag pour les consignes dans une interaction multiple commandes, il peut ne pas être le dernier mot de la phrase. On peut aussi voir dans l’exemple que l’on peut utiliser un tag qui ne fait pas partie de la demande dans la réponse. La majorité des tags disponibles dans les scénarios sont disponibles aussi dans les interactions et donc peuvent être utilisés dans une réponse.
 
 Résultat de l’interaction :
 
@@ -331,9 +331,10 @@ Comme on peut le voir sur la capture, il n’y a pas de couleur configurée, il 
 
 ![interact025](./images/interact025.png)
 
-On peut en ajouter autant que bon nous semble, on peut mettre comme nom n’importe lequel, ainsi on pourrait imaginer attribuer une couleur pour le nom de chaque membre de la famille.
+On peut en ajouter autant que bon nous semble, on peut leur donner n’importe quel nom, ainsi on pourrait imaginer attribuer une couleur pour le nom de chaque membre de la famille.
 
 Une fois configuré, vous dites "Allume le sapin en vert", Jeedom va rechercher dans la demande une couleur et l’appliquer à la commande.
+
 ### Utilisation couplée à un scénario
 
 #### Version basique
@@ -342,14 +343,14 @@ Il est possible de coupler une interaction à un scénario afin de réaliser des
 
 ![interact026](./images/interact026.png)
 
-Cette exemple permet donc de lancer le scénario qui est lié dans la partie action, on peut bien sûr en avoir plusieurs.
+Cette exemple permet de lancer le scénario qui est lié dans la partie action. On peut bien sûr en avoir plusieurs.
 
 ### Programmation d’une action avec les interactions
 
-Les interactions permettent de faire beaucoup de choses en particulier. Vous pouvez programmer dynamiquement une action. Exemple : "Met le chauffage à 22 pour 14h50". Pour cela rien de plus simple, il suffit d’utiliser les tags \#time\# (si on définit une heure précise) ou \#duration\# (pour dans X temps, exemple dans 1 heure) :
+Les interactions permettent de faire beaucoup de choses. Vous pouvez programmer dynamiquement une action. Exemple : "Met le chauffage à 22 pour 14h50". Pour cela rien de plus simple, il suffit d’utiliser les tags \#time\# (si on définit une heure précise) ou \#duration\# (pour dans X temps, exemple dans 1 heure) :
 
 ![interact23](./images/interact23.JPG)
 
 > **Note**
 >
-> Vous remarquerez dans la réponse le tag \#value\# celui-ci contient dans le cas d’une interaction programmée l’heure de programmation effective
+> Dans la réponse, vous remarquerez le tag \#value\#. Celui-ci contient l’heure de programmation effective dans le cas d’une interaction programmée.

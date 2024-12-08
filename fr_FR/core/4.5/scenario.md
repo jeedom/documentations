@@ -8,31 +8,30 @@ Véritable cerveau de la domotique, les scénarios permettent d’interagir avec
 
 ## Gestion
 
-Vous y trouverez la liste des scénarios de votre Jeedom, ainsi que des fonctionnalités pour les gérer au mieux :
+Vous y trouverez la liste des scénarios de votre Jeedom ainsi que des fonctionnalités pour les gérer :
 
 - **Ajouter** : Permet de créer un scénario. La procédure est décrite dans le chapitre suivant.
-- **Désactiver scénarios** : Permet de désactiver tous les scénarios. Rarement utilisé et en connaissance de cause, puisqu'aucun scénario ne s’exécutera plus.
+- **Désactiver scénarios** : Permet de désactiver tous les scénarios. Rarement utilisé ou en connaissance de cause, puisqu'aucun scénario ne s’exécutera plus.
 - **Vue d’ensemble** : Permet d’avoir une vue d’ensemble de tous les scénarios. Vous pouvez changer les valeurs **actif**, **visible**, **multi lancement**, **mode synchrone**, **Log** et **Timeline** (ces paramètres sont décrits dans le chapitre suivant). Vous pouvez également accéder aux logs de chaque scénario et les démarrer individuellement.
 
 ## Mes scénarios
 
-Vous trouverez dans cette partie-là **liste des scénarios** que vous avez créés. Ils sont classés suivant leur **groupe**, éventuellement définis pour chacun d’eux. Chaque scénario est affiché avec son **nom** et son **objet parent**. Les **scénarios grisés** sont ceux qui sont désactivés.
+Dans cette partie, vous trouverez la **liste des scénarios** que vous avez créés. Ils sont classés suivant leur **groupe**, éventuellement défini pour chacun d’eux. Chaque scénario est affiché avec son **nom** et son **objet parent**. Les **scénarios grisés** sont ceux qui sont désactivés.
 
 > **Conseil**
 >
 > Vous pouvez ouvrir un scénario en faisant :
->
 > - Clic sur l'un d'entre eux.
-> - Ctrl Clic ou Clic Centre pour l'ouvrir dans un nouvel onglet du navigateur.
+> - Ctrl+Clic ou Clic Centre pour l'ouvrir dans un nouvel onglet du navigateur.
 
-Vous disposez d'un moteur de recherche permettant de filtrer l'affichage des scénarios. La touche Echap annule la recherche.
+Vous disposez d'un moteur de recherche permettant de filtrer l'affichage des scénarios. La touche Echap annule la recherche.  
 A droite du champ de recherche, trois boutons que l'on retrouve à plusieurs endroits de Jeedom :
 
 - La croix pour annuler la recherche.
 - Le dossier ouvert pour déplier tous les panneaux et afficher tous les scénarios.
 - Le dossier fermé pour replier tous les panneaux.
 
-Une fois sur la configuration d'un scénario, vous disposez d'un menu contextuel au Clic Droit sur les onglets du scénario. Vous pouvez également utiliser un Ctrl Clic ou Clic Centre pour ouvrir directement un autre scénario dans un nouvel onglet du navigateur.
+Une fois sur la configuration d'un scénario, vous disposez d'un menu contextuel au Clic Droit sur les onglets du scénario. Vous pouvez également utiliser un Ctrl+Clic ou Clic Centre pour ouvrir directement un autre scénario dans un nouvel onglet du navigateur.
 
 ## Création | Édition d’un scénario
 
@@ -54,13 +53,13 @@ Avant cela, en haut de page, on retrouve certaines fonctions utiles pour gérer 
 - **Supprimer** : Supprimer le scénario.
 - **Sauvegarder** : Sauvegarder les changements effectués.
 
-> **Tips**
+> **Conseil**
 >
 > Deux outils vous seront également précieux dans la mise en place de scénarios :
-    > - Les variables, visibles dans **Outils → Variables**
-    > - Le testeur d'expressions, accessible par **Outils → Testeur expression**
+> - Les variables, visibles dans **Outils → Variables**
+> - Le testeur d'expressions, accessible par **Outils → Testeur expression**
 >
-> Un **Ctrl Clic sur le bouton Exécuter** vous permet directement de sauvegarder, exécuter et afficher le log du scénario (si le niveau de log n'est pas sur Aucun).
+> Un Ctrl+Clic sur le bouton **Exécuter** vous permet directement de sauvegarder, exécuter et afficher le log du scénario (si le niveau de log n'est pas sur Aucun).
 
 ## Onglet Général
 
@@ -68,9 +67,9 @@ Dans l’onglet **Général**, on retrouve les paramètres principaux du scénar
 
 - **Nom du scénario** : Le nom de votre scénario.
 - **Nom à afficher** : Le nom utilisé pour son affichage. Facultatif, s'il n'est pas renseigné, c'est le nom du scénario qui est utilisé.
-- **Groupe** : Permet d’organiser les scénarios, en les classant dans des groupes (visibles sur la page des scénarios et dans leurs menus contextuels).
+- **Groupe** : Permet d’organiser les scénarios en les classant dans des groupes (visibles sur la page des scénarios et dans leur menu contextuel).
 - **Actif** : Permet d’activer le scénario. Si non actif, il ne sera pas exécuté par Jeedom, quel que soit le mode de déclenchement.
-- **Visible** : Permet de rendre visible le scénario (Dashboard).
+- **Visible** : Permet de rendre le scénario visible (Dashboard).
 - **Objet parent** : Affectation à un objet parent. Il sera alors visible ou non selon ce parent.
 - **Timeout en secondes (0 = illimité)** : La durée d’exécution maximale autorisée pour ce scénario. Au-delà de ce temps, l'exécution du scénario est interrompue.
 - **Multi lancement** : Cochez cette case si vous souhaitez que le scénario puisse être lancé plusieurs fois en même temps.
@@ -79,28 +78,28 @@ Dans l’onglet **Général**, on retrouve les paramètres principaux du scénar
 >
 >Le multi lancement marche à la seconde, c'est à dire que si vous avez 2 lancements dans la même seconde sans la case cochée il y aura quand même 2 lancements du scénario (alors qu'il ne devrait pas). De même lors de plusieurs lancements dans la même seconde il se peut que certains lancements perdent les tags. Conclusion il faut ABSOLUMENT éviter de multiples lancements dans la même seconde.
 
-- **Mode synchrone** : Lance le scénario dans le thread courant au lieu d'un thread dédié. Permet d'augmenter la vitesse de lancement du scénario, mais peut rendre le système instable. Attention a ne surtout pas mettre de scénario complexe ou avec des pauses (sleep) ou wait en synchrone, cela engendre un comportement instable de jeedom et ne pourra être couvert par le support.
+- **Mode synchrone** : Lance le scénario dans le thread courant au lieu d'un thread dédié. Permet d'augmenter la vitesse de lancement du scénario, mais peut rendre le système instable. Attention à ne surtout pas mettre de scénario complexe ou avec des pauses (sleep) ou wait en synchrone, cela engendre un comportement instable de jeedom et ne pourra être couvert par le support.
 - **Log** : Le type de log souhaité pour le scénario. Vous pouvez couper les logs du scénario ou au contraire le faire apparaître dans Analyse → Temps réel.
-- **Timeline** : Permet de garder un suivi du scénario dans la timeline (voir doc Historique).
+- **Timeline** : Permet de garder un suivi du scénario dans la timeline (voir [documentation Historique](history.md).
 - **Icône** : Permet de choisir une icône pour le scénario en lieu et place de l’icône standard.
-- **Description** : Permet d’écrire un petit texte pour décrire votre scénario.
+- **Description** : Permet de décrire votre scénario.
 - **Mode du scénario** : Le scénario peut être programmé, déclenché ou les deux à la fois. Vous aurez ensuite le choix d’indiquer le(s) déclencheur(s) (15 déclencheurs maximum) et la/les programmation(s).
 
 > **Conseil**
 >
-> En mode déclenché, des conditions peuvent à présent être saisies. Par ex : ``#[Garage][Open Garage][Ouverture]# == 1``
+> En mode déclenché, des conditions peuvent à présent être saisies. Par ex : ``#[Garage][Open Garage][Ouverture]# == 1``  
 > Attention : vous pouvez avoir au maximum 28 déclencheurs/programmations pour un scénario.
 
-> **Tip Mode programmé**
+> **Conseil pour le Mode programmé**
 >
-> Le mode programmé utilise la syntaxe **Cron**. Vous pourrez par exemple exécuter un scénario toutes les 20 minutes avec  `*/20 * * * *`, ou à 5h du matin pour régler une multitude de choses pour la journée avec ``0 5 * * *``. Le ? à droite d'une programmation vous permet de régler celle-ci sans être un spécialiste de la syntaxe Cron. Il est aussi possible de mettre une heure de lancement sous la forme `Gi` (heure sans zero initial et minute, exemple pour `09h15` => `915` ou pour `23h40` => `2340`). Cette heure peut etre le résultat d'un calcul (utilisant une commande ou un tag), par exemple : `#sunset# + 10` pour un lancement 10 minutes après le couché du soleil. A noter que pour un lancement 1h30 après le couché du soleil il faut mettre `#sunset# + 130`. A noter que lors de l'utilisation d'une syntaxe autre qu'un cron jeedom ne sera pas en mesure de vous donner les dates des lancements précedent ou suivant.
+> Le mode programmé utilise la syntaxe **Cron**. Vous pourrez par exemple exécuter un scénario toutes les 20 minutes avec  `*/20 * * * *` ou à 5h du matin pour régler une multitude de choses pour la journée avec ``0 5 * * *``. Le ? à droite d'une programmation vous permet de régler celle-ci sans être un spécialiste de la syntaxe Cron. Il est aussi possible de mettre une heure de lancement sous la forme `Gi` (heure sans zero initial et minute, exemple pour `09h15` => `915` ou pour `23h40` => `2340`). Cette heure peut etre le résultat d'un calcul (utilisant une commande ou un tag), par exemple : `#sunset# + 10` pour un lancement 10 minutes après le couché du soleil. A noter que pour un lancement 1h30 après le couché du soleil il faut mettre `#sunset# + 130`. A noter que lors de l'utilisation d'une syntaxe autre qu'un cron, jeedom ne sera pas en mesure de vous donner les dates des lancements précedent ou suivant.
 
 ## Onglet Scénario
 
 C’est ici que vous allez construire votre scénario. Après la création du scénario, son contenu est vide, il ne fera donc ... rien. Il faut commencer par **ajouter un bloc**, avec le bouton situé à droite. Une fois un bloc créé, vous pourrez y ajouter un autre **bloc** ou une **action**.
 
-Pour plus de praticité et ne pas avoir à constamment réordonner les blocs dans le scénario, l'ajout d'un bloc se fait après le champ dans lequel se situe le curseur de la souris.
-*Par exemple, si vous avez une dizaine de blocs, et que vous cliquez dans la condition SI du premier bloc, le bloc ajouté le sera après ce bloc, au même niveau. Si aucun champ n'est actif, il sera ajouté à la fin du scénario.*
+Pour plus de praticité et ne pas avoir à constamment réordonner les blocs dans le scénario, l'ajout d'un bloc se fait après le champ dans lequel se situe le curseur de la souris.  
+*Par exemple, si vous avez une dizaine de blocs et que vous cliquez dans la condition SI du premier bloc, le bloc ajouté le sera après ce bloc, au même niveau. Si aucun champ n'est actif, il sera ajouté à la fin du scénario.*
 
 > **Conseil**
 >
@@ -108,7 +107,7 @@ Pour plus de praticité et ne pas avoir à constamment réordonner les blocs dan
 
 > **Conseil**
 >
-> Un Ctrl Shift Z ou Ctrl Shift Y vous permet d'**annuler** ou de **refaire** une modification (ajout d'action, de bloc...).
+> Un Ctrl+Shift+Z ou Ctrl+Shift+Y vous permet d'**annuler** ou de **refaire** une modification (ajout d'action, de bloc...).
 
 ## Les blocs
 
@@ -116,7 +115,7 @@ Voici les différents types de blocs disponibles :
 
 - **Si/Alors/Sinon** : Permet de réaliser des actions sous condition (si ceci, alors cela).
 - **Action** : Permet de lancer des actions simples sans aucune condition.
-- **Boucle** : Permet de réaliser des actions de manière répétitive de 1 jusqu’à un nombre défini (ou même la valeur d’un capteur, ou un nombre aléatoire…​).
+- **Boucle** : Permet de réaliser des actions de manière répétitive de 1 jusqu’à un nombre défini (ou même la valeur d’un capteur ou un nombre aléatoire…​).
 - **Dans** : Permet de lancer une action dans X minute(s) (0 est une valeur possible). La particularité est que les actions sont lancées en arrière-plan, elles ne bloquent donc pas la suite du scénario. C’est donc un bloc non bloquant.
 - **A** : Permet de dire à Jeedom de lancer les actions du bloc à une heure donnée (sous la forme hhmm). Ce bloc est non bloquant. Ex : 0030 pour 00h30, ou 0146 pour 1h46 et 1050 pour 10h50.
 - **Code** : Permet d’écrire directement en code PHP (demande certaines connaissances et peut être risqué mais permet de n’avoir aucune contrainte).
@@ -126,13 +125,13 @@ Chaque bloc a ses options pour mieux les manipuler :
 
 - Sur la gauche :
   - La flèche bidirectionnelle permet de déplacer un bloc ou une action pour les réordonner dans le scénario.
-  - L’œil permet de réduire un bloc (*collapse*) pour réduire son impact visuel. Ctrl Clic sur l’œil les réduit ou les affiche tous.
+  - L’œil permet de réduire un bloc (*collapse*) pour réduire son impact visuel. Ctrl+Clic sur l’œil les réduit ou les affiche tous.
   - La case à cocher permet de désactiver complètement le bloc sans pour autant le supprimer. Il ne sera donc pas exécuté.
 
 - Sur la droite :
-  - L’icône Copier permet de copier le bloc pour en faire une copie ailleurs. Ctrl Clic sur l’icône coupe le bloc (copie puis suppression).
-  - L’icône Coller permet de coller une copie du bloc précédemment copié après le bloc sur lequel vous utilisez cette fonction.  Ctrl Clic sur l’icône remplace le bloc par le bloc copié.
-  - L'icône - permet de supprimer le bloc, avec une demande de confirmation. Ctrl Clic supprime le bloc sans confirmation.
+  - L’icône Copier permet de copier le bloc pour en faire une copie ailleurs. Ctrl+Clic sur l’icône coupe le bloc (copie puis suppression).
+  - L’icône Coller permet de coller une copie du bloc précédemment copié après le bloc sur lequel vous utilisez cette fonction. Ctrl+Clic sur l’icône remplace le bloc par le bloc copié.
+  - L'icône - permet de supprimer le bloc, avec une demande de confirmation. Ctrl+Clic supprime le bloc sans confirmation.
 
 ### Blocs Si/Alors/Sinon | Boucle | Dans | A
 
@@ -205,7 +204,7 @@ Le bloc Code permet d’exécuter du code PHP. Il est donc très puissant mais n
 
 ### Bloc Commentaire
 
-Le Bloc commentaire agît différemment quand il est masqué. Ses boutons sur la gauche disparaissent ainsi que le titre du bloc, et réapparaissent au survol. De même, la première ligne du commentaire est affichée en caractères gras.
+Le Bloc commentaire agit différemment quand il est masqué. Ses boutons sur la gauche ainsi que le titre du bloc disparaissent et réapparaissent au survol. De même, la première ligne du commentaire est affichée en caractères gras.  
 Ceci permet d'utiliser ce bloc comme séparation purement visuelle au sein du scénario.
 
 ### Les Actions
@@ -217,7 +216,7 @@ Les actions ajoutées dans les blocs ont plusieurs options :
 - Une **double-flèche verticale** pour déplacer l’action. Il suffit de la glisser/déposer à partir de là.
 - Un bouton pour **supprimer** l’action.
 - Un bouton pour les actions spécifiques, avec à chaque fois la description (au survol) de cette action.
-- Un bouton pour rechercher une commande d’action.
+- Un bouton pour rechercher une commande action.
 
 > **Conseil**
 >
@@ -236,12 +235,12 @@ Il existe des déclencheurs spécifiques (autre que ceux fournis par les command
 - ``#end_update#`` : Événement envoyé à la fin d’une mise à jour.
 - ``#begin_restore#`` : Événement envoyé au début d’une restauration.
 - ``#end_restore#`` : Événement envoyé à la fin d’une restauration.
-- ``#user_connect#`` : Connexion d'un utilisateur
+- ``#user_connect#`` : Connexion d'un utilisateur.
 - ``#variable(nom_variable)#`` : Changement de valeur de la variable nom_variable.
 - ``#genericType(GENERIC, #[Object]#)#`` : Changement d'une commande info de Type Generic GENERIC, dans l'objet Object.
-- ``#new_eqLogic#`` : Événement envoyé lors de la création d'un nouvelle équipement, vous avez dans les tags id (id de l'équipement crée), name (nom de l'équipement crée) et eqType (type/plugin de l'équipement crée)
+- ``#new_eqLogic#`` : Événement envoyé lors de la création d'un nouvelle équipement, vous avez dans les tags id (id de l'équipement crée), name (nom de l'équipement crée) et eqType (type/plugin de l'équipement créé).
 
-Vous pouvez aussi déclencher un scénario en utilisant l’API HTTP décrite [ici](https://doc.jeedom.com/fr_FR/core/4.4/api_http).
+Vous pouvez aussi déclencher un scénario en utilisant l’API HTTP décrite [ici](api_http.md).
 
 ### Opérateurs de comparaison et liens entre les conditions
 
@@ -267,7 +266,7 @@ Que vous combiniez des comparaisons sur des équipements différents ou sur le m
 
 ### Les tags
 
-Un tag est remplacé lors de l’exécution du scénario par sa valeur. Vous pouvez utiliser les tags suivants :
+Un tag est remplacé par sa valeur lors de l’exécution du scénario. Vous pouvez utiliser les tags suivants :
 
 > **Conseil**
 >
@@ -292,7 +291,7 @@ Un tag est remplacé lors de l’exécution du scénario par sa valeur. Vous pou
 - ``#jeedomName#`` : Nom du Jeedom.
 - ``#trigger#`` : Peut être :
   - ``api`` si le lancement a été déclenché par l'API,
-  - ``TYPEcmd`` si le lancement a été déclenché par une commande, avec TYPE remplacé l'id du plugin (ex virtualCmd),
+  - ``TYPEcmd`` si le lancement a été déclenché par une commande, avec TYPE remplacé par l'id du plugin (ex virtualCmd),
   - ``schedule`` s'il a été lancé par une programmation,
   - ``user`` s'il a été lancé manuellement,
   - ``start`` pour un lancement au démarrage de Jeedom.
@@ -307,8 +306,8 @@ Un tag est remplacé lors de l’exécution du scénario par sa valeur. Vous pou
 
 Vous avez aussi les tags suivants en plus si votre scénario a été déclenché par une interaction :
 
-- #query# : Interaction ayant déclenché le scénario.
-- #profil# : Profil de l’utilisateur ayant déclenché le scénario (peut être vide).
+- ``#query#`` : Interaction ayant déclenché le scénario.
+- ``#profil#`` : Profil de l’utilisateur ayant déclenché le scénario (peut être vide).
 
 > **Important**
 >
@@ -333,59 +332,58 @@ Plusieurs fonctions sont disponibles pour les équipements :
 - ``tendance(commande,période,seuil)`` : Donne la tendance de la commande sur la période (period=[month,day,hour,min] ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
 - ``stateDuration(commande)`` : Donne la durée en secondes depuis le dernier changement de valeur.
-    -1 : Aucun historique n’existe ou la valeur n’existe pas dans l'historique.
-    -2 : La commande n’est pas historisée.
+    - -1 : Aucun historique n’existe ou la valeur n’existe pas dans l'historique.
+    - -2 : La commande n’est pas historisée.
 
 - ``lastChangeStateDuration(commande,valeur)`` : Donne la durée en secondes depuis le dernier changement d’état à la valeur passée en paramètre.
-    -1 : Aucun historique n’existe ou la valeur n’existe pas dans l'historique.
-    -2 La commande n’est pas historisée
+    - -1 : Aucun historique n’existe ou la valeur n’existe pas dans l'historique.
+    - -2 : La commande n’est pas historisée
 
 - ``lastStateDuration(commande,valeur)`` : Donne la durée en secondes pendant laquelle l’équipement a dernièrement eu la valeur choisie.
-    -1 : Aucun historique n’existe ou la valeur n’existe pas dans l'historique.
-    -2 : La commande n’est pas historisée.
+    - -1 : Aucun historique n’existe ou la valeur n’existe pas dans l'historique.
+    - -2 : La commande n’est pas historisée.
 
 - ``age(commande)`` : Donne l'âge en secondes de la valeur de la commande (``collecDate``)
-    -1 : La commande n’existe pas ou elle n'est pas de type info.
+    - -1 : La commande n’existe pas ou elle n'est pas de type info.
 
 - ``stateChanges(commande,[valeur], période)`` & ``stateChangesBetween(commande, [valeur], start, end)`` : Donnent le nombre de changements d’état (vers une certaine valeur si indiquée, ou si non indiqué par rapport à sa valeur actuelle) sur la période (period=[month,day,hour,min] ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou entre les 2 bornes demandées (sous la forme ``Y-m-d H:i:s`` ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
 - ``lastBetween(commande,start,end)`` : Donne la dernière valeur enregistrée pour l’équipement entre les 2 bornes demandées (sous la forme ``Y-m-d H:i:s`` ou [expression PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)).
 
-- ``variable(mavariable,valeur par défaut)`` : Récupère la valeur d’une variable ou de la valeur souhaitée par défaut.
+- ``variable(mavariable,valeur par défaut)`` : Récupère la valeur d’une variable ou de la valeur par défaut si la variable n'existe pas.
 
 - ``genericType(GENERIC, #[Object]#)`` : Récupère la somme des infos de Type Générique GENERIC dans l'objet Object.
 
-- ``scenario(scenario)`` : Renvoie le statut du scénario.
-    1 : En cours,
-    0 : Arrêté,
-    -1 : Désactivé,
-    -2 : Le scénario n’existe pas,
-    -3 : L’état n’est pas cohérent.
-    Pour avoir le nom "humain" du scénario, vous pouvez utiliser le bouton dédié à droite de la recherche de scénario.
+- ``scenario(scenario)`` : Renvoie le statut du scénario. Pour avoir le nom "humain" du scénario, vous pouvez utiliser le bouton dédié à droite de la recherche de scénario.
+    - 1 : En cours,
+    - 0 : Arrêté,
+    - -1 : Désactivé,
+    - -2 : Le scénario n’existe pas,
+    - -3 : L’état n’est pas cohérent.
 
 - ``lastScenarioExecution(scenario)`` : Donne la durée en secondes depuis le dernier lancement du scénario.
-    0 : Le scénario n'existe pas
+    - 0 : Le scénario n'existe pas
 
 - ``collectDate(cmd,[format])`` : Renvoie la date de la dernière collecte de données pour la commande placée en paramètre, le 2ème paramètre optionnel permet de spécifier le format de retour (détails [ici](https://www.php.net/manual/fr/datetime.format.php)).
-    -1 : La commande est introuvable,
-    -2 : La commande n’est pas de type info.
+    - -1 : La commande est introuvable,
+    - -2 : La commande n’est pas de type info.
 
 - ``valueDate(cmd,[format])`` : Renvoie la date de la dernière valeur connue pour la commande placée en paramètre, le 2ème paramètre optionnel permet de spécifier le format de retour (détails [ici](https://www.php.net/manual/fr/datetime.format.php)).
-    -1 : La commande est introuvable,
-    -2 : La commande n’est pas de type info.
+    - -1 : La commande est introuvable,
+    - -2 : La commande n’est pas de type info.
 
 - ``eqEnable(equipement)`` : Renvoie l’état de l’équipement.
-    -2 : L’équipement est introuvable,
-    1 : L’équipement est actif,
-    0 : L’équipement est inactif.
+    - -2 : L’équipement est introuvable,
+    - 0 : L’équipement est inactif,
+    - 1 : L’équipement est actif.
 
 - ``value(cmd)`` : Renvoie la valeur d'une commande si elle n'est pas donnée automatiquement par Jeedom (cas lors du stockage du nom de la commande dans une variable)
 
-- ``tag(montag,[defaut])`` : Permet de récupérer la valeur d’un tag ou la valeur par défaut si il n’existe pas.
+- ``tag(montag,[defaut])`` : Permet de récupérer la valeur d’un tag ou la valeur par défaut s'il n’existe pas.
 
 - ``name(type,commande)`` : Permet de récupérer le nom de la commande, de l’équipement ou de l’objet. Type : cmd, eqLogic ou object.
 
-- ``lastCommunication(equipment,[format])`` : Renvoie la date de la dernière remontée d'information pour l'équipement donné en paramètre, le 2ème paramètre optionnel permet de spécifier le format de retour (détails [ici](https://www.php.net/manual/fr/datetime.format.php)). Un retour de -1 signifie que l’équipement est introuvable. La date de derniere information est calculé par rapport au commande de type information et de leur date de collecte.
+- ``lastCommunication(equipment,[format])`` : Renvoie la date de la dernière remontée d'information pour l'équipement donné en paramètre, le 2ème paramètre optionnel permet de spécifier le format de retour (détails [ici](https://www.php.net/manual/fr/datetime.format.php)). Un retour de -1 signifie que l’équipement est introuvable. La date de derniere information est calculée par rapport aux commandes de type information et de leur date de collecte.
 
 - ``color_gradient(couleur_debut,couleur_fin,valuer_min,valeur_max,valeur)`` : Renvoie une couleur calculée par rapport à une valeur dans l'intervalle couleur_debut/couleur_fin. La valeur doit être comprise entre valeur_min et valeur_max.
 
@@ -402,8 +400,7 @@ Voici des exemples pratiques pour comprendre les valeurs retournées par ces dif
 
 | Prise ayant pour valeurs :           | 000 (pendant 10 minutes) 11 (pendant 1 heure) 000 (pendant 10 minutes)    |
 |--------------------------------------|--------------------------------------|
-| ``average(prise,période)``             | Renvoie la moyenne des 0 et 1 (peut  |
-|                                      | être influencée par le polling)      |
+| ``average(prise,période)``           | Renvoie la moyenne des 0 et 1 (peut être influencée par le polling)      |
 | ``averageBetween(#[Salle de bain][Hydrometrie][Humidité]#,2015-01-01 00:00:00,2015-01-15 00:00:00)`` | Renvoie la moyenne de la commande entre le 1er janvier 2015 et le 15 janvier 2015                       |
 | ``min(prise,période)``                 | Renvoie 0 : la prise a bien été éteinte dans la période              |
 | ``minBetween(#[Salle de bain][Hydrometrie][Humidité]#,2015-01-01 00:00:00,2015-01-15 00:00:00)`` | Renvoie le minimum de la commande entre le 1er janvier 2015 et le 15 janvier 2015                       |
@@ -436,7 +433,7 @@ Voici des exemples pratiques pour comprendre les valeurs retournées par ces dif
 Une boîte à outils de fonctions génériques peut également servir à effectuer des conversions ou des calculs :
 
 - ``rand(1,10)`` : Donne un nombre aléatoire de 1 à 10.
-- ``randText(texte1;texte2;texte…​..)`` : Permet de retourner un des textes aléatoirement (séparer les texte par un ; ). Il n’y a pas de limite dans le nombre de texte.
+- ``randText(texte1;texte2;texte…​..)`` : Permet de retourner un des textes aléatoirement (séparer les texte par un ; ). Il n’y a pas de limite dans le nombre de textes.
 - ``randomColor(min,max)`` : Donne une couleur aléatoire comprise entre 2 bornes ( 0 => rouge, 50 => vert, 100 => bleu).
 - ``trigger(commande)`` : Permet de connaître le déclencheur du scénario ou de savoir si c’est bien la commande passée en paramètre qui a déclenché le scénario. **=> Deprecated il vaut mieux utiliser le tag #trigger#**
 - ``triggerValue()`` : Permet de connaître la valeur du déclencheur du scénario. **=> Deprecated il vaut mieux utiliser le tag #triggerValue#**
@@ -446,7 +443,7 @@ Une boîte à outils de fonctions génériques peut également servir à effectu
 - ``avg(commande1,commande2…​.commandeN)`` : Renvoie la moyenne des valeurs.
 - ``time_op(time,value)`` : Permet de faire des opérations sur le temps, avec time=temps (ex : 1530) et value=valeur à ajouter ou à soustraire en minutes.
 - ``time_between(time,start,end)`` : Permet de tester si un temps est entre deux valeurs avec ``time=temps`` (ex : 1530), ``start=temps``, ``end=temps``. Les valeurs start et end peuvent être à cheval sur minuit.
-- ``time_diff(date1,date2[,format, round])`` : Permet de connaître la différence entre deux dates (les dates doivent être au format AAAA/MM/JJ HH:MM:SS). Par défaut, la méthode retourne la différence en jour(s). Vous pouvez lui demander en secondes (s), minutes (m), heures (h). Exemple en secondes ``time_diff(2019-02-02 14:55:00,2019-02-25 14:55:00,s)``. La différence est retournée en absolu, sauf si vous spécifiez ``f`` (``sf``, ``mf``, ``hf``, ``df``). Vous pouvez aussi utiliser ``dhms`` qui ne retournera pas exemple ``7j 2h 5min 46s``. Le paramètre round, optionnel, arrondit à x chiffres après la virgule (2 par défaut). Ex: ``time_diff(2020-02-21 20:55:28,2020-02-28 23:01:14,df, 4)``.
+- ``time_diff(date1,date2[,format, round])`` : Permet de connaître la différence entre deux dates (les dates doivent être au format AAAA/MM/JJ HH:MM:SS). Par défaut, la méthode retourne la différence en jour(s). Vous pouvez lui demander en secondes (s), minutes (m), heures (h). Exemple en secondes ``time_diff(2019-02-02 14:55:00,2019-02-25 14:55:00,s)``. La différence est retournée en absolu, sauf si vous spécifiez ``f`` (``sf``, ``mf``, ``hf``, ``df``). Vous pouvez aussi utiliser ``dhms`` qui retournera par exemple ``7j 2h 5min 46s``. Le paramètre round, optionnel, arrondit à x chiffres après la virgule (2 par défaut). Ex: ``time_diff(2020-02-21 20:55:28,2020-02-28 23:01:14,df, 4)``.
 - ``formatTime(time)`` : Permet de formater le retour d’une chaine ``#time#``.
 - ``floor(time/60)`` : Permet de convertir des secondes en minutes, ou des minutes en heures (``floor(time/3600)`` pour des secondes en heures).
 - ``convertDuration(secondes)`` : Permet de convertir des secondes en j/h/mn/s.
@@ -469,8 +466,8 @@ Et les exemples pratiques :
 
 ### Les fonctions diverses
 
-- ``sun(elevation)`` : Donne en ° l'élevation du soleil (attention il faut avoir renseigné vos coordonées géographique dans la configuration de jeedom)
-- ``sun(azimuth)`` : Donne en ° l'azimuth du soleil (attention il faut avoir renseigné vos coordonées géographique dans la configuration de jeedom)
+- ``sun(elevation)`` : Donne l'élevation du soleil en ° (attention il faut avoir renseigné vos coordonées géographiques dans la configuration de jeedom)
+- ``sun(azimuth)`` : Donne l'azimuth du soleil en ° (attention il faut avoir renseigné vos coordonées géographiques dans la configuration de jeedom)
 
 ### Les commandes spécifiques
 
@@ -486,7 +483,7 @@ En plus des commandes domotiques, vous avez accès aux actions suivantes :
   - Arrêter : Arrête le scenario.
   - Activer : Active un scénario désactivé.
   - Désactiver : Désactive le scénario. Il ne se lance plus quelque soit les déclencheurs.
-  - Remise à zéro des SI : Permet de remettre à zéro le statut des **SI**. Ce statut est utilisé pour la non répétition des actions d’un **SI**, si l’évaluation de la condition donne le même résultat que la précédente évaluation.
+  - Remise à zéro des SI : Permet de remettre le statut des **SI** à zéro. Ce statut est utilisé pour la non répétition des actions d’un **SI**, si l’évaluation de la condition donne le même résultat que la précédente évaluation.
 - **Stop** (stop) : Arrête le scénario.
 - **Attendre** (wait) : Attend jusqu’à ce que la condition soit valide (maximum 2h), le timeout est en seconde(s).
 - **Aller au design** (gotodesign) : Change le design affiché sur tous les navigateurs par le design demandé.
@@ -494,20 +491,20 @@ En plus des commandes domotiques, vous avez accès aux actions suivantes :
 - **Créer un message** (message) : Permet d’ajouter un message dans le centre de messages.
 - **Activer/Désactiver Masquer/afficher un équipement** (equipement) : Permet de modifier les propriétés d’un équipement visible/invisible, actif/inactif.
 - **Faire une demande** (ask) : Permet d’indiquer à Jeedom qu’il faut poser une question à l’utilisateur. La réponse est stockée dans une variable, il suffit ensuite de tester sa valeur.
-    Pour le moment, seuls les plugins sms, slack, telegram et snips sont compatibles, ainsi que l'application mobile.
+    Pour le moment, seuls les plugins sms, slack, telegram et snips sont compatibles ainsi que l'application mobile.
     Attention, cette fonction est bloquante. Tant qu’il n’y a pas de réponse ou que le timeout n’est pas atteint, le scénario attend. Note pour une réponse libre mettre * dans la liste des réponses possible.
 - **Arrêter Jeedom** (jeedom_poweroff) : Demande à Jeedom de s’éteindre.
 - **Retourner un texte/une donnée** (scenario_return) : Retourne un texte ou une valeur pour une interaction par exemple.
 - **Icône** (icon) : Permet de changer l’icône de représentation du scénario.
 - **Alerte** (alert) : Permet d’afficher un petit message d’alerte sur tous les navigateurs qui ont une page Jeedom ouverte. Vous pouvez, en plus, choisir 4 niveaux d’alerte.
 - **Pop-up** (popup) : Permet d’afficher un pop-up qui doit absolument être validé sur tous les navigateurs qui ont une page jeedom ouverte.
-- **Rapport** (report) : Permet d’exporter une vue au format (PDF,PNG, JPEG ou SVG) et de l’envoyer par le biais d’une commande de type message. Attention, si votre accès Internet est en HTTPS non-signé, cette fonctionnalité ne fonctionnera pas. Il faut du HTTP ou HTTPS signé. Le "delai" est en milli-seconde (ms).
+- **Rapport** (report) : Permet d’exporter une vue au format (PDF, PNG, JPEG ou SVG) et de l’envoyer par le biais d’une commande de type message. Attention, si votre accès Internet est en HTTPS non-signé, cette fonctionnalité ne fonctionnera pas. Il faut du HTTP ou HTTPS signé. Le "delai" est en milli-seconde (ms).
 - **Supprimer bloc DANS/A programmé** (remove_inat) : Permet de supprimer la programmation de tous les blocs DANS et A d'un scénario.
 - **Evènement** (event) : Permet de pousser une valeur dans une commande de type information de manière arbitraire.
 - **Tag** (tag) : Permet d'ajouter/modifier un tag (le tag n'existe que pendant l'exécution en cours du scénario à la différence des variables qui survivent à la fin du scénario).
 - **Coloration des icônes du dashboard** (setColoredIcon) : Permet d'activer ou non la coloration des icônes sur le Dashboard.
 - **Changement de thème** (changetheme) : Permet de changer le thème en cours de l'interface en Dark ou Light.
-- **Export historique** (exportHistory) : permet d'exporter l'historique en csv d'une commande sous forme d'un fichier (envoi par mail par exemple). Vous pouvez mettre plusieurs commandes (séparées par des &&). La selection de la période se fait sous la forme :
+- **Export historique** (exportHistory) : permet d'exporter l'historique d'une commande en csv sous forme d'un fichier (envoi par mail par exemple). Vous pouvez mettre plusieurs commandes (séparées par des &&). La selection de la période se fait sous la forme :
   - "-1 month" => -1 mois
   - "-1 day midnight" => -1 jour à minuit
   - "now" => maintenant
@@ -519,7 +516,7 @@ En plus des commandes domotiques, vous avez accès aux actions suivantes :
 
 ### Template de scénario
 
-Cette fonctionnalité permet de transformer un scénario en template pour par exemple l’appliquer sur un autre Jeedom.
+Cette fonctionnalité permet de transformer un scénario en template pour l’appliquer sur un autre Jeedom, par exemple.
 
 En cliquant sur le bouton **template** en haut de page, vous ouvrez la fenêtre de gestion des templates.
 
@@ -534,17 +531,17 @@ En cliquant sur un template, vous pourrez :
 
 - **Partager** : Partager le template sur le Market.
 - **Supprimer** : Supprimer le template.
-- **Télécharger** : Récupérer le template sous forme de fichier JSON pour le renvoyer sur un autre Jeedom par exemple.
+- **Télécharger** : Récupérer le template sous forme de fichier JSON pour le renvoyer sur un autre Jeedom, par exemple.
 
 En-dessous, vous avez la partie pour appliquer votre template au scénario courant.
 
 Etant donné que d’un Jeedom à l’autre ou d’une installation à une autre, les commandes peuvent être différentes, Jeedom vous demande la correspondance des commandes entre celles présentes lors de la création du template et celles présentes chez vous. Il vous suffit de remplir la correspondance des commandes puis de faire appliquer.
 
-## Ajout de fonction PHP
+## Ajout de fonctions PHP
 
 > **IMPORTANT**
 >
-> L'ajout de fonction PHP est réservé aux utilisateurs avancés. La moindre erreur peut être fatale pour votre Jeedom.
+> L'ajout de fonctions PHP est réservé aux utilisateurs avancés. La moindre erreur peut être fatale pour votre Jeedom.
 
 ### Mise en place
 
