@@ -23,6 +23,7 @@ Here you find all the configuration of your equipment :
 - **MAC address (wol)** : MAC address for wake-on-lan,
 - **Broadcast IP (wol)** : network broadcast IP address to send wake-on-lan,
 - **Ping method** : Choice of ping method : *IP* (normal), *ARP* (Best for smartphones and devices that fall asleep), *Port* (to test if a port is open)
+- **Timeout**: Timeout of a request, in seconds. Please note, this does not mean that the request will necessarily wait until the end of the timeout, if a negative response arrives before the timeout, it remains a valid response.
 - **Maximum attempts on failure**: Maximum number of attempts between 1 and 10 in case of failure. If successful, the plugin stops immediately.
 - **TTL** : Only if method *IP*. Time-to-live, values ​​can be :
   - 0 : same host

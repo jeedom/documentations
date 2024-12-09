@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 08/12/2024
+
+- Ajout de la possibilité de configurer le timeout des requêtes
+
 # 29/11/2024
 
 - Ajout de log en mode DEBUG lors des tentatives de ping

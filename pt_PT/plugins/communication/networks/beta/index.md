@@ -23,6 +23,7 @@ Aqui você encontra toda a configuração do seu equipamento :
 - **Endereço MAC (wol)** : Endereço MAC para wake-on-lan,
 - **IP de transmissão (wol)** : endereço IP de broadcast da rede para enviar wake-on-lan,
 - **Método Ping** : Escolha do método ping : *PI* (normal), *ARP* (preferido para smartphones e dispositivos que adormecem), *Porta* (para testar se uma porta está aberta)
+- **Tempo esgotado**: Tempo limite de uma solicitação, em segundos. Observe que isso não significa que a solicitação necessariamente aguardará o fim do tempo limite; se uma resposta negativa chegar antes do tempo limite, ela continuará sendo uma resposta válida;.
 - **Máximo de tentativas em caso de falha**: Número máximo entre 1 e 10 tentativas em caso de falha. Se for bem-sucedido, o plugin será interrompido imediatamente.
 - **TTL** : Somente se o método *PI*. Tempo de vida útil, os valores podem ser :
   - 0 : mesmo host

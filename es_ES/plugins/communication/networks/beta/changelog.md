@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 12/08/2024
+
+- Se agregó la capacidad de configurar el tiempo de espera de la consulta
+
 # 29/11/2024
 
 - Registro agregado en modo DEBUG durante los intentos de ping
