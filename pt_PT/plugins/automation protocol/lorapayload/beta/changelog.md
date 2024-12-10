@@ -32,6 +32,8 @@
 
 - Alterando a configuração *Ewattch Lula Pro Rogowski*
 
+- Correção do decodificador *Termostato sem fio MClimate*
+
 # 30/10/2024
 
 - Alterando a configuração *Termostato sem fio MClimate* (propriedades : Atualização manual da temperatura alvo)

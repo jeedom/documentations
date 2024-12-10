@@ -32,6 +32,8 @@
 
 - Changing the configuration *Ewattch Squid Pro Rogowski*
 
+- Decoder correction *MClimate Wireless Thermostat*
+
 # 10/30/2024
 
 - Changing the configuration *MClimate Wireless Thermostat* (properties : Manual Target Temperature Update)
