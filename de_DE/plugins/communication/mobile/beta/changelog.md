@@ -4,25 +4,39 @@
 >
 > Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 20.08.2024
-Benachrichtigungsinformationen auf die Registerkarte „Mobil“ verschieben"
+# xx/08/2024
 
+> **App V1**
+>
+> Bitte beachten Sie, dass appV1 ab dieser Version nicht mehr unterstützt wird.
+> Es wird immer möglich sein, auf Ihre Ausrüstung zuzugreifen, um möglicherweise Ihre Geolokalisierungs- und Benachrichtigungsbefehle zu ersetzen.
+
+- AppV1-Dateien löschen.
+- In der Datenbank gespeicherte Reinigungsinformationen (config).
+
+# 20.08.2024
+
+- Benachrichtigungsinformationen auf die Registerkarte „Mobil“ verschieben"
 
 # 08.04.2024
-Berücksichtigung der Aufbewahrung von Benachrichtigungen zum Löschen von Bildern
+
+- Berücksichtigung der Aufbewahrung von Benachrichtigungen zum Löschen von Bildern
 
 
 # 22.07.2024
-Berücksichtigung der Aufbewahrung von Benachrichtigungen
-Target Sdk 34 für Android
+
+- Berücksichtigung der Aufbewahrung von Benachrichtigungen
+- Target Sdk 34 für Android
 
 # 28.05.2024
-Geolokalisierungsänderung für die nächste App-Version
-Speicherbenachrichtigungen im Plugin
-Neue APIs für die Anwendung
+
+- Geolokalisierungsänderung für die nächste App-Version
+- Speicherbenachrichtigungen im Plugin
+- Neue APIs für die Anwendung
 
 # 04.05.2024
-Kompatibel nur mit der 4.4 Kern oder höher.
+
+- Kompatibel nur mit der 4.4 Kern oder höher.
 
 # 15.12.2023
 
@@ -59,11 +73,11 @@ Kompatibel nur mit der 4.4 Kern oder höher.
 - ZUKÜNFTIGE APPV2 ALPHA INTEGRATION IN MOBILE PLUGIN
 - Neue Schnittstelle Future AppV2
 - Modales benutzerdefiniertes Menü Zukünftige AppV2
-- Modale QrCode Future AppV2
+- Modaler QR-Code Future AppV2
 
 # 13.12.2021
 
-- Offline-Modus für QrCode (Erstellung von QrCode ohne Internet.).
+- Offline-Modus für den QR-Code (Erstellung des QR-Codes ohne Internet).
 - Kompatibilität 4.2 Jeedom-Kern
 
 # 11.10.2021
@@ -88,7 +102,7 @@ Kompatibel nur mit der 4.4 Kern oder höher.
 
 # 15.04.2020
 
-- Hinzufügen von Bestellungen für jedes Handy.
+- Befehle für jedes Mobiltelefon hinzugefügt.
 
 # 31.03.2020
 
@@ -96,12 +110,12 @@ Kompatibel nur mit der 4.4 Kern oder höher.
 
 # 19.02.2020
 
--http korrigieren.Fehlerzeile 39, wenn das Telefon bei der ersten Verbindung nicht authentifiziert wurde.
+- Http korrigieren.Fehlerzeile 39, wenn das Telefon bei der ersten Verbindung nicht authentifiziert wurde.
 
 # v1.3.0
 
 - ASK-Benachrichtigung
 - Benachrichtigungsverlauf
 - Schieberegler mit Prozentsatz
-- große Änderung im Timing
+- Ändern des Timings
 - Entfernen von Push zum Aktualisieren

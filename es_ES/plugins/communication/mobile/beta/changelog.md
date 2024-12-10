@@ -4,25 +4,39 @@
 >
 > Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-# 20/08/2024
-Mover la información de notificación a la pestaña "Móvil""
+# xx/08/2024
 
+> **Aplicación V1**
+>
+> Tenga en cuenta que a partir de esta versión, la aplicación V1 ya no es compatible.
+> Siempre será posible acceder a su equipo, para posiblemente reemplazar sus comandos de geolocalización y notificación.
+
+- Eliminar archivos AppV1.
+- Información de limpieza almacenada en la base de datos (config).
+
+# 20/08/2024
+
+- Mover la información de notificación a la pestaña "Móvil""
 
 # 08/04/2024
-Teniendo en cuenta la retención de notificaciones por eliminación de imágenes
+
+- Teniendo en cuenta la retención de notificaciones por eliminación de imágenes
 
 
 # 22/07/2024
-Teniendo en cuenta la retención de notificaciones
-Objetivo SDK 34 para Android
+
+- Teniendo en cuenta la retención de notificaciones
+- Objetivo SDK 34 para Android
 
 # 28/05/2024
-Modificación de geolocalización para la próxima versión de la aplicación
-Notificaciones de almacenamiento en el complemento
-Nuevas API para la aplicación
+
+- Modificación de geolocalización para la próxima versión de la aplicación
+- Notificaciones de almacenamiento en el complemento
+- Nuevas API para la aplicación
 
 # 05/04/2024
-Compatible solo con los 4.4 núcleos o superior.
+
+- Compatible solo con los 4.4 núcleos o superior.
 
 # 15/12/2023
 
@@ -59,11 +73,11 @@ Compatible solo con los 4.4 núcleos o superior.
 - FUTURA INTEGRACIÓN DE APPV2 ALPHA EN PLUGIN MÓVIL
 - Nueva interfaz Future AppV2
 - Menú personalizado modal Future AppV2
-- Modal QrCode Future AppV2
+- Aplicación futura de código QR modal V2
 
 # 13/12/2021
 
-- Modo sin conexión para QrCode (creación de QrCode sin Internet.).
+- Modo offline para el Código QR (creación del Código QR sin internet).
 - Compatibilidad 4.2 Jeedom Core
 
 # 11/10/2021
@@ -88,7 +102,7 @@ Compatible solo con los 4.4 núcleos o superior.
 
 # 15/04/2020
 
-- Adición de órdenes para cada móvil.
+- Comandos agregados para cada móvil.
 
 # 31/03/2020
 
@@ -96,12 +110,12 @@ Compatible solo con los 4.4 núcleos o superior.
 
 # 19/02/2020
 
--arreglar http.línea de error 39 si el teléfono no está autenticado en la primera conexión.
+- Arreglar http.Línea de error 39 si el teléfono no está autenticado en la primera conexión.
 
 # v1.3.0
 
 - Pedir notificación
 - Historial de notificaciones
 - Control deslizante con porcentaje
-- gran cambio en el tiempo
-- eliminación de empuje para actualizar
+- Cambiando el tiempo
+- Eliminación de empuje para actualizar

@@ -4,25 +4,39 @@
 >
 > As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 20/08/2024
-Moved notification info to the “Mobile” tab"
+# xx/08/2024
 
+> **App V1**
+>
+> Please note, from this version, appV1 is no longer supported.
+> It will still be possible to access your equipment, to possibly replace your geolocation and notification controls.
+
+- Deleting files related to AppV1.
+- Cleaning the information stored in the database (config).
+
+# 20/08/2024
+
+- Moved notification info to the “Mobile” tab"
 
 # 04/08/2024
-Taking into account retention of notifications for deletion of images
+
+- Taking into account retention of notifications for deletion of images
 
 
 # 07/22/2024
-Taking into account retention of notifications
-Target SDK 34 for Android
+
+- Taking into account retention of notifications
+- Target SDK 34 for Android
 
 # 05/28/2024
-Geolocation modification for next App version
-Storage Notifications in the plugin
-New APIs for the application
+
+- Geolocation modification for next App version
+- Storage Notifications in the plugin
+- New APIs for the application
 
 # 04/05/2024
-Compatible only with the 4.4 core or higher.
+
+- Compatible only with the 4.4 core or higher.
 
 # 15/12/2023
 
@@ -59,11 +73,11 @@ Compatible only with the 4.4 core or higher.
 - FUTURE APPV2 ALPHA INTEGRATION IN MOBILE PLUGIN
 - New Interface Future AppV2
 - Modal Custom Menu Future AppV2
-- Modal QrCode Future AppV2
+- Modal QR Code Future AppV2
 
 # 12/13/2021
 
-- Offline mode for QrCode (creation of QrCode without internet.).
+- Offline mode for QR Code (creation of QR Code without internet)).
 - Compatibility 4.2 Jeedom Core
 
 # 10/11/2021
@@ -88,7 +102,7 @@ Compatible only with the 4.4 core or higher.
 
 # 04/15/2020
 
-- Commands added for each mobile.
+- Additions of the Commands of each mobile.
 
 # 31/03/2020
 
@@ -96,12 +110,12 @@ Compatible only with the 4.4 core or higher.
 
 # 02/19/2020
 
--fix http.error line 39 if phone not authenticated at first connection.
+- Fix http.error line 39 if phone not authenticated on first connection.
 
 # v1.3.0
 
 - ASK notification
 - Notification history
 - Slider with percentage
-- big change in timing
-- removal of push to refresh
+- Changing the synchronization
+- Removal of push to refresh

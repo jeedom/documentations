@@ -1,323 +1,95 @@
-# Mobiles Plugin
+    # Mobiles Plugin
 
-Plugin zur Verwendung der Jeedom Mobile-Anwendung.
+    Plugin zur Verwendung der Jeedom Mobile-Anwendung.
 
-Die mobile Jeedom-Anwendung erfordert die Installation dieses Plugins, damit die Box mit der mobilen Anwendung kommunizieren kann.
+    Die mobile Jeedom-Anwendung erfordert die Installation dieses Plugins, damit die Box mit der mobilen Anwendung kommunizieren kann.
 
-# Konfiguration des Mobile-Plugins für Application V2
+    # Konfiguration des Mobile-Plugins für Application V2
 
-Nach der Installation des Plugins müssen Sie es nur noch aktivieren :
+    Nach der Installation des Plugins müssen Sie es nur noch aktivieren :
 
-![mobile1](./images/mobile1.png)
+    ![mobile1](./images/mobile1.png)
 
-# Erste Verbindung mit der V2-Anwendung
+    # Erste Verbindung mit der V2-Anwendung
 
-Um Ihr Telefon zu verbinden : es gibt 2 mögliche Methoden;
-Auf dem ersten Bildschirm der Anwendung wird Ihnen angeboten, Ihr Marktkonto zu verbinden und so alle mit diesem Konto verknüpften Boxen zu finden oder einfach eine Box hinzuzufügen.
+    Um Ihr Telefon zu verbinden : es gibt 2 mögliche Methoden;
+    Auf dem ersten Bildschirm der Anwendung wird Ihnen angeboten, Ihr Marktkonto zu verbinden und so alle mit diesem Konto verknüpften Boxen zu finden oder einfach eine Box hinzuzufügen.
 
-![v2ConnectMarket](./images/v2firstConnect.jpeg)
+    ![v2ConnectMarket](./images/v2firstConnect.jpeg)
 
-> **WICHTIG**
->
-> Um von den Funktionalitäten der Anwendung profitieren zu können, muss sich der Kern Ihres Jeedom in 4.4 befinden.Mindestens 0
+    > **WICHTIG**
+    >
+    > Um von den Funktionalitäten der Anwendung profitieren zu können, muss sich der Kern Ihres Jeedom in 4.4 befinden.Mindestens 0
 
-#### **LOGIN ÜBER MARKET-KONTO** :
+    #### **LOGIN ÜBER MARKET-KONTO** :
 
-![v2ConnectMarket](./images/v2connectMarket.PNG)
+    ![v2ConnectMarket](./images/v2connectMarket.jpeg)
 
-Sie müssen lediglich Ihre Markt-ID und Ihr Passwort eingeben.
+    Sie müssen lediglich Ihre Markt-ID und Ihr Passwort eingeben.
 
-#### **VERBINDUNG ÜBER BOX-ID** :
+    #### **VERBINDUNG ÜBER BOX-ID** :
 
-![v22methods](./images/v22methods.PNG)
+    ![v22methods](./images/v22methods.jpeg)
 
-Mehrere Auswahlmöglichkeiten auf diesem Bildschirm :
+    Mehrere Auswahlmöglichkeiten auf diesem Bildschirm :
 
-- Sie geben die URL Ihres Jeedoms (intern oder extern) sowie die Zugangskennungen dazu ein und bestätigen mit dem LOGIN-Button
+    - Sie geben die URL Ihres Jeedoms (intern oder extern) sowie die Zugangskennungen dazu ein und bestätigen mit dem LOGIN-Button
 
-- Sie klicken auf QR-Code : ein neuer Bildschirm erscheint; Sie können einen QR-Code vom Mobile-Plugin der Box, die Sie hinzufügen möchten, über die Registerkarte „QR-Code“ des Plugins scannen.
+    - Sie klicken auf QR-Code : ein neuer Bildschirm erscheint; Sie können einen QR-Code vom Mobile-Plugin der Box, die Sie hinzufügen möchten, über die Registerkarte „QR-Code“ des Plugins scannen.
 
-![v2ModalQrApp](./images/v2QRCodeConnect.PNG)
+    ![v2ModalQrApp](./images/v2QRCodeConnect.PNG)
 
-> Registerkarte „Qr-Code“ des Mobile-Plugins
+    > Registerkarte „Qr-Code“ des Mobile-Plugins
 
-> > ![v2ModalPlugin](./images/v2ModalQrCode.png)
+    > > ![v2ModalPlugin](./images/v2ModalQrCode.png)
 
-Nach diesem ersten Schritt sind Sie in der Anwendung registriert: Wenn Sie das Mobile-Plugin haben, haben Sie über das Menü Zugriff auf Benachrichtigungen, QR-Codes und Menüanpassung ....
+    Nach diesem ersten Schritt sind Sie in der Anwendung registriert: Wenn Sie das Mobile-Plugin haben, haben Sie über das Menü Zugriff auf Benachrichtigungen, QR-Codes und Menüanpassung ....
 
-Im Menü haben Sie eine Registerkarte Boxen, die alle auf diesem Marktkonto vorhandenen Boxen zusammenfasst
+    Im Menü haben Sie eine Registerkarte Boxen, die alle auf diesem Marktkonto vorhandenen Boxen zusammenfasst
 
-![v2MenuBoxs](./images/v2Menuboxs.PNG)
+    ![v2MenuBoxs](./images/v2MenuBoxs.PNG)
 
-![v2floutedBoxs](./images/v2floutedboxs.png)
+    ![v2floutedBoxs](./images/v2floutedBoxs.png)
 
-Klicken Sie einfach auf die Box, in der das Mobile-Plugin installiert ist, und identifizieren Sie sich dann, um auf die Box zuzugreifen.
+    Klicken Sie einfach auf die Box, in der das Mobile-Plugin installiert ist, und identifizieren Sie sich dann, um auf die Box zuzugreifen.
 
-Das Feld wird an den Anfang der Liste gestellt, nachdem es seine Authentifizierung validiert hat.
-Sie können dies für mehrere Boxen tun.
+    Das Feld wird an den Anfang der Liste gestellt, nachdem es seine Authentifizierung validiert hat.
+    Sie können dies für mehrere Boxen tun.
 
-Sie können auch unten rechts auf die Schaltfläche + klicken, um auf verschiedene Optionen zuzugreifen
+    Sie können auch unten rechts auf die Schaltfläche + klicken, um auf verschiedene Optionen zuzugreifen
 
-- QR-Code zum Hinzufügen einer Box zur Liste über das Mobile-Plugin,
-- Manuell, um eine Box manuell hinzuzufügen
-- Erkennung Atlas und Luna (wenn Sie mit WLAN verbunden sind, erkennen die Boxen im Netzwerk)
-- Market-Synchronisierung, um konfigurierte Market-Kontoinformationen zu aktualisieren
+    - QR-Code zum Hinzufügen einer Box zur Liste über das Mobile-Plugin,
+    - Manuell, um eine Box manuell hinzuzufügen
+    - Erkennung Atlas und Luna (wenn Sie mit WLAN verbunden sind, erkennen die Boxen im Netzwerk)
+    - Market-Synchronisierung, um konfigurierte Market-Kontoinformationen zu aktualisieren
 
-![v2greenBtnAdd](./images/v2greenBtnAdd.PNG)
+    ![v2greenBtnAdd](./images/v2greenBtnAdd.PNG)
 
-Um auf Funktionen wie Benachrichtigungen, Menüpersonalisierung oder Geolokalisierung zugreifen zu können, müssen Sie zunächst mindestens ein aktuelles Feld ausgewählt haben'
+    Um auf Funktionen wie Benachrichtigungen, Menüpersonalisierung oder Geolokalisierung zugreifen zu können, müssen Sie zunächst mindestens ein aktuelles Feld ausgewählt haben'
 
-![v2ActualBoxFlouted](./images/v2ActualboxFlouted.jpeg)
+    ![v2ActualBoxFlouted](./images/v2ActualBoxFlouted.jpeg)
 
-# So funktioniert Geolokalisierung
+    # So funktioniert Geolokalisierung
 
-Wir fügen eine Geolocation-Zone hinzu, indem wir auf das +-Symbol klicken
+    Wir fügen eine Geolocation-Zone hinzu, indem wir auf das +-Symbol klicken
 
-![v2AddZone](./images/v2AddZone.jpeg)
+    ![v2AddZone](./images/v2AddZone.jpeg)
 
-Wir geben die gesuchte Adresse ein und bestätigen mit der Eingabetaste auf seinem Telefon. Der Cursor positioniert sich dann auf der gewünschten Adresse.
-Anschließend können wir einen Namen hinzufügen und die Zone speichern.
+    Wir geben die gesuchte Adresse ein und bestätigen mit der Eingabetaste auf seinem Telefon. Der Cursor positioniert sich dann auf der gewünschten Adresse.
+    Anschließend können wir einen Namen hinzufügen und die Zone speichern.
 
-Dadurch wird auf Ihrem mobilen Gerät ein neuer Befehl vom Binärtyp erstellt, der den Ein- und Ausgängen der Zone entspricht, wenn die Geolokalisierung auf Ihrem Mobiltelefon aktiviert ist.
+    Dadurch wird auf Ihrem mobilen Gerät ein neuer Befehl vom Binärtyp erstellt, der den Ein- und Ausgängen der Zone entspricht, wenn die Geolokalisierung auf Ihrem Mobiltelefon aktiviert ist.
 
-Wir können auch den Radius der Zone ändern, um die Erkennung der Zone zu erweitern.
+    Wir können auch den Radius der Zone ändern, um die Erkennung der Zone zu erweitern.
 
-![v2ModifyBigRadius](./images/v2ModifyBigRadius.jpeg)
+    ![v2ModifyBigRadius](./images/v2ModifyBigRadius.jpeg)
 
-# FAQ
+    # FAQ
 
-> **Ich habe Probleme mit Benachrichtigungen**
->
-> Dieser Teil wird derzeit in der Beta-Anwendung verbessert und optimiert.
+    > **Ich habe Probleme mit Benachrichtigungen**
+    >
+    > Dieser Teil wird derzeit in der Beta-Anwendung verbessert und optimiert.
 
-> **Ich habe Probleme bei der Anzeige meiner Webansicht**
->
-> Überprüfen Sie auf Ihrem Jeedom in den Einstellungen, ob die mobile Startseite HOME ist.
-
-# Einrichten des Mobile V1-Plugins
-
-Nach der Installation des Plugins müssen Sie es nur noch aktivieren :
-
-![mobile1](../images/mobile1.png)
-
-**Konfiguration**
-
-Um das Plugin zu konfigurieren, müssen Sie die Telefone hinzufügen, die auf Jeedom zugreifen können.
-
-So fügen Sie ein Telefon hinzu : **Plugins** → **Kommunikation** → **App
-Mobile** → **Hinzufügen**
-
-![mobile2](../images/mobile2.png)
-
-Hier sind die einzugebenden Parameter :
-
-- **Name der mobilen Ausrüstung** : Telefonname
-- **Aktivieren** : Aktivieren des Zugriffs für dieses Mobiltelefon
-- **Mobiler Typ** : Auswahl des Telefonbetriebssystems (iOS, Android)
-- **Benutzer** : Benutzer, der diesem Zugriff zugeordnet ist
-
-> **Spitze**
->
-> Die Wahl des Benutzers ist wichtig, da sie die Ausrüstung bestimmt, auf die er gemäß seinen Rechten zugreifen kann.
-
-![mobile3](../images/mobile3.png)
-
-Nach dem Speichern erhalten Sie einen QR-Code, mit dem sich die Anwendung selbst konfigurieren kann.
-
-# Konfiguration der von der App empfangenen Plugins und Befehle
-
-Nach der Initialisierung des Mobile Plugins haben Sie die Möglichkeit, die generischen Arten von Bestellungen, Plugins und Teilen zu ändern.
-
-![mobile10](../images/mobile10.png)
-
-Durch Klicken auf ein Plugin können Sie es autorisieren oder nicht, mit der mobilen Anwendung zu chatten, und jeden der generischen Typen konfigurieren, die seinen Befehlen zugeordnet sind.
-
-![mobile11](../images/mobile11.png)
-
-Durch Klicken auf ein Teil können Sie es autorisieren oder nicht, in der mobilen Anwendung vorhanden zu sein, und jeden der generischen Typen konfigurieren, die seinen Bestellungen zugeordnet sind.
-
-![mobile12](../images/mobile12.png)
-
-# Konfiguration der mobilen App
-
-Sie finden die Anwendungen auf den mobilen Jalousien :
-
-**Android Google Play**
-
-![Google Play FR](../images/Google_Play_FR.png)
-
-**Apple App Store**
-
-![App Store FR](../images/App_Store_FR.png)
-
-## Erster Start der App
-
-Wenn Sie die Mobile-Anwendung zum ersten Mal starten, wird Ihnen ein Lernprogramm angeboten, das Sie bei der Konfiguration unterstützt.
-
-Nachdem Sie Ihre Jeedom-Mobilanwendung heruntergeladen und installiert haben, starten Sie die Anwendung auf Ihrem Smartphone.
-
-Sie gelangen dann zu einem Konfigurations-Tutorial, dem Sie folgen sollten. Einige Schritte wurden bereits durchgeführt.
-
-Sie haben dann die Wahl zwischen manueller oder automatischer Konfiguration per QR-Code. Wenn Sie sich für die Konfiguration per QR-Code entscheiden, flashen Sie einfach den im Mobile App-Plugin vorhandenen QR-Code in das zuvor erstellte Smartphone-Gerät. In diesem Fall stellt die Anwendung automatisch die gesamte Konfiguration Ihres Jeedom wieder her und stellt automatisch eine Verbindung her. Wenn die Verbindung über WLAN mit Ihrem Zuhause verbunden ist, verwendet die Anwendung automatisch die in Ihrem Netzwerk interne Jeedom-Ethernet-Adresse. Wenn Sie mit 4G oder 3G verbunden sind, wird Ihre externe Adresse verwendet, um eine Verbindung zu Ihrem Jeedom herzustellen (z. B. über den Jeedom-DNS-Dienst, wenn Sie diesen verwenden). Wenn Sie sich für eine manuelle Konfiguration entscheiden, müssen Sie in diesem Fall die internen und externen IP-Adressen Ihres Jeedom manuell eingeben. Diese Option ist einer informierten Öffentlichkeit vorbehalten.
-
-Die Anwendung wird synchronisiert und Sie gelangen auf die Startseite (vorangestellt von einem Mini-Präsentationshandbuch)).
-
-Die mobile Jeedom-App ist jetzt betriebsbereit.
-
-## Favoriten
-
-In der Anwendung können Sie Favoriten haben (Verknüpfungen von Befehlen, Plugins, Szenarien).
-
-Hier ist das Verfahren zum Erstellen :
-
-Klicken Sie auf einem der + auf dem Startbildschirm der Anwendung :
-
-![mobile dashboard 1](../images/mobile_dashboard_1.PNG)
-
-Sie gelangen auf die Auswahlseite für den Verknüpfungstyp :
-
-![mobile dashboard 2](../images/mobile_dashboard_2.PNG)
-
-Zum Beispiel werden wir Maßnahmen ergreifen, damit wir Teile / Objekte erhalten :
-
-![mobile dashboard 3](../images/mobile_dashboard_3.PNG)
-
-Wählen Sie dann einfach die gewünschte Aktion als Verknüpfung aus :
-
-![mobile dashboard 4](../images/mobile_dashboard_4.PNG)
-
-Es ist dann möglich, die Farbe dieser zu personalisieren (im Moment werden drei Farben vorgeschlagen) :
-
-![mobile dashboard 5](../images/mobile_dashboard_5.PNG)
-
-Sowie die beiden dazugehörigen Texte :
-
-![mobile dashboard 6](../images/mobile_dashboard_6.PNG)
-![mobile dashboard 7](../images/mobile_dashboard_7.PNG)
-
-Nun haben Sie eine Verknüpfung für Ihren Befehl (in Version 1).1 Es wird erwartet, dass Ein / Aus-Befehle auf derselben Taste angezeigt werden).
-
-![mobile dashboard 8](../images/mobile_dashboard_8.PNG)
-
-# So konfigurieren Sie generische Typen richtig
-
-## Generische Typen im Mobile Plugin
-
-Besser als Worte, hier ist ein Beispiel für die generischen Credits für ein Licht mit all seinen Steuerelementen (siehe auch die Lichttabelle unten) :
-
-![generic type in plugin](../images/generic_type_in_plugin.jpg)
-
-## Anwendungsvorlagentabellen
-
-### Die Lichter
-
-|              Bild              | Typ Gattung                                                                                                                                                                                                                                                   | Dev Plugin Teil                                                                                                        |                                                                                                                           Beschreibung                                                                                                                            |
-| :-----------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| ![LICHT](../images/LIGHT_1.jpg) | „Lichttaste ein“<br/>`Button Off Light`                                                                                                                                                                                                                     | `LIGHT_ON`<br/>`LIGHT_OFF`                                                                                               |                                                                                                   Vorhandensein von zwei Tasten "EIN" und "Aus" keine Statusrückmeldung.                                                                                                   |
-| ![LICHT](../images/LIGHT_2.jpg) | „Lichttaste ein“<br/>`Button Off Light`<br/>`State Light`                                                                                                                                                                                                  | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`                                                                             |                                                                                          Bei vorhandener Statusrückmeldung wechselt die linke Taste zwischen Ein und Aus                                                                                           |
-| ![LICHT](../images/LIGHT_2.jpg) | „Licht-Umschalttaste“<br/>`State Light`                                                                                                                                                                                                                       | `LIGHT_TOGGLE`<br/>`LIGHT_STATE`                                                                                         |                                                                                          Bei vorhandener Statusrückmeldung wechselt die linke Taste zwischen Ein und Aus                                                                                           |
-| ![LICHT](../images/LIGHT_3.jpg) | „Lichttaste ein“<br/>`Button Off Light`<br/>`State Light`<br/>`Light Slider`                                                                                                                                                                             | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`                                                          |                                                                    Bei vorhandener Statusrückmeldung können Sie mit der linken Taste zwischen Ein und Aus wechseln und mit dem Schieberegler die Intensität steuern                                                                    |
-| ![LICHT](../images/LIGHT_4.jpg) | „Lichttaste ein“<br/>`Button Off Light`<br/>`State Light`<br/>`Light Slider`<br/>`Lichtfarbe (info)`<br/>`Lichtfarbe (Aktion)`<br/>„Lichtmodus“ (optional, wird verwendet, um Lichtmodi zu haben, zum Beispiel Regenbogen bei Philips Hue) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Bei vorhandener Statusrückmeldung können Sie mit der linken Taste zwischen Ein und Aus wechseln und mit dem Schieberegler die Intensität steuern. Im Kreis ist die Farbe der Lampe vorhanden. Wenn Sie darauf klicken, können Sie die Farbe ändern und einen Modus aktivieren |
-
-### Die Steckdosen
-
-|               Bild               | Typ Gattung                                                               | Dev Plugin Teil                                                   |                                                        Beschreibung                                                         |
-| :-------------------------------: | :--------------------------------------------------------------------------- | :------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------: |
-| ![ENERGIE](../images/ENERGY_1.jpg) | „Steckdosenknopf ein“<br/>`Button Off Socket`                                     | `ENERGY_ON`<br/>`ENERGY_OFF`                                        |                                Vorhandensein von zwei Tasten "EIN" und "Aus" keine Statusrückmeldung.                                |
-| ![ENERGIE](../images/ENERGY_2.jpg) | „Steckdosenknopf ein“<br/>`Button Off Socket`<br/>`State Taking`                    | `ENERGY_ON`<br/>`ENERGY_OFF`<br/>`ENERGY_STATE`                     |                       Bei vorhandener Statusrückmeldung wechselt die linke Taste zwischen Ein und Aus                        |
-| ![ENERGIE](../images/ENERGY_3.jpg) | „Steckdosenknopf ein“<br/>`Button Off Socket`<br/>`State Taking`<br/>`Slider Socket` | `ENERGY_ON`<br/>`ENERGY_OFF`<br/>`ENERGY_STATE`<br/>`ENERGY_SLIDER` | Bei vorhandener Statusrückmeldung können Sie mit der linken Taste zwischen Ein und Aus wechseln und mit dem Schieberegler die Intensität steuern |
-
-### Die Fensterläden
-
-|              Bild              | Typ Gattung                                                                                                        | Dev Plugin Teil                                                            |                                     Beschreibung                                     |
-| :-----------------------------: | :-------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------- | :---------------------------------------------------------------------------------: |
-| ![KLAPPE](../images/FLAP_1.jpg)   | „Mount-Button-Bereich“<br/>`Down-Button-Bereich`<br/>`Stop Button Pane`<br/>`State pane` (optional))                | `FLAP_UP`<br/>`FLAP_DOWN`<br/>`FLAP_STOP`<br/>`FLAP_STATE` (optional)        |  Vorhandensein von drei Tasten "Auf", "Ab", "Stopp", optionale Statusrückmeldung.  |
-| ![KLAPPE](../images/FLAP_2.jpg)   | „Mount-Button-Bereich“<br/>`Down-Button-Bereich`<br/>`Stop Button Pane`<br/>`State pane`<br/>`Slider Button Pane` | `FLAP_UP`<br/>`FLAP_DOWN`<br/>`FLAP_STOP`<br/>`FLAP_STATE`<br/>`FLAP_SLIDER` | Vorhandensein eines Schiebereglers mit einer Auf / Ab-Taste in Umschalten (mit Statussymbol) |
-
-### Inondation
-
-|              Bild              | Typ Gattung                                                                                 | Dev Plugin Teil                                                                        |                             Beschreibung                              |
-| :-----------------------------: | :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- | :------------------------------------------------------------------: |
-| ![FLUT](../images/FLOOD.jpg)   | `Innondation`<br/>`TEMPERATUR` (optional)<br/>`Luftfeuchtigkeit` (optional)<br/>`SABOTAGE` (optional) | `FLOOD`<br/>`TEMPERATUR` (optional)<br/>`FEUCHTIGKEIT` (optional)<br/>`FEUCHTIGKEIT` (optional) | Ermöglicht es Ihnen, Ihren gesamten Hochwassersensor in einer einzigen Leitung zu haben. |
-
-### Serrure
-
-|             Bild             | Typ Gattung                                                         | Dev Plugin Teil                             |                                  Beschreibung                                  |
-| :---------------------------: | :--------------------------------------------------------------------- | :-------------------------------------------- | :---------------------------------------------------------------------------: |
-| ![SPERREN](../images/LOCK.jpg)   | „Staatssperre“<br/>`Open Button Lock`<br/>`Lock Button Close` | `LOCK_STATE`<br/>`LOCK_OPEN`<br/>`LOCK_CLOSE` | Bei vorhandener Statusrückmeldung wechselt die linke Taste zwischen Ein und Aus |
-
-### Meerjungfrau
-
-|              Bild              | Typ Gattung                                               | Dev Plugin Teil                            |                                  Beschreibung                                  |
-| :-----------------------------: | :----------------------------------------------------------- | :------------------------------------------- | :---------------------------------------------------------------------------: |
-| ![SIRENE](../images/SIREN.jpg)   | „Sirenenstaat“<br/>`Siren Button On`<br/>`Siren Button Off` | `SIREN_STATE`<br/>`SIREN_ON`<br/>`SIREN_OFF` | Bei vorhandener Statusrückmeldung wechselt die linke Taste zwischen Ein und Aus |
-
-### Rauch
-
-|              Bild              | Typ Gattung                       | Dev Plugin Teil                    |                           Beschreibung                            |
-| :-----------------------------: | :----------------------------------- | :----------------------------------- | :--------------------------------------------------------------: |
-| ![RAUCH](../images/SMOKE.jpg)   | „Rauch“<br/>`TEMPERATUR` (optional) | `SMOKE`<br/>`TEMPERATUR` (optional) | Ermöglicht es Ihnen, Ihren kompletten Rauchsensor in einer einzigen Leitung zu haben. |
-
-### Temperatur
-
-|                    Bild                    | Typ Gattung                          | Dev Plugin Teil                       | Beschreibung |
-| :-----------------------------------------: | :-------------------------------------- | :-------------------------------------- | :---------: |
-| ![Temperatur](../images/TEMPERATURE.jpg)   | `TEMPERATUR`<br/>`Luftfeuchtigkeit` (optional) | `TEMPERATURE`<br/>`FEUCHTIGKEIT` (optional) | Siehe Bild. |
-
-### Präsenz
-
-|                 Bild                 | Typ Gattung                                                                                                                              | Dev Plugin Teil                                                                                                                           | Beschreibung |
-| :-----------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------ | :---------: |
-| ![Präsenz](../images/PRESENCE.jpg)   | "PRÄSENZ"<br/>`TEMPERATUR` (optional)<br/>`Helligkeit` (optional)<br/>`Luftfeuchtigkeit` (optional)<br/>`UV` (optional)<br/>`SABOTAGE` (optional) | `PRESENCE`<br/>`TEMPERATUR` (optional)<br/>`BRIGHTNESS` (optional)<br/>`FEUCHTIGKEIT` (optional)<br/>`UV` (optional)<br/>`SABOTAGE` (optional) | Siehe Bild. |
-
-### Ouvrant
-
-|                Bild                | Typ Gattung                                 | Dev Plugin Teil                                       |                              Beschreibung                              |
-| :---------------------------------: | :--------------------------------------------- | :------------------------------------------------------ | :-------------------------------------------------------------------: |
-| ![ÖFFNUNG](../images/OPENING.jpg)   | „Tür/Fenster“<br/>`TEMPERATUR` (optional) | `OPENING / OPENING_WINDOW`<br/>`TEMPERATUR` (optional) | Siehe Bild (d. H. Sie können zwischen Fenster und Tür wählen). |
-
-### Pilotdraht
-
-|                Bild                | Typ Gattung                                                                                                                                      | Dev Plugin Teil                                                      |                                                                          Beschreibung                                                                           |
-| :---------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| ![HEIZUNG](../images/HEATING.jpg)   | „Einschalttaste für Pilotdrahtheizung“<br/>`Taste zum Ausheizen des Pilotkabels AUS`<br/>`Heizungs-Pilotdrahtzustand`<br/>`Button Pilot Wire Heizung` (optional) | `HEATING_ON`<br/>`HEATING_OFF`<br/>`HEATING_STATE`<br/>`HEATING_OTHER` | Mit den Schaltflächen EIN / AUS und Status können Sie die Schaltfläche ganz links in der Vorlage erstellen, und mit der Taste "Pilotdrahtheizung" können Sie Schaltflächen hinzufügen (max. 5)) |
-
-## DIE JOKERS
-
-### Allgemeine Aktion
-
-|               Bild               | Typ Gattung               | Dev Plugin Teil |                                                                            Beschreibung                                                                            |
-| :-------------------------------: | :--------------------------- | :---------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| ![AKTION](../images/ACTION.jpg)   | „Generische Aktion“ | „GENERIC_ACTION“  | Die Schaltfläche hat die Form des Aktionstyps. Standardmäßig ist es ein Umschalter. Wenn es sich um eine Nachricht handelt, haben Sie einen Umschlag, bei einem Schieberegler haben Sie einen Schieberegler usw... |
-
-### Allgemeine Informationen
-
-|             Bild             | Typ Gattung                    | Dev Plugin Teil |                 Beschreibung                 |
-| :---------------------------: | :-------------------------------- | :---------------- | :-----------------------------------------: |
-| ![DIE INFO](../images/INFO.jpg)   | „Allgemeine Informationen“ | „GENERIC_INFO“    | Der Button nimmt die Form der Art der Information an. |
-
-# Troubleshooting
-
-**Ich bin auf Android-Version der App (1.0.1 oder 1,0.0) Ich kann nicht auf meine Teile oder sogar die Konfiguration der App zugreifen.**
-
-Sie hatten ein Popup-Fenster, das Sie vor Bedenken hinsichtlich der Eingabehilfeneinstellungen warnte. Sie müssen daher nur zu den Eingabehilfeneinstellungen Ihres Mobiltelefons gehen und die Anwendungen mit dieser Option deaktivieren. (Ein Fix wird in Kürze in der App veröffentlicht)
-
-**In einer Zeile meiner Module erscheint die Meldung, dass ein generischer Typ fehlt !**
-
-Wenn Sie diese Nachricht lesen, erfahren Sie, welcher generische Typ fehlt, um eine kompatible Vorlage zu erstellen. Wenden Sie es einfach an. Siehe die [doc Kapitel Generischer Typ](https://www.jeedom.com/doc/documentation/plugins/mobile/de_DE/mobile#_configuration_des_plugins_et_commandes_que_reçoit_l_app).
-
-**Ich habe ein Problem mit einem der sogenannten vollintegrierten Plugins (Wetter, Thermostat, Alarm, Kamera)) !**
-
-Zögern Sie nicht, auf Ihr Modul zuzugreifen und erneut auf „Speichern“ zu klicken. Dadurch werden die mit dem Modul verknüpften generischen Typen wieder einbezogen.
-
-**Informationen zur Begrüßung der App können nicht angegeben werden !**
-
-Dies ist normal und wird in Version 1.1 verfügbar sein.
-
-**Ich habe die Anwendung, die viel Speicher auf meinem Telefon beansprucht !**
-
-In Version 1.0 ist ein Fehler aufgetreten.0 und 1,0.1 im Kamerateil. Das Problem wird mit 1.0 nicht wieder auftreten.2. Um den Cache zu löschen, ohne die App zu löschen, gehen Sie einfach in die Konfiguration Ihrer mobilen App und klicken Sie auf „Cache löschen“".
-
-**Ich habe Bedenken hinsichtlich der ersten Synchronisierung in der App oder von SQL im mobilen Plugin !**
-
-Sie müssen generische Typen eingeben und das Plugin zum Senden von Generika autorisieren. Sehen Sie sich das Dokument etwas höher an.
+    > **Ich habe Probleme bei der Anzeige meiner Webansicht**
+    >
+    > Überprüfen Sie auf Ihrem Jeedom in den Einstellungen, ob die mobile Startseite HOME ist.
