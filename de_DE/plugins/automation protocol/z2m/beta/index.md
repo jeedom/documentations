@@ -241,3 +241,11 @@ Dieser Teil ist eher für fortgeschrittene Benutzer gedacht, die bestimmte Befeh
 >**Beim Aktualisieren der Firmware auf Luna ist ein Fehler aufgetreten**
 >
 >Sie müssen den Plugin-Daemon deaktivieren (Plugin -> Plugin-Verwaltung -> Jeezigbee, dann Automatische Verwaltung -> Deaktivieren) und Luna neu starten (Einstellungen -> System -> Neu starten)). Sobald die Box neu gestartet ist, müssen Sie das Firmware-Update erneut starten. Bitte beachten Sie, dass dies bis zu 10 Minuten dauern kann. Vergessen Sie nicht, nach Abschluss des Updates die automatische Daemon-Verwaltung erneut zu aktivieren.
+
+>**Ich erhalte die Fehlermeldung „Start verweigert, weil Konfiguration ungültig ist, folgende Fehler wurden gefunden.“: devices/0xXXXXXXXXXXXXXXXX/homeassistant muss Objekt sein, null"**
+>
+>Es ist ein Fehler in zigbee2mqtt. Sie müssen zur Registerkarte „OS/DB“ der Jeedom-Konfiguration und dann zum Dateieditor gehen. Dort müssen Sie zu „plugins/z2m/data“ gehen und die Datei „configuration.yaml“ öffnen. Suchen Sie in dieser Datei die Zeile „homeassistant“, löschen Sie sie und starten Sie dann den Daemon neu.
+
+>**Ich erhalte die Fehlermeldung „Konfiguration stimmt nicht mit der Adaptersicherung überein.“"**
+>
+>Sie müssen zur Jeedom-Konfiguration, dann zu OS/DB und dann zum Dateieditor gehen. Gehen Sie zu „plugins/z2m/data“ und löschen Sie die Datei „coordinator_backup.json“

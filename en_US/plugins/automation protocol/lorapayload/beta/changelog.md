@@ -34,6 +34,10 @@
 
 - Decoder correction *MClimate Wireless Thermostat*
 
+- Added info commands for *Ewattch Squid Pro Rogowski*
+
+- Added Battery for *NKE Torano*
+
 # 10/30/2024
 
 - Changing the configuration *MClimate Wireless Thermostat* (properties : Manual Target Temperature Update)
