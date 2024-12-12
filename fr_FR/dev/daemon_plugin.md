@@ -2,10 +2,10 @@
 
 ## Introduction
 
-Dans le [tutoriel](/fr_FR/dev/tutorial_plugin) et la [documentation](/fr_FR/dev/plugin_template) vous avez appris comment coder votre premier plugin avec des actions relativement simples déclenchées par l'utilisateur via une commande action ou par une tâche planifiée par le core (les crons).
+Dans le [tutoriel](tutorial_plugin.m) et la [documentation](plugin_template.md) vous avez appris comment coder votre premier plugin avec des actions relativement simples déclenchées par l'utilisateur via une commande action ou par une tâche planifiée par le core (les crons).
 Le plugin est alors capable de ponctuellement aller chercher de l'information (par exemple via requête http) ou de faire toute sortes d'opérations pour autant que cela puisse être codé en PHP.
 
-Il va arriver que vous ayez besoin de plus que cela, quelques exemples sans être exhaustif:
+Il va arriver que vous ayez besoin de plus que cela, quelques exemples sans être exhaustif :
 
 - utiliser des resources systèmes, par exemple clé usb ou autres matériels (bluetooth...)
 - maintenir une connexion avec un système distant (en réseau local ou sur internet mais pas jeedom)
@@ -29,17 +29,17 @@ Structure du répertoire du template:
 
 ![image](images/daemon_struct.png)
 
-### le démon python
+### Le démon python
 
 Dans le plugin template, le répertoire du démon a été nommé `demond`, et le démon en lui même se nomme `demond.py`.
 Ces noms sont arbitraires, libre à vous de les changer.
 La convention est de prendre l'ID du plugin suivi de la lettre ´d´. Ce qui donne par exemple pour le plugin `blea` le répertoire `./resources/blead/` qui contient entre autre le fichier `blead.py`, ce fichier étant le point de départ du démon.
 
-> **TIP**
+> **Conseil**
 >
 > N'hésitez pas à vous inspirer des plugins officiels avec démon pour comprendre les détails, tel que blea, openzwave ou sms.
 
-### le package jeedom pour un démon python
+### Le package jeedom pour un démon python
 
 Jeedom fournit avec le plugin template un package python offrant les classes et méthodes de bases utiles pour la gestion du démon et de la communication entre le démon et le code php de votre plugin.
 Ces classes se trouvent dans le répertoire `./resources/demond/jeedom/jeedom.py` (visible dans la capture ci-dessus).
