@@ -1,4 +1,4 @@
-[<< Core js](/fr_FR/dev/corejs/index)  
+[<< Core js](index.md)  
 ## Setter / Getter des valeurs
 
 ### getJeeValues() / setJeeValues()
@@ -7,7 +7,7 @@
 *NodeList.prototype.getJeeValues*  
 *Element.prototype.setJeeValues*  
 *NodeList.prototype.setJeeValues*  
- 
+
 
 Ces fonctions permettent d'assigner les paramètres enregistrés en DB à des éléments d'une page pour l'affichage, puis de les récupérer pour les sauvegarder en DB.
 
@@ -22,9 +22,9 @@ jeedom.eqLogic.byId({
     error: function(error) {
     },
     success: function(data) {
-        document.getElementById('div_displayEqLogicConfigure').setJeeValues(data, '.eqLogicAttr')
+        document.getElementById('div_displayEqLogicConfigure').setJeeValues(data, '.eqLogicAttr');
     }
-})
+});
 {% endraw %}
 ````
 
@@ -33,7 +33,7 @@ jeedom.eqLogic.byId({
 
 ````js
 {% raw %}
-var eqLogic = document.getElementById('div_displayEqLogicConfigure').getJeeValues('.eqLogicAttr')[0]
+var eqLogic = document.getElementById('div_displayEqLogicConfigure').getJeeValues('.eqLogicAttr')[0];
 {% endraw %}
 ````
 
@@ -43,7 +43,7 @@ var eqLogic = document.getElementById('div_displayEqLogicConfigure').getJeeValue
 ### jeeValue()
 
 *Element.prototype.jeeValue*  
-*NodeList.prototype.jeeValue* 
+*NodeList.prototype.jeeValue*
 
 La fonction `jeeValue()` est à la fois un setter et un getter.
 
@@ -57,14 +57,14 @@ Quelques exemples :
 
 ````js
 {% raw %}
-var value = document.getElementById('myInput').value
-var value = document.getElementById('myInputCheckbox').checked
-var value = document.getElementById('myDiv').innerHTML
+var value = document.getElementById('myInput').value;
+var value = document.getElementById('myInputCheckbox').checked;
+var value = document.getElementById('myDiv').innerHTML;
 //...
 
-document.getElementById('myInput').value = 4.4
-document.getElementById('myInputCheckbox').checked = true
-document.getElementById('myDiv').innerHTML = 'RTFM'
+document.getElementById('myInput').value = 4.4;
+document.getElementById('myInputCheckbox').checked = true;
+document.getElementById('myDiv').innerHTML = 'RTFM';
 //...
 
 {% endraw %}
@@ -74,9 +74,9 @@ Ou plus simplement :
 
 ````js
 {% raw %}
-var value = document.getElementById('myElement').jeeValue()
+var value = document.getElementById('myElement').jeeValue();
 
-document.getElementById('myElement').jeeValue(4.4)
+document.getElementById('myElement').jeeValue(4.4);
 //...
 {% endraw %}
 ````

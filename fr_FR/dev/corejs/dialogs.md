@@ -5,7 +5,7 @@ La gestion des Boites de dialogue de Jeedom repose entièrement sur la lib inter
 
 ### jeeDialog.alert()
 
-Affiche une simple alerter, sans option.
+Affiche une simple alerte, sans option.
 
 ````js
 {% raw %}
@@ -106,16 +106,16 @@ jeeDialog.prompt({
     pattern: String, //Validation pattern. Default pattern if inputType 'time' : '[0-9]{4}-[0-9]{2}-[0-9]{2}'
     backdrop: Boolan, //Default: true
     buttons: {},
-    onShown: function(dialog //dialog HTMLelement) {
-        console.log(dialog, 'shown')
-    }),
+    onShown: function(dialog) { //dialog HTMLelement
+        console.log(dialog, 'shown');
+    },
     callback: function(result) { //@required
-        console.log('result:', result)
+        console.log('result:', result);
     },
     beforeClose: function() {
-        console.log('About to close!')
+        console.log('About to close!');
     },
-})
+});
 {% endraw %}
 ````
 
@@ -143,7 +143,7 @@ jeedomUtils.showAlert({
     emptyBefore: false, //Remove all other notifications
     timeOut: Number //ms, setting in Configuration / Interface, forced to 0 if level 'danger',
     attachTo: String / HTMLelement, //If String, a valid querySelector
-})
+});
 {% endraw %}
 ````
 
@@ -160,7 +160,7 @@ jeeDialog.dialog({
     id: 'md_cmdHistory',
     title: '{{Historique}}',
     contentUrl: 'index.php?v=d&modal=cmd.history&id=' + cmdIds
-})
+});
 {% endraw %}
 ````
 - Options
@@ -183,7 +183,7 @@ jeeDialog.dialog({
             className: String,
             callback: {
                 click: function(event) {
-                    console.log('Clicked!', event)
+                    console.log('Clicked!', event);
                 }
             }
         },
@@ -192,15 +192,15 @@ jeeDialog.dialog({
     setContent: true,
     setFooter: false,
     callback: function() {
-        console.log('My dialog now exist!')
+        console.log('My dialog now exist!');
     },
     onMove: function(event) {
-        console.log(event.target, 'is moving')
+        console.log(event.target, 'is moving');
     },
     onResize: function(event) {
-        console.log('Resizing', event)
+        console.log('Resizing', event);
     },
-})
+});
 {% endraw %}
 ````
 
@@ -208,12 +208,12 @@ jeeDialog.dialog({
 
 ````js
 {% raw %}
-var dialogOptions = jjeeDialog.get('queryselectorstring', 'options')
-var dialogElement = jeeDialog.get('queryselectorstring', 'dialog')
-var dialogTitleElement = jeeDialog.get('queryselectorstring', 'title')
-var dialogContentElement = jeeDialog.get('queryselectorstring', 'content')
-var dialogFooterElement = jeeDialog.get('queryselectorstring', 'footer')
+var dialogOptions = jjeeDialog.get('queryselectorstring', 'options');
+var dialogElement = jeeDialog.get('queryselectorstring', 'dialog');
+var dialogTitleElement = jeeDialog.get('queryselectorstring', 'title');
+var dialogContentElement = jeeDialog.get('queryselectorstring', 'content');
+var dialogFooterElement = jeeDialog.get('queryselectorstring', 'footer');
 
-jeeDialog.get(dialogElement).destroy()
+jeeDialog.get(dialogElement).destroy();
 {% endraw %}
 ````
