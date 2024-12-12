@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 12/08/2024
+
+- Adicionada a capacidade de configurar o tempo limite da consulta
+
 # 29/11/2024
 
 - Adicionado log no modo DEBUG durante tentativas de ping

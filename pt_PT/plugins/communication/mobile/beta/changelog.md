@@ -4,25 +4,39 @@
 >
 > Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-# 20/08/2024
-Movendo informações de notificação para a guia “Celular”"
+# xx/08/2024
 
+> **Aplicativo V1**
+>
+> Observe que a partir desta versão o appV1 não é mais compatível.
+> Será sempre possível aceder ao seu equipamento, para eventualmente substituir os seus comandos de geolocalização e notificação.
+
+- Excluindo arquivos AppV1.
+- Limpeza de informações armazenadas no banco de dados (config).
+
+# 20/08/2024
+
+- Movendo informações de notificação para a guia “Celular”"
 
 # 08/04/2024
-Levando em consideração a retenção de notificações para exclusão de imagens
+
+- Levando em consideração a retenção de notificações para exclusão de imagens
 
 
 # 22/07/2024
-Tendo em conta a retenção de notificações
-Destino SDK 34 para Android
+
+- Tendo em conta a retenção de notificações
+- Destino SDK 34 para Android
 
 # 28/05/2024
-Modificação de geolocalização para próxima versão do aplicativo
-Notificações de armazenamento no plugin
-Novas APIs para o aplicativo
+
+- Modificação de geolocalização para próxima versão do aplicativo
+- Notificações de armazenamento no plugin
+- Novas APIs para o aplicativo
 
 # 05/04/2024
-Compatível apenas com o 4.4 núcleos ou superior.
+
+- Compatível apenas com o 4.4 núcleos ou superior.
 
 # 15/12/2023
 
@@ -59,11 +73,11 @@ Compatível apenas com o 4.4 núcleos ou superior.
 - FUTURA INTEGRAÇÃO APPV2 ALPHA EM PLUGIN MÓVEL
 - Nova Interface Futuro AppV2
 - Menu Personalizado Modal Futuro AppV2
-- Modal QrCode Future AppV2
+- Código QR Modal Futuro AppV2
 
 # 13/12/2021
 
-- Modo offline para QrCode (criação de QrCode sem internet.).
+- Modo offline para o QR Code (criação do QR Code sem internet).
 - Compatibilidade 4.2 Jeedom Core
 
 # 11/10/2021
@@ -88,7 +102,7 @@ Compatível apenas com o 4.4 núcleos ou superior.
 
 # 15/04/2020
 
-- Adição de pedidos para cada celular.
+- Comandos adicionados para cada celular.
 
 # 31/03/2020
 
@@ -96,12 +110,12 @@ Compatível apenas com o 4.4 núcleos ou superior.
 
 # 19/02/2020
 
--corrigir http.linha de erro 39 se o telefone não estiver autenticado na primeira conexão.
+- Corrigir http.linha de erro 39 se o telefone não for autenticado na primeira conexão.
 
 # v1.3.0
 
 - ASK notificação
 - Histórico de notificações
 - Controle deslizante com porcentagem
-- grande mudança no tempo
-- remoção do push para atualizar
+- Mudando o tempo
+- Remoção do push para atualizar

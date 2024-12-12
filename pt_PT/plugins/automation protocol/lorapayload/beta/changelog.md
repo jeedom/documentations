@@ -32,6 +32,12 @@
 
 - Alterando a configuração *Ewattch Lula Pro Rogowski*
 
+- Correção do decodificador *Termostato sem fio MClimate*
+
+- Adicionados comandos de informações para *Ewattch Lula Pro Rogowski*
+
+- Bateria adicionada para *NKE Torano*
+
 # 30/10/2024
 
 - Alterando a configuração *Termostato sem fio MClimate* (propriedades : Atualização manual da temperatura alvo)

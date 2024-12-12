@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 12.08.2024
+
+- Es wurde die Möglichkeit hinzugefügt, Abfrage-Timeouts zu konfigurieren
+
 # 29.11.2024
 
 - Protokollierung im DEBUG-Modus bei Ping-Versuchen hinzugefügt

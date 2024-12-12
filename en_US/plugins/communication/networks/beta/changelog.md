@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 08/12/2024
+
+- Added ability to configure query timeout
+
 # 11/29/2024
 
 - Added DEBUG mode log when trying to ping

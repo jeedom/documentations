@@ -32,6 +32,12 @@
 
 - Ändern der Konfiguration *Ewattch Squid Pro Rogowski*
 
+- Decoder-Korrektur *Drahtloser MClimate-Thermostat*
+
+- Info-Befehle für hinzugefügt *Ewattch Squid Pro Rogowski*
+
+- Batterie für hinzugefügt *NKE Torano*
+
 # 30.10.2024
 
 - Ändern der Konfiguration *Drahtloser MClimate-Thermostat* (Eigenschaften : Manuelle Aktualisierung der Zieltemperatur)

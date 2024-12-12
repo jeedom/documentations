@@ -23,6 +23,7 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 - **MAC-Adresse (wol)** : MAC-Adresse für Wake-on-LAN,
 - **Broadcast IP (wol)** : Netzwerk-Broadcast-IP-Adresse zum Senden von Wake-on-LAN,
 - **Ping-Methode** : Wahl der Ping-Methode : *IP* (normal), *ARP* (bevorzugt für Smartphones und Peripheriegeräte, die einschlafen), *Hafen* (um zu testen, ob ein Port geöffnet ist)
+- **Time-out**: Timeout einer Anfrage, in Sekunden. Bitte beachten Sie, dass dies nicht bedeutet, dass die Anfrage unbedingt auf das Ende des Timeouts wartet. Wenn vor dem Timeout eine negative Antwort eintrifft, bleibt sie eine gültige Antwort.
 - **Maximale Versuche im Fehlerfall**: Maximale Anzahl zwischen 1 und 10 Versuchen im Fehlerfall. Bei Erfolg stoppt das Plugin sofort.
 - **TTL** : Nur wenn Methode *IP*. Time-to-live, les valeurs peuvent etre :
   - 0 : même hote

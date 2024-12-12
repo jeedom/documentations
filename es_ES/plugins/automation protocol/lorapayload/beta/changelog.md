@@ -32,6 +32,12 @@
 
 - Cambiando la configuración *Ewattch Calamar Pro Rogowski*
 
+- Corrección del decodificador *Termostato inalámbrico MClimate*
+
+- Se agregaron comandos de información para *Ewattch Calamar Pro Rogowski*
+
+- Batería agregada para *NKE Torano*
+
 # 30/10/2024
 
 - Cambiando la configuración *Termostato inalámbrico MClimate* (propiedades : Actualización manual de la temperatura objetivo)

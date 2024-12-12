@@ -23,6 +23,7 @@ Aquí encontrarás toda la configuración de tu equipo :
 - **Dirección MAC (wol)** : Dirección MAC para wake-on-lan,
 - **Broadcast IP (wol)** : Dirección IP de transmisión de red para enviar wake-on-lan,
 - **Método de ping** : Elección del método de ping : *IP* (normal), *ARP* (preferido para teléfonos inteligentes y periféricos que se quedan dormidos), *Puerto* (para probar si un puerto está abierto)
+- **Se acabó el tiempo**: Tiempo de espera de una solicitud, en segundos. Tenga en cuenta que esto no significa que la solicitud necesariamente esperará hasta el final del tiempo de espera; si llega una respuesta negativa antes del tiempo de espera, sigue siendo una respuesta válida.
 - **Intentos máximos en caso de fallo**: Número máximo entre 1 y 10 de intentos en caso de fallo. Si tiene éxito, el complemento se detiene inmediatamente.
 - **TTL** : Sólo si el método *IP*. Time-to-live, les valeurs peuvent etre :
   - 0 : même hote
