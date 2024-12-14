@@ -16,10 +16,10 @@
 	"hasDependency": false,
 	"hasOwnDeamon": false,
 	"maxDependancyInstallTime": 0,
-	"changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/template\/beta\/changelog",
-	"changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/template\/changelog",
-	"documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/template\/beta",
-	"documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/template",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/ocea\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/ocea\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/ocea\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/ocea\/beta",
 	"link": {
 		"forum": "Lien vers le forum",
 		"video": "Lien vers une video"
