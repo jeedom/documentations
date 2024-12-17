@@ -241,3 +241,11 @@ This part is more for advanced users who would like to add specific commands. Ev
 >**I have an error when updating firmware on Luna**
 >
 >You must deactivate the plugin daemon (Plugin -> Plugin management -> Jeezigbee then Automatic management -> deactivate), restart the luna (Settings -> System -> Restart). Once the box has restarted, you must restart the firmware update. Please note this may take up to 10 minutes. Don't forget once the update is done to reactivate automatic daemon management.
+
+>**I get the error "Refusing to start because configuration is not valid, found the following errors: devices/0xXXXXXXXXXXXXXXXX/homeassistant must be object,null"**
+>
+>This is a bug in zigbee2mqtt. You have to go to the jeedom configuration tab os/db then file editor. There you have to go to plugins/z2m/data and open the configuration.yaml file. In this file search for the homeassistant line and delete it then restart the daemon.
+
+>**I get the error "Configuration is not consistent with adapter backup"**
+>
+>You have to go to the Jeedom configuration then OS/DB then file editor. Then go to plugins/z2m/data and delete the coordinator_backup.json file
