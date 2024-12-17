@@ -4,6 +4,15 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 16/12/2024
+
+- Mise à jour de la documentation
+- Le bouton de mise à jour du firmware est masqué si vous etes en mode distant
+- Amélioration du démarrage du demon
+- Par defaut le plugin est en mode local (au lieu d'etre en attente de configuration)
+- La version de zigbee2mqtt est par défaut la 1.41 (temporaire le temps de la sortie de la 2.0)
+- Suppression du bouton de mise à jour du firmware sur les Luna (temporaire)
+
 # 27/09/2024
 
 - Changement des versions minimum, core 4.4 et OS Debian 11 minimum

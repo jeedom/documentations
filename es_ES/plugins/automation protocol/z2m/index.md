@@ -241,3 +241,11 @@ Esta parte es más para usuarios avanzados que desean agregar comandos específi
 >**Tengo error al actualizar firmware en Luna**
 >
 >Debe desactivar el demonio del complemento (Complemento -> Administración de complementos -> Jeezigbee luego Administración automática -> desactivar), reiniciar la luna (Configuración -> Sistema -> Reiniciar). Una vez reiniciada la caja deberás reiniciar la actualización del firmware. Tenga en cuenta que esto puede tardar hasta 10 minutos. No olvides una vez realizada la actualización reactivar la gestión automática de demonios.
+
+>**Recibo el error "Me niego a iniciar porque la configuración no es válida, encontré los siguientes errores: devices/0xXXXXXXXXXXXXXXXXX/homeassistant debe ser objeto, nulo"**
+>
+>Es un error en zigbee2mqtt. Tienes que ir a la pestaña de configuración jeedom os/db y luego al editor de archivos. Allí tienes que ir a plugins/z2m/data y abrir el archivo configuración.yaml. En este archivo, busque la línea de Homeassistant, elimínela y luego reinicie el demonio.
+
+>**Recibo el error "La configuración no es consistente con la copia de seguridad del adaptador"**
+>
+>Tienes que ir a la configuración de Jeedom, luego a OS/DB y luego al editor de archivos. Esnuite vaya a plugins/z2m/data y elimine el archivo coordinador_backup.json

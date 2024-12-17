@@ -4,6 +4,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 27/09/2024
+
+- Mudança de versões mínimas, core 4.4 e SO Debian 11 no mínimo
+
 # 24/09/2024
 
 - Adicionado um link na página do equipamento que se refere à página do equipamento zigbee2mqtt para obter mais informações

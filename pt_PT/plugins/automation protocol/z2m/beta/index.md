@@ -179,6 +179,34 @@ Esta parte é mais para usuários avançados que gostariam de adicionar comandos
 >
 > Para comandos do tipo ação você pode usar `tags#slider#`,`#message#`,`#title#`ou`#select#` dependendo do subtipo do comando para passar um parâmetro
 
+# Chave de flash Sonoff E
+
+## Site automático 
+
+Neste site com o Chrome (o Edge também deve funcionar), você pode conectar sua chave USB ao PC e atualizar a chave automaticamente com o firmware mais recente :
+
+[Flasher de Firmware Silabs](https://darkxst.github.io/silabs-firmware-builder/)
+
+## Modo de linha de comando com escolha de firmware
+
+Este método permite que você atualize a chave no Linux com o firmware de sua escolha :
+
+
+
+```
+apt instalar -y python3-pip python3.11-venv
+python3 -m venvflash
+flash/bin/pip3 instalar universal-silabs-pisca-pisca
+CD flash/
+bin/universal-silabs-flasher --device /dev/ttyUSB0 --bootloader-reset sonoff probe
+bin/universal-silabs-flasher --device /dev/ttyUSB0 --bootloader-reset sonoff flash --firmware ../ncp-uart-sw_EZNet7.4.3_V1.0.0.gbl
+bin/universal-silabs-flasher --device /dev/ttyUSB0 --bootloader-reset sonoff probe
+```
+
+Lista de [firmware](https://github.com/itead/Sonoff_Zigbee_Dongle_Firmware/tree/master/Dongle-E). 
+
+Tenha cuidado para colocar o nome de arquivo gbl correto ao piscar.
+
 # FAQ
 
 [Link](https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html) para as perguntas frequentes do Zigbee2mqtt

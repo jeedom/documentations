@@ -4,6 +4,15 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 16.12.2024
+
+- Aktualisierung der Dokumentation
+- Die Schaltfläche zur Firmware-Aktualisierung ist ausgeblendet, wenn Sie sich im Remote-Modus befinden
+- Verbesserter Daemon-Start
+- Standardmäßig befindet sich das Plugin im lokalen Modus (anstatt auf die Konfiguration zu warten))
+- Die Version von zigbee2mqtt ist standardmäßig 1.41 (vorübergehend bis zur Veröffentlichung von 2.0)
+- Firmware-Update-Schaltfläche auf Luna entfernt (vorübergehend))
+
 # 27.09.2024
 
 - Änderung der Mindestversionen, Core 4.4 und OS Debian 11 mindestens
