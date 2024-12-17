@@ -1,18 +1,14 @@
 # Comment faire la documentation d'un plugin
 
-## Introduction
-
-Nous allons voir dans cette documentation comment faire la documentation de votre plugin.
-
 ## Principe
 
-Le principe est très simple, la documentation du plugin doit être un simple lien web à indiquer dans votre fichier info.json (voir le détail [ici](https://doc.jeedom.com/fr_FR/dev/structure_info_json) ) dans le champ documentation.
+Le principe est très simple : la documentation du plugin doit être un simple lien web à indiquer dans votre fichier info.json (voir le détail [ici](https://doc.jeedom.com/fr_FR/dev/structure_info_json) ) dans le champ documentation.
 
 A noter que vous avez aussi un champ changelog qui doit fonctionner de la même manière que le champ documentation.
 
 ## Comment faire ?
 
-Comme vu plus haut, vous devez juste indiquer dans le fichier info.json le lien http(s) vers votre documentation, vous êtes donc libre sur la présentation, l'hébergeur ou même le mode :
+Comme vu plus haut, vous devez juste indiquer dans le fichier info.json le lien http(s) vers votre documentation, vous êtes libre de la présentation, de l'hébergeur ou même du mode :
 
 - un blog
 - un simple serveur web
@@ -26,13 +22,13 @@ Le plus simple pour votre documentation est d'utiliser le système de page de gi
 
 Github support asciidoc et markedown (md) pour les pages, nous ne verrons ici que le markdown.
 
-On ne va pas vous décrire la syntaxe complète du markdown, d'autres sites le font déja très bien dont [celui-ci](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+Nous n'allons pas vous décrire la syntaxe complète du markdown, d'autres sites le font déja très bien dont [celui-ci](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ### Emplacement
 
-Nous vous recommandons dans votre plugin (hébergé sur github) de faire un dossier et d'y copier les fichiers et répertoires du dossier /docs dans le plugin template (voir [ici](https://doc.jeedom.com/fr_FR/dev/plugin_template) )
+Dans votre plugin (hébergé sur github), nous vous recommandons de faire un dossier et d'y copier les fichiers et répertoires du dossier /docs dans le plugin template (voir [ici](plugin_template.md) )
 
-Une fois cela fait, vous allez avoir dans le dossier /docs un dossier fr_FR (le seul à modifier). Dans ce dossier, nous vous conseillons de faire 2 fichiers :
+Une fois cela fait, vous allez avoir un dossier fr_FR (le seul à modifier) dans le dossier /docs. Dans ce dossier, nous vous conseillons de faire 2 fichiers :
 
 - ``changelog.md`` => votre changelog
 - ``index.md`` => votre documentation
