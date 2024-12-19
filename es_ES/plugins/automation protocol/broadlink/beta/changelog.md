@@ -4,6 +4,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 18/12/2024
+
+- Reparar una pérdida de memoria en el demonio
+
 # 25/11/2024
 
 - Solucionar un problema al instalar dependencias que podrían ocurrir en ciertas instalaciones

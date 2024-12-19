@@ -783,9 +783,9 @@
         " Market*": " Market*"
     },
     "plugins_contributor\/monitoring\/index.md": {
-        "Unifi Access & Unifi VOIP": "Unifi Access & Unifi VOIP",
-        "Unifi Network": "Unifi Network",
-        "Unifi Network - Connexion à un controleur Unifi Network": "Unifi Network - Connecting to a Unifi Network Controller",
+        "UniFi Protect & UniFi Access & UniFi Talk & UniFi Connect": "UniFi Protect & UniFi Access & UniFi Talk & UniFi Connect",
+        "UniFi Network": "Unifi Network",
+        "UniFi Network - Connexion à un controleur UniFi Network": "Unifi Network - Connecting to a Unifi Network Controller",
         "Solax Cloud": "Solax Cloud",
         "Plugin permettant de récupérer les infos des onduleurs Solax via Solax Cloud": "Plugin to retrieve information from Solax inverters via Solax Cloud",
         "Plugin pour contrôler sfr\/neuf box": "Plugin to control sfr\/neuf box",

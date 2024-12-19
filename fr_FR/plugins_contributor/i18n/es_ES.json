@@ -783,9 +783,9 @@
         " Market*": " Market*"
     },
     "plugins_contributor\/monitoring\/index.md": {
-        "Unifi Access & Unifi VOIP": "Acceso Unifi y VOIP Unifi",
-        "Unifi Network": "Red Unifi",
-        "Unifi Network - Connexion à un controleur Unifi Network": "Unifi Network - Conexión a un controlador de red Unifi",
+        "UniFi Protect & UniFi Access & UniFi Talk & UniFi Connect": "UniFi Protect, UniFi Access, UniFi Talk y UniFi Connect",
+        "UniFi Network": "Red Unifi",
+        "UniFi Network - Connexion à un controleur UniFi Network": "Unifi Network - Conexión a un controlador de red Unifi",
         "Solax Cloud": "Nube Solax",
         "Plugin permettant de récupérer les infos des onduleurs Solax via Solax Cloud": "Complemento para recuperar información de inversores Solax a través de Solax Cloud",
         "Plugin pour contrôler sfr\/neuf box": "Complemento para controlar la caja sfr\/neuf",

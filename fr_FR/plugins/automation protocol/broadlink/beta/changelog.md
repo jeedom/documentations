@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 18/12/2024
+
+- Fix une fuite de mémoire sur le démon
+
 # 25/11/2024
 
 - Fix un soucis d'installation de dépendances qui pouvait se produire sur certaines installations

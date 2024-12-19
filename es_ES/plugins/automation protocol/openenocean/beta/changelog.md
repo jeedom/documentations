@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 18/12/2024
+
+- Correcciones menores
+
 # 23/10/2024
 
 - Solución de compatibilidad con Debian 12
