@@ -369,9 +369,9 @@
         "Permet un fonctionnement 'Cloudless' et des retours d'état immédiats": "Permet un fonctionnement 'Cloudless' et des retours d'état immédiats"
     },
     "plugins_contributor\/monitoring\/index.md": {
-        "Unifi Access & Unifi VOIP": "Unifi Access & Unifi VOIP",
-        "Unifi Network": "Unifi Network",
-        "Unifi Network - Connexion à un controleur Unifi Network": "Unifi Network - Connexion à un controleur Unifi Network",
+        "UniFi Protect & UniFi Access & UniFi Talk & UniFi Connect": "UniFi Protect & UniFi Access & UniFi Talk & UniFi Connect",
+        "UniFi Network": "UniFi Network",
+        "UniFi Network - Connexion à un controleur UniFi Network": "UniFi Network - Connexion à un controleur UniFi Network",
         "Solax Cloud": "Solax Cloud",
         "Plugin permettant de récupérer les infos des onduleurs Solax via Solax Cloud": "Plugin permettant de récupérer les infos des onduleurs Solax via Solax Cloud",
         "sfrBox": "sfrBox",
