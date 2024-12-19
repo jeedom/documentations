@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 12/18/2024
+
+- Minor fixes
+
 # 10/23/2024
 
 - Fix Debian 12 compatibility

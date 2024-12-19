@@ -4,6 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 18.12.2024
+
+- Beheben Sie einen Speicherverlust im Daemon
+
 # 25.11.2024
 
 - Behebung eines Problems bei der Installation von Abhängigkeiten, das bei bestimmten Installationen auftreten konnte
