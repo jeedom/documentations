@@ -27,7 +27,7 @@ cp -R core-master/.[^.]* /var/www/html
 
 ## Mise à jour
 
-Toujours en SSH:
+Toujours en SSH :
 
 ````bash
 su -
