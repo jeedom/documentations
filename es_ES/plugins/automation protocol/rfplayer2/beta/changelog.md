@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Reparar una pérdida de memoria en el demonio
+- Se requiere Debian 11
+- Jeedom v4.4 requeridos
+
 - Mejor gestión del nivel de registro si no está activado (el demonio estará en error de registro))
 
 # 25/01/2023
@@ -51,6 +55,7 @@ Adición del actuador Edisio
 Añadir marco Edisio
 
 # 18/10/2018
+
 Cambiar el cálculo de la batería en Edisio
 Cambiar la gestión de identificadores
 Gestión de caracteres especiales para enviar el nombre de loro, el rfp1000 no le gusta non ascii

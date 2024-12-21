@@ -38,6 +38,8 @@
 
 - Ajout de la Batterie pour *NKE Torano*
 
+- Ajout de la configuration *Thermokon 835633 - NOVOS 3 Module de commande d'ambiance température, humidité relative, CO2*
+
 # 30/10/2024
 
 - Modification de la configuration *MClimate Wireless Thermostat* (propriétés : Manual Target Temperature Update)

@@ -38,6 +38,8 @@
 
 - Batterie für hinzugefügt *NKE Torano*
 
+- Konfiguration hinzufügen *Thermokon 835633 - NOVOS 3 Raumsteuermodul Temperatur, relative Luftfeuchtigkeit, CO2*
+
 # 30.10.2024
 
 - Ändern der Konfiguration *Drahtloser MClimate-Thermostat* (Eigenschaften : Manuelle Aktualisierung der Zieltemperatur)

@@ -4,17 +4,14 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# 18/12/2024
+# 20/12/2024
 
 - Reparar una pérdida de memoria en el demonio
+- Se requiere Debian 11
 
 # 25/11/2024
 
 - Solucionar un problema al instalar dependencias que podrían ocurrir en ciertas instalaciones
-
-# 09/05/2024
-
-- Se agregó un reinicio del demonio todas las noches para evitar problemas de memoria
 
 # 16/08/2024
 

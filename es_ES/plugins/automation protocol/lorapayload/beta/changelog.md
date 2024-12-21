@@ -38,6 +38,8 @@
 
 - Batería agregada para *NKE Torano*
 
+- Agregar configuración *Thermokon 835633 - NOVOS 3 Módulo de control de ambiente temperatura, humedad relativa, CO2*
+
 # 30/10/2024
 
 - Cambiando la configuración *Termostato inalámbrico MClimate* (propiedades : Actualización manual de la temperatura objetivo)
