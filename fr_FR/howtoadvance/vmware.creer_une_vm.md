@@ -19,7 +19,7 @@ Allez sur IP\_ESXI/ui avec votre navigateur internet, vous devez avoir :
 
 > **Note**
 >
-> Si vous n’avez rien je vous conseille de faire l’installation de l’interface web, toutes les informations [ici](https://doc.jeedom.com/fr_FR/howtoadvance/vmware.trucs_et_astuces)
+> Si vous n’avez rien je vous conseille de faire l’installation de l’interface web, toutes les informations [ici](vmware.trucs_et_astuces)
 
 Entrez vos identifiants de connexion à l’ESXI :
 
@@ -127,19 +127,19 @@ Votre machine va se lancer et vous allez pouvoir faire l’installation de votre
 >
 > Un fois votre machine installée il faut ABSOLUMENT installer les VMware tools (ça permet à VMware d’avoir des informations sur votre VM et d’éteindre celle-ci proprement). Sous debian il suffit de faire "sudo apt-get -y install open-vm-tools".
 
-Pour la suite de l’installation je vous invite à lire ce [tutoriel](https://doc.jeedom.com/fr_FR/howtoadvance/debian.installation)
+Pour la suite de l’installation je vous invite à lire ce [tutoriel](debian.installation)
 
 # Monter les péripheriques USB dans la VM
 
 > **Note**
 >
-> Si vous n’avez pas les options ci-dessous c’est qu’il faut mettre à jour l’ESXi Embedded Host Client , toutes les informations [ici](https://doc.jeedom.com/fr_FR/howto/doc-howto-vmware.trucs_et_astuces.html)
+> Si vous n’avez pas les options ci-dessous c’est qu’il faut mettre à jour l’ESXi Embedded Host Client , toutes les informations [ici](../howto/doc-howto-vmware.trucs_et_astuces.html)
 
 C’est un besoin assez rare, mais j’ai dû m’en servir pour Jeedom, en effet j’ai sur mon ESXi les clefs Zwave, RFXcom, edisio, enOcean et GSM de branchées et il me fallait les relier à ma VM Jeedom pour pouvoir m’en servir.
 
 > **Note**
 >
-> Pour Zwave, RFXcom, edisio et enOcean il n’y a aucun soucis, pour les clefs GSM il vous faut suivre ce [tutoriel](https://doc.jeedom.com/fr_FR/howtoadvance/gsm.huawei_mode_modem) avant pour forcer la clef en mode modem seulement sinon celle-ci n’est pas vue correctement sur l’ESXi.
+> Pour Zwave, RFXcom, edisio et enOcean il n’y a aucun soucis, pour les clefs GSM il vous faut suivre ce [tutoriel](gsm.huawei_mode_modem) avant pour forcer la clef en mode modem seulement sinon celle-ci n’est pas vue correctement sur l’ESXi.
 
 Allez sur votre VM puis faites "Modifier les paramètres" :
 

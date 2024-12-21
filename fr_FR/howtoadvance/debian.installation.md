@@ -24,7 +24,7 @@ Il ne vous reste plus qu’à cliquer sur démarrer, puis mettre la clef USB sur
 
 ## Sur une VM
 
-La manipulation est assez simple, vous créez une nouvelle machine virtuelle, vous branchez, mettez un lecteur CD virtuel dessus qui pointe vers l’iso (pensez bien à le connecter) et vous lancez la machine. Voir [ici](https://doc.jeedom.com/fr_FR/howto/doc-howto-vmware.creer_une_vm.html) pour plus de détails.
+La manipulation est assez simple, vous créez une nouvelle machine virtuelle, vous branchez, mettez un lecteur CD virtuel dessus qui pointe vers l’iso (pensez bien à le connecter) et vous lancez la machine. Voir [ici](../howto/doc-howto-vmware.creer_une_vm.html) pour plus de détails.
 
 # Installation
 
@@ -150,4 +150,4 @@ Les Open VMware Tools installent les drivers spécifiques au système d’exploi
 
 ``sudo apt-get install -y open-vm-tools``
 
-Il ne vous reste plus qu’à installer Jeedom en suivant [ceci](https://doc.jeedom.com/fr_FR/installation/cli)
+Il ne vous reste plus qu’à installer Jeedom en suivant [ceci](../installation/cli)

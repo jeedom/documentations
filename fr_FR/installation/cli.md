@@ -4,10 +4,10 @@
 
 Pour une installation automatique merci de suivre la documentation correspondant à votre type de système : 
 
-- Sur une [VM](https://doc.jeedom.com/fr_FR/installation/vm)
-- Sur du [bare metal (type Intel Nuc)](https://doc.jeedom.com/fr_FR/installation/baremetal)
+- Sur une [VM](vm)
+- Sur du [bare metal (type Intel Nuc)](baremetal)
 
-# Installation manuel
+# Installation manuelle
 
 Vous trouverez ici la documentation pour installer Jeedom sur Debian
 
@@ -45,13 +45,17 @@ Il vous suffit ensuite d’aller sur ``IP_JEEDOM`` à partir de votre navigateur
 ./install -w /var/www/html -z -m Jeedom
 ````
 
->**Note**
+> **Note**
 >
->Si vous voulez installer la version alpha de jeedom il faut faire :
+> Si vous voulez installer la version alpha de jeedom il faut faire :
 ````
 wget https://raw.githubusercontent.com/jeedom/core/alpha/install/install.sh
 chmod +x install.sh
 ./install.sh -v alpha
 ````
 
-Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index).
+Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](../premiers-pas/index).
+
+> **Note**
+>
+> Après avoir installé la version alpha, il faut également forcer la version (branche github) "alpha" dans la configuration de la mise à jour de Jeedom.

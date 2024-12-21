@@ -1,4 +1,4 @@
-[<< Core js](index.md)  
+[<< Core js](index)  
 ## Setter / Getter des valeurs
 
 ### getJeeValues() / setJeeValues()

@@ -1,4 +1,4 @@
-[<< Core js](index.md)  
+[<< Core js](index)  
 ## jeeComplete()
 
 *HTMLInputElement.prototype.jeeComplete(_options)*  

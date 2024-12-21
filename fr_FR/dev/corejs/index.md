@@ -16,12 +16,12 @@ Le but ici n'est pas d'expliquer toutes les méthodes js, il y a assez de doc of
 
 Nous verrons donc ici les principales fonctions apportées par le Core, utilisables dans les plugins.
 
-- [Dov dev Jeedom Core 4.4](/fr_FR/dev/core4.4)
+- [Dov dev Jeedom Core 4.4](../core4.4)
 
-- [Raccourcis sur les éléments html](shortcuts.md)  
-- [Boites de dialogue](dialogs.md)  
-- [Helpers](helpers.md)  
-- [Gestion des événements (*listeners*) js](events.md)  
-- [Gestion des appels Ajax](ajax.md)  
-- [Setter / Getter des valeurs](jeevalue.md)  
+- [Raccourcis sur les éléments html](shortcuts) 
+- [Boites de dialogue](dialogs) 
+- [Helpers](helpers) 
+- [Gestion des événements (*listeners*) js](events) 
+- [Gestion des appels Ajax](ajax) 
+- [Setter / Getter des valeurs](jeevalue) 
 - [Autocompletion](jeeComplete-md)  

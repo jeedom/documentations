@@ -58,7 +58,7 @@ ip -s -c -h a
 >
 > Les identifiant de connection ssh par defaut sont : jeedom et Mjeedom96 pour le mot de passe 
 
-Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
+Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](../premiers-pas/index)
 
 # Installation manuel
 
@@ -145,4 +145,4 @@ Votre adresse Ip, type 192.168.0.XX apparait en rouge. Il vous suffit de la sais
 >
 > Si cela ne fonctionne pas, vous n’avez pas configuré votre carte réseau en Pont réseau comme indiquée au départ.
 
-Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
+Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](../premiers-pas/index)

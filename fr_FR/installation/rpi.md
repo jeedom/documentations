@@ -69,6 +69,6 @@ Il vous suffit ensuite d’aller sur IP\_MACHINE\_JEEDOM
 >
 > Les identifiants par défaut sont admin/admin
 
-Pour plus d'information sur l'installation de Jeedom veuillez consulter cette [documentation](https://doc.jeedom.com/fr_FR/installation/cli)
+Pour plus d'information sur l'installation de Jeedom veuillez consulter cette [documentation](cli)
 
-Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
+Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](../premiers-pas/index)

@@ -1,4 +1,4 @@
-[<< Core js](index.md)   
+[<< Core js](index)   
 ## Helpers
 
 Les *helpers* sont des fonctions du Core prêtes à l'emploi qui peuvent être appellées par les plugins et se chargent de différentes tâches.

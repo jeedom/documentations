@@ -2,7 +2,7 @@
 
 Vous trouverez ici la documentation que nous avons jugé utile de faire sur certain module Edisio.
 
-Pour rappel vous pouvez trouver la liste des équipements compatible [ici](equipement.compatible.md) et [ici](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/edisio/) la documentation du plugin.
+Pour rappel vous pouvez trouver la liste des équipements compatible [ici](equipement.compatible.md) et [ici](../plugins/automation%20protocol/edisio/) la documentation du plugin.
 
 - [EMS-200](edisio.EMS-200_-_Capteur_de_mouvement.md)
 - [EMV-400](edisio.EMV-400_-_Eclairage.md)

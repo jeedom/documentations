@@ -38,4 +38,4 @@ L'adresse ip de votre Jeedom sur la Freebox Delta est ecrite en haut, sous son n
 
 Les login et mot de passe par défaut sont admin/admin quand vous accédez a jeedom via votre navigateur.
 
-Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index.html)
+Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](../premiers-pas/index.html)

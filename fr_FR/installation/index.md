@@ -45,15 +45,15 @@ Soit un total de 125 € pour une box domotique open source avec une maîtrise c
 
 Je veux installer Jeedom :
 
-- Sur une [luna](https://doc.jeedom.com/fr_FR/plugins/home%20automation%20protocol/luna)
-- Sur une [atlas](https://doc.jeedom.com/fr_FR/installation/atlas)
-- Sur une [smart](https://doc.jeedom.com/fr_FR/installation/smart)
-- Sur une [mini+](https://doc.jeedom.com/fr_FR/installation/mini)
-- Sur un [Raspberry Pi](https://doc.jeedom.com/fr_FR/installation/rpi)
-- Sur une [Freebox Delta](https://doc.jeedom.com/fr_FR/installation/freeboxdelta)
-- En [ligne de commande](https://doc.jeedom.com/fr_FR/installation/cli)
-- Sur une [VM](https://doc.jeedom.com/fr_FR/installation/vm)
-- Sur un [Docker/Synology](https://doc.jeedom.com/fr_FR/installation/docker). Note : Nous ne recommandons pas ce mode d'installation qui rend l'utilisation de certains équipements compliquée à cause du mode de réseaux de Docker
-- Sur du [bare metal (type Intel Nuc)](https://doc.jeedom.com/fr_FR/installation/baremetal)
+- Sur une [luna](../plugins/home%20automation%20protocol/luna)
+- Sur une [atlas](atlas)
+- Sur une [smart](smart)
+- Sur une [mini+](mini)
+- Sur un [Raspberry Pi](rpi)
+- Sur une [Freebox Delta](freeboxdelta)
+- En [ligne de commande](cli)
+- Sur une [VM](vm)
+- Sur un [Docker/Synology](docker). Note : Nous ne recommandons pas ce mode d'installation qui rend l'utilisation de certains équipements compliquée à cause du mode de réseaux de Docker
+- Sur du [bare metal (type Intel Nuc)](baremetal)
 
-Une fois l'installation faite, n'oubliez pas de consulter la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
+Une fois l'installation faite, n'oubliez pas de consulter la documentation [Premier pas avec Jeedom](../premiers-pas/index)

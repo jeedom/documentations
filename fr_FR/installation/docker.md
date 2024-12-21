@@ -59,7 +59,7 @@ Il vous faut ensuite installer Jeedom en allant sur : ``IP_DOCKER:80``
 >
 > Vous pouvez voir les dockers qui tournent ``docker ps`` pour arreter votre container, jeedom-server par exemple, il vous suffit de faire ``docker stop jeedom-server``, pour le relancer ``docker start jeedom-server``
 
-Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
+Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](../premiers-pas/index)
 
 
 # Docker compose

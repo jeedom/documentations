@@ -2,8 +2,8 @@
 
 Il existe plusieurs manières de remonter un souci dans Jeedom :
 
-- Remonter le souci sur la [communauté](https://community.jeedom.com), c'est en général là que vous aurez la réponse la plus rapide.
-- Remonter un souci à l'équipe Jeedom :
+- Remontez le souci sur la [communauté](https://community.jeedom.com), c'est en général là que vous aurez la réponse la plus rapide.
+- Remontez un souci à l'équipe Jeedom :
   - **Demande de support** (nécessite un service pack power ou plus ou bien que le souci soit sur un plugin/service payant), cette demande est **privée** et vous mettra directement en relation avec l'équipe support de Jeedom qui analyse votre cas en particulier.
   - **Rapport de bug**, dans ce cas la demande est **publique** et sera postée sur la communauté.
   - **Demande d'amélioration**, dans ce cas la demande est **publique** et sera postée sur la communauté.
@@ -18,13 +18,13 @@ Il existe plusieurs manières de remonter un souci dans Jeedom :
 
 ## Quelles informations envoyer pour avoir une solution le plus rapidement possible ?
 
-Quelque soit la méthode utilisée pour remonter le problème rencontré, il est très important de donner le plus d'informations possibles. En effet, à notre plus grand regret, 80% des demandes ont pour première réponse type : "merci de nous donner davantage d'informations sur le problème rencontré afin que nous puissions vous aider. [...]". Et oui...malgré notre bonne volonté, on ne voit pas votre écran, on a aucun historique de ce que vous avez fait comme manipulation, et on utilise parfois un vocabulaire différent pour parler des mêmes choses...
+Quelle que soit la méthode utilisée pour remonter le problème rencontré, il est très important de donner le plus d'informations possibles. En effet, à notre plus grand regret, 80% des demandes ont pour première réponse type : "merci de nous donner davantage d'informations sur le problème rencontré afin que nous puissions vous aider. [...]". Et oui, malgré notre bonne volonté, on ne voit pas votre écran, on a aucun historique de ce que vous avez fait comme manipulations et on utilise parfois un vocabulaire différent pour parler des mêmes choses...
 
-Mais comme on a vraiment envie de vous aider, voilà quelques indices pour nous donner plusieurs informations de valeures :
+Mais comme on a vraiment envie de vous aider, voilà quelques indices pour nous donner plusieurs informations de valeur :
 
-- Votre souci concerne un problème d'affichage graphique (widget, page, champs texte...), même si ça parait evident pour vous lors de l'explication, mettez une capture d'ecran (en effet, il est possible de copier l'image directement sur le community !), ça prend 30s pour vous, ça fera gagner plusieurs dizaines de minutes à la personne qui essaye de vous aider, et vous obtiendrez une réponse pertinente, plus rapidement.
-- Vous avez une erreur "500" ou des "\{\{" sur Jeedom : dans ce cas, mettez directement le fichier http.error (vous pouvez le trouver rapidement dans Analyse -> Logs), sans ça, il nous est impossible de savoir d'où vient le problème (encore une fois, aucun(e) voyant(e) chez Jeedom ou parmi les développeurs tierce pour l'instant !^^)
-- Vous avez une erreur javascript (panneau warning en haut à droite) ou quand vous faites F12 puis console une ligne rouge. Dans ce cas, commencez par nous donner le message d'erreur en question complet. Malheureusement, dans la majorité des cas ce message d'erreur étant parfois un peu vague, ne permet pas à lui seul d'identifier le problème rencontré. Il faut donc faire F12 (dans le navigateur, sur l'onglet Jeedom où vous rencontrez la difficulté). Cliquez ensuite sur "console", puis essayez de reproduire le problème rencontré (commencez par rafraichir la page, et si nécessaire, refaites les mêmes actions). Vous allez normalement avoir à nouveau le message d'erreur mais cette fois il faudra cliquer en bout de ligne (ça peut être soit comme sur la capture ci-dessous soit sous la forme VMXXX.js) :
+- Vous avez un problème d'affichage graphique (widget, page, champs texte...), même si ça parait evident pour vous lors de l'explication, mettez une capture d'écran (en effet, il est possible de copier l'image directement sur le community !), ça prend 30s pour vous, ça fera gagner plusieurs dizaines de minutes à la personne qui essaye de vous aider et vous obtiendrez une réponse pertinente plus rapidement.
+- Vous avez une erreur "500" ou des "\{\{" sur Jeedom : dans ce cas, mettez directement le fichier http.error (vous pouvez le trouver rapidement dans Analyse -> Logs). Sans ça, il nous est impossible de savoir d'où vient le problème (encore une fois, aucun(e) voyant(e) chez Jeedom ou parmi les développeurs tierce pour l'instant !^^)
+- Vous avez une erreur javascript (panneau warning en haut à droite) ou quand vous faites F12 puis console (une ligne rouge). Dans ce cas, commencez par nous donner le message d'erreur complet. Malheureusement, dans la majorité des cas ce message d'erreur étant parfois un peu vague, il ne permet pas à lui seul d'identifier le problème rencontré. Il faut donc faire F12 (dans le navigateur, sur l'onglet Jeedom où vous rencontrez la difficulté). Cliquez ensuite sur "console", puis essayez de reproduire le problème rencontré (commencez par rafraichir la page et si nécessaire, refaites les mêmes actions). Vous allez normalement avoir à nouveau le message d'erreur mais cette fois il faudra cliquer en bout de ligne (ça peut être soit comme sur la capture ci-dessous soit sous la forme VMXXX.js) :
 
 ![remonter_un_bug001](images/remonter_un_bug001.png)
 
@@ -34,15 +34,17 @@ Puis faire une capture de ce qui va s'afficher, en particulier la ligne en rouge
 
 Voilà si vous suivez bien tout ça vous devriez avoir des réponses à votre problème bien plus rapides et bien plus justes et peut-être même permettre à la personne qui vous a aidé d'aider une autre personne plus rapidement.
 
-- Vous avez un souci avec un démon ? Il faut absolument mettre la log en debug de celui-ci sinon aucune aide ne sera possible. Vous pouvez aussi ajouter la log d'installation des dépendances (souvent en \_update).
-- Vous avez un problème d'installation de dépendances ? Il faut absolument mettre la log de leur installation (souvent en \_update).
+- Vous avez un souci avec un démon ? Il faut absolument mettre la log en debug de celui-ci sinon aucune aide ne sera possible. Vous pouvez aussi ajouter le log d'installation des dépendances (souvent en \_update).
+- Vous avez un problème d'installation de dépendances ? Il faut absolument mettre le log de leur installation (souvent en \_update).
+
+Sur community, il y a un [excellent fil](https://community.jeedom.com/t/comment-nous-aider-a-vous-aider-ou-comment-poser-une-bonne-question) à lire en entier et à appliquer.
 
 # Les demandes d'Assistance et Support (ou tickets)
 
 Si vous n’avez pas trouvé de solution à votre problème, vous pouvez faire une demande de support à l’équipe Jeedom. 
 Cette demande passe par un ticket. 
 
-Le support est accessible en fonction de votre Service Pack
+Le support est accessible en fonction de votre Service Pack :
 - Service Pack Community (version gratuite de Jeedom): 2 tickets/mois sur les plugins payants uniquement
 - Service Pack Power et Ultimate: 10 tickets/mois
 - Service Pack Pro: 100 tickets/mois

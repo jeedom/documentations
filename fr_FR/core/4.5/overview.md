@@ -5,7 +5,7 @@ La page *Synthèse* vous propose une synthèse visuelle et centralisée de vos o
 
 ![Synthèse](./images/synthesis_intro.gif)
 
-Pour qu'elle prenne tout son sens, sur chaque objet, il faut configurer les résumés et une image de fond : [Voir documentation sur les résumés.](/fr_FR/concept/summary)
+Pour qu'elle prenne tout son sens, sur chaque objet, il faut configurer les résumés et une image de fond : [Voir documentation sur les résumés.](../../concept/summary)
 
 Vous pouvez la configurer comme page par défaut dans **Réglages → Préférences**, en desktop et/ou mobile.
 

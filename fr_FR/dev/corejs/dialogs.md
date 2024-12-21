@@ -1,4 +1,4 @@
-[<< Core js](/fr_FR/dev/corejs/index)  
+[<< Core js](index)  
 ## Boites de dialogue
 
 La gestion des Boites de dialogue de Jeedom repose entièrement sur la lib interne jeeDialog().

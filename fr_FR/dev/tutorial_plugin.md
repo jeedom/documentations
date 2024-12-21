@@ -6,7 +6,7 @@
 
 Voici un petit TP pour expliquer comment créer un plugin. Pour l’exemple nous allons créer un plugin qui retourne une phrase du site viedemerde.fr . (Le plugin sera évolutif)
 
-Il ne remplace en aucun cas la [documentation officielle](https://doc.jeedom.com/fr_FR/dev/)
+Il ne remplace en aucun cas la [documentation officielle](index)
 
 # Créer la base du plugin
 

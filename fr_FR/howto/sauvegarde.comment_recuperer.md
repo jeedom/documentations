@@ -1,16 +1,26 @@
 # Restauration d'une sauvegarde
 
+## Méthode actuelle
+
+Allez dans *Réglages / Système / Editeur de fichiers* puis sélectionner le répertoire backup dans l'arborescence de gauche.
+
+![restore editeur01](images/restore-editeur01.png)
+
+Sélectionnez le fichier qui vous intéresse, faites un clic-droit et sélectionnez "Télécharger".
+
+## Ancienne méthode
+
 La procédure va permettre de se connecter en SFTP à votre box afin d’aller récupérer les sauvegardes quotidiennes effectuées par celle-ci.
 
-> **Tip**
+> **Conseil**
 >
 > Attention, afin que cette procédure fonctionne, il est nécessaire que le serveur SSH de la box soit toujours fonctionnel.
 
-## Installation de Filezilla
+### Installation de Filezilla
 
 Filezilla est un logiciel gratuit et disponible sur toutes les plateformes. Il permet de transférer des fichiers via différents protocoles (FTP, FTPS, SFTP…​) Il est téléchargeable via ce [lien](https://filezilla-project.org/download.php?type=client)
 
-## Connexion à la box
+### Connexion à la box
 
 Pour se connecter à votre box, il suffit de renseigner les champs d’information en haut de la fenêtre Filezilla :
 
@@ -23,7 +33,7 @@ Pour se connecter à votre box, il suffit de renseigner les champs d’informati
 
 Puis de cliquer sur "Connexion rapide"
 
-## Navigation vers le répertoire de sauvegarde
+### Navigation vers le répertoire de sauvegarde
 
 Une fois la connexion établie, il est nécessaire de se rendre dans le répertoire de sauvegarde de Jeedom.
 
@@ -36,7 +46,7 @@ Le chemin d’accès se renseigne dans la partie site distant.
 
 ![restore filezilla02](images/restore-filezilla02.jpg)
 
-## Téléchargement de la sauvegarde
+### Téléchargement de la sauvegarde
 
 Sur la liste des sauvegardes, en faisant un clic droit, il est possible de lancer son téléchargement.
 

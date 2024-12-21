@@ -2,7 +2,7 @@
 
 ## Principe
 
-Le principe est très simple : la documentation du plugin doit être un simple lien web à indiquer dans votre fichier info.json (voir le détail [ici](https://doc.jeedom.com/fr_FR/dev/structure_info_json) ) dans le champ documentation.
+Le principe est très simple : la documentation du plugin doit être un simple lien web à indiquer dans votre fichier info.json (voir le détail [ici](structure_info_json) ) dans le champ documentation.
 
 A noter que vous avez aussi un champ changelog qui doit fonctionner de la même manière que le champ documentation.
 

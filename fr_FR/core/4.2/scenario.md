@@ -236,7 +236,7 @@ Il existe des déclencheurs spécifiques (autre que ceux fournis par les command
 - ``#variable(nom_variable)#`` : Changement de valeur de la variable nom_variable.
 - ``#genericType(GENERIC, #[Object]#)#`` : Changement d'une commande info de Type Generic GENERIC, dans l'objet Object.
 
-Vous pouvez aussi déclencher un scénario en utilisant l’API HTTP décrite [ici](https://doc.jeedom.com/fr_FR/core/4.1/api_http).
+Vous pouvez aussi déclencher un scénario en utilisant l’API HTTP décrite [ici](../4.1/api_http).
 
 ### Opérateurs de comparaison et liens entre les conditions
 

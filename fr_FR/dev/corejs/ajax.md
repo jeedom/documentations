@@ -1,4 +1,4 @@
-[<< Core js](index.md)  
+[<< Core js](index)  
 ## Ajax js
 
 ### Fetch ...

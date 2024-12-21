@@ -26,11 +26,11 @@ Le Core comprend entre autres :
 
 *Les équipements, comprenant des actionneurs ou des capteurs, sont organisés par objets. Les objets peuvent, par exemple, représenter des pièces physiques*.
 
-[Synthèse](/fr_FR/core/4.1/overview)
+[Synthèse](../core/4.1/overview)
 
 ![Synthèse](images/doc-presentation-synthese.jpg)
 
-[Dashboard](/fr_FR/core/4.1/dashboard)
+[Dashboard](../core/4.1/dashboard)
 
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
@@ -39,9 +39,9 @@ Le Core comprend entre autres :
 
 *Toutes les informations sont historisables (courbes de température, consommations, ouvertures de porte, etc), et accessibles dans Analyse → Historique ou depuis les tuiles du Dashboard.*
 
-[Historique](/fr_FR/core/4.1/history)
+[Historique](../core/4.1/history)
 
-[Timeline](/fr_FR/core/4.1/timeline)
+[Timeline](../core/4.1/timeline)
 
 ![Page Historique](images/doc-presentation-historique.jpg)
 
@@ -49,7 +49,7 @@ Le Core comprend entre autres :
 
 *Les scénarios permettent d'automatiser tout ou partie de vos équipements. Ils sont construits avec différents blocs. Des blocs conditionnels (Si, Alors, Sinon), d'actions, de programmation (DANS x minutes ou A hhmm), de boucle, de commentaire, ou de code php. Tous les blocs sont imbricables les uns dans les autres, offrant des possibilités infinies.*
 
-[Mon premier scénario](/fr_FR/concept/#tocAnchor-4)
+[Mon premier scénario](../concept/#tocAnchor-4)
 
 ![Page Scénario](images/doc-presentation-scenario.jpg)
 

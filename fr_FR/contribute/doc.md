@@ -14,9 +14,9 @@ Les pages de documentation générale sont celles qui ne proviennent pas directe
 
 Par exemple :
 
-- [Présentation](https://doc.jeedom.com/fr_FR/presentation/)
-- [Concepts](https://doc.jeedom.com/fr_FR/concept/)
-- [Contribuer à la documentation](https://doc.jeedom.com/fr_FR/contribute/doc)
+- [Présentation](../presentation/)
+- [Concepts](../concept/)
+- [Contribuer à la documentation](../contribute/doc)
 
 Ces pages sont disponibles sur le [dépôt de la documentation](https://github.com/jeedom/documentations/tree/master/fr_FR)
 
@@ -51,7 +51,7 @@ Sur le même principe que la documentation du Core, celle des plugins est récup
 
 Par exemple, pour le plugin OpenZWave
 
-- Accès à la doc ici : https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/
+- Accès à la doc ici : ../plugins/automation%20protocol/openzwave/
 - dépôt du plugin : https://github.com/jeedom/plugin-openzwave/blob/beta/docs/fr_FR/index.md
 
 Là il faut trouver le dépôt du plugin en question, puis aller dans son répertoire doc/fr_FR. Tout en distinguant les [plugins officiels](https://github.com/jeedom) des plugins tiers. De plus, les plugins payants (officiels ou tiers) ne sont pas accessibles, car sur des dépôt privés. Dans ce cas, vous pouvez toujours faire un message sur le [forum](https://community.jeedom.com/), avec le tag documentation-jeedom ou du plugin.
@@ -71,6 +71,4 @@ En JavaScript : ``{% raw %}var myString = '{{Ma phrase qui sera traduite}}'{% en
 
 Le système de traduction se chargera alors de leur traduction et de leur référencement dans les fichiers json (`docs/i18n/`) et le Core de leur remplacement dans l'interface.
 
-Si vous souhaitez faire un lien vers une autre page de documentation, vous pouvez ajouter `/fr_FR/contribute/doc`. A la traduction, la partie fr_FR sera automatiquement adaptée.
-
-
+Si vous souhaitez faire un lien vers une autre page de documentation, vous pouvez ajouter `/fr_FR/contribute/doc`. A la traduction, la partie fr_FR sera automatiquement adaptée. Les liens relatifs fonctionnent également, `/fr_FR/contribute/doc` peut être remplacé par `../contribute/doc` en fonction du répertoire dans lequel le document édité se trouve.

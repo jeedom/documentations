@@ -20,7 +20,7 @@ Pas de panique, tout est déjà prévu dans le core de jeedom pour nous aider à
 Le code et/ou l'exécutable de votre démon doit évidement se trouver dans l'arborescence de votre plugin et doit être inclus et livré avec l'archive lors de l'installation d'un plugin.
 Il n'y a pas de règle stricte sur l'emplacement exact de votre démon, cependant la convention veut qu'il soit placé dans le sous-répertoire `./resources/` du plugin.
 
-Dans le plugin template vous trouverez les bases pour implémenter un démon en python et c'est l'exemple qui sera utilisé dans cette documentation cependant vous êtes libre de développer votre démon dans le langage de votre choix à condition qu'il puisse être exécuté sur les [plateformes supportées par Jeedom](/fr_FR/compatibility/).
+Dans le plugin template vous trouverez les bases pour implémenter un démon en python et c'est l'exemple qui sera utilisé dans cette documentation cependant vous êtes libre de développer votre démon dans le langage de votre choix à condition qu'il puisse être exécuté sur les [plateformes supportées par Jeedom](../compatibility/).
 La plupart des démons des plugins Jeedom sont en python ou nodeJs mais il en existe aussi en .netCore et certainement d'autres technos.
 
 Vous trouverez également quelques méthodes utiles pour un démon en nodeJs qui seront peut-être détaillées dans une prochaine version de cette documentation. Pour l'instant je vous invite à consulter le community dev pour vous aligner avec les autres développeurs sur tout ce qui concerne NodeJs, principalement sur la version à utiliser.

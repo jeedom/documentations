@@ -32,4 +32,4 @@ Vous n’avez plus qu’à mettre la carte SD dans la Jeedomboard (ou Hummingboa
 >
 > Les identifiants SSH sont jeedom/Mjeedom96
 
-Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index.html)
+Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](../premiers-pas/index.html)
