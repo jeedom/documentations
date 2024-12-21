@@ -26,7 +26,7 @@ Nous n'allons pas vous décrire la syntaxe complète du markdown, d'autres sites
 
 ### Emplacement
 
-Dans votre plugin (hébergé sur github), nous vous recommandons de faire un dossier et d'y copier les fichiers et répertoires du dossier /docs dans le plugin template (voir [ici](plugin_template.md) )
+Dans votre plugin (hébergé sur github), nous vous recommandons de faire un dossier et d'y copier les fichiers et répertoires du dossier /docs dans le plugin template (voir [ici](plugin_template) )
 
 Une fois cela fait, vous allez avoir un dossier fr_FR (le seul à modifier) dans le dossier /docs. Dans ce dossier, nous vous conseillons de faire 2 fichiers :
 

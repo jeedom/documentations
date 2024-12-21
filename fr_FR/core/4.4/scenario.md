@@ -2,7 +2,7 @@
 
 **Outils → Scénarios**
 
-<small>[Raccourcis clavier/souris](shortcuts.md)</small>
+<small>[Raccourcis clavier/souris](shortcuts)</small>
 
 Véritable cerveau de la domotique, les scénarios permettent d’interagir avec le monde réel de manière *intelligente*.
 

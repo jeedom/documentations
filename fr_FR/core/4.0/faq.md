@@ -20,7 +20,7 @@ Depuis Jeedom 3.2 il n'est plus possible de se connecter avec admin/admin à dis
 Souvent cela est dû au fait que les équipements sont affectés à un objet qui n’est pas le fils ou l’objet lui-même du premier objet sélectionné à gauche dans l’arbre (vous pouvez configurer celui-ci dans votre profil).
 
 ### L'interface de Jeedom a-t-elle des raccourcis ?
-Oui, la liste des raccourcis clavier / souris est [ici](shortcuts.md).
+Oui, la liste des raccourcis clavier / souris est [ici](shortcuts).
 
 ### Peut-on réordonner les commandes d’un équipement ?
 Oui c’est possible, il suffit de glisser/déposer les commandes de votre objet sur sa configuration.

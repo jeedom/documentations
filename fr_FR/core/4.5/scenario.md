@@ -2,7 +2,7 @@
 
 **Outils → Scénarios**
 
-<small>[Raccourcis clavier/souris](shortcuts.md)</small>
+<small>[Raccourcis clavier/souris](shortcuts)</small>
 
 Véritable cerveau de la domotique, les scénarios permettent d’interagir avec le monde réel de manière *intelligente*.
 
@@ -80,7 +80,7 @@ Dans l’onglet **Général**, on retrouve les paramètres principaux du scénar
 
 - **Mode synchrone** : Lance le scénario dans le thread courant au lieu d'un thread dédié. Permet d'augmenter la vitesse de lancement du scénario, mais peut rendre le système instable. Attention à ne surtout pas mettre de scénario complexe ou avec des pauses (sleep) ou wait en synchrone, cela engendre un comportement instable de jeedom et ne pourra être couvert par le support.
 - **Log** : Le type de log souhaité pour le scénario. Vous pouvez couper les logs du scénario ou au contraire le faire apparaître dans Analyse → Temps réel.
-- **Timeline** : Permet de garder un suivi du scénario dans la timeline (voir [documentation Historique](history.md).
+- **Timeline** : Permet de garder un suivi du scénario dans la timeline (voir [documentation Historique](history).
 - **Icône** : Permet de choisir une icône pour le scénario en lieu et place de l’icône standard.
 - **Description** : Permet de décrire votre scénario.
 - **Mode du scénario** : Le scénario peut être programmé, déclenché ou les deux à la fois. Vous aurez ensuite le choix d’indiquer le(s) déclencheur(s) (15 déclencheurs maximum) et la/les programmation(s).
@@ -240,7 +240,7 @@ Il existe des déclencheurs spécifiques (autre que ceux fournis par les command
 - ``#genericType(GENERIC, #[Object]#)#`` : Changement d'une commande info de Type Generic GENERIC, dans l'objet Object.
 - ``#new_eqLogic#`` : Événement envoyé lors de la création d'un nouvelle équipement, vous avez dans les tags id (id de l'équipement crée), name (nom de l'équipement crée) et eqType (type/plugin de l'équipement créé).
 
-Vous pouvez aussi déclencher un scénario en utilisant l’API HTTP décrite [ici](api_http.md).
+Vous pouvez aussi déclencher un scénario en utilisant l’API HTTP décrite [ici](api_http).
 
 ### Opérateurs de comparaison et liens entre les conditions
 
