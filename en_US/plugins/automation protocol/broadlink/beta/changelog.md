@@ -4,17 +4,14 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 12/18/2024
+# 20/12/2024
 
 - Fix memory leak on daemon
+- Debian 11 required
 
 # 11/25/2024
 
 - Fixed a dependency installation issue that could occur on some installations
-
-# 05/09/2024
-
-- Added a restart of the daemon every night to avoid a memory problem
 
 # 08/16/2024
 

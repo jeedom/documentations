@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Fix memory leak on daemon
+- Debian 11 required
+- Jeedom v4.4 required
+
 - Better log level management if on none (the daemon will be in log error)
 
 # 01/25/2023
@@ -51,6 +55,7 @@ Addition of Edisio actuator
 Add Edisio Frame
 
 # 10/18/2018
+
 Change battery calculation on Edisio
 Change management of ids
 Management of special characters for sending the parrot name, the rfp1000 does not like non ascii
