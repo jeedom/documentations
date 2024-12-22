@@ -45,7 +45,7 @@ Repérer : Id1 et Id2 et ajouter l’hexadecimal suivant : dans mon exemple Id1=
 
 ## Création de la télécommande sous JeeDom
 
-Aller, dans Plugins, Protocole domtique, RFXcom.
+Aller dans Plugins, Protocole domtique, RFXcom.
 
 ![image10](images/volet.ematronic/image10.png)
 
@@ -53,7 +53,7 @@ Cliquer sur "Ajouter" et saisir un nom pour votre télécommande virtuelle.
 
 ![image00](images/volet.ematronic/image00.png)
 
-Choisir dans la liste des équipements le template : "Volet Ematronic - Défaut".
+Dans la liste des équipements, choisir le template : "Volet Ematronic - Défaut".
 
 Remplacer l’ID automatique par celui que vous avez extrait précédemment et Cocher "Activer" et "Visible" :
 
@@ -71,21 +71,21 @@ Voilà votre télécommande est prête, elle doit ressembler à ça :
 
 ### Réinitialisation du moteur
 
--   Débrancher électriquement le moteur.
--   Sur la télécommande d’origine, laisser le bouton "Up" Appuyé 3 ou 4 secondes, la led devient rouge fixe.
--   Brancher électriquement le moteur.
--   Relâcher le bouton de la télécommande.
--   Le moteur fera 5 bips.
--   Rapidement, appuyer avec un trombone sur le "micro bouton" a l’arrière de la télécommande.
--   Le moteur fera 3 bips.
+- Débrancher électriquement le moteur.
+- Sur la télécommande d’origine, laisser le bouton "Up" Appuyé 3 ou 4 secondes, la led devient rouge fixe.
+- Brancher électriquement le moteur.
+- Relâcher le bouton de la télécommande.
+- Le moteur fera 5 bips.
+- Rapidement, appuyer avec un trombone sur le "micro bouton" à l’arrière de la télécommande.
+- Le moteur fera 3 bips.
 
 ## Association de la télécommande virtuelle JeeDom au moteur Ematronic
 
--   Débrancher électriquement le moteur.
--   Sur le télécommande d’origine, laisser le bouton "Up" Appuyer 3 ou 4 secondes, la led devient rouge fixe.
--   Brancher électriquement le moteur.
--   Relâcher le bouton de la télécommande.
--   Le moteur fera 5 bips.
--   Appuyer sur la Commande "Monter" de la télécommande virtuelle de JeeDom.
+- Débrancher électriquement le moteur.
+- Sur le télécommande d’origine, laisser le bouton "Up" Appuyer 3 ou 4 secondes, la led devient rouge fixe.
+- Brancher électriquement le moteur.
+- Relâcher le bouton de la télécommande.
+- Le moteur fera 5 bips.
+- Appuyer sur la Commande "Monter" de la télécommande virtuelle de JeeDom.
 [image](images/volet.ematronic/image09.png)
--   Le moteur fera 3 bips, pour annoncer que votre JeeDoom est associé !!
+- Le moteur fera 3 bips, pour annoncer que votre JeeDoom est associé !!

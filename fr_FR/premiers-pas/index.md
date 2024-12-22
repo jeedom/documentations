@@ -14,7 +14,6 @@ Remplissez les différents champs et validez. Vous devriez alors être sur votre
 
 ![Market](images/FirstStep_market2.jpg)
 
-
 ## Ajout de votre code Service Pack
 
 Si vous avez acheté une box Jeedom alors vous avez dû recevoir un mail contenant un code pour votre Service Pack.
@@ -35,7 +34,7 @@ Puis allez sur votre page de profil :
 
 Puis cliquez sur l’onglet "Mes services" et renseignez votre numéro de Service Pack et validez.
 
-> **Tip**
+> **Information**
 >
 > Si vous avez acheté une box officielle Jeedom, le numéro de Service Pack a dû vous être envoyé par email. Si vous n’avez rien reçu, merci de contacter le magasin où vous avez acheté votre box.
 
@@ -47,11 +46,11 @@ Une fois Jeedom branché électriquement et connecté à votre réseau local, vo
 
 #### Par le market
 
-Solution la plus simple (mais ne marche pas dans 100% des cas en fonction de la configuration de votre accès internet), il faut démarrer la box, attendre environ 10 minutes (attention si vous utilisez une image type netinstallation, ça sera plutôt 30 minutes) et aller [ici](https://www.jeedom.com/market/index.php?v=d&p=find)
+Solution la plus simple (mais ne marche pas dans 100% des cas en fonction de la configuration de votre accès internet). Il faut démarrer la box, attendre environ 10 minutes (attention si vous utilisez une image type netinstallation, ça sera plutôt 30 minutes) et aller [ici](https://www.jeedom.com/market/index.php?v=d&p=find)
 
-> **Tip**
+> **Attention**
 >
-> Attention, il faut être sur le même réseau que la box Jeedom pour que cette méthode fonctionne.
+> Il faut être sur le même réseau que la box Jeedom pour que cette méthode fonctionne.
 
 > **Important**
 >
@@ -59,9 +58,9 @@ Solution la plus simple (mais ne marche pas dans 100% des cas en fonction de la 
 
 #### Par votre box internet
 
--   Allez sur l’interface d’administration de votre box internet et cherchez Jeedom dans vos périphériques réseaux.
--   Récupérez son IP.
--   Mettez cette IP dans votre navigateur internet. Vous devriez être sur l’interface de Jeedom.
+- Allez sur l’interface d’administration de votre box internet et cherchez Jeedom dans vos périphériques réseaux.
+- Récupérez son IP.
+- Mettez cette IP dans votre navigateur internet. Vous devriez être sur l’interface de Jeedom.
 
 ## Première connexion
 
@@ -73,14 +72,14 @@ Quelque soit la méthode utilisée, vous arrivez ensuite sur la page de Login. P
 
 Nous allons voir ici comment lier votre Jeedom à votre compte Market.
 
--   Une fois connecté à votre Jeedom, vous devez aller sur **Réglages → Système → Configuration**.
--   Cliquez sur l’onglet **Mises à jour/Market**.
--   En dessous, cliquez sur l’onglet **Market**.
--   Cochez la case **activer**.
--   Remplissez l’adresse : `https://market.jeedom.com`.
--   Renseignez également les champs **Nom d’utilisateur** et **Mot de passe** en fonction de vos identifants (identifiants du Market et non pas de Jeedom).
--   Vous pouvez tester pour vérifier que la connexion s’effectue correctement.
--   N’oubliez pas de sauvegarder !
+- Une fois connecté à votre Jeedom, vous devez aller sur **Réglages → Système → Configuration**.
+- Cliquez sur l’onglet **Mises à jour/Market**.
+- En dessous, cliquez sur l’onglet **Market**.
+- Cochez la case **activer**.
+- Remplissez l’adresse : `https://market.jeedom.com`.
+- Renseignez également les champs **Nom d’utilisateur** et **Mot de passe** en fonction de vos identifants (identifiants du Market et non pas de Jeedom).
+- Vous pouvez tester pour vérifier que la connexion s’effectue correctement.
+- N’oubliez pas de sauvegarder !
 
 Pour plus de détails sur la page de configuration, voir *Manuel de configuration -> Administration*.
 
@@ -100,7 +99,7 @@ Une fois ici, il vous suffit d’activer **Utiliser les DNS Jeedom** puis sur la
 >
 > Si vous venez de lier votre Jeedom à votre compte Market, il faut attendre 24 à 48h avant de pouvoir utiliser le service DNS
 
-## Changer le mot de passe par défaut de Jeedom
+## Changer le mot de passe de Jeedom par défaut
 
 Une des étapes importantes est de changer le mot de passe par défaut de votre compte Jeedom, pour cela cliquez sur Réglages → Système → Utilisateurs :
 
@@ -108,7 +107,7 @@ Une fois dessus, vous avez juste à choisir la ligne avec l’utilisateur **admi
 
 ![Mot de passe](images/FirstStep_boxPassword.jpg)
 
-Une fenêtre va vous demander le mot de passe. Attention à bien le retenir, ou vous ne pourrez plus accéder à votre Jeedom.
+Une fenêtre va vous demander le mot de passe. Attention à bien le retenir ou vous ne pourrez plus accéder à votre Jeedom.
 
 ## Créer mon premier objet
 
@@ -116,15 +115,15 @@ Vous allez créer votre premier objet, mais d’abord il faut savoir ce qu’est
 
 Dans Jeedom, cela peut être tout et n’importe quoi, mais il est recommandé de le faire en fonction de vos pièces.
 
-> **Tip**
+> **Conseil**
 >
 > Il est possible de définir des relations entre les objets. Exemple : le salon appartient à l’objet rez-de-chaussée qui appartient lui-même à l’objet maison.
 
 Pour créer un objet, rien de plus simple :
 
--   Allez sur Outils → Objets.
--   Cliquez sur le bouton Ajouter.
--   Jeedom va vous demander le nom de celui-ci. Validez. Voilà votre premier objet créé :
+- Allez sur Outils → Objets.
+- Cliquez sur le bouton Ajouter.
+- Jeedom va vous demander le nom de celui-ci. Validez. Voilà votre premier objet créé :
 
 ![Objet](images/FirstStep_object.jpg)
 
@@ -171,7 +170,7 @@ Cependant, de nombreux moyens sont mis à votre disposition pour trouver de l’
 
 Vous le trouverez [ici](https://community.jeedom.com/).
 
-Le forum est très actif et contient énormément d’informations. Si vous avez une question, n’hésitez pas à la poser. Vous aurez une réponse en moins d’une heure (en moyenne). Attention cependant, le forum est maintenu par la communauté Jeedom, composée de bénévoles, et non par la société Jeedom.
+Le forum est très actif et contient énormément d’informations. Si vous avez une question, n’hésitez pas à la poser. Vous aurez une réponse en moins d’une heure (en moyenne). Attention cependant, le forum est maintenu par la communauté Jeedom, composée de bénévoles et non par la société Jeedom.
 
 ## Les demandes de support (ou tickets)
 
@@ -181,16 +180,16 @@ Le forum est très actif et contient énormément d’informations. Si vous avez
 
 Si vous n’avez pas trouvé de solution à votre problème, en dernier recours, vous pouvez faire une demande de support à l’équipe Jeedom. Cette demande passe par un ticket. Il est possible d’en ouvrir un de plusieurs façons :
 
--   Directement à partir de Jeedom (méthode conseillée) : Menu Réglages → Demande de support.
--   Si pour une raison ou pour une autre vous n’avez pas accès à votre Jeedom, vous pouvez toujours ouvrir un ticket à partir du Market :
-    -   soit en cliquant sur votre nom puis sur *Demande de support*,
-    -   soit en allant sur votre profil, puis dans la partie **Tickets**, utilisez le bouton "Ouvrir une demande de support".
+- Directement à partir de Jeedom (méthode conseillée) : Menu Réglages → Demande de support.
+- Si pour une raison ou pour une autre vous n’avez pas accès à votre Jeedom, vous pouvez toujours ouvrir un ticket à partir du Market :
+    - soit en cliquant sur votre nom puis sur *Demande de support*,
+    - soit en allant sur votre profil, puis dans la partie **Tickets**, utilisez le bouton "Ouvrir une demande de support".
 
 ![Demande de support](images/FirstStep_support.jpg)
 
 Toute la suite des échanges se fera par mail.
 
-> **Tip**
+> **Conseil**
 >
 > Si, lors de l’ouverture d’un ticket, vous obtenez une erreur indiquant que vous avez atteint votre quota, c’est que vous êtes limité à un certain nombre de demandes de support par mois, en fonction de votre Service Pack.
 
@@ -201,6 +200,6 @@ Les différents Services Packs sont :
 
 Vous pouvez retrouver le détail des services packs [ici](https://www.jeedom.com/site/fr/soft.html#obtenir).
 
->**IMPORTANT**
+> **IMPORTANT**
 >
->Attention on voit beaucoup d'utilisateurs avec des boites mail "mailinblack", qui lors du 1er échange demande à l'expédideur de valider un lien pour prouver que c'est bien un humain. Ce système n'est pas compatible avec notre systeme de ticketing, donc meme si on vous répond, vous ne receverez jamais la réponse dans votre boite mail car celle-ci nous bloque. Merci donc sur votre page profil du market de mettre une addresse mail n'utilisant pas ce système, sinon vous ne receverez jamais notre réponse.
+> Attention on voit beaucoup d'utilisateurs avec des boites mail "mailinblack", qui lors du 1er échange demande à l'expédideur de valider un lien pour prouver que c'est bien un humain. Ce système n'est pas compatible avec notre systeme de ticketing, donc même si on vous répond, vous ne receverez jamais la réponse dans votre boite mail car celle-ci nous bloque. Merci donc de mettre une adresse mail n'utilisant pas ce système sur votre page profil du market, sinon vous ne receverez jamais notre réponse.

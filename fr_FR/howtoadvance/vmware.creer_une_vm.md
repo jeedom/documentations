@@ -35,7 +35,7 @@ Comme vous pouvez le voir l’interface est plutôt sympa et permet de faire pas
 
 # Envoi de l’iso d’installation
 
-Après avoir téléchargé votre iso d’installation ([ici](https://cdimage.debian.org/cdimage/archive/11.8.0/amd64/iso-cd/debian-11.8.0-amd64-netinst.iso) par exemple pour debian 11.8 en netinstall), il vous faut le mettre sur votre datastore.
+Après avoir téléchargé votre iso d’installation [ici](https://cdimage.debian.org/cdimage/archive/11.11.0/amd64/iso-cd/debian-11.11.0-amd64-netinst.iso) par exemple pour debian 11.11 (LTS jusqu'au 31 août 2026) en netinstall, il vous faut le mettre sur votre datastore.
 
 Pour cela cliquez sur datastore :
 

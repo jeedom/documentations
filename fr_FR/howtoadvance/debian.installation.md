@@ -4,13 +4,13 @@ Nous allons voir ici comment installer une Debian, aussi bien en tant que VM ou 
 
 # Récupération des sources
 
-Vous pouvez trouver la dernière version Debian en netinstall (taille minimale mais besoin d’internet pour l’installation) [ici](https://www.debian.org/CD/netinst) (il faut prendre l’image en amd64) ou cliquer directement [ici](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) pour télécharger l’iso.
+Vous pouvez trouver la dernière version Debian en netinstall (taille minimale mais besoin d’internet pour l’installation) [ici](https://www.debian.org/CD/netinst). Il faut prendre l’image ISO pour architecture amd64.
 
 # Lancement de l’installation
 
 ## Sur une machine physique
 
-Il faut soit graver l’iso sur un CD et mettre le CD dans la machine (mais de nos jour les lecteurs CD sont de plus en plus rares) ou alors créer une clef USB bootable.
+Il faut soit créer une clef USB bootable soit graver l’iso sur un CD et mettre le CD dans la machine (mais de nos jour les lecteurs CD sont de plus en plus rares).
 
 Pour la clef USB bootable il faut télécharger rufus [là](http://rufus.akeo.ie/downloads/rufus-2.9.exe), le lancer et le configurer comme cela :
 
@@ -18,13 +18,13 @@ Pour la clef USB bootable il faut télécharger rufus [là](http://rufus.akeo.ie
 
 > **Note**
 >
-> Pensez bien à sélectionner le fichier ISO que vous avez téléchargé juste avant
+> Pensez bien à sélectionner le fichier ISO que vous avez téléchargé juste avant.
 
 Il ne vous reste plus qu’à cliquer sur démarrer, puis mettre la clef USB sur la machine et la faire booter dessus.
 
 ## Sur une VM
 
-La manipulation est assez simple, vous créez une nouvelle machine virtuelle, vous branchez, mettez un lecteur CD virtuel dessus qui pointe vers l’iso (pensez bien à le connecter) et vous lancez la machine. Voir [ici](../howto/doc-howto-vmware.creer_une_vm.html) pour plus de détails.
+La manipulation est assez simple, vous créez une nouvelle machine virtuelle, vous branchez, mettez un lecteur CD virtuel dessus qui pointe vers l’iso (pensez bien à le connecter) et vous lancez la machine. Voir [ici](../howtoadvance/vmware.creer_une_vm) pour plus de détails.
 
 # Installation
 
@@ -40,19 +40,19 @@ Ici il faut choisir "French" (Français)
 
 ![debian.installation3](images/debian.installation3.PNG)
 
-Idem :
+Idem (si votre clavier a une disposition AZERTY, sinon choisissez la bonne disposition) :
 
 ![debian.installation4](images/debian.installation4.PNG)
 
-Entrez le nom de votre machine (ici nabaztag mais si c’est un jeedom mettez jeedom)
+Entrez le nom de votre machine (ici nabaztag mais vous pouvez saisir jeedom)
 
 ![debian.installation5](images/debian.installation5.PNG)
 
-Appuyez juste sur entrée :
+Appuyez juste sur entrée pour laisser vide ou saisissez le domaine :
 
 ![debian.installation6](images/debian.installation6.PNG)
 
-Mettez un mot de passe, je vous en conseille un simple ici (comme oooo), il pourra être changé plus tard (commande passwd) :
+Mettez un mot de passe compliqué mais asez simple pour pouvoir le retenir. Ca peut être une phrase du genre `J4cques f4it du ski` :
 
 ![debian.installation7](images/debian.installation7.PNG)
 
@@ -60,15 +60,15 @@ Remettez-le même :
 
 ![debian.installation8](images/debian.installation8.PNG)
 
-Donnez le nom de l’utilisateur principal (ici nabaztag mais si c’est un jeedom mettez jeedom)
+Donnez le nom de l’utilisateur principal (ici nabaztag mais mettez le nom que vous voulez)
 
 ![debian.installation9](images/debian.installation9.PNG)
 
-Remettez la même chose :
+Saisissez le login de cet utilisateur (un seul nom, par exemple "john" si le nom complet est "John Doe") :
 
 ![debian.installation10](images/debian.installation10.PNG)
 
-Mettez un mot de passe, je vous en conseille un simple ici (comme oooo), il pourra être changé plus tard (commande passwd) :
+Mettez un mot de passe compliqué mais asez simple pour pouvoir le retenir :
 
 ![debian.installation11](images/debian.installation11.PNG)
 
@@ -104,7 +104,7 @@ Validez en appuyant sur entrée :
 
 ![debian.installation19](images/debian.installation19.PNG)
 
-Idem :
+Saisissez votre proxy ou laissez vide si vous n'en avez pas ou si vous ne savez pas quoi mettre :
 
 ![debian.installation20](images/debian.installation20.PNG)
 
@@ -132,21 +132,9 @@ Voilà votre installation de debian est finie. Vous pouvez arrêter le tuto là 
 
 # Optimisation pour Jeedom
 
-Pour préparer l’installation de Jeedom vous pouvez faire quelques optimisations :
-
-## Ajouter vim et sudo
-
-``sudo apt-get install -y vim sudo``
-
-## Ajouter fail2ban
-
-Fail2ban est un logiciel qui permet de sécuriser l’accès à votre debian, en cas d’un trop grand nombre d’échecs de connexion il bloque l’accès à l’IP en question (donc pas à tout le monde, seulement à l’attaquant) un certain temps.
-
-``sudo apt-get install -y fail2ban``
-
 ## Ajouter les Open VMware Tools
 
-Les Open VMware Tools installent les drivers spécifiques au système d’exploitation installé et apportent les optimisations de cet OS hébergé sur un hyperviseur ESXi.
+Les Open VMware Tools installent les drivers spécifiques au système d’exploitation installé et apportent les optimisations de cet OS hébergé sur un hyperviseur ESXi. Si vous n'utilisez pas ESXi, n'installez pas ce paquet.
 
 ``sudo apt-get install -y open-vm-tools``
 

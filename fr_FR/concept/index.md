@@ -92,7 +92,6 @@ Un scénario est une suite d'actions définies qui s’exécuteront à certains 
 
 Le but ici n'est pas d'être exhaustif mais de découvrir les scénarios au travers d'exemples simples. La [documentation du manuel d'utilisation](../core/4.5/scenario) est beaucoup plus complète.
 
-
 ### Allumage de la lumière sur détection de mouvement.
 
 Admettons que nous ayons une lumière pilotée et un détecteur de mouvement dans la chambre.
@@ -115,7 +114,6 @@ Les `#` indiquent une commande, ensuite on trouve `[le nom de son objet parent]`
 Nous n'avons fait ici qu’effleurer les possibilités des scénarios. Vous pouvez ajouter des conditions (bloc *Si/Alors/Sinon*), temporiser des actions (bloc *Dans*), les programmer (bloc *A*) et même utiliser directement du code php (bloc *Code*).
 
 Nous avons utilisé ici le mode de déclenchement *provoqué* avec une commande. Mais vous pouvez également utiliser (et combiner) le mode *programmé* pour exécuter un scénario tous les matins ou toutes les heures, etc.
-
 
 ### Programmation du jour.
 

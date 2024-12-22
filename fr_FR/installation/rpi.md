@@ -6,7 +6,7 @@ Vous trouverez ici la documentation pour installer Jeedom sur un raspberry Pi **
 
 ## Télécharger la dernière image "lite"
 
-[Raspberry Pi Imager](https://www.raspberrypi.com/software/)  permet de télécharger directement l'image d'installation de Raspberry Pi OS, dans sa version la plus récente et de graver l'image directement sur la carte SD. Attentoin il faut prendre une version debian 11 (Bullseye), Jeedom n'étant pas encore compatible Debian 12 (mais on y travails).
+[Raspberry Pi Imager](https://www.raspberrypi.com/software/) permet de télécharger directement l'image d'installation de Raspberry Pi OS, dans sa version la plus récente et de graver l'image directement sur la carte SD. Attention il faut prendre une version debian 11 (Bullseye), Jeedom n'étant pas encore compatible Debian 12 (mais on y travaille).
 
 ## Activer un accès SSH
 
@@ -14,13 +14,13 @@ Vous trouverez ici la documentation pour installer Jeedom sur un raspberry Pi **
 >
 > Pour des raisons de sécurité, l’accès SSH n’est plus activé par défaut sur cette distribution. Il faut donc l’activer.
 
-Il faut créer sur la partition boot (la seule accessible sous Windows) un fichier ssh vide.
+Sur la partition boot (la seule accessible sous Windows), il faut créer un fichier ssh vide.
 
 Il suffit de faire un clic droit : nouveau / document texte et le renommer en "ssh" **sans extension**
 
 > **Important**
 >
-> Sous Windows, dans l’explorateur, il faut donc vérifier votre paramétrage dans affichage / options / modifier les options de dossiers et de recherche /
+> Sous Windows, dans l’explorateur, il faut donc vérifier votre paramétrage dans affichage / options / modifier les options de dossiers et de recherche :
 
 ![ExtensionFichier](images/ExtensionFichier.PNG)
 
@@ -32,7 +32,7 @@ Insérez votre carte MicroSD, branchez le câble réseau et branchez l’aliment
 
 Identifiez votre Raspberry Pi sur le réseau
 
-Il faut connaître l’adresse Ip de votre Raspberry PI. Plusieurs solutions :
+Il faut connaître l’adresse IP de votre Raspberry PI. Plusieurs solutions :
 
 -   Consultez la configuration DHCP dans votre routeur
 -   Utilisez un scanner de port type "Angry IP Scanner" [ici](http://angryip.org/download/#windows)

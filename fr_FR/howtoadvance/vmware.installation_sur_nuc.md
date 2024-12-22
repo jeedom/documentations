@@ -155,4 +155,4 @@ Une fois le redémarrage fini vous devez avoir :
 
 Voilà VMware est installé (en plus il est sympa il vous donne son IP) , plus qu’à jouer avec !!!
 
-Pour la suite voici un [tutoriel](../howto/doc-howto-vmware.creer_une_vm.html) pour la création de votre première VM. Et vous trouverez [ici](../howto/doc-howto-vmware.trucs_et_astuces.html) un tutoriel de trucs et astuces (pour par exemple mettre votre licence VMware)
+Pour la suite voici un [tutoriel](vmware.creer_une_vm) pour la création de votre première VM. Et vous trouverez [ici](vmware.trucs_et_astuces) un tutoriel de trucs et astuces (pour par exemple mettre votre licence VMware)

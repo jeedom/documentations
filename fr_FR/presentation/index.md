@@ -15,7 +15,6 @@ Jeedom permet de nombreuses possibilités dont :
 - Gérer tous les automatismes de la maison, volets, portail, lumières, etc.,
 - Gérer ses périphériques multimédia audio et vidéo, et ses objets connectés.
 
-
 Jeedom repose sur le Core (le noyau), embarquant la structure et les fonctions centrales.
 
 Différents [plugins](https://market.jeedom.com) peuvent alors proposer de nouvelles fonctions.
@@ -26,22 +25,22 @@ Le Core comprend entre autres :
 
 *Les équipements, comprenant des actionneurs ou des capteurs, sont organisés par objets. Les objets peuvent, par exemple, représenter des pièces physiques*.
 
-[Synthèse](../core/4.1/overview)
+[Synthèse](../core/4.5/overview)
 
 ![Synthèse](images/doc-presentation-synthese.jpg)
 
-[Dashboard](../core/4.1/dashboard)
+[Dashboard](../core/4.5/dashboard)
 
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
 
 ## Historiques
 
-*Toutes les informations sont historisables (courbes de température, consommations, ouvertures de porte, etc), et accessibles dans Analyse → Historique ou depuis les tuiles du Dashboard.*
+*Toutes les informations sont historisables (courbes de température, consommations, ouvertures de porte, etc) et accessibles dans Analyse → Historique ou depuis les tuiles du Dashboard.*
 
-[Historique](../core/4.1/history)
+[Historique](../core/4.5/history)
 
-[Timeline](../core/4.1/timeline)
+[Timeline](../core/4.5/timeline)
 
 ![Page Historique](images/doc-presentation-historique.jpg)
 
@@ -49,7 +48,7 @@ Le Core comprend entre autres :
 
 *Les scénarios permettent d'automatiser tout ou partie de vos équipements. Ils sont construits avec différents blocs. Des blocs conditionnels (Si, Alors, Sinon), d'actions, de programmation (DANS x minutes ou A hhmm), de boucle, de commentaire, ou de code php. Tous les blocs sont imbricables les uns dans les autres, offrant des possibilités infinies.*
 
-[Mon premier scénario](../concept/#tocAnchor-4)
+[Mon premier scénario](../concept/index#tocAnchor-4)
 
 ![Page Scénario](images/doc-presentation-scenario.jpg)
 
@@ -71,13 +70,12 @@ Le Core comprend entre autres :
 
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 
-
 # Market
 
 Autour de ce noyau viennent se greffer des plugins, qui peuvent être de toutes sortes :
 
 -   Protocole domotique (Z-Wave, RFXcom, EnOcean…),
--   Protocole IP (KNX,xPL…),
+-   Protocole IP (KNX, xPL…),
 -   Objet communiquant (Nest, Netatmo…),
 -   Haut niveau (alarme, thermostat…),
 -   Organisation (agenda, Google agenda),
@@ -88,4 +86,3 @@ Ces plugins peuvent être installés depuis le Market et permettent d’étendre
 ![Page Market](images/doc-presentation-market.jpg)
 
 Jeedom permet à n’importe quel plugin de discuter avec un autre sur une base normalisée. Cela permet par exemple d’utiliser les plugins thermostat ou alarme avec n’importe quel protocole domotique ou même un plugin IP ou objet communicant…
-

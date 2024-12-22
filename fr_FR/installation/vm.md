@@ -64,7 +64,7 @@ Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](../premie
 
 ## Téléchargement d’une image Debian 11 - netinstall
 
-Téléchargez une image minimaliste debian 11 [ici](https://www.debian.org/releases/bullseye/debian-installer/), en choisissant "images de CD d’installation par le réseau" -> AMD64
+Téléchargez une image minimaliste debian 11 [ici](https://cdimage.debian.org/cdimage/archive/11.11.0/amd64/iso-cd/debian-11.11.0-amd64-netinst.iso).
 
 ## Configuration de l’environnement de la VM
 

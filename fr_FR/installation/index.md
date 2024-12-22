@@ -3,7 +3,7 @@
 Jeedom peut être installé sur différents composants hardware :
 
 -   un Raspberry Pi 2, 3 ou 4 
--   un NAS Synology
+-   un NAS Synology en VM ou Docker
 -   tout système Linux basé sur Debian 11 (Bullseye)
 -   Freebox Delta
 
@@ -19,25 +19,25 @@ En montage DIY (Do It Yourself), voici une configuration "type" pour bien début
 
 1.  Raspberry Pi 4 :
 
--   Un raspberry+boitier \~ 50 €
+-   Un raspberry + boitier \~ 50 €
 -   Une clef Aeotec Gen 5 \~ 60 €
 -   Une micro carte microSD \~ 7 €
 -   Une alimentation USB \~ 8 €
 
 Soit un total de 125 € pour une box domotique open source avec une maîtrise complète de son installation.
 
-> **Tip**
+> **Notes**
 >
-> - Il est possible d’ajouter ou de changer par une antenne Rfxcom, ou une clef enOcean, etc. 
+> - Il est possible d’ajouter ou de changer par une antenne Rfxcom ou une clef enOcean, etc. 
 > - En principe, il vous faut une clef USB par protocole supplémentaire. En fonction de leur nombre et de leur consommation cumulée, sur un Raspberry Pi vous pouvez avoir besoin d'un hub USB complémentaire avec son alimentation dédiée. 
 > - Pour la clef Z-Wave Aeotec Gen 5 en utilisation cumulée avec un Raspberry Pi 4 (modèles antérieurs non concernés), il faut en utliser une récente si vous souhaitez vous affranchir d'un hub USB. Se renseigner et se fournir chez un vendeur d'équipements domotiques.
-> - Sur RPi 4, il est vivement conseillé de remplacer la carte microSD par un disque dur mSATA USB3, directement relié au port USB3 avec boot natif. Les cartes microSD ont une durée de vie très limitée en échange de données intensif: à ne réserver que pour de courtes périodes de tests.
+> - Sur RPi 4, il est vivement conseillé de remplacer la carte microSD par un disque dur mSATA USB3, directement relié au port USB3 avec boot natif. Les cartes microSD ont une durée de vie très limitée en échange de données intensif : à ne réserver que pour de courtes périodes de tests.
 
-> **Tip**
+> **Note**
 >
 > Jeedom est un logiciel qui est et restera open source, son utilisation est entièrement gratuite et ne dépend pas d’un cloud ou d’un abonnement. Cependant, certains plugins qui permettent d’augmenter les capacités de Jeedom ou son utilisation peuvent être payants **et peuvent avoir besoin d’une connexion internet**. Vous pouvez retrouver la liste des plugins [ici](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin).
 
-> **Tip**
+> **FAQ**
 >
 > Service pack ? Quézako ? Vous pouvez voir [ici](https://blog.jeedom.com/?p=1215) les avantages des service packs.
 

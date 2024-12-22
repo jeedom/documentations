@@ -2,20 +2,20 @@
 
 > **Important**
 >
-> Attention, nous partons ici du principe que vous maîtrisez déjà Docker
+> Attention, nous partons ici du principe que vous maîtrisez déjà Docker.
 
 ## Installation de docker
 
 Docker est maintenant disponible sur toutes les distributions récentes.
-Pour l’installer sur une distribution
+Pour l’installer sur une distribution :
 
--   à base de ``rpm``
+- à base de ``rpm``
 
 ````
 yum install docker
 ````
 
--   à base de ``deb``
+- à base de ``deb``
 
 ````
 apt-get update
@@ -34,8 +34,8 @@ Puis lancez la :
 
 Avec :
 
--   ``jeedom-server`` : nom du container jeedom voulu
--   ``/opt/jeedom/www`` et ``/opt/jeedom/db`` : répertoire où les données de Jeedom sont mises sur l’hôte (attention a bien les créer avant)
+- ``jeedom-server`` : nom du container jeedom voulu
+- ``/opt/jeedom/www`` et ``/opt/jeedom/db`` : répertoire où les données de Jeedom sont mises sur l’hôte (attention a bien les créer avant)
 -  `` -p 80:80``: le port du container (80) est redirigé vers le port de l'hôte (par défaut 80 aussi)
 
 ### Liste des images disponibles
@@ -49,24 +49,23 @@ Avec :
 
 La liste complète est disponible sur le [Docker Hub](https://hub.docker.com/r/jeedom/jeedom/tags)
 
-> **TIPS**
+> **Note**
 >
 > Avec l'option `-d` Docker vous rend immédiatement la main (option 'detach') mais installe en tâche de fond. Il est possible de suivre les logs avec la commande `docker logs jeedom-server -f` (option f = follow)
 
 Il vous faut ensuite installer Jeedom en allant sur : ``IP_DOCKER:80``
 
-> **TIPS**
+> **Note**
 >
-> Vous pouvez voir les dockers qui tournent ``docker ps`` pour arreter votre container, jeedom-server par exemple, il vous suffit de faire ``docker stop jeedom-server``, pour le relancer ``docker start jeedom-server``
+> Vous pouvez voir les dockers qui tournent ``docker ps`` pour arrêter votre container, jeedom-server par exemple, il vous suffit de faire ``docker stop jeedom-server``, pour le relancer ``docker start jeedom-server``
 
 Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](../premiers-pas/index)
-
 
 # Docker compose
 
 Vous pouvez vous aussi installer jeedom à l'aide de docker compose : 
 
-## En mode 1 services
+## En mode 1 service
 
 ```
 services:
@@ -90,7 +89,6 @@ volumes:
   db:
   http:
 ```
-
 
 ## En mode 2 services (experimental)
 
@@ -154,10 +152,10 @@ volumes:
   http:
 ```
 
->**TIPS**
+> **Attention**
 >
->N'oubliez pas completer les `TODO` avec les mots de passe voulu
+> N'oubliez pas completer les `TODO` avec les mots de passe voulu
 
->**TIPS**
+> **Note**
 >
-> Il est possible de spécifier le port d'écoute d'Apache avec la variable d'environnement `APACHE_PORT`, attention a bien mettre à jour le `healthcheck` avec le nouveau port. Attention cela n'est possible qu'a partir de Jeedom 4.5
+> Il est possible de spécifier le port d'écoute d'Apache avec la variable d'environnement `APACHE_PORT`, attention à bien mettre à jour le `healthcheck` avec le nouveau port. Attention cela n'est possible qu'à partir de Jeedom 4.5

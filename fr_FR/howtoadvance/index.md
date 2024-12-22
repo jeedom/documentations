@@ -8,14 +8,6 @@
 ## Debian
 
 - [Installation](debian.installation)
-- [Trucs et astuces](debian.trucs_et_astuces)
-
-## Vmware
-
-- [Créer une VM](vmware.creer_une_vm)
-- [Installation sur NUC](vmware.installation_sur_nuc)
-- [Sauvegarde/restauration](vmware.mise_en_place_des_backups)
-- [Trucs et astuces](vmware.trucs_et_astuces)
 
 ## Archive
 
@@ -31,3 +23,10 @@
 - [Utilisation du VPN Synology](synology.utilisation_vpn)
 - [Utilisation de emoncms](utilisation.emoncms)
 - [Utilisation de opengarage](utilisation.opengarage)
+
+### Vmware
+
+- [Créer une VM](vmware.creer_une_vm)
+- [Installation sur NUC](vmware.installation_sur_nuc)
+- [Sauvegarde/restauration](vmware.mise_en_place_des_backups)
+- [Trucs et astuces](vmware.trucs_et_astuces)
