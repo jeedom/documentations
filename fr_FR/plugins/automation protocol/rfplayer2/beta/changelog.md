@@ -7,8 +7,7 @@
 - Fix une fuite de mémoire sur le démon
 - Debian 11 requis
 - Jeedom v4.4 requis
-
-- Meilleur gestion de niveau de log si sur aucun (le demon sera en log error)
+- Compatibilité Debian 12
 
 # 25/01/2023
 

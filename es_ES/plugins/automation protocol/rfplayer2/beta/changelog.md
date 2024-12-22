@@ -7,8 +7,7 @@
 - Reparar una pérdida de memoria en el demonio
 - Se requiere Debian 11
 - Jeedom v4.4 requeridos
-
-- Mejor gestión del nivel de registro si no está activado (el demonio estará en error de registro))
+- Compatibilidad con Debian 12
 
 # 25/01/2023
 

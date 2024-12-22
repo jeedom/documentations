@@ -7,8 +7,7 @@
 - Beheben Sie einen Speicherverlust im Daemon
 - Debian 11 erforderlich
 - Jeedom v4.4 erforderlich
-
-- Bessere Verwaltung der Protokollebene, wenn „Keine“ aktiviert ist (der Daemon weist einen Protokollfehler auf))
+- Debian 12-Kompatibilität
 
 # 25.01.2023
 
