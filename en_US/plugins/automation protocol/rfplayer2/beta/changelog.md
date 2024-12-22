@@ -7,8 +7,7 @@
 - Fix memory leak on daemon
 - Debian 11 required
 - Jeedom v4.4 required
-
-- Better log level management if on none (the daemon will be in log error)
+- Debian 12 Compatibility
 
 # 01/25/2023
 

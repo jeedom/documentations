@@ -7,8 +7,7 @@
 - Corrija um vazamento de memória no daemon
 - Debian 11 necessário
 - Jeedom v4.4 obrigatório
-
-- Melhor gerenciamento do nível de log se não houver nenhum (o daemon estará com erro de log)
+- Compatibilidade com Debian 12
 
 # 25/01/2023
 
