@@ -85,6 +85,6 @@ Voici donc les différentes caractéristiques pour configurer un objet :
 
 ## Onglets Résumés
 
-[Voir documentation sur les résumés.](/fr_FR/concept/summary)
+[Voir documentation sur les résumés.](../concept/summary)
 
 
