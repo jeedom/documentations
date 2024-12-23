@@ -1,20 +1,24 @@
 {
 	"id": "MyTado",
 	"name": "MyTado",
-	"version": "1.5",
+	"version": "3.0",
 	"description": {
-		"fr_FR": "Ce plugin permet de gérer les objets connectés Tado. Il donne également accès à la météo Tado.",
-		"en_US": "This plugin enables management of your Tado devices. You may as well access weather data managed by Tado.",
-		"de_DE": "Dieses Plugin ermöglicht die Verwaltung Ihrer Tado-Geräte. Sie können auch auf von Tado verwaltete Wetterdaten zugreifen."
+		"fr_FR": "Ce plugin permet de gérer vos objets connectés Tado et TadoX. Il donne également accès à la météo Tado.",
+		"en_US": "This plugin enables management of your Tado and TadoX devices. You may as well access weather data managed by Tado.",
+		"de_DE": "Dieses Plugin ermöglicht die Verwaltung Ihrer Tado- und TadoX-Geräte. Sie können auch auf von Tado verwaltete Wetterdaten zugreifen.",
+		"es_ES": "Este plugin permite gestionar sus dispositivos conectados de Tado y TadoX. También proporciona acceso a la meteorología de Tado."
 	},
 	"licence": "GNU",
 	"author": "eperche",
 	"require": "4.4",
 	"category": "devicecommunication",
-	"hasDependency": false,
-	"hasOwnDeamon": false,
+	"hasDependency": true,
+	"hasOwnDeamon": true,
 	"cron": "30",
 	"maxDependancyInstallTime": 0,
+	"whiteListFolders": [
+		"/docs"
+	],
 	"changelog_beta": "https:\/\/eperche-fr.github.io\/docs\/MyTado\/#language#\/changelog_beta",
 	"changelog": "https:\/\/eperche-fr.github.io\/docs\/MyTado\/#language#\/changelog",
 	"documentation_beta": "https:\/\/eperche-fr.github.io\/docs\/MyTado\/#language#\/index_beta",
@@ -30,7 +34,7 @@
 	],
 	"compatibility": [
 		"luna",
-		"mobileapp",
+		"mobile",
 		"v4",
 		"docker",
 		"rpi"
