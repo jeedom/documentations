@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Fix memory leak on daemon
+
 # 12/18/2024
 
 - Minor fixes

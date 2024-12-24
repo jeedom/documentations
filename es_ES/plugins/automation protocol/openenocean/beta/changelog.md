@@ -4,6 +4,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Reparar una pérdida de memoria en el demonio
+
 # 18/12/2024
 
 - Correcciones menores

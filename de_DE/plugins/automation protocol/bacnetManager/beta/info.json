@@ -1,21 +1,21 @@
 {
     "id": "bacnetManager",
-    "name": "BacnetManager",
+    "name": "BACnetServer",
     "description": {
-        "fr_FR": "Plugin permettant de créér un device Bacnet, d'y ajouter des commandes infos Jeedom en point Bacnet, et ainsi lire ou écrire sur ce device Bacnet depuis n'importe quel autre client bacnet",
-        "en_US": "Plugin to create a Bacnet device, add Jeedom info commands to it at a Bacnet point, and thus read or write to this Bacnet device from any other Bacnet client",
-        "es_ES": "Complemento que le permite crear un dispositivo Bacnet, agregarle comandos de información Jeedom en Bacnet Point y, por lo tanto, leer o escribir en este dispositivo Bacnet desde cualquier otro cliente Bacnet",
-        "de_DE": "Plugin, mit dem Sie ein Bacnet-Gerät erstellen, ihm im Bacnet-Punkt Jeedom-Infobefehle hinzufügen und so von jedem anderen Bacnet-Client aus auf dieses Bacnet-Gerät lesen oder schreiben können",
-        "ru_RU": "Plugin permettant de créér un device Bacnet, d'y ajouter des commandes infos Jeedom en point Bacnet, et ainsi lire ou écrire sur ce device Bacnet depuis n'importe quel autre client bacnet",
-        "id_ID": "Plugin permettant de créér un device Bacnet, d'y ajouter des commandes infos Jeedom en point Bacnet, et ainsi lire ou écrire sur ce device Bacnet depuis n'importe quel autre client bacnet",
-        "it_IT": "Plugin permettant de créér un device Bacnet, d'y ajouter des commandes infos Jeedom en point Bacnet, et ainsi lire ou écrire sur ce device Bacnet depuis n'importe quel autre client bacnet",
-        "ja_JP": "Plugin permettant de créér un device Bacnet, d'y ajouter des commandes infos Jeedom en point Bacnet, et ainsi lire ou écrire sur ce device Bacnet depuis n'importe quel autre client bacnet",
-        "pt_PT": "Plugin que permite criar um dispositivo Bacnet, adicionar comandos de informações do Jeedom a ele no ponto Bacnet e, assim, ler ou gravar neste dispositivo Bacnet a partir de qualquer outro cliente Bacnet",
-        "tr": "Plugin permettant de créér un device Bacnet, d'y ajouter des commandes infos Jeedom en point Bacnet, et ainsi lire ou écrire sur ce device Bacnet depuis n'importe quel autre client bacnet"
+        "fr_FR": "Plugin permettant de créer un device Bacnet\/Jeedom",
+        "en_US": "Plugin allowing to create a Bacnet\/Jeedom device",
+        "es_ES": "Complemento que permite crear un dispositivo Bacnet\/Jeedom",
+        "de_DE": "Plugin zum Erstellen eines Bacnet\/Jeedom-Geräts",
+        "ru_RU": "Plugin permettant de créer un device Bacnet\/Jeedom",
+        "id_ID": "Plugin permettant de créer un device Bacnet\/Jeedom",
+        "it_IT": "Plugin permettant de créer un device Bacnet\/Jeedom",
+        "ja_JP": "Plugin permettant de créer un device Bacnet\/Jeedom",
+        "pt_PT": "Plugin que permite criar um dispositivo Bacnet\/Jeedom",
+        "tr": "Plugin permettant de créer un device Bacnet\/Jeedom"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "4.4.2",
+    "require": "4.0.62",
     "category": "automation protocol",
     "hasDependency": true,
     "hasOwnDeamon": true,
@@ -27,12 +27,7 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "ru_RU",
-        "id_ID",
-        "it_IT",
-        "ja_JP",
-        "pt_PT",
-        "tr"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",
