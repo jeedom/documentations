@@ -1,8 +1,8 @@
-# BacnetServer
+# BacnetManager
 
 # Description
 
-The Bacnet plugin allows you to create Bacnet equipment for your Jeedom, as well as its Jeedom commands, to be seen on the network by a Bacnet supervisor
+The BacnetManager plugin allows you to create a Bacnet device for your Jeedom, as well as its Jeedom commands, to be seen on the network by a Bacnet supervisor
 
 
 
@@ -10,20 +10,20 @@ The Bacnet plugin allows you to create Bacnet equipment for your Jeedom, as well
 
 After downloading the plugin, you must first activate it, like any Jeedom plugin :
 
-![config](../images/BacnetServerConfig.png)
+![config](../images/BacnetManagerConfig.png)
 
 Then, you have to start the installation of the dependencies (even if they appear OK) :
 
-![dependances](../images/BacnetServerDep.png)
+![dependances](../images/BacnetManagerDep.png)
 
 Finally, start the daemon :
 
-![demon](../images/BacnetServerDemon.png)
+![demon](../images/BacnetManagerDemon.png)
 
 
 Rien n'est à modifier dans le champ « Port socket interne » de la section « Configuration ».
 
-![socket](../images/BacnetServerConfig.png)
+![socket](../images/BacnetManagerConfig.png)
 
 
 In this same tab, you must choose the Cron value for updating your equipment.
@@ -41,16 +41,16 @@ In this same tab, you must choose the Cron value for updating your equipment.
 >Your BACNET equipment must be on the same network as your Jeedom to be detected by it.
 
 
-By default, a jeeBacnetServer device is created; it is this 'bacnet' equipment which will be seen by your Bacnet supervisor on the network
+By default, a jeeBacnetManager device is created; it is this 'bacnet' equipment which will be seen by your Bacnet supervisor on the network
 
 You can configure its deviceId in the plugin configuration
 
-![menu](../images/BacnetServerConfig.png)
+![menu](../images/BacnetManagerConfig.png)
 
 
-To add Jeedom commands to your jeeBacnetServer, click Add Commands to Server :
+To add Jeedom commands to your jeeBacnetManager, click Add Commands to Server :
 
-![accueil](../images/BacnetServerAccueil.png)
+![accueil](../images/BacnetManagerAccueil.png)
 
 
 A modal will open, where all the Info type commands present in the different plugins of your jeedom will appear.
@@ -64,12 +64,12 @@ A modal will open, where all the Info type commands present in the different plu
 You must also name the order, by filling in the field provided for this purpose. 
 Do not put spaces in the command name
 
-![syntaxCmds](../images/BacnetServersyntax.png)
+![syntaxCmds](../images/BacnetManagersyntax.png)
 
 All you have to do is search for the ones you want, and Validate.
 
 
-![accueil](../images/BacnetServerModale.png)
+![accueil](../images/BacnetManagerModale.png)
 
 
 The bacnet device with the instanceId you have chosen will be created, and appear on your network.
@@ -77,7 +77,7 @@ The bacnet device with the instanceId you have chosen will be created, and appea
 
 To update the values you need to configure the cron in the plugin configuration.
 
-![accueil](../images/BacnetServerConfig.png)
+![accueil](../images/BacnetManagerConfig.png)
 
 
 
@@ -85,10 +85,10 @@ To delete commands from the Server, you must go to the commands of the equipment
 
 
 
-You can also delete the device from the network, as well as its bacnet points by clicking on Delete the jeeBacnetServer.
+You can also delete the device from the network, as well as its bacnet points by clicking on Delete the jeeBacnetManager.
 
 
-![accueil](../images/BacnetServerReinit.png)
+![accueil](../images/BacnetManagerReinit.png)
 
 
 
@@ -116,7 +116,7 @@ This will take the initial value of the command uploaded, then multiply it by 10
 
 Example :
 
-![accueil](../images/BacnetServerPost.png)
+![accueil](../images/BacnetManagerPost.png)
 
 
 
@@ -125,15 +125,15 @@ Example :
 >You will find all the existing commands on the jeeServer on the plugin screen, by clicking on Cmds JeeServer
 
 
-![accueil](../images/BacnetServerAccueil.png)
+![accueil](../images/BacnetManagerAccueil.png)
 
-![cmdExist](../images/BacnetServerCmdsExit.png)
-
-
-# Import/Export the jeeBacnetServer (coming soon)):
+![cmdExist](../images/BacnetManagerCmdsExit.png)
 
 
-![accueil](../images/BacnetServerAccueil.png)
+# Import/Export the jeeBacnetManager (coming soon)):
+
+
+![accueil](../images/BacnetManagerAccueil.png)
 
 To prevent needs, 2 options are provided : 
 
@@ -145,7 +145,7 @@ By clicking on this button, it will download a Json file containing the configur
 
 - Import device :
 
-By clicking on this button, you can import the jeeBacnetServer configuration json file that you would have downloaded, to use the commands that were configured in this one
+By clicking on this button, you can import the jeeBacnetManager configuration json file that you would have downloaded, to use the commands that were configured in this one
 
 # ANNEXE:
 

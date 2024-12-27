@@ -4,11 +4,19 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Fix memory leak on daemon
+- Debian 11 required
+- Jeedom v4.4 required
+- Debian 12 Compatibility
+
+# 01/25/2023
+
+- Remove package enum > python3.2
+
 # 01/09/2023
 
 - Support for Debian11
 - Fix import path
-
 
 # 11/27/2020
 
@@ -46,6 +54,7 @@ Addition of Edisio actuator
 Add Edisio Frame
 
 # 10/18/2018
+
 Change battery calculation on Edisio
 Change management of ids
 Management of special characters for sending the parrot name, the rfp1000 does not like non ascii

@@ -4,17 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-# 18/12/2024
+# 27/12/2024
 
-- Correcciones menores
-
-# 23/10/2024
-
-- Solución de compatibilidad con Debian 12
-
-# 10/10/2024
-
+- Reparar una pérdida de memoria en el demonio
 - Compatibilidad del demonio con Debian 12
+- Correcciones menores
 - Jeedom 4.Se requieren 4 o más
 - Se requiere Debian 11 o superior
 

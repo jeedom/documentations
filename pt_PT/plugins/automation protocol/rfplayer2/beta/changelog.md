@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 27/12/2024
+
 - Corrija um vazamento de memória no daemon
 - Debian 11 necessário
 - Jeedom v4.4 obrigatório

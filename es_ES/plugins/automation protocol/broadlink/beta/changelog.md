@@ -4,24 +4,14 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# 20/12/2024
+# 27/12/2024
 
 - Reparar una pérdida de memoria en el demonio
-- Se requiere Debian 11
-
-# 25/11/2024
-
 - Solucionar un problema al instalar dependencias que podrían ocurrir en ciertas instalaciones
-
-# 16/08/2024
-
+- Modernización de la interfaz
+- Se requiere Debian 11
 - Compatibilidad con Debian 12
 - Jeedom v4.4.8 requeridos
-- Ya no se garantiza la compatibilidad con Debian 10, si todavía estás en Debian 10 y no tienes problemas no instales la actualización.
-
-# 10/11/2022
-
-- Modernización de la interfaz
 
 # 30/09/2022
 

@@ -4,11 +4,19 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Corrija um vazamento de memória no daemon
+- Debian 11 necessário
+- Jeedom v4.4 obrigatório
+- Compatibilidade com Debian 12
+
+# 25/01/2023
+
+- Remover pacote enum > python3.2
+
 # 01/09/2023
 
 - Suporte para Debian11
 - Corrigir caminho de importação
-
 
 # 27/11/2020
 
@@ -46,6 +54,7 @@ Adição do atuador Edisio
 Adicionar quadro Edisio
 
 # 18/10/2018
+
 Alterar o cálculo da bateria no Edisio
 Alterar gerenciamento de IDs
 Gerenciamento de caracteres especiais para o envio do nome do papagaio, o rfp1000 não gosta de não ascii
