@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 12/27/2024
+
 - Fix memory leak on daemon
 - Debian 11 required
 - Jeedom v4.4 required

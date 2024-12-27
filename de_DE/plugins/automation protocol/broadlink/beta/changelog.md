@@ -4,24 +4,14 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# 20.12.2024
+# 27.12.2024
 
 - Beheben Sie einen Speicherverlust im Daemon
-- Debian 11 erforderlich
-
-# 25.11.2024
-
 - Behebung eines Problems bei der Installation von Abhängigkeiten, das bei bestimmten Installationen auftreten konnte
-
-# 16.08.2024
-
+- Schnittstellenmodernisierung
+- Debian 11 erforderlich
 - Debian 12-Kompatibilität
 - Jeedom v4.4.8 erforderlich
-- Die Kompatibilität mit Debian 10 ist nicht mehr gewährleistet. Wenn Sie noch Debian 10 verwenden und keine Probleme haben, installieren Sie das Update nicht.
-
-# 11.10.2022
-
-- Schnittstellenmodernisierung
 
 # 30.09.2022
 

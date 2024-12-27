@@ -4,19 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 27/12/2024
+
 - Corrija um vazamento de memória no daemon
-
-# 18/12/2024
-
-- Pequenas correções
-
-# 23/10/2024
-
-- Correção de compatibilidade do Debian 12
-
-# 10/10/2024
-
 - Compatibilidade do Daemon com Debian 12
+- Pequenas correções
 - Jeedom 4.4 ou mais necessários
 - Debian 11 ou superior necessário
 

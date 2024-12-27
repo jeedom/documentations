@@ -4,24 +4,14 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# 20/12/2024
+# 27/12/2024
 
 - Fix une fuite de mémoire sur le démon
-- Debian 11 requis
-
-# 25/11/2024
-
 - Fix un soucis d'installation de dépendances qui pouvait se produire sur certaines installations
-
-# 16/08/2024
-
+- Modernisation de l'interface
+- Debian 11 requis
 - Compatibilité Debian 12
 - Jeedom v4.4.8 requis
-- La compatibilité avec Debian 10 n'est plus garantie, si vous êtes encore sous Debian 10 et que vous n'avez pas de problème, n'installez pas la mise à jour.
-
-# 10/11/2022
-
-- Modernisation de l'interface
 
 # 30/09/2022
 

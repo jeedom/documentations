@@ -4,24 +4,14 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 20/12/2024
+# 12/27/2024
 
 - Fix memory leak on daemon
-- Debian 11 required
-
-# 11/25/2024
-
 - Fixed a dependency installation issue that could occur on some installations
-
-# 08/16/2024
-
+- Interface modernization
+- Debian 11 required
 - Debian 12 Compatibility
 - Jeedom v4.4.8 required
-- Compatibility with Debian 10 is no longer guaranteed, if you are still on Debian 10 and have no problems, do not install the update.
-
-# 10/11/2022
-
-- Interface modernization
 
 # 09/30/2022
 

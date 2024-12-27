@@ -4,19 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 12/27/2024
+
 - Fix memory leak on daemon
-
-# 12/18/2024
-
-- Minor fixes
-
-# 10/23/2024
-
-- Fix Debian 12 compatibility
-
-# 10/10/2024
-
 - Daemon Compatibility with Debian 12
+- Minor fixes
 - Jeedom 4.4 or more required
 - Debian 11 or later required
 
