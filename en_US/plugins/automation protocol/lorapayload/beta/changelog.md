@@ -6,7 +6,7 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
-# xx/xx/xx
+# 12/31/2024
 
 - Adding configuration *NKE Torano*
 
@@ -39,6 +39,8 @@
 - Added Battery for *NKE Torano*
 
 - Adding configuration *Thermokon 835633 - NOVOS 3 Room control module temperature, relative humidity, CO2*
+
+- Adding configuration *Adeunis ARF8230ABA - Pulse meter pulse transmitter*
 
 # 10/30/2024
 

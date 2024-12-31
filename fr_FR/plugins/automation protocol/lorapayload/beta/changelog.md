@@ -6,7 +6,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# xx/xx/xx
+# 31/12/2024
 
 - Ajout de la configuration *NKE Torano*
 
@@ -39,6 +39,8 @@
 - Ajout de la Batterie pour *NKE Torano*
 
 - Ajout de la configuration *Thermokon 835633 - NOVOS 3 Module de commande d'ambiance température, humidité relative, CO2*
+
+- Ajout de la configuration *Adeunis ARF8230ABA - Emetteur impulsion compteur pulse*
 
 # 30/10/2024
 

@@ -6,7 +6,7 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
-# xx/xx/xx
+# 31/12/2024
 
 - Adicionando configuração *NKE Torano*
 
@@ -39,6 +39,8 @@
 - Bateria adicionada para *NKE Torano*
 
 - Adicionando configuração *Thermokon 835633 - NOVOS 3 Módulo de controle ambiente temperatura, umidade relativa, CO2*
+
+- Adicionando configuração *Adeunis ARF8230ABA - Transmissor de pulso contador de pulso*
 
 # 30/10/2024
 
