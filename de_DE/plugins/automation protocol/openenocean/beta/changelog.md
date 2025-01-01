@@ -4,7 +4,7 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 27.12.2024
+# 01.01.2025
 
 - Beheben Sie einen Speicherverlust im Daemon
 - Daemon-Kompatibilität mit Debian 12

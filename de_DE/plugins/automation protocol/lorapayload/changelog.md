@@ -6,7 +6,41 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# xx/08/2024
+# xx/xx/xx
+
+- Konfiguration hinzufügen *NKE Torano*
+
+- Ändern der Konfiguration *Dragino LSN50 V2 - MOD4* (Eigenschaften : Digitaler Interrupt)
+
+- Konfiguration hinzufügen *Thermokon 798808 - MCS Raumsensor Temperatur, relative Luftfeuchtigkeit, Helligkeit*
+
+- Konfiguration hinzufügen *Thermokon 817318 - MCS Bewegungsmelder, Raumsensor Temperatur, relative Luftfeuchtigkeit, Helligkeit, Bewegung, Präsenz, Status*
+
+- Konfiguration hinzufügen *Thermokon 824248 - NOVOS 3 Raumsteuermodul Temperatur, relative Luftfeuchtigkeit, CO2*
+
+- Konfiguration hinzufügen *Dragino RS485-LN + NILAN*
+
+- Chirpstack-Bedienfeld hinzugefügt
+
+- Schaltfläche „Neugenerierung der LoRaWAN-Konfiguration“ hinzugefügt"
+
+- Konfiguration hinzufügen *Milesight-Umgebungsüberwachungssensoren AM102*
+
+- Konfiguration hinzufügen *Elektronische Karte – TIC LoRaWAN*
+
+- Downlink-Befehl korrigieren *Milesight Smarter Heizkörperthermostat WT101*
+
+- Ändern der Konfiguration *Ewattch Squid Pro Rogowski*
+
+- Decoder-Korrektur *Drahtloser MClimate-Thermostat*
+
+- Info-Befehle für hinzugefügt *Ewattch Squid Pro Rogowski*
+
+- Batterie für hinzugefügt *NKE Torano*
+
+- Konfiguration hinzufügen *Thermokon 835633 - NOVOS 3 Raumsteuermodul Temperatur, relative Luftfeuchtigkeit, CO2*
+
+# 30.10.2024
 
 - Ändern der Konfiguration *Drahtloser MClimate-Thermostat* (Eigenschaften : Manuelle Aktualisierung der Zieltemperatur)
 
@@ -76,6 +110,7 @@
 
 
 # 21.02.2024
+
 - Ändern der Protokollebene für bestimmte vom Plugin generierte Informationen
 
 - Ändern des Modultyps *Milesight EM500 PT100*
@@ -84,6 +119,7 @@
 
 
 # 19.01.2024
+
 - Konfiguration hinzufügen *RAK c15003* (Eigenschaften : Temperatur, Luftfeuchtigkeit, Druck, Temperatur2)
 
 - Ändern der Konfiguration *Mclimate Vicki* (Eigenschaften : GetKeepAlive, KeepAlive, GetDevicePrimaryOperationalMode, DevicePrimaryOperationalMode, GetOperationalMode, OperationalMode, Proportionalsteuerung, Gleichrichtungssteuerung, Proportional-Integralsteuerung, GetControlAlgorithm, ControlAlgorithm, Parameter zur Erkennung offener Fenster (1.0 Genauigkeit), Parameter zur Erkennung offener Fenster (0.1 Genauigkeit))

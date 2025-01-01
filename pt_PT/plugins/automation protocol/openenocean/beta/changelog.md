@@ -4,7 +4,7 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-# 27/12/2024
+# 01/01/2025
 
 - Corrija um vazamento de memória no daemon
 - Compatibilidade do Daemon com Debian 12

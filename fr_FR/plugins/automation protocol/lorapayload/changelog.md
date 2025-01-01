@@ -6,6 +6,42 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 31/12/2024
+
+- Ajout de la configuration *NKE Torano*
+
+- Modification de la configuration *Dragino LSN50 V2 - MOD4* (propriétés : Digital Interrupt)
+
+- Ajout de la configuration *Thermokon 798808 - MCS Capteur d’ambiance température, humidité relative, luminosité*
+
+- Ajout de la configuration *Thermokon 817318 - MCS Détecteur de mouvement, Capteur d'ambiance température, humidité relative, luminosité, mouvement, présence, statut*
+
+- Ajout de la configuration *Thermokon 824248 - NOVOS 3 Module de commande d'ambiance température, humidité relative, CO2*
+
+- Ajout de la configuration *Dragino RS485-LN + NILAN*
+
+- Ajout du panel Chirpstack
+
+- Ajout du bouton "Regeneration de la configuration LoRaWAN"
+
+- Ajout de la configuration *Milesight Ambience Monitoring Sensors AM102*
+
+- Ajout de la configuration *Carte Electronic - TIC LoRaWAN*
+
+- Correction de la commande de downlink *Milesight Smart Radiator Thermostat WT101*
+
+- Modification de la configuration *Ewattch Squid Pro Rogowski*
+
+- Correction décodeur *Mclimate Wireless Thermostat*
+
+- Ajout des commandes infos pour *Ewattch Squid Pro Rogowski*
+
+- Ajout de la Batterie pour *NKE Torano*
+
+- Ajout de la configuration *Thermokon 835633 - NOVOS 3 Module de commande d'ambiance température, humidité relative, CO2*
+
+- Ajout de la configuration *Adeunis ARF8230ABA - Emetteur impulsion compteur pulse*
+
 # 30/10/2024
 
 - Modification de la configuration *MClimate Wireless Thermostat* (propriétés : Manual Target Temperature Update)
