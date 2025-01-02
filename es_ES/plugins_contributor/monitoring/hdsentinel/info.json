@@ -13,7 +13,7 @@
 	"utilization": "Après avoir installé le plugin, ajoutez un équipement et entrez les informations SSH : IP, port, identifiant, mot de passe, Sauvegardez et Envoyez les fichiers puis Installer HD Sentinel et enfin lancez le cron distant",
 	"licence": "AGPL",
 	"author": "DomoFlo1",
-	"require": "4.0",
+	"require": "4.4",
 	"hasDependency": false,
 	"hasOwnDeamon": false,
 	"category": "monitoring",
