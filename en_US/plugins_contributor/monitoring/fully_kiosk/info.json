@@ -6,10 +6,10 @@
 	"author" : "vegeta0911",
 	"require" : "4.4",
 	"pluginVersion": "1.0",
-        "os" : {
-		"min" : 11,
-		"max" : 12.99
-        },
+        "os": {
+		"min": 11,
+		"max": ""
+	},
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,	
 	"category" : "monitoring",

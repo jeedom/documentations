@@ -6,7 +6,41 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
-# xx/08/2024
+# xx/xx/xx
+
+- Agregar configuración *NKE Torano*
+
+- Cambiando la configuración *Dragino LSN50 V2 - MOD4* (propiedades : Interrupción digital)
+
+- Agregar configuración *Thermokon 798808 - MCS Sensor ambiente temperatura, humedad relativa, luminosidad*
+
+- Agregar configuración *Thermokon 817318 - MCS Detector de movimiento, Sensor ambiente temperatura, humedad relativa, luminosidad, movimiento, presencia, estado*
+
+- Agregar configuración *Thermokon 824248 - NOVOS 3 Módulo de control de ambiente temperatura, humedad relativa, CO2*
+
+- Agregar configuración *Dragino RS485-LN + NILAN*
+
+- Panel Chirpstack agregado
+
+- Se agregó el botón "Regeneración de la configuración de LoRaWAN""
+
+- Agregar configuración *Sensores de monitoreo ambiental Milesight AM102*
+
+- Agregar configuración *Tarjeta Electrónica - TIC LoRaWAN*
+
+- Arreglar el comando de enlace descendente *Termostato de radiador inteligente Milesight WT101*
+
+- Cambiando la configuración *Ewattch Calamar Pro Rogowski*
+
+- Corrección del decodificador *Termostato inalámbrico MClimate*
+
+- Se agregaron comandos de información para *Ewattch Calamar Pro Rogowski*
+
+- Batería agregada para *NKE Torano*
+
+- Agregar configuración *Thermokon 835633 - NOVOS 3 Módulo de control de ambiente temperatura, humedad relativa, CO2*
+
+# 30/10/2024
 
 - Cambiando la configuración *Termostato inalámbrico MClimate* (propiedades : Actualización manual de la temperatura objetivo)
 
@@ -76,6 +110,7 @@
 
 
 # 21/02/2024
+
 - Cambiar el nivel de registro para cierta información generada por el complemento
 
 - Cambiar el tipo de módulo *Vista de millas EM500 PT100*
@@ -84,6 +119,7 @@
 
 
 # 19/01/2024
+
 - Agregar configuración *RAK c15003* (propiedades : Temperatura, Humedad, Presión, Temperatura2)
 
 - Cambiando la configuración *Vicki del clima* (propiedades : GetKeepAlive, KeepAlive, GetDevicePrimaryOperationalMode, DevicePrimaryOperationalMode, GetOperationalMode, OperationalMode, control proporcional, control direccional igual, control integral proporcional, GetControlAlgorithm, ControlAlgorithm, parámetros de detección de ventana abierta (1.0 precisión), parámetros de detección de ventana abierta (0.1 precisión))

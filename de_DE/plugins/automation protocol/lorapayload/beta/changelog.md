@@ -6,7 +6,7 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# xx/xx/xx
+# 31.12.2024
 
 - Konfiguration hinzufügen *NKE Torano*
 
@@ -39,6 +39,8 @@
 - Batterie für hinzugefügt *NKE Torano*
 
 - Konfiguration hinzufügen *Thermokon 835633 - NOVOS 3 Raumsteuermodul Temperatur, relative Luftfeuchtigkeit, CO2*
+
+- Konfiguration hinzufügen *Adeunis ARF8230ABA – Impulszähler-Impulssender*
 
 # 30.10.2024
 
