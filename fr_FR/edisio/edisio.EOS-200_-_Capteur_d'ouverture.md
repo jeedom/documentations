@@ -45,7 +45,7 @@ Le signal est uniquement envoyé à la séparation du capteur de son élément m
 
 ## Configuration générale
 
-Pour configurer le plugin Edisio et associer un module à Jeedom, référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/edisio/).
+Pour configurer le plugin Edisio et associer un module à Jeedom, référez-vous à cette [documentation](../plugins/automation%20protocol/edisio/).
 
 > **Important**
 >
