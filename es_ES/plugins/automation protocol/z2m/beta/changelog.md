@@ -4,6 +4,8 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+- Inicio del soporte para zigbee2mqtt 2.0
+
 # 16/12/2024
 
 - Actualización de documentación
