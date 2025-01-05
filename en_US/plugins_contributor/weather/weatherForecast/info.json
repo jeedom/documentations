@@ -1,0 +1,21 @@
+{
+    "id": "weatherForecast",
+    "name": "Weather Forecast",
+    "description": {
+        "fr_FR": "Ce plugin permet de récupérer la météo actuelle et les prévisions météorologiques sur quelques jours en utilisant les sources OpenWeather ou WeatherAPI. Les heures de lever et coucher du soleil sont calculées sans connexion externe. Un widget est fourni permettant d'afficher la météo sous une horloge similaire à celle du plugin horlogeHTC."
+    },
+    "utilization": "Renseignez vos clés API openweathermap et/ou weatherapi dans la configuration du plugin. Créez un équipement, choisissez la source de données OpenWeather ou WeatherAPI et indiquez les coordonnées du lieu désiré.",
+    "licence": "AGPL",
+    "author": "jpty",
+    "require": "3.3",
+    "category": "weather",
+    "changelog": "https://jpty.github.io/jeedom/plugins/weatherForecast/fr_FR/changelog.html",
+    "changelog_beta": "https://jpty.github.io/jeedom/plugins/weatherForecast/fr_FR/changelog.html",
+    "documentation": "https://jpty.github.io/jeedom/plugins/weatherForecast/",
+    "documentation_beta": "https://jpty.github.io/jeedom/plugins/weatherForecast/",
+    "compatibility": [
+        "smart",
+        "diy",
+        "v4"
+    ]
+}
