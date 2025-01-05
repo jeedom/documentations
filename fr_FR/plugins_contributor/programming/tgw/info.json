@@ -31,7 +31,6 @@
 		"pt_PT"
 	],
 	"compatibility": [
-		"smart",
 		"rpi",
 		"docker",
 		"diy",
