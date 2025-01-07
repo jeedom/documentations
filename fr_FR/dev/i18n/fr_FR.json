@@ -2075,7 +2075,7 @@
         "Son utilisation simplifie le processus de configuration et vous fait gagner un temps précieux dans le développement de votre plugin": "Son utilisation simplifie le processus de configuration et vous fait gagner un temps précieux dans le développement de votre plugin",
         "👉 Pour lancer l'assistant, ouvrez un terminal dans le répertoire du plugin template et exécutez la commande suivante": "👉 Pour lancer l'assistant, ouvrez un terminal dans le répertoire du plugin template et exécutez la commande suivante",
         "```": "```",
-        "php plugin_info\/configurationHelper.php": "php plugin_info\/configurationHelper.php",
+        "php plugin_info\/helperConfiguration.php": "php plugin_info\/helperConfiguration.php",
         "Si vous ne voulez pas utilisez ce script, vous pouvez suivre les étapes suivantes pour renommer les fichiers": "Si vous ne voulez pas utilisez ce script, vous pouvez suivre les étapes suivantes pour renommer les fichiers",
         "Renommez le dossier \" plugin-template-master \" en \" vdm \" (l'id) du plugin": "Renommez le dossier \" plugin-template-master \" en \" vdm \" (l'id) du plugin",
         "1\/ Ouvrir le fichier plugin_info\/info": "1\/ Ouvrir le fichier plugin_info\/info",
