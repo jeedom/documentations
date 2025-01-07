@@ -26,7 +26,8 @@ On y va.
 >Un assistant de configuration est disponible pour vous aider à personnaliser rapidement votre plugin.
 >Cet outil interactif vous permet de définir facilement le nom du plugin, d'indiquer si un démon est requis, et prend en charge la modification automatique de tous les fichiers nécessaires.
 >Son utilisation simplifie le processus de configuration et vous fait gagner un temps précieux dans le développement de votre plugin.
-> 👉 Pour lancer l'assistant, ouvrez un terminal dans le répertoire du plugin template et exécutez la commande suivante :
+
+👉 Pour lancer l'assistant, ouvrez un terminal dans le répertoire du plugin template et exécutez la commande suivante :
 
 ```
 php plugin_info/configurationHelper.php
