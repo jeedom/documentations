@@ -23,8 +23,8 @@ Esta documentación reúne recomendaciones para valores de comando (acción o in
 |Tipo genérico  | Valores/Acción |
 |----------------|------------|
 |Información/Enchufe<br/>Etat|0 = Apagado<br/>1 = activado|
-|Acción tomada<br/>Botón de encendido|Enciende el enchufe| 
-|Acción tomada<br/>Botón de apagado|Apague el enchufe|
+|Acción/Tomada<br/>Botón de encendido|Enciende el enchufe| 
+|Acción/Tomada<br/>Botón de apagado|Apague el enchufe|
 
 ## Interrupteurs
 
@@ -53,7 +53,7 @@ Esta documentación reúne recomendaciones para valores de comando (acción o in
 |Botón de acción/parada del obturador|Detener el movimiento de la persiana|
 |Control deslizante del botón de acción/panel|Da la proporción de apertura de la persiana<br/>Si está presente:<br/>Mínimo y máximo obligatorios|
 
-en opción :
+opcional :
 
 |Tipo genérico  | Valores/Acción |
 |---------------|----------------|
@@ -176,8 +176,8 @@ o cualquiera :
 |Información/CO2 (ppm)|PPM o binario ?|
 |Información/Temperatura|-50 → 300°C| 
 |Información/Batería|%| 
-|Información/Carga de batería|0 = no<br/>1 = si<br/>No presente = No recargable| 
-|Información/batería baja|0 = no<br/>1 = si| 
+|Información/Carga de batería|0 = NO<br/>1 = SÍ<br/>No presente = No recargable| 
+|Información/batería baja|0 = NO<br/>1 = SÍ| 
 |Información/Detección de humo|0 = Sin humo<br/>1 = Humo detectado| 
 |Información/inundación<br/>Información/Fuga de agua|0 = No se detectó ninguna fuga<br/>1 = Fuga detectada| 
 |Información/Sabotaje|0 = Sin sabotaje<br/>1 = Sabotaje| 

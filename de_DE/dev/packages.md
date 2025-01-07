@@ -1,10 +1,10 @@
 # Description
 
-Aus jeedom v4.2 Es ist möglich, die Verwaltung der Abhängigkeiten Ihrer Plugins teilweise dem Kern anzuvertrauen. Es ist ziemlich einfach, einfach eine Datei zu erstellen ``packages.json`` im ``plugin_info``.
+Von jeedom v4.2 ist es möglich, die Verwaltung der Abhängigkeiten Ihrer Plugins teilweise dem Kern anzuvertrauen. Es ist ganz einfach: Erstellen Sie einfach eine Datei ``packages.json`` In ``plugin_info``.
 
 # Exemples
 
-`` ``json
+„json
 {
   "apt" : {
     "git" : {},
@@ -32,12 +32,12 @@ Aus jeedom v4.2 Es ist möglich, die Verwaltung der Abhängigkeiten Ihrer Plugin
     "tornado" : {}
   },
   "post-install" : {
-    "script" : "plugins / openzwave / resources / post-install.sh"
+    "script" : "Plugins/openzwave/resources/post-install.sh"
   }
 }
-`` ``
+„
 
-`` ``json
+„json
 {
   "apt" : {
     "libav-tools" : {"alternative" : ["ffmpeg"]},
@@ -49,15 +49,15 @@ Aus jeedom v4.2 Es ist möglich, die Verwaltung der Abhängigkeiten Ihrer Plugin
     "restart_apache" : true
   }
 }
-`` ``
+„
 
-`` ``json
+„json
 {
   "apt" : {
     "python3-pip" : {},
     "python3-pyudev" : {},
     "Python3-Anfragen" : {},
-    "python3-setuptools" : {},
+    "Python3-Setuptools" : {},
     "python3-dev" : {}
   },
   "pip3" : {
@@ -74,26 +74,26 @@ Aus jeedom v4.2 Es ist möglich, die Verwaltung der Abhängigkeiten Ihrer Plugin
     "bellows" : {"reinstall" : true}
   }
 }
-`` ``
+„
 
-`` ``json
+„json
 {
   "apt" : {
     "nodejs" : {}
   },
   "npm" : {
-    "Plugins / Dyson / Ressourcen / Dysond"  : {}
+    "Plugins/dyson/resources/dysond"  : {}
   }
 }
-`` ``
+„
 
-Derzeit schafft er : ``apt``, ``nodejs (npm)`` , ``pip2`` und ``pip3``, mit der Möglichkeit, Skripte vor / nach der Installation zu starten und ihn zu bitten, Apache in der Post neu zu starten.
+Derzeit verwaltet er : ``apt``, ``nodejs (npm)`` , ``pip2`` Und ``pip3``, mit der Möglichkeit, Skripte vor/nach der Installation zu starten und nachträglich einen Apache-Neustart anzufordern.
 
-Wenn die Datei vorhanden ist, basiert der Kern NUR darauf, er ignoriert die Funktionen `dependancy_info` und `dependancy_install`. Es wird daher nur berechnet, ob Pakete aus dieser JSON-Datei installiert werden müssen oder nicht.
+Wenn die Datei vorhanden ist, basiert sich der Kern NUR AUF DIESER Datei und ignoriert die Funktionen „dependancy_info“ und „dependancy_install“. Es wird daher nur aus dieser JSON-Datei berechnet, ob Pakete installiert werden müssen oder nicht.
 
 ## Nodejs
 
-Für nodejs ist es etwas Besonderes, jede Anforderung für nodejs oder npm wird überschrieben, um nodejs v12 unabhängig von der Plattform zu installieren. Dann gibt es 2 Möglichkeiten :
+Bei NodeJS ist es etwas speziell: Jede Anfrage nach NodeJS oder NPM wird ignoriert, um NodeJS v12 unabhängig von der Plattform zu installieren. Dann gibt es 2 Möglichkeiten :
 
-- In diesem Fall handelt es sich um einen Paketnamen, der global auf dem System installiert ist
-- es ist ein Pfad in diesem Fall wird jeedom in das betreffende Verzeichnis gelegt wird eine npm-Installation gestartet (mit Löschen des Verzeichnisses) ``node_modules``)
+- Es handelt sich um einen Paketnamen, in diesem Fall wird er global auf dem System installiert
+- In diesem Fall handelt es sich um einen Pfad. Jeedom platziert sich im betreffenden Verzeichnis und startet eine NPM-Installation (mit Löschung des Verzeichnisses) ``node_modules``)

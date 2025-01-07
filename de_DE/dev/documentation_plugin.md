@@ -1,18 +1,18 @@
-# So erstellen Sie die Dokumentation eines Plugins
+# So dokumentieren Sie ein Plugin
 
 ## Introduction
 
-In dieser Dokumentation erfahren Sie, wie Sie die Dokumentation Ihres Plugins erstellen.
+In dieser Dokumentation erfahren Sie, wie Sie Ihr Plugin dokumentieren.
 
 ## Principe
 
-Das Prinzip ist sehr einfach. Die Plugin-Dokumentation muss ein einfacher Weblink sein, der in Ihrer Info-Datei angegeben wird.json (siehe Details [hier](https://doc.jeedom.com/de_DE/dev/structure_info_json) ) im Dokumentationsfeld.
+Das Prinzip ist sehr einfach: Die Plugin-Dokumentation muss ein einfacher Weblink sein, der in Ihrer Infodatei angezeigt wird.json (siehe Details [Hier](https://doc.jeedom.com/de_DE/dev/structure_info_json) ) im Dokumentationsbereich.
 
-Beachten Sie, dass Sie auch ein Änderungsprotokollfeld haben, das genauso funktionieren muss wie das Dokumentationsfeld.
+Beachten Sie, dass Sie auch über ein Änderungsprotokollfeld verfügen, das genauso funktionieren sollte wie das Dokumentationsfeld.
 
 ## Wie es geht ?
 
-Wie oben gezeigt, müssen Sie nur in der Info-Datei angeben.json den http (s) Link zu Ihrer Dokumentation, so dass Sie frei auf der Präsentation, dem Host oder sogar dem Modus sind :
+Wie oben gesehen, müssen Sie nur in der Infodatei angeben.json den http(s)-Link zu Ihrer Dokumentation, sodass Sie bei der Präsentation, dem Host oder sogar dem Modus frei sind :
 
 - ein Blog
 - ein einfacher Webserver
@@ -20,36 +20,36 @@ Wie oben gezeigt, müssen Sie nur in der Info-Datei angeben.json den http (s) Li
 
 ## Github
 
-Der einfachste Weg für Ihre Dokumentation ist die Verwendung des Github-Seitensystems, das den Vorteil hat, dass es sehr einfach zu bedienen ist.
+Der einfachste Weg für Ihre Dokumentation ist die Verwendung des Github-Seitensystems, das den Vorteil hat, dass es sehr einfach zu verwenden ist.
 
 ### Dokumentationssprache
 
-Github unterstützt Asciidoc und Markedown (md) für Seiten, wir werden nur den Markdown hier sehen.
+Github unterstützt asciidoc und markdown (md) für Seiten, wir werden hier nur markdown sehen.
 
-Wir werden Ihnen nicht die vollständige Markdown-Syntax beschreiben, andere Websites machen dies bereits sehr gut, einschließlich [dieser hier](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+Wir werden Ihnen nicht die vollständige Markdown-Syntax beschreiben, andere Websites machen sie bereits sehr gut [Dieses hier](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ### Emplacement
 
-Wir empfehlen Ihnen, in Ihrem Plugin (auf github gehostet) einen Ordner zu erstellen und die Dateien und Verzeichnisse aus dem Ordner / docs in die Plugin-Vorlage zu kopieren (siehe [hier](https://doc.jeedom.com/de_DE/dev/plugin_template) )
+Wir empfehlen, dass Sie in Ihrem Plugin (gehostet auf Github) einen Ordner erstellen und die Dateien und Verzeichnisse aus dem Ordner /docs in die Plugin-Vorlage kopieren (siehe [Hier](https://doc.jeedom.com/de_DE/dev/plugin_template) )
 
-Sobald Sie fertig sind, haben Sie im Ordner / docs einen fr_FR-Ordner (der einzige, der geändert werden muss). In diesem Ordner empfehlen wir Ihnen, 2 Dateien zu erstellen :
+Sobald dies erledigt ist, befindet sich im Ordner /docs ein fr_FR-Ordner (der einzige, der geändert werden muss)). Wir empfehlen Ihnen, in diesem Ordner zwei Dateien zu erstellen :
 
-- ``changelog.md`` => dein Changelog
+- ``changelog.md`` => Ihr Changelog
 - ``index.md`` => Ihre Dokumentation
 
-### Hochladen
+### Online
 
-Das Hochladen ist ziemlich einfach. Gehen Sie einfach zu Ihrem Github-Repository, dann zu "Einstellungen" und im Teil "GitHub-Seiten", um den Ordner "Ordner" Hauptzweig / Dokumente "zu aktivieren (wie in der Beschriftung angegeben) Die Dateien im Ordner / docs des Hauptzweigs Ihres Plugins sind online).
+Das Hochladen ist ganz einfach. Gehen Sie einfach zu Ihrem Github-Repository, dann zu „Einstellungen“ und aktivieren Sie im Abschnitt „GitHub-Seiten“ die Funktion „Master Branch /docs-Ordner“ (wie der Wortlaut schon sagt, nur die Dateien im /docs-Ordner von). Der Master-Zweig Ihres Plugins ist online).
 
 ![doc-github](images/tutoDoc.png)
 
-Github stellt Ihnen dann einen Typlink zur Verfügung ``https://jeedom.github.io/plugin-template/`` (Nach einigen Minuten sollten Sie Ihr Dokumentationslayout korrekt anzeigen).
+Github stellt Ihnen dann einen Link zur Verfügung ``https://jeedom.github.io/plugin-template/`` (Wenn Sie nach ein paar Minuten darauf zugreifen, sollten Sie sehen, dass Ihre Dokumentation korrekt angeordnet ist).
 
-Jetzt müssen Sie die Links Ihrer Dokumentation in die Info-Datei einfügen.json deines Plugins dafür ist es notwendig :
+Sie müssen nun die Links Ihrer Dokumentation in die Infodatei einfügen.json Ihres Plugins, hierfür benötigen Sie :
 
-- Hinzufügen ``#language#/`` Für den Link zur Dokumentation geben wir hier unser Beispiel ``https://jeedom.github.io/plugin-template/#language#/``
-- Hinzufügen ``#language#/changelog`` Für den Link zu Ihrer Änderung sehen Sie sich also unser Beispiel an ``https://jeedom.github.io/plugin-template/#language#/changelog``
+- hinzufügen ``#language#/`` Für den Link zur Dokumentation gibt es diesen daher auf unserem Beispiel ``https://jeedom.github.io/plugin-template/#language#/``
+- hinzufügen ``#language#/changelog`` Den Link zu Deiner Änderung findest Du also in unserem Beispiel ``https://jeedom.github.io/plugin-template/#language#/changelog``
 
 > **Notiz**
 >
-> Wie Sie sehen können, wird Jeedom oder der Markt automatisch ersetzt, wenn der Benutzer nach Ihrem Dokument fragt #language# durch die Sprache des Benutzers, um auf die richtige Sprache zu verweisen (wenn Ihre Dokumentation nicht in der Sprache des Benutzers verfügbar ist, bezieht sich dies automatisch auf Französisch)
+> Sie werden es verstanden haben, wenn der Benutzer nach Ihrem Dokument fragt, wird Jeedom oder der Markt automatisch ersetzt #language# durch die Sprache des Benutzers, um auf die richtige Sprache zu verweisen (wenn Ihre Dokumentation nicht in der Sprache des Benutzers verfügbar ist, wird sie automatisch auf Französisch verweisen)
