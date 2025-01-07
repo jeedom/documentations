@@ -21,6 +21,20 @@ Dé zipper le fichier. Vous obtiendrez un dossier « plugin-template-master » c
 
 On y va.
 
+> **IMPORTANT**
+>
+>Un assistant de configuration est disponible pour vous aider à personnaliser rapidement votre plugin.
+>Cet outil interactif vous permet de définir facilement le nom du plugin, d'indiquer si un démon est requis, et prend en charge la modification automatique de tous les fichiers nécessaires.
+>Son utilisation simplifie le processus de configuration et vous fait gagner un temps précieux dans le développement de votre plugin.
+> 👉 Pour lancer l'assistant, ouvrez un terminal dans le répertoire du plugin template et exécutez la commande suivante :
+
+```
+php plugin_info/configurationHelper.php
+```
+
+Si vous ne voulez pas utilisez ce script, vous pouvez suivre les étapes suivantes pour renommer les fichiers.
+
+
 Renommez le dossier « plugin-template-master » en « vdm » (l’id) du plugin.
 
 1/ Ouvrir le fichier plugin_info/info.json et éditer le.
