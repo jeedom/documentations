@@ -30,7 +30,7 @@ On y va.
 👉 Pour lancer l'assistant, ouvrez un terminal dans le répertoire du plugin template et exécutez la commande suivante :
 
 ```
-php plugin_info/configurationHelper.php
+php plugin_info/helperConfiguration.php
 ```
 
 Si vous ne voulez pas utilisez ce script, vous pouvez suivre les étapes suivantes pour renommer les fichiers.
