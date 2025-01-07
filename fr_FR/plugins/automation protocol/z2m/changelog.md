@@ -4,6 +4,12 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 07/01/2025
+
+- La version par defaut de zigbee2mqtt est maintenant 1.42.0
+- Support de l'installation de la version de zigbee2mqtt 2.0.X (attention pour l'instant l'installation est possible mais on ne garantie pas que tout marche meme si les 1er tests sont encourageant)
+- Correction de bug
+
 # 16/12/2024
 
 - Mise à jour de la documentation

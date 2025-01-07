@@ -4,6 +4,17 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+- Início do suporte para zigbee2mqtt 2.0
+
+# 16/12/2024
+
+- Atualização da documentação
+- O botão de atualização de firmware fica oculto se você estiver no modo remoto
+- Inicialização do daemon aprimorada
+- Por padrão o plugin está em modo local (em vez de esperar pela configuração)
+- A versão do zigbee2mqtt é por padrão 1.41 (temporário até o lançamento do 2.0)
+- Botão de atualização de firmware removido no Luna (temporário)
+
 # 27/09/2024
 
 - Mudança de versões mínimas, core 4.4 e SO Debian 11 no mínimo

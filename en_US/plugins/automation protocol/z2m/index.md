@@ -179,6 +179,34 @@ This part is more for advanced users who would like to add specific commands. Ev
 >
 > For action type commands you can use ` tags#slider#`, `#message#`, `#title#` or `#select#` depending on the subtype of the command to pass a parameter
 
+# Sonoff E flash key
+
+## Automatic website 
+
+On this site with Chrome (Edge should also work) you can by plugging your USB key into your PC flash the key automatically with the latest firmware :
+
+[Silabs Firmware Flasher](https://darkxst.github.io/silabs-firmware-builder/)
+
+## Command line mode with firmware selection
+
+This method allows you to flash the key under Linux with the firmware of your choice :
+
+
+
+```
+apt install -y python3-pip python3.11-venv
+python3 -m venv flash
+flash/bin/pip3 install universal-silabs-flasher
+cd flash/
+bin/universal-silabs-flasher --device /dev/ttyUSB0 --bootloader-reset sonoff probe
+bin/universal-silabs-flasher --device /dev/ttyUSB0 --bootloader-reset sonoff flash --firmware ../ncp-uart-sw_EZNet7.4.3_V1.0.0.gbl
+bin/universal-silabs-flasher --device /dev/ttyUSB0 --bootloader-reset sonoff probe
+```
+
+List of [firmwares](https://github.com/itead/Sonoff_Zigbee_Dongle_Firmware/tree/master/Dongle-E). 
+
+Be careful to put the correct gbl file name when flashing.
+
 # FAQ
 
 [Link](https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html) to the Zigbee2mqtt FAQ
