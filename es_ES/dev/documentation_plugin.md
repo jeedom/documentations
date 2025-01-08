@@ -30,7 +30,7 @@ No vamos a describirle la sintaxis completa de Markdown, otros sitios ya lo hace
 
 ### Emplacement
 
-Le recomendamos que en su complemento (alojado en github) cree una carpeta y copie los archivos y directorios de la carpeta /docs a la plantilla del complemento (consulte [aquí](https://doc.jeedom.com/es_ES/dev/plugin_template) )
+Le recomendamos que en su complemento (alojado en github) cree una carpeta y copie los archivos y directorios de la carpeta /docs al complemento de plantilla (consulte [aquí](https://doc.jeedom.com/es_ES/dev/plugin_template) )
 
 Una vez hecho esto, tendrás en la carpeta /docs una carpeta fr_FR (la única para modificar). En esta carpeta, le recomendamos crear 2 archivos :
 

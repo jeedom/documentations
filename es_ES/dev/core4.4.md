@@ -10,7 +10,7 @@ El núcleo 4.4 integra por lo tanto las funciones básicas setValues() y getValu
 
 Para una transición más fácil y un mejor mantenimiento, las nuevas funciones **getValues()** Y **setValues()** en el DOM están ahora **setJeeValues()** Y **getJeeValues()**.
 
-Además, todas las llamadas **Ájax**, sync o async, pasa por funciones js puras desarrolladas internamente para Core. *load()* Y *html()* por lo tanto, son utilizados por todas las clases js y por la función jeedomUtils.loadPage(). Esto permite controlar todo lo que sucede sin una capa de abstracción y, entre otras cosas, permite filtrar todos los scripts js y hojas de estilo css provenientes de terceros (core y complementos) para cargarlos en el documento.cabeza y no recargarlos después !
+Además, todas las llamadas **Ájax**, sync o async, pasa por funciones js puras desarrolladas internamente para Core. *load()* Y *html()* por lo tanto, son utilizados por todas las clases js y por la función jeedomUtils.loadPage(). Esto permite controlar todo lo que sucede sin una capa de abstracción y, entre otras cosas, permite filtrar todos los scripts js y hojas de estilo css provenientes de terceros (núcleo y complementos) para cargarlos en el documento.cabeza y no recargarlos después !
 
 La gestión de *eventos* también pasará gradualmente a js puro. Las paginas **Síntesis** **Panel** **Diseño** Y **Guión** ya estan en full js con delegación de eventos.
 
@@ -45,7 +45,7 @@ Algunos ejemplos:
   //jQuery:
   addMyTr: función (_datos) {
     vartr='>'
-    tr+='>'
+    tr+= '>'
     tr+='>'
     tr+='>'
     dejar nuevaFila = $(tr)
@@ -57,7 +57,7 @@ Algunos ejemplos:
   // js puro:
   addMyTr: función (_datos) {
     vartr='>'
-    tr+='>'
+    tr+= '>'
     tr+='>'
     tr+='>'
     let newRow = document.createElement('tr')
@@ -185,7 +185,7 @@ Como recordatorio:
 
 #### Autocompletar jQuery
 
-La biblioteca Autocompletar, que depende de jQuery, se eliminará en una versión futura de Core. Se reemplaza por la función interna del Core **input.jeeCompleto()**. Esto soporta la mayoría de las opciones anteriores (fuente en ajax, etc.), pero corrige varios defectos, trae nuevos comportamientos (flechas arriba y abajo para seleccionar una propuesta, etc.) y permite el uso de un único contenedor para varias entradas, reduciendo enormemente el impacto en el DOM, en particular en los escenarios.
+La biblioteca Autocompletar, que depende de jQuery, se eliminará en una versión futura de Core. Se reemplaza por la función Core interna **input.jeeCompleto()**. Esto soporta la mayoría de las opciones anteriores (fuente en ajax, etc.), pero corrige varios defectos, trae nuevos comportamientos (flechas arriba y abajo para seleccionar una propuesta, etc.) y permite el uso de un solo contenedor para varias entradas, reduciendo enormemente el impacto en el DOM, en particular en los escenarios.
 
 <details>
 

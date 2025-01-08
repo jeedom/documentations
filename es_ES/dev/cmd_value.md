@@ -6,8 +6,8 @@ Esta documentación reúne recomendaciones para valores de comando (acción o in
 
 |Tipo genérico  | Valores/Acción |
 |---------------|-------------|
-|Información/Estado de la luz|O brillo<br/>0-100 o 0-99 o 0-255<br/>(dependiendo del control deslizante máximo de acción/luz)<br/>o binario<br/>0 = Apagado<br/> distinto de 0 = activado<br/>**Obligatorio**| 
-|Información/Brillo de luz|Luminosité<br/>0-100 o 0-99 o 0-255<br/>(dependiendo del control deslizante máximo de acción/luz)<br/>Usar siempre con estado de luz en comando binario|
+|Información/Estado de la luz|O brillo<br/>0-100 o 0-99 o 0-255<br/>(dependiendo del control deslizante de acción/luz máxima)<br/>o binario<br/>0 = Apagado<br/> distinto de 0 = activado<br/>**Obligatorio**| 
+|Información/Brillo de luz|Luminosité<br/>0-100 o 0-99 o 0-255<br/>(dependiendo del control deslizante de acción/luz máxima)<br/>Usar siempre con estado de luz en comando binario|
 |Control deslizante de acción/luz|Atenuador de brillo<br/>Mín. y Máx. Obligatorio|
 |Botón de acción/encendido de luz|Encendido de la luz (Cambio de Estado))|
 |Botón de acción/apagado de luz|Apagar la luz (Cambio de Estado))|

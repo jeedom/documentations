@@ -50,7 +50,7 @@ Ver [aquí](https://doc.jeedom.com/es_ES/dev/structure_info_json)
 
 ## ``install.php``
 
-Archivo con instrucciones para instalar un complemento :
+Archivo con instrucciones de instalación para un complemento :
 
 Está compuesto de la siguiente manera :
 
@@ -223,7 +223,7 @@ Là, par exemple, lors du chargement des données jeedom mettra la valeur du nom
 <input class="eqLogicAttr form-control" data-l1key='configuration' data-l2key='fromName' />
 ````
 
-Para ver la lista de propiedades de equipos y comandos, está aquí (para ver las propiedades que son JSON, simplemente mire el getter o el setter, si necesita 2 parámetros, entonces es JSON)
+Para ver la lista de propiedades de equipos y comandos está aquí (para ver las propiedades que son JSON, simplemente mire el getter o el setter, si toma 2 parámetros entonces es JSON)
 
 Último punto importante en la página de configuración: Esto puede contener tanto equipo y controles como sea necesario. Sin embargo, hay algunas reglas a seguir :
 
@@ -231,7 +231,7 @@ Todos los elementos que tienen la clase eqLogicAttr deben estar en un elemento q
 
 ## JS
 
-Todos los archivos JS deben estar en la carpeta JS (fácil !!!). Es recomendable nombrarlo con el mismo ID que tu plugin (en la parte de configuración, para el panel haces lo que quieras). Este archivo JS (el de la configuración del complemento) debe contener al menos un método addCmdToTable que tome el objeto de comando a agregar como parámetro. Aquí tienes un ejemplo sencillo :
+Todos los archivos JS deben estar en la carpeta JS (fácil !!!). Es recomendable nombrarlo con el mismo ID que tu plugin (en la parte de configuración, para el panel haces lo que quieras). Este archivo JS (el de la configuración del complemento) debe contener al menos un método addCmdToTable que toma el objeto de comando a agregar como parámetro. Aquí tienes un ejemplo sencillo :
 
 ````php
 función agregarCmdToTable(_cmd) {
@@ -240,11 +240,11 @@ función agregarCmdToTable(_cmd) {
      }
     var tr = ''; tr += '';
      tr+=' : ninguno;">';
-    tr+= '<input class="cmdAttr form-control input-sm" data-l1key="name"> '; tr+= '<input class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="recipient"> '; tr += '';
+    tr+='<input class="cmdAttr form-control input-sm" data-l1key="name"> '; tr+= '<input class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="recipient"> '; tr += '';
      tr+=' : ninguno;">';
-     tr+=' : ninguno;">';
+     tr+= ' : ninguno;">';
      si (is_numeric(_cmd.id)) {
-        tr+= ' <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i>{{Prueba}}</a> ';
+        tr+=' <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i>{{Prueba}}</a> ';
      }
      tr+='<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></i></td> ';
     tr += '';
@@ -298,7 +298,7 @@ función agregarCmdToTable(_cmd) {
     tr += '<span><input type="checkbox" class="cmdAttr" data-l1key="isHistorized" /> {{Historiser}}<br/></span>';
     tr += '';     tr += '';
     si (is_numeric(_cmd.id)) {
-    tr+= ' <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i>{{Prueba}}</a> ';
+    tr+=' <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i>{{Prueba}}</a> ';
     }
     tr+='<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></i></td> ';
     tr += '';
@@ -710,14 +710,14 @@ Al crear o eliminar sus objetos (equipo, pedido u otros) en Jeedom, puede llamar
 - ``preSave`` ⇒ Método llamado antes de guardar (creación y actualización, por lo tanto) de su objeto
 - ``postSave`` ⇒ Método llamado después de guardar su objeto
 - ``preRemove`` ⇒ Método llamado antes de eliminar su objeto
-- ``postRemove`` ⇒ Método llamado después de eliminar su objeto
+- ``postRemove`` 
 
-Ejemplo, todavía con el complemento meteorológico de crear comandos o actualizarlos después de guardar (el ejemplo está simplificado) :
+) :
 
 ````php
-publicación de función públicaActualización() {
+() {
       $weatherCmd = $this->getCmd(null, 'temperature');
-      si (!is_object($climaCmd)) {
+      si (!)) {
           $weatherCmd = new weatherCmd();
       }
       $weatherCmd->setName(__('Température', __FILE__));
@@ -757,9 +757,9 @@ public static function updateWeatherData($_options) {
 }
 ````
 
-Vemos aquí que durante la llamada recuperamos el equipo en cuestión y luego ejecutamos los comandos para recuperar los valores y actualizarlos si es necesario.
+.
 
-Parte muy importante :
+ :
 
 ````php
 $weather->checkAndUpdateCmd($cmd,$cmd->execute());
@@ -775,10 +775,10 @@ public function dontRemoveCmd() {
 }
 ````
 
-Finalmente, aquí tienes algunos consejos y trucos :
+ :
 
-- Evite (a menos que sepa lo que está haciendo) anular un método de la clase heredada (esto puede causar muchos problemas))
-- Para volver a montar la batería (en %) de un equipo, hazlo sobre él (Jeedom se encargará del resto y avisará al usuario si es necesario)) :
+- )
+- ) :
 
 ````php
 $eqLogic->batteryStatus(56);

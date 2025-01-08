@@ -28,11 +28,11 @@ Estos cambios todavía son compatibles con la versión 4.2 y pasará a **Obsolet
 
 V4.2 le permite definir, en un eqLogic, un comando de información cuyo historial se mostrará en la parte inferior del mosaico.
 
-Para hacer esto, su complemento debe permitirlo en plugins/myplugin/core/class/myplugin.class.php:
+Para esto, su complemento debe permitirlo en plugins/myplugin/core/class/myplugin.class.php:
 
 ```php
 la clase myplugin extiende eqLogic {
-    public static $_widgetPossibility = array('personalizado' => verdadero);
+    pública estática $_widgetPossibility = array('personalizado' => verdadero);
 ```
 
 Si su complemento tiene una plantilla específica para su equipo, la versión de escritorio debe actualizarse con `#divGraphInfo#`para mostrar :
@@ -255,18 +255,18 @@ Así podrás tener en cada *tarjeta de visualización* elementos que no se mostr
 
 </details>
 
-Aquí (complemento *jeeLog*) Los parámetros cron y log estarán ocultos en modo normal pero visibles a la derecha en modo tabla. También puedes inspirarte en las páginas de Core v4.2, en particular el de los escenarios que muestra el botón para abrir los registros.
+Aquí (complemento *jeeLog*) Los parámetros cron y log estarán ocultos en el modo normal pero visibles a la derecha en el modo tabla. También puedes inspirarte en las páginas de Core v4.2, en particular el de los escenarios que muestra el botón para abrir los registros.
 
 No olvide la clase "oculta" (no presente en las páginas Core) para que este elemento no se muestre en modo normal en Cores anteriores a 4.2.
 
 
 #### Mostrar ayuda desde un widget
 
-Desde v4.2, los parámetros opcionales disponibles en los Core Widgets se muestran para cada widget, ya sea en la configuración de control o desde el modo Editar del Dashboard.
+Desde v4.2, los parámetros opcionales disponibles en los Core Widgets se muestran para cada widget, ya sea en la configuración de control o desde el modo Edición del Dashboard.
 
 En el código de **Widget de panel**, se inserta una etiqueta `template` entre el último `div` interno y la etiqueta `script`. El Core elimina esta etiqueta al mostrar el widget para no hacer la página más pesada. Sin embargo, en versiones anteriores a 4 Core.2, los navegadores no muestran la etiqueta `plantilla`. Por el contrario, el Core recupera esta etiqueta "plantilla" para mostrar ayuda en las ventanas de configuración.
 
-- Si una etiqueta `template` está presente y no está vacía, el Core muestra su contenido.
+- Si una etiqueta "plantilla" está presente y no está vacía, el Core muestra su contenido.
 - Si hay una etiqueta `template` presente, pero vacía, el Core muestra *`No hay parámetros opcionales disponibles`*.
 - Si no hay ninguna etiqueta `template` presente, el Core muestra *`No se encontró ninguna descripción para este widget`*.
 
@@ -369,7 +369,7 @@ Ejemplo, en el archivo `plugins/monplugin/core/php/monplugin.class.php`:
 la clase myPlugin extiende eqLogic
 {
     /*     * ***********************Método estático*************************** */
-    public static $_widgetPossibility = array('personalizado' => verdadero);
+    pública estática $_widgetPossibility = array('personalizado' => verdadero);
 
     complemento de función estática públicaGenericTypes()
     {
