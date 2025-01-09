@@ -57,7 +57,7 @@ optional :
 
 |Generic type  | Values / Action |
 |---------------|----------------|
-|Info/Horizontal Tilt Status Shutter|Angle 0->90° (via slider)|
+|Info/Horizontal Tilt Status Pane|Angle 0->90° (via slider)|
 |Action/Slider Pane Horizontal Tilt|Angle 0->90°<br/>modifiable via min-max of the slider|
 |Info/Vertical Tilt Status Shutter|Angle 0->90° (via slider)|
 |Action/Slider Shutter Vertical Tilt|Angle 0->90°<br/>modifiable via min-max of the slider|

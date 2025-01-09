@@ -126,7 +126,7 @@ agregar un atenuador ? y agregue lo digital a la acción ? existe ?
 |Tipo genérico  | Valores/Acción |
 |---------------|----------------|
 |Información/estado del termostato (BINARIO)|0 = Apagado<br/>1 = activado|
-|Información/estado del termostato (HUMANO)|'apagado' o 'detenido' o 'arresto'<br/>'calor' o 'calefacción'<br/>'cool' o 'aire acondicionado'<br/><br/>Prefiero inglés| 
+|Información/Estado del termostato (HUMANO)|'apagado' o 'detenido' o 'arresto'<br/>'calor' o 'calefacción'<br/>'cool' o 'aire acondicionado'<br/><br/>Prefiero inglés| 
 |Modo información/termostato|'Apagado' o 'Arret' = APAGADO<br/>'Ninguno' o 'Termostato' = Modo de punto de ajuste<br/>Etiqueta que muestra **Exactamente** el nombre de un comando de modo acción/termostato|
 |Modo acción/termostato|Modo termostato, puede ser múltiple|
 |Información/Termostato Temperatura exterior|Grados Celsius|

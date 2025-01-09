@@ -276,7 +276,7 @@ SortableJS Lib has been integrated into Core : [SortableJS](http://sortablejs.gi
 
 #### jQuery caret
 
-The jQuery plugin *jquery.at.caret* goes to deprecated. Use `myElement.insertAtCursor(myString)`
+The jQuery plugin *jquery.at.caret* goes deprecated. Use `myElement.insertAtCursor(myString)`
 
 #### jQuery contextMenu
 

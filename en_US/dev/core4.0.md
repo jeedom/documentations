@@ -76,7 +76,7 @@ You can test from a scenario / Code block if your plugins have the correct compa
     - btn-xs : 22px high
 - Desktop/php/pluginid file.php : replace object::all() by jeeObject::all()
 
-- Testing plugins on all three themes 2019 Light / Dark / Legacy.
+- Testing plugins on all three 2019 themes Light / Dark / Legacy.
 
 - Images in png with alpha if necessary, in order to avoid unsightly white squares in Dark theme.
 

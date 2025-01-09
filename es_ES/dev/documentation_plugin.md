@@ -12,7 +12,7 @@ Tenga en cuenta que también tiene un campo de registro de cambios que debería 
 
 ## Como hacerlo ?
 
-Como se ve arriba, solo necesita indicar en el archivo de información.json el enlace http(s) a su documentación, por lo tanto, es libre de la presentación, el host o incluso el modo :
+Como se ve arriba, sólo tienes que indicar en el archivo de información.json el enlace http(s) a su documentación, para que pueda acceder libremente a la presentación, el host o incluso el modo :
 
 - un blog
 - un servidor web sencillo
@@ -48,7 +48,7 @@ Github luego le proporcionará un enlace como ``https://jeedom.github.io/plugin-
 Ahora necesita colocar los enlaces de su documentación en el archivo de información.json de tu complemento para esto necesitas :
 
 - agregar ``#language#/`` para el enlace a la documentación, esto por lo tanto da en nuestro ejemplo ``https://jeedom.github.io/plugin-template/#language#/``
-- agregar ``#language#/changelog`` para el enlace a su cambio, esto se da en nuestro ejemplo ``https://jeedom.github.io/plugin-template/#language#/changelog``
+- agregar ``#language#/changelog`` para el enlace a su cambio, esto por lo tanto se basa en nuestro ejemplo ``https://jeedom.github.io/plugin-template/#language#/changelog``
 
 > **Nota**
 >

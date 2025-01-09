@@ -739,4 +739,4 @@ $kind = $this->getConfiguration("type", "aleatoire"); //si le paramètre est vid
 $url = "http://www.viedemerde.fr/{$type}";
 ```
 
-Now change the select value on a device, save and go to the dashboard to see what that gives.
+Now change the select value on a device, save and go to the dashboard to see what it looks like.

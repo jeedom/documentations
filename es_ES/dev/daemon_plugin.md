@@ -13,7 +13,7 @@ Puede que necesites más que eso, algunos ejemplos sin ser exhaustivos:
 - hacer procesamiento en tiempo real
 
 Para esto, la mayoría de las veces utilizamos un "daemon".
-Que no cunda el pánico, ya todo está planeado en el centro de Jeedom para ayudarnos a poner a este demonio en su lugar y lo detallaremos aquí.
+Que no cunda el pánico, todo ya está planeado en el centro de Jeedom para ayudarnos a poner a este demonio en su lugar y lo detallaremos aquí.
 
 ## Estructura de archivos demonio
 
@@ -21,7 +21,7 @@ El código y/o ejecutable de su demonio obviamente debe estar en el árbol de su
 No existe una regla estricta sobre la ubicación exacta de su demonio, sin embargo, la convención dicta que lo coloque en el subdirectorio `./recursos/` del complemento.
 
 En el complemento de plantilla encontrará los conceptos básicos para implementar un demonio en Python y este es el ejemplo que usaremos en esta documentación; sin embargo, usted es libre de desarrollar su demonio en el lenguaje de su elección siempre que pueda ejecutarse en el [plataformas soportadas por Jeedom](/es_ES/compatibility/).
-La mayoría de los demonios del complemento Jeedom están en python o nodeJs, pero también hay algunos en .netCore y ciertamente otras tecnologías.
+La mayoría de los demonios del complemento Jeedom están en Python o NodeJs, pero también hay algunos en .netCore y ciertamente otras tecnologías.
 
 También encontrará algunos métodos útiles para un demonio nodeJs que quizás se detallen en una versión futura de esta documentación. Por ahora te invito a consultar la comunidad dev para alinearte con otros desarrolladores en todo lo relacionado con NodeJs, principalmente en la versión a usar.
 
@@ -78,7 +78,7 @@ Básicamente, utilizará `send_change_immediate()` al principio, lo que le permi
 
 Ahora que conocemos el entorno, podemos fijarnos en la parte que más nos interesa: el demonio y lo que tendremos que codificar.
 
-Por lo tanto, veremos en detalle el esqueleto de un demonio propuesto por Jeedom, abra el archivo `demond.py` y comenzaremos con las últimas líneas que de hecho son el comienzo del programa:
+Por lo tanto, veremos en detalle el esqueleto de un demonio propuesto por Jeedom, abra el archivo `demond.py` y comenzaremos con las últimas líneas que de hecho son el inicio del programa:
 
 ```python
 _log_level = "error"
@@ -127,7 +127,7 @@ try:
     jeedom_socket = jeedom_socket(puerto=_socket_port, dirección=_socket_host)
     listen()
 excepto excepción como e:
-    logging.error('Error grave : '+cadena(e)))
+    logging.error('Error fatal : '+cadena(e)))
     shutdown()
 ```
 
@@ -222,7 +222,7 @@ try:
     jeedom_socket = jeedom_socket(port=_socket_port, dirección=_socket_host) # declaramos el socket para recibir órdenes de jeedom
     escucha() # y escuchamos
 excepto excepción como e:
-    logging.error('Error grave : '+cadena(e)))
+    logging.error('Error fatal : '+cadena(e)))
     shutdown()
 ```
 
@@ -245,7 +245,7 @@ El método `read_socket()`
 
 ```python
 def read_socket():
-    JEEDOM_SOCKET_MESSAGE global
+    JEEDOM_SOCKET_MESSAGE globales
     si no es JEEDOM_SOCKET_MESSAGE.empty():
         logging.debug("Mensaje recibido en el socket JEEDOM_SOCKET_MESSAGE")
         mensaje = json.loads(jeedom_utils.stripped(JEEDOM_SOCKET_MESSAGE.get()))
@@ -297,7 +297,7 @@ Veremos el uso de `hasDependency` y `maxDependancyInstallTime` más adelante.
 
 ### Administrar el demonio en su clase eqLogic
 
-En la clase eqLogic de su complemento existen algunos métodos a implementar para la gestión adecuada del demonio.
+En la clase eqLogic de su complemento hay algunos métodos a implementar para la gestión adecuada del demonio.
 
 #### Función demon_info()
 
@@ -458,7 +458,7 @@ Podemos ver claramente la clave "apikey" agregada por el código php que será l
 
 #### Recibe un mensaje del demonio
 
-Para hacer esto debemos agregar un archivo a nuestro complemento en la carpeta `./core/php/`. Por convención, llamaremos a este archivo `jee[pluginId].php`. `/plugins/[ID del complemento]/core/php/jee[ID del complemento]].Por lo tanto, php` será la ruta a utilizar como URL de devolución de llamada en el método `deamon_start()`
+Para ello debemos agregar un archivo a nuestro complemento en la carpeta `./core/php/`. Por convención, llamaremos a este archivo `jee[pluginId].php`. `/plugins/[ID del complemento]/core/php/jee[ID del complemento]].Por lo tanto, php` será la ruta a utilizar como URL de devolución de llamada en el método `deamon_start()`
 
 Aquí está el contenido básico que puede copiar/pegar en este archivo:
 
@@ -724,10 +724,10 @@ En tu clase eqLogic debes agregar esta función si no existe. Puedes copiar/pega
 
 Esta función comienza eliminando el registro de la instalación anterior, si existía, y luego devolverá al núcleo el comando del script a ejecutar y la ubicación del registro.
 
-Tenga en cuenta que el archivo de script devuelto se denomina `install_#stype#.sh`. De hecho, `#stype#`será reemplazado dinámicamente por el núcleo con la herramienta de administración de paquetes que se usará según el sistema en el que esté instalado Jeedom. Entonces `#stype#`será reemplazado por `apt` en un sistema Debian.
-Esto hace posible ofrecer scripts de instalación de dependencias para varios sistemas y por lo tanto soportar algo distinto a Debian/apt, que es el mínimo indispensable y el único que administraremos aquí.
+Tenga en cuenta que el archivo de script devuelto se denomina `install_#stype#.sh`. De hecho, `#stype#`será reemplazado dinámicamente por el núcleo con la herramienta de administración de paquetes que se utilizará según el sistema en el que esté instalado Jeedom. Entonces `#stype#`será reemplazado por `apt` en un sistema Debian.
+Esto hace posible ofrecer scripts de instalación de dependencias para varios sistemas y, por lo tanto, admitir algo distinto de Debian/apt, que es el mínimo indispensable y el único que administraremos aquí.
 
-El primer argumento: `jeedom::getTmpFolder(__CLASS__) . '/dependence'` es el archivo utilizado para rastrear el progreso de la instalación (el porcentaje que aparece en la pantalla durante la instalación).
+El primer argumento: `jeedom::getTmpFolder(__CLASS__) . '/dependence'` es el archivo utilizado para monitorear el progreso de la instalación (el porcentaje que aparece en la pantalla durante la instalación).
 
 Eso es todo por la parte de php, ahora tienes que crear el script en `./resources/install_apt.sh` y obviamente el contenido del script dependerá de tu complemento y de los paquetes que quieras instalar.
 
@@ -742,7 +742,7 @@ Aquí hay un ejemplo de un script bastante simple de uno de mis complementos, pe
 ```bash
 PROGRESS_FILE=/tmp/jeedom/template/dependence #reemplace la plantilla con su ID de complemento
 
-si [ ! -z$1 ]; entonces
+si [ ! -z $1 ]; entonces
     PROGRESS_FILE=$1
 fi
 toque ${PROGRESS_FILE}
@@ -785,7 +785,7 @@ Y usamos el primer argumento recibido como ubicación porque hicimos correctamen
 ```bash
 PROGRESS_FILE=/tmp/jeedom/template/dependence #reemplace la plantilla con su ID de complemento
 
-si [ ! -z$1 ]; entonces
+si [ ! -z $1 ]; entonces
     PROGRESS_FILE=$1
 fi
 ```
