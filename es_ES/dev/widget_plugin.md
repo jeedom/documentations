@@ -12,8 +12,8 @@
  :
 
 ````php
-$replace = $this->preToHtml($_version);
-si (!)) {
+$replace = $this->preToHtml($_version)
+ (!)) {
 	
 }
 ````
@@ -21,17 +21,17 @@ si (!)) {
 La fonction preToHtml renvoi :
 
 - une string si le widget est en cache (si il est en cache, c'est qu'il n'y a pas eu de changements depuis la dernière génération donc autant le renvoyer tout de suite)
-- un tableau avec les replaces principaux, vous avez la liste [aquí](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
+- un tableau avec les replaces principaux, vous avez la liste [](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
 ## Le système de template
 
 Le système de template de widget dans le code est en fait exactement le même que celui sur la page Outils -> Widget de jeedom.
 
-Voaquí un exemple :
+Vo un exemple :
 
 ````php
-widget de plantilla de función estática pública(){
-	$return = array('info' => array('string' => array()));
+(){
+	$return = array('info' => array('string' => array()))
 	$return['info']['string']['state'] = array(
 		'template' => 'tmplmultistate',
 		'test' => array(
@@ -39,12 +39,12 @@ widget de plantilla de función estática pública(){
 			array('operation' => '#value# == 3','state_light' => '<i class="fa fa-pause"></i>','state_dark' => '<i class="fa fa-pause"></i>'),
 			array('operation' => '#value# > 3 || #value# < 2','state_light' => '<i class="fa fa-home"></i>','state_dark' => '<i class="fa fa-home"></i>')
 		)
-	);
-	devolver $regresar;
+	)
+	
 }
 ````
 
- [aquí](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) .
+ [](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) .
 
 > ****
 >
@@ -52,25 +52,25 @@ widget de plantilla de función estática pública(){
 
 . .
 
-Ejemplo : para la primera prueba, decimos que si el valor del comando es 2 entonces tendremos que reemplazar la etiqueta #\_state_# (en el código html de la plantilla) por>
+ :  #\_state_# (>
 
-Otro ejemplo basado en otra plantilla podría ser :
+ :
 
 ````php
-widget de plantilla de función estática pública(){
-	$return = array('info' => array('string' => array()));
+(){
+	$return = array('info' => array('string' => array()))
 	$return['info']['binary']['toto'] = array(
-		'plantilla' => 'tmplicon',
-		'reemplazar' => matriz(
+		'',
+		'(
 			'#_icon_on_#' => '<i class=\'icon_green icon jeedom-porte-ferme\'></i>',
 			'#_icon_off_#' => '<i class=\'icon_red icon jeedom-porte-ouverte\'></i>'
 			)
-	);
-	devolver $regresar;
+	)
+	
 }
 ````
 
-Ici, je crée un widget totó basé sur le template "tmplicon" en type info et sous-type binaire. Quand il vaut 1 alors l'icône sera <i class='icon_green icon jeedom-porte-ferme'></i> et quand il vaut 0, ça sera <i class='icon_red icon jeedom-porte-ouverte'></i>
+Ici, je crée un widget  basé sur le template "tmplicon" en type info et sous-type binaire. Quand il vaut 1 alors l'icône sera <i class='icon_green icon jeedom-porte-ferme'></i> et quand il vaut 0, ça sera <i class='icon_red icon jeedom-porte-ouverte'></i>
 
 >**TIPS**
 >
@@ -79,10 +79,10 @@ Ici, je crée un widget totó basé sur le template "tmplicon" en type info et s
 Ensuite, pour utiliser votre widget :
 
 ````php
-$cmd->setTemplate('dashboard','neato::state');
-$cmd->setTemplate('mobile','neato::state');
+$cmd->setTemplate('dashboard','neato::state')
+$cmd->setTemplate('mobile','neato::state')
 ````
 
-Es como un widget normal, excepto por el nombre del widget, que tiene el formato id_plugin::nombre_widget. Para el segundo ejemplo, será id_plugin::toto
+::. ::toto
 
 
