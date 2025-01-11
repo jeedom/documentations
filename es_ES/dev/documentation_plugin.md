@@ -48,7 +48,7 @@ Github luego le proporcionará un enlace como ``https://jeedom.github.io/plugin-
 Ahora necesita colocar los enlaces de su documentación en el archivo de información.json de tu complemento para esto necesitas :
 
 - agregar ``#language#/`` para el enlace a la documentación, esto por lo tanto da en nuestro ejemplo ``https://jeedom.github.io/plugin-template/#language#/``
-- agregar ``#language#/changelog`` para el enlace a su cambio, esto por lo tanto se basa en nuestro ejemplo ``https://jeedom.github.io/plugin-template/#language#/changelog``
+- agregar ``#language#/changelog`` para el enlace a su cambio, esto se da en nuestro ejemplo ``https://jeedom.github.io/plugin-template/#language#/changelog``
 
 > **Nota**
 >

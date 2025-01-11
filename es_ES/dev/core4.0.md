@@ -110,7 +110,7 @@ El core elimina automáticamente archivos con más de 7 días de antigüedad que
 - Los "recursos" y los "datos" no se ven afectados, pero le invitamos a utilizar "datos" para cualquier personalización.
 - Los archivos cuyo nombre comienza con "personalizado" tampoco se ven afectados.
 
-Si desea realizar un cambio antes de la limpieza, puede usar `pre_install.php` (en plugin_info).
+Si desea realizar un cambio antes de la limpieza, puede utilizar `pre_install.php` (en plugin_info).
 Ver [plantilla de complemento](https://github.com/jeedom/plugin-template/blob/master/plugin_info/pre_install.php)
 
 ### Mercado de enlaces de GitHub

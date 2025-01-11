@@ -20,10 +20,10 @@ Que no cunda el pánico, ya todo está planeado en el centro de Jeedom para ayud
 El código y/o ejecutable de su demonio obviamente debe estar en el árbol de su complemento y, por lo tanto, debe incluirse y entregarse con el archivo al instalar un complemento.
 No existe una regla estricta sobre la ubicación exacta de su demonio, sin embargo, la convención dicta que lo coloque en el subdirectorio `./recursos/` del complemento.
 
-En el complemento de plantilla encontrará los conceptos básicos para implementar un demonio en Python y este es el ejemplo que usaremos en esta documentación; sin embargo, usted es libre de desarrollar su demonio en el idioma que elija, siempre que pueda ejecutarse en el [plataformas soportadas por Jeedom](/es_ES/compatibility/).
-La mayoría de los demonios del complemento Jeedom están en python o nodeJs, pero también hay algunos en .netCore y ciertamente otras tecnologías.
+En el complemento de plantilla encontrará los conceptos básicos para implementar un demonio en Python y este es el ejemplo que usaremos en esta documentación; sin embargo, usted es libre de desarrollar su demonio en el lenguaje de su elección siempre que pueda ejecutarse en el [plataformas soportadas por Jeedom](/es_ES/compatibility/).
+La mayoría de los demonios del complemento Jeedom están en Python o NodeJs, pero también hay algunos en .netCore y ciertamente otras tecnologías.
 
-También encontrará algunos métodos útiles para un demonio nodeJs que quizás se detallen en una versión futura de esta documentación. Por ahora te invito a consultar la comunidad dev para alinearte con otros desarrolladores en todo lo relacionado con NodeJs, principalmente en la versión a usar.
+También encontrará algunos métodos útiles para un demonio nodeJs que quizás se detallarán en una versión futura de esta documentación. Por ahora te invito a consultar la comunidad dev para alinearte con otros desarrolladores en todo lo relacionado con NodeJs, principalmente en la versión a usar.
 
 Estructura del directorio de plantillas:
 
@@ -78,7 +78,7 @@ Básicamente, utilizará `send_change_immediate()` al principio, lo que le permi
 
 Ahora que conocemos el entorno, podemos fijarnos en la parte que más nos interesa: el demonio y lo que tendremos que codificar.
 
-Por lo tanto, veremos en detalle el esqueleto de un demonio propuesto por Jeedom, abra el archivo `demond.py` y comenzaremos con las últimas líneas que de hecho son el comienzo del programa:
+Por lo tanto, veremos en detalle el esqueleto de un demonio propuesto por Jeedom, abra el archivo `demond.py` y comenzaremos con las últimas líneas que de hecho son el inicio del programa:
 
 ```python
 _log_level = "error"
@@ -108,7 +108,7 @@ _socket_port = int(_socket_port)
 jeedom_utils.set_log_level(_log_level)
 
 logging.info('Iniciar demonio')
-logging.info('Nivel de registro : '+cadena(_nivel_registro))
+logging.info('Nivel de registro : '+cadena(_log_level))
 logging.info('Puerto de socket : '+cadena(_socket_port))
 logging.info('Host de socket : '+cadena(_socket_host))
 logging.info('archivo PID : '+cadena(_pidfile))
@@ -297,7 +297,7 @@ Veremos el uso de `hasDependency` y `maxDependancyInstallTime` más adelante.
 
 ### Administrar el demonio en su clase eqLogic
 
-En la clase eqLogic de su complemento existen algunos métodos a implementar para la gestión adecuada del demonio.
+En la clase eqLogic de su complemento hay algunos métodos a implementar para la gestión adecuada del demonio.
 
 #### Función demon_info()
 
@@ -394,7 +394,7 @@ Modifique sólo las líneas con un comentario, el resto debe permanecer sin camb
 Tenga en cuenta que comenzamos deteniendo el demonio, esto es para gestionar el reinicio.
 Luego comprobamos si el demonio realmente se puede iniciar con el método `deamon_info()` y generamos la línea de comando en la variable `$cmd` para iniciar nuestro demonio, aquí con python3. Tenga en cuenta el uso de la `función del sistema::getCmdPython3(__CLASS__)` que devolverá la ruta a python3 para usar esto para que sea compatible con Debian 12 si sus dependencias están instaladas por núcleo.
 
-#### Función demon_stop()
+#### Función deamon_stop()
 
 Este método se utilizará para detener el demonio: Recuperamos el pid del demonio, que fue escrito en el "pid_file" y enviamos la eliminación del sistema al proceso.
 
@@ -588,7 +588,7 @@ La propiedad `maxDependancyInstallTime` es el tiempo en minutos después del cua
 
 > **CONSEJO**
 >
-> El script de instalación no se interrumpirá, por lo que eventualmente podrá completarse exitosamente. Este es solo el tiempo después del cual el núcleo ya no espera y ya no muestra el progreso.
+> El script de instalación no se interrumpirá, por lo que eventualmente podrá completarse exitosamente. Este es solo el retraso después del cual el núcleo ya no espera y ya no muestra el progreso.
 
 ### El método del archivo de configuración json
 
@@ -724,7 +724,7 @@ En tu clase eqLogic debes agregar esta función si no existe. Puedes copiar/pega
 
 Esta función comienza eliminando el registro de la instalación anterior, si existía, y luego devolverá al núcleo el comando del script a ejecutar y la ubicación del registro.
 
-Tenga en cuenta que el archivo de script devuelto se denomina `install_#stype#.sh`. De hecho, `#stype#`será reemplazado dinámicamente por el núcleo con la herramienta de administración de paquetes que se utilizará según el sistema en el que esté instalado Jeedom. Entonces `#stype#`será reemplazado por `apt` en un sistema Debian.
+Tenga en cuenta que el archivo de script devuelto se denomina `install_#stype#.sh`. De hecho, `#stype#`será reemplazado dinámicamente por el núcleo con la herramienta de administración de paquetes que se usará según el sistema en el que esté instalado Jeedom. Entonces `#stype#`será reemplazado por `apt` en un sistema Debian.
 Esto hace posible ofrecer scripts de instalación de dependencias para varios sistemas y, por lo tanto, admitir algo distinto de Debian/apt, que es el mínimo imprescindible y el único que gestionaremos aquí.
 
 El primer argumento: `jeedom::getTmpFolder(__CLASS__) . '/dependence'` es el archivo utilizado para monitorear el progreso de la instalación (el porcentaje que aparece en la pantalla durante la instalación).
@@ -790,7 +790,7 @@ si [ ! -z $1 ]; entonces
 fi
 ```
 
-Líneas como `echo 60 > ${PROGRESS_FILE}` obviamente se usan para devolver el progreso: Para tranquilizar al usuario, lo agregamos regularmente hasta llegar a 100 (normalmente se estresan cuando supera 100, así que evitamos).
+Líneas como `echo 60 > ${PROGRESS_FILE}` obviamente se usan para devolver el progreso: Para tranquilizar al usuario, lo agregamos regularmente hasta llegar a 100 (normalmente se estresan cuando supera 100, por lo que evitamos).
 
 Algunos consejos:
 
@@ -809,7 +809,7 @@ Algunos consejos:
 
 Por lo tanto, es nuestra función php `dependancy_install()` la que será llamada por el núcleo y la que lanzará nuestro script `./resources/install_apt.sh` cuando el usuario hace clic en el botón "Reiniciar" o automáticamente por el núcleo cuando detecta que las dependencias no están instaladas o no están actualizadas.
 
-Pero, ¿cómo sabe el núcleo el estado y cómo lo muestra en el cuadro anterior?? Gracias a la función `dependancy_info()` que debemos agregar a nuestra clase eqLogic.
+Pero, ¿cómo sabe el núcleo el estado y cómo lo muestra en el cuadro anterior?? Gracias a la función `dependancy_info()` que debemos agregar en nuestra clase eqLogic.
 
 Aquí tienes un ejemplo del que puedes tomar la mayoría:
 

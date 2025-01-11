@@ -28,7 +28,7 @@ Estos cambios todavía son compatibles con la versión 4.2 y pasará a **Obsolet
 
 V4.2 le permite definir, en un eqLogic, un comando de información cuyo historial se mostrará en la parte inferior del mosaico.
 
-Para esto, su complemento debe permitirlo en plugins/myplugin/core/class/myplugin.class.php:
+Para hacer esto, su complemento debe permitirlo en plugins/myplugin/core/class/myplugin.class.php:
 
 ```php
 la clase myplugin extiende eqLogic {
@@ -142,7 +142,7 @@ Configuración *soporte de núcleo de datos* a 0 :
 
 `<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="0" data-state="0"><i class="fas fa-grip-lines"></i></a> `
 
-- Administre su propia clase CSS, distinta de ".displayAsTable". Coloque el archivo css en `myplugin/desktop/css/myplugin.css` y luego importarlo desde escritorio/php así :
+- Administre su propia clase CSS, distinta de ".displayAsTable". Coloque el archivo css en `myplugin/desktop/css/myplugin.css` y luego importarlo desde el escritorio/php así :
 
   `include_file('escritorio', 'micomplemento', 'css', 'micomplemento');`
 
@@ -262,11 +262,11 @@ No olvide la clase "oculta" (no presente en las páginas Core) para que este ele
 
 #### Mostrar ayuda desde un widget
 
-Desde v4.2, los parámetros opcionales disponibles en los Core Widgets se muestran para cada widget, ya sea en la configuración de control o desde el modo Edición del Dashboard.
+Desde v4.2, los parámetros opcionales disponibles en los Core Widgets se muestran para cada widget, ya sea en la configuración de control o desde el modo Editar del Dashboard.
 
 En el código de **Widget de panel**, se inserta una etiqueta `template` entre el último `div` interno y la etiqueta `script`. El Core elimina esta etiqueta al mostrar el widget para no hacer la página más pesada. Sin embargo, en versiones anteriores a 4 Core.2, los navegadores no muestran la etiqueta `plantilla`. Por el contrario, el Core recupera esta etiqueta "plantilla" para mostrar ayuda en las ventanas de configuración.
 
-- Si una etiqueta `template` está presente y no está vacía, el Core muestra su contenido.
+- Si una etiqueta "plantilla" está presente y no está vacía, el Core muestra su contenido.
 - Si hay una etiqueta `template` presente, pero vacía, el Core muestra *`No hay parámetros opcionales disponibles`*.
 - Si no hay ninguna etiqueta `template` presente, el Core muestra *`No se encontró ninguna descripción para este widget`*.
 
@@ -361,7 +361,7 @@ Núcleo v4.2 tiene una nueva página que le permite configurar tipos genéricos 
 
 Para que estos complementos sean compatibles con esta nueva página principal, aquí se explica cómo integrarlos.
 
-Al abrir esta página, el Core comprueba, para cada complemento, si tiene un método `pluginGenericTypes()`. Si este es el caso, se llama a este método esperando los Tipos Genéricos del complemento para poder integrarlos. Estos deben respetar la definición de Tipos Genéricos del Núcleo, particularmente si ya existen categorías (Socket, Light, etc.).).
+Al abrir esta página, el Core comprueba, para cada complemento, si tiene un método `pluginGenericTypes()`. Si este es el caso, entonces se llama a este método, esperando los Tipos Genéricos del complemento para poder integrarlos. Estos deben respetar la definición de Tipos Genéricos del Núcleo, particularmente si ya existen categorías (Socket, Light, etc.).).
 
 Ejemplo, en el archivo `plugins/monplugin/core/php/monplugin.class.php`:
 
