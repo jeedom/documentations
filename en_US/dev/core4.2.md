@@ -176,7 +176,7 @@ Setting *data-coreSupport* at 0 :
 
 </details>
 
-##### For reference, the plugin's js.template :
+##### For reference, the plugin js.template :
 
 <details>
 

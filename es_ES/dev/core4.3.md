@@ -6,7 +6,7 @@
 
 ### Deprecated
 
-Casi todas las variables y funciones de la página principal se han aislado en un espacio de nombres : Esto nos permite no recrear todas las funciones si volvemos a la página, aislar las variables y funciones por página para que no sea posible una colisión, esto hace que el código sea mucho más legible ya que sabemos qué función o variable va y viene, y eso ayuda enormemente con la depuración (una consola de espacio de nombres y vemos todo).
+Casi todas las variables y funciones de la página principal se han aislado en un espacio de nombres : esto nos permite no recrear todas las funciones si volvemos a la página, aislar las variables y funciones por página para que no haya colisiones posibles, esto hace que el código sea mucho más legible ya que sabemos qué función o variable va y viene de dónde, y que ayuda enormemente con la depuración (una consola de espacio de nombres y vemos todo).
 
 Las funciones UI js ahora están en el espacio de nombres jeeFrontEnd{} :
 
@@ -81,7 +81,7 @@ En Inglés:
 ````
 Sin un archivo i18n, el complemento se mostrará en inglés en un Core configurado en francés.
 
-> Ojo, en un Core anterior a 4.3, la pantalla estará en inglés independientemente del idioma principal.
+> Cuidado, en un Core anterior a 4.3, la pantalla estará en inglés independientemente del idioma principal.
 
 
 

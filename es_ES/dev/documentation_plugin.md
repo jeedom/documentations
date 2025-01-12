@@ -20,7 +20,7 @@ Como se ve arriba, solo necesita indicar en el archivo de información.json el e
 
 ## Github
 
-La forma más sencilla de realizar su documentación es utilizar el sistema de páginas de github que tiene la ventaja de ser muy fácil de usar.
+La forma más sencilla para tu documentación es utilizar el sistema de páginas de github que tiene la ventaja de ser muy fácil de usar.
 
 ### Idioma de la documentación
 

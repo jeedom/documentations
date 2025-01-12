@@ -223,7 +223,7 @@ Là, par exemple, lors du chargement des données jeedom mettra la valeur du nom
 <input class="eqLogicAttr form-control" data-l1key='configuration' data-l2key='fromName' />
 ````
 
-Para ver la lista de propiedades de equipos y comandos, está aquí (para ver las propiedades que son JSON, simplemente mire el getter o el setter, si necesita 2 parámetros, entonces es JSON)
+Para ver la lista de propiedades de equipos y comandos está aquí (para ver las propiedades que son JSON, simplemente mire el getter o el setter, si toma 2 parámetros entonces es JSON)
 
 Último punto importante en la página de configuración: Esto puede contener tanto equipo y controles como sea necesario. Sin embargo, hay algunas reglas a seguir :
 
@@ -239,14 +239,14 @@ función agregarCmdToTable(_cmd) {
         var _cmd = {configuración: {}};
      }
     var tr = ''; tr += '';
-     tr+= ' : ninguno;">';
-    tr+= '<input class="cmdAttr form-control input-sm" data-l1key="name"> '; tr+= '<input class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="recipient"> '; tr += '';
-     tr+= ' : ninguno;">';
-     tr+= ' : ninguno;">';
+     tr+=' : ninguno;">';
+    tr+='<input class="cmdAttr form-control input-sm" data-l1key="name"> '; tr+='<input class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="recipient"> '; tr += '';
+     tr+=' : ninguno;">';
+     tr+=' : ninguno;">';
      si (is_numeric(_cmd.id)) {
-        tr+= ' <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i>{{Prueba}}</a> ';
+        tr+=' <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i>{{Prueba}}</a> ';
      }
-     tr+= '<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></i></td> ';
+     tr+='<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></i></td> ';
     tr += '';
      $('#table_cmd tbody').append(tr);
     $('#table_cmd tbody tr:last').setValues(_cmd, '.cmdAttr');
@@ -298,9 +298,9 @@ función agregarCmdToTable(_cmd) {
     tr += '<span><input type="checkbox" class="cmdAttr" data-l1key="isHistorized" /> {{Historiser}}<br/></span>';
     tr += '';     tr += '';
     si (is_numeric(_cmd.id)) {
-    tr+= ' <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i>{{Prueba}}</a> ';
+    tr+=' <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i>{{Prueba}}</a> ';
     }
-    tr+= '<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></i></td> ';
+    tr+='<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></i></td> ';
     tr += '';
     $('#table_cmd tbody').append(tr);
     $('#table_cmd tbody tr:last').setValues(_cmd, '.cmdAttr');
@@ -426,7 +426,7 @@ intentar {
     include_file('núcleo', 'autenticación', 'php');
 
     si (!isConnect('admin')) {
-        lanzar nueva excepción (__ ('401 - Acceso no autorizado', __FILE__));
+        lanzar nueva excepción (__('401 - Acceso no autorizado', __FILE__));
     }
 
     if (init('acción') == 'tu acción') {
@@ -701,7 +701,7 @@ En primer lugar, los casos en los que es necesario utilizarlo: si en tu clase he
 
 ### Método previo y posterior
 
-Al crear o eliminar sus objetos (equipo, pedido u otros) en Jeedom, puede llamar a varios métodos antes/después de la acción :
+Al crear o eliminar sus objetos (equipo, orden u otros) en Jeedom, puede llamar a varios métodos antes/después de la acción :
 
 - ``preInsert`` ⇒ Método llamado antes de crear su objeto
 - ``postInsert`` ⇒ Método llamado después de crear su objeto

@@ -56,7 +56,7 @@ Puede probar desde un escenario/bloque de código si sus complementos tienen la 
 ### Adaptación de complementos para Core v4
 
 - Limpie el estilo en línea tanto como sea posible (consulte [plantilla de complemento](https://github.com/jeedom/plugin-template/blob/master/desktop/php/template.php)).
-- pantalla de comando de extensión : clase `estado`
+- visualización del comando span : clase `estado`
 - Botón de control : una "acción colectiva"
 - En grupos de entrada:
   - clase `roundedLeft` en el primer elemento (una entrada, botón, etc.))

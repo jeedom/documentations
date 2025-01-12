@@ -16,7 +16,7 @@ A [cuenta de desarrollador](https://blog.jeedom.com/jeedom-partenaire/) es neces
 - [Valor de recomendación de los pedidos](/es_ES/dev/cmd_value)
 - [Transferencia de complementos](/es_ES/dev/transfert)
 
-- [Js y desarrollo de Core 4.4 +](/es_ES/dev/corejs/index)
+- [Js y desarrollo Core 4.4 +](/es_ES/dev/corejs/index)
 
 ### Desarrollos principales y adaptaciones de complementos
 

@@ -69,7 +69,7 @@ Una vez conectado con su cuenta de desarrollo en el mercado, debe :
    - Estable (por ej: master)
    - V3 (solo si tiene una rama diferente para soporte de Jeedom v3)).
 
-   La sincronizacion se realiza automaticamente todos los dias a las 12:10 p. m. (tenga cuidado debido a la cantidad de complementos y restricciones de llamadas API, la actualizacion comienza a las 12:10 p. m. pero puede demorar varias diez horas), o mediante sincronizacion manual de 'una sucursal. desde el archivo del complemento.
+   La sincronización se realiza automáticamente todos los días a las 12:10 p. m. (tenga cuidado debido a la cantidad de complementos y restricciones de llamadas API, la actualización comienza a las 12:10 p. m. pero puede demorar varias diez horas), o mediante sincronización manual 'una rama de el archivo de complemento.
    
    
    > **Nota**

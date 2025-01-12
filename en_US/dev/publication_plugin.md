@@ -12,7 +12,7 @@
 
 Why present your plugin !
 
-To avoid working in your corner and seeing another developer come out with the same thing at the end.  
+To avoid working in a corner and seeing another developer come out with the same thing at the end.  
 For help designing this.  
 To allow the Jeedom team during a ToStable to know what your Plugin is used for and how it is coded.  
 To share your ideas and comments :wink:  
