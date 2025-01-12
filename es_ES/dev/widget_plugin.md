@@ -12,8 +12,8 @@
  :
 
 ````php
-$replace = $this->preToHtml($_version);
-si (!)) {
+$replace = $this->preToHtml($_version)
+ (!)) {
 	
 }
 ````
@@ -21,17 +21,17 @@ si (!)) {
 La fonction preToHtml renvoi :
 
 - une string si le widget est en cache (si il est en cache, c'est qu'il n'y a pas eu de changements depuis la dernière génération donc autant le renvoyer tout de suite)
-- un tableau avec les replaces principaux, vous avez la liste [aquí](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
+- un tableau avec les replaces principaux, vous avez la liste [](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
 ## Le système de template
 
 Le système de template de widget dans le code est en fait exactement le même que celui sur la page Outils -> Widget de jeedom.
 
-Voaquí un exemple :
+Vo un exemple :
 
 ````php
 (){
-	$return = array('info' => array('string' => array()));
+	$return = array('info' => array('string' => array()))
 	$return['info']['string']['state'] = array(
 		'template' => 'tmplmultistate',
 		'test' => array(
@@ -39,12 +39,12 @@ Voaquí un exemple :
 			array('operation' => '#value# == 3','state_light' => '<i class="fa fa-pause"></i>','state_dark' => '<i class="fa fa-pause"></i>'),
 			array('operation' => '#value# > 3 || #value# < 2','state_light' => '<i class="fa fa-home"></i>','state_dark' => '<i class="fa fa-home"></i>')
 		)
-	);
-	devolver $regresar;
+	)
+	
 }
 ````
 
- [aquí](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) .
+ [](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) .
 
 > ****
 >
@@ -52,21 +52,21 @@ Voaquí un exemple :
 
 . .
 
-Ejemplo :  #\_state_# (>
+ :  #\_state_# (>
 
  :
 
 ````php
 (){
-	$return = array('info' => array('string' => array()));
+	$return = array('info' => array('string' => array()))
 	$return['info']['binary']['toto'] = array(
 		'',
 		'(
 			'#_icon_on_#' => '<i class=\'icon_green icon jeedom-porte-ferme\'></i>',
 			'#_icon_off_#' => '<i class=\'icon_red icon jeedom-porte-ouverte\'></i>'
 			)
-	);
-	devolver $regresar;
+	)
+	
 }
 ````
 
@@ -79,8 +79,8 @@ Ici, je crée un widget  basé sur le template "tmplicon" en type info et sous-t
 Ensuite, pour utiliser votre widget :
 
 ````php
-$cmd->setTemplate('dashboard','neato::state');
-$cmd->setTemplate('mobile','neato::state');
+$cmd->setTemplate('dashboard','neato::state')
+$cmd->setTemplate('mobile','neato::state')
 ````
 
 ::. ::toto

@@ -33,7 +33,7 @@
 ``hasOwnDeamon``             | «true» si [](https://doc.jeedom.com/es_ES/dev/daemon_plugin#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), sinon «false» ou absent.                                                   |
 ``maxDependancyInstallTime`` | .                                            |
 ``specialAttributes`` | Permet aux plugin de demander des [parametre suplémentaire](https://doc.jeedom.com/es_ES/dev/structure_info_json#SpecialAttributes) sur [des objets](https://doc.jeedom.com/es_ES/dev/structure_info_json# [](https://doc.jeedom.com/es_ES/dev/structure_info_json#Attributs%20User) ()                                            |
-``issue``                    | URL del rastreador de errores si es externo (si no se completa, recibirá un correo electrónico)
+``issue``                    | )
 
 ## Exemple
 
@@ -41,23 +41,23 @@
 
 ## 
 
-Aflicción del mercado         | información.json               |
+         | .               |
 --------------------- | ----------------------- |
-Comunicación         | ``communication``           |
-Comodidad               | ``wellness``                |
-Energía               | ``energy``                  |
-Informe meteorológico                 | ``weather``                 |
-Escucha            | ``monitoring``              |
-Multimedia            | ``multimedia``              |
-Naturaleza                | ``nature``                  |
-Objetos conectados      | ``devicecommunication``     |
-Organización          | ``organization``            |
-Pasarela domótica  | ``home automation protocol``|
-Programación         | ``programming``             |
-Protocolo de domótica   | ``automation protocol``     |
-Salud                 | ``health``                  |
-Seguridad              | ``security``                |
-Automatización           | ``automatisation``          |
+         | ``communication``           |
+               | ``wellness``                |
+               | ``energy``                  |
+                 | ``weather``                 |
+            | ``monitoring``              |
+            | ``multimedia``              |
+                | ``nature``                  |
+      | ``devicecommunication``     |
+          | ``organization``            |
+  | ``home automation protocol``|
+         | ``programming``             |
+   | ``automation protocol``     |
+                 | ``health``                  |
+              | ``security``                |
+           | ``automatisation``          |
 
 ## SpecialAttributes
 
@@ -67,24 +67,24 @@ Automatización           | ``automatisation``          |
 
 :
 
-```
+
  : $user->getOptions(‹ plugin:::: ›)
  : $jeeObject->getConfiguration(‹ plugin:::: ›)
-```
+
 * 
 * :  ...)
 
 ### 
 
  :
-```
+
 	"specialAttributes" : {
 		"object" : {
 			"toto" : {"name" : {"" : "" : "input"},
 			"toto2" : {"name" : {"" : "" : "number"}
 		}
 	}
-```
+
 
 ).
 .
@@ -92,20 +92,20 @@ Automatización           | ``automatisation``          |
 
 ### 
 
-```
+
 	"specialAttributes" : {
 		"user" : {
 			"toto" : {"name" : {"" : "" : "" : " : "" : "" : "" : ""}]}
 		}
 	}
-```
+
 
 )
 ![Attribut Utilisateur](images/SpecialAttributeUser.png)
 
 ### 
 
-```
+
 	"specialAttributes": {
         "eqLogic": {
             "mqttTranmit": {
@@ -116,6 +116,6 @@ Automatización           | ``automatisation``          |
             }
         }
     }
-```
+
 
 ). ::mqtt2::::::key`)
