@@ -55,7 +55,7 @@
 .
 .
 
-> **Atención**
+> ****
 >
 > ). .
 
@@ -143,7 +143,7 @@ python
  = '' ## )
 
 
-> **Atención**
+> ****
 >
 > : . ). .
 
@@ -206,7 +206,7 @@ python
 
 .
 
-> **Atención**
+> ****
 >
 > ..
 
@@ -317,7 +317,7 @@ php
         )) {
             )))) {
                 $return['state'] = 'ok';
-            } demás {
+            }  {
                 ::getCmdSudo() . ' ' . $pid_file . ' 
             }
         }
@@ -339,7 +339,7 @@ php
     }
 
 
-> **Atención**
+> ****
 >
 > .
 
@@ -485,7 +485,7 @@ php
         
     } '])) {
         
-    } demás {
+    }  {
         log::
     }
 } ) {
@@ -527,7 +527,7 @@ php
         
     } '])) {
         
-    } demás {
+    }  {
         log::
     }
 
@@ -601,7 +601,7 @@ json
 
 ##### pre-install: 
 
-Ejemplo :
+ :
 
 json
 {
@@ -613,7 +613,7 @@ json
 ##### post-install
 
 .
-Ejemplo :
+ :
 
 json
 {
@@ -733,7 +733,7 @@ php
 
 :
 
-> **Atención**
+> ****
 >
 > .
 >
@@ -799,7 +799,7 @@ fi
 - .
 - : ....
 
-> **Atención**
+> ****
 >
 > . . . .
 
@@ -820,12 +820,12 @@ php
         $return['progress_file'] = jeedom::) . '/dependance';
         ::) . '/dependance')) {
             $return['state'] = 'in_progress';
-        } demás {
+        }  {
             ::getCmdSudo() . system::') . '-||
                 $return['state'] = 'nok';
             } ::getCmdSudo() . ' | 
                 $return['state'] = 'nok';
-            } demás {
+            }  {
                 $return['state'] = 'ok';
             }
         }
@@ -837,7 +837,7 @@ php
 
 :  | . : 
 
-> **Atención**
+> ****
 >
 > .
 
