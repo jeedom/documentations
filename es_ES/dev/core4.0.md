@@ -76,7 +76,7 @@ Puede probar desde un escenario/bloque de código si sus complementos tienen la 
     - btn-xs : 22 píxeles de alto
 - Archivo escritorio/php/pluginid.PHP : reemplazar objeto::todos() por jeeObject::all()
 
-- Pruebe los complementos en los tres temas de 2019 Claro / Oscuro / Legado.
+- Pruebe los complementos en los tres temas de 2019: Claro / Oscuro / Legado.
 
 - Imágenes PNG con alfa si es necesario, para evitar antiestéticos cuadrados blancos en el tema Oscuro.
 

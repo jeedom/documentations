@@ -275,7 +275,7 @@ From here you have a daemon that can be run even if it doesn't do anything yet (
 
 ## Adapting the plugin's php code
 
-Having a daemon and understanding its structure is great, but there are some key elements missing so that your plugin (php code) can control this daemon and so that the core is also informed that it exists.
+Having a daemon and understanding its structure is great, but there are a few key elements missing so that your plugin (php code) can control this daemon and so that the core is also informed that it exists.
 
 ### plugin_info/info.json
 
@@ -795,7 +795,7 @@ Lines like `echo 60 > ${PROGRESS_FILE}` are obviously used to return the progres
 Some advice:
 
 - Do not do `apt-get upgrade`! You don't know what's on the machine and it's not your job to update everything.
-- Don't use `apt` but `apt-get`. `apt` is made for interactive use and this will generate a warning.
+- Don't use `apt` but `apt-get`. `apt` is meant for interactive use and will generate a warning.
 - Add the `-y` flag when needed to confirm the prompts otherwise the script will stop with a request like `Do you want to continue [y/n]` and the user will be blocked.
 - Prefer the syntax `python3 -m pip install ...` rather than `pip3 install ...` to install python packages as the latter will cause problems if `pip3` (or `pip` if you are using python v2) is not linked to the same version as python3: if for example python3 points to version 3.7 and pip3 points to 3.9 or worse 2.7; You don't know what has been done on the system and you are not safe from such a problem on the user's machine, there are dozens of cases listed on community.
 

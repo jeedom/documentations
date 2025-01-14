@@ -57,7 +57,7 @@ optional :
 
 |Generic type  | Values / Action |
 |---------------|----------------|
-|Info/Horizontal Tilt Status Pane|Angle 0->90° (via slider)|
+|Info/Horizontal Tilt Status Shutter|Angle 0->90° (via slider)|
 |Action/Slider Pane Horizontal Tilt|Angle 0->90°<br/>modifiable via min-max of the slider|
 |Info/Vertical Tilt Status Shutter|Angle 0->90° (via slider)|
 |Action/Slider Shutter Vertical Tilt|Angle 0->90°<br/>modifiable via min-max of the slider|
@@ -127,7 +127,7 @@ add a dimmer ? and add digital to the action ? it exists ?
 |---------------|----------------|
 |Info/Thermostat Status (BINARY)|0 = Off<br/>1 = On|
 |Info/Thermostat Status (HUMAN)|'off' or 'stopped' or 'stop'<br/>'heat' or 'heating''<br/>'cool' or 'air conditioning''<br/><br/>Prefer English| 
-|Info/Thermostat Mode|''Off' or 'Stop' = OFF<br/>''None' or 'Thermostat' = Setpoint Mode<br/>Label displaying **Exactly** the name of an Action/Thermostat Mode command|
+|Info/Thermostat Mode|'Off' or 'Stop' = OFF<br/>''None' or 'Thermostat' = Setpoint Mode<br/>Label displaying **Exactly** the name of an Action/Thermostat Mode command|
 |Action/Thermostat Mode|Thermostat mode, can be multiple|
 |Info/Thermostat Outdoor Temperature|Degrees Celsius|
 |Info/Thermostat Room temperature|Degrees Celsius| 
@@ -141,7 +141,7 @@ add a dimmer ? and add digital to the action ? it exists ?
 
 |Generic type  | Values / Action |
 |---------------|----------------|
-|Info/Portal opening status<br/>Info/Garage opening status<br/>(same treatment)|0 = Closed<br/>252 = Closing in progress<br/>253 = Stopped<br/>254 = Opening in progress<br/>255 = Open<br/>(Based on z-wave equipment, could be also binary or labeled ?)|
+|Info/Portal status opening<br/>Info/Garage opening status<br/>(same treatment)|0 = Closed<br/>252 = Closing in progress<br/>253 = Stopped<br/>254 = Opening in progress<br/>255 = Open<br/>(Based on z-wave equipment, could be also binary or labeled ?)|
 
 with either :
 
