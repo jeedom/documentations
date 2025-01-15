@@ -14,7 +14,7 @@
 	"author": "JAG",
 	"require": "4.2",
 	"os": {
-		"min": 10
+		"min": 11
 	},
 	"category": "weather",
 	"hasDependency": false,
