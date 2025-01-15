@@ -1,133 +1,133 @@
-# Bestellwert
+# 
 
-Diese Dokumentation fasst Empfehlungen für Befehlswerte (Aktion oder Info) je nach Typ zusammen. Es ist nicht verpflichtend, sie zu befolgen, aber für eine bessere Integration in Jeedom wird dies dringend empfohlen.
+. .
 
-## Licht
+## 
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|-------------|
-|Info/Lichtstatus|Oder Helligkeit<br/>0-100 Oder 0-99 oder 0-255<br/>(abhängig vom maximalen Aktions-/Licht-Schieberegler)<br/>oder Binär<br/>0 = Aus<br/> anders als 0 = Ein<br/>**Obligatorisch**| 
-|Info/Lichthelligkeit|Luminosité<br/>0-100 Oder 0-99 oder 0-255<br/>(abhängig vom maximalen Aktions-/Licht-Schieberegler)<br/>Immer mit Lichtstatus auf Binärbefehl verwenden|
-|Aktions-/Licht-Schieberegler|Helligkeitsdimmer<br/>Min. und Max. obligatorisch|
-|Aktions-/Licht-Ein-Taste|Das Licht einschalten (Change of State)|
-|Aktions-/Licht-Aus-Taste|Das Licht ausschalten (Zustandsänderung)|
-|Info/Lichtfarbe|#RRGGBB-Format|
-|Aktion/Lichtfarbe|Ändern der Farbe, Format #RRGGBB|
-|Info/Lichttemperaturfarbe|Mired-Format (<=500) oder Kelvin-Format (>500))|
-|Aktion/Lichttemperaturfarbe|Ändern der Farbtemperatur<br/>Min. und Max. obligatorisch|
-|Aktion/Licht umschalten|Zustandsumkehr, wenn binär|
-|Aktions-/Lichtmodus|Voreingestellte/Lichtszenen, können mehrere sein|
+||<br/><br/>()<br/><br/><br/> <br/>****| 
+||Luminosité<br/><br/>()<br/>|
+||<br/>|
+||)|
+||)|
+|||
+|||
+||)|
+||<br/>|
+|||
+|||
 
 ## Prise
 
 |Allgemeiner Typ  | Werte / Handeln |
 |----------------|------------|
-|Info/Steckdose<br/>Etat|0 = Aus<br/>1 = Ein|
-|Aktion/Ergriffen<br/>Ein-Taste|Schalten Sie die Steckdose ein| 
-|Aktion/Ergriffen<br/>Aus-Taste|Schalten Sie die Steckdose aus|
+|<br/>Etat|<br/>|
+|<br/>|| 
+|<br/>||
 
 ## Interrupteurs
 
 |Allgemeiner Typ  | Werte / Handeln |
 |----------------|------------|
-|Info/Schalter<br/>Etat|0 = Aus<br/>1 = Ein|
-|Aktion/Schalter<br/>Ein-Taste|Schalten Sie den Schalter ein| 
-|Aktion/Schalter<br/>Aus-Taste|Schalten Sie den Schalter aus|
+|<br/>Etat|<br/>|
+|<br/>|| 
+|<br/>||
 
 ## Ventilateur
 
 |Allgemeiner Typ  | Werte / Handeln |
 |----------------|------------|
-|Info/Fan<br/>Etat|0 = Aus<br/>1 = Ein<br/>oder Dimmen bei Geschwindigkeit|
-|Aktion/Fan<br/>Ein-Taste|Allumer| 
-|Aktion/Fan<br/>Aus-Taste|Eteindre|
-|Aktion/Fan<br/>Vitesse<br/>Rotation|Min. Max. Obligatorisch|
+|<br/>Etat|<br/><br/>|
+|<br/>|Allumer| 
+|<br/>|Eteindre|
+|<br/>Vitesse<br/>Rotation||
 
 ## Volet
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|----------------|
-|Info-/Statusbereich|Wenn binär :<br/>0 = Geschlossen<br/>1 = Offen<br/>Wenn digital :<br/>Min. des Button-Schiebereglers (sonst Min. des Zustands, sonst 0) = Geschlossen <br/>Maximalwert des Button-Schiebereglers (sonst Maximalwert des Status, ansonsten 100) = Offen<br/>Wenn keine Silder-Taste vorhanden ist : Obligatorische Mindest- und Höchstwerte im Bundesstaat !|
-|Aktions-/Schildtaste nach oben|Den Verschluss öffnen<br/>Start der Öffnung oder Festlegen des maximalen Schiebereglerwerts oder -zustands oder 100| 
-|Aktion/Auslöser gedrückt|Schließen des Verschlusses<br/>Beginn des Abschlusses oder stellen Sie den minimalen Schiebereglerwert oder -status oder 0 ein|
-|Aktions-/Auslöser-Stopp-Taste|Stoppen der Verschlussbewegung|
-|Aktions-/Bedienfeldschaltflächen-Schieberegler|Gibt den Öffnungsanteil des Verschlusses an<br/>Falls vorhanden:<br/>Obligatorische Mindest- und Höchstwerte|
+|| :<br/>0 = Geschlossen<br/><br/> :<br/> <br/><br/> :  !|
+||<br/>| 
+||<br/>|
+|||
+||<br/>:<br/>|
 
-optional :
+ :
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|----------------|
-|Statusbereich „Info/horizontale Neigung“|Winkel 0->90° (über Schieberegler))|
-|Aktion/Auslöser-Schieberegler, horizontale Neigung|Winkel 0->90°<br/>veränderbar über Min-Max des Schiebereglers|
-|Info-/Vertikalneigungsstatusbereich|Winkel 0->90° (über Schieberegler))|
-|Vertikale Neigung des Aktions-/Auslöserschiebers|Winkel 0->90°<br/>veränderbar über Min-Max des Schiebereglers|
+||)|
+||<br/>|
+||)|
+||<br/>|
 
 ## Valves
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|----------------|
-|Info/Tippen<br/>Etat|0 = Aus<br/>1 = Ein|
-|Aktion/Tippen<br/>Ein-Taste|Allumer| 
-|Aktion/Tippen<br/>Aus-Taste|Eteindre|
+|<br/>Etat|<br/>|
+|<br/>|Allumer| 
+|<br/>|Eteindre|
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|----------------|
-|Info/Bewässerung<br/>Etat|0 = Aus<br/>1 = Ein|
-|Aktion/Bewässerung<br/>Ein-Taste|Allumer| 
-|Aktion/Bewässerung<br/>Aus-Taste|Eteindre|
+|<br/>Etat|<br/>|
+|<br/>|Allumer| 
+|<br/>|Eteindre|
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|----------------|
-|Info/Ventil<br/>Generisch<br/>Etat|0 = Aus<br/>1 = Ein|
-|Aktion/Ventil<br/>Generisch<br/>Ein-Taste|Allumer| 
-|Aktion/Ventil<br/>Generisch<br/>Aus-Taste|Eteindre|
+|<br/><br/>Etat|<br/>|
+|<br/><br/>|Allumer| 
+|<br/><br/>|Eteindre|
 
-einen Dimmer hinzufügen ? und digital zur Aktion hinzufügen ? es existiert ?
+ ?  ?  ?
 
 ## Serrures
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|----------------|
-|Info/Sperrstatus|0 = Nicht sicher (nicht gesperrt))<br/>1 = Sicher (gesperrt)|
-|Aktions-/Sperr-Öffnen-Taste|Entsperren| 
-|Schaltfläche „Aktion/Schließen sperren“|Verrouillage| 
+||)<br/>)|
+||| 
+||Verrouillage| 
 
 ## Mouvement
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|----------------|
-|Info/Anwesenheit|0 = Keine Bewegung<br/>1 = Bewegung|
+||<br/>|
 
 ## Öffnung 
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|----------------|
-|Info/Tür<br/>Info/Fenster<br/>(gleiche Behandlung)|0 = Kontakt (geschlossen)<br/>1 = Kein Kontakt (Offen)| 
+|<br/><br/>(gleiche Behandlung)|)<br/>)| 
 
-## Meerjungfrauen
+## 
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|----------------|
-|Info/Sirenenstatus|0 = Klingelt nicht<br/>1 = Ringe|
+||<br/>|
 
 ## Alarme
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|----------------|
-|Info-/Alarmstatus|1 = Ausgelöst<br/>(Priorität auf aktivierten und Modi)|
-|Info-/Statusalarm aktiviert|0 = Unscharf<br/>(Priorität auf Modi)|
-|Info-/Alarmmodus|Etikett wird angezeigt **genau** der Name eines Aktions-/Alarmmodusbefehls|
-|Aktion/scharfer Alarm|Schalten Sie den Alarm ein|
-|Aktion/Alarm ausgelöst|Deaktivieren Sie den Alarm|
-|Aktions-/Alarmmodus|Der Alarmmodus kann mehrfach sein|
+||<br/>()|
+||<br/>()|
+|| **** |
+|||
+|||
+|||
 
 ## Thermostats
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|----------------|
-|Info/Thermostatstatus (BINÄR))|0 = Aus<br/>1 = Ein|
-|Info/Thermostatstatus (MENSCH)|'„aus“ oder „gestoppt“ oder „verhaftet“'<br/>'Hitze“ oder „Heizung“'<br/>'„kühl“ oder „Klimaanlage“'<br/><br/>Bevorzugen Sie Englisch| 
-|Info/Thermostatmodus|'„Off“ oder „Arret“ = AUS<br/>'„Keine“ oder „Thermostat“ = Sollwertmodus<br/>Etikett wird angezeigt **genau** der Name eines Aktions-/Thermostatmodusbefehls|
+|)|<br/>|
+|)|''<br/>''<br/>''<br/><br/>Bevorzugen Sie Englisch| 
+|Info/Thermostatmodus|'„Off“ oder „Arret“ = AUS<br/>'<br/> **** der Name eines Aktions-/Thermostatmodusbefehls|
 |Aktion/Thermostatmodus|Thermostatmodus, kann mehrere sein|
 |Info/Thermostat Außentemperatur|Grad Celsius|
 |Info/Thermostat Raumtemperatur|Grad Celsius| 
@@ -137,19 +137,19 @@ einen Dimmer hinzufügen ? und digital zur Aktion hinzufügen ? es existiert ?
 |Aktion/Thermostatsperre|Sperren Sie den Thermostat|
 |Aktion/Thermostat entsperren|Entriegeln Sie den Thermostat|
 
-## Tore oder Garagen
+## 
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|----------------|
-|Info/Portal-Öffnungsstatus<br/>Info/Garageneröffnungsstatus<br/>(gleiche Behandlung)|0 = Geschlossen<br/>252 = Abschluss wird ausgeführt<br/>253 = Gestoppt<br/>254 = Öffnung läuft<br/>255 = Offen<br/>(Basierend auf Z-Wave-Geräten, könnte auch binär oder beschriftet sein ?)|
+|Info/Portal-Öffnungsstatus<br/><br/>(gleiche Behandlung)|0 = Geschlossen<br/><br/><br/><br/><br/>(Basierend auf Z-Wave-Geräten, könnte auch binär oder beschriftet sein ?)|
 
-mit entweder :
+ :
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|----------------|
 |Aktions-/Tor- oder Garagen-Umschalttaste|Der Schalter öffnet, wenn er geschlossen ist, und schließt, wenn er geöffnet ist<br/>Öffnung bei Blockierung (zur Sicherheit))| 
 
-oder entweder :
+ :
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|----------------|
@@ -185,7 +185,7 @@ oder entweder :
 |Info/Druck|bar|
 |Info/Ton (dB)|dB|
 
-## Gerätestatus
+## 
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|----------------|

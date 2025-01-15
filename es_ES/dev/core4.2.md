@@ -262,7 +262,7 @@ No olvide la clase "oculta" (no presente en las páginas Core) para que este ele
 
 #### Mostrar ayuda desde un widget
 
-Desde v4.2, los parámetros opcionales disponibles en los Core Widgets se muestran para cada widget, ya sea en la configuración de control o desde el modo Edición del Dashboard.
+Desde v4.2, los parámetros opcionales disponibles en los Core Widgets se muestran para cada widget, ya sea en la configuración de control o desde el modo Editar del Dashboard.
 
 En el código de **Widget de panel**, se inserta una etiqueta `template` entre el último `div` interno y la etiqueta `script`. El Core elimina esta etiqueta al mostrar el widget para no hacer la página más pesada. Sin embargo, en versiones anteriores a 4 Core.2, los navegadores no muestran la etiqueta `plantilla`. Por el contrario, el Core recupera esta etiqueta "plantilla" para mostrar ayuda en las ventanas de configuración.
 

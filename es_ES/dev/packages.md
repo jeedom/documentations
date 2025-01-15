@@ -89,7 +89,7 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
 
 Actualmente gestiona : ``apt``, ``nodejs (npm)`` , ``pip2`` Y ``pip3``, con la posibilidad de ejecutar scripts previos y posteriores a la instalación y solicitar un reinicio de Apache en la publicación.
 
-Si el archivo está presente, el núcleo SOLO se basa en ESTE, ignora las funciones `dependancy_info` y `dependancy_install`. Por lo tanto, solo calculará si hay paquetes para instalar o no desde este archivo json.
+Si el archivo está presente, el núcleo SÓLO se basa EN ESTE, ignora las funciones `dependancy_info` y `dependancy_install`. Por lo tanto, solo calculará si hay paquetes para instalar o no desde este archivo json.
 
 ## Nodejs
 

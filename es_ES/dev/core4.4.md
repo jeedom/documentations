@@ -2,7 +2,7 @@
 
 ### Un día, jQuery ...
 
-jQuery es un marco que todavía se usa ampliamente en la interfaz web, y Jeedom históricamente depende en gran medida de él. A pesar de todo, HTML5 y los navegadores más recientes permiten cada vez más prescindir de él. El interés de Jeedom es sobre todo el rendimiento, y todavía no se trata de eliminar jQuery y sus complementos (jQuery UI, menú contextual, modales, autocompletar, clasificador de tablas, etc.).
+jQuery es un marco que todavía se usa ampliamente en interfaces web, y Jeedom históricamente ha dependido en gran medida de él. A pesar de todo, HTML5 y los navegadores más recientes permiten cada vez más prescindir de él. El interés de Jeedom es sobre todo el rendimiento, y todavía no se trata de eliminar jQuery y sus complementos (jQuery UI, menú contextual, modales, autocompletar, clasificador de tablas, etc.).
 
 Pero hay que pensarlo y empezar algún día !
 
@@ -45,9 +45,9 @@ Algunos ejemplos:
   //jQuery:
   addMyTr: función (_datos) {
     vartr='>'
-    tr+='>'
-    tr+='>'
     tr+= '>'
+    tr+= '>'
+    tr+='>'
     dejar nuevaFila = $(tr)
     newRow.setValues(datos, '.mytrDataAttr')
     $('#table_stuff tbody').append(newRow)
@@ -57,9 +57,9 @@ Algunos ejemplos:
   // js puro:
   addMyTr: función (_datos) {
     vartr='>'
-    tr+='>'
-    tr+='>'
     tr+= '>'
+    tr+= '>'
+    tr+='>'
     let newRow = document.createElement('tr')
     nuevaFila.innerHTML = tr
     newRow.setJeeValues(_data, '.mytrDataAttr')
@@ -107,13 +107,13 @@ Funciones DOM específicas del núcleo:
 
 #### jQuery Toastr / Información sobre herramientas
 
-La biblioteca *tostada* fue eliminado del núcleo. Fue utilizado a través de funciones jeedomUtils.showAlert() y hideAlert() y fue reemplazado por la función interna Core jeeDialog.toast().
+La biblioteca *tostada* fue eliminado del núcleo. Fue utilizado a través de las funciones jeedomUtils.showAlert() y hideAlert() y fue reemplazado por la función interna Core jeeDialog.toast().
 
 La biblioteca Tooltipster, que depende de jQuery, también ha sido reemplazada por la biblioteca Tippy js. Usando jeedomUtils.initTooltips() por complementos no cambia.
 
 #### jQuery selector de fecha y hora
 
-La biblioteca *selector de fecha y hora* fue eliminado del núcleo. Fue utilizado a través de funciones jeedomUtils.datePickerInit() y dateTimePickerInit() y fue reemplazado por la biblioteca [recogedor plano](https://flatpickr.js.org/).
+La biblioteca *selector de fecha y hora* fue eliminado del núcleo. Fue utilizado a través de las funciones jeedomUtils.datePickerInit() y dateTimePickerInit() y fue reemplazado por la biblioteca [recogedor plano](https://flatpickr.js.org/).
 
 Las funciones principales gestionan el tema *recogedor plano* y el idioma de la lib dependiendo del idioma del Core.
 

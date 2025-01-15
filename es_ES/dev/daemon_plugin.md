@@ -20,10 +20,10 @@ Que no cunda el pánico, ya todo está planeado en el centro de Jeedom para ayud
 El código y/o ejecutable de su demonio obviamente debe estar en el árbol de su complemento y, por lo tanto, debe incluirse y entregarse con el archivo al instalar un complemento.
 No existe una regla estricta sobre la ubicación exacta de su demonio, sin embargo, la convención dicta que lo coloque en el subdirectorio `./recursos/` del complemento.
 
-En el complemento de plantilla encontrará los conceptos básicos para implementar un demonio en Python y este es el ejemplo que usaremos en esta documentación; sin embargo, usted es libre de desarrollar su demonio en el lenguaje de su elección siempre que se pueda ejecutar en el [plataformas soportadas por Jeedom](/es_ES/compatibility/).
+En el complemento de plantilla encontrará los conceptos básicos para implementar un demonio en Python y este es el ejemplo que usaremos en esta documentación; sin embargo, usted es libre de desarrollar su demonio en el lenguaje de su elección siempre que pueda ejecutarse en el [plataformas soportadas por Jeedom](/es_ES/compatibility/).
 La mayoría de los demonios del complemento Jeedom están en python o nodeJs, pero también hay algunos en .netCore y ciertamente otras tecnologías.
 
-También encontrará algunos métodos útiles para un demonio nodeJs que quizás se detallen en una versión futura de esta documentación. Por ahora te invito a consultar la comunidad dev para alinearte con otros desarrolladores en todo lo relacionado con NodeJs, principalmente en la versión a usar.
+También encontrará algunos métodos útiles para un demonio nodeJs que quizás se detallarán en una versión futura de esta documentación. Por ahora te invito a consultar la comunidad dev para alinearte con otros desarrolladores en todo lo relacionado con NodeJs, principalmente en la versión a usar.
 
 Estructura del directorio de plantillas:
 
@@ -127,7 +127,7 @@ try:
     jeedom_socket = jeedom_socket(puerto=_socket_port, dirección=_socket_host)
     listen()
 excepto excepción como e:
-    logging.error('Error grave : '+cadena(e)))
+    logging.error('Error fatal : '+cadena(e)))
     shutdown()
 ```
 
@@ -222,7 +222,7 @@ try:
     jeedom_socket = jeedom_socket(port=_socket_port, dirección=_socket_host) # declaramos el socket para recibir órdenes de jeedom
     escucha() # y escuchamos
 excepto excepción como e:
-    logging.error('Error grave : '+cadena(e)))
+    logging.error('Error fatal : '+cadena(e)))
     shutdown()
 ```
 
@@ -369,7 +369,7 @@ Puede copiar/pegar el código siguiente tal cual y modificar las líneas indicad
         $cmd .= ' --pswd "' . trim(str_replace('"', '\"', config::byKey('password', __CLASS__))) . '"'; // et password
         $cmd .= ' --apikey ' . jeedom::getApiKey(__CLASS__); // l'apikey pour authentifier les échanges suivants
         $cmd .= ' --pidentificación ' . jeedom::getTmpFolder(__CLASS__) . '/deamon.pid'; // et on précise le chemin vers le pidentificación file (ne pas modifier)
-        log::add(__CLASS__, 'información', 'Lanzamiento del demonio');
+        log::add(__CLASS__, 'información', 'lanzamiento del demonio');
         $result = exec($cmd . ' >> ' . log::getPathToLog('template_daemon') . ' 2>&1 &'); // 'template_daemon' est le nom du registro pour votre démon, vous devez nommer votre registro en commençant par le pluginidentificación pour que le fichier apparaisse dans la page de config
         $i = 0;
         mientras ($i < 20) {
@@ -421,7 +421,7 @@ Por tanto, es necesario gestionar el equivalente en el lado PHP.
 #### Envía un mensaje al demonio
 
 Esta función no existe en el núcleo y no es estándar para todos los complementos de Jeedom, tampoco es obligatoria.
-Esta es la función que uso (@Mips) en cada uno de mis plugins teniendo un demonio, la pongo aquí y puedes hacer lo que quieras con él;-)
+Esta es la función que uso (@Mips) en cada uno de mis complementos que tienen un demonio, la pongo aquí y puedes hacer con ella lo que quieras;-)
 
 Por lo tanto, recibe una matriz de valores como parámetro y se encarga de enviarla al socket del demonio que, por lo tanto, puede leer esta matriz en el método `read_socket()` que vimos anteriormente.
 
@@ -606,7 +606,7 @@ Ejemplo :
 ```json
 {
   "pre-install" : {
-    "script" : "complementos/[ID del complemento]/resources/post-install.sh"
+    "script" : "complementos/[pluginID]/resources/post-install.sh"
   }
 ```
 
@@ -619,7 +619,7 @@ Ejemplo :
 {
   "post-install" : {
     "reiniciar_apache" : true,
-    "script" : "complementos/[ID del complemento]/resources/post-install.sh"
+    "script" : "complementos/[pluginID]/resources/post-install.sh"
   }
 ```
 
@@ -724,7 +724,7 @@ En tu clase eqLogic debes agregar esta función si no existe. Puedes copiar/pega
 
 Esta función comienza eliminando el registro de la instalación anterior, si existía, y luego devolverá al núcleo el comando del script a ejecutar y la ubicación del registro.
 
-Tenga en cuenta que el archivo de script devuelto se denomina `install_#stype#.sh`. De hecho, `#stype#`será reemplazado dinámicamente por el núcleo con la herramienta de administración de paquetes que se usará según el sistema en el que esté instalado Jeedom. Entonces `#stype#`será reemplazado por `apt` en un sistema Debian.
+Tenga en cuenta que el archivo de script devuelto se denomina `install_#stype#.sh`. De hecho, `#stype#`será reemplazado dinámicamente por el núcleo con la herramienta de administración de paquetes que se utilizará según el sistema en el que esté instalado Jeedom. Entonces `#stype#`será reemplazado por `apt` en un sistema Debian.
 Esto hace posible ofrecer scripts de instalación de dependencias para varios sistemas y, por lo tanto, admitir algo distinto de Debian/apt, que es el mínimo imprescindible y el único que gestionaremos aquí.
 
 El primer argumento: `jeedom::getTmpFolder(__CLASS__) . '/dependence'` es el archivo utilizado para monitorear el progreso de la instalación (el porcentaje que aparece en la pantalla durante la instalación).
@@ -809,7 +809,7 @@ Algunos consejos:
 
 Por lo tanto, es nuestra función php `dependancy_install()` la que será llamada por el núcleo y la que lanzará nuestro script `./resources/install_apt.sh` cuando el usuario hace clic en el botón "Reiniciar" o automáticamente por el núcleo cuando detecta que las dependencias no están instaladas o no están actualizadas.
 
-Pero, ¿cómo sabe el núcleo el estado y cómo lo muestra en el cuadro anterior?? Gracias a la función `dependancy_info()` que debemos agregar a nuestra clase eqLogic.
+Pero, ¿cómo sabe el núcleo el estado y cómo lo muestra en el cuadro anterior?? Gracias a la función `dependancy_info()` que debemos agregar en nuestra clase eqLogic.
 
 Aquí tienes un ejemplo del que puedes tomar la mayoría:
 

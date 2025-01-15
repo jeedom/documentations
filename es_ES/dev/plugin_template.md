@@ -231,7 +231,7 @@ Todos los elementos que tienen la clase eqLogicAttr deben estar en un elemento q
 
 ## JS
 
-Todos los archivos JS deben estar en la carpeta JS (fácil !!!). Es recomendable nombrarlo con el mismo ID que tu plugin (en la parte de configuración, para el panel haces lo que quieras). Este archivo JS (el de la configuración del complemento) debe contener al menos un método addCmdToTable que toma el objeto de comando a agregar como parámetro. Aquí tienes un ejemplo sencillo :
+Todos los archivos JS deben estar en la carpeta JS (fácil !!!). Es recomendable nombrarlo con el mismo ID que tu plugin (en la parte de configuración, para el panel haces lo que quieras). Este archivo JS (el de la configuración del complemento) debe contener al menos un método addCmdToTable que toma el objeto de comando a agregar como parámetro. Aquí hay un ejemplo sencillo :
 
 ````php
 función agregarCmdToTable(_cmd) {
@@ -240,7 +240,7 @@ función agregarCmdToTable(_cmd) {
      }
     var tr = ''; tr += '';
      tr+=' : ninguno;">';
-    tr+='<input class="cmdAttr form-control input-sm" data-l1key="name"> '; tr+='<input class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="recipient"> '; tr += '';
+    tr+= '<input class="cmdAttr form-control input-sm" data-l1key="name"> '; tr+= '<input class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="recipient"> '; tr += '';
      tr+=' : ninguno;">';
      tr+=' : ninguno;">';
      si (is_numeric(_cmd.id)) {
@@ -392,7 +392,7 @@ Contiene los archivos PHP adicionales. Me acostumbré a poner, por ejemplo, un a
 
 ## Template
 
-Que puede contener 2 subcarpetas, panel y móvil, esta es una carpeta que Jeedom escanea automáticamente en busca de widgets, por lo que si usa widgets específicos aquí es donde debe colocar su archivo HTML
+Que puede contener 2 subcarpetas, panel y móvil, es una carpeta que Jeedom escanea automáticamente en busca de widgets, por lo que si usa widgets específicos aquí es donde debe colocar su archivo HTML
 
 ## i18n
 
@@ -426,7 +426,7 @@ intentar {
     include_file('núcleo', 'autenticación', 'php');
 
     si (!isConnect('admin')) {
-        lanzar nueva excepción (__('401 - Acceso no autorizado', __FILE__));
+        lanzar nueva excepción (__ ('401 - Acceso no autorizado', __FILE__));
     }
 
     if (init('acción') == 'tu acción') {
@@ -505,7 +505,7 @@ class plugin_idCmd extends cmd {
 ?>
 ````
 
-Para la definición de clases de jeedom, los invito a consultar esto [sitio](https://doc.jeedom.com/dev/phpdoc/4.0/)
+Para la definición de clases de jeedom, los invito a consultar este [sitio](https://doc.jeedom.com/dev/phpdoc/4.0/)
 
 El único método obligatorio es el método de instancia en la clase de ejecución cmd. Aquí hay un ejemplo con el complemento SARAH :
 
@@ -664,7 +664,7 @@ Cela permet de récupérer la commande ayant le logical\_identificación : tempe
 $this->getCmd(null, 'temperature_min');
 ````
 
-Allí esto te permite poner el valor en la etiqueta, sólo si el pedido ha sido recuperado
+Allí esto te permite poner el valor en la etiqueta, solo si el pedido ha sido recuperado
 
 ````php
 $replace['#temperature#'] = is_object($temperature) ? $temperature->execCmd() : '';
@@ -701,7 +701,7 @@ En primer lugar, los casos en los que es necesario utilizarlo: si en tu clase he
 
 ### Método previo y posterior
 
-Al crear o eliminar sus objetos (equipo, orden u otros) en Jeedom, puede llamar a varios métodos antes/después de la acción :
+Al crear o eliminar sus objetos (equipo, pedido u otros) en Jeedom, puede llamar a varios métodos antes/después de la acción :
 
 - ``preInsert`` ⇒ Método llamado antes de crear su objeto
 - ``postInsert`` ⇒ Método llamado después de crear su objeto
@@ -710,14 +710,14 @@ Al crear o eliminar sus objetos (equipo, orden u otros) en Jeedom, puede llamar 
 - ``preSave`` ⇒ Método llamado antes de guardar (creación y actualización, por lo tanto) de su objeto
 - ``postSave`` ⇒ Método llamado después de guardar su objeto
 - ``preRemove`` ⇒ Método llamado antes de eliminar su objeto
-- ``postRemove`` ⇒ Método llamado después de eliminar su objeto
+- ``postRemove`` 
 
-Ejemplo, todavía con el complemento meteorológico de crear comandos o actualizarlos después de guardar (el ejemplo está simplificado) :
+) :
 
 ````php
-publicación de función públicaActualización() {
+() {
       $weatherCmd = $this->getCmd(null, 'temperature');
-      si (!is_object($climaCmd)) {
+      si (!)) {
           $weatherCmd = new weatherCmd();
       }
       $weatherCmd->setName(__('Température', __FILE__));
@@ -757,9 +757,9 @@ public static function updateWeatherData($_options) {
 }
 ````
 
-Vemos aquí que durante la llamada recuperamos el equipo en cuestión y luego ejecutamos los comandos para recuperar los valores y actualizarlos si es necesario.
+.
 
-Parte muy importante :
+ :
 
 ````php
 $weather->checkAndUpdateCmd($cmd,$cmd->execute());
@@ -775,10 +775,10 @@ public function dontRemoveCmd() {
 }
 ````
 
-Finalmente, aquí tienes algunos consejos y trucos :
+ :
 
-- Evite (a menos que sepa lo que está haciendo) anular un método de la clase heredada (esto puede causar muchos problemas))
-- Para volver a montar la batería (en %) de un equipo, hazlo sobre él (Jeedom se encargará del resto y avisará al usuario si es necesario)) :
+- )
+- ) :
 
 ````php
 $eqLogic->batteryStatus(56);
