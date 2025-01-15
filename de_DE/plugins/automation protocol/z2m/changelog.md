@@ -4,7 +4,11 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-- Beginn der Unterstützung für zigbee2mqtt 2.0
+# 
+
+- 
+- .X ()
+- Bug-Fix
 
 # 16.12.2024
 

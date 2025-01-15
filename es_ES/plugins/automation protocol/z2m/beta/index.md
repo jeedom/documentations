@@ -277,3 +277,7 @@ Tenga cuidado de poner el nombre correcto del archivo gbl al flashear.
 >**Recibo el error "La configuración no es consistente con la copia de seguridad del adaptador"**
 >
 >Tienes que ir a la configuración de Jeedom, luego a OS/DB y luego al editor de archivos. Esnuite vaya a plugins/z2m/data y elimine el archivo coordinador_backup.json
+
+>**Recibo el error "Me niego a iniciar porque la configuración no es válida, encontré los siguientes errores: 0850|- "**
+>
+> ..

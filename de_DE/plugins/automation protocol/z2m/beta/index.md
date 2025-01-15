@@ -277,3 +277,7 @@ Achten Sie beim Flashen darauf, den richtigen GBL-Dateinamen einzugeben.
 >**Ich erhalte die Fehlermeldung „Konfiguration stimmt nicht mit der Adaptersicherung überein.“"**
 >
 >Sie müssen zur Jeedom-Konfiguration, dann zu OS/DB und dann zum Dateieditor gehen. Gehen Sie zu „plugins/z2m/data“ und löschen Sie die Datei „coordinator_backup.json“
+
+>**Ich erhalte die Fehlermeldung „Start verweigert, weil Konfiguration ungültig ist, folgende Fehler wurden gefunden.“: 0850|- "**
+>
+> ..

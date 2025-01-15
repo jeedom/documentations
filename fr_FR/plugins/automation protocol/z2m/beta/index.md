@@ -277,3 +277,7 @@ Attention a bien mettre le bon nom de fichier gbl lors du flash.
 >**J'ai l'erreur "Configuration is not consistent with adapter backup"**
 >
 >Il faut aller dans la configuration de Jeedom puis OS/DB puis editeur de fichier. Esnuite aller dans plugins/z2m/data et supprimer le fichier coordinator_backup.json
+
+>**J'ai l'erreur "Refusing to start because configuration is not valid, found the following errors: 0850|- device_options must be object"**
+>
+> Il faut aller dans la configuration de jeedom onglet os/db cliquer sur l'editeur de fichier, ensuite dedans aller dans le dossier `plugins/z2m/data`, ouvrir le fichier configuration.yml (ou configuration.yaml) et supprimer la ligne qui contient device_options puis relancer le demon

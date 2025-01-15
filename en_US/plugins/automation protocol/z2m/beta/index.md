@@ -277,3 +277,7 @@ Be careful to put the correct gbl file name when flashing.
 >**I get the error "Configuration is not consistent with adapter backup"**
 >
 >You have to go to the Jeedom configuration then OS/DB then file editor. Then go to plugins/z2m/data and delete the coordinator_backup.json file
+
+>**I get the error "Refusing to start because configuration is not valid, found the following errors: 0850|- "**
+>
+> ..
