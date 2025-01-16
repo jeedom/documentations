@@ -6,12 +6,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-# 
-
-- 
-- 
-- .
-- 
+- Fix une fuite de mémoire sur le démon
+- Corrections mineures
+- "
+- Jeedom 4.4 ou plus requis
+- Debian 11 ou plus requis
 
 # 11/03/2021
 
