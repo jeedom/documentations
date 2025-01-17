@@ -12,8 +12,8 @@
  :
 
 ````php
-$replace = $this->preToHtml($_version);
-si (!)) {
+$replace = $this->preToHtml($_version)
+ (!)) {
 	
 }
 ````
@@ -31,7 +31,7 @@ Vo un exemple :
 
 ````php
 (){
-	$return = array('info' => array('string' => array()));
+	$return = array('info' => array('string' => array()))
 	$return['info']['string']['state'] = array(
 		'template' => 'tmplmultistate',
 		'test' => array(
@@ -39,8 +39,8 @@ Vo un exemple :
 			array('operation' => '#value# == 3','state_light' => '<i class="fa fa-pause"></i>','state_dark' => '<i class="fa fa-pause"></i>'),
 			array('operation' => '#value# > 3 || #value# < 2','state_light' => '<i class="fa fa-home"></i>','state_dark' => '<i class="fa fa-home"></i>')
 		)
-	);
-	devolver $regresar;
+	)
+	
 }
 ````
 
@@ -52,21 +52,21 @@ Vo un exemple :
 
 . .
 
-Ejemplo :  #\_state_# (>
+ :  #\_state_# (>
 
  :
 
 ````php
 (){
-	$return = array('info' => array('string' => array()));
+	$return = array('info' => array('string' => array()))
 	$return['info']['binary']['toto'] = array(
 		'',
 		'(
 			'#_icon_on_#' => '<i class=\'icon_green icon jeedom-porte-ferme\'></i>',
 			'#_icon_off_#' => '<i class=\'icon_red icon jeedom-porte-ouverte\'></i>'
 			)
-	);
-	devolver $regresar;
+	)
+	
 }
 ````
 
@@ -79,8 +79,8 @@ Ici, je crée un widget  basé sur le template "tmplicon" en type info et sous-t
 Ensuite, pour utiliser votre widget :
 
 ````php
-$cmd->setTemplate('dashboard','neato::state');
-$cmd->setTemplate('mobile','neato::state');
+$cmd->setTemplate('dashboard','neato::state')
+$cmd->setTemplate('mobile','neato::state')
 ````
 
 ::. ::toto
