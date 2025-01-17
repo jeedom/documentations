@@ -47,7 +47,7 @@ Algunos ejemplos:
     vartr='>'
     tr+='>'
     tr+= '>'
-    tr+='>'
+    tr+= '>'
     dejar nuevaFila = $(tr)
     newRow.setValues(datos, '.mytrDataAttr')
     $('#table_stuff tbody').append(newRow)
@@ -59,7 +59,7 @@ Algunos ejemplos:
     vartr='>'
     tr+='>'
     tr+= '>'
-    tr+='>'
+    tr+= '>'
     let newRow = document.createElement('tr')
     nuevaFila.innerHTML = tr
     newRow.setJeeValues(_data, '.mytrDataAttr')

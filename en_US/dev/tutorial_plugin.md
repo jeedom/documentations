@@ -2,7 +2,7 @@
 
 > **IMPORTANT**
 >
-> This tutorial was written by ZygOm4t1k whom we thank very much. You can find the original [here](https://forum.jeedom.com/viewtopic.php?f=27&t=37630#p621495)
+> This tutorial was written by ZygOm4t1k whom we warmly thank. You can find the original [here](https://forum.jeedom.com/viewtopic.php?f=27&t=37630#p621495)
 
 Here is a small practical exercise to explain how to create a plugin. For the example we will create a plugin that returns a sentence from the site viedemerde.fr .(The plugin will be scalable)
 

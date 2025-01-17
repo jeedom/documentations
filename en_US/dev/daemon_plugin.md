@@ -275,7 +275,7 @@ From here you have a daemon that can be run even if it doesn't do anything yet (
 
 ## Adapting the plugin's php code
 
-Having a daemon and understanding its structure is great, but there are some key elements missing so that your plugin (php code) can control this daemon and so that the core is also informed that it exists.
+Having a daemon and understanding its structure is great, but there are a few key elements missing so that your plugin (php code) can control this daemon and so that the core is also informed that it exists.
 
 ### plugin_info/info.json
 
@@ -716,7 +716,7 @@ There are 2 prerequisites that we will detail right away.
 In your eqLogic class you must add this function if it does not exist. You can copy/paste this one as is without changing anything
 
 ```php
-    public static function dependency_install() {
+    public static function dependancy_install() {
         log::remove(__CLASS__ . '_update');
         return array('script' => dirname(__FILE__) . '/../../resources/install_#stype#.sh ' . jeedom::getTmpFolder(__CLASS__) . '/dependance', 'log' => log::getPathToLog(__CLASS__ . '_update'));
     }

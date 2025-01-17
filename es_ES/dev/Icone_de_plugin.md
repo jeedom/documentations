@@ -1,6 +1,6 @@
 **Documentación del icono de complementos**
 
-Para poder publicarse en Jeedom Market, cualquier complemento debe tener un icono.
+Para poder publicarse en Jeedom Market, cualquier complemento debe tener un ícono.
 
 Este icono será el que se mostrará a los usuarios, en el mercado y desde la interfaz de Jeedom.
 

@@ -95,5 +95,5 @@ Si el archivo está presente, el núcleo SOLO se basa en ESTE, ignora las funcio
 
 Para nodejs es un poco especial, cualquier solicitud de nodejs o npm se ignora para instalar nodejs v12 sea cual sea la plataforma. Entonces hay 2 posibilidades :
 
-- es un nombre de paquete en este caso se instala globalmente en el sistema
-- es una ruta en este caso jeedom se coloca en el directorio en cuestión y lanza una instalación npm (con eliminación del directorio ``node_modules``)
+- 
+-  ``node_modules``)

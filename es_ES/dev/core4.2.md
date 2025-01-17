@@ -262,7 +262,7 @@ No olvide la clase "oculta" (no presente en las páginas Core) para que este ele
 
 #### Mostrar ayuda desde un widget
 
-Desde v4.2, los parámetros opcionales disponibles en los Core Widgets se muestran para cada widget, ya sea en la configuración de control o desde el modo Edición del Dashboard.
+Desde v4.2, los parámetros opcionales disponibles en los Core Widgets se muestran para cada widget, ya sea en la configuración de control o desde el modo Editar del Dashboard.
 
 En el código de **Widget de panel**, se inserta una etiqueta `template` entre el último `div` interno y la etiqueta `script`. El Core elimina esta etiqueta al mostrar el widget para no hacer la página más pesada. Sin embargo, en versiones anteriores a 4 Core.2, los navegadores no muestran la etiqueta `plantilla`. Por el contrario, el Core recupera esta etiqueta "plantilla" para mostrar ayuda en las ventanas de configuración.
 
@@ -361,7 +361,7 @@ Núcleo v4.2 tiene una nueva página que le permite configurar tipos genéricos 
 
 Para que estos complementos sean compatibles con esta nueva página principal, aquí se explica cómo integrarlos.
 
-Al abrir esta página, el Core comprueba, para cada complemento, si tiene un método `pluginGenericTypes()`. Si este es el caso, entonces se llama a este método, esperando los Tipos Genéricos del complemento para poder integrarlos. Estos deben respetar la definición de Tipos Genéricos del Núcleo, particularmente si ya existen categorías (Socket, Light, etc.).).
+Al abrir esta página, el Core comprueba, para cada complemento, si tiene un método `pluginGenericTypes()`. Si este es el caso, se llama a este método, esperando los Tipos Genéricos del complemento para poder integrarlos. Estos deben respetar la definición de Tipos Genéricos del Núcleo, particularmente si ya existen categorías (Socket, Light, etc.).).
 
 Ejemplo, en el archivo `plugins/monplugin/core/php/monplugin.class.php`:
 

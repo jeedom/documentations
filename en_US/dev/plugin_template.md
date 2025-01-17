@@ -378,7 +378,7 @@ $('body').delegate('.helpSelectCron','click',function() {
 })
 ````
 
-When you click on the assistant button, you retrieve the input to write in and then call the assistant. Once the configuration is finished in the wizard, the result is retrieved and written to the previously selected input
+When you click on the assistant button, you retrieve the input to write in and then call the assistant. Once the configuration is finished in the wizard, the result is retrieved and then written to the previously selected input
 
 # Plugin creation part 4 : core folder
 

@@ -6,8 +6,8 @@ Esta documentación reúne recomendaciones para valores de comando (acción o in
 
 |Tipo genérico  | Valores/Acción |
 |---------------|-------------|
-|Información/Estado de la luz|O brillo<br/>0-100 o 0-99 o 0-255<br/>(dependiendo del control deslizante de acción/luz máxima)<br/>o binario<br/>0 = Apagado<br/> distinto de 0 = activado<br/>**Obligatorio**| 
-|Información/Brillo de luz|Luminosité<br/>0-100 o 0-99 o 0-255<br/>(dependiendo del control deslizante de acción/luz máxima)<br/>Usar siempre con estado de luz en comando binario|
+|Información/Estado de la luz|O brillo<br/>0-100 o 0-99 o 0-255<br/>(dependiendo del control deslizante máximo de acción/luz)<br/>o binario<br/>0 = Apagado<br/> distinto de 0 = activado<br/>**Obligatorio**| 
+|Información/Brillo de luz|Luminosité<br/>0-100 o 0-99 o 0-255<br/>(dependiendo del control deslizante máximo de acción/luz)<br/>Usar siempre con estado de luz en comando binario|
 |Control deslizante de acción/luz|Atenuador de brillo<br/>Mín. y Máx. Obligatorio|
 |Botón de acción/encendido de luz|Encendido de la luz (Cambio de Estado))|
 |Botón de acción/apagado de luz|Apagar la luz (Cambio de Estado))|
@@ -49,7 +49,7 @@ Esta documentación reúne recomendaciones para valores de comando (acción o in
 |---------------|----------------|
 |Panel de información/estado|Si es binario :<br/>0 = Cerrado<br/>1 = Abierto<br/>Si es digital :<br/>mínimo del control deslizante del botón (de lo contrario, mínimo del estado, de lo contrario 0) = Cerrado <br/>máximo del control deslizante del botón (de lo contrario, máximo del estado, de lo contrario 100) = Abierto<br/>Si no hay ningún botón Silder : Mínimo y máximo obligatorios en el estado !|
 |Botón de acción/escudo arriba|Abriendo la persiana<br/>Lanzamiento de apertura o establecimiento del valor o estado máximo del control deslizante o 100| 
-|Botón de acción/obturador abajo|Cerrando la persiana<br/>Lanzar cierre o establecer valor mínimo del control deslizante o estado o 0|
+|Botón de acción/obturador abajo|Cerrando la persiana<br/>Inicio del cierre o establecimiento del valor o estado mínimo del control deslizante o 0|
 |Botón de acción/parada del obturador|Detener el movimiento de la persiana|
 |Control deslizante del botón de acción/panel|Da la proporción de apertura de la persiana<br/>Si está presente:<br/>Mínimo y máximo obligatorios|
 
@@ -126,7 +126,7 @@ agregar un atenuador ? y agregue lo digital a la acción ? existe ?
 |Tipo genérico  | Valores/Acción |
 |---------------|----------------|
 |Información/estado del termostato (BINARIO)|0 = Apagado<br/>1 = activado|
-|Información/Estado del termostato (HUMANO)|'apagado' o 'detenido' o 'arresto'<br/>'calor' o 'calefacción'<br/>'cool' o 'aire acondicionado'<br/><br/>Prefiero inglés| 
+|Información/estado del termostato (HUMANO)|'apagado' o 'detenido' o 'arresto'<br/>'calor' o 'calefacción'<br/>'cool' o 'aire acondicionado'<br/><br/>Prefiero inglés| 
 |Modo información/termostato|'Apagado' o 'Arret' = APAGADO<br/>'Ninguno' o 'Termostato' = Modo de punto de ajuste<br/>Etiqueta que muestra **Exactamente** el nombre de un comando de modo acción/termostato|
 |Modo acción/termostato|Modo termostato, puede ser múltiple|
 |Información/Termostato Temperatura exterior|Grados Celsius|
@@ -147,7 +147,7 @@ con cualquiera :
 
 |Tipo genérico  | Valores/Acción |
 |---------------|----------------|
-|Botón de alternancia Acción/Portón o garaje|Interruptor de apertura si está cerrado y de cierre si está abierto<br/>Apertura si está bloqueada (por seguridad))| 
+|Botón de alternancia Acción/Portón o garaje|El interruptor se abre si está cerrado y se cierra si está abierto<br/>Apertura si está bloqueada (por seguridad))| 
 
 o cualquiera :
 

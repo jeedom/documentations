@@ -13,7 +13,7 @@ Puede que necesites más que eso, algunos ejemplos sin ser exhaustivos:
 - hacer procesamiento en tiempo real
 
 Para esto, la mayoría de las veces utilizamos un "daemon".
-Que no cunda el pánico, todo ya está planeado en el centro de Jeedom para ayudarnos a poner a este demonio en su lugar y lo detallaremos aquí.
+Que no cunda el pánico, ya todo está planeado en el centro de Jeedom para ayudarnos a poner a este demonio en su lugar y lo detallaremos aquí.
 
 ## Estructura de archivos demonio
 
@@ -23,7 +23,7 @@ No existe una regla estricta sobre la ubicación exacta de su demonio, sin embar
 En el complemento de plantilla encontrará los conceptos básicos para implementar un demonio en Python y este es el ejemplo que usaremos en esta documentación; sin embargo, usted es libre de desarrollar su demonio en el lenguaje de su elección siempre que pueda ejecutarse en el [plataformas soportadas por Jeedom](/es_ES/compatibility/).
 La mayoría de los demonios del complemento Jeedom están en Python o NodeJs, pero también hay algunos en .netCore y ciertamente otras tecnologías.
 
-También encontrará algunos métodos útiles para un demonio nodeJs que quizás se detallarán en una versión futura de esta documentación. Por ahora te invito a consultar la comunidad dev para alinearte con otros desarrolladores en todo lo relacionado con NodeJs, principalmente en la versión a usar.
+También encontrará algunos métodos útiles para un demonio nodeJs que quizás se detallen en una versión futura de esta documentación. Por ahora te invito a consultar la comunidad dev para alinearte con otros desarrolladores en todo lo relacionado con NodeJs, principalmente en la versión a usar.
 
 Estructura del directorio de plantillas:
 
@@ -78,7 +78,7 @@ Básicamente, utilizará `send_change_immediate()` al principio, lo que le permi
 
 Ahora que conocemos el entorno, podemos fijarnos en la parte que más nos interesa: el demonio y lo que tendremos que codificar.
 
-Por lo tanto, veremos en detalle el esqueleto de un demonio propuesto por Jeedom, abra el archivo `demond.py` y comenzaremos con las últimas líneas que de hecho son el inicio del programa:
+Por lo tanto, veremos en detalle el esqueleto de un demonio propuesto por Jeedom, abra el archivo `demond.py` y comenzaremos con las últimas líneas que de hecho son el comienzo del programa:
 
 ```python
 _log_level = "error"
@@ -127,7 +127,7 @@ try:
     jeedom_socket = jeedom_socket(puerto=_socket_port, dirección=_socket_host)
     listen()
 excepto excepción como e:
-    logging.error('Error fatal : '+cadena(e)))
+    logging.error('Error grave : '+cadena(e)))
     shutdown()
 ```
 
@@ -222,7 +222,7 @@ try:
     jeedom_socket = jeedom_socket(port=_socket_port, dirección=_socket_host) # declaramos el socket para recibir órdenes de jeedom
     escucha() # y escuchamos
 excepto excepción como e:
-    logging.error('Error fatal : '+cadena(e)))
+    logging.error('Error grave : '+cadena(e)))
     shutdown()
 ```
 
@@ -245,7 +245,7 @@ El método `read_socket()`
 
 ```python
 def read_socket():
-    JEEDOM_SOCKET_MESSAGE global
+    JEEDOM_SOCKET_MESSAGE globales
     si no es JEEDOM_SOCKET_MESSAGE.empty():
         logging.debug("Mensaje recibido en el socket JEEDOM_SOCKET_MESSAGE")
         mensaje = json.loads(jeedom_utils.stripped(JEEDOM_SOCKET_MESSAGE.get()))
@@ -394,7 +394,7 @@ Modifique sólo las líneas con un comentario, el resto debe permanecer sin camb
 Tenga en cuenta que comenzamos deteniendo el demonio, esto es para gestionar el reinicio.
 Luego comprobamos si el demonio realmente se puede iniciar con el método `deamon_info()` y generamos la línea de comando en la variable `$cmd` para iniciar nuestro demonio, aquí con python3. Tenga en cuenta el uso de la `función del sistema::getCmdPython3(__CLASS__)` que devolverá la ruta a python3 para usar esto para que sea compatible con Debian 12 si sus dependencias están instaladas por núcleo.
 
-#### Función deamon_stop()
+#### Función demon_stop()
 
 Este método se utilizará para detener el demonio: Recuperamos el pid del demonio, que fue escrito en el "pid_file" y enviamos la eliminación del sistema al proceso.
 
@@ -458,7 +458,7 @@ Podemos ver claramente la clave "apikey" agregada por el código php que será l
 
 #### Recibe un mensaje del demonio
 
-Para hacer esto debemos agregar un archivo a nuestro complemento en la carpeta `./core/php/`. Por convención, llamaremos a este archivo `jee[pluginId].php`. `/plugins/[ID del complemento]/core/php/jee[ID del complemento]].Por lo tanto, php` será la ruta a utilizar como URL de devolución de llamada en el método `deamon_start()`
+Para ello debemos agregar un archivo a nuestro complemento en la carpeta `./core/php/`. Por convención, llamaremos a este archivo `jee[pluginId].php`. `/plugins/[ID del complemento]/core/php/jee[ID del complemento]].Por lo tanto, php` será la ruta a utilizar como URL de devolución de llamada en el método `deamon_start()`
 
 Aquí está el contenido básico que puede copiar/pegar en este archivo:
 
@@ -692,7 +692,7 @@ colocado en el directorio `/resources` por ejemplo, es este archivo el que se in
 
 ##### composer: para instalar otra dependencia de PHP
 
-no hay ningún ejemplo a la mano; la sintaxis es similar a la de otros paquetes, con la palabra clave `composer`.
+no hay ningún ejemplo a la mano; la sintaxis es similar a la de otros paquetes, con la palabra clave `compose`.
 
 ##### Dependencias de otro complemento
 
@@ -724,7 +724,7 @@ En tu clase eqLogic debes agregar esta función si no existe. Puedes copiar/pega
 
 Esta función comienza eliminando el registro de la instalación anterior, si existía, y luego devolverá al núcleo el comando del script a ejecutar y la ubicación del registro.
 
-Tenga en cuenta que el archivo de script devuelto se denomina `install_#stype#.sh`. De hecho, `#stype#`será reemplazado dinámicamente por el núcleo con la herramienta de administración de paquetes que se usará según el sistema en el que esté instalado Jeedom. Entonces `#stype#`será reemplazado por `apt` en un sistema Debian.
+Tenga en cuenta que el archivo de script devuelto se denomina `install_#stype#.sh`. De hecho, `#stype#`será reemplazado dinámicamente por el núcleo con la herramienta de administración de paquetes que se utilizará según el sistema en el que esté instalado Jeedom. Entonces `#stype#`será reemplazado por `apt` en un sistema Debian.
 Esto hace posible ofrecer scripts de instalación de dependencias para varios sistemas y, por lo tanto, admitir algo distinto de Debian/apt, que es el mínimo imprescindible y el único que gestionaremos aquí.
 
 El primer argumento: `jeedom::getTmpFolder(__CLASS__) . '/dependence'` es el archivo utilizado para monitorear el progreso de la instalación (el porcentaje que aparece en la pantalla durante la instalación).
@@ -742,88 +742,88 @@ Aquí hay un ejemplo de un script bastante simple de uno de mis complementos, pe
 ```bash
 PROGRESS_FILE=/tmp/jeedom/template/dependence #reemplace la plantilla con su ID de complemento
 
-si [ ! -z $1 ]; entonces
-    PROGRESS_FILE=$1
+ ! -
+    
 fi
-toque ${PROGRESS_FILE}
-eco 0 > ${PROGRESS_FILE}
-eco "*************************************"
-eco "*   Iniciar instalación de dependencias  *"
-eco "*************************************"
-eco $(fecha)
-eco 5 > ${PROGRESS_FILE}
-apto-limpiarse
-eco 10 > ${PROGRESS_FILE}
-apt-obtener actualización
-eco 20 > ${PROGRESS_FILE}
+}
+}
+ "*************************************"
+ "*     *"
+ "*************************************"
+)
+}
 
-eco "*****************************"
-echo "Instalar módulos usando apt-get"
-eco "*****************************"
-apt-get install -y python3 python3-solicitudes python3-pip python3-voluptuoso python3-bs4
-eco 60 > ${PROGRESS_FILE}
+}
 
-eco "*************************************"
-echo "Instalar las bibliotecas de Python necesarias"
-eco "*************************************"
-python3 -m pip instalar "aiohttp"
-eco 80 > ${PROGRESS_FILE}
+}
 
-eco 100 > ${PROGRESS_FILE}
-eco $(fecha)
-eco "***************************"
-eco "*      Instalación finalizada      *"
-eco "***************************"
-habitación ${PROGRESS_FILE}
+ "*****************************"
+"
+ "*****************************"
+
+}
+
+ "*************************************"
+"
+ "*************************************"
+"
+}
+
+}
+)
+ "***************************"
+ "*            *"
+ "***************************"
+}
 ```
 
-Detallaremos unas líneas:
+:
 
-Empezamos definiendo la ubicación por defecto del archivo de progreso en caso de que no hayamos realizado correctamente el paso anterior...
-Y usamos el primer argumento recibido como ubicación porque hicimos correctamente el paso anterior;-).
+...
+-).
 
 ```bash
 PROGRESS_FILE=/tmp/jeedom/template/dependence #reemplace la plantilla con su ID de complemento
 
-si [ ! -z $1 ]; entonces
-    PROGRESS_FILE=$1
+ ! -
+    
 fi
 ```
 
-Líneas como `echo 60 > ${PROGRESS_FILE}` obviamente se usan para devolver el progreso: Para tranquilizar al usuario, lo agregamos regularmente hasta llegar a 100 (normalmente se estresan cuando supera 100, por lo que evitamos).
+: ).
 
-Algunos consejos:
+:
 
-- No hagas "apt-get Upgrade"! No sabes qué hay en la máquina y no es tu trabajo actualizarlo todo.
-- No uses `apt` sino `apt-get`. `apt` está hecho para uso interactivo y generará una advertencia.
-- Agregue el indicador "-y" cuando sea necesario para confirmar las indicaciones; de lo contrario, el script se detendrá con una solicitud como "¿Quieres continuar [s/n]" y el usuario será bloqueado?.
-- Prefiera la sintaxis `python3 -m pip install...` en lugar de `pip3 install...` para instalar paquetes de Python porque este último causará problemas si `pip3` (o `pip` si está usando python v2) no lo hace. no está relacionado con la misma versión que python3: si por ejemplo python3 apunta a la versión 3.7 y pip3 puntos a 3.9 o peor 2.7; No sabe lo que se hizo en el sistema y no es inmune a un problema de este tipo en la máquina del usuario; hay docenas de casos enumerados en la comunidad.
+- ! .
+- . .
+- .
+- : ....
 
 > **Atención**
 >
-> Es muy importante instalar todos los paquetes necesarios y prestar especial atención a aquellos que muchas veces ya están instalados...pero no siempre. Hay problemas frecuentes con los paquetes `python3-requests`, `python3-pip` y/o `serial`. Estos no están preinstalados en un Debian básico, pero muy a menudo ya están instalados mediante otro complemento... a menos que su complemento sea el primero y en este caso su demonio no se iniciará. Sucede con más frecuencia de lo que piensas.
+> . . . .
 
-#### Conocer el estado
+#### 
 
 ![image](images/dependencies_info.png)
 
-Por lo tanto, es nuestra función php `dependancy_install()` la que será llamada por el núcleo y la que lanzará nuestro script `./resources/install_apt.sh` cuando el usuario hace clic en el botón "Reiniciar" o automáticamente por el núcleo cuando detecta que las dependencias no están instaladas o no están actualizadas.
+..
 
-Pero, ¿cómo sabe el núcleo el estado y cómo lo muestra en el cuadro anterior?? Gracias a la función `dependancy_info()` que debemos agregar a nuestra clase eqLogic.
+? .
 
-Aquí tienes un ejemplo del que puedes tomar la mayoría:
+:
 
 ```php
-    función estática pública dependency_info() {
+    () {
         $devolver = array();
         $return['log'] = log::getPathToLog(__CLASS__ . '_update');
         $return['progress_file'] = jeedom::getTmpFolder(__CLASS__) . '/dependance';
-        si (file_exists(jeedom::getTmpFolder(__CLASS__) . '/dependance')) {
+        ::getTmpFolder(__CLASS__) . '/dependance')) {
             $return['state'] = 'in_progress';
         } demás {
-            si (ejecutivo (sistema::getCmdSudo() . system::obtener('cmd_check') . '-Ec "python3\-solicitudes|python3\-voluptuoso|python3\-bs4"') < 3) { // adapta la lista de paquetes y el total
+            ::getCmdSudo() . system::') . '-Ec "python3\-solicitudes|python3\-voluptuoso|python3\-bs4"') < 3) { // adapta la lista de paquetes y el total
                 $return['state'] = 'nok';
-            } elseif (exec(sistema::getCmdSudo() . 'lista pip3 | grep -Ewc "aiohttp"') < 1) { // adapta la lista de paquetes y el total
+            } ::getCmdSudo() . 'lista pip3 | grep -Ewc "aiohttp"') < 1) { // adapta la lista de paquetes y el total
                 $return['state'] = 'nok';
             } demás {
                 $return['state'] = 'ok';
@@ -833,12 +833,12 @@ Aquí tienes un ejemplo del que puedes tomar la mayoría:
     }
 ```
 
-En este ejemplo probamos la presencia de paquetes apt: `system::getCmdSudo() . system::obtener('cmd_check') . '-Ec "python3\-solicitudes|python3\-voluptuoso|python3\-bs4"'`. Aquí queremos `python3-requests`, `python3-voluptuous` y `python3-bs4` y por lo tanto el comando debe devolver 3, de ahí la comparación: `<3`.
+: `system::getCmdSudo() . system::') . '-Ec "python3\-solicitudes|python3\-voluptuoso|python3\-bs4"'`. : .
 
-Lo mismo para los paquetes de Python: `lista pip3 | grep -Ewc "aiohttp"''. La presencia de `aiohttp` está validada, solo un paquete por lo que comparamos: `<1`;
+: `lista pip3 | grep -Ewc "aiohttp"''. : 
 
 > **Atención**
 >
-> A partir de Debian 12, es obligatorio instalar los paquetes de Python en un entorno virtual, por lo que este comando ya no funcionará tal cual, depende de usted adaptarlo en consecuencia.
+> .
 
-Entonces es muy simple: la lista de paquetes y el total son los únicos elementos que debes modificar si solo tienes este tipo de verificación de lo contrario será fácil agregar las otras pruebas relevantes en tu caso.
+: .
