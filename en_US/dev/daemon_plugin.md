@@ -716,7 +716,7 @@ There are 2 prerequisites that we will detail right away.
 In your eqLogic class you must add this function if it does not exist. You can copy/paste this one as is without changing anything
 
 ```php
-    public static function dependancy_install() {
+    public static function dependency_install() {
         log::remove(__CLASS__ . '_update');
         return array('script' => dirname(__FILE__) . '/../../resources/install_#stype#.sh ' . jeedom::getTmpFolder(__CLASS__) . '/dependance', 'log' => log::getPathToLog(__CLASS__ . '_update'));
     }

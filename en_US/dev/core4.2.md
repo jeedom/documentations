@@ -355,7 +355,7 @@ Example :
 > The texts `Value date`, `Collection date` and all those found in Core widgets do not need to be in the json. If you don't have any other texts in your widget, then the json is not needed, and these strings will be translated.
 
 
-#### Integration of plugin-specific Generic Types into the Core
+#### Integration of Generic Types specific to a plugin into the Core
 
 The Core v4.2 has a new page to configure Generic Types more easily. It of course takes over the Generic Types defined by the Core, but some plugins define their own Generic Types.
 

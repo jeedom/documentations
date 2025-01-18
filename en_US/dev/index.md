@@ -8,7 +8,7 @@ A [developer account](https://blog.jeedom.com/jeedom-partenaire/) is required to
 
 - [Plugin icon](/en_US/dev/Icone_de_plugin)
 - [Structure info.json](/en_US/dev/structure_info_json)
-- [Documentation of a plugin](/en_US/dev/documentation_plugin)
+- [Documenting a plugin](/en_US/dev/documentation_plugin)
 - [Publishing a plugin](/en_US/dev/publication_plugin)
 - [Widget of a plugin](/en_US/dev/widget_plugin)
 - [Plugin template](/en_US/dev/plugin_template)
