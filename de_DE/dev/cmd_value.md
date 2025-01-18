@@ -49,11 +49,11 @@ Diese Dokumentation fasst Empfehlungen für Befehlswerte (Aktion oder Info) je n
 |---------------|----------------|
 |Info-/Statusbereich|Wenn binär :<br/>0 = Geschlossen<br/>1 = Offen<br/>Wenn digital :<br/>Min. des Button-Schiebereglers (sonst Min. des Zustands, sonst 0) = Geschlossen <br/>Maximalwert des Button-Schiebereglers (sonst Maximalwert des Status, ansonsten 100) = Offen<br/>Wenn keine Silder-Taste vorhanden ist : Obligatorische Mindest- und Höchstwerte im Bundesstaat !|
 |Aktions-/Schildtaste nach oben|Den Verschluss öffnen<br/>Start der Öffnung oder Festlegen des maximalen Schiebereglerwerts oder -zustands oder 100| 
-|Aktion/Auslöser gedrückt|Schließen des Verschlusses<br/>Start des Abschlusses oder Festlegen des minimalen Schiebereglerwerts oder -zustands oder 0|
+|Aktion/Auslöser gedrückt|Schließen des Verschlusses<br/>Beginn des Verschlusses oder stellen Sie den minimalen Schiebereglerwert oder -status oder 0 ein|
 |Aktions-/Auslöser-Stopp-Taste|Stoppen der Verschlussbewegung|
 |Aktions-/Bedienfeldschaltflächen-Schieberegler|Gibt den Öffnungsanteil des Verschlusses an<br/>Falls vorhanden:<br/>Obligatorische Mindest- und Höchstwerte|
 
-Optional :
+optional :
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|----------------|
@@ -82,7 +82,7 @@ Optional :
 |Aktion/Ventil<br/>Generisch<br/>Ein-Taste|Allumer| 
 |Aktion/Ventil<br/>Generisch<br/>Aus-Taste|Eteindre|
 
-einen Dimmer hinzufügen ? und digital zur Aktion hinzufügen ? Es existiert ?
+einen Dimmer hinzufügen ? und digital zur Aktion hinzufügen ? es existiert ?
 
 ## Serrures
 
@@ -149,7 +149,7 @@ mit entweder :
 |---------------|----------------|
 |Aktions-/Tor- oder Garagen-Umschalttaste|Der Schalter öffnet, wenn er geschlossen ist, und schließt, wenn er geöffnet ist<br/>Öffnung bei Blockierung (zur Sicherheit))| 
 
-oder auch :
+oder entweder :
 
 |Allgemeiner Typ  | Werte / Handeln |
 |---------------|----------------|
@@ -176,8 +176,8 @@ oder auch :
 |Info/CO2 (ppm)|PPM oder binär ?|
 |Info/Temperatur|-50 → 300°C| 
 |Info/Batterie|%| 
-|Info/Akkuladung|0 = nein<br/>1 = ja<br/>Nicht vorhanden = Nicht wiederaufladbar| 
-|Info/Batterie schwach|0 = nein<br/>1 = ja| 
+|Info/Akkuladung|0 = NEIN<br/>1 = JA<br/>Nicht vorhanden = Nicht wiederaufladbar| 
+|Info/Batterie schwach|0 = NEIN<br/>1 = JA| 
 |Info/Raucherkennung|0 = Kein Rauch<br/>1 = Rauch erkannt| 
 |Info/Überschwemmung<br/>Info/Wasserleck|0 = Kein Leck erkannt<br/>1 = Leck erkannt| 
 |Info/Sabotage|0 = Keine Sabotage<br/>1 = Sabotage| 

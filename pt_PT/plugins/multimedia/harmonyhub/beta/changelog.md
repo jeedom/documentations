@@ -15,6 +15,10 @@
 >
 > Veja também [este tópico na comunidade](https://community.jeedom.com/t/importante-mise-a-jour-pour-debian-11-et-debian-12/129908) para mais detalhes
 
+## 
+
+- 
+
 # 25/11/2024
 
 - Corrija a versão de uma dependência para evitar uma alteração significativa (async-timeout v5 break timeout context)

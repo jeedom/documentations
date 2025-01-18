@@ -179,6 +179,34 @@ Dieser Teil ist eher für fortgeschrittene Benutzer gedacht, die bestimmte Befeh
 >
 > Für Aktionsbefehle können Sie „Tags“ verwenden#slider#`, `#message#`, `#title#` oder `#select#` abhängig vom Untertyp des Befehls zur Übergabe eines Parameters
 
+# Sonoff E-Flash-Taste
+
+## Automatische Website 
+
+Auf dieser Website mit Chrome (Edge sollte auch funktionieren) können Sie durch Anschließen Ihres USB-Sticks an Ihren PC den Schlüssel automatisch mit der neuesten Firmware flashen :
+
+[Silabs Firmware Flasher](https://darkxst.github.io/silabs-firmware-builder/)
+
+## Befehlszeilenmodus mit Firmware-Auswahl
+
+Mit dieser Methode können Sie den Schlüssel unter Linux mit der Firmware Ihrer Wahl flashen :
+
+
+
+„
+apt install -y python3-pip python3.11-venv
+python3 -m venv flash
+flash/bin/pip3 installiere universal-silabs-flasher
+Flash-CD/
+bin/universal-silabs-flasher --device /dev/ttyUSB0 --bootloader-reset Sonoff-Probe
+bin/universal-silabs-flasher --device /dev/ttyUSB0 --bootloader-reset sonoff flash --firmware ../ncp-uart-sw_EZNet7.4.3_V1.0.0.gbl
+bin/universal-silabs-flasher --device /dev/ttyUSB0 --bootloader-reset Sonoff-Probe
+„
+
+Liste von [Firmware](https://github.com/itead/Sonoff_Zigbee_Dongle_Firmware/tree/master/Dongle-E). 
+
+Achten Sie beim Flashen darauf, den richtigen GBL-Dateinamen einzugeben.
+
 # FAQ
 
 [Verknüpfung](https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html) zu den Zigbee2mqtt-FAQ

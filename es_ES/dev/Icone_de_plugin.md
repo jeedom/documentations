@@ -1,22 +1,22 @@
-**Icono de complementos de documentación**
+**Documentación del icono de complementos**
 
-Para ser publicado en el mercado Jeedom, cualquier complemento debe tener un ícono.
+Para poder publicarse en Jeedom Market, cualquier complemento debe tener un ícono.
 
-Este icono será el que se muestre para los usuarios, en el mercado y desde la interfaz Jeedom.
+Este icono será el que se mostrará a los usuarios, en el mercado y desde la interfaz de Jeedom.
 
-Debe producir un archivo en formato png, de 309 x 348 píxeles.
+Debes generar un archivo en formato PNG, 309 x 348 píxeles.
 
-El nombre del archivo está estructurado de la siguiente manera: ''<plugin-id> _icon.png`
+El nombre del archivo está estructurado así: `<plugin-id> _icono.png`
 
-Debe guardarse en la carpeta `/ plugin-info /`
+Debe guardarse en la carpeta `/plugin-info/`
 
-Este archivo es obligatorio.
+Este archivo es requerido.
 
-Le agradecemos de antemano por no utilizar el mismo código de color que los iconos de los complementos oficiales de Jeedom.
+Le agradecemos de antemano por no utilizar el mismo código de color que los íconos de los complementos oficiales de Jeedom.
 
-Desde 2020, se recomienda no poner más el nombre debajo de la imagen (tenga cuidado de mantener los mismos tamaños del modelo !)
+Desde 2020, se recomienda no poner más el nombre debajo de la imagen (tenga cuidado de mantener las mismas tallas del modelo) !)
 
-Utilice este modelo (bordes redondeados, tamaño, fondo de color, transparencia alrededor, etc.):
+Gracias por utilizar este modelo (bordes redondeados, tamaño, fondo coloreado, transparencia alrededor, etc.):
 
 ![modele-icone](images/plugin-Jeedom-px.jpg)
 ![modele-icon](images/template_icon.png)

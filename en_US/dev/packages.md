@@ -1,10 +1,10 @@
 # Description
 
-From jeedom v4.2 it is possible to partly entrust the management of the dependencies of your plugins to the core. It's pretty simple just create a file ``packages.json`` in ``plugin_info``.
+From jeedom v4.2 it is possible to partly entrust the management of the dependencies of your plugins to the core. It's quite simple, just create a file ``packages.json`` In ``plugin_info``.
 
 # Exemples
 
-`` ``json
+```json
 {
   "apt" : {
     "git" : {},
@@ -32,12 +32,12 @@ From jeedom v4.2 it is possible to partly entrust the management of the dependen
     "tornado" : {}
   },
   "post-install" : {
-    "script" : "plugins / openzwave / resources / post-install.sh"
+    "script" : "plugins/openzwave/resources/post-install.sh"
   }
 }
-`` ``
+```
 
-`` ``json
+```json
 {
   "apt" : {
     "libav-tools" : {"alternative" : ["ffmpeg"]},
@@ -49,9 +49,9 @@ From jeedom v4.2 it is possible to partly entrust the management of the dependen
     "restart_apache" : true
   }
 }
-`` ``
+```
 
-`` ``json
+```json
 {
   "apt" : {
     "python3-pip" : {},
@@ -74,26 +74,26 @@ From jeedom v4.2 it is possible to partly entrust the management of the dependen
     "bellows" : {"reinstall" : true}
   }
 }
-`` ``
+```
 
-`` ``json
+```json
 {
   "apt" : {
     "nodejs" : {}
   },
   "npm" : {
-    "plugins / dyson / resources / dysond"  : {}
+    "plugins/dyson/resources/dysond"  : {}
   }
 }
-`` ``
+```
 
-Currently he manages : ``apt``, ``nodejs (npm)`` , ``pip2`` and ``pip3``, with the possibility of launching pre / post installation scripts and asking him to restart apache in post.
+Currently he manages : ``apt``, ``nodejs (npm)`` , ``pip2`` And ``pip3``, with the possibility of launching pre/post installation scripts and asking for an Apache restart in post.
 
-If the file is present the core is based ON IT ONLY, it ignores the `dependancy_info` and` dependancy_install` functions. It will therefore only calculate if there are packages to install or not from this json file.
+If the file is present the core is based ONLY ON THIS ONE, it ignores the `dependancy_info` and `dependancy_install` functions. So it will only calculate if there are packages to install or not from this json file.
 
 ## Nodejs
 
-For nodejs it's a bit special, any request for nodejs or npm is overridden to install nodejs v12 whatever the platform. Then there are 2 possibilities :
+For nodejs it's a bit special, any request for nodejs or npm is bypassed to install nodejs v12 whatever the platform. Then there are 2 possibilities :
 
 - it is a package name in this case it is installed globally on the system
-- it is a path in this case jeedom is placed in the directory in question is launched an npm install (with deletion of the directory ``node_modules``)
+- it is a path in this case jeedom places itself in the directory in question and launches an npm install (with deletion of the directory ``node_modules``)

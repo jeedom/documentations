@@ -1,4 +1,4 @@
-## Core v4.3 | Plugin developers
+## Core v4.3 | Plugin Developers
 
 ### Obsolete
 
@@ -6,15 +6,15 @@
 
 ### Deprecated
 
-Almost all Core page variables and functions have been isolated into a namespace : it allows you not to recreate all the functions if you come back to the page, to isolate the variables and functions per page so no possible collision, it makes the code much more readable since you know which function or variable comes and goes where , and that helps enormously the debugging (a console of the namespace and we see everything).
+Almost all variables and functions in Core pages have been isolated in a namespace : This allows you not to recreate all the functions if you return to the page, to isolate the variables and functions by page so no collision is possible, it makes the code much more readable since you know which function or variable comes and goes where, and it helps debugging enormously (a console of the namespace and you see everything).
 
-The js functions of the UI are now in the jeeFrontEnd namespace{} :
+So the UI js functions are now in the jeeFrontEnd namespace{} :
 
 *\core\js\jeedom.class.js*
 
 ```js
 jeeFrontEnd = {
-  __description: 'Global object where each Core page register its own functions and variable in its sub-object name.',
+  __description: 'Global object where each Core page registers its own functions and variable in its sub-object name.',
   jeedom_firstUse: '',
   language: '',
   userProfils: {},
@@ -79,17 +79,17 @@ In English:
   }
 }
 ````
-Without i18n file, the plugin will be displayed in English on a Core configured in French.
+Without an i18n file, the plugin will be displayed in English on a Core configured in French.
 
-> Attention, on a Core pre 4.3, the display will be in English regardless of the language of the Core.
+> Attention, on a pre-4 Core.3, the display will be in English regardless of the Core language.
 
 
 
 #### addCmdToTable()
 
-The addCmdToTable() function is no longer mandatory. If it is not present, that of the Core will be used. You just need to create an html table `<table id="table_cmd" class="table table-bordered table-condensed"></table> `
+The addCmdToTable() function is no longer required. If not present, the Core one will be used. You just need to create an html table `<table id="table_cmd" class="table table-bordered table-condensed"></table> `
 
-On info commands, the button **Test** is no longer displayed, it is the value that is displayed, and updated in real time. To add this info in a command table : `<span class="cmdAttr" data-l1key="htmlstate"></span> `
+On the info controls, the button **Test** is no longer displayed, it is the value that is displayed, and updated in real time. To add this info into an order table : `<span class="cmdAttr" data-l1key="htmlstate"></span> `
 
 #### Widgets
 
@@ -118,9 +118,9 @@ jeedom.cmd.refreshValue([{cmd_id :'#id#',display_value: '#state#', valueDate: '#
 
 Note the new `unit` parameter, which allows the Core to transform, for example, 3500W into 3.5kW.
 
-#### Message source (4.3.7):
+#### Message Source (4.3.7):
 
-In case of action **message**, the Core now indicates the specified source rather than 'scenario'.
+In case of action **message**, Core now indicates the specified source rather than 'scenario''.
 
 Example for the Mode plugin:
 

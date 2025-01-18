@@ -1,20 +1,20 @@
 ## Core v4.4 | Plugin Developers
 
-### One day jQuery ...
+### One day, jQuery ...
 
-jQuery is a framework still widely used in web interface, and Jeedom historically relies heavily on it. Despite everything, html5 and recent browsers increasingly make it possible to do without it. The interest for Jeedom is above all performance, and there is no question of removing jQuery and its plugins (jQuery UI, contextmenu, modals, autocomplete, tablesorter, etc.).).
+jQuery is a framework that is still widely used in web interfaces, and Jeedom has historically relied heavily on it. Despite everything, HTML5 and recent browsers increasingly make it possible to do without it. The interest for Jeedom is above all performance, and there is no question yet of removing jQuery and its plugins (jQuery UI, contextmenu, modals, autocomplete, tablesorter, etc.).
 
 But you have to think about it, and start one day !
 
-Core 4.4 therefore integrates the basic functions setValues() and getValues(), which are now also prototyped on the **NodeList** and **Element**, comme elles le sont sur $.fn historically. A few functions have also been implemented like last(), triggerEvent(), isHidden(), empty(), addClass(), removeClass(), toggleClass(), hasClass(). The goal is not to redo a jQuery of course, but to offer functional shortcuts when necessary.
+The Core 4.4 therefore integrates the basic functions setValues() and getValues(), which are now also prototyped on the **NodeList** And **Element**, comme elles le sont sur $.fn historically. Some functions have also been implemented like last(), triggerEvent(), isHidden(), empty(), addClass(), removeClass(), toggleClass(), hasClass(). The goal is not to remake a jQuery of course, but to offer functional shortcuts when necessary.
 
-For an easier transition and better maintenance, the new functions **getValues()** and **setValues()** on the DOM are now **setJeeValues()** and **getJeeValues()**.
+For easier transition and better maintenance, the new functions **getValues()** And **setValues()** on the DOM are now **setJeeValues()** And **getJeeValues()**.
 
-Additionally, all calls **Ajax**, sync or async, go through pure js functions developed internally for the Core. *load()* and *html()* are therefore used by all class js and by the jeedomUtils.loadPage function(). This allows you to control everything that happens without an abstraction layer, and has, among other things, made it possible to filter all the js scripts and css stylesheets coming from 3rdparty (core and plugins) to load them into the document.head and not reload them afterwards !
+In addition, all calls **Ajax**, sync or async, go through pure js functions developed internally for the Core. *load()* And *html()* are therefore used by all js classes and by the jeedomUtils.loadPage function(). This allows to control everything that happens without an abstraction layer, and among other things, allowed to filter all js scripts and css stylesheets coming from 3rd party (core and plugins) to load them into the document.head and do not reload them afterwards !
 
-The management of *events* will also gradually switch to pure js. The pages **Synthesis** **Dashboard** **Design** and **Script** are already in full js with event delegation.
+Management of *events* will also gradually switch to pure js. The pages **Synthesis** **Dashboard** **Design** And **Scenario** are already in full js with delegation of events.
 
-It's a huge project, as much in the rewriting of the existing as in the creation of internal libs to meet the needs of the front-end without jQuery. In addition, it will be necessary to keep jQuery and its plugins/libs for a while longer for plugins. But the road is taken!
+It's a huge project, both in rewriting the existing system and in creating internal libraries to meet the needs of the front-end without jQuery. Additionally, jQuery and its plugins/libs will need to be kept for some time for plugins. But the road is taken!
 
 Some examples:
 
@@ -28,7 +28,7 @@ Some examples:
   $('#table_objectSummary tbody').append(tr)
   $('#table_objectSummary tbody tr').last().setValues(_summary, '.objectSummaryAttr')
 
-  //purejs:
+  //Pure js:
   document.querySelector('#table_objectSummary tbody').insertAdjacentHTML('beforeend', tr)
   document.querySelectorAll('#table_objectSummary tbody tr').last().setJeeValues(_summary, '.objectSummaryAttr')
 
@@ -37,29 +37,29 @@ Some examples:
   var config = $('#config').getValues('.configKey')[0]
   var expression = $(this).closest('.actionOnMessage').getValues('.expressionAttr')
 
-  //purejs:
+  //Pure js:
   var eqId = document.querySelector('.eqLogicAttr[data-l1key="id"]').jeeValue()
   var config = document.getElementById('config').getJeeValues('.configKey')[0]
   var expression = this.closest('.actionOnMessage').getJeeValues('.expressionAttr')
 
   //jQuery:
   addMyTr: function(_data) {
-    var tr = ' <tr>'
-    tr += ' <td>'
-    tr += ' </td>'
-    tr += ' </tr>'
+    var tr = '>'
+    tr += '>'
+    tr += '>'
+    tr += '>'
     let newRow = $(tr)
     newRow.setValues(data, '.mytrDataAttr')
     $('#table_stuff tbody').append(newRow)
     //return newRow
   }
 
-  //purejs:
+  //Pure js:
   addMyTr: function(_data) {
-    var tr = ' <tr>'
-    tr += ' <td>'
-    tr += ' </td>'
-    tr += ' </tr>'
+    var tr = '>'
+    tr += '>'
+    tr += '>'
+    tr += '>'
     let newRow = document.createElement('tr')
     newRow.innerHTML = tr
     newRow.setJeeValues(_data, '.mytrDataAttr')
@@ -72,7 +72,7 @@ Some examples:
     console.log('Dom ready!')
   })
 
-  // Corejs:
+  //Core js:
   domUtils(function(){
     console.log('Dom ready!')
   })
@@ -82,11 +82,11 @@ Some examples:
 
 </details>
 
-The plugin-template file.js and most Core pages now use these functions. You can of course use them in plugins, but these will then have to be installed on a Core 4.4 or more.
+The plugin-template file.js and most Core pages now use these functions. You can of course use them in plugins, but then they will have to be installed on a Core 4.4 minimum.
 
 Core-specific DOM functions:
 
-[DocCore js](/en_US/dev/corejs/index)
+[Doc Core js](/en_US/dev/corejs/index)
 
 [domUtils {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)
 
@@ -96,26 +96,26 @@ Core-specific DOM functions:
 
 ### Obsolete
 
-#### PHP function
+#### Php function
 
-`displayException()` -> `displayException()`  
+`displayExeption()` -> `displayException()`  
 `convertDayEnToFr()` -> `convertDayFromEn()`
 
 #### Js functions (available since Core4.3):
 
 `displayPlan()` -> `jeeFrontEnd.plan.displayPlan()`
 
-#### jQuery Toast / Tooltipster
+#### jQuery Toastr / Tooltipster
 
-The lib *toasting* has been removed from Core. It was used through jeedomUtils functions.showAlert() and hideAlert() and has been replaced by the internal Core function jeeDialog.toast().
+The lib *toast* has been removed from Core. It was used through the jeedomUtils functions.showAlert() and hideAlert() and has been replaced by the Core internal function jeeDialog.toast().
 
-The Tooltipster lib, dependent on jQuery, has also been replaced by the Tippy js lib. The use of jeedomUtils.initTooltips() by plugins does not change.
+The jQuery-dependent Tooltipster lib has also been replaced by the Tippy js lib. Using jeedomUtils.initTooltips() by plugins does not change.
 
 #### jQuery datetimepicker
 
-The lib *datetimepicker* has been removed from Core. It was used through jeedomUtils functions.datePickerInit() and dateTimePickerInit() and has been replaced by the lib [flatpickr](https://flatpickr.js.org/).
+The lib *datetimepicker* has been removed from Core. It was used through the jeedomUtils functions.datePickerInit() and dateTimePickerInit() and has been replaced by the lib [flatpickr](https://flatpickr.js.org/).
 
-Core functions manage the theme *flatpickr* and the language of the lib according to the Core language.
+Core functions manage the theme *flatpickr* and the language of the lib depending on the language of the Core.
 
 As a reminder:
 
@@ -148,13 +148,13 @@ As a reminder:
 
 *These functions return an error message, but still work:*
 
-#### PHP functions:
+#### Php functions:
 
 `eqLogic::byTypeAndSearhConfiguration()` -> `eqLogic::byTypeAndSearchConfiguration()`  
 
 #### Js functions (available since Core4.2):
 
-`jeedom.eqLogic.buildSelectCmd` -> `jeedom.eqLogic.buildSelectCmd`  
+`jeedom.eqLogic.builSelectCmd` -> `jeedom.eqLogic.buildSelectCmd`  
 `checkPageModified` -> `jeedomUtils.checkPageModified`  
 `loadPage` -> `jeedomUtils.loadPage`  
 `initPage` -> `jeedomUtils.initPage`  
@@ -176,16 +176,16 @@ As a reminder:
 
 #### Js variables (available since Core4.3):
 
-`jeedom_language` -> `jeeFrontEnd.language`  
+`jeedom_langage` -> `jeeFrontEnd.language`  
 `userProfils` -> `jeeFrontEnd.userProfils`
 
-> **Remark**
+> **Noticed**
 >
-> These changes may result in the need to mount the minimum required Jeedom version of many plugins. This is why the *Deprecated* do not appear on a Core in master branch, but allow developers to see what they can fix.
+> These changes may result in the need to upgrade to the minimum required Jeedom version of many plugins. This is why the *deprecated* do not appear on a Core in master branch, but allow developers to see what they can fix.
 
 #### jQuery Autocomplete
 
-The jQuery-dependent Autocomplete lib will be removed in a future Core release. It is replaced by the Core internal function **input.jeeComplete()**. This supports most of the previous options (source on ajax etc), but corrects several defects, brings new behaviors (up and down arrow to select a proposal, etc) and allows to use a single container for several inputs, reducing enormously the impact on the DOM, in particular on the scenarios.
+The jQuery-dependent Autocomplete lib will be removed in a future Core release. It is replaced by the internal function of the Core **input.jeeComplete()**. This supports most of the previous options (source on ajax etc), but fixes several flaws, brings new behaviors (up and down arrow to select a proposition, etc) and allows to use a single container for several inputs, greatly reducing the impact on the DOM, especially on scenarios.
 
 <details>
 
@@ -199,7 +199,7 @@ The jQuery-dependent Autocomplete lib will be removed in a future Core release. 
     source: dataArray
   })
 
-  // Corejs:
+  //Core js:
   document.querySelector('input.auto').jeeComplete({
     minLength: 1,
     source: dataArray
@@ -211,7 +211,7 @@ The jQuery-dependent Autocomplete lib will be removed in a future Core release. 
 
 #### jQuery bootbox
 
-The bootbox lib, dependent on jQuery, will be removed in a future Core release. jeeDialog() replaces these functions, with jeeDialog.alert(), jeeDialog.confirm(), jeeDialog.prompt().
+The jQuery-dependent bootbox lib will be removed in a future Core release. jeeDialog() replaces these functions, with jeeDialog.alert(), jeeDialog.confirm(), jeeDialog.prompt().
 
 <details>
 
@@ -226,13 +226,13 @@ The bootbox lib, dependent on jQuery, will be removed in a future Core release. 
 
   jeeDialog.prompt('Enter new name:', function(result) {
     if (result !== null) {
-      //Dostuff
+      //Do stuff
     }
   })
 
   jeeDialog.confirm('Do you really want to delete this?', function(result) {
     if (result) {
-      //Dostuff
+      //Do stuff
     } else {
       //Do other stuff
     }
@@ -245,7 +245,7 @@ The bootbox lib, dependent on jQuery, will be removed in a future Core release. 
 
 #### jQuery UI
 
-The jQuery UI lib will be removed in a future Core release. jeeDialog.dialog() replaces the use of modals *ui-dialog*.
+The jQuery UI lib will be removed in a future version of Core. jeeDialog.dialog() replaces the use of modals *ui-dialog*.
 
 <details>
 
@@ -253,14 +253,14 @@ The jQuery UI lib will be removed in a future Core release. jeeDialog.dialog() r
 
   ~~~ js
   {% raw %}
-  //jQueryUI:
+  //jQuery UI:
   $('#md_modal').dialog({
-    title: "{{System Administration}}"
+    title: "{{System administration}}"
   }).load('index.php?v=d&modal=system.action').dialog('open')
 
   //Core jeeDialog:
   jeeDialog.dialog({
-    title: '{{System Administration}}',
+    title: '{{System administration}}',
     contentUrl: 'index.php?v=d&modal=system.action'
   })
 
@@ -271,8 +271,8 @@ The jQuery UI lib will be removed in a future Core release. jeeDialog.dialog() r
 
 #### jQuery UI Sortable
 
-The jQuery Sortable lib will be removed in a future Core release.
-Lib SortableJS has been integrated into Core : [SortableJS](http://sortablejs.github.io/Sortable/)
+The jQuery Sortable lib will be removed in a future version of Core.
+SortableJS Lib has been integrated into Core : [SortableJS](http://sortablejs.github.io/Sortable/)
 
 #### jQuery caret
 
@@ -280,7 +280,7 @@ The jQuery plugin *jquery.at.caret* goes deprecated. Use `myElement.insertAtCurs
 
 #### jQuery contextMenu
 
-The contextMenu lib, dependent on jQuery, will be removed in a future version of Core. jeeCtxMenu() replaces these functions.
+The jQuery-dependent contextMenu lib will be removed in a future Core release. jeeCtxMenu() replaces these functions.
 
 <details>
 
@@ -291,12 +291,12 @@ The contextMenu lib, dependent on jQuery, will be removed in a future version of
   var myCtxMenu = new jeeCtxMenu({
     selector: '.nav.nav-tabs li', //Required!
     appendTo: 'div#div_pageContainer',
-    className: '', //Added to menucontainer
+    className: '', //Added to menu container
     items: {
       uniqueNameID: {
         name: '{{My item}}',
         isHtmlName: false,
-        icon: 'fas fa cogs',
+        icon: 'fas fa-cogs',
         className: '', //Added to item container
         callback: function(key, opt) { //Item callback
         }
@@ -319,7 +319,7 @@ The contextMenu lib, dependent on jQuery, will be removed in a future version of
       var contextmenuitems = {}
       return {
         callback: function(key, options, event) {
-          //Setitems...
+          //Set items...
         }
       },
       items: contextmenuitems
@@ -336,7 +336,7 @@ The contextMenu lib, dependent on jQuery, will be removed in a future version of
 
 #### jQuery FileUpload
 
-The jQuery fileupload lib will be removed in a future Core release. jeeFileUploader() replaces the use of these functions.
+The jQuery fileupload lib will be removed in a future version of Core. jeeFileUploader() replaces the use of these functions.
 
 <details>
 
@@ -344,12 +344,12 @@ The jQuery fileupload lib will be removed in a future Core release. jeeFileUploa
 
   ~~~ js
   {% raw %}
-  //jQueryUI:
+  //jQuery UI:
   $('#bt_uploadImage').fileupload({
     url: 'core/ajax/plan.ajax.php?action=uploadImage&id=' + id
     dataType: 'json',
     done: function(event, data) {
-      //Dostuff
+      //Do stuff
     }
   })
 
@@ -365,7 +365,7 @@ The jQuery fileupload lib will be removed in a future Core release. jeeFileUploa
     },
     */
     done: function(event, data) {
-      //Dostuff
+      //Do stuff
     }
   })
 
@@ -378,17 +378,17 @@ See [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 > **Tip**
 >
-> You can test your plugins on Core without Jquery or Bootstrap. To do this, Settings > System > Configuration, equipment tab, **Corejs (dev)**.
+> You can test your plugins on the Core without Jquery or Bootstrap. To do this, Settings > System > Configuration, Equipment tab, **Core js (dev)**.
 
-### Optional changes
+### Optional modifications
 
-- Management of multiple checkboxes
+- Managing multiple checkboxes
 
-A function has been introduced in Core to provide a contextual menu on checkboxes : Select All, None, Reverse Select.
+A feature has been introduced in the Core to provide a context menu on checkboxes : Select all, none, inverted selection.
 
-To use it, you have to add the css class *checkContext* on the relevant checkboxes, and call the function ``jeedomUtils.setCheckContextMenu()``
+To use it, you need to add the css class *checkContext* on the relevant checkboxes, and call the function ``jeedomUtils.setCheckContextMenu()``
 
-The checkboxes will then be grouped by same *data-l1key* and *data-l2key* if they exist.
+The checkboxes will then be grouped by the same *data-l1key* And *data-l2key* if they exist.
 
 You can also make groups of checkboxes with the attribute *data-context="group1"*.
 

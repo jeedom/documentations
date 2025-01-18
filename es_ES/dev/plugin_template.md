@@ -1,89 +1,89 @@
-# Plantilla de complemento de documentación
+# Documentación de plantilla de complemento
 
-Puedes encontrar una base de datos de complementos vacía [aquí](https:/ // /github.com/ /jeedom/ /plugin-template)
+Es posible que encuentres una base de datos de complementos vacía [aquí](https://github.com/jeedom/plugin-template)
 
-# Creación de complementos parte 1 : l'arborescence
+# Creación de complementos, parte 1 : l'arborescence
 
-Aquí esta su estructura: primero una carpeta con el nombre de su complemento (su identificador único más precisamente) que debe contener las siguientes subcarpetas :
+Aquí está su estructura: En primer lugar, una carpeta con el nombre de su complemento (su identificador único, más precisamente) que debe contener las siguientes subcarpetas :
 
-- ``3rdparty`` : Carpeta que contiene las bibliotecas externas utilizadas en el complemento (ejemplo para el complemento de SMS, una biblioteca para comunicación en serie en php).
+- ``3rdparty`` : Carpeta que contiene las bibliotecas externas utilizadas en el complemento (ejemplo para el complemento SMS, una biblioteca para comunicación en serie en PHP).
 - ``core`` : Carpeta que contiene todos los archivos operativos internos.
   - ``class`` : Carpeta que contiene la clase de complemento.
-  - ``php`` : Carpeta que puede contener funciones que no tienen que pertenecer a una clase (a menudo utilizada para permitir la inclusión de múltiples clases o archivos de configuración a la vez).
+  - ``php`` : Carpeta que puede contener funciones que no necesariamente tienen que pertenecer a una clase (a menudo se usa para permitir la inclusión de múltiples clases o archivos de configuración a la vez)).
   - ``config`` : Archivo de configuración del complemento.
   - ``ajax`` : Carpeta que contiene archivos de destino de llamadas AJAX.
-  - ``i18n`` : Carpeta que contiene archivos .plugin traducción json.
-  - ``template`` : Carpeta que contiene las plantillas html para mosaicos específicos del equipo del complemento, en el tablero y las subcarpetas móviles.
-- ``desktop`` : Carpeta que contiene la vista "escritorio" del complemento (en contraste con la vista "móvil"").
+  - ``i18n`` : Carpeta que contiene archivos .complemento de traducción json.
+  - ``template`` : Carpeta que contiene las plantillas html para mosaicos específicos del equipo del complemento, en el tablero y en las subcarpetas móviles.
+- ``desktop`` : Carpeta que contiene la vista "escritorio" del complemento (a diferencia de la vista "móvil"").
   - ``js`` : Carpeta que contiene todos los archivos de tipo javascript para la interfaz del complemento.
-  - ``php`` : Carpeta que contiene todos los archivos de tipo php para la interfaz del complemento.
-  - ``css`` : Si es necesario, todos los archivos css del complemento, posiblemente incluidos *fuentes*.
-  - ``modal`` : Carpeta que contiene el código modal del complemento.
-  - ``img`` : Carpeta para las imágenes (png, jpg, etc.) que necesita el complemento.
+  - ``php`` : Carpeta que contiene todos los archivos tipo php para la interfaz del complemento.
+  - ``css`` : Si es necesario, todos los archivos CSS del complemento, posiblemente incluidos *fuentes*.
+  - ``modal`` : Carpeta que contiene el código de modales del complemento.
+  - ``img`` : Carpeta para imágenes (png, jpg, etc.) que necesita el complemento.
 - ``plugin_info`` : Contiene los archivos que permiten a Jeedom calificar el complemento, instalarlo y configurarlo.
-  - ``info.json`` : Archivo que contiene información básica sobre el complemento .Es obligatorio, de lo contrario, Jeedom no verá el complemento. Contiene, entre otras cosas, el identificador del módulo, descripción, instrucciones de instalación, etc
-  - ``install.php`` : Archivo que contiene (si es necesario) los métodos para instalar y desinstalar el complemento.
-  - ``configuration.php`` : Archivo que contiene los parámetros para configurar el complemento independientemente de su equipo (ejemplo para el módulo Zwave, la Raspberry Pi ip con la tarjeta Razberry)
-- ``docs`` : Debe contener el documento del complemento en formato markdown, la raíz y el archivo index.md. Todas las imágenes están en documentos / imágenes. El documento en sí está en una carpeta dependiendo del idioma (ej. En francés : ``docs/ /fr\_FR``)
+  - ``info.json`` : Archivo que contiene información básica del complemento .Es obligatorio, de lo contrario Jeedom no verá el complemento. Contiene, entre otras cosas, el identificador del módulo, descripción, instrucciones de instalación, etc
+  - ``install.php`` : Archivo que contiene (si es necesario) los métodos de instalación y desinstalación del complemento.
+  - ``configuration.php`` : Archivo que contiene los parámetros a configurar del plugin independientemente de su equipo (ejemplo para el módulo Zwave la IP de la Raspberry Pi que tiene la tarjeta Razberry)
+- ``docs`` : Debe contener el documento del complemento en formato Markdown, la raíz y el archivo index.md. Todas las imágenes están en documentos/imágenes. El documento en sí está en una carpeta según el idioma (por ejemplo, en francés) : ``docs/fr\_FR``)
 - ``ressources`` : Carpeta para posibles demonios y dependencias.
-- ``data`` : Carpeta utilizada para archivos generados por el complemento específico para Jeedom del usuario.
+- ``data`` : Carpeta utilizada para archivos generados por el complemento Jeedom del usuario.
 
-En cuanto a la convención de nomenclatura de archivos, aquí están los
-requisitos :
+En cuanto a la convención de nomenclatura de archivos, aquí están las
+imperativos :
 
-- los archivos de clase php deben terminar con ``.class.php``
-- si no está gestionado por un archivo de inclusión, el nombre del archivo debe ser ``nom\_class.class.php``
-- los archivos que solo sirven como punto de entrada para incluir varios archivos deben terminar en ``.inc.php``
-- los archivos de configuración deben terminar con ``.config.php``
+- Los archivos de clase php deben terminar con ``.class.php``
+- Si esto no es manejado por un archivo de inclusión, el nombre del archivo debe ser ``nom\_class.class.php``
+- Los archivos que sirven sólo como punto de entrada para incluir varios archivos deben terminar con ``.inc.php``
+- Los archivos de configuración deben terminar con ``.config.php``
 
 Aquí están las recomendaciones :
 
-- Los archivos AJAX deben terminar con ``.ajax.php``
-- el nombre de la primera página de vista de un complemento debe ser el mismo que el ID del complemento
-- el nombre del archivo JS (si hay uno) de la primera página de vista del complemento debe ser el ID del complemento
+- Los archivos tipo AJAX deben terminar en ``.ajax.php``
+- el nombre de la primera página de visualización de un complemento debe ser el mismo que el ID del complemento
+- el nombre del archivo JS (si lo hay) de la primera página de vista del complemento debe ser el ID del complemento
 
-# Creación de complementos parte 2 : carpeta del complemento de información
+# Creación de complementos, parte 2 : carpeta de información del complemento
 
 ## ``info.json``
 
-Ver [aquí](https:/ // /doc.jeedom.com/es_ES/dev/ /structure_info_json)
+Ver [aquí](https://doc.jeedom.com/es_ES/dev/structure_info_json)
 
 ## ``install.php``
 
-Archivo que da instrucciones para instalar un complemento :
+Archivo con instrucciones de instalación para un complemento :
 
-Se compone de la siguiente manera :
+Está compuesto de la siguiente manera :
 
-La primera parte comentada contiene la licencia (es mejor). El que se usa aquí indica que el archivo pertenece a Jeedom y que es de código abierto Luego viene la inclusión del núcleo de Jeedom (esto permite el acceso a las funciones internas) Luego vienen las 3 funciones :
+La primera parte comentada contiene la licencia (es mejor). El usado aquí indica que el archivo pertenece a Jeedom y que es de código abierto Luego viene la inclusión del núcleo de Jeedom (esto permite el acceso a las funciones internas) Luego vienen las 3 funciones :
 
-- ``pluginid_install()`` : método para instalar el complemento. Aquí la instalación agrega un trabajo cron a Jeedom
-- ``pluginid_update()`` : método para instalar el complemento. Se usa aquí para reiniciar la tarea cron
-- ``pluginid_remove()`` : método para eliminar el complemento. Aquí la función elimina la tarea cron de Jeedom durante la desinstalación
+- ``pluginid_install()`` : método para instalar el complemento. Aquí la instalación agrega una tarea cron a Jeedom
+- ``pluginid_update()`` : método para instalar el complemento. Se utiliza aquí para reiniciar el trabajo cron
+- ``pluginid_remove()`` : método para eliminar el complemento. Aquí la función elimina el trabajo cron de Jeedom durante la desinstalación
 
 Ejemplo :
 
 ````php
 <?php
-/ * Este archivo es parte de Jeedom.
+/* Este archivo es parte de Jeedom.
  *
- * Jeedom es software libre: puedes redistribuirlo y / o modificar
+ * Jeedom es software libre: puedes redistribuirlo y/o modificarlo
  * bajo los términos de la Licencia Pública General GNU publicada por
  * la Free Software Foundation, ya sea la versión 3 de la Licencia, o
  * (a su elección) cualquier versión posterior.
  *
  * Jeedom se distribuye con la esperanza de que sea útil,
- * objetivo SIN NINGUNA GARANTÍA; sin siquiera la garantía implícita de
- * COMERCIABILIDAD o APTITUD PARA UN PROPÓSITO PARTICULAR. Ver el
+ * pero SIN NINGUNA GARANTÍA; sin siquiera la garantía implícita de
+ * COMERCIABILIDAD o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Ver el
  * Licencia pública general GNU para más detalles.
  *
  * Debería haber recibido una copia de la Licencia Pública General GNU
- * junto con Jeedom. If not, see <http:/ // /www.gnu.org/ /licenses/ />.
- */ /
-require_once dirname (__ FILE__). '/../../../core/php/core.inc.php';
+ * junto con Jeedom. If not, see <http://www.gnu.org/licenses/>.
+ */
+require_once nombredir(__FILE__) . '/../../../core/php/core.inc.php';
 
 función openzwave_install() {
     $cron = cron::byClassAndFunction('zwave', 'pull');
-    tejo (!is_object ($ cron)) {
+    si (!es_objeto($cron)) {
         $cron = new cron();
         $cron->setClass('zwave');
         $cron->setFunction('pull');
@@ -96,7 +96,7 @@ función openzwave_install() {
 
 función openzwave_update() {
     $cron = cron::byClassAndFunction('zwave', 'pull');
-    tejo (!is_object ($ cron)) {
+    si (!es_objeto($cron)) {
         $cron = new cron();
         $cron->setClass('zwave');
         $cron->setFunction('pull');
@@ -110,7 +110,7 @@ función openzwave_update() {
 
 función openzwave_remove() {
     $cron = cron::byClassAndFunction('zwave', 'pull');
-    si (is_object ($ cron)) {
+    si (is_object($cron)) {
         $cron->remove();
     }
 }
@@ -133,25 +133,25 @@ Ejemplo :
 
 ````php
 <?php
-/ * Este archivo es parte de Jeedom.
+/* Este archivo es parte de Jeedom.
  *
-  * Jeedom es software libre: puedes redistribuirlo y / o modificar
+  * Jeedom es software libre: puedes redistribuirlo y/o modificarlo
  * bajo los términos de la Licencia Pública General GNU publicada por
  * la Free Software Foundation, ya sea la versión 3 de la Licencia, o
  * (a su elección) cualquier versión posterior.
  *
  * Jeedom se distribuye con la esperanza de que sea útil,
- * objetivo SIN NINGUNA GARANTÍA; sin siquiera la garantía implícita de
- * COMERCIABILIDAD o APTITUD PARA UN PROPÓSITO PARTICULAR. Ver el
+ * pero SIN NINGUNA GARANTÍA; sin siquiera la garantía implícita de
+ * COMERCIABILIDAD o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Ver el
  * Licencia pública general GNU para más detalles.
  *
   * Debería haber recibido una copia de la Licencia Pública General GNU
- * junto con Jeedom. If not, see <http:/ // /www.gnu.org/ /licenses/ />.
-  */ /
+ * junto con Jeedom. If not, see <http://www.gnu.org/licenses/>.
+  */
 
- require_once dirname (__ FILE__). '/../../../core/php/core.inc.php';
-include_file ('núcleo', 'autenticación', 'php');
-tejo (!isConnect()) {
+ require_once nombredir(__FILE__) . '/../../../core/php/core.inc.php';
+include_file('núcleo', 'autenticación', 'php');
+si (!isConnect()) {
     include_file('desktop', '404', 'php');
     die();
  }
@@ -159,95 +159,95 @@ tejo (!isConnect()) {
  <form class="form-horizontal">
      <fieldset>
          <div class="form-group">
-             <label class="col-lg-2 control-label">Zway IP</ /label>
+             <label class="col-lg-2 control-label">Zway IP</label>
              <div class="col-lg-2">
-                 <input class="configKey form-control" data-l1key="zwaveAddr" / />
-             </ /div>
-         </ /div>
+                 <input class="configKey form-control" data-l1key="zwaveAddr" />
+             </div>
+         </div>
          <div class="form-group">
-             <label class="col-lg-4 control-label">Supprimer automatiquement les périphériques exclus</ /label>
+             <label class="col-lg-4 control-label">Supprimer automatiquement les périphériques exclus</label>
              <div class="col-lg-4">
-                 <input type="checkbox" class="configKey" data-l1key="autoRemoveExcludeDevice" / />
-             </ /div>
-         </ /div>
+                 <input type="checkbox" class="configKey" data-l1key="autoRemoveExcludeDevice" />
+             </div>
+         </div>
          <div class="form-group">
-             <label class="col-lg-4 control-label">J'utilise un serveur openzwave</ /label>
+             <label class="col-lg-4 control-label">J'utilise un serveur openzwave</label>
              <div class="col-lg-4">
-                 <input type="checkbox" class="configKey" data-l1key="isOpenZwave" / />
-             </ /div>
-         </ /div>
-     </ /fieldset>
- </ /form>
+                 <input type="checkbox" class="configKey" data-l1key="isOpenZwave" />
+             </div>
+         </div>
+     </fieldset>
+ </form>
  ````
 
-# Creación de complementos parte 3 : carpeta de escritorio
+# Creación de complementos, parte 3 : carpeta de escritorio
 
 ## PHP
 
-Esta carpeta contiene la vista misma. En el interior, debe encontrar la página de configuración del complemento (la que aparecerá cuando el usuario realice el complemento ⇒ categoría ⇒ su complemento). Es recomendable nombrarlo con la identificación de su complemento. También puede contener el panel (página que el usuario encontrará en la página de inicio → nombre de su complemento).
+Esta carpeta contiene la vista en sí. Dentro necesariamente encontramos la página de configuración del complemento (la que aparecerá cuando el usuario haga el complemento ⇒ categoría ⇒ su complemento). Es recomendable nombrarlo con el id de tu complemento. También puede contener el panel (página que el usuario encontrará en inicio → nombre de su complemento).
 
-Todos los archivos en esta carpeta deben terminar ``.php`` y debe comenzar con :
+Todos los archivos de esta carpeta deben terminar ``.php`` y debe comenzar con :
 
 ````php
 <?php
-tejo (!isConnect ('administrador')) {
-    lanzar una nueva excepción ('{{401 - Acceso no autorizado}}');
+si (!isConnect('admin')) {
+    lanzar nueva excepción ('{{401 - Acceso no autorizado}}');
  }
- sendVarToJS ('eqType', 'correo');
+ sendVarToJS('eqType', 'correo');
  ?>
  ````
 
-Une fois sur cette page vous aurez accès en php à toutes les fonctions du core de jeedom (voir [aquí](https:/ // /www.jeedom.com/ /doc/ /documentation/ /code/ /) ) ainsi qu'à celles de tous les modules installés donc le vôtre aussi.
+Une fois sur cette page vous aurez accès en PHP à toutes les fonctions du core de jeedom (voir [aquí](https://www.jeedom.com/doc/documentation/code/) ) ainsi qu'à celles de tous les modules installés donc le vôtre aussi.
 
-Toutes ces pages étant des vues elles utilisent principalement la syntaxe HTML. Pour tout ce qui est présentation, Jeedom se base principalement sur bootstrap donc toute la [documentation](http:/ // /getbootstrap.com/ /) est applicable.
+Toutes ces pages étant des vues elles utilisent principalement la syntaxe HTML. Pour tout ce qui est présentation, Jeedom se base principalement sur bootstrap donc toute la [documentation](http://getbootstrap.com/) est applicable.
 
 Pour simplifier la création de plugin vous pouvez inclure dans votre page le script javascript de template pour les plugins :
 
 ````php
-<?php include_file('core', 'plugin.template', 'js'); ?>
+<?PHP include_file('core', 'plugin.template', 'js'); ?>
 ````
 
-Para poner en la parte inferior de su página y útil solo en la página de configuración de su complemento. Este script hace posible reducir el javascript obligatorio a una sola función (ver sección sobre archivos JS).
+Se colocará en la parte inferior de su página y solo será útil en la página de configuración de su complemento. Este script le permite reducir el javascript obligatorio a una sola función (ver parte sobre archivos JS).
 
-En su página de configuración, se implementó una sintaxis HTML para simplificar su vida. Entonces, para la mayoría de los complementos, solo tendrá que hacer HTML para almacenar su información en la base de datos y, por lo tanto, usarla en el lado de su clase.
+En su página de configuración se ha implementado una sintaxis HTML para simplificar su vida. Entonces, para la mayoría de los complementos, solo tendrás que usar HTML para almacenar tu información en la base de datos y, por lo tanto, usarla en tu clase.
 
-La sintaxis es bastante simple: su elemento (input, select ...) debe tener la clase css eqLogicAttr (o cmdAttr para comandos) y un atributo que indique el nombre de la propiedad :
+La sintaxis es bastante simple: su elemento (input, select...) debe tener la clase css eqLogicAttr (o cmdAttr para comandos) y un atributo que indique el nombre de la propiedad :
 
 ````html
-<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement mail}}"/ />
+<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement mail}}"/>
 ````
 
 Là, par exemple, lors du chargement des données jeedom mettra la valeur du nom de l'équipement dans l'input et lors de la sauvegarde récupérera celle-ci pour la remettre en base de données. Petite astuce certaines propriétés sont en fait des chaînes JSON en BDD (cela permet d'avoir vraiment pas mal de liberté pour le plugin), dans ce cas il suffit de faire :
 
 ````html
-<input class="eqLogicAttr form-control" data-l1key='configuration' data-l2key='fromName' / />
+<input class="eqLogicAttr form-control" data-l1key='configuration' data-l2key='fromName' />
 ````
 
-Para ver la lista de propiedades de equipos y comandos, está aquí (para ver las propiedades que son JSON, solo mire el getter o el setter, si toma 2 parámetros, entonces es JSON)
+Para ver la lista de propiedades de equipos y comandos, está aquí (para ver las propiedades que son JSON, simplemente mire el getter o el setter, si toma 2 parámetros, entonces es JSON)
 
-Último punto importante en la página de configuración: esto puede contener tantos equipos y comandos como sea necesario. Sin embargo, hay algunas reglas a seguir :
+Último punto importante en la página de configuración: Esto puede contener tanto equipo y controles como sea necesario. Sin embargo, hay algunas reglas a seguir :
 
-Todos los elementos que tienen la clase eqLogicAttr deben estar en un elemento que tenga la clase css eqLogic Ditto para los elementos de la clase css cmdAttr que deben estar en un elemento de la clase cmd. Todos los comandos de un equipo deben estar en el elemento que tenga la clase eqLogic correspondiente
+Todos los elementos que tienen la clase eqLogicAttr deben estar en un elemento que tiene la clase css eqLogic. Lo mismo ocurre con los elementos de la clase css cmdAttr, que deben estar en un elemento de la clase cmd. Todos los comandos de un equipo deben encontrarse en el elemento con la clase eqLogic correspondiente
 
 ## JS
 
-Todos los archivos JS deben estar en la carpeta JS (fácil !!!). Es aconsejable nombrarlo con la misma ID que su complemento (en la parte de configuración, para el panel que haga como desee). Este archivo JS (el de la configuración del complemento) debe contener al menos un método addCmdToTable que tome el objeto de comando para agregarlo como parámetro. Aquí hay un ejemplo simple :
+Todos los archivos JS deben estar en la carpeta JS (fácil !!!). Es recomendable nombrarlo con el mismo ID que tu plugin (en la parte de configuración, para el panel haces lo que quieras). Este archivo JS (el de la configuración del complemento) debe contener al menos un método addCmdToTable que toma el objeto de comando a agregar como parámetro. Aquí hay un ejemplo sencillo :
 
 ````php
-función addCmdToTable (_cmd) {
-    tejo (!isset (_cmd)) {
+función agregarCmdToTable(_cmd) {
+    si (!isset(_cmd)) {
         var _cmd = {configuración: {}};
      }
-    var tr = ''; tr + = '';
-     <html>tr + = ' : ninguno; "> ';
-    tr + = '<input class="cmdAttr form-control input-sm" data-l1key="name"> '; tr + = '<input class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="recipient"> '; tr + = '';
-     <html>tr + = ' : ninguno; "> ';
-     <html>tr + = ' : ninguno; "> ';
-     si (es_numeric (_cmd.id)) {
-        tr + = ' <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i>{{Prueba}}</a> ';
+    var tr = ''; tr += '';
+     tr+=' : ninguno;">';
+    tr+= '<input class="cmdAttr form-control input-sm" data-l1key="name"> '; tr+= '<input class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="recipient"> '; tr += '';
+     tr+= ' : ninguno;">';
+     tr+=' : ninguno;">';
+     si (is_numeric(_cmd.id)) {
+        tr+=' <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i>{{Prueba}}</a> ';
      }
-     tr + = '<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></i></td> ';
-    tr + = '';
+     tr+= '<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></i></td> ';
+    tr += '';
      $('#table_cmd tbody').append(tr);
     $('#table_cmd tbody tr:last').setValues(_cmd, '.cmdAttr');
 }
@@ -263,54 +263,54 @@ Plusieurs points importants :
 Dernier point: un exemple plus complet avec type et sous-type de commande :
 
 ````php
-función addCmdToTable (_cmd) {
-    tejo (!isset (_cmd)) {
+función agregarCmdToTable(_cmd) {
+    si (!isset(_cmd)) {
         var _cmd = {};
     }
-     tejo (!isset (_cmd.configuration)) {
+     si (!isset(_cmd.configuration)) {
         _cmd.configuration = {};
     }
      var selRequestType = '<select style="width : 90px;" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="requestType">';
-     selRequestType += '<option value="script">{{Script}}</ /option>';
-     selRequestType += '<option value="http">{{Http}}</ /option>';
-     selRequestType += '</ /select>';
+     selRequestType += '<option value="script">{{Script}}</option>';
+     selRequestType += '<option value="http">{{Http}}</option>';
+     selRequestType += '</select>';
     var tr = '';     tr += '<input class="cmdAttr form-control input-sm" data-l1key="name" style="width : 140px;">';
-    tr += '<input class="cmdAttr form-control input-sm" data-l1key="id"  style="display : ninguno; "> ';
+    tr += '<input class="cmdAttr form-control input-sm" data-l1key="id"  style="display : ninguno;">';
     tr += '' + selRequestType;
     tr += '<div class="requestTypeConfig" data-type="http">';
-    tr += '<input type="checkbox" class="cmdAttr" data-l1key="configuration" data-l2key="noSslCheck" / />Ne pas vérifier SSL';
-    tr += '</ /div>';
-    tr + = '';     tr + = '';
-    tr += '<span class="type" type="' + init(_cmd.type) + '">' + jeedom.cmd.availableType() + '</ /span>';
-    tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></ /span>';
-    tr + = '';     tr += '<textarea style="height : 95px;" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="request"></ /textarea>';
-    tr += '<a class="btn btn-default browseScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-folder-open"></ /i> {{Parcourir}}</ /a> ';
-    tr += '<a class="btn btn-default editScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-edit"></ /i> {{Editer}}</ /a> ';
-    tr += '<a class="btn btn-success newScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-file-o"></ /i> {{Nouveau}}</ /a> ';
-    tr += '<a class="btn btn-danger removeScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-trash-o"></ /i> {{Supprimer}}</ /a> ';
-    tr += '<a class="btn btn-warning bt_shareOnMarket cursor input-sm" style="margin-top : 5px;"><i class="fa fa-cloud-upload"></ /i> {{Partager}}</ /a> ';
-    tr += '</ /div>';
-    tr + = '';     tr + = '';
+    tr += '<input type="checkbox" class="cmdAttr" data-l1key="configuration" data-l2key="noSslCheck" />Ne pas vérifier SSL';
+    tr += '</div>';
+    tr += '';     tr += '';
+    tr += '<span class="type" type="' + init(_cmd.type) + '">' + jeedom.cmd.availableType() + '</span>';
+    tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';
+    tr += '';     tr += '<textarea style="height : 95px;" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="request"></textarea>';
+    tr += '<a class="btn btn-default browseScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-folder-open"></i> {{Parcourir}}</a> ';
+    tr += '<a class="btn btn-default editScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-edit"></i> {{Editer}}</a> ';
+    tr += '<a class="btn btn-success newScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-file-o"></i> {{Nouveau}}</a> ';
+    tr += '<a class="btn btn-danger removeScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-trash-o"></i> {{Supprimer}}</a> ';
+    tr += '<a class="btn btn-warning bt_shareOnMarket cursor input-sm" style="margin-top : 5px;"><i class="fa fa-cloud-upload"></i> {{Partager}}</a> ';
+    tr += '</div>';
+    tr += '';     tr += '';
     tr += '<input class="cmdAttr form-control tooltips input-sm" data-l1key="unite"  style="width : 100px;" placeholder="{{Unité}}" title="{{Unité}}">';
     tr += '<input class="tooltips cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="minValue" placeholder="{{Min}}" title="{{Min}}"> ';
     tr += '<input class="tooltips cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="maxValue" placeholder="{{Max}}" title="{{Max}}">';
-    tr + = '';     tr + = '';
-    tr += '<span><input type="checkbox" class="cmdAttr" data-l1key="isHistorized" / /> {{Historiser}}<br/ /></ /span>';
-    tr + = '';     tr + = '';
-    si (es_numeric (_cmd.id)) {
-    tr + = ' <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i>{{Prueba}}</a> ';
+    tr += '';     tr += '';
+    tr += '<span><input type="checkbox" class="cmdAttr" data-l1key="isHistorized" /> {{Historiser}}<br/></span>';
+    tr += '';     tr += '';
+    si (is_numeric(_cmd.id)) {
+    tr+=' <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i>{{Prueba}}</a> ';
     }
-    tr + = '<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></i></td> ';
-    tr + = '';
+    tr+= '<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></i></td> ';
+    tr += '';
     $('#table_cmd tbody').append(tr);
     $('#table_cmd tbody tr:last').setValues(_cmd, '.cmdAttr');
 
-    tejo (isset (_cmd.configuration.requestType)) {
+    si (isset(_cmd.configuration.requestType)) {
         $('#table_cmd tbody tr:last .cmdAttr[data-l1key=configuration][data-l2key=requestType]').value(init(_cmd.configuration.requestType));
         $('#table_cmd tbody tr:last .cmdAttr[data-l1key=configuration][data-l2key=requestType]').trigger('change');
     }
 
-     tejo (isset (_cmd.type)) {
+     si (isset(_cmd.type)) {
         $('#table_cmd tbody tr:last .cmdAttr[data-l1key=type]').value(init(_cmd.type));
     }
      jeedom.cmd.changeType($('#table_cmd tbody tr:last'), init(_cmd.subType));
@@ -320,34 +320,34 @@ función addCmdToTable (_cmd) {
 
 Aquí podemos notar :
 
-- ``jeedom.cmd.availableType()`` insertará una selección con la lista de tipos conocidos (acción e información por el momento)
-- ``<span class="subType" subType="' + init(\_cmd.subType) + '"><\span>`` : el lugar donde se debe plantear la selección del subtipo
-- ``jeedom.cmd.changeType(\$('\#table\_cmd tbody tr:last'), init(\_cmd.subType))`` que permite inicializar el subtipo con el valor correcto
+- ``jeedom.cmd.availableType()`` insertará una selección con la lista de tipos conocidos (acción e información por el momento))
+- ``<span class="subType" subType="' + init(\_cmd.subType) + '"><\span>`` : el lugar donde se debe colocar la selección de subtipo
+- ``jeedom.cmd.changeType(\$('\#table\_cmd tbody tr:last'), init(\_cmd.subType))`` que le permite inicializar el subtipo con el valor correcto
 
-Se pueden usar otras funciones de JavaScript :
+Se pueden utilizar otras funciones de JavaScript :
 
-- ``printEqLogic`` que toma el objeto completo del equipo como parámetro (útil en caso de procesamiento de datos antes de restaurarlo). Se llama cuando se muestran los datos del equipo
-- ``saveEqLogic`` que toma como parámetro el objeto del equipo que se guardará en la base de datos (útil si necesita realizar algún procesamiento antes de guardar) Lo último, para los archivos JS, aquí es cómo incluirlos de manera limpia en su página php :
+- ``printEqLogic`` que toma como parámetro todo el objeto del equipo (útil en caso de procesamiento de datos antes de restaurarlos)). Se llama cuando se muestran datos del equipo
+- ``saveEqLogic`` que toma como parámetro el objeto del equipo que se guardará en la base de datos (útil si necesita realizar un procesamiento antes de guardar) Lo último, para los archivos JS, aquí se explica cómo incluirlos de forma limpia en su página PHP :
 
 ````php
-<?php include_file('desktop', 'weather', 'js', 'weather'); ?>
+<?PHP include_file('desktop', 'weather', 'js', 'weather'); ?>
 ````
 
-Le premier argument donne le dossier dans lequel le trouver (attention c'est le dossier père du dossier JS), le deuxième le nom de votre javascript, le troisième indique à Jeedom que c'est un fichier Js et le dernier dans quel plugin il se trouve.
+Le premier argument donne le dossier dans lequel le trouver (attention c'est le dossier père du dossier JS), le deuxième le nom de votre javascript, le troisième indique à Jeedom que c'est un fichier J.S. et le dernier dans quel plugin il se trouve.
 
 ## CSS
 
 Ce dossier contient vos fichiers CSS (il ne devrait pas être trop utilisé) , voaquí comment les inclure sur votre page :
 
 ````php
-<?php include_file('desktop', 'weather', 'css', 'weather'); ?>
+<?PHP include_file('desktop', 'weather', 'css', 'weather'); ?>
 ````
 
-El primer argumento le da a la carpeta en la que encontrarlo (la atención es la carpeta principal de la carpeta CSS), el segundo el nombre de su archivo CSS, el tercero le dice a Jeedom que es un archivo CSS y el último en el que el complemento se encuentra.
+El primer argumento proporciona la carpeta donde encontrarlo (tenga cuidado, es la carpeta principal de la carpeta CSS), el segundo el nombre de su archivo css, el tercero le dice a Jeedom que es un archivo CSS y el último en qué complemento resulta.
 
 ## MODAL
 
-La carpeta modal le permite almacenar sus archivos php destinados a mostrar modales. Aquí se explica cómo llamarlos desde su página principal (este código está en un archivo javascript) :
+La carpeta modal le permite almacenar sus archivos php destinados a mostrar modales. Aquí se explica cómo llamarlos desde su página principal (este código va en un archivo javascript) :
 
 Podemos ver :
 
@@ -357,7 +357,7 @@ $('#md_modal').dialog({title: "{{Classe du périphérique}}"}).load('index.php?v
 
 La première ligne permet de mettre un titre à votre modal
 
-La deuxième ligne charge votre modal et l'affichage. La sintaxis es bastante simple : plugin, l'Identificación de votre plugin, modal, le nom de votre modal sans le php et ensuite les paramètres que vous voulez lui passer
+La deuxième ligne charge votre modal et l'affichage. La sintaxis es bastante simple : plugin, l'identificación de votre plugin, modal, le nom de votre modal sans le PHP et ensuite les paramètres que vous voulez lui passer
 
 ## API JS
 
@@ -378,65 +378,65 @@ $('body').delegate('.helpSelectCron','click',function() {
 })
 ````
 
-Cuando hacemos clic en el botón del asistente, obtenemos la entrada para escribir y luego llamamos al asistente. Una vez que la configuración finaliza en el asistente, el resultado se recupera y luego se escribe en la entrada previamente seleccionada
+Cuando hacemos clic en el botón del asistente, recuperamos la entrada en la que escribir y luego llamamos al asistente. Una vez finalizada la configuración en el asistente, el resultado se recupera y luego se escribe en la entrada previamente seleccionada
 
-# Creación de complementos parte 4 : carpeta principal
+# Creación de complementos, parte 4 : carpeta principal
 
-Con mucho, la carpeta más importante de su complemento, puede incluir 4 subcarpetas.
+Con diferencia, la carpeta más importante de tu complemento, puede tener 4 subcarpetas.
 
-Nota : a lo largo de esta parte, el ID de su complemento será referenciado por : plug-in\_id
+Nota : A lo largo de esta parte, la identificación de su complemento será referenciada por : complemento\_id
 
 ## PHP
 
-Contiene los archivos PHP anexos, solía poner, por ejemplo, un archivo de inclusión si, por supuesto, tiene varios archivos de clase o 3rparty para incluir
+Contiene los archivos PHP adicionales. Me acostumbré a poner, por ejemplo, un archivo de inclusión si, por supuesto, tienes varios archivos de clase o de terceros para incluir
 
 ## Template
 
-Que puede contener 2 subcarpetas, tablero y dispositivo móvil, es una carpeta que Jeedom escanea automáticamente en busca de un widget, por lo que si está utilizando widgets específicos, aquí es donde debe colocar su archivo HTML
+Que puede contener 2 subcarpetas, panel y móvil, es una carpeta que Jeedom escanea automáticamente en busca de widgets, por lo que si usa widgets específicos aquí es donde debe colocar su archivo HTML
 
 ## i18n
 
-Aquí es donde su traducción debe estar en forma de un archivo json (mejor y busque, por ejemplo, el complemento [Zwave](https:/ // /github.com/ /jeedom/ /plugin-openzwave) para ver la forma del archivo)
+Aquí es donde debe estar tu traducción en forma de archivo json (lo mejor es mirar el complemento, por ejemplo) [onda z](https://github.com/jeedom/plugin-openzwave) para ver la forma del archivo)
 
 ## ajax
 
-Esta carpeta es para todos sus archivos ajax, aquí hay un esqueleto de archivo ajax :
+Esta carpeta es para todos sus archivos ajax, aquí hay un archivo ajax esqueleto :
 
 ````php
 <?php
 
-/ * Este archivo es parte de Jeedom.
+/* Este archivo es parte de Jeedom.
  *
- * Jeedom es software libre: puedes redistribuirlo y / o modificar
+ * Jeedom es software libre: puedes redistribuirlo y/o modificarlo
  * bajo los términos de la Licencia Pública General GNU publicada por
  * la Free Software Foundation, ya sea la versión 3 de la Licencia, o
  * (a su elección) cualquier versión posterior.
  *
  * Jeedom se distribuye con la esperanza de que sea útil,
- * objetivo SIN NINGUNA GARANTÍA; sin siquiera la garantía implícita de
- * COMERCIABILIDAD o APTITUD PARA UN PROPÓSITO PARTICULAR. Ver el
+ * pero SIN NINGUNA GARANTÍA; sin siquiera la garantía implícita de
+ * COMERCIABILIDAD o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Ver el
  * Licencia pública general GNU para más detalles.
  *
  * Debería haber recibido una copia de la Licencia Pública General GNU
- * junto con Jeedom. If not, see <http:/ // /www.gnu.org/ /licenses/ />.
- */ /
+ * junto con Jeedom. If not, see <http://www.gnu.org/licenses/>.
+ */
 
-tratar {
-    require_once dirname (__ FILE__). '/../../../../core/php/core.inc.php';
-    include_file ('núcleo', 'autenticación', 'php');
+intentar {
+    require_once nombredir(__FILE__) . '/../../../../core/php/core.inc.php';
+    include_file('núcleo', 'autenticación', 'php');
 
-    tejo (!isConnect ('administrador')) {
-        lanzar nueva Excepción (__ ('401 - Acceso no permitido', __FILE__));
+    si (!isConnect('admin')) {
+        lanzar nueva excepción (__ ('401 - Acceso no autorizado', __FILE__));
     }
 
-    if (init ('acción') == 'tu acción') {
-        ajax::éxito ($ resultado);
+    if (init('acción') == 'tu acción') {
+        ajax::éxito($resultado);
     }
 
-    lanzar nueva Excepción (__ ('No hay coincidencia de método : ', __ARCHIVO__). init ('acción'));
-    / /*     * *********Captura de excepción*************** */ /
-} catch (Excepción $ e) {
-    ajax::error (displayExeption ($ e), $ e-> getCode ());
+    lanzar nueva excepción (__ ('No hay coincidencia de método : ', __ARCHIVO__) . init('acción'));
+    /*     * *********Lucha excepcional*************** */
+} captura (Excepción $e) {
+    ajax::error(displayExeption($e), $e->getCode());
 }
 ?>
 ````
@@ -445,87 +445,87 @@ tratar {
 
 Dossier très important, c'est le moteur de votre plugin. C'est là que viennent les 2 classes obligatoires de votre plugin :
 
-- ``plug-in\_id``
-- ``plug-in\_idCmd``
+- ``complemento\_id``
+- ``complemento\_idCmd``
 
 La première devant hériter de la classe eqLogic et la deuxième de cmd. Voaquí un template :
 
 ````php
 <?php
 
-/ * Este archivo es parte de Jeedom.
+/* Este archivo es parte de Jeedom.
  *
- * Jeedom es software libre: puedes redistribuirlo y / o modificar
+ * Jeedom es software libre: puedes redistribuirlo y/o modificarlo
  * bajo los términos de la Licencia Pública General GNU publicada por
  * la Free Software Foundation, ya sea la versión 3 de la Licencia, o
  * (a su elección) cualquier versión posterior.
  *
  * Jeedom se distribuye con la esperanza de que sea útil,
- * objetivo SIN NINGUNA GARANTÍA; sin siquiera la garantía implícita de
- * COMERCIABILIDAD o APTITUD PARA UN PROPÓSITO PARTICULAR. Ver el
+ * pero SIN NINGUNA GARANTÍA; sin siquiera la garantía implícita de
+ * COMERCIABILIDAD o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Ver el
  * Licencia pública general GNU para más detalles.
  *
  * Debería haber recibido una copia de la Licencia Pública General GNU
- * junto con Jeedom. If not, see <http:/ // /www.gnu.org/ /licenses/ />.
- */ /
+ * junto con Jeedom. If not, see <http://www.gnu.org/licenses/>.
+ */
 
-/ /* * ***************************Includes********************************* */ /
-require_once dirname (__ FILE__). '/../../../../core/php/core.inc.php';
+/* * ***************************Includes********************************* */
+require_once nombredir(__FILE__) . '/../../../../core/php/core.inc.php';
 
-class plugin_Identificación extends eqLogic {
+class plugin_identificación extends eqLogic {
 
-    / /*     * *************************Attributs****************************** */ /
-
-
-    / /*     * ***********************Methode static*************************** */ /
+    /*     * *************************Attributs****************************** */
 
 
-    / /*     * *********************Methode d'instance************************* */ /
+    /*     * ***********************Methode static*************************** */
 
 
-    / /*     * **********************Getteur Setteur*************************** */ /
+    /*     * *********************Methode d'instance************************* */
+
+
+    /*     * **********************Getteur Setteur*************************** */
 
 }
 
 class plugin_idCmd extends cmd {
 
-    / /*     * *************************Attributs****************************** */ /
+    /*     * *************************Attributs****************************** */
 
 
-    / /*     * ***********************Methode static*************************** */ /
+    /*     * ***********************Methode static*************************** */
 
 
-    / /*     * *********************Methode d'instance************************* */ /
+    /*     * *********************Methode d'instance************************* */
 
 
-    / /*     * **********************Getteur Setteur*************************** */ /
+    /*     * **********************Getteur Setteur*************************** */
 
 }
 
 ?>
 ````
 
-Para la definición de clases de libertad, los invito a consultar esto [Sitio](https:/ // /doc.jeedom.com/ /dev/ /phpdoc/ /4.0/ /)
+Para la definición de clases de jeedom, los invito a consultar esto [sitio](https://doc.jeedom.com/dev/phpdoc/4.0/)
 
-El único método obligatorio es el método de instancia en la clase de ejecución cmd, aquí hay un ejemplo con el complemento SARAH :
+El único método obligatorio es el método de instancia en la clase de ejecución cmd. Aquí hay un ejemplo con el complemento SARAH :
 
 ````php
-función pública ejecutar ($ _ opciones = matriz()) {
-      tejo (!isset ($ _ opciones ['título']) && !isset ($ _ opciones ['mensaje'])) {
-          lanzar nueva Excepción (__ ("El título o el mensaje no pueden estar vacíos al mismo tiempo", __FILE__));
+función pública ejecutar ($_options = matriz()) {
+      si (!isset($_options['título']) && !isset($_opciones['mensaje'])) {
+          throw new Exception(__("El título o el mensaje no pueden estar vacíos", __FILE__));
       }
       $eqLogic = $this->getEqLogic();
       $message = '';
-      if (isset ($ _ opciones ['título'])) {
+      si (isset($_options['título'])) {
           $message = $_options['title'] . '. ';
       }
       $message .= $_options['message'];
-      $http = new com_http($eqLogic->getConfiguration('addrSrvTts') . '/ /?tts=' . urlencode($message));
-      return $ http-> exec ();
+      $http = new com_http($eqLogic->getConfiguration('addrSrvTts') . '/?tts=' . urlencode($message));
+      devolver $http->exec();
   }
   ````
 
-Ejemplo assez simple mais complet, le principe est le suivant, si la commande est une action ou une info (mais pas en événement seulement et que son Cubierta est dépassé) alors jeedom appelle cette méthode.
+Ejemplo assez simple mais complet, le principe est le suivant, si la commande est une action ou une info (mais pas en événement seulement et que son oculto est dépassé) alors jeedom appelle cette méthode.
 
 Dans notre exemple aquí c'est une commande pour faire parler S.A.R.A.H, où le plugin récupère les paramètres dans \$\_options (attention c'est un tableau et ses attributs changent en fonction du sous-type de la commande : color pour un sous-type color, slider pour un sous-type slider, title et message pour un sous-type message et vide pour un sous-type other).
 
@@ -538,25 +538,25 @@ Fonction utilisable dans la commande ou dans l'équipement, en fonction des beso
 ````php
 public function toHtml($_version = 'dashboard') {
     $replace = $this->preToHtml($_version);
-    tejo (!is_array($replace)) {
+    si (!is_array($replace)) {
         return $replace;
     }
     $version = jeedom::versionAlias($_version);
     $replace['#forecast#'] = '';
-    tejo ($version != 'mobile' || $this->getConfiguration('fullMobileDisplay', 0) == 1) {
+    si ($version != 'mobile' || $this->getConfiguration('fullMobileDisplay', 0) == 1) {
         $forcast_template = getTemplate('core', $version, 'forecast', 'weather');
         for ($i = 0; $i < 5; $i++) {
             $replaceDay = array();
             $replaceDay['#day#'] = date_fr(date('l', strtotime('+' . $i . ' days')));
 
-            tejo ($i == 0) {
+            si ($i == 0) {
                 $temperature_min = $this->getCmd(null, 'temperature_min');
             } else {
                 $temperature_min = $this->getCmd(null, 'temperature_' . $i . '_min');
             }
             $replaceDay['#low_temperature#'] = is_object($temperature_min) ? $temperature_min->execCmd() : '';
 
-            tejo ($i == 0) {
+            si ($i == 0) {
                 $temperature_max = $this->getCmd(null, 'temperature_max');
             } else {
                 $temperature_max = $this->getCmd(null, 'temperature_' . $i . '_max');
@@ -564,7 +564,7 @@ public function toHtml($_version = 'dashboard') {
             $replaceDay['#hight_temperature#'] = is_object($temperature_max) ? $temperature_max->execCmd() : '';
             $replaceDay['#tempid#'] = is_object($temperature_max) ? $temperature_max->getId() : '';
 
-            tejo ($i == 0) {
+            si ($i == 0) {
                 $condition = $this->getCmd(null, 'condition');
             } else {
                 $condition = $this->getCmd(null, 'condition_' . $i);
@@ -592,17 +592,17 @@ public function toHtml($_version = 'dashboard') {
     $sunrise = $this->getCmd(null, 'sunrise');
     $replace['#sunrise#'] = is_object($sunrise) ? $sunrise->execCmd() : '';
     $replace['#sunid#'] = is_object($sunrise) ? $sunrise->getId() : '';
-    tejo (strlen($replace['#sunrise#']) == 3) {
+    si (strlen($replace['#sunrise#']) == 3) {
         $replace['#sunrise#'] = substr($replace['#sunrise#'], 0, 1) . ':' . substr($replace['#sunrise#'], 1, 2);
-    } else tejo (strlen($replace['#sunrise#']) == 4) {
+    } else si (strlen($replace['#sunrise#']) == 4) {
         $replace['#sunrise#'] = substr($replace['#sunrise#'], 0, 2) . ':' . substr($replace['#sunrise#'], 2, 2);
     }
 
     $sunset = $this->getCmd(null, 'sunset');
     $replace['#sunset#'] = is_object($sunset) ? $sunset->execCmd() : '';
-    tejo (strlen($replace['#sunset#']) == 3) {
+    si (strlen($replace['#sunset#']) == 3) {
         $replace['#sunset#'] = substr($replace['#sunset#'], 0, 1) . ':' . substr($replace['#sunset#'], 1, 2);
-    } else tejo (strlen($replace['#sunset#']) == 4) {
+    } else si (strlen($replace['#sunset#']) == 4) {
         $replace['#sunset#'] = substr($replace['#sunset#'], 0, 2) . ':' . substr($replace['#sunset#'], 2, 2);
     }
 
@@ -615,7 +615,7 @@ public function toHtml($_version = 'dashboard') {
     $condition = $this->getCmd(null, 'condition_now');
     $sunset_time = is_object($sunset) ? $sunset->execCmd() : null;
     $sunrise_time = is_object($sunrise) ? $sunrise->execCmd() : null;
-    tejo (is_object($condition)) {
+    si (is_object($condition)) {
         $replace['#icone#'] = self::getIconFromCondition($condition->execCmd(), $sunrise_time, $sunset_time);
         $replace['#condition#'] = $condition->execCmd();
         $replace['#conditionid#'] = $condition->getId();
@@ -625,7 +625,7 @@ public function toHtml($_version = 'dashboard') {
         $replace['#condition#'] = '';
         $replace['#collectDate#'] = '';
     }
-    tejo ($this->getConfiguration('modeImage', 0) == 1) {
+    si ($this->getConfiguration('modeImage', 0) == 1) {
         $replace['#visibilityIcon#'] = "none";
         $replace['#visibilityImage#'] = "block";
     } else {
@@ -640,31 +640,31 @@ public function toHtml($_version = 'dashboard') {
 
 Varias cosas interesantes aquí :
 
-Para convertir la versión solicitada en panel de control o móvil (mview se convierte en móvil, por ejemplo, esto permite, por ejemplo, en las vistas agregar el nombre de los objetos)
+Para convertir la versión solicitada en un tablero o en un dispositivo móvil (mview se convierte en móvil, por ejemplo), esto permite, por ejemplo, agregar en las vistas el nombre de los objetos)
 
 ````php
 $_version = jeedom::versionAlias($_version);
 ````
 
-Récupération d'un template de commande, aquí le template de commande : plugins/ /weather/ /core/ /template/ /\$\_version/ /forecast.HTML (\$\_version valant mobile ou dashboard)
+Récupération d'un template de commande, aquí le template de commande : plugins/weather/core/template/\$\_version/forecast.HTML (\$\_version valant mobile ou dashboard)
 
 ````php
 $forcast_template = getTemplate('core', $_version, 'forecast', 'weather');
 ````
 
-Aquí reemplace las etiquetas rellenadas previamente en \ $ replace HTML para contener los valores
+Aquí reemplazo de etiquetas previamente completadas \$reemplazar HTML para contener los valores
 
 ````php
 $html_forecast .= template_replace($replace, $forcast_template);
 ````
 
-Cela permet de récupérer la commande ayant le logical\_Identificación : temperature\_min
+Cela permet de récupérer la commande ayant le logical\_identificación : temperature\_min
 
 ````php
 $this->getCmd(null, 'temperature_min');
 ````
 
-Aquí permite poner el valor en la etiqueta, solo si el pedido ha sido recuperado
+Allí esto te permite poner el valor en la etiqueta, solo si el pedido ha sido recuperado
 
 ````php
 $replace['#temperature#'] = is_object($temperature) ? $temperature->execCmd() : '';
@@ -674,17 +674,17 @@ Passage important: cela permet de récupérer les personnalisations faites par l
 
 ````php
 $parameters = $this->getDisplay('parameters');
-tejo (is_array($parameters)) {
+si (is_array($parameters)) {
     foreach ($parameters as $key => $value) {
         $replace['#' . $key . '#'] = $value;
     }
 }
 ````
 
-Guardar el widget en el caché: para que durante la próxima solicitud la proporcionemos más rápido, podemos notar el 0 aquí que indica una vida útil infinita, de lo contrario, la duración es en segundos (veremos en la siguiente parte cómo el plugin meteorológico actualiza su widget).
+Guardar widget en caché: para que durante la próxima solicitud lo proporcionemos más rápidamente, podemos notar el 0 aquí que indica una vida útil infinita, de lo contrario la duración es en segundos (veremos en la siguiente parte cómo el complemento meteorológico actualiza su widget).
 
 ````php
-cache::set ('weatherWidget' . $_version . $this->getId(), $html, 0);
+cache::set('climaWidget' . $_version . $this->getId(), $html, 0);
 ````
 
 Enfin envoi du HTML à Jeedom :
@@ -693,18 +693,18 @@ Enfin envoi du HTML à Jeedom :
 return $html;
 ````
 
-También debes decirle a Jeedom lo que permite tu widget en términos de personalización. Es un poco complejo (y de nuevo) pero normalmente flexible y fácil de configurar.
+También debes decirle a Jeedom qué permite tu widget en términos de personalización. Es un poco complejo (y aún así), pero normalmente flexible y sencillo de configurar.
 
-Funciona de la misma manera en su equipo o control, es un atributo estático de la clase \ $\_ widgetPossibility que debe ser una matriz multidimensional, pero es allí donde se complica si una dimensión de la matriz es verdadera o falso. Luego considera que todos los niños posibles están en este valor (daré un ejemplo).
+Funciona de la misma manera en tu dispositivo o comando, es un atributo estático de la clase \$\_widgetPossibility que debe ser una matriz multidimensional, pero aquí es donde se complica si una dimensión de la matriz es verdadera o falsa. Luego considera que todos los hijos posibles tienen este valor (daré un ejemplo).
 
-Primero los casos donde debes usarlo: si en su clase, heredar de eqLogic o cmd tiene una función toHtml, de lo contrario no vale la pena leer más.
+En primer lugar, los casos en los que es necesario utilizarlo: si en tu clase hereda de eqLogic o cmd tiene una función toHtml en caso contrario no vale la pena leer más.
 
-### Método pre y post
+### Método previo y posterior
 
-Al crear o eliminar sus objetos (equipo, orden u otro) en Jeedom, puede llamar a varios métodos antes / después de la acción :
+Al crear o eliminar sus objetos (equipo, comando u otros) en Jeedom, puede llamar a varios métodos antes/después de la acción :
 
-- ``preInsert`` ⇒ Método llamado antes de la creación de su objeto
-- ``postInsert`` ⇒ Método llamado después de la creación de su objeto
+- ``preInsert`` ⇒ Método llamado antes de crear su objeto
+- ``postInsert`` ⇒ Método llamado después de crear su objeto
 - ``preUpdate`` ⇒ Método llamado antes de actualizar su objeto
 - ``postUpdate`` ⇒ Método llamado después de actualizar su objeto
 - ``preSave`` ⇒ Método llamado antes de guardar (creación y actualización, por lo tanto) de su objeto
@@ -712,12 +712,12 @@ Al crear o eliminar sus objetos (equipo, orden u otro) en Jeedom, puede llamar a
 - ``preRemove`` ⇒ Método llamado antes de eliminar su objeto
 - ``postRemove`` ⇒ Método llamado después de eliminar su objeto
 
-Ejemplo, siempre con el complemento meteorológico para crear pedidos o actualizarlos después de guardar (el ejemplo se simplifica) :
+Ejemplo, todavía con el complemento meteorológico de crear comandos o actualizarlos después de guardar (el ejemplo está simplificado) :
 
 ````php
-función pública postUpdate() {
+publicación de función públicaActualización() {
       $weatherCmd = $this->getCmd(null, 'temperature');
-      tejo (!is_object ($ weatherCmd)) {
+      si (!is_object($climaCmd)) {
           $weatherCmd = new weatherCmd();
       }
       $weatherCmd->setName(__('Température', __FILE__));
@@ -731,25 +731,25 @@ función pública postUpdate() {
       $weatherCmd->save();
 
       $cron = cron::byClassAndFunction('weather', 'updateWeatherData', array('weather_id' => intval($this->getId())));
-      tejo (!is_object ($ cron)) {
+      si (!es_objeto($cron)) {
           $cron = new cron();
           $cron->setClass('weather');
           $cron->setFunction('updateWeatherData');
           $cron->setOption(array('weather_id' => intval($this->getId())));
       }
-      $cron->setSchedule($this->getConfiguration('refreshCron', '*/ /30 * * * *'));
+      $cron->setSchedule($this->getConfiguration('refreshCron', '*/30 * * * *'));
       $cron->save();
 }
 ````
 
-Le début est assez standard avec la création d'une commande, la fin est plus intéressante avec la mise en place d'un cron qui va appeler la méthode ``weather::updateWeatherData`` en passant l'Identificación de l'équipement à mettre à jour toute les 30min par défaut.
+Le début est assez standard avec la création d'une commande, la fin est plus intéressante avec la mise en place d'un cron qui va appeler la méthode ``weather::updateWeatherData`` en passant l'identificación de l'équipement à mettre à jour toute les 30min par défaut.
 
 Ici la méthode updateWeatherData (simplifiée aussi) :
 
 ````php
 public static function updateWeatherData($_options) {
   $weather = weather::byId($_options['weather_id']);
-  tejo (is_object($weather)) {
+  si (is_object($weather)) {
       foreach ($weather->getCmd('info') as $cmd) {
         $weather->checkAndUpdateCmd($cmd,$cmd->execute());
       }
@@ -775,10 +775,10 @@ public function dontRemoveCmd() {
 }
 ````
 
-Para terminar aquí hay algunos consejos y trucos :
+Finalmente, aquí tienes algunos consejos y trucos :
 
-- evite (a menos que sepa lo que está haciendo) sobrescribir un método de la clase heredada (esto puede causar muchos problemas)
-- Para volver a montar la batería (en%) de un equipo, hágalo (Jeedom se encargará del resto y advertirá al usuario si es necesario) :
+- Evite (a menos que sepa lo que está haciendo) anular un método de la clase heredada (esto puede causar muchos problemas))
+- Para volver a montar la batería (en %) de un equipo, hazlo sobre él (Jeedom se encargará del resto y avisará al usuario si es necesario)) :
 
 ````php
 $eqLogic->batteryStatus(56);

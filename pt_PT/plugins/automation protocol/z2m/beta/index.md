@@ -277,3 +277,7 @@ Tenha cuidado para colocar o nome de arquivo gbl correto ao piscar.
 >**Recebo o erro "A configuração não é consistente com o backup do adaptador"**
 >
 >Você tem que ir para a configuração do Jeedom, depois para o OS/DB e depois para o editor de arquivos. Esnuite vá para plugins/z2m/data e exclua o arquivo coordenador_backup.json
+
+>**Recebo o erro "Recusando-se a iniciar porque a configuração não é válida, encontrei os seguintes erros: 0850|- "**
+>
+> ..

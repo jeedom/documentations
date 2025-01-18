@@ -23,8 +23,8 @@ Esta documentación reúne recomendaciones para valores de comando (acción o in
 |Tipo genérico  | Valores/Acción |
 |----------------|------------|
 |Información/Enchufe<br/>Etat|0 = Apagado<br/>1 = activado|
-|Acción tomada<br/>Botón de encendido|Enciende el enchufe| 
-|Acción tomada<br/>Botón de apagado|Apague el enchufe|
+|Acción/Tomada<br/>Botón de encendido|Enciende el enchufe| 
+|Acción/Tomada<br/>Botón de apagado|Apague el enchufe|
 
 ## Interrupteurs
 
@@ -49,11 +49,11 @@ Esta documentación reúne recomendaciones para valores de comando (acción o in
 |---------------|----------------|
 |Panel de información/estado|Si es binario :<br/>0 = Cerrado<br/>1 = Abierto<br/>Si es digital :<br/>mínimo del control deslizante del botón (de lo contrario, mínimo del estado, de lo contrario 0) = Cerrado <br/>máximo del control deslizante del botón (de lo contrario, máximo del estado, de lo contrario 100) = Abierto<br/>Si no hay ningún botón Silder : Mínimo y máximo obligatorios en el estado !|
 |Botón de acción/escudo arriba|Abriendo la persiana<br/>Lanzamiento de apertura o establecimiento del valor o estado máximo del control deslizante o 100| 
-|Botón de acción/obturador abajo|Cerrando la persiana<br/>Inicio del cierre o establecimiento del valor o estado mínimo del control deslizante o 0|
+|Botón de acción/obturador abajo|Cerrando la persiana<br/>Lanzar cierre o establecer valor mínimo del control deslizante o estado o 0|
 |Botón de acción/parada del obturador|Detener el movimiento de la persiana|
 |Control deslizante del botón de acción/panel|Da la proporción de apertura de la persiana<br/>Si está presente:<br/>Mínimo y máximo obligatorios|
 
-en opción :
+opcional :
 
 |Tipo genérico  | Valores/Acción |
 |---------------|----------------|
@@ -147,7 +147,7 @@ con cualquiera :
 
 |Tipo genérico  | Valores/Acción |
 |---------------|----------------|
-|Botón de alternancia Acción/Portón o garaje|El interruptor se abre si está cerrado y se cierra si está abierto<br/>Apertura si está bloqueada (por seguridad))| 
+|Botón de alternar acción/puerta o garaje|El interruptor se abre si está cerrado y se cierra si está abierto<br/>Apertura si está bloqueada (por seguridad))| 
 
 o cualquiera :
 
@@ -176,8 +176,8 @@ o cualquiera :
 |Información/CO2 (ppm)|PPM o binario ?|
 |Información/Temperatura|-50 → 300°C| 
 |Información/Batería|%| 
-|Información/Carga de batería|0 = no<br/>1 = si<br/>No presente = No recargable| 
-|Información/batería baja|0 = no<br/>1 = si| 
+|Información/Carga de batería|0 = NO<br/>1 = SÍ<br/>No presente = No recargable| 
+|Información/batería baja|0 = NO<br/>1 = SÍ| 
 |Información/Detección de humo|0 = Sin humo<br/>1 = Humo detectado| 
 |Información/inundación<br/>Información/Fuga de agua|0 = No se detectó ninguna fuga<br/>1 = Fuga detectada| 
 |Información/Sabotaje|0 = Sin sabotaje<br/>1 = Sabotaje| 

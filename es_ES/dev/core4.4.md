@@ -1,20 +1,20 @@
 ## Núcleo v4.4 | Desarrolladores de complementos
 
-### Un día jQuery ...
+### Un día, jQuery ...
 
-jQuery es un marco que todavía se usa ampliamente en la interfaz web, y Jeedom históricamente depende en gran medida de él. A pesar de todo, html5 y los navegadores más recientes permiten cada vez más prescindir de él. El interés de Jeedom es sobre todo el rendimiento, y no se trata de eliminar jQuery y sus complementos (jQuery UI, contextmenu, modals, autocompletar, tablesorter, etc.).).
+jQuery es un marco que todavía se usa ampliamente en interfaces web, y Jeedom históricamente ha dependido en gran medida de él. A pesar de todo, HTML5 y los navegadores más recientes permiten cada vez más prescindir de él. El interés de Jeedom es sobre todo el rendimiento, y todavía no se trata de eliminar jQuery y sus complementos (jQuery UI, menú contextual, modales, autocompletar, clasificador de tablas, etc.).
 
-Pero hay que pensarlo, y empezar un día !
+Pero hay que pensarlo y empezar algún día !
 
-Núcleo 4.4 por lo tanto integra las funciones básicas setValues() y getValues(), que ahora también están prototipadas en el **Lista de nodos** y **Elemento**, comme elles le sont sur $.históricamente. También se han implementado algunas funciones como last(), triggerEvent(), isHidden(), empty(), addClass(), removeClass(), toggleClass(), hasClass(). El objetivo no es rehacer jQuery, por supuesto, sino ofrecer atajos funcionales cuando sea necesario.
+El núcleo 4.4 integra por lo tanto las funciones básicas setValues() y getValues(), que ahora también están prototipadas en el **Lista de nodos** Y **Elemento**, comme elles le sont sur $.históricamente. También se han implementado algunas funciones como last(), triggerEvent(), isHidden(), vacío(), addClass(), removeClass(), toggleClass(), hasClass(). El objetivo no es rehacer jQuery, por supuesto, sino ofrecer atajos funcionales cuando sea necesario.
 
-Para una transición más fácil y un mejor mantenimiento, las nuevas funciones **getValues()** y **setValues()** en el DOM están ahora **setJeeValues()** y **getJeeValues()**.
+Para una transición más fácil y un mejor mantenimiento, las nuevas funciones **getValues()** Y **setValues()** en el DOM están ahora **setJeeValues()** Y **getJeeValues()**.
 
-Además, todas las llamadas **Ajax**, sincronizar o asíncrono, pasar por funciones js puras desarrolladas internamente para el Core. *load()* y *html()* por lo tanto, son utilizados por todas las clases js y por la función jeedomUtils.loadPage(). Esto le permite controlar todo lo que sucede sin una capa de abstracción y, entre otras cosas, ha hecho posible filtrar todos los scripts js y las hojas de estilo css provenientes de terceros (núcleo y complementos) para cargarlos en el documento.cabeza y no recargarlos después !
+Además, todas las llamadas **Ájax**, sync o async, pasa por funciones js puras desarrolladas internamente para Core. *load()* Y *html()* por lo tanto, son utilizados por todas las clases js y por la función jeedomUtils.loadPage(). Esto permite controlar todo lo que sucede sin una capa de abstracción y, entre otras cosas, permite filtrar todos los scripts js y hojas de estilo css provenientes de terceros (núcleo y complementos) para cargarlos en el documento.cabeza y no recargarlos después !
 
-La administración de *eventos* también cambiará gradualmente a js puro. Las paginas **Síntesis** **Tablero** **Diseño** y **Texto** ya están en js completo con delegación de eventos.
+La gestión de *eventos* también pasará gradualmente a js puro. Las paginas **Síntesis** **Panel** **Diseño** Y **Guión** ya estan en full js con delegación de eventos.
 
-Es un proyecto enorme, tanto en la reescritura de lo existente como en la creación de librerías internas para satisfacer las necesidades del front-end sin jQuery. Además, será necesario mantener jQuery y sus complementos/libs por un tiempo más para los complementos. Pero el camino está tomado!
+Es un proyecto enorme, tanto para reescribir el existente como para crear bibliotecas internas para satisfacer las necesidades del front-end sin jQuery. Además, será necesario mantener jQuery y sus complementos/libras por un tiempo más para los complementos. Pero el camino está tomado!
 
 Algunos ejemplos:
 
@@ -22,49 +22,49 @@ Algunos ejemplos:
 
   <summary markdown="span">jQuery to pure js()</summary>
 
-  ~~~ js
+  ~~~js
   {% raw %}
   //jQuery:
   $('#table_objectSummary tbody').append(tr)
   $('#table_objectSummary tbody tr').last().setValues(_summary, '.objectSummaryAttr')
 
-  //js puro:
-  document.querySelector('#table_objectSummary tbody').insertAdjacentHTML('antes del final', tr)
-  document.querySelectorAll('#table_objectSummary tbody tr').last().setJeeValues(_resumen, '.objectSummaryAttr')
+  // js puro:
+  document.querySelector('#table_objectSummary tbody').insertAdjacentHTML('antes del fin', tr)
+  document.querySelectorAll('#table_objectSummary tbody tr').último().setJeeValues(_summary, '.objectSummaryAttr')
 
   //jQuery:
   var eqId = $('.eqLogicAttr[data-l1key=id]').valor()
   var configuración = $('#config').getValues('.configKey')[0]
   var expresión = $(this).closest('.actionOnMessage').getValues('.expressionAttr')
 
-  //js puro:
+  // js puro:
   var eqId = document.querySelector('.eqLogicAttr[data-l1key="id"]').jeeValue()
-  var config = documento.getElementById('config').getJeeValues('.configKey')[0]
+  var config = document.getElementById('config').getJeeValues('.configKey')[0]
   var expresión = this.closest('.actionOnMessage').getJeeValues('.expressionAttr')
 
   //jQuery:
-  addMyTr: función(_datos) {
-    var tr = ' <tr>'
-    tr += ' <td>'
-    tr += ' </td>'
-    tr += ' </tr>'
-    let nuevaFila = $(tr)
-    newRow.setValues(data, '.mytrDataAttr')
+  addMyTr: función (_datos) {
+    vartr='>'
+    tr+='>'
+    tr+= '>'
+    tr+='>'
+    dejar nuevaFila = $(tr)
+    newRow.setValues(datos, '.mytrDataAttr')
     $('#table_stuff tbody').append(newRow)
-    // devuelve fila nueva
+    //devuelve nuevafila
   }
 
-  //js puro:
-  addMyTr: función(_datos) {
-    var tr = ' <tr>'
-    tr += ' <td>'
-    tr += ' </td>'
-    tr += ' </tr>'
+  // js puro:
+  addMyTr: función (_datos) {
+    vartr='>'
+    tr+='>'
+    tr+= '>'
+    tr+='>'
     let newRow = document.createElement('tr')
-    newRow.innerHTML = tr
+    nuevaFila.innerHTML = tr
     newRow.setJeeValues(_data, '.mytrDataAttr')
     document.getElementById('table_stuff').querySelector('tbody').appendChild(newRow)
-    // devuelve fila nueva
+    //devuelve nuevafila
   }
 
   //jQuery:
@@ -72,7 +72,7 @@ Algunos ejemplos:
     console.log('Dom listo!')
   })
 
-  // Corejs:
+  // Núcleo js:
   domUtils(función(){
     console.log('Dom listo!')
   })
@@ -82,40 +82,40 @@ Algunos ejemplos:
 
 </details>
 
-El archivo de plantilla de plugin.js y la mayoría de las páginas Core ahora usan estas funciones. Por supuesto, puede usarlos en complementos, pero estos deberán instalarse en un Core 4.4 o más.
+El archivo de plantilla de complemento.js y la mayoría de las páginas principales ahora usan estas funciones. Por supuesto, puedes usarlos en complementos, pero luego debes instalarlos en un Core 4.4 mínimo.
 
 Funciones DOM específicas del núcleo:
 
-[DocCore js](/es_ES/dev/corejs/index)
+[Doc Core js](/es_ES/dev/corejs/index)
 
 [domUtils {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)
 
-[domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+[DOMUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 
 
 ### Obsolete
 
-#### Función PHP
+#### Función php
 
-`displayException()` -> `displayException()`  
+`displayExeption()` -> `displayException()`  
 `convertDayEnToFr()` -> `convertDayFromEn()`
 
-#### Funciones js (disponible desde Core4.3):
+#### Funciones js (disponibles desde Core4.3):
 
 `displayPlan()` -> `jeeFrontEnd.plan.displayPlan()`
 
-#### jQuery Toast / Información sobre herramientas
+#### jQuery Toastr / Información sobre herramientas
 
-La liberación *brindando* ha sido eliminado de Core. Fue utilizado a través de funciones jeedomUtils.showAlert() y hideAlert() y ha sido reemplazada por la función Core interna jeeDialog.toast().
+La biblioteca *tostada* fue eliminado del núcleo. Fue utilizado a través de funciones jeedomUtils.showAlert() y hideAlert() y fue reemplazado por la función interna Core jeeDialog.toast().
 
-La lib Tooltipster, dependiente de jQuery, también ha sido reemplazada por la lib Tippy js. El uso de jeedomUtils.initTooltips() por complementos no cambia.
+La biblioteca Tooltipster, que depende de jQuery, también ha sido reemplazada por la biblioteca Tippy js. Usando jeedomUtils.initTooltips() por complementos no cambia.
 
-#### selector de fecha y hora de jQuery
+#### jQuery selector de fecha y hora
 
-La liberación *selector de fecha y hora* ha sido eliminado de Core. Fue utilizado a través de funciones jeedomUtils.datePickerInit() y dateTimePickerInit() y ha sido reemplazado por lib [recogedor](https://flatpickr.js.org/).
+La biblioteca *selector de fecha y hora* fue eliminado del núcleo. Fue utilizado a través de funciones jeedomUtils.datePickerInit() y dateTimePickerInit() y fue reemplazado por la biblioteca [recogedor plano](https://flatpickr.js.org/).
 
-Las funciones principales gestionan el tema *recogedor* y el lenguaje de la lib de acuerdo con el lenguaje Core.
+Las funciones principales gestionan el tema *recogedor plano* y el idioma de la lib dependiendo del idioma del Core.
 
 Como recordatorio:
 
@@ -123,7 +123,7 @@ Como recordatorio:
 
   <summary markdown="span">date/time pickers</summary>
 
-  ~~~
+  ~~~ html
   {% raw %}
   <input id="myDate" class="in_datepicker"/>
   <input id="myTime" class="in_timepicker"/>
@@ -131,10 +131,10 @@ Como recordatorio:
   {% endraw %}
   ~~~
 
-  ~~~ js
+  ~~~js
   {% raw %}
-  jeedomUtils.datePickerInit() //Iniciar todo input.in_datepicker
-  jeedomUtils.dateTimePickerInit() //Iniciar todo input.in_timepicker
+  jeedomUtils.datePickerInit() //Inicia todo input.in_datepicker
+  jeedomUtils.dateTimePickerInit() //Inicia todo input.in_timepicker
 
   jeedomUtils.datePickerInit('Ymd H:i:00', '#myCustomDatetime') //Iniciará la entrada myCustomDatetime con formato personalizado
   {% endraw %}
@@ -150,11 +150,11 @@ Como recordatorio:
 
 #### Funciones PHP:
 
-`eqLogic::byTypeAndSearhConfiguration()` -> `eqLogic::porTypeAndSearchConfiguration()`  
+`eqLogic::porTypeAndSearhConfiguration()` -> `eqLogic::porTypeAndSearchConfiguration()`  
 
-#### Funciones js (disponible desde Core4.2):
+#### Funciones js (disponibles desde Core4.2):
 
-`jeedom.eqLogic.buildSelectCmd` -> `jeedom.eqLogic.buildSelectCmd`  
+`jeedom.eqLogic.builSelectCmd` -> `jeedom.eqLogic.buildSelectCmd`  
 `checkPageModified` -> `jeedomUtils.checkPageModified`  
 `loadPage` -> `jeedomUtils.loadPage`  
 `initPage` -> `jeedomUtils.initPage`  
@@ -163,35 +163,35 @@ Como recordatorio:
 `initHelp` -> `jeedomUtils.initHelp`  
 `datePickerInit` -> `jeedomUtils.datePickerInit`  
 `normTextLower` -> `jeedomUtils.normTextLower`  
-`dormir` -> `jeedomUtils.dormir`  
+`dormir` -> `jeedomUtils.sleep`  
 `uniqId` -> `jeedomUtils.uniqId`  
 `taAutosize` -> `jeedomUtils.taAutosize`  
 `hexToRgb` -> `jeedomUtils.hexToRgb`  
 `componentToHex` -> `jeedomUtils.componentToHex`  
 `rgbToHex` -> `jeedomUtils.rgbToHex`  
 `addOrUpdateUrl` -> `jeedomUtils.addOrUpdateUrl`  
-`posiciónEqLogic` -> `jeedomUtils.positionEqLogic`  
-`chooseIcon` -> `jeedomUtils.chooseIcon`  
+`positionEqLogic` -> `jeedomUtils.positionEqLogic`  
+`elegirIcon` -> `jeedomUtils.elegirIcon`  
 `getOpenedModal` -> `jeedomUtils.getOpenedModal`  
 
-#### Js variables (disponible desde Core4.3):
+#### Variables js (disponibles desde Core4.3):
 
 `jeedom_language` -> `jeeFrontEnd.language`  
-`perfiles de usuario` -> `jeeFrontEnd.userProfils`
+`userProfils` -> `jeeFrontEnd.userProfils`
 
-> **Observación**
+> **Observó**
 >
-> Estos cambios pueden resultar en la necesidad de montar la versión mínima requerida de Jeedom de muchos complementos. Esta es la razón por la cual el *Obsoleto* no aparecen en un Core en la rama maestra, pero permiten a los desarrolladores ver qué pueden corregir.
+> Estos cambios pueden resultar en la necesidad de montar la versión Jeedom mínima requerida de muchos complementos. Esta es la razón por la que *obsoleto* no aparecen en un Core en la rama maestra, pero permiten a los desarrolladores ver qué pueden corregir.
 
-#### jQuery Autocompletar
+#### Autocompletar jQuery
 
-La biblioteca de Autocompletar dependiente de jQuery se eliminará en una versión futura de Core. Se reemplaza por la función interna Core **entrada.jeeComplete()**. Esto es compatible con la mayoría de las opciones anteriores (fuente en ajax, etc.), pero corrige varios defectos, trae nuevos comportamientos (flecha arriba y abajo para seleccionar una propuesta, etc.) y permite usar un solo contenedor para varias entradas, reduciendo enormemente el impacto en el DOM, en particular sobre los escenarios.
+La biblioteca Autocompletar, que depende de jQuery, se eliminará en una versión futura de Core. Se reemplaza por la función interna del Core **input.jeeCompleto()**. Esto soporta la mayoría de las opciones anteriores (fuente en ajax, etc.), pero corrige varios defectos, trae nuevos comportamientos (flechas arriba y abajo para seleccionar una propuesta, etc.) y permite el uso de un único contenedor para varias entradas, reduciendo enormemente el impacto en el DOM, en particular en los escenarios.
 
 <details>
 
   <summary markdown="span">jeeComplete()</summary>
 
-  ~~~ js
+  ~~~js
   {% raw %}
   //jQuery:
   $('input.auto').autocomplete({
@@ -199,8 +199,8 @@ La biblioteca de Autocompletar dependiente de jQuery se eliminará en una versi�
     source: dataArray
   })
 
-  // Corejs:
-  documento.querySelector('input.auto').jeeComplete({
+  // Núcleo js:
+  document.querySelector('input.auto').jeeComplete({
     minLength: 1,
     source: dataArray
   })
@@ -209,31 +209,31 @@ La biblioteca de Autocompletar dependiente de jQuery se eliminará en una versi�
 
 </details>
 
-#### caja de arranque de jQuery
+#### caja de arranque jQuery
 
-La biblioteca de bootbox, que depende de jQuery, se eliminará en una versión futura de Core. jeeDialog() reemplaza estas funciones, con jeeDialog.alerta(), jeeDialog.confirm(), jeeDialog.prompt().
+La biblioteca de arranque, que depende de jQuery, se eliminará en una versión futura de Core. jeeDialog() reemplaza estas funciones, con jeeDialog.alerta(), jeeDialog.confirmar(), jeeDialog.prompt().
 
 <details>
 
   <summary markdown="span">exemples jeeDialog()</summary>
 
-  ~~~ js
+  ~~~js
   {% raw %}
   si (condición) {
     jeeDialog.alert('Esto está mal amigo!')
     return
   }
 
-  jeeDialog.prompt('Ingrese el nuevo nombre:', función(resultado) {
+  jeeDialog.prompt('Ingrese nuevo nombre:', función (resultado) {
     si (resultado !== null) {
       //Hacer cosas
     }
   })
 
-  jeeDialog.confirm('¿Realmente desea eliminar este?', función(resultado) {
+  jeeDialog.confirm('¿Realmente quieres eliminar esto??', función (resultado) {
     si (resultado) {
       //Hacer cosas
-    } más {
+    } demás {
       //Hacer otras cosas
     }
   })
@@ -243,25 +243,25 @@ La biblioteca de bootbox, que depende de jQuery, se eliminará en una versión f
 
 </details>
 
-#### interfaz de usuario de jQuery
+#### interfaz de usuario jQuery
 
-La librería de jQuery UI se eliminará en una versión futura de Core. jeeDiálogo.dialog() reemplaza el uso de modales *ui-diálogo*.
+La biblioteca jQuery UI se eliminará en una futura versión Core. jeeDiálogo.dialog() anula el uso de modales *diálogo-ui*.
 
 <details>
 
-  <summary markdown="span">exemples jeeDialog.diálogo()</summary>
+  <summary markdown="span">exemples jeeDialog.dialog()</summary>
 
-  ~~~ js
+  ~~~js
   {% raw %}
-  //jQueryUI:
+  // interfaz de usuario jQuery:
   $('#md_modal').dialog({
-    title: "{{Administracion del sistema}}"
-  }).carga('index.php?v=d&modal=sistema.acción').dialog('abrir')
+    title: "{{Administración del sistema}}"
+  }).cargar('index.php?v=d&modal=system.action').dialog('abrir')
 
-  //Núcleo jeeDialog:
-  jeeDialog.diálogo({
-    title: '{{Administracion del sistema}}',
-    contentUrl: 'índice.php?v=d&modal=sistema.acción'
+  //Diálogo principal de jee:
+  jeeDialog.dialog({
+    title: '{{Administración del sistema}}',
+    contentUrl: 'index.php?v=d&modal=sistema.acción'
   })
 
   {% endraw %}
@@ -271,39 +271,39 @@ La librería de jQuery UI se eliminará en una versión futura de Core. jeeDiál
 
 #### jQuery UI ordenable
 
-La librería clasificable de jQuery se eliminará en una versión futura de Core.
-Lib SortableJS se ha integrado en Core : [OrdenableJS](http://sortablejs.github.io/Sortable/)
+La biblioteca jQuery Sortable se eliminará en una futura versión Core.
+SortableJS Lib se ha integrado en Core : [OrdenableJS](http://sortablejs.github.io/Sortable/)
 
-#### intercalación de jQuery
+#### cursor de jQuery
 
-El complemento jQuery *jquery.at.caret* queda obsoleto. Use `myElement.insertAtCursor(myString)`
+El complemento jQuery *jquery.at.caret* va a estar en desuso. Utilice `myElement.insertAtCursor(myString)`
 
-#### menú contextual de jQuery
+#### Menú contextual de jQuery
 
-El contextMenu lib, que depende de jQuery, se eliminará en una versión futura de Core. jeeCtxMenu() reemplaza estas funciones.
+La biblioteca contextMenu, que depende de jQuery, se eliminará en una versión futura de Core. jeeCtxMenu() anula estas funciones.
 
 <details>
 
   <summary markdown="span">jeeCtxMenu()</summary>
 
-  ~~~ js
+  ~~~js
   {% raw %}
-  var myCtxMenu = new jeeCtxMenu({
+  var myCtxMenu = nuevo jeeCtxMenu({
     selector: '.nav.nav-tabs li', //Obligatorio!
-    appendTo: 'div#div_pageContainer',
-    className: '', //Agregado al menucontainer
+    appendTo: 'div#div_pageContenedor',
+    className: '', //Añadido al contenedor del menú
     items: {
       uniqueNameID: {
         name: '{{Mi artículo}}',
         isHtmlName: false,
-        icon: 'fas fa engranajes',
-        className: '', //Añadido al contenedor de artículos
-        callback: function(key, opt) { //Devolución de llamada del artículo
+        icon: 'fas fa-cogs',
+        className: '', //Agregado al contenedor de elementos
+        callback: function(key, opt) { //Devolución de llamada del elemento
         }
       },
       sep1: '-----',
     },
-    callback: function(key, opt) { // Devolución de llamada predeterminada si no se establece en el elemento
+    callback: function(key, opt) { //Devolución de llamada predeterminada si no está configurada en el elemento
     }
     //isDisable: false,
     /*
@@ -316,15 +316,15 @@ El contextMenu lib, que depende de jQuery, se eliminará en una versión futura 
     */
     /*
     build: función (disparador) {
-      elementos de menú contextual var = {}
+      var elementos del menú contextual = {}
       devolver {
-        callback: función (clave, opciones, evento) {
-          //Configurar elementos...
+        callback: función (tecla, opciones, evento) {
+          //Establecer elementos...
         }
       },
       items: contextmenuitems
     },
-    position: función(opc, x, y) {
+    position: función (optar, x, y) {
     },
     */
   })
@@ -334,37 +334,37 @@ El contextMenu lib, que depende de jQuery, se eliminará en una versión futura 
 
 </details>
 
-#### jQuery FileUpload
+#### Carga de archivos jQuery
 
-La lib jQuery fileupload sera supprimée dans une future version du Core. jeeFileUploader() remplace l'utilisation de ces fonctions.
+La biblioteca jQuery fileupload se eliminará en una futura versión Core. jeeFileUploader() reemplaza el uso de estas funciones.
 
 <details>
 
-  <summary markdown="span">exemples jeeDialog.diálogo()</summary>
+  <summary markdown="span">exemples jeeDialog.dialog()</summary>
 
-  ~~~ js
+  ~~~js
   {% raw %}
-  //jQueryUI:
+  // interfaz de usuario jQuery:
   $('#bt_uploadImage').fileupload({
-    url: 'core/ajax/plan.ajax.php?action=uploadImage&id=' + id
+    url: 'núcleo/ajax/plan.ajax.php?acción=cargarImagen&id=' + id
     dataType: 'json',
-    done: function(event, data) {
+    done: función (evento, datos) {
       //Hacer cosas
     }
   })
 
-  //Core jeeFileUploader:
-  new jeeFileUploader({
+  //Núcleo jeeFileUploader:
+  nuevo jeeFileUploader({
     fileInput: document.getElementById('bt_uploadImg'),
-    url: 'core/ajax/plan.ajax.php?action=uploadImage&id=' + id
+    url: 'núcleo/ajax/plan.ajax.php?acción=cargarImagen&id=' + id
     /*
-    add: function(event, data) {
-      let currentPath = document.getElementById('bt_uploadImg').getAttribute('data-path')
-      data.url = 'core/ajax/jeedom.ajax.php?action=uploadImageIcon&filepath=' + currentPath
-      data.submit()
+    add: función (evento, datos) {
+      let currentPath = document.getElementById('bt_uploadImg').getAttribute('ruta-datos')
+      datos.url = 'core/ajax/jeedom.ajax.php?acción=uploadImageIcon&filepath=' + rutaactual
+      datos.enviar()
     },
     */
-    done: function(event, data) {
+    done: función (evento, datos) {
       //Hacer cosas
     }
   })
@@ -374,28 +374,28 @@ La lib jQuery fileupload sera supprimée dans une future version du Core. jeeFil
 
 </details>
 
-Ver [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+Ver [DOMUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 > **Consejo**
 >
-> Puede probar sus complementos en Core sin Jquery o Bootstrap. Para ello, Ajustes > Sistema > Configuración, pestaña de equipos, **Corejs (desarrollo)**.
+> Puedes probar tus complementos en Core sin Jquery o Bootstrap. Para ello, Ajustes > Sistema > Configuración, pestaña Equipo, **Core js (desarrollador)**.
 
-### Cambios opcionales
+### Modificaciones opcionales
 
-- Gestión de múltiples casillas de verificación
+- Administrar múltiples casillas de verificación
 
-Se ha introducido una función en Core para proporcionar un menú contextual en las casillas de verificación : Seleccionar todo, Ninguno, Selección inversa.
+Se ha introducido una función en Core para ofrecer un menú contextual en las casillas de verificación : Seleccionar todo, ninguno, selección inversa.
 
-Para usarlo, debes agregar la clase css *comprobar contexto* en las casillas de verificación correspondientes y llamar a la función ``jeedomUtils.setCheckContextMenu()``
+Para usarlo, debes agregar la clase css *comprobar contexto* en las casillas de verificación correspondientes y llame a la función ``jeedomUtils.setCheckContextMenu()``
 
-Las casillas de verificación se agruparán por el mismo *datos-l1key* y *datos-l2key* si existen.
+Las casillas de verificación se agruparán por el mismo *datos-l1key* Y *datos-l2key* si existen.
 
-También puede hacer grupos de casillas de verificación con el atributo *contexto de datos = "grupo1"*.
+También puedes hacer grupos de checkboxes con el atributo *contexto-datos="grupo1"*.
 
-Finalmente, puede definir una función de devolución de llamada como esta:
+Finalmente, puedes definir una función de devolución de llamada como esta:
 
 ````js
-var checkContextMenuCallback = function(_el) {
+var checkContextMenuCallback = función (_el) {
   //_el es un elemento html.
   _el.triggerEvent('cambiar')
 }

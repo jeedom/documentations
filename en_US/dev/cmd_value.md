@@ -1,30 +1,30 @@
-# Order value
+# Order Value
 
-This documentation brings together recommendations for command values (action or info) depending on the types. It is not obligatory to follow them but for better integration into Jeedom it is strongly recommended to do so.
+This documentation gathers the recommendations for the values of the commands (action or info) according to the types. It is not mandatory to follow them but for better integration with Jeedom it is strongly recommended to do so.
 
 ## Light
 
 |Generic type  | Values / Action |
 |---------------|-------------|
-|Info/Light Status|Or Brightness<br/>0-100 Or 0-99 or 0-255<br/>(depending on the max Action/Light Slider)<br/>or Binary<br/>0 = Off<br/> other than 0 = On<br/>**Mandatory**| 
-|Info/Light Brightness|Luminosité<br/>0-100 Or 0-99 or 0-255<br/>(depending on the max Action/Light Slider)<br/>Always use with Light Status on binary command|
+|Info/Light Status|Let Brightness be<br/>0-100 Or 0-99 or 0-255<br/>(depending on the max of Action/Light Slider)<br/>or Either Binary<br/>0 = Off<br/> other than 0 = On<br/>**Mandatory**| 
+|Info/Light Brightness|Luminosité<br/>0-100 Or 0-99 or 0-255<br/>(depending on the max of Action/Light Slider)<br/>Always use with Light State on binary command|
 |Action/Light Slider|Brightness dimmer<br/>Min&Max Mandatory|
-|Action/Light On Button|Switching on the light (Change of State)|
-|Action/Light Off Button|Turning off the light (Change of State)|
-|Info/Light Color|#RRGGBB format|
-|Action/Light Color|Changing the color, Format #RRGGBB|
-|Info/Light Temperature Color|Mired (<=500) or Kelvin (>500) format)|
-|Action/Light Temperature Color|Changing the color temperature<br/>Min&Max Mandatory|
-|Action/Light Toggle|State inversion if binary|
+|Action/Light On Button|Turning on the light (Changing the state))|
+|Action/Light Off Button|Turning off the light (Changing the state))|
+|Info/Light Color|#RRGGBB Format|
+|Action/Light Color|Color Change, Format #RRGGBB|
+|Info/Light Color Temperature|Mired (<=500) or Kelvin (>500) format)|
+|Action/Light Color Temperature|Changing the color temperature<br/>Min&Max Mandatory|
+|Action/Light Toggle|Invert state if binary|
 |Action/Light Mode|Preset/Light scene, can be multiple|
 
 ## Prise
 
 |Generic type  | Values / Action |
 |----------------|------------|
-|Info/Socket<br/>Etat|0 = Off<br/>1 = On|
-|Action/Taken<br/>On button|Turn on the socket| 
-|Action/Taken<br/>Off button|Turn off the socket|
+|Info/Plug<br/>Etat|0 = Off<br/>1 = On|
+|Action/Take<br/>On button|Turn on the socket| 
+|Action/Take<br/>Off button|Turn off the socket|
 
 ## Interrupteurs
 
@@ -38,7 +38,7 @@ This documentation brings together recommendations for command values (action or
 
 |Generic type  | Values / Action |
 |----------------|------------|
-|Info/Fan<br/>Etat|0 = Off<br/>1 = On<br/>or dimming if speed|
+|Info/Fan<br/>Etat|0 = Off<br/>1 = On<br/>or gradation if speed|
 |Action/Fan<br/>On button|Allumer| 
 |Action/Fan<br/>Off button|Eteindre|
 |Action/Fan<br/>Vitesse<br/>Rotation|Min Max Mandatory|
@@ -47,20 +47,20 @@ This documentation brings together recommendations for command values (action or
 
 |Generic type  | Values / Action |
 |---------------|----------------|
-|Info/Status Pane|If Binary :<br/>0 = Closed<br/>1 = Open<br/>If Digital :<br/>min of Button Slider(otherwise min of State, otherwise 0) = Closed <br/>max of Button Slider(otherwise max of State, otherwise 100) = Open<br/>If no Silder button : Mandatory Min and Max in the State !|
-|Action/Shield Button Up|Opening the shutter<br/>Launch of opening or set max slider value or state or 100| 
-|Action/Shutter Button Down|Closing the shutter<br/>Start of closure or set min slider value or state or 0|
-|Action/Shutter Stop Button|Stopping shutter movement|
-|Action/Panel Button Slider|Gives the opening proportion of the shutter<br/>If present:<br/>Mandatory Min and Max|
+|Info/Status Panel|If Binary :<br/>0 = Closed<br/>1 = Open<br/>If Digital :<br/>Slider Button min (otherwise State min, otherwise 0) = Closed <br/>max of Slider Button (otherwise max of State, otherwise 100) = Open<br/>If no Silder button : Min and Max mandatory in the State !|
+|Action/Shutter Button Up|Opening the shutter<br/>Start opening or set max slider value or state or 100| 
+|Action/Shutter Down Button|Closing the shutter<br/>Start closing or set min slider value or state or 0|
+|Action/Stop Button Shutter|Stopping the shutter movement|
+|Action/Slider Button Pane|Gives the proportion of opening of the shutter<br/>If present:<br/>Min and Max required|
 
 optional :
 
 |Generic type  | Values / Action |
 |---------------|----------------|
-|Info/Horizontal Tilt Status Pane|Angle 0->90° (via slider)|
-|Action/Shutter Slider Horizontal Tilt|Angle 0->90°<br/>modifiable via min-max of the slider|
-|Info/Vertical Tilt Status Pane|Angle 0->90° (via slider)|
-|Action/Shutter Slider Vertical Tilt|Angle 0->90°<br/>modifiable via min-max of the slider|
+|Info/Horizontal Tilt Status Shutter|Angle 0->90° (via slider)|
+|Action/Slider Pane Horizontal Tilt|Angle 0->90°<br/>modifiable via min-max of the slider|
+|Info/Vertical Tilt Status Shutter|Angle 0->90° (via slider)|
+|Action/Slider Shutter Vertical Tilt|Angle 0->90°<br/>modifiable via min-max of the slider|
 
 ## Valves
 
@@ -88,7 +88,7 @@ add a dimmer ? and add digital to the action ? it exists ?
 
 |Generic type  | Values / Action |
 |---------------|----------------|
-|Info/Lock Status|0 = Not Secure (Not Locked)<br/>1 = Secure (Locked)|
+|Info/Lock Status|0 = Not Secure (Not Locked))<br/>1 = Secure (Locked))|
 |Action/Lock Open Button|Unlocking| 
 |Action/Lock Close Button|Verrouillage| 
 
@@ -104,20 +104,20 @@ add a dimmer ? and add digital to the action ? it exists ?
 |---------------|----------------|
 |Info/Door<br/>Info/Window<br/>(same treatment)|0 = Contact (Closed)<br/>1 = No contact (Open)| 
 
-## Mermaids
+## Sirens
 
 |Generic type  | Values / Action |
 |---------------|----------------|
-|Info/Siren Status|0 = Does not ring<br/>1 = Rings|
+|Info/Siren Status|0 = Does not ring<br/>1 = Ring|
 
 ## Alarme
 
 |Generic type  | Values / Action |
 |---------------|----------------|
 |Info/Alarm status|1 = Triggered<br/>(priority on activated and modes)|
-|Info/Status alarm activated|0 = Disarmed<br/>(priority on modes)|
-|Info/Alarm mode|Label showing **Exactly** the name of an Action/Alarm Mode command|
-|Action/Armed Alarm|Arm the alarm|
+|Info/Alarm status activated|0 = Disarmed<br/>(priority over modes)|
+|Info/Alarm mode|Label displaying **Exactly** the name of an Action/Alarm Mode command|
+|Action/Alarm armed|Arm the alarm|
 |Action/Alarm released|Disarm the alarm|
 |Action/Alarm Mode|Alarm mode, can be multiple|
 
@@ -126,13 +126,13 @@ add a dimmer ? and add digital to the action ? it exists ?
 |Generic type  | Values / Action |
 |---------------|----------------|
 |Info/Thermostat Status (BINARY)|0 = Off<br/>1 = On|
-|Info/Thermostat Status (HUMAN)|'off' or 'stopped' or 'arrest'<br/>'heat' or 'heating'<br/>'cool' or 'air conditioning'<br/><br/>Prefer English| 
-|Info/Thermostat Mode|'Off' or 'Arret' = OFF<br/>'None' or 'Thermostat' = Setpoint Mode<br/>Label showing **Exactly** the name of an Action/Thermostat Mode command|
+|Info/Thermostat Status (HUMAN)|'off' or 'stopped' or 'stop'<br/>'heat' or 'heating''<br/>'cool' or 'air conditioning''<br/><br/>Prefer English| 
+|Info/Thermostat Mode|''Off' or 'Stop' = OFF<br/>''None' or 'Thermostat' = Setpoint Mode<br/>Label displaying **Exactly** the name of an Action/Thermostat Mode command|
 |Action/Thermostat Mode|Thermostat mode, can be multiple|
-|Info/Thermostat Exterior Temperature|Degrees Celsius|
+|Info/Thermostat Outdoor Temperature|Degrees Celsius|
 |Info/Thermostat Room temperature|Degrees Celsius| 
 |Info/Thermostat Setpoint|Value between Min and Max of the Action/Thermostat Setpoint| 
-|Action/Thermostat Setpoint|Mandatory Min&Max| 
+|Action/Thermostat Setpoint|Min&Max Mandatory| 
 |Info/Thermostat Lock|0 = Not Locked<br/>1 = Locked| 
 |Action/Thermostat Lock|Lock the thermostat|
 |Action/Thermostat Unlock|Unlock the thermostat|
@@ -141,13 +141,13 @@ add a dimmer ? and add digital to the action ? it exists ?
 
 |Generic type  | Values / Action |
 |---------------|----------------|
-|Info/Portal opening status<br/>Info/Garage opening status<br/>(same treatment)|0 = Closed<br/>252 = Closing in progress<br/>253 = Stopped<br/>254 = Opening in progress<br/>255 = Open<br/>(Based on z-wave equipment, could also be binary or labeled ?)|
+|Info/Portal opening status<br/>Info/Garage opening status<br/>(same treatment)|0 = Closed<br/>252 = Closing in progress<br/>253 = Stopped<br/>254 = Opening in progress<br/>255 = Open<br/>(Based on z-wave equipment, could be also binary or labeled ?)|
 
 with either :
 
 |Generic type  | Values / Action |
 |---------------|----------------|
-|Action/Gate or garage toggle button|Switch opens if closed and closes if open<br/>Opening if blocked (for safety)| 
+|Action/Portal or garage toggle button|Switch opens when closed and closes when open<br/>Opening if blocked (for safety))| 
 
 or either :
 
@@ -160,25 +160,25 @@ or either :
 
 |Generic type  | Unit |
 |---------------|----------------|
-|Info/Electric Power|Watts| 
-|Info/Electric Consumption|KWh| 
+|Info/Electrical Power|Watts| 
+|Info/Electricity Consumption|KWh| 
 
 ## Divers
 
 |Generic type  | Values / Unit |
 |---------------|----------------|
-|Info/Presence Occupancy|0 = Nobody<br/>1 = Someone|
-|Info/Air quality (AQI Index)|AQI index|
-|Info/Air quality (Customizable Index)|ppb or µg/m3|
-|Info/CO detector|0 = normal CO<br/>1 = abnormal CO|
+|Info/Presence Occupation|0 = Nobody<br/>1 = Someone|
+|Info/Air Quality (AQI Index)|AQI index|
+|Info/Air Quality (Customizable Index)|ppb or µg/m3|
+|Info/CO Detector|0 = normal CO<br/>1 = abnormal CO|
 |Info/Brightness|0 → 100000 lux| 
 |Info/Humidity|%|
 |Info/CO2 (ppm)|PPM or binary ?|
-|Info/Temperature|-50 → 300°C| 
+|Info/Temperature|-50 → 300 °C| 
 |Info/Battery|%| 
-|Info/Battery charging|0 = no<br/>1 = yes<br/>Not present = Not Rechargeable| 
-|Info/Low Battery|0 = no<br/>1 = yes| 
-|Info/Smoke detection|0 = No smoke<br/>1 = Smoke detected| 
+|Info/Battery charging|0 = NO<br/>1 = YES<br/>Not present = Not rechargeable| 
+|Info/Low Battery|0 = NO<br/>1 = YES| 
+|Info/Smoke Detection|0 = No smoke<br/>1 = Smoke detected| 
 |Info/Flood<br/>Info/Water leak|0 = No leak detected<br/>1 = Leak detected| 
 |Info/Sabotage|0 = No sabotage<br/>1 = Sabotage| 
 |Info/Shock|0 = No shock<br/>1 = Shock| 
@@ -189,6 +189,6 @@ or either :
 
 |Generic type  | Values / Action |
 |---------------|----------------|
-|Info/Active Status|0 = inactive<br/>1 = active|
-|Online Info/Connectivity|0 = offline<br/>1 = online|
-|Defective Info/Status|0 = no<br/>1 = yes|
+|Info/Status Active|0 = inactive<br/>1 = active|
+|Info/Online Connectivity|0 = offline<br/>1 = online|
+|Info/Status Faulty|0 = no<br/>1 = yes|
