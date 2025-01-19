@@ -9,11 +9,13 @@
 		"it_IT": "Plugin per la ricezione delle osservazioni meteorologiche aeroportuali (METAR) e delle previsioni (TAF)",
 		"pt_PT": "Plugin para receber observações meteorológicas do aeroporto (METAR) e previsões (TAF)"
 	},
+	"usage": "Un METAR (officiellement METeorological Aerodrome Report1 mais parfois défini par METeorological Airport Report2) est un rapport d'observation (et non de prévision) météorologique pour l'aviation. Ce plugin vous permet de récupérer et décoder les informations METAR d'un aéroport. Dans sa version actuelle, les infos suivantes sont disponibles (mais les données dépendent directement de ce qui est transmis par l'aéroport choisi) : État du ciel, Bulletin météo détaillé, Metar Data, Metar Valide, Heure UTC du télégramme, Heure Locale du télégramme, Vitesse du vent, Direction du vent, Direction du vent(cap), Visibilité, Température, Point de rosée, Humidité, Pression Atmosphérique, Nuages niveau 1 à 3, Altitude Nuages niveau 1 à 3",
 	"licence": "AGPL",
 	"author": "Patrick CARLE (Patrick) / JAG / Phpvarious",
 	"require": "4.3",
 	"os": {
-		"min": 10
+		"min": 10,
+		"max": ""
 	},
 	"category": "weather",
 	"hasDependency": false,
@@ -28,9 +30,9 @@
 		"pt_PT"
 	],
 	"changelog": "https://jealg.github.io/documentation/plugin-Metar_infos/#language#/changelog",
-	"documentation": "https://www.carle.fr/plugin-metar-taf-infos/4-documentation.html",
+	"documentation": "https://jealg.github.io/documentation/plugin-Metar_infos/#language#/",
 	"changelog_beta": "https://jealg.github.io/documentation/plugin-Metar_infos/#language#/changelog_beta",
-	"documentation_beta": "https://www.carle.fr/plugin-metar-taf-infos/4-documentation.html",
+	"documentation_beta": "https://jealg.github.io/documentation/plugin-Metar_infos/#language#/",
 	"link": {
 		"forum": "https://community.jeedom.com/tag/plugin-Metar_info"
 	},
