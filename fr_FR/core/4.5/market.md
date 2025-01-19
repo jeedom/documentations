@@ -85,7 +85,7 @@ Ici vous retrouvez tous vos achats et vous pouvez demander le renvoi du mail de 
 >
 > Si vous achetez un plugin officiel vous recevrez une facture. En revanche pour un plugin tiers c'est un reçu, pour la facture il faut la demander au développeur.
 
-A partir de cet onglet, vous pouvez aussi entrer un code promo (par exemple un code pour un plugin que le développeur a pu vous transmettre) et faire un don.
+À partir de cet onglet, vous pouvez aussi entrer un code promo (par exemple un code pour un plugin que le développeur a pu vous transmettre) et faire un don.
 
 ## Mes développements
 

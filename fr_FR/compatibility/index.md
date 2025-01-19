@@ -45,7 +45,7 @@ Vous pouvez retrouver toutes les images Jeedom [ici](https://images.jeedom.com/)
 >
 > Jeedom ne prend en charge que Debian 11 "Bullseye". Toute autre version (Stretch, Buster,…) ou distribution (Ubuntu…) n’est pas prise en charge par Jeedom.
 
-| Nom                     | Etat                    | Remarques                |
+| Nom                     | État                    | Remarques                |
 |-------------------------|-------------------------|--------------------------|
 | PHP 5.5 ou moins        | Non supporté            |                          |
 | PHP 5.6                 | Fin de support (en 4.1) |                          |

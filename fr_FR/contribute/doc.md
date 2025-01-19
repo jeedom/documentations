@@ -51,7 +51,7 @@ Sur le même principe que la documentation du Core, celle des plugins est récup
 
 Par exemple, pour le plugin OpenZWave
 
-- Accès à la doc ici : ../plugins/automation%20protocol/openzwave/
+- Accès à la doc ici : [../plugins/automation%20protocol/openzwave/](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/)
 - dépôt du plugin : https://github.com/jeedom/plugin-openzwave/blob/beta/docs/fr_FR/index.md
 
 Là il faut trouver le dépôt du plugin en question, puis aller dans son répertoire doc/fr_FR. Tout en distinguant les [plugins officiels](https://github.com/jeedom) des plugins tiers. De plus, les plugins payants (officiels ou tiers) ne sont pas accessibles, car sur des dépôt privés. Dans ce cas, vous pouvez toujours faire un message sur le [forum](https://community.jeedom.com/), avec le tag documentation-jeedom ou du plugin.

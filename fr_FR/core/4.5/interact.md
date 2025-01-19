@@ -1,7 +1,7 @@
 # Interactions
 **Outils → Interactions**
 
-Dans Jeedom le système d’interactions permet de réaliser des actions à partir de commandes textes ou vocales.
+Dans Jeedom, le système d’interactions permet de réaliser des actions à partir de commandes textes ou vocales.
 
 Ces commandes peuvent être obtenues par :
 
@@ -19,7 +19,7 @@ L’intérêt des interactions réside dans l’intégration simplifiée dans d�
 > - Ctrl+Clic ou Clic Centre pour l'ouvrir dans un nouvel onglet du navigateur.
 
 Vous disposez d'un moteur de recherche permettant de filtrer l'affichage des interactions. La touche Echap annule la recherche.
-A droite du champ de recherche, trois boutons que l'on retrouve à plusieurs endroits de Jeedom:
+À droite du champ de recherche, trois boutons que l'on retrouve à plusieurs endroits de Jeedom:
 - La croix pour annuler la recherche.
 - Le dossier ouvert pour déplier tous les panneaux et afficher toutes les interactions.
 - Le dossier fermé pour replier tous les panneaux.
