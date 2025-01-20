@@ -24,7 +24,7 @@ These changes are still supported in v4.2 and will pass into **Obsolete** in a f
 
 ### Optional modifications
 
-#### Background graphic of tiles
+#### Tiles background graphic
 
 The v4.2 allows you to define, on an eqLogic, an info command whose history will be displayed in the tile background.
 

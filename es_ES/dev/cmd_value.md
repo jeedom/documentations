@@ -147,7 +147,7 @@ con cualquiera :
 
 |Tipo genérico  | Valores/Acción |
 |---------------|----------------|
-|Botón de alternancia Acción/Portón o garaje|El interruptor se abre si está cerrado y se cierra si está abierto<br/>Apertura si está bloqueada (por seguridad))| 
+|Botón de alternancia Acción/Portón o garaje|Interruptor de apertura si está cerrado y de cierre si está abierto<br/>Apertura si está bloqueada (por seguridad))| 
 
 o cualquiera :
 

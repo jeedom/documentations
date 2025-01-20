@@ -327,7 +327,7 @@ Here we can notice :
 Other javascript functions can be used :
 
 - ``printEqLogic`` which takes as parameter the whole object of the equipment (useful in case of data processing before restoring them). It is called when displaying equipment data
-- ``saveEqLogic`` which takes as parameter the equipment object which will be saved in the database (useful if you need to do processing before saving) Last thing, for the JS files, here is how to include them cleanly on your php page :
+- ``saveEqLogic`` which takes as parameter the equipment object that will be saved in the database (useful if you need to do processing before saving) Last thing, for the JS files, here is how to include them cleanly on your php page :
 
 ````php
 <?php include_file('desktop', 'weather', 'js', 'weather'); ?>

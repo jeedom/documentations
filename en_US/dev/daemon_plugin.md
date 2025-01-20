@@ -568,7 +568,7 @@ Both methods have their advantages and disadvantages. It's up to you to choose a
 ### Declaration in plugin_info/info.json
 
 In both cases, you need to adapt your `info.json` file.
-Same example as for the daemon declaration, you have to add the property `hasDependency` and assign the value `true`:
+Same example as for the daemon declaration, you have to add the `hasDependency` property and assign the value `true`:
 
 ```json
 {
@@ -716,7 +716,7 @@ There are 2 prerequisites that we will detail right away.
 In your eqLogic class you must add this function if it does not exist. You can copy/paste this one as is without changing anything
 
 ```php
-    public static function dependency_install() {
+    public static function dependancy_install() {
         log::remove(__CLASS__ . '_update');
         return array('script' => dirname(__FILE__) . '/../../resources/install_#stype#.sh ' . jeedom::getTmpFolder(__CLASS__) . '/dependance', 'log' => log::getPathToLog(__CLASS__ . '_update'));
     }
@@ -795,7 +795,7 @@ Lines like `echo 60 > ${PROGRESS_FILE}` are obviously used to return the progres
 Some advice:
 
 - Do not do `apt-get upgrade`! You don't know what's on the machine and it's not your job to update everything.
-- Don't use `apt` but `apt-get`. `apt` is meant for interactive use and will generate a warning.
+- Don't use `apt` but `apt-get`. `apt` is made for interactive use and this will generate a warning.
 - Add the `-y` flag when needed to confirm the prompts otherwise the script will stop with a request like `Do you want to continue [y/n]` and the user will be blocked.
 - Prefer the syntax `python3 -m pip install ...` rather than `pip3 install ...` to install python packages as the latter will cause problems if `pip3` (or `pip` if you are using python v2) is not linked to the same version as python3: if for example python3 points to version 3.7 and pip3 points to 3.9 or worse 2.7; You don't know what has been done on the system and you are not safe from such a problem on the user's machine, there are dozens of cases listed on community.
 

@@ -185,7 +185,7 @@ Como recordatorio:
 
 #### Autocompletar jQuery
 
-La biblioteca Autocompletar, que depende de jQuery, se eliminará en una versión futura de Core. Se reemplaza por la función interna del Core **input.jeeCompleto()**. Esto soporta la mayoría de las opciones anteriores (fuente en ajax, etc.), pero corrige varios defectos, trae nuevos comportamientos (flechas arriba y abajo para seleccionar una propuesta, etc.) y permite el uso de un único contenedor para varias entradas, reduciendo enormemente el impacto en el DOM, en particular en los escenarios.
+La biblioteca Autocompletar, que depende de jQuery, se eliminará en una versión futura de Core. Se reemplaza por la función interna del Core **input.jeeCompleto()**. Esto soporta la mayoría de las opciones anteriores (fuente en ajax, etc.), pero corrige varios defectos, trae nuevos comportamientos (flechas arriba y abajo para seleccionar una propuesta, etc.) y permite el uso de un solo contenedor para varias entradas, reduciendo enormemente el impacto en el DOM, en particular en los escenarios.
 
 <details>
 
@@ -276,7 +276,7 @@ SortableJS Lib se ha integrado en Core : [OrdenableJS](http://sortablejs.github.
 
 #### cursor de jQuery
 
-El complemento jQuery *jquery.at.caret* va a estar en desuso. Utilice `myElement.insertAtCursor(myString)`
+El complemento jQuery *jquery.at.caret* va a estar obsoleto. Utilice `myElement.insertAtCursor(myString)`
 
 #### Menú contextual de jQuery
 

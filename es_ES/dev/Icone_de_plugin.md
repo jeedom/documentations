@@ -4,7 +4,7 @@ Para poder publicarse en Jeedom Market, cualquier complemento debe tener un íco
 
 Este icono será el que se mostrará a los usuarios, en el mercado y desde la interfaz de Jeedom.
 
-Debes generar un archivo en formato PNG, 309 x 348 píxeles.
+Debe generar un archivo en formato PNG, 309 x 348 píxeles.
 
 El nombre del archivo está estructurado así: `<plugin-id> _icono.png`
 
