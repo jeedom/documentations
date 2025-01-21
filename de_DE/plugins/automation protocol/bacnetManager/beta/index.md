@@ -2,7 +2,7 @@
 
 # Description
 
-Mit dem BacnetManager-Plugin können Sie Bacnet-Geräte für Ihren Jeedom sowie dessen Jeedom-Befehle erstellen, damit sie von einem Bacnet-Supervisor im Netzwerk gesehen werden können
+Mit dem Bacnet-Plugin können Sie Bacnet-Geräte für Ihren Jeedom sowie dessen Jeedom-Befehle erstellen, die von einem Bacnet-Supervisor im Netzwerk gesehen werden können
 
 
 

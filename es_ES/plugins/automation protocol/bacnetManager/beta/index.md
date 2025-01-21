@@ -2,7 +2,7 @@
 
 # Description
 
-El complemento BacnetManager le permite crear equipos Bacnet para su Jeedom, así como sus comandos Jeedom, para que un supervisor Bacnet los vea en la red
+El complemento Bacnet le permite crear equipos Bacnet para su Jeedom, así como sus comandos Jeedom, para que un supervisor Bacnet los vea en la red
 
 
 

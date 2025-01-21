@@ -2,7 +2,7 @@
 
 # Description
 
-Le plugin BacnetManager permet de créer un equipement Bacnet de votre Jeedom, ainsi que ses commandes Jeedom, pour etre vu sur le réseau par un superviseur Bacnet
+Le plugin Bacnet permet de créer un equipement Bacnet de votre Jeedom, ainsi que ses commandes Jeedom, pour etre vu sur le réseau par un superviseur Bacnet
 
 
 

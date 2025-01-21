@@ -2,7 +2,7 @@
 
 # Description
 
-The BacnetManager plugin allows you to create a Bacnet device for your Jeedom, as well as its Jeedom commands, to be seen on the network by a Bacnet supervisor
+The Bacnet plugin allows you to create Bacnet equipment for your Jeedom, as well as its Jeedom commands, to be seen on the network by a Bacnet supervisor
 
 
 
@@ -165,7 +165,7 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | btusPerHour                     |
 | btusPerPound                    |
 | tusPerPoundDryAir               |
-| candles                        |
+| candela                        |
 | candelasPerSquareMeter          |
 | centimeters                     |
 | centimetersOfMercury            |
@@ -200,9 +200,9 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | degreeDaysCelsius               |
 | degreeDaysFahrenheit            |
 | degreesAngular                  |
-| degrees Celsius                  |
-| degrees CelsiusPerHour           |
-| degrees CelsiusPerMinute         |
+| degreesCelsius                  |
+| degreesCelsiusPerHour           |
+| degreesCelsiusPerMinute         |
 | degreesFahrenheit               |
 | degreesFahrenheitPerHour        |
 | degreesFahrenheitPerMinute      |
@@ -216,7 +216,7 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | feet                            |
 | feetPerMinute                   |
 | feetPerSecond                   |
-| footCandles                     |
+| footcandles                     |
 | grams                           |
 | gramsOfWaterPerKilogramDryAir   |
 | gramsPerCubicCentimeter         |
@@ -240,7 +240,7 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | inches                          |
 | inchesOfMercury                 |
 | inchesOfWater                   |
-| jouleseconds                    |
+| jouleSeconds                    |
 | joules                          |
 | joulesPerCubicMeter             |
 | joulesPerDegreeKelvin           |
@@ -270,7 +270,7 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | kilovoltAmperes                 |
 | kilovoltAmperesReactive         |
 | kilovolts                       |
-| kilowatt hours                   |
+| kilowattHours                   |
 | kilowattHoursPerSquareFoot      |
 | kilowattHoursPerSquareMeter     |
 | kilowattHoursReactive           |
@@ -290,11 +290,11 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | megajoulesPerSquareFoot         |
 | megajoulesPerSquareMeter        |
 | megaAVoltAmpereHours             |
-| megaVoltAmpereHoursReactive     |
+| megaAVoltAmpereHoursReactive     |
 | megaAVoltAmperes                 |
-| megaAVoltAmperesReactive         |
-| megaVolts                       |
-| megawatt hours                   |
+| megAVoltAmperesReactive         |
+| megaAVolts                       |
+| megawattHours                   |
 | megawattHoursReactive           |
 | megawatts                       |
 | megohms                         |
@@ -311,7 +311,7 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | microsieverts                   |
 | microsievertsPerHour            |
 | milesPerHour                    |
-| milliamperes                    |
+| milliamps                    |
 | millibars                       |
 | milligrams                      |
 | milligramsPerCubicMeter         |
@@ -338,7 +338,7 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | nanogramsPerCubicMeter          |
 | nephelometricTurbidityUnit      |
 | newton                          |
-| newtonmeters                    |
+| newtonMeters                    |
 | newtonSeconds                   |
 | newtonsPerMeter                 |
 | noUnitsohmMeterPerSquareMeter   |
@@ -346,10 +346,10 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | ohms                            |
 | pH                              |
 | partsPerBillion                 |
-| partsPerMillion                 |
+| sharesPerMillion                 |
 | pascalSeconds                   |
 | pascals                         |
-| per hour                         |
+| perHour                         |
 | perMille                        |
 | perMinute                       |
 | perSecond                       |
@@ -377,12 +377,12 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | squareInches                    |
 | squareMeters                    |
 | squareMetersPerNewton           |
-| teslas                          |
-| thermals                          |
+| Tesla                          |
+| thermal                          |
 | yourHours                        |
 | tones                            |
-| tonsPerHour                     |
-| tonsRefrigeration               |
+| tonesPerHour                     |
+| tonesRefrigeration               |
 | usGallons                       |
 | usGallonsPerHour                |
 | usGallonsPerMinute              |
@@ -405,22 +405,3 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | webers                          |
 | weeks                           |
 | years                           |
-
-
-
-
-### Plugin Setup
-
-#### Advanced Mode
-
-By activating the **Advanced Mode**, the configured cron will no longer retrieve the values of the Jeedom commands to update them on the server. Instead, it will check if a write has taken place on the server and will execute the Actions commands of the various plugins configured with the value written on the Bacnet point or the value entered (see the CmdsJeeServer modal).
-
-#### Command Settings
-
-As usual, after setting the Info type commands, it is necessary to go to the modal **CmdsJeeServer** to configure and send commands to the server.
-
-1. **Action Command Selection** : Select an Action command depending on the chosen plugin.
-2. **Initial Value** : Set an initial value to initialize the Bacnet point for the first time.
-3. **Use Bacnet Value** : Check this option to use Bacnet value. If this option is not checked, you must fill in the "Value to send to action" field".
-
-When the cron runs, the system will check if there has been a change of value on the Bacnet point (write). At that point it will send either that Bacnet value or the value entered in "Send to Action" to the configured Action command.

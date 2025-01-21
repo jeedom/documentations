@@ -2,7 +2,7 @@
 
 # Description
 
-Mit dem BacnetManager-Plugin können Sie Bacnet-Geräte für Ihren Jeedom sowie dessen Jeedom-Befehle erstellen, damit sie von einem Bacnet-Supervisor im Netzwerk gesehen werden können
+Mit dem Bacnet-Plugin können Sie Bacnet-Geräte für Ihren Jeedom sowie dessen Jeedom-Befehle erstellen, die von einem Bacnet-Supervisor im Netzwerk gesehen werden können
 
 
 
@@ -159,7 +159,7 @@ Durch Klicken auf diese Schaltfläche können Sie die jeeBacnetManager-Konfigura
 | Ampere                         |
 | AmpereProMeter                 |
 | AmpereProQuadratmeter           |
-| Barren                            |
+| Riegel                            |
 | Becquerel                      |
 | BTUS                            |
 | btusPerHour                     |
@@ -173,7 +173,7 @@ Durch Klicken auf diese Schaltfläche können Sie die jeeBacnetManager-Konfigura
 | Kubikfuß                       |
 | Kubikfuß pro Tag                 |
 | Kubikfuß pro Stunde                |
-| Kubikfuß pro Minute              |
+| Kubikfuss pro Minute              |
 | KubikfußPerSekunde              |
 | Kubikmeter                     |
 | Kubikmeter pro Tag               |
@@ -203,7 +203,7 @@ Durch Klicken auf diese Schaltfläche können Sie die jeeBacnetManager-Konfigura
 | Grad Celsius                  |
 | Grad Celsius pro Stunde           |
 | Grad Celsius pro Minute         |
-| GradFahrenheit               |
+| Grad Fahrenheit               |
 | Grad Fahrenheit pro Stunde        |
 | GradFahrenheitPerMinute      |
 | GradKelvin                   |
@@ -232,7 +232,7 @@ Durch Klicken auf diese Schaltfläche können Sie die jeeBacnetManager-Konfigura
 | Hektopascal                    |
 | Henrys                          |
 | Hertz                           |
-| PS                      |
+| Pferdestärken                      |
 | Std.                           |
 | HundertstelSekunden               |
 | imperialGallonen                 |
@@ -332,7 +332,7 @@ Durch Klicken auf diese Schaltfläche können Sie die jeeBacnetManager-Konfigura
 | Millisievert                   |
 | Millivolt                      |
 | Milliwatt                      |
-| Minuten                         |
+| Protokoll                         |
 | Minuten pro Grad Kelvin          |
 | Monate                          |
 | Nanogramm pro Kubikmeter          |
@@ -351,8 +351,8 @@ Durch Klicken auf diese Schaltfläche können Sie die jeeBacnetManager-Konfigura
 | Pascal                         |
 | pro Stunde                         |
 | Promille                        |
-| proMinute                       |
-| proSekunde                       |
+| pro Minute                       |
+| pro Sekunde                       |
 | Prozent                         |
 | ProzentObscurationPerFoot       |
 | ProzentObscurationPerMeter      |
@@ -367,7 +367,7 @@ Durch Klicken auf diese Schaltfläche können Sie die jeeBacnetManager-Konfigura
 | psiPerDegreeFahrenheit          |
 | Bogenmaß                         |
 | BogenmaßPerSekunde                |
-| Umdrehungen pro Minute            |
+| Revolutionen pro Minute            |
 | Sekunden                         |
 | Siemens                         |
 | SiemensPerMeter                 |
@@ -405,22 +405,3 @@ Durch Klicken auf diese Schaltfläche können Sie die jeeBacnetManager-Konfigura
 | webers                          |
 | Wochen                           |
 | Jahre                           |
-
-
-
-
-### Plugin-Setup
-
-#### Erweiterter Modus
-
-Durch die Aktivierung des **Erweiterter Modus**, Der konfigurierte Cron ruft die Werte von Jeedom-Befehlen nicht mehr ab, um sie auf dem Server zu aktualisieren. Stattdessen prüft es, ob ein Schreibvorgang auf dem Server stattgefunden hat, und führt die Aktionsbefehle der verschiedenen Plugins aus, die mit dem auf dem Bacnet-Punkt geschriebenen Wert oder dem bereitgestellten Wert konfiguriert sind (siehe das CmdsJeeServer-Modal)).
-
-#### Bestelleinstellungen
-
-Wie üblich ist es nach der Konfiguration der Befehle vom Typ Info erforderlich, zum Modal zu wechseln **CmdsJeeServer** zum Konfigurieren und Senden von Befehlen an den Server.
-
-1. **Auswahl der Befehlsaktion** : Wählen Sie einen Aktionsbefehl basierend auf dem ausgewählten Plugin aus.
-2. **Anfangswert** : Legen Sie einen Anfangswert fest, um den Bacnet-Punkt zum ersten Mal zu initialisieren.
-3. **Verwenden Sie den Bacnet-Wert** : Aktivieren Sie diese Option, um den Bacnet-Wert zu verwenden. Wenn diese Option nicht aktiviert ist, müssen Sie das Feld „An die Aktion zu sendender Wert“ ausfüllen".
-
-Beim Ausführen des Crons prüft das System, ob am Bacnet-Punkt eine Wertänderung stattgefunden hat (Schreiben)). An diesem Punkt sendet es entweder diesen Bacnet-Wert oder den unter „An Aktion senden“ eingegebenen Wert an den Parameterized Action-Befehl.

@@ -2,7 +2,7 @@
 
 # Description
 
-El complemento BacnetManager le permite crear equipos Bacnet para su Jeedom, así como sus comandos Jeedom, para que un supervisor Bacnet los vea en la red
+El complemento Bacnet le permite crear equipos Bacnet para su Jeedom, así como sus comandos Jeedom, para que un supervisor Bacnet los vea en la red
 
 
 
@@ -159,7 +159,7 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | amperios                         |
 | amperios por metro                 |
 | amperios por metro cuadrado           |
-| verja                            |
+| barras                            |
 | becquereles                      |
 | btus                            |
 | btusPorHora                     |
@@ -170,12 +170,12 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | centímetros                     |
 | centímetrosDeMercurio            |
 | centímetrosDeAgua              |
-| pies cúbicos                       |
+| pie cúbico                       |
 | Pies cúbicos por día                 |
 | pies cúbicos por hora                |
 | pies cúbicos por minuto              |
 | Pies cúbicos por segundo              |
-| Metros cúbicos                     |
+| metros cubicos                     |
 | Metros cúbicos por día               |
 | Metros cúbicos por hora              |
 | Metros cúbicos por minuto            |
@@ -195,7 +195,7 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | días                            |
 | decibeles                        |
 | decibelesA                       |
-| decibeliosMilivoltios               |
+| decibelesMilivoltios               |
 | decibelesVoltio                    |
 | gradosDíasCelsius               |
 | gradosDíasFahrenheit            |
@@ -263,7 +263,7 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | kilojulios por kilogramo           |
 | kilojulios por kilogramo aire seco     |
 | kilómetros                      |
-| kilómetrosporhora               |
+| Kilómetros por hora               |
 | kilopascales                     |
 | kilovoltiosAmperiosHoras             |
 | kilovoltiosAmperiosHorasReactivo     |
@@ -350,7 +350,7 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | pascalSegundos                   |
 | pascales                         |
 | por hora                         |
-| por Milla                        |
+| Por milla                        |
 | por minuto                       |
 | por segundo                       |
 | por ciento                         |
@@ -363,19 +363,19 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | librasMasaPorHora               |
 | librasMasaPorMinuto             |
 | librasMasaPorSegundo             |
-| factor de potencia                     |
+| Factor de potencia                     |
 | psiPorDegradoFahrenheit          |
 | radianes                         |
 | radianes por segundo                |
 | revoluciones por minuto            |
-| artículos de segunda clase                         |
+| segundos                         |
 | siemens                         |
 | siemens por metro                 |
 | sieverts                        |
 | cuadradosCentímetros               |
 | pies cuadrados                      |
 | pulgadas cuadradas                    |
-| Metros cuadrados                    |
+| metros cuadrados                    |
 | Metros cuadrados por Newton           |
 | tesla                          |
 | térmico                          |
@@ -405,22 +405,3 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | webers                          |
 | semanas                           |
 | años                           |
-
-
-
-
-### Configuración del complemento
-
-#### Modo avanzado
-
-Al activar el **Modo avanzado**, el cron configurado ya no recuperará los valores de los comandos Jeedom para actualizarlos en el servidor. En su lugar, comprobará si se ha realizado una escritura en el servidor y ejecutará los comandos de Acciones de los diferentes complementos configurados con el valor escrito en el punto Bacnet o el valor proporcionado (consulte el modo CmdsJeeServer)).
-
-#### Configuración de pedidos
-
-Como es habitual, después de haber configurado los comandos de tipo Info, es necesario ir al modal **CmdsJeeServer** para configurar y enviar comandos al servidor.
-
-1. **Elección de acción de comando** : Seleccione un comando de acción según el complemento elegido.
-2. **Valor inicial** : Establezca un valor inicial para inicializar el punto Bacnet por primera vez.
-3. **Usar valor Bacnet** : Marque esta opción para utilizar el valor Bacnet. Si esta opción no está marcada deberás rellenar el campo "Valor a enviar a la acción"".
-
-Al ejecutar el cron, el sistema comprobará si ha habido un cambio de valor en el punto Bacnet (escribiendo). En ese momento, enviará este valor de Bacnet o el valor ingresado en "Enviar a acción" al comando de acción parametrizada.
