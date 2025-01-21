@@ -48,7 +48,7 @@ This documentation gathers the recommendations for the values of the commands (a
 |Generic type  | Values / Action |
 |---------------|----------------|
 |Info/Status Panel|If Binary :<br/>0 = Closed<br/>1 = Open<br/>If Digital :<br/>Slider Button min (otherwise State min, otherwise 0) = Closed <br/>max of Slider Button (otherwise max of State, otherwise 100) = Open<br/>If no Silder button : Min and Max mandatory in the State !|
-|Action/Shutter Button Up|Opening the shutter<br/>Start opening or set max slider value or state or 100| 
+|Action/Shutter Up Button|Opening the shutter<br/>Start opening or set max slider value or state or 100| 
 |Action/Shutter Down Button|Closing the shutter<br/>Start closing or set min slider value or state or 0|
 |Action/Stop Button Shutter|Stopping the shutter movement|
 |Action/Slider Button Pane|Gives the proportion of opening of the shutter<br/>If present:<br/>Min and Max required|
@@ -127,7 +127,7 @@ add a dimmer ? and add digital to the action ? it exists ?
 |---------------|----------------|
 |Info/Thermostat Status (BINARY)|0 = Off<br/>1 = On|
 |Info/Thermostat Status (HUMAN)|'off' or 'stopped' or 'stop'<br/>'heat' or 'heating''<br/>'cool' or 'air conditioning''<br/><br/>Prefer English| 
-|Info/Thermostat Mode|''Off' or 'Stop' = OFF<br/>''None' or 'Thermostat' = Setpoint Mode<br/>Label displaying **Exactly** the name of an Action/Thermostat Mode command|
+|Info/Thermostat Mode|'Off' or 'Stop' = OFF<br/>''None' or 'Thermostat' = Setpoint Mode<br/>Label displaying **Exactly** the name of an Action/Thermostat Mode command|
 |Action/Thermostat Mode|Thermostat mode, can be multiple|
 |Info/Thermostat Outdoor Temperature|Degrees Celsius|
 |Info/Thermostat Room temperature|Degrees Celsius| 

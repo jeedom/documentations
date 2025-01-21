@@ -410,7 +410,7 @@ The plugin is functional but for now it doesn't do much. Si vous cliquez sur la 
 
 Note that for the command I name it by logicalId. And that's important. Having a unique logicalId per device (eqLogic) makes things easier.
 
-We will now see how to update the command using the native core functions : The crons
+We will now see how to update the command using the core's native functions : The crons
 
 There are several :
 
