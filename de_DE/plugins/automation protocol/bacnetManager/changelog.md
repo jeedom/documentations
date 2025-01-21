@@ -1,6 +1,8 @@
-# Änderungsprotokoll BACnetServer
+# Änderungsprotokoll BacnetManager
 
 
+# 09.09.2024
+- Erweiterter Modus hinzugefügt : Externe Schreiberkennung auf dem Server, um dann Aktionsbefehle auf Jeedom auszuführen
 
 # 07.09.2024
 - Modales UX-Redesign cmds jeeBacnetManager

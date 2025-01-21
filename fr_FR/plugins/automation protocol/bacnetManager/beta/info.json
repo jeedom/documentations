@@ -1,6 +1,6 @@
 {
     "id": "bacnetManager",
-    "name": "BACnetServer",
+    "name": "BacnetManager",
     "description": {
         "fr_FR": "Plugin permettant de créer un device Bacnet\/Jeedom",
         "en_US": "Plugin allowing to create a Bacnet\/Jeedom device",
@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "4.0.62",
+    "require": "4.4.2",
     "category": "automation protocol",
     "hasDependency": true,
     "hasOwnDeamon": true,
@@ -23,10 +23,18 @@
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnetManager\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnetManager\/",
     "language": [
-        "fr_FR"
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
-        "miniplus",
         "smart",
         "rpi",
         "atlas",

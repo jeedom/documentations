@@ -159,7 +159,7 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | amperios                         |
 | amperios por metro                 |
 | amperios por metro cuadrado           |
-| barras                            |
+| verja                            |
 | becquereles                      |
 | btus                            |
 | btusPorHora                     |
@@ -170,12 +170,12 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | centímetros                     |
 | centímetrosDeMercurio            |
 | centímetrosDeAgua              |
-| pie cúbico                       |
+| pies cúbicos                       |
 | Pies cúbicos por día                 |
 | pies cúbicos por hora                |
 | pies cúbicos por minuto              |
 | Pies cúbicos por segundo              |
-| metros cubicos                     |
+| Metros cúbicos                     |
 | Metros cúbicos por día               |
 | Metros cúbicos por hora              |
 | Metros cúbicos por minuto            |
@@ -195,7 +195,7 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | días                            |
 | decibeles                        |
 | decibelesA                       |
-| decibelesMilivoltios               |
+| decibeliosMilivoltios               |
 | decibelesVoltio                    |
 | gradosDíasCelsius               |
 | gradosDíasFahrenheit            |
@@ -263,7 +263,7 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | kilojulios por kilogramo           |
 | kilojulios por kilogramo aire seco     |
 | kilómetros                      |
-| Kilómetros por hora               |
+| kilómetrosporhora               |
 | kilopascales                     |
 | kilovoltiosAmperiosHoras             |
 | kilovoltiosAmperiosHorasReactivo     |
@@ -350,7 +350,7 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | pascalSegundos                   |
 | pascales                         |
 | por hora                         |
-| Por milla                        |
+| por Milla                        |
 | por minuto                       |
 | por segundo                       |
 | por ciento                         |
@@ -363,19 +363,19 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | librasMasaPorHora               |
 | librasMasaPorMinuto             |
 | librasMasaPorSegundo             |
-| Factor de potencia                     |
+| factor de potencia                     |
 | psiPorDegradoFahrenheit          |
 | radianes                         |
 | radianes por segundo                |
 | revoluciones por minuto            |
-| segundos                         |
+| artículos de segunda clase                         |
 | siemens                         |
 | siemens por metro                 |
 | sieverts                        |
 | cuadradosCentímetros               |
 | pies cuadrados                      |
 | pulgadas cuadradas                    |
-| metros cuadrados                    |
+| Metros cuadrados                    |
 | Metros cuadrados por Newton           |
 | tesla                          |
 | térmico                          |
@@ -405,3 +405,22 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | webers                          |
 | semanas                           |
 | años                           |
+
+
+
+
+### Configuración del complemento
+
+#### Modo avanzado
+
+Al activar el **Modo avanzado**, el cron configurado ya no recuperará los valores de los comandos Jeedom para actualizarlos en el servidor. En su lugar, comprobará si se ha realizado una escritura en el servidor y ejecutará los comandos de Acciones de los diferentes complementos configurados con el valor escrito en el punto Bacnet o el valor proporcionado (consulte el modo CmdsJeeServer)).
+
+#### Configuración de pedidos
+
+Como es habitual, después de haber configurado los comandos de tipo Info, es necesario ir al modal **CmdsJeeServer** para configurar y enviar comandos al servidor.
+
+1. **Elección de acción de comando** : Seleccione un comando de acción según el complemento elegido.
+2. **Valor inicial** : Establezca un valor inicial para inicializar el punto Bacnet por primera vez.
+3. **Usar valor Bacnet** : Marque esta opción para utilizar el valor Bacnet. Si esta opción no está marcada deberás rellenar el campo "Valor a enviar a la acción"".
+
+Al ejecutar el cron, el sistema comprobará si ha habido un cambio de valor en el punto Bacnet (escribiendo). En ese momento, enviará este valor de Bacnet o el valor ingresado en "Enviar a acción" al comando de acción parametrizada.

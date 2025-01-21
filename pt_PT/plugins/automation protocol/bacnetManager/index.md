@@ -175,7 +175,7 @@ Ao clicar neste botão, você pode importar o arquivo json de configuração do 
 | pés cúbicos por hora                |
 | pés cúbicos por minuto              |
 | pés cúbicos por segundo              |
-| metros cúbicos                     |
+| Metros cúbicos                     |
 | metros cúbicos por dia               |
 | metros cúbicos por hora              |
 | metros cúbicos por minuto            |
@@ -263,7 +263,7 @@ Ao clicar neste botão, você pode importar o arquivo json de configuração do 
 | quilojoulesPor quilograma           |
 | quilojoulesPorquilogramaSecoAir     |
 | quilômetros                      |
-| quilometros por hora               |
+| quilômetrosPorhora               |
 | quilopascais                     |
 | quilovoltAmpereHoras             |
 | quilovoltAmpereHorasReativo     |
@@ -310,7 +310,7 @@ Ao clicar neste botão, você pode importar o arquivo json de configuração do 
 | micrômetros                     |
 | microsieverts                   |
 | microsievertsPorhora            |
-| milhas por hora                    |
+| milhasPorhora                    |
 | miliamperes                    |
 | milibares                       |
 | miligramas                      |
@@ -350,7 +350,7 @@ Ao clicar neste botão, você pode importar o arquivo json de configuração do 
 | pascalSegundos                   |
 | pascais                         |
 | por hora                         |
-| por milhar                        |
+| porMilha                        |
 | por minuto                       |
 | por segundo                       |
 | por cento                         |
@@ -367,7 +367,7 @@ Ao clicar neste botão, você pode importar o arquivo json de configuração do 
 | psiPerDegreeFahrenheit          |
 | radianos                         |
 | radianosPerSecond                |
-| revoluções por minuto            |
+| revoluçõesPorMinuto            |
 | segundos                         |
 | siemens                         |
 | siemensPerMeter                 |
@@ -405,3 +405,22 @@ Ao clicar neste botão, você pode importar o arquivo json de configuração do 
 | Weber                          |
 | semanas                           |
 | anos                           |
+
+
+
+
+### Configuração do plug-in
+
+#### Modo Avançado
+
+Ao ativar o **Modo Avançado**, o cron configurado não recuperará mais os valores dos comandos Jeedom para atualizá-los no servidor. Em vez disso, verificará se ocorreu uma escrita no servidor e executará os comandos Actions dos diferentes plugins configurados com o valor escrito no ponto Bacnet ou o valor fornecido (veja o modal CmdsJeeServer).
+
+#### Configurações de pedido
+
+Como de costume, após ter configurado os comandos do tipo Info, é necessário ir ao modal **Servidor CmdsJee** para configurar e enviar comandos para o servidor.
+
+1. **Escolha da Ação de Comando** : Selecione um comando de ação com base no plugin escolhido.
+2. **Valor Inicial** : Defina um valor inicial para inicializar o ponto Bacnet pela primeira vez.
+3. **Usar valor Bacnet** : Marque esta opção para usar o valor Bacnet. Caso esta opção não esteja marcada, deverá preencher o campo “Valor a enviar para a ação”".
+
+Ao executar o cron, o sistema irá verificar se houve alteração no valor do ponto Bacnet (escrevendo). Nesse ponto, ele enviará este valor Bacnet ou o valor inserido em "Enviar para Ação" para o comando Ação Parametrizada.
