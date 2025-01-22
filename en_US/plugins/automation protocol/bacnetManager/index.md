@@ -1,8 +1,15 @@
 # BacnetManager
 
+>**IMPORTANT**
+>
+>. 
+
+
 # Description
 
-The Bacnet plugin allows you to create Bacnet equipment for your Jeedom, as well as its Jeedom commands, to be seen on the network by a Bacnet supervisor
+.
+
+
 
 
 
@@ -26,7 +33,7 @@ Rien n'est à modifier dans le champ « Port socket interne » de la section « 
 ![socket](./images/BacnetManagerConfig.png)
 
 
-In this same tab, you must choose the Cron value for updating your equipment.
+.
 
 
 
@@ -68,28 +75,44 @@ Do not put spaces in the command name
 
 All you have to do is search for the ones you want, and Validate.
 
+>**IMPORTANT**
+>
+>
 
 ![accueil](./images/BacnetManagerModale.png)
 
 
-The bacnet device with the instanceId you have chosen will be created, and appear on your network.
+
+
+.
+
+ :
+
+![accueil](./images/BacnetManagerConfigCmds.png)
+
+ :
+
+- ' : .
+- ' :  : . ). 
+
+
+#### Command Settings
+
+
+1. **Action Command Selection** : Select an Action command depending on the chosen plugin.
+2. **Initial Value** : Set an initial value to initialize the Bacnet point for the first time.
+3. **Use Bacnet Value** : Check this option to use Bacnet value. If this option is not checked, you must fill in the "Value to send to action" field".
+
+When the cron runs, the system will check if there has been a change of value on the Bacnet point (write). At that point it will send either that Bacnet value or the value entered in "Send to Action" to the configured Action command.
+
+
+
+
 
 
 To update the values you need to configure the cron in the plugin configuration.
 
 ![accueil](./images/BacnetManagerConfig.png)
-
-
-
-To delete commands from the Server, you must go to the commands of the equipment, and simply Delete the ones you want then save.
-
-
-
-You can also delete the device from the network, as well as its bacnet points by clicking on Delete the jeeBacnetManager.
-
-
-![accueil](./images/BacnetManagerReinit.png)
-
 
 
 
@@ -103,31 +126,14 @@ Jeedom commands of type 'string' do not have to select units.
 On the bacnet network, the instances of the points will use the names of the commands specified in the field on the Additions of commands modal.
 
 
-
-A postcalculation function is also provided : 
-if you choose to fill in this postCalcul, then the value injected into the deviceBacnet will have taken the initial value to be uploaded with the specified calculation
-
-You can for example :
-
-#value# * 10
-
-
-This will take the initial value of the command uploaded, then multiply it by 10 before updating it in the jeeServer instance
-
-Example :
-
-![accueil](./images/BacnetManagerPost.png)
-
-
-
 >**IMPORTANT**
 >
->You will find all the existing commands on the jeeServer on the plugin screen, by clicking on Cmds JeeServer
+>
 
 
 ![accueil](./images/BacnetManagerAccueil.png)
 
-![cmdExist](./images/BacnetManagerCmdsExit.png)
+
 
 
 # Import/Export the jeeBacnetManager (coming soon)):
@@ -408,19 +414,3 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 
 
 
-
-### Plugin Setup
-
-#### Advanced Mode
-
-By activating the **Advanced Mode**, the configured cron will no longer retrieve the values of the Jeedom commands to update them on the server. Instead, it will check if a write has taken place on the server and will execute the Actions commands of the various plugins configured with the value written on the Bacnet point or the value entered (see the CmdsJeeServer modal).
-
-#### Command Settings
-
-As usual, after setting the Info type commands, it is necessary to go to the modal **CmdsJeeServer** to configure and send commands to the server.
-
-1. **Action Command Selection** : Select an Action command depending on the chosen plugin.
-2. **Initial Value** : Set an initial value to initialize the Bacnet point for the first time.
-3. **Use Bacnet Value** : Check this option to use Bacnet value. If this option is not checked, you must fill in the "Value to send to action" field".
-
-When the cron runs, the system will check if there has been a change of value on the Bacnet point (write). At that point it will send either that Bacnet value or the value entered in "Send to Action" to the configured Action command.
