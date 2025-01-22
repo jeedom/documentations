@@ -1,27 +1,27 @@
-## 
+## Desarrollo de complementos
 
- [](https://blog.jeedom.com/jeedom-partenaire/)  [](https://community.jeedom.com/)  [](https://market.jeedom.com).
+A [cuenta de desarrollador](https://blog.jeedom.com/jeedom-partenaire/) es necesario acceder a la sección de desarrolladores en [Comunidad](https://community.jeedom.com/) y poder publicar complementos en el [Mercado](https://market.jeedom.com).
 
-### 
+### Documentación general
 
-- [](/es_ES/dev/tutorial_plugin)
+- [Presentación](/es_ES/dev/tutorial_plugin)
 
-- [](/es_ES/dev/Icone_de_plugin)
-- [](/es_ES/dev/structure_info_json)
-- [](/es_ES/dev/documentation_plugin)
-- [](/es_ES/dev/publication_plugin)
-- [](/es_ES/dev/widget_plugin)
-- [](/es_ES/dev/plugin_template)
-- [](/es_ES/dev/daemon_plugin)
-- [](/es_ES/dev/cmd_value)
-- [](/es_ES/dev/transfert)
+- [Icono de complemento](/es_ES/dev/Icone_de_plugin)
+- [Estructura info.json](/es_ES/dev/structure_info_json)
+- [Documentación de un complemento](/es_ES/dev/documentation_plugin)
+- [Publicar un complemento](/es_ES/dev/publication_plugin)
+- [Widget de complemento](/es_ES/dev/widget_plugin)
+- [Plantilla de complemento](/es_ES/dev/plugin_template)
+- [Dependencias de demonios y complementos](/es_ES/dev/daemon_plugin)
+- [Valor de recomendación de los pedidos](/es_ES/dev/cmd_value)
+- [Transferencia de complementos](/es_ES/dev/transfert)
 
-- [.](/es_ES/dev/corejs/index)
+- [Js y desarrollo de Core 4.4 +](/es_ES/dev/corejs/index)
 
-### 
+### Desarrollos principales y adaptaciones de complementos
 
-- [](/es_ES/dev/core4.4)
-- [](/es_ES/dev/core4.3)
-- [](/es_ES/dev/core4.2)
-- [](/es_ES/dev/core4.1)
-- [](/es_ES/dev/core4.0)
+- [Núcleo v4.4](/es_ES/dev/core4.4)
+- [Núcleo v4.3](/es_ES/dev/core4.3)
+- [Núcleo v4.2](/es_ES/dev/core4.2)
+- [Núcleo v4.1](/es_ES/dev/core4.1)
+- [Núcleo v4.0](/es_ES/dev/core4.0)
