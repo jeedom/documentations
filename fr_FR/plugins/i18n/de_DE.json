@@ -42,6 +42,8 @@
         "Odace SFSP": "Odace SFSP",
         "Plugin ajoutant le support de la gamme Odace SFSP (sans fil sans pile) Schneider à Jeedom": "Plugin zur Unterstützung der Odace SFSP-Reihe (drahtlos ohne Akku) Schneider to Jeedom",
         "Plugin permettant de créer un device Bacnet\/Jeedom": "Plugin zum Erstellen eines Bacnet\/Jeedom-Geräts",
+        "On peut également piloter des commandes Actions Jeedom après des changements de valeurs sur les points Bacnet du serveur": "",
+        "Plugin permettant de créer un device Bacnet\/Jeedom, y ajouter des commandes infos Jeedom, et l'exposer en Bacent": "",
         "Plugin permettant de piloter des équipements Bacnet\/IP": "Plugin zur Steuerung von Bacnet \/ IP-Geräten",
         "Seuls les plugins officiels ont leur documentation ici": "Nur offizielle Plugins haben hier ihre Dokumentation",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Sie können die Dokumentation der anderen Plugins direkt im Jeedom Market einsehen",
