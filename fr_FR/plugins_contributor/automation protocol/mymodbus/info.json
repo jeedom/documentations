@@ -9,11 +9,12 @@
 	"hasDependency" : 1,
 	"hasOwnDeamon" : 1,
 	"maxDependancyInstallTime" : 5,
-	"changelog" : "https://bebel27a.github.io/jeedom-mymobdus.github.io/#language#/changelog",
-	"documentation" : "https://bebel27a.github.io/jeedom-mymobdus.github.io/#language#/",
+	"changelog" : "https://mrwaloo.github.io/jeedom-plugins-doc/#language#/mymodbus_changelog",
+	"documentation" : "https://mrwaloo.github.io/jeedom-plugins-doc/#language#/mymodbus_doc",
+	"changelog_beta" : "https://mrwaloo.github.io/jeedom-plugins-doc/#language#/mymodbus_changelog",
+	"documentation_beta" : "https://mrwaloo.github.io/jeedom-plugins-doc/#language#/mymodbus_doc",
 	"link" : {
-		"forum":"https://community.jeedom.com/t/plugin-mymodbus/9395",
-		"video" : "Lien vers une video"
+		"forum":"https://community.jeedom.com/t/plugin-mymodbus/9395"
 	},
 	"language" : ["fr_FR"],
 	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
