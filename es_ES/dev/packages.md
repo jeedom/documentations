@@ -4,7 +4,7 @@
 
 # Exemples
 
-```json
+json
 {
   "apt" : {
     "git" : {},
@@ -35,30 +35,30 @@
     "script" : ""
   }
 }
-```
 
-```json
+
+json
 {
   "apt" : {
-    "libav-tools" : {"alternative" : ["ffmpeg"]},
-    "ffmpeg" : {"alternative" : ["libav-herramientas"]},
+    "libav-tools" : {"alternative" : "]},
+    "ffmpeg" : {"alternative" : "]},
     "python-pil" : {},
     "php-gd" : {}
   },
   "post-install" : {
-    "reiniciar_apache" : true
+    "" : true
   }
 }
-```
 
-```json
+
+json
 {
   "apt" : {
     "" : {},
-    "python3-pyudev" : {},
-    "solicitudes de python3" : {},
     "" : {},
-    "python3-dev" : {}
+    "" : {},
+    "" : {},
+    "" : {}
   },
   "pip3" : {
     "wheel" : {},
@@ -74,20 +74,20 @@
     "bellows" : {"reinstall" : true}
   }
 }
-```
 
-```json
+
+json
 {
   "apt" : {
     "nodejs" : {}
   },
   "npm" : {
-    "complementos/dyson/recursos/dysond"  : {}
+    ""  : {}
   }
 }
-```
 
- : ``apt``, ``nodejs (npm)`` , ``pip2`` Y ``pip3``, .
+
+ : ``apt``, `` (npm)`` , ``pip2``  ``pip3``, .
 
 . .
 

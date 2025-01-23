@@ -2,7 +2,7 @@
 
 ## 
 
--  [aquí](https://www.jeedom.com/site/fr/dev.html).
+-  [](https://www.jeedom.com/site/fr/dev.html).
 - .
 - ".
 - ).
@@ -57,8 +57,8 @@
     - .
     - 
     - .
-  - GitHub : .
-    - ). Vous pouvez le créer sur la page GitHub suivante : https://github..
+  -  : .
+    - ). Vous pouvez le créer sur la page  suivante : https://github..
     - .
     - .
     - ).
