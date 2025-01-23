@@ -18,7 +18,7 @@ Estos cambios todavía son compatibles con la versión 4.2 y pasará a **Obsolet
 - Eliminación de jwerty lib para vanillaJS (manejo de atajos de teclado)).
 - Uso de cambios en `showAlert` : `$('#div_alert').showAlert({` se convierte en `$.fn.showAlert({`. No hay cambios para la llamada de un modal. No es compatible con Core pre 4.2.
 
-- Método PHP `displayExeption` : `displayException` (utils.inc)
+- Método php `displayExeption` : `displayException` (utils.inc)
 - Método PHP `convertDayEnToFr` : `convertDayFromEn` (utils.inc)
 
 
@@ -88,7 +88,7 @@ Como referencia, la nueva función Core:
   {% endraw %}
   ~~~
 
-  Por lo tanto, puedes integrar el mismo tipo de retorno en tus complementos, función `deadCmd()`.
+  Por lo tanto, puede integrar el mismo tipo de retorno en sus complementos, función `deadCmd()`.
 
 </details>
 
@@ -255,7 +255,7 @@ Así podrás tener en cada *tarjeta de visualización* elementos que no se mostr
 
 </details>
 
-Aquí (complemento *jeeLog*) Los parámetros cron y log estarán ocultos en el modo normal pero visibles a la derecha en el modo tabla. También puedes inspirarte en las páginas de Core v4.2, en particular el de los escenarios que muestra el botón para abrir los registros.
+Aquí (complemento *jeeLog*) Los parámetros cron y log estarán ocultos en modo normal pero visibles a la derecha en modo tabla. También puedes inspirarte en las páginas de Core v4.2, en particular el de los escenarios que muestra el botón para abrir los registros.
 
 No olvide la clase "oculta" (no presente en las páginas Core) para que este elemento no se muestre en modo normal en Cores anteriores a 4.2.
 

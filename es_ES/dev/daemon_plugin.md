@@ -23,7 +23,7 @@ No existe una regla estricta sobre la ubicación exacta de su demonio, sin embar
 En el complemento de plantilla encontrará los conceptos básicos para implementar un demonio en Python y este es el ejemplo que usaremos en esta documentación; sin embargo, usted es libre de desarrollar su demonio en el lenguaje de su elección siempre que pueda ejecutarse en el [plataformas soportadas por Jeedom](/es_ES/compatibility/).
 La mayoría de los demonios del complemento Jeedom están en Python o NodeJs, pero también hay algunos en .netCore y ciertamente otras tecnologías.
 
-También encontrará algunos métodos útiles para un demonio nodeJs que quizás se detallen en una versión futura de esta documentación. Por ahora te invito a consultar la comunidad dev para alinearte con otros desarrolladores en todo lo relacionado con NodeJs, principalmente en la versión a usar.
+También encontrará algunos métodos útiles para un demonio nodeJs que quizás se detallarán en una versión futura de esta documentación. Por ahora te invito a consultar la comunidad dev para alinearte con otros desarrolladores en todo lo relacionado con NodeJs, principalmente en la versión a usar.
 
 Estructura del directorio de plantillas:
 
@@ -48,7 +48,7 @@ Para comenzar no necesitas conocer los detalles de implementación de estas clas
 #### clase jeedom_utils()
 
 Esta clase es un conjunto de métodos estáticos útiles como `convert_log_level` para convertir el nivel de registro recibido de jeedom en un nivel de registro de la clase de Python `logging` o `find_tty_usb` para devolver una lista de dispositivos en el sistema.
-No vamos a detallarlos todos aquí, el nombre de cada método es bastante explícito, los descubrirás sumergiéndote en el código.
+No los vamos a detallar todos aquí, el nombre de cada método es bastante explícito, los descubrirás sumergiéndote en el código.
 
 #### clase jeedom_serial()
 
@@ -78,7 +78,7 @@ Básicamente, utilizará `send_change_immediate()` al principio, lo que le permi
 
 Ahora que conocemos el entorno, podemos fijarnos en la parte que más nos interesa: el demonio y lo que tendremos que codificar.
 
-Por lo tanto, veremos en detalle el esqueleto de un demonio propuesto por Jeedom, abra el archivo `demond.py` y comenzaremos con las últimas líneas que de hecho son el inicio del programa:
+Por lo tanto, veremos en detalle el esqueleto de un demonio propuesto por Jeedom, abra el archivo `demond.py` y comenzaremos con las últimas líneas que de hecho son el comienzo del programa:
 
 ```python
 _log_level = "error"
@@ -245,7 +245,7 @@ El método `read_socket()`
 
 ```python
 def read_socket():
-    JEEDOM_SOCKET_MESSAGE global
+    JEEDOM_SOCKET_MESSAGE globales
     si no es JEEDOM_SOCKET_MESSAGE.empty():
         logging.debug("Mensaje recibido en el socket JEEDOM_SOCKET_MESSAGE")
         mensaje = json.loads(jeedom_utils.stripped(JEEDOM_SOCKET_MESSAGE.get()))
@@ -297,7 +297,7 @@ Veremos el uso de `hasDependency` y `maxDependancyInstallTime` más adelante.
 
 ### Administrar el demonio en su clase eqLogic
 
-En la clase eqLogic de su complemento hay algunos métodos a implementar para la gestión adecuada del demonio.
+En la clase eqLogic de su complemento existen algunos métodos a implementar para la gestión adecuada del demonio.
 
 #### Función demon_info()
 
@@ -423,7 +423,7 @@ Por tanto, es necesario gestionar el equivalente en el lado PHP.
 Esta función no existe en el núcleo y no es estándar para todos los complementos de Jeedom, tampoco es obligatoria.
 Esta es la función que uso (@Mips) en cada uno de mis plugins teniendo un demonio, la pongo aquí y puedes hacer lo que quieras con él;-)
 
-Por lo tanto, recibe una matriz de valores como parámetro y se encarga de enviarla al socket del demonio que, por lo tanto, puede leer esta matriz en el método `read_socket()` que vimos anteriormente.
+Por lo tanto, recibe una matriz de valores como parámetro y se encarga de enviarlo al socket del demonio que, por lo tanto, puede leer esta matriz en el método `read_socket()` que vimos anteriormente.
 
 ```php
     función estática pública sendToDaemon($params) {
@@ -725,9 +725,9 @@ En tu clase eqLogic debes agregar esta función si no existe. Puedes copiar/pega
 Esta función comienza eliminando el registro de la instalación anterior, si existía, y luego devolverá al núcleo el comando del script a ejecutar y la ubicación del registro.
 
 Tenga en cuenta que el archivo de script devuelto se denomina `install_#stype#.sh`. De hecho, `#stype#`será reemplazado dinámicamente por el núcleo con la herramienta de administración de paquetes que se utilizará según el sistema en el que esté instalado Jeedom. Entonces `#stype#`será reemplazado por `apt` en un sistema Debian.
-Esto hace posible ofrecer scripts de instalación de dependencias para varios sistemas y, por lo tanto, admitir algo distinto de Debian/apt, que es el mínimo indispensable y el único que administraremos aquí.
+Esto hace posible ofrecer scripts de instalación de dependencias para varios sistemas y, por lo tanto, admitir algo distinto de Debian/apt, que es el mínimo imprescindible y el único que gestionaremos aquí.
 
-El primer argumento: `jeedom::getTmpFolder(__CLASS__) . '/dependence'` es el archivo utilizado para rastrear el progreso de la instalación (el porcentaje que aparece en la pantalla durante la instalación).
+El primer argumento: `jeedom::getTmpFolder(__CLASS__) . '/dependence'` es el archivo utilizado para monitorear el progreso de la instalación (el porcentaje que aparece en la pantalla durante la instalación).
 
 Eso es todo por la parte de php, ahora tienes que crear el script en `./resources/install_apt.sh` y obviamente el contenido del script dependerá de tu complemento y de los paquetes que quieras instalar.
 
@@ -790,7 +790,7 @@ si [ ! -z$1 ]; entonces
 fi
 ```
 
-Líneas como `echo 60 > ${PROGRESS_FILE}` obviamente se usan para devolver el progreso: Para tranquilizar al usuario, lo agregamos regularmente hasta llegar a 100 (normalmente se estresan cuando supera 100, así que evitamos).
+Líneas como `echo 60 > ${PROGRESS_FILE}` obviamente se usan para devolver el progreso: Para tranquilizar al usuario, lo agregamos regularmente hasta llegar a 100 (normalmente se estresan cuando supera 100, por lo que evitamos).
 
 Algunos consejos:
 

@@ -1,6 +1,6 @@
 # Description
 
-De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias de sus complementos al núcleo. Es bastante simple, solo crea un archivo ``packages.json`` En ``plugin_info``.
+..  ``packages.json``  ``plugin_info``.
 
 # Exemples
 
@@ -32,7 +32,7 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
     "tornado" : {}
   },
   "post-install" : {
-    "script" : "complementos/openzwave/resources/post-install.sh"
+    "script" : ""
   }
 }
 ```
@@ -54,10 +54,10 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
 ```json
 {
   "apt" : {
-    "python3-pip" : {},
+    "" : {},
     "python3-pyudev" : {},
     "solicitudes de python3" : {},
-    "herramientas de configuración de python3" : {},
+    "" : {},
     "python3-dev" : {}
   },
   "pip3" : {
@@ -87,13 +87,13 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
 }
 ```
 
-Actualmente gestiona : ``apt``, ``nodejs (npm)`` , ``pip2`` Y ``pip3``, con la posibilidad de iniciar scripts previos y posteriores a la instalación y solicitar un reinicio de Apache en la publicación.
+ : ``apt``, ``nodejs (npm)`` , ``pip2`` Y ``pip3``, .
 
-Si el archivo está presente, el núcleo SÓLO se basa EN ESTE, ignora las funciones `dependancy_info` y `dependancy_install`. Por lo tanto, solo calculará si hay paquetes para instalar o no desde este archivo json.
+. .
 
 ## Nodejs
 
-Para nodejs es un poco especial, cualquier solicitud de nodejs o npm se ignora para instalar nodejs v12 sea cual sea la plataforma. Entonces hay 2 posibilidades :
+.  :
 
-- es un nombre de paquete en este caso se instala globalmente en el sistema
-- es una ruta en este caso jeedom se coloca en el directorio en cuestión y lanza una instalación npm (con eliminación del directorio ``node_modules``)
+- 
+-  ``node_modules``)

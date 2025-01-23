@@ -10,7 +10,7 @@ El núcleo 4.4 integra por lo tanto las funciones básicas setValues() y getValu
 
 Para una transición más fácil y un mejor mantenimiento, las nuevas funciones **getValues()** Y **setValues()** en el DOM están ahora **setJeeValues()** Y **getJeeValues()**.
 
-Además, todas las llamadas **Ájax**, sync o async, pasa por funciones js puras desarrolladas internamente para Core. *load()* Y *html()* por lo tanto, son utilizados por todas las clases js y por la función jeedomUtils.loadPage(). Esto permite controlar todo lo que sucede sin una capa de abstracción y, entre otras cosas, permite filtrar todos los scripts js y hojas de estilo css provenientes de terceros (núcleo y complementos) para cargarlos en el documento.cabeza y no recargarlos después !
+Además, todas las llamadas **Ájax**, sync o async, pasa por funciones js puras desarrolladas internamente para Core. *load()* Y *html()* por lo tanto, son utilizados por todas las clases js y por la función jeedomUtils.loadPage(). Esto permite controlar todo lo que sucede sin una capa de abstracción y, entre otras cosas, permitió filtrar todos los scripts js y hojas de estilo css provenientes de terceros (core y complementos) para cargarlos en el documento.cabeza y no recargarlos después !
 
 La gestión de *eventos* también pasará gradualmente a js puro. Las paginas **Síntesis** **Panel** **Diseño** Y **Guión** ya estan en full js con delegación de eventos.
 
@@ -46,8 +46,8 @@ Algunos ejemplos:
   addMyTr: función (_datos) {
     vartr='>'
     tr+='>'
-    tr+= '>'
-    tr+= '>'
+    tr+='>'
+    tr+='>'
     dejar nuevaFila = $(tr)
     newRow.setValues(datos, '.mytrDataAttr')
     $('#table_stuff tbody').append(newRow)
@@ -58,8 +58,8 @@ Algunos ejemplos:
   addMyTr: función (_datos) {
     vartr='>'
     tr+='>'
-    tr+= '>'
-    tr+= '>'
+    tr+='>'
+    tr+='>'
     let newRow = document.createElement('tr')
     nuevaFila.innerHTML = tr
     newRow.setJeeValues(_data, '.mytrDataAttr')
@@ -107,13 +107,13 @@ Funciones DOM específicas del núcleo:
 
 #### jQuery Toastr / Información sobre herramientas
 
-La biblioteca *tostada* fue eliminado del núcleo. Fue utilizado a través de las funciones jeedomUtils.showAlert() y hideAlert() y fue reemplazado por la función interna Core jeeDialog.toast().
+La biblioteca *tostada* fue eliminado del núcleo. Fue utilizado a través de funciones jeedomUtils.showAlert() y hideAlert() y fue reemplazado por la función interna Core jeeDialog.toast().
 
 La biblioteca Tooltipster, que depende de jQuery, también ha sido reemplazada por la biblioteca Tippy js. Usando jeedomUtils.initTooltips() por complementos no cambia.
 
 #### jQuery selector de fecha y hora
 
-La biblioteca *selector de fecha y hora* fue eliminado del núcleo. Fue utilizado a través de las funciones jeedomUtils.datePickerInit() y dateTimePickerInit() y fue reemplazado por la biblioteca [recogedor plano](https://flatpickr.js.org/).
+La biblioteca *selector de fecha y hora* fue eliminado del núcleo. Fue utilizado a través de funciones jeedomUtils.datePickerInit() y dateTimePickerInit() y fue reemplazado por la biblioteca [recogedor plano](https://flatpickr.js.org/).
 
 Las funciones principales gestionan el tema *recogedor plano* y el idioma de la lib dependiendo del idioma del Core.
 
@@ -185,7 +185,7 @@ Como recordatorio:
 
 #### Autocompletar jQuery
 
-La biblioteca Autocompletar, que depende de jQuery, se eliminará en una versión futura de Core. Se reemplaza por la función interna del Core **input.jeeCompleto()**. Esto soporta la mayoría de las opciones anteriores (fuente en ajax, etc.), pero corrige varios defectos, trae nuevos comportamientos (flechas arriba y abajo para seleccionar una propuesta, etc.) y permite el uso de un único contenedor para varias entradas, reduciendo enormemente el impacto en el DOM, en particular en los escenarios.
+La biblioteca Autocompletar, que depende de jQuery, se eliminará en una versión futura de Core. Se reemplaza por la función interna del Core **input.jeeCompleto()**. Esto soporta la mayoría de las opciones anteriores (fuente en ajax, etc.), pero corrige varios defectos, trae nuevos comportamientos (flechas arriba y abajo para seleccionar una propuesta, etc.) y permite el uso de un solo contenedor para varias entradas, reduciendo enormemente el impacto en el DOM, en particular en los escenarios.
 
 <details>
 

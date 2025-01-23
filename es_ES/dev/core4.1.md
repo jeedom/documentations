@@ -11,7 +11,7 @@
 - La función ajax::init()` acepta una matriz de "acción" como parámetro desde v4 y desde v4.1 verifica si la acción recibida en la cadena de consulta (con una solicitud GET) aparece en esta tabla, si este no es el caso, la solicitud se bloquea.
 Tenga cuidado, en V3 el argumento opcional era booleano; entonces es posible hacer código compatible con v4.0 y superior pero no con v3.
 ````php
-  /* Función que permite el envío del encabezado 'Content-Type': aplicación/json'
+  /* Función que permite el envío del 'encabezado Content-Type: aplicación/json'
     En V3 : indicar el argumento 'verdadero' para controlar el token de acceso de Jeedom
     En V4 : autorizar la ejecución de un método de 'acción' en GET indicando el(los) nombre(s) de la(s) acción(es) en una matriz como argumento
   */  
