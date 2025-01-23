@@ -2,8 +2,21 @@
 
 >**IMPORTANTE**
 >
+> 18/11/2024
+> Esta nueva Beta ahora brinda soporte para múltiples puertas de enlace : Servidor web, Aidoo ..
+> Ahora puedes configurar múltiples dispositivos
+> Esto significa que al instalar esta versión, deberá eliminar cualquier equipo existente antes de esta actualización.
+> Simplemente cree el equipo de puerta de enlace y el equipo de zona se creará automáticamente
+
+
+>**IMPORTANTE**
+>
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+
+## 
+
+- 
 
 ## 18/11/2024
 
