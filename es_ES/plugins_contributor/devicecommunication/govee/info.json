@@ -7,10 +7,10 @@
 	"require" : "4.2",
 	"category" : "devicecommunication",
 	"hasDependency" : false,
-	"changelog" : "https://youdom.net/plugin-govee-changelog/",
-	"documentation" : "https://youdom.net/plugin-govee-with-youdom/",
-	"changelog_beta" : "https://youdom.net/plugin-govee-changelog/",
-	"documentation_beta" : "https://youdom.net/plugin-govee-with-youdom/",
+	"changelog" : "",
+	"documentation" : "",
+	"changelog_beta" : "",
+	"documentation_beta" : "",
 	"language" : ["fr_FR"],
 	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
 }

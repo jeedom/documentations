@@ -6,9 +6,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 06/01/2025 (Beta)
+# 22/01/2025 (Beta)
 
 - Regénération de l'équipement dans Chirpstack avec le bouton "Regénérer la configuration LoRaWAN"
+
+- Gestion du fPort
+
+- *Dragino LHT65* ajout du Set Transmit Interval
 
 # 31/12/2024
 
