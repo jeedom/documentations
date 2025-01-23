@@ -14,9 +14,9 @@
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
 
-## 
+## 23/01/2025
 
-- 
+- Ajout Option à cocher si l'equipement est un WebServer
 
 ## 18/11/2024
 
