@@ -3,7 +3,7 @@
         "Niren TcpKpI8O8": "Niren TcpKpI8O8",
         "Plugin tcpkp pour la gestion des cartes entrees sorties Niren tcpkp": "Tcpkp plugin for managing Niren tcpkp I\/O cards",
         "D'autre type de carte pourrait être ajouté à la demande": "Other type of card could be added upon request",
-        "Lecture et écriture en Modbus": "",
+        "Lecture et écriture en Modbus": "Lecture et écriture en Modbus",
         "Modbus TCP Server": "Modbus TCP Server",
         "Plugin transformant votre Jeedom en seveur modbus TCP": "Plugin transforming your Jeedom into a modbus TCP server",
         "Modbus2MQTT": "Modbus2MQTT",
