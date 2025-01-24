@@ -14,6 +14,8 @@
 
 - *Dragino LHT65* ajout du Set Transmit Interval
 
+- *Dragino RS485-LN + NILAN* correction du décodeur
+
 # 31/12/2024
 
 - Ajout de la configuration *NKE Torano*

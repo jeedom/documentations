@@ -4,7 +4,7 @@
         "Plugin tcpkp pour la gestion des cartes entrees sorties Niren tcpkp": "Plugin tcpkp pour la gestion des cartes entrees sorties Niren tcpkp",
         "D'autre type de carte pourrait être ajouté à la demande": "D'autre type de carte pourrait être ajouté à la demande",
         "MyModbus": "MyModbus",
-        "Plugin pour la gestion de matériel qui ont le protocol ModBus": "Plugin pour la gestion de matériel qui ont le protocol ModBus",
+        "Lecture et écriture en Modbus": "Lecture et écriture en Modbus",
         "Modbus TCP Server": "Modbus TCP Server",
         "Plugin transformant votre Jeedom en seveur modbus TCP": "Plugin transformant votre Jeedom en seveur modbus TCP",
         "Modbus2MQTT": "Modbus2MQTT",
