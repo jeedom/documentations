@@ -31,7 +31,7 @@
 	],
 	"changelog": "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog",
 	"documentation": "https://jealg.github.io/documentation/plugin-rosee/#language#/",
-	"changelog_beta": "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog_beta",
+	"changelog_beta": "https://jealg.github.io/documentation/plugin-rosee/#language#/beta_changelog",
 	"documentation_beta": "https://jealg.github.io/documentation/plugin-rosee/#language#/",
 	"link": {
 		"forum": "https://community.jeedom.com/tag/plugin-rosee"
