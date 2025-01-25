@@ -6,7 +6,7 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
-# 22/01/2025 (Beta)
+# )
 
 - Regenerating equipment in Chirpstack with the "Regenerate LoRaWAN configuration" button"
 
@@ -14,7 +14,11 @@
 
 - *Dragino LHT65* ajout du Set Transmit Interval
 
-- *Dragino RS485-LN + NILAN* 
+- *Dragino RS485-LN + NILAN* correction du décodeur
+
+- ** 
+
+- 
 
 # 12/31/2024
 
