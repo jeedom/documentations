@@ -1,0 +1,30 @@
+{
+  "id" : "klereo",
+  "name" : "Klereo",
+  "description" : {
+    "fr_FR": "Communication avec le module Klereo connect pour gérer votre piscine",
+    "en_US": "Communication with the Klereo connect module to manage your pool",
+    "de_DE": "Kommunikation mit dem Klereo connect Modul um Ihren Pool zu verwalten"
+  },
+  "licence" : "GPL",
+  "author" : "Michel_F",
+  "require" : "4.2",
+  "category" : "wellness",
+  "hasDependency" : false,
+  "hasOwnDeamon" : false,
+  "changelog" : "https://mrwaloo.github.io/jeedom-plugins-doc/#language#/klereo_changelog",
+  "documentation" : "https://mrwaloo.github.io/jeedom-plugins-doc/#language#/klereo_doc",
+  "changelog_beta" : "https://mrwaloo.github.io/jeedom-plugins-doc/#language#/klereo_changelog",
+  "documentation_beta" : "https://mrwaloo.github.io/jeedom-plugins-doc/#language#/klereo_doc",
+  "languages" : ["fr_FR"],
+    "compatibility": [
+      "miniplus",
+      "smart",
+      "rpi",
+      "docker",
+      "diy",
+      "atlas",
+      "luna",
+      "v4"
+    ]
+}
