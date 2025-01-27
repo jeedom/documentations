@@ -30,7 +30,7 @@
 	],
 	"changelog": "https://jealg.github.io/documentation/plugin-horoscope/#language#/changelog",
 	"documentation": "https://jealg.github.io/documentation/plugin-horoscope/#language#/",
-	"changelog_beta": "https://jealg.github.io/documentation/plugin-horoscope/#language#/changelog_beta",
+	"changelog_beta": "https://jealg.github.io/documentation/plugin-horoscope/#language#/beta_changelog",
 	"documentation_beta": "https://jealg.github.io/documentation/plugin-horoscope/#language#/",
 	"link": {
 		"forum": "https://community.jeedom.com/tag/plugin-horoscope"

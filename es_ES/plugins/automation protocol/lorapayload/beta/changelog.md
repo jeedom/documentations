@@ -6,9 +6,19 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
-# 01/06/2025 (Beta)
+# )
 
 - Regenerando el equipo en Chirstack con el botón “Regenerar configuración LoRaWAN”"
+
+- Gestion du fPort
+
+- *Dragino LHT65* ajout du Set Transmit Interval
+
+- *Dragino RS485-LN + NILAN* correction du décodeur
+
+- ** 
+
+- 
 
 # 31/12/2024
 

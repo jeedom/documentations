@@ -1,133 +1,114 @@
-# BacnetManager
+# Documentation du Plugin BacnetManager
 
-# Description
+>**IMPORTANTE**
+>
+>Le plugin BacnetManager n'est pas compatible avec le plugin officiel Jeedom Bacnet. Une seule instance Bacnet peut être créée sur une box Jeedom.
 
-El complemento BacnetManager le permite crear equipos Bacnet para su Jeedom, así como sus comandos Jeedom, para que un supervisor Bacnet los vea en la red
+
+# <span style="color: #95C12A;">Description</span>
+
+Le plugin BacnetManager permet de créer un équipement Bacnet sur votre Jeedom, ainsi que ses commandes d'information (« Infos Jeedom »), afin qu'il soit visible sur le réseau par un superviseur Bacnet. Il permet également d'associer des commandes d'action (« Actions Jeedom ») provenant d'autres plugins, pour piloter Jeedom via Bacnet lorsque des écritures sont détectées sur ces points Bacnet.
 
 
 
-# Configuración del complemento
 
-Después de descargar el complemento, primero debe activarlo, como cualquier complemento Jeedom :
+# <span style="color: #95C12A;">Configuration du plugin</span>
+
+Après avoir téléchargé le plugin, commencez par l'activer depuis la gestion des plugins Jeedom.
 
 ![config](../images/BacnetManagerConfig.png)
 
-Luego, hay que iniciar la instalación de las dependencias (aunque aparezcan OK) :
+Ensuite, lancez l'installation des dépendances, même si elles apparaissent comme « OK ».
 
 ![dependances](../images/BacnetManagerDep.png)
 
-Finalmente, inicie el demonio :
+Enfin, démarrez le démon depuis la page de configuration.
 
 ![demon](../images/BacnetManagerDemon.png)
 
 
-Rien n'est à modifier dans le champ « Port socket interne » de la section « Configuration ».
+Port socket interne : Ne modifiez pas ce champ dans la section « Configuration ».
 
 ![socket](../images/BacnetManagerConfig.png)
 
 
-En esta misma pestaña, debes elegir el valor de Cron para actualizar tu equipo.
+Cron : Configurez la fréquence du cron, qui permettra de lire les valeurs des points Bacnet pour détecter d'éventuelles écritures externes.
 
 
 
 
-# Cómo funciona el complemento ?
+# <span style="color: #95C12A;">Fonctionnement du plugin</span>
 
 
 
 
->**IMPORTANTE**
+>**Pré-requis**
 >
->Su equipo BACNET debe estar en la misma red que su Jeedom para ser detectado por él.
+>Réseau : Vos équipements Bacnet doivent être sur le même réseau que votre Jeedom pour être détectés.
 
 
-De forma predeterminada, se crea un dispositivo jeeBacnetManager; Es este equipo 'bacnet' el que será visto por su supervisor Bacnet en la red
+#### <u>Création de l'équipement jeeBacnetManager</u>
+
+Par défaut, un équipement nommé jeeBacnetManager est créé. Cet équipement représente le « serveur Bacnet » qui sera visible par votre superviseur Bacnet.
 
 Puede configurar su deviceId en la configuración del complemento
 
 ![menu](../images/BacnetManagerConfig.png)
 
+#### <u>Ajout de commandes Jeedom au jeeBacnetManager</u>
 
-Para agregar comandos Jeedom a su jeeBacnetManager, haga clic en Agregar comandos al servidor :
+
+
+Cliquez sur Ajouter Commandes au Serveur.
 
 ![accueil](../images/BacnetManagerAccueil.png)
 
-
-Se abrirá un modal, donde aparecerán todos los comandos de tipo Info presentes en los diferentes plugins de tu jeedom.
-
-
->**IMPORTANTE**
->
->Su equipo debe estar Activo para que los comandos sean detectados en este modal.
-
-
-También debe nombrar el pedido, rellenando el campo previsto a tal efecto. 
-No ponga espacios en el nombre del comando
-
-![syntaxCmds](../images/BacnetManagersyntax.png)
-
-Todo lo que tienes que hacer es buscar los que quieras y Validar.
-
+Une fenêtre modale s'ouvre, listant toutes les commandes de type « Infos » présentes dans les différents plugins de votre Jeedom.
 
 ![accueil](../images/BacnetManagerModale.png)
-
-
-Se creará el dispositivo bacnet con el ID de instancia que ha elegido y aparecerá en su red.
-
-
-Para actualizar los valores necesitas configurar el cron en la configuración del plugin.
-
-![accueil](../images/BacnetManagerConfig.png)
-
-
-
-Para borrar comandos del Servidor, debe ir a los comandos del equipo, y simplemente Borrar los que desee y luego guardar.
-
-
-
-También puede eliminar el dispositivo de la red, así como sus puntos bacnet, haciendo clic en Eliminar el jeeBacnetManager.
-
-
-![accueil](../images/BacnetManagerReinit.png)
-
-
-
-
-# Configuración de pedidos :
-
-
-Para cambiar la unidad de los puntos bacnet, y verlos aparecer en la red, deberá elegir la unidad en el menú Seleccionar dispuesto a tal efecto en los mandos.
-Los comandos Jeedom de tipo 'cadena' no tienen que seleccionar unidades.
-
-
-En la red bacnet, las instancias de los puntos utilizarán los nombres de los comandos especificados en el campo del modal Adiciones de comandos.
-
-
-
-También se proporciona una función de cálculo posterior : 
-si elige completar este postCalcul, entonces el valor inyectado en el dispositivoBacnet habrá tomado el valor inicial para cargarse con el cálculo especificado
-
-Puedes por ejemplo :
-
-#value# * 10
-
-
-Esto tomará el valor inicial del comando cargado, luego lo multiplicará por 10 antes de actualizarlo en la instancia de jeeServer
-
-Ejemplo :
-
-![accueil](../images/BacnetManagerPost.png)
-
-
-
 >**IMPORTANTE**
 >
->Encontrará todos los comandos existentes en el jeeServer en la pantalla del complemento, haciendo clic en Cmds JeeServer
+>Les équipements doivent être actifs pour que leurs commandes soient détectées.
+>Évitez d'utiliser des espaces dans les noms des commandes.
 
 
-![accueil](../images/BacnetManagerAccueil.png)
+>**FACULTATIF**
+>
+>Remplissez le champ « Nom de point Bacnet » (facultatif). Si ce champ est vide, le nom de la commande Jeedom sera utilisé comme nom du point Bacnet.
 
-![cmdExist](../images/BacnetManagerCmdsExit.png)
+Sélectionnez les commandes souhaitées, puis validez.
+
+Après validation, quittez la fenêtre et cliquez sur Cmds Jeed Server pour afficher la liste des commandes ajoutées.
+
+
+#### <u>Points Bacnet créés</u>
+Cette modale va s'afficher :
+
+![accueil](../images/BacnetManagerConfigCmds.png)
+
+Pour chaque commande ajoutée, deux points Bacnet sont créés :
+
+- Commande « info » : Mise à jour via le cron pour le monitoring.
+
+- Commande « Write » : Utilisée pour détecter les écritures depuis un équipement Bacnet. Si une écriture est détectée, la commande d'action associée est exécutée.
+
+#### <u>Paramétrage des Commandes</u>
+ 
+
+1. **Elección de acción de comando** : Seleccione un comando de acción según el complemento elegido.
+2. **Valor inicial** : Establezca un valor inicial para inicializar el punto Bacnet por primera vez.
+3. **Usar valor Bacnet** : Marque esta opción para utilizar el valor Bacnet. Si esta opción no está marcada deberás rellenar el campo "Valor a enviar a la acción"".
+
+
+#### <u>Mise à jour des valeurs</u>
+
+Configurez la fréquence du cron dans la configuration du plugin pour actualiser les valeurs.
+
+![accueil](../images/BacnetManagerConfig.png)
+Al ejecutar el cron, el sistema comprobará si ha habido un cambio de valor en el punto Bacnet (escribiendo). En ese momento, enviará este valor de Bacnet o el valor ingresado en "Enviar a acción" al comando de acción parametrizada.
+
+Une fois toutes les commandes configurées, on envoie toutes ces commandes sur le device Bacnet, en cliquant sur Envoyer au Serveur
+
 
 
 # Importar/Exportar jeeBacnetManager (próximamente)):
@@ -408,19 +389,3 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 
 
 
-
-### Configuración del complemento
-
-#### Modo avanzado
-
-Al activar el **Modo avanzado**, el cron configurado ya no recuperará los valores de los comandos Jeedom para actualizarlos en el servidor. En su lugar, comprobará si se ha realizado una escritura en el servidor y ejecutará los comandos de Acciones de los diferentes complementos configurados con el valor escrito en el punto Bacnet o el valor proporcionado (consulte el modo CmdsJeeServer)).
-
-#### Configuración de pedidos
-
-Como es habitual, después de haber configurado los comandos de tipo Info, es necesario ir al modal **CmdsJeeServer** para configurar y enviar comandos al servidor.
-
-1. **Elección de acción de comando** : Seleccione un comando de acción según el complemento elegido.
-2. **Valor inicial** : Establezca un valor inicial para inicializar el punto Bacnet por primera vez.
-3. **Usar valor Bacnet** : Marque esta opción para utilizar el valor Bacnet. Si esta opción no está marcada deberás rellenar el campo "Valor a enviar a la acción"".
-
-Al ejecutar el cron, el sistema comprobará si ha habido un cambio de valor en el punto Bacnet (escribiendo). En ese momento, enviará este valor de Bacnet o el valor ingresado en "Enviar a acción" al comando de acción parametrizada.

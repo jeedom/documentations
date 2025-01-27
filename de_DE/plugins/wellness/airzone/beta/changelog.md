@@ -2,8 +2,21 @@
 
 >**WICHTIG**
 >
+> 18.11.2024
+> Diese neue Beta bietet jetzt Multi-Gateway-Unterstützung : Webserver, Aidoo ..
+> Sie können jetzt mehrere Geräte konfigurieren
+> Das bedeutet, dass Sie bei der Installation dieser Version vor diesem Update alle vorhandenen Geräte löschen müssen.
+> Erstellen Sie einfach die Gateway-Ausrüstung und die Zonenausrüstung wird automatisch erstellt
+
+
+>**WICHTIG**
+>
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+
+## 23/01/2025
+
+- Ajout Option à cocher si l'equipement est un WebServer
 
 ## 18.11.2024
 

@@ -1,18 +1,14 @@
-# Registro de alterações bacnetManager
-
-# Registro de alterações bacnetManager
-
-# Log de alterações BACnetServer
+# Changelog BacnetManager
 
 
 # 09/09/2024
 - Adicionado modo avançado : Detecção de gravação externa no servidor, para então executar comandos de ação no Jeedom
 
 # 09/07/2024
-- Redesenho Modal UX cmds jeeBacnetServer
+- Redesenho Modal UX cmds jeeBacnetManager
 - Capacidade de ignorar o campo de nome para renomear no servidor
 
-# 09/08/2022
+# 08/09/2022
 - Função PostCalculate
 
 # 26/08/2022

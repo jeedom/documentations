@@ -1,8 +1,8 @@
-# BACnetServer Changelog
+# Changelog BacnetManager
 
 
-# 09/09/2024
-- Added Advanced Mode : External Writing Detection on the server, then execute Actions commands on Jeedom
+# 22/01/2025
+- Ajout Documentation
 
 
 

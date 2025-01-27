@@ -2,8 +2,21 @@
 
 >**IMPORTANTE**
 >
+> 18/11/2024
+> Este novo Beta agora oferece suporte a vários gateways : Servidor Web, Aidoo ..
+> Agora você pode configurar vários dispositivos
+> Isso significa que ao instalar esta versão, você precisará excluir qualquer equipamento existente antes desta atualização.
+> Basta criar o equipamento gateway e o equipamento Zona será criado automaticamente
+
+
+>**IMPORTANTE**
+>
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+
+## 23/01/2025
+
+- Ajout Option à cocher si l'equipement est un WebServer
 
 ## 18/11/2024
 

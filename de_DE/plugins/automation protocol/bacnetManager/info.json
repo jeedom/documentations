@@ -2,16 +2,16 @@
     "id": "bacnetManager",
     "name": "BacnetManager",
     "description": {
-        "fr_FR": "Plugin permettant de créér un device Bacnet, d'y ajouter des commandes infos Jeedom en point Bacnet, et ainsi lire ou écrire sur ce device Bacnet depuis n'importe quel autre client bacnet",
-        "en_US": "Plugin to create a Bacnet device, add Jeedom info commands to it at a Bacnet point, and thus read or write to this Bacnet device from any other Bacnet client",
-        "es_ES": "Complemento que le permite crear un dispositivo Bacnet, agregarle comandos de información Jeedom en Bacnet Point y, por lo tanto, leer o escribir en este dispositivo Bacnet desde cualquier otro cliente Bacnet",
-        "de_DE": "Plugin, mit dem Sie ein Bacnet-Gerät erstellen, ihm im Bacnet-Punkt Jeedom-Infobefehle hinzufügen und so von jedem anderen Bacnet-Client aus auf dieses Bacnet-Gerät lesen oder schreiben können",
-        "ru_RU": "Plugin permettant de créér un device Bacnet, d'y ajouter des commandes infos Jeedom en point Bacnet, et ainsi lire ou écrire sur ce device Bacnet depuis n'importe quel autre client bacnet",
-        "id_ID": "Plugin permettant de créér un device Bacnet, d'y ajouter des commandes infos Jeedom en point Bacnet, et ainsi lire ou écrire sur ce device Bacnet depuis n'importe quel autre client bacnet",
-        "it_IT": "Plugin permettant de créér un device Bacnet, d'y ajouter des commandes infos Jeedom en point Bacnet, et ainsi lire ou écrire sur ce device Bacnet depuis n'importe quel autre client bacnet",
-        "ja_JP": "Plugin permettant de créér un device Bacnet, d'y ajouter des commandes infos Jeedom en point Bacnet, et ainsi lire ou écrire sur ce device Bacnet depuis n'importe quel autre client bacnet",
-        "pt_PT": "Plugin que permite criar um dispositivo Bacnet, adicionar comandos de informações do Jeedom a ele no ponto Bacnet e, assim, ler ou gravar neste dispositivo Bacnet a partir de qualquer outro cliente Bacnet",
-        "tr": "Plugin permettant de créér un device Bacnet, d'y ajouter des commandes infos Jeedom en point Bacnet, et ainsi lire ou écrire sur ce device Bacnet depuis n'importe quel autre client bacnet"
+        "fr_FR": "Le plugin BacnetManager permet de créer un équipement Bacnet sur votre Jeedom, ainsi que ses commandes d'information (« Infos Jeedom »), afin qu'il soit visible sur le réseau par un superviseur Bacnet. Il permet également d'associer des commandes d'action (« Actions Jeedom ») provenant d'autres plugins, pour piloter Jeedom via Bacnet lorsque des écritures sont détectées sur ces points Bacnet.",
+        "en_US": "Plugin to create a Bacnet\/Jeedom device, add Jeedom info commands to it, and expose it in Bacent. You can also control Jeedom Actions commands after value changes on the server's Bacnet points.",
+        "es_ES": "Complemento que le permite crear un dispositivo Bacnet\/Jeedom, agregar comandos de información de Jeedom y exponerlo en Bacent. También puede controlar los comandos de Jeedom Actions después de cambios en los valores en los puntos Bacnet del servidor.",
+        "de_DE": "Plugin, mit dem Sie ein Bacnet\/Jeedom-Gerät erstellen, Jeedom-Infobefehle hinzufügen und es in Bacent verfügbar machen können. Sie können Jeedom Actions-Befehle auch nach Wertänderungen an den Bacnet-Punkten des Servers steuern.",
+        "ru_RU": "Plugin permettant de créer un device Bacnet\/Jeedom, y ajouter des commandes infos Jeedom, et l'exposer en Bacent. On peut également piloter des commandes Actions Jeedom après des changements de valeurs sur les points Bacnet du serveur.",
+        "id_ID": "Plugin permettant de créer un device Bacnet\/Jeedom, y ajouter des commandes infos Jeedom, et l'exposer en Bacent. On peut également piloter des commandes Actions Jeedom après des changements de valeurs sur les points Bacnet du serveur.",
+        "it_IT": "Plugin permettant de créer un device Bacnet\/Jeedom, y ajouter des commandes infos Jeedom, et l'exposer en Bacent. On peut également piloter des commandes Actions Jeedom après des changements de valeurs sur les points Bacnet du serveur.",
+        "ja_JP": "Plugin permettant de créer un device Bacnet\/Jeedom, y ajouter des commandes infos Jeedom, et l'exposer en Bacent. On peut également piloter des commandes Actions Jeedom après des changements de valeurs sur les points Bacnet du serveur.",
+        "pt_PT": "Plugin que permite criar um dispositivo Bacnet\/Jeedom, adicionar comandos de informações do Jeedom e expô-lo no Bacent. Você também pode controlar os comandos do Jeedom Actions após alterações nos valores dos pontos Bacnet do servidor.",
+        "tr": "Plugin permettant de créer un device Bacnet\/Jeedom, y ajouter des commandes infos Jeedom, et l'exposer en Bacent. On peut également piloter des commandes Actions Jeedom après des changements de valeurs sur les points Bacnet du serveur."
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -25,10 +25,16 @@
     "language": [
         "fr_FR",
         "en_US",
-        "es_ES"
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
-        "miniplus",
         "smart",
         "rpi",
         "atlas",

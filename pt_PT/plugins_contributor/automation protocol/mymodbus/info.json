@@ -1,20 +1,28 @@
 {
 	"id" : "mymodbus",
 	"name" : "MyModbus",
-	"description" : "Plugin pour la gestion de matériel qui ont le protocol ModBus",
+	"description" : {
+		"fr_FR": "Lecture et écriture en Modbus"
+	},
 	"licence" : "AGPL",
-	"author" : "Bebel27",
-	"require" : "3.3",
+	"author" : "Michel_F",
+	"require" : "4.4",
+	"os" : {
+		"min" : 11,
+		"max" : ""
+	},
 	"category" : "automation protocol",
-	"hasDependency" : 1,
-	"hasOwnDeamon" : 1,
-	"maxDependancyInstallTime" : 5,
-	"changelog" : "https://bebel27a.github.io/jeedom-mymobdus.github.io/#language#/changelog",
-	"documentation" : "https://bebel27a.github.io/jeedom-mymobdus.github.io/#language#/",
+	"hasDependency" : true,
+	"hasOwnDeamon" : true,
+	"maxDependancyInstallTime" : 60,
+	"changelog" : "https://mrwaloo.github.io/jeedom-plugins-doc/#language#/mymodbus_changelog",
+	"documentation" : "https://mrwaloo.github.io/jeedom-plugins-doc/#language#/mymodbus_doc",
+	"changelog_beta" : "https://mrwaloo.github.io/jeedom-plugins-doc/#language#/mymodbus_changelog",
+	"documentation_beta" : "https://mrwaloo.github.io/jeedom-plugins-doc/#language#/mymodbus_doc",
 	"link" : {
-		"forum":"https://community.jeedom.com/t/plugin-mymodbus/9395",
-		"video" : "Lien vers une video"
+		"forum" : "https://community.jeedom.com/tag/plugin-mymodbus",
+		"video" : ""
 	},
 	"language" : ["fr_FR"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+	"compatibility" : ["smart", "rpi", "docker", "diy", "atlas", "v4"]
 }

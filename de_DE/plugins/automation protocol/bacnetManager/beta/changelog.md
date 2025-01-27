@@ -1,8 +1,8 @@
-# Änderungsprotokoll BACnetServer
+# Changelog BacnetManager
 
 
-# 09.09.2024
-- Erweiterter Modus hinzugefügt : Externe Schreiberkennung auf dem Server, um dann Aktionsbefehle auf Jeedom auszuführen
+# 22/01/2025
+- Ajout Documentation
 
 
 

@@ -1,8 +1,8 @@
-# Log de alterações BACnetServer
+# Changelog BacnetManager
 
 
-# 09/09/2024
-- Adicionado modo avançado : Detecção de gravação externa no servidor, para então executar comandos de ação no Jeedom
+# 22/01/2025
+- Ajout Documentation
 
 
 

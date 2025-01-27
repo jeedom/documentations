@@ -23,10 +23,10 @@
 	"link": {
 		"forum": "https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673"
 	},
-	"documentation": "http://mika-nt28.github.io/Documentations/Freebox_OS/#language#/",
-	"changelog": "https://mika-nt28.github.io/Documentations/Freebox_OS/#language#/changelog",
-	"changelog_beta": "https://mika-nt28.github.io/Documentations/Freebox_OS/#language#/changelog_beta",
-	"documentation_beta": "http://mika-nt28.github.io/Documentations/Freebox_OS/#language#/index_beta",
+	"documentation": "https://jealg.github.io/documentation/plugin-freebox_os/#language#/",
+	"changelog": "https://jealg.github.io/documentation/plugin-freebox_os/#language#/changelog",
+	"changelog_beta": "https://jealg.github.io/documentation/plugin-freebox_os/#language#/beta_changelog",
+	"documentation_beta": "https://jealg.github.io/documentation/plugin-freebox_os/#language#/doc_beta",
 	"language": [
 		"de_DE",
 		"en_US",

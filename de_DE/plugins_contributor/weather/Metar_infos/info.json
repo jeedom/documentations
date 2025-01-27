@@ -29,10 +29,10 @@
 		"it_IT",
 		"pt_PT"
 	],
-	"changelog": "https://jealg.github.io/documentation/plugin-Metar_infos/#language#/changelog",
-	"documentation": "https://jealg.github.io/documentation/plugin-Metar_infos/#language#/",
-	"changelog_beta": "https://jealg.github.io/documentation/plugin-Metar_infos/#language#/changelog_beta",
-	"documentation_beta": "https://jealg.github.io/documentation/plugin-Metar_infos/#language#/",
+	"changelog": "https://jealg.github.io/documentation/plugin-metar_infos/#language#/changelog",
+	"documentation": "https://jealg.github.io/documentation/plugin-metar_infos/#language#/",
+	"changelog_beta": "https://jealg.github.io/documentation/plugin-metar_infos/#language#/beta_changelog",
+	"documentation_beta": "https://jealg.github.io/documentation/plugin-metar_infos/#language#/",
 	"link": {
 		"forum": "https://community.jeedom.com/tag/plugin-Metar_info"
 	},

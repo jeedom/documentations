@@ -1,15 +1,11 @@
-# Changelog bacnetManager
-
-# Changelog bacnetManager
-
-# BACnetServer Changelog
+# Changelog BacnetManager
 
 
 # 09/09/2024
 - Added Advanced Mode : External Writing Detection on the server, then execute Actions commands on Jeedom
 
 # 07/09/2024
-- Modal UX redesign cmds jeeBacnetServer
+- Modal UX redesign cmds jeeBacnetManager
 - Ability to ignore name field to rename on server
 
 # 09/08/2022

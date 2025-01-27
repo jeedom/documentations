@@ -6,9 +6,19 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 06/01/2025 (Beta)
+# 24/01/2025 (Beta)
 
 - Regénération de l'équipement dans Chirpstack avec le bouton "Regénérer la configuration LoRaWAN"
+
+- Gestion du fPort
+
+- *Dragino LHT65* ajout du Set Transmit Interval
+
+- *Dragino RS485-LN + NILAN* correction du décodeur
+
+- *NKE Fil Pilot* correction du Device Profile en classe C
+
+- Suppression des équipements MQTT et Chirpstack suite à la suppression de l'équipement Lorapayload
 
 # 31/12/2024
 
@@ -16,7 +26,7 @@
 
 - Modification de la configuration *Dragino LSN50 V2 - MOD4* (propriétés : Digital Interrupt)
 
-- Ajout de la configuration *Thermokon 798808 - MCS Capteur d’ambiance température, humidité relative, luminosité*
+- Ajout de la configuration *Thermokon 798808 - MCS Capteur d'ambiance température, humidité relative, luminosité*
 
 - Ajout de la configuration *Thermokon 817318 - MCS Détecteur de mouvement, Capteur d'ambiance température, humidité relative, luminosité, mouvement, présence, statut*
 

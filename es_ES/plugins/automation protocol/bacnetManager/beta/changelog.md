@@ -1,8 +1,8 @@
-# Registro de cambios BACnetServer
+# Changelog BacnetManager
 
 
-# 09/09/2024
-- Modo avanzado agregado : Detección de escritura externa en el servidor, para luego ejecutar comandos de acción en Jeedom
+# 22/01/2025
+- Ajout Documentation
 
 
 
