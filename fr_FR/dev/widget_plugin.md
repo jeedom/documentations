@@ -1,13 +1,12 @@
 # Gestion des widgets des plugins
 
 Il existe plusieurs possibilités pour faire des widgets personnalisés pour les plugins :
-
 - la première avec la fonction toHtml (méthode d'instance) qui hérite de la classe eqLogic
 - par le système de template (v4 only)
 
 ## Fonction toHtml
 
-Là-dessus, rien de spécial, la fonction toHtml doit retourner le widget en html, vous avez un exemple [là](https://github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
+Là-dessus, rien de spécial, la fonction toHtml doit retourner le widget en html, vous avez un exemple [là](https://github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L934)
 
 L'important est surtout les 1ères lignes :
 
@@ -19,13 +18,12 @@ if (!is_array($replace)) {
 ````
 
 La fonction preToHtml renvoi :
-
-- une string si le widget est en cache (si il est en cache, c'est qu'il n'y a pas eu de changements depuis la dernière génération donc autant le renvoyer tout de suite)
-- un tableau avec les replaces principaux, vous avez la liste [ici](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
+- une string si le widget est en cache (s'il est en cache, c'est qu'il n'y a pas eu de changements depuis la dernière génération donc autant le renvoyer tout de suite)
+- un tableau avec les replaces principaux, vous avez la liste [ici](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L769)
 
 ## Le système de template
 
-Le système de template de widget dans le code est en fait exactement le même que celui sur la page Outils -> Widget de jeedom.
+Le système de template de widget dans le code est exactement le même que celui sur la page Outils -> Widget de jeedom.
 
 Voici un exemple :
 
@@ -48,7 +46,7 @@ Ici, on va créer un nouveau widget basé sur le template "tmplmultistate" (vous
 
 > **IMPORTANT**
 >
-> Chaque template est pour un type et sous-type donnés, il faut donc bien vérifier que le template que vous voulez utiliser existe pour le type et sous-type
+> Chaque template est pour un type et sous-type donnés, il faut donc bien vérifier que le template que vous voulez utiliser existe pour le type et sous-type.
 
 Ensuite, vu que c'est un template avec plusieurs états, il faut définir les icônes en fonction de l'état. Ça se fait dans la partie test du tableau.
 
@@ -64,25 +62,23 @@ public static function templateWidget(){
 		'replace' => array(
 			'#_icon_on_#' => '<i class=\'icon_green icon jeedom-porte-ferme\'></i>',
 			'#_icon_off_#' => '<i class=\'icon_red icon jeedom-porte-ouverte\'></i>'
-			)
+		)
 	);
 	return $return;
 }
 ````
 
-Ici, je crée un widget toto basé sur le template "tmplicon" en type info et sous-type binaire. Quand il vaut 1 alors l'icône sera <i class='icon_green icon jeedom-porte-ferme'></i> et quand il vaut 0, ça sera <i class='icon_red icon jeedom-porte-ouverte'></i>
+Ici, je crée un widget toto basé sur le template "tmplicon" en type info et sous-type binaire. Quand il vaut 1 alors l'icône sera `<i class='icon_green icon jeedom-porte-ferme'></i>` et quand il vaut 0, ça sera `<i class='icon_red icon jeedom-porte-ouverte'></i>`.
 
->**TIPS**
+>**Astuce**
 >
-> Petite astuce, vous pouvez à la place d'une icône mettre une balise image (attention au chemin)
+> Vous pouvez mettre une balise image à la place d'une icône (attention au chemin)
 
 Ensuite, pour utiliser votre widget :
 
 ````php
-$cmd->setTemplate('dashboard','neato::state');
-$cmd->setTemplate('mobile','neato::state');
+$cmd->setTemplate('dashboard', 'neato::state');
+$cmd->setTemplate('mobile', 'neato::state');
 ````
 
-C'est comme pour un widget normal sauf pour le nom du widget qui est sous la forme id_plugin::nom_widget. Pour le 2eme exemple, ça sera id_plugin::toto
-
-
+C'est comme pour un widget normal sauf pour le nom du widget qui est sous la forme id_plugin::nom_widget. Pour le 2ème exemple, ça sera id_plugin::toto

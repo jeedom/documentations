@@ -76,10 +76,8 @@ Et on rentre ``%HTTPD`` dans le champ texte.
 
 C’est fini. Sur reconnaissance de texte par AutoVoice, Jeedom sera appelé et vous aurez la réponse configurée dans les interactions qui sera énoncée par votre téléphone. N’oubliez pas de configurer les interactions Jeedom et vous pourrez lui demander tout ce que vous voulez. De "quelle est la température du salon" à "allume la lumière du salon".
 
-> **Tip**
+> **Conseils**
 >
-> Si cela ne marche pas dès le début, c’est souvent parce que AutoVoice n’est pas actif. Pour cela lancez-le, cliquez sur Google Now Integration et sur le premier choix tout en haut et autorisez AutoVoice.
-
-> **Tip**
+> 1. Si cela ne marche pas dès le début, c’est souvent parce que AutoVoice n’est pas actif. Pour cela lancez-le, cliquez sur Google Now Integration et sur le premier choix tout en haut et autorisez AutoVoice.
 >
-> Par défaut, AutoVoice désactive la recherche Google Now, il est possible d’annuler ce comportement, pour cela dans Tasker cliquez sur votre profil puis "edition" (petit crayon), puis "advanced" (tout en bas), et décochez "Do Google Now Search" (tout en bas).
+> 2. Par défaut, AutoVoice désactive la recherche Google Now, il est possible d’annuler ce comportement, pour cela dans Tasker cliquez sur votre profil puis "edition" (petit crayon), puis "advanced" (tout en bas), et décochez "Do Google Now Search" (tout en bas).

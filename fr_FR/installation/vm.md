@@ -58,13 +58,13 @@ ip -s -c -h a
 >
 > Les identifiant de connection ssh par defaut sont : jeedom et Mjeedom96 pour le mot de passe 
 
-Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
+Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](../premiers-pas/index)
 
 # Installation manuel
 
 ## Téléchargement d’une image Debian 11 - netinstall
 
-Téléchargez une image minimaliste debian 11 [ici](https://www.debian.org/releases/bullseye/debian-installer/), en choisissant "images de CD d’installation par le réseau" -> AMD64
+Téléchargez une image minimaliste debian 11 [ici](https://cdimage.debian.org/cdimage/archive/11.11.0/amd64/iso-cd/debian-11.11.0-amd64-netinst.iso).
 
 ## Configuration de l’environnement de la VM
 
@@ -145,4 +145,4 @@ Votre adresse Ip, type 192.168.0.XX apparait en rouge. Il vous suffit de la sais
 >
 > Si cela ne fonctionne pas, vous n’avez pas configuré votre carte réseau en Pont réseau comme indiquée au départ.
 
-Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
+Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](../premiers-pas/index)
