@@ -4,11 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 
+# 27/01/2025
 
-- 
-- 
-- 
+- Version minimum Jeedom 4.4
+- Version minimum Debian 11
+- Corrections mineures
 
 # 20/11/2020
 
