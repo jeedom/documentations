@@ -20,6 +20,8 @@
 
 - Suppression des équipements MQTT et Chirpstack suite à la suppression de l'équipement Lorapayload
 
+- Vérification de la taille des DevEUI et AppKey avant la génération automatique
+
 # 31/12/2024
 
 - Ajout de la configuration *NKE Torano*

@@ -6,7 +6,7 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
-# )
+# 24/01/2025 (Beta)
 
 - Regenerating equipment in Chirpstack with the "Regenerate LoRaWAN configuration" button"
 
@@ -16,7 +16,9 @@
 
 - *Dragino RS485-LN + NILAN* correction du décodeur
 
-- ** 
+- *NKE Fil Pilot* correction du Device Profile en classe C
+
+- Suppression des équipements MQTT et Chirpstack suite à la suppression de l'équipement Lorapayload
 
 - 
 
