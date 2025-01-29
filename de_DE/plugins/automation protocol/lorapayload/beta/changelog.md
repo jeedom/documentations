@@ -6,7 +6,7 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 24/01/2025 (Beta)
+# )
 
 - Regenerieren der Geräte in Chirpstack mit der Schaltfläche „LoRaWAN-Konfiguration neu generieren“"
 
@@ -20,7 +20,9 @@
 
 - Suppression des équipements MQTT et Chirpstack suite à la suppression de l'équipement Lorapayload
 
-- 
+- Vérification de la taille des DevEUI et AppKey avant la génération automatique
+
+- Konfiguration hinzufügen **
 
 # 31.12.2024
 
