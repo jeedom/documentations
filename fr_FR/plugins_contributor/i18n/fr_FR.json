@@ -247,6 +247,7 @@
         "Information sur la consommation d'eau (compteur communicant) depuis le site \"Veolia & moi - Eau": "Information sur la consommation d'eau (compteur communicant) depuis le site \"Veolia & moi - Eau",
         "Suivi CO2": "Suivi CO2",
         "Plugin pour le suivi des émissions CO2 liées à sa consommation électrique, de gaz, fioul ou autre": "Plugin pour le suivi des émissions CO2 liées à sa consommation électrique, de gaz, fioul ou autre",
+        "Afore_BNTxxxKTL-2mppt, deye_2mppt, deye_4mppt, deye_hybrid, deye_sg04lp3, deye_string, hyd-zss-hp-3k-6k, kstar_hybrid, sofar_g3hyd, sofar_hyd3k-6k-es, sofar_lsw3, sofar_wifikit, solis_1p8k-5g, solis_3p-4g, solis_hybrid, solis_s6-gr1p, zcs_azzurro-ktl-v3": "Afore_BNTxxxKTL-2mppt, deye_2mppt, deye_4mppt, deye_hybrid, deye_sg04lp3, deye_string, hyd-zss-hp-3k-6k, kstar_hybrid, sofar_g3hyd, sofar_hyd3k-6k-es, sofar_lsw3, sofar_wifikit, solis_1p8k-5g, solis_3p-4g, solis_hybrid, solis_s6-gr1p, zcs_azzurro-ktl-v3",
         "Seules les APIs de RTE sont utilisées": "Seules les APIs de RTE sont utilisées",
         "Rte Ecowatt Tempo": "Rte Ecowatt Tempo",
         "Plugin qui extrait les données Ecowatt par jour et par heure": "Plugin qui extrait les données Ecowatt par jour et par heure",
@@ -324,6 +325,7 @@
         "IoTaWatt est un projet à code source ouvert et à matériel ouvert visant à produire un moniteur d'énergie précis, peu coûteux et facile à utiliser": "IoTaWatt est un projet à code source ouvert et à matériel ouvert visant à produire un moniteur d'énergie précis, peu coûteux et facile à utiliser",
         "Production décarbonée, signaux vert, orange et rouge": "Production décarbonée, signaux vert, orange et rouge",
         "Les couleurs des jours EDF Tempo sont aussi récupérées": "Les couleurs des jours EDF Tempo sont aussi récupérées",
+        "com\/ , comme par exemple les Sofar Solar HYD de 3 à 6K ES. Fichiers de configuration auto pour": "com\/ , comme par exemple les Sofar Solar HYD de 3 à 6K ES. Fichiers de configuration auto pour",
         "WallConnector prend en charge 3 modes de tarification": "WallConnector prend en charge 3 modes de tarification"
     },
     "plugins_contributor\/health\/index.md": {
