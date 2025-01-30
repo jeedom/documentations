@@ -4,6 +4,12 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 
+
+- . 
+- 
+- 
+
 # 27/01/2025
 
 - Version minimum Jeedom 4.4
