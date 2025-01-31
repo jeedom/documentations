@@ -95,5 +95,5 @@ json
 
 .  :
 
-- it is a package name in this case it is installed globally on the system
-- it is a path in this case jeedom places itself in the directory in question and launches an npm install (with deletion of the directory ``node_modules``)
+- 
+-  ``node_modules``)
