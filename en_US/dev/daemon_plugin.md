@@ -468,7 +468,7 @@ php
  {
     
 
-     (!jeedom::
+    if (!jeedom::
         
         die();
     }
@@ -477,7 +477,7 @@ php
         die();
     }
     $result = json_decode(file_get_contents("php://input"), true);
-     (!)) {
+    if (!)) {
         die();
     }
 
@@ -496,7 +496,7 @@ php
 :
 
 php
-     (!jeedom::
+    if (!jeedom::
         
         die();
     }
@@ -515,7 +515,7 @@ php
 
 php
     $result = json_decode(file_get_contents("php://input"), true);
-     (!)) {
+    if (!)) {
         die();
     }
 
@@ -601,7 +601,7 @@ json
 
 ##### pre-install: 
 
- :
+Example :
 
 json
 {
@@ -613,7 +613,7 @@ json
 ##### post-install
 
 .
- :
+Example :
 
 json
 {

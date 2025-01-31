@@ -20,11 +20,11 @@
 
 <details>
 
-  <summary markdown="span">jQuery to pure js()<summary>
+  <summary markdown="span">jQuery to pure js()</summary>
 
   
   {% raw %}
-  jQuery:
+  //jQuery:
   $('#table_objectSummary tbody').append(tr)
   $('#table_objectSummary tbody tr').last().setValues(_summary, '.objectSummaryAttr')
 
@@ -32,7 +32,7 @@
   ').)
   ().')
 
-  jQuery:
+  //jQuery:
   ()
   ]
   ')
@@ -42,7 +42,7 @@
   ]
   ')
 
-  jQuery:
+  //jQuery:
   addMyTr: ) {
     >'
     >'
@@ -67,7 +67,7 @@
     
   }
 
-  jQuery:
+  //jQuery:
   $(function(){
     !')
   })
@@ -80,17 +80,17 @@
   {% endraw %}
   
 
-<details>
+</details>
 
 .. ..
 
 :
 
-[](/en_US/devcorejsindex)
+[](/en_US/dev/corejs/index)
 
-[ {}](https:github.comjeedomcoreblobalphacoredomdom.utils.js)
+[ {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)
 
-[](https:github.comjeedomcoreblobalphacoredomdom.ui.js)
+[](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 
 
@@ -113,7 +113,7 @@
 
 #### 
 
- ** . . [](https:flatpickr.js.org).
+ ** . . [](https://flatpickr.js.org/).
 
  ** .
 
@@ -121,13 +121,13 @@
 
 <details>
 
-  <summary markdown="span">datetime pickers<summary>
+  <summary markdown="span">date/time pickers</summary>
 
   
   {% raw %}
-  <input id="myDate" class="in_datepicker">
-  <input id="myTime" class="in_timepicker">
-  <input id="myCustomDatetime">
+  <input id="myDate" class="in_datepicker"/>
+  <input id="myTime" class="in_timepicker"/>
+  <input id="myCustomDatetime"/>
   {% endraw %}
   
 
@@ -140,7 +140,7 @@
   {% endraw %}
   
 
-<details>
+</details>
 
 
 
@@ -189,11 +189,11 @@
 
 <details>
 
-  <summary markdown="span">jeeComplete()<summary>
+  <summary markdown="span">jeeComplete()</summary>
 
   
   {% raw %}
-  jQuery:
+  //jQuery:
   $('input.auto').autocomplete({
     minLength: 1,
     source: dataArray
@@ -207,7 +207,7 @@
   {% endraw %}
   
 
-<details>
+</details>
 
 #### 
 
@@ -215,7 +215,7 @@
 
 <details>
 
-  <summary markdown="span">exemples jeeDialog()<summary>
+  <summary markdown="span">exemples jeeDialog()</summary>
 
   
   {% raw %}
@@ -241,7 +241,7 @@
   {% endraw %}
   
 
-<details>
+</details>
 
 #### 
 
@@ -249,7 +249,7 @@
 
 <details>
 
-  <summary markdown="span">exemples ()<summary>
+  <summary markdown="span">exemples ()</summary>
 
   
   {% raw %}
@@ -267,12 +267,12 @@
   {% endraw %}
   
 
-<details>
+</details>
 
 #### 
 
 .
- : [](http:sortablejs.github.ioSortable)
+ : [](http://sortablejs.github.io/Sortable/)
 
 #### 
 
@@ -284,7 +284,7 @@
 
 <details>
 
-  <summary markdown="span">jeeCtxMenu()<summary>
+  <summary markdown="span">jeeCtxMenu()</summary>
 
   
   {% raw %}
@@ -305,16 +305,16 @@
     },
     callback: 
     }
-    isDisable: false,
-    *
+    //isDisable: false,
+    /*
     events: {
       show: ) {
       },
       hide: ) {
       }
     },
-    *
-    *
+    */
+    /*
     build: ) {
        = {}
        {
@@ -326,13 +326,13 @@
     },
     position: ) {
     },
-    *
+    */
   })
 
   {% endraw %}
   
 
-<details>
+</details>
 
 #### 
 
@@ -340,7 +340,7 @@
 
 <details>
 
-  <summary markdown="span">exemples ()<summary>
+  <summary markdown="span">exemples ()</summary>
 
   
   {% raw %}
@@ -357,13 +357,13 @@
   ({
     fileInput: '),
     url: '?
-    *
+    /*
     add: ) {
       ')
       ?
       ()
     },
-    *
+    */
     done: ) {
       
     }
@@ -372,9 +372,9 @@
   {% endraw %}
   
 
-<details>
+</details>
 
- [](https:github.comjeedomcoreblobalphacoredomdom.ui.js)
+See [](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 > ****
 >
