@@ -30,6 +30,11 @@
      ```php
      /** @var string 'stop'|'starting'|'run'|'stoping'|'error' */
      ```
+   - Pour les tableaux :
+     - Éviter le simple `array` quand le type des éléments est connu
+     - Pour les listes simples, privilégier la notation `string[]`
+     - Pour les tableaux associatifs avec clés significatives, utiliser `array<int, string>`
+     - Pour les structures complexes (comme du JSON encodé), préférer documenter le format via `@link` plutôt qu'une description détaillée du tableau
 
 6. **Éléments Interdits**
    - Pas de TODOs ou d'éléments de roadmap
