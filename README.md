@@ -8,7 +8,7 @@
 
 >**IMPORTANT**
 >
->A lire impérativement avant toute intervention : [**Comment contribuer aux documentations Jeedom ?**](https://doc.jeedom.com/fr_FR/contribute/doc)
+>A lire impérativement avant toute intervention : [**Comment contribuer aux documentations Jeedom ?**](contribute/doc)
 
 ### Documentation générale
 
@@ -30,7 +30,7 @@ Comme pour le core Jeedom, la documentation des plugins officiels est automatiqu
 
 >**IMPORTANT**
 >
->A lire impérativement avant toute intervention : [**Comment contribuer au développement du core Jeedom ?**](https://doc.jeedom.com/fr_FR/contribute/core)
+>A lire impérativement avant toute intervention : [**Comment contribuer au développement du core Jeedom ?**](contribute/core)
 
 Tout comme la documentation, le core Jeedom est open source et ouvert aux contributions. L'intégralité du code est consultable à cette adresse : <https://github.com/jeedom/core/tree/alpha>.
 Sauf indication contraire, **les modifications doivent impérativement être soumises sur la branche `alpha`**.
