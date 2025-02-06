@@ -5,6 +5,11 @@
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
 
+# 
+
+- 
+
+
 # 11/08/2024
 
 - Corrigir vazamento de memória do Python3
