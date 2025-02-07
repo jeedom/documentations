@@ -22,7 +22,9 @@
 
 - Vérification de la taille des DevEUI et AppKey avant la génération automatique
 
-- Adding configuration **
+- Adding configuration *Milesight WS203*
+
+-  **
 
 # 12/31/2024
 

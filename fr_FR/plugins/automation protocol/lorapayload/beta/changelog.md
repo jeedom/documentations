@@ -6,7 +6,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 28/01/2025 (Beta)
+# 06/02/2025 (Beta)
 
 - Regénération de l'équipement dans Chirpstack avec le bouton "Regénérer la configuration LoRaWAN"
 
@@ -23,6 +23,8 @@
 - Vérification de la taille des DevEUI et AppKey avant la génération automatique
 
 - Ajout de la configuration *Milesight WS203*
+
+- Ajout des commandes de downlink pour *Dragino LT-22222*
 
 # 31/12/2024
 
