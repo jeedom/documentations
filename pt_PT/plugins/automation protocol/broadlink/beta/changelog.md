@@ -4,6 +4,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 
+
+-  **** 
+
 # 27/12/2024
 
 - Corrija um vazamento de memória no daemon
