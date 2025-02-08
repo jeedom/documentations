@@ -3,24 +3,34 @@
 	"name": "openHASP",
 	"pluginVersion": "1.2",
 	"description": {
-		"fr_FR": "Plugin pour gérer des écrans multifonctions sous openHASP"
+		"fr_FR": "Plugin pour gérer des écrans multifonctions sous openHASP",
+		"en_US": "Plugin for managing multifunction displays under openHASP",
+		"es_ES": "Plugin para la gestión de pantallas multifunción en openHASP",
+		"de_DE": "Plugin zur Verwaltung von Multifunktionsbildschirmen unter openHASP",
+		"it_IT": "Plugin per la gestione di schermi multifunzione in openHASP",
+		"pt_PT": "Plugin para gerir ecrãs multifunções em openHASP"
 	},
 	"licence": "AGPL",
 	"author": "jbbeauf",
 	"require": "4.2",
-	"os" : {
-		"min" : 10,
-		"max" : 12.99
+	"os": {
+		"min": 10,
+		"max": 12.99
 	},
 	"category": "devicecommunication",
 	"hasDependency": true,
 	"hasOwnDeamon": false,
 	"maxDependancyInstallTime": 0,
-	"changelog_beta": "https:\/\/jbbeauf.github.io\/openhasp\/#language#\/changelog_beta",
-    "changelog" : "https:\/\/jbbeauf.github.io\/openhasp\/#language#\/changelog",
-    "documentation" : "https:\/\/jbbeauf.github.io\/openhasp\/#language#",
+	"changelog_beta": "https://jbbeauf.github.io/openhasp/#language#/changelog_beta",
+	"changelog": "https://jbbeauf.github.io/openhasp/#language#/changelog",
+	"documentation": "https://jbbeauf.github.io/openhasp/#language#",
 	"language": [
-		"fr_FR"
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",
