@@ -10,7 +10,7 @@
 
 - Regenerando el equipo en Chirstack con el botón “Regenerar configuración LoRaWAN”"
 
-- Gestion du fPort
+- 
 
 - *Dragino LHT65* ajout du Set Transmit Interval
 
@@ -24,7 +24,16 @@
 
 - Agregar configuración *Milesight WS203*
 
--  **
+- Ajout des commandes de downlink pour *Dragino LT-22222*
+
+- Agregar configuración **
+
+- Ajout des commandes de downlink pour ** ()
+
+- "
+
+- 
+
 
 # 31/12/2024
 
