@@ -6,11 +6,11 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
-# )
+# 12/02/2025 (Beta)
 
 - Regenerando el equipo en Chirstack con el botón “Regenerar configuración LoRaWAN”"
 
-- 
+- Gestion du fPort dans le décodage
 
 - *Dragino LHT65* ajout du Set Transmit Interval
 
@@ -26,13 +26,13 @@
 
 - Ajout des commandes de downlink pour *Dragino LT-22222*
 
-- Agregar configuración **
+- Agregar configuración *WoMaster LR144*
 
-- Ajout des commandes de downlink pour ** ()
+- Ajout des commandes de downlink pour *Dragino LHT-65* (Envoie des uplinks en confirmed)
 
-- "
+- Ajout de la commande info "Downlink acknowledged"
 
-- 
+- Ajout du bouton copier du Deveui et Appkey
 
 
 # 31/12/2024
