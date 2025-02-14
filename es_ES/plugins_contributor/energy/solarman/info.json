@@ -1,0 +1,31 @@
+{
+	"id" : "solarman",
+	"name" : "Solarman",
+	"description" : {
+		"fr_FR": "Plugin permettant d'interroger directement les onduleurs monitorés par Solarman, https://home.solarmanpv.com/ , comme par exemple les Sofar Solar HYD de 3 à 6K ES. Fichiers de configuration auto pour: Afore_BNTxxxKTL-2mppt, deye_2mppt, deye_4mppt, deye_hybrid, deye_sg04lp3, deye_string, hyd-zss-hp-3k-6k, kstar_hybrid, sofar_g3hyd, sofar_hyd3k-6k-es, sofar_lsw3, sofar_wifikit, solis_1p8k-5g, solis_3p-4g, solis_hybrid, solis_s6-gr1p, zcs_azzurro-ktl-v3"
+	},
+	"licence" : "AGPL",
+	"author" : "Noyax37",
+	"require" : "4.2.0",
+	"category" : "energy",
+	"hasDependency" : true,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 60,
+	"changelog" : "https://github.com/Noyax-37/solarman/blob/master/docs/fr_FR/changelog.md",
+	"documentation" : "https://github.com/Noyax-37/solarman/blob/master/docs/fr_FR/index.md",
+	"changelog_beta" : "https://github.com/Noyax-37/solarman/blob/develop/docs/fr_FR/changelog.md",
+	"documentation_beta" : "https://github.com/Noyax-37/solarman/blob/develop/docs/fr_FR/index.md",
+	"link" : {
+		"forum":"https://community.jeedom.com/tag/plugin-solarman",
+		"Fil d'actualité du plugin":"https://community.jeedom.com/t/plugin-solarman-actualites/"
+	},
+	"compatibility": [
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"v4",
+		"atlas"
+	],
+	"pluginVersion" : "1.2.3"
+}

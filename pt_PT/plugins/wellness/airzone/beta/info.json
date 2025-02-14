@@ -1,6 +1,6 @@
 {
     "id": "airzone",
-    "name": "Airzone Web",
+    "name": "Airzone",
     "description": {
         "fr_FR": "Plugin pour l'integration dans Jeedom de systèmes Airzone, via Local API : AIRZONE WEBSERVER, AIDOO PRO et AIDOO PRO FANCOIL",
         "en_US": "Plugin pour l'integration dans Jeedom de systèmes Airzone, via Local API : AIRZONE WEBSERVER, AIDOO PRO et AIDOO PRO FANCOIL",

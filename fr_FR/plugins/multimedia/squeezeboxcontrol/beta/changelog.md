@@ -4,6 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 29/01/2025
+
+- Modification sur l'installation des dépendances pour compatiblité Debian 12. Il est possible qu'il soit nécessaire de les relancer
+- Fix une fuite de mémoire sur le démon
+- Compatibilité du démon avec Debian 12
+
 # 27/01/2025
 
 - Version minimum Jeedom 4.4

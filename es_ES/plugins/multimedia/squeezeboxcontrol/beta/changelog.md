@@ -6,9 +6,15 @@
 
 # 
 
+- . 
 - 
 - 
-- 
+
+# 27/01/2025
+
+- Version minimum Jeedom 4.4
+- Version minimum Debian 11
+- Corrections mineures
 
 # 20/11/2020
 

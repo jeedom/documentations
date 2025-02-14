@@ -10,15 +10,32 @@
 
 - Regenerando el equipo en Chirstack con el botón “Regenerar configuración LoRaWAN”"
 
-- Gestion du fPort
+- Gestion du fPort dans le décodage
 
 - *Dragino LHT65* ajout du Set Transmit Interval
 
 - *Dragino RS485-LN + NILAN* correction du décodeur
 
-- ** 
+- *NKE Fil Pilot* correction du Device Profile en classe C
 
-- 
+- Suppression des équipements MQTT et Chirpstack suite à la suppression de l'équipement Lorapayload
+
+- Vérification de la taille des DevEUI et AppKey avant la génération automatique
+
+- Agregar configuración *Milesight WS203*
+
+- Ajout des commandes de downlink pour *Dragino LT-22222*
+
+- Agregar configuración *WoMaster LR144*
+
+- Ajout des commandes de downlink pour *Dragino LHT-65* (Envoie des uplinks en confirmed)
+
+- Ajout de la commande info "Downlink acknowledged"
+
+- Ajout du bouton copier du Deveui et Appkey
+
+- Ajout des commandes de downlink pour *Dragino LT-22222*
+
 
 # 31/12/2024
 

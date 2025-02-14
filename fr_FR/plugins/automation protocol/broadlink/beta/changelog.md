@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 08/02/2025
+
+- Suppression de **l'installation** de 2 dépendances (`pycrypto` & `asn1crypto`) qui ne sont plus utiles pour le plugin
+
 # 27/12/2024
 
 - Fix une fuite de mémoire sur le démon

@@ -1,6 +1,6 @@
 {
     "id": "airzone",
-    "name": "Airzone Web",
+    "name": "Airzone",
     "description": {
         "fr_FR": "Plugin pour l'integration dans Jeedom de système Airzone via LocalApi. Ne peut communiquer qu'avec un seul équipement Airzone (WebServer,Aidoo Pro, Aidoo Pro FanCoil) . La nouvelle version beta du plugin supporte le multiple-équipements mais il nécessite de supprimer les équipements précédents.",
         "en_US": "Plugin for integration into Jeedom of the AirzoneWebServer system.<br\/> Can only communicate with one WebServer.<br\/> A future version compatible with Aidoo and other equipment is planned",
