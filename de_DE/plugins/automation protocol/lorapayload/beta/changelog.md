@@ -6,7 +6,7 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 12/02/2025 (Beta)
+# )
 
 - Regenerieren der Geräte in Chirpstack mit der Schaltfläche „LoRaWAN-Konfiguration neu generieren“"
 
@@ -33,6 +33,8 @@
 - Ajout de la commande info "Downlink acknowledged"
 
 - Ajout du bouton copier du Deveui et Appkey
+
+- Ajout des commandes de downlink pour *Dragino LT-22222*
 
 
 # 31.12.2024
