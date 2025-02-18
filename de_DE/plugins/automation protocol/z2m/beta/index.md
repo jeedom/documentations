@@ -278,6 +278,6 @@ Achten Sie beim Flashen darauf, den richtigen GBL-Dateinamen einzugeben.
 >
 >Sie müssen zur Jeedom-Konfiguration, dann zu OS/DB und dann zum Dateieditor gehen. Gehen Sie zu „plugins/z2m/data“ und löschen Sie die Datei „coordinator_backup.json“
 
->**Ich erhalte die Fehlermeldung „Start verweigert, weil Konfiguration ungültig ist, folgende Fehler wurden gefunden.“: 0850|- "**
+>**Ich erhalte die Fehlermeldung „Start verweigert, weil Konfiguration ungültig ist, folgende Fehler wurden gefunden.“: 0850|- device_options must be object"**
 >
-> ..
+> Il faut aller dans la configuration de jeedom onglet os/db cliquer sur l'editeur de fichier, ensuite dedans aller dans le dossier `plugins/z2m/data`, ouvrir le fichier configuration.yml (ou configuration.yaml) et supprimer la ligne qui contient device_options puis relancer le demon

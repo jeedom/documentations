@@ -36,6 +36,8 @@
 
 - Ajout des commandes de downlink pour *Dragino LT-22222*
 
+-  *Ewattch Lula Pro Rogowski*
+
 
 # 31/12/2024
 

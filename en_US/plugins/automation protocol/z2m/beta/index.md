@@ -278,6 +278,6 @@ Be careful to put the correct gbl file name when flashing.
 >
 >You have to go to the Jeedom configuration then OS/DB then file editor. Then go to plugins/z2m/data and delete the coordinator_backup.json file
 
->**I get the error "Refusing to start because configuration is not valid, found the following errors: 0850|- "**
+>**I get the error "Refusing to start because configuration is not valid, found the following errors: 0850|- device_options must be object"**
 >
-> ..
+> Il faut aller dans la configuration de jeedom onglet os/db cliquer sur l'editeur de fichier, ensuite dedans aller dans le dossier `plugins/z2m/data`, ouvrir le fichier configuration.yml (ou configuration.yaml) et supprimer la ligne qui contient device_options puis relancer le demon

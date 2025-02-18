@@ -6,7 +6,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 13/02/2025 (Beta)
+# 17/02/2025 (Beta)
 
 - Regénération de l'équipement dans Chirpstack avec le bouton "Regénérer la configuration LoRaWAN"
 
@@ -35,6 +35,8 @@
 - Ajout du bouton copier du Deveui et Appkey
 
 - Ajout des commandes de downlink pour *Dragino LT-22222*
+
+- Mise à jour du décodeur *Ewattch Squid Pro Rogowski*
 
 
 # 31/12/2024

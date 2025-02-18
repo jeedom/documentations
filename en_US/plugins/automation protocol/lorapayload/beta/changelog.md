@@ -36,6 +36,8 @@
 
 - Ajout des commandes de downlink pour *Dragino LT-22222*
 
+-  *Ewattch Squid Pro Rogowski*
+
 
 # 12/31/2024
 
