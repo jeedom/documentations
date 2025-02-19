@@ -1,28 +1,29 @@
 # Registro de cambios Bacnet
 
-
 >**IMPORTANTE**
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
+# 
 
-# 11/08/2024
-
-- Reparar la pérdida de memoria de Python3
+- 
+- 
+- 
+- 
+- 
+- .
 
 # 28/10/2024
 
 - Solución para el uso de CPU
 - Enhebrado para leer datos
-- Optimización de código
+- 
 - Corregir posibles valores nulos
-
 
 # 27/03/2024
 
 - Corregir comandos OnOff
 - Adición modal para la gestión de puntos Bacnet (cambiar el nombre de los comandos por sus atributos bacnet))
-
 
 # 21/06/2023
 
@@ -31,7 +32,6 @@
 # 25/05/2023
 
 - Adición del campo Prioridad de escritura en el comando (consulte el final de la documentación)
-
 
 # 11/05/2023
 
