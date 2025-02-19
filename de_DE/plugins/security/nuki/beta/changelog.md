@@ -4,7 +4,7 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-## 18.11.2024
+## 
 
 - Kleinere Optimierungen zur Vermeidung von Warnungen für den Fall, dass eine Sperre nicht erreicht werden kann (z. B. Batterieausfall))
 - Jeedom 4-Version.4 erforderlich
@@ -13,6 +13,7 @@
 - Hinzufügen einer Plugin-Konfiguration für das Anforderungs-Timeout sowie die Anzahl der Versuche für Aktionsbefehle
 - Festlegen von standardmäßigen generischen Typen für Befehle (nur für neu erstellte Befehle)
 - Fix: Bestellungen wurden nach der ersten Synchronisierung nicht erstellt, es war eine zweite Synchronisierung erforderlich.
+- 
 
 # 18.07.2020
 

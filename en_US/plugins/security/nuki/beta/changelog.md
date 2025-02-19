@@ -4,7 +4,7 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-## 11/18/2024
+## 
 
 - Minor optimizations to avoid warnings in the event that a lock cannot be reached (battery failure for example))
 - Jeedom version 4.4 required
@@ -13,6 +13,7 @@
 - Addition of a plugin config for the request timeout as well as the number of attempts for action commands
 - Setting default generic types on commands (only for newly created commands)
 - Fix: orders were not created after the first sync, it needed a second sync.
+- 
 
 # 07/18/2020
 
