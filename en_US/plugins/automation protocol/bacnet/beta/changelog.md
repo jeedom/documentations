@@ -4,20 +4,25 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+
 # 
 
 - 
-- 
-- 
-- 
-- 
-- .
+
+# 19/02/2025
+
+- Fix une fuite de mémoire sur le démon
+- Plusieurs corrections de bugs mineurs
+- Optimisation du code
+- Compatibilité Debian 12
+- Debian 11 requis
+- Jeedom v4.4.8 requis
 
 # 10/28/2024
 
 - Fix for CPU usage
 - Threading for reading data
-- 
+- Optimisation du code
 - Fix possible Null Values
 
 # 03/27/2024
