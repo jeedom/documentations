@@ -53,7 +53,7 @@ Et parce que la télécommande porte-clés Keyfob Gen5 fait partie de la gamme G
 
 ## Configuration
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](../plugins/automation%20protocol/openzwave/).
 
 > **Important**
 >

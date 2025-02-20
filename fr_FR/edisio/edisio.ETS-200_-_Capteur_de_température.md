@@ -44,7 +44,7 @@ L’indicateur LED intégré signal tout changement d’état.
 
 ## Configuration générale
 
-Pour configurer le plugin Edisio et associer un module à Jeedom, référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/edisio/).
+Pour configurer le plugin Edisio et associer un module à Jeedom, référez-vous à cette [documentation](../plugins/automation%20protocol/edisio/).
 
 > **Important**
 >
