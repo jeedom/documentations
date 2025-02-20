@@ -8,6 +8,9 @@ Ce plugin va vous permettre de prendre le contrôle de votre [**serveur d'énerg
 >
 >Ce matériel étant en constante évolution, le plugin en version stable offre une pleine compatibilité avec les serveurs Wes de firmware inférieur à `V0.84A10` et la version beta avec les firmwares supérieurs ou égaux à `V0.84A10`.
 
+>
+>L’équipe travaille d’ores et déjà à l’intégration des extensions Wes actuellement non prises en charge telles que l’extension 8 relais ou modbus et fera son maximum pour faire évoluer le plugin en ce sens dans les meilleurs délais.
+
 # Configuration générale
 
 ## Configuration du plugin
