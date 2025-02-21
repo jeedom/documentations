@@ -4,8 +4,13 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Corrigido problema no envio do comando de parada para persianas
+
+# 26/08/2024
+
 - Suporte para persiana EnOcean
 - Possibilidade de configurar a porta de comunicação com o IP (padrão 80)
+- Suporte para imagens de equipamentos personalizados (Jeedom 4.5)
 
 # 01/08/2024
 

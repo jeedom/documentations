@@ -6,7 +6,7 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
-# )
+# 17/02/2025 (Beta)
 
 - Regenerando o equipamento no Chirpstack com o botão “Regenerar configuração LoRaWAN”"
 
@@ -36,7 +36,7 @@
 
 - Ajout des commandes de downlink pour *Dragino LT-22222*
 
--  *Ewattch Lula Pro Rogowski*
+- Mise à jour du décodeur *Ewattch Lula Pro Rogowski*
 
 
 # 31/12/2024
