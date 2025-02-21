@@ -6,6 +6,8 @@
 
 - Meilleur gestion des requetes au cloud
 - Ajout des codes évènements sur la télécommande (space control)
+- Ajout de FireProtect2PlusSb
+- Ajout de KeypadTouchscreen
 
 # 07/09/2024
 

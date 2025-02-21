@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 20/02/2025
+
+- Set Timeout 10 secondes pour Device Profile Classe C
+
 # 10/12/2024
 
 - Cron daily pour Backup Chirpstack
