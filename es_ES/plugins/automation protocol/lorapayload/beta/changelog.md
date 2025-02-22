@@ -6,7 +6,7 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
-# 17/02/2025 (Beta)
+# )
 
 - Regenerando el equipo en Chirstack con el botón “Regenerar configuración LoRaWAN”"
 
@@ -38,6 +38,17 @@
 
 - Mise à jour du décodeur *Ewattch Calamar Pro Rogowski*
 
+-  **
+
+- 
+
+-  **
+
+-  **
+
+-  **
+
+-  **
 
 # 31/12/2024
 

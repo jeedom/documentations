@@ -6,7 +6,7 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 17/02/2025 (Beta)
+# )
 
 - Regenerieren der Geräte in Chirpstack mit der Schaltfläche „LoRaWAN-Konfiguration neu generieren“"
 
@@ -38,6 +38,17 @@
 
 - Mise à jour du décodeur *Ewattch Squid Pro Rogowski*
 
+-  **
+
+- 
+
+-  **
+
+-  **
+
+-  **
+
+-  **
 
 # 31.12.2024
 
