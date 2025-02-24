@@ -150,42 +150,42 @@
 
 #### :
 
-`eqLogic::::  
+`eqLogic::byTypeAndSearhConfiguration()` -> `eqLogic::byTypeAndSearchConfiguration()`  
 
-#### ):
+#### Js functions (available since Core4.2):
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+`jeedom.eqLogic.builSelectCmd` -> `jeedom.eqLogic.buildSelectCmd`  
+`checkPageModified` -> `jeedomUtils.checkPageModified`  
+`loadPage` -> `jeedomUtils.loadPage`  
+`initPage` -> `jeedomUtils.initPage`  
+`initTooltips` -> `jeedomUtils.initTooltips`  
+`initTableSorter` -> `jeedomUtils.initTableSorter`  
+`initHelp` -> `jeedomUtils.initHelp`  
+`datePickerInit` -> `jeedomUtils.datePickerInit`  
+`normTextLower` -> `jeedomUtils.normTextLower`  
+`sleep` -> `jeedomUtils.sleep`  
+`uniqId` -> `jeedomUtils.uniqId`  
+`taAutosize` -> `jeedomUtils.taAutosize`  
+`hexToRgb` -> `jeedomUtils.hexToRgb`  
+`componentToHex` -> `jeedomUtils.componentToHex`  
+`rgbToHex` -> `jeedomUtils.rgbToHex`  
+`addOrUpdateUrl` -> `jeedomUtils.addOrUpdateUrl`  
+`positionEqLogic` -> `jeedomUtils.positionEqLogic`  
+`chooseIcon` -> `jeedomUtils.chooseIcon`  
+`getOpenedModal` -> `jeedomUtils.getOpenedModal`  
 
-#### ):
+#### Js variables (available since Core4.3):
 
-  
+`jeedom_langage` -> `jeeFrontEnd.language`  
+`userProfils` -> `jeeFrontEnd.userProfils`
 
-
-> ****
+> **Noticed**
 >
-> .  ** .
+> These changes may result in the need to upgrade to the minimum required Jeedom version of many plugins. This is why the *deprecated* do not appear on a Core in master branch, but allow developers to see what they can fix.
 
-#### 
+#### jQuery Autocomplete
 
-.  **()**. .
+The jQuery-dependent Autocomplete lib will be removed in a future Core release. It is replaced by the internal function of the Core **input.jeeComplete()**. This supports most of the previous options (source on ajax etc), but fixes several flaws, brings new behaviors (up and down arrow to select a proposition, etc) and allows to use a single container for several inputs, greatly reducing the impact on the DOM, especially on scenarios.
 
 <details>
 
@@ -200,7 +200,7 @@
   })
 
   :
-  ({
+  document.querySelector('input.auto').jeeComplete({
     minLength: 1,
     source: dataArray
   })
@@ -209,9 +209,9 @@
 
 <details>
 
-#### 
+#### jQuery bootbox
 
-. ..().
+The jQuery-dependent bootbox lib will be removed in a future Core release. jeeDialog() replaces these functions, with jeeDialog.alert(), jeeDialog.confirm(), jeeDialog.prompt().
 
 <details>
 
@@ -219,22 +219,22 @@
 
   
   {% raw %}
-  ) {
-    !')
+  if (condition) {
+    jeeDialog.alert('This is wrong dude!')
     return
   }
 
-  :', ) {
-     !== null) {
-      
+  jeeDialog.prompt('Enter new name:', function(result) {
+    if (result !== null) {
+      //Do stuff
     }
   })
 
-  ?', ) {
-    ) {
-      
-    }  {
-      
+  jeeDialog.confirm('Do you really want to delete this?', function(result) {
+    if (result) {
+      //Do stuff
+    } else {
+      //Do other stuff
     }
   })
 
@@ -243,25 +243,25 @@
 
 <details>
 
-#### 
+#### jQuery UI
 
-. **.
+The jQuery UI lib will be removed in a future version of Core. jeeDialog.dialog() replaces the use of modals *ui-dialog*.
 
 <details>
 
-  <summary markdown="span">exemples ()<summary>
+  <summary markdown="span">exemples jeeDialog.dialog()<summary>
 
   
   {% raw %}
-  :
+  //jQuery UI:
   $('#md_modal').dialog({
-    title: "{{}}"
-  }).?')
+    title: "{{System administration}}"
+  }).load('index.php?v=d&modal=system.action').dialog('open')
 
-  :
-  ({
-    title: '{{}}',
-    contentUrl: '?'
+  //Core jeeDialog:
+  jeeDialog.dialog({
+    title: '{{System administration}}',
+    contentUrl: 'index.php?v=d&modal=system.action'
   })
 
   {% endraw %}
@@ -269,18 +269,18 @@
 
 <details>
 
-#### 
+#### jQuery UI Sortable
 
-.
- : [](http:sortablejs.github.ioSortable)
+The jQuery Sortable lib will be removed in a future version of Core.
+SortableJS Lib has been integrated into Core : [SortableJS](http:sortablejs.github.ioSortable)
 
-#### 
+#### jQuery caret
 
- ** . 
+The jQuery plugin *jquery.at.caret* goes deprecated. Use `myElement.insertAtCursor(myString)`
 
-#### 
+#### jQuery contextMenu
 
-. .
+The jQuery-dependent contextMenu lib will be removed in a future Core release. jeeCtxMenu() replaces these functions.
 
 <details>
 
@@ -288,16 +288,16 @@
 
   
   {% raw %}
-  ({
-    selector: '.nav.!
-    appendTo: '',
-    className: '', 
+  var myCtxMenu = new jeeCtxMenu({
+    selector: '.nav.nav-tabs li', //Required!
+    appendTo: 'div#div_pageContainer',
+    className: '', //Added to menu container
     items: {
       uniqueNameID: {
-        name: '{{}}',
+        name: '{{My item}}',
         isHtmlName: false,
-        icon: '',
-        className: '', 
+        icon: 'fas fa-cogs',
+        className: '', //Added to item container
         callback: 
         }
       },
@@ -317,7 +317,7 @@
     *
     build: ) {
        = {}
-       {
+      return {
         callback: ) {
           ...
         }
@@ -340,16 +340,16 @@
 
 <details>
 
-  <summary markdown="span">exemples ()<summary>
+  <summary markdown="span">exemples jeeDialog.dialog()<summary>
 
   
   {% raw %}
-  :
+  //jQuery UI:
   $('#bt_uploadImage').fileupload({
     url: '?
     dataType: 'json',
     done: ) {
-      
+      //Do stuff
     }
   })
 
@@ -365,7 +365,7 @@
     },
     *
     done: ) {
-      
+      //Do stuff
     }
   })
 
