@@ -1,15 +1,15 @@
 {
 	"id": "piHole",
-	"name": "piHole",
+	"name": "piHole V6",
 	"description": {
-		"fr_FR": "Plugin permettant d'activer ou désactiver votre serveur pi-Hole. Un interrupteur pour le désactiver et quelques chiffres, laissez-moi savoir si vous avez besoin de plus (en fonction de ce que l'API permet)",
-		"en_US": "Plugin to enable or disable your pi-Hole server. A switch to disable it and some numbers, let me know if you need more (depending on what the API allows)",
-		"es_ES": "Plugin para activar o desactivar su servidor pi-Hole. Un interruptor para desactivarlo y algunos números, hágamelo saber si necesita más (dependiendo de lo que permite la API)",
-		"de_DE": "Plugin zum Ein- und Ausschalten Ihres pi-Hole-Servers. Ein Schalter zum Ausschalten und ein paar Zahlen, lassen Sie mich wissen, ob Sie mehr brauchen (je nachdem, was die API erlaubt)",
-		"it_IT": "Plugin per abilitare o disabilitare il vostro server pi-Hole. Un interruttore per disabilitarlo e alcuni numeri, fatemi sapere se avete bisogno di più (a seconda di ciò che l'API permette)",
-		"pt_PT": "Plugin para ativar ou desativar o seu servidor pi-Hole. Um interrutor para o desativar e alguns números, diga-me se precisar de mais (dependendo do que a API permite)"
+		"fr_FR": "Plugin permettant d'activer ou désactiver votre serveur pi-Hole V6. Un interrupteur pour le désactiver et quelques chiffres.",
+		"en_US": "Plugin to enable or disable your V6 pi-Hole server. A switch to disable it and some numbers.",
+		"es_ES": "Plugin para activar o desactivar su servidor pi-Hole V6. Un interruptor para desactivarlo y algunos números.",
+		"de_DE": "Plugin zum Ein- und Ausschalten Ihres V6 pi-Hole-Servers. Ein Schalter zum Ausschalten und ein paar Zahlen, lassen Sie mich wissen.",
+		"it_IT": "Plugin per abilitare o disabilitare il vostro server pi-Hole V6. Un interruttore per disabilitarlo e alcuni numeri.",
+		"pt_PT": "Plugin para ativar ou desativar o seu servidor pi-Hole V6. Um interrutor para o desativar e alguns números."
 	},
-	"utilization": "Récupérez l'apikey dans votre pi-Hole :<br />WEBPASSWORD dans /etc/pihole/setupVars.conf<br />ou<br />Settings &gt; API &gt; Show API token &gt; QRCode avec votre mobile, copier",
+	"utilization": "Récupérez l'app password dans votre pi-Hole V6:<br />Settings > Web Interface/API > Basic->Expert > Configure app password puis Copier le code hachuré et Enable app password<br />piHole V6 seulement, les anciennes versions ne sont plus compatibles.",
 	"licence": "AGPL",
 	"author": "Nebz",
 	"hasDependency": false,
@@ -17,13 +17,13 @@
 	"require": "3.3.24",
 	"category": "monitoring",
 	"issue": "https://github.com/NebzHB/plugin-piHole/issues",
-	"changelog": "https://nebzhb.github.io/plugin-piHole/fr_FR/changelog",
-	"changelog_beta": "https://nebzhb.github.io/plugin-piHole/fr_FR/changelog",
-	"documentation": "https://nebzhb.github.io/plugin-piHole/fr_FR/",
-	"documentation_beta": "https://nebzhb.github.io/plugin-piHole/fr_FR/",
-	"forum_link": "https://community.jeedom.com/tag/plugin-pihole",
+	"changelog": "https://nebzhb.github.io/jeedom_docs/plugins/piHole/fr_FR/changelog",
+	"changelog_beta": "https://nebzhb.github.io/jeedom_docs/plugins/piHole/fr_FR/changelog",
+	"documentation": "https://nebzhb.github.io/jeedom_docs/plugins/piHole/fr_FR/",
+	"documentation_beta": "https://nebzhb.github.io/jeedom_docs/plugins/piHole/fr_FR/",
+	"forum_link": "https://community.jeedom.com/tags/plugin-pihole",
 	"link": {
-		"forum": "https://community.jeedom.com/tag/plugin-pihole"
+		"forum": "https://community.jeedom.com/tags/plugin-pihole"
 	},
 	"language": [
 		"de_DE",
