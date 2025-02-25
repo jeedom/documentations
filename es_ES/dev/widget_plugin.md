@@ -12,7 +12,7 @@
  :
 
 ````php
-$replace = $this->preToHtml($_version)
+$replace = $this->preToHtml($_version);
  (!)) {
 	
 }
@@ -30,8 +30,8 @@ Le système de template de widget dans le code est en fait exactement le même q
 Vo un exemple :
 
 ````php
-(){
-	$return = array('info' => array('string' => array()))
+plantilla de función estática públicaWidget(){
+	$return = array('info' => array('string' => array()));
 	$return['info']['string']['state'] = array(
 		'template' => 'tmplmultistate',
 		'test' => array(
@@ -39,8 +39,8 @@ Vo un exemple :
 			array('operation' => '#value# == 3','state_light' => '<i class="fa fa-pause"></i>','state_dark' => '<i class="fa fa-pause"></i>'),
 			array('operation' => '#value# > 3 || #value# < 2','state_light' => '<i class="fa fa-home"></i>','state_dark' => '<i class="fa fa-home"></i>')
 		)
-	)
-	
+	);
+	devolver $return;
 }
 ````
 
@@ -52,25 +52,25 @@ Vo un exemple :
 
 . .
 
- :  #\_state_# (>
+Ejemplo : Para la primera prueba, decimos que si el valor del comando es 2, entonces la etiqueta deberá ser reemplazada #\_state_# (en el código html de la plantilla) por>
 
- :
+Otro ejemplo basado en otra plantilla podría ser :
 
 ````php
-(){
-	$return = array('info' => array('string' => array()))
+plantilla de función estática públicaWidget(){
+	$return = array('info' => array('string' => array()));
 	$return['info']['binary']['toto'] = array(
-		'',
-		'(
+		'plantilla' => 'tmplicon',
+		'reemplazar' => matriz(
 			'#_icon_on_#' => '<i class=\'icon_green icon jeedom-porte-ferme\'></i>',
 			'#_icon_off_#' => '<i class=\'icon_red icon jeedom-porte-ouverte\'></i>'
 			)
-	)
-	
+	);
+	devolver $return;
 }
 ````
 
-Ici, je crée un widget  basé sur le template "tmplicon" en type info et sous-type binaire. Quand il vaut 1 alors l'icône sera <i class='icon_green icon jeedom-porte-ferme'></i> et quand il vaut 0, ça sera <i class='icon_red icon jeedom-porte-ouverte'></i>
+Ici, je crée un widget toto basé sur le template "tmplicon" en type info et sous-type binaire. Quand il vaut 1 alors l'icône sera <i class='icon_green icon jeedom-porte-ferme'></i> et quand il vaut 0, ça sera <i class='icon_red icon jeedom-porte-ouverte'></i>
 
 >**TIPS**
 >
@@ -79,10 +79,10 @@ Ici, je crée un widget  basé sur le template "tmplicon" en type info et sous-t
 Ensuite, pour utiliser votre widget :
 
 ````php
-$cmd->setTemplate('dashboard','neato::state')
-$cmd->setTemplate('mobile','neato::state')
+$cmd->setTemplate('dashboard','neato::state');
+$cmd->setTemplate('mobile','neato::state');
 ````
 
-::. ::toto
+Es como un widget normal excepto por el nombre del widget que tiene el formato id_plugin::nombre_del_widget. Para el segundo ejemplo, será id_plugin::toto
 
 
