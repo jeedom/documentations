@@ -8,7 +8,7 @@
 
 ### Deprecated
 
-. **** .
+. **Veraltet** .
 
 - :: : `eqLogic::byTypeAndSearchConfiguration()`.
 - . : .
@@ -39,7 +39,7 @@ php
 
 html
 {% raw %}
-<div class="eqLogic eqLogic-widg allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#height: #height##style#">
+<div class="eqLogic eqLogic-widgUnd allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#height: #height##style#">
   <div class="#isVerticalAlign#">
     <center>
       #cmd#
@@ -86,7 +86,7 @@ html
     
   }
   {% endraw %}
-  
+  ~~~
 
   .
 
@@ -94,7 +94,7 @@ html
 
 #### 
 
-. ** ** ** **  **.
+. ** ** ** ** Und **.
 
 .
 
@@ -119,7 +119,7 @@ html
 
   <summary markdown="span">Par exemple :<summary>
 
-  
+  ~~~ html
   {% raw %}
   <legend><i class="fa fa-table"><i> {{Mes Equipemnts}}<legend>
   <div class="input-group" style="margin-bottom:5px">
@@ -130,7 +130,7 @@ html
     <div>
   <div>
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -152,7 +152,7 @@ html
 
   <summary markdown="span"> d'event js<summary>
 
-  
+  ~~~
   {% raw %}
   $('#bt_pluginDisplayAsTable').off('click').on('click', function () {
     $('#bt_pluginDisplayAsTable[data-coreSupport="1"]').off('click').on('click', function () {
@@ -172,7 +172,7 @@ html
     })
   })
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -182,7 +182,7 @@ html
 
   <summary markdown="span">plugin. js<summary>
 
-  
+  ~~~
   {% raw %}
   :
   ').length) {
@@ -213,7 +213,7 @@ html
     })
   }
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -251,7 +251,7 @@ html
     ?>
   <div>
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -272,9 +272,9 @@ html
 
 <details>
 
-  <summary markdown="span"> de code de Widg avec template<summary>
+  <summary markdown="span"> de code de WidgUnd avec template<summary>
 
-  
+  ~~~ html
   <div class=" cmd-widget" ...>
     <div class="title #hide_name#">
       <div class="cmdName">#name_display#<div>
@@ -289,7 +289,7 @@ html
     <script>
     <script>
   <div>
-  
+  ~~~
 
 <details>
 

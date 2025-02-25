@@ -49,7 +49,7 @@
     $scenario->setLog('No plugin found for ' . $author);
   }
   {% endraw %}
-  
+  ~~~
 
 </details>
 
