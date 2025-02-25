@@ -87,7 +87,7 @@ json
 }
 
 
- : ``apt``, `` (npm)`` , ``pip2`` Und ``pip3``, .
+ : ``apt``, `` (npm)`` , ``pip2``  ``pip3``, .
 
 . .
 
