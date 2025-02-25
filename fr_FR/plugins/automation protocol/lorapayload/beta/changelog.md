@@ -6,7 +6,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 21/02/2025 (Beta)
+# 24/02/2025 (Beta)
 
 - Regénération de l'équipement dans Chirpstack avec le bouton "Regénérer la configuration LoRaWAN"
 
@@ -49,6 +49,12 @@
 - Ajout du produit *Milesight TS30x - Temperature Sensor*
 
 - Ajout du produit *Watteco In'O*
+
+- Ajout du produit *Milesight UC100 - IoT Controller*
+
+- Ajout du produit *Milesight UC300 - IoT Controller*
+
+- Ajout du champ *Remarque* pour les modules
 
 # 31/12/2024
 

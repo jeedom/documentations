@@ -38,17 +38,23 @@
 
 - Mise à jour du décodeur *Ewattch Calamar Pro Rogowski*
 
--  **
+- Ajout du produit *MClimate - 16A Switch & Power Meter LoRaWAN*
 
-- 
+- Ajout de la possibilité d'envoyer deux downlinks dans la même commande Action
 
--  **
+- Ajout du produit *Dragino T68DL - Temperature Sensor*
 
--  **
+- Ajout du produit *Milesight TS201 - Temperature Sensor*
 
--  **
+- Ajout du produit *Milesight TS30x - Temperature Sensor*
 
--  **
+- Ajout du produit *Watteco In'O*
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+-  ** 
 
 # 31/12/2024
 
