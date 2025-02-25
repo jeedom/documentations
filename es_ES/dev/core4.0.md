@@ -13,7 +13,7 @@
 
 ..
 
-Ejemplo ****: `"compatibility" : 
+ ****: `"compatibility" : 
 
 :
 

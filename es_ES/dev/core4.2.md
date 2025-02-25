@@ -39,7 +39,7 @@ php
 
 html
 {% raw %}
-<div class="eqLogic eqLogic-widg allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#;height: #height#;#style#">
+<div class="eqLogic eqLogic-widg allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#height: #height##style#">
   <div class="#isVerticalAlign#">
     <center>
       #cmd#
@@ -67,9 +67,9 @@ html
   
   {% raw %}
   ) {
-    $return = array();
+    $return = array()
     ::) {
-      $eqLogic_json = json_encode(utils::o2a($eqLogic));
+      $eqLogic_json = json_encode(utils::o2a($eqLogic))
       #([0-9]*)#
       ) {
         )) {
@@ -78,12 +78,12 @@ html
               '?>',
               '),
               'who' => '#' . $cmd_id . '#'
-            );
+            )
           }
         }
       }
     }
-    devolver $return;
+    
   }
   {% endraw %}
   
@@ -122,7 +122,7 @@ html
   
   {% raw %}
   <legend><i class="fa fa-table"><i> {{Mes Equipemnts}}<legend>
-  <div class="input-group" style="margin-bottom:5px;">
+  <div class="input-group" style="margin-bottom:5px">
     <input class="form-control roundedLeft" placeholder="{{Rechercher}}" id="in_searchEqlogic">
     <div class="input-group-btn">
       <a id="bt_resetObjectSearch" class="btn" style="width:30px"><i class="fas fa-times"><i>
@@ -150,7 +150,7 @@ html
 
 <details>
 
-  <summary markdown="span">Ejemplo d'event js<summary>
+  <summary markdown="span"> d'event js<summary>
 
   
   {% raw %}
@@ -238,14 +238,14 @@ html
   <div class="eqLogicThumbnailContainer">
     <?php
       ) {
-        $div = '';
-        $opacity = ($eqLogic->getIsEnable()) ? '' : 'disableCard';
-        $div .= '<div class="eqLogicDisplayCard cursor '.$opacity.'" data-eqLogic_id="' . $eqLogic->getId() . '">';
-        $div .= '<img src="' . $plugin->getPathImgIcon() . '">';
-        $div .= '<br>';
-        $div .= '<span class="name">' . $eqLogic->getHumanName(true, true) . '<span>';
-        $div .= '<span class="hidden hiddenAsCard displayTableRight">'.$eqLogic->getConfiguration('autorefresh').' | '.$eqLogic->getConfiguration('loglasttime').'h<span>';
-        $div .= '<div>';
+        $div = ''
+        $opacity = ($eqLogic->getIsEnable()) ? '' : 'disableCard'
+        $div .= '<div class="eqLogicDisplayCard cursor '.$opacity.'" data-eqLogic_id="' . $eqLogic->getId() . '">'
+        $div .= '<img src="' . $plugin->getPathImgIcon() . '">'
+        $div .= '<br>'
+        $div .= '<span class="name">' . $eqLogic->getHumanName(true, true) . '<span>'
+        $div .= '<span class="hidden hiddenAsCard displayTableRight">'.$eqLogic->getConfiguration('autorefresh').' | '.$eqLogic->getConfiguration('loglasttime').'h<span>'
+        $div .= '<div>'
         
       }
     ?>
@@ -272,7 +272,7 @@ html
 
 <details>
 
-  <summary markdown="span">Ejemplo de code de Widg avec template<summary>
+  <summary markdown="span"> de code de Widg avec template<summary>
 
   
   <div class=" cmd-widget" ...>
@@ -322,7 +322,7 @@ js
 
 > .
 
-Ejemplo :
+ :
 
 html
 <div class="content-xs">
@@ -388,7 +388,7 @@ php
                 '',
                 '')
             )
-        );
+        )
         
     }
 
