@@ -6,6 +6,8 @@
 
 - Bessere Verwaltung von Cloud-Anfragen
 - Ereigniscodes zur Fernbedienung hinzugefügt (Raumsteuerung))
+- 
+- 
 
 # 07.09.2024
 

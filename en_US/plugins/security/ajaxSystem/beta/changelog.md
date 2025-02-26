@@ -6,6 +6,8 @@
 
 - Better cloud query management
 - Adding event codes to the remote control (space control)
+- 
+- 
 
 # 07/09/2024
 

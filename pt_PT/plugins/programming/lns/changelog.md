@@ -4,6 +4,14 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 
+
+- 
+
+# 12/10/2024
+
+- Cron diário para Backup Chirpstack
+
 # 30/07/2024
 
 - Criando um aplicativo automaticamente no Chirpstack

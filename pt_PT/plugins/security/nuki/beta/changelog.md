@@ -4,7 +4,7 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-## 18/11/2024
+## 
 
 - Pequenas otimizações para evitar avisos caso um bloqueio não possa ser alcançado (falha da bateria, por exemplo))
 - Versão Jeedom 4.4 obrigatório
@@ -13,6 +13,7 @@
 - Adição de uma configuração de plug-in para o tempo limite da solicitação, bem como o número de tentativas de comandos de ação
 - Configurando tipos genéricos padrão em comandos (somente para comandos recém-criados)
 - Fix: os pedidos não foram criados após a primeira sincronização, foi necessária uma segunda sincronização.
+- 
 
 # 18/07/2020
 

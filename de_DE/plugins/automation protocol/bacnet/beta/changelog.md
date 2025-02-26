@@ -1,28 +1,34 @@
 # Changelog-Bacnet
 
-
 >**WICHTIG**
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 
-# 11.08.2024
+# 
 
-- Behebung eines Python3-Speicherlecks
+- 
+
+# 19/02/2025
+
+- Fix une fuite de mémoire sur le démon
+- Plusieurs corrections de bugs mineurs
+- Optimisation du code
+- Compatibilité Debian 12
+- Debian 11 requis
+- Jeedom v4.4.8 requis
 
 # 28.10.2024
 
 - Fix für CPU-Auslastung
 - Threading zum Lesen von Daten
-- Codeoptimierung
+- Optimisation du code
 - Beheben Sie mögliche Nullwerte
-
 
 # 27.03.2024
 
 - Korrigieren Sie die OnOff-Befehle
 - Modale Ergänzung für die Bacnet-Punkteverwaltung (Befehle nach ihren Bacnet-Attributen umbenennen))
-
 
 # 21.06.2023
 
@@ -31,7 +37,6 @@
 # 25.05.2023
 
 - Hinzufügung des Felds „Schreibpriorität“ auf Befehl (siehe Ende der Dokumentation))
-
 
 # 11.05.2023
 

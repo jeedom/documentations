@@ -1,7 +1,7 @@
 {
 	"id": "MyTado",
 	"name": "MyTado",
-	"version": "3.1",
+	"version": "4.1",
 	"description": {
 		"fr_FR": "Ce plugin permet de gérer vos objets connectés Tado et TadoX. Il donne également accès à la météo Tado.",
 		"en_US": "This plugin enables management of your Tado and TadoX devices. You may as well access weather data managed by Tado.",
@@ -34,9 +34,11 @@
 	],
 	"compatibility": [
 		"luna",
+		"atlas",
 		"mobile",
 		"v4",
 		"docker",
-		"rpi"
+		"rpi",
+		"debian12"
 	]
 }

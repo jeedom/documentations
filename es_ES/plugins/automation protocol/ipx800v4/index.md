@@ -105,15 +105,12 @@ Aquí está la sintaxis para usar en una inserción IPX a :
 - Actualización de todas las entradas digitales : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allD&data=$D``
 - Actualización de todos los relés : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allR&data=$R``
 - Actualización de todas las salidas virtuales : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allVO&data=$VO``
-- Actualizar una sola variable : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=A&data=$B`` con ``A`` quien toma los valores ``D``, ``R`` o ``VO`` y ``B`` que toma la referencia del valor a enviar en el IPX (por ejemplo ``D1`` o ``VO1`` o ``R1``...)
 
 Entonces te hará una escena por tipo (entrada, retransmisión ...) con :
 
 - Evento : ``ON EVENT`` y elija el tipo deseado (por ejemplo, salidas físicas)
 - Acción : ``ON``
 - Resultado : ``PUSH`` y elija el empuje correspondiente (por ejemplo, Jeedom Relais)
-
-
 
 # Template
 

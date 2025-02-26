@@ -1,28 +1,34 @@
 # Changelog Bacnet
 
-
 >**IMPORTANTE**
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
 
-# 11/08/2024
+# 
 
-- Corrigir vazamento de memória do Python3
+- 
+
+# 19/02/2025
+
+- Fix une fuite de mémoire sur le démon
+- Plusieurs corrections de bugs mineurs
+- Optimisation du code
+- Compatibilité Debian 12
+- Debian 11 requis
+- Jeedom v4.4.8 requis
 
 # 28/10/2024
 
 - Correção para uso da CPU
 - Threading para leitura de dados
-- Otimização de código
+- Optimisation du code
 - Corrija possíveis valores nulos
-
 
 # 27/03/2024
 
 - Corrigir comandos OnOff
 - Adição Modal para Gerenciamento de Pontos Bacnet (renomear comandos por seus atributos bacnet Descrição)
-
 
 # 21/06/2023
 
@@ -31,7 +37,6 @@
 # 25/05/2023
 
 - Adição do campo de Prioridade de Gravação no comando (veja o final da documentação)
-
 
 # 11/05/2023
 

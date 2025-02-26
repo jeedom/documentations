@@ -6,6 +6,8 @@
 
 - Melhor gerenciamento de solicitações de nuvem
 - Adicionados códigos de evento ao controle remoto (controle de espaço)
+- 
+- 
 
 # 09/07/2024
 

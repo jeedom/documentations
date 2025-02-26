@@ -1,7 +1,7 @@
 {
     "id": "SomfyUnified",
     "name": "SomfyUnified",
-    "pluginVersion": "2.2.3",
+    "pluginVersion": "2.2.5",
     "description": {
         "fr_FR": "Plugin destiné à permettre une interface entre Jeedom et les équipements connectés via les API OverKiz (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz). Suporte également les équipements Cozytouch WiFi Direct (Naviclim, Navilink).",
         "de_DE": "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz). Also suitable for Cozytouch WiFi Direct  (Naviclim, Navilink).",
@@ -30,8 +30,7 @@
     "documentation_beta": "https://eridani78.github.io/SomfyUnified-Doc/#language#/",
     "documentation": "https://eridani78.github.io/SomfyUnified-Doc/#language#/",
     "link": {
-        "forum": "https://community.jeedom.com/tag/plugin-somfyunified",
-        "video": null
+        "forum": "https://community.jeedom.com/tag/plugin-somfyunified"
     },
     "language": [
         "fr_FR",

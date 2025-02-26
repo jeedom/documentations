@@ -4,9 +4,9 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 
+# 14/01/2025
 
-- 
+- Mise à jour de la doc
 
 # 07/01/2025
 

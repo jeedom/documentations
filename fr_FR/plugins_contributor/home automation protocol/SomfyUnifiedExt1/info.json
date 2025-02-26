@@ -1,0 +1,47 @@
+{
+    "id": "SomfyUnifiedExt1",
+    "name": "SomfyUnifiedExt1",
+    "pluginVersion": "1.0.0",
+    "description": {
+        "fr_FR": "Plugin Extension1 du plugin SomfyUnified."
+    },
+    "utilization": "Pour être actif, ce plugin nécessite que le plugin SomfyUnified soit installé sur votre Jeedom.",
+    "licence": "AGPL",
+    "author": "Eridani78",
+    "require": "4.2",
+    "os": {
+        "min": 11,
+        "max": 12.99
+    },
+    "category": "home automation protocol",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 20,
+    "changelog_beta": "https://eridani78.github.io/SomfyUnified-Doc/#language#/changelog",
+    "changelog": "https://eridani78.github.io/SomfyUnified-Doc/#language#/changelog",
+    "documentation_beta": "https://eridani78.github.io/SomfyUnified-Doc/#language#/",
+    "documentation": "https://eridani78.github.io/SomfyUnified-Doc/#language#/",
+    "link": {
+        "forum": "https://community.jeedom.com/tag/plugin-somfyunified"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "smart",
+        "luna",
+        "atlas",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile"
+    ]
+}

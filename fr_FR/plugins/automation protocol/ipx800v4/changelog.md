@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 20/02/2025
+
+- Correction d'un soucis sur l'envoi de la commande stop pour les volets roulant
+- Correction d'un bug lors du backup de l'ipx si le port n'est pas le 80
+
 # 26/08/2024
 
 - Support des volets roulants EnOcean
