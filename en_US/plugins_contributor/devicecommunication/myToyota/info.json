@@ -1,23 +1,28 @@
 {
-	"id" : "myToyota",
-	"name" : "myToyota",
-	"description" : {
-		"fr_FR": "Plugin permettant l'interrogation des services myToyota (attention: ne fonctionne pas pour les véhicules encore sous myT) pour Jeedom"
+	"id": "myToyota",
+	"name": "myToyota",
+	"description": {
+		"fr_FR": "Plugin permettant l'interrogation des services myToyota (attention: ne fonctionne pas pour les véhicules encore sous myT) pour Jeedom",
+		"en_US": "Plugin for querying myToyota services (warning: does not work for vehicles still running myT) for Jeedom",
+		"de_DE": "Plugin zur Abfrage der myToyota-Dienste (Achtung: funktioniert nicht für Fahrzeuge, die noch unter myT laufen) für Jeedom",
+		"it_IT": "Plugin per l'interrogazione dei servizi myToyota (attenzione: non funziona per i veicoli che utilizzano ancora myT) per Jeedom",
+		"pt_PT": "Plugin para consultar os serviços myToyota (aviso: não funciona em veículos que ainda utilizam myT) para Jeedom",
+		"es_ES": "Plugin para consultar los servicios myToyota (advertencia: no funciona para los vehículos que aún ejecutan myT) para Jeedom"
 	},
-	"licence" : "AGPL",
-	"author" : "Noyax37",
-	"require" : "4.2.0",
+	"licence": "AGPL",
+	"author": "Noyax37",
+	"require": "4.2.0",
 	"display": "panel",
-	"category" : "devicecommunication",
-	"hasDependency" : true,
-	"hasOwnDeamon" : false,
-	"maxDependancyInstallTime" : 120,
-	"changelog" : "https://github.com/Noyax-37/myToyota/blob/master/docs/fr_FR/changelog.md",
-	"documentation" : "https://github.com/Noyax-37/myToyota/blob/master/docs/fr_FR/index.md",
-	"changelog_beta" : "https://github.com/Noyax-37/myToyota/blob/develop/docs/fr_FR/changelog.md",
-	"documentation_beta" : "https://github.com/Noyax-37/myToyota/blob/develop/docs/fr_FR/index.md",
-	"link" : {
-		"forum":"https://community.jeedom.com/tag/plugin-mytoyota"
+	"category": "devicecommunication",
+	"hasDependency": true,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 120,
+	"changelog": "https://github.com/Noyax-37/myToyota/blob/master/docs/fr_FR/changelog.md",
+	"documentation": "https://github.com/Noyax-37/myToyota/blob/master/docs/fr_FR/index.md",
+	"changelog_beta": "https://github.com/Noyax-37/myToyota/blob/develop/docs/fr_FR/changelog.md",
+	"documentation_beta": "https://github.com/Noyax-37/myToyota/blob/develop/docs/fr_FR/index.md",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-mytoyota"
 	},
 	"language": [
 		"de_DE",
