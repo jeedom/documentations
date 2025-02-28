@@ -1,4 +1,4 @@
-## Core v4.1 | Plugin Developers
+## .1 | 
 
 ### Obsolete
 

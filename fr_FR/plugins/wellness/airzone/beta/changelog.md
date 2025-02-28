@@ -14,6 +14,11 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 
+## 27/02/2025
+
+- Fix rafraichissement des consignes après changement de mode
+
+
 ## 23/01/2025
 
 - Ajout Option à cocher si l'equipement est un WebServer

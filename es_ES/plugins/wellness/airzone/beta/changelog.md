@@ -14,6 +14,11 @@
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
 
+## 
+
+- 
+
+
 ## 23/01/2025
 
 - Ajout Option à cocher si l'equipement est un WebServer
