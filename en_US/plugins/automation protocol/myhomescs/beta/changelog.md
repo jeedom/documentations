@@ -4,14 +4,14 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 
+# 25/02/2025
 
-- 
-- 
-- 
-- 
-- .
-- 
+- Corrections de bugs
+- Utilisation de l'apikey du plugin à la place de celle du core
+- Migration python3
+- Compatibilité Debian 11 & 12
+- Jeedom v4.4 minimum requis
+- Debian 11 minimum requis
 
 # 05/10/2020
 

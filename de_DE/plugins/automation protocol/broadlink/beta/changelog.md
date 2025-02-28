@@ -6,12 +6,9 @@
 
 # 
 
--  **** 
-
-# 27.12.2024
-
 - Beheben Sie einen Speicherverlust im Daemon
 - Behebung eines Problems bei der Installation von Abhängigkeiten, das bei bestimmten Installationen auftreten konnte
+- Suppression de **l'installation** de 2 dépendances (`pycrypto` & `asn1crypto`) qui ne sont plus utiles pour le plugin
 - Schnittstellenmodernisierung
 - Debian 11 erforderlich
 - Debian 12-Kompatibilität

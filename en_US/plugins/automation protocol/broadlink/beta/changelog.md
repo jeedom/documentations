@@ -6,12 +6,9 @@
 
 # 
 
--  **** 
-
-# 12/27/2024
-
 - Fix memory leak on daemon
 - Fixed a dependency installation issue that could occur on some installations
+- Suppression de **l'installation** de 2 dépendances (`pycrypto` & `asn1crypto`) qui ne sont plus utiles pour le plugin
 - Interface modernization
 - Debian 11 required
 - Debian 12 Compatibility

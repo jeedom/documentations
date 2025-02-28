@@ -6,12 +6,9 @@
 
 # 
 
--  **** 
-
-# 27/12/2024
-
 - Reparar una pérdida de memoria en el demonio
 - Solucionar un problema al instalar dependencias que podrían ocurrir en ciertas instalaciones
+- Suppression de **l'installation** de 2 dépendances (`pycrypto` & `asn1crypto`) qui ne sont plus utiles pour le plugin
 - Modernización de la interfaz
 - Se requiere Debian 11
 - Compatibilidad con Debian 12

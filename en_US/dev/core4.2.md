@@ -1,4 +1,4 @@
-## .2 | 
+## Core v4.2 | Plugin Developers
 
 
 ### Obsolete
@@ -64,7 +64,7 @@ html
 
   <summary markdown="span">eqLogic deadCmdGeneric()<summary>
 
-  
+  ~~~ php
   {% raw %}
   ) {
     $return = array()
@@ -86,7 +86,7 @@ html
     
   }
   {% endraw %}
-  
+  ~~~
 
   .
 
@@ -130,7 +130,7 @@ html
     <div>
   <div>
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -150,7 +150,7 @@ html
 
 <details>
 
-  <summary markdown="span"> d'event js<summary>
+  <summary markdown="span">Example d'event js<summary>
 
   
   {% raw %}
@@ -162,7 +162,7 @@ html
         $('.eqLogicDisplayCard').addClass('displayAsTable')
         $('.eqLogicDisplayCard .hiddenAsCard').removeClass('hidden')
         $('.eqLogicThumbnailContainer').first().addClass('containerAsTable')
-      }  {
+      } else {
         $(this).data('state', '0').removeClass('active')
         )
         $('.eqLogicDisplayCard').removeClass('displayAsTable')
@@ -172,7 +172,7 @@ html
     })
   })
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -203,7 +203,7 @@ html
         $('.eqLogicDisplayCard').addClass('displayAsTable')
         $('.eqLogicDisplayCard .hiddenAsCard').removeClass('hidden')
         $('.eqLogicThumbnailContainer').first().addClass('containerAsTable')
-      }  {
+      } else {
         $(this).data('state', '0').removeClass('active')
         )
         $('.eqLogicDisplayCard').removeClass('displayAsTable')
@@ -213,7 +213,7 @@ html
     })
   }
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -233,7 +233,7 @@ html
 
   <summary markdown="span">Par exemple :<summary>
 
-  
+  ~~~ php
   {% raw %}
   <div class="eqLogicThumbnailContainer">
     <?php
@@ -251,7 +251,7 @@ html
     ?>
   <div>
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -272,7 +272,7 @@ html
 
 <details>
 
-  <summary markdown="span"> de code de Widg avec template<summary>
+  <summary markdown="span">Example de code de Widg avec template<summary>
 
   
   <div class=" cmd-widget" ...>
@@ -289,7 +289,7 @@ html
     <script>
     <script>
   <div>
-  
+  ~~~
 
 <details>
 
@@ -306,7 +306,7 @@ html
 js
  !== 'undefined') {
   ')
-}  {
+} else {
   ')
 }
 
@@ -322,7 +322,7 @@ js
 
 > .
 
- :
+Example :
 
 html
 <div class="content-xs">

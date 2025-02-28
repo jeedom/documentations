@@ -1,71 +1,37 @@
-Plugin for interfacing with broadlink equipment
+# Broadlink plug-in
 
-Plugin configuration 
-=======================
+Plugin to interface Jeedom with Broadlink equipment.
 
-After installing the plugin, you must activate it and make sure that
-good installation of outbuildings.
+# Plugin configuration
 
-> **Important**
+After installing the plugin, it must be activated and ensure the correct installation of dependencies.
+
+>**Important**
 >
-> It is not recommended to change the port
+>It is not recommended to change the internal socket port.
 
-Inclusion of equipment 
-=========================
+# Inclusion of equipment
 
-Aller dans le menu Plugins &gt; Protocole Domotique &gt; Broadlink. Une
-Once on the page click on INCLUSION MODE. Logically the whole
-Broadlink products in your network will be recognized.
+Go to the Plugins menu => Home automation protocol => Broadlink. Once on the page, click on the INCLUDE button. Logically, all the Broadlink products in your network will be recognized.
 
-Equipment configuration 
-=============================
+# Equipment configuration
 
-Select one of your equipment. If these are type products
-Infrared, a button to learn a command appears at the top. There you
-just click on it, you then have 5 seconds to learn
-an infrared or 433 command to your broadlink. Following this the plugin
-will confirm the success of the operation and create the associated order
-you just need to name. There is also an advanced mode 
-to possibly detect slightly different Rf frequencies.
-This mode works in two stages, one frequency detection stage 
-(or you have to keep pressing the button or pressing it several times).
-And a second step similar to classic mode.
+Select one of your equipment. If these are Infrared type products, a learn a command button appears at the top. Just click on it, then you have 5 seconds to learn an infrared command or 433 to your broadlink. Following this, the plugin will confirm the success of the operation and will create the associated command that you simply need to name.
 
-> **Tip**
+>**INFORMATION**
 >
-> To avoid learning what could come from the environment
-> (remote control from a neighbor or other), the broadlink in
-> learning VOLUNTARILY goes into a very reception level
-> weak, so you have to be VERY close to the broadlink to learn a
-> order especially if it is a 433Mhz order.
+>To avoid learning what might come from the environment *(remote control from a neighbor or other)*, the Broadlink in learning mode VOLUNTARILY goes to a very low reception level, so you have to be VERY close to the Broadlink to learn a command, especially if it is a 433Mhz command.
 
-Synchronize 
-============
+# Synchroniser
 
-On the Equipment controls tab you find the button
-Synchronize. If you have more than one broadlink you can
-transfer learned commands from one broadlink to another.
+On the Commands tab of an equipment you find the Synchronize button. If you have several broadlinks you can transfer the commands learned from one broadlink to another.
 
-> **Tip**
+>**INFORMATION**
 >
-> It works from a rm-pro to a mini or vice versa.
+>It works from a rm-pro to a mini or vice versa.
 
-You can choose the orders to transfer as well as the broadlinks
-to which you want to transfer them. (The name of the order will be
-obviously convervated (TV ON, fan off, etc.)
+You can choose the orders to transfer as well as the broadlinks to which you want to transfer them. (The name of the command will of course be converted (TV ON, fan off, etc.)
 
-> **Tip**
+>**INFORMATION**
 >
-> If you manually added your device because not auto-detected. The MAC to inform is 
-> reverse MAC address in packet of two in lower case without : example AA:BB:CC:DD:EE
-> becomes eeddccbbaa
-
-> **Tip**
->
-> For some RM Pro including versions 4. The device must not be linked to the cloud.
-> Otherwise it is no longer controllable locally. To do this you have to add the device using the application.
-> But don't continue once it's added to your wifi (don't add it to a room or anything). It has to stop
-> at this moment.
-
-Changelog detailed :
-<https://github.com/jeedom/plugin-broadlink/commits/stable>
+>If you manually add your device because not autodetected. The MAC address to be entered is the reverse MAC address per packet of two in lowercase without the colons *(example AA:BB:CC:DD:EE becomes eeddccbbaa)*.

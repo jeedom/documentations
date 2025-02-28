@@ -1,4 +1,4 @@
-## .4 | 
+## Core v4.4 | Plugin Developers
 
 ###  ...
 
@@ -78,7 +78,7 @@
   })
 
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -129,7 +129,7 @@
   <input id="myTime" class="in_timepicker">
   <input id="myCustomDatetime">
   {% endraw %}
-  
+  ~~~
 
   
   {% raw %}
@@ -138,7 +138,7 @@
 
   :i:
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -205,7 +205,7 @@
     source: dataArray
   })
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -233,13 +233,13 @@
   ?', ) {
     ) {
       
-    }  {
+    } else {
       
     }
   })
 
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -265,7 +265,7 @@
   })
 
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -330,7 +330,7 @@
   })
 
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -370,7 +370,7 @@
   })
 
   {% endraw %}
-  
+  ~~~
 
 <details>
 
