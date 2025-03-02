@@ -1342,7 +1342,7 @@
     },
     "plugins_contributor\/weather\/index.md": {
         "Un widget est fourni permettant d'afficher la météo sous une horloge similaire à celle du plugin horlogeHTC": "A widget is provided to display the weather under a clock similar to the one in the HTC clock plugin",
-        "Weather Forecast": "Weather Forecast",
+        "Weather Forecast, CAP alerts": "",
         "Ce plugin permet de récupérer la météo actuelle et les prévisions météorologiques sur quelques jours en utilisant les sources OpenWeather ou WeatherAPI": "This plugin allows to retrieve current weather and weather forecast for a few days using OpenWeather or WeatherAPI sources",
         "Température": "Temperature",
         "Plugin pour calculer le windchill et l'indice de température": "Plugin to calculate windchill and temperature index",
@@ -1377,7 +1377,7 @@
         "Pluie (Temps réel + sur 1h + sur la journée": "Rain (Real time + over 1h + over the day",
         "Display your favorite weather stations (owned or public) from Netatmo, for free": "Display your favorite weather stations (owned or public) from Netatmo, for free",
         "le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo": "dew point, icing point, absolute humidity and weather trend",
-        "Les heures de lever et coucher du soleil sont calculées sans connexion externe": "Sunrise and sunset times are calculated without external connection",
+        "Les alertes météos de Meteoalarm ou Météo France sont aussi récupérées": "",
         " Previsy.": " Previsy.",
         " Previsy?": " Previsy?",
         "Previsy ": "Previsy ",

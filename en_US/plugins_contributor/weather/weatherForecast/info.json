@@ -1,24 +1,27 @@
 {
-	"id": "weatherForecast",
-	"name": "Weather Forecast",
-	"description": {
-		"fr_FR": "Ce plugin permet de récupérer la météo actuelle et les prévisions météorologiques sur quelques jours en utilisant les sources OpenWeather ou WeatherAPI. Les heures de lever et coucher du soleil sont calculées sans connexion externe. Un widget est fourni permettant d'afficher la météo sous une horloge similaire à celle du plugin horlogeHTC."
-	},
-	"utilization": "Renseignez vos clés API openweathermap et/ou weatherapi dans la configuration du plugin. Créez un équipement, choisissez la source de données OpenWeather ou WeatherAPI et indiquez les coordonnées du lieu désiré.",
-	"licence": "AGPL",
-	"author": "jpty",
-	"require": "3.3",
-	"category": "weather",
-	"changelog": "https://jpty.github.io/jeedom/plugins/weatherForecast/fr_FR/changelog.html",
-	"changelog_beta": "https://jpty.github.io/jeedom/plugins/weatherForecast/fr_FR/changelog.html",
-	"documentation": "https://jpty.github.io/jeedom/plugins/weatherForecast/",
-	"documentation_beta": "https://jpty.github.io/jeedom/plugins/weatherForecast/",
-	"compatibility": [
-		"smart",
-		"diy",
-		"v4"
-	],
-	"language": [
+  "id": "weatherForecast",
+  "name": "Weather Forecast, CAP alerts",
+  "description": {
+      "fr_FR": "Ce plugin permet de récupérer la météo actuelle et les prévisions météorologiques sur quelques jours en utilisant les sources OpenWeather ou WeatherAPI. Les alertes météos de Meteoalarm ou Météo France sont aussi récupérées. Un widget est fourni permettant d'afficher la météo sous une horloge similaire à celle du plugin horlogeHTC.",
+      "en_US": "This plugin allows you to retrieve the current weather and the weather forecast for a few days using OpenWeather or WeatherAPI sources. Weather alerts from Meteoalarm or Météo France are also retrieved. A widget is provided to display the weather under a clock similar to that of the horlogeHTC plugin.",
+      "de_DE": "Dieses Plugin ermöglicht das Abrufen des aktuellen Wetters und der Wettervorhersage für einige Tage unter Verwendung von OpenWeather- oder WeatherAPI-Quellen. Auch Wetterwarnungen von Meteoalarm oder Météo France werden abgerufen. Es steht ein Widget zur Verfügung, um das Wetter unter einer Uhr anzuzeigen, ähnlich dem Plugin horlogeHTC.",
+      "es_ES": "Este complemento permite recuperar el clima actual y el pronóstico del tiempo para algunos días utilizando fuentes OpenWeather o WeatherAPI. También se recuperan alertas meteorológicas de Meteoalarm o Météo France. Se proporciona un widget para mostrar el clima debajo de un reloj similar al complemento horlogeHTC."
+  },
+  "utilization": "Renseignez vos clés API openweathermap et/ou weatherapi dans la configuration du plugin. Créez un équipement, choisissez la source de données OpenWeather ou WeatherAPI et indiquez les coordonnées du lieu désiré.",
+  "licence": "AGPL",
+  "author": "jpty",
+  "require": "3.3",
+  "category": "weather",
+  "changelog": "https://jpty.github.io/jeedom/plugins/weatherForecast/fr_FR/changelog.html",
+  "changelog_beta": "https://jpty.github.io/jeedom/plugins/weatherForecast/fr_FR/changelog.html",
+  "documentation": "https://jpty.github.io/jeedom/plugins/weatherForecast/",
+  "documentation_beta": "https://jpty.github.io/jeedom/plugins/weatherForecast/",
+  "compatibility": [
+    "smart",
+    "diy",
+    "v4"
+  ],
+  "language": [
 		"de_DE",
 		"en_US",
 		"es_ES",

@@ -1342,7 +1342,7 @@
     },
     "plugins_contributor\/weather\/index.md": {
         "Un widget est fourni permettant d'afficher la météo sous une horloge similaire à celle du plugin horlogeHTC": "Es steht ein Widget zur Verfügung, mit dem Sie das Wetter unter einer Uhr anzeigen können, ähnlich der des HTC-Uhr-Plugins",
-        "Weather Forecast": "Wettervorhersage",
+        "Weather Forecast, CAP alerts": "",
         "Ce plugin permet de récupérer la météo actuelle et les prévisions météorologiques sur quelques jours en utilisant les sources OpenWeather ou WeatherAPI": "Mit diesem Plugin können Sie das aktuelle Wetter und Wettervorhersagen über mehrere Tage mithilfe von OpenWeather- oder WeatherAPI-Quellen abrufen",
         "Température": "Temperatur",
         "Plugin pour calculer le windchill et l'indice de température": "Plugin zur Berechnung von Windchill und Temperaturindex",
@@ -1377,7 +1377,7 @@
         "Pluie (Temps réel + sur 1h + sur la journée": "Regen (Echtzeit + über 1 Stunde + über den Tag",
         "Display your favorite weather stations (owned or public) from Netatmo, for free": "Zeigen Sie Ihre bevorzugten Wetterstationen (im Besitz oder öffentlich) von Netatmo kostenlos an",
         "le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo": "Taupunkt, Vereisungspunkt, absolute Luftfeuchtigkeit und Wettertrend",
-        "Les heures de lever et coucher du soleil sont calculées sans connexion externe": "Sonnenauf- und -untergangszeiten werden ohne externe Verbindung berechnet",
+        "Les alertes météos de Meteoalarm ou Météo France sont aussi récupérées": "",
         " Previsy.": " Previsy.",
         " Previsy?": " Previsy?",
         "Previsy ": "Previsy ",
