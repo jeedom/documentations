@@ -50,11 +50,13 @@
 
 - Ajout du produit *Watteco In'O*
 
-- Ajout du produit **
+- Ajout du produit *Milesight UC100 - IoT Controller*
 
-- Ajout du produit **
+- Ajout du produit *Milesight UC300 - IoT Controller*
 
--  ** 
+- Ajout du champ *Remarque* pour les modules
+
+-  **
 
 # 31/12/2024
 
