@@ -4,7 +4,7 @@
 
 # Exemples
 
-json
+```json
 {
   "apt" : {
     "git" : {},
@@ -35,9 +35,9 @@ json
     "script" : ""
   }
 }
+```
 
-
-json
+```json
 {
   "apt" : {
     "libav-tools" : {"alternative" : "]},
@@ -49,9 +49,9 @@ json
     "" : true
   }
 }
+```
 
-
-json
+```json
 {
   "apt" : {
     "" : {},
@@ -74,9 +74,9 @@ json
     "bellows" : {"reinstall" : true}
   }
 }
+```
 
-
-json
+```json
 {
   "apt" : {
     "nodejs" : {}
@@ -85,9 +85,9 @@ json
     ""  : {}
   }
 }
+```
 
-
- : ``apt``, `` (npm)`` , ``pip2``  ``pip3``, .
+ : ``apt``, `` (npm)`` , ``pip2`` And ``pip3``, .
 
 . .
 
