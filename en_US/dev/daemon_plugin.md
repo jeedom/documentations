@@ -468,7 +468,7 @@ php
  {
     
 
-    if (!jeedom::
+     (!jeedom::
         
         die();
     }
@@ -477,7 +477,7 @@ php
         die();
     }
     $result = json_decode(file_get_contents("php://input"), true);
-    if (!)) {
+     (!)) {
         die();
     }
 
@@ -496,7 +496,7 @@ php
 :
 
 php
-    if (!jeedom::
+     (!jeedom::
         
         die();
     }
@@ -515,7 +515,7 @@ php
 
 php
     $result = json_decode(file_get_contents("php://input"), true);
-    if (!)) {
+     (!)) {
         die();
     }
 

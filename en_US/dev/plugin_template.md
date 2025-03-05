@@ -1,6 +1,6 @@
 # 
 
- [here](https:github.comjeedomplugin-template)
+ [](https:github.comjeedomplugin-template)
 
 #  : l'arborescence
 
@@ -46,7 +46,7 @@
 
 ## ``info.json``
 
- [here](https:doc.jeedom.com/en_US/devstructure_info_json)
+ [](https:doc.jeedom.com/en_US/devstructure_info_json)
 
 ## ``install.php``
 
@@ -83,7 +83,7 @@
 
 () {
     $cron = cron::byClassAndFunction('zwave', 'pull')
-    if (!)) {
+     (!)) {
         $cron = new cron()
         $cron->setClass('zwave')
         $cron->setFunction('pull')
@@ -96,7 +96,7 @@
 
 () {
     $cron = cron::byClassAndFunction('zwave', 'pull')
-    if (!)) {
+     (!)) {
         $cron = new cron()
         $cron->setClass('zwave')
         $cron->setFunction('pull')
@@ -151,7 +151,7 @@ Ensuite vient le paramètre demandé (il peut en avoir plusieurs), c'est une syn
 
  
 
-if (!isConnect()) {
+ (!isConnect()) {
     include_file('desktop', '404', 'php')
     die()
  }
@@ -190,21 +190,21 @@ if (!isConnect()) {
 
 ````php
 <?php
-if (!')) {
+ (!')) {
     
  }
  
  ?>
  ````
 
-Une fois sur cette page vous aurez accès en php à toutes les fonctions du core de jeedom (voir [here](https:www.jeedom.comdocdocumentationcode) ) ainsi qu'à celles de tous les modules installés donc le vôtre aussi.
+Une fois sur cette page vous aurez accès en  à toutes les fonctions du core de jeedom (voir [](https:www.jeedom.comdocdocumentationcode) ) ainsi qu'à celles de tous les modules installés donc le vôtre aussi.
 
 Toutes ces pages étant des vues elles utilisent principalement la syntaxe HTML. Pour tout ce qui est présentation, Jeedom se base principalement sur bootstrap donc toute la [documentation](http:getbootstrap.com) est applicable.
 
 Pour simplifier la création de plugin vous pouvez inclure dans votre page le script javascript de template pour les plugins :
 
 ````php
-<?php include_file('core', 'plugin.template', 'js') ?>
+<? include_file('core', 'plugin.template', 'js') ?>
 ````
 
 . ).
@@ -235,7 +235,7 @@ Là, par exemple, lors du chargement des données jeedom mettra la valeur du nom
 
 ````php
 ) {
-    if (!)) {
+     (!)) {
         : {}}
      }
     
@@ -264,10 +264,10 @@ Dernier point: un exemple plus complet avec type et sous-type de commande :
 
 ````php
 ) {
-    if (!)) {
+     (!)) {
         var _cmd = {}
     }
-     if (!.configuration)) {
+      (!.configuration)) {
         _cmd.configuration = {}
     }
      var selRequestType = '<select style="width : 90px" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="requestType">'
@@ -305,12 +305,12 @@ Dernier point: un exemple plus complet avec type et sous-type de commande :
     $('#table_cmd tbody').append(tr)
     $('#table_cmd tbody tr:last').setValues(_cmd, '.cmdAttr')
 
-    if (.configuration.requestType)) {
+     (.configuration.requestType)) {
         $('#table_cmd tbody tr:last .cmdAttr[data-l1key=configuration][data-l2key=requestType]').value(init(_cmd.configuration.requestType))
         $('#table_cmd tbody tr:last .cmdAttr[data-l1key=configuration][data-l2key=requestType]').trigger('change')
     }
 
-     if (.type)) {
+      (.type)) {
         $('#table_cmd tbody tr:last .cmdAttr[data-l1key=type]').value(init(_cmd.type))
     }
      jeedom.cmd.changeType($('#table_cmd tbody tr:last'), init(_cmd.subType))
@@ -330,17 +330,17 @@ Dernier point: un exemple plus complet avec type et sous-type de commande :
 - ``saveEqLogic``  :
 
 ````php
-<?php include_file('desktop', 'weather', 'js', 'weather') ?>
+<? include_file('desktop', 'weather', 'js', 'weather') ?>
 ````
 
 Le premier argument donne le dossier dans lequel le trouver (attention c'est le dossier père du dossier JS), le deuxième le nom de votre javascript, le troisième indique à Jeedom que c'est un fichier  et le dernier dans quel plugin il se trouve.
 
 ## CSS
 
-Ce dossier contient vos fichiers CSS (il ne devrait pas être trop utilisé) , vohere comment les inclure sur votre page :
+Ce dossier contient vos fichiers CSS (il ne devrait pas être trop utilisé) , vo comment les inclure sur votre page :
 
 ````php
-<?php include_file('desktop', 'weather', 'css', 'weather') ?>
+<? include_file('desktop', 'weather', 'css', 'weather') ?>
 ````
 
 .
@@ -357,11 +357,11 @@ $('#md_modal').dialog({title: "{{Classe du périphérique}}"}).load('index.php?v
 
 La première ligne permet de mettre un titre à votre modal
 
-La deuxième ligne charge votre modal et l'affichage.  : plugin, l' de votre plugin, modal, le nom de votre modal sans le php et ensuite les paramètres que vous voulez lui passer
+La deuxième ligne charge votre modal et l'affichage.  : plugin, l' de votre plugin, modal, le nom de votre modal sans le  et ensuite les paramètres que vous voulez lui passer
 
 ## API JS
 
-Ce n'est pas un dossier mais dans les dernières versions de Jeedom celui-ci offre au développeur toute une api javascript (cela évite d'écrire des appels  dans tous les sens). J'essayerai de faire un article pour expliquer les différentes fonctionnalités mais vous pouvez déjà trouver le code here.
+Ce n'est pas un dossier mais dans les dernières versions de Jeedom celui-ci offre au développeur toute une api javascript (cela évite d'écrire des appels  dans tous les sens). J'essayerai de faire un article pour expliquer les différentes fonctionnalités mais vous pouvez déjà trouver le code .
 
 Voilà pour les détails du . Je me doute qu'il n'est pas des plus complets (j'essayerai de le compléter en fonction des différentes demandes reçues) mais j'espère que grâce à lui vous pourrez commencer à faire des plugins pour Jeedom.
 
@@ -425,7 +425,7 @@ $('body').delegate('.helpSelectCron','click',function() {
     
     
 
-    if (!')) {
+     (!')) {
         
     }
 
@@ -448,7 +448,7 @@ Dossier très important, c'est le moteur de votre plugin. C'est là que viennent
 - ````
 - ``Cmd``
 
-La première devant hériter de la classe eqLogic et la deuxième de cmd. Vohere un template :
+La première devant hériter de la classe eqLogic et la deuxième de cmd. Vo un template :
 
 ````php
 <?php
@@ -511,7 +511,7 @@ class plugin_idCmd extends cmd {
 
 ````php
 ()) {
-      if (! !'])) {
+       (! !'])) {
           
       }
       $eqLogic = $this->getEqLogic()
@@ -527,36 +527,36 @@ class plugin_idCmd extends cmd {
 
  assez simple mais complet, le principe est le suivant, si la commande est une action ou une info (mais pas en événement seulement et que son  est dépassé) alors jeedom appelle cette méthode.
 
-Dans notre exemple here c'est une commande pour faire parler S.A.R.A.H, où le plugin récupère les paramètres dans \$\_options (attention c'est un tableau et ses attributs changent en fonction du sous-type de la commande : color pour un sous-type color, slider pour un sous-type slider, title et message pour un sous-type message et vide pour un sous-type other).
+Dans notre exemple  c'est une commande pour faire parler S.A.R.A.H, où le plugin récupère les paramètres dans \$\_options (attention c'est un tableau et ses attributs changent en fonction du sous-type de la commande : color pour un sous-type color, slider pour un sous-type slider, title et message pour un sous-type message et vide pour un sous-type other).
 
 Voila pour la partie obligatoire, voila maintenant ce qui peut être utilisé à coté (avec exemple) :
 
 ### toHtml(\$\_version = 'dashboard')
 
-Fonction utilisable dans la commande ou dans l'équipement, en fonction des besoins, vohere un exemple pour l'équipement
+Fonction utilisable dans la commande ou dans l'équipement, en fonction des besoins, vo un exemple pour l'équipement
 
 ````php
 public function toHtml($_version = 'dashboard') {
     $replace = $this->preToHtml($_version)
-    if (!is_array($replace)) {
+     (!is_array($replace)) {
         return $replace
     }
     $version = jeedom::versionAlias($_version)
     $replace['#forecast#'] = ''
-    if ($version != 'mobile' || $this->getConfiguration('fullMobileDisplay', 0) == 1) {
+     ($version != 'mobile' || $this->getConfiguration('fullMobileDisplay', 0) == 1) {
         $forcast_template = getTemplate('core', $version, 'forecast', 'weather')
         for ($i = 0 $i < 5 $i++) {
             $replaceDay = array()
             $replaceDay['#day#'] = date_fr(date('l', strtotime('+' . $i . ' days')))
 
-            if ($i == 0) {
+             ($i == 0) {
                 $temperature_min = $this->getCmd(null, 'temperature_min')
             } else {
                 $temperature_min = $this->getCmd(null, 'temperature_' . $i . '_min')
             }
             $replaceDay['#low_temperature#'] = is_object($temperature_min) ? $temperature_min->execCmd() : ''
 
-            if ($i == 0) {
+             ($i == 0) {
                 $temperature_max = $this->getCmd(null, 'temperature_max')
             } else {
                 $temperature_max = $this->getCmd(null, 'temperature_' . $i . '_max')
@@ -564,7 +564,7 @@ public function toHtml($_version = 'dashboard') {
             $replaceDay['#hight_temperature#'] = is_object($temperature_max) ? $temperature_max->execCmd() : ''
             $replaceDay['#tempid#'] = is_object($temperature_max) ? $temperature_max->getId() : ''
 
-            if ($i == 0) {
+             ($i == 0) {
                 $condition = $this->getCmd(null, 'condition')
             } else {
                 $condition = $this->getCmd(null, 'condition_' . $i)
@@ -592,17 +592,17 @@ public function toHtml($_version = 'dashboard') {
     $sunrise = $this->getCmd(null, 'sunrise')
     $replace['#sunrise#'] = is_object($sunrise) ? $sunrise->execCmd() : ''
     $replace['#sunid#'] = is_object($sunrise) ? $sunrise->getId() : ''
-    if (strlen($replace['#sunrise#']) == 3) {
+     (strlen($replace['#sunrise#']) == 3) {
         $replace['#sunrise#'] = substr($replace['#sunrise#'], 0, 1) . ':' . substr($replace['#sunrise#'], 1, 2)
-    } else if (strlen($replace['#sunrise#']) == 4) {
+    } else  (strlen($replace['#sunrise#']) == 4) {
         $replace['#sunrise#'] = substr($replace['#sunrise#'], 0, 2) . ':' . substr($replace['#sunrise#'], 2, 2)
     }
 
     $sunset = $this->getCmd(null, 'sunset')
     $replace['#sunset#'] = is_object($sunset) ? $sunset->execCmd() : ''
-    if (strlen($replace['#sunset#']) == 3) {
+     (strlen($replace['#sunset#']) == 3) {
         $replace['#sunset#'] = substr($replace['#sunset#'], 0, 1) . ':' . substr($replace['#sunset#'], 1, 2)
-    } else if (strlen($replace['#sunset#']) == 4) {
+    } else  (strlen($replace['#sunset#']) == 4) {
         $replace['#sunset#'] = substr($replace['#sunset#'], 0, 2) . ':' . substr($replace['#sunset#'], 2, 2)
     }
 
@@ -615,7 +615,7 @@ public function toHtml($_version = 'dashboard') {
     $condition = $this->getCmd(null, 'condition_now')
     $sunset_time = is_object($sunset) ? $sunset->execCmd() : null
     $sunrise_time = is_object($sunrise) ? $sunrise->execCmd() : null
-    if (is_object($condition)) {
+     (is_object($condition)) {
         $replace['#icone#'] = self::getIconFromCondition($condition->execCmd(), $sunrise_time, $sunset_time)
         $replace['#condition#'] = $condition->execCmd()
         $replace['#conditionid#'] = $condition->getId()
@@ -625,7 +625,7 @@ public function toHtml($_version = 'dashboard') {
         $replace['#condition#'] = ''
         $replace['#collectDate#'] = ''
     }
-    if ($this->getConfiguration('modeImage', 0) == 1) {
+     ($this->getConfiguration('modeImage', 0) == 1) {
         $replace['#visibilityIcon#'] = "none"
         $replace['#visibilityImage#'] = "block"
     } else {
@@ -646,7 +646,7 @@ public function toHtml($_version = 'dashboard') {
 $_version = jeedom::versionAlias($_version)
 ````
 
-Récupération d'un template de commande, here le template de commande : pluginsweathercoretemplate\$\_versionforecast. (\$\_version valant mobile ou dashboard)
+Récupération d'un template de commande,  le template de commande : pluginsweathercoretemplate\$\_versionforecast. (\$\_version valant mobile ou dashboard)
 
 ````php
 $forcast_template = getTemplate('core', $_version, 'forecast', 'weather')
@@ -674,7 +674,7 @@ Passage important: cela permet de récupérer les personnalisations faites par l
 
 ````php
 $parameters = $this->getDisplay('parameters')
-if (is_array($parameters)) {
+ (is_array($parameters)) {
     foreach ($parameters as $key => $value) {
         $replace['#' . $key . '#'] = $value
     }
@@ -717,7 +717,7 @@ return $html
 ````php
 () {
       $weatherCmd = $this->getCmd(null, 'temperature')
-      if (!)) {
+       (!)) {
           $weatherCmd = new weatherCmd()
       }
       $weatherCmd->setName(__('Température', __FILE__))
@@ -731,7 +731,7 @@ return $html
       $weatherCmd->save()
 
       $cron = cron::byClassAndFunction('weather', 'updateWeatherData', array('weather_id' => intval($this->getId())))
-      if (!)) {
+       (!)) {
           $cron = new cron()
           $cron->setClass('weather')
           $cron->setFunction('updateWeatherData')
@@ -749,7 +749,7 @@ Ici la méthode updateWeatherData (simplifiée aussi) :
 ````php
 public static function updateWeatherData($_options) {
   $weather = weather::byId($_options['weather_id'])
-  if (is_object($weather)) {
+   (is_object($weather)) {
       foreach ($weather->getCmd('info') as $cmd) {
         $weather->checkAndUpdateCmd($cmd,$cmd->execute())
       }
