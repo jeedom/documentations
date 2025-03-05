@@ -1,18 +1,18 @@
-## Core v4.4 | Plugin Developers
+## .4 | 
 
-### One day, jQuery ...
+###  ...
 
-jQuery is a framework that is still widely used in web interfaces, and Jeedom has historically relied heavily on it. Despite everything, HTML5 and recent browsers increasingly make it possible to do without it. The interest for Jeedom is above all performance, and there is no question yet of removing jQuery and its plugins (jQuery UI, contextmenu, modals, autocomplete, tablesorter, etc.).
+. . .).
 
-But you have to think about it, and start one day !
+ !
 
-The Core 4.4 therefore integrates the basic functions setValues() and getValues(), which are now also prototyped on the **NodeList** And **Element**, comme elles le sont sur $.. (). .
+. ****  ****, comme elles le sont sur $.. (). .
 
- **getValues()** And **setValues()**  **setJeeValues()** And **getJeeValues()**.
+ **getValues()**  **setValues()**  **setJeeValues()**  **getJeeValues()**.
 
- ****, . *load()* And *html()* (). . !
+ ****, . *load()*  *html()* (). . !
 
- ** .  **** **** **** And **** .
+ ** .  **** **** ****  **** .
 
 . . !
 
@@ -20,11 +20,11 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
 
 <details>
 
-  <summary markdown="span">jQuery to pure js()</summary>
+  <summary markdown="span">jQuery to pure js()<summary>
 
-  ~~~ js
+  
   {% raw %}
-  //jQuery:
+  jQuery:
   $('#table_objectSummary tbody').append(tr)
   $('#table_objectSummary tbody tr').last().setValues(_summary, '.objectSummaryAttr')
 
@@ -32,7 +32,7 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
   ').)
   ().')
 
-  //jQuery:
+  jQuery:
   ()
   ]
   ')
@@ -42,7 +42,7 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
   ]
   ')
 
-  //jQuery:
+  jQuery:
   addMyTr: ) {
     >'
     >'
@@ -67,7 +67,7 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
     
   }
 
-  //jQuery:
+  jQuery:
   $(function(){
     !')
   })
@@ -78,19 +78,19 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
   })
 
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 .. ..
 
 :
 
-[](/en_US/dev/corejs/index)
+[](/en_US/devcorejsindex)
 
-[ {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)
+[ {}](https:github.comjeedomcoreblobalphacoredomdom.utils.js)
 
-[](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+[](https:github.comjeedomcoreblobalphacoredomdom.ui.js)
 
 
 
@@ -113,7 +113,7 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
 
 #### 
 
- ** . . [](https://flatpickr.js.org/).
+ ** . . [](https:flatpickr.js.org).
 
  ** .
 
@@ -121,26 +121,26 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
 
 <details>
 
-  <summary markdown="span">date/time pickers</summary>
+  <summary markdown="span">datetime pickers<summary>
 
-  ~~~ html
+  
   {% raw %}
-  <input id="myDate" class="in_datepicker"/>
-  <input id="myTime" class="in_timepicker"/>
-  <input id="myCustomDatetime"/>
+  <input id="myDate" class="in_datepicker">
+  <input id="myTime" class="in_timepicker">
+  <input id="myCustomDatetime">
   {% endraw %}
-  ~~~
+  
 
-  ~~~ js
+  
   {% raw %}
   
   
 
   :i:
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 
 
@@ -150,7 +150,7 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
 
 #### :
 
-`eqLogic::::byTypeAndSearchConfiguration()`  
+`eqLogic::::  
 
 #### ):
 
@@ -179,7 +179,7 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
   
 
 
-> **Noticed**
+> ****
 >
 > .  ** .
 
@@ -189,11 +189,11 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
 
 <details>
 
-  <summary markdown="span">jeeComplete()</summary>
+  <summary markdown="span">jeeComplete()<summary>
 
-  ~~~ js
+  
   {% raw %}
-  //jQuery:
+  jQuery:
   $('input.auto').autocomplete({
     minLength: 1,
     source: dataArray
@@ -205,9 +205,9 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
     source: dataArray
   })
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 #### 
 
@@ -215,9 +215,9 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
 
 <details>
 
-  <summary markdown="span">exemples jeeDialog()</summary>
+  <summary markdown="span">exemples jeeDialog()<summary>
 
-  ~~~ js
+  
   {% raw %}
   ) {
     !')
@@ -233,15 +233,15 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
   ?', ) {
     ) {
       
-    } else {
+    }  {
       
     }
   })
 
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 #### 
 
@@ -249,9 +249,9 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
 
 <details>
 
-  <summary markdown="span">exemples ()</summary>
+  <summary markdown="span">exemples ()<summary>
 
-  ~~~ js
+  
   {% raw %}
   :
   $('#md_modal').dialog({
@@ -265,14 +265,14 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
   })
 
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 #### 
 
 .
- : [](http://sortablejs.github.io/Sortable/)
+ : [](http:sortablejs.github.ioSortable)
 
 #### 
 
@@ -284,9 +284,9 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
 
 <details>
 
-  <summary markdown="span">jeeCtxMenu()</summary>
+  <summary markdown="span">jeeCtxMenu()<summary>
 
-  ~~~ js
+  
   {% raw %}
   ({
     selector: '.nav.!
@@ -305,16 +305,16 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
     },
     callback: 
     }
-    //isDisable: false,
-    /*
+    isDisable: false,
+    *
     events: {
       show: ) {
       },
       hide: ) {
       }
     },
-    */
-    /*
+    *
+    *
     build: ) {
        = {}
        {
@@ -326,13 +326,13 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
     },
     position: ) {
     },
-    */
+    *
   })
 
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 #### 
 
@@ -340,9 +340,9 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
 
 <details>
 
-  <summary markdown="span">exemples ()</summary>
+  <summary markdown="span">exemples ()<summary>
 
-  ~~~ js
+  
   {% raw %}
   :
   $('#bt_uploadImage').fileupload({
@@ -357,30 +357,30 @@ The Core 4.4 therefore integrates the basic functions setValues() and getValues(
   ({
     fileInput: '),
     url: '?
-    /*
+    *
     add: ) {
       ')
       ?
       ()
     },
-    */
+    *
     done: ) {
       
     }
   })
 
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
-See [](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+ [](https:github.comjeedomcoreblobalphacoredomdom.ui.js)
 
 > ****
 >
 > . , **)**.
 
-### Optional modifications
+### 
 
 - 
 
@@ -388,7 +388,7 @@ See [](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
  **  ``jeedomUtils.setCheckContextMenu()``
 
- ** And ** .
+ **  ** .
 
  *"*.
 

@@ -12,8 +12,8 @@
  :
 
 ````php
-$replace = $this->preToHtml($_version);
-if (!)) {
+$replace = $this->preToHtml($_version)
+ (!)) {
 	
 }
 ````
@@ -30,8 +30,8 @@ Le système de template de widget dans le code est en fait exactement le même q
 Vo un exemple :
 
 ````php
-public static function templateWidget(){
-	$return = array('info' => array('string' => array()));
+(){
+	$return = array('info' => array('string' => array()))
 	$return['info']['string']['state'] = array(
 		'template' => 'tmplmultistate',
 		'test' => array(
@@ -39,8 +39,8 @@ public static function templateWidget(){
 			array('operation' => '#value# == 3','state_light' => '<i class="fa fa-pause"></i>','state_dark' => '<i class="fa fa-pause"></i>'),
 			array('operation' => '#value# > 3 || #value# < 2','state_light' => '<i class="fa fa-home"></i>','state_dark' => '<i class="fa fa-home"></i>')
 		)
-	);
-	return $return;
+	)
+	
 }
 ````
 
@@ -52,25 +52,25 @@ public static function templateWidget(){
 
 . .
 
-Example : for the first test, we say if the value of the command is 2 then the tag will have to be replaced #\_state_# (in the html code of the template) by>
+ :  #\_state_# (>
 
-Another example based on another template could be :
+ :
 
 ````php
-public static function templateWidget(){
-	$return = array('info' => array('string' => array()));
+(){
+	$return = array('info' => array('string' => array()))
 	$return['info']['binary']['toto'] = array(
-		'template' => 'tmplicon',
-		'replace' => array(
+		'',
+		'(
 			'#_icon_on_#' => '<i class=\'icon_green icon jeedom-porte-ferme\'></i>',
 			'#_icon_off_#' => '<i class=\'icon_red icon jeedom-porte-ouverte\'></i>'
 			)
-	);
-	return $return;
+	)
+	
 }
 ````
 
-Ici, je crée un widget toto basé sur le template "tmplicon" en type info et sous-type binaire. Quand il vaut 1 alors l'icône sera <i class='icon_green icon jeedom-porte-ferme'></i> et quand il vaut 0, ça sera <i class='icon_red icon jeedom-porte-ouverte'></i>
+Ici, je crée un widget  basé sur le template "tmplicon" en type info et sous-type binaire. Quand il vaut 1 alors l'icône sera <i class='icon_green icon jeedom-porte-ferme'></i> et quand il vaut 0, ça sera <i class='icon_red icon jeedom-porte-ouverte'></i>
 
 >**TIPS**
 >
@@ -79,10 +79,10 @@ Ici, je crée un widget toto basé sur le template "tmplicon" en type info et so
 Ensuite, pour utiliser votre widget :
 
 ````php
-$cmd->setTemplate('dashboard','neato::state');
-$cmd->setTemplate('mobile','neato::state');
+$cmd->setTemplate('dashboard','neato::state')
+$cmd->setTemplate('mobile','neato::state')
 ````
 
-It's like a normal widget except for the widget name which is in the form id_plugin::widget_name. For the 2nd example, it will be id_plugin::toto
+::. ::toto
 
 
