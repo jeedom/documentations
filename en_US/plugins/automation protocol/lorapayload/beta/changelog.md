@@ -56,7 +56,11 @@
 
 - Ajout du champ *Remarque* pour les modules
 
--  **
+- Correction du Device Profile *Power-Adapt Power-Elec 6*
+
+-  *Quantify Cubic Meter*
+
+- Correction du décodeur *Dragino RS485-LN + NILAN*
 
 # 12/31/2024
 

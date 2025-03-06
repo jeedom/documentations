@@ -56,7 +56,11 @@
 
 - Ajout du champ *Remarque* pour les modules
 
--  **
+- Correction du Device Profile *Power-Adapt Power-Elec 6*
+
+-  *Cuantificar Metro Cúbico*
+
+- Correction du décodeur *Dragino RS485-LN + NILAN*
 
 # 31/12/2024
 
