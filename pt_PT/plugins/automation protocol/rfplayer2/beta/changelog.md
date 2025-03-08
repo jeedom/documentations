@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 
+
+- 
+
 # 28/12/2024
 
 - Corrigido um bug ao enviar certos comandos RTS
