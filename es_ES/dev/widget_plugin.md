@@ -40,7 +40,7 @@ Vo un exemple :
 			array('operation' => '#value# > 3 || #value# < 2','state_light' => '<i class="fa fa-home"></i>','state_dark' => '<i class="fa fa-home"></i>')
 		)
 	)
-	
+	devolver $return;
 }
 ````
 
@@ -66,7 +66,7 @@ Vo un exemple :
 			'#_icon_off_#' => '<i class=\'icon_red icon jeedom-porte-ouverte\'></i>'
 			)
 	)
-	
+	devolver $return;
 }
 ````
 
