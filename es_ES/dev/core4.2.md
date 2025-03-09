@@ -83,7 +83,7 @@ html
         }
       }
     }
-    devolver $return;
+    
   }
   {% endraw %}
   
@@ -162,7 +162,7 @@ html
         $('.eqLogicDisplayCard').addClass('displayAsTable')
         $('.eqLogicDisplayCard .hiddenAsCard').removeClass('hidden')
         $('.eqLogicThumbnailContainer').first().addClass('containerAsTable')
-      } demás {
+      }  {
         $(this).data('state', '0').removeClass('active')
         )
         $('.eqLogicDisplayCard').removeClass('displayAsTable')
@@ -203,7 +203,7 @@ html
         $('.eqLogicDisplayCard').addClass('displayAsTable')
         $('.eqLogicDisplayCard .hiddenAsCard').removeClass('hidden')
         $('.eqLogicThumbnailContainer').first().addClass('containerAsTable')
-      } demás {
+      }  {
         $(this).data('state', '0').removeClass('active')
         )
         $('.eqLogicDisplayCard').removeClass('displayAsTable')
@@ -306,7 +306,7 @@ html
 js
  !== 'undefined') {
   ')
-} demás {
+}  {
   ')
 }
 

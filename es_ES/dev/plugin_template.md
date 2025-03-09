@@ -357,7 +357,7 @@ $('#md_modal').dialog({title: "{{Classe du périphérique}}"}).load('index.php?v
 
 La première ligne permet de mettre un titre à votre modal
 
-La deuxième ligne charge votre modal et l'affichage.  : plugin, l'identificación de votre plugin, modal, le nom de votre modal sans le  et ensuite les paramètres que vous voulez lui passer
+La deuxième ligne charge votre modal et l'affichage.  : plugin, l' de votre plugin, modal, le nom de votre modal sans le  et ensuite les paramètres que vous voulez lui passer
 
 ## API JS
 
@@ -472,7 +472,7 @@ La première devant hériter de la classe eqLogic et la deuxième de cmd. Vo un 
 * * ***************************Includes********************************* *
 
 
-class plugin_identificación extends eqLogic {
+class plugin_ extends eqLogic {
 
     *     * *************************Attributs****************************** *
 
@@ -658,7 +658,7 @@ $forcast_template = getTemplate('core', $_version, 'forecast', 'weather')
 $html_forecast .= template_replace($replace, $forcast_template)
 ````
 
-Cela permet de récupérer la commande ayant le logical\_identificación : temperature\_min
+Cela permet de récupérer la commande ayant le logical\_ : temperature\_min
 
 ````php
 $this->getCmd(null, 'temperature_min')
@@ -742,7 +742,7 @@ return $html
 }
 ````
 
-Le début est assez standard avec la création d'une commande, la fin est plus intéressante avec la mise en place d'un cron qui va appeler la méthode ``weather::updateWeatherData`` en passant l'identificación de l'équipement à mettre à jour toute les 30min par défaut.
+Le début est assez standard avec la création d'une commande, la fin est plus intéressante avec la mise en place d'un cron qui va appeler la méthode ``weather::updateWeatherData`` en passant l' de l'équipement à mettre à jour toute les 30min par défaut.
 
 Ici la méthode updateWeatherData (simplifiée aussi) :
 
