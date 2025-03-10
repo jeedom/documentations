@@ -374,75 +374,75 @@ php
         $i = 0;
         ) {
             $deamon_info = self::deamon_info();
-            ') {
+            wenn ($deamon_info['status'] == 'ok') {
                 break;
             }
             sleep(1);
             $i++;
         }
-        ) {
-            log::
-            
+        wenn ($i >= 30) {
+            log::add(__CLASS__, 'error', __('Daemon konnte nicht gestartet werden, prüfen Sie das Protokoll', __FILE__), 'unableStartDeamon');
+            gibt false zurück;
         }
-        message::
-        
+        message::entferneAlle(__CLASS__, 'unableStartDeamon');
+        gibt true zurück;
     }
 
 
-.
+Bearbeiten Sie nur die Zeilen mit einem Kommentar, der Rest sollte unverändert bleiben.
 
-.
-. ::.
+Beachten Sie, dass wir zunächst den Daemon stoppen, um den Neustart zu verwalten.
+Anschließend prüfen wir mit der Methode `deamon_info()` ob der Daemon überhaupt gestartet werden kann und generieren in der Variable `$cmd` die Kommandozeile um unseren Daemon zu starten, hier mit python3. Beachten Sie die Verwendung der Funktion „System“::getCmdPython3(__CLASS__)` gibt den Pfad zu Python3 zurück, um dies zu verwenden und damit mit Debian 12 kompatibel zu sein, wenn Ihre Abhängigkeiten vom Kernel installiert werden.
 
-#### ()
+#### Deamon_stop-Funktion()
 
-: .
+Mit dieser Methode wird der Daemon gestoppt: wir holen die PID des Daemons ab, die in der "pid_file" geschrieben wurde und senden den Systemkill an den Prozess.
 
 php
-    () {
+    öffentliche statische Funktion damon_stop() {
         $pid_file = jeedom::) . '/deamon.pid'; // ne pas modifier
         )) {
             $p = intval(trim(file_get_contents($pid_file)));
-            system::
+            system::töten($pid);
         }
-        system::
+        system::töten('templated.py'); // Name des zu ändernden Daemons
         sleep(1);
     }
 
 
-.. .
+Hier angekommen haben Sie den Dämon in der Info erklärt.json und implementierte die 3 Methoden, die der Jeedom-Kern benötigt, um Ihren Daemon zu starten und zu stoppen sowie seinen Status anzuzeigen. Voraussetzungen sind gegeben.
 
-### 
+### Kommunikation zwischen dem Daemon und dem PHP-Code
 
-. : .
+Es bleibt die Verwaltung der Kommunikation vom und zum Daemon. Im Python-Code haben wir bereits gesehen, wie es geschafft wurde: zur Erinnerung die Methoden `listen()` und `read_socket()`, die auf einem Socket lauschen, und die Methode `send_change_immediate()`, um eine JSON-Nutzlast an den PHP-Code zu senden.
 
-.
+Es ist daher notwendig, das Äquivalent auf der PHP-Seite zu verwalten.
 
-#### 
+#### Sende dem Dämon eine Nachricht
 
-.
--)
+Diese Funktion existiert nicht im Kern und ist nicht Standard für alle Jeedom-Plugins, sie ist auch nicht obligatorisch.
+Dies ist die Funktion, die ich selbst (@Mips) in jedem meiner Plugins verwende, die über einen Daemon verfügen. Ich füge sie hier ein und Sie machen damit, was Sie wollen-)
 
-.
+Es erhält daher ein Array von Werten als Parameter und ist dafür verantwortlich, es an den Daemon-Socket zu senden, der dieses Array daher in der Methode „read_socket()“ lesen kann, die wir zuvor gesehen haben.
 
 php
-    ) {
+    öffentliche statische Funktion sendToDaemon($params) {
         $deamon_info = self::deamon_info();
-        '] != 'ok') {
-            
+        wenn ($deamon_info['status'] != 'ok') {
+            throw new Exception("Daemon nicht gestartet");
         }
         $params['apikey'] = jeedom::getApiKey(__CLASS__);
         $payLoad = json_encode($params);
         $socket = socket_create(AF_INET, SOCK_STREAM, 0);
-        .::
-        
-        
+        socket_connect($socket, '127.0.0.1', Konfiguration::nachSchlüssel('socketport', __CLASS__, '55009')); //Standardport Ihres Plugins, der geändert werden soll
+        socket_write($socket, $payLoad, strlen($payLoad));
+        : Socket_close($socket);
     }
 
 
-.
+Was in das Array „$params“ gelangt und wie Sie diese Daten in Ihrem Daemon verwenden, bleibt Ihnen überlassen und hängt von der Funktion Ihres Plugins ab.
 
-:
+Zur Erinnerung: Diese Tabelle wird daher in der Methode „read_socket()“ abgerufen. Python-Code-Auszug:
 
 python
         '] != _apikey:
@@ -454,121 +454,121 @@ python
              : '))
 
 
-"
+Wir können deutlich den vom PHP-Code hinzugefügten Schlüssel „apikey“ sehen, der vom Python-Code in der Tabelle „message“ gelesen wird"
 
-#### 
+#### Erhalte eine Nachricht vom Dämon
 
-. ].
+Dazu müssen wir unserem Plugin eine Datei im Ordner `./core/php/` hinzufügen. Gemäß Konvention nennen wir diese Datei „jee[pluginId].php“. `/plugins/[pluginId]/core/php/jee[pluginId].php` ist daher der Pfad, der als Callback-URL in der Methode `deamon_start()` verwendet wird
 
-:
+Hier ist der grundlegende Inhalt, den Sie in diese Datei kopieren/einfügen können:
 
 php
 <?php
 
  {
-    
+    require_once dirname(__FILE__) . "/../../../../core/php/core.inc.php";
 
-     (!jeedom::
-        
+    Wenn (!jeedom::apiAccess(init('apikey'), 'template')) { //ersetze template durch deine Plugin-ID
+        echo __('Sie sind nicht berechtigt, diese Aktion auszuführen', __FILE__);
         die();
     }
-    ') != '') {
-        
+    wenn (init('test') != '') {
+        echo "OK";
         die();
     }
     $result = json_decode(file_get_contents("php://input"), true);
-     (!)) {
+    Wenn (!is_array($ergebnis)) {
         die();
     }
 
-    '])) {
-        
-    } '])) {
-        
+    wenn (isset($result['key1'])) {
+        // etwas tun
+    } sonstwenn (isset($result['key2'])) {
+        // etwas anderes machen
     }  {
-        log::
+        log::add('Vorlage', 'Fehler', 'unbekannte Nachricht vom Daemon empfangen'); //ersetze template durch die ID deines Plugins
     }
-} ) {
-    log::
+} catch (Ausnahme $e) {
+    log::hinzufügen('Vorlage', 'Fehler', displayException($e)); //ersetze template durch die ID deines Plugins
 }
 
 
-:
+Der Code beginnt mit der Überprüfung, ob der API-Schlüssel korrekt ist:
 
 php
-     (!jeedom::
-        
+    Wenn (!jeedom::apiAccess(init('apikey'), 'template')) { //ersetze template durch deine Plugin-ID
+        echo __('Sie sind nicht berechtigt, diese Aktion auszuführen', __FILE__);
         die();
     }
 
 
-.):
+Der erste Test dient als Testmethode beim Starten des Daemons (siehe call `jeedom_com.test()` im Daemon-Code):
 
 php
-    ') != '') {
-        
+    wenn (init('test') != '') {
+        echo "OK";
         die();
     }
 
 
-:
+und schließlich laden wir die Nutzlast, die wir in der Tabelle `$result` dekodieren:
 
 php
     $result = json_decode(file_get_contents("php://input"), true);
-     (!)) {
+    Wenn (!is_array($ergebnis)) {
         die();
     }
 
 
-:
+Dann liegt es an Ihnen, die Tabelle zu lesen und die Aktionen in Ihrem Plugin entsprechend auszuführen, Beispiel:
 
 php
-    '])) {
-        
-    } '])) {
-        
+    wenn (isset($result['key1'])) {
+        // etwas tun
+    } sonstwenn (isset($result['key2'])) {
+        // etwas anderes machen
     }  {
-        log::
+        log::add('Vorlage', 'Fehler', 'unbekannte Nachricht vom Daemon empfangen'); //ersetze template durch die ID deines Plugins
     }
 
 
-:
+Der Python-Code zum Senden der Nachricht sieht folgendermaßen aus:
 
 python
-' : '' : 'value2' })
+jeedom_com.send_change_immediate({'key1' : 'Wert1‘, ‚Schlüssel2' : 'value2' })
 
 
-: .
+Voila, Sie haben einen voll funktionsfähigen Daemon und können zwischen Ihrem Daemon und Ihrem PHP-Code hin und her kommunizieren. Der schwierigste Teil kommt noch: Coden Sie die Daemon-Logik.
 
-## 
+## Die Abhängigkeiten
 
-.
+Wenn wir einen Daemon schreiben, benötigen wir sehr oft zusätzlich zu unseren eigenen Klassen externe Bibliotheken.
 
-.
+Unter Debian verwenden wir normalerweise das Tool apt, um die erforderlichen Pakete zu installieren, und für Python3 verwenden wir pip3.
 
-:
+Und um dies zu bewältigen, wird im Jeedom-Kern wieder alles bereitgestellt, um uns über zwei verschiedene Methoden zu helfen:
 
-.
-   
-.
-   ..
+1. Die Verfahrensmethode.
+   Diese Methode war die einzige Methode, die mit Versionen von Jeedom vor 4.2 möglich war
+1. Die Methode per Konfigurations-JSON-Datei.
+   Diese Methode erschien mit Version 4.2 des Jeedom-Kerns.
 
-.
+Beide Methoden können in einem einzigen Plugin implementiert werden.
 
-- :
-  - ..
-  - ..
-- :
-  - .
-- .
-  - 
+- Wenn beide Methoden in einem Plugin implementiert sind:
+  - Der Kern vor 4.2 wird die prozedurale Methode verwenden.
+  - Der Kern 4.2 und folgende verwenden die JSON-Konfigurationsdateimethode.
+- Wenn nur die prozedurale Methode in einem Plugin implementiert ist:
+  - Alle Kerne verwenden diese Methode.
+- Wenn nur die JSON-Konfigurationsdateimethode in einem Plugin implementiert ist.
+  - Das Plugin ist nicht mit Core-Versionen vor 4.2 kompatibel
 
-. .
+Beide Methoden haben ihre Vor- und Nachteile. Es liegt an Ihnen, entsprechend Ihrer Situation zu wählen.
 
-### 
+### Deklaration in plugin_info/info.json
 
-.
-:
+In beiden Fällen müssen Sie Ihre `info.json`-Datei anpassen.
+Gleiches Beispiel wie bei der Daemon-Deklaration, Sie müssen die Eigenschaft `hasDependency` hinzufügen und den Wert `true` zuweisen:
 
 json
 {

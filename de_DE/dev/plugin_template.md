@@ -83,7 +83,7 @@
 
 () {
     $cron = cron::byClassAndFunction('zwave', 'pull')
-     (!)) {
+    Wenn (!)) {
         $cron = new cron()
         $cron->setClass('zwave')
         $cron->setFunction('pull')
@@ -96,7 +96,7 @@
 
 () {
     $cron = cron::byClassAndFunction('zwave', 'pull')
-     (!)) {
+    Wenn (!)) {
         $cron = new cron()
         $cron->setClass('zwave')
         $cron->setFunction('pull')
@@ -151,7 +151,7 @@ Ensuite vient le paramètre demandé (il peut en avoir plusieurs), c'est une syn
 
  
 
- (!isConnect()) {
+Wenn (!isConnect()) {
     include_file('desktop', '404', 'php')
     die()
  }
@@ -190,7 +190,7 @@ Ensuite vient le paramètre demandé (il peut en avoir plusieurs), c'est une syn
 
 ````php
 <?php
- (!')) {
+Wenn (!')) {
     
  }
  
@@ -235,7 +235,7 @@ Là, par exemple, lors du chargement des données jeedom mettra la valeur du nom
 
 ````php
 ) {
-     (!)) {
+    Wenn (!)) {
         : {}}
      }
     
@@ -264,10 +264,10 @@ Dernier point: un exemple plus complet avec type et sous-type de commande :
 
 ````php
 ) {
-     (!)) {
+    Wenn (!)) {
         var _cmd = {}
     }
-      (!.configuration)) {
+     Wenn (!.configuration)) {
         _cmd.configuration = {}
     }
      var selRequestType = '<select style="width : 90px" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="requestType">'
@@ -305,12 +305,12 @@ Dernier point: un exemple plus complet avec type et sous-type de commande :
     $('#table_cmd tbody').append(tr)
     $('#table_cmd tbody tr:last').setValues(_cmd, '.cmdAttr')
 
-     (.configuration.requestType)) {
+    Wenn (.configuration.requestType)) {
         $('#table_cmd tbody tr:last .cmdAttr[data-l1key=configuration][data-l2key=requestType]').value(init(_cmd.configuration.requestType))
         $('#table_cmd tbody tr:last .cmdAttr[data-l1key=configuration][data-l2key=requestType]').trigger('change')
     }
 
-      (.type)) {
+     Wenn (.type)) {
         $('#table_cmd tbody tr:last .cmdAttr[data-l1key=type]').value(init(_cmd.type))
     }
      jeedom.cmd.changeType($('#table_cmd tbody tr:last'), init(_cmd.subType))
@@ -425,7 +425,7 @@ $('body').delegate('.helpSelectCron','click',function() {
     
     
 
-     (!')) {
+    Wenn (!')) {
         
     }
 
@@ -435,7 +435,7 @@ $('body').delegate('.helpSelectCron','click',function() {
 
      : ', 
     *     * ************************ *
-} ) {
+} catch (Ausnahme $e) {
     ajax::
 }
 ?>
@@ -511,7 +511,7 @@ class plugin_idCmd extends cmd {
 
 ````php
 ()) {
-       (! !'])) {
+      Wenn (! !'])) {
           
       }
       $eqLogic = $this->getEqLogic()
@@ -538,25 +538,25 @@ Fonction utilisable dans la commande ou dans l'équipement, en fonction des beso
 ````php
 public function toHtml($_version = 'dashboard') {
     $replace = $this->preToHtml($_version)
-     (!is_array($replace)) {
+    Wenn (!is_array($replace)) {
         return $replace
     }
     $version = jeedom::versionAlias($_version)
     $replace['#forecast#'] = ''
-     ($version != 'mobile' || $this->getConfiguration('fullMobileDisplay', 0) == 1) {
+    Wenn ($version != 'mobile' || $this->getConfiguration('fullMobileDisplay', 0) == 1) {
         $forcast_template = getTemplate('core', $version, 'forecast', 'weather')
         for ($i = 0 $i < 5 $i++) {
             $replaceDay = array()
             $replaceDay['#day#'] = date_fr(date('l', strtotime('+' . $i . ' days')))
 
-             ($i == 0) {
+            Wenn ($i == 0) {
                 $temperature_min = $this->getCmd(null, 'temperature_min')
             } else {
                 $temperature_min = $this->getCmd(null, 'temperature_' . $i . '_min')
             }
             $replaceDay['#low_temperature#'] = is_object($temperature_min) ? $temperature_min->execCmd() : ''
 
-             ($i == 0) {
+            Wenn ($i == 0) {
                 $temperature_max = $this->getCmd(null, 'temperature_max')
             } else {
                 $temperature_max = $this->getCmd(null, 'temperature_' . $i . '_max')
@@ -564,7 +564,7 @@ public function toHtml($_version = 'dashboard') {
             $replaceDay['#hight_temperature#'] = is_object($temperature_max) ? $temperature_max->execCmd() : ''
             $replaceDay['#tempid#'] = is_object($temperature_max) ? $temperature_max->getId() : ''
 
-             ($i == 0) {
+            Wenn ($i == 0) {
                 $condition = $this->getCmd(null, 'condition')
             } else {
                 $condition = $this->getCmd(null, 'condition_' . $i)
@@ -592,17 +592,17 @@ public function toHtml($_version = 'dashboard') {
     $sunrise = $this->getCmd(null, 'sunrise')
     $replace['#sunrise#'] = is_object($sunrise) ? $sunrise->execCmd() : ''
     $replace['#sunid#'] = is_object($sunrise) ? $sunrise->getId() : ''
-     (strlen($replace['#sunrise#']) == 3) {
+    Wenn (strlen($replace['#sunrise#']) == 3) {
         $replace['#sunrise#'] = substr($replace['#sunrise#'], 0, 1) . ':' . substr($replace['#sunrise#'], 1, 2)
-    } else  (strlen($replace['#sunrise#']) == 4) {
+    } else Wenn (strlen($replace['#sunrise#']) == 4) {
         $replace['#sunrise#'] = substr($replace['#sunrise#'], 0, 2) . ':' . substr($replace['#sunrise#'], 2, 2)
     }
 
     $sunset = $this->getCmd(null, 'sunset')
     $replace['#sunset#'] = is_object($sunset) ? $sunset->execCmd() : ''
-     (strlen($replace['#sunset#']) == 3) {
+    Wenn (strlen($replace['#sunset#']) == 3) {
         $replace['#sunset#'] = substr($replace['#sunset#'], 0, 1) . ':' . substr($replace['#sunset#'], 1, 2)
-    } else  (strlen($replace['#sunset#']) == 4) {
+    } else Wenn (strlen($replace['#sunset#']) == 4) {
         $replace['#sunset#'] = substr($replace['#sunset#'], 0, 2) . ':' . substr($replace['#sunset#'], 2, 2)
     }
 
@@ -615,7 +615,7 @@ public function toHtml($_version = 'dashboard') {
     $condition = $this->getCmd(null, 'condition_now')
     $sunset_time = is_object($sunset) ? $sunset->execCmd() : null
     $sunrise_time = is_object($sunrise) ? $sunrise->execCmd() : null
-     (is_object($condition)) {
+    Wenn (is_object($condition)) {
         $replace['#icone#'] = self::getIconFromCondition($condition->execCmd(), $sunrise_time, $sunset_time)
         $replace['#condition#'] = $condition->execCmd()
         $replace['#conditionid#'] = $condition->getId()
@@ -625,7 +625,7 @@ public function toHtml($_version = 'dashboard') {
         $replace['#condition#'] = ''
         $replace['#collectDate#'] = ''
     }
-     ($this->getConfiguration('modeImage', 0) == 1) {
+    Wenn ($this->getConfiguration('modeImage', 0) == 1) {
         $replace['#visibilityIcon#'] = "none"
         $replace['#visibilityImage#'] = "block"
     } else {
@@ -674,7 +674,7 @@ Passage important: cela permet de récupérer les personnalisations faites par l
 
 ````php
 $parameters = $this->getDisplay('parameters')
- (is_array($parameters)) {
+Wenn (is_array($parameters)) {
     foreach ($parameters as $key => $value) {
         $replace['#' . $key . '#'] = $value
     }
@@ -717,7 +717,7 @@ return $html
 ````php
 () {
       $weatherCmd = $this->getCmd(null, 'temperature')
-       (!)) {
+      Wenn (!)) {
           $weatherCmd = new weatherCmd()
       }
       $weatherCmd->setName(__('Température', __FILE__))
@@ -731,7 +731,7 @@ return $html
       $weatherCmd->save()
 
       $cron = cron::byClassAndFunction('weather', 'updateWeatherData', array('weather_id' => intval($this->getId())))
-       (!)) {
+      Wenn (!)) {
           $cron = new cron()
           $cron->setClass('weather')
           $cron->setFunction('updateWeatherData')
@@ -749,7 +749,7 @@ Ici la méthode updateWeatherData (simplifiée aussi) :
 ````php
 public static function updateWeatherData($_options) {
   $weather = weather::byId($_options['weather_id'])
-   (is_object($weather)) {
+  Wenn (is_object($weather)) {
       foreach ($weather->getCmd('info') as $cmd) {
         $weather->checkAndUpdateCmd($cmd,$cmd->execute())
       }
