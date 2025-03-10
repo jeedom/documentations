@@ -1,8 +1,8 @@
 # 
 
-> ****
+> **IMPORTANTE**
 >
-> .  [](https:forum.jeedom.comviewtopic.php?f=27&t=37630#p621495)
+> .  [aquí](https:forum.jeedom.comviewtopic.php?f=27&t=37630#p621495)
 
 . . .()
 
@@ -21,7 +21,7 @@
 
 .
 
-> ****
+> **IMPORTANTE**
 >
 >.
 >.
@@ -187,7 +187,7 @@ php
 php
 () {
   $ = $this->getCmd(null, 'story')
-   (!)) {
+  si (!)) {
     $ = new vdmCmd()
     $info->setName(__('Histoire', __FILE__))
   }
@@ -198,7 +198,7 @@ php
   $info->save()
 
   $refresh = $this->getCmd(null, 'refresh')
-   (!)) {
+  si (!)) {
     $refresh = new vdmCmd()
     $refresh->setName(__('Rafraichir', __FILE__))
   }
@@ -252,10 +252,10 @@ html
 {% raw %}
 *  *
 ) {
-   (!)) {
+  si (!)) {
     : {} }
   }
-   (!)) {
+  si (!)) {
     
   }
   .
@@ -359,7 +359,7 @@ php
 }
 
 
-C'est  qu'on va définir ce qu'il va se passer quand on actionne la commande « Rafraîchir ». )
+C'est aquí qu'on va définir ce qu'il va se passer quand on actionne la commande « Rafraîchir ». )
 
 On vérifie le logical de la commande lancée et si « refresh » on lance les actions
 
@@ -464,7 +464,7 @@ $cmd = $vdm->getCmd(null, 'refresh')
 
 
 php
- (!)) {
+si (!)) {
   continue
 }
 $cmd->execCmd()
@@ -476,7 +476,7 @@ php
  () {
   ::
     $cmd = $vdm->getCmd(null, 'refresh') retourne la commande "refresh" si elle existe
-     (!
+    si (!
     
   }
   $cmd->execCmd() la commande existe on la lance
@@ -522,13 +522,13 @@ php
 ) {
   
     $eqLogics = self::byType('vdm', true)
-    } )
+    } else { //La función tiene el argumento id(unique) de un dispositivo(eqLogic)
       $eqLogics = array(self::byId($_eqLogic_id))
     }
 
-    ) {
+    foreach ($eqLogics como $vdm) {
       $cmd = $vdm->getCmd(null, 'refresh') retourne la commande "refresh si elle existe
-       (!
+      si (!
       
     }
     $cmd->execCmd() la commande existe on la lance
@@ -536,45 +536,45 @@ php
 }
 
 
-.
+Posteriormente podrás cambiar la frecuencia del cron según la importancia de tu información a recuperar.
 
- ==> [](https:doc.jeedom.comdevphpdoc4.1)
+Sólo puedo invitarte a que te tomes el tiempo de visitar esta página para obtener más información ==> [aquí](https:doc.jeedom.comdevphpdoc4.1)
 
- ==> [](https:github.comjeedomcore)
+Y aún mejor ir al núcleo de Github ==> [AQUÍ](https:github.comjeedomcore)
 
- .
+Métete de lleno en ello para dominar aún más .
 
-.
+El complemento es funcional tal como está.
 
- .
+Me tomaré el tiempo para agregar cómo configurar un cron personalizado según el equipo .
 
-# 
+# El widget
 
-.
+No es una tarea fácil el widget, pero por el momento nos quedaremos con el widget predeterminado.
 
-. .
+Si no has tocado nada, equipo activado y visible, el widget ocupa todo el ancho de la pantalla. Así que vamos a cambiarlo.
 
 La commande qui apparaît est la commande «story» de  info, sous- string.
 
-.  :D
+Mi placer es levantarme por la mañana y leer un VDM cuando me despierto. Me permite ver que hay personas que están en peor situación que yo :D
 
-
+Pero no tengo mis gafas y actualmente el renderizado en el widget no me permite leerlo
 
 Donc on va changer le style en affectant un template à la commande « story»
 
-.
+Nada podría ser más sencillo.
 
- ==> [](https:github.comjeedomcoretreealphacoretemplatedashboard)
+Ya veré ==> [AQUÍ](https:github.comjeedomcoretreealphacoretemplatedashboard)
 
-.) .)
+Estoy buscando una plantilla para cmd.info.cadena(nuestro comando es del tipo info subtipo cadena) .No es difícil, solo hay dos (predeterminado o mosaico))
 
 J'applique le template « cmd.info.string.tile.html » à ma commande.
 
-.php , fonction postSave() et j'ajoute le template « tile » pour la commande « story » en appliquant la méthode setTemplate()
+Para esto abro el archivo vdm.class.php , fonction postSave() et j'ajoute le template « tile » pour la commande « story » en appliquant la méthode setTemplate()
 
 php
 $ = $this->getCmd(null, 'story')
- (!)) {
+si (!)) {
   $ = new vdmCmd()
   $info->setName(__('Histoire', __FILE__))
 }
@@ -586,51 +586,51 @@ $info->setSubType('string')
 $info->save()
 
 
-.
+Actualizar el panel de control.
 
-. .  défaut la largeur du widget de l'équipement(eqLogic) et la hauteur sont à « auto ».
+Es mejor, pero el widget todavía ocupa el ancho del tablero. Así que lo corregiremos.  défaut la largeur du widget de l'équipement(eqLogic) et la hauteur sont à « auto ».
 
- ..
+Por lo tanto, cambiaremos el ancho del widget (equipment => eqLogic) usando el método setDisplay() heredado de la clase eqLogic .Dejamos la altura en auto.
 
-
+Para ello, simplemente añada
 
 php
 $this->setDisplay("width","800px")
 
 
- !! . .  ? 
+Sí, pero !! Porque hay un pero. Intente agregar esto en la función postsave() o postUpdate() y no tendrá en cuenta el cambio. Para qué ? Bueno, tienes que leer la documentación del complemento de plantilla ==>AQUÍ
 
-()
+Ahora que lo has leído bien ya sabes que debes utilizar el método preSave()
 
 php
-() {
+función pública preSave() {
   $this->setDisplay("width","800px")
 }
 
 
-.
+Guardar equipo y actualizar el panel de control.
 
-# . 
+# Los ajustes. Las opciones
 
-> ****
+> **IMPORTANTE**
 >
-> .
+> Este es un capítulo importante y debe entenderse antes de continuar.
 
- : . ..
+Por el momento, hemos utilizado 3 clases del núcleo de Jeedom : EqLogic, comando, cron. Vamos a buscar información, agregamos un cuarto con la clase de complemento en el archivo vdm.php que abres y dejas abierto porque lo vamos a editar.
 
 php
 $plugin = plugin::byId('vdm')  appelle la classe plugin du core
 
 
-.
+Debemos entender que todo se hace para facilitarnos la tarea.
 
-: . :
+Para un parámetro/opción interna del complemento, utilizaremos uno de los métodos de la clase principal eqLogic: setConfiguration() agregando los parámetros deseados. Por ejemplo:
 
 php
 $this->setConfiguration("type","mon_type")  si on veut définir un paramètre  de valeur mon_type. Comme on a défini la largeur du widget via la méthode setDisplay()
 
 
-. :D
+Para darle una opción al usuario, volvemos al archivo del escritorio.php que dejaste abierto porque estás siguiendo este TP al pie de la letra :D
 
 Cherchez
 
@@ -638,27 +638,27 @@ html
 <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="city" placeholder="param1">
 
 
-
+Y reemplazar con
 
 html
-<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option">  de laisser la classe eqLogicAttr
+<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"> Importante de laisser la classe eqLogicAttr
 
 
-).
+Guarde y vaya a un equipo de complemento que ya haya creado siguiendo este TP (Actualice si es necesario)).
 
 Dans le champs «Paramètre» d'un équipement, tapez «aléatoire» et sauvegardez.
 
-.
+Perfecto la configuración está guardada.
 
 ![image](imagestutorial_parametre1.png)
 
-? . C'est pourquoi il ne faut surtout pas toucher à cette ligne de code comme indiqué dans le premier menu « test ». 
+Es simple ¿verdad?? . C'est pourquoi il ne faut surtout pas toucher à cette ligne de code comme indiqué dans le premier menu « test ». Él es quien hace todo el trabajo
 
 php
 <?php include_file('core', 'plugin.template', 'js')?> Chargement du fichier corejsplugin.template.js (en partant de la racine du site)
 
 
-.
+Si miras más de cerca el archivo del escritorio.php hay
 
 html
 <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display:none" >  retourne l'id(unique) de l'eqLogic(équipement) que l'on va pouvoir récupérer via $this->getId() 
@@ -670,7 +670,7 @@ html
 
 Etc…
 
-. 
+Si has entendido bien todo esto, podemos pasar al siguiente paso. Pero primero cambiaremos el archivo desktop.php
 
 html
 {% raw %}<label class="col-sm-3 control-label">{{Paramètre}}<label>{% endraw %}
@@ -682,17 +682,17 @@ html
 {% raw %}<label class="col-sm-3 control-label">{{Type de vdm}}<label>{% endraw %}
 
 
- : .
+Importante : El texto entre llaves es el texto que se traducirá si lanza el complemento al mercado.
 
-.
+Por lo demás, desarrollaremos el plugin eligiendo un tipo de vdm (random o spicy o tops) que queramos así como un cron personalizado para cada equipo.
 
-# 
+# Uso de opciones/parámetros
 
-)
+Para ir más allá y comprender el capítulo anterior, permitiremos al usuario elegir un tipo de vdm (aleatorio o picante o tops))
 
-On pourrait le laisser taper dans l'input « Type de  » : 
+On pourrait le laisser taper dans l'input « Type de  » : Al azar o picante o tops, pero lo haremos de manera diferente al permitirle elegir a través de una etiqueta de selección
 
-
+Si seguiste todo, deberías tener en el archivo desktop.php
 
 html
 {% raw %}
@@ -705,7 +705,7 @@ html
 {% endraw %}
 
 
-
+Que reemplazaremos con
 
 html
 {% raw %}
@@ -724,7 +724,7 @@ html
 
 Ici le paramètre «type» prendra la valeur du select choisi soit aleatoire ou epicees ou tops.
 
-
+Ahora tendremos en cuenta nuestro parámetro en la función randomVdm() en el archivo vdm.class.php
 
 Cherchez
 
@@ -732,11 +732,11 @@ php
 $url = "http:www.viedemerde.fraleatoire"
 
 
-
+Y reemplazar con
 
 php
 $ = $this->getConfiguration("type", "aleatoire") si le paramètre est vide ou n'existe pas, on prends le  aleatoire
 $url = "http:www.viedemerde.fr{$type}"
 
 
-.
+Ahora cambie el valor seleccionado en un dispositivo, guárdelo y vaya al panel de control para ver cómo se ve.
