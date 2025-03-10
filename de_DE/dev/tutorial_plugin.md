@@ -187,7 +187,7 @@ php
 php
 () {
   $ = $this->getCmd(null, 'story')
-  Wenn (!)) {
+   (!)) {
     $ = new vdmCmd()
     $info->setName(__('Histoire', __FILE__))
   }
@@ -198,7 +198,7 @@ php
   $info->save()
 
   $refresh = $this->getCmd(null, 'refresh')
-  Wenn (!)) {
+   (!)) {
     $refresh = new vdmCmd()
     $refresh->setName(__('Rafraichir', __FILE__))
   }
@@ -252,10 +252,10 @@ html
 {% raw %}
 *  *
 ) {
-  Wenn (!)) {
+   (!)) {
     : {} }
   }
-  Wenn (!)) {
+   (!)) {
     
   }
   .
@@ -464,7 +464,7 @@ $cmd = $vdm->getCmd(null, 'refresh')
 
 
 php
-Wenn (!)) {
+ (!)) {
   continue
 }
 $cmd->execCmd()
@@ -476,7 +476,7 @@ php
  () {
   ::
     $cmd = $vdm->getCmd(null, 'refresh') retourne la commande "refresh" si elle existe
-    Wenn (!
+     (!
     
   }
   $cmd->execCmd() la commande existe on la lance
@@ -528,7 +528,7 @@ php
 
     ) {
       $cmd = $vdm->getCmd(null, 'refresh') retourne la commande "refresh si elle existe
-      Wenn (!
+       (!
       
     }
     $cmd->execCmd() la commande existe on la lance
@@ -574,7 +574,7 @@ J'applique le template « cmd.info.string.tile.html » à ma commande.
 
 php
 $ = $this->getCmd(null, 'story')
-Wenn (!)) {
+ (!)) {
   $ = new vdmCmd()
   $info->setName(__('Histoire', __FILE__))
 }

@@ -13,7 +13,7 @@
 
 ````php
 $replace = $this->preToHtml($_version)
-Wenn (!)) {
+ (!)) {
 	
 }
 ````
