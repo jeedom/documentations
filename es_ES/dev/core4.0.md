@@ -42,14 +42,14 @@
   ) {
     ) {
       $scenario->setLog($author . ' : ' . $countIncompatibles . ' potentially incompatible Jeedom V4 plugin on ' . $countPlugins . ' checked');
-    }  {
+    } demás {
       $scenario->setLog('All ' . $countPlugins . ' plugin developed by ' . $author . ' are Jeedom V4 compatible. Congratulations!');
     }
-  }  {
+  } demás {
     $scenario->setLog('No plugin found for ' . $author);
   }
   {% endraw %}
-  
+  ~~~
 
 </details>
 
@@ -82,7 +82,7 @@
 
 ). .
 
->  :
+> Observó :
 >
 >  ! .
 
