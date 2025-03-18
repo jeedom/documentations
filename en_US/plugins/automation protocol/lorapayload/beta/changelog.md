@@ -6,7 +6,7 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
-# )
+# 
 
 - Regenerating equipment in Chirpstack with the "Regenerate LoRaWAN configuration" button"
 
@@ -58,9 +58,11 @@
 
 - Correction du Device Profile *Power-Adapt Power-Elec 6*
 
--  *Quantify Cubic Meter*
+- Correction des commandes de downlink + uplink de *Quantify Cubic Meter*
 
 - Correction du décodeur *Dragino RS485-LN + NILAN*
+
+- Correction du décodeur *Quantify Cubic Meter*
 
 # 12/31/2024
 

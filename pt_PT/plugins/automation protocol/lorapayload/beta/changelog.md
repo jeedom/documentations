@@ -6,7 +6,7 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
-# )
+# 
 
 - Regenerando o equipamento no Chirpstack com o botão “Regenerar configuração LoRaWAN”"
 
@@ -58,9 +58,11 @@
 
 - Correction du Device Profile *Power-Adapt Power-Elec 6*
 
--  *Quantificar Metro Cúbico*
+- Correction des commandes de downlink + uplink de *Quantificar Metro Cúbico*
 
 - Correction du décodeur *Dragino RS485-LN + NILAN*
+
+- Correction du décodeur *Quantificar Metro Cúbico*
 
 # 31/12/2024
 

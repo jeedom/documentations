@@ -6,7 +6,63 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
-# xx/xx/xx
+# )
+
+- Regenerando o equipamento no Chirpstack com o botão “Regenerar configuração LoRaWAN”"
+
+- Gestion du fPort dans le décodage
+
+- *Dragino LHT65* ajout du Set Transmit Interval
+
+- *Dragino RS485-LN + NILAN* correction du décodeur
+
+- *NKE Fil Pilot* correction du Device Profile en classe C
+
+- Suppression des équipements MQTT et Chirpstack suite à la suppression de l'équipement Lorapayload
+
+- Vérification de la taille des DevEUI et AppKey avant la génération automatique
+
+- Adicionando configuração *Milesight WS203*
+
+- Ajout des commandes de downlink pour *Dragino LT-22222*
+
+- Adicionando configuração *WoMaster LR144*
+
+- Ajout des commandes de downlink pour *Dragino LHT-65* (Envoie des uplinks en confirmed)
+
+- Ajout de la commande info "Downlink acknowledged"
+
+- Ajout du bouton copier du Deveui et Appkey
+
+- Ajout des commandes de downlink pour *Dragino LT-22222*
+
+- Mise à jour du décodeur *Ewattch Lula Pro Rogowski*
+
+- Ajout du produit *MClimate - 16A Switch & Power Meter LoRaWAN*
+
+- Ajout de la possibilité d'envoyer deux downlinks dans la même commande Action
+
+- Ajout du produit *Dragino T68DL - Temperature Sensor*
+
+- Ajout du produit *Milesight TS201 - Temperature Sensor*
+
+- Ajout du produit *Milesight TS30x - Temperature Sensor*
+
+- Ajout du produit *Watteco In'O*
+
+- Ajout du produit *Milesight UC100 - IoT Controller*
+
+- Ajout du produit *Milesight UC300 - IoT Controller*
+
+- Ajout du champ *Remarque* pour les modules
+
+- Correction du Device Profile *Power-Adapt Power-Elec 6*
+
+-  *Quantificar Metro Cúbico*
+
+- Correction du décodeur *Dragino RS485-LN + NILAN*
+
+# 31/12/2024
 
 - Adicionando configuração *NKE Torano*
 
@@ -39,6 +95,8 @@
 - Bateria adicionada para *NKE Torano*
 
 - Adicionando configuração *Thermokon 835633 - NOVOS 3 Módulo de controle ambiente temperatura, umidade relativa, CO2*
+
+- Adicionando configuração *Adeunis ARF8230ABA - Transmissor de pulso contador de pulso*
 
 # 30/10/2024
 

@@ -6,13 +6,71 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 17/03/2025
+
+- Regénération de l'équipement dans Chirpstack avec le bouton "Regénérer la configuration LoRaWAN"
+
+- Gestion du fPort dans le décodage
+
+- *Dragino LHT65* ajout du Set Transmit Interval
+
+- *Dragino RS485-LN + NILAN* correction du décodeur
+
+- *NKE Fil Pilot* correction du Device Profile en classe C
+
+- Suppression des équipements MQTT et Chirpstack suite à la suppression de l'équipement Lorapayload
+
+- Vérification de la taille des DevEUI et AppKey avant la génération automatique
+
+- Ajout de la configuration *Milesight WS203*
+
+- Ajout des commandes de downlink pour *Dragino LT-22222*
+
+- Ajout de la configuration *WoMaster LR144*
+
+- Ajout des commandes de downlink pour *Dragino LHT-65* (Envoie des uplinks en confirmed)
+
+- Ajout de la commande info "Downlink acknowledged"
+
+- Ajout du bouton copier du Deveui et Appkey
+
+- Ajout des commandes de downlink pour *Dragino LT-22222*
+
+- Mise à jour du décodeur *Ewattch Squid Pro Rogowski*
+
+- Ajout du produit *MClimate - 16A Switch & Power Meter LoRaWAN*
+
+- Ajout de la possibilité d'envoyer deux downlinks dans la même commande Action
+
+- Ajout du produit *Dragino T68DL - Temperature Sensor*
+
+- Ajout du produit *Milesight TS201 - Temperature Sensor*
+
+- Ajout du produit *Milesight TS30x - Temperature Sensor*
+
+- Ajout du produit *Watteco In'O*
+
+- Ajout du produit *Milesight UC100 - IoT Controller*
+
+- Ajout du produit *Milesight UC300 - IoT Controller*
+
+- Ajout du champ *Remarque* pour les modules
+
+- Correction du Device Profile *Power-Adapt Power-Elec 6*
+
+- Correction des commandes de downlink + uplink de *Quandify Cubic Meter*
+
+- Correction du décodeur *Dragino RS485-LN + NILAN*
+
+- Correction du décodeur *Quandify Cubic Meter*
+
 # 31/12/2024
 
 - Ajout de la configuration *NKE Torano*
 
 - Modification de la configuration *Dragino LSN50 V2 - MOD4* (propriétés : Digital Interrupt)
 
-- Ajout de la configuration *Thermokon 798808 - MCS Capteur d’ambiance température, humidité relative, luminosité*
+- Ajout de la configuration *Thermokon 798808 - MCS Capteur d'ambiance température, humidité relative, luminosité*
 
 - Ajout de la configuration *Thermokon 817318 - MCS Détecteur de mouvement, Capteur d'ambiance température, humidité relative, luminosité, mouvement, présence, statut*
 

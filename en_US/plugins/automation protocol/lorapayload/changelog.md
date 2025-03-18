@@ -6,7 +6,63 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
-# xx/xx/xx
+# )
+
+- Regenerating equipment in Chirpstack with the "Regenerate LoRaWAN configuration" button"
+
+- Gestion du fPort dans le décodage
+
+- *Dragino LHT65* ajout du Set Transmit Interval
+
+- *Dragino RS485-LN + NILAN* correction du décodeur
+
+- *NKE Fil Pilot* correction du Device Profile en classe C
+
+- Suppression des équipements MQTT et Chirpstack suite à la suppression de l'équipement Lorapayload
+
+- Vérification de la taille des DevEUI et AppKey avant la génération automatique
+
+- Adding configuration *Milesight WS203*
+
+- Ajout des commandes de downlink pour *Dragino LT-22222*
+
+- Adding configuration *WoMaster LR144*
+
+- Ajout des commandes de downlink pour *Dragino LHT-65* (Envoie des uplinks en confirmed)
+
+- Ajout de la commande info "Downlink acknowledged"
+
+- Ajout du bouton copier du Deveui et Appkey
+
+- Ajout des commandes de downlink pour *Dragino LT-22222*
+
+- Mise à jour du décodeur *Ewattch Squid Pro Rogowski*
+
+- Ajout du produit *MClimate - 16A Switch & Power Meter LoRaWAN*
+
+- Ajout de la possibilité d'envoyer deux downlinks dans la même commande Action
+
+- Ajout du produit *Dragino T68DL - Temperature Sensor*
+
+- Ajout du produit *Milesight TS201 - Temperature Sensor*
+
+- Ajout du produit *Milesight TS30x - Temperature Sensor*
+
+- Ajout du produit *Watteco In'O*
+
+- Ajout du produit *Milesight UC100 - IoT Controller*
+
+- Ajout du produit *Milesight UC300 - IoT Controller*
+
+- Ajout du champ *Remarque* pour les modules
+
+- Correction du Device Profile *Power-Adapt Power-Elec 6*
+
+-  *Quantify Cubic Meter*
+
+- Correction du décodeur *Dragino RS485-LN + NILAN*
+
+# 12/31/2024
 
 - Adding configuration *NKE Torano*
 
@@ -39,6 +95,8 @@
 - Added Battery for *NKE Torano*
 
 - Adding configuration *Thermokon 835633 - NOVOS 3 Room control module temperature, relative humidity, CO2*
+
+- Adding configuration *Adeunis ARF8230ABA - Pulse meter pulse transmitter*
 
 # 10/30/2024
 
