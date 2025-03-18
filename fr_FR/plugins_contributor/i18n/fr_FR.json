@@ -606,7 +606,7 @@
         "Plugin pour gérer les équipements Netatmo Sécurité et particulièrement les cameras": "Plugin pour gérer les équipements Netatmo Sécurité et particulièrement les cameras",
         "jeezviz": "jeezviz",
         "Plugin de pilotage des caméras et visiophones EZVIZ": "Plugin de pilotage des caméras et visiophones EZVIZ",
-        "Ne fonctionne qu'avec les versions de Frigate > 0.13.0": "Ne fonctionne qu'avec les versions de Frigate > 0.13.0",
+        "Le plugin n'installe pas le serveur Frigate mais permet de le controler": "Le plugin n'installe pas le serveur Frigate mais permet de le controler",
         "Frigate": "Frigate",
         "Plugin Frigate pour Jeedom": "Plugin Frigate pour Jeedom",
         "Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos": "Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos",
@@ -637,6 +637,7 @@
         "Documentation Beta": "Documentation Beta",
         "Tous les modèles actuels supportés par l'application Arlo (web ou mobile) sont supportés par le plugin": "Tous les modèles actuels supportés par l'application Arlo (web ou mobile) sont supportés par le plugin",
         "Changelog Beta": "Changelog Beta",
+        "Ne fonctionne qu'avec les versions de Frigate > 0.13.0": "Ne fonctionne qu'avec les versions de Frigate > 0.13.0",
         "Sans emails intempestifs, Le plugin permet l'acquisition du live(snapshot ou vidéo) soit directement ou via le plugin Caméra sans changer les paramètres de sécurité de votre box": "Sans emails intempestifs, Le plugin permet l'acquisition du live(snapshot ou vidéo) soit directement ou via le plugin Caméra sans changer les paramètres de sécurité de votre box"
     },
     "plugins_contributor\/weather\/index.md": {

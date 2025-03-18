@@ -1,10 +1,10 @@
 {
 	"id": "frigate",
 	"name": "Frigate",
-	"pluginVersion": "1.1.7",
+	"pluginVersion": "1.2.0",
 	"installation": "Il est nécessaire d'avoir le plugin mqtt-manager installé pour profiter de toutes les fonctionnalités. Dans le cas contraire, le plugin Frigate sera limité. Voir la documentation pour plus d'informations.",
 	"description": {
-		"fr_FR": "Plugin Frigate pour Jeedom. Ne fonctionne qu'avec les versions de Frigate > 0.13.0",
+		"fr_FR": "Plugin Frigate pour Jeedom. Ne fonctionne qu'avec les versions de Frigate > 0.13.0. Le plugin n'installe pas le serveur Frigate mais permet de le controler.",
 		"en_US": "Frigate plugin for Jeedom. Works only with Frigate versions > 0.13.0",
 		"es_ES": "Plugin Frigate para Jeedom. Sólo funciona con versiones de Frigate > 0.13.0",
 		"de_DE": "Frigate-Plugin für Jeedom. Funktioniert nur mit Frigate-Versionen > 0.13.0",
