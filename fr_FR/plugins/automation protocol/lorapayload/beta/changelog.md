@@ -6,6 +6,14 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 19/03/2025 (Beta)
+
+- Correction du décodeur *WoMaster LR144*
+
+- Correction du décodeur *Adeunis ARF8230ABA - Emetteur impulsion compteur pulse*
+
+- Ajout du produit *Eastron Smart Energy Meter SDM-530*
+
 # 17/03/2025
 
 - Regénération de l'équipement dans Chirpstack avec le bouton "Regénérer la configuration LoRaWAN"
