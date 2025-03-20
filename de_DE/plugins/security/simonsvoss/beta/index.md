@@ -30,3 +30,15 @@ Es gibt immer zwei Arten von Aktionen: "Normal" oder "Mit Karte"'. Aktionen mit 
 
 Die normale Sperre wird normalerweise für 5 Sekunden gesperrt. Wenn Sie also eine Aktion ausführen (Normal), reagiert sie möglicherweise erst 5 Sekunden später. Bei einer Karte hingegen reagiert sie sofort (wenn Sie zuvor eine Karte übergeben haben)).
 Es ist möglich, diese Temperatur über einen Parameter anzuhören, der in der Darstellung der Sperre verfügbar ist).
+
+### .
+.
+
+### .
+.
+
+### .
+.
+
+### . ()
+.

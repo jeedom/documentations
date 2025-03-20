@@ -30,3 +30,15 @@ Sempre existem dois tipos de ação 'Normal' ou 'Com cartão'. as ações com ca
 
 o normal bloqueia normalmente por 5 segundos; portanto, se você executar uma ação (Normal), é possível que ele não responda até 5 segundos depois; por outro lado, com um cartão, ele responderá imediatamente (se você passar um cartão antes)).
 é possível ouvir essa temperatura através de um parâmetro disponível na apresentação do bloqueio).
+
+### .
+.
+
+### .
+.
+
+### .
+.
+
+### . ()
+.

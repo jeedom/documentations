@@ -30,3 +30,15 @@ Il y a toujours deux types d'action 'Normale' ou 'Avec carte'. les actions avec 
 
 les serrures dormes normalement pendant 5sec, donc si vous faite une action (Normale) il est possible qu'elle ne reponde que 5 secondes apres, par contre avec carte elle repondra imediatement (si vous avez passer une carte au prealable devant).
 il est possible d'ecouter ce temp via un paramettre disponible sur la presentation de la serrure).
+
+### Ajouter une nouvelle serrure ou gateway.
+si vous avez oublier une serrure ou gateway, vous pouvez les ajouter via le csv de SimonsVoss, il vous suffit de le reuploader "UNIQUEMENT LES MODULES NON INCLUS" avec l'entête du CSV dans le plugin et de relancer le demon.
+
+### Changer une serrure.
+si vous la changer dans le logiciel de simonsVoss, il vous suffira juste de changer le deviceID et le chipID inscrit dans l'ancienne serrure par les nouveaux present sur le logiciel SimonsVoss.
+
+### Supprimer une serrure ou gateway.
+si vous avez supprimer une serrure ou gateway, il vous suffit de supprimer la serrure dans le plugin et de relancer le demon.
+
+### Changement d'une gateway pour une serrure. (meilleurs réseaux)
+si vous avez une serrure qui ne repond pas bien, vous pouvez la changer de gateway, pour cela il vous suffit de changer dans le logiciel simonsVoss puis d'aller dans le plugin choisir la serrure et changer l'adresse ip par celle de la nouvelle gateway.

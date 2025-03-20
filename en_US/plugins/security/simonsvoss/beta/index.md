@@ -30,3 +30,15 @@ There are always two types of action 'Normal' or 'With card'. actions with a car
 
 the normal locks normally for 5sec, so if you do an action (Normal) it is possible that it will not respond until 5 seconds later, on the other hand with a card it will respond immediately (if you pass a card beforehand).
 it is possible to listen to this temp via a parameter available on the presentation of the lock).
+
+### .
+.
+
+### .
+.
+
+### .
+.
+
+### . ()
+.

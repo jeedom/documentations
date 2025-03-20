@@ -30,3 +30,15 @@ Siempre hay dos tipos de acción 'Normal' o 'Con tarjeta'. Las acciones con una 
 
 los bloqueos normales normalmente durante 5 segundos, por lo que si realiza una acción (Normal) es posible que no responda hasta 5 segundos después, por otro lado con una tarjeta, responderá inmediatamente (si pasa una tarjeta de antemano).
 es posible escuchar esta temperatura a través de un parámetro disponible en la presentación de la cerradura).
+
+### .
+.
+
+### .
+.
+
+### .
+.
+
+### . ()
+.
