@@ -278,6 +278,6 @@ Tenha cuidado para colocar o nome de arquivo gbl correto ao piscar.
 >
 >Você tem que ir para a configuração do Jeedom, depois para o OS/DB e depois para o editor de arquivos. Esnuite vá para plugins/z2m/data e exclua o arquivo coordenador_backup.json
 
->**Recebo o erro "Recusando-se a iniciar porque a configuração não é válida, encontrei os seguintes erros: 0850|- device_options must be object"**
+>**Recebo o erro "Recusando-se a iniciar porque a configuração não é válida, encontrei os seguintes erros: "**
 >
 > Il faut aller dans la configuration de jeedom onglet os/db cliquer sur l'editeur de fichier, ensuite dedans aller dans le dossier `plugins/z2m/data`, ouvrir le fichier configuration.yml (ou configuration.yaml) et supprimer la ligne qui contient device_options puis relancer le demon

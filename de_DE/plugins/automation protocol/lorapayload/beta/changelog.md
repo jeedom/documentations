@@ -6,13 +6,15 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# )
+# 19/03/2025 (Beta)
 
 - Correction du décodeur *WoMaster LR144*
 
 - Correction du décodeur *Adeunis ARF8230ABA – Impulszähler-Impulssender*
 
-- Ajout du produit **
+- Ajout du produit *Eastron Smart Energy Meter SDM-530*
+
+-  *Milesight Smarter Heizkörperthermostat WT101*
 
 # 17/03/2025
 

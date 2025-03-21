@@ -6,13 +6,15 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
-# )
+# 19/03/2025 (Beta)
 
 - Correction du décodeur *WoMaster LR144*
 
 - Correction du décodeur *Adeunis ARF8230ABA - Transmisor de impulsos contador de impulsos*
 
-- Ajout du produit **
+- Ajout du produit *Eastron Smart Energy Meter SDM-530*
+
+-  *Termostato de radiador inteligente Milesight WT101*
 
 # 17/03/2025
 

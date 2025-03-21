@@ -6,13 +6,15 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
-# )
+# 19/03/2025 (Beta)
 
 - Correction du décodeur *WoMaster LR144*
 
 - Correction du décodeur *Adeunis ARF8230ABA - Pulse meter pulse transmitter*
 
-- Ajout du produit **
+- Ajout du produit *Eastron Smart Energy Meter SDM-530*
+
+-  *Milesight Smart Radiator Thermostat WT101*
 
 # 17/03/2025
 

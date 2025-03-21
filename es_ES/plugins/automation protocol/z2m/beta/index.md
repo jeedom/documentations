@@ -278,6 +278,6 @@ Tenga cuidado de poner el nombre correcto del archivo gbl al flashear.
 >
 >Tienes que ir a la configuración de Jeedom, luego a OS/DB y luego al editor de archivos. Esnuite vaya a plugins/z2m/data y elimine el archivo coordinador_backup.json
 
->**Recibo el error "Me niego a iniciar porque la configuración no es válida, encontré los siguientes errores: 0850|- device_options must be object"**
+>**Recibo el error "Me niego a iniciar porque la configuración no es válida, encontré los siguientes errores: "**
 >
 > Il faut aller dans la configuration de jeedom onglet os/db cliquer sur l'editeur de fichier, ensuite dedans aller dans le dossier `plugins/z2m/data`, ouvrir le fichier configuration.yml (ou configuration.yaml) et supprimer la ligne qui contient device_options puis relancer le demon
