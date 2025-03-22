@@ -13,10 +13,14 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
-
 ## 
 
 - 
+
+
+## 27/02/2025
+
+- Fix rafraichissement des consignes après changement de mode
 
 
 ## 23/01/2025

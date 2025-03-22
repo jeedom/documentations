@@ -13,10 +13,14 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
-
 ## 
 
 - 
+
+
+## 27/02/2025
+
+- Fix rafraichissement des consignes après changement de mode
 
 
 ## 23/01/2025

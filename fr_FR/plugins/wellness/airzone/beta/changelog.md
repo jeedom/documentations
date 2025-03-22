@@ -13,6 +13,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+## 21/03/2025
+
+- Fix event Erreurs sur commande du même nom
+
 
 ## 27/02/2025
 

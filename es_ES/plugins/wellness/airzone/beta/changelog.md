@@ -13,10 +13,14 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
-
 ## 
 
 - 
+
+
+## 27/02/2025
+
+- Fix rafraichissement des consignes après changement de mode
 
 
 ## 23/01/2025
