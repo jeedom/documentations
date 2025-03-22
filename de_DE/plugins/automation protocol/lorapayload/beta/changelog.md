@@ -14,7 +14,9 @@
 
 - Ajout du produit *Eastron Smart Energy Meter SDM-530*
 
--  *Milesight Smarter Heizkörperthermostat WT101*
+- Ajout des generic types au produit *Milesight Smarter Heizkörperthermostat WT101*
+
+- Ajout du produit **
 
 # 17/03/2025
 

@@ -16,6 +16,8 @@
 
 - Ajout des generic types au produit *Milesight Smart Radiator Thermostat WT101*
 
+- Ajout du produit *Eastron Smart Energy Meter SDM-230*
+
 # 17/03/2025
 
 - Regénération de l'équipement dans Chirpstack avec le bouton "Regénérer la configuration LoRaWAN"

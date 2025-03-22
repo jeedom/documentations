@@ -14,7 +14,9 @@
 
 - Ajout du produit *Eastron Smart Energy Meter SDM-530*
 
--  *Termostato de radiador inteligente Milesight WT101*
+- Ajout des generic types au produit *Termostato de radiador inteligente Milesight WT101*
+
+- Ajout du produit **
 
 # 17/03/2025
 
