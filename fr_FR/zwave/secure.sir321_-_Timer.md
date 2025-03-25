@@ -43,7 +43,7 @@ Le SIR 321 prend en charge les capteurs de température externe SES001, SES002 e
 
 ## Configuration
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](../plugins/automation%20protocol/openzwave/).
 > **Important**
 >
 > Pour mettre ce module en mode inclusion il faut appuyer 1 seconde sur le bouton (jusqu’au clignotement rapide) et relacher, conformément à sa documentation papier.

@@ -159,7 +159,7 @@ En dessous vous retrouvez un tableau permettant de gérer finement le niveau de 
 
 ## Onglet Résumés
 
-[Voir documentation sur les résumés.](/fr_FR/concept/summary)
+[Voir documentation sur les résumés.](../../concept/summary)
 
 ## Onglet Equipements
 

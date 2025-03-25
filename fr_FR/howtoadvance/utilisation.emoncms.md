@@ -36,7 +36,7 @@ Pour prendre une donnée de emoncms dans Jeedom, il y a deux possibilités :
 
 # Mémo pour l’installation EmonCMS
 
-L’installation est décrite sur cette page github [ici](https://github.com/emoncms/emoncms/blob/master/docs/LinuxInstall.md)
+L’installation est décrite sur cette page github [ici](https://github.com/emoncms/emoncms/blob/master/docs/LinuxInstall)
 
 A noter que certains plugins semblent obsolètes avec la dernière version EmonCMS (v9 à fin 2015)
 

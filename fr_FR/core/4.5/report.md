@@ -5,20 +5,20 @@ Cette page permet de voir tous les rapports qui ont été générés par l'actio
 
 ## Principe
 
-Un rapport est une capture d'écran de l'interface de Jeedom à un instant t.
+Un rapport est une capture d'écran de l'interface de Jeedom à un instant T.
 
 > **Note**
 >
 > Cette capture est adaptée pour ne pas prendre la barre de menu et autres éléments inutiles sur ce type d'utilisation.
 
-Vous pouvez le faire sur des vues, designs, pages de panel....
+Vous pouvez le faire sur des vues, designs, pages de panel...
 
-La génération se déclenche à partir d'un scénario avec la commande report.
+La génération se déclenche à partir d'un scénario avec la commande report.  
 Vous pouvez choisir de vous faire envoyer ce rapport à l'aide d'une commande message (mail, télégram, etc).
 
 ## Utilisation
 
-Son utilisation est très simple. Sélectionnez sur la gauche si vous voulez voir :
+Son utilisation est très simple : sur la gauche, sélectionnez si vous voulez voir :
 
 - Les rapports des vues.
 - Les rapports des designs.
@@ -35,10 +35,10 @@ Une fois le rapport sélectionné, vous pouvez le voir apparaître, le télécha
 
 Vous pouvez aussi supprimer toutes les sauvegardes d'un rapport donné
 
-## FAQ
+## Résolution d'erreur
 
 > Si vous avez une erreur du type Détails :
-> *cutycapt: error while loading shared libraries: libEGL.so: cannot open shared object file: No such file or directory*
-> Il faut en ssh ou dans Réglages → Système → Configuration : OS/DB / Système administration faire :
-> ```sudo ln -s /usr/lib/aarch64-linux-gnu/libGLESv2.so.2 /usr/lib/aarch64-linux-gnu/libGLESv2.so```
+> *cutycapt: error while loading shared libraries: libEGL.so: cannot open shared object file: No such file or directory*  
+> Il faut lancer les commandes suivantes en ssh ou dans Réglages → Système → Configuration : OS/DB / Système administration :  
+> ```sudo ln -s /usr/lib/aarch64-linux-gnu/libGLESv2.so.2 /usr/lib/aarch64-linux-gnu/libGLESv2.so```  
 > ```sudo ln -s /usr/lib/aarch64-linux-gnu/libEGL.so.1 /usr/lib/aarch64-linux-gnu/libEGL.so```
