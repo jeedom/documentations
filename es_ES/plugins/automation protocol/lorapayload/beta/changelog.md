@@ -6,7 +6,7 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
-# 19/03/2025 (Beta)
+# 
 
 - Correction du décodeur *WoMaster LR144*
 
@@ -16,7 +16,9 @@
 
 - Ajout des generic types au produit *Termostato de radiador inteligente Milesight WT101*
 
-- Ajout du produit **
+- Ajout du produit *Eastron Smart Energy Meter SDM-230*
+
+- Corrección del decodificador **
 
 # 17/03/2025
 

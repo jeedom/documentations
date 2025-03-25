@@ -6,7 +6,19 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
-# )
+# 19/03/2025 (Beta)
+
+- Correction du décodeur *WoMaster LR144*
+
+- Correction du décodeur *Adeunis ARF8230ABA - Transmissor de pulso contador de pulso*
+
+- Ajout du produit *Eastron Smart Energy Meter SDM-530*
+
+- Ajout des generic types au produit *Termostato de radiador inteligente Milesight WT101*
+
+- Ajout du produit **
+
+# 17/03/2025
 
 - Regenerando o equipamento no Chirpstack com o botão “Regenerar configuração LoRaWAN”"
 
@@ -58,9 +70,11 @@
 
 - Correction du Device Profile *Power-Adapt Power-Elec 6*
 
--  *Quantificar Metro Cúbico*
+- Correction des commandes de downlink + uplink de *Quantificar Metro Cúbico*
 
 - Correction du décodeur *Dragino RS485-LN + NILAN*
+
+- Correction du décodeur *Quantificar Metro Cúbico*
 
 # 31/12/2024
 

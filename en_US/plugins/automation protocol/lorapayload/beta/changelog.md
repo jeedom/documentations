@@ -6,7 +6,7 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
-# 19/03/2025 (Beta)
+# 
 
 - Correction du décodeur *WoMaster LR144*
 
@@ -16,7 +16,9 @@
 
 - Ajout des generic types au produit *Milesight Smart Radiator Thermostat WT101*
 
-- Ajout du produit **
+- Ajout du produit *Eastron Smart Energy Meter SDM-230*
+
+- Decoder correction **
 
 # 17/03/2025
 
