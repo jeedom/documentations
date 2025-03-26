@@ -6,7 +6,7 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 
+# 24/03/2025
 
 - Correction du décodeur *WoMaster LR144*
 
@@ -18,7 +18,7 @@
 
 - Ajout du produit *Eastron Smart Energy Meter SDM-230*
 
-- Decoder-Korrektur **
+- Decoder-Korrektur *NKE Batch*
 
 # 17/03/2025
 
