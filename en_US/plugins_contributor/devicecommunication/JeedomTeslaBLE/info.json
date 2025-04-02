@@ -1,5 +1,5 @@
 {
-	"id": "JeedomTeslaBLE",
+	"id": "TeslaBLE",
 	"name": "Tesla BLE",
 	"pluginVersion": "0.1",
 	"description": {
@@ -34,6 +34,8 @@
 		"rpi",
 		"docker",
 		"diy",
-		"mobile"
+		"mobile",
+		"miniplus",
+		"v4"
 	]
 }

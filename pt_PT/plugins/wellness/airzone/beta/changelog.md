@@ -13,9 +13,9 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
-## 
+## 21/03/2025
 
-- 
+- Fix event Erreurs sur commande du même nom
 
 
 ## 27/02/2025

@@ -6,6 +6,12 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 02/04/2025 (BETA)
+
+- Ajout du produit *Dragino CPL03-LB/LS – LoRaWAN-Trockenkontaktsensor für den Außenbereich (offen/geschlossen)*
+
+- Ajout du produit *Dragino LHT52 - LoRaWAN-Innentemperatur- und Feuchtigkeitssensor*
+
 # 24/03/2025
 
 - Correction du décodeur *WoMaster LR144*

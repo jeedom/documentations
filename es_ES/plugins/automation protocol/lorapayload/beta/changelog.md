@@ -6,6 +6,12 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
+# 02/04/2025 (BETA)
+
+- Ajout du produit *Dragino CPL03-LB/LS - Sensor de contacto seco LoRaWAN para exteriores, abierto/cerrado*
+
+- Ajout du produit *Dragino LHT52 - Sensor de temperatura y humedad interior LoRaWAN*
+
 # 24/03/2025
 
 - Correction du décodeur *WoMaster LR144*
