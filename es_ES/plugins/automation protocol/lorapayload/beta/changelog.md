@@ -12,6 +12,8 @@
 
 - Ajout du produit *Dragino LHT52 - Sensor de temperatura y humedad interior LoRaWAN*
 
+- Corrección del decodificador *Vega*
+
 # 24/03/2025
 
 - Correction du décodeur *WoMaster LR144*
