@@ -335,7 +335,7 @@ php
             $return['launchable'] = 'nok';
             $return['launchable_message'] = __('La clé d\'application n\'est pas configurée', __FILE__);
         }
-        
+        return $return;
     }
 
 
@@ -601,7 +601,7 @@ json
 
 ##### pre-install: 
 
- :
+Example :
 
 json
 {
@@ -613,7 +613,7 @@ json
 ##### post-install
 
 .
- :
+Example :
 
 json
 {
@@ -829,7 +829,7 @@ php
                 $return['state'] = 'ok';
             }
         }
-        
+        return $return;
     }
 
 
