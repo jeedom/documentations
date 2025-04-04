@@ -83,7 +83,7 @@ html.dark ::-webkit-scrollbar-thumb {
 html.dark #logo-container:before {
   content: '';
   display: inline-block;
-  width: 50px;
+  width: 150px;
   height: 50px;
   background-size: cover !important;
   background-repeat: no-repeat;
