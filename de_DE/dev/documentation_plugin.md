@@ -50,6 +50,6 @@
 -  ``#language#/``  ``https://jeedom.github.io/plugin-template/#language#/``
 -  ``#language#/changelog``  ``https://jeedom.github.io/plugin-template/#language#/changelog``
 
-> **Notiz**
+> ****
 >
 >  #language# )
