@@ -303,6 +303,8 @@
         "Electricity Cost permet de récupérer les coûts journalier, hebdomadaire, mensuel et annuel": "Electricity Cost permet de récupérer les coûts journalier, hebdomadaire, mensuel et annuel",
         "EcogazSync": "EcogazSync",
         "Plugin pour se connecter à l'API Ecogaz": "Plugin pour se connecter à l'API Ecogaz",
+        "APSystems Sunspec": "APSystems Sunspec",
+        "Plugin permettant de récupérer les données des onduleurs APSystems via le protocole Sunspec": "Plugin permettant de récupérer les données des onduleurs APSystems via le protocole Sunspec",
         "Energie": "Energie",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",

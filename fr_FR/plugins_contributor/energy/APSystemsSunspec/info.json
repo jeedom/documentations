@@ -1,0 +1,44 @@
+{
+	"id" : "APSystemsSunspec",
+	"name" : "APSystems Sunspec",
+	"pluginVersion": "v1.3",
+	"description": {
+		"fr_FR": "Plugin permettant de récupérer les données des onduleurs APSystems via le protocole Sunspec."
+	},
+	"licence": "AGPL",
+	"author": "Noyax37",
+	"require": "4.2",
+	"category": "energy",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog_beta": "https://github.com/Noyax-37/APSystemsSunspec/blob/develop/docs/fr_FR/changelog.md",
+	"changelog": "https://github.com/Noyax-37/APSystemsSunspec/blob/master/docs/fr_FR/changelog.md",
+	"documentation_beta": "https://github.com/Noyax-37/APSystemsSunspec/blob/develop/docs/fr_FR/index.md",
+	"documentation": "https://github.com/Noyax-37/APSystemsSunspec/blob/master/docs/fr_FR/index.md",
+	"link": {
+		"forum": "Lien vers le forum",
+		"video": "Lien vers une video"
+	},
+	"language": [
+		"fr_FR",
+		"en_US",
+		"es_ES",
+		"de_DE",
+		"ru_RU",
+		"id_ID",
+		"it_IT",
+		"ja_JP",
+		"pt_PT"
+	],
+	"compatibility": [
+		"smart",
+		"luna",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4"
+	]
+}

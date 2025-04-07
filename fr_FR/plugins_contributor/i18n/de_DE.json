@@ -563,6 +563,8 @@
         "Plugin pour se connecter à l'API RTE": "Plugin zur Verbindung mit der RTE-API",
         "Electricity Cost permet de récupérer les coûts journalier, hebdomadaire, mensuel et annuel": "Mit „Stromkosten“ können Sie tägliche, wöchentliche, monatliche und jährliche Kosten abrufen",
         "Plugin pour se connecter à l'API Ecogaz": "Plugin zur Verbindung mit der Ecogaz-API",
+        "APSystems Sunspec": "",
+        "Plugin permettant de récupérer les données des onduleurs APSystems via le protocole Sunspec": "",
         "Seuls les plugins de contributeur ont leur documentation ici": "Hier haben nur Contributor-Plugins ihre Dokumentation",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Sie können die Dokumentation der offiziellen Plugins direkt vom Jeedom Market abrufen",
         "Une fois sur le plugin en question, cliquez sur documentation": "Klicken Sie im betreffenden Plugin auf Dokumentation",
