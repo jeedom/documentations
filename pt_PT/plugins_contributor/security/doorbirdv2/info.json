@@ -4,7 +4,7 @@
     "licence" : "AGPL",
     "author" : "vegeta0911",
     "require" : "4.4",
-    "pluginVersion": "2.0",
+    "pluginVersion": "2.1",
     "os" : {
 		"min" : 11,
 		"max" : ""
