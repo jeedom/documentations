@@ -6,13 +6,15 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
-# 02/04/2025 (BETA)
+# )
 
 - Ajout du produit *Dragino CPL03-LB/LS - LoRaWAN Outdoor Open/Closed Dry Contact Sensor*
 
 - Ajout du produit *Dragino LHT52 - LoRaWAN Indoor Temperature and Humidity Sensor*
 
 - Decoder correction *Vega*
+
+-  *Dragino CPL03-LB/LS - LoRaWAN Outdoor Open/Closed Dry Contact Sensor*
 
 # 24/03/2025
 
