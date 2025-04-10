@@ -1,12 +1,10 @@
 # Changelog Lora Payload
 
-# Changelog LoraPayload
-
 >**IMPORTANT**
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 09/04/2025 (BETA)
+# 10/04/2025 (BETA)
 
 - Ajout du produit *Dragino CPL03-LB/LS - Capteur de contact sec ouvert/fermé LoRaWAN pour extérieur*
 
@@ -15,6 +13,10 @@
 - Correction décodeur *Vega*
 
 - Ajout des commandes *Dragino CPL03-LB/LS - Capteur de contact sec ouvert/fermé LoRaWAN pour extérieur*
+
+- Mise à jour décodeur et encodeur *Thermokon 835633 - NOVOS 3 Module de commande d'ambiance température, humidité relative, CO2*
+
+- Ajout du produit *BMeters IWM-LR3 - Water Meter Reader*
 
 # 24/03/2025
 

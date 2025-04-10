@@ -1,7 +1,5 @@
 # Carga útil de Lora del registro de cambios
 
-# Registro de cambios LoraPayload
-
 >**IMPORTANTE**
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
@@ -14,7 +12,11 @@
 
 - Corrección del decodificador *Vega*
 
--  *Dragino CPL03-LB/LS - Sensor de contacto seco LoRaWAN para exteriores, abierto/cerrado*
+- Ajout des commandes *Dragino CPL03-LB/LS - Sensor de contacto seco LoRaWAN para exteriores, abierto/cerrado*
+
+-  *Thermokon 835633 - NOVOS 3 Módulo de control de ambiente temperatura, humedad relativa, CO2*
+
+- Ajout du produit **
 
 # 24/03/2025
 

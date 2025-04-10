@@ -4,6 +4,13 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+- Possibilité de mettre a jour le firmware de la luna en 8.0.2.0
+- Version de zigbee2mqtt par defaut 2.2.1
+
+>**IMPORTANT**
+>
+>SUr les luna il faut mettre a jour votre firmware en 8.0.2.0 pour avoir un zigbee2mqtt qui marche en 2.2.1
+
 # 14/01/2025
 
 - Mise à jour de la doc

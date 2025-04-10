@@ -1,7 +1,5 @@
 # Changelog Lora Payload
 
-# Changelog LoraPayload
-
 >**IMPORTANTE**
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
@@ -14,7 +12,11 @@
 
 - Correção do decodificador *Vega*
 
--  *Dragino CPL03-LB/LS - Sensor de contato seco aberto/fechado LoRaWAN para ambientes externos*
+- Ajout des commandes *Dragino CPL03-LB/LS - Sensor de contato seco aberto/fechado LoRaWAN para ambientes externos*
+
+-  *Thermokon 835633 - NOVOS 3 Módulo de controle ambiente temperatura, umidade relativa, CO2*
+
+- Ajout du produit **
 
 # 24/03/2025
 

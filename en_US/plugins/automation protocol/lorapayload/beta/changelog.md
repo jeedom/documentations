@@ -1,7 +1,5 @@
 # Changelog Lora Payload
 
-# Changelog LoraPayload
-
 >**IMPORTANT**
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
@@ -14,7 +12,11 @@
 
 - Decoder correction *Vega*
 
--  *Dragino CPL03-LB/LS - LoRaWAN Outdoor Open/Closed Dry Contact Sensor*
+- Ajout des commandes *Dragino CPL03-LB/LS - LoRaWAN Outdoor Open/Closed Dry Contact Sensor*
+
+-  *Thermokon 835633 - NOVOS 3 Room control module temperature, relative humidity, CO2*
+
+- Ajout du produit **
 
 # 24/03/2025
 

@@ -4,6 +4,13 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+- 
+- 
+
+>**IMPORTANTE**
+>
+>.
+
 # 14/01/2025
 
 - Mise à jour de la doc
