@@ -1,44 +1,46 @@
 # Plugin Simons Voss
 
-Ce plugin est utilisé pour une gestion du systeme SimonsVoss Smart Intego.
+Ce plugin permet de gérer le système SimonsVoss Smart Intego.
 
-Il est de conivence avec le plugin Gestion D'acces.
+Il est compatible avec le plugin Gestion d'accès.
 
-## Activation et présentation du plugin gestion d'accès
+## Activation et présentation du plugin Gestion d'accès
 
 ### Activation
-Après instalation de votre plugin, vous devez l'activer.
+Après l'installation de votre plugin, vous devez l'activer.
 
->Il vous faut installer les dependances de votre plugin, et noter le port utilisé de vos gateways SimonsVoss, ne pas oublier d'activer le TCP (normalement activé d'origine) dans vos gateway.
+> Vous devez installer les dépendances du plugin, noter le port utilisé par vos passerelles SimonsVoss, et vérifier que le protocole TCP est activé (il l'est normalement par défaut) sur vos passerelles.
 
-Après avoir activé le plugin vous devriez le voir dans  **Plugins** → **Sécurité** → **Simons Voss**. Si ce n'est pas le cas n'hésitez pas à actualiser votre page (Ctrl+F5 ou Cmd+R).
+Une fois le plugin activé, vous devriez le voir dans **Plugins** → **Sécurité** → **Simons Voss**. Si ce n'est pas le cas, actualisez la page (Ctrl+F5 ou Cmd+R).
 
 ### Présentation
 
-Dans l'affichage par défaut du plugin, vous avez la possibilité de telecharger le fichier source de SimonsVoss, ce fichier est a recuperer dans le logiciel de SimonsVoss une fois votre projet fini.
+Dans l'affichage par défaut du plugin, vous avez la possibilité de télécharger le fichier source de SimonsVoss. Ce fichier doit être récupéré dans le logiciel SimonsVoss une fois votre projet terminé.
 
 ### Lancement du projet
 
-une fois uploader dans Jeedom, Jeedom l'analisera pou créer toutes les serrures et gateway.
-accedez au diferrente gateway pour confirmé leur adresse IP (vous pouvez la changer dans la commande dediée).
+Une fois le fichier téléchargé et importé dans Jeedom, ce dernier analysera le contenu pour créer toutes les serrures et passerelles. Accédez aux différentes passerelles pour confirmer leurs adresses IP (vous pouvez les modifier via la commande dédiée).
 
-une fois tout fait. vous pouvez relancer le démon Simonsvoss.
+Une fois cette étape terminée, vous pouvez relancer le démon SimonsVoss.
 
-les Serrures doivent communiquer.
+Les serrures doivent être opérationnelles.
 
-Il y a toujours deux types d'action 'Normale' ou 'Avec carte'. les actions avec carte permette d'informait la serrure que cette action et valider via la carte passer (cet donnc cette action que l'on va preconiser pour la partie gestion d'acces).
+Il existe deux types d'actions : **Normale** ou **Avec carte**. Les actions "Avec carte" permettent d'informer la serrure que l'action est validée via une carte passée devant la serrure (c'est cette action qui est recommandée pour la gestion d'accès).
 
-les serrures dormes normalement pendant 5sec, donc si vous faite une action (Normale) il est possible qu'elle ne reponde que 5 secondes apres, par contre avec carte elle repondra imediatement (si vous avez passer une carte au prealable devant).
-il est possible d'ecouter ce temp via un paramettre disponible sur la presentation de la serrure).
+Les serrures restent généralement en veille pendant 5 secondes. Ainsi, si vous effectuez une action "Normale", il est possible qu'elle ne réponde qu'après ce délai. En revanche, avec une carte, la serrure répondra immédiatement (à condition qu'une carte ait été passée au préalable). Vous pouvez consulter ce délai via un paramètre disponible dans la présentation de la serrure.
 
-### Ajouter une nouvelle serrure ou gateway.
-si vous avez oublier une serrure ou gateway, vous pouvez les ajouter via le csv de SimonsVoss, il vous suffit de le reuploader "UNIQUEMENT LES MODULES NON INCLUS" avec l'entête du CSV dans le plugin et de relancer le demon.
+### Ajouter une nouvelle serrure ou passerelle
 
-### Changer une serrure.
-si vous la changer dans le logiciel de simonsVoss, il vous suffira juste de changer le deviceID et le chipID inscrit dans l'ancienne serrure par les nouveaux present sur le logiciel SimonsVoss.
+Si vous avez oublié d'ajouter une serrure ou une passerelle, vous pouvez les intégrer via le fichier CSV de SimonsVoss. Il suffit de recharger uniquement les modules non inclus avec l'en-tête du CSV dans le plugin, puis de relancer le démon.
 
-### Supprimer une serrure ou gateway.
-si vous avez supprimer une serrure ou gateway, il vous suffit de supprimer la serrure dans le plugin et de relancer le demon.
+### Modifier une serrure
 
-### Changement d'une gateway pour une serrure. (meilleurs réseaux)
-si vous avez une serrure qui ne repond pas bien, vous pouvez la changer de gateway, pour cela il vous suffit de changer dans le logiciel simonsVoss puis d'aller dans le plugin choisir la serrure et changer l'adresse ip par celle de la nouvelle gateway.
+Si vous modifiez une serrure dans le logiciel SimonsVoss, il vous suffit de mettre à jour le `deviceID` et le `chipID` de l'ancienne serrure avec les nouvelles valeurs présentes dans le logiciel SimonsVoss.
+
+### Supprimer une serrure ou une passerelle
+
+Si vous supprimez une serrure ou une passerelle, il vous suffit de la supprimer dans le plugin, puis de relancer le démon.
+
+### Changer la passerelle d'une serrure (meilleure connectivité)
+
+Si une serrure ne répond pas correctement, vous pouvez la connecter à une autre passerelle. Pour cela, modifiez la configuration dans le logiciel SimonsVoss, puis accédez au plugin, sélectionnez la serrure concernée et changez son adresse IP pour celle de la nouvelle passerelle.
