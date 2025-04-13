@@ -3,9 +3,9 @@
     "name": "SomfyUnifiedExt1",
     "pluginVersion": "1.0.0",
     "description": {
-        "fr_FR": "Plugin Extension1 du plugin SomfyUnified qui fournit des widgets et/ou panels spécifiques pour une amélioration de l'interface utilisateur. Le plugin SomfyUnifiedExt1 est dédié aux équipements appartenant aux familles HeatingSystem et WaterHeatingSystem."
+        "fr_FR": "Plugin Extension1 du plugin **SomfyUnified** qui fournit des widgets et/ou panels spécifiques pour une amélioration de l'interface utilisateur. Le plugin SomfyUnifiedExt1 est dédié aux équipements appartenant aux familles ***HeatingSystem*** et ***WaterHeatingSystem***."
     },
-    "utilization": "Pour être actif, ce plugin nécessite que le plugin SomfyUnified soit installé sur votre Jeedom.",
+    "utilization": "ATTENTION! Pour être actif, ce plugin nécessite que le plugin SomfyUnified soit installé sur votre Jeedom.",
     "licence": "AGPL",
     "author": "Eridani78",
     "require": "4.2",
@@ -25,15 +25,7 @@
         "forum": "https://community.jeedom.com/tag/plugin-somfyunified"
     },
     "language": [
-        "fr_FR",
-        "en_US",
-        "es_ES",
-        "de_DE",
-        "ru_RU",
-        "id_ID",
-        "it_IT",
-        "ja_JP",
-        "pt_PT"
+        "en_US"
     ],
     "compatibility": [
         "smart",
