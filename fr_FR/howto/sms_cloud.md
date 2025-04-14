@@ -14,5 +14,5 @@ Un exemple simple est : en cas de déclenchement de l'alarme alors je reçois un
 
 C'est très simple il faut : 
 
-- avoir du crédit SMS  : SMS = 1 crédit (limité à 140 caractères), appel = 2 crédits (limité à 450 caractères)
-- avoir le plugin phonemarket, d'installer et configurer, documentation [ici](https://doc.jeedom.com/fr_FR/plugins/communication/phonemarket/)
+- avoir du crédit SMS : SMS = 1 crédit (limité à 140 caractères), appel = 2 crédits (limité à 450 caractères)
+- avoir le plugin phonemarket installé et configuré, documentation [ici](../plugins/communication/phonemarket/)

@@ -2,8 +2,7 @@
 **Réglages → Système → Sauvegardes**
 
 Jeedom offre la possibilité d’être sauvegardé et restauré depuis ou à partir de différents emplacements.
-Cette page permet la gestion des sauvegardes, restaurations.
-
+Cette page permet la gestion des sauvegardes et des restaurations.
 
 Vous y trouvez, à gauche, les paramètres et les boutons d’action. Sur la droite, c’est le statut en temps réel de l’action en cours (sauvegarde ou restauration), si vous en avez lancé une.
 
@@ -49,7 +48,7 @@ Vous y trouvez, à gauche, les paramètres et les boutons d’action. Sur la dro
 
 > **IMPORTANT**
 >
-> Les backups de jeedom doivent être enregistrés absolument dans un dossier que pour lui ! Il supprimera tous ce qui n’est pas un backup jeedom du dossier.
+> Les backups de jeedom doivent être enregistrés absolument dans un dossier que pour lui ! Il supprimera tout ce qui n’est pas un backup jeedom du dossier.
 
 
 # Qu’est-ce qui est sauvegardé ?
@@ -60,7 +59,7 @@ Au niveau des protocoles, seul le Z-Wave (OpenZwave) est un peu différent car i
 
 > **Note**
 >
-> Le système sur lequel est installé Jeedom n’est pas sauvegardé. Si vous avez modifié des paramètres de ce système (notamment via SSH), c’est à vous de trouver un moyen de les récupérer en cas de soucis. De même les dépendances ne le sont pas non plus il faudra donc les réinstaller après une restauration
+> Le système sur lequel est installé Jeedom n’est pas sauvegardé. Si vous avez modifié des paramètres de ce système (notamment via SSH), c’est à vous de trouver un moyen de les récupérer en cas de soucis. De même les dépendances ne le sont pas non plus il faudra donc les réinstaller après une restauration.
 
 # Sauvegarde cloud
 

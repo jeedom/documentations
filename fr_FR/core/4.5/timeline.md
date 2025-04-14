@@ -3,12 +3,12 @@
 
 ## Timeline
 
-La page Timeline permet d'afficher chronologiquement des évènements, comme des changements de commandes *info*, des déclenchements de commandes *action*, et des éxécutions de scénarios.
+La page Timeline permet d'afficher chronologiquement des évènements, comme des changements de commandes *info*, des déclenchements de commandes *action* et des éxécutions de scénarios.
 
-Pour les voir, il vous faut d’abord activer le suivi sur la timeline des commandes ou scénarios voulus, puis que ces évènements se produisent.
+Pour les voir, il vous faut d’abord activer le suivi des commandes ou scénarios voulus sur la timeline, puis que ces évènements se produisent.
 
 - **Scenario** : Soit directement sur la page d'un scénario, soit sur *Vue d'ensemble* des scénarios.
-- **Commande** : Soit dans la configuration avancée de la commande, soit dans la configuration de l’historique pour le faire en "masse".
+- **Commande** : Soit dans la configuration avancée de la commande, soit dans la configuration de l’historique pour le faire "en masse".
 
 ![Timeline](images/timeline_intro.jpg)
 
@@ -32,10 +32,10 @@ La timeline affiche les évènements enregistrés, échelonnés jour par jour ve
 Pour chaque évènement, vous avez:
 
 - La date et l'heure de l'évènement,
-- Le type d'évènement: Une commande info ou action, ou un scénario, avec pour les commandes le plugin de la commande.
+- Le type d'évènement : une commande info ou action, ou un scénario, avec pour les commandes le plugin de la commande.
 - Le nom de l'objet parent, le nom, et suivant le type, l'état ou le déclencheur.
 
 - Un évènement de type commande affiche une icône sur la droite pour ouvrir la configuration de la commande.
-- Un évènement de type scénario affiche deux icônes sur la droite pour se rendre sur le scénario, ou ouvrir le log du scénario.
+- Un évènement de type scénario affiche deux icônes sur la droite pour se rendre sur le scénario ou ouvrir le log du scénario.
 
 En haut à droite, vous pouvez sélectionner un dossier de timeline. Celui-ci doit être créé avant et doit contenir des évènements.

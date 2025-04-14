@@ -1,13 +1,13 @@
 # Types d'équipement
 **Outils → Types d'équipement**
 
-Les capteurs et actionneurs dans Jeedom sont gérés par des plugins, qui créent des équipements avec des commandes *Info* (capteur) ou *Action* (actionneur). Ce qui permet ensuite de déclencher des actions en fonctions du changement de certains capteurs, comme allumer une lumière sur une détection de mouvement. Mais le Core de Jeedom, et des plugins comme *Mobile*, *Homebridge*, *Google Smarthome*, *Alexa Smarthome* etc., ne savent pas ce que sont ces équipements : Une prise, une lumière, un volet, etc.
+Les capteurs et actionneurs dans Jeedom sont gérés par des plugins qui créent des équipements avec des commandes *Info* (capteur) ou *Action* (actionneur). Ce qui permet ensuite de déclencher des actions en fonctions du changement de certains capteurs, comme allumer une lumière sur une détection de mouvement. Mais le Core de Jeedom, et des plugins comme *Mobile*, *Homebridge*, *Google Smarthome*, *Alexa Smarthome* etc., ne savent pas ce que sont ces équipements : Une prise, une lumière, un volet, etc.
 
-Pour palier à ce problème, notamment avec les assistants vocaux (*Allume la lumière de la salle*), le Core a introduit il y a quelques années les **Types Génériques**, utilisés par ces plugins.
+Pour palier à ce problème, notamment avec les assistants vocaux (*Allume la lumière de la salle*), le Core a introduit il y a quelques années les **Types Génériques** utilisés par ces plugins.
 
 Cela permet ainsi d'identifier un équipement par *La lumière de la salle* par exemple.
 
-La pluspart du temps les types génériques sont mis automatiquement lors la configuration de votre module (inclusion sous Z-wave par exemple). Mais il peut arriver que vous deviez les reconfigurer. Le paramétrage des ces Types Génériques peut se faire directement dans certains plugins, ou par commande dans *Configuration avancée* de celle-ci.
+La plupart du temps les types génériques sont mis automatiquement lors la configuration de votre module (inclusion sous Z-wave par exemple). Mais il peut arriver que vous deviez les reconfigurer. Le paramétrage des ces Types Génériques peut se faire directement dans certains plugins ou par commande dans la *Configuration avancée* de celle-ci.
 
 Cette page permet de paramétrer ces Types Génériques, de manière plus directe et plus simple, et propose même une assignation automatique une fois les équipements assignés correctement.
 
@@ -15,7 +15,7 @@ Cette page permet de paramétrer ces Types Génériques, de manière plus direct
 
 ## Type d'équipement
 
-Cette page propose un rangement par type d'équipement : Prise, Lumière, Volet, Thermostat, Camera, etc. Au départ, la plupart de vos équipements seront classés dans **Equipements sans type**. Pour leur assigner un type, vous pouvez soit les déplacer dans un autre type, soit faire un clic droit sur l'équipement pour le déplacer directement. Le Type d'équipement n'est pas vraiment utile en soit, le plus important étant le Types des commandes. Vous pouvez ainsi avoir un Equipement sans Type, ou d'un Type ne correspondant pas forcément à ses commandes. Vous pouvez bien sûr mixer des types de commandes au sein d'un même équipement. Pour l'instant, il s'agit plus d'un rangement, d'une organisation logique, qui servira peu-être dans de futures versions.
+Cette page propose un rangement par type d'équipement : Prise, Lumière, Volet, Thermostat, Camera, etc. Au départ, la plupart de vos équipements seront classés dans **Equipements sans type**. Pour leur assigner un type, vous pouvez soit les déplacer dans un autre type, soit faire un clic droit sur l'équipement pour le déplacer directement. Le Type d'équipement n'est pas vraiment utile en soit, le plus important étant le Types des commandes. Vous pouvez ainsi avoir un Equipement sans Type ou d'un Type ne correspondant pas forcément à ses commandes. Vous pouvez bien sûr mixer des types de commandes au sein d'un même équipement. Pour l'instant, il s'agit plus d'un rangement, d'une organisation logique, qui servira peu-être dans de futures versions.
 
 > **Conseil**
 >
@@ -26,15 +26,15 @@ Cette page propose un rangement par type d'équipement : Prise, Lumière, Volet,
 
 Une fois un équipement positionné dans le bon *Type*, en cliquant dessus vous accédez à la liste de ses commandes, colorées différemments si c'est une *Info* (Bleue) ou une *Action* (Orange).
 
-Au clic droit sur une commande, vous pouvez alors lui attribuer un Type Générique correspond aux spécifiées de cette commande (type Info/Action, sous-type Numérique, Binaire, etc).
+Au clic droit sur une commande, vous pouvez alors lui attribuer un Type Générique qui correspond aux spécificités de cette commande (type Info/Action, sous-type Numérique, Binaire, etc).
 
 > **Conseil**
 >
-> - Le menu contextuel des commandes affiche le type de l'équipement en caractères gras, mais permet tout de même d'attribuer n'importe quel Type Générique de n'importe quel type d'équipement.
+> Le menu contextuel des commandes affiche le type de l'équipement en caractères gras, mais permet tout de même d'attribuer n'importe quel Type Générique de n'importe quel type d'équipement.
 
 Sur chaque équipement, vous avez deux boutons :
 
-- **Types Auto** : Cette fonction ouvre une fenêtre vous proposant les Types Génériques appropriés en fonction du type de l'équipement, des spécificités de la commande, et de son nom. Vous pouvez alors ajuster les propositions et décocher l'application à certaines commandes avant d'accepter ou pas. Cette fonction est compatible avec la sélection par les cases à cocher.
+- **Types Auto** : Cette fonction ouvre une fenêtre vous proposant les Types Génériques appropriés en fonction du type de l'équipement, des spécificités de la commande et de son nom. Vous pouvez alors ajuster les propositions et décocher l'application à certaines commandes avant d'accepter ou pas. Cette fonction est compatible avec la sélection par les cases à cocher.
 
 - **Reset types** : Cette fonction supprime les Types Génériques de toutes les commandes de l'équipement.
 
@@ -44,30 +44,30 @@ Sur chaque équipement, vous avez deux boutons :
 
 ## Types Génériques et scénarios
 
-En v4.2, le Core a intégré les types génériques dans les scénarios. Vous pouvez ainsi déclencher un scénario si une lampe s'allume dans une pièce, si un mouvement est détecté dans la maison, éteindre toutes les lumières ou fermer tous les volets avec une seule action, etc. De plus, si vous ajoutez un équipement, vous n'avez qu'à indiquer les bons types sur ses commandes, il ne sera pas nécessaire de retoucher de tels scénarios.
+Depuis la v4.2, le Core a intégré les types génériques dans les scénarios. Vous pouvez ainsi déclencher un scénario si une lampe s'allume dans une pièce, si un mouvement est détecté dans la maison, éteindre toutes les lumières ou fermer tous les volets avec une seule action, etc. De plus, si vous ajoutez un équipement, vous n'avez qu'à indiquer les bons types sur ses commandes, il ne sera pas nécessaire de retoucher de tels scénarios.
 
-#### Déclencheur
+### Déclencheur
 
-Vous pouvez déclencher un scénario à partir de capteurs. Par exemple, si vous avez des détecteurs de mouvements dans la maison, vous pouvez créer un scénario d'alarme avec chaque détecteur en déclencheur : `#[Salon][Move Salon][Presence]# == 1`, `#[Cuisine][Move Cuisine][Presence]# == 1`, etc. Dans un tel scénario, il vous faudra donc tous vos détecteurs de mouvement, et si vous en ajoutez un il faudra le rajouter dans les déclencheurs. Logique.
+Vous pouvez déclencher un scénario à partir de capteurs. Par exemple, si vous avez des détecteurs de mouvements dans la maison, vous pouvez créer un scénario d'alarme avec chaque détecteur en déclencheur : `#[Salon][Move Salon][Presence]# == 1`, `#[Cuisine][Move Cuisine][Presence]# == 1`, etc. Dans un tel scénario, il vous faudra donc tous vos détecteurs de mouvement et si vous en ajoutez un il faudra le rajouter dans les déclencheurs. Logique.
 
 Grâce aux types génériques, vous pourrez utiliser un seul déclencheur : `#genericType(PRESENCE)# == 1`. Ici, aucun objet n'est indiqué, donc le moindre mouvement dans toute la maison déclenchera le scénario. Si vous ajoutez un nouveau détecteur dans la maison, inutile de retoucher au(x) scénario(s).
 
 Ici, un déclencheur sur l'allumage d'une lumière dans le Salon : `#genericType(LIGHT_STATE,#[Salon]#)# > 0`
 
-#### Expression
+### Expression
 
-Si vous souhaitez, dans un scénario, savoir si une lumière est allumée dans le Salon, vous pouvez faire :
+Si, dans un scénario, vous souhaitez savoir si une lumière est allumée dans le Salon, vous pouvez écrire :
 
 SI `#[Salon][Lumiere Canapé][Etat]# == 1 OU #[Salon][Lumiere Salon][Etat]# == 1 OU #[Salon][Lumiere Angle][Etat]# == 1`
 
-Ou plus simplement : SI `genericType(LIGHT_STATE,#[Salon]#) > 0` soit si une ou plusieurs lumiere(s) sont allumée dans le Salon.
+Ou plus simplement : SI `genericType(LIGHT_STATE,#[Salon]#) > 0` soit si une ou plusieurs lumière(s) est allumée dans le Salon.
 
 Si demain vous ajoutez une lumière dans votre Salon, inutile de retoucher vos scénarios !
 
 
-#### Action
+### Action
 
-Si vous souhaitez allumez toutes les lumières dans le Salon, vous pouvez créer une action par lumière:
+Si vous souhaitez allumer toutes les lumières dans le Salon, vous pouvez créer une action par lumière:
 
 ```
 #[Salon][Lumiere Canapé][On]#

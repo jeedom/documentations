@@ -54,7 +54,7 @@ Il utilise la dernière puce Z-Wave série 500, offrant une augmentation de la p
 
 ## Configuration
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](../plugins/automation%20protocol/openzwave/).
 
 > **Important**
 >

@@ -1,16 +1,16 @@
 # Valeur des commandes
 
-Cette documentation rassemble les recommandations pour les valeurs des commandes (action ou info) en fonction des types. Il n'est pas obligatoire de les suivres mais pour une meilleure intégration à Jeedom il est vivement conseillé de le faire.
+Cette documentation rassemble les recommandations pour les valeurs des commandes (action ou info) en fonction des types. Il n'est pas obligatoire de les suivre mais pour une meilleure intégration à Jeedom il est vivement conseillé de le faire.
 
 ## Lumière
 
-|Type générique  | Valeurs / Action |
-|---------------|-------------|
-|Info/Lumière Etat|Soit Luminosité<br/>0-100 Ou 0-99 ou 0-255<br/>(en fonction du max de Action/Lumière Slider)<br/>ou Soit Binaire<br/>0 = Eteint<br/> autre que 0 = Allumé<br/>**Obligatoire**| 
+|Type générique   | Valeurs / Action |
+|-----------------|------------------|
+|Info/Lumière Etat|Soit Luminosité<br/>0-100 Ou 0-99 ou 0-255<br/>(en fonction du max de Action/Lumière Slider)<br/>soit Binaire<br/>0 = Eteint<br/> autre que 0 = Allumé<br/>**Obligatoire**| 
 |Info/Lumière Luminosité|Luminosité<br/>0-100 Ou 0-99 ou 0-255<br/>(en fonction du max de Action/Lumière Slider)<br/>Toujours utiliser avec Lumière Etat sur la commande binaire|
 |Action/Lumière Slider|Variateur de luminosité<br/>Min&Max Obligatoire|
 |Action/Lumière Bouton On|Allumage de la lumière (Changement de l'Etat)|
-|Action/Lumière Bouton Off|Eteignage de la lumière (Changement de l'Etat)|
+|Action/Lumière Bouton Off|Extinction de la lumière (Changement de l'Etat)|
 |Info/Lumière Couleur|Format #RRGGBB|
 |Action/Lumière Couleur|Modification de la couleur, Format #RRGGBB|
 |Info/Lumière Température Couleur|Format Mired (<=500) ou Kelvin (>500)|
@@ -82,8 +82,6 @@ en option :
 |Action/Valve<br/>Générique<br/>Bouton On|Allumer| 
 |Action/Valve<br/>Générique<br/>Bouton Off|Eteindre|
 
-ajouter un variateur ? et ajouter le numérique à l'action ? ça existe ?
-
 ## Serrures
 
 |Type générique  | Valeurs / Action |
@@ -126,10 +124,10 @@ ajouter un variateur ? et ajouter le numérique à l'action ? ça existe ?
 |Type générique  | Valeurs / Action |
 |---------------|----------------|
 |Info/Thermostat Etat (BINAIRE)|0 = Eteint<br/>1 = Allumé|
-|Info/Thermostat Etat (HUMAIN)|'off' ou 'arrêté' ou 'arret'<br/>'heat' ou 'chauffage'<br/>'cool' ou 'climatisation'<br/><br/>Préférer l'anglais| 
+|Info/Thermostat Etat (HUMAIN)|'off' ou 'arrêté' ou 'arrêt'<br/>'heat' ou 'chauffage'<br/>'cool' ou 'climatisation'<br/><br/>Préférer l'anglais| 
 |Info/Thermostat Mode|'Off' ou 'Arret' = OFF<br/>'Aucun' ou 'Thermostat' = Mode Consigne<br/>Libellé affichant **exactement** le nom d'une commande Action/Thermostat Mode|
 |Action/Thermostat Mode|Mode du thermostat, peut être multiple|
-|Info/Thermostat Température Extérieur|Degrés Celcius|
+|Info/Thermostat Température extérieure|Degrés Celcius|
 |Info/Thermostat Température ambiante|Degrés Celcius| 
 |Info/Thermostat Consigne|Valeur entre Min et Max de l'Action/Thermostat Consigne| 
 |Action/Thermostat Consigne|Min&Max Obligatoires| 
@@ -149,11 +147,11 @@ avec soit :
 |---------------|----------------|
 |Action/Portail ou garage bouton toggle|Interrupteur ouvrant si fermé et fermant si ouvert<br/>Ouvrant si bloqué (par sécurité)| 
 
-ou soit :
+soit :
 
 |Type générique  | Valeurs / Action |
 |---------------|----------------|
-|Action/Portail ou garage bouton d’ouverture|Ouverture|
+|Action/Portail ou garage bouton d'ouverture|Ouverture|
 |Action/Portail ou garage bouton de fermeture|Fermeture|
 
 ## Electricité
@@ -168,8 +166,8 @@ ou soit :
 |Type générique  | Valeurs / Unité |
 |---------------|----------------|
 |Info/Présence Occupation|0 = Personne<br/>1 = Quelqu'un|
-|Info/Qualité d'air (Indice AQI)|indice AQI|
-|Info/Qualité d'air (Indice Personnalisable)|ppb ou µg/m3|
+|Info/Qualité de l'air (Indice AQI)|indice AQI|
+|Info/Qualité de l'air (Indice Personnalisable)|ppb ou µg/m3|
 |Info/Détecteur CO|0 = CO normal<br/>1 = CO anormal|
 |Info/Luminosité|0 → 100000 lux| 
 |Info/Humidité|%|
