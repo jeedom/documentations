@@ -14,9 +14,11 @@
 
 - Ajout des commandes *Dragino CPL03-LB/LS – LoRaWAN-Trockenkontaktsensor für den Außenbereich (offen/geschlossen)*
 
--  *Thermokon 835633 - NOVOS 3 Raumsteuermodul Temperatur, relative Luftfeuchtigkeit, CO2*
+- Mise à jour décodeur et encodeur *Thermokon 835633 - NOVOS 3 Raumsteuermodul Temperatur, relative Luftfeuchtigkeit, CO2*
 
-- Ajout du produit **
+- Ajout du produit *BMeters IWM-LR3 - Water Meter Reader*
+
+-  **
 
 # 24/03/2025
 

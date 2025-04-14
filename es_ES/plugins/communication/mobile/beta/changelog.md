@@ -6,9 +6,9 @@
 
 
 
-# 
+# 11/04/2025
 
-- 
+- Ajout paramètre Envoi NFC Direct au plugin après lecture
 
 # xx/08/2024
 

@@ -14,9 +14,11 @@
 
 - Ajout des commandes *Dragino CPL03-LB/LS - Sensor de contato seco aberto/fechado LoRaWAN para ambientes externos*
 
--  *Thermokon 835633 - NOVOS 3 Módulo de controle ambiente temperatura, umidade relativa, CO2*
+- Mise à jour décodeur et encodeur *Thermokon 835633 - NOVOS 3 Módulo de controle ambiente temperatura, umidade relativa, CO2*
 
-- Ajout du produit **
+- Ajout du produit *BMeters IWM-LR3 - Water Meter Reader*
+
+-  **
 
 # 24/03/2025
 
