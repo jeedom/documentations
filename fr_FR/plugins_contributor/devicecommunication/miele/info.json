@@ -12,7 +12,10 @@
 	"utilization": "Vous devez avoir un compte utilisateur Miele avec au moins un appareil compatible Miele@Home lié et activer l'accès API (voir documentation)",
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.2",
+	"require": "4.4",
+	"os": {
+		"min": 11
+	},
 	"category": "devicecommunication",
 	"hasDependency": false,
 	"hasOwnDeamon": false,
@@ -40,8 +43,5 @@
 		"docker",
 		"diy",
 		"v4"
-	],
-	"os": {
-		"min": 11
-	}
+	]
 }
