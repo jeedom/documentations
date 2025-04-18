@@ -18,7 +18,9 @@
 
 - Ajout du produit *BMeters IWM-LR3 - Water Meter Reader*
 
--  **
+- Correction downlink du *Vega SI-11*
+
+- Ajout du produit **
 
 # 24/03/2025
 
