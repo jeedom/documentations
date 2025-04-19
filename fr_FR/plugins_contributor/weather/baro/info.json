@@ -1,17 +1,49 @@
 {
-    "id" : "baro",
-    "name" : "Tendance Baro",
-    "description" : "Plugin de calcul de tendance météo basée sur les variations de pression d'un baromètre connecté à Jeedom (local)",
-    "usage" : "",
-    "licence" : "AGPL",
-    "author" : "Claude Metzger",
-    "require" : "3.3",
-    "category" : "weather",
-    "hasDependency" : false,
-    "hasOwnDeamon" : false,
-    "changelog" : "https://odolc.github.io/Baro/#language#/changelog",
-    "documentation" : "https://odolc.github.io/Baro/#language#/",
-    "forum_link" : "https://www.jeedom.com/forum/viewtopic.php?f=28&t=18608",
-    "language" : ["de_DE","en_US","es_ES","fr_FR","id_ID","it_IT","ru_RU","sp_SP"],
-    "compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
+	"id": "baro",
+	"name": "Tendance Baro",
+	"description": {
+		"fr_FR": "Plugin de calcul de tendance météo basée sur les variations de pression d'un baromètre connecté à Jeedom (local)",
+		"en_US": "Plugin for calculating weather trends based on pressure variations from a barometer connected to Jeedom (local)",
+		"es_ES": "Plugin para calcular la evolución del tiempo a partir de las variaciones de presión de un barómetro conectado a Jeedom (local)",
+		"de_DE": "Plugin zur Berechnung von Wettertrends basierend auf den Druckschwankungen eines mit Jeedom verbundenen Barometers (lokal)",
+		"it_IT": "Plugin per il calcolo delle tendenze meteo in base alle variazioni di pressione di un barometro collegato a Jeedom (locale)",
+		"pt_PT": "Plugin para calcular as tendências meteorológicas com base nas variações de pressão de um barómetro ligado ao Jeedom (local)"
+	},
+	"licence": "AGPL",
+	"author": "Claude Metzger / JAG",
+	"require": "4.2",
+	"os": {
+		"min": 10,
+		"max": ""
+	},
+	"category": "weather",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"changelog": "https://jealg.github.io/documentation/plugin-tendance_baro/#language#/changelog",
+	"documentation": "https://jealg.github.io/documentation/plugin-tendance_baro/#language#/",
+	"changelog_beta": "https://jealg.github.io/documentation/plugin-tendance_baro/#language#/beta_changelog",
+	"documentation_beta": "https://jealg.github.io/documentation/plugin-tendance_baro/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-baro"
+	},
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas",
+		"luna"
+	]
 }
