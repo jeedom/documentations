@@ -21,13 +21,13 @@ $replace = $this->preToHtml($_version)
 La fonction preToHtml renvoi :
 
 - une string si le widget est en cache (si il est en cache, c'est qu'il n'y a pas eu de changements depuis la dernière génération donc autant le renvoyer tout de suite)
-- un tableau avec les replaces principaux, vous avez la liste [](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
+- un tableau avec les replaces principaux, vous avez la liste [Hier](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
 ## Le système de template
 
 Le système de template de widget dans le code est en fait exactement le même que celui sur la page Outils -> Widget de jeedom.
 
-Vo un exemple :
+VoHier un exemple :
 
 ````php
 (){
@@ -44,15 +44,15 @@ Vo un exemple :
 }
 ````
 
- [](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) .
+ [Hier](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) .
 
-> ****
+> **WICHTIG**
 >
 > 
 
 . .
 
- :  #\_state_# (>
+Beispiel :  #\_state_# (>
 
  :
 
@@ -70,7 +70,7 @@ Vo un exemple :
 }
 ````
 
-Ici, je crée un widget  basé sur le template "tmplicon" en type info et sous-type binaire. Quand il vaut 1 alors l'icône sera <i class='icon_green icon jeedom-porte-ferme'></i> et quand il vaut 0, ça sera <i class='icon_red icon jeedom-porte-ouverte'></i>
+Ici, je crée un widget toto basé sur le template "tmplicon" en type info et sous-type binaire. Quand il vaut 1 alors l'icône sera <i class='icon_green icon jeedom-porte-ferme'></i> et quand il vaut 0, ça sera <i class='icon_red icon jeedom-porte-ouverte'></i>
 
 >**TIPS**
 >

@@ -2,7 +2,7 @@
 
 ## Introduction
 
- [](/de_DE/dev/tutorial_plugin)  [](/de_DE/dev/plugin_template) ).
+ [](/de_DE/dev/tutorial_plugin)  [Dokumentation](/de_DE/dev/plugin_template) ).
 .
 
 :
@@ -80,7 +80,7 @@
 
 .:
 
-python
+```python
 "
 
 '
@@ -129,11 +129,11 @@ try:
 :
      : '))
     shutdown()
-
+```
 
 :
 
-python
+```python
 
 .
 .
@@ -141,7 +141,7 @@ python
 ' # emplacement par défaut du pidfile, ce fichier est utiliser par Jeedom pour savoir si votre démon est démarrer ou pas; nom du démon à modifier comme expliqué ci-dessus;
 
  = '' ## )
-
+```
 
 > ****
 >
@@ -150,7 +150,7 @@ python
 .
 .
 
-python
+```python
 :
     ="):
         ("=")
@@ -164,26 +164,26 @@ python
         ("=")
     ="):
         ("=")
-
+```
 
 :
 
-python
+```python
 )
 )
-
+```
 
 :
 
-python
+```python
 ):
     ))
     shutdown()
-
+```
 
 :
 
-python
+```python
 ():
     ")
     ))
@@ -202,7 +202,7 @@ python
     ")
     ()
     )
-
+```
 
 .
 
@@ -212,7 +212,7 @@ python
 
 :
 
-python
+```python
 try:
     
     
@@ -224,11 +224,11 @@ try:
 :
      : '))
     shutdown()
-
+```
 
 :
 
-python
+```python
 ():
     ()
     try:
@@ -237,13 +237,13 @@ python
             ()
     :
         shutdown()
+```
 
 
 
 
 
-
-python
+```python
 ():
     
     ():
@@ -256,18 +256,18 @@ python
             '
         :
              : '))
-
+```
 
 .
 
 :
 
-python
+```python
         try:
             '
         :
              : '))
-
+```
 
 .
 
@@ -281,7 +281,7 @@ python
 
 .:
 
-json
+```json
 {
     "id" : "pluginID",
     "name" : "pluginName",
@@ -291,7 +291,7 @@ json
     "maxDependancyInstallTime" : 10,
     ...
 }
-
+```
 
 .
 
@@ -308,7 +308,7 @@ json
 .
 .
 
-php
+```php
     () {
         $ = array();
         $return['log'] = __CLASS__;
@@ -337,7 +337,7 @@ php
         }
         
     }
-
+```
 
 > ****
 >
@@ -352,7 +352,7 @@ php
 .
 .
 
-php
+```php
     () {
         self::
         $deamon_info = self::deamon_info();
@@ -368,9 +368,9 @@ php
         $cmd .= ' --user "' . trim(str_replace('"', '\"', config::byKey('user', __CLASS__))) . '"'; // on rajoute les paramètres utiles à votre démon, ici user
         $cmd .= ' --pswd "' . trim(str_replace('"', '\"', config::byKey('password', __CLASS__))) . '"'; // et password
         $cmd .= ' --apikey ' . jeedom::getApiKey(__CLASS__); // l'apikey pour authentifier les échanges suivants
-        $cmd .= ' --p ' . jeedom::) . '/deamon.pid'; // et on précise le chemin vers le p file (ne pas modifier)
+        $cmd .= ' --pAusweis ' . jeedom::) . '/deamon.pid'; // et on précise le chemin vers le pAusweis file (ne pas modifier)
         log::
-        $result = exec($cmd . ' >> ' . log::getPathToLog('template_daemon') . ' 2>&1 &'); // 'template_daemon' est le nom du  pour votre démon, vous devez nommer votre  en commençant par le plugin pour que le fichier apparaisse dans la page de config
+        $result = exec($cmd . ' >> ' . log::getPathToLog('template_daemon') . ' 2>&1 &'); // 'template_daemon' est le nom du  pour votre démon, vous devez nommer votre  en commençant par le pluginAusweis pour que le fichier apparaisse dans la page de config
         $i = 0;
         ) {
             $deamon_info = self::deamon_info();
@@ -387,7 +387,7 @@ php
         message::
         
     }
-
+```
 
 .
 
@@ -398,17 +398,17 @@ php
 
 : .
 
-php
+```php
     () {
         $pid_file = jeedom::) . '/deamon.pid'; // ne pas modifier
         )) {
-            $p = intval(trim(file_get_contents($pid_file)));
+            $pAusweis = intval(trim(file_get_contents($pid_file)));
             system::
         }
         system::
         sleep(1);
     }
-
+```
 
 .. .
 
@@ -425,7 +425,7 @@ php
 
 .
 
-php
+```php
     ) {
         $deamon_info = self::deamon_info();
         '] != 'ok') {
@@ -438,13 +438,13 @@ php
         
         
     }
-
+```
 
 .
 
 :
 
-python
+```python
         '] != _apikey:
              : " ))
             return
@@ -452,7 +452,7 @@ python
             '
         :
              : '))
-
+```
 
 "
 
@@ -462,7 +462,7 @@ python
 
 :
 
-php
+```php
 <?php
 
  {
@@ -491,38 +491,38 @@ php
 } ) {
     log::
 }
-
+```
 
 :
 
-php
+```php
      (!jeedom::
         
         die();
     }
-
+```
 
 .):
 
-php
+```php
     ') != '') {
         
         die();
     }
-
+```
 
 :
 
-php
+```php
     $result = json_decode(file_get_contents("php://input"), true);
      (!)) {
         die();
     }
-
+```
 
 :
 
-php
+```php
     '])) {
         
     } '])) {
@@ -530,13 +530,13 @@ php
     }  {
         log::
     }
-
+```
 
 :
 
-python
+```python
 ' : '' : 'value2' })
-
+```
 
 : .
 
@@ -570,7 +570,7 @@ python
 .
 :
 
-json
+```json
 {
     "id" : "pluginID",
     "name" : "pluginName",
@@ -580,7 +580,7 @@ json
     "maxDependancyInstallTime" : 30,
     ...
 }
-
+```
 
 .
  .
@@ -601,33 +601,33 @@ json
 
 ##### pre-install: 
 
- :
+Beispiel :
 
-json
+```json
 {
   "pre-install" : {
     "script" : ""
   }
-
+```
 
 ##### post-install
 
 .
- :
+Beispiel :
 
-json
+```json
 {
   "post-install" : {
     "" : true,
     "script" : ""
   }
-
+```
 
 ##### apt: 
 
 Exemple
 
-json
+```json
 {
   "apt" : {
     "libav-tools" : {"alternative" : "]},
@@ -636,7 +636,7 @@ json
     "php-gd" : {}
   }
 }
-
+```
 
 ,
  .
@@ -645,7 +645,7 @@ json
 
 Exemple:
 
-json
+```json
 {
   "apt" : {
     "" : {},
@@ -666,7 +666,7 @@ json
     "bellows" : {"reinstall" : true}
   }
 }
-
+```
 
 > **
 >
@@ -679,7 +679,7 @@ json
 .,
 :
 
-json
+```json
 {
   "apt" : {
     "nodejs" : {}
@@ -688,7 +688,7 @@ json
     ""  : {}
   }
 }
-
+```
 
 ##### composer: 
 
@@ -699,13 +699,13 @@ json
 
  :
 
-json
+```json
 {
     "plugin":{
         "mqtt2": {}
     }
 }
-
+```
 
 ### 
 
@@ -715,12 +715,12 @@ json
 
 . 
 
-php
+```php
     () {
         log::
         #stype#. ' . jeedom::) . '::
     }
-
+```
 
 .
 
@@ -737,9 +737,9 @@ php
 >
 > .
 >
-> Je vous invite également à consulter cette  qui offre une alternative: <https://github.com/Mips2648/dependance.lib/blob/master/pyenv.md>
+> Je vous invite également à consulter cette Dokumentation qui offre une alternative: <https://github.com/Mips2648/dependance.lib/blob/master/pyenv.md>
 
-bash
+```bash
 
 
  ! -
@@ -775,20 +775,20 @@ fi
  "*            *"
  "***************************"
 }
-
+```
 
 :
 
 ...
 -).
 
-bash
+```bash
 
 
  ! -
     
 fi
-
+```
 
 : ).
 
@@ -813,7 +813,7 @@ fi
 
 :
 
-php
+```php
     () {
         $ = array();
         $return['log'] = log::getPathToLog(__CLASS__ . '_update');
@@ -831,7 +831,7 @@ php
         }
         
     }
-
+```
 
 : `system::getCmdSudo() . system::') . '-||. : .
 
