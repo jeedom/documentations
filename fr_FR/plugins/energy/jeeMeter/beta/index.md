@@ -16,14 +16,13 @@ Le plugin **Compteur virtuel** permet de créer des compteurs énergétiques en 
 - **Bascule de tarification**: En cas de tarification par défaut en heures pleines/heures creuses, sélectionner la commande info/binaire de bascule de tarification par défaut *(1=heures pleines/0=heures creuses)*.
 - **OCPP**:
   - **Création automatique des compteurs**: Cocher la case pour créer automatiquement les compteurs par utilisateur pour toute nouvelle transaction OCPP.
-
   - **Forcer**: Crée instantanément tous les compteurs OCPP des utilisateurs autorisés sans devoir attendre une transaction.
 
 ## Configuration des équipements
 
 Pour ajouter un nouveau compteur virtuel, cliquer sur le bouton **+Ajouter**.
 
-- **Type de compteur**: Sélectionner le type de compteur *(Standard/Personnalisé (WIP)/OCPP)*.
+- **Type de compteur**: Sélectionner le type de compteur *(Standard/Personnalisé/OCPP)*.
 - **Tarification**: Adapter la tarification si nécessaire.
 - **Bascule de tarification**: En cas de tarification en heures pleines/heures creuses, adapter la commande info/binaire de bascule de tarification si nécessaire.
 
@@ -44,7 +43,7 @@ Pour les autres, il faut cliquer sur le bouton **Gérer les commandes** de la se
 	- **Données**: Commande info/numérique des données brutes à traiter.
 	- **Unité**: Sélectionner l'unité si elle n'est pas détectée automatiquement *(Wh/kWh/W/kW)*.
 
-- **Compteurs personnalisés** *(WIP)*:
+- **Compteurs personnalisés**:
 
   ![Données compteur personnalisé](../images/custom_input.jpg)
 

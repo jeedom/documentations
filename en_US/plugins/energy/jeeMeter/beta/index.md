@@ -2,9 +2,9 @@
 
 The plugin **Virtual counter** allows you to create energy meters in kilowatt-hours from raw indexes *(Wh/kWh)* and/or powers *(W/kW)*, whether in single rate or in peak/off-peak hours. This plugin also allows you to create counters per user *(Custom/OCPP)*.
 
->****
+>**IMPORTANT**
 >
-> ****.
+>Les options relatives au protocole OCPP ne sont visibles que **si le plugin OCPP est installé**.
 
 # Configuration
 
@@ -16,14 +16,13 @@ The plugin **Virtual counter** allows you to create energy meters in kilowatt-ho
 - **Pricing Switch**: In case of default peak/off-peak pricing, select the default pricing toggle info/binary command *(1=peak hours/0=off-peak hours)*.
 - **OCPP**:
   - **Automatic creation of counters**: Check the box to automatically create counters per user for any new OCPP transaction.
-
-  - ****: .
+  - **Forcer**: Crée instantanément tous les compteurs OCPP des utilisateurs autorisés sans devoir attendre une transaction.
 
 ## Equipment configuration
 
 To add a new virtual counter, click on the button **+Add**.
 
-- **Meter type**: Select the meter type *(Standard/Custom (WIP)/OCPP)*.
+- **Meter type**: Select the meter type *()*.
 - **Pricing**: Adjust pricing if necessary.
 - **Pricing Switch**: In case of peak/off-peak pricing, adapt the info/binary pricing switch command if necessary.
 
@@ -44,7 +43,7 @@ For others, you have to click on the button **Manage Orders** of the section **D
 	- **Data**: Info/digital command of raw data to be processed.
 	- **Unit**: Select unit if not automatically detected *(Wh/kWh/W/kW)*.
 
-- **Custom counters** *(WIP)*:
+- **Custom counters**:
 
   ![Data compteur personnalisé](../images/custom_input.jpg)
 
@@ -54,7 +53,7 @@ For others, you have to click on the button **Manage Orders** of the section **D
 
 ## Commandes
 
-:
+Les commandes suivantes sont créées, en fonction de la tarification:
 
 - **Single rate**:
   - **Index** *(Info/digital in kWh)*.
@@ -62,9 +61,9 @@ For others, you have to click on the button **Manage Orders** of the section **D
 - **Peak hours/Off-peak hours**:
   - **Full hour index** *(Info/digital in kWh)*.
   - **Off-peak hours index** *(Info/digital in kWh)*.
-  - **** *(Info/digital in kWh)*.
+  - **Index total** *(Info/digital in kWh)*.
 
-:
+Et en fonction du type de compteur:
 
-- **)***:
-  - **** *()*.
+- **Compteurs OCPP et compteurs personnalisés *(si données brutes en W ou kW)***:
+  - **Puissance** *(Info/numérique en W)*.

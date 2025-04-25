@@ -6,10 +6,10 @@
 >
 >Si no hay información sobre la actualización, significa que solo se trata de actualización de documentación, traducción o texto.
 
-#  ***(1.0)***
+# 25/04/2025 ***(1.0)***
 
 - Ajout d'un bouton permettant de forcer la création des compteurs OCPP *(page de configuration du plugin)*
-- 
+- Ajout d'une commande "Index total" pour les compteurs en tarification HP/HC
 
 # 30/01/2025
 
