@@ -10,4 +10,4 @@
 
 # 17/05/2024
 
-- Première version beta
+- Début du développement

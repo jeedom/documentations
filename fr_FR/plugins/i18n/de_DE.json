@@ -16,7 +16,7 @@
         "Plugin ajoutant le support de la clé RfPlayer de Ziblue à Jeedom": "Plugin, das Unterstützung für den RfPlayer-Schlüssel von Ziblue zu Jeedom hinzufügt",
         "Plugin pour contrôler les équipements ZWave via une clé ZWave compatible openZwave": "Plugin zur Steuerung von ZWave-Geräten über einen openWave-kompatiblen ZWave-Schlüssel",
         "v=d&p=home&search=&plugin=openenocean De nombreux modules seront rajoutés rapidement et en continue Nous vous conseillons de migrer avec precaution": "v=d&p=home&search=&plugin=openenocean Viele Module werden schnell und kontinuierlich hinzugefügt. Wir raten Ihnen, mit Vorsicht zu migrieren",
-        "Plugin permet de prendre le contrôle de bornes de recharge de véhicules compatibles avec le protocole OCPP en faisant de Jeedom un système central OCPP": "Plugin permet de prendre le contrôle de bornes de recharge de véhicules compatibles avec le protocole OCPP en faisant de Jeedom un système central OCPP",
+        "Plugin permettant de contrôler les bornes de recharge de véhicules compatibles avec le protocole OCPP en faisant de Jeedom un système central OCPP": "",
         "Permet de gérer le protocole MyHome Bus": "Ermöglicht die Verwaltung des MyHome Bus-Protokolls",
         "Plugin permettant de créer un device Modbus\/Jeedom": "Plugin zum Erstellen eines Modbus\/Jeedom-Geräts",
         "Modbus Server": "ModbusServer",
