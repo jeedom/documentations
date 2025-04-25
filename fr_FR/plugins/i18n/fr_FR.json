@@ -23,6 +23,8 @@
         "Z-Wave": "Z-Wave",
         "Plugin pour contrôler les équipements ZWave via une clé ZWave compatible openZwave": "Plugin pour contrôler les équipements ZWave via une clé ZWave compatible openZwave",
         "v=d&p=home&search=&plugin=openenocean De nombreux modules seront rajoutés rapidement et en continue Nous vous conseillons de migrer avec precaution": "v=d&p=home&search=&plugin=openenocean De nombreux modules seront rajoutés rapidement et en continue Nous vous conseillons de migrer avec precaution",
+        "Plugin permet de prendre le contrôle de bornes de recharge de véhicules compatibles avec le protocole OCPP en faisant de Jeedom un système central OCPP": "Plugin permet de prendre le contrôle de bornes de recharge de véhicules compatibles avec le protocole OCPP en faisant de Jeedom un système central OCPP",
+        "OCPP": "OCPP",
         "MyhomeSCS": "MyhomeSCS",
         "Permet de gérer le protocole MyHome Bus": "Permet de gérer le protocole MyHome Bus",
         "Plugin permettant de créer un device Modbus\/Jeedom": "Plugin permettant de créer un device Modbus\/Jeedom",
