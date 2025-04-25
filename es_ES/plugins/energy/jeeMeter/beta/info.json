@@ -1,6 +1,7 @@
 {
     "id": "jeeMeter",
     "name": "Compteur virtuel",
+    "pluginVersion": "1.0",
     "description": {
         "fr_FR": "Créez des compteurs énergétiques sur mesure (tarif unique ou heures pleines\/heures creuses) à partir d'indexs bruts (Wh\/kWh) et\/ou de puissances (W\/kW). Permet également de créer des compteurs par utilisateur (Personnalisé\/OCPP).",
         "en_US": "Create custom energy meters (single rate or peak\/off-peak hours) from raw indexes (Wh\/kWh) and\/or powers (W\/kW). Also allows you to create meters per user (Custom\/OCPP)",

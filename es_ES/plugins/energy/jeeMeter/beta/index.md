@@ -2,9 +2,9 @@
 
 El complemento **Contador virtual** le permite crear medidores de energía en kilovatios-hora a partir de índices sin procesar *(Wh/kWh)* y/o poderes *(Vatios/kW)*, ya sea a tarifa única o en horas punta/valle. Este complemento también te permite crear contadores por usuario *(Personalizado/OCPP)*.
 
->**INFORMACIÓN**
+>****
 >
->Información del protocolo **OCPP** solo será visible si el complemento se detecta en la máquina.
+> ****.
 
 # Configuration
 
@@ -16,6 +16,8 @@ El complemento **Contador virtual** le permite crear medidores de energía en ki
 - **Alternar precios**: En caso de precios predeterminados en horas pico/de menor actividad, seleccione el comando de alternancia de información/binario de precios predeterminados *(1=horas pico/0=horas valle)*.
 - **OCPP**:
   - **Creación automática de contadores**: Marque la casilla para crear automáticamente contadores por usuario para cualquier nueva transacción OCPP.
+
+  - ****: .
 
 ## Configuración del equipo
 
@@ -52,7 +54,7 @@ Para otros, debes hacer clic en el botón **Gestionar pedidos** de la sección *
 
 ## Commandes
 
-Los siguientes pedidos se crean en función del precio:
+:
 
 - **Precio único**:
   - **Índice** *(Información/numérico en kWh)*.
@@ -60,3 +62,9 @@ Los siguientes pedidos se crean en función del precio:
 - **Horas pico/valle**:
   - **Índice de horas pico** *(Información/numérico en kWh)*.
   - **Índice de horas valle** *(Información/numérico en kWh)*.
+  - **** *(Información/numérico en kWh)*.
+
+:
+
+- **)***:
+  - **** *()*.

@@ -1,0 +1,34 @@
+{
+	"id": "WebOStvLG",
+	"name": "LG WebOS",
+	"description" : "Plugin pour commander les TVs LG connectées (Modeles WebOS apres 2012). Basé sur le plugin LG TV",
+	"licence": "AGPL",
+	"author": "Vegeta0911",
+	"require": "4.0",
+	"category": "multimedia",
+	"hasDependency": true,
+	"hasOwnDeamon": false,
+	"documentation" : "https://vegeta0911.github.io/WebOStvLG/fr_FR/",
+	"changelog" : "https://vegeta0911.github.io/WebOStvLG/fr_FR/changelog",
+	"whiteListFolders": [
+		"/core/template/images"
+	],
+	"os": {
+		"min": 11,
+		"max": ""
+	},
+	"language": [
+		"fr_FR"
+	],
+        "compatibility" : [
+        "miniplus",              
+        "smart",
+        "rpi",          
+        "docker",            
+        "diy",               
+        "luna",        
+        "v4",         
+        "Atlas"
+     ]
+	
+}

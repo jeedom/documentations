@@ -2,9 +2,9 @@
 
 The plugin **Virtual counter** allows you to create energy meters in kilowatt-hours from raw indexes *(Wh/kWh)* and/or powers *(W/kW)*, whether in single rate or in peak/off-peak hours. This plugin also allows you to create counters per user *(Custom/OCPP)*.
 
->**INFORMATION**
+>****
 >
->Protocol information **OCPP** will only be visible if the plugin is detected on the machine.
+> ****.
 
 # Configuration
 
@@ -16,6 +16,8 @@ The plugin **Virtual counter** allows you to create energy meters in kilowatt-ho
 - **Pricing Switch**: In case of default peak/off-peak pricing, select the default pricing toggle info/binary command *(1=peak hours/0=off-peak hours)*.
 - **OCPP**:
   - **Automatic creation of counters**: Check the box to automatically create counters per user for any new OCPP transaction.
+
+  - ****: .
 
 ## Equipment configuration
 
@@ -52,7 +54,7 @@ For others, you have to click on the button **Manage Orders** of the section **D
 
 ## Commandes
 
-The following orders are created based on the pricing:
+:
 
 - **Single rate**:
   - **Index** *(Info/digital in kWh)*.
@@ -60,3 +62,9 @@ The following orders are created based on the pricing:
 - **Peak hours/Off-peak hours**:
   - **Full hour index** *(Info/digital in kWh)*.
   - **Off-peak hours index** *(Info/digital in kWh)*.
+  - **** *(Info/digital in kWh)*.
+
+:
+
+- **)***:
+  - **** *()*.

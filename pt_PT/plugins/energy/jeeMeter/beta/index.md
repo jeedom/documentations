@@ -2,9 +2,9 @@
 
 O plug-in **Balcão virtual** permite criar medidores de energia em quilowatts-hora a partir de índices brutos *(Wh/kWh)* e/ou poderes *(W/kW)*, seja a uma tarifa única ou durante os horários de pico/fora de pico. Este plugin também permite criar contadores por usuário *(Personalizado/OCPP)*.
 
->**INFORMAÇÃO**
+>****
 >
->Informações do protocolo **OCPP** só ficará visível se o plugin for detectado na máquina.
+> ****.
 
 # Configuration
 
@@ -16,6 +16,8 @@ O plug-in **Balcão virtual** permite criar medidores de energia em quilowatts-h
 - **Alternar preços**: No caso de preços padrão em horários de pico/fora de pico, selecione o comando de alternância de preços padrão info/binary *(1=horário de pico/0=horário fora de pico)*.
 - **OCPP**:
   - **Criação automática de contadores**: Marque a caixa para criar automaticamente contadores por usuário para qualquer nova transação OCPP.
+
+  - ****: .
 
 ## Configuração do equipamento
 
@@ -52,7 +54,7 @@ Para outros, você deve clicar no botão **Gerenciar pedidos** da seção **Dado
 
 ## Commandes
 
-Os pedidos a seguir são criados com base no preço:
+:
 
 - **Preço único**:
   - **Índice** *(Informação/numérico em kWh)*.
@@ -60,3 +62,9 @@ Os pedidos a seguir são criados com base no preço:
 - **Horário de pico/fora de pico**:
   - **Índice de horário de pico** *(Informação/numérico em kWh)*.
   - **Índice de horário fora de pico** *(Informação/numérico em kWh)*.
+  - **** *(Informação/numérico em kWh)*.
+
+:
+
+- **)***:
+  - **** *()*.

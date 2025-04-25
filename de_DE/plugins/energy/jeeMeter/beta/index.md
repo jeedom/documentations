@@ -2,9 +2,9 @@
 
 Das Plugin **Virtueller Schalter** ermöglicht Ihnen die Erstellung von Energiezählern in Kilowattstunden aus Rohindizes *(Wh/kWh)* und/oder Befugnisse *(W/kW)*, sei es zum Einzeltarif oder zu Haupt-/Nebenverkehrszeiten. Mit diesem Plugin können Sie auch Zähler pro Benutzer erstellen *(Angepasst/OCPP)*.
 
->**INFORMATION**
+>****
 >
->Protokollinformationen **OCPP** wird nur sichtbar, wenn das Plugin auf dem Computer erkannt wird.
+> ****.
 
 # Configuration
 
@@ -16,6 +16,8 @@ Das Plugin **Virtueller Schalter** ermöglicht Ihnen die Erstellung von Energiez
 - **Preisumschaltung**: Bei Standardpreisen in Haupt-/Nebenverkehrszeiten wählen Sie den Befehl „Standardpreis zum Umschalten von Informationen/Binärdaten“ aus *(1=Hauptverkehrszeiten/0=Nebenverkehrszeiten)*.
 - **OCPP**:
   - **Automatische Erstellung von Zählern**: Aktivieren Sie das Kontrollkästchen, um automatisch Zähler pro Benutzer für jede neue OCPP-Transaktion zu erstellen.
+
+  - ****: .
 
 ## Gerätekonfiguration
 
@@ -52,7 +54,7 @@ Für andere müssen Sie auf die Schaltfläche klicken **Bestellungen verwalten**
 
 ## Commandes
 
-Die folgenden Bestellungen werden auf Basis der Preisgestaltung erstellt:
+:
 
 - **Einzelpreis**:
   - **Index** *(Info/numerisch in kWh)*.
@@ -60,3 +62,9 @@ Die folgenden Bestellungen werden auf Basis der Preisgestaltung erstellt:
 - **Haupt-/Nebenverkehrszeiten**:
   - **Spitzenstundenindex** *(Info/numerisch in kWh)*.
   - **Index der Stunden außerhalb der Hauptverkehrszeiten** *(Info/numerisch in kWh)*.
+  - **** *(Info/numerisch in kWh)*.
+
+:
+
+- **)***:
+  - **** *()*.
