@@ -22,7 +22,7 @@ The plugin **Virtual counter** allows you to create energy meters in kilowatt-ho
 
 To add a new virtual counter, click on the button **+Add**.
 
-- **Meter type**: Select the meter type *()*.
+- **Meter type**: Select the meter type *(Standard/Personnalisé/OCPP)*.
 - **Pricing**: Adjust pricing if necessary.
 - **Pricing Switch**: In case of peak/off-peak pricing, adapt the info/binary pricing switch command if necessary.
 

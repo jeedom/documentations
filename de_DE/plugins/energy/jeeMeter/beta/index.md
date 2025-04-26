@@ -22,7 +22,7 @@ Das Plugin **Virtueller Schalter** ermöglicht Ihnen die Erstellung von Energiez
 
 Um einen neuen virtuellen Zähler hinzuzufügen, klicken Sie auf die Schaltfläche **+Hinzufügen**.
 
-- **Zählertyp**: Wählen Sie den Zählertyp aus *()*.
+- **Zählertyp**: Wählen Sie den Zählertyp aus *(Standard/Personnalisé/OCPP)*.
 - **Preise**: Passen Sie ggf. die Preise an.
 - **Preisumschaltung**: Passen Sie bei Spitzen-/Nebenzeitenpreisen ggf. den Befehl zum Umschalten zwischen Info- und binärer Preisgestaltung an.
 

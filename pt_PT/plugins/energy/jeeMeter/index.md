@@ -2,9 +2,9 @@
 
 O plug-in **Balcão virtual** permite criar medidores de energia em quilowatts-hora a partir de índices brutos *(Wh/kWh)* e/ou poderes *(W/kW)*, seja a uma tarifa única ou durante os horários de pico/fora de pico. Este plugin também permite criar contadores por usuário *(Personalizado/OCPP)*.
 
->**INFORMAÇÃO**
+>**IMPORTANT**
 >
->Informações do protocolo **OCPP** só ficará visível se o plugin for detectado na máquina.
+>Les options relatives au protocole OCPP ne sont visibles que **si le plugin OCPP est installé**.
 
 # Configuration
 
@@ -16,12 +16,13 @@ O plug-in **Balcão virtual** permite criar medidores de energia em quilowatts-h
 - **Alternar preços**: No caso de preços padrão em horários de pico/fora de pico, selecione o comando de alternância de preços padrão info/binary *(1=horário de pico/0=horário fora de pico)*.
 - **OCPP**:
   - **Criação automática de contadores**: Marque a caixa para criar automaticamente contadores por usuário para qualquer nova transação OCPP.
+  - **Forcer**: Crée instantanément tous les compteurs OCPP des utilisateurs autorisés sans devoir attendre une transaction.
 
 ## Configuração do equipamento
 
 Para adicionar um novo contador virtual, clique no botão **+Adicionar**.
 
-- **Tipo de medidor**: Selecione o tipo de medidor *(Padrão/Personalizado (WIP)/OCPP)*.
+- **Tipo de medidor**: Selecione o tipo de medidor *()*.
 - **Preços**: Adapte os preços, se necessário.
 - **Alternar preços**: No caso de preços de pico/fora de pico, adapte o comando de alternância de preços info/binários, se necessário.
 
@@ -42,7 +43,7 @@ Para outros, você deve clicar no botão **Gerenciar pedidos** da seção **Dado
 	- **Dados**: Controle informativo/digital dos dados brutos a serem processados.
 	- **Unidade**: Selecione a unidade se ela não for detectada automaticamente *(Wh/kWh/W/kW)*.
 
-- **Contadores personalizados** *(WIP)*:
+- **Contadores personalizados**:
 
   ![Dados compteur personnalisé](../images/custom_input.jpg)
 
@@ -52,7 +53,7 @@ Para outros, você deve clicar no botão **Gerenciar pedidos** da seção **Dado
 
 ## Commandes
 
-Os pedidos a seguir são criados com base no preço:
+Les commandes suivantes sont créées, en fonction de la tarification:
 
 - **Preço único**:
   - **Índice** *(Informação/numérico em kWh)*.
@@ -60,3 +61,9 @@ Os pedidos a seguir são criados com base no preço:
 - **Horário de pico/fora de pico**:
   - **Índice de horário de pico** *(Informação/numérico em kWh)*.
   - **Índice de horário fora de pico** *(Informação/numérico em kWh)*.
+  - **Index total** *(Informação/numérico em kWh)*.
+
+Et en fonction du type de compteur:
+
+- **Compteurs OCPP et compteurs personnalisés *(si données brutes en W ou kW)***:
+  - **Puissance** *(Info/numérique en W)*.

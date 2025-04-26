@@ -1,7 +1,5 @@
 # Changelog Virtual Counter
 
-# Changelog plugin Virtual counter
-
 >**IMPORTANT**
 >
 >If there is no information about the update, it is because it only concerns the update of documentation, translation or text.

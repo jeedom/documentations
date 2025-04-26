@@ -5,7 +5,7 @@
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, handelt es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text.
 
 > Attention
-> Bedeutende Neugestaltung des Plugins: Das Plugin wurde komplett neu geschrieben, einschließlich der Kommunikation mit dem Harmony-Hub (jetzt über Daemon))
+> Bedeutende Neugestaltung des Plugins: 
 >
 > Erfordert Jeedom 4.4.8
 >
@@ -15,9 +15,9 @@
 >
 > Siehe auch [dieses Thema auf Community](https://community.jeedom.com/t/importante-mise-a-jour-pour-debian-11-et-debian-12/129908) für weitere Details
 
-## 
+## 10/01/2025
 
-- 
+- Fix un crash démon si plusieurs hubs configurés
 
 # 25.11.2024
 

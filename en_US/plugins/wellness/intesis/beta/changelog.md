@@ -4,13 +4,13 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 
+# 24/04/2025
 
-- 
-- 
-- 
-- 
-- 
+- Correction d'une fuite mémmoire sous Debian 11
+- Compatibilité Debian 12
+- Correction de bugs mineurs
+- Version minimum Jeedom 4.4
+- Version minimum Debian 11
 
 # 06/09/2023
 

@@ -22,7 +22,7 @@ El complemento **Contador virtual** le permite crear medidores de energía en ki
 
 Para agregar un nuevo contador virtual, haga clic en el botón **+Agregar**.
 
-- **Tipo de medidor**: Seleccione el tipo de medidor *()*.
+- **Tipo de medidor**: Seleccione el tipo de medidor *(Standard/Personnalisé/OCPP)*.
 - **Precios**: Adapte los precios si es necesario.
 - **Alternar precios**: En el caso de precios pico/no pico, adapte el comando de alternancia de precios información/precio binario si es necesario.
 

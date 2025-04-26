@@ -4,13 +4,13 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-# 
+# 24/04/2025
 
-- 
-- 
-- 
-- 
-- 
+- Correction d'une fuite mémmoire sous Debian 11
+- Compatibilité Debian 12
+- Correction de bugs mineurs
+- Version minimum Jeedom 4.4
+- Version minimum Debian 11
 
 # 06/09/2023
 

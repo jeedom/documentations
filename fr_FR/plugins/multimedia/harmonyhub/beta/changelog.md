@@ -5,7 +5,7 @@
 >Pour rappel, s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement la mise à jour de documentation, de traduction ou de texte.
 
 > Attention
-> Refonte importante du plugin: le plugin a été entièrement réécrit y compris la communication avec le hub Harmony (via démon à présent)
+> Refonte importante du plugin: le plugin a été entièrement réécrit y compris la communication avec le hub Harmony (via démon à présent); voir changelog depuis le 28/08/2024 ci-dessous pour la liste complète des changements
 >
 > Nécessite Jeedom 4.4.8
 >

@@ -5,7 +5,7 @@
 >A modo de recordatorio, si no hay información sobre la actualización es porque solo se refiere a la actualización de documentación, traducción o texto.
 
 > Attention
-> Rediseño significativo del complemento: el complemento se ha reescrito por completo, incluida la comunicación con Harmony Hub (a través del demonio ahora)
+> Rediseño significativo del complemento: 
 >
 > Requiere Jeedom 4.4.8
 >
@@ -15,9 +15,9 @@
 >
 > Ver también [este tema en la comunidad](https://community.jeedom.com/t/importante-mise-a-jour-pour-debian-11-et-debian-12/129908) para más detalles
 
-## 
+## 10/01/2025
 
-- 
+- Fix un crash démon si plusieurs hubs configurés
 
 # 25/11/2024
 

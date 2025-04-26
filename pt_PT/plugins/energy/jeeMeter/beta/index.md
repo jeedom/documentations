@@ -22,7 +22,7 @@ O plug-in **Balcão virtual** permite criar medidores de energia em quilowatts-h
 
 Para adicionar um novo contador virtual, clique no botão **+Adicionar**.
 
-- **Tipo de medidor**: Selecione o tipo de medidor *()*.
+- **Tipo de medidor**: Selecione o tipo de medidor *(Standard/Personnalisé/OCPP)*.
 - **Preços**: Adapte os preços, se necessário.
 - **Alternar preços**: No caso de preços de pico/fora de pico, adapte o comando de alternância de preços info/binários, se necessário.
 

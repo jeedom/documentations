@@ -1,7 +1,5 @@
 # Registro de cambios Contador virtual
 
-# Complemento de registro de cambios Contador virtual
-
 >**IMPORTANTE**
 >
 >Si no hay información sobre la actualización, significa que solo se trata de actualización de documentación, traducción o texto.

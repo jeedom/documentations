@@ -1,7 +1,5 @@
 # Contador virtual de registro de alterações
 
-# Plugin Changelog Contador virtual
-
 >**IMPORTANTE**
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.

@@ -5,7 +5,7 @@
 >As a reminder, if there is no information on the update, it is because it only concerns the update of documentation, translation or text.
 
 > Attention
-> Major plugin overhaul: the plugin has been completely rewritten including communication with the Harmony hub (via daemon now))
+> Major plugin overhaul: 
 >
 > Requires Jeedom 4.4.8
 >
@@ -15,9 +15,9 @@
 >
 > See also [this topic on community](https://community.jeedom.com/t/importante-mise-a-jour-pour-debian-11-et-debian-12/129908) for more details
 
-## 
+## 10/01/2025
 
-- 
+- Fix un crash démon si plusieurs hubs configurés
 
 # 11/25/2024
 
