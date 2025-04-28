@@ -5,7 +5,7 @@
 >As a reminder, if there is no information on the update, it is because it only concerns the update of documentation, translation or text.
 
 > Attention
-> Major plugin overhaul: 
+> Major plugin overhaul: le plugin a été entièrement réécrit y compris la communication avec le hub Harmony (via démon à présent); voir changelog depuis le 28/08/2024 ci-dessous pour la liste complète des changements
 >
 > Requires Jeedom 4.4.8
 >

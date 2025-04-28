@@ -1,6 +1,6 @@
 # Plug-in de contador virtual
 
-O plug-in **Balcão virtual** permite criar medidores de energia em quilowatts-hora a partir de índices brutos *(Wh/kWh)* e/ou poderes *(W/kW)*, seja a uma tarifa única ou durante os horários de pico/fora de pico. Este plugin também permite criar contadores por usuário *(Personalizado/OCPP)*.
+O plug-in **Balcão virtual** permite criar medidores de energia em quilowatts-hora a partir de índices brutos *(Wh/kWh)* e/ou poderes *(W/kW)*, seja a uma tarifa única ou durante os horários de pico/fora de pico.  *(Personalizado/OCPP)*.
 
 >**IMPORTANT**
 >
@@ -28,7 +28,7 @@ Para adicionar um novo contador virtual, clique no botão **+Adicionar**.
 
 ---
 
-- **Identificador**: Para medidores customizados ou do tipo OCPP, indicar o identificador do usuário.
+- **Identificador**: .
 
 ### Dados a serem processados
 
@@ -49,7 +49,7 @@ Para outros, você deve clicar no botão **Gerenciar pedidos** da seção **Dado
 
 	- **Dados**: Controle informativo/digital dos dados brutos a serem processados.
 	- **Unidade**: Selecione a unidade se ela não for detectada automaticamente *(Wh/kWh/W/kW)*.
-	- **Identificador**: Conclua o comando info/other especificando o identificador do usuário atual *(o valor deve corresponder ao identificador definido ao nível do equipamento para que a transação seja registada)*.
+	- **Identificador**:  *(o valor deve corresponder ao identificador definido ao nível do equipamento para que a transação seja registada)*.
 
 ## Commandes
 

@@ -1,6 +1,6 @@
 # Plugin Compteur virtuel
 
-Le plugin **Compteur virtuel** permet de créer des compteurs énergétiques en kiloWatts-heure à partir d'indexs bruts *(Wh/kWh)* et/ou de puissances *(W/kW)*, que ce soit en tarif unique ou en heures pleines/heures creuses. Ce plugin permet également de créer des compteurs par utilisateur *(Personnalisé/OCPP)*.
+Le plugin **Compteur virtuel** permet de créer des compteurs énergétiques en kiloWatts-heure à partir d'indexs bruts *(Wh/kWh)* et/ou de puissances *(W/kW)*, que ce soit en tarif unique ou en heures pleines/heures creuses. Ce plugin permet également de créer des compteurs liés à une identification *(Personnalisé/OCPP)*.
 
 >**IMPORTANT**
 >
@@ -28,7 +28,7 @@ Pour ajouter un nouveau compteur virtuel, cliquer sur le bouton **+Ajouter**.
 
 ---
 
-- **Identifiant**: Pour les compteurs de type personnalisé ou OCPP, indiquer l'identifiant de l'utilisateur.
+- **Identifiant**: Pour les compteurs de type personnalisé ou OCPP, indiquer l'identifiant à valider pour comptabiliser la transaction.
 
 ### Données à traiter
 
@@ -49,7 +49,7 @@ Pour les autres, il faut cliquer sur le bouton **Gérer les commandes** de la se
 
 	- **Données**: Commande info/numérique des données brutes à traiter.
 	- **Unité**: Sélectionner l'unité si elle n'est pas détectée automatiquement *(Wh/kWh/W/kW)*.
-	- **Identifiant**: Renseigner la commande info/autre stipulant l'identifiant de l'utilisateur en cours *(la valeur doit correspondre à l'identifiant défini au niveau de l'équipement pour que la transaction soit comptabilisée)*.
+	- **Identifiant**: Renseigner la commande info/autre stipulant l'identifiant en cours *(la valeur doit correspondre à l'identifiant défini au niveau de l'équipement pour que la transaction soit comptabilisée)*.
 
 ## Commandes
 

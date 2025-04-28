@@ -1,6 +1,6 @@
 # Virtuelles Zähler-Plugin
 
-Das Plugin **Virtueller Schalter** ermöglicht Ihnen die Erstellung von Energiezählern in Kilowattstunden aus Rohindizes *(Wh/kWh)* und/oder Befugnisse *(W/kW)*, sei es zum Einzeltarif oder zu Haupt-/Nebenverkehrszeiten. Mit diesem Plugin können Sie auch Zähler pro Benutzer erstellen *(Angepasst/OCPP)*.
+Das Plugin **Virtueller Schalter** ermöglicht Ihnen die Erstellung von Energiezählern in Kilowattstunden aus Rohindizes *(Wh/kWh)* und/oder Befugnisse *(W/kW)*, sei es zum Einzeltarif oder zu Haupt-/Nebenverkehrszeiten.  *(Angepasst/OCPP)*.
 
 >**IMPORTANT**
 >
@@ -28,7 +28,7 @@ Um einen neuen virtuellen Zähler hinzuzufügen, klicken Sie auf die Schaltfläc
 
 ---
 
-- **Kennung**: Geben Sie bei benutzerdefinierten oder OCPP-Zählern die Benutzerkennung an.
+- **Kennung**: .
 
 ### Zu verarbeitende Daten
 
@@ -49,7 +49,7 @@ Für andere müssen Sie auf die Schaltfläche klicken **Bestellungen verwalten**
 
 	- **Daten**: Info/digitale Kontrolle der zu verarbeitenden Rohdaten.
 	- **Einheit**: Wählen Sie das Gerät aus, wenn es nicht automatisch erkannt wird *(Wh/kWh/W/kW)*.
-	- **Kennung**: Schließen Sie den Befehl info/other ab und geben Sie dabei die Kennung des aktuellen Benutzers an *(Damit die Transaktion erfasst werden kann, muss der Wert mit der auf Geräteebene definierten Kennung übereinstimmen)*.
+	- **Kennung**:  *(Damit die Transaktion erfasst werden kann, muss der Wert mit der auf Geräteebene definierten Kennung übereinstimmen)*.
 
 ## Commandes
 

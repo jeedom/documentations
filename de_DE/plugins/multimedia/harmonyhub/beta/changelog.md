@@ -5,7 +5,7 @@
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, handelt es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text.
 
 > Attention
-> Bedeutende Neugestaltung des Plugins: 
+> Bedeutende Neugestaltung des Plugins: le plugin a été entièrement réécrit y compris la communication avec le hub Harmony (via démon à présent); voir changelog depuis le 28/08/2024 ci-dessous pour la liste complète des changements
 >
 > Erfordert Jeedom 4.4.8
 >

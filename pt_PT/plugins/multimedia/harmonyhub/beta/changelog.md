@@ -5,7 +5,7 @@
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto.
 
 > Attention
-> Redesenho significativo do plugin: 
+> Redesenho significativo do plugin: le plugin a été entièrement réécrit y compris la communication avec le hub Harmony (via démon à présent); voir changelog depuis le 28/08/2024 ci-dessous pour la liste complète des changements
 >
 > Requer Jeedom 4.4.8
 >
