@@ -5,9 +5,9 @@
 > Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
 
-# 
+# 25/04/2025
 
-- 
+- Ajout pour Max 8 Icones sur le menuCustom
 
 
 # 24/04/2025
