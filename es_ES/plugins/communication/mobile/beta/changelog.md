@@ -7,7 +7,12 @@
 
 # 
 
--  : 
+- 
+
+
+# 24/04/2025
+
+- Ajout Commande Notifications Silencieuses pour Builds : IOS 491 et Android 875
 
 
 # 11/04/2025

@@ -5,6 +5,11 @@
 > Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
 
+# 25/04/2025
+
+- Ajout pour Max 8 Icones sur le menuCustom
+
+
 # 24/04/2025
 
 - Ajout Commande Notifications Silencieuses pour Builds : IOS 491 et Android 875
