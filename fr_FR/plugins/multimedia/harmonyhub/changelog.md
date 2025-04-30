@@ -4,8 +4,14 @@
 >
 >Pour rappel, s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement la mise à jour de documentation, de traduction ou de texte.
 
+# 30/04/2025
+
+- Fix un problème sur le lancement de commandes pour certaines installations (hub inconnu) suite à la version du 28/04
+
+# 28/04/2025
+
 > Attention
-> Refonte importante du plugin: le plugin a été entièrement réécrit y compris la communication avec le hub Harmony (via démon à présent); voir changelog depuis le 28/08/2024 ci-dessous pour la liste complète des changements
+> Refonte importante du plugin: le plugin a été entièrement réécrit y compris la communication avec le hub Harmony (via démon à présent)
 >
 > Nécessite Jeedom 4.4.8
 >
@@ -15,16 +21,6 @@
 >
 > Voir également [ce sujet sur community](https://community.jeedom.com/t/importante-mise-a-jour-pour-debian-11-et-debian-12/129908) pour plus de détails
 
-## 10/01/2025
-
-- Fix un crash démon si plusieurs hubs configurés
-
-# 25/11/2024
-
-- Fix la version d'une dépendance pour éviter un breaking change (async-timeout v5 break timeout context)
-
-# 28/08/2024
-
 - Réécriture complète du plugin
 - Utilisation de la méthode d'installation des dépendances du core
 - Changement de la librairie pour communiquer avec le hub Harmony afin d'utiliser une librairie disposant d'un meilleur suivi
@@ -33,6 +29,8 @@
   - d'avoir un retour d'état en temps réel
 - Simplification de la configuration: il ne reste que la configuration de l'IP du hub à renseigner dans la config du plugin et démarrer le démon et les équipements se synchronisent tous seuls avec Jeedom.
 - Ajout d'une commande **Démarrage activité** qui indique l'activité qui est en cours de démarrage (vide si aucune)
+- Fix un crash démon si plusieurs hubs configurés
+- Fix la version d'une dépendance pour éviter un breaking change (async-timeout v5 break timeout context)
 
 # 17/09/2023
 

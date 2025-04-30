@@ -4,8 +4,14 @@
 >
 >A modo de recordatorio, si no hay información sobre la actualización es porque solo se refiere a la actualización de documentación, traducción o texto.
 
+# 
+
+- 
+
+# 
+
 > Attention
-> Rediseño significativo del complemento: le plugin a été entièrement réécrit y compris la communication avec le hub Harmony (via démon à présent); voir changelog depuis le 28/08/2024 ci-dessous pour la liste complète des changements
+> Rediseño significativo del complemento: )
 >
 > Requiere Jeedom 4.4.8
 >
@@ -15,16 +21,6 @@
 >
 > Ver también [este tema en la comunidad](https://community.jeedom.com/t/importante-mise-a-jour-pour-debian-11-et-debian-12/129908) para más detalles
 
-## 10/01/2025
-
-- Fix un crash démon si plusieurs hubs configurés
-
-# 25/11/2024
-
-- Corrija la versión de una dependencia para evitar un cambio importante (contexto de tiempo de espera de interrupción async-timeout v5)
-
-# 28/08/2024
-
 - Reescritura completa del complemento
 - Usando el método de instalación de dependencia central
 - Cambiar la biblioteca para comunicarse con Harmony Hub para utilizar una biblioteca con un mejor seguimiento
@@ -33,6 +29,8 @@
   - para tener retroalimentación de estado en tiempo real
 - Configuración simplificada: Ya solo queda la configuración de la IP del hub para entrar en el plugin config e iniciar el daemon y el equipo se sincroniza con Jeedom.
 - Agregar un pedido **Iniciar actividad** que indica la actividad que se está iniciando (vacío si no hay ninguna))
+- Fix un crash démon si plusieurs hubs configurés
+- Corrija la versión de una dependencia para evitar un cambio importante (contexto de tiempo de espera de interrupción async-timeout v5)
 
 # 17/09/2023
 
