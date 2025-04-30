@@ -20,7 +20,9 @@
 
 - Correction downlink du *Vega SI-11*
 
-- Ajout du produit **
+- Ajout du produit *Milesight EM300MCS - Magnetic Contact Switch*
+
+- 
 
 # 24/03/2025
 

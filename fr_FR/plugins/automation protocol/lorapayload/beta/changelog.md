@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 18/04/2025 (BETA)
+# 30/04/2025 (BETA)
 
 - Ajout du produit *Dragino CPL03-LB/LS - Capteur de contact sec ouvert/fermé LoRaWAN pour extérieur*
 
@@ -21,6 +21,8 @@
 - Correction downlink du *Vega SI-11*
 
 - Ajout du produit *Milesight EM300MCS - Magnetic Contact Switch*
+
+- Correction du choix du broker local lors de la génération automatique
 
 # 24/03/2025
 
