@@ -84,7 +84,21 @@
 
     ![v2ModifyBigRadius](./images/v2ModifyBigRadius.jpeg)
 
+
+    Pour supprimer une zone, vous cliquez sur Editer, et cliquer ensuite sur l'icone Corbeille. Cela supprimera la zone de l'application, ainsi que la commande sur la box associée.
+
+    # Paramètres de l'application:
+
+    Vous pouvez choisir la durée d'affichage des Notifications inApp, suivant leur type : Succès, Info et Erreur: par défaut, elles sont reglées sur 5 secondes :
+
+
+    <img src="./images/inAppduration.jpeg" width="300" height="300"/>
+
     # FAQ
+
+    > **Mon mobile ne possède pas d'IQ (identifiant unique)**
+    >
+    > Le plugin Mobile a besoin de l'IQ du téléphone pour l'identifier. Si dans les logs du plugin vous voyez ce parametre manquant, il suffit simplement de vous rendre dans le menu Préférences de l'app, et automatiquement une alerte vous indiquera que la récuperation de l'IQ est en cours
 
     > **J'ai des soucis avec les notifications**
     >
@@ -93,3 +107,5 @@
     > **J'ai des soucis d'affichage de ma webview**
     >
     > Sur votre Jeedom, dans les Préférences, vérifiez que la page d'accueil du mobile soit bien ACCUEIL.
+
+

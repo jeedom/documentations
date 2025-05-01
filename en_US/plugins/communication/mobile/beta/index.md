@@ -84,7 +84,21 @@
 
     ![v2ModifyBigRadius](./images/v2ModifyBigRadius.jpeg)
 
+
+    . .
+
+    # :
+
+     : :  :
+
+
+    <img src="./images/inAppduration.jpeg" width="300" height="300"/>
+
     # FAQ
+
+    > **)**
+    >
+    > . 
 
     > **I have problems with notifications**
     >
@@ -93,3 +107,5 @@
     > **I have problems displaying my webview**
     >
     > On your Jeedom, in the Preferences, check that the mobile home page is HOME.
+
+

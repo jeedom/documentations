@@ -84,7 +84,21 @@
 
     ![v2ModifyBigRadius](./images/v2ModifyBigRadius.jpeg)
 
+
+    . .
+
+    # :
+
+     : :  :
+
+
+    <img src="./images/inAppduration.jpeg" width="300" height="300"/>
+
     # FAQ
+
+    > **)**
+    >
+    > . 
 
     > **Tenho problemas com notificações**
     >
@@ -93,3 +107,5 @@
     > **Tenho problemas para exibir meu webview**
     >
     > No seu Jeedom, nas Preferências, verifique se a página inicial do celular é HOME.
+
+

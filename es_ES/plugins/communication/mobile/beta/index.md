@@ -84,7 +84,21 @@
 
     ![v2ModifyBigRadius](./images/v2ModifyBigRadius.jpeg)
 
+
+    . .
+
+    # :
+
+     : :  :
+
+
+    <img src="./images/inAppduration.jpeg" width="300" height="300"/>
+
     # FAQ
+
+    > **)**
+    >
+    > . 
 
     > **Tengo problemas con las notificaciones**
     >
@@ -93,3 +107,5 @@
     > **Tengo problemas para mostrar mi vista web**
     >
     > En tu Jeedom, en Preferencias, comprueba que la página de inicio móvil sea INICIO.
+
+

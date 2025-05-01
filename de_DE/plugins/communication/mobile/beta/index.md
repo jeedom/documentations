@@ -84,7 +84,21 @@
 
     ![v2ModifyBigRadius](./images/v2ModifyBigRadius.jpeg)
 
+
+    . .
+
+    # :
+
+     : :  :
+
+
+    <img src="./images/inAppduration.jpeg" width="300" height="300"/>
+
     # FAQ
+
+    > **)**
+    >
+    > . 
 
     > **Ich habe Probleme mit Benachrichtigungen**
     >
@@ -93,3 +107,5 @@
     > **Ich habe Probleme bei der Anzeige meiner Webansicht**
     >
     > Überprüfen Sie auf Ihrem Jeedom in den Einstellungen, ob die mobile Startseite HOME ist.
+
+
