@@ -3,7 +3,16 @@
     "name": "JeeDashboard-Voe",
     "specialAttributes": [],
     "description": {
-        "fr_FR": "Plugin de publication Cloud"
+        "fr_FR": "Plugin de publication Cloud",
+        "en_US": "Plugin de publication Cloud",
+        "es_ES": "Plugin de publication Cloud",
+        "de_DE": "Plugin de publication Cloud",
+        "ru_RU": "Plugin de publication Cloud",
+        "id_ID": "Plugin de publication Cloud",
+        "it_IT": "Plugin de publication Cloud",
+        "ja_JP": "Plugin de publication Cloud",
+        "pt_PT": "Plugin de publication Cloud",
+        "tr": "Plugin de publication Cloud"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
