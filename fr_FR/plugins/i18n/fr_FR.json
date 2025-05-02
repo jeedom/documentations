@@ -774,6 +774,9 @@
         "Publication du plugin": "Publication du plugin",
         "Description des pré-requis indispensables à la publication du plugin": "Description des pré-requis indispensables à la publication du plugin"
     },
+    "plugins\/jeeDashboardVoe\/index.md": {
+        "Plugin jeeDashboardVoe": "Plugin jeeDashboardVoe"
+    },
     "plugins\/monitoring\/index.md": {
         "Ventilairsec": "Ventilairsec",
         "Ubiquiti Unifi protect": "Ubiquiti Unifi protect",
@@ -784,6 +787,8 @@
         "Plugin pour récuperer les informations des onduleurs via nut": "Plugin pour récuperer les informations des onduleurs via nut",
         "Monitoring": "Monitoring",
         "Plugin de Monitoring local et distant par SSH": "Plugin de Monitoring local et distant par SSH",
+        "JeeDashboard-Voe": "JeeDashboard-Voe",
+        "Plugin de publication Cloud": "Plugin de publication Cloud",
         "JeeDashboard-Publish": "JeeDashboard-Publish",
         "Plugin permetant de publier des valeurs depuis Jeedom en MQTT": "Plugin permetant de publier des valeurs depuis Jeedom en MQTT",
         "JeeDashboard-Agbox": "JeeDashboard-Agbox",

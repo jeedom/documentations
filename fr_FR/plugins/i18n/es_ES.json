@@ -2892,6 +2892,9 @@
         "*ici*": "*aquí*",
         " ici*": " aquí*"
     },
+    "plugins\/jeeDashboardVoe\/index.md": {
+        "Plugin jeeDashboardVoe": ""
+    },
     "plugins\/monitoring\/index.md": {
         "Ubiquiti Unifi protect": "Ubiquiti Unifi proteger",
         "Plugin permettant de connecter Jeedom à Unifi Protect": "Complemento para conectar Jeedom a Unifi Protect",
@@ -2899,6 +2902,7 @@
         "Onduleur (NUT": "Inversor (TUERCA",
         "Plugin pour récuperer les informations des onduleurs via nut": "Complemento para recuperar información de los inversores a través de la tuerca",
         "Plugin de Monitoring local et distant par SSH": "Complemento de monitoreo local y remoto por SSH",
+        "Plugin de publication Cloud": "",
         "Plugin permetant de publier des valeurs depuis Jeedom en MQTT": "Complemento que le permite publicar valores de Jeedom en MQTT",
         "Plugin servant à la configuration de JeeDashboard": "Complemento utilizado para configurar JeeDashboard",
         "Seuls les plugins officiels ont leur documentation ici": "Solo los complementos oficiales tienen su documentación aquí",
@@ -2931,6 +2935,13 @@
         "[Monitoring]": "[Monitoreo]",
         "*Monitoring*": "*Monitoreo*",
         " Monitoring*": " Monitoreo*",
+        " JeeDashboard-Voe.": " .",
+        " JeeDashboard-Voe?": " ?",
+        "JeeDashboard-Voe ": " ",
+        " JeeDashboard-Voe]": " ]",
+        "[JeeDashboard-Voe]": "[]",
+        "*JeeDashboard-Voe*": "**",
+        " JeeDashboard-Voe*": " *",
         " JeeDashboard-Publish.": " JeeDashboard-Publicar.",
         " JeeDashboard-Publish?": " JeeDashboard-Publicar?",
         "JeeDashboard-Publish ": "JeeDashboard-Publicar ",
