@@ -14,7 +14,7 @@
 	"author": "JAG | mika-nt28",
 	"require": "4.2",
 	"os": {
-		"min": 11
+		"min": 10
 	},
 	"category": "monitoring",
 	"hasOwnDeamon": true,
