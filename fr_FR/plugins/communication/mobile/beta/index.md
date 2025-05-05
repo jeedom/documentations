@@ -1,111 +1,103 @@
-    # Plugin Mobile
+# Plugin Mobile
 
-    Plugin permettant d’utiliser l’application Mobile Jeedom.
+Le plugin Mobile permet d’utiliser l’application Mobile Jeedom.
 
-    L’application mobile Jeedom nécessite l’installation de ce plugin afin que la Box puisse dialoguer avec l’application Mobile.
+Pour que l’application Mobile puisse communiquer avec votre Box Jeedom, il est nécessaire d’installer ce plugin.
 
-    # Configuration du plugin Mobile pour Application V2
+# Configuration du plugin Mobile pour l'application V2
 
-    Après installation du plugin, il vous suffit de l’activer :
+Après avoir installé le plugin, activez-le simplement :
 
-    ![mobile1](./images/mobile1.png)
+<img src="../images/mobile1.png" width="500" height="300" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    # Première connexion à l'application V2
+# Première connexion à l'application V2
 
-    Pour connecter votre téléphone : il y a 2 méthodes possible;
-    Sur le premier écran de l'application, il vous est proposé de connecter votre compte Market, et ainsi de retrouver toutes les Boxs associées à ce compte, ou bien simplement ajouter une Box.
+Pour connecter votre téléphone, deux méthodes sont disponibles :  
+Sur le premier écran de l'application, vous pouvez soit connecter votre compte Market pour retrouver toutes les Box associées à ce compte, soit ajouter une Box manuellement.
 
-    ![v2ConnectMarket](./images/v2firstConnect.jpeg)
+<img src="../images/v2firstConnect.jpeg" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    > **IMPORTANT**
-    >
-    > Pour profiter des fonctionnalités de l'application, le Core de votre Jeedom doit être en 4.4.0 minimum
+> **IMPORTANT**  
+> Pour profiter pleinement des fonctionnalités de l'application, votre Core Jeedom doit être en version 4.4.0 ou supérieure.
 
-    #### **CONNEXION VIA LE COMPTE MARKET** :
+### **Connexion via le compte Market**
 
-    ![v2ConnectMarket](./images/v2connectMarket.jpeg)
+<img src="../images/v2connectMarket.jpeg" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    Il vous faut simplement rentrer votre identifiant Market ainsi que votre mot de passe.
+Saisissez simplement votre identifiant et mot de passe Market pour vous connecter.
 
-    #### **CONNEXION VIA Box ID** :
+### **Connexion via l'ID de la Box**
 
-    ![v22methods](./images/v22methods.jpeg)
+<img src="../images/v22methods.jpeg" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    Plusieurs choix sur cet écran :
+Sur cet écran, plusieurs options s'offrent à vous :
 
-    - Vous entrez l'url de votre Jeedom (interne ou externe), ainsi que les identifiants d'accès à celle-ci et vous confirmez avec le bouton CONNEXION
+- Entrez l'URL de votre Jeedom (interne ou externe), ainsi que vos identifiants d'accès, puis cliquez sur le bouton **CONNEXION**.
+- Cliquez sur **QR Code** : un nouvel écran s'affiche, vous permettant de scanner un QR Code depuis l'onglet QR Code du plugin Mobile de la Box que vous souhaitez ajouter.
 
-    - Vous cliquez sur QR Code : un nouvel écran apparait; vous pourrez scanner un QR Code depuis le plugin Mobile de la Box que vous souhaitez ajoutée, via l'onglet QR Code du plugin.
+<img src="../images/v2QRCodeConnect.PNG" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    ![v2ModalQrApp](./images/v2QRCodeConnect.PNG)
+> **Onglet QR Code du plugin Mobile**  
+> <img src="../images/v2ModalQrCode.png" width="500" height="300" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    > Onglet QR Code du plugin Mobile
+Une fois cette étape terminée, vous êtes enregistré dans l'application. Si vous possédez le plugin Mobile, vous aurez accès à des fonctionnalités comme les notifications, les QR Codes, ou encore la personnalisation du menu.
 
-    > > ![v2ModalPlugin](./images/v2ModalQrCode.png)
+Dans le menu, un onglet **Boxs** regroupe toutes les Box associées à votre compte Market.
 
-    Une fois cette première étape passée, vous êtes enregistré dans l'application: si vous possédez le plugin Mobile, vous aurez accès via le menu aux Notifications, aux QR Codes, la customisation du Menu ....
+<img src="../images/v2MenuBoxs.PNG" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    Dans le menu, vous aurez un onglet Boxs, qui regroupe toutes les Box présentes sur ce compte Market
+<img src="../images/v2floutedBoxs.png" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    ![v2MenuBoxs](./images/v2MenuBoxs.PNG)
+Cliquez sur la Box où le plugin Mobile est installé, puis identifiez-vous pour y accéder.  
+La Box validée apparaîtra en haut de la liste. Vous pouvez répéter cette opération pour plusieurs Box.
 
-    ![v2floutedBoxs](./images/v2floutedBoxs.png)
+En cliquant sur le bouton **+** en bas à droite, vous accédez à différentes options :
 
-    Il vous suffit de cliquer sur la Box où le plugin Mobile est installé, puis de vous identifier pour accéder à la Box.
+- Ajouter une Box via un QR Code (depuis le plugin Mobile),
+- Ajouter une Box manuellement,
+- Détecter les Box Atlas et Luna sur le réseau Wi-Fi,
+- Synchroniser les informations de votre compte Market.
 
-    La Box passera en haut de la liste, ayant validée son authentification.
-    Vous pouvez faire ainsi pour plusieurs Boxs.
+<img src="../images/v2greenBtnAdd.PNG" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    Vous pouvez aussi cliquer sur le bouton + en bas à droite pour accéder à différentes options;
+Pour accéder à des fonctionnalités comme les notifications, la personnalisation du menu ou la géolocalisation, vous devez d'abord sélectionner une Box comme "actuelle".
 
-    - QR Code pour ajouter une Box à la liste via le plugin Mobile,
-    - Manuel pour ajouter manuellement une Box
-    - Détection Atlas et Luna (si vous êtes en Wifi, détectera les Boxs sur le réseau)
-    - Synchronisation Market pour actualiser les informations du compte Market configuré
+<img src="../images/v2ActualBoxFlouted.jpeg" width="300" height="600" style="display: block; margin: 0 auto;"/>
 
-    ![v2greenBtnAdd](./images/v2greenBtnAdd.PNG)
+# Fonctionnement de la géolocalisation
 
-    Pour accéder aux fonctionnalités comme les Notifications, la Personnalisation du Menu ou la Géolocalisation, il faut au préalable avoir sélectionné au moins une Box 'actuelle'
+Ajoutez une zone de géolocalisation en cliquant sur l'icône **+**.
 
-    ![v2ActualBoxFlouted](./images/v2ActualBoxFlouted.jpeg)
+<img src="../images/v2AddZone.jpeg" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    # Fonctionnement de la Géolocalisation
+Saisissez l'adresse recherchée et validez avec la touche Entrée de votre téléphone. Le curseur se positionnera automatiquement sur l'adresse. Vous pouvez ensuite nommer et sauvegarder la zone.
 
-    Nous ajoutons une zone de Géolocalisation en cliquant sur l'icône +
+Cela créera une commande binaire sur votre équipement mobile, qui indiquera les entrées et sorties de la zone si la géolocalisation est activée sur votre téléphone.
 
-    ![v2AddZone](./images/v2AddZone.jpeg)
+Vous pouvez également ajuster le rayon de la zone pour élargir la détection.
 
-    Nous tapons l'adresse recherchée, nous validons avec Entrée sur son téléphone; le curseur va alors se positionner sur l'adresse recherchée.
-    Nous pouvons ensuite ajouter un nom et sauvegarder la zone.
+<img src="../images/v2ModifyBigRadius.jpeg" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    Cela créera une nouvelle commande sur votre équipement mobile, de type binaire, qui correspondra aux entrées et sorties de la zone si la géolocalisation est activée sur votre téléphone mobile.
+Pour supprimer une zone, cliquez sur **Éditer**, puis sur l'icône Corbeille. Cela supprimera la zone de l'application ainsi que la commande associée sur la Box.
 
-    Nous pouvons également changer le radius de la zone, pour étendre la détection de la zone.
+# Paramètres de l'application
 
-    ![v2ModifyBigRadius](./images/v2ModifyBigRadius.jpeg)
+Vous pouvez configurer la durée d'affichage des notifications in-app selon leur type (Succès, Info, Erreur). Par défaut, elles sont réglées sur 5 secondes.
 
+<img src="../images/inAppduration.jpeg" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    Pour supprimer une zone, vous cliquez sur Editer, et cliquer ensuite sur l'icone Corbeille. Cela supprimera la zone de l'application, ainsi que la commande sur la box associée.
+# FAQ
 
-    # Paramètres de l'application:
+> **Mon mobile ne possède pas d'IQ (identifiant unique)**  
+> Le plugin Mobile a besoin de l'IQ du téléphone pour l'identifier. Si ce paramètre est manquant dans les logs du plugin, rendez-vous dans le menu Préférences de l'application. Une alerte vous indiquera que la récupération de l'IQ est en cours.
 
-    Vous pouvez choisir la durée d'affichage des Notifications inApp, suivant leur type : Succès, Info et Erreur: par défaut, elles sont reglées sur 5 secondes :
+> **J'ai des soucis avec les notifications**  
+> Cette fonctionnalité est en cours d'amélioration et d'optimisation dans la version bêta de l'application.
 
+> **J'ai des soucis d'affichage de ma webview**  
+> Vérifiez dans les Préférences de votre Jeedom que la page d'accueil mobile est bien définie sur **ACCUEIL**.
 
-    <img src="./images/inAppduration.jpeg" width="300" height="300"/>
-
-    # FAQ
-
-    > **Mon mobile ne possède pas d'IQ (identifiant unique)**
-    >
-    > Le plugin Mobile a besoin de l'IQ du téléphone pour l'identifier. Si dans les logs du plugin vous voyez ce parametre manquant, il suffit simplement de vous rendre dans le menu Préférences de l'app, et automatiquement une alerte vous indiquera que la récuperation de l'IQ est en cours
-
-    > **J'ai des soucis avec les notifications**
-    >
-    > Cette partie est actuellement en cours d'amélioration et d'optimisation sur l'application beta.
-
-    > **J'ai des soucis d'affichage de ma webview**
-    >
-    > Sur votre Jeedom, dans les Préférences, vérifiez que la page d'accueil du mobile soit bien ACCUEIL.
+> **L'application apparait sous jeedom sous IOS et/ou AppleWatch à la place de Jeedom**  
+> .
 
 
