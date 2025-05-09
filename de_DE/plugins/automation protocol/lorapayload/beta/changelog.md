@@ -22,7 +22,13 @@
 
 - Ajout du produit *Milesight EM300MCS - Magnetic Contact Switch*
 
-- 
+- Correction du choix du broker local lors de la génération automatique
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit *)*
 
 # 24/03/2025
 
