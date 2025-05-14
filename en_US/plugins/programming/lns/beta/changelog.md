@@ -4,9 +4,9 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 
+# 10/04/2025
 
-- 
+- Add compatibility Debian 12
 
 # 20/02/2025
 
