@@ -4,7 +4,7 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
-# 09/05/2025 (BETA)
+# )
 
 - Ajout du produit *Dragino CPL03-LB/LS - Sensor de contacto seco LoRaWAN para exteriores, abierto/cerrado*
 
@@ -29,6 +29,8 @@
 - Ajout du produit *Nexelec ATMO / SENSE / AERO / PMT / AERO Lora*
 
 - Ajout du produit *Nexelec LoRa Air Sensors (Sign, Rise, Feel, Move, Wav, View)*
+
+- Ajout du produit **
 
 # 24/03/2025
 
