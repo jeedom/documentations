@@ -4,7 +4,7 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# )
+# 
 
 - Ajout du produit *Dragino CPL03-LB/LS – LoRaWAN-Trockenkontaktsensor für den Außenbereich (offen/geschlossen)*
 
@@ -30,7 +30,9 @@
 
 - Ajout du produit *Nexelec LoRa Air Sensors (Sign, Rise, Feel, Move, Wav, View)*
 
-- Ajout du produit **
+- Ajout du produit *Thermokon 835657 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
+
+-  *Thermokon 835657 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
 
 # 24/03/2025
 

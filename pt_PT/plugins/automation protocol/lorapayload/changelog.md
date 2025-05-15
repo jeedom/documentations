@@ -1,12 +1,38 @@
 # Changelog Lora Payload
 
-# Changelog LoraPayload
-
 >**IMPORTANTE**
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
-# 19/03/2025 (Beta)
+# )
+
+- Ajout du produit *Dragino CPL03-LB/LS - Sensor de contato seco aberto/fechado LoRaWAN para ambientes externos*
+
+- Ajout du produit *Dragino LHT52 - Sensor de temperatura e umidade interna LoRaWAN*
+
+- Correção do decodificador *Vega*
+
+- Ajout des commandes *Dragino CPL03-LB/LS - Sensor de contato seco aberto/fechado LoRaWAN para ambientes externos*
+
+- Mise à jour décodeur et encodeur *Thermokon 835633 - NOVOS 3 Módulo de controle ambiente temperatura, umidade relativa, CO2*
+
+- Ajout du produit *BMeters IWM-LR3 - Water Meter Reader*
+
+- Correction downlink du *Vega SI-11*
+
+- Ajout du produit *Milesight EM300MCS - Magnetic Contact Switch*
+
+- Correction du choix du broker local lors de la génération automatique
+
+- Ajout du produit *Milesight CT303 - Smart Current Transformer CT303*
+
+- Ajout du produit *Nexelec ATMO / SENSE / AERO / PMT / AERO Lora*
+
+- Ajout du produit *Nexelec LoRa Air Sensors (Sign, Rise, Feel, Move, Wav, View)*
+
+- Ajout du produit **
+
+# 24/03/2025
 
 - Correction du décodeur *WoMaster LR144*
 
@@ -16,7 +42,9 @@
 
 - Ajout des generic types au produit *Termostato de radiador inteligente Milesight WT101*
 
-- Ajout du produit **
+- Ajout du produit *Eastron Smart Energy Meter SDM-230*
+
+- Correção do decodificador *NKE Batch*
 
 # 17/03/2025
 
