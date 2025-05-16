@@ -4,7 +4,13 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
-# 
+# )
+
+- Ajout du produit **
+
+- 
+
+# 15/05/2025
 
 - Ajout du produit *Dragino CPL03-LB/LS - Sensor de contacto seco LoRaWAN para exteriores, abierto/cerrado*
 
@@ -32,7 +38,7 @@
 
 - Ajout du produit *Thermokon 835657 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
 
--  *Thermokon 835657 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
+- Correction downlink *Thermokon 835657 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
 
 # 24/03/2025
 
