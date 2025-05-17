@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, bedeutet dies, dass es sich nur um die Aktualisierung der Dokumentation, Übersetzung oder des Textes handelt.
 
+# 25.11.2024
+
+- Plugin kompatibel mit Debian 11 und höher
+
 # 10.07.2024
 
 - Es wurde ein Problem behoben, bei dem bestimmte Nachrichten zweimal verarbeitet werden konnten

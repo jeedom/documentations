@@ -4,6 +4,10 @@
 >
 >Recorde-se que se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
+# 
+
+- 
+
 # 25/11/2024
 
 - Plugin compatível com Debian 11 e superior
