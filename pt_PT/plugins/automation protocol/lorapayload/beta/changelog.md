@@ -4,11 +4,13 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
-# )
+# 16/05/2025 (BETA)
 
-- Ajout du produit **
+- Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*
 
-- 
+- Ajout de l'info Data Rate LoRaWAN
+
+- Ajout des commandes *Milesight VS373 - AI Bed & Presence Sensor*
 
 # 15/05/2025
 

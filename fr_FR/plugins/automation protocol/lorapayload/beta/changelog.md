@@ -10,6 +10,8 @@
 
 - Ajout de l'info Data Rate LoRaWAN
 
+- Ajout des commandes *Milesight VS373 - AI Bed & Presence Sensor*
+
 # 15/05/2025
 
 - Ajout du produit *Dragino CPL03-LB/LS - Capteur de contact sec ouvert/fermé LoRaWAN pour extérieur*
