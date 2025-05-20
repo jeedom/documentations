@@ -2892,6 +2892,9 @@
         "*ici*": "*Hier*",
         " ici*": " Hier*"
     },
+    "plugins\/jeeDashboardSunPulse\/index.md": {
+        "Plugin Sun Pulse Publish": ""
+    },
     "plugins\/jeeDashboardVoe\/index.md": {
         "Plugin jeeDashboardVoe": "Plugin jeeDashboardVoe"
     },

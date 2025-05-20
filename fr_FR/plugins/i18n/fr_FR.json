@@ -774,6 +774,9 @@
         "Publication du plugin": "Publication du plugin",
         "Description des pré-requis indispensables à la publication du plugin": "Description des pré-requis indispensables à la publication du plugin"
     },
+    "plugins\/jeeDashboardSunPulse\/index.md": {
+        "Plugin Sun Pulse Publish": "Plugin Sun Pulse Publish"
+    },
     "plugins\/jeeDashboardVoe\/index.md": {
         "Plugin jeeDashboardVoe": "Plugin jeeDashboardVoe"
     },
