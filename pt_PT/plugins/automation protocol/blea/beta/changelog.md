@@ -4,6 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 
+
+- 
+- 
+
 # 22/09/2024
 
 - Corrigido um problema ao reiniciar o daemon à noite, que nem sempre reiniciava corretamente
@@ -14,7 +19,7 @@
 
 # 29/06/2024
 
-- Corrigido um bug na função de exceção do ajax.
+- .
 
 # 06/04/2021
 
@@ -27,22 +32,27 @@
 - Adição da tag "compatibilidade V4"
 
 # 30/08/2019
+
 - Adição de gestão excepcional
 
 # 22/08/2019
+
 - Adição de Tivoo Divoom
 - Pequenas melhorias
 
 # 19/08/2019
+
 - Adição de uma mensagem para pensar em alterar o nível da API no Jeedom se você usar antenas
-- Adição de alguns dispositivos DIVOOM (observe que eles exigem um relançamento de dependências). Eu não o adiciono no controle de dependência, porque essas são apenas dependências específicas para eles, portanto, não é necessário forçar todos a reiniciar as dependências)
+- Adição de alguns dispositivos DIVOOM (observe que eles exigem um relançamento de dependências). Eu não o adiciono no controle de dependência, porque essas são apenas dependências específicas para eles, portanto, não é necessário forçar todos a reiniciar as dependências
 - Adição do nível da bateria no capim claro
 - Pequenas melhorias
 
 # 30/07/2019
+
 - Correção de um bug no dotti vinculado à transição para python3
 
 # 29/07/2019
+
 - Menor fixo
 - Separação de dispositivos desconhecidos na página do equipamento
 - Capacidade de excluir todos os dispositivos desconhecidos em um clique (apenas aqueles não atribuídos a um objeto)
@@ -50,6 +60,7 @@
 - Melhorias gerais
 
 # 20/07/2019
+
 - Mudança de método para todo o intervalo de playbulb (apenas um conf e recursos visuais) mais dependências em comparação com as diferentes versões (agora na inclusão, recuperamos os endereços dos diferentes métodos)
 - Adição de miscal V2 com peso e impedância (e várias medidas calculadas). Gerenciamento de usuários para cálculos (no botão de configuração avançada)
 - Alteração do miscal V1 (será necessário recriar os usuários), mas obtemos mais algumas informações
@@ -76,6 +87,7 @@
 - Capacidade de escolher exatamente o tipo de produto a ser incluído durante uma digitalização (com a possibilidade de escolher todas)
 
 # 26/06/2019
+
 - Adicionando o xiaomi cleargrass
 - Adição de Xiaomi lywsd02
 - Início do gerenciamento dinâmico de modelos
