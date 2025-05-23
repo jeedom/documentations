@@ -792,6 +792,9 @@
         "Plugin de Monitoring local et distant par SSH": "Plugin de Monitoring local et distant par SSH",
         "JeeDashboard-Voe": "JeeDashboard-Voe",
         "Plugin de publication Cloud": "Plugin de publication Cloud",
+        "Plugin de communication MADEnR": "Plugin de communication MADEnR",
+        "JeeDashboard-SunPulse": "JeeDashboard-SunPulse",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
         "JeeDashboard-Publish": "JeeDashboard-Publish",
         "Plugin permetant de publier des valeurs depuis Jeedom en MQTT": "Plugin permetant de publier des valeurs depuis Jeedom en MQTT",
         "JeeDashboard-Agbox": "JeeDashboard-Agbox",
@@ -807,7 +810,9 @@
         "Documentation Beta": "Documentation Beta",
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
-        "Changelog Beta": "Changelog Beta"
+        "Changelog Beta": "Changelog Beta",
+        "Documentation beta": "Documentation beta",
+        "Changelog beta": "Changelog beta"
     },
     "plugins\/multimedia\/index.md": {
         "De nombreuses autres fonctions sont aussi présentes": "De nombreuses autres fonctions sont aussi présentes",
