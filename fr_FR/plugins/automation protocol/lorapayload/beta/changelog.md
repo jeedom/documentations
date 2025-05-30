@@ -4,13 +4,15 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 16/05/2025 (BETA)
+# 30/05/2025 (BETA)
 
 - Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*
 
 - Ajout de l'info Data Rate LoRaWAN
 
 - Ajout des commandes *Milesight VS373 - AI Bed & Presence Sensor*
+
+- Ajout du produit *Browan - Tab Temperature & Humidity Sensor*
 
 # 15/05/2025
 
