@@ -4,9 +4,9 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# 
+# 27/05/2025
 
-- )
+- Add panel Chirpstack (List of gateways)
 
 # 10/04/2025
 
