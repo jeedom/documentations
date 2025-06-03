@@ -14,6 +14,8 @@
 
 - Ajout du produit *Browan - Tab Temperature & Humidity Sensor*
 
+- Ajout du produit *RAK 10701 - FIELD TESTER for LoRaWAN*
+
 # 15/05/2025
 
 - Ajout du produit *Dragino CPL03-LB/LS - Capteur de contact sec ouvert/fermé LoRaWAN pour extérieur*
