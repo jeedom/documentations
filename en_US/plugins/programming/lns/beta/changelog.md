@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 
+
+- 
+
 # 27/05/2025
 
 - Add panel Chirpstack (List of gateways)
