@@ -188,6 +188,12 @@ Ensuite, une fois certain que le module en lui-même est bien reconnu et que ses
 
 Pour aller plus loin, vous pouvez actionner physiquement le module et effectuer des captures d'écran des changements de valeurs consécutifs, toujours dans la fenêtre des Valeurs du nœud.
 
+>**INFORMATION**
+>
+>Le traitement d’une demande de support peut nécessiter un certain délai.
+Si vous souhaitez créer le fichier d’intégration de manière autonome, vous pouvez suivre les instructions détaillées dans le [Guide d'intégration](procedure_integration.md).
+
+
 >**IMPORTANT**
 >
 >Nous insistons sur le fait que l'équipe ne traitera, dans un premier temps, que les demandes de configurations de module incluant l'intégralité des éléments demandés ci-dessus et déjà fonctionnelles avec le plugin Openzwave. Il est possible que vous ne puissiez pas ajouter vos captures d'écran à la création du ticket, pas d'inquiétude vous serez en mesure de les transmettre dans un second temps en réponse à votre demande.

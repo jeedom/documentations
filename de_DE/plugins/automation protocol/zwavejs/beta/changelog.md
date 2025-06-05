@@ -8,6 +8,31 @@
 - Remote-Modus hinzugefügt *(Attention: Dadurch wird die Funktionalität des Plugins eingeschränkt)*. Lesen Sie die Dokumentation sorgfältig durch. Der Wechsel in den Remote-Modus hat großen Einfluss auf die Benutzerfreundlichkeit und die Kompatibilität bestimmter Module
 - Unterstützung des mqtts-Protokolls
 
+# 
+
+- 
+
+****
+
+-  : )
+-  : )
+
+# 
+
+****
+- Konfig hinzugefügt ** (Eigenschaften : )
+- Konfig hinzugefügt ** (Eigenschaften : )
+- Konfig hinzugefügt ** (Eigenschaften : )
+- Konfig hinzugefügt ** (Eigenschaften : )
+- Konfig hinzugefügt ** (Eigenschaften : )
+-  : )
+-  : )
+-  : )
+-  : )
+
+
+
+
 # 15.11.2024
 
 - Korrigieren Sie die Abhängigkeitsinstallationsmethode

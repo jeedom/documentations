@@ -8,6 +8,31 @@
 - Modo remoto agregado *(Attention: esto reduce la funcionalidad del complemento)*. Lea atentamente la documentación, cambiar al modo remoto tiene un fuerte impacto en la facilidad de uso y la compatibilidad de ciertos módulos
 - Soporte del protocolo mqtts
 
+# 
+
+- 
+
+****
+
+-  : )
+-  : )
+
+# 
+
+****
+- Configuración añadida ** (propiedades : )
+- Configuración añadida ** (propiedades : )
+- Configuración añadida ** (propiedades : )
+- Configuración añadida ** (propiedades : )
+- Configuración añadida ** (propiedades : )
+-  : )
+-  : )
+-  : )
+-  : )
+
+
+
+
 # 15/11/2024
 
 - Arreglar el método de instalación de dependencia

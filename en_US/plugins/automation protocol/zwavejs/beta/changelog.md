@@ -8,6 +8,31 @@
 - Added remote mode *(Attention: this reduces the functionality of the plugin)*. Read the documentation carefully, switching to remote mode has a strong impact on the ease of use and compatibility of certain modules
 - Support for mqtts protocol
 
+# 
+
+- 
+
+****
+
+-  : )
+-  : )
+
+# 
+
+****
+- Added config ** (properties : )
+- Added config ** (properties : )
+- Added config ** (properties : )
+- Added config ** (properties : )
+- Added config ** (properties : )
+-  : )
+-  : )
+-  : )
+-  : )
+
+
+
+
 # 11/15/2024
 
 - Fixed dependency installation method

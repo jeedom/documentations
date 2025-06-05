@@ -8,6 +8,31 @@
 - Adicionado modo remoto *(Attention: isso reduz a funcionalidade do plugin)*. Leia atentamente a documentação, mudar para o modo remoto tem um forte impacto na facilidade de uso e na compatibilidade de determinados módulos
 - Suporte ao protocolo mqtts
 
+# 
+
+- 
+
+****
+
+-  : )
+-  : )
+
+# 
+
+****
+- Configuração adicionada ** (propriedades : )
+- Configuração adicionada ** (propriedades : )
+- Configuração adicionada ** (propriedades : )
+- Configuração adicionada ** (propriedades : )
+- Configuração adicionada ** (propriedades : )
+-  : )
+-  : )
+-  : )
+-  : )
+
+
+
+
 # 15/11/2024
 
 - Corrigir método de instalação de dependência

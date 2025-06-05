@@ -188,6 +188,12 @@ Then, once certain that the module itself is well recognized and that its values
 
 To go further, you can physically activate the module and take screenshots of the consecutive value changes, still in the Values window of the node.
 
+>**INFORMATION**
+>
+>.
+ [](procedure_integration.md).
+
+
 >**IMPORTANT**
 >
 >We insist on the fact that the team will initially only process requests for module configurations including all the elements requested above and already functional with the Openzwave plugin. You may not be able to add your screenshots when creating the ticket, don't worry you will be able to send them later in response to your request.

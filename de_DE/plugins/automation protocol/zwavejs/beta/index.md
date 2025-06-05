@@ -188,6 +188,12 @@ Sobald Sie sicher sind, dass das Modul selbst gut erkannt wird und dass seine We
 
 Um weiter zu gehen, können Sie das Modul physisch aktivieren und Screenshots der aufeinanderfolgenden Wertänderungen machen, immer noch im Wertefenster des Knotens.
 
+>**INFORMATION**
+>
+>.
+ [](procedure_integration.md).
+
+
 >**WICHTIG**
 >
 >Wir bestehen darauf, dass das Team zunächst nur Anfragen für Modulkonfigurationen bearbeitet, die alle oben angeforderten Elemente enthalten und bereits mit dem Openzwave-Plugin funktionieren. Sie können Ihre Screenshots möglicherweise nicht hinzufügen, wenn Sie das Ticket erstellen. Machen Sie sich keine Sorgen, Sie können sie später als Antwort auf Ihre Anfrage senden.
