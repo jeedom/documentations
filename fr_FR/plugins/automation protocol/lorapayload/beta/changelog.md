@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 30/05/2025 (BETA)
+# 05/06/2025 (BETA)
 
 - Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*
 
@@ -15,6 +15,10 @@
 - Ajout du produit *Browan - Tab Temperature & Humidity Sensor*
 
 - Ajout du produit *RAK 10701 - FIELD TESTER for LoRaWAN*
+
+- Ajout du produit *Dragion WSC2-L -- Station Météo*
+
+- Ajout du produit *Thermokon 811217 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
 
 # 15/05/2025
 
