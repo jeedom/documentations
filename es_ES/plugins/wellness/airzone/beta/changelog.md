@@ -1,3 +1,5 @@
+# 
+
 # Registro de cambios Airzone Web
 
 >**IMPORTANTE**
@@ -12,6 +14,12 @@
 >**IMPORTANTE**
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
+
+
+## 
+
+- )
+
 
 ## 21/03/2025
 
