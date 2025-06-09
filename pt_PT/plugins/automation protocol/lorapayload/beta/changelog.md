@@ -4,7 +4,7 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
-# 05/06/2025 (BETA)
+# )
 
 - Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*
 
@@ -19,6 +19,8 @@
 - Ajout du produit *Dragion WSC2-L -- Station Météo*
 
 - Ajout du produit *Thermokon 811217 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
+
+-  **
 
 # 15/05/2025
 
