@@ -20,7 +20,13 @@
 
 - Ajout du produit *Thermokon 811217 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
 
--  **
+- Correction décoder *TIC LoraWAN*
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+-  *TIC LoraWAN*
 
 # 15/05/2025
 
