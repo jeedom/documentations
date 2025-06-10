@@ -1,4 +1,4 @@
-# 
+# Changelog AirzoneControl
 
 # Changelog Airzone Web
 
@@ -16,9 +16,9 @@
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
 
-## 
+## 06/06/2025
 
-- )
+- Ajout Device IAQ Eqlogic + auto refresh (création auto au scan des zones)
 
 
 ## 21/03/2025
