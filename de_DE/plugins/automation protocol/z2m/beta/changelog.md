@@ -6,7 +6,7 @@
 
 - Possibilité de mettre a jour le firmware de la luna en 8.0.2.0
 - Version de zigbee2mqtt par defaut 2.2.1
-- .
+- Correction d'un soucis visuel sur l'inclusion en z2m 2.3 ou plus
 
 >**WICHTIG**
 >
