@@ -190,8 +190,8 @@ Para ir além, você pode ativar fisicamente o módulo e fazer screenshots das m
 
 >**EM FORMAÇÃO**
 >
->.
- [](procedure_integration.md).
+>Le traitement d'une demande de support peut nécessiter un certain délai.
+Si vous souhaitez créer le fichier d'intégration de manière autonome, vous pouvez suivre les instructions détaillées dans le [Guide d'intégration](procedure_integration.md).
 
 
 >**IMPORTANTE**

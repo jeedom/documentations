@@ -6,8 +6,8 @@
 
 - Better cloud query management
 - Adding event codes to the remote control (space control)
-- 
-- 
+- Ajout de FireProtect2PlusSb
+- Ajout de KeypadTouchscreen
 
 # 07/09/2024
 

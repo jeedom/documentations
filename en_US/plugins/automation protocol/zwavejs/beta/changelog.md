@@ -8,27 +8,32 @@
 - Added remote mode *(Attention: this reduces the functionality of the plugin)*. Read the documentation carefully, switching to remote mode has a strong impact on the ease of use and compatibility of certain modules
 - Support for mqtts protocol
 
-# 
-
-- 
-
-****
-
--  : )
--  : )
 
 # 
 
-****
-- Added config ** (properties : )
-- Added config ** (properties : )
-- Added config ** (properties : )
-- Added config ** (properties : )
-- Added config ** (properties : )
--  : )
--  : )
--  : )
--  : )
+-  **
+
+# 05/06/2025
+
+- Ajout de la procédure d'intégration
+
+**Ajouts de Configuration**
+
+- Added config ** (properties : Power, Energy, Notification Over-Current, Notification Over-Voltage, Notification Heat-Sensor, Notification Alarm-Level, Notification Mains, Indicator)
+- Added config ** (properties : Switch, Notification Alarm-Level, Notification Mains, Indicator, Battery)
+
+# 04/06/2025
+
+**Ajouts de Configuration**
+- Added config *Mco Home MH-S411 Simple* (properties : Switch, Scene, Central Scene)
+- Added config *Remotec ZXT-800* (properties : Air temperature, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Thermostatfanmode, Indicator)
+- Added config *Shelly Qubino Wave 1PM Mini QMSW-0A1P8* (properties : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor, Notification Alarm-Level)
+- Added config *Shelly Qubino Wave 1 Mini QMSW-0A1X8* (properties : Switch, Notification Mains, Notification Heat-Sensor, Notification Alarm-Level)
+- Added config *Heatit Thermostat Z-TEMP3* (properties : Air temperature, Humidity, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Battery, Indicator)
+- Added config ** (properties : Switch, Notification Alarm-Level, Notification Power-Status, Scene, Indicator, Voltage, Power, Energy, Current)
+- Added config ** (properties : Multilevel, Indicator)
+- Added config ** (properties : Motion, Temperature, Luminance, Humidity, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Battery-Maintenance, Indicator)
+- Added config ** (properties : Motion, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Magnetic, Indicator)
 
 
 

@@ -6,8 +6,8 @@
 
 - Bessere Verwaltung von Cloud-Anfragen
 - Ereigniscodes zur Fernbedienung hinzugefügt (Raumsteuerung))
-- 
-- 
+- Ajout de FireProtect2PlusSb
+- Ajout de KeypadTouchscreen
 
 # 07.09.2024
 

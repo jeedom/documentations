@@ -4,7 +4,7 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
-# )
+# 10/06/2025 (BETA)
 
 - Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*
 
@@ -22,11 +22,11 @@
 
 - Correction décoder *TIC LoraWAN*
 
-- Ajout du produit **
+- Ajout du produit *Milesight GS601 - Vape Detector*
 
-- Ajout du produit **
+- Ajout du produit *Milesight WS302 - Sound Contact Switch*
 
--  *TIC LoraWAN*
+- Ajout des commandes Index pour *TIC LoraWAN*
 
 # 15/05/2025
 

@@ -6,8 +6,8 @@
 
 - Melhor gerenciamento de solicitações de nuvem
 - Adicionados códigos de evento ao controle remoto (controle de espaço)
-- 
-- 
+- Ajout de FireProtect2PlusSb
+- Ajout de KeypadTouchscreen
 
 # 09/07/2024
 

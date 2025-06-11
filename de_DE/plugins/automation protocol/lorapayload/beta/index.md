@@ -16,9 +16,10 @@ Gehen Sie zum Menü Plugins / Protokoll, um das Plugin zu finden.
 Auf dieser Seite sehen Sie die bereits enthaltenen Module.
 
 Im oberen Teil dieser Seite haben Sie mehrere Schaltflächen
-
--   Schaltfläche hinzufügen : Ermöglicht das Hinzufügen von Ausrüstung
--   Konfigurationstaste : Diese Schaltfläche öffnet das Plugin-Konfigurationsfenster
+!alt text](image.png)
+-   **Schaltfläche hinzufügen** : Ermöglicht das Hinzufügen von Ausrüstung
+-   **Konfigurationstaste** : Diese Schaltfläche öffnet das Plugin-Konfigurationsfenster
+-   **** : . (  )
 
 # Equipement
 
@@ -40,17 +41,19 @@ Sie haben auch zwei zusätzliche Registerkarten:
 -   Eine Registerkarte „Aufträge“ (hier finden Sie die Bedienelemente für Ihre Ausrüstung – diese Registerkarte ist Standard bei Jeedom)
 
 # Ausrüstung hinzufügen
+!alt text](image-1.png)
+.
 
-Klicken Sie einfach auf die Schaltfläche Hinzufügen und wählen Sie einen Namen.
-
-Anschließend können Sie das übergeordnete Objekt konfigurieren, das Gerät aktivieren, eine oder mehrere Kategorien auswählen und das Gerät sichtbar machen oder nicht.
+.
 
 Auf der rechten Seite ist es wichtig, die Art der Ausrüstung zu wählen. So können Sie den Frame analysieren.
 
-Die Registerkarte Payload ist sehr wichtig :
-
--   Sie müssen den info-Befehl auswählen, der die Nutzdaten empfängt (ob MQTT oder andere .))
--   Sie müssen wählen, ob das Nutzlastformat Hexadezimal oder Base64 ist
+ :
+!alt text](image-2.png)
+-    )
+-   .
+-   .
+-   .
 
 
 Sobald Sie fertig sind, können Sie speichern. Danach werden die Befehle für Ihr Gerät aktualisiert, wenn Sie das nächste Mal einen Frame erhalten
@@ -65,6 +68,283 @@ Dans l'onglet Equipement du plugin LoraPayload :
 - Vous devez choisir si voulez avoir une confirmation (Ack). C'est une information remontée dans MQTT sur un topic dédié qui n'influence pas les données remontées.
 
 Concernant la commande d'envoi, dans le cas d'utilisation de MQTT, c'est une commande dans MQTT de type Action et de sous-type Message. Le topic est le topic dédié aux downlinks et la valeur de la commande est #message#.
+---
+# )
+
+ **** .
+
+---
+
+##  
+
+1. **** :  
+     
+   Exemple:  
+   -   
+   - 
+
+2. ****:  
+   
+
+3. ****.
+
+---
+
+## 
+
+Remplacer:
+js
+) {
+    
+}
+ 
+) {
+    
+    
+}
+
+
+---
+
+## 
+
+Remplacer:
+js
+) {
+
+}
+ 
+) {
+    
+}
+
+##  
+:
+js
+ = {
+    Decode,
+    Encode
+}
+
+## 
+
+1. ****  ``/var/www/html/plugins/lorapayload/core/config/devices/ `` ``.js``).
+
+:
+
+- 
+
+- : )
+
+##  
+json
+{
+  "": {
+    "name": " 
+    "groupe": "
+    "configuration": {
+      "type": "",
+      "language": ")
+      "deviceProfile": ")
+    },
+    "commands": 
+      {
+        "name": " 
+        "type": ")
+        "subtype": "
+        "isVisible": 
+        "isHistorized": 
+        "unite": "
+        "logicalId": "parsed::)
+      },
+      {
+        "name": "
+        "type": "info",
+        "subtype": "numeric",
+        "isVisible": 0,
+        "isHistorized": 0,
+        "unite": "",
+        "logicalId": " 
+      },
+      {
+        "name": "Reboot",
+        "type": ")
+        "subtype": "other",
+        "isVisible": 1,
+        "logicalId": "encoder::reboot::::<fonction>::<valeur>)
+      },
+      {
+        "name": "",
+        "type": "action",
+        "subtype": "
+        "isVisible": 1,
+        "logicalId": "encoder::",
+        "configuration": {
+          "minValue": 1,
+          "maxValue": 5000,
+          "step": 1
+        }
+      },
+      {
+        "name": "",
+        "type": "info",
+        "subtype": "string",
+        "isVisible": 0,
+        "isHistorized": 0,
+        "logicalId": "
+      }
+    ],
+    "compatibility": 
+      {
+        "manufacturer": "Milesight",
+        "name": "GS601",
+        "doc": "",
+        "type": "",
+        "remark": "",
+        "inclusion": "",
+        "imglink": ""
+      }
+    ]
+  }
+}
+
+
+### ?
+.
+
+#### 
+- ****: .
+
+- ****: : ).
+
+- **Aufbau**:
+
+    - `type`: .
+
+    - `language`: .
+
+    - `deviceProfile`: ).
+
+- ****: ).
+
+    - ****:
+
+        - `info`: ).
+
+        - `action`: ).
+
+- ****:
+
+    - `numeric`: .
+
+    - `string`: .
+
+    - `binary`: .
+
+    - : .
+
+    - `other`: .
+
+- ****: ).
+
+- ****: ).
+(")
+
+- ****: ).
+
+- ****:
+
+    - : ``parsed::nom_de_la_variable`` (.)
+
+    - : 
+        js
+        encoder::<fonction>::<valeur>
+        
+        ou
+         
+        encoder::<fonction>
+         
+        (: slider)
+
+    - : ``"logicalId": "payload"``
+
+- ****: .
+
+##### 
+- : : ``decoded.temperature ⇒ "parsed::temperature"``).
+
+- .
+
+- .).
+
+- .
+
+
+
+## 
+
+- : 
+
+- : ``milesight_gs601.png``)
+---
+# ?
+.
+
+    - Regarde le tableau  la section “Commandes downlink”  “Aufbau via payload”,
+
+    - .
+
+.
+
+    - .
+
+ | (.
+
+4. (**): .
+
+
+:
+
+|                 |  |                     |
+| -------------------- | ----------------- | ------------------------------ |
+|                |               | 0: :       |
+|  |            | 1: : ... |
+|        |             |                           |
+|        |             |                           |
+
+json
+{
+  "": {
+    "enable": 1,
+    "": 2,
+    "": 30,
+    "": 40
+  }
+}
+
+-  :
+|2|30|
+
+# Panel
+
+##  ?
+
+-  **** ( ****.
+-  :
+  -  **** .
+
+- .
+!alt text](image-3.png)
+
+---
+## 
+
+-  :
+!alt text](image-4.png)
+!alt text](image-9.png)
+---
+
+
 
 # FAQ
 

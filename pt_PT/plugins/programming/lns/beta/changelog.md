@@ -4,9 +4,9 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# 
+# 02/06/2025
 
-- 
+- Set log level to error
 
 # 27/05/2025
 

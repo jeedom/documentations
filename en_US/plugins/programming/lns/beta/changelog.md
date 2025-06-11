@@ -4,9 +4,9 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 
+# 02/06/2025
 
-- 
+- Set log level to error
 
 # 27/05/2025
 

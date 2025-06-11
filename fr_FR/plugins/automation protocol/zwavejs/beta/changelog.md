@@ -8,14 +8,19 @@
 - Ajout du mode distant *(Attention: cela réduit les fonctionnalités du plugin)*. Bien lire la documentation, le passage en mode distant à un fort impact sur la simplicité d'utilisation et la compatibilité de certains modules
 - Support du protocole mqtts
 
+
+# 10/06/2025
+
+- Mise à jour de la configuration *Mco Home MH-S412 double*
+
 # 05/06/2025
 
 - Ajout de la procédure d'intégration
 
 **Ajouts de Configuration**
 
-- Ajout de la configuration shellyqubino WAVE_PM_MINI - WAVE PM Mini - Relay (propriétés : Power, Energy, Notification Over-Current, Notification Over-Voltage, Notification Heat-Sensor, Notification Alarm-Level, Notification Mains, Indicator)
-- Ajout de la configuration Zooz ZAC38 - ZAC38 - Range extender (propriétés : Switch, Notification Alarm-Level, Notification Mains, Indicator, Battery)
+- Ajout de la configuration *Shelly Qubino WAVE_PM_MINI - WAVE PM Mini - Relay* (propriétés : Power, Energy, Notification Over-Current, Notification Over-Voltage, Notification Heat-Sensor, Notification Alarm-Level, Notification Mains, Indicator)
+- Ajout de la configuration *Zooz ZAC38 - ZAC38 - Range extender* (propriétés : Switch, Notification Alarm-Level, Notification Mains, Indicator, Battery)
 
 # 04/06/2025
 
@@ -25,10 +30,10 @@
 - Ajout de la configuration *Shelly Qubino Wave 1PM Mini QMSW-0A1P8* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor, Notification Alarm-Level)
 - Ajout de la configuration *Shelly Qubino Wave 1 Mini QMSW-0A1X8* (propriétés : Switch, Notification Mains, Notification Heat-Sensor, Notification Alarm-Level)
 - Ajout de la configuration *Heatit Thermostat Z-TEMP3* (propriétés : Air temperature, Humidity, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Battery, Indicator)
-- Ajout de la configuration Zooz ZEN15 - Power Switch (propriétés : Switch, Notification Alarm-Level, Notification Power-Status, Scene, Indicator, Voltage, Power, Energy, Current)
-- Ajout de la configuration Zooz ZEN54_LR - 0-10V Dimmer (propriétés : Multilevel, Indicator)
-- Ajout de la configuration Zooz ZES11 - ZSE 11 - Q SENSOR (propriétés : Motion, Temperature, Luminance, Humidity, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Battery-Maintenance, Indicator)
-- Ajout de la configuration Zooz ZES18 - ZSE 18 - MOTION SENSOR (propriétés : Motion, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Magnetic, Indicator)
+- Ajout de la configuration *Zooz ZEN15 - Power Switch* (propriétés : Switch, Notification Alarm-Level, Notification Power-Status, Scene, Indicator, Voltage, Power, Energy, Current)
+- Ajout de la configuration *Zooz ZEN54_LR - 0-10V Dimmer* (propriétés : Multilevel, Indicator)
+- Ajout de la configuration *Zooz ZES11 - ZSE 11 - Q SENSOR* (propriétés : Motion, Temperature, Luminance, Humidity, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Battery-Maintenance, Indicator)
+- Ajout de la configuration *Zooz ZES18 - ZSE 18 - MOTION SENSOR* (propriétés : Motion, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Magnetic, Indicator)
 
 
 

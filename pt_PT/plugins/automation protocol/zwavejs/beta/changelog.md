@@ -8,27 +8,32 @@
 - Adicionado modo remoto *(Attention: isso reduz a funcionalidade do plugin)*. Leia atentamente a documentação, mudar para o modo remoto tem um forte impacto na facilidade de uso e na compatibilidade de determinados módulos
 - Suporte ao protocolo mqtts
 
-# 
-
-- 
-
-****
-
--  : )
--  : )
 
 # 
 
-****
-- Configuração adicionada ** (propriedades : )
-- Configuração adicionada ** (propriedades : )
-- Configuração adicionada ** (propriedades : )
-- Configuração adicionada ** (propriedades : )
-- Configuração adicionada ** (propriedades : )
--  : )
--  : )
--  : )
--  : )
+-  **
+
+# 05/06/2025
+
+- Ajout de la procédure d'intégration
+
+**Ajouts de Configuration**
+
+- Configuração adicionada ** (propriedades : Power, Energy, Notification Over-Current, Notification Over-Voltage, Notification Heat-Sensor, Notification Alarm-Level, Notification Mains, Indicator)
+- Configuração adicionada ** (propriedades : Switch, Notification Alarm-Level, Notification Mains, Indicator, Battery)
+
+# 04/06/2025
+
+**Ajouts de Configuration**
+- Configuração adicionada *Mco Home MH-S411 Simple* (propriedades : Switch, Scene, Central Scene)
+- Configuração adicionada *Remotec ZXT-800* (propriedades : Air temperature, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Thermostatfanmode, Indicator)
+- Configuração adicionada *Shelly Qubino Wave 1PM Mini QMSW-0A1P8* (propriedades : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor, Notification Alarm-Level)
+- Configuração adicionada *Shelly Qubino Wave 1 Mini QMSW-0A1X8* (propriedades : Switch, Notification Mains, Notification Heat-Sensor, Notification Alarm-Level)
+- Configuração adicionada *Heatit Thermostat Z-TEMP3* (propriedades : Air temperature, Humidity, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Battery, Indicator)
+- Configuração adicionada ** (propriedades : Switch, Notification Alarm-Level, Notification Power-Status, Scene, Indicator, Voltage, Power, Energy, Current)
+- Configuração adicionada ** (propriedades : Multilevel, Indicator)
+- Configuração adicionada ** (propriedades : Motion, Temperature, Luminance, Humidity, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Battery-Maintenance, Indicator)
+- Configuração adicionada ** (propriedades : Motion, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Magnetic, Indicator)
 
 
 
