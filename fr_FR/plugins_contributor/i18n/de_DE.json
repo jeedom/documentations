@@ -1488,6 +1488,9 @@
         "luminothérapie": "Lichttherapie",
         "Ce plugin permet de gérer et créer vos ambiances Lumineuse \/ Couleur": "Mit diesem Plugin können Sie Ihre Licht-\/Farbatmosphären verwalten und erstellen",
         "Communication avec le module Klereo connect pour gérer votre piscine": "Communication avec le module Klereo connect pour gérer votre piscine",
+        "Ce plugin est en BETA, incomplet et peut contenir des bugs": "",
+        "Intex Spa": "",
+        "Plugin pour gérer les spas Intex depuis le réseau local via WIFI": "",
         "Gestion Humidité": "Feuchtigkeitsmanagement",
         "Plugin pour la gestion de l'humidité grâce à un humidificateur ou déshumidificateur d'air": "Plugin für das Feuchtigkeitsmanagement dank Luftbefeuchter oder Luftentfeuchter",
         "Très sympa pour donner l'horoscope le matin à une personne via TTS (par exemple avec la caméra Netatmo qui reconnait les visages) ou par SMS": "Sehr schön, das Horoskop morgens einer Person per TTS (zum Beispiel mit der Netatmo-Kamera, die Gesichter erkennt) oder per SMS zu übermitteln",
@@ -1524,6 +1527,7 @@
         "Le plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings": "Das Plugin ermöglicht die Erfassung von Informationen aus Ihrer Installation und die Ausführung der meisten verfügbaren Aktionen (Anweisungen, Zeitpläne",
         "Le serveur HSX récupère les informations de ses chauffe-eau connectés parmi MCX 3-7, CEX\/CFX, DEX, DSX, DSX Touch, DSX Twin": "Der HSX-Server ruft Informationen von seinen angeschlossenen Warmwasserbereitern wie MCX 3-7, CEX\/CFX, DEX, DSX, DSX Touch, DSX Twin ab",
         "Les informations qui remontent dans l'application Smart Control (iOS, Android) remontent également dans le plugin": "Die Informationen, die auf die Smart Control-Anwendung (iOS, Android) zurückgehen, gehen auch auf das Plugin zurück",
+        "Les commandes reproduisent les actions de la tablette sans fil, tout en respectant les sécurités internes d'Intex (notamment pour le chauffage": "",
         "Le plugin permet l'acquisition des informations de  votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings": "Das Plugin ermöglicht die Erfassung von Informationen aus Ihrer Installation und die Ausführung der meisten verfügbaren Aktionen (Anweisungen, Zeitpläne",
         "L'actualisation se fait via API et par retours webhook": "Die Aktualisierung erfolgt über API und Webhook-Rückgaben",
         "Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler": "In Jeedom ist es möglich, den Status aller angeschlossenen Geräte zu verfolgen und zu steuern",
@@ -1611,6 +1615,13 @@
         " Market]": " Markt]",
         "[Market]": "[Markt]",
         "*Market*": "*Markt*",
-        " Market*": " Markt*"
+        " Market*": " Markt*",
+        " ATTENTION.": " .",
+        " ATTENTION?": " ?",
+        "ATTENTION ": " ",
+        " ATTENTION]": " ]",
+        "[ATTENTION]": "[]",
+        "*ATTENTION*": "**",
+        " ATTENTION*": " *"
     }
 }
