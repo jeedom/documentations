@@ -13,7 +13,7 @@
 
 ````php
 $replace = $this->preToHtml($_version)
-Wenn (!)) {
+ (!)) {
 	
 }
 ````
@@ -21,13 +21,13 @@ Wenn (!)) {
 La fonction preToHtml renvoi :
 
 - une string si le widget est en cache (si il est en cache, c'est qu'il n'y a pas eu de changements depuis la dernière génération donc autant le renvoyer tout de suite)
-- un tableau avec les replaces principaux, vous avez la liste [Hier](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
+- un tableau avec les replaces principaux, vous avez la liste [](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
 ## Le système de template
 
 Le système de template de widget dans le code est en fait exactement le même que celui sur la page Outils -> Widget de jeedom.
 
-VoHier un exemple :
+Vo un exemple :
 
 ````php
 (){
@@ -40,11 +40,11 @@ VoHier un exemple :
 			array('operation' => '#value# > 3 || #value# < 2','state_light' => '<i class="fa fa-home"></i>','state_dark' => '<i class="fa fa-home"></i>')
 		)
 	)
-	zurückgeben $return;
+	
 }
 ````
 
- [Hier](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) .
+ [](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) .
 
 > ****
 >
@@ -52,7 +52,7 @@ VoHier un exemple :
 
 . .
 
-Beispiel :  #\_state_# (>
+ :  #\_state_# (>
 
  :
 
@@ -66,7 +66,7 @@ Beispiel :  #\_state_# (>
 			'#_icon_off_#' => '<i class=\'icon_red icon jeedom-porte-ouverte\'></i>'
 			)
 	)
-	zurückgeben $return;
+	
 }
 ````
 

@@ -4,7 +4,7 @@
 
 # Exemples
 
-```json
+json
 {
   "apt" : {
     "git" : {},
@@ -35,9 +35,9 @@
     "script" : ""
   }
 }
-```
 
-```json
+
+json
 {
   "apt" : {
     "libav-tools" : {"alternative" : "]},
@@ -49,9 +49,9 @@
     "" : true
   }
 }
-```
 
-```json
+
+json
 {
   "apt" : {
     "" : {},
@@ -74,9 +74,9 @@
     "bellows" : {"reinstall" : true}
   }
 }
-```
 
-```json
+
+json
 {
   "apt" : {
     "nodejs" : {}
@@ -85,7 +85,7 @@
     ""  : {}
   }
 }
-```
+
 
  : ``apt``, `` (npm)`` , ``pip2``  ``pip3``, .
 
@@ -95,5 +95,5 @@
 
 .  :
 
-- es handelt sich um einen Paketnamen, in diesem Fall wird es global auf dem System installiert
-- es ist ein Pfad in diesem Fall platziert sich jeedom in das betreffende Verzeichnis und startet eine npm-Installation (mit Löschung des Verzeichnisses ``node_modules``)
+- 
+-  ``node_modules``)
