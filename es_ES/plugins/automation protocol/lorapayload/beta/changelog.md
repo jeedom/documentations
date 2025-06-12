@@ -4,7 +4,7 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
-# 10/06/2025 (BETA)
+# )
 
 - Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*
 
@@ -20,13 +20,17 @@
 
 - Ajout du produit *Thermokon 811217 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
 
-- Correction décoder *TIC LoraWAN*
+- Corrección del decodificador *TIC LoraWAN*
 
 - Ajout du produit *Milesight GS601 - Vape Detector*
 
 - Ajout du produit *Milesight WS302 - Sound Contact Switch*
 
 - Ajout des commandes Index pour *TIC LoraWAN*
+
+- 
+
+- Corrección del decodificador *TIC LoraWAN*
 
 # 15/05/2025
 

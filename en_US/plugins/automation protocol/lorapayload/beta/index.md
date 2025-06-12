@@ -16,10 +16,10 @@ Go to the plugins / protocol menu to find the plugin.
 On this page you can see the modules already included.
 
 On the upper part of this page you have several buttons
-!alt text](image.png)
+![alt text](image.png)
 -   **Add button** : Allows you to add equipment
 -   **Configuation button** : This button opens the plugin configuration window
--   **** : . (  )
+-   **Bonton Génération automatique** : Permet d'ajouter un nouvel équipement dans jeedom et sur chirpstack. ( Recommandé pour l'ajout d'équipement )
 
 # Equipement
 
@@ -41,19 +41,19 @@ You also have two additional tabs:
 -   An Orders tab (this is where you will find the controls corresponding to your equipment - this tab is standard at Jeedom)
 
 # Adding equipment
-!alt text](image-1.png)
-.
-
-.
+![alt text](image-1.png)
+Il suffit de cliquer sur le bouton `Génération automatique` et de choisir un nom.
+Ensuite vous pouvez configurer l'objet Parent, renseigner le Dev EUI l'app Key, l'application pour chirpstack
+Pour configurer, activer l'équipement, choisir une ou des catégories, et rendre l'équipement visible ou non.
 
 It is important on the right side to choose the type of equipment. This is what will allow us to know how to parse the frame.
 
- :
-!alt text](image-2.png)
--    )
--   .
--   .
--   .
+L'onglet LoRaWAN est très important :
+![alt text](image-2.png)
+-   Vous devez choisir la commande info qui reçoit le payload que ce soit MQTT ou autres ( important si vous avez utilisé le bouton `Ajouter` sinon avec `Génération automatique` tout est généré automatiquement )
+-   Vous pouvez choisir si le format du payload est en Hexadécimal ou Base64.
+-   Avec Euqueue downlink payload, vous pouvez envoyer des downlinks manuellement.
+-   Il est important de `Regénérer la configuration LoRaWAN` via le bouton bleu qui porte le même nom car à chaque fois que vous Recréer les commandes dans l'onglet Equipement celles-ci ajoutent les commandes LoRaWAN nécessaire pour le bon fonctionnement du plugins.
 
 
 Once done you can save. Following this, the next time you receive a frame, the commands for your equipment will update
@@ -69,116 +69,116 @@ In the LoraPayload plugin's Equipment tab :
 
 The send command, when used with MQTT, is an MQTT command of type Action and sub-type Message. The topic is the topic dedicated to downlinks and the value of the command is #message#.
 ---
-# )
+# Ajouter un nouveau capteur Milesight (downlink/uplink)
 
- **** .
-
----
-
-##  
-
-1. **** :  
-     
-   Exemple:  
-   -   
-   - 
-
-2. ****:  
-   
-
-3. ****.
+Cette section détaille **l'ajout de la configuration et de la gestion des commandes (uplink/downlink) pour un capteur Milesight** dans le plugin LoraPayload.
 
 ---
 
-## 
+## 1. Ajout des fichiers d'encodage/décodage 
 
-Remplacer:
-js
-) {
-    
-}
- 
-) {
-    
-    
-}
+1. **Créer un fichier JavaScript** nommé selon la convention suivante :  
+   `milesight_modele.js`  
+   Exemple :  
+   - `milesight_WT101.js`  
+   - `milesight_GS601.js`
 
+2. **Déposer ce fichier dans** :  
+   `/var/www/html/plugins/lorapayload/resources/lorapayload/payloads/`
+
+3. **Fusionner le code d'encodage (encoder) et décodage (decoder) dans ce même fichier**.
 
 ---
 
-## 
+## 2. Adapter la fonction Decode
 
-Remplacer:
-js
-) {
-
+Remplacer :
+```js
+function Decode(fPort, bytes) {
+    return milesightDeviceDecode(bytes);
 }
- 
-) {
-    
+Par 
+function Decode(input) {
+    bytes = input.bytes;
+    return milesightDeviceDecode(bytes);
 }
+```
 
-##  
-:
-js
- = {
+---
+
+## 3. Adapter la fonction Encoder
+
+Remplacer :
+```js
+function Encode(fPort, obj, variables) {
+return milesightDeviceEncode(obj);
+}
+Par 
+function Encode(obj) {
+    return milesightDeviceEncode(obj);
+}
+```
+## 4. Explorter les fonctions 
+A la fin du fichier, ajouter:
+```js
+module.exports = {
     Decode,
     Encode
-}
+};
+```
+## 5. Déclaration du capteur dans la configuration
 
-## 
+1. **Créer un dossier** dans ``/var/www/html/plugins/lorapayload/core/config/devices/ ``qui porte le même nom que votre fichier d'encodage/décodage (sans l'extension ``.js``).
 
-1. ****  ``/var/www/html/plugins/lorapayload/core/config/devices/ `` ``.js``).
+2. Ajouter dans ce dossier :
 
-:
+- Un fichier JSON de configuration du même nom que le JS
 
-- 
+- Une image PNG du capteur (format recommandé : 250x250 px)
 
-- : )
-
-##  
-json
+## 6. Exemple de configuration JSON pour un capteur Milesight 
+```json
 {
-  "": {
-    "name": " 
-    "groupe": "
+  "milesight_GS601": {
+    "name": "Milesight GS601 - Vape Detector",  // Modele + Nom du capteur 
+    "groupe": "Milesight",      //Nom du Fabricant
     "configuration": {
-      "type": "",
-      "language": ")
-      "deviceProfile": ")
+      "type": "milesight_GS601",
+      "language": "js",         // Indique que l'encodeur/décodeur est en JS (sinon omettre)
+      "deviceProfile": "C"      // Indique que le profil LoRaWAN du device est "Class C" (sinon omettre)
     },
-    "commands": 
+    "commands": [
       {
-        "name": " 
-        "type": ")
-        "subtype": "
-        "isVisible": 
-        "isHistorized": 
-        "unite": "
-        "logicalId": "parsed::)
+        "name": "Température",  // Nom 
+        "type": "info",         // Commande info = remonte une info du capteur (uplink)
+        "subtype": "numeric",   // numeric/string/binary selon la donnée
+        "isVisible": 1,         // 1 = visible, 0 = cachée
+        "isHistorized": 1,      // 1 = historisé, 0 = non historisé
+        "unite": "°C",          // Unité d'affichage
+        "logicalId": "parsed::temperature" // Doit correspondre à la variable dans le JS (decoded.temperature)
       },
       {
-        "name": "
+        "name": "fPort",        // Toujours préciser le fPort
         "type": "info",
         "subtype": "numeric",
         "isVisible": 0,
         "isHistorized": 0,
         "unite": "",
-        "logicalId": " 
+        "logicalId": "fport" // Port utilisé pour communiquer 
       },
       {
         "name": "Reboot",
-        "type": ")
+        "type": "action",        // Commande action = envoi une commande vers le capteur (downlink)
         "subtype": "other",
         "isVisible": 1,
-        "logicalId": "encoder::reboot::::<fonction>::<valeur>)
+        "logicalId": "encoder::reboot::1" // Format pour envoyer une commande d'action (encoder::<fonction>::<valeur>)
       },
       {
-        "name": "",
+        "name": "Set report interval",
         "type": "action",
-        "subtype": "
+        "subtype": "slider",     // slider/other selon le type d'action
         "isVisible": 1,
-        "logicalId": "encoder::",
+        "logicalId": "encoder::report_interval",
         "configuration": {
           "minValue": 1,
           "maxValue": 5000,
@@ -186,162 +186,162 @@ json
         }
       },
       {
-        "name": "",
+        "name": "Payload brut",
         "type": "info",
         "subtype": "string",
         "isVisible": 0,
         "isHistorized": 0,
-        "logicalId": "
+        "logicalId": "payload"   // Pour afficher le payload reçu tel quel
       }
     ],
-    "compatibility": 
+    "compatibility": [
       {
         "manufacturer": "Milesight",
         "name": "GS601",
         "doc": "",
-        "type": "",
+        "type": "milesight_GS601",
         "remark": "",
         "inclusion": "",
-        "imglink": ""
+        "imglink": "milesight_GS601"
       }
     ]
   }
 }
 
+```
+### Comment écrire le fichier de configuration JSON?
+Le fichier de configuration JSON permet de décrire chaque capteur (uplink et downlink), d'associer les variables décodées, de définir les commandes d'action, et d'assurer l'affichage correct dans Jeedom.
 
-### ?
-.
+#### Explication des champs principaux
+- **name**: Nom lisible du capteur.
 
-#### 
-- ****: .
+- **groupe** : Nom du fabricant (ex: Milesight, Dragino, etc).
 
-- ****: : ).
+- **Configuration** :
 
-- **Configuration**:
+    - `type` : Doit correspondre au nom du fichier, en minuscule.
 
-    - `type`: .
+    - `language` : Mettre "js" si le décodeur est en JavaScript, sinon ne pas mettre ce champ.
 
-    - `language`: .
+    - `deviceProfile` : Mettre "C" si le capteur est en LoRaWAN Class C (optionnel).
 
-    - `deviceProfile`: ).
+- **commands** : Tableau listant toutes les commandes liées au capteur (infos ou actions).
 
-- ****: ).
+    - **type** :
 
-    - ****:
+        - `info` : Pour une variable reçue (uplink).
 
-        - `info`: ).
+        - `action` : Pour une commande à envoyer (downlink).
 
-        - `action`: ).
+- **subtype** :
 
-- ****:
+    - `numeric` : valeur numérique.
 
-    - `numeric`: .
+    - `string` : texte.
 
-    - `string`: .
+    - `binary` : binaire.
 
-    - `binary`: .
+    - `slider/slide` : pour les commandes actions avec valeur à faire varier.
 
-    - : .
+    - `other` : action simple sans argument.
 
-    - `other`: .
+- **isVisible** : Affichage de la commande (1 = oui, 0 = non).
 
-- ****: ).
+- **isHistorized** : Historisation de la commande (1 = oui, 0 = non).
+(Utilisé uniquement pour type "info")
 
-- ****: ).
-(")
+- **unite** : Unité d'affichage (optionnel pour les valeurs numériques).
 
-- ****: ).
+- **logicalId** :
 
-- ****:
+    - Pour une info : ``parsed::nom_de_la_variable`` (récupérée dans la partie `decoded.` du JS)
 
-    - : ``parsed::nom_de_la_variable`` (.)
-
-    - : 
-        js
+    - Pour une action downlink : 
+        ```js
         encoder::<fonction>::<valeur>
-        
+        ```
         ou
-         
+        ```js 
         encoder::<fonction>
-         
-        (: slider)
+        ``` 
+        (si la valeur est définie dynamiquement, ex: slider)
 
-    - : ``"logicalId": "payload"``
+    - Pour afficher le payload reçu tel quel : ``"logicalId": "payload"``
 
-- ****: .
+- **compatibility** : Tableau listant les capteurs compatibles, le fabricant, le type, et le lien image.
 
-##### 
-- : : ``decoded.temperature ⇒ "parsed::temperature"``).
+##### Bonnes pratiques
+- Respecter les noms de variables : le champ `logicalId` doit strictement correspondre au nom exposé dans la fonction de décodage du JS (ex: ``decoded.temperature ⇒ "parsed::temperature"``).
 
-- .
+- Toujours indiquer la commande d'action de façon claire pour faciliter la gestion des downlinks.
 
-- .).
+- Mettre toutes les unités pour chaque mesure si besoin (°C, %, V, etc.).
 
-- .
+- Ajouter la compatibilité (fabricant, modèle, image) pour faciliter l'identification dans Jeedom.
 
 
 
-## 
+## Ajouter l'image du capteur
 
-- : 
+- Format recommandé : PNG, 250x250 px
 
-- : ``milesight_gs601.png``)
+- Nommez le fichier comme votre capteur (ex : ``milesight_gs601.png``)
 ---
-# ?
-.
+# Comment faire pour choisir la bonne structure pour les sous-types messages ?
+1. Consulte la documentation officielle du capteur ou de l'API.
 
-    - Regarde le tableau  la section “Commandes downlink”  “Configuration via payload”,
+    - Regarde le tableau ou la section “Commandes downlink” ou “Configuration via payload”,
 
-    - .
+    - Repère les champs attendus, leur ordre, les valeurs acceptées, les unités, etc.
 
-.
+2. Note l'exemple de payload dans la doc.
 
-    - .
+    - Parfois c'est un tableau, parfois un JSON d'exemple.
 
- | (.
+3. Prépare la chaîne de valeurs à envoyer dans le bon ordre, séparées par | (comme vu plus haut), ou sous forme de JSON si l'outil le demande.
 
-4. (**): .
+4. (*Facultatif*) : Si tu es un utilisateur avancé, tu peux regarder le code pour vérifier le mapping pour écrire le message.
 
+Exemple Concret
+Supposons, dans la documentation Milesight, tu trouves ce tableau :
 
-:
-
-|                 |  |                     |
+| Champ                | Valeurs possibles | Description                    |
 | -------------------- | ----------------- | ------------------------------ |
-|                |               | 0: :       |
-|  |            | 1: : ... |
-|        |             |                           |
-|        |             |                           |
+| enable               | 0, 1              | 0: Désactiver, 1: Activer      |
+| threshold\_condition | 1,2,3,4           | 1: en-dessous, 2: au-dessus... |
+| threshold\_min       | 0\~100            | En °C                          |
+| threshold\_max       | 0\~100            | En °C                          |
 
-json
+```json
 {
-  "": {
+  "temperature_alarm_settings": {
     "enable": 1,
-    "": 2,
-    "": 30,
-    "": 40
+    "threshold_condition": 2,
+    "threshold_min": 30,
+    "threshold_max": 40
   }
 }
-
--  :
-|2|30|
+```
+- Commande à passer dans le message :
+`"1|2|30|40"`
 
 # Panel
 
-##  ?
+## Qu'est-ce que le panel Lorapayload ?
 
--  **** ( ****.
--  :
-  -  **** .
+- Le **panel Lorapayload** (LoRaWAN Network Server) est une interface disponible dans Jeedom qui **centralise les informations des capteurs venant de votre réseau LoRaWAN**.
+- Il affiche :
+  - La liste **complète des capteurs connectées** au serveur LNS leurs statuts en temps réel.
 
-- .
-!alt text](image-3.png)
+- Pour l'afficher, il faut se rendre dans la configuration du plugin Lorapayload, elle se trouve en bas a droite.
+![alt text](image-3.png)
 
 ---
-## 
+## Visualisation dans Jeedom
 
--  :
-!alt text](image-4.png)
-!alt text](image-9.png)
+- Accède à ces panels depuis l'interface Jeedom :
+![alt text](image-4.png)
+![alt text](image-9.png)
 ---
 
 
