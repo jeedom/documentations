@@ -1,4 +1,4 @@
-## .4 | 
+## Core v4.4 | Plugin-Entwickler
 
 ###  ...
 
@@ -20,11 +20,11 @@
 
 <details>
 
-  <summary markdown="span">jQuery to pure js()<summary>
+  <summary markdown="span">jQuery to pure js()</summary>
 
   
   {% raw %}
-  jQuery:
+  //jQuery:
   $('#table_objectSummary tbody').append(tr)
   $('#table_objectSummary tbody tr').last().setValues(_summary, '.objectSummaryAttr')
 
@@ -32,7 +32,7 @@
   ').)
   ().')
 
-  jQuery:
+  //jQuery:
   ()
   ]
   ')
@@ -42,7 +42,7 @@
   ]
   ')
 
-  jQuery:
+  //jQuery:
   addMyTr: ) {
     >'
     >'
@@ -67,7 +67,7 @@
     
   }
 
-  jQuery:
+  //jQuery:
   $(function(){
     !')
   })
@@ -80,17 +80,17 @@
   {% endraw %}
   
 
-<details>
+</details>
 
 .. ..
 
 :
 
-[](/de_DE/devcorejsindex)
+[](/de_DE/dev/corejs/index)
 
-[ {}](https:github.comjeedomcoreblobalphacoredomdom.utils.js)
+[ {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)
 
-[](https:github.comjeedomcoreblobalphacoredomdom.ui.js)
+[](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 
 
@@ -113,7 +113,7 @@
 
 #### 
 
- ** . . [](https:flatpickr.js.org).
+ ** . . [](https://flatpickr.js.org/).
 
  ** .
 
@@ -121,13 +121,13 @@
 
 <details>
 
-  <summary markdown="span">datetime pickers<summary>
+  <summary markdown="span">date/time pickers</summary>
 
   
   {% raw %}
-  <input id="myDate" class="in_datepicker">
-  <input id="myTime" class="in_timepicker">
-  <input id="myCustomDatetime">
+  <input id="myDate" class="in_datepicker"/>
+  <input id="myTime" class="in_timepicker"/>
+  <input id="myCustomDatetime"/>
   {% endraw %}
   
 
@@ -140,7 +140,7 @@
   {% endraw %}
   
 
-<details>
+</details>
 
 
 
@@ -150,154 +150,154 @@
 
 #### :
 
-`eqLogic::::  
+`eqLogic::byTypeAndSearhConfiguration()` -> `eqLogic::byTypeAndSearchConfiguration()`  
 
-#### ):
+#### Js-Funktionen (verfügbar seit Core4.2):
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+`jeedom.eqLogic.builSelectCmd` -> `jeedom.eqLogic.buildSelectCmd`  
+`checkPageModified` -> `jeedomUtils.checkPageModified`  
+`loadPage` -> `jeedomUtils.loadPage`  
+`initPage` -> `jeedomUtils.initPage`  
+`initTooltips` -> `jeedomUtils.initTooltips`  
+`initTableSorter` -> `jeedomUtils.initTableSorter`  
+`initHelp` -> `jeedomUtils.initHelp`  
+`datePickerInit` -> `jeedomUtils.datePickerInit`  
+`normTextLower` -> `jeedomUtils.normTextLower`  
+`sleep` -> `jeedomUtils.sleep`  
+`uniqId` -> `jeedomUtils.uniqId`  
+`taAutosize` -> `jeedomUtils.taAutosize`  
+`hexToRgb` -> `jeedomUtils.hexToRgb`  
+`componentToHex` -> `jeedomUtils.componentToHex`  
+`rgbToHex` -> `jeedomUtils.rgbToHex`  
+`addOrUpdateUrl` -> `jeedomUtils.addOrUpdateUrl`  
+`positionEqLogic` -> `jeedomUtils.positionEqLogic`  
+`chooseIcon` -> `jeedomUtils.chooseIcon`  
+`getOpenedModal` -> `jeedomUtils.getOpenedModal`  
 
-#### ):
+#### Js-Variablen (verfügbar seit Core4.3):
 
-  
+`jeedom_sprache` -> `jeeFrontEnd.sprache`  
+`userProfils` -> `jeeFrontEnd.userProfils`
 
-
-> ****
+> **Bemerkt**
 >
-> .  ** .
+> Diese Änderungen können dazu führen, dass ein Upgrade auf die erforderliche Jeedom-Mindestversion vieler Plugins erforderlich ist. Aus diesem Grund ist die *veraltet* erscheinen nicht auf einem Core im Master-Zweig, sondern ermöglichen Entwicklern zu sehen, was sie beheben können.
 
-#### 
+#### jQuery-Autovervollständigung
 
-.  **()**. .
+Die jQuery-abhängige Autocomplete-Bibliothek wird in einer zukünftigen Core-Version entfernt. Es wird durch die interne Funktion des Kerns ersetzt **input.jeeComplete()**. Dies unterstützt die meisten der vorherigen Optionen (Quelle auf Ajax usw.), behebt aber mehrere Fehler, bringt neue Verhaltensweisen (Auf- und Abwärtspfeil zum Auswählen eines Vorschlags usw.) und ermöglicht die Verwendung eines einzelnen Containers für mehrere Eingaben, wodurch die Auswirkungen auf das DOM, insbesondere in Szenarien, stark reduziert werden.
 
 <details>
 
-  <summary markdown="span">jeeComplete()<summary>
+  <summary markdown="span">jeeComplete()</summary>
 
   
   {% raw %}
-  jQuery:
+  //jQuery:
   $('input.auto').autocomplete({
     minLength: 1,
     source: dataArray
   })
 
   :
-  ({
+  document.querySelector('input.auto').jeeComplete({
     minLength: 1,
     source: dataArray
   })
   {% endraw %}
   
 
+</details>
+
+#### jQuery-Bootbox
+
+Die jQuery-abhängige Bootbox-Bibliothek wird in einer zukünftigen Core-Version entfernt. jeeDialog() ersetzt diese Funktionen durch jeeDialog.alert(), jeeDialog.bestätigen(), jeeDialog.prompt().
+
 <details>
 
-#### 
-
-. ..().
-
-<details>
-
-  <summary markdown="span">exemples jeeDialog()<summary>
+  <summary markdown="span">exemples jeeDialog()</summary>
 
   
   {% raw %}
-  ) {
-    !')
+  wenn (Bedingung) {
+    jeeDialog.alert('Das ist falsch, Alter!')
     return
   }
 
-  :', ) {
-     !== null) {
-      
+  jeeDialog.prompt('Neuen Namen eingeben:', Funktion(Ergebnis) {
+    wenn (Ergebnis !== null) {
+      //Mach Sachen
     }
   })
 
-  ?', ) {
-    ) {
-      
-    }  {
-      
+  jeeDialog.confirm('Möchten Sie das wirklich löschen??', Funktion(Ergebnis) {
+    wenn (Ergebnis) {
+      //Mach Sachen
+    } anders {
+      // Andere Sachen machen
     }
   })
 
   {% endraw %}
   
 
+</details>
+
+#### jQuery-Benutzeroberfläche
+
+Die jQuery UI-Bibliothek wird in einer zukünftigen Version von Core entfernt. jeeDialog.dialog() ersetzt die Verwendung von Modalverben *UI-Dialog*.
+
 <details>
 
-#### 
-
-. **.
-
-<details>
-
-  <summary markdown="span">exemples ()<summary>
+  <summary markdown="span">exemples jeeDialog.dialog()</summary>
 
   
   {% raw %}
-  :
+  //jQuery-Benutzeroberfläche:
   $('#md_modal').dialog({
-    title: "{{}}"
-  }).?')
+    title: "{{Systemadministration}}"
+  }).laden('index.php?v=d&modal=system.action').dialog('öffnen')
 
-  :
-  ({
-    title: '{{}}',
-    contentUrl: '?'
+  //Kern-jeeDialog:
+  jeeDialog.dialog({
+    title: '{{Systemadministration}}',
+    contentUrl: 'index.php?v=d&modal=system.action'
   })
 
   {% endraw %}
   
 
+</details>
+
+#### jQuery UI sortierbar
+
+Die jQuery Sortable-Bibliothek wird in einer zukünftigen Version von Core entfernt.
+Die SortableJS-Bibliothek wurde in den Core integriert : [SortableJS](http://sortablejs.github.io/Sortable/)
+
+#### jQuery-Caret
+
+Das jQuery-Plugin *jquery.at.caret* wird veraltet. Verwenden Sie `myElement.insertAtCursor(myString)`
+
+#### jQuery-Kontextmenü
+
+Die jQuery-abhängige contextMenu-Bibliothek wird in einer zukünftigen Core-Version entfernt. jeeCtxMenu() ersetzt diese Funktionen.
+
 <details>
 
-#### 
-
-.
- : [](http:sortablejs.github.ioSortable)
-
-#### 
-
- ** . 
-
-#### 
-
-. .
-
-<details>
-
-  <summary markdown="span">jeeCtxMenu()<summary>
+  <summary markdown="span">jeeCtxMenu()</summary>
 
   
   {% raw %}
-  ({
-    selector: '.nav.!
-    appendTo: '',
-    className: '', 
+  var myCtxMenu = neues jeeCtxMenu({
+    selector: '.nav.nav-tabs li', //Erforderlich!
+    appendTo: 'div#div_pageContainer',
+    className: '', //Zum Menücontainer hinzugefügt
     items: {
       uniqueNameID: {
-        name: '{{}}',
+        name: '{{Mein Artikel}}',
         isHtmlName: false,
-        icon: '',
-        className: '', 
+        icon: 'fas fa-cogs',
+        className: '', //Zum Artikelcontainer hinzugefügt
         callback: 
         }
       },
@@ -305,19 +305,19 @@
     },
     callback: 
     }
-    isDisable: false,
-    *
+    //isDisable: false,
+    /*
     events: {
       show: ) {
       },
       hide: ) {
       }
     },
-    *
-    *
+    */
+    /*
     build: ) {
        = {}
-       {
+      zurückkehren {
         callback: ) {
           ...
         }
@@ -326,13 +326,13 @@
     },
     position: ) {
     },
-    *
+    */
   })
 
   {% endraw %}
   
 
-<details>
+</details>
 
 #### 
 
@@ -340,16 +340,16 @@
 
 <details>
 
-  <summary markdown="span">exemples ()<summary>
+  <summary markdown="span">exemples jeeDialog.dialog()</summary>
 
   
   {% raw %}
-  :
+  //jQuery-Benutzeroberfläche:
   $('#bt_uploadImage').fileupload({
     url: '?
     dataType: 'json',
     done: ) {
-      
+      //Mach Sachen
     }
   })
 
@@ -357,24 +357,24 @@
   ({
     fileInput: '),
     url: '?
-    *
+    /*
     add: ) {
       ')
       ?
       ()
     },
-    *
+    */
     done: ) {
-      
+      //Mach Sachen
     }
   })
 
   {% endraw %}
   
 
-<details>
+</details>
 
- [](https:github.comjeedomcoreblobalphacoredomdom.ui.js)
+Sehen [](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 > ****
 >

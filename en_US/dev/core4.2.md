@@ -1,24 +1,24 @@
-## .2 | 
+## Core v4.2 | Plugin developers
 
 
 ### Obsolete
 
-- ).
--  : .
+- `initCheckBox()` method (utils.js).
+- Class method `cmd` : `setEventOnly()`.
 
 ### Deprecated
 
-. **** .
+These changes are still supported in v4.2 and will pass into **Obsolete** in a future version.
 
-- :: : `eqLogic::byTypeAndSearchConfiguration()`.
-- . : .
+- The `eqLogic` method::byTypeAndSearhConfiguration()` has been renamed correctly : `eqLogic::byTypeAndSearchConfiguration()`.
+- The js method `jeedom.eqLogic`.buildSelectCmd` has been renamed correctly : `jeedom.eqLogic.buildSelectCmd`.
 
-*..*
+*These two methods have also been integrated in v4.1 to accelerate their adoption.*
 
-- ).
--  : ').. . .
+- Removal of the jwerty lib for vanillaJS (keyboard shortcut management)).
+- The usage of `showAlert` is changing : `$('#div_alert').showAlert({` becomes `$.fn.showAlert({`. No change for calling from a modal. Not supported on Core pre 4.2.
 
--  : )
+- PHP method `displayException` : )
 -  : )
 
 
@@ -30,28 +30,28 @@
 
 :
 
-php
+```php
  {
     
-
+```
 
 #divGraphInfo# :
 
-html
+```html
 {% raw %}
-<div class="eqLogic eqLogic-widg allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#height: #height##style#">
+<div class="eqLogic eqLogic-widg allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#;height: #height#;#style#">
   <div class="#isVerticalAlign#">
     <center>
       #cmd#
-    <center>
-  <div>
+    </center>
+  </div>
   #divGraphInfo#
   <script>
 
-  <script>
-<div>
+  </script>
+</div>
 {% endraw %}
-
+```
 
 
 #### 
@@ -62,14 +62,14 @@ html
 
 <details>
 
-  <summary markdown="span">eqLogic deadCmdGeneric()<summary>
+  <summary markdown="span">eqLogic deadCmdGeneric()</summary>
 
   
   {% raw %}
   ) {
-    $return = array()
+    $return = array();
     ::) {
-      $eqLogic_json = json_encode(utils::o2a($eqLogic))
+      $eqLogic_json = json_encode(utils::o2a($eqLogic));
       #([0-9]*)#
       ) {
         )) {
@@ -78,19 +78,19 @@ html
               '?>',
               '),
               'who' => '#' . $cmd_id . '#'
-            )
+            );
           }
         }
       }
     }
-    
+    return $return;
   }
   {% endraw %}
   
 
   .
 
-<details>
+</details>
 
 #### 
 
@@ -117,22 +117,22 @@ html
 
 <details>
 
-  <summary markdown="span">Par exemple :<summary>
+  <summary markdown="span">Par exemple :</summary>
 
   
   {% raw %}
-  <legend><i class="fa fa-table"><i> {{Mes Equipemnts}}<legend>
-  <div class="input-group" style="margin-bottom:5px">
-    <input class="form-control roundedLeft" placeholder="{{Rechercher}}" id="in_searchEqlogic">
+  <legend><i class="fa fa-table"></i> {{Mes Equipemnts}}</legend>
+  <div class="input-group" style="margin-bottom:5px;">
+    <input class="form-control roundedLeft" placeholder="{{Rechercher}}" id="in_searchEqlogic"/>
     <div class="input-group-btn">
-      <a id="bt_resetObjectSearch" class="btn" style="width:30px"><i class="fas fa-times"><i>
-      <a><a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="1" data-state="0"><i class="fas fa-grip-lines"><i><a>
-    <div>
-  <div>
+      <a id="bt_resetObjectSearch" class="btn" style="width:30px"><i class="fas fa-times"></i>
+      </a><a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="1" data-state="0"><i class="fas fa-grip-lines"></i></a>
+    </div>
+  </div>
   {% endraw %}
   
 
-<details>
+</details>
 
 .  !
 
@@ -150,7 +150,7 @@ html
 
 <details>
 
-  <summary markdown="span"> d'event js<summary>
+  <summary markdown="span">Example d'event js</summary>
 
   
   {% raw %}
@@ -174,20 +174,20 @@ html
   {% endraw %}
   
 
-<details>
+</details>
 
 ##### . :
 
 <details>
 
-  <summary markdown="span">plugin. js<summary>
+  <summary markdown="span">plugin. js</summary>
 
   
   {% raw %}
   :
   ').length) {
-    $('#bt_pluginDisplayAsTable').removeClass('hidden') Not shown on previous core versions
-    ' || .) {
+    $('#bt_pluginDisplayAsTable').removeClass('hidden') //Not shown on previous core versions
+    if (getCookie('jeedom_displayAsTable') == 'true' || jeedom.theme.) {
       $('#bt_pluginDisplayAsTable').data('state', '1').addClass('active')
       "]').length) {
         $('.eqLogicDisplayCard').addClass('displayAsTable')
@@ -215,7 +215,7 @@ html
   {% endraw %}
   
 
-<details>
+</details>
 
  :
 
@@ -231,29 +231,29 @@ html
 
 <details>
 
-  <summary markdown="span">Par exemple :<summary>
+  <summary markdown="span">Par exemple :</summary>
 
   
   {% raw %}
   <div class="eqLogicThumbnailContainer">
     <?php
       ) {
-        $div = ''
-        $opacity = ($eqLogic->getIsEnable()) ? '' : 'disableCard'
-        $div .= '<div class="eqLogicDisplayCard cursor '.$opacity.'" data-eqLogic_id="' . $eqLogic->getId() . '">'
-        $div .= '<img src="' . $plugin->getPathImgIcon() . '">'
-        $div .= '<br>'
-        $div .= '<span class="name">' . $eqLogic->getHumanName(true, true) . '<span>'
-        $div .= '<span class="hidden hiddenAsCard displayTableRight">'.$eqLogic->getConfiguration('autorefresh').' | '.$eqLogic->getConfiguration('loglasttime').'h<span>'
-        $div .= '<div>'
+        $div = '';
+        $opacity = ($eqLogic->getIsEnable()) ? '' : 'disableCard';
+        $div .= '<div class="eqLogicDisplayCard cursor '.$opacity.'" data-eqLogic_id="' . $eqLogic->getId() . '">';
+        $div .= '<img src="' . $plugin->getPathImgIcon() . '"/>';
+        $div .= '<br>';
+        $div .= '<span class="name">' . $eqLogic->getHumanName(true, true) . '</span>';
+        $div .= '<span class="hidden hiddenAsCard displayTableRight">'.$eqLogic->getConfiguration('autorefresh').' | '.$eqLogic->getConfiguration('loglasttime').'h</span>';
+        $div .= '</div>';
         
       }
     ?>
-  <div>
+  </div>
   {% endraw %}
   
 
-<details>
+</details>
 
  **) . ..
 
@@ -272,44 +272,44 @@ html
 
 <details>
 
-  <summary markdown="span"> de code de Widg avec template<summary>
+  <summary markdown="span">Example de code de Widg avec template</summary>
 
   
   <div class=" cmd-widget" ...>
     <div class="title #hide_name#">
-      <div class="cmdName">#name_display#<div>
-    <div>
+      <div class="cmdName">#name_display#</div>
+    </div>
     <div>
       ...
-    <div>
+    </div>
     <template>
-      <div>color : rgb(20,20,20) ({{couleur d'arrière plan}})<div>
-      <div>color_switch : rgb(230,230,230) ({{couleur de la pastille}})<div>
-    <template>
+      <div>color : rgb(20,20,20) ({{couleur d'arrière plan}})</div>
+      <div>color_switch : rgb(230,230,230) ({{couleur de la pastille}})</div>
+    </template>
     <script>
-    <script>
-  <div>
+    </script>
+  </div>
   
 
-<details>
+</details>
 
 #### 
 
-. [](https:refreshless.comnouislider). .  **  !
+. [](https://refreshless.com/nouislider/). .  **  !
 
 .
 
->  : . **** !
+> Attention : . **** !
 
  :
 
-js
+```js
  !== 'undefined') {
   ')
 }  {
   ')
 }
-
+```
 
 #### 
 
@@ -322,20 +322,20 @@ js
 
 > .
 
- :
+Example :
 
-html
+```html
 <div class="content-xs">
-    <span class="cmdName #hide_name#">#name_display#<span> <strong class="state"><strong>
+    <span class="cmdName #hide_name#">#name_display#</span> <strong class="state"></strong>
     {{}}
-  <div>
+  </div>
   <template>
-    <div>param : {{}}.<div>
-  <template>
+    <div>param : {{}}.</div>
+  </template>
   <script>
+```
 
-
-json
+```json
   {
     "": {
       "": "",
@@ -350,7 +350,7 @@ json
       "": ""
     }
   }
-
+```
 
 > . .
 
@@ -365,10 +365,10 @@ json
 
 :
 
-php
+```php
 
 {
-    *     * ************************************************** *
+    /*     * ************************************************** */
     
 
     ()
@@ -388,15 +388,15 @@ php
                 '',
                 '')
             )
-        )
+        );
         
     }
 
-
+```
 
  :
 
 - .
 - .
 
->  :  [](https:github.comjeedomcoreblobalphacoreconfigjeedom.config.php), .
+>  :  [](https://github.com/jeedom/core/blob/alpha/core/config/jeedom.config.php), .
