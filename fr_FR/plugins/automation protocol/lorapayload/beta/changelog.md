@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 12/06/2025 (BETA)
+# 13/06/2025 (BETA)
 
 - Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*
 

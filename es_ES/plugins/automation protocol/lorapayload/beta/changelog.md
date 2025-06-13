@@ -28,7 +28,7 @@
 
 - Ajout des commandes Index pour *TIC LoraWAN*
 
-- 
+- Regénérer la configuration LoRaWAN après la génération des commandes
 
 - Corrección del decodificador *TIC LoraWAN*
 
