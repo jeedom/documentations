@@ -8,9 +8,11 @@
   "category": "wellness",
   "hasDependency": true,
   "hasOwnDeamon": false,
-  "maxDependancyInstallTime": 10,
-  "changelog": "https://alexh-fr.github.io/intexspa/fr_FR/",
-  "documentation": "https://alexh-fr.github.io/intexspa/fr_FR/changelog.html",
+  "maxDependancyInstallTime": 120,
+  "documentation": "https://alexh-fr.github.io/intexspa/fr_FR/",
+  "documentation_beta": "https://alexh-fr.github.io/intexspa/fr_FR/",
+  "changelog": "https://alexh-fr.github.io/intexspa/fr_FR/changelog.html",
+  "changelog_beta": "https://alexh-fr.github.io/intexspa/fr_FR/changelog.html",
   "language": ["fr_FR"],
   "compatibility": ["miniplus", "smart", "rpi", "docker", "diy", "mobile", "v4"]
 }
