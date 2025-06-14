@@ -3,7 +3,7 @@
 	"name": "HistoLisse",
 	"author": "Pax24",
 	"description": "Permet de gérer finement le lissage des données au long de la journée et leur archivage à long terme. Par exemple : garder une valeur par minute de 0h00 à 23h59 en temps réel (par heure), puis par 15 minutes après 15 jours d'ancienneté, puis 1 donnée toutes les 3h au delà de 3 mois. Cela permet de réduire la taille de la base de données (-30 à -70%) et les sauvegardes (-20 à -50%) tout en conservant des données informatives.",
-	"pluginVersion": "0.1.2",
+	"pluginVersion": "0.1.3",
 	"licence": "GPLv3",
 	"require": "4.0",
 	"category": "monitoring",
