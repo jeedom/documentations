@@ -8,6 +8,9 @@
 - Ajout du mode distant *(Attention: cela réduit les fonctionnalités du plugin)*. Bien lire la documentation, le passage en mode distant à un fort impact sur la simplicité d'utilisation et la compatibilité de certains modules
 - Support du protocole mqtts
 
+# 10/06/2025
+
+- Fixe de la configuration *Mco Home MH-S412 double*
 
 # 10/06/2025
 
