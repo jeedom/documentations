@@ -8,14 +8,13 @@
 	"category": "multimedia",
 	"hasDependency": true,
 	"hasOwnDeamon": false,
-	"documentation" : "https://vegeta0911.github.io/WebOStvLG/fr_FR/",
-	"changelog" : "https://vegeta0911.github.io/WebOStvLG/fr_FR/changelog",
+	"documentation" : "https://vegeta0911.github.io/documentation/plugins/fr_FR/WebOStvLG/",
+	"changelog" : "https://vegeta0911.github.io/documentation/plugins/fr_FR/WebOStvLG/changelog",
 	"whiteListFolders": [
 		"/core/template/images"
 	],
 	"os": {
-		"min": 11,
-		"max": ""
+		"min": 11
 	},
 	"language": [
 		"fr_FR"
