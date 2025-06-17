@@ -10,7 +10,7 @@
 
 # 10/06/2025
 
--  *Mco Home MH-S412 double*
+- Fixe de la configuration *Mco Home MH-S412 double*
 
 # 10/06/2025
 
