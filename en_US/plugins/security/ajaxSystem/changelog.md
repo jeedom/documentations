@@ -4,6 +4,16 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+- Better cloud query management
+- Adding event codes to the remote control (space control)
+- Ajout de FireProtect2PlusSb
+- Ajout de KeypadTouchscreen
+
+# 07/09/2024
+
+- Minimum core version 4.4
+- Bug fix on some equipment configuration
+
 # 01/09/2024
 
 - Better cleaning of SIA controls

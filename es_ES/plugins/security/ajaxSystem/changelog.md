@@ -4,6 +4,16 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
+- Mejor gestión de las solicitudes en la nube
+- Se agregaron códigos de eventos al control remoto (control de espacio)
+- Ajout de FireProtect2PlusSb
+- Ajout de KeypadTouchscreen
+
+# 09/07/2024
+
+- Versión mínima del núcleo 4.4
+- Corrección de errores en determinadas configuraciones de equipos
+
 # 09/01/2024
 
 - Mejor limpieza de los pedidos SIA
