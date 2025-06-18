@@ -4,15 +4,19 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# )
+# 18/06/2025 (Beta)
 
-- 
+- Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
 
 - Ajout du panneau Admin “Cache queueDownlink” (visualisation, purge, suppr. individuelle)
 
--  : 
+- Paramètres configurables : `Temporisation des envoies dans la file d'attente (secondes)`, `Taille actuelle de la file d'attente`, `Taille maximale de la file d'attente`
 
-# 
+- Ajout des commandes de downlink pour ** 
+
+- Decoder-Korrektur **
+
+# 18/06/2025
 
 - Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*
 

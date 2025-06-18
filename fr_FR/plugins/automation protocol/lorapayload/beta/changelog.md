@@ -12,6 +12,10 @@
 
 - Paramètres configurables : `Temporisation des envoies dans la file d'attente (secondes)`, `Taille actuelle de la file d'attente`, `Taille maximale de la file d'attente`
 
+- Ajout des commandes de downlink pour *Dragino CPL03-LB/LS* 
+
+- Correction décodeur *Dragino WSC2_L_PM2.5*
+
 # 18/06/2025
 
 - Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*

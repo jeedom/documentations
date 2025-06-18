@@ -6,6 +6,34 @@
 
 # )
 
+- Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*
+
+- Ajout de l'info Data Rate LoRaWAN
+
+- Ajout des commandes *Milesight VS373 - AI Bed & Presence Sensor*
+
+- Ajout du produit *Browan - Tab Temperature & Humidity Sensor*
+
+- Ajout du produit *RAK 10701 - FIELD TESTER for LoRaWAN*
+
+- Ajout du produit *Dragion WSC2-L -- Station Météo*
+
+- Ajout du produit *Thermokon 811217 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
+
+- Correção do decodificador *TIC LoraWAN*
+
+- Ajout du produit *Milesight GS601 - Vape Detector*
+
+- Ajout du produit *Milesight WS302 - Sound Contact Switch*
+
+- Ajout des commandes Index pour *TIC LoraWAN*
+
+- Regénérer la configuration LoRaWAN après la génération des commandes
+
+- Correção do decodificador *TIC LoraWAN*
+
+# 15/05/2025
+
 - Ajout du produit *Dragino CPL03-LB/LS - Sensor de contato seco aberto/fechado LoRaWAN para ambientes externos*
 
 - Ajout du produit *Dragino LHT52 - Sensor de temperatura e umidade interna LoRaWAN*
@@ -30,7 +58,9 @@
 
 - Ajout du produit *Nexelec LoRa Air Sensors (Sign, Rise, Feel, Move, Wav, View)*
 
-- Ajout du produit **
+- Ajout du produit *Thermokon 835657 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
+
+- Correction downlink *Thermokon 835657 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
 
 # 24/03/2025
 
