@@ -53,7 +53,6 @@ L'onglet LoRaWAN est très important :
 -   Vous devez choisir la commande info qui reçoit le payload que ce soit MQTT ou autres ( important si vous avez utilisé le bouton `Ajouter` sinon avec `Génération automatique` tout est généré automatiquement )
 -   Vous pouvez choisir si le format du payload est en Hexadécimal ou Base64.
 -   Avec Euqueue downlink payload, vous pouvez envoyer des downlinks manuellement.
--   Il est important de `Regénérer la configuration LoRaWAN` via le bouton bleu qui porte le même nom car à chaque fois que vous Recréer les commandes dans l'onglet Equipement celles-ci ajoutent les commandes LoRaWAN nécessaire pour le bon fonctionnement du plugins.
 
 
 Une fois fait vous pouvez sauver. Suite à cela lors de la prochaine réception de trame les commandes de votre équipement se mettront à jour
@@ -164,7 +163,7 @@ module.exports = {
         "isVisible": 0,
         "isHistorized": 0,
         "unite": "",
-        "logicalId": "fport" // Port utilisé pour communiquer 
+        "logicalId": "fport" // Port utilisé pour les downlinks
       },
       {
         "name": "Reboot",
@@ -329,7 +328,7 @@ Supposons, dans la documentation Milesight, tu trouves ce tableau :
 
 ## Qu’est-ce que le panel Lorapayload ?
 
-- Le **panel Lorapayload** (LoRaWAN Network Server) est une interface disponible dans Jeedom qui **centralise les informations des capteurs venant de votre réseau LoRaWAN**.
+- Le **panel Lorapayload** est une interface disponible dans Jeedom qui **centralise les informations des capteurs venant de votre réseau LoRaWAN**.
 - Il affiche :
   - La liste **complète des capteurs connectées** au serveur LNS leurs statuts en temps réel.
 
@@ -343,9 +342,70 @@ Supposons, dans la documentation Milesight, tu trouves ce tableau :
 ![alt text](image-4.png)
 ![alt text](image-9.png)
 ---
+## Gestionnaire de file d'attente
+
+Cette mise à jour améliore la gestion de la file d'attente des downlinks dans le plugin lorapayload pour Jeedom. Elle introduit :
+- Un démon (lorapayloadd.php) chargé d'exécuter les downlinks au bon moment.
+
+- Un panneau d'administration pour visualiser, rafraîchir ou purger la queue depuis l'interface Jeedom,
+
+- Un système de priorités (champ `priority`).
+
+- Un réordonnancement FIFO respectueux du tempo de rafraîchissement (`refreshTime`).
+
+- Un recalcul complet des timestamps (`ts`) lorsque des downlinks prioritaires sont détectés.
+
+- Une temporisation légère pour regrouper les appels et éviter les collisions.
+
+### Fonctionnalités clés
+
+1. **Démon Worker**
+Le démon (`lorapayloadd.php`) tourne en continu et lit la clé de cache `queueDownlink`. À chaque cycle :
+- Cycle toutes les 3s
+- Relit à chaque itération pour prendre en compte les purges ou modifications.
+
+2. **Panneau d'administration**
+
+![alt text](image-11.png)
+
+Dans l’interface Jeedom, onglet Acceuil → lorapayload → Cache queueDownlink :
+- Liste des downlinks en attente (`EqLogic ID`, `priorité`, `DevEUI`, `ts`, `Downlink (JSON)`, `actions`),
+- Boutons : `Rafraîchir`, `Vider tout`, `Supprimer` (entry par entry),
+- Affichage de la taille actuelle de la file.
+
+3. **Fonctionnalités clés**
+- **Démon**
+Exécution programmée des downlinks selon leur champ `ts` et relecture dynamique de la queue pour tenir compte des purges.
+
+- **Priorité**
+Attribut priority dans chaque équipement (0 = normal, 1 = prioritaire).
+Lorsqu’au moins un prioritaire existe, la file est triée en deux blocs : prioritaires puis normaux.
+
+- **Temporisation des envoies (Refresh Time)**
+`refreshTime` (en secondes) paramétrable dans le plugin (défaut : 0 s).
+Assure un espacement minimal entre deux downlinks du même équipement.
+
+- **Recalcul de la file**
+Si des priorités sont détectées, la queue complète est retriée selon : priorité (`1` > `0`) et l'ordre d’arrivée (`received_at`).
+Les timestamps `ts` sont ensuite recalculés pour chaque équipement, en appliquant le `tempo` en FIFO.
+
+- **Temporisation légère**
+`usleep(200 ms)` avant le recalcul si des priorités sont présentes, pour regrouper les ajouts simultanés.
+
+- **Gestion de la taille**
+tailleQueue définit le nombre maximal d’entrées. Au-delà, les plus anciennes sont automatiquement purgées.
 
 
 
+4. **Configuration**
+Configurer les équipements prioritaires en allant dans les configuration de l'équipement puis dans `LoRaWAN > Downlink`
+![alt text](image-13.png)
+Si votre équipement est prioritaire, cochez sur le check point `Prioritaire` puis enregistrez.
+Ensuite rendez-vous dans les configurations du plugin Lorapayload et dans le champs configuration, ajustez les paramètres globaux en fonction de votre application.
+![alt text](image-12.png)
+Redémarrer le démon s'il est arrêté ou en statut NOK.
+Suivre et gérer l'état de la file dans l'onglet Cache queueDownlink.
+_________
 # FAQ
 
 -   Certaines commandes ne se mettent pas à jour en même temps que les autres : oui en effet certains modules Lorawan n'envoient pas forcément toutes les informations en même temps et avec la même fréquence

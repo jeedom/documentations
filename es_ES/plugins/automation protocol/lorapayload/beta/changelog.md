@@ -6,6 +6,14 @@
 
 # )
 
+- 
+
+- Ajout du panneau Admin “Cache queueDownlink” (visualisation, purge, suppr. individuelle)
+
+-  : 
+
+# 
+
 - Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*
 
 - Ajout de l'info Data Rate LoRaWAN

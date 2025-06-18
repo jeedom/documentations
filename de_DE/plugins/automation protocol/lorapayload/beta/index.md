@@ -53,7 +53,6 @@ L'onglet LoRaWAN est très important :
 -   Vous devez choisir la commande info qui reçoit le payload que ce soit MQTT ou autres ( important si vous avez utilisé le bouton `Ajouter` sinon avec `Génération automatique` tout est généré automatiquement )
 -   Vous pouvez choisir si le format du payload est en Hexadécimal ou Base64.
 -   Avec Euqueue downlink payload, vous pouvez envoyer des downlinks manuellement.
--   Il est important de `Regénérer la configuration LoRaWAN` via le bouton bleu qui porte le même nom car à chaque fois que vous Recréer les commandes dans l'onglet Equipement celles-ci ajoutent les commandes LoRaWAN nécessaire pour le bon fonctionnement du plugins.
 
 
 Sobald Sie fertig sind, können Sie speichern. Danach werden die Befehle für Ihr Gerät aktualisiert, wenn Sie das nächste Mal einen Frame erhalten
@@ -164,7 +163,7 @@ module.exports = {
         "isVisible": 0,
         "isHistorized": 0,
         "unite": "",
-        "logicalId": "fport" // Port utilisé pour communiquer 
+        "logicalId": "
       },
       {
         "name": "Reboot",
@@ -329,7 +328,7 @@ Supposons, dans la documentation Milesight, tu trouves ce tableau :
 
 ## Qu'est-ce que le panel Lorapayload ?
 
-- Le **panel Lorapayload** (LoRaWAN Network Server) est une interface disponible dans Jeedom qui **centralise les informations des capteurs venant de votre réseau LoRaWAN**.
+- Le **panel Lorapayload**  **centralise les informations des capteurs venant de votre réseau LoRaWAN**.
 - Il affiche :
   - La liste **complète des capteurs connectées** au serveur LNS leurs statuts en temps réel.
 
@@ -343,8 +342,69 @@ Supposons, dans la documentation Milesight, tu trouves ce tableau :
 ![alt text](image-4.png)
 ![alt text](image-9.png)
 ---
+## 
+
+.  :
+- ..
+
+- ,
+
+- ).
+
+- ).
+
+- .
+
+- .
+
+### 
+
+1. ****
+..  :
+- 
+- .
+
+2. ****
+
+![alt text](image-11.png)
+
+ :
+- ),
+-  : ),
+- .
+
+3. ****
+- ****
+.
+
+- ****
+).
+: .
+
+- **)**
+: 0 s).
+.
+
+- ****
+ : ).
+.
+
+- ****
+.
+
+- ****
+. .
 
 
+
+4. **Aufbau**
+
+![alt text](image-13.png)
+.
+.
+![alt text](image-12.png)
+.
+.
 
 # FAQ
 
