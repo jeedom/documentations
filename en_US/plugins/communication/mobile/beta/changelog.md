@@ -4,6 +4,9 @@
 >
 > As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 18/06/2025
+
+- Ajout alerte si api mobile désactivée ou IP blanche
 
 # 25/04/2025
 

@@ -4,6 +4,9 @@
 >
 > Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 18/06/2025
+
+- Ajout alerte si api mobile désactivée ou IP blanche
 
 # 25/04/2025
 
