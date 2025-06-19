@@ -65,7 +65,7 @@ Dans l'onglet Equipement du plugin LoraPayload :
 
 - Vous devez choisir la commande d'envoi (que ce soit MQTT ou autres)
 - Vous devez choisir si voulez avoir une confirmation (Ack). C'est une information remontée dans MQTT sur un topic dédié qui n'influence pas les données remontées.
-Concernant la commande d'envoi, dans le cas d'utilisation de MQTT, c'est une commande dans MQTT de type Action et de sous-type Message. Le topic est le topic dédié aux downlinks et la valeur de la commande est **.
+Concernant la commande d'envoi, dans le cas d'utilisation de MQTT, c'est une commande dans MQTT de type Action et de sous-type Message. Le topic est le topic dédié aux downlinks et la valeur de la commande est *message*.
 ---
 # Ajouter un nouveau capteur Milesight (downlink/uplink)
 

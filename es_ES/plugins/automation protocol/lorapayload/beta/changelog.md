@@ -4,7 +4,7 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
-# )
+# 19/06/2025 (Beta)
 
 - Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
 
@@ -14,9 +14,9 @@
 
 - Ajout des commandes de downlink pour *Dragino CPL03-LB/LS* 
 
--  
+- Correction image documentation 
 
-- 
+- Correction bug panel
 
 - Ajout des commandes de downlink pour *Dragino CPL03-LB/LS* 
 

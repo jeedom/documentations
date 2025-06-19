@@ -65,7 +65,7 @@ In the LoraPayload plugin's Equipment tab :
 
 - You must choose the  command (MQTT or other))
 - You must choose whether you want confirmation (Ack). This information is entered into MQTT on a dedicated topic and has no influence on the data entered.
-The send command, when used with MQTT, is an MQTT command of type Action and sub-type Message. The topic is the topic dedicated to downlinks and the value of the command is **.
+The send command, when used with MQTT, is an MQTT command of type Action and sub-type Message. The topic is the topic dedicated to downlinks and the value of the command is *message*.
 ---
 # Ajouter un nouveau capteur Milesight (downlink/uplink)
 
