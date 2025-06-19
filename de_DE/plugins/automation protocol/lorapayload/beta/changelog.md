@@ -4,7 +4,7 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 18/06/2025 (Beta)
+# )
 
 - Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
 
@@ -12,9 +12,16 @@
 
 - Paramètres configurables : `Temporisation des envoies dans la file d'attente (secondes)`, `Taille actuelle de la file d'attente`, `Taille maximale de la file d'attente`
 
-- Ajout des commandes de downlink pour ** 
+- Ajout des commandes de downlink pour *Dragino CPL03-LB/LS* 
 
-- Decoder-Korrektur **
+-  
+
+- 
+
+- Ajout des commandes de downlink pour *Dragino CPL03-LB/LS* 
+
+- Decoder-Korrektur *Dragino WSC2_L_PM2.5*
+
 
 # 18/06/2025
 

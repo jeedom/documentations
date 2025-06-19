@@ -16,7 +16,7 @@ Go to the plugins / protocol menu to find the plugin.
 On this page you can see the modules already included.
 
 On the upper part of this page you have several buttons
-![alt text](image.png)
+![alt text](../images/image.png)
 -   **Add button** : Allows you to add equipment
 -   **Configuation button** : This button opens the plugin configuration window
 -   **Bonton Génération automatique** : Permet d'ajouter un nouvel équipement dans jeedom et sur chirpstack. ( Recommandé pour l'ajout d'équipement )
@@ -41,7 +41,7 @@ You also have two additional tabs:
 -   An Orders tab (this is where you will find the controls corresponding to your equipment - this tab is standard at Jeedom)
 
 # Adding equipment
-![alt text](image-1.png)
+![alt text](../images/image-1.png)
 Il suffit de cliquer sur le bouton `Génération automatique` et de choisir un nom.
 Ensuite vous pouvez configurer l'objet Parent, renseigner le Dev EUI l'app Key, l'application pour chirpstack
 Pour configurer, activer l'équipement, choisir une ou des catégories, et rendre l'équipement visible ou non.
@@ -49,7 +49,7 @@ Pour configurer, activer l'équipement, choisir une ou des catégories, et rendr
 It is important on the right side to choose the type of equipment. This is what will allow us to know how to parse the frame.
 
 L'onglet LoRaWAN est très important :
-![alt text](image-2.png)
+![alt text](../images/image-2.png)
 -   Vous devez choisir la commande info qui reçoit le payload que ce soit MQTT ou autres ( important si vous avez utilisé le bouton `Ajouter` sinon avec `Génération automatique` tout est généré automatiquement )
 -   Vous pouvez choisir si le format du payload est en Hexadécimal ou Base64.
 -   Avec Euqueue downlink payload, vous pouvez envoyer des downlinks manuellement.
@@ -65,8 +65,7 @@ In the LoraPayload plugin's Equipment tab :
 
 - You must choose the  command (MQTT or other))
 - You must choose whether you want confirmation (Ack). This information is entered into MQTT on a dedicated topic and has no influence on the data entered.
-
-The send command, when used with MQTT, is an MQTT command of type Action and sub-type Message. The topic is the topic dedicated to downlinks and the value of the command is #message#.
+The send command, when used with MQTT, is an MQTT command of type Action and sub-type Message. The topic is the topic dedicated to downlinks and the value of the command is **.
 ---
 # Ajouter un nouveau capteur Milesight (downlink/uplink)
 
@@ -333,14 +332,14 @@ Supposons, dans la documentation Milesight, tu trouves ce tableau :
   - La liste **complète des capteurs connectées** au serveur LNS leurs statuts en temps réel.
 
 - Pour l'afficher, il faut se rendre dans la configuration du plugin Lorapayload, elle se trouve en bas a droite.
-![alt text](image-3.png)
+![alt text](../images/image-3.png)
 
 ---
 ## Visualisation dans Jeedom
 
 - Accède à ces panels depuis l'interface Jeedom :
-![alt text](image-4.png)
-![alt text](image-9.png)
+![alt text](../images/image-4.png)
+![alt text](../images/image-9.png)
 ---
 ## Gestionnaire de file d'attente
 
@@ -366,7 +365,7 @@ Le démon (`lorapayloadd.php`) tourne en continu et lit la clé de cache `queueD
 
 2. **Panneau d'administration**
 
-![alt text](image-11.png)
+![alt text](../images/image-11.png)
 
 Dans l'interface Jeedom, onglet Acceuil → lorapayload → Cache queueDownlink :
 - Liste des downlinks en attente (`EqLogic ID`, `priorité`, `DevEUI`, `ts`, `Downlink (JSON)`, `actions`),
@@ -399,10 +398,10 @@ tailleQueue définit le nombre maximal d'entrées. Au-delà, les plus anciennes 
 
 4. **Configuration**
 Configurer les équipements prioritaires en allant dans les configuration de l'équipement puis dans `LoRaWAN > Downlink`
-![alt text](image-13.png)
+![alt text](../images/image-13.png)
 Si votre équipement est prioritaire, cochez sur le check point `Prioritaire` puis enregistrez.
 Ensuite rendez-vous dans les configurations du plugin Lorapayload et dans le champs configuration, ajustez les paramètres globaux en fonction de votre application.
-![alt text](image-12.png)
+![alt text](../images/image-12.png)
 Redémarrer le démon s'il est arrêté ou en statut NOK.
 Suivre et gérer l'état de la file dans l'onglet Cache queueDownlink.
 _________
