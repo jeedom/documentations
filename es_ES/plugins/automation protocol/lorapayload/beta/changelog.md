@@ -4,7 +4,7 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
-# 19/06/2025 (Beta)
+# )
 
 - Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
 
@@ -22,6 +22,7 @@
 
 - Corrección del decodificador *Dragino WSC2_L_PM2.5*
 
+- 
 
 # 18/06/2025
 
