@@ -8,6 +8,10 @@
 - Added remote mode *(Attention: this reduces the functionality of the plugin)*. Read the documentation carefully, switching to remote mode has a strong impact on the ease of use and compatibility of certain modules
 - Support for mqtts protocol
 
+# 
+
+- .
+
 # 10/06/2025
 
 - Fixe de la configuration *Mco Home MH-S412 double*
@@ -28,6 +32,7 @@
 # 04/06/2025
 
 **Ajouts de Configuration**
+
 - Added config *Mco Home MH-S411 Simple* (properties : Switch, Scene, Central Scene)
 - Added config *Remotec ZXT-800* (properties : Air temperature, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Thermostatfanmode, Indicator)
 - Added config *Shelly Qubino Wave 1PM Mini QMSW-0A1P8* (properties : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor, Notification Alarm-Level)
@@ -37,9 +42,6 @@
 - Added config *Zooz ZEN54_LR - 0-10V Dimmer* (properties : Multilevel, Indicator)
 - Added config *Zooz ZES11 - ZSE 11 - Q SENSOR* (properties : Motion, Temperature, Luminance, Humidity, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Battery-Maintenance, Indicator)
 - Added config *Zooz ZES18 - ZSE 18 - MOTION SENSOR* (properties : Motion, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Magnetic, Indicator)
-
-
-
 
 # 11/15/2024
 
@@ -97,7 +99,6 @@
 **Improvements**
 
 - Addition of an additionalDependancyCheck function for the core
-
 
 **Configuration Changes**
 
@@ -184,7 +185,6 @@
 - Added config *Thermofloor Heat It ZM Relay High Power* (properties : Switch, Power, Energy, Heat Sensor Notification, Over Load Notification, Centra Scene)
 - Adding a subproperty *simple-notification* for property *Opening*
 
-
 # 09/11/2023
 
 **Fixes**
@@ -235,7 +235,6 @@
 - Addition of a message in the message center when a node goes Dead (in addition to the equipment status command)
 - Addition of a message in the message center when a node goes Alive after being Dead (in addition to the equipment status command)
 - Addition of a message in the message center when a node has not woken up after 4 times its wakeup interval
-
 
 **Configuration Additions**
 
@@ -352,7 +351,6 @@
 - Added config *U-Fairy GR-201N* (properties : Switch)
 - Added config *Danfoss Boiler Relay* (properties : Switch)
 - Added config *Benext Alarm Sound* (properties : Switch)
-
 
 # 24/12/2022
 
@@ -645,7 +643,6 @@
 - Addition of a page allowing to see all the *settings* pending
 - Addition of a webapp page allowing to see all the *settings* pending
 - Addition of a delete button on the page *Pending*. Allows you to delete a line on hold. This does not delete the order that has been sent to the controller but only the information pending in Jeedom (useful for calibration parameters for example which never take the value sent or any other parameter where it would be useless)
-
 
 **Configuration Changes**
 

@@ -8,6 +8,10 @@
 - Modo remoto agregado *(Attention: esto reduce la funcionalidad del complemento)*. Lea atentamente la documentación, cambiar al modo remoto tiene un fuerte impacto en la facilidad de uso y la compatibilidad de ciertos módulos
 - Soporte del protocolo mqtts
 
+# 
+
+- .
+
 # 10/06/2025
 
 - Fixe de la configuration *Mco Home MH-S412 double*
@@ -28,6 +32,7 @@
 # 04/06/2025
 
 **Ajouts de Configuration**
+
 - Configuración añadida *Mco Home MH-S411 Simple* (propiedades : Switch, Scene, Central Scene)
 - Configuración añadida *Remotec ZXT-800* (propiedades : Air temperature, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Thermostatfanmode, Indicator)
 - Configuración añadida *Shelly Qubino Wave 1PM Mini QMSW-0A1P8* (propiedades : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor, Notification Alarm-Level)
@@ -37,9 +42,6 @@
 - Configuración añadida *Zooz ZEN54_LR - 0-10V Dimmer* (propiedades : Multilevel, Indicator)
 - Configuración añadida *Zooz ZES11 - ZSE 11 - Q SENSOR* (propiedades : Motion, Temperature, Luminance, Humidity, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Battery-Maintenance, Indicator)
 - Configuración añadida *Zooz ZES18 - ZSE 18 - MOTION SENSOR* (propiedades : Motion, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Magnetic, Indicator)
-
-
-
 
 # 15/11/2024
 
@@ -97,7 +99,6 @@
 **Mejoras**
 
 - Adición de una función adicionalDependancyCheck para el núcleo
-
 
 **Cambios de configuración**
 
@@ -184,7 +185,6 @@
 - Configuración añadida *Thermofloor Heat It ZM Relé Alta Potencia* (propiedades : Interruptor, alimentación, energía, notificación de sensor de calor, notificación de sobrecarga, escena central)
 - Agregar una subpropiedad *notificación simple* para la propiedad *Apertura*
 
-
 # 11/09/2023
 
 **Arreglos**
@@ -235,7 +235,6 @@
 - Adición de un mensaje en el centro de mensajes cuando un nodo queda muerto (además del comando de estado del equipo)
 - Adición de un mensaje en el centro de mensajes cuando un nodo pasa a Alive después de estar Dead (además del comando de estado del equipo)
 - Adición de un mensaje en el centro de mensajes cuando un nodo no se ha despertado después de 4 veces su intervalo de activación
-
 
 **Adiciones de configuración**
 
@@ -352,7 +351,6 @@
 - Configuración añadida *U-Hada GR-201N* (propiedades : Switch)
 - Configuración añadida *Relé de caldera Danfoss* (propiedades : Switch)
 - Configuración añadida *Sonido de alarma Benext* (propiedades : Switch)
-
 
 # 24/12/2022
 
@@ -645,7 +643,6 @@
 - Adición de una página que permite ver todos los *configuraciones* a la espera
 - Adición de una página webapp que permite ver todos los *configuraciones* a la espera
 - Adición de un botón de eliminar en la página *A la espera*. Le permite eliminar una línea en espera. Esto no elimina la orden que se ha enviado al controlador, sino solo la información pendiente en Jeedom (útil para los parámetros de calibración, por ejemplo, que nunca toman el valor enviado o cualquier otro parámetro donde sería inútil))
-
 
 **Cambios de configuración**
 

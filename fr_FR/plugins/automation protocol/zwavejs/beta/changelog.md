@@ -8,6 +8,10 @@
 - Ajout du mode distant *(Attention: cela réduit les fonctionnalités du plugin)*. Bien lire la documentation, le passage en mode distant à un fort impact sur la simplicité d'utilisation et la compatibilité de certains modules
 - Support du protocole mqtts
 
+# 24/06/2025
+
+- Correction d'un bug qui se produisait sous PHP8 lors de la création des commandes manquantes.
+
 # 10/06/2025
 
 - Fixe de la configuration *Mco Home MH-S412 double*
@@ -28,6 +32,7 @@
 # 04/06/2025
 
 **Ajouts de Configuration**
+
 - Ajout de la configuration *Mco Home MH-S411 Simple* (propriétés : Switch, Scene, Central Scene)
 - Ajout de la configuration *Remotec ZXT-800* (propriétés : Air temperature, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Thermostatfanmode, Indicator)
 - Ajout de la configuration *Shelly Qubino Wave 1PM Mini QMSW-0A1P8* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor, Notification Alarm-Level)
@@ -37,9 +42,6 @@
 - Ajout de la configuration *Zooz ZEN54_LR - 0-10V Dimmer* (propriétés : Multilevel, Indicator)
 - Ajout de la configuration *Zooz ZES11 - ZSE 11 - Q SENSOR* (propriétés : Motion, Temperature, Luminance, Humidity, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Battery-Maintenance, Indicator)
 - Ajout de la configuration *Zooz ZES18 - ZSE 18 - MOTION SENSOR* (propriétés : Motion, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Magnetic, Indicator)
-
-
-
 
 # 15/11/2024
 
@@ -97,7 +99,6 @@
 **Améliorations**
 
 - Rajout d'une fonction additionalDependancyCheck pour le core
-
 
 **Modifications de Configurations**
 
@@ -184,7 +185,6 @@
 - Ajout de la configuration *Thermofloor Heat It ZM Relay High Power* (propriétés : Switch, Power, Energy, Notification Heat Sensor, Notification Over Load, Centra Scene)
 - Ajout d'une sous propriété *notification-simple* pour la propriété *Opening*
 
-
 # 11/09/2023
 
 **Corrections**
@@ -235,7 +235,6 @@
 - Rajout d'un message dans le centre de message lorsqu'un noeud passe Dead (en plus de la commande statut de l'équipement)
 - Rajout d'un message dans le centre de message lorsqu'un noeud passe Alive après avoir été Dead (en plus de la commande statut de l'équipement)
 - Rajout d'un message dans le centre de message lorsqu'un noeud ne s'est pas réveillé après 4 fois son interval de réveil
-
 
 **Ajouts de Configurations**
 
@@ -352,7 +351,6 @@
 - Ajout de la configuration *U-Fairy GR-201N* (propriétés : Switch)
 - Ajout de la configuration *Danfoss Boiler Relay* (propriétés : Switch)
 - Ajout de la configuration *Benext Alarm Sound* (propriétés : Switch)
-
 
 # 24/12/2022
 
@@ -645,7 +643,6 @@
 - Rajout d'une page permettant de voir tous les *paramètres* en attente
 - Rajout d'une page webapp permettant de voir tous les *paramètres* en attente
 - Rajout d'un bouton supprimer sur la page *En attente*. Permet de supprimer une ligne en attente. Celui-ci ne supprime pas l'ordre qui a été envoyé au contrôleur mais seulement l'information en attente dans Jeedom (utile pour les paramètres de calibration par exemple qui ne prennent jamais la valeur envoyée ou tout autre paramètre où ca serait inutile)
-
 
 **Modifications de Configurations**
 

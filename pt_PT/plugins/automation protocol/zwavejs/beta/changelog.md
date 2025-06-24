@@ -8,6 +8,10 @@
 - Adicionado modo remoto *(Attention: isso reduz a funcionalidade do plugin)*. Leia atentamente a documentação, mudar para o modo remoto tem um forte impacto na facilidade de uso e na compatibilidade de determinados módulos
 - Suporte ao protocolo mqtts
 
+# 
+
+- .
+
 # 10/06/2025
 
 - Fixe de la configuration *Mco Home MH-S412 double*
@@ -28,6 +32,7 @@
 # 04/06/2025
 
 **Ajouts de Configuration**
+
 - Configuração adicionada *Mco Home MH-S411 Simple* (propriedades : Switch, Scene, Central Scene)
 - Configuração adicionada *Remotec ZXT-800* (propriedades : Air temperature, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Thermostatfanmode, Indicator)
 - Configuração adicionada *Shelly Qubino Wave 1PM Mini QMSW-0A1P8* (propriedades : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor, Notification Alarm-Level)
@@ -37,9 +42,6 @@
 - Configuração adicionada *Zooz ZEN54_LR - 0-10V Dimmer* (propriedades : Multilevel, Indicator)
 - Configuração adicionada *Zooz ZES11 - ZSE 11 - Q SENSOR* (propriedades : Motion, Temperature, Luminance, Humidity, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Battery-Maintenance, Indicator)
 - Configuração adicionada *Zooz ZES18 - ZSE 18 - MOTION SENSOR* (propriedades : Motion, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Magnetic, Indicator)
-
-
-
 
 # 15/11/2024
 
@@ -97,7 +99,6 @@
 **Melhorias**
 
 - Adição de uma função adicionalDependancyCheck para o núcleo
-
 
 **Alterações de configuração**
 
@@ -184,7 +185,6 @@
 - Configuração adicionada *Thermofloor Heat It ZM Relé Alta Potência* (propriedades : Interruptor, alimentação, energia, notificação de sensor de calor, notificação de sobrecarga, cena central)
 - Adicionando uma subpropriedade *notificação simples* para propriedade *Abertura*
 
-
 # 11/09/2023
 
 **Conserta**
@@ -235,7 +235,6 @@
 - Adição de uma mensagem no centro de mensagens quando um nó fica inoperante (além do comando de status do equipamento)
 - Adição de uma mensagem no centro de mensagens quando um nó fica Alive depois de Morto (além do comando de status do equipamento)
 - Adição de uma mensagem no centro de mensagens quando um nó não acordou após 4 vezes seu intervalo de ativação
-
 
 **Adições de configuração**
 
@@ -352,7 +351,6 @@
 - Configuração adicionada *U-Fada GR-201N* (propriedades : Switch)
 - Configuração adicionada *Relé de Caldeira Danfoss* (propriedades : Switch)
 - Configuração adicionada *Som de Alarme Benext* (propriedades : Switch)
-
 
 # 24/12/2022
 
@@ -645,7 +643,6 @@
 - Adição de uma página que permite ver todas as *definições* pendente
 - Adição de uma página webapp que permite ver todos os *definições* pendente
 - Adição de um botão de exclusão na página *Pendente*. Permite deletar uma linha em espera. Isto não apaga a ordem que foi enviada para o controlador mas apenas a informação pendente no Jeedom (útil para parâmetros de calibração por exemplo que nunca levam o valor enviado ou qualquer outro parâmetro onde seria inútil)
-
 
 **Alterações de configuração**
 

@@ -4,13 +4,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-- Possibilité de mettre a jour le firmware de la luna en 8.0.2.0
-- Version de zigbee2mqtt par defaut 2.2.1
-- Correction d'un soucis visuel sur l'inclusion en z2m 2.3 ou plus
+# 
 
->**IMPORTANTE**
->
->SUr les luna il faut mettre a jour votre firmware en 8.0.2.0 pour avoir un zigbee2mqtt qui marche en 2.2.1
+- .)
+- Correction d'un soucis visuel sur l'inclusion en z2m 2.3 ou plus
 
 # 14/01/2025
 
