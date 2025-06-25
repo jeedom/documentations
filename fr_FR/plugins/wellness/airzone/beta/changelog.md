@@ -16,6 +16,11 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 
+## 24/06/2025
+
+- Fix unité Humidité (relancer un scan des zones via la passerelle si équipements deja existants)
+
+
 ## 06/06/2025
 
 - Ajout Device IAQ Eqlogic + auto refresh (création auto au scan des zones)

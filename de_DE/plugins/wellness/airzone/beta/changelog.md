@@ -16,6 +16,11 @@
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
 
+## 
+
+- )
+
+
 ## 06/06/2025
 
 - Ajout Device IAQ Eqlogic + auto refresh (création auto au scan des zones)
