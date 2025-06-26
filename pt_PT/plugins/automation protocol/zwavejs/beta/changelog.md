@@ -4,17 +4,11 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-- Mudar para a versão *9.26.0* por ZwaveJsUI
-- Adicionado modo remoto *(Attention: isso reduz a funcionalidade do plugin)*. Leia atentamente a documentação, mudar para o modo remoto tem um forte impacto na facilidade de uso e na compatibilidade de determinados módulos
-- Suporte ao protocolo mqtts
+# 24/06/2025
 
-# 
+- Correction d'un bug qui se produisait sous PHP8 lors de la création des commandes manquantes.
 
-- .
-
-# 10/06/2025
-
-- Fixe de la configuration *Mco Home MH-S412 double*
+#  *Mco Home MH-S412 double*
 
 # 10/06/2025
 
@@ -45,7 +39,12 @@
 
 # 15/11/2024
 
+- Mudar para a versão *9.26.0* por ZwaveJsUI
 - Corrigir método de instalação de dependência
+
+# 
+
+- Suporte ao protocolo mqtts
 
 # 27/09/2024
 
@@ -56,7 +55,7 @@
 **Melhorias**
 
 - Mudar para a versão *9.20.0* por ZwaveJsUI
-- Preparando-se para integrar o modo remoto
+- 
 - Limpeza de código
 
 **Adições de configuração**
@@ -99,6 +98,7 @@
 **Melhorias**
 
 - Adição de uma função adicionalDependancyCheck para o núcleo
+
 
 **Alterações de configuração**
 
@@ -185,6 +185,7 @@
 - Configuração adicionada *Thermofloor Heat It ZM Relé Alta Potência* (propriedades : Interruptor, alimentação, energia, notificação de sensor de calor, notificação de sobrecarga, cena central)
 - Adicionando uma subpropriedade *notificação simples* para propriedade *Abertura*
 
+
 # 11/09/2023
 
 **Conserta**
@@ -235,6 +236,7 @@
 - Adição de uma mensagem no centro de mensagens quando um nó fica inoperante (além do comando de status do equipamento)
 - Adição de uma mensagem no centro de mensagens quando um nó fica Alive depois de Morto (além do comando de status do equipamento)
 - Adição de uma mensagem no centro de mensagens quando um nó não acordou após 4 vezes seu intervalo de ativação
+
 
 **Adições de configuração**
 
@@ -351,6 +353,7 @@
 - Configuração adicionada *U-Fada GR-201N* (propriedades : Switch)
 - Configuração adicionada *Relé de Caldeira Danfoss* (propriedades : Switch)
 - Configuração adicionada *Som de Alarme Benext* (propriedades : Switch)
+
 
 # 24/12/2022
 
@@ -643,6 +646,7 @@
 - Adição de uma página que permite ver todas as *definições* pendente
 - Adição de uma página webapp que permite ver todos os *definições* pendente
 - Adição de um botão de exclusão na página *Pendente*. Permite deletar uma linha em espera. Isto não apaga a ordem que foi enviada para o controlador mas apenas a informação pendente no Jeedom (útil para parâmetros de calibração por exemplo que nunca levam o valor enviado ou qualquer outro parâmetro onde seria inútil)
+
 
 **Alterações de configuração**
 

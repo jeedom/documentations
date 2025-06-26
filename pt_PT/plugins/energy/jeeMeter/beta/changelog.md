@@ -4,6 +4,11 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
+#  ***()***
+
+-  ****
+-  *()*
+
 # 25/04/2025 ***(1.0)***
 
 - Ajout d'un bouton permettant de forcer la création des compteurs OCPP *(page de configuration du plugin)*

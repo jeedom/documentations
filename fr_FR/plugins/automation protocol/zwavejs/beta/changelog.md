@@ -4,17 +4,11 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-- Passage à la version *9.26.0* de ZwaveJsUI
-- Ajout du mode distant *(Attention: cela réduit les fonctionnalités du plugin)*. Bien lire la documentation, le passage en mode distant à un fort impact sur la simplicité d'utilisation et la compatibilité de certains modules
-- Support du protocole mqtts
-
 # 24/06/2025
 
 - Correction d'un bug qui se produisait sous PHP8 lors de la création des commandes manquantes.
 
-# 10/06/2025
-
-- Fixe de la configuration *Mco Home MH-S412 double*
+# 10/06/2025- Fixe de la configuration *Mco Home MH-S412 double*
 
 # 10/06/2025
 
@@ -45,7 +39,12 @@
 
 # 15/11/2024
 
+- Passage à la version *9.26.0* de ZwaveJsUI
 - Correction de la méthode d'installation des dépendances
+
+# 10/11/2024
+
+- Support du protocole mqtts
 
 # 27/09/2024
 
@@ -56,7 +55,7 @@
 **Améliorations**
 
 - Passage à la version *9.20.0* de ZwaveJsUI
-- Préparation pour intégrer le mode distant
+- Préparation pour merge le mode distant dans la prochaine version
 - Nettoyage de code
 
 **Ajouts de Configurations**
@@ -99,6 +98,7 @@
 **Améliorations**
 
 - Rajout d'une fonction additionalDependancyCheck pour le core
+
 
 **Modifications de Configurations**
 
@@ -185,6 +185,7 @@
 - Ajout de la configuration *Thermofloor Heat It ZM Relay High Power* (propriétés : Switch, Power, Energy, Notification Heat Sensor, Notification Over Load, Centra Scene)
 - Ajout d'une sous propriété *notification-simple* pour la propriété *Opening*
 
+
 # 11/09/2023
 
 **Corrections**
@@ -235,6 +236,7 @@
 - Rajout d'un message dans le centre de message lorsqu'un noeud passe Dead (en plus de la commande statut de l'équipement)
 - Rajout d'un message dans le centre de message lorsqu'un noeud passe Alive après avoir été Dead (en plus de la commande statut de l'équipement)
 - Rajout d'un message dans le centre de message lorsqu'un noeud ne s'est pas réveillé après 4 fois son interval de réveil
+
 
 **Ajouts de Configurations**
 
@@ -351,6 +353,7 @@
 - Ajout de la configuration *U-Fairy GR-201N* (propriétés : Switch)
 - Ajout de la configuration *Danfoss Boiler Relay* (propriétés : Switch)
 - Ajout de la configuration *Benext Alarm Sound* (propriétés : Switch)
+
 
 # 24/12/2022
 
@@ -643,6 +646,7 @@
 - Rajout d'une page permettant de voir tous les *paramètres* en attente
 - Rajout d'une page webapp permettant de voir tous les *paramètres* en attente
 - Rajout d'un bouton supprimer sur la page *En attente*. Permet de supprimer une ligne en attente. Celui-ci ne supprime pas l'ordre qui a été envoyé au contrôleur mais seulement l'information en attente dans Jeedom (utile pour les paramètres de calibration par exemple qui ne prennent jamais la valeur envoyée ou tout autre paramètre où ca serait inutile)
+
 
 **Modifications de Configurations**
 

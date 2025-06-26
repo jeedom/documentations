@@ -4,6 +4,11 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 25/06/2025 ***(1.0.2)***
+
+- Il est désormais possible de comptabiliser plusieurs transactions simultanées d'un même utilisateur pour les **compteurs OCPP**
+- Les puissances sont cumulées en cas de transactions actives simultanément *(compteurs personnalisés et OCPP)*
+
 # 25/04/2025 ***(1.0)***
 
 - Ajout d'un bouton permettant de forcer la création des compteurs OCPP *(page de configuration du plugin)*
