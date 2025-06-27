@@ -55,7 +55,6 @@
 **Améliorations**
 
 - Passage à la version *9.20.0* de ZwaveJsUI
-- Préparation pour merge le mode distant dans la prochaine version
 - Nettoyage de code
 
 **Ajouts de Configurations**

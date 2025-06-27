@@ -8,7 +8,7 @@
 
 - Correction d'un bug qui se produisait sous PHP8 lors de la création des commandes manquantes.
 
-#  *Mco Home MH-S412 double*
+# 10/06/2025- Fixe de la configuration *Mco Home MH-S412 double*
 
 # 10/06/2025
 
@@ -42,7 +42,7 @@
 - Zur Version wechseln *9.26.0* von ZwaveJsUI
 - Korrigieren Sie die Abhängigkeitsinstallationsmethode
 
-# 
+# 10/11/2024
 
 - Unterstützung des mqtts-Protokolls
 
@@ -55,7 +55,6 @@
 **Verbesserungen**
 
 - Zur Version wechseln *9.20.0* von ZwaveJsUI
-- 
 - Codebereinigung
 
 **Konfigurationsergänzungen**
