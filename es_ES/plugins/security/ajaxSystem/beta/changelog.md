@@ -4,9 +4,12 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
-# 
 
-- 
+- )
+
+# 17/06/2025
+
+- Ajout du waterstop
 - Mejor gestión de las solicitudes en la nube
 - Se agregaron códigos de eventos al control remoto (control de espacio)
 - Ajout de FireProtect2PlusSb
