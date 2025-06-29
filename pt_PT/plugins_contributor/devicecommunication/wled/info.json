@@ -22,7 +22,7 @@
 	"maxDependancyInstallTime": 0,
 	"changelog": "https://jmvedrine.github.io/jeedom-wled/#language#/changelog",
 	"documentation": "https://jmvedrine.github.io/jeedom-wled/#language#/",
-	"changelog_beta": "https://jmvedrine.github.io/jeedom-wled/#language#/changelog",
+	"changelog_beta": "https://jmvedrine.github.io/jeedom-wled/#language#/changelog_beta.md",
 	"documentation_beta": "https://jmvedrine.github.io/jeedom-wled/#language#/",
 	"language": [
 		"de_DE",
