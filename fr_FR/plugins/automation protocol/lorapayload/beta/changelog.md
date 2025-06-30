@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 20/06/2025 (Beta)
+# 30/06/2025 (Beta)
 
 - Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
 
@@ -23,6 +23,8 @@
 - Correction décodeur *Dragino WSC2_L_PM2.5*
 
 - Correction du lancement du deamon en double
+
+- Ajout du produit * mclimate_16ADS - 16A Dry Switch LoRaWAN*
 
 # 18/06/2025
 

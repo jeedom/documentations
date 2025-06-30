@@ -22,7 +22,9 @@
 
 - Decoder-Korrektur *Dragino WSC2_L_PM2.5*
 
-- 
+- Correction du lancement du deamon en double
+
+- Ajout du produit * *
 
 # 18/06/2025
 
