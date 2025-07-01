@@ -55,7 +55,7 @@
 .
 .
 
-> **Attention**
+> ****
 >
 > ). .
 
@@ -143,7 +143,7 @@ python
  = '' ## )
 
 
-> **Attention**
+> ****
 >
 > : . ). .
 
@@ -206,7 +206,7 @@ python
 
 .
 
-> **Attention**
+> ****
 >
 > ..
 
@@ -339,7 +339,7 @@ php
     }
 
 
-> **Attention**
+> ****
 >
 > .
 
@@ -601,7 +601,7 @@ json
 
 ##### pre-install: 
 
-Example :
+ :
 
 json
 {
@@ -613,7 +613,7 @@ json
 ##### post-install
 
 .
-Example :
+ :
 
 json
 {
@@ -733,7 +733,7 @@ php
 
 :
 
-> **Attention**
+> ****
 >
 > .
 >
@@ -799,7 +799,7 @@ fi
 - .
 - : ....
 
-> **Attention**
+> ****
 >
 > . . . .
 
@@ -837,7 +837,7 @@ php
 
 :  | . : 
 
-> **Attention**
+> ****
 >
 > .
 

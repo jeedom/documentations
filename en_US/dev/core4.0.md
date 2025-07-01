@@ -13,7 +13,7 @@
 
 ..
 
-Example ****: `"compatibility" : 
+ ****: `"compatibility" : 
 
 :
 
@@ -94,7 +94,7 @@ Example ****: `"compatibility" :
 >
 > .
 
-> Attention :
+>  :
 >
 > Sur les pages de scénario, plugins etc, le bouton ‘Supprimer' est passé à droite ! .
 
