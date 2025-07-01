@@ -4,9 +4,11 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# 
+- 
 
-- .)
+# 24/06/2025
+
+- Version de zigbee2mqtt par defaut 2.4 (sauf pour les luna)
 - Correction d'un soucis visuel sur l'inclusion en z2m 2.3 ou plus
 
 # 14/01/2025

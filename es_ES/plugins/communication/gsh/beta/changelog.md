@@ -4,10 +4,17 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 
+
+- 
+- 
+- Corrección de errores para PHP8
+- 
+
 # 11/06/2024
 
--  Corrección de errores para PHP8
--  Mejor gestión de modos
+- Corrección de errores para PHP8
+- Mejor gestión de modos
 
 # 24/10/2024
 

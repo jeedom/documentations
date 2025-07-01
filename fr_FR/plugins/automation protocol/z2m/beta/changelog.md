@@ -4,6 +4,8 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+- Meilleurs gestion des droits lors du lancement du demon
+
 # 24/06/2025
 
 - Version de zigbee2mqtt par defaut 2.4 (sauf pour les luna)
