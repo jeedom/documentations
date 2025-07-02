@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 30/06/2025 (Beta)
+# 02/07/2025 (Beta)
 
 - Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
 
@@ -24,7 +24,13 @@
 
 - Correction du lancement du deamon en double
 
-- Ajout du produit * mclimate_16ADS - 16A Dry Switch LoRaWAN*
+- Ajout du produit * Mclimate 16ADS - 16A Dry Switch LoRaWAN*
+
+- Correction du décodeur *Dragino SW3L - Compteur d'eau extérieur*
+
+- Ajout du downlink reboot pour *Dragino LT22222*
+
+- Ajout des downlinks pour *Mclimate - 16A Dry Switch LoRaWAN*
 
 # 18/06/2025
 

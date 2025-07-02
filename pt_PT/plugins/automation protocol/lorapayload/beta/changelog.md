@@ -26,6 +26,12 @@
 
 - Ajout du produit * *
 
+- Correction du décodeur **
+
+-  **
+
+-  **
+
 # 18/06/2025
 
 - Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*
