@@ -6,8 +6,8 @@
 >Si no hay información sobre la actualización, significa que solo se trata de actualización de documentación, traducción o texto.
 
 
-# 
-- 
+# 02/07/2025
+- Fix double appel requetes
 
 # 24/07/2024
 - Selección de interfaz de red agregada para escanear

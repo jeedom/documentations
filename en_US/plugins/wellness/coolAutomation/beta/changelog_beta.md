@@ -6,8 +6,8 @@
 >If there is no information on the update, it means that it only concerns updating documentation, translation or text.
 
 
-# 
-- 
+# 02/07/2025
+- Fix double appel requetes
 
 # 07/24/2024
 - Added Network Interface Selection for scanning
