@@ -1,15 +1,8 @@
 # BacnetManager
 
->**IMPORTANTE**
->
->. 
-
-
 # Description
 
-.
-
-
+O plugin Bacnet permite criar equipamentos Bacnet para o seu Jeedom, bem como seus comandos Jeedom, para serem vistos na rede por um supervisor Bacnet
 
 
 
@@ -33,7 +26,7 @@ Rien n'est à modifier dans le champ « Port socket interne » de la section « 
 ![socket](../images/BacnetManagerConfig.png)
 
 
-.
+Nesta mesma aba, você deve escolher o valor Cron para atualizar seu equipamento.
 
 
 
@@ -75,44 +68,28 @@ Não coloque espaços no nome do comando
 
 Tudo o que você precisa fazer é procurar os que deseja e validar.
 
->**IMPORTANTE**
->
->
 
 ![accueil](../images/BacnetManagerModale.png)
 
 
-
-
-.
-
- :
-
-![accueil](../images/BacnetManagerConfigCmds.png)
-
- :
-
-- ' : .
-- ' :  : . ). 
-
-
-#### Configurações de pedido
-
-
-1. **Escolha da Ação de Comando** : Selecione um comando de ação com base no plugin escolhido.
-2. **Valor Inicial** : Defina um valor inicial para inicializar o ponto Bacnet pela primeira vez.
-3. **Usar valor Bacnet** : Marque esta opção para usar o valor Bacnet. Caso esta opção não esteja marcada, deverá preencher o campo “Valor a enviar para a ação”".
-
-Ao executar o cron, o sistema irá verificar se houve alteração no valor do ponto Bacnet (escrevendo). Nesse ponto, ele enviará este valor Bacnet ou o valor inserido em "Enviar para Ação" para o comando Ação Parametrizada.
-
-
-
-
+O dispositivo bacnet com o instanceId que você escolheu será criado e aparecerá na sua rede.
 
 
 Para atualizar os valores você precisa configurar o cron na configuração do plugin.
 
 ![accueil](../images/BacnetManagerConfig.png)
+
+
+
+Para deletar comandos do Servidor, você deve ir aos comandos do equipamento, e simplesmente Deletar os que deseja e depois salvar.
+
+
+
+Você também pode excluir o dispositivo da rede, bem como seus pontos bacnet, clicando em Excluir o jeeBacnetManager.
+
+
+![accueil](../images/BacnetManagerReinit.png)
+
 
 
 
@@ -126,14 +103,31 @@ Os comandos Jeedom do tipo 'string' não precisam selecionar unidades.
 Na rede bacnet, as instâncias dos pontos usarão os nomes dos comandos especificados no campo no modal Adições de comandos.
 
 
+
+Uma função de pós-cálculo também é fornecida : 
+se você optar por preencher este postCalcul, o valor injetado no deviceBacnet terá levado o valor inicial para ser carregado com o cálculo especificado
+
+Você pode por exemplo :
+
+#value# * 10
+
+
+Isso pegará o valor inicial do comando carregado e o multiplicará por 10 antes de atualizá-lo na instância jeeServer
+
+Exemplo :
+
+![accueil](../images/BacnetManagerPost.png)
+
+
+
 >**IMPORTANTE**
 >
->
+>Você encontrará todos os comandos existentes no jeeServer na tela do plugin, clicando em Cmds JeeServer
 
 
 ![accueil](../images/BacnetManagerAccueil.png)
 
-
+![cmdExist](../images/BacnetManagerCmdsExit.png)
 
 
 # Importe/exporte o jeeBacnetManager (em breve)):
@@ -181,7 +175,7 @@ Ao clicar neste botão, você pode importar o arquivo json de configuração do 
 | pés cúbicos por hora                |
 | pés cúbicos por minuto              |
 | pés cúbicos por segundo              |
-| Metros cúbicos                     |
+| metros cúbicos                     |
 | metros cúbicos por dia               |
 | metros cúbicos por hora              |
 | metros cúbicos por minuto            |
@@ -269,7 +263,7 @@ Ao clicar neste botão, você pode importar o arquivo json de configuração do 
 | quilojoulesPor quilograma           |
 | quilojoulesPorquilogramaSecoAir     |
 | quilômetros                      |
-| quilômetrosPorhora               |
+| quilometros por hora               |
 | quilopascais                     |
 | quilovoltAmpereHoras             |
 | quilovoltAmpereHorasReativo     |
@@ -316,7 +310,7 @@ Ao clicar neste botão, você pode importar o arquivo json de configuração do 
 | micrômetros                     |
 | microsieverts                   |
 | microsievertsPorhora            |
-| milhasPorhora                    |
+| milhas por hora                    |
 | miliamperes                    |
 | milibares                       |
 | miligramas                      |
@@ -356,7 +350,7 @@ Ao clicar neste botão, você pode importar o arquivo json de configuração do 
 | pascalSegundos                   |
 | pascais                         |
 | por hora                         |
-| porMilha                        |
+| por milhar                        |
 | por minuto                       |
 | por segundo                       |
 | por cento                         |
@@ -373,7 +367,7 @@ Ao clicar neste botão, você pode importar o arquivo json de configuração do 
 | psiPerDegreeFahrenheit          |
 | radianos                         |
 | radianosPerSecond                |
-| revoluçõesPorMinuto            |
+| revoluções por minuto            |
 | segundos                         |
 | siemens                         |
 | siemensPerMeter                 |
@@ -411,6 +405,3 @@ Ao clicar neste botão, você pode importar o arquivo json de configuração do 
 | Weber                          |
 | semanas                           |
 | anos                           |
-
-
-

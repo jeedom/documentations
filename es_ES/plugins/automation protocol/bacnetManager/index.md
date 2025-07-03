@@ -1,15 +1,8 @@
 # BacnetManager
 
->**IMPORTANTE**
->
->. 
-
-
 # Description
 
-.
-
-
+El complemento Bacnet le permite crear equipos Bacnet para su Jeedom, así como sus comandos Jeedom, para que un supervisor Bacnet los vea en la red
 
 
 
@@ -33,7 +26,7 @@ Rien n'est à modifier dans le champ « Port socket interne » de la section « 
 ![socket](./images/BacnetManagerConfig.png)
 
 
-.
+En esta misma pestaña, debes elegir el valor de Cron para actualizar tu equipo.
 
 
 
@@ -75,44 +68,28 @@ No ponga espacios en el nombre del comando
 
 Todo lo que tienes que hacer es buscar los que quieras y Validar.
 
->**IMPORTANTE**
->
->
 
 ![accueil](./images/BacnetManagerModale.png)
 
 
-
-
-.
-
- :
-
-![accueil](./images/BacnetManagerConfigCmds.png)
-
- :
-
-- ' : .
-- ' :  : . ). 
-
-
-#### Configuración de pedidos
-
-
-1. **Elección de acción de comando** : Seleccione un comando de acción según el complemento elegido.
-2. **Valor inicial** : Establezca un valor inicial para inicializar el punto Bacnet por primera vez.
-3. **Usar valor Bacnet** : Marque esta opción para utilizar el valor Bacnet. Si esta opción no está marcada deberás rellenar el campo "Valor a enviar a la acción"".
-
-Al ejecutar el cron, el sistema comprobará si ha habido un cambio de valor en el punto Bacnet (escribiendo). En ese momento, enviará este valor de Bacnet o el valor ingresado en "Enviar a acción" al comando de acción parametrizada.
-
-
-
-
+Se creará el dispositivo bacnet con el ID de instancia que ha elegido y aparecerá en su red.
 
 
 Para actualizar los valores necesitas configurar el cron en la configuración del plugin.
 
 ![accueil](./images/BacnetManagerConfig.png)
+
+
+
+Para borrar comandos del Servidor, debe ir a los comandos del equipo, y simplemente Borrar los que desee y luego guardar.
+
+
+
+También puede eliminar el dispositivo de la red, así como sus puntos bacnet, haciendo clic en Eliminar el jeeBacnetManager.
+
+
+![accueil](./images/BacnetManagerReinit.png)
+
 
 
 
@@ -126,14 +103,31 @@ Los comandos Jeedom de tipo 'cadena' no tienen que seleccionar unidades.
 En la red bacnet, las instancias de los puntos utilizarán los nombres de los comandos especificados en el campo del modal Adiciones de comandos.
 
 
+
+También se proporciona una función de cálculo posterior : 
+si elige completar este postCalcul, entonces el valor inyectado en el dispositivoBacnet habrá tomado el valor inicial para cargarse con el cálculo especificado
+
+Puedes por ejemplo :
+
+#value# * 10
+
+
+Esto tomará el valor inicial del comando cargado, luego lo multiplicará por 10 antes de actualizarlo en la instancia de jeeServer
+
+Ejemplo :
+
+![accueil](./images/BacnetManagerPost.png)
+
+
+
 >**IMPORTANTE**
 >
->
+>Encontrará todos los comandos existentes en el jeeServer en la pantalla del complemento, haciendo clic en Cmds JeeServer
 
 
 ![accueil](./images/BacnetManagerAccueil.png)
 
-
+![cmdExist](./images/BacnetManagerCmdsExit.png)
 
 
 # Importar/Exportar jeeBacnetManager (próximamente)):
@@ -165,7 +159,7 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | amperios                         |
 | amperios por metro                 |
 | amperios por metro cuadrado           |
-| verja                            |
+| barras                            |
 | becquereles                      |
 | btus                            |
 | btusPorHora                     |
@@ -176,12 +170,12 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | centímetros                     |
 | centímetrosDeMercurio            |
 | centímetrosDeAgua              |
-| pies cúbicos                       |
+| pie cúbico                       |
 | Pies cúbicos por día                 |
 | pies cúbicos por hora                |
 | pies cúbicos por minuto              |
 | Pies cúbicos por segundo              |
-| Metros cúbicos                     |
+| metros cubicos                     |
 | Metros cúbicos por día               |
 | Metros cúbicos por hora              |
 | Metros cúbicos por minuto            |
@@ -201,7 +195,7 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | días                            |
 | decibeles                        |
 | decibelesA                       |
-| decibeliosMilivoltios               |
+| decibelesMilivoltios               |
 | decibelesVoltio                    |
 | gradosDíasCelsius               |
 | gradosDíasFahrenheit            |
@@ -269,7 +263,7 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | kilojulios por kilogramo           |
 | kilojulios por kilogramo aire seco     |
 | kilómetros                      |
-| kilómetrosporhora               |
+| Kilómetros por hora               |
 | kilopascales                     |
 | kilovoltiosAmperiosHoras             |
 | kilovoltiosAmperiosHorasReactivo     |
@@ -356,7 +350,7 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | pascalSegundos                   |
 | pascales                         |
 | por hora                         |
-| por Milla                        |
+| Por milla                        |
 | por minuto                       |
 | por segundo                       |
 | por ciento                         |
@@ -369,19 +363,19 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | librasMasaPorHora               |
 | librasMasaPorMinuto             |
 | librasMasaPorSegundo             |
-| factor de potencia                     |
+| Factor de potencia                     |
 | psiPorDegradoFahrenheit          |
 | radianes                         |
 | radianes por segundo                |
 | revoluciones por minuto            |
-| artículos de segunda clase                         |
+| segundos                         |
 | siemens                         |
 | siemens por metro                 |
 | sieverts                        |
 | cuadradosCentímetros               |
 | pies cuadrados                      |
 | pulgadas cuadradas                    |
-| Metros cuadrados                    |
+| metros cuadrados                    |
 | Metros cuadrados por Newton           |
 | tesla                          |
 | térmico                          |
@@ -411,6 +405,3 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 | webers                          |
 | semanas                           |
 | años                           |
-
-
-

@@ -1,8 +1,6 @@
-# Changelog BacnetManager
+# Changelog BACnetServer
 
 
-# 09/09/2024
-- Adicionado modo avançado : Detecção de gravação externa no servidor, para então executar comandos de ação no Jeedom
 
 # 09/07/2024
 - Redesenho Modal UX cmds jeeBacnetManager

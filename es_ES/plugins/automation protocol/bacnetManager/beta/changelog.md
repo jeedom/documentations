@@ -1,9 +1,29 @@
 # Changelog BacnetManager
 
+# Changelog BacnetManager
 
-# 22/01/2025
-- Ajout Documentation
 
+# 
+- 
+
+# 
+-  : 
+
+# 
+- Rediseño modal de UX cmds jeeBacnetManager
+- Posibilidad de ignorar el campo de nombre para cambiar el nombre en el servidor
+
+# 
+- Función PostCalcular
+
+# 
+- Comandos modales de recapitulación jeeServer
+
+# 
+- Unidades de cambio modal, Cmds de nombre
+
+# 
+- Complemento alfa
 
 
 
