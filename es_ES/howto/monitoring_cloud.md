@@ -12,7 +12,7 @@ Dependiendo de la cantidad de meses que tome, tendrá derecho a meses libres :
 
 ## Lo que se está monitoreando
 
-Jeedom envía regularmente la información de la página de salud a nuestro servicio de monitoreo, que la analiza y le alerta si tiene alguna inquietud. Además, si su casilla no envía información durante más de 15 minutos, nuestro servicio de monitoreo le advierte que hay un problema.
+Jeedom envía regularmente la información de la página de salud a nuestro servicio de monitoreo, que la analiza y le alerta si tiene alguna inquietud. .
 
 ## Como me avisan
 

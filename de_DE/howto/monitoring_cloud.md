@@ -12,7 +12,7 @@ Abhängig von der Anzahl der Monate haben Sie das Recht, Monate freizugeben :
 
 ## Was wird überwacht?
 
-Jeedom sendet die Informationen auf der Gesundheitsseite regelmäßig an unseren Überwachungsdienst, der sie analysiert und Sie benachrichtigt, wenn Sie Bedenken haben. Wenn Ihre Box länger als 15 Minuten keine Informationen sendet, warnt Sie unser Überwachungsdienst vor einem Problem.
+Jeedom sendet die Informationen auf der Gesundheitsseite regelmäßig an unseren Überwachungsdienst, der sie analysiert und Sie benachrichtigt, wenn Sie Bedenken haben. .
 
 ## Wie werde ich gewarnt?
 

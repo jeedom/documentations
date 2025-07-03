@@ -413,7 +413,7 @@
         "8 mois offerts": "8 mois offerts",
         "Qu'est ce qui est surveillé": "Qu'est ce qui est surveillé",
         "Jeedom envoi regulierement les informations de la page santé à notre service de monitoring, qui en fait l'analyse et vous prévient en cas de soucis": "Jeedom envoi regulierement les informations de la page santé à notre service de monitoring, qui en fait l'analyse et vous prévient en cas de soucis",
-        "De plus si votre box n'envoi pas d'information pendant plus de 15min notre service monitoring vous prévient qu'il y a un soucis": "De plus si votre box n'envoi pas d'information pendant plus de 15min notre service monitoring vous prévient qu'il y a un soucis",
+        "De plus si votre box n'envoi pas d'information pendant plus de 60min notre service monitoring vous prévient qu'il y a un soucis": "De plus si votre box n'envoi pas d'information pendant plus de 60min notre service monitoring vous prévient qu'il y a un soucis",
         "Comment suis-je prévenu": "Comment suis-je prévenu",
         "Par default vous êtes prévenu par un mail sur votre mail configuré dans votre profils mais vous pouvez dans la configuration du monitoring cloud (sur votre page profils du market": "Par default vous êtes prévenu par un mail sur votre mail configuré dans votre profils mais vous pouvez dans la configuration du monitoring cloud (sur votre page profils du market",
         "Mettre une autre adresse mail (une seule possible": "Mettre une autre adresse mail (une seule possible",
