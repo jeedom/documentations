@@ -730,7 +730,7 @@
         "8 mois offerts": "8 Monate frei",
         "Qu'est ce qui est surveillé": "Was wird überwacht?",
         "Jeedom envoi regulierement les informations de la page santé à notre service de monitoring, qui en fait l'analyse et vous prévient en cas de soucis": "Jeedom sendet die Informationen auf der Gesundheitsseite regelmäßig an unseren Überwachungsdienst, der sie analysiert und Sie benachrichtigt, wenn Sie Bedenken haben",
-        "De plus si votre box n'envoi pas d'information pendant plus de 60min notre service monitoring vous prévient qu'il y a un soucis": "",
+        "De plus si votre box n'envoi pas d'information pendant plus de 60min notre service monitoring vous prévient qu'il y a un soucis": "De plus si votre box n'envoi pas d'information pendant plus de 60min notre service monitoring vous prévient qu'il y a un soucis",
         "Comment suis-je prévenu": "Wie werde ich gewarnt?",
         "Par default vous êtes prévenu par un mail sur votre mail configuré dans votre profils mais vous pouvez dans la configuration du monitoring cloud (sur votre page profils du market": "Standardmäßig werden Sie durch eine E-Mail in Ihrer E-Mail benachrichtigt, die in Ihren Profilen konfiguriert ist. Sie können dies jedoch in der Cloud-Überwachungskonfiguration (auf Ihrer Marktprofilseite) tun",
         "Mettre une autre adresse mail (une seule possible": "Geben Sie eine andere E-Mail-Adresse ein (nur eine möglich",
