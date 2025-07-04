@@ -8,6 +8,7 @@
 
 # 02/07/2025
 - Fix double appel requetes
+- 
 
 # 24.07.2024
 - Auswahl der Netzwerkschnittstelle zum Scannen hinzugefügt

@@ -8,6 +8,7 @@
 
 # 02/07/2025
 - Fix double appel requetes
+- Fix code erreur
 
 # 24/07/2024
 - Ajout Selection Interface Réseau pour le scan
