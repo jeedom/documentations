@@ -5,7 +5,6 @@
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
 # )
-
 - Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
 
 - Ajout du panneau Admin “Cache queueDownlink” (visualisation, purge, suppr. individuelle)
@@ -24,11 +23,15 @@
 
 - Correction du lancement du deamon en double
 
-- Ajout du produit * *
+- Ajout du produit * Mclimate 16ADS - 16A Dry Switch LoRaWAN*
 
-- Correction du décodeur **
+- Correction du décodeur *Dragino SW3L - Compteur d'eau extérieur*
 
--  **
+- Ajout du downlink reboot pour *Dragino LT22222*
+
+- Ajout des downlinks pour *Mclimate - 16A Dry Switch LoRaWAN*
+
+-  *Milesight GS601 - Vape Detector*
 
 -  **
 
@@ -52,7 +55,7 @@
 
 - Ajout du produit *Milesight GS601 - Vape Detector*
 
-- Ajout du produit *Milesight WS302 - Sound Contact Switch*
+- Ajout du produit **
 
 - Ajout des commandes Index pour *TIC LoraWAN*
 

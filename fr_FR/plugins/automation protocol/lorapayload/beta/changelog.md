@@ -4,8 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 02/07/2025 (Beta)
-
+# 04/07/2025 (Beta)
 - Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
 
 - Ajout du panneau Admin “Cache queueDownlink” (visualisation, purge, suppr. individuelle)
@@ -32,6 +31,10 @@
 
 - Ajout des downlinks pour *Mclimate - 16A Dry Switch LoRaWAN*
 
+- Correction commandes *Milesight GS601 - Vape Detector*
+
+- Correction commandes *Milesight WS302 - Sound Level Sensor*
+
 # 18/06/2025
 
 - Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*
@@ -52,7 +55,7 @@
 
 - Ajout du produit *Milesight GS601 - Vape Detector*
 
-- Ajout du produit *Milesight WS302 - Sound Contact Switch*
+- Ajout du produit *Milesight WS302 - Sound Level Sensor*
 
 - Ajout des commandes Index pour *TIC LoraWAN*
 
