@@ -1,0 +1,36 @@
+{
+    "id": "aristonBoiler",
+    "name": "AristonBoiler",
+    "pluginVersion": "0.1",
+    "description": {
+        "fr_FR": "Plugin de gestion des chaudières Ariston"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2",
+    "os": {
+        "min": 10,
+        "max": 12.99
+    },
+    "category": "wellness",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 0,
+    "changelog_beta": "https://doc.jeedom.com/#language#/plugins/programming/aristonBoiler/beta/changelog",
+    "changelog": "https://doc.jeedom.com/#language#/plugins/programming/aristonBoiler/changelog",
+    "documentation_beta": "https://doc.jeedom.com/#language#/plugins/programming/aristonBoiler/beta",
+    "documentation": "https://doc.jeedom.com/#language#/plugins/programming/aristonBoiler",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES"
+    ],
+    "compatibility": [
+        "smart",
+        "luna",
+        "atlas",
+        "rpi",
+        "docker",
+        "diy"
+    ]
+}
