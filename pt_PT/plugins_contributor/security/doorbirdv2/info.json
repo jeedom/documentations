@@ -12,8 +12,8 @@
     "hasOwnDeamon": false,
     "hasDependency" : false,
     "maxDependancyInstallTime" : 0,
-    "changelog" : "https://github.com/vegeta0911/documentation/blob/master/plugins/fr_FR/Doorbirdv2/changelog.md",
-    "documentation" : "https://github.com/vegeta0911/documentation/blob/master/plugins/fr_FR/Doorbirdv2/index.md",
+    "changelog" : "https://vegeta0911.github.io/documentation/plugins/fr_FR/Doorbirdv2/changelog",
+    "documentation" : "https://vegeta0911.github.io/documentation/plugins/fr_FR/Doorbirdv2/",
     "language": [
 		"fr_FR"
 	],
