@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 04/07/2025 (Beta)
+# 07/07/2025 (Beta)
 - Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
 
 - Ajout du panneau Admin “Cache queueDownlink” (visualisation, purge, suppr. individuelle)
@@ -34,6 +34,8 @@
 - Correction commandes *Milesight GS601 - Vape Detector*
 
 - Correction commandes *Milesight WS302 - Sound Level Sensor*
+
+- Correction décodeur *BMeters IWM-LR3 - Water Meter Reader*
 
 # 18/06/2025
 

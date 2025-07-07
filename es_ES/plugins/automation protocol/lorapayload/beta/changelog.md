@@ -31,9 +31,11 @@
 
 - Ajout des downlinks pour *Mclimate - 16A Dry Switch LoRaWAN*
 
--  *Milesight GS601 - Vape Detector*
+- Correction commandes *Milesight GS601 - Vape Detector*
 
--  **
+- Correction commandes *Milesight WS302 - Sound Level Sensor*
+
+- Corrección del decodificador *BMeters IWM-LR3 - Water Meter Reader*
 
 # 18/06/2025
 
@@ -55,7 +57,7 @@
 
 - Ajout du produit *Milesight GS601 - Vape Detector*
 
-- Ajout du produit **
+- Ajout du produit *Milesight WS302 - Sound Level Sensor*
 
 - Ajout des commandes Index pour *TIC LoraWAN*
 
