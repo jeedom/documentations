@@ -16,3 +16,8 @@ Permet de piloter un ballon d'eau chaude Ariston connecté via l'API Web. Foncti
 ---
 
 N'hésitez pas à consulter la documentation ou à demander de l'aide sur le forum en cas de besoin.
+
+
+## Librairie externe utilisée :
+
+https://pypi.org/project/ariston-boiler-control/
