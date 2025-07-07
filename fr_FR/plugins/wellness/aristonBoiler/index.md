@@ -1,4 +1,7 @@
+
 # Plugin AristonECS
+
+Permet de piloter un ballon d'eau chaude Ariston connecté via l'API Web. Fonctionne actuellement uniquement avec le ballon principal configuré sur l'interface Ariston.
 
 ## Guide d'utilisation
 

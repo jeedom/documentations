@@ -3,7 +3,7 @@
     "name": "AristonECS",
     "pluginVersion": "0.1",
     "description": {
-        "fr_FR": "Plugin de gestion des ballons d'eau chaude sanitaire Ariston"
+        "fr_FR": "Permet de piloter un ballon d'eau chaude Ariston connecté via l'API Web. Fonctionne actuellement uniquement avec le ballon principal configuré sur l'interface Ariston."
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
