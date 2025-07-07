@@ -1,18 +1,15 @@
-# Plugin template
+# Plugin AristonECS
 
-Ce "template de plugin" sert de base à la réalisation de plugins pour **Jeedom**.
+## Guide d'utilisation
 
-La documentation générale relative à la conception de plugin est consultable [ici](https://doc.jeedom.com/fr_FR/dev/).
+1. **Installation des dépendances** : Laissez le plugin installer automatiquement les dépendances nécessaires.
 
-Dans le détail :   
-* [Utilisation du template de plugin](https://doc.jeedom.com/fr_FR/dev/plugin_template) : Le template de plugin est une base de plugin pour Jeedom qui doit être adaptée avec l'id de votre plugin et à laquelle il suffit d'ajouter vos propres fonctions.
+2. **Configuration** : Rendez-vous dans la configuration du plugin et renseignez votre identifiant et mot de passe du site Ariston. Cela permettra, au lancement du démon, d'établir une connexion sécurisée avec votre espace personnel afin de piloter votre équipement.
 
-* [Fichier info.json](https://doc.jeedom.com/fr_FR/dev/structure_info_json) : Intégré depuis la version 3.0 de Jeedom, le fichier **info.json** est obligatoire pour le bon fonctionnement des plugins et leur bon déploiement sur le Market Jeedom.
+3. **Création d'un équipement** : Créez un nouvel équipement. Lors de sa sauvegarde, les commandes d'information et d'action seront générées automatiquement.
 
-* [Icône du plugin](https://doc.jeedom.com/fr_FR/dev/Icone_de_plugin) : Afin de pouvoir être publié sur le Market Jeedom, tout plugin doit disposer d’une icône. Attention à ne pas utiliser le même code couleur que les icônes des plugins Jeedom officiels.
+4. **Fréquence de rafraîchissement** : Par défaut, la fréquence de mise à jour des données est de 5 minutes. Vous pouvez modifier cette valeur dans la configuration du plugin (option "Choix cron").
 
-* [Widget du plugin](https://doc.jeedom.com/fr_FR/dev/widget_plugin) : Présentation des différentes manières d'inclure des widgets personnalisés au plugin.
+---
 
-* [Documentation du plugin](https://doc.jeedom.com/fr_FR/dev/documentation_plugin) : Présentation de la mise en place d'une documentation car un bon plugin n'est rien sans documentation adéquate.
-
-* [Publication du plugin](https://doc.jeedom.com/fr_FR/dev/publication_plugin) : Description des pré-requis indispensables à la publication du plugin.
+N'hésitez pas à consulter la documentation ou à demander de l'aide sur le forum en cas de besoin.
