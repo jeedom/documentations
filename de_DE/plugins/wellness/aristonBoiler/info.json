@@ -1,9 +1,9 @@
 {
     "id": "aristonBoiler",
-    "name": "AristonBoiler",
+    "name": "AristonECS",
     "pluginVersion": "0.1",
     "description": {
-        "fr_FR": "Plugin de gestion des chaudières Ariston"
+        "fr_FR": "Plugin de gestion des ballons d'eau chaude sanitaire Ariston"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
