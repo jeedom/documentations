@@ -4,7 +4,7 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# 
+# 28/02/2025
 
 - Corrija um vazamento de memória no daemon
 - Corrigir um problema ao instalar dependências que poderiam ocorrer em determinadas instalações

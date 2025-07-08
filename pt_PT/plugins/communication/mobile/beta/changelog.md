@@ -4,6 +4,11 @@
 >
 > Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+
+# 
+
+- 
+
 # 18/06/2025
 
 - Ajout alerte si api mobile désactivée ou IP blanche

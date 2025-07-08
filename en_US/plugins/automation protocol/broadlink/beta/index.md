@@ -35,3 +35,33 @@ You can choose the orders to transfer as well as the broadlinks to which you wan
 >**INFORMATION**
 >
 >If you manually add your device because not autodetected. The MAC address to be entered is the reverse MAC address per packet of two in lowercase without the colons *(example AA:BB:CC:DD:EE becomes eeddccbbaa)*.
+
+# FAQ
+
+## 
+
+()
+
+:
+
+.
+
+. En effet j'ai pas mal galéré avant de trouver ça, impossible de faire apprendre les commandes RF par le plugin… Dans l'appli, sélectionner votre passerelle, puis « … » en haut à droite, décocher « Verrouiller l'appareil ». .
+
+).  : .
+
+:
+
+- 
+- 
+- 
+- 
+- 
+- .)
+- Vous avez 30s pour cliquer sur « Apprendre commande RF avancée » (plugin jeedom) puis le bouton de la télécommande (plusieurs fois jusqu'à détection)
+- 
+
+)
+. ()
+
+ !

@@ -35,3 +35,33 @@ Sie können die zu übertragenden Aufträge sowie die Broadlinks auswählen, an 
 >**INFORMATION**
 >
 >Wenn Sie Ihr Gerät manuell hinzufügen, weil es nicht automatisch erkannt wird. Die einzugebende MAC-Adresse ist die umgekehrte MAC-Adresse pro Zweierpaket in Kleinbuchstaben ohne Doppelpunkte *(Beispiel AA:BB:CC:DD:EE wird zu eeddccbbaa)*.
+
+# FAQ
+
+## 
+
+()
+
+:
+
+.
+
+. En effet j'ai pas mal galéré avant de trouver ça, impossible de faire apprendre les commandes RF par le plugin… Dans l'appli, sélectionner votre passerelle, puis « … » en haut à droite, décocher « Verrouiller l'appareil ». .
+
+).  : .
+
+:
+
+- 
+- 
+- 
+- 
+- 
+- .)
+- Vous avez 30s pour cliquer sur « Apprendre commande RF avancée » (plugin jeedom) puis le bouton de la télécommande (plusieurs fois jusqu'à détection)
+- 
+
+)
+. ()
+
+ !

@@ -97,7 +97,7 @@ Vous pouvez configurer la durée d'affichage des notifications in-app selon leur
 > **Ich habe Probleme bei der Anzeige meiner Webansicht**  
 > Vérifiez dans les Préférences de votre Jeedom que la page d'accueil mobile est bien définie sur **ACCUEIL**.
 
-> **L'application apparait sous jeedom sous IOS et/ou AppleWatch à la place de Jeedom**  
-> .
+> ****
+>  : .  : ". . . . 
 
 

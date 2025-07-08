@@ -97,7 +97,7 @@ Vous pouvez configurer la durée d'affichage des notifications in-app selon leur
 > **J'ai des soucis d'affichage de ma webview**  
 > Vérifiez dans les Préférences de votre Jeedom que la page d'accueil mobile est bien définie sur **ACCUEIL**.
 
-> **L'application apparait sous jeedom sous IOS et/ou AppleWatch à la place de Jeedom**  
-> .
+> **Je souhaite partager mes droits mobile sans communiquer mon compte Market**
+> Vous possédez le plugin Mobile sur votre box et vous l'avez ajouté dans l'application : vous avez accès aux notifications, à la géolocalisation, au menu personnalisé, etc. Un autre membre de votre famille, par exemple, souhaite également recevoir les notifications, mais vous ne souhaitez pas entrer votre compte Market sur son téléphone : il lui suffit d'aller dans Préférences > Réglages et de cliquer sur "Demander des droits à un autre mobile". Un code à 6 chiffres sera alors généré. Il devra le saisir sur le mobile possédant le compte Market, au même endroit. Un code à 4 chiffres sera ensuite généré pour être communiqué au mobile demandeur, confirmant ainsi la transaction. L'application sur le mobile demandeur redémarrera et disposera désormais de l'accès aux notifications, sans avoir de compte Market associé
 
 

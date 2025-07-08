@@ -4,7 +4,7 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 
+# 28/02/2025
 
 - Fix memory leak on daemon
 - Fixed a dependency installation issue that could occur on some installations
