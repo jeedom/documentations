@@ -1002,7 +1002,7 @@
         "Virtuel": "Virtuel",
         "Plugin permettant de créer des équipements virtuels dans Jeedom": "Plugin permettant de créer des équipements virtuels dans Jeedom",
         "sunPulseEasy": "sunPulseEasy",
-        "Template servant de base à la création de plugins pour Jeedom": "Template servant de base à la création de plugins pour Jeedom",
+        "Wizard de configuration pour les installateurs": "Wizard de configuration pour les installateurs",
         "Simulation présence": "Simulation présence",
         "Plugin pour la simulation de présence": "Plugin pour la simulation de présence",
         "Les scripts sont des programmes en Python\/PHP\/Shell\/Ruby etc... qui permettent d'ajouter des fonctions à Jeedom": "Les scripts sont des programmes en Python\/PHP\/Shell\/Ruby etc... qui permettent d'ajouter des fonctions à Jeedom",
