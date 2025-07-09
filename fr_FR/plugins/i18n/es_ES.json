@@ -3381,7 +3381,7 @@
     "plugins\/programming\/index.md": {
         "Plugin pour appliquer\/modifier\/créer des widgets": "Complemento para aplicar \/ modificar \/ crear widgets",
         "Plugin permettant de créer des équipements virtuels dans Jeedom": "Complemento para crear equipos virtuales en Jeedom",
-        "Wizard de configuration pour les installateurs": "",
+        "Wizard de configuration pour les installateurs": "Wizard de configuration pour les installateurs",
         "Simulation présence": "Simulación de presencia",
         "Plugin pour la simulation de présence": "Plugin para simulación de presencia",
         "Les scripts sont des programmes en Python\/PHP\/Shell\/Ruby etc... qui permettent d'ajouter des fonctions à Jeedom": "Los scripts son programas en Python \/ PHP \/ Shell \/ Ruby, etc ... que permiten agregar funciones a Jeedom",
