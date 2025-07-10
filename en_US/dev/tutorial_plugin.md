@@ -2,7 +2,7 @@
 
 > ****
 >
-> .  [here](https:forum.jeedom.comviewtopic.php?f=27&t=37630#p621495)
+> .  [](https:forum.jeedom.comviewtopic.php?f=27&t=37630#p621495)
 
 . . .()
 
@@ -12,7 +12,7 @@
 
 )
 
-Name : 
+ : 
  : vdm
 
  [](https:github.comjeedomplugin-templatearchivemaster.zip)
@@ -186,9 +186,9 @@ php
 
 php
 () {
-  $info = $this->getCmd(null, 'story')
+  $ = $this->getCmd(null, 'story')
    (!)) {
-    $info = new vdmCmd()
+    $ = new vdmCmd()
     $info->setName(__('Histoire', __FILE__))
   }
   $info->setLogicalId('story')
@@ -359,7 +359,7 @@ php
 }
 
 
-C'est here qu'on va définir ce qu'il va se passer quand on actionne la commande « Rafraîchir ». )
+C'est  qu'on va définir ce qu'il va se passer quand on actionne la commande « Rafraîchir ». )
 
 On vérifie le logical de la commande lancée et si « refresh » on lance les actions
 
@@ -375,7 +375,7 @@ php
 
 php
 $eqlogic = $this->getEqLogic() Récupération de l'eqlogic
-$info = $eqlogic->randomVdm()  Lance la fonction et stocke le résultat dans la variable $info
+$ = $eqlogic->randomVdm()  Lance la fonction et stocke le résultat dans la variable $info
 
 
 On met à jour la commande « story » avec la variable $info. 
@@ -391,7 +391,7 @@ php
   $eqlogic = $this->getEqLogic() récupère l'éqlogic de la commande $this
   
     ':  .
-    $info = $eqlogic->randomVdm() On lance la fonction randomVdm() pour récupérer une  et on la stocke dans la variable $info
+    $ = $eqlogic->randomVdm() On lance la fonction randomVdm() pour récupérer une  et on la stocke dans la variable $info
     $eqlogic->checkAndUpdateCmd('story', $info) on met à jour la commande avec le Logical "story"  de l'eqlogic
     break
   }
@@ -496,7 +496,7 @@ Pour tester, dans jeedom, allez dans configurationmoteur de tâches et lancer le
 
 
 php
-public function postUpdate() {
+() {
   $cmd = $this->getCmd(null, 'refresh') On recherche la commande refresh de l'équipement
   
     $cmd->execCmd()
@@ -511,7 +511,7 @@ public function postUpdate() {
 
 
 php
-public function postUpdate() {
+() {
   self::
 }
 
@@ -538,7 +538,7 @@ php
 
 .
 
- ==> [here](https:doc.jeedom.comdevphpdoc4.1)
+ ==> [](https:doc.jeedom.comdevphpdoc4.1)
 
  ==> [](https:github.comjeedomcore)
 
@@ -573,9 +573,9 @@ J'applique le template « cmd.info.string.tile.html » à ma commande.
 .php , fonction postSave() et j'ajoute le template « tile » pour la commande « story » en appliquant la méthode setTemplate()
 
 php
-$info = $this->getCmd(null, 'story')
+$ = $this->getCmd(null, 'story')
  (!)) {
-  $info = new vdmCmd()
+  $ = new vdmCmd()
   $info->setName(__('Histoire', __FILE__))
 }
 $info->setLogicalId('story')
@@ -665,7 +665,7 @@ html
 
 
 html
-{% raw %}<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Name de l'équipement}}"> retourne le nom de l'eqLogic(équipement) que l'on va pouvoir récupérer via $this->getName(){% endraw %}
+{% raw %}<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{ de l'équipement}}"> retourne le nom de l'eqLogic(équipement) que l'on va pouvoir récupérer via $this->getName(){% endraw %}
 
 
 Etc…
