@@ -7,11 +7,16 @@
 # 
 
 - 
+- : 
 
-# 
+# 30/04/2025
+
+- Fix un problème sur le lancement de commandes pour certaines installations (hub inconnu) suite à la version du 28/04
+
+# 28/04/2025
 
 > Attention
-> Rediseño significativo del complemento: )
+> Rediseño significativo del complemento: le plugin a été entièrement réécrit y compris la communication avec le hub Harmony (via démon à présent)
 >
 > Requiere Jeedom 4.4.8
 >
@@ -29,8 +34,7 @@
   - para tener retroalimentación de estado en tiempo real
 - Configuración simplificada: Ya solo queda la configuración de la IP del hub para entrar en el plugin config e iniciar el daemon y el equipo se sincroniza con Jeedom.
 - Agregar un pedido **Iniciar actividad** que indica la actividad que se está iniciando (vacío si no hay ninguna))
-- Fix un crash démon si plusieurs hubs configurés
-- Corrija la versión de una dependencia para evitar un cambio importante (contexto de tiempo de espera de interrupción async-timeout v5)
+- )
 
 # 17/09/2023
 

@@ -4,6 +4,11 @@
 >
 >Pour rappel, s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement la mise à jour de documentation, de traduction ou de texte.
 
+# 10/07/2025
+
+- Ajout d'un healthcheck dans le démon pour vérifier que celui-ci est toujours connecté aux hubs et s'y reconnecter si besoin
+- Fix un crash au démarrage du démon dans le cas où un hub est mal configuré ou non-joignable: le démon pourra démarrer avec les autres hubs s'ils existent ou s'arrêtera proprement si aucun hub n'est joignable
+
 # 30/04/2025
 
 - Fix un problème sur le lancement de commandes pour certaines installations (hub inconnu) suite à la version du 28/04
@@ -29,8 +34,7 @@
   - d'avoir un retour d'état en temps réel
 - Simplification de la configuration: il ne reste que la configuration de l'IP du hub à renseigner dans la config du plugin et démarrer le démon et les équipements se synchronisent tous seuls avec Jeedom.
 - Ajout d'une commande **Démarrage activité** qui indique l'activité qui est en cours de démarrage (vide si aucune)
-- Fix un crash démon si plusieurs hubs configurés
-- Fix la version d'une dépendance pour éviter un breaking change (async-timeout v5 break timeout context)
+- Bloque la version d'une dépendance pour éviter un breaking change (async-timeout v5 break timeout context)
 
 # 17/09/2023
 
