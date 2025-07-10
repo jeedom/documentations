@@ -37,6 +37,8 @@
 
 - Decoder-Korrektur *BMeters IWM-LR3 - Water Meter Reader*
 
+-  *BMeters IWM-LR3 - Water Meter Reader*
+
 # 18/06/2025
 
 - Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*
