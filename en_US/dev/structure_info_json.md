@@ -33,7 +33,7 @@
 ``hasOwnDeamon``             | «true» si [](https://doc.jeedom.com/en_US/dev/daemon_plugin#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), sinon «false» ou absent.                                                   |
 ``maxDependancyInstallTime`` | .                                            |
 ``specialAttributes`` | Permet aux plugin de demander des [parametre suplémentaire](https://doc.jeedom.com/en_US/dev/structure_info_json#SpecialAttributes) sur [des objets](https://doc.jeedom.com/en_US/dev/structure_info_json# [](https://doc.jeedom.com/en_US/dev/structure_info_json#Attributs%20User) ()                                            |
-``issue``                    | )
+``issue``                    | URL to the bugtracker if external (if not filled in then you will receive an email)
 
 ## Exemple
 
@@ -41,23 +41,23 @@
 
 ## 
 
-         | .               |
+Market Jeedom         | info.json               |
 --------------------- | ----------------------- |
-         | ``communication``           |
-               | ``wellness``                |
-               | ``energy``                  |
-                 | ``weather``                 |
-            | ``monitoring``              |
-            | ``multimedia``              |
-                | ``nature``                  |
-      | ``devicecommunication``     |
-          | ``organization``            |
-  | ``home automation protocol``|
-         | ``programming``             |
-   | ``automation protocol``     |
-                 | ``health``                  |
-              | ``security``                |
-           | ``automatisation``          |
+Communication         | ``communication``           |
+Comfort               | ``wellness``                |
+Energy               | ``energy``                  |
+Weather report                 | ``weather``                 |
+Monitoring            | ``monitoring``              |
+Multimedia            | ``multimedia``              |
+Nature                | ``nature``                  |
+Connected Objects      | ``devicecommunication``     |
+Organization          | ``organization``            |
+Home automation gateway  | ``home automation protocol``|
+Programming         | ``programming``             |
+Home automation protocol   | ``automation protocol``     |
+Health                 | ``health``                  |
+Security              | ``security``                |
+Automation           | ``automatisation``          |
 
 ## SpecialAttributes
 
