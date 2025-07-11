@@ -3,7 +3,16 @@
     "name": "sunPulseEasy",
     "pluginVersion": "0.1",
     "description": {
-        "fr_FR": "Wizard de configuration pour les installateurs"
+        "fr_FR": "Wizard de configuration pour les installateurs",
+        "en_US": "Wizard de configuration pour les installateurs",
+        "es_ES": "Wizard de configuration pour les installateurs",
+        "de_DE": "Wizard de configuration pour les installateurs",
+        "ru_RU": "Wizard de configuration pour les installateurs",
+        "id_ID": "Wizard de configuration pour les installateurs",
+        "it_IT": "Wizard de configuration pour les installateurs",
+        "ja_JP": "Wizard de configuration pour les installateurs",
+        "pt_PT": "Wizard de configuration pour les installateurs",
+        "tr": "Wizard de configuration pour les installateurs"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -26,7 +35,14 @@
     "language": [
         "fr_FR",
         "en_US",
-        "es_ES"
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "smart",
