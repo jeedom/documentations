@@ -114,7 +114,7 @@ Sie können zum Beispiel :
 
 Dies nimmt den Anfangswert des hochgeladenen Befehls und multipliziert ihn dann mit 10, bevor er in der jeeServer-Instanz aktualisiert wird
 
-Beispiel :
+ :
 
 ![accueil](./images/BacnetManagerPost.png)
 
@@ -159,7 +159,7 @@ Durch Klicken auf diese Schaltfläche können Sie die jeeBacnetManager-Konfigura
 | Ampere                         |
 | AmpereProMeter                 |
 | AmpereProQuadratmeter           |
-| Riegel                            |
+| Barren                            |
 | Becquerel                      |
 | BTUS                            |
 | btusPerHour                     |
@@ -173,7 +173,7 @@ Durch Klicken auf diese Schaltfläche können Sie die jeeBacnetManager-Konfigura
 | Kubikfuß                       |
 | Kubikfuß pro Tag                 |
 | Kubikfuß pro Stunde                |
-| Kubikfuss pro Minute              |
+| Kubikfuß pro Minute              |
 | KubikfußPerSekunde              |
 | Kubikmeter                     |
 | Kubikmeter pro Tag               |
@@ -203,7 +203,7 @@ Durch Klicken auf diese Schaltfläche können Sie die jeeBacnetManager-Konfigura
 | Grad Celsius                  |
 | Grad Celsius pro Stunde           |
 | Grad Celsius pro Minute         |
-| Grad Fahrenheit               |
+| GradFahrenheit               |
 | Grad Fahrenheit pro Stunde        |
 | GradFahrenheitPerMinute      |
 | GradKelvin                   |
@@ -232,7 +232,7 @@ Durch Klicken auf diese Schaltfläche können Sie die jeeBacnetManager-Konfigura
 | Hektopascal                    |
 | Henrys                          |
 | Hertz                           |
-| Pferdestärken                      |
+| PS                      |
 | Std.                           |
 | HundertstelSekunden               |
 | imperialGallonen                 |
@@ -332,7 +332,7 @@ Durch Klicken auf diese Schaltfläche können Sie die jeeBacnetManager-Konfigura
 | Millisievert                   |
 | Millivolt                      |
 | Milliwatt                      |
-| Protokoll                         |
+| Minuten                         |
 | Minuten pro Grad Kelvin          |
 | Monate                          |
 | Nanogramm pro Kubikmeter          |
@@ -351,8 +351,8 @@ Durch Klicken auf diese Schaltfläche können Sie die jeeBacnetManager-Konfigura
 | Pascal                         |
 | pro Stunde                         |
 | Promille                        |
-| pro Minute                       |
-| pro Sekunde                       |
+| proMinute                       |
+| proSekunde                       |
 | Prozent                         |
 | ProzentObscurationPerFoot       |
 | ProzentObscurationPerMeter      |
@@ -367,7 +367,7 @@ Durch Klicken auf diese Schaltfläche können Sie die jeeBacnetManager-Konfigura
 | psiPerDegreeFahrenheit          |
 | Bogenmaß                         |
 | BogenmaßPerSekunde                |
-| Revolutionen pro Minute            |
+| Umdrehungen pro Minute            |
 | Sekunden                         |
 | Siemens                         |
 | SiemensPerMeter                 |
@@ -405,3 +405,22 @@ Durch Klicken auf diese Schaltfläche können Sie die jeeBacnetManager-Konfigura
 | webers                          |
 | Wochen                           |
 | Jahre                           |
+
+
+
+
+### 
+
+#### 
+
+ ****, . ).
+
+#### 
+
+ **** .
+
+1. **Auswahl der Befehlsaktion** : Wählen Sie einen Aktionsbefehl basierend auf dem ausgewählten Plugin aus.
+2. **Anfangswert** : Legen Sie einen Anfangswert fest, um den Bacnet-Punkt zum ersten Mal zu initialisieren.
+3. **Verwenden Sie den Bacnet-Wert** : Aktivieren Sie diese Option, um den Bacnet-Wert zu verwenden. Wenn diese Option nicht aktiviert ist, müssen Sie das Feld „An die Aktion zu sendender Wert“ ausfüllen".
+
+Beim Ausführen des Crons prüft das System, ob am Bacnet-Punkt eine Wertänderung stattgefunden hat (Schreiben)). An diesem Punkt sendet es entweder diesen Bacnet-Wert oder den unter „An Aktion senden“ eingegebenen Wert an den Parameterized Action-Befehl.

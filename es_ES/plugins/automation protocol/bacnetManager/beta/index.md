@@ -114,7 +114,7 @@ Puedes por ejemplo :
 
 Esto tomará el valor inicial del comando cargado, luego lo multiplicará por 10 antes de actualizarlo en la instancia de jeeServer
 
- :
+Exemple :
 
 ![accueil](../images/BacnetManagerPost.png)
 
@@ -409,15 +409,15 @@ Al hacer clic en este botón, puede importar el archivo json de configuración d
 
 
 
-### 
+### Configuración del complemento
 
-#### 
+#### Mode Avancé
 
- ****, . ).
+En activant le **Mode Avancé**, le cron configuré ne récupérera plus les valeurs des commandes Jeedom pour les mettre à jour sur le serveur. À la place, il vérifiera si une écriture a eu lieu sur le serveur et exécutera les commandes Actions des différents plugins paramétrés avec la valeur écrite sur le point Bacnet ou la valeur renseignée (voir la modale CmdsJeeServer).
 
-#### 
+#### Paramétrage des Commandes
 
- **** .
+Comme d'habitude, après avoir paramétré les commandes de type Info, il est nécessaire de se rendre dans la modale **CmdsJeeServer** pour configurer et envoyer les commandes au serveur.
 
 1. **Elección de acción de comando** : Seleccione un comando de acción según el complemento elegido.
 2. **Valor inicial** : Establezca un valor inicial para inicializar el punto Bacnet por primera vez.

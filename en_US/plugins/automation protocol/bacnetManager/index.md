@@ -114,7 +114,7 @@ You can for example :
 
 This will take the initial value of the command uploaded, then multiply it by 10 before updating it in the jeeServer instance
 
-Example :
+ :
 
 ![accueil](./images/BacnetManagerPost.png)
 
@@ -165,7 +165,7 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | btusPerHour                     |
 | btusPerPound                    |
 | tusPerPoundDryAir               |
-| candela                        |
+| candles                        |
 | candelasPerSquareMeter          |
 | centimeters                     |
 | centimetersOfMercury            |
@@ -200,9 +200,9 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | degreeDaysCelsius               |
 | degreeDaysFahrenheit            |
 | degreesAngular                  |
-| degreesCelsius                  |
-| degreesCelsiusPerHour           |
-| degreesCelsiusPerMinute         |
+| degrees Celsius                  |
+| degrees CelsiusPerHour           |
+| degrees CelsiusPerMinute         |
 | degreesFahrenheit               |
 | degreesFahrenheitPerHour        |
 | degreesFahrenheitPerMinute      |
@@ -216,7 +216,7 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | feet                            |
 | feetPerMinute                   |
 | feetPerSecond                   |
-| footcandles                     |
+| footCandles                     |
 | grams                           |
 | gramsOfWaterPerKilogramDryAir   |
 | gramsPerCubicCentimeter         |
@@ -240,7 +240,7 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | inches                          |
 | inchesOfMercury                 |
 | inchesOfWater                   |
-| jouleSeconds                    |
+| jouleseconds                    |
 | joules                          |
 | joulesPerCubicMeter             |
 | joulesPerDegreeKelvin           |
@@ -270,7 +270,7 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | kilovoltAmperes                 |
 | kilovoltAmperesReactive         |
 | kilovolts                       |
-| kilowattHours                   |
+| kilowatt hours                   |
 | kilowattHoursPerSquareFoot      |
 | kilowattHoursPerSquareMeter     |
 | kilowattHoursReactive           |
@@ -290,11 +290,11 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | megajoulesPerSquareFoot         |
 | megajoulesPerSquareMeter        |
 | megaAVoltAmpereHours             |
-| megaAVoltAmpereHoursReactive     |
+| megaVoltAmpereHoursReactive     |
 | megaAVoltAmperes                 |
-| megAVoltAmperesReactive         |
-| megaAVolts                       |
-| megawattHours                   |
+| megaAVoltAmperesReactive         |
+| megaVolts                       |
+| megawatt hours                   |
 | megawattHoursReactive           |
 | megawatts                       |
 | megohms                         |
@@ -311,7 +311,7 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | microsieverts                   |
 | microsievertsPerHour            |
 | milesPerHour                    |
-| milliamps                    |
+| milliamperes                    |
 | millibars                       |
 | milligrams                      |
 | milligramsPerCubicMeter         |
@@ -338,7 +338,7 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | nanogramsPerCubicMeter          |
 | nephelometricTurbidityUnit      |
 | newton                          |
-| newtonMeters                    |
+| newtonmeters                    |
 | newtonSeconds                   |
 | newtonsPerMeter                 |
 | noUnitsohmMeterPerSquareMeter   |
@@ -346,10 +346,10 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | ohms                            |
 | pH                              |
 | partsPerBillion                 |
-| sharesPerMillion                 |
+| partsPerMillion                 |
 | pascalSeconds                   |
 | pascals                         |
-| perHour                         |
+| per hour                         |
 | perMille                        |
 | perMinute                       |
 | perSecond                       |
@@ -377,12 +377,12 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | squareInches                    |
 | squareMeters                    |
 | squareMetersPerNewton           |
-| Tesla                          |
-| thermal                          |
+| teslas                          |
+| thermals                          |
 | yourHours                        |
 | tones                            |
-| tonesPerHour                     |
-| tonesRefrigeration               |
+| tonsPerHour                     |
+| tonsRefrigeration               |
 | usGallons                       |
 | usGallonsPerHour                |
 | usGallonsPerMinute              |
@@ -405,3 +405,22 @@ By clicking on this button, you can import the jeeBacnetManager configuration js
 | webers                          |
 | weeks                           |
 | years                           |
+
+
+
+
+### 
+
+#### 
+
+ ****, . ).
+
+#### 
+
+ **** .
+
+1. **Action Command Selection** : Select an Action command depending on the chosen plugin.
+2. **Initial Value** : Set an initial value to initialize the Bacnet point for the first time.
+3. **Use Bacnet Value** : Check this option to use Bacnet value. If this option is not checked, you must fill in the "Value to send to action" field".
+
+When the cron runs, the system will check if there has been a change of value on the Bacnet point (write). At that point it will send either that Bacnet value or the value entered in "Send to Action" to the configured Action command.

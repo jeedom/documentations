@@ -3,11 +3,11 @@
 # Changelog BacnetManager
 
 
-# 
-- 
+# 03/07/2025
+- Fix errors
 
-# 
--  : 
+# 09/09/2024
+- Ajout Mode Avancé : Detection Ecriture Externe sur le server, pour ensuite executer des commandes Actions sur Jeedom
 
 # 07.09.2024
 - Modales UX-Redesign cmds jeeBacnetManager
