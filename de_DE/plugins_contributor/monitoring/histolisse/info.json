@@ -2,7 +2,7 @@
 	"id": "histolisse",
 	"name": "HistoLisse",
 	"author": "Pax24",
-	"description": "Permet de gérer précisément le lissage des données de votre historique au long de la journée ainsi que leur archivage à long terme. Afin d'accélérer l'affichage des graphiques et de réduire la taille de la base de données (-30 à -70%) et les sauvegardes (-20 à -50%) tout en conservant des données informatives à long terme. *** Lissage périodique des données par : Heure / Jour / Semaine / Mois / Année, Diagnostic des données en base. <br>\n*** Par exemple : garder une valeur par minute en temps réel (par heure), puis 1 valeur toutes les 15 minutes après 15 jours d'ancienneté (par semaine), puis 1 donnée toutes les 3h au delà de 3 mois (par mois).",
+	"description": "Permet de gérer précisément le lissage des données de votre historique au long de la journée ainsi que leur archivage à long terme. Afin d'accélérer l'affichage des graphiques et de réduire la taille de la base de données (-30 à -70%) et les sauvegardes (-20 à -50%) tout en conservant des données informatives à long terme.   *** Lissage périodique des données par : Heure / Jour / Semaine / Mois / Année, Diagnostic des données en base.   *** Par exemple : garder une valeur par minute en temps réel (par heure), puis 1 valeur toutes les 15 minutes après 15 jours d'ancienneté (par semaine), puis 1 donnée toutes les 3h au delà de 3 mois (par mois).",
 	"pluginVersion": "1.0.0",
 	"licence": "GPLv3",
 	"require": "4.0",
