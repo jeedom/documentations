@@ -37,7 +37,9 @@
 
 - Decoder correction *BMeters IWM-LR3 - Water Meter Reader*
 
--  *BMeters IWM-LR3 - Water Meter Reader*
+- Ajout d'une commande de downlink *BMeters IWM-LR3 - Water Meter Reader*
+
+- 
 
 # 18/06/2025
 
