@@ -39,7 +39,17 @@
 
 - Ajout d'une commande de downlink *BMeters IWM-LR3 - Water Meter Reader*
 
-- 
+- Correction bug queue doubledownlink
+
+- Ajout du produit  *X*
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit *)*
+
+
 
 # 18/06/2025
 

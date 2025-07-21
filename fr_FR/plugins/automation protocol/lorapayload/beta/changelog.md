@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 18/07/2025 (Beta)
+# 21/07/2025 (Beta)
 - Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
 
 - Ajout du panneau Admin “Cache queueDownlink” (visualisation, purge, suppr. individuelle)
@@ -40,6 +40,16 @@
 - Ajout d'une commande de downlink *BMeters IWM-LR3 - Water Meter Reader*
 
 - Correction bug queue doubledownlink
+
+- Ajout du produit  *adeunis_ARF8230xRA - Pulse ATEX*
+
+- Ajout du produit *atim_PT1xx_TMxP - ATIM*
+
+- Ajout du produit *bmeters_rfmlr1 - Water Meter Reader*
+
+- Ajout du produit *diehl_CMi4160 - CMi4160 LoRaWAN (Diehl Sharky)*
+
+
 
 # 18/06/2025
 
