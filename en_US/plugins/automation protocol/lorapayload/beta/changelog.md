@@ -41,14 +41,15 @@
 
 - Correction bug queue doubledownlink
 
-- Ajout du produit  *X*
+- Ajout du produit  *adeunis_ARF8230xRA - Pulse ATEX*
 
-- Ajout du produit **
+- Ajout du produit *atim_PT1xx_TMxP - ATIM*
 
-- Ajout du produit **
+- Ajout du produit *bmeters_rfmlr1 - Water Meter Reader*
 
-- Ajout du produit *)*
+- Ajout du produit *diehl_CMi4160 - CMi4160 LoRaWAN (Diehl Sharky)*
 
+- Correction du décodeur **
 
 
 # 18/06/2025

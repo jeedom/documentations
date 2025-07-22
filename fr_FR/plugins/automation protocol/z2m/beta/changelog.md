@@ -5,6 +5,7 @@
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 - Meilleurs gestion des droits lors du lancement du demon
+- Ajout d'un nouveau firmware (8.0.3.0) pour la Luna
 
 # 24/06/2025
 

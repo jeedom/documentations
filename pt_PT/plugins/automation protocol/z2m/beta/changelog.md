@@ -4,7 +4,8 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-- 
+- Meilleurs gestion des droits lors du lancement du demon
+- .
 
 # 24/06/2025
 
