@@ -4,6 +4,16 @@
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
+
+# 06/02/2025
+
+- Fix error NameCmd
+
+
+# 08/11/2024
+
+- Fix Python3 Memory Leak
+
 # 07/30/2024
 
 - Adding Register in Message EcritureBit

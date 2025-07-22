@@ -1,0 +1,34 @@
+{
+	"id": "tvByOrange",
+	"name": "TV by Orange",
+	"description": {
+		"fr_FR": "Ce plugin permet de contrôler un décodeur Orange/Sosh"
+	},
+	"licence": "AGPL",
+	"author": "Spine",
+	"require": "4.4",
+	"os": {
+		"min": 11,
+		"max": 12.99
+	},
+	"category": "multimedia",
+	"hasDependency": false,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 0,
+	"changelog_beta": "https:\/\/spine34.github.io\/jeedom-documentations\/#language#\/tvByOrange\/beta\/changelog",
+	"changelog": "https:\/\/spine34.github.io\/jeedom-documentations\/#language#\/tvByOrange\/stable\/changelog",
+	"documentation_beta": "https:\/\/spine34.github.io\/jeedom-documentations\/#language#\/tvByOrange\/index",
+	"documentation": "https:\/\/spine34.github.io\/jeedom-documentations\/#language#\/tvByOrange\/index",
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"smart",
+		"luna",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile"
+	]
+}

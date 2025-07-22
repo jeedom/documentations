@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 
+
+- Corrigido o ouvinte do comando Threshold
+
 # 14/12/2023
 
 - Corrigido o ouvinte do comando Threshold

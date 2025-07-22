@@ -4,6 +4,16 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
+
+# 06/02/2025
+
+- Fix error NameCmd
+
+
+# 11/08/2024
+
+- Corrigir vazamento de memória do Python3
+
 # 30/07/2024
 
 - Adicionando registro na mensagem EcritureBit

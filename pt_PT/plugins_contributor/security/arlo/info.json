@@ -12,7 +12,10 @@
 	"utilization": "Il faut créer un utilisateur dédié à Jeedom dans l'application Arlo (très facile, explication détaillée dans la documentation) ensuite tout se configure automatiquement.",
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.2",
+	"require": "4.4",
+	"os": {
+		"min": 11
+	},
 	"category": "security",
 	"hasDependency": true,
 	"hasOwnDeamon": true,
@@ -43,8 +46,5 @@
 		"docker",
 		"diy",
 		"v4"
-	],
-	"os": {
-		"min": 11
-	}
+	]
 }

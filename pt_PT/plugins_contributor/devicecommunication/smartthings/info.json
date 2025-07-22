@@ -1,39 +1,46 @@
 {
-    "id":"smartthings",
-    "name":"SmartThings",
-    "description": {
-      "fr_FR":"Ce plugin permet de créer un équipement pour chaque appareil identifié sur son compte SmartThings. La communication se fait uniquement par l'API SmartThings, aucune connexion directe entre Jeedom et l'appareil n'est réalisée. Les commandes générées lors de la synchronisation dépendent de l'appareil (chaque appareil fournit sa liste de commandes), elles dépendent aussi de l'informations remontée via l'API (si la valeur est 'null', la commande n'est pas créée car non mise à jour via l'API ou non gérée). J'ai tout de même laissé une option pour créer l'ensemble des commandes au cas où.</br>Les commandes disponibles varient et peuvent être très nombreuses : afficher l'état de l'appareil, son programme, l'allumer/l'éteindre, changer de chaîne, lancer une programme...</br>J'ai implémenté un widget pour les appareils les plus communs, pour les autres, libre à vous de créer le vôtre, et pourquoi pas le partager.",
-      "en_US":"This plugin allows you to create a device for each device identified on its SmartThings account. The communication is done only through the SmartThings API, no direct connection between Jeedom and the device is made. The commands generated during the synchronization depend on the device (each device provides its list of commands), they also depend on the information sent via the API (if the value is 'null', the command is not created because not updated via the API or not managed). I still left an option to create the set of commands just in case.</br>The available commands vary and can be very numerous: display the status of the device, its program, turn it on/off, change channel, launch a program...</br>I have implemented a widget for the most common devices, for others, free to create your own, and why not share it."
-    },
-    "installation":"Le guide de configuration se trouve sur cette page : <i><a class='btn btn-warning btn-xs' target='_blank' href='https://flobul-domotique.fr/configuration-du-plugin-smartthings-pour-jeedom/'><i class='fas fa-cog'></i><strong> Configuration du plugin</strong></a></i></br>1) Une fois le plugin installé, activez-le.</br>2) Saisissez ensuite un jeton d'accès que vous avez préalablement généré sur votre compte SmartThings.</br>3) Sélectionnez un intervalle de rafraîchissement des informations.</br>4) Sauvegardez.</br>5) Rendez-vous sur la page du plugin et cliquez sur Synchronisation.",
-    "utilization": "Après avoir entré le jeton SmartThings de votre appareil dans la page de configuration, lancez une synchronisation pour créer les équipements et les commandes associées.",
-    "licence":"AGPL",
-    "author":"DomoFlo1",
-    "require":"4.2",
-    "category":"devicecommunication",
-    "hasDependency":true,
-    "hasOwnDeamon":false,
-    "maxDependancyInstallTime":0,
-    "changelog":"https://flobul-domotique.fr/liste-des-versions-du-plugin-smartthings-pour-jeedom/",
-    "documentation":"https://flobul-domotique.fr/documentation-du-plugin-smartthings-pour-jeedom",
-    "link":{
-        "forum":"https://community.jeedom.com/tag/plugin-smartthings"
-    },
-    "language":[
-        "fr_FR",
-        "en_US",
-        "es_ES",
-        "pt_PT",
-        "de_DE"
-    ],
-    "compatibility":[
-        "miniplus",
-        "smart",
-        "rpi",
-        "docker",
-        "diy",
-        "mobile",
-        "v4",
-        "atlas"
-    ]
+	"id": "smartthings",
+	"name": "SmartThings",
+	"description": {
+		"fr_FR": "Ce plugin permet de créer un équipement pour chaque appareil identifié sur son compte SmartThings. La communication se fait uniquement par l'API SmartThings, aucune connexion directe entre Jeedom et l'appareil n'est réalisée. Les commandes générées lors de la synchronisation dépendent de l'appareil (chaque appareil fournit sa liste de commandes), elles dépendent aussi de l'informations remontée via l'API (si la valeur est 'null', la commande n'est pas créée car non mise à jour via l'API ou non gérée). J'ai tout de même laissé une option pour créer l'ensemble des commandes au cas où.</br>Les commandes disponibles varient et peuvent être très nombreuses : afficher l'état de l'appareil, son programme, l'allumer/l'éteindre, changer de chaîne, lancer une programme...</br>J'ai implémenté un widget pour les appareils les plus communs, pour les autres, libre à vous de créer le vôtre, et pourquoi pas le partager.",
+		"en_US": "This plugin allows you to create a device for each device identified on its SmartThings account. The communication is done only through the SmartThings API, no direct connection between Jeedom and the device is made. The commands generated during the synchronization depend on the device (each device provides its list of commands), they also depend on the information sent via the API (if the value is 'null', the command is not created because not updated via the API or not managed). I still left an option to create the set of commands just in case.</br>The available commands vary and can be very numerous: display the status of the device, its program, turn it on/off, change channel, launch a program...</br>I have implemented a widget for the most common devices, for others, free to create your own, and why not share it.",
+		"de_DE": "Dieses Plugin ermöglicht es, für jedes Gerät, das über sein SmartThings-Konto identifiziert wurde, eine Ausstattung zu erstellen. Die Kommunikation erfolgt ausschließlich über die SmartThings API, es wird keine direkte Verbindung zwischen Jeedom und dem Gerät hergestellt. Die bei der Synchronisation erzeugten Befehle hängen vom Gerät ab (jedes Gerät liefert seine eigene Befehlsliste), sie hängen auch von den über die API hochgeladenen Informationen ab (wenn der Wert 'null' ist, wird der Befehl nicht erstellt, da er nicht über die API aktualisiert oder nicht verwaltet wird). Die verfügbaren Befehle variieren und können sehr zahlreich sein: den Status des Geräts und sein Programm anzeigen, es ein- und ausschalten, den Kanal wechseln, ein Programm starten...</br> Ich habe ein Widget für die gängigsten Geräte implementiert, für die anderen steht es Ihnen frei, Ihr eigenes Widget zu erstellen und warum nicht auch zu teilen.",
+		"es_ES": "Este plugin te permite crear un dispositivo para cada electrodoméstico identificado en tu cuenta SmartThings. La comunicación se realiza únicamente a través de la API de SmartThings; no hay conexión directa entre Jeedom y el dispositivo. Los comandos generados durante la sincronización dependen del dispositivo (cada dispositivo proporciona su propia lista de comandos), y también de la información retroalimentada a través de la API (si el valor es 'null', el comando no se crea porque no se ha actualizado a través de la API o no se gestiona). He dejado una opción para crear todos los comandos por si acaso.</br>Los comandos disponibles varían y pueden ser muy numerosos: mostrar el estado del dispositivo, su programa, encenderlo/apagarlo, cambiar de canal, lanzar un programa...</br>He implementado un widget para los dispositivos más comunes, para los demás, eres libre de crear el tuyo propio, y por qué no compartirlo.",
+		"it_IT": "Questo plugin consente di creare un dispositivo per ogni apparecchio identificato nell'account SmartThings. La comunicazione avviene esclusivamente tramite l'API di SmartThings; non esiste una connessione diretta tra Jeedom e il dispositivo. I comandi generati durante la sincronizzazione dipendono dal dispositivo (ogni dispositivo fornisce il proprio elenco di comandi) e anche dalle informazioni restituite tramite l'API (se il valore è 'null', il comando non viene creato perché non è stato aggiornato tramite l'API o non è gestito). Ho lasciato un'opzione per creare tutti i comandi, per sicurezza.</br>I comandi disponibili variano e possono essere molto numerosi: visualizzare lo stato del dispositivo, il suo programma, accenderlo/spegnerlo, cambiare canale, lanciare un programma...</br>Ho implementato un widget per i dispositivi più comuni, per gli altri siete liberi di creare il vostro, e perché non condividerlo.",
+		"pt_PT": "Este plugin permite-lhe criar um dispositivo para cada aparelho identificado na sua conta SmartThings. A comunicação faz-se exclusivamente através da API SmartThings; não há ligação direta entre o Jeedom e o aparelho. Os comandos gerados durante a sincronização dependem do aparelho (cada aparelho fornece a sua própria lista de comandos), e também da informação fornecida através da API (se o valor for 'null', o comando não é criado porque não foi atualizado através da API ou não é gerido). Deixei uma opção para criar todos os comandos, por precaução.</br>Os comandos disponíveis variam e podem ser muito numerosos: mostrar o estado do dispositivo, o seu programa, ligar/desligar, mudar de canal, lançar um programa...</br>Implementei um widget para os dispositivos mais comuns, para os outros, é livre de criar o seu próprio, e porque não partilhá-lo."
+	},
+	"installation": "Le guide de configuration se trouve sur cette page : <i><a class='btn btn-warning btn-xs' target='_blank' href='https://flobul-domotique.fr/configuration-du-plugin-smartthings-pour-jeedom/'><i class='fas fa-cog'></i><strong> Configuration du plugin</strong></a></i></br>1) Une fois le plugin installé, activez-le.</br>2) Saisissez ensuite un jeton d'accès que vous avez préalablement généré sur votre compte SmartThings.</br>3) Sélectionnez un intervalle de rafraîchissement des informations.</br>4) Sauvegardez.</br>5) Rendez-vous sur la page du plugin et cliquez sur Synchronisation.",
+	"utilization": "Après avoir entré le jeton SmartThings de votre appareil dans la page de configuration, lancez une synchronisation pour créer les équipements et les commandes associées.",
+	"licence": "AGPL",
+	"author": "DomoFlo1",
+	"require": "4.4",
+	"category": "devicecommunication",
+	"hasDependency": true,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-smartthings-pour-jeedom/",
+	"documentation": "https://flobul-domotique.fr/documentation-du-plugin-smartthings-pour-jeedom",
+	"changelog_beta": "https://flobul-domotique.fr/liste-des-versions-du-plugin-smartthings-pour-jeedom/",
+	"documentation_beta": "https://flobul-domotique.fr/documentation-du-plugin-smartthings-pour-jeedom",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-smartthings"
+	},
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
 }

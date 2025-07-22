@@ -21,6 +21,9 @@
     "mobile": "panel",
     "hasOwnDeamon": true,
     "hasDependency": true,
+    "whiteListFolders": [
+        "data\/records"
+    ],
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/camera\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/camera\/",
     "language": [

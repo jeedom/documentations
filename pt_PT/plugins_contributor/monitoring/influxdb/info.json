@@ -12,7 +12,7 @@
 	"utilization": "",
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.2",
+	"require": "4.4",
 	"category": "monitoring",
 	"hasDependency": false,
 	"hasOwnDeamon": false,

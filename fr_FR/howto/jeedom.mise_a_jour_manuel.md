@@ -19,10 +19,10 @@ En SSH, faites :
 ````bash
 su -
 cd /root
-wget https://github.com/jeedom/core/archive/V4-stable.zip
-unzip V4-stable.zip
-cp -R core-4-stable/* /var/www/html
-cp -R core-4-stable/.[^.]* /var/www/html
+wget https://github.com/jeedom/core/archive/master.zip
+unzip master.zip
+cp -R core-master/* /var/www/html
+cp -R core-master/.[^.]* /var/www/html
 ````
 
 ## Mise à jour

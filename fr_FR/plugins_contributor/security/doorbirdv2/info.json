@@ -4,17 +4,16 @@
     "licence" : "AGPL",
     "author" : "vegeta0911",
     "require" : "4.4",
-    "pluginVersion": "2.0",
+    "pluginVersion": "2.1",
     "os" : {
-		"min" : 11,
-		"max" : 12.99
+		"min" : 11
     },
     "category" : "security",
     "hasOwnDeamon": false,
     "hasDependency" : false,
     "maxDependancyInstallTime" : 0,
-    "changelog" : "https://vegeta0911.github.io/Doorbirdv2/fr_FR/changelog",
-    "documentation" : "https://vegeta0911.github.io/Doorbirdv2/fr_FR/",
+    "changelog" : "https://vegeta0911.github.io/documentation/plugins/fr_FR/Doorbirdv2/changelog",
+    "documentation" : "https://vegeta0911.github.io/documentation/plugins/fr_FR/Doorbirdv2/",
     "language": [
 		"fr_FR"
 	],

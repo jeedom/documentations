@@ -179,6 +179,34 @@ Esta parte é mais para usuários avançados que gostariam de adicionar comandos
 >
 > Para comandos do tipo ação você pode usar `tags#slider#`,`#message#`,`#title#`ou`#select#` dependendo do subtipo do comando para passar um parâmetro
 
+# Chave de flash Sonoff E
+
+## Site automático 
+
+Neste site com o Chrome (o Edge também deve funcionar), você pode conectar sua chave USB ao PC e atualizar a chave automaticamente com o firmware mais recente :
+
+[Flasher de Firmware Silabs](https://darkxst.github.io/silabs-firmware-builder/)
+
+## Modo de linha de comando com escolha de firmware
+
+Este método permite que você atualize a chave no Linux com o firmware de sua escolha :
+
+
+
+```
+apt instalar -y python3-pip python3.11-venv
+python3 -m venvflash
+flash/bin/pip3 instalar universal-silabs-pisca-pisca
+CD flash/
+bin/universal-silabs-flasher --device /dev/ttyUSB0 --bootloader-reset sonoff probe
+bin/universal-silabs-flasher --device /dev/ttyUSB0 --bootloader-reset sonoff flash --firmware ../ncp-uart-sw_EZNet7.4.3_V1.0.0.gbl
+bin/universal-silabs-flasher --device /dev/ttyUSB0 --bootloader-reset sonoff probe
+```
+
+Lista de [firmware](https://github.com/itead/Sonoff_Zigbee_Dongle_Firmware/tree/master/Dongle-E). 
+
+Tenha cuidado para colocar o nome de arquivo gbl correto ao piscar.
+
 # FAQ
 
 [Link](https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html) para as perguntas frequentes do Zigbee2mqtt
@@ -241,3 +269,15 @@ Esta parte é mais para usuários avançados que gostariam de adicionar comandos
 >**Eu tenho um erro ao atualizar o firmware no Luna**
 >
 >Você deve desativar o daemon do plugin (Plugin -> Gerenciamento de plugins -> Jeezigbee então Gerenciamento automático -> desativar), reiniciar o luna (Configurações -> Sistema -> Reiniciar). Assim que a caixa for reiniciada, você deve reiniciar a atualização do firmware. Observe que isso pode levar até 10 minutos. Não se esqueça, uma vez concluída a atualização, de reativar o gerenciamento automático do daemon.
+
+>**Recebo o erro "Recusando-se a iniciar porque a configuração não é válida, encontrei os seguintes erros: devices/0xXXXXXXXXXXXXXXX/homeassistant deve ser objeto, null"**
+>
+>É um bug no zigbee2mqtt. Você tem que ir para a guia os/db de configuração do jeedom e depois para o editor de arquivos. Lá você tem que ir para plugins/z2m/data e abrir o arquivo configuration.yaml. Neste arquivo encontre a linha homeassistant e exclua-a e reinicie o daemon.
+
+>**Recebo o erro "A configuração não é consistente com o backup do adaptador"**
+>
+>Você tem que ir para a configuração do Jeedom, depois para o OS/DB e depois para o editor de arquivos. Esnuite vá para plugins/z2m/data e exclua o arquivo coordenador_backup.json
+
+>**Recebo o erro "Recusando-se a iniciar porque a configuração não é válida, encontrei os seguintes erros: 0850 device_options must be object"**
+>
+> Il faut aller dans la configuration de jeedom onglet os/db cliquer sur l'editeur de fichier, ensuite dedans aller dans le dossier `plugins/z2m/data`, ouvrir le fichier configuration.yml (ou configuration.yaml) et supprimer la ligne qui contient device_options puis relancer le demon

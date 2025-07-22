@@ -12,7 +12,10 @@
 	"utilization": "",
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.2",
+	"require": "4.4",
+	"os": {
+		"min": 11
+	},
 	"category": "energy",
 	"hasDependency": false,
 	"hasOwnDeamon": false,
@@ -39,8 +42,5 @@
 		"diy",
 		"mobile",
 		"v4"
-	],
-	"os": {
-		"min": 11
-	}
+	]
 }

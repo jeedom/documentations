@@ -1,12 +1,13 @@
 # Changelog Energie dashboard
 
-# Changelog plugin template
+# Changelog plugin Energie dashboard
 
 >**IMPORTANT**
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 - Support des images d'équipement personnalisées (Jeedom 4.5)
+- Correction de bug sous debian 12
 
 # 04/04/2024
 

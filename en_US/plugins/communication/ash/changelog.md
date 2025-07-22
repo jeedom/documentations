@@ -4,8 +4,13 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Fixed an issue with PHP8
+
+# 09/23/2024
+
 - Fixed a bug on jeedom 4.4
 - Please note the plugin is only jeedom 4 compatible.4 or more
+- Fixed a warning on the taAutosize function
 
 # 01/15/2024
 

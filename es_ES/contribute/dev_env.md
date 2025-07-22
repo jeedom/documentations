@@ -1,18 +1,18 @@
 ## Entorno de desarrollo
 
-Veremos aquí cómo configurar un entorno de desarrollo eficiente entre un Pi de prueba y una PC con Windows para editar el código y mantener el repositorio de GitHub.
+Aquí veremos cómo configurar un entorno de desarrollo eficiente entre una Pi de prueba y una PC con Windows para editar código y mantener el repositorio de GitHub.
 
 Esta página se refiere a Jeedom Core, pero este método se puede utilizar para el desarrollo de complementos.
 
-Ciertamente, para ediciones rápidas de algunos archivos, podemos usar el complemento **JeeXplorer** directamente en Jeedom. Pero es rápidamente tedioso, y luego debe informar todos los cambios al repositorio local o directamente a GitHub. Este no es el mas practico.
+Por supuesto, para ediciones rápidas de algunos archivos, puede usar el editor de archivos directamente en Jeedom. Pero rápidamente se vuelve tedioso y luego tienes que informar todas las modificaciones al repositorio local o directamente a GitHub. Este no es el mas practico.
 
 ### Principe
 
 - Configure un Pi de prueba con Jeedom y un recurso compartido de Samba para acceder a él desde la PC.
-- Duplique el repositorio localmente con **Fusión sublime**.
-- Poner en marcha **Texto sublime** para editar código desde el repositorio con sincronización en el Pi de prueba.
+- Duplicar el repositorio localmente con **Fusión sublime**.
+- Poner en marcha **Texto sublime** para editar código desde el repositorio con sincronización en la prueba Pi.
 
-**Fusión sublime** y **Texto sublime** ciertamente se pagan (un precio bajo con 3 años de actualización), pero son muy livianos, rápidos, fácilmente personalizables y muy completos sin requerir muchos complementos / paquetes. Además, si no obtiene una licencia, puede usarlas normalmente, solo aparecerá una pequeña ventana emergente de vez en cuando con un botón *Cancelar* !
+**Fusión sublime** y **Texto sublime** Ciertamente son de pago (un precio bajo con 3 años de actualización), pero son muy ligeros, rápidos, fácilmente personalizables y muy completos sin necesidad de muchos complementos/paquetes. Además, si no obtiene una licencia, puede usarlas normalmente, solo aparecerá una pequeña ventana emergente de vez en cuando con un botón *Cancelar* !
 
 Este método también es posible con otras herramientas, como **Átomo** (que requerirá algunos paquetes) y **Escritorio de GitHub**.
 
@@ -62,9 +62,9 @@ Faites un clic droit sur `jeedomRoot` puis `Connecter un lecteur réseau...`
 Sous Windows, vous avez donc maintenant un Disque Réseau `jeedomRoot` !
 
 
-### Mise en place du repository local
+### Mise en place du dépôt local
 
-Pour dupliquer le repository en local y pouvoir travailler dessus, nous allons récupérer [Fusión sublime portable](https://www.sublimemerge.com/download).
+Pour dupliquer le dépôt en local y pouvoir travailler dessus, nous allons récupérer [Fusión sublime portable](https://www.sublimemerge.com/download).
 
 Récupérer également [Texto sublime portable 64bit](https://www.sublimetext.com/3).
 
@@ -74,16 +74,16 @@ Indiquez à **Fusión sublime** l'éditeur de fichiers :
 
 {% include lightbox.html src="images/sbm_settings1.jpg" data="settings" title="Editeur de fichiers" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
-Puis clonez le repository. Ici, si vous avez les droits sur le repository du Core, clonez le, sinon *forkez* le sur votre compte GitHub y clonez votre *fork*.
+Puis clonez le dépôt. Ici, si vous avez les droits sur le dépôt du Core, clonez le, sinon *forkez* le sur votre compte GitHub y clonez votre *fork*.
 
-**File / Clone Repository ...**
+**File / Clone dépôt...**
 
-{% include lightbox.html src="images/sbm_clonerepo.jpg" data="settings" title="Clone Repository" imgstyle="width:450px;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="images/sbm_clonerepo.jpg" data="settings" title="Clone dépôt" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 
 ### Mise en place de l'édition
 
-Dans **Texto sublime**, *Project* / *Edit Project*, définissez le répertoire de votre repository :
+Dans **Texto sublime**, *Project* / *Edit Project*, définissez le répertoire de votre dépôt :
 
 ````json
 {
@@ -101,9 +101,9 @@ Dans **Texto sublime**, *Project* / *Edit Project*, définissez le répertoire d
 }
 ````
 
-Aquí, agregar la ruta de la prueba Pi no es obligatorio, pero sigue siendo práctico.
+Aquí añadir la ruta del Pi de prueba no es obligatorio, pero siempre es práctico.
 
-Entonces puedes ahora, en **Texto sublime**, editar directamente los archivos del repositorio local. Los cambios en estos archivos aparecerán en **Fusión sublime**, donde puede confirmar todo o parte de cada archivo, o revertir los cambios si eso no funciona.
+Entonces puedes ahora, en **Texto sublime**, editar archivos directamente desde el repositorio local. Los cambios en estos archivos aparecerán en **Fusión sublime**, donde puede realizar confirmaciones de todo o parte de cada archivo o revertir los cambios si no funcionan.
 
 Ahora, queda probar estos cambios de código en la prueba Jeedom.
 
@@ -131,11 +131,11 @@ clase EventListener (sublime_plugin.EventListener ):
 
 Et voilà !
 
-A chaque fois que vous sauvez un fichier, si celui-ci fait partie du repository local, **Texto sublime** va également le copier au bon endroit sur votre Pi. Ctrl-S, F5 sur le Pi y voilà ! Si tout est bon, stage/commit/push dans **Fusión sublime**.
+A chaque fois que vous sauvez un fichier, si celui-ci fait partie du dépôt local, **Texto sublime** va également le copier au bon endroit sur votre Pi. Ctrl-S, F5 sur le Pi y voilà ! Si tout est bon, stage/commit/push dans **Fusión sublime**.
 
 Si vous annulez des modifications, en faisant un *Discard* dans **Fusión sublime**, pensez à faire un clic-droit, *Open in Editor*, y Ctrl-S pour le remettre sur le Pi.
 
 Et bien sûr, attention quand vous mettez à jour le Pi, vous allez écraser les fichiers du Core que vous avez modifié.
 
 
-Vous pouvez bien sûr suivre la même méthode pour mettre en place vos repository y synchronisation sur vos plugins.
+Vous pouvez bien sûr suivre la même méthode pour mettre en place vos dépôt y synchronisation sur vos plugins.

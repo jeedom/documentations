@@ -1,8 +1,59 @@
+# Changelog AirzoneControl
+
 # Changelog Airzone Web
 
 >**IMPORTANTE**
 >
+> 18/11/2024
+> Este novo Beta agora oferece suporte a vários gateways : Servidor Web, Aidoo ..
+> Agora você pode configurar vários dispositivos
+> Isso significa que ao instalar esta versão, você precisará excluir qualquer equipamento existente antes desta atualização.
+> Basta criar o equipamento gateway e o equipamento Zona será criado automaticamente
+
+
+>**IMPORTANTE**
+>
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
+
+
+## 
+
+- )
+
+
+## 06/06/2025
+
+- Ajout Device IAQ Eqlogic + auto refresh (création auto au scan des zones)
+
+
+## 21/03/2025
+
+- Fix event Erreurs sur commande du même nom
+
+
+## 27/02/2025
+
+- Fix rafraichissement des consignes après changement de mode
+
+
+## 23/01/2025
+
+- Ajout Option à cocher si l'equipement est un WebServer
+
+## 18/11/2024
+
+>**IMPORTANTE**
+>
+> 18/11/2024
+> Este novo Beta agora oferece suporte a vários gateways : Servidor Web, Aidoo ..
+> Agora você pode configurar vários dispositivos
+> Isso significa que ao instalar esta versão, você precisará excluir qualquer equipamento existente antes desta atualização.
+> Basta criar o equipamento gateway e o equipamento Zona será criado automaticamente
+
+## 13/10/2024
+
+- Corrigir jeedom.eqLogic.aviso buildSelectCmd()
+
 
 ## 14/06/2024
 

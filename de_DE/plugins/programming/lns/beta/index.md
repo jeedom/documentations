@@ -20,3 +20,40 @@ Mit diesem Plugin können Sie einen Chirpstack V3 auf der Jeedom-Box installiere
 7- Öffnen Sie Chirpstack.
 
 8- Automatische Erstellung in CS – Geben Sie die CS-Kennungen ein, um in Chirpstack den Netzwerkserver, das Dienstprofil, das Gateway und das Geräteprofil (Klasse A und Klasse C) zu erstellen).
+
+# 
+)
+
+    - 
+![alt text](image-5.png)
+ :
+
+
+)
+
+
+![alt text](image-6.png)
+
+)
+)
+![alt text](image-7.png)
+
+# Panel
+
+##  ?
+
+-  **** ( ****.
+-  :
+  -  **** .
+
+- .
+![alt text](image-3.png)
+
+---
+## 
+
+-  :
+![alt text](image-4.png)
+![alt text](image-8.png)
+---
+

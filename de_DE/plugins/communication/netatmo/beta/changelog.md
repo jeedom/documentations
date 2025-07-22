@@ -6,6 +6,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Korrektur der Warnungen
+- Bessere Verwaltung behinderter Geräte
+
+# 10.06.2024
+
+- Korrektur der Warnungen
+
 # 19.05.2024
 
 - Bug-Fix

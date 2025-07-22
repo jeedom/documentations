@@ -1,0 +1,18 @@
+{
+  "id": "intexspa",
+  "name": "Intex Spa",
+  "description": "Plugin pour gérer les spa Intex depuis le réseau local",
+  "licence": "AGPL",
+  "author": "Alex H.",
+  "require": "4.2",
+  "category": "wellness",
+  "hasDependency": true,
+  "hasOwnDeamon": false,
+  "maxDependancyInstallTime": 120,
+  "documentation": "https://alexh-fr.github.io/intexspa/fr_FR/",
+  "documentation_beta": "https://alexh-fr.github.io/intexspa/fr_FR/",
+  "changelog": "https://alexh-fr.github.io/intexspa/fr_FR/changelog.html",
+  "changelog_beta": "https://alexh-fr.github.io/intexspa/fr_FR/changelog.html",
+  "language": ["fr_FR"],
+  "compatibility": ["miniplus", "smart", "rpi", "docker", "diy", "mobile", "v4"]
+}

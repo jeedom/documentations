@@ -1,0 +1,17 @@
+{
+	"id" : "jeebusd",
+	"name" : "Ebusd",
+	"description" : "Plugin pour contrôler les équipements ebus.\n\nIl supporte la découverte automatique des équipements.",
+  	"utilization" : "ATTENTION : Le plugin nécessite un adaptateur ebus dedié(ebus_copler, ebus adapter...).",
+	"licence" : "AGPL",
+	"author" : "Limad44",
+	"require" : "4.0",
+	"category" : "automation protocol",
+	"hasDependency" : true,
+	"hasOwnDeamon" : true,
+  	"maxDependancyInstallTime": 5,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/ebusd\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/ebusd\/",
+    "languages" : ["fr_FR","en_US"],
+    "compatibility" : ["Miniplus","Jeedomboard","Smart","RPI/RPI2","DIY","mobile","v4"]
+}

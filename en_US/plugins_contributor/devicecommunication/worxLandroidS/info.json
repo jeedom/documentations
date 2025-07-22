@@ -3,11 +3,22 @@
 	"name": "worxLandroidS",
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.2",
-	"description": "Plugin Jeedom pour Robots tondeuses Worx Landroid modèles S/M/L version cloud",
+	"require": "4.4",
+	"os": {
+		"min": 11
+	},
+	"description": {
+		"fr_FR": "Plugin Jeedom pour Robots tondeuses Worx Landroid modèles S/M/L version cloud",
+		"en_US": "Jeedom plugin for Worx Landroid robot lawnmowers models S/M/L cloud version",
+		"es_ES": "Plugin Jeedom para robots cortacésped Worx Landroid modelos S/M/L versión en la nube",
+		"de_DE": "Jeedom Plugin für Worx Landroid Mähroboter Modelle S/M/L Cloud Version",
+		"it_IT": "Plugin Jeedom per i robot tagliaerba Worx Landroid modelli S/M/L versione cloud",
+		"pt_PT": "Plugin Jeedom para robôs corta-relvas Worx Landroid modelos S/M/L versão nuvem"
+	},
 	"category": "devicecommunication",
 	"hasDependency": true,
 	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 60,
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/#language#/",
 	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/#language#/changelog",
@@ -16,7 +27,12 @@
 		"forum": "https://community.jeedom.com/tag/plugin-worxLandroidS"
 	},
 	"language": [
-		"fr_FR"
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",

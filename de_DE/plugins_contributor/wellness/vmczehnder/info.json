@@ -12,7 +12,10 @@
 	"utilization": "Il est nécessaire d'installer un pi (ou équivalent) proche de la vmc et connecté sur son interface rs232 via un adaptateur USB ensuite le plugin se charge du reste, voir la doc pour plus de détails.",
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.2",
+	"require": "4.4",
+	"os": {
+		"min": 11
+	},
 	"category": "wellness",
 	"hasDependency": true,
 	"hasOwnDeamon": false,
@@ -40,8 +43,5 @@
 		"docker",
 		"diy",
 		"v4"
-	],
-	"os": {
-		"min": 11
-	}
+	]
 }

@@ -179,6 +179,34 @@ Dieser Teil ist eher für fortgeschrittene Benutzer gedacht, die bestimmte Befeh
 >
 > Für Aktionsbefehle können Sie „Tags“ verwenden#slider#`, `#message#`, `#title#` oder `#select#` abhängig vom Untertyp des Befehls zur Übergabe eines Parameters
 
+# Sonoff E-Flash-Taste
+
+## Automatische Website 
+
+Auf dieser Website mit Chrome (Edge sollte auch funktionieren) können Sie durch Anschließen Ihres USB-Sticks an Ihren PC den Schlüssel automatisch mit der neuesten Firmware flashen :
+
+[Silabs Firmware Flasher](https://darkxst.github.io/silabs-firmware-builder/)
+
+## Befehlszeilenmodus mit Firmware-Auswahl
+
+Mit dieser Methode können Sie den Schlüssel unter Linux mit der Firmware Ihrer Wahl flashen :
+
+
+
+„
+apt install -y python3-pip python3.11-venv
+python3 -m venv flash
+flash/bin/pip3 installiere universal-silabs-flasher
+Flash-CD/
+bin/universal-silabs-flasher --device /dev/ttyUSB0 --bootloader-reset Sonoff-Probe
+bin/universal-silabs-flasher --device /dev/ttyUSB0 --bootloader-reset sonoff flash --firmware ../ncp-uart-sw_EZNet7.4.3_V1.0.0.gbl
+bin/universal-silabs-flasher --device /dev/ttyUSB0 --bootloader-reset Sonoff-Probe
+„
+
+Liste von [Firmware](https://github.com/itead/Sonoff_Zigbee_Dongle_Firmware/tree/master/Dongle-E). 
+
+Achten Sie beim Flashen darauf, den richtigen GBL-Dateinamen einzugeben.
+
 # FAQ
 
 [Verknüpfung](https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html) zu den Zigbee2mqtt-FAQ
@@ -241,3 +269,15 @@ Dieser Teil ist eher für fortgeschrittene Benutzer gedacht, die bestimmte Befeh
 >**Beim Aktualisieren der Firmware auf Luna ist ein Fehler aufgetreten**
 >
 >Sie müssen den Plugin-Daemon deaktivieren (Plugin -> Plugin-Verwaltung -> Jeezigbee, dann Automatische Verwaltung -> Deaktivieren) und Luna neu starten (Einstellungen -> System -> Neu starten)). Sobald die Box neu gestartet ist, müssen Sie das Firmware-Update erneut starten. Bitte beachten Sie, dass dies bis zu 10 Minuten dauern kann. Vergessen Sie nicht, nach Abschluss des Updates die automatische Daemon-Verwaltung erneut zu aktivieren.
+
+>**Ich erhalte die Fehlermeldung „Start verweigert, weil Konfiguration ungültig ist, folgende Fehler wurden gefunden.“: devices/0xXXXXXXXXXXXXXXXX/homeassistant muss Objekt sein, null"**
+>
+>Es ist ein Fehler in zigbee2mqtt. Sie müssen zur Registerkarte „OS/DB“ der Jeedom-Konfiguration und dann zum Dateieditor gehen. Dort müssen Sie zu „plugins/z2m/data“ gehen und die Datei „configuration.yaml“ öffnen. Suchen Sie in dieser Datei die Zeile „homeassistant“, löschen Sie sie und starten Sie dann den Daemon neu.
+
+>**Ich erhalte die Fehlermeldung „Konfiguration stimmt nicht mit der Adaptersicherung überein.“"**
+>
+>Sie müssen zur Jeedom-Konfiguration, dann zu OS/DB und dann zum Dateieditor gehen. Gehen Sie zu „plugins/z2m/data“ und löschen Sie die Datei „coordinator_backup.json“
+
+>**Ich erhalte die Fehlermeldung „Start verweigert, weil Konfiguration ungültig ist, folgende Fehler wurden gefunden.“: 0850 device_options must be object"**
+>
+> Il faut aller dans la configuration de jeedom onglet os/db cliquer sur l'editeur de fichier, ensuite dedans aller dans le dossier `plugins/z2m/data`, ouvrir le fichier configuration.yml (ou configuration.yaml) et supprimer la ligne qui contient device_options puis relancer le demon

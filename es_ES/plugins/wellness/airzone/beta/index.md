@@ -3,13 +3,13 @@
 
 # Description
 
-Complemento para administrar sus sistemas AirzoneWeb
+Complemento para gestionar y controlar tus sistemas Airzone
 
 
 # Prerrequisitos
 
- - Jeedom v4.1.22
- - Descubra la dirección IP de su AirzoneWeb Server
+ - Jeedom v4.4.2
+ - Conozca las direcciones IP de sus puertas de enlace
 
 
 # Installation
@@ -21,16 +21,10 @@ Después de descargar el complemento, primero debe activarlo, como cualquier com
 
 Vaya al menú de administración de Complementos / Complementos
 
-![config](../images/airzoneConfig.png)
-
-Haga clic en su complemento y configúrelo con la dirección IP de su AirzoneWebServer y el puerto (de forma predeterminada, los sistemas Airzone tienen un puerto configurado en 3000)
-El número de sistemas se detecta automáticamente cuando se agrega un nuevo equipo.
 
 Elija el Cron deseado para la actualización de los valores :  5, 10, 15, 30, por hora o por día.
 
 Elija el Tiempo de espera entre solicitudes para cada zona; por defecto 10s si el campo está vacío.
-
-Al hacer clic en el botón Agregar DriverName, puede modificar el nombre del controlador en su sistema Airzone.
 
 Sauvegardez
 
@@ -40,26 +34,25 @@ Sauvegardez
 Vaya al menú Complementos / Confort / AirzoneJeedom
 
 
-Haga clic en Agregar.
+Haga clic en Agregar puerta de enlace.
 
-![config](../images/airzoneEquip.png)
+![config](../images/airzoneEquipement.png)
 
-Las zonas disponibles en su sistema estarán disponibles en el menú desplegable.
-Elija una zona para un equipo
+Puedes configurar una dirección IP allí.
 
-
-Recuerde Activar y hacer Visible su equipo, y asígnele un padre para encontrarlo en su tablero.
+Después de guardar, puede hacer clic en Iniciar escaneo
 
 IMPORTANTE : Si tiene un área que contiene caracteres especiales, esto puede causar un error SystemOut of Range.
 
 
-# Escaneo de zona
 
-Cuando se crea y activa su equipo, puede hacer clic en Scan Zones, en la parte superior del equipo
-Esto enviará una solicitud al servidor web para recuperar toda la información de su instalación
+# Complemento de página :
 
-La página se actualizará y aparecerá un menú de selección para elegir la Zona asociada con este equipo
+![pluginView](../images/airzoneEqlogics.png)
 
+Puede encontrar en la página del complemento las puertas de enlace en el lado izquierdo, así como sus áreas escaneadas y asociadas en el lado derecho
+
+Ten en cuenta que las zonas Masters tienen un icono amarillo, para diferenciarlas claramente
 
 
 # Dashboard
@@ -81,10 +74,9 @@ Las opciones disponibles en los modos o las velocidades del ventilador se detect
 
 Equipo típico :
 
-![config](../images/airzoneNoMaster.png)
+![config](../images/airzoneWidgets.png)
 
 
 Equipo de una zona maestra; vemos un comando adicional para activar el mismo modo en todas las zonas asociadas del sistema
 
 
-![config](../images/airzoneMaster.png)

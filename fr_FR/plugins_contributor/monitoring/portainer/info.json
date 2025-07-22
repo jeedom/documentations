@@ -12,7 +12,10 @@
 	"utilization": "Il est nécessaire d'installer Portainer.io sur votre environnement docker. Portainer peut être installé très simplement dans un container.",
 	"licence": "AGPL",
 	"author": "Mips2648",
-	"require": "4.2",
+	"require": "4.4",
+	"os": {
+		"min": 11
+	},
 	"category": "monitoring",
 	"display": "panel",
 	"hasDependency": false,
@@ -41,8 +44,5 @@
 		"docker",
 		"diy",
 		"v4"
-	],
-	"os": {
-		"min": 11
-	}
+	]
 }

@@ -4,7 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 
+
 - Fixed an issue with sending the stop command for roller shutters
+- 
 
 # 08/26/2024
 

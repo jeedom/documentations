@@ -4,6 +4,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 26/09/2024
+
+- Corrigido um aviso
+
 # 26/08/2024
 
 - Melhor gerenciamento de detalhes de contato

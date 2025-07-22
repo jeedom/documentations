@@ -1,0 +1,50 @@
+{
+    "id": "myhomescs",
+    "name": "MyhomeSCS",
+    "description": {
+        "fr_FR": "Permet de gérer le protocole MyHome Bus.",
+        "en_US": "Used to manage the MyHome Bus protocol",
+        "es_ES": "Se usa para administrar el protocolo MyHome Bus",
+        "de_DE": "Wird zum Verwalten des MyHome Bus-Protokolls verwendet",
+        "pt_PT": "Usado para gerenciar o protocolo de barramento MyHome",
+        "ru_RU": "Permet de gérer le protocole MyHome Bus",
+        "id_ID": "Permet de gérer le protocole MyHome Bus",
+        "it_IT": "Permet de gérer le protocole MyHome Bus",
+        "ja_JP": "Permet de gérer le protocole MyHome Bus",
+        "tr": "Permet de gérer le protocole MyHome Bus"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.4.8",
+    "os": {
+        "min": 11
+    },
+    "category": "automation protocol",
+    "hasOwnDeamon": true,
+    "hasDependency": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/myhomescs\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/myhomescs\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "smart",
+        "atlas",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/myhomescs\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/myhomescs\/beta"
+}

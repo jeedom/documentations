@@ -12,7 +12,7 @@ Depending on the number of months taken, you will have the right to free months 
 
 ## What is being monitored
 
-Jeedom regularly sends the information on the health page to our monitoring service, which analyzes it and alerts you if you have any concerns. In addition if your box does not send information for more than 15 min our monitoring service warns you that there is a problem.
+Jeedom regularly sends the information on the health page to our monitoring service, which analyzes it and alerts you if you have any concerns. De plus si votre box n'envoi pas d'information pendant plus de 60min notre service monitoring vous prévient qu'il y a un soucis.
 
 ## How am i warned
 

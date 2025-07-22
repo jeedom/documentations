@@ -18,7 +18,7 @@ Zum Beispiel :
 - [Konzepte](https://doc.jeedom.com/de_DE/concept/)
 - [Beitrag zur Dokumentation](https://doc.jeedom.com/de_DE/contribute/doc)
 
-Diese Seiten finden Sie auf der [Dokumentations-Repository](https://github.com/jeedom/documentations/tree/master/fr_FR)
+Diese Seiten finden Sie auf der [Einreichung der Dokumentation](https://github.com/jeedom/documentations/tree/master/fr_FR)
 
 Wenn Sie der URL auf der Dokumentationsseite folgen, finden Sie die entsprechende MD-Datei. Beispiele :
 
@@ -33,9 +33,9 @@ In diesem Verzeichnis sehen Sie die Kernverzeichnisse, Plugins usw. Diese werden
 
 ## Jeedom Core-Dokumentation
 
-Die Core-Dokumentation befindet sich im Core-Repository im Verzeichnis doc : [https://github.com/jeedom/core/tree/alpha/docs/fr_FR](https://github.com/jeedom/core/tree/alpha/docs/fr_FR)
+Die Core-Dokumentation befindet sich im Core-Repository im Dokumentverzeichnis : [https://github.com/jeedom/core/tree/alpha/docs/fr_FR](https://github.com/jeedom/core/tree/alpha/docs/fr_FR)
 
-Für jede Jeedom-Seite haben Sie eine Seite.md entsprechend.
+Für jede Jeedom-Seite gibt es eine Seitendatei.md entsprechend.
 
 Dies sind die Seiten, auf die über (?) Oben rechts auf der Oberfläche Ihres Jeedom zugegriffen werden kann und die sich in den Abschnitten befinden :
 
@@ -47,14 +47,14 @@ So können Sie PRs machen (*Anfragen ziehen*) auf Dateien .md, vorzugsweise auf 
 
 ## Plugins Dokumentation
 
-Nach dem gleichen Prinzip wie in der Core-Dokumentation wird das der Plugins automatisch aus dem Plugin-Repository abgerufen.
+Nach dem gleichen Prinzip wie die Core-Dokumentation werden die Plugins automatisch aus dem Plugin-Repository abgerufen.
 
 Zum Beispiel für das OpenZWave-Plugin
 
 - Accès à la doc ici : https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/
-- Repository du plugin : https://github.com/jeedom/plugin-openzwave/blob/beta/docs/de_DE/index.md
+- dépôt du plugin : https://github.com/jeedom/plugin-openzwave/blob/beta/docs/de_DE/index.md
 
-Dort müssen Sie das Repository des betreffenden Plugins finden und dann in das Verzeichnis doc / fr_FR wechseln. Bei der Unterscheidung zwischen [offizielle Plugins](https://github.com/jeedom) Plugins von Drittanbietern. Darüber hinaus sind kostenpflichtige Plugins (offizielle oder Drittanbieter) nicht verfügbar, da sie sich in privaten Repositories befinden. In diesem Fall können Sie jederzeit eine Nachricht auf der [Forum](https://community.jeedom.com/), mit dem Dokumentations-Jeedom-Tag oder dem Plugin.
+Dort müssen Sie das Repository des betreffenden Plugins finden und dann in dessen Verzeichnis doc/fr_FR gehen. Bei der Unterscheidung zwischen [offizielle Plugins](https://github.com/jeedom) Plugins von Drittanbietern. Darüber hinaus sind kostenpflichtige Plugins (offiziell oder von Drittanbietern) nicht zugänglich, da sie sich in privaten Repositories befinden. In diesem Fall können Sie jederzeit eine Nachricht auf der [Forum](https://community.jeedom.com/), mit dem Dokumentations-Jeedom-Tag oder dem Plugin.
 
 
 ## Die Übersetzungen
@@ -69,7 +69,7 @@ In php : `$ myString = __ ('Mein zu übersetzender Satz', __FILE __);`
 
 Im JavaScript : ``{% raw %}var myString = '{{Mein Satz, der übersetzt wird}}'{% endraw %}``
 
-Das Übersetzungssystem kümmert sich dann um die Übersetzung und Referenzierung in den JSON-Dateien (`docs / i18n /`) sowie um den Kern ihres Ersatzes in der Schnittstelle.
+Das Übersetzungssystem kümmert sich dann um deren Übersetzung und Referenzierung in den JSON-Dateien (`docs/i18n/`) und der Core kümmert sich um deren Ersetzung in der Schnittstelle.
 
 Wenn Sie auf eine andere Dokumentationsseite verlinken möchten, können Sie "/ fr_FR / contrib / doc" hinzufügen. Bei der Übersetzung wird der Teil fr_FR automatisch angepasst.
 

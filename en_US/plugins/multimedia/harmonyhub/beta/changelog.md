@@ -4,8 +4,19 @@
 >
 >As a reminder, if there is no information on the update, it is because it only concerns the update of documentation, translation or text.
 
+# 
+
+- 
+- : 
+
+# 30/04/2025
+
+- Fix un problème sur le lancement de commandes pour certaines installations (hub inconnu) suite à la version du 28/04
+
+# 28/04/2025
+
 > Attention
-> Major plugin overhaul: the plugin has been completely rewritten including communication with the Harmony hub (via daemon now))
+> Major plugin overhaul: le plugin a été entièrement réécrit y compris la communication avec le hub Harmony (via démon à présent)
 >
 > Requires Jeedom 4.4.8
 >
@@ -15,8 +26,6 @@
 >
 > See also [this topic on community](https://community.jeedom.com/t/importante-mise-a-jour-pour-debian-11-et-debian-12/129908) for more details
 
-# 08/28/2024
-
 - Complete rewrite of the plugin
 - Using the Core Dependency Installation Method
 - Changed the library to communicate with the Harmony hub to use a library with better tracking
@@ -25,6 +34,7 @@
   - to have real-time status feedback
 - Simplified configuration: All that remains is to configure the hub IP address in the plugin configuration and start the daemon and the equipment will synchronize automatically with Jeedom.
 - Adding a command **Start activity** which indicates the activity that is currently starting (empty if none)
+- )
 
 # 09/17/2023
 

@@ -39,10 +39,11 @@ With :
 -  `` -p 80:80``: the container port (80) is forwarded to the host port (by default 80 too)
 
 ### List of available images
-- `jeedom/jeedom:latest` : last version **steady**
+- `jeedom/jeedom:latest` : last version **steady** on Debian bookworm (beta)
 - `jeedom/jeedom:beta` : last version **beta**
 - `jeedom/jeedom:4.x` : versions are kept from 4.3
-- `jeedom/jeedom:4.x-buster` : A variant based on Debian Buster
+- `jeedom/jeedom:4.x-bullseye` : A variant based on Debian Bullseye, to be preferred
+- `jeedom/jeedom:4.x-buster` : A variant based on Debian Buster (deprecated)
 - `jeedom/jeedom:4.x-bookworm` : A variant based on Debian bookworm (beta)
 - `jeedom/jeedom:4.x-http-bookworm` : A variant based on Debian bookworm containing only Jeedom, no mariadb. Used for docker composer (beta)
 
@@ -95,8 +96,9 @@ volumes:
 
 ```
 services:
-  db:
+  jeedom_db:
     image: mariadb:latest
+    container_name: jeedom_db
     command: 
       - "--default-authentication-plugin=mysql_native_password"
       - "--skip-name-resolve"
@@ -125,8 +127,9 @@ services:
       - MYSQL_PASSWORD=TODO
     expose:
       - 3306
-  http:
+  jeedom_http:
     image: jeedom/jeedom:4.4-http-bookworm
+    container_name: jeedom_http
     volumes:
       - http:/var/www/html
     tmpfs:
@@ -135,7 +138,7 @@ services:
       - 52080:80
     restart: always
     environment:
-      - DB_HOST=db
+      - DB_HOST=jeedom_db
       - DB_USERNAME=jeedom
       - DB_PASSWORD=TODO
       - DB_NAME=jeedom
@@ -145,7 +148,7 @@ services:
       timeout: 10s
       retries: 5
     depends_on:
-      - db
+      - jeedom_db
 volumes:
   db:
   http:

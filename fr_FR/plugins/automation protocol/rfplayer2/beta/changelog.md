@@ -4,7 +4,20 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-- Meilleur gestion de niveau de log si sur aucun (le demon sera en log error)
+# 08/03/2025
+
+- Correction d'un bug lors de l'inclusion d'un nouvel équipement sous Debian 12
+
+# 28/12/2024
+
+- Correction d'un bug sur l'envoi de certaines commandes RTS
+
+# 27/12/2024
+
+- Fix une fuite de mémoire sur le démon
+- Debian 11 requis
+- Jeedom v4.4 requis
+- Compatibilité Debian 12
 
 # 25/01/2023
 
@@ -51,6 +64,7 @@ Ajout actionneur Edisio
 Ajout Edisio Frame
 
 # 18/10/2018
+
 Changement calcul batterie sur Edisio
 Changement gestion des ids
 Gestion des caractères spéciaux pour l'envoie du nom parrot, le rfp1000 naime pasle non ascii

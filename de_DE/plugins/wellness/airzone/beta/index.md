@@ -3,13 +3,13 @@
 
 # Description
 
-Plugin zur Verwaltung Ihrer AirzoneWeb-Systeme
+Plugin zur Verwaltung und Steuerung Ihrer Airzone-Systeme
 
 
 # Voraussetzungen
 
- - Jeedom v4.1.22
- - Finden Sie die IP-Adresse Ihres AirzoneWeb Servers heraus
+ - Jeedom v4.4.2
+ - Kennen Sie die IP-Adressen Ihrer Gateways
 
 
 # Installation
@@ -21,16 +21,10 @@ Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es zuerst aktivieren, 
 
 Gehen Sie zum Menü Plugins / Plugin-Verwaltung
 
-![config](../images/airzoneConfig.png)
-
-Klicken Sie auf Ihr Plugin und konfigurieren Sie es mit der IP-Adresse Ihres AirzoneWebServers sowie dem Port (standardmäßig haben Airzone-Systeme einen Port auf 3000 . konfiguriert))
-Die Anzahl der Systeme wird automatisch erkannt, wenn neue Geräte hinzugefügt werden.
 
 Wählen Sie den gewünschten Cron für die Aktualisierung der Werte :  5, 10, 15, 30, stündlich oder täglich.
 
 Wählen Sie die Wartezeit zwischen Anfragen für jede Zone; standardmäßig 10 Sekunden, wenn das Feld leer ist.
-
-Durch Klicken auf die Schaltfläche Add DriverName können Sie den Namen des Fahrers auf Ihrem Airzone-System ändern.
 
 Sauvegardez
 
@@ -40,26 +34,25 @@ Sauvegardez
 Gehen Sie zum Menü Plugins / Komfort / AirzoneJeedom
 
 
-Klicken Sie auf Hinzufügen.
+Klicken Sie auf Gateway hinzufügen.
 
-![config](../images/airzoneEquip.png)
+![config](../images/airzoneEquipement.png)
 
-Die auf Ihrem System verfügbaren Zonen sind im Dropdown-Menü verfügbar.
-Wählen Sie eine Zone für eine Ausrüstung
+Dort können Sie eine IP-Adresse konfigurieren.
 
-
-Denken Sie daran, Ihre Ausrüstung zu aktivieren und sichtbar zu machen, und weisen Sie ihr einen Elternteil zu, um sie auf Ihrem Dashboard zu finden.
+Nach dem Speichern können Sie auf Scan starten klicken
 
 WICHTIG : Wenn Sie einen Bereich haben, der Sonderzeichen enthält, kann dies einen SystemOut of Range-Fehler verursachen.
 
 
-# Zonenscan
 
-Wenn Ihr Gerät erstellt und aktiviert ist, können Sie oben auf dem Gerät auf „Zonen scannen“ klicken
-Dadurch wird eine Anfrage an den Webserver gesendet, um alle Informationen Ihrer Installation abzurufen
+# Seiten-Plugin :
 
-Die Seite wird aktualisiert und ein Auswahlmenü wird angezeigt, in dem Sie die mit diesem Gerät verknüpfte Zone auswählen können
+![pluginView](../images/airzoneEqlogics.png)
 
+Auf der Plugin-Seite finden Sie die Gateways auf der linken Seite sowie deren gescannte und zugehörige Bereiche auf der rechten Seite
+
+Beachten Sie, dass die Masters-Zonen zur deutlichen Unterscheidung mit einem gelben Symbol versehen sind
 
 
 # Dashboard
@@ -81,10 +74,9 @@ Die in den Modi verfügbaren Auswahlmöglichkeiten oder die Lüftergeschwindigke
 
 Typische Ausstattung :
 
-![config](../images/airzoneNoMaster.png)
+![config](../images/airzoneWidgets.png)
 
 
 Ausstattung einer Masterzone; Wir sehen einen zusätzlichen Befehl, um den gleichen Modus in allen zugeordneten Zonen des Systems zu aktivieren
 
 
-![config](../images/airzoneMaster.png)

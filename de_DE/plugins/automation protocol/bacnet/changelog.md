@@ -6,6 +6,15 @@
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 
+
+# 28.10.2024
+
+- Fix für CPU-Auslastung
+- Threading zum Lesen von Daten
+- Codeoptimierung
+- Beheben Sie mögliche Nullwerte
+
+
 # 27.03.2024
 
 - Korrigieren Sie die OnOff-Befehle

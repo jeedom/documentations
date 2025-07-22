@@ -2,15 +2,23 @@
 	"id": "modbus2mqtt",
 	"name": "Modbus2MQTT",
 	"description": {
-		"fr_FR": "Permet de lire et écrire sur des devices modbus TCP depuis et vers MQTT"
+		"fr_FR": "Permet de lire et écrire sur des devices modbus TCP depuis et vers MQTT",
+		"en_US": "Reads and writes modbus TCP devices to and from MQTT",
+		"es_ES": "Permite leer y escribir en dispositivos Modbus TCP desde y hacia MQTT",
+		"de_DE": "Ermöglicht das Lesen und Schreiben auf Modbus TCP-Geräten von und zu MQTT",
+		"it_IT": "Consente di leggere e scrivere su dispositivi Modbus TCP da e verso MQTT",
+		"pt_PT": "Permite-lhe ler e escrever em dispositivos Modbus TCP a partir de e para MQTT"
 	},
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.2",
+	"require": "4.4",
+	"os": {
+		"min": 11
+	},
 	"category": "automation protocol",
 	"hasDependency": true,
 	"hasOwnDeamon": true,
-	"maxDependancyInstallTime": 0,
+	"maxDependancyInstallTime": 60,
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/#language#/",
 	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/#language#/changelog",
@@ -20,8 +28,12 @@
 		"video": ""
 	},
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",

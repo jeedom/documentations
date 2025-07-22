@@ -52,9 +52,9 @@ Inicie sesión con credenciales **pi / frambuesa**
 ## Inicie el script de instalación de jeedom
 
 ```
-wget https://www.jeedom.com/install
-chmod +x instalar
-./install
+wget https://raw.githubusercontent.com/jeedom/core/master/install/instalar.sh
+chmod +x instalar.sh
+./instalar.sh
 ```
 
 **La contraseña de sudo también es frambuesa**

@@ -4,6 +4,8 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Le smartstart respect maintenant le pourcentage de chauffe minimal [LIEN](https://github.com/jeedom/plugin-thermostat/issues/60)
+
 # 30/09/2024
 
 - Support des images d'équipement personnalisées (Jeedom 4.5)

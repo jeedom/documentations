@@ -12,7 +12,7 @@ En fonction du nombre de mois pris vous aurez le droits à des mois offerts :
 
 ## Qu'est ce qui est surveillé
 
-Jeedom envoi regulierement les informations de la page santé à notre service de monitoring, qui en fait l'analyse et vous prévient en cas de soucis. De plus si votre box n'envoi pas d'information pendant plus de 15min notre service monitoring vous prévient qu'il y a un soucis.
+Jeedom envoi regulierement les informations de la page santé à notre service de monitoring, qui en fait l'analyse et vous prévient en cas de soucis. De plus si votre box n'envoi pas d'information pendant plus de 60min notre service monitoring vous prévient qu'il y a un soucis.
 
 ## Comment suis-je prévenu
 

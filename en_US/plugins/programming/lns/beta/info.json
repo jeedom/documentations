@@ -18,6 +18,8 @@
     "author": "Jeedom SAS",
     "require": "4.2.0",
     "category": "programming",
+    "display": "panel",
+    "mobile": "panel",
     "hasDependency": true,
     "hasOwnDeamon": false,
     "maxDependancyInstallTime": 45,

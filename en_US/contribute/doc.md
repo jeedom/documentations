@@ -18,7 +18,7 @@ For example :
 - [Concepts](https://doc.jeedom.com/en_US/concept/)
 - [Contribute to documentation](https://doc.jeedom.com/en_US/contribute/doc)
 
-These pages are available on the [documentation repository](https://github.com/jeedom/documentations/tree/master/fr_FR)
+These pages are available on the [filing of documentation](https://github.com/jeedom/documentations/tree/master/fr_FR)
 
 Following the url on the documentation site, you can find the corresponding md file. Examples :
 
@@ -35,7 +35,7 @@ You can see in this directory, the core directories, plugins, etc. These are man
 
 The Core documentation is on the Core repository, in the doc directory : [https://github.com/jeedom/core/tree/alpha/docs/fr_FR](https://github.com/jeedom/core/tree/alpha/docs/fr_FR)
 
-For each Jeedom page, you have a page.md corresponding.
+For each Jeedom page, there is a page file.md corresponding.
 
 These are the pages accessible by the (?) At the top right on the interface of your Jeedom, and located in the sections :
 
@@ -52,9 +52,9 @@ On the same principle as the Core documentation, that of the plugins is automati
 For example, for the OpenZWave plugin
 
 - Accès à la doc ici : https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/
-- Repository du plugin : https://github.com/jeedom/plugin-openzwave/blob/beta/docs/en_US/index.md
+- dépôt du plugin : https://github.com/jeedom/plugin-openzwave/blob/beta/docs/en_US/index.md
 
-There you have to find the repository of the plugin in question, then go to its doc / fr_FR directory. While distinguishing between [official plugins](https://github.com/jeedom) third-party plugins. In addition, paid plugins (official or third-party) are not accessible, because on private repositories. In this case, you can always make a message on the [Forum](https://community.jeedom.com/), with the documentation-jeedom tag or the plugin.
+There you have to find the repository of the plugin in question, then go to its doc/fr_FR directory. While distinguishing between [official plugins](https://github.com/jeedom) third-party plugins. In addition, paid plugins (official or third-party) are not accessible, because they are on private repositories. In this case, you can always make a message on the [Forum](https://community.jeedom.com/), with the documentation-jeedom tag or the plugin.
 
 
 ## The translations
@@ -69,7 +69,7 @@ In php : `$ myString = __ ('My sentence that will be translated', __FILE __);`
 
 In JavaScript : ``{% raw %}var myString = '{{My sentence that will be translated}}'{% endraw %}``
 
-The translation system will then take care of their translation and their referencing in the json files (`docs / i18n /`), and the Core of their replacement in the interface.
+The translation system will then take care of their translation and their referencing in the json files (`docs/i18n/`) and the Core of their replacement in the interface.
 
 If you want to link to another documentation page, you can add `/ fr_FR / contribute / doc`. When translating, the fr_FR part will be automatically adapted.
 

@@ -4,6 +4,14 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 01/01/2025
+
+- Reparar una pérdida de memoria en el demonio
+- Compatibilidad del demonio con Debian 12
+- Correcciones menores
+- Jeedom 4.Se requieren 4 o más
+- Se requiere Debian 11 o superior
+
 # 20/11/2020
 
 - Mejora del perfil MAS Ventilairsec

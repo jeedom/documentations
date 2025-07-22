@@ -6,6 +6,15 @@
 >Se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
 
+# 17/07/2025
+- Fix Telnetlib3 pour debian 12
+
+
+
+# 02/07/2025
+- Fix double appel requetes
+- Fix code erreur
+
 # 24/07/2024
 - Adicionada seleção de interface de rede para digitalização
 

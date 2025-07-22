@@ -11,7 +11,10 @@
 	},
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.2",
+	"require": "4.4",
+	"os": {
+		"min": 11
+	},
 	"category": "devicecommunication",
 	"hasDependency": true,
 	"hasOwnDeamon": true,
@@ -31,9 +34,6 @@
 		"diy",
 		"v4"
 	],
-	"os": {
-		"min": 11
-	},
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/kroomba/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/kroomba/#language#/",
 	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/kroomba/#language#/changelog",

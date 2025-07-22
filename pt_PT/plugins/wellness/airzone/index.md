@@ -26,7 +26,9 @@ Vá para o menu de gerenciamento de Plugins / Plugins
 Clique no seu plugin e configure-o com o endereço IP do seu AirzoneWebServer, bem como a porta (por padrão, os sistemas Airzone têm uma porta configurada em 3000)
 O número de sistemas é detectado automaticamente quando um novo equipamento é adicionado.
 
-Escolha o Cron desejado para a atualização dos valores : 1min, 5, 10, 15, 30, por hora ou diariamente.
+Escolha o Cron desejado para a atualização dos valores :  5, 10, 15, 30, por hora ou diariamente.
+
+Escolha o Tempo de espera entre solicitações para cada zona; por padrão 10s se campo vazio.
 
 Ao clicar no botão Add DriverName, você pode modificar o nome do driver em seu sistema Airzone.
 
@@ -48,7 +50,17 @@ Escolha uma zona para um equipamento
 
 Lembre-se de ativar e tornar visível seu equipamento e atribuir a ele um pai para encontrá-lo em seu painel.
 
-IMPORTANTE : Se você tiver uma área que contenha caracteres especiais, isso pode causar um erro de SystemOut of Range. 
+IMPORTANTE : Se você tiver uma área que contenha caracteres especiais, isso pode causar um erro de SystemOut of Range.
+
+
+# Varredura de zona
+
+Quando o seu equipamento estiver criado e ativado, você pode clicar em Scan Zones, na parte superior do equipamento
+Isso enviará uma solicitação ao servidor da web para recuperar todas as informações de sua instalação
+
+A página será atualizada e abrirá um menu de seleção para escolher a Zona associada a este equipamento
+
+
 
 # Dashboard
 

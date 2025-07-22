@@ -26,9 +26,9 @@ Aquí encontrará la documentación para instalar Jeedom en Debian
 Conéctese en SSH a su sistema y haga :
 
 ````
-wget https://www.jeedom.com/install
-chmod +x install
-./install
+wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
+chmod +x install.sh
+./install.sh
 ````
 
 Entonces solo ve a ``IP_JEEDOM`` desde su navegador de internet.

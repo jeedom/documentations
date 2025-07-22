@@ -4,7 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-# 202/10/2022
+# 31/05/2024
+
+- Optimización de la recuperación de IP
+
+# 20/10/2022
 
 - Actualización de interfaz para Jeedom v4.3
 

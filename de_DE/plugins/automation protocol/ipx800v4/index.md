@@ -105,15 +105,12 @@ Hier ist die Syntax, die bei einem IPX-Push verwendet werden soll :
 - Aktualisierung aller digitalen Eingänge : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allD&data=$D``
 - Aktualisierung aller Relais : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allR&data=$R``
 - Aktualisierung aller virtuellen Ausgänge : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allVO&data=$VO``
-- Aktualisieren einer einzelnen Variablen : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=A&data=$B`` mit ``A`` Wer nimmt die Werte ``D``, ``R`` oder ``VO`` und ``B`` Hiermit wird die Referenz des Werts verwendet, der auf dem IPX gesendet werden soll (z. B.) ``D1`` oder ``VO1`` oder ``R1``…)
 
 Dann erhalten Sie eine Szene nach Typ (Eintrag, Relais ...) mit :
 
 - Ereignis : ``ON EVENT`` und wählen Sie den gewünschten Typ (z. B. physikalische Ausgänge)
 - Aktion : ``ON``
 - Ergebnis : ``PUSH`` und wählen Sie den entsprechenden Push (zum Beispiel Jeedom Relais)
-
-
 
 # Template
 

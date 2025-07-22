@@ -1,22 +1,52 @@
 {
-	"id" : "netatmo",
-	"name" : "Netatmo",
-	"description" : "Plugin pour recuperer les équipements Netatmo (Weather,Energie,Securité). A travers le cloud Jeedom. Attention pour l'instant il n'est pas possible d'avoir le flux des cameras.",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "4.3",
-	"category" : "communication",
-	"hasDependency" : false,
-	"hasOwnDeamon" : false,
-	"maxDependancyInstallTime" : 0,
-	"changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/netatmo\/changelog",
-	"documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/netatmo\/",
-	"changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/netatmo\/beta\/changelog",
-        "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/netatmo\/beta",
-	"link" : {
-		"forum":"Lien vers le forum",
-		"video" : "Lien vers une video"
-	},
-	"language" : ["fr_FR","en_US","de_DE","sp_SP"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+    "id": "netatmo",
+    "name": "Netatmo",
+    "description": {
+        "fr_FR": "Plugin pour recuperer les équipements Netatmo (Weather,Energie,Securité). A travers le cloud Jeedom. Attention pour l'instant il n'est pas possible d'avoir le flux des cameras.",
+        "en_US": "Plugin to retrieve Netatmo equipment (Weather, Energy, Security). Through the Jeedom cloud. Attention for the moment it is not possible to have the flow of the cameras",
+        "es_ES": "Complemento para recuperar equipos de Netatmo (Meteorología, Energía, Seguridad). A través de la nube Jeedom. Atención por el momento no es posible contar con el flujo de las cámaras",
+        "de_DE": "Plugin zum Abrufen von Netatmo-Geräten (Wetter, Energie, Sicherheit). Durch die Jeedom-Wolke. Achtung, im Moment ist es nicht möglich, den Fluss der Kameras zu überwachen",
+        "ru_RU": "Plugin pour recuperer les équipements Netatmo (Weather,Energie,Securité). A travers le cloud Jeedom. Attention pour l'instant il n'est pas possible d'avoir le flux des cameras",
+        "id_ID": "Plugin pour recuperer les équipements Netatmo (Weather,Energie,Securité). A travers le cloud Jeedom. Attention pour l'instant il n'est pas possible d'avoir le flux des cameras",
+        "it_IT": "Plugin pour recuperer les équipements Netatmo (Weather,Energie,Securité). A travers le cloud Jeedom. Attention pour l'instant il n'est pas possible d'avoir le flux des cameras",
+        "ja_JP": "Plugin pour recuperer les équipements Netatmo (Weather,Energie,Securité). A travers le cloud Jeedom. Attention pour l'instant il n'est pas possible d'avoir le flux des cameras",
+        "pt_PT": "Plugin para recuperar equipamentos Netatmo (Clima, Energia, Segurança). Através da nuvem Jeedom. Atenção no momento não é possível ter o fluxo das câmeras",
+        "tr": "Plugin pour recuperer les équipements Netatmo (Weather,Energie,Securité). A travers le cloud Jeedom. Attention pour l'instant il n'est pas possible d'avoir le flux des cameras"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.3",
+    "category": "communication",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/netatmo\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/netatmo\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/netatmo\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/netatmo\/beta",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

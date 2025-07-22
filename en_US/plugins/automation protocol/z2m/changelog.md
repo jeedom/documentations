@@ -4,6 +4,37 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+- Possibilité de mettre a jour le firmware de la luna en 8.0.2.0
+- Version de zigbee2mqtt par defaut 2.2.1
+- Correction d'un soucis visuel sur l'inclusion en z2m 2.3 ou plus
+
+>**IMPORTANT**
+>
+>SUr les luna il faut mettre a jour votre firmware en 8.0.2.0 pour avoir un zigbee2mqtt qui marche en 2.2.1
+
+# 14/01/2025
+
+- Mise à jour de la doc
+
+# 07/01/2025
+
+- La version par defaut de zigbee2mqtt est maintenant 1.42.0
+- Support de l'installation de la version de zigbee2mqtt 2.0.X (attention pour l'instant l'installation est possible mais on ne garantie pas que tout marche meme si les 1er tests sont encourageant)
+- Bug fix
+
+# 16/12/2024
+
+- Documentation update
+- The firmware update button is hidden if you are in remote mode
+- Improved daemon startup
+- By default the plugin is in local mode (instead of waiting for configuration)
+- The default version of zigbee2mqtt is 1.41 (temporary until the release of 2.0))
+- Removed firmware update button on Luna (temporary))
+
+# 09/27/2024
+
+- Changed minimum versions, core 4.4 and OS Debian 11 minimum
+
 # 09/24/2024
 
 - Added a link on the equipment page that redirects to the zigbee2mqtt page of the equipment for more information

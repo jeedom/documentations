@@ -1,12 +1,223 @@
 # Changelog Lora Payload
 
-# Changelog LoraPayload
-
 >**IMPORTANT**
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# xx/08/2024
+# 21/07/2025 (Beta)
+- Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
+
+- Ajout du panneau Admin “Cache queueDownlink” (visualisation, purge, suppr. individuelle)
+
+- Paramètres configurables : `Temporisation des envoies dans la file d'attente (secondes)`, `Taille actuelle de la file d'attente`, `Taille maximale de la file d'attente`
+
+- Ajout des commandes de downlink pour *Dragino CPL03-LB/LS* 
+
+- Correction image documentation 
+
+- Correction bug panel
+
+- Ajout des commandes de downlink pour *Dragino CPL03-LB/LS* 
+
+- Correction décodeur *Dragino WSC2_L_PM2.5*
+
+- Correction du lancement du deamon en double
+
+- Ajout du produit * Mclimate 16ADS - 16A Dry Switch LoRaWAN*
+
+- Correction du décodeur *Dragino SW3L - Compteur d'eau extérieur*
+
+- Ajout du downlink reboot pour *Dragino LT22222*
+
+- Ajout des downlinks pour *Mclimate - 16A Dry Switch LoRaWAN*
+
+- Correction commandes *Milesight GS601 - Vape Detector*
+
+- Correction commandes *Milesight WS302 - Sound Level Sensor*
+
+- Correction décodeur *BMeters IWM-LR3 - Water Meter Reader*
+
+- Ajout d'une commande de downlink *BMeters IWM-LR3 - Water Meter Reader*
+
+- Correction bug queue doubledownlink
+
+- Ajout du produit  *adeunis_ARF8230xRA - Pulse ATEX*
+
+- Ajout du produit *atim_PT1xx_TMxP - ATIM*
+
+- Ajout du produit *bmeters_rfmlr1 - Water Meter Reader*
+
+- Ajout du produit *diehl_CMi4160 - CMi4160 LoRaWAN (Diehl Sharky)*
+
+
+
+# 18/06/2025
+
+- Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*
+
+- Ajout de l'info Data Rate LoRaWAN
+
+- Ajout des commandes *Milesight VS373 - AI Bed & Presence Sensor*
+
+- Ajout du produit *Browan - Tab Temperature & Humidity Sensor*
+
+- Ajout du produit *RAK 10701 - FIELD TESTER for LoRaWAN*
+
+- Ajout du produit *Dragion WSC2-L -- Station Météo*
+
+- Ajout du produit *Thermokon 811217 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
+
+- Correction décodeur *TIC LoraWAN*
+
+- Ajout du produit *Milesight GS601 - Vape Detector*
+
+- Ajout du produit *Milesight WS302 - Sound Level Sensor*
+
+- Ajout des commandes Index pour *TIC LoraWAN*
+
+- Regénérer la configuration LoRaWAN après la génération des commandes
+
+- Correction décodeur *TIC LoraWAN*
+
+# 15/05/2025
+
+- Ajout du produit *Dragino CPL03-LB/LS - Capteur de contact sec ouvert/fermé LoRaWAN pour extérieur*
+
+- Ajout du produit *Dragino LHT52 - Capteur de température et humidité intérieur LoRaWAN*
+
+- Correction décodeur *Vega*
+
+- Ajout des commandes *Dragino CPL03-LB/LS - Capteur de contact sec ouvert/fermé LoRaWAN pour extérieur*
+
+- Mise à jour décodeur et encodeur *Thermokon 835633 - NOVOS 3 Module de commande d'ambiance température, humidité relative, CO2*
+
+- Ajout du produit *BMeters IWM-LR3 - Water Meter Reader*
+
+- Correction downlink du *Vega SI-11*
+
+- Ajout du produit *Milesight EM300MCS - Magnetic Contact Switch*
+
+- Correction du choix du broker local lors de la génération automatique
+
+- Ajout du produit *Milesight CT303 - Smart Current Transformer CT303*
+
+- Ajout du produit *Nexelec ATMO / SENSE / AERO / PMT / AERO Lora*
+
+- Ajout du produit *Nexelec LoRa Air Sensors (Sign, Rise, Feel, Move, Wav, View)*
+
+- Ajout du produit *Thermokon 835657 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
+
+- Correction downlink *Thermokon 835657 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
+
+# 24/03/2025
+
+- Correction du décodeur *WoMaster LR144*
+
+- Correction du décodeur *Adeunis ARF8230ABA - Emetteur impulsion compteur pulse*
+
+- Ajout du produit *Eastron Smart Energy Meter SDM-530*
+
+- Ajout des generic types au produit *Milesight Smart Radiator Thermostat WT101*
+
+- Ajout du produit *Eastron Smart Energy Meter SDM-230*
+
+- Correction décodeur *NKE Batch*
+
+# 17/03/2025
+
+- Regénération de l'équipement dans Chirpstack avec le bouton "Regénérer la configuration LoRaWAN"
+
+- Gestion du fPort dans le décodage
+
+- *Dragino LHT65* ajout du Set Transmit Interval
+
+- *Dragino RS485-LN + NILAN* correction du décodeur
+
+- *NKE Fil Pilot* correction du Device Profile en classe C
+
+- Suppression des équipements MQTT et Chirpstack suite à la suppression de l'équipement Lorapayload
+
+- Vérification de la taille des DevEUI et AppKey avant la génération automatique
+
+- Ajout de la configuration *Milesight WS203*
+
+- Ajout des commandes de downlink pour *Dragino LT-22222*
+
+- Ajout de la configuration *WoMaster LR144*
+
+- Ajout des commandes de downlink pour *Dragino LHT-65* (Envoie des uplinks en confirmed)
+
+- Ajout de la commande info "Downlink acknowledged"
+
+- Ajout du bouton copier du Deveui et Appkey
+
+- Ajout des commandes de downlink pour *Dragino LT-22222*
+
+- Mise à jour du décodeur *Ewattch Squid Pro Rogowski*
+
+- Ajout du produit *MClimate - 16A Switch & Power Meter LoRaWAN*
+
+- Ajout de la possibilité d'envoyer deux downlinks dans la même commande Action
+
+- Ajout du produit *Dragino T68DL - Temperature Sensor*
+
+- Ajout du produit *Milesight TS201 - Temperature Sensor*
+
+- Ajout du produit *Milesight TS30x - Temperature Sensor*
+
+- Ajout du produit *Watteco In'O*
+
+- Ajout du produit *Milesight UC100 - IoT Controller*
+
+- Ajout du produit *Milesight UC300 - IoT Controller*
+
+- Ajout du champ *Remarque* pour les modules
+
+- Correction du Device Profile *Power-Adapt Power-Elec 6*
+
+- Correction des commandes de downlink + uplink de *Quandify Cubic Meter*
+
+- Correction du décodeur *Dragino RS485-LN + NILAN*
+
+- Correction du décodeur *Quandify Cubic Meter*
+
+# 31/12/2024
+
+- Ajout de la configuration *NKE Torano*
+
+- Modification de la configuration *Dragino LSN50 V2 - MOD4* (propriétés : Digital Interrupt)
+
+- Ajout de la configuration *Thermokon 798808 - MCS Capteur d'ambiance température, humidité relative, luminosité*
+
+- Ajout de la configuration *Thermokon 817318 - MCS Détecteur de mouvement, Capteur d'ambiance température, humidité relative, luminosité, mouvement, présence, statut*
+
+- Ajout de la configuration *Thermokon 824248 - NOVOS 3 Module de commande d'ambiance température, humidité relative, CO2*
+
+- Ajout de la configuration *Dragino RS485-LN + NILAN*
+
+- Ajout du panel Chirpstack
+
+- Ajout du bouton "Regeneration de la configuration LoRaWAN"
+
+- Ajout de la configuration *Milesight Ambience Monitoring Sensors AM102*
+
+- Ajout de la configuration *Carte Electronic - TIC LoRaWAN*
+
+- Correction de la commande de downlink *Milesight Smart Radiator Thermostat WT101*
+
+- Modification de la configuration *Ewattch Squid Pro Rogowski*
+
+- Correction décodeur *Mclimate Wireless Thermostat*
+
+- Ajout des commandes infos pour *Ewattch Squid Pro Rogowski*
+
+- Ajout de la Batterie pour *NKE Torano*
+
+- Ajout de la configuration *Thermokon 835633 - NOVOS 3 Module de commande d'ambiance température, humidité relative, CO2*
+
+- Ajout de la configuration *Adeunis ARF8230ABA - Emetteur impulsion compteur pulse*
+
+# 30/10/2024
 
 - Modification de la configuration *MClimate Wireless Thermostat* (propriétés : Manual Target Temperature Update)
 
@@ -36,6 +247,20 @@
 
 - Ajout de la configuration *Thermokon 798808 - MCS Capteur d’ambiance température, humidité relative, luminosité*
 
+- Ajout de la configuration *Ewattch Squid Pro Rogowski*
+
+- Ajout des commandes downlink de *Thermokon 811187 - NOVOS 3 Capteur d'ambiance température, humidité relative*
+
+- Ajout de la configuration *Milesight - Smart Current Transformer CT101*
+
+- Ajout de la configuration *Dragino - RS485-LN + CarloGavazzi EM540*
+
+- Ajout de la configuration *Dragino - RS485-LN + OTMetric + Polier*
+
+- Ajout des commandes downlink de *MClimate Wireless Thermostat*
+
+- Ajout de la configuration *Milesight Smart Radiator Thermostat WT101*
+
 # 29/04/2024
 
 - Ajout de la configuration *Dragino D23LBLS* (propriétés : Batterie, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)
@@ -62,6 +287,7 @@
 
 
 # 21/02/2024
+
 - Changement du niveau de logs pour certaines informations générées par le plugin
 
 - Changement du type du module *Milesight EM500 PT100*
@@ -70,6 +296,7 @@
 
 
 # 19/01/2024
+
 - Ajout de la configuration *RAK c15003* (propriétés : Température, Humidité, Pression, Température2)
 
 - Modification de la configuration *Mclimate Vicki* (propriétés : GetKeepAlive, KeepAlive, GetDevicePrimaryOperationalMode, DevicePrimaryOperationalMode, GetOperationalMode, OperationalMode, Proportional control, Equal directional control, Proportional Integral control, GetControlAlgorithm, ControlAlgorithm, Open window detection parameters (1.0 accuracy), Open window detection parameters (0.1 accuracy))

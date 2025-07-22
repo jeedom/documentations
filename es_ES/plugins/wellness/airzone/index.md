@@ -26,7 +26,9 @@ Vaya al menú de administración de Complementos / Complementos
 Haga clic en su complemento y configúrelo con la dirección IP de su AirzoneWebServer y el puerto (de forma predeterminada, los sistemas Airzone tienen un puerto configurado en 3000)
 El número de sistemas se detecta automáticamente cuando se agrega un nuevo equipo.
 
-Elija el Cron deseado para la actualización de los valores : 1 min, 5, 10, 15, 30, cada hora o diariamente.
+Elija el Cron deseado para la actualización de los valores :  5, 10, 15, 30, por hora o por día.
+
+Elija el Tiempo de espera entre solicitudes para cada zona; por defecto 10s si el campo está vacío.
 
 Al hacer clic en el botón Agregar DriverName, puede modificar el nombre del controlador en su sistema Airzone.
 
@@ -48,7 +50,17 @@ Elija una zona para un equipo
 
 Recuerde Activar y hacer Visible su equipo, y asígnele un padre para encontrarlo en su tablero.
 
-IMPORTANTE : Si tiene un área que contiene caracteres especiales, esto puede causar un error SystemOut of Range. 
+IMPORTANTE : Si tiene un área que contiene caracteres especiales, esto puede causar un error SystemOut of Range.
+
+
+# Escaneo de zona
+
+Cuando se crea y activa su equipo, puede hacer clic en Scan Zones, en la parte superior del equipo
+Esto enviará una solicitud al servidor web para recuperar toda la información de su instalación
+
+La página se actualizará y aparecerá un menú de selección para elegir la Zona asociada con este equipo
+
+
 
 # Dashboard
 

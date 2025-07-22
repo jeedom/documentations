@@ -6,6 +6,8 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto
 
+- Suporte para uma variável para o atraso antes da extinção
+
 # 01/08/2024
 
 - Preparando-se para Jeedom 4.4

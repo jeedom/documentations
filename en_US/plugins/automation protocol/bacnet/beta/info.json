@@ -15,11 +15,14 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "4.0.62",
+    "require": "4.4.8",
+    "os": {
+        "min": 11
+    },
     "category": "automation protocol",
     "hasDependency": true,
     "hasOwnDeamon": true,
-    "maxDependancyInstallTime": 0,
+    "maxDependancyInstallTime": 30,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnet\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnet\/",
     "language": [
@@ -35,7 +38,6 @@
         "tr"
     ],
     "compatibility": [
-        "miniplus",
         "smart",
         "rpi",
         "atlas",

@@ -1,71 +1,37 @@
-Plugin para interface com equipamentos de banda larga
+# Plug-in Broadlink
 
-Configuração do plugin 
-=======================
+Plugin para interfacear Jeedom com equipamentos Broadlink.
 
-Após instalar o plug-in, você deve ativá-lo e garantir que
-boa instalação de dependências.
+# Configuração do plugin
 
-> **IMPORTANTE**
+Após instalar o plugin, ele deve ser ativado e garantir a correta instalação das dependências.
+
+>**IMPORTANTE**
 >
-> Não é recomendado mudar a porta
+>Não é recomendado alterar a porta do soquete interno.
 
-Inclusão de equipamentos 
-=========================
+# Inclusão de equipamentos
 
-Aller dans le menu Plugins &gt; Protocole Domotique &gt; Broadlink. Une
-Uma vez na página, clique em MODO DE INCLUSÃO. Logicamente o todo
-Os produtos Broadlink em sua rede serão reconhecidos.
+Vá para o menu Plugins => Protocolo de automação residencial => Broadlink. Uma vez na página, clique no botão INCLUIR. Logicamente, todos os produtos Broadlink em sua rede serão reconhecidos.
 
-Configuração do equipamento 
-=============================
+# Configuração do equipamento
 
-Selecione um dos seus equipamentos. Se estes são produtos do tipo
-Infravermelho, um botão para aprender um comando aparece na parte superior. Ai voce
-basta clicar nele, você tem 5 segundos para aprender
-um comando infravermelho ou 433 para o seu broadlink. Após isso, o plugin
-confirmará o sucesso da operação e criará o pedido associado
-você só precisa citar. Há também um modo avançado 
-para detectar frequências Rf ligeiramente diferentes.
-Este modo funciona em dois estágios, um estágio de detecção de frequência 
-(ou você deve continuar pressionando o botão ou pressionando-o várias vezes).
-E um segundo passo semelhante ao modo clássico.
+Selecione um dos seus equipamentos. Se estes forem produtos do tipo infravermelho, um botão de comando para aprender aparece na parte superior. Basta clicar nele, então você tem 5 segundos para aprender um comando infravermelho ou 433 para o seu broadlink. Em seguida, o plugin confirmará o sucesso da operação e criará o comando associado que você simplesmente precisa nomear.
 
-> **Dica**
+>**EM FORMAÇÃO**
 >
-> Para evitar aprender o que poderia vir do meio ambiente
-> (controle remoto de um vizinho ou de outro), o link em
-> aprendendo VOLUNTARIAMENTE entra em um nível de recepção muito
-> fraco, então você precisa estar MUITO perto do broadlink para aprender uma
-> pedido especialmente se for um 433Mhz.
+>Para evitar aprender o que pode vir do ambiente *(controle remoto de um vizinho ou outro)*, o Broadlink em modo de aprendizado vai VOLUNTARIAMENTE para um nível de recepção muito baixo, então você tem que estar MUITO perto do Broadlink para aprender um comando, principalmente se for um comando de 433Mhz.
 
-Sincronizar 
-============
+# Synchroniser
 
-Na guia Controles do equipamento, você encontra o botão
-Sincronize. Se você tiver mais de um broadlink, poderá
-transferir comandos aprendidos de um broadlink para outro.
+Na aba Comandos de um equipamento você encontra o botão Sincronizar. Se você tiver vários links, você pode transferir os comandos aprendidos de um link para outro.
 
-> **Dica**
+>**EM FORMAÇÃO**
 >
-> Funciona de um rm-pro a um mini ou vice-versa.
+>Funciona de um rm-pro a um mini ou vice-versa.
 
-Você pode escolher os pedidos a serem transferidos, bem como os links
-para o qual você deseja transferi-los. (O nome do pedido será
-obviamente convergido (TV ligada, ventilador desligado, etc.)
+Você pode escolher os pedidos a serem transferidos, bem como os links para os quais deseja transferi-los. (O nome do comando será obviamente convertido (TV ON, fan off, etc.)
 
-> **Dica**
+>**EM FORMAÇÃO**
 >
-> Se você adicionou seu dispositivo manualmente porque não foi detectado automaticamente. O MAC para informar é 
-> endereço MAC reverso em pacotes de dois em minúsculas sem : exemplo AA:BB:CC:DD:EE
-> torna-se eeddccbbaa
-
-> **Dica**
->
-> Para alguns RM Pro, incluindo as versões 4. O dispositivo não deve estar vinculado à nuvem.
-> Caso contrário, não será mais controlável localmente. Para fazer isso, você deve adicionar o dispositivo usando o aplicativo.
-> Mas não continue assim que for adicionado ao seu wifi (não o adicione a uma sala ou qualquer coisa). Tem que parar
-> neste momento.
-
-Registro de alterações detalhado :
-<https://github.com/jeedom/plugin-broadlink/commits/stable>
+>Se você adicionar manualmente seu dispositivo porque não foi detectado automaticamente. O endereço MAC a ser inserido é o endereço MAC reverso por pacote de dois em letras minúsculas sem os dois pontos *(exemplo AA:BB:CC:DD:EE torna-se eeddccbbaa)*.

@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Smartstart now respects the minimum heating percentage [LINK](https://github.com/jeedom/plugin-thermostat/issues/60)
+
 # 09/30/2024
 
 - Support for custom equipment images (Jeedom 4.5)

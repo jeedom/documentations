@@ -1,21 +1,21 @@
 {
     "id": "airzone",
-    "name": "Airzone Web",
+    "name": "AirzoneControl",
     "description": {
-        "fr_FR": "Plugin pour l'integration dans Jeedom de système AirzoneWeb",
-        "en_US": "Plugin for the integration in Jeedom of AirzoneWeb system",
-        "es_ES": "Complemento para la integración en el sistema Jeedom of AirzoneWeb",
-        "de_DE": "Plugin für die Integration in Jeedom des AirzoneWeb-Systems",
-        "ru_RU": "Plugin pour l'integration dans Jeedom de système AirzoneWeb",
-        "id_ID": "Plugin pour l'integration dans Jeedom de système AirzoneWeb",
-        "it_IT": "Plugin pour l'integration dans Jeedom de système AirzoneWeb",
-        "ja_JP": "Plugin pour l'integration dans Jeedom de système AirzoneWeb",
-        "pt_PT": "Plugin para integração no sistema Jeedom do AirzoneWeb",
-        "tr": "Plugin pour l'integration dans Jeedom de système AirzoneWeb"
+        "fr_FR": "Plugin pour l'integration dans Jeedom de systèmes Airzone, via Local API : AIRZONE WEBSERVER, AIDOO PRO et AIDOO PRO FANCOIL",
+        "en_US": "Plugin pour l'integration dans Jeedom de systèmes Airzone, via Local API : AIRZONE WEBSERVER, AIDOO PRO et AIDOO PRO FANCOIL",
+        "es_ES": "Plugin pour l'integration dans Jeedom de systèmes Airzone, via Local API : AIRZONE WEBSERVER, AIDOO PRO et AIDOO PRO FANCOIL",
+        "de_DE": "Plugin pour l'integration dans Jeedom de systèmes Airzone, via Local API : AIRZONE WEBSERVER, AIDOO PRO et AIDOO PRO FANCOIL",
+        "ru_RU": "Plugin pour l'integration dans Jeedom de systèmes Airzone, via Local API : AIRZONE WEBSERVER, AIDOO PRO et AIDOO PRO FANCOIL",
+        "id_ID": "Plugin pour l'integration dans Jeedom de systèmes Airzone, via Local API : AIRZONE WEBSERVER, AIDOO PRO et AIDOO PRO FANCOIL",
+        "it_IT": "Plugin pour l'integration dans Jeedom de systèmes Airzone, via Local API : AIRZONE WEBSERVER, AIDOO PRO et AIDOO PRO FANCOIL",
+        "ja_JP": "Plugin pour l'integration dans Jeedom de systèmes Airzone, via Local API : AIRZONE WEBSERVER, AIDOO PRO et AIDOO PRO FANCOIL",
+        "pt_PT": "Plugin pour l'integration dans Jeedom de systèmes Airzone, via Local API : AIRZONE WEBSERVER, AIDOO PRO et AIDOO PRO FANCOIL",
+        "tr": "Plugin pour l'integration dans Jeedom de systèmes Airzone, via Local API : AIRZONE WEBSERVER, AIDOO PRO et AIDOO PRO FANCOIL"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "4.1.22",
+    "require": "4.4.2",
     "category": "wellness",
     "hasDependency": false,
     "hasOwnDeamon": false,
@@ -38,7 +38,6 @@
         "tr"
     ],
     "compatibility": [
-        "miniplus",
         "smart",
         "rpi",
         "atlas",

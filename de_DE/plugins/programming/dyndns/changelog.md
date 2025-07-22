@@ -4,7 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 202.10.2022
+# 31.05.2024
+
+- Optimierung der IP-Wiederherstellung
+
+# 20.10.2022
 
 - Schnittstellen-Update für Jeedom v4.3
 

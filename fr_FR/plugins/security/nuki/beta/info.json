@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.3",
+    "require": "4.4",
     "category": "security",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/nuki\/",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/nuki\/changelog",
@@ -32,7 +32,6 @@
         "tr"
     ],
     "compatibility": [
-        "miniplus",
         "smart",
         "rpi",
         "docker",

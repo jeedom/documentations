@@ -1,0 +1,31 @@
+{
+	"id": "ambilightByHyperion",
+	"name": "Ambilight by Hyperion",
+	"description": {
+		"fr_FR": "Ce plugin permet de contrôler un serveur Hyperion."
+	},
+	"licence": "AGPL",
+	"author": "Spine",
+	"require": "4.4",
+	"category": "multimedia",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://spine34.github.io/jeedom-plugin-ambilightByHyperion/#language#/changelog",
+	"documentation": "https://spine34.github.io/jeedom-plugin-ambilightByHyperion/#language#/",
+	"changelog_beta": "https://spine34.github.io/jeedom-plugin-ambilightByHyperion/#language#/beta/changelog",
+	"documentation_beta": "https://spine34.github.io/jeedom-plugin-ambilightByHyperion/#language#/beta/",
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
+}

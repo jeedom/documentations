@@ -1,21 +1,46 @@
 {
-	"id" : "surepetcare",
-	"name" : "Sure PetCare",
-	"description" : "Plugin pour les objets connectées pour animaux Sure Petcare (Sureflap)",
-	"licence" : "AGPL",
-	"author" : "JMVedrine",
-	"require" : "4.2.0",
-	"category" : "devicecommunication",
-	"hasDependency" : false,
-	"hasOwnDeamon" : false,
-	"maxDependancyInstallTime" : 0,
-	"changelog" : "https:\/\/jmvedrine.github.io\/jeedom-surepetcare/#language#/changelog",
-	"documentation" : "https://jmvedrine.github.io/jeedom-surepetcare/#language#/",
-	"changelog_beta" : "https://raw.githubusercontent.com/jmvedrine/jeedom-surepetcare/beta/docs/fr_FR/changelog.md",
-	"documentation_beta" : "https://jmvedrine.github.io/jeedom-surepetcare/#language#/",
-	"link" : {
-		"forum":"https://www.jeedom.com/forum/viewtopic.php?f=141&t=45464"
+	"id": "surepetcare",
+	"name": "Sure PetCare",
+	"description": {
+		"fr_FR": "Plugin pour les objets connectées pour animaux Sure Petcare (Sureflap)",
+		"en_US": "Plugin for Sure Petcare (Sureflap) connected objects for pets",
+		"es_ES": "Plugin para objetos conectados para mascotas Sure Petcare (Sureflap)",
+		"de_DE": "Plugin für Sure Petcare (Sureflap) Connected Objects für Haustiere",
+		"it_IT": "Plugin per gli oggetti connessi di Sure Petcare (Sureflap) per gli animali domestici",
+		"pt_PT": "Plugin para objectos ligados Sure Petcare (Sureflap) para animais de estimação"
 	},
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["smart","luna","atlas","rpi","docker","diy"]
+	"licence": "AGPL",
+	"author": "JMVedrine",
+	"require": "4.2.0",
+	"os": {
+		"min": 10,
+		"max": 12.99
+	},
+	"category": "devicecommunication",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://jmvedrine.github.io/jeedom-surepetcare/#language#/changelog",
+	"documentation": "https://jmvedrine.github.io/jeedom-surepetcare/#language#/",
+	"changelog_beta": "https://raw.githubusercontent.com/jmvedrine/jeedom-surepetcare/beta/docs/fr_FR/changelog.md",
+	"documentation_beta": "https://jmvedrine.github.io/jeedom-surepetcare/#language#/",
+	"link": {
+		"forum": "https://www.jeedom.com/forum/viewtopic.php?f=141&t=45464"
+	},
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"smart",
+		"luna",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy"
+	]
 }

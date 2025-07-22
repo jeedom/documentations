@@ -4,6 +4,14 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 24/10/2024
+
+- Se corrigió un error en el equipo de tipo moda
+- Corrección en equipos tipo Termostato
+- Se corrigió un error en el informe del valor de humedad
+
+# 11/08/2024
+
 - Alternar soporte
 
 # 09/05/2024

@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Loïc",
-    "require": "4.3",
+    "require": "4.4.8",
     "category": "monitoring",
     "hasDependency": true,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/nut\/changelog",

@@ -2,32 +2,33 @@
 	"id": "speedtestByOokla",
 	"name": "Speedtest by Ookla",
 	"description": {
-		"fr_FR": "Ce plugin permet de tester la bande passante internet à l'aide de https://www.speedtest.net",
-		"en_US": "This plugin allows you to test the Internet bandwidth using https://www.speedtest.net"
+		"fr_FR": "Ce plugin permet de tester la bande passante internet à l'aide de https://www.speedtest.net"
 	},
 	"licence": "AGPL",
 	"author": "Spine",
-	"require": "4.3",
+	"require": "4.4",
+	"os": {
+		"min": 11,
+		"max": 12.99
+	},
 	"category": "monitoring",
 	"hasDependency": true,
 	"hasOwnDeamon": false,
 	"maxDependancyInstallTime": 10,
-	"changelog": "https://spine34.github.io/jeedom-plugin-speedtestByOokla/#language#/changelog",
-	"documentation": "https://spine34.github.io/jeedom-plugin-speedtestByOokla/#language#/",
-	"changelog_beta": "https://spine34.github.io/jeedom-plugin-speedtestByOokla/#language#/beta/changelog",
-	"documentation_beta": "https://spine34.github.io/jeedom-plugin-speedtestByOokla/#language#/beta/",
+	"changelog_beta": "https:\/\/spine34.github.io\/jeedom-documentations\/#language#\/speedtestByOokla\/beta\/changelog",
+	"changelog": "https:\/\/spine34.github.io\/jeedom-documentations\/#language#\/speedtestByOokla\/stable\/changelog",
+	"documentation_beta": "https:\/\/spine34.github.io\/jeedom-documentations\/#language#\/speedtestByOokla\/index",
+	"documentation": "https:\/\/spine34.github.io\/jeedom-documentations\/#language#\/speedtestByOokla\/index",
 	"language": [
-		"fr_FR",
-		"en_US"
+		"fr_FR"
 	],
 	"compatibility": [
 		"smart",
+		"luna",
+		"atlas",
 		"rpi",
 		"docker",
 		"diy",
-		"mobile",
-		"v4",
-		"atlas",
-		"luna"
+		"mobile"
 	]
 }

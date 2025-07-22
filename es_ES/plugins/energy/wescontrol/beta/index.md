@@ -8,6 +8,9 @@ Este complemento le permitirá tomar el control de su [**Servidor de energía el
 >
 >Al estar este material en constante evolución, el complemento en versión estable ofrece compatibilidad total con servidores Wes con firmware inferior a `V0.84A10` y la versión beta con firmware mayor o igual a `V0.84A10`.
 
+>
+>El equipo ya está trabajando en la integración de las extensiones Wes actualmente no compatibles, como el relé 8 o la extensión modbus, y hará todo lo posible para desarrollar el complemento en esta dirección lo antes posible.
+
 # Configuración general
 
 ## Configuración del complemento

@@ -4,17 +4,22 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 23/05/2025
+
+- Correction de la fuite mémoire sous Debian 11
+- Suppression du redémarrage auto du démon la nuit
+
 # 22/09/2024
 
-- Correction d'un soucis lors du redemarrage du démon la nuit qui pouvait ne pas toujours redemarrer correctement
+- Correction d'un soucis lors du redémarrage du démon la nuit qui pouvait ne pas toujours redémarrer correctement
 
 # 02/09/2024
 
-- Ajout d'un redemarrage du demon la nuit (pour limiter les soucis mémoire)
+- Ajout d'un redémarrage du démon la nuit (pour limiter les soucis mémoire)
 
 # 29/06/2024
 
-- Correction d'un bug sur la fonction d'execption ajax.
+- Correction d'un bug sur la fonction d'exception ajax.
 
 # 06/04/2021
 
@@ -27,22 +32,27 @@
 - Ajout du tag "Compatibilité V4"
 
 # 30/08/2019
+
 - Rajout d'une gestion d'exception
 
 # 22/08/2019
+
 - Rajout du Divoom Tivoo
 - Améliorations mineures
 
 # 19/08/2019
+
 - Rajout d'un message pour penser à changer le niveau de l'api dans Jeedom si vous utilisez des antennes
-- Rajout de certains appareils DIVOOM (attention ils nécessitent une relance des dépendances). Je ne le rajoute pas en contrôle de dépendances car ce sont justes des dépendances spécifiques pour eux, inutile donc de forcer tout le monde à relancer les dépendances)
+- Rajout de certains appareils DIVOOM (attention ils nécessitent une relance des dépendances). Je ne le rajoute pas en contrôle de dépendances car ce sont justes des dépendances spécifiques pour eux, inutile donc de forcer tout le monde à relancer les dépendances
 - Rajout du niveau de batterie sur les cleargrass
 - Améliorations mineures
 
 # 30/07/2019
+
 - Correction d'un bug sur le dotti lié au passage à python3
 
 # 29/07/2019
+
 - Fixes mineurs
 - Séparation des devices inconnus sur la page d'équipement
 - Possibilité de supprimer tous les devices inconnus en un clic (uniquement ceux non attribués à un objet)
@@ -50,6 +60,7 @@
 - Améliorations globales
 
 # 20/07/2019
+
 - Changement de méthode pour l'ensemble de la gamme playbulb (une seule conf et des visuels) plus de dépendances par rapport aux différentes versions (maintenant a l'inclusion on récupére les adresses des diffférentes méthodes)
 - Rajout de la miscale V2 avec poids et impedance (et tout un tas de mesures calculées). Gestion des utilisateurs pour les calculs (dans le bouton config avancée)
 - Changement de la miscale V1 (il faudra recréer les users) mais on gagne quelques infos en plus
@@ -76,6 +87,7 @@
 - Possibilité de choisir exactement le type de produit à inclure lors d'un scan (avec possibilité de choisir tous)
 
 # 26/06/2019
+
 - Rajout du xiaomi cleargrass
 - Rajout du lywsd02 Xiaomi
 - Début de gestion dynamique de modèles
@@ -107,7 +119,7 @@
 
 # 06/04/2018
 
-- Correction probable d'un bug de refresh notification sur Hygrothermographe et Miflora (necessite probablement une relance des dépendances pour les gens impactés)
+- Correction probable d'un bug de refresh notification sur Hygrothermographe et Miflora (nécessite probablement une relance des dépendances pour les gens impactés)
 
 # 28/03/2018
 

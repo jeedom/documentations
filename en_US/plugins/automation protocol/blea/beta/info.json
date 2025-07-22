@@ -15,7 +15,11 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.0",
+    "require": "4.4",
+    "os": {
+        "min": 11,
+        "max": 11.99
+    },
     "mobile": "blea",
     "category": "automation protocol",
     "maxDependancyInstallTime": 60,

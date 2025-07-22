@@ -52,9 +52,9 @@ Melden Sie sich mit Anmeldeinformationen an **Pi / Himbeere**
 ## Starten Sie das Installationsskript jeedom
 
 „
-wget https://www.jeedom.com/install
-chmod +x installieren
-./install
+wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
+chmod +x install.sh
+./install.sh
 „
 
 **Das Sudo-Passwort lautet ebenfalls Himbeere**

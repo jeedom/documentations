@@ -4,6 +4,32 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- 
+
+# 24/06/2025
+
+- Version de zigbee2mqtt par defaut 2.4 (sauf pour les luna)
+- Correction d'un soucis visuel sur l'inclusion en z2m 2.3 ou plus
+
+# 14/01/2025
+
+- Mise à jour de la doc
+
+# 07/01/2025
+
+- La version par defaut de zigbee2mqtt est maintenant 1.42.0
+- Support de l'installation de la version de zigbee2mqtt 2.0.X (attention pour l'instant l'installation est possible mais on ne garantie pas que tout marche meme si les 1er tests sont encourageant)
+- Bug-Fix
+
+# 16.12.2024
+
+- Aktualisierung der Dokumentation
+- Die Schaltfläche zur Firmware-Aktualisierung ist ausgeblendet, wenn Sie sich im Remote-Modus befinden
+- Verbesserter Daemon-Start
+- Standardmäßig befindet sich das Plugin im lokalen Modus (anstatt auf die Konfiguration zu warten))
+- Die Version von zigbee2mqtt ist standardmäßig 1.41 (vorübergehend bis zur Veröffentlichung von 2.0)
+- Firmware-Update-Schaltfläche auf Luna entfernt (vorübergehend))
+
 # 27.09.2024
 
 - Änderung der Mindestversionen, Core 4.4 und OS Debian 11 mindestens

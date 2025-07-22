@@ -3,13 +3,13 @@
 
 # Description
 
-Plugin to manage your AirzoneWeb systems
+Plugin to manage and control your Airzone systems
 
 
 # Prerequisites
 
- - Jeedom v4.1.22
- - Find out the IP address of your AirzoneWeb Server
+ - Jeedom v4.4.2
+ - Know the IP addresses of your gateways
 
 
 # Installation
@@ -21,16 +21,10 @@ After downloading the plugin, you must first activate it, like any Jeedom plugin
 
 Go to the Plugins / Plugins management menu
 
-![config](../images/airzoneConfig.png)
-
-Click on your plugin, and configure it with the IP address of your AirzoneWebServer as well as the port (by default, Airzone systems have a port configured on 3000)
-The number of systems is automatically detected when new equipment is added.
 
 Choose the desired Cron for the refresh of the values :  5, 10, 15, 30, Hourly or Daily.
 
 Choose the Wait time between requests for each zone; by default 10s if empty field.
-
-By clicking on the Add DriverName button, you can modify the name of the driver on your Airzone system.
 
 Sauvegardez
 
@@ -40,26 +34,25 @@ Sauvegardez
 Go to the Plugins / Comfort / AirzoneJeedom menu
 
 
-Click Add.
+Click Add Gateway.
 
-![config](../images/airzoneEquip.png)
+![config](../images/airzoneEquipement.png)
 
-The zones available on your system will be available in the drop-down menu.
-Choose a zone for an equipment
+You can configure an IP address there.
 
-
-Remember to Activate and make Visible your equipment, and assign it a parent to find it on your dashboard.
+After saving, you can click Start Scan
 
 IMPORTANT : If you have an area that contains special characters, this can cause a SystemOut of Range error.
 
 
-# Zone Scan
 
-When your equipment is created, and activated, you can click on Scan Zones, at the top of the equipment
-This will send a request to the webserver to retrieve all the information of your Installation
+# Page Plugin :
 
-The page will refresh and bring up a selection menu to choose the Zone associated with this equipment
+![pluginView](../images/airzoneEqlogics.png)
 
+You can find on the plugin page, the gateways on the left side, as well as their scanned and associated zones on their right side
+
+Note that the Masters zones have a yellow icon, to clearly differentiate them
 
 
 # Dashboard
@@ -81,10 +74,9 @@ The choices available in the modes, or the fan speeds are detected according to 
 
 Typical equipment :
 
-![config](../images/airzoneNoMaster.png)
+![config](../images/airzoneWidgets.png)
 
 
 Equipment of a master zone; we see an additional command to activate the same mode on all the associated zones of the system
 
 
-![config](../images/airzoneMaster.png)

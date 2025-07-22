@@ -4,8 +4,19 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+# 
+
+- 
+- : 
+
+# 30/04/2025
+
+- Fix un problème sur le lancement de commandes pour certaines installations (hub inconnu) suite à la version du 28/04
+
+# 28/04/2025
+
 > Attention
-> Redesenho significativo do plugin: o plugin foi completamente reescrito incluindo a comunicação com o hub Harmony (via daemon agora)
+> Redesenho significativo do plugin: le plugin a été entièrement réécrit y compris la communication avec le hub Harmony (via démon à présent)
 >
 > Requer Jeedom 4.4.8
 >
@@ -15,8 +26,6 @@
 >
 > Veja também [este tópico na comunidade](https://community.jeedom.com/t/importante-mise-a-jour-pour-debian-11-et-debian-12/129908) para mais detalhes
 
-# 28/08/2024
-
 - Reescrita completa do plugin
 - Usando o método de instalação de dependência principal
 - Alterar a biblioteca para se comunicar com o hub Harmony para usar uma biblioteca com melhor rastreamento
@@ -25,6 +34,7 @@
   - para ter feedback de status em tempo real
 - Configuração simplificada: Resta apenas a configuração do IP do hub para entrar na configuração do plugin e iniciar o daemon e o equipamento se sincronizar com o Jeedom.
 - Adicionando um pedido **Iniciar atividade** que indica a atividade que está sendo iniciada (vazio se não houver)
+- )
 
 # 17/09/2023
 

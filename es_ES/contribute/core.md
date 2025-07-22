@@ -1,5 +1,3 @@
-
-
 # Contribuir al desarrollo del núcleo
 
 Quieres contribuir al desarrollo del Jeedom Core ?
@@ -9,9 +7,9 @@ Quieres contribuir al desarrollo del Jeedom Core ?
 
 Estos son los conceptos básicos que debe conocer :
 
-> Antes de enviar un PR, actualice su alfa para verificar que el error aún no se haya solucionado. Y sincroniza tu github.
+> Antes de enviar un PR, actualice su alfa para verificar que el error aún no se haya solucionado. Y sincroniza tu repositorio de github.
 
-> Verifique que lo que solucionó no cause otros errores. La mayoría de las funciones principales son llamadas por diferentes páginas frontales o por otras funciones principales y por complementos. Realice una búsqueda en el Core para ver/comprender dónde se utilizan las funciones y, en caso de duda, exponga la inquietud y su corrección en [Comunidad](https://community.jeedom.com/).
+> Comprueba que lo que estás arreglando no cause otros errores. La mayoría de las funciones principales son llamadas por diferentes páginas front-end o por otras funciones principales y complementos. Haga una búsqueda en el Core para ver/comprender dónde se utilizan las funciones y, en caso de duda, informe el problema y su corrección en [Comunidad](https://community.jeedom.com/).
 
 ## Ramas de Github
 
@@ -21,9 +19,7 @@ El código principal es de código abierto y está disponible [aquí](https://gi
 
 - **alfa** :  Rama de la versión V4 alpha. Destinado principalmente a desarrolladores para la próxima versión de Jeedom.
 - **Beta** : Rama de la versión V4 beta. Destinado principalmente a probadores beta, para probar antes de cambiar a estable.
-- **V4-estable** : Rama estable de V4.
-- **Lanzamiento** : Release Candidate rama de V3. Solo para correcciones de errores.
-- **Maestro** : Rama de la versión estable V3.
+- **Maestro** : Rama estable de V4.
 
 Las actualizaciones se realizan en estas ramas de acuerdo con la configuración de Jeedom **Configuración → Sistema → Configuración / Actualizaciones / Mercado**.
 
@@ -39,53 +35,53 @@ Para ayudar al desarrollo del Core, debe dominar uno o más de los siguientes id
 - JavaScript : Desarrollo de clases js y front-end.
 - Css : Desarrollo de interfaz.
 
-También es deseable el conocimiento del entorno Linux.
+También es deseable tener conocimiento del entorno Linux.
 
 ## Árbol del núcleo
 
-El código se distribuye en diferentes directorios en la raíz de Jeedom (por defecto : var / www / html) :
+El código se distribuye en diferentes directorios en la raíz de Jeedom (por defecto : /var/www/html) :
 
-- Tercera parte : Archivo que incluye las bibliotecas externas utilizadas por Jeedom (jQuery, CodeMirror, etc).
-- reserva : Carpeta de respaldo de Jeedom.
+- **Tercera parte** : Carpeta que incluye bibliotecas externas utilizadas por Jeedom (jQuery, CodeMirror, etc).
+- **reserva** : Carpeta de respaldo de Jeedom.
 - **núcleo** : Archivo que incluye las funciones internas del Core:
 	- **ajax** : Interfaz de archivos php entre clases js y clases php.
-	- API : Archivos php API.
+	- **API** : Archivos php API.
 	- **clase** : Archivos de clase PHP (*eqLogic, cmd, jeeObject, historial, cron, etc.*).
-	- com : Archivos de clase php de comunicación (*http, shell*).
-	- config : Archivos php de configuración principal y *default.config.ini* incluida la configuración predeterminada. archivo de versión para la versión Core.
-	- css : Iconos disponibles con Core y su CSS.
-	- i18n : Archivos json que incluyen cadenas traducidas.
-	- img : Imágenes principales (logotipos, fondos, etc.).
+	- **com** : Archivos de clase php de comunicación (*http, shell*).
+	- **config** : Archivos php de configuración principal y *default.config.ini* incluida la configuración predeterminada. Archivo de versión para la versión Core.
+	- **css** : Iconos disponibles con Core y su CSS.
+	- **i18n** : Archivos json que incluyen cadenas traducidas.
+	- **img** : Imágenes principales (logotipos, fondos, etc.).
 	- **js** : Archivos de clase js, llamados en particular desde las páginas de Jeedom.
-	- php : Archivos php requeridos por Core (excluyendo clases).
-	- repositorio : Archivos PHP específicos del mercado, samba, etc.
+	- **php** : Archivos php requeridos por Core (excluyendo clases).
+	- **repositorio** : Archivos PHP específicos del mercado, samba, etc.
 	- **Plantilla** : Archivos HTML (*Tablero y móvil*) para mostrar eqLogics (Tile), comandos (Widgets) y escenarios.
 	- **Temas** : Archivos CSS de los tres temas principales (oscuro, claro, heredado), para tablero y dispositivos móviles.
-- datos : Carpeta que incluye datos del usuario (informes, vistas, personalización avanzada css / js, diseño 3D, etc).
+- **datos** : Carpeta que incluye datos del usuario (informes, vistas, personalización avanzada css / js, diseño 3D, etc).
 - **Escritorio** : Carpeta que incluye todas las páginas mostradas (la interfaz) en el escritorio y sus funciones.
-	- común : Archivos js / php comunes a todas o varias páginas. Grupos de funciones que se pueden llamar desde varias páginas, en particular *utils.js*, presente en todas las páginas del escritorio.
-	- css : Escritorio ver archivos CSS específicos.
-	- img : Imágenes específicas de la vista de escritorio.
-	- js : Archivos js correspondientes a cada página (*administración, tablero, escenario, etc.*).
-	- modal : Archivos php modales, incluido código php / html y código js.
-	- php : Archivos php correspondientes a cada página (*administración, tablero, escenario, etc.*).
-- docs : Documentación.
-- instalar : Archivos de instalación de Jeedom.
-- Registro : Carpeta que incluye todos los registros (http.error, actualización, etc) y los de los escenarios (subcarpeta stageLog, nombrada por id).
+	- **común** : Archivos js/php comunes a varias páginas. Grupos de funciones que se pueden llamar desde varias páginas, en particular *utils.js*, presente en todas las páginas del escritorio.
+	- **css** : Escritorio ver archivos CSS específicos.
+	- **img** : Imágenes específicas de la vista de escritorio.
+	- **js** : Archivos js correspondientes a cada página (*administración, tablero, escenario, etc.*).
+	- **modal** : Archivos php modales, incluido código php / html y código js.
+	- **php** : Archivos php correspondientes a cada página (*administración, tablero, escenario, etc.*).
+- **docs** : Documentación.
+- **instalar** : Archivos de instalación de Jeedom.
+- **Registro** : Carpeta que incluye todos los registros (http.error, actualización, etc) y los de los escenarios (subcarpeta stageLog, nombrada por id).
 - **Móvil** : Carpeta que incluye todas las páginas mostradas (interfaz de la aplicación web) en el móvil y sus funciones.
-	- css : Móvil ver archivos CSS específicos.
-	- HTML : Archivos HTML correspondientes a cada página (*hogar, equipo, cronograma, etc.*).
-	- js : Archivos js correspondientes a cada página (*hogar, equipo, cronograma, etc.*).
-	- modal : Archivos HTML correspondientes a los modales en Mobile.
-- plugins : Carpeta que incluye todos los complementos instalados.
-- Guión : Script de implementación, certificados.
-- Apoyo : Carpeta utilizada en caso de solicitud de soporte.
-- vendedor : Archivo que incluye bibliotecas php de terceros.
+	- **css** : Móvil ver archivos CSS específicos.
+	- **HTML** : Archivos HTML correspondientes a cada página (*hogar, equipo, cronograma, etc.*).
+	- **js** : Archivos js correspondientes a cada página (*hogar, equipo, cronograma, etc.*).
+	- **modal** : Archivos HTML correspondientes a los modales en Mobile.
+- **plugins** : Carpeta que incluye todos los complementos instalados.
+- **Guión** : Script de implementación, certificados.
+- **Apoyo** : Carpeta utilizada en caso de solicitud de soporte.
+- **vendedor** : Carpeta que incluye bibliotecas php de terceros.
 
 
 ## Front-end
 
-La interfaz de Jeedom funciona como un sitio web, desde php con interfaz SQL y js / CSS.
+La interfaz de Jeedom funciona como un sitio web, desde php interconectado con SQL y js/CSS.
 
 Inicialmente, el navegador carga el archivo `/ index.php :
 - Verificando la instalación de Jeedom, consulte ʻinstall / setup.php` si es necesario.
@@ -104,7 +100,7 @@ El archivo principal de Desktop es `/ desktop / php / index.php`.
 Cada página tiene al menos dos parámetros en la URL. Ejemplo :
 
 `https://my.dns1.jeedom.com/index.php?v = d & p = tablero` :
-- **v** : Versión de interfaz. d para escritorio, m para móvil.
+- **v** : Versión de interfaz : d para escritorio, m para móvil.
 - **pag** : Página para mostrar. Aquí, "tablero".
 
 En este caso, el archivo `/ desktop / php / index.php` cargará el archivo `/ desktop / php / dashboard.php` en el div `div_pageContainer`. Esto también cargará el archivo `/ desktop / js / dashboard.js`, incluidas las funciones js específicas para la visualización de esta página (aquí, el panel).
@@ -114,7 +110,7 @@ El archivo `/ desktop / php / index.php` también se encarga de :
 - Verificar la autenticación del usuario.
 - Verifique si es necesario la página a cargar según la configuración (página predeterminada del usuario).
 - Crea la estructura html (*head, body, div_pageContainer, etc*).
-- Cargar CSS, bibliotecas, etc.
+- Cargue CSS, bibliotecas, etc.
 - Cargar tema de usuario.
 - Crea la barra de menú.
 - Ingrese algunas variables globales php / js.
@@ -128,7 +124,7 @@ El archivo `desktop / common / js / utils.js`, por lo tanto, siempre está prese
 - Gestionar un posible cambio de tema según la hora.
 - Permitir que diferentes archivos js accedan a funciones comunes.
 
-Por tanto, el índice.php y las utils.js proporciona la estructura y las funciones básicas de la interfaz.
+Entonces los archivos de índice.php y utilidades.js proporciona la estructura y las funciones básicas de la interfaz.
 Luego, el contenido de la página llamada se carga desde el escritorio / php / page.php y desktop / js / page.js.
 Estos archivos de contenido, puramente orientados a la interfaz, pueden acceder a las funciones Core (clases `/ core / class`) directamente en php, o en js gracias a las clases js (` / core / js`) a través de llamadas ajax (`/ core / ajax`).
 
@@ -141,7 +137,7 @@ Por ejemplo, la función anterior en la ventana raíz `loadPage()` se convierte 
 Por razones de compatibilidad con versiones anteriores de complementos, las funciones antiguas aún se declaran y quedarán obsoletas en una versión posterior. [Ver la lista aquí](https://github.com/jeedom/core/blob/alpha/desktop/common/js/utils.js#L1423).
 
 #### Núcleo v4.3
-Continuando desde la versión 4.2, las páginas frontales del escritorio se han aislado para evitar hacer referencia a variables y funciones en la ventana raíz. Esto asegura posibles colisiones de declaración, facilita la lectura y comprensión del código, así como su depuración.
+Continuando desde la versión 4.2, las páginas frontales del escritorio se han aislado para evitar hacer referencia a variables y funciones en la ventana raíz. Esto protege contra posibles colisiones de declaraciones y facilita la lectura y comprensión del código, así como su depuración.
 
 El archivo `core/js/jeedom.class.js` declara dos nuevos espacios de nombres :
 ##### jeeFrontEnd[}
@@ -204,7 +200,7 @@ $('#myButton').on('click', function() {
 
 ##### jeephp2js[}
 
-Se usa para pasar variables de un script php al front-end js. Por ejemplo:
+Se usa para pasar variables de un script php al front-end js. Por ejemplo :
 
 ```php
 enviarVarToJS([
@@ -230,7 +226,7 @@ La interfaz de escritorio responde y se adapta al tamaño del navegador. Sin emb
 La página de referencia es `/ mobile / html / index.html`, que se encarga de :
 - Verificar la autenticación del usuario.
 - Crea la estructura html (*head, body, div_pageContainer, etc*).
-- Cargar CSS, bibliotecas, etc.
+- Cargue CSS, bibliotecas, etc.
 - Cargar tema de usuario.
 - Ingrese algunas variables globales php / js.
 - Cargue el archivo js `mobile / js / application.js`
@@ -245,7 +241,7 @@ Una diferencia notable en Mobile es la ausencia de páginas PHP. Por lo tanto, l
 
 ### Archivos CSS
 
-Core CSS se basa principalmente en estos archivos:
+Core CSS se basa principalmente en estos archivos :
 - En el escritorio :
 	- escritorio / css / boostrap.css : Versión limpiada por el equipo CSS Bootstrap v3.3.7.
 	- desktop / css / desktop.main.css : CSS de la interfaz principal.

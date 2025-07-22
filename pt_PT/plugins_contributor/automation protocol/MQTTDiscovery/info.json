@@ -1,18 +1,32 @@
 {
 	"id": "MQTTDiscovery",
 	"name": "MQTT Discovery",
-	"description": "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' (ou 'HA Discovery') qui existe sous home assistant. Cela permet d'utiliser Open MQTT Gateway (https://docs.openmqttgateway.com/) sur esp32 ou l'équivalent Theengs gateway (https://gateway.theengs.io/) sur pi. Il devient très facile de faire de la gestion de présence de tag bluetooth tel que les nuts ou d'intégrer une liste importante de matériel compatible BLEA. Mais c'est également compatible avec tout équipement supportant 'MQTT Discovery' tel que zwave, zigbee, Nuki, Switchbot, Sonos...",
+	"description": {
+		"fr_FR": "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' (ou 'HA Discovery') qui existe sous home assistant. Cela permet d'utiliser Open MQTT Gateway (https://docs.openmqttgateway.com/) sur esp32 ou l'équivalent Theengs gateway (https://gateway.theengs.io/) sur pi. Il devient très facile de faire de la gestion de présence de tag bluetooth tel que les nuts ou d'intégrer une liste importante de matériel compatible BLEA. Mais c'est également compatible avec tout équipement supportant 'MQTT Discovery' tel que zwave, zigbee, Nuki, Switchbot, Sonos...",
+		"en_US": "Plugin for automatic discovery of MQTT equipment based on the 'MQTT Auto Discovery' (or 'HA Discovery') principle that exists in home assistant. It enables the use of Open MQTT Gateway (https://docs.openmqttgateway.com/) on esp32 or the equivalent Theengs gateway (https://gateway.theengs.io/) on pi. This makes it very easy to manage the presence of Bluetooth tags such as nuts, or to integrate an extensive list of BLEA-compatible hardware. But it's also compatible with any equipment supporting 'MQTT Discovery' such as zwave, zigbee, Nuki, Switchbot, Sonos...",
+		"es_ES": "Plugin para el descubrimiento automático de equipos MQTT según el principio de 'MQTT Auto Discovery' (o 'HA Discovery') que existe en home assistant. Esto le permite utilizar Open MQTT Gateway (https://docs.openmqttgateway.com/) en esp32 o el equivalente Theengs gateway (https://gateway.theengs.io/) en pi. Esto hace que sea muy fácil gestionar la presencia de etiquetas Bluetooth como las nueces, o integrar una gran lista de hardware compatible con BLEA. Pero también es compatible con cualquier equipo que soporte 'MQTT Discovery' como zwave, zigbee, Nuki, Switchbot, Sonos, etc.",
+		"de_DE": "Plugin für die automatische Erkennung von MQTT-Geräten nach dem Prinzip der 'MQTT Auto Discovery' (oder 'HA Discovery'), die es unter home assistant gibt. Damit kann man Open MQTT Gateway (https://docs.openmqttgateway.com/) auf esp32 oder das entsprechende Theengs gateway (https://gateway.theengs.io/) auf pi verwenden. Es wird sehr einfach, die Anwesenheit von Bluetooth-Tags wie Nuts zu verwalten oder eine umfangreiche Liste von BLEA-kompatiblen Geräten zu integrieren. Es ist aber auch mit allen Geräten kompatibel, die \"MQTT Discovery\" unterstützen, wie z. B. Wave, Zigbee, Nuki, Switchbot, Sonos...",
+		"it_IT": "Plugin per il rilevamento automatico di apparecchiature MQTT sul principio di 'MQTT Auto Discovery' (o 'HA Discovery') che esiste nell'ambito dell'assistente domestico. Ciò consente di utilizzare il gateway Open MQTT (https://docs.openmqttgateway.com/) su esp32 o l'equivalente gateway Theengs (https://gateway.theengs.io/) su pi. In questo modo è molto facile gestire la presenza di tag Bluetooth come i dadi, o integrare un ampio elenco di hardware compatibile con BLEA. Ma è anche compatibile con qualsiasi apparecchiatura che supporti 'MQTT Discovery' come zwave, zigbee, Nuki, Switchbot, Sonos, ecc.",
+		"pt_PT": "Plugin para a descoberta automática de equipamento MQTT segundo o princípio da \"Descoberta automática MQTT\" (ou \"Descoberta HA\") que existe no assistente doméstico. Isto permite-lhe utilizar o Open MQTT Gateway (https://docs.openmqttgateway.com/) no esp32 ou o gateway Theengs equivalente (https://gateway.theengs.io/) no pi. Isto torna muito fácil gerir a presença de etiquetas Bluetooth, como nozes, ou integrar uma grande lista de hardware compatível com BLEA. Mas também é compatível com qualquer equipamento que suporte 'MQTT Discovery', como zwave, zigbee, Nuki, Switchbot, Sonos, etc."
+	},
 	"utilization": "Intégration possible avec des équipements Bluetooth Low Energy (BLE), zwave, zigbee, Nuki, Switchbot, Sonos, myfox, MG, Tydom...",
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.2",
+	"require": "4.4",
+	"os": {
+		"min": 11
+	},
 	"category": "automation protocol",
 	"hasDependency": true,
 	"hasOwnDeamon": true,
 	"maxDependancyInstallTime": 60,
 	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
 		"fr_FR",
-		"en_US"
+		"it_IT",
+		"pt_PT"
 	],
 	"compatibility": [
 		"smart",

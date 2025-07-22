@@ -1,0 +1,41 @@
+{
+	"id": "TeslaBLE",
+	"name": "Tesla BLE",
+	"pluginVersion": "0.1",
+	"description": {
+		"fr_FR": "Ce plugin permet de piloter la charge et la clim de vos véhicules tesla en utilisant un ProxyBLE (installé sur un Raspberry Pi Zero W par exemple) proche du véhicule => https:\/\/github.com\/wimaha\/TeslaBleHttpProxy"
+	},
+	"licence": "AGPL",
+	"author": "superdcat",
+	"require": "4.4",
+	"os" : {
+		"min" : 10,
+		"max" : 12.99
+	},
+	"category": "devicecommunication",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/template\/beta\/changelog",
+	"changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/template\/changelog",
+	"documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/template\/beta",
+	"documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/template",
+	"link": {
+		"forum": "Lien vers le forum",
+		"video": "Lien vers une video"
+	},
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"smart",
+		"luna",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"miniplus",
+		"v4"
+	]
+}

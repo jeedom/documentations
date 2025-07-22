@@ -4,19 +4,15 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# 09/05/2024
+# 28/02/2025
 
-- Adicionado um reinício do daemon todas as noites para evitar problemas de memória
-
-# 16/08/2024
-
+- Corrija um vazamento de memória no daemon
+- Corrigir um problema ao instalar dependências que poderiam ocorrer em determinadas instalações
+- Suppression de **l'installation** de 2 dépendances (`pycrypto` & `asn1crypto`) qui ne sont plus utiles pour le plugin
+- Modernização da interface
+- Debian 11 necessário
 - Compatibilidade com Debian 12
 - Jeedom v4.4.8 obrigatório
-- A compatibilidade com o Debian 10 não é mais garantida, se você ainda estiver no Debian 10 e não tiver problemas, não instale a atualização.
-
-# 11/10/2022
-
-- Modernização da interface
 
 # 30/09/2022
 

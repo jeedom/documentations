@@ -4,6 +4,18 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 26/03/2025
+
+- Correction d'un soucis avec Debian 12
+
+# 01/01/2025
+
+- Fix une fuite de mémoire sur le démon
+- Compatibilité du démon avec Debian 12
+- Corrections mineures
+- Jeedom 4.4 ou plus requis
+- Debian 11 ou plus requis
+
 # 20/11/2020
 
 - Amélioration du profil MAS Ventilairsec

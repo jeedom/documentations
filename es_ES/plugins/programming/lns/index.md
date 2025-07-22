@@ -20,3 +20,40 @@ Este complemento le permite instalar y configurar un Chirpstack V3 en la caja Je
 7- Pila de chirridos abierta.
 
 8- Creación automática en CS: ingrese los identificadores de CS para crear en Chirpstack el servidor de red, perfil de servicio, puerta de enlace, perfil de dispositivo (clase A y clase C)).
+
+# 
+)
+
+    - 
+![alt text](image-5.png)
+ :
+
+
+)
+
+
+![alt text](image-6.png)
+
+)
+)
+![alt text](image-7.png)
+
+# Panel
+
+##  ?
+
+-  **** ( ****.
+-  :
+  -  **** .
+
+- .
+![alt text](image-3.png)
+
+---
+## 
+
+-  :
+![alt text](image-4.png)
+![alt text](image-8.png)
+---
+

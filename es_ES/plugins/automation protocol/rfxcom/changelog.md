@@ -4,7 +4,9 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-# 19/06/2024
+- Se corrigió un error que podía llenar registros
+
+# 27/07/2024
 
 - Se agregó compatibilidad con Debian 12 (versión Jeedom 4.4).7 requeridos para Debian 12)
 - Corrección de la gestión del apagado del demonio en caso de problema de configuración o conexión con rfxcom

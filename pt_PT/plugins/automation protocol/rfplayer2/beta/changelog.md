@@ -4,7 +4,20 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-- Melhor gerenciamento do nível de log se não houver nenhum (o daemon estará com erro de log)
+# 
+
+- 
+
+# 28/12/2024
+
+- Corrigido um bug ao enviar certos comandos RTS
+
+# 27/12/2024
+
+- Corrija um vazamento de memória no daemon
+- Debian 11 necessário
+- Jeedom v4.4 obrigatório
+- Compatibilidade com Debian 12
 
 # 25/01/2023
 
@@ -51,6 +64,7 @@ Adição do atuador Edisio
 Adicionar quadro Edisio
 
 # 18/10/2018
+
 Alterar o cálculo da bateria no Edisio
 Alterar gerenciamento de IDs
 Gerenciamento de caracteres especiais para o envio do nome do papagaio, o rfp1000 não gosta de não ascii

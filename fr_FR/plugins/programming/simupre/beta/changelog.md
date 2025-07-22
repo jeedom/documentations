@@ -5,6 +5,7 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
 - Support des images d'équipement personnalisées (Jeedom 4.5)
+- Amélioration du support de Debian 12
 
 # 04/07/2024
 

@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 29/06/2025
+
+- Optimisation des requêtes vers Waze afin de réduire la latence
+
 # 17/10/2022
 
 - Mise à jour liste des commandes pour Jeedom v4.3

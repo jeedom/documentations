@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 09/06/2025
+
+- Correction du listener de la commande Seuil
+
 # 14/12/2023
 
 - Correction du listener de la commande Seuil

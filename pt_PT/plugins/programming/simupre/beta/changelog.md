@@ -5,6 +5,7 @@
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
 - Suporte para imagens de equipamentos personalizados (Jeedom 4.5)
+- Suporte aprimorado ao Debian 12
 
 # 07/04/2024
 
