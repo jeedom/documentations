@@ -4,7 +4,8 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-- 
+- Meilleurs gestion des droits lors du lancement du demon
+- .
 
 # 24/06/2025
 
