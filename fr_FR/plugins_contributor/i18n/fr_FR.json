@@ -117,6 +117,8 @@
         "Le plugin Discord Link permet d'envoyer des messages sur son serveur Discord": "Le plugin Discord Link permet d'envoyer des messages sur son serveur Discord",
         "Client SIP": "Client SIP",
         "Connecter Jeedom a votre reseau SIP": "Connecter Jeedom a votre reseau SIP",
+        "Alexa Premium": "Alexa Premium",
+        "Plugin pour gérer les équipements Alexa dans Jeedom": "Plugin pour gérer les équipements Alexa dans Jeedom",
         "Alexa - API": "Alexa - API",
         "Plugin pour interface Alexa": "Plugin pour interface Alexa",
         "TaskerAutoRemote": "TaskerAutoRemote",
