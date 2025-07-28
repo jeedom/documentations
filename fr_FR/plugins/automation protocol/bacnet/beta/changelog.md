@@ -5,6 +5,17 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
 
+# 28/07/2025
+
+- Ajout création manuelle équipement + ajout points manuels pour devices avec milliers de points non scannable pour le plugin. 
+
+# 25/07/20205
+
+- Utilisation Vendorname si il existe lors de la création d'un équipement
+- Refonte UI Scan
+- Optimisation Scan des points
+
+
 # 20/02/2025
 
 - Fix Socket for PHP8
