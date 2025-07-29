@@ -26,7 +26,16 @@
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnet\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnet\/",
     "language": [
-        "fr_FR"
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "smart",

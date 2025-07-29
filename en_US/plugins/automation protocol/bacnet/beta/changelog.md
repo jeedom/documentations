@@ -5,9 +5,9 @@
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
 
-# 
+# 29/07/2025
 
-- 
+- Ajout import CSV EDE
 
 # 28/07/2025
 
