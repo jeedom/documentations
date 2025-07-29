@@ -7,13 +7,17 @@
 
 # 
 
-- . 
+- 
 
-# 
+# 28/07/2025
 
-- 
-- 
-- 
+- Ajout création manuelle équipement + ajout points manuels pour devices avec milliers de points non scannable pour le plugin. 
+
+# 25/07/20205
+
+- Utilisation Vendorname si il existe lors de la création d'un équipement
+- Refonte UI Scan
+- Optimisation Scan des points
 
 
 # 20/02/2025
