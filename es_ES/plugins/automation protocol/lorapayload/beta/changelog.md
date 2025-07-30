@@ -49,7 +49,13 @@
 
 - Ajout du produit *diehl_CMi4160 - CMi4160 LoRaWAN (Diehl Sharky)*
 
-- Correction du décodeur **
+- Correction du décodeur *Watteco Torano*
+
+- Ajout du produit **
+
+- Correction du décodeur *diehl_CMi4160 - CMi4160 LoRaWAN (Diehl Sharky)*
+
+
 
 
 # 18/06/2025

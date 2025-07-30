@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 22/07/2025 (Beta)
+# 30/07/2025 (Beta)
 - Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
 
 - Ajout du panneau Admin “Cache queueDownlink” (visualisation, purge, suppr. individuelle)
@@ -50,6 +50,12 @@
 - Ajout du produit *diehl_CMi4160 - CMi4160 LoRaWAN (Diehl Sharky)*
 
 - Correction du décodeur *Watteco Torano*
+
+- Ajout du produit *AM319_868M - INDOOR AMBIENCE MONITORING SENSOR*
+
+- Correction du décodeur *diehl_CMi4160 - CMi4160 LoRaWAN (Diehl Sharky)*
+
+
 
 
 # 18/06/2025
