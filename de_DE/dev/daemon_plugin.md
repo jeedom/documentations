@@ -368,9 +368,9 @@ php
         $cmd .= ' --user "' . trim(str_replace('"', '\"', config::byKey('user', __CLASS__))) . '"'; // on rajoute les paramètres utiles à votre démon, ici user
         $cmd .= ' --pswd "' . trim(str_replace('"', '\"', config::byKey('password', __CLASS__))) . '"'; // et password
         $cmd .= ' --apikey ' . jeedom::getApiKey(__CLASS__); // l'apikey pour authentifier les échanges suivants
-        $cmd .= ' --pAusweis ' . jeedom::) . '/deamon.pid'; // et on précise le chemin vers le pAusweis file (ne pas modifier)
+        $cmd .= ' --p ' . jeedom::) . '/deamon.pid'; // et on précise le chemin vers le p file (ne pas modifier)
         log::
-        $result = exec($cmd . ' >> ' . log::getPathToLog('template_daemon') . ' 2>&1 &'); // 'template_daemon' est le nom du  pour votre démon, vous devez nommer votre  en commençant par le pluginAusweis pour que le fichier apparaisse dans la page de config
+        $result = exec($cmd . ' >> ' . log::getPathToLog('template_daemon') . ' 2>&1 &'); // 'template_daemon' est le nom du  pour votre démon, vous devez nommer votre  en commençant par le plugin pour que le fichier apparaisse dans la page de config
         $i = 0;
         ) {
             $deamon_info = self::deamon_info();
@@ -402,7 +402,7 @@ php
     () {
         $pid_file = jeedom::) . '/deamon.pid'; // ne pas modifier
         )) {
-            $pAusweis = intval(trim(file_get_contents($pid_file)));
+            $p = intval(trim(file_get_contents($pid_file)));
             system::
         }
         system::
@@ -465,7 +465,7 @@ python
 php
 <?php
 
-versuchen {
+ {
     
 
      (!jeedom::
@@ -488,7 +488,7 @@ versuchen {
     }  {
         log::
     }
-} Fang (Ausnahme $e) {
+} ) {
     log::
 }
 
