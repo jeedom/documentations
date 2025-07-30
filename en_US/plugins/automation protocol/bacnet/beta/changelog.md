@@ -5,6 +5,10 @@
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
 
+# 30/07/2025
+
+- Ajout Scan Manuel par équipement
+
 # 29/07/2025
 
 - Ajout import CSV EDE
