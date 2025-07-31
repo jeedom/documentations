@@ -743,8 +743,9 @@
         " Market*": " Market*"
     },
     "plugins_contributor\/home automation protocol\/index.md": {
+        "Il utilise l'API locale (Hobby API) fournie par Niko, qui communique via le protocole MQTT": "",
         "Niko Home Control": "Niko Home Control",
-        "Template servant de base à la création de plugins pour Jeedom": "Template servant de base à la création de plugins pour Jeedom",
+        "Ce plugin permet de piloter les équipements de votre installation Niko Home Control": "",
         "Yokis passerelle": "Yokis passerelle",
         "Plugin pour commander les modules Yokis en local": "Plugin pour commander les modules Yokis en local",
         "IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale": "WICHTIG – Stellen Sie zunächst sicher, dass Sie über eine kompatible Somfy-Box verfügen, auf der Sie den Entwicklermodus in Ihrem Somfy-Konto aktivieren können (aktiviert die lokale API)",

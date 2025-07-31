@@ -1,81 +1,39 @@
 {
-    "id": "nhc",
-    "name": "Niko Home Control",
-    "pluginVersion": "0.1",
-    "specialAttributes": {
-        "object": {
-            "toto": {
-                "name": {
-                    "fr_FR": "Plop je suis un attribut sp\u00e9cial"
-                },
-                "type": "input"
-            },
-            "toto2": {
-                "name": {
-                    "fr_FR": "Plop je suis un attribut sp\u00e9cial number"
-                },
-                "type": "number"
-            }
-        },
-        "user": {
-            "toto": {
-                "name": {
-                    "fr_FR": "Plop je suis un attribut sp\u00e9cial"
-                },
-                "type": "select",
-                "values": [
-                    {
-                        "value": "1",
-                        "name": "valeur 1"
-                    },
-                    {
-                        "value": "plop",
-                        "name": "valeur plop"
-                    }
-                ]
-            }
-        }
-    },
-    "description": {
-        "fr_FR": "Template servant de base \u00e0 la cr\u00e9ation de plugins pour Jeedom"
-    },
-    "licence": "AGPL",
-    "author": "Jeedom SAS",
-    "require": "4.2",
-    "os": {
-        "min": 10,
-        "max": 12.99
-    },
-    "category": "home automation protocol",
-    "hasDependency": true,
-    "hasOwnDeamon": true,
-    "maxDependancyInstallTime": 10,
-    "changelog_beta": "https://doc.jeedom.com/#language#/plugins/programming/nhc/beta/changelog",
-    "changelog": "https://doc.jeedom.com/#language#/plugins/programming/nhc/changelog",
-    "documentation_beta": "https://doc.jeedom.com/#language#/plugins/programming/nhc/beta",
-    "documentation": "https://doc.jeedom.com/#language#/plugins/programming/nhc",
-    "link": {
-        "forum": "Lien vers le forum",
-        "video": "Lien vers une video"
-    },
-    "language": [
-        "fr_FR",
-        "en_US",
-        "es_ES",
-        "de_DE",
-        "ru_RU",
-        "id_ID",
-        "it_IT",
-        "ja_JP",
-        "pt_PT"
-    ],
-    "compatibility": [
-        "smart",
-        "luna",
-        "atlas",
-        "rpi",
-        "docker",
-        "diy",
-        "mobile"
-    ]
+	"id": "nhc",
+	"name": "Niko Home Control",
+	"pluginVersion": "0.1",
+	"description": {
+		"fr_FR": "Ce plugin permet de piloter les équipements de votre installation Niko Home Control. Il utilise l'API locale (Hobby API) fournie par Niko, qui communique via le protocole MQTT."
+	},
+	"licence": "AGPL",
+	"author": "smn-btn",
+	"require": "4.2",
+	"os" : {
+		"min" : 10,
+		"max" : 12.99
+	},
+	"category": "home automation protocol",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 10,
+	"changelog_beta": "https://github.com/smn-btn/jeedom_nikoHomeControl/blob/main/docs/#language#/changelog_beta.md",
+	"changelog": "https://github.com/smn-btn/jeedom_nikoHomeControl/blob/main/docs/#language#/changelog.md",
+	"documentation_beta": "https://github.com/smn-btn/jeedom_nikoHomeControl/blob/main/docs/#language#/index.md",
+	"documentation": "https://github.com/smn-btn/jeedom_nikoHomeControl/blob/main/docs/#language#/index.md",
+	"link": {
+		"forum": "",
+		"video": ""
+	},
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"smart",
+		"luna",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile"
+	]
 }
