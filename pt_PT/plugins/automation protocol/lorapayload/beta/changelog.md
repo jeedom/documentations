@@ -51,9 +51,13 @@
 
 - Correction du décodeur *Watteco Torano*
 
-- Ajout du produit **
+- Ajout du produit *AM319_868M - INDOOR AMBIENCE MONITORING SENSOR*
 
 - Correction du décodeur *diehl_CMi4160 - CMi4160 LoRaWAN (Diehl Sharky)*
+
+- Ajout du produit **
+
+- 
 
 
 
@@ -339,3 +343,4 @@
 # 10/06/2021
 
 - Documentação do plugin
+

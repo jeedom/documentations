@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 30/07/2025 (Beta)
+# 31/07/2025 (Beta)
 - Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
 
 - Ajout du panneau Admin “Cache queueDownlink” (visualisation, purge, suppr. individuelle)
@@ -54,6 +54,10 @@
 - Ajout du produit *AM319_868M - INDOOR AMBIENCE MONITORING SENSOR*
 
 - Correction du décodeur *diehl_CMi4160 - CMi4160 LoRaWAN (Diehl Sharky)*
+
+- Ajout du produit *WT304-868M - SMART FAN COIL THERMOSTAT*
+
+- Ajout de la logique des listes pour les commandes des équipements
 
 
 
@@ -339,3 +343,4 @@
 # 06/10/2021
 
 - Documentation du Plugin
+
