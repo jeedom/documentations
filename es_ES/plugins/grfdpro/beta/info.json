@@ -1,0 +1,48 @@
+{
+    "id": "grdfpro",
+    "name": "GRDF Pro",
+    "pluginVersion": "0.1",
+    "description": {
+        "fr_FR": "Plugins pour la gestion des données de consommation de gaz pour les professionnels.",
+        "en_US": "Plugins pour la gestion des données de consommation de gaz pour les professionnels",
+        "es_ES": "Plugins pour la gestion des données de consommation de gaz pour les professionnels",
+        "de_DE": "Plugins pour la gestion des données de consommation de gaz pour les professionnels",
+        "ru_RU": "Plugins pour la gestion des données de consommation de gaz pour les professionnels",
+        "id_ID": "Plugins pour la gestion des données de consommation de gaz pour les professionnels",
+        "it_IT": "Plugins pour la gestion des données de consommation de gaz pour les professionnels",
+        "ja_JP": "Plugins pour la gestion des données de consommation de gaz pour les professionnels",
+        "pt_PT": "Plugins pour la gestion des données de consommation de gaz pour les professionnels",
+        "tr": "Plugins pour la gestion des données de consommation de gaz pour les professionnels"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2",
+    "os": {
+        "min": 10,
+        "max": 12.99
+    },
+    "category": "energy",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 45,
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/grdfpro\/beta\/changelog",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/grdfpro\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/grdfpro\/beta",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/grdfpro",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR"
+    ],
+    "compatibility": [
+        "smart",
+        "luna",
+        "atlas",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile"
+    ]
+}
