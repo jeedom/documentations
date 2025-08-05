@@ -5,6 +5,18 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
 
+# 04/08/2025
+
+- Correction suppresion à l'update des commandes action pour objets Input (readOnly)
+- Amelioration UI Affichage du scan des points
+- Ajout Bouton pour requeter le tableau de priorité d'écriture si existant
+- Relachement priorité apres ecriture si priorityArray existant
+
+# 01/08/20205
+
+- Ajout visualisation Schedules + Modifications horaires si device le supporte (rare)
+- Amélioration du mécanisme d'écriture BACnet avec libération automatique des priorités pour éviter les conflits d'écriture
+
 # 30/07/2025
 
 - Ajout Scan Manuel par équipement

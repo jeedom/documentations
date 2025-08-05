@@ -5,6 +5,18 @@
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 
+# 
+
+- )
+- 
+- 
+- 
+
+# 
+
+- )
+- 
+
 # 30/07/2025
 
 - Ajout Scan Manuel par équipement
