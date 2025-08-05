@@ -55,9 +55,11 @@
 
 - Correction du décodeur *diehl_CMi4160 - CMi4160 LoRaWAN (Diehl Sharky)*
 
-- Ajout du produit **
+- Ajout du produit *WT304-868M - SMART FAN COIL THERMOSTAT*
 
-- 
+- Ajout de la logique des listes pour les commandes des équipements
+
+- Ajout du produit * *
 
 
 
