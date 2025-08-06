@@ -6,6 +6,13 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 
+
+- Correções de bugs
+- .
+
+# 
+
 - Correção de avisos
 - Melhor gestão de equipamentos desativados
 
