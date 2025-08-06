@@ -2,11 +2,11 @@
 
 > ****
 >
-> .  [here](https://forum.jeedom.com/viewtopic.php?f=27&t=37630#p621495)
+> .  [](https:forum.jeedom.comviewtopic.php?f=27&t=37630#p621495)
 
 . . .()
 
- [](https://doc.jeedom.com/en_US/dev/)
+ [](https:doc.jeedom.com/en_US/dev)
 
 # 
 
@@ -15,7 +15,7 @@
  : 
  : vdm
 
- [](https://github.com/jeedom/plugin-template/archive/master.zip)
+ [](https:github.comjeedomplugin-templatearchivemaster.zip)
 
 . Vous obtiendrez un dossier « plugin-template-master » contenant des dossiers 3rparty, core, desktop…
 
@@ -112,13 +112,13 @@ $plugin = plugin::byId('vdm')
 ------------------------
 
 html
-{% raw %}<legend><i class="fas fa-table"></i> {{Mes templates}}</legend>{% endraw %}
+{% raw %}<legend><i class="fas fa-table"><i> {{Mes templates}}<legend>{% endraw %}
 
 
 Par
 
 html
-{% raw %}<legend><i class="fas fa-table"></i> {{Mes équipements}}</legend>{% endraw %}
+{% raw %}<legend><i class="fas fa-table"><i> {{Mes équipements}}<legend>{% endraw %}
 
 
 ------------------------
@@ -152,17 +152,17 @@ php
 }
 
 
- : [](https://doc.jeedom.com/en_US/dev/Icone_de_plugin)
+ : [](https:doc.jeedom.com/en_US/devIcone_de_plugin)
 
 
 
 
 
-![image](images/tutorial_vdm_icon.png)
+![image](imagestutorial_vdm_icon.png)
 
 . .
 
-![image](images/tutorial_vdm_plugin.png)
+![image](imagestutorial_vdm_plugin.png)
 
 
 
@@ -187,7 +187,7 @@ php
 php
 () {
   $ = $this->getCmd(null, 'story')
-  if (!)) {
+   (!)) {
     $ = new vdmCmd()
     $info->setName(__('Histoire', __FILE__))
   }
@@ -198,7 +198,7 @@ php
   $info->save()
 
   $refresh = $this->getCmd(null, 'refresh')
-  if (!)) {
+   (!)) {
     $refresh = new vdmCmd()
     $refresh->setName(__('Rafraichir', __FILE__))
   }
@@ -216,7 +216,7 @@ php
 
 .
 
-![image](images/tutorial_vdm_cmd1.png)
+![image](imagestutorial_vdm_cmd1.png)
 
 ..
 
@@ -224,25 +224,25 @@ html
 {% raw %}
 <!-- Onglet des commandes de l'équipement -->
 <div role="tabpanel" class="tab-pane" id="commandtab">
-<a class="btn btn-default btn-sm pull-right cmdAction" data-action="add" style="margin-top:5px"><i class="fas fa-plus-circle"></i> {{Ajouter une commande}}</a>
-<br/><br/>
+<a class="btn btn-default btn-sm pull-right cmdAction" data-action="add" style="margin-top:5px"><i class="fas fa-plus-circle"><i> {{Ajouter une commande}}<a>
+<br><br>
 <div class="table-responsive">
 <table id="table_cmd" class="table table-bordered table-condensed">
 <thead>
 <tr>
-<th>{{Id}}</th>
-<th>{{Nom}}</th>
-<th>{{Type}}</th>
-<th>{{Paramètres}}</th>
-<th>{{Options}}</th>
-<th>{{Action}}</th>
-</tr>
-</thead>
+<th>{{Id}}<th>
+<th>{{Nom}}<th>
+<th>{{Type}}<th>
+<th>{{Paramètres}}<th>
+<th>{{Options}}<th>
+<th>{{Action}}<th>
+<tr>
+<thead>
 <tbody>
-</tbody>
-</table>
-</div>
-</div><!-- /.tabpanel #commandtab-->
+<tbody>
+<table>
+<div>
+<div><!-- .tabpanel #commandtab-->
 {% endraw %}
 
 
@@ -250,12 +250,12 @@ html
 
 html
 {% raw %}
-/*  */
+*  *
 ) {
-  if (!)) {
+   (!)) {
     : {} }
   }
-  if (!)) {
+   (!)) {
     
   }
   .
@@ -324,14 +324,14 @@ html
 .
 
 php
-$url = "http://www.viedemerde.fr/aleatoire"
+$url = "http:www.viedemerde.fraleatoire"
 $data = file_get_contents($url)
 @$dom = new DOMDocument()
 
 $dom->loadHTML('<?xml encoding="UTF-8">' .$data)
 
 $xpath = new DOMXPath($dom)
-$divs = $xpath->query('//article[@class="art-panel col-xs-12"]//div[@class="panel-content"]//p//a')
+$divs = $xpath->query('article[@class="art-panel col-xs-12"]div[@class="panel-content"]pa')
 
 
 
@@ -339,14 +339,14 @@ $divs = $xpath->query('//article[@class="art-panel col-xs-12"]//div[@class="pane
 
 php
 () {
-  $url = "http://www.viedemerde.fr/aleatoire"
+  $url = "http:www.viedemerde.fraleatoire"
   $data = file_get_contents($url)
   @$dom = new DOMDocument()
   
   $dom->loadHTML($data)
   
   $xpath = new DOMXPath($dom)
-  $divs = $xpath->query('//article[@class="art-panel col-xs-12"]//div[@class="panel-content"]//p//a')
+  $divs = $xpath->query('article[@class="art-panel col-xs-12"]div[@class="panel-content"]pa')
   
 }
 
@@ -359,7 +359,7 @@ php
 }
 
 
-C'est here qu'on va définir ce qu'il va se passer quand on actionne la commande « Rafraîchir ». )
+C'est  qu'on va définir ce qu'il va se passer quand on actionne la commande « Rafraîchir ». )
 
 On vérifie le logical de la commande lancée et si « refresh » on lance les actions
 
@@ -374,8 +374,8 @@ php
 (). .
 
 php
-$eqlogic = $this->getEqLogic() //Récupération de l'eqlogic
-$ = $eqlogic->randomVdm()  //Lance la fonction et stocke le résultat dans la variable $info
+$eqlogic = $this->getEqLogic() Récupération de l'eqlogic
+$ = $eqlogic->randomVdm()  Lance la fonction et stocke le résultat dans la variable $info
 
 
 On met à jour la commande « story » avec la variable $info. 
@@ -388,11 +388,11 @@ $eqlogic->checkAndUpdateCmd('story', $info)
 
 php
 ()) {
-  $eqlogic = $this->getEqLogic() //récupère l'éqlogic de la commande $this
+  $eqlogic = $this->getEqLogic() récupère l'éqlogic de la commande $this
   
     ':  .
-    $ = $eqlogic->randomVdm() //On lance la fonction randomVdm() pour récupérer une  et on la stocke dans la variable $info
-    $eqlogic->checkAndUpdateCmd('story', $info) //on met à jour la commande avec le Logical "story"  de l'eqlogic
+    $ = $eqlogic->randomVdm() On lance la fonction randomVdm() pour récupérer une  et on la stocke dans la variable $info
+    $eqlogic->checkAndUpdateCmd('story', $info) on met à jour la commande avec le Logical "story"  de l'eqlogic
     break
   }
 }
@@ -419,18 +419,18 @@ php
 -  : 
 -  : 
 -  : 
--  : 1/jour
+-  : 1jour
 
 ). ().
 
 .
 
 php
-/*
+*
 * 
 () {
 }
-*/
+*
 
 
 
@@ -464,7 +464,7 @@ $cmd = $vdm->getCmd(null, 'refresh')
 
 
 php
-if (!)) {
+ (!)) {
   continue
 }
 $cmd->execCmd()
@@ -475,16 +475,16 @@ $cmd->execCmd()
 php
  () {
   ::
-    $cmd = $vdm->getCmd(null, 'refresh') //retourne la commande "refresh" si elle existe
-    if (!
+    $cmd = $vdm->getCmd(null, 'refresh') retourne la commande "refresh" si elle existe
+     (!
     
   }
-  $cmd->execCmd() //la commande existe on la lance
+  $cmd->execCmd() la commande existe on la lance
 }
 }
 
 
-Pour tester, dans jeedom, allez dans configuration/moteur de tâches et lancer le  de class « plugin » fonction «  »
+Pour tester, dans jeedom, allez dans configurationmoteur de tâches et lancer le  de class « plugin » fonction «  »
 .
 
 . A la création de l'équipement, la commande « story » ne se met pas à jour.
@@ -497,7 +497,7 @@ Pour tester, dans jeedom, allez dans configuration/moteur de tâches et lancer l
 
 php
 () {
-  $cmd = $this->getCmd(null, 'refresh') //On recherche la commande refresh de l'équipement
+  $cmd = $this->getCmd(null, 'refresh') On recherche la commande refresh de l'équipement
   
     $cmd->execCmd()
   }
@@ -527,20 +527,20 @@ php
     }
 
     ) {
-      $cmd = $vdm->getCmd(null, 'refresh') //retourne la commande "refresh si elle existe
-      if (!
+      $cmd = $vdm->getCmd(null, 'refresh') retourne la commande "refresh si elle existe
+       (!
       
     }
-    $cmd->execCmd() //la commande existe on la lance
+    $cmd->execCmd() la commande existe on la lance
   }
 }
 
 
 .
 
- ==> [here](https://doc.jeedom.com/dev/phpdoc/4.1/)
+ ==> [](https:doc.jeedom.comdevphpdoc4.1)
 
- ==> [](https://github.com/jeedom/core)
+ ==> [](https:github.comjeedomcore)
 
  .
 
@@ -564,7 +564,7 @@ Donc on va changer le style en affectant un template à la commande « story»
 
 .
 
- ==> [](https://github.com/jeedom/core/tree/alpha/core/template/dashboard)
+ ==> [](https:github.comjeedomcoretreealphacoretemplatedashboard)
 
 .) .)
 
@@ -574,14 +574,14 @@ J'applique le template « cmd.info.string.tile.html » à ma commande.
 
 php
 $ = $this->getCmd(null, 'story')
-if (!)) {
+ (!)) {
   $ = new vdmCmd()
   $info->setName(__('Histoire', __FILE__))
 }
 $info->setLogicalId('story')
 $info->setEqLogic_id($this->getId())
 $info->setType('info')
-$info->setTemplate('dashboard','tile')//template pour le dashboard
+$info->setTemplate('dashboard','tile')template pour le dashboard
 $info->setSubType('string')
 $info->save()
 
@@ -619,7 +619,7 @@ php
  : . ..
 
 php
-$plugin = plugin::byId('vdm') // appelle la classe plugin du core
+$plugin = plugin::byId('vdm')  appelle la classe plugin du core
 
 
 .
@@ -627,7 +627,7 @@ $plugin = plugin::byId('vdm') // appelle la classe plugin du core
 : . :
 
 php
-$this->setConfiguration("type","mon_type") // si on veut définir un paramètre  de valeur mon_type. Comme on a défini la largeur du widget via la méthode setDisplay()
+$this->setConfiguration("type","mon_type")  si on veut définir un paramètre  de valeur mon_type. Comme on a défini la largeur du widget via la méthode setDisplay()
 
 
 . :D
@@ -635,13 +635,13 @@ $this->setConfiguration("type","mon_type") // si on veut définir un paramètre 
 Cherchez
 
 html
-<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="city" placeholder="param1"/>
+<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="city" placeholder="param1">
 
 
 
 
 html
-<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/> // de laisser la classe eqLogicAttr
+<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option">  de laisser la classe eqLogicAttr
 
 
 ).
@@ -650,22 +650,22 @@ Dans le champs «Paramètre» d'un équipement, tapez «aléatoire» et sauvegar
 
 .
 
-![image](images/tutorial_parametre1.png)
+![image](imagestutorial_parametre1.png)
 
 ? . C'est pourquoi il ne faut surtout pas toucher à cette ligne de code comme indiqué dans le premier menu « test ». 
 
 php
-<?php include_file('core', 'plugin.template', 'js')?> //Chargement du fichier core/js/plugin.template.js (en partant de la racine du site)
+<?php include_file('core', 'plugin.template', 'js')?> Chargement du fichier corejsplugin.template.js (en partant de la racine du site)
 
 
 .
 
 html
-<input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display:none" /> // retourne l'id(unique) de l'eqLogic(équipement) que l'on va pouvoir récupérer via $this->getId() 
+<input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display:none" >  retourne l'id(unique) de l'eqLogic(équipement) que l'on va pouvoir récupérer via $this->getId() 
 
 
 html
-{% raw %}<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{ de l'équipement}}"/>// retourne le nom de l'eqLogic(équipement) que l'on va pouvoir récupérer via $this->getName(){% endraw %}
+{% raw %}<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{ de l'équipement}}"> retourne le nom de l'eqLogic(équipement) que l'on va pouvoir récupérer via $this->getName(){% endraw %}
 
 
 Etc…
@@ -673,13 +673,13 @@ Etc…
 . 
 
 html
-{% raw %}<label class="col-sm-3 control-label">{{Paramètre}}</label>{% endraw %}
+{% raw %}<label class="col-sm-3 control-label">{{Paramètre}}<label>{% endraw %}
 
 
 Par
 
 html
-{% raw %}<label class="col-sm-3 control-label">{{Type de vdm}}</label>{% endraw %}
+{% raw %}<label class="col-sm-3 control-label">{{Type de vdm}}<label>{% endraw %}
 
 
  : .
@@ -697,11 +697,11 @@ On pourrait le laisser taper dans l'input « Type de  » :
 html
 {% raw %}
 <div class="form-group">
-  <label class="col-sm-3 control-label">{{Type de vdm}}</label>
+  <label class="col-sm-3 control-label">{{Type de vdm}}<label>
   <div class="col-sm-3">
-    <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/>
-  </div>
-</div>
+    <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option">
+  <div>
+<div>
 {% endraw %}
 
 
@@ -710,15 +710,15 @@ html
 html
 {% raw %}
 <div class="form-group">
-  <label class="col-sm-3 control-label" >{{ Type de  }}</label>
+  <label class="col-sm-3 control-label" >{{ Type de  }}<label>
   <div class="col-sm-3">
     <select class="form-control eqLogicAttr" data-l1key="configuration" data-l2key=" ">
-      <option value="aleatoire">{{Aleatoire}}</option>
-      <option value="epicees">{{Coquin}}</option>
-      <option value="tops">{{Best}}</option>
-    </select>
-  </div>
-</div>
+      <option value="aleatoire">{{Aleatoire}}<option>
+      <option value="epicees">{{Coquin}}<option>
+      <option value="tops">{{Best}}<option>
+    <select>
+  <div>
+<div>
 {% endraw %}
 
 
@@ -729,14 +729,14 @@ Ici le paramètre «type» prendra la valeur du select choisi soit aleatoire ou 
 Cherchez
 
 php
-$url = "http://www.viedemerde.fr/aleatoire"
+$url = "http:www.viedemerde.fraleatoire"
 
 
 
 
 php
-$ = $this->getConfiguration("type", "aleatoire") //si le paramètre est vide ou n'existe pas, on prends le  aleatoire
-$url = "http://www.viedemerde.fr/{$type}"
+$ = $this->getConfiguration("type", "aleatoire") si le paramètre est vide ou n'existe pas, on prends le  aleatoire
+$url = "http:www.viedemerde.fr{$type}"
 
 
 .
