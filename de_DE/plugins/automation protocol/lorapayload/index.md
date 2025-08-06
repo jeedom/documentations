@@ -16,7 +16,7 @@ Gehen Sie zum Menü Plugins / Protokoll, um das Plugin zu finden.
 Auf dieser Seite sehen Sie die bereits enthaltenen Module.
 
 Im oberen Teil dieser Seite haben Sie mehrere Schaltflächen
-![alt text](image.png)
+![alt text](./images/image.png)
 -   **Schaltfläche hinzufügen** : Ermöglicht das Hinzufügen von Ausrüstung
 -   **Konfigurationstaste** : Diese Schaltfläche öffnet das Plugin-Konfigurationsfenster
 -   **Bonton Génération automatique** : Permet d'ajouter un nouvel équipement dans jeedom et sur chirpstack. ( Recommandé pour l'ajout d'équipement )
@@ -41,7 +41,7 @@ Sie haben auch zwei zusätzliche Registerkarten:
 -   Eine Registerkarte „Aufträge“ (hier finden Sie die Bedienelemente für Ihre Ausrüstung – diese Registerkarte ist Standard bei Jeedom)
 
 # Ausrüstung hinzufügen
-![alt text](image-1.png)
+![alt text](./images/image-1.png)
 Il suffit de cliquer sur le bouton `Génération automatique` et de choisir un nom.
 Ensuite vous pouvez configurer l'objet Parent, renseigner le Dev EUI l'app Key, l'application pour chirpstack
 Pour configurer, activer l'équipement, choisir une ou des catégories, et rendre l'équipement visible ou non.
@@ -49,11 +49,10 @@ Pour configurer, activer l'équipement, choisir une ou des catégories, et rendr
 Auf der rechten Seite ist es wichtig, die Art der Ausrüstung zu wählen. So können Sie den Frame analysieren.
 
 L'onglet LoRaWAN est très important :
-![alt text](image-2.png)
+![alt text](./images/image-2.png)
 -   Vous devez choisir la commande info qui reçoit le payload que ce soit MQTT ou autres ( important si vous avez utilisé le bouton `Ajouter` sinon avec `Génération automatique` tout est généré automatiquement )
 -   Vous pouvez choisir si le format du payload est en Hexadécimal ou Base64.
 -   Avec Euqueue downlink payload, vous pouvez envoyer des downlinks manuellement.
--   Il est important de `Regénérer la configuration LoRaWAN` via le bouton bleu qui porte le même nom car à chaque fois que vous Recréer les commandes dans l'onglet Equipement celles-ci ajoutent les commandes LoRaWAN nécessaire pour le bon fonctionnement du plugins.
 
 
 Sobald Sie fertig sind, können Sie speichern. Danach werden die Befehle für Ihr Gerät aktualisiert, wenn Sie das nächste Mal einen Frame erhalten
@@ -66,8 +65,7 @@ Dans l'onglet Equipement du plugin LoraPayload :
 
 - Vous devez choisir la commande d'envoi (que ce soit MQTT ou autres)
 - Vous devez choisir si voulez avoir une confirmation (Ack). C'est une information remontée dans MQTT sur un topic dédié qui n'influence pas les données remontées.
-
-Concernant la commande d'envoi, dans le cas d'utilisation de MQTT, c'est une commande dans MQTT de type Action et de sous-type Message. Le topic est le topic dédié aux downlinks et la valeur de la commande est #message#.
+Concernant la commande d'envoi, dans le cas d'utilisation de MQTT, c'est une commande dans MQTT de type Action et de sous-type Message. Le topic est le topic dédié aux downlinks et la valeur de la commande est *message*.
 ---
 # Ajouter un nouveau capteur Milesight (downlink/uplink)
 
@@ -164,7 +162,7 @@ module.exports = {
         "isVisible": 0,
         "isHistorized": 0,
         "unite": "",
-        "logicalId": "fport" // Port utilisé pour communiquer 
+        "logicalId": "fport" // Port utilisé pour les downlinks
       },
       {
         "name": "Reboot",
@@ -329,23 +327,84 @@ Supposons, dans la documentation Milesight, tu trouves ce tableau :
 
 ## Qu'est-ce que le panel Lorapayload ?
 
-- Le **panel Lorapayload** (LoRaWAN Network Server) est une interface disponible dans Jeedom qui **centralise les informations des capteurs venant de votre réseau LoRaWAN**.
+- Le **panel Lorapayload** est une interface disponible dans Jeedom qui **centralise les informations des capteurs venant de votre réseau LoRaWAN**.
 - Il affiche :
   - La liste **complète des capteurs connectées** au serveur LNS leurs statuts en temps réel.
 
 - Pour l'afficher, il faut se rendre dans la configuration du plugin Lorapayload, elle se trouve en bas a droite.
-![alt text](image-3.png)
+![alt text](./images/image-3.png)
 
 ---
 ## Visualisation dans Jeedom
 
 - Accède à ces panels depuis l'interface Jeedom :
-![alt text](image-4.png)
-![alt text](image-9.png)
+![alt text](./images/image-4.png)
+![alt text](./images/image-9.png)
 ---
+## Gestionnaire de file d'attente
+
+Cette mise à jour améliore la gestion de la file d'attente des downlinks dans le plugin lorapayload pour Jeedom. Elle introduit :
+- Un démon (lorapayloadd.php) chargé d'exécuter les downlinks au bon moment.
+
+- Un panneau d'administration pour visualiser, rafraîchir ou purger la queue depuis l'interface Jeedom,
+
+- Un système de priorités (champ `priority`).
+
+- Un réordonnancement FIFO respectueux du tempo de rafraîchissement (`refreshTime`).
+
+- Un recalcul complet des timestamps (`ts`) lorsque des downlinks prioritaires sont détectés.
+
+- Une temporisation légère pour regrouper les appels et éviter les collisions.
+
+### Fonctionnalités clés
+
+1. **Démon Worker**
+Le démon (`lorapayloadd.php`) tourne en continu et lit la clé de cache `queueDownlink`. À chaque cycle :
+- Cycle toutes les 3s
+- Relit à chaque itération pour prendre en compte les purges ou modifications.
+
+2. **Panneau d'administration**
+
+![alt text](./images/image-11.png)
+
+Dans l'interface Jeedom, onglet Acceuil → lorapayload → Cache queueDownlink :
+- Liste des downlinks en attente (`EqLogic ID`, `priorité`, `DevEUI`, `ts`, `Downlink (JSON)`, `actions`),
+- Boutons : `Rafraîchir`, `Vider tout`, `Supprimer` (entry par entry),
+- Affichage de la taille actuelle de la file.
+
+3. **Fonctionnalités clés**
+- **Démon**
+Exécution programmée des downlinks selon leur champ `ts` et relecture dynamique de la queue pour tenir compte des purges.
+
+- **Priorité**
+Attribut priority dans chaque équipement (0 = normal, 1 = prioritaire).
+Lorsqu'au moins un prioritaire existe, la file est triée en deux blocs : prioritaires puis normaux.
+
+- **Temporisation des envoies (Refresh Time)**
+`refreshTime` (en secondes) paramétrable dans le plugin (défaut : 0 s).
+Assure un espacement minimal entre deux downlinks du même équipement.
+
+- **Recalcul de la file**
+Si des priorités sont détectées, la queue complète est retriée selon : priorité (`1` > `0`) et l'ordre d'arrivée (`received_at`).
+Les timestamps `ts` sont ensuite recalculés pour chaque équipement, en appliquant le `tempo` en FIFO.
+
+- **Temporisation légère**
+`usleep(200 ms)` avant le recalcul si des priorités sont présentes, pour regrouper les ajouts simultanés.
+
+- **Gestion de la taille**
+tailleQueue définit le nombre maximal d'entrées. Au-delà, les plus anciennes sont automatiquement purgées.
 
 
 
+4. **Aufbau**
+Configurer les équipements prioritaires en allant dans les configuration de l'équipement puis dans `LoRaWAN > Downlink`
+![alt text](./images/image-13.png)
+Si votre équipement est prioritaire, cochez sur le check point `Prioritaire` puis enregistrez.
+Ensuite rendez-vous dans les configurations du plugin Lorapayload et dans le champs configuration, ajustez les paramètres globaux en fonction de votre application.
+![alt text](./images/image-12.png)
+Redémarrer le démon s'il est arrêté ou en statut NOK.
+Suivre et gérer l'état de la file dans l'onglet Cache queueDownlink.
+_________
 # FAQ
 
 -   Einige Befehle werden nicht gleichzeitig mit anderen aktualisiert : Ja, einige Lorawan-Module senden nicht unbedingt alle Informationen gleichzeitig und mit der gleichen Häufigkeit

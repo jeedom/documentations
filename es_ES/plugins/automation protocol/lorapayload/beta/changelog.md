@@ -4,7 +4,7 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
-# )
+# 
 - Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
 
 - Ajout du panneau Admin “Cache queueDownlink” (visualisation, purge, suppr. individuelle)
@@ -59,9 +59,7 @@
 
 - Ajout de la logique des listes pour les commandes des équipements
 
-- Ajout du produit * *
-
-
+- Ajout du produit *AQS01-L – Capteur de qualité d'air LoRaWAN *
 
 
 # 18/06/2025

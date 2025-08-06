@@ -5,6 +5,66 @@
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
 # )
+- Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
+
+- Ajout du panneau Admin “Cache queueDownlink” (visualisation, purge, suppr. individuelle)
+
+- Paramètres configurables : `Temporisation des envoies dans la file d'attente (secondes)`, `Taille actuelle de la file d'attente`, `Taille maximale de la file d'attente`
+
+- Ajout des commandes de downlink pour *Dragino CPL03-LB/LS* 
+
+- Correction image documentation 
+
+- Correction bug panel
+
+- Ajout des commandes de downlink pour *Dragino CPL03-LB/LS* 
+
+- Decoder correction *Dragino WSC2_L_PM2.5*
+
+- Correction du lancement du deamon en double
+
+- Ajout du produit * Mclimate 16ADS - 16A Dry Switch LoRaWAN*
+
+- Correction du décodeur *Dragino SW3L - Compteur d'eau extérieur*
+
+- Ajout du downlink reboot pour *Dragino LT22222*
+
+- Ajout des downlinks pour *Mclimate - 16A Dry Switch LoRaWAN*
+
+- Correction commandes *Milesight GS601 - Vape Detector*
+
+- Correction commandes *Milesight WS302 - Sound Level Sensor*
+
+- Decoder correction *BMeters IWM-LR3 - Water Meter Reader*
+
+- Ajout d'une commande de downlink *BMeters IWM-LR3 - Water Meter Reader*
+
+- Correction bug queue doubledownlink
+
+- Ajout du produit  *adeunis_ARF8230xRA - Pulse ATEX*
+
+- Ajout du produit *atim_PT1xx_TMxP - ATIM*
+
+- Ajout du produit *bmeters_rfmlr1 - Water Meter Reader*
+
+- Ajout du produit *diehl_CMi4160 - CMi4160 LoRaWAN (Diehl Sharky)*
+
+- Correction du décodeur *Watteco Torano*
+
+- Ajout du produit *AM319_868M - INDOOR AMBIENCE MONITORING SENSOR*
+
+- Correction du décodeur *diehl_CMi4160 - CMi4160 LoRaWAN (Diehl Sharky)*
+
+- Ajout du produit *WT304-868M - SMART FAN COIL THERMOSTAT*
+
+- Ajout de la logique des listes pour les commandes des équipements
+
+- Ajout du produit * *
+
+
+
+
+# 18/06/2025
 
 - Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*
 
@@ -24,7 +84,7 @@
 
 - Ajout du produit *Milesight GS601 - Vape Detector*
 
-- Ajout du produit *Milesight WS302 - Sound Contact Switch*
+- Ajout du produit *Milesight WS302 - Sound Level Sensor*
 
 - Ajout des commandes Index pour *TIC LoraWAN*
 
@@ -285,3 +345,4 @@
 # 06/10/2021
 
 - Plugin Documentation
+
