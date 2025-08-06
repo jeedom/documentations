@@ -5,6 +5,19 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
 
+# 06/08/2025
+
+- Gestion réseau APIPA avec détection automatique interface IP
+
+# 05/08/2025
+(en cours)
+- Ajout du support des notifications COV (Change of Value) pour améliorer les performances et réduire le trafic réseau 
+- Interface de configuration pour sélectionner les points utilisant le COV lors du scan des points BACnet
+- Détection automatique des appareils qui supportent le COV via la propriété protocolServicesSupported
+- Configuration des paramètres COV (durée de vie, nombre max de notifications)
+- Limitation du nombre de points COV à 10 par équipement pour éviter les surcharges
+- Implémentation côté démon Python pour gérer les abonnements COV, leur renouvellement et les notifications
+
 # 04/08/2025
 
 - Correction suppresion à l'update des commandes action pour objets Input (readOnly)

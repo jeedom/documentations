@@ -7,15 +7,28 @@
 
 # 
 
-- )
-- 
-- 
 - 
 
-# 
+# 05/08/2025
+()
+- Ajout du support des notifications COV (Change of Value) pour améliorer les performances et réduire le trafic réseau 
+- Interface de configuration pour sélectionner les points utilisant le COV lors du scan des points BACnet
+- Détection automatique des appareils qui supportent le COV via la propriété protocolServicesSupported
+- Configuration des paramètres COV (durée de vie, nombre max de notifications)
+- Limitation du nombre de points COV à 10 par équipement pour éviter les surcharges
+- Implémentation côté démon Python pour gérer les abonnements COV, leur renouvellement et les notifications
 
-- )
-- 
+# 04/08/2025
+
+- Correction suppresion à l'update des commandes action pour objets Input (readOnly)
+- Amelioration UI Affichage du scan des points
+- Ajout Bouton pour requeter le tableau de priorité d'écriture si existant
+- Relachement priorité apres ecriture si priorityArray existant
+
+# 01/08/20205
+
+- Ajout visualisation Schedules + Modifications horaires si device le supporte (rare)
+- Amélioration du mécanisme d'écriture BACnet avec libération automatique des priorités pour éviter les conflits d'écriture
 
 # 30/07/2025
 
