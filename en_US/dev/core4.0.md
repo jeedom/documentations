@@ -13,7 +13,7 @@
 
 ..
 
- ****: `"compatibility" : 
+Example ****: `"compatibility" : 
 
 :
 
@@ -74,7 +74,7 @@
     -  : 
     -  : 
     -  : 
-- . : ::::all()
+- .php : ::::all()
 
 - .
 
@@ -111,7 +111,7 @@
 - .
 
 .).
- [](https://github.com/jeedom/plugin-template/blob/master/plugin_info/pre_install.php)
+See [](https://github.com/jeedom/plugin-template/blob/master/plugin_info/pre_install.php)
 
 ### 
 
