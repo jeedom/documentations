@@ -5,12 +5,12 @@
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 
-# 
+# 06/08/2025
 
-- 
+- Gestion réseau APIPA avec détection automatique interface IP
 
 # 05/08/2025
-()
+(en cours)
 - Ajout du support des notifications COV (Change of Value) pour améliorer les performances et réduire le trafic réseau 
 - Interface de configuration pour sélectionner les points utilisant le COV lors du scan des points BACnet
 - Détection automatique des appareils qui supportent le COV via la propriété protocolServicesSupported

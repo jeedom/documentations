@@ -24,7 +24,9 @@
     "hasOwnDeamon": true,
     "maxDependancyInstallTime": 30,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnet\/changelog",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation\/bacnet\/beta\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnet\/",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation\/bacnet\/beta",
     "language": [
         "fr_FR",
         "en_US",
@@ -42,7 +44,5 @@
         "rpi",
         "atlas",
         "v4"
-    ],
-    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnet\/beta\/changelog",
-    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnet\/beta"
+    ]
 }
