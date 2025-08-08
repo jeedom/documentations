@@ -5,9 +5,9 @@
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 # )
-- 
+- Mise à jour des décodeurs Thermokon
 
--  
+- Ajout de Statut et des boutons d'accès à la page de configuration des devices 
 
 # 06/08/2025
 - Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
