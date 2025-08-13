@@ -4,10 +4,10 @@
 >
 >Liegen keine Informationen zur Aktualisierung vor, bedeutet dies, dass es sich nur um die Aktualisierung der Dokumentation, Übersetzung oder des Textes handelt.
 
-#  ***()***
+# 25/06/2025 ***(1.0.2)***
 
--  ****
--  *()*
+- Il est désormais possible de comptabiliser plusieurs transactions simultanées d'un même utilisateur pour les **compteurs OCPP**
+- Les puissances sont cumulées en cas de transactions actives simultanément *(compteurs personnalisés et OCPP)*
 
 # 25/04/2025 ***(1.0)***
 
