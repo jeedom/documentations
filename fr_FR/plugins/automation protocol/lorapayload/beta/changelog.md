@@ -4,10 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 08/08/2025 (BETA)
+# 13/08/2025
 - Mise à jour des décodeurs Thermokon
 
 - Ajout de Statut et des boutons d'accès à la page de configuration des devices 
+
+- Fix bug création automatique
 
 # 06/08/2025
 - Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
