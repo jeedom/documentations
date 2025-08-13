@@ -5,6 +5,11 @@
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
 # )
+- Mise à jour des décodeurs Thermokon
+
+- Ajout de Statut et des boutons d'accès à la page de configuration des devices 
+
+# 06/08/2025
 - Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
 
 - Ajout du panneau Admin “Cache queueDownlink” (visualisation, purge, suppr. individuelle)
@@ -59,9 +64,7 @@
 
 - Ajout de la logique des listes pour les commandes des équipements
 
-- Ajout du produit * *
-
-
+- Ajout du produit *AQS01-L – Capteur de qualité d'air LoRaWAN *
 
 
 # 18/06/2025
