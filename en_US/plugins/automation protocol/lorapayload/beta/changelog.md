@@ -4,12 +4,12 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
-# 
+# 13/08/2025
 - Mise à jour des décodeurs Thermokon
 
 - Ajout de Statut et des boutons d'accès à la page de configuration des devices 
 
-- 
+- Fix bug création automatique
 
 # 06/08/2025
 - Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
