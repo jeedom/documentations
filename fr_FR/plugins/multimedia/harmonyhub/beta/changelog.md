@@ -8,6 +8,7 @@
 
 - Ajout d'un healthcheck dans le démon pour vérifier que celui-ci est toujours connecté aux hubs et s'y reconnecter si besoin
 - Fix un crash au démarrage du démon dans le cas où un hub est mal configuré ou non-joignable: le démon pourra démarrer avec les autres hubs s'ils existent ou s'arrêtera proprement si aucun hub n'est joignable
+- Adaptation des logs
 
 # 30/04/2025
 

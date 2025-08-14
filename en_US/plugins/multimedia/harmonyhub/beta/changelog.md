@@ -4,10 +4,11 @@
 >
 >As a reminder, if there is no information on the update, it is because it only concerns the update of documentation, translation or text.
 
-# 
+# 10/07/2025
 
+- Ajout d'un healthcheck dans le démon pour vérifier que celui-ci est toujours connecté aux hubs et s'y reconnecter si besoin
+- Fix un crash au démarrage du démon dans le cas où un hub est mal configuré ou non-joignable: le démon pourra démarrer avec les autres hubs s'ils existent ou s'arrêtera proprement si aucun hub n'est joignable
 - 
-- : 
 
 # 30/04/2025
 
@@ -34,7 +35,7 @@
   - to have real-time status feedback
 - Simplified configuration: All that remains is to configure the hub IP address in the plugin configuration and start the daemon and the equipment will synchronize automatically with Jeedom.
 - Adding a command **Start activity** which indicates the activity that is currently starting (empty if none)
-- )
+- Bloque la version d'une dépendance pour éviter un breaking change (async-timeout v5 break timeout context)
 
 # 09/17/2023
 
