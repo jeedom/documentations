@@ -6,9 +6,17 @@
 >Liegen keine Informationen zur Aktualisierung vor, bedeutet dies, dass es sich nur um die Aktualisierung der Dokumentation, Übersetzung oder des Textes handelt.
 
 
+# 
+
+- 
+- 
+
+# 
+- 
+- 
+
 # 17/07/2025
 - Fix Telnetlib3 pour debian 12
-
 
 
 # 02/07/2025
