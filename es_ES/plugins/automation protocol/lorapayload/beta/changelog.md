@@ -4,6 +4,9 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
+# )
+- )
+
 # 13/08/2025
 - Mise à jour des décodeurs Thermokon
 
