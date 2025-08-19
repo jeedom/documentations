@@ -6,6 +6,10 @@
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 
+# 18/08/2025
+
+- Ajout plages de consignes min max pour Consigne Mode Chaud et Froid
+
 # 14/08/2025
 
 - Optimisation appels API

@@ -6,6 +6,10 @@
 >Se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
 
+# 
+
+- 
+
 # 14/08/2025
 
 - Optimisation appels API

@@ -1,148 +1,235 @@
 # Plugin CoolAutomation
 
+Le plugin CoolAutomation permet d'intégrer vos systèmes de climatisation CoolAutomation dans votre environnement Jeedom. Il vous offre la possibilité de contrôler et de surveiller vos unités de climatisation directement depuis votre interface domotique.
 
+## Présentation
 
+CoolAutomation est un fabricant de passerelles pour systèmes de climatisation, permettant de contrôler vos unités via une interface unique. Ce plugin permet d'intégrer ces passerelles dans votre système Jeedom pour une gestion centralisée de votre confort thermique.
+
+## Prérequis
+
+- Avoir un équipement CoolAutomation (CoolMaster ou CoolLinkHub) installé et configuré sur votre réseau local.
+- Connaître l'adresse IP de votre équipement CoolAutomation.
+
+## Installation du plugin
+
+Comme pour tous les plugins Jeedom, l'installation se fait depuis le Market Jeedom. Une fois le plugin installé, il vous suffit de l'activer.
 
 # Auto découverte des équipements CoolAutomation
 
+Le plugin dispose d'une fonction de détection automatique des équipements CoolAutomation présents sur votre réseau.
 
-Il suffit simplement de cliquer sur Scan Réseau pour lancer une détection des équipements sur votre réseaux
+Il suffit simplement de cliquer sur **Scan Réseau** pour lancer une détection des équipements sur votre réseau.
 
+![scanNetwork](../images/scanNetwork.png)
 
-![scanNetwok](../images/scanNetwork.png)
-
-
-Une fois trouvés, les eqlogics correspondant seront créés
-
+Une fois trouvés, les équipements (eqlogics) correspondants seront automatiquement créés dans votre Jeedom.
 
 
 
-# Detail Équipement
 
+# Détail de l'équipement
 
-La page de l'equipement regroupe les informations nécessaires à la création des équipements dépendant de ce dernier
+La page de l'équipement regroupe toutes les informations nécessaires à la configuration et à la création des unités dépendantes.
 
-** Toutes les informations de cette page sont rafraichies en arrivant sur cette page.
-
+> **Note**: Toutes les informations de cette page sont automatiquement rafraîchies à chaque fois que vous y accédez.
 
 ![eqlogicMain](../images/eqlogicMain.png)
 
-Sur la partie droite, on peut retrouver les paramètres de l'equipement : version de firmware, nombre maximum de lignes sur l'appareil, nombre d'unités maximales etc.
-Ces données sont seulement à titre informatives, et ne peuvent etre modifiées
+## Informations techniques
 
+Sur la partie droite, vous pouvez consulter les paramètres techniques de l'équipement :
+- Version du firmware
+- Nombre maximum de lignes disponibles sur l'appareil
+- Nombre d'unités maximales supportées
+- Autres caractéristiques techniques
 
+Ces données sont affichées à titre informatif uniquement et ne peuvent pas être modifiées via l'interface.
 
-Sur la partie gauche, on retrouve l'adresse IP de l'équipement, ainsi que son numero de série : ces 2 informations sont très importantes car elles servent à adresser les requetes sur l'API de l'appareil. 
+## Configuration de connexion
 
+Sur la partie gauche, vous trouverez :
+- L'adresse IP de l'équipement
+- Son numéro de série
 
-En dessous de ces informations, on retrouve l'etat du Serveur REST : il s'agit du serveur web de l'appareil, qui sert à communiquer avec le plugin. Il faut donc l'activer si il ne l'est pas deja. 
-Il peut etre activé via le plugin, en cliquant simplement sur le bouton correspondant
+> **Important** : Ces deux informations sont essentielles car elles permettent d'adresser correctement les requêtes vers l'API de l'appareil. 
+
+## Serveur REST
+
+En dessous des informations de connexion, vous trouverez l'état du Serveur REST. Il s'agit du serveur web intégré à l'appareil qui permet la communication avec le plugin Jeedom. 
+
+Si le serveur n'est pas activé, vous devez l'activer en cliquant sur le bouton correspondant :
 
 ![activateRestServer](../images/activateRestServer.png)
 
-> ATTENTION
+> **ATTENTION**  
+> L'activation du serveur REST provoquera le redémarrage de l'équipement.
 
-> Cela provoquera le redemarrage l'equipement
+## Gestion des unités
+
+Dans la section "Gestion des Lignes Actives", vous retrouverez toutes les unités connectées à votre équipement CoolAutomation et disponibles pour être intégrées à Jeedom.
 
 
-Enfin, sous la partie Gestion des Lignes Actives, vous retrouverez les unités connectées à l'équipement, et disponibles pour une création.
 
+# Personnalisation de l'équipement
 
+## Changer l'image de l'équipement
 
-# Changer image de l'Équipement
+Vous pouvez personnaliser l'apparence de votre équipement CoolAutomation en modifiant son image. Pour cela :
 
-En vous rendant sur l'equipement Cool Automation, vous pouvez choisir l'image correspondante, puis sauvegarder
+1. Rendez-vous sur la page de l'équipement CoolAutomation
+2. Cliquez sur l'image existante pour afficher la bibliothèque d'images
+3. Sélectionnez l'image qui correspond le mieux à votre équipement
+4. Cliquez sur "Sauvegarder" pour appliquer le changement
 
 ![chooseImg](../images/chooseImg.png)
 
+# Création des unités et de leur équipement maître
 
-# Création des Unités et de leur Équipement Maitre
+Pour intégrer les unités de climatisation connectées à votre équipement CoolAutomation :
 
-Pour créer les équipements pilotant les unités connectées, il faut simplement cocher celles ci dans la partie Gestion des Lignes Actives, puis sauvegarder
+1. Accédez à la page de configuration de l'équipement principal
+2. Dans la section "Gestion des Lignes Actives", cochez les unités que vous souhaitez contrôler
+3. Cliquez sur "Sauvegarder"
 
 ![checkboxLines](../images/checkboxLines.png)
 
-Cela crééra les eqlogics correspondants, ainsi qu'un equipement Maitre, permettant de commander toute une ligne.
+Cette action créera :
+- Un équipement Jeedom pour chaque unité sélectionnée
+- Un équipement "Maître" permettant de commander l'ensemble d'une ligne
 
-> ATTENTION
+> **ATTENTION**  
+> - Si vous décochez une unité déjà créée puis sauvegardez, l'équipement correspondant sera supprimé.  
+> - Si toutes les unités d'une ligne sont décochées, l'équipement Maître de cette ligne sera également supprimé.
 
-> Si on decoche une unité qui a deja été créée, et que l'on sauvegarde, cela supprimera l'equipement. 
-> Si toutes les cases d'une ligne sont decochées, l'equipement Maitre de la ligne sera également supprimé
+# Aperçu des équipements créés
 
+Après avoir configuré vos unités, vous pourrez visualiser l'ensemble des équipements créés.
 
-# Apercu d'un Équipement et de ses unités
-
+Vue d'ensemble des lignes créées :
 ![linesCreated](../images/linesCreated.png)
 
-
+Détail des unités enfants :
 ![detailsChilds](../images/detailsChilds.png)
 
 
 
 
 
-# Attribution des unités à un objet
+# Organisation des équipements
 
+## Attribution des unités à un objet
 
-Des dizaines d'unités peuvent avoir été créées, et il est fastidieux de devoir se rendre sur chacune d'elles pour leur attribuer un objet parent. 
+Lorsque vous avez de nombreuses unités, il peut être fastidieux d'attribuer individuellement chaque unité à un objet parent (pièce) dans Jeedom. Le plugin propose une fonctionnalité d'attribution par lot :
+
+1. Cochez les unités que vous souhaitez associer à un même objet
+2. Cliquez sur "Attribuer la sélection à un objet"
+3. Sélectionnez l'objet parent dans la liste déroulante
 
 ![attribuateObjects](../images/attribuateObjects.png)
 
-Il a été prevu un systeme pour faciliter cela : il vous suffit de cocher les unités d'une ligne, puis de cliquer sur Attribue la sélection à un objet, pour choisir l'objet parent auquel seront rattachées les unités
-Vous pouvez meme selectionner toutes les unités via la checkbox à coté du bouton
+> **Astuce** : Vous pouvez sélectionner toutes les unités en une seule fois en utilisant la case à cocher située à côté du bouton d'attribution.
+
+# Gestion des données
+
+## Rafraîchissement des données
+
+Les données de vos équipements sont actualisées automatiquement selon la fréquence configurée dans les paramètres du plugin.
+
+Pour un rafraîchissement manuel plus ciblé, vous disposez de deux méthodes :
+
+1. **Rafraîchissement par ligne** : Cliquez sur l'icône "Refresh" d'un équipement Maître pour actualiser les données de toutes les unités qui lui sont rattachées.
+
+2. **Rafraîchissement individuel** : Cliquez sur l'icône "Refresh" d'une unité spécifique pour n'actualiser que les données de cette unité.
+
+Cette approche permet d'optimiser les requêtes réseau en ne rafraîchissant que les données nécessaires.
+
+
+# Contrôle des équipements
+
+## Pilotage des unités et des Maîtres
+
+Le plugin vous offre deux niveaux de contrôle :
+
+1. **Contrôle individuel** : Chaque unité peut être pilotée indépendamment via ses propres commandes.
+
+2. **Contrôle groupé** : Pour commander simultanément toutes les unités d'une même ligne, utilisez les commandes de l'équipement Maître correspondant.
+
+> **Important concernant les consignes de température**  
+> Les consignes de température sont toujours associées à un mode spécifique : Chaud ou Froid.  
+> Lorsque vous modifiez une consigne via un équipement Maître :
+> - La valeur de consigne sera mise à jour sur toutes les unités rattachées
+> - Le mode associé (Chaud ou Froid) sera également appliqué à toutes les unités
+> 
+> **Conseil** : Pensez à réajuster le mode souhaité sur chaque unité après avoir défini une consigne globale si vous souhaitez des modes différents pour certaines unités.
+
+# Fonctionnalités avancées
+
+## Historisation en masse
+
+Le plugin vous permet d'activer l'historisation des commandes pour plusieurs équipements simultanément :
+
+1. Accédez à la page principale du plugin et cliquez sur l'icône d'historisation :
+
+   ![modalHistorize](../images/modalHistorize.png)
+
+2. Sélectionnez le périmètre d'historisation souhaité :
+
+   ![chooseOptionHistorize](../images/chooseOptionHistorize.png)
+
+   Options disponibles :
+   - Une unité spécifique
+   - Toutes les unités d'un équipement CoolMaster/CoolLinkHub
+   - Toutes les unités du plugin
+
+3. Selon votre choix initial, un second sélecteur apparaîtra pour affiner votre sélection :
+
+   ![secondSelect](../images/secondSelect.png)
+
+4. Sélectionnez les commandes à historiser (vous pouvez toutes les sélectionner via la première case à cocher) :
+
+   ![selectedCmds](../images/selectedCmds.png)
+
+5. Cliquez sur "Historiser" pour appliquer la configuration.
 
 
 
-# Rafraichissement des données 
+# Gestion avancée des températures
 
+## Limites de consigne Min/Max
 
-Suivant la configuration du plugin, les données de tous les équipements seront actualisée à cette fréquence
+Le plugin offre une fonctionnalité de gestion des plages de températures admissibles pour chaque mode de fonctionnement.
 
-Il existe 2 autres méthodes pour actualiser les données plus spécifiquement, sans faire une requete globale de tous les équipements :
+Pour l'activer :
 
-- en cliquant sur l'icone Refresh d'un equipement Master de Ligne : les données de ses unités liées seront récuperées
-- en cliquant sur l'icone Refresh d'un equipement enfant du Master : les données de cette unités seule seront récuperées
+1. Accédez à la configuration du plugin
+2. Activez l'option "Gestion Min/Max"
 
+Une fois activée, quatre commandes supplémentaires seront créées pour chaque unité :
+- Consigne Min Chaud
+- Consigne Max Chaud  
+- Consigne Min Froid
+- Consigne Max Froid
 
-# Pilotage des unités et des Masters
+### Configuration des limites
 
+Pour chaque commande, vous pouvez définir des valeurs minimales et maximales dans leur configuration, créant ainsi une plage de consigne autorisée pour chaque mode.
 
-Chaque unité est pilotable individuellement
+### Fonctionnement automatique
 
-Pour commander toute les unités d'une ligne, on peut passer par les commandes du Master associé. 
+Cette fonctionnalité offre deux avantages principaux :
 
-> Pour les consignes, celles ci sont associés à un mode: Chaud ou Froid
-> Un changement de consigne sur un Master va changer la consigne des unités dépendantes, mais également le mode associé : Chaud ou Froid
-> Pensez donc à remettre le mode souhaité une fois la consigne globale attribuée
+1. **Protection contre les modifications externes** : Si une consigne est modifiée directement sur l'appareil physique (hors Jeedom) et sort des plages définies, le cron du plugin rétablira automatiquement la consigne à la valeur limite la plus proche.
 
+2. **Validation des commandes** : Lorsque vous envoyez une commande de consigne depuis Jeedom, celle-ci ne sera appliquée que si la valeur demandée se trouve dans la plage autorisée pour le mode en cours (chaud ou froid).
 
+# Dépannage et assistance
 
-# Historisation en masse
+En cas de problème avec le plugin :
 
+1. Vérifiez que votre équipement CoolAutomation est correctement connecté au réseau
+2. Assurez-vous que le serveur REST est bien activé
+3. Consultez les logs du plugin pour identifier d'éventuelles erreurs
+4. Vérifiez que les firmwares de vos équipements sont à jour
 
-Vous pouvez historiser certaines commandes sur une seul unité, toutes les unités enfantes d'un équipement de type coolMaster/coolLinkHub, ou toutes les unités présentes sur le plugin
-
-Pour cela, il faut cliquer ici :
-
-
-
-![linesCreated](../images/modalHistorize.png)
-
-
-
-Maintenant, vous sélectionnez l'option voulue :
-
-
-![linesCreated](../images/chooseOptionHistorize.png)
-
-
-Suivant votre choix, un second sélecteur apparaitra pour choisir l'option secondaire correspondante :
-
-
-![linesCreated](../images/secondSelect.png)
-
-
-Une fois votre choix fait, il ne vous reste qu'a choisir les commandes souhaitées, puis de cliquer sur Historiser pour que le/les équipements choisi(s) aient leur commandes historisées
-Vous pouvez toutes les sélectionner via la première checkbox
-
-![linesCreated](../images/selectedCmds.png)
+Pour toute question ou assistance supplémentaire, n'hésitez pas à consulter le forum Jeedom ou à contacter le support.
