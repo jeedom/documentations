@@ -4,8 +4,15 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 19/08/2025 (BETA)
-- Amélioration de la liste des produits (Marque + Modèle)
+# 20/08/2025 (Bêta)
+- Mise à jour du champs création automatique (séparation des fabricants et des modèles)
+
+- Correction commande Thermokon
+
+- Ajout du produit *Milesight EM500-PP - Pipe Pressure Sensor*
+
+- Ajout du produit *Milesight EM500-UDL - Ultrasonic Distance/Level Sensor*
+
 
 # 13/08/2025
 - Mise à jour des décodeurs Thermokon
