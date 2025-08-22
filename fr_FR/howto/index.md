@@ -5,7 +5,7 @@
 - [Restaurer une sauvegarde](/fr_FR/howto/sauvegarde.comment_recuperer)
 
 # Matériel
-- [Remise en état d'usine Smart ou Atlas](/fr_FR/installation/recovery)
+- [Remise en état d'usine Smart/Atlas](/fr_FR/installation/recovery)
 - [Raspberry Pi3](/fr_FR/howto/raspberrypi3)
 
 # Archive
