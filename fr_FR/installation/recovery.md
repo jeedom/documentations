@@ -2,7 +2,7 @@
 
 ## Sauvegarde de Jeedom
 
-Avant de réinstaller le système, **il est indispensable de réaliser une sauvegarde de Jeedom** qui pourra être restaurée à l'issue de la procédure.
+Avant de réinstaller le système, **il est indispensable de télécharger une sauvegarde récente de Jeedom** qui pourra être restaurée à l'issue de la procédure.
 
 1. Depuis l'interface Jeedom, cliquer sur le menu **Réglages > Système > Sauvegardes**.
 
@@ -16,10 +16,10 @@ Depuis la version 4.4.20, Jeedom intègre une fonctionnalité de restauration sy
 
 >**IMPORTANT**
 >
->La patience est de mise, même si on a facilement l'impression qu'il ne se passe rien, mais 20 minutes finalement ce n'est pas si long.\
+>La patience est de mise, même si on a facilement l'impression qu'il ne se passe rien, 20 minutes finalement ce n'est pas si long.\
 >Sur Smart il est possible de suivre l'évolution en branchant un écran.
 
-La procédure peut être effectuée, selon 2 modes opératoires différents, directement depuis Jeedom en cliquant sur le menu "**Réglages > Système > Restauration système**" :
+La procédure peut être effectuée directement depuis Jeedom, selon 2 modes opératoires différents, en cliquant sur le menu "**Réglages > Système > Restauration système**" :
 
 ![Accueil page restauration système](./images/recovery.jpg)
 
