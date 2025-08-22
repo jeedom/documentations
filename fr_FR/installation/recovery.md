@@ -65,3 +65,7 @@ Les images systèmes actuellement fournies par l'équipe Jeedom sont librement c
 >**INFORMATION**
 >
 >La clé SHA256, permettant de vérifier l'intégrité du fichier téléchargé, est disponible dans le fichier `info.json` du même dossier.
+
+### Gravure du support
+
+Sur Smart, l'image système peut directement être écrite sur le support de stockage eMMC détachable. Consulter [la documentation "Guides>Tutoriaux>Remise en état d'usine Smart"](https://doc.jeedom.com/fr_FR/howto/smart) pour plus de détails.
