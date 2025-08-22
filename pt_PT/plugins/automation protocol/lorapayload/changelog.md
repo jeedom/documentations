@@ -4,12 +4,22 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
-# 
+# )
+- )
+
+- 
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+
+# 13/08/2025
 - Mise à jour des décodeurs Thermokon
 
 - Ajout de Statut et des boutons d'accès à la page de configuration des devices 
 
-- 
+- Fix bug création automatique
 
 # 06/08/2025
 - Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité

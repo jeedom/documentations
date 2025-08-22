@@ -4,14 +4,18 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
-# )
-- )
+# 
+- Mise à jour du champs création automatique (séparation des fabricants et des modèles)
+
+- Correction commande Thermokon
+
+- Ajout du produit *Milesight EM500-PP - Pipe Pressure Sensor*
+
+- Ajout du produit *Milesight EM500-UDL - Ultrasonic Distance/Level Sensor*
+
+-  ** 
 
 - 
-
-- Ajout du produit **
-
-- Ajout du produit **
 
 
 # 13/08/2025
