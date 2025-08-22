@@ -2,7 +2,7 @@
 
 Jeedom peut être installé sur différents composants hardware :
 
--   un Raspberry Pi 2, 3 ou 4 
+-   un Raspberry Pi 2, 3 ou 4
 -   un NAS Synology
 -   tout système Linux basé sur Debian 11 (Bullseye)
 -   Freebox Delta
@@ -28,8 +28,8 @@ Soit un total de 125 € pour une box domotique open source avec une maîtrise c
 
 > **Tip**
 >
-> - Il est possible d’ajouter ou de changer par une antenne Rfxcom, ou une clef enOcean, etc. 
-> - En principe, il vous faut une clef USB par protocole supplémentaire. En fonction de leur nombre et de leur consommation cumulée, sur un Raspberry Pi vous pouvez avoir besoin d'un hub USB complémentaire avec son alimentation dédiée. 
+> - Il est possible d’ajouter ou de changer par une antenne Rfxcom, ou une clef enOcean, etc.
+> - En principe, il vous faut une clef USB par protocole supplémentaire. En fonction de leur nombre et de leur consommation cumulée, sur un Raspberry Pi vous pouvez avoir besoin d'un hub USB complémentaire avec son alimentation dédiée.
 > - Pour la clef Z-Wave Aeotec Gen 5 en utilisation cumulée avec un Raspberry Pi 4 (modèles antérieurs non concernés), il faut en utliser une récente si vous souhaitez vous affranchir d'un hub USB. Se renseigner et se fournir chez un vendeur d'équipements domotiques.
 > - Sur RPi 4, il est vivement conseillé de remplacer la carte microSD par un disque dur mSATA USB3, directement relié au port USB3 avec boot natif. Les cartes microSD ont une durée de vie très limitée en échange de données intensif: à ne réserver que pour de courtes périodes de tests.
 
@@ -45,15 +45,13 @@ Soit un total de 125 € pour une box domotique open source avec une maîtrise c
 
 Je veux installer Jeedom :
 
-- Sur une [luna](https://doc.jeedom.com/fr_FR/plugins/home%20automation%20protocol/luna)
-- Sur une [atlas](https://doc.jeedom.com/fr_FR/installation/atlas)
-- Sur une [smart](https://doc.jeedom.com/fr_FR/installation/smart)
-- Sur une [mini+](https://doc.jeedom.com/fr_FR/installation/mini)
-- Sur un [Raspberry Pi](https://doc.jeedom.com/fr_FR/installation/rpi)
-- Sur une [Freebox Delta](https://doc.jeedom.com/fr_FR/installation/freeboxdelta)
-- En [ligne de commande](https://doc.jeedom.com/fr_FR/installation/cli)
-- Sur une [VM](https://doc.jeedom.com/fr_FR/installation/vm)
-- Sur un [Docker/Synology](https://doc.jeedom.com/fr_FR/installation/docker). Note : Nous ne recommandons pas ce mode d'installation qui rend l'utilisation de certains équipements compliquée à cause du mode de réseaux de Docker
-- Sur du [bare metal (type Intel Nuc)](https://doc.jeedom.com/fr_FR/installation/baremetal)
+- [Sur une Luna](https://doc.jeedom.com/fr_FR/plugins/home%20automation%20protocol/luna)
+- [Sur une Smart/Atlas](https://doc.jeedom.com/fr_FR/installation/recovery)
+- [Sur un Raspberry Pi](https://doc.jeedom.com/fr_FR/installation/rpi)
+- [Sur une Freebox Delta](https://doc.jeedom.com/fr_FR/installation/freeboxdelta)
+- [Sur une machine virtuelle](https://doc.jeedom.com/fr_FR/installation/vm)
+- [Sur un mini-pc (type Intel Nuc)](https://doc.jeedom.com/fr_FR/installation/baremetal)
+- [Sur un Docker/Synology](https://doc.jeedom.com/fr_FR/installation/docker) *(non recommandé)*
+- [En ligne de commande](https://doc.jeedom.com/fr_FR/installation/cli)
 
-Une fois l'installation faite, n'oubliez pas de consulter la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
+Une fois l'installation terminée, n'oubliez pas de consulter la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
