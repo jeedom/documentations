@@ -73,11 +73,11 @@ L'équipe Jeedom développe des images système sur-mesure, à destination de no
 
 | Image système      | Documentation      |
 |--------------------|--------------------|
-| [Jeedom Luna](https://images.jeedom.com/luna/) | [Documentation système Luna](https://doc.jeedom.com/fr_FR/plugins/home%20automation%20protocol/luna) |
-| [Jeedom Atlas](https://images.jeedom.com/atlas/) | [Documentation système Atlas](https://doc.jeedom.com/fr_FR/installation/recovery) |
-| [Jeedom Smart](https://images.jeedom.com/smart/) | [Documentation système Smart](https://doc.jeedom.com/fr_FR/installation/recovery) |
-| [Jeedom AMD64](https://images.jeedom.com/x86-64/) | [Documentation système mini-pc](https://doc.jeedom.com/fr_FR/installation/baremetal) ou [Documentation système machine virtuelle](https://doc.jeedom.com/fr_FR/installation/vm) |
-| [Jeedom Freebox](https://images.jeedom.com/x86-64/) | [Documentation système Freebox](https://doc.jeedom.com/fr_FR/installation/freeboxdelta) |
+| [Jeedom Luna](https://images.jeedom.com/luna/){:target="_blank"} | [Documentation système Luna](https://doc.jeedom.com/fr_FR/plugins/home%20automation%20protocol/luna) |
+| [Jeedom Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Documentation système Atlas](https://doc.jeedom.com/fr_FR/installation/recovery) |
+| [Jeedom Smart](https://images.jeedom.com/smart/){:target="_blank"} | [Documentation système Smart](https://doc.jeedom.com/fr_FR/installation/recovery) |
+| [Jeedom AMD64](https://images.jeedom.com/x86-64/){:target="_blank"} | [Documentation système mini-pc](https://doc.jeedom.com/fr_FR/installation/baremetal) ou [Documentation système machine virtuelle](https://doc.jeedom.com/fr_FR/installation/vm) |
+| [Jeedom Freebox](https://images.jeedom.com/x86-64/){:target="_blank"} | [Documentation système Freebox](https://doc.jeedom.com/fr_FR/installation/freeboxdelta) |
 
 >**Accès SSH**
 >
