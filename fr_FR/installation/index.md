@@ -1,6 +1,6 @@
 # Installation
 
-**Jeedom est un logiciel qui est et restera open source**. Son utilisation est entièrement gratuite et ne dépend d'aucun service cloud ni d’abonnement pour fonctionner.
+**Jeedom est un logiciel qui est, et restera, open source**. Son utilisation est entièrement gratuite et ne requiert aucun service cloud ou abonnement pour fonctionner.
 Certains plugins peuvent cependant être payants et/ou nécessiter une connexion internet, [**la liste complète des plugins disponibles est consultable sur le Market Jeedom**](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin).
 
 Jeedom peut être installé sur tout matériel supportant le système [**Linux Debian en version actuellement recommandée**](https://doc.jeedom.com/fr_FR/compatibility/#Debian).
