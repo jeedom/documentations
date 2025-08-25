@@ -69,7 +69,7 @@ Liste, par catégorie et non exhaustive, des **matériels identifiés comme non 
 
 ## Images système officielles
 
-L'équipe Jeedom développe des images sur-mesure, à destination de nombreux matériels différents, et, régulièrement mises à jour :
+L'équipe Jeedom développe des images système sur-mesure, à destination de nombreux matériels différents, et, régulièrement mises à jour :
 
 | Image système      | Documentation      |
 |--------------------|--------------------|
