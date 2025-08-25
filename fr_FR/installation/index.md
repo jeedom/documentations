@@ -27,15 +27,15 @@ Quel que soit le matériel choisi pour déployer votre instance Jeedom, vous tro
 Vous souhaitez installer Jeedom :
 
 - [sur une **Luna**](https://doc.jeedom.com/fr_FR/plugins/home%20automation%20protocol/luna)
-- [sur une **Smart/Atlas**](https://doc.jeedom.com/fr_FR/installation/recovery)
-- [sur un **Raspberry Pi**](https://doc.jeedom.com/fr_FR/installation/rpi)
-- [sur un **mini-pc** *(type Intel NUC)*](https://doc.jeedom.com/fr_FR/installation/baremetal)
-- [sur une **Freebox Delta/Ultra**](https://doc.jeedom.com/fr_FR/installation/freeboxdelta)
-- [dans une **machine virtuelle** *(VMware, Proxmox)*](https://doc.jeedom.com/fr_FR/installation/vm)
+- [sur une **Smart/Atlas**](./recovery)
+- [sur un **Raspberry Pi**](./rpi)
+- [sur un **mini-pc** *(type Intel NUC)*](./baremetal)
+- [sur une **Freebox Delta/Ultra**](./freeboxdelta)
+- [dans une **machine virtuelle** *(VMware, Proxmox)*](vm)
 - [dans un **conteneur LXC** *(Proxmox)*](https://community-scripts.github.io/ProxmoxVE/scripts?id=jeedom)
-- [dans un **conteneur Docker/Synology**](https://doc.jeedom.com/fr_FR/installation/docker) *(non recommandé)*
-- [en **ligne de commande**](https://doc.jeedom.com/fr_FR/installation/cli)
+- [dans un **conteneur Docker/Synology**](./docker) *(non recommandé)*
+- [en **ligne de commande**](./cli)
 
 ## Premiers pas avec Jeedom
 
-Le temps que l'installation se termine, pensez à consulter la documentation [« **Premiers pas avec Jeedom** »](https://doc.jeedom.com/fr_FR/premiers-pas/index).
+Le temps que l'installation se termine, pensez à consulter la documentation [« **Premiers pas avec Jeedom** »](../premiers-pas/index).

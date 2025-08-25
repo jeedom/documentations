@@ -12,7 +12,7 @@ Nos recommandations vont dépendre de différents facteurs :
 
 - **Jeedom Atlas ou Luna** : l'alliance de la simplicité, de l'optimisation et d'une compatibilité avancée.
 - **Nano-ordinateur** *(Odroid C2, Rock Pi, Rasperry Pi, etc.)* : le meilleur rapport performance/prix.
-- **Mini-pc** *(NUC)* : des performances extrêmes pour un budget plus conséquent *(voir [le tutoriel avancé dédié](https://doc.jeedom.com/fr_FR/howtoadvance/vmware.installation_sur_nuc) pour plus de détails)*.
+- **Mini-pc** *(NUC)* : des performances extrêmes pour un budget plus conséquent *(voir [le tutoriel avancé dédié](../howtoadvance/vmware.installation_sur_nuc) pour plus de détails)*.
 
 ### Matériels supportés
 
@@ -74,10 +74,10 @@ L'équipe Jeedom développe des images système sur-mesure, à destination de no
 | Image système      | Documentation      |
 |--------------------|--------------------|
 | [Jeedom Luna](https://images.jeedom.com/luna/){:target="_blank"} | [Documentation système Luna](https://doc.jeedom.com/fr_FR/plugins/home%20automation%20protocol/luna) |
-| [Jeedom Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Documentation système Atlas](https://doc.jeedom.com/fr_FR/installation/recovery) |
-| [Jeedom Smart](https://images.jeedom.com/smart/){:target="_blank"} | [Documentation système Smart](https://doc.jeedom.com/fr_FR/installation/recovery) |
-| [Jeedom AMD64](https://images.jeedom.com/x86-64/){:target="_blank"} | [Documentation système mini-pc](https://doc.jeedom.com/fr_FR/installation/baremetal) ou [Documentation système machine virtuelle](https://doc.jeedom.com/fr_FR/installation/vm) |
-| [Jeedom Freebox](https://images.jeedom.com/x86-64/){:target="_blank"} | [Documentation système Freebox](https://doc.jeedom.com/fr_FR/installation/freeboxdelta) |
+| [Jeedom Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Documentation système Atlas](../installation/recovery) |
+| [Jeedom Smart](https://images.jeedom.com/smart/){:target="_blank"} | [Documentation système Smart](../installation/recovery) |
+| [Jeedom AMD64](https://images.jeedom.com/x86-64/){:target="_blank"} | [Documentation système mini-pc](../installation/baremetal) ou [Documentation système machine virtuelle](../installation/vm) |
+| [Jeedom Freebox](https://images.jeedom.com/x86-64/){:target="_blank"} | [Documentation système Freebox](../installation/freeboxdelta) |
 
 >**Accès SSH**
 >
@@ -98,7 +98,7 @@ Vous trouverez [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&searc
 
 ### Edisio
 
-Vous trouverez [ici](https://doc.jeedom.com/fr_FR/edisio/equipement.compatible) la liste des modules Edisio compatibles Jeedom et [ici](https://doc.jeedom.com/fr_FR/edisio/) la documentation pour certains modules.
+Vous trouverez [ici](../edisio/equipement.compatible) la liste des modules Edisio compatibles Jeedom et [ici](../edisio/) la documentation pour certains modules.
 
 ### EnOcean
 
@@ -116,7 +116,7 @@ Contrôleur RFXcom :
 -   RFXtrx433 USB
 -   [RFXtrx433E USB (Recommandé)](https://www.domadoo.fr/fr/interface-domotique/4659-rfxcom-interface-radio-recepteuremetteur-xl-43392mhz-usb-chacon-somfy-rts-oregon-et-autres.html)
 
-Vous trouverez [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=rfxcom) la liste des modules Rfxcom compatibles Jeedom et [ici](https://doc.jeedom.com/fr_FR/rfxcom/) la documentation pour certains modules.
+Vous trouverez [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=rfxcom) la liste des modules Rfxcom compatibles Jeedom et [ici](../rfxcom/) la documentation pour certains modules.
 
 ### SMS (GSM)
 
@@ -143,7 +143,7 @@ Contrôleur Z-WAVE :
 -   AEON LABS Contrôleur Z-Wave Aeon Labs Z-Stick S2
 -   [AEON LABS - Contrôleur USB Z-Wave Plus Z-Stick GEN5 (Recommandé)](https://www.domadoo.fr/fr/interface-domotique/2917-aeotec-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html?search_query=sigma&results=4)
 
-Vous trouverez [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openzwave) la liste des modules Z-Wave compatibles Jeedom et [ici](https://doc.jeedom.com/fr_FR/zwave/) la documentation pour certains modules.
+Vous trouverez [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openzwave) la liste des modules Z-Wave compatibles Jeedom et [ici](../zwave/) la documentation pour certains modules.
 
 ## Exemple de montage DIY
 
