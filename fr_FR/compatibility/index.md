@@ -22,7 +22,7 @@ Nos recommandations vont dépendre de différents facteurs :
 
 Liste, par catégorie et non exhaustive, des **matériels identifiés comme supportés** par Jeedom en version stable :
 
-| Boxes officielles      | ARM64                  | AMD64                  | Hyperviseurs (AMD64)    |
+| Boxes officielles      | ARM64                  | AMD64                  | Hyperviseurs (AMD64)   |
 |------------------------|------------------------|------------------------|------------------------|
 | Smart, Atlas, Luna     | Odroid C2, Rock Pi Série 4, Raspberry Pi3/4 | Systèmes 64 bits, Mini-pcs *(NUC)*, Processeur Intel® N100 | Systèmes 64 bits, VMware, Proxmox |
 
@@ -30,7 +30,7 @@ Liste, par catégorie et non exhaustive, des **matériels identifiés comme supp
 
 Liste, par catégorie et non exhaustive, des **matériels identifiés comme non suppportés** par Jeedom en version stable :
 
-| Boxes officielles      | ARM64                  | AMD64                  | Hyperviseurs (AMD64)    |
+| Boxes officielles      | ARM64                  | AMD64                  | Hyperviseurs (AMD64)   |
 |------------------------|------------------------|------------------------|------------------------|
 | Jeedomboard, Mini+     | Hummingboard, Raspberry Pi1/2 | Systèmes 32 bits | Systèmes 32 bits      |
 
@@ -71,7 +71,7 @@ Liste, par catégorie et non exhaustive, des **matériels identifiés comme non 
 
 L'équipe Jeedom développe des images système sur-mesure, à destination de nombreux matériels différents, et, régulièrement mises à jour :
 
-| Image système      | Documentation      |
+| Images système      | Documentation      |
 |--------------------|--------------------|
 | [Jeedom Luna](https://images.jeedom.com/luna/){:target="_blank"} | [Documentation système Luna](https://doc.jeedom.com/fr_FR/plugins/home%20automation%20protocol/luna) |
 | [Jeedom Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Documentation système Atlas](../installation/recovery) |
