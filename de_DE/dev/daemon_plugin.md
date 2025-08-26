@@ -317,7 +317,7 @@ php
         )) {
             )))) {
                 $return['state'] = 'ok';
-            } anders {
+            }  {
                 ::getCmdSudo() . ' ' . $pid_file . ' 
             }
         }
@@ -485,7 +485,7 @@ php
         
     } '])) {
         
-    } anders {
+    }  {
         log::
     }
 } ) {
@@ -527,7 +527,7 @@ php
         
     } '])) {
         
-    } anders {
+    }  {
         log::
     }
 
@@ -601,7 +601,7 @@ json
 
 ##### pre-install: 
 
-Beispiel :
+ :
 
 json
 {
@@ -613,7 +613,7 @@ json
 ##### post-install
 
 .
-Beispiel :
+ :
 
 json
 {
@@ -820,12 +820,12 @@ php
         $return['progress_file'] = jeedom::) . '/dependance';
         ::) . '/dependance')) {
             $return['state'] = 'in_progress';
-        } anders {
+        }  {
             ::getCmdSudo() . system::') . '-||
                 $return['state'] = 'nok';
             } ::getCmdSudo() . ' | 
                 $return['state'] = 'nok';
-            } anders {
+            }  {
                 $return['state'] = 'ok';
             }
         }

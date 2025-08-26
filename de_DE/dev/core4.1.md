@@ -1,4 +1,4 @@
-## Kern v4.1 | Plugin-Entwickler
+## .1 | 
 
 ### Obsolete
 

@@ -1,13 +1,13 @@
-# Bestellwert
+# 
 
-Diese Dokumentation enthält die Empfehlungen für die Werte der Befehle (Aktion oder Info) entsprechend den Typen. Es ist nicht zwingend erforderlich, sie zu befolgen, aber für eine bessere Integration mit Jeedom wird dies dringend empfohlen.
+. .
 
-## Licht
+## 
 
 |  |  |
 |---------------|-------------|
-|Info/Leuchtenstatus|Lass Helligkeit<br/>0-100 oder 0-99 oder 0-255<br/>(abhängig vom maximalen Aktions-/Lichtregler)<br/>oder entweder binär<br/><br/> anders als 0 = Ein<br/>**Obligatorisch**| 
-|Info/Lichthelligkeit|Luminosité<br/>0-100 oder 0-99 oder 0-255<br/>(abhängig vom maximalen Aktions-/Lichtregler)<br/>|
+||<br/><br/>()<br/><br/><br/> <br/>****| 
+||Luminosité<br/><br/>()<br/>|
 ||<br/>|
 ||)|
 ||)|
@@ -47,13 +47,13 @@ Diese Dokumentation enthält die Empfehlungen für die Werte der Befehle (Aktion
 
 |  |  |
 |---------------|----------------|
-|| :<br/><br/>1 = Offen<br/>Wenn Digital :<br/>min des Schieberegler-Buttons (sonst min des Status, sonst 0) = Geschlossen <br/>Max des Slider-Buttons (sonst Max des Status, sonst 100) = Offen<br/>Wenn keine Silder-Taste : Min und Max im Staat vorgeschrieben !|
+|| :<br/><br/><br/> :<br/> <br/><br/> :  !|
 ||<br/>| 
 ||<br/>|
 |||
-||<br/>Falls vorhanden:<br/>|
+||<br/>:<br/>|
 
-optional :
+ :
 
 |  |  |
 |---------------|----------------|
@@ -78,11 +78,11 @@ optional :
 
 |  |  |
 |---------------|----------------|
-|<br/>Generisch<br/>Etat|<br/>|
-|<br/>Generisch<br/>|Allumer| 
-|<br/>Generisch<br/>|Eteindre|
+|<br/><br/>Etat|<br/>|
+|<br/><br/>|Allumer| 
+|<br/><br/>|Eteindre|
 
-einen Dimmer hinzufügen ? und fügen Sie der Aktion Digitales hinzu ? es existiert ?
+ ?  ?  ?
 
 ## Serrures
 
@@ -102,9 +102,9 @@ einen Dimmer hinzufügen ? und fügen Sie der Aktion Digitales hinzu ? es existi
 
 |  |  |
 |---------------|----------------|
-|<br/>Info/Fenster<br/>()|)<br/>)| 
+|<br/><br/>()|)<br/>)| 
 
-## Sirenen
+## 
 
 |  |  |
 |---------------|----------------|
@@ -116,7 +116,7 @@ einen Dimmer hinzufügen ? und fügen Sie der Aktion Digitales hinzu ? es existi
 |---------------|----------------|
 ||<br/>()|
 ||<br/>()|
-|| **genau** |
+|| **** |
 |||
 |||
 |||
@@ -126,8 +126,8 @@ einen Dimmer hinzufügen ? und fügen Sie der Aktion Digitales hinzu ? es existi
 |  |  |
 |---------------|----------------|
 |)|<br/>|
-|)|''<br/>'Hitze‘ oder ‚Heizung‘'<br/>'kühlen‘ oder ‚Klimaanlage‘'<br/><br/>| 
-||'<br/>'„Keine“ oder „Thermostat“ = Sollwertmodus<br/> **genau** |
+|)|''<br/>''<br/>''<br/><br/>| 
+||'<br/>'<br/> **** |
 |||
 |||
 ||| 
@@ -137,19 +137,19 @@ einen Dimmer hinzufügen ? und fügen Sie der Aktion Digitales hinzu ? es existi
 |||
 |||
 
-## Tore oder Garagen
+## 
 
 |  |  |
 |---------------|----------------|
-|<br/>Info/Garage-Öffnungsstatus<br/>()|<br/>252 = Schließung läuft<br/>253 = Gestoppt<br/>254 = Öffnung läuft<br/>255 = Offen<br/>( ?)|
+|<br/><br/>()|<br/><br/><br/><br/><br/>( ?)|
 
-mit entweder :
+ :
 
 |  |  |
 |---------------|----------------|
 ||<br/>)| 
 
-oder entweder :
+ :
 
 |  |  |
 |---------------|----------------|
@@ -185,7 +185,7 @@ oder entweder :
 ||bar|
 |)|dB|
 
-## Gerätestatus
+## 
 
 |  |  |
 |---------------|----------------|
