@@ -12,6 +12,10 @@ Nos recommandations vont dépendre de différents facteurs :
 - **Nano-ordinateur** *(Odroid C2, Rock Pi, Rasperry Pi, etc.)* : le meilleur rapport performance/prix.
 - **Mini-PC** *(NUC)* : des performances extrêmes pour un budget plus conséquent *(voir [le tutoriel avancé dédié](../howtoadvance/vmware.installation_sur_nuc) pour plus de détails)*.
 
+>**INFORMATION**
+>
+>Bien que plus commercialisée, la Smart reste une solution officielle tout à fait viable dont le système continue d'être maintenu par l'équipe.
+
 ### Matériels supportés
 
 >**IMPORTANT**
