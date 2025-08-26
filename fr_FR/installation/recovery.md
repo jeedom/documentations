@@ -70,6 +70,6 @@ Les images systèmes actuellement fournies par l'équipe Jeedom sont librement c
 >
 >Consulter [**la documentation dédiée**](../compatibility/index#images-système-officielles) pour plus de détails sur les images système Jeedom.
 
-### Gravure du support
+### Gravure eMMC Smart
 
-Sur Smart, l'image système peut directement être écrite sur le support de stockage eMMC détachable. Consulter [la documentation **Guides > Tutoriaux > Remise en état d'usine Smart**](../howto/smart) pour plus de détails.
+**Sur Smart**, l'image système peut directement être écrite sur le support eMMC détachable. Consultez la documentation [**Guides > Tutoriaux > Remise en état d'usine Smart**](../howto/smart) pour plus de détails.
