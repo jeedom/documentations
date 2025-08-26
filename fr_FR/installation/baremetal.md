@@ -19,7 +19,7 @@ La première étape consiste à télécharger l'image système que vous souhaite
 
 ## Gravure de l'image système
 
-Le fichier précédemment téléchargé doit être gravé sur un support duquel la machine est apte à démarrer, comme une clé USB par exemple.
+Le fichier précédemment téléchargé doit être gravé sur un support à partir duquel la machine est apte à démarrer, comme une clé USB par exemple.
 
 Si vous ne connaissez pas de logiciel de gravure, vous pouvez utiliser [balenaEtcher](https://etcher.balena.io/){:target="_blank"}.
 
