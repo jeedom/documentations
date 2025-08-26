@@ -22,15 +22,15 @@ Nos recommandations vont dépendre de différents facteurs :
 
 Liste, par catégorie et non exhaustive, des **matériels identifiés comme supportés** par Jeedom en version stable :
 
-| Boxes officielles      | ARM64                  | AMD64                  | Hyperviseurs (AMD64)   |
+| Boxes officielles      | ARM64                  | AMD64                  | Hyperviseurs AMD64     |
 |------------------------|------------------------|------------------------|------------------------|
-| Smart, Atlas, Luna     | Odroid C2, Rock Pi Série 4, Raspberry Pi3/4 et assimilés | Systèmes 64 bits, Mini-pcs *(NUC)*, Processeur Intel® N100 | Systèmes 64 bits, VMware, Proxmox |
+| Smart, Atlas, Luna     | Odroid C2, Rock Pi Série 4, Raspberry Pi3/4 et assimilés | Systèmes 64 bits, Mini-pcs *(NUC)*, Processeur Intel® N100 | Systèmes 64 bits, VirtualBox, VMware, Proxmox, Hyper-V |
 
 ### Matériels non supportés
 
 Liste, par catégorie et non exhaustive, des **matériels identifiés comme non suppportés** par Jeedom en version stable :
 
-| Boxes officielles      | ARM64                  | AMD64                  | Hyperviseurs (AMD64)   |
+| Boxes officielles      | ARM64                  | AMD64                  | Hyperviseurs AMD64     |
 |------------------------|------------------------|------------------------|------------------------|
 | Jeedomboard, Mini+     | Hummingboard, Raspberry Pi1/2 | Systèmes 32 bits | Systèmes 32 bits      |
 
