@@ -48,4 +48,4 @@ Vous souhaitez installer Jeedom :
 
 ## Premiers pas avec Jeedom
 
-Le temps que l'installation se termine, pensez à consulter la documentation [« **Premiers pas avec Jeedom** »](../premiers-pas/index).
+Le temps que l'installation se termine, pensez à consulter la documentation [**Premiers pas avec Jeedom**](../premiers-pas/index).

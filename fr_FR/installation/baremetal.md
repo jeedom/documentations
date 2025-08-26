@@ -51,4 +51,4 @@ Différentes options d'installation sont affichées à l'écran après avoir dé
 
 ## Compatibilité matérielle
 
-La liste, non exhaustive, des ordinateurs supportés par Jeedom est visible dans [la documentation «Compatibilité»](../compatibility/index#matériels-supportés)
+La liste, non exhaustive, des ordinateurs supportés par Jeedom est visible dans [la documentation **Compatibilité**](../compatibility/index#matériels-supportés)
