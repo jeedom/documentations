@@ -12,7 +12,7 @@ Nos recommandations vont dépendre de différents facteurs :
 
 - **Jeedom Atlas ou Luna** : l'alliance de la simplicité, de l'optimisation et d'une compatibilité avancée.
 - **Nano-ordinateur** *(Odroid C2, Rock Pi, Rasperry Pi, etc.)* : le meilleur rapport performance/prix.
-- **Mini-pc** *(NUC)* : des performances extrêmes pour un budget plus conséquent *(voir [le tutoriel avancé dédié](../howtoadvance/vmware.installation_sur_nuc) pour plus de détails)*.
+- **Mini-PC** *(NUC)* : des performances extrêmes pour un budget plus conséquent *(voir [le tutoriel avancé dédié](../howtoadvance/vmware.installation_sur_nuc) pour plus de détails)*.
 
 ### Matériels supportés
 
@@ -24,7 +24,7 @@ Liste, par catégorie et non exhaustive, des **matériels identifiés comme supp
 
 | Boxes officielles      | ARM64                  | AMD64                  | Hyperviseurs AMD64     |
 |------------------------|------------------------|------------------------|------------------------|
-| Smart, Atlas, Luna     | Odroid C2, Rock Pi Série 4, Raspberry Pi3/4 et assimilés | Systèmes 64 bits, Mini-pcs *(NUC)*, Processeur Intel® N100 | Systèmes 64 bits, VirtualBox, VMware, Proxmox, Hyper-V |
+| Smart, Atlas, Luna     | Odroid C2, Rock Pi Série 4, Raspberry Pi3/4 et assimilés | Systèmes 64 bits, Mini-PCs *(NUC)*, Processeur Intel® N100 | Systèmes 64 bits, VirtualBox, VMware, Proxmox, Hyper-V |
 
 ### Matériels non supportés
 
@@ -71,13 +71,13 @@ Liste, par catégorie et non exhaustive, des **matériels identifiés comme non 
 
 L'équipe Jeedom développe des images système sur-mesure, à destination de nombreux matériels différents, et, régulièrement mises à jour :
 
-| Images système      | Documentation      |
+| Image système      | Documentation      |
 |--------------------|--------------------|
-| [Jeedom Luna](https://images.jeedom.com/luna/){:target="_blank"} | [Documentation système Luna](https://doc.jeedom.com/fr_FR/plugins/home%20automation%20protocol/luna) |
-| [Jeedom Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Documentation système Atlas](../installation/recovery) |
-| [Jeedom Smart](https://images.jeedom.com/smart/){:target="_blank"} | [Documentation système Smart](../installation/recovery) |
-| [Jeedom AMD64](https://images.jeedom.com/x86-64/){:target="_blank"} | [Documentation système mini-pc](../installation/baremetal) ou [Documentation système machine virtuelle](../installation/vm) |
-| [Jeedom Freebox](https://images.jeedom.com/x86-64/){:target="_blank"} | [Documentation système Freebox](../installation/freeboxdelta) |
+| [Jeedom Luna](https://images.jeedom.com/luna/){:target="_blank"} | [Installation sur Luna](https://doc.jeedom.com/fr_FR/plugins/home%20automation%20protocol/luna) |
+| [Jeedom Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Installation sur Atlas](../installation/recovery) |
+| [Jeedom Smart](https://images.jeedom.com/smart/){:target="_blank"} | [Installation sur Smart](../installation/recovery) |
+| [Jeedom AMD64](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation sur PC/mini-PC](../installation/baremetal) ou [Installation sur machine virtuelle](../installation/vm) |
+| [Jeedom Freebox](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation sur Freebox](../installation/freeboxdelta) |
 
 >**INFORMATION**
 >
