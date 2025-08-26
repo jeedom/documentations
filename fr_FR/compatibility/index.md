@@ -34,7 +34,7 @@ Liste, par catégorie et non exhaustive, des **matériels identifiés comme non 
 
 | Boxes officielles      | Nano-ordinateurs       | Ordinateurs            | Hyperviseurs           |
 |------------------------|------------------------|------------------------|------------------------|
-| Jeedomboard, Mini+     | Hummingboard, Raspberry Pi1/2 | Systèmes 32 bits | Systèmes 32 bits      |
+| Jeedomboard, Mini+     | Hummingboard, Raspberry Pi0/1/2 et assimilés | Systèmes 32 bits | Systèmes 32 bits      |
 
 ## Logicielle
 
