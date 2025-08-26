@@ -21,7 +21,7 @@ Avant de réinstaller le système, **il est indispensable de télécharger une s
 
 La procédure peut directement être effectuée depuis Jeedom en cliquant sur le menu "**Réglages > Système > Restauration système**", selon 2 modes opératoires différents :
 
-![Accueil page restauration système](./images/recovery.jpg)
+{% include lightbox.html src="images/recovery.jpg" data="Recovery" title="Accueil page restauration système" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
 >**INFORMATION**
 >
@@ -29,7 +29,7 @@ La procédure peut directement être effectuée depuis Jeedom en cliquant sur le
 
 ### Mode automatique
 
-Dans ce mode l'ensemble de la procédure est réalisée de manière entièrement automatique sans avoir besoin de toucher à la box.
+Dans ce mode l'ensemble de la procédure est réalisé de manière entièrement automatique sans avoir besoin de toucher à la box.
 
 Après avoir cliqué sur le bouton "**Restauration automatique**", la dernière image système est directement téléchargée depuis nos serveurs vers le support de stockage interne. L'intégrité de l'image est vérifiée puis le fichier est renommé.
 
@@ -66,7 +66,7 @@ Les images systèmes actuellement fournies par l'équipe Jeedom sont librement c
 - [**Image(s) système Jeedom Smart**](https://images.jeedom.com/smart/){:target="_blank"}
 - [**Image(s) système Jeedom Atlas**](https://images.jeedom.com/atlas/){:target="_blank"}
 
-Consulter [**la documentation dédiée**](../compatibility/index.md#images-système-officielles) pour plus de détails sur les images système Jeedom.
+Consulter [**la documentation dédiée**](../compatibility/index#images-système-officielles) pour plus de détails sur les images système Jeedom.
 
 ### Gravure du support
 

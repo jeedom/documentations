@@ -34,7 +34,7 @@ Avant de démarrer la machine virtuelle, il faut télécharger l'image système 
 
 - [**Image(s) système Jeedom x86-64**](https://images.jeedom.com/x86-64/){:target="_blank"}
 
-Consulter [**la documentation dédiée**](../compatibility/index.md#images-système-officielles) pour plus de détails sur les images système Jeedom.
+Consulter [**la documentation dédiée**](../compatibility/index#images-système-officielles) pour plus de détails sur les images système Jeedom.
 
 >**INFORMATION**
 >
