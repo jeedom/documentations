@@ -29,7 +29,7 @@ Une fois l'image système gravée sur le support de démarrage, il n'y a plus qu
 
 >**IMPORTANT**
 >
->En cas de difficulté pour démarrer sur le support USB, consultez la documentation de votre matériel relative aux options de boot du BIOS.
+>En cas de difficulté pour démarrer sur la clé USB, consultez la documentation de votre matériel relative aux options de boot du BIOS.
 
 ## Options d'installation
 
