@@ -16,8 +16,8 @@ Avant de réinstaller le système, **il est indispensable de télécharger une s
 
 >**IMPORTANT**
 >
->La patience est de mise, même si on a facilement l'impression qu'il ne se passe rien, 20 minutes, finalement, ce n'est pas si long.\
->Sur Smart il est possible de suivre l'évolution en branchant un écran.
+>La patience est de mise : même si on a facilement l'simpression que rien ne se passe, les 20 minutes nécessaires passent finalement assez vite.\
+>Sur Smart, il est possible de suivre l'évolution en branchant un écran.
 
 La procédure peut directement être effectuée depuis Jeedom en cliquant sur le menu **Réglages > Système > Restauration système**, selon 2 modes opératoires différents :
 
