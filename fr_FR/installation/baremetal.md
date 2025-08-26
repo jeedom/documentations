@@ -44,3 +44,7 @@ Différentes options d'installation sont affichées à l'écran après avoir dé
   >**INFORMATION**
 	>
 	>Cette fonctionnalité est accessible à partir de Debian 12 Bookworm.
+
+## Compatibilité matérielle
+
+La liste, non exhaustive, des machines AMD64 supportés par Jeedom est visible dans [la documentation «Compatibilité»](../compatibility/index#Matériels%20supportés)
