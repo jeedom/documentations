@@ -1,7 +1,5 @@
 # Compatibilité
 
-Cette page recense les différentes compatibilités et incompatibilités identifiées, aussi bien matérielles que logicielles.
-
 >**INFORMATION**
 >
 >L’équipe Jeedom s’efforce de maintenir ces informations à jour, parfois au détriment d’autres développements. L’assistance de la communauté est précieuse à tous les niveaux de la documentation — cette page étant une priorité.
@@ -22,15 +20,15 @@ Nos recommandations vont dépendre de différents facteurs :
 
 Liste, par catégorie et non exhaustive, des **matériels identifiés comme supportés** par Jeedom en version stable :
 
-| Boxes officielles      | ARM64                  | AMD64                  | Hyperviseurs AMD64     |
+| Boxes officielles      | Nano-ordinateurs       | Ordinateurs            | Hyperviseurs           |
 |------------------------|------------------------|------------------------|------------------------|
-| Smart, Atlas, Luna     | Odroid C2, Rock Pi Série 4, Raspberry Pi3/4 et assimilés | Systèmes 64 bits, Mini-PCs *(NUC)*, Processeur Intel® N100 | Systèmes 64 bits, VirtualBox, VMware, Proxmox, Hyper-V |
+| Smart, Atlas, Luna     | Odroid C2, Rock Pi Série 4, Raspberry Pi3/4 et assimilés | Systèmes 64 bits, Mini-PCs *(NUC)*, Processeur Intel® N100 | Systèmes 64 bits, VirtualBox, VMware, Proxmox, Hyper-V, Freebox |
 
 ### Matériels non supportés
 
 Liste, par catégorie et non exhaustive, des **matériels identifiés comme non suppportés** par Jeedom en version stable :
 
-| Boxes officielles      | ARM64                  | AMD64                  | Hyperviseurs AMD64     |
+| Boxes officielles      | Nano-ordinateurs       | Ordinateurs            | Hyperviseurs           |
 |------------------------|------------------------|------------------------|------------------------|
 | Jeedomboard, Mini+     | Hummingboard, Raspberry Pi1/2 | Systèmes 32 bits | Systèmes 32 bits      |
 
@@ -73,11 +71,12 @@ L'équipe Jeedom développe des images système sur-mesure, à destination de no
 
 | Image système      | Documentation      |
 |--------------------|--------------------|
-| [Jeedom Luna](https://images.jeedom.com/luna/){:target="_blank"} | [Installation sur Luna](https://doc.jeedom.com/fr_FR/plugins/home%20automation%20protocol/luna) |
-| [Jeedom Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Installation sur Atlas](../installation/recovery) |
-| [Jeedom Smart](https://images.jeedom.com/smart/){:target="_blank"} | [Installation sur Smart](../installation/recovery) |
-| [Jeedom AMD64](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation sur PC/mini-PC](../installation/baremetal) ou [Installation sur machine virtuelle](../installation/vm) |
-| [Jeedom Freebox](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation sur Freebox](../installation/freeboxdelta) |
+| [Luna](https://images.jeedom.com/luna/){:target="_blank"} | [Installation sur Luna](https://doc.jeedom.com/fr_FR/plugins/home%20automation%20protocol/luna) |
+| [Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Installation sur Atlas](../installation/recovery) |
+| [Smart](https://images.jeedom.com/smart/){:target="_blank"} | [Installation sur Smart](../installation/recovery) |
+| [Ordinateurs](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation sur PC/mini-PC](../installation/baremetal) |
+| [Hyperviseurs](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation sur machine virtuelle](../installation/vm) |
+| [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [Installation sur Freebox](../installation/freeboxdelta) |
 
 >**INFORMATION**
 >
