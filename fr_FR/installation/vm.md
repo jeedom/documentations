@@ -30,15 +30,13 @@ Pour une machine robuste sans être disproportionnée, on peut convenir que les 
 
 L'équipe Jeedom fournit des images système optimisées à destination des ordinateurs 64 bits.
 
-Avant de démarrer la machine virtuelle, il faut télécharger l'image système que vous souhaitez installer :
+Avant de démarrer la machine virtuelle, il faut télécharger l'image système que vous souhaitez installer *(certains hyperviseurs permettent de télécharger le fichier directement depuis son lien URL)* :
 
 - [**Image(s) système Jeedom x86-64**](https://images.jeedom.com/x86-64/){:target="_blank"}
 
-Consulter [**la documentation dédiée**](../compatibility/index#images-système-officielles) pour plus de détails sur les images système Jeedom.
-
 >**INFORMATION**
 >
->Certains hyperviseurs permettent de télécharger le fichier image directement en renseignant son lien URL.
+>Consulter [**la documentation dédiée**](../compatibility/index#images-système-officielles) pour plus de détails sur les images système Jeedom.
 
 Le fichier image au format `iso` doit ensuite être chargé dans le lecteur optique *(CD/DVD)* émulé par la machine virtuelle.
 

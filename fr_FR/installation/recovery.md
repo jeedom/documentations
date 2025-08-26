@@ -66,7 +66,9 @@ Les images systèmes actuellement fournies par l'équipe Jeedom sont librement c
 - [**Image(s) système Jeedom Smart**](https://images.jeedom.com/smart/){:target="_blank"}
 - [**Image(s) système Jeedom Atlas**](https://images.jeedom.com/atlas/){:target="_blank"}
 
-Consulter [**la documentation dédiée**](../compatibility/index#images-système-officielles) pour plus de détails sur les images système Jeedom.
+>**INFORMATION**
+>
+>Consulter [**la documentation dédiée**](../compatibility/index#images-système-officielles) pour plus de détails sur les images système Jeedom.
 
 ### Gravure du support
 
