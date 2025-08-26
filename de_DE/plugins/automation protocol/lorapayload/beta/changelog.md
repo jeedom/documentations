@@ -5,6 +5,9 @@
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 # 
+- 
+
+# 22/08/2025
 - Mise à jour du champs création automatique (séparation des fabricants et des modèles)
 
 - Correction commande Thermokon
@@ -13,9 +16,9 @@
 
 - Ajout du produit *Milesight EM500-UDL - Ultrasonic Distance/Level Sensor*
 
--  ** 
+- Correction bug Lorapayload configuration *application name* 
 
-- 
+- Mise à jour panel CS V4
 
 
 # 13/08/2025

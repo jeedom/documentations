@@ -4,6 +4,9 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 26/08/2025
+- Correction d'envoie des downlinks dans une liste déroulante
+
 # 22/08/2025
 - Mise à jour du champs création automatique (séparation des fabricants et des modèles)
 
