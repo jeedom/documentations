@@ -14,7 +14,7 @@ Nos recommandations vont dépendre de différents facteurs :
 
 >**INFORMATION**
 >
->Bien que plus commercialisée, la Smart reste une solution officielle tout à fait viable dont le système continue d'être maintenu par l'équipe.
+>Bien que plus commercialisée, la box Jeedom Smart reste une solution officielle tout à fait viable dont le système continue d'être maintenu par l'équipe.
 
 ### Matériels supportés
 
