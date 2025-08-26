@@ -3,11 +3,11 @@
 >**INFORMATION**
 >
 >La procédure suivante est basée sur l'utilisation d'un fichier d'image système incluant Debian et Jeedom.\
->Pour installer Jeedom manuellement, il faut se référer à la documentation concernant [l'installation en ligne de commande](./cli).
+>Pour installer Jeedom manuellement sur une machine virtuelle sous Debian, il faut se référer à la documentation concernant [l'installation en ligne de commande](./cli).
 
 ## Création de la VM
 
-Vous avez très certainement un hyperviseur déjà en place pour lire cette documentation. Même si le processus de création d'une machine virtuelle *(VM)* est assez semblable d'une solution à l'autre, il est bien entendu indispensable de suivre la documentation adaptée à votre plateforme pour se faire.
+Vous avez très certainement un hyperviseur déjà en place pour lire cette documentation. Même si le processus de création d'une machine virtuelle *(VM)* est assez semblable d'une solution à l'autre, il est bien entendu indispensable de suivre la documentation adaptée à la plateforme utilisée.
 
 Pour citer quelques hyperviseurs connus à titre d'exemple :
 
