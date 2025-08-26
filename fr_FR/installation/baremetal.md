@@ -13,6 +13,8 @@ La première étape consiste à télécharger l'image système que vous souhaite
 
 - [**Image(s) système Jeedom x86-64**](https://images.jeedom.com/x86-64/){:target="_blank"}
 
+Consulter [**la documentation dédiée**](../compatibility/index.md#images-système-officielles) pour plus de détails sur les images système Jeedom.
+
 ## Gravure de l'image système
 
 Le fichier précédemment téléchargé doit être gravé sur un support duquel la machine est apte à démarrer, comme une clé USB par exemple.
@@ -47,4 +49,4 @@ Différentes options d'installation sont affichées à l'écran après avoir dé
 
 ## Compatibilité matérielle
 
-La liste, non exhaustive, des machines AMD64 supportés par Jeedom est visible dans [la documentation «Compatibilité»](../compatibility/index#Matériels%20supportés)
+La liste, non exhaustive, des machines AMD64 supportés par Jeedom est visible dans [la documentation «Compatibilité»](../compatibility/index#matériels-supportés)

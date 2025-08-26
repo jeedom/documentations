@@ -34,6 +34,8 @@ Avant de démarrer la machine virtuelle, il faut télécharger l'image système 
 
 - [**Image(s) système Jeedom x86-64**](https://images.jeedom.com/x86-64/){:target="_blank"}
 
+Consulter [**la documentation dédiée**](../compatibility/index.md#images-système-officielles) pour plus de détails sur les images système Jeedom.
+
 >**INFORMATION**
 >
 >Certains hyperviseurs permettent de télécharger le fichier image directement en renseignant son lien URL.
@@ -65,4 +67,4 @@ Différentes options d'installation sont affichées à l'écran après avoir dé
 
 ## Compatibilité matérielle
 
-La liste, non exhaustive, des hyperviseurs AMD64 supportés par Jeedom est visible dans [la documentation «Compatibilité»](../compatibility/index#Matériels%20supportés)
+La liste, non exhaustive, des hyperviseurs AMD64 supportés par Jeedom est visible dans [la documentation «Compatibilité»](../compatibility/index#matériels-supportés)

@@ -79,9 +79,10 @@ L'équipe Jeedom développe des images système sur-mesure, à destination de no
 | [Jeedom AMD64](https://images.jeedom.com/x86-64/){:target="_blank"} | [Documentation système mini-pc](../installation/baremetal) ou [Documentation système machine virtuelle](../installation/vm) |
 | [Jeedom Freebox](https://images.jeedom.com/x86-64/){:target="_blank"} | [Documentation système Freebox](../installation/freeboxdelta) |
 
->**Accès SSH**
+>**INFORMATION**
 >
->Identifiants par défaut : `jeedom/Mjeedom96` — mot de passe `root` identique.
+>Les identifiants par défaut de l'**accès SSH** sont : `jeedom/Mjeedom96`. Le mot de passe `root` est identique.\
+>La **clé SHA256**, permettant de vérifier l'intégrité du fichier téléchargé, est disponible dans le fichier `info.json` du même dossier.
 
 ## Equipements compatibles
 

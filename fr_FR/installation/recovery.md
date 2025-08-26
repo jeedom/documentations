@@ -66,9 +66,7 @@ Les images systèmes actuellement fournies par l'équipe Jeedom sont librement c
 - [**Image(s) système Jeedom Smart**](https://images.jeedom.com/smart/){:target="_blank"}
 - [**Image(s) système Jeedom Atlas**](https://images.jeedom.com/atlas/){:target="_blank"}
 
->**INFORMATION**
->
->La clé SHA256, permettant de vérifier l'intégrité du fichier téléchargé, est disponible dans le fichier `info.json` du même dossier.
+Consulter [**la documentation dédiée**](../compatibility/index.md#images-système-officielles) pour plus de détails sur les images système Jeedom.
 
 ### Gravure du support
 
