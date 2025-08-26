@@ -8,7 +8,7 @@ Avant de réinstaller le système, **il est indispensable de télécharger une s
 
 2. Cliquer sur le bouton **Lancer une sauvegarde**.
 
-3. Quand la sauvegarde est terminée, cliquer sur **Télécharger la sauvegarde**.
+3. Quand l'opération est terminée, cliquer sur **Télécharger la sauvegarde**.
 
 ## Restauration système
 

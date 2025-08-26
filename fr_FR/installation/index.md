@@ -5,6 +5,16 @@ Certains plugins peuvent cependant être payants et/ou nécessiter une connexion
 
 Jeedom peut être installé sur tout matériel supportant le système [**Linux Debian en version actuellement recommandée**](../compatibility/index#Debian).
 
+## Sauvegarde de Jeedom
+
+En cas de réinstallation, **il est indispensable de télécharger une sauvegarde récente de Jeedom** qui pourra être restaurée à l'issue de la procédure.
+
+1. Depuis l'interface Jeedom, cliquer sur le menu **Réglages > Système > Sauvegardes**.
+
+2. Cliquer sur le bouton **Lancer une sauvegarde**.
+
+3. Quand l'opération est terminée, cliquer sur **Télécharger la sauvegarde**.
+
 ## Boxes officielles
 
 **Jeedom et Domadoo** développent et commercialisent des boxes officielles « clé en main », avec Jeedom préinstallé sur un système optimisé et incluant des services, des plugins ainsi qu'un support technique renforcé. Les boxes officielles bénéficient également d'un outil de restauration système automatique.
