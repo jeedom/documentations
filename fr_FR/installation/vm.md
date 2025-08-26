@@ -42,7 +42,7 @@ Le fichier image au format `iso` doit ensuite être chargé dans le lecteur opti
 
 >**IMPORTANT**
 >
->En cas de difficultés, se référer à la documentation de l'hyperviseur utilisé.
+>En cas de difficultés, se référer à la documentation de l'hyperviseur.
 
 ## Options d'installation
 
