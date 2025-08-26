@@ -37,7 +37,7 @@ Différentes options d'installation sont affichées à l'écran après avoir dé
 
 {% include lightbox.html src="images/install-menu-amd64.jpg" data="InstallMenuAMD64" title="Menu d'installation Jeedom (AMD64)" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
-- **Install Jeedom (automatic mode)** : **installe le système automatiquement** sans aucune intervention nécessaire. La machine est éteinte à l’issue de l'opération.
+- **Install Jeedom (automatic mode)** : **installe le système automatiquement** sans aucune intervention nécessaire. La machine est éteinte à la fin de l'opération.
   >**IMPORTANT**
 	>
 	>Ce mode est exécuté par défaut au bout de 60 secondes, **l'installation peut donc être réalisée sans brancher d'écran**.
