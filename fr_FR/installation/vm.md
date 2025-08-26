@@ -38,7 +38,7 @@ Avant de démarrer la machine virtuelle, il faut télécharger l'image système 
 >
 >Consulter [**la documentation dédiée**](../compatibility/index#images-système-officielles) pour plus de détails sur les images système Jeedom.
 
-Le fichier image au format `iso` doit ensuite être chargé dans le lecteur optique *(CD/DVD)* émulé par la machine virtuelle.
+Le fichier image au format `iso` doit ensuite être chargé dans le lecteur optique *(CD/DVD)* émulé par la machine virtuelle, lui-même placé en première position dans l'ordre de démarrage.
 
 >**IMPORTANT**
 >
