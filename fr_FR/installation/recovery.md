@@ -30,7 +30,7 @@ La procédure peut directement être effectuée depuis Jeedom en cliquant sur le
 
 ### Mode automatique
 
-Dans ce mode l'ensemble de la procédure est réalisé de manière entièrement automatique sans avoir besoin de toucher à la box.
+Dans ce mode l'ensemble de la procédure est réalisé de manière entièrement automatique sans avoir besoin d'accéder physiquement à la box.
 
 Après avoir cliqué sur le bouton **Restauration automatique**, la dernière image système est directement téléchargée depuis nos serveurs vers le support de stockage interne. L'intégrité de l'image est vérifiée puis le fichier est renommé.
 
