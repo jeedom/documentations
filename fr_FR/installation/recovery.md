@@ -12,7 +12,9 @@ Avant de réinstaller le système, **il est indispensable de télécharger une s
 
 ## Restauration système
 
-**Depuis la version 4.4.20, Jeedom intègre une fonctionnalité de restauration système automatique initiée juste avant le démarrage du système**. Le processus dure environ vingt minutes durant lesquelles le système est inaccessible. A l’issue, le système se lance une première fois avant de redémarrer automatiquement pour devenir finalement visible sur le réseau et accessible. Sur Smart, il est possible de suivre l'évolution en branchant un écran.
+**Depuis la version 4.4.20, Jeedom intègre une fonctionnalité de restauration système automatique initiée juste avant le démarrage du système**. Le processus dure environ vingt minutes durant lesquelles le système est inaccessible.
+
+A l’issue, le système se lance une première fois avant de redémarrer automatiquement pour devenir finalement visible sur le réseau et accessible. Sur Smart, il est possible de suivre l'évolution en branchant un écran.
 
 >**INFORMATION**
 >
