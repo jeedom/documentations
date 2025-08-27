@@ -82,10 +82,13 @@ L'équipe Jeedom développe des images système sur-mesure à destination de nom
 | [Hyperviseurs](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation sur machine virtuelle](../installation/vm) |
 | [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [Installation sur Freebox](../installation/freeboxdelta) |
 
->**INFORMATION**
->
->Les identifiants par défaut de l'**accès SSH** sont : `jeedom/Mjeedom96`. Le mot de passe `root` est identique.\
->La **clé SHA256**, permettant de vérifier l'intégrité du fichier téléchargé, est disponible dans le fichier `info.json` du même dossier.
+### Vérification du fichier
+
+La **clé SHA256**, permettant de vérifier l'intégrité du fichier téléchargé, est consultable dans le fichier `info.json` du même dossier.
+
+### Accès SSH
+
+Les identifiants, par défaut, pour l'**accès SSH** sont : `jeedom/Mjeedom96`. Le mot de passe `root` est identique.
 
 ## Equipements compatibles
 
