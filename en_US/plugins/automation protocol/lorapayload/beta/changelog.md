@@ -5,6 +5,8 @@
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
 # 
+- Correction d'envoie des downlinks dans une liste déroulante
+
 - 
 
 # 22/08/2025

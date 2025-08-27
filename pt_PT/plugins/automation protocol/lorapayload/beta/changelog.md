@@ -5,6 +5,8 @@
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
 # 
+- Correction d'envoie des downlinks dans une liste déroulante
+
 - 
 
 # 22/08/2025
