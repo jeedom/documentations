@@ -60,6 +60,10 @@ Le système est mis à jour au démarrage si la clé USB préparée est branché
 >
 >Un fichier `JeedomSystemUpdate.log` est créé sur la clé USB durant le processus afin de ne pas mettre le système à jour en boucle. Il faut supprimer ce fichier pour relancer la mise à jour du système *(sur une box identique avec la même clé USB par exemple)*.
 
+### Logs
+
+Les détails de la procédure sont visibles dans le menu **Analyse > Logs**, section **recovery**.
+
 ## Images système
 
 Les images systèmes actuellement fournies par l'équipe Jeedom sont librement consultables et téléchargeables aux adresses suivantes en fonction du matériel concerné :
@@ -74,7 +78,3 @@ Les images systèmes actuellement fournies par l'équipe Jeedom sont librement c
 ### Gravure eMMC Smart
 
 **Sur Smart**, l'image système peut directement être écrite sur le support eMMC détachable. Consultez la documentation [**Guides > Tutoriaux > Remise en état d'usine Smart**](../howto/smart) pour plus de détails.
-
-## Logs
-
-Les détails de la restauration système sont visibles dans le menu **Analyse > Logs**, section **recovery**.
