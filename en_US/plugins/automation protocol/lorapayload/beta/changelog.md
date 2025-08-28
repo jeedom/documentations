@@ -4,10 +4,23 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+# )
+-  *WT304-868M - SMART FAN COIL THERMOSTAT*
+
+
 # 
 - Correction d'envoie des downlinks dans une liste déroulante
 
+- Correction de la fonction readAllMarques en PHP8
+
 - 
+
+-  
+
+- 
+
+-  *WT304-868M - SMART FAN COIL THERMOSTAT*
+
 
 # 22/08/2025
 - Mise à jour du champs création automatique (séparation des fabricants et des modèles)
