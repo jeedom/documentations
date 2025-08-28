@@ -62,7 +62,7 @@ Le système est mis à jour au démarrage si la clé USB préparée est branché
 
 ### Logs
 
-Les détails de la procédure sont visibles dans le menu **Analyse > Logs**, section **recovery**.
+Le détail des opérations effectuées par l'utilitaire de restauraton système sont visibles dans le menu **Analyse > Logs**, section **recovery**.
 
 ## Images système
 
@@ -78,3 +78,7 @@ Les images systèmes actuellement fournies par l'équipe Jeedom sont librement c
 ### Gravure eMMC Smart
 
 **Sur Smart**, l'image système peut directement être écrite sur le support eMMC détachable. Consultez la documentation [**Guides > Tutoriaux > Remise en état d'usine Smart**](../howto/smart) pour plus de détails.
+
+## Première connexion
+
+Consulter la documentation relative à la [**première connexion**](../premiers-pas/index#première-connexion) pour accéder à l'interface Jeedom suite à l'installation.

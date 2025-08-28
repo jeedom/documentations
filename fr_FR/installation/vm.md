@@ -62,7 +62,10 @@ Différentes options d'installation sont affichées à l'écran après avoir dé
 	>
 	>Cette fonctionnalité est accessible à partir de Debian 12 Bookworm.
 
-
 ## Compatibilité matérielle
 
 La liste, non exhaustive, des hyperviseurs supportés par Jeedom est visible dans [la documentation **Compatibilité**](../compatibility/index#matériels-supportés)
+
+## Première connexion
+
+Consulter la documentation relative à la [**première connexion**](../premiers-pas/index#première-connexion) pour accéder à l'interface Jeedom suite à l'installation.
