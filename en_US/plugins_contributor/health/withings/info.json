@@ -8,6 +8,7 @@
 	"require" : "3.2",
 	"category" : "health",
 	"display" : "panel",
+    "mobile": "panel",
 	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
  	"documentation" : "http://mika-nt28.github.io/Documentations/withings/#language#",
 	"changelog" : "https://mika-nt28.github.io/Documentations/withings/#language#/changelog"
