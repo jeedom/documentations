@@ -22,15 +22,11 @@ Nos recommandations vont dépendre de différents facteurs :
 >
 >Le support officiel concerne uniquement l’instance Jeedom. Seules les boxes officielles bénéficient également du support système.
 
-Liste, par catégorie et non exhaustive, des **matériels identifiés comme supportés** par Jeedom en version stable :
-
 | Boxes officielles      | Nano-ordinateurs       | Ordinateurs            | Hyperviseurs           |
 |------------------------|------------------------|------------------------|------------------------|
 | Smart, Atlas, Luna     | Odroid C2, Rock Pi Série 4, Raspberry Pi3/4 et assimilés | Systèmes 64 bits, Mini-PCs *(NUC)*, Processeur Intel® N100 | Systèmes 64 bits, VirtualBox, VMware, Proxmox, Hyper-V, Freebox |
 
 ### Matériels non supportés
-
-Liste, par catégorie et non exhaustive, des **matériels identifiés comme non suppportés** par Jeedom en version stable :
 
 | Boxes officielles      | Nano-ordinateurs       | Ordinateurs            | Hyperviseurs           |
 |------------------------|------------------------|------------------------|------------------------|
@@ -85,6 +81,10 @@ L'équipe Jeedom développe des images système sur-mesure à destination de nom
 ### Vérification du fichier
 
 La **clé SHA256**, permettant de vérifier l'intégrité du fichier téléchargé, est consultable dans le fichier `info.json` du même dossier.
+
+### Première connexion
+
+Consulter la documentation relative à la [**première connexion**](../premiers-pas/index#première-connexion) pour accéder à l'interface Jeedom suite à l'installation.
 
 ### Accès SSH
 

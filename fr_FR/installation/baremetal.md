@@ -1,8 +1,9 @@
 # Installation sur PC/mini-PC
 
+La procédure suivante est basée sur l'utilisation d'un fichier d'image système incluant Debian et Jeedom préinstallé.
+
 >**INFORMATION**
 >
->La procédure suivante est basée sur l'utilisation d'un fichier d'image système incluant Debian et Jeedom.\
 >Pour installer Jeedom manuellement sur un sytème Debian, il faut se référer à la documentation concernant [l'installation en ligne de commande](./cli).
 
 ## Téléchargement de l'image système

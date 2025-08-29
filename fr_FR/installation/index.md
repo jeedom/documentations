@@ -44,7 +44,7 @@ Vous souhaitez installer Jeedom :
 - [sur une **Freebox Delta**](./freeboxdelta)
 - [dans un **conteneur LXC Proxmox**](https://community-scripts.github.io/ProxmoxVE/scripts?id=jeedom){:target="_blank"}
 - [dans un **conteneur Docker**](./docker) *(non recommandé)*
-- [en **ligne de commande**](./cli)
+- [en **ligne de commande**](./cli) *(utilisateurs avancés)*
 
 ## Premiers pas avec Jeedom
 
