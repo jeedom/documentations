@@ -32,7 +32,7 @@ En cas de réinstallation, **il est indispensable de télécharger une sauvegard
 
 ## Procédure détaillée
 
-Quel que soit le matériel choisi pour déployer votre instance Jeedom, vous trouverez la documentation d'installation détaillée correspondante.
+Quel que soit le support choisi pour déployer votre instance Jeedom, vous trouverez la documentation d'installation détaillée correspondante.
 
 Vous souhaitez installer Jeedom :
 
@@ -45,6 +45,10 @@ Vous souhaitez installer Jeedom :
 - [dans un **conteneur LXC Proxmox**](https://community-scripts.github.io/ProxmoxVE/scripts?id=jeedom){:target="_blank"}
 - [dans un **conteneur Docker**](./docker) *(non recommandé)*
 - [en **ligne de commande**](./cli) *(utilisateurs avancés)*
+
+## Compatibilité matérielle
+
+La liste, non exhaustive, des matériels supportés par Jeedom est visible dans [la documentation **Compatibilité**](../compatibility/index#matériels-supportés)
 
 ## Premiers pas avec Jeedom
 
