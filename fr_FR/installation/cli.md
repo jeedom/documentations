@@ -48,7 +48,7 @@ Une fois connecté au système avec un utilisateur bénéficiant des droits `sud
 >
 >Cette section est réservée aux utilisateurs bénéficiant d'une certaine expertise.
 
-Le script d'installation de Jeedom dispose de différentes options permettant de personnaliser votre instance Jeedom :
+Le script d'installation Jeedom dispose de différentes options permettant de personnaliser chaque instance :
 
 - **Base de donnée** (`-d`) : installe ou non la base de données gérée par Jeedom *(`1` par défaut)*
 - **Type d'installation** (`-i`) : Définit le type d'installation *(`standard` par défaut)*
