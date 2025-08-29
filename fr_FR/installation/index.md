@@ -7,7 +7,7 @@ Jeedom peut être installé sur tout matériel supportant le système [**Linux D
 
 ## Sauvegarde de Jeedom
 
-En cas de réinstallation, **il est indispensable de télécharger une sauvegarde récente de Jeedom** qui pourra être restaurée à l'issue de la procédure.
+En cas de réinstallation, **il est indispensable de télécharger une sauvegarde récente de Jeedom** qui pourra être restaurée à l'issue de la procédure :
 
 1. Depuis l'interface Jeedom, cliquer sur le menu **Réglages > Système > Sauvegardes**.
 

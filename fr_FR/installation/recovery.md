@@ -2,7 +2,7 @@
 
 ## Sauvegarde de Jeedom
 
-Avant de réinstaller le système, **il est indispensable de télécharger une sauvegarde récente de Jeedom** qui pourra être restaurée à l'issue de la procédure.
+Avant de réinstaller le système, **il est indispensable de télécharger une sauvegarde récente de Jeedom** qui pourra être restaurée à l'issue de la procédure :
 
 1. Depuis l'interface Jeedom, cliquer sur le menu **Réglages > Système > Sauvegardes**.
 
