@@ -22,7 +22,7 @@ Pensez à vérifier [**la version de Debian actuellement prise en charge**](../c
 
 Afin de procéder à l'installation de Jeedom, il est nécessaire de se connecter à la console système selon la méthode la plus adaptée à votre situation *(ssh, clavier/écran, écran virtuel)*.
 
-Une fois connecté au système avec un utilisateur bénéficiant des droits `sudo`, il suffit de taper ces 3 commandes :
+Une fois connecté au système avec un utilisateur bénéficiant des droits `sudo`, il suffit d'entrer ces 3 commandes :
 
 1. Télécharger le script d'installation :
     ```sh
