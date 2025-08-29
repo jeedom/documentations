@@ -20,7 +20,7 @@ Nos recommandations vont dépendre de différents facteurs :
 
 >**IMPORTANT**
 >
->Le support officiel concerne uniquement l’instance Jeedom. Seules les boxes officielles bénéficient également du support système.
+>Le support officiel concerne uniquement l’instance Jeedom. Seules les boxes officielles bénéficient également du support système *(hors modifications)*.
 
 | Boxes officielles      | Nano-ordinateurs       | Ordinateurs            | Hyperviseurs           |
 |------------------------|------------------------|------------------------|------------------------|
