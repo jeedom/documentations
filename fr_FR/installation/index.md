@@ -3,7 +3,9 @@
 **Jeedom est un logiciel qui est, et restera, open source**. Son utilisation est entièrement gratuite et ne requiert aucun service cloud ou abonnement pour fonctionner.
 Certains plugins peuvent cependant être payants et/ou nécessiter une connexion internet, [**la liste complète des plugins disponibles est consultable sur le Market Jeedom**](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin){:target="_blank"}.
 
-Jeedom peut être installé sur tout matériel supportant le système [**Linux Debian en version actuellement recommandée**](../compatibility/index#Debian).
+## Compatibilité
+
+Jeedom peut être installé sur [tout matériel supporté](../compatibility/index#matériels-supportés) prenant en charge le système [**Linux Debian en version actuellement recommandée**](../compatibility/index#Debian).
 
 ## Sauvegarde de Jeedom
 
@@ -45,10 +47,6 @@ Vous souhaitez installer Jeedom :
 - [dans un **conteneur LXC Proxmox**](https://community-scripts.github.io/ProxmoxVE/scripts?id=jeedom){:target="_blank"}
 - [dans un **conteneur Docker**](./docker) *(non recommandé)*
 - [en **ligne de commande**](./cli) *(utilisateurs avancés)*
-
-## Compatibilité matérielle
-
-La liste, non exhaustive, des matériels supportés par Jeedom est visible dans [la documentation **Compatibilité**](../compatibility/index#matériels-supportés)
 
 ## Premiers pas avec Jeedom
 
