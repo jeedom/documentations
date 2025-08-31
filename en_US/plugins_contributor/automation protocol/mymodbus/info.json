@@ -7,7 +7,7 @@
 		"es_ES": "Lectura y escritura Modbus",
 		"de_DE": "Lesen und Schreiben in Modbus"
 	},
-	"licence": "AGPL",
+	"licence": "GPL",
 	"author": "Michel_F",
 	"require": "4.4",
 	"os": {
@@ -20,11 +20,8 @@
 	"maxDependancyInstallTime": 60,
 	"changelog": "https://mrwaloo.github.io/jeedom-plugins-doc/#language#/mymodbus_changelog",
 	"documentation": "https://mrwaloo.github.io/jeedom-plugins-doc/#language#/mymodbus_doc",
-	"changelog_beta": "https://mrwaloo.github.io/jeedom-plugins-doc/#language#/mymodbus_changelog",
-	"documentation_beta": "https://mrwaloo.github.io/jeedom-plugins-doc/#language#/mymodbus_doc",
 	"link": {
-		"forum": "https://community.jeedom.com/tag/plugin-mymodbus",
-		"video": ""
+		"forum": "https://community.jeedom.com/tag/plugin-mymodbus"
 	},
 	"language": [
 		"de_DE",
