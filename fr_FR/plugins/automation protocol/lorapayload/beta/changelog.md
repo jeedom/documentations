@@ -3,8 +3,10 @@
 >**IMPORTANT**
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+# 01/09/2025 (Bêta)
+- Correction  du downlink de la commande child_lock_settings pour produit *WT304-868M - SMART FAN COIL THERMOSTAT*
 
-# 29/08/2025 (Bêta)
+# 29/08/2025
 - Ajout du downlink de la commande Heating Target Temperature Range et Cooling Target Temperature Range pour produit *WT304-868M - SMART FAN COIL THERMOSTAT*
 
 - Ajout du produit *AM307L - Ambience Monitoring Sensors*

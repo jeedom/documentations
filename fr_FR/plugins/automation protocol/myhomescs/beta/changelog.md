@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 01/09/2025
+
+- Passage en stable *(rappel : Debian 11 et Jeedom 4.4 mini)*
+
 # 25/02/2025
 
 - Corrections de bugs
@@ -27,3 +31,4 @@
 -Modification du logicalID (concatenation du A et du PL). Plus de PL dans les commandes
 
 # V0.002 du 21/11/2017
+

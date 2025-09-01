@@ -3,11 +3,13 @@
 >**WICHTIG**
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
-
 # )
+-  *WT304-868M - SMART FAN COIL THERMOSTAT*
+
+# 
 - Ajout du downlink de la commande Heating Target Temperature Range et Cooling Target Temperature Range pour produit *WT304-868M - SMART FAN COIL THERMOSTAT*
 
-- Ajout du produit **
+- Ajout du produit *AM307L - Ambience Monitoring Sensors*
 
 
 # 28/08/2025

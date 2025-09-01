@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 
+
+-  *( : .)*
+
 # 25/02/2025
 
 - Corrections de bugs
@@ -27,3 +31,4 @@
 -Modificación de Id. Lógico (concatenación de A y PL). Más PL en pedidos
 
 # V0.002 del 21/11/2017
+

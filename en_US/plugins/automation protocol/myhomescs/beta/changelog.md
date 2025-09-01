@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 
+
+-  *( : .)*
+
 # 25/02/2025
 
 - Corrections de bugs
@@ -27,3 +31,4 @@
 -Modification of logicalID (concatenation of A and PL). More PL in orders
 
 # V0.002 of 21/11/2017
+
