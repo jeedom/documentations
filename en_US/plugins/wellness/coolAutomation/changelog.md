@@ -9,6 +9,7 @@
 # 06/19/2024
 
 - Fix Administrator min/max temperature management
+- Added Min/Max management by Master
 - Deleting obsolete commands when updating the plugin
 
 

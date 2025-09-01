@@ -4,10 +4,17 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 
+
+- Ajout du hub Superior Hub Hybrid (4G)
+
+# 17/06/2025
+
+- Ajout du waterstop
 - Bessere Verwaltung von Cloud-Anfragen
 - Ereigniscodes zur Fernbedienung hinzugefügt (Raumsteuerung))
-- 
-- 
+- Ajout de FireProtect2PlusSb
+- Ajout de KeypadTouchscreen
 
 # 07.09.2024
 

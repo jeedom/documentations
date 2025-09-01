@@ -4,14 +4,11 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# 
-
--  **** 
-
-# 27/12/2024
+# 28/02/2025
 
 - Corrija um vazamento de memória no daemon
 - Corrigir um problema ao instalar dependências que poderiam ocorrer em determinadas instalações
+- Suppression de **l'installation** de 2 dépendances (`pycrypto` & `asn1crypto`) qui ne sont plus utiles pour le plugin
 - Modernização da interface
 - Debian 11 necessário
 - Compatibilidade com Debian 12

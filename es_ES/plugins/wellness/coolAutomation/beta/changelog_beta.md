@@ -6,6 +6,27 @@
 >Si no hay información sobre la actualización, significa que solo se trata de actualización de documentación, traducción o texto.
 
 
+# 
+
+- 
+
+# 14/08/2025
+
+- Optimisation appels API
+- Ajout Consigne Min & Max pour Mode Chaude et Froid
+
+# 08/08/2025
+- Ajout système de queues pour l'execution des commandes
+- Redémarrage démon tous les 2 jours pour libération éventuelle de mémoire
+
+# 17/07/2025
+- Fix Telnetlib3 pour debian 12
+
+
+# 02/07/2025
+- Fix double appel requetes
+- Fix code erreur
+
 # 24/07/2024
 - Selección de interfaz de red agregada para escanear
 

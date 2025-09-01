@@ -5,9 +5,9 @@
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
 
-# 
+# 06/02/2025
 
-- 
+- Fix error NameCmd
 
 
 # 11/08/2024

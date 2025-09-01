@@ -4,8 +4,20 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, handelt es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text.
 
+# 10/07/2025
+
+- Ajout d'un healthcheck dans le démon pour vérifier que celui-ci est toujours connecté aux hubs et s'y reconnecter si besoin
+- Fix un crash au démarrage du démon dans le cas où un hub est mal configuré ou non-joignable: le démon pourra démarrer avec les autres hubs s'ils existent ou s'arrêtera proprement si aucun hub n'est joignable
+- 
+
+# 30/04/2025
+
+- Fix un problème sur le lancement de commandes pour certaines installations (hub inconnu) suite à la version du 28/04
+
+# 28/04/2025
+
 > Attention
-> Bedeutende Neugestaltung des Plugins: Das Plugin wurde komplett neu geschrieben, einschließlich der Kommunikation mit dem Harmony-Hub (jetzt über Daemon))
+> Bedeutende Neugestaltung des Plugins: le plugin a été entièrement réécrit y compris la communication avec le hub Harmony (via démon à présent)
 >
 > Erfordert Jeedom 4.4.8
 >
@@ -15,16 +27,6 @@
 >
 > Siehe auch [dieses Thema auf Community](https://community.jeedom.com/t/importante-mise-a-jour-pour-debian-11-et-debian-12/129908) für weitere Details
 
-## 
-
-- 
-
-# 25.11.2024
-
-- Korrigieren Sie die Version einer Abhängigkeit, um eine Breaking Change zu vermeiden (async-timeout v5 Break Timeout-Kontext))
-
-# 28.08.2024
-
 - Komplette Neufassung des Plugins
 - Verwenden der Kernabhängigkeitsinstallationsmethode
 - Ändern der Bibliothek zur Kommunikation mit dem Harmony-Hub, um eine Bibliothek mit besserer Nachverfolgung zu verwenden
@@ -33,6 +35,7 @@
   - um Status-Feedback in Echtzeit zu erhalten
 - Vereinfachte Konfiguration: Es bleibt nur noch die Konfiguration der Hub-IP in die Plugin-Konfiguration einzutragen und den Daemon zu starten und schon synchronisiert sich das Gerät mit Jeedom.
 - Bestellung hinzufügen **Aktivität starten** Gibt die Aktivität an, die gestartet wird (leer, wenn keine Aktivität vorhanden ist))
+- Bloque la version d'une dépendance pour éviter un breaking change (async-timeout v5 break timeout context)
 
 # 17.09.2023
 

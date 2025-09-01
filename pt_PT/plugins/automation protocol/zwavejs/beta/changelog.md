@@ -4,13 +4,47 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-- Mudar para a versão *9.26.0* por ZwaveJsUI
-- Adicionado modo remoto *(Attention: isso reduz a funcionalidade do plugin)*. Leia atentamente a documentação, mudar para o modo remoto tem um forte impacto na facilidade de uso e na compatibilidade de determinados módulos
-- Suporte ao protocolo mqtts
+# 24/06/2025
+
+- Correction d'un bug qui se produisait sous PHP8 lors de la création des commandes manquantes.
+
+# 10/06/2025- Fixe de la configuration *Mco Home MH-S412 double*
+
+# 10/06/2025
+
+- Mise à jour de la configuration *Mco Home MH-S412 double*
+
+# 05/06/2025
+
+- Ajout de la procédure d'intégration
+
+**Ajouts de Configuration**
+
+- Configuração adicionada *Shelly Qubino WAVE_PM_MINI - WAVE PM Mini - Relay* (propriedades : Power, Energy, Notification Over-Current, Notification Over-Voltage, Notification Heat-Sensor, Notification Alarm-Level, Notification Mains, Indicator)
+- Configuração adicionada *Zooz ZAC38 - ZAC38 - Range extender* (propriedades : Switch, Notification Alarm-Level, Notification Mains, Indicator, Battery)
+
+# 04/06/2025
+
+**Ajouts de Configuration**
+
+- Configuração adicionada *Mco Home MH-S411 Simple* (propriedades : Switch, Scene, Central Scene)
+- Configuração adicionada *Remotec ZXT-800* (propriedades : Air temperature, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Thermostatfanmode, Indicator)
+- Configuração adicionada *Shelly Qubino Wave 1PM Mini QMSW-0A1P8* (propriedades : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor, Notification Alarm-Level)
+- Configuração adicionada *Shelly Qubino Wave 1 Mini QMSW-0A1X8* (propriedades : Switch, Notification Mains, Notification Heat-Sensor, Notification Alarm-Level)
+- Configuração adicionada *Heatit Thermostat Z-TEMP3* (propriedades : Air temperature, Humidity, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Battery, Indicator)
+- Configuração adicionada *Zooz ZEN15 - Power Switch* (propriedades : Switch, Notification Alarm-Level, Notification Power-Status, Scene, Indicator, Voltage, Power, Energy, Current)
+- Configuração adicionada *Zooz ZEN54_LR - 0-10V Dimmer* (propriedades : Multilevel, Indicator)
+- Configuração adicionada *Zooz ZES11 - ZSE 11 - Q SENSOR* (propriedades : Motion, Temperature, Luminance, Humidity, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Battery-Maintenance, Indicator)
+- Configuração adicionada *Zooz ZES18 - ZSE 18 - MOTION SENSOR* (propriedades : Motion, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Magnetic, Indicator)
 
 # 15/11/2024
 
+- Mudar para a versão *9.26.0* por ZwaveJsUI
 - Corrigir método de instalação de dependência
+
+# 10/11/2024
+
+- Suporte ao protocolo mqtts
 
 # 27/09/2024
 
@@ -21,7 +55,6 @@
 **Melhorias**
 
 - Mudar para a versão *9.20.0* por ZwaveJsUI
-- Preparando-se para integrar o modo remoto
 - Limpeza de código
 
 **Adições de configuração**

@@ -1,0 +1,36 @@
+{
+    "id": "aristonBoiler",
+    "name": "AristonECS",
+    "pluginVersion": "0.1",
+    "description": {
+        "fr_FR": "Permet de piloter un ballon d'eau chaude Ariston connecté via l'API Web. Fonctionne actuellement uniquement avec le ballon principal configuré sur l'interface Ariston."
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2",
+    "os": {
+        "min": 10,
+        "max": 12.99
+    },
+    "category": "wellness",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 0,
+    "changelog_beta": "https://doc.jeedom.com/#language#/plugins/wellness/aristonBoiler/beta/changelog",
+    "changelog": "https://doc.jeedom.com/#language#/plugins/wellness/aristonBoiler/changelog",
+    "documentation_beta": "https://doc.jeedom.com/#language#/plugins/wellness/aristonBoiler/beta",
+    "documentation": "https://doc.jeedom.com/#language#/plugins/wellness/aristonBoiler",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES"
+    ],
+    "compatibility": [
+        "smart",
+        "luna",
+        "atlas",
+        "rpi",
+        "docker",
+        "diy"
+    ]
+}

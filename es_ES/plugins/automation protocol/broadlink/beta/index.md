@@ -35,3 +35,33 @@ Puede elegir los pedidos a transferir, así como los enlaces amplios a los que d
 >**INFORMACIÓN**
 >
 >Si agrega manualmente su dispositivo porque no se detectó automáticamente. La dirección MAC que se debe ingresar es la dirección MAC inversa por paquete de dos en minúsculas sin los dos puntos *(ejemplo AA:BB:CC:DD:EE se convierte en eeddccbbaa)*.
+
+# FAQ
+
+## 
+
+()
+
+:
+
+.
+
+. En effet j'ai pas mal galéré avant de trouver ça, impossible de faire apprendre les commandes RF par le plugin… Dans l'appli, sélectionner votre passerelle, puis « … » en haut à droite, décocher « Verrouiller l'appareil ». .
+
+).  : .
+
+:
+
+- 
+- 
+- 
+- 
+- 
+- .)
+- Vous avez 30s pour cliquer sur « Apprendre commande RF avancée » (plugin jeedom) puis le bouton de la télécommande (plusieurs fois jusqu'à détection)
+- 
+
+)
+. ()
+
+ !

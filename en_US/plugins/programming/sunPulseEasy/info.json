@@ -1,0 +1,56 @@
+{
+    "id": "sunPulseEasy",
+    "name": "sunPulseEasy",
+    "pluginVersion": "0.1",
+    "description": {
+        "fr_FR": "Wizard de configuration pour les installateurs",
+        "en_US": "Wizard de configuration pour les installateurs",
+        "es_ES": "Wizard de configuration pour les installateurs",
+        "de_DE": "Wizard de configuration pour les installateurs",
+        "ru_RU": "Wizard de configuration pour les installateurs",
+        "id_ID": "Wizard de configuration pour les installateurs",
+        "it_IT": "Wizard de configuration pour les installateurs",
+        "ja_JP": "Wizard de configuration pour les installateurs",
+        "pt_PT": "Wizard de configuration pour les installateurs",
+        "tr": "Wizard de configuration pour les installateurs"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2",
+    "os": {
+        "min": 10,
+        "max": 12.99
+    },
+    "category": "programming",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/sunPulseEasy\/beta\/changelog",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/sunPulseEasy\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/sunPulseEasy\/beta",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/sunPulseEasy",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "smart",
+        "luna",
+        "atlas",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile"
+    ]
+}

@@ -4,6 +4,29 @@
 >
 > Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+
+# 
+
+- 
+
+# 18/06/2025
+
+- Ajout alerte si api mobile désactivée ou IP blanche
+
+# 25/04/2025
+
+- Ajout pour Max 8 Icones sur le menuCustom
+
+
+# 24/04/2025
+
+- Ajout Commande Notifications Silencieuses pour Builds : IOS 491 et Android 875
+
+
+# 11/04/2025
+
+- Ajout paramètre Envoi NFC Direct au plugin après lecture
+
 # xx/08/2024
 
 > **Aplicación V1**

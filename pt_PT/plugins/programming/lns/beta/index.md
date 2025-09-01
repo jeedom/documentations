@@ -20,3 +20,40 @@ Este plugin permite que você instale e configure um Chirpstack V3 na caixa Jeed
 7- Abra o Chirpstack.
 
 8- Criação automática no CS - insira os identificadores CS para criar no Chirpstack o Servidor de Rede, Perfil de Serviço, Gateway, Perfil de Dispositivo (classe A e classe C).
+
+# 
+)
+
+    - 
+![alt text](image-5.png)
+ :
+
+
+)
+
+
+![alt text](image-6.png)
+
+)
+)
+![alt text](image-7.png)
+
+# Panel
+
+##  ?
+
+-  **** ( ****.
+-  :
+  -  **** .
+
+- .
+![alt text](image-3.png)
+
+---
+## 
+
+-  :
+![alt text](image-4.png)
+![alt text](image-8.png)
+---
+

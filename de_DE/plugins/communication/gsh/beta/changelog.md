@@ -4,10 +4,17 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 
+
+- 
+- 
+- Fehlerbehebung für PHP8
+- 
+
 # 11.06.2024
 
--  Fehlerbehebung für PHP8
--  Bessere Modusverwaltung
+- Fehlerbehebung für PHP8
+- Bessere Modusverwaltung
 
 # 24.10.2024
 

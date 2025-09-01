@@ -1,0 +1,39 @@
+{
+	"id": "nhc",
+	"name": "Niko Home Control",
+	"pluginVersion": "0.1",
+	"description": {
+		"fr_FR": "Ce plugin permet de piloter les équipements de votre installation Niko Home Control. Il utilise l'API locale (Hobby API) fournie par Niko, qui communique via le protocole MQTT."
+	},
+	"licence": "AGPL",
+	"author": "smn-btn",
+	"require": "4.2",
+	"os" : {
+		"min" : 10,
+		"max" : 12.99
+	},
+	"category": "home automation protocol",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 10,
+	"changelog_beta": "https://github.com/smn-btn/jeedom_nikoHomeControl/blob/main/docs/#language#/changelog_beta.md",
+	"changelog": "https://github.com/smn-btn/jeedom_nikoHomeControl/blob/main/docs/#language#/changelog.md",
+	"documentation_beta": "https://github.com/smn-btn/jeedom_nikoHomeControl/blob/main/docs/#language#/index.md",
+	"documentation": "https://github.com/smn-btn/jeedom_nikoHomeControl/blob/main/docs/#language#/index.md",
+	"link": {
+		"forum": "",
+		"video": ""
+	},
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"smart",
+		"luna",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile"
+	]
+}

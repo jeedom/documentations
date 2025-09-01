@@ -20,3 +20,40 @@ This plugin allows you to install and configure a Chirpstack V3 on the Jeedom bo
 7- Open Chirpstack.
 
 8- Automatic creation in CS - enter the CS identifiers in order to create in Chirpstack the Network Server, Service Profile, Gateway, Device Profile (class A and class C).
+
+# 
+)
+
+    - 
+![alt text](image-5.png)
+ :
+
+
+)
+
+
+![alt text](image-6.png)
+
+)
+)
+![alt text](image-7.png)
+
+# Panel
+
+##  ?
+
+-  **** ( ****.
+-  :
+  -  **** .
+
+- .
+![alt text](image-3.png)
+
+---
+## 
+
+-  :
+![alt text](image-4.png)
+![alt text](image-8.png)
+---
+

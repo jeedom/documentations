@@ -20,3 +20,40 @@ Ce plugin permet d'installer et de configurer un Chirpstack V3 sur la box Jeedom
 7- Ouvrir Chirpstack.
 
 8- Création automatique dans CS - renseigner les identifiants CS afin de créer dans Chirpstack le Network Server, Service Profile, Gateway, Device Profile (class A et class C).
+
+# Installation du plugin LNS - Jeedom
+1. Plugins > Gestion des plugins > Market > LNS (installer version stable)
+2. Plugins > Gestion des plugins > LNS
+    - Installer les dépendances
+![alt text](image-5.png)
+ii. Suivre les 6 étapes suivantes :
+1. Importer la configuration de MQTT2
+2. Cocher Installer Gateway Bridge (dans le cas d’une Jeedom
+Luna Lora)
+3. Sauvegarder
+4. Modifier la configuration de CS
+![alt text](image-6.png)
+5. Création automatique dans Chirsptack (Gateway, Device
+Profile, Application)
+6. Ouvrir Chirpstack (vérification)
+![alt text](image-7.png)
+
+# Panel
+
+## Qu’est-ce que le panel LNS ?
+
+- Le **panel LNS** (LoRaWAN Network Server) est une interface disponible dans Jeedom qui **centralise les informations des getways venant de votre réseau LoRaWAN**.
+- Il affiche :
+  - La liste **complète des gateways connectées** au serveur LNS leurs statuts en temps réel.
+
+- Pour l'afficher, il faut se rendre dans la configuration du plugin LNS, elle se trouve en bas a droite.
+![alt text](image-3.png)
+
+---
+## Visualisation dans Jeedom
+
+- Accède à ces panels depuis l’interface Jeedom :
+![alt text](image-4.png)
+![alt text](image-8.png)
+---
+

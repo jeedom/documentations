@@ -4,14 +4,11 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# 08/02/2025
-
-- Suppression de **l'installation** de 2 dépendances (`pycrypto` & `asn1crypto`) qui ne sont plus utiles pour le plugin
-
-# 27/12/2024
+# 28/02/2025
 
 - Fix une fuite de mémoire sur le démon
 - Fix un soucis d'installation de dépendances qui pouvait se produire sur certaines installations
+- Suppression de **l'installation** de 2 dépendances (`pycrypto` & `asn1crypto`) qui ne sont plus utiles pour le plugin
 - Modernisation de l'interface
 - Debian 11 requis
 - Compatibilité Debian 12

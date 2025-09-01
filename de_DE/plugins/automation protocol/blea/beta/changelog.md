@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 
+
+- 
+- 
+
 # 22.09.2024
 
 - Es wurde ein Problem beim Neustart des Daemons in der Nacht behoben, das möglicherweise nicht immer korrekt startete
@@ -14,7 +19,7 @@
 
 # 29.06.2024
 
-- Ein Fehler in der Ajax-Ausnahmefunktion wurde behoben.
+- .
 
 # 04/06/2021
 
@@ -27,22 +32,27 @@
 - Hinzufügung des Tags "V4-Kompatibilität"
 
 # 30.08.2019
+
 - Hinzufügung eines außergewöhnlichen Managements
 
 # 22.08.2019
+
 - Zugabe von Tivoo Divoom
 - Kleinere Verbesserungen
 
 # 19.08.2019
+
 - Hinzufügen einer Nachricht, um zu überlegen, ob die API-Ebene in Jeedom geändert werden soll, wenn Sie Antennen verwenden
-- Hinzufügen einiger DIVOOM-Geräte (beachten Sie, dass für sie ein Neustart der Abhängigkeiten erforderlich ist). Ich füge es nicht in die Abhängigkeitssteuerung ein, da es sich nur um bestimmte Abhängigkeiten für sie handelt, sodass nicht jeder gezwungen werden muss, die Abhängigkeiten neu zu starten)
+- Hinzufügen einiger DIVOOM-Geräte (beachten Sie, dass für sie ein Neustart der Abhängigkeiten erforderlich ist). Ich füge es nicht in die Abhängigkeitssteuerung ein, da es sich nur um bestimmte Abhängigkeiten für sie handelt, sodass nicht jeder gezwungen werden muss, die Abhängigkeiten neu zu starten
 - Hinzufügen von Batteriestand auf Cleargrass
 - Kleinere Verbesserungen
 
 # 30.07.2019
+
 - Korrektur eines Fehlers auf dem Dotti im Zusammenhang mit dem Übergang zu Python3
 
 # 29.07.2019
+
 - Moll behoben
 - Trennung unbekannter Geräte auf der Geräteseite
 - Möglichkeit, alle unbekannten Geräte mit einem Klick zu löschen (nur diejenigen, die keinem Objekt zugewiesen sind)
@@ -50,6 +60,7 @@
 - Allgemeine Verbesserungen
 
 # 20.07.2019
+
 - Methodenänderung für den gesamten Playbulb-Bereich (nur ein Conf und Visuals) mehr Abhängigkeiten im Vergleich zu den verschiedenen Versionen (jetzt bei der Aufnahme stellen wir die Adressen der verschiedenen Methoden wieder her)
 - Zugabe von miscal V2 mit Gewicht und Impedanz (und einer ganzen Reihe berechneter Maße). Benutzerverwaltung für Berechnungen (in der erweiterten Konfigurationsschaltfläche)
 - Änderung von miscal V1 (es wird notwendig sein, die Benutzer neu zu erstellen), aber wir erhalten einige weitere Informationen
@@ -76,6 +87,7 @@
 - Möglichkeit, genau den Produkttyp auszuwählen, der während eines Scans aufgenommen werden soll (mit der Möglichkeit, alle auszuwählen)
 
 # 26.06.2019
+
 - Hinzufügen des Xiaomi Cleargrass
 - Zugabe von Xiaomi lywsd02
 - Beginn des dynamischen Modellmanagements

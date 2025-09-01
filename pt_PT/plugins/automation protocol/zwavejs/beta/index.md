@@ -24,14 +24,6 @@ Com relação à configuração do plugin, o ponto essencial é a seleção corr
 
 Outras configurações possíveis são :
 
-- **Moda** : permite que você escolha se deseja operar em modo local (por padrão e altamente recomendado) ou remoto (caso você mesmo tenha instalado e configurado o zwavejs, tenha cuidado, é claro que deve estar no mesmo brocker mqtt que jeedom). O modo remoto tem algumas restrições : 
-- não há mais gerenciamento de demônios, é claro
-- mais gerenciamento de dependências
-- mais gerenciamento de versão zwavejs
-- perda de certas detecções automáticas nas classes zwave do módulo
-- é claro que não há configuração automática do zwavejs, cabe a você gerenciar o arquivo conf com todas as informações contidas nele
-- os módulos específicos adicionados pelo jeedom (além daqueles suportados pelo zwavejs) não serão mais compatíveis
-
 - **Aplique a configuração recomendada** : aplica diretamente o conjunto de configuração recomendado pela equipe Jeedom ao incluir um novo módulo *(conseillé)*.
 
 - **Excluindo dispositivos excluídos** : remove automaticamente os dispositivos excluídos da rede Z-Wave se marcado. Caso contrário, o equipamento é mantido em Jeedom mesmo que tenha sido excluído da rede. O equipamento terá então que ser excluído manualmente ou reutilizado atribuindo-lhe um novo identificador Z-Wave.
@@ -187,6 +179,12 @@ Então, uma vez certo que o próprio módulo é bem reconhecido e que seus valor
 - Capturas de tela de **cada bloco** da janela de **Valores de nó**
 
 Para ir além, você pode ativar fisicamente o módulo e fazer screenshots das mudanças consecutivas de valor, ainda na janela Valores do nó.
+
+>**EM FORMAÇÃO**
+>
+>Le traitement d'une demande de support peut nécessiter un certain délai.
+Si vous souhaitez créer le fichier d'intégration de manière autonome, vous pouvez suivre les instructions détaillées dans le [Guide d'intégration](procedure_integration.md).
+
 
 >**IMPORTANTE**
 >

@@ -4,10 +4,17 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto
 
+# 
+
+- Ajout du hub Superior Hub Hybrid (4G)
+
+# 17/06/2025
+
+- Ajout du waterstop
 - Melhor gerenciamento de solicitações de nuvem
 - Adicionados códigos de evento ao controle remoto (controle de espaço)
-- 
-- 
+- Ajout de FireProtect2PlusSb
+- Ajout de KeypadTouchscreen
 
 # 09/07/2024
 

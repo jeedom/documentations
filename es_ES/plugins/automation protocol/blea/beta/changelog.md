@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 
+
+- 
+- 
+
 # 22/09/2024
 
 - Se solucionó un problema al reiniciar el demonio por la noche que no siempre se reiniciaba correctamente
@@ -14,7 +19,7 @@
 
 # 29/06/2024
 
-- Se corrigió un error en la función de excepción ajax.
+- .
 
 # 06/04/2021
 
@@ -27,22 +32,27 @@
 - Adición de la etiqueta "compatibilidad V4"
 
 # 30/08/2019
+
 - Adición de una gestión excepcional
 
 # 22/08/2019
+
 - Adición de Tivoo Divoom
 - Pequeñas mejoras
 
 # 19/08/2019
+
 - Adición de un mensaje para pensar en cambiar el nivel de la API en Jeedom si usa antenas
-- Adición de algunos dispositivos DIVOOM (tenga en cuenta que requieren un relanzamiento de dependencias). No lo agrego en el control de dependencias porque son solo dependencias específicas para ellos, por lo que no es necesario forzar a todos a relanzar las dependencias)
+- Adición de algunos dispositivos DIVOOM (tenga en cuenta que requieren un relanzamiento de dependencias). No lo agrego en el control de dependencias porque son solo dependencias específicas para ellos, por lo que no es necesario forzar a todos a relanzar las dependencias
 - Adición de nivel de batería en cleargrass
 - Pequeñas mejoras
 
 # 30/07/2019
+
 - Corrección de un error en el dotti vinculado a la transición a python3
 
 # 29/07/2019
+
 - Menor fijo
 - Separación de dispositivos desconocidos en la página del equipo
 - Posibilidad de eliminar todos los dispositivos desconocidos con un solo clic (solo aquellos no asignados a un objeto)
@@ -50,6 +60,7 @@
 - Mejoras generales
 
 # 20/07/2019
+
 - Cambio de método para todo el rango de playbulb (solo una conf y visuales) más dependencias en comparación con las diferentes versiones (ahora en la inclusión recuperamos las direcciones de los diferentes métodos)
 - Adición de miscal V2 con peso e impedancia (y un montón de medidas calculadas). Gestión de usuarios para cálculos (en el botón de configuración avanzada)
 - Cambio de miscal V1 (será necesario recrear a los usuarios) pero obtenemos más información
@@ -76,6 +87,7 @@
 - Posibilidad de elegir exactamente el tipo de producto a incluir durante un escaneo (con la posibilidad de elegir todos)
 
 # 26/06/2019
+
 - Agregar el xiaomi cleargrass
 - Adición de Xiaomi lywsd02
 - Comienzo de la gestión dinámica del modelo

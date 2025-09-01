@@ -4,6 +4,14 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+- Meilleurs gestion des droits lors du lancement du demon
+- Ajout d'un nouveau firmware (8.0.3.0) pour la Luna
+
+# 24/06/2025
+
+- Version de zigbee2mqtt par defaut 2.4 (sauf pour les luna)
+- Correction d'un soucis visuel sur l'inclusion en z2m 2.3 ou plus
+
 # 14/01/2025
 
 - Mise à jour de la doc

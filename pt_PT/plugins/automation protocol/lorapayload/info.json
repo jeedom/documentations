@@ -20,6 +20,7 @@
     "display": "panel",
     "mobile": "panel",
     "hasDependency": true,
+    "hasOwnDeamon": true,
     "maxDependancyInstallTime": 45,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/lorapayload\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/lorapayload\/",

@@ -4,6 +4,10 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de actualización de documentación, traducción o texto.
 
+# 25/11/2024
+
+- Complemento compatible con Debian 11 y superior
+
 # 10/07/2024
 
 - Se solucionó un problema por el cual ciertos mensajes podían procesarse dos veces

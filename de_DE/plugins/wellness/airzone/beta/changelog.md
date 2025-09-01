@@ -1,3 +1,5 @@
+# Changelog AirzoneControl
+
 # Änderungsprotokoll Airzone Web
 
 >**WICHTIG**
@@ -12,6 +14,26 @@
 >**WICHTIG**
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
+
+
+## 
+
+- )
+
+
+## 06/06/2025
+
+- Ajout Device IAQ Eqlogic + auto refresh (création auto au scan des zones)
+
+
+## 21/03/2025
+
+- Fix event Erreurs sur commande du même nom
+
+
+## 27/02/2025
+
+- Fix rafraichissement des consignes après changement de mode
 
 
 ## 23/01/2025

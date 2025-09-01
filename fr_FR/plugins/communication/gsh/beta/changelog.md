@@ -4,10 +4,17 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 11/06/2025
+
+- Ajout du type décodeur
+- Ajout de la prise en compte des différents modes sur un équipement de type Thermostat
+- Correction de bug pour PHP8
+- Correction de la gestion du MFA
+
 # 06/11/2024
 
--  Correction de bug pour PHP8
--  Meilleure gestion des modes
+- Correction de bug pour PHP8
+- Meilleure gestion des modes
 
 # 24/10/2024
 

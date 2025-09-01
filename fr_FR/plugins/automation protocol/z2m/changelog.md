@@ -4,6 +4,11 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 24/06/2025
+
+- Version de zigbee2mqtt par defaut 2.4 (sauf pour les luna)
+- Correction d'un soucis visuel sur l'inclusion en z2m 2.3 ou plus
+
 # 14/01/2025
 
 - Mise à jour de la doc

@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, bedeutet dies, dass es sich nur um die Aktualisierung der Dokumentation, Übersetzung oder des Textes handelt.
 
+# 16/05/2025
+
+- Ajout du template She - Carte MIO MQTT
+
 # 25.11.2024
 
 - Plugin kompatibel mit Debian 11 und höher

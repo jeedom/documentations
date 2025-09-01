@@ -1,12 +1,181 @@
 # Changelog Lora Nutzlast
 
-# Änderungsprotokoll LoraPayload
-
 >**WICHTIG**
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 # )
+- Ajout du downlink de la commande Heating Target Temperature Range et Cooling Target Temperature Range pour produit *WT304-868M - SMART FAN COIL THERMOSTAT*
+
+- Ajout du produit **
+
+
+# 28/08/2025
+- Correction d'envoie des downlinks dans une liste déroulante
+
+- Correction de la fonction readAllMarques en PHP8
+
+- Ajout du sous type select
+
+- Mise a jour configuration équipement 
+
+- Ajout de fonctionnalité de modification d'application du produit depuis Jeedom
+
+- Ajout de commande downlink (System Type et Child Lock Settings) pour produit *WT304-868M - SMART FAN COIL THERMOSTAT*
+
+
+# 22/08/2025
+- Mise à jour du champs création automatique (séparation des fabricants et des modèles)
+
+- Correction commande Thermokon
+
+- Ajout du produit *Milesight EM500-PP - Pipe Pressure Sensor*
+
+- Ajout du produit *Milesight EM500-UDL - Ultrasonic Distance/Level Sensor*
+
+- Correction bug Lorapayload configuration *application name* 
+
+- Mise à jour panel CS V4
+
+
+# 13/08/2025
+- Mise à jour des décodeurs Thermokon
+
+- Ajout de Statut et des boutons d'accès à la page de configuration des devices 
+
+- Fix bug création automatique
+
+# 06/08/2025
+- Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
+
+- Ajout du panneau Admin “Cache queueDownlink” (visualisation, purge, suppr. individuelle)
+
+- Paramètres configurables : `Temporisation des envoies dans la file d'attente (secondes)`, `Taille actuelle de la file d'attente`, `Taille maximale de la file d'attente`
+
+- Ajout des commandes de downlink pour *Dragino CPL03-LB/LS* 
+
+- Correction image documentation 
+
+- Correction bug panel
+
+- Ajout des commandes de downlink pour *Dragino CPL03-LB/LS* 
+
+- Decoder-Korrektur *Dragino WSC2_L_PM2.5*
+
+- Correction du lancement du deamon en double
+
+- Ajout du produit * Mclimate 16ADS - 16A Dry Switch LoRaWAN*
+
+- Correction du décodeur *Dragino SW3L - Compteur d'eau extérieur*
+
+- Ajout du downlink reboot pour *Dragino LT22222*
+
+- Ajout des downlinks pour *Mclimate - 16A Dry Switch LoRaWAN*
+
+- Correction commandes *Milesight GS601 - Vape Detector*
+
+- Correction commandes *Milesight WS302 - Sound Level Sensor*
+
+- Decoder-Korrektur *BMeters IWM-LR3 - Water Meter Reader*
+
+- Ajout d'une commande de downlink *BMeters IWM-LR3 - Water Meter Reader*
+
+- Correction bug queue doubledownlink
+
+- Ajout du produit  *adeunis_ARF8230xRA - Pulse ATEX*
+
+- Ajout du produit *atim_PT1xx_TMxP - ATIM*
+
+- Ajout du produit *bmeters_rfmlr1 - Water Meter Reader*
+
+- Ajout du produit *diehl_CMi4160 - CMi4160 LoRaWAN (Diehl Sharky)*
+
+- Correction du décodeur *Watteco Torano*
+
+- Ajout du produit *AM319_868M - INDOOR AMBIENCE MONITORING SENSOR*
+
+- Correction du décodeur *diehl_CMi4160 - CMi4160 LoRaWAN (Diehl Sharky)*
+
+- Ajout du produit *WT304-868M - SMART FAN COIL THERMOSTAT*
+
+- Ajout de la logique des listes pour les commandes des équipements
+
+- Ajout du produit *AQS01-L – Capteur de qualité d'air LoRaWAN *
+
+
+# 18/06/2025
+
+- Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*
+
+- Ajout de l'info Data Rate LoRaWAN
+
+- Ajout des commandes *Milesight VS373 - AI Bed & Presence Sensor*
+
+- Ajout du produit *Browan - Tab Temperature & Humidity Sensor*
+
+- Ajout du produit *RAK 10701 - FIELD TESTER for LoRaWAN*
+
+- Ajout du produit *Dragion WSC2-L -- Station Météo*
+
+- Ajout du produit *Thermokon 811217 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
+
+- Decoder-Korrektur *TIC LoraWAN*
+
+- Ajout du produit *Milesight GS601 - Vape Detector*
+
+- Ajout du produit *Milesight WS302 - Sound Level Sensor*
+
+- Ajout des commandes Index pour *TIC LoraWAN*
+
+- Regénérer la configuration LoRaWAN après la génération des commandes
+
+- Decoder-Korrektur *TIC LoraWAN*
+
+# 15/05/2025
+
+- Ajout du produit *Dragino CPL03-LB/LS – LoRaWAN-Trockenkontaktsensor für den Außenbereich (offen/geschlossen)*
+
+- Ajout du produit *Dragino LHT52 - LoRaWAN-Innentemperatur- und Feuchtigkeitssensor*
+
+- Decoder-Korrektur *Vega*
+
+- Ajout des commandes *Dragino CPL03-LB/LS – LoRaWAN-Trockenkontaktsensor für den Außenbereich (offen/geschlossen)*
+
+- Mise à jour décodeur et encodeur *Thermokon 835633 - NOVOS 3 Raumsteuermodul Temperatur, relative Luftfeuchtigkeit, CO2*
+
+- Ajout du produit *BMeters IWM-LR3 - Water Meter Reader*
+
+- Correction downlink du *Vega SI-11*
+
+- Ajout du produit *Milesight EM300MCS - Magnetic Contact Switch*
+
+- Correction du choix du broker local lors de la génération automatique
+
+- Ajout du produit *Milesight CT303 - Smart Current Transformer CT303*
+
+- Ajout du produit *Nexelec ATMO / SENSE / AERO / PMT / AERO Lora*
+
+- Ajout du produit *Nexelec LoRa Air Sensors (Sign, Rise, Feel, Move, Wav, View)*
+
+- Ajout du produit *Thermokon 835657 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
+
+- Correction downlink *Thermokon 835657 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
+
+# 24/03/2025
+
+- Correction du décodeur *WoMaster LR144*
+
+- Correction du décodeur *Adeunis ARF8230ABA – Impulszähler-Impulssender*
+
+- Ajout du produit *Eastron Smart Energy Meter SDM-530*
+
+- Ajout des generic types au produit *Milesight Smarter Heizkörperthermostat WT101*
+
+- Ajout du produit *Eastron Smart Energy Meter SDM-230*
+
+- Decoder-Korrektur *NKE Batch*
+
+# 17/03/2025
 
 - Regenerieren der Geräte in Chirpstack mit der Schaltfläche „LoRaWAN-Konfiguration neu generieren“"
 
@@ -50,11 +219,19 @@
 
 - Ajout du produit *Watteco In'O*
 
-- Ajout du produit **
+- Ajout du produit *Milesight UC100 - IoT Controller*
 
-- Ajout du produit **
+- Ajout du produit *Milesight UC300 - IoT Controller*
 
--  ** 
+- Ajout du champ *Remarque* pour les modules
+
+- Correction du Device Profile *Power-Adapt Power-Elec 6*
+
+- Correction des commandes de downlink + uplink de *Kubikmeter quantifizieren*
+
+- Correction du décodeur *Dragino RS485-LN + NILAN*
+
+- Correction du décodeur *Kubikmeter quantifizieren*
 
 # 31.12.2024
 
@@ -207,3 +384,4 @@
 # 10.06.2021
 
 - Plugin-Dokumentation
+

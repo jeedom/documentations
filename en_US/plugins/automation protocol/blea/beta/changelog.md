@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 
+
+- 
+- 
+
 # 09/22/2024
 
 - Fixed an issue where restarting the daemon at night might not always restart correctly
@@ -14,7 +19,7 @@
 
 # 06/29/2024
 
-- Fixed a bug on the ajax exception function.
+- .
 
 # 04/06/2021
 
@@ -27,22 +32,27 @@
 - Addition of the tag "V4 compatibility"
 
 # 08/30/2019
+
 - Addition of exceptional management
 
 # 08/22/2019
+
 - Addition of Tivoo Divoom
 - Minor improvements
 
 # 08/19/2019
+
 - Addition of a message to think of changing the level of the API in Jeedom if you use antennas
-- Addition of some DIVOOM devices (note that they require a relaunch of dependencies). I do not add it in dependency control because these are just specific dependencies for them, so no need to force everyone to relaunch the dependencies)
+- Addition of some DIVOOM devices (note that they require a relaunch of dependencies). I do not add it in dependency control because these are just specific dependencies for them, so no need to force everyone to relaunch the dependencies
 - Addition of battery level on cleargrass
 - Minor improvements
 
 # 07/30/2019
+
 - Correction of a bug on the dotti linked to the transition to python3
 
 # 07/29/2019
+
 - Fixed minor
 - Separation of unknown devices on the equipment page
 - Ability to delete all unknown devices in one click (only those not assigned to an object)
@@ -50,6 +60,7 @@
 - Overall improvements
 
 # 07/20/2019
+
 - Change of method for the entire playbulb range (only one conf and visuals) more dependencies compared to the different versions (now at inclusion we recover the addresses of the different methods)
 - Addition of miscal V2 with weight and impedance (and a whole bunch of calculated measures). User management for calculations (in the advanced config button)
 - Change of miscal V1 (it will be necessary to recreate the users) but we gain some more info
@@ -76,6 +87,7 @@
 - Ability to choose exactly the type of product to include during a scan (with the possibility of choosing all)
 
 # 06/26/2019
+
 - Adding the xiaomi cleargrass
 - Addition of Xiaomi lywsd02
 - Beginning of dynamic model management

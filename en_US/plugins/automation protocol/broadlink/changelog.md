@@ -1,5 +1,26 @@
 # Changelog Broadlink
 
+>**IMPORTANT**
+>
+>If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
+
+# 
+
+-  **** 
+
+# 12/27/2024
+
+- Fix memory leak on daemon
+- Fixed a dependency installation issue that could occur on some installations
+- Interface modernization
+- Debian 11 required
+- Debian 12 Compatibility
+- Jeedom v4.4.8 required
+
+# 09/30/2022
+
+- Fixed the installation of dependencies on Jeedom v4.2
+
 # 03/05/2021
 
 - Update of the dependencies script following the cryptography change
@@ -10,7 +31,7 @@
 
 # 23/11/2020
 
-- Management of the dependencies of certain corrupted installations by third parties of cryptography in python 3 (relaunch the dependencies if you are faced with a problem)
+- Management of the dependencies of certain installations corrupted by third parties of cryptography in python 3 *(restart the dependencies if you are faced with a problem)*
 
 # 20/11/2020
 
@@ -20,9 +41,9 @@
 
 # 07/31/2020
 
-- Switching to python 3 (it is probably necessary to restart the dependencies)
-- Added management of RM4 (read the doc for the particularity)
-- Added advanced RF learning (with two steps, one to vary frequencies and find it and another to learn). It will increase learning compatibility
+- Switch to python 3 *(you probably need to restart the dependencies)*
+- Added RM4 management *(read the documentation for the particularity)*
+- Added advanced RF learning with two stages, one to vary frequencies and find it and another to learn. It will increase learning compatibility
 
 # 09/11/2019
 

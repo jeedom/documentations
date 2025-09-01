@@ -1,15 +1,8 @@
 # BacnetManager
 
->**WICHTIG**
->
->. 
-
-
 # Description
 
-.
-
-
+Mit dem Bacnet-Plugin können Sie Bacnet-Geräte für Ihren Jeedom sowie dessen Jeedom-Befehle erstellen, die von einem Bacnet-Supervisor im Netzwerk gesehen werden können
 
 
 
@@ -33,7 +26,7 @@ Rien n'est à modifier dans le champ « Port socket interne » de la section « 
 ![socket](./images/BacnetManagerConfig.png)
 
 
-.
+Auf derselben Registerkarte müssen Sie den Cron-Wert zum Aktualisieren Ihrer Ausrüstung auswählen.
 
 
 
@@ -75,44 +68,28 @@ Fügen Sie keine Leerzeichen in den Befehlsnamen ein
 
 Alles, was Sie tun müssen, ist, nach den gewünschten zu suchen und zu validieren.
 
->**WICHTIG**
->
->
 
 ![accueil](./images/BacnetManagerModale.png)
 
 
-
-
-.
-
- :
-
-![accueil](./images/BacnetManagerConfigCmds.png)
-
- :
-
-- ' : .
-- ' :  : . ). 
-
-
-#### Bestelleinstellungen
-
-
-1. **Auswahl der Befehlsaktion** : Wählen Sie einen Aktionsbefehl basierend auf dem ausgewählten Plugin aus.
-2. **Anfangswert** : Legen Sie einen Anfangswert fest, um den Bacnet-Punkt zum ersten Mal zu initialisieren.
-3. **Verwenden Sie den Bacnet-Wert** : Aktivieren Sie diese Option, um den Bacnet-Wert zu verwenden. Wenn diese Option nicht aktiviert ist, müssen Sie das Feld „An die Aktion zu sendender Wert“ ausfüllen".
-
-Beim Ausführen des Crons prüft das System, ob am Bacnet-Punkt eine Wertänderung stattgefunden hat (Schreiben)). An diesem Punkt sendet es entweder diesen Bacnet-Wert oder den unter „An Aktion senden“ eingegebenen Wert an den Parameterized Action-Befehl.
-
-
-
-
+Das Bacnet-Gerät mit der von Ihnen gewählten Instanz-ID wird erstellt und in Ihrem Netzwerk angezeigt.
 
 
 Um die Werte zu aktualisieren, müssen Sie den Cron in der Plugin-Konfiguration konfigurieren.
 
 ![accueil](./images/BacnetManagerConfig.png)
+
+
+
+Um Befehle vom Server zu löschen, müssen Sie zu den Befehlen des Geräts gehen und einfach die gewünschten löschen und dann speichern.
+
+
+
+Sie können das Gerät sowie seine Bacnet-Punkte auch aus dem Netzwerk löschen, indem Sie auf Delete the jeeBacnetManager klicken.
+
+
+![accueil](./images/BacnetManagerReinit.png)
+
 
 
 
@@ -126,14 +103,31 @@ Jeedom-Befehle vom Typ „String“ müssen keine Einheiten auswählen.
 Im Bacnet-Netzwerk verwenden die Instanzen der Punkte die Namen der Befehle, die im Feld im Modal „Zusätze von Befehlen“ angegeben sind.
 
 
+
+Eine Nachkalkulationsfunktion ist ebenfalls vorhanden : 
+Wenn Sie sich dafür entscheiden, diesen PostCalcul auszufüllen, hat der in das DeviceBacnet eingegebene Wert den Anfangswert angenommen, der mit der angegebenen Berechnung hochgeladen werden soll
+
+Sie können zum Beispiel :
+
+#value# * 10
+
+
+Dies nimmt den Anfangswert des hochgeladenen Befehls und multipliziert ihn dann mit 10, bevor er in der jeeServer-Instanz aktualisiert wird
+
+ :
+
+![accueil](./images/BacnetManagerPost.png)
+
+
+
 >**WICHTIG**
 >
->
+>Sie finden alle vorhandenen Befehle auf dem jeeServer auf dem Plugin-Bildschirm, indem Sie auf Cmds JeeServer klicken
 
 
 ![accueil](./images/BacnetManagerAccueil.png)
 
-
+![cmdExist](./images/BacnetManagerCmdsExit.png)
 
 
 # Import/Export des jeeBacnetManagers (in Kürze erhältlich)):
@@ -414,3 +408,19 @@ Durch Klicken auf diese Schaltfläche können Sie die jeeBacnetManager-Konfigura
 
 
 
+
+### 
+
+#### 
+
+ ****, . ).
+
+#### 
+
+ **** .
+
+1. **Auswahl der Befehlsaktion** : Wählen Sie einen Aktionsbefehl basierend auf dem ausgewählten Plugin aus.
+2. **Anfangswert** : Legen Sie einen Anfangswert fest, um den Bacnet-Punkt zum ersten Mal zu initialisieren.
+3. **Verwenden Sie den Bacnet-Wert** : Aktivieren Sie diese Option, um den Bacnet-Wert zu verwenden. Wenn diese Option nicht aktiviert ist, müssen Sie das Feld „An die Aktion zu sendender Wert“ ausfüllen".
+
+Beim Ausführen des Crons prüft das System, ob am Bacnet-Punkt eine Wertänderung stattgefunden hat (Schreiben)). An diesem Punkt sendet es entweder diesen Bacnet-Wert oder den unter „An Aktion senden“ eingegebenen Wert an den Parameterized Action-Befehl.

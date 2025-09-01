@@ -1,95 +1,103 @@
-    # Complemento móvil
+# Complemento móvil
 
-    Complemento para usar la aplicación Jeedom Mobile.
+Le plugin Mobile permet d'utiliser l'application Mobile Jeedom.
 
-    La aplicación móvil Jeedom requiere la instalación de este complemento para que la caja pueda comunicarse con la aplicación móvil.
+Pour que l'application Mobile puisse communiquer avec votre Box Jeedom, il est nécessaire d'installer ce plugin.
 
-    # Configuración del complemento móvil para la aplicación V2
+# Configuration du plugin Mobile pour l'application V2
 
-    Después de instalar el complemento, solo necesita activarlo :
+Après avoir installé le plugin, activez-le simplement :
 
-    ![mobile1](./images/mobile1.png)
+<img src="../images/mobile1.png" width="500" height="300" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    # Primera conexión a la aplicación V2
+# Primera conexión a la aplicación V2
 
-    Para conectar tu teléfono : hay 2 métodos posibles;
-    En la primera pantalla de la aplicación, se le ofrece conectar su cuenta de mercado y así encontrar todas las casillas asociadas a esta cuenta, o simplemente agregar una casilla.
+Pour connecter votre téléphone, deux méthodes sont disponibles :  
+Sur le premier écran de l'application, vous pouvez soit connecter votre compte Market pour retrouver toutes les Box associées à ce compte, soit ajouter une Box manuellement.
 
-    ![v2ConnectMarket](./images/v2firstConnect.jpeg)
+<img src="../images/v2firstConnect.jpeg" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    > **IMPORTANTE**
-    >
-    > Para beneficiarse de las funcionalidades de la aplicación, el núcleo de su Jeedom debe estar en 4.4.0 mínimo
+> **IMPORTANTE**  
+> Pour profiter pleinement des fonctionnalités de l'application, votre Core Jeedom doit être en version 4.4.0 ou supérieure.
 
-    #### **INICIAR SESIÓN A TRAVÉS DE LA CUENTA DE MERCADO** :
+### **INICIAR SESIÓN A TRAVÉS DE LA CUENTA DE MERCADO**
 
-    ![v2ConnectMarket](./images/v2connectMarket.jpeg)
+<img src="../images/v2connectMarket.jpeg" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    Todo lo que tiene que hacer es ingresar su Market ID y contraseña.
+Saisissez simplement votre identifiant et mot de passe Market pour vous connecter.
 
-    #### **CONEXIÓN MEDIANTE BOX ID** :
+### **Connexion via l'ID de la Box**
 
-    ![v22methods](./images/v22methods.jpeg)
+<img src="../images/v22methods.jpeg" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    Varias opciones en esta pantalla :
+Sur cet écran, plusieurs options s'offrent à vous :
 
-    - Ingresas la url de tu Jeedom (interna o externa), así como los identificadores de acceso a la misma y confirmas con el botón LOGIN
+- Entrez l'URL de votre Jeedom (interne ou externe), ainsi que vos identifiants d'accès, puis cliquez sur le bouton **CONNEXION**.
+- Cliquez sur **QR Code** : un nouvel écran s'affiche, vous permettant de scanner un QR Code depuis l'onglet QR Code du plugin Mobile de la Box que vous souhaitez ajouter.
 
-    - Haces clic en el código QR : aparece una nueva pantalla; puede escanear un código QR desde el complemento móvil del Box que desea agregar, a través de la pestaña Código QR del complemento.
+<img src="../images/v2QRCodeConnect.PNG" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    ![v2ModalQrApp](./images/v2QRCodeConnect.PNG)
+> **Pestaña Código QR del complemento móvil**  
+> <img src="../images/v2ModalQrCode.png" width="500" height="300" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    > Pestaña Código QR del complemento móvil
+Une fois cette étape terminée, vous êtes enregistré dans l'application. Si vous possédez le plugin Mobile, vous aurez accès à des fonctionnalités comme les notifications, les QR Codes, ou encore la personnalisation du menu.
 
-    > > ![Complemento v2Modal](./images/v2ModalQrCode.png)
+Dans le menu, un onglet **Boxs** regroupe toutes les Box associées à votre compte Market.
 
-    Una vez realizado este primer paso, ya estás registrado en la aplicación: Si tienes el complemento Móvil, tendrás acceso a través del menú a Notificaciones, Códigos QR, Personalización del menú ....
+<img src="../images/v2MenuBoxs.PNG" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    En el menú, tendrá una pestaña Cajas, que agrupa todas las cajas presentes en esta cuenta de mercado
+<img src="../images/v2floutedBoxs.png" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    ![v2MenuBoxs](./images/v2MenuBoxs.PNG)
+Cliquez sur la Box où le plugin Mobile est installé, puis identifiez-vous pour y accéder.  
+La Box validée apparaîtra en haut de la liste. Vous pouvez répéter cette opération pour plusieurs Box.
 
-    ![v2floutedBoxs](./images/v2floutedBoxs.png)
+En cliquant sur le bouton **+** en bas à droite, vous accédez à différentes options :
 
-    Simplemente haga clic en el Box donde está instalado el complemento Móvil, luego identifíquese para acceder al Box.
+- Ajouter une Box via un QR Code (depuis le plugin Mobile),
+- Ajouter une Box manuellement,
+- Détecter les Box Atlas et Luna sur le réseau Wi-Fi,
+- Synchroniser les informations de votre compte Market.
 
-    La casilla irá al principio de la lista, habiendo validado su autenticación.
-    Puedes hacer esto para varias cajas.
+<img src="../images/v2greenBtnAdd.PNG" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    También puede hacer clic en el botón + en la parte inferior derecha para acceder a diferentes opciones;
+Pour accéder à des fonctionnalités comme les notifications, la personnalisation du menu ou la géolocalisation, vous devez d'abord sélectionner une Box comme "actuelle".
 
-    - Código QR para agregar un Box a la lista mediante el complemento Móvil,
-    - Manual para agregar una caja manualmente
-    - Detección Atlas y Luna (si estás en Wifi, detectará las cajas en la red)
-    - Sincronización de Market para actualizar la información de la cuenta de Market configurada
+<img src="../images/v2ActualBoxFlouted.jpeg" width="300" height="600" style="display: block; margin: 0 auto;"/>
 
-    ![v2greenBtnAdd](./images/v2greenBtnAdd.PNG)
+# Cómo funciona la geolocalización
 
-    Para acceder a funciones como Notificaciones, Personalización de Menú o Geolocalización, primero debes haber seleccionado al menos una casilla actual'
+Ajoutez une zone de géolocalisation en cliquant sur l'icône **+**.
 
-    ![v2ActualBoxFlouted](./images/v2ActualBoxFlouted.jpeg)
+<img src="../images/v2AddZone.jpeg" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    # Cómo funciona la geolocalización
+Saisissez l'adresse recherchée et validez avec la touche Entrée de votre téléphone. Le curseur se positionnera automatiquement sur l'adresse. Vous pouvez ensuite nommer et sauvegarder la zone.
 
-    Añadimos una zona de Geolocalización pulsando en el icono +
+Cela créera une commande binaire sur votre équipement mobile, qui indiquera les entrées et sorties de la zone si la géolocalisation est activée sur votre téléphone.
 
-    ![v2AddZone](./images/v2AddZone.jpeg)
+Vous pouvez également ajuster le rayon de la zone pour élargir la détection.
 
-    Escribimos la dirección que buscamos, validamos con Enter en su teléfono; el cursor se posicionará entonces en la dirección deseada.
-    Luego podemos agregar un nombre y guardar la zona.
+<img src="../images/v2ModifyBigRadius.jpeg" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    Esto creará un nuevo comando en tu equipo móvil, de tipo binario, que corresponderá a las entradas y salidas de la zona si la geolocalización está activada en tu teléfono móvil.
+Pour supprimer une zone, cliquez sur **Éditer**, puis sur l'icône Corbeille. Cela supprimera la zone de l'application ainsi que la commande associée sur la Box.
 
-    También podemos cambiar el radio de la zona, para ampliar la detección de la zona.
+# Paramètres de l'application
 
-    ![v2ModifyBigRadius](./images/v2ModifyBigRadius.jpeg)
+Vous pouvez configurer la durée d'affichage des notifications in-app selon leur type (Succès, Info, Erreur). Par défaut, elles sont reglées sur 5 secondes.
 
-    # FAQ
+<img src="../images/inAppduration.jpeg" width="300" height="600" style="display: block; margin: 0 auto; margin-bottom: 20px;"/>
 
-    > **Tengo problemas con las notificaciones**
-    >
-    > Esta parte se está mejorando y optimizando actualmente en la aplicación beta.
+# FAQ
 
-    > **Tengo problemas para mostrar mi vista web**
-    >
-    > En tu Jeedom, en Preferencias, comprueba que la página de inicio móvil sea INICIO.
+> **Mon mobile ne possède pas d'IQ (identifiant unique)**  
+> Le plugin Mobile a besoin de l'IQ du téléphone pour l'identifier. Si ce paramètre est manquant dans les logs du plugin, rendez-vous dans le menu Préférences de l'application. Une alerte vous indiquera que la récupération de l'IQ est en cours.
+
+> **Tengo problemas con las notificaciones**  
+> Cette fonctionnalité est en cours d'amélioration et d'optimisation dans la version bêta de l'application.
+
+> **Tengo problemas para mostrar mi vista web**  
+> Vérifiez dans les Préférences de votre Jeedom que la page d'accueil mobile est bien définie sur **ACCUEIL**.
+
+> ****
+>  : .  : ". . . . 
+
+

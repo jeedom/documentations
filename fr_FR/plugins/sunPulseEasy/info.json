@@ -1,0 +1,40 @@
+{
+    "id": "sunPulseEasy",
+    "name": "sunPulseEasy",
+    "pluginVersion": "0.1",
+    "description": {
+        "fr_FR": "Template servant de base \u00e0 la cr\u00e9ation de plugins pour Jeedom"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2",
+    "os": {
+        "min": 10,
+        "max": 12.99
+    },
+    "category": "programming",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "changelog_beta": "https://doc.jeedom.com/#language#/plugins/programming/sunPulseEasy/beta/changelog",
+    "changelog": "https://doc.jeedom.com/#language#/plugins/programming/sunPulseEasy/changelog",
+    "documentation_beta": "https://doc.jeedom.com/#language#/plugins/programming/sunPulseEasy/beta",
+    "documentation": "https://doc.jeedom.com/#language#/plugins/programming/sunPulseEasy",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES"
+    ],
+    "compatibility": [
+        "smart",
+        "luna",
+        "atlas",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile"
+    ]
+}
