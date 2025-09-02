@@ -52,7 +52,7 @@ Vo un exemple :
 
 . .
 
-Beispiel :  #\_state_# (>
+ :  #\_state_# (>
 
  :
 
