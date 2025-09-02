@@ -1,4 +1,4 @@
-## .3 | 
+## Kern v4.3 | Plugin-Entwickler
 
 ### Obsolete
 
