@@ -37,11 +37,11 @@ L'interface Jeedom est également accessible par le nom d'hôte de la machine.
 
   | Machine            | Interface Jeedom   |
   |--------------------|--------------------|
-  | [Luna](https://images.jeedom.com/luna/){:target="_blank"} | http://jeedomluna.local{:target="_blank"} |
-  | [Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | http://jeedomatlas.local{:target="_blank"} |
-  | [Smart](https://images.jeedom.com/smart/){:target="_blank"} | http://jeedomsmart.local{:target="_blank"} |
-  | [Ordinateur *(installation automatique)*](https://images.jeedom.com/x86-64/){:target="_blank"} | http://jeedom.local{:target="_blank"} |
-  | [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | http://jeedomfreebox.local{:target="_blank"} |
+  | [Luna](https://images.jeedom.com/luna/){:target="_blank"} | [http://jeedomluna.local](http://jeedomluna.local){:target="_blank"} |
+  | [Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [http://jeedomatlas.local](http://jeedomatlas.local){:target="_blank"} |
+  | [Smart](https://images.jeedom.com/smart/){:target="_blank"} | [http://jeedomsmart.local](http://jeedomsmart.local){:target="_blank"} |
+  | [Ordinateur *(installation automatique)*](https://images.jeedom.com/x86-64/){:target="_blank"} | [http://jeedom.local](http://jeedom.local){:target="_blank"} |
+  | [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [http://jeedomfreebox.local](http://jeedomfreebox.local){:target="_blank"} |
 
 - Si vous avez vous-même procédé à l’installation de Debian, le nom d’hôte correspond au nom de la machine défini lors de l’installation. L’interface est alors accessible via :
   ```text
@@ -53,7 +53,7 @@ L'interface Jeedom est également accessible par le nom d'hôte de la machine.
 
 ### Première connexion
 
-[Une fois l'adresse de Jeedom connue](#accès-local), saisissez-la dans votre navigateur internet pour accéder à la page de connexion :
+[Une fois l'adresse de Jeedom connue](#Accès%20local), saisissez-la dans votre navigateur internet pour accéder à la page de connexion :
 
 {% include lightbox.html src="images/FirstStep_box_connect.jpg" data="FirstStep_box_connect" title="Connexion Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
