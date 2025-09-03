@@ -1,4 +1,4 @@
-# Premier pas avec Jeedom
+# Premiers pas avec Jeedom
 
 Cette documentation présente les étapes à suivre après la mise en service de votre box Jeedom.
 
@@ -43,13 +43,9 @@ L'interface Jeedom est également accessible par le nom d'hôte de la machine.
   | [Ordinateur *(installation automatique)*](https://images.jeedom.com/x86-64/){:target="_blank"} | [http://jeedom.local](http://jeedom.local){:target="_blank"} |
   | [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [http://jeedomfreebox.local](http://jeedomfreebox.local){:target="_blank"} |
 
-- Si vous avez vous-même procédé à l’installation de Debian, le nom d’hôte correspond au nom de la machine défini lors de l’installation. L’interface est alors accessible via :
-  ```text
-  http://MACHINE.DOMAIN
-  ```
-  >**INFORMATION**
-  >
-  >`DOMAIN = local` par défaut, sauf si un nom de domaine spécifique a été défini à l’installation.
+- Si vous avez vous-même procédé à l’installation de Debian, le nom d’hôte correspond au nom de la machine défini lors de l’installation (`MACHINE`). `DOMAIN = local` par défaut, ou le nom de domaine spécifique renseigné à l'installation si c'est le cas.
+
+  L’adresse de l'interface Jeedom doit normalement correspondre à : `http://MACHINE.DOMAIN`.
 
 ### Première connexion
 
