@@ -105,7 +105,8 @@ Consulter la documentation relative à la [**première connexion**](../premiers-
 
 >**IMPORTANT**
 >
->**Non recommandé** : toute intervention directe sur le système est susceptible d'avoir un impact sur le bon fonctionnement de Jeedom. Ce cas de figure n'est pas couvert par le support officiel.
+>Il n'est ni recommandé ni nécessaire d'intervenir au niveau de la console système pour utiliser Jeedom.\
+>Toute modification du système est susceptible d'avoir un impact sur le bon fonctionnement de Jeedom.
 
 Les identifiants, par défaut, pour accéder à la console système *(clavier/écran ou SSH)* sont : `jeedom/Mjeedom96`. Le mot de passe `root` est identique.
 
