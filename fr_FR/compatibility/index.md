@@ -67,7 +67,7 @@ Nos recommandations vont dépendre de différents facteurs :
 
 ## Images système officielles
 
-L'équipe Jeedom développe des images système sur-mesure à destination de nombreuses machines différentes, incluant Debian, Jeedom et toutes les dépendances logicielles recommandées :
+L'équipe développe des images système sur-mesure à destination de nombreuses machines différentes, incluant Debian, Jeedom et toutes les dépendances logicielles recommandées :
 
 | Image système      | Documentation      |
 |--------------------|--------------------|
@@ -80,15 +80,19 @@ L'équipe Jeedom développe des images système sur-mesure à destination de nom
 
 ### Vérification du fichier
 
-La **clé SHA256**, permettant de vérifier l'intégrité du fichier téléchargé, est consultable dans le fichier `info.json` du même dossier.
+La **clé SHA256**, permettant de vérifier l'intégrité du fichier téléchargé, est consultable dans le fichier `info.json` situé dans le dossier de téléchargement.
 
 ### Première connexion
 
 Consulter la documentation relative à la [**première connexion**](../premiers-pas/index#première-connexion) pour accéder à l'interface Jeedom suite à l'installation.
 
-### Accès SSH
+### Console système
 
-Les identifiants, par défaut, pour l'**accès SSH** sont : `jeedom/Mjeedom96`. Le mot de passe `root` est identique.
+>**IMPORTANT**
+>
+>**Non recommandé** : toute intervention directe sur le système est susceptible d'avoir un impact sur le bon fonctionnement de Jeedom. Ce cas de figure n'est pas couvert par le support officiel.
+
+Les identifiants, par défaut, pour accéder à la console système *(clavier/écran ou SSH)* sont : `jeedom/Mjeedom96`. Le mot de passe `root` est identique.
 
 ## Equipements compatibles
 
