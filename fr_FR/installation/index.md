@@ -7,16 +7,6 @@ Certains plugins peuvent cependant être payants et/ou nécessiter une connexion
 
 Jeedom peut être installé sur [tout matériel supporté](../compatibility/index#matériels-supportés) prenant en charge le système [**Linux Debian en version actuellement recommandée**](../compatibility/index#Debian).
 
-## Sauvegarde de Jeedom
-
-En cas de réinstallation, **il est indispensable de télécharger une sauvegarde récente de Jeedom** qui pourra être restaurée à l'issue de la procédure :
-
-1. Depuis l'interface Jeedom, cliquer sur le menu **Réglages > Système > Sauvegardes**.
-
-2. Cliquer sur le bouton **Lancer une sauvegarde**.
-
-3. Quand l'opération est terminée, cliquer sur **Télécharger la sauvegarde**.
-
 ## Boxes officielles
 
 **Jeedom et Domadoo** développent et commercialisent des boxes officielles « clé en main », avec Jeedom préinstallé sur un système optimisé et incluant des services, des plugins ainsi qu'un support technique renforcé. Les boxes officielles bénéficient également d'un outil de restauration système automatique.
@@ -32,21 +22,31 @@ En cas de réinstallation, **il est indispensable de télécharger une sauvegard
 | [Atlas **Pro rail DIN EnOcean**](https://www.domadoo.fr/fr/box-domotique/6565-jeedom-atlas-pro-enocean.html){:target="_blank"} |             |
 | [Atlas **Pro rail DIN KNX**](https://www.domadoo.fr/fr/box-domotique/6563-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-knx.html){:target="_blank"} |             |
 
-## Procédure détaillée
+## Sauvegarde de Jeedom
+
+En cas de réinstallation, **il est indispensable de télécharger une sauvegarde récente de Jeedom** qui pourra être restaurée à l'issue de la procédure :
+
+1. Depuis l'interface Jeedom, cliquer sur le menu **Réglages > Système > Sauvegardes**.
+
+2. Cliquer sur le bouton **Lancer une sauvegarde**.
+
+3. Quand l'opération est terminée, cliquer sur **Télécharger la sauvegarde**.
+
+## Procédures d'installation
 
 Quel que soit le support choisi pour déployer votre instance Jeedom, vous trouverez la documentation d'installation détaillée correspondante.
 
 Vous souhaitez installer Jeedom :
 
 - [sur une **Luna**](https://doc.jeedom.com/fr_FR/plugins/home%20automation%20protocol/luna)
-- [sur une **Smart/Atlas**](./recovery)
-- [sur un **Raspberry Pi**](./rpi)
-- [sur un **PC/mini-PC**](./baremetal)
-- [sur une **machine virtuelle**](./vm)
-- [sur une **Freebox Delta**](./freeboxdelta)
+- [sur une **Smart/Atlas**](recovery)
+- [sur un **Raspberry Pi**](rpi)
+- [sur un **PC/mini-PC**](baremetal)
+- [sur une **machine virtuelle**](vm)
+- [sur une **Freebox Delta**](freeboxdelta)
 - [dans un **conteneur LXC Proxmox**](https://community-scripts.github.io/ProxmoxVE/scripts?id=jeedom){:target="_blank"}
-- [dans un **conteneur Docker**](./docker) *(non recommandé)*
-- [en **ligne de commande**](./cli) *(utilisateurs avancés)*
+- [dans un **conteneur Docker**](docker) *(non recommandé)*
+- [en **ligne de commande**](cli) *(utilisateurs avancés)*
 
 ## Premiers pas avec Jeedom
 
