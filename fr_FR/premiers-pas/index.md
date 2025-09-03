@@ -1,114 +1,135 @@
-# Premier pas
+# Premier pas avec Jeedom
 
-Bienvenue dans cette documentation de premiers pas, celle-ci va vous aider à mettre en service votre Jeedom.
+Cette documentation présente les étapes à suivre après la mise en service de votre box Jeedom.
 
-## Inscription sur le Market
+## Interface
 
-La première chose à faire est de se créer un compte sur le Market pour pouvoir enregistrer votre Jeedom sur celui-ci. Cliquez [ici](https://market.jeedom.com/).
+Votre instance Jeedom est accessible par son interface web à son adresse sur le réseau local.
 
-Cliquez sur le bouton "S’enregistrer" en haut à gauche :
+### Accès local
 
-![S'enregistrer sur le Market](images/FirstStep_market1.jpg)
+Pour accéder à l’interface Jeedom, il est nécessaire de connaître l’adresse IP ou le nom d’hôte de la machine sur le réseau local. Voici trois méthodes pour l’obtenir :
 
-Remplissez les différents champs et validez. Vous devriez alors être sur votre compte Market :
+#### Découverte automatique
 
-![Market](images/FirstStep_market2.jpg)
+Le Market Jeedom dispose d'[**un outil de découverte permettant de récupérer les adresses IP des instances Jeedom connectées au réseau local**](https://www.jeedom.com/market/index.php?v=d&p=find){:target="_blank"}.
 
-
-## Ajout de votre code Service Pack
-
-Si vous avez acheté une box Jeedom alors vous avez dû recevoir un mail contenant un code pour votre Service Pack.
-
-> **Important**
+>**IMPORTANT**
 >
-> Il est important de le renseigner car ce code vous donne accès à certains plugins gratuitement, ainsi qu’à des services exclusifs.
+>Il est nécessaire que la box soit démarrée depuis une bonne dizaine de minutes pour que la découverte Jeedom fonctionne.
 
-> **Important**
+>**INFORMATION**
 >
-> Si vous achetez un Service Pack depuis le Market Jeedom vous n’avez rien à faire, celui-ci vous est automatiquement affecté.
+>Cette fonctionnalité dépend de la configuration réseau appliquée localement et peut, selon les cas, ne pas être utilisable.
 
-Une fois le code recupéré dans le mail, il vous suffit d’aller sur le [Market Jeedom](https://market.jeedom.com/) et de vous identifier.
+#### Routeur
 
-Puis allez sur votre page de profil :
+Vous pouvez retrouver l’adresse IP de votre box Jeedom en accédant à l’interface d’administration de votre routeur ou box internet.
 
-![Profil Market](images/FirstStep_market_sp1.jpg)
+La plupart des interfaces proposent une liste des appareils/périphériques connectés, avec leur nom d’hôte, adresse MAC et adresse IP. Recherchez un périphérique nommé “Jeedom” ou identifiez-le via son adresse MAC.
 
-Puis cliquez sur l’onglet "Mes services" et renseignez votre numéro de Service Pack et validez.
-
-> **Tip**
+>**IMPORTANT**
 >
-> Si vous avez acheté une box officielle Jeedom, le numéro de Service Pack a dû vous être envoyé par email. Si vous n’avez rien reçu, merci de contacter le magasin où vous avez acheté votre box.
+>Se référer au manuel du fabricant en cas de difficulté à atteindre l'interface d’administration du routeur.
 
-## Trouver votre Jeedom sur le réseau
+#### Nom d'hôte
 
-Une fois Jeedom branché électriquement et connecté à votre réseau local, voici comment se connecter sur celui-ci.
+L'interface Jeedom est également accessible par le nom d'hôte de la machine sur le même réseau local.
 
-### Trouver Jeedom
+- En cas d'utilisation d'une image système officielle pour déployer Jeedom, le nom d'hôte est connu et Jeedom doit être accessible sur :
 
-#### Par le market
+  | Machine            | Interface Jeedom   |
+  |--------------------|--------------------|
+  | [Luna](https://images.jeedom.com/luna/){:target="_blank"} | http://jeedomluna.local{:target="_blank"} |
+  | [Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | http://jeedomatlas.local{:target="_blank"} |
+  | [Smart](https://images.jeedom.com/smart/){:target="_blank"} | http://jeedomsmart.local{:target="_blank"} |
+  | [Ordinateur *(installation automatique)*](https://images.jeedom.com/x86-64/){:target="_blank"} | http://jeedom.local{:target="_blank"} |
+  | [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | http://jeedomfreebox.local{:target="_blank"} |
 
-Solution la plus simple (mais ne marche pas dans 100% des cas en fonction de la configuration de votre accès internet), il faut démarrer la box, attendre environ 10 minutes (attention si vous utilisez une image type netinstallation, ça sera plutôt 30 minutes) et aller [ici](https://www.jeedom.com/market/index.php?v=d&p=find)
+- Si vous avez vous-même procédé à l’installation de Debian, le nom d’hôte correspond au nom de la machine défini lors de l’installation. L’interface est alors accessible via :
+  ```text
+  http://MACHINE.DOMAIN
+  ```
+  >**INFORMATION**
+  >
+  >`DOMAIN = local` par défaut, sauf si un nom de domaine spécifique a été défini à l’installation.
 
-> **Tip**
+### Première connexion
+
+[Une fois l'adresse de Jeedom connue](#accès-local), saisissez-la dans votre navigateur internet pour accéder à la page de connexion :
+
+{% include lightbox.html src="images/FirstStep_box_connect.jpg" data="FirstStep_box_connect" title="Connexion Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
+
+>**IMPORTANT**
 >
-> Attention, il faut être sur le même réseau que la box Jeedom pour que cette méthode fonctionne.
+>Les identifiants par défaut sont : `admin/admin`.
 
-> **Important**
+Lorsque vous vous connectez avec les identifiants par défaut, Jeedom vous invite à modifier le mot de passe `admin`. **Saisissez simplement 2 fois le nouveau mot de passe pour sécuriser l'accès de cet utilisateur**.
+
+Il est également possible de modifier le mot de passe de l'utilisateur `admin` en cliquant sur le bouton **Mot de passe** de la page de gestion des utilisateurs *(accessible par le menu **Réglages → Système → Utilisateurs**)* :
+
+{% include lightbox.html src="images/FirstStep_boxPassword.jpg" data="FirstStep_boxPassword" title="Mot de passe admin" imgstyle="width:75%;display:block;margin:0 auto;" %}
+
+>**IMPORTANT**
 >
-> En fonction de votre box ADSL, cette fonctionalité peut ne pas marcher. Si c’est le cas, rien de grave, il vous suffit de vous connecter à votre box ADSL et de trouver l’IP de Jeedom dans celle-ci. Cette étape ne fait rien d’autre que de vous donner l’IP locale de votre Jeedom. Ce n’est pas à ce moment-là que l’ajout de votre Jeedom à votre compte Market est fait.
+>Mémorisez bien le nouveau mot de passe, il permet de se connecter à l'interface Jeedom.
 
-#### Par votre box internet
+## Market
 
--   Allez sur l’interface d’administration de votre box internet et cherchez Jeedom dans vos périphériques réseaux.
--   Récupérez son IP.
--   Mettez cette IP dans votre navigateur internet. Vous devriez être sur l’interface de Jeedom.
+Le market permet de consulter, installer et même publier des plugins facilement, d'enregistrer ses instances Jeedom ou de bénéficier des services Jeedom notamment.
 
-## Première connexion
+### Inscription
 
-Quelque soit la méthode utilisée, vous arrivez ensuite sur la page de Login. Par défaut le login et le mot de passe sont "admin".
+Pour créer un compte sur le market Jeedom, il n'y a qu'à [**remplir les champs requis par la page d'enregistrement**](https://www.jeedom.com/market/index.php?v=d&p=register){:target="_blank"} :
 
-![Connexion à votre Jeedom](images/FirstStep_box_connect.jpg)
+{% include lightbox.html src="images/FirstStep_market1.jpg" data="FirstStep_market1" title="Inscription Market Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
-## Lier mon Jeedom à mon compte Market
+Après validation, vous êtes connectés à votre compte et redirigés vers l'accueil :
 
-Nous allons voir ici comment lier votre Jeedom à votre compte Market.
+{% include lightbox.html src="images/FirstStep_market2.jpg" data="FirstStep_market2" title="Accueil Market Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
--   Une fois connecté à votre Jeedom, vous devez aller sur **Réglages → Système → Configuration**.
--   Cliquez sur l’onglet **Mises à jour/Market**.
--   En dessous, cliquez sur l’onglet **Market**.
--   Cochez la case **activer**.
--   Remplissez l’adresse : `https://market.jeedom.com`.
--   Renseignez également les champs **Nom d’utilisateur** et **Mot de passe** en fonction de vos identifants (identifiants du Market et non pas de Jeedom).
--   Vous pouvez tester pour vérifier que la connexion s’effectue correctement.
--   N’oubliez pas de sauvegarder !
+### Service Pack
 
-Pour plus de détails sur la page de configuration, voir *Manuel de configuration -> Administration*.
+Les boxes officielles Jeedom sont accompagnées d'un code **Service Pack**, reçu par email, qui permet de bénéficier de plugins et de services gratuitement.
 
-## Obtenir mon URL d’accès direct
+Pour activer votre Service Pack, il faut saisir ce code lorsque demandé après avoir cliqué sur le bouton **Je dispose d'un code** de l'onglet [**Mes services de votre profil market**](https://www.jeedom.com/market/index.php?v=d&p=profils#services){:target="_blank"}.
 
-Si vous avez un Service Pack, Jeedom vous met à disposition une URL d’accès direct à votre Jeedom sans que vous ayez à ouvrir les ports sur votre box ou autre.
-
-Pour la configurer, il vous suffit d’aller dans Réglages → Système → Configuration
-
-Puis d’aller sur la partie "Réseaux"
-
-![Réseaux](images/FirstStep_dns.jpg)
-
-Une fois ici, il vous suffit d’activer **Utiliser les DNS Jeedom** puis sur la ligne **Gestion** de faire **Rédemarrer** et votre URL apparaitra au niveau de statut HTTP, vous pouvez bien sûr la personnaliser à partir de la page profil du Market.
-
-> **Important**
+>**INFORMATION**
 >
-> Si vous venez de lier votre Jeedom à votre compte Market, il faut attendre 24 à 48h avant de pouvoir utiliser le service DNS
+>Veuillez vous rapprocher de votre revendeur si vous n'avez pas reçu de code Service Pack suite à l'acquisition d'une box officielle Jeedom.
 
-## Changer le mot de passe par défaut de Jeedom
+### Lien avec Jeedom
 
-Une des étapes importantes est de changer le mot de passe par défaut de votre compte Jeedom, pour cela cliquez sur Réglages → Système → Utilisateurs :
+Afin que votre instance Jeedom puisse communiquer avec le market, il faut renseigner les identifiants de votre profil dans la configuration générale en passant par le menu **Réglages → Système → Configuration**.
 
-Une fois dessus, vous avez juste à choisir la ligne avec l’utilisateur **admin** et à cliquer sur **Mot de passe** :
+Rendez-vous ensuite à l'onglet **Mises à jour/Market**, sous-onglet **Configuration des dépôts : Market** et renseignez les champs suivants avant de sauvegarder :
 
-![Mot de passe](images/FirstStep_boxPassword.jpg)
+- Activer Market : cocher la case
+- Adresse : `https://market.jeedom.com`
+- Nom d'utilisateur : identifiant de votre profil market
+- Mot de passe : mot de passe de votre profil market
 
-Une fenêtre va vous demander le mot de passe. Attention à bien le retenir, ou vous ne pourrez plus accéder à votre Jeedom.
+>**INFORMATION**
+>
+>Vous pouvez cliquer sur le bouton **Tester** pour vérifier que la connexion s’effectue correctement.
+
+### Accès à distance
+
+Que vous disposiez d'un Service Pack ou que vous ayez souscrit au service **Accès à distance facilité** *(DNS Jeedom)*, Jeedom génère une adresse d'accès à distance permettant de s'y connecter hors du réseau local.
+
+Pour activer ce service, il faut simplement se rendre dans le menu **Réglages → Système → Configuration**, onglet **Réseaux** :
+
+{% include lightbox.html src="images/FirstStep_dns.jpg" data="FirstStep_dns" title="Réseaux Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
+
+Cochez la case **Activer DNS Jeedom**, puis cliquez sur le bouton **(Re)démarrer**. Après un bref instant et une fois le service démarré, l'adresse d'accès à distance s'affiche à l'écran.
+
+>**INFORMATION**
+>
+>Selon les circonstances, l'accès à distance peut prendre plusieurs heures pour être totalement fonctionnel.
+
+Vous pouvez personnaliser l'adresse d'accès à distance en cliquant le bouton **Configuration** du service depuis [**votre profil market**](https://www.jeedom.com/market/index.php?v=d&p=profils#services){:target="_blank"}.
+
+Retrouvez tous les détails dans [la documentation dédiée au service Accès à distance - DNS Jeedom](../howto/mise_en_place_dns_jeedom).
 
 ## Créer mon premier objet
 
