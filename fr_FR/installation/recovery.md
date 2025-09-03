@@ -4,7 +4,7 @@
 
 Avant de réinstaller le système, **il est indispensable de télécharger une sauvegarde récente de Jeedom** qui pourra être restaurée à l'issue de la procédure :
 
-1. Depuis l'interface Jeedom, cliquer sur le menu **Réglages > Système > Sauvegardes**.
+1. Depuis l'interface Jeedom, cliquer sur le menu **Réglages → Système → Sauvegardes**.
 
 2. Cliquer sur le bouton **Lancer une sauvegarde**.
 
@@ -24,7 +24,7 @@ A l’issue, le système se lance une première fois avant de redémarrer automa
 >
 >La patience est de mise : même si on a facilement l'impression que rien ne se passe, 20 minutes, finalement ce n'est pas si long.
 
-La procédure peut directement être effectuée depuis Jeedom en cliquant sur le menu **Réglages > Système > Restauration système**, selon 2 modes opératoires différents :
+La procédure peut directement être effectuée depuis Jeedom en cliquant sur le menu **Réglages → Système → Restauration système**, selon 2 modes opératoires différents :
 
 {% include lightbox.html src="images/recovery.jpg" data="Recovery" title="Accueil page restauration système" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
@@ -62,7 +62,7 @@ Le système est mis à jour au démarrage si la clé USB préparée est branché
 
 ### Logs
 
-Le détail des opérations effectuées par l'utilitaire de restauraton système sont visibles dans le menu **Analyse > Logs**, section **recovery**.
+Le détail des opérations effectuées par l'utilitaire de restauraton système sont visibles dans le menu **Analyse → Logs**, section **recovery**.
 
 ## Images système
 
@@ -77,7 +77,7 @@ Les images systèmes actuellement fournies par l'équipe Jeedom sont librement c
 
 ### Gravure eMMC Smart
 
-**Sur Smart**, l'image système peut directement être écrite sur le support eMMC détachable. Consultez la documentation [**Guides > Tutoriaux > Remise en état d'usine Smart**](../howto/smart) pour plus de détails.
+**Sur Smart**, l'image système peut directement être écrite sur le support eMMC détachable. Consultez la documentation [**Guides → Tutoriaux → Remise en état d'usine Smart**](../howto/smart) pour plus de détails.
 
 ## Première connexion
 
