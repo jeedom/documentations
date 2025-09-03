@@ -125,7 +125,7 @@ Cochez la case **Activer DNS Jeedom**, puis cliquez sur le bouton **(Re)démarre
 
 >**INFORMATION**
 >
->Selon les circonstances, ce service peut prendre plusieurs heures pour être utilisable par l'utilisateur final.
+>Selon les circonstances, l'accès à distance peut prendre plusieurs heures pour être totalement fonctionnel.
 
 Vous pouvez personnaliser l'adresse d'accès à distance en cliquant le bouton **Configuration** du service depuis [**votre profil market**](https://www.jeedom.com/market/index.php?v=d&p=profils#services){:target="_blank"}.
 

@@ -2,7 +2,7 @@
 
 >**INFORMATION**
 >
->L’équipe Jeedom s’efforce de maintenir ces informations à jour, parfois au détriment d’autres développements. L’assistance de la communauté est précieuse à tous les niveaux de la documentation — cette page étant une priorité.
+>L’équipe Jeedom s’efforce de maintenir ces informations à jour, parfois au détriment d’autres développements. L’assistance de la communauté est précieuse à tout niveau de la documentation, cette page faisant partie des priorités.
 
 ## Boxes officielles
 
