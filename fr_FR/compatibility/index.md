@@ -4,6 +4,25 @@
 >
 >L’équipe Jeedom s’efforce de maintenir ces informations à jour, parfois au détriment d’autres développements. L’assistance de la communauté est précieuse à tous les niveaux de la documentation — cette page étant une priorité.
 
+## Boxes officielles
+
+**Jeedom et Domadoo** développent et commercialisent des boxes officielles « clé en main », avec Jeedom préinstallé sur un système optimisé et incluant des services, des plugins ainsi qu'un support technique renforcé. Les boxes officielles bénéficient également d'un outil de restauration système automatique.
+
+{% include lightbox.html src="images/tableau-comparatif-atlas-et-luna.jpg" data="AtlasLuna" title="Jeedom Atlas & Jeedom Luna" imgstyle="width:75%;display:block;margin:0 auto;" %}
+
+| Jeedom Atlas            | Jeedom Luna             |
+|-------------------------|-------------------------|
+| [Atlas **sans protocole**](https://www.domadoo.fr/fr/box-domotique/7329-jeedom-controleur-domotique-jeedom-atlas-sans-protocole.html){:target="_blank"} | [Luna **Z-Wave, Zigbee + BT**](https://www.domadoo.fr/fr/box-domotique/6280-jeedom-controleur-domotique-jeedom-luna-z-wave700-zigbee30-bt.html){:target="_blank"} |
+| [Atlas **EnOcean**](https://www.domadoo.fr/fr/box-domotique/5877-jeedom-atlas-enocean.html){:target="_blank"} | [Luna **Z-Wave, Zigbee + 4G**](https://www.domadoo.fr/fr/box-domotique/6615-jeedom-controleur-domotique-jeedom-luna-z-wave-zigbee-et-4g.html){:target="_blank"} |
+| [Atlas **EnOcean + clé Z-Wave ZOOZ**](https://www.domadoo.fr/fr/box-domotique/6857-jeedom-controleur-domotique-jeedom-atlas-enocean-dongle-z-wave-zooz.html){:target="_blank"} | [Luna **Z-Wave, Zigbee, LoRaWAN + 4G**](https://www.domadoo.fr/fr/box-domotique/6617-jeedom-controleur-domotique-jeedom-luna-z-wave-zigbee-lorawan-4g.html){:target="_blank"} |
+| [Atlas **Pro rail DIN sans protocole**](https://www.domadoo.fr/fr/box-domotique/6567-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-sans-antenne.html){:target="_blank"} |             |
+| [Atlas **Pro rail DIN EnOcean**](https://www.domadoo.fr/fr/box-domotique/6565-jeedom-atlas-pro-enocean.html){:target="_blank"} |             |
+| [Atlas **Pro rail DIN KNX**](https://www.domadoo.fr/fr/box-domotique/6563-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-knx.html){:target="_blank"} |             |
+
+>**INFORMATION**
+>
+>Bien que plus commercialisée, la box Jeedom Smart reste une solution officielle tout à fait viable dont le système continue d'être maintenu par l'équipe.
+
 ## Matérielle
 
 Nos recommandations vont dépendre de différents facteurs :
@@ -11,10 +30,6 @@ Nos recommandations vont dépendre de différents facteurs :
 - **Jeedom Atlas ou Luna** : l'alliance de la simplicité, de l'optimisation et d'une compatibilité avancée.
 - **Nano-ordinateur** *(Odroid C2, Rock Pi, Rasperry Pi, etc.)* : le meilleur rapport performance/prix.
 - **Mini-PC** *(NUC)* : des performances extrêmes pour un budget plus conséquent *(voir [le tutoriel avancé dédié](../howtoadvance/vmware.installation_sur_nuc) pour plus de détails)*.
-
->**INFORMATION**
->
->Bien que plus commercialisée, la box Jeedom Smart reste une solution officielle tout à fait viable dont le système continue d'être maintenu par l'équipe.
 
 ### Matériels supportés
 
