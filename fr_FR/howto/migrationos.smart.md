@@ -12,9 +12,9 @@ Il faut notamment :
 - préparer [une clé USB formatée en **FAT32**](https://fr.wikihow.com/formater-en-FAT32){:target="\_blank"} et disposant de **plus de 8Go d'espace libre**,
 - être sur le **même réseau local** que la box Smart et y accéder à partir de son **adresse interne**.
 
->**IMPORTANT**
+> **IMPORTANT**
 >
->Comme à l'habitude, il est vivement recommandé de conserver à disposition une **sauvegarde récente** de votre Jeedom au préalable.
+> Comme à l'habitude, il est vivement recommandé de conserver à disposition une **sauvegarde récente** de votre Jeedom au préalable.
 
 ## Migration
 
@@ -40,19 +40,19 @@ Lorsque les prérequis sont validés, nous pouvons passer à l'étape 2 :
 
 ![Clé USB vérifiée](images/migrateos-smart04.png)
 
->**INFORMATION**
+> **INFORMATION**
 >
->Il n'est pas nécessaire de rester devant l'écran durant tout le processus. Celui-ci va se dérouler automatiquement jusqu'à proposer de restaurer une sauvegarde.
+> Il n'est pas nécessaire de rester devant l'écran durant tout le processus. Celui-ci va se dérouler automatiquement jusqu'à proposer de restaurer une sauvegarde.
 
 ### Étape 2
 
-La seconde étape va se charger de générer une sauvegarde de votre Jeedom dont une copie sera mise en sécurité sur la clé USB. Cette sauvegarde sera restaurée à la fin du processus de migration si vous le souhaitez. En cas de besoin, la sauvegarde se trouve dans un répertoire nommé ``Backup`` sur la clé USB.
+La deuxième étape va se charger de générer une sauvegarde de votre Jeedom dont une copie sera mise en sécurité sur la clé USB. Cette sauvegarde sera restaurée à la fin du processus de migration si vous le souhaitez. En cas de besoin, la sauvegarde se trouve dans un répertoire nommé ``Backup`` sur la clé USB.
 
 Nous vous recommandons tout de même de vous assurer d'avoir une sauvegarde récente de Jeedom à disposition par ailleurs.
 
 ![Sauvegarde de Jeedom](images/migrateos-smart05.png)
 
-La durée de la phase de sauvegarde sera dépendante de la taille de votre installation et des options de sauvegarde déportée mises en place. Vous avez la possibilité d'accélérer le processus en désactivant l'envoi des sauvegardes Market et/ou Samba au préalable.
+La durée de la phase de sauvegarde dépendera de la taille de votre installation et des options de sauvegarde déportée mises en place. Vous avez la possibilité d'accélérer le processus en désactivant l'envoi des sauvegardes Market et/ou Samba au préalable.
 
 ![Copie de la sauvegarde sur la clé USB](images/migrateos-smart06.png)
 
@@ -82,22 +82,22 @@ A l'issue du processus de migration, la box Smart est maintenant sur un environn
 
 ![Finalisation migration](images/migrateos-smart11.png)
 
->**IMPORTANT**
+> **IMPORTANT**
 >
->**Veillez à bien retirer la clé USB de la box Smart à la fin de l'opération.**
+> **Veillez à bien retirer la clé USB de la box Smart à la fin de l'opération.**
 
 Félicitations, **votre box Smart est maintenant à jour et opérationnelle** !
 
 ## Foire aux questions
 
->**Le processus de migration se déroule correctement pourtant aucun changement ne semble avoir eu lieu après le redémarrage de la box ?**    
->Cela signifie que la clé USB utilisée n'est pas correctement reconnue par l'outil de migration. Veuillez renouveler l'opération avec une autre clé USB ou [repartitionner votre clé USB](https://fr.wikihow.com/partitionner-une-cl%C3%A9-USB){:target="\_blank"} en prenant soin de **ne créer qu'une seule partition** *(Single partition)*.
+> **Le processus de migration se déroule correctement pourtant aucun changement ne semble avoir eu lieu après le redémarrage de la box.**    
+> Cela signifie que la clé USB utilisée n'est pas correctement reconnue par l'outil de migration. Veuillez renouveler l'opération avec une autre clé USB ou [repartitionner votre clé USB](https://fr.wikihow.com/partitionner-une-cl%C3%A9-USB){:target="\_blank"} en prenant soin de **ne créer qu'une seule partition** *(Single partition)*.
 
->**Je ne parviens plus à m'authentifier sur Jeedom suite à la migration de l'environnement.**    
->Jeedom ayant été réinstallé suite à la mise à jour de l'environnement Debian, tant que vous n'avez pas restauré une sauvegarde ou créé un nouvel utilisateur, les identifiants par défaut sont ***admin/admin***.
+> **Je ne parviens plus à m'authentifier sur Jeedom suite à la migration de l'environnement.**    
+> Jeedom ayant été réinstallé suite à la mise à jour de l'environnement Debian, tant que vous n'avez pas restauré une sauvegarde ou créé un nouvel utilisateur, les identifiants par défaut sont ***admin/admin***.
 
->**Ma box n'est plus joignable suite à la migration de l'environnement.**    
->Vérifiez la présence et l'adresse ip de la box Jeedom depuis l'interface de votre routeur au cas où celle-ci ait changé d'adresse ip.
+> **Ma box n'est plus joignable suite à la migration de l'environnement.**    
+> Vérifiez la présence et l'adresse ip de la box Jeedom depuis l'interface de votre routeur au cas où celle-ci ait changé d'adresse ip.
 
->**Certains plugins ne fonctionnent plus suite à la migration.**    
->Assurez-vous d'avoir procédé à la réinstallation des dépendances pour les plugins qui en nécessitent *(consulter la page de configuration du plugin)*.
+> **Certains plugins ne fonctionnent plus suite à la migration.**    
+> Assurez-vous d'avoir procédé à la réinstallation des dépendances pour les plugins qui en nécessitent *(consulter la page de configuration du plugin)*.

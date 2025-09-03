@@ -20,7 +20,7 @@ Cette méthode est également possible avec d'autres outils, comme **Atom** (qui
 
 La première chose à faire si vous développez des fonctions du Core ou un plugin : Mettre en place une configuration de test. En effet, on ne développe pas sur une configuration de production !
 
-Pour l'installation de Jeedom, la doc est là : [Installation sur Raspberry Pi](https://doc.jeedom.com/fr_FR/installation/rpi).
+Pour l'installation de Jeedom, la doc est là : [Installation sur Raspberry Pi](../installation/rpi).
 
 Attention, préférez un SSD à une carte SD !
 

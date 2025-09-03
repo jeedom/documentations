@@ -25,24 +25,24 @@ Sur la page vous avez trois boutons :
 - **Mot de passe** : Permet de changer le mot de passe de l’utilisateur.
 - **Supprimer** : Permet de supprimer l’utilisateur.
 - **Régénérer clef API** : Régénère la clef API de l’utilisateur.
-- **Gérer les droits** : Permet de gérer finement les droits de l’utilisateur (attention le profil doit être en "utilisateur limité").
+- **Gérer les droits** : Permet de gérer les droits de l’utilisateur finement (attention le profil doit être en "utilisateur limité").
 
 ## Gestion des droits
 
-Lors du clic sur "Droits" une fenêtre apparaît et vous permet de gérer finement les droits de l’utilisateur. Le premier onglet affiche les différents équipements. Le deuxième présente les scénarios.
+Lors du clic sur "Droits" une fenêtre apparaît et vous permet de gérer les droits de l’utilisateur finement. Le premier onglet affiche les différents équipements. Le second présente les scénarios.
 
 > **Important**
 >
 > Le profil doit être en limité sinon aucune restriction mise ici ne sera prise en compte.
 
-Vous obtenez un tableau qui permet, pour chaque équipement et chaque scénario, de définir les droits de l’utilisateur :
+Vous obtenez un tableau qui permet de définir les droits de l’utilisateur pour chaque équipement et chaque scénario :
 - **Aucun** : l’utilisateur ne voit pas l’équipement/scénario.
 - **Visualisation** : l’utilisateur voit l’équipement/scénario mais ne peut pas agir dessus.
 - **Visualisation et exécution** : l’utilisateur voit l’équipement/scénario et peut agir dessus (allumer une lampe, lancer le scénario, etc).
 
 ## Session(s) active(s)
 
-Affiche les sessions de navigateur active sur votre Jeedom, avec les informations utilisateur, son IP et depuis quand. Vous pouvez déconnecter l'utilisateur à l'aide du bouton **Déconnecter**.
+Affiche les sessions de navigateur actives sur votre Jeedom, avec les informations utilisateur : son IP et depuis quand il est connecté. Vous pouvez déconnecter l'utilisateur à l'aide du bouton **Déconnecter**.
 
 ## Périphérique(s) enregistré(s)
 
@@ -52,10 +52,3 @@ Vous pouvez voir quel utilisateur, son IP, à quelle date, et supprimer l'enregi
 > **Note**
 >
 > Un même utilisateur peut avoir enregistré différents périphériques. Par exemple, son ordinateur de bureau, son ordinateur portable, son mobile, etc.
-
-
-
-
-
-
-

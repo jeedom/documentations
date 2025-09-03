@@ -1,10 +1,10 @@
 # Systeme
 
-Page réservé aux utilisateurs avancés, permet de lancer des commandes SSH directement depuis Jeedom
+Page réservée aux utilisateurs avancés. Elle permet de lancer des commandes SSH directement depuis Jeedom.
 
-## Ajout de commande
+## Ajout de commandes
 
-Il est possible d'ajouter des commandes personnalisée pour cela depuis l'éditeur Jeedom (Configuration -> OS/DB -> Editeur de fichier) il faut creer un fichier `systemCustomCmd.json` dans `data`. Le fichier doit avoir la forme suivante : 
+Il est possible d'ajouter des commandes personnalisées. Pour cela il faut créer un fichier `systemCustomCmd.json` dans `data` depuis l'éditeur Jeedom (Configuration -> OS/DB -> Editeur de fichier). Le fichier doit avoir la forme suivante : 
 ```
 [
    {

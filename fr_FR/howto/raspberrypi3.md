@@ -6,7 +6,7 @@ Le PI3 offre en effet la possibilité de booter directement sur un périphériqu
 
 **La procédure d’installation est strictement identique à celle sur une carte microSD, mais il faudra s’assurer de posséder un firmware à jour.**
 
-Pour cela ouvrez une connexion SSH. (si vous ne savez pas comment faire, regarder l’installation sur microSD : [Ici](https://doc.jeedom.com/fr_FR/installation/index.html)
+Pour cela ouvrez une connexion SSH. Si vous ne savez pas comment faire, regardez l’installation sur microSD : [Ici](../installation/index).
 
 ``vcgencmd otp_dump | grep 17:``
 
@@ -32,9 +32,9 @@ Puis redémarrage du PI3
 >
 > Pour éviter les problèmes de puissance, optez pour un disque SSD mSATA à faible consommation.
 
-> **Tip**
+> **Conseil**
 >
-> Vous pouvez désormais installer Jeedom en suivant exactement la même procédure qu’avec une carte SD. [Ici](https://doc.jeedom.com/fr_FR/installation/index.html)
+> Vous pouvez désormais installer Jeedom en suivant exactement la même procédure qu’avec une carte SD [ici](../installation/index).
 
 ## Ajustements possibles
 
@@ -42,28 +42,26 @@ Puis redémarrage du PI3
 
 > **Important**
 >
-> Les modifications suivantes sont le fruit de problèmes rencontrés par les utilisateurs. Vous devez les adapter à votre cas. Le support Jeedom n’intervient pas pour des problèmes liés à votre configuration.
+> Les modifications suivantes sont les solutions à des problèmes rencontrés par les utilisateurs. Vous devez les adapter à votre cas. Le support Jeedom n’intervient pas pour des problèmes liés à votre configuration.
 
--   **Si vous rencontrez des problèmes de swap, il faut la modifier.**
-    -   **Augmenter sa taille** :
-        -   Changez la taille de la swap en ouvrant ce fichier :
+- **Si vous rencontrez des problèmes de swap, il faut le modifier.**
+    - **Augmentez sa taille** :
+        - Changez la taille du swap en ouvrant ce fichier :
             ``sudo nano /etc/dphys-swapfile``
--   Trouvez le bon paramètre :
-    ``CONF_SWAPSIZE=100``
--   Changez la valeur de ``CONF_SWAPSIZE`` à 1024, par exemple, puis redémarrez :
-    ``sudo reboot``
--   **Changez la valeur d’appel au swap.** Par défaut, le système appelle le swap lorsqu’il reste moins de 40% de Ram.
--   Ouvrez le fichier pour changer ce paramètre :
-    ``sudo nano /etc/sysctl.conf``
--   Ajoutez cette ligne, pour demander au Pi3 de n’utiliser la swap que lorsqu’il lui reste 10% de mémoire disponible (soit 100 Mo de Ram disponible) :
-    ``vm.swappiness = 10``
--   Puis redémarrez :
-    ``sudo reboot``
--   **Désactiver le bluetooth intégré car incompatible avec la carte GPIO zwave.me**
-    -   Ouvrez le fichier concerné :
+        - Changez la valeur de ``CONF_SWAPSIZE`` à 1024, par exemple, puis redémarrez :
+            ``sudo reboot``
+    - **Changez la valeur d’appel au swap.** Par défaut, le système appelle le swap lorsqu’il reste moins de 40% de Ram.
+        - Ouvrez le fichier pour changer ce paramètre :
+            ``sudo nano /etc/sysctl.conf``
+        - Ajoutez cette ligne, pour demander au Pi3 de n’utiliser le swap que lorsqu’il lui reste 10% de mémoire disponible (soit 100 Mo de Ram disponible) :
+            ``vm.swappiness = 10``
+        - Puis redémarrez :
+            ``sudo reboot``
+- **Désactivez le bluetooth intégré car incompatible avec la carte GPIO zwave.me**
+    - Ouvrez le fichier concerné :
     ``sudo nano /boot/config.txt``
--   ajouter la ligne :
-    ``dtoverlay=pi3-disable-bt``
--   Faire un arrêt propre
-    ``sudo halt``
--   Débrancher rebrancher (pas de sudo reboot !).
+    - Ajoutez la ligne :
+        ``dtoverlay=pi3-disable-bt``
+    - Faites un arrêt propre
+        ``sudo halt``
+    - Débranchez rebranchez (pas de sudo reboot !).

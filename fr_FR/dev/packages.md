@@ -1,6 +1,6 @@
 # Description
 
-A partir de jeedom v4.2 il est possible de confier en partie la gestions des dépendances de vos plugins au core. C'est assez simple il suffit de créer un fichier ``packages.json`` dans ``plugin_info``.
+A partir de jeedom v4.2 il est possible de confier en partie la gestion des dépendances de vos plugins au core. C'est assez simple il suffit de créer un fichier ``packages.json`` dans ``plugin_info``.
 
 # Exemples
 
@@ -89,11 +89,11 @@ A partir de jeedom v4.2 il est possible de confier en partie la gestions des dé
 
 Actuellement il gère : ``apt``, ``nodejs (npm)`` , ``pip2`` et ``pip3``, avec possibilité de lancer des script de pre/post installation et de lui demander un restart d'apache en post.
 
-Si le fichier est présent le core ne se base QUE SUR CELUI-CI, il ignore les fonctions `dependancy_info` et `dependancy_install`. Il va donc uniquement calculer si il y a des paquets à installer ou non à partir de ce fichier json.
+Si le fichier est présent le core ne se base QUE SUR CELUI-CI, il ignore les fonctions `dependancy_info` et `dependancy_install`. Il va donc uniquement déterminer s'il y a des paquets à installer ou non à partir de ce fichier json.
 
 ## Nodejs
 
-Pour nodejs c'est un peu particulier, toute demande de nodejs ou npm est outre passée pour installer nodejs v12 quelque soit la plateforme. Ensuite il y a 2 possibilités :
+Pour nodejs c'est un peu particulier, toute demande de nodejs ou npm est outre passée pour installer nodejs v20 quelque soit la plateforme. Ensuite il y a 2 possibilités :
 
 - c'est un nom de package dans ce cas celui-ci est installé en global sur le système
 - c'est un chemin dans ce cas jeedom se place dans le répertoire en question est lance un npm install (avec suppression du répertoire ``node_modules``)

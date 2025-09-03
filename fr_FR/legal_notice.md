@@ -1,6 +1,6 @@
 ## Mentions légales
 
-Le site jeedom est édité et exploité par la société JEEDOM SAS, société par Actions Simplifiée (SAS) au capital de 4000 €,immatriculée au Registre du Commerce et des Sociétés de Lyon sous le n° 810505784 RCS LYON.
+Le site jeedom est édité et exploité par la société JEEDOM SAS, société par Actions Simplifiée (SAS) au capital de 4000 €, immatriculée au Registre du Commerce et des Sociétés de Lyon sous le n° 810505784 RCS LYON.
 
 Siège social : 1691 Avenue de l'Hippodrome 69140 Rillieux La Pape - France
 

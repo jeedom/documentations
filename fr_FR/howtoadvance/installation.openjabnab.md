@@ -8,7 +8,7 @@ Voici un tuto sur comment installer openjabnab en local (sur un rpi ou humming)
 
 # Installation des dépendances
 
-Une fois le système installé en SSH faite :
+Une fois le système installé en SSH faites :
 
 ````
 apt-get update

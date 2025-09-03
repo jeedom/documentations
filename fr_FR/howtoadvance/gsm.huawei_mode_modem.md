@@ -14,7 +14,7 @@ Une fois la clef connectée à un PC Windows 10 vous devez avoir un nouveau lect
 
 # Récupération du port COM
 
-Ensuite il faut récupérer le numéro du port de communication. Allez sur le menu "Démarrer" et recherchez "Gestionnaire de périphériques", lancer celui-ci puis dépliez la partie "Ports (COM et LPT)", vous devriez avoir un item contenant "HUAWEI", il faut ensuite juste retenir le numéro du port COM :
+Ensuite il faut récupérer le numéro du port de communication. Allez sur le menu "Démarrer" et recherchez "Gestionnaire de périphériques", lancez celui-ci puis dépliez la partie "Ports (COM et LPT)", vous devriez avoir un item contenant "HUAWEI", il faut ensuite juste retenir le numéro du port COM :
 
 ![gsmonly2](images/gsmonly2.PNG)
 
@@ -28,7 +28,7 @@ Une fois lancé configurez putty comme cela (en mettant bien votre numéro de po
 
 ![gsmonly3](images/gsmonly3.PNG)
 
-Une fenêtre noire va apparaître (il peut de temps en temps y avoir un message "boot…​", c’est normal, cela veut dire que vous êtes bien connecté à la clef GSM). Dans cette fenêtre il faut taper puis appuyez sur la touche "Entrée" :
+Une fenêtre noire va apparaître (il peut de temps en temps y avoir un message "boot…​", c’est normal, cela veut dire que vous êtes bien connecté à la clef GSM). Dans cette fenêtre il faut taper puis appuyer sur la touche "Entrée" :
 
 ``AT^u2diag=0``
 

@@ -43,7 +43,7 @@ Ce mini contrôleur Aeon Labs est compatible avec une grande variété de module
 
 ## Configuration
 
-Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
+Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](../plugins/automation%20protocol/openzwave/).
 
 > **Important**
 >

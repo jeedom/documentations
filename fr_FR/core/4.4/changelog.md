@@ -190,7 +190,7 @@
 
 ## 4.4.4
 
-- Ajout d'exemple de code sur la documentation de [personnalisation de jeedom](https://doc.jeedom.com/fr_FR/core/4.4/custom) (à consulter pour ceux voulant pousser la personnalisation)
+- Ajout d'exemple de code sur la documentation de [personnalisation de jeedom](custom) (à consulter pour ceux voulant pousser la personnalisation)
 - Correction d'un bug sur la fenêtre de choix des dates pour la comparaison d'historique
 - Correction d'un bug sur le dashboard sur le déplacement des commandes qui n'étaient pas immédiatement reflété sur le widget
 - Correction de bugs divers (affichage et texte)
@@ -249,9 +249,9 @@
 
 ### 4.4 : Autre
 
-- **Core** : Début du développement en pure js, sans jQuery. Voir [doc dev](https://doc.jeedom.com/fr_FR/dev/core4.4).
+- **Core** : Début du développement en pure js, sans jQuery. Voir [doc dev](../../dev/core4.4).
 - **Core** : Listing plus détaillé des périphériques USB.
-- **Core** : Un menu contextuel a été ajouté à différents endroits au niveau des cases à cocher pour les sélectionner toutes, aucunes, ou inverser la sélection *(voir [Doc dev](https://doc.jeedom.com/fr_FR/dev/core4.4))*.
+- **Core** : Un menu contextuel a été ajouté à différents endroits au niveau des cases à cocher pour les sélectionner toutes, aucunes, ou inverser la sélection *(voir [Doc dev](../../dev/core4.4))*.
 - **Lib** : Update Highchart v9.3.2 vers v10.3.2 (Le module *solid-gauge* n'est plus importé).
 - **Commandes** :  Ajout d'une option *(alpha)* pour ne pas exécuter une action si l'équipement est déjà dans l'état attendu.
 
@@ -260,7 +260,7 @@
 > **Dashboard**
 >
 > Sur le **Dashboard** et les **Vues**, le Core v4.4 redimensionne maintenant automatiquement les tuiles pour construire une grille homogène. Les unités (plus petite hauteur et plus petite largeur d'une tuile) de cette grille sont définies dans **Réglages → Système → Configuration / Interface** par les valeurs *Pas:Hauteur (mini 60px)* et *Pas:Largeur (mini 80px)*. La valeur *Marge* définissant l'espace entre les tuiles.
-> Les tuiles s'adaptent aux dimensions de la grille et peuvent faire une fois, deux fois etc. ces valeurs en hauteur ou largeur. Il faudra certainement passer en [mode Edition du Dashboard](https://doc.jeedom.com/fr_FR/core/4.4/dashboard#Mode%20%C3%A9dition) pour affiner la taille de certaines tuiles après la mise à jour.
+> Les tuiles s'adaptent aux dimensions de la grille et peuvent faire une fois, deux fois etc. ces valeurs en hauteur ou largeur. Il faudra certainement passer en [mode Edition du Dashboard](dashboard#Mode%20%C3%A9dition) pour affiner la taille de certaines tuiles après la mise à jour.
 
 > **Widgets**
 >
@@ -327,7 +327,7 @@
 
 - Correction de bugs (impactant un futur plugin en cours de développement).
 - Correction de bugs d'affichage sur certains widgets en fonction de l'unité.
-- Ajout de la description **source** pour les actions messages (voir [Doc dev](https://doc.jeedom.com/fr_FR/dev/core4.3)).
+- Ajout de la description **source** pour les actions messages (voir [Doc dev](../../dev/core4.3)).
 
 ## 4.3.6
 
@@ -395,7 +395,7 @@ Il faut maintenant utiliser :
 
 ``<a onClick="jeephp2js.planHeader_id=15; jeeFrontEnd.plan.displayPlan();"><li class="monmenu"><div class="imagette"><img src="theme1/images/new/home.png" height=30px></div></br></li></a>``
 
-cf [Doc dev](https://doc.jeedom.com/fr_FR/dev/core4.3).
+cf [Doc dev](../../dev/core4.3).
 
 Article du blog [ici](https://blog.jeedom.com/6739-jeedom-4-3/)
 
@@ -515,7 +515,7 @@ Article du blog [ici](https://blog.jeedom.com/6739-jeedom-4-3/)
 
 - **Synthèse** : Possibilité de paramétrage des objets pour aller vers un *design* ou une *vue* depuis la synthèse.
 - **Dashboard** : La fenêtre de configuration d'un équipement (mode édition) permet maintenant de configurer les widgets mobile et les types génériques.
-- **Widgets** : Internationalisation des Widgets tiers (code utilisateur). Voir [Doc dev](https://doc.jeedom.com/fr_FR/dev/core4.2).
+- **Widgets** : Internationalisation des Widgets tiers (code utilisateur). Voir [Doc dev](../../dev/core4.2).
 - **Analyse / Historique** : Possibilité de comparer un historique sur une période donnée.
 - **Analyse / Historique** : Affichage des axes multiples en Y. Option pour que chaque axe ait sa propre échelle, groupés par unité ou pas.
 - **Analyse / Historique** : Possibilité de masquer les axes Y. Menu contextuel sur les légendes avec affichage seul, masquage d'axe, changement de couleur de courbe.
@@ -526,11 +526,11 @@ Article du blog [ici](https://blog.jeedom.com/6739-jeedom-4-3/)
 - **Résumés** : Possibilité de définir une icône différente quand le résumé est nul (aucun volet ouvert, aucune lumière allumée, etc).
 - **Résumés** : Possibilité de ne jamais afficher le numéro à droite de l'icône, ou seulement s'il est positif.
 - **Résumés** : Le changement de paramètre de résumé en configuration et sur les objets est maintenant visible, sans attendre un changement de valeur du résumé.
-- **Résumés** : Il est maintenant possible de configurer des [actions sur les résumés](/fr_FR/concept/summary#Actions sur résumés) (ctrl + clic sur un résumé) grâce aux virtuels.
+- **Résumés** : Il est maintenant possible de configurer des [actions sur les résumés](../../concept/summary#Actions sur résumés) (ctrl + clic sur un résumé) grâce aux virtuels.
 - **Rapport** : Prévisualisation des fichiers PDF.
-- **Types d'équipement** : [Nouvelle page](/fr_FR/core/4.2/types) **Outils → Types d'équipement** permettant d'attribuer des types génériques aux équipements et commandes, avec support des types dédiés aux plugins installés (voir [Doc dev](https://doc.jeedom.com/fr_FR/dev/core4.2)).
+- **Types d'équipement** : [Nouvelle page](../../core/4.2/types) **Outils → Types d'équipement** permettant d'attribuer des types génériques aux équipements et commandes, avec support des types dédiés aux plugins installés (voir [Doc dev](../../dev/core4.2)).
 - **Sélection d'illustrations** : Nouvelle fenêtre globale pour le choix des illustrations *(icônes, images, fonds)*.
-- **Affichage en tableau** : Ajout d'un bouton à droite de la recherche sur les pages *Objets* *Scénarios* *Interactions* *Widgets* et *Plugins* pour basculer en mode tableau. Celui-ci est conservé par un cookie ou dans **Réglages → Système → Configuration / Interface, Options**. Les plugins peuvent faire appel à cette nouvelle fonction du Core. Voir [Doc dev](https://doc.jeedom.com/fr_FR/dev/core4.2).
+- **Affichage en tableau** : Ajout d'un bouton à droite de la recherche sur les pages *Objets* *Scénarios* *Interactions* *Widgets* et *Plugins* pour basculer en mode tableau. Celui-ci est conservé par un cookie ou dans **Réglages → Système → Configuration / Interface, Options**. Les plugins peuvent faire appel à cette nouvelle fonction du Core. Voir [Doc dev](../../dev/core4.2).
 - **Configuration Equipement** : Possibilité de paramétrer une courbe d'historique en fond de tuile d'un équipement.
 - **Commande** : Possibilité de faire un calcul sur une commande action de type slider avant exécution de la commande.
 - **Plugins / Gestion** : Affichage de la catégorie du plugin, et d'un lien pour ouvrir directement la page de celui-ci sans passer par le menu Plugins.
@@ -584,7 +584,7 @@ Nous avons ajouté une confirmation du mot de passe de backup cloud pour préven
 - Renforcement des sessions : Passage en sha256 avec 64 caractères en mode strict.
 
 L'équipe Jeedom a bien conscience que ces changements peuvent avoir un impact et être gênant pour vous mais nous ne pouvons transiger sur la sécurité.
-Les plugins doivent respecter les recommandations sur l'arborescence des dossiers et fichiers : [Doc](https://doc.jeedom.com/fr_FR/dev/plugin_template).
+Les plugins doivent respecter les recommandations sur l'arborescence des dossiers et fichiers : [Doc](../../dev/plugin_template).
 
 [Blog: Introduction Jeedom 4.2 : la sécurité](https://blog.jeedom.com/6165-introduction-jeedom-4-2-la-securite/)
 

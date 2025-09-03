@@ -1,7 +1,7 @@
 # Dashboard
 **Accueil → Dashboard**
 
-<small>[Raccourcis clavier/souris](shortcuts.md)</small>
+<small>[Raccourcis clavier/souris](shortcuts)</small>
 
 Le dashboard est une des pages principales de Jeedom, il affiche un compte-rendu de toute votre domotique.
 Ce compte-rendu (contrairement aux vues et designs) est auto-généré par Jeedom, et comprend l'ensemble des objets visibles et leurs équipements.
@@ -9,7 +9,7 @@ Ce compte-rendu (contrairement aux vues et designs) est auto-généré par Jeedo
 {% include lightbox.html src="images/doc-dashboard-legends.png" data="Dashboard" title="Dashboard" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 - 1 : Menu principal de Jeedom.
-- 2 : Résumé global [Documentation sur les résumés.](/fr_FR/concept/summary).
+- 2 : Résumé global [Documentation sur les résumés.](../../concept/summary).
 - 3 : Heure du navigateur, raccourci vers la Timeline.
 - 4 : Bouton pour accéder à la documentation de la page en cours.
 - 5 : Nom de votre Jeedom, raccourci vers la configuration.

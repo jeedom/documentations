@@ -6,7 +6,7 @@ Pour cela on lui indique les critères d’évaluation et les actions à prendre
 
 # Installation de Monit
 
-Voici les commandes à lancer pour installer monit :
+Voici la commande à lancer pour installer monit :
 
 ``sudo apt-get -y monit``
 

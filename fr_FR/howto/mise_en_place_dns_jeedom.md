@@ -6,7 +6,7 @@ Mettre en place le DNS Jeedom pour avoir un accès à son Jeedom en externe par 
 
 > **IMPORTANT**
 >
->Le DNS Jeedom agit comme un reverse proxy il ne donne donc accès qu'à votre Jeedom en https, il ne sera donc pas possible d'accéder à votre Jeedom en SSH à distance avec le DNS Jeedom
+> Le DNS Jeedom agit comme un reverse proxy il ne donne donc accès qu'à votre Jeedom en https, il ne sera donc pas possible d'accéder à votre Jeedom en SSH à distance avec le DNS Jeedom
 
 ## Pré-requis
 
@@ -42,7 +42,7 @@ Voilà votre Jeedom est accessible de l'extérieur en https
 
 > **Y a-t-il besoin d'ouvrir des ports sur ma box**
 >
-> Non il n'y a pas besoin d'ouvrir de port sur votre box internet vers votre Jeedom. La connexion est dans le sens Jeedom -> VPN, c'est donc une connexion sortante (sur les ports 1194,1195,1996,1997,1198,1199,2000 et 2001) et non une connexion entrante.
+> Non il n'y a pas besoin d'ouvrir de port sur votre box internet vers votre Jeedom. La connexion est dans le sens Jeedom -> VPN, c'est donc une connexion sortante (sur les ports 1194, 1195, 1996, 1997, 1198, 1199, 2000 et 2001) et non une connexion entrante.
 
 > **Pourquoi le DNS Jeedom protège mon accès à celui-ci**
 >
@@ -61,4 +61,4 @@ Voilà votre Jeedom est accessible de l'extérieur en https
 
 > **J'ai l'erreur "ERROR: Cannot open TUN/TAP dev /dev/net/tun: No such file or directory (errno=2)"**
 >
-> Cette erreur se produit en général sur les installations de type docker, comme indiqué dans la documentation de [compatibilité](https://doc.jeedom.com/fr_FR/compatibility/) le support de docker est beta justement à cause de ce genre de soucis. La solution est en général l'installation openvpn sur l'hôte (quand cela est possible)
+> Cette erreur se produit en général sur les installations de type docker, comme indiqué dans la documentation de [compatibilité](../compatibility/) le support de docker est beta justement à cause de ce genre de soucis. La solution est en général l'installation openvpn sur l'hôte (quand cela est possible)

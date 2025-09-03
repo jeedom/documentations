@@ -1,7 +1,7 @@
 # Scénarios
 **Outils → Scénarios**
 
-<small>[Raccourcis clavier/souris](shortcuts.md)</small>
+<small>[Raccourcis clavier/souris](shortcuts)</small>
 
 Véritable cerveau de la domotique, les scénarios permettent d’interagir avec le monde réel de manière *intelligente*.
 
@@ -233,7 +233,7 @@ Il existe des déclencheurs spécifiques (autre que ceux fournis par les command
 - ``#end_restore#`` : Événement envoyé à la fin d’une restauration.
 - ``#user_connect#`` : Connexion d'un utilisateur
 
-Vous pouvez aussi déclencher un scénario quand une variable est mise à jour en mettant : #variable(nom_variable)# ou en utilisant l’API HTTP décrite [ici](https://doc.jeedom.com/fr_FR/core/4.1/api_http).
+Vous pouvez aussi déclencher un scénario quand une variable est mise à jour en mettant : #variable(nom_variable)# ou en utilisant l’API HTTP décrite [ici](../4.1/api_http).
 
 ### Opérateurs de comparaison et liens entre les conditions
 
