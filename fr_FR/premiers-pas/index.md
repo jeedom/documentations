@@ -12,21 +12,18 @@ Pour accéder à l’interface Jeedom, il est nécessaire de connaître l’adre
 
 #### Découverte automatique
 
-Le Market Jeedom dispose d'[**un outil de découverte permettant de récupérer les adresses IP des instances Jeedom connectées au réseau local**](https://www.jeedom.com/market/index.php?v=d&p=find){:target="_blank"}.
+Le market Jeedom propose [**un outil de découverte permettant de récupérer les adresses IP des instances Jeedom connectées au même réseau local**](https://www.jeedom.com/market/index.php?v=d&p=find){:target="_blank"}.
 
 >**IMPORTANT**
 >
->Il est nécessaire que la box soit démarrée depuis une bonne dizaine de minutes pour que la découverte Jeedom fonctionne.
-
->**INFORMATION**
->
->Cette fonctionnalité dépend de la configuration réseau appliquée localement et peut, selon les cas, ne pas être utilisable.
+>Il est nécessaire que la box soit démarrée depuis plusieurs minutes pour que la découverte Jeedom fonctionne.\
+>De plus, cette fonctionnalité dépend de la configuration réseau appliquée localement et peut être inutilisable dans certaines conditions.
 
 #### Routeur
 
 Vous pouvez retrouver l’adresse IP de votre box Jeedom en accédant à l’interface d’administration de votre routeur ou box internet.
 
-La plupart des interfaces proposent une liste des appareils/périphériques connectés, avec leur nom d’hôte, adresse MAC et adresse IP. Recherchez un périphérique nommé “Jeedom” ou identifiez-le via son adresse MAC.
+La plupart propose une liste des appareils/périphériques connectés, avec leur nom d’hôte, adresse MAC et adresse IP. Recherchez un périphérique nommé “Jeedom” ou identifiez-le via son adresse MAC.
 
 >**IMPORTANT**
 >
@@ -34,7 +31,7 @@ La plupart des interfaces proposent une liste des appareils/périphériques conn
 
 #### Nom d'hôte
 
-L'interface Jeedom est également accessible par le nom d'hôte de la machine sur le même réseau local.
+L'interface Jeedom est également accessible par le nom d'hôte de la machine.
 
 - En cas d'utilisation d'une image système officielle pour déployer Jeedom, le nom d'hôte est connu et Jeedom doit être accessible sur :
 
