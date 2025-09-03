@@ -4,7 +4,7 @@ La procédure suivante est basée sur l'utilisation d'un fichier d'image systèm
 
 >**INFORMATION**
 >
->Pour installer Jeedom manuellement sur un sytème Debian, se référer à la documentation concernant [l'installation en ligne de commande](./cli).
+>Pour installer Jeedom manuellement sur un sytème Debian, se référer à la documentation concernant [l'installation en ligne de commande](cli).
 
 ## Téléchargement de l'image système
 
