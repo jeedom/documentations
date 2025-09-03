@@ -1,114 +1,128 @@
-# Primer paso
+# 
 
-Bienvenido a la documentación de este primer paso, le ayudará a poner su Jeedom en servicio.
+Cette documentation présente les étapes à suivre après la mise en service de votre box Jeedom.
 
-## Registro en el mercado
+## Interface
 
-Lo primero que debe hacer es crear una cuenta en el Mercado para poder registrar su Jeedom en él. Haga clic en [aquí](https://market.jeedom.com/).
+Votre instance Jeedom est accessible par son interface web à son adresse sur le réseau local.
 
-Haga clic en el botón "Registrarse" en la esquina superior izquierda :
+### Accès local
 
-![S'enregistrer sur le Mercado](images/FirstStep_market1.jpg)
+Pour accéder à l'interface Jeedom, il est nécessaire de connaître l'adresse IP ou le nom d'hôte de la machine sur le réseau local. Voici trois méthodes pour l'obtenir :
 
-Rellene los diferentes campos y valide. Entonces deberías estar en tu cuenta de Market:
+#### Découverte automatique
 
-![Mercado](images/FirstStep_market2.jpg)
+Le market Jeedom propose [**un outil de découverte permettant de récupérer les adresses IP des instances Jeedom connectées au même réseau local**](https://www.jeedom.com/market/index.php?v=d&p=find){:target="_blank"}.
 
-
-## Agregar su código de paquete de servicio
-
-Si compró una caja Jeedom, entonces debería haber recibido un correo electrónico con un código para su paquete de servicio.
-
-> **Importante**
+>**Importante**
 >
-> Es importante completarlo porque este código le da acceso a ciertos complementos de forma gratuita, así como a servicios exclusivos.
+>Il est nécessaire que la box soit démarrée depuis plusieurs minutes pour que la découverte Jeedom fonctionne.\
+>De plus, cette fonctionnalité dépend de la configuration réseau appliquée localement et peut être inutilisable dans certaines conditions.
 
-> **Importante**
+#### Routeur
+
+Vous pouvez retrouver l'adresse IP de votre box Jeedom en accédant à l'interface d'administration de votre routeur ou box internet.
+
+La plupart propose une liste des appareils/périphériques connectés, avec leur nom d'hôte, adresse MAC et adresse IP. Recherchez un périphérique nommé “Jeedom” ou identifiez-le via son adresse MAC.
+
+>**Importante**
 >
-> Si compra un paquete de servicio en Jeedom Market, no tiene nada que hacer, se le asigna automáticamente.
+>Se référer au manuel du fabricant en cas de difficulté à atteindre l'interface d'administration du routeur.
 
-Una vez que se haya recuperado el código del correo electrónico, todo lo que tiene que hacer es ir al [Mercado de la libertad](https://market.jeedom.com/) e identificarte.
+#### Nom d'hôte
 
-Luego ve a tu página de perfil:
+L'interface Jeedom est également accessible par le nom d'hôte de la machine.
 
-![Profil Mercado](images/FirstStep_market_sp1.jpg)
+- En cas d'utilisation d'une image système officielle pour déployer Jeedom, le nom d'hôte est connu et Jeedom doit être accessible sur :
 
-Luego haga clic en la pestaña “Mis servicios” e ingrese su número de Service Pack y valide.
+  | Machine            | Interface Jeedom   |
+  |--------------------|--------------------|
+  | [Luna](https://images.jeedom.com/luna/){:target="_blank"} | [http://jeedomluna.local](http://jeedomluna.local){:target="_blank"} |
+  | [Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [http://jeedomatlas.local](http://jeedomatlas.local){:target="_blank"} |
+  | [Smart](https://images.jeedom.com/smart/){:target="_blank"} | [http://jeedomsmart.local](http://jeedomsmart.local){:target="_blank"} |
+  | [Ordinateur *(installation automatique)*](https://images.jeedom.com/x86-64/){:target="_blank"} | [http://jeedom.local](http://jeedom.local){:target="_blank"} |
+  | [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [http://jeedomfreebox.local](http://jeedomfreebox.local){:target="_blank"} |
 
-> **Punta**
+- ). .
+
+  L'adresse de l'interface Jeedom doit normalement correspondre à : `http://MACHINE.DOMAIN`.
+
+### Primera conexión
+
+[Une fois l'adresse de Jeedom connue](#Accès%20local), saisissez-la dans votre navigateur internet pour accéder à la page de connexion :
+
+{% include lightbox.html src="images/FirstStep_box_connect.jpg" data="FirstStep_box_connect" title="Connexion Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
+
+>**Importante**
 >
-> Si compró una caja oficial de Jeedom, el número del paquete de servicio debería haberse enviado por correo electrónico. Si no ha recibido nada, comuníquese con la tienda donde compró su caja.
+>Les identifiants par défaut sont : `admin/admin`.
 
-## Encuentra tu Jeedom en la red
+Lorsque vous vous connectez avec les identifiants par défaut, Jeedom vous invite à modifier le mot de passe `admin`. **Saisissez simplement 2 fois le nouveau mot de passe pour sécuriser l'accès de cet utilisateur**.
 
-Una vez que Jeedom esté conectado eléctricamente y conectado a su red local, aquí le mostramos cómo conectarse a él.
+Il est également possible de modifier le mot de passe de l'utilisateur `admin` en cliquant sur le bouton **Contraseña** de la page de gestion des utilisateurs *(accessible par le menu **Réglages → Système → Utilisateurs**)* :
 
-### Encontrar Jeedom
+{% include lightbox.html src="images/FirstStep_boxPassword.jpg" data="FirstStep_boxPassword" title="Contraseña admin" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
-#### A través del mercado
-
-Solution la plus simple (mais ne marche pas dans 100% des cas en fonction de la configuration de votre accès internet), il faut démarrer la box, attendre environ 10 minutes (attention si vous utilisez une image type netinstallation, ça sera plutôt 30 minutes ) e ir [aquí](https://www.jeedom.com/market/index.php?v=d&p=find)
-
-> **Punta**
+>**Importante**
 >
-> Tenga en cuenta que debe estar en la misma red que el cuadro Jeedom para que este método funcione.
+>Mémorisez bien le nouveau mot de passe, il permet de se connecter à l'interface Jeedom.
 
-> **Importante**
+## Market
+
+Le market permet de consulter, installer et même publier des plugins facilement, d'enregistrer ses instances Jeedom ou de bénéficier des services Jeedom notamment.
+
+### Inscription
+
+Pour créer un compte sur le market Jeedom, il n'y a qu'à [**remplir les champs requis par la page d'enregistrement**](https://www.jeedom.com/market/index.php?v=d&p=register){:target="_blank"} :
+
+{% include lightbox.html src="images/FirstStep_market1.jpg" data="FirstStep_market1" title="Inscription Mercado Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
+
+Après validation, vous êtes connectés à votre compte et redirigés vers l'accueil :
+
+{% include lightbox.html src="images/FirstStep_market2.jpg" data="FirstStep_market2" title="Accueil Mercado Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
+
+### Service Pack
+
+Les boxes officielles Jeedom sont accompagnées d'un code **Service Pack**, reçu par email, qui permet de bénéficier de plugins et de services gratuitement.
+
+Pour activer votre Service Pack, il faut saisir ce code lorsque demandé après avoir cliqué sur le bouton **Je dispose d'un code** de l'onglet [**Mes services de votre profil market**](https://www.jeedom.com/market/index.php?v=d&p=profils#services){:target="_blank"}.
+
+>**INFORMATION**
 >
-> Dependiendo de su caja ADSL, es posible que esta función no funcione. Si es así, nada serio, solo necesita conectarse a su caja ADSL y encontrar la IP de libertad en ella. Este paso no hace más que darle la IP local de su Jeedom. Esto no ocurre cuando se agrega su Jeedom a su cuenta de mercado.
+>Veuillez vous rapprocher de votre revendeur si vous n'avez pas reçu de code Service Pack suite à l'acquisition d'une box officielle Jeedom.
 
-#### Por su caja de internet
+### Lien avec Jeedom
 
--   Vaya a la interfaz de administración de su caja de internet y busque Jeedom en sus dispositivos de red.
--   Consigue su IP.
--   Pon esta IP en tu navegador de internet. Deberías estar en la interfaz Jeedom.
+Afin que votre instance Jeedom puisse communiquer avec le market, il faut renseigner les identifiants de votre profil dans la configuration générale en passant par le menu **Preferencias → Sistema → Configuración**.
 
-## Primera conexión
+Rendez-vous ensuite à l'onglet **Actualizaciones / Mercado**, sous-onglet **Configuration des dépôts : Mercado** et renseignez les champs suivants avant de sauvegarder :
 
-Cualquiera que sea el método utilizado, llegarás a la página de inicio de sesión. Por defecto, el nombre de usuario y la contraseña son "admin".
+- Activer Market : cocher la case
+- Adresse : `https://market.jeedom.com`
+- Nombre de usuario : identifiant de votre profil market
+- Contraseña : mot de passe de votre profil market
 
-![Connexion à votre Jeedom](images/FirstStep_box_connect.jpg)
-
-## Enlace mi Jeedom a mi cuenta de mercado
-
-Veremos aquí cómo vincular su Jeedom a su cuenta de Market.
-
--   Una vez conectado a su libertad, debe ir a **Preferencias → Sistema → Configuración**.
--   Click en la pestaña **Actualizaciones / Mercado**.
--   A continuación, haga clic en la pestaña **Mercado**.
--   Marca la casilla **Activar**.
--   Remplissez l'adresse : `https://market.jeedom.com`.
--   También complete los campos **Nombre de usuario** y **Contraseña** basado en sus identificadores (identificadores de mercado y no Jeedom).
--   Puede probar para verificar que la conexión se realizó correctamente.
--   No olvides guardar !
-
-Para obtener más detalles sobre la página de configuración, consulte *Manual de configuración -> Administración*.
-
-## Obtener mi URL de acceso directo
-
-Si tiene un Service Pack, Jeedom le proporciona una URL de acceso directo a su Jeedom sin tener que abrir los puertos en su caja u otro.
-
-Para configurarlo, simplemente vaya a Configuración → Sistema → Configuración
-
-Luego ve a la parte de "Redes""
-
-![Réseaux](images/FirstStep_dns.jpg)
-
-Una vez aquí, solo actívala **Usando Jeedom DNS** luego en la línea **Gestión** de hacer **Reiniciar** y su URL aparecerá en el nivel de estado HTTP, por supuesto, puede personalizarla desde la página de perfil de Market.
-
-> **Importante**
+>**INFORMATION**
 >
-> Si acaba de vincular su Jeedom a su cuenta de Market, debe esperar de 24 a 48 horas antes de poder utilizar el servicio DNS
+>Vous pouvez cliquer sur le bouton **Tester** pour vérifier que la connexion s'effectue correctement.
 
-## Cambiar la contraseña predeterminada de Jeedom
+### Accès à distance
 
-Uno de los pasos importantes es cambiar la contraseña predeterminada de su cuenta Jeedom, para eso haga clic en Configuración → Sistema → Usuarios:
+Que vous disposiez d'un Service Pack ou que vous ayez souscrit au service **Accès à distance facilité** *(DNS Jeedom)*, Jeedom génère une adresse d'accès à distance permettant de s'y connecter hors du réseau local.
 
-Una vez en ella, solo debes elegir la línea con el usuario **Administración** y haga clic en **Contraseña** :
+Pour activer ce service, il faut simplement se rendre dans le menu **Réglages → Système → Configuration**, onglet **Réseaux** :
 
-![Contraseña](images/FirstStep_boxPassword.jpg)
+{% include lightbox.html src="images/FirstStep_dns.jpg" data="FirstStep_dns" title="Réseaux Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
-Una ventana le pedirá la contraseña. Tenga cuidado de recordarlo bien, o ya no podrá acceder a su Jeedom.
+Marca la casilla **Activer DNS Jeedom**, puis cliquez sur le bouton **(Re)démarrer**. Après un bref instant et une fois le service démarré, l'adresse d'accès à distance s'affiche à l'écran.
+
+>**INFORMATION**
+>
+>Selon les circonstances, l'accès à distance peut prendre plusieurs heures pour être totalement fonctionnel.
+
+Vous pouvez personnaliser l'adresse d'accès à distance en cliquant le bouton **Configuration** du service depuis [**votre profil market**](https://www.jeedom.com/market/index.php?v=d&p=profils#services){:target="_blank"}.
+
+Retrouvez tous les détails dans [la documentation dédiée au service Accès à distance - DNS Jeedom](../howto/mise_en_place_dns_jeedom).
 
 ## Crear mi primer objeto
 
