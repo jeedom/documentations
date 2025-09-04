@@ -71,7 +71,7 @@ Vous pouvez vous aussi installer jeedom à l'aide de docker compose :
 ```
 services:
   jeedom:
-    image: jeedom/jeedom:latest
+    image: jeedom/jeedom:jeedom:4.x-bullseye
     volumes:
       - http:/var/www/html
       - db:/var/lib/mysql
