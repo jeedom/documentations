@@ -3,12 +3,16 @@
 >**Importante**
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
-
+>
 # 
 
-- . 
-- 
-- 
+-  *( : .)*
+
+# 29/01/2025
+
+- Modification sur l'installation des dépendances pour compatiblité Debian 12. Il est possible qu'il soit nécessaire de les relancer
+- Fix une fuite de mémoire sur le démon
+- Compatibilité du démon avec Debian 12
 
 # 27/01/2025
 

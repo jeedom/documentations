@@ -4,7 +4,26 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 
+
+- . 
+- 
+- 
+
+# 27/01/2025
+
+- Version minimum Jeedom 4.4
+- Version minimum Debian 11
+- Corrections mineures
+
+# 20/11/2020
+
+- Allgemeine Optimierungen
+- Neue Darstellung der Objektliste
+- Hinzufügung des Tags "V4-Kompatibilität"
+
 # 2019.08.28
+
 - verbesserte Widgets
 - Panel Verbesserung
 - Übergang zu einem Dämon (bei Bedarf Abhängigkeiten wiederbeleben)
@@ -15,7 +34,6 @@
 - Hinzufügen einer Bestellung mit vollständigen Optionen
 - Hinzufügen eines Wiedergabeliedbefehls
 - vollständige Überarbeitung der Kommunikation mit LMS
-
 
 2018-05-17
 Wechseln Sie zu einem API-Schlüssel, der für das Plugin spezifisch ist. Bitte beachten Sie, dass hierfür das Plugin in Squeezebox Control aktualisiert und die spezifische API für das Plugin eingegeben werden muss. Dies ist der Ausgangspunkt für die Optimierung des Plugins

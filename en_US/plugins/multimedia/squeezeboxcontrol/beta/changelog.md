@@ -3,12 +3,16 @@
 >**Important**
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
-
+>
 # 
 
-- . 
-- 
-- 
+-  *( : .)*
+
+# 29/01/2025
+
+- Modification sur l'installation des dépendances pour compatiblité Debian 12. Il est possible qu'il soit nécessaire de les relancer
+- Fix une fuite de mémoire sur le démon
+- Compatibilité du démon avec Debian 12
 
 # 27/01/2025
 

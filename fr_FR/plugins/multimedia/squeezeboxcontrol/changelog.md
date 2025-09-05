@@ -3,6 +3,22 @@
 >**IMPORTANT**
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+>
+# 04/09/2025
+
+- Passage en stable *(rappel : Debian 11 et Jeedom 4.4 mini)*
+
+# 29/01/2025
+
+- Modification sur l'installation des dépendances pour compatiblité Debian 12. Il est possible qu'il soit nécessaire de les relancer
+- Fix une fuite de mémoire sur le démon
+- Compatibilité du démon avec Debian 12
+
+# 27/01/2025
+
+- Version minimum Jeedom 4.4
+- Version minimum Debian 11
+- Corrections mineures
 
 # 20/11/2020
 
@@ -11,6 +27,7 @@
 - Ajout du tag "Compatibilité V4"
 
 # 28/08/2019
+
 - amélioration des widgets
 - amélioration du panel
 - passage à un démon (relancer les dépendances si besoin)
@@ -21,7 +38,6 @@
 - rajout d'une commande parle full options complètes
 - rajout d'une commande jouer morceau
 - refonte complète de la communication avec LMS
-
 
 17-05-2018
 Passage a une clé api spécifique au plugin. Attention cela nécessite de mettre à jour le plugin dans Squeezebox Control et de renseigner l'api spécifique du plugin. Cela est le point de départ permettant la réalisation d'optimisation du plugin

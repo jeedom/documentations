@@ -4,7 +4,26 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 
+
+- . 
+- 
+- 
+
+# 27/01/2025
+
+- Version minimum Jeedom 4.4
+- Version minimum Debian 11
+- Corrections mineures
+
+# 20/11/2020
+
+- Optimizaciones generales
+- Nueva presentación de la lista de objetos
+- Adición de la etiqueta "compatibilidad V4"
+
 # 08/28/2019
+
 - widgets mejorados
 - mejora del panel
 - transición a un demonio (revivir dependencias si es necesario)
@@ -15,7 +34,6 @@
 - Agregar un pedido usando opciones completas completas
 - adición de un comando de reproducción de canción
 - revisión completa de la comunicación con LMS
-
 
 2018-05-17
 Cambie a una clave API específica para el complemento. Tenga en cuenta que esto requiere actualizar el complemento en Squeezebox Control e ingresar la API específica para el complemento. Este es el punto de partida para la optimización del complemento

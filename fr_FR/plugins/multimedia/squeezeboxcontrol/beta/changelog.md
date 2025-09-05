@@ -3,6 +3,10 @@
 >**IMPORTANT**
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+>
+# 04/09/2025
+
+- Passage en stable *(rappel : Debian 11 et Jeedom 4.4 mini)*
 
 # 29/01/2025
 
