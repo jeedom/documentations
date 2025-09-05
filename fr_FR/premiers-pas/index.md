@@ -8,7 +8,7 @@ Votre instance Jeedom est accessible par son interface web à son adresse sur le
 
 ### Accès local
 
-Pour accéder à l’interface Jeedom, il est nécessaire de connaître l’adresse IP ou le nom d’hôte de la machine sur le réseau local. Voici trois méthodes pour l’obtenir :
+Pour accéder à l’interface Jeedom, il est nécessaire de connaître l’adresse IP ou le nom d’hôte de la machine sur le réseau local. Voici plusieurs méthodes pour l’obtenir :
 
 #### Découverte automatique
 
@@ -46,6 +46,13 @@ L'interface Jeedom est également accessible par le nom d'hôte de la machine.
 - Si vous avez vous-même procédé à l’installation de Debian, le nom d’hôte correspond au nom de la machine défini lors de l’installation (`MACHINE`). `DOMAIN = local` par défaut, ou le nom de domaine spécifique renseigné à l'installation si c'est le cas.
 
   L’adresse de l'interface Jeedom doit normalement correspondre à : `http://MACHINE.DOMAIN`.
+
+#### Console système
+
+L'adresse IP peut également être affichée directement depuis la console système en tapant la commande :
+```sh
+ip addr | grep 'inet ' | tail -n 1
+```
 
 ### Première connexion
 
