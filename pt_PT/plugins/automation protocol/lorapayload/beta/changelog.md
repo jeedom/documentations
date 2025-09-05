@@ -4,9 +4,11 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 # )
--  *WT304-868M - SMART FAN COIL THERMOSTAT*
+- Correction  des downlinks pour produit *WT304-868M - SMART FAN COIL THERMOSTAT*
 
-- Ajout du produit **
+- Ajout du produit *LC01 - Relay Controller*
+
+- 
 
 # 29/08/2025
 - Ajout du downlink de la commande Heating Target Temperature Range et Cooling Target Temperature Range pour produit *WT304-868M - SMART FAN COIL THERMOSTAT*
