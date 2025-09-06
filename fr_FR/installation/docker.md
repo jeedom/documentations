@@ -1,74 +1,61 @@
-# Installation sur Docker
+# Installation dans Docker
 
-> **Important**
+La procédure suivante s'adresse aux utilisateurs maitrisant les environnements Docker.
+
+>**IMPORTANT**
 >
-> Attention, nous partons ici du principe que vous maîtrisez déjà Docker
+>Les instances Jeedom sous Docker ne sont pas prises en charge par le support officiel.
 
 ## Installation de docker
 
-Docker est maintenant disponible sur toutes les distributions récentes.
+Docker est disponible sur toutes les distributions récentes.
 Pour l’installer sur une distribution
 
--   à base de ``rpm``
-
-````
+- à base de ``rpm`` :
+````sh
 yum install docker
 ````
 
--   à base de ``deb``
-
-````
-apt-get update
-apt-get install docker.io
+- à base de ``deb`` :
+````sh
+sudo apt update && sudo apt install docker.io
 ````
 
 ## Installation d’une image Jeedom
 
 Installation de l’image :
-
-``docker pull jeedom/jeedom:latest``
+````sh
+docker pull jeedom/jeedom:latest
+````
 
 Puis lancez la :
-
-``sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/db:/var/lib/mysql -p 80:80 -d jeedom/jeedom:latest``
+````sh
+sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/db:/var/lib/mysql -p 80:80 -d jeedom/jeedom:latest
+````
 
 Avec :
 
--   ``jeedom-server`` : nom du container jeedom voulu
--   ``/opt/jeedom/www`` et ``/opt/jeedom/db`` : répertoire où les données de Jeedom sont mises sur l’hôte (attention a bien les créer avant)
--  `` -p 80:80``: le port du container (80) est redirigé vers le port de l'hôte (par défaut 80 aussi)
+- ``jeedom-server`` : nom du container jeedom voulu
+- ``/opt/jeedom/www`` et ``/opt/jeedom/db`` : répertoire où les données de Jeedom sont mises sur l’hôte *(attention a bien les créer avant)*
+- ``-p 80:80``: le port du container *(80)* est redirigé vers le port de l'hôte *(par défaut 80 aussi)*
 
-### Liste des images disponibles
-- `jeedom/jeedom:latest` : dernière version **stable** sur Debian bookworm (beta)
-- `jeedom/jeedom:beta` : dernière version **beta**
-- `jeedom/jeedom:4.x` : les versions sont conservées depuis 4.3
-- `jeedom/jeedom:4.x-bullseye` : Une variante basée sur Debian Bullseye, à privilégier
-- `jeedom/jeedom:4.x-buster` : Une variante basée sur Debian Buster (deprecated)
-- `jeedom/jeedom:4.x-bookworm` : Une variante basée sur Debian bookworm (beta)
-- `jeedom/jeedom:4.x-http-bookworm` : Une variante basée sur Debian bookworm ne contenant que Jeedom, pas de mariadb. Utilisée pour docker composer (beta)
-
-La liste complète est disponible sur le [Docker Hub](https://hub.docker.com/r/jeedom/jeedom/tags)
-
-> **TIPS**
+> **INFORMATION**
 >
-> Avec l'option `-d` Docker vous rend immédiatement la main (option 'detach') mais installe en tâche de fond. Il est possible de suivre les logs avec la commande `docker logs jeedom-server -f` (option f = follow)
+> Avec l'option `-d` *(``detach``)*, Docker vous rend immédiatement la main mais installe en tâche de fond. Il est possible de suivre les logs avec la commande `docker logs jeedom-server -f` (option f = follow)
 
 Il vous faut ensuite installer Jeedom en allant sur : ``IP_DOCKER:80``
 
-> **TIPS**
+> **INFORMATION**
 >
 > Vous pouvez voir les dockers qui tournent ``docker ps`` pour arreter votre container, jeedom-server par exemple, il vous suffit de faire ``docker stop jeedom-server``, pour le relancer ``docker start jeedom-server``
 
-Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
+## Docker compose
 
+Vous pouvez vous aussi installer jeedom à l'aide de docker compose :
 
-# Docker compose
+### En mode 1 service
 
-Vous pouvez vous aussi installer jeedom à l'aide de docker compose : 
-
-## En mode 1 services
-
-```
+```dockerfile
 services:
   jeedom:
     image: jeedom/jeedom:latest
@@ -91,15 +78,14 @@ volumes:
   http:
 ```
 
+### En mode 2 services *(experimental)*
 
-## En mode 2 services (experimental)
-
-```
+```dockerfile
 services:
   jeedom_db:
     image: mariadb:latest
     container_name: jeedom_db
-    command: 
+    command:
       - "--default-authentication-plugin=mysql_native_password"
       - "--skip-name-resolve"
       - "--key_buffer_size=16M"
@@ -154,10 +140,24 @@ volumes:
   http:
 ```
 
->**TIPS**
+>**INFORMATION**
 >
 >N'oubliez pas completer les `TODO` avec les mots de passe voulu
-
->**TIPS**
 >
-> Il est possible de spécifier le port d'écoute d'Apache avec la variable d'environnement `APACHE_PORT`, attention a bien mettre à jour le `healthcheck` avec le nouveau port. Attention cela n'est possible qu'a partir de Jeedom 4.5
+>Il est possible de spécifier le port d'écoute d'Apache avec la variable d'environnement `APACHE_PORT`, attention a bien mettre à jour le `healthcheck` avec le nouveau port. Attention cela n'est possible qu'a partir de Jeedom 4.5
+
+## Liste des images disponibles
+
+- `jeedom/jeedom:latest` : dernière version **stable** sur Debian bookworm (beta)
+- `jeedom/jeedom:beta` : dernière version **beta**
+- `jeedom/jeedom:4.x` : les versions sont conservées depuis 4.3
+- `jeedom/jeedom:4.x-bullseye` : Une variante basée sur Debian Bullseye, à privilégier
+- `jeedom/jeedom:4.x-buster` : Une variante basée sur Debian Buster (deprecated)
+- `jeedom/jeedom:4.x-bookworm` : Une variante basée sur Debian bookworm (beta)
+- `jeedom/jeedom:4.x-http-bookworm` : Une variante basée sur Debian bookworm ne contenant que Jeedom, pas de mariadb. Utilisée pour docker composer (beta)
+
+La liste complète est disponible sur le [Docker Hub](https://hub.docker.com/r/jeedom/jeedom/tags)
+
+## Première connexion
+
+Consulter la documentation relative à la [**première connexion**](../premiers-pas/#Première%20connexion) pour accéder à l'interface Jeedom suite à l'installation.

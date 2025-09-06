@@ -1,57 +1,65 @@
 # Installation en ligne de commande
 
-# Installation automatique
+La procédure suivante s'adresse aux utilisateurs avancés, elle permet d'installer Jeedom sur un système Linux Debian server.
 
-Pour une installation automatique merci de suivre la documentation correspondant à votre type de système : 
-
-- Sur une [VM](https://doc.jeedom.com/fr_FR/installation/vm)
-- Sur du [bare metal (type Intel Nuc)](https://doc.jeedom.com/fr_FR/installation/baremetal)
-
-# Installation manuel
-
-Vous trouverez ici la documentation pour installer Jeedom sur Debian
-
-> **Important**
+>**INFORMATION**
 >
-> Debian 10 est la distribution officiellement supportée pour la version 3.3.X de Jeedom (mais Stretch reste parfaitement fonctionnelle).  Debian 11 est la distribution officielle pour la version 4.x.x. Si vous ne maîtrisez pas un minimum les environnements Linux, nous vous conseillons de vous orienter vers une box Jeedom de type Luna, Atlas ou Smart.
+>En cas d'interrogation concernant l'installation de Debian, l'équipe Jeedom propose également des images systèmes incluant Debian et Jeedom préinstallé. Consulter [**la documentation dédiée**](../compatibility/#Images%20système%20officielles) pour plus de détails.
 
-> **Important**
+## Version de Debian
+
+Jeedom est un logiciel Linux prévu pour fonctionner de manière optimale sur [un système Debian server](https://www.debian.org/){:target="_blank"}.
+
+Pensez à vérifier que [**votre version de Debian est prise en charge par Jeedom**](../compatibility/#Debian) avant de procéder à l'installation.
+
+## Installation manuelle
+
+>**IMPORTANT**
 >
-> Le script d’installation peut être dangereux, car il part du principe que votre système est vierge. Si ce n’est pas le cas merci de lire le script et de faire une installation à la main.
+>Chaque instance Jeedom est censée être exécutée sur un serveur dédié. Partant de ce fait, il est possible d'observer des effets de bord avec d'éventuels services hébergés parallèlement. Dans la même idée, les systèmes Debian desktop ne sont pas couverts par le support officiel.
 
->**TIPS**
+### Exécution
+
+Afin de procéder à l'installation de Jeedom, il est nécessaire de se connecter à la console système selon la méthode la plus adaptée à votre situation *(ssh, clavier/écran, écran virtuel)*.
+
+Une fois connecté au système avec un utilisateur bénéficiant des droits d'administration `sudo`, il suffit d'entrer ces 3 commandes :
+
+1. Télécharger le script d'installation :
+    ```sh
+    wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
+    ```
+
+2. Donner les droits d'exécution :
+    ```sh
+    chmod +x install.sh
+    ```
+
+3. Exécuter le script :
+    ```sh
+    sudo ./install.sh
+    ```
+	>**INFORMATION**
+	>
+	>Si connecté en tant que `root`, il faut exécuter le script `./install.sh` sans la commande `sudo` au préalable.
+
+### Options
+
+>**IMPORTANT**
 >
->Pour connaitre l'ip de la vm (une fois connecté dessus, les identifiants s'affichent sur l'écran de connexion) faite ``ip -s -c -h a``
+>Cette section est réservée aux utilisateurs bénéficiant d'une certaine expertise.
 
-Connectez-vous en SSH à votre système et faites :
+Le script d'installation Jeedom dispose de différentes options permettant de personnaliser chaque instance :
 
-````
-wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
-chmod +x install.sh
-./install.sh
-````
+- **Base de donnée** (`-d`) : installe ou non la base de données gérée par Jeedom *(`1` par défaut)*
+- **Type d'installation** (`-i`) : Définit le type d'installation *(`standard` par défaut)*
+- **Etape** (`-s`) : exécute une étape spécifique *(`0` par défaut)*
+- **Version** (`-v`) : sélectionne une branche de développement Jeedom *(`master` par défaut)*
+- **Dossier d'installation** (`-w`) : répertoire où installer Jeedom *(`/var/www/html` par défaut)*
 
-Il vous suffit ensuite d’aller sur ``IP_JEEDOM`` à partir de votre navigateur Internet.
+## Compatibilité matérielle
 
-> **Note**
->
-> Les identifiants par défaut sont admin/admin
+La liste, non exhaustive, des matériels supportés par Jeedom est visible dans [la documentation **Compatibilité**](../compatibility/#Matériels%20supportés)
 
-> **Note**
->
-> Les arguments suivants sont utilisables : -w = dossier webserver -z = installation dependances z-wave -m = mot de passe root mysql désiré
+## Première connexion
 
-````
-./install -w /var/www/html -z -m Jeedom
-````
-
->**Note**
->
->Si vous voulez installer la version alpha de jeedom il faut faire :
-````
-wget https://raw.githubusercontent.com/jeedom/core/alpha/install/install.sh
-chmod +x install.sh
-./install.sh -v alpha
-````
-
-Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index).
+Consulter la documentation relative à la [**première connexion**](../premiers-pas/#Première%20connexion) pour accéder à l'interface Jeedom suite à l'installation.
