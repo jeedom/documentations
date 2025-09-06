@@ -1,6 +1,6 @@
 {
     "id": "jeelocker",
-    "name": "Jeelocker",
+    "name": "jeelocker",
     "description": {
         "fr_FR": "Jeelocker est un plugin dedié à la gestion d'acces de casier",
         "en_US": "Jeelocker is a plugin dedicated to locker access management",
@@ -29,7 +29,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
