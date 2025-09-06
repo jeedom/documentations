@@ -358,7 +358,7 @@
         "Ce plugin permet de piloter les équipements de votre installation Niko Home Control": "Ce plugin permet de piloter les équipements de votre installation Niko Home Control",
         "Yokis passerelle": "Yokis passerelle",
         "Plugin pour commander les modules Yokis en local": "Plugin pour commander les modules Yokis en local",
-        "IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale": "IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale",
+        "API locale, Somfy, Tahoma, Tahoma Locale": "API locale, Somfy, Tahoma, Tahoma Locale",
         "TaHomaLocal": "TaHomaLocal",
         "Nouveau plugin SOMFYUNIFIED conseillé incluant TaHomaLocal plus des fonctionnalités plus étendues": "Nouveau plugin SOMFYUNIFIED conseillé incluant TaHomaLocal plus des fonctionnalités plus étendues",
         "SomfyUnifiedExt1": "SomfyUnifiedExt1",
@@ -390,7 +390,9 @@
         "Le plugin SomfyUnifiedExt1 est dédié aux équipements appartenant aux familles": "Le plugin SomfyUnifiedExt1 est dédié aux équipements appartenant aux familles",
         "et": "et",
         "Plugin destiné à permettre une interface entre Jeedom et une box Somfy (TaHoma ou équivalente éligible) sur laquelle l'API locale Somfy a été activée": "Plugin destiné à permettre une interface entre Jeedom et une box Somfy (TaHoma ou équivalente éligible) sur laquelle l'API locale Somfy a été activée",
-        "Permet un fonctionnement 'Cloudless' et des retours d'état immédiats": "Permet un fonctionnement 'Cloudless' et des retours d'état immédiats"
+        "Permet un fonctionnement 'Cloudless' et des retours d'état immédiats": "Permet un fonctionnement 'Cloudless' et des retours d'état immédiats",
+        "IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale": "IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale",
+        "Mots clés": "Mots clés"
     },
     "plugins_contributor\/monitoring\/index.md": {
         "UniFi Protect & UniFi Access & UniFi Talk & UniFi Connect": "UniFi Protect & UniFi Access & UniFi Talk & UniFi Connect",
