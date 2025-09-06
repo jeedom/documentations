@@ -1,4 +1,5 @@
 <script>
+(function() {
   function getCookie(cname) {
     var name = cname + "=";
     var decodedCookie = decodeURIComponent(document.cookie);
@@ -12,12 +13,23 @@
         return c.substring(name.length, c.length);
       }
     }
-    return "";
+    return null;
   }
   
-  if(getCookie('lang')){
-    window.location.href = "/"+getCookie('lang')+"/";
-  }else{
-    window.location.href = "/fr_FR/";
+  const lang = getCookie('lang') || 'fr_FR';
+  const knownLangs = ['fr_FR', 'en_US', 'es_ES', 'de_DE']; // à adapter selon tes langues
+  const pathParts = window.location.pathname.split('/').filter(Boolean);
+
+  // Si l'un des segments du chemin correspond déjà à une langue connue, on ne redirige pas
+  if (pathParts.some(part => knownLangs.includes(part))) return;
+
+  // Construire le nouveau chemin en insérant la langue à la fin du chemin existant
+  const newPath = '/' + pathParts.join('/') + '/' + lang + '/';
+
+  // Rediriger seulement si ce n'est pas déjà la bonne URL
+  if (!window.location.pathname.endsWith('/' + lang + '/')) {
+    window.location.href = newPath;
   }
+})();
+
 </script>

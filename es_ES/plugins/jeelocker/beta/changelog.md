@@ -1,7 +1,5 @@
 # Registro de cambios Jeelocker
 
-# Registro de cambios Jeelocker
-
 # Complemento de registro de cambios jeelocker
 
 >**IMPORTANTE**
