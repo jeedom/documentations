@@ -4,9 +4,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 
+# 25/05/2025
 
-- "
+- Séparation de l'option "Afficher le titre" en "Afficher le titre en version Dashboard" et "Afficher le titre en version Mobile"
 
 # 01.08.2024
 

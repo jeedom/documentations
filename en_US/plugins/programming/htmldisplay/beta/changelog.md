@@ -4,9 +4,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 
+# 25/05/2025
 
-- "
+- Séparation de l'option "Afficher le titre" en "Afficher le titre en version Dashboard" et "Afficher le titre en version Mobile"
 
 # 01/08/2024
 
