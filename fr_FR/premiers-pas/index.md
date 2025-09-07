@@ -49,7 +49,11 @@ L'interface Jeedom est également accessible par le nom d'hôte de la machine.
 
 #### Console système
 
-L'adresse IP peut également être affichée directement depuis la console système en tapant la commande :
+Depuis une image système officielle, tout accès direct à la console *(hors SSH)* affiche immédiatement l'adresse d'accès à l'interface Jeedom :
+
+{% include lightbox.html src="images/shell_ip.jpg" data="shell_ip" title="Console système : IP Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
+
+L'adresse IP peut également être affichée en tapant la commande :
 ```sh
 ip addr | grep 'inet ' | tail -n 1
 ```
