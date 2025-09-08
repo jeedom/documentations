@@ -36,7 +36,7 @@ Afin de réaliser la mise à jour du système, il faut:
 
 	**OU**
 
-- Télécharger le fichier [**JeedomSmart_Debian11.img.xz**](https://images.jeedom.com/smart/JeedomSmart_Debian11.img.xz)
+- Télécharger le fichier [**JeedomSmart_Debian11.img.xz**](https://images.jeedom.com/smart/previous/JeedomSmart_Debian11.img.xz)
 - S'équiper d'**un adapteur eMMC>USB/SD/µSD compatible Odroid-C2** pour graver l'image depuis un ordinateur, par exemple:
 
 	![Exemple d'adaptateur eMMC](./images/emmc_adapter.jpg)
