@@ -1,19 +1,19 @@
-# 
+# Installation dans Docker
 
-.
+La procédure suivante s'adresse aux utilisateurs maitrisant les environnements Docker.
 
 >**Wichtig**
 >
->.
+>Les instances Jeedom sous Docker ne sont pas prises en charge par le support officiel.
 
 ## Docker-Installation
 
-.
+Docker est disponible sur toutes les distributions récentes.
 So installieren Sie es auf einer Distribution
 
 - gemacht aus ``rpm`` :
 „`sh
-
+yum install docker
 „`
 
 - gemacht aus ``deb`` :
@@ -25,7 +25,7 @@ sudo apt update && sudo apt install docker.io
 
 Image-Installation :
 „`sh
-:latest
+docker pull jeedom/jeedom:latest
 „`
 
 Puis lancez la :
@@ -36,16 +36,16 @@ sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/ht
 Mit :
 
 - ``jeedom-server`` : Name des gewünschten Jeedom-Containers
-- ``/opt/jeedom/www`` und ``/opt/jeedom/db`` :  *()*
-- ``-p 80:80``:  *(80)*  *()*
+- ``/opt/jeedom/www`` und ``/opt/jeedom/db`` : répertoire où les données de Jeedom sont mises sur l'hôte *(attention a bien les créer avant)*
+- ``-p 80:80``: le port du container *(80)* est redirigé vers le port de l'hôte *(par défaut 80 aussi)*
 
-> ****
+> **INFORMATION**
 >
->  *(``detach``)*, . Es ist möglich, den Protokollen mit dem Befehl `docker logs jeedom-server -f` zu folgen (Option f = follow)
+> Avec l'option `-d` *(``detach``)*, Docker vous rend immédiatement la main mais installe en tâche de fond. Es ist möglich, den Protokollen mit dem Befehl `docker logs jeedom-server -f` zu folgen (Option f = follow)
 
 Dann müssen Sie Jeedom installieren, indem Sie zu gehen : ``IP_DOCKER:80``
 
-> ****
+> **INFORMATION**
 >
 > Sie können sehen, wie sich die Hafenarbeiter drehen ``docker ps`` Um Ihren Container, beispielsweise den Jeedom-Server, zu stoppen, müssen Sie nur tun ``docker stop jeedom-server``, um es wiederzubeleben ``docker start jeedom-server``
 
@@ -53,7 +53,7 @@ Dann müssen Sie Jeedom installieren, indem Sie zu gehen : ``IP_DOCKER:80``
 
 Auch Sie können Jeedom mit Docker Compose installieren :
 
-### 
+### En mode 1 service
 
 „dockerfile
 services:
@@ -78,7 +78,7 @@ volumes:
   http:
 „
 
-###  *(experimental)*
+### En mode 2 services *(experimental)*
 
 „dockerfile
 services:
@@ -140,7 +140,7 @@ volumes:
   http:
 „
 
->****
+>**INFORMATION**
 >
 >Vergessen Sie nicht, das „TODO“ mit den gewünschten Passwörtern zu vervollständigen
 >
@@ -158,6 +158,6 @@ volumes:
 
 Die vollständige Liste finden Sie unter [Docker-Hub](https://hub.docker.com/r/jeedom/jeedom/tags)
 
-## 
+## Première connexion
 
- [****](../premiers-pas/#Première%20connexion) .
+Consulter la documentation relative à la [**Première connexion**](../premiers-pas/#Première%20connexion) pour accéder à l'interface Jeedom suite à l'installation.

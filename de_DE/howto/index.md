@@ -5,14 +5,14 @@
 - [Stellen Sie eine Sicherung wieder her](sauvegarde.comment_recuperer)
 
 # Hardware
-- [](../installation/recovery)
-- [](raspberrypi3)
+- [Remise en état d'usine Smart/Atlas](../installation/recovery)
+- [Raspberry Pi3](raspberrypi3)
 
 # Archive
-- [](atlas)
-- [](smart)
-- [](migrationos.smart)
+- [Remise en état d'usine Atlas](atlas)
+- [Remise en état d'usine Smart](smart)
+- [Mettre à niveau Debian sur Smart](migrationos.smart)
 - [Von Version migrieren (V3 → V4)](migration.version)
-- [](mini)
-- [](mini.clef_wifi)
-- [](mini.demarrage)
+- [Remise en état d'usine Mini+](mini)
+- [Clef wifi sur Mini+](mini.clef_wifi)
+- [Guide de démarrage Mini+](mini.demarrage)
