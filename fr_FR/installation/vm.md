@@ -1,148 +1,72 @@
-# Installation sur une VM
+# Installation sur machine virtuelle
 
-Si vous voulez découvrir Jeedom sans risque, vous pouvez aussi le virtualiser sur votre PC, voici la démarche à suivre. Vous ne prenez aucun risque dans une VM, l’intégrité de votre Pc est protégé :
+La procédure suivante est basée sur l'utilisation d'un fichier d'image système incluant Debian et Jeedom préinstallé.
 
-## Téléchargement et installation de VirtualBox
-
-Vous devez télécharger le logicel Virtual Box [ici](https://www.virtualbox.org/wiki/Downloads)
-
-# Installation automatique
-
-Téléchargez l'iso jeedom [ici](https://images.jeedom.com/x86-64/).
-
-## Configuration de l’environnement de la VM
-
-Cliquez sur "Nouvelle" et renseignez les champs comme ci dessous :
-
-![VirtualBox1](images/VM1.png)
-
--   Cliquez sur suivant, adapter la taille de la mémoire par rapport à votre système (1024 Mb sont suffisants)
-
-![VirtualBox3](images/VM2.png)
-
--   Cliquez sur suivant
--   Ensuite cliquer sur "Créer un disque virtuel maintenant" (8Go suffisent)
-
-![VirtualBox1](images/VM3.png)
-
--   Cliquez sur suivant
--   Cliquez sur Finish
-
-## Lancement de la VM
-
--   Cliquez sur configuration
--   Cliquez sur + à côté de contrôleur (1)
--   Indiquez l’image précédemment téléchargée (2)
--   Cliquez sur choisir (3)
-
-![VirtualBox2](images/VM5.png)
-
-
--   Sélectionnez ensuite réseau et choisissez "accès par pont" dans le mode d’accès réseau.
-  
-![VirtualBox1](images/VM6.png)
-
--   Cliquez sur OK
--   Cliquez sur démarrer
-
-Selectionnez "Install on disk" (touche entrée du clavier), valider avec yes (touche flèche bas puis entrée). Toute la suite va se faire automatiquement (10 à 30min), puis une fois la vm redemarré attendant 5min et vous devriez avoir accès à Jeedom en mettant simplement l'ip de jeedom dans un navigateur.
-
->**TIPS**
+>**INFORMATION**
 >
->Pour connaitre l'ip de la vm (une fois connecté dessus, les identifiants s'affichent sur l'écran de connexion) tapez la commande ci dessous en respectant les espaces: 
-````
-ip -s -c -h a
-````
+>Pour installer Jeedom manuellement sur une machine virtuelle sous Debian, se référer à la documentation concernant [l'installation en ligne de commande](cli).
 
-> **Information**
+## Création de la VM
+
+Vous avez très certainement un hyperviseur déjà en place pour lire cette documentation. Même si le processus de création d'une machine virtuelle *(VM)* est assez semblable d'une solution à l'autre, il est bien entendu indispensable de suivre la documentation adaptée à la plateforme utilisée.
+
+Pour citer quelques hyperviseurs connus à titre d'exemple :
+
+- [**VirtualBox**](https://www.virtualbox.org/){:target="_blank"} : Hyperviseur de type 2, gratuit et open source, idéal pour les environnements de test ou les postes de travail. Compatible avec Windows, macOS et Linux.
+- [**VMware**](https://www.vmware.com/){:target="_blank"} : Large gamme d’hyperviseurs, dont VMware Workstation (type 2) pour les postes de travail et VMware ESXi (type 1) pour les serveurs. Solution robuste et largement utilisée en entreprise.
+- [**Proxmox**](https://www.proxmox.com/en/){:target="_blank"} : Plateforme open source basée sur KVM (type 1), combinant virtualisation complète et conteneurs LXC. Très adaptée aux serveurs et aux environnements professionnels ou homelabs.
+- [**Hyper-V**](https://learn.microsoft.com/fr-fr/windows-server/virtualization/hyper-v/get-started/Install-Hyper-V){:target="_blank"} : Hyperviseur natif de Microsoft intégré à Windows Server et aux éditions Pro/Entreprise de Windows.
+
+## Configuration de la VM
+
+Il n'y a pas réellement de configuration recommandée pour Jeedom car cela va dépendre du degré de charge de chaque instance.
+
+Pour une machine robuste sans être disproportionnée, on peut convenir que les valeurs suivantes sont suffisantes dans la plupart des cas :
+
+| CPU            | Mémoire        | Disque         |
+|----------------|----------------|----------------|
+| 2 Cores        | 2048 MiB       | 16 GiB         |
+
+## Démarrage sur l'image système
+
+L'équipe Jeedom fournit des images système optimisées à destination des ordinateurs 64 bits.
+
+Avant de démarrer la machine virtuelle, il faut télécharger l'image système que vous souhaitez installer *(certains hyperviseurs permettent de télécharger le fichier directement depuis son lien URL)* :
+
+- [**Image(s) système Jeedom x86-64**](https://images.jeedom.com/x86-64/){:target="_blank"}
+
+>**INFORMATION**
 >
-> Les identifiant de connection ssh par defaut sont : jeedom et Mjeedom96 pour le mot de passe 
+>Consulter [**la documentation dédiée**](../compatibility/#Images%20système%20officielles) pour plus de détails sur les images système Jeedom.
 
-Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
+Le fichier image au format `iso` doit ensuite être chargé dans le lecteur optique *(CD/DVD)* émulé par la machine virtuelle, lui-même placé en première position dans l'ordre de démarrage.
 
-# Installation manuel
-
-## Téléchargement d’une image Debian 11 - netinstall
-
-Téléchargez une image minimaliste debian 11 [ici](https://www.debian.org/releases/bullseye/debian-installer/), en choisissant "images de CD d’installation par le réseau" -> AMD64
-
-## Configuration de l’environnement de la VM
-
-Cliquez sur Nouvelle et renseignez les champs comme ci dessous :
-
-![VirtualBox1](images/VM1.png)
-
--   Cliquez sur suivant, adapter la taille de la mémoire par rapport à votre système (1024 sont suffisants)
-
-![VirtualBox3](images/VM2.png)
-
--   Cliquez sur suivant, créer un disque virtuel maintenant (8Go suffisent)
-
-![VirtualBox1](images/VM3.png)
-
--   Cliquez sur suivant
--   Cliquez sur Finish
-
-## Lancement de la VM
-
--   Cliquez sur configuration
--   Cliquez sur + à côté de contrôleur (1)
--   Indiquez l’image précédemment téléchargée (2)
--   Cliquez sur choisir (3)
-
-![VirtualBox2](images/VM5.png)
-
-
--   Sélectionnez ensuite réseau et choisissez "accès par pont" dans le mode d’accès réseau.
-  
-![VirtualBox1](images/VM6.png)
-
--   Cliquez sur OK
--   Cliquez sur démarrer
-
-## Installation de debian 11
-
-C’est du classique…​
-
-![VirtualBox4](images/VirtualBox4.PNG)
-
--   Choisissez Graphical install
--   Installez la debian de préférence sans interface graphique car inutile. Le nom d’utilisateur n’a aucune importance. Dans la plupart des écrans, il suffit de valider le choix par défaut. Vous pouvez laissez des champs vides, ce n’est pas bloquant.
--   Pour la sélection des logiciels :
-![VirtualBox5](images/VirtualBox5.PNG)
--   Pour Grub, pas d’inquiétude, le secteur de démarrage est celui de la VM, pas celui de votre PC. Aucun risque de casser quoi que ce soit.
-
-## Installation de jeedom
-
--   Lancez votre VM
--   Identifiez-vous avec l’utilisateur et le mot de passe choisis pendant l’installation
--   Passez en root
-
-``su -``
-
--   Saisissez le mot de passe root défini pendant l’installation
--   Récupérez le script jeedom, le rendre exécutable, le lancer
-
-````
-wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
-chmod +x install.sh
-./install.sh
-````
-
--   et laissez faire…​
-
-## Lancement de jeedom
-
--   Pour connaitre l’adresse Ip Lan de la VM
-
-````
-ip -s -c -h a
-````
-
-Votre adresse Ip, type 192.168.0.XX apparait en rouge. Il vous suffit de la saisir dans votre navigateur.
-
-> **Warning**
+>**IMPORTANT**
 >
-> Si cela ne fonctionne pas, vous n’avez pas configuré votre carte réseau en Pont réseau comme indiquée au départ.
+>En cas de difficultés, se référer à la documentation de l'hyperviseur.
 
-Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
+## Options d'installation
+
+Différentes options d'installation sont affichées à l'écran après avoir démarré la machine virtuelle avec l'image système chargée dans le lecteur optique :
+
+{% include lightbox.html src="images/install-menu-amd64.jpg" data="InstallMenuAMD64" title="Menu d'installation Jeedom (AMD64)" imgstyle="width:75%;display:block;margin:0 auto;" %}
+
+- **Install Jeedom (automatic mode)** : **installe le système automatiquement** sans aucune intervention nécessaire. La machine est éteinte à la fin de l'opération.
+	>**IMPORTANT**
+	>
+	>Ce mode est exécuté par défaut au bout de 60 secondes, **l'installation peut donc être réalisée sans se connecter à l'écran virtuel**.
+
+- **Install Jeedom (manual mode)** : dans ce mode, vous devez **renseigner manuellement la configuration du système à installer** *(langue, pays, réseau, support de stockage, etc.)*.
+
+- **Jeedom Live** : permet de **tester Jeedom dans un environnement non persistant** sans installer le système.
+	>**INFORMATION**
+	>
+	>Cette fonctionnalité est accessible à partir de Debian 12 Bookworm.
+
+## Compatibilité matérielle
+
+La liste, non exhaustive, des hyperviseurs supportés par Jeedom est visible dans [la documentation **Compatibilité**](../compatibility/#Matériels%20supportés)
+
+## Première connexion
+
+Consulter la documentation relative à la [**première connexion**](../premiers-pas/#Première%20connexion) pour accéder à l'interface Jeedom suite à l'installation.

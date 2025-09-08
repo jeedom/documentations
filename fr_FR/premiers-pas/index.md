@@ -8,7 +8,7 @@ Votre instance Jeedom est accessible par son interface web à son adresse sur le
 
 ### Accès local
 
-Pour accéder à l’interface Jeedom, il est nécessaire de connaître l’adresse IP ou le nom d’hôte de la machine sur le réseau local. Voici trois méthodes pour l’obtenir :
+Pour accéder à l’interface Jeedom, il est nécessaire de connaître l’adresse IP ou le nom d’hôte de la machine sur le réseau local. Voici plusieurs méthodes pour l’obtenir :
 
 #### Découverte automatique
 
@@ -33,19 +33,30 @@ La plupart propose une liste des appareils/périphériques connectés, avec leur
 
 L'interface Jeedom est également accessible par le nom d'hôte de la machine.
 
-- En cas d'utilisation d'une image système officielle pour déployer Jeedom, le nom d'hôte est connu et Jeedom doit être accessible sur :
+- En cas d'utilisation d'une [image système officielle](../compatibility/#Images%20système%20officielles) pour déployer Jeedom, le nom d'hôte est connu et Jeedom doit être accessible sur :
 
   | Machine            | Interface Jeedom   |
   |--------------------|--------------------|
-  | [Luna](https://images.jeedom.com/luna/){:target="_blank"} | [http://jeedomluna.local](http://jeedomluna.local){:target="_blank"} |
-  | [Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [http://jeedomatlas.local](http://jeedomatlas.local){:target="_blank"} |
-  | [Smart](https://images.jeedom.com/smart/){:target="_blank"} | [http://jeedomsmart.local](http://jeedomsmart.local){:target="_blank"} |
-  | [Ordinateur *(installation automatique)*](https://images.jeedom.com/x86-64/){:target="_blank"} | [http://jeedom.local](http://jeedom.local){:target="_blank"} |
-  | [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [http://jeedomfreebox.local](http://jeedomfreebox.local){:target="_blank"} |
+  | **Luna** | [http://jeedomluna.local](http://jeedomluna.local){:target="_blank"} |
+  | **Atlas** | [http://jeedomatlas.local](http://jeedomatlas.local){:target="_blank"} |
+  | **Smart** | [http://jeedomsmart.local](http://jeedomsmart.local){:target="_blank"} |
+  | **Ordinateur/hyperviseur** *(installation automatique)* | [http://jeedom.local](http://jeedom.local){:target="_blank"} |
+  | **Freebox** | [http://jeedomfreebox.local](http://jeedomfreebox.local){:target="_blank"} |
 
 - Si vous avez vous-même procédé à l’installation de Debian, le nom d’hôte correspond au nom de la machine défini lors de l’installation (`MACHINE`). `DOMAIN = local` par défaut, ou le nom de domaine spécifique renseigné à l'installation si c'est le cas.
 
   L’adresse de l'interface Jeedom doit normalement correspondre à : `http://MACHINE.DOMAIN`.
+
+#### Console système
+
+Depuis une [image système officielle](../compatibility/#Images%20système%20officielles), tout accès direct à la console *(hors SSH)* affiche immédiatement l'adresse de l'interface Jeedom :
+
+{% include lightbox.html src="images/shell_ip.jpg" data="shell_ip" title="Console système : IP Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
+
+L'adresse IP peut également être affichée en tapant la commande :
+```sh
+ip addr | grep 'inet ' | tail -n 1
+```
 
 ### Première connexion
 
