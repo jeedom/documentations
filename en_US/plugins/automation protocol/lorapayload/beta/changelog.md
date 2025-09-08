@@ -8,7 +8,11 @@
 
 - Ajout du produit *LC01 - Relay Controller*
 
-- 
+- Correction bug status panel lorapaylaod
+
+-  **
+
+-  ** 
 
 # 29/08/2025
 - Ajout du downlink de la commande Heating Target Temperature Range et Cooling Target Temperature Range pour produit *WT304-868M - SMART FAN COIL THERMOSTAT*
