@@ -1,105 +1,157 @@
-# Materials
+# Compatibilité
 
-Hardware | State | Remarques
---- | --- | ---
-Jeedomboard      | Stable        |
-Hummingboard     | Stable        |
-Odroid C2        | Stable        |                          
-SMART            | Stable        |                          
-RPI1             | Stable        |                          
-RPI2             | Stable        |                          
-RPI3             | Stable        | Please note that if you are using a Raspberry, the wifi/bluetooth will not work
-RPI4             | Stable        | Please note that if you are using a Raspberry, the wifi/bluetooth will not work
-64 bit          | Stable        |                          
-32 bit          | Unsupported  |                          
-Vmware           | Stable        | No support for VMware, only for Jeedom.
-
-The jeedom team recommends you (depending on your budget) :
-
-- Jeedom Atlas or Luna (everything is pre-installed, you don't have to do anything)
-- Odroid C2 (best performance / price ratio)
-- Intel Nuc gen (extreme performance, see the tutorial category for the choice in the different models and installation)
-- RPI4
-
-#  Images
-
-You can find all Jeedom images [here](https://images.jeedom.com/)
-
-| Pictures         | Hardware       | State           | SSH access      | Remarks      | Documentation      |
-|----------------|----------------|----------------|----------------|----------------|---------------------|
-| Jeedomboard    | Jeedomboard and Hummingboard | Stable         | root / Mjeedom96 |                | [Jeedomboard](https://doc.jeedom.com/en_US/installation/mini) |
-| SMART          | Jeedom Smart   | Stable           | root / Mjeedom96 |                | [SMART](https://doc.jeedom.com/en_US/installation/smart) |
-| RPI            | RPI1 / 2/3/4     | Beta           | root / Mjeedom96 |  For RPI it is advisable to take the rpi-64 version for RPI 4 only              | [RPI](https://doc.jeedom.com/en_US/installation/rpi) |
-| x86_64         | Any x86_64 system (Intel, AMD, VM...)*               | Stable           | root / Mjeedom96 |                | [x86_64](https://doc.jeedom.com/en_US/installation/vm) |
-| Docker         |                | Beta           | root / Mjeedom96 |                | [Docker](https://doc.jeedom.com/en_US/installation/docker) |
-| Freebox        | Freebox Delta  | Stable         | root / Mjeedom96 | To install directly from the Freebox               | [Freebox](https://doc.jeedom.com/en_US/installation/freeboxdelta) |
-| Synology (Docker)| NAS Synology | Beta          | root / Mjeedom96  |                | [Synology](https://doc.jeedom.com/en_US/installation/synology) |
-
-> **Information**
+>****
 >
-> You can also manually install Jeedom on any Debian system by following this [Documentation](https://doc.jeedom.com/en_US/installation/cli).
+>. .
 
-#  Logiciel
+## 
 
-> **IMPORTANT**
+**** développent et commercialisent des boxes officielles « clé en main », avec Jeedom préinstallé sur un système optimisé et incluant des services, des plugins ainsi qu'un support technique renforcé. .
+
+{% include lightbox.html src="images/tableau-comparatif-atlas-et-luna.jpg" data="AtlasLuna" title=" & " imgstyle="display:block;margin:0 auto;" %}
+
+|             |              |
+|-------------------------|-------------------------|
+| [ ****](https://www.domadoo.fr/fr/box-domotique/7329-jeedom-controleur-domotique-jeedom-atlas-sans-protocole.html){:"} | [ ****](https://www.domadoo.fr/fr/box-domotique/6280-jeedom-controleur-domotique-jeedom-luna-z-wave700-zigbee30-bt.html){:"} |
+| [ **EnOcean**](https://www.domadoo.fr/fr/box-domotique/5877-jeedom-atlas-enocean.html){:"} | [ ****](https://www.domadoo.fr/fr/box-domotique/6615-jeedom-controleur-domotique-jeedom-luna-z-wave-zigbee-et-4g.html){:"} |
+| [ ****](https://www.domadoo.fr/fr/box-domotique/6857-jeedom-controleur-domotique-jeedom-atlas-enocean-dongle-z-wave-zooz.html){:"} | [ ****](https://www.domadoo.fr/fr/box-domotique/6617-jeedom-controleur-domotique-jeedom-luna-z-wave-zigbee-lorawan-4g.html){:"} |
+| [ ****](https://www.domadoo.fr/fr/box-domotique/6567-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-sans-antenne.html){:"} |             |
+| [ ****](https://www.domadoo.fr/fr/box-domotique/6565-jeedom-atlas-pro-enocean.html){:"} |             |
+| [ **X**](https://www.domadoo.fr/fr/box-domotique/6563-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-knx.html){:"} |             |
+
+>****
 >
-> Jeedom only supports Debian Stretch (not recommended), Buster (end of life) and Bullseye (recommended). Any other version (Wheezy, Jessie…) or distribution (Ubuntu…) is not supported by Jeedom.
+>.
 
-| Name                     | State                    | Remarks                |
-|-------------------------|-------------------------|--------------------------|
-| PHP 5.5 or less        | Unsupported            |                          |
-| PHP 5.6                 | End of support (in 4.1) |                          |
-| PHP 7.0 / 7.1 / 7.2 / 7.3 / 7.4 | Stable                  |                          |
-| PHP 8.0 and above         | Not supported (currently)|                          |
-| Mysql 7.4               | Beta                    |                          |
-| Mysql 5.5 / 5.6           | Stable                  |                          |
-| Mysql 5.7               | Stable                  |                          |
-| MariaBD                 | Stable                  |                          |
+## 
 
+ :
 
-# Compatible equipment
+- **** : .
+- **** *(.)* : .
+- **** *(NUC)* :  [](../howtoadvance/vmware.installation_sur_nuc) )*.
+
+### 
+
+>**IMPORTANT**
+>
+>.  *()*.
+
+|       |        |             |            |
+|------------------------|------------------------|------------------------|------------------------|
+|      |  |  *(NUC)*,  |  |
+
+### 
+
+|       |        |             |            |
+|------------------------|------------------------|------------------------|------------------------|
+|      |  |  |       |
+
+## Logicielle
+
+### Debian
+
+|             |              |
+|--------------------|--------------------|
+|  |          |
+|  |  *(4.5)*   |
+|    |  |
+|  | Unsupported |
+
+### PHP
+
+|             |              |
+|--------------------|--------------------|
+|               |          |
+| PHP 8              |  *(4.5)*   |
+| PHP 5.6            |  *(4.1)* |
+| PHP 5. | Unsupported     |
+
+### MySQL
+
+|             |              |
+|--------------------|--------------------|
+| Mysql 7.4          |          |
+| .7  |            |
+
+### MariaDB
+
+|             |              |
+|--------------------|--------------------|
+|          |          |
+
+## 
+
+ :
+
+|       | Documentation      |
+|--------------------|--------------------|
+| [](https://images.jeedom.com/luna/){:"} | [](../plugins/home%20automation%20protocol/luna) |
+| [](https://images.jeedom.com/atlas/){:"} | [](../installation/recovery) |
+| [SMART](https://images.jeedom.com/smart/){:"} | [](../installation/recovery) |
+| [](https://images.jeedom.com/x86-64/){:"} | [](../installation/baremetal) |
+| [](https://images.jeedom.com/x86-64/){:"} | [](../installation/vm) |
+| [Freebox](https://images.jeedom.com/freebox/){:"} | [](../installation/freeboxdelta) |
+
+### 
+
+ ****, ..
+
+### 
+
+ [****](../premiers-pas/#Première%20connexion) .
+
+### 
+
+>**IMPORTANT**
+>
+>
+>.
+
+ *()*  : . .
+
+## Compatible equipment
 
 You will find here for the main protocols the links to the compatible equipment.
 For the others we invite you to look directly at the documentation of the plugin.
 
-
-## Bluetooth
+### Bluetooth
 
 You will find [here](https://compatibility.jeedom.com/index.php?p=home&plugin=blea) the list of Jeedom compatible Bluetooth modules.
 
-## Cameras
+### Cameras
 
 You will find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=camera) the list of Jeedom compatible cameras.
 
-## Edisio
+### Edisio
 
-You will find [here](https://doc.jeedom.com/en_US/edisio/equipement.compatible) the list of Jeedom compatible Edisio modules and [here](https://doc.jeedom.com/en_US/edisio/) documentation for some modules.
+You will find [here](../edisio/equipement.compatible) the list of Jeedom compatible Edisio modules and [here](../edisio/) documentation for some modules.
 
-## EnOcean
+### EnOcean
 
 ENOCEAN controller :
 
--   [EnOcean USB300 USB key](https://www.domadoo.fr/fr/interface-domotique/3206-enocean-controleur-usb-enocean-avec-connecteur-sma-3700527400280.html)
--   [EnOcean USB310 USB stick (Recommended)](https://www.domadoo.fr/fr/interface-domotique/2433-enocean-controleur-usb-enocean-3700527400273.html)
+-   [](https://www.domadoo.fr/fr/interface-domotique/3206-enocean-controleur-usb-enocean-avec-connecteur-sma-3700527400280.html)
+-   [)](https://www.domadoo.fr/fr/interface-domotique/2433-enocean-controleur-usb-enocean-3700527400273.html)
 
 You will find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) the list of Jeedom compatible EnOcean modules.
 
-## RFXcom
+### RFXcom
 
 RFXcom controller :
 
 -   RFXtrx433 USB
 -   [RFXtrx433E USB (Recommended)](https://www.domadoo.fr/fr/interface-domotique/4659-rfxcom-interface-radio-recepteuremetteur-xl-43392mhz-usb-chacon-somfy-rts-oregon-et-autres.html)
 
-You will find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=rfxcom) the list of Rfxcom modules compatible with Jeedom and [here](https://doc.jeedom.com/en_US/rfxcom/) documentation for some modules.
+You will find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=rfxcom) the list of Rfxcom modules compatible with Jeedom and [here](../rfxcom/) documentation for some modules.
 
-## SMS (GSM)
+### SMS (GSM)
 
 -   HUAWEI E220 (Recommended)
 -   Alcatel one touch X220L
 -   HSDPA 7.2MBPS 3G Wireless
 
-## Zigbee
+### Zigbee
 
 Zigbee controller :
 
@@ -109,7 +161,7 @@ Zigbee controller :
 
 You will find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) the list of Jeedom compatible Zigbee modules.
 
-## Zwave
+### Z-wave
 
 Z-Wave controller :
 
@@ -118,4 +170,23 @@ Z-Wave controller :
 -   AEON LABS Z-Wave Controller Aeon Labs Z-Stick S2
 -   [AEON LABS - Z-Wave Plus Z-Stick GEN5 USB Controller (Recommended)](https://www.domadoo.fr/fr/interface-domotique/2917-aeotec-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html?search_query=sigma&results=4)
 
-You will find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openzwave) the list of Jeedom compatible Z-Wave modules and [here](https://doc.jeedom.com/en_US/zwave/) documentation for some modules.
+You will find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openzwave) the list of Jeedom compatible Z-Wave modules and [here](../zwave/) documentation for some modules.
+
+## 
+
+ :
+
+ :
+
+    -   
+    -   
+    -   
+    -   
+
+.
+
+>****
+>
+>. . 
+>. 
+>. : .

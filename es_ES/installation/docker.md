@@ -1,74 +1,61 @@
-# Instalación de Docker
+# 
 
-> **Importante**
+.
+
+>**Importante**
 >
-> Tenga en cuenta que aquí asumimos que ya está familiarizado con Docker
+>.
 
 ## Instalación de Docker
 
-Docker ahora está disponible en todas las distribuciones recientes.
+.
 Para instalarlo en una distribución
 
--   a base de ``rpm``
+- a base de ``rpm`` :
+````sh
 
 ````
-yum install docker
-````
 
--   a base de ``deb``
-
-````
-apt-gy update
-apt-gy install docker.io
+- a base de ``deb`` :
+````sh
+sudo apt update && sudo apt install docker.io
 ````
 
 ## Instalar una imagen Jeedom
 
 Instalación de imagen :
+````sh
+:latest
+````
 
-``docker pull jeedom / jeedom:latest``
-
-Luego inicie el :
-
-``sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/db:/var/lib/mysql -p 80:80 -d jeedom / jeedom:latest``
+Puis lancez la :
+````sh
+sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/db:/var/lib/mysql -p 80:80 -d jeedom / jeedom:latest
+````
 
 Con :
 
--   ``jeedom-server`` : nombre del contenedor de jeedom deseado
--   ``/opt/jeedom/www`` y ``/opt/jeedom/db`` : directorio donde los datos de Jeedom se colocan en el host (tenga cuidado de crearlos antes)
--  `` -p 80:80``: el puerto del contenedor (80) se reenvía al puerto del host (por defecto 80 también)
+- ``jeedom-server`` : nombre del contenedor de jeedom deseado
+- ``/opt/jeedom/www`` y ``/opt/jeedom/db`` :  *()*
+- ``-p 80:80``:  *(80)*  *()*
 
-### Lista de imágenes disponibles
-- `jeedom/jeedom:último` : última versión **estable** en el ratón de biblioteca Debian (beta)
-- `jeedom/jeedom:beta` : última versión **beta**
-- `jeedom/jeedom:4.x` : Se mantienen versiones desde la 4.3
-- `jeedom/jeedom:4.x-diana` : Se prefiere una variante basada en Debian Bullseye
-- `jeedom/jeedom:4.x-buster` : Una variante basada en Debian Buster (en desuso)
-- `jeedom/jeedom:4.x-ratón de biblioteca` : Una variante basada en Debian bookworm (beta)
-- `jeedom/jeedom:4.x-http-ratón de biblioteca` : Una variante basada en el ratón de biblioteca de Debian que contiene solo Jeedom, sin mariadb. Utilizado para docker composer (beta)
-
-La lista completa está disponible en [Centro acoplable](https://hub.docker.com/r/jeedom / jeedom/tags)
-
-> **Consejos**
+> ****
 >
-> Con la opción `-d` Docker le devuelve el control inmediatamente (opción 'separar') pero se instala en segundo plano. Es posible seguir los registros con el comando `docker logs jeedom-server -f` (opción f = seguir)
+>  *(``detach``)*, . Es posible seguir los registros con el comando `docker logs jeedom-server -f` (opción f = seguir)
 
 Entonces necesita instalar Jeedom yendo a : ``IP_DOCKER:80``
 
-> **Consejos**
+> ****
 >
 > Puedes ver a los estibadores girando ``docker ps`` para detener su contenedor, jeedom-server por ejemplo, solo tiene que hacer ``docker stop jeedom-server``, revivirlo ``docker start jeedom-server``
 
-Por lo demás, puedes seguir la documentación [Primer paso con Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index)
+## Componer ventana acoplable
 
+Usted también puede instalar jeedom usando docker compose :
 
-# Componer ventana acoplable
+### 
 
-Usted también puede instalar jeedom usando docker compose : 
-
-## En 1 modo de servicio
-
-```
+```dockerfile
 services:
   jeedom:
     image: jeedom / jeedom:latest
@@ -91,15 +78,14 @@ volumes:
   http:
 ```
 
+###  *(experimental)*
 
-## En modo 2 servicios (experimental)
-
-```
+```dockerfile
 services:
   jeedom_db:
     image: mariadb:latest
     nombre_contenedor: jeedom_db
-    command: 
+    command:
       - "--plugin de autenticación por defecto=mysql_native_password"
       - "--skip-name-resolve"
       - "--tamaño_búfer_clave=16M"
@@ -154,10 +140,24 @@ volumes:
   http:
 ```
 
->**Consejos**
+>****
 >
 >No olvides completar el `TODO` con las contraseñas deseadas
-
->**Consejos**
 >
-> Es posible especificar el puerto de escucha de Apache con la variable de entorno `APACHE_PORT`, tenga cuidado de actualizar `healthcheck` con el nuevo puerto. Tenga en cuenta que esto solo es posible desde Jeedom 4.5
+>Es posible especificar el puerto de escucha de Apache con la variable de entorno `APACHE_PORT`, tenga cuidado de actualizar `healthcheck` con el nuevo puerto. Tenga en cuenta que esto solo es posible desde Jeedom 4.5
+
+## Lista de imágenes disponibles
+
+- `jeedom/jeedom:último` : última versión **estable** en el ratón de biblioteca Debian (beta)
+- `jeedom/jeedom:beta` : última versión **beta**
+- `jeedom/jeedom:4.x` : Se mantienen versiones desde la 4.3
+- `jeedom/jeedom:4.x-diana` : Se prefiere una variante basada en Debian Bullseye
+- `jeedom/jeedom:4.x-buster` : Una variante basada en Debian Buster (en desuso)
+- `jeedom/jeedom:4.x-ratón de biblioteca` : Una variante basada en Debian bookworm (beta)
+- `jeedom/jeedom:4.x-http-ratón de biblioteca` : Una variante basada en el ratón de biblioteca de Debian que contiene solo Jeedom, sin mariadb. Utilizado para docker composer (beta)
+
+La lista completa está disponible en [Centro acoplable](https://hub.docker.com/r/jeedom / jeedom/tags)
+
+## 
+
+ [****](../premiers-pas/#Première%20connexion) .

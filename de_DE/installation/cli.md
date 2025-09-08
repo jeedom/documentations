@@ -1,57 +1,65 @@
 # Befehlszeileninstallation
 
-# Automatische Installation
+.
 
-Für die automatische Installation folgen Sie bitte der Dokumentation Ihres Systemtyps : 
-
-- Auf einem [VM](https://doc.jeedom.com/de_DE/installation/vm)
-- Auf [Bare-Metal (Typ Intel Nuc))](https://doc.jeedom.com/de_DE/installation/baremetal)
-
-# Manuelle Installation
-
-Hier finden Sie die Dokumentation zur Installation von Jeedom auf Debian
-
-> **Wichtig**
+>****
 >
-> Debian 10 ist die offiziell unterstützte Distribution für Version 3.3.X von Jeedom (aber Stretch bleibt vollkommen funktionsfähig).  Debian 11 ist die offizielle Distribution für Version 4.xx. Wenn Sie keine Mindestkenntnisse in Linux-Umgebungen haben, empfehlen wir Ihnen, sich für eine Jeedom-Box wie Luna, Atlas oder Smart zu entscheiden.
+> [****](../compatibility/#Images%20système%20officielles) .
 
-> **Wichtig**
+## 
+
+ [](https://www.debian.org/){:"}.
+
+ [****](../compatibility/#Debian) .
+
+## 
+
+>**Wichtig**
 >
-> Das Installationsskript kann gefährlich sein, da davon ausgegangen wird, dass Ihr System leer ist. Wenn nicht, lesen Sie bitte das Skript und installieren Sie es von Hand.
+>. . .
 
->**Tipps**
+### 
+
+ *()*.
+
+ :
+
+ :
+    sh
+    wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
+    
+
+ :
+    sh
+    
+    
+
+ :
+    sh
+    
+    
+	>****
+	>
+	>..
+
+### Options
+
+>**Wichtig**
 >
->Um die IP der VM herauszufinden (sobald sie mit ihr verbunden ist, werden die Kennungen auf dem Verbindungsbildschirm angezeigt) ``ip -s -c -h a``
+>.
 
-Stellen Sie in SSH eine Verbindung zu Ihrem System her und tun Sie dies :
+ :
 
-````
-wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
-chmod +x install.sh
-./install.sh
-````
+- **** (`-d`) :  *()*
+- **** (`-i`) :  *()*
+- **** (`-s`) :  *()*
+- **** (`-v`) :  *()*
+- **** (`-w`) :  *()*
 
-Dann geh einfach zu ``IP_JEEDOM`` von Ihrem Internetbrowser.
+## 
 
-> **Notiz**
->
-> Die Standardanmeldeinformationen sind admin / admin
+ [ ****](../compatibility/#Matériels%20supportés)
 
-> **Notiz**
->
-> Die folgenden Argumente können verwendet werden : -w = Webserver-Ordner -z = Installationsabhängigkeiten z-Wave -m = gewünschtes MySQL-Root-Passwort
+## 
 
-````
-./install -w /var/www/html -z -m Jeedom
-````
-
->**Notiz**
->
->Wenn Sie die Alpha-Version von Jeedom installieren möchten, müssen Sie dies tun :
-````
-wget https://raw.githubusercontent.com/jeedom/core/alpha/install/install.sh
-chmod +x install.sh
-./install.sh -v alpha
-````
-
-Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index).
+ [****](../premiers-pas/#Première%20connexion) .
