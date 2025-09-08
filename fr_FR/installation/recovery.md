@@ -26,7 +26,7 @@ A l’issue, le système se lance une première fois avant de redémarrer automa
 
 La procédure peut directement être effectuée depuis Jeedom en cliquant sur le menu **Réglages → Système → Restauration système**, selon 2 modes opératoires différents :
 
-{% include lightbox.html src="images/recovery.jpg" data="Recovery" title="Accueil page restauration système" imgstyle="width:75%;display:block;margin:0 auto;" %}
+{% include lightbox.html src="images/recovery.jpg" data="Recovery" title="Accueil page restauration système" imgstyle="display:block;margin:0 auto;" %}
 
 ### Mode automatique
 
