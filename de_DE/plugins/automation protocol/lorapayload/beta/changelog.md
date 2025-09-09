@@ -10,9 +10,11 @@
 
 - Correction bug status panel lorapaylaod
 
--  **
+- Ajout du produit NodOn TRV-8-1-00 *Radiator Valve*
 
--  ** 
+- Ajout du produit Nexelec Guard+ *Smoke detector Temperature & Humidity* 
+
+- 
 
 # 29/08/2025
 - Ajout du downlink de la commande Heating Target Temperature Range et Cooling Target Temperature Range pour produit *WT304-868M - SMART FAN COIL THERMOSTAT*
