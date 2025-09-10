@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 09/09/2025 (Bêta)
+# 10/09/2025
 
 - Correction  des downlinks pour produit *WT304-868M - SMART FAN COIL THERMOSTAT*
 
@@ -19,6 +19,41 @@
 - Ajout de commande pour le produit NodeOn TRV-8-1-00
 
 - Ajout de fonctionnalité de mise en forme des topics pour migration 
+
+- Ajout du produit *Milesight Indoor Ambience Monitoring Sensor AM103*
+
+- Ajout du produit *Milesight Ambience Monitoring Sensor AM107*
+
+- Ajout du produit *Milesight Capacitive Liquid Level Sensor EM300-CL*
+
+- Ajout du produit *Milesight Membrane Leak Detection Sensor EM300-MLD*
+
+- Ajout du produit *Milesight Ultrasonic Distance/Level Sensor EM310-UDL*
+
+- Ajout du produit *Milesight Tilt Sensor EM320-TILT*
+
+- Ajout du produit *Milesight ToF Laser Distance Sensor EM400-TLD*
+
+- Ajout du produit *Milesight Multifunctional Distance Sensor EM400-MUD*
+
+- Ajout du produit *Milesight Outdoor CO₂ Sensor EM500-CO2*
+
+- Ajout du produit *Milesight People Counting Sensor VS340*
+
+- Ajout du produit *Milesight People Counting Sensor VS341*
+
+- Ajout du produit *Milesight People Counting Sensor VS370*
+
+- Ajout du produit *Milesight Smart Scene Panel WS136*
+
+- Ajout du produit *Milesight Smart Portable Socket WS523*
+
+- Ajout du produit *Milesight Smart Fan Coil Thermostat WT303*
+
+- Ajout du produit *Milesight Soil Moisture, Temperature & Conductivity Sensor EM500-SMTC*
+
+- Ajout du produit *Milesight Bathroom Occupancy Sensor VS330*
+
 
 
 # 29/08/2025

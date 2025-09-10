@@ -4,8 +4,42 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
-# 
-- 
+# 09/09/2025 (Bêta)
+
+- Correction  des downlinks pour produit *WT304-868M - SMART FAN COIL THERMOSTAT*
+
+- Ajout du produit *LC01 - Relay Controller*
+
+- Correction bug status panel lorapaylaod
+
+- Ajout du produit NodOn TRV-8-1-00 *Radiator Valve*
+
+- Ajout du produit Nexelec Guard+ *Smoke detector Temperature & Humidity* 
+
+- Ajout de commande pour le produit NodeOn TRV-8-1-00
+
+-  
+
+
+# 29/08/2025
+- Ajout du downlink de la commande Heating Target Temperature Range et Cooling Target Temperature Range pour produit *WT304-868M - SMART FAN COIL THERMOSTAT*
+
+- Ajout du produit *AM307L - Ambience Monitoring Sensors*
+
+
+# 28/08/2025
+- Correction d'envoie des downlinks dans une liste déroulante
+
+- Correction de la fonction readAllMarques en PHP8
+
+- Ajout du sous type select
+
+- Mise a jour configuration équipement 
+
+- Ajout de fonctionnalité de modification d'application du produit depuis Jeedom
+
+- Ajout de commande downlink (System Type et Child Lock Settings) pour produit *WT304-868M - SMART FAN COIL THERMOSTAT*
+
 
 # 22/08/2025
 - Mise à jour du champs création automatique (séparation des fabricants et des modèles)
