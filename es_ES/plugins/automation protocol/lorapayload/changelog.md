@@ -4,7 +4,7 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
-# 09/09/2025 (Bêta)
+# 
 
 - Correction  des downlinks pour produit *WT304-868M - SMART FAN COIL THERMOSTAT*
 
@@ -18,7 +18,42 @@
 
 - Ajout de commande pour le produit NodeOn TRV-8-1-00
 
--  
+- Ajout de fonctionnalité de mise en forme des topics pour migration 
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
 
 
 # 29/08/2025
