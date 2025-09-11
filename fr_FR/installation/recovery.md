@@ -60,7 +60,7 @@ Un fichier `JeedomSystemUpdate.log` est généré sur la clé USB durant le proc
 
 ### Logs
 
-Le détail des opérations effectuées par l'utilitaire de restauration système sont visibles dans le menu **Analyse → Logs**, section **recovery**.
+Les opérations effectuées par l'utilitaire de restauration système sont visibles dans le menu **Analyse → Logs**, section **recovery**.
 
 ## Images système
 
