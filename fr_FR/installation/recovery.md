@@ -52,7 +52,7 @@ Un fichier `JeedomSystemUpdate.log` est généré sur la clé USB durant le proc
 
 >**INFORMATION**
 >
->Pour créer soi-même une clé USB de restauration, il faut simplement, **via le navigateur de fichiers** *(pas de gravure requise)*, envoyer à la racine de la première partition de la clé USB *(format `FAT`)* :
+>Pour créer soi-même une clé USB de restauration, il faut simplement, **via l'explorateur de fichiers** *(pas de gravure requise)*, envoyer à la racine de la première partition de la clé USB *(format `FAT`)* :
 >
 >- soit une image système compatible renommée en `JeedomSystemUpdate.img.gz`
 >- soit une image système compatible **accompagnée du fichier de configuration USB** `JeedomSystemUpdate.ini` dont le contenu est `update_filename="Jeedom****-*.*.*_******-1*.*.img.gz"`.\
