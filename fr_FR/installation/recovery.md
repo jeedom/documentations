@@ -73,7 +73,7 @@ Consulter [**la documentation dédiée aux images système officielles**](../com
 
 ### Gravure eMMC Smart
 
-**Sur Smart**, l'image système peut directement être écrite sur le support eMMC détachable. Consultez la documentation [**Guides → Tutoriaux → Remise en état d'usine Smart**](../howto/smart) pour plus de détails.
+Les nouvelles fonctionnalités de restauration système ne peuvent pas être installées sur une Smart encore sous Debian 10. Dans ce cas il faut, dans un premier temps, écrire le support eMMC détachable pour passer sur une version supérieure de Debian, voir la documentation [**Guides → Tutoriaux → Remise en état d'usine Smart**](../howto/smart) pour plus de détails.
 
 ## Première connexion
 
