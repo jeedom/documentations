@@ -73,7 +73,7 @@ Consulter [**la documentation dédiée aux images système officielles**](../com
 
 ### Gravure eMMC Smart
 
-**Sur Smart**, l'image système peut directement être écrite sur le support eMMC détachable. Consultez la documentation [**Guides → Tutoriaux → Remise en état d'usine Smart**](../howto/smart) pour plus de détails.
+.  [**Guides → Tutoriaux → Remise en état d'usine Smart**](../howto/smart) pour plus de détails.
 
 ## Première connexion
 
