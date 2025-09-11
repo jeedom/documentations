@@ -71,7 +71,7 @@ Les images systèmes actuellement fournies par l'équipe Jeedom sont librement c
 
 Consulter [**la documentation dédiée aux images système officielles**](../compatibility/#Images%20système%20officielles) pour de plus amples précisions.
 
-### Gravure eMMC Smart
+## Gravure eMMC Smart
 
 Les nouvelles fonctionnalités de restauration système ne peuvent pas être installées sur une Smart encore sous Debian 10. Dans ce cas il faut, dans un premier temps, écrire le support eMMC détachable pour passer sur une version supérieure de Debian, voir la documentation [**Guides → Tutoriaux → Remise en état d'usine Smart**](../howto/smart) pour plus de détails.
 
