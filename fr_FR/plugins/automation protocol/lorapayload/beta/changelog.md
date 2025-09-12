@@ -4,8 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 11/09/2025
+# 12/09/2025
+
 - Ajout du downlink Set Keep Alive pour produit *Dragino LHT52*
+
+- Pré remplir l'application du device
 
 # 10/09/2025
 
