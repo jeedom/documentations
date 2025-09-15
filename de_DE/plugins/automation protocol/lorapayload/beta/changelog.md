@@ -4,6 +4,21 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# )
+
+-  ** 
+
+-  ** 
+
+- 
+
+-  
+
+- Ajout du produit **
+
+- 
+
+
 # 12/09/2025
 
 - Ajout du downlink Set Keep Alive pour produit *Dragino LHT52*

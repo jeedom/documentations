@@ -4,6 +4,21 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 15/09/2025 (bêta)
+
+- Ajout de downlink pour le produit *EM500-PP - Pipe Pressure Sensor - PP* 
+
+- Ajout de downlink pour le produit *EM500 - Ultrasonic Distance/Level Sensor - UDL* 
+
+- Ajout du bouton Commande MQTT dans la configuration Lorapayload
+
+- Ajout d'avertissement au changement du nom de l'équipement 
+
+- Ajout du produit *Smart Fill Level Monitoring Sensor WS201*
+
+- Correction bug régénération des commandes mqtt
+
+
 # 12/09/2025
 
 - Ajout du downlink Set Keep Alive pour produit *Dragino LHT52*
