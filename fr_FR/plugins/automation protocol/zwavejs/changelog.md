@@ -4,9 +4,51 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 16/09/2025
+
+- Passage à la version *10.5.1* de ZwaveJsUI
+
+# 24/06/2025
+
+- Correction d'un bug qui se produisait sous PHP8 lors de la création des commandes manquantes.
+
+# 10/06/2025
+
+- Mise à jour de la configuration *Mco Home MH-S412 double*
+
+# 05/06/2025
+
+**Améliorations**
+
+- Ajout de la procédure d'intégration
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Shelly Qubino WAVE_PM_MINI - WAVE PM Mini - Relay* (propriétés : Power, Energy, Notification Over-Current, Notification Over-Voltage, Notification Heat-Sensor, Notification Alarm-Level, Notification Mains, Indicator)
+- Ajout de la configuration *Zooz ZAC38 - ZAC38 - Range extender* (propriétés : Switch, Notification Alarm-Level, Notification Mains, Indicator, Battery)
+
+# 04/06/2025
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Mco Home MH-S411 Simple* (propriétés : Switch, Scene, Central Scene)
+- Ajout de la configuration *Remotec ZXT-800* (propriétés : Air temperature, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Thermostatfanmode, Indicator)
+- Ajout de la configuration *Shelly Qubino Wave 1PM Mini QMSW-0A1P8* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor, Notification Alarm-Level)
+- Ajout de la configuration *Shelly Qubino Wave 1 Mini QMSW-0A1X8* (propriétés : Switch, Notification Mains, Notification Heat-Sensor, Notification Alarm-Level)
+- Ajout de la configuration *Heatit Thermostat Z-TEMP3* (propriétés : Air temperature, Humidity, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Battery, Indicator)
+- Ajout de la configuration *Zooz ZEN15 - Power Switch* (propriétés : Switch, Notification Alarm-Level, Notification Power-Status, Scene, Indicator, Voltage, Power, Energy, Current)
+- Ajout de la configuration *Zooz ZEN54_LR - 0-10V Dimmer* (propriétés : Multilevel, Indicator)
+- Ajout de la configuration *Zooz ZES11 - ZSE 11 - Q SENSOR* (propriétés : Motion, Temperature, Luminance, Humidity, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Battery-Maintenance, Indicator)
+- Ajout de la configuration *Zooz ZES18 - ZSE 18 - MOTION SENSOR* (propriétés : Motion, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Magnetic, Indicator)
+
 # 15/11/2024
 
+- Passage à la version *9.26.0* de ZwaveJsUI
 - Correction de la méthode d'installation des dépendances
+
+# 10/11/2024
+
+- Support du protocole mqtts
 
 # 27/09/2024
 
@@ -17,7 +59,6 @@
 **Améliorations**
 
 - Passage à la version *9.20.0* de ZwaveJsUI
-- Préparation pour merge le mode distant dans la prochaine version
 - Nettoyage de code
 
 **Ajouts de Configurations**
@@ -60,7 +101,6 @@
 **Améliorations**
 
 - Rajout d'une fonction additionalDependancyCheck pour le core
-
 
 **Modifications de Configurations**
 

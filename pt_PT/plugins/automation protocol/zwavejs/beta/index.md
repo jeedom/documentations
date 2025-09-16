@@ -48,9 +48,9 @@ Vários cenários são possíveis :
 
 - **Você já está usando o plugin MQTT Manager** : Nenhuma intervenção é necessária, o plugin Z-Wave JS recuperará automaticamente as informações de conexão com o broker MQTT.
 
-- **Você já está usando um broker MQTT por meio de um plug-in diferente do MQTT Manager** : Nesta situação, você deve selecionar o modo **corretor remoto** e fornecer informações de login *(endereço e autenticação)* na configuração do plug-in do MQTT Manager.
+<!-- - **Vous utilisez déjà un broker MQTT via un autre plugin que Gerente MQTT** : Dans cette situation, il faut sélectionner le mode **broker distant** e indiquer les informations de connexion *(adresse e authentification)* dans la configuration du plugin Gerente MQTT.
 
-- **Você deseja usar um broker MQTT no Docker** : Tudo o que você precisa fazer é selecionar o modo **docker do corretor local** na configuração do plugin MQTT Manager antes de instalar o `Mosquitto`.
+- **Você deseja usar um broker MQTT no Docker** : Tudo o que você precisa fazer é selecionar o modo **docker do corretor local** na configuração do plugin MQTT Manager antes de instalar o `Mosquitto`. -->
 
 De qualquer forma, o daemon de plug-in do MQTT Manager deve ser iniciado antes que você possa prosseguir. Caso contrário, uma mensagem irá avisá-lo, impedindo o início do daemon Z-Wave JS.
 

@@ -4,11 +4,14 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 
+
+- Mudar para a versão ** )
+- Mudar para a versão ** )
+
 # 24/06/2025
 
 - Correction d'un bug qui se produisait sous PHP8 lors de la création des commandes manquantes.
-
-# 10/06/2025- Fixe de la configuration *Mco Home MH-S412 double*
 
 # 10/06/2025
 
@@ -16,16 +19,18 @@
 
 # 05/06/2025
 
+**Melhorias**
+
 - Ajout de la procédure d'intégration
 
-**Ajouts de Configuration**
+**Adições de configuração**
 
 - Configuração adicionada *Shelly Qubino WAVE_PM_MINI - WAVE PM Mini - Relay* (propriedades : Power, Energy, Notification Over-Current, Notification Over-Voltage, Notification Heat-Sensor, Notification Alarm-Level, Notification Mains, Indicator)
 - Configuração adicionada *Zooz ZAC38 - ZAC38 - Range extender* (propriedades : Switch, Notification Alarm-Level, Notification Mains, Indicator, Battery)
 
 # 04/06/2025
 
-**Ajouts de Configuration**
+**Adições de configuração**
 
 - Configuração adicionada *Mco Home MH-S411 Simple* (propriedades : Switch, Scene, Central Scene)
 - Configuração adicionada *Remotec ZXT-800* (propriedades : Air temperature, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Thermostatfanmode, Indicator)
@@ -97,7 +102,6 @@
 **Melhorias**
 
 - Adição de uma função adicionalDependancyCheck para o núcleo
-
 
 **Alterações de configuração**
 

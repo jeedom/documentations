@@ -180,6 +180,12 @@ Então, uma vez certo que o próprio módulo é bem reconhecido e que seus valor
 
 Para ir além, você pode ativar fisicamente o módulo e fazer screenshots das mudanças consecutivas de valor, ainda na janela Valores do nó.
 
+>**EM FORMAÇÃO**
+>
+>Le traitement d'une demande de support peut nécessiter un certain délai.
+Si vous souhaitez créer le fichier d'intégration de manière autonome, vous pouvez suivre les instructions détaillées dans le [Guide d'intégration](procedure_integration.md).
+
+
 >**IMPORTANTE**
 >
 >Insistimos no fato de que a equipe inicialmente processará apenas solicitações de configurações de módulos incluindo todos os elementos solicitados acima e já funcionais com o plug-in Openzwave. Você pode não conseguir adicionar suas capturas de tela ao criar o ticket, não se preocupe, você poderá enviá-las mais tarde em resposta à sua solicitação.

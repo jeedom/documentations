@@ -180,6 +180,12 @@ Luego, una vez que esté seguro de que el módulo en sí es bien reconocido y qu
 
 Para ir más allá, puede activar físicamente el módulo y tomar capturas de pantalla de los cambios de valores consecutivos, aún en la ventana Valores del nodo.
 
+>**INFORMACIÓN**
+>
+>Le traitement d'une demande de support peut nécessiter un certain délai.
+Si vous souhaitez créer le fichier d'intégration de manière autonome, vous pouvez suivre les instructions détaillées dans le [Guide d'intégration](procedure_integration.md).
+
+
 >**IMPORTANTE**
 >
 >Insistimos en el hecho de que el equipo inicialmente solo procesará solicitudes de configuraciones de módulos que incluyan todos los elementos solicitados anteriormente y que ya funcionen con el complemento Openzwave. Es posible que no pueda agregar sus capturas de pantalla al crear el ticket, no se preocupe, podrá enviarlas más tarde en respuesta a su solicitud.

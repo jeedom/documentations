@@ -4,12 +4,57 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 24/06/2025
+
+- Correction d'un bug qui se produisait sous PHP8 lors de la création des commandes manquantes.
+
+# 10/06/2025- Fixe de la configuration *Mco Home MH-S412 double*
+
+# 10/06/2025
+
+- Mise à jour de la configuration *Mco Home MH-S412 double*
+
+# 05/06/2025
+
+- Ajout de la procédure d'intégration
+
+**Ajouts de Configuration**
+
+- Added config *Shelly Qubino WAVE_PM_MINI - WAVE PM Mini - Relay* (properties : Power, Energy, Notification Over-Current, Notification Over-Voltage, Notification Heat-Sensor, Notification Alarm-Level, Notification Mains, Indicator)
+- Added config *Zooz ZAC38 - ZAC38 - Range extender* (properties : Switch, Notification Alarm-Level, Notification Mains, Indicator, Battery)
+
+# 04/06/2025
+
+**Ajouts de Configuration**
+
+- Added config *Mco Home MH-S411 Simple* (properties : Switch, Scene, Central Scene)
+- Added config *Remotec ZXT-800* (properties : Air temperature, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Thermostatfanmode, Indicator)
+- Added config *Shelly Qubino Wave 1PM Mini QMSW-0A1P8* (properties : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor, Notification Alarm-Level)
+- Added config *Shelly Qubino Wave 1 Mini QMSW-0A1X8* (properties : Switch, Notification Mains, Notification Heat-Sensor, Notification Alarm-Level)
+- Added config *Heatit Thermostat Z-TEMP3* (properties : Air temperature, Humidity, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Battery, Indicator)
+- Added config *Zooz ZEN15 - Power Switch* (properties : Switch, Notification Alarm-Level, Notification Power-Status, Scene, Indicator, Voltage, Power, Energy, Current)
+- Added config *Zooz ZEN54_LR - 0-10V Dimmer* (properties : Multilevel, Indicator)
+- Added config *Zooz ZES11 - ZSE 11 - Q SENSOR* (properties : Motion, Temperature, Luminance, Humidity, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Battery-Maintenance, Indicator)
+- Added config *Zooz ZES18 - ZSE 18 - MOTION SENSOR* (properties : Motion, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Magnetic, Indicator)
+
+# 11/15/2024
+
+- Switch to version *9.26.0* by ZwaveJsUI
+- Fixed dependency installation method
+
+# 10/11/2024
+
+- Support for mqtts protocol
+
+# 09/27/2024
+
+- Change of minimum versions: core 4.4 and OS Debian 11
+
 # 09/26/2024
 
 **Improvements**
 
 - Switch to version *9.20.0* by ZwaveJsUI
-- Preparing to merge remote mode into next release
 - Code cleaning
 
 **Configuration Additions**
@@ -32,9 +77,9 @@
 **Configuration Additions**
 
 - Added config *Neo Signal Repeater* (properties : Temperature, Humidity)
-- Added config *Shelly Qubino Wave 1* (properties : Switch, Hands Notification, Over-Current Notification, Heat-Sensor Notification) 
+- Added config *Shelly Qubino Wave 1* (properties : Switch, Hands Notification, Over-Current Notification, Heat-Sensor Notification)
 - Added config *Shelly Qubino Wave 1 PM* (properties : Switch, Power, Energy, Mains Notification, Over-Current Notification, Heat-Sensor Notification)
-- Added config *Shelly Qubino Wave Pro 1* (properties : Switch, Hands Notification, Heat-Sensor Notification) 
+- Added config *Shelly Qubino Wave Pro 1* (properties : Switch, Hands Notification, Heat-Sensor Notification)
 - Added config *Shelly Qubino Wave Pro 1 PM* (properties : Switch, Power, Energy, Mains Notification, Over-Current Notification, Over-Voltage Notification, Heat-Sensor Notification)
 - Added config *Shelly Qubino Wave 2 PM* (properties : Switch, Power, Energy, Mains Notification, Over-Current Notification, Heat-Sensor Notification)
 - Added config *Shelly Qubino Wave Pro 2* (properties : Switch)
@@ -63,7 +108,7 @@
 **Improvements**
 
 - Added an option to enable or disable the *Soft Reset*
-- Switch to version *9.6.2* by ZwaveJsUI 
+- Switch to version *9.6.2* by ZwaveJsUI
 
 **Configuration Additions**
 

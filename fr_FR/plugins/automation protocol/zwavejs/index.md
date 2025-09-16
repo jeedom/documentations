@@ -48,9 +48,9 @@ Plusieurs cas de figures sont envisageables :
 
 - **Vous utilisez déjà le plugin MQTT Manager** : Aucune intervention n'est nécessaire, le plugin Z-Wave JS va récupérer automatiquement les informations de connexion au broker MQTT.
 
-- **Vous utilisez déjà un broker MQTT via un autre plugin que MQTT Manager** : Dans cette situation, il faut sélectionner le mode **broker distant** et indiquer les informations de connexion *(adresse et authentification)* dans la configuration du plugin MQTT Manager.
+<!-- - **Vous utilisez déjà un broker MQTT via un autre plugin que MQTT Manager** : Dans cette situation, il faut sélectionner le mode **broker distant** et indiquer les informations de connexion *(adresse et authentification)* dans la configuration du plugin MQTT Manager.
 
-- **Vous souhaitez utiliser un broker MQTT sous Docker** : Il suffit alors de sélectionner le mode **broker local docker** dans la configuration du plugin MQTT Manager avant d'installer `Mosquitto`.
+- **Vous souhaitez utiliser un broker MQTT sous Docker** : Il suffit alors de sélectionner le mode **broker local docker** dans la configuration du plugin MQTT Manager avant d'installer `Mosquitto`. -->
 
 Dans tous les cas, le démon du plugin MQTT Manager doit être démarré avant de pouvoir passer à la suite. Autrement un message vous avertira, empêchant par la même le démarrage du démon Z-Wave JS.
 
@@ -179,6 +179,12 @@ Ensuite, une fois certain que le module en lui-même est bien reconnu et que ses
 - Captures d'écran de **chaque bloc** de la fenêtre des **Valeurs du nœud**
 
 Pour aller plus loin, vous pouvez actionner physiquement le module et effectuer des captures d'écran des changements de valeurs consécutifs, toujours dans la fenêtre des Valeurs du nœud.
+
+>**INFORMATION**
+>
+>Le traitement d’une demande de support peut nécessiter un certain délai.
+Si vous souhaitez créer le fichier d’intégration de manière autonome, vous pouvez suivre les instructions détaillées dans le [Guide d'intégration](procedure_integration.md).
+
 
 >**IMPORTANT**
 >

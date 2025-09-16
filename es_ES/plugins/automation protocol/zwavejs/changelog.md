@@ -4,12 +4,57 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 24/06/2025
+
+- Correction d'un bug qui se produisait sous PHP8 lors de la création des commandes manquantes.
+
+# 10/06/2025- Fixe de la configuration *Mco Home MH-S412 double*
+
+# 10/06/2025
+
+- Mise à jour de la configuration *Mco Home MH-S412 double*
+
+# 05/06/2025
+
+- Ajout de la procédure d'intégration
+
+**Ajouts de Configuration**
+
+- Configuración añadida *Shelly Qubino WAVE_PM_MINI - WAVE PM Mini - Relay* (propiedades : Power, Energy, Notification Over-Current, Notification Over-Voltage, Notification Heat-Sensor, Notification Alarm-Level, Notification Mains, Indicator)
+- Configuración añadida *Zooz ZAC38 - ZAC38 - Range extender* (propiedades : Switch, Notification Alarm-Level, Notification Mains, Indicator, Battery)
+
+# 04/06/2025
+
+**Ajouts de Configuration**
+
+- Configuración añadida *Mco Home MH-S411 Simple* (propiedades : Switch, Scene, Central Scene)
+- Configuración añadida *Remotec ZXT-800* (propiedades : Air temperature, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Thermostatfanmode, Indicator)
+- Configuración añadida *Shelly Qubino Wave 1PM Mini QMSW-0A1P8* (propiedades : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor, Notification Alarm-Level)
+- Configuración añadida *Shelly Qubino Wave 1 Mini QMSW-0A1X8* (propiedades : Switch, Notification Mains, Notification Heat-Sensor, Notification Alarm-Level)
+- Configuración añadida *Heatit Thermostat Z-TEMP3* (propiedades : Air temperature, Humidity, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Battery, Indicator)
+- Configuración añadida *Zooz ZEN15 - Power Switch* (propiedades : Switch, Notification Alarm-Level, Notification Power-Status, Scene, Indicator, Voltage, Power, Energy, Current)
+- Configuración añadida *Zooz ZEN54_LR - 0-10V Dimmer* (propiedades : Multilevel, Indicator)
+- Configuración añadida *Zooz ZES11 - ZSE 11 - Q SENSOR* (propiedades : Motion, Temperature, Luminance, Humidity, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Battery-Maintenance, Indicator)
+- Configuración añadida *Zooz ZES18 - ZSE 18 - MOTION SENSOR* (propiedades : Motion, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Magnetic, Indicator)
+
+# 15/11/2024
+
+- Cambiar a versión *9.26.0* por ZwaveJsUI
+- Arreglar el método de instalación de dependencia
+
+# 10/11/2024
+
+- Soporte del protocolo mqtts
+
+# 27/09/2024
+
+- Cambio de versiones mínimas: núcleo 4.4 y sistema operativo Debian 11
+
 # 26/09/2024
 
 **Mejoras**
 
 - Cambiar a versión *9.20.0* por ZwaveJsUI
-- Preparándose para fusionar el modo remoto en la próxima versión
 - Limpieza de código
 
 **Adiciones de configuración**
@@ -32,9 +77,9 @@
 **Adiciones de configuración**
 
 - Configuración añadida *Repetidor de señal neo* (propiedades : Temperatura, humedad)
-- Configuración añadida *Shelly Qubino Ola 1* (propiedades : Interruptor, notificación de manos, notificación de sobrecorriente, notificación de sensor de calor) 
+- Configuración añadida *Shelly Qubino Ola 1* (propiedades : Interruptor, notificación de manos, notificación de sobrecorriente, notificación de sensor de calor)
 - Configuración añadida *Shelly Qubino Ola 13:00* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
-- Configuración añadida *Shelly Qubino Wave Pro 1* (propiedades : Interruptor, notificación de manos, notificación de sensor de calor) 
+- Configuración añadida *Shelly Qubino Wave Pro 1* (propiedades : Interruptor, notificación de manos, notificación de sensor de calor)
 - Configuración añadida *Shelly Qubino Wave Pro 13:00* (propiedades : Interruptor, potencia, energía, notificación de red, notificación de sobrecorriente, notificación de sobretensión, notificación de sensor de calor)
 - Configuración añadida *Shelly Qubino Ola 2 p.m* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
 - Configuración añadida *Shelly Qubino Wave Pro 2* (propiedades : Switch)
@@ -63,7 +108,7 @@
 **Mejoras**
 
 - Se agregó una opción para habilitar o deshabilitar el *Reinicio suave*
-- Cambiar a versión *9.6.2* por ZwaveJsUI 
+- Cambiar a versión *9.6.2* por ZwaveJsUI
 
 **Adiciones de configuración**
 

@@ -4,11 +4,14 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 16/09/2025
+
+- Passage à la version *10.5.1* de ZwaveJsUI (stable)
+- Passage à la version *11.2.1* de ZwaveJsUI (beta)
+
 # 24/06/2025
 
 - Correction d'un bug qui se produisait sous PHP8 lors de la création des commandes manquantes.
-
-# 10/06/2025- Fixe de la configuration *Mco Home MH-S412 double*
 
 # 10/06/2025
 
@@ -16,16 +19,18 @@
 
 # 05/06/2025
 
+**Améliorations**
+
 - Ajout de la procédure d'intégration
 
-**Ajouts de Configuration**
+**Ajouts de Configurations**
 
 - Ajout de la configuration *Shelly Qubino WAVE_PM_MINI - WAVE PM Mini - Relay* (propriétés : Power, Energy, Notification Over-Current, Notification Over-Voltage, Notification Heat-Sensor, Notification Alarm-Level, Notification Mains, Indicator)
 - Ajout de la configuration *Zooz ZAC38 - ZAC38 - Range extender* (propriétés : Switch, Notification Alarm-Level, Notification Mains, Indicator, Battery)
 
 # 04/06/2025
 
-**Ajouts de Configuration**
+**Ajouts de Configurations**
 
 - Ajout de la configuration *Mco Home MH-S411 Simple* (propriétés : Switch, Scene, Central Scene)
 - Ajout de la configuration *Remotec ZXT-800* (propriétés : Air temperature, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Thermostatfanmode, Indicator)
@@ -97,7 +102,6 @@
 **Améliorations**
 
 - Rajout d'une fonction additionalDependancyCheck pour le core
-
 
 **Modifications de Configurations**
 

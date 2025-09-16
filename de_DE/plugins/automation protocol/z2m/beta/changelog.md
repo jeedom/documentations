@@ -4,8 +4,14 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 
+
 - Meilleurs gestion des droits lors du lancement du demon
 - Ajout d'un nouveau firmware (8.0.3.0) pour la Luna
+
+>**WICHTIG**
+>
+>.X (2.6.)
 
 # 24/06/2025
 
