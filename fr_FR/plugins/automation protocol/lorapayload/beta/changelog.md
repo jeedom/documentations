@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 15/09/2025 (bêta)
+# 17/09/2025 (bêta)
 
 - Ajout de downlink pour le produit *EM500-PP - Pipe Pressure Sensor - PP* 
 
@@ -17,6 +17,29 @@
 - Ajout du produit *Smart Fill Level Monitoring Sensor WS201*
 
 - Correction bug régénération des commandes mqtt
+
+- Ajout du produit *Dragino LDS03A - Outdoor LoRaWAN Door Sensor*
+
+- Ajout du produit *Dragino LMS01 - Leaf Moisture & Temperature Sensor*
+
+- Ajout du produit *Dragino SE02-LB - LoRaWAN Soil Moisture & Temperature Sensor (Dual Channel)*
+
+- Ajout du produit *Dragino DS03A - Capteur d'ouverture de porte*
+
+- Ajout du produit *Dragino LTC2 - LoRaWAN Temperature/Resistance Sensor*
+
+- Ajout du produit *Dragino LWL04 - LoRaWAN Water Leak Sensor*
+
+- Ajout du produit *Dragino MDS120-LB - LoRaWAN Microwave Radar Distance Sensor*
+
+- Ajout du produit *Dragino SE01-LB - LoRaWAN Soil Moisture & EC Sensor*
+
+- Ajout du produit *Dragino SPH01-LB-LS - LoRaWAN Soil pH Sensor*
+
+- Ajout du produit *Dragino WL03A-LB-LS - LoRaWAN None-Position Rope Type Water Leak Controller*
+ 
+- Correction bug bouton config Panel
+
 
 
 # 12/09/2025

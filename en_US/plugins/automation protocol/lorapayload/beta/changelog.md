@@ -6,17 +6,40 @@
 
 # )
 
--  ** 
+- Ajout de downlink pour le produit *EM500-PP - Pipe Pressure Sensor - PP* 
 
--  ** 
+- Ajout de downlink pour le produit *EM500 - Ultrasonic Distance/Level Sensor - UDL* 
 
-- 
+- Ajout du bouton Commande MQTT dans la configuration Lorapayload
 
--  
+- Ajout d'avertissement au changement du nom de l'équipement 
+
+- Ajout du produit *Smart Fill Level Monitoring Sensor WS201*
+
+- Correction bug régénération des commandes mqtt
 
 - Ajout du produit **
 
+- Ajout du produit **
+
+- Ajout du produit *)*
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+
+- Ajout du produit **
+ 
 - 
+
 
 
 # 12/09/2025
