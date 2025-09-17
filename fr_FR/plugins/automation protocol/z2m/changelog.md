@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 17/09/2025
+
+- Correction d'un soucis lors de la mise a jour du firmware de la luna
+
 # 16/09/2025
 
 - Meilleurs gestion des droits lors du lancement du demon
