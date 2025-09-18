@@ -18,27 +18,29 @@
 
 - Correction bug régénération des commandes mqtt
 
-- Ajout du produit **
+- Ajout du produit *Dragino LDS03A - Outdoor LoRaWAN Door Sensor*
 
-- Ajout du produit **
+- Ajout du produit *Dragino LMS01 - Leaf Moisture & Temperature Sensor*
 
-- Ajout du produit *)*
+- Ajout du produit *Dragino SE02-LB - LoRaWAN Soil Moisture & Temperature Sensor (Dual Channel)*
 
-- Ajout du produit **
+- Ajout du produit *Dragino DS03A - Capteur d'ouverture de porte*
 
-- Ajout du produit **
+- Ajout du produit *Dragino LTC2 - LoRaWAN Temperature/Resistance Sensor*
 
-- Ajout du produit **
+- Ajout du produit *Dragino LWL04 - LoRaWAN Water Leak Sensor*
 
-- Ajout du produit **
+- Ajout du produit *Dragino MDS120-LB - LoRaWAN Microwave Radar Distance Sensor*
 
-- Ajout du produit **
+- Ajout du produit *Dragino SE01-LB - LoRaWAN Soil Moisture & EC Sensor*
 
-- Ajout du produit **
+- Ajout du produit *Dragino SPH01-LB-LS - LoRaWAN Soil pH Sensor*
 
-- Ajout du produit **
+- Ajout du produit *Dragino WL03A-LB-LS - LoRaWAN None-Position Rope Type Water Leak Controller*
  
-- 
+- Correction bug bouton config Panel
+
+-  
 
 
 

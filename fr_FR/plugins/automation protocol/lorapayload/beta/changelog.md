@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 17/09/2025 (bêta)
+# 18/09/2025 (bêta)
 
 - Ajout de downlink pour le produit *EM500-PP - Pipe Pressure Sensor - PP* 
 
@@ -39,6 +39,8 @@
 - Ajout du produit *Dragino WL03A-LB-LS - LoRaWAN None-Position Rope Type Water Leak Controller*
  
 - Correction bug bouton config Panel
+
+- Ajout qualité du signal dans panel 
 
 
 
