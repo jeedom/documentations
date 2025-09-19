@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 18/09/2025 (bêta)
+# 19/09/2025 (bêta)
 
 - Ajout de downlink pour le produit *EM500-PP - Pipe Pressure Sensor - PP* 
 
@@ -40,8 +40,13 @@
  
 - Correction bug bouton config Panel
 
-- Ajout qualité du signal dans panel 
+- Ajout qualité du signal et Spreading factor dans panel 
 
+- Correction bug récréation des commandes mqtt
+
+- Ajout du bouton de recréation des commandes mqtt dans le panel lorpaylaod
+
+- Ajout du bouton envoie de downlink en masse dans le panel lorapaylaod
 
 
 # 12/09/2025
