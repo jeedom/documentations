@@ -48,6 +48,10 @@
 
 - Ajout du bouton envoie de downlink en masse dans le panel lorapaylaod
 
+- Correction bug filtrage date panel
+
+- Ajout de la documentation de Lorapayload 
+
 
 # 12/09/2025
 
