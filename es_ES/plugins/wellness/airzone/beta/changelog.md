@@ -18,7 +18,11 @@
 
 ## 
 
-- )
+- 
+
+## 24/06/2025
+
+- Fix unité Humidité (relancer un scan des zones via la passerelle si équipements deja existants)
 
 
 ## 06/06/2025
