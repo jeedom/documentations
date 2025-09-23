@@ -1,59 +1,163 @@
-# LNS plugin
+# )
 
 ## Description
 
-This plugin allows you to install and configure a Chirpstack V3 on the Jeedom box.
+ ****  **** .  
+ ****  :  
+- ).  
+- .  
+-  ****.  
+- ).  
+- .
+
 
 ## Fonctionnement
-1- Launch dependencies - in order to install the necessary packages.
+1. **Installer les dépendances**  
+   - .).  
 
-2- The default port is 8081. It is possible to change it via the LNS plugin interface.
+2. ****  
+   -  **8081**  **8080** .  
+   - .  
 
-3- Import the MQTT2 configuration - as long as the four fields broker IP address, broker port, connection identifier, MQTT password are not filled then the MQTT2 dependencies are still being installed.
+3. ****  
+   -  :  
+     -   
+     -   
+     -   
+     -   
+   -  ****.  
 
-4- Install Gateway Bridge (optional) - check then save if installation of the Gateway Bridge is necessary.
+4. **)**  
+   -  ****.  
+   -  ****.  
 
-5- Modify the CS configuration - once the four fields are completed, you can modify the configuration files.
+5. ****  
+   - .  
 
-6- Check the status of services.
+6. ****  
+   - ).  
 
-7- Open Chirpstack.
+7. ****  
+   - .  
 
-8- Automatic creation in CS - enter the CS identifiers in order to create in Chirpstack the Network Server, Service Profile, Gateway, Device Profile (class A and class C).
-
-# 
-)
-
-    - 
-![alt text](image-5.png)
- :
-
-
-)
+8. ****  
+   -  :  
+     - **** : ).  
+     - **** : ).  
 
 
-![alt text](image-6.png)
+## Installation du plugin LNS - Jeedom
+1. ****  
+   -  :   
+   -  ****  ****.  
 
-)
-)
-![alt text](image-7.png)
+2. ****  
+   -  :   
+   - .  
+  ![alt text](../images/image-5.png)
+3. **** :  
+   ![alt text](../images/LNSV3.png) 
+   1. Importer la configuration de MQTT2.  
+    ** ().  
+   3. Sauvegarder.  
+   . 
+   ).  
+   .  
 
-# Panel
+**** : . .
 
-##  ?
+## Panel LNS
 
--  **** ( ****.
--  :
-  -  **** .
+### Qu'est-ce que le panel LNS ?
 
-- .
-![alt text](image-3.png)
+Le **Panel LNS** .  
+
+- Il affiche :  
+  - La liste **complète des gateways connectées** .  
+  -  ****.  
+  -  **** .  
+
+ :  
+- . 
+
+![alt text](../images/image-3.png)
+
+---
+## Visualisation dans Jeedom
+
+-  :  
+  - .  
+  - .  
+  - ).  
+<p align="center">
+  <img src="../images/image-4.:10px;">
+  <img src="../images/image-8.png" width="75%">
+</p>
+
+---
+
+## 
+
+.:
+ :  
+- .  
+- .  
+- .).  
+- .  
+- ).  
+- .  
+ 
+
+ **8081** .  
 
 ---
 ## 
 
--  :
-![alt text](image-4.png)
-![alt text](image-8.png)
+|               |                                     |                                    |
+|-----------------------------|--------------------------------------------------|------------------------------------------------|
+| ****            |               | )                    |
+| ****     |                                            |                                          |
+| ****          |                   |         |
+| ****    | ) | ) |
+| ****     |  |       |
+
 ---
 
+## 
+ ****  **** .  
+ : .
+
+### 
+- .  
+- ).  
+
+### Étapes
+.: :
+).  
+).  
+.  
+.  
+).  
+.  
+.  
+).  
+
+### 
+-  **** .  
+-  **** .  
+-  **** .  
+
+---
+
+## 
+ 
+- ** dépendances restent “en cours d'installation”**  
+  .  
+
+- ****  
+   **** . .
+
+- ****  
+  .  
+
+---

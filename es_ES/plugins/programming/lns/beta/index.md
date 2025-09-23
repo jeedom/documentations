@@ -1,59 +1,163 @@
-# Complemento LNS
+# )
 
 ## Description
 
-Este complemento le permite instalar y configurar un Chirpstack V3 en la caja Jeedom.
+ ****  **** .  
+ ****  :  
+- ).  
+- .  
+-  ****.  
+- ).  
+- .
+
 
 ## Fonctionnement
-1- Inicie las dependencias - para instalar los paquetes necesarios.
+1. **Installer les dépendances**  
+   - .).  
 
-2- El puerto predeterminado es 8081. Es posible cambiarlo a través de la interfaz del complemento LNS.
+2. ****  
+   -  **8081**  **8080** .  
+   - .  
 
-3- Importe la configuración de MQTT2: siempre que los cuatro campos dirección IP del intermediario, puerto del intermediario, identificador de conexión y contraseña de MQTT no estén completos, las dependencias de MQTT2 aún se están instalando.
+3. ****  
+   -  :  
+     -   
+     -   
+     -   
+     -   
+   -  ****.  
 
-4- Instale el Puente Gateway (opcional): marque y guarde si es necesaria la instalación del Puente Gateway.
+4. **)**  
+   -  ****.  
+   -  ****.  
 
-5- Modifique la configuración del CS: una vez completados los cuatro campos, podrá modificar los archivos de configuración.
+5. ****  
+   - .  
 
-6- Consulta el estado de los servicios.
+6. ****  
+   - ).  
 
-7- Pila de chirridos abierta.
+7. ****  
+   - .  
 
-8- Creación automática en CS: ingrese los identificadores de CS para crear en Chirpstack el servidor de red, perfil de servicio, puerta de enlace, perfil de dispositivo (clase A y clase C)).
-
-# 
-)
-
-    - 
-![alt text](image-5.png)
- :
-
-
-)
+8. ****  
+   -  :  
+     - **** : ).  
+     - **** : ).  
 
 
-![alt text](image-6.png)
+## Installation du plugin LNS - Jeedom
+1. ****  
+   -  :   
+   -  ****  ****.  
 
-)
-)
-![alt text](image-7.png)
+2. ****  
+   -  :   
+   - .  
+  ![alt text](../images/image-5.png)
+3. **** :  
+   ![alt text](../images/LNSV3.png) 
+   1. Importer la configuration de MQTT2.  
+    ** ().  
+   3. Sauvegarder.  
+   . 
+   ).  
+   .  
 
-# Panel
+**** : . .
 
-##  ?
+## Panel LNS
 
--  **** ( ****.
--  :
-  -  **** .
+### Qu'est-ce que le panel LNS ?
 
-- .
-![alt text](image-3.png)
+Le **Panel LNS** .  
+
+- Il affiche :  
+  - La liste **complète des gateways connectées** .  
+  -  ****.  
+  -  **** .  
+
+ :  
+- . 
+
+![alt text](../images/image-3.png)
+
+---
+## Visualisation dans Jeedom
+
+-  :  
+  - .  
+  - .  
+  - ).  
+<p align="center">
+  <img src="../images/image-4.:10px;">
+  <img src="../images/image-8.png" width="75%">
+</p>
+
+---
+
+## 
+
+.:
+ :  
+- .  
+- .  
+- .).  
+- .  
+- ).  
+- .  
+ 
+
+ **8081** .  
 
 ---
 ## 
 
--  :
-![alt text](image-4.png)
-![alt text](image-8.png)
+|               |                                     |                                    |
+|-----------------------------|--------------------------------------------------|------------------------------------------------|
+| ****            |               | )                    |
+| ****     |                                            |                                          |
+| ****          |                   |         |
+| ****    | ) | ) |
+| ****     |  |       |
+
 ---
 
+## 
+ ****  **** .  
+ : .
+
+### 
+- .  
+- ).  
+
+### Étapes
+.: :
+).  
+).  
+.  
+.  
+).  
+.  
+.  
+).  
+
+### 
+-  **** .  
+-  **** .  
+-  **** .  
+
+---
+
+## 
+ 
+- ** dépendances restent “en cours d'installation”**  
+  .  
+
+- ****  
+   **** . .
+
+- ****  
+  .  
+
+---

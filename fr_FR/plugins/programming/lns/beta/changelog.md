@@ -4,17 +4,13 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# 02/06/2025
+# 22/09/2025
 
-- Set log level to error
+- Possibilité d'installer Chirpstack v3 ou v4 via le plugin LNS. Ainsi la possibilié de faire la mmigration de Chirpstack v3 vers v4.
 
-# 27/05/2025
+# 19/06/2025
 
-- Add panel Chirpstack (List of gateways)
-
-# 10/04/2025
-
-- Add compatibility Debian 12
+- Arrêter les services Chirpstack après la suppression du plugin
 
 # 20/02/2025
 
