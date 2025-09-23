@@ -1,46 +1,98 @@
 # Plugin LoraPayload
 
-Ce plugin est un plugin permettant de lier des commandes de payload LoraWan et d'en créer un équipement avec des commandes tout en parsant les valeurs.
+Le plugin **LoraPayload** est un plugin Jeedom qui permet d’intégrer des équipements LoRaWAN connectés via **ChirpStack (v3 ou v4)**.
+Il gère automatiquement les payloads uplink, les downlinks, et crée les commandes Jeedom correspondantes pour piloter et superviser vos capteurs.
+Il agit comme un intermédiaire intelligent :
+
+- Il reçoit les trames brutes LoRaWAN (Base64, Hex).
+
+- Il les décode grâce à des fichiers d’encodage/décodage fournis pour chaque capteur.
+
+- Il génère et met à jour automatiquement les équipements et commandes Jeedom.
+
+- Il permet aussi d’envoyer des consignes (downlinks) vers vos capteurs.
+
+# Fonctionnalité
+Le plugin LoraPayload offre les fonctionnalités suivantes :
+
+- **Décodage des uplinks** : interprétation des payloads bruts (Base64 ou Hex) en mesures (température, humidité, index, alarmes, etc.).
+- **Création automatique des équipements Jeedom** dès la réception d’un nouveau DevEUI.
+- **Gestion des commandes Jeedom** :
+  - Commandes **info** (remontées capteur).
+  - Commandes **action** (envoi de consignes).
+- **Support multi-constructeurs** : Milesight, Adeunis, Dragino, Diehl Sharky, Thermokon, B-Meters, etc.
+- **Envoi de downlinks** avec génération automatique du payload encodé.
+- **Gestionnaire de file d’attente des downlinks** avec démon dédié et priorités.
+- **Panel de supervision** centralisant tous vos équipements LoRaWAN.
+- **Logs et debug avancés** pour le suivi des trames et des commandes.
+
 
 # Configuration
-
+---
 ## Configuration du plugin
 
-Vous pouvez vérifier ici l’état des dépendances et les relancer. En cas de soucis avec le plugin toujours relancer les dépendances même si OK dans le doute.
+Dans la page de configuration du plugin, vous pouvez :
 
+- Vérifier l’état des dépendances et les relancer en cas de doute.  
+- Accéder aux paramètres généraux (connexion MQTT, cache, etc.).  
 
-# Le plugin
+![alt text](./images/image_dependance.png)
+---
 
-Rendez vous dans le menu plugins/protocole pour retrouver le plugin.
+## Le plugin
 
-Sur cette page vous pourrez voir les modules déjà inclus.
+Retrouvez le plugin dans le menu **Plugins → Protocole domotique → LoraPayload**.  
+Sur cette page, vous pourrez voir la liste de vos équipements LoRaWAN déjà configurés.
 
-Sur la partie haute de cette page vous avez plusieurs boutons
+En haut de la page se trouvent plusieurs boutons :
+
 ![alt text](./images/image.png)
--   **Bouton ajouter** : Permet d’ajouter les équipements
--   **Bouton Configuation** : Ce bouton permet d’ouvrir la fenêtre de configuration du plugin
--   **Bonton Génération automatique** : Permet d'ajouter un nouvel équipement dans jeedom et sur chirpstack. ( Recommandé pour l'ajout d'équipement )
+- **Ajouter** : crée un nouvel équipement manuellement.  
+- **Configuration** : ouvre les paramètres du plugin.  
+- **Génération automatique** : crée un nouvel équipement à partir d’un DevEUI et d’un profil. *(Recommandé pour un ajout simple et rapide dans chirpstack et Jeedom.)*
 
-# Equipement
+## Equipement
 
-Lorsque que vous cliquez sur un de vos modules, vous arrivez sur la page de configuration de celui-ci :
+En cliquant sur un module, vous accédez à sa page de configuration :
 
--   Donner un nom au module
--   L’activer/le rendre visible ou non
--   Choisir son objet parent
--   Lui attribuer une catégorie
+![alt text](./images/accueil_config_equip.png)
 
-Sur la partie droite vous trouverez :
+- Nom de l’équipement.  
+- Activer / rendre visible.  
+- Choix de l’objet parent.  
+- Attribution d’une catégorie.  
 
--   Le profil de l’équipement (a choisir manuellement par l'utilisateur à la création)
--   Voir le visuel
+Sur la partie droite :
 
-Vous avez aussi deux onglets supplémentaires:
+- Sélection du **profil de l’équipement** (type de capteur).  
+- Affichage du visuel.  
 
--   Un onglet Payload (décrit dans le prochain paragraphe)
+Deux onglets supplémentaires :
+
+-   Un onglet LoRaWAN (décrit dans le prochain paragraphe)
+![alt text](./images/equiplorawanconfig.png)
+Dans cet onglet, vous configurez la liaison entre Jeedom et ChirpStack.  
+
+### Changer l’application ChirpStack d’un équipement
+
+Il est possible de modifier directement l’application ChirpStack liée à votre équipement depuis Jeedom.  
+
+Procédez comme suit :  
+
+1. **Choisir la bonne application** via la liste déroulante du champ *Application*.  
+2. **Régénérer la configuration LoRaWAN** en utilisant le bouton dédié.  
+3. **Afficher les commandes MQTT** en utilisant le bouton dédié.  
+
+ **Attention** : si ces deux étapes sont respectées, l’équipement sera :  
+- Supprimé de son ancienne application,  
+- Recréé automatiquement dans la nouvelle application choisie.  
+
+**NB** : Vous devrez effectuer à nouveau un **join** du capteur, car le changement d’application réinitialise son enregistrement côté ChirpStack.
+   
 -   Un onglet Commandes (c'est ici que vous trouverez les commandes correspondantes à votre équipement - cet onglet est standard à Jeedom)
+![alt text](./images/equipcommconfig.png)
 
-# Ajout d'un équipement
+## Ajout d'un équipement
 ![alt text](./images/image-1.png)
 Il suffit de cliquer sur le bouton `Génération automatique` et de choisir un nom.
 Ensuite vous pouvez configurer l'objet Parent, renseigner le Dev EUI l'app Key, l'application pour chirpstack
@@ -49,15 +101,14 @@ Pour configurer, activer l'équipement, choisir une ou des catégories, et rendr
 Il est important sur la partie droite de choisir le type de l'équipement. C'est ce qui permettra de savoir comment parser la trame.
 
 L'onglet LoRaWAN est très important :
-![alt text](./images/image-2.png)
+![alt text](./images/equiplorawanconfig.png)
 -   Vous devez choisir la commande info qui reçoit le payload que ce soit MQTT ou autres ( important si vous avez utilisé le bouton `Ajouter` sinon avec `Génération automatique` tout est généré automatiquement )
 -   Vous pouvez choisir si le format du payload est en Hexadécimal ou Base64.
 -   Avec Euqueue downlink payload, vous pouvez envoyer des downlinks manuellement.
 
-
 Une fois fait vous pouvez sauver. Suite à cela lors de la prochaine réception de trame les commandes de votre équipement se mettront à jour
 
-# Envoyer des commandes
+## Envoyer des commandes
 
 Certains modules Lorawan possèdent des commandes de type Action qui permettent d'envoyer des consignes aux modules via l'interface Jeedom.
 
@@ -66,14 +117,15 @@ Dans l'onglet Equipement du plugin LoraPayload :
 - Vous devez choisir la commande d'envoi (que ce soit MQTT ou autres)
 - Vous devez choisir si voulez avoir une confirmation (Ack). C'est une information remontée dans MQTT sur un topic dédié qui n'influence pas les données remontées.
 Concernant la commande d'envoi, dans le cas d'utilisation de MQTT, c'est une commande dans MQTT de type Action et de sous-type Message. Le topic est le topic dédié aux downlinks et la valeur de la commande est *message*.
+
 ---
-# Ajouter un nouveau capteur Milesight (downlink/uplink)
+## Ajouter un nouveau capteur Milesight (downlink/uplink)
 
 Cette section détaille **l’ajout de la configuration et de la gestion des commandes (uplink/downlink) pour un capteur Milesight** dans le plugin LoraPayload.
 
 ---
 
-## 1. Ajout des fichiers d’encodage/décodage 
+### 1. Ajout des fichiers d’encodage/décodage 
 
 1. **Créer un fichier JavaScript** nommé selon la convention suivante :  
    `milesight_modele.js`  
@@ -88,7 +140,7 @@ Cette section détaille **l’ajout de la configuration et de la gestion des com
 
 ---
 
-## 2. Adapter la fonction Decode
+### 2. Adapter la fonction Decode
 
 Remplacer :
 ```js
@@ -104,7 +156,7 @@ function Decode(input) {
 
 ---
 
-## 3. Adapter la fonction Encoder
+### 3. Adapter la fonction Encoder
 
 Remplacer :
 ```js
@@ -116,7 +168,7 @@ function Encode(obj) {
     return milesightDeviceEncode(obj);
 }
 ```
-## 4. Explorter les fonctions 
+### 4. Explorter les fonctions 
 A la fin du fichier, ajouter:
 ```js
 module.exports = {
@@ -124,7 +176,7 @@ module.exports = {
     Encode
 };
 ```
-## 5. Déclaration du capteur dans la configuration
+### 5. Déclaration du capteur dans la configuration
 
 1. **Créer un dossier** dans ``/var/www/html/plugins/lorapayload/core/config/devices/ ``qui porte le même nom que votre fichier d’encodage/décodage (sans l’extension ``.js``).
 
@@ -134,7 +186,7 @@ module.exports = {
 
 - Une image PNG du capteur (format recommandé : 250x250 px)
 
-## 6. Exemple de configuration JSON pour un capteur Milesight 
+### 6. Exemple de configuration JSON pour un capteur Milesight 
 ```json
 {
   "milesight_GS601": {
@@ -172,11 +224,30 @@ module.exports = {
         "logicalId": "encoder::reboot::1" // Format pour envoyer une commande d'action (encoder::<fonction>::<valeur>)
       },
       {
+        "name": "ON/OFF",
+        "type": "action",        // Commande action = envoi une commande vers le capteur (downlink)
+        "subtype": "other",
+        "isVisible": 1,
+        "logicalId": "action::f90001" // Format pour envoyer une commande d'action (action::<valeur_en_hexadecimal>)
+      },
+      {
         "name": "Set report interval",
         "type": "action",
         "subtype": "slider",     // slider/other selon le type d'action
         "isVisible": 1,
         "logicalId": "encoder::report_interval",
+        "configuration": {
+          "minValue": 1,
+          "maxValue": 5000,
+          "step": 1
+        }
+      },
+      {
+        "name": "Set report interval",
+        "type": "action",
+        "subtype": "slider",     // slider/other selon le type d'action
+        "isVisible": 1,
+        "logicalId": "action::f800llll",
         "configuration": {
           "minValue": 1,
           "maxValue": 5000,
@@ -255,11 +326,15 @@ Le fichier de configuration JSON permet de décrire chaque capteur (uplink et do
     - Pour une info : ``parsed::nom_de_la_variable`` (récupérée dans la partie `decoded.` du JS)
 
     - Pour une action downlink : 
-        ```js
+        ```json
+        action::<valeur_en_hexadecimal>
+        ```
+        ou
+        ```json
         encoder::<fonction>::<valeur>
         ```
         ou
-        ```js 
+        ```json 
         encoder::<fonction>
         ``` 
         (si la valeur est définie dynamiquement, ex: slider)
@@ -279,13 +354,13 @@ Le fichier de configuration JSON permet de décrire chaque capteur (uplink et do
 
 
 
-## Ajouter l'image du capteur
+### Ajouter l'image du capteur
 
 - Format recommandé : PNG, 250x250 px
 
 - Nommez le fichier comme votre capteur (ex : ``milesight_gs601.png``)
 ---
-# Comment faire pour choisir la bonne structure pour les sous-types messages ?
+### Comment faire pour choisir la bonne structure pour les sous-types messages ?
 1. Consulte la documentation officielle du capteur ou de l’API.
 
     - Regarde le tableau ou la section “Commandes downlink” ou “Configuration via payload”,
@@ -323,9 +398,9 @@ Supposons, dans la documentation Milesight, tu trouves ce tableau :
 - Commande à passer dans le message :
 `"1|2|30|40"`
 
-# Panel
+## Panel
 
-## Qu’est-ce que le panel Lorapayload ?
+### Qu’est-ce que le panel Lorapayload ?
 
 - Le **panel Lorapayload** est une interface disponible dans Jeedom qui **centralise les informations des capteurs venant de votre réseau LoRaWAN**.
 - Il affiche :
@@ -335,13 +410,65 @@ Supposons, dans la documentation Milesight, tu trouves ce tableau :
 ![alt text](./images/image-3.png)
 
 ---
-## Visualisation dans Jeedom
+### Visualisation dans Jeedom
 
 - Accède à ces panels depuis l’interface Jeedom :
-![alt text](./images/image-4.png)
-![alt text](./images/image-9.png)
+<p align="center">
+  <img src="../images/image-4.png" width="20%" style="margin-right:10px;">
+  <img src="../images/panel_lorapaylaod.png" width="75%">
+</p>
+
 ---
-## Gestionnaire de file d'attente
+
+#### Présentation du panneau
+
+Le panneau est divisé en deux parties principales :
+
+1. **Liste des devices dans ChirpStack**  
+   Cette table affiche pour chaque équipement :  
+   - **Status** : un point coloré qui indique l’état de communication du capteur.  
+     - 🟢 **Vert** : le capteur a communiqué récemment.  
+     - 🔴 **Rouge** : le capteur n’a pas communiqué depuis trop longtemps.  
+     - ⚪ **Gris** : aucune donnée n’a encore été reçue pour ce capteur.  
+   - **Last Seen** : date et heure du dernier message.  
+   - **Application / Device Name / DevEUI / Device Profile** : informations de base de l’équipement.  
+   - **Signal Quality** : indique la qualité de réception radio du capteur, calculée à partir du **SF**, du **RSSI** et du **SNR**.  
+     - 🟢 **Bonne** : signal fort et stable (RSSI élevé, SNR positif).  
+     - 🟡 **Moyenne** : communication possible mais instable (RSSI ou SNR limite).  
+     - 🔴 **Faible** : risque élevé de perte de messages (RSSI faible, SNR très négatif).  
+   - **Config Page** : un bouton permettant d’accéder directement à la page de configuration Jeedom de l’équipement.
+2. **Sélection multiple**
+  - Chaque ligne contient une case à cocher.  
+  - Il est possible de sélectionner plusieurs équipements simultanément afin d’appliquer des **actions groupées**.  
+   La case **All** en haut du tableau permet de cocher/décocher tous les équipements d’un coup.  
+3. **Actions disponibles**
+    - **Recréer les commandes**  
+  Recrée automatiquement les commandes Jeedom pour les équipements sélectionnés.  
+    - **Envoyer un downlink en masse**  
+  Ouvre une fenêtre de configuration pour définir les paramètres du downlink (port, confirmé, type d’encodage, payload) puis envoie la même commande à tous les équipements cochés.  
+4. **Cache des Downlinks**  
+   Cette zone regroupe la file d’attente des messages downlink envoyés aux capteurs, avec la possibilité de la rafraîchir, de la vider entièrement ou de supprimer des entrées individuellement.
+
+---
+
+#### Personnalisation du délai de communication
+
+Le changement de couleur du **Status** est influencé par le paramètre de timeout configuré dans Jeedom.  
+Pour le personnaliser :  
+
+1. Ouvre la configuration avancée de ton équipement.  
+2. Va dans l’onglet **Alertes**.  
+3. Modifie la valeur **Communication en alerte (minutes)**.  
+
+Concrètement :  
+- Si le capteur communique dans le délai défini → le statut reste 🟢 vert.  
+- Si le capteur dépasse ce délai sans message → le statut passe 🔴 rouge.  
+- Si aucun message n’a jamais été reçu → le statut reste ⚪ gris.  
+
+Cela permet d’adapter la surveillance en fonction du rythme normal de communication de chaque capteur.
+
+---
+### Gestionnaire de file d'attente
 
 Cette mise à jour améliore la gestion de la file d'attente des downlinks dans le plugin lorapayload pour Jeedom. Elle introduit :
 - Un démon (lorapayloadd.php) chargé d'exécuter les downlinks au bon moment.
@@ -404,6 +531,51 @@ Ensuite rendez-vous dans les configurations du plugin Lorapayload et dans le cha
 ![alt text](./images/image-12.png)
 Redémarrer le démon s'il est arrêté ou en statut NOK.
 Suivre et gérer l'état de la file dans l'onglet Cache queueDownlink.
+
+# Guide d’utilisation du testeur RAK10701 avec Jeedom (LoRaPayload)
+
+## 1. Intégration de l’équipement
+- Une fois le testeur **RAK10701** ajouté sur le plugin **LoRaPayload**, la génération des décodages et encodages se fait automatiquement.  
+- Aucun paramétrage supplémentaire n’est nécessaire côté utilisateur.  
+![alt text](./images/rak1.png)
+---
+
+## 2. Mise sous tension et join
+- Allumez le testeur.  
+- Attendez la procédure de **join** sur le réseau **LoRaWAN**.  
+- Si l’état affiché est **“Failed”**, rapprochez le testeur d’une passerelle et rallumez-le pour relancer la tentative.  
+
+---
+
+## 3. Collecte des données GPS
+- Une fois le join réussi, cliquez **2 fois sur le bouton Power**.  
+- Le **RAK10701** enverra alors les données collectées (**RSSI, SNR, passerelle, GPS, etc.**).  
+ ![alt text](./images/rak2.png)
+⚠️ **Important** : placez-vous dans un endroit dégagé afin de permettre la capture correcte des coordonnées GPS.  
+
+---
+
+## 4. Parcours de la zone de test
+- Déplacez-vous avec le testeur sur la surface que vous souhaitez analyser.  
+- Appuyez **2x sur le bouton Power** pour déclencher l’envoi des données.  
+- Chaque **uplink** enregistre automatiquement les données reçues.  
+
+---
+
+## 5. Consultation et export des résultats
+- Les données sont stockées automatiquement :  
+  - en **CSV** pour exploitation sur **Excel**,  
+  - en **JSON** pour un usage automatisé ou des scripts.  
+
+ **Chemin d’accès** :  `html/plugins/lorapayload/resources/lorapayload/payloads`
+
+→ fichiers rak10701.csv et rak10701_history.json.
+![alt text](./images/rak3.png)
+
+Si la permission d’écriture n’est pas accordée rétablissez les droits des dossiers et fichier dans le champ OS/DB dans configuration.
+
+## 6. Téléchargez le fichier et traitez les données
+![alt text](./images/rak4.png)
 _________
 # FAQ
 

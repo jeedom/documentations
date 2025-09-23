@@ -1,301 +1,350 @@
-# Changelog Lora Payload
+# 
 
->**IMPORTANT**
+>****
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
-# 12/09/2025
+# )
 
-- Ajout du downlink Set Keep Alive pour produit *Dragino LHT52*
+-  ** 
 
-- Pré remplir l'application du device
+-  ** 
 
-# 10/09/2025
+- 
 
-- Correction  des downlinks pour produit *WT304-868M - SMART FAN COIL THERMOSTAT*
+-  
 
-- Ajout du produit *LC01 - Relay Controller*
+-  **
 
-- Correction bug status panel lorapaylaod
+- 
 
-- Ajout du produit NodOn TRV-8-1-00 *Radiator Valve*
+-  **
 
-- Ajout du produit Nexelec Guard+ *Smoke detector Temperature & Humidity* 
+-  **
 
-- Ajout de commande pour le produit NodeOn TRV-8-1-00
+-  *)*
 
-- Ajout de fonctionnalité de mise en forme des topics pour migration 
+-  **
 
-- Ajout du produit *Milesight Indoor Ambience Monitoring Sensor AM103*
+-  **
 
-- Ajout du produit *Milesight Ambience Monitoring Sensor AM107*
+-  **
 
-- Ajout du produit *Milesight Capacitive Liquid Level Sensor EM300-CL*
+-  **
 
-- Ajout du produit *Milesight Membrane Leak Detection Sensor EM300-MLD*
+-  **
 
-- Ajout du produit *Milesight Ultrasonic Distance/Level Sensor EM310-UDL*
+-  **
 
-- Ajout du produit *Milesight Tilt Sensor EM320-TILT*
+-  **
+ 
+- 
 
-- Ajout du produit *Milesight ToF Laser Distance Sensor EM400-TLD*
+-  
 
-- Ajout du produit *Milesight Multifunctional Distance Sensor EM400-MUD*
+- 
 
-- Ajout du produit *Milesight Outdoor CO₂ Sensor EM500-CO2*
+- 
 
-- Ajout du produit *Milesight People Counting Sensor VS340*
+- 
 
-- Ajout du produit *Milesight People Counting Sensor VS341*
+- 
 
-- Ajout du produit *Milesight People Counting Sensor VS370*
-
-- Ajout du produit *Milesight Smart Scene Panel WS136*
-
-- Ajout du produit *Milesight Smart Portable Socket WS523*
-
-- Ajout du produit *Milesight Smart Fan Coil Thermostat WT303*
-
-- Ajout du produit *Milesight Soil Moisture, Temperature & Conductivity Sensor EM500-SMTC*
-
-- Ajout du produit *Milesight Bathroom Occupancy Sensor VS330*
+-  
 
 
+# 
 
-# 29/08/2025
-- Ajout du downlink de la commande Heating Target Temperature Range et Cooling Target Temperature Range pour produit *WT304-868M - SMART FAN COIL THERMOSTAT*
+-  **
 
-- Ajout du produit *AM307L - Ambience Monitoring Sensors*
+- 
+
+# 
+
+-  **
+
+-  **
+
+- 
+
+-  **
+
+-  ** 
+
+- 
+
+-  
+
+-  **
+
+-  **
+
+-  **
+
+-  **
+
+-  **
+
+-  **
+
+-  **
+
+-  **
+
+-  **
+
+-  **
+
+-  **
+
+-  **
+
+-  **
+
+-  **
+
+-  **
+
+-  **
+
+-  **
 
 
-# 28/08/2025
-- Correction d'envoie des downlinks dans une liste déroulante
 
-- Correction de la fonction readAllMarques en PHP8
+# 
+-  **
 
-- Ajout du sous type select
-
-- Mise a jour configuration équipement 
-
-- Ajout de fonctionnalité de modification d'application du produit depuis Jeedom
-
-- Ajout de commande downlink (System Type et Child Lock Settings) pour produit *WT304-868M - SMART FAN COIL THERMOSTAT*
+-  **
 
 
-# 22/08/2025
-- Mise à jour du champs création automatique (séparation des fabricants et des modèles)
+# 
+- 
 
-- Correction commande Thermokon
+- 
 
-- Ajout du produit *Milesight EM500-PP - Pipe Pressure Sensor*
+- 
 
-- Ajout du produit *Milesight EM500-UDL - Ultrasonic Distance/Level Sensor*
+-  
 
-- Correction bug Lorapayload configuration *application name* 
+- 
 
-- Mise à jour panel CS V4
+-  **
 
 
-# 13/08/2025
-- Mise à jour des décodeurs Thermokon
+# 
+- )
 
-- Ajout de Statut et des boutons d'accès à la page de configuration des devices 
+- 
 
-- Fix bug création automatique
+-  **
 
-# 06/08/2025
-- Ajout de la fonctionnalité file d'attente aux downlinks avec gestion de priorité
+-  **
+
+-  ** 
+
+- 
+
+
+# 
+- 
+
+-  
+
+- 
+
+# 
+- 
 
 - Ajout du panneau Admin “Cache queueDownlink” (visualisation, purge, suppr. individuelle)
 
-- Paramètres configurables : `Temporisation des envoies dans la file d'attente (secondes)`, `Taille actuelle de la file d'attente`, `Taille maximale de la file d'attente`
+-  : 
 
-- Ajout des commandes de downlink pour *Dragino CPL03-LB/LS* 
+-  ** 
 
-- Correction image documentation 
+-  
 
-- Correction bug panel
+- 
 
-- Ajout des commandes de downlink pour *Dragino CPL03-LB/LS* 
+-  ** 
 
-- Decoder correction *Dragino WSC2_L_PM2.5*
+- Decoder correction **
 
-- Correction du lancement du deamon en double
+- 
 
-- Ajout du produit * Mclimate 16ADS - 16A Dry Switch LoRaWAN*
+-  * *
 
-- Correction du décodeur *Dragino SW3L - Compteur d'eau extérieur*
+-  **
 
-- Ajout du downlink reboot pour *Dragino LT22222*
+-  **
 
-- Ajout des downlinks pour *Mclimate - 16A Dry Switch LoRaWAN*
+-  **
 
-- Correction commandes *Milesight GS601 - Vape Detector*
+-  **
 
-- Correction commandes *Milesight WS302 - Sound Level Sensor*
+-  **
 
-- Decoder correction *BMeters IWM-LR3 - Water Meter Reader*
+- Decoder correction **
 
-- Ajout d'une commande de downlink *BMeters IWM-LR3 - Water Meter Reader*
+-  **
 
-- Correction bug queue doubledownlink
+- 
 
-- Ajout du produit  *adeunis_ARF8230xRA - Pulse ATEX*
+-   *X*
 
-- Ajout du produit *atim_PT1xx_TMxP - ATIM*
+-  **
 
-- Ajout du produit *bmeters_rfmlr1 - Water Meter Reader*
+-  **
 
-- Ajout du produit *diehl_CMi4160 - CMi4160 LoRaWAN (Diehl Sharky)*
+-  *)*
 
-- Correction du décodeur *Watteco Torano*
+-  **
 
-- Ajout du produit *AM319_868M - INDOOR AMBIENCE MONITORING SENSOR*
+-  **
 
-- Correction du décodeur *diehl_CMi4160 - CMi4160 LoRaWAN (Diehl Sharky)*
+-  *)*
 
-- Ajout du produit *WT304-868M - SMART FAN COIL THERMOSTAT*
+-  **
 
-- Ajout de la logique des listes pour les commandes des équipements
+- 
 
-- Ajout du produit *AQS01-L – Capteur de qualité d'air LoRaWAN *
+-  * *
 
 
-# 18/06/2025
+# 
 
-- Ajout du produit *Milesight VS373 - AI Bed & Presence Sensor*
+-  **
 
-- Ajout de l'info Data Rate LoRaWAN
+- 
 
-- Ajout des commandes *Milesight VS373 - AI Bed & Presence Sensor*
+-  **
 
-- Ajout du produit *Browan - Tab Temperature & Humidity Sensor*
+-  **
 
-- Ajout du produit *RAK 10701 - FIELD TESTER for LoRaWAN*
+-  **
 
-- Ajout du produit *Dragion WSC2-L -- Station Météo*
+-  **
 
-- Ajout du produit *Thermokon 811217 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
+-  **
 
-- Decoder correction *TIC LoraWAN*
+- Decoder correction **
 
-- Ajout du produit *Milesight GS601 - Vape Detector*
+-  **
 
-- Ajout du produit *Milesight WS302 - Sound Level Sensor*
+-  **
 
-- Ajout des commandes Index pour *TIC LoraWAN*
+-  **
 
-- Regénérer la configuration LoRaWAN après la génération des commandes
+- 
 
-- Decoder correction *TIC LoraWAN*
+- Decoder correction **
 
-# 15/05/2025
+# 
 
-- Ajout du produit *Dragino CPL03-LB/LS - LoRaWAN Outdoor Open/Closed Dry Contact Sensor*
+-  *Dragino CPL03-LB/LS - LoRaWAN Outdoor Open/Closed Dry Contact Sensor*
 
-- Ajout du produit *Dragino LHT52 - LoRaWAN Indoor Temperature and Humidity Sensor*
+-  *Dragino LHT52 - LoRaWAN Indoor Temperature and Humidity Sensor*
 
-- Decoder correction *Vega*
+- Decoder correction **
 
-- Ajout des commandes *Dragino CPL03-LB/LS - LoRaWAN Outdoor Open/Closed Dry Contact Sensor*
+-  *Dragino CPL03-LB/LS - LoRaWAN Outdoor Open/Closed Dry Contact Sensor*
 
-- Mise à jour décodeur et encodeur *Thermokon 835633 - NOVOS 3 Room control module temperature, relative humidity, CO2*
+-  *Thermokon 835633 - NOVOS 3 Room control module temperature, relative humidity, CO2*
 
-- Ajout du produit *BMeters IWM-LR3 - Water Meter Reader*
+-  **
 
-- Correction downlink du *Vega SI-11*
+-  **
 
-- Ajout du produit *Milesight EM300MCS - Magnetic Contact Switch*
+-  **
 
-- Correction du choix du broker local lors de la génération automatique
+- 
 
-- Ajout du produit *Milesight CT303 - Smart Current Transformer CT303*
+-  **
 
-- Ajout du produit *Nexelec ATMO / SENSE / AERO / PMT / AERO Lora*
+-  **
 
-- Ajout du produit *Nexelec LoRa Air Sensors (Sign, Rise, Feel, Move, Wav, View)*
+-  *)*
 
-- Ajout du produit *Thermokon 835657 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
+-  **
 
-- Correction downlink *Thermokon 835657 - NOVOS 3 Module de commande d'ambiance température, humidité relative*
+-  **
 
-# 24/03/2025
+# 
 
-- Correction du décodeur *WoMaster LR144*
+-  **
 
-- Correction du décodeur *Adeunis ARF8230ABA - Pulse meter pulse transmitter*
+-  *Adeunis ARF8230ABA - Pulse meter pulse transmitter*
 
-- Ajout du produit *Eastron Smart Energy Meter SDM-530*
+-  **
 
-- Ajout des generic types au produit *Milesight Smart Radiator Thermostat WT101*
+-  **
 
-- Ajout du produit *Eastron Smart Energy Meter SDM-230*
+-  **
 
-- Decoder correction *NKE Batch*
+- Decoder correction **
 
-# 17/03/2025
+# 
 
 - Regenerating equipment in Chirpstack with the "Regenerate LoRaWAN configuration" button"
 
-- Gestion du fPort dans le décodage
+- 
 
-- *Dragino LHT65* ajout du Set Transmit Interval
+- ** 
 
-- *Dragino RS485-LN + NILAN* correction du décodeur
+- ** 
 
-- *NKE Fil Pilot* correction du Device Profile en classe C
+- ** 
 
-- Suppression des équipements MQTT et Chirpstack suite à la suppression de l'équipement Lorapayload
+- 
 
-- Vérification de la taille des DevEUI et AppKey avant la génération automatique
+- 
 
-- Adding configuration *Milesight WS203*
+- Adding configuration **
 
-- Ajout des commandes de downlink pour *Dragino LT-22222*
+-  **
 
-- Adding configuration *WoMaster LR144*
+- Adding configuration **
 
-- Ajout des commandes de downlink pour *Dragino LHT-65* (Envoie des uplinks en confirmed)
+-  ** ()
 
-- Ajout de la commande info "Downlink acknowledged"
+- "
 
-- Ajout du bouton copier du Deveui et Appkey
+- 
 
-- Ajout des commandes de downlink pour *Dragino LT-22222*
+-  **
 
-- Mise à jour du décodeur *Ewattch Squid Pro Rogowski*
+-  **
 
-- Ajout du produit *MClimate - 16A Switch & Power Meter LoRaWAN*
+-  **
 
-- Ajout de la possibilité d'envoyer deux downlinks dans la même commande Action
+- 
 
-- Ajout du produit *Dragino T68DL - Temperature Sensor*
+-  **
 
-- Ajout du produit *Milesight TS201 - Temperature Sensor*
+-  **
 
-- Ajout du produit *Milesight TS30x - Temperature Sensor*
+-  **
 
-- Ajout du produit *Watteco In'O*
+-  **
 
-- Ajout du produit *Milesight UC100 - IoT Controller*
+-  **
 
-- Ajout du produit *Milesight UC300 - IoT Controller*
+-  **
 
-- Ajout du champ *Remarque* pour les modules
+-  ** 
 
-- Correction du Device Profile *Power-Adapt Power-Elec 6*
+-  **
 
-- Correction des commandes de downlink + uplink de *Quantify Cubic Meter*
+-  *Quantify Cubic Meter*
 
-- Correction du décodeur *Dragino RS485-LN + NILAN*
+-  **
 
-- Correction du décodeur *Quantify Cubic Meter*
+-  *Quantify Cubic Meter*
 
 # 12/31/2024
 
-- Adding configuration *NKE Torano*
+- Adding configuration **
 
-- Changing the configuration *Dragino LSN50 V2 - MOD4* (properties : Digital Interrupt)
+- Changing the configuration ** (properties : )
 
 - Adding configuration *Thermokon 798808 - MCS Ambient sensor temperature, relative humidity, brightness*
 
@@ -303,25 +352,25 @@
 
 - Adding configuration *Thermokon 824248 - NOVOS 3 Room control module temperature, relative humidity, CO2*
 
-- Adding configuration *Dragino RS485-LN + NILAN*
+- Adding configuration **
 
 - Added Chirpstack panel
 
 - Added "Regenerate LoRaWAN configuration" button"
 
-- Adding configuration *Milesight Ambience Monitoring Sensors AM102*
+- Adding configuration **
 
 - Adding configuration *Electronic Card - TIC LoRaWAN*
 
-- Fix downlink command *Milesight Smart Radiator Thermostat WT101*
+- Fix downlink command **
 
-- Changing the configuration *Ewattch Squid Pro Rogowski*
+- Changing the configuration **
 
 - Decoder correction *MClimate Wireless Thermostat*
 
-- Added info commands for *Ewattch Squid Pro Rogowski*
+- Added info commands for **
 
-- Added Battery for *NKE Torano*
+- Added Battery for **
 
 - Adding configuration *Thermokon 835633 - NOVOS 3 Room control module temperature, relative humidity, CO2*
 
@@ -329,99 +378,99 @@
 
 # 10/30/2024
 
-- Changing the configuration *MClimate Wireless Thermostat* (properties : Manual Target Temperature Update)
+- Changing the configuration ** (properties : )
 
-- Adding configuration *Milesight WS303* (properties : Battery, Leakage Status)
+- Adding configuration ** (properties : Battery, Leakage Status)
 
-- Changing the configuration *Vega SI-11 Rev2* (properties : Communication period, Input Mode)
+- Changing the configuration ** (properties : )
 
-- Adding configuration *MClimate Fan Coil Thermostat*
+- Adding configuration **
 
 - Adding configuration *WATTECO NETW'O network tester*
 
-- Adding configuration *Milesight EM300 DI*
+- Adding configuration **
 
-- Adding configuration *Mclimate Display CO2 lite*
+- Adding configuration **
 
-- Adding configuration *Mclimate Display CO2*
+- Adding configuration **
 
-- Adding configuration *Milesight Smart Fan Coil WT301*
+- Adding configuration **
 
 - Adding configuration *Thermokon 798228 - MCS Motion detector, Room sensor temperature, relative humidity, movement, presence*
 
-- Changing the configuration *SHE MIO LORA V2* (add up to 20 temperature probes)
+- Changing the configuration ** (add up to 20 temperature probes)
 
-- Adding configuration *Enginko MCF - LW13 IO*
+- Adding configuration **
 
 - Added downlinks commands *Quantify Cubic Meter*
 
 - Adding configuration *Thermokon 798808 - MCS Ambient sensor temperature, relative humidity, brightness*
 
-- Adding configuration *Ewattch Squid Pro Rogowski*
+- Adding configuration **
 
 - Added downlink commands from *Thermokon 811187 - NOVOS 3 Room sensor temperature, relative humidity*
 
-- Adding configuration *Milesight - Smart Current Transformer CT101*
+- Adding configuration **
 
-- Adding configuration *Dragino - RS485-LN + CarloGavazzi EM540*
+- Adding configuration **
 
-- Adding configuration *Dragino - RS485-LN + OTMetric + Polier*
+- Adding configuration **
 
-- Added downlink commands from *MClimate Wireless Thermostat*
+- Added downlink commands from **
 
-- Adding configuration *Milesight Smart Radiator Thermostat WT101*
+- Adding configuration **
 
 # 04/29/2024
 
-- Adding configuration *Dragino D23LBLS* (properties : Battery, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)
+- Adding configuration ** (properties : Battery, Temp-White, Temp-Red, Temp-Black, Alarm, PA8 Level, Mode)
 
 - Adding configuration *Citylone SL32 and Citylone SL22* (properties : Voltage, Current, Power, Cos Phi, Temperature, LED Voltage, Lamps level, Lamps mode, Request Position, Latitude, Longitude, Request Time Change State, Enable Time Change, Disable Time Change, RSSI, Timestamp, Update via LNS, On Relay , Off Relay)
 
 - Adding configuration *Quantify Cubic Meter* (properties : Error Code, Total Volume, Leak Status, Battery Status, Minimum Temp, Maximum Temp, Ambient Temp)
 
-- Adding configuration *Eastron SDM630* (properties : Serial Number, Total Energy, Frequency, Total Power Factor, Maximum Total System Power Demand, Total Current)
+- Adding configuration ** (properties : )
 
-- Adding configuration *Dragino CS01 LB* (properties : Battery, EXTI_Trigger, EXTI_Level, Current1, Current2, Current3, Current4, CurL_status, CurH_status)
+- Adding configuration ** (properties : Battery, EXTI_Trigger, EXTI_Level, Current1, Current2, Current3, Current4, CurL_status, CurH_status)
 
-- Adding configuration *Enerbee e-VAV* (properties : Temperature, Humidity, Target flow, Current flow, CO2, IAQ, Charge level, Damper opening level, System status)
+- Adding configuration ** (properties : Temperature, Humidity, Target flow, Current flow, CO2, IAQ, Charge level, Damper opening level, System status)
 
-- Adding configuration *Milesight EM300TH* (properties : Battery, Temperature, Humidity)
+- Adding configuration ** (properties : )
 
-- Adding configuration *NKE Triphas'O* (properties : Voltage Phase (A, B, C), Current Phase (A, B, C), Angle Voltage Current Phase (A, B, C), Positive Active Energy Phase (ABC, A, B, C), Negative Active Energy Phase (ABC, A, B, C), Positive Reactive Energy Phase (ABC, A, B, C), Positive Active Power Phase (ABC, A, B, C), Negative Active Power Phase (ABC, A, B, C) ), Positive Reactive Power Phase (ABC, A, B, C), Negative Reactive Power Phase (ABC, A, B, C), Binary Input State Phase (ABC, A, B, C))
+- Adding configuration ** (properties : Voltage Phase (A, B, C), Current Phase (A, B, C), Angle Voltage Current Phase (A, B, C), Positive Active Energy Phase (ABC, A, B, C), Negative Active Energy Phase (ABC, A, B, C), Positive Reactive Energy Phase (ABC, A, B, C), Positive Active Power Phase (ABC, A, B, C), Negative Active Power Phase (ABC, A, B, C) ), Positive Reactive Power Phase (ABC, A, B, C), Negative Reactive Power Phase (ABC, A, B, C), Binary Input State Phase (ABC, A, B, C))
 
-- Adding configuration *Thermokon Temp RH* (properties : Temperature, Humidity)
+- Adding configuration ** (properties : )
 
-- Adding configuration *Milesight EM300TH* (properties : Battery, Temperature, Humidity)
+- Adding configuration ** (properties : )
 
-- Adding configuration *Milesight EM500LGT* (properties : Battery, Illumination)
+- Adding configuration ** (properties : )
 
 
 # 02/21/2024
 
 - Changing the log level for certain information generated by the plugin
 
-- Changing the module type *Milesight EM500 PT100*
+- Changing the module type **
 
-- Adding configuration *Dragino D20-LB* (properties : Battery, Temperature Red, Alarm, PA8 Level, MOD)
+- Adding configuration ** (properties : Battery, Temperature Red, Alarm, PA8 Level, MOD)
 
 
 # 01/19/2024
 
-- Adding configuration *RAK c15003* (properties : Temperature, Humidity, Pressure, Temperature2)
+- Adding configuration ** (properties : Temperature, Humidity, Pressure, Temperature2)
 
-- Changing the configuration *Mclimate Vicki* (properties : GetKeepAlive, KeepAlive, GetDevicePrimaryOperationalMode, DevicePrimaryOperationalMode, GetOperationalMode, OperationalMode, Proportional control, Equal directional control, Proportional Integral control, GetControlAlgorithm, ControlAlgorithm, Open window detection parameters (1.0 accuracy), Open window detection parameters (0.1 accuracy))
+- Changing the configuration ** (properties : ..))
 
-- Adding the column *State* to display the value of the info orders
+- Adding the column ** to display the value of the info orders
 
-- Adding configuration *Citylone SmartLighting-Box 2* (properties : stateS1, stateS2, stateS3, stateS4, statusS1, statusS2, statusS3, statusS4, input1, input2, Off Output 1 fixed, On Output 1 fixed, Auto Output 1 fixed, Off Output 2 fixed, On Output 2 fixed, Auto Output 2 fixed, Off Output 3 fixed, On Output 3 fixed, Auto Output 3, Off Output 4 fixed, On Output 4 fixed, Auto Output 4 fixed, Off All fixed, On All fixed, Auto All fixed, DureeOnS1, DureeOnS2, DureeOnS3, DureeOnS4, DureeOffS1 , DureeOffS2, DureeOffS3, DureeOffS4, RSSI, Timestamp GMT, Timestamp Local, Update via LNS, Longitude, Latitude, Index Base, HCHC Index, HCHP Index, TIC Meter ID, Tariff option, Single-phase Instantaneous Current, Phase1 Instantaneous Current, Phase2 Instantaneous Current , Instantaneous Current Phase3, Max Instantaneous Current Single Phase, Max Instantaneous Current Phase1, Max Instantaneous Current Phase2, Max Instantaneous Current Phase3, Max Active Power, Thresold Alarm Power, Apparent Instantaneous Power, Power Failure, Time Change State)
+- Adding configuration ** (properties : stateS1, stateS2, stateS3, stateS4, statusS1, statusS2, statusS3, statusS4, input1, input2, Off Output 1 fixed, On Output 1 fixed, Auto Output 1 fixed, Off Output 2 fixed, On Output 2 fixed, Auto Output 2 fixed, Off Output 3 fixed, On Output 3 fixed, Auto Output 3, Off Output 4 fixed, On Output 4 fixed, Auto Output 4 fixed, Off All fixed, On All fixed, Auto All fixed, DureeOnS1, DureeOnS2, DureeOnS3, DureeOnS4, DureeOffS1 , DureeOffS2, DureeOffS3, DureeOffS4, RSSI, Timestamp GMT, Timestamp Local, Update via LNS, Longitude, Latitude, Index Base, HCHC Index, HCHP Index, TIC Meter ID, Tariff option, Single-phase Instantaneous Current, Phase1 Instantaneous Current, Phase2 Instantaneous Current , Instantaneous Current Phase3, Max Instantaneous Current Single Phase, Max Instantaneous Current Phase1, Max Instantaneous Current Phase2, Max Instantaneous Current Phase3, Max Active Power, Thresold Alarm Power, Apparent Instantaneous Power, Power Failure, Time Change State)
 
-- Adding configuration *RAK2171* (properties : Message ID, Application ID, Device ID, Battery, Timestamp, GPS Fix Status, Payload Type, Longitude, Latitude, Accuracy, GPS Start Number, SOS, Alarm Level)
+- Adding configuration ** (properties : )
 
-- Adding configuration *Milesight WS50x* (properties : Version, Voltage, Activate Power, Active Factor, Power Consumption, Current, Switch 1, Switch 2, Switch 3)
+- Adding configuration ** (properties : Version, Voltage, Activate Power, Active Factor, Power Consumption, Current, Switch 1, Switch 2, Switch 3)
 
-- Adding configuration *Milesight WS51x* (properties : Version, Voltage, Activate Power, Active Factor, Power Consumption, Current, State)
+- Adding configuration ** (properties : Version, Voltage, Activate Power, Active Factor, Power Consumption, Current, State)
 
-- Changing the configuration *SHE MIO LORA V2* (properties : ON 1-2, OFF 1-2, ON 1-3, OFF 1-3...)
+- Changing the configuration ** (properties : ...)
 
 # 03/27/2023
 
@@ -439,7 +488,7 @@
 
 - Added the ability to send instructions to Lorawan modules
 
-# 06/10/2021
+# 
 
 - Plugin Documentation
 
