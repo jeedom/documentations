@@ -1,13 +1,15 @@
 # Changelog Energy dashboard
 
-# 
+# Changelog plugin Energie dashboard
 
 >**IMPORTANT**
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 
+
 - Support for custom equipment images (Jeedom 4.5)
-- 
+- Correction de bug sous debian 12
 
 # 04/04/2024
 

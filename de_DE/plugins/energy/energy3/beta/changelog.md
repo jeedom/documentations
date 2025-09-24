@@ -1,13 +1,15 @@
 # Änderungsprotokoll Energie-Dashboard
 
-# 
+# Changelog plugin Energie dashboard
 
 >**WICHTIG**
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 
+
 - Unterstützung für benutzerdefinierte Gerätebilder (Jeedom 4.5)
-- 
+- Correction de bug sous debian 12
 
 # 04.04.2024
 

@@ -1,13 +1,15 @@
 # Tablero de cambios de energía
 
-# 
+# Changelog plugin Energie dashboard
 
 >**IMPORTANTE**
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 
+
 - Soporte para imágenes de equipos personalizados (Jeedom 4.5)
-- 
+- Correction de bug sous debian 12
 
 # 04/04/2024
 

@@ -4,7 +4,7 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 
+# 02/07/2025
 
 - Ajout du hub Superior Hub Hybrid (4G)
 

@@ -4,7 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 19/09/2025 (bêta)
+# 23/09/2025
+- Correction du device profile *AM319_868M - INDOOR AMBIENCE MONITORING SENSOR*
+
+# 19/09/2025
 
 - Ajout de downlink pour le produit *EM500-PP - Pipe Pressure Sensor - PP* 
 
