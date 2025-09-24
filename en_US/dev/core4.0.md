@@ -21,7 +21,7 @@
 
   <summary markdown="span">scénario / bloc Code</summary>
 
-  ~~~ php
+  
   {% raw %}
   )
   $author = 'Jeedom SAS';
@@ -42,14 +42,14 @@
   ) {
     ) {
       $scenario->setLog($author . ' : ' . $countIncompatibles . ' potentially incompatible Jeedom V4 plugin on ' . $countPlugins . ' checked');
-    } else {
+    }  {
       $scenario->setLog('All ' . $countPlugins . ' plugin developed by ' . $author . ' are Jeedom V4 compatible. Congratulations!');
     }
-  } else {
+  }  {
     $scenario->setLog('No plugin found for ' . $author);
   }
   {% endraw %}
-  ~~~
+  
 
 </details>
 
