@@ -6,13 +6,13 @@
 
  !
 
-. ****  ****, comme elles le sont sur $.. (). .
+. **** And ****, comme elles le sont sur $.. (). .
 
- **getValues()**  **setValues()**  **setJeeValues()**  **getJeeValues()**.
+ **getValues()** And **setValues()**  **setJeeValues()** And **getJeeValues()**.
 
- ****, . *load()*  *html()* (). . !
+ ****, . *load()* And *html()* (). . !
 
- ** .  **** **** ****  **** .
+ ** .  **** **** **** And **** .
 
 . . !
 
@@ -22,7 +22,7 @@
 
   <summary markdown="span">jQuery to pure js()<summary>
 
-  
+  ~~~ js
   {% raw %}
   jQuery:
   $('#table_objectSummary tbody').append(tr)
@@ -78,7 +78,7 @@
   })
 
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -123,22 +123,22 @@
 
   <summary markdown="span">datetime pickers<summary>
 
-  
+  ~~~ html
   {% raw %}
   <input id="myDate" class="in_datepicker">
   <input id="myTime" class="in_timepicker">
   <input id="myCustomDatetime">
   {% endraw %}
-  
+  ~~~
 
-  
+  ~~~ js
   {% raw %}
   
   
 
   :i:
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -191,7 +191,7 @@
 
   <summary markdown="span">jeeComplete()<summary>
 
-  
+  ~~~ js
   {% raw %}
   jQuery:
   $('input.auto').autocomplete({
@@ -205,7 +205,7 @@
     source: dataArray
   })
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -217,7 +217,7 @@
 
   <summary markdown="span">exemples jeeDialog()<summary>
 
-  
+  ~~~ js
   {% raw %}
   ) {
     !')
@@ -233,13 +233,13 @@
   ?', ) {
     ) {
       
-    }  {
+    } else {
       
     }
   })
 
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -251,7 +251,7 @@
 
   <summary markdown="span">exemples ()<summary>
 
-  
+  ~~~ js
   {% raw %}
   :
   $('#md_modal').dialog({
@@ -265,7 +265,7 @@
   })
 
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -286,7 +286,7 @@
 
   <summary markdown="span">jeeCtxMenu()<summary>
 
-  
+  ~~~ js
   {% raw %}
   ({
     selector: '.nav.!
@@ -330,7 +330,7 @@
   })
 
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -342,7 +342,7 @@
 
   <summary markdown="span">exemples ()<summary>
 
-  
+  ~~~ js
   {% raw %}
   :
   $('#bt_uploadImage').fileupload({
@@ -370,7 +370,7 @@
   })
 
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -380,7 +380,7 @@
 >
 > . , **)**.
 
-### 
+### Optional modifications
 
 - 
 
@@ -388,7 +388,7 @@
 
  **  ``jeedomUtils.setCheckContextMenu()``
 
- **  ** .
+ ** And ** .
 
  *"*.
 
