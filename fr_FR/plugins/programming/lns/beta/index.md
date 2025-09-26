@@ -16,7 +16,7 @@ Il est compatible avec **ChirpStack V3 et V4** et fournit une interface graphiqu
    - Lance l’installation des paquets nécessaires (PostgreSQL, Redis, Mosquitto, etc.).  
 
 2. **Port par défaut**  
-   - ChirpStack est accessible sur le port **8081** en V3, et **8080** en V4.  
+   - ChirpStack est accessible sur le port **8081**
    - Le port peut être modifié dans l’interface du plugin.  
 
 3. **Configuration de MQTT2**  
