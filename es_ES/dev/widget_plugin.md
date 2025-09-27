@@ -21,13 +21,13 @@ $replace = $this->preToHtml($_version)
 La fonction preToHtml renvoi :
 
 - une string si le widget est en cache (si il est en cache, c'est qu'il n'y a pas eu de changements depuis la dernière génération donc autant le renvoyer tout de suite)
-- un tableau avec les replaces principaux, vous avez la liste [aquí](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
+- un tableau avec les replaces principaux, vous avez la liste [](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
 ## Le système de template
 
 Le système de template de widget dans le code est en fait exactement le même que celui sur la page Outils -> Widget de jeedom.
 
-Voaquí un exemple :
+Vo un exemple :
 
 ````php
 (){
@@ -44,9 +44,9 @@ Voaquí un exemple :
 }
 ````
 
- [aquí](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) .
+ [](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) .
 
-> **IMPORTANTE**
+> ****
 >
 > 
 

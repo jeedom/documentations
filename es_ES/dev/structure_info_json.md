@@ -67,24 +67,24 @@
 
 :
 
-```
+
  : $user->getOptions(‹ plugin:::: ›)
  : $jeeObject->getConfiguration(‹ plugin:::: ›)
-```
+
 * 
 * :  ...)
 
 ### 
 
  :
-```
+
 	"specialAttributes" : {
 		"object" : {
 			"toto" : {"name" : {"" : "" : "input"},
 			"toto2" : {"name" : {"" : "" : "number"}
 		}
 	}
-```
+
 
 ).
 .
@@ -92,30 +92,30 @@
 
 ### 
 
-```
+
 	"specialAttributes" : {
 		"user" : {
 			"toto" : {"name" : {"" : "" : "" : " : "" : "" : "" : ""}]}
 		}
 	}
-```
+
 
 )
 ![Attribut Utilisateur](images/SpecialAttributeUser.png)
 
 ### 
 
-```
+
 	"specialAttributes": {
         "eqLogic": {
             "mqttTranmit": {
                 "type": "checkbox",
                 "name": {
-                    "": "Equipos de transmisión en MQTT"
+                    "": ""
                 }
             }
         }
     }
-```
 
-Aquí, este atributo le permite definir un parámetro para cada equipo jeedom (en la configuración avanzada del equipo)). Lo puedes encontrar en la configuración del equipo en `plugin::mqtt2::mqttTranmit` (`complemento::complemento de identificación::key`)
+
+). ::mqtt2::::::key`)

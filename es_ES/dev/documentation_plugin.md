@@ -6,7 +6,7 @@
 
 ## Principe
 
-. [aquí](https://doc.jeedom.com/es_ES/dev/structure_info_json) ) .
+. [](https://doc.jeedom.com/es_ES/dev/structure_info_json) ) .
 
 .
 
@@ -30,7 +30,7 @@
 
 ### Emplacement
 
- [aquí](https://doc.jeedom.com/es_ES/dev/plugin_template) )
+ [](https://doc.jeedom.com/es_ES/dev/plugin_template) )
 
 ).  :
 
