@@ -2,7 +2,7 @@
 
 ## 
 
--  [](https://www.jeedom.com/site/fr/dev.html).
+-  [aquí](https://www.jeedom.com/site/fr/dev.html).
 - .
 - ".
 - ).
@@ -49,7 +49,7 @@
   -  :
     - .
     - ).
-    - .
+    - Nombre.
     - .
     - .
   - .)

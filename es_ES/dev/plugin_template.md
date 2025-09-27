@@ -1,6 +1,6 @@
 # 
 
- [](https:github.comjeedomplugin-template)
+ [aquí](https:github.comjeedomplugin-template)
 
 #  : l'arborescence
 
@@ -46,7 +46,7 @@
 
 ## ``info.json``
 
- [](https:doc.jeedom.com/es_ES/devstructure_info_json)
+ [aquí](https:doc.jeedom.com/es_ES/devstructure_info_json)
 
 ## ``install.php``
 
@@ -197,7 +197,7 @@ Ensuite vient le paramètre demandé (il peut en avoir plusieurs), c'est une syn
  ?>
  ````
 
-Une fois sur cette page vous aurez accès en  à toutes les fonctions du core de jeedom (voir [](https:www.jeedom.comdocdocumentationcode) ) ainsi qu'à celles de tous les modules installés donc le vôtre aussi.
+Une fois sur cette page vous aurez accès en  à toutes les fonctions du core de jeedom (voir [aquí](https:www.jeedom.comdocdocumentationcode) ) ainsi qu'à celles de tous les modules installés donc le vôtre aussi.
 
 Toutes ces pages étant des vues elles utilisent principalement la syntaxe HTML. Pour tout ce qui est présentation, Jeedom se base principalement sur bootstrap donc toute la [documentation](http:getbootstrap.com) est applicable.
 
@@ -337,7 +337,7 @@ Le premier argument donne le dossier dans lequel le trouver (attention c'est le 
 
 ## CSS
 
-Ce dossier contient vos fichiers CSS (il ne devrait pas être trop utilisé) , vo comment les inclure sur votre page :
+Ce dossier contient vos fichiers CSS (il ne devrait pas être trop utilisé) , voaquí comment les inclure sur votre page :
 
 ````php
 <? include_file('desktop', 'weather', 'css', 'weather') ?>
@@ -357,11 +357,11 @@ $('#md_modal').dialog({title: "{{Classe du périphérique}}"}).load('index.php?v
 
 La première ligne permet de mettre un titre à votre modal
 
-La deuxième ligne charge votre modal et l'affichage.  : plugin, l' de votre plugin, modal, le nom de votre modal sans le  et ensuite les paramètres que vous voulez lui passer
+La deuxième ligne charge votre modal et l'affichage.  : plugin, l'identificación de votre plugin, modal, le nom de votre modal sans le  et ensuite les paramètres que vous voulez lui passer
 
 ## API JS
 
-Ce n'est pas un dossier mais dans les dernières versions de Jeedom celui-ci offre au développeur toute une api javascript (cela évite d'écrire des appels  dans tous les sens). J'essayerai de faire un article pour expliquer les différentes fonctionnalités mais vous pouvez déjà trouver le code .
+Ce n'est pas un dossier mais dans les dernières versions de Jeedom celui-ci offre au développeur toute une api javascript (cela évite d'écrire des appels  dans tous les sens). J'essayerai de faire un article pour expliquer les différentes fonctionnalités mais vous pouvez déjà trouver le code aquí.
 
 Voilà pour les détails du . Je me doute qu'il n'est pas des plus complets (j'essayerai de le compléter en fonction des différentes demandes reçues) mais j'espère que grâce à lui vous pourrez commencer à faire des plugins pour Jeedom.
 
@@ -448,7 +448,7 @@ Dossier très important, c'est le moteur de votre plugin. C'est là que viennent
 - ````
 - ``Cmd``
 
-La première devant hériter de la classe eqLogic et la deuxième de cmd. Vo un template :
+La première devant hériter de la classe eqLogic et la deuxième de cmd. Voaquí un template :
 
 ````php
 <?php
@@ -472,7 +472,7 @@ La première devant hériter de la classe eqLogic et la deuxième de cmd. Vo un 
 * * ***************************Includes********************************* *
 
 
-class plugin_ extends eqLogic {
+class plugin_identificación extends eqLogic {
 
     *     * *************************Attributs****************************** *
 
@@ -527,13 +527,13 @@ class plugin_idCmd extends cmd {
 
  assez simple mais complet, le principe est le suivant, si la commande est une action ou une info (mais pas en événement seulement et que son  est dépassé) alors jeedom appelle cette méthode.
 
-Dans notre exemple  c'est une commande pour faire parler S.A.R.A.H, où le plugin récupère les paramètres dans \$\_options (attention c'est un tableau et ses attributs changent en fonction du sous-type de la commande : color pour un sous-type color, slider pour un sous-type slider, title et message pour un sous-type message et vide pour un sous-type other).
+Dans notre exemple aquí c'est une commande pour faire parler S.A.R.A.H, où le plugin récupère les paramètres dans \$\_options (attention c'est un tableau et ses attributs changent en fonction du sous-type de la commande : color pour un sous-type color, slider pour un sous-type slider, title et message pour un sous-type message et vide pour un sous-type other).
 
 Voila pour la partie obligatoire, voila maintenant ce qui peut être utilisé à coté (avec exemple) :
 
 ### toHtml(\$\_version = 'dashboard')
 
-Fonction utilisable dans la commande ou dans l'équipement, en fonction des besoins, vo un exemple pour l'équipement
+Fonction utilisable dans la commande ou dans l'équipement, en fonction des besoins, voaquí un exemple pour l'équipement
 
 ````php
 public function toHtml($_version = 'dashboard') {
@@ -646,7 +646,7 @@ public function toHtml($_version = 'dashboard') {
 $_version = jeedom::versionAlias($_version)
 ````
 
-Récupération d'un template de commande,  le template de commande : pluginsweathercoretemplate\$\_versionforecast. (\$\_version valant mobile ou dashboard)
+Récupération d'un template de commande, aquí le template de commande : pluginsweathercoretemplate\$\_versionforecast. (\$\_version valant mobile ou dashboard)
 
 ````php
 $forcast_template = getTemplate('core', $_version, 'forecast', 'weather')
@@ -658,7 +658,7 @@ $forcast_template = getTemplate('core', $_version, 'forecast', 'weather')
 $html_forecast .= template_replace($replace, $forcast_template)
 ````
 
-Cela permet de récupérer la commande ayant le logical\_ : temperature\_min
+Cela permet de récupérer la commande ayant le logical\_identificación : temperature\_min
 
 ````php
 $this->getCmd(null, 'temperature_min')
@@ -742,7 +742,7 @@ return $html
 }
 ````
 
-Le début est assez standard avec la création d'une commande, la fin est plus intéressante avec la mise en place d'un cron qui va appeler la méthode ``weather::updateWeatherData`` en passant l' de l'équipement à mettre à jour toute les 30min par défaut.
+Le début est assez standard avec la création d'une commande, la fin est plus intéressante avec la mise en place d'un cron qui va appeler la méthode ``weather::updateWeatherData`` en passant l'identificación de l'équipement à mettre à jour toute les 30min par défaut.
 
 Ici la méthode updateWeatherData (simplifiée aussi) :
 

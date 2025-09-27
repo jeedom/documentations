@@ -30,14 +30,14 @@
 
 :
 
-php
+```php
  {
     
-
+```
 
 #divGraphInfo# :
 
-html
+```html
 {% raw %}
 <div class="eqLogic eqLogic-widg allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#height: #height##style#">
   <div class="#isVerticalAlign#">
@@ -51,7 +51,7 @@ html
   <script>
 <div>
 {% endraw %}
-
+```
 
 
 #### 
@@ -303,13 +303,13 @@ html
 
  :
 
-js
+```js
  !== 'undefined') {
   ')
 }  {
   ')
 }
-
+```
 
 #### 
 
@@ -324,7 +324,7 @@ js
 
  :
 
-html
+```html
 <div class="content-xs">
     <span class="cmdName #hide_name#">#name_display#<span> <strong class="state"><strong>
     {{}}
@@ -333,9 +333,9 @@ html
     <div>param : {{}}.<div>
   <template>
   <script>
+```
 
-
-json
+```json
   {
     "": {
       "": "",
@@ -350,7 +350,7 @@ json
       "": ""
     }
   }
-
+```
 
 > . .
 
@@ -365,7 +365,7 @@ json
 
 :
 
-php
+```php
 
 {
     *     * ************************************************** *
@@ -392,7 +392,7 @@ php
         
     }
 
-
+```
 
  :
 
