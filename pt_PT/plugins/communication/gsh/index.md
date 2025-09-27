@@ -278,6 +278,11 @@ Os tipos de equipamento são importantes, pois permitem que o Google reaja com b
 > **Importante**
 >
 > O tipo de termostato só é totalmente compatível com o equipamento proveniente do plugin do termostato, caso contrário, o gerenciamento dos modos pode não funcionar
+> 
+> Para gerenciar o modo em um tipo de termostato, você deve :
+> - Informação do tipo “outro” que toma como valor “calor”, “frio”, “desligado”, “eco” e lhe atribui o tipo genérico : Modo termostato
+> - Ações que fazem alterações de modo e atribuem a elas o tipo genérico : Modo termostato
+> - Também é necessário conectar a ação ao modo correspondente nos parâmetros do equipamento no plugin gsh (seção “Configuration TemperatureSetting”)")
 
 ## Cenas
 

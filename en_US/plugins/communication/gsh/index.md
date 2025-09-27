@@ -278,6 +278,11 @@ The types of equipment are important this allows Google to react based on the se
 > **Important**
 >
 > The thermostat type is only fully supported through equipment coming from the thermostat plugin, otherwise the management of the modes may not work
+> 
+> For mode management on a thermostat type, it is necessary :
+> - An info of type "other" which takes as value "heat", "cool", "off", "eco" and assigns it the generic type : Thermostat Mode
+> - Actions that perform mode changes and assign them the generic type : Thermostat Mode
+> - It is also necessary to attach in the equipment settings in the gsh plugin of the action to the corresponding mode (part "Configuration TemperatureSetting")
 
 ## Scenario
 

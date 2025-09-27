@@ -278,6 +278,11 @@ Die Art der Ausrüstung ist wichtig, damit Google auf die von Ihnen gesagten Sä
 > **Wichtig**
 >
 > Der Thermostat-Typ wird nur durch Geräte unterstützt, die vom Thermostat-Plugin stammen. Andernfalls funktioniert die Verwaltung der Modi möglicherweise nicht
+> 
+> Um den Modus eines Thermostattyps zu verwalten, müssen Sie Folgendes tun :
+> - Informationen vom Typ „andere“, die als Wert „Heizen“, „Kühlen“, „Aus“, „Öko“ annehmen und ihm den Typ „Generisch“ zuweisen : Thermostatmodus
+> - Aktionen, die Modusänderungen durchführen und ihnen den generischen Typ zuweisen : Thermostatmodus
+> - Es ist außerdem erforderlich, die Aktion in den Geräteparametern im gsh-Plugin (Abschnitt „Konfiguration Temperatureinstellung“) mit dem entsprechenden Modus zu verbinden")
 
 ## Szenario
 

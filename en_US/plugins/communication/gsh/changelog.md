@@ -4,6 +4,18 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 
+
+- 
+- 
+- Bug fix for PHP8
+- 
+
+# 06/11/2024
+
+- Bug fix for PHP8
+- Better mode management
+
 # 10/24/2024
 
 - Fixed a bug on fashion type equipment
