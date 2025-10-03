@@ -1,0 +1,41 @@
+{
+    "id": "LunarPhase",
+    "name": "LunarPhase",
+    "pluginVersion": "1.0.0",
+    "description": {
+        "fr_FR": "Plugin montrant l'apparence visuelle de la lune du jour ainsi que diverses informations complémentaires sur les phases lunaires en cours. Mots clés: lune, moon, lunaire, lunar, phase"
+    },
+    "utilization": "Voir la documentation.",
+    "licence": "AGPL",
+    "author": "Eridani78",
+    "require": "4.2",
+    "os": {
+        "min": 11,
+        "max": 12.99
+    },
+    "category": "weather",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 20,
+    "changelog_beta": "https://eridani78.github.io/LunarPhase-Doc/#language#/changelog",
+    "changelog": "https://eridani78.github.io/LunarPhase-Doc/#language#/changelog",
+    "documentation_beta": "https://eridani78.github.io/LunarPhase-Doc/#language#/",
+    "documentation": "https://eridani78.github.io/LunarPhase-Doc/#language#/",
+    "link": {
+        "forum": "https://community.jeedom.com/tag/plugin-lunarphase",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "en_US",
+        "fr_FR"
+    ],
+    "compatibility": [
+        "smart",
+        "luna",
+        "atlas",
+        "rpi",
+        "docker",
+        "diy",
+        "v4"
+    ]
+}
