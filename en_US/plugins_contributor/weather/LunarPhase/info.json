@@ -17,8 +17,8 @@
     "hasDependency": false,
     "hasOwnDeamon": false,
     "maxDependancyInstallTime": 20,
-    "changelog_beta": "https://eridani78.github.io/LunarPhase-Doc/#language#/changelog",
-    "changelog": "https://eridani78.github.io/LunarPhase-Doc/#language#/changelog",
+    "changelog_beta": "https://eridani78.github.io/LunarPhase-Doc/CHANGELOG_beta",
+    "changelog": "https://eridani78.github.io/LunarPhase-Doc/CHANGELOG",
     "documentation_beta": "https://eridani78.github.io/LunarPhase-Doc/#language#/",
     "documentation": "https://eridani78.github.io/LunarPhase-Doc/#language#/",
     "link": {
