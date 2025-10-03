@@ -1,13 +1,6 @@
-# Changelog BacnetManager
-
-# Changelog BacnetManager
+# Änderungsprotokoll BacnetManager
 
 
-# 
-- 
-
-# 
--  : 
 
 # 07.09.2024
 - Modales UX-Redesign cmds jeeBacnetManager

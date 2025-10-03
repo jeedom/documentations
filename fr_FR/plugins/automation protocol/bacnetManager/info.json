@@ -1,6 +1,6 @@
 {
     "id": "bacnetManager",
-    "name": "BacnetManager",
+    "name": "bacnetManager",
     "description": {
         "fr_FR": "Plugin permettant de créer un device Bacnet\/Jeedom",
         "en_US": "Plugin allowing to create a Bacnet\/Jeedom device",
