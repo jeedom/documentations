@@ -114,7 +114,7 @@ You can for example :
 
 This will take the initial value of the command uploaded, then multiply it by 10 before updating it in the jeeServer instance
 
-Example :
+Exemple :
 
 ![accueil](./images/BacnetManagerPost.png)
 
