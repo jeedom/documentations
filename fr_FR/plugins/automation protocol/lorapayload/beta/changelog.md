@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 06/10/2025
+
+- Ajout du produit *Mclimate HT Sensor*
+
 # 24/09/2025
 
 - Correction du device profile *Milesight AM319_868M - INDOOR AMBIENCE MONITORING SENSOR*
