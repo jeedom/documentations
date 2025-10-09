@@ -6,7 +6,12 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
+# )
+
+- Ajout de l'onglet Avancé afin de pouvoir changer le mot de passe root SSH, configuration la rotation des logs, activer/désactiver le “factory reset” par bouton, activer/désactiver le script de failover réseau et planifier un redémarrage automatique de la box
+
 # 26/08/2024
+
 - Definir uma configuração para limitar o espaço em disco usado pelos logs, ajustando os parâmetros de rotação e retenção. 
 
 # 11/07/2024

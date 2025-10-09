@@ -95,11 +95,21 @@ To do this, go to the luna plugin, then select the Luna equipment. Here you can 
 
 Automatic detection of 4G internal to the box. Please go through the Luna plugin and click on 'Detect LTE module' Request pin code and APN in the LTE page of the Luna plugin.
 if 4G detected, launch of a connection module in the background which automatically switches from Ethernet or wifi to 4G if necessary.
-The SMS plugin works at the same time as 4G on the Luna 4G.
 The settings are made in the LTE page of the plugin.
 
+/!!\
 /!\ Be careful, you need IPv4 type APNs (bouygue : ebouygtel.com, Orange : orange, free : free). /!\
 
+> 
+
+.
+
+ :
+ - 
+ - 
+ - )
+ -  : 
+ - )
 
 # FAQ
 

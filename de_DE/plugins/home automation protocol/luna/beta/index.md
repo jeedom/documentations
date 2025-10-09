@@ -95,11 +95,21 @@ Gehen Sie dazu zum Luna-Plugin und wählen Sie dann die Luna-Ausrüstung aus. Hi
 
 Automatische Erkennung von 4G in der Box. Bitte gehen Sie das Luna-Plugin durch und klicken Sie auf „LTE-Modul erkennen“. Fordern Sie auf der LTE-Seite des Luna-Plugins PIN-Code und APN an.
 Wenn 4G erkannt wird, wird im Hintergrund ein Verbindungsmodul gestartet, das bei Bedarf automatisch von Ethernet oder WLAN auf 4G umschaltet.
-Das SMS-Plugin funktioniert gleichzeitig mit 4G auf dem Luna 4G.
 Die Einstellungen werden auf der LTE-Seite des Plugins vorgenommen.
 
+/!!\
 /!\ Achtung, Sie benötigen APNs vom Typ IPv4 (bouygue : ebouygtel.com, Orange : orange, kostenlos : frei). /!\
 
+> 
+
+.
+
+ :
+ - 
+ - 
+ - )
+ -  : 
+ - )
 
 # FAQ
 
