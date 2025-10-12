@@ -1,0 +1,41 @@
+{
+	"id" : "vigieau",
+      "name" : "VigiEau",
+	"description" : {
+              "fr_FR": "Ce plugin permet de remonter les informations du site de l'information sécheresse du Gouvernement VigiEau https://vigieau.gouv.fr/ via l'API du site https://api.vigieau.beta.gouv.fr/swagger/#/."
+	},
+	"licence" : "AGPL",
+	"author" : "elmer69 & OUARZA",
+	"require" : "4.3",
+	"category" : "weather",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+     "changelog" : "https://github.com/OUARZA/VigiEau/blob/stable/docs/#language#/changelog.md",
+     "documentation" : "https://github.com/OUARZA/VigiEau/blob/stable/docs/#language#/index.md",
+     "changelog_beta" : "https://github.com/OUARZA/VigiEau/blob/beta/docs/#language#/changelog.md",
+     "documentation_beta" : "https://github.com/OUARZA/VigiEau/blob/beta/docs/#language#/index.md",
+	"link" : {
+		"forum":"https://community.jeedom.com/tag/plugin-vigieau",
+		"video" : "Lien vers une video"
+	},
+	"language": [
+		"fr_FR",
+		"en_US",
+		"es_ES",
+		"de_DE",
+		"ru_RU",
+		"id_ID",
+		"it_IT",
+		"ja_JP",
+		"pt_PT"
+	],
+	"compatibility": [
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"v4",
+		"atlas"
+	]
+}
