@@ -1,0 +1,45 @@
+{
+    "id": "jeeDashboardMonitoring",
+    "name": "JeeDashboard-Monitoring",
+    "specialAttributes": [],
+    "description": {
+        "fr_FR": "Plugin de publication notification Cloud.",
+        "en_US": "Plugin de publication notification Cloud",
+        "es_ES": "Plugin de publication notification Cloud",
+        "de_DE": "Plugin de publication notification Cloud",
+        "ru_RU": "Plugin de publication notification Cloud",
+        "id_ID": "Plugin de publication notification Cloud",
+        "it_IT": "Plugin de publication notification Cloud",
+        "ja_JP": "Plugin de publication notification Cloud",
+        "pt_PT": "Plugin de publication notification Cloud",
+        "tr": "Plugin de publication notification Cloud"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2.0",
+    "category": "monitoring",
+    "hasDependency": true,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 45,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/jeeDashboardMonitoring\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/jeeDashboardMonitoring\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/jeeDashboardMonitoring\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/jeeDashboardMonitoring\/beta",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas"
+    ]
+}
