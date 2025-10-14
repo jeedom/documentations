@@ -5,10 +5,13 @@
 >
 >Liegen keine Informationen zur Aktualisierung vor, bedeutet dies, dass es sich nur um die Aktualisierung der Dokumentation, Übersetzung oder des Textes handelt.
 
-
 # 
 
 - 
+
+# 18/08/2025
+
+- Ajout plages de consignes min max pour Consigne Mode Chaud et Froid
 
 # 14/08/2025
 

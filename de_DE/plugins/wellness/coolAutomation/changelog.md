@@ -6,6 +6,30 @@
 >Liegen keine Informationen zur Aktualisierung vor, bedeutet dies, dass es sich nur um die Aktualisierung der Dokumentation, Übersetzung oder des Textes handelt.
 
 
+# 
+
+- 
+
+# 
+
+- 
+- 
+
+# 
+- 
+- 
+
+# 
+- 
+
+
+# 
+- 
+- 
+
+# 
+- 
+
 # 19.06.2024
 
 - Korrigieren Sie die Verwaltung der minimalen/maximalen Temperatur durch den Administrator

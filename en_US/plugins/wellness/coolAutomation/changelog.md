@@ -6,6 +6,30 @@
 >If there is no information on the update, it means that it only concerns updating documentation, translation or text.
 
 
+# 
+
+- 
+
+# 
+
+- 
+- 
+
+# 
+- 
+- 
+
+# 
+- 
+
+
+# 
+- 
+- 
+
+# 
+- 
+
 # 06/19/2024
 
 - Fix Administrator min/max temperature management

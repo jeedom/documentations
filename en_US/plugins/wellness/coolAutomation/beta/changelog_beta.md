@@ -5,10 +5,13 @@
 >
 >If there is no information on the update, it means that it only concerns updating documentation, translation or text.
 
-
 # 
 
 - 
+
+# 18/08/2025
+
+- Ajout plages de consignes min max pour Consigne Mode Chaud et Froid
 
 # 14/08/2025
 

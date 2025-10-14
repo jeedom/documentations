@@ -6,6 +6,30 @@
 >Si no hay información sobre la actualización, significa que solo se trata de actualización de documentación, traducción o texto.
 
 
+# 
+
+- 
+
+# 
+
+- 
+- 
+
+# 
+- 
+- 
+
+# 
+- 
+
+
+# 
+- 
+- 
+
+# 
+- 
+
 # 19/06/2024
 
 - Reparar la gestión de temperatura mínima/máxima del administrador
