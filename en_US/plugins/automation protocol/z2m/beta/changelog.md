@@ -4,9 +4,9 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 
+# 17/09/2025
 
-- 
+- Correction d'un soucis lors de la mise a jour du firmware de la luna
 
 # 16/09/2025
 
