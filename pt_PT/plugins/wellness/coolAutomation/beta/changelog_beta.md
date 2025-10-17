@@ -5,9 +5,9 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
-# 
+# 14/10/2025
 
-- 
+- Fix erreur PHP lors de la création des unités
 
 # 18/08/2025
 
