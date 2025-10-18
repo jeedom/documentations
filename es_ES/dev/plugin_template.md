@@ -510,7 +510,7 @@ class plugin_idCmd extends cmd {
  :
 
 ````php
-función pública ejecutar($_opciones = matriz()) {
+()) {
        (! !'])) {
           
       }
@@ -715,7 +715,7 @@ return $html
 ) :
 
 ````php
-Actualización posterior a la función pública() {
+() {
       $weatherCmd = $this->getCmd(null, 'temperature')
        (!)) {
           $weatherCmd = new weatherCmd()

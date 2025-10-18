@@ -1,12 +1,12 @@
 {
 	"id": "MyTado",
 	"name": "MyTado",
-	"version": "7.2",
+	"version": "7.3",
 	"description": {
-		"fr_FR": "Ce plugin permet de gérer vos objets connectés Tado et TadoX. Il donne également accès à la météo Tado.",
-		"en_US": "This plugin enables management of your Tado and TadoX devices. You may as well access weather data managed by Tado.",
-		"de_DE": "Dieses Plugin ermöglicht die Verwaltung Ihrer Tado- und TadoX-Geräte. Sie können auch auf von Tado verwaltete Wetterdaten zugreifen.",
-		"es_ES": "Este plugin permite gestionar sus dispositivos conectados de Tado y TadoX. También proporciona acceso a la meteorología de Tado."
+		"fr_FR": "Ce plugin permet de gérer vos objets connectés Tado et TadoX. Il donne également accès à la météo Tado. Debian 11 minimum requis.",
+		"en_US": "This plugin enables management of your Tado and TadoX devices. You may as well access weather data managed by Tado. Debian 11 minimum required.",
+		"de_DE": "Dieses Plugin ermöglicht die Verwaltung Ihrer Tado- und TadoX-Geräte. Sie können auch auf von Tado verwaltete Wetterdaten zugreifen. Mindestens Debian 11 erforderlich.",
+		"es_ES": "Este plugin permite gestionar sus dispositivos conectados de Tado y TadoX. También proporciona acceso a la meteorología de Tado. Se requiere como mínimo Debian 11."
 	},
 	"licence": "GNU",
 	"author": "eperche",
