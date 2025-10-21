@@ -5,9 +5,9 @@
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
 
-# 
+# 21/10/2025
 
-- 
+- Fix local IP
 
 # 06/08/2025
 
