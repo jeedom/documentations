@@ -5,6 +5,10 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
 
+# 21/10/2025
+
+- Fix local IP
+
 # 06/08/2025
 
 - Gestion réseau APIPA avec détection automatique interface IP

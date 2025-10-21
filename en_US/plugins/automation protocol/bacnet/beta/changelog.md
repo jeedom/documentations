@@ -5,6 +5,10 @@
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
 
+# 
+
+- 
+
 # 06/08/2025
 
 - Gestion réseau APIPA avec détection automatique interface IP
