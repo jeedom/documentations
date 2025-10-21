@@ -97,19 +97,19 @@ Automatische Erkennung von 4G in der Box. Bitte gehen Sie das Luna-Plugin durch 
 Wenn 4G erkannt wird, wird im Hintergrund ein Verbindungsmodul gestartet, das bei Bedarf automatisch von Ethernet oder WLAN auf 4G umschaltet.
 Die Einstellungen werden auf der LTE-Seite des Plugins vorgenommen.
 
-/!!\
+/!\ Attention Le plugin SMS ne fonctionne pas en meme temps que la 4G sur la Luna 4G./!\
 /!\ Achtung, Sie benötigen APNs vom Typ IPv4 (bouygue : ebouygtel.com, Orange : orange, kostenlos : frei). /!\
 
-> 
+> Onglet Avancé
 
-.
+L'onglet avancé est à manipuler avec précaution.
 
- :
- - 
- - 
- - )
- -  : 
- - )
+Il permet :
+ - de modifier le mot de passe root
+ - de changer la conservation des logs système afin de réduire l'espace utilisé par les logs
+ - activer / désactiver le factory reset via l'appui long sur le bouton (+ de 30 secondes)
+ - activer / désactiver la supervision de la connectivité internet afin de prioriser l'ordre suivant : Ethernet -> Wifi -> LTE
+ - programmer le redémarrage de la box (de façon unique ou récurrente)
 
 # FAQ
 

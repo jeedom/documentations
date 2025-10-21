@@ -97,19 +97,19 @@ Detecção automática de 4G interno à caixa. Por favor, acesse o plugin Luna e
 se 4G for detectado, lançamento de um módulo de conexão em segundo plano que muda automaticamente de Ethernet ou wifi para 4G, se necessário.
 As configurações são feitas na página LTE do plugin.
 
-/!!\
+/!\ Attention Le plugin SMS ne fonctionne pas en meme temps que la 4G sur la Luna 4G./!\
 /!\ Atenção você precisa de APNs do tipo IPv4 (bouygue : ebouygtel.com, laranja : laranja, grátis : livre). /!\
 
-> 
+> Onglet Avancé
 
-.
+L'onglet avancé est à manipuler avec précaution.
 
- :
- - 
- - 
- - )
- -  : 
- - )
+Il permet :
+ - de modifier le mot de passe root
+ - de changer la conservation des logs système afin de réduire l'espace utilisé par les logs
+ - activer / désactiver le factory reset via l'appui long sur le bouton (+ de 30 secondes)
+ - activer / désactiver la supervision de la connectivité internet afin de prioriser l'ordre suivant : Ethernet -> Wifi -> LTE
+ - programmer le redémarrage de la box (de façon unique ou récurrente)
 
 # FAQ
 

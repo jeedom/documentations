@@ -6,6 +6,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 20/10/2025
+
+- Ajout de la gestion du kernel panic après l'installation ou la mise à jour du plugin Luna
+
+- Ajout du bouton "Reconfigurer le packet forwarder" dans la partie Lora
+
 # 08/10/2025 (Beta)
 
 - Ajout de l'onglet Avancé afin de pouvoir changer le mot de passe root SSH, configuration la rotation des logs, activer/désactiver le “factory reset” par bouton, activer/désactiver le script de failover réseau et planifier un redémarrage automatique de la box

@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 20/10/2025
+
+- Correction du panel Chirpstack V4
+
 # 22/09/2025
 
 - Possibilité d'installer Chirpstack v3 ou v4 via le plugin LNS. Ainsi la possibilié de faire la mmigration de Chirpstack v3 vers v4.

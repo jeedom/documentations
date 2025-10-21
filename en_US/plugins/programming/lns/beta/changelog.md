@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 
+
+- 
+
 # 22/09/2025
 
 - Possibilité d'installer Chirpstack v3 ou v4 via le plugin LNS. Ainsi la possibilié de faire la mmigration de Chirpstack v3 vers v4.
