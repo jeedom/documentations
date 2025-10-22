@@ -4,14 +4,18 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 
+# 17/09/2025
+
+- Correction d'un soucis lors de la mise a jour du firmware de la luna
+
+# 16/09/2025
 
 - Meilleurs gestion des droits lors du lancement du demon
 - Ajout d'un nouveau firmware (8.0.3.0) pour la Luna
 
 >**IMPORTANT**
 >
->.X (2.6.)
+>Il est maintenant possible de mettre zigbee2mqtt 2.X (2.6.0 actuellement) sur une Luna maintenant mais il faut bien mettre le firmware a jour avant (depuis la configuration du plugin puis le bouton de mise à jour du firmware) et ensuite il faut passer de ezsp en ember (toujours depuis la configuration du plugin jeezigbee)
 
 # 24/06/2025
 
