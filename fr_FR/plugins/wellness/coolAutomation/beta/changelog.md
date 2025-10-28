@@ -6,6 +6,11 @@
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 
+# 27/10/2025
+
+- Fix changements de noms de lignes après mise à jour du plugin
+- Ajout délai aux mise à jours des commandes infos
+
 # 18/08/2025
 
 - Ajout plages de consignes min max pour Consigne Mode Chaud et Froid

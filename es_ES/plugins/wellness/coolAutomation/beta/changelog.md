@@ -6,6 +6,11 @@
 >Si no hay información sobre la actualización, significa que solo se trata de actualización de documentación, traducción o texto.
 
 
+# 
+
+- 
+- 
+
 # 18/08/2025
 
 - Ajout plages de consignes min max pour Consigne Mode Chaud et Froid
