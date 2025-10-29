@@ -150,7 +150,7 @@ html
 
 <details>
 
-  <summary markdown="span">Example d'event js<summary>
+  <summary markdown="span"> d'event js<summary>
 
   
   {% raw %}
@@ -272,7 +272,7 @@ html
 
 <details>
 
-  <summary markdown="span">Example de code de Widg avec template<summary>
+  <summary markdown="span"> de code de Widg avec template<summary>
 
   
   <div class=" cmd-widget" ...>
@@ -322,7 +322,7 @@ js
 
 > .
 
-Example :
+ :
 
 html
 <div class="content-xs">
