@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 28/10/2025
+# 30/10/2025 (Bêta)
 
 - Correction de la configuration des décodeurs Dragino
 
@@ -15,6 +15,18 @@
 - Fixation du niveau de batterie des produits Thermokon dans le panel Lorapayload
 
 - Ajout de la gestion des batteries sur CronDaily
+
+- Correction bug application name
+
+- Ajout du produit *Senlab M-PUL-LAB-13NS - Compteur d'impulsions*
+
+- Ajout du produit *Senlab D-TOR-LAB-13NS - Détecteur de contact TOR*
+
+- Ajout du produit *Senlab D-LEA-LAB-13NS - Détecteur LEA*
+
+- Ajout du produit *Senlab T-Temp-LAB-14NS - Capteur de température*
+
+- Ajout du champ battery_type pour la gestion automatique des batteries Senlab
 
 # 20/10/2025
 
