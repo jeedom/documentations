@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 30/10/2025 (Bêta)
+# 31/10/2025 (Bêta)
 
 - Correction de la configuration des décodeurs Dragino
 
@@ -27,6 +27,16 @@
 - Ajout du produit *Senlab T-Temp-LAB-14NS - Capteur de température*
 
 - Ajout du champ battery_type pour la gestion automatique des batteries Senlab
+
+- Correction bug nom d'équipement
+
+- Correction de la fonction formatValue
+
+- Ajout du produit *Milesight GS301 - Bathroom Odor Detector*
+
+- Ajout du produit *Milesight VS350 - Passage People Counter*
+
+- Ajout du produit *EM114039-01 - IoT Energy Meter*
 
 # 20/10/2025
 
