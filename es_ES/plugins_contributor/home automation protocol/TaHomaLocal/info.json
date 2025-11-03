@@ -1,6 +1,8 @@
 {
-	"id": "TaHomaLocal",
-	"name": "TaHomaLocal",
+    "id": "TaHomaLocal",
+    "name": "TaHomaLocal",
+    "pluginVersion": "2.1.9",
+    "date": "2025 1104",
     "description": {
         "fr_FR": "Nouveau plugin SOMFYUNIFIED conseillé incluant TaHomaLocal plus des fonctionnalités plus étendues. Plugin destiné à permettre une interface entre Jeedom et une box Somfy (TaHoma ou équivalente éligible) sur laquelle l'API locale Somfy a été activée. Permet un fonctionnement 'Cloudless' et des retours d'état immédiats.<br> - IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale). Mots clés: API locale, Somfy, Tahoma, Tahoma Locale",
         "en_US": "Please also consider new plugin SOMFYUNIFIED for improved capabilities. Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses.<br> - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation).",
@@ -9,44 +11,44 @@
         "it_IT": "Please also consider new plugin SOMFYUNIFIED for improved capabilities. Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses.<br> - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation).",
         "pt_PT": "Please also consider new plugin SOMFYUNIFIED for improved capabilities. Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses.<br> - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation)."
     },
-	"licence": "AGPL",
-	"author": "Eridani78",
-	"require": "4.2.0",
-	"os": {
-		"min": 11.01,
-		"max": 12.99
-	},
-	"category": "home automation protocol",
-	"hasDependency": true,
-	"hasOwnDeamon": true,
-	"maxDependancyInstallTime": 0,
-	"version": "2.1.8",
-	"changelog": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/changelog",
-	"documentation": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/",
-	"changelog_beta": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/changelog",
-	"documentation_beta": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/",
-	"link": {
-		"forum": "https://community.jeedom.com/tags/plugin-tahomalocal",
-		"video": "https://eridani78.github.io/TaHomaLocal-Doc/docs/compatibility/supported_devices",
-		"SMART Mode supported devices": "https://eridani78.github.io/TaHomaLocal-Doc/docs/compatibility/supported_devices"
-	},
-	"language": [
-		"fr_FR",
-		"en_US",
-		"de_DE",
-		"es_ES",
-		"it_IT",
-		"pt_PT"
-	],
-	"compatibility": [
-		"miniplus",
-		"smart",
-		"rpi",
-		"docker",
-		"diy",
-		"mobile",
-		"v4",
-		"atlas",
-		"luna"
-	]
+    "utilization": "Voir la documentation si des équipements sont installés sans création de commande.",
+    "licence": "AGPL",
+    "author": "Eridani78",
+    "require": "4.2.0",
+    "os": {
+        "min": 11.01,
+        "max": 12.99
+    },
+    "category": "home automation protocol",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/changelog",
+    "documentation": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/",
+    "changelog_beta": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/changelog",
+    "documentation_beta": "https://eridani78.github.io/TaHomaLocal-Doc/#language#/",
+    "link": {
+        "forum": "https://community.jeedom.com/tags/plugin-tahomalocal",
+        "video": "https://eridani78.github.io/TaHomaLocal-Doc/docs/compatibility/supported_devices",
+        "SMART Mode supported devices": "https://eridani78.github.io/TaHomaLocal-Doc/docs/compatibility/supported_devices"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "es_ES",
+        "it_IT",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas",
+        "luna"
+    ]
 }
