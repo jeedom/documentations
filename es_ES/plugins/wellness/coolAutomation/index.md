@@ -198,6 +198,45 @@ Le plugin vous permet d'activer l'historisation des commandes pour plusieurs éq
 
 ## Limites de consigne Min/Max
 
+## Configuration des paramètres de communication
+
+Le plugin offre plusieurs paramètres de configuration pour optimiser la communication avec vos équipements CoolAutomation.
+
+### Timeout HTTP
+
+Le **Timeout HTTP** détermine le temps d'attente maximal (en secondes) pour une requête HTTP vers l'équipement CoolAutomation. 
+
+- **Valeur par défaut** : 10 secondes
+- **Plage de valeurs** : 3 à 30 secondes
+
+**Quand augmenter ce paramètre ?**
+- Si vous constatez des erreurs de timeout fréquentes
+- Si votre équipement CoolAutomation est sur un réseau avec une latence élevée
+- Si votre réseau est chargé ou instable
+
+**Quand réduire ce paramètre ?**
+- Pour accélérer la détection des équipements hors ligne
+- Si votre réseau est très rapide et stable
+
+### Nombre de tentatives
+
+Le **Nombre de tentatives** définit combien de fois le plugin réessaiera une requête HTTP en cas d'échec.
+
+- **Valeur par défaut** : 2 tentatives
+- **Plage de valeurs** : 0 à 5 tentatives
+
+**Avantages d'un nombre élevé de tentatives :**
+- Améliore la fiabilité en cas de problème réseau temporaire
+- Réduit les erreurs en cas de pic de charge sur l'équipement
+
+**Inconvénients :**
+- Augmente le temps d'attente en cas d'équipement réellement hors ligne
+- Peut saturer le réseau en cas de problème persistant
+
+> **Note** : Ces paramètres sont accessibles depuis la page de configuration du plugin. Un redémarrage du démon n'est pas nécessaire, les changements sont pris en compte immédiatement.
+
+## Gestion Min/Max
+
 Le plugin offre une fonctionnalité de gestion des plages de températures admissibles pour chaque mode de fonctionnement.
 
 Pour l'activer :

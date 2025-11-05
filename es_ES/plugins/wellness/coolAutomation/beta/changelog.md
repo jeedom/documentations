@@ -5,11 +5,24 @@
 >
 >Si no hay información sobre la actualización, significa que solo se trata de actualización de documentación, traducción o texto.
 
+# 05/11/2025
+- **Amélioration de la gestion des timeouts et des erreurs HTTP** :
+  - Augmentation du timeout par défaut de 2 à 10 secondes (configurable)
+  - Ajout d'un système de retry automatique en cas de timeout (2 tentatives par défaut, configurable)
+  - Messages d'erreur plus explicites avec indication de l'équipement et de la commande en échec
+  - Logs enrichis avec temps de réponse et adresse IP de l'équipement
+  - Nouveaux paramètres de configuration dans le plugin :
+    - **Timeout HTTP** : durée d'attente maximale pour une requête (3-30 secondes)
+    - **Nombre de tentatives** : nombre de tentatives en cas d'échec (0-5 tentatives)
 
-# 
+# 27/10/2025
 
-- 
-- 
+- Fix changements de noms de lignes après mise à jour du plugin
+- Ajout délai aux mise à jours des commandes infos
+
+# 14/10/2025
+
+- Fix erreur PHP lors de la création des unités
 
 # 18/08/2025
 
