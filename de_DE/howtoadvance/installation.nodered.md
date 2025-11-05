@@ -1,25 +1,25 @@
-# 
+# Nodered Installation
 
-. . 
+Nodered ist ein in Nodejs geschriebenes Tool zur Verwaltung von IoT- oder Hausautomations-orientierten Flows. Es bietet eine grafische Oberfläche zum Bearbeiten von Flows. Das Lernprogramm beschreibt die Installation, eine Reverse-Proxy-Konfiguration und einen Start in Betrieb
 
-# 
+# Installation von Nodered
 
- :
+Hier sind die Befehle, die gestartet werden müssen, um Nodered mit einem funktionierenden Knoten zu installieren :
 
 ````
 sudo apt-get -y install libavahi-compat-libdnssd-dev libusb-1.0-0-dev build-essential
 sudo npm install -g node-red
 ````
 
-.
+Um Nodejs zu erhalten, können Sie eines der Jeedom-Plugins installieren, die dies tun.
 
-#  
+#  Automatischer Start von Nodered
 
-.  [Hier](https://gist.github.com/bigmonkeyboy/9962293)
+Es ist möglich, Nodered als Dienst zu deklarieren, damit es beim Booten der Box automatisch gestartet wird. Ein Beispiel [hier](https://gist.github.com/bigmonkeyboy/9962293)
 
-# 
+# Apache-Konfiguration
 
-.
+Hier ist ein Beispiel für eine Datei, mit der über einen Reverse-Proxy auf Nodered zugegriffen werden kann.
 
 ````
 <Location /jeedom/nodered>
@@ -30,9 +30,9 @@ ProxyPass http://localhost:1880/jeedom/nodered/
 </Location>
 ````
 
-# 
+# Konfiguration von Nginx
 
-.
+Hier ist ein Beispiel für eine Datei, mit der über einen Reverse-Proxy auf Nodered zugegriffen werden kann.
 
 ````
 location /jeedom/nodered/ {
@@ -49,11 +49,11 @@ location /jeedom/nodered/ {
 }
 ````
 
-# 
+# Bestehende Module für Nodered
 
-.
+Hier finden Sie Beispiele für Erweiterungen, die für Nodered verfügbar sind.
 
-## 
+## Avahi / Hello-Erkennungsmodul
 
 ````
 sudo npm install node-red-node-discovery -g
