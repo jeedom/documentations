@@ -6,8 +6,13 @@
 
 # 
 
-- Switch to version ** )
-- Switch to version ** )
+- Switch to version *11.2.1* de ZwaveJsUI (stable)
+- Switch to version ** de ZwaveJsUI (beta)
+
+# 16/09/2025
+
+- Switch to version *10.5.1* de ZwaveJsUI (stable)
+- Switch to version *11.2.1* de ZwaveJsUI (beta)
 
 # 24/06/2025
 

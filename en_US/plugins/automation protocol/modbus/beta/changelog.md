@@ -4,10 +4,61 @@
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
+# 
+
+>**IMPORTANT**
+>
+>. . 
+
+-  : 
+-  : 
+- 
+- 
+- 
+-  : 
+- 
+- 
+- 
+- 
+- )
+- 
 
 # 
 
 - 
+
+# 
+
+- 
+
+
+# 
+
+- 
+
+# 
+
+- 
+
+# 
+
+-  : )
+
+
+# 
+
+-  : 
+-  : 
+- 
+- 
+- 
+-  : 
+- 
+
+
+# 30/10/2025
+
+- Fix Debian12
 
 # 06/02/2025
 

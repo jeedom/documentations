@@ -4,10 +4,61 @@
 >
 >Zur Erinnerung: Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 
+
+>**WICHTIG**
+>
+>. . 
+
+-  : 
+-  : 
+- 
+- 
+- 
+-  : 
+- 
+- 
+- 
+- 
+- )
+- 
 
 # 
 
 - 
+
+# 
+
+- 
+
+
+# 
+
+- 
+
+# 
+
+- 
+
+# 
+
+-  : )
+
+
+# 
+
+-  : 
+-  : 
+- 
+- 
+- 
+-  : 
+- 
+
+
+# 30/10/2025
+
+- Fix Debian12
 
 # 06/02/2025
 

@@ -1,13 +1,12 @@
-# Modbus
+## 
 
-#Description
+### Description
 
 Plugin zum Lesen und Schreiben auf Ihren ModbusTCP/IP- und RTU-Geräten
-Nicht kompatibel mit Wago zur Zeit
 
 
 
-# Plugin-Setup
+### Plugin-Setup
 
 Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es wie jedes Jeedom-Plugin zuerst aktivieren :
 
@@ -42,7 +41,7 @@ Sie können auch die Anzahl der Versuche und die Verzögerung zwischen diesen Ve
 
 
 
-# Nutzung des Plugins
+### Nutzung des Plugins
 
 
 WICHTIG :
@@ -52,7 +51,6 @@ Um das Plugin zu verwenden, müssen Sie die Parameter Ihrer Ein-/Ausgänge Ihrer
 Für Befehle gibt es Parameter zur Auswahl :
 
 Parameterdetails :
-- Negativer Wert : für Formate vom Typ LONG/INT müssen Sie angeben, ob der Schreib-/Lesewert negativ sein soll
 - Versatz : ob der Offset in den Registernummern bestimmter Modbus-Geräte berücksichtigt wird oder nicht
 - Wählen Sie die Slider-Tonhöhe : Hiermit wählen Sie den Schritt des Schiebereglers im Falle eines Befehls vom Typ Aktion/Schieberegler, wenn Sie nicht ganzzahlige Werte senden möchten.
 
@@ -66,48 +64,15 @@ In Anbetracht der Zeit, die für die Konfiguration bestimmter Geräte aufgewende
 Sie können es also entweder auf eine andere Box problemlos auf ein neues Gerät des gleichen Typs importieren (nur um das zu ändern, was sich in Bezug auf seine Verbindung unterscheidet)
 
 
-Auf der Ausrüstungsseite unten rechts haben Sie diesen Einsatz :
+ :
 
-![dependances](../images/exportFunction.png)
-
-
-Klicken Sie auf Liste der zu exportierenden Bestellungen; Es öffnet sich ein Fenster mit den vorhandenen Befehlen auf diesem Gerät:
-
-![dependances](../images/choiceCmds.png)
-
-Sie können sie bei Bedarf alle auswählen, indem Sie die Schaltfläche oben im Fenster verwenden.
-Wenn die Befehle ausgewählt sind, klicken Sie auf Validieren.
-
-
-
-In diesem Feld sehen Sie nun die ausgewählten Bestellungen, die für den Export bereit sind :
-
-![dependances](../images/exportCmds.png)
-
-Sie müssen nur auf Download Config der gerade erschienenen Bestellungen klicken.
-
-
-
-Importieren von Befehlen in Geräte : Klicken Sie oben rechts neben dem Gerät auf die Schaltfläche Import Json :
-
-![dependances](../images/importFunction.png)
+![dependances](../images/importJson.png)
 
 
 
 
 
-Sie können auch direkt ein Gerätemodell auswählen, das in der Konfiguration des Plugins verfügbar ist, um die in diesem Modell bereitgestellten Befehle zu laden;
-Wählen Sie das ausgewählte Modell und dann Validieren. Dann können Sie speichern.
-
-
-MODBUS-DETAILS :
-
-
-Die Größe eines Modbus-Registers beträgt 2 Byte (2 Bytes), also 16 Bit
-
-
-
-WIEDERGABESTEUERUNG :
+### WIEDERGABESTEUERUNG :
 
 Für Spuleneingänge  :  
   - Sie fügen einen neuen Modbus-Befehl hinzu und benennen den Befehl. Sie wählen einen Befehl vom Typ Info unter Binary oder Numeric type aus.
@@ -155,75 +120,82 @@ WICHTIG :
 
 ![cmdEcritures](../images/modbusCmdsEcritures.png)
 
- :warning: NEUE ONE-BIT-SCHREIBMETHODE :
 
- Um ein bestimmtes Bit in einem Register zu ändern : Sie können einen Befehl vom Typ Aktion erstellen und die Codefunktion „Bit schreiben“ auswählen'. Es werden Ihnen nur die beiden auszufüllenden Felder angezeigt : Startregister und Bitposition. 
- Beim Speichern werden dadurch 2 Aktionsbefehle erstellt : Eine zum Senden von 0 und eine zum Senden von 1. Dadurch wird die von Ihnen konfigurierte gelöscht.
- Die beiden neuen Befehle erhalten ihren Typnamen :
 
- WriteBit_Register(RegisterNum)_Position(BitPosition)_1 und WriteBit_Register(RegisterNum)_Position(BitPosition)_0
 
+
+
+   #### :
+
+  ######  : 
+        
+   :
+  . 
+
+ ![cmdEcritures](../images/configFc16.png)
+
+  .
+
+  ![cmdEcritures](../images/bootboxFc16.png)
  
+  
+
+  
+
+  . 
+  . 
+  . 
+
+   :
+
+  php
+  $cmd = cmd::byId(iddevotrecommande);
+  )){
+      $cmd->setConfiguration('arrayRegisters', [['value' => '10', 'format' => 'intformat16'],['value' => '12', 'format' => 'intformat16']]);
+      $cmd->save();
+  }
+  
+
+  ######  : 
+
+  
 
 
-  ÄNDERUNG DER BITS EINES REGISTERS (Alte Methode):
+   :
+   : : ). 
+   :
 
-  Um das Bit eines Registers zu ändern, müssen Sie den Befehl message WriteBit verwenden. In der Konfiguration des Befehls müssen Sie im Feld Startregister die Nummer des zu schreibenden Registers auswählen. Keine weitere Konfiguration erforderlich
-  Anschließend müssen Sie im Nachrichtentext des Befehls im Dashboard die folgende Syntax verwenden : bitWert&indexbit
-  Möglicher Bitwert 0 oder 1
-  indexBit ist der Wert zwischen 0 und 15 (einschließlich der Werte))
-  Den Index des zu ändernden Bits entnehmen Sie bitte der Dokumentation Ihres Geräts
+          adresseRegistre|valeur||valeur|
 
-
-
-
-   NEUES SCHREIBEN IN MEHREREN REGISTERN EINER ANFRAGE:
-
-      - Indem wir einen Befehl „Aktion -> Anderer Untertyp“ erstellen, dann Fc16 auswählen und das Startregister und die neue Registertabellenzeile in den Befehlsparametern ausfüllen, können wir diesen Befehl ausführen, um die eingegebenen Werte aus dem Startregister zu schreiben :
-
-      Ex : Registrierung starten : 10
-      Zeilentabellenregister : 10-45-22-25.6-2360
-      Wir senden auf den Registern 10,11,12,13 und 14 die Werte 10,45,22,22.6 und 2360
-      Werte müssen durch ein - getrennt werden, und für Dezimalzahlen setzen Sie a .
-
-
-  - MultiRegister-Schreiben : In der Konfiguration des Befehls müssen Sie das Startregister sowie die Reihenfolge der Bytes und des Wortes eingeben.
-  Standardmäßig ist der Funktionscode FC16. Bitte belassen Sie diese Konfiguration als Standard.
-
-  Verwenden Sie diese Syntax, um die Werte in den Registern zu ändern:
-  - valuetosend&nbofregister, getrennt durch | :   Ex:  120&1|214.5&4 Wir senden die Ganzzahl 120 an ein Register, beginnend mit dem konfigurierten Startregister,
-  dann 214.5 in Float auf 4 Registern, die dem vorherigen folgen.
-
-  Schreiben Sie für Float-Typen den Wert wie oben mit a .
-
-
-  - Multicoil-Schreiben : In der Konfiguration des Befehls müssen Sie das Startregister eingeben
-      Standardmäßig ist der Funktionscode fc15. Bitte belassen Sie diese Konfiguration als Standard.
-
-      Verwenden Sie diese Syntax, um die Werte in den Registern zu ändern:
-      Ex : 01110111 Damit werden vom konfigurierten Startregister die Werte True(1) oder False(0) an die Register gesendet
+           :
+          
 
 
 
-  - Bit schreiben : In der Befehlskonfiguration benötigen Sie die Reihenfolge von Bytes und Wörtern.
-     Standardmäßig ist der Funktionscode fc03, da dieser Befehl den Wert des Registersatzes binär an die Befehlsinfo "infobitbinary".
-
-     Bitte belassen Sie diese Konfiguration als Standard.
-
-     Beim Befehl info "infobitbinary" haben Sie den Binärwert des Parameterregisters beim Befehl Write Bit.
-     Um das Bit im Register zu ändern :
-
-        valuetosend&PositionBit&Register :   Ex:  1&4 Wir senden den Wert 1 an Bitposition 4 von rechts in das angegebene Register
-        Auf dem Info-Befehl „infobitbinary“ sehen Sie den Wert 10000101, was dem binären Wert des Parameterregisters entspricht.
-        Indem Sie 1&6 schreiben, haben Sie jetzt den Wert : 10100101 auf dem konfigurierten Register.
 
 
 
-WICHTIG :
 
 
-Einige SPS haben die Funktion fc06 nicht
-  Siehe Spezifische Parameter am Ende der Dokumentation
+
+
+  ###### Bit schreiben : In der Befehlskonfiguration benötigen Sie die Reihenfolge von Bytes und Wörtern.
+
+  .
+
+  ".
+
+  Bitte belassen Sie diese Konfiguration als Standard.
+
+  Beim Befehl info "infobitbinary" haben Sie den Binärwert des Parameterregisters beim Befehl Write Bit.
+  
+   :
+
+  valuetosend&PositionBit&Register :   Ex:  1&4 Wir senden den Wert 1 an Bitposition 4 von rechts in das angegebene Register
+  Auf dem Info-Befehl „infobitbinary“ sehen Sie den Wert 10000101, was dem binären Wert des Parameterregisters entspricht.
+  Indem Sie 1&6 schreiben, haben Sie jetzt den Wert : 10100101 auf dem konfigurierten Register.
+
+
 
 
 
@@ -249,62 +221,28 @@ Indem Sie auf diese Aktionsbefehle auf Ihrem Dashboard reagieren, senden Sie dah
 
 
 
-In ein Halteregister schreiben :
-
-- Sie fügen einen neuen Modbus-Befehl hinzu und benennen den Befehl. Sie wählen einen Aktionstypbefehl unter Schiebereglertyp aus.
-- Wählen Sie auch einen Min- und Max-Wert für diesen Schieberegler (denken Sie daran, einen Min-Wert zu verwenden, um einen negativen Wert zu senden)
-- Wählen Sie Bc6 Write Single Register
-- Wählen Sie die Anzahl der Register : 1
-- Wählen Sie den Schritt des Schiebereglers (für Dezimalzahlen schreiben Sie mit a .   ex: 0.2)
-
-
-
-Wenn ein Schreibvorgang abgeschlossen ist, unabhängig davon, ob er erfolgreich ist oder nicht, wird auf Jeedom eine Nachricht angezeigt.
-Sie können diese Meldung in der Plugin-Konfiguration deaktivieren/aktivieren.
-
-
-
-
-
 # Spezifische Parameter
 
-HEX-RÜCKKEHR :
+###### HEX-RÜCKKEHR :
   Um einen Befehl zu haben, der den Wert des Registers in Hexadezimalform zurückgibt (für einen Befehl, der beispielsweise die Fehler eines Geräts meldet), erstellen Sie Ihren Befehl und konfigurieren ihn wie gewohnt,
   und kreuzen Sie Return Hexa an.
-
-  Dadurch wird bei der Rückkehr ein neuer Befehl erstellt, der den Namen des ursprünglichen Befehls hat, gefolgt von _HEXAVALUE
-
+    
 
 
-MEHRREGISTERLESEN :
+
+###### MEHRREGISTERLESEN :
   Durch Aktivieren von „LectureMultiRegistres“ werden automatisch so viele neue Befehle erstellt, wie in „Anzahl der Register“ angegeben, unter Verwendung des Namens des ursprünglichen Befehls und der ID des Befehls in der Iteration. Sie können die Befehle natürlich umbenennen; Beim Lesen des ursprünglichen Befehls enthält sein Wert eine Zeichenfolge der 10 Registerwerte und aktualisiert die 10 entsprechenden Befehle.
 
 
-
-Fc16 UNVERFOLGTE REGISTER :
-  Einige SPS haben die Funktion fc06 nicht
-  Sie können unter Nachrichtentyp einen Aktionsbefehl erstellen und fc16 auswählen
-  Überprüfen Sie das Fc16-Register nicht verfolgt
-  Im Dashboard müssen Sie diese Syntax verwenden :
-  Abgangsregister ! Wert & nbRegister durch a getrennt |
-
-  Ex: 7!122.5&2|10!22&2
-
-  Wir schreiben aus Register 7 den Wert 122.5 auf 2 Register und auch von Register 10, der Wert 22, auf 2 Register
-
-
-
-BETRIEB AUF BESTELLUNG :
+###### BETRIEB AUF BESTELLUNG :
   Für eine Operation zur Wertrückgabe : Im Feld „Operation“ der Bestellung können Sie eine mathematische Operation ausfüllen, indem Sie das Tag einfügen #value# um den Wert dieses Befehls anzugeben :
   Beispiel : (#value# / 10 ) * 2
   Die Berechnung wird bei der Rückgabe von Daten von diesem Befehl durchgeführt.
   Nutzen Sie * gut für Multiplikationen
 
 
-Registerbits lesen :
+###### Registerbits lesen :
 Wenn Sie dies in einem Info-Befehl auswählen, wird ein Info-Befehl erstellt, der die 16 Bits dieses Registers darstellt. Dieser neue Befehl wird erstellt, wenn die Werte zum ersten Mal gemeldet werden, und wird dann bei jedem neuen Bericht aktualisiert.
-
-
 
 
 
@@ -314,3 +252,21 @@ Wenn Sie dies in einem Info-Befehl auswählen, wird ein Info-Befehl erstellt, de
 Nach der Anlage eines Equipments können Sie eine xlsx-Datei zur Erstellung Ihrer Aufträge importieren
 Die Vorlagendatei finden Sie unter „plugins/modbus/data/templateXlsx/exportModbus.xls“
 Sie können darauf zugreifen und es über Ihren Jeedom -> Einstellungen -> System -> Dateieditor herunterladen
+
+
+
+# MQTT
+
+
+ :
+
+
+
+
+ :
+
+![renammeTopic](../images/renammeTopic.png)
+
+
+
+

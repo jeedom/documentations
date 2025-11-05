@@ -2,41 +2,31 @@
     "id": "modbus",
     "name": "Modbus",
     "description": {
-        "fr_FR": "Plugin Modbus",
-        "en_US": "Modbus plug-in",
-        "es_ES": "Complemento Modbus",
-        "de_DE": "Modbus-Plugin",
-        "ru_RU": "Plugin Modbus",
-        "id_ID": "Plugin Modbus",
-        "it_IT": "Plugin Modbus",
-        "ja_JP": "Plugin Modbus",
-        "pt_PT": "Plug-in Modbus",
-        "tr": "Plugin Modbus"
+        "fr_FR": "Plugin Modbus - RTU - TCP",
+        "en_US": "Plugin Modbus - RTU - TCP",
+        "es_ES": "Plugin Modbus - RTU - TCP",
+        "de_DE": "Plugin Modbus - RTU - TCP",
+        "ru_RU": "Plugin Modbus - RTU - TCP",
+        "id_ID": "Plugin Modbus - RTU - TCP",
+        "it_IT": "Plugin Modbus - RTU - TCP",
+        "ja_JP": "Plugin Modbus - RTU - TCP",
+        "pt_PT": "Plugin Modbus - RTU - TCP",
+        "tr": "Plugin Modbus - RTU - TCP"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "4.0",
+    "require": "4.4.19",
+    "os": {
+        "min": 11
+    },
     "category": "automation protocol",
     "hasDependency": true,
     "hasOwnDeamon": true,
     "maxDependancyInstallTime": 0,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/modbus\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/modbus\/",
-    "link": {
-        "forum": "Lien vers le forum",
-        "video": "Lien vers une video"
-    },
     "language": [
-        "fr_FR",
-        "en_US",
-        "es_ES",
-        "de_DE",
-        "ru_RU",
-        "id_ID",
-        "it_IT",
-        "ja_JP",
-        "pt_PT",
-        "tr"
+        "fr_FR"
     ],
     "compatibility": [
         "miniplus",

@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 31/10/2025 (Bêta)
+# 04/11/2025 (Bêta)
 
 - Correction de la configuration des décodeurs Dragino
 
@@ -37,6 +37,10 @@
 - Ajout du produit *Milesight VS350 - Passage People Counter*
 
 - Ajout du produit *EM114039-01 - IoT Energy Meter*
+
+- MAJ commande du produit *Milesight VS350 - Passage People Counter*
+
+- Ajout du produit *BMeters IWM-LR5 - Water Meter Reader*
 
 # 20/10/2025
 
