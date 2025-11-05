@@ -1,25 +1,25 @@
-# Bluetooth equipment compatibility
+# 
 
 
 # Amazfit
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/amazfitgtr.jpg" width="60" />|Huami|Amazfit GTR|Santé|Only presence for the moment||
+|<img src="../../en_US/blea/images/amazfitgtr.jpg" width="60" />|Huami||Santé|||
 
 # Aqualin
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/aqualin.jpg" width="60" />|Aqualin|Bluetooth valve drip|Plante|||
+|<img src="../../en_US/blea/images/aqualin.jpg" width="60" />|Aqualin||Plante|||
 
 # Awoxmesh
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/awox.jpg" width="60" />|Awox Eglo|SmartLight Mesh|Lights|Compatible with Awox Mesh technology.||
-|<img src="../../en_US/blea/images/awox.jpg" width="60" />|Awox Eglo|Eglo Fueva|Lights|Compatible with Awox Mesh technology.||
-|<img src="../../en_US/blea/images/awoxremote.jpg" width="60" />|Awox Eglo|Remote control|Lights|Compatible with Awox Mesh technology. You must activate bluetooth mode to use the commands.||
+|<img src="../../en_US/blea/images/awox.jpg" width="60" />||||.||
+|<img src="../../en_US/blea/images/awox.jpg" width="60" />||||.||
+|<img src="../../en_US/blea/images/awoxremote.jpg" width="60" />||||. .||
 
 # Beagle
 
@@ -30,101 +30,101 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/beewismartdoor.jpg" width="60" />|BeeWi|opening sensor|Capteurs|Door opening sensors||
+|<img src="../../en_US/blea/images/beewismartdoor.jpg" width="60" />|BeeWi||Capteurs|||
 
 # Beewismartlite
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/beewismartlite.jpg" width="60" />|BeeWi|SmartLite BBL227|Lights|The pairing must be validated during the first minute after turning on the bulb||
+|<img src="../../en_US/blea/images/beewismartlite.jpg" width="60" />|BeeWi|||||
 
 # Blpnr
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/blpnr.jpg" width="60" />|Jardibric|BLP NR|Plante|||
+|<img src="../../en_US/blea/images/blpnr.jpg" width="60" />|Jardibric||Plante|||
 
 # Default
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/default.jpg" width="60" />|Inconnu|Inconnu|Defaut|Only for equipment not yet added in the plugin, to have at least the presence and rssi as well as the raw data||
+|<img src="../../en_US/blea/images/default.jpg" width="60" />|Inconnu|Inconnu|Defaut|||
 
 # Divoompixoo
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Divoom|Pixoo|Afficheur|Keep connected function recommended||
+||Divoom|Pixoo|Afficheur|||
 
 # Divoomtimeboxmini
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/divoomtimeboxmini.jpg" width="60" />|Divoom|TimeBox Mini|Afficheur|Function keep connection required to avoid the bluetooth logo||
+|<img src="../../en_US/blea/images/divoomtimeboxmini.jpg" width="60" />|Divoom||Afficheur|||
 
 # Dotti
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/dotti.jpg" width="60" />|Dotti|Dotti|Afficheur|Will work much better with keep connected option||
+|<img src="../../en_US/blea/images/dotti.jpg" width="60" />|Dotti|Dotti|Afficheur|||
 
 # Dreamscreen
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/dreamscreen.jpg" width="60" />|DreamScreen|DreamScreen|Lights|||
+|<img src="../../en_US/blea/images/dreamscreen.jpg" width="60" />|DreamScreen|DreamScreen||||
 
 # Fitbit
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/fitbit.jpg" width="60" />|Fitbit|Badge|Bracelet|Only for presence||
+|<img src="../../en_US/blea/images/fitbit.jpg" width="60" />|Fitbit|Badge|Bracelet|||
 
 # Flowerpower
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/flowerpower.jpg" width="60" />|Parrot|Power Flower|Capteurs|Plant sensors||
+|<img src="../../en_US/blea/images/flowerpower.jpg" width="60" />|Parrot||Capteurs|||
 
 # Gigaset
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/gigaset.jpg" width="60" />|Gigaset|G-Tag|Presence|Only for presence||
+|<img src="../../en_US/blea/images/gigaset.jpg" width="60" />|Gigaset|G-Tag||||
 
 # Hector
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/hector.jpg" width="60" />|Hector|Hector|Capteurs|Must not stay connected permanently on your phone if you want interaction in Jeedom||
+|<img src="../../en_US/blea/images/hector.jpg" width="60" />|Hector|Hector|Capteurs|||
 
 # Ibbq4
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/ibbq4.jpg" width="60" />|Inkbird|Inkbird IBT-4XS|Capteurs|Barbecue Temperature Sensors||
+|<img src="../../en_US/blea/images/ibbq4.jpg" width="60" />|Inkbird||Capteurs|||
 
 # Ibbq6
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/ibbq6.jpg" width="60" />|Inkbird|Inkbird IBT-6XS|Capteurs|Barbecue Temperature Sensors||
+|<img src="../../en_US/blea/images/ibbq6.jpg" width="60" />|Inkbird||Capteurs|||
 
 # Itag
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Black|Boutons|Please note that for the button to work you must check keep the connection, from this moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by the flashing stopping) and this only on the antenna chosen for transmission (in this case it is obviously necessary to choose the same one for reception and transmission)||
-|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag White|Boutons|Please note that for the button to work you must check keep the connection, from this moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by the flashing stopping) and this only on the antenna chosen for transmission (in this case it is obviously necessary to choose the same one for reception and transmission)||
-|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Rose|Boutons|Please note that for the button to work you must check keep the connection, from this moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by the flashing stopping) and this only on the antenna chosen for transmission (in this case it is obviously necessary to choose the same one for reception and transmission)||
-|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Green|Boutons|Please note that for the button to work you must check keep the connection, from this moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by the flashing stopping) and this only on the antenna chosen for transmission (in this case it is obviously necessary to choose the same one for reception and transmission)||
-|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag|Itag Blue|Boutons|Please note that for the button to work you must check keep the connection, from this moment the connection is kept and the button is no longer visible from other antennas. The connection is made as soon as the button is visible within 20 seconds (this is confirmed by the flashing stopping) and this only on the antenna chosen for transmission (in this case it is obviously necessary to choose the same one for reception and transmission)||
+|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag||Boutons|. )||
+|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag||Boutons|. )||
+|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag||Boutons|. )||
+|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag||Boutons|. )||
+|<img src="../../en_US/blea/images/itag.jpg" width="60" />|Itag||Boutons|. )||
 
 # Jinlin
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/jinlin.jpg" width="60" />|Lyl smart|Jinlin|Light|Only for presence (the rest will come)||
+|<img src="../../en_US/blea/images/jinlin.jpg" width="60" />||Jinlin||)||
 
 # Kst1
 
@@ -136,120 +136,120 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/logiswitch.jpg" width="60" />|Logitech|Logitech Pop red|Boutons|Absolutely not to be connected to another device||
-|<img src="../../en_US/blea/images/logiswitch.jpg" width="60" />|Logitech|Logitech Pop white|Boutons|Absolutely not to be connected to another device||
-|<img src="../../en_US/blea/images/logiswitch.jpg" width="60" />|Logitech|Logitech Pop green|Boutons|Absolutely not to be connected to another device||
-|<img src="../../en_US/blea/images/logiswitch.jpg" width="60" />|Logitech|Logitech Pop gray|Boutons|Absolutely not to be connected to another device||
+|<img src="../../en_US/blea/images/logiswitch.jpg" width="60" />|Logitech||Boutons|||
+|<img src="../../en_US/blea/images/logiswitch.jpg" width="60" />|Logitech||Boutons|||
+|<img src="../../en_US/blea/images/logiswitch.jpg" width="60" />|Logitech||Boutons|||
+|<img src="../../en_US/blea/images/logiswitch.jpg" width="60" />|Logitech||Boutons|||
 
 # Lywsd02
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/lywsd02.jpg" width="60" />|Xiaomi|Temperature Humidity|Capteurs|Temperature Humidity Sensors with display (Lywsd02)||
+|<img src="../../en_US/blea/images/lywsd02.jpg" width="60" />|Xiaomi||Capteurs|)||
 
 # Lywsd03
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/lywsd03.jpg" width="60" />|Xiaomi|Temperature Humidity|Capteurs|Temperature Humidity Sensors with display (Lywsd03)||
+|<img src="../../en_US/blea/images/lywsd03.jpg" width="60" />|Xiaomi||Capteurs|)||
 
 # Meyerdom
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/meyerdom2analog.jpg" width="60" />|MeyerDom|2 analog|Contacteurs|2 analog||
-|<img src="../../en_US/blea/images/meyerdom4contacts.jpg" width="60" />|MeyerDom|4 contactors|Contacteurs|4 contactors||
-|<img src="../../en_US/blea/images/meyerdomcontactvocal.jpg" width="60" />|MeyerDom|Voice contact|Contacteurs|Voice switch||
+|<img src="../../en_US/blea/images/meyerdom2analog.jpg" width="60" />|MeyerDom||Contacteurs|||
+|<img src="../../en_US/blea/images/meyerdom4contacts.jpg" width="60" />|MeyerDom||Contacteurs|||
+|<img src="../../en_US/blea/images/meyerdomcontactvocal.jpg" width="60" />|MeyerDom||Contacteurs|||
 
-# Meyerdom4contacts
+# 
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/meyerdom4contacts.jpg" width="60" />|MeyerDom|4 contactors|Contacteurs|4 contactors and 2 analog||
+|<img src="../../en_US/blea/images/meyerdom4contacts.jpg" width="60" />|MeyerDom||Contacteurs|||
 
 # Miband
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/miband1.jpg" width="60" />|Xiaomi|Miband|Santé|Depending on the firmwares may no longer work. Please note that if the bracelet is connected to your smartphone it is more visible via Bluetooth||
-|<img src="../../en_US/blea/images/miband1s.jpg" width="60" />|Xiaomi|Miband1s|Santé|Depending on the firmwares may no longer work. Please note that if the bracelet is connected to your smartphone it is more visible via Bluetooth||
-|<img src="../../en_US/blea/images/miband2.jpg" width="60" />|Xiaomi|Miband2|Santé|Depending on the firmwares may no longer work. Please note that if the bracelet is connected to your smartphone it is more visible via Bluetooth||
-|<img src="../../en_US/blea/images/miband3.jpg" width="60" />|Xiaomi|Miband 3|Santé|Only presence for the moment||
-|<img src="../../en_US/blea/images/miband4.jpg" width="60" />|Xiaomi|Miband 4|Santé|Only presence for the moment||
-|<img src="../../en_US/blea/images/mibandcolor.jpg" width="60" />|Xiaomi|Miband (with color led)|Santé|Depending on the firmwares may no longer work. Please note that if the bracelet is connected to your smartphone it is more visible via Bluetooth||
+|<img src="../../en_US/blea/images/miband1.jpg" width="60" />|Xiaomi|Miband|Santé|. ||
+|<img src="../../en_US/blea/images/miband1s.jpg" width="60" />|Xiaomi||Santé|. ||
+|<img src="../../en_US/blea/images/miband2.jpg" width="60" />|Xiaomi|Miband2|Santé|. ||
+|<img src="../../en_US/blea/images/miband3.jpg" width="60" />|Xiaomi||Santé|||
+|<img src="../../en_US/blea/images/miband4.jpg" width="60" />|Xiaomi||Santé|||
+|<img src="../../en_US/blea/images/mibandcolor.jpg" width="60" />|Xiaomi|)|Santé|. ||
 
 # Miflora
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/miflora.jpg" width="60" />|Xiaomi|Miflora|Capteurs|Plant sensors||
+|<img src="../../en_US/blea/images/miflora.jpg" width="60" />|Xiaomi|Miflora|Capteurs|||
 
 # Miscale
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/miscale.jpg" width="60" />|Xiaomi|MiScale|Scale|Complete profile management||
-|<img src="../../en_US/blea/images/miscale.jpg" width="60" />|Xiaomi|MiScale 2019|Scale|Complete profile management||
+|<img src="../../en_US/blea/images/miscale.jpg" width="60" />|Xiaomi|MiScale|Scale|||
+|<img src="../../en_US/blea/images/miscale.jpg" width="60" />|Xiaomi||Scale|||
 
 # Miscale2
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/miscale2.jpg" width="60" />|Xiaomi|MiScale V2|Scale|Complete profile management||
+|<img src="../../en_US/blea/images/miscale2.jpg" width="60" />|Xiaomi||Scale|||
 
 # Myfox
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/myfox.jpg" width="60" />|Myfox|Badge|Presence|Only for presence||
+|<img src="../../en_US/blea/images/myfox.jpg" width="60" />|Myfox|Badge||||
 
 # Niu
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/niu.jpg" width="60" />|Nodon|Niu Wazabi|Boutons|Available in several colors||
-|<img src="../../en_US/blea/images/niu.jpg" width="60" />|Nodon|Niu Gray|Boutons|Available in several colors||
-|<img src="../../en_US/blea/images/niu.jpg" width="60" />|Nodon|Niu Lagoon|Boutons|Available in several colors||
-|<img src="../../en_US/blea/images/niu.jpg" width="60" />|Nodon|Niu Softberry|Boutons|Available in several colors||
-|<img src="../../en_US/blea/images/niu.jpg" width="60" />|Nodon|Niu Techblue|Boutons|Available in several colors||
-|<img src="../../en_US/blea/images/niu.jpg" width="60" />|Nodon|Niu White|Boutons|Available in several colors||
+|<img src="../../en_US/blea/images/niu.jpg" width="60" />|Nodon||Boutons|||
+|<img src="../../en_US/blea/images/niu.jpg" width="60" />|Nodon||Boutons|||
+|<img src="../../en_US/blea/images/niu.jpg" width="60" />|Nodon||Boutons|||
+|<img src="../../en_US/blea/images/niu.jpg" width="60" />|Nodon||Boutons|||
+|<img src="../../en_US/blea/images/niu.jpg" width="60" />|Nodon||Boutons|||
+|<img src="../../en_US/blea/images/niu.jpg" width="60" />|Nodon||Boutons|||
 
 # Noke
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/noke.jpg" width="60" />|Noke|Noke|Cadenas|Visible only by pressing the button (can work via a hack of frames to recover the key) but will not be done because illegal||
+|<img src="../../en_US/blea/images/noke.jpg" width="60" />|Noke|Noke|Cadenas|||
 
 # Nut
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/nut.jpg" width="60" />|Nut|Nut|Presence|Only for presence||
-|<img src="../../en_US/blea/images/nut.jpg" width="60" />|Nut|Nut Mini Blue|Presence|||
+|<img src="../../en_US/blea/images/nut.jpg" width="60" />|Nut|Nut||||
+|<img src="../../en_US/blea/images/nut.jpg" width="60" />|Nut|||||
 
 # Parrotpot
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/parrotpot.jpg" width="60" />|Parrot|Parrot Pot|Capteurs|Plant sensors||
+|<img src="../../en_US/blea/images/parrotpot.jpg" width="60" />|Parrot||Capteurs|||
 
 # Playbulb
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Playbulb|Sphere|Lights|Capricious in scope, which may justify a very long treatment of actions. Can be detected in place of another playbulb if so change from drop down menu||
+||Playbulb|||. ||
 
 # Ropot
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/ropot.jpg" width="60" />|Xiaomi|Miflora|Capteurs|Plant sensors||
+|<img src="../../en_US/blea/images/ropot.jpg" width="60" />|Xiaomi|Miflora|Capteurs|||
 
 # Ruuvi
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/ruuvi.jpg" width="60" />|Ruuvi|Ruuvi|Beacon|Beacon sensors||
+|<img src="../../en_US/blea/images/ruuvi.jpg" width="60" />|Ruuvi|Ruuvi|Beacon|||
 
 # Smartplug
 
@@ -261,40 +261,40 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/tb05.jpg" width="60" />|E-Diffuser|Tb05|Diffuseur|It is recommended to use the keep connected option. Mandatory to experimentally attempt to access direct color||
+|<img src="../../en_US/blea/images/tb05.jpg" width="60" />|E-Diffuser|Tb05|Diffuseur|. ||
 
 # Ticatag
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/ticatag.jpg" width="60" />|Tibe|Ticatag|Boutons|The release is sent even after a single press or double press||
+|<img src="../../en_US/blea/images/ticatag.jpg" width="60" />|Tibe|Ticatag|Boutons|||
 
 # Tile
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/tile.jpg" width="60" />|Tile|Tile|Presence|Only for presence||
+|<img src="../../en_US/blea/images/tile.jpg" width="60" />|Tile|Tile||||
 
 # Wistiki
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/wistiki.jpg" width="60" />|Wistiki|Wistiki|Presence|Only for presence||
+|<img src="../../en_US/blea/images/wistiki.jpg" width="60" />|Wistiki|Wistiki||||
 
 # Xiaomiht
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/xiaomiht.jpg" width="60" />|Xiaomi|Temperature Humidity|Capteurs|Temperature Humidity Sensors with display||
-|<img src="../../en_US/blea/images/xiaomiht.jpg" width="60" />|Xiaomi|Temperature Humidity Cleargrass|Micromodule|Temperature Humidity Sensors with e-ink display||
+|<img src="../../en_US/blea/images/xiaomiht.jpg" width="60" />|Xiaomi||Capteurs|||
+|<img src="../../en_US/blea/images/xiaomiht.jpg" width="60" />|Xiaomi||Micromodule|||
 
 # Yeelight
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/blea/images/yeelight_bed.jpg" width="60" />|Yeelight|Bed|Lights|The pairing must be validated by pressing the button. If off you must turn on before choosing a color||
+|<img src="../../en_US/blea/images/yeelight_bed.jpg" width="60" />|Yeelight|Bed||. ||
 
 
-This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2025-11-05 01:21:04
+
+:21:04

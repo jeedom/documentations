@@ -1,61 +1,61 @@
-# Installation sur PC/mini-PC
+# Installation on PC/mini-PC
 
-La procédure suivante est basée sur l'utilisation d'un fichier d'image système incluant Debian et Jeedom préinstallé.
-
->**INFORMATION**
->
->Pour installer Jeedom manuellement sur un sytème Debian, se référer à la documentation concernant [l'installation en ligne de commande](cli).
-
-## Téléchargement de l'image système
-
-L'équipe Jeedom fournit des images système optimisées à destination des ordinateurs 64 bits.
-
-La première étape consiste à télécharger l'image système que vous souhaitez installer :
-
-- [**Image(s) système Jeedom x86-64**](https://images.jeedom.com/x86-64/){:target="_blank"}
+The following procedure is based on the use of a system image file including Debian and Jeedom pre-installed.
 
 >**INFORMATION**
 >
->Consulter [**la documentation dédiée**](../compatibility/#Images%20système%20officielles) pour plus de détails sur les images système Jeedom.
+>To manually install Jeedom on a Debian system, refer to the documentation regarding [command-line installation](cli).
 
-## Gravure de l'image système
+## Downloading the system image
 
-Le fichier précédemment téléchargé doit être gravé sur un support à partir duquel la machine est apte à démarrer, comme une clé USB par exemple.
+The Jeedom team provides optimized system images for 64-bit computers.
+
+The first step is to download the system image you want to install :
+
+- [**Jeedom x86-64 system image(s)**](https://images.jeedom.com/x86-64/){:target="_blank"}
 
 >**INFORMATION**
 >
->Si vous ne connaissez pas de logiciel de gravure, vous pouvez utiliser [balenaEtcher](https://etcher.balena.io/){:target="_blank"}.
+>To consult [**the dedicated documentation**](../compatibility/#Images%20système%20officielles) for more details on Jeedom system images.
 
-Pour procéder à la gravure, il suffit de suivre la procédure décrite par l'éditeur du logiciel que vous utilisez.
+## System image engraving
 
-Une fois l'image système gravée sur le support de démarrage, il n'y a plus qu'à démarrer dessus.
+The previously downloaded file must be burned onto a medium from which the machine is capable of booting, such as a USB flash drive.
+
+>**INFORMATION**
+>
+>If you are not familiar with burning software, you can use [balenaEtcher](https://etcher.balena.io/){:target="_blank"}.
+
+To proceed with the burning, simply follow the procedure described by the publisher of the software you are using.
+
+Once the system image is burned onto the bootable media, all that's left to do is boot from it.
 
 >**IMPORTANT**
 >
->En cas de difficulté pour démarrer sur la clé USB, consultez la documentation de votre matériel relative aux options de boot du BIOS.
+>If you have trouble booting from the USB drive, consult your hardware documentation for BIOS boot options.
 
-## Options d'installation
+## Installation options
 
-Différentes options d'installation sont affichées à l'écran après avoir démarré l'ordinateur sur le support contenant l'image système :
+Different installation options are displayed on the screen after booting the computer from the media containing the system image :
 
 {% include lightbox.html src="images/install-menu-amd64.jpg" data="InstallMenuAMD64" title="Menu d'installation Jeedom (AMD64)" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
-- **Install Jeedom (automatic mode)** : **installe le système automatiquement** sans aucune intervention nécessaire. La machine est éteinte à la fin de l'opération.
+- **Install Jeedom (automatic mode)** : **installs the system automatically** without any intervention necessary. The machine is switched off at the end of the operation.
   >**IMPORTANT**
 	>
-	>Ce mode est exécuté par défaut au bout de 60 secondes, **l'installation peut donc être réalisée sans brancher d'écran**.
+	>This mode is activated by default after 60 seconds, **The installation can therefore be carried out without connecting a screen**.
 
-- **Install Jeedom (manual mode)** : dans ce mode, vous devez **renseigner manuellement la configuration du système à installer** *(langue, pays, réseau, support de stockage, etc.)*.
+- **Install Jeedom (manual mode)** : In this mode, you must **Manually enter the system configuration to be installed** *(language, country, network, storage medium, etc.)*.
 
-- **Jeedom Live** : permet de **tester Jeedom dans un environnement non persistant** sans installer le système.
+- **Jeedom Live** : allows **testing Jeedom in a non-persistent environment** without installing the system.
   >**INFORMATION**
 	>
-	>Cette fonctionnalité est accessible à partir de Debian 12 Bookworm.
+	>This feature is available from Debian 12 Bookworm.
 
-## Compatibilité matérielle
+## Hardware compatibility
 
-La liste, non exhaustive, des ordinateurs supportés par Jeedom est visible dans [la documentation **Compatibilité**](../compatibility/#Matériels%20supportés)
+The non-exhaustive list of computers supported by Jeedom can be seen in [the documentation **Compatibility**](../compatibility/#Matériels%20supportés)
 
-## Première connexion
+## First connection
 
-Consulter la documentation relative à la [**Première connexion**](../premiers-pas/#Première%20connexion) pour accéder à l'interface Jeedom suite à l'installation.
+Consult the documentation relating to the [**first connection**](../premiers-pas/#Première%20connexion) to access the Jeedom interface after installation.

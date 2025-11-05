@@ -1,65 +1,65 @@
-# Command line installation
+# Command-line installation
 
-La procédure suivante s'adresse aux utilisateurs avancés, elle permet d'installer Jeedom sur un système Linux Debian server.
+The following procedure is for advanced users; it allows you to install Jeedom on a Debian Linux server system.
 
 >**INFORMATION**
 >
->En cas d'interrogation concernant l'installation de Debian, l'équipe Jeedom propose également des images systèmes incluant Debian et Jeedom préinstallé. Consulter [**la documentation dédiée**](../compatibility/#Images%20système%20officielles) pour plus de détails.
+>If you have any questions about installing Debian, the Jeedom team also offers system images that include Debian and Jeedom pre-installed. See [link/reference] [**the dedicated documentation**](../compatibility/#Images%20système%20officielles) for more details.
 
-## Version de Debian
+## Debian version
 
-Jeedom est un logiciel Linux prévu pour fonctionner de manière optimale sur [un système Debian server](https://www.debian.org/){:target="_blank"}.
+Jeedom is a Linux software designed to work optimally on [a Debian server system](https://www.debian.org/){:target="_blank"}.
 
-Pensez à vérifier que [**votre version de Debian est prise en charge par Jeedom**](../compatibility/#Debian) avant de procéder à l'installation.
+Remember to check that [**Your version of Debian is supported by Jeedom**](../compatibility/#Debian) before proceeding with the installation.
 
-## Installation manuelle
+## Manual installation
 
->**Important**
+>**IMPORTANT**
 >
->Chaque instance Jeedom est censée être exécutée sur un serveur dédié. Partant de ce fait, il est possible d'observer des effets de bord avec d'éventuels services hébergés parallèlement. Dans la même idée, les systèmes Debian desktop ne sont pas couverts par le support officiel.
+>Each Jeedom instance is supposed to run on a dedicated server. Based on this fact, it is possible to observe side effects with any services hosted in parallel. Similarly, Debian desktop systems are not covered by official support.
 
-### Exécution
+### Execution
 
-Afin de procéder à l'installation de Jeedom, il est nécessaire de se connecter à la console système selon la méthode la plus adaptée à votre situation *(ssh, clavier/écran, écran virtuel)*.
+To install Jeedom, you need to connect to the system console using the method best suited to your situation *(SSH, keyboard/screen, virtual screen)*.
 
-Une fois connecté au système avec un utilisateur bénéficiant des droits d'administration `sudo`, il suffit d'entrer ces 3 commandes :
+Once logged into the system with a user account that has `sudo` administrative privileges, simply enter these 3 commands :
 
-1. Télécharger le script d'installation :
+1. Download the installation script :
     ```sh
     wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
     ```
 
-2. Donner les droits d'exécution :
+2. Grant enforcement rights :
     ```sh
     chmod +x install.sh
     ```
 
-3. Exécuter le script :
+3. Run the script :
     ```sh
     sudo ./install.sh
     ```
 	>**INFORMATION**
 	>
-	>Si connecté en tant que `root`, il faut exécuter le script `./install.sh` sans la commande `sudo` au préalable.
+	>If logged in as `root`, you need to run the `./install` script.sh` without the `sudo` command beforehand.
 
 ### Options
 
->**Important**
+>**IMPORTANT**
 >
->Cette section est réservée aux utilisateurs bénéficiant d'une certaine expertise.
+>This section is reserved for users with a certain level of expertise.
 
-Le script d'installation Jeedom dispose de différentes options permettant de personnaliser chaque instance :
+The Jeedom installation script has various options allowing customization of each instance :
 
-- **Base de donnée** (`-d`) : installe ou non la base de données gérée par Jeedom *(`1` par défaut)*
-- **Type d'installation** (`-i`) : Définit le type d'installation *(`standard` par défaut)*
-- **Etape** (`-s`) : exécute une étape spécifique *(`0` par défaut)*
-- **Version** (`-v`) : sélectionne une branche de développement Jeedom *(`master` par défaut)*
-- **Dossier d'installation** (`-w`) : répertoire où installer Jeedom *(`/var/www/html` par défaut)*
+- **Database** (`-d`) : installs or not the database managed by Jeedom *(`1` by default)*
+- **Installation type** (`-i`) : Defines the type of installation *(`standard` by default)*
+- **Stage** (`-s`) : executes a specific step *(`0` by default)*
+- **Version** (`-v`) : selects a Jeedom development branch *(`master` by default)*
+- **Installation file** (`-w`) : directory where to install Jeedom *(`/var/www/html` by default)*
 
-## Compatibilité matérielle
+## Hardware compatibility
 
-La liste, non exhaustive, des matériels supportés par Jeedom est visible dans [la documentation **Compatibilité**](../compatibility/#Matériels%20supportés)
+ [the documentation **Compatibility**](../compatibility/#Matériels%20supportés)
 
-## Première connexion
+## First connection
 
-Consulter la documentation relative à la [**Première connexion**](../premiers-pas/#Première%20connexion) pour accéder à l'interface Jeedom suite à l'installation.
+Consult the documentation relating to the [**first connection**](../premiers-pas/#Première%20connexion) to access the Jeedom interface after installation.

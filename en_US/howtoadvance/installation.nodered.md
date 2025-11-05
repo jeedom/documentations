@@ -1,25 +1,25 @@
-# Nodered installation
+# 
 
-Nodered is a tool written in Nodejs to manage IoT or home automation oriented flows. It offers a graphical interface for editing flows. The tutorial describes its installation, a reverse proxy configuration and a startup in service
+. . 
 
-# Installation of Nodered
+# 
 
-Here are the commands to launch to install nodered with a working nodejs :
+ :
 
 ````
 sudo apt-get -y install libavahi-compat-libdnssd-dev libusb-1.0-0-dev build-essential
 sudo npm install -g node-red
 ````
 
-To get Nodejs you can install one of the jeedom plugins that do it.
+.
 
-#  Automatic start of Nodered
+#  
 
-It is possible to declare Nodered as a service so that it is started automatically when the box boots. An example [here](https://gist.github.com/bigmonkeyboy/9962293)
+.  [](https://gist.github.com/bigmonkeyboy/9962293)
 
-# Apache configuration
+# 
 
-Here is an example of a file to access Nodered via a reverse proxy.
+.
 
 ````
 <Location /jeedom/nodered>
@@ -30,9 +30,9 @@ ProxyPass http://localhost:1880/jeedom/nodered/
 </Location>
 ````
 
-# Configuration of Nginx
+# 
 
-Here is an example of a file to access Nodered via a reverse proxy.
+.
 
 ````
 location /jeedom/nodered/ {
@@ -49,11 +49,11 @@ location /jeedom/nodered/ {
 }
 ````
 
-# Existing modules for Nodered
+# 
 
-Here are examples of extensions available for Nodered.
+.
 
-## Avahi / Hello discovery module
+## 
 
 ````
 sudo npm install node-red-node-discovery -g

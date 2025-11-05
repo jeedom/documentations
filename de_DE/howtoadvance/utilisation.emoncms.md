@@ -1,46 +1,46 @@
-# Emoncms verwenden
+# Verwendung von EmonCMS
 
-EmonCMS ist eine PHP-Energieüberwachungsanwendung (Emon : Energiemonitor)
+EmonCMS ist eine PHP-Anwendung zur Energieüberwachung (Emon : Energiemonitor)
 
-In Bezug auf den Datenaustausch zwischen Jeedom und EmonCMS (auf die eine oder andere Weise) finden Sie in dieser Dokumentation die Mittel zur Implementierung.
+Bezüglich des Datenaustauschs zwischen Jeedom und EmonCMS (in beide Richtungen) finden Sie die Implementierungsmethoden in dieser Dokumentation.
 
-Ein kurzes Memo zur Installation von Emoncms ist ebenfalls verfügbar (diese Installation wird derzeit in Jeedom nicht nativ angeboten)
+Eine kurze Anleitung zur Installation von emoncms wird ebenfalls bereitgestellt (diese Installation wird derzeit nicht nativ in Jeedom angeboten))
 
-EmonCMS kann neben Jeedom oder anderswo installiert werden. Sie können sogar die Instanz emoncms.org verwenden
+EmonCMS kann zusammen mit Jeedom oder an anderer Stelle installiert werden. Sie können sogar die emoncms.org-Instanz verwenden
 
-# Senden Sie einen Wert von Jeedom an EmonCMS
+# Senden eines Wertes von Jeedom an EmonCMS
 
-Um einen Wert von Jeedom an EmonCMS zu senden, besteht die einfachste Lösung, da er nativ verfügbar ist, darin, die Push-URL einer Information zu verwenden
+Um einen Wert von Jeedom an EmonCMS zu senden, ist die einfachste Lösung, da sie nativ verfügbar ist, die Verwendung der Push-URL der Information
 
-In Jeedom können Sie auf die erweiterten Parameter zugreifen, indem Sie auf das Zahnrad rechts klicken.
+In Jeedom können Sie die erweiterten Einstellungen aufrufen, indem Sie auf das Zahnradsymbol auf der rechten Seite klicken.
 
-Dann finden wir in "Erweiterte Konfiguration" den letzten Push-URL-Parameter, der mit der EmonCMS-API-Adresse für den Feed gefüllt werden muss, den wir füllen möchten
+Unter „Erweiterte Konfiguration“ finden Sie den letzten Parameter, die Push-URL. Hier müssen Sie die EmonCMS-API-Adresse für den Feed eintragen, den Sie befüllen möchten
 
-Die URL von Push hat die Form :
+Die Push-URL hat folgendes Format: :
 
 ``https://serveur/emoncms/input/post.json?json={power:\#value\#}&apikey=xxx``
 
-Mit Parametern :
+Mit den Einstellungen :
 
--   Identifikation : Die auf Emoncms gefundene Feed-ID
--   apikey : der API-Schlüssel zum Lesen und Schreiben für Emoncms
--   Wert : wir müssen gehen *Wert* damit Jeedom den Wert der Info sendet
--   Macht : zu ändern für
+-   Ausweis : die Feed-ID, die auf emoncms gefunden wurde
+-   API-Schlüssel : der Lese- und Schreib-API-Schlüssel für emoncms
+-   Wert : Wir müssen gehen *Wert* damit Jeedom den Wert der Information senden kann
+-   Leistung : Dies muss geändert werden für
 
-# Benachrichtigung an Jeedom oder Wiederherstellung von Jeedom
+# Benachrichtigung an Jeedom oder Abholung von Jeedom
 
-Um Daten von Emoncms in Jeedom zu nehmen, gibt es zwei Möglichkeiten :
+Um Daten aus emoncms in Jeedom abzurufen, gibt es zwei Möglichkeiten :
 
--   Die erste besteht darin, Informationen über das Skript-Plugin in Jeedom zu erstellen und die API-URL des Feeds zu verwenden. Diese Methode erfordert die regelmäßige Wiederherstellung des Werts beispielsweise oder über ein Szenario und ist normalerweise nicht nützlich, da die Daten ihre Quelle haben ``jeedom_setting`` : ``https://serveur/emoncms/feed/value.json?id=1&apikey=xxx``
--   Die zweite Möglichkeit besteht darin, das emoncms-Ereignis-Plugin zu verwenden, um unter bestimmten Bedingungen eine Aktion auszulösen. Diese Methode kann nützlich sein, wenn wir Daten haben, die von emoncms berechnet oder direkt wiederhergestellt werden (zum Beispiel OpenBEM). Mit dem Vorteil, dass nur bei Bedarf benachrichtigt wird, erlaubt das Ereignis-Plugin andererseits nicht, pushen und Sie müssen MQTT für die Jeedom-Verbindung durchlaufen
+-   Die erste Methode besteht darin, über das Skript-Plugin in Jeedom einen Informationseintrag zu erstellen und die API-URL des Feeds zu verwenden. Diese Methode erfordert das regelmäßige Abrufen des Werts oder beispielsweise über ein Szenario und ist normalerweise unnötig, da die Daten aus dem Inneren stammen ``jeedom_setting`` : ``https://serveur/emoncms/feed/value.json?id=1&apikey=xxx``
+-   Die zweite Möglichkeit besteht darin, das EmonCMS Event-Plugin zu verwenden, um eine Aktion basierend auf bestimmten Bedingungen auszulösen. Diese Methode kann nützlich sein, wenn Ihre Daten von emoncms berechnet oder direkt abgerufen werden (z. B. OpenBEM). Sie hat den Vorteil, dass Benachrichtigungen nur bei Bedarf versendet werden. Allerdings unterstützt das Ereignis-Plugin keine Push-Benachrichtigungen, weshalb Sie für die Jeedom-Verbindung MQTT verwenden müssen
 
-# Memo für die EmonCMS-Installation
+# EmonCMS Installationsanleitung
 
-Die Installation wird auf dieser Github-Seite beschrieben [hier](https://github.com/emoncms/emoncms/blob/master/docs/LinuxInstall.md)
+Die Installation wird auf dieser GitHub-Seite beschrieben [Hier](https://github.com/emoncms/emoncms/blob/master/docs/LinuxInstall.md)
 
-Beachten Sie, dass einige Plugins mit der neuesten EmonCMS-Version (Version 9 Ende 2015) veraltet zu sein scheinen)
+Beachten Sie, dass einige Plugins mit der neuesten Version von EmonCMS (Version 9, Stand Ende 2015) veraltet zu sein scheinen)
 
-Wenn wir sie installieren, gibt es Probleme mit den Menüs. Jedenfalls brauchen wir nur a priori :
+Wenn wir sie installieren, wird es Probleme mit den Menüs geben. In jedem Fall müssen wir im Prinzip nur :
 
 ````
 git clone https://github.com/emoncms/event.git # C'est lui qui pourra permettre de créer des réactions sur évènement dans emoncms pour notifier Jeedom
@@ -52,7 +52,7 @@ git clone https://github.com/elyobelyob/mqtt.git
 
 # Nginx-Konfiguration
 
-Hier ist eine Beispielkonfiguration für Nginx. Für Apache ist kein bestimmtes conf classic-Verzeichnis erforderlich
+Hier ist eine Beispielkonfiguration für Nginx. Für Apache ist keine spezielle Konfiguration erforderlich; ein Standardverzeichnis genügt
 
 ````
 location /emoncms {
