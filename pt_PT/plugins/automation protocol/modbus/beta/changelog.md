@@ -4,56 +4,56 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
-# 
+# 04/11/2025
 
 >**IMPORTANTE**
 >
->. . 
+>Une refonte globale du plugin à été effectuée. Les méthodes d'écritures ou les parametrages des registres pourraient etre a refaire/re-adapter suivant les installations. Merci de bien faire un backup et de le télécharger en local avant de mettre à jour le plugin
 
--  : 
--  : 
-- 
-- 
-- 
--  : 
-- 
-- 
-- 
-- 
-- )
-- 
+- OS Minimum : Debian 11
+- Jeedom Minimum : 4.4.19
+- Montée de version de pymodbus en 3.8.6
+- Passage en asynchrone
+- Suppression ByteOrder car non standard avec Modbus
+- Suppression du parametre Nombre de registres : gérer maintenant via le choix du format de données choisi
+- Refonte conversion registres
+- Gestion programmée
+- Optimisation et fix sur multiples clients TCP
+- Ajout Configurer Fc16 via bootbox pour valeurs et format
+- Ajout format short/ushort (int8,uint8)
+- Ajout Mode Cyclique ou sur déclenchement
 
-# 
+# 01/11/2025
 
-- 
+- Fix selection des functions codes
 
-# 
+# 31/10/2025
 
-- 
-
-
-# 
-
-- 
-
-# 
-
-- 
-
-# 
-
--  : )
+- Gestion formatType UInt8 et Int8
 
 
-# 
+# 28/10/2025
 
--  : 
--  : 
-- 
-- 
-- 
--  : 
-- 
+- Optimisation et fix sur multiples clients TCP
+
+# 18/07/2025
+
+- Ajout Configurer Fc16 via bootbox pour valeurs et format
+
+# 01/04/2025
+
+- Ajout option MQTT : envoie des infos de registres sur broker MQTT (nécessite le plugin officiel MQTT)
+
+
+# 19/03/2025
+
+- OS Minimum : Debian 11
+- Jeedom Minimum : 4.4.19
+- Montée de version de pymodbus en 3.8.6
+- Passage en asynchrone
+- Suppression ByteOrder car non standard avec Modbus
+- Suppression du parametre Nombre de registres : gérer maintenant via le choix du format de données choisi
+- Refonte conversion registres
 
 
 # 30/10/2025
