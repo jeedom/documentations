@@ -4,7 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Entfernen einer nicht verwendeten Abhängigkeit
 
+# 01.08.2024
+
+- Vorbereitung auf Jeedom 4.4
 - Möglichkeit zur Konfiguration des SSH-Ports
 - Tool zum Durchsuchen des SNMP-Baums hinzugefügt
 

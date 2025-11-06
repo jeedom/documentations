@@ -42,6 +42,8 @@
 
 - Ajout du produit *BMeters IWM-LR5 - Water Meter Reader*
 
+- Fix commande config du produit * EM114039-01 - IoT Energy Meter*
+
 # 20/10/2025
 
 - Ajout du downlink Set temperature ranges pour *Mclimate Vicki* 

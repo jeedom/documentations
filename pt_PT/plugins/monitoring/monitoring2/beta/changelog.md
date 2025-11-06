@@ -4,7 +4,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-- Removendo uma dependência não utilizada
+# 
+
+- 
 
 # 01/08/2024
 
@@ -39,3 +41,4 @@
 # 04/03/2018
 
 - Versão estável
+
