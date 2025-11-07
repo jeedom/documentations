@@ -1,14 +1,12 @@
 # Bacnet
 
-#Description
+## Description
 
-The Bacnet plugin allows you to retrieve information from your Bacnet / Ip equipment and interact with it from your Jeedom.
+Le plugin Bacnet permet de récupérer les informations de vos équipements Bacnet/IP et d'interagir avec eux depuis votre Jeedom. Il supporte de nombreuses fonctionnalités avancées telles que l'importation de fichiers EDE, l'ajout manuel de points, la visualisation des calendriers (schedules) et bien plus encore.
 
+## Plugin configuration
 
-
-# Plugin configuration
-
-After downloading the plugin, you must first activate it, like any Jeedom plugin :
+Après téléchargement du plugin, il faut tout d'abord l'activer, comme tout plugin Jeedom :
 
 ![config](./images/BacnetConfig.png)
 
@@ -20,72 +18,72 @@ Finally, we must start the demon :
 
 ![demon](./images/BacnetDemon.png)
 
-
 Rien n'est à modifier dans le champ « Port socket interne » de la section « Configuration ».
 
 ![socket](./images/BacnetSocket.png)
 
-
 In this same tab, you must choose the Cron value for updating your equipment.
 
+## Comment déclarer un équipement Bacnet dans Jeedom
 
-
-
-# How to declare a new Bacnet device in Jeedom
-
-
-
+### Détection automatique
 
 >**IMPORTANT**
 >
->Your BACNET equipment must be on the same network as your Jeedom to be detected by it.
+>Vos équipements BACNET doivent se trouver sur le même réseau que votre Jeedom pour être détectés automatiquement.
+
+Rendez-vous dans le menu « Plugins → Protocole domotique → Bacnet » :
 
 
-Rendez-vous dans le menu « Plugins → Energie → Bacnet » :
 
-![menu](./images/BacnetMenu.png)
+Vous pouvez lancer un scan de type broadcast, qui enverra un whois à tout votre réseau pour trouver les équipements Bacnet. 
+Une fenetre s'affichera avec les résultats. 
+Vous pourrez scanner ensuite les points du/des device(s) choisis.
 
-
-You arrive on the next page:
-
-![accueil](./images/BacnetAccueil.png)
-
-
-Vous devez donc cliquer sur l'option « Nouvel équipement / Création commandes » :
-
-An automatic scan of your network will be launched to detect the Bacnet devices present on it.
-It may take about twenty seconds.
+Sur une grande installation;un whois global peut perturber les équipements bacnet, il est conseillé alors d'ajouter un équipement manuellement (vous pourrez lui choisir son adresse IP et son device ID) : un bouton Scan de point est présent sur chaque équipement pour faire un scan de cet équipement en particulier
 
 Following the scan, a table with all the inputs / outputs of your equipment will be displayed.
 
-The table menu where you can search by column :
+Suivant les constructeurs d'équipements, certaines valeurs ne sont pas disponibles.
 
-![indextab](./images/BacnetIndexTab.png)
+Il vous suffit de sélectionner les commandes à créer en cochant une des options suivant votre choix (commande de type info ou de type action), vous pouvez valider à la suite, et vous serez amené sur la page de l'équipement avec les commandes créées.
 
+-
+Cliquez ensuite sur votre équipement créé, puis cochez « Activer » et « Visible » pour le voir apparaître sur votre dashboard.
 
-An example of detection of Bacnet equipment :
+Pour ajouter des commandes ultérieurement à un équipement existant, il faudra refaire un scan des points de cet équipements. 
+Les commandes deja créées auront leur checkbox deja cochées sur le tableau des points.
 
-![tableau](./images/BacnetTableau.png)
+### Ajout manuel de point
 
-Depending on the equipment manufacturer, some values are not available;
+Si votre équipement n'est pas lu, du à un nombre trop grand d'objets, une erreur vous indiquera qu'il faut ajouter les points manuellement (ou injecter un EDE)
 
-All you have to do is select the orders to be created by checking one of the options according to your choice (command type info or type action):
+Depuis la page de l'équipement, cliquez sur le bouton "Ajouter manuellement des points" :
 
-![check](./images/BacnetCheck.png)
+1. Renseignez l'ID d'instance de chaque point
+2. Sélectionnez le type d'objet (Analog Input, Binary Output, etc.)
+3. Choisissez le mode (lecture seule ou lecture/écriture)
+4. Donnez un nom à la commande
+5. Ajoutez éventuellement une unité et une description
+6. Cliquez sur "+" pour ajouter d'autres points si nécessaire
 
+Une fois tous vos points configurés, cliquez sur "Créer les commandes" pour les ajouter à votre équipement.
 
-Validate, refresh the page, and the corresponding equipment will have been created in your Jeedom; by default, it will be named with the DeviceID of your Bacnet equipment provided by the manufacturer (you are free to rename it )
+### Importation via fichier EDE
 
-![equip](./images/BacnetEquip.png)
+Le plugin supporte l'importation de points Bacnet à partir d'un fichier EDE (Engineering Data Exchange). Cette méthode est particulièrement utile pour les systèmes complexes avec de nombreux points.
 
- Cliquez ensuite sur votre équipement créé, puis cocher « Activer » et « Visible » pour le voir apparaitre sur votre dashboard.
+Depuis la page de l'équipement, cliquez sur le bouton "Importer fichier EDE" :
 
-To add commands later to an existing equipment, you have to redo the previous operation : « Nouvel équipement / Création commandes » , et sélectionnez les commandes que vous désirez.
+1. Sélectionnez votre fichier EDE au format CSV
+2. Le système analysera le fichier et vous montrera un aperçu des données
+3. Vous pourrez sélectionner les points que vous souhaitez importer
+4. Configurez les options d'importation (historisation, visibilité)
+5. Cliquez sur "Importer" pour créer les commandes
 
+Le plugin détectera automatiquement le séparateur utilisé dans le fichier (virgule, point-virgule ou tabulation) et analysera la structure pour extraire correctement les informations des points Bacnet.
 
-
-# The orders
-
+## The orders
 
 Rendez-vous dans l'onglet « Commandes » de la page de configuration du nouvel équipement Bacnet.
 
@@ -93,13 +91,29 @@ Ici vous pouvez masquer et rendre visibles les différentes commandes de type «
 
 ![cmdVisible](./images/BacnetVisible.png)
 
-All the equipment created will have 2 commands by default : une commande info « Connexion Bacnet » et une commande action « Refresh » , qui serviront à voir l'état de la connexion Bacnet sur votre dashboard, et à rafraichir les valeurs de vos commandes.
+All the equipment created will have 2 commands by default : une commande info « Connexion Bacnet » et une commande action « Refresh », qui serviront à voir l'état de la connexion Bacnet sur votre dashboard, et à rafraîchir les valeurs de vos commandes.
 
 ![cmdBase](./images/BacnetCmdBase.png)
 
+## Visualisation et gestion des calendriers (schedules)
 
+Le plugin permet désormais de visualiser et gérer les calendriers (schedules) BACnet des équipements qui supportent cette fonctionnalité.
 
+Depuis la page de l'équipement, cliquez sur le bouton "Calendriers/Planifications" :
 
+Une fenêtre s'ouvre et affiche tous les calendriers disponibles sur l'équipement. Pour chaque calendrier, vous pouvez :
+
+1. Visualiser la programmation hebdomadaire
+2. Consulter les exceptions (jours fériés, etc.)
+3. Modifier les horaires et valeurs des événements
+4. Ajouter de nouveaux événements de planification
+5. Supprimer des événements existants
+
+Tous les changements peuvent être enregistrés sur l'équipement (si celui-ci supporte l'écriture des schedules, ce qui est rare sur certains équipements).
+
+>**NOTE**
+>
+>La gestion des calendriers est particulièrement utile pour les systèmes CVC (chauffage, ventilation, climatisation) qui fonctionnent selon des plages horaires définies.
 
 >**IMPORTANT**
 >
@@ -110,78 +124,63 @@ More info on the subject :
 
 https://store.chipkin.com/articles/bacnet-why-doesnt-the-present-value-change
 
-For a write on a Bacnet device, we extend on the PresentValue of the corresponding input / output.
+Pour une écriture sur un équipement Bacnet, on interagit sur la PresentValue de l'entrée/sortie correspondante.
 You should know that the PresentValues of the inputs / outputs type: Analog Output, Binary Output and Multistate Output are always controllable.
-Those of AnalogValue, BinaryValue or MultistateValue inputs / outputs can be ordered if the manufacturer has implemented this feature. It is at the sole discretion of the manufacturer. Please check with your equipment documentation to learn more about this.
-
-
-
+Celles des entrées/sorties de type AnalogValue, BinaryValue ou MultistateValue sont commandables si le fabricant a implanté cette fonctionnalité. It is at the sole discretion of the manufacturer. Veuillez vous renseigner auprès de la documentation de votre équipement pour en savoir plus à ce sujet.
 
 When creating the chosen write-type orders, an associated action order will also be created, by default not visible on the dashboard.
 By clicking on it, it resets the write priority table of an input / output to the default.
 It will have a name with << resetPrioritesEcriture >>
-To make this command visible on your dashboard, go to the commands of your equipment and check the "Show"
+Pour rendre visible cette commande sur votre dashboard, il faut vous rendre dans les commandes de votre équipement et cocher la case "Afficher".
 
+## List on Command Action (for MultiStateValue)
 
-
-# List on Command Action (for MultiStateValue)
-
-When you have created a Write command as usual from the scan results, it is basic in Slider or On Off, depending on the type of Bacnet point returned (analog, binary) : now, if you choose a multiState, the command will be of type Slider by default, but you can list it in the list of equipment commands; a new Value List field will appear;
-You can put the values you want, separated by a -, without space : for example 1-4-5-8
+Quand vous avez créé une commande d'Écriture comme habituellement depuis les résultats du scan, elle est de base en Slider ou On Off, suivant le type de point Bacnet remonté (analog, binary) : now, if you choose a multiState, the command will be of type Slider by default, but you can list it in the list of equipment commands; a new Value List field will appear;
+Vous pouvez y mettre les valeurs que vous désirez, séparées par un -, sans espace : for example 1-4-5-8
 When saving the equipment, this will put these values in the list of the order on the Dashboard
-When changing this value, it will send the value write on the parameterized point.
+Au changement de cette valeur, cela enverra la valeur à écrire sur le point paramétré.
+
+## Write priority
+
+A Handle with care
+
+A Write Priority field is available on each order created
+
+As per the documentation :
+
+In BACnet, object to which we can write often provide what is called the priorityArray. This array contains 16 levels to which we can write (1 being the highest priority).
+
+Typical usage of priority is :
+
+1 Manual-Life Safety 2 Automatic-Life Safety 3 Available 4 Available 5 Critical Equipment Control 6 Minimum On/Off 7 Available 8 Manual Operator (Override) 9 Available 10 Available (Typical Control from a Supervisor) 11 Available 12 Available 13 Available 14 Available 15 Available (Schedule) 16 Available
+
+Vous pouvez choisir une priorité d'écriture sur les commandes souhaitées, en choisissant un nombre entre 1 et 16
+
+If no value entered on a write command, by default the value will be set to 8.
+
+## Informations supplémentaires des protocoles supportés
+
+Le plugin BACnet supporte les types d'objets suivants :
+- Analog Input, Output, Value
+- Binary Input, Output, Value
+- Multi-State Input, Output, Value
+- Schedule
+- Calendar
+- Device
+
+Les protocoles de communication supportés sont :
+- BACnet/IP (UDP/IP)
 
 
+Le plugin est compatible avec les équipements respectant la norme ASHRAE 135 qui définit le protocole BACnet.
 
+## Dépannage et diagnostic
 
-# Write priority
+Si vous rencontrez des problèmes avec votre équipement BACnet, voici quelques étapes de dépannage :
 
-    A Handle with care
+1. Vérifiez que le démon est bien en cours d'exécution
+2. Assurez-vous que votre équipement est bien sur le même réseau que Jeedom
+3. Vérifiez qu'aucun pare-feu ne bloque les ports UDP 47808 (port BACnet par défaut)
+4. Consultez les logs du plugin pour identifier d'éventuelles erreurs
 
-    A Write Priority field is available on each order created
-
-    As per the documentation :
-
-    In BACnet, object to which we can write often provide what is called the priorityArray. This array contains 16 levels to which we can write (1 being the highest priority).
-
-    Typical usage of priority is :
-
-    1 Manual-Life Safety 2 Automatic-Life Safety 3 Available 4 Available 5 Critical Equipment Control 6 Minimum On/Off 7 Available 8 Manual Operator (Override) 9 Available 10 Available (Typical Control from a Supervisor) 11 Available 12 Available 13 Available 14 Available 15 Available (Schedule) 16 Available
-
-
-
-    You can choose a write priority on the desired commands, by choosing a number between 1 and 16
-
-    If no value entered on a write command, by default the value will be set to 8.
-
-
-
-
-# Change Command Names by Description
-
-
-Some Bacnet devices have error codes contained in the Point Description.
-It may be useful in this case to want to rename the commands by their description for greater readability
-
-To change the default name of the orders created, you can then go to the Points Management modal, to choose the orders to be renamed via their Description
-
-We open the Bacnet Points Management mode :
-
-![modalHandle](./images/modalHandle.png)
-
-
-
-
-We see the list of Eqlogics already created :
-
-![configCmds](./images/configureCmds.png)
-
-
-
-We click on Configure the desired equipment, and we see the list of orders already created
-You can select the ones you want via the associated checkbox, and click on Validate Selection, to choose whether you want to rename by the Description, or return to the original name
-
-
-![allCmds](./images/allCmds.png)
-
-![choice](./images/choice.png)
+Pour les équipements qui ne sont pas détectés automatiquement, utilisez l'ajout manuel ou l'importation via fichier EDE.
