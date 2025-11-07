@@ -1,7 +1,8 @@
 {
     "id": "LunarPhase",
     "name": "LunarPhase",
-    "pluginVersion": "1.0.0",
+    "pluginVersion": "1.0.1",
+    "date": "2025 1107",
     "description": {
         "fr_FR": "Plugin montrant l'apparence visuelle de la lune du jour ainsi que diverses informations complémentaires sur les phases lunaires en cours. Mots clés: cloudless, lune, moon, lunaire, lunar, phase"
     },
