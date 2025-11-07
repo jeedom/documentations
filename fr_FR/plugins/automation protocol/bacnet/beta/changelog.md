@@ -5,6 +5,13 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
 
+# 07/11/2025
+
+- Meilleure compatibilité des fichiers EDE à l'import
+- Fix affichage Nombre de points par Filtres
+- Fix noms des commandes importés depuis un fichier EDE
+
+
 # 21/10/2025
 
 - Fix local IP
