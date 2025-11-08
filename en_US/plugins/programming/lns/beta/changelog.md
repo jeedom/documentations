@@ -8,6 +8,12 @@
 
 - 
 
+- 
+
+# 20/10/2025
+
+- Correction du panel Chirpstack V4
+
 # 22/09/2025
 
 - Possibilité d'installer Chirpstack v3 ou v4 via le plugin LNS. Ainsi la possibilié de faire la mmigration de Chirpstack v3 vers v4.
