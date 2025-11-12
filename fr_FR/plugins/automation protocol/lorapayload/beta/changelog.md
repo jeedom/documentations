@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 07/11/2025 (Bêta)
+# 12/11/2025 (Bêta)
 
 - Correction de la configuration des décodeurs Dragino
 
@@ -47,6 +47,10 @@
 - MAJ commande du produit *Mclimate 16A Dry Switch LoRaWAN*
 
 - MAJ commande du produit *WT101 - Smart Radiator Thermostat*
+
+- MAJ decoder du produit * EM114039-01 - IoT Energy Meter*
+
+- Correction taille image *WT101 - Smart Radiator Thermostat*
 
 
 # 20/10/2025
