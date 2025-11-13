@@ -52,6 +52,8 @@
 
 - Correction taille image *WT101 - Smart Radiator Thermostat*
 
+- Correction du décodeur *Dragino LDS02*
+
 
 # 20/10/2025
 
