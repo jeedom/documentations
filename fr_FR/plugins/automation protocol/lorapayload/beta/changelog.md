@@ -54,6 +54,8 @@
 
 - Correction du décodeur *Dragino LDS02*
 
+- Correction decoder du produit *BMeters IWM-LR5 - Water Meter Reader*
+
 
 # 20/10/2025
 
