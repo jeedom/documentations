@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 12/11/2025 (Bêta)
+# 17/11/2025 (Bêta)
 
 - Correction de la configuration des décodeurs Dragino
 
@@ -55,6 +55,8 @@
 - Correction du décodeur *Dragino LDS02*
 
 - Correction decoder du produit *BMeters IWM-LR5 - Water Meter Reader*
+
+- Ajout du downlink du produit *Dragino CPL03-LB/LS*
 
 
 # 20/10/2025
