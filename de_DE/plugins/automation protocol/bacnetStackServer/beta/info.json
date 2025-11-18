@@ -24,11 +24,10 @@
     "category": "automation protocol",
     "hasDependency": true,
     "hasOwnDeamon": true,
-    "maxDependancyInstallTime": 0,
-    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/bacnetStackServer\/beta\/changelog",
-    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/bacnetStackServer\/changelog",
-    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/bacnetStackServer\/beta",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/bacnetStackServer",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnetStackServer\/beta\/changelog",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnetStackServer\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnetStackServer\/beta",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnetStackServer",
     "link": {
         "forum": "Lien vers le forum",
         "video": "Lien vers une video"
