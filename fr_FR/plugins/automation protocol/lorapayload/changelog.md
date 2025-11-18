@@ -4,9 +4,62 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 23/10/2025
+# 18/11/2025
 
 - Correction de la configuration des décodeurs Dragino
+
+- Ajout du produit *Thermokon 820646 - MCS Contact de fenêtre statut*
+
+- Ajout de la commande Batterie Pourcentage pour les produits Thermokon
+
+- Fixation du niveau de batterie des produits Thermokon dans le panel Lorapayload
+
+- Ajout de la gestion des batteries sur CronDaily
+
+- Correction bug application name
+
+- Ajout du produit *Senlab M-PUL-LAB-13NS - Compteur d'impulsions*
+
+- Ajout du produit *Senlab D-TOR-LAB-13NS - Détecteur de contact TOR*
+
+- Ajout du produit *Senlab D-LEA-LAB-13NS - Détecteur LEA*
+
+- Ajout du produit *Senlab T-Temp-LAB-14NS - Capteur de température*
+
+- Ajout du champ battery_type pour la gestion automatique des batteries Senlab
+
+- Correction bug nom d'équipement
+
+- Correction de la fonction formatValue
+
+- Ajout du produit *Milesight GS301 - Bathroom Odor Detector*
+
+- Ajout du produit *Milesight VS350 - Passage People Counter*
+
+- Ajout du produit *EM114039-01 - IoT Energy Meter*
+
+- MAJ commande du produit *Milesight VS350 - Passage People Counter*
+
+- Ajout du produit *BMeters IWM-LR5 - Water Meter Reader*
+
+- Fix commande config du produit * EM114039-01 - IoT Energy Meter*
+
+- MAJ commande du produit *Mclimate 16A Dry Switch LoRaWAN*
+
+- MAJ commande du produit *WT101 - Smart Radiator Thermostat*
+
+- MAJ decoder du produit * EM114039-01 - IoT Energy Meter*
+
+- Correction taille image *WT101 - Smart Radiator Thermostat*
+
+- Correction du décodeur *Dragino LDS02*
+
+- Correction decoder du produit *BMeters IWM-LR5 - Water Meter Reader*
+
+- Ajout du downlink du produit *Dragino CPL03-LB/LS*
+
+- MAJ du downlink des produits *Milesight CT101 et AM103*
+
 
 # 20/10/2025
 
