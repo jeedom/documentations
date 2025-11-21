@@ -1,7 +1,7 @@
 {
     "id": "ocpp",
     "name": "OCPP",
-    "pluginVersion": "0.6.2",
+    "pluginVersion": "0.6.5",
     "description": {
         "fr_FR": "Plugin permettant de contrôler les bornes de recharge de véhicules compatibles avec le protocole OCPP en faisant de Jeedom un système central OCPP.",
         "en_US": "Plugin permettant de contrôler les bornes de recharge de véhicules compatibles avec le protocole OCPP en faisant de Jeedom un système central OCPP",
@@ -17,7 +17,7 @@
     "utilization": "Configurer la borne en OCPP 1.6 pour communiquer avec l'adresse ws:\/\/IP_LOCALE_JEEDOM:9000\/ID_BORNE",
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "4.4.10",
+    "require": "4.4.12",
     "requireOsVersion": 11,
     "category": "automation protocol",
     "hasDependency": true,

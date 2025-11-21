@@ -4,6 +4,20 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 20/11/2025 (Beta)
+
+- Correction du décodeur *Mclimate Wireless Thermostat*
+
+- Ajout du produit *Dragino PS-LB - Pressure Sensor*
+
+- Ajout du produit * Mclimate - T- Valve *
+
+- Ajout du produit * Dragino WQS-LB - Water Quality Sensor*
+
+- Maj commande *Milesight WT101 - Smart Radiator Thermostat* 
+
+- Maj decoder et encoder * RAK 10701 - FIELD TESTER for LoRaWAN *
+
 # 18/11/2025
 
 - Correction de la configuration des décodeurs Dragino
