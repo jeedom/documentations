@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 20/11/2025 (Beta)
+# 21/11/2025 (Beta)
 
 - Correction du décodeur *Mclimate Wireless Thermostat*
 
@@ -17,6 +17,12 @@
 - Maj commande *Milesight WT101 - Smart Radiator Thermostat* 
 
 - Maj decoder et encoder * RAK 10701 - FIELD TESTER for LoRaWAN *
+
+- Maj decoder *dragino WSC2 L*
+
+- Maj decoder *NodOn_TRV_8_1_00*
+
+- Ajout de la commande message downlink 
 
 # 18/11/2025
 
