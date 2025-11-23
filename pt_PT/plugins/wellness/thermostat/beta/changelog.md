@@ -4,6 +4,12 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 
+
+-  *(.)*
+
+# 
+
 - O smartstart agora respeita a percentagem mínima de aquecimento [LINK](https://github.com/jeedom/plugin-thermostat/issues/60)
 
 # 30/09/2024

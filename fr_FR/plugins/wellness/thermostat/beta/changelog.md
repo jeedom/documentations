@@ -4,6 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 22/11/2025
+
+- Correction sur la saisie des dates et la consultation des historiques depuis le panel *(Jeedom v4.4 mini)*
+
+# 14/10/2024
+
 - Le smartstart respect maintenant le pourcentage de chauffe minimal [LIEN](https://github.com/jeedom/plugin-thermostat/issues/60)
 
 # 30/09/2024
