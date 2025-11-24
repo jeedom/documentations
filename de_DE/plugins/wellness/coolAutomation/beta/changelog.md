@@ -5,6 +5,10 @@
 >
 >Liegen keine Informationen zur Aktualisierung vor, bedeutet dies, dass es sich nur um die Aktualisierung der Dokumentation, Übersetzung oder des Textes handelt.
 
+
+# 
+- 
+
 # 05/11/2025
 - **Amélioration de la gestion des timeouts et des erreurs HTTP** :
   - Augmentation du timeout par défaut de 2 à 10 secondes (configurable)
