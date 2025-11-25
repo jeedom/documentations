@@ -4,6 +4,9 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+
+- 
+
 # 18/11/2025
 
 - Retour de la mise à jour du firmware zigbee pour la Luna

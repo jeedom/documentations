@@ -1,7 +1,8 @@
 {
     "id": "bacnetStackServer",
     "name": "bacnetStackServer",
-    "pluginVersion": "0.1",
+    "pluginVersion": "v1.0.88",
+    "tagReleaseVersion": "v1.0.88",
     "description": {
         "fr_FR": "Le plugin **BACnet Stack Server** permet de transformer votre Jeedom en serveur BACnet. Il expose vos équipements et commandes Jeedom sous forme d'objets BACnet accessibles par d'autres systèmes de GTB (Gestion Technique du Bâtiment).",
         "en_US": "Le plugin **BACnet Stack Server** permet de transformer votre Jeedom en serveur BACnet. Il expose vos équipements et commandes Jeedom sous forme d'objets BACnet accessibles par d'autres systèmes de GTB (Gestion Technique du Bâtiment)",
