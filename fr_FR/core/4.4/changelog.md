@@ -1,5 +1,9 @@
 # Changelog Jeedom V4.4
 
+
+Le changelog de Jeedom Core 4.5 est disponible [ici](https://doc.jeedom.com/fr_FR/core/4.5/changelog)
+
+
 # 4.4.20
 
 - Nouvelle méthode de restauration système automatique au démarrage pour les boxs officielles Smart & Atlas
