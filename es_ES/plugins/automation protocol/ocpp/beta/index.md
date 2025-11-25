@@ -1,3 +1,126 @@
 # Plugin OCPP
 
-Le plugin **OCPP** va vous permettre d'utiliser Jeedom comme un système central OCPP pour gérer une ou plusieurs bornes de recharge de véhicules compatibles avec ce protocole.
+Le plugin **OCPP**  *()*. .
+
+# Configuration
+
+## 
+
+.  :
+
+- **** :  *()*.
+- **** : :``IP_LOCALE_JEEDOM``:9000)*.
+- **** : :``IP_LOCALE_JEEDOM``:``ID_BORNE``)*.
+
+## 
+
+ **OCPP** . .
+
+. .
+
+>****
+>
+>. .
+
+## 
+
+### Autorisations
+
+ *(transaction)*.
+
+ [](#Groupes20d'autorisations).
+
+>****
+>
+>.
+
+### 
+
+ **** . .  : .
+
+>****
+>
+>. .
+
+ ****.  **** .
+
+>****
+>
+>. .
+
+# 
+
+ **** .  **** .
+
+## 
+
+.
+
+ :
+- **** :  *()*.
+- **** : .
+- **** :  *()*
+- **** : .
+
+ **** .
+
+# Transactions
+
+ *(charges)*  *()*  **** :
+- **** : .
+- **** : .
+- **** : .
+- **** : .
+- **** : .
+- **** : .
+- **)** : .
+- **** : .
+
+# Commandes
+
+## Borne
+
+- **** *()* : .
+- **** *()* : .
+- **** *()* : .
+- **** *()* : .
+- **** *()* : .
+- **** *()* :  *(SmartCharging)*.
+- **** *()* :  *(SmartCharging)*.
+- **** *()* :  *(SmartCharging)*.
+- **** *()* :  *(SmartCharging)*.
+- **** *()* : .
+
+## )
+
+- **** *()* : .
+- **** *()* : .
+- **** *()* : .
+- **** *()* : .
+- **** *()* : .
+- **** *()* : .
+- **** *()* : .
+- **** *()* : .
+
+## Mesures
+
+ **** .
+ ****,  *()*.
+ ****, ****  ****.
+
+### 
+
+- **** *(A)* :  *()*.
+- **** *(A)* : .
+- **** *(A)* : .
+- **** *(Wh)* : .
+- **** *(Wh)* : .
+- **** *(W)* : .
+- **** *(W)* : .
+- **** *(W)* : .
+- **** *(V)* :  *()*.
+- **** *(Hz)* : .
+- **** : .
+- **** *()* : .
+- **** *(°C)* : .
+- **** *(RPM)* : .

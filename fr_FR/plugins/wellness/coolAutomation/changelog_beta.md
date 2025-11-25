@@ -5,6 +5,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+
+# 24/11/2025
+- Fix changement de consignes autorisée
+
 # 05/11/2025
 - **Amélioration de la gestion des timeouts et des erreurs HTTP** :
   - Augmentation du timeout par défaut de 2 à 10 secondes (configurable)

@@ -28,6 +28,8 @@
 
 - MAJ de la commande setTemperatureRange du produit *MClimate Wireless Thermostat*
 
+- Ajout de la commande *Nombre de motion* pour le produit *Elsys*
+
 # 18/11/2025
 
 - Correction de la configuration des décodeurs Dragino

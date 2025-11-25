@@ -28,6 +28,8 @@
 
 -  *Termostato sem fio MClimate*
 
+-  **  **
+
 # 
 
 - 
