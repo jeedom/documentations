@@ -30,6 +30,9 @@
 
 - Ajout de la commande *Nombre de motion* pour le produit *Elsys*
 
+- AJout du produit *Dragino S31B-LB - Capteur de température et d'humidité LoRaWAN*
+
+
 # 18/11/2025
 
 - Correction de la configuration des décodeurs Dragino
