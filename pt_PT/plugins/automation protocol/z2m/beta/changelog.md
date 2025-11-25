@@ -4,8 +4,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 
 
 - 
+- Correction d'un soucis de traduction
 
 # 18/11/2025
 
