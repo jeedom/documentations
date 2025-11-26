@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 25/11/2025
+
+- Ajout du Fire Protect 2
+- Ajout du Fire Protect 2 plus
+
 # 02/07/2025
 
 - Ajout du hub Superior Hub Hybrid (4G)

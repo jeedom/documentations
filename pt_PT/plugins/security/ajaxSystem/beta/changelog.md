@@ -4,8 +4,10 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto
 
-- 
-- 
+# 
+
+- Ajout du Fire Protect 2
+- Ajout du Fire Protect 2 plus
 
 # 02/07/2025
 
