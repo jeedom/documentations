@@ -4,6 +4,43 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 26/11/2025 (Beta)
+
+- Correction du décodeur *Mclimate Wireless Thermostat*
+
+- Ajout du produit *Dragino PS-LB - Pressure Sensor*
+
+- Ajout du produit * Mclimate - T- Valve *
+
+- Ajout du produit * Dragino WQS-LB - Water Quality Sensor*
+
+- Maj commande *Milesight WT101 - Smart Radiator Thermostat* 
+
+- Maj decoder et encoder * RAK 10701 - FIELD TESTER for LoRaWAN *
+
+- Maj decoder *dragino WSC2 L*
+
+- Maj decoder *NodOn_TRV_8_1_00*
+
+- Ajout de la commande message downlink 
+
+- Correction format devEui CSV4
+
+- MAJ de la commande setTemperatureRange du produit *MClimate Wireless Thermostat*
+
+- Ajout de la commande *Nombre de motion* pour le produit *Elsys*
+
+- AJout du produit *Dragino S31B-LB - Capteur de température et d'humidité LoRaWAN*
+
+- Ajout commande message downlink pour produit Dragino SW3L et Watteco Torano
+
+- Mise à jour commande du produit *NodOn_TRV_8_1_00*
+
+- Mise à jour commande du produit *milesight_WT101* et *Mclimate Vicki*
+
+- Fix unfinished process
+
+
 # 18/11/2025
 
 - Correction de la configuration des décodeurs Dragino

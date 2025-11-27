@@ -6,6 +6,39 @@
 
 # )
 
+-  *Termostato sem fio MClimate*
+
+-  **
+
+-  *  *
+
+-  * *
+
+-  ** 
+
+-  *  *
+
+-  **
+
+-  **
+
+-  
+
+- 
+
+-  *Termostato sem fio MClimate*
+
+-  **  **
+
+-  **
+
+- 
+
+-  **
+
+
+# 
+
 - 
 
 -  **
