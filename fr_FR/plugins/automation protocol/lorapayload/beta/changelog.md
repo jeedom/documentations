@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 25/11/2025 (Beta)
+# 26/11/2025 (Beta)
 
 - Correction du décodeur *Mclimate Wireless Thermostat*
 
@@ -34,7 +34,11 @@
 
 - Ajout commande message downlink pour produit Dragino SW3L et Watteco Torano
 
-- Mise a jour commande du produit *NodOn_TRV_8_1_00*
+- Mise à jour commande du produit *NodOn_TRV_8_1_00*
+
+- Mise à jour commande du produit *milesight_WT101* et *Mclimate Vicki*
+
+- Fix unfinished process
 
 
 # 18/11/2025

@@ -4,6 +4,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 
+
 - Soporte para imágenes de equipos personalizados (Jeedom 4.5)
 
 # 01/07/2024
@@ -77,3 +79,4 @@
 # 03/13/2018
 
 - Corrección de errores en la actualización automática de pedidos
+
