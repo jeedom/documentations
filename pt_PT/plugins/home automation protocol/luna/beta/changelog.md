@@ -6,11 +6,17 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
-# 
+# )
 
 - 
 
-- 
+-  ** 
+
+# )
+
+- Ajout de la gestion du kernel panic après l'installation ou la mise à jour du plugin Luna
+
+- Ajout du bouton "Reconfigurer le packet forwarder" dans la partie Lora
 
 # 08/10/2025 (Beta)
 
