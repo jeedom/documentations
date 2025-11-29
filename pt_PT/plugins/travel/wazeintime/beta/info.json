@@ -15,7 +15,10 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "4.3",
+    "require": "4.4",
+    "os": {
+        "min": 11
+    },
     "category": "travel",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/travel\/wazeintime\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/travel\/wazeintime\/",

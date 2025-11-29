@@ -7,6 +7,12 @@
 # 
 
 - 
+- .
+- 
+
+# 29/06/2025
+
+- Optimisation des requêtes vers Waze afin de réduire la latence
 
 # 17/10/2022
 
