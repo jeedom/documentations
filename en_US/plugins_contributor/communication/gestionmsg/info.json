@@ -1,0 +1,30 @@
+{
+	"id": "gestionmsg",
+	"name": "Gestion Message",
+	"pluginVersion": "1.0",
+	"description": {
+		"fr_FR": "Plugin permettant de gérer les messages et les destinataires associés"
+	},
+	"licence": "AGPL",
+	"author": "DPI AUTOMATION",
+	"require": "4.2",	
+	"category": "communication",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog_beta": "https:\/\/dpi-automation.github.io\/gestionmsg\/docs\/#language#\/changelog_beta",
+	"changelog": "https:\/\/dpi-automation.github.io\/gestionmsg\/docs\/#language#\/changelog",
+	"documentation_beta": "https:\/\/dpi-automation.github.io\/gestionmsg\/docs\/#language#\/",
+	"documentation": "https:\/\/dpi-automation.github.io\/gestionmsg\/docs\/#language#\/",
+	"link": {
+		"forum": "Lien vers le forum",
+		"video": "Lien vers une video"
+	},
+	"language": [
+		"fr_FR"		
+	],
+	"compatibility": [
+		"luna",
+		"atlas"		
+	]
+}

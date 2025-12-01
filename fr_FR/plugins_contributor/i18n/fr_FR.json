@@ -110,6 +110,8 @@
         "Plugin pour Homebridge": "Plugin pour Homebridge",
         "Gotify": "Gotify",
         "Plugin permettant la connection à un serveur Gotify": "Plugin permettant la connection à un serveur Gotify",
+        "Gestion Message": "Gestion Message",
+        "Plugin permettant de gérer les messages et les destinataires associés": "Plugin permettant de gérer les messages et les destinataires associés",
         "Elevenlabs TTS": "Elevenlabs TTS",
         "Permet d'utiliser le TTS de elevenlabs": "Permet d'utiliser le TTS de elevenlabs",
         "Messages Classiques - Messages Evolués - Messages TTS - Gestion des Channels ( Salon ) - Fonction ASK Fonction - Envoi de Fichiers - Compatible avec les interactions de Jeedom - Fonction Etat des Démons de Jeedom - Fonction Etat des Dépendances des plugins Jeedom - Fonction Etat du résumé global": "Messages Classiques - Messages Evolués - Messages TTS - Gestion des Channels ( Salon ) - Fonction ASK Fonction - Envoi de Fichiers - Compatible avec les interactions de Jeedom - Fonction Etat des Démons de Jeedom - Fonction Etat des Dépendances des plugins Jeedom - Fonction Etat du résumé global",
