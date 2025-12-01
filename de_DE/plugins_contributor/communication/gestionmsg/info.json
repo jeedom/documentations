@@ -12,10 +12,10 @@
 	"hasDependency": false,
 	"hasOwnDeamon": false,
 	"maxDependancyInstallTime": 0,
-	"changelog_beta": "https:\/\/dpi-automation.github.io\/gestionmsg\/docs\/#language#\/changelog_beta",
-	"changelog": "https:\/\/dpi-automation.github.io\/gestionmsg\/docs\/#language#\/changelog",
-	"documentation_beta": "https:\/\/dpi-automation.github.io\/gestionmsg\/docs\/#language#\/",
-	"documentation": "https:\/\/dpi-automation.github.io\/gestionmsg\/docs\/#language#\/",
+	"changelog_beta": "https:\/\/dpi-automation.github.io\/gestionmsgDocs\/#language#\/changelog_beta",
+	"changelog": "https:\/\/dpi-automation.github.io\/gestionmsgDocs\/#language#\/changelog",
+	"documentation_beta": "https:\/\/dpi-automation.github.io\/gestionmsgDocs\/#language#\/",
+	"documentation": "https:\/\/dpi-automation.github.io\/gestionmsgDocs\/#language#\/",
 	"link": {
 		"forum": "Lien vers le forum",
 		"video": "Lien vers une video"
