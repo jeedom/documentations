@@ -1,12 +1,22 @@
 {
   "id": "JeeRemi",
   "name": "JeeRemi",
-  "version": "1.2",
+  "description" : { 
+	"fr_FR": "Connectez vos reveils REMI de UrbanHello"
+  },
+  "pluginVersion": "0.6",
   "licence": "AGPL",
   "author": "foireatout",
   "category": "communication",
-  "require": "4.0",
+  "require": "4.2",
   "hasDependency": true,
   "hasOwnDeamon": false,
-  "changelog": "1.2 Add plugin icon, admin panel, ensure logs on test/save and sync"
+  "changelog": "https:\/\/github.com\/foireatout\/jeedom-jeeremi\/doc",
+  "language": "fr_FR",
+  "compatibility": [
+	"luna",
+	"rpi",
+	"docker",
+	"diy"
+	]
 }
