@@ -4,6 +4,10 @@
 >
 >As a reminder, if there is no information on the update, it is because it only concerns the updating of documentation, translation or text.
 
+# 16/05/2025
+
+- Ajout du template She - Carte MIO MQTT
+
 # 11/25/2024
 
 - Plugin compatible with Debian 11 and above

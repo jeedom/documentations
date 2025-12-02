@@ -4,6 +4,10 @@
 >
 >Recorde-se que se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
+# 
+
+- 
+
 # 16/05/2025
 
 - Ajout du template She - Carte MIO MQTT

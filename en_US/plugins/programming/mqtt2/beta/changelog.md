@@ -4,6 +4,10 @@
 >
 >As a reminder, if there is no information on the update, it is because it only concerns the updating of documentation, translation or text.
 
+# 
+
+- 
+
 # 16/05/2025
 
 - Ajout du template She - Carte MIO MQTT
