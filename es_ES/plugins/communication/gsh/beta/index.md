@@ -342,7 +342,7 @@ Todo lo que tiene que hacer es asignar el equipo a las habitaciones en la aplica
 
 >**Tiene un error de enlace o no puede actualizar el parámetro, verifique su conexión en modo nube**
 >
->Es necesario en jeedom, en el complemento agregar equipo, guardar y rehacer la asociación de Jeedom Smarthome en la aplicación Google Home
+>Es necesario en jeedom, en el complemento agregar equipo, guardar y rehacer la asociación de Jeedom Smarthome en la aplicación Google Home. 
 
 >**Aparece el error "Aparentemente, Jeedom Smart Home no está disponible en este momento". o "Lo siento, no puedo conectarme a Jeedom Smart Home."**
 >

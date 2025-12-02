@@ -342,7 +342,7 @@ All you have to do is assign the equipment to the rooms in the Google Home app
 
 >**You have a link error or Unable to update the parameter, check your connection in cloud mode**
 >
->It is necessary in jeedom, on the plugin to add equipment, save and redo the association of Jeedom Smarthome in the Google Home application
+>It is necessary in jeedom, on the plugin to add equipment, save and redo the association of Jeedom Smarthome in the Google Home application. 
 
 >**I get the error "Apparently Jeedom Smart Home is unavailable at the moment." or "Sorry I can't connect to Jeedom Smart Home."**
 >
