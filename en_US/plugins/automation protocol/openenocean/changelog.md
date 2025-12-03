@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 26/03/2025
+
+- Correction d'un soucis avec Debian 12
+
 # 01/01/2025
 
 - Fix memory leak on daemon

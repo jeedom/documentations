@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 26/03/2025
+
+- Correction d'un soucis avec Debian 12
+
 # 01.01.2025
 
 - Beheben Sie einen Speicherverlust im Daemon
