@@ -6,10 +6,16 @@
 
 #  ***()***
 
-- **** :  *()*
-- **** :  *()*
 - **** : 
 - **** : 
+- **Commandes** :  *()*
+
+# 24/11/2025 ***(0.8.5)***
+
+- **Commandes** : ajout des commandes pour gérer le courant et/ou la puissance maximum lors de la charge *(bornes compatibles SmartCharging uniquement)*
+- **Commandes** : ajout des commandes de redémarrage de la borne *(logiciel/matériel)*
+- **Commandes** : définition de la liste des utilisateurs pouvant démarrer la charge
+- **Documentation** : rédaction de la documentation
 
 # 20/11/2025 ***(0.6.5)***
 

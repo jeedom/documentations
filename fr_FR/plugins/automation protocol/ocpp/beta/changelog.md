@@ -4,6 +4,12 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 05/12/2025 ***(0.8.8)***
+
+- **Transactions** : ajout d'un bouton de suppression
+- **Evènements** : correction d'un bug sur les écouteurs d'une transaction OCPP
+- **Commandes** : meilleure gestion des limites de charge *(A/W)*
+
 # 24/11/2025 ***(0.8.5)***
 
 - **Commandes** : ajout des commandes pour gérer le courant et/ou la puissance maximum lors de la charge *(bornes compatibles SmartCharging uniquement)*
