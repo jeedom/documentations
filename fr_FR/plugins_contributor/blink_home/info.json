@@ -1,0 +1,17 @@
+{
+	"id": "blink_home",
+	"name": "Blink Home Monitor",
+	"pluginVersion": "0.1",
+	"description": "Plugin permettant de gérer les caméras Blink Home Security.",
+	"licence": "AGPL",
+	"author": "Taurus80",
+	"require": "4.2",
+	"category": "security",
+	"hasDependency": true,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 30,
+	"changelog": "",
+	"documentation": "",
+	"language": "",
+	"compatibility": ""
+}
