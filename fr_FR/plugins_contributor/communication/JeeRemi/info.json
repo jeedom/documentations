@@ -1,8 +1,17 @@
 {
   "id": "JeeRemi",
   "name": "JeeRemi",
-  "description" : { 
-	"fr_FR": "Connectez vos reveils REMI de UrbanHello"
+  "description" : {
+	"fr_FR": "Plugin permettant de gérer les réveils REMI de la marque UrbanHello. Il permet de connaitre et de gérer: le visage affiché, la luminosité de la veilleuse et le volume. Il permet également de jouer/stopper une musique déjà stockée sur l'appareil, de connaitre la température de la pièce et si l'appareil est en ligne.",
+        "en_US": "This plugin allows you to manage REMI alarm clocks from the UrbanHello brand. It lets you view and manage the displayed face, the nightlight brightness, and the volume. It also allows you to play/pause music already stored on the device, check the room temperature, and see if the device is online.",
+	"es_ES": "Este complemento te permite administrar los despertadores REMI de UrbanHello. Te permite ver y administrar la esfera que se muestra, el brillo de la luz nocturna y el volumen. También te permite reproducir/pausar música almacenada en el dispositivo, comprobar la temperatura ambiente y ver si el dispositivo está conectado.",
+	"de_DE": "Dieses Plugin ermöglicht die Steuerung von REMI-Weckern der Marke UrbanHello. Sie können das angezeigte Zifferblatt, die Helligkeit des Nachtlichts und die Lautstärke anpassen. Außerdem können Sie bereits auf dem Gerät gespeicherte Musik abspielen/pausieren, die Raumtemperatur überprüfen und den Online-Status des Geräts einsehen.",
+	"it_IT": "Questo plugin consente di gestire le sveglie REMI del marchio UrbanHello. Consente di visualizzare e gestire il quadrante, la luminosità della luce notturna e il volume. Permette inoltre di riprodurre/mettere in pausa la musica già memorizzata sul dispositivo, controllare la temperatura ambiente e verificare se il dispositivo è online.",
+	"pt_PT": "Este plugin permite gerir despertadores REMI da marca UrbanHello. Permite visualizar e gerir o mostrador, o brilho da luz noturna e o volume. Permite ainda reproduzir/pausar músicas já armazenadas no dispositivo, verificar a temperatura ambiente e ver se o dispositivo está online."
+  },
+  "link": {
+	"forum": "https://community.jeedom.com/tag/plugin-jeeremi",
+	"video": ""
   },
   "pluginVersion": "0.6",
   "licence": "AGPL",
@@ -12,11 +21,17 @@
   "hasDependency": true,
   "hasOwnDeamon": false,
   "changelog": "https:\/\/github.com\/foireatout\/jeedom-jeeremi\/doc",
-  "language": "fr_FR",
+  "language": [
+	  "fr_FR"
+  ],
   "compatibility": [
-	"luna",
-	"rpi",
-	"docker",
-	"diy"
-	]
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+  ]
 }
