@@ -4,7 +4,8 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 26/11/2025 (Beta)
+
+# 08/12/2025
 
 - Correction du décodeur *Mclimate Wireless Thermostat*
 
@@ -39,6 +40,14 @@
 - Mise à jour commande du produit *milesight_WT101* et *Mclimate Vicki*
 
 - Fix unfinished process
+
+- Ajout du produit *ZPMeter - Ultrasonic LoRawan Water Meter + Tuya Smart Life Valve DN20*
+
+- Fix device profile *milesight_WS558*
+
+- Ajouter la référence des produits Adeunis
+
+- Fix décodeur *Adeunis - Dry Contact*
 
 
 # 18/11/2025
