@@ -4,12 +4,14 @@
 >
 >Zur Erinnerung: Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# 04/11/2025
-
 >**WICHTIG**
 >
 >Une refonte globale du plugin à été effectuée. Les méthodes d'écritures ou les parametrages des registres pourraient etre a refaire/re-adapter suivant les installations. Merci de bien faire un backup et de le télécharger en local avant de mettre à jour le plugin
 
+# 
+- 
+
+# 04/11/2025
 - OS Minimum : Debian 11
 - Jeedom Minimum : 4.4.19
 - Montée de version de pymodbus en 3.8.6
