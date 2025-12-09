@@ -118,7 +118,7 @@ This part allows you to define the actions to be done when the alarm is triggere
 > Possible tags are :
 >
 > - #mode# : name of the current mode
-> - #trigger# : name of the command that triggered the alert
+> - #alarm_trigger# : name of the command that triggered the alert
 > - #zone# : name of the zone of ​​the command that triggered the alert
 
 >**How to rearm a permanent alarm ?**

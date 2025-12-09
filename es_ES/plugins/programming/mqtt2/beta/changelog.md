@@ -4,9 +4,11 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de actualización de documentación, traducción o texto.
 
-# 
-
 - 
+
+# 01/12/2025
+
+- Correction pour la remonté des batterie en mode mqtt link
 
 # 16/05/2025
 

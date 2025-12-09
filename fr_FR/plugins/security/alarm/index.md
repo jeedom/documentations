@@ -118,7 +118,7 @@ Cette partie vous permet de définir les actions à faire lorsque l’alarme est
 > Les tags possible sont :
 >
 > - #mode# : nom du mode en cours
-> - #trigger# : nom de la commande qui a déclenché l'alerte
+> - #alarm_trigger# : nom de la commande qui a déclenché l'alerte
 > - #zone# : nom de la zone de la commande qui a déclenché l'alerte
 
 >**Comment réarmer une alarme permanente ?**

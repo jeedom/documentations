@@ -4,9 +4,11 @@
 >
 >Recorde-se que se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
-# 
-
 - 
+
+# 01/12/2025
+
+- Correction pour la remonté des batterie en mode mqtt link
 
 # 16/05/2025
 

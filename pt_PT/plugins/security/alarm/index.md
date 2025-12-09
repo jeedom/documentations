@@ -118,7 +118,7 @@ Esta parte permite definir as ações a serem executadas quando o alarme é acio
 > As tags possíveis são :
 >
 > - #mode# : nome do modo atual
-> - #trigger# : nome do comando que acionou o alerta
+> - #alarm_trigger# : nome do comando que acionou o alerta
 > - #zone# : nome da área do comando que acionou o alerta
 
 >**Como redefinir um alarme permanente ?**

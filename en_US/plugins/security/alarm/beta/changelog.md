@@ -4,8 +4,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 
 
-- Change tag #trigger# by #alarm_trigger#
+- Change tag #trigger# by #alarm_trigger# 
 
 >**Important**
 >

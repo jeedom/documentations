@@ -4,8 +4,9 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 08/12/2025
 
-- Changement du tag #trigger# par #alarm_trigger#
+- Changement du tag #trigger# par #alarm_trigger# pour le rendre compatible avec Jeedom 4.5
 
 >**IMPORTANT**
 >

@@ -118,7 +118,7 @@ In diesem Teil können Sie die Aktionen definieren, die ausgeführt werden solle
 > Mögliche Tags sind :
 >
 > - #mode# : Name des aktuellen Modus
-> - #trigger# : Name des Befehls, der die Warnung ausgelöst hat
+> - #alarm_trigger# : Name des Befehls, der die Warnung ausgelöst hat
 > - #zone# : Name des Bereichs des Befehls, der die Warnung ausgelöst hat
 
 >**So setzen Sie einen permanenten Alarm zurück ?**
