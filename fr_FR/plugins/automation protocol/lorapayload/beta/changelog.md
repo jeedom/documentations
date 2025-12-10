@@ -5,6 +5,11 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
 
+# 09/12/2025 (bêta)
+
+- Ajout de la régénération de la configuration LoRaWAN en masse dans le panel
+
+
 # 08/12/2025
 
 - Correction du décodeur *Mclimate Wireless Thermostat*
