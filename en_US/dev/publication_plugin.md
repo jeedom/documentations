@@ -2,7 +2,7 @@
 
 ## 
 
--  [](https://www.jeedom.com/site/fr/dev.html).
+-  [here](https://www.jeedom.com/site/fr/dev.html).
 - .
 - ".
 - ).

@@ -1,8 +1,8 @@
 # 
 
-> ****
+> **IMPORTANT**
 >
-> .  [](https:forum.jeedom.comviewtopic.php?f=27&t=37630#p621495)
+> .  [here](https:forum.jeedom.comviewtopic.php?f=27&t=37630#p621495)
 
 . . .()
 
@@ -21,7 +21,7 @@
 
 .
 
-> ****
+> **IMPORTANT**
 >
 >.
 >.
@@ -187,7 +187,7 @@ php
 php
 () {
   $ = $this->getCmd(null, 'story')
-   (!)) {
+  if (!)) {
     $ = new vdmCmd()
     $info->setName(__('Histoire', __FILE__))
   }
@@ -198,7 +198,7 @@ php
   $info->save()
 
   $refresh = $this->getCmd(null, 'refresh')
-   (!)) {
+  if (!)) {
     $refresh = new vdmCmd()
     $refresh->setName(__('Rafraichir', __FILE__))
   }
@@ -252,10 +252,10 @@ html
 {% raw %}
 *  *
 ) {
-   (!)) {
+  if (!)) {
     : {} }
   }
-   (!)) {
+  if (!)) {
     
   }
   .
@@ -359,7 +359,7 @@ php
 }
 
 
-C'est  qu'on va définir ce qu'il va se passer quand on actionne la commande « Rafraîchir ». )
+C'est here qu'on va définir ce qu'il va se passer quand on actionne la commande « Rafraîchir ». )
 
 On vérifie le logical de la commande lancée et si « refresh » on lance les actions
 
@@ -464,7 +464,7 @@ $cmd = $vdm->getCmd(null, 'refresh')
 
 
 php
- (!)) {
+if (!)) {
   continue
 }
 $cmd->execCmd()
@@ -476,7 +476,7 @@ php
  () {
   ::
     $cmd = $vdm->getCmd(null, 'refresh') retourne la commande "refresh" si elle existe
-     (!
+    if (!
     
   }
   $cmd->execCmd() la commande existe on la lance
@@ -522,13 +522,13 @@ php
 ) {
   
     $eqLogics = self::byType('vdm', true)
-    } )
+    } else { //The function takes the argument id(unique) of a device (eqLogic)
       $eqLogics = array(self::byId($_eqLogic_id))
     }
 
-    ) {
+    foreach ($eqLogics as $vdm) {
       $cmd = $vdm->getCmd(null, 'refresh') retourne la commande "refresh si elle existe
-       (!
+      if (!
       
     }
     $cmd->execCmd() la commande existe on la lance
@@ -536,45 +536,45 @@ php
 }
 
 
-.
+After that, you can change the cron frequency depending on the importance of the information you need to retrieve.
 
- ==> [](https:doc.jeedom.comdevphpdoc4.1)
+I can only encourage you to take the time to visit this page to learn more ==> [here](https:doc.jeedom.comdevphpdoc4.1)
 
- ==> [](https:github.comjeedomcore)
+Even better, go to the core's GitHub repository ==> [HERE](https:github.comjeedomcore)
 
- .
+Get involved to master it even more .
 
-.
+The plugin is functional as is.
 
- .
+I will take the time to add how to set up a custom cron job depending on the equipment .
 
-# 
+# The widget
 
-.
+The widget is quite a challenge, but we'll stick with the default widget for now.
 
-. .
+If you haven't touched anything, and the device is activated and visible, the widget will take up the entire width of the screen. So we're going to change it.
 
 La commande qui apparaît est la commande «story» de  info, sous- string.
 
-.  :D
+My pleasure is getting up in the morning and reading a VDM (Vie de Merde - Life's a Bitch) when I wake up. It allows me to see that there are people worse off than me :D
 
-
+But I don't have my glasses and currently the display on the widget doesn't allow me to read it…
 
 Donc on va changer le style en affectant un template à la commande « story»
 
-.
+Nothing could be simpler.
 
- ==> [](https:github.comjeedomcoretreealphacoretemplatedashboard)
+I'll see ==> [HERE](https:github.comjeedomcoretreealphacoretemplatedashboard)
 
-.) .)
+I'm looking for a template for cmd.info.string(our command is of type info subtype string)) .Not difficult, there are only two (default or tile))
 
 J'applique le template « cmd.info.string.tile.html » à ma commande.
 
-.php , fonction postSave() et j'ajoute le template « tile » pour la commande « story » en appliquant la méthode setTemplate()
+To do this, I open the vdm.class file.php , fonction postSave() et j'ajoute le template « tile » pour la commande « story » en appliquant la méthode setTemplate()
 
 php
 $ = $this->getCmd(null, 'story')
- (!)) {
+if (!)) {
   $ = new vdmCmd()
   $info->setName(__('Histoire', __FILE__))
 }
@@ -586,51 +586,51 @@ $info->setSubType('string')
 $info->save()
 
 
-.
+Refresh the dashboard.
 
-. .  défaut la largeur du widget de l'équipement(eqLogic) et la hauteur sont à « auto ».
+It's better, but the widget still takes up the full width of the dashboard. So we're going to correct.  défaut la largeur du widget de l'équipement(eqLogic) et la hauteur sont à « auto ».
 
- ..
+We will therefore change the width of the widget (equipment => eqLogic) using the setDisplay() method inherited from the eqLogic class .We leave the height in auto.
 
-
+To do this, simply add
 
 php
 $this->setDisplay("width","800px")
 
 
- !! . .  ? 
+Yes, but !! Because there is a but. Try adding that to the postsave() or postUpdate() function and it won't take the change into account. For what ? You need to read the plugin template documentation ==>HERE
 
-()
+Now that you've read it carefully, you know that you need to use the preSave method()
 
 php
-() {
+public function preSave() {
   $this->setDisplay("width","800px")
 }
 
 
-.
+Register a device and refresh the dashboard.
 
-# . 
+# The parameters. The options
 
-> ****
+> **IMPORTANT**
 >
-> .
+> This is an important chapter and you need to understand it before moving on.
 
- : . ..
+For the moment, we have therefore used 3 classes from the Jeedom core : EqLogic, cmd, cron. Just so you know, we're adding a fourth one with the class plugin in the vdm file.Open the PHP file and leave it open because we're going to edit it.
 
 php
 $plugin = plugin::byId('vdm')  appelle la classe plugin du core
 
 
-.
+It's important to understand that everything is being done to make our task easier.
 
-: . :
+For a parameter/option internal to the plugin, we will use one of the methods of the eqLogic class from the core: setConfiguration() by adding the desired parameters. For example:
 
 php
 $this->setConfiguration("type","mon_type")  si on veut définir un paramètre  de valeur mon_type. Comme on a défini la largeur du widget via la méthode setDisplay()
 
 
-. :D
+To give the user a choice, we return to the desktop file.PHP that you left open because you are following this assignment to the letter :D
 
 Cherchez
 
@@ -638,27 +638,27 @@ html
 <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="city" placeholder="param1">
 
 
-
+And replace with
 
 html
-<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option">  de laisser la classe eqLogicAttr
+<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"> Important de laisser la classe eqLogicAttr
 
 
-).
+Save and go to a device in the plugin you already created by following this tutorial (refresh if needed)).
 
 Dans le champs «Paramètre» d'un équipement, tapez «aléatoire» et sauvegardez.
 
-.
+Perfect, the setting is saved.
 
 ![image](imagestutorial_parametre1.png)
 
-? . C'est pourquoi il ne faut surtout pas toucher à cette ligne de code comme indiqué dans le premier menu « test ». 
+It's simple, isn't it?? . C'est pourquoi il ne faut surtout pas toucher à cette ligne de code comme indiqué dans le premier menu « test ». He's the one who does all the work
 
 php
 <?php include_file('core', 'plugin.template', 'js')?> Chargement du fichier corejsplugin.template.js (en partant de la racine du site)
 
 
-.
+If you look more closely at the desktop file.PHP, there is
 
 html
 <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display:none" >  retourne l'id(unique) de l'eqLogic(équipement) que l'on va pouvoir récupérer via $this->getId() 
@@ -670,7 +670,7 @@ html
 
 Etc…
 
-. 
+If you've understood all of that, we can move on to the next step. But first we're going to make a change in the desktop.php file
 
 html
 {% raw %}<label class="col-sm-3 control-label">{{Paramètre}}<label>{% endraw %}
@@ -682,17 +682,17 @@ html
 {% raw %}<label class="col-sm-3 control-label">{{Type de vdm}}<label>{% endraw %}
 
 
- : .
+Important : The text between curly braces is the text that will be translated if you push the plugin to the marketplace.
 
-.
+Next, we'll develop the plugin further by choosing a type of VDM (random, spicy, or tops) that we want, as well as a custom cron job for each piece of equipment.
 
-# 
+# Using the options/settings
 
-)
+To go further and fully understand the previous chapter, we will allow the user to choose a type of VDM (random, spicy, or tops))
 
-On pourrait le laisser taper dans l'input « Type de  » : 
+On pourrait le laisser taper dans l'input « Type de  » : random, spicy, or top-notch, but we'll do it differently by letting him choose via a select tag
 
-
+If you have followed everything, you should have the following in the desktop.php file
 
 html
 {% raw %}
@@ -705,7 +705,7 @@ html
 {% endraw %}
 
 
-
+Which we will replace with
 
 html
 {% raw %}
@@ -724,7 +724,7 @@ html
 
 Ici le paramètre «type» prendra la valeur du select choisi soit aleatoire ou epicees ou tops.
 
-
+Now we will take our parameter into account in the randomVdm() function in the vdm.class.php file
 
 Cherchez
 
@@ -732,11 +732,11 @@ php
 $url = "http:www.viedemerde.fraleatoire"
 
 
-
+And replace with
 
 php
 $ = $this->getConfiguration("type", "aleatoire") si le paramètre est vide ou n'existe pas, on prends le  aleatoire
 $url = "http:www.viedemerde.fr{$type}"
 
 
-.
+Now change the select value on a device, save, and go to the dashboard to see the result.
