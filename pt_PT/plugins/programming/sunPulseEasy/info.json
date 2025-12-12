@@ -3,16 +3,16 @@
     "name": "sunPulseEasy",
     "pluginVersion": "0.1",
     "description": {
-        "fr_FR": "Wizard de configuration pour les installateurs",
-        "en_US": "Wizard de configuration pour les installateurs",
-        "es_ES": "Wizard de configuration pour les installateurs",
-        "de_DE": "Wizard de configuration pour les installateurs",
-        "ru_RU": "Wizard de configuration pour les installateurs",
-        "id_ID": "Wizard de configuration pour les installateurs",
-        "it_IT": "Wizard de configuration pour les installateurs",
-        "ja_JP": "Wizard de configuration pour les installateurs",
-        "pt_PT": "Wizard de configuration pour les installateurs",
-        "tr": "Wizard de configuration pour les installateurs"
+        "fr_FR": "Wizard de configuration pour les installateurs SunPulse",
+        "en_US": "Configuration wizard for SunPulse installers",
+        "es_ES": "Asistente de configuración para instaladores SunPulse",
+        "de_DE": "Konfigurationsassistent für SunPulse-Installateure",
+        "ru_RU": "Мастер настройки для установщиков SunPulse",
+        "id_ID": "Wizard konfigurasi untuk pemasang SunPulse",
+        "it_IT": "Procedura guidata di configurazione per gli installatori SunPulse",
+        "ja_JP": "SunPulseインストーラ向け設定ウィザード",
+        "pt_PT": "Assistente de configuração para instaladores SunPulse",
+        "tr": "SunPulse kurulumcuları için yapılandırma sihirbazı"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -29,8 +29,8 @@
     "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/sunPulseEasy\/beta",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/sunPulseEasy",
     "link": {
-        "forum": "Lien vers le forum",
-        "video": "Lien vers une video"
+        "forum": "https://community.jeedom.com/",
+        "video": "https://www.youtube.com/jeedom"
     },
     "language": [
         "fr_FR",
