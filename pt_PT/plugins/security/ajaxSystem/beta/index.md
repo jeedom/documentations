@@ -4,7 +4,7 @@
 
 >**IMPORTANTE**
 >
->Para ter um feedback em tempo real, é ABSOLUTAMENTE necessário que seu Jeedom esteja acessível de fora (URL de acesso externo usado)
+>
 
 A configuração do plugin é muito simples e ocorre em 2 passos : 
 

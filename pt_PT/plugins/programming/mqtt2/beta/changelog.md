@@ -4,7 +4,7 @@
 >
 >Recorde-se que se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
-- 
+- Ajout configuration pour Shelly 1PM Gen4
 
 # 01/12/2025
 
