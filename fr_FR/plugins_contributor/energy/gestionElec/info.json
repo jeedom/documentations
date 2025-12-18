@@ -1,0 +1,29 @@
+{
+    "id": "gestionElec",
+    "name": "Gestionnaire électrique",
+    "description": {
+  		"fr_FR": "Ce plugin a pour objectif de piloter votre consomation électrique.</BR>L'utilisation du plugins est simplifié par l'usage des géneriques type et permet une gestion intelligente.</BR>Il integer plusieurs gestions.</BR>* Une gestion de delestage afin de ne pas dépasser la puissance maximale souscrite.</BR>* Une gestion de la production pour autoriser la consommation d'équipement lorsque l'on prodduit.</BR>* Un compteur de stockage virtuel (energie injecté sur le reseau et réutilisé par le plugin)</BR>* La gestion d'un stockage sur batterie"
+	},
+	"licence": "AGPL",
+	"author": "HALBOUT Michael",
+	"require": "4.4.9",
+	"category": "energy",
+	"hasDependency": false,
+	"hasOwnDeamon": true,
+	"documentation" : "https://mika-nt28.github.io/Documentations/gestionElec/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/gestionElec/#language#/changelog",
+	"documentation_beta" : "https://mika-nt28.github.io/Documentations/gestionElec/beta/#language#/",
+	"changelog_beta" : "https://mika-nt28.github.io/Documentations/gestionElec/beta/#language#/changelog",
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4"
+	]
+}
