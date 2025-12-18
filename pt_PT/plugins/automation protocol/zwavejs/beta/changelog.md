@@ -4,10 +4,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# 
+# 04/11/2025
 
 - Mudar para a versão *11.2.1* de ZwaveJsUI (stable)
-- Mudar para a versão ** de ZwaveJsUI (beta)
+- Mudar para a versão *11.6.1* de ZwaveJsUI (beta)
 
 # 16/09/2025
 
