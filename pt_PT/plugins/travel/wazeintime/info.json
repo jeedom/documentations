@@ -14,8 +14,11 @@
         "tr": "Plugin pour avoir la durée de trajet entre deux points"
     },
     "licence": "AGPL",
-    "author": "Ludovic SARAKHA",
-    "require": "2.3",
+    "author": "Jeedom SAS",
+    "require": "4.4",
+    "os": {
+        "min": 11
+    },
     "category": "travel",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/travel\/wazeintime\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/travel\/wazeintime\/",
@@ -32,7 +35,6 @@
         "tr"
     ],
     "compatibility": [
-        "miniplus",
         "smart",
         "rpi",
         "docker",

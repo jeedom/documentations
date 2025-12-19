@@ -4,6 +4,16 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 29/11/2025
+
+- Fixed the URL used following a change by Waze
+- Jeedom version 4.4 or higher required
+- Debian version 11 or higher required
+
+# 29/06/2025
+
+- Optimized requests to Waze to reduce latency
+
 # 10/17/2022
 
 - Update command list for Jeedom v4.3

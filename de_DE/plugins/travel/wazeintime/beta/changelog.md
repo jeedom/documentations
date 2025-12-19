@@ -4,11 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 
+# 29/11/2025
 
-- 
-- .
-- 
+- Correction de l'URL utilisée suite à un changement de Waze
+- Version Jeedom 4.4 ou plus requis
+- Version Debian 11 ou plus requis
 
 # 29/06/2025
 

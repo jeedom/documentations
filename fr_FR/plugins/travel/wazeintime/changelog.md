@@ -4,6 +4,16 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 29/11/2025
+
+- Correction de l'URL utilisée suite à un changement de Waze
+- Version Jeedom 4.4 ou plus requis
+- Version Debian 11 ou plus requis
+
+# 29/06/2025
+
+- Optimisation des requêtes vers Waze afin de réduire la latence
+
 # 17/10/2022
 
 - Mise à jour liste des commandes pour Jeedom v4.3

@@ -4,6 +4,16 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 
+
+- 
+- .
+- 
+
+# 29/06/2025
+
+- Optimisation des requêtes vers Waze afin de réduire la latence
+
 # 17/10/2022
 
 - Atualizar lista de comandos para Jeedom v4.3
