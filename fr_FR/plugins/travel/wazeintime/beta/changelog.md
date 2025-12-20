@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 20/12/2025
+
+- Correction pour les trajets "Amérique du Nord"
+
 # 29/11/2025
 
 - Correction de l'URL utilisée suite à un changement de Waze

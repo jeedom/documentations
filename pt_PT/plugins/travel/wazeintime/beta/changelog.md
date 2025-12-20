@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 
+
+- "
+
 # 29/11/2025
 
 - Correction de l'URL utilisée suite à un changement de Waze

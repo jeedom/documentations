@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 
+
+- "
+
 # 29/11/2025
 
 - Correction de l'URL utilisée suite à un changement de Waze
