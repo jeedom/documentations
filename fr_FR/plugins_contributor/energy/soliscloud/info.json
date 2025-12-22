@@ -2,7 +2,7 @@
 	"id" : "soliscloud",
 	"name" : "Solis Cloud",
 	"description" : "Plugin permettant de récupérer les infos des onduleurs Solis Cloud",
-	"licence" : "AGPL",
+	"licence" : "GPLv3",
 	"author" : "Michel29",
 	"require" : "0.1",
 	"category" : "energy",
@@ -10,7 +10,10 @@
 	"hasOwnDeamon" : false,
 	"maxDependancyInstallTime" : 0,
 	"changelog" : "",
-	"documentation" : "https://github.com/mlhostis/soliscloud/blob/main/README.md",
+	"documentation" : "https://github.com/mlhostis/soliscloud/tree/master/docs/fr_FR/index.md",
+	"link": {
+		"forum": "https://community.jeedom.com/c/plugins/energy/50"
+	},
 	"language" : ["fr_FR"],
 	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
 }
