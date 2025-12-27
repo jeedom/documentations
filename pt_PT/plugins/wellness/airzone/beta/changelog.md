@@ -16,9 +16,9 @@
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
 
-## 
+## 22/09/2025
 
-- 
+- Ajout Min/Max consignes pour mode chaud et froid
 
 ## 24/06/2025
 
