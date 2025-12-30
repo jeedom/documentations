@@ -4,6 +4,12 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 
+
+- Typo
+- 
+- 
+
 # 25/11/2025
 
 - Amélioration de la mise a jour du firmware

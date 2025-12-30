@@ -4,8 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 25/11/2025
 
-- 
+- Amélioration de la mise a jour du firmware
+- Correction d'un soucis de traduction
 
 # 18/11/2025
 
