@@ -4,11 +4,15 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# 
+# )
 
 - 
 
-- 
+# 07/11/2025
+
+- Correction bug installation CSV4 et CSV3
+
+- Ajout de la version de chirpstack dans la page de configuration du plugins
 
 # 20/10/2025
 

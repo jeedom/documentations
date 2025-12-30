@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 29/12/2025 (bêta)
+
+- Ajout de la fonctionnalité flushQueue pour la version Chirpstack V4
+
 # 07/11/2025
 
 - Correction bug installation CSV4 et CSV3

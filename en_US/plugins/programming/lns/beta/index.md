@@ -58,14 +58,14 @@ Il est compatible avec **ChirpStack V3 et V4** et fournit une interface graphiqu
 3. **Suivre les étapes** :  
    ![alt text](../images/LNSV3.png) 
    1. Importer la configuration de MQTT2.  
-   2. (Optionnel) Cocher *Installer Gateway Bridge* .  
+   2. (Optionnel) Cocher *Installer Gateway Bridge* `(recommandé pour Jeedom Luna LoRa)`.  
    3. Sauvegarder.  
-   
-   .  
+   4. Modifier la configuration ChirpStack `(bien sélectionné la bonne version de chirpstack.)`
+   5. Lancer la création automatique dans ChirpStack `(Gateway, Device Profile Application)`.  
    6. Vérifier le résultat en ouvrant l'interface web ChirpStack.  
 
 **Attention** : Si l'installation de ChirpStack semble anormalement longue, cela peut être lié à une mauvaise installation des dépendances du plugin MQTT2. Dans ce cas, il est nécessaire de relancer l'installation de ces dépendances avant de reprendre l'installation de ChirpStack.
-.
+Si le mots de passe base PostgreSql n'est pas renseigné automatiquement rendez vous dans les logs `Lns_packages` et vous copiez le mots de passe dans le champs non renseigné puis vous relancé vos installations de chirpstack.
 
 ## Panel LNS
 
