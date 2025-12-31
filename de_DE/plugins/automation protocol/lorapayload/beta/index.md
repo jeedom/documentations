@@ -358,12 +358,12 @@ json
 
 - : 
 
-- : ``milesight_gs601.png``)
+- : )
 ---
 ### ?
 .
 
-    - Regarde le tableau  la section “ downlink”  “ via payload”,
+    - Regardez le tableau  la section “ downlink”  “ via payload”,
 
     - .
 
@@ -442,10 +442,45 @@ json
   -  ****.  
     **** .  
 3. ****
-    - ****  
-  .  
-    - ****  
-  .  
+
+    - ****
+  .
+    - ****
+  .
+    - ****
+  .
+  !alt text](../images/ongletintegrationmass.png)
+  ** : ** :
+  
+  -  : **** ( **X)** .
+  - .
+  !alt text](../images/selectfortemplate.png)
+  -  **""** .
+
+  ** : ** :
+   :
+  - **** : ).
+  - **** : , ****.
+  - **** : , ****.
+  - **** : :).
+  - **** : :).
+  - **** : ).
+  - **** : ).
+
+  ** : ** :
+  - ).
+  <p align="center">
+    <img src="../images/analyse.png" width="500" height="400">
+  </p>
+
+  - .
+  !alt text](../images/tableaupostanalyse.png)
+
+  - ..">. .
+  ** :** .
+  - .">
+  - .">. .
+
 4. ****  
    .
 

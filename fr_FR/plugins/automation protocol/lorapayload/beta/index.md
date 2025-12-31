@@ -358,25 +358,25 @@ Le fichier de configuration JSON permet de décrire chaque capteur (uplink et do
 
 - Format recommandé : PNG, 250x250 px
 
-- Nommez le fichier comme votre capteur (ex : ``milesight_gs601.png``)
+- Nommez le fichier comme votre capteur (ex : `milesight_gs601.png`)
 ---
 ### Comment faire pour choisir la bonne structure pour les sous-types messages ?
-1. Consulte la documentation officielle du capteur ou de l’API.
+1. Consultez la documentation officielle du capteur ou de l’API.
 
-    - Regarde le tableau ou la section “Commandes downlink” ou “Configuration via payload”,
+    - Regardez le tableau ou la section “Commandes downlink” ou “Configuration via payload”,
 
-    - Repère les champs attendus, leur ordre, les valeurs acceptées, les unités, etc.
+    - Repérez les champs attendus, leur ordre, les valeurs acceptées, les unités, etc.
 
-2. Note l’exemple de payload dans la doc.
+2. Notez l'exemple de payload dans la documentation.
 
-    - Parfois c’est un tableau, parfois un JSON d’exemple.
+    - Parfois c'est un tableau, parfois un JSON d'exemple.
 
-3. Prépare la chaîne de valeurs à envoyer dans le bon ordre, séparées par | (comme vu plus haut), ou sous forme de JSON si l’outil le demande.
+3. Préparez la chaîne de valeurs à envoyer dans le bon ordre, séparées par | (comme vu plus haut), ou sous forme de JSON si l’outil le demande.
 
-4. (*Facultatif*) : Si tu es un utilisateur avancé, tu peux regarder le code pour vérifier le mapping pour écrire le message.
+4. (*Facultatif*) : Si vous êtes un utilisateur avancé, vous pouvez regarder le code pour vérifier le mapping pour écrire le message.
 
 Exemple Concret
-Supposons, dans la documentation Milesight, tu trouves ce tableau :
+Supposons que, dans la documentation Milesight, vous trouvez ce tableau :
 
 | Champ                | Valeurs possibles | Description                    |
 | -------------------- | ----------------- | ------------------------------ |
@@ -442,10 +442,45 @@ Le panneau est divisé en deux parties principales :
   - Il est possible de sélectionner plusieurs équipements simultanément afin d’appliquer des **actions groupées**.  
    La case **All** en haut du tableau permet de cocher/décocher tous les équipements d’un coup.  
 3. **Actions disponibles**
-    - **Recréer les commandes**  
-  Recrée automatiquement les commandes Jeedom pour les équipements sélectionnés.  
-    - **Envoyer un downlink en masse**  
-  Ouvre une fenêtre de configuration pour définir les paramètres du downlink (port, confirmé, type d’encodage, payload) puis envoie la même commande à tous les équipements cochés.  
+
+    - **Recréer les commandes**
+  Recrée automatiquement les commandes Jeedom pour les équipements sélectionnés.
+    - **Envoyer un downlink en masse**
+  Ouvre une fenêtre de configuration pour définir les paramètres du downlink (port, confirmé, type d'encodage, payload) puis envoie la même commande à tous les équipements cochés.
+    - **Intégration en masse**
+  Permet d'intégrer automatiquement plusieurs équipements LoRaWAN dans Jeedom et ChirpStack en une seule opération.
+  ![alt text](../images/ongletintegrationmass.png)
+  **Étape 1 : Générer le template** :
+  
+  - Choisissez le format : **Template CSV** (compatible Excel, LibreOffice) ou **Template Excel (XLSX)** .
+  - Sélectionnez les modèles de capteurs que vous souhaitez intégrer et leur quantité.
+  ![alt text](../images/selectfortemplate.png)
+  - Cliquez sur **"Générer le template"** pour télécharger le fichier.
+
+  **Étape 2 : Remplir le fichier** :
+  Le fichier contient les colonnes suivantes :
+  - **Nom** : Nom que vous souhaitez donner à l'équipement dans Jeedom (obligatoire).
+  - **Fabricant** : Pré-rempli, **NE PAS MODIFIER**.
+  - **Modele** : Pré-rempli, **NE PAS MODIFIER**.
+  - **DevEUI** : Identifiant unique du capteur (16 caractères hexadécimaux, avec ou sans `:`) (obligatoire).
+  - **AppKey** : Clé d'application du capteur (32 caractères hexadécimaux, avec ou sans `:`) (obligatoire).
+  - **Objet** : Nom de l'application ChirpStack où créer le device (optionnel).
+  - **Objet Parent** : Objet Jeedom parent pour organiser vos équipements (optionnel).
+
+  **Étape 3 : Importer et valider** :
+  - Glissez-déposez votre fichier complété (ou cliquez pour sélectionner).
+  <p align="center">
+    <img src="../images/analyse.png" width="500" height="400">
+  </p>
+
+  - Le système valide automatiquement les données et affiche un aperçu des équipements.
+  ![alt text](../images/tableaupostanalyse.png)
+
+  - Vérifiez les informations avec le bouton <img src="../images/boutonvalider.png" width="" height="25"> et cliquez sur <img src="../images/boutoncreer.png" width="" height="25">. Tant que les valeurs ne sont pas correctes, vous ne pouvez pas lancer les intégrations.
+  **NB :** En cas d'erreur vous aurez une signalisation visuel dans la colonne Status et les cases concernées.
+  - Si vous avez oublié des équipements, vous pouvez les ajouter avec le bouton <img src="../images/Ajouterligne.png" width="120" height="25">
+  - Vous pouvez modifier en groupe des valeurs en les sélectionnant puis en cliquant sur  <img src="../images/Appliquerconfselect.png" width= 200 height="20">. Avec ce bouton vous pouvez modifier le fabricant, le modèle, l'application chirpstack et ou l'objet jeedom du groupe.
+
 4. **Cache des Downlinks**  
    Cette zone regroupe la file d’attente des messages downlink envoyés aux capteurs, avec la possibilité de la rafraîchir, de la vider entièrement ou de supprimer des entrées individuellement.
 
