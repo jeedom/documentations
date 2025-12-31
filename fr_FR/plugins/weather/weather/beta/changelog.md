@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 31/12/2025
+
+- Reduction du nombre de requete pour reduire la charge sur les services cloud
+
 # 31/10/2024
 
 - Optimisation de la récupération de la météo
