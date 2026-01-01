@@ -1,5 +1,9 @@
 # Changelog Jeedom V4.5
 
+# 4.5.2
+
+Mise à jour vivement recommandée, elle corrige un bug sur la verification de la date qui empeche tout lancement de scénario ou de tache planifiée.
+
 # 4.5.1
 
 - Le déclencheur de scénarios `#user_connect#` inclut dorénavant le tag `#trigger_value#` qui renseigne le nom de l'utilisateur venant de se connecter ([Détails](https://github.com/jeedom/core/pull/3109))
