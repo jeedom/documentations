@@ -6,12 +6,16 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# 
+- 
+- 
+
+
+# 06/08/2025
 
 - Correções de bugs
-- .
+- Migration des appels API de api.netatmo.net vers api.netatmo.com
 
-# 
+# 18/10/2024
 
 - Correção de avisos
 - Melhor gestão de equipamentos desativados

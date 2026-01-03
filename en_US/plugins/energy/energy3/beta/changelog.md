@@ -6,7 +6,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 
+
+- 
+
+# 23/09/2025
 
 - Support for custom equipment images (Jeedom 4.5)
 - Correction de bug sous debian 12

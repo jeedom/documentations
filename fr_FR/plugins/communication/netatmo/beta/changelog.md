@@ -6,6 +6,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+- Amélioration du systeme de mise à jour des informations
+- Support de Netamo Aircare
+
+
 # 06/08/2025
 
 - Corrections de bugs

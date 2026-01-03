@@ -6,7 +6,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# 
+
+- 
+
+# 23/09/2025
 
 - Suporte para imagens de equipamentos personalizados (Jeedom 4.5)
 - Correction de bug sous debian 12

@@ -6,6 +6,9 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+
+- Correction d'un bug en cas de muavaise configuration du plugin
+
 # 23/09/2025
 
 - Support des images d'équipement personnalisées (Jeedom 4.5)

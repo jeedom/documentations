@@ -6,12 +6,16 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
 
-# 
+- 
+- 
+
+
+# 06/08/2025
 
 - Corrección de errores
-- .
+- Migration des appels API de api.netatmo.net vers api.netatmo.com
 
-# 
+# 18/10/2024
 
 - Corrección de advertencias
 - Mejor gestión de equipos discapacitados
