@@ -4,11 +4,25 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 05/01/2026
+
+- Amélioration des logs
+
+# 08/12/2024
+
+- Ajout de la possibilité de configurer le timeout des requêtes
+
+# 29/11/2024
+
+- Ajout de log en mode DEBUG lors des tentatives de ping
+- Ajout d'une configuration pour choisir le nombre maximum d'essai en cas d'échec
+- Jeedom 4.4 requis
+
 # 08/01/2024
 
 - Préparation pour jeedom 4.4
 - Correction de bugs
-- Optimisation de la gestion des unitées
+- Optimisation de la gestion des unités
 
 # 17/10/2022
 
@@ -67,3 +81,4 @@
 # 16/04/2018
 
 - Possibilité de configurer le TTL
+

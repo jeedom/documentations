@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 
+
+- 
+
 # 12/08/2024
 
 - Se agregó la capacidad de configurar el tiempo de espera de la consulta
@@ -77,3 +81,4 @@
 # 16/04/2018
 
 - Posibilidad de configurar TTL
+

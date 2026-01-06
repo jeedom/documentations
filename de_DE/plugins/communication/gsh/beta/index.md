@@ -342,7 +342,7 @@ Sie müssen die Geräte lediglich den Räumen in der Google Home-App zuweisen
 
 >**Sie haben einen Verbindungsfehler oder können den Parameter nicht aktualisieren. Überprüfen Sie Ihre Verbindung im Cloud-Modus**
 >
->In jeedom ist es im Plugin erforderlich, Geräte hinzuzufügen, die Zuordnung von Jeedom Smarthome in der Google Home-Anwendung zu speichern und zu wiederholen. 
+>In jeedom ist es im Plugin erforderlich, Geräte hinzuzufügen, die Zuordnung von Jeedom Smarthome in der Google Home-Anwendung zu speichern und zu wiederholen. Attention il y a aussi des soucis avec l'application Google Home ou il faut vider le cache de celle-ci pour la connexion marche
 
 >**Ich erhalte die Fehlermeldung "Anscheinend ist Jeedom Smart Home derzeit nicht verfügbar." oder "Entschuldigung, ich kann keine Verbindung zu Jeedom Smart Home herstellen."**
 >

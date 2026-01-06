@@ -342,7 +342,7 @@ Tudo o que você precisa fazer é atribuir o equipamento às salas no aplicativo
 
 >**Você tem um erro de link ou não foi possível atualizar o parâmetro, verifique sua conexão no modo nuvem**
 >
->É necessário no jeedom, no plug-in, adicionar equipamento, salvar e refazer a associação do Jeedom Smarthome no aplicativo Google Home. 
+>É necessário no jeedom, no plug-in, adicionar equipamento, salvar e refazer a associação do Jeedom Smarthome no aplicativo Google Home. Attention il y a aussi des soucis avec l'application Google Home ou il faut vider le cache de celle-ci pour la connexion marche
 
 >**Recebo o erro "Aparentemente, o Jeedom Smart Home não está disponível no momento." ou "Desculpe, não consigo me conectar ao Jeedom Smart Home."**
 >

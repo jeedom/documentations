@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 
+
+- 
+
 # 08/12/2024
 
 - Added ability to configure query timeout
@@ -77,3 +81,4 @@
 # 04/16/2018
 
 - Ability to configure TTL
+

@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 
+
+- 
+
 # 12/08/2024
 
 - Adicionada a capacidade de configurar o tempo limite da consulta
@@ -77,3 +81,4 @@
 # 16/04/2018
 
 - Capacidade de configurar TTL
+
