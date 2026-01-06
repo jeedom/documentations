@@ -7,7 +7,7 @@
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
 
-- 
+- Correction d'un bug en cas de muavaise configuration du plugin
 
 # 23/09/2025
 

@@ -4,7 +4,7 @@
 
 >**WICHTIG**
 >
->
+>Pour avoir une remontée en temps réel il faut ABSOLUMENT que votre Jeedom soit accessible de l'extérieure (URL d'accès externe utilisée) en HTTPS avec un certificat valide
 
 Die Konfiguration des Plugins ist sehr einfach und erfolgt in 2 Schritten : 
 
