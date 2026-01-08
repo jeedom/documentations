@@ -1,8 +1,15 @@
+# Changelog Energie dashboard
+
 # Changelog plugin Energie dashboard
 
 >**IMPORTANT**
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
+
+# 07/01/2026
+
+- Correction d'un bug en cas de mauvaise configuration du plugin
+- Meilleur support de debian 12
 
 # 23/09/2025
 

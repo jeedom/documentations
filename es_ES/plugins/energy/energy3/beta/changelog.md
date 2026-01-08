@@ -6,8 +6,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 
 
-- Correction d'un bug en cas de muavaise configuration du plugin
+- 
+- 
 
 # 23/09/2025
 
