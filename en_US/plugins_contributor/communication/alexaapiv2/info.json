@@ -1,30 +1,48 @@
 {
-	"id" : "alexaapiv2",
-	"name" : "Alexa Premium",
+	"id": "alexaapiv2",
+	"name": "Alexa Premium",
 	"description": {
-        "fr_FR": "Plugin pour gérer les équipements Alexa dans Jeedom",
-        "en_US": "Plugin for Alexa interface  - Premium",
-        "es_ES": "Complemento para la interfaz Alexa  - Premium",
-        "de_DE": "Plugin für Alexa-Schnittstelle - Premium",
-        "pt_PT": "Plug-in para interface Alexa - Premium",
-        "ru_RU": "Плагин интерфейса Alexa — Премиум",
-        "it_IT": "Plugin per l'interfaccia Alexa - Premium"
-    },
-	"licence" : "AGPL",
-	"author" : "Limad44",
-	"require" : "4.4",
-	"os":{ "min":11 },
+		"fr_FR": "Plugin pour gérer les équipements Alexa (Devices et SmartHome) dans Jeedom",
+		"en_US": "Plugin for Alexa interface - Premium",
+		"es_ES": "Complemento para la interfaz Alexa - Premium",
+		"de_DE": "Plugin für Alexa-Schnittstelle - Premium",
+		"pt_PT": "Plug-in para interface Alexa - Premium",
+		"ru_RU": "Плагин интерфейса Alexa — Премиум",
+		"it_IT": "Plugin per l'interfaccia Alexa - Premium"
+	},
+	"licence": "AGPL",
+	"author": "Limad44",
+	"require": "4.4",
+	"os": {
+		"min": 11
+	},
 	"changelog": "https://limad.github.io/plugins-docs/plugin-alexaapiv2/#language#/changelog",
-    "documentation": "https://limad.github.io/plugins-docs/plugin-alexaapiv2/#language#/",
-    "changelog_beta": "https://limad.github.io/plugins-docs/plugin-alexaapiv2/#language#/changelog",
-    "documentation_beta": "https://limad.github.io/plugins-docs/plugin-alexaapiv2/#language#/",
-    "link": {
-        "forum": "https://community.jeedom.com/t/retours-plugin-alexa-premium/139151"
-    },
-    "category" : "communication",
-	"hasDependency" : 1,
-	"hasOwnDeamon" : 1,
-	"language" : ["fr_FR","en_US","de_DE","es_ES","it_IT","pt_PT","ru_RU"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4","atlas","luna"],
-	"maxDependancyInstallTime" : 45
+	"documentation": "https://limad.github.io/plugins-docs/plugin-alexaapiv2/#language#/",
+	"changelog_beta": "https://limad.github.io/plugins-docs/plugin-alexaapiv2/#language#/changelog",
+	"documentation_beta": "https://limad.github.io/plugins-docs/plugin-alexaapiv2/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/t/retours-plugin-alexa-premium/139151"
+	},
+	"category": "communication",
+	"hasDependency": 1,
+	"hasOwnDeamon": 1,
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"v4",
+		"atlas",
+		"luna"
+	],
+	"maxDependancyInstallTime": 45
 }
