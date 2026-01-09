@@ -1,0 +1,36 @@
+{
+  "id": "ai_connector",
+  "name": "Jeedom-AI",
+  "description": "Connecteur pour Intelligences Artificielles (Gemini, OpenAI, Mistral) avec support de l'écoute vocale locale.",
+  "licence": "GPL",
+  "author": "Raven",
+  "version" :"1.0.0",
+  "status" : "beta",
+  "require": "4.2",
+  "category": "communication",
+  "type": "communication",
+  "hasDependency": true,
+  "hasOwnDeamon" : true,
+  "max_count_daemon": 1,
+  "changelog": "https://github.com/Yoann81/Jeedom-AI",
+  "documentation": "https://github.com/Yoann81/Jeedom-AI",
+  "language": ["fr_FR"],
+  "compatibility": [
+    "debian",
+    "smart",
+    "atlas",
+    "docker",
+    "rpi"
+  ],
+  "parameters": {
+    "voice_enable": "0",
+    "voice_cmd_id": "",
+    "voice_device_id": "1",
+    "stt_engine": "whisper",
+    "google_api_key": "",
+    "stt_language": "fr-FR",
+    "tts_enable": "0",
+    "tts_language": "fr-FR",
+    "tts_voice": "fr-FR-Neural2-A"
+  }
+}
