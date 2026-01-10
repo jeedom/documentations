@@ -355,3 +355,7 @@ Todo lo que tiene que hacer es asignar el equipo a las habitaciones en la aplica
 >**Cambiar la velocidad de un ventilador no funciona**
 >
 >Tras el análisis, Google no envía una orden durante una acción de velocidad. Por lo tanto, debemos esperar a que Google corrija
+
+>****
+>
+>.

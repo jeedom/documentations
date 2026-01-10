@@ -6,7 +6,9 @@
 
 # )
 
-- 
+- Ajout de la fonctionnalité flushQueue pour la version Chirpstack V4
+
+- )
 
 # 07/11/2025
 

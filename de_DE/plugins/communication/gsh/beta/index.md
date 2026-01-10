@@ -355,3 +355,7 @@ Sie müssen die Geräte lediglich den Räumen in der Google Home-App zuweisen
 >**Das Ändern der Drehzahl eines Lüfters funktioniert nicht**
 >
 >Nach der Analyse sendet Google während einer Geschwindigkeitsaktion keinen Auftrag. Wir müssen daher warten, bis Google korrigiert
+
+>****
+>
+>.

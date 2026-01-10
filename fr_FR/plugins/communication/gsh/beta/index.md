@@ -355,3 +355,7 @@ Il ne vous reste plus qu'à faire l'affectation des équipements aux pièces dan
 >**Le changement de vitesse sur un ventilateur ne marche pas**
 >
 >Après analyse Google n'envoie pas d'ordre lors d'une action sur la vitesse. Il faut donc attendre que Google corrige
+
+>**J'ai une erreur 404 lors l'association avec google home**
+>
+>C'est un bug dans l'application Gooogle home pour corriger vous pouvez essayer de vider le cache de l'application google home ou lors de la connexion vous pouvez essayer en lui demandant d'ouvrir la page de connexion dans le navigateur au lieu de l'application google home.

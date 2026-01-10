@@ -355,3 +355,7 @@ All you have to do is assign the equipment to the rooms in the Google Home app
 >**Changing the speed on a fan does not work**
 >
 >After analysis Google does not send an order during an action on speed. We must therefore wait for Google to correct
+
+>****
+>
+>.

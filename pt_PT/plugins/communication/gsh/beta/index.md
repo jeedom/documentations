@@ -355,3 +355,7 @@ Tudo o que você precisa fazer é atribuir o equipamento às salas no aplicativo
 >**Alterar a velocidade de um ventilador não funciona**
 >
 >Após análise Google não envia pedido durante ação sobre velocidade. Portanto, devemos esperar que o Google corrija
+
+>****
+>
+>.
