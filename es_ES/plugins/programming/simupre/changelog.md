@@ -4,6 +4,17 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Soporte para imágenes de equipos personalizados (Jeedom 4.5)
+- Soporte mejorado para Debian 12
+
+# 07/04/2024
+
+- Eliminación de la dependencia de una biblioteca de terceros para que sea compatible con PHP 12
+
+# 11/06/2024
+
+- Se corrigió un error al finalizar acciones que no se podían ejecutar
+
 # 16/05/2024
 
 - Solución para jeedom 4.4

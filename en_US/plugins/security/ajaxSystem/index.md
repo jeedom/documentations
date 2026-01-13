@@ -4,7 +4,7 @@
 
 >**IMPORTANT**
 >
->To have a real-time feedback, it is ABSOLUTELY necessary that your Jeedom be accessible from the outside (external access URL used)
+>Pour avoir une remontée en temps réel il faut ABSOLUMENT que votre Jeedom soit accessible de l'extérieure (URL d'accès externe utilisée) en HTTPS avec un certificat valide
 
 The configuration of the plugin is very simple and takes place in 2 steps : 
 

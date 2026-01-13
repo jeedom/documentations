@@ -4,6 +4,17 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Support for custom equipment images (Jeedom 4.5)
+- Improved Debian 12 support
+
+# 04/07/2024
+
+- Removal of dependency on a third-party lib to be compatible with php 12
+
+# 06/11/2024
+
+- Fixed a bug on end actions which could not be executed
+
 # 05/16/2024
 
 - Fix for jeedom 4.4

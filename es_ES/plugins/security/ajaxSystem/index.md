@@ -4,7 +4,7 @@
 
 >**IMPORTANTE**
 >
->Para tener una retroalimentación en tiempo real, es ABSOLUTAMENTE necesario que su Jeedom sea accesible desde el exterior (URL de acceso externo utilizada)
+>Pour avoir une remontée en temps réel il faut ABSOLUMENT que votre Jeedom soit accessible de l'extérieure (URL d'accès externe utilisée) en HTTPS avec un certificat valide
 
 La configuración del complemento es muy simple y se realiza en 2 pasos : 
 
