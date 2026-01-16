@@ -10,7 +10,7 @@
 		"forum": "https://community.jeedom.com/tag/plugin-rteEcowatt"
 	},
 	"category" : "energy",
-  "hasDependancy": false,
+  "hasDependency": true,
   "hasOwnDeamon": false,
   "changelog" : "https://jpty.github.io/jeedom/plugins/rteEcowatt/fr_FR/changelog.html",
 	"documentation" : "https://jpty.github.io/jeedom/plugins/rteEcowatt/fr_FR/index.html",
