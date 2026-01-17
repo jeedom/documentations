@@ -20,6 +20,8 @@
 
 -  **
 
+-  ** 
+
 # 
 
 - 
@@ -169,211 +171,211 @@
 
 -  **
 
--  **
+-  *Dragino LTC2 - LoRaWAN Temperatur-/Widerstandssensor*
 
--  **
+-  *Dragino LWL04 - LoRaWAN Wasserlecksensor*
 
--  **
+-  *Dragino MDS120-LB - LoRaWAN Mikrowellen-Radar-Distanzsensor*
 
--  **
+-  *Dragino SE01-LB - LoRaWAN Bodenfeuchte- und EC-Sensor*
 
--  **
+-  *Dragino SPH01-LB-LS - LoRaWAN Boden-pH-Sensor*
 
--  **
+-  *Dragino WL03A-LB-LS - LoRaWAN-Wasserleckage-Controller (Seiltyp, keine Positionsbestimmung)*
  
-- 
+- Fehlerbehebung für die Schaltfläche „Panel-Konfiguration“
 
--  
+- Signalqualität und Spreizfaktor für das Panel hinzugefügt 
 
-- 
+- Fehlerbehebung für die Neuerstellung von MQTT-Befehlen
 
-- 
+- Im LorPayload-Panel wurde eine Schaltfläche zum Neuerstellen von MQTT-Befehlen hinzugefügt
 
-- 
+- Dem LoRaPayload-Panel wurde die Schaltfläche „Downlinks massenhaft senden“ hinzugefügt
 
-- 
+- Fehler bei der Datumsfilterung im Panel behoben
 
--  
-
-
-# 
-
--  **
-
-- 
-
-# 
-
--  **
-
--  **
-
-- 
-
--  **
-
--  ** 
-
-- 
-
--  
-
--  **
-
--  **
-
--  **
-
--  **
-
--  **
-
--  **
-
--  **
-
--  **
-
--  **
-
--  **
-
--  **
-
--  **
-
--  **
-
--  **
-
--  **
-
--  **
-
--  **
+- Lorapayload-Dokumentation hinzugefügt 
 
 
+# 12.09.2025
 
-# 
--  **
+- Set Keep Alive-Downlink für Produkt hinzugefügt *Dragino LHT52*
 
--  **
+- Geräteanwendung vorab ausfüllen
+
+# 10.09.2025
+
+- Die Downlinks für das Produkt wurden repariert *WT304-868M - Intelligenter Lüfterspulenthermostat*
+
+-  *LC01 - Relaissteuerung*
+
+- Fehler im Statuspanel von LoRapayload behoben
+
+- Produkt NodOn TRV-8-1-00 hinzugefügt *Heizkörperventil*
+
+- Das Produkt Nexelec Guard+ wurde hinzugefügt *Rauchmelder Temperatur & Luftfeuchtigkeit* 
+
+- Befehl für das Produkt NodeOn TRV-8-1-00 hinzugefügt
+
+- Funktionen zur Themenformatierung für die Migration hinzugefügt 
+
+-  *Milesight Innenraum-Umgebungsüberwachungssensor AM103*
+
+-  *Milesight Umgebungsüberwachungssensor AM107*
+
+-  *Milesight kapazitiver Flüssigkeitsstandsensor EM300-CL*
+
+-  *Milesight Membranleckerkennungssensor EM300-MLD*
+
+-  *Milesight Ultraschall-Distanz-/Füllstandssensor EM310-UDL*
+
+-  *Milesight Neigungssensor EM320-TILT*
+
+-  *Milesight ToF Laser-Distanzsensor EM400-TLD*
+
+-  *Milesight Multifunktions-Distanzsensor EM400-MUD*
+
+-  *Milesight Outdoor CO₂-Sensor EM500-CO2*
+
+-  *Milesight Personenzählsensor VS340*
+
+-  *Milesight Personenzählsensor VS341*
+
+-  *Milesight Personenzählsensor VS370*
+
+-  *Milesight Smart Scene Panel WS136*
+
+-  *Milesight Smart Portable Socket WS523*
+
+-  *Milesight Smart Fan Coil Thermostat WT303*
+
+-  *Milesight Bodenfeuchte-, Temperatur- und Leitfähigkeitssensor EM500-SMTC*
+
+-  *Milesight Badezimmer-Belegungssensor VS330*
 
 
-# 
-- 
 
-- 
+# 29.08.2025
+- Für das Produkt wurde eine Downlink-Verbindung für die Befehle „Heizzieltemperaturbereich“ und „Kühlzieltemperaturbereich“ hinzugefügt *WT304-868M - Intelligenter Lüfterspulenthermostat*
 
-- 
-
--  
-
-- 
-
--  **
+-  *AM307L - Umgebungsüberwachungssensoren*
 
 
-# 
-- )
+# 28.08.2025
+- Problem beim Senden von Downlinks in einer Dropdown-Liste behoben
 
-- 
+- Korrektur der Funktion readAllMarques in PHP8
 
--  **
+- Der ausgewählte Untertyp wurde hinzugefügt
 
--  **
+- Aktualisierung der Gerätekonfiguration 
 
--  ** 
+- Es wurde eine Funktion hinzugefügt, um die Anwendung des Produkts von Jeedom aus zu modifizieren
 
-- 
+- Downlink-Befehl (Systemtyp und Kindersicherungseinstellungen) für Produkt hinzugefügt *WT304-868M - Intelligenter Lüfterspulenthermostat*
 
 
-# 
-- 
+# 22.08.2025
+- Aktualisierung des Feldes für die automatische Erstellung (Trennung von Herstellern und Modellen))
 
--  
+- Thermokon-Ordnungskorrektur
 
-- 
+-  *Milesight EM500-PP - Rohrdrucksensor*
 
-# 
-- 
+-  *Milesight EM500-UDL - Ultraschall-Distanz-/Füllstandssensor*
+
+- Lorapayload-Konfigurationsfehler beheben *Anwendungsname* 
+
+- CS V4 Panel-Update
+
+
+# 13.08.2025
+- Thermokon-Decoder-Update
+
+- Status und Schaltflächen zum Zugriff auf die Gerätekonfigurationsseite hinzugefügt 
+
+- Fehler bei der automatischen Erstellung behoben
+
+# 06.08.2025
+- Downlinks wurden eine Warteschlangenfunktion mit Prioritätsverwaltung hinzugefügt
 
 - Ajout du panneau Admin “Cache queueDownlink” (visualisation, purge, suppr. individuelle)
 
--  : 
+- Konfigurierbare Einstellungen : `Timeout für den Warteschlangen-Upload (Sekunden)`, `Aktuelle Warteschlangengröße`, `Maximale Warteschlangengröße`
 
--  ** 
+- Downlink-Befehle hinzugefügt für ** 
 
--  
+- Dokumentationsbildkorrektur 
 
-- 
+- Fehlerbehebung im Bedienfeld
 
--  ** 
+- Downlink-Befehle hinzugefügt für ** 
+
+- Decoder-Korrektur *Dragino WSC2_L_PM2.5*
+
+- Problem mit doppeltem Daemon-Start behoben
+
+-  * Mclimate 16ADS - 16A Trockenschalter LoRaWAN*
+
+-  *Dragino SW3L - Außenwasserzähler*
+
+- Downlink-Neustart hinzugefügt für *Dragino LT22222*
+
+- Downlinks hinzugefügt für *Mclimate - 16A Trockenschalter LoRaWAN*
+
+- Befehlskorrektur *Milesight GS601 - Vape-Detektor*
+
+- Befehlskorrektur *Milesight WS302 - Schallpegelsensor*
+
+- Decoder-Korrektur *BMeters IWM-LR3 – Wasserzählerableser*
+
+- Downlink-Befehl hinzugefügt *BMeters IWM-LR3 – Wasserzählerableser*
+
+- Fehler in der doppelten Downlink-Warteschlange behoben
+
+-   *adeunis_ARF8230xRA - Pulse ATEX*
+
+-  *atim_PT1xx_TMxP - ATIM*
+
+-  *bmeters_rfmlr1 - Wasserzählerableser*
+
+-  *diehl_CMi4160 – CMi4160 LoRaWAN (Diehl Sharky)*
+
+-  *Watteco Torano*
+
+-  *AM319_868M - Innenraum-Umgebungsüberwachungssensor*
+
+-  *diehl_CMi4160 – CMi4160 LoRaWAN (Diehl Sharky)*
+
+-  *WT304-868M - Intelligenter Lüfterspulenthermostat*
+
+- Logik für Gerätebefehle hinzugefügt
+
+-  *AQS01-L – LoRaWAN-Luftqualitätssensor *
+
+
+# 18.06.2025
+
+-  *Milesight VS373 – KI-Bett- und Anwesenheitssensor*
+
+- Informationen zur LoRaWAN-Datenrate hinzugefügt
+
+-  *Milesight VS373 – KI-Bett- und Anwesenheitssensor*
+
+-  **
+
+-  **
+
+-  **
+
+-  **
 
 - Decoder-Korrektur **
 
-- 
+-  *Milesight GS601 - Vape-Detektor*
 
--  * *
-
--  **
-
--  **
-
--  **
-
--  **
-
--  **
-
-- Decoder-Korrektur **
-
--  **
-
-- 
-
--   *X*
-
--  **
-
--  **
-
--  *)*
-
--  **
-
--  **
-
--  *)*
-
--  **
-
-- 
-
--  * *
-
-
-# 
-
--  **
-
-- 
-
--  **
-
--  **
-
--  **
-
--  **
-
--  **
-
-- Decoder-Korrektur **
-
--  **
-
--  **
+-  *Milesight WS302 - Schallpegelsensor*
 
 -  **
 
@@ -393,7 +395,7 @@
 
 -  *Thermokon 835633 - NOVOS 3 Raumsteuermodul Temperatur, relative Luftfeuchtigkeit, CO2*
 
--  **
+-  *BMeters IWM-LR3 – Wasserzählerableser*
 
 -  **
 
@@ -443,17 +445,17 @@
 
 - Konfiguration hinzufügen **
 
--  **
+- Downlink-Befehle hinzugefügt für **
 
 - Konfiguration hinzufügen **
 
--  ** ()
+- Downlink-Befehle hinzugefügt für ** ()
 
 - "
 
 - 
 
--  **
+- Downlink-Befehle hinzugefügt für **
 
 -  **
 
