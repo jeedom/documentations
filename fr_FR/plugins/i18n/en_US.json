@@ -3552,7 +3552,7 @@
         "SqueezeBox Control": "SqueezeBox Control",
         "Ce plugin vous permet de contrôler vos Squeezebox": "This plugin allows you to control your Squeezebox",
         "Plugin permettant de connecter Jeedom à un ou plusieurs comptes Spotify Connect": "Plugin for connecting Jeedom to one or more Spotify Connect accounts",
-        "il faut au minimum PHP 7.0": "you need at least PHP 7.0",
+        "il faut au minimum PHP 7.4": "",
         "Sonos controller": "Sonos controller",
         "Plugin de contrôle de Sonos\/Ikea Symfonisk": "Sonos \/ Ikea Symfonisk control plugin",
         "Sons et TTS": "Sounds and TTS",
