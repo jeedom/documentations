@@ -20,11 +20,11 @@
 
 <details>
 
-  <summary markdown="span">jQuery to pure js()</summary>
+  <summary markdown="span">jQuery to pure js()<summary>
 
   
   {% raw %}
-  //jQuery:
+  jQuery:
   $('#table_objectSummary tbody').append(tr)
   $('#table_objectSummary tbody tr').last().setValues(_summary, '.objectSummaryAttr')
 
@@ -32,7 +32,7 @@
   ').)
   ().')
 
-  //jQuery:
+  jQuery:
   ()
   ]
   ')
@@ -42,7 +42,7 @@
   ]
   ')
 
-  //jQuery:
+  jQuery:
   addMyTr: ) {
     >'
     >'
@@ -67,7 +67,7 @@
     
   }
 
-  //jQuery:
+  jQuery:
   $(function(){
     !')
   })
@@ -80,17 +80,17 @@
   {% endraw %}
   
 
-</details>
+<details>
 
 .. ..
 
 :
 
-[](/en_US/dev/corejs/index)
+[](/en_US/devcorejsindex)
 
-[ {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)
+[ {}](https:github.comjeedomcoreblobalphacoredomdom.utils.js)
 
-[](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+[](https:github.comjeedomcoreblobalphacoredomdom.ui.js)
 
 
 
@@ -113,7 +113,7 @@
 
 #### 
 
- ** . . [](https://flatpickr.js.org/).
+ ** . . [](https:flatpickr.js.org).
 
  ** .
 
@@ -121,13 +121,13 @@
 
 <details>
 
-  <summary markdown="span">date/time pickers</summary>
+  <summary markdown="span">datetime pickers<summary>
 
   
   {% raw %}
-  <input id="myDate" class="in_datepicker"/>
-  <input id="myTime" class="in_timepicker"/>
-  <input id="myCustomDatetime"/>
+  <input id="myDate" class="in_datepicker">
+  <input id="myTime" class="in_timepicker">
+  <input id="myCustomDatetime">
   {% endraw %}
   
 
@@ -140,7 +140,7 @@
   {% endraw %}
   
 
-</details>
+<details>
 
 
 
@@ -189,11 +189,11 @@
 
 <details>
 
-  <summary markdown="span">jeeComplete()</summary>
+  <summary markdown="span">jeeComplete()<summary>
 
   
   {% raw %}
-  //jQuery:
+  jQuery:
   $('input.auto').autocomplete({
     minLength: 1,
     source: dataArray
@@ -207,7 +207,7 @@
   {% endraw %}
   
 
-</details>
+<details>
 
 #### 
 
@@ -215,7 +215,7 @@
 
 <details>
 
-  <summary markdown="span">exemples jeeDialog()</summary>
+  <summary markdown="span">exemples jeeDialog()<summary>
 
   
   {% raw %}
@@ -241,7 +241,7 @@
   {% endraw %}
   
 
-</details>
+<details>
 
 #### 
 
@@ -249,7 +249,7 @@
 
 <details>
 
-  <summary markdown="span">exemples ()</summary>
+  <summary markdown="span">exemples ()<summary>
 
   
   {% raw %}
@@ -267,12 +267,12 @@
   {% endraw %}
   
 
-</details>
+<details>
 
 #### 
 
 .
- : [](http://sortablejs.github.io/Sortable/)
+ : [](http:sortablejs.github.ioSortable)
 
 #### 
 
@@ -284,7 +284,7 @@
 
 <details>
 
-  <summary markdown="span">jeeCtxMenu()</summary>
+  <summary markdown="span">jeeCtxMenu()<summary>
 
   
   {% raw %}
@@ -298,73 +298,73 @@
         isHtmlName: false,
         icon: '',
         className: '', 
-        callback: function(key, opt) { //Item callback
+        callback: 
         }
       },
       sep1: '-----',
     },
-    callback: function(key, opt) { //Default callback if not set on item
+    callback: 
     }
-    //isDisable: false,
-    /*
+    isDisable: false,
+    *
     events: {
-      show: function(opt) {
+      show: ) {
       },
-      hide: function(opt) {
+      hide: ) {
       }
     },
-    */
-    /*
-    build: function(trigger) {
-      var contextmenuitems = {}
+    *
+    *
+    build: ) {
+       = {}
        {
-        callback: function(key, options, event) {
-          //Set items...
+        callback: ) {
+          ...
         }
       },
       items: contextmenuitems
     },
-    position: function(opt, x, y) {
+    position: ) {
     },
-    */
+    *
   })
 
   {% endraw %}
   
 
-</details>
+<details>
 
-#### jQuery FileUpload
+#### 
 
-The jQuery fileupload library will be removed in a future version of the Core. jeeFileUploader() replaces the use of these functions.
+. .
 
 <details>
 
-  <summary markdown="span">exemples ()</summary>
+  <summary markdown="span">exemples ()<summary>
 
   
   {% raw %}
   :
   $('#bt_uploadImage').fileupload({
-    url: 'core/ajax/plan.ajax.php?action=uploadImage&id=' + id
+    url: '?
     dataType: 'json',
-    done: function(event, data) {
+    done: ) {
       
     }
   })
 
-  //Core jeeFileUploader:
-  new jeeFileUploader({
-    fileInput: document.getElementById('bt_uploadImg'),
-    url: 'core/ajax/plan.ajax.php?action=uploadImage&id=' + id
-    /*
-    add: function(event, data) {
-      let currentPath = document.getElementById('bt_uploadImg').getAttribute('data-path')
-      data.url = 'core/ajax/jeedom.ajax.php?action=uploadImageIcon&filepath=' + currentPath
-      data.submit()
+  :
+  ({
+    fileInput: '),
+    url: '?
+    *
+    add: ) {
+      ')
+      ?
+      ()
     },
-    */
-    done: function(event, data) {
+    *
+    done: ) {
       
     }
   })
@@ -372,33 +372,33 @@ The jQuery fileupload library will be removed in a future version of the Core. j
   {% endraw %}
   
 
-</details>
+<details>
 
-See [](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+ [](https:github.comjeedomcoreblobalphacoredomdom.ui.js)
 
-> **Tip**
+> ****
 >
-> You can test your plugins on the Core without jQuery or Bootstrap. To do this, go to Settings > System > Configuration, then the Equipment tab, **Core js (dev)**.
+> . , **)**.
 
-### Optional modifications
+### 
 
-- Managing multiple checkboxes
+- 
 
-A function has been introduced in the Core to provide a context menu for checkboxes : Select all, None, Inverted selection.
+ : .
 
-To use it, you need to add the CSS class *checkContext* on the relevant checkboxes, and call the function ``jeedomUtils.setCheckContextMenu()``
+ **  ``jeedomUtils.setCheckContextMenu()``
 
-The checkboxes will then be grouped by the same *data-l1key*  *data-l2key* if they exist.
+ **  ** .
 
-You can also create groups of checkboxes using the attribute *data-context="group1"*.
+ *"*.
 
-Finally, you can define a callback function like this:
+:
 
 ````js
-var checkContextMenuCallback = function(_el) {
-  //_el is an html element.
-  _el.triggerEvent('change')
+) {
+  .
+  ')
 }
-jeedomUtils.setCheckContextMenu(checkContextMenuCallback)
+)
 ````
 

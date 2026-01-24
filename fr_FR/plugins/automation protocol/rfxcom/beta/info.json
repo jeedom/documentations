@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "4.3",
+    "require": "4.5",
     "os": {
         "min": 11
     },

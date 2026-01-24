@@ -38,7 +38,7 @@ js
 
 - Exemple: .
 
-### Optional modifications
+### 
 
 #### 
 

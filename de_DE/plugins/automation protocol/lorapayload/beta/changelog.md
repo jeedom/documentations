@@ -22,6 +22,10 @@
 
 -  ** 
 
+- 
+
+-  **
+
 # 
 
 - 
@@ -200,7 +204,7 @@
 
 # 12.09.2025
 
-- Set Keep Alive-Downlink für Produkt hinzugefügt *Dragino LHT52*
+- Set Keep Alive-Downlink für Produkt hinzugefügt **
 
 - Geräteanwendung vorab ausfüllen
 
@@ -244,11 +248,11 @@
 
 -  *Milesight Personenzählsensor VS370*
 
--  *Milesight Smart Scene Panel WS136*
+-  **
 
--  *Milesight Smart Portable Socket WS523*
+-  **
 
--  *Milesight Smart Fan Coil Thermostat WT303*
+-  **
 
 -  *Milesight Bodenfeuchte-, Temperatur- und Leitfähigkeitssensor EM500-SMTC*
 
@@ -312,7 +316,7 @@
 
 - Downlink-Befehle hinzugefügt für ** 
 
-- Decoder-Korrektur *Dragino WSC2_L_PM2.5*
+- Decoder-Korrektur **
 
 - Problem mit doppeltem Daemon-Start behoben
 
@@ -320,7 +324,7 @@
 
 -  *Dragino SW3L - Außenwasserzähler*
 
-- Downlink-Neustart hinzugefügt für *Dragino LT22222*
+- Downlink-Neustart hinzugefügt für **
 
 - Downlinks hinzugefügt für *Mclimate - 16A Trockenschalter LoRaWAN*
 
@@ -334,15 +338,15 @@
 
 - Fehler in der doppelten Downlink-Warteschlange behoben
 
--   *adeunis_ARF8230xRA - Pulse ATEX*
+-   *X*
 
--  *atim_PT1xx_TMxP - ATIM*
+-  **
 
 -  *bmeters_rfmlr1 - Wasserzählerableser*
 
 -  *diehl_CMi4160 – CMi4160 LoRaWAN (Diehl Sharky)*
 
--  *Watteco Torano*
+-  **
 
 -  *AM319_868M - Innenraum-Umgebungsüberwachungssensor*
 
