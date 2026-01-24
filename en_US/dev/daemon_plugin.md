@@ -1,39 +1,39 @@
-# 
+# Demons & Addictions
 
 ## Introduction
 
- [](/en_US/dev/tutorial_plugin)  [](/en_US/dev/plugin_template) ).
-.
+In the [tutorial](/en_US/dev/tutorial_plugin) and the [documentation](/en_US/dev/plugin_template) You have learned how to code your first plugin with relatively simple actions triggered by the user via an action command or by a task scheduled by the core (cron jobs)).
+The plugin is then able to retrieve information on an ad-hoc basis (for example, via an HTTP request) or perform all sorts of operations, provided that this can be coded in PHP.
 
-:
+There will be times when you need more than that; here are a few examples, though this list is not exhaustive:
 
-- ...)
-- )
-- 
-- 
+- use system resources, for example USB drive or other hardware (Bluetooth)...)
+- maintain a connection with a remote system (on a local network or on the internet, but not Jeedom))
+- keeping processes active in the background, which is not the case for PHP code which only "lives" during the execution of the HTTP request
+- perform real-time processing
 
-".
-.
+For this, most of the time a "daemon" is used".
+Don't panic, everything is already included in the Jeedom core to help us set up this daemon, and we'll explain it in detail here.
 
-## 
+## Daemon file structure
 
-.
-..
+The code and/or executable of your daemon must obviously be located in your plugin's directory structure and must therefore be included and delivered with the archive during plugin installation.
+There is no strict rule on the exact location of your daemon, however the convention is to place it in the subdirectory `./resources/` of the plugin.
 
- [](/en_US/compatibility/).
- ..
+In the plugin template you will find the basics for implementing a daemon in Python, and this is the example we will use in this documentation. However, you are free to develop your daemon in the language of your choice, provided it can be executed on the [platforms supported by Jeedom](/en_US/compatibility/).
+Most Jeedom plugin daemons are written in Python or Node.js, but some also exist in .netCore and certainly other technologies.
 
-. .
+You will also find some useful methods for a Node.js daemon, which may be detailed in a future version of this documentation. For now, I suggest you consult the community developers to align yourself with other developers on everything related to Node.js, especially the version to use.
 
-:
+Template directory structure:
 
 ![image](images/daemon_struct.png)
 
-### 
+### the python demon
 
-.
-.
-. ...
+In the plugin template, the daemon directory was named `demond`, and the daemon itself is named `demond.py`.
+These names are arbitrary; feel free to change them.
+The convention is to use the plugin ID followed by the letter 'd'. This results, for example, in the directory `blea` for the plugin./resources/blead/` which contains, among other things, the file `blead.`py`, this file being the starting point of the daemon.
 
 > ****
 >
@@ -737,7 +737,7 @@ php
 >
 > .
 >
-> Je vous invite également à consulter cette  qui offre une alternative: <https://github.com/Mips2648/dependance.lib/blob/master/pyenv.md>
+> Je vous invite également à consulter cette documentation qui offre une alternative: <https://github.com/Mips2648/dependance.lib/blob/master/pyenv.md>
 
 bash
 
@@ -821,9 +821,9 @@ php
         ::) . '/dependance')) {
             $return['state'] = 'in_progress';
         }  {
-            ::getCmdSudo() . system::') . '-||
+            ::getCmdSudo() . system::') . '-Ec "python3\-requests|python3-voluptuous|python3\-bs4"') < 3) { // adapt the package list and the total
                 $return['state'] = 'nok';
-            } ::getCmdSudo() . ' | 
+            } ::getCmdSudo() . 'pip3 list | grep -Ewc "aiohttp"') < 1) { // adapt the package list and the total
                 $return['state'] = 'nok';
             }  {
                 $return['state'] = 'ok';
@@ -833,9 +833,9 @@ php
     }
 
 
-: `system::getCmdSudo() . system::') . '-||. : .
+: `system::getCmdSudo() . system::') . '-Ec "python3\-requests|python3-voluptuous|python3\-bs4"'`. : .
 
-:  | . : 
+: `pip3 list | grep -Ewc "aiohttp"'`. : 
 
 > ****
 >

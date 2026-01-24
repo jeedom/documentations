@@ -1,6 +1,6 @@
 # 
 
- [](https:github.comjeedomplugin-template)
+ [](https://github.com/jeedom/plugin-template)
 
 #  : l'arborescence
 
@@ -24,7 +24,7 @@
   - ``info.json`` :  .. 
   - ``install.php`` : .
   - ``configuration.php`` : )
-- ``docs`` : . .  : ``docsfr\_FR``)
+- ``docs`` : . .  : ``docs/fr\_FR``)
 - ``ressources`` : .
 - ``data`` : .
 
@@ -46,7 +46,7 @@
 
 ## ``info.json``
 
- [](https:doc.jeedom.com/en_US/devstructure_info_json)
+See [](https://doc.jeedom.com/en_US/dev/structure_info_json)
 
 ## ``install.php``
 
@@ -77,8 +77,8 @@
  * .
  *
  * 
- * . If not, see <http:www.gnu.orglicenses>.
- *
+ * . If not, see <http://www.gnu.org/licenses/>.
+ */
 
 
 () {
@@ -146,8 +146,8 @@ Ensuite vient le paramètre demandé (il peut en avoir plusieurs), c'est une syn
  * .
  *
   * 
- * . If not, see <http:www.gnu.orglicenses>.
-  *
+ * . If not, see <http://www.gnu.org/licenses/>.
+  */
 
  
 
@@ -159,25 +159,25 @@ Ensuite vient le paramètre demandé (il peut en avoir plusieurs), c'est une syn
  <form class="form-horizontal">
      <fieldset>
          <div class="form-group">
-             <label class="col-lg-2 control-label">Zway IP<label>
+             <label class="col-lg-2 control-label">Zway IP</label>
              <div class="col-lg-2">
-                 <input class="configKey form-control" data-l1key="zwaveAddr" >
-             <div>
-         <div>
+                 <input class="configKey form-control" data-l1key="zwaveAddr" />
+             </div>
+         </div>
          <div class="form-group">
-             <label class="col-lg-4 control-label">Supprimer automatiquement les périphériques exclus<label>
+             <label class="col-lg-4 control-label">Supprimer automatiquement les périphériques exclus</label>
              <div class="col-lg-4">
-                 <input type="checkbox" class="configKey" data-l1key="autoRemoveExcludeDevice" >
-             <div>
-         <div>
+                 <input type="checkbox" class="configKey" data-l1key="autoRemoveExcludeDevice" />
+             </div>
+         </div>
          <div class="form-group">
-             <label class="col-lg-4 control-label">J'utilise un serveur openzwave<label>
+             <label class="col-lg-4 control-label">J'utilise un serveur openzwave</label>
              <div class="col-lg-4">
-                 <input type="checkbox" class="configKey" data-l1key="isOpenZwave" >
-             <div>
-         <div>
-     <fieldset>
- <form>
+                 <input type="checkbox" class="configKey" data-l1key="isOpenZwave" />
+             </div>
+         </div>
+     </fieldset>
+ </form>
  ````
 
 #  : 
@@ -197,9 +197,9 @@ Ensuite vient le paramètre demandé (il peut en avoir plusieurs), c'est une syn
  ?>
  ````
 
-Une fois sur cette page vous aurez accès en  à toutes les fonctions du core de jeedom (voir [](https:www.jeedom.comdocdocumentationcode) ) ainsi qu'à celles de tous les modules installés donc le vôtre aussi.
+Une fois sur cette page vous aurez accès en  à toutes les fonctions du core de jeedom (voir [](https://www.jeedom.com/doc/documentation/code/) ) ainsi qu'à celles de tous les modules installés donc le vôtre aussi.
 
-Toutes ces pages étant des vues elles utilisent principalement la syntaxe HTML. Pour tout ce qui est présentation, Jeedom se base principalement sur bootstrap donc toute la [documentation](http:getbootstrap.com) est applicable.
+Toutes ces pages étant des vues elles utilisent principalement la syntaxe HTML. Pour tout ce qui est présentation, Jeedom se base principalement sur bootstrap donc toute la [documentation](http://getbootstrap.com/) est applicable.
 
 Pour simplifier la création de plugin vous pouvez inclure dans votre page le script javascript de template pour les plugins :
 
@@ -214,13 +214,13 @@ Pour simplifier la création de plugin vous pouvez inclure dans votre page le sc
 :  :
 
 ````html
-<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement mail}}">
+<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement mail}}"/>
 ````
 
 Là, par exemple, lors du chargement des données jeedom mettra la valeur du nom de l'équipement dans l'input et lors de la sauvegarde récupérera celle-ci pour la remettre en base de données. Petite astuce certaines propriétés sont en fait des chaînes JSON en BDD (cela permet d'avoir vraiment pas mal de liberté pour le plugin), dans ce cas il suffit de faire :
 
 ````html
-<input class="eqLogicAttr form-control" data-l1key='configuration' data-l2key='fromName' >
+<input class="eqLogicAttr form-control" data-l1key='configuration' data-l2key='fromName' />
 ````
 
 )
@@ -271,31 +271,31 @@ Dernier point: un exemple plus complet avec type et sous-type de commande :
         _cmd.configuration = {}
     }
      var selRequestType = '<select style="width : 90px" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="requestType">'
-     selRequestType += '<option value="script">{{Script}}<option>'
-     selRequestType += '<option value="http">{{Http}}<option>'
-     selRequestType += '<select>'
+     selRequestType += '<option value="script">{{Script}}</option>'
+     selRequestType += '<option value="http">{{Http}}</option>'
+     selRequestType += '</select>'
     var tr = ''     tr += '<input class="cmdAttr form-control input-sm" data-l1key="name" style="width : 140px">'
     tr += '<input class="cmdAttr form-control input-sm" data-l1key="id"  style="display : 
     tr += '' + selRequestType
     tr += '<div class="requestTypeConfig" data-type="http">'
-    tr += '<input type="checkbox" class="cmdAttr" data-l1key="configuration" data-l2key="noSslCheck" >Ne pas vérifier SSL'
-    tr += '<div>'
+    tr += '<input type="checkbox" class="cmdAttr" data-l1key="configuration" data-l2key="noSslCheck" />Ne pas vérifier SSL'
+    tr += '</div>'
          
-    tr += '<span class="type" type="' + init(_cmd.type) + '">' + jeedom.cmd.availableType() + '<span>'
-    tr += '<span class="subType" subType="' + init(_cmd.subType) + '"><span>'
-         tr += '<textarea style="height : 95px" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="request"><textarea>'
-    tr += '<a class="btn btn-default browseScriptFile cursor input-sm" style="margin-top : 5px"><i class="fa fa-folder-open"><i> {{Parcourir}}<a> '
-    tr += '<a class="btn btn-default editScriptFile cursor input-sm" style="margin-top : 5px"><i class="fa fa-edit"><i> {{Editer}}<a> '
-    tr += '<a class="btn btn-success newScriptFile cursor input-sm" style="margin-top : 5px"><i class="fa fa-file-o"><i> {{Nouveau}}<a> '
-    tr += '<a class="btn btn-danger removeScriptFile cursor input-sm" style="margin-top : 5px"><i class="fa fa-trash-o"><i> {{Supprimer}}<a> '
-    tr += '<a class="btn btn-warning bt_shareOnMarket cursor input-sm" style="margin-top : 5px"><i class="fa fa-cloud-upload"><i> {{Partager}}<a> '
-    tr += '<div>'
+    tr += '<span class="type" type="' + init(_cmd.type) + '">' + jeedom.cmd.availableType() + '</span>'
+    tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>'
+         tr += '<textarea style="height : 95px" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="request"></textarea>'
+    tr += '<a class="btn btn-default browseScriptFile cursor input-sm" style="margin-top : 5px"><i class="fa fa-folder-open"></i> {{Parcourir}}</a> '
+    tr += '<a class="btn btn-default editScriptFile cursor input-sm" style="margin-top : 5px"><i class="fa fa-edit"></i> {{Editer}}</a> '
+    tr += '<a class="btn btn-success newScriptFile cursor input-sm" style="margin-top : 5px"><i class="fa fa-file-o"></i> {{Nouveau}}</a> '
+    tr += '<a class="btn btn-danger removeScriptFile cursor input-sm" style="margin-top : 5px"><i class="fa fa-trash-o"></i> {{Supprimer}}</a> '
+    tr += '<a class="btn btn-warning bt_shareOnMarket cursor input-sm" style="margin-top : 5px"><i class="fa fa-cloud-upload"></i> {{Partager}}</a> '
+    tr += '</div>'
          
     tr += '<input class="cmdAttr form-control tooltips input-sm" data-l1key="unite"  style="width : 100px" placeholder="{{Unité}}" title="{{Unité}}">'
     tr += '<input class="tooltips cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="minValue" placeholder="{{Min}}" title="{{Min}}"> '
     tr += '<input class="tooltips cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="maxValue" placeholder="{{Max}}" title="{{Max}}">'
          
-    tr += '<span><input type="checkbox" class="cmdAttr" data-l1key="isHistorized" > {{Historiser}}<br><span>'
+    tr += '<span><input type="checkbox" class="cmdAttr" data-l1key="isHistorized" /> {{Historiser}}<br/></span>'
          
     .id)) {
     
@@ -396,7 +396,7 @@ $('body').delegate('.helpSelectCron','click',function() {
 
 ## 
 
- [](https:github.comjeedomplugin-openzwave) )
+ [](https://github.com/jeedom/plugin-openzwave) )
 
 ## ajax
 
@@ -418,8 +418,8 @@ $('body').delegate('.helpSelectCron','click',function() {
  * .
  *
  * 
- * . If not, see <http:www.gnu.orglicenses>.
- *
+ * . If not, see <http://www.gnu.org/licenses/>.
+ */
 
  {
     
@@ -434,7 +434,7 @@ $('body').delegate('.helpSelectCron','click',function() {
     }
 
      : ', 
-    *     * ************************ *
+    /*     * ************************ */
 } ) {
     ajax::
 }
@@ -466,46 +466,46 @@ La première devant hériter de la classe eqLogic et la deuxième de cmd. Vo un 
  * .
  *
  * 
- * . If not, see <http:www.gnu.orglicenses>.
- *
+ * . If not, see <http://www.gnu.org/licenses/>.
+ */
 
-* * ***************************Includes********************************* *
+/* * ***************************Includes********************************* */
 
 
 class plugin_ extends eqLogic {
 
-    *     * *************************Attributs****************************** *
+    /*     * *************************Attributs****************************** */
 
 
-    *     * ***********************Methode static*************************** *
+    /*     * ***********************Methode static*************************** */
 
 
-    *     * *********************Methode d'instance************************* *
+    /*     * *********************Methode d'instance************************* */
 
 
-    *     * **********************Getteur Setteur*************************** *
+    /*     * **********************Getteur Setteur*************************** */
 
 }
 
 class plugin_idCmd extends cmd {
 
-    *     * *************************Attributs****************************** *
+    /*     * *************************Attributs****************************** */
 
 
-    *     * ***********************Methode static*************************** *
+    /*     * ***********************Methode static*************************** */
 
 
-    *     * *********************Methode d'instance************************* *
+    /*     * *********************Methode d'instance************************* */
 
 
-    *     * **********************Getteur Setteur*************************** *
+    /*     * **********************Getteur Setteur*************************** */
 
 }
 
 ?>
 ````
 
- [](https:doc.jeedom.comdevphpdoc4.0)
+ [](https://doc.jeedom.com/dev/phpdoc/4.0/)
 
  :
 
@@ -520,7 +520,7 @@ class plugin_idCmd extends cmd {
           $message = $_options['title'] . '. '
       }
       $message .= $_options['message']
-      $http = new com_http($eqLogic->getConfiguration('addrSrvTts') . '?tts=' . urlencode($message))
+      $http = new com_http($eqLogic->getConfiguration('addrSrvTts') . '/?tts=' . urlencode($message))
       
   }
   ````
@@ -646,7 +646,7 @@ public function toHtml($_version = 'dashboard') {
 $_version = jeedom::versionAlias($_version)
 ````
 
-Récupération d'un template de commande,  le template de commande : pluginsweathercoretemplate\$\_versionforecast. (\$\_version valant mobile ou dashboard)
+Récupération d'un template de commande,  le template de commande : plugins/weather/core/template/\$\_version/forecast. (\$\_version valant mobile ou dashboard)
 
 ````php
 $forcast_template = getTemplate('core', $_version, 'forecast', 'weather')
@@ -737,7 +737,7 @@ return $html
           $cron->setFunction('updateWeatherData')
           $cron->setOption(array('weather_id' => intval($this->getId())))
       }
-      $cron->setSchedule($this->getConfiguration('refreshCron', '*30 * * * *'))
+      $cron->setSchedule($this->getConfiguration('refreshCron', '*/30 * * * *'))
       $cron->save()
 }
 ````
@@ -767,7 +767,7 @@ $weather->checkAndUpdateCmd($cmd,$cmd->execute())
 
 Au moment de la fonction ``checkAndUpdateCmd`` (qui permet de signaler à Jeedom une nouvelle mise à jour de la valeur, avec déclenchement de toutes les actions qui doivent être faites : mise à jour du dashboard, vérification des scénarios…​),
 
-Pour la classe commande, un petit truc à savoir si vous utilisez le template  de base. Lors de l'envoi de l'équipement Jeedom fait du différentiel sur les commandes et va supprimer celles qui sont en base mais pas dans la nouvelle définition de l'équipement. Voilà comment l'éviter :
+Pour la classe commande, un petit truc à savoir si vous utilisez le template js de base. Lors de l'envoi de l'équipement Jeedom fait du différentiel sur les commandes et va supprimer celles qui sont en base mais pas dans la nouvelle définition de l'équipement. Voilà comment l'éviter :
 
 ````php
 public function dontRemoveCmd() {
