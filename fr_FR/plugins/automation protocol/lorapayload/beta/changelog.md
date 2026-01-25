@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 23/01/2026 (bêta)
+# 24/01/2026 (bêta)
 
 - Ajout du systeme d'intégration en masse d'équipement dans le panel lorapayload
 
@@ -25,6 +25,8 @@
 - Fix choix Broker Local
 
 - Mise à jour du décodeur *Nexelec Guard+*
+
+- MAJ de la photo du *Mclimate 16A Dry Switch LoRaWAN*
 
 # 09/12/2025
 
