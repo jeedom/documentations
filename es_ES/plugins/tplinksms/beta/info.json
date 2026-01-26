@@ -1,0 +1,50 @@
+{
+    "id": "tplinksms",
+    "name": "TPLink SMS",
+    "description": {
+        "fr_FR": "Plugin pour Jeedom permettant d'utiliser les fonctions SMS des routeurs 4G TP-Link MR-XXX avec la prise en charge des interactions et du ASK. La compatibilité est confirmée avec les modèles Archer MR-600, Archer MR-200 v5, TL-MR150 et TL-MR6400 v5. \nAttention : il n'est pas possible d'accéder à l'interface web du routeur lorsque le démon du plugin est démarré.",
+        "en_US": "Plugin pour Jeedom permettant d'utiliser les fonctions SMS des routeurs 4G TP-Link MR-XXX avec la prise en charge des interactions et du ASK. La compatibilité est confirmée avec les modèles Archer MR-600, Archer MR-200 v5, TL-MR150 et TL-MR6400 v5. \nAttention : il n'est pas possible d'accéder à l'interface web du routeur lorsque le démon du plugin est démarré",
+        "es_ES": "Plugin pour Jeedom permettant d'utiliser les fonctions SMS des routeurs 4G TP-Link MR-XXX avec la prise en charge des interactions et du ASK. La compatibilité est confirmée avec les modèles Archer MR-600, Archer MR-200 v5, TL-MR150 et TL-MR6400 v5. \nAttention : il n'est pas possible d'accéder à l'interface web du routeur lorsque le démon du plugin est démarré",
+        "de_DE": "Plugin pour Jeedom permettant d'utiliser les fonctions SMS des routeurs 4G TP-Link MR-XXX avec la prise en charge des interactions et du ASK. La compatibilité est confirmée avec les modèles Archer MR-600, Archer MR-200 v5, TL-MR150 et TL-MR6400 v5. \nAttention : il n'est pas possible d'accéder à l'interface web du routeur lorsque le démon du plugin est démarré",
+        "ru_RU": "Plugin pour Jeedom permettant d'utiliser les fonctions SMS des routeurs 4G TP-Link MR-XXX avec la prise en charge des interactions et du ASK. La compatibilité est confirmée avec les modèles Archer MR-600, Archer MR-200 v5, TL-MR150 et TL-MR6400 v5. \nAttention : il n'est pas possible d'accéder à l'interface web du routeur lorsque le démon du plugin est démarré",
+        "id_ID": "Plugin pour Jeedom permettant d'utiliser les fonctions SMS des routeurs 4G TP-Link MR-XXX avec la prise en charge des interactions et du ASK. La compatibilité est confirmée avec les modèles Archer MR-600, Archer MR-200 v5, TL-MR150 et TL-MR6400 v5. \nAttention : il n'est pas possible d'accéder à l'interface web du routeur lorsque le démon du plugin est démarré",
+        "it_IT": "Plugin pour Jeedom permettant d'utiliser les fonctions SMS des routeurs 4G TP-Link MR-XXX avec la prise en charge des interactions et du ASK. La compatibilité est confirmée avec les modèles Archer MR-600, Archer MR-200 v5, TL-MR150 et TL-MR6400 v5. \nAttention : il n'est pas possible d'accéder à l'interface web du routeur lorsque le démon du plugin est démarré",
+        "ja_JP": "Plugin pour Jeedom permettant d'utiliser les fonctions SMS des routeurs 4G TP-Link MR-XXX avec la prise en charge des interactions et du ASK. La compatibilité est confirmée avec les modèles Archer MR-600, Archer MR-200 v5, TL-MR150 et TL-MR6400 v5. \nAttention : il n'est pas possible d'accéder à l'interface web du routeur lorsque le démon du plugin est démarré",
+        "pt_PT": "Plugin pour Jeedom permettant d'utiliser les fonctions SMS des routeurs 4G TP-Link MR-XXX avec la prise en charge des interactions et du ASK. La compatibilité est confirmée avec les modèles Archer MR-600, Archer MR-200 v5, TL-MR150 et TL-MR6400 v5. \nAttention : il n'est pas possible d'accéder à l'interface web du routeur lorsque le démon du plugin est démarré",
+        "tr": "Plugin pour Jeedom permettant d'utiliser les fonctions SMS des routeurs 4G TP-Link MR-XXX avec la prise en charge des interactions et du ASK. La compatibilité est confirmée avec les modèles Archer MR-600, Archer MR-200 v5, TL-MR150 et TL-MR6400 v5. \nAttention : il n'est pas possible d'accéder à l'interface web du routeur lorsque le démon du plugin est démarré"
+    },
+    "utilization": "Le routeur doit être sur le même réseau local que Jeedom. Installez les dépendances puis démarrez le démon.",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4",
+    "category": "communication",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 30,
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/tplinksms\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/tplinksms\/beta",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/tplinksms\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/tplinksms",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas",
+        "luna"
+    ]
+}
