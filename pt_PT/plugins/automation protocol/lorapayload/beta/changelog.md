@@ -6,6 +6,12 @@
 
 # )
 
+- ****
+
+- Correção do decodificador *Ewattch Lula Pro Rogowski*
+
+# )
+
 - 
 
 - 
