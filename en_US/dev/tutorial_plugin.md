@@ -186,9 +186,9 @@ php
 
 php
 () {
-  $ = $this->getCmd(null, 'story')
+  $info = $this->getCmd(null, 'story')
    (!)) {
-    $ = new vdmCmd()
+    $info = new vdmCmd()
     $info->setName(__('Histoire', __FILE__))
   }
   $info->setLogicalId('story')
@@ -302,156 +302,156 @@ html
   ({
     id: $('.eqLogicAttr[data-l1key=id]').value(),
     filter: { type: 'info' },
-    error: ) {
-      $('#div_alert').showAlert({ message: .message, level: 'danger' })
+    error: function (error) {
+      $('#div_alert').showAlert({ message: error.message, level: 'danger' })
     },
-    success: ) {
-      
-      
-      
+    success: function (result) {
+      tr.find('.cmdAttr[data-l1key=value]').append(result);
+      tr.setValues(_cmd, '.cmdAttr');
+      jeedom.cmd.changeType(tr, init(_cmd.subType));
     }
   })
 }
 {% endraw %}
 
 
-.
+This is done automatically.
 
-.
+Now all that's left is to retrieve a random VDM and use the commands.
 
-# 
+# Information retrieval
 
-.
+To retrieve a VDM (Vie De Merde - Life's a Bitch) randomly.
 
 php
 $url = "http:www.viedemerde.fraleatoire"
 $data = file_get_contents($url)
 @$dom = new DOMDocument()
-
+libxml_use_internal_errors(false);
 $dom->loadHTML('<?xml encoding="UTF-8">' .$data)
-
+libxml_use_internal_errors(true);
 $xpath = new DOMXPath($dom)
 $divs = $xpath->query('article[@class="art-panel col-xs-12"]div[@class="panel-content"]pa')
+return $divs[0]->nodeValue ;
 
 
-
-.
+.For the PHP class VDM, which inherits from the egLogic methods, I create a randomVdm function
 
 php
-() {
+public function randomVdm() {
   $url = "http:www.viedemerde.fraleatoire"
   $data = file_get_contents($url)
   @$dom = new DOMDocument()
-  
+  libxml_use_internal_errors(true);
   $dom->loadHTML($data)
-  
+  libxml_use_internal_errors(false);
   $xpath = new DOMXPath($dom)
   $divs = $xpath->query('article[@class="art-panel col-xs-12"]div[@class="panel-content"]pa')
-  
+  return $divs[0]->nodeValue ;
 }
 
 
-).
-.
+Now we're going to update the info(story) command with this information by running the action(refresh) command).
+Still in core/class/vdm.class.For the PHP class vdmCmd, we will use the execute method
 
 php
-()) {
+public function execute($_options = array()) {
 }
 
 
-C'est  qu'on va définir ce qu'il va se passer quand on actionne la commande « Rafraîchir ». )
+C'est  qu'on va définir ce qu'il va se passer quand on actionne la commande « Rafraîchir ». The vdmCmd class inherited all the methods of the cmd class (Jeedom Core))
 
 On vérifie le logical de la commande lancée et si « refresh » on lance les actions
 
 php
-()) {
-  ':  .
-  
+switch ($this->getLogicalId()) {
+  case 'refresh': //LogicalId of the refresh command that was created in the Postsave method of the vdm class .
+  //code to refresh my order
   break
 }
 
 
-(). .
+Now all that remains is to execute the randomVdm function(). To do this, we retrieve the eqLogic (the equipment) of the command and execute the function.
 
 php
 $eqlogic = $this->getEqLogic() Récupération de l'eqlogic
-$ = $eqlogic->randomVdm()  Lance la fonction et stocke le résultat dans la variable $info
+$info = $eqlogic->randomVdm()  Lance la fonction et stocke le résultat dans la variable $info
 
 
-On met à jour la commande « story » avec la variable $info. 
+On met à jour la commande « story » avec la variable $info. We will use the checkAndUpdateCmd method of the eqlogic class
 
 php
 $eqlogic->checkAndUpdateCmd('story', $info)
 
 
-
+Which gives in the end
 
 php
-()) {
+public function execute($_options = array()) {
   $eqlogic = $this->getEqLogic() récupère l'éqlogic de la commande $this
-  
-    ':  .
-    $ = $eqlogic->randomVdm() On lance la fonction randomVdm() pour récupérer une  et on la stocke dans la variable $info
+  switch ($this->getLogicalId()) { //checks the logical ID of the command
+    case 'refresh': // LogicalId of the refresh command that was created in the Postsave method of the vdm class .
+    $info = $eqlogic->randomVdm() On lance la fonction randomVdm() pour récupérer une  et on la stocke dans la variable $info
     $eqlogic->checkAndUpdateCmd('story', $info) on met à jour la commande avec le Logical "story"  de l'eqlogic
     break
   }
 }
 
 
-. Puis la commande « Histoire » qui doit être à jour.
+Now go to a created device and run the Refresh command. Puis la commande « Histoire » qui doit être à jour.
 
-. .
+The information appears on the Dashboard. Click the refresh icon to change the information.
 
-.
+Next, we'll define the widget size and customize it a bit, then automate the refresh.
 
-# )
+# Update information (cron))
 
-. Si vous cliquez sur la commande « refresh » , la commande « story » se met à jour mais sinon rien.
+The plugin is functional, but for now it doesn't do much. Si vous cliquez sur la commande « refresh » , la commande « story » se met à jour mais sinon rien.
 
-. . .
+Note that for the command I name it by logicalId. And that's important. Having a unique logicalId per device (eqLogic) simplifies things.
 
- : 
+We will now see how to update the command using the core's native functions : The crons
 
- :
+There are several :
 
--  : 
--  : 
--  : 
--  : 
--  : 
--  : 1jour
+- cron : refresh every minute
+- cron5 : refresh every 5 minutes
+- cron15 : refresh every 15 minutes
+- cron30 : refreshment every 30 minutes
+- cronHourly : every hour
+- cronDaily : 1jour
 
-). ().
+Given the plugin, we'll perform an update every hour (let's be crazy)). We will therefore use the cronHourly function().
 
-.
+We will now open the vdm.class file.php and search
 
 php
 *
-* 
-() {
+* Function executed automatically every hour by Jeedom
+public static function cronHourly() {
 }
 *
 
 
-
+Uncomment the code
 
 php
-() {
+public static function cronHourly() {
 }
 
 
+Our function is operational
 
-
-,
-
-php
-self::)
-
-
-
+Now we need to retrieve all the active equipment from our plugin,
 
 php
-::) {
+self::byType('vdm', true) //Array containing all the plugin's equipment; the second argument, a boolean, allows retrieving only active equipment if true, or all equipment if false (default))
+
+
+and go through them one by one
+
+php
+foreach (self::byType('vdm', true) as $vdm) {
 }
 
 
@@ -461,66 +461,66 @@ php
 $cmd = $vdm->getCmd(null, 'refresh')
 
 
-
+If it doesn't exist, we continue the loop (foreach); otherwise, we execute it
 
 php
- (!)) {
+ (!is_object($cmd)) {
   continue
 }
 $cmd->execCmd()
 
 
-
+Which gives in the end
 
 php
- () {
-  ::
+public static function cronHourly () {
+  foreach (self::byType('vdm', true) as $vdm) { //traverses all active devices of the vdm plugin
     $cmd = $vdm->getCmd(null, 'refresh') retourne la commande "refresh" si elle existe
-     (!
-    
+     (!is_object($cmd)) { //If the command does not exist
+    continue; //continue the loop
   }
   $cmd->execCmd() la commande existe on la lance
 }
 }
 
 
-Pour tester, dans jeedom, allez dans configurationmoteur de tâches et lancer le  de class « plugin » fonction «  »
-.
+Pour tester, dans jeedom, allez dans configurationmoteur de tâches et lancer le cron de class « plugin » fonction « cronHourly »
+The information is being updated.
 
-. A la création de l'équipement, la commande « story » ne se met pas à jour.
+It's good, but it's not for me. A la création de l'équipement, la commande « story » ne se met pas à jour.
 
-.
+So we improve the code.
 
-(). .
+We used the postSave method to create the orders(). We will use the postUpdate() method to update the information.
 
-
+The simplest way, since there's only one command and it's created in postSave
 
 php
-() {
+public function postUpdate() {
   $cmd = $this->getCmd(null, 'refresh') On recherche la commande refresh de l'équipement
-  
+  if (is_object($cmd)) { //it exists and we run the command
     $cmd->execCmd()
   }
 }
 
 
-?
+You have to test it, it works?
 
+But here's an alternative that might prove more useful in more complex cases
 
-
-
+In the postUpdate() function, the cronHourly() function is launched with the device ID
 
 php
-() {
-  self::
+public function postUpdate() {
+  self::cronHourly($this->getId()); //launch the cronHourly function with the eqLogic id
 }
 
 
-()
+But in this case, we change the cronHourly function()
 
 php
-) {
-  
+public static function cronHourly($_eqLogic_id = null) {
+  if ($_eqLogic_id == null) { //The function has no arguments, so we search for all the plugin's devices
     $eqLogics = self::byType('vdm', true)
     } )
       $eqLogics = array(self::byId($_eqLogic_id))
@@ -528,8 +528,8 @@ php
 
     ) {
       $cmd = $vdm->getCmd(null, 'refresh') retourne la commande "refresh si elle existe
-       (!
-      
+       (!is_object($cmd)) { //If the command does not exist
+      continue; //continue the loop
     }
     $cmd->execCmd() la commande existe on la lance
   }
@@ -573,9 +573,9 @@ J'applique le template « cmd.info.string.tile.html » à ma commande.
 .php , fonction postSave() et j'ajoute le template « tile » pour la commande « story » en appliquant la méthode setTemplate()
 
 php
-$ = $this->getCmd(null, 'story')
+$info = $this->getCmd(null, 'story')
  (!)) {
-  $ = new vdmCmd()
+  $info = new vdmCmd()
   $info->setName(__('Histoire', __FILE__))
 }
 $info->setLogicalId('story')

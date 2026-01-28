@@ -510,7 +510,7 @@ class plugin_idCmd extends cmd {
  :
 
 ````php
-()) {
+public function execute($_options = array()) {
        (! !'])) {
           
       }
@@ -715,7 +715,7 @@ return $html
 ) :
 
 ````php
-() {
+public function postUpdate() {
       $weatherCmd = $this->getCmd(null, 'temperature')
        (!)) {
           $weatherCmd = new weatherCmd()
