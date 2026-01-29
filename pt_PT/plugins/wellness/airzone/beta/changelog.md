@@ -14,9 +14,11 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
-## 
+## 29/01/2026
 
-- 
+- Correções de bugs
+- Adicionado um log de depuração ao atualizar os comandos
+
 
 ## 22/09/2025
 

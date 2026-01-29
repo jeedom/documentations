@@ -14,9 +14,11 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
-## 
+## 29/01/2026
 
-- 
+- Corrección de errores
+- Se agregó un registro de depuración al actualizar los comandos
+
 
 ## 22/09/2025
 

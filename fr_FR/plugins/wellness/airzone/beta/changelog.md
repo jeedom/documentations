@@ -14,9 +14,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-## 27/01/2026
+## 29/01/2026
 
-- Correction d'un bug
+- Correction de bugs
+- Ajout d'un log en debug lors du refresh des commandes
+
 
 ## 22/09/2025
 

@@ -14,9 +14,11 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
-## 
+## 29/01/2026
 
-- 
+- Bug fixes
+- Added a debug log when refreshing commands
+
 
 ## 22/09/2025
 
