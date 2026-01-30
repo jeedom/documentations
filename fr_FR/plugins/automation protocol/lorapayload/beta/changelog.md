@@ -10,6 +10,8 @@
 
 - Correction décodeur *Ewattch Squid Pro Rogowski*
 
+- Ajout du produit *Milesight AM308L*
+
 # 24/01/2026 (bêta)
 
 - Ajout du systeme d'intégration en masse d'équipement dans le panel lorapayload

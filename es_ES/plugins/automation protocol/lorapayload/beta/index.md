@@ -538,7 +538,7 @@ json
 - **Demonio**
 Ejecución programada de enlaces descendentes en función de su campo `ts` y reproducción dinámica de la cola para tener en cuenta las purgas.
 
-- **Prioridad**
+- ****
 Atributo de prioridad en cada dispositivo (0 = normal, 1 = prioridad)).
 Cuando existe al menos un elemento prioritario, la cola se clasifica en dos bloques: prioridad entonces normal.
 
@@ -570,37 +570,37 @@ Supervisar y administrar el estado de la cola en la pestaña Enlace descendente 
 # Guía del usuario del probador RAK10701 con Jeedom (LoRaPayload))
 
 ## 1. Integración de equipos
-- Una vez que el probador **RAK10701** añadido al complemento **Carga útil de LoRa**, La generación de decodificaciones y codificaciones se realiza de forma automática.  
+- Una vez que el probador **** añadido al complemento ****, La generación de decodificaciones y codificaciones se realiza de forma automática.  
 - No se requiere ninguna configuración adicional del lado del usuario.  
 !alt text](../images/rak1.png)
 ---
 
 ## 2. Encendido y conexión
 - Encienda el probador.  
-- Espere a que finalice el procedimiento **** en la red **LoRaWAN**.  
+- Espere a que finalice el procedimiento **** en la red ****.  
 - Si el estado mostrado es **“Failed”**, Acerque el probador a una puerta de enlace y vuelva a encenderlo para reiniciar el intento.  
 
 ---
 
 ## 3. Recopilación de datos GPS
 - Una vez que la unión sea exitosa, haga clic en **Presione el botón de encendido dos veces**.  
--  **RAK10701** Luego enviará los datos recopilados (**RSSI, SNR, puerta de enlace, GPS, etc.**).  
+-  **** Luego enviará los datos recopilados (**RSSI, SNR, puerta de enlace, GPS, etc.**).  
  !alt text](../images/rak2.png)
-⚠️ **Importante** : Colóquese en un área abierta para permitir la captura precisa de las coordenadas del GPS.  
+ **** : Colóquese en un área abierta para permitir la captura precisa de las coordenadas del GPS.  
 
 ---
 
 ## 4. Ruta de la zona de pruebas
 - Mueva el probador sobre la superficie que desea analizar.  
-- Prensa **Presione el botón de encendido dos veces** Para activar el envío de los datos.  
-- Cada **enlace ascendente** registra automáticamente los datos recibidos.  
+-  **Presione el botón de encendido dos veces** Para activar el envío de los datos.  
+-  **** registra automáticamente los datos recibidos.  
 
 ---
 
 ## 5. Visualización y exportación de resultados
 - Los datos se almacenan automáticamente :  
-  - en **CSV** para la explotación en **Sobresalir**,  
-  - en **JSON** para uso automatizado o scripts.  
+  -  **** para la explotación en ****,  
+  -  **** para uso automatizado o scripts.  
 
  **Ruta de acceso** :  `html/plugins/lorapayload/recursos/lorapayload/cargas útiles`
 
@@ -611,7 +611,7 @@ Si no se concede permiso de escritura, restaure los permisos de carpeta y archiv
 
 ## 6. Descargue el archivo y procese los datos
 !alt text](../images/rak4.png)
-_________
+
 # FAQ
 
 -   Algunos comandos no se actualizan al mismo tiempo que otros : sí, de hecho, algunos módulos de Lorawan no envían necesariamente toda la información al mismo tiempo y con la misma frecuencia
