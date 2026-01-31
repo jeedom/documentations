@@ -40,13 +40,13 @@ json
 json
 {
   "apt" : {
-    "libav-tools" : {"alternative" : ["ffmpeg"]},
-    "ffmpeg" : {"alternative" : ["libav-tools"]},
+    "libav-tools" : {"alternative" : "]},
+    "ffmpeg" : {"alternative" : "]},
     "python-pil" : {},
     "php-gd" : {}
   },
   "post-install" : {
-    "Apache neu starten" : true
+    "" : true
   }
 }
 
@@ -55,10 +55,10 @@ json
 {
   "apt" : {
     "" : {},
-    "python3-pyudev" : {},
-    "python3-requests" : {},
     "" : {},
-    "python3-dev" : {}
+    "" : {},
+    "" : {},
+    "" : {}
   },
   "pip3" : {
     "wheel" : {},
@@ -82,12 +82,12 @@ json
     "nodejs" : {}
   },
   "npm" : {
-    "plugins/dyson/resources/dysond"  : {}
+    ""  : {}
   }
 }
 
 
- : ``apt``, ``nodejs (npm)`` , ``pip2``  ``pip3``, .
+ : ``apt``, `` (npm)`` , ``pip2``  ``pip3``, .
 
 . .
 
