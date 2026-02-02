@@ -55,7 +55,7 @@
 .
 .
 
-> ****
+> **Attention**
 >
 > ). .
 
@@ -80,7 +80,7 @@
 
 .:
 
-python
+```python
 "
 
 '
@@ -129,11 +129,11 @@ try:
 :
      : '))
     shutdown()
-
+```
 
 :
 
-python
+```python
 
 .
 .
@@ -141,16 +141,16 @@ python
 ' # emplacement par défaut du pidfile, ce fichier est utiliser par Jeedom pour savoir si votre démon est démarrer ou pas; nom du démon à modifier comme expliqué ci-dessus;
 
  = '' ## )
+```
 
-
-> ****
+> **Attention**
 >
 > : . ). .
 
 .
 .
 
-python
+```python
 :
     ="):
         ("=")
@@ -164,26 +164,26 @@ python
         ("=")
     ="):
         ("=")
-
+```
 
 :
 
-python
+```python
 )
 )
-
+```
 
 :
 
-python
+```python
 ):
     ))
     shutdown()
-
+```
 
 :
 
-python
+```python
 ():
     ")
     ))
@@ -202,17 +202,17 @@ python
     ")
     ()
     )
-
+```
 
 .
 
-> ****
+> **Attention**
 >
 > ..
 
 :
 
-python
+```python
 try:
     
     
@@ -224,11 +224,11 @@ try:
 :
      : '))
     shutdown()
-
+```
 
 :
 
-python
+```python
 ():
     ()
     try:
@@ -237,13 +237,13 @@ python
             ()
     :
         shutdown()
+```
 
 
 
 
 
-
-python
+```python
 ():
     
     ():
@@ -256,18 +256,18 @@ python
             '
         :
              : '))
-
+```
 
 .
 
 :
 
-python
+```python
         try:
             '
         :
              : '))
-
+```
 
 .
 
@@ -281,7 +281,7 @@ python
 
 .:
 
-json
+```json
 {
     "id" : "pluginID",
     "name" : "pluginName",
@@ -291,7 +291,7 @@ json
     "maxDependancyInstallTime" : 10,
     ...
 }
-
+```
 
 .
 
@@ -308,7 +308,7 @@ json
 .
 .
 
-php
+```php
     () {
         $ = array();
         $return['log'] = __CLASS__;
@@ -317,7 +317,7 @@ php
         )) {
             )))) {
                 $return['state'] = 'ok';
-            }  {
+            } else {
                 ::getCmdSudo() . ' ' . $pid_file . ' 
             }
         }
@@ -335,11 +335,11 @@ php
             $return['launchable'] = 'nok';
             $return['launchable_message'] = __('La clé d\'application n\'est pas configurée', __FILE__);
         }
-        
+        return $return;
     }
+```
 
-
-> ****
+> **Attention**
 >
 > .
 
@@ -352,7 +352,7 @@ php
 .
 .
 
-php
+```php
     () {
         self::
         $deamon_info = self::deamon_info();
@@ -387,7 +387,7 @@ php
         message::
         
     }
-
+```
 
 .
 
@@ -398,7 +398,7 @@ php
 
 : .
 
-php
+```php
     () {
         $pid_file = jeedom::) . '/deamon.pid'; // ne pas modifier
         )) {
@@ -408,7 +408,7 @@ php
         system::
         sleep(1);
     }
-
+```
 
 .. .
 
@@ -425,7 +425,7 @@ php
 
 .
 
-php
+```php
     ) {
         $deamon_info = self::deamon_info();
         '] != 'ok') {
@@ -438,13 +438,13 @@ php
         
         
     }
-
+```
 
 .
 
 :
 
-python
+```python
         '] != _apikey:
              : " ))
             return
@@ -452,7 +452,7 @@ python
             '
         :
              : '))
-
+```
 
 "
 
@@ -462,13 +462,13 @@ python
 
 :
 
-php
+```php
 <?php
 
  {
     
 
-     (!jeedom::
+    if (!jeedom::
         
         die();
     }
@@ -477,7 +477,7 @@ php
         die();
     }
     $result = json_decode(file_get_contents("php://input"), true);
-     (!)) {
+    if (!)) {
         die();
     }
 
@@ -485,58 +485,58 @@ php
         
     } '])) {
         
-    }  {
+    } else {
         log::
     }
 } ) {
     log::
 }
-
+```
 
 :
 
-php
-     (!jeedom::
+```php
+    if (!jeedom::
         
         die();
     }
-
+```
 
 .):
 
-php
+```php
     ') != '') {
         
         die();
     }
-
+```
 
 :
 
-php
+```php
     $result = json_decode(file_get_contents("php://input"), true);
-     (!)) {
+    if (!)) {
         die();
     }
-
+```
 
 :
 
-php
+```php
     '])) {
         
     } '])) {
         
-    }  {
+    } else {
         log::
     }
-
+```
 
 :
 
-python
+```python
 ' : '' : 'value2' })
-
+```
 
 : .
 
@@ -570,7 +570,7 @@ python
 .
 :
 
-json
+```json
 {
     "id" : "pluginID",
     "name" : "pluginName",
@@ -580,7 +580,7 @@ json
     "maxDependancyInstallTime" : 30,
     ...
 }
-
+```
 
 .
  .
@@ -601,33 +601,33 @@ json
 
 ##### pre-install: 
 
- :
+Example :
 
-json
+```json
 {
   "pre-install" : {
     "script" : ""
   }
-
+```
 
 ##### post-install
 
 .
- :
+Example :
 
-json
+```json
 {
   "post-install" : {
     "" : true,
     "script" : ""
   }
-
+```
 
 ##### apt: 
 
 Exemple
 
-json
+```json
 {
   "apt" : {
     "libav-tools" : {"alternative" : "]},
@@ -636,7 +636,7 @@ json
     "php-gd" : {}
   }
 }
-
+```
 
 ,
  .
@@ -645,7 +645,7 @@ json
 
 Exemple:
 
-json
+```json
 {
   "apt" : {
     "" : {},
@@ -666,7 +666,7 @@ json
     "bellows" : {"reinstall" : true}
   }
 }
-
+```
 
 > **
 >
@@ -679,7 +679,7 @@ json
 .,
 :
 
-json
+```json
 {
   "apt" : {
     "nodejs" : {}
@@ -688,7 +688,7 @@ json
     ""  : {}
   }
 }
-
+```
 
 ##### composer: 
 
@@ -699,13 +699,13 @@ json
 
  :
 
-json
+```json
 {
     "plugin":{
         "mqtt2": {}
     }
 }
-
+```
 
 ### 
 
@@ -715,12 +715,12 @@ json
 
 . 
 
-php
+```php
     () {
         log::
         #stype#. ' . jeedom::) . '::
     }
-
+```
 
 .
 
@@ -733,13 +733,13 @@ php
 
 :
 
-> ****
+> **Attention**
 >
 > .
 >
 > Je vous invite également à consulter cette  qui offre une alternative: <https://github.com/Mips2648/dependance.lib/blob/master/pyenv.md>
 
-bash
+```bash
 
 
  ! -
@@ -775,20 +775,20 @@ fi
  "*            *"
  "***************************"
 }
-
+```
 
 :
 
 ...
 -).
 
-bash
+```bash
 
 
  ! -
     
 fi
-
+```
 
 : ).
 
@@ -799,7 +799,7 @@ fi
 - .
 - : ....
 
-> ****
+> **Attention**
 >
 > . . . .
 
@@ -813,31 +813,31 @@ fi
 
 :
 
-php
+```php
     () {
         $ = array();
         $return['log'] = log::getPathToLog(__CLASS__ . '_update');
         $return['progress_file'] = jeedom::) . '/dependance';
         ::) . '/dependance')) {
             $return['state'] = 'in_progress';
-        }  {
+        } else {
             ::getCmdSudo() . system::') . '-||
                 $return['state'] = 'nok';
             } ::getCmdSudo() . ' | 
                 $return['state'] = 'nok';
-            }  {
+            } else {
                 $return['state'] = 'ok';
             }
         }
-        
+        return $return;
     }
-
+```
 
 : `system::getCmdSudo() . system::') . '-||. : .
 
 :  | . : 
 
-> ****
+> **Attention**
 >
 > .
 
