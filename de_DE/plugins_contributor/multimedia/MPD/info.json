@@ -1,0 +1,46 @@
+{
+	"id": "MPD",
+	"name": "MPD",
+	"specialAttributes": {
+		"object": {},
+		"user": {}
+	},
+	"description": {
+		"fr_FR": "Plugin permettant de controler les lecteurs MPD",
+		"en_US": "Plugin for controlling MPD players",
+		"es_ES": "Complemento que permite controlar los reproductores MPD",
+		"de_DE": "Plugin zur Steuerung von MPD-Playern",
+		"it_IT": "Plugin che consente di controllare i lettori MPD",
+		"pt_PT": "Plugin que permite controlar os leitores MPD"
+	},
+	"licence": "AGPL",
+	"author": "Bernard Dandrea",
+	"require": "4.5.0",
+	"category": "multimedia",
+	"hasDependency": true,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 30,
+	"changelog": "https://bernard-dandrea.github.io/documentation/jeedom-MPD/doc/#language#/changelog",
+	"documentation": "https://bernard-dandrea.github.io/documentation/jeedom-MPD/doc/#language#/index",
+	"changelog_beta": "https://bernard-dandrea.github.io/documentation/jeedom-MPD/doc/#language#/changelog_beta",
+	"documentation_beta": "https://bernard-dandrea.github.io/documentation/jeedom-MPD/doc/#language#/index_beta",
+	"link": {},
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
+}
