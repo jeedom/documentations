@@ -8,6 +8,12 @@
 >
 >Une refonte globale du plugin à été effectuée. Les méthodes d'écritures ou les parametrages des registres pourraient etre a refaire/re-adapter suivant les installations. Merci de bien faire un backup et de le télécharger en local avant de mettre à jour le plugin
 
+
+# 
+-  : 
+- 
+- 
+
 # 09/12/2025
 - Fix remontées valeurs
 

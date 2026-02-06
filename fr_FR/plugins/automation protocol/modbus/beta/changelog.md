@@ -8,6 +8,12 @@
 >
 >Une refonte globale du plugin à été effectuée. Les méthodes d'écritures ou les parametrages des registres pourraient etre a refaire/re-adapter suivant les installations. Merci de bien faire un backup et de le télécharger en local avant de mettre à jour le plugin
 
+
+# 06/02/2026
+- Fix startRegister 0 : maintenant pris en compte
+- Fix RTU lecture multiple eqlogics
+- Fix commandes écrituresBit en type Action/Message
+
 # 09/12/2025
 - Fix remontées valeurs
 
