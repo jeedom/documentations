@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 08.02.2026
+
+- Korrektur eines Fehlers in PHP 8
+
 # 12.01.2026
 
 - Unterstützung für benutzerdefinierte Gerätebilder (Jeedom 4.5)

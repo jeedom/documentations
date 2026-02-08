@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 08/02/2026
+
+- Corrección de un error en PHP 8
+
 # 12/01/2026
 
 - Soporte para imágenes de equipos personalizados (Jeedom 4.5)
