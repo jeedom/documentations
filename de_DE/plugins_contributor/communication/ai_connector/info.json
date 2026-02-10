@@ -12,8 +12,6 @@
   "hasDependency": true,
   "hasOwnDeamon" : true,
   "max_count_daemon": 1,
-  "changelog": "https://github.com/Yoann81/Jeedom-AI",
-  "documentation": "https://github.com/Yoann81/Jeedom-AI",
   "language": ["fr_FR"],
   "compatibility": [
     "debian",
