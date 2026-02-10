@@ -10,10 +10,14 @@
 > Esto significa que al instalar esta versión, deberá eliminar cualquier equipo existente antes de esta actualización.
 > Simplemente cree el equipo de puerta de enlace y el equipo de zona se creará automáticamente
 
-
 >**IMPORTANTE**
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
+
+## 29/01/2026
+
+- Corrección de errores
+- Se agregó un registro de depuración al actualizar los comandos
 
 
 ## 22/09/2025
@@ -24,21 +28,17 @@
 
 - Fix unité Humidité (relancer un scan des zones via la passerelle si équipements deja existants)
 
-
 ## 06/06/2025
 
 - Ajout Device IAQ Eqlogic + auto refresh (création auto au scan des zones)
-
 
 ## 21/03/2025
 
 - Fix event Erreurs sur commande du même nom
 
-
 ## 27/02/2025
 
 - Fix rafraichissement des consignes après changement de mode
-
 
 ## 23/01/2025
 
@@ -57,7 +57,6 @@
 ## 13/10/2024
 
 - Arreglar jeedom.eqLogic.Advertencia de buildSelectCmd()
-
 
 ## 14/06/2024
 

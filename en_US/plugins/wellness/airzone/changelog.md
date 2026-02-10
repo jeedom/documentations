@@ -10,10 +10,14 @@
 > This implies that by installing this version, you will have to remove any equipment existing before this update.
 > You simply need to create the gateway equipment, and the Zone equipment will be automatically created
 
-
 >**IMPORTANT**
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
+
+## 29/01/2026
+
+- Bug fixes
+- Added a debug log when refreshing commands
 
 
 ## 22/09/2025
@@ -24,21 +28,17 @@
 
 - Fix unité Humidité (relancer un scan des zones via la passerelle si équipements deja existants)
 
-
 ## 06/06/2025
 
 - Ajout Device IAQ Eqlogic + auto refresh (création auto au scan des zones)
-
 
 ## 21/03/2025
 
 - Fix event Erreurs sur commande du même nom
 
-
 ## 27/02/2025
 
 - Fix rafraichissement des consignes après changement de mode
-
 
 ## 23/01/2025
 
@@ -57,7 +57,6 @@
 ## 10/13/2024
 
 - Fix jeedom.eqLogic.builSelectCmd() warning
-
 
 ## 06/14/2024
 
