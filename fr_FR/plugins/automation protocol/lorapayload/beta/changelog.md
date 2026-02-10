@@ -4,13 +4,17 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 05/02/2026 (Beta)
+# 10/02/2026 (Beta)
 
 - **Nexelec Guard+ ---> Inversion de la commande info Smoke Status**
 
 - Correction décodeur *Ewattch Squid Pro Rogowski*
 
 - Ajout du produit *Milesight AM308L*
+
+- Ajout du bouton "Ouvrir Chirpstack" depuis l'interface
+
+- Ajout des commandes pour *Nexelec - Guard+ Smoke detector Temperature & Humidity*
 
 # 24/01/2026 (bêta)
 
