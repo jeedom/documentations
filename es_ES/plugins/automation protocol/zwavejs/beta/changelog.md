@@ -4,6 +4,12 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 
+
+- Cambiar a versión *11.6.1* de ZwaveJsUI (stable)
+- Cambiar a versión ** de ZwaveJsUI (beta)
+- )
+
 # 04/11/2025
 
 - Cambiar a versión *11.2.1* de ZwaveJsUI (stable)
@@ -193,7 +199,6 @@
 - Configuración añadida *Thermofloor Heat It ZM Relé Alta Potencia* (propiedades : Interruptor, alimentación, energía, notificación de sensor de calor, notificación de sobrecarga, escena central)
 - Agregar una subpropiedad *notificación simple* para la propiedad *Apertura*
 
-
 # 11/09/2023
 
 **Arreglos**
@@ -244,7 +249,6 @@
 - Adición de un mensaje en el centro de mensajes cuando un nodo queda muerto (además del comando de estado del equipo)
 - Adición de un mensaje en el centro de mensajes cuando un nodo pasa a Alive después de estar Dead (además del comando de estado del equipo)
 - Adición de un mensaje en el centro de mensajes cuando un nodo no se ha despertado después de 4 veces su intervalo de activación
-
 
 **Adiciones de configuración**
 
@@ -361,7 +365,6 @@
 - Configuración añadida *U-Hada GR-201N* (propiedades : Switch)
 - Configuración añadida *Relé de caldera Danfoss* (propiedades : Switch)
 - Configuración añadida *Sonido de alarma Benext* (propiedades : Switch)
-
 
 # 24/12/2022
 
@@ -654,7 +657,6 @@
 - Adición de una página que permite ver todos los *configuraciones* a la espera
 - Adición de una página webapp que permite ver todos los *configuraciones* a la espera
 - Adición de un botón de eliminar en la página *A la espera*. Le permite eliminar una línea en espera. Esto no elimina la orden que se ha enviado al controlador, sino solo la información pendiente en Jeedom (útil para los parámetros de calibración, por ejemplo, que nunca toman el valor enviado o cualquier otro parámetro donde sería inútil))
-
 
 **Cambios de configuración**
 

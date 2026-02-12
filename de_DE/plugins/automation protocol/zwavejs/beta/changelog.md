@@ -4,6 +4,12 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 
+
+- Zur Version wechseln *11.6.1* de ZwaveJsUI (stable)
+- Zur Version wechseln ** de ZwaveJsUI (beta)
+- )
+
 # 04/11/2025
 
 - Zur Version wechseln *11.2.1* de ZwaveJsUI (stable)
@@ -193,7 +199,6 @@
 - Konfig hinzugefügt *Thermofloor Heat It ZM-Relais mit hoher Leistung* (Eigenschaften : Schalter, Strom, Energie, Wärmesensorbenachrichtigung, Überlastbenachrichtigung, Centra-Szene)
 - Hinzufügen einer Untereigenschaft *einfache Benachrichtigung* für Eigentum *Öffnung*
 
-
 # 11.09.2023
 
 **Behebt**
@@ -244,7 +249,6 @@
 - Hinzufügen einer Nachricht im Nachrichtencenter, wenn ein Knoten ausfällt (zusätzlich zum Gerätestatusbefehl))
 - Hinzufügen einer Nachricht im Nachrichtencenter, wenn ein Knoten aktiv wird, nachdem er tot ist (zusätzlich zum Gerätestatusbefehl))
 - Hinzufügen einer Nachricht im Nachrichtencenter, wenn ein Knoten nach dem 4-fachen seines Weckintervalls nicht aufgewacht ist
-
 
 **Konfigurationsergänzungen**
 
@@ -361,7 +365,6 @@
 - Konfig hinzugefügt *U-Fee GR-201N* (Eigenschaften : Switch)
 - Konfig hinzugefügt *Danfoss Kesselrelais* (Eigenschaften : Switch)
 - Konfig hinzugefügt *Nächster Alarmton* (Eigenschaften : Switch)
-
 
 # 24.12.2022
 
@@ -654,7 +657,6 @@
 - Hinzufügung einer Seite, auf der alle angezeigt werden können *die Einstellungen* steht aus
 - Hinzufügen einer Webapp-Seite, auf der alle angezeigt werden können *die Einstellungen* steht aus
 - Hinzufügen einer Schaltfläche zum Löschen auf der Seite *Steht aus*. Ermöglicht das Löschen einer gehaltenen Leitung. Dies löscht nicht den Auftrag, der an den Controller gesendet wurde, sondern nur die in Jeedom anstehenden Informationen (nützlich für Kalibrierungsparameter zum Beispiel, die niemals den gesendeten Wert annehmen, oder andere Parameter, bei denen er unbrauchbar wäre)
-
 
 **Konfigurationsänderungen**
 

@@ -4,6 +4,12 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 11/02/2026
+
+- Passage à la version *11.6.1* de ZwaveJsUI (stable)
+- Passage à la version *11.11.0* de ZwaveJsUI (beta)
+- Ajout d'une option dans la page de configuration du plugin pour configurer un port de contrôleur distant via socket tcp (utile pour les controleurs comme le SLZB-MR1U)
+
 # 04/11/2025
 
 - Passage à la version *11.2.1* de ZwaveJsUI (stable)
@@ -193,7 +199,6 @@
 - Ajout de la configuration *Thermofloor Heat It ZM Relay High Power* (propriétés : Switch, Power, Energy, Notification Heat Sensor, Notification Over Load, Centra Scene)
 - Ajout d'une sous propriété *notification-simple* pour la propriété *Opening*
 
-
 # 11/09/2023
 
 **Corrections**
@@ -244,7 +249,6 @@
 - Rajout d'un message dans le centre de message lorsqu'un noeud passe Dead (en plus de la commande statut de l'équipement)
 - Rajout d'un message dans le centre de message lorsqu'un noeud passe Alive après avoir été Dead (en plus de la commande statut de l'équipement)
 - Rajout d'un message dans le centre de message lorsqu'un noeud ne s'est pas réveillé après 4 fois son interval de réveil
-
 
 **Ajouts de Configurations**
 
@@ -361,7 +365,6 @@
 - Ajout de la configuration *U-Fairy GR-201N* (propriétés : Switch)
 - Ajout de la configuration *Danfoss Boiler Relay* (propriétés : Switch)
 - Ajout de la configuration *Benext Alarm Sound* (propriétés : Switch)
-
 
 # 24/12/2022
 
@@ -654,7 +657,6 @@
 - Rajout d'une page permettant de voir tous les *paramètres* en attente
 - Rajout d'une page webapp permettant de voir tous les *paramètres* en attente
 - Rajout d'un bouton supprimer sur la page *En attente*. Permet de supprimer une ligne en attente. Celui-ci ne supprime pas l'ordre qui a été envoyé au contrôleur mais seulement l'information en attente dans Jeedom (utile pour les paramètres de calibration par exemple qui ne prennent jamais la valeur envoyée ou tout autre paramètre où ca serait inutile)
-
 
 **Modifications de Configurations**
 

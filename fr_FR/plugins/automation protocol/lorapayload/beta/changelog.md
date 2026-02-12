@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 10/02/2026 (Beta)
+# 11/02/2026 (Beta)
 
 - **Nexelec Guard+ ---> Inversion de la commande info Smoke Status**
 
@@ -15,6 +15,8 @@
 - Ajout du bouton "Ouvrir Chirpstack" depuis l'interface
 
 - Ajout des commandes pour *Nexelec - Guard+ Smoke detector Temperature & Humidity*
+
+- Correction downlink *Vanne Micropelt*
 
 # 24/01/2026 (bêta)
 
