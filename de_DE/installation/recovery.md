@@ -42,7 +42,7 @@ La mise à jour du système est effectuée au prochain démarrage sauf si le fic
 
 ### Mode USB
 
-Ce mode nécessite de brancher une clé USB, dont la première partition est formatée en `FAT`, dans le port situé en haut à droite vu de l'arrière.
+ *()*, .
 
 Le bouton **Restauration USB** entraine, dans un premier temps, la détection, la vérification et le montage de la clé USB. Ensuite, la dernière image système est téléchargée depuis nos serveurs vers le support USB. L'intégrité de l'image est vérifiée puis le fichier de configuration USB est écrit.
 
