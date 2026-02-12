@@ -12,6 +12,8 @@
   "hasDependency": true,
   "hasOwnDeamon" : true,
   "max_count_daemon": 1,
+  "documentation":"https://yoann81.github.io/ai_connector_docs/index",
+  "changelog":"https://yoann81.github.io/ai_connector_docs/changelog",
   "language": ["fr_FR"],
   "compatibility": [
     "debian",
