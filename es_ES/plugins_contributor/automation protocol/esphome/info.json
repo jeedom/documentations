@@ -1,0 +1,30 @@
+{
+  "id": "esphome",
+  "name": "ESPHome",
+  "description": "ESPhome est un outil puissant et convivial pour le développement de dispositifs IoT avec les micro-contrôleurs ESP8266 et ESP32, en simplifiant la création du firmware et en offrant des fonctionnalités d'intégration avec Jeedom, Merci à David69 de m'avoir aidé pour le système climate sur ESPHome.",
+  "logicalId": "esphome",
+  "category": "automation protocol",
+  "version": "0.1",
+  "author": "vegeta0911",
+  "documentation": "https://vegeta0911.github.io/documentation/plugins/fr_FR/ESPhome/",
+  "changelog": "https://vegeta0911.github.io/documentation/plugins/fr_FR/ESPhome/changelog",
+  "hasDependency": true,
+  "hasOwnDeamon": true,
+  "maxDependancyInstallTime": 0,
+  "require": "4.4",
+  "os": {
+		"min": 11
+	},
+  "language": [
+		"fr_FR"
+	],
+  "compatibility" : [              
+        "smart",       
+        "docker",            
+        "diy",               
+        "luna",        
+        "v4",         
+        "Atlas"
+     ]
+}
+
