@@ -4,11 +4,13 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# 09/01/2026 (bêta)
+# 12/01/2026 (beta))
 
 - Ajout de la fonctionnalité flushQueue pour la version Chirpstack V4
 
 - Fix bug migration password authentication failed (PostgreSQL)
+
+- Solución mediante un LNS externo
 
 # 07/11/2025
 
