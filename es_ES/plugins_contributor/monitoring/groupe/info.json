@@ -1,13 +1,31 @@
 {
 	"id" : "groupe",
 	"name" : "Groupe",
-	"licence" : "AGPL",
+	"pluginVersion": "2.0",
 	"description": "Plugin permettant la création d'un widget avec l'état d'un groupe",
 	"author" : "zyg0m4t1k",
-	"require" : "3.3.24",
+	"licence": "AGPL",
+	"require" : "4.2",
 	"category" : "monitoring",
 	"changelog" : "https://zyg0m4t1k.github.io/groupe/#language#/changelog",
 	"documentation" : "https://zyg0m4t1k.github.io/groupe/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]		
+	"language": [
+		"fr_FR",
+		"en_US",
+		"es_ES",
+		"de_DE",
+		"ru_RU",
+		"id_ID",
+		"it_IT",
+		"ja_JP",
+		"pt_PT"
+	],
+	"compatibility": [
+		"smart",
+		"luna",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy"
+	]	
 }
