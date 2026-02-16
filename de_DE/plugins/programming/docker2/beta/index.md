@@ -8,6 +8,10 @@ Dieses Plugin ermöglicht es, Docker-Container direkt aus Jeedom zu installieren
 >
 >Dieses Plugin soll keine dedizierte Software wie Portainer ersetzen, es dient nur dazu, einfache Befehle auszuführen und Docker zu verwalten, während es einfach bleibt.
 
+>**WICHTIG**
+>
+>
+
 # Configuration
 
 Sobald die Abhängigkeiten installiert sind, müssen Sie „Docker 1“ lokal aktivieren (im Moment ist es möglich, die Verbindung zu einem entfernten Docker hinzuzufügen). Sie können den Cron auch für die Aktualisierungshäufigkeit konfigurieren. Wir empfehlen Ihnen, zu setzen ``*/5 * * * *``.

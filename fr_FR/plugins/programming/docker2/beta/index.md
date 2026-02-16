@@ -8,6 +8,10 @@ Ce plugin permet d'installer et de gérer et de créer des conteneurs Docker dir
 >
 >Ce plugin n'a pas vocation à remplacer un logiciel dédié type Portainer, il est juste fait pour exécuter des commandes simples et gérer Docker en restant basique.
 
+>**IMPORTANT**
+>
+>Bien que en stable ce plugin est du Beta en interne car trop de soucis de fonctionnement, on le laisse pour les utilisateurs qui l'utilise mais on deconseil fortement sont utilisation pour tout nouvel utilisateur
+
 # Configuration
 
 Une fois les dépendances installées, il faut activer "Docker 1" en local (pour le moment il est possible qu'on rajoute la connexion sur un docker distant). Vous pouvez aussi configurer le cron pour la fréquence de mise à jour, nous vous conseillons de mettre ``*/5 * * * *``.

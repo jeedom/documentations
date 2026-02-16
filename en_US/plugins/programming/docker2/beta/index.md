@@ -8,6 +8,10 @@ This plugin allows to install and manage and create Docker containers directly f
 >
 >This plugin is not intended to replace dedicated software such as Portainer, it is just made to execute simple commands and manage Docker while remaining basic.
 
+>**IMPORTANT**
+>
+>Although stable, this plugin is in internal beta due to too many functionality issues. We leave it available for existing users, but we strongly advise against its use for new users
+
 # Configuration
 
 Once the dependencies are installed, you must activate "Docker 1" locally (for the moment it is possible to add the connection to a remote docker). You can also configure the cron for the update frequency, we advise you to put ``*/5 * * * *``.
