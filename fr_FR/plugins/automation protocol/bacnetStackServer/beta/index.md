@@ -4,6 +4,7 @@
 
 Le plugin **BACnet Stack Server** permet de transformer votre Jeedom en serveur BACnet. Il expose vos équipements et commandes Jeedom sous forme d'objets BACnet accessibles par d'autres systèmes de GTB (Gestion Technique du Bâtiment).
 
+
 ### Principe de fonctionnement
 
 Ce plugin fonctionne comme un **pont bidirectionnel** entre Jeedom et le protocole BACnet :

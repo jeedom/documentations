@@ -78,7 +78,7 @@
         "Il permet aussi de pouvoir utiliser les scènes et les groupes": "También te permite usar escenas y grupos",
         "Odace SFSP": "Odace SFSP",
         "Plugin ajoutant le support de la gamme Odace SFSP (sans fil sans pile) Schneider à Jeedom": "Complemento que agrega soporte para la gama Odace SFSP (inalámbrica sin batería) Schneider a Jeedom",
-        "Integre desormais une partie Client BACnet pour permettre a Jeedom de se connecter a d'autres serveurs BACnet et d'en exploiter les objets": "",
+        "Integre desormais une partie Client BACnet pour permettre a Jeedom de se connecter a d'autres serveurs BACnet et d'en exploiter les objets": "Integre desormais une partie Client BACnet pour permettre a Jeedom de se connecter a d'autres serveurs BACnet et d'en exploiter les objets",
         "Le plugin": "Le plugin",
         "Plugin permettant de créer un device Bacnet\/Jeedom": "Complemento que permite crear un dispositivo Bacnet\/Jeedom",
         "Import de fichier EDE": "Import de fichier EDE",

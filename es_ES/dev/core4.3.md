@@ -1,4 +1,4 @@
-## Núcleo v4.3 | Desarrolladores de complementos
+## .3 | 
 
 ### Obsolete
 
