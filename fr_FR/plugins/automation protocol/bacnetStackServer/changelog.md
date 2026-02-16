@@ -3,6 +3,19 @@
 # Changelog BACnetStack Server
 
 
+# 16/02/2026
+
+- Ajout documentation contextuelle
+- Fix écriture clients BACnet
+
+# 13/02/2026
+
+- Nouvelle UI
+- Ajout Client Bacnet : decouverte via whois, objectList, création d'équipements pour lire des devices bacnet
+- Ajout Souscription COV sur les objets Bacnet
+- Ajout Nouvelle Configuration/Charger configuration depuis la page de mapping
+- Ajout en masse via équipement sur la page de mapping
+
 # 26/11/2025
 
 - Modifications selection commandes à lier
