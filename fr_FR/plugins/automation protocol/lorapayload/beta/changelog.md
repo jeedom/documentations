@@ -4,7 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 12/02/2026 (Beta)
+# 16/02/2026 (Beta)
+
+- Ajout du produit *Nexelec RACK+ X950 Air Quality Monitor*
+
+- Changement de la commande digital du produit *Elsys EMS* de numérique en binaire
 
 - **Nexelec Guard+ ---> Inversion de la commande info Smoke Status**
 
