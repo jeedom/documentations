@@ -4,6 +4,15 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 08/09/2024
+
+- Compatibilidad con Debian 12
+- Se requiere una versión mínima de jeedom: 4.4.8
+
+# 01/03/2024
+
+- Preparándose para el apuro 4.4
+
 # 19/12/2023
 
 - Soporte mejorado para la configuración de red interna jeedom
@@ -32,7 +41,7 @@
 
 # 29/11/2021
 
-- Posibilidad de desinstalar Deconz, gracias @Benjamin 
+- Posibilidad de desinstalar Deconz, gracias @Benjamin
 - Se agregó ZHAAirQualit, meric @sagitaz
 - Se corrigió un error con la última versión de deconz al devolver actualizaciones de atributos
 - Adición de gestión grupal y vinculante
