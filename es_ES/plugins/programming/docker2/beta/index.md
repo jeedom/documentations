@@ -10,7 +10,7 @@ Este complemento permite instalar, administrar y crear contenedores Docker direc
 
 >**IMPORTANTE**
 >
->
+>Bien que en stable ce plugin est du Beta en interne car trop de soucis de fonctionnement, on le laisse pour les utilisateurs qui l'utilise mais on deconseil fortement sont utilisation pour tout nouvel utilisateur
 
 # Configuration
 

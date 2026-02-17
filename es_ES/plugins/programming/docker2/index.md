@@ -8,6 +8,10 @@ Este complemento permite instalar, administrar y crear contenedores Docker direc
 >
 >Este complemento no pretende reemplazar el software dedicado como Portainer, solo está hecho para ejecutar comandos simples y administrar Docker sin dejar de ser básico.
 
+>**IMPORTANTE**
+>
+>
+
 # Configuration
 
 Una vez instaladas las dependencias se debe activar "Docker 1" localmente (por el momento es posible agregar la conexión a un docker remoto). También puede configurar el cron para la frecuencia de actualización, le recomendamos que ponga ``*/5 * * * *``.
