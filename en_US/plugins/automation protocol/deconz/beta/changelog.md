@@ -4,7 +4,7 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 
+# 17/02/2026
 
 - Debian 12 Compatibility
 - Minimum jeedom version required: 4.4.8
