@@ -1,6 +1,14 @@
 # Changelog BACnetStack Server
 
 
+
+# 17/02/2026
+
+- Ajout HeartBeat daemon
+- Déclenchement reSubscribeAllCOV sur reconnexion du daemon
+- Timeout/reconnexion renforcée sur daemon
+
+
 # 16/02/2026
 
 - Ajout documentation contextuelle
