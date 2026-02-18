@@ -2,6 +2,10 @@
 
 
 
+# 18/02/2026
+
+- Nouvelle écran Supervision (monitoring des équipements Clients, historique des derniers événements)
+
 # 17/02/2026
 
 - Ajout HeartBeat daemon
