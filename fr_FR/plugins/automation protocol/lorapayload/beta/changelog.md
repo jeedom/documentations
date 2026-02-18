@@ -4,11 +4,21 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 16/02/2026 (Beta)
+# 17/02/2026 (Beta)
+
+- Fix bug choix langage fichier decoder 
+
+- Ajout decoder js Elsys
+
+- Fix decalage horaire panel csv4 et  mise à jour du format d'affichage
+
+- Ajout du produit *Elsys ERS Series LoRaWAN Sensor*
 
 - Ajout du produit *Nexelec RACK+ X950 Air Quality Monitor*
 
 - Changement de la commande digital du produit *Elsys EMS* de numérique en binaire
+
+- Ajouter les commandes downlinks du produit *Dragino LT-22222*
 
 - **Nexelec Guard+ ---> Inversion de la commande info Smoke Status**
 
