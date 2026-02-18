@@ -1,6 +1,18 @@
 # Changelog BACnetStack Server
 
 
+
+# 18/02/2026
+
+- Nouvelle écran Supervision (monitoring des équipements Clients, historique des derniers événements)
+
+# 17/02/2026
+
+- Ajout HeartBeat daemon
+- Déclenchement reSubscribeAllCOV sur reconnexion du daemon
+- Timeout/reconnexion renforcée sur daemon
+
+
 # 16/02/2026
 
 - Ajout documentation contextuelle
