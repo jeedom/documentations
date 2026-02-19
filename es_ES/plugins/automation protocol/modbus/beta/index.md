@@ -148,7 +148,7 @@ Par défaut, 3 types de commandes d'écriture sont proposées lors de la créati
 
 **Utilisation** : Écrire sur plusieurs registres **qui se suivent** en une seule opération.
 
-#### Configuration via l'interface :
+#### Méthode 1 : 
 
 1. Créer une commande **Action/Défaut**
 2. Choisir le function code : **FC16**
@@ -167,15 +167,78 @@ Par défaut, 3 types de commandes d'écriture sont proposées lors de la créati
 
 **IMPORTANTE** : Les valeurs seront écrites séquentiellement à partir du registre de départ, en tenant compte du nombre de registres requis par chaque format.
 
-**Ejemplo** : 
+**Ejemplo** :
 - Registro de salida : 10
 - Valeur 1 : 15 (format int32) → Écrira sur les registres 10 et 11
 - Valeur 2 : 20 (format int16) → Écrira sur le registre 12
 - Etc.
 
-#### Configuration par scénario :
+#### Méthode 2 : )
 
-Vous pouvez également créer/modifier une commande FC16 via un scénario sans passer par l'interface :
+ **** .
+
+1. Créer une commande **Action/Message**
+2. Choisir le function code : **FC16**
+3. Cocher **"isSpecific"** dans la configuration avancée
+)
+
+##### 
+
+**|valeur|format`** *(recommandé)*
+
+.
+
+```
+84|210|int16
+```
+
+
+**** : 
+
+```
+84|210|int16;85|1500|uint16
+```
+
+
+**|format`** *()*
+
+```
+210|int16
+```
+
+
+**!** *()*
+
+```
+84!
+```
+
+
+|  | Format |
+|------|--------|
+|   |   |
+|   |   |
+|   | Float32 |
+|   |  |
+|   | uint32 |
+
+##### 
+
+
+
+##### 
+
+```
+ : 
+#[Equipement][Ecriture Eqlogic1][message]# = "84|210|int16"
+
+
+#[Equipement][Ecriture Eqlogic1][message]# = "84|210|int16;85|1500|uint16"
+```
+
+#### Méthode 3 : 
+
+ :
 
 ```php
 $cmd = cmd::byId(iddevotrecommande);

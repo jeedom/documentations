@@ -148,7 +148,7 @@ Par défaut, 3 types de commandes d'écriture sont proposées lors de la créati
 
 **Utilisation** : Écrire sur plusieurs registres **qui se suivent** en une seule opération.
 
-#### Configuration via l'interface :
+#### Méthode 1 : Configuration statique via l'interface
 
 1. Créer une commande **Action/Défaut**
 2. Choisir le function code : **FC16**
@@ -167,15 +167,78 @@ Par défaut, 3 types de commandes d'écriture sont proposées lors de la créati
 
 **Important** : Les valeurs seront écrites séquentiellement à partir du registre de départ, en tenant compte du nombre de registres requis par chaque format.
 
-**Exemple** : 
+**Exemple** :
 - Registre de départ : 10
 - Valeur 1 : 15 (format int32) → Écrira sur les registres 10 et 11
 - Valeur 2 : 20 (format int16) → Écrira sur le registre 12
 - Etc.
 
-#### Configuration par scénario :
+#### Méthode 2 : Écriture dynamique via Message (isSpecific)
 
-Vous pouvez également créer/modifier une commande FC16 via un scénario sans passer par l'interface :
+Cette méthode permet de **choisir le registre et la valeur à runtime** depuis un scénario ou le dashboard, sans reconfigurer la commande.
+
+1. Créer une commande **Action/Message**
+2. Choisir le function code : **FC16**
+3. Cocher **"isSpecific"** dans la configuration avancée
+4. Envoyer le message avec la syntaxe souhaitée (voir ci-dessous)
+
+##### Formats acceptés
+
+**Format standard — `registre|valeur|format`** *(recommandé)*
+
+Le registre spécifié dans le message remplace le registre de départ configuré sur la commande.
+
+```
+84|210|int16
+```
+→ Écrira 210 (int16) au registre 84
+
+**Plusieurs registres consécutifs** : séparer par `;`
+
+```
+84|210|int16;85|1500|uint16
+```
+→ Écrira 210 au registre 84, puis 1500 au registre 85
+
+**Format court — `valeur|format`** *(utilise le registre de départ configuré)*
+
+```
+210|int16
+```
+→ Écrira 210 (int16) au registre de départ défini sur la commande
+
+**Ancien format — `registre!valeur&code`** *(compatibilité ascendante)*
+
+```
+84!20&1
+```
+→ Écrira 20 au registre 84, format code 1
+
+| Code | Format |
+|------|--------|
+| `1`  | int16  |
+| `2`  | int32  |
+| `3`  | float32 |
+| `4`  | uint16 |
+| `5`  | uint32 |
+
+##### Formats de données disponibles
+
+`int16`, `int32`, `int64`, `uint16`, `uint32`, `uint64`, `float32`, `float64`
+
+##### Exemple scénario Jeedom
+
+```
+// Écriture dynamique : registre 84, valeur 210, format int16
+#[Equipement][Ecriture Eqlogic1][message]# = "84|210|int16"
+
+// Plusieurs registres consécutifs
+#[Equipement][Ecriture Eqlogic1][message]# = "84|210|int16;85|1500|uint16"
+```
+
+#### Méthode 3 : Configuration par scénario PHP
+
+Vous pouvez également modifier la configuration statique FC16 via un scénario :
 
 ```php
 $cmd = cmd::byId(iddevotrecommande);
