@@ -4,7 +4,9 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 12/01/2026 (beta))
+# )
+
+- 
 
 - Ajout de la fonctionnalité flushQueue pour la version Chirpstack V4
 
