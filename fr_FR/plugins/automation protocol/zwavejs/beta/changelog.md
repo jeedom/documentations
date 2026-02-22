@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 21/02/2026
+
+- Passage à la version *11.12.0* de ZwaveJsUI (beta) *(semble résoudre les alertes "Dead" intempestives)*
+
 # 11/02/2026
 
 - Passage à la version *11.6.1* de ZwaveJsUI (stable)

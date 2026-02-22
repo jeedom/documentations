@@ -6,9 +6,13 @@
 
 # 
 
+- Mudar para a versão ** de ZwaveJsUI (beta) *()*
+
+# 11/02/2026
+
 - Mudar para a versão *11.6.1* de ZwaveJsUI (stable)
-- Mudar para a versão ** de ZwaveJsUI (beta)
-- )
+- Mudar para a versão *11.11.0* de ZwaveJsUI (beta)
+- Ajout d'une option dans la page de configuration du plugin pour configurer un port de contrôleur distant via socket tcp (utile pour les controleurs comme le SLZB-MR1U)
 
 # 04/11/2025
 
