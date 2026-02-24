@@ -6,7 +6,12 @@
 
 # 
 
-- Zur Version wechseln ** de ZwaveJsUI (beta) *()*
+- .: )
+- 
+
+# 21/02/2026
+
+- Zur Version wechseln *11.12.0* de ZwaveJsUI (beta) *(semble résoudre les alertes "Dead" intempestives)*
 
 # 11/02/2026
 
