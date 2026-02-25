@@ -6,8 +6,8 @@
 >If there is no information on the update, it means that it only concerns updating documentation, translation or text.
 
 
-# 
-- 
+# 24/11/2025
+- Fix changement de consignes autorisée
 
 # 05/11/2025
 - **Amélioration de la gestion des timeouts et des erreurs HTTP** :

@@ -69,6 +69,24 @@ Si le serveur n'est pas activé, vous devez l'activer en cliquant sur le bouton 
 
 Dans la section "Gestion des Lignes Actives", vous retrouverez toutes les unités connectées à votre équipement CoolAutomation et disponibles pour être intégrées à Jeedom.
 
+# )
+
+. : : VA001).
+
+> **Note**
+> ). .
+
+## 
+
+ ****.
+.
+.
+.
+ ****.
+
+. .
+
+
 
 
 # Personnalisation de l'équipement
