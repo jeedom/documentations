@@ -4,7 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 19/02/2026 (Beta)
+# 24/02/2026 (Beta)
+
+- Fix decoder dragino PS-LB et WQS-LB
+
+- Upgrade decoder Nexelec-X2 et X5
 
 - Fix bug install dependance python Debian 12 
 
@@ -37,6 +41,8 @@
 - Correction downlink *Vanne Micropelt*
 
 - Fix utilisation d'un LNS externe
+
+- Ajout des commandes pour le produit *Thermokon 798228*
 
 # 24/01/2026 (bêta)
 
