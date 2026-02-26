@@ -2,6 +2,11 @@
 
 
 
+# 26/02/2026
+
+- Ajout bouton Tout historiser sur equipements de type Clients
+- Ajout champ de recherche sur le tableau après le resultat des objets
+
 # 18/02/2026
 
 - Nouvelle écran Supervision (monitoring des équipements Clients, historique des derniers événements)
