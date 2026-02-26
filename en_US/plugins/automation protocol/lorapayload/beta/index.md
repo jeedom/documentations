@@ -600,9 +600,9 @@ json
 ## 
 -  :  
   -  **** for exploitation on ****,  
-  -  **JSON** for automated use or scripts.  
+  -  **** for automated use or scripts.  
 
- **Access path** :  `html/plugins/lorapayload/resources/lorapayload/payloads`
+ **Access path** :  
 
 → rak10701 files.csv and rak10701_history.json.
 !alt text](../images/rak3.png)
@@ -611,7 +611,7 @@ If write permission is not granted, restore the folder and file permissions in t
 
 ## 6. Download the file and process the data
 !alt text](../images/rak4.png)
-_________
+
 # FAQ
 
 -   Some commands do not update at the same time as others : yes indeed some Lorawan modules do not necessarily send all the information at the same time and with the same frequency
