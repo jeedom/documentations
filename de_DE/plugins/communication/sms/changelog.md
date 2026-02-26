@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+## 08.09.2024
+
+- Problem beim Empfang von SMS behoben
+
 ## 31.08.2024
 
 - Debian 12-Kompatibilität
