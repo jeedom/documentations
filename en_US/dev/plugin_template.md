@@ -1,6 +1,6 @@
 # 
 
- [](https:github.comjeedomplugin-template)
+ [here](https:github.comjeedomplugin-template)
 
 #  : l'arborescence
 
@@ -46,7 +46,7 @@
 
 ## ``info.json``
 
- [](https:doc.jeedom.com/en_US/devstructure_info_json)
+ [here](https:doc.jeedom.com/en_US/devstructure_info_json)
 
 ## ``install.php``
 
@@ -197,7 +197,7 @@ Ensuite vient le paramètre demandé (il peut en avoir plusieurs), c'est une syn
  ?>
  ````
 
-Une fois sur cette page vous aurez accès en  à toutes les fonctions du core de jeedom (voir [](https:www.jeedom.comdocdocumentationcode) ) ainsi qu'à celles de tous les modules installés donc le vôtre aussi.
+Une fois sur cette page vous aurez accès en  à toutes les fonctions du core de jeedom (voir [here](https:www.jeedom.comdocdocumentationcode) ) ainsi qu'à celles de tous les modules installés donc le vôtre aussi.
 
 Toutes ces pages étant des vues elles utilisent principalement la syntaxe HTML. Pour tout ce qui est présentation, Jeedom se base principalement sur bootstrap donc toute la [documentation](http:getbootstrap.com) est applicable.
 
@@ -337,7 +337,7 @@ Le premier argument donne le dossier dans lequel le trouver (attention c'est le 
 
 ## CSS
 
-Ce dossier contient vos fichiers CSS (il ne devrait pas être trop utilisé) , vo comment les inclure sur votre page :
+Ce dossier contient vos fichiers CSS (il ne devrait pas être trop utilisé) , vohere comment les inclure sur votre page :
 
 ````php
 <? include_file('desktop', 'weather', 'css', 'weather') ?>
@@ -361,7 +361,7 @@ La deuxième ligne charge votre modal et l'affichage.  : plugin, l' de votre plu
 
 ## API JS
 
-Ce n'est pas un dossier mais dans les dernières versions de Jeedom celui-ci offre au développeur toute une api javascript (cela évite d'écrire des appels  dans tous les sens). J'essayerai de faire un article pour expliquer les différentes fonctionnalités mais vous pouvez déjà trouver le code .
+Ce n'est pas un dossier mais dans les dernières versions de Jeedom celui-ci offre au développeur toute une api javascript (cela évite d'écrire des appels  dans tous les sens). J'essayerai de faire un article pour expliquer les différentes fonctionnalités mais vous pouvez déjà trouver le code here.
 
 Voilà pour les détails du . Je me doute qu'il n'est pas des plus complets (j'essayerai de le compléter en fonction des différentes demandes reçues) mais j'espère que grâce à lui vous pourrez commencer à faire des plugins pour Jeedom.
 
@@ -384,7 +384,7 @@ $('body').delegate('.helpSelectCron','click',function() {
 
 .
 
- :  : 
+Note :  : 
 
 ## PHP
 
@@ -448,7 +448,7 @@ Dossier très important, c'est le moteur de votre plugin. C'est là que viennent
 - ````
 - ``Cmd``
 
-La première devant hériter de la classe eqLogic et la deuxième de cmd. Vo un template :
+La première devant hériter de la classe eqLogic et la deuxième de cmd. Vohere un template :
 
 ````php
 <?php
@@ -527,13 +527,13 @@ class plugin_idCmd extends cmd {
 
  assez simple mais complet, le principe est le suivant, si la commande est une action ou une info (mais pas en événement seulement et que son  est dépassé) alors jeedom appelle cette méthode.
 
-Dans notre exemple  c'est une commande pour faire parler S.A.R.A.H, où le plugin récupère les paramètres dans \$\_options (attention c'est un tableau et ses attributs changent en fonction du sous-type de la commande : color pour un sous-type color, slider pour un sous-type slider, title et message pour un sous-type message et vide pour un sous-type other).
+Dans notre exemple here c'est une commande pour faire parler S.A.R.A.H, où le plugin récupère les paramètres dans \$\_options (attention c'est un tableau et ses attributs changent en fonction du sous-type de la commande : color pour un sous-type color, slider pour un sous-type slider, title et message pour un sous-type message et vide pour un sous-type other).
 
 Voila pour la partie obligatoire, voila maintenant ce qui peut être utilisé à coté (avec exemple) :
 
 ### toHtml(\$\_version = 'dashboard')
 
-Fonction utilisable dans la commande ou dans l'équipement, en fonction des besoins, vo un exemple pour l'équipement
+Fonction utilisable dans la commande ou dans l'équipement, en fonction des besoins, vohere un exemple pour l'équipement
 
 ````php
 public function toHtml($_version = 'dashboard') {
@@ -646,7 +646,7 @@ public function toHtml($_version = 'dashboard') {
 $_version = jeedom::versionAlias($_version)
 ````
 
-Récupération d'un template de commande,  le template de commande : pluginsweathercoretemplate\$\_versionforecast. (\$\_version valant mobile ou dashboard)
+Récupération d'un template de commande, here le template de commande : pluginsweathercoretemplate\$\_versionforecast. (\$\_version valant mobile ou dashboard)
 
 ````php
 $forcast_template = getTemplate('core', $_version, 'forecast', 'weather')
@@ -710,14 +710,14 @@ return $html
 - ``preSave`` 
 - ``postSave`` 
 - ``preRemove`` 
-- ``postRemove`` 
+- ``postRemove`` ⇒ Method called after your object has been deleted
 
-) :
+Example, still using the weather plugin, of creating commands or updating them after saving (the example is simplified)) :
 
 ````php
-() {
+public function postUpdate() {
       $weatherCmd = $this->getCmd(null, 'temperature')
-       (!)) {
+       (!is_object($weatherCd)) {
           $weatherCmd = new weatherCmd()
       }
       $weatherCmd->setName(__('Température', __FILE__))
@@ -757,9 +757,9 @@ public static function updateWeatherData($_options) {
 }
 ````
 
-.
+Here we see that during the call, the relevant equipment is retrieved, then commands are executed to retrieve the values and update them if necessary.
 
- :
+Very important part :
 
 ````php
 $weather->checkAndUpdateCmd($cmd,$cmd->execute())
@@ -775,10 +775,10 @@ public function dontRemoveCmd() {
 }
 ````
 
- :
+Finally, here are a few tips and tricks :
 
-- )
-- ) :
+- Avoid (unless you know what you're doing) overriding a method of the inherited class (this can cause many problems))
+- To check the battery percentage of a device, do so on that device (Jeedom will take care of the rest and notify the user if necessary)) :
 
 ````php
 $eqLogic->batteryStatus(56)
