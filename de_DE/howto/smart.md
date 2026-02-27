@@ -14,11 +14,9 @@ Avant toute chose, **il est indispensable de réaliser une sauvegarde de Jeedom*
 
 ## Restauration système par eMMC
 
-La procédure suivante explique comment mettre à jour l'environnement système de la box Jeedom Smart sous **Debian 11 Bullseye**.
+Dieses Verfahren erklärt, wie die Systemumgebung einer noch laufenden Jeedom Smart Box aktualisiert wird **Debian 10 Buster**. Il est nécessaire de graver directement le support de stockage interne *(eMMC)* en suivant les étapes suivantes.
 
 >**IMPORTANT**
->
->La restauration système par clé USB n'a pu être maintenue sur ce nouvel environnement, il est donc nécessaire de graver directement le support de stockage interne *(eMMC)* en suivant les étapes suivantes.
 >
 >**Avant de vous lancer, n'hésitez surtout pas à visionner la vidéo de remplacement de l'eMMC  détaillant le démontage et le remontage de la box Jeedom Smart** *(2 minutes)*:
 >
@@ -36,7 +34,7 @@ Afin de réaliser la mise à jour du système, il faut:
 
 	**OU**
 
-- Télécharger le fichier [**JeedomSmart_Debian11.img.xz**](https://images.jeedom.com/smart/previous/JeedomSmart_Debian11.img.xz)
+- Télécharger la dernière [**image système Jeedom Smart fournie par l'équipe**](https://images.jeedom.com/smart/){:target="_blank"}
 - S'équiper d'**un adapteur eMMC>USB/SD/µSD compatible Odroid-C2** pour graver l'image depuis un ordinateur, par exemple:
 
 	![Exemple d'adaptateur eMMC](./images/emmc_adapter.jpg)
@@ -67,7 +65,7 @@ Afin de réaliser la mise à jour du système, il faut:
 
 3. Ouvrir le logiciel de gravure *(balenaEtcher par exemple)*.
 
-4. Sélectionner **le fichier JeedomSmart_Debian11.img.xz comme source**, **le support eMMC comme cible** puis démarrer la gravure.
+4. Sélectionner **le fichier d'image système comme source**, **le support eMMC comme cible** puis démarrer la gravure.
 
 5. A l'issue de la gravure, débrancher l'adapteur de l'ordinateur puis déclipser l'eMMC et la reclipser sous la carte mère de la Smart.
 
@@ -81,24 +79,9 @@ Afin de réaliser la mise à jour du système, il faut:
 
 3. Revisser l'antenne puis rebrancher les périphériques externes en terminant par le câble d'alimentation.
 
-## Restauration système par clé USB *(obsolète)*
+## Restauration système automatique ou USB
 
-### Prérequis
-
-Afin de réaliser la mise à jour du système, il faut:
-
-- S'équiper d'**une clé USB (minimum 8Go)**
-- Télécharger le fichier [**backupJeedom.tar.gz**](https://images.jeedom.com/smart/backupJeedom.tar.gz)
-
-### Restauration par USB
-
-1. Copier le fichier **backupJeedom.tar.gz** sur la clé USB formatée en FAT32.
-
-2. Débrancher le câble d'alimentation électrique puis brancher la clé USB sur la Smart.
-
-3. Rebrancher le câble d'alimentation électrique et patienter environ 30 minutes *(la box ne doit pas être redémarrée durant la restauration système)*.
-
-4. A l'issue de la procédure la box réapparait sur le réseau.
+Une fois le système Debian installé en version 11 ou supérieure, les mises à jour du système peuvent ensuite être effectuées directement depuis le core Jeedom en suivant [la nouvelle procédure d'installation sur Smart](../installation/recovery)
 
 ## Prise en main du nouveau système
 
@@ -124,4 +107,4 @@ Le système ayant été réinstallé, le premier accès à l'interface Jeedom do
 
 ### Modification du port du contrôleur interne
 
-**Sous Debian 11 il est nécessaire de modifier le port du contrôleur interne** qui n'est plus `/dev/ttyS1` mais `/dev/ttyAML1` sur ce nouveau système.
+**A partir de Debian 11 il est nécessaire de modifier le port du contrôleur interne** qui n'est plus `/dev/ttyS1` mais `/dev/ttyAML1` sur ce nouveau système.
