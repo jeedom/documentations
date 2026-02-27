@@ -5,6 +5,10 @@
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
 
+# 
+
+- 
+
 # 10/11/2025
 
 - Possibilité de créér des 'sous equipements' une fois un scan d'un équipement effectué ou après un import EDE, pour y ajouter des objects BACnet et ainsi segmenter un équipement BACnet
