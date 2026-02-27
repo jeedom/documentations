@@ -14,7 +14,7 @@ Avant toute chose, **il est indispensable de réaliser une sauvegarde de Jeedom*
 
 ## Restauration système par eMMC
 
-Cette procédure explique comment mettre à jour l'environnement système d'une' box Jeedom Smart encore sous **Debian 10 Buster**. Il est nécessaire de graver directement le support de stockage interne *(eMMC)* en suivant les étapes suivantes.
+Cette procédure explique comment mettre à jour l'environnement système d'une box Jeedom Smart encore sous **Debian 10 Buster**. Il est nécessaire de graver directement le support de stockage interne *(eMMC)* en suivant les étapes suivantes.
 
 >**IMPORTANT**
 >
