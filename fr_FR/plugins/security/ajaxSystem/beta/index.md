@@ -35,14 +35,6 @@ Pour la mise en place du lien entre votre Jeedom et votre alarme Ajax il faut al
 >
 > Une fois le lien fait toute les requetes passent par notre cloud mais à aucun moment le cloud ne stock votre token d'accès, il n'est donc pas possible avec seulement le cloud jeedom d'agir sur votre alarme. Pour toute action sur celle-ci il faut absolument la combinaison du token d'accès de votre Jeedom et d'une clef connu uniquement de notre cloud 
 
-### Configuration de la remontée d'événements
-
-Il faut depuis l'application Ajax aller sur le hub puis dans parametres (petite roue crantée en haut à droite) aller sur utilisateur et la rajouter l'utilisateur : ajax@jeedom.com
-
->**NOTE**
->
->L'invitation reste et restera toujours en attente c'est normal
-
 ## Equipement 
 
 Une fois la configuration sur "Plugin" -> "Gestion de plugin" -> "Ajax Système" il vous suffit de faire synchroniser, Jeedom va automatiquement créer tous les équipements Ajax reliés à votre compte Ajax. 

@@ -35,14 +35,6 @@ Um die Verbindung zwischen Ihrem Jeedom und Ihrem Ajax-Alarm herzustellen, gehen
 >
 > Sobald die Verbindung hergestellt ist, werden alle Anforderungen über unsere Cloud gesendet. In der Cloud wird Ihr Zugriffstoken jedoch zu keinem Zeitpunkt gespeichert, sodass nicht nur mit der Jeedom-Cloud auf Ihren Alarm reagiert werden kann. Für jede Aktion benötigen Sie unbedingt die Kombination aus dem Zugriffstoken Ihres Jeedom und einem Schlüssel, der nur unserer Cloud bekannt ist 
 
-### Konfiguration der Ereignisberichterstattung
-
-Gehen Sie in der Ajax-Anwendung zum Hub und dann in den Einstellungen (kleines Zahnrad oben rechts) zum Benutzer und fügen Sie den Benutzer hinzu : ajax@jeedom.com
-
->**HINWEIS**
->
->Die Einladung bleibt und bleibt immer ausstehend, das ist normal
-
 ## Ausrüstung 
 
 Sobald die Konfiguration auf "Plugin" -> "Plugin-Verwaltung" -> "Ajax-System" steht, müssen Sie nur noch synchronisieren, Jeedom erstellt automatisch alle Ajax-Geräte, die mit Ihrem Ajax-Konto verknüpft sind. 

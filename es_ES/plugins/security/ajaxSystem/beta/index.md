@@ -35,14 +35,6 @@ Para configurar el enlace entre su Jeedom y su alarma Ajax, vaya a "Complemento"
 >
 > Una vez realizado el enlace todas las solicitudes pasan por nuestra nube pero en ningún momento la nube almacena su token de acceso, por lo que no es posible con solo la nube jeedom actuar en su alarma. Para cualquier acción al respecto, es absolutamente necesario la combinación del token de acceso de Jeedom y una clave conocida solo en nuestra nube 
 
-### Configuración de informes de eventos
-
-Desde la aplicación Ajax, vaya al concentrador y luego en la configuración (pequeña rueda dentada en la parte superior derecha) vaya al usuario y agregue el usuario : ajax@jeedom.com
-
->**NOTA**
->
->La invitación permanece y siempre estará pendiente, esto es normal
-
 ## Equipo 
 
 Una vez que la configuración está en "Complemento" -> "Administración de complementos" -> "Sistema Ajax", solo tiene que sincronizar, Jeedom creará automáticamente todos los equipos Ajax vinculados a su cuenta Ajax. 
