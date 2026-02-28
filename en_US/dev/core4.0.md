@@ -2,73 +2,73 @@
 
 ### Deprecated
 
--  [](https://fontawesome.com/how-to-use/on-the-web/setup/upgrading-from-version-4#name-changes).
+- Font Awesome 4 is no longer integrated into the Core, replaced by Font Awesome 5 [migration](https://fontawesome.com/how-to-use/on-the-web/setup/upgrading-from-version-4#name-changes).
 
-### 
+### V4 compatibility on the market
 
-.
+Version 3, to be released in November 2020, will have a migration module allowing users to upgrade from version 3 to version 4.
 
-..
+During the migration phase from v3 to v4, plugins without v4 compatibility are included in their information.json will alert the end user before the update.
 
 
-..
+If your plugin is compatible with v4, indicate this in the info.json of your plugin.
 
- ****: `"compatibility" : 
+Example **info.json**: `"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"],`
 
-:
+You can test from a scenario/code block whether your plugins have the correct compatibility information:
 
 <details>
 
   <summary markdown="span">scénario / bloc Code</summary>
 
-  
+  ~~~ php
   {% raw %}
-  )
+  //Author of plugins to check (case sensitive)
   $author = 'Jeedom SAS';
 
   $plugins = repo_market::byFilter(['author' => $author]);
   $pluginsArray = utils::o2a($plugins);
   $countPlugins = 0;
   $countIncompatibles = 0;
-  ) {
-    ) {
+  foreach ($pluginsArray as $plugin) {
+    if ($plugin['author'] == $author) {
       $countPlugins++;
-    '] != '1') {
+    if ($plugin['hardwareCompatibility']['v4'] != '1') {
         $countIncompatibles++;
       $scenario->setLog('Plugin ' . $plugin['name'] . ' does not have v4 compatibility tag.');
     }
     }
   }
-  ) {
-    ) {
+  if ($countPlugins > 0) {
+    if ($countIncompatibles > 0) {
       $scenario->setLog($author . ' : ' . $countIncompatibles . ' potentially incompatible Jeedom V4 plugin on ' . $countPlugins . ' checked');
-    }  {
+    } else {
       $scenario->setLog('All ' . $countPlugins . ' plugin developed by ' . $author . ' are Jeedom V4 compatible. Congratulations!');
     }
-  }  {
+  } else {
     $scenario->setLog('No plugin found for ' . $author);
   }
   {% endraw %}
-  
+  ~~~
 
 </details>
 
-### 
+### Adapting plugins for Core v4
 
--  [](https://github.com/jeedom/plugin-template/blob/master/desktop/php/template.php)).
--  : 
--  : 
-- :
-  - )
-    - )
-- :
-    - !
-    - :
-      - : 
-        -  : `success`
+- Clean the inline style as much as possible (see [plugin template](https://github.com/jeedom/plugin-template/blob/master/desktop/php/template.php)).
+- span command display : class `state`
+- Control button : a class `action`
+- On the input-group:
+  - class `roundedLeft` on the first element (an input, button etc.))
+    - class `roundedRight` on the last element (an input, button etc.))
+- On the eqLogicThumbnailContainer div:
+    - Remove all styles!
+    - Add a color class to the parent divs:
+      - logo colors: `logoPrimary` and `logoSecondary`
+        - Green : `success`
         - bleu: `info`
         - orange: `warning`
-        -  : `danger`
+        - red : `danger`
 - Note regarding plugins with templates: The refresh icon has changed (font-awesome 5)) :
 - Pay attention to the classes of the buttons, inputs, etc:
     - btn : 32px high
@@ -78,7 +78,7 @@
 
 - Test the plugins on the three 2019 themes: Light / Dark / Legacy.
 
-- PNG images with alpha channels where necessary, to avoid unsightly white squares in Dark theme.
+- PNG images with alpha channels where necessary, to avoid unsightly white squares in the Dark theme.
 
 Ultimately, the plugin pages must be consistent with the core object/scenario/interaction pages (sizes, colors, layouts, etc.)). No stylistic flourishes, but consistency.
 
@@ -111,7 +111,7 @@ The core automatically deletes files older than 7 days that have not been update
 - Files whose name begins with `custom` are also unaffected.
 
 If you wish to make a change before the cleanup, you can use `pre_install`.php` (in plugin_info).
-See [](https://github.com/jeedom/plugin-template/blob/master/plugin_info/pre_install.php)
+See [plugin template](https://github.com/jeedom/plugin-template/blob/master/plugin_info/pre_install.php)
 
 ### GitHub link market
 

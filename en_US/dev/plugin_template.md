@@ -60,7 +60,7 @@ See [](https://doc.jeedom.com/en_US/dev/structure_info_json)
 - ``pluginid_update()`` : . 
 - ``pluginid_remove()`` : . 
 
- :
+Example :
 
 ````php
 <?php
@@ -82,36 +82,36 @@ See [](https://doc.jeedom.com/en_US/dev/structure_info_json)
 
 
 () {
-    $cron = cron::byClassAndFunction('zwave', 'pull')
-     (!)) {
-        $cron = new cron()
-        $cron->setClass('zwave')
-        $cron->setFunction('pull')
-        $cron->setEnable(1)
-        $cron->setDeamon(1)
-        $cron->setSchedule('* * * * *')
-        $cron->save()
+    $cron = cron::byClassAndFunction('zwave', 'pull');
+    if (!)) {
+        $cron = new cron();
+        $cron->setClass('zwave');
+        $cron->setFunction('pull');
+        $cron->setEnable(1);
+        $cron->setDeamon(1);
+        $cron->setSchedule('* * * * *');
+        $cron->save();
     }
 }
 
 () {
-    $cron = cron::byClassAndFunction('zwave', 'pull')
-     (!)) {
-        $cron = new cron()
-        $cron->setClass('zwave')
-        $cron->setFunction('pull')
-        $cron->setEnable(1)
-        $cron->setDeamon(1)
-        $cron->setSchedule('* * * * *')
-        $cron->save()
+    $cron = cron::byClassAndFunction('zwave', 'pull');
+    if (!)) {
+        $cron = new cron();
+        $cron->setClass('zwave');
+        $cron->setFunction('pull');
+        $cron->setEnable(1);
+        $cron->setDeamon(1);
+        $cron->setSchedule('* * * * *');
+        $cron->save();
     }
-    $cron->stop()
+    $cron->stop();
 }
 
 () {
-    $cron = cron::byClassAndFunction('zwave', 'pull')
+    $cron = cron::byClassAndFunction('zwave', 'pull');
     )) {
-        $cron->remove()
+        $cron->remove();
     }
 }
 ?>
@@ -129,7 +129,7 @@ Le fichier est constitué de :
 
 Ensuite vient le paramètre demandé (il peut en avoir plusieurs), c'est une syntaxe standard Bootstrap pour les formulaires, les seules particularités à respecter sont la classe (``configKey``) à mettre sur l'élément de paramètre ainsi que le "data-l1key" qui indique le nom du paramètre. Pour récupérer la valeur de celui-ci ailleurs dans le plugin il suffit de faire : ``config::byKey(NOM_PARAMETRE, PLUGIN_ID)``
 
- :
+Example :
 
 ````php
 <?php
@@ -151,9 +151,9 @@ Ensuite vient le paramètre demandé (il peut en avoir plusieurs), c'est une syn
 
  
 
- (!isConnect()) {
-    include_file('desktop', '404', 'php')
-    die()
+if (!isConnect()) {
+    include_file('desktop', '404', 'php');
+    die();
  }
  ?>
  <form class="form-horizontal">
@@ -190,7 +190,7 @@ Ensuite vient le paramètre demandé (il peut en avoir plusieurs), c'est une syn
 
 ````php
 <?php
- (!')) {
+if (!')) {
     
  }
  
@@ -204,7 +204,7 @@ Toutes ces pages étant des vues elles utilisent principalement la syntaxe HTML.
 Pour simplifier la création de plugin vous pouvez inclure dans votre page le script javascript de template pour les plugins :
 
 ````php
-<?php include_file('core', 'plugin.template', 'js') ?>
+<?php include_file('core', 'plugin.template', 'js'); ?>
 ````
 
 . ).
@@ -235,8 +235,8 @@ Là, par exemple, lors du chargement des données jeedom mettra la valeur du nom
 
 ````php
 ) {
-     (!)) {
-        : {}}
+    if (!)) {
+        : {}};
      }
     
       : 
@@ -248,8 +248,8 @@ Là, par exemple, lors du chargement des données jeedom mettra la valeur du nom
      }
      
     
-     $('#table_cmd tbody').append(tr)
-    $('#table_cmd tbody tr:last').setValues(_cmd, '.cmdAttr')
+     $('#table_cmd tbody').append(tr);
+    $('#table_cmd tbody tr:last').setValues(_cmd, '.cmdAttr');
 }
 ````
 
@@ -264,57 +264,57 @@ Dernier point: un exemple plus complet avec type et sous-type de commande :
 
 ````php
 ) {
-     (!)) {
-        var _cmd = {}
+    if (!)) {
+        var _cmd = {};
     }
-      (!.configuration)) {
-        _cmd.configuration = {}
+     if (!.configuration)) {
+        _cmd.configuration = {};
     }
-     var selRequestType = '<select style="width : 90px" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="requestType">'
-     selRequestType += '<option value="script">{{Script}}</option>'
-     selRequestType += '<option value="http">{{Http}}</option>'
-     selRequestType += '</select>'
-    var tr = ''     tr += '<input class="cmdAttr form-control input-sm" data-l1key="name" style="width : 140px">'
+     var selRequestType = '<select style="width : 90px;" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="requestType">';
+     selRequestType += '<option value="script">{{Script}}</option>';
+     selRequestType += '<option value="http">{{Http}}</option>';
+     selRequestType += '</select>';
+    var tr = '';     tr += '<input class="cmdAttr form-control input-sm" data-l1key="name" style="width : 140px;">';
     tr += '<input class="cmdAttr form-control input-sm" data-l1key="id"  style="display : 
-    tr += '' + selRequestType
-    tr += '<div class="requestTypeConfig" data-type="http">'
-    tr += '<input type="checkbox" class="cmdAttr" data-l1key="configuration" data-l2key="noSslCheck" />Ne pas vérifier SSL'
-    tr += '</div>'
+    tr += '' + selRequestType;
+    tr += '<div class="requestTypeConfig" data-type="http">';
+    tr += '<input type="checkbox" class="cmdAttr" data-l1key="configuration" data-l2key="noSslCheck" />Ne pas vérifier SSL';
+    tr += '</div>';
          
-    tr += '<span class="type" type="' + init(_cmd.type) + '">' + jeedom.cmd.availableType() + '</span>'
-    tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>'
-         tr += '<textarea style="height : 95px" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="request"></textarea>'
-    tr += '<a class="btn btn-default browseScriptFile cursor input-sm" style="margin-top : 5px"><i class="fa fa-folder-open"></i> {{Parcourir}}</a> '
-    tr += '<a class="btn btn-default editScriptFile cursor input-sm" style="margin-top : 5px"><i class="fa fa-edit"></i> {{Editer}}</a> '
-    tr += '<a class="btn btn-success newScriptFile cursor input-sm" style="margin-top : 5px"><i class="fa fa-file-o"></i> {{Nouveau}}</a> '
-    tr += '<a class="btn btn-danger removeScriptFile cursor input-sm" style="margin-top : 5px"><i class="fa fa-trash-o"></i> {{Supprimer}}</a> '
-    tr += '<a class="btn btn-warning bt_shareOnMarket cursor input-sm" style="margin-top : 5px"><i class="fa fa-cloud-upload"></i> {{Partager}}</a> '
-    tr += '</div>'
+    tr += '<span class="type" type="' + init(_cmd.type) + '">' + jeedom.cmd.availableType() + '</span>';
+    tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';
+         tr += '<textarea style="height : 95px;" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="request"></textarea>';
+    tr += '<a class="btn btn-default browseScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-folder-open"></i> {{Parcourir}}</a> ';
+    tr += '<a class="btn btn-default editScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-edit"></i> {{Editer}}</a> ';
+    tr += '<a class="btn btn-success newScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-file-o"></i> {{Nouveau}}</a> ';
+    tr += '<a class="btn btn-danger removeScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-trash-o"></i> {{Supprimer}}</a> ';
+    tr += '<a class="btn btn-warning bt_shareOnMarket cursor input-sm" style="margin-top : 5px;"><i class="fa fa-cloud-upload"></i> {{Partager}}</a> ';
+    tr += '</div>';
          
-    tr += '<input class="cmdAttr form-control tooltips input-sm" data-l1key="unite"  style="width : 100px" placeholder="{{Unité}}" title="{{Unité}}">'
-    tr += '<input class="tooltips cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="minValue" placeholder="{{Min}}" title="{{Min}}"> '
-    tr += '<input class="tooltips cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="maxValue" placeholder="{{Max}}" title="{{Max}}">'
+    tr += '<input class="cmdAttr form-control tooltips input-sm" data-l1key="unite"  style="width : 100px;" placeholder="{{Unité}}" title="{{Unité}}">';
+    tr += '<input class="tooltips cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="minValue" placeholder="{{Min}}" title="{{Min}}"> ';
+    tr += '<input class="tooltips cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="maxValue" placeholder="{{Max}}" title="{{Max}}">';
          
-    tr += '<span><input type="checkbox" class="cmdAttr" data-l1key="isHistorized" /> {{Historiser}}<br/></span>'
+    tr += '<span><input type="checkbox" class="cmdAttr" data-l1key="isHistorized" /> {{Historiser}}<br/></span>';
          
     .id)) {
     
     }
     
     
-    $('#table_cmd tbody').append(tr)
-    $('#table_cmd tbody tr:last').setValues(_cmd, '.cmdAttr')
+    $('#table_cmd tbody').append(tr);
+    $('#table_cmd tbody tr:last').setValues(_cmd, '.cmdAttr');
 
-     (.configuration.requestType)) {
-        $('#table_cmd tbody tr:last .cmdAttr[data-l1key=configuration][data-l2key=requestType]').value(init(_cmd.configuration.requestType))
-        $('#table_cmd tbody tr:last .cmdAttr[data-l1key=configuration][data-l2key=requestType]').trigger('change')
+    if (.configuration.requestType)) {
+        $('#table_cmd tbody tr:last .cmdAttr[data-l1key=configuration][data-l2key=requestType]').value(init(_cmd.configuration.requestType));
+        $('#table_cmd tbody tr:last .cmdAttr[data-l1key=configuration][data-l2key=requestType]').trigger('change');
     }
 
-      (.type)) {
-        $('#table_cmd tbody tr:last .cmdAttr[data-l1key=type]').value(init(_cmd.type))
+     if (.type)) {
+        $('#table_cmd tbody tr:last .cmdAttr[data-l1key=type]').value(init(_cmd.type));
     }
-     jeedom.cmd.changeType($('#table_cmd tbody tr:last'), init(_cmd.subType))
-    initTooltips()
+     jeedom.cmd.changeType($('#table_cmd tbody tr:last'), init(_cmd.subType));
+    initTooltips();
 }
 ````
 
@@ -330,7 +330,7 @@ Dernier point: un exemple plus complet avec type et sous-type de commande :
 - ``saveEqLogic``  :
 
 ````php
-<?php include_file('desktop', 'weather', 'js', 'weather') ?>
+<?php include_file('desktop', 'weather', 'js', 'weather'); ?>
 ````
 
 Le premier argument donne le dossier dans lequel le trouver (attention c'est le dossier père du dossier JS), le deuxième le nom de votre javascript, le troisième indique à Jeedom que c'est un fichier  et le dernier dans quel plugin il se trouve.
@@ -340,7 +340,7 @@ Le premier argument donne le dossier dans lequel le trouver (attention c'est le 
 Ce dossier contient vos fichiers CSS (il ne devrait pas être trop utilisé) , vo comment les inclure sur votre page :
 
 ````php
-<?php include_file('desktop', 'weather', 'css', 'weather') ?>
+<?php include_file('desktop', 'weather', 'css', 'weather'); ?>
 ````
 
 .
@@ -425,7 +425,7 @@ $('body').delegate('.helpSelectCron','click',function() {
     
     
 
-     (!')) {
+    if (!')) {
         
     }
 
@@ -511,21 +511,21 @@ class plugin_idCmd extends cmd {
 
 ````php
 ()) {
-       (! !'])) {
+      if (! !'])) {
           
       }
-      $eqLogic = $this->getEqLogic()
-      $message = ''
+      $eqLogic = $this->getEqLogic();
+      $message = '';
       '])) {
-          $message = $_options['title'] . '. '
+          $message = $_options['title'] . '. ';
       }
-      $message .= $_options['message']
-      $http = new com_http($eqLogic->getConfiguration('addrSrvTts') . '/?tts=' . urlencode($message))
+      $message .= $_options['message'];
+      $http = new com_http($eqLogic->getConfiguration('addrSrvTts') . '/?tts=' . urlencode($message));
       
   }
   ````
 
- assez simple mais complet, le principe est le suivant, si la commande est une action ou une info (mais pas en événement seulement et que son  est dépassé) alors jeedom appelle cette méthode.
+Example assez simple mais complet, le principe est le suivant, si la commande est une action ou une info (mais pas en événement seulement et que son  est dépassé) alors jeedom appelle cette méthode.
 
 Dans notre exemple  c'est une commande pour faire parler S.A.R.A.H, où le plugin récupère les paramètres dans \$\_options (attention c'est un tableau et ses attributs changent en fonction du sous-type de la commande : color pour un sous-type color, slider pour un sous-type slider, title et message pour un sous-type message et vide pour un sous-type other).
 
@@ -537,104 +537,104 @@ Fonction utilisable dans la commande ou dans l'équipement, en fonction des beso
 
 ````php
 public function toHtml($_version = 'dashboard') {
-    $replace = $this->preToHtml($_version)
-     (!is_array($replace)) {
-        return $replace
+    $replace = $this->preToHtml($_version);
+    if (!is_array($replace)) {
+        return $replace;
     }
-    $version = jeedom::versionAlias($_version)
-    $replace['#forecast#'] = ''
-     ($version != 'mobile' || $this->getConfiguration('fullMobileDisplay', 0) == 1) {
-        $forcast_template = getTemplate('core', $version, 'forecast', 'weather')
-        for ($i = 0 $i < 5 $i++) {
-            $replaceDay = array()
-            $replaceDay['#day#'] = date_fr(date('l', strtotime('+' . $i . ' days')))
+    $version = jeedom::versionAlias($_version);
+    $replace['#forecast#'] = '';
+    if ($version != 'mobile' || $this->getConfiguration('fullMobileDisplay', 0) == 1) {
+        $forcast_template = getTemplate('core', $version, 'forecast', 'weather');
+        for ($i = 0; $i < 5; $i++) {
+            $replaceDay = array();
+            $replaceDay['#day#'] = date_fr(date('l', strtotime('+' . $i . ' days')));
 
-             ($i == 0) {
-                $temperature_min = $this->getCmd(null, 'temperature_min')
+            if ($i == 0) {
+                $temperature_min = $this->getCmd(null, 'temperature_min');
             } else {
-                $temperature_min = $this->getCmd(null, 'temperature_' . $i . '_min')
+                $temperature_min = $this->getCmd(null, 'temperature_' . $i . '_min');
             }
-            $replaceDay['#low_temperature#'] = is_object($temperature_min) ? $temperature_min->execCmd() : ''
+            $replaceDay['#low_temperature#'] = is_object($temperature_min) ? $temperature_min->execCmd() : '';
 
-             ($i == 0) {
-                $temperature_max = $this->getCmd(null, 'temperature_max')
+            if ($i == 0) {
+                $temperature_max = $this->getCmd(null, 'temperature_max');
             } else {
-                $temperature_max = $this->getCmd(null, 'temperature_' . $i . '_max')
+                $temperature_max = $this->getCmd(null, 'temperature_' . $i . '_max');
             }
-            $replaceDay['#hight_temperature#'] = is_object($temperature_max) ? $temperature_max->execCmd() : ''
-            $replaceDay['#tempid#'] = is_object($temperature_max) ? $temperature_max->getId() : ''
+            $replaceDay['#hight_temperature#'] = is_object($temperature_max) ? $temperature_max->execCmd() : '';
+            $replaceDay['#tempid#'] = is_object($temperature_max) ? $temperature_max->getId() : '';
 
-             ($i == 0) {
-                $condition = $this->getCmd(null, 'condition')
+            if ($i == 0) {
+                $condition = $this->getCmd(null, 'condition');
             } else {
-                $condition = $this->getCmd(null, 'condition_' . $i)
+                $condition = $this->getCmd(null, 'condition_' . $i);
             }
-            $replaceDay['#icone#'] = is_object($condition) ? self::getIconFromCondition($condition->execCmd()) : ''
-            $replaceDay['#conditionid#'] = is_object($condition) ? $condition->getId() : ''
-            $replace['#forecast#'] .= template_replace($replaceDay, $forcast_template)
+            $replaceDay['#icone#'] = is_object($condition) ? self::getIconFromCondition($condition->execCmd()) : '';
+            $replaceDay['#conditionid#'] = is_object($condition) ? $condition->getId() : '';
+            $replace['#forecast#'] .= template_replace($replaceDay, $forcast_template);
         }
     }
-    $temperature = $this->getCmd(null, 'temperature')
-    $replace['#temperature#'] = is_object($temperature) ? $temperature->execCmd() : ''
-    $replace['#tempid#'] = is_object($temperature) ? $temperature->getId() : ''
+    $temperature = $this->getCmd(null, 'temperature');
+    $replace['#temperature#'] = is_object($temperature) ? $temperature->execCmd() : '';
+    $replace['#tempid#'] = is_object($temperature) ? $temperature->getId() : '';
 
-    $humidity = $this->getCmd(null, 'humidity')
-    $replace['#humidity#'] = is_object($humidity) ? $humidity->execCmd() : ''
+    $humidity = $this->getCmd(null, 'humidity');
+    $replace['#humidity#'] = is_object($humidity) ? $humidity->execCmd() : '';
 
-    $pressure = $this->getCmd(null, 'pressure')
-    $replace['#pressure#'] = is_object($pressure) ? $pressure->execCmd() : ''
-    $replace['#pressureid#'] = is_object($pressure) ? $pressure->getId() : ''
+    $pressure = $this->getCmd(null, 'pressure');
+    $replace['#pressure#'] = is_object($pressure) ? $pressure->execCmd() : '';
+    $replace['#pressureid#'] = is_object($pressure) ? $pressure->getId() : '';
 
-    $wind_speed = $this->getCmd(null, 'wind_speed')
-    $replace['#windspeed#'] = is_object($wind_speed) ? $wind_speed->execCmd() : ''
-    $replace['#windid#'] = is_object($wind_speed) ? $wind_speed->getId() : ''
+    $wind_speed = $this->getCmd(null, 'wind_speed');
+    $replace['#windspeed#'] = is_object($wind_speed) ? $wind_speed->execCmd() : '';
+    $replace['#windid#'] = is_object($wind_speed) ? $wind_speed->getId() : '';
 
-    $sunrise = $this->getCmd(null, 'sunrise')
-    $replace['#sunrise#'] = is_object($sunrise) ? $sunrise->execCmd() : ''
-    $replace['#sunid#'] = is_object($sunrise) ? $sunrise->getId() : ''
-     (strlen($replace['#sunrise#']) == 3) {
-        $replace['#sunrise#'] = substr($replace['#sunrise#'], 0, 1) . ':' . substr($replace['#sunrise#'], 1, 2)
-    } else  (strlen($replace['#sunrise#']) == 4) {
-        $replace['#sunrise#'] = substr($replace['#sunrise#'], 0, 2) . ':' . substr($replace['#sunrise#'], 2, 2)
+    $sunrise = $this->getCmd(null, 'sunrise');
+    $replace['#sunrise#'] = is_object($sunrise) ? $sunrise->execCmd() : '';
+    $replace['#sunid#'] = is_object($sunrise) ? $sunrise->getId() : '';
+    if (strlen($replace['#sunrise#']) == 3) {
+        $replace['#sunrise#'] = substr($replace['#sunrise#'], 0, 1) . ':' . substr($replace['#sunrise#'], 1, 2);
+    } else if (strlen($replace['#sunrise#']) == 4) {
+        $replace['#sunrise#'] = substr($replace['#sunrise#'], 0, 2) . ':' . substr($replace['#sunrise#'], 2, 2);
     }
 
-    $sunset = $this->getCmd(null, 'sunset')
-    $replace['#sunset#'] = is_object($sunset) ? $sunset->execCmd() : ''
-     (strlen($replace['#sunset#']) == 3) {
-        $replace['#sunset#'] = substr($replace['#sunset#'], 0, 1) . ':' . substr($replace['#sunset#'], 1, 2)
-    } else  (strlen($replace['#sunset#']) == 4) {
-        $replace['#sunset#'] = substr($replace['#sunset#'], 0, 2) . ':' . substr($replace['#sunset#'], 2, 2)
+    $sunset = $this->getCmd(null, 'sunset');
+    $replace['#sunset#'] = is_object($sunset) ? $sunset->execCmd() : '';
+    if (strlen($replace['#sunset#']) == 3) {
+        $replace['#sunset#'] = substr($replace['#sunset#'], 0, 1) . ':' . substr($replace['#sunset#'], 1, 2);
+    } else if (strlen($replace['#sunset#']) == 4) {
+        $replace['#sunset#'] = substr($replace['#sunset#'], 0, 2) . ':' . substr($replace['#sunset#'], 2, 2);
     }
 
-    $wind_direction = $this->getCmd(null, 'wind_direction')
-    $replace['#wind_direction#'] = is_object($wind_direction) ? $wind_direction->execCmd() : 0
+    $wind_direction = $this->getCmd(null, 'wind_direction');
+    $replace['#wind_direction#'] = is_object($wind_direction) ? $wind_direction->execCmd() : 0;
 
-    $refresh = $this->getCmd(null, 'refresh')
-    $replace['#refresh_id#'] = is_object($refresh) ? $refresh->getId() : ''
+    $refresh = $this->getCmd(null, 'refresh');
+    $replace['#refresh_id#'] = is_object($refresh) ? $refresh->getId() : '';
 
-    $condition = $this->getCmd(null, 'condition_now')
-    $sunset_time = is_object($sunset) ? $sunset->execCmd() : null
-    $sunrise_time = is_object($sunrise) ? $sunrise->execCmd() : null
-     (is_object($condition)) {
-        $replace['#icone#'] = self::getIconFromCondition($condition->execCmd(), $sunrise_time, $sunset_time)
-        $replace['#condition#'] = $condition->execCmd()
-        $replace['#conditionid#'] = $condition->getId()
-        $replace['#collectDate#'] = $condition->getCollectDate()
+    $condition = $this->getCmd(null, 'condition_now');
+    $sunset_time = is_object($sunset) ? $sunset->execCmd() : null;
+    $sunrise_time = is_object($sunrise) ? $sunrise->execCmd() : null;
+    if (is_object($condition)) {
+        $replace['#icone#'] = self::getIconFromCondition($condition->execCmd(), $sunrise_time, $sunset_time);
+        $replace['#condition#'] = $condition->execCmd();
+        $replace['#conditionid#'] = $condition->getId();
+        $replace['#collectDate#'] = $condition->getCollectDate();
     } else {
-        $replace['#icone#'] = ''
-        $replace['#condition#'] = ''
-        $replace['#collectDate#'] = ''
+        $replace['#icone#'] = '';
+        $replace['#condition#'] = '';
+        $replace['#collectDate#'] = '';
     }
-     ($this->getConfiguration('modeImage', 0) == 1) {
-        $replace['#visibilityIcon#'] = "none"
-        $replace['#visibilityImage#'] = "block"
+    if ($this->getConfiguration('modeImage', 0) == 1) {
+        $replace['#visibilityIcon#'] = "none";
+        $replace['#visibilityImage#'] = "block";
     } else {
-        $replace['#visibilityIcon#'] = "block"
-        $replace['#visibilityImage#'] = "none"
+        $replace['#visibilityIcon#'] = "block";
+        $replace['#visibilityImage#'] = "none";
     }
-    $ = template_replace($replace, getTemplate('core', $version, 'current', 'weather'))
-    cache::set('widgetHtml' . $_version . $this->getId(), $html, 0)
-    return $html
+    $ = template_replace($replace, getTemplate('core', $version, 'current', 'weather'));
+    cache::set('widgetHtml' . $_version . $this->getId(), $html, 0);
+    return $html;
 }
 ````
 
@@ -643,40 +643,40 @@ public function toHtml($_version = 'dashboard') {
 )
 
 ````php
-$_version = jeedom::versionAlias($_version)
+$_version = jeedom::versionAlias($_version);
 ````
 
 Récupération d'un template de commande,  le template de commande : plugins/weather/core/template/\$\_version/forecast. (\$\_version valant mobile ou dashboard)
 
 ````php
-$forcast_template = getTemplate('core', $_version, 'forecast', 'weather')
+$forcast_template = getTemplate('core', $_version, 'forecast', 'weather');
 ````
 
 
 
 ````php
-$html_forecast .= template_replace($replace, $forcast_template)
+$html_forecast .= template_replace($replace, $forcast_template);
 ````
 
 Cela permet de récupérer la commande ayant le logical\_ : temperature\_min
 
 ````php
-$this->getCmd(null, 'temperature_min')
+$this->getCmd(null, 'temperature_min');
 ````
 
 
 
 ````php
-$replace['#temperature#'] = is_object($temperature) ? $temperature->execCmd() : ''
+$replace['#temperature#'] = is_object($temperature) ? $temperature->execCmd() : '';
 ````
 
 Passage important: cela permet de récupérer les personnalisations faites par l'utilisateur sur la page Générale → Affichage et de les réinjecter dans le template
 
 ````php
-$parameters = $this->getDisplay('parameters')
- (is_array($parameters)) {
+$parameters = $this->getDisplay('parameters');
+if (is_array($parameters)) {
     foreach ($parameters as $key => $value) {
-        $replace['#' . $key . '#'] = $value
+        $replace['#' . $key . '#'] = $value;
     }
 }
 ````
@@ -684,13 +684,13 @@ $parameters = $this->getDisplay('parameters')
 : ).
 
 ````php
-cache::' . $_version . $this->getId(), $html, 0)
+cache::' . $_version . $this->getId(), $html, 0);
 ````
 
 Enfin envoi du  à Jeedom :
 
 ````php
-return $html
+return $html;
 ````
 
 . .
@@ -716,29 +716,29 @@ return $html
 
 ````php
 () {
-      $weatherCmd = $this->getCmd(null, 'temperature')
-       (!)) {
-          $weatherCmd = new weatherCmd()
+      $weatherCmd = $this->getCmd(null, 'temperature');
+      if (!)) {
+          $weatherCmd = new weatherCmd();
       }
-      $weatherCmd->setName(__('Température', __FILE__))
-      $weatherCmd->setLogicalId('temperature')
-      $weatherCmd->setEqLogic_id($this->getId())
-      $weatherCmd->setConfiguration('day', '-1')
-      $weatherCmd->setConfiguration('data', 'temp')
-      $weatherCmd->setUnite('°C')
-      $weatherCmd->setType('info')
-      $weatherCmd->setSubType('numeric')
-      $weatherCmd->save()
+      $weatherCmd->setName(__('Température', __FILE__));
+      $weatherCmd->setLogicalId('temperature');
+      $weatherCmd->setEqLogic_id($this->getId());
+      $weatherCmd->setConfiguration('day', '-1');
+      $weatherCmd->setConfiguration('data', 'temp');
+      $weatherCmd->setUnite('°C');
+      $weatherCmd->setType('info');
+      $weatherCmd->setSubType('numeric');
+      $weatherCmd->save();
 
-      $cron = cron::byClassAndFunction('weather', 'updateWeatherData', array('weather_id' => intval($this->getId())))
-       (!)) {
-          $cron = new cron()
-          $cron->setClass('weather')
-          $cron->setFunction('updateWeatherData')
-          $cron->setOption(array('weather_id' => intval($this->getId())))
+      $cron = cron::byClassAndFunction('weather', 'updateWeatherData', array('weather_id' => intval($this->getId())));
+      if (!)) {
+          $cron = new cron();
+          $cron->setClass('weather');
+          $cron->setFunction('updateWeatherData');
+          $cron->setOption(array('weather_id' => intval($this->getId())));
       }
-      $cron->setSchedule($this->getConfiguration('refreshCron', '*/30 * * * *'))
-      $cron->save()
+      $cron->setSchedule($this->getConfiguration('refreshCron', '*/30 * * * *'));
+      $cron->save();
 }
 ````
 
@@ -748,10 +748,10 @@ Ici la méthode updateWeatherData (simplifiée aussi) :
 
 ````php
 public static function updateWeatherData($_options) {
-  $weather = weather::byId($_options['weather_id'])
-   (is_object($weather)) {
+  $weather = weather::byId($_options['weather_id']);
+  if (is_object($weather)) {
       foreach ($weather->getCmd('info') as $cmd) {
-        $weather->checkAndUpdateCmd($cmd,$cmd->execute())
+        $weather->checkAndUpdateCmd($cmd,$cmd->execute());
       }
   }
 }
@@ -762,7 +762,7 @@ public static function updateWeatherData($_options) {
  :
 
 ````php
-$weather->checkAndUpdateCmd($cmd,$cmd->execute())
+$weather->checkAndUpdateCmd($cmd,$cmd->execute());
 ````
 
 Au moment de la fonction ``checkAndUpdateCmd`` (qui permet de signaler à Jeedom une nouvelle mise à jour de la valeur, avec déclenchement de toutes les actions qui doivent être faites : mise à jour du dashboard, vérification des scénarios…​),
@@ -771,7 +771,7 @@ Pour la classe commande, un petit truc à savoir si vous utilisez le template  d
 
 ````php
 public function dontRemoveCmd() {
-  return true
+  return true;
 }
 ````
 
@@ -781,7 +781,7 @@ public function dontRemoveCmd() {
 - ) :
 
 ````php
-$eqLogic->batteryStatus(56)
+$eqLogic->batteryStatus(56);
 ````
 
 - Sur les commandes au moment de l'ajout d'une valeur Jeedom applique la méthode d'instance ``formatValue($_value)`` qui, en fonction du sous-type, peut la remettre en forme (en particulier pour les valeurs binaires)
