@@ -87,13 +87,13 @@ O daemon deve ser iniciado com os parâmetros corretos :
 
 bash
 # Exemplo de um comando de inicialização
-/caminho/para/bacnetStackServer --config /caminho/para/config.json --cli-port 47809 --daemon-port 55009
+/caminho/para/bacnetStackServer --config /caminho/para/config.
 
 
 Parâmetros importantes :
-- `--config` : Arquivo de configuração (necessário para SAVE_CONFIG sem parâmetros))
-- `--cli-port` : Porta CLI (padrão): 47809)
-- `--daemon-port` : Daemon de porta (padrão): 55009)
+-  : Arquivo de configuração (necessário para SAVE_CONFIG sem parâmetros))
+-  : Porta CLI (padrão): 47809)
+-  : Daemon de porta (padrão): 55009)
 
 ## Verificação de conexão
 
@@ -101,15 +101,15 @@ Você pode testar manualmente a conexão com o servidor CLI :
 
 bash
 # Teste com netcat
-" | .1 47809
+" | .
 
 # Teste com telnet
-telnet 127.0.0.1 47809
+.
 
 
 Se a conexão estiver funcionando, você deverá ver uma resposta do servidor.
 
-## Solução alternativa : Salvar sem o botão
+##  : Salvar sem o botão
 
 Se o serviço não iniciar, você pode salvar a configuração manualmente :
 
@@ -125,7 +125,7 @@ Se você tiver acesso à linha de comando do servidor :
 
 bash
 # Envie o comando SAVE_CONFIG diretamente
-echo "SALVAR_CONFIGURAÇÃO /caminho/para/backup.json" | .1 47809
+echo "SALVAR_CONFIGURAÇÃO /caminho/para/backup.json" | .
 
 
 ## Prevenção
@@ -147,13 +147,13 @@ javascript
 // Verificar a cada hora se o daemon está ativo
 se (getPluginDaemonInfo('bacnetStackServer')['state'] !== 'ok') {
     // Alertar o administrador
-    cmd::byString('#[Mail][Notification][Message]#')->execCmd([
+    cmd::byString('#[Mail][Notification][Message]#')->
         'título' => 'Daemon BACnet parado',
         'mensagem' => 'O daemon do servidor BACnet Stack foi interrompido'
-    ]);
+    ])
     
     // Opcional : Reiniciar automaticamente
-    // bacnetStackServer::daemon_start();
+    ::daemon_start();
 }
 
 
@@ -190,13 +190,13 @@ A conexão com a porta 47809 expira após 5 segundos.
 Os registros contêm informações valiosas :
 
 
-[2025-11-13 14:30:[00] Configuração do servidor salva : /caminho/para/arquivo.json
-[2025-11-13 14:30:01] Exceção saveBacnetServerConfig : )
-[2025-11-13 14:30:[02] O daemon BACnet não está iniciado
+:30:[00] Configuração do servidor salva : /caminho/para/arquivo.json
+:30:01] Exceção saveBacnetServerConfig : )
+:30:[02] O daemon BACnet não está iniciado
 
 
 Locais de registro :
-- **Plugin** : `/var/www/html/log/bacnetStackServer`
+- **** : 
 - **** : Especificado na configuração do daemon
 
 ## Support
