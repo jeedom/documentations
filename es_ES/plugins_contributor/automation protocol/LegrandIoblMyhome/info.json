@@ -1,0 +1,25 @@
+{
+        "id" : "LegrandIoblMyhome",
+        "name" : "Legrand IOBL and MyHome",
+        "description" : "Plugin pour utiliser le module Legrand USB-CPL et Bticino",
+        "icon" : "fa fa-rebel",
+        "licence" : "AGPL",
+        "changelog" : "https://apages2.github.io/pluginjeedom-legrandioblmyhomePub/#language#/changelog",
+        "documentation" : "https://apages2.github.io/pluginjeedom-legrandioblmyhomePub/#language#/",
+        "author" : "Aurélien PAGES",
+        "require" : "4.0",
+        "category" : "automation protocol",
+        "hasOwnDeamon" : true,
+        "hasDependency" : true,
+        "language": [
+                "fr_FR"
+         ],
+         "compatibility": [
+                "Jeedomboard",
+                "Smart",
+                "RPI\/RPI2",
+                "Docker",
+                "DIY",
+                "v4"
+         ]
+}
