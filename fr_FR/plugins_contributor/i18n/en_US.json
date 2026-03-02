@@ -912,7 +912,7 @@
         "Ce plugin permet de récuperer les informations de santé de ses disques durs grâce à l'outil linux Hard Disk Sentinel": "This plugin allows you to retrieve health information from your hard drives using the Linux Hard Disk Sentinel tool",
         "Grâce à lui vous pourrez utiliser tous vos équipements ALEXA pour piloter votre domotique d'une simple commande vocale": "Thanks to it you will be able to use all your ALEXA equipment to control your home automation with a simple voice command",
         "Ce plugin permet l'utilisation d'un serveur Ha-Bridge": "This plugin allows the use of a Ha-Bridge server",
-        "Plugin permettant la création d'un widget avec l'état d'un groupe": "Plugin allowing the creation of a widget displaying the state of a group",
+        "Regrouper des équipements et piloter un état global avec un widget personnalisable": "",
         "Gain Market": "Gain Market",
         "Récupère votre solde sur le market Jeedom (en tant que développeur) et peut vous alerter lorsqu'il évolue ou que le paiement Jeedom est détecté": "Recovers your balance on the Jeedom market (as a developer) and can alert you when it changes or when the Jeedom payment is detected",
         "Fully KiosK": "Fully KiosK",

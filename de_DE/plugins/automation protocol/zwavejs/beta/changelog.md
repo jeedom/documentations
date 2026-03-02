@@ -4,6 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 
+
+-  **
+
 # 24/02/2026
 
 - Support des images d'équipement personnalisées (Jeedom 4.5) lorsqu'aucune image n'est définie par le plugin (ex: pour le contrôleur)

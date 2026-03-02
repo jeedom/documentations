@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 02/03/2026
+
+- Correction mineure sur la page *Statistiques*
+
 # 24/02/2026
 
 - Support des images d’équipement personnalisées (Jeedom 4.5) lorsqu'aucune image n'est définie par le plugin (ex: pour le contrôleur)

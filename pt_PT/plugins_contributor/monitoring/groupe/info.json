@@ -1,25 +1,32 @@
 {
-	"id" : "groupe",
-	"name" : "Groupe",
+	"id": "groupe",
+	"name": "Groupe",
 	"pluginVersion": "2.0",
-	"description": "Plugin permettant la création d'un widget avec l'état d'un groupe",
-	"author" : "zyg0m4t1k",
+	"description": {
+		"fr_FR": "Regrouper des équipements et piloter un état global avec un widget personnalisable.",
+		"en_US": "Group devices and control a global state with a customizable widget.",
+		"es_ES": "Agrupa equipos y controla un estado global con un widget personalizable.",
+		"de_DE": "Geräte gruppieren und einen globalen Status mit einem anpassbaren Widget steuern.",
+		"it_IT": "Raggruppa dispositivi e controlla uno stato globale con un widget personalizzabile.",
+		"pt_PT": "Agrupe equipamentos e controle um estado global com um widget personalizável."
+	},
+	"author": "zyg0m4t1k",
 	"licence": "AGPL",
-	"require" : "4.2",
-	"category" : "monitoring",
-	"changelog" : "https://zyg0m4t1k.github.io/groupe/#language#/changelog",
-	"documentation" : "https://zyg0m4t1k.github.io/groupe/#language#/",
+	"require": "4.4",
+	"category": "monitoring",
+	"changelog": "https://zyg0m4t1k.github.io/docs/plugins/groupe/changelog/",
+	"documentation": "https://zyg0m4t1k.github.io/docs/plugins/groupe/",
 	"language": [
-		"fr_FR",
+		"de_DE",
 		"en_US",
 		"es_ES",
-		"de_DE",
-		"ru_RU",
-		"id_ID",
+		"fr_FR",
 		"it_IT",
-		"ja_JP",
 		"pt_PT"
 	],
+	"os": {
+		"min": 11
+	},
 	"compatibility": [
 		"smart",
 		"luna",
@@ -27,5 +34,5 @@
 		"rpi",
 		"docker",
 		"diy"
-	]	
+	]
 }
