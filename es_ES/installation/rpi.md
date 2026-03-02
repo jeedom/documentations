@@ -6,23 +6,13 @@ Encontrará aquí la documentación para instalar Jeedom en una PI de frambuesa 
 
 ## Descargue la última imagen "lite""
 
-[Generador de imágenes Raspberry Pi](https://www.raspberrypi.com/software/)  le permite descargar directamente la imagen de instalación del sistema operativo Raspberry Pi, en su versión más reciente, y grabar la imagen directamente en la tarjeta SD. Tenga en cuenta que debe tener una versión de Debian 11 (Bullseye), Jeedom aún no es compatible con Debian 12 (pero estamos trabajando en ello)).
+[Generador de imágenes Raspberry Pi](https://www.raspberrypi.com/software/)  .
 
 ## Habilitar acceso SSH
 
 > **Advertencia**
 >
-> Por razones de seguridad, el acceso SSH ya no está habilitado de forma predeterminada en esta distribución. Entonces tienes que activarlo.
-
-Se debe crear un archivo ssh vacío en la partición de arranque (el único accesible bajo Windows).
-
-Solo haz clic derecho : documento nuevo / de texto y cámbiele el nombre a "ssh" **sin extensión**
-
-> **Importante**
->
-> En Windows, en el Explorador, debe verificar su configuración en pantalla / opciones / modificar la carpeta y las opciones de búsqueda /
-
-![ExtensionFichier](images/ExtensionFichier.PNG)
+> Por razones de seguridad, el acceso SSH ya no está habilitado de forma predeterminada en esta distribución. .
 
 ## Inicie la Raspberry Pi
 
@@ -43,7 +33,7 @@ Luego use, por ejemplo, PuTTY para establecer su conexión [Aquí](http://www.pu
 
 Ingrese la dirección IP de su Raspberry Pi (aquí 192.168.0.10) y haga clic en abrir. Acepte el mensaje de seguridad predeterminado en el primer inicio de sesión.
 
-Inicie sesión con credenciales **pi / frambuesa**
+.
 
 > **Importante**
 >
@@ -56,8 +46,6 @@ wget https://raw.githubusercontent.com/jeedom/core/master/install/instalar.sh
 chmod +x instalar.sh
 ./instalar.sh
 ```
-
-**La contraseña de sudo también es frambuesa**
 
 > **Nota**
 >

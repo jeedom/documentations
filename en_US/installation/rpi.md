@@ -6,23 +6,13 @@ You will find here the documentation to install Jeedom on a raspberry PI **with 
 
 ## Download the latest "lite" image"
 
-[Raspberry Pi Imager](https://www.raspberrypi.com/software/)  allows you to directly download the Raspberry Pi OS installation image, in its most recent version, and burn the image directly to the SD card. Please note you must take a Debian 11 version (Bullseye), Jeedom is not yet compatible with Debian 12 (but we are working on it).
+[Raspberry Pi Imager](https://www.raspberrypi.com/software/)  allows you to download the Raspberry Pi OS installation image and burn the image directly onto the SD card.
 
 ## Enable SSH access
 
 > **Warning**
 >
-> For security reasons, SSH access is no longer enabled by default on this distribution. So you have to activate it.
-
-An empty ssh file must be created on the boot partition (the only one accessible under windows).
-
-Just right click : new / text document and rename it to "ssh" **without extension**
-
-> **Important**
->
-> Under Windows, in Explorer, you must therefore check your settings in display / options / modify the folder and search options /
-
-![ExtensionFichier](images/ExtensionFichier.PNG)
+> For security reasons, SSH access is no longer enabled by default on this distribution. Therefore, it must be activated via the advanced options of Raspberry Pi Imager.
 
 ## Start the Raspberry Pi
 
@@ -43,7 +33,7 @@ Then use for example PuTTY to establish your connection [Here](http://www.putty.
 
 Enter the IP address of your Raspberry Pi (here 192.168.0.10) and click on open. Accept the default security message on first login.
 
-Log in with credentials **pi / raspberry**
+Log in with the credentials you set in Raspberry Pi Imager during the burning process.
 
 > **Important**
 >
@@ -56,8 +46,6 @@ wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
 chmod +x install.sh
 ./install.sh
 ```
-
-**The sudo password is also raspberry**
 
 > **NOTE**
 >
