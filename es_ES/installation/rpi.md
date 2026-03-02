@@ -6,13 +6,13 @@ Encontrará aquí la documentación para instalar Jeedom en una PI de frambuesa 
 
 ## Descargue la última imagen "lite""
 
-[Generador de imágenes Raspberry Pi](https://www.raspberrypi.com/software/)  .
+[Generador de imágenes Raspberry Pi](https://www.raspberrypi.com/software/)  permet de télécharger l'image d'installation de Raspberry Pi OS et de graver l'image directement sur la carte SD.
 
 ## Habilitar acceso SSH
 
 > **Advertencia**
 >
-> Por razones de seguridad, el acceso SSH ya no está habilitado de forma predeterminada en esta distribución. .
+> Por razones de seguridad, el acceso SSH ya no está habilitado de forma predeterminada en esta distribución. Il faut donc l'activer via les options avancées de Raspberry Pi Imager.
 
 ## Inicie la Raspberry Pi
 
@@ -33,7 +33,7 @@ Luego use, por ejemplo, PuTTY para establecer su conexión [Aquí](http://www.pu
 
 Ingrese la dirección IP de su Raspberry Pi (aquí 192.168.0.10) y haga clic en abrir. Acepte el mensaje de seguridad predeterminado en el primer inicio de sesión.
 
-.
+Connectez-vous avec les identifiants que vous avez défini dans Raspberry Pi Imager lors de la gravure.
 
 > **Importante**
 >

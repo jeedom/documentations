@@ -6,13 +6,13 @@ Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-
 
 ## Laden Sie das neueste "lite" -Bild herunter"
 
-[Raspberry Pi Imager](https://www.raspberrypi.com/software/)  .
+[Raspberry Pi Imager](https://www.raspberrypi.com/software/)  permet de télécharger l'image d'installation de Raspberry Pi OS et de graver l'image directement sur la carte SD.
 
 ## Aktivieren Sie den SSH-Zugriff
 
 > **Warnung**
 >
-> Aus Sicherheitsgründen ist der SSH-Zugriff für diese Distribution standardmäßig nicht mehr aktiviert. .
+> Aus Sicherheitsgründen ist der SSH-Zugriff für diese Distribution standardmäßig nicht mehr aktiviert. Il faut donc l'activer via les options avancées de Raspberry Pi Imager.
 
 ## Starten Sie den Raspberry Pi
 
@@ -33,7 +33,7 @@ Verwenden Sie dann beispielsweise PuTTY, um Ihre Verbindung herzustellen [Hier](
 
 Geben Sie die IP-Adresse Ihres Raspberry Pi ein (hier 192.168.0.10) und klicken Sie auf Öffnen. Akzeptieren Sie die Standardsicherheitsmeldung bei der ersten Anmeldung.
 
-.
+Connectez-vous avec les identifiants que vous avez défini dans Raspberry Pi Imager lors de la gravure.
 
 > **Wichtig**
 >
