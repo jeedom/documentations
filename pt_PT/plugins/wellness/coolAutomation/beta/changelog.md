@@ -6,6 +6,13 @@
 >Se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
 
+
+# 
+- )
+-  : 
+- 
+
+
 # 24/11/2025
 - Fix changement de consignes autorisée
 

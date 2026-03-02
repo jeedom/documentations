@@ -1,7 +1,11 @@
 # Changelog bacnetStackServer
 
-# Changelog BACnetStack Server
 
+# 02/03/2026
+
+- Optimisation Trendlog : résolution immédiate de l'objet source et création de la commande associée lors du scan et historisation des valeurs sur celle ci
+- Prise en charge fichiers EDE sur un équipement Client
+- Lors de l'injection d'un EDE, possibilité de créér des équipements par 'thématique'
 
 
 # 26/02/2026

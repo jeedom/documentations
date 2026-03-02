@@ -6,6 +6,13 @@
 >If there is no information on the update, it means that it only concerns updating documentation, translation or text.
 
 
+
+# 
+- )
+-  : 
+- 
+
+
 # 24/11/2025
 - Fix changement de consignes autorisée
 
