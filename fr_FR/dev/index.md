@@ -17,6 +17,7 @@ Un [compte développeur](https://blog.jeedom.com/jeedom-partenaire/) est nécess
 - [Transfert de plugin](/fr_FR/dev/transfert)
 
 - [Développement js et Core 4.4 +](/fr_FR/dev/corejs/index)
+- [Développement PHP](/fr_FR/dev/php/index)
 
 ### Évolutions du Core et adaptations des plugins
 
