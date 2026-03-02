@@ -7,10 +7,10 @@
 
 
 
-# 
-- )
--  : 
-- 
+# 25/02/2026
+- Ajout integration equipements via VA(virtuelles adresses) (nouveau bouton Ajout via VA)
+- Fix : au changement de serial number d'un coolMaster, apres sauvegarde, les unités deja créées seront mise à jour avec ce serial number, et non plus créées de nouveau
+- Ajout boutons desactiver modbus, bacnet, et redemarrer coolMaster
 
 
 # 24/11/2025
