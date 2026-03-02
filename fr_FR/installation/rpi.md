@@ -6,23 +6,13 @@ Vous trouverez ici la documentation pour installer Jeedom sur un raspberry Pi **
 
 ## Télécharger la dernière image "lite"
 
-[Raspberry Pi Imager](https://www.raspberrypi.com/software/)  permet de télécharger directement l'image d'installation de Raspberry Pi OS, dans sa version la plus récente et de graver l'image directement sur la carte SD. Attentoin il faut prendre une version debian 11 (Bullseye), Jeedom n'étant pas encore compatible Debian 12 (mais on y travails).
+[Raspberry Pi Imager](https://www.raspberrypi.com/software/)  permet de télécharger l'image d'installation de Raspberry Pi OS et de graver l'image directement sur la carte SD.
 
 ## Activer un accès SSH
 
 > **Warning**
 >
-> Pour des raisons de sécurité, l’accès SSH n’est plus activé par défaut sur cette distribution. Il faut donc l’activer.
-
-Il faut créer sur la partition boot (la seule accessible sous Windows) un fichier ssh vide.
-
-Il suffit de faire un clic droit : nouveau / document texte et le renommer en "ssh" **sans extension**
-
-> **Important**
->
-> Sous Windows, dans l’explorateur, il faut donc vérifier votre paramétrage dans affichage / options / modifier les options de dossiers et de recherche /
-
-![ExtensionFichier](images/ExtensionFichier.PNG)
+> Pour des raisons de sécurité, l’accès SSH n’est plus activé par défaut sur cette distribution. Il faut donc l’activer via les options avancées de Raspberry Pi Imager.
 
 ## Démarrer le Raspberry Pi
 
@@ -43,7 +33,7 @@ Ensuite, utilisez par exemple PuTTY pour établir votre connexion [Ici](http://w
 
 Rentrez l’adresse IP de votre Raspberry Pi (ici 192.168.0.10) et cliquez sur open. Acceptez le message par défaut relatif à la sécurité lors de la première connexion.
 
-Connectez-vous avec les identifiants **pi / raspberry**
+Connectez-vous avec les identifiants que vous avez défini dans Raspberry Pi Imager lors de la gravure.
 
 > **Important**
 >
@@ -56,8 +46,6 @@ wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
 chmod +x install.sh
 ./install.sh
 ```
-
-**Le mot de passe sudo est également raspberry**
 
 > **Note**
 >
