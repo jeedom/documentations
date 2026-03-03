@@ -7,8 +7,8 @@
 
 
 
-# 
--  : 
+# 02/03/2026
+- Ajout bouton Synchronisation : recupere les VA associés au coolMaster et vient mettre à jour les UIDS physiques sur les eqlogics type VA deja créés
 
 
 
