@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 03/03/2026 (Beta)
+# 04/03/2026 (Beta)
 
 - Màj style search bar Panel Lorapayload
 
@@ -51,6 +51,8 @@
 - Fix utilisation d'un LNS externe
 
 - Ajout des commandes pour le produit *Thermokon 798228*
+
+- Ajout le fil pilote sur jeedom compatibility
 
 # 24/01/2026 (bêta)
 
