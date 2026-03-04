@@ -8,6 +8,12 @@
 
 - 
 
+- 
+
+-  
+
+- Fix bug install dependance python Debian 12
+
 - Ajout de la fonctionnalité flushQueue pour la version Chirpstack V4
 
 - Fix bug migration password authentication failed (PostgreSQL)
