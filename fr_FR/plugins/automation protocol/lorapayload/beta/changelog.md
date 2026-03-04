@@ -4,7 +4,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 25/02/2026 (Beta)
+# 03/03/2026 (Beta)
+
+- Màj style search bar Panel Lorapayload
+
+- Fix erreur get list application chirpstack 
+
+- Màj decoder et encoder Nexelec X2 - X5
 
 - MAJ decoder ZP-Meter
 
