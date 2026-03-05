@@ -4,6 +4,12 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 08/02/2026
+
+- Correction of an error in PHP 8
+
+# 12/01/2026
+
 - Support for custom equipment images (Jeedom 4.5)
 - Improved Debian 12 support
 

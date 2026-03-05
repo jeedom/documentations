@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 04/03/2026
+
+- Correction d'un bug empechant le lancement des actions de fin
+
 # 08/02/2026
 
 - Correction d'une erreur sous PHP 8

@@ -1,11 +1,42 @@
 {
-	"id" : "ics",
-	"name" : "Calendrier Ics",
-	"description" : "Plugin pour récupérer des calendrier Ical(Apple,google,Nextcloud,Caldav). Possibilité d'interagir et de lancer des actions selon l'évènement",
-	"licence" : "AGPL",
-	"author" : "Zyg0m4t1k",
-	"require" : "3.3.24",
-	"category" : "organization",
-	"changelog" : "https://zyg0m4t1k.github.io/ics/#language#/changelog",
-	"documentation" : "https://zyg0m4t1k.github.io/ics/#language#/"
+	"id": "ics",
+	"name": "Calendrier Ics",
+	"description": {
+		"fr_FR": "Transformez votre agenda Google, iCloud ou CalDAV en moteur domotique pour Jeedom : déclenchez automatiquement des actions et des scénarios à partir de vos événements de calendrier.",
+		"en_US": "Turn your Google, iCloud or CalDAV calendar into a home automation engine for Jeedom: automatically trigger actions and scenarios from your calendar events.",
+		"es_ES": "Convierte tu calendario de Google, iCloud o CalDAV en un motor domótico para Jeedom: activa automáticamente acciones y escenarios a partir de los eventos de tu calendario.",
+		"it_IT": "Trasforma il tuo calendario Google, iCloud o CalDAV in un motore domotico per Jeedom: attiva automaticamente azioni e scenari a partire dagli eventi del calendario.",
+		"pt_PT": "Transforme o seu calendário Google, iCloud ou CalDAV em um motor de automação residencial para o Jeedom: acione automaticamente ações e cenários a partir dos eventos do calendário.",
+		"de_DE": "Verwandeln Sie Ihren Google-, iCloud- oder CalDAV-Kalender in eine Hausautomations-Engine für Jeedom: Lösen Sie automatisch Aktionen und Szenarien aus Ihren Kalenderereignissen aus."
+	},
+	"licence": "AGPL",
+	"author": "Zyg0m4t1k",
+	"require": "4.4",
+	"os": {
+		"min": 11,
+		"max": 13.99
+	},
+	"category": "organization",
+	"changelog": "https://zyg0m4t1k.github.io/docs/plugins/ics/changelog/",
+	"documentation": "https://zyg0m4t1k.github.io/docs/plugins/ics/",
+	"link": {
+		"forum": "https://community.jeedom.com/t/plugin-tiers-ics-calendier-ios-google-nextcloud-caldav/43310"
+	},
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"smart",
+		"atlas",
+		"luna",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
 }
