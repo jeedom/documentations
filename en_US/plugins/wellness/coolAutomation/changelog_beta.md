@@ -6,8 +6,20 @@
 >If there is no information on the update, it means that it only concerns updating documentation, translation or text.
 
 
-# 
-- 
+
+# 02/03/2026
+- Ajout bouton Synchronisation : recupere les VA associés au coolMaster et vient mettre à jour les UIDS physiques sur les eqlogics type VA deja créés
+
+
+
+# 25/02/2026
+- Ajout integration equipements via VA(virtuelles adresses) (nouveau bouton Ajout via VA)
+- Fix : au changement de serial number d'un coolMaster, apres sauvegarde, les unités deja créées seront mise à jour avec ce serial number, et non plus créées de nouveau
+- Ajout boutons desactiver modbus, bacnet, et redemarrer coolMaster
+
+
+# 24/11/2025
+- Fix changement de consignes autorisée
 
 # 05/11/2025
 - **Amélioration de la gestion des timeouts et des erreurs HTTP** :

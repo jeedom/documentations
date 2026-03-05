@@ -69,6 +69,24 @@ Si le serveur n'est pas activé, vous devez l'activer en cliquant sur le bouton 
 
 Dans la section "Gestion des Lignes Actives", vous retrouverez toutes les unités connectées à votre équipement CoolAutomation et disponibles pour être intégrées à Jeedom.
 
+# Ajout via Adresses Virtuelles (VA)
+
+Le plugin permet d'intégrer des unités configurées via les Adresses Virtuelles (VA) sur votre CoolMaster. Cette méthode est utile lorsque les adresses physiques des unités (ex: L1.001) sont mappées sur des adresses logiques plus simples (ex: VA001).
+
+> **Note**
+> Vos Adresses Virtuelles doivent être configurées sur votre équipement CoolMaster via son interface de configuration (généralement en Telnet). Référez-vous à la documentation de CoolAutomation pour plus de détails.
+
+## Procédure d'ajout
+
+1. Sur la page principale du plugin, cliquez sur le bouton **Ajout via VA**.
+2. Sélectionnez l'équipement CoolMaster concerné si nécessaire.
+3. Une fenêtre s'ouvrira et le plugin interrogera votre CoolMaster pour lister les VA configurées.
+4. Cochez les adresses que vous souhaitez ajouter à Jeedom.
+5. Cliquez sur **Créer**.
+
+Les équipements correspondants seront alors créés dans Jeedom. Ils fonctionneront comme des unités standards, mais seront identifiés par leur Adresse Virtuelle.
+
+
 
 
 # Personnalisation de l'équipement
