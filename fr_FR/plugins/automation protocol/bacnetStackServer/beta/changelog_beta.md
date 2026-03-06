@@ -1,6 +1,14 @@
 # Changelog bacnetStackServer
 
 
+# 06/03/2026
+
+- Priorité d'écriture configurable par objet BACnet Serveur (AO, AV, BO, MSO) :
+  - Nouveau champ `writePriority` dans la configuration JSON du daemon (1-16, défaut : 16)
+  - Sélecteur de priorité dans la modale d'édition d'objet côté Serveur
+  - Priorité prise en compte à l'initialisation du daemon au démarrage
+
+
 # 05/03/2026
 
 - Visualisation des objets Schedule BACnet côté Client :
