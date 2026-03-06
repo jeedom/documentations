@@ -11,10 +11,10 @@
 	},
 	"usage": "Ce plugin permet de calculer l'effet du vent sur la température ressentie, windchill (plutôt lorsque les températures sont basses), ainsi que l'effet d'inconfort provoqué par le taux d'humidité lorsque les températures sont élevées (humidex).",
 	"licence": "AGPL",
-	"author": "Claude Metzger / JAG",
-	"require": "4.2",
+	"author": "JAG",
+	"require": "4.3",
 	"os": {
-		"min": 10,
+		"min": 11,
 		"max": ""
 	},
 	"category": "weather",
