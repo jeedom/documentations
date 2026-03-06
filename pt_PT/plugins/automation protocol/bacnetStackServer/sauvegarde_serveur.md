@@ -164,7 +164,7 @@ php
         }  {
             log::
             
-             : 
+            // Opcional : 
             
             
             
@@ -178,8 +178,8 @@ php
  :
 
 
-:30: : 
-:30: : 
+:30:[00] Configuração do servidor salva : /caminho/para/arquivo.json
+:30: : /caminho/para/arquivo.json
 
 
 ## 
