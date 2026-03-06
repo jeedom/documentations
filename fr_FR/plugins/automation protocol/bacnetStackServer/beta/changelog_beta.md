@@ -3,6 +3,14 @@
 
 # 05/03/2026
 
+- Visualisation des objets Schedule BACnet côté Client :
+  - Bouton calendrier sur les commandes de type `schedule` dans l'équipement
+  - Modale affichant la valeur actuelle, la valeur par défaut, la période effective
+  - Planning hebdomadaire décodé avec les plages horaires et valeurs (null = retour au défaut)
+  - Exceptions décodées : dates fixes, plages de dates, patterns jour/semaine/mois ; support de l'année "any" (BACnet 0xFF)
+  - Décodage natif des propriétés complexes `weekly-schedule`, `exception-schedule` et `effective-period`
+
+
 - Support étendu des types d'objets BACnet côté Client :
   - `accumulator` : compteur impulsions, lecture seule, numérique avec unité
   - `pulse-converter` : conversion impulsions → unités ingénierie, lecture seule, numérique avec unité
