@@ -2,7 +2,7 @@
   "id" : "MerosSync",
   "name": "MerosSync",
   "version": "22 Janvier 2025",
-  "description": "Plugin pour contrôler les appareils MEROSS. Pour l’instant ce plugin fonctionne parfaitement avec les prises connectées meross, les portes de garage, les lumières, les volets roulants, thermostat chauffage et le diffuseur d'huile essentielles. Si vous avez d'autres éléments Meross merci de me contacter en message privé pour que je puisse voir le résultat et améliorer le plugin. De même si vous avez un bug / une question / un message amical :)",
+  "description": "Plugin pour contrôler les appareils MEROSS. Pour l’instant ce plugin fonctionne parfaitement avec les prises connectées meross, les portes de garage, les lumières, les volets roulants, thermostat chauffage, le hub meross avec détecteur de fuite et le diffuseur d'huile essentielles. Si vous avez d'autres éléments Meross merci de me contacter en message privé pour que je puisse voir le résultat et améliorer le plugin. De même si vous avez un bug / une question / un message amical :)",
   "licence": "GPL",
   "author": "jercle",
   "require": "3.0",

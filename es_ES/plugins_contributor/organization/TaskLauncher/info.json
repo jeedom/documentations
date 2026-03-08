@@ -1,11 +1,39 @@
 {
-	"id" : "TaskLauncher",
-	"name" : "Task Launcher",
-	"licence" : "AGPL",
-	"author" : "zyg0m4t1k",
-	"require" : "3.3.24",
-	"category" : "organization",
-	"mobile" : "task",
-	"changelog" : "https://zyg0m4t1k.github.io/TaskLauncher/#language#/changelog",
-	"documentation" : "https://zyg0m4t1k.github.io/TaskLauncher/#language#/"
+	"id": "TaskLauncher",
+	"name": "Task Launcher",
+	"description": {
+		"fr_FR": "Plugin permettant de planifier des réveils, horloges et événements afin de déclencher automatiquement des actions ou des scénarios personnalisés dans Jeedom.",
+		"en_US": "Plugin to schedule alarms, clocks and events in order to automatically trigger actions or custom scenarios in Jeedom.",
+		"es_ES": "Plugin que permite programar alarmas, relojes y eventos para activar automáticamente acciones o escenarios personalizados en Jeedom.",
+		"de_DE": "Plugin zum Planen von Weckern, Uhren und Ereignissen, um automatisch Aktionen oder benutzerdefinierte Szenarien in Jeedom auszulösen.",
+		"it_IT": "Plugin che consente di pianificare sveglie, orologi ed eventi per attivare automaticamente azioni o scenari personalizzati in Jeedom.",
+		"pt_PT": "Plugin que permite agendar alarmes, relógios e eventos para acionar automaticamente ações ou cenários personalizados no Jeedom."
+	},
+	"licence": "AGPL",
+	"author": "zyg0m4t1k",
+	"require": "4.4",
+	"os": {
+		"min": 11,
+		"max": 13.99
+	},
+	"category": "organization",
+	"display": "panel",
+	"mobile": "panel",
+	"changelog": "https://zyg0m4t1k.github.io/docs/plugins/TaskLauncher/changelog/",
+	"documentation": "https://zyg0m4t1k.github.io/docs/plugins/TaskLauncher/",
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy"
+	]
 }
