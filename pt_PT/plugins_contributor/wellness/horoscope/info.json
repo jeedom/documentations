@@ -12,9 +12,9 @@
 	"usage": "Il suffit de créer un équipement (de préférence le nom d'un signe du zodiaque) et de lui affecter le signe correspondant.<br/>Des petites phrases concernant son horoscope seront ensuite générées tous les jours.<br/>Depuis la dernière version, vous avez désormais accès à toutes les composantes du signe (Amour, Famille, Argent, Phrase de jour, ...).<br/>Cela permet de diversifier les messages TTS pour des personnes possédant le même signe du zodiaque par exemple.",
 	"licence": "AGPL",
 	"author": "JAG",
-	"require": "4.2",
+	"require": "4.3",
 	"os": {
-		"min": 10
+		"min": 11
 	},
 	"category": "wellness",
 	"hasDependency": false,
