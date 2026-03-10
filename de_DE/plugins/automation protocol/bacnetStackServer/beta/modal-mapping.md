@@ -2,11 +2,11 @@
 
 . .
 
-## 
+## Zugang
 
  :
 
- **** 
+2. Klicken Sie auf die Schaltfläche **** 
 
 
 > **** : .
@@ -19,7 +19,7 @@
 
  :
 - **** : 
-- **** : ""
+- **Beschreibung** : ""
 - **** : 
 
 ---
@@ -32,21 +32,21 @@
 
 #### 
 
-|  |  |  |
+| Einstellung | Optionen |  |
 |-----------|---------|------------|
-| **** | <br><br><br> **** <br><br><br> |  |
-| **** |  : * * * * * | - |
+| **** | <br><br><br> **Alle 15 Minuten** <br><br><br> |  |
+| **** |  : `* * * * *` | - |
 | **** |  |  |
 
 #### 
+```
 
-
-
+```
 
 **** :
-- * * * * * : 
--  * * * * : 
--  * * * : 
+- `*/5 * * * *` : Alle 5 Minuten
+- `0 * * * *` : 
+-  * * *` : 
 
 ---
 
@@ -56,10 +56,10 @@
 
 #### 
 
-|  |  |  |
+| Einstellung | Optionen |  |
 |-----------|---------|------------|
 | **** |  **)** <br><br><br><br><br> |  |
-| **** |  :  * * * | - |
+| **** |  :  * * *` | - |
 | **** |  |  |
 
 > **** : ".  **** .
@@ -70,10 +70,10 @@
 
 ### 
 
-|  |  |  |
+| Taste |  | Beschreibung |
 |--------|-------|-------------|
-| **** |  |  |
-| **** |  |  |
+| **Fügen Sie ein BACnet-Objekt hinzu** |  |  |
+| **Jetzt synchronisieren** |  |  |
 | **** |  |  |
 
 ---
@@ -88,13 +88,13 @@
 
  :
 
-|  |  |
+| Art | Beschreibung |
 |------|-------------|
 | **** | ) |
+| **Analogwert** | ) |
 | **** | ) |
 | **** | ) |
-| **** | ) |
-| **** | ) |
+| **Binärwert** | ) |
 | **** | ) |
 | **** |  |
 | **** |  |
@@ -146,9 +146,9 @@
 
 #### )
 
- ****) :
+ **Info**) :
 
-|  |  |
+|  | Beschreibung |
 |------|-------------|
 | **** |  |
 | ****  | ) |
@@ -160,12 +160,12 @@
 
  :
 
-|  |  |  |  |
+| Taste |  | Objekttyp | Beschreibung |
 |--------|-------|--------------|-------------|
 | **** |  |  |  |
 | **** |  | multi-state-* |  |
 | **** |  |  |  |
-| **** |  |  |  |
+| **LÖSCHEN** |  |  |  |
 
 #### )
 
@@ -204,9 +204,9 @@
 
  **** .
 
-#### 
+#### Allgemeine Einstellungen
 
-|  |  |  |
+| Einstellung | Beschreibung |  |
 |-----------|-------------|------------|
 | **** | ) | - |
 | **** | ) |  |
@@ -221,11 +221,11 @@
 4. **** (optionnel) : 
 
 **** :
-
+```
  : : : :MM]
  : ]
  : ]
-
+```
 
 **** : 
 
@@ -246,7 +246,7 @@
 | 3 |  |
 | 4 |  |
 
-**** : **** 
+**Taste** : **** 
 
 > **** : ...). .
 
@@ -258,7 +258,7 @@
 
 #### 
 
-|  |  |
+|  | Beschreibung |
 |---------|-------------|
 | **** | ) |
 | **** |  |
@@ -271,14 +271,14 @@
 
 ### 
 
-**** : **** (vert)
+**Taste** : **** (vert)
 - 
 - )
 - 
 
 ### 
 
-**** : **** (orange)
+**Taste** : **** (orange)
 - 
 - 
 - **** : 
@@ -291,12 +291,12 @@
 
 ### 
 
-|  |  |  |
+| Taste |  | Beschreibung |
 |--------|-------|-------------|
-| **** |  |  |
-| **** |  |  |
+| **Zum Schutz** |  |  |
+| **Speichern und Anwenden** |  | Speichert und wendet es sofort auf den BACnet-Server an |
 
-> **** :  **** .
+> **** : Verwenden **Speichern und Anwenden** .
 
 ---
 
@@ -304,20 +304,20 @@
 
 ### 1. 
 
-mermaid
+```mermaid
 
     ]
     ]
     ]
     ]
     ]
-
+```
 
 ### 2. 
 
- ****
- **** (ex: analog-input)
-'**** (ex: )
+1. Klicken Sie auf **Fügen Sie ein BACnet-Objekt hinzu**
+ **Typ BACnet** (ex: `analog-input`)
+'**Beispiel** (ex: )
 : )
  **** :
    -  : Salon
@@ -325,7 +325,7 @@ mermaid
    -  : )
  **** 
  **** 
- ****
+ **Speichern und Anwenden**
 
 ### 3. 
 
@@ -333,8 +333,8 @@ mermaid
 
  **** 
  :
-   -  : False
-   -  : 
+   -  : `False`
+   -  : `8`
    -  :
      -  ****
      - 
@@ -346,19 +346,19 @@ mermaid
    - 
    - 
    - Validez
-7. ****
+7. **Speichern und Anwenden**
 
 ---
 
-## 
+## Bewährte Verfahren
 
 ### 
 
 #### 
 - **** :
-  -  : 0-999
-  -  : 1000-1999
-  -  : 2000-2999
+  - Analog : 0-999
+  - Binär : 1000-1999
+  - Mehrere Bundesstaaten : 2000-2999
   -  : 3000-3999
   -  : 4000-4999
 
@@ -369,8 +369,8 @@ mermaid
 
 #### Synchronisation
 - **** :
-  -  **** )
-  -  **** )
+  - Verwenden **** )
+  - Verwenden **** )
 - **** :
   - 
   - 
@@ -387,9 +387,9 @@ mermaid
 - 
 - 
 
-#### 
--  **** (
--  **** (
+#### Befehlstypen
+-  **Info** (
+-  **Aktion** (
 - **** : 
 
 #### Performance
@@ -415,8 +415,8 @@ mermaid
 - Puissances
 - Consommations
 
-**** :
--  : 
+**Konfiguration** :
+- Anfangswert : 
 -  : 
 
 ### 
@@ -427,8 +427,8 @@ mermaid
 - 
 - Relais
 
-**** :
--  : )
+**Konfiguration** :
+- Anfangswert : )
 - 
 
 ### 
@@ -438,8 +438,8 @@ mermaid
 - 
 - 
 
-**** :
--  : ...)
+**Konfiguration** :
+- Anfangswert : ...)
 -  ****
 
 ### Trendlogs
@@ -449,7 +449,7 @@ mermaid
 - 
 - 
 
-**** :
+**Konfiguration** :
 - 
 -  ****
 
@@ -461,19 +461,19 @@ mermaid
 - 
 - 
 
-**** :
+**Konfiguration** :
 - 
 - 
 - 
 
 ---
 
-## 
+## Fehlerbehebung
 
 ### 
 
 **** :
- **** ()
+ **Speichern und Anwenden** ()
 
 
 
@@ -493,12 +493,12 @@ mermaid
 
 **** :
  ? ()
- **** ?
+ **Info** ?
  ****  **** ?
  ?
 
 **** :
--  **** 
+- Verwenden **Jetzt synchronisieren** 
 - 
 - 
 
@@ -557,16 +557,16 @@ mermaid
 
  :
 
-json
+```json
 {
   "": 100,
   "": "",
   "port": 47808,
-  "objects": 
+  "objects": [
     {
       "type": "analog-input",
       "instance": 101,
-      "name": "",
+      "name": "Wohnzimmertemperatur",
       "presentValue": null,
       "": 1234,
       "": "info",
@@ -580,10 +580,10 @@ json
       "schedule": {
         "defaultValue": false,
         "priority": 8,
-        "days": 
+        "days": [
           {
             "day": 0,
-            "entries": 
+            "entries": [
               {
                 "start": "07:00",
                 "end": "22:00",
@@ -599,7 +599,7 @@ json
     }
   ]
 }
-
+```
 
 ---
 

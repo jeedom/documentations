@@ -26,14 +26,14 @@
 
 ####  : `applyJsonAndSave()`
 
-php
+```php
 
 $eqLogic = bacnetStackServer::byId($id)
 $config = json_encode($myConfig)
 
 
 $eqLogic->applyJsonAndSave($config)
-
+```
 
  :
 
@@ -42,82 +42,82 @@ $eqLogic->applyJsonAndSave($config)
 
 #### )
 
-php
+```php
 
 $eqLogic->applyJsonForEq($config)
 
 
 bacnetStackServer::saveBacnetServerConfig()
-
+```
 
 ### 4. 
 
-php
+```php
 
 $backupFile = 'data/backups/config-' . date('YmdHis') . '.json'
 bacnetStackServer::
-
+```
 
 ### 5. 
 
-php
+```php
 
 $result = bacnetStackServer::saveBacnetServerConfig()
 
 ']) {
-     : " . $result'file']
+     : " . $result['file']
 }  {
-     : " . $result'message']
+     : " . $result['message']
 }
-
+```
 
 ## 
 
 |  |  |
 |---------|---------------|
-| . |  |
-| . | ) |
+| .json` |  |
+| .json` | ) |
 |  |  |
 
 ## 
 
-php
+```php
 array(
     '
     '
     '.|null
 )
+```
 
-
-## 
+## Bewährte Verfahren
 
 ### 
 
 1. **** :
-   php
+   ```php
    
    $this->modifyBacnetObjects()
    bacnetStackServer::saveBacnetServerConfig()
-   
+   ```
 
 2. **** 
 
 3. **** :
-   php
+   ```php
    
    bacnetStackServer::
    
    
    $eqLogic->applyJsonAndSave($newConfig)
-   
+   ```
 
 4. **** :
-   php
+   ```php
    $result = bacnetStackServer::saveBacnetServerConfig()
-    (!$result'success']) {
-       log:: : ' . $result'message'])
+    (!$result['success']) {
+       log:: : ' . $result['message'])
    }
-   
+   ```
 
 ### 
 
@@ -126,16 +126,16 @@ array(
 
 ## 
 
-php
+```php
  {
     
     () {
         . 
-        $config = 
+        $config = [
             ',
             '',
             '
-                
+                [
                     '',
                     ',
                     '',
@@ -148,11 +148,11 @@ php
         $backupFile = 'data/backups/before-' . date('YmdHis') . '.json'
         $backupResult = bacnetStackServer::
         
-         (!$backupResult'success']) {
+         (!$backupResult['success']) {
             
         }
         
-        log:: : ' . $backupResult'file'])
+        log:: : ' . $backupResult['file'])
         
         . 
         $eqLogic = bacnetStackServer::byId($this->eqLogicId)
@@ -171,27 +171,27 @@ php
         }
     }
 }
-
+```
 
 ## Logs
 
  :
 
-
+```
 :30: : 
 :30: : 
+```
 
-
-## 
+## Fehlerbehebung
 
 ###  : ""
 
 ).
 
 **** :  :
-php
+```php
 bacnetStackServer::
-
+```
 
 ###  : ""
 
@@ -202,9 +202,9 @@ bacnetStackServer::
 ### 
 
  :
-php
+```php
 $info = bacnetStackServer::deamon_info()
 '] !== 'ok') {
     
 }
-
+```
