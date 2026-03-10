@@ -6,16 +6,16 @@
 
 ### )
 
- **** ()
+ **BACnet-Client** (Netzwerkermittlung)
  **** 
-3. Klicken Sie auf **** 
+3. Klicken Sie auf **Liste die Objekte auf** 
 
 5. Klicken Sie auf ****
 
 
 ### 
 
-1. Aus Abschnitt ****, Klicken Sie auf ****
+1. Aus Abschnitt **BACnet-Client**, Klicken Sie auf ****
 2. Einstellungen manuell konfigurieren (Geräte-ID, IP usw.).)
 3. Verwenden **Scannen Sie die Objekte** Befehle entdecken und hinzufügen
 
@@ -25,24 +25,24 @@
 
 ### Allgemeine Einstellungen
 
-| Einstellung | Beschreibung |
+| Einstellung |  |
 |-----------|-------------|
 | **Gerätebezeichnung** |  |
 | **Übergeordnetes Objekt** |  |
 | **Kategorie** | .) |
-| **Aktivieren** |  |
-| **Sichtbar** |  |
+| **** |  |
+| **** |  |
 
 ### BACnet-Clientkonfiguration
 
 Diese Parameter sind spezifisch für das entfernte BACnet-Gerät :
 
-| Einstellung | Beschreibung |  |
+| Einstellung |  |  |
 |-----------|-------------|---------|
 | **Geräte-ID** |  | 64 |
 | **IP-Adresse** |  | .100:47808 |
 
-> **IP-Format** : Immer noch im `IP`-Format:Port` (ex : 192.168.1.100:47808`).
+> **IP-Format** : Immer noch im `IP`-Format:Port` (ex : 192.168.1.100:).
 
 ### Scannen Sie die Objekte
 
@@ -62,7 +62,7 @@ Die Aktualisierungsmethode bestimmt, wie die Befehlswerte aktualisiert werden.
 
 Der Standardmodus. Jeedom fragt das BACnet-Gerät in regelmäßigen Abständen ab, um die Werte aller Objekte auszulesen.
 
-| Einstellung | Beschreibung |
+| Einstellung |  |
 |-----------|-------------|
 | **In den Cronjob einbinden** |  |
 
@@ -78,7 +78,7 @@ Im COV-Modus (Change of Value) sendet das BACnet-Gerät nur dann eine Benachrich
 |  |  |
 |  |  |
 
-> **Wichtig** : Wenn Sie den VOC-Modus auswählen, werden die Geräte nur über VOC-Benachrichtigungen aktualisiert. Deaktivieren Sie anschließend „In Cron einbeziehen“, um doppelte Abfragen zu vermeiden.
+> **** : Wenn Sie den VOC-Modus auswählen, werden die Geräte nur über VOC-Benachrichtigungen aktualisiert. Deaktivieren Sie anschließend „In Cron einbeziehen“, um doppelte Abfragen zu vermeiden.
 
 ---
 
@@ -92,13 +92,13 @@ Der Knopf **Abonnements laden** Zeigt die Liste der BACnet-Objekte an, für die 
 
 COV-Abonnements werden über die BACnet-Client-Schnittstelle verwaltet :
 1. Listen Sie die Objekte auf dem Gerät auf
-2. Klicken Sie auf die Schaltfläche **VOCs** eines Objekts
+2. Klicken Sie auf die Schaltfläche **** eines Objekts
 3. Dauer und Modus konfigurieren (bestätigt oder nicht))
 4. Klicken Sie auf **Abonnieren**
 
 ### Lebensdauer
 
-Ein COV-Abonnement hat eine begrenzte Laufzeit. Optionen :
+Ein COV-Abonnement hat eine begrenzte Laufzeit.  :
 - 5 Minuten bis 24 Stunden (vordefinierte Werte))
 - Permanent (Lebensdauer = 0))
 
@@ -110,16 +110,16 @@ Das Plugin verlängert Abonnements automatisch vor deren Ablauf.
 
 ### Registerkarte „Bestellungen“
 
-Die Registerkarte **Bestellungen** Listet alle für dieses Gerät erstellten Befehle auf.
+ **** Listet alle für dieses Gerät erstellten Befehle auf.
 
 ### Befehlstypen
 
 Jedes importierte BACnet-Objekt kann generieren :
 
-| Art |  | Beschreibung |  |
+|  |  |  |  |
 |------|-----------|-------------|-----------|
-| **Info** |  |  |  |
-| **Aktion** |  |  |  |
+| **** |  |  |  |
+| **** |  |  |  |
 
 ### Namenskonventionen
 
@@ -127,7 +127,7 @@ Die `logicalId` von Befehlen folgt dem Format :
 - `bacnet_info_analog-input_0` → Info-Befehl für Analogeingangsinstanz 0
 - `bacnet_action_analog-output_1` → Aktionsbefehl für Analogausgangsinstanz 1
 
-Bindestriche im BACnet-Typ werden in der logischen ID durch Unterstriche ersetzt (z. B : `analog-input` → `analog_input`).
+Bindestriche im BACnet-Typ werden in der logischen ID durch Unterstriche ersetzt (z. B : ).
 
 ---
 
@@ -135,8 +135,8 @@ Bindestriche im BACnet-Typ werden in der logischen ID durch Unterstriche ersetzt
 
 ### Auswahl der Aktualisierungsmethode
 
-- Verwenden **Cron** für einfache Geräte oder solche, die keine VOCs unterstützen
-- Verwenden **VOCs** für kritische Werte, die eine sofortige Reaktion erfordern (Alarme, Detektoren))
+-  **** für einfache Geräte oder solche, die keine VOCs unterstützen
+-  **** für kritische Werte, die eine sofortige Reaktion erfordern (Alarme, Detektoren))
 - Sie können die beiden kombinieren : COV für bestimmte Elemente und Cron als Ausweichlösung
 
 ### Organisation

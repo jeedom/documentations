@@ -5,7 +5,7 @@
 ## Zugang
 
  :
- **Konfiguration**
+ ****
  **Plugin-Konfiguration**
  : ****
 
@@ -23,7 +23,7 @@
 
 ### 
 
-| Einstellung | Beschreibung |  |
+| Einstellung |  | Standardmäßig |
 |-----------|-------------|------------|
 | **** |  |  |
 | **** | ) | - |
@@ -33,12 +33,12 @@
 
 ### Boutons
 
-| Taste | Beschreibung |
+|  |  |
 |--------|-------------|
 | **** |  |
 | **** |  |
 
-> **** : . .
+> **Notiz** : . .
 
 ### 
 
@@ -69,7 +69,7 @@
 | **Alle 10 Minuten** | ) |
 | **** |  |
 
-> **Info** : .
+> **** : .
 
 ### 
 
@@ -80,13 +80,13 @@
 -  : )
 -  : )
 
-> **Wichtig** : . .
+> **** : . .
 
 ### 
 
 .
 
-| Einstellung |  |
+| Einstellung | Standardmäßig |
 |-----------|------------|
 | **** | 55031 |
 
@@ -108,7 +108,7 @@
 
 .
 
-| Einstellung |  |  |
+| Einstellung | Standardmäßig |  |
 |-----------|------------|----------|
 | **** | 47808 | ) |
 
@@ -118,7 +118,7 @@
 
 .
 
-| Einstellung |  |
+| Einstellung | Standardmäßig |
 |-----------|------------|
 | **** | . |
 
@@ -189,6 +189,6 @@
 ### "
 
  :
- :  :47808`
+ :  :
 
 

@@ -70,11 +70,11 @@ json
 {
   "deviceId": 123,
   "deviceName": "bacnetStackServer",
-  "objects": 
+  "objects": [
     {
       "type": "analog-value",
       "instance": 1,
-      "name": "",
+      "name": "Temperatura da sala de estar",
       "presentValue": 21.5,
       "units": "no-units",
       "": 0.5
@@ -118,7 +118,7 @@ json
 
 "
  : 1
- : ""
+ : "Temperatura da sala de estar"
 
 
 ###  : 

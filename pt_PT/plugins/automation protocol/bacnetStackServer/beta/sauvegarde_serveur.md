@@ -65,9 +65,9 @@ php
 $result = bacnetStackServer::saveBacnetServerConfig()
 
 ']) {
-     : " . $result'file']
+     : " . $result['file']
 }  {
-     : " . $result'message']
+     : " . $result['message']
 }
 
 
@@ -114,8 +114,8 @@ array(
 4. **** :
    php
    $result = bacnetStackServer::saveBacnetServerConfig()
-    (!$result'success']) {
-       log:: : ' . $result'message'])
+    (!$result['success']) {
+       log:: : ' . $result['message'])
    }
    
 
@@ -131,11 +131,11 @@ php
     
     () {
         . 
-        $config = 
+        $config = [
             ',
             '',
             '
-                
+                [
                     '',
                     ',
                     '',
@@ -148,11 +148,11 @@ php
         $backupFile = 'data/backups/before-' . date('YmdHis') . '.json'
         $backupResult = bacnetStackServer::
         
-         (!$backupResult'success']) {
+         (!$backupResult['success']) {
             
         }
         
-        log:: : ' . $backupResult'file'])
+        log:: : ' . $backupResult['file'])
         
         . 
         $eqLogic = bacnetStackServer::byId($this->eqLogicId)

@@ -1,138 +1,138 @@
-# 
+# BACnet-Client
 
-.  **  ** .
+Über die BACnet-Clientschnittstelle können Sie BACnet-Geräte in Ihrem Netzwerk erkennen, auslesen und mit ihnen interagieren. Im Gegensatz zu dem Server, der *ausgesetzt* Ihre Jeedom-Bestellungen, der Kunde *Fragen* entfernte BACnet-Geräte.
 
 ## Zugang
 
- :
+Um auf die Client-Schnittstelle zuzugreifen :
+1. Von der Hauptseite des BACnet Stack Server-Plugins
+2. Klicken Sie auf die Kachel **BACnet-Client**
+3. Dann weiter **Netzwerkermittlung**
 
- ****
- ****
-
-> **** : . .
+> **Notiz** : Der BACnet-Client arbeitet unabhängig vom BACnet-Server. Er hat seinen eigenen Dämon.
 
 ---
 
-## 
+## Client-Daemon-Steuerung
 
-.
+Der Client-Daemon muss gestartet werden, um die Erkennungs- und Kommunikationsfunktionen nutzen zu können.
 
-| Taste | Beschreibung |
+|  |  |
 |--------|-------------|
-| **** |  |
-| **** |  |
-| **** |  |
+| **Starten Sie den Client** | Starten Sie den BACnet-Client-Daemon |
+| **Den Kunden stoppen** | Stoppt den Kundendämon! |
+| **Aktualisierungsstatus** | Aktualisiert die Statusanzeige |
 
-### 
+### Statusanzeige
 
-- **** (vert) : 
-- **** (rouge) : 
-- **** (orange) : 
+- **Begonnen** (vert) : Der Kunde ist betriebsbereit
+- **Befehl** (rouge) : Der Client ist nicht aktiv
+- **Fehler** (orange) : Kommunikationsproblem
 
 ---
 
-## )
+## Geräte entdecken (Wer ist)
 
-.
+Discovery ermöglicht es Ihnen, Ihr Netzwerk zu scannen, um alle erreichbaren BACnet-Geräte zu finden.
 
-### 
+### Discovery-Einstellungen
 
-|  | Beschreibung |  |
+|  |  | Standardmäßig |
 |-------|-------------|------------|
-| **** |  | 0 |
-| **** |  | 4194303 |
+| **Geräte-ID Min** | Untere Grenze des Scanintervalls | 0 |
+| **Maximale Geräte-ID** | Obere Grenze des Scanintervalls | 4194303 |
 
 ### Aktionsschaltflächen
 
-| Taste | Beschreibung |
+|  |  |
 |--------|-------------|
-| **** |  |
-| **** | ) |
-| **** |  |
+| **Wer ist das?** | Sendet eine Who-Is-Anfrage über das Netzwerk und aktualisiert die Liste nach 2 Sekunden |
+| **Liste die Geräte auf** | Zeigt bereits erkannte Geräte (aus dem Cache) an) |
+| **Cache leeren** | Löscht den lokalen Cache der gefundenen Geräte |
 
-### 
+### Tabelle der gefundenen Geräte
 
- :
+Für jedes gefundene Gerät zeigt die Tabelle Folgendes an :
 
-| Spalte | Beschreibung |
+|  |  |
 |---------|-------------|
 | **Geräte-ID** |  |
-| **** | ) |
+| **Name** | ) |
 | **IP-Adresse** |  |
 | **Hafen** | ) |
 | **Aktionen** |  |
 
-#### 
+#### Aktionen pro Gerät
 
-- **** () : 
-- **** () : 
+- **Verwenden Sie dieses Gerät** (Handsymbol) : Füllt automatisch alle Geräte-ID- und IP-Felder in den Abschnitten Lesen, Schreiben, COV und Objektliste aus
+- **Liste die Objekte auf** (Listensymbol) : Startet direkt das Einlesen der Objektliste des Geräts und scrollt zur Tabelle
 
-### 
+### Cache-System
 
-. . .
+Die gefundenen Geräte werden lokal zwischengespeichert (24 Stunden), um zu vermeiden, dass das Netzwerk bei jedem Öffnen erneut gescannt werden muss. Ein Informationsbanner gibt das Alter des Caches an. Falls der Cache abgelaufen ist, können Sie über einen Link einen Scan neu starten.
 
 ---
 
-## 
+## Immobilienbewertung
 
-.
+Dieser Abschnitt ermöglicht es Ihnen, eine bestimmte Eigenschaft eines entfernten BACnet-Objekts auszulesen.
 
-### 
+### Pflichtfelder
 
-|  | Beschreibung |  |
+|  |  |  |
 |-------|-------------|---------|
 | **Geräte-ID** |  | 1234 |
 | **IP-Adresse** |  | .100 |
-| **** | : | analog-input:0 |
+| **BACnet-Objekt** | : | analog-input:0 |
 | **Eigentum** |  |  |
 
-### 
+### Verfügbare Immobilien
 
-| Eigentum | Beschreibung |
+| Eigentum |  |
 |-----------|-------------|
 | **** |  |
-| **** |  |
-| **** |  |
-| **** |  |
+| **Objektname** |  |
+| **Beschreibung** |  |
+| **Objekttyp** |  |
 | **Einheiten** |  |
-| **** | ) |
-| **** |  |
-| **** |  |
-| **** |  |
+| **Status-Flags** | ) |
+| **Außer Betrieb** |  |
+| **Prioritätsmatrix** |  |
+| **relinquish-default** |  |
 
-.
+Das Leseergebnis wird im JSON-Format im Ergebnisbereich angezeigt.
 
 ---
 
-## 
+## Eigentumsurkunde
 
-.
+In diesem Abschnitt können Sie einen Wert in ein entferntes BACnet-Objekt schreiben.
 
-### 
+### Pflichtfelder
 
-|  | Beschreibung |  |
+|  |  |  |
 |-------|-------------|---------|
 | **Geräte-ID** |  | 1234 |
 | **IP-Adresse** |  | .100 |
-| **** | : | analog-output:0 |
+| **BACnet-Objekt** | : | analog-output:0 |
 | **Eigentum** |  |  |
-| **** |  | 23.5 |
-| **** |  | ) |
+| **Wert** |  | 23.5 |
+| **Datentyp** |  | ) |
 | **** | ) | ) |
 
-### 
+### Datentypen
 
-| Art | Beschreibung |  |
+|  |  |  |
 |------|-------------|---------|
 | **)** |  | 23.5 |
-| **)** |  | 100 |
-| **** |  |  |
-| **** |  | "" |
-| **** |  | 1 |
+| **unsigned (int)** |  | 100 |
+| **boolescher Wert** |  |  |
+| **Zeichenkette** |  | "" |
+| **aufgezählt** |  | 1 |
 
-### 
+### BACnet-Priorität
 
-).  :
+BACnet verwendet 16 Prioritätsstufen (1 = höchste, 16 = niedrigste)). Aktueller Stand :
 
 |  |  |
 |----------|---------------|
@@ -144,31 +144,31 @@
 
 ---
 
-## )
+## COV-Abonnement (Wertänderung))
 
-.
+Der COV-Mechanismus ermöglicht es Ihnen, automatisch eine Benachrichtigung zu erhalten, wenn sich der Wert eines BACnet-Objekts ändert, ohne dass Sie das Gerät ständig abfragen müssen.
 
-### 
+### Einstellungen
 
-|  | Beschreibung |  |
+|  |  |  |
 |-------|-------------|---------|
 | **Geräte-ID** |  | 1234 |
 | **IP-Adresse** |  | .100 |
-| **** | : | analog-input:0 |
-| **** | ) | 3600 |
+| **BACnet-Objekt** | : | analog-input:0 |
+| **Lebensdauer** | ) | 3600 |
 
 ### Boutons
 
-| Taste | Beschreibung |
+|  |  |
 |--------|-------------|
 | **Abonnieren** |  |
-| **** |  |
+| **Abbestellen** |  |
 
-### )
+### Verfügbare Laufzeiten (über das Verwaltungs-Popup))
 
-- )
-- )
-- )
+- 5 Minuten (300 Sekunden))
+- 10 Minuten (600 Sekunden))
+- 30 Minuten (1800er Jahre))
 - 
 - 
 - )
@@ -177,7 +177,7 @@
 
  **** (. . .
 
-> **Info** : . .
+> **** : . .
 
 ---
 
@@ -196,14 +196,14 @@
 
  :
 
-| Spalte | Beschreibung |
+|  |  |
 |---------|-------------|
 | **** |  |
-| **Art** | .) |
-| **Beispiel** |  |
-| **** | ) |
-| **Beschreibung** | ) |
+| **** | .) |
 | **** |  |
+| **Name** | ) |
+| **** | ) |
+| **Wert** |  |
 | **Aktionen** |  |
 
 ### 
@@ -212,16 +212,16 @@
 
 ### 
 
-| Taste | Beschreibung |
+|  |  |
 |--------|-------------|
 | **** |  |
-| **VOCs** |  |
+| **** |  |
 | **** () |  |
 | **** () |  |
 
 ### 
 
-| Taste | Beschreibung |
+|  |  |
 |--------|-------------|
 | **** |  |
 | **** |  |
@@ -235,8 +235,8 @@
 - 
 
  :
--  **Info** 
--  **Aktion** (
+-  **** 
+-  **** (
 
 ---
 
@@ -246,7 +246,7 @@ Der Knopf **** .
 
 ### 
 
-|  |  | Beschreibung |
+|  |  |  |
 |------|--------|-------------|
 | 0 |  |  |
 | 1 |  |  |

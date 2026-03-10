@@ -9,7 +9,7 @@
 2. Klicken Sie auf die Schaltfläche **** 
 
 
-> **** : .
+> **Notiz** : .
 
 ---
 
@@ -19,7 +19,7 @@
 
  :
 - **** : 
-- **Beschreibung** : ""
+- **** : ""
 - **** : 
 
 ---
@@ -32,21 +32,21 @@
 
 #### 
 
-| Einstellung | Optionen |  |
+| Einstellung |  | Standardmäßig |
 |-----------|---------|------------|
 | **** | <br><br><br> **Alle 15 Minuten** <br><br><br> |  |
-| **** |  : `* * * * *` | - |
+| **** |  : * * * * * | - |
 | **** |  |  |
 
 #### 
-```
 
-```
+
+
 
 **** :
-- `*/5 * * * *` : Alle 5 Minuten
-- `0 * * * *` : 
--  * * *` : 
+- * * * * * : Alle 5 Minuten
+-  * * * * : 
+-  * * * : 
 
 ---
 
@@ -56,10 +56,10 @@
 
 #### 
 
-| Einstellung | Optionen |  |
+| Einstellung |  | Standardmäßig |
 |-----------|---------|------------|
 | **** |  **)** <br><br><br><br><br> |  |
-| **** |  :  * * *` | - |
+| **** |  :  * * * | - |
 | **** |  |  |
 
 > **** : ".  **** .
@@ -70,7 +70,7 @@
 
 ### 
 
-| Taste |  | Beschreibung |
+|  |  |  |
 |--------|-------|-------------|
 | **Fügen Sie ein BACnet-Objekt hinzu** |  |  |
 | **Jetzt synchronisieren** |  |  |
@@ -88,13 +88,13 @@
 
  :
 
-| Art | Beschreibung |
+|  |  |
 |------|-------------|
 | **** | ) |
-| **Analogwert** | ) |
 | **** | ) |
 | **** | ) |
-| **Binärwert** | ) |
+| **** | ) |
+| **** | ) |
 | **** | ) |
 | **** |  |
 | **** |  |
@@ -146,26 +146,26 @@
 
 #### )
 
- **Info**) :
+ ****) :
 
-|  | Beschreibung |
+|  |  |
 |------|-------------|
 | **** |  |
 | ****  | ) |
 | **** |  |
 
-> **** : .
+> **Notiz** : .
 
 #### )
 
  :
 
-| Taste |  | Objekttyp | Beschreibung |
+|  |  | Objekttyp |  |
 |--------|-------|--------------|-------------|
 | **** |  |  |  |
 | **** |  | multi-state-* |  |
 | **** |  |  |  |
-| **LÖSCHEN** |  |  |  |
+| **** |  |  |  |
 
 #### )
 
@@ -206,7 +206,7 @@
 
 #### Allgemeine Einstellungen
 
-| Einstellung | Beschreibung |  |
+| Einstellung |  | Standardmäßig |
 |-----------|-------------|------------|
 | **** | ) | - |
 | **** | ) |  |
@@ -217,15 +217,15 @@
 ) :
 1. **** : 
 2. **** : 
-3. **** : 
+3. **Wert** : 
 4. **** (optionnel) : 
 
 **** :
-```
+
  : : : :MM]
+Wert : ]
  : ]
- : ]
-```
+
 
 **** : 
 
@@ -239,16 +239,16 @@
 
  :
 
-|  |  |
+| Wert |  |
 |--------|------------------|
 | 1 |  |
 | 2 |  |
 | 3 |  |
 | 4 |  |
 
-**Taste** : **** 
+**** : **** 
 
-> **** : ...). .
+> **Notiz** : ...). .
 
 ---
 
@@ -256,9 +256,9 @@
 
 ).
 
-#### 
+#### Einstellungen
 
-|  | Beschreibung |
+|  |  |
 |---------|-------------|
 | **** | ) |
 | **** |  |
@@ -271,14 +271,14 @@
 
 ### 
 
-**Taste** : **** (vert)
+**** : **** (vert)
 - 
 - )
 - 
 
 ### 
 
-**Taste** : **** (orange)
+**** : **** (orange)
 - 
 - 
 - **** : 
@@ -291,12 +291,12 @@
 
 ### 
 
-| Taste |  | Beschreibung |
+|  |  |  |
 |--------|-------|-------------|
-| **Zum Schutz** |  |  |
+| **** |  |  |
 | **Speichern und Anwenden** |  | Speichert und wendet es sofort auf den BACnet-Server an |
 
-> **** : Verwenden **Speichern und Anwenden** .
+> **** :  **Speichern und Anwenden** .
 
 ---
 
@@ -304,20 +304,20 @@
 
 ### 1. 
 
-```mermaid
+mermaid
 
     ]
     ]
     ]
     ]
     ]
-```
+
 
 ### 2. 
 
 1. Klicken Sie auf **Fügen Sie ein BACnet-Objekt hinzu**
- **Typ BACnet** (ex: `analog-input`)
-'**Beispiel** (ex: )
+ **Typ BACnet** (ex: analog-input)
+'**** (ex: )
 : )
  **** :
    -  : Salon
@@ -333,8 +333,8 @@
 
  **** 
  :
-   -  : `False`
-   -  : `8`
+   -  : False
+   -  : 
    -  :
      -  ****
      - 
@@ -356,9 +356,9 @@
 
 #### 
 - **** :
-  - Analog : 0-999
-  - Binär : 1000-1999
-  - Mehrere Bundesstaaten : 2000-2999
+  -  : 0-999
+  -  : 1000-1999
+  -  : 2000-2999
   -  : 3000-3999
   -  : 4000-4999
 
@@ -369,8 +369,8 @@
 
 #### Synchronisation
 - **** :
-  - Verwenden **** )
-  - Verwenden **** )
+  -  **** )
+  -  **** )
 - **** :
   - 
   - 
@@ -388,8 +388,8 @@
 - 
 
 #### Befehlstypen
--  **Info** (
--  **Aktion** (
+-  **** (
+-  **** (
 - **** : 
 
 #### Performance
@@ -415,7 +415,7 @@
 - Puissances
 - Consommations
 
-**Konfiguration** :
+**** :
 - Anfangswert : 
 -  : 
 
@@ -427,7 +427,7 @@
 - 
 - Relais
 
-**Konfiguration** :
+**** :
 - Anfangswert : )
 - 
 
@@ -438,7 +438,7 @@
 - 
 - 
 
-**Konfiguration** :
+**** :
 - Anfangswert : ...)
 -  ****
 
@@ -449,7 +449,7 @@
 - 
 - 
 
-**Konfiguration** :
+**** :
 - 
 -  ****
 
@@ -461,7 +461,7 @@
 - 
 - 
 
-**Konfiguration** :
+**** :
 - 
 - 
 - 
@@ -493,12 +493,12 @@
 
 **** :
  ? ()
- **Info** ?
+ **** ?
  ****  **** ?
  ?
 
 **** :
-- Verwenden **Jetzt synchronisieren** 
+-  **Jetzt synchronisieren** 
 - 
 - 
 
@@ -557,12 +557,12 @@
 
  :
 
-```json
+json
 {
   "": 100,
   "": "",
   "port": 47808,
-  "objects": [
+  "objects": 
     {
       "type": "analog-input",
       "instance": 101,
@@ -580,10 +580,10 @@
       "schedule": {
         "defaultValue": false,
         "priority": 8,
-        "days": [
+        "days": 
           {
             "day": 0,
-            "entries": [
+            "entries": 
               {
                 "start": "07:00",
                 "end": "22:00",
@@ -599,7 +599,7 @@
     }
   ]
 }
-```
+
 
 ---
 

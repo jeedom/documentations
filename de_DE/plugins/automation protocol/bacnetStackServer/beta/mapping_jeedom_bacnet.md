@@ -13,13 +13,13 @@ Klicken Sie auf der Hauptseite des Plugins auf die Schaltfläche **"Jeedom→BAC
 ### 1. Synchronisationsfrequenz
 
 Wählen Sie die Frequenz aus, mit der die Werte synchronisiert werden sollen :
-- **Jede Minute** : `* * * * *`
-- **Alle 5 Minuten** : `*/5 * * * *`
-- **Alle 10 Minuten** : `*/10 * * * *`
-- **Alle 15 Minuten** : `*/15 * * * *` (Standardwert)
-- **Alle 30 Minuten** : `*/30 * * * *`
-- **Stündlich** : `0 * * * *`
-- **Brauch** : Ermöglicht das Definieren eines benutzerdefinierten Cronjobs
+- **Jede Minute** : * * * * *
+- **Alle 5 Minuten** : * * * * *
+- **Alle 10 Minuten** : * * * * *
+- **Alle 15 Minuten** : * * * * *` (Standardwert)
+- **Alle 30 Minuten** : * * * * *
+- **Stündlich** :  * * * *
+- **** : Ermöglicht das Definieren eines benutzerdefinierten Cronjobs
 
 Sie können die automatische Synchronisierung mithilfe des Kontrollkästchens aktivieren oder deaktivieren **"Automatische Synchronisierung aktivieren"**.
 
@@ -42,13 +42,13 @@ Sie können die automatische Synchronisierung mithilfe des Kontrollkästchens ak
 
 ### 3. Kartenverwaltung
 
-- **Zum Ändern** : Ändern Sie die Einstellungen einer bestehenden Zuordnung
-- **LÖSCHEN** : Eine Zuordnung mithilfe der Papierkorb-Schaltfläche löschen
+- **** : Ändern Sie die Einstellungen einer bestehenden Zuordnung
+- **** : Eine Zuordnung mithilfe der Papierkorb-Schaltfläche löschen
 - BACnet-Instanzen werden bei Hinzufügung automatisch inkrementiert
 
 ### 4. Speichern
 
-- **Zum Schutz** : Speichert die Konfiguration, ohne sie auf den Server anzuwenden
+- **** : Speichert die Konfiguration, ohne sie auf den Server anzuwenden
 - **Speichern und Anwenden** : Speichert und wendet es sofort auf den BACnet-Server an
 - **Jetzt synchronisieren** : Erzwinge eine sofortige Synchronisierung der Werte
 
@@ -58,26 +58,26 @@ Sie können die automatische Synchronisierung mithilfe des Kontrollkästchens ak
 
 Jeedom-Werte werden automatisch gemäß dem BACnet-Typ konvertiert :
 
-- **Binär** : `0` oder `1` (numerische Werte))
-- **Analog** : Dezimalzahlen (Gleitkommazahlen))
-- **Mehrere Bundesstaaten** : Ganze Zahlen (int))
+- **** : `0` oder `1` (numerische Werte))
+- **** : Dezimalzahlen (Gleitkommazahlen))
+- **** : Ganze Zahlen (int))
 
 ### Generiertes JSON-Format
 
 Die Konfiguration wird in das vom BACnet-Server erwartete Format konvertiert :
 
-```json
+json
 {
   "deviceId": 123,
   "deviceName": "bacnetStackServer",
-  "objects": [
+  "objects": 
     {
       "type": "analog-value",
       "instance": 1,
       "name": "Wohnzimmertemperatur",
       "presentValue": 21.5,
       "units": "no-units",
-      "cov_increment": 0.5
+      "": 0.5
     },
     {
       "type": "binary-value",
@@ -89,7 +89,7 @@ Die Konfiguration wird in das vom BACnet-Server erwartete Format konvertiert :
     }
   ]
 }
-```
+
 
 ### Automatische Synchronisierung
 
@@ -106,9 +106,9 @@ Der Cronjob wird nur ausgeführt, wenn :
 ### Logs
 
 Synchronisierungsprotokolle sind in den Plugin-Protokollen verfügbar :
-```
+
 Synchronisierung abgeschlossen : X Aktualisiert, Y-Fehler
-```
+
 
 ## Anwendungsbeispiel
 
@@ -133,14 +133,14 @@ Synchronisierung abgeschlossen : X Aktualisiert, Y-Fehler
 ## Generierte Dateien
 
 Die Konfiguration wird gespeichert in :
-- `/data/mapping_config.json` : BACnet-Konfiguration generiert
-- Jeedom-Konfiguration : `jeedom_bacnet_mapping`
+- . : BACnet-Konfiguration generiert
+- Jeedom-Konfiguration : 
 
 ## Fehlerbehebung
 
 ### Der Cronjob startet nicht
 
-Einchecken **Analyse > Cron** dass der Cron-Job `bacnetStackServer::Der Cron-Prozess `cronJeedomBacnetSync` existiert und ist aktiviert.
+Einchecken **** dass der Cron-Job `bacnetStackServer::Der Cron-Prozess `cronJeedomBacnetSync` existiert und ist aktiviert.
 
 ### Die Werte werden nicht aktualisiert
 
@@ -162,14 +162,14 @@ Aber nicht :
 
 ### Unterrichtsmethoden
 
-- `applyMappingToBacnet($configData)` : Wendet die Konfiguration auf den Server an
-- `syncJeedomToBacnet()` : Werte synchronisieren
-- `cronJeedomBacnetSync()` : Cron-Synchronisierungsfunktion
-- `convertValueForBacnet($value, $bacnetType)` : Werte umrechnen
+-  : Wendet die Konfiguration auf den Server an
+-  : Werte synchronisieren
+-  : Cron-Synchronisierungsfunktion
+-  : Werte umrechnen
 
 ### AJA-AktionenX
 
-- `getJeedomCommands` : Alle verfügbaren Info-Befehle abrufen
-- `getMappingConfig` : Gespeicherte Konfiguration laden
-- `saveMappingConfig` : Speichert die Konfiguration
-- `syncMappingNow` : Erzwinge sofortige Synchronisierung
+-  : Alle verfügbaren Info-Befehle abrufen
+-  : Gespeicherte Konfiguration laden
+-  : Speichert die Konfiguration
+-  : Erzwinge sofortige Synchronisierung
