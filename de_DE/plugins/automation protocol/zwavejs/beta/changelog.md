@@ -6,7 +6,14 @@
 
 # 
 
--  **
+- Konfig hinzugefügt *)* (Eigenschaften : )
+- Konfig hinzugefügt *)* (Eigenschaften : )
+- Konfig hinzugefügt ** (Eigenschaften : )
+-  ** ()
+
+# 02/03/2026
+
+- Correction mineure sur la page *Statistiques*
 
 # 24/02/2026
 

@@ -4,6 +4,13 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 09/03/2026
+
+- Ajout de la configuration *Shelly Qubino Wave Door/Window (QNDW-002C)* (propriétés : Opening, Luminance, Direction, Battery)
+- Ajout de la configuration *Shelly Qubino Wave Plug (QNPL-0A112)* (propriétés : Switch, Power, Energy)
+- Ajout de la configuration *Zooz ZEN58 Low Voltage XS Relay* (propriétés : Switch, Power, Energy, Voltage, Current)
+- Correction de la configuration *Aeotec ZWA001* (valeur par défaut du paramètre de température de couleur)
+
 # 02/03/2026
 
 - Correction mineure sur la page *Statistiques*
