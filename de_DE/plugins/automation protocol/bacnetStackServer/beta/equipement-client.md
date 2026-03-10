@@ -94,7 +94,7 @@ COV-Abonnements werden über die BACnet-Client-Schnittstelle verwaltet :
 1. Listen Sie die Objekte auf dem Gerät auf
 2. Klicken Sie auf die Schaltfläche **** eines Objekts
 3. Dauer und Modus konfigurieren (bestätigt oder nicht))
-4. Klicken Sie auf **Abonnieren**
+4. Klicken Sie auf ****
 
 ### Lebensdauer
 

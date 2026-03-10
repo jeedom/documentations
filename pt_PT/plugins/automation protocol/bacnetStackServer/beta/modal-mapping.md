@@ -494,7 +494,7 @@ mermaid
 **Cheques** :
 1. A tarefa cron está ativada? ? (caixa marcada)
 2. O comando é do tipo **** ?
-3. O modo está ativado? **** Ou **** ?
+3. O modo está ativado? ****  **** ?
 4. O demônio foi iniciado? ?
 
 **** :
@@ -562,15 +562,15 @@ json
   "instância_do_dispositivo": 100,
   "nome_do_dispositivo": "Servidor Jeedom BACnet",
   "port": 47808,
-  "objects": [
+  "objects": 
     {
       "type": "analog-input",
       "instance": 101,
       "name": "Temperatura da sala de estar",
       "presentValue": null,
-      "_jeedom_cmd_id": 1234,
-      "_jeedom_cmd_type": "info",
-      "_jeedom_auto_sync": true,
+      "": 1234,
+      "": "info",
+      "": true,
       "_jeedom_no_evento": false
     },
     {
@@ -580,10 +580,10 @@ json
       "schedule": {
         "defaultValue": false,
         "priority": 8,
-        "days": [
+        "days": 
           {
             "day": 0,
-            "entries": [
+            "entries": 
               {
                 "start": "07:00",
                 "end": "22:00",
@@ -594,8 +594,8 @@ json
           }
         ]
       },
-      "_jeedom_agenda_id": 12,
-      "_jeedom_agenda_sync": true
+      "": 12,
+      "": true
     }
   ]
 }
@@ -606,8 +606,8 @@ json
 ## Compatibilité
 
 ### Versões Jeedom
-- Jeedom v4.x : ✅ Compatível
-- Jeedom v3.x : ⚠️ Não testado
+- . : ✅ Compatível
+- . : ⚠️ Não testado
 
 ### 
 - 

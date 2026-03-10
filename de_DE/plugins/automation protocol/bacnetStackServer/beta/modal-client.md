@@ -1,6 +1,6 @@
 # BACnet-Client
 
-Über die BACnet-Clientschnittstelle können Sie BACnet-Geräte in Ihrem Netzwerk erkennen, auslesen und mit ihnen interagieren. Im Gegensatz zu dem Server, der *ausgesetzt* Ihre Jeedom-Bestellungen, der Kunde *Fragen* entfernte BACnet-Geräte.
+Über die BACnet-Clientschnittstelle können Sie BACnet-Geräte in Ihrem Netzwerk erkennen, auslesen und mit ihnen interagieren. Im Gegensatz zu dem Server, der ** Ihre Jeedom-Bestellungen, der Kunde ** entfernte BACnet-Geräte.
 
 ## Zugang
 
@@ -9,7 +9,7 @@ Um auf die Client-Schnittstelle zuzugreifen :
 2. Klicken Sie auf die Kachel **BACnet-Client**
 3. Dann weiter **Netzwerkermittlung**
 
-> **Notiz** : Der BACnet-Client arbeitet unabhängig vom BACnet-Server. Er hat seinen eigenen Dämon.
+> **** : Der BACnet-Client arbeitet unabhängig vom BACnet-Server. Er hat seinen eigenen Dämon.
 
 ---
 
@@ -27,7 +27,7 @@ Der Client-Daemon muss gestartet werden, um die Erkennungs- und Kommunikationsfu
 
 - **Begonnen** (vert) : Der Kunde ist betriebsbereit
 - **Befehl** (rouge) : Der Client ist nicht aktiv
-- **Fehler** (orange) : Kommunikationsproblem
+- **** (orange) : Kommunikationsproblem
 
 ---
 
@@ -57,10 +57,10 @@ Für jedes gefundene Gerät zeigt die Tabelle Folgendes an :
 |  |  |
 |---------|-------------|
 | **Geräte-ID** |  |
-| **Name** | ) |
+| **** | ) |
 | **IP-Adresse** |  |
-| **Hafen** | ) |
-| **Aktionen** |  |
+| **** | ) |
+| **** |  |
 
 #### Aktionen pro Gerät
 
@@ -91,14 +91,14 @@ Dieser Abschnitt ermöglicht es Ihnen, eine bestimmte Eigenschaft eines entfernt
 | Eigentum |  |
 |-----------|-------------|
 | **** |  |
-| **Objektname** |  |
-| **Beschreibung** |  |
-| **Objekttyp** |  |
-| **Einheiten** |  |
-| **Status-Flags** | ) |
-| **Außer Betrieb** |  |
-| **Prioritätsmatrix** |  |
-| **relinquish-default** |  |
+| **** |  |
+| **** |  |
+| **** |  |
+| **** |  |
+| **** | ) |
+| **** |  |
+| **** |  |
+| **** |  |
 
 Das Leseergebnis wird im JSON-Format im Ergebnisbereich angezeigt.
 
@@ -116,7 +116,7 @@ In diesem Abschnitt können Sie einen Wert in ein entferntes BACnet-Objekt schre
 | **IP-Adresse** |  | .100 |
 | **BACnet-Objekt** | : | analog-output:0 |
 | **Eigentum** |  |  |
-| **Wert** |  | 23.5 |
+| **** |  | 23.5 |
 | **Datentyp** |  | ) |
 | **** | ) | ) |
 
@@ -125,10 +125,10 @@ In diesem Abschnitt können Sie einen Wert in ein entferntes BACnet-Objekt schre
 |  |  |  |
 |------|-------------|---------|
 | **)** |  | 23.5 |
-| **unsigned (int)** |  | 100 |
-| **boolescher Wert** |  |  |
-| **Zeichenkette** |  | "" |
-| **aufgezählt** |  | 1 |
+| **)** |  | 100 |
+| **** |  |  |
+| **** |  | "" |
+| **** |  | 1 |
 
 ### BACnet-Priorität
 
@@ -155,13 +155,13 @@ Der COV-Mechanismus ermöglicht es Ihnen, automatisch eine Benachrichtigung zu e
 | **Geräte-ID** |  | 1234 |
 | **IP-Adresse** |  | .100 |
 | **BACnet-Objekt** | : | analog-input:0 |
-| **Lebensdauer** | ) | 3600 |
+| **** | ) | 3600 |
 
 ### Boutons
 
 |  |  |
 |--------|-------------|
-| **Abonnieren** |  |
+| **** |  |
 | **Abbestellen** |  |
 
 ### Verfügbare Laufzeiten (über das Verwaltungs-Popup))
@@ -201,10 +201,10 @@ Der COV-Mechanismus ermöglicht es Ihnen, automatisch eine Benachrichtigung zu e
 | **** |  |
 | **** | .) |
 | **** |  |
-| **Name** | ) |
 | **** | ) |
-| **Wert** |  |
-| **Aktionen** |  |
+| **** | ) |
+| **** |  |
+| **** |  |
 
 ### 
 

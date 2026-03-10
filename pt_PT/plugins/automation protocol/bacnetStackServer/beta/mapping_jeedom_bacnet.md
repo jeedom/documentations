@@ -70,7 +70,7 @@ json
 {
   "deviceId": 123,
   "deviceName": "bacnetStackServer",
-  "objects": [
+  "objects": 
     {
       "type": "analog-value",
       "instance": 1,

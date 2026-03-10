@@ -63,7 +63,7 @@ Eine Suchleiste am oberen Rand der Tabelle filtert die Zeilen sofort nach Typ, I
 | **Jeedom-Befehl verknüpft** | Reihenfolge der anzuzeigenden Informationen oder Aktionen |
 | **Anfangswert** | Startwert des BACnet-Objekts |
 | **Automatische Synchronisierung** | Automatische Aktualisierung von Jeedom (cron)) |
-| **Aktionen** | Objekt löschen oder Aktion konfigurieren |
+| **** | Objekt löschen oder Aktion konfigurieren |
 
 #### Fügen Sie ein BACnet-Objekt hinzu
 
