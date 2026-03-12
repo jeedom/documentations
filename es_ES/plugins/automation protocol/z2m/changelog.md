@@ -4,6 +4,12 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 29/12/2025
+
+- Typo
+- Ajout de l'option NODE_OPTIONS=--max_old_space_size=1536 pour le démarrage de zigbee2mqtt
+- Amélioration du processus d'installation
+
 # 25/11/2025
 
 - Amélioration de la mise a jour du firmware
