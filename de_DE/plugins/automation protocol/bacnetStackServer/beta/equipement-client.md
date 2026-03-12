@@ -46,11 +46,29 @@ Diese Parameter sind spezifisch für das entfernte BACnet-Gerät :
 
 ### Scannen Sie die Objekte
 
-Der Knopf **Scannen Sie die Objekte auf diesem Gerät** öffnet die Client-Oberfläche im Scanmodus :
+ :
+
+#### ")
+
+ :
 - Es wird nur der Abschnitt „Objektliste“ angezeigt
 - Geräte-ID und IP-Adresse sind bereits vorausgefüllt
-- Bereits im Gerät vorhandene Komponenten sind als „Vorhanden“ gekennzeichnet"
-- Sie können neue Artikel auswählen, die der Ausrüstung hinzugefügt werden sollen
+- 
+- )
+- 
+- **** : )
+- **** : 
+
+#### ")
+
+ :
+-  : 
+-  : )
+- 
+- 
+- **** : 
+
+ [BACnet-Client](modal-client.md#scan-sélectif-dobjets).
 
 ---
 

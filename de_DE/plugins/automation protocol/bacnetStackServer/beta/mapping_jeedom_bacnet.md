@@ -46,7 +46,19 @@ Sie können die automatische Synchronisierung mithilfe des Kontrollkästchens ak
 - **** : Eine Zuordnung mithilfe der Papierkorb-Schaltfläche löschen
 - BACnet-Instanzen werden bei Hinzufügung automatisch inkrementiert
 
-### 4. Speichern
+### 4. 
+
+ :
+
+- **** : 
+- **** : 
+- **** : 
+- **** : 
+- **** : 
+
+.
+
+### 
 
 - **** : Speichert die Konfiguration, ohne sie auf den Server anzuwenden
 - **Speichern und Anwenden** : Speichert und wendet es sofort auf den BACnet-Server an

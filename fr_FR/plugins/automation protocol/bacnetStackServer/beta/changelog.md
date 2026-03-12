@@ -1,7 +1,50 @@
 # Changelog bacnetStackServer
 
 
+# 11/03/2026
+
+- **Refonte complète de l'interface de mapping Jeedom** (jeedom.mapping.php) :
+  - Système de pagination pour gérer des centaines d'objets BACnet (50/100/200/500 objets par page)
+  - Navigation rapide : première page, précédente, suivante, dernière page
+  - Navigation clavier avec flèches gauche/droite
+  - Affichage du nombre d'objets par page personnalisable
+  - Fonction de recherche adaptée à la pagination
+
+- **Augmentation des timeouts pour les scans de devices** :
+  - Timeout JavaScript passé de 30s à 180s pour gérer les équipements avec beaucoup d'objets (2000+)
+  - Timeout PHP passé de 60s à 180s
+  - Limite d'exécution PHP étendue à 300s
+  - Message d'information pendant le scan prévenant du temps d'attente possible (jusqu'à 3 minutes)
+
+- **Nouvelle fonctionnalité : Scan sélectif d'objets BACnet** :
+  - Bouton "Scan sélectif" sur la page de configuration d'un équipement Client
+  - Permet d'ajouter uniquement des objets spécifiques sans scanner tout le device
+  - Interface à deux modes :
+    - **Mode manuel** : sélection interactive avec dropdown des types d'objets, input d'instance, choix Info/Action
+    - **Mode liste** : import rapide via textarea (format type:instance, un par ligne)
+  - Gestion intelligente des commandes action : désactivée automatiquement pour les types en lecture seule (analog-input, binary-input, multi-state-input, accumulator, pulse-converter)
+  - Affichage de la liste des objets sélectionnés avec badges visuels et suppression possible
+  - Idéal pour ajouter quelques points à un équipement existant sans le scanner entierement
+  - Création automatique des commandes avec leurs propriétés BACnet
+
+
+# 06/03/2026
+
+- Priorité d'écriture configurable par objet BACnet Serveur (AO, AV, BO, MSO) :
+  - Nouveau champ `writePriority` dans la configuration JSON du daemon (1-16, défaut : 16)
+  - Sélecteur de priorité dans la modale d'édition d'objet côté Serveur
+  - Priorité prise en compte à l'initialisation du daemon au démarrage
+
+
 # 05/03/2026
+
+- Visualisation des objets Schedule BACnet côté Client :
+  - Bouton calendrier sur les commandes de type `schedule` dans l'équipement
+  - Modale affichant la valeur actuelle, la valeur par défaut, la période effective
+  - Planning hebdomadaire décodé avec les plages horaires et valeurs (null = retour au défaut)
+  - Exceptions décodées : dates fixes, plages de dates, patterns jour/semaine/mois ; support de l'année "any" (BACnet 0xFF)
+  - Décodage natif des propriétés complexes `weekly-schedule`, `exception-schedule` et `effective-period`
+
 
 - Support étendu des types d'objets BACnet côté Client :
   - `accumulator` : compteur impulsions, lecture seule, numérique avec unité

@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 11/03/2026
+
+- Correction d'un bug lors de la reception d'un action_code vide qui ne mettait pas à jour la commande
+
 # 29/12/2025
 
 - Typo

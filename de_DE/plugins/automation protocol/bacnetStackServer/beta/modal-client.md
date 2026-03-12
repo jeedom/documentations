@@ -188,9 +188,11 @@ Der COV-Mechanismus ermöglicht es Ihnen, automatisch eine Benachrichtigung zu e
 ### Utilisation
 
  **Geräte-ID** '**IP-Adresse**
- ****
+ :
+   - **** : )
+   - **** : )
 
-)
+> **** : . .
 
 ### 
 
@@ -237,6 +239,113 @@ Der COV-Mechanismus ermöglicht es Ihnen, automatisch eine Benachrichtigung zu e
  :
 -  **** 
 -  **** (
+
+---
+
+## 
+
+ **** .  :
+- 
+- )
+- 
+
+### 
+
+ ****
+ **** (orange)
+
+> **** : .
+
+### 
+
+ :
+
+####  : )
+
+ :
+
+|  |  |
+|-------|-------------|
+| **** | .) |
+| **** | ) |
+| **** | " |
+
+**** :
+- **** : 
+-  ****  : 
+
+**** :
+-  ****  :
+  - 
+  - 
+
+**** :
+- 
+  -  **** "Info" : 
+  -  **** "" : 
+-  **X** 
+- 
+
+####  : 
+
+ :
+
+- **** : :instance`
+- **** :
+  
+  analog-value:100
+  analog-input:200
+  binary-value:0
+  multi-state-output:42
+  
+- 
+- 
+
+### 
+
+)
+ ****
+ :
+   - )
+   - .)
+   - 
+   - 
+
+
+### 
+
+ :
+
+
+ ****
+ :
+   -  : `analog-input`
+   -  : 
+   -  : 
+   -  : 
+   -  : 
+   -  : 
+ ****
+
+
+ :
+
+analog-input:150
+analog-input:151
+analog-input:152
+analog-input:153
+analog-input:154
+
+
+### 
+
+|  |  |
+|--------------|---------------|
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 
 ---
 

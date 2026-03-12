@@ -4,6 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 11.03.2026
+
+- Es wurde ein Fehler behoben, der dazu führte, dass der Befehl nicht aktualisiert wurde, wenn ein leerer action_code empfangen wurde
+
 # 29/12/2025
 
 - Typo

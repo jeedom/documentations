@@ -8,10 +8,16 @@
 >
 >Une refonte globale du plugin à été effectuée. Les méthodes d'écritures ou les parametrages des registres pourraient etre a refaire/re-adapter suivant les installations. Merci de bien faire un backup et de le télécharger en local avant de mettre à jour le plugin
 
+# 11/03/2026
+- Ajout mode de connexion TCP : persistant ou court (connexion/déconnexion par opération)
+- Nouveau paramètre `tcpConnectionMode` configurable depuis l'interface équipement
+- En mode court : connexion et déconnexion automatiques à chaque opération de lecture/écriture
+- Amélioration de la robustesse du démon : gestion des erreurs de décodage et du batching des lectures
+- Fix écriture registre unique avec `write_register` en mode court
+
 # 17/02/2026
 - Fix TCP/RTU 
 - Ajout bouton Test Connexion sur les équipements
-
 
 # 06/02/2026
 - Fix startRegister 0 : maintenant pris en compte
