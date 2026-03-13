@@ -12,7 +12,7 @@
 
 # 11/03/2026
 
-- **Refonte complète de l'interface de mapping Jeedom** (jeedom.mapping.php) :
+- **Refonte complète de l'interface de mapping Jeedom** :
   - Système de pagination pour gérer des centaines d'objets BACnet (50/100/200/500 objets par page)
   - Navigation rapide : première page, précédente, suivante, dernière page
   - Navigation clavier avec flèches gauche/droite

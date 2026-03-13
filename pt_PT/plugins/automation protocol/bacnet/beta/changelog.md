@@ -5,9 +5,9 @@
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
 
-# 
+# 26/02/2026
 
-- 
+- Ajout gestion objets de type Accumulator
 
 # 10/11/2025
 

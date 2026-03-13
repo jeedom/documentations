@@ -5,6 +5,23 @@
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
 
+# 26/02/2026
+
+- Ajout gestion objets de type Accumulator
+
+# 10/11/2025
+
+- Possibilité de créér des 'sous equipements' une fois un scan d'un équipement effectué ou après un import EDE, pour y ajouter des objects BACnet et ainsi segmenter un équipement BACnet
+- Ajout Lecture Trendlogs + Graphiques associés
+
+
+# 07/11/2025
+
+- Meilleure compatibilité des fichiers EDE à l'import
+- Fix affichage Nombre de points par Filtres
+- Fix noms des commandes importés depuis un fichier EDE
+
+
 # 21/10/2025
 
 - Fix local IP
