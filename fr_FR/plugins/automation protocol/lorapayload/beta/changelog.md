@@ -8,6 +8,8 @@
 
 - Correction de la commande du produit *Milesight TS30x - Temperature Sensor*
 
+- Mise à jour des du produit *Watteco Tic'o*
+
 # 05/03/2026 (Beta)
 
 - Ajout du produit *Milesight UC512 - Smart Irrigation Controller*

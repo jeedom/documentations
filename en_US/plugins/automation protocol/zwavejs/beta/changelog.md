@@ -4,12 +4,12 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 
+# 09/03/2026
 
-- Added config *)* (properties : )
-- Added config *)* (properties : )
-- Added config ** (properties : )
--  ** ()
+- Added config *Shelly Qubino Wave Door/Window (QNDW-002C)* (properties : Opening, Luminance, Direction, Battery)
+- Added config *Shelly Qubino Wave Plug (QNPL-0A112)* (properties : Switch, Power, Energy)
+- Added config *Zooz ZEN58 Low Voltage XS Relay* (properties : Switch, Power, Energy, Voltage, Current)
+- Correction de la configuration *Aeotec ZWA001* (valeur par défaut du paramètre de température de couleur)
 
 # 02/03/2026
 
@@ -17,12 +17,12 @@
 
 # 24/02/2026
 
-- Support des images d'équipement personnalisées (Jeedom 4.5) lorsqu'aucune image n'est définie par le plugin (ex: pour le contrôleur)
+- )
 - Ajout des traductions manquantes pour les messages arrivant dans le centre de notifications
 
 # 21/02/2026
 
-- Switch to version *11.12.0* de ZwaveJsUI (beta) *(semble résoudre les alertes "Dead" intempestives)*
+- Switch to version *11.12.0* de ZwaveJsUI (beta) *()*
 
 # 11/02/2026
 
