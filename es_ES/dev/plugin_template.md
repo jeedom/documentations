@@ -632,7 +632,7 @@ public function toHtml($_version = 'dashboard') {
         $replace['#visibilityIcon#'] = "block"
         $replace['#visibilityImage#'] = "none"
     }
-    $ = template_replace($replace, getTemplate('core', $version, 'current', 'weather'))
+    $html = template_replace($replace, getTemplate('core', $version, 'current', 'weather'))
     cache::set('widgetHtml' . $_version . $this->getId(), $html, 0)
     return $html
 }
@@ -646,7 +646,7 @@ public function toHtml($_version = 'dashboard') {
 $_version = jeedom::versionAlias($_version)
 ````
 
-Récupération d'un template de commande,  le template de commande : pluginsweathercoretemplate\$\_versionforecast. (\$\_version valant mobile ou dashboard)
+Récupération d'un template de commande,  le template de commande : pluginsweathercoretemplate\$\_versionforecast.html (\$\_version valant mobile ou dashboard)
 
 ````php
 $forcast_template = getTemplate('core', $_version, 'forecast', 'weather')
@@ -687,7 +687,7 @@ $parameters = $this->getDisplay('parameters')
 cache::' . $_version . $this->getId(), $html, 0)
 ````
 
-Enfin envoi du  à Jeedom :
+Enfin envoi du html à Jeedom :
 
 ````php
 return $html

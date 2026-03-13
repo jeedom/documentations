@@ -41,8 +41,11 @@ Diese Parameter sind spezifisch für das entfernte BACnet-Gerät :
 |-----------|-------------|---------|
 | **Geräte-ID** |  | 64 |
 | **IP-Adresse** |  | .100:47808 |
+| **** | ) | 8 |
 
 > **IP-Format** : Immer noch im `IP`-Format:Port` (ex : 192.168.1.100:).
+
+> **** :  **** . .  ****.
 
 ### Scannen Sie die Objekte
 
@@ -138,6 +141,12 @@ Jedes importierte BACnet-Objekt kann generieren :
 |------|-----------|-------------|-----------|
 | **** |  |  |  |
 | **** |  |  |  |
+
+### 
+
+ **** (. .
+
+> .
 
 ### Namenskonventionen
 

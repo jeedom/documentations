@@ -1,6 +1,15 @@
 # Changelog bacnetStackServer
 
 
+# 13/03/2026
+
+- **Priorité d'écriture BACnet configurable côté Client** :
+  - Nouveau champ **Priorité d'écriture par défaut** (1-16) sur l'équipement client (onglet Équipement), utilisé lors du scan/génération des commandes
+  - La priorité par défaut reste 8 (Manual-Operator) pour les équipements existants
+  - Nouveau sélecteur de priorité **par commande** directement dans le tableau des commandes (onglet Commandes), visible pour toutes les commandes action BACnet
+  - Les commandes existantes ne sont pas modifiées lors du changement de la valeur par défaut de l'équipement
+
+
 # 11/03/2026
 
 - **Refonte complète de l'interface de mapping Jeedom** (jeedom.mapping.php) :

@@ -41,8 +41,11 @@ Ces paramètres sont spécifiques au device BACnet distant :
 |-----------|-------------|---------|
 | **Device ID** | Identifiant BACnet du device distant | 64 |
 | **Adresse IP** | Adresse IP et port du device | 192.168.1.100:47808 |
+| **Priorité d'écriture par défaut** | Priorité BACnet (1-16) utilisée lors de la génération des commandes (scan) | 8 |
 
 > **Format IP** : Toujours au format `IP:port` (ex : `192.168.1.100:47808`).
+
+> **Priorité d'écriture par défaut** : S'applique uniquement aux **nouvelles commandes créées** lors d'un scan. Les commandes déjà existantes conservent leur priorité individuelle. Pour modifier une commande existante, utilisez le sélecteur dans l'onglet **Commandes**.
 
 ### Scanner les objets
 
@@ -138,6 +141,12 @@ Chaque objet BACnet importé peut générer :
 |------|-----------|-------------|-----------|
 | **info** | numeric / binary / string | Lecture de la valeur | `bacnet_info_TYPE_INSTANCE` |
 | **action** | slider / other | Écriture d'une valeur | `bacnet_action_TYPE_INSTANCE` |
+
+### Priorité d'écriture par commande
+
+Pour les commandes action (écriture BACnet), un sélecteur **Priorité BACnet** (1-16) est disponible directement dans la colonne Options du tableau des commandes. Il permet d'ajuster la priorité indépendamment pour chaque commande, sans toucher à la valeur par défaut de l'équipement.
+
+> Modifier la priorité d'une commande existante prend effet immédiatement après sauvegarde de l'équipement.
 
 ### Conventions de nommage
 
