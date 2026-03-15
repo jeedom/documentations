@@ -4,7 +4,7 @@
 	"description" : {
 		"fr_FR": "Plugin permettant de récupérer les informations EDF Tempo et d'afficher les jours restants pour chaque couleur, ainsi que les tarifs en heure creuse / heure pleine."
 	},
-	"utilization": "Installez le plugins, activez le et ajouter un équipement. Aucune autre configuration n'est requise. Vous pouvez personnaliser les tarifs Tempo dans la page de configuration du Plugin.",
+	"utilization": "Installez le plugin, activez-le et ajoutez un équipement. Aucune autre configuration n'est requise. Les couleurs du jour et du lendemain sont récupérées automatiquement entre 11h00 et 11h30. Planifiez vos scénarios à partir de 11h10 minimum pour disposer des données à jour. Vous pouvez personnaliser les tarifs Tempo dans la page de configuration du plugin.",
 	"link": {
 		"forum": "https://community.jeedom.com/t/edf-tempo-connaitre-la-couleur-du-jour-de-demain/110520"
 	},
