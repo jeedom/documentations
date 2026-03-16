@@ -1,6 +1,12 @@
 # Changelog bacnetStackServer
 
 
+# 16/03/2026
+
+- **Persistance des TrendLogs au redémarrage du démon** :
+  - Les données historiques des TrendLogs sont désormais restaurées depuis le disque au redémarrage, sans perte d'historique
+
+
 # 13/03/2026
 
 - **Priorité d'écriture BACnet configurable côté Client** :
