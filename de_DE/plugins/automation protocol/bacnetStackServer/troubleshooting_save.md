@@ -1,4 +1,4 @@
-#  : 
+# Fehlerbehebung : 
 
 ## 
 
@@ -31,7 +31,7 @@ ou
 
  :
 
- ****
+1. Klicken Sie auf die Schaltfläche ****
 
  ****
 
@@ -136,7 +136,7 @@ bash
 
  ****
  ****
- ****
+3. Aktivieren ****
  ****
 
 ### Surveillance

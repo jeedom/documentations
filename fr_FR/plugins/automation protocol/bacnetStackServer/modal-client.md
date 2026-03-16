@@ -188,9 +188,11 @@ Cette section permet d'explorer l'ensemble des objets BACnet exposés par un dev
 ### Utilisation
 
 1. Renseignez le **Device ID** et l'**Adresse IP**
-2. Cliquez sur **Lire la liste des objets**
-3. Le plugin interroge le device et récupère la liste complète avec les propriétés de chaque objet
-4. L'opération peut prendre quelques minutes pour les devices avec beaucoup d'objets (timeout de 3 minutes)
+2. Choisissez l'une des deux méthodes :
+   - **Lire la liste des objets** : Scan complet du device (peut prendre jusqu'à 3 minutes pour les devices avec 2000+ objets)
+   - **Scan sélectif** : Ajoutez uniquement les objets spécifiques dont vous avez besoin (voir section ci-dessous)
+
+> **Note** : Pour les devices avec beaucoup d'objets (2000+), le scan complet peut prendre jusqu'à 3 minutes. Le timeout est fixé à 180 secondes.
 
 ### Tableau des objets
 
@@ -237,6 +239,113 @@ Quand vous cliquez sur **Créer équipements** :
 Chaque objet BACnet génère :
 - Une commande **info** pour lire la valeur
 - Une commande **action** (pour les types output et value) pour écrire une valeur
+
+---
+
+## Scan sélectif d'objets
+
+Le **scan sélectif** permet d'ajouter uniquement des objets spécifiques à un équipement existant, sans avoir à scanner l'intégralité du device. Idéal pour :
+- Ajouter quelques nouveaux points à un équipement existant
+- Éviter les timeouts sur les très gros devices (2000+ objets)
+- Gagner du temps en ciblant précisément les objets nécessaires
+
+### Accès au scan sélectif
+
+1. Depuis la page de configuration d'un **équipement Client existant**
+2. Cliquez sur le bouton **Scan sélectif** (orange)
+
+> **Important** : L'équipement doit être sauvegardé avant d'utiliser le scan sélectif.
+
+### Interface de scan sélectif
+
+La modale propose deux modes :
+
+#### Mode 1 : Ajouter manuellement (par défaut)
+
+Interface intuitive avec sélecteurs pour construire votre liste :
+
+| Champ | Description |
+|-------|-------------|
+| **Type d'objet** | Sélecteur avec tous les types BACnet courants (analog-value, binary-input, etc.) |
+| **Instance** | Numéro d'instance de l'objet (0 à 4194303) |
+| **Type de commande** | Choix entre "Info uniquement" ou "Info + Action" |
+
+**Boutons** :
+- **Ajouter** : Ajoute l'objet à la liste de sélection
+- Touche **Entrée** dans le champ Instance : Raccourci pour ajouter rapidement
+
+**Gestion intelligente des commandes action** :
+- L'option "Info + Action" est **automatiquement désactivée** pour les types en lecture seule :
+  - analog-input, binary-input, multi-state-input
+  - accumulator, pulse-converter
+
+**Liste des objets sélectionnés** :
+- Affichage de tous les objets ajoutés avec badges colorés
+  - Badge **bleu** "Info" : Commande info uniquement
+  - Badge **vert** "Info+Action" : Commande info + commande action
+- Bouton **X** pour retirer un objet de la liste
+- Compteur du nombre d'objets sélectionnés
+
+#### Mode 2 : Coller une liste
+
+Pour les utilisateurs avancés ayant déjà une liste préparée :
+
+- **Format** : Un objet par ligne, format `type:instance`
+- **Exemples** :
+  ```
+  analog-value:100
+  analog-input:200
+  binary-value:0
+  multi-state-output:42
+  ```
+- Les lignes vides et les commentaires (ligne commençant par `#`) sont ignorés
+- Validation automatique du format
+
+### Processus de scan sélectif
+
+1. Ajoutez les objets souhaités (mode manuel ou liste)
+2. Cliquez sur **Ajouter les objets**
+3. Le plugin :
+   - Scanne uniquement les objets spécifiés (très rapide, ~5-10 secondes)
+   - Récupère leurs propriétés (nom, description, valeur, etc.)
+   - Crée automatiquement les commandes dans l'équipement
+   - Respecte votre choix Info/Action pour chaque objet
+4. La page se recharge avec les nouvelles commandes
+
+### Exemple d'utilisation
+
+Vous avez un équipement avec 2000 objets BACnet, mais vous voulez juste ajouter 5 nouvelles températures :
+
+1. Ouvrez la page de configuration de l'équipement
+2. Cliquez sur **Scan sélectif**
+3. Sélectionnez :
+   - Type : `analog-input`
+   - Instance : `150` → Ajouter
+   - Instance : `151` → Ajouter
+   - Instance : `152` → Ajouter
+   - Instance : `153` → Ajouter
+   - Instance : `154` → Ajouter
+4. Cliquez sur **Ajouter les objets**
+5. En 5-10 secondes, les 5 nouvelles températures sont ajoutées
+
+Alternativement en mode liste :
+```
+analog-input:150
+analog-input:151
+analog-input:152
+analog-input:153
+analog-input:154
+```
+
+### Avantages vs scan complet
+
+| Scan complet | Scan sélectif |
+|--------------|---------------|
+| Scanne TOUS les objets du device | Scanne uniquement les objets demandés |
+| Peut prendre 2-3 minutes pour 2000+ objets | Prend 5-10 secondes quelque soit la taille du device |
+| Affiche tous les objets pour sélection | Ajoute directement les objets choisis |
+| Risque de timeout sur très gros devices | Pas de risque de timeout |
+| Idéal pour la découverte initiale | Idéal pour ajouter des points spécifiques |
 
 ---
 

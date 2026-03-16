@@ -46,7 +46,19 @@ Vous pouvez activer ou désactiver la synchronisation automatique avec la case �
 - **Supprimer** : Supprimez un mapping avec le bouton poubelle
 - Les instances BACnet sont automatiquement incrémentées lors de l'ajout
 
-### 4. Sauvegarder
+### 4. Pagination et recherche
+
+Pour gérer un grand nombre d'objets mappés (des centaines), l'interface dispose de fonctionnalités de pagination :
+
+- **Choix du nombre d'objets par page** : 50, 100, 200 ou 500 objets par page
+- **Navigation** : Première page, Précédente, Suivante, Dernière page
+- **Navigation clavier** : Flèches gauche/droite pour changer de page
+- **Recherche en temps réel** : Filtrez les objets par nom, type ou instance
+- **Compteur** : Affichage du nombre total d'objets et de la page actuelle
+
+La pagination améliore considérablement les performances d'affichage (jusqu'à 90%) lorsque vous gérez de nombreux mappings.
+
+### 5. Sauvegarder
 
 - **Sauvegarder** : Enregistre la configuration sans l'appliquer au serveur
 - **Sauvegarder et Appliquer** : Enregistre ET applique immédiatement au serveur BACnet

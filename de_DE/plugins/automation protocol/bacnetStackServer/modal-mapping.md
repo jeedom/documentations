@@ -2,11 +2,11 @@
 
 . .
 
-## 
+## Zugang
 
  :
 
- **** 
+2. Klicken Sie auf die Schaltfläche **** 
 
 
 > **** : .
@@ -32,9 +32,9 @@
 
 #### 
 
-|  |  |  |
+| Einstellung |  | Standardmäßig |
 |-----------|---------|------------|
-| **** | <br><br><br> **** <br><br><br> |  |
+| **** | <br><br><br> **Alle 15 Minuten** <br><br><br> |  |
 | **** |  : * * * * * | - |
 | **** |  |  |
 
@@ -44,7 +44,7 @@
 
 
 **** :
-- * * * * * : 
+- * * * * * : Alle 5 Minuten
 -  * * * * : 
 -  * * * : 
 
@@ -56,7 +56,7 @@
 
 #### 
 
-|  |  |  |
+| Einstellung |  | Standardmäßig |
 |-----------|---------|------------|
 | **** |  **)** <br><br><br><br><br> |  |
 | **** |  :  * * * | - |
@@ -72,8 +72,8 @@
 
 |  |  |  |
 |--------|-------|-------------|
-| **** |  |  |
-| **** |  |  |
+| **Fügen Sie ein BACnet-Objekt hinzu** |  |  |
+| **Jetzt synchronisieren** |  |  |
 | **** |  |  |
 
 ---
@@ -160,7 +160,7 @@
 
  :
 
-|  |  |  |  |
+|  |  | Objekttyp |  |
 |--------|-------|--------------|-------------|
 | **** |  |  |  |
 | **** |  | multi-state-* |  |
@@ -204,9 +204,9 @@
 
  **** .
 
-#### 
+#### Allgemeine Einstellungen
 
-|  |  |  |
+| Einstellung |  | Standardmäßig |
 |-----------|-------------|------------|
 | **** | ) | - |
 | **** | ) |  |
@@ -256,7 +256,7 @@
 
 ).
 
-#### 
+#### Einstellungen
 
 |  |  |
 |---------|-------------|
@@ -294,9 +294,9 @@
 |  |  |  |
 |--------|-------|-------------|
 | **** |  |  |
-| **** |  |  |
+| **Speichern und Anwenden** |  | Speichert und wendet es sofort auf den BACnet-Server an |
 
-> **** :  **** .
+> **** :  **Speichern und Anwenden** .
 
 ---
 
@@ -315,8 +315,8 @@ mermaid
 
 ### 2. 
 
- ****
- **** (ex: analog-input)
+1. Klicken Sie auf **Fügen Sie ein BACnet-Objekt hinzu**
+ **Typ BACnet** (ex: analog-input)
 '**** (ex: )
 : )
  **** :
@@ -325,7 +325,7 @@ mermaid
    -  : )
  **** 
  **** 
- ****
+ **Speichern und Anwenden**
 
 ### 3. 
 
@@ -346,11 +346,11 @@ mermaid
    - 
    - 
    - Validez
-7. ****
+7. **Speichern und Anwenden**
 
 ---
 
-## 
+## Bewährte Verfahren
 
 ### 
 
@@ -387,7 +387,7 @@ mermaid
 - 
 - 
 
-#### 
+#### Befehlstypen
 -  **** (
 -  **** (
 - **** : 
@@ -416,7 +416,7 @@ mermaid
 - Consommations
 
 **** :
--  : 
+- Anfangswert : 
 -  : 
 
 ### 
@@ -428,7 +428,7 @@ mermaid
 - Relais
 
 **** :
--  : )
+- Anfangswert : )
 - 
 
 ### 
@@ -439,7 +439,7 @@ mermaid
 - 
 
 **** :
--  : ...)
+- Anfangswert : ...)
 -  ****
 
 ### Trendlogs
@@ -468,12 +468,12 @@ mermaid
 
 ---
 
-## 
+## Fehlerbehebung
 
 ### 
 
 **** :
- **** ()
+ **Speichern und Anwenden** ()
 
 
 
@@ -498,7 +498,7 @@ mermaid
  ?
 
 **** :
--  **** 
+-  **Jetzt synchronisieren** 
 - 
 - 
 
@@ -566,7 +566,7 @@ json
     {
       "type": "analog-input",
       "instance": 101,
-      "name": "",
+      "name": "Wohnzimmertemperatur",
       "presentValue": null,
       "": 1234,
       "": "info",

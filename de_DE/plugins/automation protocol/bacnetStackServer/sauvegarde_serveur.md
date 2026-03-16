@@ -89,7 +89,7 @@ array(
 )
 
 
-## 
+## Bewährte Verfahren
 
 ### 
 
@@ -182,7 +182,7 @@ php
 :30: : 
 
 
-## 
+## Fehlerbehebung
 
 ###  : ""
 

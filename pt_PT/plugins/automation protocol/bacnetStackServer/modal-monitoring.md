@@ -225,9 +225,9 @@
 ## 
 
  :
+- **Gradientes de cor** 
 - **** 
-- **** 
-- **** 
+- **Indicadores visuais** 
 - **** 
 - **** 
 
@@ -262,9 +262,9 @@
 
 ---
 
-## 
+## Atalhos de teclado
 
-.
+Atualmente, não existem atalhos de teclado implementados para esta tela.
 
 ---
 

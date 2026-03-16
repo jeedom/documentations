@@ -41,16 +41,37 @@ Ces paramètres sont spécifiques au device BACnet distant :
 |-----------|-------------|---------|
 | **Device ID** | Identifiant BACnet du device distant | 64 |
 | **Adresse IP** | Adresse IP et port du device | 192.168.1.100:47808 |
+| **Priorité d'écriture par défaut** | Priorité BACnet (1-16) utilisée lors de la génération des commandes (scan) | 8 |
 
 > **Format IP** : Toujours au format `IP:port` (ex : `192.168.1.100:47808`).
 
+> **Priorité d'écriture par défaut** : S'applique uniquement aux **nouvelles commandes créées** lors d'un scan. Les commandes déjà existantes conservent leur priorité individuelle. Pour modifier une commande existante, utilisez le sélecteur dans l'onglet **Commandes**.
+
 ### Scanner les objets
 
-Le bouton **Scanner les objets de ce device** ouvre l'interface client en mode scan :
+Deux méthodes pour ajouter des objets à l'équipement :
+
+#### 1. Scan complet (bouton bleu "Scanner les objets")
+
+Ouvre l'interface client en mode scan complet :
 - Seule la section "Liste des objets" est affichée
 - Le Device ID et l'IP sont pré-remplis
-- Les objets déjà présents dans l'équipement sont marqués comme "Existant"
-- Vous pouvez sélectionner de nouveaux objets à ajouter à l'équipement
+- Le plugin récupère TOUS les objets du device
+- Les objets déjà présents sont marqués comme "Existant" (ligne verte)
+- Vous sélectionnez les nouveaux objets à ajouter
+- **Durée** : Peut prendre jusqu'à 3 minutes pour les gros devices (2000+ objets)
+- **Idéal pour** : Découverte initiale du device, vue d'ensemble complète
+
+#### 2. Scan sélectif (bouton orange "Scan sélectif")
+
+Interface dédiée pour ajouter uniquement des objets spécifiques :
+- Deux modes : ajout manuel avec sélecteurs ou import par liste
+- Scan uniquement des objets demandés (très rapide : 5-10 secondes)
+- Gestion intelligente Info/Action selon le type d'objet
+- Pas de risque de timeout
+- **Idéal pour** : Ajouter quelques nouveaux points, éviter les timeouts, ciblage précis
+
+Pour plus de détails sur le scan sélectif, consultez la page [Client BACnet](modal-client.md#scan-sélectif-dobjets).
 
 ---
 
@@ -120,6 +141,12 @@ Chaque objet BACnet importé peut générer :
 |------|-----------|-------------|-----------|
 | **info** | numeric / binary / string | Lecture de la valeur | `bacnet_info_TYPE_INSTANCE` |
 | **action** | slider / other | Écriture d'une valeur | `bacnet_action_TYPE_INSTANCE` |
+
+### Priorité d'écriture par commande
+
+Pour les commandes action (écriture BACnet), un sélecteur **Priorité BACnet** (1-16) est disponible directement dans la colonne Options du tableau des commandes. Il permet d'ajuster la priorité indépendamment pour chaque commande, sans toucher à la valeur par défaut de l'équipement.
+
+> Modifier la priorité d'une commande existante prend effet immédiatement après sauvegarde de l'équipement.
 
 ### Conventions de nommage
 
