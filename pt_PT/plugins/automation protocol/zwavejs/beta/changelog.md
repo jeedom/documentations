@@ -4,6 +4,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 
+
+-  *(.)*
+
 # 09/03/2026
 
 - Configuração adicionada *Shelly Qubino Wave Door/Window (QNDW-002C)* (propriedades : Opening, Luminance, Direction, Battery)
@@ -17,12 +21,12 @@
 
 # 24/02/2026
 
-- )
+-  *( mini)*
 - Ajout des traductions manquantes pour les messages arrivant dans le centre de notifications
 
 # 21/02/2026
 
-- Mudar para a versão *11.12.0* de ZwaveJsUI (beta) *()*
+- Mudar para a versão *11.12.0* de ZwaveJsUI (beta) *(corrige les alertes "Dead" intempestives)*
 
 # 11/02/2026
 

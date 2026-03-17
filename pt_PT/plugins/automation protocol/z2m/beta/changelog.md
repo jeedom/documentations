@@ -6,7 +6,11 @@
 
 # 
 
-- 
+-  *(.)*
+
+# 11/03/2026
+
+- Correction d'un bug lors de la reception d'un action_code vide qui ne mettait pas à jour la commande
 
 # 29/12/2025
 
