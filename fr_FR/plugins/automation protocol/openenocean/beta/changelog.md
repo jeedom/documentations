@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 17/03/2026
+
+- Configuration automatique du plugin sur les boxes officielles *(Jeedom 4.5.3 mini)*
+
 # 02/12/2025
 
 - Correction des inclusions de modules

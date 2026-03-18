@@ -4,6 +4,14 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 
+
+-  *(.)*
+
+# 11/03/2026
+
+- Correction d'un bug lors de la reception d'un action_code vide qui ne mettait pas à jour la commande
+
 # 29/12/2025
 
 - Typo

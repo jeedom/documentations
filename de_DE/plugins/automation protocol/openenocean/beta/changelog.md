@@ -6,7 +6,11 @@
 
 # 
 
-- 
+-  *(.)*
+
+# 02/12/2025
+
+- Correction des inclusions de modules
 
 # 26/03/2025
 
