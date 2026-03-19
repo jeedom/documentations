@@ -1,5 +1,32 @@
 # Changelog bacnetStackServer
 
+> **⚠ IMPORTANT — À faire après chaque mise à jour**
+> Toujours **réinstaller les dépendances** après une mise à jour du plugin.
+> Cette étape télécharge le binaire daemon (`bacnetStackd`) à jour. Sans cette étape, l'ancien binaire reste en place et les corrections ou nouvelles fonctionnalités du daemon ne sont pas actives.
+
+# 19/03/2026
+
+- **Timeout BACnet configurable (daemon C + PHP)** :
+  - Timeout BACnet par défaut abaissé de 60s à **15s** pour readprop, writeprop et subscribecov
+  - Nouveau champ JSON `"timeout"` (en secondes) passable par commande pour ajuster par appel
+
+
+- **Correction fuite invoke_id sur writeprop timeout** :
+  - `tsm_free_invoke_id()` ajouté dans le chemin timeout de `handle_client_writeprop`
+  - Évite l'épuisement du pool TSM (256 slots) après de nombreux timeouts consécutifs sur un device injoignable
+
+- **Re-souscription COV intégrée au cycle de polling** :
+  - Suppression du blocage `resubscribeAllCOV()` au démarrage du daemon
+  - Les souscriptions COV expirées sont rétablies automatiquement lors du premier poll réussi de chaque device
+  - Élimine le risque de blocage du démarrage PHP sur des devices lents ou injoignables
+
+- **Relinquish au démarrage désactivé par défaut** :
+  - Nouvelle option dans Configuration Plugin : *Relinquish au démarrage du démon* (désactivée par défaut)
+
+
+- **Correction commandes Relinquish** :
+  - Les commandes relinquish lisent désormais `device_ip` et `device_id` depuis l'équipement parent plutôt que depuis leur propre configuration, évitant des données obsolètes en cas de modification de l'équipement
+
 
 # 16/03/2026
 
