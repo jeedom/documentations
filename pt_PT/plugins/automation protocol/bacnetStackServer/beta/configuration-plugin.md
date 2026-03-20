@@ -5,7 +5,7 @@ A página de configuração do plugin BACnet Stack Server agrupa todas as config
 ## Acesso
 
 Para acessar a configuração :
-1. Na página principal do plugin, clique no bloco **Configuração**
+1. Na página principal do plugin, clique no bloco ****
 2. Então, em **Configuração do plugin**
 3. Ou diretamente pelo menu Jeedom : **Plugins > Comunicação > Servidor BACnet Stack > Configuração**
 
@@ -23,9 +23,9 @@ Esta seção configura as propriedades do dispositivo BACnet conforme ele aparec
 
 ### Configurações do dispositivo
 
-| Contexto | Descrição | Por padrão |
+| Contexto |  | Por padrão |
 |-----------|-------------|------------|
-| **Descrição do dispositivo** | Texto descritivo visível para clientes BACnet | jeeBacnetStackServer |
+| **Descrição do dispositivo** | Texto descritivo visível para clientes BACnet |  |
 | **Localização do dispositivo** | Localização geográfica (texto livre)) | - |
 | **Tempo limite APDU (ms))** | Tempo máximo de espera para respostas APDU | 3000 |
 | **Número de tentativas de APDU** | Número de encaminhamentos em caso de insucesso | 3 |
@@ -33,12 +33,12 @@ Esta seção configura as propriedades do dispositivo BACnet conforme ele aparec
 
 ### Boutons
 
-| Botão | Descrição |
+|  |  |
 |--------|-------------|
 | **Atualizar informações do servidor** | Lê os valores atuais do servidor BACnet em execução |
 | **Salvar informações do dispositivo** | Envia as alterações para o servidor BACnet |
 
-> **Observação** : Esses parâmetros são enviados diretamente para o servidor BACnet em execução. Elas entram em vigor imediatamente.
+> **** : Esses parâmetros são enviados diretamente para o servidor BACnet em execução. Elas entram em vigor imediatamente.
 
 ### Tempo limite APDU
 
@@ -69,18 +69,18 @@ Determina a frequência com que o Jeedom consulta dispositivos BACnet remotos pa
 | **A cada 10 minutos** | Valores que mudam lentamente (temperaturas, metros)) |
 | **A cada hora** | Valores estáveis ou para reduzir a carga da rede |
 
-> **Informações** : Essa frequência se aplica somente a dispositivos cliente cujo modo de atualização é "Cron" e cuja caixa "Incluir no cron" está marcada.
+> **** : Essa frequência se aplica somente a dispositivos cliente cujo modo de atualização é "Cron" e cuja caixa "Incluir no cron" está marcada.
 
 ### Interface de rede
 
 Selecione a interface de rede na qual o servidor BACnet está escutando. O plugin lista automaticamente as interfaces disponíveis no seu sistema (excluindo o loopback)).
 
 Interfaces comuns :
-- `eth0` : Interface Ethernet com fio
-- `ens18`, `enp0s3` : Interfaces Ethernet (nomenclatura moderna))
-- `wlan0` : Interface Wi-Fi (não recomendada para BACnet))
+-  : Interface Ethernet com fio
+-  : Interfaces Ethernet (nomenclatura moderna))
+-  : Interface Wi-Fi (não recomendada para BACnet))
 
-> **Importante** : O servidor BACnet escuta em apenas uma interface. Se seus dispositivos BACnet estiverem em uma rede específica, selecione a interface correspondente.
+> **** : O servidor BACnet escuta em apenas uma interface. Se seus dispositivos BACnet estiverem em uma rede específica, selecione a interface correspondente.
 
 ### Porta de tomada
 
@@ -108,11 +108,11 @@ Nome do servidor BACnet conforme aparece durante uma descoberta (Who-Is)). Use u
 
 Porta de rede utilizada para o protocolo BACnet/IP.
 
-| Contexto | Por padrão | Padrão |
+| Contexto | Por padrão |  |
 |-----------|------------|----------|
-| **Porta BACnet** | 47808 | 47808 (0xBAC0) |
+| **Porta BACnet** | 47808 | ) |
 
-> **Atenção** : A porta BACnet padrão é 47808. Altere esta configuração apenas se outro serviço já estiver utilizando esta porta ou se a sua instalação exigir uma porta não padrão.
+> **** : A porta BACnet padrão é 47808. Altere esta configuração apenas se outro serviço já estiver utilizando esta porta ou se a sua instalação exigir uma porta não padrão.
 
 ### Caminho de backup do servidor
 
@@ -120,7 +120,7 @@ Caminho relativo para o plugin do arquivo de backup da configuração do servido
 
 | Contexto | Por padrão |
 |-----------|------------|
-| **Salvar caminho** | servidor de dados/salvar.json |
+| **Salvar caminho** | servidor de dados/salvar. |
 
 Este arquivo é usado pelo comando `SAVE_CONFIG` para salvar o estado do servidor.
 
@@ -175,7 +175,7 @@ O plugin verifica na inicialização :
 ### O demônio não vai começar
 
 1. Verifique os registros do plugin no Jeedom
-2. Certifique-se de que a porta BACnet (47808) não esteja em uso : `sudo netstat -tulpn | grep 47808`
+2. Certifique-se de que a porta BACnet (47808) não esteja em uso :  | 
 3. Verifique se o arquivo binário é executável : `ls -la /caminho/para/bacnetStackd`
 4. Reinicie as dependências, se necessário
 
@@ -189,6 +189,6 @@ O plugin verifica na inicialização :
 ### Erro "Porta já em uso""
 
 Outro processo já está utilizando a porta 47808 :
-1. Identifique o processo : `sudo lsof -i :47808`
+1. Identifique o processo :  :
 2. Interrompa o processo de conflito
 3. Ou altere a porta BACnet na configuração

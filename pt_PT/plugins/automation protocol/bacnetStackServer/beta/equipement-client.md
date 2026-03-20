@@ -7,7 +7,7 @@ Cada dispositivo BACnet descoberto na rede pode ser representado como um disposi
 ### Método automático (recomendado))
 
 1. Abra a interface **Cliente BACnet** (Descoberta de rede)
-2. Inicie um **Quem é** para descobrir os dispositivos
+2. Inicie um **** para descobrir os dispositivos
 3. Clique em **Liste os objetos** de um dispositivo
 4. Selecione os itens desejados
 5. Clique em **Criar equipamentos**
@@ -25,27 +25,27 @@ Cada dispositivo BACnet descoberto na rede pode ser representado como um disposi
 
 ### Configurações gerais
 
-| Contexto | Descrição |
+| Contexto |  |
 |-----------|-------------|
 | **Nome do equipamento** | Nome exibido em Jeedom |
 | **Objeto pai** | Jeedom se opõe a anexar |
 | **Categoria** | Categoria de equipamentos (Aquecimento, Segurança, etc.).) |
-| **Habilitar** | Liga ou desliga o equipamento |
-| **Visível** | Torna o equipamento visível no painel de instrumentos |
+| **** | Liga ou desliga o equipamento |
+| **** | Torna o equipamento visível no painel de instrumentos |
 
 ### Configuração do cliente BACnet
 
 Esses parâmetros são específicos para o dispositivo BACnet remoto :
 
-| Contexto | Descrição | Exemplo |
+| Contexto |  |  |
 |-----------|-------------|---------|
 | **ID do dispositivo** | Identificador BACnet do dispositivo remoto | 64 |
-| **Endereço IP** | Endereço IP e porta do dispositivo | 192.168.1.100:47808 |
+| **Endereço IP** | Endereço IP e porta do dispositivo | .100:47808 |
 | **Prioridade de escrita padrão** | Prioridade BACnet (1-16) usada ao gerar comandos (varredura)) | 8 |
 
-> **Formato IP** : Ainda no formato `IP`:porta` (ex : `192.168.1.100:47808`).
+> **Formato IP** : Ainda no formato `IP`:porta` (ex : :).
 
-> **Prioridade de escrita padrão** : Aplica-se somente a **novos pedidos criados** durante uma varredura. As encomendas existentes mantêm a sua prioridade individual. Para modificar um comando existente, use o seletor na aba **Pedidos**.
+> **Prioridade de escrita padrão** : Aplica-se somente a **novos pedidos criados** durante uma varredura. As encomendas existentes mantêm a sua prioridade individual. Para modificar um comando existente, use o seletor na aba ****.
 
 ### Escaneie os objetos
 
@@ -83,7 +83,7 @@ O método de atualização determina como os valores do comando são atualizados
 
 O modo padrão. .
 
-| Contexto | Descrição |
+| Contexto |  |
 |-----------|-------------|
 | **** | Caixa de seleção para ativar atualizações periódicas |
 
@@ -93,13 +93,13 @@ O modo padrão. .
 
 . .
 
-| Vantagem | Inconveniente |
+|  | Inconveniente |
 |----------|--------------|
 | Atualização instantânea | Nem todos os dispositivos são compatíveis com COV |
 | Menos tráfego de rede | A assinatura deve ser renovada periodicamente |
 | Sem pesquisas desnecessárias | Configuração mais complexa |
 
-> **Importante** : . .
+> **** : . .
 
 ---
 
@@ -131,16 +131,16 @@ O modo padrão. .
 
 ### 
 
- **Pedidos** .
+ **** .
 
 ### 
 
  :
 
-| Tipo | Subtipo | Descrição | ID lógico |
+|  |  |  |  |
 |------|-----------|-------------|-----------|
-| **** | numérico / binário / string | Lendo o valor | `bacnet_info_TYPE_INSTANCE` |
-| **** | controle deslizante / outro | Escrever um valor | `bacnet_action_TYPE_INSTANCE` |
+| **** | numérico / binário / string | Lendo o valor |  |
+| **** | controle deslizante / outro | Escrever um valor |  |
 
 ### 
 

@@ -1,13 +1,13 @@
 # Registro de alterações do servidor bacnetStack
 
 > **⚠ IMPORTANTE — A ser feito após cada atualização**
-> Sempre **reinstalar as dependências** após uma atualização de plugin.
+>  **reinstalar as dependências** após uma atualização de plugin.
 > Esta etapa baixa o binário do daemon atualizado (`bacnetStackd`). Sem essa etapa, o binário antigo permanece instalado e as correções ou novos recursos do daemon não são ativados.
 
-# 19/03/2026
+# 
 
 - **Tempo limite BACnet configurável (daemon C + PHP))** :
-  - O tempo limite padrão do BACnet foi reduzido de 60 segundos para **15s** para readprop, writeprop e subscribecov
+  - O tempo limite padrão do BACnet foi reduzido de 60 segundos para **** para readprop, writeprop e subscribecov
   - Novo campo JSON "timeout" (em segundos) passável via comando para ajuste por chamada
 
 
@@ -28,13 +28,13 @@
   - Os comandos de liberação agora leem `device_ip` e `device_id` do dispositivo pai em vez de sua própria configuração, evitando dados desatualizados caso o dispositivo seja modificado
 
 
-# 16/03/2026
+# 
 
 - **Os registros de tendências persistem após a reinicialização do daemon** :
   - Os dados históricos do TrendLogs agora são restaurados do disco após a reinicialização, sem qualquer perda de histórico
 
 
-# 13/03/2026
+# 
 
 - **Prioridade de escrita BACnet configurável no lado do cliente** :
   - Novo campo **Prioridade de escrita padrão** (1-16) no equipamento do cliente (aba Equipamento), usado durante a leitura/geração de pedidos
@@ -43,7 +43,7 @@
   - Os comandos existentes não são modificados quando o valor padrão do equipamento é alterado
 
 
-# 11/03/2026
+# 
 
 - **Redesign completo da interface de mapeamento do Jeedom** :
   - Sistema de paginação para gerenciar centenas de objetos BACnet (50/100/200/500 objetos por página))
@@ -70,7 +70,7 @@
   - Criação automática de comandos com suas propriedades BACnet
 
 
-# 06/03/2026
+# 
 
 - Prioridade de gravação configurável por objeto BACnet Server (AO, AV, BO, MSO)) :
   - Novo campo `writePriority` na configuração JSON do daemon (1-16, padrão) : 16)
@@ -78,7 +78,7 @@
   - Prioridade considerada ao inicializar o daemon na inicialização
 
 
-# 05/03/2026
+# 
 
 - Visualizando objetos de agendamento BACnet no lado do cliente :
   - Botão de calendário em comandos do tipo `agendar` no equipamento
@@ -89,45 +89,45 @@
 
 
 - Suporte estendido para tipos de objeto BACnet do lado do cliente :
-  - `acumulador` : Contador de pulsos, somente leitura, digital com unidade
-  - `conversor de pulsos` : Conversão de pulsos → unidades de engenharia, somente leitura, digitais com unidade
-  - `valor-inteiro` : Valor inteiro com sinal, leitura + escrita (controle deslizante))
-  - `valor-inteiro-positivo` : inteiro sem sinal, leitura + escrita (controle deslizante))
-  - `characterstring-value` : valor do texto, leitura + escrita (mensagem))
-  - `grande valor analógico` : já tratado através de detecção 'analógica' (dupla precisão))
+  -  : Contador de pulsos, somente leitura, digital com unidade
+  -  : Conversão de pulsos → unidades de engenharia, somente leitura, digitais com unidade
+  -  : Valor inteiro com sinal, leitura + escrita (controle deslizante))
+  -  : inteiro sem sinal, leitura + escrita (controle deslizante))
+  -  : valor do texto, leitura + escrita (mensagem))
+  -  : já tratado através de detecção 'analógica' (dupla precisão))
 - Exclusão automática de objetos sem 'valor presente' da coleta e verificação : `dispositivo`, `porta-de-rede`, `classe-de-notificação`
-- Correção : O `listValue` dos comandos de ação com vários estados é preenchido automaticamente no primeiro ciclo cron (para dispositivos criados a partir do EDE))
+-  : O `listValue` dos comandos de ação com vários estados é preenchido automaticamente no primeiro ciclo cron (para dispositivos criados a partir do EDE))
 - Utilizando o ID numérico BACnet `110` para ler `state-text` através do método readProperty
 
-# 02/03/2026
+# 
 
 - Otimização de logs de tendência : Resolução imediata do objeto de origem e criação do comando associado durante a varredura, além do registro dos valores nele contidos
 - Suporte a arquivos EDE em um dispositivo cliente
 - Ao injetar um EDE, é possível criar equipamentos por tema'
 
 
-# 26/02/2026
+# 
 
 - Adicionado botão "Registrar tudo" em dispositivos do tipo cliente
 - Adicionado campo de pesquisa à tabela após os resultados do objeto
 
-# 18/02/2026
+# 
 
 - Nova tela de supervisão (monitoramento do equipamento do cliente, histórico de eventos recentes))
 
-# 17/02/2026
+# 
 
 - Adicionado daemon de batimento cardíaco
 - Acionando reSubscribeAllCOV na reconexão do daemon
 - Tempo limite/reconexão aprimorada no daemon
 
 
-# 16/02/2026
+# 
 
 - Adicionando documentação contextual
 - Corrigir a escrita do cliente BACnet
 
-# 13/02/2026
+# 
 
 - Nova interface de usuário
 - Adicionar cliente Bacnet : Descoberta via whois, lista de objetos, criação de dispositivos para leitura de dispositivos BACnet
@@ -135,15 +135,15 @@
 - Adicionar nova configuração/Carregar configuração da página de mapeamento
 - Adição em massa por meio de equipamentos na página de mapeamento
 
-# 26/11/2025
+# 
 
 - Alterações na seleção de ordens para vincular
 - Adicionando a sincronização de um agendamento do plugin Jeedom Calendar ao cron job do calendário. 
 
-# 24/11/2025
+# 
 
 - Novo binário v1.0.98
 - Adicionamos bloqueio e enfileiramento ao JSON antes de enviá-lo ao servidor, para evitar problemas de leitura/gravação
 
-# 20/11/2025
+# 
 - Plugin inicial
