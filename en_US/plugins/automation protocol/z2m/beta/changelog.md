@@ -4,9 +4,9 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 
+# 17/03/2026
 
-- .
+- Correction d'un bug sur la luna ou le plugin forcé le retour a la version 1.42.0 de zigbee2mqtt
 
 # 16/03/2026
 

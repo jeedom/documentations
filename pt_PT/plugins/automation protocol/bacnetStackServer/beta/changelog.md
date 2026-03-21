@@ -6,6 +6,22 @@
 
 # 
 
+- **** :
+  - )
+  - 
+  - )
+
+
+- **** :
+  - )
+  -  : 
+
+- **** :
+  - 
+
+
+# 
+
 - **Tempo limite BACnet configurável (daemon C + PHP))** :
   - O tempo limite padrão do BACnet foi reduzido de 60 segundos para **** para readprop, writeprop e subscribecov
   - Novo campo JSON "timeout" (em segundos) passável via comando para ajuste por chamada

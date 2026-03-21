@@ -4,7 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 19/03/2026 (Beta)
+# 20/03/2026 (Beta)
+
+- Ajout du produit *Dragino PS-LB - Immersion Type I5*
+
+- Ajout du produit *Dragino PS-LB - Thread Installation (TG2/TG4)*
 
 - Ajout du produit *Dragino PS-LB - Differential Pressure Sensor*
 
