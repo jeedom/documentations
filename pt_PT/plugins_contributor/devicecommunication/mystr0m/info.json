@@ -1,0 +1,18 @@
+{
+	"id" : "mystr0m",
+	"name" : "Smart Home",
+	"description" : "Plugin pour piloter les équipement de la gamme  Smart Home (CH): mystrom( Switchs, boutons , bulbs , pir , bandeaux) , Dingz (Interrupteurs wifi)",
+	"licence" : "AGPL",
+	"author" : "Zyg0m4t1k",
+	"require" : "3.3",
+	"category" : "devicecommunication",
+	"hasDependency" : false,
+	"hasOwnDeamon" : true,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://zyg0m4t1k.github.io/mystrom/#language#/changelog",
+	"documentation" : "https://zyg0m4t1k.github.io/mystrom/#language#/",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"],
+	"link" : {
+		"forum": "https://community.jeedom.com/t/plugin-smarthome-mystrom-dingz/17774"
+	}
+}
