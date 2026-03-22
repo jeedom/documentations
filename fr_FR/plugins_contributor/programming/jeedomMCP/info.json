@@ -1,0 +1,14 @@
+{
+    "id": "JeedomMCP",
+    "name": "JeedomMCP",
+    "description": "Expose a MCP (Model Context Protocol) server to allow AI agents to interact with your Jeedom home automation system.",
+    "licence": "AGPL",
+    "author": "clement-cunin",
+    "require": "4.4",
+    "category": "communication",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "changelog": "https://github.com/clement-cunin/JeedomMCP/blob/main/CHANGELOG.md",
+    "documentation": "https://github.com/clement-cunin/JeedomMCP/blob/main/docs/",
+    "link": "https://github.com/clement-cunin/JeedomMCP"
+}
