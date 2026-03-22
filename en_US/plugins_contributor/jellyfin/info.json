@@ -4,7 +4,7 @@
     "description" : "Intégration avancée de Jellyfin. Permet le pilotage complet de vos lecteurs, la remontée d'informations en temps réel (médias, jaquettes, progression) et l'automatisation de vos séances cinéma.",
     "licence" : "AGPL",
     "author" : "NeoRed",
-    "version" : "1.2.1",
+    "version" : "1.2.2",
     "require" : "4.4",
     "category" : "multimedia",
     "hasDependency" : true,
