@@ -6,6 +6,7 @@
     "author": "clement-cunin",
     "require": "4.4",
     "category": "communication",
+    "compatibility": ["smart", "atlas", "rpi", "diy", "v4"],
     "hasDependency": false,
     "hasOwnDeamon": false,
     "changelog": "https://github.com/clement-cunin/JeedomMCP/blob/main/CHANGELOG.md",
