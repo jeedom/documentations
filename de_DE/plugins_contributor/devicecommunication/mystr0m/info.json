@@ -1,18 +1,42 @@
 {
-	"id" : "mystr0m",
-	"name" : "Smart Home",
-	"description" : "Plugin pour piloter les équipement de la gamme  Smart Home (CH): mystrom( Switchs, boutons , bulbs , pir , bandeaux) , Dingz (Interrupteurs wifi)",
-	"licence" : "AGPL",
-	"author" : "Zyg0m4t1k",
-	"require" : "3.3",
-	"category" : "devicecommunication",
-	"hasDependency" : false,
-	"hasOwnDeamon" : true,
-	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://zyg0m4t1k.github.io/mystrom/#language#/changelog",
-	"documentation" : "https://zyg0m4t1k.github.io/mystrom/#language#/",
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"],
-	"link" : {
-		"forum": "https://community.jeedom.com/t/plugin-smarthome-mystrom-dingz/17774"
-	}
+	"id": "mystr0m",
+	"name": "Smart Home",
+	"pluginVersion": "2.0",
+	"description": {
+		"fr_FR": "Plugin pour piloter les équipements de la gamme Smart Home (CH) : myStrom (switches, boutons, ampoules, détecteurs PIR, bandeaux LED), Dingz (interrupteurs Wi-Fi)",
+		"en_US": "Plugin to control Smart Home (CH) devices: myStrom (switches, buttons, bulbs, PIR sensors, LED strips), Dingz (Wi-Fi switches)",
+		"es_ES": "Plugin para controlar los dispositivos Smart Home (CH): myStrom (interruptores, botones, bombillas, sensores PIR, tiras LED), Dingz (interruptores Wi-Fi)",
+		"de_DE": "Plugin zur Steuerung von Smart Home (CH)-Geräten: myStrom (Schalter, Taster, Lampen, PIR-Sensoren, LED-Streifen), Dingz (WLAN-Schalter)",
+		"it_IT": "Plugin per controllare i dispositivi Smart Home (CH): myStrom (interruttori, pulsanti, lampadine, sensori PIR, strisce LED), Dingz (interruttori Wi-Fi)",
+		"pt_PT": "Plugin para controlar dispositivos Smart Home (CH): myStrom (interruptores, botões, lâmpadas, sensores PIR, fitas LED), Dingz (interruptores Wi-Fi)"
+	},
+	"licence": "AGPL",
+	"author": "zyg0m4t1k",
+	"require": "4.4",
+	"os": {
+		"min": 11,
+		"max": 13.99
+	},
+	"hasDependency": false,
+	"hasOwnDeamon": true,
+	"category": "devicecommunication",
+	"changelog": "https://zyg0m4t1k.github.io/docs/plugins/mystr0m/changelog/",
+	"documentation": "https://zyg0m4t1k.github.io/docs/plugins/mystr0m/",
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"smart",
+		"atlas",
+		"luna",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
 }
