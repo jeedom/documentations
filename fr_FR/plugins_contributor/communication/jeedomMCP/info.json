@@ -1,5 +1,5 @@
 {
-    "id": "JeedomMCP",
+    "id": "jeedomMCP",
     "name": "JeedomMCP",
     "description": "Expose a MCP (Model Context Protocol) server to allow AI agents to interact with your Jeedom home automation system.",
     "licence": "AGPL",
