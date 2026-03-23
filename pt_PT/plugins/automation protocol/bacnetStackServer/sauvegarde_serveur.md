@@ -18,7 +18,7 @@
 
 ) :
 
-- **** : .)
+- **Caminho de backup do servidor** : .)
 
 .
 
@@ -89,7 +89,7 @@ array(
 )
 
 
-## 
+## Melhores práticas
 
 ### 
 
@@ -182,7 +182,7 @@ php
 :30: : /caminho/para/arquivo.json
 
 
-## 
+## Solução de problemas
 
 ###  : ""
 

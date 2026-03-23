@@ -4,6 +4,22 @@
 > Toujours **réinstaller les dépendances** après une mise à jour du plugin.
 > Cette étape télécharge le binaire daemon (`bacnetStackd`) à jour. Sans cette étape, l'ancien binaire reste en place et les corrections ou nouvelles fonctionnalités du daemon ne sont pas actives.
 
+# 20/03/2026
+
+- **Import EDE — Correction encodage des accents** :
+  - Détection automatique de l'encodage du fichier (BOM UTF-8, décodage UTF-8 strict, fallback Windows-1252/Latin-1)
+  - Normalisation des fins de ligne Windows (CRLF) et Mac classique (CR) avant traitement
+  - Sélecteur d'encodage manuel conservé (UTF-8, ISO-8859-1, Windows-1252)
+
+
+- **Client BACnet — Protection des boutons réseau** :
+  - Tous les boutons déclenchant une requête réseau sont désormais désactivés pendant l'opération (spinner affiché, état restauré après succès ou erreur)
+  - Boutons concernés : Who-Is, Lister devices, Lire liste objets, Démarrer/Arrêter/Rafraîchir client
+
+- **Client BACnet — Simplification de l'interface** :
+  - Suppression des sections "Lecture de propriété", "Écriture de propriété" et "Souscription COV" du modal client
+
+
 # 19/03/2026
 
 - **Timeout BACnet configurable (daemon C + PHP)** :

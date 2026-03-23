@@ -1,4 +1,4 @@
-#  : 
+# Solução de problemas : 
 
 ## Sintoma
 
@@ -24,7 +24,7 @@ ou
 
  **** :
 
- ****, 
+ **Demônio**, 
  **** (vert)
 
 ### 2. 
@@ -135,7 +135,7 @@ echo "SALVAR_CONFIGURAÇÃO /caminho/para/backup.json" | .
 Para evitar esse problema, configure o daemon para iniciar automaticamente :
 
 1. Acesse **Plugins > Servidor BACnet Stack > Configuração**
-Seção 2 ****
+Seção 2 **Demônio**
 3. Ativar **Gestão automática**
 4. Defina **Início automático**
 
