@@ -1,19 +1,20 @@
 {
 	"id": "ProJote",
 	"name": "Plugin Pronote",
-	"pluginVersion": "0.8",
+	"pluginVersion": "0.9",
 	"description": {
-		"fr_FR": "Plugin destinée à récupérer les informations de Pronote"
+		"fr_FR": "Plugin destinée à récupérer les informations de Pronote",
+		"en_US": "Plugin to retrieve information from Pronote school management platform"
 	},
 	"licence": "AGPL",
 	"author": "Aldarande",
-	"require": "4.3",
+	"require": "4.4",
 	"category": "organization",
 	"hasDependency": true,
 	"hasOwnDeamon": true,
 	"maxDependancyInstallTime": 60,
 	"changelog": "https://aldarande.github.io/ProJote/#language#/index.html#Version",
-	"documentation": "https://aldarande.github.io/ProJote/#language#/index.html",
+	"documentation": "/plugins/ProJote/docs/#language#/index.html",
 	"language": [
 		"fr_FR"
 	],
