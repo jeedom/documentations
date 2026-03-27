@@ -1,6 +1,6 @@
 # 
 
- [](https://github.com/jeedom/plugin-template)
+ [](https:github.comjeedomplugin-template)
 
 #  : l'arborescence
 
@@ -24,7 +24,7 @@
   - ``info.json`` :  .. 
   - ``install.php`` : .
   - ``configuration.php`` : )
-- ``docs`` : . .  : ``docs/fr\_FR``)
+- ``docs`` : . .  : ``docsfr\_FR``)
 - ``ressources`` : .
 - ``data`` : .
 
@@ -46,7 +46,7 @@
 
 ## ``info.json``
 
-See [](https://doc.jeedom.com/en_US/dev/structure_info_json)
+ [](https:doc.jeedom.com/en_US/devstructure_info_json)
 
 ## ``install.php``
 
@@ -77,13 +77,13 @@ Example :
  * .
  *
  * 
- * . If not, see <http://www.gnu.org/licenses/>.
- */
+ * . If not, see <http:www.gnu.orglicenses>.
+ *
 
 
 () {
     $cron = cron::byClassAndFunction('zwave', 'pull');
-    if (!)) {
+     (!)) {
         $cron = new cron();
         $cron->setClass('zwave');
         $cron->setFunction('pull');
@@ -96,7 +96,7 @@ Example :
 
 () {
     $cron = cron::byClassAndFunction('zwave', 'pull');
-    if (!)) {
+     (!)) {
         $cron = new cron();
         $cron->setClass('zwave');
         $cron->setFunction('pull');
@@ -146,12 +146,12 @@ Example :
  * .
  *
   * 
- * . If not, see <http://www.gnu.org/licenses/>.
-  */
+ * . If not, see <http:www.gnu.orglicenses>.
+  *
 
  
 
-if (!isConnect()) {
+ (!isConnect()) {
     include_file('desktop', '404', 'php');
     die();
  }
@@ -159,25 +159,25 @@ if (!isConnect()) {
  <form class="form-horizontal">
      <fieldset>
          <div class="form-group">
-             <label class="col-lg-2 control-label">Zway IP</label>
+             <label class="col-lg-2 control-label">Zway IP<label>
              <div class="col-lg-2">
-                 <input class="configKey form-control" data-l1key="zwaveAddr" />
-             </div>
-         </div>
+                 <input class="configKey form-control" data-l1key="zwaveAddr" >
+             <div>
+         <div>
          <div class="form-group">
-             <label class="col-lg-4 control-label">Supprimer automatiquement les périphériques exclus</label>
+             <label class="col-lg-4 control-label">Supprimer automatiquement les périphériques exclus<label>
              <div class="col-lg-4">
-                 <input type="checkbox" class="configKey" data-l1key="autoRemoveExcludeDevice" />
-             </div>
-         </div>
+                 <input type="checkbox" class="configKey" data-l1key="autoRemoveExcludeDevice" >
+             <div>
+         <div>
          <div class="form-group">
-             <label class="col-lg-4 control-label">J'utilise un serveur openzwave</label>
+             <label class="col-lg-4 control-label">J'utilise un serveur openzwave<label>
              <div class="col-lg-4">
-                 <input type="checkbox" class="configKey" data-l1key="isOpenZwave" />
-             </div>
-         </div>
-     </fieldset>
- </form>
+                 <input type="checkbox" class="configKey" data-l1key="isOpenZwave" >
+             <div>
+         <div>
+     <fieldset>
+ <form>
  ````
 
 #  : 
@@ -190,21 +190,21 @@ if (!isConnect()) {
 
 ````php
 <?php
-if (!')) {
+ (!')) {
     
  }
  
  ?>
  ````
 
-Une fois sur cette page vous aurez accès en php à toutes les fonctions du core de jeedom (voir [](https://www.jeedom.com/doc/documentation/code/) ) ainsi qu'à celles de tous les modules installés donc le vôtre aussi.
+Une fois sur cette page vous aurez accès en  à toutes les fonctions du core de jeedom (voir [](https:www.jeedom.comdocdocumentationcode) ) ainsi qu'à celles de tous les modules installés donc le vôtre aussi.
 
-Toutes ces pages étant des vues elles utilisent principalement la syntaxe HTML. Pour tout ce qui est présentation, Jeedom se base principalement sur bootstrap donc toute la [documentation](http://getbootstrap.com/) est applicable.
+Toutes ces pages étant des vues elles utilisent principalement la syntaxe HTML. Pour tout ce qui est présentation, Jeedom se base principalement sur bootstrap donc toute la [documentation](http:getbootstrap.com) est applicable.
 
 Pour simplifier la création de plugin vous pouvez inclure dans votre page le script javascript de template pour les plugins :
 
 ````php
-<?php include_file('core', 'plugin.template', 'js'); ?>
+<? include_file('core', 'plugin.template', 'js'); ?>
 ````
 
 . ).
@@ -214,13 +214,13 @@ Pour simplifier la création de plugin vous pouvez inclure dans votre page le sc
 :  :
 
 ````html
-<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement mail}}"/>
+<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement mail}}">
 ````
 
 Là, par exemple, lors du chargement des données jeedom mettra la valeur du nom de l'équipement dans l'input et lors de la sauvegarde récupérera celle-ci pour la remettre en base de données. Petite astuce certaines propriétés sont en fait des chaînes JSON en BDD (cela permet d'avoir vraiment pas mal de liberté pour le plugin), dans ce cas il suffit de faire :
 
 ````html
-<input class="eqLogicAttr form-control" data-l1key='configuration' data-l2key='fromName' />
+<input class="eqLogicAttr form-control" data-l1key='configuration' data-l2key='fromName' >
 ````
 
 )
@@ -235,7 +235,7 @@ Là, par exemple, lors du chargement des données jeedom mettra la valeur du nom
 
 ````php
 ) {
-    if (!)) {
+     (!)) {
         : {}};
      }
     
@@ -264,38 +264,38 @@ Dernier point: un exemple plus complet avec type et sous-type de commande :
 
 ````php
 ) {
-    if (!)) {
+     (!)) {
         var _cmd = {};
     }
-     if (!.configuration)) {
+      (!.configuration)) {
         _cmd.configuration = {};
     }
      var selRequestType = '<select style="width : 90px;" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="requestType">';
-     selRequestType += '<option value="script">{{Script}}</option>';
-     selRequestType += '<option value="http">{{Http}}</option>';
-     selRequestType += '</select>';
+     selRequestType += '<option value="script">{{Script}}<option>';
+     selRequestType += '<option value="http">{{Http}}<option>';
+     selRequestType += '<select>';
     var tr = '';     tr += '<input class="cmdAttr form-control input-sm" data-l1key="name" style="width : 140px;">';
     tr += '<input class="cmdAttr form-control input-sm" data-l1key="id"  style="display : 
     tr += '' + selRequestType;
     tr += '<div class="requestTypeConfig" data-type="http">';
-    tr += '<input type="checkbox" class="cmdAttr" data-l1key="configuration" data-l2key="noSslCheck" />Ne pas vérifier SSL';
-    tr += '</div>';
+    tr += '<input type="checkbox" class="cmdAttr" data-l1key="configuration" data-l2key="noSslCheck" >Ne pas vérifier SSL';
+    tr += '<div>';
          
-    tr += '<span class="type" type="' + init(_cmd.type) + '">' + jeedom.cmd.availableType() + '</span>';
-    tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';
-         tr += '<textarea style="height : 95px;" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="request"></textarea>';
-    tr += '<a class="btn btn-default browseScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-folder-open"></i> {{Parcourir}}</a> ';
-    tr += '<a class="btn btn-default editScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-edit"></i> {{Editer}}</a> ';
-    tr += '<a class="btn btn-success newScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-file-o"></i> {{Nouveau}}</a> ';
-    tr += '<a class="btn btn-danger removeScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-trash-o"></i> {{Supprimer}}</a> ';
-    tr += '<a class="btn btn-warning bt_shareOnMarket cursor input-sm" style="margin-top : 5px;"><i class="fa fa-cloud-upload"></i> {{Partager}}</a> ';
-    tr += '</div>';
+    tr += '<span class="type" type="' + init(_cmd.type) + '">' + jeedom.cmd.availableType() + '<span>';
+    tr += '<span class="subType" subType="' + init(_cmd.subType) + '"><span>';
+         tr += '<textarea style="height : 95px;" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="request"><textarea>';
+    tr += '<a class="btn btn-default browseScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-folder-open"><i> {{Parcourir}}<a> ';
+    tr += '<a class="btn btn-default editScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-edit"><i> {{Editer}}<a> ';
+    tr += '<a class="btn btn-success newScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-file-o"><i> {{Nouveau}}<a> ';
+    tr += '<a class="btn btn-danger removeScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-trash-o"><i> {{Supprimer}}<a> ';
+    tr += '<a class="btn btn-warning bt_shareOnMarket cursor input-sm" style="margin-top : 5px;"><i class="fa fa-cloud-upload"><i> {{Partager}}<a> ';
+    tr += '<div>';
          
     tr += '<input class="cmdAttr form-control tooltips input-sm" data-l1key="unite"  style="width : 100px;" placeholder="{{Unité}}" title="{{Unité}}">';
     tr += '<input class="tooltips cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="minValue" placeholder="{{Min}}" title="{{Min}}"> ';
     tr += '<input class="tooltips cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="maxValue" placeholder="{{Max}}" title="{{Max}}">';
          
-    tr += '<span><input type="checkbox" class="cmdAttr" data-l1key="isHistorized" /> {{Historiser}}<br/></span>';
+    tr += '<span><input type="checkbox" class="cmdAttr" data-l1key="isHistorized" > {{Historiser}}<br><span>';
          
     .id)) {
     
@@ -305,12 +305,12 @@ Dernier point: un exemple plus complet avec type et sous-type de commande :
     $('#table_cmd tbody').append(tr);
     $('#table_cmd tbody tr:last').setValues(_cmd, '.cmdAttr');
 
-    if (.configuration.requestType)) {
+     (.configuration.requestType)) {
         $('#table_cmd tbody tr:last .cmdAttr[data-l1key=configuration][data-l2key=requestType]').value(init(_cmd.configuration.requestType));
         $('#table_cmd tbody tr:last .cmdAttr[data-l1key=configuration][data-l2key=requestType]').trigger('change');
     }
 
-     if (.type)) {
+      (.type)) {
         $('#table_cmd tbody tr:last .cmdAttr[data-l1key=type]').value(init(_cmd.type));
     }
      jeedom.cmd.changeType($('#table_cmd tbody tr:last'), init(_cmd.subType));
@@ -330,7 +330,7 @@ Dernier point: un exemple plus complet avec type et sous-type de commande :
 - ``saveEqLogic``  :
 
 ````php
-<?php include_file('desktop', 'weather', 'js', 'weather'); ?>
+<? include_file('desktop', 'weather', 'js', 'weather'); ?>
 ````
 
 Le premier argument donne le dossier dans lequel le trouver (attention c'est le dossier père du dossier JS), le deuxième le nom de votre javascript, le troisième indique à Jeedom que c'est un fichier  et le dernier dans quel plugin il se trouve.
@@ -340,7 +340,7 @@ Le premier argument donne le dossier dans lequel le trouver (attention c'est le 
 Ce dossier contient vos fichiers CSS (il ne devrait pas être trop utilisé) , vo comment les inclure sur votre page :
 
 ````php
-<?php include_file('desktop', 'weather', 'css', 'weather'); ?>
+<? include_file('desktop', 'weather', 'css', 'weather'); ?>
 ````
 
 .
@@ -357,11 +357,11 @@ $('#md_modal').dialog({title: "{{Classe du périphérique}}"}).load('index.php?v
 
 La première ligne permet de mettre un titre à votre modal
 
-La deuxième ligne charge votre modal et l'affichage.  : plugin, l' de votre plugin, modal, le nom de votre modal sans le php et ensuite les paramètres que vous voulez lui passer
+La deuxième ligne charge votre modal et l'affichage.  : plugin, l' de votre plugin, modal, le nom de votre modal sans le  et ensuite les paramètres que vous voulez lui passer
 
 ## API JS
 
-Ce n'est pas un dossier mais dans les dernières versions de Jeedom celui-ci offre au développeur toute une api javascript (cela évite d'écrire des appels ajax dans tous les sens). J'essayerai de faire un article pour expliquer les différentes fonctionnalités mais vous pouvez déjà trouver le code .
+Ce n'est pas un dossier mais dans les dernières versions de Jeedom celui-ci offre au développeur toute une api javascript (cela évite d'écrire des appels  dans tous les sens). J'essayerai de faire un article pour expliquer les différentes fonctionnalités mais vous pouvez déjà trouver le code .
 
 Voilà pour les détails du . Je me doute qu'il n'est pas des plus complets (j'essayerai de le compléter en fonction des différentes demandes reçues) mais j'espère que grâce à lui vous pourrez commencer à faire des plugins pour Jeedom.
 
@@ -396,7 +396,7 @@ $('body').delegate('.helpSelectCron','click',function() {
 
 ## 
 
- [](https://github.com/jeedom/plugin-openzwave) )
+ [](https:github.comjeedomplugin-openzwave) )
 
 ## ajax
 
@@ -418,14 +418,14 @@ $('body').delegate('.helpSelectCron','click',function() {
  * .
  *
  * 
- * . If not, see <http://www.gnu.org/licenses/>.
- */
+ * . If not, see <http:www.gnu.orglicenses>.
+ *
 
  {
     
     
 
-    if (!')) {
+     (!')) {
         
     }
 
@@ -434,7 +434,7 @@ $('body').delegate('.helpSelectCron','click',function() {
     }
 
      : ', 
-    /*     * ************************ */
+    *     * ************************ *
 } ) {
     ajax::
 }
@@ -466,52 +466,52 @@ La première devant hériter de la classe eqLogic et la deuxième de cmd. Vo un 
  * .
  *
  * 
- * . If not, see <http://www.gnu.org/licenses/>.
- */
+ * . If not, see <http:www.gnu.orglicenses>.
+ *
 
-/* * ***************************Includes********************************* */
+* * ***************************Includes********************************* *
 
 
 class plugin_ extends eqLogic {
 
-    /*     * *************************Attributs****************************** */
+    *     * *************************Attributs****************************** *
 
 
-    /*     * ***********************Methode static*************************** */
+    *     * ***********************Methode static*************************** *
 
 
-    /*     * *********************Methode d'instance************************* */
+    *     * *********************Methode d'instance************************* *
 
 
-    /*     * **********************Getteur Setteur*************************** */
+    *     * **********************Getteur Setteur*************************** *
 
 }
 
 class plugin_idCmd extends cmd {
 
-    /*     * *************************Attributs****************************** */
+    *     * *************************Attributs****************************** *
 
 
-    /*     * ***********************Methode static*************************** */
+    *     * ***********************Methode static*************************** *
 
 
-    /*     * *********************Methode d'instance************************* */
+    *     * *********************Methode d'instance************************* *
 
 
-    /*     * **********************Getteur Setteur*************************** */
+    *     * **********************Getteur Setteur*************************** *
 
 }
 
 ?>
 ````
 
- [](https://doc.jeedom.com/dev/phpdoc/4.0/)
+ [](https:doc.jeedom.comdevphpdoc4.0)
 
  :
 
 ````php
 ()) {
-      if (! !'])) {
+       (! !'])) {
           
       }
       $eqLogic = $this->getEqLogic();
@@ -520,7 +520,7 @@ class plugin_idCmd extends cmd {
           $message = $_options['title'] . '. ';
       }
       $message .= $_options['message'];
-      $http = new com_http($eqLogic->getConfiguration('addrSrvTts') . '/?tts=' . urlencode($message));
+      $http = new com_http($eqLogic->getConfiguration('addrSrvTts') . '?tts=' . urlencode($message));
       
   }
   ````
@@ -538,25 +538,25 @@ Fonction utilisable dans la commande ou dans l'équipement, en fonction des beso
 ````php
 public function toHtml($_version = 'dashboard') {
     $replace = $this->preToHtml($_version);
-    if (!is_array($replace)) {
+     (!is_array($replace)) {
         return $replace;
     }
     $version = jeedom::versionAlias($_version);
     $replace['#forecast#'] = '';
-    if ($version != 'mobile' || $this->getConfiguration('fullMobileDisplay', 0) == 1) {
+     ($version != 'mobile' || $this->getConfiguration('fullMobileDisplay', 0) == 1) {
         $forcast_template = getTemplate('core', $version, 'forecast', 'weather');
         for ($i = 0; $i < 5; $i++) {
             $replaceDay = array();
             $replaceDay['#day#'] = date_fr(date('l', strtotime('+' . $i . ' days')));
 
-            if ($i == 0) {
+             ($i == 0) {
                 $temperature_min = $this->getCmd(null, 'temperature_min');
             } else {
                 $temperature_min = $this->getCmd(null, 'temperature_' . $i . '_min');
             }
             $replaceDay['#low_temperature#'] = is_object($temperature_min) ? $temperature_min->execCmd() : '';
 
-            if ($i == 0) {
+             ($i == 0) {
                 $temperature_max = $this->getCmd(null, 'temperature_max');
             } else {
                 $temperature_max = $this->getCmd(null, 'temperature_' . $i . '_max');
@@ -564,7 +564,7 @@ public function toHtml($_version = 'dashboard') {
             $replaceDay['#hight_temperature#'] = is_object($temperature_max) ? $temperature_max->execCmd() : '';
             $replaceDay['#tempid#'] = is_object($temperature_max) ? $temperature_max->getId() : '';
 
-            if ($i == 0) {
+             ($i == 0) {
                 $condition = $this->getCmd(null, 'condition');
             } else {
                 $condition = $this->getCmd(null, 'condition_' . $i);
@@ -592,17 +592,17 @@ public function toHtml($_version = 'dashboard') {
     $sunrise = $this->getCmd(null, 'sunrise');
     $replace['#sunrise#'] = is_object($sunrise) ? $sunrise->execCmd() : '';
     $replace['#sunid#'] = is_object($sunrise) ? $sunrise->getId() : '';
-    if (strlen($replace['#sunrise#']) == 3) {
+     (strlen($replace['#sunrise#']) == 3) {
         $replace['#sunrise#'] = substr($replace['#sunrise#'], 0, 1) . ':' . substr($replace['#sunrise#'], 1, 2);
-    } else if (strlen($replace['#sunrise#']) == 4) {
+    } else  (strlen($replace['#sunrise#']) == 4) {
         $replace['#sunrise#'] = substr($replace['#sunrise#'], 0, 2) . ':' . substr($replace['#sunrise#'], 2, 2);
     }
 
     $sunset = $this->getCmd(null, 'sunset');
     $replace['#sunset#'] = is_object($sunset) ? $sunset->execCmd() : '';
-    if (strlen($replace['#sunset#']) == 3) {
+     (strlen($replace['#sunset#']) == 3) {
         $replace['#sunset#'] = substr($replace['#sunset#'], 0, 1) . ':' . substr($replace['#sunset#'], 1, 2);
-    } else if (strlen($replace['#sunset#']) == 4) {
+    } else  (strlen($replace['#sunset#']) == 4) {
         $replace['#sunset#'] = substr($replace['#sunset#'], 0, 2) . ':' . substr($replace['#sunset#'], 2, 2);
     }
 
@@ -615,7 +615,7 @@ public function toHtml($_version = 'dashboard') {
     $condition = $this->getCmd(null, 'condition_now');
     $sunset_time = is_object($sunset) ? $sunset->execCmd() : null;
     $sunrise_time = is_object($sunrise) ? $sunrise->execCmd() : null;
-    if (is_object($condition)) {
+     (is_object($condition)) {
         $replace['#icone#'] = self::getIconFromCondition($condition->execCmd(), $sunrise_time, $sunset_time);
         $replace['#condition#'] = $condition->execCmd();
         $replace['#conditionid#'] = $condition->getId();
@@ -625,14 +625,14 @@ public function toHtml($_version = 'dashboard') {
         $replace['#condition#'] = '';
         $replace['#collectDate#'] = '';
     }
-    if ($this->getConfiguration('modeImage', 0) == 1) {
+     ($this->getConfiguration('modeImage', 0) == 1) {
         $replace['#visibilityIcon#'] = "none";
         $replace['#visibilityImage#'] = "block";
     } else {
         $replace['#visibilityIcon#'] = "block";
         $replace['#visibilityImage#'] = "none";
     }
-    $html = template_replace($replace, getTemplate('core', $version, 'current', 'weather'));
+    $ = template_replace($replace, getTemplate('core', $version, 'current', 'weather'));
     cache::set('widgetHtml' . $_version . $this->getId(), $html, 0);
     return $html;
 }
@@ -646,7 +646,7 @@ public function toHtml($_version = 'dashboard') {
 $_version = jeedom::versionAlias($_version);
 ````
 
-Récupération d'un template de commande,  le template de commande : plugins/weather/core/template/\$\_version/forecast.html (\$\_version valant mobile ou dashboard)
+Récupération d'un template de commande,  le template de commande : pluginsweathercoretemplate\$\_versionforecast. (\$\_version valant mobile ou dashboard)
 
 ````php
 $forcast_template = getTemplate('core', $_version, 'forecast', 'weather');
@@ -674,7 +674,7 @@ Passage important: cela permet de récupérer les personnalisations faites par l
 
 ````php
 $parameters = $this->getDisplay('parameters');
-if (is_array($parameters)) {
+ (is_array($parameters)) {
     foreach ($parameters as $key => $value) {
         $replace['#' . $key . '#'] = $value;
     }
@@ -687,7 +687,7 @@ if (is_array($parameters)) {
 cache::' . $_version . $this->getId(), $html, 0);
 ````
 
-Enfin envoi du html à Jeedom :
+Enfin envoi du  à Jeedom :
 
 ````php
 return $html;
@@ -717,7 +717,7 @@ return $html;
 ````php
 () {
       $weatherCmd = $this->getCmd(null, 'temperature');
-      if (!)) {
+       (!)) {
           $weatherCmd = new weatherCmd();
       }
       $weatherCmd->setName(__('Température', __FILE__));
@@ -731,13 +731,13 @@ return $html;
       $weatherCmd->save();
 
       $cron = cron::byClassAndFunction('weather', 'updateWeatherData', array('weather_id' => intval($this->getId())));
-      if (!)) {
+       (!)) {
           $cron = new cron();
           $cron->setClass('weather');
           $cron->setFunction('updateWeatherData');
           $cron->setOption(array('weather_id' => intval($this->getId())));
       }
-      $cron->setSchedule($this->getConfiguration('refreshCron', '*/30 * * * *'));
+      $cron->setSchedule($this->getConfiguration('refreshCron', '*30 * * * *'));
       $cron->save();
 }
 ````
@@ -749,7 +749,7 @@ Ici la méthode updateWeatherData (simplifiée aussi) :
 ````php
 public static function updateWeatherData($_options) {
   $weather = weather::byId($_options['weather_id']);
-  if (is_object($weather)) {
+   (is_object($weather)) {
       foreach ($weather->getCmd('info') as $cmd) {
         $weather->checkAndUpdateCmd($cmd,$cmd->execute());
       }

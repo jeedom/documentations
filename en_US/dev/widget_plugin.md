@@ -13,7 +13,7 @@
 
 ````php
 $replace = $this->preToHtml($_version);
-if (!)) {
+ (!)) {
 	
 }
 ````
@@ -30,7 +30,7 @@ Le système de template de widget dans le code est en fait exactement le même q
 Vo un exemple :
 
 ````php
-(){
+public static function templateWidget(){
 	$return = array('info' => array('string' => array()));
 	$return['info']['string']['state'] = array(
 		'template' => 'tmplmultistate',
@@ -52,16 +52,16 @@ Vo un exemple :
 
 . .
 
-Example :  #\_state_# (>
+Example : For the first test, we say if the value of the command is 2 then the tag will need to be replaced #\_state_# ((in the template's HTML code) by>
 
- :
+Another example based on a different template could be :
 
 ````php
-(){
+public static function templateWidget(){
 	$return = array('info' => array('string' => array()));
 	$return['info']['binary']['toto'] = array(
-		'',
-		'(
+		'template' => 'tmplicon',
+		'replace' => array(
 			'#_icon_on_#' => '<i class=\'icon_green icon jeedom-porte-ferme\'></i>',
 			'#_icon_off_#' => '<i class=\'icon_red icon jeedom-porte-ouverte\'></i>'
 			)
@@ -70,7 +70,7 @@ Example :  #\_state_# (>
 }
 ````
 
-Ici, je crée un widget  basé sur le template "tmplicon" en type info et sous-type binaire. Quand il vaut 1 alors l'icône sera <i class='icon_green icon jeedom-porte-ferme'></i> et quand il vaut 0, ça sera <i class='icon_red icon jeedom-porte-ouverte'></i>
+Ici, je crée un widget toto basé sur le template "tmplicon" en type info et sous-type binaire. Quand il vaut 1 alors l'icône sera <i class='icon_green icon jeedom-porte-ferme'></i> et quand il vaut 0, ça sera <i class='icon_red icon jeedom-porte-ouverte'></i>
 
 >**TIPS**
 >
@@ -83,6 +83,6 @@ $cmd->setTemplate('dashboard','neato::state');
 $cmd->setTemplate('mobile','neato::state');
 ````
 
-::. ::toto
+It's the same as a normal widget except for the widget name, which is in the form id_plugin::widget_name. For the second example, it will be id_plugin::toto
 
 
