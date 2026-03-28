@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 23/03/2026 (Beta)
+# 27/03/2026 (Beta)
 
 - Mise à jour decoder et commande (v1 et v2) du produit * Milesight TS30x - Temperature Sensor *
 
@@ -23,6 +23,9 @@
 - Mise à jour des du produit *Watteco Tic'o*
 
 - Ajout du produit *Milesight AT101 - Asset Tracker*
+
+- Correction du décodeur *Adeunis Dry Contact*
+
 
 # 05/03/2026 (Beta)
 
