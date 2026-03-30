@@ -1,10 +1,10 @@
 # Registro de cambios de bacnetStackServer
 
 > **⚠ IMPORTANTE: Debe realizarse después de cada actualización**
-> Siempre **reinstalar las dependencias** después de una actualización del complemento.
+>  **reinstalar las dependencias** después de una actualización del complemento.
 > Este paso descarga el binario del demonio actualizado (`bacnetStackd`). Sin este paso, el binario antiguo permanece en su lugar y las correcciones o nuevas funciones del demonio no se activan.
 
-# 20/03/2026
+# 
 
 - **Importación EDE: corrección de codificación de acentos** :
   - Detección automática de la codificación de archivos (UTF-8 BOM, decodificación estricta UTF-8, alternativa Windows-1252/Latin-1))
@@ -20,10 +20,10 @@
   - Eliminación de las secciones "Leer propiedad", "Escribir propiedad" y "Suscripción COV" del modal del cliente
 
 
-# 19/03/2026
+# 
 
 - **Tiempo de espera de BACnet configurable (C + demonio PHP))** :
-  - El tiempo de espera predeterminado de BACnet se redujo de 60 s a **15s** para readprop, writeprop y subscribecov
+  - El tiempo de espera predeterminado de BACnet se redujo de 60 s a **** para readprop, writeprop y subscribecov
   - Nuevo campo JSON "timeout" (en segundos) que se puede pasar mediante un comando para ajustarlo mediante una llamada
 
 
@@ -44,13 +44,13 @@
   - Los comandos de liberación ahora leen `device_ip` y `device_id` del dispositivo principal en lugar de su propia configuración, evitando así datos obsoletos si se modifica el dispositivo
 
 
-# 16/03/2026
+# 
 
 - **Los registros de tendencias persisten después del reinicio del demonio** :
   - Los datos históricos de TrendLogs ahora se restauran desde el disco al reiniciar el sistema, sin pérdida de historial
 
 
-# 13/03/2026
+# 
 
 - **Prioridad de escritura BACnet configurable en el lado del cliente** :
   - Nuevo campo **Prioridad de escritura predeterminada** (1-16) en el equipo del cliente (pestaña Equipo), utilizado durante el escaneo/generación de pedidos
@@ -59,7 +59,7 @@
   - Los comandos existentes no se modifican cuando se cambia el valor predeterminado del equipo
 
 
-# 11/03/2026
+# 
 
 - **Rediseño completo de la interfaz de mapas de Jeedom** :
   - Sistema de paginación para gestionar cientos de objetos BACnet (50/100/200/500 objetos por página))
@@ -86,7 +86,7 @@
   - Creación automática de comandos con sus propiedades BACnet
 
 
-# 06/03/2026
+# 
 
 - Prioridad de escritura configurable por objeto del servidor BACnet (AO, AV, BO, MSO)) :
   - Nuevo campo `writePriority` en la configuración JSON del demonio (1-16, valor predeterminado) : 16)
@@ -143,7 +143,7 @@
 - Agregar documentación contextual
 - Corrección de la escritura del cliente BACnet
 
-# 13/02/2026
+# 
 
 - Nueva interfaz de usuario
 - Agregar cliente de Bacnet : Descubrimiento mediante whois, objectList, creación de dispositivos para leer dispositivos bacnet
@@ -151,15 +151,15 @@
 - Agregar nueva configuración/Cargar configuración desde la página de asignación
 - Adición masiva mediante equipo en la página de mapeo
 
-# 26/11/2025
+# 
 
 - Modificaciones en la selección de órdenes para vincular
 - Agregar la sincronización de un cronograma a un calendario desde el complemento Jeedom Calendar a la tarea programada (cron job). 
 
-# 24/11/2025
+# 
 
 - Nuevo binario v1.0.98
 - Se agregó un bloqueo y una cola al JSON antes de enviarlo al servidor para evitar problemas de lectura/escritura
 
-# 20/11/2025
+# 
 - Complemento inicial
