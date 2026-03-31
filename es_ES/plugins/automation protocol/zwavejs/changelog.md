@@ -4,6 +4,36 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 16/03/2026
+
+- Configuration automatique du plugin sur les boxes officielles *(Jeedom 4.5.3 mini)*
+
+# 09/03/2026
+
+- Configuración añadida *Shelly Qubino Wave Door/Window (QNDW-002C)* (propiedades : Opening, Luminance, Direction, Battery)
+- Configuración añadida *Shelly Qubino Wave Plug (QNPL-0A112)* (propiedades : Switch, Power, Energy)
+- Configuración añadida *Zooz ZEN58 Low Voltage XS Relay* (propiedades : Switch, Power, Energy, Voltage, Current)
+- Correction de la configuration *Aeotec ZWA001* (valeur par défaut du paramètre de température de couleur)
+
+# 02/03/2026
+
+- Correction mineure sur la page *Statistiques*
+
+# 24/02/2026
+
+- Support des images d'équipement personnalisées *(Jeedom 4.5 mini)*
+- Ajout des traductions manquantes pour les messages arrivant dans le centre de notifications
+
+# 21/02/2026
+
+- Cambiar a versión *11.12.0* de ZwaveJsUI (beta) *(corrige les alertes "Dead" intempestives)*
+
+# 11/02/2026
+
+- Cambiar a versión *11.6.1* de ZwaveJsUI (stable)
+- Cambiar a versión *11.11.0* de ZwaveJsUI (beta)
+- Ajout d'une option dans la page de configuration du plugin pour configurer un port de contrôleur distant via socket tcp (utile pour les controleurs comme le SLZB-MR1U)
+
 # 04/11/2025
 
 - Cambiar a versión *11.2.1* de ZwaveJsUI (stable)
@@ -193,7 +223,6 @@
 - Configuración añadida *Thermofloor Heat It ZM Relé Alta Potencia* (propiedades : Interruptor, alimentación, energía, notificación de sensor de calor, notificación de sobrecarga, escena central)
 - Agregar una subpropiedad *notificación simple* para la propiedad *Apertura*
 
-
 # 11/09/2023
 
 **Arreglos**
@@ -244,7 +273,6 @@
 - Adición de un mensaje en el centro de mensajes cuando un nodo queda muerto (además del comando de estado del equipo)
 - Adición de un mensaje en el centro de mensajes cuando un nodo pasa a Alive después de estar Dead (además del comando de estado del equipo)
 - Adición de un mensaje en el centro de mensajes cuando un nodo no se ha despertado después de 4 veces su intervalo de activación
-
 
 **Adiciones de configuración**
 
@@ -361,7 +389,6 @@
 - Configuración añadida *U-Hada GR-201N* (propiedades : Switch)
 - Configuración añadida *Relé de caldera Danfoss* (propiedades : Switch)
 - Configuración añadida *Sonido de alarma Benext* (propiedades : Switch)
-
 
 # 24/12/2022
 
@@ -654,7 +681,6 @@
 - Adición de una página que permite ver todos los *configuraciones* a la espera
 - Adición de una página webapp que permite ver todos los *configuraciones* a la espera
 - Adición de un botón de eliminar en la página *A la espera*. Le permite eliminar una línea en espera. Esto no elimina la orden que se ha enviado al controlador, sino solo la información pendiente en Jeedom (útil para los parámetros de calibración, por ejemplo, que nunca toman el valor enviado o cualquier otro parámetro donde sería inútil))
-
 
 **Cambios de configuración**
 

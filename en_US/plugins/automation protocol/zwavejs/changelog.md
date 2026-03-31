@@ -4,6 +4,36 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 16/03/2026
+
+- Configuration automatique du plugin sur les boxes officielles *(Jeedom 4.5.3 mini)*
+
+# 09/03/2026
+
+- Added config *Shelly Qubino Wave Door/Window (QNDW-002C)* (properties : Opening, Luminance, Direction, Battery)
+- Added config *Shelly Qubino Wave Plug (QNPL-0A112)* (properties : Switch, Power, Energy)
+- Added config *Zooz ZEN58 Low Voltage XS Relay* (properties : Switch, Power, Energy, Voltage, Current)
+- Correction de la configuration *Aeotec ZWA001* (valeur par défaut du paramètre de température de couleur)
+
+# 02/03/2026
+
+- Correction mineure sur la page *Statistiques*
+
+# 24/02/2026
+
+- Support des images d'équipement personnalisées *(Jeedom 4.5 mini)*
+- Ajout des traductions manquantes pour les messages arrivant dans le centre de notifications
+
+# 21/02/2026
+
+- Switch to version *11.12.0* de ZwaveJsUI (beta) *(corrige les alertes "Dead" intempestives)*
+
+# 11/02/2026
+
+- Switch to version *11.6.1* de ZwaveJsUI (stable)
+- Switch to version *11.11.0* de ZwaveJsUI (beta)
+- Ajout d'une option dans la page de configuration du plugin pour configurer un port de contrôleur distant via socket tcp (utile pour les controleurs comme le SLZB-MR1U)
+
 # 04/11/2025
 
 - Switch to version *11.2.1* de ZwaveJsUI (stable)
@@ -193,7 +223,6 @@
 - Added config *Thermofloor Heat It ZM Relay High Power* (properties : Switch, Power, Energy, Heat Sensor Notification, Over Load Notification, Centra Scene)
 - Adding a subproperty *simple-notification* for property *Opening*
 
-
 # 09/11/2023
 
 **Fixes**
@@ -244,7 +273,6 @@
 - Addition of a message in the message center when a node goes Dead (in addition to the equipment status command)
 - Addition of a message in the message center when a node goes Alive after being Dead (in addition to the equipment status command)
 - Addition of a message in the message center when a node has not woken up after 4 times its wakeup interval
-
 
 **Configuration Additions**
 
@@ -361,7 +389,6 @@
 - Added config *U-Fairy GR-201N* (properties : Switch)
 - Added config *Danfoss Boiler Relay* (properties : Switch)
 - Added config *Benext Alarm Sound* (properties : Switch)
-
 
 # 24/12/2022
 
@@ -654,7 +681,6 @@
 - Addition of a page allowing to see all the *settings* pending
 - Addition of a webapp page allowing to see all the *settings* pending
 - Addition of a delete button on the page *Pending*. Allows you to delete a line on hold. This does not delete the order that has been sent to the controller but only the information pending in Jeedom (useful for calibration parameters for example which never take the value sent or any other parameter where it would be useless)
-
 
 **Configuration Changes**
 

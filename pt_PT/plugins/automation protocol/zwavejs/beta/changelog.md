@@ -4,6 +4,11 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 
+
+- Mudar para a versão *11.12.0* de ZwaveJsUI (stable)
+- Mudar para a versão ** de ZwaveJsUI (beta)
+
 # 16/03/2026
 
 - Configuration automatique du plugin sur les boxes officielles *(Jeedom 4.5.3 mini)*

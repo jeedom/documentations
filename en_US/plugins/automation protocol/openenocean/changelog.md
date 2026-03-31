@@ -4,6 +4,14 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 
+
+-  *(.)*
+
+# 02/12/2025
+
+- Correction des inclusions de modules
+
 # 26/03/2025
 
 - Correction d'un soucis avec Debian 12
