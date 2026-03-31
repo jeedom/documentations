@@ -4,6 +4,27 @@
 > Toujours **réinstaller les dépendances** après une mise à jour du plugin.
 > Cette étape télécharge le binaire daemon (`bacnetStackd`) à jour. Sans cette étape, l'ancien binaire reste en place et les corrections ou nouvelles fonctionnalités du daemon ne sont pas actives.
 
+
+# 31/03/2026
+
+- **Serveur BACnet — Export EDE standardisé** :
+  - Nouveau bouton **"Exporter EDE"**
+  - Génère un fichier CSV au format EDE (Engineering Data Exchange) standardisé compatible avec les outils de supervision industriels
+  - Facilite l'intégration du serveur Jeedom dans des installations BACnet existantes sans ressaisie manuelle
+  - Format respectant la spécification EDE 2.2 (séparateur point-virgule, encodage UTF-8)
+
+- **Client BACnet — Outil de migration depuis l'ancien plugin bacnet** :
+  - Nouvelle fonctionnalité accessible via **Plugins → Gestion des plugins → bacnetStackServer → Bouton "Migration"**
+  - Permet de récupérer automatiquement tous les équipements et commandes configurés dans l'ancien plugin `bacnet`
+  - Interface intuitive avec :
+    - Tableau de sélection des équipements à migrer avec leurs informations (Device ID, IP, nombre de commandes)
+    - Mode **"Simuler"** pour prévisualiser les changements sans les appliquer
+    - Mode **"Migrer"** pour effectuer le transfert réel
+    - Rapport détaillé avec logs colorés (succès, avertissements, erreurs)
+  - Les noms d'équipements d'origine sont conservés (pas de renommage automatique)
+  - Les paramètres migrés : Device ID, adresse IP, état actif/visible, unités des commandes
+
+
 # 20/03/2026
 
 - **Import EDE — Correction encodage des accents** :

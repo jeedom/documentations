@@ -4,6 +4,27 @@
 >  **reinstalar las dependencias** después de una actualización del complemento.
 > Este paso descarga el binario del demonio actualizado (`bacnetStackd`). Sin este paso, el binario antiguo permanece en su lugar y las correcciones o nuevas funciones del demonio no se activan.
 
+
+# 
+
+- **** :
+  -  **""**
+  - 
+  - 
+  - .)
+
+- **** :
+  -  **"**
+  - 
+  -  :
+    - )
+    -  **"Simuler"** 
+    -  **"Migrer"** 
+    - )
+  - )
+  -  : 
+
+
 # 
 
 - **Importación EDE: corrección de codificación de acentos** :
