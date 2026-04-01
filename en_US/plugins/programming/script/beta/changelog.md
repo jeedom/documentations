@@ -4,9 +4,15 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 
+# 26/11/2025
 
 - Support for custom equipment images (Jeedom 4.5)
+
+# xx/07/2025
+
+- .
+-  : .
+- 
 
 # 01/07/2024
 

@@ -38,21 +38,23 @@ Vous retrouvez ici la liste des commandes :
 - **Nom** : Ce champ contient le nom que vous souhaitez donner à votre commande/information.
 - **Icône** : Ce champ permet d’associer une icône à votre nom (dans ce cas Jeedom remplace le nom par l’icône dans le Dashboard).
 - **Type de script** :
-  - Le type **http** : permet d’envoyer une requête vers un équipement externe sans forcément attendre un retour de cette commande. L’exemple qui servira de support au type http sera la configuration d’une requête vers une Vera pour allumer une lumière.
   - Le type **script** : sert principalement à lancer des scripts internes à Jeedom. L’exemple qui servira de support au type script sera la configuration du script de monitoring température du raspberry.
+  - Le type **http** : permet d’envoyer une requête vers un équipement externe sans forcément attendre un retour de cette commande. L’exemple qui servira de support au type http sera la configuration d’une requête vers une Vera pour allumer une lumière.
   - Le type **XML** : permet de rapatrier des informations encodées en XML depuis un équipement distant. L’exemple qui servira de support au type XML sera la configuration du script pour interroger un Eco-Device.
   - Le type **JSON** : permet de rapatrier des informations encodées en JSON depuis un équipement distant. L’exemple qui servira de support au type JSON sera la configuration du script pour interroger Sickbeard (ou XBMC).
 - **le type** et le **sous-type**
 - Le champ **requête**
-  - Ce champ doit contenir la requête en elle-même, ou le chemin du script si le champ "type de script" est script. Le bouton "parcourir" : permet de sélectionner le fichier contenu dans le dossier interne à Jeedom.
+  - Ce champ doit contenir la requête en elle-même, ou le chemin du script si le champ "type de script" est script. Le bouton "parcourir" permet de sélectionner le fichier contenu dans le dossier interne à Jeedom.
 
-        > Ce dossier est accessible en SSH dans ``/var/www/html/plugins/script/data/``. Pour info, la commande SSH pour attribuer les droits ``www-data`` à un fichier est : ``sudo chown www-data:www-data NOMDUSCRIPT.EXTENSION``. A savoir que pour exécuter un script, celui-ci doit avoir les droits www-data.
+        > Ce dossier est accessible en SSH dans ``/var/www/html/plugins/script/data/``. Pour info, la commande SSH pour que ``www-data`` soit le propriétaire d'un fichier est : ``sudo chown www-data:www-data NOMDUSCRIPT.EXTENSION``. A savoir que pour exécuter un script, celui-ci doit appartenir à ``www-data``.
 
   - Le bouton **Editer** : permet d’éditer à l’aide d’un éditeur de code interne un des fichiers contenus dans le répertoire permettant l’accès au code du fichier.
   - Le bouton **Nouveau** : permet de créer un fichier de commande.
 
-        > Ne pas oublier de saisir le nom du fichier ainsi que son extension complète sous peine de voir votre superbe script ne pas fonctionner. Sans extension Jeedom ne saura pas reconnaître le langage associé à votre fichier. CF : Généralité
+        > Ne pas oublier de saisir le nom du fichier ainsi que son extension complète sous peine de voir votre superbe script ne pas fonctionner. Sans extension Jeedom ne saura pas reconnaître le langage associé à votre fichier. Il est possible de contourner ce fonctionnement en précisant l'interpréteur dans la ligne shebang ou en plaçant l'interpréteur en première position de la ligne de commande, ce point est détaillé plus loin.
+
   - Le bouton **Supprimer** : permet de supprimer un fichier de commande.
+
 - Le champ **Options** : Champ avec des options variables suivant le choix du type de script.
 - **unité** : unité de la donnée (peut être vide).
 - **min/max** : bornes de la donnée (peuvent être vides).
@@ -61,11 +63,13 @@ Vous retrouvez ici la liste des commandes :
 
 > **Important**
 >
-> Il faut éviter, autant que possible, dans le chemin du script ou dans les paramètres de celui-ci les caractères spéciaux. Les caractères autorisés étant : les chiffres, les lettres (majuscule ou minuscule)
+> Il faut éviter les caractères spéciaux, autant que possible, dans le chemin du script ou dans les paramètres de celui-ci. Les caractères autorisés étant : les chiffres, les lettres (majuscule ou minuscule)
 
 > **Important**
 >
-> Vous pouvez dans le champs requete (pour http, json, xml) mettre du json, il faut juste le faire preceder de `json::`, exemple `json::{"clef":"valeur"}`
+> Dans le champs requête (pour http, json, xml), vous pouvez mettre du json, il faut juste le faire précéder de `json::`, exemple `json::{"clef":"valeur"}`
+
+# Le choix HTTP
 
 ![exemple](../images/exemple.png)
 
@@ -190,27 +194,24 @@ Action : Lancez le script, via un équipement virtuel, lié à votre script !
 
 Le plus sympa mais pas le plus simple à expliquer.
 
-**Prérequis : savoir développer un script en php, python, perl ou ruby.**
+**Prérequis : savoir développer un script**
 
 >**IMPORTANT**
 >
-> L'extension de votre script doit absolument correspondre à son type. En effet Jeedom se base sur l'extension du script pour l'exécutable à lancer
->
-> Si le nom de votre fichier ne contient pas :
->
-> - .php .py .pl .rb
->
+> - Si le script en première position de la ligne de commande contient une ligne shebang, le plugin script lancera un shell qui l’exécutera en se basant sur la directive de la 1ère ligne (shebang).
+> - Si le premier élément de la ligne de commande est un exécutable reconnu par le système, par exemple `/usr/bin/python3`, le plugin script lancera un shell qui exécutera cette ligne de commande.
+> - Si le script en première position de la ligne de commande ne contient pas de ligne shebang ET que le premier élément de la ligne de commande n'est pas un exécutable reconnu par le système, l'extension de votre script doit absolument correspondre à son type. En effet le plugin script se base alors sur l'extension du script pour l'exécutable à lancer.
 
-Le plugin script lancera un shell qui l’exécutera en se basant sur la directive de la 1ère ligne ( shebang ).
-Exemple :
+Dans ce dernier cas, si le nom de votre fichier ne termine pas par .php .py .pl ou .rb, le plugin script lancera un shell qui l’exécutera comme en ligne de commande.
 
-```bash
+Exemples de ligne shebang :
+
+```
 #!/bin/csh -f
 #!/bin/ksh
 #!/usr/bin/env python3
 #!/usr/bin/env php
 #!/usr/bin/env node
-etc ...
 ```
 
 Le script de monitoring température du Raspberry va servir d’exemple pour l’utilisation du type de script : Script

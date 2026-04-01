@@ -4,9 +4,15 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 
+# 26/11/2025
 
 - Unterstützung für benutzerdefinierte Gerätebilder (Jeedom 4.5)
+
+# xx/07/2025
+
+- .
+-  : .
+- 
 
 # 01.07.2024
 

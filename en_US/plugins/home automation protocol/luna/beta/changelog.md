@@ -8,11 +8,18 @@
 
 # )
 
+-  **
+-  **  **  **
+- 
 - 
 
--  ** 
-
 # )
+
+- Ajout du changement du swap disponible via l'onget Avancé
+
+- Ajout du lancement du LTE via le bouton *Relancer configuration du Plugin*
+
+# 20/10/2025 (Beta)
 
 - Ajout de la gestion du kernel panic après l'installation ou la mise à jour du plugin Luna
 
@@ -24,7 +31,7 @@
 
 # 08/26/2024
 
-- Set up a configuration to limit disk space used by logs, by adjusting rotation and retention settings. 
+- Set up a configuration to limit disk space used by logs, by adjusting rotation and retention settings.
 
 # 07/11/2024
 
@@ -40,7 +47,6 @@
 
 - Fix Js
 - Optimization UI connection priorities
-
 
 # 06/19/2024
 
@@ -64,7 +70,6 @@
 # 07/12/2023
 
 - New module for hotspot with dhcp.
-
 
 # 11/18/2023
 

@@ -8,6 +8,12 @@
 
 - Support des images d'équipement personnalisées (Jeedom 4.5)
 
+# xx/07/2025
+
+- Correction de l'erreur d'affichage des options pour un type "HTTP" lors de la création d'une commande alors que le type "script" est sélectionné à ce moment.
+- Traitement différent pour les commandes de type Script : le forçage de l'interpréteur selon une règle propre au plugin et qui est incompatible avec certains systèmes (python3 sous Debian 11+) est conditionné afin que le script soit lancé comme s'il l'était dans un shell sauf si le forçage de l'interpréteur est nécessaire.
+- Mise à jour de la documentation et petites corrections de celle-ci
+
 # 01/07/2024
 
 - Correction de bug

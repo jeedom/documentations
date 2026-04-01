@@ -38,21 +38,23 @@ Aqui você encontra a lista de pedidos :
 - **Nome** : Este campo contém o nome que você deseja dar ao seu pedido / informações.
 - **ícone** : Este campo permite associar um ícone ao seu nome (nesse caso, o Jeedom substitui o nome pelo ícone no Painel).
 - **Tipo de script** :
-  - O tipo **HTTP** : permite enviar uma solicitação para um dispositivo externo sem necessariamente esperar o retorno desse comando. O exemplo que servirá de suporte para o tipo http será a configuração de uma solicitação para uma Vera acender uma luz.
   - O tipo **Escrita** : usado principalmente para executar scripts Jeedom internos. O exemplo que servirá de suporte para o tipo de script será a configuração do script de monitoramento de temperatura da framboesa.
+  - O tipo **HTTP** : permite enviar uma solicitação para um dispositivo externo sem necessariamente esperar o retorno desse comando. O exemplo que servirá de suporte para o tipo http será a configuração de uma solicitação para uma Vera acender uma luz.
   - O tipo **XML** : permite recuperar informações codificadas em XML de um dispositivo remoto. O exemplo que servirá de suporte para o tipo XML será a configuração do script para consultar um Eco-Device.
   - O tipo **JSON** : permite recuperar informações codificadas em JSON de um dispositivo remoto. O exemplo que servirá de suporte para o tipo JSON será a configuração do script para consultar Sickbeard (ou XBMC).
 - **o tipo** e o **Subtipo**
 - O campo **Pedido**
-  - Este campo deve conter a própria consulta ou o caminho do script se o campo "type of script" for script. O botão "navegar"" : permite selecionar o arquivo contido na pasta interna Jeedom.
+  - Este campo deve conter a própria consulta ou o caminho do script se o campo "type of script" for script. .
 
-        > Este arquivo está acessível no SSH em ``/var/www/html/plugins/script/data/``. FYI, o comando SSH para atribuir direitos ``www-data`` para um arquivo é : ``sudo chown www-data:www-dados NOMDUSCRIPT.EXTENSION``. Observe que, para executar um script, ele deve ter direitos www-data.
+        > Este arquivo está acessível no SSH em ``/var/www/html/plugins/script/data/``.  ``www-data``  : ``sudo chown www-data:www-dados NOMDUSCRIPT.EXTENSION``.  ``www-data``.
 
   - O botão **Editar** : permite editar usando um editor de código interno um dos arquivos contidos no diretório, permitindo acesso ao código do arquivo.
   - O botão **Novo** : permite criar um arquivo de comando.
 
-        > Não se esqueça de inserir o nome do arquivo e sua extensão completa, caso contrário, seu excelente script não funcionará. Sem extensão, o Jeedom não poderá reconhecer o idioma associado ao seu arquivo. CF : Geral
+        > Não se esqueça de inserir o nome do arquivo e sua extensão completa, caso contrário, seu excelente script não funcionará. Sem extensão, o Jeedom não poderá reconhecer o idioma associado ao seu arquivo. .
+
   - O botão **Remover** : permite excluir um arquivo de comando.
+
 - O campo **Opções** : Campo com opções variáveis, dependendo da escolha do tipo de script.
 - **Unidade** : unidade de dados (pode estar vazia).
 - **min / max** : limites de dados (podem estar vazios).
@@ -61,11 +63,13 @@ Aqui você encontra a lista de pedidos :
 
 > **IMPORTANTE**
 >
-> Caracteres especiais devem ser evitados no caminho do script ou em seus parâmetros, tanto quanto possível. Os caracteres permitidos sendo : números, letras (maiúsculas ou minúsculas)
+> . Os caracteres permitidos sendo : números, letras (maiúsculas ou minúsculas)
 
 > **IMPORTANTE**
 >
-> Você pode no campo request (para http, json, xml) colocar json, basta precedê-lo com `json::`, exemplo `json::{"clef":"valeur"}`
+> ::`, exemplo `json::{"clef":"valeur"}`
+
+# 
 
 ![exemple](../images/exemple.png)
 
@@ -190,27 +194,24 @@ Ação : Inicie o script, via equipamento virtual, vinculado ao seu script !
 
 O mais legal, mas não o mais fácil de explicar.
 
-**Pré-requisitos : saber como desenvolver um script em php, python, perl ou ruby.**
+**Pré-requisitos : **
 
 >**IMPORTANTE**
 >
-> A extensão do seu script deve corresponder absolutamente ao seu tipo. Na verdade, o Jeedom é baseado na extensão do script para o executável iniciar
->
-> Se o seu nome de arquivo não contiver :
->
-> - .php .py .pl .rb
->
+> - ).
+> - .
+> - . .
 
-O plugin de script iniciará um shell que o executará com base na diretiva da 1ª linha (shebang ).
-Exemplo :
+ .php .py . ..
 
-`` ''bash
+ :
+
+`` ''
 #!/ bin / csh -f
 #!/ bin / ksh
 #!/ usr / bin / env python3
 #!/ usr / bin / env php
 #!nó / usr / bin / env
-Etc ...
 `` ''
 
 O script de monitoramento de temperatura da framboesa servirá como um exemplo para usar o tipo de script : Script
@@ -430,13 +431,13 @@ Primeiro você precisa configurar o URL :
 
 Então você tem que encontrar o "caminho" do último FML. Para fazer isso, acesse o site e clique com o botão direito do mouse no item desejado e depois inspecione o item :
 
-![Exemplo HTML 1](../images/exemple_HTML_1.png)
+![Exemple HTML 1](../images/exemple_HTML_1.png)
 
 Esta é a parte mais complexa e requer um pouco de análise. Aqui meu texto está em uma tag "a" que está em um elemento do tipo p que é uma classe div "post article". Então, eu tenho que selecionar o primeiro elemento div da classe "post" e "article", depois o primeiro elemento pe obteremos tudo nas tags "a" que ele contém. Então eu tenho : "div.post.article:primeiro p:primeiro a".
 
 Então nós temos :
 
-![Exemplo HTML VDM](../images/exemple_HTML_VDM.png)
+![Exemple HTML VDM](../images/exemple_HTML_VDM.png)
 
 Para uma atualização em tempo real, é possível colocar um cron de atualização.
 

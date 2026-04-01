@@ -38,21 +38,23 @@ Hier finden Sie die Liste der Bestellungen :
 - **Name** : Dieses Feld enthält den Namen, den Sie Ihrer Bestellung / Information geben möchten.
 - **Symbol** : In diesem Feld können Sie Ihrem Namen ein Symbol zuordnen (in diesem Fall ersetzt Jeedom den Namen durch das Symbol im Dashboard).
 - **Skripttyp** :
-  - Der Typ **Http** : Ermöglicht das Senden einer Anforderung an ein externes Gerät, ohne unbedingt auf die Rückgabe dieses Befehls warten zu müssen. Das Beispiel, das als Unterstützung für den http-Typ dient, ist die Konfiguration einer Anforderung an eine Vera, ein Licht einzuschalten.
   - Der Typ **Skript** : Wird hauptsächlich zum Ausführen interner Jeedom-Skripte verwendet. Das Beispiel, das als Unterstützung für den Skripttyp dient, ist die Konfiguration des Temperaturüberwachungsskripts der Himbeere.
+  - Der Typ **Http** : Ermöglicht das Senden einer Anforderung an ein externes Gerät, ohne unbedingt auf die Rückgabe dieses Befehls warten zu müssen. Das Beispiel, das als Unterstützung für den http-Typ dient, ist die Konfiguration einer Anforderung an eine Vera, ein Licht einzuschalten.
   - Der Typ **XML** : Ermöglicht das Abrufen von in XML codierten Informationen von einem Remote-Gerät. Das Beispiel, das als Unterstützung für den XML-Typ dient, ist die Konfiguration des Skripts zum Abfragen eines Öko-Geräts.
   - Der Typ **Json** : Ermöglicht das Abrufen von in JSON codierten Informationen von einem Remote-Gerät. Das Beispiel, das als Unterstützung für den JSON-Typ dient, ist die Konfiguration des Skripts zum Abfragen von Sickbeard (oder XBMC)).
 - **der Typ** und die **Untertyp**
 - Das Feld **Petition**
-  - Dieses Feld muss die Abfrage selbst oder den Skriptpfad enthalten, wenn das Feld "Skripttyp" Skript ist. Die Schaltfläche "Durchsuchen"" : Mit dieser Option können Sie die Datei auswählen, die im internen Ordner Jeedom enthalten ist.
+  - Dieses Feld muss die Abfrage selbst oder den Skriptpfad enthalten, wenn das Feld "Skripttyp" Skript ist. .
 
-        > Auf diese Datei kann in SSH in zugegriffen werden ``/var/www/html/plugins/script/data/``. Zu Ihrer Information, der SSH-Befehl zum Zuweisen von Rechten ``www-data`` zu einer Datei ist : ``sudo chown www-data:www-Daten NOMDUSCRIPT.EXTENSION``. Beachten Sie, dass ein Skript zum Ausführen von Rechten über WWW-Daten verfügen muss.
+        > Auf diese Datei kann in SSH in zugegriffen werden ``/var/www/html/plugins/script/data/``.  ``www-data``  : ``sudo chown www-data:www-Daten NOMDUSCRIPT.EXTENSION``.  ``www-data``.
 
   - Die Schaltfläche **Bearbeiten** : Mit dieser Option können Sie eine der im Verzeichnis enthaltenen Dateien mit einem internen Code-Editor bearbeiten und so auf den Dateicode zugreifen.
   - Die Schaltfläche **Neu** : ermöglicht das Erstellen einer Befehlsdatei.
 
-        > Vergessen Sie nicht, den Namen der Datei und ihre vollständige Erweiterung einzugeben, da sonst Ihr hervorragendes Skript nicht funktioniert. Ohne Erweiterung kann Jeedom die mit Ihrer Datei verknüpfte Sprache nicht erkennen. CF. : Allgemeinheit
+        > Vergessen Sie nicht, den Namen der Datei und ihre vollständige Erweiterung einzugeben, da sonst Ihr hervorragendes Skript nicht funktioniert. Ohne Erweiterung kann Jeedom die mit Ihrer Datei verknüpfte Sprache nicht erkennen. .
+
   - Die Schaltfläche **Löschen** : ermöglicht das Löschen einer Befehlsdatei.
+
 - Das Feld **Optionen** : Feld mit variablen Optionen abhängig von der Wahl des Skripttyps.
 - **Unit** : Dateneinheit (kann leer sein).
 - **min / max** : Datengrenzen (können leer sein).
@@ -61,11 +63,13 @@ Hier finden Sie die Liste der Bestellungen :
 
 > **Wichtig**
 >
-> Sonderzeichen sollten im Skriptpfad oder in seinen Parametern so weit wie möglich vermieden werden. Die erlaubten Zeichen sind : Zahlen, Buchstaben (Groß- oder Kleinschreibung)
+> . Die erlaubten Zeichen sind : Zahlen, Buchstaben (Groß- oder Kleinschreibung)
 
 > **Wichtig**
 >
-> Sie können im Anfragefeld (für http, json, xml) json eingeben, Sie müssen ihm nur `json voranstellen::`, Beispiel `json::{"clef":"valeur"}`
+> ::`, Beispiel `json::{"clef":"valeur"}`
+
+# 
 
 ![exemple](../images/exemple.png)
 
@@ -190,27 +194,24 @@ Aktion : Starten Sie das Skript über eine virtuelle Ausrüstung, die mit Ihrem 
 
 Das Schönste, aber nicht das Einfachste zu erklären.
 
-**Voraussetzungen : wissen, wie man ein Skript in PHP, Python, Perl oder Ruby entwickelt.**
+**Voraussetzungen : **
 
 >**Wichtig**
 >
-> Die Erweiterung Ihres Skripts muss unbedingt dem Typ entsprechen. In der Tat basiert Jeedom auf der Erweiterung des Skripts für den Start der ausführbaren Datei
->
-> Wenn Ihr Dateiname nicht enthält :
->
-> - .php .py .pl .rb
->
+> - ).
+> - .
+> - . .
 
-Das Skript-Plugin startet eine Shell, die es basierend auf der Direktive der 1. Zeile (shebang) ausführt ).
-Beispiel :
+ .php .py . ..
 
-`` ''bash
+ :
+
+`` ''
 #!/ bin / csh -f
 #!/ bin / ksh
 #!/ usr / bin / env python3
 #!/ usr / bin / env php
 #!/ usr / bin / env Knoten
-Usw. ...
 `` ''
 
 Das Skript zur Überwachung der Himbeertemperatur dient als Beispiel für die Verwendung des Skripttyps : Script
@@ -430,13 +431,13 @@ Zuerst müssen Sie die URL konfigurieren :
 
 Dann müssen Sie den "Pfad" der letzten FML finden. Gehen Sie dazu zur Website, klicken Sie mit der rechten Maustaste auf den gewünschten Artikel und überprüfen Sie den Artikel, den Sie erhalten :
 
-![Beispiel HTML 1](../images/exemple_HTML_1.png)
+![Exemple HTML 1](../images/exemple_HTML_1.png)
 
 Dies ist der komplexeste Teil und erfordert eine kleine Analyse. Hier befindet sich mein Text in einem "a" -Tag, das sich in einem Element vom Typ p befindet, das ein Post-Artikel der Klasse div ist". Also muss ich das erste div-Element der Klasse "post" und "article" auswählen, dann das erste Element p und ich bekomme alles in den darin enthaltenen "a" -Tags. Also habe ich : "div.post.article:erste p:zuerst a".
 
 Also bekommen wir :
 
-![Beispiel HTML VDM](../images/exemple_HTML_VDM.png)
+![Exemple HTML VDM](../images/exemple_HTML_VDM.png)
 
 Für ein Update in Echtzeit ist es möglich, ein Update zu erstellen.
 
