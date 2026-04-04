@@ -6,6 +6,10 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+# 
+
+- 
+
 # 03/08/2024
 
 - Disabling outdated Armbian repositories.
