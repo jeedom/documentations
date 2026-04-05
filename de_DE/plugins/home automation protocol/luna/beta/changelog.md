@@ -6,50 +6,23 @@
 >
 >Zur Erinnerung: Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# )
+# 
 
--  **
--  **  **  **
-- 
-- 
-
-# )
-
+- Ajout d'une commande *Température CPU*
+- Modification du type de la commande *Température Batterie* en *Numérique* au lieu de *Autre*
+- Correction sur les paramètres d'affichage des commandes action pour la batterie
+- Correction sur la gestion des profiles wifi lors de la config lte
 - Ajout du changement du swap disponible via l'onget Avancé
-
 - Ajout du lancement du LTE via le bouton *Relancer configuration du Plugin*
-
-# 20/10/2025 (Beta)
-
 - Ajout de la gestion du kernel panic après l'installation ou la mise à jour du plugin Luna
-
 - Ajout du bouton "Reconfigurer le packet forwarder" dans la partie Lora
-
-# 08/10/2025 (Beta)
-
 - Ajout de l'onglet Avancé afin de pouvoir changer le mot de passe root SSH, configuration la rotation des logs, activer/désactiver le “factory reset” par bouton, activer/désactiver le script de failover réseau et planifier un redémarrage automatique de la box
-
-# 26.08.2024
-
 - Einrichten einer Konfiguration zur Begrenzung des von Protokollen verwendeten Speicherplatzes durch Anpassen der Rotations- und Aufbewahrungsparameter.
-
-# 11.07.2024
-
 - Verwaltungstools hinzufügen
-
-# 07.09.2024
-
 - Einrichten eines LTE-Dienstes zum erneuten Verbinden des Modems
 - Wiederaufnahme der Benutzeroberfläche auf dem LTE-Teil
 - Mehrere Einstellungen für die automatische Verbindung von WLAN- und Hotspot-Verbindungen hinzugefügt (Sie müssen die WLAN-Verbindung löschen und neu erstellen))
-
-# 25.06.2024
-
-- Js reparieren
 - Optimierung der UI-Verbindungsprioritäten
-
-# 19.06.2024
-
 - Aktivierung des Akkus beim Update und der Installation des Plugins
 - Die Syntax auf der Registerkarte „Batterie“ wurde für mehr Präzision korrigiert
 - Hinzufügen eines templateWidget zur Dashboard-Kachel

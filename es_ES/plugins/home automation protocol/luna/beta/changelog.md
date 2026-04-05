@@ -6,50 +6,23 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
-# )
+# 
 
--  **
--  **  **  **
-- 
-- 
-
-# )
-
+- Ajout d'une commande *Température CPU*
+- Modification du type de la commande *Température Batterie* en *Numérique* au lieu de *Autre*
+- Correction sur les paramètres d'affichage des commandes action pour la batterie
+- Correction sur la gestion des profiles wifi lors de la config lte
 - Ajout du changement du swap disponible via l'onget Avancé
-
 - Ajout du lancement du LTE via le bouton *Relancer configuration du Plugin*
-
-# 20/10/2025 (Beta)
-
 - Ajout de la gestion du kernel panic après l'installation ou la mise à jour du plugin Luna
-
 - Ajout du bouton "Reconfigurer le packet forwarder" dans la partie Lora
-
-# 08/10/2025 (Beta)
-
 - Ajout de l'onglet Avancé afin de pouvoir changer le mot de passe root SSH, configuration la rotation des logs, activer/désactiver le “factory reset” par bouton, activer/désactiver le script de failover réseau et planifier un redémarrage automatique de la box
-
-# 26/08/2024
-
 - Establecer una configuración para limitar el espacio en disco utilizado por los registros, ajustando los parámetros de rotación y retención.
-
-# 11/07/2024
-
 - Agregar herramientas de administración
-
-# 09/07/2024
-
 - Configurar un servicio LTE para volver a conectar el módem
 - Reanudación de la UI en la parte LTE
 - Se agregaron varias configuraciones para la conexión automática de wifi y conexiones de punto de acceso (debe eliminar la conexión wifi y volver a crearla))
-
-# 25/06/2024
-
-- Arreglar J
 - Prioridades de conexión de la interfaz de usuario de optimización
-
-# 19/06/2024
-
 - Activación de la batería al actualizar e instalar el complemento
 - Se corrigió la sintaxis en la pestaña Batería para mayor precisión
 - Agregar un widget de plantilla al mosaico del panel

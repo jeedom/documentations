@@ -6,50 +6,23 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# 01/04/2026 (Beta)
+# 05/04/2026
 
 - Ajout d'une commande *Température CPU*
 - Modification du type de la commande *Température Batterie* en *Numérique* au lieu de *Autre*
 - Correction sur les paramètres d'affichage des commandes action pour la batterie
 - Correction sur la gestion des profiles wifi lors de la config lte
-
-# 27/11/2025 (Beta)
-
 - Ajout du changement du swap disponible via l'onget Avancé
-
 - Ajout du lancement du LTE via le bouton *Relancer configuration du Plugin*
-
-# 20/10/2025 (Beta)
-
 - Ajout de la gestion du kernel panic après l'installation ou la mise à jour du plugin Luna
-
 - Ajout du bouton "Reconfigurer le packet forwarder" dans la partie Lora
-
-# 08/10/2025 (Beta)
-
 - Ajout de l'onglet Avancé afin de pouvoir changer le mot de passe root SSH, configuration la rotation des logs, activer/désactiver le “factory reset” par bouton, activer/désactiver le script de failover réseau et planifier un redémarrage automatique de la box
-
-# 26/08/2024
-
 - Mise en place une configuration pour limiter l'espace disque utilisé par les journaux, en ajustant les paramètres de rotation et de rétention.
-
-# 11/07/2024
-
 - Ajout Outils Administration
-
-# 09/07/2024
-
 - Mise en place d'un service LTE pour reconnecter le modem
 - Reprise de l'UI sur la partie LTE
 - Ajout de plusieurs paramètres pour l'auto connecte des connexions wifi et hotspot (il faut supprimer la connexion wifi et la recréer)
-
-# 25/06/2024
-
-- Fix Js
 - Optimisation UI priorites des connexions
-
-# 19/06/2024
-
 - Activation de la batterie a la mise a jour et installation du plugin
 - Correction Syntaxe sur l'onglet Batterie pour plus de précision
 - Ajout d'un templateWidget sur la tuile du dashboard
