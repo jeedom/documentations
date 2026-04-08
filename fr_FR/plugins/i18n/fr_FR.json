@@ -1393,15 +1393,15 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation beta": "Documentation beta",
-        "Market": "Market",
-        "Changelog beta": "Changelog beta",
         "Documentation Stable": "Documentation Stable",
         "Documentation Beta": "Documentation Beta",
+        "Market": "Market",
         "Changelog Stable": "Changelog Stable",
         "Changelog Beta": "Changelog Beta",
         "ATTENTION": "ATTENTION",
-        "Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack": "Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack"
+        "Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack": "Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack",
+        "Documentation beta": "Documentation beta",
+        "Changelog beta": "Changelog beta"
     },
     "plugins\/sunPulseEasy\/index.md": {
         "Plugin template": "Plugin template",
