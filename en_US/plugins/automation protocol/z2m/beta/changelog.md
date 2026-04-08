@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 09/04/2026
+
+- Modified the daemon status check to avoid false positives
+
 # 17/03/2026
 
 - Correction d'un bug sur la luna ou le plugin forcé le retour a la version 1.42.0 de zigbee2mqtt

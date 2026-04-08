@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 09/04/2026
+
+- Modification de la vérification de l’état du démon pour éviter les faux positifs
+
 # 17/03/2026
 
 - Correction d'un bug sur la luna ou le plugin forcé le retour a la version 1.42.0 de zigbee2mqtt

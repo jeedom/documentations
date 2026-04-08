@@ -4,6 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 09.04.2026
+
+- Die Überprüfung des Daemon-Status wurde modifiziert, um Fehlalarme zu vermeiden
+
 # 17/03/2026
 
 - Correction d'un bug sur la luna ou le plugin forcé le retour a la version 1.42.0 de zigbee2mqtt
