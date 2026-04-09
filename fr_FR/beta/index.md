@@ -56,7 +56,7 @@ En `master` *(stable)* ou `release`, chaque nouvelle version entraine un changem
 >
 >Il est possible que d'éventuels *hotfixs* n'entrainent pas de nouveau numéro de version. Dans ce cas il faut mettre le core à jour manuellement.
 
-À l'inverse, les autres branches n'engendrent pas de notification ni d'alerte dans le centre de mises à jour malgré des modifications régulières. Il revient donc au bêta‑testeur de mettre le core à jour manuellement et régulièrement. Avant chaque phase de tests notamment, et surtout, avant d'effectuer toute remontée afin de s'assurer que ce n’a pas déjà été corrigé.
+À l'inverse, les autres branches n'engendrent pas de notification ni d'alerte dans le centre de mises à jour malgré des modifications régulières. Il revient donc au bêta‑testeur de mettre le core à jour manuellement et régulièrement. Avant chaque phase de tests notamment, et surtout, avant d'effectuer toute remontée afin de s'assurer que le problème n'a pas déjà été corrigé.
 
 ## Changelog
 
