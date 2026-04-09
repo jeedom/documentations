@@ -37,7 +37,7 @@ Les branches annexes correspondent à des développements indépendants et ponct
 
 ### Changer de version
 
-A la lecture des mises en garde exposées au chapitre précédent, il est évident que **cette manipulation est à réserver aux utilisateurs avancés en toute connaissance de cause**.
+A la lecture des [mises en garde](#Mises%20en%20garde) exposées précédemment, il est évident que **cette manipulation est à réserver aux utilisateurs avancés en toute connaissance de cause**.
 
 Pour changer de branche, et donc de version Jeedom, rendez-vous dans le menu **Réglages → Système → Configuration**, onglet **Mises à jour/Market**. Laissez la source de mise à jour sur **Défaut** et sélectionnez la version du core *(branche)* que vous souhaitez installer.
 
