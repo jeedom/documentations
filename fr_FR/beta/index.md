@@ -1,7 +1,7 @@
 
 # Beta test de Jeedom
 
-Un bêta‑testeur est un utilisateur qui teste les versions du logiciel avant qu'elles ne soient diffusées à l'ensemble des utilisateurs. Le beta testing permet de remonter des erreurs qui pourraient apparaitre lors de la phase de développement *(bug fonctionnel ou souci d'interface par exemple)*. C'est une importante source d'amélioration pour le projet, qui permet d'apporter des idées fraîches et de tester les nouveautés en conditions réelles.
+Un bêta‑testeur est un utilisateur qui teste les versions du logiciel avant qu'elles soient diffusées à l'ensemble des utilisateurs. Le beta testing permet de remonter des erreurs qui pourraient apparaitre lors de la phase de développement *(bug fonctionnel ou souci d'interface par exemple)*. C'est une importante source d'amélioration pour le projet, qui permet d'apporter des idées fraîches et de tester les nouveautés en conditions réelles.
 
 ## Mises en garde
 
