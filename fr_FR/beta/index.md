@@ -7,7 +7,7 @@ Un bêta‑testeur est un utilisateur qui teste les versions du logiciel avant q
 
 Bien que les développeurs prennent un maximum de précautions, les versions en cours de développement sont susceptibles d'inclure des bugs pouvant rendre un plugin ou le core totalement inopérants. De la même manière, les fonctionnalités en cours de développement peuvent être reportées, voire abandonnées en fonction des circonstances. Il faut donc être plutôt à l'aise avec les procédures de sauvegarde/restauration de Jeedom avant de se lancer dans le beta testing.
 
-Comme indiqué ci-dessus, le fait de basculer Jeedom ou un plugin sur une version en cours de développement comporte des risques. Par conséquent, **il est fortement recommandé de le faire sur une installation de test prévue à cet effet *(machine virtuelle par exemple)* plutôt que sur un Jeedom en production**.
+Comme indiqué ci-dessus, le fait de basculer Jeedom ou un plugin sur une version en cours de développement comporte des risques. Par conséquent, **il est fortement recommandé de le faire sur une installation de test prévue à cet effet *([une machine virtuelle](../installation/vm) par exemple)* plutôt que sur un Jeedom en production**.
 
 >**IMPORTANT**
 >
