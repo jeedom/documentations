@@ -52,10 +52,6 @@ Ensuite, cliquez sur le bouton **Sauvegarder** puis dirigez-vous vers le menu **
 
 En `master` *(stable)* ou `release`, chaque nouvelle version entraine un changement de numérotation *(x.y.z)*. Si la case **Vérification automatique des mises à jour** est cochée, alors un message de notification sera émis dans Jeedom accompagné d'une pastille rouge dans la barre de menu. Sinon il faut se rendre dans le menu **Réglages → Système → Centre de Mise à jour** puis cliquer sur le bouton **Vérifier les mises à jour**.
 
->**INFORMATION**
->
->Il est possible que d'éventuels *hotfixs* n'entrainent pas de nouveau numéro de version. Dans ce cas il faut mettre le core à jour manuellement.
-
 À l'inverse, les autres branches n'engendrent pas de notification ni d'alerte dans le centre de mises à jour malgré des modifications régulières. Il revient donc au bêta‑testeur de mettre le core à jour manuellement et régulièrement. Avant chaque phase de tests notamment, et surtout, avant d'effectuer toute remontée afin de s'assurer que le problème n'a pas déjà été corrigé.
 
 ## Changelog
