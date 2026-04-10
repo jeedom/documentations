@@ -7,6 +7,10 @@ Celle-ci se découpe en trois grandes catégories :
 - [La documentation du core Jeedom](#Documentation%20du%20core%20Jeedom)
 - [La documentation des plugins](#Documentation%20des%20plugins)
 
+>**INFORMATION**
+>
+>Si vous souhaitez revoir un grand nombre de fichiers, il est préférable de le faire par étape *(par rubrique par exemple)* plutôt que soumettre de nombreuses modifications en une seule *pull request*.
+
 ## Prérequis
 
 Pour contribuer à la documentation, quelques prérequis sont à connaître et à prendre en compte :
