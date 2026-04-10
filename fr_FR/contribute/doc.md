@@ -55,7 +55,7 @@ Comme le core Jeedom, la documentation de chaque plugin est récupérée depuis 
 
 >**INFORMATION**
 >
->Certains dépôts de plugins ne sont pas accessibles publiquement. Dans ce cas, vous pouvez toujours contribuer en créant un sujet sur [le forum](https://community.jeedom.com/c/plugins/46){:target="_blank"} avec l'étiquette `documentation-jeedom`.
+>Certains dépôts de plugins ne sont pas accessibles publiquement. Dans ce cas, vous pouvez toujours contribuer en créant un sujet sur [le forum](https://community.jeedom.com/c/plugins/46){:target="_blank"} avec l'étiquette `documentation-jeedom` et celle du plugin concerné.
 
 ## Gestion des traductions
 
