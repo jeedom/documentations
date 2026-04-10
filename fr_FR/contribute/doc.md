@@ -34,7 +34,7 @@ Les pages de documentation générale concernent toutes les pages, hormis celles
 
 ## Documentation du core Jeedom
 
-La documentation du core Jeedom correspond aux rubriques **Manuel d'utilisation** et **Manuel de configuration**, accessibles en cliquant sur le bouton "❔" en haut à droite sur l'interface Jeedom. Les fichiers se situent sur [le dépôt du core](https://github.com/jeedom/core/tree/develop/docs/fr_FR), dans le répertoire `docs/fr_FR`.
+La documentation du core Jeedom correspond aux rubriques **Manuel d'utilisation** et **Manuel de configuration**, accessibles en cliquant sur le bouton "❔" en haut à droite sur l'interface Jeedom. Les fichiers se situent sur [le dépôt du core](https://github.com/jeedom/core/tree/develop/docs/fr_FR){:target="_blank"}, dans le répertoire `docs/fr_FR`.
 
 Chaque page de manuel correspond à un fichier `Markdown` *(.md)* sur Github, par exemple :
 - **Manuel d'utilisation - Changelog** (https://doc.jeedom.com/#LANG#/core/#VERSION#/changelog) → https://github.com/jeedom/core/tree/develop/docs/fr_FR/changelog.md
