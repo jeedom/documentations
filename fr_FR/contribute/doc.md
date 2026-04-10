@@ -9,7 +9,7 @@ Celle-ci se découpe en trois grandes catégories :
 
 >**INFORMATION**
 >
->Si vous souhaitez revoir un grand nombre de fichiers, il est préférable de le faire par étape *(par rubrique par exemple)* plutôt que soumettre de nombreuses modifications en une seule *pull request*.
+>Si vous souhaitez revoir un grand nombre de fichiers, il est préférable de le faire par étape *(par rubrique par exemple)* plutôt que soumettre de nombreuses modifications en une seule fois.
 
 ## Prérequis
 
