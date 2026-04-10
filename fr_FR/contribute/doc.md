@@ -62,15 +62,15 @@ Comme le core Jeedom, la documentation de chaque plugin est récupérée depuis 
 Brièvement abordé dans [les prérequis](#Prérequis), les traductions sont générées automatiquement dans des fichiers `i18n/*.json`. Il est inutile de modifier ces fichiers car ils sont réécris régulièrement par un robot.
 
 Concernant le core et les plugins *(la documentation générale n'est pas concernée)*, pour que le système de traduction fonctionne il faut respecter un certain formalisme selon le langage utilisé :
-- En PHP, hors dossier `desktop/php` :
+- En `PHP`, hors dossier `desktop/php` :
 ```php
 $myString = __('Ma phrase qui sera traduite', __FILE__);
 ```
-- En PHP, dans le dossier `desktop/php` :
+- En `PHP`, dans le dossier `desktop/php` :
 ```php
 $myString = '{{Ma phrase qui sera traduite}}';
 ```
-- En JavaScript:
+- En `JavaScript`:
 ```js
 {% raw %}var myString = '{{Ma phrase qui sera traduite}}'{% endraw %}
 ```
