@@ -22,7 +22,7 @@ Pour contribuer à la documentation, quelques prérequis sont à connaître et �
 
 ## Documentation générale
 
-Les pages de documentation générale concernent toutes les pages, hormis celles relatives aux **Manuels** et aux **Plugins**. Les fichiers sont accessibles sur [le dépôt de la documentation](https://github.com/jeedom/documentations/tree/master/fr_FR){:target="_blank"}, l'adresse du site de documentation correspondant à un fichier `Markdown` *(.md)* sur Github, par exemple :
+Les pages de documentation générale concernent toutes les pages, hormis celles relatives aux **Manuels** et aux **Plugins**. Les fichiers sont accessibles sur [le dépôt de la documentation](https://github.com/jeedom/documentations/tree/master/fr_FR){:target="_blank"}. L'adresse du site de documentation correspondant à un fichier `Markdown` *(.md)* sur Github, par exemple :
 
 - **Compatibilité** (https://doc.jeedom.com/#LANG#/compatibility/) → https://github.com/jeedom/documentations/blob/master/fr_FR/compatibility/index.md
 - **Installation sur Raspberry Pi** (https://doc.jeedom.com/#LANG#/installation/rpi) → https://github.com/jeedom/documentations/blob/master/fr_FR/installation/rpi.md
