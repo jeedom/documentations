@@ -72,5 +72,5 @@ $myString = '{{Ma phrase qui sera traduite}}';
 ```
 - En `JavaScript`:
 ```js
-{% raw %}var myString = '{{Ma phrase qui sera traduite}}'{% endraw %}
+var myString = '{{Ma phrase qui sera traduite}}'
 ```
