@@ -1498,7 +1498,7 @@
     "plugins_contributor\/weather\/index.md": {
         "Un widget est fourni permettant d'afficher la météo sous une horloge similaire à celle du plugin horlogeHTC": "Se proporciona un widget que le permite mostrar el tiempo bajo un reloj similar al del complemento de reloj de HTC",
         "Weather Forecast, CAP alerts": "Weather Forecast, CAP alerts",
-        "Ce plugin permet de récupérer la météo actuelle et les prévisions météorologiques sur quelques jours en utilisant les sources OpenWeather ou WeatherAPI": "Este complemento le permite recuperar el clima actual y los pronósticos meteorológicos durante unos días utilizando fuentes OpenWeather o WeatherAPI",
+        "Ce plugin permet de récupérer la météo actuelle et les prévisions météorologiques sur quelques jours en utilisant les sources MeteoFrance, OpenWeather ou WeatherAPI": "",
         "Température": "Temperatura",
         "Plugin pour calculer le windchill et l'indice de température": "Plugin para calcular el viento y el índice de temperatura",
         "Rosée - Givre - Tendance": "Rocío - Frost - Tendencia",
