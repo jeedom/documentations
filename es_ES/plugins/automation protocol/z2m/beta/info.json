@@ -32,16 +32,12 @@
         "video": "Lien vers une video"
     },
     "language": [
-        "fr_FR",
+        "de_DE",
         "en_US",
         "es_ES",
-        "de_DE",
-        "ru_RU",
-        "id_ID",
+        "fr_FR",
         "it_IT",
-        "ja_JP",
-        "pt_PT",
-        "tr"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",
