@@ -16,6 +16,9 @@
 	"documentation" : "https://jpty.github.io/jeedom/plugins/rteEcowatt/fr_FR/index.html",
 	"changelog_beta" : "https://jpty.github.io/jeedom/plugins/rteEcowatt/fr_FR/changelog.html",
 	"documentation_beta" : "https://jpty.github.io/jeedom/plugins/rteEcowatt/fr_FR/index.html",
+  "link": {
+    "forum": "https://community.jeedom.com/tag/plugin-rteecowatt"
+  },
 	
 	"language" : ["fr_FR"],
   "compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","atlas"]
