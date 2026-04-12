@@ -26,7 +26,7 @@ Pour contribuer à la documentation, quelques prérequis sont à connaître et �
 
 ## Documentation générale
 
-Les pages de documentation générale concernent toutes les pages, hormis celles relatives aux **Manuels** et aux **Plugins**. Les fichiers sont accessibles sur [le dépôt de la documentation](https://github.com/jeedom/documentations/tree/master/fr_FR){:target="_blank"}. L'adresse du site de documentation correspondant à un fichier `Markdown` *(.md)* sur Github, par exemple :
+Les pages de documentation générale concernent toutes les pages, hormis celles relatives aux **Manuels** *(core Jeedom)* et aux **Plugins**. Les fichiers sont accessibles sur [le dépôt de la documentation](https://github.com/jeedom/documentations/tree/master/fr_FR){:target="_blank"}. L'adresse du site de documentation correspondant à un fichier `Markdown` *(\*.md)* sur Github, par exemple :
 
 - **Compatibilité** (https://doc.jeedom.com/#LANG#/compatibility/) → https://github.com/jeedom/documentations/blob/master/fr_FR/compatibility/index.md
 - **Installation sur Raspberry Pi** (https://doc.jeedom.com/#LANG#/installation/rpi) → https://github.com/jeedom/documentations/blob/master/fr_FR/installation/rpi.md
@@ -40,7 +40,7 @@ Les pages de documentation générale concernent toutes les pages, hormis celles
 
 La documentation du core Jeedom correspond aux rubriques **Manuel d'utilisation** et **Manuel de configuration**, accessibles en cliquant sur le bouton "❔" en haut à droite sur l'interface Jeedom. Les fichiers se situent sur [le dépôt du core](https://github.com/jeedom/core/tree/develop/docs/fr_FR){:target="_blank"}, dans le répertoire `docs/fr_FR`.
 
-Chaque page de manuel correspond à un fichier `Markdown` *(.md)* sur Github, par exemple :
+Chaque page de manuel correspond à un fichier `Markdown` *(\*.md)* sur Github, par exemple :
 - **Manuel d'utilisation - Changelog** (https://doc.jeedom.com/#LANG#/core/#VERSION#/changelog) → https://github.com/jeedom/core/tree/develop/docs/fr_FR/changelog.md
 - **Manuel d'utilisation - Scénarios** (https://doc.jeedom.com/#LANG#/core/#VERSION#/scenario) → https://github.com/jeedom/core/tree/develop/docs/fr_FR/scenario.md
 - **Manuel de configuration - Personnalisation Avancée** (https://doc.jeedom.com/#LANG#/core/#VERSION#/custom) → https://github.com/jeedom/core/tree/develop/docs/fr_FR/custom.md
@@ -61,20 +61,6 @@ Comme le core Jeedom, la documentation de chaque plugin est récupérée depuis 
 >
 >Certains dépôts de plugins ne sont pas accessibles publiquement. Dans ce cas, vous pouvez toujours contribuer en créant un sujet sur [le forum](https://community.jeedom.com/c/plugins/46){:target="_blank"} avec l'étiquette `documentation-jeedom` et celle du plugin concerné.
 
-## Gestion des traductions
-
-Brièvement abordé dans [les prérequis](#Prérequis), les traductions sont générées automatiquement dans des fichiers `i18n/*.json`. Il est inutile de modifier ces fichiers car ils sont réécris régulièrement par un robot.
-
-Concernant le core et les plugins officiels *(la documentation générale n'est pas concernée)*, pour que le système de traduction fonctionne il faut respecter un certain formalisme selon le langage utilisé :
-- En `PHP`, hors dossier `desktop/php` :
-```php
-$myString = __('Ma phrase qui sera traduite', __FILE__);
-```
-- En `PHP`, dans le dossier `desktop/php` :
-```php
-$myString = '{{Ma phrase qui sera traduite}}';
-```
-- En `JavaScript`:
-```js
-var myString = '{{Ma phrase qui sera traduite}}'
-```
+>**IMPORTANT**
+>
+>Les contributions doivent être soumises sur la branche `beta` des plugins.
