@@ -185,6 +185,7 @@ var docMenu = [
     pt_PT: "Desenvolvedores",
     submenu: [
       { link: "/#LANG#/dev/", fr_FR: "Plugins", en_US: "Plugins", es_ES: "Complementos", de_DE: "Plugins", pt_PT: "Plugins" },
+      { link: "/#LANG#/dev/core", fr_FR: "Core", en_US: "Core", es_ES: "Core", de_DE: "Core", pt_PT: "Core" },
       { link: "/#LANG#/core/#VERSION#/api_http", fr_FR: "Api HTTP", en_US: "Api HTTP", es_ES: "Api HTTP", de_DE: "Api HTTP", pt_PT: "Api HTTP" },
       { link: "/#LANG#/core/#VERSION#/jsonrpc_api", fr_FR: "API JsonRPC", en_US: "API JsonRPC", es_ES: "API JsonRPC", de_DE: "API JsonRPC", pt_PT: "API JsonRPC" },
       { link: "/dev/phpdoc/#VERSION#", fr_FR: "PhpDoc", en_US: "PhpDoc", es_ES: "PhpDoc", de_DE: "PhpDoc", pt_PT: "PhpDoc" },
