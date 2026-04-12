@@ -17,9 +17,9 @@
 		"min": 11
 	},
 	"category": "devicecommunication",
-	"hasDependency": false,
-	"hasOwnDeamon": false,
-	"maxDependancyInstallTime": 0,
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 60,
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/miele/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/miele/#language#/",
 	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/miele/#language#/changelog",

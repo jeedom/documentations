@@ -14,11 +14,14 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+## 12/04/2026
+
+- Augmentation du timeout de 2s à 5s lors des requêtes vers les modules Airzone
+
 ## 29/01/2026
 
 - Correction de bugs
 - Ajout d'un log en debug lors du refresh des commandes
-
 
 ## 22/09/2025
 
