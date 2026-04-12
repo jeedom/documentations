@@ -15,7 +15,7 @@ Comme indiqué ci-dessus, le fait de basculer Jeedom ou un plugin sur une versio
 
 ## Branches
 
-Jeedom est un logiciel open-source dont le développement peut être suivi en temps réel sur [Github](https://github.com/jeedom/core){:target="_blank"}. Chaque branche correspondant à différents niveaux d'avancement dans son développement.
+Jeedom est un logiciel open-source dont le développement peut être suivi en temps réel sur [GitHub](https://github.com/jeedom/core){:target="_blank"}. Chaque branche correspondant à différents niveaux d'avancement dans son développement.
 
 ### Branches principales
 
@@ -60,7 +60,7 @@ Le **journal des modifications** *(ou changelog)* offre un aperçu des changemen
 
 Seules les versions [`master` *(stable)*](../core/#VERSION#/changelog){:target="_blank"} et [`release`](https://github.com/jeedom/core/blob/release/docs/#LANG#/changelog.md){:target="_blank"} garantissent la présence d'un changelog détaillé et à jour.
 
-En `develop`, **si renseigné**, le changelog peut être consulté directement sur [Github](https://github.com/jeedom/core/blob/develop/docs/#LANG#/changelog.md){:target="_blank"} mais le plus fiable est de prendre connaissances des [dernières *Pull Requests* validées sur cette branche](https://github.com/jeedom/core/pulls?q=is%3Apr+is%3Aclosed+sort%3Aupdated-desc){:target="_blank"}.
+En `develop`, **si renseigné**, le changelog peut être consulté directement sur [GitHub](https://github.com/jeedom/core/blob/develop/docs/#LANG#/changelog.md){:target="_blank"} mais le plus fiable est de prendre connaissances des [dernières *Pull Requests* validées sur cette branche](https://github.com/jeedom/core/pulls?q=is%3Apr+is%3Aclosed+sort%3Aupdated-desc){:target="_blank"}.
 
 Les branches annexes faisant quant à elles référence à un élément précis, elles ne nécessitent à première vue pas de détails pour être appréhendées.
 
@@ -94,15 +94,15 @@ Choisissez la section adaptée à la catégorie de la remontée puis ajoutez les
 >
 >Le salon des bêta‑testeurs intègre également [une section **Suggestions**](https://community.jeedom.com/c/salon-des-beta-testeurs/suggestion/29){:target="_blank"} pour proposer des améliorations.
 
-### Issue Github
+### Issue GitHub
 
 Si, après recherche, une *issue* ou une *pull request* est déjà ouverte sur le même sujet alors vous pouvez y ajouter votre analyse à condition qu'elle apporte des éléments pertinents dans le cadre du développement concerné.
 
-Sinon, vous pouvez ouvrir [une *issue* sur Github](https://github.com/jeedom/core/issues){:target="_blank"} détaillant de manière exhaustive le dysfonctionnement rencontré.
+Sinon, vous pouvez ouvrir [une *issue* sur GitHub](https://github.com/jeedom/core/issues){:target="_blank"} détaillant de manière exhaustive le dysfonctionnement rencontré.
 
 >**INFORMATION**
 >
->L'anglais est la norme sur Github pour que tout un chacun soit en mesure de comprendre le sujet mais nous acceptons les textes rédigés en français.
+>L'anglais est la norme sur GitHub pour que tout un chacun soit en mesure de comprendre le sujet mais nous acceptons les textes rédigés en français.
 
 ## Contribuer au développement
 
