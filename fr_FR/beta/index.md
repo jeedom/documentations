@@ -1,11 +1,11 @@
 
-# Beta test de Jeedom
+# Bêta-test de Jeedom
 
-Un bêta‑testeur est un utilisateur qui teste les versions du logiciel avant qu'elles soient diffusées à l'ensemble des utilisateurs. Le beta testing permet de remonter des erreurs qui pourraient apparaitre lors de la phase de développement *(bug fonctionnel ou souci d'interface par exemple)*. C'est une importante source d'amélioration pour le projet, qui permet d'apporter des idées fraîches et de tester les nouveautés en conditions réelles.
+Un bêta‑testeur est un utilisateur qui teste les versions du logiciel avant qu'elles soient diffusées à l'ensemble des utilisateurs. Le bêta-testing permet de remonter des erreurs qui pourraient apparaitre lors de la phase de développement *(bug fonctionnel ou souci d'interface par exemple)*. C'est une importante source d'amélioration pour le projet, qui permet d'apporter des idées fraîches et de tester les nouveautés en conditions réelles.
 
 ## Mises en garde
 
-Bien que les développeurs prennent un maximum de précautions, les versions en cours de développement sont susceptibles d'inclure des bugs pouvant rendre un plugin ou le core totalement inopérants. De la même manière, les fonctionnalités en cours de développement peuvent être reportées, voire abandonnées en fonction des circonstances. Il faut donc être plutôt à l'aise avec les procédures de sauvegarde/restauration de Jeedom avant de se lancer dans le beta testing.
+Bien que les développeurs prennent un maximum de précautions, les versions en cours de développement sont susceptibles d'inclure des bugs pouvant rendre un plugin ou le core totalement inopérants. De la même manière, les fonctionnalités en cours de développement peuvent être reportées, voire abandonnées en fonction des circonstances. Il faut donc être plutôt à l'aise avec les procédures de sauvegarde/restauration de Jeedom avant de se lancer dans le bêta-testing.
 
 Comme indiqué ci-dessus, le fait de basculer Jeedom ou un plugin sur une version en cours de développement comporte des risques. Par conséquent, **il est fortement recommandé de le faire sur une installation de test prévue à cet effet *([une machine virtuelle](../installation/vm) par exemple)* plutôt que sur un Jeedom en production**.
 
@@ -66,9 +66,9 @@ Les branches annexes faisant quant à elles référence à un élément précis,
 
 ## Plugins
 
-La présente page s'attarde principalement sur les beta tests autour du core Jeedom mais le principe reste sensiblement le même pour les plugins. En effet, les plugins sont mis à disposition en version stable *(branche `master`)* par défaut mais ils disposent également de versions `beta` pour les développements en cours.
+La présente page s'attarde principalement sur les bêta-tests autour du core Jeedom mais le principe reste sensiblement le même pour les plugins. En effet, les plugins sont mis à disposition en version stable *(branche `master`)* par défaut mais ils disposent également de versions `beta` pour les développements en cours.
 
-Pour accéder aux plugins en version `beta`, il est nécessaire de cocher la case **Activer l'accès aux plugins beta** dans [votre profil Market](https://market.jeedom.com/index.php?v=d&p=profils){:target="_blank"}. Il suffit ensuite d'installer ou de réinstaller le plugin dans cette version.
+Pour accéder aux plugins en version `beta`, il est nécessaire de cocher la case **Activer l'accès aux plugins bêta** dans [votre profil Market](https://market.jeedom.com/index.php?v=d&p=profils){:target="_blank"}. Il suffit ensuite d'installer ou de réinstaller le plugin dans cette version.
 
 >**IMPORTANT**
 >
@@ -114,6 +114,6 @@ Les pages de documentation que vous consultez actuellement nécessitent des mise
 
 Quelques spécificités sont à prendre en compte avant de proposer des changements sur la documentation. Il est donc indispensable de prendre connaissance des bonnes pratiques pour [contribuer à la documentation](../contribute/doc) en premier lieu.
 
-### Core Jeedom
+### Core et Plugins
 
-A l'instar de la documentation, le core Jeedom est également ouvert aux contributions externes. Référez-vous à la page [Contribuer au développement du Core](../contribute/core) pour en savoir plus.
+A l'instar de la documentation, le core Jeedom ainsi que la plupart des plugins sont également ouverts aux contributions externes. Référez-vous à la page ["Contribuer au core ou aux plugins"](../contribute/core) pour en savoir plus.
