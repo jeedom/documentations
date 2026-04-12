@@ -23,10 +23,10 @@
 	"hasDependency": true,
 	"hasOwnDeamon": true,
 	"maxDependancyInstallTime": 30,
-	"changelog": "https://jeedom.github.io/plugin-z2m/changelog",
-	"documentation": "https://jeedom.github.io/plugin-z2m/",
-	"changelog_beta": "https://github.com/jeedom/plugin-z2m/blob/beta/docs/changelog.md",
-	"documentation_beta": "hhttps://github.com/jeedom/plugin-z2m/blob/beta/docs/index.md",
+	"changelog": "https://doc.jeedom.com/#language#/plugins/automation protocol/z2m/changelog",
+	"documentation": "https://doc.jeedom.com/#language#/plugins/automation protocol/z2m/",
+	"changelog_beta": "https://doc.jeedom.com/#language#/plugins/automation protocol/z2m/beta/changelog",
+	"documentation_beta": "https://doc.jeedom.com/#language#/plugins/automation protocol/z2m/beta",
 	"link": {
 		"forum": "Lien vers le forum",
 		"video": "Lien vers une video"
