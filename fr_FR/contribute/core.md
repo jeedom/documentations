@@ -24,11 +24,11 @@ Que vous soyez développeur confirmé ou pas, chacun a son rôle à jouer pour p
 >
 >Si vous n'êtes pas à l'aise à l'idée d'intervenir directement sur les fichiers du core ou d'un plugin mais que vous souhaitez apporter votre pierre à l'édifice, vous pouvez toujours contribuer en créant un sujet sur le forum dans la section ["Utilisation du core de Jeedom"](https://community.jeedom.com/c/utilisation-du-core-de-jeedom/57){:target="_blank"} ou [celle dédiée aux plugins](https://community.jeedom.com/c/plugins/46){:target="_blank"} avec l'étiquette du plugin concerné.
 
-### Documentation pour les développeurs
+### Documentation développeurs
 
 Nous vous recommandons de prendre régulièrement connaissance des documentations relatives au [développement du core](../dev/core) ou au [développement d'un plugin](../dev/) afin d'appliquer les rêgles établies et d'être certain de respecter les normes de Jeedom.
 
-### Forum pour les développeurs
+### Forum développeurs
 
 En complément de la documentation, vous avez également accès [au salon des développeurs du forum](https://community.jeedom.com/c/developpeur-developpeurs/5){:target="_blank"} qui regorge d'informations.
 
