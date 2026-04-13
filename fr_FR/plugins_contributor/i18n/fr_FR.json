@@ -191,6 +191,8 @@
         "myStrom (switches, boutons, ampoules, détecteurs PIR, bandeaux LED), Dingz (interrupteurs Wi-Fi": "myStrom (switches, boutons, ampoules, détecteurs PIR, bandeaux LED), Dingz (interrupteurs Wi-Fi",
         "Smart Home": "Smart Home",
         "Plugin pour piloter les équipements de la gamme Smart Home (CH": "Plugin pour piloter les équipements de la gamme Smart Home (CH",
+        "MyOkoTouch": "MyOkoTouch",
+        "Plugin permettant de récupérer les informations et de contrôler les chaudières Okofen sous firmware Pelletronic Touch": "Plugin permettant de récupérer les informations et de contrôler les chaudières Okofen sous firmware Pelletronic Touch",
         "ne fonctionne pas pour les véhicules encore sous myT) pour Jeedom": "ne fonctionne pas pour les véhicules encore sous myT) pour Jeedom",
         "myToyota": "myToyota",
         "Plugin permettant l'interrogation des services myToyota (attention": "Plugin permettant l'interrogation des services myToyota (attention",
