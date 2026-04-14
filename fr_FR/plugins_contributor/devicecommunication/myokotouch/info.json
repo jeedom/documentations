@@ -17,10 +17,7 @@
   "documentation": "https://github.com/Darkomage/jeedom-plugin-myokotouch/blob/stable/docs/fr_FR/index.md",
   "documentation_beta": "https://github.com/Darkomage/jeedom-plugin-myokotouch/blob/beta/docs/fr_FR/index.md",
   "link": {
-    "forum": "https://community.jeedom.com/t/plugin-myokotouch/148564",
-    "documentation": "https://github.com/Darkomage/jeedom-plugin-myokotouch/blob/stable/docs/fr_FR/index.md",
-    "changelog": "https://github.com/Darkomage/jeedom-plugin-myokotouch/blob/stable/docs/fr_FR/changelog.md",
-    "github": "https://github.com/Darkomage/jeedom-plugin-myokotouch"
+    "forum": "https://community.jeedom.com/t/plugin-myokotouch/148564"
   },
   "language": [
     "fr_FR"
