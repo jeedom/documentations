@@ -41,11 +41,11 @@
 |-----------|-------------|---------|
 | **** |  | 64 |
 | **** |  | .100:47808 |
-| **** | ) | 8 |
+| **Prioridad de escritura predeterminada** | ) | 8 |
 
 > **** : : : :).
 
-> **** :  **** . .  ****.
+> **Prioridad de escritura predeterminada** :  **** . .  ****.
 
 ### 
 

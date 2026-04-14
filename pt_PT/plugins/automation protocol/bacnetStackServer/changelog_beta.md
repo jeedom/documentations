@@ -4,6 +4,27 @@
 >  **reinstalar as dependências** após uma atualização de plugin.
 > Esta etapa baixa o binário do daemon atualizado (`bacnetStackd`). Sem essa etapa, o binário antigo permanece instalado e as correções ou novos recursos do daemon não são ativados.
 
+
+# 
+
+- **** :
+  -  **""**
+  - 
+  - 
+  - .)
+
+- **** :
+  -  **"**
+  - 
+  -  :
+    - )
+    -  **"Simuler"** 
+    -  **"Migrer"** 
+    - )
+  - )
+  -  : 
+
+
 # 
 
 - **** :
