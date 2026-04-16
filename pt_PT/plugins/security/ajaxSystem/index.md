@@ -35,14 +35,6 @@ Para configurar o link entre seu Jeedom e seu alarme Ajax, vá para "Plugin" -> 
 >
 > Uma vez feito o link, todas as solicitações passam por nossa nuvem, mas em nenhum momento a nuvem armazena seu token de acesso, portanto não é possível apenas com a nuvem jeedom atuar no seu alarme. Para qualquer ação sobre isso, você absolutamente precisa da combinação de seu token de acesso Jeedom e uma chave conhecida apenas por nossa nuvem 
 
-### Configuração de relatórios de eventos
-
-No aplicativo Ajax, vá para o hub e, em seguida, nas configurações (pequena engrenagem no canto superior direito), vá para o usuário e adicione o usuário : ajax@jeedom.com
-
->**NOTA**
->
->O convite permanece e sempre ficará pendente, isso é normal
-
 ## Equipamento 
 
 Uma vez que a configuração está em "Plugin" -> "Gerenciamento de Plugin" -> "Sistema Ajax" você apenas tem que sincronizar, Jeedom irá criar automaticamente todos os equipamentos Ajax vinculados à sua conta Ajax. 

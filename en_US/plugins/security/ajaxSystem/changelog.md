@@ -4,6 +4,11 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+# 12/01/2026
+
+- Bug fix
+- Improved equipment synchronization
+
 # 25/11/2025
 
 - Ajout du Fire Protect 2

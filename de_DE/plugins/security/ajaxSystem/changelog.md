@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 12.01.2026
+
+- Bug-Fix
+- Verbesserte Gerätesynchronisation
+
 # 25/11/2025
 
 - Ajout du Fire Protect 2

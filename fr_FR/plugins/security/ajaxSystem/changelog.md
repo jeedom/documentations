@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 15/04/2026
+
+- Gestion des équipements double (type interrupteur double)
+
 # 12/01/2026
 
 - Correction de bug
