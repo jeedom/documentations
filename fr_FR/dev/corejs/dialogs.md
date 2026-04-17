@@ -208,7 +208,7 @@ jeeDialog.dialog({
 
 ````js
 {% raw %}
-var dialogOptions = jjeeDialog.get('queryselectorstring', 'options')
+var dialogOptions = jeeDialog.get('queryselectorstring', 'options')
 var dialogElement = jeeDialog.get('queryselectorstring', 'dialog')
 var dialogTitleElement = jeeDialog.get('queryselectorstring', 'title')
 var dialogContentElement = jeeDialog.get('queryselectorstring', 'content')
