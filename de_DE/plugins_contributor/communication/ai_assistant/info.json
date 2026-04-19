@@ -1,0 +1,36 @@
+{
+  "id": "ai_assistant",
+  "name": "Ai Assistant",
+  "description": {
+    "fr_FR": "Ce plugin repose sur trois piliers :\n- **Agent conversationnel classique** : dialogue fluide pour vos questions générales.\n- **Assistant spécialisé Jeedom** : un expert qui connaît votre installation.\n- **Pont MCP (Model Context Protocol)** : lien direct entre votre serveur MCP et votre modèle d'IA (Plugin 'MCP AI Server' conseillé).",
+    "en_US": "This plugin is based on three pillars:\n- **Classic Conversational Agent**: fluid dialogue for general questions.\n- **Jeedom Specialized Assistant**: an expert who knows your installation.\n- **MCP Bridge (Model Context Protocol)**: direct link between your MCP server and your AI model ('MCP AI Server' plugin recommended).",
+    "es_ES": "Este plugin se basa en tres pilares:\n- **Agente conversacional clásico**: diálogo fluido para sus preguntas generales.\n- **Asistente especializado en Jeedom**: un experto que conoce su instalación.\n- **Puente MCP (Model Context Protocol)**: enlace directo entre su servidor MCP y su modelo de IA (se recomienda el plugin 'MCP AI Server')."
+  },
+  "utilization": "Il est nécessaire de disposer d'une clé API valide auprès de votre fournisseur d'IA habituel (Gemini, OpenAI, etc.) et de la renseigner dans la configuration du plugin.\n\n⚠️ Veuillez lire attentivement la documentation avant toute utilisation.",
+  "licence": "AGPL",
+  "author": "Limad44",
+  "require": "4.4",
+  "category": "communication",
+  "hasDependency": 0,
+  "hasOwnDeamon": 0,
+  "display": "panel",
+  "eventjs": 1,
+  "changelog": "https://limad.github.io/plugins-docs/plugin-ai_assistant/#language#/changelog",
+  "changelog_beta": "https://limad.github.io/plugins-docs/plugin-ai_assistant/#language#/changelog",
+  "documentation": "https://limad.github.io/plugins-docs/plugin-ai_assistant/#language#",
+  "documentation_beta": "https://limad.github.io/plugins-docs/plugin-ai_assistant/#language#",
+  "link": {
+    "forum": "https://community.jeedom.com/search?q=Ai%20Assistant%20Jeedom%20order%3Alatest"
+  },
+  "language": ["fr_FR", "en_US", "es_ES"],
+  "compatibility": [
+    "v4",
+    "miniplus",
+    "smart",
+    "rpi",
+    "docker",
+    "diy",
+    "mobile",
+    "Jeedomboard"
+  ]
+}

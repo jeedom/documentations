@@ -1,0 +1,32 @@
+{
+  "id": "mcp_jeedom",
+  "name": "MCP AI Server",
+  "description": {
+    "fr_FR": "Exposez Jeedom comme un serveur MCP (Model Context Protocol). Cette fonctionnalité permet aux outils d’intelligence artificielle (Claude Desktop, Cursor, etc.) de découvrir et piloter vos équipements, de consulter leurs états et d’exécuter des commandes et beaucoup d'autres possibilités via une interface standardisée et sécurisée. Vous pouvez également utiliser le plugin « AI Assistant » pour contrôler le MCP directement depuis Jeedom, avec l’IA de votre choix.",
+    "en_US": "Exposes Jeedom as a Model Context Protocol (MCP) server. Enables AI assistants (Claude Desktop, Cursor, etc.) to discover, read and control your home automation devices through a standardised and secure interface.",
+    "es_ES": "Expone Jeedom como un servidor del Protocolo de Contexto del Modelo (MCP). Permite a los asistentes de IA (Claude Desktop, Cursor, etc.) descubrir, leer y controlar sus dispositivos de domótica a través de una interfaz estandarizada y segura.",
+    "de_DE": "Stellt Jeedom als Model Context Protocol (MCP)-Server bereit. Ermöglicht KI-Assistenten (Claude Desktop, Cursor usw.), Ihre Hausautomatisierungsgeräte über eine standardisierte und sichere Schnittstelle zu erkennen, zu lesen und zu steuern.",
+    "it_IT": "Espone Jeedom come server Model Context Protocol (MCP). Consente agli assistenti AI (Claude Desktop, Cursor, ecc.) di scoprire, leggere e controllare i tuoi dispositivi di domotica tramite un'interfaccia standardizzata e sicura."
+  },
+  "utilization": "Nécessite Python et les dépendances MCP, installées automatiquement.\n\n⚠️ Avertissement: \n\nL'IA peut lire l'état de vos équipements et, selon la configuration choisie, exécuter des actions sur ceux-ci.\n\nL'utilisateur est seul responsable de la configuration et de l'usage du plugin. Ni le développeur, ni Domadoo ne sauraient être tenus responsables des conséquences directes ou indirectes d'une erreur de l'IA, d'une mauvaise configuration, ou d'un accès non autorisé.\n\nBonnes pratiques : activez uniquement les permissions nécessaires, utilisez la whitelist pour limiter les équipements accessibles, et ne partagez jamais votre token d'accès externe.",
+  "licence": "AGPL",
+  "author": "Limad44",
+  "require": "4.4",
+  "os": {
+    "min": 11
+  },
+  "category": "communication",
+  "hasDependency": true,
+  "hasOwnDeamon": true,
+  "maxDependancyInstallTime": 15,
+  "changelog": "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/#language#/changelog",
+  "changelog_beta": "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/#language#/changelog",
+  "documentation": "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/#language#",
+  "documentation_beta": "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/#language#",
+  "link": {
+    "forum": "https://community.jeedom.com/tag/plugin-mcp_jeedom",
+    "video": ""
+  },
+  "language": ["fr_FR", "en_US", "es_ES", "de_DE", "it_IT"],
+  "compatibility": ["smart", "atlas", "luna", "rpi", "docker", "diy", "v4"]
+}
