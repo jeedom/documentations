@@ -60,7 +60,7 @@ Le **journal des modifications** *(ou changelog)* offre un aperçu des changemen
 
 Seules les versions [`master` *(stable)*](../core/#VERSION#/changelog){:target="_blank"} et [`release`](https://github.com/jeedom/core/blob/release/docs/#LANG#/changelog.md){:target="_blank"} garantissent la présence d'un changelog détaillé et à jour.
 
-En `develop`, **si renseigné**, le changelog peut être consulté directement sur [GitHub](https://github.com/jeedom/core/blob/develop/docs/#LANG#/changelog.md){:target="_blank"} mais le plus fiable est de prendre connaissances des [dernières *Pull Requests* validées sur cette branche](https://github.com/jeedom/core/pulls?q=is%3Apr+is%3Amerged+sort%3Aupdated-desc+base%3Adevelop){:target="_blank"}.
+En `develop`, les intégrations étant continues, le journal des modifications n'est pas encore généré à cette étape. Pour prendre connaissance des changements apportés depuis la dernière version stable, il faut se référer aux [notes de version](https://github.com/jeedom/core/blob/develop/docs/release-notes.md){:target="_blank"} qui listent les *Pull Requests* validées sur cette branche.
 
 Les branches annexes faisant quant à elles référence à un élément précis, elles ne nécessitent à première vue pas de détails pour être appréhendées.
 
