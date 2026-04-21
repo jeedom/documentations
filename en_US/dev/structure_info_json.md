@@ -41,7 +41,7 @@
 
 ## 
 
-         | .json               |
+         | .               |
 --------------------- | ----------------------- |
          | ``communication``           |
                | ``wellness``                |
@@ -67,24 +67,24 @@
 
 :
 
-```
+
  : $user->getOptions(‹ plugin:::: ›)
  : $jeeObject->getConfiguration(‹ plugin:::: ›)
-```
+
 * 
 * :  ...)
 
 ### 
 
  :
-```
+
 	"specialAttributes" : {
 		"object" : {
 			"toto" : {"name" : {"" : "" : "input"},
 			"toto2" : {"name" : {"" : "" : "number"}
 		}
 	}
-```
+
 
 ).
 .
@@ -92,20 +92,20 @@
 
 ### 
 
-```
+
 	"specialAttributes" : {
 		"user" : {
 			"toto" : {"name" : {"" : "" : "" : " : "" : "" : "" : ""}]}
 		}
 	}
-```
+
 
 )
 ![Attribut Utilisateur](images/SpecialAttributeUser.png)
 
 ### 
 
-```
+
 	"specialAttributes": {
         "eqLogic": {
             "mqttTranmit": {
@@ -116,6 +116,6 @@
             }
         }
     }
-```
+
 
 ). ::mqtt2::::::key`)
