@@ -1,8 +1,18 @@
 {
-	"id" : "telegram",
-	"name" : "Telegram",
-	"licence" : "AGPL",
-	"author" : "lunarok",
-	"require" : "3.0",
-	"category" : "communication"
+    "id": "Telejee",
+    "name": "Telejee",
+    "description": "Plugin permettant de récupérer les pogrammes TV et d'interagir avec les appareils multimedia connectés en lançant des actions scénarios sur le clic d'un logo ou une icône. Possibilité de créer plusieurs types de télécommandes",
+    "licence": "AGPL",
+    "author": "zyg0m4t1k",
+    "pluginVersion": "2.0",
+    "require": "4.4",
+    "os": {
+        "min": 11,
+        "max": 13.99
+    },
+    "category": "multimedia",
+    "changelog": "https://zyg0m4t1k.github.io/docs/plugins/telejee/changelog/",
+    "documentation": "https://zyg0m4t1k.github.io/docs/plugins/telejee/",
+    "language": ["fr_FR"],
+    "compatibility": ["smart", "luna", "atlas", "rpi", "docker", "diy", "mobile"]
 }
