@@ -1,0 +1,37 @@
+{
+  "id": "mydacia",
+  "name": "MyDacia",
+  "version": "1.2.1",
+  "description": {
+    "fr_FR": "Plugin MyDacia pour Jeedom : liaison avec l'API Renault/Dacia (Kamereon), état batterie et autonomie, position GPS, kilométrage, climatisation et charge. Prise en charge de deux comptes MyDacia distincts pour plusieurs véhicules sur des comptes séparés.",
+    "en_US": "MyDacia plugin for Jeedom: Renault/Dacia Kamereon API integration, battery and range, GPS position, mileage, HVAC and charging. Supports two separate MyDacia accounts for vehicles tied to different logins."
+  },
+  "utilization": {
+    "fr_FR": "Renseignez les identifiants dans la configuration du plugin (compte 1 obligatoire, compte 2 optionnel). Lancez la découverte des véhicules. Chaque équipement permet de choisir le compte MyDacia utilisé. Les valeurs affichées dépendent de ce que l’API expose pour votre modèle (ex. températures souvent absentes sur Spring). README du dépôt pour le détail et le dépannage.",
+    "en_US": "Enter credentials in the plugin configuration (account 1 required, account 2 optional). Run vehicle discovery. Each equipment can select which MyDacia account to use. Displayed values depend on what the API exposes for your model (e.g. temperatures often missing on Spring). See the repository README for details and troubleshooting."
+  },
+  "licence": "AGPL",
+  "author": "Plugin MyDacia",
+  "require": "4.0",
+  "category": "devicecommunication",
+  "hasDependency": false,
+  "hasOwnDeamon": false,
+  "maxDependancyInstallTime": 0,
+  "documentation": "https://github.com/alexdems/MyDacia_jeedom/blob/main/README.md",
+  "changelog": "https://github.com/alexdems/MyDacia_jeedom/blob/main/CHANGELOG.md",
+  "issue": "https://github.com/alexdems/MyDacia_jeedom/issues",
+  "language": [
+    "fr_FR",
+    "en_US"
+  ],
+  "compatibility": [
+    "miniplus",
+    "smart",
+    "rpi",
+    "docker",
+    "diy",
+    "mobile",
+    "v4"
+  ]
+}
+
