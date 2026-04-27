@@ -1,39 +1,39 @@
-# Demons & Addictions
+# 
 
 ## Introduction
 
-In the [tutorial](/en_US/dev/tutorial_plugin) and the [documentation](/en_US/dev/plugin_template) You have learned how to code your first plugin with relatively simple actions triggered by the user via an action command or by a task scheduled by the core (cron jobs)).
-The plugin is then able to retrieve information on an ad-hoc basis (for example, via an HTTP request) or perform all sorts of operations, provided that this can be coded in PHP.
+ [](/en_US/dev/tutorial_plugin)  [](/en_US/dev/plugin_template) ).
+.
 
-There will be times when you need more than that; here are a few examples, though this list is not exhaustive:
+:
 
-- use system resources, for example USB drive or other hardware (Bluetooth)...)
-- maintain a connection with a remote system (on a local network or on the internet, but not Jeedom))
-- keeping processes active in the background, which is not the case for PHP code which only "lives" during the execution of the HTTP request
-- perform real-time processing
+- ...)
+- )
+- 
+- 
 
-For this, most of the time a "daemon" is used".
-Don't panic, everything is already included in the Jeedom core to help us set up this daemon, and we'll explain it in detail here.
+".
+.
 
-## Daemon file structure
+## 
 
-The code and/or executable of your daemon must obviously be located in your plugin's directory structure and must therefore be included and delivered with the archive during plugin installation.
-There is no strict rule on the exact location of your daemon, however the convention is to place it in the subdirectory `./resources/` of the plugin.
+.
+..
 
-In the plugin template you will find the basics for implementing a daemon in Python, and this is the example we will use in this documentation. However, you are free to develop your daemon in the language of your choice, provided it can be executed on the [platforms supported by Jeedom](/en_US/compatibility/).
-Most Jeedom plugin daemons are written in Python or Node.js, but some also exist in .netCore and certainly other technologies.
+ [](/en_US/compatibility/).
+ ..
 
-You will also find some useful methods for a Node.js daemon, which may be detailed in a future version of this documentation. For now, I suggest you consult the community developers to align yourself with other developers on everything related to Node.js, especially the version to use.
+. .
 
-Template directory structure:
+:
 
 ![image](images/daemon_struct.png)
 
-### the python demon
+### 
 
-In the plugin template, the daemon directory was named `demond`, and the daemon itself is named `demond.py`.
-These names are arbitrary; feel free to change them.
-The convention is to use the plugin ID followed by the letter 'd'. This results, for example, in the directory `blea` for the plugin./resources/blead/` which contains, among other things, the file `blead.`py`, this file being the starting point of the daemon.
+.
+.
+. ...
 
 > ****
 >
@@ -55,7 +55,7 @@ The convention is to use the plugin ID followed by the letter 'd'. This results,
 .
 .
 
-> **Attention**
+> ****
 >
 > ). .
 
@@ -80,7 +80,7 @@ The convention is to use the plugin ID followed by the letter 'd'. This results,
 
 .:
 
-```python
+python
 "
 
 '
@@ -129,11 +129,11 @@ try:
 :
      : '))
     shutdown()
-```
+
 
 :
 
-```python
+python
 
 .
 .
@@ -141,16 +141,16 @@ try:
 ' # emplacement par défaut du pidfile, ce fichier est utiliser par Jeedom pour savoir si votre démon est démarrer ou pas; nom du démon à modifier comme expliqué ci-dessus;
 
  = '' ## )
-```
 
-> **Attention**
+
+> ****
 >
 > : . ). .
 
 .
 .
 
-```python
+python
 :
     ="):
         ("=")
@@ -164,26 +164,26 @@ try:
         ("=")
     ="):
         ("=")
-```
+
 
 :
 
-```python
+python
 )
 )
-```
+
 
 :
 
-```python
+python
 ):
     ))
     shutdown()
-```
+
 
 :
 
-```python
+python
 ():
     ")
     ))
@@ -202,17 +202,17 @@ try:
     ")
     ()
     )
-```
+
 
 .
 
-> **Attention**
+> ****
 >
 > ..
 
 :
 
-```python
+python
 try:
     
     
@@ -224,11 +224,11 @@ try:
 :
      : '))
     shutdown()
-```
+
 
 :
 
-```python
+python
 ():
     ()
     try:
@@ -237,13 +237,13 @@ try:
             ()
     :
         shutdown()
-```
 
 
 
 
 
-```python
+
+python
 ():
     
     ():
@@ -256,18 +256,18 @@ try:
             '
         :
              : '))
-```
+
 
 .
 
 :
 
-```python
+python
         try:
             '
         :
              : '))
-```
+
 
 .
 
@@ -281,7 +281,7 @@ try:
 
 .:
 
-```json
+json
 {
     "id" : "pluginID",
     "name" : "pluginName",
@@ -291,7 +291,7 @@ try:
     "maxDependancyInstallTime" : 10,
     ...
 }
-```
+
 
 .
 
@@ -308,16 +308,16 @@ try:
 .
 .
 
-```php
+php
     () {
-        $return = array();
+        $ = array();
         $return['log'] = __CLASS__;
         $return['state'] = 'nok';
         $pid_file = jeedom::) . '/deamon.pid';
         )) {
             )))) {
                 $return['state'] = 'ok';
-            } else {
+            }  {
                 ::getCmdSudo() . ' ' . $pid_file . ' 
             }
         }
@@ -335,11 +335,11 @@ try:
             $return['launchable'] = 'nok';
             $return['launchable_message'] = __('La clé d\'application n\'est pas configurée', __FILE__);
         }
-        return $return;
+        
     }
-```
 
-> **Attention**
+
+> ****
 >
 > .
 
@@ -352,7 +352,7 @@ try:
 .
 .
 
-```php
+php
     () {
         self::
         $deamon_info = self::deamon_info();
@@ -387,7 +387,7 @@ try:
         message::
         
     }
-```
+
 
 .
 
@@ -398,7 +398,7 @@ try:
 
 : .
 
-```php
+php
     () {
         $pid_file = jeedom::) . '/deamon.pid'; // ne pas modifier
         )) {
@@ -408,7 +408,7 @@ try:
         system::
         sleep(1);
     }
-```
+
 
 .. .
 
@@ -425,7 +425,7 @@ try:
 
 .
 
-```php
+php
     ) {
         $deamon_info = self::deamon_info();
         '] != 'ok') {
@@ -438,13 +438,13 @@ try:
         
         
     }
-```
+
 
 .
 
 :
 
-```python
+python
         '] != _apikey:
              : " ))
             return
@@ -452,7 +452,7 @@ try:
             '
         :
              : '))
-```
+
 
 "
 
@@ -462,13 +462,13 @@ try:
 
 :
 
-```php
+php
 <?php
 
  {
     
 
-    if (!jeedom::
+     (!jeedom::
         
         die();
     }
@@ -477,7 +477,7 @@ try:
         die();
     }
     $result = json_decode(file_get_contents("php://input"), true);
-    if (!)) {
+     (!)) {
         die();
     }
 
@@ -485,58 +485,58 @@ try:
         
     } '])) {
         
-    } else {
+    }  {
         log::
     }
 } ) {
     log::
 }
-```
+
 
 :
 
-```php
-    if (!jeedom::
+php
+     (!jeedom::
         
         die();
     }
-```
+
 
 .):
 
-```php
+php
     ') != '') {
         
         die();
     }
-```
+
 
 :
 
-```php
+php
     $result = json_decode(file_get_contents("php://input"), true);
-    if (!)) {
+     (!)) {
         die();
     }
-```
+
 
 :
 
-```php
+php
     '])) {
         
     } '])) {
         
-    } else {
+    }  {
         log::
     }
-```
+
 
 :
 
-```python
+python
 ' : '' : 'value2' })
-```
+
 
 : .
 
@@ -570,7 +570,7 @@ try:
 .
 :
 
-```json
+json
 {
     "id" : "pluginID",
     "name" : "pluginName",
@@ -580,7 +580,7 @@ try:
     "maxDependancyInstallTime" : 30,
     ...
 }
-```
+
 
 .
  .
@@ -601,33 +601,33 @@ try:
 
 ##### pre-install: 
 
-Example :
+ :
 
-```json
+json
 {
   "pre-install" : {
     "script" : ""
   }
-```
+
 
 ##### post-install
 
 .
-Example :
+ :
 
-```json
+json
 {
   "post-install" : {
     "" : true,
     "script" : ""
   }
-```
+
 
 ##### apt: 
 
 Exemple
 
-```json
+json
 {
   "apt" : {
     "libav-tools" : {"alternative" : "]},
@@ -636,7 +636,7 @@ Exemple
     "php-gd" : {}
   }
 }
-```
+
 
 ,
  .
@@ -645,7 +645,7 @@ Exemple
 
 Exemple:
 
-```json
+json
 {
   "apt" : {
     "" : {},
@@ -666,7 +666,7 @@ Exemple:
     "bellows" : {"reinstall" : true}
   }
 }
-```
+
 
 > **
 >
@@ -679,7 +679,7 @@ Exemple:
 .,
 :
 
-```json
+json
 {
   "apt" : {
     "nodejs" : {}
@@ -688,7 +688,7 @@ Exemple:
     ""  : {}
   }
 }
-```
+
 
 ##### composer: 
 
@@ -699,13 +699,13 @@ Exemple:
 
  :
 
-```json
+json
 {
     "plugin":{
         "mqtt2": {}
     }
 }
-```
+
 
 ### 
 
@@ -715,12 +715,12 @@ Exemple:
 
 . 
 
-```php
+php
     () {
         log::
         #stype#. ' . jeedom::) . '::
     }
-```
+
 
 .
 
@@ -733,13 +733,13 @@ Exemple:
 
 :
 
-> **Attention**
+> ****
 >
 > .
 >
-> Je vous invite également à consulter cette documentation qui offre une alternative: <https://github.com/Mips2648/dependance.lib/blob/master/pyenv.md>
+> Je vous invite également à consulter cette  qui offre une alternative: <https://github.com/Mips2648/dependance.lib/blob/master/pyenv.md>
 
-```bash
+bash
 
 
  ! -
@@ -775,20 +775,20 @@ fi
  "*            *"
  "***************************"
 }
-```
+
 
 :
 
 ...
 -).
 
-```bash
+bash
 
 
  ! -
     
 fi
-```
+
 
 : ).
 
@@ -799,7 +799,7 @@ fi
 - .
 - : ....
 
-> **Attention**
+> ****
 >
 > . . . .
 
@@ -813,31 +813,31 @@ fi
 
 :
 
-```php
+php
     () {
-        $return = array();
+        $ = array();
         $return['log'] = log::getPathToLog(__CLASS__ . '_update');
         $return['progress_file'] = jeedom::) . '/dependance';
         ::) . '/dependance')) {
             $return['state'] = 'in_progress';
-        } else {
-            ::getCmdSudo() . system::') . '-Ec "python3\-requests|python3-voluptuous|python3\-bs4"') < 3) { // adapt the package list and the total
+        }  {
+            ::getCmdSudo() . system::') . '-||
                 $return['state'] = 'nok';
-            } ::getCmdSudo() . 'pip3 list | grep -Ewc "aiohttp"') < 1) { // adapt the package list and the total
+            } ::getCmdSudo() . ' | 
                 $return['state'] = 'nok';
-            } else {
+            }  {
                 $return['state'] = 'ok';
             }
         }
-        return $return;
+        
     }
-```
 
-: `system::getCmdSudo() . system::') . '-Ec "python3\-requests|python3-voluptuous|python3\-bs4"'`. : .
 
-: `pip3 list | grep -Ewc "aiohttp"'`. : 
+: `system::getCmdSudo() . system::') . '-||. : .
 
-> **Attention**
+:  | . : 
+
+> ****
 >
 > .
 
