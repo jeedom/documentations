@@ -129,11 +129,11 @@ var docMenu = [
       { link: "/#LANG#/plugins/other/", icon: "fas fa-bars", fr_FR: "Autre", en_US: "Other", es_ES: "Otros", de_DE: "Andere", pt_PT: "" },
     ]
   }, {
-    fr_FR: "Plugins Contributeurs",
-    en_US: "Contributor Plugins",
-    es_ES: "Plugins Contribuidor",
-    de_DE: "Mitwirkende Plugins",
-    pt_PT: "Plugins Colaboradores",
+    fr_FR: "Plugins Tiers",
+    en_US: "Third-Party Plugins",
+    es_ES: "Plugins de Terceros",
+    de_DE: "Plugins von Drittanbietern",
+    pt_PT: "Plugins de Terceiros",
     submenu: [
       { link: "/#LANG#/plugins_contributor/security/", icon: "fas fa-lock", fr_FR: "Sécurité", en_US: "Security", es_ES: "Sécurité", de_DE: "Sicherheit", pt_PT: "" },
       { link: "/#LANG#/plugins_contributor/automation%20protocol/", icon: "fas fa-rss", fr_FR: "Protocole domotique", en_US: "Home protocol", es_ES: "Protocolo de domótica", de_DE: "Hausautomationsprotokoll", pt_PT: "" },
@@ -167,12 +167,16 @@ var docMenu = [
   }, {
     divider: true
   }, {
-    fr_FR: "Beta / Alpha",
-    en_US: "Beta / Alpha",
-    es_ES: "Beta / Alpha",
-    de_DE: "Beta / Alpha",
-    pt_PT: "Beta / Alpha",
-    link: "/#LANG#/beta/"
+    fr_FR: 'Contributeurs',
+    en_US: 'Contributors',
+    es_ES: "Colaboradores",
+    de_DE: "Mitwirkende",
+    pt_PT: "Contribuidores",
+    submenu: [
+      { link: "/#LANG#/beta/", fr_FR: "Bêta-Test", en_US: "Beta Test", es_ES: "Prueba Beta", de_DE: "Beta-Test", pt_PT: "Teste Beta" },
+      { link: "/#LANG#/contribute/doc", fr_FR: "Documentation", en_US: "Documentation", es_ES: "Documentación", de_DE: "Dokumentation", pt_PT: "Documentação" },
+      { link: "/#LANG#/contribute/core", fr_FR: "Core & Plugins", en_US: "Core & Plugins", es_ES: "Core & Plugins", de_DE: "Core & Plugins", pt_PT: "Core & Plugins" }
+    ]
   }, {
     fr_FR: 'Développeurs',
     en_US: 'Developers',
@@ -180,8 +184,8 @@ var docMenu = [
     de_DE: "Entwickler",
     pt_PT: "Desenvolvedores",
     submenu: [
-      { link: "/#LANG#/contribute/", fr_FR: "Contribuer", en_US: "Contribute", es_ES: "Contribuir", de_DE: "Bijdragen", pt_PT: "Contribuir" },
       { link: "/#LANG#/dev/", fr_FR: "Plugins", en_US: "Plugins", es_ES: "Complementos", de_DE: "Plugins", pt_PT: "Plugins" },
+      { link: "/#LANG#/dev/core", fr_FR: "Core", en_US: "Core", es_ES: "Core", de_DE: "Core", pt_PT: "Core" },
       { link: "/#LANG#/core/#VERSION#/api_http", fr_FR: "Api HTTP", en_US: "Api HTTP", es_ES: "Api HTTP", de_DE: "Api HTTP", pt_PT: "Api HTTP" },
       { link: "/#LANG#/core/#VERSION#/jsonrpc_api", fr_FR: "API JsonRPC", en_US: "API JsonRPC", es_ES: "API JsonRPC", de_DE: "API JsonRPC", pt_PT: "API JsonRPC" },
       { link: "/dev/phpdoc/#VERSION#", fr_FR: "PhpDoc", en_US: "PhpDoc", es_ES: "PhpDoc", de_DE: "PhpDoc", pt_PT: "PhpDoc" },
