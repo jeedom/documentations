@@ -2,7 +2,14 @@
   "id": "jeeloc",
   "name": "Jeeloc",
   "pluginVersion": "1.0.0",
-  "description": "Jeeloc est un plugin Jeedom de centralisation de localisations. Il ne collecte pas lui-même les coordonnées GPS, mais réutilise des commandes existantes (iOSCloud, Android, coordonnées fixes, etc.) afin de les afficher dans un widget unifié et interactif.",
+  "description": {
+    "fr_FR": "Jeeloc est un plugin Jeedom de centralisation de localisations. Il ne collecte pas lui-même les coordonnées GPS, mais réutilise des commandes existantes (iOSCloud, Android, coordonnées fixes, etc.) afin de les afficher dans un widget unifié et interactif.",
+    "en_US": "Jeeloc is a Jeedom plugin designed to centralize location data. It does not collect GPS coordinates itself, but reuses existing commands (iOSCloud, Android, fixed coordinates, etc.) to display them in a unified and interactive widget.",
+    "es_ES": "Jeeloc es un plugin de Jeedom para centralizar ubicaciones. No recopila directamente las coordenadas GPS, sino que reutiliza comandos existentes (iOSCloud, Android, coordenadas fijas, etc.) para mostrarlas en un widget unificado e interactivo.",
+    "de_DE": "Jeeloc ist ein Jeedom-Plugin zur Zentralisierung von Standortdaten. Es erfasst keine GPS-Koordinaten selbst, sondern nutzt vorhandene Befehle (iOSCloud, Android, feste Koordinaten usw.), um sie in einem einheitlichen und interaktiven Widget darzustellen.",
+    "it_IT": "Jeeloc è un plugin Jeedom per la centralizzazione delle posizioni. Non raccoglie direttamente le coordinate GPS, ma riutilizza comandi esistenti (iOSCloud, Android, coordinate fisse, ecc.) per visualizzarle in un widget unificato e interattivo.",
+    "pt_PT": "Jeeloc é um plugin Jeedom para centralizar localizações. Não recolhe diretamente as coordenadas GPS, mas reutiliza comandos existentes (iOSCloud, Android, coordenadas fixas, etc.) para as apresentar num widget unificado e interativo."
+  },
   "licence": "AGPL",
   "author": "Zyg0m4t1k",
   "require": "4.4",
@@ -10,8 +17,8 @@
   "hasDependency": false,
   "hasOwnDeamon": false,
   "display": "panel",
-  "changelog": "https://zyg0m4t1k.github.io/jeeloc/#language#/changelog",
-  "documentation": "https://zyg0m4t1k.github.io/jeeloc/#language#/",
-  "language": ["fr_FR", "en_US", "de_DE", "es_ES", "ru_RU", "id_ID", "it_IT"],
+  "changelog": "https://zyg0m4t1k.github.io/docs/plugins/jeeloc/changelog/",
+  "documentation": "https://zyg0m4t1k.github.io/docs/plugins/jeeloc/",
+  "language": ["de_DE", "en_US", "es_ES", "fr_FR", "it_IT", "pt_PT"],
   "compatibility": ["miniplus", "smart", "rpi", "docker", "diy", "v4"]
 }
