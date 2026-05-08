@@ -111,7 +111,7 @@ js
       $('.cmd[data-cmd_id=#id#]').attr('title', '{{Date de valeur}} : '+_options.valueDate+'<br/>{{}} : ')
       $('.cmd[data-cmd_id=#id#] .state').empty().append(_options.)
       $('.cmd[data-cmd_id=#id#] .unit').empty().append(_options.unit)
-    });
+    })
 
  :'#id#',: '#state#', valueDate: '#valueDate#', collectDate: '#collectDate#', alertLevel: '#alertLevel#', unit: '#unite#'}])
 
@@ -125,7 +125,7 @@ js
 :
 
 `php
-$options['source'] = 'plugin Mode '.$this->getName();
+$options['source'] = 'plugin Mode '.$this->getName()
 scenarioExpression::
 `
 
