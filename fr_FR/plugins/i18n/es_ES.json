@@ -2925,7 +2925,7 @@
         "Plugin permettant de récupérer les donnéees de consommations en utilisant l'API OCEA": "Complemento que le permite recuperar datos de consumo utilizando la API OCEA",
         "Uniquement testé avec le modèle 6 prises": "Solo probado con el modelo de 6 enchufes",
         "Ce plugin permet de contrôler vos multiprises Mpower": "Este complemento le permite controlar sus múltiples enchufes Mpower",
-        "Permet également de créer des compteurs par utilisateur (Personnalisé\/OCPP": "También permite crear contadores por usuario (Personalizado\/OCPP",
+        "Permet également de créer des compteurs liés à une identification (Personnalisé\/OCPP": "También permite la creación de contadores vinculados a un identificador (Personalizado\/OCPP)",
         "Compteur virtuel": "Contador virtual",
         "Créez des compteurs énergétiques sur mesure (tarif unique ou heures pleines\/heures creuses) à partir d'indexs bruts (Wh\/kWh) et\/ou de puissances (W\/kW": "Cree contadores de energía a medida (tarifa única u horas punta\/valle) a partir de índices brutos (Wh\/kWh) y\/o potencias (W\/kW)",
         "Plugins pour la gestion des données de consommation de gaz pour les professionnels": "Plugins pour la gestion des données de consommation de gaz pour les professionnels",

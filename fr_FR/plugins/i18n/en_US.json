@@ -2925,7 +2925,7 @@
         "Plugin permettant de récupérer les donnéees de consommations en utilisant l'API OCEA": "Plugin to retrieve consumption data using the OCEA API",
         "Uniquement testé avec le modèle 6 prises": "Only tested with the 6 socket model",
         "Ce plugin permet de contrôler vos multiprises Mpower": "This plugin allows you to control your Mpower multiple sockets",
-        "Permet également de créer des compteurs par utilisateur (Personnalisé\/OCPP": "Also allows to create counters per user (Custom\/OCPP)",
+        "Permet également de créer des compteurs liés à une identification (Personnalisé\/OCPP": "It also allows the creation of counters linked to an identifier (Custom\/OCPP)",
         "Compteur virtuel": "Virtual counter",
         "Créez des compteurs énergétiques sur mesure (tarif unique ou heures pleines\/heures creuses) à partir d'indexs bruts (Wh\/kWh) et\/ou de puissances (W\/kW": "Create custom energy meters (single rate or peak\/off-peak hours) from raw indexes (Wh\/kWh) and\/or powers (W\/kW",
         "Plugins pour la gestion des données de consommation de gaz pour les professionnels": "Plugins pour la gestion des données de consommation de gaz pour les professionnels",

@@ -1,6 +1,6 @@
 # Complemento de contador virtual
 
-El complemento **Contador virtual** le permite crear medidores de energía en kilovatios-hora a partir de índices sin procesar *(Wh/kWh)* y/o poderes *(Vatios/kW)*, ya sea a tarifa única o en horas punta/valle. Este complemento también te permite crear contadores por usuario *(Personalizado/OCPP)*.
+El complemento **Contador virtual** le permite crear medidores de energía en kilovatios-hora a partir de índices sin procesar *(Wh/kWh)* y/o poderes *(Vatios/kW)*, ya sea a tarifa única o en horas punta/valle. Ce plugin permet également de créer des compteurs liés à une identification *(Personalizado/OCPP)*.
 
 >**IMPORTANT**
 >
@@ -22,13 +22,13 @@ El complemento **Contador virtual** le permite crear medidores de energía en ki
 
 Para agregar un nuevo contador virtual, haga clic en el botón **+Agregar**.
 
-- **Tipo de medidor**: Seleccione el tipo de medidor *()*.
+- **Tipo de medidor**: Seleccione el tipo de medidor *(Standard/Personnalisé/OCPP)*.
 - **Precios**: Adapte los precios si es necesario.
 - **Alternar precios**: En el caso de precios pico/no pico, adapte el comando de alternancia de precios información/precio binario si es necesario.
 
 ---
 
-- **Identificador**: Para medidores tipo custom o OCPP indicar el identificador de usuario.
+- **Identificador**: Pour les compteurs de type personnalisé ou OCPP, indiquer l'identifiant à valider pour comptabiliser la transaction.
 
 ### Datos a procesar
 
@@ -49,7 +49,7 @@ Para otros, debes hacer clic en el botón **Gestionar pedidos** de la sección *
 
 	- **Datos**: Información/control digital de los datos brutos a procesar.
 	- **Unidad**: Seleccione la unidad si no se detecta automáticamente *(Wh/kWh/W/kW)*.
-	- **Identificador**: Complete el comando info/other especificando el identificador del usuario actual *(el valor debe corresponder al identificador definido a nivel de equipo para que se registre la transacción)*.
+	- **Identificador**: Renseigner la commande info/autre stipulant l'identifiant en cours *(el valor debe corresponder al identificador definido a nivel de equipo para que se registre la transacción)*.
 
 ## Commandes
 
