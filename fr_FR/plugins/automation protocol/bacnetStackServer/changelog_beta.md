@@ -5,6 +5,14 @@
 > Cette étape télécharge le binaire daemon (`bacnetStackd`) à jour. Sans cette étape, l'ancien binaire reste en place et les corrections ou nouvelles fonctionnalités du daemon ne sont pas actives.
 
 
+# 13/05/2026
+
+- **Mapping Jeedom → BACnet — Ajout du champ Unités** :
+  - Le sélecteur d'unités BACnet est désormais disponible dans la modale d'édition d'objet (interface mapping)
+  - Visible uniquement pour les types analogiques (`analog-input`, `analog-output`, `analog-value`)
+  - La valeur est persistée dans la configuration JSON et transmise au daemon
+
+
 # 31/03/2026
 
 - **Serveur BACnet — Export EDE standardisé** :

@@ -218,6 +218,37 @@ Depuis la page de mapping, vous pouvez :
 
 ---
 
+## Fonctionnement du serveur BACnet
+
+### Les trois modes de mise à jour
+
+Lorsque vous modifiez la configuration (ajout d'un objet, changement de valeur…), le plugin peut mettre à jour le serveur BACnet de trois façons différentes. Comprendre ces modes permet d'éviter les interruptions inutiles.
+
+#### Mise à jour à chaud (Hot Update)
+
+**Aucune coupure réseau.** Le daemon BACnet reste actif et met à jour ses objets en mémoire via la socket TCP interne. C'est le mode utilisé par défaut pour toutes les opérations courantes :
+
+| Action | Déclencheur |
+|--------|-------------|
+| Bouton **"Sauvegarder et Appliquer"** dans le mapping | Met à jour les objets immédiatement |
+| Upload JSON en mode "à chaud" | Applique la nouvelle configuration sans interruption |
+| Synchronisation automatique (cron) | Rafraîchit les `presentValue` de tous les objets liés |
+| Changement de valeur d'une commande Jeedom | Propagé instantanément vers le serveur BACnet |
+
+> **Attention :** la mise à jour à chaud est **additive**. Si vous supprimez un objet du mapping, il reste présent en mémoire dans le daemon jusqu'au prochain redémarrage complet. Pour forcer la suppression d'un objet sans redémarrer, utilisez **"Sauvegarder et Appliquer"** (qui effectue un reset complet de la liste des objets).
+
+#### Reset complet (sans redémarrage)
+
+Le serveur efface tous ses objets puis recharge la nouvelle configuration, toujours sans couper le daemon. Ce mode est utilisé automatiquement par **"Sauvegarder et Appliquer"** pour garantir la cohérence de la liste d'objets.
+
+#### Redémarrage complet
+
+**Coupure BACnet de ~2–10 secondes.** Le daemon s'arrête puis redémarre. Nécessaire uniquement lors d'une modification des paramètres serveur (Device ID, port BACnet, interface réseau…) ou via le bouton **"Redémarrer"** dans la page de supervision.
+
+L'upload JSON en mode **"avec redémarrage"** déclenche également ce mode — une confirmation est demandée avant de procéder.
+
+---
+
 ## Exemples d'utilisation
 
 ### Exemple 1 : Exposer une température en lecture seule (mode serveur)
