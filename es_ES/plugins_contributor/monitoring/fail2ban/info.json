@@ -11,14 +11,14 @@
 	},
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.4",
+	"require": "4.5",
 	"os": {
 		"min": 11
 	},
 	"category": "monitoring",
-	"hasDependency": false,
+	"hasDependency": true,
 	"hasOwnDeamon": false,
-	"maxDependancyInstallTime": 0,
+	"maxDependancyInstallTime": 10,
 	"link": {
 		"forum": "https://community.jeedom.com/tag/plugin-fail2ban",
 		"video": ""

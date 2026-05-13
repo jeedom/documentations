@@ -12,7 +12,7 @@
 	"utilization": "Il est nécessaire d'avoir une passerelle internet et un régulateur Vaillant compatibles avec le système myVaillant.",
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.4",
+	"require": "4.5",
 	"os": {
 		"min": 11
 	},
