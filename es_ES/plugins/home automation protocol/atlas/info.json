@@ -1,46 +1,38 @@
 {
-    "id": "atlas",
-    "name": "Atlas",
-    "description": {
-        "fr_FR": "Plugin spécialisé pour la box Jeedom Atlas.",
-        "en_US": "Specialized plugin for the Jeedom Atlas box",
-        "es_ES": "Complemento especializado para la caja Jeedom Atlas",
-        "de_DE": "Spezialisiertes Plugin für die Jeedom Atlas Box",
-        "ru_RU": "Plugin spécialisé pour la box Jeedom Atlas",
-        "id_ID": "Plugin spécialisé pour la box Jeedom Atlas",
-        "it_IT": "Plugin spécialisé pour la box Jeedom Atlas",
-        "ja_JP": "Plugin spécialisé pour la box Jeedom Atlas",
-        "pt_PT": "Plugin especializado para a caixa Jeedom Atlas",
-        "tr": "Plugin spécialisé pour la box Jeedom Atlas"
-    },
-    "licence": "AGPL",
-    "author": "Jeedom SAS",
-    "require": "4.1",
-    "category": "home automation protocol",
-    "hasDependency": true,
-    "hasOwnDeamon": false,
-    "maxDependancyInstallTime": 600,
-    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home%20automation%20protocol\/atlas\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home%20automation%20protocol\/atlas\/",
-    "link": {
-        "forum": "https:\/\/community.jeedom.com\/c\/materiel-jeedom-hardware\/atlas\/122"
-    },
-    "language": [
-        "fr_FR",
-        "en_US",
-        "es_ES",
-        "de_DE",
-        "ru_RU",
-        "id_ID",
-        "it_IT",
-        "ja_JP",
-        "pt_PT",
-        "tr"
-    ],
-    "compatibility": [
-        "atlas",
-        "v4"
-    ],
-    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home%20automation%20protocol\/atlas\/beta\/changelog",
-    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home%20automation%20protocol\/atlas\/beta"
+	"id": "atlas",
+	"name": "Atlas",
+	"description": {
+		"fr_FR": "Plugin spécialisé pour la box Jeedom Atlas.",
+		"en_US": "Specialized plugin for the Jeedom Atlas box",
+		"es_ES": "Complemento especializado para la caja Jeedom Atlas",
+		"de_DE": "Spezialisiertes Plugin für die Jeedom Atlas Box",
+		"pt_PT": "Plugin especializado para a caixa Jeedom Atlas",
+		"it_IT": "Plugin specializzato per il box Jeedom Atlas."
+	},
+	"licence": "AGPL",
+	"author": "Jeedom SAS",
+	"require": "4.5",
+	"category": "home automation protocol",
+	"hasDependency": true,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 600,
+	"changelog": "https://doc.jeedom.com/#language#/plugins/home%20automation%20protocol/atlas/changelog",
+	"documentation": "https://doc.jeedom.com/#language#/plugins/home%20automation%20protocol/atlas/",
+	"link": {
+		"forum": "https://community.jeedom.com/c/materiel-jeedom-hardware/atlas/122"
+	},
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"atlas",
+		"v4"
+	],
+	"changelog_beta": "https://doc.jeedom.com/#language#/plugins/home%20automation%20protocol/atlas/beta/changelog",
+	"documentation_beta": "https://doc.jeedom.com/#language#/plugins/home%20automation%20protocol/atlas/beta"
 }

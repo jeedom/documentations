@@ -1,10 +1,14 @@
-# Changelog Atlas
+# 
 
-# Changelog plugin Atlas
+# 
 
->**IMPORTANT**
+>****
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
+
+# 
+
+- 
 
 # 03/08/2024
 
@@ -18,12 +22,12 @@
 
 - Dhcp on Wifi Hotspot.
 
-# 06/10/2021
+# 
 
 - Added wifi Hotspot (Beta);
 - Fixed a bug on ETH security.
 
-# 04/10/2021
+# 
 
 - Security for concerns related to ethernet which does not take ip (modification in base 100M/TX).
 

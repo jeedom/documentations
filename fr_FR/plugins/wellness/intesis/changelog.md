@@ -4,11 +4,14 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 11/05/2026
 
-# 24/02/2025
-
-- Fix vérification des dépendances
-
+- Correction d'une fuite mémmoire sous Debian 11
+- Compatibilité Debian 12
+- Correction de bugs mineurs
+- Corretion des traductions
+- Version minimum Jeedom 4.5
+- Version minimum Debian 11
 
 # 09/06/2023
 
