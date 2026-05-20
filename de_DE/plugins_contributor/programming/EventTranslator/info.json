@@ -1,0 +1,17 @@
+{
+    "id": "EventTranslator",
+    "name": "EventTranslator",
+    "description": "Traduit en temps réel les valeurs d'une commande info source vers des actions configurables : mise à jour d'une commande info, déclenchement d'une commande action sur une valeur précise ou d'un scénario. Mode apprentissage automatique (5 min), aucune dépendance, aucun démon. Cas d'usage : adapter un clavier ou une télécommande dont les valeurs ne correspondent pas directement à ce qu'attend votre plugin cible (plugin Alarme, ArmManager…).",
+    "licence": "proprietary",
+    "author": "mickadam29",
+    "require": "4.2",
+    "version": "1.0.0",
+    "category": "programming",
+    "changelog": "https://mickadam29.github.io/EventTranslator/#language#/changelog",
+    "documentation": "https://mickadam29.github.io/EventTranslator/#language#/",
+    "changelog_beta": "https://mickadam29.github.io/EventTranslator/#language#/changelog",
+    "documentation_beta": "https://mickadam29.github.io/EventTranslator/#language#/",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0
+}
