@@ -1,7 +1,7 @@
 {
   "id": "myokotouch",
   "name": "MyOkoTouch",
-  "pluginVersion": "0.0.1-beta",
+  "pluginVersion": "0.0.2-beta",
   "description": {
     "fr_FR": "Plugin permettant de récupérer les informations et de contrôler les chaudières Okofen sous firmware Pelletronic Touch."
   },
@@ -12,10 +12,10 @@
   "hasOwnDeamon": true,
   "hasDependency": false,
   "maxDependancyInstallTime": 0,
-  "changelog": "https://github.com/Darkomage/jeedom-plugin-myokotouch/blob/stable/docs/fr_FR/changelog.md",
-  "changelog_beta": "https://github.com/Darkomage/jeedom-plugin-myokotouch/blob/beta/docs/fr_FR/changelog.md",
-  "documentation": "https://github.com/Darkomage/jeedom-plugin-myokotouch/blob/stable/docs/fr_FR/index.md",
-  "documentation_beta": "https://github.com/Darkomage/jeedom-plugin-myokotouch/blob/beta/docs/fr_FR/index.md",
+  "changelog": "https://darkomage.github.io/jeedom-plugin-myokotouch/stable/#language#/changelog/",
+  "changelog_beta": "https://darkomage.github.io/jeedom-plugin-myokotouch/beta/#language#/changelog/",
+  "documentation": "https://darkomage.github.io/jeedom-plugin-myokotouch/stable/#language#/",
+  "documentation_beta": "https://darkomage.github.io/jeedom-plugin-myokotouch/beta/#language#/",
   "link": {
     "forum": "https://community.jeedom.com/t/plugin-myokotouch/148564"
   },
