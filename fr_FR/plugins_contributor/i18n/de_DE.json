@@ -1431,9 +1431,9 @@
         " Market*": " Markt*"
     },
     "plugins_contributor\/security\/index.md": {
-        "Enregistrement de badges, planning horaire par badge, historique des accès, alarme anti-intrusion multi-lecteurs": "",
-        "Wiegand Access": "",
-        "Gestionnaire de contrôle d'accès par badge RFID et\/ou code PIN": "",
+        "Enregistrement de badges, planning horaire par badge, historique des accès, alarme anti-intrusion multi-lecteurs": "Enregistrement de badges, planning horaire par badge, historique des accès, alarme anti-intrusion multi-lecteurs",
+        "Wiegand Access": "Wiegand Access",
+        "Gestionnaire de contrôle d'accès par badge RFID et\/ou code PIN": "Gestionnaire de contrôle d'accès par badge RFID et\/ou code PIN",
         "Alarme Verisure": "Freizeitalarm",
         "Plugin Verisure pour Jeedom": "Verisure Plugin für Jeedom",
         "Senior Care - Détection d'inactivité": "Senior Care - Inaktivitätserkennung",
@@ -1475,7 +1475,7 @@
         "Changelog Beta": "Änderungsprotokoll Beta",
         "Ne fonctionne qu'avec les versions de Frigate > 0.13.0": "Funktioniert nur mit Frigate-Versionen > 0.13.0",
         "Sans emails intempestifs, Le plugin permet l'acquisition du live(snapshot ou vidéo) soit directement ou via le plugin Caméra sans changer les paramètres de sécurité de votre box": "Ohne unerwünschte E-Mails ermöglicht das Plugin die Live-Aufnahme (Schnappschuss oder Video) entweder direkt oder über das Kamera-Plugin, ohne die Sicherheitseinstellungen Ihrer Box zu ändern",
-        "Compatible avec tout équipement Jeedom disposant d'une commande événement (Zigbee\/PTVO, Z-Wave, WiFi, MQTT, virtuel…": "",
+        "Compatible avec tout équipement Jeedom disposant d'une commande événement (Zigbee\/PTVO, Z-Wave, WiFi, MQTT, virtuel…": "Compatible avec tout équipement Jeedom disposant d'une commande événement (Zigbee\/PTVO, Z-Wave, WiFi, MQTT, virtuel…",
         " OpenALPR.": " OpenALPR.",
         " OpenALPR?": " OpenALPR?",
         "OpenALPR ": "OpenALPR ",
