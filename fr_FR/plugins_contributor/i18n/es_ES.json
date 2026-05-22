@@ -1431,6 +1431,9 @@
         " Market*": " Mercado*"
     },
     "plugins_contributor\/security\/index.md": {
+        "Enregistrement de badges, planning horaire par badge, historique des accès, alarme anti-intrusion multi-lecteurs": "",
+        "Wiegand Access": "",
+        "Gestionnaire de contrôle d'accès par badge RFID et\/ou code PIN": "",
         "Alarme Verisure": "Alarma Verisure",
         "Plugin Verisure pour Jeedom": "Complemento Verisure para Jeedom",
         "Senior Care - Détection d'inactivité": "Senior Care - Detección de inactividad",
@@ -1472,6 +1475,7 @@
         "Changelog Beta": "Registro de cambios Beta",
         "Ne fonctionne qu'avec les versions de Frigate > 0.13.0": "Sólo funciona con versiones de Fragata > 0.13.0",
         "Sans emails intempestifs, Le plugin permet l'acquisition du live(snapshot ou vidéo) soit directement ou via le plugin Caméra sans changer les paramètres de sécurité de votre box": "Sin correos electrónicos no deseados, el complemento permite la adquisición de imágenes en vivo (instantáneas o videos) directamente o mediante el complemento de la cámara sin cambiar la configuración de seguridad de su caja",
+        "Compatible avec tout équipement Jeedom disposant d'une commande événement (Zigbee\/PTVO, Z-Wave, WiFi, MQTT, virtuel…": "",
         " OpenALPR.": " OpenALPR.",
         " OpenALPR?": " OpenALPR?",
         "OpenALPR ": "OpenALPR ",

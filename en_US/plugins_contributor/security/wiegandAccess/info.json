@@ -1,0 +1,28 @@
+{
+  "id": "wiegandAccess",
+  "name": "Wiegand Access",
+  "description": "Gestionnaire de contrôle d'accès par badge RFID et/ou code PIN. Compatible avec tout équipement Jeedom disposant d'une commande événement (Zigbee/PTVO, Z-Wave, WiFi, MQTT, virtuel…).<br/>Enregistrement de badges, planning horaire par badge, historique des accès, alarme anti-intrusion multi-lecteurs.",
+  "licence": "proprietary",
+  "author": "mickadam29",
+  "require": "4.4",
+  "version": "1.3.0",
+  "category": "security",
+  "changelog": "https://mickadam29.github.io/wiegandAccess/#language#/changelog",
+  "documentation": "https://mickadam29.github.io/wiegandAccess/#language#/",
+  "changelog_beta": "https://mickadam29.github.io/wiegandAccess/#language#/changelog",
+  "documentation_beta": "https://mickadam29.github.io/wiegandAccess/#language#/",
+  "hasDependency": false,
+  "hasOwnDeamon": false,
+  "maxDependancyInstallTime": 0,
+  "compatibility": [
+    "miniplus",
+    "smart",
+    "atlas",
+    "rpi",
+    "docker",
+    "diy",
+    "v4",
+    "mobile",
+    "luna"
+  ]
+}
