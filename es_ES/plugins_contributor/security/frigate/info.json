@@ -23,6 +23,9 @@
 	"hasDependency": false,
 	"hasOwnDeamon": true,
 	"maxDependancyInstallTime": 0,
+ "whiteListFolders": [
+        "data"
+    ],
 	"changelog_beta": "https://sagitaz.github.io/plugin-frigate/#language#/changelog",
 	"changelog": "https://sagitaz.github.io/plugin-frigate/#language#/changelog",
 	"documentation_beta": "https://sagitaz.github.io/plugin-frigate/#language#",
