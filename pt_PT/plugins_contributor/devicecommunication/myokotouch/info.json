@@ -1,7 +1,7 @@
 {
   "id": "myokotouch",
   "name": "MyOkoTouch",
-  "pluginVersion": "0.0.2-beta",
+  "pluginVersion": "1.0.0",
   "description": {
     "fr_FR": "Plugin permettant de récupérer les informations et de contrôler les chaudières Okofen sous firmware Pelletronic Touch."
   },
