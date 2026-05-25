@@ -38,7 +38,7 @@ En complément de la documentation, vous avez également accès [au salon des d�
 
 ## Contribuer au core Jeedom
 
-Les contributions au core Jeedom, doivent être soumises sur [la branche `develop`](https://github.com/jeedom/core/tree/develop){:target="_blank"} dans la grande majorité des cas sauf si une branche dédiée à la fonctionnalité concernée existe déjà auquel cas il faut soumettre sa PR sur la branche concernée.
+Les contributions au core Jeedom doivent être soumises sur [la branche `develop`](https://github.com/jeedom/core/tree/develop){:target="_blank"} dans la grande majorité des cas, sauf si une branche dédiée à la fonctionnalité existe déjà. En cas de doute, nous vous recommandons d'ouvrir une issue afin que les mainteneurs puissent vous orienter vers la bonne branche, voire en créer une si nécessaire.
 
 >**IMPORTANT**
 >
