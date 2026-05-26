@@ -2912,7 +2912,7 @@
     "plugins\/energy\/index.md": {
         "Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie": "In each case the icons are customizable as well as the names and we have the power and the energy",
         "Plugin pour afficher les données du module IP Wiser": "Plugin to display data from the Wiser IP module",
-        "Le plugin en version stable offre une pleine compatibilité avec les serveurs Wes de firmware inférieur à V0.84A10 et la version beta avec les firmwares supérieurs ou égaux à V0.84A10": "The plugin in stable version offers full compatibility with Wes servers with firmware lower than V0.84A10 and the beta version with firmware higher or equal to V0.84A10",
+        "Firmware V0.84A10 minimum": "Firmware V0.84A10 minimum",
         "Wes Control": "Wes Control",
         "Prenez le contrôle de votre serveur d'énergie Cartelectronic Wes depuis Jeedom et vous serez en mesure d'en décupler les fonctionnalités": "Take control of your Cartelectronic Wes energy server from Jeedom and you will be able to increase its functionality tenfold",
         "Téléinfo PME-PMI": "Teleinfo SME-SMI",
