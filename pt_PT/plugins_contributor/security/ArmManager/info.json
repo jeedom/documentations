@@ -1,0 +1,28 @@
+{
+    "id": "ArmManager",
+    "name": "ArmManager",
+    "description": "S'interfacer avec le plugin Alarme Jeedom depuis vos claviers et télécommandes Zigbee conformes au standard IAS ACE (cluster 0x0501 via Zigbee2MQTT).<br/>7 événements configurables (arm_all_zones, arm_day_zones, arm_night_zones, disarm, panic, emergency, tamper), chacun relié à une commande ou un scénario Jeedom. Découverte automatique des équipements Z2M, indicateur de compatibilité temps réel. Aucun démon, aucune dépendance.",
+    "licence": "proprietary",
+    "author": "mickadam29",
+    "require": "4.4",
+    "version": "1.0.2",
+    "category": "security",
+    "changelog": "https://mickadam29.github.io/ArmManager/#language#/changelog",
+    "documentation": "https://mickadam29.github.io/ArmManager/#language#/",
+    "changelog_beta": "https://mickadam29.github.io/ArmManager/#language#/changelog",
+    "documentation_beta": "https://mickadam29.github.io/ArmManager/#language#/",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "atlas",
+        "rpi",
+        "docker",
+        "diy",
+        "v4",
+        "mobile",
+        "luna"
+    ]
+}
