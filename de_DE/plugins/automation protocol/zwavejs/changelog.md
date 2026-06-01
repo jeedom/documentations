@@ -4,6 +4,15 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 
+
+- Zur Version wechseln *11.15.1* de ZwaveJsUI (stable)
+
+# 31/03/2026
+
+- Zur Version wechseln *11.12.0* de ZwaveJsUI (stable)
+- Zur Version wechseln *11.15.1* de ZwaveJsUI (beta)
+
 # 16/03/2026
 
 - Configuration automatique du plugin sur les boxes officielles *(Jeedom 4.5.3 mini)*
