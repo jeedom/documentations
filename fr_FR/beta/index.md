@@ -20,8 +20,12 @@ Jeedom est un logiciel open-source dont le développement peut être suivi en te
 ### Branches principales
 
 -  **develop** : Version en cours de développement incluant des modifications régulières *(intégration continue)*.
--  **release** : Prochaine version déployée quelques jours avant passage en stable.
+-  **release** : Prochaine version déployée quelques jours avant passage en stable pour être testée en conditions réelles et corrigée rapidement si nécessaire.
 -  **master** : Version stable de Jeedom *(branche par défaut incluant le support officiel)*.
+
+>**INFORMATION**
+>
+>Bien qu'il y ait plus d'une centaine de bêta-testeurs enregistrés sur le forum, nous n'avons que peu de retours concernant les développements en cours *(branche `develop`)*. Que ce soit par manque de temps ou de doutes sur ses connaissances techniques, ceux qui souhaitent néanmoins participer aux évolutions de Jeedom peuvent tester la branche `release` *(déjà stabilisée en grande partie)* avant qu'elle soit mise à disposition en stable à tous les utilisateurs.
 
 ### Branches annexes
 
