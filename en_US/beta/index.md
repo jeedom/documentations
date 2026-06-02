@@ -1,77 +1,123 @@
 
-## Jeedom beta and alpha test
+# Bêta-test de Jeedom
 
-### Definition
+Un bêta‑testeur est un utilisateur qui teste les versions du logiciel avant qu'elles soient diffusées à l'ensemble des utilisateurs. Le bêta-testing permet de remonter des erreurs qui pourraient apparaitre lors de la phase de développement *(bug fonctionnel ou souci d'interface par exemple)*. C'est une importante source d'amélioration pour le projet, qui permet d'apporter des idées fraîches et de tester les nouveautés en conditions réelles.
 
-A Beta Tester is a user who tests versions of the software before they are released to all users. Beta testing makes it possible to report errors (functional bug or user interface concerns for example) during the development phase. It is therefore an important source of improvement for the project, which can bring fresh ideas and test the novelties in real conditions. 
+## Mises en garde
 
-### Precautions
+Bien que les développeurs prennent un maximum de précautions, les versions en cours de développement sont susceptibles d'inclure des bugs pouvant rendre un plugin ou le core totalement inopérants. De la même manière, les fonctionnalités en cours de développement peuvent être reportées, voire abandonnées en fonction des circonstances. Il faut donc être plutôt à l'aise avec les procédures de sauvegarde/restauration de Jeedom avant de se lancer dans le bêta-testing.
 
-The versions **Beta** and **Alpha** Core or plugins are development versions. Even if the developers of course take precautions, these versions may include bugs that could make a plugin or the Core completely inoperative. You must therefore be familiar with backup and recovery procedures, etc.
+Comme indiqué ci-dessus, le fait de basculer Jeedom ou un plugin sur une version en cours de développement comporte des risques. Par conséquent, **il est fortement recommandé de le faire sur une installation de test prévue à cet effet *([une machine virtuelle](../installation/vm) par exemple)* plutôt que sur un Jeedom en production**.
 
-Core development is done on [Github](https://github.com/jeedom/core) on the version **Alpha**. It therefore has all the future novelties, but also the most bugs. In addition, developments made on this version are likely to be canceled or postponed. The version **Alpha** then goes back to **Beta**, who is usually *Featured fixed* and therefore consists in ensuring its stability, while allowing plugin developers to test their future versions.
+>**Important**
+>
+>L'équipe Jeedom ne peut être tenue responsable de tout dysfonctionnement survenant suite à l'installation d'une version autre que stable. Dans ce cas **l'accès au support officiel est impossible**, il faut donc [faire une remontée](#Faire%20une%20remontée).
 
-> **Important**
-> Switching a plugin or Core to beta (or alpha) is risky and prohibits all access to official support from the Jeedom team. The developers are however present on [Community](https://community.jeedom.com/) to help in case of problem, without guarantee however.
+## Branches
 
-> **Important**
-> It is strongly recommended not to install a beta or alpha on a production Jeedom ! It is essential to test on a Raspberry or a test VM and the Jeedom team cannot be held responsible for any malfunction.
+Jeedom est un logiciel open-source dont le développement peut être suivi en temps réel sur [Github](https://github.com/jeedom/core){:target="_blank"}. Chaque branche correspondant à différents niveaux d'avancement dans son développement.
 
-### Comment
+### Branches principales
 
-Jeedom's Core is Open-Source. Anyone can decide to switch their Jeedom from a Stable version to a Beta or Alpha version, with all the necessary precautions mentioned above.
+-  **develop** : Version en cours de développement incluant des modifications régulières *(intégration continue)*.
+-  **release** : Prochaine version déployée quelques jours avant passage en stable pour être testée en conditions réelles et corrigée rapidement si nécessaire.
+-  **master** : Version stable de Jeedom *(branche par défaut incluant le support officiel)*.
 
-The Core has three main branches on [Github](https://github.com/jeedom/core):
+>**INFORMATION**
+>
+>Bien qu'il y ait plus d'une centaine de bêta-testeurs enregistrés sur le forum, nous n'avons que peu de retours concernant les développements en cours *(branche `develop`)*. Que ce soit par manque de temps ou de doutes sur ses connaissances techniques, ceux qui souhaitent néanmoins participer aux évolutions de Jeedom peuvent tester la branche `release` *(déjà stabilisée en grande partie)* avant qu'elle soit mise à disposition en stable à tous les utilisateurs.
 
--  **Alpha** : Branch of version V4 alpha. Mainly intended for developers for the following version of Jeedom.
--  **Beta** : Branch of version V4 beta. Mainly intended for beta testers, to test before switching to Stable.
--  **master** : Stable branch of V4.
+### Branches annexes
 
-> **Warning**
-> Once again, this manipulation should be reserved for advanced users with full knowledge of the facts.
+Les branches annexes correspondent à des développements indépendants et ponctuels, voués à être intégrés à une branche principale.
 
-> **Warning**
-> The *downgrade* version is completely discouraged and may render Jeedom completely inoperative. For example, *downgrade* from Beta v4.2 to Stable v4.1 must not be done ! In this case, the best solution is to wait for the future Stable version of the current Beta, then put the Jeedom configuration back in the Stable version, and do a manual update. Likewise, a backup of a later version must not be restored to an earlier version (for example backup 4.2 on Core 4.1).
+-  **feat/xxxxx-yyyyy** : Nouvelle fonctionnalité testable avant son déploiement dans `develop`.
+-  **fix/xxxxx-yyyyy** :  Correctif non urgent testable quelques jours avant son déploiement dans `develop`.
+-  **hotfix/xxxxx-yyyyy** : Correctif urgent rapidement déployé dans `master` & `develop`.
 
-To change the version, go to *Settings → System → Configuration*, tab *Updates / Market*. Leave Update Source at **Fault** and choose the version you want.
+>**INFORMATION**
+>
+>`xxxxx-yyyyy` correspond au sujet court de la fonctionnalité ou du correctif en question.
 
-Then save then go to *Settings → System → Update Center*. Here launch an update of the Core.
+### Changer de version
 
-### Feedbacks
+A la lecture des [Mises en garde](#Mises%20en%20garde) exposées précédemment, il est évident que **cette manipulation est à réserver aux utilisateurs avancés en toute connaissance de cause**.
 
-The goal of a beta tester is to report the concerns encountered during his tests.
-These lifts are made on **[Community](https://community.jeedom.com/)** in the section **[beta testers](https://community.jeedom.com/c/salon-des-beta-testeurs/6)**
+Pour changer de branche, et donc de version Jeedom, rendez-vous dans le menu **Settings → System → Configuration**, tab **Updates / Market**. Laissez la source de mise à jour sur **Fault** et sélectionnez la version du core *(branche)* que vous souhaitez installer.
 
-It is also on this section that a tester can create a subject to propose an improvement.
+Ensuite, cliquez sur le bouton **Sauvegarder** puis dirigez-vous vers le menu **Settings → System → Update Center**. Depuis cette page il ne reste qu'à effectuer une mise à jour du core pour basculer sur la nouvelle version.
 
-> Each topic on this section must be identified with the tag of the version under development. For example : tag v4_4 (an underscore is used because periods are prohibited in tags on Discourse.
+>**Important**
+>
+>En cas de changement de numérotation du core, il est vivement déconseillé de revenir sur une version inférieure *(downgrade)*. Il est plutôt recommandé d'attendre que les modifications arrivent en version stable pour rebasculer dessus.\
+>Concernant les branches annexes, une fois la fonctionnalité ou le correctif testés, il faut revenir sur la version à la base *(`develop` dans la majorité des cas)*.
 
-This section is not publicly accessible. To access it, you must fill out a form so that the Jeedom team can give [access to your account](https://blog.jeedom.com/jeedom-partenaire-beta-testeur/).
+## Mises à jour
 
-> Before escalating a problem, update the Core and try to reproduce again. See below.
+En `master` *(stable)* ou `release`, chaque nouvelle version entraine un changement de numérotation *(x.y.z)*. Si la case **Automatic check for updates** est cochée, alors un message de notification sera émis dans Jeedom accompagné d'une pastille rouge dans la barre de menu. Sinon il faut se rendre dans le menu **Settings → System → Update Center** puis cliquer sur le bouton **Check for updates**.
 
-### Management of Core updates
+À l'inverse, les autres branches n'engendrent pas de notification ni d'alerte dans le centre de mises à jour malgré des modifications régulières. Il revient donc au bêta‑testeur de mettre le core à jour manuellement et régulièrement. Avant chaque phase de tests notamment, et surtout, avant d'effectuer toute remontée afin de s'assurer que le problème n'a pas déjà été corrigé.
 
-In version **Stable**, each change causes a change of version (minor, for example 4.1.xx) which, if you checked **Automatic check for updates**, will cause a message and the appearance of the red dot in the menu bar. These updates are also displayed in *Settings → System → Update Center* by clicking manually on *Check for updates*.
+## Changelog
 
-In version **Beta** and **Alpha**, changes are much more frequent (several times a day) and do not cause a version change. They will therefore not appear in the *Update Center*, it is up to the tester to regularly update the Core, preferably before any test phase and before reporting a problem in order to ensure that it has not already been corrected earlier.
+The **journal des modifications** *(ou changelog)* offre un aperçu des changements apportés par chaque version de Jeedom.
 
-> The team sometimes changes version during development, to mark certain phases. But unlike the Stable version, many changes are made between two versions. Each tester can follow commits on branches [Github](https://github.com/jeedom/core).
+Seules les versions [`master` *(stable)*](../core/#VERSION#/changelog){:target="_blank"} et [`release`](https://github.com/jeedom/core/blob/release/docs/#LANG#/changelog.md){:target="_blank"} garantissent la présence d'un changelog détaillé et à jour.
 
-### Changelog
+En `develop`, les intégrations étant continues, le journal des modifications n'est pas encore généré à cette étape. Pour prendre connaissance des changements apportés depuis la dernière version stable, il faut se référer aux [notes de version](https://github.com/jeedom/core/blob/develop/docs/release-notes.md){:target="_blank"} qui listent les *Pull Requests* validées sur cette branche.
 
-From the start of version development **Alpha**, the team tries to keep the future up to date [Changelog](/en_US/core/4.5/changelog). New features may change significantly or be deleted or postponed, so this is not necessarily up to date and has no reference value.
+Les branches annexes faisant quant à elles référence à un élément précis, elles ne nécessitent à première vue pas de détails pour être appréhendées.
 
-In version **Stable**, the changelog takes over each minor version (4.1.26 -> 4.1.27 etc). In version **Beta** and **Alpha** the changelog is numbered x.0.0 and therefore does not necessarily correspond to the current minor version. For example, during the development of v4.2, the changelog is only noted 4.2.0 while a beta can be in 4.2.7. When switching to **Stable**, the changelog will then take into account each future minor version.
+## Plugins
 
-### Ressouces
+La présente page s'attarde principalement sur les bêta-tests autour du core Jeedom mais le principe reste sensiblement le même pour les plugins. En effet, les plugins sont mis à disposition en version stable *(branche `master`)* par défaut mais ils disposent également de versions `beta` pour les développements en cours.
 
- [Community Access](https://blog.jeedom.com/jeedom-partenaire-beta-testeur/)
- 
-Community [beta testers](https://community.jeedom.com/c/salon-des-beta-testeurs/6)
+Pour accéder aux plugins en version `beta`, il est nécessaire de cocher la case **Activer l'accès aux plugins bêta** dans [votre profil Market](https://market.jeedom.com/index.php?v=d&p=profils){:target="_blank"}. Il suffit ensuite d'installer ou de réinstaller le plugin dans cette version.
 
-[Doc contribute](/en_US/contribute/)
+>**Important**
+>
+>L'installation d'un plugin en version `beta` fait perdre tout accès au support officiel.
 
-[Doc Developers](/en_US/dev/)
+## Faire une remontée
 
-[Github](https://github.com/jeedom/core)
+Les bêta‑testeurs sont en première ligne pour identifier un dysfonctionnement, tester une nouvelle fonctionnalité ou valider une correction avant publication en stable.
+
+Après avoir clairement analysé la situation, plusieurs canaux sont disponibles pour effectuer des remontées les plus détaillées possibles avec tout le contexte nécessaire. Quel que soit le canal choisi, la première étape indispensable consiste à effectuer une recherche afin de s'assurer que le sujet n'est pas déjà abordé pour ne pas créer de doublons.
+
+>**Important**
+>
+>Il est crucial de comprendre un minimum le sujet par soi-même sans se reposer intégralement sur l'analyse d'une intelligence artificielle. Celle-ci peut toutefois rester utile pour la mise en forme de la remontée ou pour ajouter du complément *(vérifié)*.
+
+### Forum Jeedom
+
+Les remontées peuvent être formulées directement dans [le salon des bêta‑testeurs du forum Jeedom](https://community.jeedom.com/c/salon-des-beta-testeurs/6){:target="_blank"}.
+
+Choisissez la section adaptée à la catégorie de la remontée puis ajoutez les étiquettes *(tags)* en lien avec le sujet *(`v4_5` par exemple)*. Il ne reste plus qu'à rédiger votre retour en incluant le maximum d'informations afin que toute personne extérieure soit en mesure de comprendre, de reproduire et d'analyser la situation.
+
+>**INFORMATION**
+>
+>Le salon des bêta‑testeurs intègre également [une section **Suggestions**](https://community.jeedom.com/c/salon-des-beta-testeurs/suggestion/29){:target="_blank"} pour proposer des améliorations.
+
+### Issue GitHub
+
+Si, après recherche, une *issue* ou une *pull request* est déjà ouverte sur le même sujet alors vous pouvez y ajouter votre analyse à condition qu'elle apporte des éléments pertinents dans le cadre du développement concerné.
+
+Sinon, vous pouvez ouvrir [une *issue* sur GitHub](https://github.com/jeedom/core/issues){:target="_blank"} détaillant de manière exhaustive le dysfonctionnement rencontré.
+
+>**INFORMATION**
+>
+>L'anglais est la norme sur GitHub pour que tout un chacun soit en mesure de comprendre le sujet mais nous acceptons les textes rédigés en français.
+
+## Contribuer au développement
+
+Que ce soit pour corriger une simple faute d'orthographe ou de syntaxe, ou même pour proposer un changement plus important, tout le monde peut participer au développement et à l'évolution de la solution Jeedom à son niveau.
+
+### Documentation
+
+Les pages de documentation que vous consultez actuellement nécessitent des mises à jour et des adaptations régulières pour rester valables et fiables. L'assistance de la communauté est grandement appréciée à ce niveau.
+
+Quelques spécificités sont à prendre en compte avant de proposer des changements sur la documentation. Il est donc indispensable de prendre connaissance des bonnes pratiques pour [contribuer à la documentation](../contribute/doc) en premier lieu.
+
+### Core et Plugins
+
+A l'instar de la documentation, le core Jeedom ainsi que la plupart des plugins sont également ouverts aux contributions externes. Référez-vous à la page ["Contribuer au core ou aux plugins"](../contribute/core) pour en savoir plus.

@@ -1,27 +1,27 @@
+# 
+
+[](https://market.jeedom.com/index.php?v=d&p=becomeDeveloper){: [](https://community.jeedom.com/c/developpeur-developpeurs/5){: [](https://market.jeedom.com){:"}.
+
 ## 
 
- [](https://blog.jeedom.com/jeedom-partenaire/)  [](https://community.jeedom.com/)  [](https://market.jeedom.com).
+- [](tutorial_plugin)
 
-### 
+- [](Icone_de_plugin)
+- [](structure_info_json)
+- [](documentation_plugin)
+- [](publication_plugin)
+- [](widget_plugin)
+- [](plugin_template)
+- [](daemon_plugin)
+- [](cmd_value)
+- [](transfert)
 
-- [](/de_DE/dev/tutorial_plugin)
+- [.](corejs/)
 
-- [](/de_DE/dev/Icone_de_plugin)
-- [](/de_DE/dev/structure_info_json)
-- [](/de_DE/dev/documentation_plugin)
-- [](/de_DE/dev/publication_plugin)
-- [](/de_DE/dev/widget_plugin)
-- [](/de_DE/dev/plugin_template)
-- [](/de_DE/dev/daemon_plugin)
-- [](/de_DE/dev/cmd_value)
-- [](/de_DE/dev/transfert)
+## 
 
-- [.](/de_DE/dev/corejs/index)
-
-### 
-
-- [](/de_DE/dev/core4.4)
-- [](/de_DE/dev/core4.3)
-- [](/de_DE/dev/core4.2)
-- [](/de_DE/dev/core4.1)
-- [](/de_DE/dev/core4.0)
+- [](core4.4)
+- [](core4.3)
+- [](core4.2)
+- [](core4.1)
+- [](core4.0)

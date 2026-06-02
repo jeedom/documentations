@@ -1,76 +1,66 @@
 # Contribuir a la documentación
 
-La documentación de Jeedom está centralizada en este sitio, mediante varios mecanismos. Al igual que Jeedom's Core, se puede acceder a la documentación en Github y es de código abierto (licencia MIT).
+La documentation Jeedom est centralisée sur ce site à travers plusieurs mécanismes. Comme le core de Jeedom, [la documentation est consultable sur GitHub](https://github.com/jeedom/documentations){:target="_blank"} et est Open-Source *(licence MIT)*.
 
-Para participar en la documentación, debe tener una cuenta [Github](https://github.com/).
+Celle-ci se découpe en trois grandes catégories :
+- [Documentación general](#Documentation%20générale)
+- [La documentation du core Jeedom](#Documentation%20du%20core%20Jeedom)
+- [Documentación de complementos](#Documentation%20des%20plugins)
 
-Por supuesto, siempre puede hacer un mensaje en el [Foro](https://community.jeedom.com/), poniendo la etiqueta documentation-jeedom en su mensaje.
+>**INFORMATION**
+>
+>Si vous souhaitez revoir un grand nombre de fichiers, il est préférable de le faire par étape *(par rubrique par exemple)* plutôt que soumettre de nombreuses modifications en une seule fois.
 
-Esto se diferencia en tres categorías :
+## Prérequis
 
-## Documentación general
+Pour contribuer à la documentation, quelques prérequis sont à connaître et à prendre en compte :
+- Tout d'abord, il faut disposer d'[un compte utilisateur sur GitHub](https://github.com/){:target="_blank"},
+- Savoir faire [une *Pull Request* sur GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request){:target="_blank"},
+- Connaître [le langage `Markdown`](https://fr.wikipedia.org/wiki/Markdown){:target="_blank"} utilisé pour la mise en forme du texte,
+- Les traductions étant générées depuis le français, les contributions doivent impérativement être soumises en français *(dossier `fr_FR`)*,
+- Enfin, les traductions étant générées automatiquement, aucune modification ne doit être apportée aux fichiers `i18n/*.json`.
 
-Las páginas de documentación general son aquellas que no provienen directamente del Core.
+>**INFORMATION**
+>
+>Si vous n'êtes pas à l'aise à l'idée d'intervenir directement sur les fichiers de documentation, vous pouvez également contribuer en créant un sujet sur [le forum](https://community.jeedom.com/){:target="_blank"} avec l'étiquette `documentation-jeedom`.
 
-Por ejemplo :
+## Documentation générale
 
-- [Presentación](https://doc.jeedom.com/es_ES/presentation/)
-- [Conceptos](https://doc.jeedom.com/es_ES/concept/)
-- [Contribuir a la documentación](https://doc.jeedom.com/es_ES/contribute/doc)
+Les pages de documentation générale concernent toutes les pages, hormis celles relatives aux **Manuels** *(core Jeedom)* et aux **Plugins**. Les fichiers sont accessibles sur [le dépôt de la documentation](https://github.com/jeedom/documentations/tree/master/fr_FR){:target="_blank"}. L'adresse du site de documentation correspondant à un fichier `Markdown` *(\*.md)* sur GitHub, par exemple :
 
-Estas páginas están disponibles en [presentación de documentación](https://github.com/jeedom/documentations/tree/master/fr_FR)
+- **Compatibilité** (https://doc.jeedom.com/#LANG#/compatibility/) → https://github.com/jeedom/documentations/blob/master/es_ES/compatibility/index.md
+- **Installation sur Raspberry Pi** (https://doc.jeedom.com/#LANG#/installation/rpi) → https://github.com/jeedom/documentations/blob/master/es_ES/installation/rpi.md
+- **Développement de plugin** (https://doc.jeedom.com/#LANG#/dev) → https://github.com/jeedom/documentations/blob/master/es_ES/dev/index.md
 
-Siguiendo la URL en el sitio de documentación, puede encontrar el archivo md correspondiente. Ejemplos :
+>**IMPORTANT**
+>
+>Les documentations du core et des plugins étant gérées à part, aucune contribution ne pourra être acceptée dans les dossiers `core`, `plugins` et `plugins_contributor` *(voir paragraphes suivants)*.
 
-- Presentación -> https://github.com/jeedom/documentations/blob/master/es_ES/presentation/index.md
-- Conceptos -> https://github.com/jeedom/documentations/blob/master/es_ES/concept/index.md
-- Contribuir a la documentación -> https://github.com/jeedom/documentations/blob/master/es_ES/contribute/doc.md
+## Documentation du core Jeedom
 
-Entonces puedes hacer relaciones públicas (*Solicitudes de extracción*) en estos archivos `.md`.
+La documentation du core Jeedom correspond aux rubriques **Manual del usuario** et **Manual de configuración**, accessibles en cliquant sur le bouton "❔" en haut à droite sur l'interface Jeedom. Les fichiers se situent sur [le dépôt du core](https://github.com/jeedom/core/tree/develop/docs/fr_FR){:target="_blank"}, dans le répertoire `docs/fr_FR`.
 
-Puede ver en este directorio, los directorios principales, complementos, etc. Estos se administran automáticamente, por lo que no es necesario hacer relaciones públicas aquí (leer más).
+Chaque page de manuel correspond à un fichier `Markdown` *(\*.md)* sur GitHub, par exemple :
+- **Manuel d'utilisation - Changelog** (https://doc.jeedom.com/#LANG#/core/#VERSION#/changelog) → https://github.com/jeedom/core/tree/develop/docs/es_ES/changelog.md
+- **Manuel d'utilisation - Scénarios** (https://doc.jeedom.com/#LANG#/core/#VERSION#/scenario) → https://github.com/jeedom/core/tree/develop/docs/es_ES/scenario.md
+- **Manuel de configuration - Personnalisation Avancée** (https://doc.jeedom.com/#LANG#/core/#VERSION#/custom) → https://github.com/jeedom/core/tree/develop/docs/es_ES/custom.md
 
+>**IMPORTANT**
+>
+>Les contributions doivent être soumises sur la branche `develop` du core.
 
-## Documentación de Jeedom Core
+## Documentation des plugins
 
-La documentación del Core está en el repositorio del Core, en el directorio doc : [https://github.com/jeedom/core/tree/alpha/docs/fr_FR](https://github.com/jeedom/core/tree/alpha/docs/fr_FR)
+La documentation des plugins correspond aux rubriques **Complementos oficiales** et **Plugins Tiers**. Comme leur nom l'indique, les plugins officiels sont développés par l'équipe Jeedom, les plugins tiers étant le travail de développeurs externes et indépendants.
 
-Para cada página de Jeedom, hay un archivo de página.md correspondiente.
+Comme le core Jeedom, la documentation de chaque plugin est récupérée depuis son dépôt GitHub. Prenons **le plugin ZwaveJS** Por ejemplo :
+- **Changelog** (https://doc.jeedom.com/#LANG#/plugins/automation%20protocol/zwavejs/beta/changelog) → https://github.com/jeedom/plugin-zwavejs/blob/beta/docs/es_ES/changelog.md
+- **Documentation** (https://doc.jeedom.com/#LANG#/plugins/automation%20protocol/zwavejs/beta/) → https://github.com/jeedom/plugin-zwavejs/blob/beta/docs/es_ES/index.md
 
-Estas son las páginas a las que puede acceder (?) En la parte superior derecha de la interfaz de su Jeedom, y ubicadas en las secciones :
+>**INFORMATION**
+>
+>Certains dépôts de plugins ne sont pas accessibles publiquement. Dans ce cas, vous pouvez toujours contribuer en créant un sujet sur [le forum](https://community.jeedom.com/c/plugins/46){:target="_blank"} avec l'étiquette `documentation-jeedom` et celle du plugin concerné.
 
-- Manual del usuario
-- Manual de configuración
-
-Entonces puedes hacer relaciones públicas (*Solicitudes de extracción*) en archivos .md, preferiblemente en la rama alfa.
-
-
-## Documentación de complementos
-
-Siguiendo el mismo principio que la documentación principal, la de los complementos se recupera automáticamente del repositorio de complementos.
-
-Por ejemplo, para el complemento OpenZWave
-
-- Accès à la doc ici : https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/
-- dépôt du plugin : https://github.com/jeedom/plugin-openzwave/blob/beta/docs/es_ES/index.md
-
-Allí tienes que buscar el repositorio del complemento en cuestión y luego ir a su directorio doc/fr_FR. Al distinguir entre [complementos oficiales](https://github.com/jeedom) complementos de terceros. Además, no se puede acceder a los complementos pagos (oficiales o de terceros), porque en repositorios privados. En este caso, siempre puede hacer un mensaje en el [Foro](https://community.jeedom.com/), con la etiqueta documentation-jeedom o el complemento.
-
-
-## Las traducciones
-
-Las traducciones están presentes en los archivos de otros idiomas. El directorio `docs / i18n /` contiene archivos .json por idioma para la traducción de las cadenas de caracteres de la propia interfaz Core.
-
-Estos son generados automáticamente por un sistema de traducción específico de Jeedom. Por lo tanto, no es necesario modificarlo, ya que el sistema lo sobrescribirá. Si desea mejorar las traducciones, puede informarlo en [Comunidad](https://community.jeedom.com/). Si domina uno de los idiomas de Jeedom y desea ir más allá, puede solicitar acceso al sistema de traducción, que le permite corregir todas las traducciones de cada idioma de las diferentes versiones del Core y de los complementos oficiales : [contacta con el equipo del proyecto](mailto:contact@jeedom.com).
-
-En el código puede especificar cadenas para traducir así :
-
-En php : `$ myString = __ ('Mi oración que será traducida', __FILE __);`
-
-En JavaScript : ``{% raw %}var myString = '{{Mi oración que será traducida}}'{% endraw %}``
-
-El sistema de traducción se encargará entonces de su traducción y de su referencia en los archivos json (`docs/i18n/`) y el Core se encargará de su reemplazo en la interfaz.
-
-Si desea vincular a otra página de documentación, puede agregar `/ fr_FR / contrib / doc`. Al traducir, la parte fr_FR se adaptará automáticamente.
-
-
+>**IMPORTANT**
+>
+>Les contributions doivent être soumises sur la branche `beta` des plugins.
