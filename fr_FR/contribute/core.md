@@ -61,15 +61,13 @@ Pour que le système de traduction fonctionne il faut respecter un certain forma
 ```php
 $myString = __('Ma phrase qui sera traduite', __FILE__);
 ```
+
 - En `PHP`, dans le dossier `desktop/php` :
-{% raw %}
 ```php
-$myString = '{{Ma phrase qui sera traduite}}';
+{% raw %}$myString = '{{Ma phrase qui sera traduite}}'{% endraw %};
 ```
-{% endraw %}
+
 - En `JavaScript`:
-{% raw %}
 ```js
-var myString = '{{Ma phrase qui sera traduite}}'
+{% raw %}var myString = '{{Ma phrase qui sera traduite}}'{% endraw %}
 ```
-{% endraw %}
