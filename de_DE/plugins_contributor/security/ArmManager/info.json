@@ -1,7 +1,7 @@
 {
     "id": "ArmManager",
     "name": "ArmManager",
-    "description": "S'interfacer avec le plugin Alarme Jeedom depuis vos claviers et télécommandes Zigbee conformes au standard IAS ACE (cluster 0x0501 via Zigbee2MQTT).<br/>7 événements configurables (arm_all_zones, arm_day_zones, arm_night_zones, disarm, panic, emergency, tamper), chacun relié à une commande ou un scénario Jeedom. Découverte automatique des équipements Z2M, indicateur de compatibilité temps réel. Aucun démon, aucune dépendance.",
+    "description": "Pilotez le plugin Alarme Jeedom depuis vos claviers et télécommandes Zigbee IAS ACE via Zigbee2MQTT : Frient KEPZB, Daewoo WKE502Z, LDESENK09, IKEA SOMRIG et tout appareil IAS ACE (cluster 0x0501).<br/>7 événements configurables (arm, disarm, arm_all_zones, arm_day_zones, arm_night_zones, panic, emergency, tamper), chacun relié à une commande ou un scénario Jeedom. Découverte automatique des équipements Z2M, indicateur de compatibilité temps réel. Aucun démon, aucune dépendance.",
     "licence": "proprietary",
     "author": "mickadam29",
     "require": "4.4",
@@ -22,7 +22,6 @@
         "docker",
         "diy",
         "v4",
-        "mobile",
         "luna"
     ]
 }
