@@ -20,7 +20,7 @@ Les pages de documentation générale Jeedom sont directement accessibles sur ce
 
 ### Documentation du core
 
-La documentation relative au core Jeedom *(manuels d'utilisation et de configuration)* se trouve dans le dossier `docs/fr_FR` du dépôt du core : <https://github.com/jeedom/core/tree/alpha/docs/fr_FR>. La branche `alpha` est à privilégier pour les contributions.
+La documentation relative au core Jeedom *(manuels d'utilisation et de configuration)* se trouve dans le dossier `docs/fr_FR` du dépôt du core : <https://github.com/jeedom/core/tree/develop/docs/fr_FR>. La branche `develop` est à privilégier pour les contributions.
 
 ### Documentation des plugins
 
@@ -32,8 +32,8 @@ Comme pour le core Jeedom, la documentation des plugins officiels est automatiqu
 >
 >A lire impérativement avant toute intervention : [**Comment contribuer au développement du core Jeedom ?**](https://doc.jeedom.com/fr_FR/contribute/core)
 
-Tout comme la documentation, le core Jeedom est open source et ouvert aux contributions. L'intégralité du code est consultable à cette adresse : <https://github.com/jeedom/core/tree/alpha>.
-Sauf indication contraire, **les modifications doivent impérativement être soumises sur la branche `alpha`**.
+Tout comme la documentation, le core Jeedom est open source et ouvert aux contributions. L'intégralité du code est consultable à cette adresse : <https://github.com/jeedom/core/tree/develop>.
+Sauf indication contraire, **les modifications doivent impérativement être soumises sur la branche `develop`**.
 
 ------------
 
@@ -59,7 +59,7 @@ The general Jeedom documentation pages are directly accessible on this repositor
 
 ### Core documentation
 
-Documentation relative to the Jeedom core *(user and configuration manuals)* can be found in the folder `docs/fr_FR` from core repository : <https://github.com/jeedom/core/tree/alpha/docs/fr_FR>. The `alpha` branch is preferred for contributions.
+Documentation relative to the Jeedom core *(user and configuration manuals)* can be found in the folder `docs/fr_FR` from core repository : <https://github.com/jeedom/core/tree/develop/docs/fr_FR>. The `develop` branch is preferred for contributions.
 
 ### Plugins documentation
 
@@ -71,8 +71,8 @@ As with the Jeedom core, officials plugins documentations are automatically gene
 >
 >Must be read before any intervention : [**How to contribute to Jeedom core development ?**](https://doc.jeedom.com/en_US/contribute/core)
 
-Like documentation, the Jeedom core is open source and open to contributions. The complete code can be consulted at this address : <https://github.com/jeedom/core/tree/alpha>.
-Unless otherwise indicated, **modifications must be submitted on the `alpha` branch**.
+Like documentation, the Jeedom core is open source and open to contributions. The complete code can be consulted at this address : <https://github.com/jeedom/core/tree/develop>.
+Unless otherwise indicated, **modifications must be submitted on the `develop` branch**.
 
 ------------
 
