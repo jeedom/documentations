@@ -1,0 +1,16 @@
+{
+  "id": "fliprpilot",
+  "name": "Flipr Pilot",
+  "description": "Pilotage de piscine : sonde Flipr, filtration et pompe à chaleur avec automatisation intelligente.",
+  "licence": "AGPL",
+  "author": "dimit",
+  "require": "4.2",
+  "category": "nature",
+  "changelog": "",
+  "documentation": "",
+  "language": "fr_FR",
+  "compatibility": ["v4"],
+  "hasDependency": false,
+  "hasOwnDeamon": false,
+  "maxDependancyInstallTime": 0
+}
