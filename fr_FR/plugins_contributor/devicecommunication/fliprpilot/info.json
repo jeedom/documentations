@@ -1,0 +1,37 @@
+{
+	"id": "fliprpilot",
+	"name": "Flipr Pilot",
+	"pluginVersion": "0.1",
+	"description": {
+		"fr_FR": "Pilotage de piscine : sonde Flipr, filtration et pompe à chaleur avec automatisation intelligente."
+	},
+	"licence": "AGPL",
+	"author": "Dimitri23",
+	"require": "4.5",
+	"category": "devicecommunication",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "",
+	"documentation": "",
+	"language": [
+		"fr_FR",
+		"en_US",
+		"es_ES",
+		"de_DE",
+		"ru_RU",
+		"id_ID",
+		"it_IT",
+		"ja_JP",
+		"pt_PT"
+	],
+	"compatibility": [
+		"smart",
+		"luna",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile"
+	]
+}
