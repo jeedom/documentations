@@ -1,6 +1,7 @@
 {
 	"id": "switchbot",
 	"name": "Switchbot",
+	"pluginVersion": "2.0.2",
 	"description": {
 		"fr_FR": "Plugin permettant de piloter les équipements switch-bot (Actionneurs , sondes)via l'api officielle",
 		"en_US": "",
