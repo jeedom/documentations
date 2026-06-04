@@ -1,7 +1,7 @@
 {
 	"id": "fliprpilot",
 	"name": "Flipr Pilot",
-	"pluginVersion": "0.1",
+	"pluginVersion": "1.0",
 	"description": {
 		"fr_FR": "Pilotage de piscine : sonde Flipr, filtration et pompe à chaleur avec automatisation intelligente."
 	},
@@ -15,15 +15,7 @@
 	"changelog": "",
 	"documentation": "",
 	"language": [
-		"fr_FR",
-		"en_US",
-		"es_ES",
-		"de_DE",
-		"ru_RU",
-		"id_ID",
-		"it_IT",
-		"ja_JP",
-		"pt_PT"
+		"fr_FR"
 	],
 	"compatibility": [
 		"smart",
