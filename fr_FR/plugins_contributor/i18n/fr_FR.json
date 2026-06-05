@@ -64,6 +64,9 @@
         "Plugin pour gérer des actions séquencées et déclencheurs complexes": "Plugin pour gérer des actions séquencées et déclencheurs complexes",
         "jeezviz": "jeezviz",
         "Plugin de pilotage des caméras et visiophones EZVIZ": "Plugin de pilotage des caméras et visiophones EZVIZ",
+        "Toutefois, la société Flipr ayant été placée en liquidation judiciaire fin 2025, l'auteur ne peut être et n'est en aucun cas responsable si l'API venait à devenir inaccessible": "Toutefois, la société Flipr ayant été placée en liquidation judiciaire fin 2025, l'auteur ne peut être et n'est en aucun cas responsable si l'API venait à devenir inaccessible",
+        "Flipr Pilot": "Flipr Pilot",
+        "Pilotage de piscine": "Pilotage de piscine",
         "Arrosage automatique": "Arrosage automatique",
         "Gestion de Volets": "Gestion de Volets",
         "Ce plugin gère l'ouverture et la fermeture de nos volets": "Ce plugin gère l'ouverture et la fermeture de nos volets",
@@ -84,7 +87,10 @@
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
         "Documentation Beta": "Documentation Beta",
-        "Changelog Beta": "Changelog Beta"
+        "Changelog Beta": "Changelog Beta",
+        "sonde Flipr, filtration et pompe à chaleur avec automatisation intelligente": "sonde Flipr, filtration et pompe à chaleur avec automatisation intelligente",
+        "⚠️ Note importante ⚠️ Ce plugin repose sur l'API Flipr": "⚠️ Note importante ⚠️ Ce plugin repose sur l'API Flipr",
+        "À l'heure de son développement, cette API fonctionne parfaitement": "À l'heure de son développement, cette API fonctionne parfaitement"
     },
     "plugins_contributor\/communication\/index.md": {
         "chat est une plateforme de messagerie collaborative (type slack, HipChat": "chat est une plateforme de messagerie collaborative (type slack, HipChat",
