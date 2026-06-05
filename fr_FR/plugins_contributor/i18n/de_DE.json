@@ -408,7 +408,7 @@
         "requiert PHP 7": "erfordert PHP 7",
         "Le lien mis en place par les plugins entre Jeedom et le serveur Amazon permet de remonter les états des équipements et de leur envoyer des commandes": "Die durch die Plugins hergestellte Verbindung zwischen Jeedom und dem Amazon-Server ermöglicht es, den Zustand der Geräte zu verfolgen und ihnen Befehle zu senden",
         "sonde Flipr, filtration et pompe à chaleur avec automatisation intelligente": "sonde Flipr, filtration et pompe à chaleur avec automatisation intelligente",
-        "Ce plugin repose sur l'API Flipr": "Ce plugin repose sur l'API Flipr",
+        "⚠️ Note importante ⚠️ Ce plugin repose sur l'API Flipr": "",
         "À l'heure de son développement, cette API fonctionne parfaitement": "À l'heure de son développement, cette API fonctionne parfaitement",
         "Les intercations avec l'application mobile officielle restent pleinement fonctionnelles": "Les intercations avec l'application mobile officielle restent pleinement fonctionnelles",
         "com'>iopool<\/a> EcO depuis le Cloud iopool (API": "com'>iopool Eco aus der iopool Cloud (API",
