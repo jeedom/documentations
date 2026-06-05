@@ -12,8 +12,8 @@
 	"hasDependency": false,
 	"hasOwnDeamon": false,
 	"maxDependancyInstallTime": 0,
-	"changelog": "",
-	"documentation": "",
+    "changelog": "https:\/\/dimitri23.github.io\/Documentations\/FliprPilot\/fr_FR\/changelog",
+    "documentation": "https:\/\/dimitri23.github.io\/Documentations\/FliprPilot\/fr_FR\/",
 	"language": [
 		"fr_FR"
 	],
