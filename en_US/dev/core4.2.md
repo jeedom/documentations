@@ -1,4 +1,4 @@
-## .2 | 
+## Core v4.2 | Plugin developers
 
 
 ### Obsolete
@@ -30,16 +30,16 @@
 
 :
 
-php
+```php
  {
     
-
+```
 
 #divGraphInfo# :
 
-html
+```html
 {% raw %}
-<div class="eqLogic eqLogic-widg allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#height: #height##style#">
+<div class="eqLogic eqLogic-widg allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#;height: #height#;#style#">
   <div class="#isVerticalAlign#">
     <center>
       #cmd#
@@ -51,7 +51,7 @@ html
   <script>
 <div>
 {% endraw %}
-
+```
 
 
 #### 
@@ -64,21 +64,21 @@ html
 
   <summary markdown="span">eqLogic deadCmdGeneric()<summary>
 
-  
+  ~~~ php
   {% raw %}
   ) {
-    $return = array()
+    $return = array();
     ::) {
-      $eqLogic_json = json_encode(utils::o2a($eqLogic))
+      $eqLogic_json = json_encode(utils::o2a($eqLogic));
       #([0-9]*)#
       ) {
         )) {
-           (!cmd::))) {
+          if (!cmd::))) {
             $return[] = array(
               '?>',
               '),
               'who' => '#' . $cmd_id . '#'
-            )
+            );
           }
         }
       }
@@ -86,7 +86,7 @@ html
     
   }
   {% endraw %}
-  
+  ~~~
 
   .
 
@@ -111,7 +111,7 @@ html
 
 #####  :
 
-. :
+.php` :
 
 
 
@@ -122,7 +122,7 @@ html
   
   {% raw %}
   <legend><i class="fa fa-table"><i> {{Mes Equipemnts}}<legend>
-  <div class="input-group" style="margin-bottom:5px">
+  <div class="input-group" style="margin-bottom:5px;">
     <input class="form-control roundedLeft" placeholder="{{Rechercher}}" id="in_searchEqlogic">
     <div class="input-group-btn">
       <a id="bt_resetObjectSearch" class="btn" style="width:30px"><i class="fas fa-times"><i>
@@ -130,7 +130,7 @@ html
     <div>
   <div>
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -150,7 +150,7 @@ html
 
 <details>
 
-  <summary markdown="span"> d'event js<summary>
+  <summary markdown="span">Example d'event js<summary>
 
   
   {% raw %}
@@ -162,7 +162,7 @@ html
         $('.eqLogicDisplayCard').addClass('displayAsTable')
         $('.eqLogicDisplayCard .hiddenAsCard').removeClass('hidden')
         $('.eqLogicThumbnailContainer').first().addClass('containerAsTable')
-      }  {
+      } else {
         $(this).data('state', '0').removeClass('active')
         )
         $('.eqLogicDisplayCard').removeClass('displayAsTable')
@@ -172,15 +172,15 @@ html
     })
   })
   {% endraw %}
-  
+  ~~~
 
 <details>
 
-##### . :
+##### .template :
 
 <details>
 
-  <summary markdown="span">plugin. js<summary>
+  <summary markdown="span">plugin.template js<summary>
 
   
   {% raw %}
@@ -203,7 +203,7 @@ html
         $('.eqLogicDisplayCard').addClass('displayAsTable')
         $('.eqLogicDisplayCard .hiddenAsCard').removeClass('hidden')
         $('.eqLogicThumbnailContainer').first().addClass('containerAsTable')
-      }  {
+      } else {
         $(this).data('state', '0').removeClass('active')
         )
         $('.eqLogicDisplayCard').removeClass('displayAsTable')
@@ -213,7 +213,7 @@ html
     })
   }
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -233,25 +233,25 @@ html
 
   <summary markdown="span">Par exemple :<summary>
 
-  
+  ~~~ php
   {% raw %}
   <div class="eqLogicThumbnailContainer">
     <?php
       ) {
-        $div = ''
-        $opacity = ($eqLogic->getIsEnable()) ? '' : 'disableCard'
-        $div .= '<div class="eqLogicDisplayCard cursor '.$opacity.'" data-eqLogic_id="' . $eqLogic->getId() . '">'
-        $div .= '<img src="' . $plugin->getPathImgIcon() . '">'
-        $div .= '<br>'
-        $div .= '<span class="name">' . $eqLogic->getHumanName(true, true) . '<span>'
-        $div .= '<span class="hidden hiddenAsCard displayTableRight">'.$eqLogic->getConfiguration('autorefresh').' | '.$eqLogic->getConfiguration('loglasttime').'h<span>'
-        $div .= '<div>'
+        $div = '';
+        $opacity = ($eqLogic->getIsEnable()) ? '' : 'disableCard';
+        $div .= '<div class="eqLogicDisplayCard cursor '.$opacity.'" data-eqLogic_id="' . $eqLogic->getId() . '">';
+        $div .= '<img src="' . $plugin->getPathImgIcon() . '">';
+        $div .= '<br>';
+        $div .= '<span class="name">' . $eqLogic->getHumanName(true, true) . '<span>';
+        $div .= '<span class="hidden hiddenAsCard displayTableRight">'.$eqLogic->getConfiguration('autorefresh').' | '.$eqLogic->getConfiguration('loglasttime').'h<span>';
+        $div .= '<div>';
         
       }
     ?>
   <div>
   {% endraw %}
-  
+  ~~~
 
 <details>
 
@@ -272,7 +272,7 @@ html
 
 <details>
 
-  <summary markdown="span"> de code de Widg avec template<summary>
+  <summary markdown="span">Example de code de Widg avec template<summary>
 
   
   <div class=" cmd-widget" ...>
@@ -289,7 +289,7 @@ html
     <script>
     <script>
   <div>
-  
+  ~~~
 
 <details>
 
@@ -303,13 +303,13 @@ html
 
  :
 
-js
+```js
  !== 'undefined') {
   ')
-}  {
+} else {
   ')
 }
-
+```
 
 #### 
 
@@ -322,9 +322,9 @@ js
 
 > .
 
- :
+Example :
 
-html
+```html
 <div class="content-xs">
     <span class="cmdName #hide_name#">#name_display#<span> <strong class="state"><strong>
     {{}}
@@ -333,9 +333,9 @@ html
     <div>param : {{}}.<div>
   <template>
   <script>
+```
 
-
-json
+```json
   {
     "": {
       "": "",
@@ -350,7 +350,7 @@ json
       "": ""
     }
   }
-
+```
 
 > . .
 
@@ -365,7 +365,7 @@ json
 
 :
 
-php
+```php
 
 {
     *     * ************************************************** *
@@ -388,11 +388,11 @@ php
                 '',
                 '')
             )
-        )
+        );
         
     }
 
-
+```
 
  :
 
