@@ -310,14 +310,14 @@ json
 
 php
     () {
-        $ = array();
+        $devolver = array();
         $return['log'] = __CLASS__;
         $return['state'] = 'nok';
         $pid_file = jeedom::) . '/deamon.pid';
         )) {
             )))) {
                 $return['state'] = 'ok';
-            }  {
+            } demás {
                 ::getCmdSudo() . ' ' . $pid_file . ' 
             }
         }
@@ -485,7 +485,7 @@ php
         
     } '])) {
         
-    }  {
+    } demás {
         log::
     }
 } ) {
@@ -527,7 +527,7 @@ php
         
     } '])) {
         
-    }  {
+    } demás {
         log::
     }
 
@@ -815,17 +815,17 @@ fi
 
 php
     () {
-        $ = array();
+        $devolver = array();
         $return['log'] = log::getPathToLog(__CLASS__ . '_update');
         $return['progress_file'] = jeedom::) . '/dependance';
         ::) . '/dependance')) {
             $return['state'] = 'in_progress';
-        }  {
+        } demás {
             ::getCmdSudo() . system::') . '-||
                 $return['state'] = 'nok';
             } ::getCmdSudo() . ' | 
                 $return['state'] = 'nok';
-            }  {
+            } demás {
                 $return['state'] = 'ok';
             }
         }
