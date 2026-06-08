@@ -1,7 +1,7 @@
 {
 	"id": "fliprpilot",
 	"name": "Flipr Pilot",
-	"pluginVersion": "1.1.0",
+	"pluginVersion": "1.1.1",
 	"description": {
 		"fr_FR": "Pilotage de piscine : sonde Flipr, filtration et pompe à chaleur avec automatisation intelligente. ⚠️ Note importante ⚠️ Ce plugin repose sur l'API Flipr. À l'heure de son développement, cette API fonctionne parfaitement. Toutefois, la société Flipr ayant été placée en liquidation judiciaire fin 2025, l'auteur ne peut être et n'est en aucun cas responsable si l'API venait à devenir inaccessible."
 	},
