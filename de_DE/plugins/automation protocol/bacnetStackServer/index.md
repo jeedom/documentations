@@ -218,6 +218,37 @@ Auf der Kartenseite können Sie :
 
 ---
 
+## 
+
+### 
+
+. .
+
+#### )
+
+**.** .  :
+
+|  |  |
+|--------|-------------|
+|  **"Speichern und Anwenden"**  |  |
+| " |  |
+| ) |  |
+|  |  |
+
+> ** :**  ****. .  **"Speichern und Anwenden"** ().
+
+#### )
+
+.  **"Speichern und Anwenden"** .
+
+#### 
+
+**.** .  **""** .
+
+ **""** .
+
+---
+
 ## Anwendungsbeispiele
 
 ### Beispiel 1 : Temperaturanzeige im Nur-Lese-Modus (Servermodus))
