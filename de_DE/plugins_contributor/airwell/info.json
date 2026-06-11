@@ -1,0 +1,12 @@
+{
+    "id": "airwell",
+    "name": "Airwell",
+    "description": "Pilotage des climatiseurs Airwell via le protocole Gree (WiFi local, sans cloud)",
+    "licence": "AGPL",
+    "author": "clement-cunin",
+    "require": "4.4.0",
+    "category": "wellness",
+    "changelog": "docs/fr_FR/changelog.md",
+    "documentation": "docs/fr_FR/index.md",
+    "issue": "https://github.com/clement-cunin/jeedom-airwell/issues"
+}
