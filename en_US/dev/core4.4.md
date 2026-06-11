@@ -1,4 +1,4 @@
-## Core v4.4 | Plugin developers
+## .4 | 
 
 ###  ...
 
@@ -6,13 +6,13 @@
 
  !
 
-. **** And ****, comme elles le sont sur $.. (). .
+. ****  ****, comme elles le sont sur $.. (). .
 
- **getValues()** And **setValues()**  **setJeeValues()** And **getJeeValues()**.
+ **getValues()**  **setValues()**  **setJeeValues()**  **getJeeValues()**.
 
- ****, . *load()* And *html()* (). . !
+ ****, . *load()*  *html()* (). . !
 
- ** .  **** **** **** And **** .
+ ** .  **** **** ****  **** .
 
 . . !
 
@@ -20,11 +20,11 @@
 
 <details>
 
-  <summary markdown="span">jQuery to pure js()</summary>
+  <summary markdown="span">jQuery to pure js()<summary>
 
-  ~~~ js
+  
   {% raw %}
-  //jQuery:
+  jQuery:
   $('#table_objectSummary tbody').append(tr)
   $('#table_objectSummary tbody tr').last().setValues(_summary, '.objectSummaryAttr')
 
@@ -32,7 +32,7 @@
   ').)
   ().')
 
-  //jQuery:
+  jQuery:
   ()
   ]
   ')
@@ -42,7 +42,7 @@
   ]
   ')
 
-  //jQuery:
+  jQuery:
   addMyTr: ) {
     >'
     >'
@@ -67,7 +67,7 @@
     
   }
 
-  //jQuery:
+  jQuery:
   $(function(){
     !')
   })
@@ -78,19 +78,19 @@
   })
 
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 .. ..
 
 :
 
-[](/en_US/dev/corejs/index)
+[](/en_US/devcorejsindex)
 
-[ {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)
+[ {}](https:github.comjeedomcoreblobalphacoredomdom.utils.js)
 
-[](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+[](https:github.comjeedomcoreblobalphacoredomdom.ui.js)
 
 
 
@@ -113,7 +113,7 @@
 
 #### 
 
- ** . . [](https://flatpickr.js.org/).
+ ** . . [](https:flatpickr.js.org).
 
  ** .
 
@@ -121,26 +121,26 @@
 
 <details>
 
-  <summary markdown="span">date/time pickers</summary>
+  <summary markdown="span">datetime pickers<summary>
 
-  ~~~ html
+  
   {% raw %}
-  <input id="myDate" class="in_datepicker"/>
-  <input id="myTime" class="in_timepicker"/>
-  <input id="myCustomDatetime"/>
+  <input id="myDate" class="in_datepicker">
+  <input id="myTime" class="in_timepicker">
+  <input id="myCustomDatetime">
   {% endraw %}
-  ~~~
+  
 
-  ~~~ js
+  
   {% raw %}
   
   
 
   :i:
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 
 
@@ -150,7 +150,7 @@
 
 #### :
 
-`eqLogic::::byTypeAndSearchConfiguration()`  
+`eqLogic::::  
 
 #### ):
 
@@ -179,7 +179,7 @@
   
 
 
-> **Noticed**
+> ****
 >
 > .  ** .
 
@@ -189,11 +189,11 @@
 
 <details>
 
-  <summary markdown="span">jeeComplete()</summary>
+  <summary markdown="span">jeeComplete()<summary>
 
-  ~~~ js
+  
   {% raw %}
-  //jQuery:
+  jQuery:
   $('input.auto').autocomplete({
     minLength: 1,
     source: dataArray
@@ -205,9 +205,9 @@
     source: dataArray
   })
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 #### 
 
@@ -215,9 +215,9 @@
 
 <details>
 
-  <summary markdown="span">exemples jeeDialog()</summary>
+  <summary markdown="span">exemples jeeDialog()<summary>
 
-  ~~~ js
+  
   {% raw %}
   ) {
     !')
@@ -233,15 +233,15 @@
   ?', ) {
     ) {
       
-    } else {
+    }  {
       
     }
   })
 
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 #### 
 
@@ -249,9 +249,9 @@
 
 <details>
 
-  <summary markdown="span">exemples ()</summary>
+  <summary markdown="span">exemples ()<summary>
 
-  ~~~ js
+  
   {% raw %}
   :
   $('#md_modal').dialog({
@@ -265,14 +265,14 @@
   })
 
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 #### 
 
 .
- : [](http://sortablejs.github.io/Sortable/)
+ : [](http:sortablejs.github.ioSortable)
 
 #### 
 
@@ -284,9 +284,9 @@
 
 <details>
 
-  <summary markdown="span">jeeCtxMenu()</summary>
+  <summary markdown="span">jeeCtxMenu()<summary>
 
-  ~~~ js
+  
   {% raw %}
   ({
     selector: '.nav.!
@@ -305,16 +305,16 @@
     },
     callback: 
     }
-    //isDisable: false,
-    /*
+    isDisable: false,
+    *
     events: {
       show: ) {
       },
       hide: ) {
       }
     },
-    */
-    /*
+    *
+    *
     build: ) {
        = {}
        {
@@ -326,13 +326,13 @@
     },
     position: ) {
     },
-    */
+    *
   })
 
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 #### 
 
@@ -340,9 +340,9 @@
 
 <details>
 
-  <summary markdown="span">exemples ()</summary>
+  <summary markdown="span">exemples ()<summary>
 
-  ~~~ js
+  
   {% raw %}
   :
   $('#bt_uploadImage').fileupload({
@@ -357,30 +357,30 @@
   ({
     fileInput: '),
     url: '?
-    /*
+    *
     add: ) {
       ')
       ?
       ()
     },
-    */
+    *
     done: ) {
       
     }
   })
 
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
-See [](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+ [](https:github.comjeedomcoreblobalphacoredomdom.ui.js)
 
 > ****
 >
 > . , **)**.
 
-### Optional modifications
+### 
 
 - 
 
@@ -388,7 +388,7 @@ See [](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
  **  ``jeedomUtils.setCheckContextMenu()``
 
- ** And ** .
+ **  ** .
 
  *"*.
 
