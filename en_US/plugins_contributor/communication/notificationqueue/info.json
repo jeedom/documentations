@@ -19,8 +19,8 @@
 	"maxDependancyInstallTime": 0,
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/#language#/",
-	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/#language#/changelog",
-	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/beta/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/beta/#language#/",
 	"link": {
 		"forum": "https://community.jeedom.com/tag/plugin-notificationqueue",
 		"video": ""
