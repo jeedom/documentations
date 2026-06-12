@@ -1,12 +1,13 @@
 {
     "id": "airwell",
     "name": "Airwell",
-    "description": "Pilotage des climatiseurs Airwell via le protocole Gree (WiFi local, sans cloud)",
+    "description": "Contrôlez vos climatiseurs Airwell en local, sans cloud ni abonnement — connexion directe via WiFi pour une domotique rapide et privée. Une fois l'appareil connecté au réseau via l'application Airwell, l'inclusion dans Jeedom se fait en 1 clic. Modèles testés : HDLA-022N-09M25, HDLE-035N-09M25. Tout modèle équipé d'une carte WiFi devrait fonctionner.",
     "licence": "AGPL",
     "author": "clement-cunin",
     "require": "4.4.0",
     "category": "wellness",
     "changelog": "docs/fr_FR/changelog.md",
     "documentation": "docs/fr_FR/index.md",
-    "issue": "https://github.com/clement-cunin/jeedom-airwell/issues"
+    "issue": "https://github.com/clement-cunin/jeedom-airwell/issues",
+    "compatibility": ["miniplus", "smart", "pro", "luna", "docker", "rpi"]
 }
