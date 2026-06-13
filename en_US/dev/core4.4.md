@@ -1,18 +1,18 @@
-## Core v4.4 | Plugin developers
+## .4 | 
 
-### One day, jQuery ...
+###  ...
 
-jQuery is a framework still widely used in web interfaces, and Jeedom has historically relied heavily on it. Nevertheless, HTML5 and modern browsers are increasingly making it possible to do without it. The main interest for Jeedom is performance, and there are no plans yet to remove jQuery and its plugins (jQuery UI, contextmenu, modals, autocomplete, tablesorter, etc.).).
+. . .).
 
-But we need to think about it, and start one day !
+ !
 
-The Core 4.Version 4 therefore integrates the basic functions setValues() and getValues(), which are now also prototyped on the **NodeList** And **Element**, comme elles le sont sur $.historically. Several functions have also been implemented, such as last(), triggerEvent(), isHidden(), empty(), addClass(), removeClass(), toggleClass(), and hasClass()(). The goal is not to recreate jQuery, of course, but to offer functional shortcuts when necessary.
+. ****  ****, comme elles le sont sur $.. (). .
 
-For an easier transition and better maintenance, the new functions **getValues()** And **setValues()** on the DOM are now **setJeeValues()** And **getJeeValues()**.
+ **getValues()**  **setValues()**  **setJeeValues()**  **getJeeValues()**.
 
-Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
+ ****, . *load()*  *html()* (). . !
 
- ** .  **** **** **** And **** .
+ ** .  **** **** ****  **** .
 
 . . !
 
@@ -20,11 +20,11 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
 
 <details>
 
-  <summary markdown="span">jQuery to pure js()</summary>
+  <summary markdown="span">jQuery to pure js()<summary>
 
-  ~~~ js
+  
   {% raw %}
-  //jQuery:
+  jQuery:
   $('#table_objectSummary tbody').append(tr)
   $('#table_objectSummary tbody tr').last().setValues(_summary, '.objectSummaryAttr')
 
@@ -32,7 +32,7 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
   ').)
   ().')
 
-  //jQuery:
+  jQuery:
   ()
   ]
   ')
@@ -42,7 +42,7 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
   ]
   ')
 
-  //jQuery:
+  jQuery:
   addMyTr: ) {
     >'
     >'
@@ -67,7 +67,7 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
     
   }
 
-  //jQuery:
+  jQuery:
   $(function(){
     !')
   })
@@ -78,19 +78,19 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
   })
 
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 .. ..
 
 :
 
-[](/en_US/dev/corejs/index)
+[](/en_US/devcorejsindex)
 
-[ {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)
+[ {}](https:github.comjeedomcoreblobalphacoredomdom.utils.js)
 
-[](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+[](https:github.comjeedomcoreblobalphacoredomdom.ui.js)
 
 
 
@@ -113,7 +113,7 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
 
 #### 
 
- ** . . [](https://flatpickr.js.org/).
+ ** . . [](https:flatpickr.js.org).
 
  ** .
 
@@ -121,26 +121,26 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
 
 <details>
 
-  <summary markdown="span">date/time pickers</summary>
+  <summary markdown="span">datetime pickers<summary>
 
-  ~~~ html
+  
   {% raw %}
-  <input id="myDate" class="in_datepicker"/>
-  <input id="myTime" class="in_timepicker"/>
-  <input id="myCustomDatetime"/>
+  <input id="myDate" class="in_datepicker">
+  <input id="myTime" class="in_timepicker">
+  <input id="myCustomDatetime">
   {% endraw %}
-  ~~~
+  
 
-  ~~~ js
+  
   {% raw %}
   
   
 
   :i:
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 
 
@@ -150,7 +150,7 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
 
 #### :
 
-`eqLogic::::byTypeAndSearchConfiguration()`  
+`eqLogic::::  
 
 #### ):
 
@@ -179,7 +179,7 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
   
 
 
-> **Noticed**
+> ****
 >
 > .  ** .
 
@@ -189,11 +189,11 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
 
 <details>
 
-  <summary markdown="span">jeeComplete()</summary>
+  <summary markdown="span">jeeComplete()<summary>
 
-  ~~~ js
+  
   {% raw %}
-  //jQuery:
+  jQuery:
   $('input.auto').autocomplete({
     minLength: 1,
     source: dataArray
@@ -205,9 +205,9 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
     source: dataArray
   })
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 #### 
 
@@ -215,9 +215,9 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
 
 <details>
 
-  <summary markdown="span">exemples jeeDialog()</summary>
+  <summary markdown="span">exemples jeeDialog()<summary>
 
-  ~~~ js
+  
   {% raw %}
   ) {
     !')
@@ -233,15 +233,15 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
   ?', ) {
     ) {
       
-    } else {
+    }  {
       
     }
   })
 
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 #### 
 
@@ -249,9 +249,9 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
 
 <details>
 
-  <summary markdown="span">exemples ()</summary>
+  <summary markdown="span">exemples ()<summary>
 
-  ~~~ js
+  
   {% raw %}
   :
   $('#md_modal').dialog({
@@ -265,14 +265,14 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
   })
 
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 #### 
 
 .
- : [](http://sortablejs.github.io/Sortable/)
+ : [](http:sortablejs.github.ioSortable)
 
 #### 
 
@@ -284,9 +284,9 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
 
 <details>
 
-  <summary markdown="span">jeeCtxMenu()</summary>
+  <summary markdown="span">jeeCtxMenu()<summary>
 
-  ~~~ js
+  
   {% raw %}
   ({
     selector: '.nav.!
@@ -305,16 +305,16 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
     },
     callback: 
     }
-    //isDisable: false,
-    /*
+    isDisable: false,
+    *
     events: {
       show: ) {
       },
       hide: ) {
       }
     },
-    */
-    /*
+    *
+    *
     build: ) {
        = {}
        {
@@ -326,13 +326,13 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
     },
     position: ) {
     },
-    */
+    *
   })
 
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
 #### 
 
@@ -340,9 +340,9 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
 
 <details>
 
-  <summary markdown="span">exemples ()</summary>
+  <summary markdown="span">exemples ()<summary>
 
-  ~~~ js
+  
   {% raw %}
   :
   $('#bt_uploadImage').fileupload({
@@ -357,30 +357,30 @@ Furthermore, all calls **Ajax**, . *load()* And *html()* (). . !
   ({
     fileInput: '),
     url: '?
-    /*
+    *
     add: ) {
       ')
       ?
       ()
     },
-    */
+    *
     done: ) {
       
     }
   })
 
   {% endraw %}
-  ~~~
+  
 
-</details>
+<details>
 
-See [](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+ [](https:github.comjeedomcoreblobalphacoredomdom.ui.js)
 
 > ****
 >
 > . , **)**.
 
-### Optional modifications
+### 
 
 - 
 
@@ -388,7 +388,7 @@ See [](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
  **  ``jeedomUtils.setCheckContextMenu()``
 
- ** And ** .
+ **  ** .
 
  *"*.
 
