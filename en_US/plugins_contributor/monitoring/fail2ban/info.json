@@ -41,6 +41,6 @@
 	],
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/fail2ban/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/fail2ban/#language#/",
-	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/fail2ban/#language#/changelog",
-	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/fail2ban/#language#/"
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/fail2ban/beta/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/fail2ban/beta/#language#/"
 }

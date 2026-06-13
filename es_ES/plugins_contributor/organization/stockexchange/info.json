@@ -22,8 +22,8 @@
 	"maxDependancyInstallTime": 0,
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/#language#/",
-	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/#language#/changelog",
-	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/beta/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/beta/#language#/",
 	"link": {
 		"forum": "https://community.jeedom.com/tag/plugin-stockexchange",
 		"video": ""

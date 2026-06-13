@@ -22,8 +22,8 @@
 	"maxDependancyInstallTime": 60,
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/#language#/",
-	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/#language#/changelog",
-	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/beta/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/beta/#language#/",
 	"link": {
 		"forum": "https://community.jeedom.com/tag/plugin-vaillantmultimatic",
 		"video": ""

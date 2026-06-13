@@ -1,13 +1,16 @@
 {
     "id": "airwell",
     "name": "Airwell",
-    "description": "Contrôlez vos climatiseurs Airwell en local, sans cloud ni abonnement — connexion directe via WiFi pour une domotique rapide et privée. Une fois l'appareil connecté au réseau via l'application Airwell, l'inclusion dans Jeedom se fait en 1 clic. Modèles testés : HDLA-022N-09M25, HDLE-035N-09M25. Tout modèle équipé d'une carte WiFi devrait fonctionner.",
+    "description": {
+        "fr_FR": "Contrôlez vos climatiseurs Airwell en local, sans cloud ni abonnement — connexion directe via WiFi pour une domotique rapide et privée. Une fois l'appareil connecté au réseau via l'application Airwell, l'inclusion dans Jeedom se fait en 1 clic. Modèles testés : HDLA-022N-09M25, HDLE-035N-09M25. Tout modèle équipé d'une carte WiFi devrait fonctionner.",
+        "en_US": "Control your Airwell air conditioners locally, without cloud or subscription — direct WiFi connection for fast and private home automation. Once the device is connected to your network via the Airwell app, adding it to Jeedom is just 1 click away. Tested models: HDLA-022N-09M25, HDLE-035N-09M25. Any model with a WiFi card should work."
+    },
     "licence": "AGPL",
     "author": "clement-cunin",
     "require": "4.4.0",
     "category": "wellness",
-    "changelog": "docs/fr_FR/changelog.md",
-    "documentation": "docs/fr_FR/index.md",
+    "changelog": "https://github.com/clement-cunin/jeedom-airwell/blob/main/docs/fr_FR/changelog.md",
+    "documentation": "https://github.com/clement-cunin/jeedom-airwell/blob/main/docs/fr_FR/index.md",
     "issue": "https://github.com/clement-cunin/jeedom-airwell/issues",
     "compatibility": ["miniplus", "smart", "pro", "luna", "docker", "rpi"]
 }
