@@ -380,6 +380,7 @@ $(function() {
   $('#div_content :not(td)>img').addClass('responsive-img')
   cookiesPolicyBar()
   setLeftMenu()
+  replaceContentVars()
 
   if (window.location.hash) {
     document.getElementById(window.location.hash.replace('#', '')).scrollIntoView()
@@ -442,6 +443,23 @@ function setLeftMenu() {
     parentLi.find('.collapsible-header').click()
     scrollMenu()
   }
+}
+
+function replaceContentVars() {
+  $('#div_content a[href*="#LANG#"], #div_content a[href*="#VERSION#"]').each(function() {
+    $(this).attr('href', $(this).attr('href')
+      .replace(/#LANG#/g, lang)
+      .replace(/#VERSION#/g, jeedomVersion))
+  })
+  $('#div_content *:contains("#LANG#"), #div_content *:contains("#VERSION#")')
+    .contents().filter(function() {
+      return this.nodeType === 3
+        && (this.nodeValue.indexOf('#LANG#') !== -1 || this.nodeValue.indexOf('#VERSION#') !== -1)
+    }).each(function() {
+      this.nodeValue = this.nodeValue
+        .replace(/#LANG#/g, lang)
+        .replace(/#VERSION#/g, jeedomVersion)
+    })
 }
 
 function scrollMenu() {
