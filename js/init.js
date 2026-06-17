@@ -446,20 +446,22 @@ function setLeftMenu() {
 }
 
 function replaceContentVars() {
-  $('#div_content a[href*="#LANG#"], #div_content a[href*="#VERSION#"]').each(function() {
+  $('#div_content a').filter(function() {
+    var href = $(this).attr('href') || ''
+    return href.indexOf('#LANG#') !== -1 || href.indexOf('#VERSION#') !== -1
+  }).each(function() {
     $(this).attr('href', $(this).attr('href')
       .replace(/#LANG#/g, lang)
       .replace(/#VERSION#/g, jeedomVersion))
   })
-  $('#div_content *:contains("#LANG#"), #div_content *:contains("#VERSION#")')
-    .contents().filter(function() {
-      return this.nodeType === 3
-        && (this.nodeValue.indexOf('#LANG#') !== -1 || this.nodeValue.indexOf('#VERSION#') !== -1)
-    }).each(function() {
-      this.nodeValue = this.nodeValue
-        .replace(/#LANG#/g, lang)
-        .replace(/#VERSION#/g, jeedomVersion)
-    })
+  $('#div_content *').contents().filter(function() {
+    return this.nodeType === 3
+      && (this.nodeValue.indexOf('#LANG#') !== -1 || this.nodeValue.indexOf('#VERSION#') !== -1)
+  }).each(function() {
+    this.nodeValue = this.nodeValue
+      .replace(/#LANG#/g, lang)
+      .replace(/#VERSION#/g, jeedomVersion)
+  })
 }
 
 function scrollMenu() {
