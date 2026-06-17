@@ -16,6 +16,8 @@
 		"min": 11,
 		"max": 13.99
 	},
+	"hasDependency": true,
+	"hasOwnDeamon": true,
 	"category": "organization",
 	"display": "panel",
 	"mobile": "panel",
