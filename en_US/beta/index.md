@@ -33,7 +33,7 @@ Les branches annexes correspondent à des développements indépendants et ponct
 
 -  **feat/xxxxx-yyyyy** : Nouvelle fonctionnalité testable avant son déploiement dans `develop`.
 -  **fix/xxxxx-yyyyy** :  Correctif non urgent testable quelques jours avant son déploiement dans `develop`.
--  **hotfix/xxxxx-yyyyy** : Correctif urgent rapidement déployé dans `master` & `develop`.
+-  **hotfix/xxxxx-yyyyy** : .
 
 >**INFORMATION**
 >
@@ -62,7 +62,7 @@ En `master` *(stable)* ou `release`, chaque nouvelle version entraine un changem
 
 The **journal des modifications** *(ou changelog)* offre un aperçu des changements apportés par chaque version de Jeedom.
 
-Seules les versions [`master` *(stable)*](../core/#VERSION#/changelog){:target="_blank"} et [`release`](https://github.com/jeedom/core/blob/release/docs/#LANG#/changelog.md){:target="_blank"} garantissent la présence d'un changelog détaillé et à jour.
+ *(stable)*  *()* #VERSION#/changelog){:target="_blank"}.
 
 En `develop`, les intégrations étant continues, le journal des modifications n'est pas encore généré à cette étape. Pour prendre connaissance des changements apportés depuis la dernière version stable, il faut se référer aux [notes de version](https://github.com/jeedom/core/blob/develop/docs/release-notes.md){:target="_blank"} qui listent les *Pull Requests* validées sur cette branche.
 
