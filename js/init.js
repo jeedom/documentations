@@ -403,8 +403,10 @@ function setTheme() {
     if ($('#sel_theme').val() != 'dark') {
       $('#sel_theme').val('dark')
     }
+    document.getElementById('logo-container').querySelector('img').src = '/img/logo_dark.png'
   } else {
     $('html').removeClass('dark')
+    document.getElementById('logo-container').querySelector('img').src = '/img/logo.png'
   }
 }
 
