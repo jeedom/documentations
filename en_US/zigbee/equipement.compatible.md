@@ -292,8 +292,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/ADEO.LDSENK01F.png" width="60" />|Adeo|LEXMAN ENKI - Connected socket 16A Dimmer||||
-|<img src="../../en_US/zigbee/images/ADEO.LDSENK02F.png" width="60" />|Adeo|LEXMAN ENKI - 16A connected socket|||[Buy](https://www.leroymerlin.fr/produits/electricite-domotique/domotique-et-objets-connectes/domotique/solutions-de-commande/prise-connectee-16a-3680w-repeteur-lexman-82428895.html)|
+|<img src="../../en_US/zigbee/images/adeo.LDSENK01F.png" width="60" />|Adeo|LEXMAN ENKI - Connected socket 16A Dimmer||||
+|<img src="../../en_US/zigbee/images/adeo.LDSENK02F.png" width="60" />|Adeo|LEXMAN ENKI - 16A connected socket|||[Buy](https://www.leroymerlin.fr/produits/electricite-domotique/domotique-et-objets-connectes/domotique/solutions-de-commande/prise-connectee-16a-3680w-repeteur-lexman-82428895.html)|
 |<img src="../../en_US/zigbee/images/adeo.LDSENK10.png" width="60" />|Adeo|Movement detector|Mouvement|||
 |<img src="../../en_US/zigbee/images/adeo.LXEK-1.png" width="60" />|Adeo|LEXMAN ENKI - Smart bulb||||
 |<img src="../../en_US/zigbee/images/adeo.LXEK-2.png" width="60" />|Adeo|LEXMAN ENKI - Smart bulb||||

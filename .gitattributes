@@ -1,0 +1,39 @@
+# Normalise les fins de ligne pour tous les fichiers texte.
+# Le dépôt contient un mélange de CRLF/LF déjà committé (~28% des fichiers
+# texte échantillonnés) et aucun .gitattributes : sur Windows, selon que
+# core.autocrlf vaut true/input/false (et Git Bash vs GitHub Desktop n'ont
+# pas forcément la même valeur par défaut), ça peut faire apparaître des
+# fichiers comme "modifiés" juste à cause des fins de ligne.
+# `text=auto` laisse Git détecter les fichiers texte et les normaliser en
+# LF dans le dépôt, peu importe l'OS du contributeur.
+* text=auto
+
+# Types de fichiers texte du repo : on force explicitement LF en local et
+# dans le dépôt pour qu'ils soient strictement identiques quel que soit l'OS.
+*.md   text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.js   text eol=lf
+*.css  text eol=lf
+*.scss text eol=lf
+*.less text eol=lf
+*.svg  text eol=lf
+*.txt  text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+
+# Fichiers binaires : jamais de conversion de fin de ligne, et diff
+# désactivé (évite des diffs illisibles "binary files differ" malformés).
+*.png  binary
+*.PNG  binary
+*.jpg  binary
+*.JPG  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.ttf  binary
+*.woff binary
+*.woff2 binary
+*.xcf  binary
+*.db   binary
+*.dat  binary

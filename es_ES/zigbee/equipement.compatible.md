@@ -292,8 +292,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/ADEO.LDSENK01F.png" width="60" />|Adeo|LEXMAN ENKI - Toma de corriente 16A Dimmer||||
-|<img src="../../es_ES/zigbee/images/ADEO.LDSENK02F.png" width="60" />|Adeo|LEXMAN ENKI - Toma conectada 16A|||[Comprar](https://www.leroymerlin.fr/produits/electricite-domotique/domotique-et-objets-connectes/domotique/solutions-de-commande/prise-connectee-16a-3680w-repeteur-lexman-82428895.html)|
+|<img src="../../es_ES/zigbee/images/adeo.LDSENK01F.png" width="60" />|Adeo|LEXMAN ENKI - Toma de corriente 16A Dimmer||||
+|<img src="../../es_ES/zigbee/images/adeo.LDSENK02F.png" width="60" />|Adeo|LEXMAN ENKI - Toma conectada 16A|||[Comprar](https://www.leroymerlin.fr/produits/electricite-domotique/domotique-et-objets-connectes/domotique/solutions-de-commande/prise-connectee-16a-3680w-repeteur-lexman-82428895.html)|
 |<img src="../../es_ES/zigbee/images/adeo.LDSENK10.png" width="60" />|Adeo|Detector de movimiento|Mouvement|||
 |<img src="../../es_ES/zigbee/images/adeo.LXEK-1.png" width="60" />|Adeo|LEXMAN ENKI - Bombilla inteligente||||
 |<img src="../../es_ES/zigbee/images/adeo.LXEK-2.png" width="60" />|Adeo|LEXMAN ENKI - Bombilla inteligente||||
