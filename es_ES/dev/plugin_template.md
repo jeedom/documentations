@@ -12,7 +12,7 @@
   - ``php`` : ).
   - ``config`` : .
   - ``ajax`` : X.
-  - ``i18n`` :  ..
+  - ```` :  ..
   - ``template`` : .
 - ``desktop`` : ").
   - ``js`` : .
@@ -197,14 +197,14 @@ Ensuite vient le paramètre demandé (il peut en avoir plusieurs), c'est une syn
  ?>
  ````
 
-Une fois sur cette page vous aurez accès en PHP à toutes les fonctions du core de jeedom (voir [](https:www.jeedom.comdocdocumentationcode) ) ainsi qu'à celles de tous les modules installés donc le vôtre aussi.
+Une fois sur cette page vous aurez accès en  à toutes les fonctions du core de jeedom (voir [](https:www.jeedom.comdocdocumentationcode) ) ainsi qu'à celles de tous les modules installés donc le vôtre aussi.
 
 Toutes ces pages étant des vues elles utilisent principalement la syntaxe HTML. Pour tout ce qui est présentation, Jeedom se base principalement sur bootstrap donc toute la [documentation](http:getbootstrap.com) est applicable.
 
 Pour simplifier la création de plugin vous pouvez inclure dans votre page le script javascript de template pour les plugins :
 
 ````php
-<?PHP include_file('core', 'plugin.template', 'js') ?>
+<? include_file('core', 'plugin.template', 'js') ?>
 ````
 
 . ).
@@ -330,7 +330,7 @@ Dernier point: un exemple plus complet avec type et sous-type de commande :
 - ``saveEqLogic``  :
 
 ````php
-<?PHP include_file('desktop', 'weather', 'js', 'weather') ?>
+<? include_file('desktop', 'weather', 'js', 'weather') ?>
 ````
 
 Le premier argument donne le dossier dans lequel le trouver (attention c'est le dossier père du dossier JS), le deuxième le nom de votre javascript, le troisième indique à Jeedom que c'est un fichier  et le dernier dans quel plugin il se trouve.
@@ -340,7 +340,7 @@ Le premier argument donne le dossier dans lequel le trouver (attention c'est le 
 Ce dossier contient vos fichiers CSS (il ne devrait pas être trop utilisé) , vo comment les inclure sur votre page :
 
 ````php
-<?PHP include_file('desktop', 'weather', 'css', 'weather') ?>
+<? include_file('desktop', 'weather', 'css', 'weather') ?>
 ````
 
 .
@@ -357,11 +357,11 @@ $('#md_modal').dialog({title: "{{Classe du périphérique}}"}).load('index.php?v
 
 La première ligne permet de mettre un titre à votre modal
 
-La deuxième ligne charge votre modal et l'affichage.  : plugin, l' de votre plugin, modal, le nom de votre modal sans le PHP et ensuite les paramètres que vous voulez lui passer
+La deuxième ligne charge votre modal et l'affichage.  : plugin, l' de votre plugin, modal, le nom de votre modal sans le  et ensuite les paramètres que vous voulez lui passer
 
 ## API JS
 
-Ce n'est pas un dossier mais dans les dernières versions de Jeedom celui-ci offre au développeur toute une api javascript (cela évite d'écrire des appels Ajax dans tous les sens). J'essayerai de faire un article pour expliquer les différentes fonctionnalités mais vous pouvez déjà trouver le code .
+Ce n'est pas un dossier mais dans les dernières versions de Jeedom celui-ci offre au développeur toute une api javascript (cela évite d'écrire des appels  dans tous les sens). J'essayerai de faire un article pour expliquer les différentes fonctionnalités mais vous pouvez déjà trouver le code .
 
 Voilà pour les détails du . Je me doute qu'il n'est pas des plus complets (j'essayerai de le compléter en fonction des différentes demandes reçues) mais j'espère que grâce à lui vous pourrez commencer à faire des plugins pour Jeedom.
 
@@ -394,7 +394,7 @@ $('body').delegate('.helpSelectCron','click',function() {
 
 
 
-## i18n
+## 
 
  [](https:github.comjeedomplugin-openzwave) )
 
@@ -767,7 +767,7 @@ $weather->checkAndUpdateCmd($cmd,$cmd->execute())
 
 Au moment de la fonction ``checkAndUpdateCmd`` (qui permet de signaler à Jeedom une nouvelle mise à jour de la valeur, avec déclenchement de toutes les actions qui doivent être faites : mise à jour du dashboard, vérification des scénarios…​),
 
-Pour la classe commande, un petit truc à savoir si vous utilisez le template js de base. Lors de l'envoi de l'équipement Jeedom fait du différentiel sur les commandes et va supprimer celles qui sont en base mais pas dans la nouvelle définition de l'équipement. Voilà comment l'éviter :
+Pour la classe commande, un petit truc à savoir si vous utilisez le template  de base. Lors de l'envoi de l'équipement Jeedom fait du différentiel sur les commandes et va supprimer celles qui sont en base mais pas dans la nouvelle définition de l'équipement. Voilà comment l'éviter :
 
 ````php
 public function dontRemoveCmd() {
