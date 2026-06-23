@@ -438,7 +438,7 @@ Une boîte à outils de fonctions génériques peut également servir à effectu
 - ``rand(1,10)`` : Donne un nombre aléatoire de 1 à 10.
 - ``randText(texte1;texte2;texte…​..)`` : Permet de retourner un des textes aléatoirement (séparer les texte par un ; ). Il n’y a pas de limite dans le nombre de texte.
 - ``randomColor(min,max)`` : Donne une couleur aléatoire comprise entre 2 bornes ( 0 => rouge, 50 => vert, 100 => bleu).
-- ``trigger(commande)`` : Permet de connaître le déclencheur du scénario ou de savoir si c’est bien la commande passée en paramètre qui a déclenché le scénario. **=> Deprecated il vaut mieux utiliser le tag #trigger#**
+- ``trigger(commande)`` : Permet de connaître le déclencheur du scénario ou de savoir si c’est bien la commande passée en paramètre qui a déclenché le scénario. **=> Deprecated il vaut mieux utiliser le tag #trigger_name#**
 - ``triggerValue()`` : Permet de connaître la valeur du déclencheur du scénario. **=> Deprecated il vaut mieux utiliser le tag #trigger_value#**
 - ``round(valeur,[decimal])`` : Donne un arrondi au-dessus, [decimal] nombre de décimales après la virgule.
 - ``odd(valeur)`` : Permet de savoir si un nombre est impair ou non. Renvoie 1 si impair 0 sinon.
