@@ -4,77 +4,159 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+>**IMPORTANT**
+>
+>Une refonte globale du plugin à été effectuée. Les méthodes d'écritures ou les parametrages des registres pourraient etre a refaire/re-adapter suivant les installations. Merci de bien faire un backup et de le télécharger en local avant de mettre à jour le plugin
 
-# 11/07/2025
+# 11/03/2026
+- Ajout mode de connexion TCP : persistant ou court (connexion/déconnexion par opération)
+- Nouveau paramètre `tcpConnectionMode` configurable depuis l'interface équipement
+- En mode court : connexion et déconnexion automatiques à chaque opération de lecture/écriture
+- Amélioration de la robustesse du démon : gestion des erreurs de décodage et du batching des lectures
+- Fix écriture registre unique avec `write_register` en mode court
 
-- Ajout temps d'attente sur la suppression du PID file du démon
+# 17/02/2026
+- Fix TCP/RTU 
+- Ajout bouton Test Connexion sur les équipements
+
+# 06/02/2026
+- Fix startRegister 0 : maintenant pris en compte
+- Fix RTU lecture multiple eqlogics
+- Fix commandes écrituresBit en type Action/Message
+
+# 09/12/2025
+- Fix remontées valeurs
+
+# 04/11/2025
+- OS Minimum : Debian 11
+- Jeedom Minimum : 4.4.19
+- Montée de version de pymodbus en 3.8.6
+- Passage en asynchrone
+- Suppression ByteOrder car non standard avec Modbus
+- Suppression du parametre Nombre de registres : gérer maintenant via le choix du format de données choisi
+- Refonte conversion registres
+- Gestion programmée
+- Optimisation et fix sur multiples clients TCP
+- Ajout Configurer Fc16 via bootbox pour valeurs et format
+- Ajout format short/ushort (int8,uint8)
+- Ajout Mode Cyclique ou sur déclenchement
+
+# 01/11/2025
+
+- Fix selection des functions codes
+
+# 31/10/2025
+
+- Gestion formatType UInt8 et Int8
+
+
+# 28/10/2025
+
+- Optimisation et fix sur multiples clients TCP
+
+# 18/07/2025
+
+- Ajout Configurer Fc16 via bootbox pour valeurs et format
+
+# 01/04/2025
+
+- Ajout option MQTT : envoie des infos de registres sur broker MQTT (nécessite le plugin officiel MQTT)
+
+
+# 19/03/2025
+
+- OS Minimum : Debian 11
+- Jeedom Minimum : 4.4.19
+- Montée de version de pymodbus en 3.8.6
+- Passage en asynchrone
+- Suppression ByteOrder car non standard avec Modbus
+- Suppression du parametre Nombre de registres : gérer maintenant via le choix du format de données choisi
+- Refonte conversion registres
+
+
+# 30/10/2025
+
+- Fix Debian12
+
+# 06/02/2025
+
+- Fix error NameCmd
+
 
 # 08/11/2024
 
-- Fix Fuite Mémoire Python3
+- Fix Fuite memoire Python3
 
-# 03/02/2022
+# 30/07/2024
 
-- Version Beta, compatible 4.2.7
+- Ajout Registre dans Message EcritureBit
 
-# 14/02/2022
+# 26/07/2024
 
-- Fonction Fc16 pour automates sans Fc6
+- Ajout nouvelle méthode pour changement de bit sur un registre (cf doc)
+- Ajout dans Configuration du plugin : Choix niveau de log de la librairie Modbus
 
-# 20/03/2022
 
-- Fonction Fc16 Registre non suivis
+# 18/07/2024
 
-# 02/05/2022
+- Ajout String format
+- Meilleure precision des formats de données dans le selecteur
 
-- Fonction Exportation d'un fichier Json et Importation de commandes par Equipement 
 
-# 01/08/2022
+# 26/03/2024
 
-- BugFix sur déconnexion d'un équipement sur le même bus
+- Fix Update for specific pymodbus version
 
-# 16/08/2022
+# 29/05/2023
 
-- Choix du port pour Modbus TCP (par defaut 502)
+FAIRE BACKUP DE JEEDOM AVANT INSTALLE NOUVELLE BETA.
+- Ecriture 1 Bit
+- Import/Exports Commandes via Xlsx
+- Nouvelle syntaxe Operation sur Commande (voir Doc)
+- Fixs
 
-# 23/09/2022
+# 15/05/2023
 
-- Changement Logs Librairie pyModbus
+- Nouvelle UI paramètrage des commandes
+- Optimisations conversions Valeurs
+- Parametre Retour Hexa
 
-# 26/09/2022
+# 03/04/2023
 
-- Nouveau paremetre Timeout entre lecture registre
-
-# 07/10/2022
-
-- Nouveau Systeme de Modele pre-enregistrés
-- Option LectureMultiRegistres sur les commandes
-
-# 13/10/2022
-
-- Option Activer/Desactiver Message d'ecriture
-- Option nbOctets pour determiner la decoupe d'un registre en x octet
+- Nouvelle UI paramètrage des commandes
+- Paramètre TableauRegistres pour écrire a la suite en partant d'un registre de depart
 
 # 10/01/2023
-
 - Fix import packages pour python 3.9
 
+# 13/10/2022
+- Option Activer/Désactiver Message d'écriture
+- Option nbOctets pour determiner la découpe d'un registre en x octet
 
-# 15/01/2024
+# 07/10/2022
+- Nouveau Système de Modele pré-enregistrés
+- Option LectureMultiRegistres sur les commandes
 
-- Fix pymodbus version for Constants defaults missing
+# 26/09/2022
+- Nouveau paremètre Timeout entre lecture registre
 
+# 23/09/2022
+- Changement Logs Librairie pyModbus
 
-# 22/01/2024
+# 16/08/2022
+- Choix du port pour Modbus TCP (par défaut 502)
 
-- Fix pymodbus 3.2.2 with unit -> slave
+# 01/08/2022
+- BugFix sur déconnexion d'un équipement sur le même bus
 
+# 02/05/2022
+- Fonction Exportation d'un fichier Json et Importation de commandes par Equipement
 
-# 07/02/2024
+# 20/03/2022
+- Fonction Fc16 Registre non suivis
 
-- Fix Packages for Debian10
+# 14/02/2022
+- Fonction Fc16 pour automates sans Fc6
 
-
-# 09/04/2024
-
-- Fix parameters UI
+# 03/02/2022
+- Version Beta, compatible 4.2.7

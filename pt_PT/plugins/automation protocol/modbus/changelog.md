@@ -4,44 +4,159 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
-# 02/03/2022
+>**IMPORTANTE**
+>
+>Une refonte globale du plugin à été effectuée. Les méthodes d'écritures ou les parametrages des registres pourraient etre a refaire/re-adapter suivant les installations. Merci de bien faire un backup et de le télécharger en local avant de mettre à jour le plugin
 
-- Versão beta, compatível com 4.2.7
+# 
+-  : )
+- 
+-  : 
+-  : 
+- 
 
-# 14/02/2022
+# 17/02/2026
+- Fix TCP/RTU 
+- Ajout bouton Test Connexion sur les équipements
 
-- Função Fc16 para PLCs sem Fc6
+# 06/02/2026
+- Fix startRegister 0 : maintenant pris en compte
+- Fix RTU lecture multiple eqlogics
+- Fix commandes écrituresBit en type Action/Message
 
-# 20/03/2022
+# 09/12/2025
+- Fix remontées valeurs
 
-- Função Fc16 Registrador não seguido
+# 04/11/2025
+- OS Minimum : Debian 11
+- Jeedom Minimum : 4.4.19
+- Montée de version de pymodbus en 3.8.6
+- Passage en asynchrone
+- Suppression ByteOrder car non standard avec Modbus
+- Suppression du parametre Nombre de registres : gérer maintenant via le choix du format de données choisi
+- Refonte conversion registres
+- Gestion programmée
+- Optimisation et fix sur multiples clients TCP
+- Ajout Configurer Fc16 via bootbox pour valeurs et format
+- Ajout format short/ushort (int8,uint8)
+- Ajout Mode Cyclique ou sur déclenchement
 
-# 02/05/2022
+# 01/11/2025
 
-- Função Exportando um arquivo Json e Importando pedidos por Equipamento 
+- Fix selection des functions codes
 
-# 01/08/2022
+# 31/10/2025
 
-- BugFix na desconexão de um dispositivo no mesmo barramento
+- Gestion formatType UInt8 et Int8
 
-# 16/08/2022
 
-- Escolha da porta para Modbus TCP (por padrão 502)
+# 28/10/2025
 
-# 23/09/2022
+- Optimisation et fix sur multiples clients TCP
 
-- Biblioteca pyModbus de logs de alterações
+# 18/07/2025
 
-# 26/09/2022
+- Ajout Configurer Fc16 via bootbox pour valeurs et format
 
-- Novo parâmetro de tempo limite entre o registro de leitura
+# 01/04/2025
+
+- Ajout option MQTT : envoie des infos de registres sur broker MQTT (nécessite le plugin officiel MQTT)
+
+
+# 19/03/2025
+
+- OS Minimum : Debian 11
+- Jeedom Minimum : 4.4.19
+- Montée de version de pymodbus en 3.8.6
+- Passage en asynchrone
+- Suppression ByteOrder car non standard avec Modbus
+- Suppression du parametre Nombre de registres : gérer maintenant via le choix du format de données choisi
+- Refonte conversion registres
+
+
+# 30/10/2025
+
+- Fix Debian12
+
+# 06/02/2025
+
+- Fix error NameCmd
+
+
+# 11/08/2024
+
+- Corrigir vazamento de memória do Python3
+
+# 30/07/2024
+
+- Adicionando registro na mensagem EcritureBit
+
+# 26/07/2024
+
+- Adicionado novo método para alterar bits em um registrador (veja o documento)
+- Adicionado na configuração do plugin : Escolha do nível de log da biblioteca Modbus
+
+
+# 18/07/2024
+
+- Adicionando formato String
+- Melhor precisão dos formatos de dados no seletor
+
+
+# 26/03/2024
+
+- Correção de atualização para versão específica do pymodbus
+
+# 29/05/2023
+
+FAÇA BACKUP DO JEEDOM ANTES DE INSTALAR O NOVO BETA.
+- Escreva 1 bit
+- Pedidos de importação/exportação via Xlsx
+- Nova operação de sintaxe no comando (consulte o documento)
+- Fixs
+
+# 15/05/2023
+
+- Novas configurações de comando da interface do usuário
+- Valores de otimizações de conversão
+- Parâmetro de Retorno Hexadecimal
+
+# 03/04/2023
+
+- Novas configurações de comando da interface do usuário
+- Parâmetro ArrayRegistres para escrever consecutivamente a partir de um registro inicial
+
+# 10/01/2023
+- Corrigir pacotes de importação para python 3.9
+
+# 13/10/2022
+- Opção Ativar/Desativar Mensagem de Gravação
+- Opção nbBytes para determinar a divisão de um registro em x bytes
 
 # 10/07/2022
-
 - Novo sistema de modelo pré-gravado
 - Opção ReadMultiRegisters nos comandos
 
-# 13/10/2022
+# 26/09/2022
+- Novo parâmetro de tempo limite entre o registro de leitura
 
-- Opção Ativar/Desativar Mensagem de Gravação
-- Opção nbBytes para determinar a divisão de um registro em x bytes
+# 23/09/2022
+- Biblioteca pyModbus de logs de alterações
+
+# 16/08/2022
+- Escolha da porta para Modbus TCP (por padrão 502)
+
+# 01/08/2022
+- BugFix na desconexão de um dispositivo no mesmo barramento
+
+# 02/05/2022
+- Função Exportando um arquivo Json e Importando pedidos por Equipamento
+
+# 20/03/2022
+- Função Fc16 Registrador não seguido
+
+# 14/02/2022
+- Função Fc16 para PLCs sem Fc6
+
+# 02/03/2022
+- Versão beta, compatível com 4.2.7

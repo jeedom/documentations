@@ -56,7 +56,7 @@
         "Permet de gérer le protocole MyHome Bus": "Le permite administrar el protocolo MyHome Bus",
         "Plugin permettant de créer un device Modbus\/Jeedom": "Complemento que permite crear un dispositivo Modbus\/Jeedom",
         "Modbus Server": "Servidor Modbus",
-        "Plugin Modbus Non compatible Wago": "Complemento Modbus No compatible con Wago",
+        "Plugin Modbus - RTU - TCP": "",
         "Lora Payload": "Carga útil de Lora",
         "Plugin permetant le décodage des Payloads Lora": "Complemento que permite decodificar Lora Payloads",
         "Attention le plugin passera payant quand il passera en stable": "Tenga en cuenta que el complemento pagará cuando se establezca",

@@ -1,13 +1,12 @@
-# Modbus
+## Plugin Modbus
 
-#Description
+### Description
 
-Plugin zum Lesen und Schreiben auf Ihren ModbusTCP/IP- und RTU-Geräten
-Nicht kompatibel mit Wago zur Zeit
+Plugin permettant de lire et écrire sur vos équipements ModbusTCP/IP et RTU avec une architecture asynchrone.
 
+---
 
-
-# Plugin-Setup
+### Plugin-Setup
 
 Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es wie jedes Jeedom-Plugin zuerst aktivieren :
 
@@ -21,207 +20,490 @@ Starten Sie abschließend den Daemon :
 
 ![demon](./images/ModbusDemon.png)
 
-Rien n'est à modifier dans le champ « Port socket interne » de la section « Configuration ».
-
 ![socket](./images/ModbusConfig.png)
 
-Auf derselben Registerkarte müssen Sie den Ruhewert zwischen dem Aktualisieren Ihrer Ausrüstung auswählen (standardmäßig 5 Sek)
+#### Paramètres de Configuration
 
-Sie können auch einen Wiederholungsversuch setzen, um die Anforderung für einen Befehl/eine Ausrüstung erneut auszuführen, die fehlerhaft wäre (standardmäßig False)
-Sie können auch die Anzahl der Versuche und die Verzögerung zwischen diesen Versuchen auswählen.
+**Architecture Moderne** : Le plugin utilise désormais une architecture asynchrone avec gestion de queue Python pour optimiser les performances, la stabilité et gérer de manière optimale les connexions.
 
+**Paramètres disponibles** :
 
+- **Utilisation de MQTT** : Permet de publier les valeurs des registres sur un broker MQTT (nécessite le plugin MQTT officiel installé et configuré)
+- **Port Socket** : Port d'écoute du daemon Python (55030 par défaut, ne pas modifier sauf conflit)
+- **Niveau de Log de la librairie Modbus** : Niveau de verbosité de la librairie pymodbus
+  - ERROR (par défaut, recommandé) : Affiche uniquement les erreurs critiques
+  - Warnung : Affiche les avertissements
+  - DEBUG : Mode verbeux pour le débogage
+  - CRITICAL : Uniquement les erreurs fatales
+- **Délai entre chaque boucle d'interrogation** : Temps d'attente entre les cycles de lecture des équipements (en secondes). Utilisé par le système de queue pour espacer les lectures.
+- **Nombre de devices lus en parallèle** : Nombre d'équipements interrogés simultanément (3 par défaut). Augmenter si vous avez beaucoup d'équipements rapides, diminuer si vous avez des problèmes de stabilité.
+- **Messages validation/erreur Write** : Affiche des notifications lors des opérations d'écriture
 
+**Gestion automatique des erreurs** : Le système gère automatiquement les erreurs de communication avec :
+- Reconnexion intelligente en cas d'échec
+- Backoff progressif (augmentation du délai de retry)
+- Suivi du statut de chaque équipement
+- Réutilisation des connexions TCP pour optimiser les performances
 
-# Nutzung des Plugins
+:warning: **WICHTIG** : Après toute modification de la configuration, pensez à **sauvegarder ET redémarrer le daemon**.
 
+---
 
-WICHTIG :
+### Nutzung des Plugins
 
-Um das Plugin zu verwenden, müssen Sie die Parameter Ihrer Ein-/Ausgänge Ihrer Modbus-Peripherie kennen (Datenformat, Bitreihenfolge usw...)
+**WICHTIG** :
 
-Für Befehle gibt es Parameter zur Auswahl :
+Pour utiliser le plugin, vous devez connaître les paramètres de vos entrées/sorties Modbus :
+- Format des données (int16, int32, float32, etc.)
+- Ordre des mots - Non ou Oui (Big Word / Little Word)
+- Registres de départ et nombres de registres
 
-Parameterdetails :
-- Negativer Wert : für Formate vom Typ LONG/INT müssen Sie angeben, ob der Schreib-/Lesewert negativ sein soll
-- Versatz : ob der Offset in den Registernummern bestimmter Modbus-Geräte berücksichtigt wird oder nicht
-- Wählen Sie die Slider-Tonhöhe : Hiermit wählen Sie den Schritt des Schiebereglers im Falle eines Befehls vom Typ Aktion/Schieberegler, wenn Sie nicht ganzzahlige Werte senden möchten.
+#### Paramètres des commandes :
 
+- **Versatz** : Prise en compte du décalage de numérotation des registres (certains équipements commencent à 0, d'autres à 1)
+- **Inverser les mots** : Ordre d'assemblage des mots dans les registres
+- **Pas du slider** : Incrément du slider pour les commandes Action/Slider (permet d'envoyer des valeurs décimales)
 
+#### Import/Export de configuration
 
+Gain de temps lors de la configuration ! Vous pouvez exporter les commandes d'un équipement déjà créé vers un fichier .json local.
 
-WICHTIG :
+Vous pourrez ensuite l'importer sur un nouvel équipement du même type (il suffira d'adapter les paramètres de connexion spécifiques).
 
-In Anbetracht der Zeit, die für die Konfiguration bestimmter Geräte aufgewendet werden muss, ist es möglich, die Befehle eines bereits erstellten Geräts zu exportieren und es lokal in .json herunterzuladen.
+Sur la page d'un équipement, vous trouverez les boutons d'import/export :
 
-Sie können es also entweder auf eine andere Box problemlos auf ein neues Gerät des gleichen Typs importieren (nur um das zu ändern, was sich in Bezug auf seine Verbindung unterscheidet)
+![dependances](./images/importJson.png)
 
+---
 
-Auf der Ausrüstungsseite unten rechts haben Sie diesen Einsatz : 
+## WIEDERGABESTEUERUNG
 
-![dependances](./images/exportFunction.png)
+### FC01 - Read Coils (Bobines de sortie)
 
+Pour lire des Coils :
+1. Créer une Nouvelle Commande Modbus
+2. Type : **Info**, Sous-type : **Binaire** ou **Numérique**
+3. Choisir le function code : **FC01**
+4. Renseigner le **Abgangsregister** et le **nombre de bits à lire**
 
-Klicken Sie auf Liste der zu exportierenden Bestellungen; Es öffnet sich ein Fenster mit den vorhandenen Befehlen auf diesem Gerät:
+**WICHTIG** : La commande initiale sera automatiquement supprimée pour créer autant de commandes individuelles que le nombre de registres spécifiés.
 
-![dependances](./images/choiceCmds.png)
+**Beispiel** : Si vous choisissez registre de départ = 1 et nombre = 4, il sera créé :
+- ReadCoil_1
+- ReadCoil_2  
+- ReadCoil_3
+- ReadCoil_4
 
-Sie können sie bei Bedarf alle auswählen, indem Sie die Schaltfläche oben im Fenster verwenden. 
-Wenn die Befehle ausgewählt sind, klicken Sie auf Validieren.
+Vous pouvez ensuite renommer ces commandes à votre convenance.
 
+---
 
+### FC02 - Read Discrete Inputs (Entrées discrètes)
 
-In diesem Feld sehen Sie nun die ausgewählten Bestellungen, die für den Export bereit sind :
+Pour lire des entrées discrètes :
+1. Créer une commande **Info** / **Autre**
+2. Choisir **FC02**
+3. Format : **Bits**
+4. Word order : Selon votre équipement (Big ou Little)
+5. Renseigner le **Abgangsregister**
+6. Indiquer le **nombre de bits à lire** (0 à 15)
 
-![dependances](./images/exportCmds.png)
+**Retour** : La commande retournera une chaîne de caractères (string) représentant les bits lus (ex: "10110001").
 
-Sie müssen nur auf Download Config der gerade erschienenen Bestellungen klicken.
+---
 
+### FC03 - Read Holding Registers (Registres de maintien)
+### FC04 - Read Input Registers (Registres d'entrée)
 
+Pour lire des registres numériques :
+1. Créer une Nouvelle Commande Modbus
+2. Type : **Info**, Sous-type : **Numérique**
+3. Choisir le format approprié :
+   - **Float** (float32, float64) : Valeurs décimales
+   - **Integer** (int16, int32, int64, uint16, uint32, uint64) : Valeurs entières
+   - **Bits** : Pour une représentation binaire
+4. Choisir le function code : **FC03** ou **FC04**
+5. Renseigner le **Abgangsregister**
+6. Nombre de registres : 
+   - Float32 : 2 registres
+   - Float64 : 4 registres
+   - Int16/Uint16 : 1 registre
+   - Int32/Uint32 : 2 registres
+   - Int64/Uint64 : 4 registres
 
-Importieren von Befehlen in Geräte : Klicken Sie oben rechts neben dem Gerät auf die Schaltfläche Import Json :
+---
 
-![dependances](./images/importFunction.png)
+## BEFEHLE SCHREIBEN
 
-
-
-
-
-Sie können auch direkt ein Gerätemodell auswählen, das in der Konfiguration des Plugins verfügbar ist, um die in diesem Modell bereitgestellten Befehle zu laden; 
-Wählen Sie das ausgewählte Modell und dann Validieren. Dann können Sie speichern. 
-
-
-
-
-
-
-WIEDERGABESTEUERUNG :
-
-Für Spulen und diskrete Eingänge :  
-  - Sie fügen einen neuen Modbus-Befehl hinzu und benennen den Befehl. Sie wählen einen Befehl vom Typ Info unter Binary oder Numeric type aus.
-  - Wählen Sie den entsprechenden Funktionscode : FC01 oder FC02
-  - Es ist dann notwendig, das Startregister sowie die Anzahl der zu lesenden Bytes (Anzahl der Register)
-  Beim Speichern wird der erstellte Befehl gelöscht, um so viele Befehle wie die angegebene Anzahl von Bytes zu erstellen.
-  Ex: Wenn Sie ein Startregister von 1 und eine Anzahl von Bytes von 4 wählen, werden die Befehle erstellt : ReadCoil_1, ReadCoil_2, ReadCoil_3, ReadCoil_4
-  - Sie können die ReadCoils/Discretes dann natürlich nach Ihren Wünschen umbenennen.
-
-
-
-  Für Halteregister und Eingangsregister:
-  - Sie fügen einen neuen Modbus-Befehl hinzu und benennen den Befehl. Sie wählen einen Befehl vom Typ Info unter Numerischer Typ.
-  - Wählen Sie das entsprechende Format aus : Float , Long/Integer oder Bits
-  - Wählen Sie den entsprechenden Funktionscode : FC04 oder FC03
-  - Das Startregister sowie die Anzahl der Bytes : Für Gleitkommazahlen beträgt die maximale Anzahl codierter Register 4 Register.
-  
-  
-Einige Register können nur gelesen werden, indem mehrere Register gleichzeitig mit demselben Befehl gelesen werden :
-
-Beispiel : Wir erstellen einen Befehl, wählen Info und einen anderen Untertyp und geben 10 Bytes (10 Register) an; Durch Aktivieren von LectureMultiRegistres werden automatisch 10 neue Bestellungen erstellt, wobei der Name der ursprünglichen Bestellung plus die ID der Bestellung in Iteration verwendet wird. Sie können die Befehle natürlich umbenennen; Beim Lesen des ursprünglichen Befehls enthält sein Wert eine Zeichenfolge der 10 Registerwerte und aktualisiert die 10 entsprechenden Befehle.
-
-
-
-Einige Register müssen möglicherweise in mehrere Bytes aufgeteilt werden :
-Beispiel : Ein Register 17 muss laut Dokumentation des Geräts einen Wert FF oder 00 (um zu wissen, ob ein Lüfter funktioniert oder nicht) im ersten Byte des Registers sowie einen numerischen Wert im zweiten Byte des Registers zurückgeben.
-Es ist dann notwendig, einen Befehl in fc3 zu erstellen und im Feld nbOctets die Ziffer 2 anzugeben; Dadurch werden 2 zusätzliche Befehle erstellt, basierend auf dem Namen des ursprünglichen Befehls. diese 2 Befehle entsprechen jeweils einem Byte. Die oben zurückgegebenen Werte sind hexadezimal; Wenn Sie den numerischen Wert benötigen, müssen Sie Hexa2dec mit demselben Befehl überprüfen.
-
-
-
-BEFEHLE SCHREIBEN:
-
- Auf Ihrem Gerät werden standardmäßig 3 Aktions-/Nachrichtentyp-Befehle erstellt; Multiregister-Schreiben, Bit-Schreiben und Multicoil-Schreiben
-
-
-WICHTIG :
-
-
- Ihr Funktionsprinzip:
-
-
+Par défaut, 3 types de commandes d'écriture sont proposées lors de la création d'un équipement :
+- **Ecriture MultiRegistre** (FC16)
+- **Bit schreiben** (FC06 pour modifier un bit spécifique)
+- **Ecriture MultiCoils** (FC15)
 
 ![cmdEcritures](./images/modbusCmdsEcritures.png)
 
+---
+
+### FC16 - Écriture Multi-Registres Consécutifs
+
+**Utilisation** : Écrire sur plusieurs registres **qui se suivent** en une seule opération.
+
+#### Méthode 1 : Configuration statique via l'interface
+
+1. Créer une commande **Action/Défaut**
+2. Choisir le function code : **FC16**
+3. Cliquer sur le bouton **"Configurer FC16"** qui apparaît
+
+![cmdEcritures](./images/configFc16.png)
+
+4. Dans la fenêtre qui s'ouvre, configurer pour chaque registre :
+   - La valeur à écrire
+   - Le format de donnée (int16, int32, float32, etc.)
+
+![cmdEcritures](./images/bootboxFc16.png)
+
+5. Ajouter/Supprimer des lignes selon vos besoins
+6. Renseigner le **Abgangsregister** sur la commande
+
+**WICHTIG** : Les valeurs seront écrites séquentiellement à partir du registre de départ, en tenant compte du nombre de registres requis par chaque format.
+
+**Beispiel** :
+- Abgangsregister : 10
+- Valeur 1 : 15 (format int32) → Écrira sur les registres 10 et 11
+- Valeur 2 : 20 (format int16) → Écrira sur le registre 12
+- Etc.
+
+#### Méthode 2 : Écriture dynamique via Message (isSpecific)
+
+Cette méthode permet de **choisir le registre et la valeur à runtime** depuis un scénario ou le dashboard, sans reconfigurer la commande.
+
+1. Créer une commande **Action/Message**
+2. Choisir le function code : **FC16**
+3. Cocher **"isSpecific"** dans la configuration avancée
+4. Envoyer le message avec la syntaxe souhaitée (voir ci-dessous)
+
+##### Formats acceptés
+
+**Format standard — `registre|valeur|format`** *(recommandé)*
+
+Le registre spécifié dans le message remplace le registre de départ configuré sur la commande.
+
+```
+84|210|int16
+```
+→ Écrira 210 (int16) au registre 84
+
+**Plusieurs registres consécutifs** : séparer par `;`
+
+```
+84|210|int16;85|1500|uint16
+```
+→ Écrira 210 au registre 84, puis 1500 au registre 85
+
+**Format court — `valeur|format`** *(utilise le registre de départ configuré)*
+
+```
+210|int16
+```
+→ Écrira 210 (int16) au registre de départ défini sur la commande
+
+**Ancien format — `registre!valeur&code`** *(compatibilité ascendante)*
+
+```
+84!20&1
+```
+→ Écrira 20 au registre 84, format code 1
+
+| Code | Format |
+|------|--------|
+| `1`  | int16  |
+| `2`  | int32  |
+| `3`  | Float32 |
+| `4`  | uint16 |
+| `5`  | uint32 |
+
+##### Formats de données disponibles
+
+`int16`, `int32`, `int64`, `uint16`, `uint32`, `uint64`, `float32`, `float64`
+
+##### Exemple scénario Jeedom
+
+```
+// Écriture dynamique : registre 84, valeur 210, format int16
+#[Equipement][Ecriture Eqlogic1][message]# = "84|210|int16"
+
+// Plusieurs registres consécutifs
+#[Equipement][Ecriture Eqlogic1][message]# = "84|210|int16;85|1500|uint16"
+```
+
+#### Méthode 3 : Configuration par scénario PHP
+
+Vous pouvez également modifier la configuration statique FC16 via un scénario :
+
+```php
+$cmd = cmd::byId(iddevotrecommande);
+if(is_object($cmd)){
+    $cmd->setConfiguration('arrayRegisters', [
+        ['value' => '10', 'format' => 'intformat16'],
+        ['value' => '25.5', 'format' => 'floatformat32'],
+        ['value' => '12', 'format' => 'intformat16']
+    ]);
+    $cmd->save();
+}
+```
+
+---
+
+### FC06 - Écriture Simple ou Multi-Registres NON Consécutifs
+
+**Utilisation** : Écrire sur un seul registre OU sur plusieurs registres **non consécutifs** (registres éparpillés).
+
+#### Méthode 1 : Écriture simple avec Slider
+
+Pour une écriture sur **un seul registre** avec choix de valeur dynamique :
+
+1. Créer une commande **Action/Curseur**
+2. Choisir le function code : **FC06**
+3. Renseigner :
+   - **Abgangsregister**
+   - **Format de donnée** (int16, float32, etc.)
+   - **Min/Max** du slider
+4. Actionner le curseur sur le dashboard pour envoyer la valeur choisie
+
+#### Méthode 2 : Écriture multi-registres NON consécutifs (interface)
+
+Pour écrire sur **plusieurs registres à des adresses différentes** :
+
+1. Créer une commande **Action/Défaut**
+2. Choisir le function code : **FC06**
+3. Cocher **"Ecriture Registres non suivis"**
+4. Cliquer sur **"Configurer FC6"**
+5. Configurer chaque registre :
+   - Numéro du registre
+   - Valeur à envoyer
+   - Format de donnée
+
+#### Méthode 3 : Écriture multi-registres via Message
+
+Pour configurer dynamiquement les registres à écrire :
+
+1. Créer une commande **Action/Message**
+2. Choisir le function code : **FC06**
+3. Cocher **"isSpecific"** dans la configuration avancée
+4. Dans le corps du message, utiliser la syntaxe :
+
+```
+adresseRegistre|valeur|format;adresseRegistre2|valeur2|format2;...
+```
+
+**Formats disponibles** :
+- `int16`, `int32`, `int64`
+- `uint16`, `uint32`, `uint64`
+- `float32`, `float64`
+
+**Beispiel** :
+```
+100|25.5|float32;105|1|int16;200|15000|uint32
+```
+Ceci écrira :
+- 25.5 (float32) sur le registre 100
+- 1 (int16) sur le registre 105
+- 15000 (uint32) sur le registre 200
+
+---
+
+### FC05 - Écriture Single Coil (Bobine unique)
+
+**Utilisation** : Écrire True/False (1/0) sur une seule bobine.
+
+#### Exemple pour activer la bobine 1 (ON) :
+
+1. Créer une commande **Action/Défaut**
+2. Choisir **FC05 - Write Single Coil**
+3. Registre de départ : **1**
+4. Nb de bytes : **1**
+5. Valeur à envoyer : **1**
+
+#### Exemple pour désactiver la bobine 1 (OFF) :
+
+1. Créer une autre commande **Action/Défaut**
+2. Choisir **FC05 - Write Single Coil**
+3. Registre de départ : **1**
+4. Nb de bytes : **1**
+5. Valeur à envoyer : **0**
+
+En activant ces commandes depuis le dashboard, vous enverrez True (1) ou False (0) à la bobine.
+
+---
+
+### FC15 - Écriture Multi-Coils (Plusieurs bobines)
+
+**Utilisation** : Écrire sur plusieurs bobines consécutives en une seule opération.
+
+1. Créer une commande **Action/Défaut**
+2. Choisir **FC15 - Write Multiple Coils**
+3. Renseigner le **Abgangsregister**
+4. Configurer le tableau de valeurs via **"Configurer FC15"** ou **arrayCoils**
+
+**Format** : Tableau de valeurs 0 ou 1 pour chaque bobine.
+
+---
+
+### Écriture Bit - Modifier un bit spécifique dans un registre
+
+**Utilisation** : Changer la valeur d'un seul bit dans un registre sans affecter les autres bits.
+
+Une commande **"Bit schreiben"** est créée par défaut sur vos équipements.
+
+#### Configuration :
+
+1. La commande utilise par défaut **FC03** pour lire d'abord la valeur actuelle du registre
+2. Une commande info **"infobitbinary"** affiche la représentation binaire du registre
+3. Pour changer un bit, utiliser la syntaxe dans le corps du message :
+
+```
+valeur&positionBit&registre
+```
+
+**Beispiel** :
+```
+1&4&100
+```
+Écrit la valeur **1** au bit de **position 4** (en partant de la droite) dans le **registre 100**.
+
+#### Visualisation :
+
+Si "infobitbinary" affiche `10000101` et que vous envoyez `1&6` :
+- Avant : `10000101`
+- Après : `10100101`
+Le bit en position 6 est passé à 1.
+
+---
+
+## Spezifische Parameter
+
+### Retour Hexadécimal
+
+Pour obtenir la valeur d'un registre en hexadécimal (utile pour les codes d'erreur) :
+
+1. Créer/Configurer votre commande normalement
+2. Cocher **"HEX-RÜCKKEHR"**
+3. La commande passera automatiquement en sous-type **String**
+4. Les valeurs retournées seront en hexadécimal
+
+---
+
+### Lecture Multi-Registres
+
+Pour créer automatiquement des commandes individuelles à partir d'une lecture groupée :
+
+1. Créer une commande de lecture
+2. Cocher **"LectureMultiRegistres"**
+3. Spécifier le **nombre de registres**
+
+**Résultat** : Le plugin créera automatiquement autant de commandes que le nombre de registres spécifié.
+
+**Beispiel** : Si vous lisez 10 registres consécutifs, 10 nouvelles commandes seront créées (une par registre).
+
+La commande originale contiendra une chaîne de caractères avec toutes les valeurs, et mettra à jour automatiquement les 10 commandes individuelles.
+
+---
+
+### BETRIEB AUF BESTELLUNG
+
+Pour appliquer un calcul mathématique sur la valeur retournée :
+
+1. Dans le champ **"Opération sur la commande"**
+2. Utiliser le tag `#value#` pour représenter la valeur brute
+3. Écrire l'opération mathématique
+
+**Exemples** :
+```
+(#value# / 10)
+(#value# * 2) + 5
+(#value# - 32) * 5 / 9
+```
+
+**Opérateurs disponibles** : `+`, `-`, `*`, `/`
+
+**WICHTIG** : Bien utiliser `*` pour les multiplications (pas `x`).
+
+---
+
+### Lecture Bits du Registre
+
+Pour visualiser tous les bits d'un registre sous forme binaire :
+
+1. Créer/Configurer une commande **Info**
+2. Cocher **"Registerbits lesen"**
+
+**Résultat** : Une nouvelle commande **Info/String** sera créée automatiquement, affichant les 16 bits du registre sous forme de chaîne binaire (ex: `1011001010010110`).
+
+Cette commande sera mise à jour automatiquement à chaque lecture du registre.
+
+---
+
+## Import/Export Commandes JSON
+
+Vous pouvez exporter/importer un fichier JSON pour créer rapidement toutes les commandes d'un équipement
+Il vous faut configurer les commandes d'un équipement, puis de cliquer sur Exporter Commandes en JSON sur la partie droite de la page. Cela téléchargera le JSON sur votre navigateur.
+Vous pourrez ensuite l'importer sur un autre équipement similaire sur cette Jeedom ou une autre, et retrouver le meme parametrage de commandes
 
 
+### Utilisation
 
-  - MultiRegister-Schreiben : In der Konfiguration des Befehls müssen Sie das Startregister sowie die Reihenfolge der Bytes und des Wortes eingeben.
-  Standardmäßig ist der Funktionscode FC16. Bitte belassen Sie diese Konfiguration als Standard.
+1. Télécharger/Exporter le JSON
+2. Sur la page d'un équipement, utiliser le bouton **"Importer JSON de commandes"**
+3. Sélectionner votre fichier
 
-  Verwenden Sie diese Syntax, um die Werte in den Registern zu ändern:
-  - valuetosend&nbofregister, getrennt durch | :   Ex:  120&1|214.5&4 Wir senden die Ganzzahl 120 an ein Register, beginnend mit dem konfigurierten Startregister,
-  dann 214.5 in Float auf 4 Registern, die dem vorherigen folgen.
+Toutes les commandes seront créées automatiquement avec leurs paramètres.
 
-  Schreiben Sie für Float-Typen den Wert wie oben mit a .
+---
 
+## MQTT
 
-  - Multicoil-Schreiben : In der Konfiguration des Befehls müssen Sie das Startregister eingeben
-  Standardmäßig ist der Funktionscode fc15. Bitte belassen Sie diese Konfiguration als Standard.
+### Activation
 
-  Verwenden Sie diese Syntax, um die Werte in den Registern zu ändern:
-  -  Ex : 01110111 Damit werden vom konfigurierten Startregister die Werte True(1) oder False(0) an die Register gesendet
+Dans la configuration du plugin, cocher **"Utilisation de MQTT"**.
 
+**Prérequis** : Le plugin officiel MQTT Manager doit être installé et configuré.
 
+### Fonctionnement
 
+Au démarrage du daemon Modbus :
+- Un topic est créé automatiquement sur le broker MQTT
+- À chaque mise à jour des valeurs, les données sont publiées sur MQTT
 
-  - Bit schreiben : In der Konfiguration des Befehls müssen Sie das Startregister sowie die Reihenfolge der Bytes und des Wortes eingeben.
-  Standardmäßig ist der Funktionscode fc03, da dieser Befehl den Wert des Registersatzes binär an die Befehlsinfo "infobitbinary".
+**Topic par défaut** :
+```
+jeeModbusMQTT/nomDeLequipement/dataCmds
+```
 
-  Bitte belassen Sie diese Konfiguration als Standard.
+### Personnalisation du Topic
 
-  Beim Befehl info "infobitbinary" haben Sie den Binärwert des Parameterregisters beim Befehl Write Bit.
-  Um das Bit im Register zu ändern
+Sur la page d'un équipement, vous pouvez modifier le topic par défaut :
 
-  - valuetosend&PositionBit :   Ex:  1&4 Wir senden den Wert 1 an das Bit der Position 4 von rechts beginnend
-  Auf dem Info-Befehl „infobitbinary“ sehen Sie den Wert 10000101, was dem binären Wert des Parameterregisters entspricht.
-  Indem Sie 1&6 schreiben, haben Sie jetzt den Wert : 10100101 auf dem konfigurierten Register.
+![renammeTopic](./images/renammeTopic.png)
 
+Remplacez "nomDeLequipement" par le nom de votre choix.
 
+---
 
-WICHTIG :
+## Conseils et Bonnes Pratiques
 
+1. **Testez d'abord** : Commencez par lire quelques registres pour valider la connexion avant de créer toutes les commandes
+2. **Utilisez l'offset** : Vérifiez la documentation de votre équipement pour savoir s'il faut activer l'offset
+3. **Word Order** : En cas de valeurs incohérentes, essayez de changer l'ordre des mots (Big Word / Little Word)
+4. **Logs** : En cas de problème, passez temporairement en mode DEBUG et consultez les logs
+5. **Performance** : Ajustez le nombre de devices lus en parallèle selon votre infrastructure
+6. **MQTT** : Utilisez MQTT pour intégrer facilement vos données Modbus avec d'autres systèmes (Node-RED, Home Assistant, etc.)
 
-Einige SPS haben die Funktion fc06 nicht
-Sie können unter Nachrichtentyp einen Aktionsbefehl erstellen und fc16 auswählen
-Überprüfen Sie das Fc16-Register nicht verfolgt
-Im Dashboard müssen Sie diese Syntax verwenden :
-Abgangsregister ! Wert & nbRegister durch a getrennt |
+---
 
-Ex: 7!122.5&2|10!22&2
+## Support
 
-Wir schreiben aus Register 7 den Wert 122.5 auf 2 Register und auch von Register 10, der Wert 22, auf 2 Register
+En cas de problème, consultez :
+1. Les logs du plugin (niveau DEBUG si nécessaire)
+2. La community Jeedom
+3. Le GitHub du plugin pour signaler un bug
 
-
-
-Auf einer Spule schreiben :
-
-Beispiel für Register 1 Ein:
-- Sie fügen einen neuen Modbus-Befehl hinzu und benennen den Befehl. Sie wählen einen Aktionstypbefehl unter Standardtyp aus.
-- Wählen Sie Fc5 Write Single Coil
-- Abgangsregister : 1
-- Anzahl Bytes : 1
-- Geben Sie 1 in den zu sendenden Wert ein
-
-Beispiel für Register 1 Aus:
-- Sie fügen einen neuen Modbus-Befehl hinzu und benennen den Befehl. Sie wählen einen Aktionstypbefehl unter Standardtyp aus.
-- Wählen Sie Fc5 Write Single Coil
-- Abgangsregister : 1
-- Anzahl Bytes : 1
-- Geben Sie 0 in den zu sendenden Wert ein
-
-
-Indem Sie auf diese Aktionsbefehle auf Ihrem Dashboard reagieren, senden Sie daher True oder False an Ihre Coils.
-
-
-
-
-In ein Halteregister schreiben :
-
-- Sie fügen einen neuen Modbus-Befehl hinzu und benennen den Befehl. Sie wählen einen Aktionstypbefehl unter Schiebereglertyp aus.
-- Wählen Sie auch einen Min- und Max-Wert für diesen Schieberegler (denken Sie daran, einen Min-Wert zu verwenden, um einen negativen Wert zu senden)
-- Wählen Sie Bc6 Write Single Register
-- Wählen Sie die Anzahl der Register : 1
-- Wählen Sie den Schritt des Schiebereglers (für Dezimalzahlen schreiben Sie mit a .   ex: 0.2)
-
-
-
-Wenn ein Schreibvorgang abgeschlossen ist, unabhängig davon, ob er erfolgreich ist oder nicht, wird auf Jeedom eine Nachricht angezeigt. 
-Sie können diese Meldung in der Plugin-Konfiguration deaktivieren/aktivieren.

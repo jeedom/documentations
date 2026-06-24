@@ -54,7 +54,7 @@
         "Plugin permettant de créer un device Modbus\/Jeedom": "Plugin permettant de créer un device Modbus\/Jeedom",
         "Modbus Server": "Modbus Server",
         "Modbus": "Modbus",
-        "Plugin Modbus Non compatible Wago": "Plugin Modbus Non compatible Wago",
+        "Plugin Modbus - RTU - TCP": "Plugin Modbus - RTU - TCP",
         "Lora Payload": "Lora Payload",
         "Plugin permetant le décodage des Payloads Lora": "Plugin permetant le décodage des Payloads Lora",
         "Attention le plugin passera payant quand il passera en stable": "Attention le plugin passera payant quand il passera en stable",
