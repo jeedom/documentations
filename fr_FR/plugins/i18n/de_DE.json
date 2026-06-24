@@ -56,7 +56,7 @@
         "Permet de gérer le protocole MyHome Bus": "Ermöglicht die Verwaltung des MyHome Bus-Protokolls",
         "Plugin permettant de créer un device Modbus\/Jeedom": "Plugin zum Erstellen eines Modbus\/Jeedom-Geräts",
         "Modbus Server": "ModbusServer",
-        "Plugin Modbus - RTU - TCP": "",
+        "Plugin Modbus - RTU - TCP": "Plugin Modbus - RTU - TCP",
         "Lora Payload": "Lora Nutzlast",
         "Plugin permetant le décodage des Payloads Lora": "Plugin zur Dekodierung von Lora Payloads",
         "Attention le plugin passera payant quand il passera en stable": "Bitte beachte, dass das Plugin zahlt, wenn es in den Stall geht",
