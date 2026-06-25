@@ -1,6 +1,7 @@
 {
 	"id": "arenti",
 	"name": "Arenti",
+	"version": "1.0.0",
 	"description": {
 		"fr_FR": "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API Arenti",
 		"en_US": "Plugin to retrieve information and control synchronized devices on the Arenti API",
@@ -10,6 +11,14 @@
 		"it_IT": "Plugin per recuperare informazioni e controllare i dispositivi sincronizzati su Arenti API"
 	},
 	"utilization": "Après avoir entré l'identifiant et le mot de passe dans la page de configuration, lancez une synchronisation.</br>Toutes les commandes viendront au fur et à mesure : en lançant une impression, elles devraient toutes être créées.",
+	"notice": {
+		"fr_FR": "Des CVE et vulnérabilités publiques touchent actuellement l'écosystème CloudEdge/Meari. Leur périmètre dépasse ce plugin : infrastructure cloud, MQTT/OSS, SDK/applications mobiles et firmwares peuvent être concernés. Le plugin ne corrige pas ces failles amont, n'utilise que les appareils rattachés à votre compte authentifié et ne réalise aucune collecte tierce. Usage réservé aux appareils dont vous êtes propriétaire ou administrateur.",
+		"en_US": "Public CVEs and vulnerabilities currently affect the CloudEdge/Meari ecosystem. Their scope is broader than this plugin: cloud infrastructure, MQTT/OSS, SDK/mobile applications and firmware may be affected. This plugin does not fix upstream vulnerabilities, only uses devices attached to your authenticated account and does not perform third-party collection. Use only with devices you own or administer.",
+		"es_ES": "Actualmente, las CVE y vulnerabilidades públicas afectan al ecosistema CloudEdge/Meari. Su alcance es más amplio que este plugin: la infraestructura en la nube, MQTT/OSS, SDK/aplicaciones móviles y firmware pueden verse afectados. Este plugin no corrige las vulnerabilidades ascendentes, solo utiliza los dispositivos adjuntos a su cuenta autenticada y no realiza ninguna recopilación de terceros. Úselo solo con dispositivos que posea o administre.",
+		"pt_PT": "Atualmente, as CVEs e vulnerabilidades públicas afetam o ecossistema CloudEdge/Meari. Seu escopo é mais amplo do que este plugin: infraestrutura de nuvem, MQTT/OSS, SDK/aplicativos móveis e firmware podem ser afetados. Este plugin não corrige vulnerabilidades a montante, apenas usa dispositivos anexados à sua conta autenticada e não realiza coleta de terceiros. Use apenas com dispositivos que você possui ou administra.",
+		"de_DE": "Öffentliche CVEs und Schwachstellen betreffen derzeit das CloudEdge/Meari-Ökosystem. Ihr Umfang ist breiter als dieses Plugin: Cloud-Infrastruktur, MQTT/OSS, SDK/Mobilanwendungen und Firmware können betroffen sein. Dieses Plugin behebt keine Upstream-Schwachstellen, verwendet nur Geräte, die an Ihr authentifiziertes Konto angehängt sind, und führt keine Drittanbietererfassung durch. Verwenden Sie es nur mit Geräten, die Sie besitzen oder verwalten.",
+		"it_IT": "Attualmente, le CVE e le vulnerabilità pubbliche interessano l'ecosistema CloudEdge/Meari. Il loro ambito è più ampio di questo plugin: infrastruttura cloud, MQTT/OSS, SDK/applicazioni mobili e firmware possono essere interessati. Questo plugin non corregge le vulnerabilità a monte, utilizza solo i dispositivi collegati al tuo account autenticato e non esegue raccolte di terze parti. Usalo solo con dispositivi di cui sei proprietario o amministratore."
+	},
 	"licence": "AGPL",
 	"author": "DomoFlo1",
 	"require": "4.4",
