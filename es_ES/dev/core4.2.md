@@ -176,11 +176,11 @@ html
 
 <details>
 
-##### . :
+##### .plantilla :
 
 <details>
 
-  <summary markdown="span">plugin. js<summary>
+  <summary markdown="span">plugin.plantilla js<summary>
 
   
   {% raw %}
