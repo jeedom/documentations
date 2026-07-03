@@ -21,7 +21,7 @@
 ## 
 
 - [](core4.4)
-- [Core v4.3](core4.3)
-- [Core v4.2](core4.2)
+- [](core4.3)
+- [](core4.2)
 - [](core4.1)
 - [](core4.0)
