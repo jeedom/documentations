@@ -719,6 +719,8 @@
         "Plugin pour gérer les équipements Netatmo Sécurité et particulièrement les cameras": "Plugin pour gérer les équipements Netatmo Sécurité et particulièrement les cameras",
         "jeezviz": "jeezviz",
         "Plugin de pilotage des caméras et visiophones EZVIZ": "Plugin de pilotage des caméras et visiophones EZVIZ",
+        "Imou": "Imou",
+        "Pilotage des caméras IMOU (marche\/arrêt, surveillance, PTZ…) via l'IMOU Open API": "Pilotage des caméras IMOU (marche\/arrêt, surveillance, PTZ…) via l'IMOU Open API",
         "Le plugin n'installe pas le serveur Frigate mais permet de le controler": "Le plugin n'installe pas le serveur Frigate mais permet de le controler",
         "Frigate": "Frigate",
         "Plugin Frigate pour Jeedom": "Plugin Frigate pour Jeedom",
