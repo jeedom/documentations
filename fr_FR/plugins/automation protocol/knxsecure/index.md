@@ -2,7 +2,7 @@
 
 Le plugin **knxSecure** permet de piloter et superviser une installation **KNX** depuis Jeedom via une passerelle **KNX/IP**. Il prend en charge le **KNX IP Secure** (tunneling TCP chiffré et routing secure), la lecture des projets **ETS** (`.knxproj`) et des trousseaux de clés (`.knxkeys`), ainsi qu'un moniteur de bus temps réel.
 
-![Vue d'ensemble du plugin knxSecure : liste des équipements KNX](images/apercu.png)
+![Vue d'ensemble du plugin knxSecure : liste des équipements KNX](./images/apercu.png)
 
 ## Principe de fonctionnement
 
@@ -28,7 +28,7 @@ Un daemon Python (basé sur la bibliothèque [xknx](https://github.com/XKNX/xknx
 3. Lancez l'installation des dépendances (bouton **Dépendances** sur la page de configuration). Le plugin crée un environnement Python isolé et installe `xknx` et `xknxproject`.
 4. Démarrez le daemon.
 
-![Page de configuration du plugin avec le bouton Dépendances](images/installation.png)
+![Page de configuration du plugin avec le bouton Dépendances](./images/installation.png)
 
 Vérifiez l'état des dépendances et du daemon sur la page **Santé** du plugin (voir ci-dessous).
 
@@ -81,7 +81,7 @@ La page **Santé** du plugin affiche un état synthétique en 7 indicateurs, uti
 
 La page de configuration s'organise en quatre onglets : **Connexion KNX**, **Projet ETS**, **Sécurité**, **Daemon**. Choisissez d'abord le **mode de connexion** en haut de page.
 
-![Onglet Connexion KNX avec le sélecteur de mode de connexion](images/configuration-onglets.png)
+![Onglet Connexion KNX avec le sélecteur de mode de connexion](./images/configuration-onglets.png)
 
 ### Modes de connexion
 
@@ -95,7 +95,7 @@ La page de configuration s'organise en quatre onglets : **Connexion KNX**, **Pro
 
 > **Découverte automatique** : en mode tunneling, le bouton **Découvrir** scanne le réseau à la recherche des passerelles KNX/IP disponibles.
 
-![Découverte automatique des passerelles KNX/IP sur le réseau](images/decouverte.png)
+![Découverte automatique des passerelles KNX/IP sur le réseau](./images/decouverte.png)
 
 ### Tunneling UDP
 
@@ -135,7 +135,7 @@ Pour ce type d'installation, utilisez le plugin **eibd**, prévu pour piloter le
 
 ### Statut des slots tunnel de la passerelle
 
-![Bloc Slots tunnel de la passerelle avec l'état de chaque slot](images/slots-tunnel.png)
+![Bloc Slots tunnel de la passerelle avec l'état de chaque slot](./images/slots-tunnel.png)
 
 En modes tunneling (UDP/TCP/TCP Secure), un bloc **Slots tunnel de la passerelle** affiche en direct :
 
@@ -158,7 +158,7 @@ Exportez le trousseau depuis ETS (*Rapports → Sécurité KNX → Exporter le t
 2. Saisissez son **mot de passe** (défini lors de l'export ETS).
 3. Cliquez sur **Inspecter** pour vérifier les slots tunnel et clés contenus.
 
-![Onglet Sécurité : import du fichier .knxkeys et bouton Inspecter](images/securite-knxkeys.png)
+![Onglet Sécurité : import du fichier .knxkeys et bouton Inspecter](./images/securite-knxkeys.png)
 
 xknx sélectionnera automatiquement un slot tunnel compatible.
 
@@ -183,7 +183,7 @@ L'import d'un projet ETS permet de récupérer automatiquement la liste des adre
 2. Si le projet est protégé, saisissez le **mot de passe ETS**.
 3. Cliquez sur **Analyser le projet**.
 
-![Onglet Projet ETS : dépôt du fichier .knxproj et analyse](images/import-ets.png)
+![Onglet Projet ETS : dépôt du fichier .knxproj et analyse](./images/import-ets.png)
 
 Le plugin extrait les adresses de groupe (avec leur **DPT** d'origine), la topologie (zones, lignes, participants) et les localisations. Ces données alimentent ensuite la création d'équipements et le moniteur de bus.
 
@@ -193,7 +193,7 @@ Le plugin extrait les adresses de groupe (avec leur **DPT** d'origine), la topol
 
 Réimporter un `.knxproj` par-dessus un projet déjà chargé déclenche automatiquement une **comparaison avec l'import précédent**, affichée sous forme de compteurs par type de changement : **ajoutées**, **supprimées**, **DPT modifié**, **renommées**, avec le détail adresse par adresse pour chaque catégorie.
 
-![Comparaison de deux imports ETS : compteurs ajoutées / supprimées / DPT modifié / renommées](images/import-diff.png)
+![Comparaison de deux imports ETS : compteurs ajoutées / supprimées / DPT modifié / renommées](./images/import-diff.png)
 
 Si des DPT ont changé, un bouton **Appliquer les DPT modifiés aux GA et commandes** met à jour en un clic le DPT enregistré sur les adresses de groupe concernées ainsi que sur les commandes des équipements qui les utilisent — évite de corriger chaque commande à la main après une évolution du projet ETS.
 
@@ -205,7 +205,7 @@ Si des DPT ont changé, un bouton **Appliquer les DPT modifiés aux GA et comman
 
 Une fois un projet ETS analysé, le plugin peut créer les équipements tout seul, sans saisie manuelle. Onglet **Import auto** de la modal Projet → sélecteur **Mode**, puis **Analyser** pour prévisualiser, cochez ce qui vous convient, et **Créer les équipements sélectionnés**.
 
-![Import auto : équipements détectés avec leur type, leurs GA et DPT](images/import-auto.png)
+![Import auto : équipements détectés avec leur type, leurs GA et DPT](./images/import-auto.png)
 
 Trois modes de regroupement :
 
@@ -223,7 +223,7 @@ Trois modes de regroupement :
 
 Si vous utilisiez déjà le plugin **eibd**, knxSecure peut **recréer vos équipements** en conservant adresses de groupe et commandes — pas besoin de tout ressaisir.
 
-![Migration EIBD : liste des équipements eibd à reprendre, avec cases à cocher](images/migration-eibd.png)
+![Migration EIBD : liste des équipements eibd à reprendre, avec cases à cocher](./images/migration-eibd.png)
 
 1. Bouton **Migration EIBD** (page du plugin) → la liste de vos équipements eibd s'affiche avec des cases à cocher.
 2. Cochez les équipements à migrer (ou tous), puis **Migrer la sélection**.
@@ -242,13 +242,13 @@ Chaque équipement knxSecure représente un appareil KNX (lampe, volet, thermost
 - **commande `info`** : adresse d'**état** (`ga_state`) — Jeedom lit la valeur remontée par le bus ;
 - **commande `action`** : adresse d'**écriture** (`ga_write`) — Jeedom envoie un télégramme sur le bus.
 
-![Fiche équipement : commandes info (état) et action (écriture) avec leurs adresses de groupe](images/fiche-equipement.png)
+![Fiche équipement : commandes info (état) et action (écriture) avec leurs adresses de groupe](./images/fiche-equipement.png)
 
 ### Profils prêts à l'emploi
 
 À la création, un **profil** applique automatiquement les bonnes commandes et le bon widget. Profils disponibles :
 
-![Choix d'un profil prêt à l'emploi à la création d'un équipement](images/creation-profils.png)
+![Choix d'un profil prêt à l'emploi à la création d'un équipement](./images/creation-profils.png)
 
 | Catégorie | Profils |
 |---|---|
@@ -371,7 +371,7 @@ Trois cas typiques. Les commandes et flags indiqués sont ceux appliqués automa
 
 Le gestionnaire d'adresses de groupe (modal **Adresses de groupe**) centralise toutes les GA connues — importées d'ETS ou ajoutées manuellement — organisées par groupes hiérarchiques (principal / médian).
 
-![Modal Adresses de groupe : GA organisées par groupes hiérarchiques avec leur dernière valeur](images/adresses-groupe.png)
+![Modal Adresses de groupe : GA organisées par groupes hiérarchiques avec leur dernière valeur](./images/adresses-groupe.png)
 
 - Visualiser les GA et leur **dernière valeur connue** sur le bus.
 - Organiser les GA en groupes (réutilise la hiérarchie ETS si elle existe).
@@ -383,7 +383,7 @@ Le gestionnaire d'adresses de groupe (modal **Adresses de groupe**) centralise t
 
 Le moniteur affiche en **temps réel** les télégrammes circulant sur le bus KNX (rafraîchissement automatique toutes les 2 secondes) :
 
-![Bus Monitor : télégrammes temps réel, filtres et statistiques de charge](images/bus-monitor.png)
+![Bus Monitor : télégrammes temps réel, filtres et statistiques de charge](./images/bus-monitor.png)
 
 - type (write / read / response), adresse de groupe, adresse source, valeur décodée selon le DPT **avec son unité** (°C, lux, %…) quand une commande Jeedom existe pour cette GA ;
 - **filtres** par source, par adresse de groupe et par type de télégramme ;
@@ -412,7 +412,7 @@ Pour que Jeedom connaisse l'état réel du bus :
 
 L'onglet **Daemon** regroupe les réglages internes du processus Python et un outil de diagnostic de la connexion. Il se divise en deux blocs : **Paramètres internes** et **Diagnostic**.
 
-![Onglet Daemon : paramètres internes et bloc Diagnostic](images/onglet-daemon.png)
+![Onglet Daemon : paramètres internes et bloc Diagnostic](./images/onglet-daemon.png)
 
 ### Paramètres internes
 
@@ -437,7 +437,7 @@ C'est le moyen le plus rapide de valider une configuration (mode de connexion, I
 
 Premier réflexe : la page **Santé** (état synthétique), puis le bouton **Tester la connexion KNX** (onglet Daemon), et enfin les **logs du daemon** (visionneuse intégrée) pour le message détaillé.
 
-![Visionneuse intégrée des logs du daemon](images/logs-daemon.png)
+![Visionneuse intégrée des logs du daemon](./images/logs-daemon.png)
 
 ### Catalogue d'erreurs (message → cause → solution)
 
@@ -524,10 +524,3 @@ Le **Bus Monitor** : c'est l'outil de diagnostic central (télégrammes temps r�
 
 **Les logs du plugin ?**
 Niveau de log réglable côté Jeedom, et **visionneuse de logs du daemon** intégrée (messages détaillés côté Python, y compris les erreurs xknx/Secure).
-
----
-
-## Liens utiles
-
-- [Changelog stable](https://doc.jeedom.com/#language#/plugins/automation protocol/knxsecure/changelog)
-- [Changelog beta](https://doc.jeedom.com/#language#/plugins/automation protocol/knxsecure/beta/changelog)

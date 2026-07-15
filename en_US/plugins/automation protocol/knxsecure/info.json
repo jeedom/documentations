@@ -17,14 +17,10 @@
     "hasDependency": true,
     "hasOwnDeamon": true,
     "maxDependancyInstallTime": 0,
-    "changelog_beta": "https://doc.jeedom.com/#language#/plugins/automation protocol/knxsecure/beta/changelog",
+    "changelog_beta": "https://doc.jeedom.com/#language#/plugins/automation protocol/knxsecure/changelog",
     "changelog": "https://doc.jeedom.com/#language#/plugins/automation protocol/knxsecure/changelog",
-    "documentation_beta": "https://doc.jeedom.com/#language#/plugins/automation protocol/knxsecure/beta",
+    "documentation_beta": "https://doc.jeedom.com/#language#/plugins/automation protocol/knxsecure/",
     "documentation": "https://doc.jeedom.com/#language#/plugins/automation protocol/knxsecure/",
-    "link": {
-        "forum": "Lien vers le forum",
-        "video": "Lien vers une video"
-    },
     "language": [
         "fr_FR",
         "en_US",
