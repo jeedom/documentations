@@ -1,7 +1,7 @@
 {
 	"id": "arenti",
 	"name": "Arenti",
-	"version": "1.0.0",
+	"pluginVersion": "1.00.01",
 	"description": {
 		"fr_FR": "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API Arenti",
 		"en_US": "Plugin to retrieve information and control synchronized devices on the Arenti API",
