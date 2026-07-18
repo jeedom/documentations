@@ -1,0 +1,44 @@
+{
+	"id": "archiplus",
+	"name": "archiplus",
+	"description": {
+		"fr_FR": "Plugin archiplus",
+		"en_US": "Archiplus plugin",
+		"es_ES": "Complemento archiplus",
+		"de_DE": "Archiplus-Plugin",
+		"it_IT": "Plugin archiplus",
+		"pt_PT": "Plugin archiplus"
+	},
+	"licence": "AGPL",
+	"author": "bernard.dandrea",
+	"require": "4.6",
+	"user": "admin",
+	"category": "monitoring",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/#language#/changelog",
+	"documentation": "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/#language#/index",
+	"changelog_beta": "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/#language#/changelog_beta",
+	"documentation_beta": "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/#language#/index_beta",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-archiplus"
+	},
+	"language": [
+		"de_DE",
+		"en_US",
+		"es_ES",
+		"fr_FR",
+		"it_IT",
+		"pt_PT"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4"
+	]
+}

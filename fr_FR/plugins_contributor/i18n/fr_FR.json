@@ -502,6 +502,8 @@
         "Plugin pour monitorer fail2ban": "Plugin pour monitorer fail2ban",
         "Défauts": "Défauts",
         "Surveillance de cohérence état\/mesure": "Surveillance de cohérence état\/mesure",
+        "archiplus": "archiplus",
+        "Plugin archiplus": "Plugin archiplus",
         "Récupération de la puissance par panneau, globale, etc": "Récupération de la puissance par panneau, globale, etc",
         "APSEZ1M": "APSEZ1M",
         "Plugin permettant le pilotage et la récupération des informations de Micro-Onduleurs APSystem EZ1-M": "Plugin permettant le pilotage et la récupération des informations de Micro-Onduleurs APSystem EZ1-M",
