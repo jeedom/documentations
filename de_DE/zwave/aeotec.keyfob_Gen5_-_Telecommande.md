@@ -1,137 +1,137 @@
-# Aeotec Keyfob Gen5
+# 
 
-**Das Modul**
+****
 
 ![module](images/aeotec.keyfob-gen5/module.jpg)
 
-**Das Jeedom Visual**
+****
 
 ![vuedefaut1](images/aeotec.keyfob-gen5/vuedefaut1.jpg)
 
-## Zusammenfassung
+## 
 
-Die Aeon Labs-Schlüsselbundfernbedienung mit modernem und ansprechendem Design verfügt über 4 Tasten, mit denen Sie alle Arten von Z-Wave-Geräten wie Lampen, Jalousien usw. steuern können.
+.
 
-Mit seinen sehr kleinen Abmessungen können Sie es einfach in Ihre Tasche stecken. Es ist einfach zu bedienen und elegant und mit einem Ring zum Befestigen an Schlüsseln ausgestattet, der es beim Verlassen des Hauses oder bei der Rückkehr zu Ihnen nach Hause zur Verfügung stellt.
+. .
 
-Mit jeder Taste können Sie dank der Verwaltung von kurzen und langen Drücken zwei Geräte oder Szenen steuern. Diese Fernbedienung kann als primäre oder sekundäre Steuerung verwendet werden.
+. .
 
-Und weil der Keyfob Gen5-Schlüsselanhänger Teil der Gene-Reihe von Aeotec ist, übertrifft er alles, was vorher existierte. Es verwendet den neuesten Chip der Z-Wave 500-Serie und bietet eine 50% ige Erhöhung der Funkreichweite und eine 250% schnellere Kommunikationsgeschwindigkeit im Vergleich zu früheren Z-Wave-Produkten.
+. .
 
 ## Fonctions
 
--   Schlüsselanhänger Fernbedienung
--   Primärer oder sekundärer Controller
--   Ultra kompakt und ultra Design
--   4 konfigurierbare Tasten
--   Verwaltet bis zu 8 Geräte / Szenen
--   Gleitschutzklappe
--   Ein Teil des Gen5-Sortiments von Aeon Labs
--   Sicherheit der Funkkommunikation über AES-128-Verschlüsselung
--   Integriert den Chip der Z-Wave 500-Serie
--   250% schnellere Kommunikation im Vergleich zu Standard-Z-Wave-Geräten
--   Optimierung der Antenne, Reichweite 100 Meter
--   Benutzerfreundlichkeit und Installation
+-   
+-   
+-   
+-   
+-   
+-   
+-   
+-   
+-   
+-   
+-   
+-   
 
-## Technische Daten
+## 
 
--   Modultyp : Z-Wave Sender
--   Versorgung : 1 Lithium 3V CR2450 Batterie
--   Akkulaufzeit : 1 Jahr
--   Frequenz: 868.42 MHz
--   Übertragungsentfernung : 100m auf freiem Feld
--   Betriebstemperatur : -10 ° C bis 50 ° C
--   Abmessungen : 55 x 30 x 13 mm (L x B x H)
+-    : 
+-    : 
+-    : 
+-   : 868.
+-    : 
+-    : -
+-    : )
 
-## Moduldaten
+## 
 
--   Machen Sie : Aeotec
--   Name : ZW088 Schlüsselanhänger Gen5
--   Hersteller ID : 134
--   Produkttyp : 1
--   Produkt-ID : 88
+-    : Aeotec
+-    : 
+-    : 134
+-    : 1
+-    : 88
 
 ## Configuration
 
-Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
+ [](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
-> **Wichtig**
+> ****
 >
-> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die LEARN-Taste gemäß der Papierdokumentation.
+> .
 
 ![inclusion](images/aeotec.keyfob-gen5/inclusion.jpg)
 
-Einmal enthalten, sollten Sie dies erhalten :
+ :
 
 ![Plugin Zwave](images/aeotec.keyfob-gen5/information.jpg)
 
 ### Commandes
 
-Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
+.
 
-![Befehle](images/aeotec.keyfob-gen5/commandes.jpg)
+![](images/aeotec.keyfob-gen5/commandes.jpg)
 
-Hier ist die Liste der Befehle :
+ :
 
--   Tasten : Es ist der Befehl, der den Knopf nach oben drückt
-  - 1 : Taste 1 kurz drücken
-  - 2 : Taste 1 lange drücken
-  - 3 : Taste 2 kurz drücken
-  - 4 : Taste 2 lange drücken
-  - 5 : Taste 3 kurz drücken
-  - 6 : Taste 3 lange drücken
-  - 7 : Taste 4 kurz drücken
-  - 8 : Taste 4 lange drücken
+-    : 
+  - 1 : 
+  - 2 : 
+  - 3 : 
+  - 4 : 
+  - 5 : 
+  - 6 : 
+  - 7 : 
+  - 8 : 
 
-### Konfiguration des Moduls
+### 
 
-> **Wichtig**
+> ****
 >
-> Wecken Sie das Modul bei einer ersten Aufnahme immer unmittelbar nach der Aufnahme auf.
+> .
 
-Wenn Sie das Modul dann entsprechend Ihrer Installation konfigurieren möchten, müssen Sie die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom aufrufen.
+.
 
-![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![ plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+)
 
 ![Config1](images/aeotec.keyfob-gen5/config1.jpg)
 
-Parameterdetails :
+ :
 
--   250: Betriebsmodus der Fernbedienung (setzen Sie Scene unbedingt als Fernbedienung ein)
--   255 : Ermöglicht das Zurücksetzen des Schlüsselanhänger ab Werk
+-   250: )
+-   255 : 
 
 ### Groupes
 
-Dieses Modul hat zwei Assoziationsgruppen, die erste ist die einzige wesentliche.
+.
 
 ![Groupe](images/aeotec.keyfob-gen5/groupe.jpg)
 
-##  Gut zu wissen
+##  
 
-### Besonderheiten
+### 
 
-Gehen Sie wie folgt vor, um dieses Modul als Fernbedienung zu verwenden :
+ :
 
--   1 : Fernbedienung einschließen
--   2 : Wecken Sie die Fernbedienung auf
--   3 : Ändern Sie Parameter 250 in Szene
--   4 : Wecken Sie die Fernbedienung auf und stellen Sie sicher, dass die Änderung berücksichtigt wurde
--   5 : Ändern Sie die Betriebsart der Fernbedienung, indem Sie die beiden Tasten auf der Rückseite 3 Sekunden lang drücken.
+-   1 : 
+-   2 : 
+-   3 : 
+-   4 : 
+-   5 : .
 
 ## Wakeup
 
-Um dieses Modul aufzuwecken, gibt es nur einen Weg :
+ :
 
--   Halten Sie die LEARN-Taste 3 Sekunden lang gedrückt
+-   
 
-## Faq.
+## .
 
-Dieses Modul wird aktiviert, indem die LEARN-Taste 3 Sekunden lang gedrückt wird.
+.
 
-Dieses Modul ist ein Batteriemodul. Die neue Konfiguration wird nur berücksichtigt, wenn Sie die Fernbedienung aktivieren.
+.
 
-## Wichtiger Hinweis
+## 
 
-Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung der Konfiguration, nach einer Änderung des Aufweckens, nach einer Änderung der Assoziationsgruppen
+ : 
