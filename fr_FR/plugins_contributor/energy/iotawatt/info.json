@@ -1,6 +1,7 @@
 {
 	"id": "iotawatt",
 	"name": "IoTaWatt",
+	"pluginVersion": "0.93",
 	"description": {
 		"fr_FR": "Plugin permettant de récupérer les informations de sa box IoTaWatt. IoTaWatt est un projet à code source ouvert et à matériel ouvert visant à produire un moniteur d'énergie précis, peu coûteux et facile à utiliser. Il peut utiliser plusieures dizaines de transformateurs de courant banals et transmettra les données localement via un serveur web intégré, ou les téléchargera vers n'importe lequel des sites web/bases de données énergétiques tiers.",
 		"en_US": "Plugin to retrieve information from IoTaWatt. IoTaWatt is an open-source, open hardware project to produce an accurate, inexpensive and easy to use energy monitor. It can use any of dozens of common current transformers and will report the data locally via integrated web server, or upload to any of several third-party energy websites/data bases.",

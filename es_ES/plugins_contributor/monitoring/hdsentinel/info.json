@@ -1,7 +1,7 @@
 {
 	"id": "hdsentinel",
 	"name": "Hard Disk Sentinel",
-	"pluginVersion": "1.02.00",
+	"pluginVersion": "1.02.01",
 	"description": {
 		"de_DE": "Mit diesem Plugin können Sie mithilfe des Linux-Tools Hard Disk Sentinel Informationen über den Gesundheitszustand Ihrer Festplatten abrufen.",
 		"en_US": "This plugin enables you to retrieve information on the health of your hard disks using the linux Hard Disk Sentinel tool.",

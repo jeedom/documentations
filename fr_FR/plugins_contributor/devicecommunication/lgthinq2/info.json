@@ -1,6 +1,7 @@
 {
 	"id": "lgthinq2",
 	"name": "LG ThinQ",
+	"pluginVersion": "1.04.01",
 	"description": {
 		"fr_FR": "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API LG ThinQ",
 		"en_US": "Plugin to retrieve information and control synchronized devices on the LG ThinQ API",

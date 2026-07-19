@@ -1,6 +1,7 @@
 {
 	"id": "beem",
 	"name": "Beem",
+	"pluginVersion": "0.91.02",
 	"description": {
 		"fr_FR": "Plugin permettant de récupérer les informations sa Beembox de chez Beem energy",
 		"en_US": "Plugin to retrieve information from Beem energy's Beembox",

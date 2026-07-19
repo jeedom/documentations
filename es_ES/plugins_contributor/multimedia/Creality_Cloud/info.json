@@ -1,6 +1,7 @@
 {
 	"id": "Creality_Cloud",
 	"name": "Creality Cloud",
+	"pluginVersion": "0.61",
 	"description": {
 		"fr_FR": "Plugin permettant de récupérer les informations depuis son compte Creality Cloud et de piloter son imprimante.",
 		"en_US": "Plugin that allows retrieving information from your Creality Cloud account and controlling your 3D printer.",
@@ -12,7 +13,7 @@
 	"utilization": "Après avoir entré l'identifiant et le mot de passe de votre compte Creality Cloud dans la page de configuration, sauvegardez puis cliquez sur Connexion, et enfin lancez une synchronisation.",
 	"licence": "AGPL",
 	"author": "DomoFlo1",
-	"require": "4.3",
+	"require": "4.4",
 	"category": "multimedia",
 	"hasDependency": false,
 	"hasOwnDeamon": false,

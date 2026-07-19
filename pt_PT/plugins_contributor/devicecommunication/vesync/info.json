@@ -1,6 +1,7 @@
 {
 	"id": "vesync",
 	"name": "VeSync",
+	"pluginVersion": "0.95.1",
 	"description": {
 		"fr_FR": "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API VeSync",
 		"en_US": "Plugin to retrieve information and control synchronized devices on the VeSync API",

@@ -1,6 +1,7 @@
 {
-      "id": "blea2mqtt",
-      "name": "BLEA2MQTT Gateway Manager",
+	"id": "blea2mqtt",
+	"name": "BLEA2MQTT Gateway Manager",
+	"pluginVersion": "0.50.01",
       "description": {
         "fr_FR": "Plugin gérant l'installation, la configuration et le démarrage du service blea2mqtt, permettant de créer des antennes BLEA à partir de Linux ou MacOS, via une connexion SSH.",
         "en_US": "Plugin managing the installation, configuration and startup of the blea2mqtt service, allowing the creation of BLEA antennas from Linux or MacOS, via an SSH connection.",

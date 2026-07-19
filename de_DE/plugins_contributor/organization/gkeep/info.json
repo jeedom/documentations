@@ -1,6 +1,7 @@
 {
 	"id": "gkeep",
 	"name": "Google Keep",
+	"pluginVersion": "1.00",
 	"description": {
 		"fr_FR": "Plugin permettant de synchroniser ses notes et listes avec Google Keep.</br>Nécéssite python >= v3.8 pour fonctionner.",
 		"en_US": "Plugin for synchronizing notes and lists with Google Keep",
@@ -12,7 +13,7 @@
 	"utilization": "Sélectionnez le nombre de comptes Google, entrez les informations de connexion de chacun d'entre eux, puis lancez une première connexion.",
 	"licence": "AGPL",
 	"author": "DomoFlo1",
-	"require": "4.2",
+	"require": "4.4",
 	"category": "organization",
 	"display": "panel",
 	"hasDependency": true,
