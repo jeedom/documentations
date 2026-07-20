@@ -1912,7 +1912,7 @@
         "configurer le nom de votre esxi, en ssh dessus faire": "",
         "configurer le fqdn": "",
         "Récuperer le certificat racine de l'esxi, il est dans": "",
-        "Sur poste faite clic droit puis installer le certificat , le mettre dans \"Autorité de certification racines de confiance": "",
+        "Sur poste faite clic droit puis installer le certificat , le mettre dans \"Autorité de certification racines de confiance": "On your computer, right-click and then install the certificate, placing it in \"Trusted Root Certification Authorities\"",
         " Note.": " .",
         " Note?": " ?",
         "Note ": " ",

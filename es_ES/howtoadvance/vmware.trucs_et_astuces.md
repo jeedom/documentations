@@ -211,4 +211,4 @@
 -    : ``esxcli system hostname set --fqdn=esxi1.lan``
 -    ``/etc/vmware/ssl/castore.pem``
 
-"
+En su ordenador, haga clic con el botón derecho y, a continuación, instale el certificado, colocándolo en "Autoridades de certificación raíz de confianza""

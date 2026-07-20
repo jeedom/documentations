@@ -1,18 +1,18 @@
-# 
+# Plugin template
 
- ****.
+Ce "template de plugin" sert de base à la réalisation de plugins pour **Jeedom**.
 
- [](https://doc.jeedom.com/de_DE/dev/).
+La documentation générale relative à la conception de plugin est consultable [ici](https://doc.jeedom.com/de_DE/dev/).
 
- :   
-* [](https://doc.jeedom.com/de_DE/dev/plugin_template) : .
+Dans le détail :   
+* [Utilisation du template de plugin](https://doc.jeedom.com/de_DE/dev/plugin_template) : Le template de plugin est une base de plugin pour Jeedom qui doit être adaptée avec l'id de votre plugin et à laquelle il suffit d'ajouter vos propres fonctions.
 
-* [](https://doc.jeedom.com/de_DE/dev/structure_info_json) : . **** .
+* [Fichier info.json](https://doc.jeedom.com/de_DE/dev/structure_info_json) : Intégré depuis la version 3.0 de Jeedom, le fichier **info.json** est obligatoire pour le bon fonctionnement des plugins et leur bon déploiement sur le Market Jeedom.
 
-* [](https://doc.jeedom.com/de_DE/dev/Icone_de_plugin) : . .
+* [Icône du plugin](https://doc.jeedom.com/de_DE/dev/Icone_de_plugin) : Afin de pouvoir être publié sur le Market Jeedom, tout plugin doit disposer d'une icône. Attention à ne pas utiliser le même code couleur que les icônes des plugins Jeedom officiels.
 
-* [](https://doc.jeedom.com/de_DE/dev/widget_plugin) : .
+* [Widget du plugin](https://doc.jeedom.com/de_DE/dev/widget_plugin) : Présentation des différentes manières d'inclure des widgets personnalisés au plugin.
 
-* [](https://doc.jeedom.com/de_DE/dev/documentation_plugin) : .
+* [Documentation du plugin](https://doc.jeedom.com/de_DE/dev/documentation_plugin) : Présentation de la mise en place d'une documentation car un bon plugin n'est rien sans documentation adéquate.
 
-* [](https://doc.jeedom.com/de_DE/dev/publication_plugin) : .
+* [Publication du plugin](https://doc.jeedom.com/de_DE/dev/publication_plugin) : Description des pré-requis indispensables à la publication du plugin.
