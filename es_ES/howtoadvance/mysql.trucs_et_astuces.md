@@ -1,28 +1,28 @@
-# 
+# Mysql consejos y trucos
 
+No es realmente un tutorial aquí, sino más bien una colección de consejos y trucos en MySQL
 
+# Deshabilitar el rendimiento del esquema
 
-# 
-
- ``/etc/mysql/mysql.conf.d/mysqld.cnf``  :
+Edite el archivo ``/etc/mysql/mysql.conf.d/mysqld.cnf`` Y agrega :
 
 ````
 [mysqld]
 performance_schema=OFF
 ````
 
-# 
+# Optimizando MySQL
 
-> ****
+> **Importante**
 >
-> . .
+> Este método es bajo su propio riesgo. En caso de inquietud no será posible el apoyo.
 
--    :
+-   Detenga el demonio MySQL y elimine los archivos de registro :
 ````
 service mysql stop
 rm /var/lib/mysql/ib_logfile*
 ````
--    :
+-   Entonces haz :
 ````
 touch /etc/mysql/conf.d/jeedom_my.cnf
 echo "[mysqld]" >> /etc/mysql/conf.d/jeedom_my.cnf
@@ -38,4 +38,4 @@ echo "innodb_flush_method = O_DIRECT" >> /etc/mysql/conf.d/jeedom_my.cnf
 echo "innodb_flush_log_at_trx_commit = 2" >> /etc/mysql/conf.d/jeedom_my.cnf
 echo "innodb_log_file_size = 32M" >> /etc/mysql/conf.d/jeedom_my.cnf
 ````
--    : ``service mysql start``
+-   Relanzar MySQL : ``service mysql start``

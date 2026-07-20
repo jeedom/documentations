@@ -1,27 +1,27 @@
-# 
+# Verwenden Sie Opengarage
 
-.
+OpenGarage ist ein DIY-Objekt, das aber auch auf Bestellung montiert erhältlich ist und in der Garage verwendet wird.
 
-.
+Es bietet die Aktivierung eines Relais (zum Öffnen der Garage) und eines Abstandssensors zur Überprüfung des Vorhandenseins des Fahrzeugs.
 
 <http://opengarage.io/>
 
-# 
+# Lesen von OpenGarage-Zuständen
 
- ``http://addropengarage/jc``
+Um den Status des Relais und des Abstandssensors abzurufen, lautet die zu verwendende URL ``http://addropengarage/jc``
 
-. 
+Das Ergebnis ist ein Json. Es ist daher erforderlich, ein Skriptgerät und einen Infobefehl vom Typ json zu verwenden
 
- : ``door``
+Für den Status des Relais der Name der Eigenschaft des JSON : ``door``
 
- : dist
+Für den Abstandssensor : dist
 
-# 
+# Aktion auf OpenGarage
 
- ``http://addropengarage/cc?dkey=xxxx&click=1``
+Die Adresse für die Relaisaktivierung lautet ``http://addropengarage/cc?dkey=xxxx&click=1``
 
-``dkey`` 
+``dkey`` ist der Schlüssel zur API, standardmäßig ist es opendoor
 
-# 
+# Weitere Infos
 
- [](https://github.com/OpenGarage/OpenGarage-Firmware/tree/master/docs)
+Die vollständige API-Dokumentation finden Sie unter [Github](https://github.com/OpenGarage/OpenGarage-Firmware/tree/master/docs)
