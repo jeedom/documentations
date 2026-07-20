@@ -511,7 +511,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zwave/images/89.1.3_hrt4_srt321.jpg" width="60" />|Horstmann||Thermostat||[](http://www.domadoo.fr/fr/peripheriques/1982-secure-thermostat-srt321-avec-ecran-lcd-z-wave-5015914250071.html)|
 |<img src="../../en_US/zwave/images/89.1.4_srt323.jpg" width="60" />|Horstmann||Thermostat||[](https://doc.jeedom.com/en_US/zwave/secure.srt323_-_Thermostat)<br/>[](http://www.domadoo.fr/fr/peripheriques/3218-secure-thermostat-srt323-avec-ecran-lcd-et-relai-integre-5015914250569.html)|
-|<img src="../../en_US/zwave/images/89.13.2_ses302.jpg" width="60" />|Horstmann||||[](https://doc.jeedom.com/en_US/zwave/secure.ses302_-_Temperature)<br/>[](http://www.domadoo.fr/fr/peripheriques/3211-secure-sonde-de-temperature-sur-piles-z-wave-5015914840081.html)|
+|<img src="../../en_US/zwave/images/89.13.2_ses302.jpg" width="60" />|Horstmann||Temperature||[](https://doc.jeedom.com/en_US/zwave/secure.ses302_-_Temperature)<br/>[](http://www.domadoo.fr/fr/peripheriques/3211-secure-sonde-de-temperature-sur-piles-z-wave-5015914840081.html)|
 |<img src="../../en_US/zwave/images/89.13.3_ses303.jpg" width="60" />|Horstmann||Multicapteurs||[](https://doc.jeedom.com/en_US/zwave/secure.ses303_-_Temperature_Humidite)<br/>[](http://www.domadoo.fr/fr/peripheriques/3227-secure-sonde-de-temperature-et-d-humidite-sur-piles-z-wave-5015914840098.html)|
 |<img src="../../en_US/zwave/images/89.16.1_sir321.jpg" width="60" />|Horstmann||Timer||[](https://doc.jeedom.com/en_US/zwave/secure.sir321_-_Timer)<br/>[](http://www.domadoo.fr/fr/peripheriques/3216-secure-minuterie-manuelle-3060120-minutes-z-wave-5015914083563.html)|
 |<img src="../../en_US/zwave/images/89.16.2_sir321.jpg" width="60" />|Horstmann||Timer||[](https://doc.jeedom.com/en_US/zwave/secure.sir321_-_Timer)<br/>[](http://www.domadoo.fr/fr/peripheriques/3216-secure-minuterie-manuelle-3060120-minutes-z-wave-5015914083563.html)|
@@ -938,4 +938,4 @@
 
 
 
-:08:06
+:08:05

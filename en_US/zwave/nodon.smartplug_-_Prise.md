@@ -1,14 +1,14 @@
 # 
 
-****
+**The module**
 
 ![module](images/nodon.smartplug/module.jpg)
 
-****
+**The Jeedom visual**
 
 ![vuedefaut1](images/nodon.smartplug/vuedefaut1.jpg)
 
-## 
+## Summary
 
 . . . . .
 
@@ -20,9 +20,9 @@
 -   
 -   : 16A
 
-## 
+## Technical specifications
 
--    : 
+-   Food : 
 -    :  : &lt;1W
 -    :  : 2000m
 -    : 868.
@@ -31,56 +31,56 @@
 -   
 -   
 
-## 
+## Module data
 
--    : Nodon
--    : Smartplug
--    : 357
--    : 1
--    : 1
+-   Brand : Nodon
+-   Name : Smartplug
+-   Manufacturer ID : 357
+-   Product Type : 1
+-   Product ID : 1
 
 ## Configuration
 
- [](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
+To configure the OpenZwave plugin and learn how to include Jeedom, refer to this [documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Important**
 >
 > .
 
 ![inclusion](images/nodon.smartplug/inclusion.jpg)
 
- :
+Once included, you should get this :
 
 ![Plugin Zwave](images/nodon.smartplug/information.jpg)
 
 ### Commandes
 
+Once the module is recognized, the commands associated with the module will be available.
+
+![Orders](images/nodon.smartplug/commandes.jpg)
+
+Here is the list of commands :
+
+-   State : )
+-   On : 
+-   Off : 
+-    : )
+
 .
 
-![](images/nodon.smartplug/commandes.jpg)
+### Module configuration
 
- :
+You can configure the module according to your installation. .
 
--    : )
--    : 
--    : 
--    : )
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-.
-
-### 
-
-. .
-
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-)
+You will arrive at this page (after clicking on the settings tab))
 
 ![Config1](images/nodon.smartplug/config1.jpg)
 
 ![Config1](images/nodon.smartplug/config2.jpg)
 
- :
+Parameter details :
 
 -   1 : 
 -   2 : ). ). .
@@ -103,16 +103,16 @@
 -   .
 -   
 
-> ****
+> **Important**
 >
 > 
 
-## 
+## Good to know
 
-### 
+### Specifics
 
 -   . . .
 
 ## Wakeup
 
-.
+There is no concept of wakeup on this module.

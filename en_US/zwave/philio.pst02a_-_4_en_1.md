@@ -1,14 +1,14 @@
 # 
 
-****
+**The module**
 
 ![module](images/philio.pst02a/module.jpg)
 
-****
+**The Jeedom visual**
 
 ![vuedefaut1](images/philio.pst02a/vuedefaut1.jpg)
 
-## 
+## Summary
 
  : .  : . .
 
@@ -28,77 +28,77 @@
 -   
 -   Autoprotection
 -   
--   
--   
+-   Small, discreet and aesthetically pleasing
+-   Ease of use and installation
 
-## 
+## Technical specifications
 
+-   Module type : Z-Wave Transmitter
+-   Food : 
 -    : 
--    : 
--    : 
--    : 868.
--    : 
+-   Frequency : 868.
+-   Transmission distance : 
 -    : -
 -    : 
 -    : 
 -    : 
--    :
+-   Dimensions :
   -    : 
   -    : 
 -    : 52g
--    : -
--    : 
+-   Operating temperature : -
+-   Operating humidity : 
 -    : 
 -    : 
 
-## 
+## Module data
 
--    : 
--    : 
--    : 316
--    : 2
--    : 12
+-   Brand : 
+-   Name : 
+-   Manufacturer ID : 316
+-   Product Type : 2
+-   Product ID : 12
 
 ## Configuration
 
- [](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
+To configure the OpenZwave plugin and learn how to include Jeedom, refer to this [documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Important**
 >
-> .
+> To put this module into inclusion mode, press the inclusion button 3 times, as per its printed documentation.
 
 ![inclusion](images/philio.pst02a/inclusion.jpg)
 
- :
+Once included, you should get this :
 
 ![Plugin Zwave](images/philio.pst02a/information.jpg)
 
 ### Commandes
 
-.
+Once the module is recognized, the commands associated with the module will be available.
 
-![](images/philio.pst02a/commandes.jpg)
+![Orders](images/philio.pst02a/commandes.jpg)
 
- :
+Here is the list of commands :
 
 -    : 
 -    : 
+-   Temperature : 
 -    : 
--    : 
--    : )
--    : 
+-   Sabotage : )
+-   Battery : This is the battery control
 
-### 
+### Module configuration
 
-> ****
+> **Important**
 >
-> .
+> During the initial inclusion, always wake up the module immediately after inclusion.
 
-.
+Next, if you want to configure the module according to your installation, you must use the "Configuration" button in the Jeedom OpenZwave plugin.
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-)
+You will arrive at this page (after clicking on the settings tab))
 
 ![Config1](images/philio.pst02a/config1.jpg)
 
@@ -106,7 +106,7 @@
 
 ![Config3](images/philio.pst02a/config3.jpg)
 
- :
+Parameter details :
 
 -   2: 
 -   3:  : : )
@@ -136,8 +136,8 @@
 
 -   
 
-## 
+## Important note
 
-> ****
+> **Important**
 >
->  : 
+> The module needs to be woken up : 

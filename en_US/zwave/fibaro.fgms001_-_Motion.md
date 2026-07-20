@@ -1,14 +1,14 @@
 # 
 
-****
+**The module**
 
 ![module](images/fibaro.fgms001/module.jpg)
 
-****
+**The Jeedom visual**
 
 ![vuedefaut1](images/fibaro.fgms001/vuedefaut1.jpg)
 
-## 
+## Summary
 
 . . .
 
@@ -30,67 +30,67 @@
 -   
 -   
 
-## 
+## Technical specifications
 
--    : 
--    : 
+-   Module type : Z-Wave Transmitter
+-   Food : 
 -    : 2,4m
 -    : -
--    : 0,5°C
+-   Measurement accuracy : 0,5°C
 -    : X
--    : 
--    : 
+-   Frequency : 868.42 MHz
+-   Transmission distance : 50m open field, 30m indoors
 -   Dimensions: 
--    : 
--    : 
+-   Operating temperature : 0-40°C
+-   Certifications : 
 
-## 
+## Module data
 
--    : 
--    : ]
--    : 271
--    : 2048
--    : 4097
+-   Brand : Fibar Group
+-   Name : ]
+-   Manufacturer ID : 271
+-   Product Type : 2048
+-   Product ID : 4097
 
 ## Configuration
 
- [](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
+To configure the OpenZwave plugin and learn how to include Jeedom, refer to this [documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Important**
 >
-> .
+> To put this module into inclusion mode, press the inclusion button 3 times, as per its printed documentation.
 
 ![inclusion](images/fibaro.fgms001/inclusion.jpg)
 
- :
+Once included, you should get this :
 
 ![Plugin Zwave](images/fibaro.fgms001/information.jpg)
 
 ### Commandes
 
-.
+Once the module is recognized, the commands associated with the module will be available.
 
-![](images/fibaro.fgms001/commandes.jpg)
+![Orders](images/fibaro.fgms001/commandes.jpg)
 
- :
+Here is the list of commands :
 
 -    : 
+-   Temperature : 
 -    : 
--    : 
--    : )
--    : 
+-   Sabotage : )
+-   Battery : This is the battery control
 
-### 
+### Module configuration
 
-> ****
+> **Important**
 >
-> .
+> During the initial inclusion, always wake up the module immediately after inclusion.
 
-.
+Next, if you want to configure the module according to your installation, you must use the "Configuration" button in the Jeedom OpenZwave plugin.
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-)
+You will arrive at this page (after clicking on the Settings tab))
 
 ![Config1](images/fibaro.fgms001/config1.jpg)
 
@@ -100,9 +100,9 @@
 
 ![Config3](images/fibaro.fgms001/config4.jpg)
 
- :
+Parameter details :
 
--    : )
+-   Wakeup : )
 -   1: 
 -   2: 
 -   3: 
@@ -137,15 +137,15 @@
 
 ![Groupe](images/fibaro.fgms001/groupe.jpg)
 
-## 
+## Good to know
 
-### 
+### Specifics
 
 > ****
 >
 > . .
 
-### 
+### Alternative image
 
 ![vuewidget](images/fibaro.fgms001/vuewidget.jpg)
 
@@ -163,8 +163,8 @@
 
 .
 
-## 
+## Important note
 
-> ****
+> **Important**
 >
->  : 
+> The module needs to be woken up : 
