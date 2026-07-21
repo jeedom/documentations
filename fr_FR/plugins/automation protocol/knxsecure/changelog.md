@@ -4,6 +4,15 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 16/07/2026 (beta)
+
+- **Le plugin requiert désormais xknx 3.x (Python ≥ 3.10)** : sur un système au Python trop ancien (ex. Debian 11), Python 3.11 est compilé automatiquement via pyenv (Python natif sur Debian 12). Corrige l'échec d'installation des dépendances sous Python 3.9
+- **Fix — reconnexion automatique sous xknx 3.x** : le callback d'état de connexion n'était jamais exécuté sous xknx 3.x (warning `coroutine ... never awaited`) → la reconnexion ne partait pas. Corrigé
+- **Fix — double moteur de reconnexion** : la reconnexion interne de xknx est désactivée, la reconnexion est pilotée uniquement par le daemon
+- **Fix — comparaison de projets ETS (réimport)** : le diff affichait « Aucune modification » même entre deux projets différents (adresses non indexées). Rétabli
+- **Logs démon** : retrait du sélecteur de niveau redondant
+- **Documentation** : documentation utilisateur enrichie (prise en main, DPT, exemples, FAQ) + captures d'écran
+
 # 03/07/2026
 
 - **Migration EIBD — widgets appliqués automatiquement** : après migration d'un équipement EIBD, les widgets Jeedom (dashboard/mobile) du template correspondant au type détecté sont appliqués aux commandes migrées (matching type + subType + DPT). Les équipements migrés retrouvent immédiatement leur rendu visuel (volet, thermostat, lumière…) sans repasser par l'application manuelle d'un template

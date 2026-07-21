@@ -11,12 +11,12 @@
     "require": "4.2",
     "os": {
         "min": 10,
-        "max": 12.99
+        "max": 13.99
     },
     "category": "automation protocol",
     "hasDependency": true,
     "hasOwnDeamon": true,
-    "maxDependancyInstallTime": 0,
+    "maxDependancyInstallTime": 60,
     "changelog_beta": "https://doc.jeedom.com/#language#/plugins/automation protocol/knxsecure/changelog",
     "changelog": "https://doc.jeedom.com/#language#/plugins/automation protocol/knxsecure/changelog",
     "documentation_beta": "https://doc.jeedom.com/#language#/plugins/automation protocol/knxsecure/",

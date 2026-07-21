@@ -1,5 +1,13 @@
 # Changelog plugin knxSecure - beta
 
+# 16/07/2026
+
+- **Le plugin requiert désormais xknx 3.x (Python ≥ 3.10)** : `xknx` 3.x n'est pas compatible Python 3.9, d'où l'échec d'installation `No matching distribution found for xknx` sur les systèmes au Python trop ancien. Le plugin utilise le Python natif quand il est ≥ 3.11 (ex. Debian 12) et **compile automatiquement Python 3.11 via pyenv** sinon (ex. Debian 11) — la première installation est alors plus longue
+- **Fix — reconnexion automatique jamais déclenchée sous xknx 3.x** : le callback de changement d'état de connexion était enregistré comme coroutine, or xknx 3.x l'appelle de façon **synchrone** → il n'était jamais exécuté (warning `coroutine ... was never awaited` en boucle) et la perte de passerelle ne lançait pas la reconnexion. Corrigé pour xknx 3.x (la compatibilité xknx 2.x est conservée par sécurité pour un environnement non encore migré)
+- **Fix — comparaison de projets ETS (réimport)** : réimporter un `.knxproj` par-dessus un autre affichait « Aucune modification » **même entre projets différents**. Les adresses renvoyées par le daemon (clé `ga`) n'étaient pas indexées lors du diff. La détection des adresses ajoutées / supprimées / DPT modifiés / renommées fonctionne à nouveau
+- **Logs démon — simplification** : retrait du sélecteur de niveau de log redondant (le réglage existe déjà sur la page de gestion du plugin). Le filtre d'affichage (Tous / DEBUG / INFO…) est conservé
+- **Documentation** : documentation utilisateur enrichie (prise en main pas à pas, référence DPT, exemples concrets lampe/volet/thermostat, catalogue d'erreurs, FAQ) et illustrée de captures d'écran
+
 # 03/07/2026
 
 - **Migration EIBD — widgets appliqués automatiquement** : après migration d'un équipement EIBD, les widgets Jeedom (dashboard/mobile) du template correspondant au type détecté sont appliqués aux commandes migrées (matching type + subType + DPT). Les équipements migrés retrouvent immédiatement leur rendu visuel (volet, thermostat, lumière…) sans repasser par l'application manuelle d'un template
