@@ -6,6 +6,7 @@
 	"author" : "l3flo/bodbod",
 	"require" : "4.2",
 	"category" : "wellness",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
 	"changelog" : "https://github.com/bodbod44/jeedom-heatzyV2/blob/master/docs/#language#/changelog.md",
 	"changelog_beta" : "https://github.com/bodbod44/jeedom-heatzyV2/blob/beta/docs/#language#/changelog.md",
 	"documentation" : "https://github.com/bodbod44/jeedom-heatzyV2/blob/master/docs/#language#/index.md",
