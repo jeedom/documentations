@@ -170,7 +170,7 @@
 |<img src="../../es_ES/camera/images/reolink.camera-proxy.png" width="60" />|Reolink|Proxy de cámara (para argus si está instalado el servidor proxy)||||
 |<img src="../../es_ES/camera/images/reolink.rlc-410-5mp.png" width="60" />|Reolink|RLC-410-5MP||||
 |<img src="../../es_ES/camera/images/reolink.rlc-410w.png" width="60" />|Reolink|RLC-410W||||
-|<img src="../../es_ES/camera/images/reolink.trackMix.png" width="60" />|Reolink||||[Comprar](https://reolink.com/fr/product/reolink-trackmix-poe/)|
+|<img src="../../es_ES/camera/images/reolink.trackMix.png" width="60" />|Reolink|Reolink TrackMix|||[Comprar](https://reolink.com/fr/product/reolink-trackmix-poe/)|
 
 # Rpi
 
@@ -203,7 +203,7 @@
 |<img src="../../es_ES/camera/images/ubiquiti.UVC G4 Bullet.png" width="60" />|Ubiquiti|Bullet Ubiquiti G4||||
 |<img src="../../es_ES/camera/images/ubiquiti.UVC G4 Timbre de la puerta.png" width="60" />|Ubiquiti|Bullet Ubiquiti G4||||
 |<img src="../../es_ES/camera/images/ubiquiti.UVC G4 Pro.png" width="60" />|Ubiquiti|Ubiquiti G4 Pro||||
-|<img src="../../es_ES/camera/images/ubiquiti.UVC G5 Turret Ultra.png" width="60" />|Ubiquiti|||||
+|<img src="../../es_ES/camera/images/ubiquiti.UVC G5 Turret Ultra.png" width="60" />|Ubiquiti|Ubiquiti G5 Turret Ultra||||
 
 # Vistacam
 
@@ -248,4 +248,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-:20:03
+2026-07-28 02:20:03
