@@ -4,6 +4,13 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+- Corrigido um bug no acesso às gravações de vídeo
+- Tratamento aprimorado de quebras de linha no widget [LINK](https://github.com/jeedom/plugin-camera/pull/85)
+
+# 24/01/2024
+
+- Melhoria de widget
+
 # 17/01/2024
 
 - Correção de bug no widget

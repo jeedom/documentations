@@ -4,6 +4,13 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+- Fixed a bug on access to video recordings
+- Improved handling of line breaks in the widget [LINK](https://github.com/jeedom/plugin-camera/pull/85)
+
+# 01/24/2024
+
+- Widget improvement
+
 # 01/17/2024
 
 - Bug fix on widget

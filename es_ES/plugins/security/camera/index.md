@@ -31,13 +31,14 @@ Aquí tienes la información principal de tu cámara :
 -   **Puerto** : el puerto para el que se conecta la cámara.
 -   **Protocolo** : El protocolo de comunicación de su cámara (http o https).
 -   **Nombre de usuario** : nombre de usuario para iniciar sesión en la cámara (si es necesario). Tenga en cuenta que el complemento no admite caracteres especiales (por lo tanto, debe limitarse a números, letras minúsculas / mayúsculas)).
--   **Contraseña** : contraseña para conectarse a la cámara (si es necesario).Tenga en cuenta que el complemento crea un url_encode para el nombre de usuario y la contraseña requeridos para algunas cámaras, pero esto puede causar problemas a otras, si tiene un problema, intente sin caracteres especiales (limítese a números, letras minúsculas / mayúsculas).
+-   **Contraseña** : contraseña para conectarse a la cámara (si es necesario). Tenga en cuenta que el complemento hace que un código URL para el nombre de usuario y la contraseña sea obligatorio para algunas cámaras, pero esto puede causar problemas a otras. Si tiene algún problema, intente sin caracteres especiales (limítese a números, letras minúsculas/mayúsculas)).
 -   **URL de instantánea** : URL de instantánea de cámara. Cambiar según las cámaras. Tenga cuidado de no poner una url de flujo bajo pena de estrellar Jeedom. Puedes agregar las etiquetas \#username\# y \#password\#, que será reemplazado automáticamente por el nombre de usuario y la contraseña al usar este comando.
 -   **URL del feed** : escriba la URL de la secuencia de vídeo de la cámara ``rtsp://#username#:#password#@#ip#:554/videoMain`` (ejemplo para cámaras Foscam).
--   **Flujo de flujo RTSP** : Si está en modo de transmisión de video (URL de transmisión completa), puede ver la cámara como una transmisión de video en lugar de cuadro por cuadro. Tenga en cuenta que esta opción consume muchos recursos y hace que la primera imagen esté muy por llegar.
+-   **Flujo de flujo RTSP** : Si está en el modo de transmisión de video (las URL de transmisión están completas), puede ver la cámara como una transmisión de video en lugar de cuadro por cuadro. Ojo, esta opción consume muchos recursos y hace que la primera imagen tarde mucho en llegar.
+-   **Convertir transmisión RTSP a x264** : Si su cámara está configurada en el códec de video H265, se convierte sobre la marcha a H264. Ojo, esta opción consume muchos recursos y aumenta el retraso.
 -   **Avance** : le permite ver si jeedom recupera la transmisión de video (recuerde guardar antes de probar para ver si sus modificaciones funcionan)
--   **Opción de transmisión de video** : Si está en modo de transmisión de video (URL de transmisión completa), puede pasar parámetros adicionales aquí a ffmpeg y avconv (reservado para expertos)
--   **Modelo** : permite elegir el modelo de cámara. Atención : si lo cambia, sobrescribirá sus ajustes de configuración.
+-   **Opción de transmisión de video** : Si está en modo de transmisión de video (las URL de transmisión están completas), puede pasar parámetros adicionales aquí a ffmpeg y avconv (reservados para expertos))
+-   **Modelo** : permite elegir el modelo de cámara. Atención : Si lo cambia, sobrescribirá sus ajustes de configuración.
 
 Configuración ONVIF :
 -   **Puerto ONVIF** : el puerto utilizado para onvif
@@ -48,7 +49,7 @@ Configuración ONVIF :
 
 > **Nota**
 >
-> Puedes encontrar [aquí](https://www.ispyconnect.com/cameras) configuración para una gran cantidad de cámara y, por lo tanto, poder integrar su cámara usted mismo en Jeedom si no está en la lista
+> Puedes encontrar [aquí](https://www.ispyconnect.com/cameras) configuraciones para bastantes cámaras y por lo tanto poder integrar tu cámara tú mismo en Jeedom si no está en la lista
 
 ## Image
 
