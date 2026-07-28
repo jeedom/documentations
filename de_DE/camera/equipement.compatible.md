@@ -170,6 +170,7 @@
 |<img src="../../de_DE/camera/images/reolink.camera-proxy.png" width="60" />|Reolink|Kamera-Proxy (für Argus, wenn der Proxy-Server installiert ist)||||
 |<img src="../../de_DE/camera/images/reolink.rlc-410-5mp.png" width="60" />|Reolink|RLC-410-5MP||||
 |<img src="../../de_DE/camera/images/reolink.rlc-410w.png" width="60" />|Reolink|RLC-410W||||
+|<img src="../../de_DE/camera/images/reolink.trackMix.png" width="60" />|Reolink||||[Kaufen](https://reolink.com/fr/product/reolink-trackmix-poe/)|
 
 # Rpi
 
@@ -202,6 +203,7 @@
 |<img src="../../de_DE/camera/images/ubiquiti.UVC G4 Bullet.png" width="60" />|Ubiquiti|Ubiquiti G4 Kugel||||
 |<img src="../../de_DE/camera/images/ubiquiti.UVC G4 Türklingel.png" width="60" />|Ubiquiti|Ubiquiti G4 Kugel||||
 |<img src="../../de_DE/camera/images/ubiquiti.UVC G4 Pro.png" width="60" />|Ubiquiti|Ubiquiti G4 Pro||||
+|<img src="../../de_DE/camera/images/ubiquiti.UVC G5 Turret Ultra.png" width="60" />|Ubiquiti|||||
 
 # Vistacam
 
@@ -246,4 +248,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2026-07-27 02:20:02
+:20:03

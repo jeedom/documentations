@@ -170,6 +170,7 @@
 |<img src="../../fr_FR/camera/images/reolink.camera-proxy.png" width="60" />|Reolink|Camera Proxy (pour argus si serveur proxy installé)||||
 |<img src="../../fr_FR/camera/images/reolink.rlc-410-5mp.png" width="60" />|Reolink|RLC-410-5MP||||
 |<img src="../../fr_FR/camera/images/reolink.rlc-410w.png" width="60" />|Reolink|RLC-410W||||
+|<img src="../../fr_FR/camera/images/reolink.trackMix.png" width="60" />|Reolink|Reolink TrackMix|||[Acheter](https://reolink.com/fr/product/reolink-trackmix-poe/)|
 
 # Rpi
 
@@ -202,6 +203,7 @@
 |<img src="../../fr_FR/camera/images/ubiquiti.UVC G4 Bullet.png" width="60" />|Ubiquiti|Ubiquiti G4 Bullet||||
 |<img src="../../fr_FR/camera/images/ubiquiti.UVC G4 Doorbell.png" width="60" />|Ubiquiti|Ubiquiti G4 Bullet||||
 |<img src="../../fr_FR/camera/images/ubiquiti.UVC G4 Pro.png" width="60" />|Ubiquiti|Ubiquiti G4 Pro||||
+|<img src="../../fr_FR/camera/images/ubiquiti.UVC G5 Turret Ultra.png" width="60" />|Ubiquiti|Ubiquiti G5 Turret Ultra||||
 
 # Vistacam
 
@@ -246,4 +248,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2026-07-27 02:20:02
+2026-07-28 02:20:03
