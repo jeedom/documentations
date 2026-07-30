@@ -335,7 +335,7 @@ php
             $return['launchable'] = 'nok';
             $return['launchable_message'] = __('La clé d\'application n\'est pas configurée', __FILE__);
         }
-        return $return;
+        
     }
 
 
@@ -468,7 +468,7 @@ php
  {
     
 
-    Wenn (!jeedom::
+     (!jeedom::
         
         die();
     }
@@ -477,7 +477,7 @@ php
         die();
     }
     $result = json_decode(file_get_contents("php://input"), true);
-    Wenn (!)) {
+     (!)) {
         die();
     }
 
@@ -496,7 +496,7 @@ php
 :
 
 php
-    Wenn (!jeedom::
+     (!jeedom::
         
         die();
     }
@@ -515,7 +515,7 @@ php
 
 php
     $result = json_decode(file_get_contents("php://input"), true);
-    Wenn (!)) {
+     (!)) {
         die();
     }
 
@@ -601,7 +601,7 @@ json
 
 ##### pre-install: 
 
-Beispiel :
+ :
 
 json
 {
@@ -613,7 +613,7 @@ json
 ##### post-install
 
 .
-Beispiel :
+ :
 
 json
 {
@@ -829,7 +829,7 @@ php
                 $return['state'] = 'ok';
             }
         }
-        return $return;
+        
     }
 
 
