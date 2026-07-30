@@ -13,7 +13,7 @@
 
 ..
 
- ****: `"compatibility" : 
+Beispiel ****: `"compatibility" : 
 
 :
 
@@ -74,7 +74,7 @@
     -  : 
     -  : 
     -  : 
-- . : ::::all()
+- .PHP : ::::all()
 
 - .
 
