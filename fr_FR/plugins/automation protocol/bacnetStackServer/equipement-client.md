@@ -141,6 +141,20 @@ Chaque objet BACnet importé peut générer :
 |------|-----------|-------------|-----------|
 | **info** | numeric / binary / string | Lecture de la valeur | `bacnet_info_TYPE_INSTANCE` |
 | **action** | slider / other | Écriture d'une valeur | `bacnet_action_TYPE_INSTANCE` |
+| **info** | binary | État de joignabilité du device | `connectivity` |
+| **action** | other | Lecture immédiate de toutes les valeurs | `refresh` |
+
+### Commande Rafraîchir
+
+Chaque équipement client dispose d'une commande action **Rafraîchir** (`refresh`), créée automatiquement. Elle déclenche immédiatement une lecture de toutes les commandes info de l'équipement, sans attendre le prochain passage du cron.
+
+Utile en mode **Cron** pour un retour d'état instantané lors d'un diagnostic, ou pour vérifier une modification de configuration côté device.
+
+> Si le device est marqué hors-ligne, la commande force une sonde de reconnexion immédiate (sans attendre la fenêtre de retry de 5 minutes), puis enchaîne la lecture si le device répond.
+
+### Adresse IP et commandes
+
+L'adresse IP et le Device ID utilisés par les commandes sont ceux de l'équipement. Modifier l'**Adresse IP** dans la configuration de l'équipement suffit : à la sauvegarde, toutes les commandes sont resynchronisées automatiquement.
 
 ### Priorité d'écriture par commande
 

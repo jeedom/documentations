@@ -5,6 +5,18 @@
 > Cette étape télécharge le binaire daemon (`bacnetStackd`) à jour. Sans cette étape, l'ancien binaire reste en place et les corrections ou nouvelles fonctionnalités du daemon ne sont pas actives.
 
 
+# 31/07/2026
+
+- **Correction — Changement d'IP d'un device client non pris en compte par les commandes d'écriture** :
+  - L'adresse IP et le Device ID étaient copiés dans chaque commande à sa création et jamais mis à jour : après un changement d'IP sur l'équipement, les commandes action continuaient d'écrire sur l'ancienne adresse (les lectures, elles, suivaient déjà)
+  - Les commandes d'écriture et de relinquish utilisent désormais l'IP/ID de l'équipement, la valeur portée par la commande ne servant plus que de repli
+  - Resynchronisation automatique de `device_ip` / `device_id` sur toutes les commandes à chaque sauvegarde de l'équipement (les équipements existants sont corrigés au premier update du plugin)
+
+- **Nouvelle commande "Rafraîchir" sur les équipements client** :
+  - Commande action `refresh` créée automatiquement, déclenche une lecture immédiate de toutes les commandes info sans attendre le cron
+  - Sur un device hors-ligne, force la sonde de reconnexion sans attendre la fenêtre de retry de 5 minutes, puis enchaîne la lecture
+
+
 # 13/05/2026
 
 - **Mapping Jeedom → BACnet — Ajout du champ Unités** :
