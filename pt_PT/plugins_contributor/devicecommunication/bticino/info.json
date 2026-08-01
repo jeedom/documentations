@@ -1,0 +1,41 @@
+{
+    "id": "bticino",
+    "name": "Home Security",
+    "description": {
+        "fr_FR": "Plugin permettant d'intégrer les appareils BTicino / Netatmo / Legrand Home Security"
+    },
+    "licence": "AGPL",
+    "author": "Mips",
+    "require": "4.6",
+    "os": {
+        "min": 11
+    },
+    "category": "devicecommunication",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 60,
+    "changelog": "https://mips2648.github.io/jeedom-plugins-docs/bticino/#language#/changelog",
+    "documentation": "https://mips2648.github.io/jeedom-plugins-docs/bticino/#language#/",
+    "changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/bticino/beta/#language#/changelog",
+    "documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/bticino/beta/#language#/",
+    "link": {
+        "forum": "https://community.jeedom.com/tag/plugin-bticino",
+        "video": ""
+    },
+    "language": [
+        "de_DE",
+        "en_US",
+        "es_ES",
+        "fr_FR",
+        "it_IT",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "v4",
+        "atlas"
+    ]
+}
