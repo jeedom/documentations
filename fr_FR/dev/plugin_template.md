@@ -189,12 +189,14 @@ Ce dossier contient la vue à proprement parler. Dedans on retrouve obligatoirem
 Tous les fichiers dans ce dossier doivent finir par ``.php`` et doivent obligatoirement commencer par :
 
 ````php
+{% raw %}
 <?php
 if (!isConnect('admin')) {
     throw new Exception('{{401 - Accès non autorisé}}');
  }
  sendVarToJS('eqType', 'mail');
  ?>
+ {% endraw %}
  ````
 
 Une fois sur cette page vous aurez accès en php à toutes les fonctions du core de jeedom (voir [ici](https://www.jeedom.com/doc/documentation/code/) ) ainsi qu’à celles de tous les modules installés donc le vôtre aussi.
@@ -214,7 +216,9 @@ Dans votre page de configuration une syntaxe HTML a été mise en place pour vou
 La syntaxe est assez simple: votre élément (input, select…​) doit avoir la classe css eqLogicAttr (ou cmdAttr pour les commandes) et un attribut indiquant le nom de la propriété :
 
 ````html
+{% raw %}
 <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement mail}}"/>
+{% endraw %}
 ````
 
 Là, par exemple, lors du chargement des données jeedom mettra la valeur du nom de l’équipement dans l’input et lors de la sauvegarde récupérera celle-ci pour la remettre en base de données. Petite astuce certaines propriétés sont en fait des chaînes JSON en BDD (cela permet d’avoir vraiment pas mal de liberté pour le plugin), dans ce cas il suffit de faire :
@@ -263,6 +267,7 @@ Plusieurs points importants :
 Dernier point: un exemple plus complet avec type et sous-type de commande :
 
 ````php
+{% raw %}
 function addCmdToTable(_cmd) {
     if (!isset(_cmd)) {
         var _cmd = {};
@@ -316,6 +321,7 @@ function addCmdToTable(_cmd) {
      jeedom.cmd.changeType($('#table_cmd tbody tr:last'), init(_cmd.subType));
     initTooltips();
 }
+{% endraw %}
 ````
 
 Ici on peut remarquer :
@@ -352,7 +358,9 @@ Le dossier modal vous permet de stocker vos fichiers php destinés à afficher d
 On peut voir :
 
 ````js
+{% raw %}
 $('#md_modal').dialog({title: "{{Classe du périphérique}}"}).load('index.php?v=d&plugin=zwave&modal=show.class&id=' + $('.eqLogicAttr[data-l1key=id]').value()).dialog('open')
+{% endraw %}
 ````
 
 La première ligne permet de mettre un titre à votre modal

@@ -275,6 +275,7 @@ Dans le code du **Widget Dashboard**, un tag `template` est inséré entre la de
   <summary markdown="span">Exemple de code de Widget avec template</summary>
 
   ~~~ html
+  {% raw %}
   <div class="cmd cmd-widget" ...>
     <div class="title #hide_name#">
       <div class="cmdName">#name_display#</div>
@@ -289,6 +290,7 @@ Dans le code du **Widget Dashboard**, un tag `template` est inséré entre la de
     <script>
     </script>
   </div>
+  {% endraw %}
   ~~~
 
 </details>
@@ -325,6 +327,7 @@ path de la traduction : `data\customTemplates\i18n\cmd.info.string.myCustomWidge
 Exemple :
 
 ```html
+{% raw %}
 <div class="content-xs">
     <span class="cmdName #hide_name#">#name_display#</span> <strong class="state"></strong>
     {{Je suis un widget tiers}}
@@ -333,6 +336,7 @@ Exemple :
     <div>param : {{Mon paramètre tiers}}.</div>
   </template>
   <script>
+{% endraw %}
 ```
 
 ```json

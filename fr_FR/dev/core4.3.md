@@ -96,17 +96,20 @@ Sur les commandes info, le bouton **Tester** n'est plus affiché, c'est la valeu
 La déclaration de la fonction d'update évolue:
 
 ```js
+{% raw %}
 jeedom.cmd.update['#id#'] = function(_options) {
       $('.cmd[data-cmd_id=#id#]').attr('title', '{{Date de valeur}} : '+_options.valueDate+'<br/>{{Date de collecte}} : '+_options.collectDate)
       $('.cmd[data-cmd_id=#id#] .state').empty().append(_options.display_value)
     }
 
 jeedom.cmd.refreshValue([{cmd_id :'#id#',display_value: '#state#', valueDate: '#valueDate#', collectDate: '#collectDate#', alertLevel: '#alertLevel#'}])
+{% endraw %}
 ```
 
 Devient:
 
 ```js
+{% raw %}
 jeedom.cmd.addUpdateFunction('#id#',function(_options) {
       $('.cmd[data-cmd_id=#id#]').attr('title', '{{Date de valeur}} : '+_options.valueDate+'<br/>{{Date de collecte}} : '+_options.collectDate)
       $('.cmd[data-cmd_id=#id#] .state').empty().append(_options.display_value)
@@ -114,6 +117,7 @@ jeedom.cmd.addUpdateFunction('#id#',function(_options) {
     });
 
 jeedom.cmd.refreshValue([{cmd_id :'#id#',display_value: '#state#', valueDate: '#valueDate#', collectDate: '#collectDate#', alertLevel: '#alertLevel#', unit: '#unite#'}])
+{% endraw %}
 ```
 
 Notez le nouveau paramètre `unit`, qui permet au Core de transformer, par exemple, 3500W en 3.5kW.
