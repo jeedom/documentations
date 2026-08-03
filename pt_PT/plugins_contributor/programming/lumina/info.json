@@ -10,6 +10,7 @@
         "max": 13.99
     },
     "category": "programming",
+    "mobile": "panel",
     "hasDependency": false,
     "hasOwnDeamon": false,
     "maxDependancyInstallTime": 0,
