@@ -173,7 +173,7 @@ var docMenu = [
     de_DE: "Mitwirkende",
     pt_PT: "Contribuidores",
     submenu: [
-      { link: "/#LANG#/beta/", fr_FR: "Bêta-Test", en_US: "Beta Test", es_ES: "Prueba Beta", de_DE: "Beta-Test", pt_PT: "Teste Beta" },
+      { link: "/#LANG#/contribute/beta", fr_FR: "Bêta-Test", en_US: "Beta Test", es_ES: "Prueba Beta", de_DE: "Beta-Test", pt_PT: "Teste Beta" },
       { link: "/#LANG#/contribute/doc", fr_FR: "Documentation", en_US: "Documentation", es_ES: "Documentación", de_DE: "Dokumentation", pt_PT: "Documentação" },
       { link: "/#LANG#/contribute/core", fr_FR: "Core & Plugins", en_US: "Core & Plugins", es_ES: "Core & Plugins", de_DE: "Core & Plugins", pt_PT: "Core & Plugins" }
     ]
