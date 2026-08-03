@@ -1,3 +1,4 @@
+<!-- Unused for now -->
 ## Environnement de développement
 
 Nous allons voir ici comment mettre en place un environnement de développement efficace entre un Pi de test et un PC sous Windows pour l'édition du code et la maintenance du dépôt GitHub.
