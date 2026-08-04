@@ -1,2 +1,0 @@
-# ZeroTier Plugin
-
