@@ -1,7 +1,7 @@
 [<< Core js](/fr_FR/dev/corejs/index)  
 ## Helpers
 
-Les *helpers* Sont des fonctions du Core prête à l'emploi qui peuvent être appellées par les plugins et se chargent de différentes tâches.
+Les *helpers* sont des fonctions du Core prêtes à l'emploi qui peuvent être appelées par les plugins et se chargent de différentes tâches.
 
 
 ### initTooltips()
@@ -59,7 +59,7 @@ flatpickr(_input, {
 })
 {% endraw %}
 ````
-> Sur ces deux fonctions, la langues est soit us, fr, es en fonction de la langue du Core.
+> Sur ces deux fonctions, la langue est soit us, fr, es en fonction de la langue du Core.
 
 
 ### setCheckContextMenu() 
@@ -68,7 +68,7 @@ flatpickr(_input, {
 
 - Gestion de checkboxs multiples : Proposer un menu contextuel sur les checkbox : Sélectionner toutes, aucune, Sélection inversée.
 
-Pour l'utiliser, il faut ajouter la class css *checkContext* sur les checkboxs concernées, et appeller la fonction ``jeedomUtils.setCheckContextMenu()``
+Pour l'utiliser, il faut ajouter la class css *checkContext* sur les checkboxs concernées, et appeler la fonction ``jeedomUtils.setCheckContextMenu()``
 
 Les checkboxs seront alors groupées par même *data-l1key* et *data-l2key* si ils existent.
 
