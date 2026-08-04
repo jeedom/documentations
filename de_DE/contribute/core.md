@@ -9,7 +9,7 @@ Jeedom est un logiciel open-source dont le code est consultable sur [Github](htt
 ## Prérequis
 
 Pour contribuer au développement du core Jeedom ou d'un plugin, quelques prérequis sont à connaître et à prendre en compte :
-- Tout d'abord, il est indispensable de prendre connaissance et d'appliquer [la procédure de bêta-test de Jeedom](../beta/),
+- Tout d'abord, il est indispensable de prendre connaissance et d'appliquer [la procédure de bêta-test de Jeedom](../contribute/beta),
 - il faut également disposer d'[un compte utilisateur sur GitHub](https://github.com/){:target="_blank"},
 - Savoir faire [une *Pull Request* sur GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request){:target="_blank"},
 - Comprendre le langage concerné par les modifications *(`PHP`, `JavaScript`, `HTML`, `CSS`, `Python`, `Node.js`, etc.)*,
