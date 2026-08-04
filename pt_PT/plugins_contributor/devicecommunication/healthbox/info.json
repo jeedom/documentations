@@ -1,0 +1,31 @@
+{
+	"id": "healthbox",
+	"name": "healthbox",
+	"description": {
+		"fr_FR": "Ce plugin Jeedom permet de controler les VMC RENSON HEALTBOX 3"
+	},
+	"licence": "AGPL",
+	"author": "Knetus",
+	"require": "4.2.0",
+	"category": "devicecommunication",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://knetus56.github.io/healthbox/#language#/changelog",
+	"documentation": "https://knetus56.github.io/healthbox/#language#/",
+	"changelog_beta": "https://knetus56.github.io/healthbox/#language#/beta/changelog",
+	"documentation_beta": "https://knetus56.github.io/healthbox/#language#/beta/",
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
+}
