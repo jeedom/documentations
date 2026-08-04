@@ -1,0 +1,9 @@
+{
+    "id": "mystrom",
+    "name": "MyStrom",
+    "licence": "AGPL",
+    "author": "Christophe Jordens",
+    "installation" : "Aucune",
+    "require": "2.4.6",
+    "category": "energy"
+}

@@ -1,0 +1,14 @@
+{
+	"id" : "ftpd",
+	"name" : "Ftpd",
+    "description" : "Auteur du plugin : Thomas Guenneguez<br>ATTENTION, il ne s’agit pas d’un plugin Officiel Jeedom mais d’un plugin développé par une tierce personne et dont l’évolution a été abandonnée. L’équipe technique Jeedom assurera l’assistance sur ce plugin sans obligation de résultat.<br>Plugin permettant de creer un serveur ftp qui notifiera jeedom lorsqu'un fichier est déposé. Très utile pour les cameras IP qui peuvent sur détection de mouvement envoyer un fichier par ftp.",
+	"licence" : "AGPL",
+	"author" : "Jeedom Legacy",
+	"require" : "3.0",
+	"category" : "security",
+	"hasDependency" : true,
+	"hasOwnDeamon" : true,
+	"maxDependancyInstallTime" : 45,
+    "changelog" : "https://jeedom.github.io/documentation/third_plugin/ftpd/#language#/index.html#_changelog",
+    "documentation" : "https://jeedom.github.io/documentation/third_plugin/ftpd/#language#/index.html"
+}

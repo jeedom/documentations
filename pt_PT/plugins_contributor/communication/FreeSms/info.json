@@ -1,0 +1,13 @@
+{
+	"id" : "FreeSms",
+	"name" : "Free SMS",
+	"licence" : "AGPL",
+	"author" : "Hydro, Halbout Michael",
+	"require" : "3.2",
+	"category" : "communication",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0, 
+	"documentation" : "https://mika-nt28.github.io/Documentations/FreeSms/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/FreeSms/#language#/changelog"
+}

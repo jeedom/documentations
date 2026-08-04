@@ -1,0 +1,20 @@
+{
+	"id" : "kkasa",
+	"name" : "kKasa",
+	"description" : "Plugin Tp-Link Kasa",
+	"licence" : "AGPL",
+	"author" : "kavod",
+	"require" : "3.2",
+	"category" : "devicecommunication",
+	"hasDependency" : 1,
+	"hasOwnDeamon" : 0,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://jeedom.github.io/kkasa/#language#/changelog",
+	"documentation" : "https://jeedom.github.io/kkasa/#language#/",
+	"link" : {
+		"forum":"Lien vers le forum",
+		"video" : "Lien vers une video"
+	},
+	"language" : ["fr_FR","en_US"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+}

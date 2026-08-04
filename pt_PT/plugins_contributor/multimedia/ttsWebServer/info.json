@@ -1,0 +1,11 @@
+{
+	"id" : "ethalsurveillance",
+	"name" : "Surveillance Equipement",
+	"description" : "Surveillance du fonctionnement d'un equipement",
+	"licence" : "AGPL",
+	"author" : "ethal",
+	"require" : "3.0",
+	"category" : "monitoring",
+	"display" : "panel",
+	"installation" : "version 2.1"
+}

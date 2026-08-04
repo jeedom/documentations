@@ -1,0 +1,31 @@
+{
+  "id": "georide",
+  "name": "GeoRide",
+  "description": "{{Plugin afin d'utiliser l'api ouvert de GeoRide}}",
+  "licence": "MIT",
+  "author": "ImoucheG",
+  "require": "3.2",
+  "version": "1.0.4",
+  "category": "security",
+  "hasDependency": false,
+  "hasOwnDeamon": false,
+  "maxDependancyInstallTime": 0,
+  "changelog": "https://github.com/ImoucheG/GeoRide-Jeedom-Source",
+    "documentation": "https://github.com/ImoucheG/GeoRide-Jeedom-Source",
+  "link": {
+    "GeoRide-Jeedom": "https://github.com/ImoucheG/GeoRide-Jeedom-Source",
+    "GeoRide": "https://georide.fr/"
+  },
+  "language": [
+    "fr_FR",
+    "en_US"
+  ],
+  "compatibility": [
+    "miniplus",
+    "smart",
+    "rpi",
+    "docker",
+    "diy",
+    "mobile"
+  ]
+}

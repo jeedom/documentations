@@ -1,0 +1,12 @@
+{
+	"id" : "plex",
+	"name" : "Plex",
+	"licence" : "AGPL",
+	"author" : "Halbout Michael",
+	"require" : "3.0",
+	"category" : "multimedia",
+	"hasOwnDeamon" : true,
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+ 	"documentation" : "https://mika-nt28.github.io/Documentations/plex/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/plex/#language#/changelog"
+}

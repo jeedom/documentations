@@ -1,0 +1,12 @@
+{
+	"id" : "huawei4g",
+	"name" : "Huawei 4G",
+	"description" : "Plugin pour la supervision de routeur 4G Huawei",
+	"licence" : "MIT",
+	"author" : "Tux1c0",
+	"require" : "3.3",
+	"category" : "monitoring",
+	"hasDependency" : true,
+	"changelog" : "https://tux1c0.github.io/plugin-huawei4g/#language#/",
+	"documentation" : "https://tux1c0.github.io/plugin-huawei4g/#language#/"
+}

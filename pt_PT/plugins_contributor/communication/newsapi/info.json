@@ -1,0 +1,12 @@
+{
+    "id": "mystrom",
+    "name": "MyStrom 1.3.0",
+    "licence": "AGPL",
+    "author": "Christophe Jordens",
+    "installation" : "Aucune",
+    "require": "2.4.6",
+    "category": "energy",
+    "version": "1.3.0",
+    "changelog" : "https://github.com/coolweb/MystromJeedom/blob/master/doc/fr_FR/changelog.asciidoc",
+    "documentation" : "http://htmlpreview.github.io/?https://github.com/coolweb/MystromJeedom/blob/master/doc/fr_FR/index.html"
+}

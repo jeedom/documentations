@@ -1,0 +1,9 @@
+{
+	"id" : "ethalsurveillance",
+	"name" : "Surveillance Equipement",
+	"description" : "Surveillance du fonctionnement d'un equipement",
+	"licence" : "AGPL",
+	"author" : "ethal",
+	"require" : "2.4",
+	"category" : "monitoring"
+}

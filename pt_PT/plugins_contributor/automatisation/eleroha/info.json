@@ -1,0 +1,16 @@
+{
+    "id" : "eleroha",
+    "name" : "Eleroha",
+    "description" : "Plugin de communication avec les stores équipés d'un système Elero",
+    "licence" : "AGPL",
+    "author" : "OpenHomeAutomation",
+    "require" : "3.2",
+    "category" : "automatisation",
+    "hasDependency" : true,
+    "hasOwnDeamon" : true,
+    "maxDependancyInstallTime" : 0,
+    "changelog" : "https://openhautomation.github.io/eleroha/#language#/changelog",
+    "documentation" : "https://openhautomation.github.io/eleroha/#language#/",
+    "language" : ["fr_FR", "en_US"],
+    "compatibility" : ["smart","rpi","diy"]
+}

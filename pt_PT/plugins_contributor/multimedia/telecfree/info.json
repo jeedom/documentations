@@ -1,0 +1,14 @@
+{
+	"id" : "telecfree",
+	"name" : "Freebox Révolution",
+	"description" : "Plugin pour piloter le Freebox Player de la Freebox Revolution",
+	"licence" : "AGPL",
+	"author" : "Michael Halbout",
+	"require" : "3.1",
+	"category" : "multimedia",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+	"documentation" : "https://mika-nt28.github.io/Documentations/telecfree/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/telecfree/#language#/changelog",
+	"hasDependency" : true,
+	"hasOwnDeamon" : true
+}

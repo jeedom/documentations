@@ -1,0 +1,13 @@
+{
+"id" : "pushover",
+"name" : "Pushover",
+"licence" : "AGPL",
+"author" : "Roger Simon",
+"require" : "2.0",
+"category" : "communication",
+"hasDependency" : false,
+"hasOwnDeamon" : false,
+"maxDependancyInstallTime" : 45,
+"changelog" : "https://rsimonfr.github.io/jeedom-plugin-pushover/fr_FR/changelog",
+"documentation" : "https://rsimonfr.github.io/jeedom-plugin-pushover/#language#/"
+}

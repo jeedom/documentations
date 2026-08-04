@@ -1,0 +1,13 @@
+{
+	"id" : "libreNMS",
+	"name" : "LibreNMS",
+	"description" : "LibreNMS est une AutoDiscovery PHP/MySQL/SNMP réseau de surveillance qui comprend la prise en charge d’une large gamme de matériel réseau et les systèmes d’exploitation, y compris Cisco, Linux, FreeBSD, Juniper, Brocade, Foundry, HP et beaucoup plus.",
+	"licence" : "AGPL",
+	"installation" : "",
+	"author" : "Michael Habout",
+	"require" : "3.2",
+	"category" : "monitoring",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+ 	"documentation" : "https://mika-nt28.github.io/Documentations/libreNMS/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/libreNMS/#language#/changelog"
+}

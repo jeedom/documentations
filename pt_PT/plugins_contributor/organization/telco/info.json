@@ -1,0 +1,13 @@
+{
+	"id" : "telco",
+	"name" : "Telecommande",
+	"description" : "Plugin permettant de créer des télécommandes",
+	"licence" : "AGPL",
+	"author" : "zyg0m4t1k",
+	"require" : "3.3.24",
+	"category" : "organization",
+	"changelog" : "https://zyg0m4t1k.github.io/telco/#language#/changelog",
+	"documentation" : "https://zyg0m4t1k.github.io/telco/#language#/",
+	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy"]	
+}

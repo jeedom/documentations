@@ -1,0 +1,15 @@
+{
+  "id": "badger",
+  "name": "Badger",
+  "description": "plug in de gestion de peripheriques wiegand.",
+  "licence": "AGPL",
+  "author": "Lijah",
+  "require": "3.2",
+  "category": "security",
+  "display": "panel",
+  "mobile": "panel",
+  "changelog": "https://jeedom.github.io/plugin-badger/#language#/changelog",
+  "documentation": "https://jeedom.github.io/plugin-badger/#language#/",
+  "language": [ "fr_FR", "en_US", "de_DE", "sp_SP", "ru_RU", "id_ID", "it_IT" ],
+  "compatibility": [ "miniplus", "smart", "rpi", "docker", "diy", "mobile" ]
+}

@@ -1,0 +1,13 @@
+{
+	"id" : "webview",
+	"name" : "Webview",
+	"version": "2.2.1",
+	"licence" : "AGPL",
+	"author" : "Pierre Engles",
+	"require" : "3.0",
+	"category" : "programming",
+	"hasDependency" : 1,
+	"hasOwnDeamon" : 0,
+	"documentation" : "http://engles.fr/jeedom_webview_docs/fr_FR/",
+	"changelog" : "http://engles.fr/jeedom_webview_docs/fr_FR/#changelog"
+}

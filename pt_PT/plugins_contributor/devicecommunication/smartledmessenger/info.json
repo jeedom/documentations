@@ -1,0 +1,16 @@
+{
+    "id" : "rikaha",
+    "name" : "rikaha",
+    "description" : "Plugin de monitoring poêles Rika",
+    "licence" : "AGPL",
+    "author" : "OpenHomeAutomation",
+    "require" : "3.2",
+    "category" : "monitoring",
+    "hasDependency" : false,
+    "hasOwnDeamon" : false,
+    "maxDependancyInstallTime" : 0,
+    "changelog" : "https://openhautomation.github.io/rikaha/#language#/changelog",
+    "documentation" : "https://openhautomation.github.io/rikaha/#language#/",
+    "language" : ["fr_FR", "en_US"],
+    "compatibility" : ["smart","rpi","diy"]
+}

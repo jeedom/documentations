@@ -1,0 +1,20 @@
+{
+	"id" : "AEG_nrc50",
+	"name" : "AEG nrc50 snmp",
+	"description" : "Plugin de récupération d'info et alarmes snmp des alimentations AEG grâce au module nrc50",
+	"licence" : "AGPL",
+	"author" : "linuxnico",
+	"require" : "3.2",
+	"category" : "energy",
+	"hasDependency" : true,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://linuxnico.github.io/pluginAEGnrc50/#language#/changelog",
+	"documentation" : "https://linuxnico.github.io/pluginAEGnrc50/#language#/",
+	"link" : {
+		"forum":"https://linuxnico.github.io/pluginAEGnrc50/#language#/",
+		"video" : "https://linuxnico.github.io/pluginAEGnrc50/#language#/"
+	},
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+}

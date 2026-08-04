@@ -1,0 +1,10 @@
+{
+	"id" : "hottoh",
+	"name" : "Hottoh",
+	"licence" : "AGPL",
+	"author" : "Peofofo",
+	"require" : "3.2",
+	"category" : "wellness",
+	"changelog" : "https://peofofo.github.io/jeedom_hottoh/#language#/changelog",
+	"documentation" : "https://peofofo.github.io/jeedom_hottoh/#language#/"
+}

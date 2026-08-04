@@ -1,0 +1,16 @@
+{
+	"id" : "tendaac",
+	"name" : "Routeur Tenda AC",
+	"description" : "Plugin permettant de gérer les routeurs Tenda AC11",
+	"licence" : "AGPL",
+	"author" : "Flobul",
+	"require" : "3.0",
+	"category" : "communication",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://flobul.github.io/TendaAC/#language#/changelog",
+	"documentation" : "https://flobul.github.io/TendaAC/#language#/",
+	"language" : ["fr_FR","en_US","es_ES"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+}

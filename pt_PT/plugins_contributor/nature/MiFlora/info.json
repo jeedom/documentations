@@ -1,0 +1,16 @@
+{
+  "id": "MiFlora",
+  "name": "MiFlora",
+  "description": "Ce plugin permet de gèrer les Xiaomi plants ou Mi Flora ainsi que les Parrots. Il nécéssite une connection bluetooth vers les objets.",
+  "usage": "Il gère la recuperation des infos de manière déportés par SSH.",
+  "licence": "GPL2.0",
+  "author": "Rene Jullien",
+  "require": "2.4",
+  "version": "3.1.7",
+  "category": "nature",
+  "hasDependency": true,
+  "changelog": "https://NextDom.github.io/plugin-MiFlora/#language#/#tocAnchor-1-13",
+  "documentation": "https://NextDom.github.io/plugin-MiFlora/#language#"
+}
+
+

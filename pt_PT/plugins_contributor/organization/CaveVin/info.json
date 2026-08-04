@@ -1,0 +1,15 @@
+{
+	"id" : "CaveVin",
+	"name" : "Cave à Vin",
+	"description ":"Quel vin j'ai dans ma cave?<br/>Une question que tous le monde se pose, et un plugin pour essayer d'y repondre",
+	"usage" : "Pour utilisé le plugin il faut passer par les etapes suivante<br/>  - Création d'un casier a bouteille en fonction du nombre de bouteille (Hauteur et largeur).<br/>  - Création une base de donné, personnelle de nos vin, <br/>  - Affectation d'une bouteille sur chaque casier afin d’amélioré la gestion.<br/><br/>A venir<br/>Ajout de la base de donnée metetvin pour pouvoir choisir plus facilement en fonction de nos plat<br/>Ajout d'un panel pour mieux chercher ce que l'on va sortir de la cave av<br/>",
+	"licence" : "AGPL",
+	"author" : "Halbout Michael",
+	"category" : "organization",
+	"display" : "panel",
+	"mobile" : "panel",
+	"eventjs" : true,
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+ 	"documentation" : "https://mika-nt28.github.io/Documentations/CaveVin/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/CaveVin/#language#/changelog"
+}

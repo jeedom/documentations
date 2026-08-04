@@ -1,0 +1,13 @@
+{
+	"id" : "PaC_Hayward",
+	"name" : "Pompe à chaleur Hayward",
+	"description" : "Plugin pour piloter votre pompe à chaleur de piscine",
+	"licence" : "AGPL",
+	"author" : "yostone",
+	"require" : "3.2",
+	"category" : "monitoring",
+	"changelog" : "",
+	"documentation" : "https://yostone.github.io/Pac_Hayward/",
+	"language" : "",
+	"compatibility" : ""	
+}

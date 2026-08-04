@@ -1,0 +1,14 @@
+{
+"id" : "RTSP",
+"name" : "RTSP",
+"licence" : "AGPL",
+"author" : "Jeedom Legacy",
+"description" : "Auteur du plugin : Slobberbone.<br/>ATTENTION, il ne s’agit pas d’un plugin Officiel Jeedom mais d’un plugin développé par une tierce personne et dont l’évolution a été abandonnée. L’équipe technique Jeedom assurera l’assistance sur ce plugin sans obligation de résultat. Plugin de compatibilité RTSP avec le plugin Caméra.",
+"require" : "2.2.5",
+"category" : "security",
+"hasDependency" : true,
+"hasOwnDeamon" : false,
+       "maxDependancyInstallTime" : 45,
+        "changelog" : "https://jeedom.github.io/plugin-RTSP/#language#/changelog",
+        "documentation" : "https://jeedom.github.io/plugin-RTSP/#language#/"
+}

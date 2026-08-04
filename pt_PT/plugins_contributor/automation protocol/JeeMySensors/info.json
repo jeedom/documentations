@@ -1,0 +1,20 @@
+{
+	"id" : "JeeMySensors",
+	"name" : "JeeMySensors",
+	"description" : "Plugin pour le protocole mySensors",
+	"licence" : "AGPL",
+	"author" : "Christophe CHAMANT",
+	"require" : "3.2",
+	"category" : "automation protocol",
+	"hasDependency" : true,
+	"hasOwnDeamon" : true,
+	"maxDependancyInstallTime" : 120,
+	"changelog" : "https://totoff974.github.io/jeedom-JeeMySensors/#language#/changelog",
+	"documentation" : "https://totoff974.github.io/jeedom-JeeMySensors/#language#/",
+	"link" : {
+		"forum":"Lien vers le forum",
+		"video" : "Lien vers une video"
+	},
+	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+}

@@ -1,0 +1,16 @@
+{
+	"id" : "Monitoring",
+	"name" : "Monitoring",
+	"description" : "Plugin permettant le monitoring des équipements",
+	"licence" : "AGPL",
+	"author" : "Phifi",
+	"require" : "3.0",
+	"hasDependency" : true,
+	"category" : "monitoring",
+	"language" : ["fr_FR","en_US","de_DE","es_ES"],
+	"compatibility" : ["Jeedomboard","Smart","miniplus","rpi","docker","diy"],
+	"display" : "panel",
+	"mobile" : "panel",
+	"changelog" : "https://surveillancestation.github.io/surveillancestation/monitoring/fr_FR/#tocAnchor-1-10",
+	"documentation" : "https://surveillancestation.github.io/surveillancestation/monitoring/fr_FR/"
+}

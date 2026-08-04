@@ -1,0 +1,9 @@
+{
+	"id" : "Store",
+	"name" : "Store",
+	"description" : "Plugin pour gérer des stores",
+	"licence" : "AGPL",
+	"author" : "Nicolas Goubaux",
+	"require" : "2.3",
+	"category" : "programming"
+}

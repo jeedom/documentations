@@ -1,0 +1,17 @@
+{
+	"id" : "evohome",
+	"name" : "Evohome",
+	"description" : "Plugin EVOHOME",
+	"licence" : "AGPL",
+	"author" : "ctwins95",
+	"version" : "0.4.3",
+	"require" : "3.3",
+	"category" : "energy",
+	"hasDependency" : true,
+	"hasOwnDeamon" : false,
+	"issue" : "https://github.com/ctwins/evohome4jeedom/issues",
+	"documentation": "https://ctwins.github.io/evohome4jeedom/#language#",
+	"changelog": "https://ctwins.github.io/evohome4jeedom/#language#/changelog",
+	"language" : ["fr_FR","en_US"],
+	"compatibility" : ["miniplus","smart","rpi","diy","docker","v4"]
+}
