@@ -1,3 +1,25 @@
+var GENERAL_SECTIONS = ['presentation', 'concept', 'howto', 'howtoadvance', 'installation', 'compatibility', 'premiers-pas', 'mobile', 'contribute', 'dev', 'legal_notice', 'home']
+
+function localizeHref(href, _lang) {
+  var secondSlash = href.indexOf('/', 1)
+  var section = secondSlash === -1 ? href.slice(1) : href.slice(1, secondSlash)
+  if (GENERAL_SECTIONS.indexOf(section) === -1) {
+    return href
+  }
+  var rest = secondSlash === -1 ? '' : href.slice(secondSlash)
+  if (rest === '' || rest === '/') {
+    return '/' + section + '/' + _lang + '/'
+  }
+  return '/' + section + '/' + _lang + rest
+}
+
+function resolveLink(link, _lang, _version) {
+  if (link.indexOf('#LANG#') !== -1 || link.indexOf('#VERSION#') !== -1) {
+    return link.replace('#LANG#', _lang).replace(/#VERSION#/g, _version)
+  }
+  return link.charAt(0) === '/' ? localizeHref(link, _lang) : link
+}
+
 var docMenu = [
   {
     fr_FR: "Présentation",
@@ -5,21 +27,21 @@ var docMenu = [
     es_ES: "Presentación",
     de_DE: "Präsentation",
     pt_PT: "Apresentação",
-    link: "/#LANG#/presentation/index"
+    link: "/presentation"
   }, {
     fr_FR: "Concepts",
     en_US: "Concepts",
     es_ES: "Conceptos",
     de_DE: "Konzepte",
     pt_PT: "Conceitos",
-    link: "/#LANG#/concept/"
+    link: "/concept"
   }, {
     fr_FR: 'Assistance et bug',
     en_US: 'Assistance and bug',
     es_ES: "Asistencia y error",
     de_DE: "Hilfe und Fehler",
     pt_PT: "Assistência e bug",
-    link: "/#LANG#/howto/remonter_un_bug"
+    link: "/howto/remonter_un_bug"
   }, {
     divider: true
   }, {
@@ -29,9 +51,9 @@ var docMenu = [
     de_DE: "Installieren Jeedom",
     pt_PT: "Instale o Jeedom",
     submenu: [
-      { link: "/#LANG#/installation/", fr_FR: "Installation", en_US: "Installation", es_ES: "Instalación", de_DE: "Installation", pt_PT: "" },
-      { link: "/#LANG#/compatibility/", fr_FR: "Compatibilité", en_US: "Compatibility", es_ES: "Compatibilidad", de_DE: "Kompatibilität", pt_PT: "" },
-      { link: "/#LANG#/premiers-pas/", fr_FR: "Premiers pas", en_US: "First step", es_ES: "Empezando", de_DE: "Erste Schritte", pt_PT: "" }
+      { link: "/installation", fr_FR: "Installation", en_US: "Installation", es_ES: "Instalación", de_DE: "Installation", pt_PT: "" },
+      { link: "/compatibility", fr_FR: "Compatibilité", en_US: "Compatibility", es_ES: "Compatibilidad", de_DE: "Kompatibilität", pt_PT: "" },
+      { link: "/premiers-pas", fr_FR: "Premiers pas", en_US: "First step", es_ES: "Empezando", de_DE: "Erste Schritte", pt_PT: "" }
     ]
   }, {
     fr_FR: "Services",
@@ -41,11 +63,11 @@ var docMenu = [
     pt_PT: "Serviços",
     submenu: [
       // { link: "", fr_FR: "Market", en_US: "Market" },
-      { link: "/#LANG#/howto/assistant_vocaux_cloud", fr_FR: "Assistant vocaux", en_US: "Voice assistant", es_ES: "Asistente de voz", de_DE: "Sprachassistent", pt_PT: "" },
-      { link: "/#LANG#/howto/backup_cloud", fr_FR: "Sauvegarde", en_US: "Backup", es_ES: "Copia de seguridad", de_DE: "Backup", pt_PT: "" },
-      { link: "/#LANG#/howto/mise_en_place_dns_jeedom", fr_FR: "Accès distance", en_US: "Remote access", es_ES: "Acceso remoto", de_DE: "Fernzugriff", pt_PT: "" },
-      { link: "/#LANG#/howto/monitoring_cloud", fr_FR: "Monitoring", en_US: "Monitoring", es_ES: "Supervisión", de_DE: "Überwachung", pt_PT: "" },
-      { link: "/#LANG#/howto/sms_cloud", fr_FR: "SMS, Appels", en_US: "SMS and call", es_ES: "SMS, manzanas", de_DE: "SMS, Anrufe", pt_PT: "" },
+      { link: "/howto/assistant_vocaux_cloud", fr_FR: "Assistant vocaux", en_US: "Voice assistant", es_ES: "Asistente de voz", de_DE: "Sprachassistent", pt_PT: "" },
+      { link: "/howto/backup_cloud", fr_FR: "Sauvegarde", en_US: "Backup", es_ES: "Copia de seguridad", de_DE: "Backup", pt_PT: "" },
+      { link: "/howto/mise_en_place_dns_jeedom", fr_FR: "Accès distance", en_US: "Remote access", es_ES: "Acceso remoto", de_DE: "Fernzugriff", pt_PT: "" },
+      { link: "/howto/monitoring_cloud", fr_FR: "Monitoring", en_US: "Monitoring", es_ES: "Supervisión", de_DE: "Überwachung", pt_PT: "" },
+      { link: "/howto/sms_cloud", fr_FR: "SMS, Appels", en_US: "SMS and call", es_ES: "SMS, manzanas", de_DE: "SMS, Anrufe", pt_PT: "" },
     ]
   }, {
     divider: true
@@ -78,11 +100,11 @@ var docMenu = [
       // { link: "", icon: "fas fa-sticky-note", fr_FR: "Notes", en_US: "Notes", es_ES: "Notas", de_DE: "Anmerkungen", pt_PT: "" },
       // { link: "", icon: "fas fa-check", fr_FR: "Testeur d'expression", en_US: "Expression tester", es_ES: "Probador de expresión", de_DE: "Expressionstester", pt_PT: "" },
       // { link: "", icon: "fas fa-eye", fr_FR: "Variables", en_US: "Variables", es_ES: "Variables", de_DE: "Variables", pt_PT: "" },
-      { link: "/#LANG#/concept/summary", icon: "fas fa-table", fr_FR: "Résumés", en_US: "Summaries", es_ES: "Resúmenes", de_DE: "Zusammenfassunge", pt_PT: "Resumos" },
+      { link: "/concept/summary", icon: "fas fa-table", fr_FR: "Résumés", en_US: "Summaries", es_ES: "Resúmenes", de_DE: "Zusammenfassunge", pt_PT: "Resumos" },
       { link: "/#LANG#/core/#VERSION#/plugin", icon: "fas fa-tags", fr_FR: "Plugins", en_US: "Plugins", es_ES: "Plugins", de_DE: "Plugins", pt_PT: "Plugins" },
       { link: "/#LANG#/core/#VERSION#/search", icon: "fas fa-search", fr_FR: "Recherche", en_US: "Search", es_ES: "Investigacion", de_DE: "Forschung", pt_PT: "" },
       { link: "/#LANG#/core/#VERSION#/replace", icon: "fas fa-random", fr_FR: "Remplacer", en_US: "Replace", es_ES: "Reemplazar", de_DE: "Ersetzen", pt_PT: "" },
-      { link: "/#LANG#/mobile/index", icon: "fas fa-mobile", fr_FR: "Version mobile", en_US: "Mobile version", es_ES: "Versión móvil", de_DE: "Mobile Version", pt_PT: "" },
+      { link: "/mobile", icon: "fas fa-mobile", fr_FR: "Version mobile", en_US: "Mobile version", es_ES: "Versión móvil", de_DE: "Mobile Version", pt_PT: "" },
       { link: "/#LANG#/core/#VERSION#/faq", icon: "fas fa-question-circle", fr_FR: "FAQ", en_US: "FAQ", es_ES: "FAQ", de_DE: "FAQ", pt_PT: "FAQ" }
     ]
   }, {
@@ -160,8 +182,8 @@ var docMenu = [
     de_DE: "Anleitungen",
     pt_PT: "Guias",
     submenu: [
-      { link: "/#LANG#/howto/", fr_FR: "Tutoriaux", en_US: "Tutorials", es_ES: "Tutoriales", de_DE: "Tutorials", pt_PT: "" },
-      { link: "/#LANG#/howtoadvance/", fr_FR: "Tutoriaux avancés", en_US: "Advanced tutorials", es_ES: "Tutoriales avanzados", de_DE: "Erweiterte Tutorials", pt_PT: "" }
+      { link: "/howto", fr_FR: "Tutoriaux", en_US: "Tutorials", es_ES: "Tutoriales", de_DE: "Tutorials", pt_PT: "" },
+      { link: "/howtoadvance", fr_FR: "Tutoriaux avancés", en_US: "Advanced tutorials", es_ES: "Tutoriales avanzados", de_DE: "Erweiterte Tutorials", pt_PT: "" }
     ]
   }, {
     divider: true
@@ -172,9 +194,9 @@ var docMenu = [
     de_DE: "Mitwirkende",
     pt_PT: "Contribuidores",
     submenu: [
-      { link: "/#LANG#/contribute/beta", fr_FR: "Bêta-Test", en_US: "Beta Test", es_ES: "Prueba Beta", de_DE: "Beta-Test", pt_PT: "Teste Beta" },
-      { link: "/#LANG#/contribute/doc", fr_FR: "Documentation", en_US: "Documentation", es_ES: "Documentación", de_DE: "Dokumentation", pt_PT: "Documentação" },
-      { link: "/#LANG#/contribute/core", fr_FR: "Core & Plugins", en_US: "Core & Plugins", es_ES: "Core & Plugins", de_DE: "Core & Plugins", pt_PT: "Core & Plugins" }
+      { link: "/contribute/beta", fr_FR: "Bêta-Test", en_US: "Beta Test", es_ES: "Prueba Beta", de_DE: "Beta-Test", pt_PT: "Teste Beta" },
+      { link: "/contribute/doc", fr_FR: "Documentation", en_US: "Documentation", es_ES: "Documentación", de_DE: "Dokumentation", pt_PT: "Documentação" },
+      { link: "/contribute/core", fr_FR: "Core & Plugins", en_US: "Core & Plugins", es_ES: "Core & Plugins", de_DE: "Core & Plugins", pt_PT: "Core & Plugins" }
     ]
   }, {
     fr_FR: 'Développeurs',
@@ -183,8 +205,8 @@ var docMenu = [
     de_DE: "Entwickler",
     pt_PT: "Desenvolvedores",
     submenu: [
-      { link: "/#LANG#/dev/", fr_FR: "Plugins", en_US: "Plugins", es_ES: "Complementos", de_DE: "Plugins", pt_PT: "Plugins" },
-      { link: "/#LANG#/dev/core", fr_FR: "Core", en_US: "Core", es_ES: "Core", de_DE: "Core", pt_PT: "Core" },
+      { link: "/dev", fr_FR: "Plugins", en_US: "Plugins", es_ES: "Complementos", de_DE: "Plugins", pt_PT: "Plugins" },
+      { link: "/dev/core", fr_FR: "Core", en_US: "Core", es_ES: "Core", de_DE: "Core", pt_PT: "Core" },
       { link: "/#LANG#/core/#VERSION#/api_http", fr_FR: "Api HTTP", en_US: "Api HTTP", es_ES: "Api HTTP", de_DE: "Api HTTP", pt_PT: "Api HTTP" },
       { link: "/#LANG#/core/#VERSION#/jsonrpc_api", fr_FR: "API JsonRPC", en_US: "API JsonRPC", es_ES: "API JsonRPC", de_DE: "API JsonRPC", pt_PT: "API JsonRPC" },
       { link: "/phpdoc/#VERSION#", fr_FR: "PhpDoc", en_US: "PhpDoc", es_ES: "PhpDoc", de_DE: "PhpDoc", pt_PT: "PhpDoc" },
@@ -197,7 +219,7 @@ var docMenu = [
     es_ES: "Notas legales",
     de_DE: "Introduction",
     pt_PT: "Rechtliche Hinweise",
-    link: "/#LANG#/legal_notice"
+    link: "/legal_notice"
   }, {
     divider: true
   },
@@ -274,7 +296,7 @@ for (var i in docMenu) {
       if (submenu.version && submenu.version.indexOf(jeedomVersion) == -1) {
         continue
       }
-      html += '<li><a href="' + submenu.link.replace('#LANG#', lang).replace('#VERSION#', jeedomVersion) + '">' + genText(submenu, lang) + '</a></li>'
+      html += '<li><a href="' + resolveLink(submenu.link, lang, jeedomVersion) + '">' + genText(submenu, lang) + '</a></li>'
     }
     html += '</ul>'
     html += '</div>'
@@ -284,7 +306,7 @@ for (var i in docMenu) {
       if (menu.link == '') {
         continue
       }
-      html += '<li><a href="' + menu.link.replace('#LANG#', lang).replace('#VERSION#', jeedomVersion) + '">' + genText(menu, lang) + '</a></li>'
+      html += '<li><a href="' + resolveLink(menu.link, lang, jeedomVersion) + '">' + genText(menu, lang) + '</a></li>'
     } else {
       html += '<li><strong style="margin-left:5px;" href="#!">' + genText(menu, lang) + '</strong></li>'
     }
@@ -324,6 +346,12 @@ $(function() {
   $('.collapsible').collapsible()
 
   $('#div_summary').empty().append('<ul></ul>')
+  // TODO: id/anchor scheme based on heading text is not language-independent (translated headings
+  // have different text, so a hardcoded #anchor only resolves on the language it was written for).
+  // A previous version used a positional counter (tocAnchor-N) which was language-independent, but
+  // existing content links referencing it have drifted out of sync with real heading order over
+  // time. Rework needed: position-based (not text-based), skip h1 (normally a single one per page,
+  // not a useful anchor target), and scan h2 to h4 (currently only h1-h3).
   $('#div_content h1,h2,h3').each(function() {
     var id = encodeURIComponent($(this).text())
     $(this).attr('id', id)
@@ -444,13 +472,12 @@ function setLeftMenu() {
 }
 
 function replaceContentVars() {
-  $('#div_content a').filter(function() {
+  $('#div_content a').each(function() {
     var href = $(this).attr('href') || ''
-    return href.indexOf('#LANG#') !== -1 || href.indexOf('#VERSION#') !== -1
-  }).each(function() {
-    $(this).attr('href', $(this).attr('href')
-      .replace(/#LANG#/g, lang)
-      .replace(/#VERSION#/g, jeedomVersion))
+    var newHref = resolveLink(href, lang, jeedomVersion)
+    if (newHref !== href) {
+      $(this).attr('href', newHref)
+    }
   })
   $('#div_content *').contents().filter(function() {
     return this.nodeType === 3
