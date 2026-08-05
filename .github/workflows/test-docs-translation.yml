@@ -1,0 +1,25 @@
+name: TEST docs translation POC
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'test/**'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Mips2648/docs-translations@main
+        with:
+          deepl_api_key: ${{ secrets.DEEPL_API_KEY }}
+          source_language: fr_FR
+          target_languages: en_US
+          documents_roots: _test-general
+          memory_path: _test-general/.translation_memory
+          use_glossary: false
+          debug: true
