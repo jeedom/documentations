@@ -513,7 +513,7 @@ class plugin_idCmd extends cmd {
 ?>
 ````
 
-Pour la définition des classes jeedom, je vous invite à consulter ce [site](https://doc.jeedom.com/dev/phpdoc/4.0/)
+Pour la définition des classes jeedom, je vous invite à consulter ce [site](https://doc.jeedom.com/phpdoc/#VERSION#/)
 
 La seule méthode obligatoire est la méthode d’instance sur la classe cmd execute, voici un exemple avec le plugin S.A.R.A.H :
 

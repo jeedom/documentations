@@ -538,7 +538,7 @@ public static function cronHourly($_eqLogic_id = null) {
 
 Après vous pouvez changer la fréquence du cron selon l'importance de vos informations à récupérer.
 
-Je ne peux que vous invitez à prendre le temps d’aller sur cette page pour en savoir plus ==> [ici](https://doc.jeedom.com/dev/phpdoc/4.1/)
+Je ne peux que vous invitez à prendre le temps d’aller sur cette page pour en savoir plus ==> [ici](https://doc.jeedom.com/phpdoc/#VERSION#/)
 
 Et encore mieux d'aller sur le github du core ==> [ICI](https://github.com/jeedom/core)
 
