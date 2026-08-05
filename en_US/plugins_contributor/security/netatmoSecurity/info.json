@@ -2,7 +2,7 @@
     "id": "netatmoSecurity",
     "name": "Netatmo Sécurité",
     "licence": "AGPL",
-    "author": "limad44",
+    "author": "Limad44",
     "require": "4.0",
     "description": {
         "fr_FR": "Plugin pour gérer les équipements Netatmo Sécurité et particulièrement les cameras. Sans emails intempestifs, Le plugin permet l’acquisition du live(snapshot ou vidéo) soit directement ou via le plugin Caméra sans changer les paramètres de sécurité de votre box. <br> Connexion via API et/ou en local (si possible)",
@@ -19,7 +19,8 @@
     "changelog_beta": "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/#language#/changelog",
     "documentation_beta": "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/#language#/",
     "link": {
-        "forum": "https://community.jeedom.com/tag/plugin-netatmosecurity"
+        "forum": "https://community.jeedom.com/tag/plugin-netatmosecurity",
+        "video": ""
     },
     "language": [
         "fr_FR",
