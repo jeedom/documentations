@@ -1,3 +1,0 @@
-# Herunterfahren / Neustart
-
-(in Bearbeitung)
