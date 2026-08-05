@@ -1,0 +1,8 @@
+{
+    "**Compatibilité** (https://doc.jeedom.com/#LANG#/compatibility/) → https://github.com/jeedom/documentations/blob/master/fr_FR/compatibility/index.md": "**Compatibility** (https://doc.jeedom.com/#LANG#/compatibility/) → https://github.com/jeedom/documentations/blob/master/fr_FR/compatibility/index.md",
+    "Ceci est une phrase de test pour vérifier que la traduction ne casse pas la syntaxe Liquid ci-dessus.": "This is a test sentence to verify that the translation does not break the Liquid syntax above.",
+    "Lien correct en syntaxe markdown : [changelog](https://doc.jeedom.com/#LANG#/core/#VERSION#/changelog)": "Correct link in Markdown syntax: [changelog](https://doc.jeedom.com/#LANG#/core/#VERSION#/changelog)",
+    "Test": "Test",
+    "Un lien vers un autre article {:target=\"_blank\"} pour vérifier aussi ce cas.": "A link to another article {:target=\"_blank\"} to check this case as well.",
+    "{% include lightbox.html src=\"images/install-menu-amd64.jpg\" data=\"InstallMenuAMD64\" title=\"Menu d'installation Jeedom (AMD64)\" imgstyle=\"width:75%;display:block;margin:0 auto;\" %}": "{% include lightbox.html src=\"images/install-menu-amd64.jpg\" data=\"InstallMenuAMD64\" title=\"Jeedom Installation Menu (AMD64)\" imgstyle=\"width:75%;display:block;margin:0 auto;\" %}"
+}
