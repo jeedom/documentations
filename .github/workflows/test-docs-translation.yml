@@ -20,6 +20,5 @@ jobs:
           source_language: fr_FR
           target_languages: en_US
           documents_roots: _test-general
-          memory_path: _test-general/.translation_memory
           use_glossary: false
           debug: true
