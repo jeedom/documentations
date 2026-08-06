@@ -1,0 +1,44 @@
+name: Docs translate (general content)
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '*/fr_FR/**'
+  workflow_dispatch:
+    inputs:
+      target_languages:
+        description: "Comma-separated target languages"
+        required: false
+        default: "en_US,es_ES,de_DE"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  translate:
+    strategy:
+      matrix:
+        category:
+          - compatibility
+          - concept
+          - contribute
+          - dev
+          - home
+          - howto
+          - howtoadvance
+          - installation
+          - legal_notice
+          - mobile
+          - premiers-pas
+          - presentation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: jeedom/jeetranslate-docs@main
+        with:
+          documents_roots: ${{ matrix.category }}
+          branch: docs-translations-${{ matrix.category }}
+          target_languages: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.target_languages || 'en_US,es_ES,de_DE' }}
+          deepl_api_key: ${{ secrets.DEEPL_API_KEY }}
