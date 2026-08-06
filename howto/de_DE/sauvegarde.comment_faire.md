@@ -14,7 +14,7 @@ Der beste Weg, leise zu sein, ist, beide zu verwenden : Erstellen Sie von Zeit z
 
 # Jeedom Backup / Restore
 
-Die Dokumentation zur Seite Administration → Backups ist bereits vorhanden. Du wirst es finden [hier](https://doc.jeedom.com/de_DE/core/3.3/backup).
+Die Dokumentation zur Seite Administration → Backups ist bereits vorhanden. Du wirst es finden [hier](/core/backup).
 
 # Sichern / Wiederherstellen der microSD-Karte
 
@@ -22,15 +22,15 @@ Die Dokumentation zur Seite Administration → Backups ist bereits vorhanden. Du
 
 Diese Sicherungen / Wiederherstellungen werden von einem anderen Computer aus durchgeführt, um ein "sauberes Image" der SD-Karte zu erstellen. Wir müssen zuerst den Mini + stoppen. Schalten Sie dazu Jeedom im Benutzermenü oben rechts in den Expertenmodus.
 
-![save restore06](images/save-restore06.jpg)
+![save restore06](../images/save-restore06.jpg)
 
 Und klicken Sie auf Ausschalten
 
-![save restore07](images/save-restore07.jpg)
+![save restore07](../images/save-restore07.jpg)
 
 Dann müssen Sie die microSD-Karte aus dem mini + nehmen und sie über einen Adapter / Kartenleser /… an Ihren Computer anschließen
 
-![save restore08](images/save-restore08.jpg)
+![save restore08](../images/save-restore08.jpg)
 
 ## Windows
 
@@ -49,13 +49,13 @@ Sie müssen zunächst beispielsweise Software von Drittanbietern herunterladen :
 -   Auf dem Feld *Bilddatei*, Suchen Sie die Bilddatei, die Sie wiederherstellen möchten.
 -   Klicken Sie abschließend auf die Schaltfläche *Schreiben Sie*, um dieses Image auf der microSD-Karte wiederherzustellen.
 
-![save restore10](images/save-restore10.jpg)
+![save restore10](../images/save-restore10.jpg)
 
 ## Unter MacOSX
 
 Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen [ApplePi-Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
 
-![save restore11](images/save-restore11.jpg)
+![save restore11](../images/save-restore11.jpg)
 
 ### Sauvegarde
 
@@ -63,7 +63,7 @@ Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen [ApplePi
 
 -   Im Shell-Befehl :
  -   Öffnen Sie ein Terminal und geben Sie den Befehl ein, um die der Karte entsprechende Festplatte zu finden : ``diskutil list``  
- ![save restore12](images/save-restore12.jpg)
+ ![save restore12](../images/save-restore12.jpg)
  -   Beginnen Sie mit der Erstellung des Bildes, indem Sie den Befehl eingeben : ``sudo dd if=/dev/disk1 of=~/Desktop/Backup_Jeedom.img bs=1m`` *Remarque: In diesem Beispiel lautet der Name der Kartendiskette "/ dev / disk1". Geben Sie daher den Sicherungsbefehl "/ dev / disk1" ein*
 
 ### Restauration

@@ -12,15 +12,15 @@ Vous devez télécharger le logicel Etcher [ici](https://etcher.io/) puis l’in
 
 Vous devez aller [ici](https://images.jeedom.com/jeeboard/),puis dans le dossier Images récuperer l’image jeedom-jeeboard-\*.rar
 
-![install humming 1](images/install_humming_1.PNG)
+![install humming 1](../images/install_humming_1.PNG)
 
 ## Décompression de l’image de Jeedom
 
 Décompresser l’image de Jeedom (si vous n’avez rien pour la décompresser vous pouvez installer [winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)), vous devez obtenir :
 
-![install humming 2](images/install_humming_2.PNG)
+![install humming 2](../images/install_humming_2.PNG)
 
-![install humming 8](images/install_humming_8.PNG)
+![install humming 8](../images/install_humming_8.PNG)
 
 ## Gravure de l’image sur la carte SD
 

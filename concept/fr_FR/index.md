@@ -14,29 +14,29 @@ Jeedom permet d'interfacer de très nombreux périphériques ensemble, que ceux-
 
 Vous pouvez afficher ces périphériques de plusieurs manières :
 
-- Sur le [Dashboard](../core/#VERSION#/dashboard)
-- Sur la [Synthèse](../core/#VERSION#/overview)
-- Sur une [Vue](../core/#VERSION#/view)
-- Sur un [Design](../core/#VERSION#/design)
-- Sur un [Design 3D](../core/#VERSION#/design3d)
+- Sur le [Dashboard](/core/dashboard)
+- Sur la [Synthèse](/core/overview)
+- Sur une [Vue](/core/view)
+- Sur un [Design](/core/design)
+- Sur un [Design 3D](/core/design3d)
 
-![Synthese](images/concept-synthese.jpg)
+![Synthese](../images/concept-synthese.jpg)
 
 Ceux-ci sont consultables dans un navigateur sur un ordinateur de bureau, sur un smartphone avec la WebApp ou l'application mobile : [Version Mobile](/mobile)
 
 ## Les Objets
 
-Afin d'organiser vos périphériques, vous pouvez créer des [Objets](../core/#VERSION#/object).
+Afin d'organiser vos périphériques, vous pouvez créer des [Objets](/core/object).
 
 Ces objets peuvent représenter des pièces de l'habitation (Salon, Chambre, Atelier). Chaque objet peut avoir un objet parent. Cette hiérarchie servira à l'affichage sur le Dashboard. Par exemple, vous pouvez avoir un objet **Maison**, puis des objets **Salon** et **Chambre** enfants de l'objet **Maison**. Une fois sur le Dashboard, l'objet **Maison** affichera aussi, en dessous, ses objets enfants.
 
-![Objet](images/concept-objet.jpg)
+![Objet](../images/concept-objet.jpg)
 
 > **Conseil**
 >
-> Dans **Réglages → Préférences**, vous pouvez définir sur quel objet vous souhaitez arriver sur le Dashboard. [Préférences](../core/#VERSION#/profils)
+> Dans **Réglages → Préférences**, vous pouvez définir sur quel objet vous souhaitez arriver sur le Dashboard. [Préférences](/core/profils)
 
-![Dashboard](images/concept-dashboard.jpg)
+![Dashboard](../images/concept-dashboard.jpg)
 
 ## Les Équipements et leurs commandes
 
@@ -50,20 +50,20 @@ Pour interagir avec notre domotique, il faut des commandes ! Celles-ci sont de d
 
 - Les commandes *info* :
 Ces commandes stockent des informations issues de capteurs. Par exemple la température d'une sonde, un mouvement d'un capteur de présence, etc.
-Ces commandes peuvent être historisées afin de conserver ces informations dans le temps sous forme de courbe : [Historique](../core/#VERSION#/history)
+Ces commandes peuvent être historisées afin de conserver ces informations dans le temps sous forme de courbe : [Historique](/core/history)
 
-Ces commandes peuvent aussi servir à déclencher des [scénarios](../core/#VERSION#/scenario) afin d'automatiser des actions en fonction des informations remontées par vos capteurs. Par exemple, un capteur de mouvement détecte une présence, ce qui va déclencher un scénario qui allumera la lumière.
+Ces commandes peuvent aussi servir à déclencher des [scénarios](/core/scenario) afin d'automatiser des actions en fonction des informations remontées par vos capteurs. Par exemple, un capteur de mouvement détecte une présence, ce qui va déclencher un scénario qui allumera la lumière.
 
 - Les commandes *action* :
 Ces commandes permettent de piloter vos actionneurs. Par exemple, les commandes ``on`` et ``off`` d'une prise commandée vous permettront de l'allumer et de l'éteindre.
 
 Les commandes action sont généralement liées à des commandes info. Ici, notre prise possède deux actions ``on`` et ``off``, généralement liées à une information **Etat**.
 
-![Commandes](images/concept-commands.jpg)
+![Commandes](../images/concept-commands.jpg)
 
 Ces deux types de commandes sont rattachées sous la forme d'un équipement. L'équipement possède donc des commandes info et/ou action, et c'est cet équipement qui aura pour parent un Objet, vous permettant de l'afficher où vous le souhaitez.
 
-Chaque commande peux également posséder ce qu'on appelle un type générique, permettant à Jeedom et à certains plugins de connaitre le type de commande (Etat d'une prise, bouton d'une lumière, etc). [**Outils → Types d'équipement**](../core/#VERSION#/types).
+Chaque commande peux également posséder ce qu'on appelle un type générique, permettant à Jeedom et à certains plugins de connaitre le type de commande (Etat d'une prise, bouton d'une lumière, etc). [**Outils → Types d'équipement**](/core/types).
 
 ### Équipement
 
@@ -72,13 +72,13 @@ Chaque commande peux également posséder ce qu'on appelle un type générique, 
 
 Ces équipements sont créés par des plugins. Par exemple, le plugin Z-Wave vous permettra d'inclure votre prise Z-Waze, ce qui créera un équipement avec ses commandes que vous pourrez nommer et lier à un Objet.
 
-En terme d'affichage, chaque commande est affichée grâce à un Widget. Le Core propose les principaux Widgets, ainsi qu'un outil pour en créer (V4) : [Widgets](../core/#VERSION#/widgets).
+En terme d'affichage, chaque commande est affichée grâce à un Widget. Le Core propose les principaux Widgets, ainsi qu'un outil pour en créer (V4) : [Widgets](/core/widgets).
 
 Ces commandes sont regroupées dans une tuile correspondant à votre équipement. Et cette tuile sera donc affichée sur le Dashboard dans l'Objet que vous lui aurez assigné.
 
-![Commandes](images/concept-equipment.jpg)
+![Commandes](../images/concept-equipment.jpg)
 
-Quel que soit votre périphérique, il sera donc créé sous forme d'un équipement, à partir d'un [Plugin](../core/#VERSION#/plugin).
+Quel que soit votre périphérique, il sera donc créé sous forme d'un équipement, à partir d'un [Plugin](/core/plugin).
 
 Ce périphérique comportera ses propres commandes *info* ou *action*. Ces commandes seront affichées sous forme de Widgets formant la tuile de l'équipement, dans son objet parent.
 
@@ -90,14 +90,14 @@ L’intérêt de la domotique, au delà du contrôle centralisé et à distance 
 
 Un scénario est une suite d'actions définies qui s’exécuteront à certains moments de la journée. L’exécution peut-être programmée (tous les Lundis à telle heure), ou provoquée par un événement. Comme vue plus haut, cet événement peut par exemple être notre commande info *Présence* d'un détecteur de mouvement, suite à une détection.
 
-Le but ici n'est pas d'être exhaustif mais de découvrir les scénarios au travers d'exemples simples. La [documentation du manuel d'utilisation](../core/#VERSION#/scenario) est beaucoup plus complète.
+Le but ici n'est pas d'être exhaustif mais de découvrir les scénarios au travers d'exemples simples. La [documentation du manuel d'utilisation](/core/scenario) est beaucoup plus complète.
 
 
 ### Allumage de la lumière sur détection de mouvement.
 
 Admettons que nous ayons une lumière pilotée et un détecteur de mouvement dans la chambre.
 
-![1stScenario](images/1stScenario.gif)
+![1stScenario](../images/1stScenario.gif)
 
 - Allez dans **Outils → Scénarios**
 - Cliquez sur *Ajouter* puis donnez un nom au nouveau scénario.

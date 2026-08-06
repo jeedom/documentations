@@ -37,7 +37,7 @@ Afin de réaliser la mise à jour du système, il faut:
 - Télécharger la dernière [**image système Jeedom Smart fournie par l'équipe**](https://images.jeedom.com/smart/){:target="_blank"}
 - S'équiper d'**un adapteur eMMC>USB/SD/µSD compatible Odroid-C2** pour graver l'image depuis un ordinateur, par exemple:
 
-	![Exemple d'adaptateur eMMC](./images/emmc_adapter.jpg)
+	![Exemple d'adaptateur eMMC](../images/emmc_adapter.jpg)
 
 ### Démontage de la box Jeedom Smart
 
@@ -47,13 +47,13 @@ Afin de réaliser la mise à jour du système, il faut:
 
 3. Faire coulisser la carte mère vers l'arrière du boitier:
 
-	 ![Ouvrir la Smart](./images/smart_open.jpg)
+	 ![Ouvrir la Smart](../images/smart_open.jpg)
 
 ### Gravure de l'eMMC
 
 1. Déclipser le stockage eMMC situé sous la carte mère:
 
-	 ![Déclipser eMMC](./images/smart_emmc.jpg)
+	 ![Déclipser eMMC](../images/smart_emmc.jpg)
 
 >**INFORMATION**
 >
@@ -61,7 +61,7 @@ Afin de réaliser la mise à jour du système, il faut:
 
 2. Clipser l'eMMC sur l'adaptateur et le brancher sur un ordinateur:
 
-	 ![eMMC sur PC](./images/emmc_to_pc.jpg)
+	 ![eMMC sur PC](../images/emmc_to_pc.jpg)
 
 3. Ouvrir le logiciel de gravure *(balenaEtcher par exemple)*.
 
@@ -75,7 +75,7 @@ Afin de réaliser la mise à jour du système, il faut:
 
 2. Remettre le plexiglass en place puis revisser les 2 vis à l'avant de la box sans forcer:
 
-	 ![Dévisser Smart](./images/smart_unscrew.jpg)
+	 ![Dévisser Smart](../images/smart_unscrew.jpg)
 
 3. Revisser l'antenne puis rebrancher les périphériques externes en terminant par le câble d'alimentation.
 

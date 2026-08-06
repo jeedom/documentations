@@ -158,11 +158,11 @@ Ajoutez l'icône dans le dossier plugin_info sous le nom vdm_icon.png
 
 dans mon cas
 
-![image](images/tutorial_vdm_icon.png)
+![image](../images/tutorial_vdm_icon.png)
 
 Maintenant on peut copier le dossier vdm dans le dossier plugin de Jeedom et aller dans la gestion des plugins. On retrouve bien le plugin.
 
-![image](images/tutorial_vdm_plugin.png)
+![image](../images/tutorial_vdm_plugin.png)
 
 On l'active et ensuite plugins/Monitoring/Vie de Merde
 
@@ -216,7 +216,7 @@ public function postSave() {
 
 Dans l’onglet commandes, vous devriez voir.
 
-![image](images/tutorial_vdm_cmd1.png)
+![image](../images/tutorial_vdm_cmd1.png)
 
 Ouvrir desktop/php/vdm.php pour trouver le code html de ce tableau.
 
@@ -650,7 +650,7 @@ Dans le champs «Paramètre» d’un équipement, tapez «aléatoire» et sauveg
 
 Parfait le paramètre est sauvegardé.
 
-![image](images/tutorial_parametre1.png)
+![image](../images/tutorial_parametre1.png)
 
 C’est simple,non? . C’est pourquoi il ne faut surtout pas toucher à cette ligne de code comme indiqué dans le premier menu « test ». C’est lui qui fait tout le travail
 

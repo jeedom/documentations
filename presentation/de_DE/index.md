@@ -26,24 +26,24 @@ Der Kern umfasst unter anderem :
 
 *Geräte, einschließlich Aktuatoren oder Sensoren, sind nach Objekten organisiert. Objekte können beispielsweise physische Teile darstellen*.
 
-[Synthese](/de_DE/core/4.1/overview)
+[Synthese](/core/overview)
 
-![Synthese](images/doc-presentation-synthese.jpg)
+![Synthese](../images/doc-presentation-synthese.jpg)
 
-[Armaturenbrett](/de_DE/core/4.1/dashboard)
+[Armaturenbrett](/core/dashboard)
 
-![Armaturenbrett](images/doc-presentation-dashboard.jpg)
+![Armaturenbrett](../images/doc-presentation-dashboard.jpg)
 
 
 ## Historiques
 
 *Alle Informationen können historisiert werden (Temperaturkurven, Verbrauch, Türöffnungen usw.) und können unter Analyse → Verlauf oder über die Dashboard-Kacheln abgerufen werden.*
 
-[Chronik](/de_DE/core/4.1/history)
+[Chronik](/core/history)
 
-[Zeitleiste](/de_DE/core/4.1/timeline)
+[Zeitleiste](/core/timeline)
 
-![Page Chronik](images/doc-presentation-historique.jpg)
+![Page Chronik](../images/doc-presentation-historique.jpg)
 
 ## Szenarien
 
@@ -51,25 +51,25 @@ Der Kern umfasst unter anderem :
 
 [Mein erstes Szenario](/de_DE/concept/#tocAnchor-4)
 
-![Page Scénario](images/doc-presentation-scenario.jpg)
+![Page Scénario](../images/doc-presentation-scenario.jpg)
 
 ## Widget-Erstellung
 
 *Jeedom bietet eine Widget-Erstellungs-Engine für Ausrüstungsbestellungen. Auf diese Weise können Sie zusätzlich zu den grundlegenden Widgets Ihre eigenen Widgets erstellen. Widgets können für fortgeschrittene Benutzer auch direkt aus Code erstellt werden.*
 
-![Widgets](images/doc-presentation-widgets.jpg)
+![Widgets](../images/doc-presentation-widgets.jpg)
 
 ## Interactions
 
 *Mit dem Interaktionssystem in Jeedom können Sie Aktionen über Text- oder Sprachbefehle ausführen.*
 
-![Page Interaction](images/doc-presentation-interaction.jpg)
+![Page Interaction](../images/doc-presentation-interaction.jpg)
 
 ## Update Center
 
 *Mit dem Update Center können Sie alle Funktionen von Jeedom aktualisieren, einschließlich der Kernsoftware und ihrer Plugins. Andere Erweiterungsverwaltungsfunktionen sind verfügbar (Löschen, Neuinstallieren, Überprüfen usw.).).*
 
-![Page Sauvegarde](images/doc-presentation-update.jpg)
+![Page Sauvegarde](../images/doc-presentation-update.jpg)
 
 
 # Market
@@ -85,7 +85,7 @@ Um diesen Kern herum befinden sich Plugins, die aller Art sein können :
 
 Diese Plugins können vom Markt installiert werden und ermöglichen es Ihnen, die Möglichkeiten von Jeedom zu erweitern.
 
-![Page Markt](images/doc-presentation-market.jpg)
+![Page Markt](../images/doc-presentation-market.jpg)
 
 Jeedom ermöglicht es jedem Plugin, standardisiert mit einem anderen zu chatten. Dies ermöglicht es beispielsweise, Thermostat- oder Alarm-Plugins mit einem beliebigen Hausautomationsprotokoll oder sogar einem IP-Plugin oder Kommunikationsobjekt zu verwenden
 

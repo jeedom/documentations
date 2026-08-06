@@ -14,7 +14,7 @@ The best way to be quiet is to use both : Make a backup of the microSD card from
 
 # Jeedom Backup / Restore
 
-Documentation is already present to explain the Administration → Backups page. You will find it [here](https://doc.jeedom.com/en_US/core/3.3/backup).
+Documentation is already present to explain the Administration → Backups page. You will find it [here](/core/backup).
 
 # Backup / Restore microSD card
 
@@ -22,15 +22,15 @@ Documentation is already present to explain the Administration → Backups page.
 
 These backups / restores are carried out from another computer in order to make a "clean image" of the SD card. We must first stop the mini +. To do this, switch Jeedom to expert mode in the user menu at the top right.
 
-![save restore06](images/save-restore06.jpg)
+![save restore06](../images/save-restore06.jpg)
 
 And click on Turn off
 
-![save restore07](images/save-restore07.jpg)
+![save restore07](../images/save-restore07.jpg)
 
 Then, you have to take the microSD card out of the mini + and connect it to your computer via an adapter / card reader /…
 
-![save restore08](images/save-restore08.jpg)
+![save restore08](../images/save-restore08.jpg)
 
 ## Windows
 
@@ -49,13 +49,13 @@ You will have to start by downloading third-party software for example : [Win32 
 -   In the field *Image File*, find the image file you want to restore.
 -   Finally click on the button *Write*, to restore this image to the microSD card.
 
-![save restore10](images/save-restore10.jpg)
+![save restore10](../images/save-restore10.jpg)
 
 ## Under MacOSX
 
 To make your task easier, you can download the software [ApplePi-Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
 
-![save restore11](images/save-restore11.jpg)
+![save restore11](../images/save-restore11.jpg)
 
 ### Sauvegarde
 
@@ -63,7 +63,7 @@ To make your task easier, you can download the software [ApplePi-Baker](http://w
 
 -   In shell command :
  -   In order to find the disk corresponding to the card, open a terminal and enter the command : ``diskutil list``  
- ![save restore12](images/save-restore12.jpg)
+ ![save restore12](../images/save-restore12.jpg)
  -   Start creating the image by entering the command : ``sudo dd if=/dev/disk1 of=~/Desktop/Backup_Jeedom.img bs=1m`` *Remarque: In this example, the name of the card disk is `/ dev / disk1`, so you must enter in the backup command \` / dev / disk1 \ `*
 
 ### Restauration

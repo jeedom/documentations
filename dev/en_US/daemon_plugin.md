@@ -27,7 +27,7 @@
 
 :
 
-![image](images/daemon_struct.png)
+![image](../images/daemon_struct.png)
 
 ### 
 
@@ -303,7 +303,7 @@ json
 
 :
 
-![image](images/daemon_info.png)
+![image](../images/daemon_info.png)
 
 .
 .
@@ -805,7 +805,7 @@ fi
 
 #### 
 
-![image](images/dependencies_info.png)
+![image](../images/dependencies_info.png)
 
 ..
 

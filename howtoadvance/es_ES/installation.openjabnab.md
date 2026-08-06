@@ -348,39 +348,39 @@ Seguir :
 
 Usted debe tener :
 
-![installation.openjabnab](images/installation.openjabnab.PNG)
+![installation.openjabnab](../images/installation.openjabnab.PNG)
 
 Ahora debe crear una cuenta haciendo clic en crear usuario :
 
-![installation.openjabnab2](images/installation.openjabnab2.PNG)
+![installation.openjabnab2](../images/installation.openjabnab2.PNG)
 
 Complete la información solicitada e inicie sesión :
 
-![installation.openjabnab3](images/installation.openjabnab3.PNG)
+![installation.openjabnab3](../images/installation.openjabnab3.PNG)
 
 Una vez conectado, vaya al servidor :
 
-![installation.openjabnab4](images/installation.openjabnab4.PNG)
+![installation.openjabnab4](../images/installation.openjabnab4.PNG)
 
 Luego baje para encontrar la lista de conejos conectados y obtenga su dirección mac :
 
-![installation.openjabnab5](images/installation.openjabnab5.PNG)
+![installation.openjabnab5](../images/installation.openjabnab5.PNG)
 
 Luego vaya a la cuenta y complete el nombre y el campo mac del conejo y confirme :
 
-![installation.openjabnab6](images/installation.openjabnab6.PNG)
+![installation.openjabnab6](../images/installation.openjabnab6.PNG)
 
 Ahora encontrará su conejo en la página del conejo, haga clic en él para abrir su configuración :
 
-![installation.openjabnab7](images/installation.openjabnab7.PNG)
+![installation.openjabnab7](../images/installation.openjabnab7.PNG)
 
 Ahora debe activar la API púrpura y pasarla en público, también es aquí donde encontrará la clave API púrpura que se usará para Jeedom :
 
-![installation.openjabnab8](images/installation.openjabnab8.PNG)
+![installation.openjabnab8](../images/installation.openjabnab8.PNG)
 
 A continuación encontrará la lista de complementos, no olvide activarlos (tipo TTS o control auditivo) :
 
-![installation.openjabnab9](images/installation.openjabnab9.PNG)
+![installation.openjabnab9](../images/installation.openjabnab9.PNG)
 
 # Configuración de Jeedom
 
@@ -394,7 +394,7 @@ Y agregue la siguiente línea :
 
 Entonces todo sucede en Jeedom, después de crear tu conejo aquí está la configuración para poner:
 
-![installation.openjabnab10](images/installation.openjabnab10.PNG)
+![installation.openjabnab10](../images/installation.openjabnab10.PNG)
 
 Aquí está tu conejo ahora tiene su propia madriguera local !!!!!
 

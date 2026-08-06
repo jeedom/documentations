@@ -22,7 +22,7 @@ We will see here how to migrate an installation with Jeedom in slave mode to a J
 >
 > - The notions of **Jeedom Master** and **Jeedom Slave** no longer relevant. The new operating mode of equipment synchronization between several Jeedoms can be bidirectional. A Jeedom server can now be **Source** and **Target** whereas the old mode only allowed the ascent of the equipment of  **the Slave** to **the master**. With the new mode it is also possible to have several **Jeedom Targets** for the same **Jeedom Source**. Communication between Jeedoms can now also be done remotely via the internet (Jeedom DNS or other).
 
-![jeelink.migration9](images/jeelink.migration9.png)
+![jeelink.migration9](../images/jeelink.migration9.png)
 
 ## Configuration Updates and Verification
 
@@ -46,11 +46,11 @@ Depending on the plugins installed on your **Jeedom Slave**, it is necessary to 
 
 > **NOTE**
 >
-> A non-exhaustive sheet of information to note for migration is available [here](images/MemoMigration.xls)
+> A non-exhaustive sheet of information to note for migration is available [here](../images/MemoMigration.xls)
 
 ## Preventive backups
 
--   Do a [Jeedom backup](https://doc.jeedom.com/en_US/core/doc-core-backup.html) of your **Jeedom Master** and your (your) **Jeedom Slave (s)** and recover it (s) on your PC / NAS….
+-   Do a [Jeedom backup](/core/backup) of your **Jeedom Master** and your (your) **Jeedom Slave (s)** and recover it (s) on your PC / NAS….
 -   Do a [SD / Disk backup](https://doc.jeedom.com/en_US/howto/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd) of your **Jeedom Master** and your (your) **Jeedom Slave (s)** and recover them on your PC / NAS….
 
 # Migration
@@ -63,7 +63,7 @@ Depending on the plugins installed on your **Jeedom Slave**, it is necessary to 
 
 On your **Jeedom Target**, *Plugins ⇒ Management of plugins* :
 
-![jeelink.migration1](images/jeelink.migration1.png)
+![jeelink.migration1](../images/jeelink.migration1.png)
 
 ## Installation of **Jeedom Source**
 
@@ -88,7 +88,7 @@ On your **Jeedom Target**, *Plugins ⇒ Management of plugins* :
 -   Change the password of the admin user or / and configure a new user.
 -   Configure your Jeedom Market account (*Configuration ⇒ Updates and files ⇒ "Market" tab"*). Click on test after saving, to confirm the entry of your Jeedom Market identifiers).
 -   Installation and activation of the "Jeedom Link" plugin on the new **Jeedom Source**.
-![jeelink.migration2](images/jeelink.migration2.png)
+![jeelink.migration2](../images/jeelink.migration2.png)
 -   Installation and activation of plugins you want to use. (It is advisable to do them one by one, checking every time that the dependencies and any demons are OK).
 -   Recreate the tree of objects (just the ones that will be useful to you) of the **Jeedom Target** (Old Master) on your new **Jeedom Source** (Former Slave).
 
@@ -145,27 +145,27 @@ the "Jeedom Link" plugin by specifying :
 
 And save the configuration.
 
-![jeelink.migration3](images/jeelink.migration3.png)
+![jeelink.migration3](../images/jeelink.migration3.png)
 
 In the tab *Assignment*, add the equipment you want to go back to the **Jeedom Target**.
 
-![jeelink.migration4](images/jeelink.migration4.png)
+![jeelink.migration4](../images/jeelink.migration4.png)
 
 Click on *Add equipment* Select the object and equipment to add :
 
-![jeelink.migration5](images/jeelink.migration5.png)
+![jeelink.migration5](../images/jeelink.migration5.png)
 
 After refreshing the page *My jeelinks* from **Jeedom Target**, you should see the automatic creation of the equipment :
 
-![jeelink.migration6](images/jeelink.migration6.png)
+![jeelink.migration6](../images/jeelink.migration6.png)
 
 Like all Jeedom equipment, you can activate / deactivate and display or not the equipment, its controls,… or change the category :
 
-![jeelink.migration7](images/jeelink.migration7.png)
+![jeelink.migration7](../images/jeelink.migration7.png)
 
 In the tab *Commands*, you access all the parameters of the equipment controls :
 
-![jeelink.migration8](images/jeelink.migration8.png)
+![jeelink.migration8](../images/jeelink.migration8.png)
 
 ## Historical recovery
 

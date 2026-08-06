@@ -14,7 +14,7 @@ Filezilla es un software gratuito y está disponible en todas las plataformas. L
 
 Para conectarse a su caja, simplemente complete los campos de información en la parte superior de la ventana de Filezilla :
 
-![restore filezilla01](images/restore-filezilla01.jpg)
+![restore filezilla01](../images/restore-filezilla01.jpg)
 
 -   Host : Dirección IP de Jeedom (``sftp://`` se agrega automáticamente)
 -   Identificador : ``jeedom``
@@ -34,10 +34,10 @@ Una vez establecida la conexión, es necesario ir al directorio de respaldo de J
 
 La ruta se muestra en la sección del sitio remoto.
 
-![restore filezilla02](images/restore-filezilla02.jpg)
+![restore filezilla02](../images/restore-filezilla02.jpg)
 
 ## Descarga de respaldo
 
 En la lista de copias de seguridad, al hacer clic derecho, es posible comenzar su descarga.
 
-![restore filezilla03](images/restore-filezilla03.jpg)
+![restore filezilla03](../images/restore-filezilla03.jpg)

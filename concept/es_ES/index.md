@@ -14,29 +14,29 @@ Jeedom permite interconectar muchos dispositivos, ya sea basándose en protocolo
 
 Puede ver estos dispositivos de varias maneras :
 
-- Sobre [Salpicadero](/es_ES/core/4.5/dashboard)
-- En la [Síntesis](/es_ES/core/4.5/overview) (v4.5)
-- Sobre una [Vista](/es_ES/core/4.5/view)
-- Sobre un [Diseño](/es_ES/core/4.5/design)
-- Sobre un [Diseño 3D](/es_ES/core/4.5/design3d)
+- Sobre [Salpicadero](/core/dashboard)
+- En la [Síntesis](/core/overview) (v4.5)
+- Sobre una [Vista](/core/view)
+- Sobre un [Diseño](/core/design)
+- Sobre un [Diseño 3D](/core/design3d)
 
-![Synthese](images/concept-synthese.jpg)
+![Synthese](../images/concept-synthese.jpg)
 
 Estos se pueden visualizar en un navegador en una computadora de escritorio, en un teléfono inteligente con la WebApp o la aplicación móvil : [Versión móvil](/es_ES/mobile/index)
 
 ## Los objetos
 
-Para organizar sus dispositivos, puede crear [Objetos](/es_ES/core/4.5/object).
+Para organizar sus dispositivos, puede crear [Objetos](/core/object).
 
 Estos objetos pueden representar partes de la casa (sala de estar, dormitorio, taller)). Cada objeto puede tener un objeto padre. Esta jerarquía se usará para mostrar en el Panel de control. Por ejemplo, puedes tener un objeto **Casa**, entonces objetos **Sala de estar** y **Habitación** niños objeto **Casa**. Una vez en el Tablero, el objeto **Casa** también mostrará, a continuación, sus objetos secundarios.
 
-![Objet](images/concept-objet.jpg)
+![Objet](../images/concept-objet.jpg)
 
 > **Consejo**
 >
-> DENTRO **Configuración → Preferencias**, puede definir a qué objeto desea llegar en el Tablero. [Preferencias](/es_ES/core/4.5/profils)
+> DENTRO **Configuración → Preferencias**, puede definir a qué objeto desea llegar en el Tablero. [Preferencias](/core/profils)
 
-![Salpicadero](images/concept-dashboard.jpg)
+![Salpicadero](../images/concept-dashboard.jpg)
 
 ## Equipamiento y sus controles
 
@@ -50,20 +50,20 @@ Para interactuar con nuestra automatización del hogar, necesita comandos ! Esto
 
 - Las órdenes *Información* :
 Estos comandos almacenan información de los sensores. Por ejemplo la temperatura de una sonda, el movimiento de un sensor de presencia, etc.
-Estos comandos se pueden registrar para mantener esta información a lo largo del tiempo en forma de curva : [Historial](/es_ES/core/4.5/history)
+Estos comandos se pueden registrar para mantener esta información a lo largo del tiempo en forma de curva : [Historial](/core/history)
 
-Estos comandos también se pueden usar para activar [Escenarios](/es_ES/core/4.5/scenario) para automatizar acciones basadas en la información enviada por sus sensores. Por ejemplo, un sensor de movimiento detecta una presencia, lo que desencadenará un escenario que encenderá la luz.
+Estos comandos también se pueden usar para activar [Escenarios](/core/scenario) para automatizar acciones basadas en la información enviada por sus sensores. Por ejemplo, un sensor de movimiento detecta una presencia, lo que desencadenará un escenario que encenderá la luz.
 
 - Las órdenes *Acción* :
 Estos comandos le permiten controlar sus actuadores. Por ejemplo, comandos ````on```` y ````off```` de un tomacorriente controlado le permitirá encenderlo y apagarlo.
 
 Los comandos de acción generalmente están vinculados a comandos de información. Aquí nuestra toma tiene dos acciones ````on```` y ````off````, generalmente relacionado con la información **Estado**.
 
-![Comandos](images/concept-commands.jpg)
+![Comandos](../images/concept-commands.jpg)
 
 Estos dos tipos de comandos se adjuntan en forma de equipo. Por lo tanto, el equipo tiene comandos de información y / o acción, y es este equipo el que tendrá un Objeto como padre, lo que le permitirá mostrarlo donde desee.
 
-Cada comando también puede tener lo que se llama un tipo genérico, permitiendo a Jeedom y algunos complementos conocer el tipo de comando (Estado de un enchufe, botón de una luz, etc). [**Herramientas → Tipos de equipos**](/es_ES/core/4.5/types).
+Cada comando también puede tener lo que se llama un tipo genérico, permitiendo a Jeedom y algunos complementos conocer el tipo de comando (Estado de un enchufe, botón de una luz, etc). [**Herramientas → Tipos de equipos**](/core/types).
 
 ### Équipement
 
@@ -72,13 +72,13 @@ Cada comando también puede tener lo que se llama un tipo genérico, permitiendo
 
 Estos equipos son creados por complementos. Por ejemplo, el complemento Z-Wave te permitirá incluir tu enchufe Z-Waze, lo que creará un equipo con sus controles al que podrás nombrar y vincular a un Objeto.
 
-En términos de visualización, cada pedido se muestra mediante un widget. The Core ofrece los widgets principales, así como una herramienta para crearlos (V4) : [Reproductores](/es_ES/core/4.5/widgets).
+En términos de visualización, cada pedido se muestra mediante un widget. The Core ofrece los widgets principales, así como una herramienta para crearlos (V4) : [Reproductores](/core/widgets).
 
 Estos comandos están agrupados en un mosaico correspondiente a su equipo. Y este mosaico, por lo tanto, se mostrará en el Panel de control en el Objeto que le haya asignado.
 
-![Comandos](images/concept-equipment.jpg)
+![Comandos](../images/concept-equipment.jpg)
 
-Cualquiera que sea su dispositivo, se creará en forma de dispositivo, a partir de un [Plugin](/es_ES/core/4.5/plugin).
+Cualquiera que sea su dispositivo, se creará en forma de dispositivo, a partir de un [Plugin](/core/plugin).
 
 Este dispositivo tendrá sus propios comandos *Información* o *Acción*. Estos comandos se mostrarán como widgets que forman el mosaico del equipo, en su objeto principal.
 
@@ -90,14 +90,14 @@ La ventaja de la automatización del hogar, más allá del control centralizado 
 
 Un escenario es una serie de acciones definidas que se ejecutarán en determinados momentos del día. La ejecución puede ser programada (todos los lunes a una hora determinada) o causada por un evento. Como se vio anteriormente, este evento puede ser, por ejemplo, nuestro comando de información *Presencia* un detector de movimiento, después de una detección.
 
-El objetivo aquí no es ser exhaustivo, sino descubrir los escenarios a través de ejemplos simples. los [documentación del manual de usuario](/es_ES/core/4.5/scenario) es mucho más completo.
+El objetivo aquí no es ser exhaustivo, sino descubrir los escenarios a través de ejemplos simples. los [documentación del manual de usuario](/core/scenario) es mucho más completo.
 
 
 ### Detección de luz en movimiento.
 
 Supongamos que tenemos una luz controlada y un detector de movimiento en la habitación.
 
-![1stScenario](images/1stScenario.gif)
+![1stScenario](../images/1stScenario.gif)
 
 - Ir a **Herramientas → Escenarios**
 - Haga clic en *Añadir* luego dale un nombre al nuevo escenario.

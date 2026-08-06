@@ -10,13 +10,13 @@ En el 90% de los casos, no es necesario forzar las claves GSM solo en modo GSM (
 
 Una vez que la clave está conectada a una PC con Windows 10, debe tener una nueva unidad de CD-ROM. Debe hacer doble clic en él e instalar el software propuesto (no hay nada que cambiar, solo haga lo siguiente todo el tiempo).
 
-![gsmonly](images/gsmonly.PNG)
+![gsmonly](../images/gsmonly.PNG)
 
 # Recuperación de puerto COM
 
 Luego debe recuperar el número de puerto de comunicación. Vaya al menú "Inicio" y busque "Administrador de dispositivos", ejecútelo y luego despliegue la sección "Puertos (COM y LPT)", debe tener un elemento que contenga "HUAWEI", debe recordar el número de Puerto COM :
 
-![gsmonly2](images/gsmonly2.PNG)
+![gsmonly2](../images/gsmonly2.PNG)
 
 # Descarga de masilla
 
@@ -26,7 +26,7 @@ Luego descarga masilla [aquí](https://the.earth.li/~sgtatham/putty/latest/x86/p
 
 Una vez iniciado, configure la masilla de esta manera (poniéndose su número de puerto COM, consulte el paso anterior) :
 
-![gsmonly3](images/gsmonly3.PNG)
+![gsmonly3](../images/gsmonly3.PNG)
 
 Aparecerá una ventana negra (de vez en cuando puede haber un mensaje "boot ...", esto es normal, significa que está bien conectado a la clave GSM). En esta ventana tienes que escribir y luego presionar la tecla "Enter"" :
 

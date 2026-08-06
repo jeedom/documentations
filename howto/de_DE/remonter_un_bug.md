@@ -26,11 +26,11 @@ Da wir Ihnen jedoch wirklich helfen möchten, finden Sie hier einige Hinweise, d
 - Sie haben einen "500" -Fehler oder "\ {\ {" bei Jeedom : In diesem Fall legen Sie die http-Datei direkt ab.Fehler (Sie finden ihn schnell in Analyse -> Protokolle), ohne diesen können wir nicht wissen, woher das Problem kommt (wieder keine Warnleuchte bei jeedom oder bei Drittentwicklern für der Moment !^^)
 - Sie haben einen Javascript-Fehler (Warnfeld oben rechts) oder wenn Sie F12 ausführen, trösten Sie eine rote Linie. In diesem Fall geben Sie uns zunächst die vollständige Fehlermeldung. Leider kann diese Fehlermeldung in den meisten Fällen, die manchmal etwas vage ist, das aufgetretene Problem nicht identifizieren. Sie müssen also F12 ausführen (im Browser auf der Registerkarte Jeedom, wo Sie Probleme haben). Klicken Sie dann auf "Konsole" und versuchen Sie, das aufgetretene Problem zu reproduzieren (aktualisieren Sie zunächst die Seite und wiederholen Sie gegebenenfalls die gleichen Aktionen). Normalerweise wird die Fehlermeldung erneut angezeigt, diesmal müssen Sie jedoch auf das Ende der Zeile klicken (dies kann entweder wie im folgenden Screenshot oder in der Formular-VM seinXXX.js) :
 
-![remonter_un_bug001](images/remonter_un_bug001.png)
+![remonter_un_bug001](../images/remonter_un_bug001.png)
 
 Machen Sie dann einen Screenshot von dem, was angezeigt wird, insbesondere von der roten Linie :
 
-![remonter_un_bug002](images/remonter_un_bug002.png)
+![remonter_un_bug002](../images/remonter_un_bug002.png)
 
 Wenn Sie all dies gut verfolgen, sollten Sie Antworten auf Ihr Problem viel schneller und genauer haben und vielleicht sogar zulassen, dass die Person, die Ihnen geholfen hat, einer anderen Person schneller hilft.
 

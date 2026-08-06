@@ -348,39 +348,39 @@ Weiter :
 
 Sie müssen haben :
 
-![installation.openjabnab](images/installation.openjabnab.PNG)
+![installation.openjabnab](../images/installation.openjabnab.PNG)
 
 Sie müssen jetzt ein Konto erstellen, indem Sie auf Benutzer erstellen klicken :
 
-![installation.openjabnab2](images/installation.openjabnab2.PNG)
+![installation.openjabnab2](../images/installation.openjabnab2.PNG)
 
 Geben Sie die angeforderten Informationen ein und melden Sie sich an :
 
-![installation.openjabnab3](images/installation.openjabnab3.PNG)
+![installation.openjabnab3](../images/installation.openjabnab3.PNG)
 
 Sobald die Verbindung hergestellt ist, gehen Sie zum Server :
 
-![installation.openjabnab4](images/installation.openjabnab4.PNG)
+![installation.openjabnab4](../images/installation.openjabnab4.PNG)
 
 Gehen Sie dann nach unten, um die Liste der verbundenen Kaninchen zu finden und ihre Mac-Adresse zu erhalten :
 
-![installation.openjabnab5](images/installation.openjabnab5.PNG)
+![installation.openjabnab5](../images/installation.openjabnab5.PNG)
 
 Gehen Sie dann zur Rechnung und füllen Sie den Namen und das Mac-Feld des Kaninchens aus und bestätigen Sie :
 
-![installation.openjabnab6](images/installation.openjabnab6.PNG)
+![installation.openjabnab6](../images/installation.openjabnab6.PNG)
 
 Sie finden Ihr Kaninchen jetzt auf der Kaninchenseite. Klicken Sie darauf, um die Konfiguration zu öffnen :
 
-![installation.openjabnab7](images/installation.openjabnab7.PNG)
+![installation.openjabnab7](../images/installation.openjabnab7.PNG)
 
 Sie müssen jetzt die lila API aktivieren und öffentlich weitergeben. Hier finden Sie auch den lila API-Schlüssel, der für Jeedom verwendet wird :
 
-![installation.openjabnab8](images/installation.openjabnab8.PNG)
+![installation.openjabnab8](../images/installation.openjabnab8.PNG)
 
 Unten finden Sie die Liste der Plugins. Vergessen Sie nicht, diese zu aktivieren (TTS-Typ oder Ohrsteuerung)) :
 
-![installation.openjabnab9](images/installation.openjabnab9.PNG)
+![installation.openjabnab9](../images/installation.openjabnab9.PNG)
 
 # Jeedom Konfiguration
 
@@ -394,7 +394,7 @@ Und fügen Sie die folgende Zeile hinzu :
 
 Dann passiert alles in Jeedom, nachdem Sie Ihr Kaninchen erstellt haben, müssen Sie hier die Konfiguration vornehmen:
 
-![installation.openjabnab10](images/installation.openjabnab10.PNG)
+![installation.openjabnab10](../images/installation.openjabnab10.PNG)
 
 Hier hat Ihr Kaninchen jetzt einen eigenen Bau !!!!!
 

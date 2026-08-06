@@ -49,7 +49,7 @@ Le fichier image au format `iso` doit ensuite être chargé dans le lecteur opti
 
 Différentes options d'installation sont affichées à l'écran après avoir démarré la machine virtuelle avec l'image système chargée dans le lecteur optique :
 
-{% include lightbox.html src="images/install-menu-amd64.jpg" data="InstallMenuAMD64" title="Menu d'installation Jeedom (AMD64)" imgstyle="width:75%;display:block;margin:0 auto;" %}
+{% include lightbox.html src="../images/install-menu-amd64.jpg" data="InstallMenuAMD64" title="Menu d'installation Jeedom (AMD64)" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
 - **Install Jeedom (automatic mode)** : **installe le système automatiquement** sans aucune intervention nécessaire. La machine est éteinte à la fin de l'opération.
 	>**IMPORTANT**

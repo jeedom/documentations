@@ -25,7 +25,7 @@ Debemos recuperar esto [Guión](https://raw.githubusercontent.com/lamw/ghettoVCB
 
 Tendrá que conectarse en SSH en el ESXi, para hacerlo debe hacerlo desde la interfaz
 
-![vmware.backup](images/vmware.backup.PNG)
+![vmware.backup](../images/vmware.backup.PNG)
 
 Luego, con masilla o gatito, conéctelo poniendo la IP de su ESXi y usando sus identificadores
 
@@ -88,7 +88,7 @@ Aquí lanzaremos una primera copia de seguridad inicial de todas las máquinas v
 
 Esto lanzará una copia de seguridad de todas sus máquinas virtuales (y, por lo tanto, puede llevar mucho tiempo)). Al final, debe tener en su almacén de datos de respaldo una carpeta por VM y en cada carpeta de VM una subcarpeta por fecha que contenga 4 archivos :
 
-![vmware.backup2](images/vmware.backup2.PNG)
+![vmware.backup2](../images/vmware.backup2.PNG)
 
 -   ``*-flat.vmdk`` ⇒ el disco virtual de su máquina
 -   ``*.vmdk`` ⇒ el descriptor del disco

@@ -27,7 +27,7 @@ Vous trouverez également quelques méthodes utiles pour un démon en nodeJs qui
 
 Structure du répertoire du template:
 
-![image](images/daemon_struct.png)
+![image](../images/daemon_struct.png)
 
 ### le démon python
 
@@ -303,7 +303,7 @@ Dans la class eqLogic de votre plugin il y a quelques méthodes à implémenter 
 
 La fonction `deamon_info()` sera appelée par le core lors de l'affichage du cadre suivant dans la page de configuration de votre plugin, elle doit obligatoirement exister:
 
-![image](images/daemon_info.png)
+![image](../images/daemon_info.png)
 
 Typiquement elle ressemblera à ceci, l'array renvoyé et les clés utilisées dans cet array sont évidement importants.
 Vous pouvez copier/coller le code ci-dessous tel quel et adapter le code à la fin de la fonction pour vérifier la configuration nécessaire à votre plugin.
@@ -805,7 +805,7 @@ Quelques conseils:
 
 #### Connaître le statut
 
-![image](images/dependencies_info.png)
+![image](../images/dependencies_info.png)
 
 C'est donc notre fonction php `dependancy_install()` qui sera appelée par le core et qui permettra de lancer notre script `./resources/install_apt.sh` lorsque l'utilisateur cliquera sur le bouton "Relancer" ou automatiquement par le core lorsqu'il détectera que les dépendances ne sont soit pas installées, soit pas à jour.
 

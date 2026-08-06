@@ -11,7 +11,7 @@ Hay que distinguir dos tipos de resumen :
 - El resumen general : Este es el conjunto de iconos de resumen que se muestran en la barra de Jeedom.
 - Resúmenes de materias : Cada objeto tiene su propio resumen que se muestra en el resumen del objeto y en el Panel a la derecha del nombre del objeto.
 
-![Descubrimiento de resúmenes](images/summary-intro.gif)
+![Descubrimiento de resúmenes](../images/summary-intro.gif)
 
 El resumen global no se puede configurar directamente. Es un concentrado de resúmenes de otros objetos. Por ejemplo, si una luz está encendida en la cocina y dos en la sala de estar, el resumen general mostrará tres luces encendidas. Eso sí, todo esto es configurable, como veremos a continuación.
 
@@ -27,7 +27,7 @@ Antes de ver la configuración en un objeto, para poder configurar un resumen, d
 
 Ir a **Configuración → Sistema → Configuración** luego en la pestaña **Resúmenes**.
 
-{% include lightbox.html src="images/summary-admin.jpg" data="settings" title="Configurar resúmenes" imgstyle="width:auto;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/summary-admin.jpg" data="settings" title="Configurar resúmenes" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 Aquí tienes la lista de todos los resúmenes que podrás configurar en cada objeto. Aquí podemos configurar los resúmenes *Presencia* (si miras de cerca, ves en el resumen general que hay una persona en casa), *Alerta*, *Movimiento*, *Calefacción* etc. Et bien sûr, vous pouvez supprimer et ajouter des types de résumé ici afin de les avoir à disposition ensuite sur les objets.
 
@@ -68,7 +68,7 @@ Una vez que la lista de resúmenes está disponible en la configuración de Jeed
 
 Dentro **Herramientas → Objetos**, aquí en el objeto Salon :
 
-{% include lightbox.html src="images/summary-object-1.jpg" data="settings" title="Abstracto objet" imgstyle="width:auto;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/summary-object-1.jpg" data="settings" title="Abstracto objet" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 Aquí tenemos dos partes :
 
@@ -112,7 +112,7 @@ Para cada objeto con comandos en el resumen *Luz*, ahora tiene un nuevo nombre v
 
 Abriendo el Show Virtual y yendo a la pestaña **Pedidos**, esto es lo que encontramos :
 
-{% include lightbox.html src="images/summary-virtual.jpg" data="settings" title="Virtuel résumé" imgstyle="width:auto;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/summary-virtual.jpg" data="settings" title="Virtuel résumé" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 - Un pedido **Información** *Luz* : Este tiene información del número de luces encendidas del Salón, ya que estamos en el Resumen Virtual del Salón.
 - Un pedido **Acción** *Botón de luz encendida* : Al activar esta acción, activaremos todos los comandos de resumen **Luz**, aquí del objeto Salon.
@@ -135,6 +135,6 @@ Como se vio anteriormente, Summary Virtuals no solo tiene la *Información* res�
 
 Por ejemplo, si creó Resumen Virtuales para el resumen *Luz*, puede hacer Ctrl + clic en el icono de este resumen. A continuación aparecerá una ventana emergente con las diferentes acciones que te permitirán, por ejemplo, apagar todas las luces de la casa a la vez !
 
-{% include lightbox.html src="images/summary-virtual-actions.jpg" data="settings" title="Acciones sobre resúmenes" imgstyle="width:auto;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/summary-virtual-actions.jpg" data="settings" title="Acciones sobre resúmenes" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 Como hemos visto, los resúmenes representan un tema vasto, que no siempre es muy fácil de comprender al comienzo de la vida de un jeedomiano, pero que es bueno conocer !

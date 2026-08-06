@@ -25,7 +25,7 @@ Il faut récupérer ce [script](https://raw.githubusercontent.com/lamw/ghettoVCB
 
 Il va falloir vous connecter en SSH sur l’ESXi, pour ce faire il faut à partir de l’interface
 
-![vmware.backup](images/vmware.backup.PNG)
+![vmware.backup](../images/vmware.backup.PNG)
 
 Ensuite avec putty ou kitty connectez-vous dessus en mettant l’IP de votre ESXi et en utilisant vos identifiants de celui-ci
 
@@ -88,7 +88,7 @@ Nous allons ici lancer un premier backup initial de toutes les VMs pour voir si 
 
 Cela va lancer un backup de toute vos VMs (et peut donc prendre pas mal de temps). A la fin vous devriez avoir sur votre datastore de backup un dossier par VM et dans chaque dossier de VMs un sous-dossier par date contenant 4 fichiers :
 
-![vmware.backup2](images/vmware.backup2.PNG)
+![vmware.backup2](../images/vmware.backup2.PNG)
 
 -   ``*-flat.vmdk`` ⇒ le disque virtuel de votre machine
 -   ``*.vmdk`` ⇒ le descripteur du disque

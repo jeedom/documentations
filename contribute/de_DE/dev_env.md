@@ -72,13 +72,13 @@ Décompressez les deux archives und placez les dans `C:\Program Files`.
 
 Indiquez à **Erhabene Verschmelzung** l'éditeur de fichiers :
 
-{% include lightbox.html src="images/sbm_settings1.jpg" data="settings" title="Editeur de fichiers" imgstyle="width:450px;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/sbm_settings1.jpg" data="settings" title="Editeur de fichiers" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 Puis clonez le dépôt. Ici, si vous avez les droits sur le dépôt du Core, clonez le, sinon *forkez* le sur votre compte GitHub und clonez votre *fork*.
 
 **File / Clone dépôt...**
 
-{% include lightbox.html src="images/sbm_clonerepo.jpg" data="settings" title="Clone dépôt" imgstyle="width:450px;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/sbm_clonerepo.jpg" data="settings" title="Clone dépôt" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 
 ### Mise en place de l'édition

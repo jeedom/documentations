@@ -16,15 +16,15 @@ Nous allons aborder dans ce tuto la manière de créer un compte GitHub, afin de
 
 Se rendre sur [github](https://github.com) et cliquer sur le bouton sign up. Vous devriez donc être sur une page ressemblant à celle ci-dessous et devez donc renseigner un pseudo, un email et un mot de passe et ensuite cliquer sur **Create an account**
 
-![tuto.github1](images/tuto.github1.png)
+![tuto.github1](../images/tuto.github1.png)
 
 Vous arrivez donc sur une 2eme page comme ci-dessous et vous ne changez rien, vous cliquez sur **Continue**
 
-![tuto.github2](images/tuto.github2.png)
+![tuto.github2](../images/tuto.github2.png)
 
 Vous voilà inscrit et sur la page de configuration des options de votre compte. Je vous conseille de vérifier l’adresse email afin de pouvoir récupérer votre compte en cas d’oubli de mot de passe par exemple mais aussi afin de pouvoir soumettre des modifications. Je vous laisse également découvrir les autres options si vous êtes curieux.
 
-![tuto.github3](images/tuto.github3.png)
+![tuto.github3](../images/tuto.github3.png)
 
 # Fork de Jeedom Core ou de la documentation
 
@@ -34,7 +34,7 @@ Fork c’est copier un projet dans votre espace github, afin de pouvoir modifier
 
 Maintenant que vous avez un compte Github et que vous êtes identifiez avec votre adresse email vérifiée, si vous vous rendez [ici](https://github.com/jeedom/core) vous êtes sur le projet jeedom, à droite il y a un bouton fork vous permettant de le copier dans votre espace github.
 
-![tuto.github4](images/tuto.github4.png)
+![tuto.github4](../images/tuto.github4.png)
 
 ## Modification d’un ou plusieurs fichiers
 
@@ -44,12 +44,12 @@ Dans mon cas, je souhaite donc pousser une modification sur le fichier *history.
 - On se rend donc dans /core/class (le premier core est en gras, c’est le dépôt ou je suis (core, cf Petit 1)
 - On a donc notre fichier *history.class.php* - On clique sur le fichier
 
-![tuto.github5](images/tuto.github5.png)
+![tuto.github5](../images/tuto.github5.png)
 
 - On est donc bien dans notre fichier
 - On clique sur le crayon pour entrer en modification
 
-![tuto.github6](images/tuto.github6.png)
+![tuto.github6](../images/tuto.github6.png)
 
 Afin de faire une recherche dans le fichier, se positionner dans le bloc texte du fichier qu’on vient d’ouvrir en mode édition avec le crayon et on fait un "Ctrl + F" pour activer la recherche. Vous coller ou spécifier le texte que vous cherchez (un élément significatif et une ligne seulement, pas tout un bloc d’un coup). Valider avec "Entrée" pour lancer la recherche.
 > **Tip**
@@ -58,18 +58,18 @@ Afin de faire une recherche dans le fichier, se positionner dans le bloc texte d
 
 - Le champ de recherche, oui c’est assez mince comme information, la ligne copiée est bien plus grande ;).
 
-![tuto.github7](images/tuto.github7.png)
+![tuto.github7](../images/tuto.github7.png)
 
 - En jaune, c’est le résultat de la recherche
 - En bleu, ce que je viens de sélectionner et que je souhaite modifier/remplacer par mon code. Ma modification
 
-![tuto.github14](images/tuto.github14.png)
+![tuto.github14](../images/tuto.github14.png)
 
 Je supprime donc le bloc puis je le remplace.
 
 Ensuite, sur la partie basse on trouve ceci : 1. On indique un titre explicite si possible 2. On entre une description un peu plus précise (dans mon cas, ça serait trop long, le lien vers le forum sera plus parlant) 3. On s’assure que ça soit bien coché comme ceci 4. On commit = Soumettre la modification
 
-![tuto.github8](images/tuto.github8.png)
+![tuto.github8](../images/tuto.github8.png)
 
 ## Soumettre une modification
 
@@ -78,7 +78,7 @@ Le **commit** fait au-dessus ne concerne que le fork du projet dans votre espace
 - On clique sur l’onglet Pull Request
 - New Pull Request (PR pour les intimes)
 
-![tuto.github9](images/tuto.github9.png)
+![tuto.github9](../images/tuto.github9.png)
 
 - Le PR va lancer une comparaison entre la base de jeedom avec votre repository (le fork).
 - Celà indique les modifications (le premier c’est parce que je me suis remis à jour depuis jeedom, le second concernant justement le changement de la fonction lastchangestateduration, parfait !!!)
@@ -86,7 +86,7 @@ Le **commit** fait au-dessus ne concerne que le fork du projet dans votre espace
 - Le nouveau code
 - On crée le Pull Request (PR)
 
-![tuto.github10](images/tuto.github10.png)
+![tuto.github10](../images/tuto.github10.png)
 
 Il est important de bien expiiquer les changements soumis pour que le(s) développeur(s) du projet d’origine comprennent et puissent valider votre demande.
 
@@ -95,7 +95,7 @@ Il est important de bien expiiquer les changements soumis pour que le(s) dévelo
 - Idem, on recopie (d’où l’utilisation des …​ à l’étape 1 pour s’éviter une réécriture)
 - On clique sur Create Pull Request
 
-![tuto.github11](images/tuto.github11.png)
+![tuto.github11](../images/tuto.github11.png)
 
 **C’est terminé.** Il faut attendre que votre PR soit validé.
 
@@ -103,8 +103,8 @@ NB: Il n’y a que les utilisateurs ayant un droit de push sur Jeedom qui peuven
 
 Pour vous assurer que votre modification est bien dans la liste, vous pouvez cliquer sur Pull Requests
 
-![tuto.github12](images/tuto.github12.png)
+![tuto.github12](../images/tuto.github12.png)
 
 On obtient la liste des PR en attentes de validation. On voit bien le nôtre
 
-![tuto.github13](images/tuto.github13.png)
+![tuto.github13](../images/tuto.github13.png)

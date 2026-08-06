@@ -41,7 +41,7 @@
 
 ).
 
-![doc-github](images/tutoDoc.png)
+![doc-github](../images/tutoDoc.png)
 
  ``https://jeedom.github.io/plugin-template/`` ().
 

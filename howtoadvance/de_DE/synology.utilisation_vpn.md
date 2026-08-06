@@ -6,11 +6,11 @@ Gehen Sie zur DSM-Schnittstelle und melden Sie sich mit einem Administratorkonto
 
 Führen Sie oben links im Fenster eine Suche mit dem Wort VPN durch. Der VPN-Server sollte angezeigt werden, und klicken Sie dann auf Installieren.
 
-![synology.utilisation vpn1](images/synology.utilisation_vpn1.png)
+![synology.utilisation vpn1](../images/synology.utilisation_vpn1.png)
 
 Gehen Sie zurück zum Hauptmenü und wählen Sie VPN Server
 
-![synology.utilisation vpn2](images/synology.utilisation_vpn2.png)
+![synology.utilisation vpn2](../images/synology.utilisation_vpn2.png)
 
 Wenn sich das Fenster öffnet, gehen Sie zu L2TP / IPSEC
 
@@ -24,17 +24,17 @@ Geben Sie abschließend einen Freigabeschlüssel ein : Es ist ein Passwort, das 
 
 Dann bewerben Sie sich
 
-![synology.utilisation vpn3](images/synology.utilisation_vpn3.png)
+![synology.utilisation vpn3](../images/synology.utilisation_vpn3.png)
 
 Eine Meldung zeigt dann die Ports an, die auf Ihrer Internet Box zu Ihrem NAS umgeleitet werden müssen.
 
-![synology.utilisation vpn4](images/synology.utilisation_vpn4.png)
+![synology.utilisation vpn4](../images/synology.utilisation_vpn4.png)
 
 # Ermöglichen Sie Benutzern die Verwendung des VPN-Dienstes auf dem NAS
 
 Gehen Sie zurück zum Hauptmenü und wählen Sie VPN Server
 
-![synology.utilisation vpn2](images/synology.utilisation_vpn2.png)
+![synology.utilisation vpn2](../images/synology.utilisation_vpn2.png)
 
 Wählen Sie im linken Teil Berechtigung
 
@@ -46,25 +46,25 @@ Aktivieren Sie nur das Kontrollkästchen vor dem Benutzer, den Sie zur Verwendun
 >
 > Es ist ratsam, einen Benutzer nur für das VPN und ohne andere Rechte / Berechtigungen als das VPN zu erstellen.
 
-![synology.utilisation vpn5](images/synology.utilisation_vpn5.png)
+![synology.utilisation vpn5](../images/synology.utilisation_vpn5.png)
 
 # Leiten Sie die Ports Ihres BO umX 
 
 Geben Sie im Browser 192.168.1.1 ein. Klicken Sie auf Freebox-Einstellungen
 
-![synology.utilisation vpn6](images/synology.utilisation_vpn6.png)
+![synology.utilisation vpn6](../images/synology.utilisation_vpn6.png)
 
 Wählen Sie den erweiterten Modus
 
-![synology.utilisation vpn7](images/synology.utilisation_vpn7.png)
+![synology.utilisation vpn7](../images/synology.utilisation_vpn7.png)
 
 Wählen Sie Port Management
 
-![synology.utilisation vpn8](images/synology.utilisation_vpn8.png)
+![synology.utilisation vpn8](../images/synology.utilisation_vpn8.png)
 
 Fügen Sie eine Weiterleitung hinzu
 
-![synology.utilisation vpn9](images/synology.utilisation_vpn9.png)
+![synology.utilisation vpn9](../images/synology.utilisation_vpn9.png)
 
 Geben Sie die Parameter wie folgt ein.
 
@@ -74,11 +74,11 @@ Geben Sie die Parameter wie folgt ein.
 
 Speichern
 
-![synology.utilisation vpn10](images/synology.utilisation_vpn10.png)
+![synology.utilisation vpn10](../images/synology.utilisation_vpn10.png)
 
 Wir stellen dann fest, dass die Konfiguration berücksichtigt wird
 
-![synology.utilisation vpn11](images/synology.utilisation_vpn11.png)
+![synology.utilisation vpn11](../images/synology.utilisation_vpn11.png)
 
 Wiederholen Sie den Vorgang mit den UDP-Ports 500 und 4500
 
@@ -86,30 +86,30 @@ Wiederholen Sie den Vorgang mit den UDP-Ports 500 und 4500
 
 Gehen Sie zur Anwendung und wählen Sie Einstellungen
 
-![synology.utilisation vpn12](images/synology.utilisation_vpn12.png)
+![synology.utilisation vpn12](../images/synology.utilisation_vpn12.png)
 
 Klicken Sie auf… Mehr
 
-![synology.utilisation vpn13](images/synology.utilisation_vpn13.png)
+![synology.utilisation vpn13](../images/synology.utilisation_vpn13.png)
 
 Klicken Sie auf VPN
 
-![synology.utilisation vpn14](images/synology.utilisation_vpn14.png)
+![synology.utilisation vpn14](../images/synology.utilisation_vpn14.png)
 
 Klicken Sie oben rechts auf das +
 
-![synology.utilisation vpn15](images/synology.utilisation_vpn15.png)
+![synology.utilisation vpn15](../images/synology.utilisation_vpn15.png)
 
 Geben Sie dem VPN-Zugriff einen Namen, legen Sie ihn als L2TP / IPSec PSK-Typ fest, geben Sie die öffentliche Adresse Ihrer Internetbox (oder einen DNS-Namen, falls vorhanden) ein und geben Sie den im Abschnitt Konfigurieren eines VPN-Servers eingegebenen gemeinsamen Schlüssel ein :
 
-![synology.utilisation vpn16](images/synology.utilisation_vpn16.png)
+![synology.utilisation vpn16](../images/synology.utilisation_vpn16.png)
 
 Um das VPN zu starten, klicken Sie einfach auf die neue Zeile mit dem Namen Ihres VPN-Tunnels
 
-![synology.utilisation vpn17](images/synology.utilisation_vpn17.png)
+![synology.utilisation vpn17](../images/synology.utilisation_vpn17.png)
 
 Geben Sie dann den Login und das Passwort des Benutzers ein, der im Abschnitt Konfigurieren eines VPN-Servers konfiguriert wurde
 
-![synology.utilisation vpn18](images/synology.utilisation_vpn18.png)
+![synology.utilisation vpn18](../images/synology.utilisation_vpn18.png)
 
 Und das ist alles, was Sie auf Ihrem Telefon tun. Es ist, als wären Sie von zu Hause aus über WLAN !

@@ -26,24 +26,24 @@ The Core incluye entre otros :
 
 *El equipo, incluidos los actuadores o sensores, está organizado por objetos. Los objetos pueden, por ejemplo, representar partes físicas*.
 
-[Síntesis](/es_ES/core/4.1/overview)
+[Síntesis](/core/overview)
 
-![Síntesis](images/doc-presentation-synthese.jpg)
+![Síntesis](../images/doc-presentation-synthese.jpg)
 
-[Dashboard](/es_ES/core/4.1/dashboard)
+[Dashboard](/core/dashboard)
 
-![Dashboard](images/doc-presentation-dashboard.jpg)
+![Dashboard](../images/doc-presentation-dashboard.jpg)
 
 
 ## Historiques
 
 *Toda la información puede ser historizada (curvas de temperatura, consumos, aperturas de puertas, etc.) y accesible en Análisis → Historial o desde los mosaicos del Tablero.*
 
-[Historial](/es_ES/core/4.1/history)
+[Historial](/core/history)
 
-[Línea de tiempo](/es_ES/core/4.1/timeline)
+[Línea de tiempo](/core/timeline)
 
-![Page Historial](images/doc-presentation-historique.jpg)
+![Page Historial](../images/doc-presentation-historique.jpg)
 
 ## Escenarios
 
@@ -51,25 +51,25 @@ The Core incluye entre otros :
 
 [Mi primer escenario](/es_ES/concept/#tocAnchor-4)
 
-![Page Scénario](images/doc-presentation-scenario.jpg)
+![Page Scénario](../images/doc-presentation-scenario.jpg)
 
 ## Creación de widgets
 
 *Jeedom ofrece un motor de creación de widgets para pedidos de equipos. De este modo, puede crear sus propios widgets, además de los widgets básicos. Los widgets también se pueden crear directamente desde el código, para usuarios avanzados.*
 
-![Widgets](images/doc-presentation-widgets.jpg)
+![Widgets](../images/doc-presentation-widgets.jpg)
 
 ## Interactions
 
 *El sistema de interacción en Jeedom le permite realizar acciones desde texto o comandos de voz.*
 
-![Page Interaction](images/doc-presentation-interaction.jpg)
+![Page Interaction](../images/doc-presentation-interaction.jpg)
 
 ## Centro de actualizaciones
 
 *El centro de actualizaciones le permite actualizar todas las funciones de Jeedom, incluido el software principal y sus complementos. Hay otras funciones de administración de extensiones disponibles (eliminar, reinstalar, verificar, etc.).*
 
-![Page Sauvegarde](images/doc-presentation-update.jpg)
+![Page Sauvegarde](../images/doc-presentation-update.jpg)
 
 
 # Market
@@ -85,7 +85,7 @@ Alrededor de este núcleo hay complementos, que pueden ser de todo tipo :
 
 Estos complementos se pueden instalar desde Market y le permiten ampliar las posibilidades de Jeedom.
 
-![Page Mercado](images/doc-presentation-market.jpg)
+![Page Mercado](../images/doc-presentation-market.jpg)
 
 Jeedom permite que cualquier complemento chatee con otro de forma estandarizada. Esto hace posible, por ejemplo, utilizar complementos de termostato o alarma con cualquier protocolo de domótica o incluso un complemento de IP u objeto de comunicación
 

@@ -18,5 +18,5 @@ Depuis 2020, il est recommandé de ne plus mettre le nom sous l'image (attention
 
 Merci d'utiliser ce modèle (bords arrondi, taille, fond coloré, transparence autour etc..) :
 
-![modele-icone](images/plugin-Jeedom-px.jpg)
-![modele-icon](images/template_icon.png)
+![modele-icone](../images/plugin-Jeedom-px.jpg)
+![modele-icon](../images/template_icon.png)

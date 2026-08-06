@@ -52,10 +52,10 @@ Rendez-vous dans le plugin Atlas (Passerelle Domotique/Plugin Atlas), et cliquez
 CAS 2 : VOUS N'AVEZ PAS ACCES A VOTRE BOX ATLAS
 
 - Téléchargez le Recovery depuis votre profil sur le market : Profil / Mes Services et cliquer sur Télécharger USB Recovery Atlas
-![profilrecovery](images/profilrecovery.png)
+![profilrecovery](../images/profilrecovery.png)
 - Téléchargez le logiciel [Balena etcher](https://www.balena.io/etcher/)
 - Dans le logiciel, choisissez votre image téléchargée, puis votre clé usb 
-![balenaetcher](images/balenaetcher.png)
+![balenaetcher](../images/balenaetcher.png)
 - Une fois la clé prête, la mettre dans le port USB 2 inférieur (port USB noir), puis allumer votre box Atlas
 - Attendre 5 à 10 minutes environ
 - Puis rendez-vous sur http://jeedomatlasrecovery.local/

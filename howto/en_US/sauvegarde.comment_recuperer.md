@@ -14,7 +14,7 @@ Filezilla is free software and available on all platforms. It allows you to tran
 
 To connect to your box, simply complete the information fields at the top of the Filezilla window :
 
-![restore filezilla01](images/restore-filezilla01.jpg)
+![restore filezilla01](../images/restore-filezilla01.jpg)
 
 -   Hostname : Jeedom IP address (``sftp://`` is added automatically)
 -   Login : ``jeedom``
@@ -34,10 +34,10 @@ Once the connection is established, it is necessary to go to the backup director
 
 The path is displayed in the remote site section.
 
-![restore filezilla02](images/restore-filezilla02.jpg)
+![restore filezilla02](../images/restore-filezilla02.jpg)
 
 ## Backup download
 
 On the list of backups, by right-clicking, it is possible to start its download.
 
-![restore filezilla03](images/restore-filezilla03.jpg)
+![restore filezilla03](../images/restore-filezilla03.jpg)

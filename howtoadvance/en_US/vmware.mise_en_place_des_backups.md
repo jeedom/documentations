@@ -25,7 +25,7 @@ We must recover this [script](https://raw.githubusercontent.com/lamw/ghettoVCB/m
 
 You will have to connect in SSH on the ESXi, to do this you must from the interface
 
-![vmware.backup](images/vmware.backup.PNG)
+![vmware.backup](../images/vmware.backup.PNG)
 
 Then with putty or kitty connect to it by putting the IP of your ESXi and using your identifiers of it
 
@@ -88,7 +88,7 @@ Here we will launch a first initial backup of all VMs to see if everything is ok
 
 This will launch a backup of all your VMs (and can therefore take a long time). At the end you should have on your backup datastore a folder by VM and in each VMs folder a subfolder by date containing 4 files :
 
-![vmware.backup2](images/vmware.backup2.PNG)
+![vmware.backup2](../images/vmware.backup2.PNG)
 
 -   ``*-flat.vmdk`` ⇒ the virtual disk of your machine
 -   ``*.vmdk`` ⇒ the descriptor of the disc

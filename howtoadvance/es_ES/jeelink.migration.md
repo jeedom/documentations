@@ -22,7 +22,7 @@ Veremos aquí cómo migrar una instalación con Jeedom en modo esclavo a un Jeed
 >
 > - Las nociones de **Jeedom Master** y **Jeedom Slave** ya no es relevante. El nuevo modo operativo de sincronización de equipos entre varios Jeedoms puede ser bidireccional. Un servidor Jeedom ahora puede ser **Fuente** y **Target** mientras que el modo antiguo solo permitía el ascenso del equipo de  **el esclavo** Hacia **el maestro**. Con el nuevo modo también es posible tener varios **Jeedom Targets** por lo mismo **Fuente de la libertad**. La comunicación entre Jeedoms ahora también se puede hacer de forma remota a través de Internet (Jeedom DNS u otro).
 
-![jeelink.migration9](images/jeelink.migration9.png)
+![jeelink.migration9](../images/jeelink.migration9.png)
 
 ## Actualizaciones de configuración y verificación
 
@@ -46,11 +46,11 @@ Dependiendo de los complementos instalados en su **Jeedom Slave**, es necesario 
 
 > **Nota**
 >
-> Hay disponible una hoja de información no exhaustiva para la migración [aquí](images/MemoMigration.xls)
+> Hay disponible una hoja de información no exhaustiva para la migración [aquí](../images/MemoMigration.xls)
 
 ## Copias de seguridad preventivas
 
--   Hacer un [Jeedom backup](https://doc.jeedom.com/es_ES/core/doc-core-backup.html) de su **Jeedom Master** y tu (tu) **Jeedom Slave (s))** y recuperarlo (s) en su PC / NAS.
+-   Hacer un [Jeedom backup](/core/backup) de su **Jeedom Master** y tu (tu) **Jeedom Slave (s))** y recuperarlo (s) en su PC / NAS.
 -   Hacer un [Copia de seguridad de disco / SD](https://doc.jeedom.com/es_ES/howto/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd) de su **Jeedom Master** y tu (tu) **Jeedom Slave (s))** y recuperarlos en su PC / NAS.
 
 # Migration
@@ -63,7 +63,7 @@ Dependiendo de los complementos instalados en su **Jeedom Slave**, es necesario 
 
 En su **Jeedom Target**, *Complementos ⇒ Gestión de complementos* :
 
-![jeelink.migration1](images/jeelink.migration1.png)
+![jeelink.migration1](../images/jeelink.migration1.png)
 
 ## Instalación de **Fuente de la libertad**
 
@@ -88,7 +88,7 @@ En su **Jeedom Target**, *Complementos ⇒ Gestión de complementos* :
 -   Cambie la contraseña del usuario administrador o / y configure un nuevo usuario.
 -   Configure su cuenta de Jeedom Market (*Configuración ⇒ Actualizaciones y archivos ⇒ pestaña "Mercado""*). Haga clic en la prueba después de guardar, para confirmar la entrada de sus identificadores de Jeedom Market).
 -   Instalación y activación del complemento "Jeedom Link" en el nuevo **Fuente de la libertad**.
-![jeelink.migration2](images/jeelink.migration2.png)
+![jeelink.migration2](../images/jeelink.migration2.png)
 -   Instalación y activación de complementos que desea usar. (Es recomendable hacerlos uno por uno, verificando cada vez que las dependencias y los demonios estén bien).
 -   Recrea el árbol de objetos (solo los que te serán útiles) del **Jeedom Target** (Viejo maestro) en tu nuevo **Fuente de la libertad** (Antiguo esclavo).
 
@@ -145,27 +145,27 @@ el complemento "Jeedom Link" especificando :
 
 Y guarda la configuración.
 
-![jeelink.migration3](images/jeelink.migration3.png)
+![jeelink.migration3](../images/jeelink.migration3.png)
 
 En la pestaña *Cesión*, agregue el equipo que desea volver al **Jeedom Target**.
 
-![jeelink.migration4](images/jeelink.migration4.png)
+![jeelink.migration4](../images/jeelink.migration4.png)
 
 Haga clic en *Agregar equipo* Seleccione el objeto y el equipo para agregar :
 
-![jeelink.migration5](images/jeelink.migration5.png)
+![jeelink.migration5](../images/jeelink.migration5.png)
 
 Después de actualizar la página *Mis enlaces* del **Jeedom Target**, deberías ver la creación automática del equipo :
 
-![jeelink.migration6](images/jeelink.migration6.png)
+![jeelink.migration6](../images/jeelink.migration6.png)
 
 Al igual que todos los equipos Jeedom, puede activar / desactivar y mostrar o no el equipo, sus controles, ... o cambiar la categoría :
 
-![jeelink.migration7](images/jeelink.migration7.png)
+![jeelink.migration7](../images/jeelink.migration7.png)
 
 En la pestaña *Comandos*, accede a todos los parámetros de los controles del equipo :
 
-![jeelink.migration8](images/jeelink.migration8.png)
+![jeelink.migration8](../images/jeelink.migration8.png)
 
 ## Recuperación histórica
 

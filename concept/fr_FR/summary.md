@@ -11,7 +11,7 @@ Il faut distinguer deux types de résumé :
 - Le résumé global : C'est l'ensemble des icônes de résumé affiché dans la barre de Jeedom.
 - Les résumés objet : Chaque objet possède son propre résumé affiché sur la synthèse dans l'objet et sur le Dashboard à droite du nom de l'objet.
 
-![Découverte des résumés](images/summary-intro.gif)
+![Découverte des résumés](../images/summary-intro.gif)
 
 Le résumé global ne se paramètre pas directement. C'est un concentré des résumés des autres objets. Par exemple, si une lumière est allumée dans la cuisine et deux dans le salon, le résumé global affichera trois lumières allumées. Bien sûr, tout ceci est paramétrable, comme nous allons le voir plus bas.
 
@@ -27,7 +27,7 @@ Avant de voir la configuration sur un objet, pour pouvoir configurer un résumé
 
 Allez dans **Réglages → Système → Configuration** puis sur l'onglet **Résumés**.
 
-{% include lightbox.html src="images/summary-admin.jpg" data="settings" title="Configuration des résumés" imgstyle="width:auto;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/summary-admin.jpg" data="settings" title="Configuration des résumés" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 Vous avez ici la liste de tous les résumés que vous allez pouvoir paramétrer sur chaque objet. Ici, nous pourrons paramétrer les résumés *Présence* (si vous regardez bien, vous voyez dans le résumé global qu'il y a une personne à la maison), *Alerte*, *Mouvement*, *Chauffage* etc. Et bien sûr, vous pouvez supprimer et ajouter des types de résumé ici afin de les avoir à disposition ensuite sur les objets.
 
@@ -68,7 +68,7 @@ Une fois la liste des résumés disponibles en configuration de Jeedom, nous pou
 
 Dans **Outils → Objets**, ici sur l'objet Salon :
 
-{% include lightbox.html src="images/summary-object-1.jpg" data="settings" title="Résumé objet" imgstyle="width:auto;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/summary-object-1.jpg" data="settings" title="Résumé objet" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 Ici, nous avons deux parties :
 
@@ -112,7 +112,7 @@ Pour chaque objet possédant des commandes dans le résumé *Lumière*, vous ave
 
 En ouvrant le Virtuel du Salon et en allant sur l'onglet **Commandes**, voici ce qu'on trouve :
 
-{% include lightbox.html src="images/summary-virtual.jpg" data="settings" title="Virtuel résumé" imgstyle="width:auto;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/summary-virtual.jpg" data="settings" title="Virtuel résumé" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 - Une commande **Info** *Lumière* : Celle-ci possède l'information du nombre de lumières allumées dans le Salon, puisque nous sommes sur le Virtuel du résumé du Salon.
 - Une commande **Action** *Lumière Light Button On* : En déclenchant cette action, nous allons allumer toutes les commandes du résumé **Lumière**, ici de l'objet Salon.
@@ -135,6 +135,6 @@ Comme vu précédemment, les Virtuels de résumé possèdent non seulement les *
 
 Par exemple, si vous avez créé les Virtuels de résumé pour le résumé *Lumière*, vous pouvez faire un Ctrl+Click sur l’icône de ce résumé. Apparaîtra alors un popup avec les différentes actions vous permettant, par exemple, d'éteindre toutes les lumières de la maison d'un coup !
 
-{% include lightbox.html src="images/summary-virtual-actions.jpg" data="settings" title="Actions sur résumés" imgstyle="width:auto;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/summary-virtual-actions.jpg" data="settings" title="Actions sur résumés" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 Nous l'avons vu, les résumés représentent un vaste sujet, qu'il n'est pas toujours très simple d'appréhender au début de la vie d'un Jeedomien, mais qu'il est bon de connaître !

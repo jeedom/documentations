@@ -11,7 +11,7 @@ We must distinguish two types of summary :
 - The overall summary : This is the set of summary icons displayed in the Jeedom bar.
 - Subject summaries : Each object has its own summary displayed on the summary in the object and on the Dashboard to the right of the object name.
 
-![Discovery of summaries](images/summary-intro.gif)
+![Discovery of summaries](../images/summary-intro.gif)
 
 The global summary cannot be set directly. It is a concentrate of summaries of other objects. For example, if one light is on in the kitchen and two in the living room, the overall summary will show three lights on. Of course, all this is configurable, as we will see below.
 
@@ -27,7 +27,7 @@ Before seeing the configuration on an object, to be able to configure a summary,
 
 Go to **Settings → System → Configuration** then on the tab **Summaries**.
 
-{% include lightbox.html src="images/summary-admin.jpg" data="settings" title="Configuring summaries" imgstyle="width:auto;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/summary-admin.jpg" data="settings" title="Configuring summaries" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 Here you have the list of all the summaries that you will be able to configure on each object. Here we can configure the summaries *Presence* (if you look closely, you see in the overall summary that there is a person at home), *Alert*, *Movement*, *Heating* etc. Et bien sûr, vous pouvez supprimer et ajouter des types de résumé ici afin de les avoir à disposition ensuite sur les objets.
 
@@ -68,7 +68,7 @@ Once the list of summaries is available in Jeedom configuration, we can therefor
 
 In **Tools → Objects**, here on the object Salon :
 
-{% include lightbox.html src="images/summary-object-1.jpg" data="settings" title="Abstract objet" imgstyle="width:auto;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/summary-object-1.jpg" data="settings" title="Abstract objet" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 Here we have two parts :
 
@@ -112,7 +112,7 @@ For each object with commands in the summary *Light*, you now have a new Virtual
 
 By opening the Virtual Show and going to the tab **Orders**, here is what we find :
 
-{% include lightbox.html src="images/summary-virtual.jpg" data="settings" title="Virtuel résumé" imgstyle="width:auto;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/summary-virtual.jpg" data="settings" title="Virtuel résumé" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 - An order **Info** *Light* : This one has the information of the number of lights on in the Living Room, since we are on the Virtual of the Living Room summary.
 - An order **Action** *Light Button On Light* : By triggering this action, we will turn on all the summary commands **Light**, here of the Salon object.
@@ -135,6 +135,6 @@ As seen previously, Summary Virtuals not only have the *Info* summaries, but als
 
 For example, if you created the Summary Virtuals for the summary *Light*, you can do a Ctrl + Click on the icon of this summary. A pop-up will then appear with the different actions allowing you, for example, to turn off all the lights in the house at once !
 
-{% include lightbox.html src="images/summary-virtual-actions.jpg" data="settings" title="Actions on summaries" imgstyle="width:auto;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/summary-virtual-actions.jpg" data="settings" title="Actions on summaries" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 As we have seen, the summaries represent a vast subject, which it is not always very easy to understand at the beginning of a Jeedomian's life, but which it is good to know !

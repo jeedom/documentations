@@ -10,13 +10,13 @@ In 90% der Fälle ist es nicht erforderlich, die GSM-Schlüssel nur im GSM-Modus
 
 Sobald der Schlüssel an einen Windows 10-PC angeschlossen ist, benötigen Sie ein neues CD-ROM-Laufwerk. Sie müssen darauf doppelklicken und die vorgeschlagene Software installieren (es gibt nichts zu ändern, machen Sie einfach die ganze Zeit).
 
-![gsmonly](images/gsmonly.PNG)
+![gsmonly](../images/gsmonly.PNG)
 
 # COM-Port-Wiederherstellung
 
 Dann müssen Sie die Kommunikationsportnummer abrufen. Gehen Sie zum "Start" -Menü und suchen Sie nach "Geräte-Manager", starten Sie es und klappen Sie dann den Abschnitt "Ports (COM und LPT)" auf. Sie sollten ein Element mit "HUAWEI" haben. Sie müssen sich dann nur die Nummer des COM-Anschluss :
 
-![gsmonly2](images/gsmonly2.PNG)
+![gsmonly2](../images/gsmonly2.PNG)
 
 # Kitt herunterladen
 
@@ -26,7 +26,7 @@ Dann Kitt herunterladen [hier](https://the.earth.li/~sgtatham/putty/latest/x86/p
 
 Konfigurieren Sie Putty nach dem Start wie folgt (indem Sie Ihre COM-Port-Nummer an sich selbst senden, siehe Schritt oben) :
 
-![gsmonly3](images/gsmonly3.PNG)
+![gsmonly3](../images/gsmonly3.PNG)
 
 Ein schwarzes Fenster wird angezeigt (von Zeit zu Zeit wird möglicherweise die Meldung "boot ..." angezeigt. Dies ist normal. Dies bedeutet, dass Sie gut mit dem GSM-Schlüssel verbunden sind). In diesem Fenster müssen Sie eingeben und dann die Eingabetaste drücken" :
 

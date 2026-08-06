@@ -51,7 +51,7 @@ L'interface Jeedom est également accessible par le nom d'hôte de la machine.
 
 Depuis une [image système officielle](/compatibility/#Images%20système%20officielles), tout accès direct à la console affiche immédiatement l'adresse de l'interface Jeedom :
 
-{% include lightbox.html src="images/shell_ip.jpg" data="shell_ip" title="Console système : IP Jeedom" imgstyle="display:block;margin:0 auto;" %}
+{% include lightbox.html src="../images/shell_ip.jpg" data="shell_ip" title="Console système : IP Jeedom" imgstyle="display:block;margin:0 auto;" %}
 
 L'adresse IP peut également être affichée en tapant la commande :
 ```sh
@@ -62,7 +62,7 @@ ip addr | grep 'inet ' | tail -n 1
 
 [Une fois l'adresse de Jeedom connue](#Accès%20local), saisissez-la dans votre navigateur internet pour accéder à la page de connexion :
 
-{% include lightbox.html src="images/FirstStep_box_connect.jpg" data="FirstStep_box_connect" title="Connexion Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
+{% include lightbox.html src="../images/FirstStep_box_connect.jpg" data="FirstStep_box_connect" title="Connexion Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
 >**IMPORTANT**
 >
@@ -72,7 +72,7 @@ Lorsque vous vous connectez avec les identifiants par défaut, Jeedom vous invit
 
 Il est également possible de modifier le mot de passe de l'utilisateur `admin` en cliquant sur le bouton **Mot de passe** de la page de gestion des utilisateurs *(accessible par le menu **Réglages → Système → Utilisateurs**)* :
 
-{% include lightbox.html src="images/FirstStep_boxPassword.jpg" data="FirstStep_boxPassword" title="Mot de passe admin" imgstyle="width:75%;display:block;margin:0 auto;" %}
+{% include lightbox.html src="../images/FirstStep_boxPassword.jpg" data="FirstStep_boxPassword" title="Mot de passe admin" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
 >**IMPORTANT**
 >
@@ -86,11 +86,11 @@ Le market permet de consulter, installer et même publier des plugins facilement
 
 Pour créer un compte sur le market Jeedom, il n'y a qu'à [**remplir les champs requis par la page d'enregistrement**](https://www.jeedom.com/market/index.php?v=d&p=register){:target="_blank"} :
 
-{% include lightbox.html src="images/FirstStep_market1.jpg" data="FirstStep_market1" title="Inscription Market Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
+{% include lightbox.html src="../images/FirstStep_market1.jpg" data="FirstStep_market1" title="Inscription Market Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
 Après validation, vous êtes connectés à votre compte et redirigés vers l'accueil :
 
-{% include lightbox.html src="images/FirstStep_market2.jpg" data="FirstStep_market2" title="Accueil Market Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
+{% include lightbox.html src="../images/FirstStep_market2.jpg" data="FirstStep_market2" title="Accueil Market Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
 ### Service Pack
 
@@ -123,7 +123,7 @@ Que vous disposiez d'un Service Pack ou que vous ayez souscrit au service **Acc�
 
 Pour activer ce service, il faut simplement se rendre dans le menu **Réglages → Système → Configuration**, onglet **Réseaux** :
 
-{% include lightbox.html src="images/FirstStep_dns.jpg" data="FirstStep_dns" title="Réseaux Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
+{% include lightbox.html src="../images/FirstStep_dns.jpg" data="FirstStep_dns" title="Réseaux Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
 Cochez la case **Activer DNS Jeedom**, puis cliquez sur le bouton **(Re)démarrer**. Après un bref instant et une fois le service démarré, l'adresse d'accès à distance s'affiche à l'écran.
 
@@ -151,7 +151,7 @@ Pour créer un objet, rien de plus simple :
 -   Cliquez sur le bouton Ajouter.
 -   Jeedom va vous demander le nom de celui-ci. Validez. Voilà votre premier objet créé :
 
-![Objet](images/FirstStep_object.jpg)
+![Objet](../images/FirstStep_object.jpg)
 
 Pour plus d’informations sur cette partie, voir *Manuel d'utilisation -> Objet*.
 
@@ -167,11 +167,11 @@ Vous allez alors avoir la liste de tous les plugins qu’il est possible d’ins
 >
 > Attention, certains sont officiels et d’autres non. En cas de souci avec un plugin non officiel, l’équipe Jeedom ne pourra être tenue pour responsable.
 
-![Liste des Plugins](images/FirstStep_plugin1.jpg)
+![Liste des Plugins](../images/FirstStep_plugin1.jpg)
 
 En cliquant sur un plugin, vous obtenez sa fiche :
 
-![Fiche Plugins](images/FirstStep_plugin2.jpg)
+![Fiche Plugins](../images/FirstStep_plugin2.jpg)
 
 Vous retrouvez alors :
 
@@ -211,7 +211,7 @@ Si vous n’avez pas trouvé de solution à votre problème, en dernier recours,
     -   soit en cliquant sur votre nom puis sur *Demande de support*,
     -   soit en allant sur votre profil, puis dans la partie **Tickets**, utilisez le bouton "Ouvrir une demande de support".
 
-![Demande de support](images/FirstStep_support.jpg)
+![Demande de support](../images/FirstStep_support.jpg)
 
 Toute la suite des échanges se fera par mail.
 

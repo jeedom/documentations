@@ -18,24 +18,24 @@ Wir werden ein Tasker-Profil für den Status verwenden. Dies ist eine Spracherke
 
 Wir fügen ein neues Profil mit einem hinzu **Zustand** als Auslöser.
 
-![android.autovoice1](images/android.autovoice1.png)
+![android.autovoice1](../images/android.autovoice1.png)
 
 Wir wählen **Plugin** auf dem ersten Bildschirm.
 
-![android.autovoice2](images/android.autovoice2.png)
+![android.autovoice2](../images/android.autovoice2.png)
 
 Im Plugin-Typ wählen wir **AutoVoice**.
 
-![android.autovoice3](images/android.autovoice3.png)
+![android.autovoice3](../images/android.autovoice3.png)
 
 Im Untermenü **AutoVoice**, Wir wählen **Anerkannt**.
 
-![android.autovoice4](images/android.autovoice4.png)
+![android.autovoice4](../images/android.autovoice4.png)
 
 Sie können die Standardkonfiguration speichern, sofern Sie dies nicht möchten
 Geben Sie Schlüsselwörter oder andere Parameter an.
 
-![android.autovoice5](images/android.autovoice5.png)
+![android.autovoice5](../images/android.autovoice5.png)
 
 Wir können dem Profil einen Namen wie "Jeedom Interactions" geben und das Backup wird nach dem Link mit einer Aufgabe erstellt.
 
@@ -43,19 +43,19 @@ Wir können dem Profil einen Namen wie "Jeedom Interactions" geben und das Backu
 
 Wir fügen ein **neue Aufgabe** zum neu erstellten Profil. Zum Beispiel könnte es "Jeedom API" genannt werden".
 
-![android.autovoice6](images/android.autovoice6.png)
+![android.autovoice6](../images/android.autovoice6.png)
 
 Die Aufgabe gruppiert schließlich 2 Aktionen : **API-Aufruf** und **sag zurück**.
 
-![android.autovoice7](images/android.autovoice7.png)
+![android.autovoice7](../images/android.autovoice7.png)
 
 Zuerst fügen wir eine Typaktion hinzu **Netzwerk**.
 
-![android.autovoice8](images/android.autovoice8.png)
+![android.autovoice8](../images/android.autovoice8.png)
 
 Dann wählen wir **Holen Sie sich HTTP**.
 
-![android.autovoice9](images/android.autovoice9.png)
+![android.autovoice9](../images/android.autovoice9.png)
 
 Hier werden wir mit Jeedom Informationen füllen. Hier sind die einzugebenden Informationen :
 
@@ -64,15 +64,15 @@ Hier werden wir mit Jeedom Informationen füllen. Hier sind die einzugebenden In
 
 Vergessen Sie nicht, Ihren API-Schlüssel anstelle der Kette "Ihr Schlüssel" zu verwenden" . Wir müssen gehen ``%avcommonfilter`` Am Ende wird es durch die Rückgabe von Autovoice ersetzt.
 
-![android.autovoice10](images/android.autovoice10.png)
+![android.autovoice10](../images/android.autovoice10.png)
 
 Fügen Sie eine Typaktion hinzu **Zu sagen**. Filtern Sie dazu die Aktionen, indem Sie an der Lupe "say" setzen.
 
-![android.autovoice11](images/android.autovoice11.png)
+![android.autovoice11](../images/android.autovoice11.png)
 
 Und wir gehen zurück ``%HTTPD`` im Textfeld.
 
-![android.autovoice12](images/android.autovoice12.png)
+![android.autovoice12](../images/android.autovoice12.png)
 
 Es ist vorbei. Bei der Texterkennung durch AutoVoice wird Jeedom aufgerufen und Sie haben die Antwort in den Interaktionen konfiguriert, die von Ihrem Telefon gesprochen werden. Vergessen Sie nicht, Jeedom-Interaktionen zu konfigurieren, und Sie können danach fragen, was Sie wollen. Von "Was ist die Temperatur im Wohnzimmer" bis "Schalten Sie das Wohnzimmerlicht ein."".
 

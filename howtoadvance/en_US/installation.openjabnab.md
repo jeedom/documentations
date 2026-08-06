@@ -348,39 +348,39 @@ Go to :
 
 You must have :
 
-![installation.openjabnab](images/installation.openjabnab.PNG)
+![installation.openjabnab](../images/installation.openjabnab.PNG)
 
 You must now create an account by clicking on create user :
 
-![installation.openjabnab2](images/installation.openjabnab2.PNG)
+![installation.openjabnab2](../images/installation.openjabnab2.PNG)
 
 Fill in the requested information and log in :
 
-![installation.openjabnab3](images/installation.openjabnab3.PNG)
+![installation.openjabnab3](../images/installation.openjabnab3.PNG)
 
 Once connected go to server :
 
-![installation.openjabnab4](images/installation.openjabnab4.PNG)
+![installation.openjabnab4](../images/installation.openjabnab4.PNG)
 
 Then go down to find the list of connected rabbits and get their mac address :
 
-![installation.openjabnab5](images/installation.openjabnab5.PNG)
+![installation.openjabnab5](../images/installation.openjabnab5.PNG)
 
 Then go to account and fill in the name and mac field of the rabbit and confirm :
 
-![installation.openjabnab6](images/installation.openjabnab6.PNG)
+![installation.openjabnab6](../images/installation.openjabnab6.PNG)
 
 You will now find your rabbit on the rabbit page, click on it to open its configuration :
 
-![installation.openjabnab7](images/installation.openjabnab7.PNG)
+![installation.openjabnab7](../images/installation.openjabnab7.PNG)
 
 You must now activate the purple API and pass it in public, it is also here that you find the purple API key that will be used for Jeedom :
 
-![installation.openjabnab8](images/installation.openjabnab8.PNG)
+![installation.openjabnab8](../images/installation.openjabnab8.PNG)
 
 Below you find the list of plugins, do not forget to activate them (TTS type or ear control) :
 
-![installation.openjabnab9](images/installation.openjabnab9.PNG)
+![installation.openjabnab9](../images/installation.openjabnab9.PNG)
 
 # Jeedom configuration
 
@@ -394,7 +394,7 @@ And add the following line :
 
 Then everything happens in Jeedom, after creating your rabbit here is the configuration to put:
 
-![installation.openjabnab10](images/installation.openjabnab10.PNG)
+![installation.openjabnab10](../images/installation.openjabnab10.PNG)
 
 Now your rabbit now has its own local burrow !!!!!
 

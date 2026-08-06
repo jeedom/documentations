@@ -8,7 +8,7 @@ Jeedom adopta una versión específica para dispositivos móviles y tabletas. Se
 
 Esta versión adaptada también se simplifica, en aras de la visualización y el rendimiento.
 
-![Web App](images/webApp.png)
+![Web App](../images/webApp.png)
 
 - Dispositivos : Acceda al tablero por objeto. También puedes ver el Resumen.
 - Mensajes : Ver centro de mensajes.
@@ -29,9 +29,9 @@ La aplicación web tiene una función principalmente de asesoramiento. Por supue
 
 La aplicación móvil Jeedom (compatible con IOS / Android) le permite controlar su sistema de automatización del hogar Jeedom, ya sea por Wi-Fi local o en la red 3G / 4G de su operador. La aplicación se conecta automáticamente a su Jeedom a través de un código QR, no es necesaria ninguna configuración. Encontrarás en tu móvil la funcionalidad de tu Jeedom. (escenarios, objetos conectados y domótica, complementos). También puede personalizar su aplicación con accesos directos y más...
 
-[![AppStore](images/appstore.png)](https://itunes.apple.com/fr/app/jeedom/id1010855094?mt=8)	[![PlayStore](images/googleplay.png)](https://play.google.com/store/apps/details?id = fr.jeedom.jeedom & hl = fr)
+[![AppStore](../images/appstore.png)](https://itunes.apple.com/fr/app/jeedom/id1010855094?mt=8)	[![PlayStore](../images/googleplay.png)](https://play.google.com/store/apps/details?id = fr.jeedom.jeedom & hl = fr)
 
 
-![Jeedom App](images/screen322x572-1.jpg) ![Jeedom App](images/screen322x572-2.jpg) ![Jeedom App](images/screen322x572-3.jpg) ![Jeedom App](images/screen322x572-4.jpg) ![Jeedom App](images/screen322x572-5.jpg)
+![Jeedom App](../images/screen322x572-1.jpg) ![Jeedom App](../images/screen322x572-2.jpg) ![Jeedom App](../images/screen322x572-3.jpg) ![Jeedom App](../images/screen322x572-4.jpg) ![Jeedom App](../images/screen322x572-5.jpg)
 
 

@@ -22,7 +22,7 @@ Nous allons voir ici comment migrer une installation avec Jeedom en mode esclave
 >
 > - Les notions de **Jeedom Maître** et **Jeedom Esclave** ne sont plus  d’actualité. Le nouveau mode de fonctionnement de synchronisation  d’équipements entre plusieurs Jeedoms peut être bidirectionnel. Un  serveur Jeedom peut être désormais **Source** et **Cible** alors que  l’ancien mode ne permettait que la remontée des équipements de  **l’Esclave** vers **le Maître**. Avec le nouveau mode il est aussi  possible d’avoir plusieurs **Jeedom Cibles** pour un même **Jeedom  Source**. La communication entre les Jeedoms peut désormais aussi  s’effectuer à distance via internet (DNS Jeedom ou autre).
 
-![jeelink.migration9](images/jeelink.migration9.png)
+![jeelink.migration9](../images/jeelink.migration9.png)
 
 ## Mises à jour et Vérification de la Configuration
 
@@ -46,11 +46,11 @@ En fonction des plugins installés sur votre **Jeedom Esclave**, il est nécessa
 
 > **Note**
 >
-> Une fiche non exhaustive des informations à noter pour la migration  est disponible [ici](images/MemoMigration.xls)
+> Une fiche non exhaustive des informations à noter pour la migration  est disponible [ici](../images/MemoMigration.xls)
 
 ## Sauvegardes préventives
 
--   Faire une [sauvegarde Jeedom](https://doc.jeedom.com/fr_FR/core/doc-core-backup.html) de votre **Jeedom Maître** et de votre (vos) **Jeedom Esclave(s)** et récupérer celle(s)-ci sur votre PC/NAS…​.
+-   Faire une [sauvegarde Jeedom](/core/backup) de votre **Jeedom Maître** et de votre (vos) **Jeedom Esclave(s)** et récupérer celle(s)-ci sur votre PC/NAS…​.
 -   Faire une [sauvegarde SD/Disque](https://doc.jeedom.com/fr_FR/howto/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd) de votre **Jeedom Maître** et de votre (vos) **Jeedom Esclave(s)** et les récupérer sur votre PC/NAS…​.
 
 # Migration
@@ -63,7 +63,7 @@ En fonction des plugins installés sur votre **Jeedom Esclave**, il est nécessa
 
 Sur votre **Jeedom Cible**, *Plugins ⇒ Gestion des plugins* :
 
-![jeelink.migration1](images/jeelink.migration1.png)
+![jeelink.migration1](../images/jeelink.migration1.png)
 
 ## Installation du **Jeedom Source**
 
@@ -88,7 +88,7 @@ Sur votre **Jeedom Cible**, *Plugins ⇒ Gestion des plugins* :
 -   Changer le mot de passe de l’utilisateur admin ou/et configurer un nouvel utilisateur.
 -   Configurer votre compte Jeedom Market (*Configuration ⇒ Mises à jour et fichiers ⇒ onglet "Market"*). Cliquer sur tester après avoir sauvegardé, pour valider la saisie de vos identifiants Jeedom Market).
 -   Installation et activation du plugin "Jeedom Link" sur le nouveau **Jeedom Source**.
-![jeelink.migration2](images/jeelink.migration2.png)
+![jeelink.migration2](../images/jeelink.migration2.png)
 -   Installation et activation des plugins que vous souhaitez utiliser. (Il est conseillé de les faire un par un, en vérifiant bien à chaque fois que les dépendances et les démons éventuels sont OK).
 -   Recréer l’arborescence des objets (juste ceux qui vont vous être utiles) du **Jeedom Cible** (Ancien Maître) sur votre nouveau **Jeedom Source** (Ancien Esclave).
 
@@ -145,27 +145,27 @@ le plugin "Jeedom Link" en spécifiant :
 
 Et sauvegarder la configuration.
 
-![jeelink.migration3](images/jeelink.migration3.png)
+![jeelink.migration3](../images/jeelink.migration3.png)
 
 Dans l’onglet *Affectation*, ajouter les équipements que vous désirez remonter vers le **Jeedom Cible**.
 
-![jeelink.migration4](images/jeelink.migration4.png)
+![jeelink.migration4](../images/jeelink.migration4.png)
 
 Cliquer sur *Ajouter un équipement* Sélectionner l’objet et l’équipement à ajouter :
 
-![jeelink.migration5](images/jeelink.migration5.png)
+![jeelink.migration5](../images/jeelink.migration5.png)
 
 Après avoir rafraîchit la page *Mes JeeLinks* du **Jeedom Cible**, vous devez constater la création automatique de l’équipement :
 
-![jeelink.migration6](images/jeelink.migration6.png)
+![jeelink.migration6](../images/jeelink.migration6.png)
 
 Comme tout équipement Jeedom, vous pouvez activer/désactiver et afficher ou non l’équipement, ses commandes,…​ ou changer la catégorie :
 
-![jeelink.migration7](images/jeelink.migration7.png)
+![jeelink.migration7](../images/jeelink.migration7.png)
 
 Dans l’onglet *Commandes*, vous accédez à tous les paramètres des commandes de l’équipement :
 
-![jeelink.migration8](images/jeelink.migration8.png)
+![jeelink.migration8](../images/jeelink.migration8.png)
 
 ## Récupération des historiques
 

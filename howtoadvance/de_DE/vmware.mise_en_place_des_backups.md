@@ -25,7 +25,7 @@ Wir müssen das wiederherstellen [Skript](https://raw.githubusercontent.com/lamw
 
 Sie müssen eine Verbindung in SSH auf dem ESXi herstellen, um dies zu tun, müssen Sie dies über die Schnittstelle tun
 
-![vmware.backup](images/vmware.backup.PNG)
+![vmware.backup](../images/vmware.backup.PNG)
 
 Stellen Sie dann mit Putty oder Kitty eine Verbindung her, indem Sie die IP Ihres ESXi eingeben und Ihre Kennungen dafür verwenden
 
@@ -88,7 +88,7 @@ Hier starten wir eine erste erste Sicherung aller VMs, um festzustellen, ob alle
 
 Dadurch wird eine Sicherung aller Ihrer VMs gestartet (und dies kann daher lange dauern). Am Ende sollten Sie in Ihrem Sicherungsdatenspeicher einen Ordner nach VM und in jedem VM-Ordner einen Unterordner nach Datum mit 4 Dateien haben :
 
-![vmware.backup2](images/vmware.backup2.PNG)
+![vmware.backup2](../images/vmware.backup2.PNG)
 
 -   ``*-flat.vmdk`` ⇒ die virtuelle Festplatte Ihrer Maschine
 -   ``*.vmdk`` ⇒ der Deskriptor der Disc

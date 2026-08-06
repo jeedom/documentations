@@ -23,10 +23,10 @@ Il faut notamment :
 Vous avez la possibilité d'initier la procédure de migration de 2 manières :
 
 - En vous dirigeant vers le menu **Réglages → Système → Restauration Image** :     
-![Menu Restauration Image](images/migrateos-smart01.png)
+![Menu Restauration Image](../images/migrateos-smart01.png)
 
 - En y étant invité dans le **centre de mise à jour** lorsque cela sera nécessaire :     
-![Mettre à niveau centre de MAJ](images/migrateos-smart02.png)
+![Mettre à niveau centre de MAJ](../images/migrateos-smart02.png)
 
 ### Étape 1
 
@@ -34,11 +34,11 @@ La première étape de la migration consiste à préparer et vérifier le matér
 
 Une fois la clé USB insérée, vous pouvez cliquer sur la flèche pour lancer le processus :
 
-![Insérer clé USB](images/migrateos-smart03.png)
+![Insérer clé USB](../images/migrateos-smart03.png)
 
 Lorsque les prérequis sont validés, nous pouvons passer à l'étape 2 :
 
-![Clé USB vérifiée](images/migrateos-smart04.png)
+![Clé USB vérifiée](../images/migrateos-smart04.png)
 
 >**INFORMATION**
 >
@@ -50,37 +50,37 @@ La seconde étape va se charger de générer une sauvegarde de votre Jeedom dont
 
 Nous vous recommandons tout de même de vous assurer d'avoir une sauvegarde récente de Jeedom à disposition par ailleurs.
 
-![Sauvegarde de Jeedom](images/migrateos-smart05.png)
+![Sauvegarde de Jeedom](../images/migrateos-smart05.png)
 
 La durée de la phase de sauvegarde sera dépendante de la taille de votre installation et des options de sauvegarde déportée mises en place. Vous avez la possibilité d'accélérer le processus en désactivant l'envoi des sauvegardes Market et/ou Samba au préalable.
 
-![Copie de la sauvegarde sur la clé USB](images/migrateos-smart06.png)
+![Copie de la sauvegarde sur la clé USB](../images/migrateos-smart06.png)
 
 ### Étape 3
 
 La troisième étape va permettre de télécharger l'image contenant la nouvelle version de l'environnement Debian et d'en vérifier la bonne validité après téléchargement :
 
-![Téléchargement de l'image](images/migrateos-smart07.png)
+![Téléchargement de l'image](../images/migrateos-smart07.png)
 
 Cette étape peut durer un certain temps et sera fonction de la vitesse de votre connexion internet ainsi que des performances en lecture/écriture de la clé USB :
 
-![Vérification de l'image](images/migrateos-smart08.png)
+![Vérification de l'image](../images/migrateos-smart08.png)
 
 ### Étape 4
 
 De loin l'étape la plus importante car il s'agit de la migration effective du matériel. Il ne faut surtout pas débrancher la clé USB ou couper l'alimentation électrique de la Smart durant cette phase !
 
-![Migration de la Smart](images/migrateos-smart09.png)
+![Migration de la Smart](../images/migrateos-smart09.png)
 
 Cette étape dure une trentaine de minutes au terme desquelles la box Smart va redémarrer. Ce premier redémarrage est susceptible de durer un certain temps :
 
-![Redémarrage de la Smart](images/migrateos-smart10.png)
+![Redémarrage de la Smart](../images/migrateos-smart10.png)
 
 ### Finalisation de la migration
 
 A l'issue du processus de migration, la box Smart est maintenant sur un environnement à jour mais avec un Jeedom vierge. La finalisation de la procédure va donc consister soit à repartir d'une installation vierge soit à restaurer la sauvegarde générée lors de la première étape :
 
-![Finalisation migration](images/migrateos-smart11.png)
+![Finalisation migration](../images/migrateos-smart11.png)
 
 >**IMPORTANT**
 >

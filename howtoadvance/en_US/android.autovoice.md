@@ -18,24 +18,24 @@ We will use a Tasker profile on state. This will be a voice recognition from Aut
 
 We add a new profile with a **State** as a trigger.
 
-![android.autovoice1](images/android.autovoice1.png)
+![android.autovoice1](../images/android.autovoice1.png)
 
 We select **Plugin** on the first screen.
 
-![android.autovoice2](images/android.autovoice2.png)
+![android.autovoice2](../images/android.autovoice2.png)
 
 In plugin type, we select **AutoVoice**.
 
-![android.autovoice3](images/android.autovoice3.png)
+![android.autovoice3](../images/android.autovoice3.png)
 
 In the submenu **AutoVoice**, We select **Recognized**.
 
-![android.autovoice4](images/android.autovoice4.png)
+![android.autovoice4](../images/android.autovoice4.png)
 
 You can save the default configuration, unless you want to
 specify keywords or other parameters.
 
-![android.autovoice5](images/android.autovoice5.png)
+![android.autovoice5](../images/android.autovoice5.png)
 
 We can give the profile a name like "Jeedom Interactions" and the backup will be made after the link with a task.
 
@@ -43,19 +43,19 @@ We can give the profile a name like "Jeedom Interactions" and the backup will be
 
 We add a **new task** to the newly created profile. For example, it could be called "Jeedom API".
 
-![android.autovoice6](images/android.autovoice6.png)
+![android.autovoice6](../images/android.autovoice6.png)
 
 The task will finally group 2 actions : **API call** and **say back**.
 
-![android.autovoice7](images/android.autovoice7.png)
+![android.autovoice7](../images/android.autovoice7.png)
 
 First we will add a type action **Network**.
 
-![android.autovoice8](images/android.autovoice8.png)
+![android.autovoice8](../images/android.autovoice8.png)
 
 Then we select **Get HTTP**.
 
-![android.autovoice9](images/android.autovoice9.png)
+![android.autovoice9](../images/android.autovoice9.png)
 
 Here we will fill in with Jeedom information. Here is the information to enter :
 
@@ -64,15 +64,15 @@ Here we will fill in with Jeedom information. Here is the information to enter :
 
 Do not forget to put your API key instead of the chain "your key" . We must leave ``%avcommonfilter`` at the end, it will be replaced by the return of Autovoice.
 
-![android.autovoice10](images/android.autovoice10.png)
+![android.autovoice10](../images/android.autovoice10.png)
 
 Add a type action **Say**. To do this, filter the actions by putting "say" at the magnifying glass.
 
-![android.autovoice11](images/android.autovoice11.png)
+![android.autovoice11](../images/android.autovoice11.png)
 
 And we go back ``%HTTPD`` in the text field.
 
-![android.autovoice12](images/android.autovoice12.png)
+![android.autovoice12](../images/android.autovoice12.png)
 
 It's finish. On text recognition by AutoVoice, Jeedom will be called and you will have the response configured in the interactions which will be spoken by your phone. Don't forget to configure Jeedom interactions and you can ask it whatever you want. From "what is the temperature in the living room" to "turn on the living room light".
 

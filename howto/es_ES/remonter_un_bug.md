@@ -26,11 +26,11 @@ Pero como realmente queremos ayudarlo, aquí hay algunas pistas para brindarnos 
 - Tiene un error "500" o "\ {\ {" en Jeedom : en este caso, coloque directamente el archivo http.error (puede encontrarlo rápidamente en Análisis -> Registros), sin eso, no podemos saber de dónde viene el problema (de nuevo, no hay luz de advertencia en libertad o entre desarrolladores externos para el momento !^^)
 - Tiene un error de JavaScript (panel de advertencia en la parte superior derecha) o cuando hace F12, entonces consuela una línea roja. En este caso, comience por darnos el mensaje de error completo en cuestión. Desafortunadamente, en la mayoría de los casos, este mensaje de error a veces es un poco vago, por sí solo no permite identificar el problema encontrado. Entonces debe hacer F12 (en el navegador, en la pestaña Jeedom donde tiene problemas). Luego haga clic en "consola", luego intente reproducir el problema encontrado (comience por actualizar la página y, si es necesario, repita las mismas acciones)). Normalmente recibirá el mensaje de error nuevamente, pero esta vez deberá hacer clic al final de la línea (puede ser como en la captura de pantalla siguiente o en el formulario VMXXX.js) :
 
-![remonter_un_bug001](images/remonter_un_bug001.png)
+![remonter_un_bug001](../images/remonter_un_bug001.png)
 
 Luego tome una captura de pantalla de lo que se mostrará, en particular la línea roja :
 
-![remonter_un_bug002](images/remonter_un_bug002.png)
+![remonter_un_bug002](../images/remonter_un_bug002.png)
 
 Aquí, si sigues todo esto bien, deberías tener respuestas a tu problema mucho más rápido y mucho más preciso y tal vez incluso permitir que la persona que te ayudó a ayudar a otra persona sea más rápido.
 

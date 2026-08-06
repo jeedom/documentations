@@ -62,7 +62,7 @@ En `master` *(stable)* ou `release`, chaque nouvelle version entraine un changem
 
 The **journal des modifications** *(ou changelog)* offre un aperçu des changements apportés par chaque version de Jeedom.
 
-Seules les versions `master` *(stable)* et `release` *(prochaine stable)* garantissent la présence d'un [changelog détaillé et à jour](../core/#VERSION#/changelog){:target="_blank"}.
+Seules les versions `master` *(stable)* et `release` *(prochaine stable)* garantissent la présence d'un [changelog détaillé et à jour](/core/changelog){:target="_blank"}.
 
 En `develop`, les intégrations étant continues, le journal des modifications n'est pas encore généré à cette étape. Pour prendre connaissance des changements apportés depuis la dernière version stable, il faut se référer aux [notes de version](https://github.com/jeedom/core/blob/develop/docs/release-notes.md){:target="_blank"} qui listent les *Pull Requests* validées sur cette branche.
 

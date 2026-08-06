@@ -26,11 +26,11 @@ But as we really want to help you, here are some clues to give us some valuable 
 - You have a "500" error or "\ {\ {" on Jeedom : in this case, directly put the http file.error (you can find it quickly in Analysis -> Logs), without that, we cannot know where the problem comes from (again, no warning light at jeedom or among third-party developers for the moment !^^)
 - You have a javascript error (warning panel at the top right) or when you do F12 then console a red line. In this case, start by giving us the full error message in question. Unfortunately, in the majority of cases this error message being sometimes a little vague, does not by itself allow to identify the problem encountered. So you have to do F12 (in the browser, on the Jeedom tab where you are having trouble). Then click on "console", then try to reproduce the problem encountered (start by refreshing the page, and if necessary, repeat the same actions). You will normally get the error message again but this time you will have to click at the end of the line (it can be either as in the screenshot below or in the form VMXXX.js) :
 
-![remonter_un_bug001](images/remonter_un_bug001.png)
+![remonter_un_bug001](../images/remonter_un_bug001.png)
 
 Then take a screenshot of what will be displayed, in particular the red line :
 
-![remonter_un_bug002](images/remonter_un_bug002.png)
+![remonter_un_bug002](../images/remonter_un_bug002.png)
 
 Here if you follow all this well you should have answers to your problem much faster and much more accurate and maybe even allow the person who helped you to help another person faster.
 

@@ -14,7 +14,7 @@ Filezilla ist freie Software und auf allen Plattformen verfügbar. Sie können D
 
 Um eine Verbindung zu Ihrer Box herzustellen, füllen Sie einfach die Informationsfelder oben im Filezilla-Fenster aus :
 
-![restore filezilla01](images/restore-filezilla01.jpg)
+![restore filezilla01](../images/restore-filezilla01.jpg)
 
 -   Host : Jeedom IP-Adresse (``sftp://`` wird automatisch hinzugefügt)
 -   Login : ``jeedom``
@@ -34,10 +34,10 @@ Sobald die Verbindung hergestellt ist, muss das Sicherungsverzeichnis von Jeedom
 
 Der Pfad wird im Abschnitt "Remote-Standort" angezeigt.
 
-![restore filezilla02](images/restore-filezilla02.jpg)
+![restore filezilla02](../images/restore-filezilla02.jpg)
 
 ## Backup herunterladen
 
 Wenn Sie in der Liste der Sicherungen mit der rechten Maustaste klicken, können Sie den Download starten.
 
-![restore filezilla03](images/restore-filezilla03.jpg)
+![restore filezilla03](../images/restore-filezilla03.jpg)

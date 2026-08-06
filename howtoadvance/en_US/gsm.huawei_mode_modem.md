@@ -10,13 +10,13 @@ In 90% of cases it is not necessary to force the GSM keys in GSM mode only (inst
 
 Once the key is connected to a Windows 10 PC you must have a new CD-ROM drive. You have to double-click on it and install the proposed software (there is nothing to change just do next all along).
 
-![gsmonly](images/gsmonly.PNG)
+![gsmonly](../images/gsmonly.PNG)
 
 # COM port recovery
 
 Then you have to retrieve the communication port number. Go to the "Start" menu and search for "Device Manager", launch it then unfold the "Ports (COM and LPT)" section, you should have an item containing "HUAWEI", you must then just remember the number of the COM port :
 
-![gsmonly2](images/gsmonly2.PNG)
+![gsmonly2](../images/gsmonly2.PNG)
 
 # Putty Download
 
@@ -26,7 +26,7 @@ Then download putty [here](https://the.earth.li/~sgtatham/putty/latest/x86/putty
 
 Once launched configure putty like this (by putting your COM port number to yourself, see step above) :
 
-![gsmonly3](images/gsmonly3.PNG)
+![gsmonly3](../images/gsmonly3.PNG)
 
 A black window will appear (from time to time there may be a message "boot ...", this is normal, it means that you are well connected to the GSM key). In this window you have to type then press the "Enter" key" :
 

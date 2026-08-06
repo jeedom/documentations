@@ -26,24 +26,24 @@ Le Core comprend entre autres :
 
 *Les équipements, comprenant des actionneurs ou des capteurs, sont organisés par objets. Les objets peuvent, par exemple, représenter des pièces physiques*.
 
-[Synthèse](../core/#VERSION#/overview)
+[Synthèse](/core/overview)
 
-![Synthèse](images/doc-presentation-synthese.jpg)
+![Synthèse](../images/doc-presentation-synthese.jpg)
 
-[Dashboard](../core/#VERSION#/dashboard)
+[Dashboard](/core/dashboard)
 
-![Dashboard](images/doc-presentation-dashboard.jpg)
+![Dashboard](../images/doc-presentation-dashboard.jpg)
 
 
 ## Historiques
 
 *Toutes les informations sont historisables (courbes de température, consommations, ouvertures de porte, etc), et accessibles dans Analyse → Historique ou depuis les tuiles du Dashboard.*
 
-[Historique](../core/#VERSION#/history)
+[Historique](/core/history)
 
-[Timeline](../core/#VERSION#/timeline)
+[Timeline](/core/timeline)
 
-![Page Historique](images/doc-presentation-historique.jpg)
+![Page Historique](../images/doc-presentation-historique.jpg)
 
 ## Scénarios
 
@@ -51,25 +51,25 @@ Le Core comprend entre autres :
 
 [Mon premier scénario](/concept/#tocAnchor-4)
 
-![Page Scénario](images/doc-presentation-scenario.jpg)
+![Page Scénario](../images/doc-presentation-scenario.jpg)
 
 ## Création de widgets
 
 *Jeedom propose un moteur de création de Widgets pour les commandes des équipements. Vous pouvez ainsi créer vos propres Widgets, en plus des Widgets de base. La création de Widgets est aussi possible directement à partir de code, pour les utilisateurs avancés.*
 
-![Widgets](images/doc-presentation-widgets.jpg)
+![Widgets](../images/doc-presentation-widgets.jpg)
 
 ## Interactions
 
 *Le système d’interaction dans Jeedom permet de réaliser des actions à partir de commandes textes ou vocales.*
 
-![Page Interaction](images/doc-presentation-interaction.jpg)
+![Page Interaction](../images/doc-presentation-interaction.jpg)
 
 ## Centre de Mise à jour
 
 *Le centre de mise à jour permet de mettre à jour toutes les fonctionnalités de Jeedom, incluant le logiciel de base (core) et ses plugins. D’autres fonctions de gestion des extensions sont disponibles (supprimer, réinstaller, vérifier, etc.).*
 
-![Page Sauvegarde](images/doc-presentation-update.jpg)
+![Page Sauvegarde](../images/doc-presentation-update.jpg)
 
 
 # Market
@@ -85,6 +85,6 @@ Autour de ce noyau viennent se greffer des plugins, qui peuvent être de toutes 
 
 Ces plugins peuvent être installés depuis le Market et permettent d’étendre les possibilités de Jeedom.
 
-![Page Market](images/doc-presentation-market.jpg)
+![Page Market](../images/doc-presentation-market.jpg)
 
 Jeedom permet à n’importe quel plugin de discuter avec un autre sur une base normalisée. Cela permet par exemple d’utiliser les plugins thermostat ou alarme avec n’importe quel protocole domotique ou même un plugin IP ou objet communicant…

@@ -88,7 +88,7 @@ La syntaxe est la suivante pour proposer 2 paramètres spécifiques par objet :
 
 L'utilisateur pourra ainsi définir ces 2 paramètres pour chaque objet dans le menu de configuration des objets (menu Outils / Objets).
 Ici un texte libre, et un numérique.
-![Attribut Objet](images/SpecialAttributeObject.png)
+![Attribut Objet](../images/SpecialAttributeObject.png)
 
 ### Attributs User
 
@@ -101,7 +101,7 @@ Ici un texte libre, et un numérique.
 ```
 
 Ici, cet attribut permet à chaque utilisateur de définir un paramètre qui lui est propre (dans le menu Réglages / Préférences)
-![Attribut Utilisateur](images/SpecialAttributeUser.png)
+![Attribut Utilisateur](../images/SpecialAttributeUser.png)
 
 ### Attributs EqLogic
 

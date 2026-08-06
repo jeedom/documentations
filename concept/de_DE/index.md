@@ -14,29 +14,29 @@ Mit Jeedom können viele Geräte miteinander verbunden werden, sei es auf Basis 
 
 Sie können diese Geräte auf verschiedene Arten anzeigen :
 
-- Auf dem [Armaturenbrett](/de_DE/core/4.5/dashboard)
-- Auf dem [Synthese](/de_DE/core/4.5/overview) (v4.5)
-- Auf einem [Ansicht](/de_DE/core/4.5/view)
-- Auf einem [Design](/de_DE/core/4.5/design)
-- Auf einem [3D Design](/de_DE/core/4.5/design3d)
+- Auf dem [Armaturenbrett](/core/dashboard)
+- Auf dem [Synthese](/core/overview) (v4.5)
+- Auf einem [Ansicht](/core/view)
+- Auf einem [Design](/core/design)
+- Auf einem [3D Design](/core/design3d)
 
-![Synthese](images/concept-synthese.jpg)
+![Synthese](../images/concept-synthese.jpg)
 
 Diese können im Browser auf einem Desktop-Computer, auf einem Smartphone mit der WebApp oder der mobilen Anwendung angezeigt werden : [Mobil Version](/de_DE/mobile/index)
 
 ## Objekte
 
-Um Ihre Geräte zu organisieren, können Sie erstellen [Objekte](/de_DE/core/4.5/object).
+Um Ihre Geräte zu organisieren, können Sie erstellen [Objekte](/core/object).
 
 Diese Objekte können Teile des Hauses darstellen (Wohnzimmer, Schlafzimmer, Werkstatt). Jedes Objekt kann ein übergeordnetes Objekt haben. Diese Hierarchie wird für die Anzeige im Dashboard verwendet. Sie können beispielsweise ein Objekt haben **Haus**, dann Objekte **Wohnzimmer** und **Schlafzimmer** Objekt Kinder **Haus**. Einmal im Dashboard, das Objekt **Haus** zeigt auch unten seine untergeordneten Objekte an.
 
-![Objet](images/concept-objet.jpg)
+![Objet](../images/concept-objet.jpg)
 
 > **Beratung**
 >
-> IN **Einstellungen → Einstellungen**, Sie können definieren, welches Objekt im Dashboard ankommen soll. [Vorlieben](/de_DE/core/4.5/profils)
+> IN **Einstellungen → Einstellungen**, Sie können definieren, welches Objekt im Dashboard ankommen soll. [Vorlieben](/core/profils)
 
-![Armaturenbrett](images/concept-dashboard.jpg)
+![Armaturenbrett](../images/concept-dashboard.jpg)
 
 ## Ausrüstung und ihre Kontrollen
 
@@ -50,20 +50,20 @@ Für die Interaktion mit unserer Hausautomation benötigen Sie Befehle ! Es gibt
 
 - Bestellungen *Info* :
 Diese Befehle speichern Informationen von Sensoren. Zum Beispiel die Temperatur einer Sonde, die Bewegung eines Anwesenheitssensors usw.
-Diese Befehle können protokolliert werden, um diese Informationen über die Zeit in Form einer Kurve zu erhalten : [Chronik](/de_DE/core/4.5/history)
+Diese Befehle können protokolliert werden, um diese Informationen über die Zeit in Form einer Kurve zu erhalten : [Chronik](/core/history)
 
-Diese Befehle können auch zum Auslösen verwendet werden [Szenarien](/de_DE/core/4.5/scenario) um Aktionen basierend auf den von Ihren Sensoren gesendeten Informationen zu automatisieren. Ein Bewegungssensor erkennt beispielsweise eine Anwesenheit, die ein Szenario auslöst, das das Licht einschaltet.
+Diese Befehle können auch zum Auslösen verwendet werden [Szenarien](/core/scenario) um Aktionen basierend auf den von Ihren Sensoren gesendeten Informationen zu automatisieren. Ein Bewegungssensor erkennt beispielsweise eine Anwesenheit, die ein Szenario auslöst, das das Licht einschaltet.
 
 - Bestellungen *Aktion* :
 Mit diesen Befehlen können Sie Ihre Aktuatoren steuern. Zum Beispiel Befehle ````on```` und ````off```` Mit einer kontrollierten Steckdose können Sie sie ein- und ausschalten.
 
 Aktionsbefehle sind normalerweise mit Info-Befehlen verknüpft. Hier hat unsere Einstellung zwei Aktionen ````on```` und ````off````, in der Regel im Zusammenhang mit Informationen **Zustand**.
 
-![Befehle](images/concept-commands.jpg)
+![Befehle](../images/concept-commands.jpg)
 
 Diese beiden Arten von Befehlen werden in Form von Geräten angehängt. Das Gerät verfügt daher über Info- und / oder Aktionsbefehle. Dieses Gerät verfügt über ein übergeordnetes Objekt, mit dem Sie es an der gewünschten Stelle anzeigen können.
 
-Jeder Befehl kann auch einen sogenannten generischen Typ haben, der es Jeedom und einigen Plugins ermöglicht, den Befehlstyp (Status einer Steckdose, Taste eines Lichts usw). [**Werkzeuge → Gerätetypen**](/de_DE/core/4.5/types).
+Jeder Befehl kann auch einen sogenannten generischen Typ haben, der es Jeedom und einigen Plugins ermöglicht, den Befehlstyp (Status einer Steckdose, Taste eines Lichts usw). [**Werkzeuge → Gerätetypen**](/core/types).
 
 ### Équipement
 
@@ -72,13 +72,13 @@ Jeder Befehl kann auch einen sogenannten generischen Typ haben, der es Jeedom un
 
 Diese Geräte werden von Plugins erstellt. Mit dem Z-Wave-Plugin können Sie beispielsweise Ihren Z-Waze-Sockel einbinden, wodurch ein Gerät mit seinen Steuerelementen erstellt wird, das Sie benennen und mit einem Objekt verknüpfen können.
 
-In Bezug auf die Anzeige wird jede Bestellung mit einem Widget angezeigt. Der Core bietet die wichtigsten Widgets sowie ein Tool zum Erstellen dieser Widgets (V4)) : [Widgets](/de_DE/core/4.5/widgets).
+In Bezug auf die Anzeige wird jede Bestellung mit einem Widget angezeigt. Der Core bietet die wichtigsten Widgets sowie ein Tool zum Erstellen dieser Widgets (V4)) : [Widgets](/core/widgets).
 
 Diese Befehle sind in einer Kachel zusammengefasst, die Ihrer Ausrüstung entspricht. Und diese Kachel wird daher im Dashboard in dem Objekt angezeigt, das Sie ihr zugewiesen haben.
 
-![Befehle](images/concept-equipment.jpg)
+![Befehle](../images/concept-equipment.jpg)
 
-Unabhängig von Ihrem Gerät wird es daher in Form eines Geräts aus a erstellt [Plugin](/de_DE/core/4.5/plugin).
+Unabhängig von Ihrem Gerät wird es daher in Form eines Geräts aus a erstellt [Plugin](/core/plugin).
 
 Dieses Gerät verfügt über eigene Befehle *Info* oder *Aktion*. Diese Befehle werden als Widgets angezeigt, die die Gerätekachel in ihrem übergeordneten Objekt bilden.
 
@@ -90,14 +90,14 @@ Der Vorteil der Heimautomation über die zentrale und ferngesteuerte Steuerung u
 
 Ein Szenario besteht aus einer Reihe definierter Aktionen, die zu bestimmten Tageszeiten ausgeführt werden. Die Ausführung kann geplant werden (jeden Montag zu einer bestimmten Zeit) oder durch ein Ereignis verursacht werden. Wie oben gezeigt, kann dieses Ereignis beispielsweise unser Info-Befehl sein *Präsenz* ein Bewegungsmelder nach einer Erkennung.
 
-Das Ziel hier ist nicht, erschöpfend zu sein, sondern die Szenarien anhand einfacher Beispiele zu entdecken. Das [Dokumentation des Benutzerhandbuchs](/de_DE/core/4.5/scenario) ist viel vollständiger.
+Das Ziel hier ist nicht, erschöpfend zu sein, sondern die Szenarien anhand einfacher Beispiele zu entdecken. Das [Dokumentation des Benutzerhandbuchs](/core/scenario) ist viel vollständiger.
 
 
 ### Licht bei Bewegungserkennung.
 
 Angenommen, wir haben ein kontrolliertes Licht und einen Bewegungsmelder im Raum.
 
-![1stScenario](images/1stScenario.gif)
+![1stScenario](../images/1stScenario.gif)
 
 - Gehe zu **Werkzeuge → Szenarien**
 - Klicken Sie auf *Hinzufügen* Geben Sie dann dem neuen Szenario einen Namen.

@@ -11,7 +11,7 @@ Es sind zwei Arten von Zusammenfassungen zu unterscheiden :
 - Die Gesamtzusammenfassung : Dies ist der Satz von Zusammenfassungssymbolen, die in der Jeedom-Leiste angezeigt werden.
 - Themenzusammenfassungen : Für jedes Objekt gibt es eine eigene Zusammenfassung, die in der Zusammenfassung im Objekt und im Dashboard rechts neben dem Objektnamen angezeigt wird.
 
-![Entdeckung von Zusammenfassungen](images/summary-intro.gif)
+![Entdeckung von Zusammenfassungen](../images/summary-intro.gif)
 
 Die globale Zusammenfassung kann nicht direkt eingestellt werden. Es ist ein Konzentrat von Zusammenfassungen anderer Objekte. Wenn zum Beispiel ein Licht in der Küche und zwei im Wohnzimmer leuchten, zeigt die Gesamtübersicht drei Lichter an. All dies ist natürlich konfigurierbar, wie wir weiter unten sehen werden.
 
@@ -27,7 +27,7 @@ Bevor die Konfiguration eines Objekts angezeigt wird, um eine Zusammenfassung ko
 
 Gehe zu **Einstellungen → System → Konfiguration** dann auf der Registerkarte **Zusammenfassungen**.
 
-{% include lightbox.html src="images/summary-admin.jpg" data="settings" title="Zusammenfassungen konfigurieren" imgstyle="width:auto;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/summary-admin.jpg" data="settings" title="Zusammenfassungen konfigurieren" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 Hier haben Sie die Liste aller Zusammenfassungen, die Sie für jedes Objekt konfigurieren können. Hier können wir die Zusammenfassungen konfigurieren *Gegenwart* (wenn man genau hinschaut, sieht man in der Gesamtzusammenfassung, dass eine Person zu Hause ist), *Alarm*, *Bewegung*, *Heizung* etc. Et bien sûr, vous pouvez supprimer et ajouter des types de résumé ici afin de les avoir à disposition ensuite sur les objets.
 
@@ -68,7 +68,7 @@ Sobald die Liste der Zusammenfassungen in der Jeedom-Konfiguration verfügbar is
 
 In **Werkzeuge → Objekte**, hier auf dem Objekt Salon :
 
-{% include lightbox.html src="images/summary-object-1.jpg" data="settings" title="Abstrakt objet" imgstyle="width:auto;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/summary-object-1.jpg" data="settings" title="Abstrakt objet" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 Hier haben wir zwei Teile :
 
@@ -112,7 +112,7 @@ Für jedes Objekt mit Befehlen in der Zusammenfassung *Hell*, Sie haben jetzt ei
 
 Indem Sie die virtuelle Show öffnen und auf die Registerkarte gehen **Aufträge**, hier ist was wir finden :
 
-{% include lightbox.html src="images/summary-virtual.jpg" data="settings" title="Virtuel résumé" imgstyle="width:auto;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/summary-virtual.jpg" data="settings" title="Virtuel résumé" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 - Eine Bestellung **Die Info** *Hell* : Hier finden Sie Informationen zur Anzahl der eingeschalteten Lichter im Salon, da wir uns in der virtuellen Zusammenfassung des Salons befinden.
 - Eine Bestellung **Handlung** *Lichttaste auf Licht* : Durch Auslösen dieser Aktion schalten wir alle Zusammenfassungsbefehle ein **Hell**, hier vom Salonobjekt.
@@ -135,6 +135,6 @@ Wie bereits erwähnt, haben Summary Virtuals nicht nur die *Die Info* Zusammenfa
 
 Wenn Sie beispielsweise Summary Virtuals für die Zusammenfassung erstellt haben *Hell*, Sie können Strg + Klicken Sie auf das Symbol dieser Zusammenfassung. Anschließend erscheint ein Popup mit den verschiedenen Aktionen, mit denen Sie beispielsweise alle Lichter im Haus auf einmal ausschalten können !
 
-{% include lightbox.html src="images/summary-virtual-actions.jpg" data="settings" title="Aktionen für Zusammenfassungen" imgstyle="width:auto;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="../images/summary-virtual-actions.jpg" data="settings" title="Aktionen für Zusammenfassungen" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 Wie wir gesehen haben, stellen die Zusammenfassungen ein weites Thema dar, das zu Beginn des Lebens eines Jeedomianers nicht immer ganz einfach zu erfassen, aber gut zu wissen ist !

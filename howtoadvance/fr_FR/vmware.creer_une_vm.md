@@ -15,7 +15,7 @@ A noter aussi que l’interface web est toujours en cours de mise en place chez 
 
 Allez sur IP\_ESXI/ui avec votre navigateur internet, vous devez avoir :
 
-![vmware.createvm3](images/vmware.createvm3.PNG)
+![vmware.createvm3](../images/vmware.createvm3.PNG)
 
 > **Note**
 >
@@ -23,7 +23,7 @@ Allez sur IP\_ESXI/ui avec votre navigateur internet, vous devez avoir :
 
 Entrez vos identifiants de connexion à l’ESXI :
 
-![vmware.createvm4](images/vmware.createvm4.PNG)
+![vmware.createvm4](../images/vmware.createvm4.PNG)
 
 Comme vous pouvez le voir l’interface est plutôt sympa et permet de faire pas mal de choses, je ne rentrerai pas dans les détails mais vous pouvez déja à partir de cette écran :
 
@@ -39,53 +39,53 @@ Après avoir téléchargé votre iso d’installation ([ici](https://cdimage.deb
 
 Pour cela cliquez sur datastore :
 
-![vmware.createvm18](images/vmware.createvm18.PNG)
+![vmware.createvm18](../images/vmware.createvm18.PNG)
 
 Sélectionnez votre datastore (en général il s’appelle datastore1) :
 
-![vmware.createvm19](images/vmware.createvm19.PNG)
+![vmware.createvm19](../images/vmware.createvm19.PNG)
 
 Cliquez sur "Navigateur de banque de données" :
 
-![vmware.createvm20](images/vmware.createvm20.PNG)
+![vmware.createvm20](../images/vmware.createvm20.PNG)
 
 Cliquez sur "Télécharger" (le premier) :
 
-![vmware.createvm21](images/vmware.createvm21.PNG)
+![vmware.createvm21](../images/vmware.createvm21.PNG)
 
 Sélectionnez l’iso précédement téléchargé et validez :
 
-![vmware.createvm22](images/vmware.createvm22.PNG)
+![vmware.createvm22](../images/vmware.createvm22.PNG)
 
 Vous pouvez ensuite suivre l’avancement de l’envoi :
 
-![vmware.createvm23](images/vmware.createvm23.PNG)
+![vmware.createvm23](../images/vmware.createvm23.PNG)
 
 Une fois fini vous pouvez voir que votre iso est bien arrivé sur le datastore :
 
-![vmware.createvm24](images/vmware.createvm24.PNG)
+![vmware.createvm24](../images/vmware.createvm24.PNG)
 
 # Création de votre premiere VM
 
 Cliquez sur le bouton "Créer/Enregistrer une VM" :
 
-![vmware.createvm5](images/vmware.createvm5.PNG)
+![vmware.createvm5](../images/vmware.createvm5.PNG)
 
 Cliquez sur suivant :
 
-![vmware.createvm6](images/vmware.createvm6.PNG)
+![vmware.createvm6](../images/vmware.createvm6.PNG)
 
 Donnez ensuite un nom à votre machine et précisez son sytème d’exploitation (ici on va installer une Debian) :
 
-![vmware.createvm7](images/vmware.createvm7.PNG)
+![vmware.createvm7](../images/vmware.createvm7.PNG)
 
 Indiquez le datastore cible :
 
-![vmware.createvm8](images/vmware.createvm8.PNG)
+![vmware.createvm8](../images/vmware.createvm8.PNG)
 
 Ici vous allez pouvoir configurer les paramètres de votre machine (disque dure, cpu, mémoire…​) :
 
-![vmware.createvm9](images/vmware.createvm9.PNG)
+![vmware.createvm9](../images/vmware.createvm9.PNG)
 
 > **Note**
 >
@@ -93,35 +93,35 @@ Ici vous allez pouvoir configurer les paramètres de votre machine (disque dure,
 
 Au niveau du lecteur CD/DVD, selectionnez "Fichier ISO banque de données" :
 
-![vmware.createvm10](images/vmware.createvm10.PNG)
+![vmware.createvm10](../images/vmware.createvm10.PNG)
 
 Sélectionner ensuite l’emplacement où est stocké votre ISO (voir chapitre précedent) et validez :
 
-![vmware.createvm11](images/vmware.createvm11.PNG)
+![vmware.createvm11](../images/vmware.createvm11.PNG)
 
 Faites ensuite suivant :
 
-![vmware.createvm12](images/vmware.createvm12.PNG)
+![vmware.createvm12](../images/vmware.createvm12.PNG)
 
 Vous avez ensuite un résumé de votre configuration, cliquez sur "Terminer" :
 
-![vmware.createvm13](images/vmware.createvm13.PNG)
+![vmware.createvm13](../images/vmware.createvm13.PNG)
 
 Un message en haut va vous indiquer que c’est bon, cliquez ensuite sur "Machines virtuelles" :
 
-![vmware.createvm14](images/vmware.createvm14.PNG)
+![vmware.createvm14](../images/vmware.createvm14.PNG)
 
 Vous devez voir votre machine virtuelle (si ce n’est pas le cas cliquez sur "Actualiser") cliquez dessus :
 
-![vmware.createvm15](images/vmware.createvm15.PNG)
+![vmware.createvm15](../images/vmware.createvm15.PNG)
 
 Vous devez avoir une page de ce type, cliquez sur le bouton lecture :
 
-![vmware.createvm16](images/vmware.createvm16.PNG)
+![vmware.createvm16](../images/vmware.createvm16.PNG)
 
 Votre machine va se lancer et vous allez pouvoir faire l’installation de votre OS :
 
-![vmware.createvm17](images/vmware.createvm17.PNG)
+![vmware.createvm17](../images/vmware.createvm17.PNG)
 
 > **Important**
 >
@@ -143,11 +143,11 @@ C’est un besoin assez rare, mais j’ai dû m’en servir pour Jeedom, en effe
 
 Allez sur votre VM puis faites "Modifier les paramètres" :
 
-![vmware.createvm25](images/vmware.createvm25.PNG)
+![vmware.createvm25](../images/vmware.createvm25.PNG)
 
 Cliquez sur "Ajouter un autre périphérique" puis controleur USB :
 
-![vmware.createvm26](images/vmware.createvm26.PNG)
+![vmware.createvm26](../images/vmware.createvm26.PNG)
 
 > **Note**
 >
@@ -155,10 +155,10 @@ Cliquez sur "Ajouter un autre périphérique" puis controleur USB :
 
 Enregistrez, refaites "Modifier les paramètres", puis "Ajouter un autre périphérique" et "USB device" :
 
-![vmware.createvm27](images/vmware.createvm27.PNG)
+![vmware.createvm27](../images/vmware.createvm27.PNG)
 
 Choisissez votre périphérique USB dans la liste déroulante :
 
-![vmware.createvm28](images/vmware.createvm28.PNG)
+![vmware.createvm28](../images/vmware.createvm28.PNG)
 
 Et voilà votre périphérique est branché sur votre VM. A chaque redémarrage il sera automatique rebranché sur la VM et si vous le deconnectez/connectez physiquement alors celui-ci sera rebranché sur votre VM. En d’autres termes l’utilisation est maintenant totalement transparente.

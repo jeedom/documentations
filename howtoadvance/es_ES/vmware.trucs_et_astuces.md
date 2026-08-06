@@ -6,15 +6,15 @@ No es realmente un tutorial aquí, sino más bien una colección de consejos y t
 
 Una vez conectado en la interfaz web ``IP_ESXI/ui`` vaya a "Administrar" :
 
-![vmware.tips](images/vmware.tips.PNG)
+![vmware.tips](../images/vmware.tips.PNG)
 
 Luego en "Licencias" y haga clic en "Asignar una licencia"
 
-![vmware.tips2](images/vmware.tips2.PNG)
+![vmware.tips2](../images/vmware.tips2.PNG)
 
 E ingrese su clave de licencia
 
-![vmware.tips3](images/vmware.tips3.PNG)
+![vmware.tips3](../images/vmware.tips3.PNG)
 
 > **Nota**
 >
@@ -28,19 +28,19 @@ Veremos aquí cómo montar un recurso compartido NFS desde Synology en VMware. E
 
 Debe ir al panel de control, luego "Servicios de archivos" y marcar la casilla "Activar NFS" :
 
-![vmware.tips4](images/vmware.tips4.PNG)
+![vmware.tips4](../images/vmware.tips4.PNG)
 
 Luego debe hacer clic en "Carpeta compartida", luego elegir la carpeta para compartir (aquí Copia de seguridad), hacer clic en modificar y luego "Autorización NFS" y finalmente en crear (aquí ya tengo una, su lista debería estar vacía) :
 
-![vmware.tips5](images/vmware.tips5.PNG)
+![vmware.tips5](../images/vmware.tips5.PNG)
 
 Luego pones la IP de tu ESXi y en "Squash" pones "Mapping of all users on admin" y luego validas :
 
-![vmware.tips6](images/vmware.tips6.PNG)
+![vmware.tips6](../images/vmware.tips6.PNG)
 
 Luego debemos recuperar el camino compartido (aquí ``/volume2/Backup``) :
 
-![vmware.tips7](images/vmware.tips7.PNG)
+![vmware.tips7](../images/vmware.tips7.PNG)
 
 Aquí está terminado en el lado de Synology, ahora cambiaremos al lado de ESXi
 
@@ -48,23 +48,23 @@ Aquí está terminado en el lado de Synology, ahora cambiaremos al lado de ESXi
 
 Vaya a "Almacenamiento" :
 
-![vmware.tips8](images/vmware.tips8.PNG)
+![vmware.tips8](../images/vmware.tips8.PNG)
 
 Luego haga clic en "Nueva base de datos" :
 
-![vmware.tips9](images/vmware.tips9.PNG)
+![vmware.tips9](../images/vmware.tips9.PNG)
 
 Allí selecciona "Montar una base de datos NFS" y luego hace lo siguiente :
 
-![vmware.tips10](images/vmware.tips10.PNG)
+![vmware.tips10](../images/vmware.tips10.PNG)
 
 Ingrese el nombre del almacén de datos para crear (tenga cuidado de evitar espacios y caracteres especiales), coloque la IP de nuestra Synology y coloque la ruta de uso compartido (ver arriba) y finalmente valide :
 
-![vmware.tips11](images/vmware.tips11.PNG)
+![vmware.tips11](../images/vmware.tips11.PNG)
 
 Haga clic en finalizar :
 
-![vmware.tips12](images/vmware.tips12.PNG)
+![vmware.tips12](../images/vmware.tips12.PNG)
 
 Y ahora debería aparecer su nuevo almacén de datos (de lo contrario, haga clic en "Actualizar"").
 
@@ -74,7 +74,7 @@ Agregar este complemento habilita la aceleración de hardware en montajes NFS (p
 
 Para ver si lo tiene, debe conectarse con el cliente grueso (no encontré la información en el cliente web) e ir a configuración → almacenamiento :
 
-![vmware.tips13](images/vmware.tips13.PNG)
+![vmware.tips13](../images/vmware.tips13.PNG)
 
 La implementación es bastante simple, primero debe activar el servicio SSH del ESXi (en la interfaz web debe pasar a la acción ⇒ servicios ⇒ Activar Secure Shell), luego conectarse en SSH arriba (los identificadores son lo mismo que para acceder a la interfaz). Entonces solo tienes que hacer :
 
@@ -82,11 +82,11 @@ La implementación es bastante simple, primero debe activar el servicio SSH del 
 
 Usted debe tener :
 
-![vmware.tips14](images/vmware.tips14.PNG)
+![vmware.tips14](../images/vmware.tips14.PNG)
 
 Luego debe reiniciar ESXi, para verificar que esté bien, luego debe regresar con el cliente grueso a configuración → almacenamiento :
 
-![vmware.tips15](images/vmware.tips15.PNG)
+![vmware.tips15](../images/vmware.tips15.PNG)
 
 # Instalar / actualizar ESXi Embedded Host Client
 
@@ -109,17 +109,17 @@ Esta parte es opcional si no necesita administrar el USB.
 
 Debe ir, con su navegador de Internet, a la IP del ESXi y luego hacer clic en el enlace ``Download vSphere Client for Windows`` :
 
-![vmware.createvm](images/vmware.createvm.PNG)
+![vmware.createvm](../images/vmware.createvm.PNG)
 
 Una vez descargado, solo tiene que iniciar la instalación (voluntariamente paso esta parte porque es suficiente para validar todo).
 
 Luego, inicie VMware vSphere Client, debería tener :
 
-![vmware.createvm1](images/vmware.createvm1.PNG)
+![vmware.createvm1](../images/vmware.createvm1.PNG)
 
 Solo tiene que ingresar la IP de su ESXi, el nombre de usuario y la contraseña y estará conectado a ella :
 
-![vmware.createvm2](images/vmware.createvm2.PNG)
+![vmware.createvm2](../images/vmware.createvm2.PNG)
 
 # Actualización de ESXi
 
@@ -145,15 +145,15 @@ El comando anterior solo actualiza las vibraciones que lo necesitan, pero puede 
 
 Por defecto, ESXi no usa NTP, lo que significa que no está a tiempo y que las máquinas virtuales no están a tiempo, corregirlo es muy simple. Debe pasar de la versión web a Administrar → Sistema → Fecha y hora, allí hace clic en "Cambiar configuración" :
 
-![vmware.tips16](images/vmware.tips16.PNG)
+![vmware.tips16](../images/vmware.tips16.PNG)
 
 Y en el cuadro "Servidor NTP" tienes que poner : ``0.debian.pool.n, 1.debian.pool.n, 2.debian.pool.n, 3.debian.pool.n, time.nist.gov``
 
-![vmware.tips17](images/vmware.tips17.PNG)
+![vmware.tips17](../images/vmware.tips17.PNG)
 
 Luego, en Acciones → Servicio NTP → Estrategia, haga clic en "Iniciar y detener con el host" :
 
-![vmware.tips18](images/vmware.tips18.PNG)
+![vmware.tips18](../images/vmware.tips18.PNG)
 
 Aún en Acciones → Servicio NTP, haga clic en "Iniciar"
 
@@ -174,11 +174,11 @@ Y eso es todo. Un pequeño consejo si tiene un Synology NAS que puede hacer (ten
 
 Luego, en el NAS en el panel de control, luego en el portal de la aplicación y el proxy inverso (atención, es absolutamente necesario DSM 6) :
 
-![vmware.tips19](images/vmware.tips19.PNG)
+![vmware.tips19](../images/vmware.tips19.PNG)
 
 Haga clic en crear y poner :
 
-![vmware.tips20](images/vmware.tips20.PNG)
+![vmware.tips20](../images/vmware.tips20.PNG)
 
 En "Nombre de host" (en el nivel de origen) debe poner el DNS deseado (por ejemplo, monesxi.mondsn.synology.yo) y en "Nombre de host" (en el destino) debe poner la IP del ESXi
 

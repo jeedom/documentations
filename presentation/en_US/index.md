@@ -26,24 +26,24 @@ The Core includes among others :
 
 *Equipment, including actuators or sensors, is organized by objects. Objects can, for example, represent physical rooms*.
 
-[Synthesis](/en_US/core/4.1/overview)
+[Synthesis](/core/overview)
 
-![Synthesis](images/doc-presentation-synthese.jpg)
+![Synthesis](../images/doc-presentation-synthese.jpg)
 
-[Dashboard](/en_US/core/4.1/dashboard)
+[Dashboard](/core/dashboard)
 
-![Dashboard](images/doc-presentation-dashboard.jpg)
+![Dashboard](../images/doc-presentation-dashboard.jpg)
 
 
 ## Historiques
 
 *All the information can be historized (temperature curves, consumption, door openings, etc.), and accessible in Analysis → History or from the Dashboard tiles.*
 
-[History](/en_US/core/4.1/history)
+[History](/core/history)
 
-[Timeline](/en_US/core/4.1/timeline)
+[Timeline](/core/timeline)
 
-![Page History](images/doc-presentation-historique.jpg)
+![Page History](../images/doc-presentation-historique.jpg)
 
 ## Scenarios
 
@@ -51,25 +51,25 @@ The Core includes among others :
 
 [My first scenario](/en_US/concept/#tocAnchor-4)
 
-![Page Scénario](images/doc-presentation-scenario.jpg)
+![Page Scénario](../images/doc-presentation-scenario.jpg)
 
 ## Widget creation
 
 *Jeedom offers a Widget creation engine for equipment commands. You can thus create your own Widgets, in addition to the basic Widgets. Widgets can also be created directly from code, for advanced users.*
 
-![Widgets](images/doc-presentation-widgets.jpg)
+![Widgets](../images/doc-presentation-widgets.jpg)
 
 ## Interactions
 
 *The interaction system in Jeedom allows you to perform actions from text or voice commands.*
 
-![Page Interaction](images/doc-presentation-interaction.jpg)
+![Page Interaction](../images/doc-presentation-interaction.jpg)
 
 ## Update center
 
 *The update center allows you to update all of Jeedom's functionality, including the core software and its plugins. Other extension management functions are available (delete, reinstall, check, etc.).*
 
-![Page Sauvegarde](images/doc-presentation-update.jpg)
+![Page Sauvegarde](../images/doc-presentation-update.jpg)
 
 
 # Market
@@ -85,7 +85,7 @@ Around this core are plugins, which can be of all kinds :
 
 These plugins can be installed from the Market and allow you to extend the possibilities of Jeedom.
 
-![Page Market](images/doc-presentation-market.jpg)
+![Page Market](../images/doc-presentation-market.jpg)
 
 Jeedom allows any plugin to interact with another one a standardized basis. This makes it possible, for example, to use thermostat or alarm plugins with any home automation protocol or even an IP plugin or communicating object
 

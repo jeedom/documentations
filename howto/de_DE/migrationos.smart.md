@@ -23,10 +23,10 @@ Es ist insbesondere notwendig :
 Sie haben die Möglichkeit, den Migrationsvorgang auf zwei Arten zu starten :
 
 - Zum Menü gehen **Einstellungen → System → Image-Wiederherstellung** :     
-![Menu Restauration Image](images/migrateos-smart01.png)
+![Menu Restauration Image](../images/migrateos-smart01.png)
 
 - Durch die Einladung zum **Update Center** wenn nötig :     
-![Mettre à niveau centre de MAJ](images/migrateos-smart02.png)
+![Mettre à niveau centre de MAJ](../images/migrateos-smart02.png)
 
 ### Stufe 1
 
@@ -34,11 +34,11 @@ Der erste Schritt bei der Migration besteht darin, die Hardware vorzubereiten un
 
 Sobald der USB-Stick eingesteckt ist, können Sie auf den Pfeil klicken, um den Vorgang zu starten :
 
-![Insérer clé USB](images/migrateos-smart03.png)
+![Insérer clé USB](../images/migrateos-smart03.png)
 
 Wenn die Voraussetzungen überprüft sind, können wir mit Schritt 2 fortfahren :
 
-![Clé USB vérifiée](images/migrateos-smart04.png)
+![Clé USB vérifiée](../images/migrateos-smart04.png)
 
 >**Informationen**
 >
@@ -50,37 +50,37 @@ Im zweiten Schritt wird ein Backup Ihres Jeedom erstellt, von dem eine Kopie auf
 
 Wir empfehlen weiterhin, dass Sie sicherstellen, dass ein aktuelles Jeedom-Backup an anderer Stelle verfügbar ist.
 
-![Sauvegarde de Jeedom](images/migrateos-smart05.png)
+![Sauvegarde de Jeedom](../images/migrateos-smart05.png)
 
 Die Dauer der Sicherungsphase hängt von der Größe Ihrer Installation und den implementierten Remote-Sicherungsoptionen ab. Sie haben die Möglichkeit, den Prozess zu beschleunigen, indem Sie das Senden von Market- und / oder Samba-Backups im Voraus deaktivieren.
 
-![Copie de la sauvegarde auf dem USB-Stick](images/migrateos-smart06.png)
+![Copie de la sauvegarde auf dem USB-Stick](../images/migrateos-smart06.png)
 
 ### Stufe 3
 
 Im dritten Schritt können Sie das Image mit der neuen Version der Debian-Umgebung herunterladen und nach dem Herunterladen die Gültigkeit überprüfen :
 
-![Téléchargement de l'image](images/migrateos-smart07.png)
+![Téléchargement de l'image](../images/migrateos-smart07.png)
 
 Dieser Schritt kann eine Weile dauern und hängt von der Geschwindigkeit Ihrer Internetverbindung sowie der Lese- / Schreibleistung des USB-Sticks ab :
 
-![Vérification de l'image](images/migrateos-smart08.png)
+![Vérification de l'image](../images/migrateos-smart08.png)
 
 ### Schritt 4
 
 Bei weitem der wichtigste Schritt, da es sich um die eigentliche Migration der Hardware handelt. Ziehen Sie in dieser Phase vor allem nicht den USB-Stick ab und unterbrechen Sie nicht die Stromversorgung des Smart !
 
-![Migration de la Smart](images/migrateos-smart09.png)
+![Migration de la Smart](../images/migrateos-smart09.png)
 
 Dieser Schritt dauert ungefähr 30 Minuten. Danach wird die Smart Box neu gestartet. Dieser erste Neustart wird wahrscheinlich einige Zeit dauern :
 
-![Redémarrage de la Smart](images/migrateos-smart10.png)
+![Redémarrage de la Smart](../images/migrateos-smart10.png)
 
 ### Abschluss der Migration
 
 Am Ende des Migrationsprozesses befindet sich die Smart Box nun in einer aktuellen Umgebung, jedoch mit einer jungfräulichen Jeedom. Der Abschluss des Verfahrens besteht daher entweder darin, von einer Neuinstallation auszugehen oder die im ersten Schritt generierte Sicherung wiederherzustellen :
 
-![Finalisation migration](images/migrateos-smart11.png)
+![Finalisation migration](../images/migrateos-smart11.png)
 
 >**Wichtig**
 >

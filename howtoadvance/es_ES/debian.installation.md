@@ -14,7 +14,7 @@ Debe grabar el ISO en un CD y colocar el CD en la máquina (pero hoy en día los
 
 Para la llave USB de arranque, descargue rufus [el](http://rufus.akeo.ie/downloads/rufus-2.9.exe), ejecutarlo y configurarlo así :
 
-![debian.installation](images/debian.installation.PNG)
+![debian.installation](../images/debian.installation.PNG)
 
 > **Nota**
 >
@@ -30,103 +30,103 @@ La manipulación es bastante simple, crea una nueva máquina virtual, la conecta
 
 Presione enter para comenzar la instalación :
 
-![debian.installation1](images/debian.installation1.PNG)
+![debian.installation1](../images/debian.installation1.PNG)
 
 Elija "Francés" y confirme con la tecla Intro
 
-![debian.installation2](images/debian.installation2.PNG)
+![debian.installation2](../images/debian.installation2.PNG)
 
 Aquí tienes que elegir "francés")
 
-![debian.installation3](images/debian.installation3.PNG)
+![debian.installation3](../images/debian.installation3.PNG)
 
 ídem :
 
-![debian.installation4](images/debian.installation4.PNG)
+![debian.installation4](../images/debian.installation4.PNG)
 
 Ingrese el nombre de su máquina (aquí nabaztag pero si es un jeedom ponga jeedom)
 
-![debian.installation5](images/debian.installation5.PNG)
+![debian.installation5](../images/debian.installation5.PNG)
 
 Solo presiona enter :
 
-![debian.installation6](images/debian.installation6.PNG)
+![debian.installation6](../images/debian.installation6.PNG)
 
 Pon una contraseña, recomiendo una simple aquí (como oooo), se puede cambiar más tarde (comando passwd) :
 
-![debian.installation7](images/debian.installation7.PNG)
+![debian.installation7](../images/debian.installation7.PNG)
 
 Ponlo de nuevo igual :
 
-![debian.installation8](images/debian.installation8.PNG)
+![debian.installation8](../images/debian.installation8.PNG)
 
 Dé el nombre del usuario principal (aquí nabaztag pero si es un jeedom ponga jeedom)
 
-![debian.installation9](images/debian.installation9.PNG)
+![debian.installation9](../images/debian.installation9.PNG)
 
 Poner de nuevo lo mismo :
 
-![debian.installation10](images/debian.installation10.PNG)
+![debian.installation10](../images/debian.installation10.PNG)
 
 Pon una contraseña, recomiendo una simple aquí (como oooo), se puede cambiar más tarde (comando passwd) :
 
-![debian.installation11](images/debian.installation11.PNG)
+![debian.installation11](../images/debian.installation11.PNG)
 
 Poner de nuevo lo mismo :
 
-![debian.installation12](images/debian.installation12.PNG)
+![debian.installation12](../images/debian.installation12.PNG)
 
 Confirme presionando enter :
 
-![debian.installation13](images/debian.installation13.PNG)
+![debian.installation13](../images/debian.installation13.PNG)
 
 ídem :
 
-![debian.installation14](images/debian.installation14.PNG)
+![debian.installation14](../images/debian.installation14.PNG)
 
 Nuevamente confirme presionando enter :
 
-![debian.installation15](images/debian.installation15.PNG)
+![debian.installation15](../images/debian.installation15.PNG)
 
 Todavía validamos :
 
-![debian.installation16](images/debian.installation16.PNG)
+![debian.installation16](../images/debian.installation16.PNG)
 
 Y todavia :
 
-![debian.installation17](images/debian.installation17.PNG)
+![debian.installation17](../images/debian.installation17.PNG)
 
 Elija "Francia" y valide :
 
-![debian.installation18](images/debian.installation18.PNG)
+![debian.installation18](../images/debian.installation18.PNG)
 
 Confirme presionando enter :
 
-![debian.installation19](images/debian.installation19.PNG)
+![debian.installation19](../images/debian.installation19.PNG)
 
 ídem :
 
-![debian.installation20](images/debian.installation20.PNG)
+![debian.installation20](../images/debian.installation20.PNG)
 
 Y de nuevo (sí, validamos mucho en una instalación de Debian) :
 
-![debian.installation21](images/debian.installation21.PNG)
+![debian.installation21](../images/debian.installation21.PNG)
 
 Ahora más complicado, debe anular la selección de "Entorno de escritorio Debian" presionando la tecla de espacio y seleccionar "Servidor SSH" presionando espacio (debe moverse con las teclas de flecha), luego validar presionando enter :
 
-![debian.installation22](images/debian.installation22.PNG)
+![debian.installation22](../images/debian.installation22.PNG)
 
 Validamos nuevamente :
 
-![debian.installation23](images/debian.installation23.PNG)
+![debian.installation23](../images/debian.installation23.PNG)
 
 Debe elegir / dev / sda y luego validar :
 
-![debian.installation24](images/debian.installation24.PNG)
+![debian.installation24](../images/debian.installation24.PNG)
 
 Allí solo tiene que quitar la llave USB, cdrom o cdrom virtual y presionar enter :
 
-![debian.installation25](images/debian.installation25.PNG)
+![debian.installation25](../images/debian.installation25.PNG)
 
 Aquí está su instalación de Debian terminada. Puede detener el tutorial allí si lo desea o seguir los siguientes pasos para algunas modificaciones del sistema (útil especialmente para jeedom).
 

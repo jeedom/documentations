@@ -38,7 +38,7 @@ Une fois l'image système gravée sur le support de démarrage, il n'y a plus qu
 
 Différentes options d'installation sont affichées à l'écran après avoir démarré l'ordinateur sur le support contenant l'image système :
 
-{% include lightbox.html src="images/install-menu-amd64.jpg" data="InstallMenuAMD64" title="Menu d'installation Jeedom (AMD64)" imgstyle="width:75%;display:block;margin:0 auto;" %}
+{% include lightbox.html src="../images/install-menu-amd64.jpg" data="InstallMenuAMD64" title="Menu d'installation Jeedom (AMD64)" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
 - **Install Jeedom (automatic mode)** : **installe le système automatiquement** sans aucune intervention nécessaire. La machine est éteinte à la fin de l'opération.
   >**IMPORTANT**

@@ -14,29 +14,29 @@ Jeedom allows you to interface a large number of devices together, whether they 
 
 You can view these devices in several ways :
 
-- On the [Dashboard](/en_US/core/4.5/dashboard)
-- On the [Synthesis](/en_US/core/4.5/overview) (v4.5)
-- On a [View](/en_US/core/4.5/view)
-- On a [Design](/en_US/core/4.5/design)
-- On a [3D design](/en_US/core/4.5/design3d)
+- On the [Dashboard](/core/dashboard)
+- On the [Synthesis](/core/overview) (v4.5)
+- On a [View](/core/view)
+- On a [Design](/core/design)
+- On a [3D design](/core/design3d)
 
-![Synthese](images/concept-synthese.jpg)
+![Synthese](../images/concept-synthese.jpg)
 
 These can be viewed in a browser on a desktop computer, on a smartphone with the WebApp or the mobile application : [Mobile version](/en_US/mobile/index)
 
 ## The Objects
 
-In order to organize your devices, you can create [Objects](/en_US/core/4.5/object).
+In order to organize your devices, you can create [Objects](/core/object).
 
 These objects can represent parts of the house (Living room, Bedroom, Workshop). Each object can have a parent object. This hierarchy will be used for display on the Dashboard. For example, you can have an object **House**, then objects **Living room** and **Bedroom** object children **House**. Once on the Dashboard, the object **House** will also display, below, its child objects.
 
-![Objet](images/concept-objet.jpg)
+![Objet](../images/concept-objet.jpg)
 
 > **Advice**
 >
-> In **Settings → Preferences**, you can define which object you want to arrive on the Dashboard. [Preferences](/en_US/core/4.5/profils)
+> In **Settings → Preferences**, you can define which object you want to arrive on the Dashboard. [Preferences](/core/profils)
 
-![Dashboard](images/concept-dashboard.jpg)
+![Dashboard](../images/concept-dashboard.jpg)
 
 ## Equipment and their commands
 
@@ -50,20 +50,20 @@ To interact with our home automation, you need commands ! These are of two types
 
 - The Commands *Info* :
 These commands store information from sensors. For example the temperature of a probe, a movement of a presence sensor, etc.
-These commands can be logged in order to keep this information over time in the form of a curve : [History](/en_US/core/4.5/history)
+These commands can be logged in order to keep this information over time in the form of a curve : [History](/core/history)
 
-These commands can also be used to trigger [Scenarios](/en_US/core/4.5/scenario) in order to automate actions based on the information sent by your sensors. For example, a motion sensor detects a presence, which will trigger a scenario that will turn on the light.
+These commands can also be used to trigger [Scenarios](/core/scenario) in order to automate actions based on the information sent by your sensors. For example, a motion sensor detects a presence, which will trigger a scenario that will turn on the light.
 
 - The Commands *Action* :
 These commands allow you to control your actuators. For example, commands ````on```` and ````off```` of a controlled outlet will allow you to turn it on and off.
 
 Action commands are usually linked to info commands. Here our take has two actions ````on```` and ````off````, usually related to information **State**.
 
-![Commands](images/concept-commands.jpg)
+![Commands](../images/concept-commands.jpg)
 
 These two types of commands are attached in the form of equipment. The equipment therefore has info and / or action commands, and it is this equipment that will have an Object as parent, allowing you to display it where you want.
 
-Each command can also have what is called a generic type, allowing Jeedom and some plugins to know the type of command (State of a socket, button of a light, etc). [**Tools → Equipment types**](/en_US/core/4.5/types).
+Each command can also have what is called a generic type, allowing Jeedom and some plugins to know the type of command (State of a socket, button of a light, etc). [**Tools → Equipment types**](/core/types).
 
 ### Équipement
 
@@ -72,13 +72,13 @@ Each command can also have what is called a generic type, allowing Jeedom and so
 
 These equipments are created by plugins. For example, the Z-Wave plugin will allow you to include your Z-Waze socket, which will create a device with its controls that you can name and link to an Object.
 
-In terms of display, each command is displayed using a Widget. The Core offers the main Widgets, as well as a tool to create them (V4) : [Widget](/en_US/core/4.5/widgets).
+In terms of display, each command is displayed using a Widget. The Core offers the main Widgets, as well as a tool to create them (V4) : [Widget](/core/widgets).
 
 These commands are grouped in a tile corresponding to your equipment. And this tile will therefore be displayed on the Dashboard in the Object that you have assigned to it.
 
-![Commands](images/concept-equipment.jpg)
+![Commands](../images/concept-equipment.jpg)
 
-Whatever your device, it will therefore be created in the form of a device, from a [Plugin](/en_US/core/4.5/plugin).
+Whatever your device, it will therefore be created in the form of a device, from a [Plugin](/core/plugin).
 
 This device will have its own commands *Info* or *Action*. These commands will be displayed as Widgets forming the equipment tile, in its parent object.
 
@@ -90,14 +90,14 @@ The advantage of home automation, beyond centralized and remote control of our p
 
 A scenario is a series of defined actions that will be executed at certain times of the day. The execution can be scheduled (every Monday at a particular time), or caused by an event. As seen above, this event can for example be our info command *Presence* a motion detector, following a detection.
 
-The goal here is not to be exhaustive but to discover the scenarios through simple examples. The [user manual documentation](/en_US/core/4.5/scenario) is much more complete.
+The goal here is not to be exhaustive but to discover the scenarios through simple examples. The [user manual documentation](/core/scenario) is much more complete.
 
 
 ### Light on motion detection.
 
 Suppose we have a controlled light and a motion detector in the room.
 
-![1stScenario](images/1stScenario.gif)
+![1stScenario](../images/1stScenario.gif)
 
 - Go to **Tools → Scenarios**
 - Click on *Add* then give a name to the new scenario.

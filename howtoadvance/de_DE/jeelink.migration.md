@@ -22,7 +22,7 @@ Wir werden hier sehen, wie eine Installation mit Jeedom im Slave-Modus mit dem P
 >
 > - Die Begriffe von **Jeedom Meister** und **Jeedom Sklave** nicht mehr relevant. Die neue Betriebsart der Gerätesynchronisation zwischen mehreren Jeedoms kann bidirektional sein. Ein Jeedom-Server kann jetzt sein **Quelle** und **Ziel** während der alte Modus nur den Aufstieg der Ausrüstung von erlaubte  **der Sklave** zu **der Meister**. Mit dem neuen Modus ist es auch möglich, mehrere zu haben **Jeedom Ziele** für das gleiche **Jeedom Source**. Die Kommunikation zwischen Jeedoms kann jetzt auch über das Internet (Jeedom DNS oder andere) erfolgen).
 
-![jeelink.migration9](images/jeelink.migration9.png)
+![jeelink.migration9](../images/jeelink.migration9.png)
 
 ## Konfigurationsaktualisierungen und Überprüfung
 
@@ -46,11 +46,11 @@ Abhängig von den auf Ihrem installierten Plugins **Jeedom Sklave**, Die folgend
 
 > **Notiz**
 >
-> Ein nicht erschöpfendes Informationsblatt, das für die Migration zu beachten ist, ist verfügbar [hier](images/MemoMigration.xls)
+> Ein nicht erschöpfendes Informationsblatt, das für die Migration zu beachten ist, ist verfügbar [hier](../images/MemoMigration.xls)
 
 ## Vorbeugende Backups
 
--   Mach a [Jeedom Backup](https://doc.jeedom.com/de_DE/core/doc-core-backup.html) von dir **Jeedom Meister** und dein (dein) **Jeedom Slave (s)** und stellen Sie es auf Ihrem PC / NAS wieder her….
+-   Mach a [Jeedom Backup](/core/backup) von dir **Jeedom Meister** und dein (dein) **Jeedom Slave (s)** und stellen Sie es auf Ihrem PC / NAS wieder her….
 -   Mach a [SD / Disk-Backup](https://doc.jeedom.com/de_DE/howto/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd) von dir **Jeedom Meister** und dein (dein) **Jeedom Slave (s)** und stellen Sie sie auf Ihrem PC / NAS wieder her….
 
 # Migration
@@ -63,7 +63,7 @@ Abhängig von den auf Ihrem installierten Plugins **Jeedom Sklave**, Die folgend
 
 Auf deine **Jeedom Ziel**, *Plugins ⇒ Verwaltung von Plugins* :
 
-![jeelink.migration1](images/jeelink.migration1.png)
+![jeelink.migration1](../images/jeelink.migration1.png)
 
 ## Installation von **Jeedom Source**
 
@@ -88,7 +88,7 @@ Auf deine **Jeedom Ziel**, *Plugins ⇒ Verwaltung von Plugins* :
 -   Ändern Sie das Passwort des Administrators oder / und konfigurieren Sie einen neuen Benutzer.
 -   Konfigurieren Sie Ihr Jeedom Market-Konto (*Konfiguration ⇒ Updates und Dateien ⇒ Registerkarte "Markt""*). Klicken Sie nach dem Speichern auf Test, um die Eingabe Ihrer Jeedom Market-IDs zu bestätigen).
 -   Installation und Aktivierung des Plugins "Jeedom Link" auf dem neuen **Jeedom Source**.
-![jeelink.migration2](images/jeelink.migration2.png)
+![jeelink.migration2](../images/jeelink.migration2.png)
 -   Installation und Aktivierung von Plugins, die Sie verwenden möchten. (Es ist ratsam, sie einzeln durchzuführen und jedes Mal zu überprüfen, ob die Abhängigkeiten und Dämonen in Ordnung sind).
 -   Erstellen Sie den Baum der Objekte (nur die, die für Sie nützlich sein werden) des **Jeedom Ziel** (Alter Meister) auf Ihrem neuen **Jeedom Source** (Ehemaliger Sklave).
 
@@ -145,27 +145,27 @@ das "Jeedom Link" Plugin durch Angabe :
 
 Und speichern Sie die Konfiguration.
 
-![jeelink.migration3](images/jeelink.migration3.png)
+![jeelink.migration3](../images/jeelink.migration3.png)
 
 In der Registerkarte *Zuordnung*, Fügen Sie die Ausrüstung hinzu, zu der Sie zurückkehren möchten **Jeedom Ziel**.
 
-![jeelink.migration4](images/jeelink.migration4.png)
+![jeelink.migration4](../images/jeelink.migration4.png)
 
 Klicken Sie auf *Ausrüstung hinzufügen* Wählen Sie das Objekt und die Ausrüstung aus, die hinzugefügt werden sollen :
 
-![jeelink.migration5](images/jeelink.migration5.png)
+![jeelink.migration5](../images/jeelink.migration5.png)
 
 Nach dem Aktualisieren der Seite *Meine Jeelinks* die **Jeedom Ziel**, Sie sollten die automatische Erstellung der Ausrüstung sehen :
 
-![jeelink.migration6](images/jeelink.migration6.png)
+![jeelink.migration6](../images/jeelink.migration6.png)
 
 Wie bei allen Jeedom-Geräten können Sie das Gerät, seine Steuerelemente usw. aktivieren / deaktivieren und anzeigen oder nicht oder die Kategorie ändern :
 
-![jeelink.migration7](images/jeelink.migration7.png)
+![jeelink.migration7](../images/jeelink.migration7.png)
 
 In der Registerkarte *Befehle*, Sie greifen auf alle Parameter der Gerätesteuerung zu :
 
-![jeelink.migration8](images/jeelink.migration8.png)
+![jeelink.migration8](../images/jeelink.migration8.png)
 
 ## Historische Erholung
 

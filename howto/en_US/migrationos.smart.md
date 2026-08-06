@@ -23,10 +23,10 @@ It is necessary in particular :
 You have the possibility to initiate the migration procedure in 2 ways :
 
 - Going to the menu **Settings → System → Image Restore** :     
-![Menu Restauration Image](images/migrateos-smart01.png)
+![Menu Restauration Image](../images/migrateos-smart01.png)
 
 - By being invited to the **Update center** when necessary :     
-![Mettre à niveau centre de MAJ](images/migrateos-smart02.png)
+![Mettre à niveau centre de MAJ](../images/migrateos-smart02.png)
 
 ### Step 1
 
@@ -34,11 +34,11 @@ The first step in the migration is to prepare and verify the hardware. The previ
 
 Once the USB stick is inserted, you can click on the arrow to start the process :
 
-![Insérer clé USB](images/migrateos-smart03.png)
+![Insérer clé USB](../images/migrateos-smart03.png)
 
 When the prerequisites are validated, we can go to step 2 :
 
-![Clé USB vérifiée](images/migrateos-smart04.png)
+![Clé USB vérifiée](../images/migrateos-smart04.png)
 
 >**Information**
 >
@@ -50,37 +50,37 @@ The second step will take care of generating a backup of your Jeedom, a copy of 
 
 We still recommend that you make sure you have a recent Jeedom backup available elsewhere.
 
-![Sauvegarde de Jeedom](images/migrateos-smart05.png)
+![Sauvegarde de Jeedom](../images/migrateos-smart05.png)
 
 The duration of the backup phase will depend on the size of your installation and the remote backup options implemented. You have the option to speed up the process by disabling the sending of Market and / or Samba backups beforehand.
 
-![Copie de la sauvegarde on the USB stick](images/migrateos-smart06.png)
+![Copie de la sauvegarde on the USB stick](../images/migrateos-smart06.png)
 
 ### Step 3
 
 The third step will allow you to download the image containing the new version of the Debian environment and check its validity after downloading :
 
-![Téléchargement de l'image](images/migrateos-smart07.png)
+![Téléchargement de l'image](../images/migrateos-smart07.png)
 
 This step may take a while and will depend on the speed of your internet connection as well as the read / write performance of the USB key :
 
-![Vérification de l'image](images/migrateos-smart08.png)
+![Vérification de l'image](../images/migrateos-smart08.png)
 
 ### Step 4
 
 By far the most important step because it is the actual migration of the hardware. Above all, do not disconnect the USB key or cut off the power supply to the Smart during this phase !
 
-![Migration de la Smart](images/migrateos-smart09.png)
+![Migration de la Smart](../images/migrateos-smart09.png)
 
 This step lasts about thirty minutes after which the Smart box will restart. This first reboot is likely to take some time :
 
-![Redémarrage de la Smart](images/migrateos-smart10.png)
+![Redémarrage de la Smart](../images/migrateos-smart10.png)
 
 ### Finalization of the migration
 
 At the end of the migration process, the Smart box is now in an up-to-date environment but with a virgin Jeedom. The finalization of the procedure will therefore consist either of starting from a clean installation or of restoring the backup generated during the first step :
 
-![Finalisation migration](images/migrateos-smart11.png)
+![Finalisation migration](../images/migrateos-smart11.png)
 
 >**Important**
 >
