@@ -1,12 +1,15 @@
-var GENERAL_SECTIONS = ['presentation', 'concept', 'howto', 'howtoadvance', 'installation', 'compatibility', 'premiers-pas', 'mobile', 'contribute', 'dev', 'legal_notice', 'home']
+const GENERAL_SECTIONS = ['presentation', 'concept', 'howto', 'howtoadvance', 'installation', 'compatibility', 'premiers-pas', 'mobile', 'contribute', 'dev', 'legal_notice', 'home']
 
-function localizeHref(href, _lang) {
-  var secondSlash = href.indexOf('/', 1)
-  var section = secondSlash === -1 ? href.slice(1) : href.slice(1, secondSlash)
+function localizeHref(href, _lang, _version) {
+  const secondSlash = href.indexOf('/', 1)
+  const section = secondSlash === -1 ? href.slice(1) : href.slice(1, secondSlash)
+  const rest = secondSlash === -1 ? '' : href.slice(secondSlash)
+  if (section === 'core') {
+    return '/' + section + '/' + _version + '/' + _lang + rest
+  }
   if (GENERAL_SECTIONS.indexOf(section) === -1) {
     return href
   }
-  var rest = secondSlash === -1 ? '' : href.slice(secondSlash)
   if (rest === '' || rest === '/') {
     return '/' + section + '/' + _lang + '/'
   }
@@ -17,7 +20,7 @@ function resolveLink(link, _lang, _version) {
   if (link.indexOf('#LANG#') !== -1 || link.indexOf('#VERSION#') !== -1) {
     return link.replace('#LANG#', _lang).replace(/#VERSION#/g, _version)
   }
-  return link.charAt(0) === '/' ? localizeHref(link, _lang) : link
+  return link.charAt(0) === '/' ? localizeHref(link, _lang, _version) : link
 }
 
 var docMenu = [
@@ -78,34 +81,34 @@ var docMenu = [
     de_DE: "Benutzerhandbuch",
     pt_PT: "Manual do usuário",
     submenu: [
-      { link: "/#LANG#/core/#VERSION#/changelog", icon: "fas fa-clipboard-list", fr_FR: "Changelog", en_US: "Changelog", es_ES: "Changelog", de_DE: "Changelog", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/dashboard", icon: "fas fa-tachometer-alt", fr_FR: "Dashboard", en_US: "Dashboard", es_ES: "Tablero", de_DE: "Dashboard", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/overview", icon: "fab fa-hubspot", fr_FR: "Synthèse", en_US: "Synthesis", es_ES: "Síntesis", de_DE: "Synthese", pt_PT: "Síntese" },
-      { link: "/#LANG#/core/#VERSION#/view", icon: "far fa-image", fr_FR: "Vues", en_US: "Views", es_ES: "Vistas", de_DE: "Ansichten ", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/design", icon: "fas fa-paint-brush", fr_FR: "Design", en_US: "Design", es_ES: "Diseño", de_DE: "Design", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/design3d", icon: "fas fa-cubes", fr_FR: "Design 3D", en_US: "Design 3D", es_ES: "Diseño 3D", de_DE: "Design 3D", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/log", icon: "far fa-file", fr_FR: "Logs", en_US: "Logs", es_ES: "Logs", de_DE: "Logs", pt_PT: "" },
+      { link: "/core/changelog", icon: "fas fa-clipboard-list", fr_FR: "Changelog", en_US: "Changelog", es_ES: "Changelog", de_DE: "Changelog", pt_PT: "" },
+      { link: "/core/dashboard", icon: "fas fa-tachometer-alt", fr_FR: "Dashboard", en_US: "Dashboard", es_ES: "Tablero", de_DE: "Dashboard", pt_PT: "" },
+      { link: "/core/overview", icon: "fab fa-hubspot", fr_FR: "Synthèse", en_US: "Synthesis", es_ES: "Síntesis", de_DE: "Synthese", pt_PT: "Síntese" },
+      { link: "/core/view", icon: "far fa-image", fr_FR: "Vues", en_US: "Views", es_ES: "Vistas", de_DE: "Ansichten ", pt_PT: "" },
+      { link: "/core/design", icon: "fas fa-paint-brush", fr_FR: "Design", en_US: "Design", es_ES: "Diseño", de_DE: "Design", pt_PT: "" },
+      { link: "/core/design3d", icon: "fas fa-cubes", fr_FR: "Design 3D", en_US: "Design 3D", es_ES: "Diseño 3D", de_DE: "Design 3D", pt_PT: "" },
+      { link: "/core/log", icon: "far fa-file", fr_FR: "Logs", en_US: "Logs", es_ES: "Logs", de_DE: "Logs", pt_PT: "" },
       // { link: "", icon: "fas fa-tachometer-alt", fr_FR: "Temps reel", en_US: "Real time", es_ES: "Tiempo real", de_DE: "Echtzeit", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/eqAnalyse", icon: "fas fa-battery-full", fr_FR: "Analyse équipements", en_US: "Equipments Analyse", es_ES: "Análisis", de_DE: "Analyse", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/display", icon: "fas fa-th", fr_FR: "Résumé Domotique", en_US: "Summary", es_ES: "Resumen de automatización del hogar", de_DE: "Zusammenfassung der Hausautomation", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/history", icon: "fas fa-chart-line", fr_FR: "Historique", en_US: "History", es_ES: "Historia", de_DE: "Historisierung", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/timeline", icon: "far fa-clock", fr_FR: "Timeline", en_US: "Timeline", es_ES: "Cronología", de_DE: "Zeitleiste", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/report", icon: "far fa-newspaper", fr_FR: "Rapport", en_US: "Report", es_ES: "Relación", de_DE: "Bericht", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/health", icon: "fas fa-medkit", fr_FR: "Santé", en_US: "Health", es_ES: "Salud", de_DE: "Gesundheit", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/object", icon: "far fa-object-group", fr_FR: "Objets", en_US: "Objects", es_ES: "Asuntos", de_DE: "Betreff", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/scenario", icon: "fas fa-cogs", fr_FR: "Scénarios", en_US: "Scenarios", es_ES: "Escenarios", de_DE: "Szenario", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/interact", icon: "far fa-comments", fr_FR: "Interactions", en_US: "Interactions", es_ES: "Interacciones", de_DE: "Interaktionen", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/widgets", icon: "fas fa-camera-retro", fr_FR: "Widgets", en_US: "Widgets", es_ES: "Widgets", de_DE: "Widgets", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/types", icon: "fas fa-puzzle-piece", fr_FR: "Types d'équipements", en_US: "Equipment Types", es_ES: "Tipos de equipo", de_DE: "Gerätearten", pt_PT: "Tipos de equipamento" },
+      { link: "/core/eqAnalyse", icon: "fas fa-battery-full", fr_FR: "Analyse équipements", en_US: "Equipments Analyse", es_ES: "Análisis", de_DE: "Analyse", pt_PT: "" },
+      { link: "/core/display", icon: "fas fa-th", fr_FR: "Résumé Domotique", en_US: "Summary", es_ES: "Resumen de automatización del hogar", de_DE: "Zusammenfassung der Hausautomation", pt_PT: "" },
+      { link: "/core/history", icon: "fas fa-chart-line", fr_FR: "Historique", en_US: "History", es_ES: "Historia", de_DE: "Historisierung", pt_PT: "" },
+      { link: "/core/timeline", icon: "far fa-clock", fr_FR: "Timeline", en_US: "Timeline", es_ES: "Cronología", de_DE: "Zeitleiste", pt_PT: "" },
+      { link: "/core/report", icon: "far fa-newspaper", fr_FR: "Rapport", en_US: "Report", es_ES: "Relación", de_DE: "Bericht", pt_PT: "" },
+      { link: "/core/health", icon: "fas fa-medkit", fr_FR: "Santé", en_US: "Health", es_ES: "Salud", de_DE: "Gesundheit", pt_PT: "" },
+      { link: "/core/object", icon: "far fa-object-group", fr_FR: "Objets", en_US: "Objects", es_ES: "Asuntos", de_DE: "Betreff", pt_PT: "" },
+      { link: "/core/scenario", icon: "fas fa-cogs", fr_FR: "Scénarios", en_US: "Scenarios", es_ES: "Escenarios", de_DE: "Szenario", pt_PT: "" },
+      { link: "/core/interact", icon: "far fa-comments", fr_FR: "Interactions", en_US: "Interactions", es_ES: "Interacciones", de_DE: "Interaktionen", pt_PT: "" },
+      { link: "/core/widgets", icon: "fas fa-camera-retro", fr_FR: "Widgets", en_US: "Widgets", es_ES: "Widgets", de_DE: "Widgets", pt_PT: "" },
+      { link: "/core/types", icon: "fas fa-puzzle-piece", fr_FR: "Types d'équipements", en_US: "Equipment Types", es_ES: "Tipos de equipo", de_DE: "Gerätearten", pt_PT: "Tipos de equipamento" },
       // { link: "", icon: "fas fa-sticky-note", fr_FR: "Notes", en_US: "Notes", es_ES: "Notas", de_DE: "Anmerkungen", pt_PT: "" },
       // { link: "", icon: "fas fa-check", fr_FR: "Testeur d'expression", en_US: "Expression tester", es_ES: "Probador de expresión", de_DE: "Expressionstester", pt_PT: "" },
       // { link: "", icon: "fas fa-eye", fr_FR: "Variables", en_US: "Variables", es_ES: "Variables", de_DE: "Variables", pt_PT: "" },
       { link: "/concept/summary", icon: "fas fa-table", fr_FR: "Résumés", en_US: "Summaries", es_ES: "Resúmenes", de_DE: "Zusammenfassunge", pt_PT: "Resumos" },
-      { link: "/#LANG#/core/#VERSION#/plugin", icon: "fas fa-tags", fr_FR: "Plugins", en_US: "Plugins", es_ES: "Plugins", de_DE: "Plugins", pt_PT: "Plugins" },
-      { link: "/#LANG#/core/#VERSION#/search", icon: "fas fa-search", fr_FR: "Recherche", en_US: "Search", es_ES: "Investigacion", de_DE: "Forschung", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/replace", icon: "fas fa-random", fr_FR: "Remplacer", en_US: "Replace", es_ES: "Reemplazar", de_DE: "Ersetzen", pt_PT: "" },
+      { link: "/core/plugin", icon: "fas fa-tags", fr_FR: "Plugins", en_US: "Plugins", es_ES: "Plugins", de_DE: "Plugins", pt_PT: "Plugins" },
+      { link: "/core/search", icon: "fas fa-search", fr_FR: "Recherche", en_US: "Search", es_ES: "Investigacion", de_DE: "Forschung", pt_PT: "" },
+      { link: "/core/replace", icon: "fas fa-random", fr_FR: "Remplacer", en_US: "Replace", es_ES: "Reemplazar", de_DE: "Ersetzen", pt_PT: "" },
       { link: "/mobile", icon: "fas fa-mobile", fr_FR: "Version mobile", en_US: "Mobile version", es_ES: "Versión móvil", de_DE: "Mobile Version", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/faq", icon: "fas fa-question-circle", fr_FR: "FAQ", en_US: "FAQ", es_ES: "FAQ", de_DE: "FAQ", pt_PT: "FAQ" }
+      { link: "/core/faq", icon: "fas fa-question-circle", fr_FR: "FAQ", en_US: "FAQ", es_ES: "FAQ", de_DE: "FAQ", pt_PT: "FAQ" }
     ]
   }, {
     fr_FR: "Manuel de configuration",
@@ -114,14 +117,14 @@ var docMenu = [
     de_DE: "Konfigurationshandbuch",
     pt_PT: "",
     submenu: [
-      { link: "/#LANG#/core/#VERSION#/administration", icon: "fas fa-wrench", fr_FR: "Configuration", en_US: "Configuration", es_ES: "Configuracion", de_DE: "Konfiguration", pt_PT: "Configuração" },
-      { link: "/#LANG#/core/#VERSION#/backup", icon: "fas fa-save", fr_FR: "Sauvegarde", en_US: "Save", es_ES: "Sauvegarde", de_DE: "Backup", pt_PT: "" },
+      { link: "/core/administration", icon: "fas fa-wrench", fr_FR: "Configuration", en_US: "Configuration", es_ES: "Configuracion", de_DE: "Konfiguration", pt_PT: "Configuração" },
+      { link: "/core/backup", icon: "fas fa-save", fr_FR: "Sauvegarde", en_US: "Save", es_ES: "Sauvegarde", de_DE: "Backup", pt_PT: "" },
       // { link: "", icon: "fas fa-save", fr_FR: "Restauration Image", en_US: "Image restoration", es_ES: "Restauración de imagen", de_DE: "Bildwiederherstellung", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/update", icon: "fas fa-sync-alt", fr_FR: "Mise à jour", en_US: "Update", es_ES: "Mise à jour", de_DE: "Update", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/cron", icon: "fas fa-tasks", fr_FR: "Moteur de tâche", en_US: "Cron", es_ES: "Motor de tareas", de_DE: "Task-Engine", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/custom", icon: "fas fa-pencil-alt", fr_FR: "Personalisation", en_US: "Personalisation", es_ES: "Personalizacion", de_DE: "Personalisierung", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/user", icon: "fas fa-users", fr_FR: "Utilisateur", en_US: "Users", es_ES: "Usuario", de_DE: "Benutzer", pt_PT: "" },
-      { link: "/#LANG#/core/#VERSION#/profils", icon: "fas fa-briefcase", fr_FR: "Profils", en_US: "Profils", es_ES: "Perfiles", de_DE: "Profile", pt_PT: "" }
+      { link: "/core/update", icon: "fas fa-sync-alt", fr_FR: "Mise à jour", en_US: "Update", es_ES: "Mise à jour", de_DE: "Update", pt_PT: "" },
+      { link: "/core/cron", icon: "fas fa-tasks", fr_FR: "Moteur de tâche", en_US: "Cron", es_ES: "Motor de tareas", de_DE: "Task-Engine", pt_PT: "" },
+      { link: "/core/custom", icon: "fas fa-pencil-alt", fr_FR: "Personalisation", en_US: "Personalisation", es_ES: "Personalizacion", de_DE: "Personalisierung", pt_PT: "" },
+      { link: "/core/user", icon: "fas fa-users", fr_FR: "Utilisateur", en_US: "Users", es_ES: "Usuario", de_DE: "Benutzer", pt_PT: "" },
+      { link: "/core/profils", icon: "fas fa-briefcase", fr_FR: "Profils", en_US: "Profils", es_ES: "Perfiles", de_DE: "Profile", pt_PT: "" }
     ]
   }, {
     divider: true
@@ -207,8 +210,8 @@ var docMenu = [
     submenu: [
       { link: "/dev", fr_FR: "Plugins", en_US: "Plugins", es_ES: "Complementos", de_DE: "Plugins", pt_PT: "Plugins" },
       { link: "/dev/core", fr_FR: "Core", en_US: "Core", es_ES: "Core", de_DE: "Core", pt_PT: "Core" },
-      { link: "/#LANG#/core/#VERSION#/api_http", fr_FR: "Api HTTP", en_US: "Api HTTP", es_ES: "Api HTTP", de_DE: "Api HTTP", pt_PT: "Api HTTP" },
-      { link: "/#LANG#/core/#VERSION#/jsonrpc_api", fr_FR: "API JsonRPC", en_US: "API JsonRPC", es_ES: "API JsonRPC", de_DE: "API JsonRPC", pt_PT: "API JsonRPC" },
+      { link: "/core/api_http", fr_FR: "Api HTTP", en_US: "Api HTTP", es_ES: "Api HTTP", de_DE: "Api HTTP", pt_PT: "Api HTTP" },
+      { link: "/core/jsonrpc_api", fr_FR: "API JsonRPC", en_US: "API JsonRPC", es_ES: "API JsonRPC", de_DE: "API JsonRPC", pt_PT: "API JsonRPC" },
       { link: "/phpdoc/#VERSION#", fr_FR: "PhpDoc", en_US: "PhpDoc", es_ES: "PhpDoc", de_DE: "PhpDoc", pt_PT: "PhpDoc" },
     ]
   }, {
