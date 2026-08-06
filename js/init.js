@@ -7,6 +7,15 @@ function localizeHref(href, _lang, _version) {
   if (section === 'core') {
     return '/' + section + '/' + _version + '/' + _lang + rest
   }
+  if (section === 'plugins') {
+    const catSecondSlash = rest.indexOf('/', 1)
+    const category = catSecondSlash === -1 ? rest.slice(1) : rest.slice(1, catSecondSlash)
+    const catRest = catSecondSlash === -1 ? '' : rest.slice(catSecondSlash)
+    if (catRest === '' || catRest === '/') {
+      return '/' + section + '/' + category + '/' + _lang + '/'
+    }
+    return '/' + section + '/' + category + '/' + _lang + catRest
+  }
   if (GENERAL_SECTIONS.indexOf(section) === -1) {
     return href
   }
@@ -135,22 +144,22 @@ var docMenu = [
     de_DE: "Offizielle Plugins",
     pt_PT: "Plugins oficiais",
     submenu: [
-      { link: "/#LANG#/plugins/security/", icon: "fas fa-lock", fr_FR: "Sécurité", en_US: "Security", es_ES: "Sécurité", de_DE: "Sicherheit", pt_PT: "" },
-      { link: "/#LANG#/plugins/automation%20protocol/", icon: "fas fa-rss", fr_FR: "Protocole domotique", en_US: "Home protocol", es_ES: "Protocolo de domótica", de_DE: "Hausautomationsprotokoll", pt_PT: "" },
-      { link: "/#LANG#/plugins/home%20automation%20protocol/", icon: "fas fa-asterisk", fr_FR: "Passerelle domotique", en_US: "Home gateway", es_ES: "Pasarela domótica", de_DE: "Hausautomations-Gateway", pt_PT: "" },
-      { link: "/#LANG#/plugins/programming/", icon: "fas fa-code", fr_FR: "Programmation", en_US: "Programming", es_ES: "Programmation", de_DE: "Programmierung", pt_PT: "" },
-      { link: "/#LANG#/plugins/organization/", icon: "fas fa-calendar-alt", fr_FR: "Organisation", en_US: "Organize", es_ES: "Organisation", de_DE: "Organisation", pt_PT: "" },
-      { link: "/#LANG#/plugins/weather/", icon: "fas fa-sun", fr_FR: "Météo", en_US: "Weather", es_ES: "Météo", de_DE: "Wettervorhersage", pt_PT: "" },
-      { link: "/#LANG#/plugins/communication/", icon: "fas fa-comment", fr_FR: "Communication", en_US: "Communication", es_ES: "Comunicación", de_DE: "Kommunikation", pt_PT: "" },
-      { link: "/#LANG#/plugins/devicecommunication/", icon: "fas fa-language", fr_FR: "Objets connectés", en_US: "Connected object", es_ES: "Objets connectés", de_DE: "Verbundene Objekte", pt_PT: "" },
-      { link: "/#LANG#/plugins/multimedia/", icon: "fas fa-sliders-h", fr_FR: "Multimédia", en_US: "Multimedia", es_ES: "Multimédia", de_DE: "Multimedia", pt_PT: "" },
-      { link: "/#LANG#/plugins/wellness/", icon: "fas fa-user", fr_FR: "Confort", en_US: "Wellness", es_ES: "Confort", de_DE: "Komfort", pt_PT: "" },
-      { link: "/#LANG#/plugins/monitoring/", icon: "fas fa-tachometer-alt", fr_FR: "Monitoring", en_US: "Monitoring", es_ES: "Monitoreo", de_DE: "Überwachung", pt_PT: "" },
-      { link: "/#LANG#/plugins/health/", icon: "fas fa-heartbeat", fr_FR: "Santé", en_US: "Health", es_ES: "Salud", de_DE: "Gesundheit", pt_PT: "" },
-      { link: "/#LANG#/plugins/nature/", icon: "fab fa-pagelines", fr_FR: "Nature", en_US: "Nature", es_ES: "Nature", de_DE: "Natur", pt_PT: "" },
-      { link: "/#LANG#/plugins/automatisation/", icon: "fas fa-magic", fr_FR: "Automatisme", en_US: "Automation", es_ES: "Automatisme", de_DE: "Automatisierung", pt_PT: "" },
-      { link: "/#LANG#/plugins/energy/", icon: "fas fa-bolt", fr_FR: "Energie", en_US: "Energy", es_ES: "Energía", de_DE: "Energie", pt_PT: "" },
-      { link: "/#LANG#/plugins/other/", icon: "fas fa-bars", fr_FR: "Autre", en_US: "Other", es_ES: "Otros", de_DE: "Andere", pt_PT: "" },
+      { link: "/plugins/security/", icon: "fas fa-lock", fr_FR: "Sécurité", en_US: "Security", es_ES: "Sécurité", de_DE: "Sicherheit", pt_PT: "" },
+      { link: "/plugins/automation%20protocol/", icon: "fas fa-rss", fr_FR: "Protocole domotique", en_US: "Home protocol", es_ES: "Protocolo de domótica", de_DE: "Hausautomationsprotokoll", pt_PT: "" },
+      { link: "/plugins/home%20automation%20protocol/", icon: "fas fa-asterisk", fr_FR: "Passerelle domotique", en_US: "Home gateway", es_ES: "Pasarela domótica", de_DE: "Hausautomations-Gateway", pt_PT: "" },
+      { link: "/plugins/programming/", icon: "fas fa-code", fr_FR: "Programmation", en_US: "Programming", es_ES: "Programmation", de_DE: "Programmierung", pt_PT: "" },
+      { link: "/plugins/organization/", icon: "fas fa-calendar-alt", fr_FR: "Organisation", en_US: "Organize", es_ES: "Organisation", de_DE: "Organisation", pt_PT: "" },
+      { link: "/plugins/weather/", icon: "fas fa-sun", fr_FR: "Météo", en_US: "Weather", es_ES: "Météo", de_DE: "Wettervorhersage", pt_PT: "" },
+      { link: "/plugins/communication/", icon: "fas fa-comment", fr_FR: "Communication", en_US: "Communication", es_ES: "Comunicación", de_DE: "Kommunikation", pt_PT: "" },
+      { link: "/plugins/devicecommunication/", icon: "fas fa-language", fr_FR: "Objets connectés", en_US: "Connected object", es_ES: "Objets connectés", de_DE: "Verbundene Objekte", pt_PT: "" },
+      { link: "/plugins/multimedia/", icon: "fas fa-sliders-h", fr_FR: "Multimédia", en_US: "Multimedia", es_ES: "Multimédia", de_DE: "Multimedia", pt_PT: "" },
+      { link: "/plugins/wellness/", icon: "fas fa-user", fr_FR: "Confort", en_US: "Wellness", es_ES: "Confort", de_DE: "Komfort", pt_PT: "" },
+      { link: "/plugins/monitoring/", icon: "fas fa-tachometer-alt", fr_FR: "Monitoring", en_US: "Monitoring", es_ES: "Monitoreo", de_DE: "Überwachung", pt_PT: "" },
+      { link: "/plugins/health/", icon: "fas fa-heartbeat", fr_FR: "Santé", en_US: "Health", es_ES: "Salud", de_DE: "Gesundheit", pt_PT: "" },
+      { link: "/plugins/nature/", icon: "fab fa-pagelines", fr_FR: "Nature", en_US: "Nature", es_ES: "Nature", de_DE: "Natur", pt_PT: "" },
+      { link: "/plugins/automatisation/", icon: "fas fa-magic", fr_FR: "Automatisme", en_US: "Automation", es_ES: "Automatisme", de_DE: "Automatisierung", pt_PT: "" },
+      { link: "/plugins/energy/", icon: "fas fa-bolt", fr_FR: "Energie", en_US: "Energy", es_ES: "Energía", de_DE: "Energie", pt_PT: "" },
+      { link: "/plugins/other/", icon: "fas fa-bars", fr_FR: "Autre", en_US: "Other", es_ES: "Otros", de_DE: "Andere", pt_PT: "" },
     ]
   }, {
     fr_FR: "Plugins Tiers",
