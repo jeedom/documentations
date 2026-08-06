@@ -15,4 +15,4 @@ Ein einfaches Beispiel ist : Im Falle einer Alarmauslösung erhalte ich einen An
 Es ist sehr einfach, dass Sie müssen : 
 
 - SMS-Guthaben haben  : SMS = 1 Credit (begrenzt auf 140 Zeichen), Anruf = 2 Credits (begrenzt auf 450 Zeichen))
-- habe das Phonemarket-Plugin, installiere und konfiguriere, Dokumentation [hier](/plugins/communication/phonemarket/#LANG#/)
+- habe das Phonemarket-Plugin, installiere und konfiguriere, Dokumentation [hier](/plugins/communication/phonemarket)

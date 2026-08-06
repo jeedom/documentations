@@ -15,4 +15,4 @@ A simple example is : in case of triggering the alarm then I receive a call with
 It's very simple you have to : 
 
 - have SMS credit  : SMS = 1 credit (limited to 140 characters), call = 2 credits (limited to 450 characters)
-- have the phonemarket plugin, install and configure, documentation [here](/plugins/communication/phonemarket/#LANG#/)
+- have the phonemarket plugin, install and configure, documentation [here](/plugins/communication/phonemarket)

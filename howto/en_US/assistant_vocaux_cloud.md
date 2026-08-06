@@ -6,8 +6,8 @@ This service allows you to connect your Jeedom with voice assistants from Google
 
 It can be used with 
 
-- or the Google Smarthome plugin, [Documentation](/plugins/communication/gsh/#LANG#/)
-- or the Alexa plugin, [Documentation](/plugins/communication/ash/#LANG#/)
+- or the Google Smarthome plugin, [Documentation](/plugins/communication/gsh)
+- or the Alexa plugin, [Documentation](/plugins/communication/ash)
 
 This service is chargeable and can be subscribed on the Jeedom Market, in the page [My services](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 

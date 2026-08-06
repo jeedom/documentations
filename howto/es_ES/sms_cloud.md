@@ -15,4 +15,4 @@ Un ejemplo simple es : en caso de activar la alarma entonces recibo una llamada 
 Es muy simple tienes que : 
 
 - tener crédito por SMS  : SMS = 1 crédito (limitado a 140 caracteres), llamada = 2 créditos (limitado a 450 caracteres))
-- tener el plugin de phonemarket, instalarlo y configurarlo, documentación [aquí](/plugins/communication/phonemarket/#LANG#/)
+- tener el plugin de phonemarket, instalarlo y configurarlo, documentación [aquí](/plugins/communication/phonemarket)

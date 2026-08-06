@@ -136,7 +136,7 @@ The "Jeedom Link" plugin installed on the **Jeedom Source** will allow equipment
 > - The screenshots on a white background correspond to **Jeedom Source**.
 
 On the **Jeedom Source**,
-[Configuring](/plugins/communication/jeelink/#LANG#/)
+[Configuring](/plugins/communication/jeelink)
 the "Jeedom Link" plugin by specifying :
 
 -   The name of **Jeedom Target**.

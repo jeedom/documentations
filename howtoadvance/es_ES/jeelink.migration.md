@@ -136,7 +136,7 @@ El complemento "Jeedom Link" instalado en el **Fuente de la libertad** permitirÃ
 > - Las capturas de pantalla en un fondo blanco corresponden a **Fuente de la libertad**.
 
 Sobre **Fuente de la libertad**,
-[Configurar](/plugins/communication/jeelink/#LANG#/)
+[Configurar](/plugins/communication/jeelink)
 el complemento "Jeedom Link" especificando :
 
 -   El nombre de **Jeedom Target**.
