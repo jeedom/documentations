@@ -1,22 +1,27 @@
 const GENERAL_SECTIONS = ['presentation', 'concept', 'howto', 'howtoadvance', 'installation', 'compatibility', 'premiers-pas', 'mobile', 'contribute', 'dev', 'legal_notice', 'home']
 
+function nextSegment(path) {
+  const slash = path.indexOf('/', 1)
+  return slash === -1 ? [path.slice(1), ''] : [path.slice(1, slash), path.slice(slash)]
+}
+
 function localizeHref(href, _lang, _version) {
-  const secondSlash = href.indexOf('/', 1)
-  const section = secondSlash === -1 ? href.slice(1) : href.slice(1, secondSlash)
-  const rest = secondSlash === -1 ? '' : href.slice(secondSlash)
+  const [section, rest] = nextSegment(href)
   if (section === 'core') {
     return '/' + section + '/' + _version + '/' + _lang + rest
   }
   if (section === 'plugins') {
-    const catSecondSlash = rest.indexOf('/', 1)
-    const category = catSecondSlash === -1 ? rest.slice(1) : rest.slice(1, catSecondSlash)
-    const catRest = catSecondSlash === -1 ? '' : rest.slice(catSecondSlash)
+    const [category, catRest] = nextSegment(rest)
     if (catRest === '' || catRest === '/') {
       return '/' + section + '/' + category + '/' + _lang + '/'
     }
-    return '/' + section + '/' + category + '/' + _lang + catRest
+    const [plugin, pluginRest] = nextSegment(catRest)
+    if (pluginRest === '' || pluginRest === '/') {
+      return '/' + section + '/' + category + '/' + plugin + '/' + _lang + '/'
+    }
+    return '/' + section + '/' + category + '/' + plugin + '/' + _lang + pluginRest
   }
-  if (GENERAL_SECTIONS.indexOf(section) === -1) {
+  if (!GENERAL_SECTIONS.includes(section)) {
     return href
   }
   if (rest === '' || rest === '/') {
