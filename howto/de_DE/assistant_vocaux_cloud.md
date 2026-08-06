@@ -6,8 +6,8 @@ Mit diesem Dienst können Sie Ihr Jeedom mit Sprachassistenten von Google und Am
 
 Es kann mit verwendet werden 
 
-- oder das Google Smarthome Plugin, [Dokumentation](https://doc.jeedom.com/de_DE/plugins/communication/gsh)
-- oder das Alexa Plugin, [Dokumentation](https://doc.jeedom.com/de_DE/plugins/communication/ash)
+- oder das Google Smarthome Plugin, [Dokumentation](/plugins/communication/gsh/#LANG#/)
+- oder das Alexa Plugin, [Dokumentation](/plugins/communication/ash/#LANG#/)
 
 Dieser Service ist kostenpflichtig und kann auf dem Jeedom Market auf der Seite abonniert werden [Meine Dienste](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 

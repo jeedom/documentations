@@ -136,7 +136,7 @@ Le plugin "Jeedom Link" installé sur le **Jeedom Source** permettra la remonté
 > - Les copies d’écran sur fond blanc correspondent au **Jeedom Source**.
 
 Sur le **Jeedom Source**,
-[configurer](https://doc.jeedom.com/fr_FR/plugins/jeelink/jeelink)
+[configurer](/plugins/communication/jeelink/#LANG#/)
 le plugin "Jeedom Link" en spécifiant :
 
 -   Le nom du **Jeedom Cible**.

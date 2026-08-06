@@ -136,7 +136,7 @@ Das "Jeedom Link" Plugin ist auf dem installiert **Jeedom Source** ermöglicht d
 > - Die Screenshots auf weißem Hintergrund entsprechen **Jeedom Source**.
 
 Auf dem **Jeedom Source**,
-[Projektierungs](https://doc.jeedom.com/de_DE/plugins/jeelink/jeelink)
+[Projektierungs](/plugins/communication/jeelink/#LANG#/)
 das "Jeedom Link" Plugin durch Angabe :
 
 -   Der Name von **Jeedom Ziel**.

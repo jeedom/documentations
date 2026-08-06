@@ -25,7 +25,7 @@ Quel que soit le support choisi pour déployer votre instance Jeedom, vous trouv
 
 Vous souhaitez installer Jeedom :
 
-- [on a **Luna**](../plugins/home%20automation%20protocol/luna)
+- [on a **Luna**](/plugins/home%20automation%20protocol/luna/#LANG#/)
 - [on a **Smart/Atlas**](recovery)
 - [On a **Raspberry Pi**](rpi)
 - [On a **PC/mini-PC**](baremetal)

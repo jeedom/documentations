@@ -86,7 +86,7 @@ L'équipe développe des images système sur-mesure à destination de nombreuses
 
 | Image système      | Documentation      |
 |--------------------|--------------------|
-| [Luna](https://images.jeedom.com/luna/){:target="_blank"} | [Installation sur Luna](../plugins/home%20automation%20protocol/luna) |
+| [Luna](https://images.jeedom.com/luna/){:target="_blank"} | [Installation sur Luna](/plugins/home%20automation%20protocol/luna/#LANG#/) |
 | [Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Installation sur Atlas](../installation/recovery) |
 | [SMART](https://images.jeedom.com/smart/){:target="_blank"} | [Installation sur Smart](../installation/recovery) |
 | [Ordinateurs](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation sur PC/mini-PC](../installation/baremetal) |
