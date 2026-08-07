@@ -1,5 +1,7 @@
 const LANGUAGES = { fr_FR: 'Français', en_US: 'English', es_ES: 'Español', de_DE: 'Deutsch' }
+const LANGUAGE_CODES = Object.keys(LANGUAGES)
 const CORE_VERSIONS = ['4.3', '4.4', '4.5', '4.6']
+const SITE_ORIGIN = 'https://doc.jeedom.com'
 const GENERAL_SECTIONS = ['presentation', 'concept', 'howto', 'howtoadvance', 'installation', 'compatibility', 'premiers-pas', 'mobile', 'contribute', 'dev', 'legal_notice', 'home']
 
 function nextSegment(path) {
@@ -9,13 +11,15 @@ function nextSegment(path) {
 
 function localizeHref(href, _lang, _version) {
   const [section, rest] = nextSegment(href)
-  if (section === 'phpdoc') {
-    if (rest === '' || rest === '/') {
-      return '/' + section + '/' + _version + '/'
-    }
-    return '/' + section + '/' + _version + rest
-  }
   if (section === 'core') {
+    const [maybeVersion, afterVersion] = nextSegment(rest)
+    if (CORE_VERSIONS.includes(maybeVersion)) {
+      const [maybeLang] = nextSegment(afterVersion)
+      if (LANGUAGE_CODES.includes(maybeLang)) {
+        return '/' + section + rest
+      }
+      return '/' + section + '/' + maybeVersion + '/' + _lang + afterVersion
+    }
     return '/' + section + '/' + _version + '/' + _lang + rest
   }
   if (section === 'plugins' || section === 'plugins_contributor') {
@@ -24,13 +28,31 @@ function localizeHref(href, _lang, _version) {
       return '/' + section + '/' + category + '/' + _lang + '/'
     }
     const [plugin, pluginRest] = nextSegment(catRest)
+    const [maybeLang] = nextSegment(pluginRest)
+    if (LANGUAGE_CODES.includes(maybeLang)) {
+      return '/' + section + '/' + category + '/' + plugin + pluginRest
+    }
     if (pluginRest === '' || pluginRest === '/') {
       return '/' + section + '/' + category + '/' + plugin + '/' + _lang + '/'
     }
     return '/' + section + '/' + category + '/' + plugin + '/' + _lang + pluginRest
   }
+  if (section === 'phpdoc') {
+    const [maybeVersion] = nextSegment(rest)
+    if (CORE_VERSIONS.includes(maybeVersion)) {
+      return '/' + section + rest
+    }
+    if (rest === '' || rest === '/') {
+      return '/' + section + '/' + _version + '/'
+    }
+    return '/' + section + '/' + _version + rest
+  }
   if (!GENERAL_SECTIONS.includes(section)) {
     return href
+  }
+  const [maybeLang] = nextSegment(rest)
+  if (LANGUAGE_CODES.includes(maybeLang)) {
+    return '/' + section + rest
   }
   if (rest === '' || rest === '/') {
     return '/' + section + '/' + _lang + '/'
@@ -39,6 +61,9 @@ function localizeHref(href, _lang, _version) {
 }
 
 function resolveLink(link, _lang, _version) {
+  if (link === SITE_ORIGIN || link.indexOf(SITE_ORIGIN + '/') === 0) {
+    return localizeHref(link.slice(SITE_ORIGIN.length), _lang, _version)
+  }
   return link.charAt(0) === '/' ? localizeHref(link, _lang, _version) : link
 }
 
@@ -255,14 +280,13 @@ setTheme()
 
 $('#ul_menu').empty()
 var html = ''
-var langCodes = Object.keys(LANGUAGES)
-var lang = langCodes.find(function (l) { return window.location.href.indexOf(l) !== -1 })
+var lang = LANGUAGE_CODES.find(function(l) { return window.location.href.indexOf(l) !== -1 })
 if (!lang) {
   if (getCookie('lang') != '') {
     lang = getCookie('lang')
   } else {
     var userLang = (navigator.language || navigator.userLanguage).toLowerCase()
-    lang = langCodes.find(function (l) { return userLang.indexOf(l.slice(0, 2)) !== -1 }) || 'fr_FR'
+    lang = LANGUAGE_CODES.find(function(l) { return userLang.indexOf(l.slice(0, 2)) !== -1 }) || 'fr_FR'
   }
 }
 if (getCookie('lang') != lang) {
@@ -270,7 +294,7 @@ if (getCookie('lang') != lang) {
 }
 
 $('#meta-lang').attr('content', lang)
-var jeedomVersion = CORE_VERSIONS.find(function (v) { return window.location.href.indexOf(v) !== -1 })
+var jeedomVersion = CORE_VERSIONS.find(function(v) { return window.location.href.indexOf(v) !== -1 })
 if (!jeedomVersion) {
   jeedomVersion = getCookie('jeedomVersion') || CORE_VERSIONS[CORE_VERSIONS.length - 1]
 }
@@ -279,13 +303,13 @@ if (getCookie('jeedomVersion') != jeedomVersion) {
 }
 
 $('#sel_lang').empty()
-langCodes.forEach(function (l) {
+LANGUAGE_CODES.forEach(function(l) {
   $('#sel_lang').append('<option value="' + l + '">' + LANGUAGES[l] + '</option>')
 })
 $('#sel_lang').val(lang)
 
 $('#sel_jeedomVersion').empty()
-CORE_VERSIONS.forEach(function (v) {
+CORE_VERSIONS.forEach(function(v) {
   $('#sel_jeedomVersion').append('<option value="' + v + '">Core ' + v + '</option>')
 })
 $('#sel_jeedomVersion').val(jeedomVersion)
@@ -389,7 +413,7 @@ $(function() {
   $('#sel_lang').on('change', function() {
     var newLang = $(this).val()
     setCookie('lang', newLang, 7)
-    window.location.href = Object.keys(LANGUAGES).reduce(function (url, l) {
+    window.location.href = LANGUAGE_CODES.reduce(function(url, l) {
       return url.replace(l, newLang)
     }, window.location.href)
   })
@@ -404,7 +428,7 @@ $(function() {
     setCookie('jeedomVersion', newVersion, 7)
     var url = window.location.href
     if (url.indexOf('/core/') != -1 && url.indexOf(newVersion) == -1) {
-      window.location.href = CORE_VERSIONS.reduce(function (u, v) {
+      window.location.href = CORE_VERSIONS.reduce(function(u, v) {
         return u.replace(v, newVersion)
       }, url)
       return
