@@ -28,6 +28,17 @@ function localizeHref(href, _lang, _version) {
       return '/' + section + '/' + category + '/' + _lang + '/'
     }
     const [plugin, pluginRest] = nextSegment(catRest)
+    const [maybeBeta, afterBeta] = nextSegment(pluginRest)
+    if (maybeBeta === 'beta') {
+      const [maybeLang] = nextSegment(afterBeta)
+      if (LANGUAGE_CODES.includes(maybeLang)) {
+        return '/' + section + '/' + category + '/' + plugin + pluginRest
+      }
+      if (afterBeta === '' || afterBeta === '/') {
+        return '/' + section + '/' + category + '/' + plugin + '/beta/' + _lang + '/'
+      }
+      return '/' + section + '/' + category + '/' + plugin + '/beta/' + _lang + afterBeta
+    }
     const [maybeLang] = nextSegment(pluginRest)
     if (LANGUAGE_CODES.includes(maybeLang)) {
       return '/' + section + '/' + category + '/' + plugin + pluginRest
