@@ -1,9 +1,0 @@
-{
-	"id" : "kroomba",
-	"name" : "K Roomba",
-	"licence" : "AGPL",
-	"author" : "kavod",
-	"require" : "2.4",
-	"category" : "devicecommunication",
-  "hasDependency" : 1
-}
