@@ -45,7 +45,7 @@ jobs:
           set -euo pipefail
           mkdir -p phpdoc-output
           docker run --rm \
-            -v "$PWD/core-src/core/core/class:/data/src:ro" \
+            -v "$PWD/core-src/core/class:/data/src:ro" \
             -v "$PWD/phpdoc-output:/data/target" \
             phpdoc/phpdoc:3 -d /data/src -t /data/target
 

@@ -1,1013 +1,2224 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-    <meta charset="utf-8"/>
-    <title>API Documentation</title>
-    <meta name="author" content=""/>
-    <meta name="description" content=""/>
+    <meta charset="utf-8">
+            <title>Documentation</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">Documentation</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
 
-    <link href="../css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-    <link href="../css/font-awesome.min.css" rel="stylesheet">
-    <link href="../css/prism.css" rel="stylesheet" media="all"/>
-    <link href="../css/template.css" rel="stylesheet" media="all"/>
-    <!--[if lt IE 9]>
-    <script src="../js/html5.js"></script>
-    <![endif]-->
-    <script src="../js/jquery-1.11.0.min.js"></script>
-    <script src="../js/ui/1.10.4/jquery-ui.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/jquery.smooth-scroll.js"></script>
-    <script src="../js/prism.min.js"></script>
-    <!-- TODO: Add http://jscrollpane.kelvinluck.com/ to style the scrollbars for browsers not using webkit--><script type="text/javascript">
-    function loadExternalCodeSnippets() {
-        Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach(function (pre) {
-            var src = pre.getAttribute('data-src').replace( /\\/g, '/');
-            var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
-            var language = 'php';
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
 
-            var code = document.createElement('code');
-            code.className = 'language-' + language;
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category -packages">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
 
-            pre.textContent = '';
+                        </section>
+            
+    <section class="phpdocumentor-sidebar__category -reports">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
 
-            code.textContent = 'Loading…';
+    <section class="phpdocumentor-sidebar__category -indices">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
 
-            pre.appendChild(code);
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+    </ul>
 
-            var xhr = new XMLHttpRequest();
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    DB
 
-            xhr.open('GET', src, true);
-
-            xhr.onreadystatechange = function () {
-                if (xhr.readyState == 4) {
-
-                    if (xhr.status < 400 && xhr.responseText) {
-                        code.textContent = xhr.responseText;
-
-                        Prism.highlightElement(code);
-                    }
-                    else if (xhr.status >= 400) {
-                        code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
-                    }
-                    else {
-                        code.textContent = '✖ Error: File does not exist or is empty';
-                    }
-                }
-            };
-
-            xhr.send(null);
-        });
-    }
-
-    $(document).ready(function(){
-        loadExternalCodeSnippets();
-    });
-    $('#source-view').on('shown', function () {
-        loadExternalCodeSnippets();
-    })
-</script>
-    <link rel="shortcut icon" href="../images/favicon.ico"/>
-    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
-    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
-    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
-</head>
-<body>
-
-<div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <i class="icon-ellipsis-vertical"></i>
-            </a>
-            <a class="brand" href="../index.html">API Documentation</a>
-
-            <div class="nav-collapse">
-                <ul class="nav pull-right">                    <li class="dropdown" id="charts-menu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            Charts <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="../graphs/class.html">
-                                    <i class="icon-list-alt"></i>&#160;Class hierarchy diagram
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown" id="reports-menu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            Reports <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="../reports/errors.html">                                    <i class="icon-list-alt"></i>&#160;Errors <span class="label label-info pull-right">3176</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="../reports/markers.html">                                    <i class="icon-list-alt"></i>&#160;Markers <span class="label label-info pull-right">1</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="../reports/deprecated.html">                                    <i class="icon-list-alt"></i>&#160;Deprecated <span class="label label-info pull-right">1</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+    
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+                            </ul>
         </div>
-    </div>
-    <!--<div class="go_to_top">-->
-    <!--<a href="#___" style="color: inherit">Back to top&#160;&#160;<i class="icon-upload icon-white"></i></a>-->
-    <!--</div>-->
+    
+    
+    </h2>
+
+<div class="phpdocumentor-label-line">
+
+
 </div>
 
-<div id="___" class="container-fluid">    <section class="row-fluid">
-        <div class="span2 sidebar">    <div class="accordion" style="margin-bottom: 0">
-        <div class="accordion-group">
-            <div class="accordion-heading">                    <a class="accordion-toggle" data-toggle="collapse" data-target="#namespace-806280126"></a>                <a href="../namespaces/default.html" style="margin-left: 30px; padding-left: 0">\</a>
-            </div>
-            <div id="namespace-806280126" class="accordion-body collapsein">
-                <div class="accordion-inner">
-                    <ul>                            <li class="class"><a href="../classes/ajax.html">ajax</a></li>                            <li class="class"><a href="../classes/cache.html">cache</a></li>                            <li class="class"><a href="../classes/cmd.html">cmd</a></li>                            <li class="class"><a href="../classes/cron.html">cron</a></li>                            <li class="class"><a href="../classes/dataStore.html">dataStore</a></li>                            <li class="class"><a href="../classes/DB.html">DB</a></li>                            <li class="class"><a href="../classes/eqLogic.html">eqLogic</a></li>                            <li class="class"><a href="../classes/event.html">event</a></li>                            <li class="class"><a href="../classes/history.html">history</a></li>                            <li class="class"><a href="../classes/historyArch.html">historyArch</a></li>                            <li class="class"><a href="../classes/interactDef.html">interactDef</a></li>                            <li class="class"><a href="../classes/interactQuery.html">interactQuery</a></li>                            <li class="class"><a href="../classes/jeedom.html">jeedom</a></li>                            <li class="class"><a href="../classes/jeeObject.html">jeeObject</a></li>                            <li class="class"><a href="../classes/jsonrpc.html">jsonrpc</a></li>                            <li class="class"><a href="../classes/jsonrpcClient.html">jsonrpcClient</a></li>                            <li class="class"><a href="../classes/listener.html">listener</a></li>                            <li class="class"><a href="../classes/log.html">log</a></li>                            <li class="class"><a href="../classes/message.html">message</a></li>                            <li class="class"><a href="../classes/network.html">network</a></li>                            <li class="class"><a href="../classes/note.html">note</a></li>                            <li class="class"><a href="../classes/plan.html">plan</a></li>                            <li class="class"><a href="../classes/plan3d.html">plan3d</a></li>                            <li class="class"><a href="../classes/plan3dHeader.html">plan3dHeader</a></li>                            <li class="class"><a href="../classes/planHeader.html">planHeader</a></li>                            <li class="class"><a href="../classes/plugin.html">plugin</a></li>                            <li class="class"><a href="../classes/report.html">report</a></li>                            <li class="class"><a href="../classes/scenario.html">scenario</a></li>                            <li class="class"><a href="../classes/scenarioElement.html">scenarioElement</a></li>                            <li class="class"><a href="../classes/scenarioExpression.html">scenarioExpression</a></li>                            <li class="class"><a href="../classes/scenarioSubElement.html">scenarioSubElement</a></li>                            <li class="class"><a href="../classes/system.html">system</a></li>                            <li class="class"><a href="../classes/timeline.html">timeline</a></li>                            <li class="class"><a href="../classes/translate.html">translate</a></li>                            <li class="class"><a href="../classes/update.html">update</a></li>                            <li class="class"><a href="../classes/user.html">user</a></li>                            <li class="class"><a href="../classes/utils.html">utils</a></li>                            <li class="class"><a href="../classes/view.html">view</a></li>                            <li class="class"><a href="../classes/viewData.html">viewData</a></li>                            <li class="class"><a href="../classes/viewZone.html">viewZone</a></li>                            <li class="class"><a href="../classes/widgets.html">widgets</a></li>                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-        </div>
-    </section>
-    <section class="row-fluid">
-        <div class="span10 offset2">
-            <div class="row-fluid">
-                <div class="span8 content class">
-                    <nav><a href="../namespaces/default.html">\</a> <i class="icon-level-up"></i>                    </nav>
-                    <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal"><i class="icon-code"></i></a>
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
-                    <h1><small>\</small>DB</h1>
-                    <p><em></em></p>                    
-                    <section id="summary">
-                        <h2>Summary</h2>
-                        <section class="row-fluid heading">
-                            <section class="span4">
-                                <a href="#methods">Methods</a>
-                            </section>
-                            <section class="span4">
-                                <a href="#properties">Properties</a>
-                            </section>
-                            <section class="span4">
-                                <a href="#constants">Constants</a>
-                            </section>
-                        </section>
-                        <section class="row-fluid public">
-                            <section class="span4">                                    <a href="../classes/DB.html#method_getLastInsertId" class="">getLastInsertId()</a><br />                                    <a href="../classes/DB.html#method_getConnection" class="">getConnection()</a><br />                                    <a href="../classes/DB.html#method_CallStoredProc" class="">CallStoredProc()</a><br />                                    <a href="../classes/DB.html#method_Prepare" class="">Prepare()</a><br />                                    <a href="../classes/DB.html#method___clone" class="">__clone()</a><br />                                    <a href="../classes/DB.html#method_optimize" class="">optimize()</a><br />                                    <a href="../classes/DB.html#method_beginTransaction" class="">beginTransaction()</a><br />                                    <a href="../classes/DB.html#method_commit" class="">commit()</a><br />                                    <a href="../classes/DB.html#method_rollBack" class="">rollBack()</a><br />                                    <a href="../classes/DB.html#method_save" class="">save()</a><br />                                    <a href="../classes/DB.html#method_refresh" class="">refresh()</a><br />                                    <a href="../classes/DB.html#method_getWithFilter" class="">getWithFilter()</a><br />                                    <a href="../classes/DB.html#method_remove" class="">remove()</a><br />                                    <a href="../classes/DB.html#method_checksum" class="">checksum()</a><br />                                    <a href="../classes/DB.html#method_lock" class="">lock()</a><br />                                    <a href="../classes/DB.html#method_buildField" class="">buildField()</a><br />                                    <a href="../classes/DB.html#method_compareAndFix" class="">compareAndFix()</a><br />                                    <a href="../classes/DB.html#method_compareDatabase" class="">compareDatabase()</a><br />                                    <a href="../classes/DB.html#method_compareTable" class="">compareTable()</a><br />                                    <a href="../classes/DB.html#method_prepareIndexCompare" class="">prepareIndexCompare()</a><br />                                    <a href="../classes/DB.html#method_compareField" class="">compareField()</a><br />                                    <a href="../classes/DB.html#method_compareIndex" class="">compareIndex()</a><br />                                    <a href="../classes/DB.html#method_buildDefinitionField" class="">buildDefinitionField()</a><br />                                    <a href="../classes/DB.html#method_buildDefinitionIndex" class="">buildDefinitionIndex()</a><br />                            </section>
-                            <section class="span4">                                    <em>No public properties found</em>                            </section>
-                            <section class="span4">                                    <a href="../classes/DB.html#constant_FETCH_TYPE_ROW" class="">FETCH_TYPE_ROW</a><br />                                    <a href="../classes/DB.html#constant_FETCH_TYPE_ALL" class="">FETCH_TYPE_ALL</a><br />                            </section>
-                        </section>
-                        <section class="row-fluid protected">
-                            <section class="span4">                                    <em>No protected methods found</em>                            </section>
-                            <section class="span4">                                    <em>No protected properties found</em>                            </section>
-                            <section class="span4">
-                                <em>N/A</em>
-                            </section>
-                        </section>
-                        <section class="row-fluid private">
-                            <section class="span4">                                    <a href="../classes/DB.html#method_initConnection" class="">initConnection()</a><br />                                    <a href="../classes/DB.html#method_getTableName" class="">getTableName()</a><br />                                    <a href="../classes/DB.html#method_getFields" class="">getFields()</a><br />                                    <a href="../classes/DB.html#method_setField" class="">setField()</a><br />                                    <a href="../classes/DB.html#method_buildQuery" class="">buildQuery()</a><br />                                    <a href="../classes/DB.html#method_getField" class="">getField()</a><br />                                    <a href="../classes/DB.html#method_getReflectionClass" class="">getReflectionClass()</a><br />                            </section>
-                            <section class="span4">                                    <a href="../classes/DB.html#property_connection" class="">$connection</a><br />                                    <a href="../classes/DB.html#property_lastConnection" class="">$lastConnection</a><br />                                    <a href="../classes/DB.html#property_fields" class="">$fields</a><br />                            </section>
-                            <section class="span4">
-                                <em>N/A</em>
-                            </section>
-                        </section>
-                    </section>
-                </div>
-                <aside class="span4 detailsbar">
-                    <dl>
-                        <dt>File</dt>
-                            <dd><a href="../files/DB.class.html"><div class="path-wrapper">DB.class.php</div></a></dd>                        <dt>Package</dt>
-                            <dd><div class="namespace-wrapper">Default</div></dd>                        <dt>Class hierarchy</dt>
-                            <dd class="hierarchy">                                <div class="namespace-wrapper">\DB</div>
-                            </dd>                    </dl>
-                    <h2>Tags</h2>
-                    <table class="table table-condensed">                        <tr><td colspan="2"><em>None found</em></td></tr>                    </table>
-                </aside>
-            </div>            <a id="constants" name="constants"></a>
-            <div class="row-fluid">
-                <div class="span8 content class">
-                    <h2>Constants</h2>
-                </div>
-                <aside class="span4 detailsbar"></aside>
-            </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="constant_FETCH_TYPE_ROW" name="constant_FETCH_TYPE_ROW" class="anchor"></a>
-            <article id="constant_FETCH_TYPE_ROW" class="constant">
-                <h3 class="">FETCH_TYPE_ROW</h3>
-                <pre class="signature">FETCH_TYPE_ROW =0</pre>
-                <p><em></em></p>
-            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>            <dl>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="constant_FETCH_TYPE_ALL" name="constant_FETCH_TYPE_ALL" class="anchor"></a>
-            <article id="constant_FETCH_TYPE_ALL" class="constant">
-                <h3 class="">FETCH_TYPE_ALL</h3>
-                <pre class="signature">FETCH_TYPE_ALL =1</pre>
-                <p><em></em></p>
-            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>            <dl>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>            <a id="properties" name="properties"></a>
-            <div class="row-fluid">
-                <div class="span8 content class">
-                    <h2>Properties</h2>
-                </div>
-                <aside class="span4 detailsbar"></aside>
-            </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="property_connection" name="property_connection" class="anchor"></a>
-            <article class="property">
-                <h3 class="private">$connection</h3>
-                <pre class="signature">$connection :</pre>
-                <p><em></em></p>                <h4>Type</h4>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>            <dl>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="property_lastConnection" name="property_lastConnection" class="anchor"></a>
-            <article class="property">
-                <h3 class="private">$lastConnection</h3>
-                <pre class="signature">$lastConnection :</pre>
-                <p><em></em></p>                <h4>Type</h4>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>            <dl>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="property_fields" name="property_fields" class="anchor"></a>
-            <article class="property">
-                <h3 class="private">$fields</h3>
-                <pre class="signature">$fields :</pre>
-                <p><em></em></p>                <h4>Type</h4>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>            <dl>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>            <a id="methods" name="methods"></a>
-            <div class="row-fluid">
-                <div class="span8 content class"><h2>Methods</h2></div>
-                <aside class="span4 detailsbar"></aside>
-            </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_getLastInsertId" name="method_getLastInsertId" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">getLastInsertId()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">getLastInsertId()</pre>
-                <p><em></em></p>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_getConnection" name="method_getConnection" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">getConnection()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">getConnection()</pre>
-                <p><em></em></p>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_CallStoredProc" name="method_CallStoredProc" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">CallStoredProc()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">CallStoredProc(  <span class="argument">$_procName</span>,  <span class="argument">$_params</span>,  <span class="argument">$_fetch_type</span>,  <span class="argument">$_className = NULL</span>,  <span class="argument">$_fetch_opt = NULL</span>)</pre>
-                <p><em></em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td></td>
-                                <td>$_procName</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_params</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_fetch_type</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_className</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_fetch_opt</td>
-                                <td></td>
-                            </tr>                    </table>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_Prepare" name="method_Prepare" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">Prepare()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">Prepare(  <span class="argument">$_query</span>,  <span class="argument">$_params</span>,  <span class="argument">$_fetchType = self::FETCH_TYPE_ROW</span>,  <span class="argument">$_fetch_param = \PDO::FETCH_ASSOC</span>,  <span class="argument">$_fetch_opt = NULL</span>)</pre>
-                <p><em></em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td></td>
-                                <td>$_query</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_params</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_fetchType</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_fetch_param</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_fetch_opt</td>
-                                <td></td>
-                            </tr>                    </table>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method___clone" name="method___clone" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">__clone()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">__clone()</pre>
-                <p><em></em></p>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_optimize" name="method_optimize" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">optimize()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">optimize()</pre>
-                <p><em></em></p>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_beginTransaction" name="method_beginTransaction" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">beginTransaction()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">beginTransaction()</pre>
-                <p><em></em></p>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_commit" name="method_commit" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">commit()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">commit()</pre>
-                <p><em></em></p>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_rollBack" name="method_rollBack" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">rollBack()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">rollBack()</pre>
-                <p><em></em></p>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_save" name="method_save" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">save()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">save(object  <span class="argument">$object</span>,  <span class="argument">$_direct = false</span>,  <span class="argument">$_replace = false</span>): boolean</pre>
-                <p><em>Saves an entity inside the repository. If the entity is new a new row
-will be created. If the entity is not new the row will be updated.</em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td>object</td>
-                                <td>$object</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_direct</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_replace</td>
-                                <td></td>
-                            </tr>                    </table>                    <h4>Returns</h4>boolean            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_refresh" name="method_refresh" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">refresh()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">refresh(  <span class="argument">$object</span>)</pre>
-                <p><em></em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td></td>
-                                <td>$object</td>
-                                <td></td>
-                            </tr>                    </table>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_getWithFilter" name="method_getWithFilter" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">getWithFilter()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">getWithFilter(  <span class="argument">$_filters</span>,  <span class="argument">$_object</span>): \Objet</pre>
-                <p><em>Retourne une liste d&#039;objets ou un objet en fonction de filtres</em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td></td>
-                                <td>$_filters</td>
-                                <td><p>Filtres à appliquer</p></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_object</td>
-                                <td><p>Objet sur lequel appliquer les filtres</p></td>
-                            </tr>                    </table>                    <h4>Returns</h4>\Objet                        &mdash;<p>ou liste d'objets correspondant à la requête</p>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_remove" name="method_remove" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">remove()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">remove(object  <span class="argument">$object</span>): boolean</pre>
-                <p><em>Deletes an entity.</em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td>object</td>
-                                <td>$object</td>
-                                <td></td>
-                            </tr>                    </table>                    <h4>Returns</h4>boolean            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_checksum" name="method_checksum" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">checksum()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">checksum(  <span class="argument">$_table</span>)</pre>
-                <p><em></em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td></td>
-                                <td>$_table</td>
-                                <td></td>
-                            </tr>                    </table>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_lock" name="method_lock" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">lock()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">lock(object  <span class="argument">$object</span>): boolean</pre>
-                <p><em>Lock an entity.</em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td>object</td>
-                                <td>$object</td>
-                                <td></td>
-                            </tr>                    </table>                    <h4>Returns</h4>boolean            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_buildField" name="method_buildField" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">buildField()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">buildField(  <span class="argument">$_class</span>,  <span class="argument">$_prefix = &#039;&#039;</span>)</pre>
-                <p><em></em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td></td>
-                                <td>$_class</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_prefix</td>
-                                <td></td>
-                            </tr>                    </table>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_compareAndFix" name="method_compareAndFix" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">compareAndFix()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">compareAndFix(  <span class="argument">$_database</span>,  <span class="argument">$_table = &#039;all&#039;</span>,  <span class="argument">$_verbose = false</span>,  <span class="argument">$_loop</span>)</pre>
-                <p><em></em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td></td>
-                                <td>$_database</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_table</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_verbose</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_loop</td>
-                                <td></td>
-                            </tr>                    </table>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_compareDatabase" name="method_compareDatabase" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">compareDatabase()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">compareDatabase(  <span class="argument">$_database</span>)</pre>
-                <p><em></em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td></td>
-                                <td>$_database</td>
-                                <td></td>
-                            </tr>                    </table>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_compareTable" name="method_compareTable" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">compareTable()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">compareTable(  <span class="argument">$_table</span>)</pre>
-                <p><em></em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td></td>
-                                <td>$_table</td>
-                                <td></td>
-                            </tr>                    </table>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_prepareIndexCompare" name="method_prepareIndexCompare" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">prepareIndexCompare()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">prepareIndexCompare(  <span class="argument">$indexes</span>)</pre>
-                <p><em></em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td></td>
-                                <td>$indexes</td>
-                                <td></td>
-                            </tr>                    </table>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_compareField" name="method_compareField" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">compareField()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">compareField(  <span class="argument">$_ref_field</span>,  <span class="argument">$_real_field</span>,  <span class="argument">$_table_name</span>)</pre>
-                <p><em></em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td></td>
-                                <td>$_ref_field</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_real_field</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_table_name</td>
-                                <td></td>
-                            </tr>                    </table>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_compareIndex" name="method_compareIndex" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">compareIndex()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">compareIndex(  <span class="argument">$_ref_index</span>,  <span class="argument">$_real_index</span>,  <span class="argument">$_table_name</span>,  <span class="argument">$_forceRebuild = false</span>)</pre>
-                <p><em></em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td></td>
-                                <td>$_ref_index</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_real_index</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_table_name</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_forceRebuild</td>
-                                <td></td>
-                            </tr>                    </table>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_buildDefinitionField" name="method_buildDefinitionField" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">buildDefinitionField()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">buildDefinitionField(  <span class="argument">$_field</span>)</pre>
-                <p><em></em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td></td>
-                                <td>$_field</td>
-                                <td></td>
-                            </tr>                    </table>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_buildDefinitionIndex" name="method_buildDefinitionIndex" class="anchor"></a>
-            <article class="method">
-                <h3 class="public">buildDefinitionIndex()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">buildDefinitionIndex(  <span class="argument">$_index</span>,  <span class="argument">$_table_name</span>)</pre>
-                <p><em></em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td></td>
-                                <td>$_index</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td></td>
-                                <td>$_table_name</td>
-                                <td></td>
-                            </tr>                    </table>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_initConnection" name="method_initConnection" class="anchor"></a>
-            <article class="method">
-                <h3 class="private">initConnection()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">initConnection()</pre>
-                <p><em></em></p>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_getTableName" name="method_getTableName" class="anchor"></a>
-            <article class="method">
-                <h3 class="private">getTableName()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">getTableName(  <span class="argument">$object</span>): string</pre>
-                <p><em>Returns the name of the table where to save entities.</em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td></td>
-                                <td>$object</td>
-                                <td></td>
-                            </tr>                    </table>                    <h4>Returns</h4>string            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_getFields" name="method_getFields" class="anchor"></a>
-            <article class="method">
-                <h3 class="private">getFields()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">getFields(mixed  <span class="argument">$object</span>): mixed</pre>
-                <p><em></em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td>mixed</td>
-                                <td>$object</td>
-                                <td></td>
-                            </tr>                    </table>                    <h4>Throws</h4>
-                    <dl>                            <dt>\RuntimeException</dt>
-                            <dd></dd>                    </dl>                    <h4>Returns</h4>mixed            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_setField" name="method_setField" class="anchor"></a>
-            <article class="method">
-                <h3 class="private">setField()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">setField(object  <span class="argument">$object</span>,string  <span class="argument">$field</span>,mixed  <span class="argument">$value</span>)</pre>
-                <p><em>Forces the value of a field of a given object, even if this field is
-not accessible.</em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td>object</td>
-                                <td>$object</td>
-                                <td><p>The entity to alter</p></td>
-                            </tr>                            <tr>
-                                <td>string</td>
-                                <td>$field</td>
-                                <td><p>The name of the member to alter</p></td>
-                            </tr>                            <tr>
-                                <td>mixed</td>
-                                <td>$value</td>
-                                <td><p>The value to give to the member</p></td>
-                            </tr>                    </table>            </article>
-        </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_buildQuery" name="method_buildQuery" class="anchor"></a>
-            <article class="method">
-                <h3 class="private">buildQuery()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">buildQuery(mixed  <span class="argument">$object</span>): array</pre>
-                <p><em>Builds the elements for an SQL query. It will return two lists, the
+    </aside>
+
+        
+
+
+
+
+    
+    
+<h3 id="toc">
+    Table of Contents
+    <a href="classes/DB.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h3>
+
+
+
+
+
+
+
+<h4 id="toc-constants">
+    Constants
+    <a href="classes/DB.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/DB.html#constant_FETCH_TYPE_ALL">FETCH_TYPE_ALL</a>
+    <span>
+        &nbsp;: mixed&nbsp;= 1                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/DB.html#constant_FETCH_TYPE_ROW">FETCH_TYPE_ROW</a>
+    <span>
+        &nbsp;: mixed&nbsp;= 0                            </span>
+</dt>
+
+    </dl>
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/DB.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/DB.html#property_connection">$connection</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/DB.html#property_fields">$fields</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/DB.html#property_lastConnection">$lastConnection</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/DB.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method___clone">__clone()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_beginTransaction">beginTransaction()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_buildDefinitionField">buildDefinitionField()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_buildDefinitionIndex">buildDefinitionIndex()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_buildField">buildField()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_CallStoredProc">CallStoredProc()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_checksum">checksum()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_commit">commit()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_compareAndFix">compareAndFix()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_compareDatabase">compareDatabase()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_compareField">compareField()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_compareIndex">compareIndex()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_compareTable">compareTable()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_getConnection">getConnection()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_getLastInsertId">getLastInsertId()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_getWithFilter">getWithFilter()</a>
+    <span>
+                                &nbsp;: <abbr title="\Objet">Objet</abbr>    </span>
+</dt>
+<dd>Retourne une liste d&#039;objets ou un objet en fonction de filtres</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_lock">lock()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Lock an entity.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_optimize">optimize()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_Prepare">Prepare()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_prepareIndexCompare">prepareIndexCompare()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_refresh">refresh()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_remove">remove()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Deletes an entity.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_rollBack">rollBack()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/DB.html#method_save">save()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Saves an entity inside the repository. If the entity is new a new row
+will be created. If the entity is not new the row will be updated.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/DB.html#method_buildQuery">buildQuery()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Builds the elements for an SQL query. It will return two lists, the
 first being the list of parts &quot;key=:key&quot; to inject in the SQL, the
-second being the mapping of these parameters to the values.</em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td>mixed</td>
-                                <td>$object</td>
-                                <td></td>
-                            </tr>                    </table>                    <h4>Returns</h4>array            </article>
+second being the mapping of these parameters to the values.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/DB.html#method_getField">getField()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Returns the value of a field of a given object. It&#039;ll try to use a
+getter first if defined. If not defined, we&#039;ll use the reflection API.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/DB.html#method_getFields">getFields()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/DB.html#method_getReflectionClass">getReflectionClass()</a>
+    <span>
+                                &nbsp;: <abbr title="\ReflectionClass">ReflectionClass</abbr>    </span>
+</dt>
+<dd>Returns the reflection class for the given object.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/DB.html#method_getTableName">getTableName()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Returns the name of the table where to save entities.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/DB.html#method_initConnection">initConnection()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/DB.html#method_setField">setField()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Forces the value of a field of a given object, even if this field is
+not accessible.</dd>
+
+    </dl>
+
+
+
+        
+    <section class="phpdocumentor-constants">
+        <h3 class="phpdocumentor-elements__header" id="constants">
+            Constants
+            <a href="classes/DB.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FETCH_TYPE_ALL">
+        FETCH_TYPE_ALL
+        <a href="classes/DB.html#constant_FETCH_TYPE_ALL" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">25</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FETCH_TYPE_ALL</span>
+    = <span class="phpdocumentor-signature__default-value">1</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FETCH_TYPE_ROW">
+        FETCH_TYPE_ROW
+        <a href="classes/DB.html#constant_FETCH_TYPE_ROW" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">24</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FETCH_TYPE_ROW</span>
+    = <span class="phpdocumentor-signature__default-value">0</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+            </section>
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/DB.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_connection">
+        $connection
+        <a href="classes/DB.html#property_connection" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">29</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$connection</span>
+     = <span class="phpdocumentor-signature__default-value">\null</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_fields">
+        $fields
+        <a href="classes/DB.html#property_fields" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">31</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$fields</span>
+     = <span class="phpdocumentor-signature__default-value">array()</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_lastConnection">
+        $lastConnection
+        <a href="classes/DB.html#property_lastConnection" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">30</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$lastConnection</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/DB.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___clone">
+        __clone()
+        <a href="classes/DB.html#method___clone" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">145</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__clone</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
         </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_getField" name="method_getField" class="anchor"></a>
-            <article class="method">
-                <h3 class="private">getField()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">getField(object  <span class="argument">$object</span>,string  <span class="argument">$field</span>): mixed</pre>
-                <p><em>Returns the value of a field of a given object. It&#039;ll try to use a
-getter first if defined. If not defined, we&#039;ll use the reflection API.</em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td>object</td>
-                                <td>$object</td>
-                                <td></td>
-                            </tr>                            <tr>
-                                <td>string</td>
-                                <td>$field</td>
-                                <td></td>
-                            </tr>                    </table>                    <h4>Throws</h4>
-                    <dl>                            <dt>\RuntimeException</dt>
-                            <dd><p>if the getter is not defined</p></dd>                    </dl>                    <h4>Returns</h4>mixed            </article>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_beginTransaction">
+        beginTransaction()
+        <a href="classes/DB.html#method_beginTransaction" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">158</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">beginTransaction</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
         </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>    <div class="row-fluid">
-        <div class="span8 content class">
-            <a id="method_getReflectionClass" name="method_getReflectionClass" class="anchor"></a>
-            <article class="method">
-                <h3 class="private">getReflectionClass()</h3>
-                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">getReflectionClass(object  <span class="argument">$object</span>): \ReflectionClass</pre>
-                <p><em>Returns the reflection class for the given object.</em></p>                    <h4>Parameters</h4>
-                    <table class="table table-condensed table-hover">                            <tr>
-                                <td>object</td>
-                                <td>$object</td>
-                                <td></td>
-                            </tr>                    </table>                    <h4>Returns</h4>\ReflectionClass            </article>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_buildDefinitionField">
+        buildDefinitionField()
+        <a href="classes/DB.html#method_buildDefinitionField" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">839</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">buildDefinitionField</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_field</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
         </div>
-        <aside class="span4 detailsbar">
-            <h1><i class="icon-arrow-down"></i></h1>                <span class="label label-info">static</span>            <dl>                    <dt>Inherited from</dt>
-                    <dd><a href="../classes/DB.html"><div class="path-wrapper">\DB</div></a></dd>            </dl>
-            <h2>Tags</h2>
-            <table class="table table-condensed">                    <tr><td colspan="2"><em>None found</em></td></tr>            </table>
-        </aside>
-    </div>        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_field</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_buildDefinitionIndex">
+        buildDefinitionIndex()
+        <a href="classes/DB.html#method_buildDefinitionIndex" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">855</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">buildDefinitionIndex</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_index</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_table_name</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_index</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_table_name</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_buildField">
+        buildField()
+        <a href="classes/DB.html#method_buildField" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">545</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">buildField</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_class</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_prefix</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">''</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_class</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_prefix</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">''</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_CallStoredProc">
+        CallStoredProc()
+        <a href="classes/DB.html#method_CallStoredProc" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">75</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__reference-operator">&amp;</span>    <span class="phpdocumentor-signature__name">CallStoredProc</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_procName</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_params</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_fetch_type</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_className</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_fetch_opt</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_procName</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_params</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_fetch_type</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_className</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_fetch_opt</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_checksum">
+        checksum()
+        <a href="classes/DB.html#method_checksum" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">386</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">checksum</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_table</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_table</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_commit">
+        commit()
+        <a href="classes/DB.html#method_commit" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">162</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">commit</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_compareAndFix">
+        compareAndFix()
+        <a href="classes/DB.html#method_compareAndFix" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">561</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">compareAndFix</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_database</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_table</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">'all'</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_verbose</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_loop</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_database</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_table</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">'all'</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_verbose</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_loop</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">0</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_compareDatabase">
+        compareDatabase()
+        <a href="classes/DB.html#method_compareDatabase" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">633</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">compareDatabase</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_database</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_database</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_compareField">
+        compareField()
+        <a href="classes/DB.html#method_compareField" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">789</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">compareField</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_ref_field</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_real_field</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_table_name</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_ref_field</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_real_field</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_table_name</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_compareIndex">
+        compareIndex()
+        <a href="classes/DB.html#method_compareIndex" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">814</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">compareIndex</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_ref_index</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_real_index</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_table_name</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_forceRebuild</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_ref_index</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_real_index</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_table_name</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_forceRebuild</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_compareTable">
+        compareTable()
+        <a href="classes/DB.html#method_compareTable" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">641</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">compareTable</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_table</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_table</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getConnection">
+        getConnection()
+        <a href="classes/DB.html#method_getConnection" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">57</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getConnection</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getLastInsertId">
+        getLastInsertId()
+        <a href="classes/DB.html#method_getLastInsertId" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">53</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getLastInsertId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getWithFilter">
+        getWithFilter()
+        <a href="classes/DB.html#method_getWithFilter" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">297</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Retourne une liste d&#039;objets ou un objet en fonction de filtres</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getWithFilter</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_filters</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_object</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Objet">Objet</abbr></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_filters</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Filtres à appliquer</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_object</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Objet sur lequel appliquer les filtres</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Objet">Objet</abbr></span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>ou liste d'objets correspondant à la requête</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_lock">
+        lock()
+        <a href="classes/DB.html#method_lock" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">398</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Lock an entity.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">lock</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$object</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$object</span>
+                : <span class="phpdocumentor-argument-list__argument__type">object</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_optimize">
+        optimize()
+        <a href="classes/DB.html#method_optimize" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">149</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">optimize</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_Prepare">
+        Prepare()
+        <a href="classes/DB.html#method_Prepare" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">90</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__reference-operator">&amp;</span>    <span class="phpdocumentor-signature__name">Prepare</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_query</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_params</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_fetchType</span><span> = </span><span class="phpdocumentor-signature__argument__default-value"><abbr title="\self::FETCH_TYPE_ROW">self::FETCH_TYPE_ROW</abbr></span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_fetch_param</span><span> = </span><span class="phpdocumentor-signature__argument__default-value"><abbr title="\PDO::FETCH_ASSOC">PDO::FETCH_ASSOC</abbr></span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_fetch_opt</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_query</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_params</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_fetchType</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value"><abbr title="\self::FETCH_TYPE_ROW">self::FETCH_TYPE_ROW</abbr></span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_fetch_param</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value"><abbr title="\PDO::FETCH_ASSOC">PDO::FETCH_ASSOC</abbr></span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_fetch_opt</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_prepareIndexCompare">
+        prepareIndexCompare()
+        <a href="classes/DB.html#method_prepareIndexCompare" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">769</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">prepareIndexCompare</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$indexes</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$indexes</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_refresh">
+        refresh()
+        <a href="classes/DB.html#method_refresh" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">258</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">refresh</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$object</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$object</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_remove">
+        remove()
+        <a href="classes/DB.html#method_remove" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">354</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Deletes an entity.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">remove</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$object</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$object</span>
+                : <span class="phpdocumentor-argument-list__argument__type">object</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_rollBack">
+        rollBack()
+        <a href="classes/DB.html#method_rollBack" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">166</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">rollBack</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_save">
+        save()
+        <a href="classes/DB.html#method_save" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">177</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Saves an entity inside the repository. If the entity is new a new row
+will be created. If the entity is not new the row will be updated.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">save</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$object</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_direct</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$_replace</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$object</span>
+                : <span class="phpdocumentor-argument-list__argument__type">object</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_direct</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$_replace</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_buildQuery">
+        buildQuery()
+        <a href="classes/DB.html#method_buildQuery" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">491</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Builds the elements for an SQL query. It will return two lists, the
+first being the list of parts &quot;key=:key&quot; to inject in the SQL, the
+second being the mapping of these parameters to the values.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">buildQuery</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$object</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$object</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getField">
+        getField()
+        <a href="classes/DB.html#method_getField" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">510</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns the value of a field of a given object. It&#039;ll try to use a
+getter first if defined. If not defined, we&#039;ll use the reflection API.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getField</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$object</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$field</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$object</span>
+                : <span class="phpdocumentor-argument-list__argument__type">object</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$field</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="method_getField_tags">
+        Tags
+        <a href="classes/DB.html#method_getField_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\RuntimeException">RuntimeException</abbr></span>
+                                                                                        <section class="phpdocumentor-description"><p>if the getter is not defined</p>
+</section>
+
+                                    </dd>
+                        </dl>
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getFields">
+        getFields()
+        <a href="classes/DB.html#method_getFields" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">439</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getFields</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$object</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$object</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="method_getFields_tags">
+        Tags
+        <a href="classes/DB.html#method_getFields_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\RuntimeException">RuntimeException</abbr></span>
+                                                                                    
+                                    </dd>
+                        </dl>
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getReflectionClass">
+        getReflectionClass()
+        <a href="classes/DB.html#method_getReflectionClass" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">536</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns the reflection class for the given object.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getReflectionClass</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$object</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\ReflectionClass">ReflectionClass</abbr></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$object</span>
+                : <span class="phpdocumentor-argument-list__argument__type">object</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><abbr title="\ReflectionClass">ReflectionClass</abbr></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getTableName">
+        getTableName()
+        <a href="classes/DB.html#method_getTableName" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">426</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns the name of the table where to save entities.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getTableName</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$object</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$object</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_initConnection">
+        initConnection()
+        <a href="classes/DB.html#method_initConnection" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">35</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">initConnection</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setField">
+        setField()
+        <a href="classes/DB.html#method_setField" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="DB.class.php"><a href="files/db-class.html">DB.class.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">467</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Forces the value of a field of a given object, even if this field is
+not accessible.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">setField</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$object</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$field</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$object</span>
+                : <span class="phpdocumentor-argument-list__argument__type">object</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The entity to alter</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$field</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The name of the member to alter</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$value</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The value to give to the member</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+            </section>
+
+        
+    </article>
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                        <li><a href="classes/DB.html#toc-constants">Constants</a></li>
+                                                            <li><a href="classes/DB.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/DB.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/DB.html#constant_FETCH_TYPE_ALL">FETCH_TYPE_ALL</a></li>
+                                                    <li class=""><a href="classes/DB.html#constant_FETCH_TYPE_ROW">FETCH_TYPE_ROW</a></li>
+                                            </ul>
+                </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/DB.html#property_connection">$connection</a></li>
+                                                    <li class=""><a href="classes/DB.html#property_fields">$fields</a></li>
+                                                    <li class=""><a href="classes/DB.html#property_lastConnection">$lastConnection</a></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/DB.html#method___clone">__clone()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_beginTransaction">beginTransaction()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_buildDefinitionField">buildDefinitionField()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_buildDefinitionIndex">buildDefinitionIndex()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_buildField">buildField()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_CallStoredProc">CallStoredProc()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_checksum">checksum()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_commit">commit()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_compareAndFix">compareAndFix()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_compareDatabase">compareDatabase()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_compareField">compareField()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_compareIndex">compareIndex()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_compareTable">compareTable()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_getConnection">getConnection()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_getLastInsertId">getLastInsertId()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_getWithFilter">getWithFilter()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_lock">lock()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_optimize">optimize()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_Prepare">Prepare()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_prepareIndexCompare">prepareIndexCompare()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_refresh">refresh()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_remove">remove()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_rollBack">rollBack()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_save">save()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_buildQuery">buildQuery()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_getField">getField()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_getFields">getFields()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_getReflectionClass">getReflectionClass()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_getTableName">getTableName()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_initConnection">initConnection()</a></li>
+                                            <li class=""><a href="classes/DB.html#method_setField">setField()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
     </section>
 
-    <div id="source-view" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="source-view-label" aria-hidden="true">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h3 id="source-view-label">DB.class.php</h3>
-        </div>
-        <div class="modal-body">
-            <pre data-src="../files/DB.class.php.txt" class="language-php line-numbers"></pre>
-        </div>
-    </div>
-    <footer class="row-fluid">
-        <section class="span10 offset2">
-            <section class="row-fluid">
-                <section class="span10 offset1">
-                    <section class="row-fluid footer-sections">
-                        <section class="span4">                            <h1><i class="icon-code"></i></h1>
-                            <div>
-                                <ul>                                </ul>
-                            </div>
-                        </section>
-                        <section class="span4">                            <h1><i class="icon-bar-chart"></i></h1>
-                            <div>
-                                <ul>
-                                    <li><a href="../graphs/class.html">Class Hierarchy Diagram</a></li>
-                                </ul>
-                            </div>
-                        </section>
-                        <section class="span4">                            <h1><i class="icon-pushpin"></i></h1>
-                            <div>
-                                <ul>
-                                    <li><a href="../reports/errors.html">Errors</a></li>
-                                    <li><a href="../reports/markers.html">Markers</a></li>
-                                </ul>
-                            </div>
-                        </section>
-                    </section>
                 </section>
-            </section>
-            <section class="row-fluid">
-                <section class="span10 offset1">
-                    <hr />
-                    Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and authored
-                    onFebruary 13th, 2024 at 01:39.
-                </section>
-            </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
         </section>
-    </footer>
-</div>
+    </section>
+</section>
+        </div>
+        <a href="classes/DB.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
 </body>
 </html>
