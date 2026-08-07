@@ -1,0 +1,72 @@
+name: PhpDoc
+
+on:
+  workflow_dispatch:
+    inputs:
+      core_ref:
+        description: "Tag/branch/SHA of jeedom/core to generate the phpDoc from"
+        required: false
+        default: "release"
+      target_branch:
+        description: "Branch of this repository to publish the phpDoc to"
+        required: false
+        default: "master"
+
+permissions:
+  contents: write
+
+jobs:
+  phpdoc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout documentation repository
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ inputs.target_branch }}
+
+      - name: Checkout jeedom/core
+        uses: actions/checkout@v7
+        with:
+          repository: jeedom/core
+          ref: ${{ inputs.core_ref }}
+          path: core-src
+
+      - name: Read version
+        id: version
+        shell: bash
+        run: |
+          set -euo pipefail
+          version="$(cat core-src/core/config/version)"
+          echo "mm=$(echo "$version" | cut -d. -f1,2)" >> "$GITHUB_OUTPUT"
+
+      - name: Generate phpDoc
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p phpdoc-output
+          docker run --rm \
+            -v "$PWD/core-src/core/core/class:/data/src:ro" \
+            -v "$PWD/phpdoc-output:/data/target" \
+            phpdoc/phpdoc:3 -d /data/src -t /data/target
+
+      - name: Sync phpDoc output
+        shell: bash
+        run: |
+          set -euo pipefail
+          dest="phpdoc/${{ steps.version.outputs.mm }}"
+          mkdir -p "$dest"
+          rsync -a --delete phpdoc-output/ "$dest"/
+
+      - name: Commit and push if changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "phpdoc/${{ steps.version.outputs.mm }}"
+          if git diff --cached --quiet; then
+            echo "No phpDoc changes to push"
+            exit 0
+          fi
+          git commit -m "Generate phpdoc for ${{ steps.version.outputs.mm }}"
+          git push origin "${{ inputs.target_branch }}"
