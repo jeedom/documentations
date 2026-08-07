@@ -1,6 +1,10 @@
 name: PhpDoc
 
 on:
+  # TEMPORARY, for testing on test/phpdoc-wf only: revert before merging.
+  push:
+    branches:
+      - test/phpdoc-wf
   workflow_dispatch:
     inputs:
       core_ref:
@@ -22,13 +26,13 @@ jobs:
       - name: Checkout documentation repository
         uses: actions/checkout@v7
         with:
-          ref: ${{ inputs.target_branch }}
+          ref: ${{ inputs.target_branch || 'test/phpdoc-wf' }}
 
       - name: Checkout jeedom/core
         uses: actions/checkout@v7
         with:
           repository: jeedom/core
-          ref: ${{ inputs.core_ref }}
+          ref: ${{ inputs.core_ref || '4.3.23' }}
           path: core-src
 
       - name: Read version
@@ -69,4 +73,4 @@ jobs:
             exit 0
           fi
           git commit -m "Generate phpdoc for ${{ steps.version.outputs.mm }}"
-          git push origin "${{ inputs.target_branch }}"
+          git push origin "${{ inputs.target_branch || 'test/phpdoc-wf' }}"
