@@ -57,6 +57,6 @@ Luego solo vaya a IP\_MACHINE\_JEEDOM
 >
 > Las credenciales predeterminadas son admin / admin
 
-Para obtener más información sobre la instalación de Jeedom, consulte esto [documentación](https://doc.jeedom.com/es_ES/installation/cli)
+Para obtener más información sobre la instalación de Jeedom, consulte esto [documentación](cli)
 
-Entonces puedes seguir la documentación [Primer paso con Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index)
+Entonces puedes seguir la documentación [Primer paso con Jeedom](/premiers-pas)

@@ -6,7 +6,7 @@ Nous allons voir dans cette documentation comment faire la documentation de votr
 
 ## Principe
 
-Le principe est très simple, la documentation du plugin doit être un simple lien web à indiquer dans votre fichier info.json (voir le détail [ici](https://doc.jeedom.com/fr_FR/dev/structure_info_json) ) dans le champ documentation.
+Le principe est très simple, la documentation du plugin doit être un simple lien web à indiquer dans votre fichier info.json (voir le détail [ici](structure_info_json) ) dans le champ documentation.
 
 A noter que vous avez aussi un champ changelog qui doit fonctionner de la même manière que le champ documentation.
 
@@ -30,7 +30,7 @@ On ne va pas vous décrire la syntaxe complète du markdown, d'autres sites le f
 
 ### Emplacement
 
-Nous vous recommandons dans votre plugin (hébergé sur github) de faire un dossier et d'y copier les fichiers et répertoires du dossier /docs dans le plugin template (voir [ici](https://doc.jeedom.com/fr_FR/dev/plugin_template) )
+Nous vous recommandons dans votre plugin (hébergé sur github) de faire un dossier et d'y copier les fichiers et répertoires du dossier /docs dans le plugin template (voir [ici](plugin_template) )
 
 Une fois cela fait, vous allez avoir dans le dossier /docs un dossier fr_FR (le seul à modifier). Dans ce dossier, nous vous conseillons de faire 2 fichiers :
 

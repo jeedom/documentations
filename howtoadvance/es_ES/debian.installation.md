@@ -24,7 +24,7 @@ Solo tiene que hacer clic en Inicio, luego poner la llave USB en la máquina y a
 
 ## En una máquina virtual
 
-La manipulación es bastante simple, crea una nueva máquina virtual, la conecta, coloca un reproductor de CD virtual que apunta a la ISO (recuerde conectarla) y ejecuta la máquina. Ver [aquí](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.creer_une_vm.html) para más detalles.
+La manipulación es bastante simple, crea una nueva máquina virtual, la conecta, coloca un reproductor de CD virtual que apunta a la ISO (recuerde conectarla) y ejecuta la máquina. Ver [aquí](vmware.creer_une_vm) para más detalles.
 
 # Installation
 
@@ -150,4 +150,4 @@ Abra los controladores de instalación de VMware Tools específicos para el sist
 
 ``sudo apt-get install -y open-vm-tools``
 
-Solo tienes que instalar Jeedom siguiendo [este](https://doc.jeedom.com/es_ES/installation/cli)
+Solo tienes que instalar Jeedom siguiendo [este](/installation/cli)

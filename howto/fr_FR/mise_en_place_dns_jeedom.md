@@ -61,4 +61,4 @@ Voilà votre Jeedom est accessible de l'extérieur en https
 
 > **J'ai l'erreur "ERROR: Cannot open TUN/TAP dev /dev/net/tun: No such file or directory (errno=2)"**
 >
-> Cette erreur se produit en général sur les installations de type docker, comme indiqué dans la documentation de [compatibilité](https://doc.jeedom.com/fr_FR/compatibility/) le support de docker est beta justement à cause de ce genre de soucis. La solution est en général l'installation openvpn sur l'hôte (quand cela est possible)
+> Cette erreur se produit en général sur les installations de type docker, comme indiqué dans la documentation de [compatibilité](/compatibility) le support de docker est beta justement à cause de ce genre de soucis. La solution est en général l'installation openvpn sur l'hôte (quand cela est possible)

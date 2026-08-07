@@ -10,7 +10,7 @@ Der beste Weg, leise zu sein, ist, beide zu verwenden : Erstellen Sie von Zeit z
 
 > **Spitze**
 >
-> Das Verfahren zum Wiederherstellen der microSD-Karte kann nützlich sein, um ein Standard-Jeedom aus dem vom Team bereitgestellten Bild wiederherzustellen [hier](https://doc.jeedom.com/de_DE/installation/).
+> Das Verfahren zum Wiederherstellen der microSD-Karte kann nützlich sein, um ein Standard-Jeedom aus dem vom Team bereitgestellten Bild wiederherzustellen [hier](/installation).
 
 # Jeedom Backup / Restore
 

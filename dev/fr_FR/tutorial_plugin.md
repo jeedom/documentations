@@ -6,7 +6,7 @@
 
 Voici un petit TP pour expliquer comment créer un plugin. Pour l’exemple nous allons créer un plugin qui retourne une phrase du site viedemerde.fr .(Le plugin sera évolutif)
 
-Il ne remplace en aucun cas la [documentation officielle](https://doc.jeedom.com/fr_FR/dev/)
+Il ne remplace en aucun cas la [documentation officielle](index)
 
 # Créer la base du plugin
 
@@ -152,7 +152,7 @@ function vdm_remove() {
 }
 ```
 
-Voilà le plugin est prêt mais il reste la customisation et l’icône à mettre à jour : [Documentation développeurs - Icône de plugin](https://doc.jeedom.com/fr_FR/dev/Icone_de_plugin)
+Voilà le plugin est prêt mais il reste la customisation et l’icône à mettre à jour : [Documentation développeurs - Icône de plugin](Icone_de_plugin)
 
 Ajoutez l'icône dans le dossier plugin_info sous le nom vdm_icon.png
 
@@ -538,7 +538,7 @@ public static function cronHourly($_eqLogic_id = null) {
 
 Après vous pouvez changer la fréquence du cron selon l'importance de vos informations à récupérer.
 
-Je ne peux que vous invitez à prendre le temps d’aller sur cette page pour en savoir plus ==> [ici](https://doc.jeedom.com/phpdoc/#VERSION#/)
+Je ne peux que vous invitez à prendre le temps d’aller sur cette page pour en savoir plus ==> [ici](/phpdoc/)
 
 Et encore mieux d'aller sur le github du core ==> [ICI](https://github.com/jeedom/core)
 

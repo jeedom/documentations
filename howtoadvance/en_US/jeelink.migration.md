@@ -51,7 +51,7 @@ Depending on the plugins installed on your **Jeedom Slave**, it is necessary to 
 ## Preventive backups
 
 -   Do a [Jeedom backup](/core/backup) of your **Jeedom Master** and your (your) **Jeedom Slave (s)** and recover it (s) on your PC / NAS….
--   Do a [SD / Disk backup](https://doc.jeedom.com/en_US/howto/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd) of your **Jeedom Master** and your (your) **Jeedom Slave (s)** and recover them on your PC / NAS….
+-   Do a [SD / Disk backup](/howto/sauvegarde.comment_faire#_sauvegarde_restauration_de_la_carte_microsd) of your **Jeedom Master** and your (your) **Jeedom Slave (s)** and recover them on your PC / NAS….
 
 # Migration
 
@@ -79,7 +79,7 @@ On your **Jeedom Target**, *Plugins ⇒ Management of plugins* :
 >
 > if you are using the existing Raspberry Pi which is currently a  **Jeedom Slave**, we advise you to use a new SD / microSD card. This will allow you to easily backtrack if necessary.
 
--   Install a new Jeedom on a new SD card (Whether to put in your **Jeedom Slave** existing or for a new Raspberry Pi) by following the [installation documentation](https://doc.jeedom.com/en_US/installation/doc-installation.html).
+-   Install a new Jeedom on a new SD card (Whether to put in your **Jeedom Slave** existing or for a new Raspberry Pi) by following the [installation documentation](/installation).
 -   Update the **Jeedom Source** to the latest version (even if no update is offered to you).
 -   Check in the Health page that the internal network configuration (and external if necessary) of the **Jeedom Source** is OK.
 

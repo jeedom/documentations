@@ -2,7 +2,7 @@
 
 ## Pré-requis
 
-- S’être inscrit en tant que dev, voir [ici](https://doc.jeedom.com/fr_FR/dev/).
+- S’être inscrit en tant que dev, voir [ici](index).
 - Avoir attendu la validation du compte market comme développeur.
 - Vérifier sur Community que vous avez accès à "Salon des développeurs".
 - Avoir mis votre plugin sur github (dépôt privé ou non).

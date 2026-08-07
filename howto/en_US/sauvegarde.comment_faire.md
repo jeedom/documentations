@@ -10,7 +10,7 @@ The best way to be quiet is to use both : Make a backup of the microSD card from
 
 > **Tip**
 >
-> The procedure for restoring the microSD card may be useful for restoring a default Jeedom from the image provided by the team see [here](https://doc.jeedom.com/en_US/installation/).
+> The procedure for restoring the microSD card may be useful for restoring a default Jeedom from the image provided by the team see [here](/installation).
 
 # Jeedom Backup / Restore
 

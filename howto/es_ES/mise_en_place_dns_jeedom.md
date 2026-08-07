@@ -61,4 +61,4 @@ Aquí se puede acceder a su Jeedom desde el exterior en https
 
 > **Tengo el error "ERROR: No se puede abrir TUN / TAP dev / dev / net / tun: No existe tal archivo o directorio (errno = 2)"**
 >
-> Este error generalmente ocurre en instalaciones de tipo acoplador, como se indica en la documentación para [compatibilidad](https://doc.jeedom.com/es_ES/compatibility/) el soporte de Docker es beta precisamente por este tipo de problema. La solución suele ser instalar openvpn en el host (cuando sea posible))
+> Este error generalmente ocurre en instalaciones de tipo acoplador, como se indica en la documentación para [compatibilidad](/compatibility) el soporte de Docker es beta precisamente por este tipo de problema. La solución suele ser instalar openvpn en el host (cuando sea posible))

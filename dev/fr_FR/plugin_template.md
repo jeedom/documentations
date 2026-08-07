@@ -46,7 +46,7 @@ Voici les recommandations :
 
 ## ``info.json``
 
-Voir [ici](https://doc.jeedom.com/fr_FR/dev/structure_info_json)
+Voir [ici](structure_info_json)
 
 ## ``install.php``
 
@@ -513,7 +513,7 @@ class plugin_idCmd extends cmd {
 ?>
 ````
 
-Pour la définition des classes jeedom, je vous invite à consulter ce [site](https://doc.jeedom.com/phpdoc/#VERSION#/)
+Pour la définition des classes jeedom, je vous invite à consulter ce [site](/phpdoc/)
 
 La seule méthode obligatoire est la méthode d’instance sur la classe cmd execute, voici un exemple avec le plugin S.A.R.A.H :
 

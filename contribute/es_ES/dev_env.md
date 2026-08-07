@@ -20,7 +20,7 @@ Este método también es posible con otras herramientas, como **Átomo** (que re
 
 Lo primero que debe hacer si está desarrollando funciones básicas o un complemento : Establecer una configuración de prueba. De hecho, no desarrollamos en una configuración de producción !
 
-Para la instalación de Jeedom, la documentación está ahí : [Instalación en Raspberry Pi](https://doc.jeedom.com/es_ES/installation/rpi).
+Para la instalación de Jeedom, la documentación está ahí : [Instalación en Raspberry Pi](/installation/rpi).
 
 Advertencia, prefiera un SSD a una tarjeta SD !
 

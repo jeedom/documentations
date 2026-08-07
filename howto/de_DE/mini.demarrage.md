@@ -43,14 +43,14 @@ Das Wetter Plugin.
 
 Sie finden noch viele andere Plugins direkt über die Jeedom-Oberfläche auf dem Jeedom Market.
 
-Vergessen Sie auch nicht, dass Sie 2 Gutscheine (per E-Mail gesendet) haben, mit denen Sie 2 kostenpflichtige Plugins kostenlos installieren können (RFXCOM und Alarm)). Um es zu verwenden, müssen Sie ein Konto auf dem Jeedom Market erstellen (siehe Dokumentation) : [Doc Markt](https://doc.jeedom.com/de_DE/premiers-pas/index).
+Vergessen Sie auch nicht, dass Sie 2 Gutscheine (per E-Mail gesendet) haben, mit denen Sie 2 kostenpflichtige Plugins kostenlos installieren können (RFXCOM und Alarm)). Um es zu verwenden, müssen Sie ein Konto auf dem Jeedom Market erstellen (siehe Dokumentation) : [Doc Markt](/premiers-pas).
 
 Die E-Mail, die Sie erhalten haben, enthält auch die mit dem Jeedom Mini + verknüpfte Service Pack-Nummer. Sie können es in Ihr Marktprofil eingeben. Auf diese Weise können Sie unter anderem auf die verschiedenen Services zugreifen, die Ihrem Service Pack entsprechen.
 
 ![mini.demarrage09](../images/mini.demarrage09.png)
 
-Sie können jetzt der Dokumentation folgen : [Erste Schritte mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index) Auf diese Weise können Sie die IP-Adresse Ihres Jeedom Mini + ermitteln und eine Verbindung herstellen, um mit der Konfiguration und Verwendung zu beginnen.
+Sie können jetzt der Dokumentation folgen : [Erste Schritte mit Jeedom](/premiers-pas) Auf diese Weise können Sie die IP-Adresse Ihres Jeedom Mini + ermitteln und eine Verbindung herstellen, um mit der Konfiguration und Verwendung zu beginnen.
 
-Um die Entdeckung und Verwendung von Jeedom zu vertiefen, verfügen Sie über eine vollständige Dokumentation : [Jeedom Dokumentation](https://doc.jeedom.fr) und auch einen Abschnitt mit den Video-Tutorials : [Video-Tutorials](https://doc.jeedom.com/de_DE/presentation/index#tocAnchor-1-3). Zögern Sie nicht, im Jeedom Forum weitere Fragen zu stellen : [Coomunity Jeedom](https://community.jeedom.com/).
+Um die Entdeckung und Verwendung von Jeedom zu vertiefen, verfügen Sie über eine vollständige Dokumentation : [Jeedom Dokumentation](/) und auch einen Abschnitt mit den Video-Tutorials : [Video-Tutorials](/presentation#tocAnchor-1-3). Zögern Sie nicht, im Jeedom Forum weitere Fragen zu stellen : [Coomunity Jeedom](https://community.jeedom.com/).
 
 Vielen Dank und gute Entdeckung der Heimautomation mit Jeedom.

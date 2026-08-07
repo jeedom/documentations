@@ -51,7 +51,7 @@ Dependiendo de los complementos instalados en su **Jeedom Slave**, es necesario 
 ## Copias de seguridad preventivas
 
 -   Hacer un [Jeedom backup](/core/backup) de su **Jeedom Master** y tu (tu) **Jeedom Slave (s))** y recuperarlo (s) en su PC / NAS.
--   Hacer un [Copia de seguridad de disco / SD](https://doc.jeedom.com/es_ES/howto/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd) de su **Jeedom Master** y tu (tu) **Jeedom Slave (s))** y recuperarlos en su PC / NAS.
+-   Hacer un [Copia de seguridad de disco / SD](/howto/sauvegarde.comment_faire#_sauvegarde_restauration_de_la_carte_microsd) de su **Jeedom Master** y tu (tu) **Jeedom Slave (s))** y recuperarlos en su PC / NAS.
 
 # Migration
 
@@ -79,7 +79,7 @@ En su **Jeedom Target**, *Complementos ⇒ Gestión de complementos* :
 >
 > si está utilizando la Raspberry Pi existente, que actualmente es una  **Jeedom Slave**, le recomendamos que use una nueva tarjeta SD / microSD. Esto le permitirá retroceder fácilmente si es necesario.
 
--   Instale un nuevo Jeedom en una nueva tarjeta SD (ya sea para poner en su **Jeedom Slave** existente o para una nueva Raspberry Pi) siguiendo el [documentación de instalación](https://doc.jeedom.com/es_ES/installation/doc-installation.html).
+-   Instale un nuevo Jeedom en una nueva tarjeta SD (ya sea para poner en su **Jeedom Slave** existente o para una nueva Raspberry Pi) siguiendo el [documentación de instalación](/installation).
 -   Actualiza el **Fuente de la libertad** a la última versión (incluso si no se le ofrece ninguna actualización)).
 -   Compruebe en la página Estado que la configuración de red interna (y externa si es necesario) del **Fuente de la libertad** esta bien.
 

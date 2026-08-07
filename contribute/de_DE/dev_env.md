@@ -20,7 +20,7 @@ Diese Methode ist auch mit anderen Werkzeugen möglich, wie z **Atom** (was eini
 
 Das erste, was Sie tun müssen, wenn Sie Kernfunktionen oder ein Plugin entwickeln : Richten Sie eine Testkonfiguration ein. In der Tat entwickeln wir keine Produktionskonfiguration !
 
-Für die Installation von Jeedom ist die Dokumentation vorhanden : [Installation auf Raspberry Pi](https://doc.jeedom.com/de_DE/installation/rpi).
+Für die Installation von Jeedom ist die Dokumentation vorhanden : [Installation auf Raspberry Pi](/installation/rpi).
 
 Achtung, ziehen Sie eine SSD einer SD-Karte vor !
 

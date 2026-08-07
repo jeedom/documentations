@@ -43,14 +43,14 @@ The weather plugin.
 
 You will still find many other plugins directly via the Jeedom interface on the Jeedom Market.
 
-Also, don't forget that you have 2 coupons (sent by email), allowing you to install 2 paid plugins for free (RFXCOM and Alarm). To use it you must create an account on the Jeedom Market, see the documentation : [Doc market](https://doc.jeedom.com/en_US/premiers-pas/index).
+Also, don't forget that you have 2 coupons (sent by email), allowing you to install 2 paid plugins for free (RFXCOM and Alarm). To use it you must create an account on the Jeedom Market, see the documentation : [Doc market](/premiers-pas).
 
 The email you received also includes the service pack number associated with the Jeedom Mini +. You can enter it on your Market profile, this will allow you, among other things, to access the various services corresponding to your Service Pack.
 
 ![mini.demarrage09](../images/mini.demarrage09.png)
 
-You can now follow the documentation : [Getting started with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index) Which will allow you to find the IP address of your Jeedom Mini + and connect to it in order to start to configure and use it.
+You can now follow the documentation : [Getting started with Jeedom](/premiers-pas) Which will allow you to find the IP address of your Jeedom Mini + and connect to it in order to start to configure and use it.
 
-To deepen the discovery and use of Jeedom, you have complete documentation : [Jeedom documentation](https://doc.jeedom.fr) and also a section listing the video tutorials : [Video tutorials](https://doc.jeedom.com/en_US/presentation/index#tocAnchor-1-3). Do not hesitate to go to the Jeedom Forum for any other question : [Coomunity Jeedom](https://community.jeedom.com/).
+To deepen the discovery and use of Jeedom, you have complete documentation : [Jeedom documentation](/) and also a section listing the video tutorials : [Video tutorials](/presentation#tocAnchor-1-3). Do not hesitate to go to the Jeedom Forum for any other question : [Coomunity Jeedom](https://community.jeedom.com/).
 
 Thank you, and good discovery of home automation with Jeedom.

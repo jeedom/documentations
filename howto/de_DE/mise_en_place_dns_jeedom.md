@@ -61,4 +61,4 @@ Hier ist Ihr Jeedom von außen in https zugänglich
 
 > **Ich habe den Fehler "ERROR: TUN / TAP dev / dev / net / tun kann nicht geöffnet werden: Keine solche Datei oder kein solches Verzeichnis (errno = 2)"**
 >
-> Dieser Fehler tritt normalerweise bei Docker-Installationen auf, wie in der Dokumentation für angegeben [Kompatibilität](https://doc.jeedom.com/de_DE/compatibility/) Docker-Unterstützung ist Beta gerade wegen dieser Art von Problem. Die Lösung besteht normalerweise darin, openvpn auf dem Host zu installieren (wenn möglich))
+> Dieser Fehler tritt normalerweise bei Docker-Installationen auf, wie in der Dokumentation für angegeben [Kompatibilität](/compatibility) Docker-Unterstützung ist Beta gerade wegen dieser Art von Problem. Die Lösung besteht normalerweise darin, openvpn auf dem Host zu installieren (wenn möglich))

@@ -24,7 +24,7 @@ You just have to click on start, then put the USB key on the machine and boot it
 
 ## On a VM
 
-The manipulation is quite simple, you create a new virtual machine, you plug in, put a virtual CD player on it that points to the ISO (remember to connect it) and you launch the machine. See [here](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.creer_une_vm.html) for more details.
+The manipulation is quite simple, you create a new virtual machine, you plug in, put a virtual CD player on it that points to the ISO (remember to connect it) and you launch the machine. See [here](vmware.creer_une_vm) for more details.
 
 # Installation
 
@@ -150,4 +150,4 @@ Open VMware Tools install drivers specific to the installed operating system and
 
 ``sudo apt-get install -y open-vm-tools``
 
-You just have to install Jeedom by following [this](https://doc.jeedom.com/en_US/installation/cli)
+You just have to install Jeedom by following [this](/installation/cli)

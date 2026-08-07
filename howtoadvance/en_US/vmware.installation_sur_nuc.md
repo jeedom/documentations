@@ -155,4 +155,4 @@ Once the reboot is finished you should have :
 
 Here VMware is installed (in addition it is nice it gives you its IP), more than to play with !!!
 
-For the rest here is a [Tutorial](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.creer_une_vm.html) for the creation of your first VM. And you will find [here](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.trucs_et_astuces.html) a tips and tricks tutorial (for example to upgrade your VMware license)
+For the rest here is a [Tutorial](vmware.creer_une_vm) for the creation of your first VM. And you will find [here](vmware.trucs_et_astuces) a tips and tricks tutorial (for example to upgrade your VMware license)

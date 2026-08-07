@@ -19,7 +19,7 @@ Vaya a IP\_ESXI / ui con su navegador de Internet, debe tener :
 
 > **Nota**
 >
-> Si no tienes nada te aconsejo que instales la interfaz web, toda la información [aquí](https://doc.jeedom.com/es_ES/howtoadvance/vmware.trucs_et_astuces)
+> Si no tienes nada te aconsejo que instales la interfaz web, toda la información [aquí](vmware.trucs_et_astuces)
 
 Ingrese sus credenciales de inicio de sesión en ESXI :
 
@@ -127,19 +127,19 @@ Su máquina se iniciará y podrá instalar su sistema operativo :
 >
 > Una vez que su máquina está instalada, es ABSOLUTAMENTE necesario instalar las herramientas de VMware (le permite a VMware tener información sobre su VM y apagarla correctamente)). Bajo debian simplemente haga "sudo apt-get -y install open-vm-tools".
 
-Para el resto de la instalación, los invito a leer esto [Tutorial](https://doc.jeedom.com/es_ES/howtoadvance/debian.installation)
+Para el resto de la instalación, los invito a leer esto [Tutorial](debian.installation)
 
 # Montar dispositivos USB en la VM
 
 > **Nota**
 >
-> Si no tiene las siguientes opciones, es necesario actualizar el ESXi Embedded Host Client, toda la información [aquí](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.trucs_et_astuces.html)
+> Si no tiene las siguientes opciones, es necesario actualizar el ESXi Embedded Host Client, toda la información [aquí](vmware.trucs_et_astuces)
 
 Es una necesidad bastante rara, pero tuve que usarla para Jeedom, de hecho tengo en mi ESXi las teclas Zwave, RFXcom, edisio, enOcean y GSM de conectado y tuve que conectarlas a mi VM Jeedom para poder usarlo.
 
 > **Nota**
 >
-> Para Zwave, RFXcom, edisio y enOcean no hay problema, para las claves GSM debe seguir esto [Tutorial](https://doc.jeedom.com/es_ES/howtoadvance/gsm.huawei_mode_modem) antes de forzar la tecla en modo módem solo de lo contrario no se ve correctamente en el ESXi.
+> Para Zwave, RFXcom, edisio y enOcean no hay problema, para las claves GSM debe seguir esto [Tutorial](gsm.huawei_mode_modem) antes de forzar la tecla en modo módem solo de lo contrario no se ve correctamente en el ESXi.
 
 Vaya a su VM y luego haga "Cambiar configuración" :
 

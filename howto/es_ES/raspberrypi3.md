@@ -6,7 +6,7 @@ De hecho, el PI3 ofrece la posibilidad de arrancar directamente en un dispositiv
 
 **El procedimiento de instalación es estrictamente idéntico al de una tarjeta microSD, pero deberá asegurarse de tener el firmware actualizado.**
 
-Para hacer esto, abra una conexión SSH. (si no sabes cómo, mira la instalación en microSD : [Aquí](https://doc.jeedom.com/es_ES/installation/index.html)
+Para hacer esto, abra una conexión SSH. (si no sabes cómo, mira la instalación en microSD : [Aquí](/installation)
 
 ``vcgencmd otp_dump | grep 17:``
 
@@ -34,7 +34,7 @@ Luego reinicie PI3
 
 > **Punta**
 >
-> Ahora puede instalar Jeedom siguiendo exactamente el mismo procedimiento que con una tarjeta SD. [Aquí](https://doc.jeedom.com/es_ES/installation/index.html)
+> Ahora puede instalar Jeedom siguiendo exactamente el mismo procedimiento que con una tarjeta SD. [Aquí](/installation)
 
 ## Posibles ajustes
 

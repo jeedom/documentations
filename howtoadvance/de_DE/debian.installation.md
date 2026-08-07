@@ -24,7 +24,7 @@ Sie müssen nur auf Start klicken, dann den USB-Stick in den Computer stecken un
 
 ## Auf einer VM
 
-Die Manipulation ist recht einfach: Sie erstellen eine neue virtuelle Maschine, schließen sie an, legen einen virtuellen CD-Player darauf, der auf die ISO zeigt (denken Sie daran, sie anzuschließen), und starten die Maschine. Sehen [hier](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.creer_une_vm.html) für weitere Details.
+Die Manipulation ist recht einfach: Sie erstellen eine neue virtuelle Maschine, schließen sie an, legen einen virtuellen CD-Player darauf, der auf die ISO zeigt (denken Sie daran, sie anzuschließen), und starten die Maschine. Sehen [hier](vmware.creer_une_vm) für weitere Details.
 
 # Installation
 
@@ -150,4 +150,4 @@ Fail2ban ist eine Software, die es ermöglicht, den Zugriff auf Ihr Debian zu si
 
 ``sudo apt-get install -y open-vm-tools``
 
-Sie müssen Jeedom nur installieren, indem Sie folgen [diese](https://doc.jeedom.com/de_DE/installation/cli)
+Sie müssen Jeedom nur installieren, indem Sie folgen [diese](/installation/cli)

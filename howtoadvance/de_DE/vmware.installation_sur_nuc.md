@@ -155,4 +155,4 @@ Sobald der Neustart abgeschlossen ist, sollten Sie haben :
 
 Hier ist VMware installiert (außerdem ist es schön, dass es Ihnen seine IP gibt), mehr als zum Spielen !!!
 
-Für den Rest ist hier ein [Tutorial](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.creer_une_vm.html) für die Erstellung Ihrer ersten VM. Und du wirst finden [hier](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.trucs_et_astuces.html) Ein Tutorial mit Tipps und Tricks (zum Beispiel zum Aktualisieren Ihrer VMware-Lizenz)
+Für den Rest ist hier ein [Tutorial](vmware.creer_une_vm) für die Erstellung Ihrer ersten VM. Und du wirst finden [hier](vmware.trucs_et_astuces) Ein Tutorial mit Tipps und Tricks (zum Beispiel zum Aktualisieren Ihrer VMware-Lizenz)

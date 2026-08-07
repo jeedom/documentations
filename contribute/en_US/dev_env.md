@@ -20,7 +20,7 @@ This method is also possible with other tools, such as **Atom** (which will requ
 
 The first thing to do if you are developing Core functions or a plugin : Set up a test configuration. Indeed, we do not develop on a production configuration !
 
-For the installation of Jeedom, the documentation is there : [Installation on Raspberry Pi](https://doc.jeedom.com/en_US/installation/rpi).
+For the installation of Jeedom, the documentation is there : [Installation on Raspberry Pi](/installation/rpi).
 
 Warning, prefer an SSD to an SD card !
 

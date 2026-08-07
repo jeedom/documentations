@@ -28,9 +28,9 @@ Pour contribuer à la documentation, quelques prérequis sont à connaître et �
 
 Les pages de documentation générale concernent toutes les pages, hormis celles relatives aux **Manuels** *(core Jeedom)* et aux **Plugins**. Les fichiers sont accessibles sur [le dépôt de la documentation](https://github.com/jeedom/documentations/tree/master/fr_FR){:target="_blank"}. L'adresse du site de documentation correspondant à un fichier `Markdown` *(\*.md)* sur GitHub, par exemple :
 
-- **Compatibilité** (https://doc.jeedom.com/#LANG#/compatibility/) → https://github.com/jeedom/documentations/blob/master/fr_FR/compatibility/index.md
-- **Installation sur Raspberry Pi** (https://doc.jeedom.com/#LANG#/installation/rpi) → https://github.com/jeedom/documentations/blob/master/fr_FR/installation/rpi.md
-- **Développement de plugin** (https://doc.jeedom.com/#LANG#/dev) → https://github.com/jeedom/documentations/blob/master/fr_FR/dev/index.md
+- **Compatibilité** (https://doc.jeedom.com/compatibility/#LANG#/) → https://github.com/jeedom/documentations/blob/master/fr_FR/compatibility/index.md
+- **Installation sur Raspberry Pi** (https://doc.jeedom.com/installation/#LANG#/rpi) → https://github.com/jeedom/documentations/blob/master/fr_FR/installation/rpi.md
+- **Développement de plugin** (https://doc.jeedom.com/dev/#LANG#) → https://github.com/jeedom/documentations/blob/master/fr_FR/dev/index.md
 
 >**IMPORTANT**
 >
@@ -41,9 +41,9 @@ Les pages de documentation générale concernent toutes les pages, hormis celles
 La documentation du core Jeedom correspond aux rubriques **Manuel d'utilisation** et **Manuel de configuration**, accessibles en cliquant sur le bouton "❔" en haut à droite sur l'interface Jeedom. Les fichiers se situent sur [le dépôt du core](https://github.com/jeedom/core/tree/develop/docs/fr_FR){:target="_blank"}, dans le répertoire `docs/fr_FR`.
 
 Chaque page de manuel correspond à un fichier `Markdown` *(\*.md)* sur GitHub, par exemple :
-- **Manuel d'utilisation - Changelog** (https://doc.jeedom.com/#LANG#/core/#VERSION#/changelog) → https://github.com/jeedom/core/tree/develop/docs/fr_FR/changelog.md
-- **Manuel d'utilisation - Scénarios** (https://doc.jeedom.com/#LANG#/core/#VERSION#/scenario) → https://github.com/jeedom/core/tree/develop/docs/fr_FR/scenario.md
-- **Manuel de configuration - Personnalisation Avancée** (https://doc.jeedom.com/#LANG#/core/#VERSION#/custom) → https://github.com/jeedom/core/tree/develop/docs/fr_FR/custom.md
+- **Manuel d'utilisation - Changelog** (https://doc.jeedom.com/core/#VERSION#/#LANG#/changelog) → https://github.com/jeedom/core/tree/develop/docs/fr_FR/changelog.md
+- **Manuel d'utilisation - Scénarios** (https://doc.jeedom.com/core/#VERSION#/#LANG#/scenario) → https://github.com/jeedom/core/tree/develop/docs/fr_FR/scenario.md
+- **Manuel de configuration - Personnalisation Avancée** (https://doc.jeedom.com/core/#VERSION#/#LANG#/custom) → https://github.com/jeedom/core/tree/develop/docs/fr_FR/custom.md
 
 >**IMPORTANT**
 >
@@ -54,8 +54,8 @@ Chaque page de manuel correspond à un fichier `Markdown` *(\*.md)* sur GitHub, 
 La documentation des plugins correspond aux rubriques **Plugins Officiels** et **Plugins Tiers**. Comme leur nom l'indique, les plugins officiels sont développés par l'équipe Jeedom, les plugins tiers étant le travail de développeurs externes et indépendants.
 
 Comme le core Jeedom, la documentation de chaque plugin est récupérée depuis son dépôt GitHub. Prenons **le plugin ZwaveJS** par exemple :
-- **Changelog** (https://doc.jeedom.com/#LANG#/plugins/automation%20protocol/zwavejs/beta/changelog) → https://github.com/jeedom/plugin-zwavejs/blob/beta/docs/fr_FR/changelog.md
-- **Documentation** (https://doc.jeedom.com/#LANG#/plugins/automation%20protocol/zwavejs/beta/) → https://github.com/jeedom/plugin-zwavejs/blob/beta/docs/fr_FR/index.md
+- **Changelog** (https://doc.jeedom.com/plugins/automation%20protocol/zwavejs/beta/#LANG#/changelog) → https://github.com/jeedom/plugin-zwavejs/blob/beta/docs/fr_FR/changelog.md
+- **Documentation** (https://doc.jeedom.com/plugins/automation%20protocol/zwavejs/beta/#LANG#/) → https://github.com/jeedom/plugin-zwavejs/blob/beta/docs/fr_FR/index.md
 
 >**INFORMATION**
 >

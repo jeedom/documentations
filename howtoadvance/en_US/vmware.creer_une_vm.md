@@ -19,7 +19,7 @@ Go to IP\_ESXI / ui with your internet browser, you must have :
 
 > **NOTE**
 >
-> If you have nothing I advise you to install the web interface, all the information [here](https://doc.jeedom.com/en_US/howtoadvance/vmware.trucs_et_astuces)
+> If you have nothing I advise you to install the web interface, all the information [here](vmware.trucs_et_astuces)
 
 Enter your login credentials to ESXI :
 
@@ -127,19 +127,19 @@ Your machine will launch and you will be able to install your OS :
 >
 > Once your machine is installed it is ABSOLUTELY necessary to install VMware tools (it allows VMware to have information on your VM and to shut down it properly). Under debian just do "sudo apt-get -y install open-vm-tools".
 
-For the rest of the installation I invite you to read this [Tutorial](https://doc.jeedom.com/en_US/howtoadvance/debian.installation)
+For the rest of the installation I invite you to read this [Tutorial](debian.installation)
 
 # Mount USB devices in the VM
 
 > **NOTE**
 >
-> If you do not have the options below it is necessary to update the ESXi Embedded Host Client, all the information [here](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.trucs_et_astuces.html)
+> If you do not have the options below it is necessary to update the ESXi Embedded Host Client, all the information [here](vmware.trucs_et_astuces)
 
 It is a rather rare need, but I had to use it for Jeedom, indeed I have on my ESXi the keys Zwave, RFXcom, edisio, enOcean and GSM of connected and I had to connect them to my VM Jeedom to be able to use it.
 
 > **NOTE**
 >
-> For Zwave, RFXcom, edisio and enOcean there is no problem, for GSM keys you must follow this [Tutorial](https://doc.jeedom.com/en_US/howtoadvance/gsm.huawei_mode_modem) before to force the key in modem mode only otherwise it is not seen correctly on the ESXi.
+> For Zwave, RFXcom, edisio and enOcean there is no problem, for GSM keys you must follow this [Tutorial](gsm.huawei_mode_modem) before to force the key in modem mode only otherwise it is not seen correctly on the ESXi.
 
 Go to your VM then do "Change settings" :
 

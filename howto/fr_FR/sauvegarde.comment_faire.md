@@ -10,7 +10,7 @@ Le meilleur moyen d’être tranquille est d’utiliser les deux : Faire une sau
 
 > **Tip**
 >
-> La procédure de restauration de la carte microSD peut-être utile pour restaurer un Jeedom par défaut à partir de l’image fournie par l’équipe voir [ici](https://doc.jeedom.com/fr_FR/installation/).
+> La procédure de restauration de la carte microSD peut-être utile pour restaurer un Jeedom par défaut à partir de l’image fournie par l’équipe voir [ici](/installation).
 
 # Sauvegarde/Restauration de Jeedom
 

@@ -48,7 +48,7 @@ Support is available depending on your Service Pack
 - Service Pack Pro: 100 tickets / month
 
 It is possible to open a request in several ways:
-[Documentation Support requests or tickets](https://doc.jeedom.com/en_US/premiers-pas/#Les%20demandes%20de%20support%20\(ou%20tickets\))
+[Documentation Support requests or tickets](/premiers-pas#Les%20demandes%20de%20support%20\(ou%20tickets\))
 
 >**IMPORTANT**
 >

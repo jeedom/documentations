@@ -10,7 +10,7 @@ La mejor manera de estar callado es usar ambos : Haga una copia de seguridad de 
 
 > **Punta**
 >
-> El procedimiento para restaurar la tarjeta microSD puede ser útil para restaurar un Jeedom predeterminado de la imagen proporcionada por el equipo [aquí](https://doc.jeedom.com/es_ES/installation/).
+> El procedimiento para restaurar la tarjeta microSD puede ser útil para restaurar un Jeedom predeterminado de la imagen proporcionada por el equipo [aquí](/installation).
 
 # Jeedom Backup / Restore
 

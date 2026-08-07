@@ -155,4 +155,4 @@ Una vez que el reinicio haya finalizado, debería tener :
 
 Aquí está instalado VMware (además es bueno, te da su IP), más que jugar con !!!
 
-Por lo demás aquí hay un [Tutorial](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.creer_une_vm.html) para la creación de tu primera VM. Y encontrarás [aquí](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.trucs_et_astuces.html) un tutorial de consejos y trucos (por ejemplo, para actualizar su licencia de VMware)
+Por lo demás aquí hay un [Tutorial](vmware.creer_une_vm) para la creación de tu primera VM. Y encontrarás [aquí](vmware.trucs_et_astuces) un tutorial de consejos y trucos (por ejemplo, para actualizar su licencia de VMware)
