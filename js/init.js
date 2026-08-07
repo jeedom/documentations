@@ -1,3 +1,5 @@
+const LANGUAGES = { fr_FR: 'Français', en_US: 'English', es_ES: 'Español', de_DE: 'Deutsch' }
+const CORE_VERSIONS = ['4.3', '4.4', '4.5', '4.6']
 const GENERAL_SECTIONS = ['presentation', 'concept', 'howto', 'howtoadvance', 'installation', 'compatibility', 'premiers-pas', 'mobile', 'contribute', 'dev', 'legal_notice', 'home']
 
 function nextSegment(path) {
@@ -253,26 +255,14 @@ setTheme()
 
 $('#ul_menu').empty()
 var html = ''
-var lang = 'fr_FR'
-if (window.location.href.indexOf('fr_FR') != -1) {
-  lang = 'fr_FR'
-} else if (window.location.href.indexOf('en_US') != -1) {
-  lang = 'en_US'
-} else if (window.location.href.indexOf('es_ES') != -1) {
-  lang = 'es_ES'
-} else if (window.location.href.indexOf('de_DE') != -1) {
-  lang = 'de_DE'
-} else if (getCookie('lang') != '') {
-  lang = getCookie('lang')
-} else {
-  var userLang = navigator.language || navigator.userLanguage
-  userLang = userLang.toLowerCase()
-  if (userLang.indexOf('en') !== -1) {
-    lang = 'en_US'
-  } else if (userLang.indexOf('es') !== -1) {
-    lang = 'es_ES'
-  } else if (userLang.indexOf('de') !== -1) {
-    lang = 'de_DE'
+var langCodes = Object.keys(LANGUAGES)
+var lang = langCodes.find(function (l) { return window.location.href.indexOf(l) !== -1 })
+if (!lang) {
+  if (getCookie('lang') != '') {
+    lang = getCookie('lang')
+  } else {
+    var userLang = (navigator.language || navigator.userLanguage).toLowerCase()
+    lang = langCodes.find(function (l) { return userLang.indexOf(l.slice(0, 2)) !== -1 }) || 'fr_FR'
   }
 }
 if (getCookie('lang') != lang) {
@@ -280,25 +270,25 @@ if (getCookie('lang') != lang) {
 }
 
 $('#meta-lang').attr('content', lang)
-var jeedomVersion = '4.6'
-if (window.location.href.indexOf('4.3') != -1) {
-  jeedomVersion = '4.3'
-} else if (window.location.href.indexOf('4.4') != -1) {
-  jeedomVersion = '4.4'
-} else if (window.location.href.indexOf('4.5') != -1) {
-  jeedomVersion = '4.5'
-} else if (window.location.href.indexOf('4.6') != -1) {
-  jeedomVersion = '4.6'
-} else if (getCookie('jeedomVersion') != '') {
-  jeedomVersion = getCookie('jeedomVersion')
+var jeedomVersion = CORE_VERSIONS.find(function (v) { return window.location.href.indexOf(v) !== -1 })
+if (!jeedomVersion) {
+  jeedomVersion = getCookie('jeedomVersion') || CORE_VERSIONS[CORE_VERSIONS.length - 1]
 }
 if (getCookie('jeedomVersion') != jeedomVersion) {
   setCookie('jeedomVersion', jeedomVersion, 7)
 }
-if ($('#sel_jeedomVersion').val() != jeedomVersion) {
-  $('#sel_jeedomVersion').val(jeedomVersion)
-}
+
+$('#sel_lang').empty()
+langCodes.forEach(function (l) {
+  $('#sel_lang').append('<option value="' + l + '">' + LANGUAGES[l] + '</option>')
+})
 $('#sel_lang').val(lang)
+
+$('#sel_jeedomVersion').empty()
+CORE_VERSIONS.forEach(function (v) {
+  $('#sel_jeedomVersion').append('<option value="' + v + '">Core ' + v + '</option>')
+})
+$('#sel_jeedomVersion').val(jeedomVersion)
 for (var i in docMenu) {
   var menu = docMenu[i]
   if (menu.divider) {
@@ -397,9 +387,11 @@ $(function() {
   }, 100)
 
   $('#sel_lang').on('change', function() {
-    setCookie('lang', $(this).val(), 7)
-    var url = window.location.href.replace('fr_FR', $(this).val()).replace('en_US', $(this).val()).replace('es_ES', $(this).val()).replace('de_DE', $(this).val())
-    window.location.href = url
+    var newLang = $(this).val()
+    setCookie('lang', newLang, 7)
+    window.location.href = Object.keys(LANGUAGES).reduce(function (url, l) {
+      return url.replace(l, newLang)
+    }, window.location.href)
   })
 
   $('#sel_theme').on('change', function() {
@@ -408,13 +400,13 @@ $(function() {
   })
 
   $('#sel_jeedomVersion').on('change', function() {
-    setCookie('jeedomVersion', $(this).val(), 7)
+    var newVersion = $(this).val()
+    setCookie('jeedomVersion', newVersion, 7)
     var url = window.location.href
-    if (url.indexOf('/core/') != -1 && url.indexOf(getCookie('jeedomVersion')) == -1) {
-      window.location.href = url.replace('4.3', getCookie('jeedomVersion'))
-        .replace('4.4', getCookie('jeedomVersion'))
-        .replace('4.5', getCookie('jeedomVersion'))
-        .replace('4.6', getCookie('jeedomVersion'))
+    if (url.indexOf('/core/') != -1 && url.indexOf(newVersion) == -1) {
+      window.location.href = CORE_VERSIONS.reduce(function (u, v) {
+        return u.replace(v, newVersion)
+      }, url)
       return
     }
     window.location.reload()
