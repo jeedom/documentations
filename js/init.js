@@ -256,7 +256,7 @@ var docMenu = [
       { link: "/dev/core", fr_FR: "Core", en_US: "Core", es_ES: "Core", de_DE: "Core", pt_PT: "Core" },
       { link: "/core/api_http", fr_FR: "Api HTTP", en_US: "Api HTTP", es_ES: "Api HTTP", de_DE: "Api HTTP", pt_PT: "Api HTTP" },
       { link: "/core/jsonrpc_api", fr_FR: "API JsonRPC", en_US: "API JsonRPC", es_ES: "API JsonRPC", de_DE: "API JsonRPC", pt_PT: "API JsonRPC" },
-      { link: "/phpdoc", fr_FR: "PhpDoc", en_US: "PhpDoc", es_ES: "PhpDoc", de_DE: "PhpDoc", pt_PT: "PhpDoc" },
+      { link: "/phpdoc", newTab: true, fr_FR: "PhpDoc", en_US: "PhpDoc", es_ES: "PhpDoc", de_DE: "PhpDoc", pt_PT: "PhpDoc" },
     ]
   }, {
     divider: true
@@ -330,7 +330,7 @@ for (var i in docMenu) {
       if (submenu.version && submenu.version.indexOf(jeedomVersion) == -1) {
         continue
       }
-      html += '<li><a href="' + resolveLink(submenu.link, lang, jeedomVersion) + '">' + genText(submenu, lang) + '</a></li>'
+      html += '<li><a href="' + resolveLink(submenu.link, lang, jeedomVersion) + '"' + (submenu.newTab ? ' target="_blank"' : '') + '>' + genText(submenu, lang) + '</a></li>'
     }
     html += '</ul>'
     html += '</div>'
