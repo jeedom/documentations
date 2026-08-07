@@ -32,7 +32,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: jeedom/core
-          ref: ${{ inputs.core_ref || '4.5.3' }}
+          ref: ${{ inputs.core_ref || 'release' }}
           path: core-src
 
       - name: Read version
