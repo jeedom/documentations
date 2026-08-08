@@ -1,9 +1,6 @@
 ---
 languages: [fr_FR,en_US,es_ES,de_DE]
 baseurl: "/"
-sass:
-  sass_dir: css
-  style: compressed
 permalink: /404.html
 markdown: kramdown
 kramdown:

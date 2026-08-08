@@ -87,7 +87,7 @@ html.dark ::-webkit-scrollbar-thumb {
   height: 50px;
   background-size: cover !important;
   background-repeat: no-repeat;
-  background-image: url('/img/logo_dark.png') !important;
+  background-image: url('/assets/img/logo_dark.png') !important;
 }
 
 html.dark #logo-container img {
