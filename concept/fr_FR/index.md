@@ -4,10 +4,6 @@ Voici les principaux concepts de base de Jeedom. Cette documentation reste volon
 
 Les possibilités de Jeedom sont quasi infinies, puisque vous pouvez créer énormément de choses avec quelques scripts php, python ou autres, mais ce n'est pas le sujet ici.
 
-> Tip
->
-> Les liens ci-dessous pointent vers le Core v4.5. Une fois sur la page de documentation (Manuel d'utilisation ou de configuration) vous pouvez changer de version dans le menu en haut à gauche pour basculer sur la version correspondant au Core que vous souhaitez.
-
 ## Affichage
 
 Jeedom permet d'interfacer de très nombreux périphériques ensemble, que ceux-ci soient basés sur les protocoles Z-Wave, Enocean, Zigbee etc, sur des APIs grâce à des plugins ou directement sous forme de scripts. Vous pouvez regarder sur le [Market](https://market.jeedom.com/) pour avoir un aperçu des périphériques supportés.
