@@ -1,23 +1,3 @@
-<script>
-  function getCookie(cname) {
-    var name = cname + "=";
-    var decodedCookie = decodeURIComponent(document.cookie);
-    var ca = decodedCookie.split(';');
-    for(var i = 0; i <ca.length; i++) {
-      var c = ca[i];
-      while (c.charAt(0) == ' ') {
-        c = c.substring(1);
-      }
-      if (c.indexOf(name) == 0) {
-        return c.substring(name.length, c.length);
-      }
-    }
-    return "";
-  }
-  
-  if(getCookie('lang')){
-    window.location.href = "/home/"+getCookie('lang')+"/";
-  }else{
-    window.location.href = "/home/fr_FR/";
-  }
-</script>
+<script type="text/javascript" src="/js/tools.js"></script>
+<script type="text/javascript" src="/js/config.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
