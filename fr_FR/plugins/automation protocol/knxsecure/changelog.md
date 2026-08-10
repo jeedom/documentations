@@ -4,8 +4,11 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# 16/07/2026 (beta)
+# 10/08/2026
 
+- **Mise à jour du logo de jeedom**
+
+# 16/07/2026
 - **Le plugin requiert désormais xknx 3.x (Python ≥ 3.10)** : sur un système au Python trop ancien (ex. Debian 11), Python 3.11 est compilé automatiquement via pyenv (Python natif sur Debian 12). Corrige l'échec d'installation des dépendances sous Python 3.9
 - **Fix — reconnexion automatique sous xknx 3.x** : le callback d'état de connexion n'était jamais exécuté sous xknx 3.x (warning `coroutine ... never awaited`) → la reconnexion ne partait pas. Corrigé
 - **Fix — double moteur de reconnexion** : la reconnexion interne de xknx est désactivée, la reconnexion est pilotée uniquement par le daemon

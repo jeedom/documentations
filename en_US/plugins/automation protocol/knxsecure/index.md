@@ -2,7 +2,7 @@
 
 The **knxSecure** plugin lets you control and monitor a **KNX** installation from Jeedom through a **KNX/IP** gateway. It supports **KNX IP Secure** (encrypted TCP tunneling and secure routing), reading **ETS** projects (`.knxproj`) and keyrings (`.knxkeys`), as well as a real-time bus monitor.
 
-![Overview of the knxSecure plugin: list of KNX devices](./images/apercu.png)
+![Overview of the knxSecure plugin: list of KNX devices](../images/apercu.png)
 
 ## How it works
 
@@ -28,7 +28,7 @@ A Python daemon (based on the [xknx](https://github.com/XKNX/xknx) library) keep
 3. Run the dependency installation (**Dependencies** button on the configuration page). The plugin creates an isolated Python environment and installs `xknx` and `xknxproject`.
 4. Start the daemon.
 
-![Plugin configuration page with the Dependencies button](./images/installation.png)
+![Plugin configuration page with the Dependencies button](../images/installation.png)
 
 Check the state of the dependencies and the daemon on the plugin's **Health** page (see below).
 
@@ -81,7 +81,7 @@ The plugin's **Health** page shows a synthetic status across 7 indicators, a goo
 
 The configuration page is organized into four tabs: **KNX Connection**, **ETS Project**, **Security**, **Daemon**. First choose the **connection mode** at the top of the page.
 
-![KNX Connection tab with the connection mode selector](./images/configuration-onglets.png)
+![KNX Connection tab with the connection mode selector](../images/configuration-onglets.png)
 
 ### Connection modes
 
@@ -95,7 +95,7 @@ The configuration page is organized into four tabs: **KNX Connection**, **ETS Pr
 
 > **Automatic discovery**: in tunneling mode, the **Discover** button scans the network for available KNX/IP gateways.
 
-![Automatic discovery of KNX/IP gateways on the network](./images/decouverte.png)
+![Automatic discovery of KNX/IP gateways on the network](../images/decouverte.png)
 
 ### UDP Tunneling
 
@@ -135,7 +135,7 @@ For that kind of installation, use the **eibd** plugin, designed to drive physic
 
 ### Gateway tunnel slot status
 
-![Gateway tunnel slots block with each slot's state](./images/slots-tunnel.png)
+![Gateway tunnel slots block with each slot's state](../images/slots-tunnel.png)
 
 In tunneling modes (UDP/TCP/TCP Secure), a **Gateway tunnel slots** block shows live:
 
@@ -158,7 +158,7 @@ Export the keyring from ETS (*Reports → KNX Security → Export keyring*), the
 2. Enter its **password** (set during the ETS export).
 3. Click **Inspect** to check the tunnel slots and keys it contains.
 
-![Security tab: importing the .knxkeys file and the Inspect button](./images/securite-knxkeys.png)
+![Security tab: importing the .knxkeys file and the Inspect button](../images/securite-knxkeys.png)
 
 xknx will automatically pick a compatible tunnel slot.
 
@@ -183,7 +183,7 @@ Importing an ETS project automatically retrieves the list of group addresses, th
 2. If the project is protected, enter the **ETS password**.
 3. Click **Analyze the project**.
 
-![ETS Project tab: dropping the .knxproj file and analyzing](./images/import-ets.png)
+![ETS Project tab: dropping the .knxproj file and analyzing](../images/import-ets.png)
 
 The plugin extracts the group addresses (with their original **DPT**), the topology (areas, lines, participants) and the locations. This data then feeds device creation and the bus monitor.
 
@@ -193,7 +193,7 @@ The plugin extracts the group addresses (with their original **DPT**), the topol
 
 Re-importing a `.knxproj` on top of an already loaded project automatically triggers a **comparison with the previous import**, shown as counters per change type: **added**, **removed**, **DPT changed**, **renamed**, with the address-by-address detail for each category.
 
-![Comparison of two ETS imports: added / removed / DPT changed / renamed counters](./images/import-diff.png)
+![Comparison of two ETS imports: added / removed / DPT changed / renamed counters](../images/import-diff.png)
 
 If some DPTs have changed, an **Apply the changed DPTs to GAs and commands** button updates in one click the DPT stored on the affected group addresses as well as on the commands of the devices that use them — this avoids fixing every command by hand after an ETS project evolves.
 
@@ -205,7 +205,7 @@ If some DPTs have changed, an **Apply the changed DPTs to GAs and commands** but
 
 Once an ETS project is analyzed, the plugin can create the devices on its own, without manual entry. **Auto import** tab of the Project modal → **Mode** selector, then **Analyze** to preview, tick what suits you, and **Create the selected devices**.
 
-![Auto import: detected devices with their type, GAs and DPT](./images/import-auto.png)
+![Auto import: detected devices with their type, GAs and DPT](../images/import-auto.png)
 
 Three grouping modes:
 
@@ -223,7 +223,7 @@ Three grouping modes:
 
 If you were already using the **eibd** plugin, knxSecure can **recreate your devices** while keeping group addresses and commands — no need to re-enter everything.
 
-![EIBD migration: list of eibd devices to migrate, with checkboxes](./images/migration-eibd.png)
+![EIBD migration: list of eibd devices to migrate, with checkboxes](../images/migration-eibd.png)
 
 1. **EIBD Migration** button (plugin page) → the list of your eibd devices is shown with checkboxes.
 2. Tick the devices to migrate (or all of them), then **Migrate the selection**.
@@ -242,13 +242,13 @@ Each knxSecure device represents a KNX appliance (light, shutter, thermostat…)
 - **`info` command**: **state** address (`ga_state`) — Jeedom reads the value reported by the bus;
 - **`action` command**: **write** address (`ga_write`) — Jeedom sends a telegram onto the bus.
 
-![Device page: info (state) and action (write) commands with their group addresses](./images/fiche-equipement.png)
+![Device page: info (state) and action (write) commands with their group addresses](../images/fiche-equipement.png)
 
 ### Ready-to-use profiles
 
 At creation time, a **profile** automatically applies the right commands and the right widget. Available profiles:
 
-![Choosing a ready-to-use profile when creating a device](./images/creation-profils.png)
+![Choosing a ready-to-use profile when creating a device](../images/creation-profils.png)
 
 | Category | Profiles |
 |---|---|
@@ -371,7 +371,7 @@ Three typical cases. The commands and flags shown are those applied automaticall
 
 The group address manager (**Group addresses** modal) centralizes all known GAs — imported from ETS or added manually — organized into hierarchical groups (main / middle).
 
-![Group addresses modal: GAs organized into hierarchical groups with their last value](./images/adresses-groupe.png)
+![Group addresses modal: GAs organized into hierarchical groups with their last value](../images/adresses-groupe.png)
 
 - View the GAs and their **last known value** on the bus.
 - Organize the GAs into groups (reuses the ETS hierarchy if it exists).
@@ -383,7 +383,7 @@ The group address manager (**Group addresses** modal) centralizes all known GAs 
 
 The monitor shows in **real time** the telegrams flowing on the KNX bus (automatic refresh every 2 seconds):
 
-![Bus Monitor: real-time telegrams, filters and load statistics](./images/bus-monitor.png)
+![Bus Monitor: real-time telegrams, filters and load statistics](../images/bus-monitor.png)
 
 - type (write / read / response), group address, source address, value decoded per DPT **with its unit** (°C, lux, %…) when a Jeedom command exists for that GA;
 - **filters** by source, by group address and by telegram type;
@@ -412,7 +412,7 @@ So that Jeedom knows the real bus state:
 
 The **Daemon** tab gathers the internal settings of the Python process and a connection diagnostic tool. It is split into two blocks: **Internal parameters** and **Diagnostic**.
 
-![Daemon tab: internal parameters and Diagnostic block](./images/onglet-daemon.png)
+![Daemon tab: internal parameters and Diagnostic block](../images/onglet-daemon.png)
 
 ### Internal parameters
 
@@ -437,7 +437,7 @@ It is the fastest way to validate a configuration (connection mode, IP, Secure c
 
 First reflex: the **Health** page (synthetic status), then the **Test KNX connection** button (Daemon tab), and finally the **daemon logs** (built-in viewer) for the detailed message.
 
-![Built-in daemon log viewer](./images/logs-daemon.png)
+![Built-in daemon log viewer](../images/logs-daemon.png)
 
 ### Error catalog (message → cause → solution)
 
