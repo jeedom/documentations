@@ -14,6 +14,7 @@ exclude:
 plugins:
 - jekyll-paginate
 - jekyll-seo-tag
+- jekyll-relative-links
 title: "Documentation Jeedom"
 description: "Ceci est la documentation liée à la solution domotique Jeedom."
 author: "Jeedom"
