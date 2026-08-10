@@ -401,6 +401,28 @@ h5 {
   font-size: 85%;
 }
 
+img.pluginLogo {
+  height: 100px;
+}
+
+.pluginName {
+  display: block;
+  font-weight: bold;
+}
+
+table.plugin-table thead {
+  display: none;
+}
+
+table.plugin-table td:not(:nth-child(2)) {
+  text-align: center;
+}
+
+table.plugin-table td:nth-child(2) {
+  padding-right: 20px;
+  overflow-wrap: anywhere;
+}
+
 @media only screen and (max-width: 992px) {
   #div_content h1 {
     font-size: 32px !important;
@@ -423,13 +445,13 @@ h5 {
   }
 
   img.pluginLogo {
-    width: 64px !important;
+    height: 64px !important;
   }
 }
 
 @media only screen and (max-width: 560px) {
   img.pluginLogo {
-    width: 32px !important;
+    height: 32px !important;
   }
 }
 
