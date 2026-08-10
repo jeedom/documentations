@@ -1,0 +1,149 @@
+- id: jeeDashboardAgbox
+  name: "JeeDashboard-Agbox"
+  market_id: 4523
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin servant à la configuration de JeeDashboard"
+    en_US: "Plugin for configuring JeeDashboard"
+    es_ES: "Complemento utilizado para configurar JeeDashboard"
+    de_DE: "Plugin zur Konfiguration von JeeDashboard"
+
+- id: jeeDashboardMonitoring
+  name: "JeeDashboard-Monitoring"
+  market_id: 4606
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin de publication notification Cloud."
+    en_US: "Plugin de publication notification Cloud."
+    es_ES: "Plugin de publication notification Cloud."
+    de_DE: "Plugin de publication notification Cloud."
+
+- id: jeeDashboardPublish
+  name: "JeeDashboard-Publish"
+  market_id: 4482
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permetant de publier des valeurs depuis Jeedom en MQTT"
+    en_US: "Plugin allowing you to publish values from Jeedom in MQTT"
+    es_ES: "Complemento que le permite publicar valores de Jeedom en MQTT"
+    de_DE: "Plugin, mit dem Sie Werte von Jeedom in MQTT veröffentlichen können"
+
+- id: jeeDashboardSunPulse
+  name: "JeeDashboard-SunPulse"
+  market_id: 4574
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin de communication MADEnR"
+    en_US: "Plugin de communication MADEnR"
+    es_ES: "Plugin de communication MADEnR"
+    de_DE: "Plugin de communication MADEnR"
+
+- id: jeeDashboardVoe
+  name: "JeeDashboard-Voe"
+  market_id: 4570
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin de publication Cloud"
+    en_US: "Plugin de publication Cloud"
+    es_ES: "Plugin de publication Cloud"
+    de_DE: "Plugin de publication Cloud"
+
+- id: monitoring2
+  name: "Monitoring"
+  market_id: 3317
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin de Monitoring local et distant par SSH"
+    en_US: "Local and remote monitoring plugin by SSH"
+    es_ES: "Complemento de monitoreo local y remoto por SSH"
+    de_DE: "Plugin für lokale und Fernüberwachung per SSH"
+
+- id: nut
+  name: "Onduleur (NUT)"
+  market_id: 1500
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour récuperer les informations des onduleurs via nut"
+    en_US: "Plugin to retrieve information from inverters via nut"
+    es_ES: "Complemento para recuperar información de los inversores a través de la tuerca"
+    de_DE: "Plugin zum Abrufen von Informationen von Wechselrichtern über Mutter"
+
+- id: octoprint
+  name: "Octoprint"
+  market_id: 3295
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Plugin pour monitorer vos serveurs d'impression 3D"
+    en_US: "Plugin to monitor your 3D print servers"
+    es_ES: "Plugin para monitorear sus servidores de impresión 3D"
+    de_DE: "Plugin zur Überwachung Ihrer 3D-Druckserver"
+
+- id: unifiprotect
+  name: "Ubiquiti Unifi protect"
+  market_id: 4188
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de connecter Jeedom à Unifi Protect"
+    en_US: "Plugin allowing to connect Jeedom to Unifi Protect"
+    es_ES: "Complemento para conectar Jeedom a Unifi Protect"
+    de_DE: "Plugin zum Verbinden von Jeedom mit Unifi Protect"
+
+- id: ventilairsec
+  name: "Ventilairsec"
+  market_id: 3895
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: ""
+    en_US: ""
+    es_ES: ""
+    de_DE: ""

@@ -1,0 +1,44 @@
+- id: netatmoWeather
+  name: "Netatmo Station"
+  market_id: 133
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Permet de récupérer les informations des stations météo Netatmo."
+    en_US: "Allows you to retrieve information from Netatmo weather stations."
+    es_ES: "Le permite recuperar información de las estaciones meteorológicas de Netatmo."
+    de_DE: "Ermöglicht das Abrufen von Informationen von Netatmo-Wetterstationen."
+
+- id: publiemeteo
+  name: "Publie Meteo"
+  market_id: 2318
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: ""
+    en_US: ""
+    es_ES: ""
+    de_DE: ""
+
+- id: weather
+  name: "Weather"
+  market_id: 7
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Ce plugin permet de récupérer les informations météorologiques du lieu de votre choix telles que les conditions et les températures actuelles et des jours à venir, le taux d'humidité, la force du vent et sa direction, les heures de lever et coucher du soleil et bien plus encore... Vous vouliez acheter une station météo? Ce plugin vous fera sûrement changer d'avis!"
+    en_US: "This plugin allows you to retrieve weather information from the location of your choice such as current and future conditions and temperatures, humidity level, wind strength and direction, sunrise and sunset times and much more... You wanted to buy a weather station? This plugin will surely change your mind!"
+    es_ES: "Este complemento le permite recuperar información meteorológica de la ubicación de su elección, como condiciones y temperaturas actuales y futuras, nivel de humedad, fuerza y dirección del viento, horas de salida y puesta del sol y mucho más... Querías comprar una estación meteorológica? Este complemento seguramente te hará cambiar de opinión!"
+    de_DE: "Mit diesem Plugin können Sie Wetterinformationen von einem Ort Ihrer Wahl abrufen, z. B. aktuelle und zukünftige Bedingungen und Temperaturen, Luftfeuchtigkeit, Windstärke und -richtung, Sonnenauf- und -untergangszeiten und vieles mehr ... Sie wollten eine Wetterstation kaufen? Dieses Plugin wird Ihre Meinung sicherlich ändern!"

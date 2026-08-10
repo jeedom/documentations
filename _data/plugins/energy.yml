@@ -1,0 +1,254 @@
+- id: delestage
+  name: "Délestage"
+  market_id: 2616
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour gérer le délestage. 3 modes de fonctionnement possibles : <br>- Intelligent <br>- Hiérarchique <br>- Cascadocyclique"
+    en_US: "Plugin to manage load shedding. 3 possible operating modes : <br>- Clever <br>- Hierarchical <br>- Cascadocyclique"
+    es_ES: "Complemento para gestionar el desprendimiento de carga. 3 modos de funcionamiento posibles : <br>- Inteligente <br>- Jerárquico <br>- Cascadocyclique"
+    de_DE: "Plugin zur Verwaltung des Lastabwurfs. 3 mögliche Betriebsarten : <br>- Intelligent <br>- Hierarchisch <br>- Cascadocyclique"
+
+- id: enedis
+  name: "Enedis"
+  market_id: 4036
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Récupérez les informations de consommation de vos compteurs électriques communicants à partir de votre compte-client Enedis. Tout ce qu'il faut faire est d'autoriser le partage des données avec Jeedom et d'indiquer le numéro d'identification du Point de Livraison (PDL) concerné. <br/><br/>Le plugin remonte les mesures horaire, journalière, mensuelle, annuelle ainsi que la puissance max aussi bien en consommation qu'en production. <br/>NB: Les données les plus récentes reçues par Enedis sont relatives à la veille du jour en cours"
+    en_US: "Retrieve the consumption information of your smart electricity meters from your Enedis customer account. All you need to do is authorize data sharing with Jeedom and indicate the identification number of the Delivery Point (PDL) concerned. <br/><br/>The plugin reports hourly, daily, monthly, annual measurements as well as the maximum power both in consumption and in production. <br/>NB: The most recent data received by Enedis relate to the day before the current day"
+    es_ES: "Recupere la información de consumo de sus contadores de electricidad inteligentes de su cuenta de cliente de Enedis. Todo lo que necesita hacer es autorizar el intercambio de datos con Jeedom e indicar el número de identificación del Punto de Entrega (PDL) en cuestión. <br/><br/>El plugin reporta mediciones horarias, diarias, mensuales, anuales así como la potencia máxima tanto en consumo como en producción. <br/>NB: Los datos más recientes recibidos por Enedis se refieren al día anterior al día actual"
+    de_DE: "Rufen Sie die Verbrauchsinformationen Ihrer intelligenten Stromzähler von Ihrem Enedis-Kundenkonto ab. Sie müssen lediglich die Datenfreigabe mit Jeedom autorisieren und die Identifikationsnummer des betreffenden Lieferpunkts (Delivery Point, PDL) angeben. <br/><br/>Das Plugin meldet stündliche, tägliche, monatliche, jährliche Messungen sowie die maximale Leistung sowohl im Verbrauch als auch in der Produktion. <br/>NB: Die neuesten bei Enedis eingegangenen Daten beziehen sich auf den Tag vor dem aktuellen Tag"
+
+- id: energy
+  name: "Energie"
+  market_id: 54
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour gérer sa consommation énergétique"
+    en_US: "Plugin to manage your energy consumption"
+    es_ES: "Complemento para administrar su consumo de energía"
+    de_DE: "Plugin zur Verwaltung Ihres Energieverbrauchs"
+
+- id: energy2
+  name: "Comptage"
+  market_id: 3591
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour le comptage de l'énergie (gaz, électricité et eau). Permet de faire un calcul estimatif du DPE."
+    en_US: "Plugin for energy metering (gas, electricity and water). Allows you to make an estimated calculation of the DPE."
+    es_ES: "Plugin para medición de energía (gas, electricidad y agua). Le permite hacer un cálculo estimado del DPE."
+    de_DE: "Plugin zur Energiemessung (Gas, Strom und Wasser). Ermöglicht eine geschätzte Berechnung der DPE."
+
+- id: energy3
+  name: "Energie dashboard"
+  market_id: 4376
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin servant à afficher un dashboard énergétique de la maison (eau, gaz, électricité et production solaire). Attention ce plugin ne prend pas en charge les batteries"
+    en_US: "Plugin used to display an energy dashboard of the house (water, gas, electricity and solar production). Please note this plugin does not support batteries"
+    es_ES: "Complemento utilizado para mostrar un tablero de energía de la casa (agua, gas, electricidad y producción solar). Tenga en cuenta que este complemento no admite baterías"
+    de_DE: "Plugin zur Anzeige eines Energie-Dashboards des Hauses (Wasser-, Gas-, Strom- und Solarproduktion). Bitte beachten Sie, dass dieses Plugin keine Batterien unterstützt"
+
+- id: envoy
+  name: "Enphase Envoy"
+  market_id: 3992
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour remonter les informations photovoltaïques des passerelles Envoy"
+    en_US: "Plugin to collect photovoltaic information from Envoy gateways"
+    es_ES: "Complemento para recopilar información fotovoltaica de las puertas de enlace de Envoy"
+    de_DE: "Plugin zum Sammeln von Photovoltaik-Informationen von Envoy-Gateways"
+
+- id: ewattch
+  name: "Ewattch"
+  market_id: 1668
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Plugin pour le superviseur ewattch"
+    en_US: "Plugin for the ewattch supervisor"
+    es_ES: "Plugin para el supervisor de ewattch"
+    de_DE: "Plugin für den ewattch Supervisor"
+
+- id: extel
+  name: "Extel"
+  market_id: 2979
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Plugin pour controller la multiprise Extel"
+    en_US: "Plugin to control the Extel power strip"
+    es_ES: "Plugin para controlar la regleta Extel"
+    de_DE: "Plugin zur Steuerung der Extel-Steckdosenleiste"
+
+- id: grdf
+  name: "GRDF"
+  market_id: 4488
+  doc:
+    stable: false
+    beta: true
+  changelog:
+    stable: false
+    beta: true
+  description:
+    fr_FR: "Récupérez les données de vos compteurs de gaz communicants à partir de votre espace client GRDF. Il suffit d'autoriser le partage des données avec Jeedom et d'indiquer le numéro d'identification PCE du compteur concerné."
+    en_US: "Retrieve data from your communicating gas meters from your GRDF customer area. Simply authorize the sharing of data with Jeedom and indicate the PCE identification number of the meter concerned."
+    es_ES: "Recupera datos de tus contadores de gas comunicantes desde tu área de clientes de GRDF. Simplemente autorice el intercambio de datos con Jeedom e indique el número de identificación PCE del medidor en cuestión."
+    de_DE: "Rufen Sie Daten Ihrer kommunizierenden Gaszähler aus Ihrem GRDF-Kundenbereich ab. Autorisieren Sie einfach den Datenaustausch mit Jeedom und geben Sie die PCE-Identifikationsnummer des betreffenden Zählers an."
+
+- id: grdfpro
+  name: "GRDF Pro"
+  market_id: 4591
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugins pour la gestion des données de consommation de gaz pour les professionnels."
+    en_US: "Plugins pour la gestion des données de consommation de gaz pour les professionnels."
+    es_ES: "Plugins pour la gestion des données de consommation de gaz pour les professionnels."
+    de_DE: "Plugins pour la gestion des données de consommation de gaz pour les professionnels."
+
+- id: jeeMeter
+  name: "Compteur virtuel"
+  market_id: 4533
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Créez des compteurs énergétiques sur mesure (tarif unique ou heures pleines/heures creuses) à partir d'indexs bruts (Wh/kWh) et/ou de puissances (W/kW). Permet également de créer des compteurs liés à une identification (Personnalisé/OCPP)."
+    en_US: "Create custom energy meters (single rate or peak/off-peak hours) from raw indexes (Wh/kWh) and/or powers (W/kW). It also allows the creation of counters linked to an identifier (Custom/OCPP))."
+    es_ES: "Cree contadores de energía a medida (tarifa única u horas punta/valle) a partir de índices brutos (Wh/kWh) y/o potencias (W/kW). También permite la creación de contadores vinculados a un identificador (Personalizado/OCPP))."
+    de_DE: "Erstellen Sie maßgeschneiderte Energiezähler (Einzeltarif oder Spitzen-/Nebenzeiten) aus Rohindizes (Wh/kWh) und/oder Leistungen (W/kW). Es ermöglicht auch die Erstellung von Zählern, die mit einer Kennung verknüpft sind (Custom/OCPP))."
+
+- id: mpower
+  name: "Mpower"
+  market_id: 2181
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : état, puissance, consommation, courant, voltage et facteur de puissance. Les données sont rafraichies toutes les minutes et après une action depuis jeedom. Uniquement testé avec le modèle 6 prises."
+    en_US: "This plugin allows you to control your Mpower multiple sockets. The widget allows you to see all the info : status, power, consumption, current, voltage and power factor. The data is refreshed every minute and after an action from jeedom. Only tested with the 6 socket model."
+    es_ES: "Este complemento le permite controlar sus múltiples enchufes Mpower. El widget te permite ver toda la información : estado, potencia, consumo, corriente, voltaje y factor de potencia. Los datos se actualizan cada minuto y después de una acción de jeedom. Solo probado con el modelo de 6 enchufes."
+    de_DE: "Mit diesem Plugin können Sie Ihre Mpower-Mehrfachbuchsen steuern. Mit dem Widget können Sie alle Informationen anzeigen : Status, Leistung, Verbrauch, Strom, Spannung und Leistungsfaktor. Die Daten werden jede Minute und nach einer Aktion von jeedom aktualisiert. Nur mit dem 6-Sockel-Modell getestet."
+
+- id: ocea
+  name: "Ocea"
+  market_id: 4552
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de récupérer les donnéees de consommations en utilisant l'API OCEA"
+    en_US: "Plugin to retrieve consumption data using the OCEA API"
+    es_ES: "Complemento que le permite recuperar datos de consumo utilizando la API OCEA"
+    de_DE: "Plugin, mit dem Sie Verbrauchsdaten mithilfe der OCEA-API abrufen können"
+
+- id: rt2
+  name: "Eco RT2"
+  market_id: 2918
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de piloter l'Eco-Devices RT2."
+    en_US: "Plugin for controlling Eco-Devices RT2."
+    es_ES: "Complemento para controlar Eco-Devices RT2."
+    de_DE: "Plugin zur Steuerung von Eco-Devices RT2."
+
+- id: teleinfoPMEPMI
+  name: "Téléinfo PME-PMI"
+  market_id: 4448
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin servant à relever la téléinfo des compteurs PME-PMI"
+    en_US: "Plugin used to read teleinfo from SME-PMI meters"
+    es_ES: "Complemento utilizado para leer teleinformación de medidores SME-PMI"
+    de_DE: "Plugin zum Auslesen von Teleinformationen von SME-PMI-Zählern"
+
+- id: wescontrol
+  name: "Wes Control"
+  market_id: 4151
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Prenez le contrôle de votre serveur d'énergie Cartelectronic Wes depuis Jeedom et vous serez en mesure d'en décupler les fonctionnalités. Le plugin offre la possibilité d'utiliser un fichier CGX spécialement conçu pour Jeedom et permettant de lire davantage de données que celles disponibles par défaut (nécessite un accès au serveur Wes en FTP). (Firmware V0.84A10 minimum)"
+    en_US: "Take control of your Cartelectronic Wes energy server from Jeedom and you will be able to increase its functionality tenfold. The plugin offers the possibility of using a CGX file specially designed for Jeedom and allowing to read more data than those available by default (requires access to the Wes server in FTP). (Firmware V0.84A10 minimum)"
+    es_ES: "Toma el control de tu servidor de energía Cartelectronic Wes de Jeedom y podrás multiplicar por diez su funcionalidad. El complemento ofrece la posibilidad de usar un archivo CGX especialmente diseñado para Jeedom y que permite leer más datos que los disponibles por defecto (requiere acceso al servidor Wes en FTP). (Firmware V0.84A10 mínimo)"
+    de_DE: "Übernehmen Sie die Kontrolle über Ihren Cartelectronic Wes Energieserver von Jeedom und Sie können seine Funktionalität verzehnfachen. Das Plugin bietet die Möglichkeit, eine speziell für Jeedom entwickelte CGX-Datei zu verwenden und mehr Daten als die standardmäßig verfügbaren zu lesen (erfordert Zugriff auf den Wes-Server in FTP). (Firmware V0.84A10 Mindestanforderung)"
+
+- id: wiserlink
+  name: "WiserLink"
+  market_id: 2938
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Plugin pour afficher les données du module IP Wiser. Il remonte l'ensemble des 5 canaux / la téléinfo / les 2 modules impulsionnels. Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie."
+    en_US: "Plugin to display data from the Wiser IP module. It goes up all 5 channels / TV info / 2 pulse modules. In each case the icons are customizable as well as the names and we have the power and the energy."
+    es_ES: "Complemento para mostrar datos del módulo Wiser IP. Sube los 5 canales / información de TV / 2 módulos de pulso. En cada caso, los iconos son personalizables, así como los nombres y tenemos el poder y la energía."
+    de_DE: "Plugin zur Anzeige von Daten aus dem Wiser IP-Modul. Es werden alle 5 Kanäle / TV-Info / 2 Pulsmodule hochgefahren. In jedem Fall sind die Symbole sowie die Namen anpassbar und wir haben die Kraft und die Energie."

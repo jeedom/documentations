@@ -1,0 +1,473 @@
+﻿- id: bacnet
+  name: "BACnet"
+  market_id: 4161
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de piloter des équipements Bacnet/IP. Detection des équipements via broadcast, ou intégration manuelle. Gestion des Schedules. Import de fichier EDE"
+    en_US: "Plugin for controlling Bacnet / IP equipment. Detection des équipements via broadcast, ou intégration manuelle. Gestion des Schedules. Import de fichier EDE"
+    es_ES: "Complemento para controlar equipos Bacnet / IP. Detection des équipements via broadcast, ou intégration manuelle. Gestion des Schedules. Import de fichier EDE"
+    de_DE: "Plugin zur Steuerung von Bacnet / IP-Geräten. Detection des équipements via broadcast, ou intégration manuelle. Gestion des Schedules. Import de fichier EDE"
+
+- id: bacnetManager
+  name: "bacnetManager"
+  market_id: 4551
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de créer un device Bacnet/Jeedom"
+    en_US: "Plugin allowing to create a Bacnet/Jeedom device"
+    es_ES: "Complemento que permite crear un dispositivo Bacnet/Jeedom"
+    de_DE: "Plugin zum Erstellen eines Bacnet/Jeedom-Geräts"
+
+- id: bacnetServer
+  name: "BACnetServer"
+  market_id: 4323
+  doc:
+    stable: false
+    beta: true
+  changelog:
+    stable: false
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de créer un device Bacnet/Jeedom"
+    en_US: "Plugin allowing to create a Bacnet/Jeedom device"
+    es_ES: "Complemento que permite crear un dispositivo Bacnet/Jeedom"
+    de_DE: "Plugin zum Erstellen eines Bacnet/Jeedom-Geräts"
+
+- id: bacnetStackServer
+  name: "bacnetStackServer"
+  market_id: 4611
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Le plugin **BACnet Stack Server** permet de transformer votre Jeedom en serveur BACnet. Il expose vos équipements et commandes Jeedom sous forme d'objets BACnet accessibles par d'autres systèmes de GTB (Gestion Technique du Bâtiment).Integre desormais une partie Client BACnet pour permettre a Jeedom de se connecter a d'autres serveurs BACnet et d'en exploiter les objets."
+
+- id: beagle
+  name: "Odace SFSP"
+  market_id: 3917
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin ajoutant le support de la gamme Odace SFSP (sans fil sans pile) Schneider à Jeedom. Il permet d'obtenir les informations des interrupteurs (volets/ scènes / simple / double). Il permet de contrôler les actionneurs (volet/dcl). Il permet aussi de pouvoir utiliser les scènes et les groupes."
+    en_US: "Plugin adding support for the Odace SFSP range (wireless without battery) Schneider to Jeedom. It allows to obtain the information of the switches (shutters / scenes / single / double). It allows to control the actuators (shutter / dcl). It also allows you to use scenes and groups."
+    es_ES: "Complemento que agrega soporte para la gama Odace SFSP (inalámbrica sin batería) Schneider a Jeedom. Permite obtener la información de los interruptores (persianas / escenas / individuales / dobles). Permite controlar los actuadores (obturador / dcl). También te permite usar escenas y grupos."
+    de_DE: "Plugin zur Unterstützung der Odace SFSP-Reihe (drahtlos ohne Akku) Schneider to Jeedom. Es ermöglicht die Information der Schalter (Fensterläden / Szenen / Einzel / Doppel). Es ermöglicht die Steuerung der Aktuatoren (Verschluss / dcl). Außerdem können Sie Szenen und Gruppen verwenden."
+
+- id: blea
+  name: "Bluetooth Advertisement"
+  market_id: 2554
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour la gestion de certains devices qui fonctionnent en bluetooth advertisement comme les NIUS de Nodon Pour les NIUS il permet de detecter les différents appuis. Pour certains autres devices il permet de faire de la présence. Aussi compatible avec les boutons ticatag (avec gestion des multiples appuis température et action pour le faire sonner) Compatible Mi flora, Mi scale , awox smartplug, playbulb, miband1 et 1s"
+    en_US: "Plugin for the management of certain devices which work in bluetooth advertisement like the NIUS of Nodon For the NIUS it allows to detect the different supports. For some other devices it allows to make presence. Also compatible with ticatag buttons (with management of multiple temperature and action presses to make it ring) Compatible Mi flora, Mi scale, awox smartplug, playbulb, miband1 and 1s"
+    es_ES: "Plugin para la gestión de determinados dispositivos que funcionan en publicidad bluetooth como el NIUS de Nodon Para el NIUS permite detectar los diferentes soportes. Para algunos otros dispositivos permite hacer presencia. También compatible con botones ticatag (con gestión de múltiples pulsaciones de temperatura y acción para que suene) Compatible Mi flora, Mi scale, awox smartplug, playbulb, miband1 y 1s"
+    de_DE: "Plugin zur Verwaltung bestimmter Geräte, die in Bluetooth-Werbung funktionieren, wie der NIUS von Nodon Für den NIUS können die verschiedenen Unterstützungen erkannt werden. Bei einigen anderen Geräten ist Präsenz möglich. Kompatibel auch mit Ticatag-Tasten (mit der Verwaltung mehrerer Temperatur- und Aktionstasten, damit es klingelt) Kompatible Mi-Flora, Mi-Skala, Awox-Smartplug, Playbulb, Miband1 und 1s"
+
+- id: broadlink
+  name: "Broadlink"
+  market_id: 2699
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin ajoutant le support de certains produits Broadlink comme (le RM, le A1 etccc)"
+    en_US: "Plugin adding support for certain Broadlink products such as (RM, A1 etccc)"
+    es_ES: "Complemento que agrega soporte para ciertos productos Broadlink como (RM, A1, etc.cc)"
+    de_DE: "Plugin, das Unterstützung für bestimmte Broadlink-Produkte wie (RM, A1 usw.) hinzufügt)"
+
+- id: dali
+  name: "Dali"
+  market_id: 4223
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Ce plugin permet la gestion du protocole Dali, compatible uniquement avec la gateway HASSEB DaliMaster v2"
+    en_US: "This plugin allows management of the Dali protocol, compatible only with the HASSEB DaliMaster v2 gateway"
+    es_ES: "Este complemento permite la gestión del protocolo Dali, compatible solo con la puerta de enlace HASSEB DaliMaster v2"
+    de_DE: "Dieses Plugin ermöglicht die Verwaltung des Dali-Protokolls, das nur mit dem HASSEB DaliMaster v2-Gateway kompatibel ist"
+
+- id: deconz
+  name: "Deconz"
+  market_id: 3610
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Ce plugin va vous permettre d'intégrer une multitude de modules ZigBee (Ikea, Philips Hue, Xiaomi etc...) sans avoir a passer par leur passerelle avec la clé Conbee/Conbee II. IMPORTANT : il faut absolument une clef conbee pour utiliser ce plugin. Autre point il faut bien lire la documentation et les modules compatibles."
+    en_US: "This plugin will allow you to integrate a multitude of ZigBee modules (Ikea, Philips Hue, Xiaomi etc ...) without having to go through their gateway with the Conbee / Conbee II key. IMPORTANT : you absolutely need a conbee key to use this plugin. Another point is to read the documentation and compatible modules."
+    es_ES: "Este plugin te permitirá integrar multitud de módulos ZigBee (Ikea, Philips Hue, Xiaomi etc ...) sin tener que pasar por su puerta de enlace con la clave Conbee / Conbee II. IMPORTANTE : absolutamente necesitas una clave conbee para usar este complemento. Otro punto es leer la documentación y módulos compatibles."
+    de_DE: "Mit diesem Plugin können Sie eine Vielzahl von ZigBee-Modulen (Ikea, Philips Hue, Xiaomi usw.) integrieren, ohne das Gateway mit dem Conbee / Conbee II-Schlüssel durchlaufen zu müssen. WICHTIG : Sie benötigen unbedingt einen Conbee-Schlüssel, um dieses Plugin zu verwenden. Ein weiterer Punkt ist das Lesen der Dokumentation und der kompatiblen Module."
+
+- id: ecodevice
+  name: "Eco-device"
+  market_id: 342
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: ""
+    en_US: ""
+    es_ES: ""
+    de_DE: ""
+
+- id: edimaxplug
+  name: "Edimax Plug"
+  market_id: 2455
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: ""
+    en_US: ""
+    es_ES: ""
+    de_DE: ""
+
+- id: edisio
+  name: "Edisio"
+  market_id: 1541
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Plugin Edisio pour gérer le protocole Edisio avec clef USB Edisio. Ainsi vous pourrez communiquer avec les produits de la gamme Edisio."
+    en_US: "Edisio plugin to manage the Edisio protocol with Edisio USB key. So you can communicate with the products of the Edisio range."
+    es_ES: "Complemento Edisio para administrar el protocolo Edisio con la llave USB Edisio. Para que pueda comunicarse con los productos de la gama Edisio."
+    de_DE: "Edisio-Plugin zur Verwaltung des Edisio-Protokolls mit dem Edisio-USB-Stick. So können Sie mit den Produkten der Edisio-Reihe kommunizieren."
+
+- id: ipx800
+  name: "ipx800 V3"
+  market_id: 344
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: ""
+    en_US: ""
+    es_ES: ""
+    de_DE: ""
+
+- id: ipx800v2
+  name: "ipx800 V2"
+  market_id: 1194
+  doc:
+    stable: false
+    beta: false
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: ""
+    en_US: ""
+    es_ES: ""
+    de_DE: ""
+
+- id: ipx800v4
+  name: "IPX 800 v4"
+  market_id: 2046
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour piloter l'IPX 800"
+    en_US: "Plugin to control the IPX 800"
+    es_ES: "Complemento para controlar el IPX 800"
+    de_DE: "Plugin zur Steuerung des IPX 800"
+
+- id: ipx800v5
+  name: "IPX800 v5"
+  market_id: 4218
+  doc:
+    stable: false
+    beta: true
+  changelog:
+    stable: false
+    beta: true
+  description:
+    fr_FR: "Plugin pour l'ipx800v5.Attention du à la complexité de l'api mise à disposition par le fabricant ce plugin n'est pas recommandé pour les débuts. Si vous pouvez partez plutot sur un ipx800v4 bien plus simple. Attention le plugin passera payant quand il passera en stable"
+    en_US: "Plugin for ipx800v5.Beware of the complexity of the API provided by the manufacturer, this plugin is not recommended for beginners. If you can go on a much simpler ipx800v4 instead. Please note that the plugin will pay when it goes to stable"
+    es_ES: "Complemento para ipx800v5.Tenga cuidado con la complejidad de la API proporcionada por el fabricante, este complemento no se recomienda para principiantes. Si puede usar un ipx800v4 mucho más simple en su lugar. Tenga en cuenta que el complemento pagará cuando se establezca"
+    de_DE: "Plugin für ipx800v5.Beachten Sie die Komplexität der vom Hersteller bereitgestellten API, dieses Plugin wird für Anfänger nicht empfohlen. Wenn Sie stattdessen eine viel einfachere ipx800v4 verwenden können. Bitte beachte, dass das Plugin zahlt, wenn es in den Stall geht"
+
+- id: knxsecure
+  name: "knxSecure"
+  market_id: 4677
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de piloter et superviser des équipements KNX via une passerelle KNX/IP. Supporte KNX IP Secure (tunneling TCP), la lecture des projets ETS (.knxproj) et la gestion d'équipements virtuels."
+
+- id: lorapayload
+  name: "Lora Payload"
+  market_id: 4146
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permetant le décodage des Payloads Lora."
+    en_US: "Plugin allowing decoding of Lora Payloads."
+    es_ES: "Complemento que permite decodificar Lora Payloads."
+    de_DE: "Plugin zur Dekodierung von Lora Payloads."
+
+- id: modbus
+  name: "Modbus"
+  market_id: 4267
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin Modbus - RTU - TCP"
+    en_US: "Plugin Modbus - RTU - TCP"
+    es_ES: "Plugin Modbus - RTU - TCP"
+    de_DE: "Plugin Modbus - RTU - TCP"
+
+- id: modbusServer
+  name: "Modbus Server"
+  market_id: 4357
+  doc:
+    stable: false
+    beta: true
+  changelog:
+    stable: false
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de créer un device Modbus/Jeedom"
+    en_US: "Plugin allowing to create a Modbus/Jeedom device"
+    es_ES: "Complemento que permite crear un dispositivo Modbus/Jeedom"
+    de_DE: "Plugin zum Erstellen eines Modbus/Jeedom-Geräts"
+
+- id: myhomescs
+  name: "MyhomeSCS"
+  market_id: 3107
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Permet de gérer le protocole MyHome Bus."
+    en_US: "Allows you to manage the MyHome Bus protocol."
+    es_ES: "Le permite administrar el protocolo MyHome Bus."
+    de_DE: "Ermöglicht die Verwaltung des MyHome Bus-Protokolls."
+
+- id: ocpp
+  name: "OCPP"
+  market_id: 4569
+  doc:
+    stable: false
+    beta: true
+  changelog:
+    stable: false
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de contrôler les bornes de recharge de véhicules compatibles avec le protocole OCPP en faisant de Jeedom un système central OCPP."
+    en_US: "Plugin permettant de contrôler les bornes de recharge de véhicules compatibles avec le protocole OCPP en faisant de Jeedom un système central OCPP."
+    es_ES: "Plugin permettant de contrôler les bornes de recharge de véhicules compatibles avec le protocole OCPP en faisant de Jeedom un système central OCPP."
+    de_DE: "Plugin permettant de contrôler les bornes de recharge de véhicules compatibles avec le protocole OCPP en faisant de Jeedom un système central OCPP."
+
+- id: openenocean
+  name: "EnOcean"
+  market_id: 2622
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin ajoutant le support du EnOcean à Jeedom https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean De nombreux modules seront rajoutés rapidement et en continue Nous vous conseillons de migrer avec precaution"
+    en_US: "Plugin ajoutant le support du EnOcean à Jeedom https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean Many modules will be added quickly and continuously We advise you to migrate with caution"
+    es_ES: "Plugin ajoutant le support du EnOcean à Jeedom https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean Se agregarán muchos módulos de forma rápida y continua Le recomendamos que migre con precaución"
+    de_DE: "Plugin ajoutant le support du EnOcean à Jeedom https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean Viele Module werden schnell und kontinuierlich hinzugefügt. Wir raten Ihnen, mit Vorsicht zu migrieren"
+
+- id: openzwave
+  name: "Z-Wave"
+  market_id: 185
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour contrôler les équipements ZWave via une clé ZWave compatible openZwave"
+    en_US: "Plugin to control ZWave equipment via an openWave compatible ZWave key"
+    es_ES: "Complemento para controlar el equipo ZWave a través de una tecla ZWave compatible con openWave"
+    de_DE: "Plugin zur Steuerung von ZWave-Geräten über einen openWave-kompatiblen ZWave-Schlüssel"
+
+- id: rfplayer2
+  name: "RfPlayer2"
+  market_id: 3349
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin ajoutant le support de la clé RfPlayer de Ziblue à Jeedom. Ce plugin remplacera à terme le premier plugin. Il sera mis à disposition de tous les possesseurs du premier plugin. Cela permettra à chacun de migrer tranquillement. Car la philosophie du plugin ayant changé et les ids aussi, il faudra réinclure vos devices sur ce nouveau plugin."
+    en_US: "Plugin adding support for the RfPlayer key from Ziblue to Jeedom. This plugin will eventually replace the first plugin. It will be made available to all owners of the first plugin. This will allow everyone to migrate quietly. Because the philosophy of the plugin having changed and the ids too, you will have to include your devices on this new plugin."
+    es_ES: "Complemento que agrega soporte para la clave RfPlayer de Ziblue a Jeedom. Este complemento eventualmente reemplazará al primer complemento. Se pondrá a disposición de todos los propietarios del primer complemento. Esto permitirá que todos migren en silencio. Debido a que la filosofía del complemento ha cambiado y los identificadores también, deberá incluir sus dispositivos en este nuevo complemento."
+    de_DE: "Plugin, das Unterstützung für den RfPlayer-Schlüssel von Ziblue zu Jeedom hinzufügt. Dieses Plugin wird eventuell das erste Plugin ersetzen. Es wird allen Besitzern des ersten Plugins zur Verfügung gestellt. Dadurch kann jeder ruhig migrieren. Da sich die Philosophie des Plugins geändert hat und auch die IDs, müssen Sie Ihre Geräte in dieses neue Plugin aufnehmen."
+
+- id: rfxcom
+  name: "RFXcom"
+  market_id: 52
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour utiliser le RFXcom USB. Permet de piloter les équipements domotiques de type 433Mhz ( Chacon, Oregon, La Crosse, X10, DI-O, Blyss...)"
+    en_US: "Plugin to use the RFXcom USB. Allows you to control 433Mhz home automation equipment (Chacon, Oregon, La Crosse, X10, DI-O, Blyss...)"
+    es_ES: "Plugin para usar el RFXcom USB. Le permite controlar equipos de automatización del hogar de 433Mhz (Chacon, Oregon, La Crosse, X10, DI-O, Blyss...)"
+    de_DE: "Plugin zur Verwendung des RFXcom USB. Ermöglicht die Steuerung von 433-MHz-Hausautomationsgeräten (Chacon, Oregon, La Crosse, X10, DI-O, Blyss)...)"
+
+- id: vlx2mqtt
+  name: "Velux MQTT"
+  market_id: 4275
+  doc:
+    stable: false
+    beta: true
+  changelog:
+    stable: false
+    beta: true
+  description:
+    fr_FR: "Ce plugin permet le pilotage des velux et des ouvrants \"io-homecontrol\" compatibles avec l'interface VELUX KLF 200 (volets roulants Somfy par exemple). Les plugins officiels Docker Management et MQTT Manager doivent être installés, configurés et fonctionnels."
+    en_US: "This plugin allows the control of skylights and \"io-homecontrol\" openings compatible with the VELUX KLF 200 interface (Somfy roller shutters for example). Official Docker Management and MQTT Manager plugins must be installed, configured and working."
+    es_ES: "Este plugin permite el control de claraboyas y aperturas \"io-homecontrol\" compatibles con la interfaz VELUX KLF 200 (persianas Somfy por ejemplo). Los complementos oficiales de Docker Management y MQTT Manager deben estar instalados, configurados y funcionando."
+    de_DE: "Dieses Plugin ermöglicht die Steuerung von Dachfenstern und „io-homecontrol“-Öffnungen, die mit der VELUX KLF 200-Schnittstelle kompatibel sind (z. B. Somfy-Rollläden)). Offizielle Plug-ins für Docker Management und MQTT Manager müssen installiert, konfiguriert und funktionsfähig sein."
+
+- id: wattlet
+  name: "Wattlet"
+  market_id: 2600
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de piloter les modules Wattcubes de Wattlet via le Wattcube Web."
+    en_US: "This plugin allows you to control Wattlet's Wattcubes modules via the Wattcube Web."
+    es_ES: "Este complemento le permite controlar los módulos Wattcubes de Wattlet a través de la Web de Wattcube."
+    de_DE: "Mit diesem Plugin können Sie die Wattcubes-Module von Wattlet über das Wattcube Web steuern."
+
+- id: wes
+  name: "Wes"
+  market_id: 1336
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Ce plugin va vous permettre d'intégrer un wes de CartElectronics"
+    en_US: "This plugin will allow you to integrate a CartElectronics wes"
+    es_ES: "Este complemento le permitirá integrar un wes de CartElectronics"
+    de_DE: "Mit diesem Plugin können Sie eine CartElectronics wes integrieren"
+
+- id: z2m
+  name: "JeeZigbee"
+  market_id: 4351
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant d'utiliser le zigbee, basé sur zigbee2mqtt."
+    en_US: "Plugin allowing to use zigbee, based on zigbee2mqtt."
+    es_ES: "Complemento que permite usar zigbee, basado en zigbee2mqtt."
+    de_DE: "Plugin, das die Verwendung von Zigbee ermöglicht, basierend auf zigbee2mqtt."
+
+- id: zigbee
+  name: "Zigbee"
+  market_id: 4050
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "IMPORTANT Ce plugin est remplacer par Jeezigbee (documentation en cours de rédaction). Plugin offrant une compatibilité généralisée avec différents types de contrôleurs Zigbee tels que deCONZ et EZSP (Silicon labs), et en support beta : Zigate, XBee et Texas Instruments. <br/><br/> Il est important de bien lire la documentation du plugin avant tout achat."
+    en_US: "IMPORTANT This plugin is replaced by Jeezigbee (documentation in progress). Plugin offering general compatibility with different types of Zigbee controllers such as deCONZ and EZSP (Silicon labs), and in beta support : Zigate, XBee and Texas Instruments. <br/><br/> It is important to read the plugin documentation carefully before any purchase."
+    es_ES: "IMPORTANTE Este complemento se reemplaza por Jeezigbee (documentación en progreso). Complemento que ofrece compatibilidad general con diferentes tipos de controladores Zigbee como deCONZ y EZSP (Silicon labs), y en soporte beta : Zigate, XBee y Texas Instruments. <br/><br/> Es importante leer detenidamente la documentación del complemento antes de realizar cualquier compra."
+    de_DE: "WICHTIG Dieses Plugin wird durch Jeezigbee ersetzt (Dokumentation in Arbeit)). Plugin mit allgemeiner Kompatibilität mit verschiedenen Arten von ZigBee-Controllern wie deCONZ und EZSP (Silicon Labs) sowie Beta-Unterstützung : Zigate, XBee und Texas Instruments. <br/><br/> Es ist wichtig, die Plugin-Dokumentation vor dem Kauf sorgfältig zu lesen."
+
+- id: zwavejs
+  name: "Z-Wave JS"
+  market_id: 4306
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour contrôler les équipements Z-Wave"
+    en_US: "Plugin to control Z-Wave equipment"
+    es_ES: "Plugin para controlar equipos Z-Wave"
+    de_DE: "Plugin zur Steuerung von Z-Wave-Geräten"

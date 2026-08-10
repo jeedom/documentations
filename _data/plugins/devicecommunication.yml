@@ -1,0 +1,89 @@
+- id: blink1
+  name: "Blink(1)"
+  market_id: 1244
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Plugin servant à piloter une clé blink(1)"
+    en_US: "Plugin used to control a blink key (1)"
+    es_ES: "Complemento utilizado para controlar una tecla de parpadeo (1)"
+    de_DE: "Plugin zur Steuerung eines Blinkschlüssels (1)"
+
+- id: husqvarna
+  name: "Husqvarna"
+  market_id: 3101
+  doc:
+    stable: false
+    beta: false
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: ""
+    en_US: ""
+    es_ES: ""
+    de_DE: ""
+
+- id: ikealight
+  name: "Ikea"
+  market_id: 3039
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Le plugin IkeaLight permet d'établir un lien avec la passerelle Ikea Tradfri. Vous pourrez contrôler vos lumières et avoir un retour d'état en temps réel."
+    en_US: "The IkeaLight plugin makes it possible to establish a link with the Ikea Tradfri gateway. You can control your lights and get real-time status feedback."
+    es_ES: "El complemento IkeaLight permite establecer un enlace con la puerta de enlace Ikea Tradfri. Puede controlar sus luces y obtener información sobre el estado en tiempo real."
+    de_DE: "Mit dem IkeaLight-Plugin kann eine Verbindung zum Ikea Tradfri-Gateway hergestellt werden. Sie können Ihre Lichter steuern und Echtzeit-Status-Feedback erhalten."
+
+- id: karotz
+  name: "Karotz"
+  market_id: 148
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour commander le Karotz"
+    en_US: "Plugin to order the Karotz"
+    es_ES: "Plugin para ordenar el Karotz"
+    de_DE: "Plugin um den Karotz zu bestellen"
+
+- id: lifx
+  name: "Lifx"
+  market_id: 2070
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de contrôler les ampoules Lifx"
+    en_US: "Plugin to control Lifx bulbs"
+    es_ES: "Plugin para controlar bombillas Lifx"
+    de_DE: "Plugin zur Steuerung von Lifx-Lampen"
+
+- id: nabaztag
+  name: "Nabaztag"
+  market_id: 151
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Plugin pour commander le Nabaztag"
+    en_US: "Plugin to order the Nabaztag"
+    es_ES: "Plugin para ordenar el Nabaztag"
+    de_DE: "Plugin um den Nabaztag zu bestellen"

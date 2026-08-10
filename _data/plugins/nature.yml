@@ -1,0 +1,29 @@
+- id: greeniq
+  name: "GreenIQ"
+  market_id: 1717
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Plugin pour commander un arrosage automatique via le module GreenIQ"
+    en_US: "Plugin to control automatic watering via the GreenIQ module"
+    es_ES: "Complemento para controlar el riego automático a través del módulo GreenIQ"
+    de_DE: "Plugin zur Steuerung der automatischen Bewässerung über das GreenIQ-Modul"
+
+- id: koubachi
+  name: "Koubachi"
+  market_id: 1012
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Plugin pour les capteurs de plante koubachi"
+    en_US: "Plugin for koubachi plant sensors"
+    es_ES: "Plugin para sensores de planta koubachi"
+    de_DE: "Plugin für Koubachi Pflanzensensoren"

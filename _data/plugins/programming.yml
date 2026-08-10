@@ -1,0 +1,221 @@
+- id: clink
+  name: "Click link"
+  market_id: 1867
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Ce plugin permet la gestion de liens et d'évènements directement sur l'interface Jeedom. Vous pourrez, par exemple, créer une commande qui ouvre une modale (fenêtre de dialogue) avec une vue contenant vos caméras. Cela permet lorsque quelqu'un sonne chez vous d'afficher la caméra de l'entrée sur votre Jeedom."
+    en_US: "This plugin allows the management of links and events directly on the Jeedom interface. You can, for example, create a command that opens a modal (dialog window) with a view containing your cameras. This allows when someone rings your doorbell to display the entrance camera on your Jeedom."
+    es_ES: "Este complemento permite la gestión de enlaces y eventos directamente en la interfaz de Jeedom. Puede, por ejemplo, crear un comando que abra un modal (ventana de diálogo) con una vista que contenga sus cámaras. Esto permite que cuando alguien toca el timbre de la puerta se muestre la cámara de entrada en su Jeedom."
+    de_DE: "Dieses Plugin ermöglicht die Verwaltung von Links und Ereignissen direkt auf der Jeedom-Oberfläche. Sie können beispielsweise einen Befehl erstellen, der ein Modal (Dialogfenster) mit einer Ansicht öffnet, die Ihre Kameras enthält. Dies ermöglicht es, wenn jemand an Ihrer Tür klingelt, die Eingangskamera auf Ihrem Jeedom anzuzeigen."
+
+- id: dataservice
+  name: "DataService"
+  market_id: 3886
+  doc:
+    stable: false
+    beta: true
+  changelog:
+    stable: false
+    beta: true
+  description:
+    fr_FR: "Plugin pour la récupération de diverse données (ejp, vacance, saint du jour...) et l'envoi de diverse données (sms, mail) ainsi que le partage communautaire de données (température, humidité...)"
+    en_US: "Plugin for the recovery of various data (ejp, vacancy, saint of the day ...) and the sending of various data (sms, mail) as well as the community sharing of data (temperature, humidity...)"
+    es_ES: "Complemento para la recuperación de varios datos (ejp, vacante, santo del día ...) y el envío de varios datos (sms, correo), así como el intercambio de datos en la comunidad (temperatura, humedad...)"
+    de_DE: "Plugin für die Wiederherstellung verschiedener Daten (ejp, Vakanz, Heiliger des Tages ...) und das Versenden verschiedener Daten (Sms, Mail) sowie das Teilen von Daten in der Community (Temperatur, Luftfeuchtigkeit)...)"
+
+- id: docker2
+  name: "Docker management"
+  market_id: 4204
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin Docker permettant de gérer des conteneurs dans Jeedom."
+    en_US: "Docker plugin for managing containers in Jeedom."
+    es_ES: "Complemento Docker para administrar contenedores en Jeedom."
+    de_DE: "Docker-Plugin zum Verwalten von Containern in Jeedom."
+
+- id: dyndns
+  name: "Dyndns"
+  market_id: 1928
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour mettre à jour dynamiquement des DNS"
+    en_US: "Plugin to dynamically update DNS"
+    es_ES: "Complemento para actualizar dinámicamente DNS"
+    de_DE: "Plugin zum dynamischen Aktualisieren von DNS"
+
+- id: genTypePerso
+  name: "Generic Type"
+  market_id: 4494
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin Generic Type"
+    en_US: "Plugin Generic Type"
+    es_ES: "Tipo genérico de complemento"
+    de_DE: "Generischer Plugin-Typ"
+
+- id: htmldisplay
+  name: "HTML Display"
+  market_id: 3843
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs)."
+    en_US: "Plugin to put html code in an equipment widget (for example to make your own menu for designs)."
+    es_ES: "Complemento para poner código html en un widget de equipo (por ejemplo, para crear su propio menú para diseños)."
+    de_DE: "Plugin zum Einfügen von HTML-Code in ein Geräte-Widget (zum Beispiel zum Erstellen eines eigenen Menüs für Designs)."
+
+- id: jeeasy
+  name: "Jeeasy"
+  market_id: 3828
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de configurer facilement Jeedom"
+    en_US: "Plugin to easily configure Jeedom"
+    es_ES: "Complemento para configurar fácilmente Jeedom"
+    de_DE: "Plugin zur einfachen Konfiguration von Jeedom"
+
+- id: lns
+  name: "LNS"
+  market_id: 4408
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin servant à installer Chirpstack V3 sur Jeedom Luna Lora"
+    en_US: "Plugin used to install Chirpstack V3 on Jeedom Luna Lora"
+    es_ES: "Complemento utilizado para instalar Chirpstack V3 en Jeedom Luna Lora"
+    de_DE: "Plugin zur Installation von Chirpstack V3 auf Jeedom Luna Lora"
+
+- id: loideau
+  name: "Loi d'eau"
+  market_id: 4491
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permetant de gérer la loi d eau"
+    en_US: "Plugin allowing you to manage the water law"
+    es_ES: "Complemento que le permite gestionar la ley de aguas"
+    de_DE: "Plugin, mit dem Sie das Wasserrecht verwalten können"
+
+- id: mqtt2
+  name: "MQTT Manager"
+  market_id: 4213
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin servant de base pour les plugins utilisant MQTT"
+    en_US: "Plugin serving as a basis for plugins using MQTT"
+    es_ES: "Complemento que sirve como base para complementos que utilizan MQTT"
+    de_DE: "Plugin als Basis für Plugins mit MQTT"
+
+- id: script
+  name: "Script"
+  market_id: 20
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin ajoutant le support des scripts dans Jeedom. Les scripts sont des programmes en Python/PHP/Shell/Ruby etc... qui permettent d'ajouter des fonctions à Jeedom"
+    en_US: "Plugin adding script support in Jeedom. The scripts are programs in Python / PHP / Shell / Ruby etc ... which allow to add functions to Jeedom"
+    es_ES: "Complemento para agregar soporte de script en Jeedom. Los scripts son programas en Python / PHP / Shell / Ruby, etc ... que permiten agregar funciones a Jeedom"
+    de_DE: "Plugin, das Skriptunterstützung in Jeedom hinzufügt. Die Skripte sind Programme in Python / PHP / Shell / Ruby usw., mit denen Jeedom Funktionen hinzugefügt werden können"
+
+- id: simupre
+  name: "Simulation présence"
+  market_id: 3762
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour la simulation de présence"
+    en_US: "Plugin for presence simulation"
+    es_ES: "Plugin para simulación de presencia"
+    de_DE: "Plugin zur Anwesenheitssimulation"
+
+- id: sunPulseEasy
+  name: "sunPulseEasy"
+  market_id: 4583
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Wizard de configuration pour les installateurs SunPulse"
+
+- id: virtual
+  name: "Virtuel"
+  market_id: 21
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de créer des équipements virtuels dans Jeedom."
+    en_US: "Plugin for creating virtual equipment in Jeedom."
+    es_ES: "Complemento para crear equipos virtuales en Jeedom."
+    de_DE: "Plugin zum Erstellen virtueller Geräte in Jeedom."
+
+- id: widget
+  name: "Widget"
+  market_id: 9
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Plugin pour appliquer/modifier/créer des widgets"
+    en_US: "Plugin to apply / modify / create widgets"
+    es_ES: "Complemento para aplicar / modificar / crear widgets"
+    de_DE: "Plugin zum Anwenden / Ändern / Erstellen von Widgets"
