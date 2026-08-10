@@ -105,50 +105,50 @@
     }, {
       divider: true
     }, {
-      fr_FR: "Plugins Officiels",
-      en_US: "Official Plugins",
-      es_ES: "Plugins Oficiales",
+      fr_FR: "Plugins officiels",
+      en_US: "Official plugins",
+      es_ES: "Plugins oficiales",
       de_DE: "Offizielle Plugins",
       pt_PT: "Plugins oficiais",
       submenu: [
-        { link: "/plugins/security/", icon: "fas fa-lock", fr_FR: "Sécurité", en_US: "Security", es_ES: "Sécurité", de_DE: "Sicherheit", pt_PT: "" },
+        { link: "/plugins/security/", icon: "fas fa-lock", fr_FR: "Sécurité", en_US: "Security", es_ES: "Seguridad", de_DE: "Sicherheit", pt_PT: "" },
         { link: "/plugins/automation%20protocol/", icon: "fas fa-rss", fr_FR: "Protocole domotique", en_US: "Home protocol", es_ES: "Protocolo de domótica", de_DE: "Hausautomationsprotokoll", pt_PT: "" },
         { link: "/plugins/home%20automation%20protocol/", icon: "fas fa-asterisk", fr_FR: "Passerelle domotique", en_US: "Home gateway", es_ES: "Pasarela domótica", de_DE: "Hausautomations-Gateway", pt_PT: "" },
-        { link: "/plugins/programming/", icon: "fas fa-code", fr_FR: "Programmation", en_US: "Programming", es_ES: "Programmation", de_DE: "Programmierung", pt_PT: "" },
-        { link: "/plugins/organization/", icon: "fas fa-calendar-alt", fr_FR: "Organisation", en_US: "Organize", es_ES: "Organisation", de_DE: "Organisation", pt_PT: "" },
-        { link: "/plugins/weather/", icon: "fas fa-sun", fr_FR: "Météo", en_US: "Weather", es_ES: "Météo", de_DE: "Wettervorhersage", pt_PT: "" },
+        { link: "/plugins/programming/", icon: "fas fa-code", fr_FR: "Programmation", en_US: "Programming", es_ES: "Programación", de_DE: "Programmierung", pt_PT: "" },
+        { link: "/plugins/organization/", icon: "fas fa-calendar-alt", fr_FR: "Organisation", en_US: "Organize", es_ES: "Organización", de_DE: "Organisation", pt_PT: "" },
+        { link: "/plugins/weather/", icon: "fas fa-sun", fr_FR: "Météo", en_US: "Weather", es_ES: "Meteorología", de_DE: "Wettervorhersage", pt_PT: "" },
         { link: "/plugins/communication/", icon: "fas fa-comment", fr_FR: "Communication", en_US: "Communication", es_ES: "Comunicación", de_DE: "Kommunikation", pt_PT: "" },
-        { link: "/plugins/devicecommunication/", icon: "fas fa-language", fr_FR: "Objets connectés", en_US: "Connected object", es_ES: "Objets connectés", de_DE: "Verbundene Objekte", pt_PT: "" },
-        { link: "/plugins/multimedia/", icon: "fas fa-sliders-h", fr_FR: "Multimédia", en_US: "Multimedia", es_ES: "Multimédia", de_DE: "Multimedia", pt_PT: "" },
+        { link: "/plugins/devicecommunication/", icon: "fas fa-language", fr_FR: "Objets connectés", en_US: "Connected object", es_ES: "Objetos conectados", de_DE: "Verbundene Objekte", pt_PT: "" },
+        { link: "/plugins/multimedia/", icon: "fas fa-sliders-h", fr_FR: "Multimédia", en_US: "Multimedia", es_ES: "Multimedia", de_DE: "Multimedia", pt_PT: "" },
         { link: "/plugins/wellness/", icon: "fas fa-user", fr_FR: "Confort", en_US: "Wellness", es_ES: "Confort", de_DE: "Komfort", pt_PT: "" },
         { link: "/plugins/monitoring/", icon: "fas fa-tachometer-alt", fr_FR: "Monitoring", en_US: "Monitoring", es_ES: "Monitoreo", de_DE: "Überwachung", pt_PT: "" },
         { link: "/plugins/health/", icon: "fas fa-heartbeat", fr_FR: "Santé", en_US: "Health", es_ES: "Salud", de_DE: "Gesundheit", pt_PT: "" },
-        { link: "/plugins/nature/", icon: "fab fa-pagelines", fr_FR: "Nature", en_US: "Nature", es_ES: "Nature", de_DE: "Natur", pt_PT: "" },
-        { link: "/plugins/automatisation/", icon: "fas fa-magic", fr_FR: "Automatisme", en_US: "Automation", es_ES: "Automatisme", de_DE: "Automatisierung", pt_PT: "" },
+        { link: "/plugins/nature/", icon: "fab fa-pagelines", fr_FR: "Nature", en_US: "Nature", es_ES: "Naturaleza", de_DE: "Natur", pt_PT: "" },
+        { link: "/plugins/automatisation/", icon: "fas fa-magic", fr_FR: "Automatisme", en_US: "Automation", es_ES: "Automatización", de_DE: "Automatisierung", pt_PT: "" },
         { link: "/plugins/energy/", icon: "fas fa-bolt", fr_FR: "Energie", en_US: "Energy", es_ES: "Energía", de_DE: "Energie", pt_PT: "" },
         { link: "/plugins/other/", icon: "fas fa-bars", fr_FR: "Autre", en_US: "Other", es_ES: "Otros", de_DE: "Andere", pt_PT: "" },
       ]
     }, {
-      fr_FR: "Plugins Tiers",
-      en_US: "Third-Party Plugins",
-      es_ES: "Plugins de Terceros",
+      fr_FR: "Plugins tiers",
+      en_US: "Third-Party plugins",
+      es_ES: "Plugins de terceros",
       de_DE: "Plugins von Drittanbietern",
-      pt_PT: "Plugins de Terceiros",
+      pt_PT: "Plugins de terceiros",
       submenu: [
-        { link: "/plugins_contributor/security/", icon: "fas fa-lock", fr_FR: "Sécurité", en_US: "Security", es_ES: "Sécurité", de_DE: "Sicherheit", pt_PT: "" },
+        { link: "/plugins_contributor/security/", icon: "fas fa-lock", fr_FR: "Sécurité", en_US: "Security", es_ES: "Seguridad", de_DE: "Sicherheit", pt_PT: "" },
         { link: "/plugins_contributor/automation%20protocol/", icon: "fas fa-rss", fr_FR: "Protocole domotique", en_US: "Home protocol", es_ES: "Protocolo de domótica", de_DE: "Hausautomationsprotokoll", pt_PT: "" },
         { link: "/plugins_contributor/home%20automation%20protocol/", icon: "fas fa-asterisk", fr_FR: "Passerelle domotique", en_US: "Home gateway", es_ES: "Pasarela domótica", de_DE: "Hausautomations-Gateway", pt_PT: "" },
-        { link: "/plugins_contributor/programming/", icon: "fas fa-code", fr_FR: "Programmation", en_US: "Programming", es_ES: "Programmation", de_DE: "Programmierung", pt_PT: "" },
-        { link: "/plugins_contributor/organization/", icon: "fas fa-calendar-alt", fr_FR: "Organisation", en_US: "Organize", es_ES: "Organisation", de_DE: "Organisation", pt_PT: "" },
-        { link: "/plugins_contributor/weather/", icon: "fas fa-sun", fr_FR: "Météo", en_US: "Weather", es_ES: "Météo", de_DE: "Wettervorhersage", pt_PT: "" },
+        { link: "/plugins_contributor/programming/", icon: "fas fa-code", fr_FR: "Programmation", en_US: "Programming", es_ES: "Programación", de_DE: "Programmierung", pt_PT: "" },
+        { link: "/plugins_contributor/organization/", icon: "fas fa-calendar-alt", fr_FR: "Organisation", en_US: "Organize", es_ES: "Organización", de_DE: "Organisation", pt_PT: "" },
+        { link: "/plugins_contributor/weather/", icon: "fas fa-sun", fr_FR: "Météo", en_US: "Weather", es_ES: "Meteorología", de_DE: "Wettervorhersage", pt_PT: "" },
         { link: "/plugins_contributor/communication/", icon: "fas fa-comment", fr_FR: "Communication", en_US: "Communication", es_ES: "Comunicación", de_DE: "Kommunikation", pt_PT: "" },
-        { link: "/plugins_contributor/devicecommunication/", icon: "fas fa-language", fr_FR: "Objets connectés", en_US: "Connected object", es_ES: "Objets connectés", de_DE: "Verbundene Objekte", pt_PT: "" },
-        { link: "/plugins_contributor/multimedia/", icon: "fas fa-sliders-h", fr_FR: "Multimédia", en_US: "Multimedia", es_ES: "Multimédia", de_DE: "Multimedia", pt_PT: "" },
+        { link: "/plugins_contributor/devicecommunication/", icon: "fas fa-language", fr_FR: "Objets connectés", en_US: "Connected object", es_ES: "Objetos conectados", de_DE: "Verbundene Objekte", pt_PT: "" },
+        { link: "/plugins_contributor/multimedia/", icon: "fas fa-sliders-h", fr_FR: "Multimédia", en_US: "Multimedia", es_ES: "Multimedia", de_DE: "Multimedia", pt_PT: "" },
         { link: "/plugins_contributor/wellness/", icon: "fas fa-user", fr_FR: "Confort", en_US: "Wellness", es_ES: "Confort", de_DE: "Komfort", pt_PT: "" },
         { link: "/plugins_contributor/monitoring/", icon: "fas fa-tachometer-alt", fr_FR: "Monitoring", en_US: "Monitoring", es_ES: "Monitoreo", de_DE: "Überwachung", pt_PT: "" },
         { link: "/plugins_contributor/health/", icon: "fas fa-heartbeat", fr_FR: "Santé", en_US: "Health", es_ES: "Salud", de_DE: "Gesundheit", pt_PT: "" },
-        { link: "/plugins_contributor/nature/", icon: "fab fa-pagelines", fr_FR: "Nature", en_US: "Nature", es_ES: "Nature", de_DE: "Natur", pt_PT: "" },
-        { link: "/plugins_contributor/automatisation/", icon: "fas fa-magic", fr_FR: "Automatisme", en_US: "Automation", es_ES: "Automatisme", de_DE: "Automatisierung", pt_PT: "" },
+        { link: "/plugins_contributor/nature/", icon: "fab fa-pagelines", fr_FR: "Nature", en_US: "Nature", es_ES: "Naturaleza", de_DE: "Natur", pt_PT: "" },
+        { link: "/plugins_contributor/automatisation/", icon: "fas fa-magic", fr_FR: "Automatisme", en_US: "Automation", es_ES: "Automatización", de_DE: "Automatisierung", pt_PT: "" },
         { link: "/plugins_contributor/energy/", icon: "fas fa-bolt", fr_FR: "Energie", en_US: "Energy", es_ES: "Energía", de_DE: "Energie", pt_PT: "" },
         { link: "/plugins_contributor/other/", icon: "fas fa-bars", fr_FR: "Autre", en_US: "Other", es_ES: "Otros", de_DE: "Andere", pt_PT: "" },
       ]
@@ -304,13 +304,13 @@
     // existing content links referencing it have drifted out of sync with real heading order over
     // time. Rework needed: position-based (not text-based), skip h1 (normally a single one per page,
     // not a useful anchor target), and scan h2 to h4 (currently only h1-h3).
-    $('#div_content h1,h2,h3').each(function() {
+    $('#div_content h1,h2,h3,.pluginName').each(function() {
       var id = encodeURIComponent($(this).text())
       $(this).attr('id', id)
       if ($(this).is('h1')) {
         $('#div_summary ul').append('<li><a href="#' + id + '" class="tocAnchor">' + $(this).text() + '</a></li>')
       }
-      if ($(this).is('h2')) {
+      if ($(this).is('h2') || $(this).is('.pluginName')) {
         $('#div_summary ul').append('<li><a href="#' + id + '" class="tocAnchor" style="margin-left:10px;">' + $(this).text() + '</a></li>')
       }
       if ($(this).is('h3')) {
@@ -318,7 +318,7 @@
       }
       $(this).addClass('scrollspy')
     })
-    $('.scrollspy').scrollSpy()
+    $('.scrollspy').scrollSpy({ scrollOffset: 150 })
 
     $('.tocAnchor').off('click').on('click', function() {
       window.location.hash = $(this).attr('href')
@@ -355,7 +355,7 @@
     })
 
     $('select').formSelect()
-    $('#div_content :not(td)>img').addClass('responsive-img')
+    $('#div_content img').not('td img').addClass('responsive-img')
     cookiesPolicyBar()
     setLeftMenu()
     replaceContentVars()
