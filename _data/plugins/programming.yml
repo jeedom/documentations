@@ -204,18 +204,3 @@
     en_US: "Plugin for creating virtual equipment in Jeedom."
     es_ES: "Complemento para crear equipos virtuales en Jeedom."
     de_DE: "Plugin zum Erstellen virtueller Geräte in Jeedom."
-
-- id: widget
-  name: "Widget"
-  market_id: 9
-  doc:
-    stable: true
-    beta: false
-  changelog:
-    stable: true
-    beta: false
-  description:
-    fr_FR: "Plugin pour appliquer/modifier/créer des widgets"
-    en_US: "Plugin to apply / modify / create widgets"
-    es_ES: "Complemento para aplicar / modificar / crear widgets"
-    de_DE: "Plugin zum Anwenden / Ändern / Erstellen von Widgets"

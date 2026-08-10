@@ -43,36 +43,6 @@
     es_ES: "Complemento que permite archivar exportaciones históricas o estadísticas a un archivo CSV. Es posible automatizar la recepción de archivos de exportación en el canal de su elección a través de escenario o programación.<br/><br/>El complemento también le permite importar datos a Jeedom desde un archivo CSV a un control de tipo de información."
     de_DE: "Plugin zum Archivieren von historischen oder statistischen Exporten in eine CSV-Datei. Es ist möglich, den Empfang von Exportdateien auf dem Kanal Ihrer Wahl über ein Szenario oder eine Programmierung zu automatisieren.<br/><br/>Mit dem Plugin können Sie auch Daten aus einer CSV-Datei in ein Info-Steuerelement in Jeedom importieren."
 
-- id: domogeek
-  name: "DomoGeek"
-  market_id: 250
-  doc:
-    stable: true
-    beta: true
-  changelog:
-    stable: true
-    beta: true
-  description:
-    fr_FR: "Plugin pour récuperer les informations du site DomoGeek. Le plugin permet de récupérer de nombreuses infos : <br>- Jour férié <br>- Week-End <br>- Vacances scolaires <br>- Durée du jour (soleil) <br>- Heure de levé du soleil <br>- Heure du zenith - Heure du couché du soleil <br>- Couleur EDF Tempo <br>- Couleur EDF Tempo de demain - Vigilance Météo France Inondation <br>- Vigilance Météo France Météo <br>- Vigilance Météo France Type de perturbation <br>- EDF EJT <br>- Adresse IP <br>- Saison <br>- Saint du jour <br>- Saint du lendemain"
-    en_US: "Plugin to retrieve information from the DomoGeek site. The plugin allows to retrieve a lot of info : <br>- Public holiday <br>- Weekend <br>- School Holidays <br>- Duration of day (sun) <br>- Sunrise time <br>- Zenith hour - Sunset time <br>- EDF Tempo color <br>- EDF color Tempo of tomorrow - Vigilance Météo France Flood <br>- Vigilance Météo France Météo <br>- Weather alert France Type of disturbance <br>- EDF WCY <br>- IP adress <br>- Season <br>- Saint of the day <br>- Saint of the next day"
-    es_ES: "Complemento para recuperar información del sitio DomoGeek. El complemento permite recuperar mucha información : <br>- Día feriado <br>- Fin de semana <br>- Vacaciones escolares <br>- Duración del día (sol) <br>- Hora del amanecer <br>- Hora Zenith - hora del atardecer <br>- EDF Tempo color <br>- EDF color Tempo del mañana - Vigilance Météo France Flood <br>- Vigilancia Météo Francia Météo <br>- Alerta meteorológica Francia Tipo de perturbación <br>- EDF WCY <br>- Dirección IP <br>- Temporada <br>- Santo del dia <br>- Santo del día siguiente"
-    de_DE: "Plugin zum Abrufen von Informationen von der DomoGeek-Site. Das Plugin ermöglicht das Abrufen vieler Informationen : <br>- Urlaub <br>- Wochenende <br>- Schulferien <br>- Dauer des Tages (Sonne) <br>- Sonnenaufgangszeit <br>- Zenithstunde - Sonnenuntergangszeit <br>- EDF Tempo Farbe <br>- EDF Farbe Tempo von morgen - Vigilance Météo France Flood <br>- Wachsamkeit Météo France Météo <br>- Wetteralarm Frankreich Art der Störung <br>- EDF WCY <br>- IP-Adresse <br>- Saison <br>- Heiliger des Tages <br>- Heiliger des nächsten Tages"
-
-- id: gCalendar
-  name: "Google agenda"
-  market_id: 3318
-  doc:
-    stable: true
-    beta: true
-  changelog:
-    stable: true
-    beta: true
-  description:
-    fr_FR: "Plugin permettant de récupérer les évènements de Google Agenda. Il est capable d'interpréter les titres des évènements comme interaction. IMPORTANT : ce plugin nécessite d'avoir un compte dev chez Google (tout le monde peut en avoir c'est gratuit et sans impact). La démarche est expliquée dans la documentation."
-    en_US: "Plugin for retrieving events from Google Calendar. He is able to interpret the titles of events as interaction. Important : this plugin requires to have a dev account with Google (everyone can have it it's free and without impact). The process is explained in the documentation."
-    es_ES: "Complemento para recuperar eventos de Google Calendar. Es capaz de interpretar los títulos de los eventos como interacción. Importante : este complemento requiere tener una cuenta de desarrollo con Google (todos pueden tenerlo, es gratis y sin impacto). El proceso se explica en la documentación."
-    de_DE: "Plugin zum Abrufen von Ereignissen aus Google Kalender. Er kann die Titel von Ereignissen als Interaktion interpretieren. Wichtig : Für dieses Plugin ist ein Entwicklerkonto bei Google erforderlich (jeder kann es kostenlos und ohne Auswirkungen haben). Der Vorgang wird in der Dokumentation erläutert."
-
 - id: geoloc
   name: "Geoloc"
   market_id: 12

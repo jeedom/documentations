@@ -28,21 +28,6 @@
     es_ES: ""
     de_DE: ""
 
-- id: ikealight
-  name: "Ikea"
-  market_id: 3039
-  doc:
-    stable: true
-    beta: true
-  changelog:
-    stable: true
-    beta: true
-  description:
-    fr_FR: "Le plugin IkeaLight permet d'établir un lien avec la passerelle Ikea Tradfri. Vous pourrez contrôler vos lumières et avoir un retour d'état en temps réel."
-    en_US: "The IkeaLight plugin makes it possible to establish a link with the Ikea Tradfri gateway. You can control your lights and get real-time status feedback."
-    es_ES: "El complemento IkeaLight permite establecer un enlace con la puerta de enlace Ikea Tradfri. Puede controlar sus luces y obtener información sobre el estado en tiempo real."
-    de_DE: "Mit dem IkeaLight-Plugin kann eine Verbindung zum Ikea Tradfri-Gateway hergestellt werden. Sie können Ihre Lichter steuern und Echtzeit-Status-Feedback erhalten."
-
 - id: karotz
   name: "Karotz"
   market_id: 148
@@ -57,21 +42,6 @@
     en_US: "Plugin to order the Karotz"
     es_ES: "Plugin para ordenar el Karotz"
     de_DE: "Plugin um den Karotz zu bestellen"
-
-- id: lifx
-  name: "Lifx"
-  market_id: 2070
-  doc:
-    stable: true
-    beta: true
-  changelog:
-    stable: true
-    beta: true
-  description:
-    fr_FR: "Plugin permettant de contrôler les ampoules Lifx"
-    en_US: "Plugin to control Lifx bulbs"
-    es_ES: "Plugin para controlar bombillas Lifx"
-    de_DE: "Plugin zur Steuerung von Lifx-Lampen"
 
 - id: nabaztag
   name: "Nabaztag"

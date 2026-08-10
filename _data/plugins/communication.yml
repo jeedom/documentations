@@ -28,21 +28,6 @@
     es_ES: "Complemento para usar Amazon Alexa (echo, dot ...) para controlar su Jeedom. Importante : El complemento requiere una suscripción a los servicios de voz . Pour gérer cet abonnement : https://www.jeedom.com/market/index.php?v=d&p=profils#services"
     de_DE: "Plugin zur Verwendung von Amazon Alexa (Echo, Punkt ...) zur Steuerung Ihres Jeedom. Wichtig : Das Plugin erfordert ein Abonnement für Sprachdienste . Pour gérer cet abonnement : https://www.jeedom.com/market/index.php?v=d&p=profils#services"
 
-- id: bestway
-  name: "Bestway"
-  market_id: 4014
-  doc:
-    stable: true
-    beta: true
-  changelog:
-    stable: true
-    beta: true
-  description:
-    fr_FR: "Plugin pour piloter les équipements connecté Bestway. Pour le moment seul le SPA Milan a été testé (seul spa connecté de la gamme)."
-    en_US: "Plugin to control Bestway connected equipment. For the moment, only the Milan SPA has been tested (the only connected spa in the range)."
-    es_ES: "Complemento para controlar el equipo conectado Bestway. Por el momento, solo se ha probado el Milan SPA (el único spa conectado de la gama)."
-    de_DE: "Plugin zur Steuerung von mit Bestway verbundenen Geräten. Im Moment wurde nur das SPA in Mailand getestet (das einzige angeschlossene Spa im Sortiment)."
-
 - id: bornetenda
   name: "Borne Tenda W301A"
   market_id: 1299
@@ -57,36 +42,6 @@
     en_US: "Plugin author : Thomas Guenneguez<br>PLEASE NOTE, this is not an official Jeedom plugin but a plugin developed by a third person and whose development has been abandoned. The Jeedom technical team will provide assistance with this plugin without obligation of result.<br>Plugin to manage Tenda W301A Terminals."
     es_ES: "Autor del complemento : Thomas Guenneguez<br>TENGA EN CUENTA que este no es un complemento oficial de Jeedom sino un complemento desarrollado por una tercera persona y cuyo desarrollo ha sido abandonado. El equipo técnico de Jeedom proporcionará asistencia con este complemento sin obligación de resultado.<br>Complemento para administrar terminales Tenda W301A."
     de_DE: "Plugin Autor : Thomas Guenneguez<br>BITTE BEACHTEN SIE, dass dies kein offizielles Jeedom-Plugin ist, sondern ein Plugin, das von einer dritten Person entwickelt wurde und dessen Entwicklung aufgegeben wurde. Das technische Team von Jeedom wird dieses Plugin ohne Ergebnisverpflichtung unterstützen.<br>Plugin zur Verwaltung von Tenda W301A Terminals."
-
-- id: dialogflow
-  name: "Dialog flow"
-  market_id: 3215
-  doc:
-    stable: true
-    beta: false
-  changelog:
-    stable: true
-    beta: false
-  description:
-    fr_FR: "Plugin permet de parler à Google Home/Assistant par le biais des interactions Jeedom"
-    en_US: "Plugin allows talking to Google Home / Assistant through Jeedom interactions"
-    es_ES: "El complemento permite hablar con Google Home / Assistant a través de las interacciones de Jeedom"
-    de_DE: "Das Plugin ermöglicht die Kommunikation mit Google Home / Assistant über Jeedom-Interaktionen"
-
-- id: dyson
-  name: "Dyson"
-  market_id: 4002
-  doc:
-    stable: true
-    beta: false
-  changelog:
-    stable: true
-    beta: false
-  description:
-    fr_FR: "Plugin pour controller les équipements Dyson Link (pure link, hot+cool, humidify+cool...). Pour le moment l'aspirateur n'est pas supporté."
-    en_US: "Plugin to control Dyson Link equipment (pure link, hot + cool, humidify + cool...). For the moment the vacuum cleaner is not supported."
-    es_ES: "Complemento para controlar el equipo Dyson Link (pure link, hot + cool, humidify + cool...). Por el momento la aspiradora no es compatible."
-    de_DE: "Plugin zur Steuerung von Dyson Link-Geräten (Pure Link, heiß + cool, befeuchten + cool...). Momentan wird der Staubsauger nicht unterstützt."
 
 - id: gcast
   name: "Gcast"
@@ -283,21 +238,6 @@
     es_ES: "Complemento que permite la gestión de equipos en red : ping (ip, arp, puerto) y despertar en lan"
     de_DE: "Plugin zur Netzwerkverwaltung von Geräten : ping (ip, arp, port) und wache auf lan auf"
 
-- id: nimbus
-  name: "Nimbus"
-  market_id: 1506
-  doc:
-    stable: true
-    beta: false
-  changelog:
-    stable: true
-    beta: false
-  description:
-    fr_FR: "Plugin pour contrôller votre Nimbus.<br/><br/>Vous pouvez controller le texte affiché, la position des aiguilles. Le tout via scénario ou via le dashboard.<br/><br/>Une représentation personnalisable du nimbus sur votre dash viendra aggrémenter le tout<br/><br/>Le dashboard est complétement personnalisable<br/><br/>Vous pouvez changer la position de chaque aiguille et changer le texte de chaque écran indépendammment (soit via le dashboard soit via scénario)<br/><br/>Il existe aussi une commande démo ainsi qu'une commande tous (pour agir sur tous les écrans en meme temps) ,ainsi qu'une commande phrase pour splitter une phrase sur les 4 écrans.<br/><br/><br/>Bien lire la documentation"
-    en_US: "Plugin to control your Nimbus.<br/><br/>You can control the displayed text, the position of the hands. All via scenario or via the dashboard.<br/><br/>A customizable representation of the nimbus on your dash will enhance the whole<br/><br/>The dashboard is completely customizable<br/><br/>You can change the position of each needle and change the text of each screen independently (either via the dashboard or via scenario)<br/><br/>There is also a demo command and an all command (to act on all screens at the same time), as well as a phrase command to split a phrase on the 4 screens.<br/><br/><br/>Read the documentation"
-    es_ES: "Plugin para controlar tu Nimbus.<br/><br/>Puede controlar el texto mostrado, la posición de las manos. Todo a través del escenario o el tablero.<br/><br/>Una representación personalizable del nimbo en su tablero mejorará todo<br/><br/>El tablero de instrumentos es completamente personalizable<br/><br/>Puede cambiar la posición de cada aguja y cambiar el texto de cada pantalla de forma independiente (ya sea a través del tablero o a través de un escenario)<br/><br/>También hay un comando de demostración y un comando de todos (para actuar en todas las pantallas al mismo tiempo), así como un comando de frase para dividir una frase en las 4 pantallas.<br/><br/><br/>Lee la documentación"
-    de_DE: "Plugin zur Steuerung Ihres Nimbus.<br/><br/>Sie können den angezeigten Text und die Position der Hände steuern. Alles über das Szenario oder über das Dashboard.<br/><br/>Eine anpassbare Darstellung des Nimbus auf Ihrem Armaturenbrett verbessert das Ganze<br/><br/>Das Dashboard ist vollständig anpassbar<br/><br/>Sie können die Position jeder Nadel und den Text jedes Bildschirms unabhängig voneinander ändern (entweder über das Dashboard oder über das Szenario)<br/><br/>Es gibt auch einen Demo-Befehl und einen All-Befehl (um auf allen Bildschirmen gleichzeitig zu agieren), sowie einen Phrasenbefehl, um eine Phrase auf den 4 Bildschirmen zu teilen.<br/><br/><br/>Lesen Sie die Dokumentation"
-
 - id: notificationmanager
   name: "Notification Manager"
   market_id: 3315
@@ -369,21 +309,6 @@
     beta: false
   description:
     fr_FR: "Plugin pour utiliser Sarah (http://encausse.wordpress.com/s-a-r-a-h/)"
-
-- id: slack
-  name: "Slack"
-  market_id: 1689
-  doc:
-    stable: true
-    beta: false
-  changelog:
-    stable: true
-    beta: false
-  description:
-    fr_FR: "Plugin pour lier Jeedom à Slack"
-    en_US: "Plugin to link Jeedom to Slack"
-    es_ES: "Complemento para vincular Jeedom a Slack"
-    de_DE: "Plugin, um Jeedom mit Slack zu verbinden"
 
 - id: sms
   name: "SMS"

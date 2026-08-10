@@ -58,36 +58,6 @@
     es_ES: "Complemento que permite el descubrimiento, la configuración y la comunicación API automáticos con los productos de la marca CoolAutomation: CoolLink Hub, CoolMaster y CoolMaster Pro."
     de_DE: "Plugin, das die automatische Erkennung, Konfiguration und API-Kommunikation mit Produkten der Marke CoolAutomation ermöglicht: CoolLink Hub, CoolMaster und CoolMaster Pro."
 
-- id: greenmomit
-  name: "Green Momit"
-  market_id: 1081
-  doc:
-    stable: true
-    beta: false
-  changelog:
-    stable: true
-    beta: false
-  description:
-    fr_FR: "Plugin pour les thermostats Greenmomit"
-    en_US: "Plugin for Greenmomit thermostats"
-    es_ES: "Plugin para termostatos Greenmomit"
-    de_DE: "Plugin für Greenmomit Thermostate"
-
-- id: ikettle
-  name: "Ikettle"
-  market_id: 3297
-  doc:
-    stable: true
-    beta: false
-  changelog:
-    stable: true
-    beta: false
-  description:
-    fr_FR: "Plugin pour gérer les bouilloires smarter Ikettle et Ikettle 2"
-    en_US: "Plugin to manage Ikettle and Ikettle 2 smarter kettles"
-    es_ES: "Complemento para administrar Ikettle e Ikettle 2 hervidores más inteligentes"
-    de_DE: "Plugin zur Verwaltung von Ikettle und Ikettle 2 intelligenteren Kesseln"
-
 - id: intesis
   name: "Intesis"
   market_id: 3921
@@ -102,36 +72,6 @@
     en_US: "Plugin permettant de piloter les passerelles « Intesis Wifi (ASCII) AC Interfaces » (anciennement dénommées Intesisbox). Basées sur le protocole WMP, les passerelles « Intesis Wifi (ASCII) AC Interfaces » sont des box qui permettent de domotiser des systèmes de climatisation gainables (interface Intesis à connecter en filaire sur le bus du climatisateur) ou à split avec télécommande infrarouge (interface Intesis IR). This plugin supports all models of Intesis Wifi (ASCII) AC Interfaces gateways (both wired and IR), but is not compatible with IntesisHome gateways (and in particular not with Intesis gateways from the IntesisHome range)."
     es_ES: "Plugin permettant de piloter les passerelles « Intesis Wifi (ASCII) AC Interfaces » (anciennement dénommées Intesisbox). Basées sur le protocole WMP, les passerelles « Intesis Wifi (ASCII) AC Interfaces » sont des box qui permettent de domotiser des systèmes de climatisation gainables (interface Intesis à connecter en filaire sur le bus du climatisateur) ou à split avec télécommande infrarouge (interface Intesis IR). Este complemento es compatible con todos los modelos de pasarelas Intesis Wifi (ASCII) AC Interfaces (tanto cableadas como IR), pero no es compatible con pasarelas IntesisHome (y en particular no con pasarelas Intesis de la gama IntesisHome)."
     de_DE: "Plugin permettant de piloter les passerelles « Intesis Wifi (ASCII) AC Interfaces » (anciennement dénommées Intesisbox). Basées sur le protocole WMP, les passerelles « Intesis Wifi (ASCII) AC Interfaces » sont des box qui permettent de domotiser des systèmes de climatisation gainables (interface Intesis à connecter en filaire sur le bus du climatisateur) ou à split avec télécommande infrarouge (interface Intesis IR). Dieses Plugin unterstützt alle Modelle von Intesis Wifi (ASCII) AC-Schnittstellen-Gateways (sowohl verkabelt als auch IR), ist jedoch nicht mit IntesisHome-Gateways (und insbesondere nicht mit Intesis-Gateways aus der IntesisHome-Reihe) kompatibel)."
-
-- id: neato
-  name: "Neato"
-  market_id: 2260
-  doc:
-    stable: true
-    beta: true
-  changelog:
-    stable: true
-    beta: true
-  description:
-    fr_FR: "Plugin pour contrôler votre aspirateur Botvac Connected de chez Neato.<br/>Il permet de lancer un cycle de nettoyage turbo ou éco, de mettre en pause, de reprendre, de faire un retour base, de connaitre le statut, la présence sur le dock, le niveau de charge, et bien plus encore.....<br/><br/>Vous réviez d'un aspirateur intégré à votre domotique, c'est réalisable grâce à ce plugin !"
-    en_US: "Plugin to control your Botvac Connected vacuum cleaner from Neato.<br/>It allows you to launch a turbo or eco cleaning cycle, to pause, to resume, to return to base, to know the status, the presence on the dock, the level of charge, and much more.....<br/><br/>You dream of a vacuum cleaner integrated into your home automation, it is achievable thanks to this plugin !"
-    es_ES: "Complemento para controlar su aspiradora Botvac Connected de Neato.<br/>Te permite iniciar un ciclo de limpieza turbo o eco, pausar, reanudar, volver a la base, conocer el estado, la presencia en el muelle, el nivel de carga, y mucho más.....<br/><br/>Sueñas con una aspiradora integrada en tu domótica, es alcanzable gracias a este plugin !"
-    de_DE: "Plugin zur Steuerung Ihres Botvac Connected Staubsaugers von Neato.<br/>Sie können damit einen Turbo- oder Öko-Reinigungszyklus starten, eine Pause einlegen, fortfahren, zur Basis zurückkehren, den Status, die Anwesenheit auf dem Dock, den Ladezustand und vieles mehr kennen.....<br/><br/>Sie träumen von einem Staubsauger, der in Ihre Hausautomation integriert ist. Dank dieses Plugins ist dies möglich !"
-
-- id: netatmoThermostat
-  name: "Netatmo Thermostat"
-  market_id: 1969
-  doc:
-    stable: true
-    beta: true
-  changelog:
-    stable: true
-    beta: true
-  description:
-    fr_FR: "Plugin pour contrôler son thermostat Netatmo.<br/><br/>Le plugin permet de :<br/>-Choisir le mode de fonctionnement du thermostat (programme,max,absent,hors gel, off, consigne manuel)<br/>-Choisir son calendrier (vacances, standard etc...)<br/>- De connaitre la batterie et les niveaux de signals du thermostat<br/>- De connaitre le planning actuel ainsi que le suivant (et l'heure de fin du planning actuel)<br/>- De définir le jour et heure de fin des modes (absent, hors-gel, max et manuel)<br/>- L'ensemble des fonctions sont disponibles via scénarios<br/>- Les deux widgets (dashboard et mobile) permettent d'accéder à toutes ces fonctionnalités"
-    en_US: "Plugin to control your Netatmo thermostat.<br/><br/>The plugin allows to :<br/>-Choose the thermostat operating mode (program, max, absent, frost-free, off, manual setpoint)<br/>-Choose your calendar (holidays, switchboard, etc.)...)<br/>- Know the battery and the signal levels of the thermostat<br/>- Know the current schedule as well as the next one (and the end time of the current schedule)<br/>- Define the day and time when the modes end (absent, frost-free, max and manual)<br/>- All functions are available via scenarios<br/>- The two widgets (dashboard and mobile) provide access to all of these features"
-    es_ES: "Plugin para controlar su termostato Netatmo.<br/><br/>El complemento permite :<br/>-Elija el modo de funcionamiento del termostato (programa, máx., Ausente, sin escarcha, apagado, punto de ajuste manual)<br/>-Elija su calendario (vacaciones, centralita, etc.)...)<br/>- Conozca la batería y los niveles de señal del termostato<br/>- Conozca el horario actual así como el siguiente (y la hora de finalización del horario actual)<br/>- Defina el día y la hora en que finalizan los modos (ausente, sin escarcha, máximo y manual)<br/>- Todas las funciones están disponibles a través de escenarios<br/>- Los dos widgets (tablero y dispositivo móvil) proporcionan acceso a todas estas funciones"
-    de_DE: "Plugin zur Steuerung Ihres Netatmo-Thermostats.<br/><br/>Das Plugin erlaubt es :<br/>-Wählen Sie die Betriebsart des Thermostats (Programm, max, abwesend, frostfrei, aus, manueller Sollwert)<br/>-Wählen Sie Ihren Kalender (Feiertage, Telefonzentrale usw.)...)<br/>- Kennen Sie die Batterie und die Signalpegel des Thermostats<br/>- Kennen Sie den aktuellen Zeitplan sowie den nächsten (und die Endzeit des aktuellen Zeitplans)<br/>- Definieren Sie den Tag und die Uhrzeit, zu der die Modi enden (nicht vorhanden, frostfrei, maximal und manuell)<br/>- Alle Funktionen sind über Szenarien verfügbar<br/>- Die beiden Widgets (Dashboard und Mobile) bieten Zugriff auf alle diese Funktionen"
 
 - id: robonect
   name: "Robonect"

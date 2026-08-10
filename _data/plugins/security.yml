@@ -73,21 +73,6 @@
     es_ES: "Jeelocker es un complemento dedicado a la gestión del acceso a los casilleros"
     de_DE: "Jeelocker ist ein Plugin für die Schließfachzugriffsverwaltung"
 
-- id: netatmoWelcome
-  name: "Netatmo Security"
-  market_id: 1967
-  doc:
-    stable: true
-    beta: true
-  changelog:
-    stable: true
-    beta: true
-  description:
-    fr_FR: "Plugin pour Netatmo Security. Attention pour afficher le flux vidéo il faut le plugin caméra"
-    en_US: "Plugin for Netatmo Security. Attention to display the video stream you need the camera plugin"
-    es_ES: "Plugin para la seguridad de Netatmo. Atención para mostrar la transmisión de video, necesita el complemento de la cámara"
-    de_DE: "Plugin für Netatmo Security. Achtung, um den Videostream anzuzeigen, benötigen Sie das Kamera-Plugin"
-
 - id: nuki
   name: "Nuki"
   market_id: 2819

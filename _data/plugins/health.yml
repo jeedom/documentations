@@ -12,18 +12,3 @@
     en_US: "Plugbit for Fitbit"
     es_ES: "Plugbit para Fitbit"
     de_DE: "Plugbit für Fitbit"
-
-- id: sevenhugs
-  name: "SevenHugs"
-  market_id: 2492
-  doc:
-    stable: false
-    beta: false
-  changelog:
-    stable: true
-    beta: false
-  description:
-    fr_FR: "Plugin pour SevenHugs"
-    en_US: "SevenHugs plugin"
-    es_ES: "Plugin SevenHugs"
-    de_DE: "SevenHugs Plugin"

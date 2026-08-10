@@ -145,36 +145,6 @@
     es_ES: ""
     de_DE: ""
 
-- id: edimaxplug
-  name: "Edimax Plug"
-  market_id: 2455
-  doc:
-    stable: true
-    beta: false
-  changelog:
-    stable: true
-    beta: false
-  description:
-    fr_FR: ""
-    en_US: ""
-    es_ES: ""
-    de_DE: ""
-
-- id: edisio
-  name: "Edisio"
-  market_id: 1541
-  doc:
-    stable: true
-    beta: false
-  changelog:
-    stable: true
-    beta: false
-  description:
-    fr_FR: "Plugin Edisio pour gérer le protocole Edisio avec clef USB Edisio. Ainsi vous pourrez communiquer avec les produits de la gamme Edisio."
-    en_US: "Edisio plugin to manage the Edisio protocol with Edisio USB key. So you can communicate with the products of the Edisio range."
-    es_ES: "Complemento Edisio para administrar el protocolo Edisio con la llave USB Edisio. Para que pueda comunicarse con los productos de la gama Edisio."
-    de_DE: "Edisio-Plugin zur Verwaltung des Edisio-Protokolls mit dem Edisio-USB-Stick. So können Sie mit den Produkten der Edisio-Reihe kommunizieren."
-
 - id: ipx800
   name: "ipx800 V3"
   market_id: 344
@@ -337,21 +307,6 @@
     es_ES: "Plugin ajoutant le support du EnOcean à Jeedom https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean Se agregarán muchos módulos de forma rápida y continua Le recomendamos que migre con precaución"
     de_DE: "Plugin ajoutant le support du EnOcean à Jeedom https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean Viele Module werden schnell und kontinuierlich hinzugefügt. Wir raten Ihnen, mit Vorsicht zu migrieren"
 
-- id: openzwave
-  name: "Z-Wave"
-  market_id: 185
-  doc:
-    stable: true
-    beta: true
-  changelog:
-    stable: true
-    beta: true
-  description:
-    fr_FR: "Plugin pour contrôler les équipements ZWave via une clé ZWave compatible openZwave"
-    en_US: "Plugin to control ZWave equipment via an openWave compatible ZWave key"
-    es_ES: "Complemento para controlar el equipo ZWave a través de una tecla ZWave compatible con openWave"
-    de_DE: "Plugin zur Steuerung von ZWave-Geräten über einen openWave-kompatiblen ZWave-Schlüssel"
-
 - id: rfplayer2
   name: "RfPlayer2"
   market_id: 3349
@@ -412,21 +367,6 @@
     es_ES: "Este complemento le permite controlar los módulos Wattcubes de Wattlet a través de la Web de Wattcube."
     de_DE: "Mit diesem Plugin können Sie die Wattcubes-Module von Wattlet über das Wattcube Web steuern."
 
-- id: wes
-  name: "Wes"
-  market_id: 1336
-  doc:
-    stable: true
-    beta: false
-  changelog:
-    stable: true
-    beta: false
-  description:
-    fr_FR: "Ce plugin va vous permettre d'intégrer un wes de CartElectronics"
-    en_US: "This plugin will allow you to integrate a CartElectronics wes"
-    es_ES: "Este complemento le permitirá integrar un wes de CartElectronics"
-    de_DE: "Mit diesem Plugin können Sie eine CartElectronics wes integrieren"
-
 - id: z2m
   name: "JeeZigbee"
   market_id: 4351
@@ -441,21 +381,6 @@
     en_US: "Plugin allowing to use zigbee, based on zigbee2mqtt."
     es_ES: "Complemento que permite usar zigbee, basado en zigbee2mqtt."
     de_DE: "Plugin, das die Verwendung von Zigbee ermöglicht, basierend auf zigbee2mqtt."
-
-- id: zigbee
-  name: "Zigbee"
-  market_id: 4050
-  doc:
-    stable: true
-    beta: true
-  changelog:
-    stable: true
-    beta: true
-  description:
-    fr_FR: "IMPORTANT Ce plugin est remplacer par Jeezigbee (documentation en cours de rédaction). Plugin offrant une compatibilité généralisée avec différents types de contrôleurs Zigbee tels que deCONZ et EZSP (Silicon labs), et en support beta : Zigate, XBee et Texas Instruments. <br/><br/> Il est important de bien lire la documentation du plugin avant tout achat."
-    en_US: "IMPORTANT This plugin is replaced by Jeezigbee (documentation in progress). Plugin offering general compatibility with different types of Zigbee controllers such as deCONZ and EZSP (Silicon labs), and in beta support : Zigate, XBee and Texas Instruments. <br/><br/> It is important to read the plugin documentation carefully before any purchase."
-    es_ES: "IMPORTANTE Este complemento se reemplaza por Jeezigbee (documentación en progreso). Complemento que ofrece compatibilidad general con diferentes tipos de controladores Zigbee como deCONZ y EZSP (Silicon labs), y en soporte beta : Zigate, XBee y Texas Instruments. <br/><br/> Es importante leer detenidamente la documentación del complemento antes de realizar cualquier compra."
-    de_DE: "WICHTIG Dieses Plugin wird durch Jeezigbee ersetzt (Dokumentation in Arbeit)). Plugin mit allgemeiner Kompatibilität mit verschiedenen Arten von ZigBee-Controllern wie deCONZ und EZSP (Silicon Labs) sowie Beta-Unterstützung : Zigate, XBee und Texas Instruments. <br/><br/> Es ist wichtig, die Plugin-Dokumentation vor dem Kauf sorgfältig zu lesen."
 
 - id: zwavejs
   name: "Z-Wave JS"
