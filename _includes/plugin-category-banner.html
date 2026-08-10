@@ -1,0 +1,119 @@
+{%- case include.category -%}
+  {%- when 'automation-protocol' -%}
+    {%- assign cat_fr_FR = 'Protocole domotique' -%}
+    {%- assign cat_en_US = 'Home protocol' -%}
+    {%- assign cat_es_ES = 'Protocolo de domótica' -%}
+    {%- assign cat_de_DE = 'Hausautomationsprotokoll' -%}
+  {%- when 'automatisation' -%}
+    {%- assign cat_fr_FR = 'Automatisme' -%}
+    {%- assign cat_en_US = 'Automation' -%}
+    {%- assign cat_es_ES = 'Automatización' -%}
+    {%- assign cat_de_DE = 'Automatisierung' -%}
+  {%- when 'security' -%}
+    {%- assign cat_fr_FR = 'Sécurité' -%}
+    {%- assign cat_en_US = 'Security' -%}
+    {%- assign cat_es_ES = 'Seguridad' -%}
+    {%- assign cat_de_DE = 'Sicherheit' -%}
+  {%- when 'home-automation-protocol' -%}
+    {%- assign cat_fr_FR = 'Passerelle domotique' -%}
+    {%- assign cat_en_US = 'Home gateway' -%}
+    {%- assign cat_es_ES = 'Pasarela domótica' -%}
+    {%- assign cat_de_DE = 'Hausautomations-Gateway' -%}
+  {%- when 'programming' -%}
+    {%- assign cat_fr_FR = 'Programmation' -%}
+    {%- assign cat_en_US = 'Programming' -%}
+    {%- assign cat_es_ES = 'Programación' -%}
+    {%- assign cat_de_DE = 'Programmierung' -%}
+  {%- when 'organization' -%}
+    {%- assign cat_fr_FR = 'Organisation' -%}
+    {%- assign cat_en_US = 'Organize' -%}
+    {%- assign cat_es_ES = 'Organización' -%}
+    {%- assign cat_de_DE = 'Organisation' -%}
+  {%- when 'weather' -%}
+    {%- assign cat_fr_FR = 'Météo' -%}
+    {%- assign cat_en_US = 'Weather' -%}
+    {%- assign cat_es_ES = 'Meteorología' -%}
+    {%- assign cat_de_DE = 'Wettervorhersage' -%}
+  {%- when 'communication' -%}
+    {%- assign cat_fr_FR = 'Communication' -%}
+    {%- assign cat_en_US = 'Communication' -%}
+    {%- assign cat_es_ES = 'Comunicación' -%}
+    {%- assign cat_de_DE = 'Kommunikation' -%}
+  {%- when 'devicecommunication' -%}
+    {%- assign cat_fr_FR = 'Objets connectés' -%}
+    {%- assign cat_en_US = 'Connected object' -%}
+    {%- assign cat_es_ES = 'Objetos conectados' -%}
+    {%- assign cat_de_DE = 'Verbundene Objekte' -%}
+  {%- when 'multimedia' -%}
+    {%- assign cat_fr_FR = 'Multimédia' -%}
+    {%- assign cat_en_US = 'Multimedia' -%}
+    {%- assign cat_es_ES = 'Multimedia' -%}
+    {%- assign cat_de_DE = 'Multimedia' -%}
+  {%- when 'wellness' -%}
+    {%- assign cat_fr_FR = 'Confort' -%}
+    {%- assign cat_en_US = 'Wellness' -%}
+    {%- assign cat_es_ES = 'Confort' -%}
+    {%- assign cat_de_DE = 'Komfort' -%}
+  {%- when 'monitoring' -%}
+    {%- assign cat_fr_FR = 'Monitoring' -%}
+    {%- assign cat_en_US = 'Monitoring' -%}
+    {%- assign cat_es_ES = 'Monitoreo' -%}
+    {%- assign cat_de_DE = 'Überwachung' -%}
+  {%- when 'health' -%}
+    {%- assign cat_fr_FR = 'Santé' -%}
+    {%- assign cat_en_US = 'Health' -%}
+    {%- assign cat_es_ES = 'Salud' -%}
+    {%- assign cat_de_DE = 'Gesundheit' -%}
+  {%- when 'nature' -%}
+    {%- assign cat_fr_FR = 'Nature' -%}
+    {%- assign cat_en_US = 'Nature' -%}
+    {%- assign cat_es_ES = 'Naturaleza' -%}
+    {%- assign cat_de_DE = 'Natur' -%}
+  {%- when 'energy' -%}
+    {%- assign cat_fr_FR = 'Energie' -%}
+    {%- assign cat_en_US = 'Energy' -%}
+    {%- assign cat_es_ES = 'Energía' -%}
+    {%- assign cat_de_DE = 'Energie' -%}
+  {%- when 'other' -%}
+    {%- assign cat_fr_FR = 'Autre' -%}
+    {%- assign cat_en_US = 'Other' -%}
+    {%- assign cat_es_ES = 'Otros' -%}
+    {%- assign cat_de_DE = 'Andere' -%}
+{%- endcase -%}
+{%- case include.lang -%}
+  {%- when 'en_US' -%} {%- assign category_name = cat_en_US -%}
+  {%- when 'es_ES' -%} {%- assign category_name = cat_es_ES -%}
+  {%- when 'de_DE' -%} {%- assign category_name = cat_de_DE -%}
+  {%- else -%} {%- assign category_name = cat_fr_FR -%}
+{%- endcase -%}
+{%- assign market_category = include.category | replace: '-', '+' -%}
+{%- assign market_link = 'https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=' | append: market_category -%}
+{%- case include.lang -%}
+  {%- when 'en_US' -%}
+    {%- assign h1_prefix = 'Official plugins' -%}
+    {%- assign body_sentence1 = 'The list below gives direct access to the documentation and changelog of the official plugins in the "' | append: category_name | append: '" category.' -%}
+    {%- assign body_sentence2 = "You can open the plugin's Market page by clicking its name or icon to see all the information about it." -%}
+    {%- assign body_text = body_sentence1 | append: ' ' | append: body_sentence2 -%}
+    {%- assign info_text = 'Find the list of all plugins in the "' | append: category_name | append: '" category available on the Market [by following this link](' | append: market_link | append: '){:target="_blank" rel="noopener noreferrer"}.' -%}
+  {%- when 'es_ES' -%}
+    {%- assign h1_prefix = 'Complementos oficiales' -%}
+    {%- assign body_text = 'La siguiente lista ofrece acceso directo a la documentación y al registro de cambios de los complementos oficiales de la categoría "' | append: category_name | append: '". Puede abrir la ficha del complemento en el Market haciendo clic en su nombre o icono para ver toda la información al respecto.' -%}
+    {%- assign info_text = 'Encuentre la lista de todos los complementos de la categoría "' | append: category_name | append: '" disponibles en el Market [siguiendo este enlace](' | append: market_link | append: '){:target="_blank" rel="noopener noreferrer"}.' -%}
+  {%- when 'de_DE' -%}
+    {%- assign h1_prefix = 'Offizielle Plugins' -%}
+    {%- assign body_text = 'Die folgende Liste bietet direkten Zugriff auf die Dokumentation und das Änderungsprotokoll der offiziellen Plugins der Kategorie "' | append: category_name | append: '". Sie können die Market-Seite des Plugins öffnen, indem Sie auf seinen Namen oder sein Symbol klicken, um alle Informationen dazu einzusehen.' -%}
+    {%- assign info_text = 'Die Liste aller im Market verfügbaren Plugins der Kategorie "' | append: category_name | append: '" finden Sie [über diesen Link](' | append: market_link | append: '){:target="_blank" rel="noopener noreferrer"}.' -%}
+  {%- else -%}
+    {%- assign h1_prefix = 'Plugins officiels' -%}
+    {%- assign body_sentence1 = 'La liste ci-dessous offre un accès direct à la documentation et au changelog des plugins officiels de la catégorie "' | append: category_name | append: '".' -%}
+    {%- assign body_sentence2 = "Il est possible d'ouvrir la fiche du plugin sur le Market en cliquant sur son nom ou son icône afin de visualiser toutes les informations le concernant." -%}
+    {%- assign body_text = body_sentence1 | append: ' ' | append: body_sentence2 -%}
+    {%- assign info_text = 'Retrouvez la liste de tous les plugins de la catégorie "' | append: category_name | append: '" disponibles sur le Market [en suivant ce lien](' | append: market_link | append: '){:target="_blank" rel="noopener noreferrer"}.' -%}
+{%- endcase -%}
+# {{ h1_prefix }} {{ category_name }}
+
+{{ body_text }}
+
+>**INFORMATION**
+>
+>{{ info_text }}

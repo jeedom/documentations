@@ -1,0 +1,41 @@
+{%- assign plugins = site.data.plugins[include.category] -%}
+{%- case include.lang -%}
+  {%- when 'en_US' -%}
+    {%- assign lbl_doc = 'Documentation' -%}
+    {%- assign lbl_changelog = 'Changelog' -%}
+    {%- assign lbl_stable = 'Stable' -%}
+    {%- assign lbl_beta = 'Beta' -%}
+    {%- assign lbl_market_title = 'View on the Market' -%}
+  {%- when 'es_ES' -%}
+    {%- assign lbl_doc = 'Documentación' -%}
+    {%- assign lbl_changelog = 'Registro de cambios' -%}
+    {%- assign lbl_stable = 'Estable' -%}
+    {%- assign lbl_beta = 'Beta' -%}
+    {%- assign lbl_market_title = 'Ver en el Market' -%}
+  {%- when 'de_DE' -%}
+    {%- assign lbl_doc = 'Dokumentation' -%}
+    {%- assign lbl_changelog = 'Änderungsprotokoll' -%}
+    {%- assign lbl_stable = 'Stabil' -%}
+    {%- assign lbl_beta = 'Beta' -%}
+    {%- assign lbl_market_title = 'Im Market ansehen' -%}
+  {%- else -%}
+    {%- assign lbl_doc = 'Documentation' -%}
+    {%- assign lbl_changelog = 'Changelog' -%}
+    {%- assign lbl_stable = 'Stable' -%}
+    {%- assign lbl_beta = 'Bêta' -%}
+    {%- assign lbl_market_title = 'Voir sur le Market' -%}
+{%- endcase -%}
+{%- if plugins and plugins.size > 0 -%}
+| | | | |
+|--- | --- | --- | ---|
+{% for p in plugins %}
+{%- assign desc = p.description[include.lang] | default: p.description["en_US"] | default: p.description["fr_FR"] -%}
+{%- assign icon_beta = false -%}
+{%- if p.doc.stable == false and p.doc.beta -%}{%- assign icon_beta = true -%}{%- endif -%}
+{%- capture plugin_cell -%}<a href="https://market.jeedom.com/index.php?v=d&p=market_display&id={{ p.market_id }}" target="_blank" rel="noopener noreferrer" title="{{ lbl_market_title }}"><span class="pluginName">{{ p.name }}</span><img src="../{{ p.id }}{% if icon_beta %}/beta{% endif %}/{{ p.id }}_icon.png" onerror="this.onerror=null;this.src='/assets/img/no-image-plugin.png';" class="pluginLogo" /></a>{%- endcapture -%}
+{%- capture doc_cell -%}{{ lbl_doc }}{% if p.doc.stable %}<br/>[{{ lbl_stable }}](../{{ p.id }}/{{ include.lang }}/){% endif %}{% if p.doc.beta %}<br/>[{{ lbl_beta }}](../{{ p.id }}/beta/{{ include.lang }}/){% endif %}{%- endcapture -%}
+{%- capture changelog_cell -%}{{ lbl_changelog }}{% if p.changelog.stable %}<br/>[{{ lbl_stable }}](../{{ p.id }}/{{ include.lang }}/changelog){% endif %}{% if p.changelog.beta %}<br/>[{{ lbl_beta }}](../{{ p.id }}/beta/{{ include.lang }}/changelog){% endif %}{%- endcapture -%}
+|{{ plugin_cell }}|{{ desc }}|{{ doc_cell }}|{{ changelog_cell }}|
+{% endfor -%}
+{: .plugin-table}
+{%- endif -%}
