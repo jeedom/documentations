@@ -110,6 +110,22 @@
     {%- assign body_text = body_sentence1 | append: ' ' | append: body_sentence2 -%}
     {%- assign info_text = 'Retrouvez la liste de tous les plugins de la catégorie "' | append: category_name | append: '" disponibles sur le Market [en suivant ce lien](' | append: market_link | append: '){:target="_blank" rel="noopener noreferrer"}.' -%}
 {%- endcase -%}
+{%- if include.section == 'contributor' -%}
+  {%- case include.lang -%}
+    {%- when 'en_US' -%}
+      {%- assign h1_prefix = h1_prefix | replace: 'Official', 'Third-party' -%}
+      {%- assign body_text = body_text | replace: 'official', 'third-party' -%}
+    {%- when 'es_ES' -%}
+      {%- assign h1_prefix = h1_prefix | replace: 'oficiales', 'de terceros' -%}
+      {%- assign body_text = body_text | replace: 'oficiales', 'de terceros' -%}
+    {%- when 'de_DE' -%}
+      {%- assign h1_prefix = h1_prefix | replace: 'Offizielle', 'Drittanbieter-' -%}
+      {%- assign body_text = body_text | replace: 'offiziellen', 'Drittanbieter-' -%}
+    {%- else -%}
+      {%- assign h1_prefix = h1_prefix | replace: 'officiels', 'tiers' -%}
+      {%- assign body_text = body_text | replace: 'officiels', 'tiers' -%}
+  {%- endcase -%}
+{%- endif -%}
 # {{ h1_prefix }} {{ category_name }}
 
 {{ body_text }}
