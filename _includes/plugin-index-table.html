@@ -34,7 +34,6 @@
 |--- | --- | --- | ---|
 {% for p in plugins %}
 {%- assign desc = p.description[include.lang] | default: p.description["en_US"] | default: p.description["fr_FR"] -%}
-{%- assign icon_beta = false -%}
 {%- if include.section == 'contributor' -%}
   {%- assign doc_stable_url = p.doc.stable[include.lang] | default: p.doc.stable["en_US"] | default: p.doc.stable["fr_FR"] -%}
   {%- assign doc_beta_url = p.doc.beta[include.lang] | default: p.doc.beta["en_US"] | default: p.doc.beta["fr_FR"] -%}
@@ -43,11 +42,10 @@
   {%- capture doc_cell -%}{{ lbl_doc }}{% if p.doc.stable %}<br/>[{{ lbl_stable }}]({{ doc_stable_url }}){:target="_blank" rel="noopener noreferrer"}{% endif %}{% if p.doc.beta %}<br/>[{{ lbl_beta }}]({{ doc_beta_url }}){:target="_blank" rel="noopener noreferrer"}{% endif %}{%- endcapture -%}
   {%- capture changelog_cell -%}{{ lbl_changelog }}{% if p.changelog.stable %}<br/>[{{ lbl_stable }}]({{ changelog_stable_url }}){:target="_blank" rel="noopener noreferrer"}{% endif %}{% if p.changelog.beta %}<br/>[{{ lbl_beta }}]({{ changelog_beta_url }}){:target="_blank" rel="noopener noreferrer"}{% endif %}{%- endcapture -%}
 {%- else -%}
-  {%- if p.doc.stable == false and p.doc.beta -%}{%- assign icon_beta = true -%}{%- endif -%}
   {%- capture doc_cell -%}{{ lbl_doc }}{% if p.doc.stable %}<br/>[{{ lbl_stable }}](../{{ p.id }}/{{ include.lang }}/){% endif %}{% if p.doc.beta %}<br/>[{{ lbl_beta }}](../{{ p.id }}/beta/{{ include.lang }}/){% endif %}{%- endcapture -%}
   {%- capture changelog_cell -%}{{ lbl_changelog }}{% if p.changelog.stable %}<br/>[{{ lbl_stable }}](../{{ p.id }}/{{ include.lang }}/changelog){% endif %}{% if p.changelog.beta %}<br/>[{{ lbl_beta }}](../{{ p.id }}/beta/{{ include.lang }}/changelog){% endif %}{%- endcapture -%}
 {%- endif -%}
-{%- capture plugin_cell -%}<a href="https://market.jeedom.com/index.php?v=d&p=market_display&id={{ p.market_id }}" target="_blank" rel="noopener noreferrer" title="{{ lbl_market_title }}"><span class="pluginName">{{ p.name }}</span><img src="../{{ p.id }}{% if icon_beta %}/beta{% endif %}/{{ p.id }}_icon.png" onerror="this.onerror=null;this.src='/assets/img/no-image-plugin.png';" class="pluginLogo" /></a>{%- endcapture -%}
+{%- capture plugin_cell -%}<a href="https://market.jeedom.com/index.php?v=d&p=market_display&id={{ p.market_id }}" target="_blank" rel="noopener noreferrer" title="{{ lbl_market_title }}"><span class="pluginName">{{ p.name }}</span><img src="../{{ p.id }}/{{ p.id }}_icon.png" onerror="this.onerror=null;this.src='/assets/img/no-image-plugin.png';" class="pluginLogo" /></a>{%- endcapture -%}
 |{{ plugin_cell }}|{{ desc }}|{{ doc_cell }}|{{ changelog_cell }}|
 {% endfor -%}
 {: .plugin-table}
