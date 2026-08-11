@@ -1,0 +1,95 @@
+- id: arrosage
+  name: "Arrosage"
+  market_id: 2353
+  doc:
+    stable:
+      fr_FR: "https://jeedom.github.io/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeedom.github.io/"
+    beta: false
+  description:
+    fr_FR: "Plugin pour la gestion d'arrosage multizone"
+
+- id: gardena
+  name: "Gardena-Husqvarna"
+  market_id: 4031
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/gardena/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/gardena/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/gardena/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/gardena/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/gardena/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/gardena/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/gardena/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/gardena/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/gardena/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/gardena/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/gardena/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/gardena/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/gardena/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/gardena/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/gardena/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/gardena/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin permettant d'intégrer tous les appareils de la gamme Gardena Smart System (Water Control, sensor, irrigation control, power socket et Sileno mower) ce qui permet de controler votre système d'arrosage et votre robot tondeuse ainsi que les robots Husqvarna Automower Connect. Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions en fonction de l'appareil (voir la documentation)."
+    en_US: "Plugin for integrating all Gardena Smart System devices (Water Control, sensor, irrigation control, power socket and Sileno mower), enabling you to control your watering system and robotic mower, as well as Husqvarna Automower Connect robots. You can access and monitor device data, and perform certain device-specific actions (see documentation)."
+    es_ES: "Plugin para integrar todos los dispositivos Gardena Smart System (Water Control, sensor, control de riego, toma de corriente y cortacésped Sileno) que le permite controlar su sistema de riego y su robot cortacésped, así como los robots Husqvarna Automower Connect. Es posible acceder a los datos de los dispositivos y supervisarlos, así como realizar determinadas acciones en función del dispositivo (consulte la documentación)."
+    de_DE: "Plugin zur Integration aller Geräte des Gardena Smart System (Water Control, Sensor, irrigation control, power socket und Sileno mower), mit dem Sie Ihr Bewässerungssystem und Ihren Mähroboter sowie die Husqvarna Automower Connect-Roboter steuern können. Es ist möglich, auf die Daten der Geräte zuzugreifen, sie zu überwachen und bestimmte Aktionen je nach Gerät durchzuführen (siehe Dokumentation)."
+
+- id: MiFlora
+  name: "MiFlora"
+  market_id: 2686
+  doc:
+    stable:
+      fr_FR: "https://NextDom.github.io/plugin-MiFlora/fr_FR"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://NextDom.github.io/plugin-MiFlora/fr_FR/#tocAnchor-1-13"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de gèrer les Xiaomi plants ou Mi Flora ainsi que les Parrots. Il nécéssite une connection bluetooth vers les objets."
+
+- id: netro
+  name: "Netro"
+  market_id: 4313
+  doc:
+    stable:
+      fr_FR: "https://shinzah.github.io/jeedom-doc/netro"
+    beta:
+      fr_FR: "https://shinzah.github.io/jeedom-doc/netro"
+  changelog:
+    stable:
+      fr_FR: "https://shinzah.github.io/jeedom-doc/netro/beta/changelog"
+    beta:
+      fr_FR: "https://shinzah.github.io/jeedom-doc/netro/beta/changelog"
+  description:
+    fr_FR: "Pilotage des equipements d'arrosage Netro"
+
+- id: netroarrosage
+  name: "Netro arrosage"
+  market_id: 4354
+  doc:
+    stable:
+      fr_FR: "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/fr_FR/"
+      en_US: "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/en_US/"
+    beta:
+      fr_FR: "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/fr_FR/beta/"
+      en_US: "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/en_US/beta/"
+  changelog:
+    stable:
+      fr_FR: "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/fr_FR/changelog"
+      en_US: "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/en_US/changelog"
+    beta:
+      fr_FR: "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/fr_FR/beta/changelog"
+      en_US: "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/en_US/beta/changelog"
+  description:
+    fr_FR: "Plugin basé sur le système d'arrosage automatique Netro Smart Garden"
+    en_US: "Plugin based on Netro Smart Garden automatic watering system"

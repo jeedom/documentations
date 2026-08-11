@@ -1,0 +1,129 @@
+- id: arrosageAuto
+  name: "Arrosage automatique"
+  market_id: 2903
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/arrosageAuto/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/arrosageAuto/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: ""
+
+- id: ChauffeEau
+  name: "Gestion du Chauffe Eau"
+  market_id: 2671
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/ChauffeEau/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/ChauffeEau/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin gère l'allumage et l'extinction notre chauffe-eau en fonction de la température de l'eau et / ou de l'heure disponibilité de l'eau chaude"
+
+- id: eleroha
+  name: "Eleroha"
+  market_id: 3450
+  doc:
+    stable:
+      fr_FR: "https://openhautomation.github.io/eleroha/fr_FR/"
+      en_US: "https://openhautomation.github.io/eleroha/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://openhautomation.github.io/eleroha/fr_FR/changelog"
+      en_US: "https://openhautomation.github.io/eleroha/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin de communication avec les stores équipés d'un système Elero"
+
+- id: fliprpilot
+  name: "Flipr Pilot"
+  market_id: 4661
+  doc:
+    stable:
+      fr_FR: "https://dimitri23.github.io/Documentations/FliprPilot/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://dimitri23.github.io/Documentations/FliprPilot/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Pilotage de piscine : sonde Flipr, filtration et pompe à chaleur avec automatisation intelligente. ⚠️ Note importante ⚠️ Ce plugin repose sur l'API Flipr. À l'heure de son développement, cette API fonctionne parfaitement. Toutefois, la société Flipr ayant été placée en liquidation judiciaire fin 2025, l'auteur ne peut être et n'est en aucun cas responsable si l'API venait à devenir inaccessible."
+
+- id: LightGroup
+  name: "Light group"
+  market_id: 4193
+  doc:
+    stable:
+      fr_FR: "https://hbedek.github.io/Jeedom_docs/docs/LightGroup/fr_FR/"
+    beta:
+      fr_FR: "https://hbedek.github.io/Jeedom_docs/docs/LightGroup/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://hbedek.github.io/Jeedom_docs/docs/LightGroup/fr_FR/changelog"
+    beta:
+      fr_FR: "https://hbedek.github.io/Jeedom_docs/docs/LightGroup/fr_FR/changelog"
+  description:
+    fr_FR: "Light group vous permet de gérer l'ensemble de vos lumières. Le plugin vous propose de grouper vos lumières, homogénéiser les différentes valeurs et propose des automatismes pré concus."
+
+- id: sequencing
+  name: "Séquencement d'actions"
+  market_id: 3982
+  doc:
+    stable:
+      fr_FR: "https://agp42.github.io/sequencing/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://agp42.github.io/sequencing/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour gérer des actions séquencées et déclencheurs complexes"
+
+- id: swassist
+  name: "Switch assistant"
+  market_id: 4170
+  doc:
+    stable:
+      fr_FR: "https://ktn001.github.io/fr_FR/swassist/index.html"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://ktn001.github.io/fr_FR/swassist/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Plugin pour assister le fonctionnement des interrupteurs"
+
+- id: voletProp
+  name: "Volet proportionel"
+  market_id: 3229
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/voletProp/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/voletProp/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin gère l'ouverture et la fermeture proportionnel de nos volet"
+
+- id: Volets
+  name: "Gestion de Volets"
+  market_id: 2612
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/Volets/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/Volets/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin gère l'ouverture et la fermeture de nos volets"

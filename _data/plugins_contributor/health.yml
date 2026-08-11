@@ -1,0 +1,13 @@
+- id: withings
+  name: "Withings / Nokia"
+  market_id: 3400
+  doc:
+    stable:
+      fr_FR: "http://mika-nt28.github.io/Documentations/withings/fr_FR"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/withings/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Recuperer vos informations de santé sur le cloud Nokia"

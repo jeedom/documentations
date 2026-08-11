@@ -1,0 +1,785 @@
+- id: airthingsx
+  name: "AirthingsX"
+  market_id: 4268
+  doc:
+    stable:
+      fr_FR: "https://www.xypii.be/projects/jeedom-airthingsx/fr_FR/"
+      en_US: "https://www.xypii.be/projects/jeedom-airthingsx/en_US/"
+    beta: false
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: "Intégration avec l'API Airthings: relève les mesures des équipement Airthings pour la qualité de l'air. Attention: requiert PHP 7.3 et une clé API Airthings à créer par vous-même (l'opération est gratuite)."
+    en_US: "Integration with the Airthings API: gather the measures Airthings for the air quality. Disclaimer: it requires PHP 7.3 and an API key from Airthings, to be created on your own (free)."
+
+- id: alexasmarthome
+  name: "Alexa - SmartHome"
+  market_id: 3914
+  doc:
+    stable:
+      fr_FR: "http://jeedom.sigalou-domotique.fr/alexa-amazon-smarthome-documentation"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "http://jeedom.sigalou-domotique.fr/alexa-amazon-smarthome-changelog"
+    beta: false
+  description:
+    fr_FR: "Le plugin a été totalement refondu et relooké pour accepter les équipements que détecte l'application Alexa. Le lien mis en place par les plugins entre Jeedom et le serveur Amazon permet de remonter les états des équipements et de leur envoyer des commandes. Le lien entre le serveur Amazon (Alexa) et les équipements est quant à lui assuré par les skills de chaque fabriquant (Xiaomi, SmartLife, Tuya, Netatmo, Wemo, Somfy, eWelink,…) ce qui rend les possibilités totalement infinies."
+
+- id: arenti
+  name: "Arenti"
+  market_id: 4420
+  doc:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-arenti-pour-jeedom/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-arenti-pour-jeedom/"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API Arenti"
+    en_US: "Plugin to retrieve information and control synchronized devices on the Arenti API"
+    es_ES: "Plugin para recuperar información y controlar dispositivos sincronizados en la API Arenti"
+    de_DE: "Plugin zum Abrufen von Informationen und zum Steuern von Geräten, die über die Arenti API synchronisiert wurden"
+
+- id: bticino
+  name: "Home Security"
+  market_id: 4682
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/bticino/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/bticino/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/bticino/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/bticino/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/bticino/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/bticino/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/bticino/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/bticino/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/bticino/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/bticino/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/bticino/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/bticino/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/bticino/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/bticino/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/bticino/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/bticino/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin permettant d'intégrer les appareils BTicino / Netatmo / Legrand Home Security"
+
+- id: flipr
+  name: "Flipr"
+  market_id: 3981
+  doc:
+    stable:
+      fr_FR: "https://tof32.github.io/docPluginFlipr/fr_FR/"
+      en_US: "https://tof32.github.io/docPluginFlipr/en_US/"
+      de_DE: "https://tof32.github.io/docPluginFlipr/de_DE/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://tof32.github.io/docPluginFlipr/fr_FR/changelog"
+      en_US: "https://tof32.github.io/docPluginFlipr/en_US/changelog"
+      de_DE: "https://tof32.github.io/docPluginFlipr/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin de récupération des infos de l'objet connecté Flipr (www.goflipr.com)"
+
+- id: fordcar
+  name: "FordCar"
+  market_id: 4319
+  doc:
+    stable:
+      fr_FR: "https://cddu33.github.io/fordcar/fr_FR/"
+    beta:
+      fr_FR: "https://cddu33.github.io/fordcar/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://cddu33.github.io/fordcar/fr_FR/changelog"
+    beta:
+      fr_FR: "https://cddu33.github.io/fordcar/fr_FR/changelog_beta"
+  description:
+    fr_FR: "Plugin permettant de ce connecté à Ford Pass et à récuperrer toutes les information de votre Véhicule. Il permet de vérouiller/dévérouiller son véhicules et suivant les régions du monde, Démarrer son véhicule."
+
+- id: gardenasmartsystem
+  name: "Gardena Smart System"
+  market_id: 3367
+  doc:
+    stable:
+      fr_FR: "https://xlec.github.io/jeedom-gardenasmartsystem/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://xlec.github.io/jeedom-gardenasmartsystem/fr_FR/changelog.html"
+    beta: false
+  description:
+    fr_FR: ""
+
+- id: govee
+  name: "Govee"
+  market_id: 4371
+  doc:
+    stable: false
+    beta: false
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de piloter les équipements Govee (gratuit depuis le 07/04/2024)"
+
+- id: healthbox
+  name: "healthbox"
+  market_id: 4387
+  doc:
+    stable:
+      fr_FR: "https://knetus56.github.io/healthbox/fr_FR/"
+    beta:
+      fr_FR: "https://knetus56.github.io/healthbox/fr_FR/beta/"
+  changelog:
+    stable:
+      fr_FR: "https://knetus56.github.io/healthbox/fr_FR/changelog"
+    beta:
+      fr_FR: "https://knetus56.github.io/healthbox/fr_FR/beta/changelog"
+  description:
+    fr_FR: "Ce plugin Jeedom permet de controler les VMC RENSON HEALTBOX 3"
+
+- id: homeconnect
+  name: "Home Connect"
+  market_id: 3894
+  doc:
+    stable:
+      fr_FR: "https://jmvedrine.github.io/homeconnect/fr_FR/"
+      en_US: "https://jmvedrine.github.io/homeconnect/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jmvedrine.github.io/homeconnect/fr_FR/changelog"
+      en_US: "https://jmvedrine.github.io/homeconnect/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de récupérer les informations des appareils électroménagers compatibles"
+
+- id: HomeWizard
+  name: "HomeWizard Energy"
+  market_id: 4500
+  doc:
+    stable:
+      fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/HomeWizard/fr_FR/"
+    beta:
+      fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/HomeWizard/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/HomeWizard/fr_FR/changelog"
+    beta:
+      fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/HomeWizard/fr_FR/changelog"
+  description:
+    fr_FR: "Ce plugin permet d'afficher les données des périphériques HomeWizard Energy et de controler leurs prises connectées. Découverte des équipements via multicast DNS (mDNS) sur le même réseau."
+    en_US: "This plugin allow you to display data from HomeWizard Energy devices and to control their wifi sockets. Devices discovery is done via multicast DNS (mDNS) on the same network."
+    es_ES: "Este plugin permite visualizar los datos de los dispositivos HomeWizard Energy y controlar sus tomas conectadas. Detección de equipos mediante DNS multidifusión (mDNS) en la misma red."
+    de_DE: "Mit diesem Plugin können Sie die Daten von HomeWizard Energy-Geräten anzeigen und ihre angeschlossenen Steckdosen steuern. Entdeckung der Geräte über Multicast DNS (mDNS) im selben Netzwerk."
+
+- id: iopool_EcO
+  name: "iopool - EcO"
+  market_id: 4189
+  doc:
+    stable:
+      fr_FR: "https://mguyard.github.io/Jeedom-Documentations/fr_FR/iopool_EcO/documentation"
+      en_US: "https://mguyard.github.io/Jeedom-Documentations/en_US/iopool_EcO/documentation"
+    beta:
+      fr_FR: "https://mguyard.github.io/Jeedom-Documentations/fr_FR/iopool_EcO/documentation"
+      en_US: "https://mguyard.github.io/Jeedom-Documentations/en_US/iopool_EcO/documentation"
+  changelog:
+    stable:
+      fr_FR: "https://mguyard.github.io/Jeedom-Documentations/fr_FR/iopool_EcO/changelog"
+      en_US: "https://mguyard.github.io/Jeedom-Documentations/en_US/iopool_EcO/changelog"
+    beta:
+      fr_FR: "https://mguyard.github.io/Jeedom-Documentations/fr_FR/iopool_EcO/changelog"
+      en_US: "https://mguyard.github.io/Jeedom-Documentations/en_US/iopool_EcO/changelog"
+  description:
+    fr_FR: "Plugin Jeedom pour collecter les informations de la sonde <a href='https://iopool.com'>iopool</a> EcO depuis le Cloud iopool (API).<br/>Pour plus de détails, n'hésitez pas à consulter la documentation qui est très complète."
+    en_US: "Jeedom plugin to collect <a href='https://iopool.com'>iopool</a> EcO sensor informations from iopool Cloud (API)<br/>For more details, do not hesitate to consult the documentation which is very complete."
+
+- id: JeedomTeslaBLE
+  name: "Tesla BLE"
+  market_id: 4562
+  doc:
+    stable: false
+    beta: false
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de piloter la charge et la clim de vos véhicules tesla en utilisant un ProxyBLE (installé sur un Raspberry Pi Zero W par exemple) proche du véhicule => https://github.com/wimaha/TeslaBleHttpProxy"
+
+- id: kiauvo
+  name: "Kia-UVO"
+  market_id: 4076
+  doc:
+    stable:
+      fr_FR: "https://neopix.github.io/jeedom-kiauvo-documentation/fr_FR"
+      en_US: "https://neopix.github.io/jeedom-kiauvo-documentation/en_US"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://neopix.github.io/jeedom-kiauvo-documentation/fr_FR/changelog"
+      en_US: "https://neopix.github.io/jeedom-kiauvo-documentation/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin de gestion des véhicules compatibles KIA-UVO"
+    en_US: "Plugin to manage KIA-UVO compatible vehicles"
+
+- id: kkasa
+  name: "kKasa"
+  market_id: 3489
+  doc:
+    stable:
+      fr_FR: "https://kavod.github.io/kkasa/fr_FR/"
+      en_US: "https://kavod.github.io/kkasa/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://kavod.github.io/kkasa/fr_FR/changelog"
+      en_US: "https://kavod.github.io/kkasa/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin Tp-Link Kasa"
+
+- id: kroomba
+  name: "iRobot"
+  market_id: 2776
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/kroomba/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/kroomba/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/kroomba/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/kroomba/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/kroomba/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/kroomba/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/kroomba/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/kroomba/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/kroomba/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/kroomba/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/kroomba/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/kroomba/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/kroomba/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/kroomba/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/kroomba/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/kroomba/de_DE/changelog"
+  description:
+    fr_FR: "Plugin permettant de piloter les robots aspirateurs (Roomba) et laveurs de sols (Braava) de la marque iRobot."
+    en_US: "Plugin to control iRobot vacuum cleaners (Roomba) and floor cleaners (Braava)."
+    es_ES: "Plugin para controlar aspiradoras (Roomba) y limpiadores de suelos (Braava) de iRobot."
+    de_DE: "Plugin zur Steuerung von Staubsaugerrobotern (Roomba) und Bodenwischern (Braava) der Marke iRobot."
+
+- id: lgthinq
+  name: "LG Smart Thinq"
+  market_id: 4080
+  doc:
+    stable:
+      fr_FR: "https://pifou25.github.io/jeedom-lgthinq-plugin/fr_FR/"
+      en_US: "https://pifou25.github.io/jeedom-lgthinq-plugin/en_US/"
+    beta:
+      fr_FR: "https://pifou25.github.io/jeedom-lgthinq-plugin/fr_FR/index_beta"
+      en_US: "https://pifou25.github.io/jeedom-lgthinq-plugin/en_US/index_beta"
+  changelog:
+    stable:
+      fr_FR: "https://pifou25.github.io/jeedom-lgthinq-plugin/fr_FR/changelog"
+      en_US: "https://pifou25.github.io/jeedom-lgthinq-plugin/en_US/changelog"
+    beta:
+      fr_FR: "https://pifou25.github.io/jeedom-lgthinq-plugin/fr_FR/changelog_beta"
+      en_US: "https://pifou25.github.io/jeedom-lgthinq-plugin/en_US/changelog_beta"
+  description:
+    fr_FR: "Plugin pour les Objets Connectés de la marque LG compatibles 'Smart Thinq APIv1'"
+    en_US: "Plugin for 'Smart Thinq APIv1'-compatible LG Connected Objects"
+    de_DE: "Plugin für Smart Thinq APIv1-kompatible Connected Objects der Marke LG"
+
+- id: lgthinq2
+  name: "LG ThinQ"
+  market_id: 4485
+  doc:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-lgthinq2-pour-jeedom/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-lgthinq2-pour-jeedom/"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API LG ThinQ"
+    en_US: "Plugin to retrieve information and control synchronized devices on the LG ThinQ API"
+    es_ES: "Plugin para recuperar información y controlar dispositivos sincronizados en la API LG ThinQ"
+    de_DE: "Plugin zum Abrufen von Informationen und zum Steuern von Geräten, die über die LG ThinQ API synchronisiert wurden"
+
+- id: miele
+  name: "Miele"
+  market_id: 3950
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/miele/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/miele/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/miele/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/miele/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/miele/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/miele/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/miele/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/miele/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/miele/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/miele/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/miele/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/miele/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/miele/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/miele/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/miele/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/miele/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin permettant d'intégrer tous les appareils de la gamme Miele@Home. Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions (en fonction de l'appareil)"
+    en_US: "Plugin for integrating all appliances in the Miele@Home range. You can access and monitor appliance data and perform certain actions (depending on the appliance)"
+    es_ES: "Plugin para integrar todos los electrodomésticos de la gama Miele@Home. Puede acceder y supervisar los datos de los electrodomésticos y realizar determinadas acciones (en función del electrodoméstico)"
+    de_DE: "Plugin, mit dem alle Geräte der Miele@Home-Reihe integriert werden können. Es ist möglich, auf die Daten der Geräte zuzugreifen, sie zu überwachen und bestimmte Aktionen (je nach Gerät) durchzuführen"
+
+- id: MyDACIA
+  name: "MyDacia"
+  market_id: 4641
+  doc:
+    stable:
+      fr_FR: "https://github.com/alexdems/MyDacia_jeedom-docs/blob/main/README.md"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/alexdems/MyDacia_jeedom-docs/blob/main/CHANGELOG.md"
+    beta: false
+  description:
+    fr_FR: "Plugin MyDacia pour Jeedom : liaison avec l'API Renault/Dacia (Kamereon), état batterie et autonomie, position GPS, kilométrage, climatisation et charge.<br/>Prise en charge de deux comptes MyDacia distincts pour plusieurs véhicules sur des comptes séparés."
+
+- id: myokotouch
+  name: "MyOkoTouch"
+  market_id: 4640
+  doc:
+    stable:
+      fr_FR: "https://darkomage.github.io/jeedom-plugin-myokotouch/stable/fr_FR/"
+    beta:
+      fr_FR: "https://darkomage.github.io/jeedom-plugin-myokotouch/beta/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://darkomage.github.io/jeedom-plugin-myokotouch/stable/fr_FR/changelog/"
+    beta:
+      fr_FR: "https://darkomage.github.io/jeedom-plugin-myokotouch/beta/fr_FR/changelog/"
+  description:
+    fr_FR: "Plugin permettant de récupérer les informations et de contrôler les chaudières Okofen sous firmware Pelletronic Touch."
+
+- id: mystr0m
+  name: "Smart Home"
+  market_id: 3954
+  doc:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/mystr0m/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/mystr0m/changelog/"
+    beta: false
+  description:
+    fr_FR: "Plugin pour piloter les équipements de la gamme Smart Home (CH) : myStrom (switches, boutons, ampoules, détecteurs PIR, bandeaux LED), Dingz (interrupteurs Wi-Fi)"
+    en_US: "Plugin to control Smart Home (CH) devices: myStrom (switches, buttons, bulbs, PIR sensors, LED strips), Dingz (Wi-Fi switches)"
+    es_ES: "Plugin para controlar los dispositivos Smart Home (CH): myStrom (interruptores, botones, bombillas, sensores PIR, tiras LED), Dingz (interruptores Wi-Fi)"
+    de_DE: "Plugin zur Steuerung von Smart Home (CH)-Geräten: myStrom (Schalter, Taster, Lampen, PIR-Sensoren, LED-Streifen), Dingz (WLAN-Schalter)"
+
+- id: myToyota
+  name: "myToyota"
+  market_id: 4481
+  doc:
+    stable:
+      fr_FR: "https://github.com/Noyax-37/myToyota/blob/master/docs/fr_FR/index.md"
+    beta:
+      fr_FR: "https://github.com/Noyax-37/myToyota/blob/develop/docs/fr_FR/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/Noyax-37/myToyota/blob/master/docs/fr_FR/changelog.md"
+    beta:
+      fr_FR: "https://github.com/Noyax-37/myToyota/blob/develop/docs/fr_FR/changelog.md"
+  description:
+    fr_FR: "Plugin permettant l'interrogation des services myToyota (attention: ne fonctionne pas pour les véhicules encore sous myT) pour Jeedom"
+    en_US: "Plugin for querying myToyota services (warning: does not work for vehicles still running myT) for Jeedom"
+    es_ES: "Plugin para consultar los servicios myToyota (advertencia: no funciona para los vehículos que aún ejecutan myT) para Jeedom"
+    de_DE: "Plugin zur Abfrage der myToyota-Dienste (Achtung: funktioniert nicht für Fahrzeuge, die noch unter myT laufen) für Jeedom"
+
+- id: netatmopro
+  name: "Netatmo Pro"
+  market_id: 2950
+  doc:
+    stable:
+      fr_FR: "https://thanaus.github.io/jeedom_docs/plugins/netatmopro/fr_FR/"
+    beta:
+      fr_FR: "https://thanaus.github.io/jeedom_docs/plugins/netatmopro/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://thanaus.github.io/jeedom_docs/plugins/netatmopro/fr_FR/changelog"
+    beta:
+      fr_FR: "https://thanaus.github.io/jeedom_docs/plugins/netatmopro/fr_FR/changelog"
+  description:
+    fr_FR: "Intégration de l'univers Netatmo"
+
+- id: nissan_leaf_connect
+  name: "Nissan Leaf Connect"
+  market_id: 2383
+  doc:
+    stable: false
+    beta: false
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: ""
+
+- id: openhasp
+  name: "openHASP"
+  market_id: 4550
+  doc:
+    stable:
+      fr_FR: "https://jbbeauf.github.io/openhasp/fr_FR"
+      en_US: "https://jbbeauf.github.io/openhasp/en_US"
+      es_ES: "https://jbbeauf.github.io/openhasp/es_ES"
+      de_DE: "https://jbbeauf.github.io/openhasp/de_DE"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jbbeauf.github.io/openhasp/fr_FR/changelog"
+      en_US: "https://jbbeauf.github.io/openhasp/en_US/changelog"
+      es_ES: "https://jbbeauf.github.io/openhasp/es_ES/changelog"
+      de_DE: "https://jbbeauf.github.io/openhasp/de_DE/changelog"
+    beta:
+      fr_FR: "https://jbbeauf.github.io/openhasp/fr_FR/changelog_beta"
+      en_US: "https://jbbeauf.github.io/openhasp/en_US/changelog_beta"
+      es_ES: "https://jbbeauf.github.io/openhasp/es_ES/changelog_beta"
+      de_DE: "https://jbbeauf.github.io/openhasp/de_DE/changelog_beta"
+  description:
+    fr_FR: "Plugin pour gérer des écrans multifonctions sous openHASP"
+    en_US: "Plugin for managing multifunction displays under openHASP"
+    es_ES: "Plugin para la gestión de pantallas multifunción en openHASP"
+    de_DE: "Plugin zur Verwaltung von Multifunktionsbildschirmen unter openHASP"
+
+- id: SmartLife
+  name: "Objets SmartLife/Tuya"
+  market_id: 3724
+  doc:
+    stable:
+      fr_FR: "https://sabinus52.github.io/jeedom-smartlife/fr_FR/"
+      en_US: "https://sabinus52.github.io/jeedom-smartlife/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://sabinus52.github.io/jeedom-smartlife/fr_FR/changelog"
+      en_US: "https://sabinus52.github.io/jeedom-smartlife/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin de gestion des objets connectés SmartLife ou Tuya"
+
+- id: smartthings
+  name: "SmartThings"
+  market_id: 4099
+  doc:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/documentation-du-plugin-smartthings-pour-jeedom"
+    beta:
+      fr_FR: "https://flobul-domotique.fr/documentation-du-plugin-smartthings-pour-jeedom"
+  changelog:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-smartthings-pour-jeedom/"
+    beta:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-smartthings-pour-jeedom/"
+  description:
+    fr_FR: "Ce plugin permet de créer un équipement pour chaque appareil identifié sur son compte SmartThings. La communication se fait uniquement par l'API SmartThings, aucune connexion directe entre Jeedom et l'appareil n'est réalisée. Les commandes générées lors de la synchronisation dépendent de l'appareil (chaque appareil fournit sa liste de commandes), elles dépendent aussi de l'informations remontée via l'API (si la valeur est 'null', la commande n'est pas créée car non mise à jour via l'API ou non gérée). J'ai tout de même laissé une option pour créer l'ensemble des commandes au cas où.</br>Les commandes disponibles varient et peuvent être très nombreuses : afficher l'état de l'appareil, son programme, l'allumer/l'éteindre, changer de chaîne, lancer une programme...</br>J'ai implémenté un widget pour les appareils les plus communs, pour les autres, libre à vous de créer le vôtre, et pourquoi pas le partager."
+    en_US: "This plugin allows you to create a device for each device identified on its SmartThings account. The communication is done only through the SmartThings API, no direct connection between Jeedom and the device is made. The commands generated during the synchronization depend on the device (each device provides its list of commands), they also depend on the information sent via the API (if the value is 'null', the command is not created because not updated via the API or not managed). I still left an option to create the set of commands just in case.</br>The available commands vary and can be very numerous: display the status of the device, its program, turn it on/off, change channel, launch a program...</br>I have implemented a widget for the most common devices, for others, free to create your own, and why not share it."
+    es_ES: "Este plugin te permite crear un dispositivo para cada electrodoméstico identificado en tu cuenta SmartThings. La comunicación se realiza únicamente a través de la API de SmartThings; no hay conexión directa entre Jeedom y el dispositivo. Los comandos generados durante la sincronización dependen del dispositivo (cada dispositivo proporciona su propia lista de comandos), y también de la información retroalimentada a través de la API (si el valor es 'null', el comando no se crea porque no se ha actualizado a través de la API o no se gestiona). He dejado una opción para crear todos los comandos por si acaso.</br>Los comandos disponibles varían y pueden ser muy numerosos: mostrar el estado del dispositivo, su programa, encenderlo/apagarlo, cambiar de canal, lanzar un programa...</br>He implementado un widget para los dispositivos más comunes, para los demás, eres libre de crear el tuyo propio, y por qué no compartirlo."
+    de_DE: "Dieses Plugin ermöglicht es, für jedes Gerät, das über sein SmartThings-Konto identifiziert wurde, eine Ausstattung zu erstellen. Die Kommunikation erfolgt ausschließlich über die SmartThings API, es wird keine direkte Verbindung zwischen Jeedom und dem Gerät hergestellt. Die bei der Synchronisation erzeugten Befehle hängen vom Gerät ab (jedes Gerät liefert seine eigene Befehlsliste), sie hängen auch von den über die API hochgeladenen Informationen ab (wenn der Wert 'null' ist, wird der Befehl nicht erstellt, da er nicht über die API aktualisiert oder nicht verwaltet wird). Die verfügbaren Befehle variieren und können sehr zahlreich sein: den Status des Geräts und sein Programm anzeigen, es ein- und ausschalten, den Kanal wechseln, ein Programm starten...</br> Ich habe ein Widget für die gängigsten Geräte implementiert, für die anderen steht es Ihnen frei, Ihr eigenes Widget zu erstellen und warum nicht auch zu teilen."
+
+- id: sonoffdiy
+  name: "Sonoff DIY"
+  market_id: 3890
+  doc:
+    stable:
+      fr_FR: "http://sigalou-domotique.fr/sonoff-diy/83-plugin-sonoff-diy-documentation"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "http://sigalou-domotique.fr/sonoff-diy/87-plugin-sonoff-diy-changelog-todolist"
+    beta: false
+  description:
+    fr_FR: "Sonoff DIY"
+
+- id: surepetcare
+  name: "Sure PetCare"
+  market_id: 3718
+  doc:
+    stable:
+      fr_FR: "https://jmvedrine.github.io/jeedom-surepetcare/fr_FR/"
+      en_US: "https://jmvedrine.github.io/jeedom-surepetcare/en_US/"
+      es_ES: "https://jmvedrine.github.io/jeedom-surepetcare/es_ES/"
+      de_DE: "https://jmvedrine.github.io/jeedom-surepetcare/de_DE/"
+    beta:
+      fr_FR: "https://jmvedrine.github.io/jeedom-surepetcare/fr_FR/"
+      en_US: "https://jmvedrine.github.io/jeedom-surepetcare/en_US/"
+      es_ES: "https://jmvedrine.github.io/jeedom-surepetcare/es_ES/"
+      de_DE: "https://jmvedrine.github.io/jeedom-surepetcare/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://jmvedrine.github.io/jeedom-surepetcare/fr_FR/changelog"
+      en_US: "https://jmvedrine.github.io/jeedom-surepetcare/en_US/changelog"
+      es_ES: "https://jmvedrine.github.io/jeedom-surepetcare/es_ES/changelog"
+      de_DE: "https://jmvedrine.github.io/jeedom-surepetcare/de_DE/changelog"
+    beta:
+      fr_FR: "https://raw.githubusercontent.com/jmvedrine/jeedom-surepetcare/beta/docs/fr_FR/changelog.md"
+  description:
+    fr_FR: "Plugin pour les objets connectées pour animaux Sure Petcare (Sureflap)"
+    en_US: "Plugin for Sure Petcare (Sureflap) connected objects for pets"
+    es_ES: "Plugin para objetos conectados para mascotas Sure Petcare (Sureflap)"
+    de_DE: "Plugin für Sure Petcare (Sureflap) Connected Objects für Haustiere"
+
+- id: switchbot
+  name: "Switchbot"
+  market_id: 3892
+  doc:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/switchbot/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/switchbot/changelog/"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de piloter les équipements switch-bot (Actionneurs , sondes)via l'api officielle"
+
+- id: switchbotcloud
+  name: "Switchbotcloud"
+  market_id: 4369
+  doc:
+    stable:
+      fr_FR: "https://jeremyarnoux.github.io/jeedom/plugins/switchbotcloud/index.html"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeremyarnoux.github.io/jeedom/plugins/switchbotcloud/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de piloter les équipements Switchbot via Jeedom."
+
+- id: tesla
+  name: "Tesla"
+  market_id: 3486
+  doc:
+    stable:
+      fr_FR: "http://tesla.jeedom.free.fr/documentation"
+    beta:
+      fr_FR: "http://tesla.jeedom.free.fr/documentation"
+  changelog:
+    stable:
+      fr_FR: "http://tesla.jeedom.free.fr/changelog"
+    beta:
+      fr_FR: "http://tesla.jeedom.free.fr/changelog"
+  description:
+    fr_FR: "Voici le plugin pour monitorer votre ou vos Tesla !<br/>Accédez à votre Tesla depuis Jeedom et contrôlez le chauffage, la charge, les fenêtres, ... depuis des scénarios. <br/>Ce plugin contient également un outil de tracking qui permet de suivre l'historique de vos trajets, de vos charges et de vos temps de parking.<br/> Retrouvez les statistiques des trajets réalisés. Définissez des favoris sur la carte avec un rayon d'action et lorsque votre Tesla entre ou sort de ce favori, déclenchez des scénarios, ... <br/><br/>Faites de votre Tesla un objet connecté !<br/><br/>Pas de Cloud, vos données sont stockées chez vous. Pas d'abonnement, pas de frais supplémentaires"
+
+- id: TeslaBLE
+  name: "Tesla BLE"
+  market_id: 4564
+  doc:
+    stable: false
+    beta: false
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de piloter la charge et la clim de vos véhicules tesla en utilisant un ProxyBLE (installé sur un Raspberry Pi Zero W par exemple) proche du véhicule => https://github.com/wimaha/TeslaBleHttpProxy"
+
+- id: twinkly
+  name: "Twinkly"
+  market_id: 3541
+  doc:
+    stable:
+      fr_FR: "https://koleos6.github.io/twinkly/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://koleos6.github.io/twinkly/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin twinkly pour commander des guirelandes tkinkly"
+
+- id: velux
+  name: "Velux"
+  market_id: 4453
+  doc:
+    stable:
+      fr_FR: "https://ktn001.github.io/fr_FR/velux/"
+    beta:
+      fr_FR: "https://ktn001.github.io/fr_FR/velux/beta.html"
+  changelog:
+    stable:
+      fr_FR: "https://ktn001.github.io/fr_FR/velux/changelog"
+    beta:
+      fr_FR: "https://ktn001.github.io/fr_FR/velux/changelog"
+  description:
+    fr_FR: "Plugin permettant de coordonner les mouvements d'une fenêtre et d'un volet roulant Velux. <br/> Attention ce plugin nécessite le plugin hkControl!"
+
+- id: vesync
+  name: "VeSync"
+  market_id: 4362
+  doc:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-vesync-pour-jeedom/"
+    beta:
+      fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-vesync-pour-jeedom/"
+  changelog:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-vesync-pour-jeedom/"
+    beta:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-vesync-pour-jeedom/"
+  description:
+    fr_FR: "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API VeSync"
+    en_US: "Plugin to retrieve information and control synchronized devices on the VeSync API"
+    es_ES: "Plugin para recuperar información y controlar dispositivos sincronizados en la API VeSync"
+    de_DE: "Plugin zum Abrufen von Informationen und zum Steuern von Geräten, die über die VeSync API synchronisiert wurden"
+
+- id: wall
+  name: "Wall"
+  market_id: 3634
+  doc:
+    stable:
+      fr_FR: "https://barre35.github.io/jeedom-plugin-doc/fr_FR/wall_documentation"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://barre35.github.io/jeedom-plugin-doc/fr_FR/wall_changelog"
+    beta: false
+  description:
+    fr_FR: ""
+
+- id: wifilightV2
+  name: "wifilightV2"
+  market_id: 2793
+  doc:
+    stable:
+      fr_FR: "https://bcaro.github.io/wifilightV2-doc/fr_FR/"
+      en_US: "https://bcaro.github.io/wifilightV2-doc/en_US/"
+      de_DE: "https://bcaro.github.io/wifilightV2-doc/de_DE/"
+    beta:
+      fr_FR: "https://bcaro.github.io/wifilightV2-doc/fr_FR/"
+      en_US: "https://bcaro.github.io/wifilightV2-doc/en_US/"
+      de_DE: "https://bcaro.github.io/wifilightV2-doc/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://bcaro.github.io/wifilightV2-doc/fr_FR/changelog"
+      en_US: "https://bcaro.github.io/wifilightV2-doc/en_US/changelog"
+      de_DE: "https://bcaro.github.io/wifilightV2-doc/de_DE/changelog"
+    beta:
+      fr_FR: "https://bcaro.github.io/wifilightV2-doc/fr_FR/changelog"
+      en_US: "https://bcaro.github.io/wifilightV2-doc/en_US/changelog"
+      de_DE: "https://bcaro.github.io/wifilightV2-doc/de_DE/changelog"
+  description:
+    fr_FR: "Pilote de nombreux périphériques wifi en local avec internet coupé : lampes, leds, prises, interrupteurs, thermostat, de marques diverses. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consulter la documentation pour connaitre la liste exacte des matériels compatibles."
+    en_US: "Control many wifi devices locally with no internet : lamps, LEDs, sockets, switches, thermostat, of various brands. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee i.e. SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consult the documentation for the exact list of compatible equipment."
+    es_ES: "Pilota muchos dispositivos wifi localmente con corte de internet: lámparas, LED, enchufes, interruptores, termostato, de varias marcas. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consulte la documentación para obtener la lista exacta de equipos compatibles."
+    de_DE: "Steuern Sie viele lokale Wifi-Geräte mit Internet-Cut: Lampen, LEDs, Steckdosen, Schalter, Thermostate verschiedener Marken. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee einschließlich SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi usw. Die genaue Liste der kompatiblen Geräte finden Sie in der Dokumentation."
+
+- id: wled
+  name: "WLED"
+  market_id: 4129
+  doc:
+    stable:
+      fr_FR: "https://jmvedrine.github.io/jeedom-wled/fr_FR/"
+      en_US: "https://jmvedrine.github.io/jeedom-wled/en_US/"
+      es_ES: "https://jmvedrine.github.io/jeedom-wled/es_ES/"
+      de_DE: "https://jmvedrine.github.io/jeedom-wled/de_DE/"
+    beta:
+      fr_FR: "https://jmvedrine.github.io/jeedom-wled/fr_FR/"
+      en_US: "https://jmvedrine.github.io/jeedom-wled/en_US/"
+      es_ES: "https://jmvedrine.github.io/jeedom-wled/es_ES/"
+      de_DE: "https://jmvedrine.github.io/jeedom-wled/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://jmvedrine.github.io/jeedom-wled/fr_FR/changelog"
+      en_US: "https://jmvedrine.github.io/jeedom-wled/en_US/changelog"
+      es_ES: "https://jmvedrine.github.io/jeedom-wled/es_ES/changelog"
+      de_DE: "https://jmvedrine.github.io/jeedom-wled/de_DE/changelog"
+    beta:
+      fr_FR: "https://jmvedrine.github.io/jeedom-wled/fr_FR/changelog_beta.md"
+      en_US: "https://jmvedrine.github.io/jeedom-wled/en_US/changelog_beta.md"
+      es_ES: "https://jmvedrine.github.io/jeedom-wled/es_ES/changelog_beta.md"
+      de_DE: "https://jmvedrine.github.io/jeedom-wled/de_DE/changelog_beta.md"
+  description:
+    fr_FR: "Plugin Jeedom servant à contrôler le pilote de led adressables WLED (voir https://github.com/Aircoookie/WLED et https://github.com/Aircoookie/WLED/wiki)"
+    en_US: "Jeedom plugin to with the WLED digital led controller (see https://github.com/Aircoookie/WLED and https://github.com/Aircoookie/WLED/wiki)"
+    es_ES: "Plugin Jeedom para controlar los LEDs direccionables WLED (ver https://github.com/Aircoookie/WLED y https://github.com/Aircoookie/WLED/wiki)"
+    de_DE: "Jeedom-Plugin, das dazu dient, den Treiber für adressierbare WLEDs zu steuern (siehe https://github.com/Aircoookie/WLED und https://github.com/Aircoookie/WLED/wiki)"
+
+- id: worxLandroidS
+  name: "worxLandroidS"
+  market_id: 3396
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/worxLandroidS/de_DE/changelog"
+  description:
+    fr_FR: "Plugin Jeedom pour Robots tondeuses Worx Landroid modèles S/M/L version cloud"
+    en_US: "Jeedom plugin for Worx Landroid robot lawnmowers models S/M/L cloud version"
+    es_ES: "Plugin Jeedom para robots cortacésped Worx Landroid modelos S/M/L versión en la nube"
+    de_DE: "Jeedom Plugin für Worx Landroid Mähroboter Modelle S/M/L Cloud Version"
+
+- id: XeeCloud
+  name: "XeeCloud"
+  market_id: 1925
+  doc:
+    stable:
+      fr_FR: "https://fgmx85.github.io/plugin-XeeCloud/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://fgmx85.github.io/plugin-XeeCloud/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin XeeCloud pour affichage des infos voitures connectees"
+
+- id: ze
+  name: "Renault ZE"
+  market_id: 3067
+  doc:
+    stable:
+      fr_FR: "https://anto35.github.io/jeedom_docs/plugins/ze/index"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://anto35.github.io/jeedom_docs/plugins/ze/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour la connexion avec les véhicules Renault ZE"

@@ -1,0 +1,601 @@
+- id: airwell
+  name: "Airwell"
+  market_id: 4662
+  doc:
+    stable:
+      fr_FR: "https://github.com/clement-cunin/jeedom-airwell/blob/main/docs/fr_FR/index.md"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/clement-cunin/jeedom-airwell/blob/main/docs/fr_FR/changelog.md"
+    beta: false
+  description:
+    fr_FR: "Contrôlez vos climatiseurs Airwell en local, sans cloud ni abonnement — connexion directe via WiFi pour une domotique rapide et privée. Une fois l'appareil connecté au réseau via l'application Airwell, l'inclusion dans Jeedom se fait en 1 clic. Modèles testés : HDLA-022N-09M25, HDLE-035N-09M25. Tout modèle équipé d'une carte WiFi devrait fonctionner."
+    en_US: "Control your Airwell air conditioners locally, without cloud or subscription — direct WiFi connection for fast and private home automation. Once the device is connected to your network via the Airwell app, adding it to Jeedom is just 1 click away. Tested models: HDLA-022N-09M25, HDLE-035N-09M25. Any model with a WiFi card should work."
+
+- id: AirzoneWeb
+  name: "Airzone"
+  market_id: 3926
+  doc:
+    stable:
+      fr_FR: "http://www.domoticadavinci.com/desarrollo-de-plugins/airzone-web-plugin-para-jeedom/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/domoticadavinci/Airzone_Web_plugin/commits/master"
+    beta: false
+  description:
+    fr_FR: "Plugin pour l'integration des interfaces AirzoneWeb"
+
+- id: balboa
+  name: "SPA Balboa"
+  market_id: 3712
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/balboa/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/balboa/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de connecter et recuperer les informations de votre SPA Balboa. Il embarque également la possibilité de cree des mode de fonctionnement avancer avec toute la puissance de jeedom"
+
+- id: clage
+  name: "Clage"
+  market_id: 4303
+  doc:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-clage-pour-jeedom/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-clage-pour-jeedom/"
+    beta: false
+  description:
+    fr_FR: "Le plugin permet de récupérer toutes les informations de son serveur HSX de Clage. Le serveur HSX récupère les informations de ses chauffe-eau connectés parmi MCX 3-7, CEX/CFX, DEX, DSX, DSX Touch, DSX Twin. Les informations qui remontent dans l'application Smart Control (iOS, Android) remontent également dans le plugin. Aucune connexion internet n'est requise pour récupérer ces informations, tout est en local."
+    en_US: "The plugin allows you to retrieve all the information from your HSX server from Clage. The HSX server retrieves information from its connected water heaters among MCX 3-7, CEX/CFX, DEX, DSX, DSX Touch, DSX Twin. The information that goes back into the Smart Control app (iOS, Android) also goes back into the plugin. No internet connection is required to retrieve this information, everything is local."
+    es_ES: "El plugin le permite recuperar toda la información de su servidor Clage HSX. El servidor HSX recupera información de sus calentadores de agua conectados, incluyendo MCX 3-7, CEX/CFX, DEX, DSX, DSX Touch y DSX Twin. La información enviada a la aplicación Smart Control (iOS, Android) también se envía al plugin. No se requiere conexión a Internet para recuperar esta información, todo se hace localmente."
+    de_DE: "Mit dem Plugin kann man alle Informationen von seinem HSX-Server von Clage abrufen. Der HSX-Server ruft die Informationen von seinen angeschlossenen Warmwasserbereitern ab, darunter MCX 3-7, CEX/CFX, DEX, DSX, DSX Touch, DSX Twin. Die Informationen, die in der Smart Control App (iOS, Android) aufgerufen werden, werden auch in das Plugin übertragen. Es ist keine Internetverbindung erforderlich, um diese Informationen abzurufen, alles läuft lokal."
+
+- id: cvc
+  name: "CVC"
+  market_id: 4273
+  doc:
+    stable:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/cvc/fr_FR"
+    beta:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/cvc/fr_FR"
+  changelog:
+    stable:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/cvc/fr_FR/changelog"
+    beta:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/cvc/fr_FR/changelog"
+  description:
+    fr_FR: "Ce plugin permet de créer et de gérer des thermostats pour piloter un système de chauffage central de votre domicile. Il sera en mesure de gérer chaque zone de votre domicile selon les demandes de celless-ci et d'effectuer la demande au bon appareil selon la température extérieur."
+
+- id: elmtouch
+  name: "ELM Touch"
+  market_id: 3281
+  doc:
+    stable:
+      fr_FR: "https://jmvedrine.github.io/jeedom-elmtouch/fr_FR/"
+      en_US: "https://jmvedrine.github.io/jeedom-elmtouch/en_US/"
+      es_ES: "https://jmvedrine.github.io/jeedom-elmtouch/es_ES/"
+      de_DE: "https://jmvedrine.github.io/jeedom-elmtouch/de_DE/"
+    beta:
+      fr_FR: "https://jmvedrine.github.io/jeedom-elmtouch/fr_FR/"
+      en_US: "https://jmvedrine.github.io/jeedom-elmtouch/en_US/"
+      es_ES: "https://jmvedrine.github.io/jeedom-elmtouch/es_ES/"
+      de_DE: "https://jmvedrine.github.io/jeedom-elmtouch/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://jmvedrine.github.io/jeedom-elmtouch/fr_FR/changelog"
+      en_US: "https://jmvedrine.github.io/jeedom-elmtouch/en_US/changelog"
+      es_ES: "https://jmvedrine.github.io/jeedom-elmtouch/es_ES/changelog"
+      de_DE: "https://jmvedrine.github.io/jeedom-elmtouch/de_DE/changelog"
+    beta:
+      fr_FR: "https://raw.githubusercontent.com/jmvedrine/jeedom-elmtouch/beta/docs/fr_FR/changelog.md"
+  description:
+    fr_FR: "Plugin pour la régulation de chaudière gaz Elm Leblanc avec le thermostat connecté ELM Touch"
+    en_US: "Plugin for Elm Leblanc gas boiler control with ELM Touch connected thermostat"
+    es_ES: "Plugin para el control de calderas de gas Elm Leblanc con termostato conectado ELM Touch"
+    de_DE: "Plugin für die Regelung von Elm Leblanc Gaskesseln mit dem angeschlossenen Thermostat ELM Touch"
+
+- id: heatzy
+  name: "Heatzy"
+  market_id: 3111
+  doc:
+    stable:
+      fr_FR: "https://github.com/bodbod44/jeedom-heatzyV2/blob/master/docs/fr_FR/index.md"
+    beta:
+      fr_FR: "https://github.com/bodbod44/jeedom-heatzyV2/blob/beta/docs/fr_FR/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/bodbod44/jeedom-heatzyV2/blob/master/docs/fr_FR/changelog.md"
+    beta:
+      fr_FR: "https://github.com/bodbod44/jeedom-heatzyV2/blob/beta/docs/fr_FR/changelog.md"
+  description:
+    fr_FR: "Plugin permettant d'intéragir avec les modules et radiateurs connectés Heatzy (Pilote, Pilote_Pro, Flam, Plugzy, Glow, Shine ...). Les intercations avec l'application mobile officielle restent pleinement fonctionnelles. Les actions faites sur jeedom sont visibles en temps réel sur l'application et vice versa"
+
+- id: heta
+  name: "Heta"
+  market_id: 3646
+  doc:
+    stable:
+      fr_FR: "https://edeweerdt.github.io/jeedom_heta/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://edeweerdt.github.io/jeedom_heta/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pilotage des poëles à pellet Heta, AustroFlamm équipés du boitier WiRCU"
+
+- id: hitachiaircloud
+  name: "Hitachi AirCloud"
+  market_id: 4497
+  doc:
+    stable:
+      fr_FR: "https://taggou91.github.io/jeedom_docs/plugins/hitachiaircloud/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://taggou91.github.io/jeedom_docs/plugins/hitachiaircloud/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant le pilotage et la récupération des informations des PAC gérées par l'application AirCloud Go d'HITACHI."
+
+- id: horoscope
+  name: "Horoscope"
+  market_id: 2727
+  doc:
+    stable:
+      fr_FR: "https://jealg.github.io/documentation/plugin-horoscope/fr_FR/"
+      en_US: "https://jealg.github.io/documentation/plugin-horoscope/en_US/"
+      es_ES: "https://jealg.github.io/documentation/plugin-horoscope/es_ES/"
+      de_DE: "https://jealg.github.io/documentation/plugin-horoscope/de_DE/"
+    beta:
+      fr_FR: "https://jealg.github.io/documentation/plugin-horoscope/fr_FR/"
+      en_US: "https://jealg.github.io/documentation/plugin-horoscope/en_US/"
+      es_ES: "https://jealg.github.io/documentation/plugin-horoscope/es_ES/"
+      de_DE: "https://jealg.github.io/documentation/plugin-horoscope/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://jealg.github.io/documentation/plugin-horoscope/fr_FR/changelog"
+      en_US: "https://jealg.github.io/documentation/plugin-horoscope/en_US/changelog"
+      es_ES: "https://jealg.github.io/documentation/plugin-horoscope/es_ES/changelog"
+      de_DE: "https://jealg.github.io/documentation/plugin-horoscope/de_DE/changelog"
+    beta:
+      fr_FR: "https://jealg.github.io/documentation/plugin-horoscope/fr_FR/beta_changelog"
+      en_US: "https://jealg.github.io/documentation/plugin-horoscope/en_US/beta_changelog"
+      es_ES: "https://jealg.github.io/documentation/plugin-horoscope/es_ES/beta_changelog"
+      de_DE: "https://jealg.github.io/documentation/plugin-horoscope/de_DE/beta_changelog"
+  description:
+    fr_FR: "Plugin permettant de générer une phrase (selon différents thèmes) tous les jours en fonction des différents signes astrologiques.<br/>Très sympa pour donner l'horoscope le matin à une personne via TTS (par exemple avec la caméra Netatmo qui reconnait les visages) ou par SMS."
+    en_US: "Plugin to generate a phrase (according to different themes) every day based on the different astrological signs.<br/>Very useful for giving the horoscope in the morning to a person via TTS (for example with the Netatmo camera that recognizes faces) or by SMS."
+    es_ES: "Plugin que genera una frase (basada en diferentes temas) cada día según los diferentes signos astrológicos.<br/>Muy útil para dar el horóscopo por la mañana a alguien vía TTS (por ejemplo con la cámara Netatmo que reconoce caras) o por SMS."
+    de_DE: "Plugin, mit dem man jeden Tag einen Satz (nach verschiedenen Themen) entsprechend der verschiedenen Sternzeichen generieren kann.<br/> Sehr nett, um einer Person morgens das Horoskop über TTS (z.B. mit der Netatmo-Kamera, die Gesichter erkennt) oder per SMS zu geben."
+
+- id: hottoh
+  name: "Hottoh"
+  market_id: 3670
+  doc:
+    stable:
+      fr_FR: "https://peofofo.github.io/jeedom_hottoh/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://peofofo.github.io/jeedom_hottoh/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: ""
+
+- id: humidity
+  name: "Gestion Humidité"
+  market_id: 3978
+  doc:
+    stable:
+      fr_FR: "https://agp42.github.io/humidity/fr_FR/"
+      en_US: "https://agp42.github.io/humidity/en_US/"
+      de_DE: "https://agp42.github.io/humidity/de_DE/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://agp42.github.io/humidity/fr_FR/changelog"
+      en_US: "https://agp42.github.io/humidity/en_US/changelog"
+      de_DE: "https://agp42.github.io/humidity/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour la gestion de l'humidité grâce à un humidificateur ou déshumidificateur d'air"
+
+- id: IntesisBoxWMP
+  name: "IntesisBox"
+  market_id: 3853
+  doc:
+    stable:
+      fr_FR: "https://nooblenabot.github.io/jeedom-plugin-IntesisBoxWMP/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/nooblenabot/jeedom-plugin-IntesisBoxWMP/commits/master"
+    beta: false
+  description:
+    fr_FR: "Plugin pour l'integration des interfaces IntesisBox"
+
+- id: intexspa
+  name: "Intex Spa"
+  market_id: 4580
+  doc:
+    stable:
+      fr_FR: "https://alexh-fr.github.io/intexspa/fr_FR/"
+    beta:
+      fr_FR: "https://alexh-fr.github.io/intexspa/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://alexh-fr.github.io/intexspa/fr_FR/changelog.html"
+    beta:
+      fr_FR: "https://alexh-fr.github.io/intexspa/fr_FR/changelog.html"
+  description:
+    fr_FR: "Plugin pour gérer les spa Intex depuis le réseau local"
+
+- id: jollymec
+  name: "Jolly Mec"
+  market_id: 3773
+  doc:
+    stable:
+      fr_FR: "https://d-kalck.github.io/plugin-jollymec/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://d-kalck.github.io/plugin-jollymec/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de contrôler son poêle Jolly Mec"
+
+- id: klereo
+  name: "Klereo"
+  market_id: 4435
+  doc:
+    stable:
+      fr_FR: "https://mrwaloo.github.io/jeedom-plugins-doc/fr_FR/klereo_doc"
+      en_US: "https://mrwaloo.github.io/jeedom-plugins-doc/en_US/klereo_doc"
+      es_ES: "https://mrwaloo.github.io/jeedom-plugins-doc/es_ES/klereo_doc"
+      de_DE: "https://mrwaloo.github.io/jeedom-plugins-doc/de_DE/klereo_doc"
+    beta:
+      fr_FR: "https://mrwaloo.github.io/jeedom-plugins-doc/fr_FR/klereo_doc"
+      en_US: "https://mrwaloo.github.io/jeedom-plugins-doc/en_US/klereo_doc"
+      es_ES: "https://mrwaloo.github.io/jeedom-plugins-doc/es_ES/klereo_doc"
+      de_DE: "https://mrwaloo.github.io/jeedom-plugins-doc/de_DE/klereo_doc"
+  changelog:
+    stable:
+      fr_FR: "https://mrwaloo.github.io/jeedom-plugins-doc/fr_FR/klereo_changelog"
+      en_US: "https://mrwaloo.github.io/jeedom-plugins-doc/en_US/klereo_changelog"
+      es_ES: "https://mrwaloo.github.io/jeedom-plugins-doc/es_ES/klereo_changelog"
+      de_DE: "https://mrwaloo.github.io/jeedom-plugins-doc/de_DE/klereo_changelog"
+    beta:
+      fr_FR: "https://mrwaloo.github.io/jeedom-plugins-doc/fr_FR/klereo_changelog"
+      en_US: "https://mrwaloo.github.io/jeedom-plugins-doc/en_US/klereo_changelog"
+      es_ES: "https://mrwaloo.github.io/jeedom-plugins-doc/es_ES/klereo_changelog"
+      de_DE: "https://mrwaloo.github.io/jeedom-plugins-doc/de_DE/klereo_changelog"
+  description:
+    fr_FR: "Communication avec le module Klereo connect pour gérer votre piscine"
+    en_US: "Communication with the Klereo connect module to manage your pool"
+    de_DE: "Kommunikation mit dem Klereo connect Modul um Ihren Pool zu verwalten"
+    es_ES: "Comunicación con el módulo Klereo connect para gestionar su piscina"
+
+- id: luminotherapie
+  name: "luminothérapie"
+  market_id: 3095
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/luminotherapie/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/luminotherapie/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de gérer et créer vos ambiances Lumineuse / Couleur."
+
+- id: melcloud
+  name: "MelCloud"
+  market_id: 2315
+  doc:
+    stable: false
+    beta: false
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: "Permet de gérer son chauffage et sa climatisation à distance. "
+
+- id: migoThermostat
+  name: "Migo Thermostat"
+  market_id: 3447
+  doc:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-migoThermostat/fr_FR/"
+      en_US: "https://limad.github.io/plugins-docs/plugin-migoThermostat/en_US/"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-migoThermostat/fr_FR/"
+      en_US: "https://limad.github.io/plugins-docs/plugin-migoThermostat/en_US/"
+  changelog:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-migoThermostat/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-migoThermostat/en_US/changelog"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-migoThermostat/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-migoThermostat/en_US/changelog"
+  description:
+    fr_FR: " Plugin pour intégrer les équipements MiGo(Saunier-Duval) et eRelax/Vsmart(Vaillant) dans Jeedom.<br/><br/> Le plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).<br/><br/> L'actualisation se fait via API.<br/><br/> Compatible avec le plugin mobile"
+    en_US: " Plugin pour intégrer les équipements MiGo(Saunier-Duval) et eRelax/Vsmart(Vaillant) dans Jeedom.<br/><br/> Le plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).<br/><br/> L'actualisation se fait via API.<br/><br/> Compatible avec le plugin mobile"
+
+- id: MyTado
+  name: "MyTado"
+  market_id: 4502
+  doc:
+    stable:
+      fr_FR: "https://eperche-fr.github.io/docs/MyTado/fr_FR/index"
+      en_US: "https://eperche-fr.github.io/docs/MyTado/en_US/index"
+      de_DE: "https://eperche-fr.github.io/docs/MyTado/de_DE/index"
+      es_ES: "https://eperche-fr.github.io/docs/MyTado/es_ES/index"
+    beta:
+      fr_FR: "https://eperche-fr.github.io/docs/MyTado/fr_FR/index_beta"
+      en_US: "https://eperche-fr.github.io/docs/MyTado/en_US/index_beta"
+      de_DE: "https://eperche-fr.github.io/docs/MyTado/de_DE/index_beta"
+      es_ES: "https://eperche-fr.github.io/docs/MyTado/es_ES/index_beta"
+  changelog:
+    stable:
+      fr_FR: "https://eperche-fr.github.io/docs/MyTado/fr_FR/changelog"
+      en_US: "https://eperche-fr.github.io/docs/MyTado/en_US/changelog"
+      de_DE: "https://eperche-fr.github.io/docs/MyTado/de_DE/changelog"
+      es_ES: "https://eperche-fr.github.io/docs/MyTado/es_ES/changelog"
+    beta:
+      fr_FR: "https://eperche-fr.github.io/docs/MyTado/fr_FR/changelog_beta"
+      en_US: "https://eperche-fr.github.io/docs/MyTado/en_US/changelog_beta"
+      de_DE: "https://eperche-fr.github.io/docs/MyTado/de_DE/changelog_beta"
+      es_ES: "https://eperche-fr.github.io/docs/MyTado/es_ES/changelog_beta"
+  description:
+    fr_FR: "Ce plugin permet de gérer vos objets connectés Tado et TadoX. Il donne également accès à la météo Tado. Debian 11 minimum requis."
+    en_US: "This plugin enables management of your Tado and TadoX devices. You may as well access weather data managed by Tado. Debian 11 minimum required."
+    de_DE: "Dieses Plugin ermöglicht die Verwaltung Ihrer Tado- und TadoX-Geräte. Sie können auch auf von Tado verwaltete Wetterdaten zugreifen. Mindestens Debian 11 erforderlich."
+    es_ES: "Este plugin permite gestionar sus dispositivos conectados de Tado y TadoX. También proporciona acceso a la meteorología de Tado. Se requiere como mínimo Debian 11."
+
+- id: myuplink
+  name: "MyUplink API"
+  market_id: 4236
+  doc:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/documentation-du-plugin-myuplink-pour-jeedom"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-myuplink-pour-jeedom/"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de récupérer les informations des pompes à chaleur NiBe depuis le site https://myUplink.com. Ce plugin ne fonctionne pas avec l'ancienne API http://www.nibeuplink.com."
+    en_US: "This plugin allows you to retrieve NiBe heat pump information from https://myUplink.com. This plugin does not work with the old API http://www.nibeuplink.com."
+    es_ES: "Este plugin permite recuperar información sobre las bombas de calor NiBe de la página web https://myUplink.com. Este plugin no funciona con la antigua API http://www.nibeuplink.com."
+    de_DE: "Mit diesem Plugin können Sie Informationen über NiBe-Wärmepumpen von der Website https://myUplink.com abrufen. Dieses Plugin funktioniert nicht mit der alten API http://www.nibeuplink.com."
+
+- id: myuplink_internal
+  name: "MyUplink Internal API"
+  market_id: 4239
+  doc:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/documentation-du-plugin-myuplink-internal-pour-jeedom"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-myuplink-internal-pour-jeedom/"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de récupérer les informations des pompes à chaleur NiBe depuis l'API internal du site https://myUplink.com. Ce plugin ne fonctionne pas avec l'ancienne API http://www.nibeuplink.com.</br>En plus des commandes de base, le plugin permet de générer des commandes depuis l'interface console (consommations, durées...)"
+    en_US: "This plugin allows you to retrieve NiBe heat pump information from the internal API of https://myUplink.com. This plugin does not work with the old API http://www.nibeuplink.com.</br>In addition to the basic commands, the plugin allows you to generate commands from the console interface (consumptions, durations)"
+    es_ES: "Este plugin permite recuperar información sobre las bombas de calor NiBe desde la API interna de la página web https://myUplink.com. Este plugin no funciona con la antigua API http://www.nibeuplink.com. Además de los comandos básicos, el plugin puede utilizarse para generar comandos desde la interfaz de la consola (consumo, duración, etc.)"
+    de_DE: "Mit diesem Plugin können Sie die Informationen der NiBe-Wärmepumpen von der internen API der Website https://myUplink.com abrufen. Dieses Plugin funktioniert nicht mit der alten API http://www.nibeuplink.com.</br> Neben den grundlegenden Befehlen können mit dem Plugin auch Befehle von der Konsolenschnittstelle aus generiert werden (Verbrauch, Dauer...)"
+
+- id: MyVaillant
+  name: "MyVaillant"
+  market_id: 4404
+  doc:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-MyVaillant/fr_FR/"
+      en_US: "https://limad.github.io/plugins-docs/plugin-MyVaillant/en_US/"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-MyVaillant/fr_FR/"
+      en_US: "https://limad.github.io/plugins-docs/plugin-MyVaillant/en_US/"
+  changelog:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-MyVaillant/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-MyVaillant/en_US/changelog"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-MyVaillant/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-MyVaillant/en_US/changelog"
+  description:
+    fr_FR: " Plugin pour intégrer les équipements Vaillant/Saunier-Duval(gamme senso/MiSet,MiPro Sense, multiMATIC...) associés à une passerelle sensoNET VR92x, VR7xx ou MiLink V3. <br/><br/>Ce plugin concerne uniquement les équipements qui fonctionnent avec l'app MyVaillant ou MigoLink. <br/><br/>Le plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles (Consigne, Plannings, Modes...). <br/><br/>L'actualisation se fait via API. Le Plugin fonctionne en PHP/JS sans dépendances externes ni démons."
+
+- id: naEnergie
+  name: "Netatmo Energie"
+  market_id: 3958
+  doc:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-naEnergie/fr_FR/"
+      en_US: "https://limad.github.io/plugins-docs/plugin-naEnergie/en_US/"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-naEnergie/fr_FR/"
+      en_US: "https://limad.github.io/plugins-docs/plugin-naEnergie/en_US/"
+  changelog:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-naEnergie/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-naEnergie/en_US/changelog"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-naEnergie/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-naEnergie/en_US/changelog"
+  description:
+    fr_FR: " Plugin pour intégrer les équipements Netatmo Energie( Thermostat, Vannes, Thermostat OpenTherm) et Netatmo Météo dans Jeedom.<br/>Le plugin permet l'acquisition des informations de  votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).<br/>L'actualisation se fait via API et par retours webhook.<br/>Compatible avec le plugin mobile"
+    en_US: " Plugin pour intégrer les équipements Netatmo Energie( Thermostat et Vannes) et Netatmo Météo dans Jeedom. Le plugin permet acquisition des informations relatives à votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).L'actualisation se fait via API et par retours webhooks. Compatible avec le plugin mobile"
+
+- id: ofoehn
+  name: "PAC O'Foehn"
+  market_id: 3769
+  doc:
+    stable:
+      fr_FR: "https://sattaz.github.io/Jeedom_OFoehn/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://sattaz.github.io/Jeedom_OFoehn/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour piloter une pompe à chaleur O'Foehn"
+
+- id: pool
+  name: "Piscine"
+  market_id: 1801
+  doc:
+    stable:
+      fr_FR: "https://scadinot.github.io/pool/fr_FR/"
+      en_US: "https://scadinot.github.io/pool/en_US/"
+      de_DE: "https://scadinot.github.io/pool/de_DE/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://scadinot.github.io/pool/fr_FR/changelog"
+      en_US: "https://scadinot.github.io/pool/en_US/changelog"
+      de_DE: "https://scadinot.github.io/pool/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: ""
+
+- id: qivivo
+  name: "Qivivo"
+  market_id: 3551
+  doc:
+    stable:
+      fr_FR: "https://kiboost.github.io/jeedom_docs/plugins/qivivo/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://kiboost.github.io/jeedom_docs/plugins/qivivo/fr_FR/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Intégration du Thermostat Qivivo"
+
+- id: sensibosky
+  name: "Sensibo Sky"
+  market_id: 4015
+  doc:
+    stable:
+      fr_FR: "https://rombautsdidier.github.io/sensibosky/fr_FR/"
+      en_US: "https://rombautsdidier.github.io/sensibosky/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://rombautsdidier.github.io/sensibosky/fr_FR/changelog"
+      en_US: "https://rombautsdidier.github.io/sensibosky/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour piloter le module Sensibo Sky"
+
+- id: tado
+  name: "Tado"
+  market_id: 3939
+  doc:
+    stable:
+      fr_FR: "https://rosnoun.github.io/jeedom-plugins-docs/tado/fr_FR/"
+      en_US: "https://rosnoun.github.io/jeedom-plugins-docs/tado/en_US/"
+      de_DE: "https://rosnoun.github.io/jeedom-plugins-docs/tado/de_DE/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://rosnoun.github.io/jeedom-plugins-docs/tado/fr_FR/changelog"
+      en_US: "https://rosnoun.github.io/jeedom-plugins-docs/tado/en_US/changelog"
+      de_DE: "https://rosnoun.github.io/jeedom-plugins-docs/tado/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour interfacer avec un thermostat Tado"
+
+- id: VaillantControl
+  name: "Vaillant Control"
+  market_id: 4299
+  doc:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-VaillantControl/fr_FR/"
+      en_US: "https://limad.github.io/plugins-docs/plugin-VaillantControl/en_US/"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-VaillantControl/fr_FR/"
+      en_US: "https://limad.github.io/plugins-docs/plugin-VaillantControl/en_US/"
+  changelog:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-VaillantControl/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-VaillantControl/en_US/changelog"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-VaillantControl/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-VaillantControl/en_US/changelog"
+  description:
+    fr_FR: " Plugin pour intégrer les thermostats Vaillant/Saunier-Duval(gamme senso/MiSet,MiPro Sense) associés à une passerelle VR92x ou MiLink V3.<br/><br/>Ce sont géneralement les équipements qui fonctionnent avec l'app sensoApp ou MiControl.<br/><br/>Le plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).<br/>L'actualisation se fait via API ."
+    en_US: " Plugin pour intégrer les thermostats Vaillant(gamme senso).<br/>Le plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).<br/>L'actualisation se fait via API ."
+
+- id: vaillantmultimatic
+  name: "myVaillant"
+  market_id: 4164
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin permettant de se connecter à un système myVaillant, qui remplace nottament sensoApp & multiMATIC, (compatible avec les marques Bulex, Saunier Duval, Vaillant) via sa passerelle internet. Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler: définir le mode (On, Off, Auto...), définir les températures de consigne, activer un mode rapide, activer une marche forcée... Les vannes et les thermostats de la gamme ambiSENSE reliées au système sont également gérés."
+    en_US: "Plugin to connect to a myVaillant system, which replaces sensoApp & multiMATIC, (compatible with Bulex, Saunier Duval, Vaillant brands) via its internet gateway. The status of all connected equipment can be uploaded to Jeedom and controlled: set mode (On, Off, Auto...), define setpoint temperatures, activate fast mode, activate forced operation... Valves and thermostats from the ambiSENSE range connected to the system are also managed."
+    es_ES: "Plugin para conectarse a un sistema myVaillant, que sustituye a sensoApp & multiMATIC en particular, (compatible con Bulex, Saunier Duval, Vaillant) a través de su pasarela de Internet. Puede consultar el estado de todos los equipos conectados en Jeedom y controlarlos: establecer el modo (Encendido, Apagado, Auto, etc.), definir temperaturas de consigna, activar un modo rápido, activar el funcionamiento forzado, etc. También se gestionan las válvulas y termostatos de la gama ambiSENSE conectados al sistema."
+    de_DE: "Plugin, mit dem man sich über das Internet-Gateway mit einem myVaillant-System verbinden kann, das insbesondere sensoApp & multiMATIC ersetzt (kompatibel mit den Marken Bulex, Saunier Duval, Vaillant). Es ist möglich, den Status aller angeschlossenen Geräte in Jeedom abzurufen und sie zu steuern: Modus einstellen (Ein, Aus, Auto...), Solltemperaturen festlegen, einen Schnellmodus aktivieren, einen Zwangslauf aktivieren... Die an das System angeschlossenen Ventile und Thermostate der ambiSENSE-Reihe werden ebenfalls verwaltet."
+
+- id: vmczehnder
+  name: "VMC (Zehnder/Storkair)"
+  market_id: 3605
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin permettant d'interfacer un VMC de la marque Zehnder aussi connu sous le nom Storkair, ComfoAir, Wernig. Modèles: ComfoAir/ComfoD 250/350/450/550, WHR 920/930/950/960"
+    en_US: "Plugin for interfacing a Zehnder CMV, also known as Storkair, ComfoAir, Wernig. Models: ComfoAir/ComfoD 250/350/450/550, WHR 920/930/950/960"
+    es_ES: "Plugin para la interconexión de un VMC Zehnder, también conocido como Storkair, ComfoAir, Wernig. Modelos: ComfoAir/ComfoD 250/350/450/550, WHR 920/930/950/960"
+    de_DE: "Plugin für die Anbindung von Zehnder VMCs, auch bekannt als Storkair, ComfoAir, Wernig. Modelle: ComfoAir/ComfoD 250/350/450/550, WHR 920/930/950/960"

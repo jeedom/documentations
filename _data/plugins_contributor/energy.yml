@@ -1,0 +1,630 @@
+- id: AEG_acmi1000
+  name: "AEG acmi1000 snmp"
+  market_id: 3697
+  doc:
+    stable:
+      fr_FR: "https://linuxnico.github.io/pluginAEGacmi1000/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://linuxnico.github.io/pluginAEGacmi1000/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin de récupération d'info et alarmes snmp des alimentations AEG grâce au module ACMI1000"
+
+- id: AEG_nrc50
+  name: "AEG nrc50 snmp"
+  market_id: 3719
+  doc:
+    stable:
+      fr_FR: "https://linuxnico.github.io/pluginAEGnrc50/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://linuxnico.github.io/pluginAEGnrc50/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin de récupération d'info et alarmes snmp des alimentations AEG grâce au module nrc50"
+
+- id: aps_ecu
+  name: "APSystems ECU"
+  market_id: 4318
+  doc:
+    stable:
+      fr_FR: "https://nchoiset.github.io/jeedom-plugins-doc/aps_ecu/fr_FR/index"
+      en_US: "https://nchoiset.github.io/jeedom-plugins-doc/aps_ecu/en_US/index"
+    beta:
+      fr_FR: "https://nchoiset.github.io/jeedom-plugins-doc/aps_ecu/fr_FR/beta/index"
+      en_US: "https://nchoiset.github.io/jeedom-plugins-doc/aps_ecu/en_US/beta/index"
+  changelog:
+    stable:
+      fr_FR: "https://nchoiset.github.io/jeedom-plugins-doc/aps_ecu/fr_FR/changelog"
+      en_US: "https://nchoiset.github.io/jeedom-plugins-doc/aps_ecu/en_US/changelog"
+    beta:
+      fr_FR: "https://nchoiset.github.io/jeedom-plugins-doc/aps_ecu/fr_FR/beta/changelog"
+      en_US: "https://nchoiset.github.io/jeedom-plugins-doc/aps_ecu/en_US/beta/changelog"
+  description:
+    fr_FR: "Plugin récupérant les données d'un ECU d'APSystems dans Jeedom. Il récupère les informations sur l'ECU, les micro-onduleurs, la puissance générée par module, les tensions, les températures..."
+    en_US: "Plugin pulling data from an APSystems' ECU. It pulls data on ECU, micro-inverters, power generated for each module, grid voltage, temperatures..."
+
+- id: apsez1m
+  name: "APSEZ1M"
+  market_id: 4477
+  doc:
+    stable:
+      fr_FR: "https://taggou91.github.io/jeedom_docs/plugins/aps-ez1m/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://taggou91.github.io/jeedom_docs/plugins/aps-ez1m/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant le pilotage et la récupération des informations de Micro-Onduleurs APSystem EZ1-M. Récupération de la puissance par panneau, globale, etc"
+
+- id: APSystemsSunspec
+  name: "APSystems Sunspec"
+  market_id: 4565
+  doc:
+    stable:
+      fr_FR: "https://github.com/Noyax-37/APSystemsSunspec/blob/master/docs/fr_FR/index.md"
+      en_US: "https://github.com/Noyax-37/APSystemsSunspec/blob/master/docs/en_US/index.md"
+      es_ES: "https://github.com/Noyax-37/APSystemsSunspec/blob/master/docs/es_ES/index.md"
+      de_DE: "https://github.com/Noyax-37/APSystemsSunspec/blob/master/docs/de_DE/index.md"
+    beta:
+      fr_FR: "https://github.com/Noyax-37/APSystemsSunspec/blob/develop/docs/fr_FR/index.md"
+      en_US: "https://github.com/Noyax-37/APSystemsSunspec/blob/develop/docs/en_US/index.md"
+      es_ES: "https://github.com/Noyax-37/APSystemsSunspec/blob/develop/docs/es_ES/index.md"
+      de_DE: "https://github.com/Noyax-37/APSystemsSunspec/blob/develop/docs/de_DE/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/Noyax-37/APSystemsSunspec/blob/master/docs/fr_FR/changelog.md"
+      en_US: "https://github.com/Noyax-37/APSystemsSunspec/blob/master/docs/en_US/changelog.md"
+      es_ES: "https://github.com/Noyax-37/APSystemsSunspec/blob/master/docs/es_ES/changelog.md"
+      de_DE: "https://github.com/Noyax-37/APSystemsSunspec/blob/master/docs/de_DE/changelog.md"
+    beta:
+      fr_FR: "https://github.com/Noyax-37/APSystemsSunspec/blob/develop/docs/fr_FR/changelog.md"
+      en_US: "https://github.com/Noyax-37/APSystemsSunspec/blob/develop/docs/en_US/changelog.md"
+      es_ES: "https://github.com/Noyax-37/APSystemsSunspec/blob/develop/docs/es_ES/changelog.md"
+      de_DE: "https://github.com/Noyax-37/APSystemsSunspec/blob/develop/docs/de_DE/changelog.md"
+  description:
+    fr_FR: "Plugin permettant de récupérer les données des onduleurs APSystems via le protocole Sunspec."
+
+- id: autoconso
+  name: "Autoconsommation"
+  market_id: 4322
+  doc:
+    stable:
+      fr_FR: "https://bwibwi13.github.io/plugin-autoconso/fr_FR"
+      en_US: "https://bwibwi13.github.io/plugin-autoconso/en_US"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://bwibwi13.github.io/plugin-autoconso/fr_FR/changelog"
+      en_US: "https://bwibwi13.github.io/plugin-autoconso/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour allumer et etteindre des autres équipements Jeedom afin d'optimiser l'autoconsommation électrique (dans le cas d'une installation photovoltaïque)"
+    en_US: "Plugin to turn on and off other Jeedom equipments in order to optimise electrical auto-consumption (in case of solar power plan)"
+
+- id: beem
+  name: "Beem"
+  market_id: 4337
+  doc:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/"
+    beta:
+      fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/"
+  changelog:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/"
+    beta:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/"
+  description:
+    fr_FR: "Plugin permettant de récupérer les informations sa Beembox de chez Beem energy"
+    en_US: "Plugin to retrieve information from Beem energy's Beembox"
+    es_ES: "Plugin para recuperar información del Beembox de Beem energy"
+    de_DE: "Plugin zum Abrufen von Informationen sa Beembox von Beem energy"
+
+- id: conso
+  name: "Suivi Conso"
+  market_id: 1805
+  doc:
+    stable:
+      fr_FR: "https://mickeys27.github.io/Docs/conso/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mickeys27.github.io/Docs/conso/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour gérer sa consommation énergétique (gaz, électricité et eau) ainsi que sa production "
+
+- id: consoWidget
+  name: "Suivi Conso Widget"
+  market_id: 3916
+  doc:
+    stable:
+      fr_FR: "https://trmaud.github.io/SuiviConsoWidget/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://trmaud.github.io/SuiviConsoWidget/changelog"
+    beta: false
+  description:
+    fr_FR: ""
+
+- id: EcogazSync
+  name: "EcogazSync"
+  market_id: 4347
+  doc:
+    stable:
+      fr_FR: "https://github.com/impulsio/EcogazSync/blob/main/docs/fr_FR/index.md"
+    beta:
+      fr_FR: "https://github.com/impulsio/EcogazSync/blob/beta/docs/fr_FR/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/impulsio/EcogazSync/blob/main/docs/fr_FR/changelog.md"
+    beta:
+      fr_FR: "https://github.com/impulsio/EcogazSync/blob/beta/docs/fr_FR/changelog.md"
+  description:
+    fr_FR: "Plugin pour se connecter à l'API Ecogaz."
+
+- id: ecowatt
+  name: "Eco-2-watt"
+  market_id: 1864
+  doc:
+    stable:
+      fr_FR: "https://github.com/jeedom/plugin-ecowatt/blob/stable/doc/fr_FR/index.asciidoc"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/jeedom/plugin-ecowatt/blob/stable/doc/fr_FR/changelog.asciidoc"
+    beta: false
+  description:
+    fr_FR: "Plugin qui remonte les informations Ecowatt et EJP"
+
+- id: edf_tempo
+  name: "EDF Tempo"
+  market_id: 4432
+  doc:
+    stable:
+      fr_FR: "https://github.com/idoexp/jeedom_edf_tempo#edf-tempo-pour-jeedom"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/idoexp/jeedom_edf_tempo#changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de récupérer les informations EDF Tempo et d'afficher les jours restants pour chaque couleur, ainsi que les tarifs en heure creuse / heure pleine. Les données sont récupérées via un serveur intermédiaire (ai-beauvaisis.fr). Aucune donnée personnelle n'est collectée, stockée ou exploitée. Voir la documentation pour les détails de confidentialité."
+
+- id: eesmart
+  name: "eeSmart"
+  market_id: 3933
+  doc:
+    stable:
+      fr_FR: "https://caelion.github.io/jeedom-plugins-documentation/eeSmart/fr_FR/"
+      en_US: "https://caelion.github.io/jeedom-plugins-documentation/eeSmart/en_US/"
+      de_DE: "https://caelion.github.io/jeedom-plugins-documentation/eeSmart/de_DE/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://caelion.github.io/jeedom-plugins-documentation/eeSmart/fr_FR/changelog"
+      en_US: "https://caelion.github.io/jeedom-plugins-documentation/eeSmart/en_US/changelog"
+      de_DE: "https://caelion.github.io/jeedom-plugins-documentation/eeSmart/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy."
+
+- id: ElectricityCost
+  name: "Electricity Cost"
+  market_id: 4179
+  doc:
+    stable:
+      fr_FR: "https://hbedek.github.io/Jeedom_docs/docs/ElectricityCost/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://hbedek.github.io/Jeedom_docs/docs/ElectricityCost/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Présentation du plugin: https://www.youtube.com/watch?v=ZW8eTLZ5hsw  Plugin permettant de calculer les coûts en fonction de leur état électrique, puissance ou consommation. Il est possible d'affecter des équipements à un équipement compteur afin de comparer les coûts. Electricity Cost permet de récupérer les coûts journalier, hebdomadaire, mensuel et annuel."
+
+- id: emporiapro
+  name: "Emporia Energy"
+  market_id: 4409
+  doc:
+    stable:
+      fr_FR: "https://thanaus.github.io/jeedom_docs/plugins/emporiapro/fr_FR/"
+    beta:
+      fr_FR: "https://thanaus.github.io/jeedom_docs/plugins/emporiapro/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://thanaus.github.io/jeedom_docs/plugins/emporiapro/fr_FR/changelog"
+    beta:
+      fr_FR: "https://thanaus.github.io/jeedom_docs/plugins/emporiapro/fr_FR/changelog"
+  description:
+    fr_FR: "Monitoring de consommation d'énergie en temps réel (Vue Energy Monitor)"
+
+- id: enphasesecur
+  name: "Enphase Secure"
+  market_id: 4334
+  doc:
+    stable:
+      fr_FR: "https://cddu33.github.io/enphase_secure/fr_FR/index"
+    beta:
+      fr_FR: "https://cddu33.github.io/enphase_secure/fr_FR/beta_doc"
+  changelog:
+    stable:
+      fr_FR: "https://cddu33.github.io/enphase_secure/fr_FR/changelog"
+    beta:
+      fr_FR: "https://cddu33.github.io/enphase_secure/fr_FR/changelog_beta"
+  description:
+    fr_FR: "Plugin permettant de ce connecter aux passerelles Enphase en version V7 minimum.<br>le plugin récupére automatiquement le token et de ligue ensuite en local sur la passerelle. Il reste en local jusqu'à l'expiration du jeton"
+
+- id: evohome
+  name: "Evohome"
+  market_id: 3538
+  doc:
+    stable:
+      fr_FR: "https://ctwins.github.io/evohome4jeedom/fr_FR"
+      en_US: "https://ctwins.github.io/evohome4jeedom/en_US"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://ctwins.github.io/evohome4jeedom/fr_FR/changelog"
+      en_US: "https://ctwins.github.io/evohome4jeedom/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin EVOHOME"
+
+- id: gestionElec
+  name: "Gestionnaire électrique"
+  market_id: 4558
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/gestionElec/fr_FR/"
+    beta:
+      fr_FR: "https://mika-nt28.github.io/Documentations/gestionElec/beta/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/gestionElec/fr_FR/changelog"
+    beta:
+      fr_FR: "https://mika-nt28.github.io/Documentations/gestionElec/beta/fr_FR/changelog"
+  description:
+    fr_FR: "Ce plugin a pour objectif de piloter votre consomation électrique.</BR>L'utilisation du plugins est simplifié par l'usage des géneriques type et permet une gestion intelligente.</BR>Il integer plusieurs gestions.</BR>* Une gestion de delestage afin de ne pas dépasser la puissance maximale souscrite.</BR>* Une gestion de la production pour autoriser la consommation d'équipement lorsque l'on prodduit.</BR>* Un compteur de stockage virtuel (energie injecté sur le reseau et réutilisé par le plugin)</BR>* La gestion d'un stockage sur batterie"
+
+- id: grdfConnect
+  name: "GRDF Connect"
+  market_id: 4381
+  doc:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-grdfConnect/fr_FR"
+      en_US: "https://limad.github.io/plugins-docs/plugin-grdfConnect/en_US"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-grdfConnect/fr_FR"
+      en_US: "https://limad.github.io/plugins-docs/plugin-grdfConnect/en_US"
+  changelog:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-grdfConnect/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-grdfConnect/en_US/changelog"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-grdfConnect/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-grdfConnect/en_US/changelog"
+  description:
+    fr_FR: "Récupérer les informations de comptage gaz à partir de son compte-client GRDF ."
+
+- id: helloWatt
+  name: "helloWatt"
+  market_id: 4395
+  doc:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-helloWatt/fr_FR"
+      en_US: "https://limad.github.io/plugins-docs/plugin-helloWatt/en_US"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-helloWatt/fr_FR"
+      en_US: "https://limad.github.io/plugins-docs/plugin-helloWatt/en_US"
+  changelog:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-helloWatt/fr_FR"
+      en_US: "https://limad.github.io/plugins-docs/plugin-helloWatt/en_US"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-helloWatt/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-helloWatt/en_US/changelog"
+  description:
+    fr_FR: "Récupérer les informations de comptage Linky/Gazpar à partir de son compte-client 'Hello Watt'.<br> Permet également de déterminer le couleur du jour Tempo et récuperer les informations d'injection solaire"
+
+- id: hydroQuebec
+  name: "Hydro Québec"
+  market_id: 4243
+  doc:
+    stable:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/hydroQuebec/fr_FR"
+    beta:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/hydroQuebec/fr_FR"
+  changelog:
+    stable:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/hydroQuebec/fr_FR/changelog"
+    beta:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/hydroQuebec/fr_FR/changelog"
+  description:
+    fr_FR: "Plugin permettant de récupérer les informations de consommation électrique d'Hydro-Québec (wwww.hydroquebec.com), et de créer des crons en fonction des événements"
+
+- id: iotawatt
+  name: "IoTaWatt"
+  market_id: 4399
+  doc:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-iotawatt-pour-jeedom/"
+    beta:
+      fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-iotawatt-pour-jeedom/"
+  changelog:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-iotawatt-pour-jeedom/"
+    beta:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-iotawatt-pour-jeedom/"
+  description:
+    fr_FR: "Plugin permettant de récupérer les informations de sa box IoTaWatt. IoTaWatt est un projet à code source ouvert et à matériel ouvert visant à produire un moniteur d'énergie précis, peu coûteux et facile à utiliser. Il peut utiliser plusieures dizaines de transformateurs de courant banals et transmettra les données localement via un serveur web intégré, ou les téléchargera vers n'importe lequel des sites web/bases de données énergétiques tiers."
+    en_US: "Plugin to retrieve information from IoTaWatt. IoTaWatt is an open-source, open hardware project to produce an accurate, inexpensive and easy to use energy monitor. It can use any of dozens of common current transformers and will report the data locally via integrated web server, or upload to any of several third-party energy websites/data bases."
+    es_ES: "Plugin para recuperar información de IoTaWatt. IoTaWatt es un proyecto de código abierto y hardware libre para producir un monitor de energía preciso, barato y fácil de usar. Puede utilizar cualquiera de las docenas de transformadores de corriente comunes y reportar los datos localmente a través del servidor web integrado, o subir a cualquiera de los sitios web de energía de terceros / bases de datos."
+    de_DE: "Plugin zum Abrufen von Informationen von IoTaWatt. IoTaWatt ist ein quelloffenes, offenes Hardware-Projekt zur Herstellung eines genauen, kostengünstigen und einfach zu verwendenden Energiemonitors. Es kann Dutzende gängiger Stromwandler verwenden und die Daten lokal über einen integrierten Webserver melden oder auf eine von mehreren Energie-Websites/Datenbanken von Drittanbietern hochladen."
+
+- id: mywallbox
+  name: "myWallBox"
+  market_id: 4428
+  doc:
+    stable:
+      fr_FR: "https://github.com/CStan77/jeedom_doc/blob/main/myWallBox/readme.md"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/CStan77/jeedom_doc/blob/main/myWallBox/changelog.md"
+    beta: false
+  description:
+    fr_FR: "Plugin pour la récupération des données d'une station de recharge WallBox."
+
+- id: odroidc2ups3
+  name: "ODROID UPS3"
+  market_id: 3161
+  doc:
+    stable: false
+    beta: false
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: ""
+
+- id: onduleursolaredge
+  name: "Solaredge"
+  market_id: 3440
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin permettant la lecture de données d'un onduleur de panneaux photovoltaïque de la marque Solaredge."
+    en_US: "Plugin for reading data from a Solaredge photovoltaic inverter."
+    es_ES: "Plugin para la lectura de datos de un inversor fotovoltaico Solaredge."
+    de_DE: "Plugin zum Auslesen von Daten eines Wechselrichters für Photovoltaikpaneele der Marke Solaredge."
+
+- id: powerwall
+  name: "Tesla Powerwall"
+  market_id: 4377
+  doc:
+    stable:
+      fr_FR: "https://vercorsio.github.io/jeedom-powerwall-plugin/fr_FR/"
+    beta:
+      fr_FR: "https://vercorsio.github.io/jeedom-powerwall-plugin/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://vercorsio.github.io/jeedom-powerwall-plugin/fr_FR/changelog"
+    beta:
+      fr_FR: "https://vercorsio.github.io/jeedom-powerwall-plugin/fr_FR/changelog"
+  description:
+    fr_FR: "Plugin pour monitorer un Powerwall Tesla.<br/>Propose un widget image qui donne une vue synthétique des échanges de flux d'électrons entre les différents éléments du système."
+
+- id: prosommateur
+  name: "Production Energie"
+  market_id: 3829
+  doc:
+    stable:
+      fr_FR: "http://mika-nt28.github.io/Documentations/prosommateur/fr_FR"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/prosommateur/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "L'autoconsommation est le but dans la production d'énergie. Ce plugin est là pour vous y aider en contrôlant les activations"
+
+- id: ree
+  name: "REEspaña"
+  market_id: 3651
+  doc:
+    stable: false
+    beta: false
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: "Tarifa de la luz por horas de Red Electrica Española"
+
+- id: rteEcowatt
+  name: "Rte Ecowatt Tempo"
+  market_id: 4339
+  doc:
+    stable:
+      fr_FR: "https://jpty.github.io/jeedom/plugins/rteEcowatt/fr_FR/index.html"
+    beta:
+      fr_FR: "https://jpty.github.io/jeedom/plugins/rteEcowatt/fr_FR/index.html"
+  changelog:
+    stable:
+      fr_FR: "https://jpty.github.io/jeedom/plugins/rteEcowatt/fr_FR/changelog.html"
+    beta:
+      fr_FR: "https://jpty.github.io/jeedom/plugins/rteEcowatt/fr_FR/changelog.html"
+  description:
+    fr_FR: "Plugin qui extrait les données Ecowatt par jour et par heure. Production décarbonée, signaux vert, orange et rouge. Les couleurs des jours EDF Tempo sont aussi récupérées. Seules les APIs de RTE sont utilisées."
+
+- id: RteSync
+  name: "RteSync"
+  market_id: 4338
+  doc:
+    stable:
+      fr_FR: "https://github.com/impulsio/RteSync/blob/main/docs/fr_FR/index.md"
+    beta:
+      fr_FR: "https://github.com/impulsio/RteSync/blob/beta/docs/fr_FR/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/impulsio/RteSync/blob/main/docs/fr_FR/changelog.md"
+    beta:
+      fr_FR: "https://github.com/impulsio/RteSync/blob/beta/docs/fr_FR/changelog.md"
+  description:
+    fr_FR: "Plugin pour se connecter à l'API RTE. Pour le moment seule l'API Ecowatt est disponible. Merci de suivre la documentation pour la configuration. [Documentation](https://github.com/impulsio/RteSync/blob/beta/docs/fr_FR/index.md)"
+
+- id: SmartMeterP1
+  name: "SmartMeter P1"
+  market_id: 4190
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/SmartMeterP1/de_DE/changelog"
+  description:
+    fr_FR: "Plugin de se connecter à un SmartMeter équipé d'un port P1"
+    en_US: "Plugin to connect to a SmartMeter equipped with a P1 port"
+    es_ES: "Plugin para conectarse a un SmartMeter equipado con un puerto P1"
+    de_DE: "Plugin zur Verbindung mit einem SmartMeter, der mit einem P1-Anschluss ausgestattet ist"
+
+- id: solarman
+  name: "Solarman"
+  market_id: 4447
+  doc:
+    stable:
+      fr_FR: "https://github.com/Noyax-37/solarman/blob/master/docs/fr_FR/index.md"
+    beta:
+      fr_FR: "https://github.com/Noyax-37/solarman/blob/develop/docs/fr_FR/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/Noyax-37/solarman/blob/master/docs/fr_FR/changelog.md"
+    beta:
+      fr_FR: "https://github.com/Noyax-37/solarman/blob/develop/docs/fr_FR/changelog.md"
+  description:
+    fr_FR: "Plugin permettant d'interroger directement les onduleurs monitorés par Solarman, https://home.solarmanpv.com/ , comme par exemple les Sofar Solar HYD de 3 à 6K ES. Fichiers de configuration auto pour: Afore_BNTxxxKTL-2mppt, deye_2mppt, deye_4mppt, deye_hybrid, deye_sg04lp3, deye_string, hyd-zss-hp-3k-6k, kstar_hybrid, sofar_g3hyd, sofar_hyd3k-6k-es, sofar_lsw3, sofar_wifikit, solis_1p8k-5g, solis_3p-4g, solis_hybrid, solis_s6-gr1p, zcs_azzurro-ktl-v3"
+    en_US: "Plugin for direct interrogation of inverters monitored by Solarman, https://home.solarmanpv.com/ , e.g. Sofar Solar HYD from 3 to 6K ES. Auto configuration files for: Afore_BNTxxxKTL-2mppt, deye_2mppt, deye_4mppt, deye_hybrid, deye_sg04lp3, deye_string, hyd-zss-hp-3k-6k, kstar_hybrid, sofar_g3hyd, sofar_hyd3k-6k-es, sofar_lsw3, sofar_wifikit, solis_1p8k-5g, solis_3p-4g, solis_hybrid, solis_s6-gr1p, zcs_azzurro-ktl-v3"
+    es_ES: "Plugin que permite la interrogación directa de inversores monitorizados por Solarman, https://home.solarmanpv.com/ , como Sofar Solar HYD de 3 a 6K ES. Archivos de autoconfiguración para: Afore_BNTxxxKTL-2mppt, deye_2mppt, deye_4mppt, deye_hybrid, deye_sg04lp3, deye_string, hyd-zss-hp-3k-6k, kstar_hybrid, sofar_g3hyd, sofar_hyd3k-6k-es, sofar_lsw3, sofar_wifikit, solis_1p8k-5g, solis_3p-4g, solis_hybrid, solis_s6-gr1p, zcs_azzurro-ktl-v3"
+    de_DE: "Plugin zur direkten Abfrage von Wechselrichtern, die von Solarman überwacht werden, https://home.solarmanpv.com/ , wie z. B. Sofar Solar HYD von 3 bis 6K ES. Auto Konfigurationsdateien für: Afore_BNTxxxKTL-2mppt, deye_2mppt, deye_4mppt, deye_hybrid, deye_sg04lp3, deye_string, hyd-zss-hp-3k-6k, kstar_hybrid, sofar_g3hyd, sofar_hyd3k-6k-es, sofar_lsw3, sofar_wifikit, solis_1p8k-5g, solis_3p-4g, solis_hybrid, solis_s6-gr1p, zcs_azzurro-ktl-v3"
+
+- id: soliscloud
+  name: "Solis Cloud"
+  market_id: 4593
+  doc:
+    stable:
+      fr_FR: "https://github.com/mlhostis/soliscloud/tree/master/docs/fr_FR/index.md"
+    beta: false
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de récupérer les infos des onduleurs Solis Cloud"
+
+- id: suiviCO2
+  name: "Suivi CO2"
+  market_id: 3929
+  doc:
+    stable:
+      fr_FR: "https://agp42.github.io/suiviCO2/fr_FR"
+      en_US: "https://agp42.github.io/suiviCO2/en_US"
+      de_DE: "https://agp42.github.io/suiviCO2/de_DE"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://agp42.github.io/suiviCO2/fr_FR/changelog"
+      en_US: "https://agp42.github.io/suiviCO2/en_US/changelog"
+      de_DE: "https://agp42.github.io/suiviCO2/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour le suivi des émissions CO2 liées à sa consommation électrique, de gaz, fioul ou autre"
+
+- id: SunnyPortal
+  name: "SunnyPortal"
+  market_id: 3976
+  doc:
+    stable:
+      fr_FR: "http://www.domoticadavinci.com/fr/developpement-de-plugins/sunny-web-portal-plugin-pour-jeedom/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/domoticadavinci/Sunny_Portal_Plugin/commits/master"
+    beta: false
+  description:
+    fr_FR: "Plugin pour l'integration des interfaces SunnyPortal"
+
+- id: veoliapro
+  name: "Veolia Pro"
+  market_id: 4331
+  doc:
+    stable:
+      fr_FR: "https://thanaus.github.io/jeedom_docs/plugins/veoliapro/fr_FR/"
+    beta:
+      fr_FR: "https://thanaus.github.io/jeedom_docs/plugins/veoliapro/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://thanaus.github.io/jeedom_docs/plugins/veoliapro/fr_FR/changelog"
+    beta:
+      fr_FR: "https://thanaus.github.io/jeedom_docs/plugins/veoliapro/fr_FR/changelog"
+  description:
+    fr_FR: "Information sur la consommation d'eau (compteur communicant) depuis le site \"Veolia & moi - Eau\". Pour information, le site \"Mon eau & Moi\" sera très prochainement intégré au plugin."
+
+- id: wallconnector
+  name: "Wall Connector (Tesla)"
+  market_id: 4478
+  doc:
+    stable:
+      fr_FR: "https://www.latourdugeek.fr/jeedom/plugin/wall-connector-gen-3-pour-jeedom/"
+    beta:
+      fr_FR: "https://www.latourdugeek.fr/jeedom/plugin/wall-connector-gen-3-pour-jeedom/"
+  changelog:
+    stable:
+      fr_FR: "https://www.latourdugeek.fr/pluging-wallconnector-changelog/"
+    beta:
+      fr_FR: "https://www.latourdugeek.fr/pluging-wallconnector-changelog/"
+  description:
+    fr_FR: "Ce plugin permet de calculer le coût et la consommation des charges de vos véhicules réalisées avec la borne de recharge Wall Connector Gen 3 de Tesla. WallConnector prend en charge 3 modes de tarification : Fixe, Heure creuse & Heure pleine ainsi que la tarification Tempo d'EDF."
+    en_US: "Plugin for calculating the cost and consumption of vehicle charging using the Tesla Wall Connector Gen 3."
+    es_ES: "Plugin para calcular el costo y el consumo de carga de vehículos con el Wall Connector Gen 3 de Tesla."
+    de_DE: "Plugin zur Berechnung der Kosten und des Verbrauchs für die Fahrzeugladung mit dem Tesla Wall Connector Gen 3."

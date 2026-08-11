@@ -1,0 +1,500 @@
+- id: Abeille
+  name: "Abeille"
+  market_id: 3219
+  doc:
+    stable:
+      fr_FR: "http://kiwihc16.free.fr/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "http://kiwihc16.free.fr/Changelog.html"
+    beta: false
+  description:
+    fr_FR: "Plugin Abeille pour la passerelle Zigate (https://zigate.fr)."
+
+- id: airsend
+  name: "AirSend"
+  market_id: 3611
+  doc:
+    stable:
+      fr_FR: "https://devmel.github.io/jeedom_airsend/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://devmel.github.io/jeedom_airsend/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant l'envoi de commandes radios (433-434Mhz) à travers l'appareil AirSend"
+
+- id: boxio
+  name: "Boxio"
+  market_id: 1335
+  doc:
+    stable:
+      fr_FR: "https://apages2.github.io/pluginjeedom-boxio/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://apages2.github.io/pluginjeedom-boxio/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour utiliser le module Legrand USB-CPL"
+
+- id: dht22
+  name: "dht22"
+  market_id: 4010
+  doc:
+    stable:
+      fr_FR: "https://linura.github.io/dht22/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://linura.github.io/dht22/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permetant la lecture de sondes DHT11, DHT22, AM2302 connectées au GPIO d'un raspberry"
+
+- id: eibd
+  name: "EIB - KNX"
+  market_id: 203
+  doc:
+    stable:
+      fr_FR: "http://mika-nt28.github.io/Documentations/eibd/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/eibd/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Connecter Jeedom avec votre installation domotique KNX et Jeedom deviendra un participant de votre installation"
+
+- id: esphome
+  name: "ESPHome"
+  market_id: 4607
+  doc:
+    stable:
+      fr_FR: "https://vegeta0911.github.io/documentation/plugins/fr_FR/ESPhome/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://vegeta0911.github.io/documentation/plugins/fr_FR/ESPhome/changelog"
+    beta: false
+  description:
+    fr_FR: "ESPhome est un outil puissant et convivial pour le développement de dispositifs IoT avec les micro-contrôleurs ESP8266 et ESP32, en simplifiant la création du firmware et en offrant des fonctionnalités d'intégration avec Jeedom, Merci à David69 de m'avoir aidé pour le système climate sur ESPHome."
+
+- id: fibaro
+  name: "Fibaro"
+  market_id: 3588
+  doc:
+    stable:
+      fr_FR: "https://rems02.github.io/fibaro/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://rems02.github.io/fibaro/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour récuperer les données des boxes Fibaro et interagir"
+
+- id: globalcache
+  name: "Global Cache"
+  market_id: 2932
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/globalcache/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/globalcache/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de connecter tous les appareils Global Cache à Jeedom"
+
+- id: hkControl
+  name: "Homekit Network Devices Control"
+  market_id: 3919
+  doc:
+    stable:
+      fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/"
+    beta:
+      fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/changelog"
+    beta:
+      fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/changelog"
+  description:
+    fr_FR: "Ce plugin permet de controler dans jeedom vos périphériques Homekit Réseaux (pas les BLE). Le but de ce plugin est de permettre le contrôle de périphériques qui ne sont compatibles que avec le protocole Homekit et aucun autre protocole. Donc par exemple pas Philips Hue qui est accessible via un plugin dédié !"
+    en_US: "This plugin allow you to control Network Homebridge devices with Jeedom (not BLE ones). The purpose of this plugin is to control \"Homekit only\" devices, eg not Philips Hue bridge or IKEA bridge.<br/><br/>WARNING : Not supported : Debian Buster(10) Stretch(9) Jessie(8) & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)"
+    es_ES: "Este plugin te permite controlar tus dispositivos de la Red Homekit (no BLE) en jeedom. El objetivo de este plugin es permitirle controlar los dispositivos que sólo son compatibles con el protocolo Homekit y ningún otro protocolo. ¡Así, por ejemplo, no Philips Hue, que es accesible a través de un plugin dedicado!"
+    de_DE: "Mit diesem Plugin können Sie in Jeedom Ihre Homekit-Netzwerkgeräte (keine BLE-Geräte) steuern. Der Zweck dieses Plugins ist es, die Steuerung von Geräten zu ermöglichen, die nur mit dem Homekit-Protokoll und keinem anderen Protokoll kompatibel sind. Also zum Beispiel nicht Philips Hue, das über ein eigenes Plugin zugänglich ist!"
+
+- id: Jeebusd
+  name: "Ebusd"
+  market_id: 4541
+  doc:
+    stable:
+      fr_FR: "https://doc.jeedom.com/fr_FR/plugins/communication/ebusd/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://doc.jeedom.com/fr_FR/plugins/communication/ebusd/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour contrôler les équipements ebus.<br/><br/>Il supporte la découverte automatique des équipements."
+
+- id: jeedore
+  name: "JeeDore"
+  market_id: 3757
+  doc:
+    stable:
+      fr_FR: "https://github.com/rezolv-fr/jeedoredaemon-dotnet/blob/master/docs/index.md"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/rezolv-fr/jeedoredaemon-dotnet/blob/master/docs/index.md"
+    beta: false
+  description:
+    fr_FR: "Plugin passerelle Tydom"
+
+- id: jeedouino
+  name: "Jeedouino"
+  market_id: 2064
+  doc:
+    stable:
+      fr_FR: "https://revlysj.github.io/jeedouino/fr_FR/index"
+      en_US: "https://revlysj.github.io/jeedouino/en_US/index"
+      de_DE: "https://revlysj.github.io/jeedouino/de_DE/index"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://revlysj.github.io/jeedouino/fr_FR/changelog"
+      en_US: "https://revlysj.github.io/jeedouino/en_US/changelog"
+      de_DE: "https://revlysj.github.io/jeedouino/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin Jeedouino pour gérer une/des carte(s) Arduino (via Ethernet ou USB ), les GPIO du R.PI, les cartes PiFace (piRack), les cartes RPI IO Plus 32e/s, les MCP23017 (sur RPI) ou les ESP8266 / NodeMCU / Wemos."
+
+- id: JeeMySensors
+  name: "JeeMySensors"
+  market_id: 3822
+  doc:
+    stable:
+      fr_FR: "https://totoff974.github.io/jeedom-JeeMySensors/fr_FR/"
+      en_US: "https://totoff974.github.io/jeedom-JeeMySensors/en_US/"
+      de_DE: "https://totoff974.github.io/jeedom-JeeMySensors/de_DE/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://totoff974.github.io/jeedom-JeeMySensors/fr_FR/changelog"
+      en_US: "https://totoff974.github.io/jeedom-JeeMySensors/en_US/changelog"
+      de_DE: "https://totoff974.github.io/jeedom-JeeMySensors/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour le protocole mySensors"
+
+- id: JeePlcBus
+  name: "JeePlcBus"
+  market_id: 2487
+  doc:
+    stable:
+      fr_FR: "https://totoff974.github.io/JeePlcBus/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://totoff974.github.io/JeePlcBus/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant la gestion du protocol PlcBus"
+
+- id: jMQTT
+  name: "jMQTT"
+  market_id: 3166
+  doc:
+    stable:
+      fr_FR: "https://domotruc.github.io/jMQTT/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://domotruc.github.io/jMQTT/fr_FR/index.html#changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin connecte Jeedom à un broker MQTT comme Mosquitto afin, de récupérer les messages souscrits, et de publier ses propres messages.<br/>Il supporte la découverte automatique des équipements mais également leur création manuelle."
+
+- id: LegrandIoblMyhome
+  name: "Legrand IOBL and MyHome"
+  market_id: 4526
+  doc:
+    stable:
+      fr_FR: "https://apages2.github.io/pluginjeedom-legrandioblmyhomePub/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://apages2.github.io/pluginjeedom-legrandioblmyhomePub/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour utiliser le module Legrand USB-CPL et Bticino"
+
+- id: mochad
+  name: "Mochad - X10"
+  market_id: 359
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/mochad/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/mochad/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour gérer des équipements X10 via le démon Mochad et une interface informatique CM15"
+
+- id: modbus2mqtt
+  name: "Modbus2MQTT"
+  market_id: 4309
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/beta/de_DE/changelog"
+  description:
+    fr_FR: "Permet de lire et écrire sur des devices modbus TCP depuis et vers MQTT"
+    en_US: "Reads and writes modbus TCP devices to and from MQTT"
+    es_ES: "Permite leer y escribir en dispositivos Modbus TCP desde y hacia MQTT"
+    de_DE: "Ermöglicht das Lesen und Schreiben auf Modbus TCP-Geräten von und zu MQTT"
+
+- id: modbustcp
+  name: "Modbus TCP Server"
+  market_id: 4320
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/modbustcp/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/modbustcp/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/modbustcp/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/modbustcp/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin transformant votre Jeedom en seveur modbus TCP"
+
+- id: MQTTDiscovery
+  name: "MQTT Discovery"
+  market_id: 4429
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' (ou 'HA Discovery') qui existe sous home assistant. Cela permet d'utiliser Open MQTT Gateway (https://docs.openmqttgateway.com/) sur esp32 ou l'équivalent Theengs gateway (https://gateway.theengs.io/) sur pi. Il devient très facile de faire de la gestion de présence de tag bluetooth tel que les nuts ou d'intégrer une liste importante de matériel compatible BLEA. Mais c'est également compatible avec tout équipement supportant 'MQTT Discovery' tel que zwave, zigbee, Nuki, Switchbot, Sonos..."
+    en_US: "Plugin for automatic discovery of MQTT equipment based on the 'MQTT Auto Discovery' (or 'HA Discovery') principle that exists in home assistant. It enables the use of Open MQTT Gateway (https://docs.openmqttgateway.com/) on esp32 or the equivalent Theengs gateway (https://gateway.theengs.io/) on pi. This makes it very easy to manage the presence of Bluetooth tags such as nuts, or to integrate an extensive list of BLEA-compatible hardware. But it's also compatible with any equipment supporting 'MQTT Discovery' such as zwave, zigbee, Nuki, Switchbot, Sonos..."
+    es_ES: "Plugin para el descubrimiento automático de equipos MQTT según el principio de 'MQTT Auto Discovery' (o 'HA Discovery') que existe en home assistant. Esto le permite utilizar Open MQTT Gateway (https://docs.openmqttgateway.com/) en esp32 o el equivalente Theengs gateway (https://gateway.theengs.io/) en pi. Esto hace que sea muy fácil gestionar la presencia de etiquetas Bluetooth como las nueces, o integrar una gran lista de hardware compatible con BLEA. Pero también es compatible con cualquier equipo que soporte 'MQTT Discovery' como zwave, zigbee, Nuki, Switchbot, Sonos, etc."
+    de_DE: "Plugin für die automatische Erkennung von MQTT-Geräten nach dem Prinzip der 'MQTT Auto Discovery' (oder 'HA Discovery'), die es unter home assistant gibt. Damit kann man Open MQTT Gateway (https://docs.openmqttgateway.com/) auf esp32 oder das entsprechende Theengs gateway (https://gateway.theengs.io/) auf pi verwenden. Es wird sehr einfach, die Anwesenheit von Bluetooth-Tags wie Nuts zu verwalten oder eine umfangreiche Liste von BLEA-kompatiblen Geräten zu integrieren. Es ist aber auch mit allen Geräten kompatibel, die \"MQTT Discovery\" unterstützen, wie z. B. Wave, Zigbee, Nuki, Switchbot, Sonos..."
+
+- id: myhome
+  name: "Myhome"
+  market_id: 2445
+  doc:
+    stable:
+      fr_FR: "https://apages2.github.io/pluginjeedom-myhome/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://apages2.github.io/pluginjeedom-myhome/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour utiliser le module Legrand/Bticino Zigbee"
+
+- id: mymodbus
+  name: "MyModbus"
+  market_id: 3858
+  doc:
+    stable:
+      fr_FR: "https://mrwaloo.github.io/jeedom-plugins-doc/fr_FR/mymodbus_doc"
+      en_US: "https://mrwaloo.github.io/jeedom-plugins-doc/en_US/mymodbus_doc"
+      es_ES: "https://mrwaloo.github.io/jeedom-plugins-doc/es_ES/mymodbus_doc"
+      de_DE: "https://mrwaloo.github.io/jeedom-plugins-doc/de_DE/mymodbus_doc"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mrwaloo.github.io/jeedom-plugins-doc/fr_FR/mymodbus_changelog"
+      en_US: "https://mrwaloo.github.io/jeedom-plugins-doc/en_US/mymodbus_changelog"
+      es_ES: "https://mrwaloo.github.io/jeedom-plugins-doc/es_ES/mymodbus_changelog"
+      de_DE: "https://mrwaloo.github.io/jeedom-plugins-doc/de_DE/mymodbus_changelog"
+    beta: false
+  description:
+    fr_FR: "Lecture et écriture en Modbus"
+    en_US: "Modbus read/write"
+    es_ES: "Lectura y escritura Modbus"
+    de_DE: "Lesen und Schreiben in Modbus"
+
+- id: PoeleAgua
+  name: "Poêle Agua IOT Micronova navel 2.0"
+  market_id: 4251
+  doc:
+    stable:
+      fr_FR: "https://lefilliatre.github.io/lefilliatre-documentation/PoeleAgua/fr_FR/"
+    beta:
+      fr_FR: "https://lefilliatre.github.io/lefilliatre-documentation/PoeleAgua/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://lefilliatre.github.io/lefilliatre-documentation/PoeleAgua/fr_FR/changelog"
+    beta:
+      fr_FR: "https://lefilliatre.github.io/lefilliatre-documentation/PoeleAgua/fr_FR/changelog"
+  description:
+    fr_FR: "Plugin PoeleAgua pour la gestion des poêles à bois et granulé utilisant la plateforme aqua iot  de micronova (navel 2.0) ex: Jolly Mec / Piazzetta / superior / MCZ et bien plus. Voir la documentation pour les modèles supportés"
+
+- id: relayModule
+  name: "Relay Module"
+  market_id: 4382
+  doc:
+    stable:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/relayModule/fr_FR"
+    beta:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/relayModule/fr_FR"
+  changelog:
+    stable:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/relayModule/fr_FR/changelog"
+    beta:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/relayModule/fr_FR/changelog"
+  description:
+    fr_FR: "Plugin pour piloter des modules de relais ethernet<ul><li><a href='https://fr.aliexpress.com/item/4000999069820.html?spm=a2g0o.productlist.main.1.4be8486f3Ic93qDingtian'>IOT Relay</a></li><li><a href='https://fr.aliexpress.com/item/32914881766.html?spm=a2g0o.productlist.main.45.109933f0huhSBo'>Relais réseau IP à 8 canaux, double contrôle, interface Ethernet RJ45</a></li></ul><br>D'autre type de carte pourrait être ajouté à la demande"
+
+- id: rpict
+  name: "RPICT7V1"
+  market_id: 3637
+  doc:
+    stable:
+      fr_FR: "https://tlierdotfr.github.io/jeedom-plugin-rpict/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://tlierdotfr.github.io/jeedom-plugin-rpict/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant d'utiliser sur Jeedom les cartes RPICT series en HAT pour Raspberry Pi."
+
+- id: Store
+  name: "Store"
+  market_id: 296
+  doc:
+    stable: false
+    beta: false
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: "Plugin pour gérer des stores"
+
+- id: tahoma
+  name: "Tahoma"
+  market_id: 1719
+  doc:
+    stable:
+      fr_FR: "https://github.com/redbug26/jeedom-tahoma/tree/master/doc/fr_FR/index.asciidoc"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/redbug26/jeedom-tahoma/tree/master/doc/fr_FR/changelog.asciidoc"
+    beta: false
+  description:
+    fr_FR: "Plugin pour utiliser Tahoma et Connexoon"
+
+- id: tcpkp
+  name: "Niren TcpKpI8O8"
+  market_id: 4256
+  doc:
+    stable:
+      fr_FR: "https://lefilliatre.github.io/lefilliatre-documentation/tcpkp/fr_FR/"
+    beta:
+      fr_FR: "https://lefilliatre.github.io/lefilliatre-documentation/tcpkp/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://lefilliatre.github.io/lefilliatre-documentation/tcpkp/fr_FR/changelog"
+    beta:
+      fr_FR: "https://lefilliatre.github.io/lefilliatre-documentation/tcpkp/fr_FR/changelog"
+  description:
+    fr_FR: "Plugin tcpkp pour la gestion des cartes entrees sorties Niren tcpkp"
+
+- id: teleinfo
+  name: "Téléinfo"
+  market_id: 260
+  doc:
+    stable:
+      fr_FR: "https://github.com/Noyax-37/plugin-teleinfo/blob/master/docs/fr_FR/index.md"
+    beta:
+      fr_FR: "https://github.com/Noyax-37/plugin-teleinfo/blob/develop/docs/fr_FR/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/Noyax-37/plugin-teleinfo/blob/master/docs/fr_FR/changelog.md"
+    beta:
+      fr_FR: "https://github.com/Noyax-37/plugin-teleinfo/blob/develop/docs/fr_FR/changelog.md"
+  description:
+    fr_FR: "Plugin pour utiliser les modems téléinformation USB / Série. Développé initialement par Cédric Guine (@Ticed35)"
+    en_US: "Plugin to use USB / Serial teleinformation modems. Originally developed by Cédric Guine (@Ticed35)"
+    es_ES: "Plugin para utilizar módems de información remota USB / Serie. Desarrollado inicialmente por Cédric Guine (@Ticed35)"
+    de_DE: "Plugin zur Verwendung von USB / seriellen Teleinformationsmodems. Ursprünglich entwickelt von Cédric Guine (@Ticed35)"
+
+- id: zigate
+  name: "ZiGate"
+  market_id: 3186
+  doc:
+    stable:
+      fr_FR: "https://jeedom-zigate.github.io/jeedom-plugin-zigate"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeedom-zigate.github.io/jeedom-plugin-zigate/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin zigate pour utilisation de la zigate"
+
+- id: zmwebrelay
+  name: "ZmWebRelay"
+  market_id: 3417
+  doc:
+    stable:
+      fr_FR: "https://jeedomsteph37.github.io/zmwebrelay/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeedomsteph37.github.io/zmwebrelay/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant la gestion du ZmWebRelay"

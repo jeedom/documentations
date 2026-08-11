@@ -1,0 +1,337 @@
+- id: CaveVin
+  name: "Cave à Vin"
+  market_id: 1980
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/CaveVin/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/CaveVin/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Quel vin j'ai dans ma cave?<br/>Une question que tous le monde se pose, et un plugin pour essayer d'y repondre"
+
+- id: comptes
+  name: "Comptes"
+  market_id: 1399
+  doc:
+    stable:
+      fr_FR: "https://koleos6.github.io/comptes/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://koleos6.github.io/comptes/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: ""
+
+- id: gkeep
+  name: "Google Keep"
+  market_id: 4423
+  doc:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-google-keep-pour-jeedom/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-google-keep-pour-jeedom/"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de synchroniser ses notes et listes avec Google Keep.</br>Nécéssite python >= v3.8 pour fonctionner."
+    en_US: "Plugin for synchronizing notes and lists with Google Keep"
+    es_ES: "Plugin para sincronizar notas y listas con Google Keep"
+    de_DE: "Plugin zum Synchronisieren von Notizen und Listen mit Google Keep"
+
+- id: gsl
+  name: "Google shared locations"
+  market_id: 3422
+  doc:
+    stable:
+      fr_FR: "https://yoan-m.github.io/jeedom_gsl/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://yoan-m.github.io/jeedom_gsl/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin qui récupère les geolocalisations partagées avec Google.<br />L'affichage est parametrable au sein du plugin.<br />Les coordonnées peuvent être envoyées à d'atures plugins Geoloc, Geotrav, Jeeloc, etc..."
+
+- id: ics
+  name: "Calendrier Ics"
+  market_id: 3108
+  doc:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/ics/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/ics/changelog/"
+    beta: false
+  description:
+    fr_FR: "Transformez votre agenda Google, iCloud ou CalDAV en moteur domotique pour Jeedom : déclenchez automatiquement des actions et des scénarios à partir de vos événements de calendrier."
+    en_US: "Turn your Google, iCloud or CalDAV calendar into a home automation engine for Jeedom: automatically trigger actions and scenarios from your calendar events."
+    es_ES: "Convierte tu calendario de Google, iCloud o CalDAV en un motor domótico para Jeedom: activa automáticamente acciones y escenarios a partir de los eventos de tu calendario."
+    de_DE: "Verwandeln Sie Ihren Google-, iCloud- oder CalDAV-Kalender in eine Hausautomations-Engine für Jeedom: Lösen Sie automatisch Aktionen und Szenarien aus Ihren Kalenderereignissen aus."
+
+- id: import2calendar
+  name: "ical2Calendar"
+  market_id: 4493
+  doc:
+    stable:
+      fr_FR: "https://sagitaz.github.io/import2calendar/fr_FR/"
+      en_US: "https://sagitaz.github.io/import2calendar/en_US/"
+      es_ES: "https://sagitaz.github.io/import2calendar/es_ES/"
+      de_DE: "https://sagitaz.github.io/import2calendar/de_DE/"
+    beta:
+      fr_FR: "https://sagitaz.github.io/import2calendar/fr_FR/"
+      en_US: "https://sagitaz.github.io/import2calendar/en_US/"
+      es_ES: "https://sagitaz.github.io/import2calendar/es_ES/"
+      de_DE: "https://sagitaz.github.io/import2calendar/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://sagitaz.github.io/import2calendar/fr_FR/changelog"
+      en_US: "https://sagitaz.github.io/import2calendar/en_US/changelog"
+      es_ES: "https://sagitaz.github.io/import2calendar/es_ES/changelog"
+      de_DE: "https://sagitaz.github.io/import2calendar/de_DE/changelog"
+    beta:
+      fr_FR: "https://sagitaz.github.io/import2calendar/fr_FR/changelog"
+      en_US: "https://sagitaz.github.io/import2calendar/en_US/changelog"
+      es_ES: "https://sagitaz.github.io/import2calendar/es_ES/changelog"
+      de_DE: "https://sagitaz.github.io/import2calendar/de_DE/changelog"
+  description:
+    fr_FR: "ical2Calendar permet d'importer un calendrier ical dans le plugin agenda officiel que celui-ci viennent de Google, Outlook, Nextcloud ou autre."
+    en_US: "ical2Calendar lets you import an ical calendar into the official calendar plugin, whether it's from Google, Outlook, Nextcloud or another source."
+    es_ES: "ical2Calendar le permite importar un calendario ical en el plugin de calendario oficial, ya venga de Google, Outlook, Nextcloud u otra fuente."
+    de_DE: "mit ical2Calendar können Sie einen ical-Kalender in das offizielle Kalender-Plugin importieren, unabhängig davon, ob dieser von Google, Outlook, Nextcloud oder anderen Anbietern stammt."
+
+- id: jeeloc
+  name: "Jeeloc"
+  market_id: 3404
+  doc:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/jeeloc/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/jeeloc/changelog/"
+    beta: false
+  description:
+    fr_FR: "Jeeloc est un plugin Jeedom de centralisation de localisations. Il ne collecte pas lui-même les coordonnées GPS, mais réutilise des commandes existantes (iOSCloud, Android, coordonnées fixes, etc.) afin de les afficher dans un widget unifié et interactif."
+    en_US: "Jeeloc is a Jeedom plugin designed to centralize location data. It does not collect GPS coordinates itself, but reuses existing commands (iOSCloud, Android, fixed coordinates, etc.) to display them in a unified and interactive widget."
+    es_ES: "Jeeloc es un plugin de Jeedom para centralizar ubicaciones. No recopila directamente las coordenadas GPS, sino que reutiliza comandos existentes (iOSCloud, Android, coordenadas fijas, etc.) para mostrarlas en un widget unificado e interactivo."
+    de_DE: "Jeeloc ist ein Jeedom-Plugin zur Zentralisierung von Standortdaten. Es erfasst keine GPS-Koordinaten selbst, sondern nutzt vorhandene Befehle (iOSCloud, Android, feste Koordinaten usw.), um sie in einem einheitlichen und interaktiven Widget darzustellen."
+
+- id: mybin
+  name: "My Bin"
+  market_id: 4125
+  doc:
+    stable:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/MyBin/fr_FR/"
+      en_US: "https://tomitomas.github.io/jeedom_doc/MyBin/en_US/"
+    beta:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/MyBin/fr_FR/"
+      en_US: "https://tomitomas.github.io/jeedom_doc/MyBin/en_US/"
+  changelog:
+    stable:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/MyBin/fr_FR/changelog"
+      en_US: "https://tomitomas.github.io/jeedom_doc/MyBin/en_US/changelog"
+    beta:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/MyBin/fr_FR/changelog_beta"
+      en_US: "https://tomitomas.github.io/jeedom_doc/MyBin/en_US/changelog_beta"
+  description:
+    fr_FR: "Poubelle verte ? Poubelle jaune ? Laquelle faut-il sortir ce soir ? Utilisez ce petit plugin pour ne plus avoir à vous en rappeler ! "
+    en_US: "Green bin? Yellow bin? Which one needs to be put out tonight? Use this simple plugin for not having to remember it anymore!"
+
+- id: prixcarburants
+  name: "Prix Carburants"
+  market_id: 3984
+  doc:
+    stable:
+      fr_FR: "https://floman321.github.io/prixcarburants/fr_FR/"
+      en_US: "https://floman321.github.io/prixcarburants/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://floman321.github.io/prixcarburants/fr_FR/changelog"
+      en_US: "https://floman321.github.io/prixcarburants/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Récupère les informations des prix des carburants via https://www.prix-carburants.gouv.fr"
+
+- id: programmateur
+  name: "Programmateur"
+  market_id: 3942
+  doc:
+    stable:
+      fr_FR: "https://caelion.github.io/jeedom-plugins-documentation/Programmateur/fr_FR/"
+      en_US: "https://caelion.github.io/jeedom-plugins-documentation/Programmateur/en_US/"
+      de_DE: "https://caelion.github.io/jeedom-plugins-documentation/Programmateur/de_DE/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://caelion.github.io/jeedom-plugins-documentation/Programmateur/fr_FR/changelog"
+      en_US: "https://caelion.github.io/jeedom-plugins-documentation/Programmateur/en_US/changelog"
+      de_DE: "https://caelion.github.io/jeedom-plugins-documentation/Programmateur/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour ajouter un programmateur à une commande"
+
+- id: ProJote
+  name: "Plugin Pronote"
+  market_id: 4543
+  doc:
+    stable:
+      fr_FR: "/plugins/ProJote/docs/fr_FR/index.html"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://aldarande.github.io/ProJote/fr_FR/index.html#Version"
+    beta: false
+  description:
+    fr_FR: "Plugin destinée à récupérer les informations de Pronote"
+    en_US: "Plugin to retrieve information from Pronote school management platform"
+
+- id: reveil
+  name: "Réveil"
+  market_id: 2775
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/reveil/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/reveil/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Utiliser votre domotique pour vous réveiller"
+
+- id: stockexchange
+  name: "Stock exchange"
+  market_id: 3841
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin). Toutes les données sont généralement disponibles en temps réel mais la fréquence d'actualisation dépend du service utilisé."
+    en_US: "Plugin for retrieving stock market prices (regardless of the symbol requested) as well as the exchange rate between two currencies (including crypto-currencies such as bitcoin). All data is generally available in real time, but the frequency of updates depends on the service used."
+    es_ES: "Plugin para recuperar las cotizaciones bursátiles (independientemente del símbolo solicitado), así como el tipo de cambio entre dos divisas (incluidas criptomonedas como el bitcoin). Por lo general, todos los datos están disponibles en tiempo real, pero la frecuencia de las actualizaciones depende del servicio utilizado."
+    de_DE: "Plugin zum Abrufen von Börsenkursen (unabhängig vom angeforderten Symbol), aber auch des Wechselkurses zwischen zwei Währungen (einschließlich Kryptowährungen wie Bitcoin). Alle Daten sind in der Regel in Echtzeit verfügbar, die Häufigkeit der Aktualisierung hängt jedoch vom verwendeten Dienst ab."
+
+- id: Suivreuncolis
+  name: "Suivre un colis"
+  market_id: 2404
+  doc:
+    stable:
+      fr_FR: "https://floman321.github.io/Suivreuncolis/fr_FR/"
+      en_US: "https://floman321.github.io/Suivreuncolis/en_US/"
+      de_DE: "https://floman321.github.io/Suivreuncolis/de_DE/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://floman321.github.io/Suivreuncolis/fr_FR/changelog"
+      en_US: "https://floman321.github.io/Suivreuncolis/en_US/changelog"
+      de_DE: "https://floman321.github.io/Suivreuncolis/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour suivre un colis"
+
+- id: TaskLauncher
+  name: "Task Launcher"
+  market_id: 1314
+  doc:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/TaskLauncher/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/TaskLauncher/changelog/"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de planifier des réveils, horloges et événements afin de déclencher automatiquement des actions ou des scénarios personnalisés dans Jeedom."
+    en_US: "Plugin to schedule alarms, clocks and events in order to automatically trigger actions or custom scenarios in Jeedom."
+    es_ES: "Plugin que permite programar alarmas, relojes y eventos para activar automáticamente acciones o escenarios personalizados en Jeedom."
+    de_DE: "Plugin zum Planen von Weckern, Uhren und Ereignissen, um automatisch Aktionen oder benutzerdefinierte Szenarien in Jeedom auszulösen."
+
+- id: telco
+  name: "Telecommande"
+  market_id: 2861
+  doc:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/telco/fr_FR/"
+      en_US: "https://zyg0m4t1k.github.io/telco/en_US/"
+      de_DE: "https://zyg0m4t1k.github.io/telco/de_DE/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/telco/fr_FR/changelog"
+      en_US: "https://zyg0m4t1k.github.io/telco/en_US/changelog"
+      de_DE: "https://zyg0m4t1k.github.io/telco/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de créer des télécommandes"
+
+- id: todo
+  name: "Todo List"
+  market_id: 1976
+  doc:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/todo/fr_FR/"
+      en_US: "https://zyg0m4t1k.github.io/todo/en_US/"
+      de_DE: "https://zyg0m4t1k.github.io/todo/de_DE/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/todo/fr_FR/changelog"
+      en_US: "https://zyg0m4t1k.github.io/todo/en_US/changelog"
+      de_DE: "https://zyg0m4t1k.github.io/todo/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin qui permet la création de todolist"
+
+- id: todov2
+  name: "todo List v2"
+  market_id: 4474
+  doc:
+    stable:
+      fr_FR: "https://www.domlabs.fr/jeedom_docs/ToDo/fr-FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://www.domlabs.fr/jeedom_docs/todo/fr-FR/"
+    beta: false
+  description:
+    fr_FR: "Plugin qui permet la création de todo list (Reprise pour correction du plugin de zyg0m4t1k)"
+
+- id: traccar
+  name: "Traccar"
+  market_id: 2518
+  doc:
+    stable:
+      fr_FR: "http://dough29.github.io/Jeedom-Traccar/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "http://dough29.github.io/Jeedom-Traccar/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet d'interfacer un serveur Traccar avec le plugin Geoloc de Jeedom"

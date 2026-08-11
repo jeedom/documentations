@@ -1,0 +1,115 @@
+- id: MerosSync
+  name: "MerosSync"
+  market_id: 4329
+  doc:
+    stable:
+      fr_FR: "https://github.com/impulsio/MerosSync/blob/main/docs/fr_FR/index.md"
+    beta:
+      fr_FR: "https://github.com/impulsio/MerosSync/blob/main/docs/fr_FR/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/impulsio/MerosSync/blob/main/docs/fr_FR/changelog.md"
+    beta:
+      fr_FR: "https://github.com/impulsio/MerosSync/blob/main/docs/fr_FR/changelog.md"
+  description:
+    fr_FR: "Plugin pour contrôler les appareils MEROSS. Pour l'instant ce plugin fonctionne parfaitement avec les prises connectées meross, les portes de garage, les lumières, les volets roulants, thermostat chauffage, le hub meross avec détecteur de fuite et le diffuseur d'huile essentielles. Si vous avez d'autres éléments Meross merci de me contacter en message privé pour que je puisse voir le résultat et améliorer le plugin. De même si vous avez un bug / une question / un message amical :)"
+
+- id: nhc
+  name: "Niko Home Control"
+  market_id: 4585
+  doc:
+    stable:
+      fr_FR: "https://github.com/smn-btn/jeedom_nikoHomeControl/blob/main/docs/fr_FR/index.md"
+    beta:
+      fr_FR: "https://github.com/smn-btn/jeedom_nikoHomeControl/blob/main/docs/fr_FR/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/smn-btn/jeedom_nikoHomeControl/blob/main/docs/fr_FR/changelog.md"
+    beta:
+      fr_FR: "https://github.com/smn-btn/jeedom_nikoHomeControl/blob/main/docs/fr_FR/changelog_beta.md"
+  description:
+    fr_FR: "Ce plugin permet de piloter les équipements de votre installation Niko Home Control. Il utilise l'API locale (Hobby API) fournie par Niko, qui communique via le protocole MQTT."
+
+- id: SomfyUnified
+  name: "SomfyUnified"
+  market_id: 4505
+  doc:
+    stable:
+      fr_FR: "https://eridani78.github.io/SomfyUnified-Doc/fr_FR/"
+      en_US: "https://eridani78.github.io/SomfyUnified-Doc/en_US/"
+    beta:
+      fr_FR: "https://eridani78.github.io/SomfyUnified-Doc/fr_FR/"
+      en_US: "https://eridani78.github.io/SomfyUnified-Doc/en_US/"
+  changelog:
+    stable:
+      fr_FR: "https://eridani78.github.io/SomfyUnified-Doc/fr_FR/changelog"
+      en_US: "https://eridani78.github.io/SomfyUnified-Doc/en_US/changelog"
+    beta:
+      fr_FR: "https://eridani78.github.io/SomfyUnified-Doc/fr_FR/changelog"
+      en_US: "https://eridani78.github.io/SomfyUnified-Doc/en_US/changelog"
+  description:
+    fr_FR: "Plugin destiné à permettre une interface entre Jeedom et les équipements connectés via les API OverKiz (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz). Suporte également les équipements Cozytouch WiFi Direct (Naviclim, Navilink)."
+    en_US: "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz). Also suitable for Cozytouch WiFi Direct  (Naviclim, Navilink)."
+
+- id: SomfyUnifiedExt1
+  name: "SomfyUnifiedExt1"
+  market_id: 4559
+  doc:
+    stable:
+      en_US: "https://eridani78.github.io/SomfyUnified-Doc/en_US/"
+    beta:
+      en_US: "https://eridani78.github.io/SomfyUnified-Doc/en_US/"
+  changelog:
+    stable:
+      en_US: "https://eridani78.github.io/SomfyUnified-Doc/en_US/changelog"
+    beta:
+      en_US: "https://eridani78.github.io/SomfyUnified-Doc/en_US/changelog"
+  description:
+    fr_FR: "Plugin Extension1 du plugin **SomfyUnified** qui fournit des widgets et/ou panels spécifiques pour une amélioration de l'interface utilisateur. Le plugin SomfyUnifiedExt1 est dédié aux équipements appartenant aux familles ***HeatingSystem*** et ***WaterHeatingSystem***."
+
+- id: TaHomaLocal
+  name: "TaHomaLocal"
+  market_id: 4445
+  doc:
+    stable:
+      fr_FR: "https://eridani78.github.io/TaHomaLocal-Doc/fr_FR/"
+      en_US: "https://eridani78.github.io/TaHomaLocal-Doc/en_US/"
+      es_ES: "https://eridani78.github.io/TaHomaLocal-Doc/es_ES/"
+      de_DE: "https://eridani78.github.io/TaHomaLocal-Doc/de_DE/"
+    beta:
+      fr_FR: "https://eridani78.github.io/TaHomaLocal-Doc/fr_FR/"
+      en_US: "https://eridani78.github.io/TaHomaLocal-Doc/en_US/"
+      es_ES: "https://eridani78.github.io/TaHomaLocal-Doc/es_ES/"
+      de_DE: "https://eridani78.github.io/TaHomaLocal-Doc/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://eridani78.github.io/TaHomaLocal-Doc/fr_FR/changelog"
+      en_US: "https://eridani78.github.io/TaHomaLocal-Doc/en_US/changelog"
+      es_ES: "https://eridani78.github.io/TaHomaLocal-Doc/es_ES/changelog"
+      de_DE: "https://eridani78.github.io/TaHomaLocal-Doc/de_DE/changelog"
+    beta:
+      fr_FR: "https://eridani78.github.io/TaHomaLocal-Doc/fr_FR/changelog"
+      en_US: "https://eridani78.github.io/TaHomaLocal-Doc/en_US/changelog"
+      es_ES: "https://eridani78.github.io/TaHomaLocal-Doc/es_ES/changelog"
+      de_DE: "https://eridani78.github.io/TaHomaLocal-Doc/de_DE/changelog"
+  description:
+    fr_FR: "Le nouveau plugin SOMFYUNIFIED incluant TaHomaLocal plus des fonctionnalités plus étendues doit être préféré. Plugin destiné à permettre une interface entre Jeedom et une box Somfy (TaHoma ou équivalente éligible) sur laquelle l'API locale Somfy a été activée. Permet un fonctionnement 'Cloudless' et des retours d'état immédiats.<br> - IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale). Mots clés: API locale, Somfy, Tahoma, Tahoma Locale"
+    en_US: "Please also consider new plugin SOMFYUNIFIED for improved capabilities. Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses.<br> - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation)."
+    es_ES: "Please also consider new plugin SOMFYUNIFIED for improved capabilities. Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses.<br> - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation)."
+    de_DE: "Please also consider new plugin SOMFYUNIFIED for improved capabilities. Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses.<br> - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation)."
+
+- id: Yokis
+  name: "Yokis passerelle"
+  market_id: 4248
+  doc:
+    stable:
+      fr_FR: "https://nwailly.github.io/Yokis_DOCS/docs/fr_FR/Index"
+    beta:
+      fr_FR: "https://nwailly.github.io/Yokis_DOCS/docs/fr_FR/Indexbeta"
+  changelog:
+    stable:
+      fr_FR: "https://nwailly.github.io/Yokis_DOCS/docs/fr_FR/changelog"
+    beta:
+      fr_FR: "https://nwailly.github.io/Yokis_DOCS/docs/fr_FR/changelogbeta"
+  description:
+    fr_FR: "Plugin pour commander les modules Yokis en local"

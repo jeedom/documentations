@@ -1,0 +1,196 @@
+- id: advancedScenario
+  name: "Advanced Scenario"
+  market_id: 4281
+  doc:
+    stable:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/advancedScenario/fr_FR"
+    beta:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/advancedScenario/fr_FR"
+  changelog:
+    stable:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/advancedScenario/fr_FR/changelog"
+    beta:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/advancedScenario/fr_FR/changelog"
+  description:
+    fr_FR: "Plugins pour gérer, créer ou modifier vos scénarios. Utilise le système de scénario existant en ajoutant quelque fonctionnalité."
+
+- id: autologin
+  name: "AutoLogin"
+  market_id: 3394
+  doc:
+    stable:
+      fr_FR: "https://github.com/guirem/plugin-autologin/blob/develop/docs/fr_FR/index.md"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/guirem/plugin-autologin/blob/develop/docs/fr_FR/changelog.md"
+    beta: false
+  description:
+    fr_FR: "Automatic user login based on IP"
+
+- id: blea2mqtt
+  name: "BLEA2MQTT Gateway Manager"
+  market_id: 4403
+  doc:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-blea2mqtt-pour-jeedom/"
+    beta:
+      fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-blea2mqtt-pour-jeedom/"
+  changelog:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-blea2mqtt-pour-jeedom/"
+    beta:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-blea2mqtt-pour-jeedom/"
+  description:
+    fr_FR: "Plugin gérant l'installation, la configuration et le démarrage du service blea2mqtt, permettant de créer des antennes BLEA à partir de Linux ou MacOS, via une connexion SSH."
+    en_US: "Plugin managing the installation, configuration and startup of the blea2mqtt service, allowing the creation of BLEA antennas from Linux or MacOS, via an SSH connection."
+    es_ES: "Plugin que gestiona la instalación, configuración y arranque del servicio blea2mqtt, lo que permite la creación de antenas BLEA desde Linux o MacOS, a través de una conexión SSH."
+    de_DE: "Plugin zur Verwaltung der Installation, Konfiguration und Start des blea2mqtt-Dienstes, der die Erstellung von BLEA-Antennen von Linux oder MacOS aus über eine SSH-Verbindung ermöglicht."
+
+- id: EventTranslator
+  name: "EventTranslator"
+  market_id: 4650
+  doc:
+    stable:
+      fr_FR: "https://mickadam29.github.io/EventTranslator/fr_FR/"
+    beta:
+      fr_FR: "https://mickadam29.github.io/EventTranslator/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://mickadam29.github.io/EventTranslator/fr_FR/changelog"
+    beta:
+      fr_FR: "https://mickadam29.github.io/EventTranslator/fr_FR/changelog"
+  description:
+    fr_FR: "Traducteur/convertisseur d'événements en temps réel : mappe les valeurs d'une commande info source vers des actions Jeedom (commande ou scénario). Mode apprentissage automatique (5 min), aucune dépendance, aucun démon.<br/>Cas d'usage 1 : adapter les valeurs d'un clavier, télécommande ou interrupteur Zigbee/Z-Wave/WiFi vers le plugin Alarme, ArmManager ou tout autre plugin cible — sans scénario.<br/>Cas d'usage 2 : piloter jusqu'à 12 actions distinctes depuis un interrupteur multi-boutons (simple / double / long appui) en quelques clics."
+
+- id: genericTypeManager
+  name: "Generic type manager"
+  market_id: 4235
+  doc:
+    stable:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/genericTypeManager/fr_FR"
+    beta:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/genericTypeManager/fr_FR"
+  changelog:
+    stable:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/genericTypeManager/fr_FR/changelog"
+    beta:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/genericTypeManager/fr_FR/changelog"
+  description:
+    fr_FR: "Plugin pour gérer vos commandes via leur type générique de manière dynamique. Ce plugin a l'avantage de tout centraliser et permettre une gestion hiérarchique des ‹ objets ›"
+
+- id: httpRemoteEvent
+  name: "Http Remote Event"
+  market_id: 1939
+  doc:
+    stable: false
+    beta: false
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: ""
+
+- id: logmanager
+  name: "LogManager"
+  market_id: 3817
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/logmanager/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/logmanager/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/logmanager/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/logmanager/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/logmanager/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/logmanager/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/logmanager/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/logmanager/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/logmanager/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/logmanager/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/logmanager/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/logmanager/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/logmanager/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/logmanager/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/logmanager/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/logmanager/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin permettant une gestion de log personnalisée dans vos scénarios. Il est possible de créer autant de log que voulu, différent niveau de log sont possible pour chaque fichier de log. Cela permet d'organiser vos logs de scénario selon vos préférences, de par exemple regrouper toutes les actions sur un équipement dans le même log quelque soit le scénario."
+    en_US: "Plugin for customized log management in your scenarios. You can create as many logs as you like, with different log levels for each log file. This allows you to organize your scenario logs according to your preferences, for example, to group all actions on a piece of equipment in the same log, whatever the scenario."
+    es_ES: "Plugin para la gestión personalizada de registros en sus escenarios. Puede crear tantos registros como desee, y son posibles diferentes niveles de registro para cada archivo de registro. Esto te permite organizar los registros de tus escenarios según tus preferencias, por ejemplo agrupando todas las acciones sobre un equipo en un mismo registro, sea cual sea el escenario."
+    de_DE: "Plugin, das eine personalisierte Log-Verwaltung in Ihren Szenarien ermöglicht. Es können beliebig viele Logs erstellt werden, wobei für jede Logdatei verschiedene Logstufen möglich sind. So können Sie Ihre Szenarien-Logs nach Ihren Wünschen organisieren, z. B. alle Aktionen an einem Gerät in einem einzigen Log zusammenfassen, unabhängig vom Szenario."
+
+- id: lumina
+  name: "Lumina"
+  market_id: 4639
+  doc:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/lumina/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/lumina/changelog/"
+    beta: false
+  description:
+    fr_FR: ""
+
+- id: pimpJeedom
+  name: "Pimp my Jeedom"
+  market_id: 4005
+  doc:
+    stable:
+      fr_FR: "https://salvialf.github.io/Salvialf-Documentation/pimpJeedom/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://salvialf.github.io/Salvialf-Documentation/pimpJeedom/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Personnalisez Jeedom en fonction de VOS envies !<br/> Installez facilement les widgets réalisés par Salvialf et les menus de designs réalisés par Noodom et paramétrez les options de personnalisation en quelques clics.<br/> En cas de mise à jour disponible pour un widget un message vous notifie dans Jeedom afin de toujours bénéficier des dernières évolutions.</br> Le plugin inclus également un outil permettant de créer et de gérer les widgets tiers. De nombreuses fonctions sont disponibles : gestion des commandes liées au widget, des paramètres du widget, possibilité d'inclure ou de supprimer des fichiers, éditeur de code et prévisualisation en temps réel.<br/> De nombreuses autres fonctions sont en cours de développement afin de rendre la personnalisation de Jeedom accessible à tout un chacun."
+
+- id: tgw
+  name: "Theengs Gateway"
+  market_id: 4441
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/tgw/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/tgw/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/tgw/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/tgw/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/tgw/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/tgw/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/tgw/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/tgw/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/tgw/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/tgw/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/tgw/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/tgw/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/tgw/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/tgw/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/tgw/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/tgw/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin pour installer et configurer facilement des antennes tournant sous Theengs Gateway qui permet de capter des périphérique bluetooth (BLEA) et les remonter vers Jeedom pour être intégré via le plugin MQTT Discovery"
+    en_US: "Plugin for easy installation and configuration of antennas running under Theengs Gateway that can capture Bluetooth devices (BLEA) and upload them to Jeedom for integration via the MQTT Discovery plugin"
+    es_ES: "Plugin para instalar y configurar fácilmente antenas corriendo bajo Theengs Gateway, que puede captar dispositivos Bluetooth (BLEA) y enviarlos a Jeedom para ser integrados vía el plugin MQTT Discovery"
+    de_DE: "Plugin zur einfachen Installation und Konfiguration von Antennen, die unter Theengs Gateway laufen, das Bluetooth-Geräte (BLEA) empfängt und an Jeedom zurücksendet, um über das MQTT Discovery Plugin integriert zu werden"
+
+- id: webview
+  name: "Webview"
+  market_id: 3089
+  doc:
+    stable:
+      fr_FR: "http://engles.fr/jeedom_webview_docs/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "http://engles.fr/jeedom_webview_docs/fr_FR/#changelog"
+    beta: false
+  description:
+    fr_FR: ""
