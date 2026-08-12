@@ -1,131 +1,131 @@
 # Kalender-Plugin
 
-Das Plugin **Agenda** ermöglicht es Ihnen, Kalender zu verwalten und Aktionen zu Beginn und / oder Ende eines Ereignisses auszulösen.
+Mit dem Plugin **Agenda** können Sie Kalender verwalten und zu Beginn und/oder am Ende eines Termins Aktionen auslösen.
 
-# Configuration
+# Aufbau
 
 ## Plugin Konfiguration
 
-Dieses Plugin erfordert keine spezielle Konfiguration und muss nach der Installation einfach aktiviert werden.
+Dieses Plugin erfordert keine besondere Konfiguration und muss nach der Installation lediglich aktiviert werden.
 
 ## Gerätekonfiguration
 
-Die Ausrüstung ist über das Menü zugänglich **Plugins → Organisation → Agenda**.
+Die Funktionen sind über das Menü **Plugins → Organisation → Kalender** zugänglich.
 
-Auf dieser Seite finden Sie die Liste Ihrer Agendas. Klicken Sie auf eine Agenda, um auf die Konfiguration der entsprechenden Geräte zuzugreifen :
+Auf dieser Seite finden Sie eine Liste Ihrer Kalender. Klicken Sie auf einen Kalender, um die Konfiguration des entsprechenden Geräts aufzurufen:
 
-- **Kalendername** : Gerätenamen-Kalender.
-- **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört.
-- **Kategorie** : Ermöglicht die Auswahl der Gerätekategorie.
-- **Optionen** :
-  - **Aktivieren** : Ermöglicht es, das Gerät aktiv zu machen.
-  - **Sichtbar** : Macht Ausrüstung sichtbar.
+- **Name des Terminkalenders**: Name des Terminkalender-Geräts.
+- **Übergeordnetes Objekt**: Gibt das übergeordnete Objekt an, zu dem das Gerät gehört.
+- **Kategorie**: Hier können Sie die Kategorie des Geräts auswählen.
+- **Optionen**:
+  - **Aktivieren**: Hiermit wird das Gerät aktiviert.
+  - **Sichtbar**: Macht das Gerät sichtbar.
 
-- **Widget** :
-  - **Anzahl der Tage** : Legen Sie die maximale Anzahl von Tagen fest, die auf dem Widget angezeigt werden sollen.
-  - **Anzahl der Veranstaltungen** : Legen Sie die maximale Anzahl von Ereignissen fest, die auf dem Widget angezeigt werden sollen.
+- **Widget**:
+  - **Anzahl der Tage**: Legt die maximale Anzahl der Tage fest, die im Widget angezeigt werden sollen.
+  - **Anzahl der Ereignisse**: Legt die maximale Anzahl der Ereignisse fest, die im Widget angezeigt werden sollen.
 
-- **Liste der Kalenderereignisse** : zeigt die Liste aller Kalenderereignisse an *(ein Klick auf den Namen ermöglicht es Ihnen, das Ereignis zu bearbeiten)*.
+- **Liste der Termine im Kalender**: Zeigt die Liste aller Termine im Kalender an *(durch Klicken auf den Namen kann der Termin bearbeitet werden)*.
 
-Die Registerkarte **Agenda** ermöglicht die Anzeige einer Agenda-Typ-Ansicht mit allen Ereignissen. Sie können sich im Kalender bewegen und ihn nach Jahr, Monat, Woche, Tag oder Wochenplan anzeigen lassen. Ein Klick auf ein Ereignis öffnet das Bearbeitungsfenster für das betreffende Ereignis.
+Über die Registerkarte **Kalender** können Sie eine Kalenderansicht mit allen Terminen anzeigen. Sie können sich im Kalender bewegen und wählen, ob Sie ihn nach Jahr, Monat, Woche, Tag oder Wochenplan anzeigen möchten. Ein Klick auf einen Termin öffnet das Bearbeitungsfenster für den betreffenden Termin.
 
 # Veranstaltungen
 
 ## Erstellung einer Veranstaltung
 
-Um eine neue Veranstaltung zu erstellen, klicken Sie auf die Schaltfläche **Ereignis hinzufügen** von der Konfigurationsseite der Agenda, an die die Veranstaltung angehängt werden muss, oder auf der Schaltfläche **Duplikat** aus dem Konfigurationsfenster einer Veranstaltung, die zur gleichen Agenda gehört.
+Um einen neuen Termin anzulegen, klicken Sie auf der Konfigurationsseite des Kalenders, dem der Termin zugeordnet werden soll, auf die Schaltfläche **Termin hinzufügen** oder im Konfigurationsfenster eines Termins desselben Kalenders auf die Schaltfläche **Duplizieren**.
 
 ## Ereigniskonfiguration
 
-Im Fenster zur Ereigniserstellung / -konfiguration können Sie die für jedes Ereignis spezifischen Parameter, Aktionen und Wiederholungen definieren. Auf der ersten Registerkarte finden Sie :
+Im Fenster zur Erstellung/Konfiguration von Ereignissen können Sie die Parameter, Aktionen und Wiederholungsintervalle für jedes einzelne Ereignis festlegen. Auf der ersten Registerkarte finden Sie:
 
-- **Name der Veranstaltung** : Name Ihrer Veranstaltung.
-- **Auf Widget ausblenden** : erlaubt, dieses Ereignis nicht im Widget anzuzeigen.
-- **Symbol** : ermöglicht das Hinzufügen eines Symbols vor dem Namen des Ereignisses *(Klicken Sie auf den Button "Wählen Sie ein Symbol")*.
-- **Hintergrundfarbe** : ermöglicht es Ihnen, die Hintergrundfarbe des Ereignisses auszuwählen *(Aktivieren Sie das Kontrollkästchen für einen transparenten Hintergrund)*.
-- **Textfarbe** : ermöglicht Ihnen, die Farbe des Ereignistextes zu wählen.
+- **Name der Veranstaltung**: Name Ihrer Veranstaltung.
+- **Im Widget ausblenden**: Damit wird dieses Ereignis im Widget nicht angezeigt.
+- **Symbol**: Hiermit können Sie vor dem Namen des Ereignisses ein Symbol einfügen *(klicken Sie auf die Schaltfläche „Symbol auswählen“)*.
+- **Hintergrundfarbe**: Hier können Sie die Hintergrundfarbe des Ereignisses auswählen *(aktivieren Sie das Kontrollkästchen für einen transparenten Hintergrund)*.
+- **Textfarbe**: Hier können Sie die Farbe des Textes für das Ereignis auswählen.
 
-Oben rechts im Ereignisbearbeitungsfenster befinden sich 3 Schaltflächen:
+Oben rechts im Fenster zur Bearbeitung von Ereignissen befinden sich drei Schaltflächen:
 
-- **Duplikat** : ermöglicht es Ihnen, das Ereignis zu duplizieren, um ein neues zu erstellen *(Denken Sie daran, das so generierte neue Ereignis zu speichern)*.
-- **Speichern** : ermöglicht Ihnen, das Ereignis zu speichern.
-- **Löschen** : ermöglicht es Ihnen, das gesamte Ereignis oder nur ein Ereignis zu löschen.
+- **Duplizieren**: Ermöglicht es, das Ereignis zu duplizieren, um ein neues zu erstellen *(denken Sie daran, das so erstellte neue Ereignis zu speichern)*.
+- **Speichern**: Hiermit können Sie das Ereignis speichern.
+- **Löschen**: Hiermit können Sie das gesamte Ereignis oder nur eine Instanz davon löschen.
 
 ## Aktionen starten / beenden
 
-In dieser Registerkarte können Sie die Aktionen definieren, die zu Beginn und / oder am Ende des Ereignisses ausgeführt werden sollen. Um eine Aktion hinzuzufügen, klicken Sie einfach auf die Schaltfläche **+ Aktion starten / beenden**, Sie können so viele Aktionen hinzufügen, wie Sie möchten.
+Auf dieser Registerkarte können Sie die Aktionen festlegen, die zu Beginn und/oder am Ende des Ereignisses ausgeführt werden sollen. Um eine Aktion hinzuzufügen, klicken Sie einfach auf die Schaltfläche **+ Aktion zu Beginn/am Ende**. Sie können so viele Aktionen hinzufügen, wie Sie möchten.
 
-![Ajouter des actions](./images/calendar_addActions.png)
+![Aktionen hinzufügen](../images/calendar_addActions.png)
 
-Die Aktionen können Standardbefehle von Jeedom sein oder [szenariospezifische Befehle](https://doc.jeedom.com/de_DE/core/4.1/scenario#Les%20commandes%20sp%C3%A9cifiques).
+Aktionen können entweder Standardbefehle von Jeedom oder [szenariospezifische Befehle](https://doc.jeedom.com/fr_FR/core/4.1/scenario#Les%20commandes%20sp%C3%A9cifiques) sein.
 
->**TRICK**
+>**TIPP**
 >
->Es ist möglich, die Reihenfolge der Aktionen durch Ziehen und Ablegen zu ändern.
+>Die Reihenfolge der Aktionen kann per Drag & Drop geändert werden.
 
 ## Programmierung von Veranstaltungen
 
-In dieser Registerkarte finden Sie die gesamte Zeitverwaltung Ihrer Veranstaltung :
+In diesem Reiter finden Sie die gesamte Zeitplanung für Ihre Veranstaltung:
 
-- **Termine** :
-  - **Anfang** : Startdatum des Ereignisses.
-  - **Ende** : Ereignisenddatum *(das Symbol am Ende der Zeile wird verwendet, um das Ereignis über den ganzen Tag zu definieren)*.
-- **Nach Datum einschließen** : ermöglicht Ihnen das Hinzufügen eines Ereignisdatums. Sie können mehrere definieren, indem Sie sie durch trennen ``, (virgules)`` *(exemple: JJJJ-MM-TT, JJJJ-MM-TT)*. Es ist auch möglich, einen Datumsbereich mit zu definieren ``: (deux points)`` *(exemple: AAAA-MM-JJ:AAAA-MM-JJ)*.
-- **Nach Kalender aufnehmen** : ermöglicht Ihnen das Einbeziehen von Ereignissen, die auf denen eines anderen Kalenders oder eines anderen Ereignisses basieren. Sie haben zum Beispiel eine Veranstaltung ``A``, jeden Montag wiederholt, den du in dein aktuelles Event einbeziehst : dann wird dein aktuelles Event auch jeden Montag wiederholt.
-- **Ausschließen nach Datum** : gleich wie **Nach Datum einschließen** sondern Vorkommnisse zu ignorieren.
-- **Nach Kalender ausschließen** : ermöglicht es Ihnen, diese Veranstaltung gemäß einer anderen Agenda oder Veranstaltung auszuschließen *(um zu vermeiden, dass zum Beispiel 2 widersprüchliche Ereignisse zusammen gefunden werden)*.
+- **Termine**:
+  - **Beginn**: Startdatum der Veranstaltung.
+  - **Ende**: Enddatum der Veranstaltung *(mit dem Symbol am Zeilenende können Sie die Veranstaltung auf den ganzen Tag festlegen)*.
+- **Nach Datum einbeziehen**: Ermöglicht das Hinzufügen eines Datums. Sie können mehrere Daten angeben, indem Sie diese durch ``, (Kommas)`` trennen *(Beispiel: JJJJ-MM-TT,JJJJ-MM-TT)*. Es ist auch möglich, einen Datumsbereich mit einem „:“ (Doppelpunkt) festzulegen *(Beispiel: JJJJ-MM-TT:JJJJ-MM-TT)*.
+- **Nach Kalender einbeziehen**: Ermöglicht es, Termine basierend auf denen eines anderen Kalenders oder eines anderen Ereignisses einzubeziehen. Wenn Sie beispielsweise ein Ereignis „A“ haben, das sich jeden Montag wiederholt, und Sie dieses in Ihr aktuelles Ereignis einbeziehen, wird Ihr aktuelles Ereignis ebenfalls jeden Montag wiederholt.
+- **Nach Datum ausschließen**: Wie **Nach Datum einbeziehen**, jedoch zum Ausschluss bestimmter Vorkommen.
+- **Nach Kalender ausschließen**: Ermöglicht es, dieses Ereignis basierend auf einem anderen Kalender oder Ereignis auszuschließen *(um beispielsweise zu vermeiden, dass zwei widersprüchliche Ereignisse gleichzeitig stattfinden)*.
 
 >**INFORMATION**
 >
->Die Optionen **Ausschließen nach Datum** und **Nach Kalender ausschließen** sind nur zugänglich, wenn Ereigniswiederholung aktiviert ist.
+>Die Optionen **Nach Datum ausschließen** und **Nach Kalender ausschließen** sind nur verfügbar, wenn die Wiederholung des Ereignisses aktiviert ist.
 
 ## Wiederholung von Ereignissen
 
-Durch die Wiederholung können Sie das Auftreten Ihrer Ereignisse genau nach Ihren Wünschen konfigurieren :
+Mit der Wiederholungsfunktion können Sie die Häufigkeit Ihrer Ereignisse genau nach Ihren Wünschen einstellen:
 
-- **Aktivieren** : Aktivieren Sie das Kontrollkästchen, um die Wiederholung zu aktivieren und die entsprechenden Optionen anzuzeigen.
-- **Modus - Einzelwiederholung** :
-  - **Wiederholen Sie alle** : ermöglicht Ihnen, die Wiederholungsfrequenz des Ereignisses zu definieren *(alle 3 Tage, alle 2 Monate usw)*.
-  - **Nur die** : Mit dieser Option können Sie die Wiederholung auf bestimmte Wochentage beschränken.
-- **Modus - Erweiterte Wiederholung** :
-  - **Frequenz** : ermöglicht Ihnen zum Beispiel jeden 2. Montag im Monat eine Wiederholung zu wählen...
-- **Einschränkung** : erlaubt den Ausschluss von Feiertagen oder die Beschränkung der Veranstaltung auf Feiertage / gerade Wochen / nur ungerade Wochen.
-- **Bis zu** : letztes Datum des Auftretens des Ereignisses.
+- **Aktivieren**: Aktivieren Sie das Kontrollkästchen, um die Wiederholung zu aktivieren und die entsprechenden Optionen anzuzeigen.
+- **Modus – Einfache Wiederholung**:
+  - **Alle**: Hier können Sie die Wiederholungshäufigkeit des Ereignisses festlegen *(alle 3 Tage, alle 2 Monate usw.…)*.
+  - **Nur an**: Damit können Sie die Wiederholung auf bestimmte Wochentage beschränken.
+- **Modus – Erweiterte Wiederholung**:
+  - **Häufigkeit**: Hier können Sie beispielsweise festlegen, dass die Wiederholung jeden zweiten Montag im Monat stattfindet...
+- **Einschränkung**: Ermöglicht es, Feiertage auszuschließen oder das Ereignis ausschließlich auf Feiertage / gerade Wochen / ungerade Wochen zu beschränken.
+- **Bis**: Spätestes Datum, an dem das Ereignis stattfindet.
 
 >**INFORMATION**
 >
->Feiertage betreffen nur das französische Mutterland.
+>Die Feiertage gelten ausschließlich für das französische Mutterland.
 
 # Tagebuch, Bestellungen und Szenario
 
-Ein Tagebuch hat mehrere Befehle :
+Ein Kalender verfügt über mehrere Befehle:
 
-- **In Bearbeitung** : gibt die Liste der aktuellen Ereignisse durch Kommas getrennt. Um es in einem Szenario zu verwenden, verwenden Sie am einfachsten den Operator *"contient"* (``matches``) Woher *"beinhaltet nicht"* (``not matches``) *(Beispiel : ``[Appartement][test][In Bearbeitung] matches "/Anniv/"`` ist wahr, wenn in der Liste der aktuellen Ereignisse "Anniv")*.
-- **Fügen Sie ein Datum hinzu** : ermöglicht aus einem Szenario ein Datum zu einem Ereignis hinzuzufügen. Sie können mehrere Daten hinzufügen, indem Sie sie durch Kommas trennen *(Seien Sie vorsichtig, wenn Sie den Namen des Ereignisses ändern, er muss im Szenario geändert werden)*.
-- **Entfernen Sie ein Datum** : ermöglicht es, aus einem Szenario ein Datum aus einem Ereignis zu entfernen. Sie können mehrere Datumsangaben entfernen, indem Sie sie durch Kommas trennen *(Seien Sie vorsichtig, wenn Sie den Namen des Ereignisses ändern, er muss im Szenario geändert werden)*.
+- **Laufend**: Gibt eine durch Kommas getrennte Liste der laufenden Ereignisse aus. Um dies in einem Szenario zu verwenden, ist es am einfachsten, den Operator *„enthält“* (``matches``) oder *„enthält nicht“* (``not matches``) zu verwenden *(Beispiel: ``[Wohnung][Test][Laufend] matches „/Geburtstag/“`` ist wahr, wenn in der Liste der laufenden Ereignisse „Geburtstag“ enthalten ist)*.
+- **Datum hinzufügen**: Ermöglicht es, innerhalb eines Szenarios einem Ereignis ein Datum hinzuzufügen. Sie können mehrere Daten hinzufügen, indem Sie diese durch Kommas trennen *(Achtung: Wenn Sie den Namen des Ereignisses ändern, müssen Sie diesen auch im Szenario anpassen)*.
+- **Ein Datum entfernen**: Ermöglicht es, innerhalb eines Szenarios ein Datum aus einem Ereignis zu entfernen. Sie können mehrere Daten entfernen, indem Sie diese durch Kommas trennen *(Achtung: Wenn Sie den Namen des Ereignisses ändern, müssen Sie dies auch im Szenario anpassen)*.
 
 >**INFORMATION**
 >
->Es ist möglich, den Befehl "In Bearbeitung" als Szenario-Trigger zu verwenden. Jede Informationsaktualisierung löst die Ausführung des Szenarios aus, daher ist es vorzuziehen, diesen Befehl in einem Szenario zu verwenden, das mit einem Test auf den Wert programmiert ist.
+>Der Befehl „In Bearbeitung“ kann als Szenarioauslöser verwendet werden. Jede Aktualisierung der Informationen löst die Ausführung des Szenarios aus. Daher empfiehlt es sich, diesen Befehl in einem Szenario zu verwenden, das mit einer Wertprüfung programmiert ist.
 
 >**WICHTIG**
 >
->Achtung, es ist wichtig, keine wiederholten Ereignisse zu erstellen, die sich überschneiden, diese Art von Fall wird nicht vom Plugin verwaltet. Beispiel ein Ereignis, das 48 Stunden dauert und sich jeden Tag wiederholt.
+>Achtung: Es dürfen auf keinen Fall sich wiederholende Ereignisse erstellt werden, die sich selbst überlappen, da solche Fälle vom Plugin nicht unterstützt werden. Beispiel: Ein Ereignis, das 48 Stunden dauert und sich täglich wiederholt.
 
-# API
+# APIs
 
-Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das Plugin:
+Die API basiert auf der JSON-RPC-API und bietet für das Plugin folgende Methoden:
 
-- **event::getAllCalendarAndEvents** können Sie alle Kalender und Ereignisse abrufen
-- **event::getAllEvents** können Sie alle Ereignisse eines Kalenders abrufen
-- **event::byId** ermöglicht das Abrufen eines Ereignisses anhand seiner ID
-- **event::save** ermöglicht es Ihnen, ein Ereignis zu erstellen / zu ändern
-- **event::remove** ermöglicht Ihnen, ein Ereignis zu löschen
+- Mit **event::getAllCalendarAndEvents** können alle Kalender und Veranstaltungen abgerufen werden
+- Mit **event::getAllEvents** können alle Termine eines Kalenders abgerufen werden
+- Mit **event::byId** kann ein Ereignis anhand seiner ID abgerufen werden
+- Mit **event::save** kann ein Ereignis erstellt bzw. geändert werden
+- Mit **event::remove** kann ein Ereignis gelöscht werden
 
 ## event::getAllCalendarAndEvents
 
 **Eingabeparameter**
-/Aucun/
+/Keiner/
 
 ```json
 {
@@ -138,7 +138,7 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 }
 ```
 
-**Ergebnisbeispiel**
+**Beispiel für ein Ergebnis**
 
 ```json
 {
@@ -149,13 +149,13 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
       "id": "641",
       "name": "labo",
       "logicalId": "",
-      "generischer_typ": null,
-      "Objekt Identifikation": null,
+      "generic_type": null,
+      "object_id": null,
       "eqType_name": "calendar",
       "isVisible": "0",
       "isEnable": "1",
       "configuration": {
-        "createtime": "16.03.2023 14:40:50",
+        "createtime": "2023-03-16 14:40:50",
         "nbWidgetDay": 7
       },
       "timeout": null,
@@ -167,7 +167,7 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
       "comment": null,
       "tags": null,
       "status": {
-        "lastCommunication": "17.03.2023 11:02:46",
+        "lastCommunication": "2023-03-17 11:02:46",
         "timeout": 0,
         "warning": 0,
         "danger": 0
@@ -178,18 +178,18 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
           "id": "2",
           "eqLogic_id": "641",
           "cmd_param": {
-            "eventName": "Meine Veranstaltung",
+            "eventName": "Mon event",
             "noDisplayOnDashboard": "0",
             "icon": "",
             "color": "#2980b9",
             "transparent": "0",
-            "Textfarbe": "#ffffff",
+            "text_color": "#ffffff",
             "start": [],
             "end": [],
-            "im Gange": 1
+            "in_progress": 1
           },
-          "startDate": "17.03.2023 10:30:00",
-          "endDate": "17.03.2023 14:30:00",
+          "startDate": "2023-03-17 10:30:00",
+          "endDate": "2023-03-17 14:30:00",
           "repeat": {
             "includeDate": "",
             "includeDateFromCalendar": "",
@@ -218,18 +218,18 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
           "id": "3",
           "eqLogic_id": "641",
           "cmd_param": {
-            "eventName": "Meine Veranstaltung 2",
+            "eventName": "Mon event 2",
             "noDisplayOnDashboard": "0",
             "icon": "",
             "color": "#2980b9",
             "transparent": "0",
-            "Textfarbe": "#ffffff",
+            "text_color": "#ffffff",
             "start": [],
             "end": [],
-            "im Gange": 0
+            "in_progress": 0
           },
-          "startDate": "17.03.2023 11:30:00",
-          "endDate": "17.03.2023 11:45:00",
+          "startDate": "2023-03-17 11:30:00",
+          "endDate": "2023-03-17 11:45:00",
           "repeat": {
             "includeDate": "",
             "includeDateFromCalendar": "",
@@ -258,18 +258,18 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
           "id": "4",
           "eqLogic_id": "641",
           "cmd_param": {
-            "eventName": "Meine Veranstaltung",
+            "eventName": "Mon event",
             "noDisplayOnDashboard": "0",
             "icon": "",
             "color": "#2980b9",
             "transparent": "0",
-            "Textfarbe": "#ffffff",
+            "text_color": "#ffffff",
             "start": [],
             "end": [],
-            "im Gange": 0
+            "in_progress": 0
           },
-          "startDate": "18.03.2023 10:30:00",
-          "endDate": "18.03.2023 14:30:00",
+          "startDate": "2023-03-18 10:30:00",
+          "endDate": "2023-03-18 14:30:00",
           "repeat": {
             "includeDate": "",
             "includeDateFromCalendar": "",
@@ -298,18 +298,18 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
           "id": "5",
           "eqLogic_id": "641",
           "cmd_param": {
-            "eventName": "Meine Veranstaltung",
+            "eventName": "Mon event",
             "noDisplayOnDashboard": "0",
             "icon": "",
             "color": "#2980b9",
             "transparent": "0",
-            "Textfarbe": "#ffffff",
+            "text_color": "#ffffff",
             "start": [],
             "end": [],
-            "im Gange": 0
+            "in_progress": 0
           },
-          "startDate": "18.03.2023 10:40:00",
-          "endDate": "18.03.2023 14:50:00",
+          "startDate": "2023-03-18 10:40:00",
+          "endDate": "2023-03-18 14:50:00",
           "repeat": {
             "includeDate": "",
             "includeDateFromCalendar": "",
@@ -358,7 +358,7 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 }
 ```
 
-**Ergebnisbeispiel**
+**Beispiel für ein Ergebnis**
 
 ```json
 {
@@ -369,18 +369,18 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
       "id": "2",
       "eqLogic_id": "641",
       "cmd_param": {
-        "eventName": "Meine Veranstaltung",
+        "eventName": "Mon event",
         "noDisplayOnDashboard": "0",
         "icon": "",
         "color": "#2980b9",
         "transparent": "0",
-        "Textfarbe": "#ffffff",
+        "text_color": "#ffffff",
         "start": [],
         "end": [],
-        "im Gange": 0
+        "in_progress": 0
       },
-      "startDate": "17.03.2023 10:30:00",
-      "endDate": "17.03.2023 14:30:00",
+      "startDate": "2023-03-17 10:30:00",
+      "endDate": "2023-03-17 14:30:00",
       "repeat": {
         "includeDate": "",
         "includeDateFromCalendar": "",
@@ -409,18 +409,18 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
       "id": "3",
       "eqLogic_id": "641",
       "cmd_param": {
-        "eventName": "Meine Veranstaltung 2",
+        "eventName": "Mon event 2",
         "noDisplayOnDashboard": "0",
         "icon": "",
         "color": "#2980b9",
         "transparent": "0",
-        "Textfarbe": "#ffffff",
+        "text_color": "#ffffff",
         "start": [],
         "end": [],
-        "im Gange": 0
+        "in_progress": 0
       },
-      "startDate": "17.03.2023 11:30:00",
-      "endDate": "17.03.2023 11:45:00",
+      "startDate": "2023-03-17 11:30:00",
+      "endDate": "2023-03-17 11:45:00",
       "repeat": {
         "includeDate": "",
         "includeDateFromCalendar": "",
@@ -449,7 +449,7 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 }
 ```
 
-## event::byId
+## Ereignis::nach-ID
 
 **Eingabeparameter**
 
@@ -467,7 +467,7 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 }
 ```
 
-**Ergebnisbeispiel**
+**Beispiel für ein Ergebnis**
 
 ```json
 {
@@ -477,12 +477,12 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
     "id": "5",
     "eqLogic_id": "641",
     "cmd_param": {
-      "eventName": "Meine Veranstaltung hat sich wieder geändert",
+      "eventName": "Mon event encore modifié",
       "noDisplayOnDashboard": "0",
       "icon": "",
       "color": "#2980b9",
       "transparent": "0",
-      "Textfarbe": "#ffffff",
+      "text_color": "#ffffff",
       "start": [
         {
           "options": {
@@ -510,10 +510,10 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
           "cmd": "#2507#"
         }
       ],
-      "im Gange": 0
+      "in_progress": 0
     },
-    "startDate": "18.03.2023 10:19:00",
-    "endDate": "18.03.2023 11:50:00",
+    "startDate": "2023-03-18 10:19:00",
+    "endDate": "2023-03-18 11:50:00",
     "repeat": {
       "includeDate": "",
       "includeDateFromCalendar": "",
@@ -541,7 +541,7 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 }
 ```
 
-## event::save
+## Ereignis::Speichern
 
 **Eingabeparameter**
 
@@ -558,12 +558,12 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
   "eqLogic_id": "641",
   "id": "5",
   "cmd_param": {
-    "eventName": "Meine Veranstaltung hat sich wieder geändert",
+    "eventName": "Mon event encore modifié",
     "noDisplayOnDashboard": "0",
     "icon": "",
     "color": "#2980b9",
     "transparent": "0",
-    "Textfarbe": "#ffffff",
+    "text_color": "#ffffff",
     "start": [
       {
         "options": {
@@ -592,8 +592,8 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
       }
     ]
   },
-  "startDate": "18.03.2023 10:19:00",
-  "endDate": "18.03.2023 11:50:00",
+  "startDate": "2023-03-18 10:19:00",
+  "endDate": "2023-03-18 11:50:00",
   "repeat": {
     "includeDate": "",
     "includeDateFromCalendar": "",
@@ -622,7 +622,7 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 }
 ```
 
-**Ergebnisbeispiel**
+**Beispiel für ein Ergebnis**
 
 ```json
 {
@@ -632,12 +632,12 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
     "id": null,
     "eqLogic_id": "641",
     "cmd_param": {
-      "eventName": "Meine Veranstaltung hat sich wieder geändert",
+      "eventName": "Mon event encore modifié",
       "noDisplayOnDashboard": "0",
       "icon": "",
       "color": "#2980b9",
       "transparent": "0",
-      "Textfarbe": "#ffffff",
+      "text_color": "#ffffff",
       "start": [
         {
           "options": {
@@ -665,10 +665,10 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
           "cmd": "#2507#"
         }
       ],
-      "im Gange": 0
+      "in_progress": 0
     },
-    "startDate": "18.03.2023 10:19:00",
-    "endDate": "18.03.2023 11:50:00",
+    "startDate": "2023-03-18 10:19:00",
+    "endDate": "2023-03-18 11:50:00",
     "repeat": {
       "includeDate": "",
       "includeDateFromCalendar": "",
@@ -696,7 +696,7 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 }
 ```
 
-## event::remove
+## Ereignis::Entfernen
 
 **Eingabeparameter**
 
@@ -714,7 +714,7 @@ Die API basiert auf der jsonrpc-API, sie bietet die folgenden Methoden für das 
 }
 ```
 
-**Ergebnisbeispiel**
+**Beispiel für ein Ergebnis**
 
 ```json
 {

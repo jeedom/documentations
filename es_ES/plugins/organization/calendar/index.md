@@ -1,138 +1,138 @@
 # Complemento de calendario
 
-El complemento **Calendario** le permite administrar calendarios y activar acciones al inicio y / o al final de un evento.
+El complemento **Agenda** permite gestionar agendas y activar acciones al inicio y/o al final de un evento.
 
-# Configuration
+# Configuración
 
 ## Configuración del plugin
 
-Este complemento no requiere ninguna configuración especial y simplemente debe activarse después de la instalación.
+Este complemento no requiere ninguna configuración especial y solo hay que activarlo tras la instalación.
 
 ## Configuración del equipo
 
-El equipo es accesible desde el menú **Complementos → Organización → Agenda**.
+Se puede acceder a los equipos desde el menú **Plugins → Organización → Agenda**.
 
-En esta página encontrará la lista de sus agendas. Haga clic en una agenda para acceder a la configuración del equipo correspondiente :
+En esta página encontrarás la lista de tus agendas. Haz clic en una agenda para acceder a la configuración del equipo correspondiente:
 
-- **Nombre del calendario** : Calendario de nombres de equipos.
-- **Objeto padre** : Indica el objeto padre al que pertenece el equipo.
-- **Categoría** : Permite elegir la categoría del equipo.
-- **Opciones** :
-  - **Activar** : Permite activar el equipo.
-  - **Visible** : Hace que el equipo sea visible.
+- **Nombre de la agenda**: Nombre del equipo «Agenda».
+- **Objeto principal**: Indica el objeto principal al que pertenece el equipo.
+- **Categoría**: Permite seleccionar la categoría del equipo.
+- **Opciones**:
+  - **Activar**: Permite activar el equipo.
+  - **Visible**: Hace que el equipo sea visible.
 
-- **Widget** :
-  - **Número de días** : establecer el número máximo de días que se mostrarán en el widget.
-  - **Numero de eventos** : establecer el número máximo de eventos que se mostrarán en el widget.
+- **Widget**:
+  - **Número de días**: define el número máximo de días que se mostrarán en el widget.
+  - **Número de eventos**: define el número máximo de eventos que se mostrarán en el widget.
 
-- **Lista de eventos del calendario** : muestra la lista de todos los eventos del calendario *(un clic en el nombre le permite editar el evento)*.
+- **Lista de eventos del calendario**: muestra la lista de todos los eventos del calendario *(al hacer clic en el nombre se puede editar el evento)*.
 
-La tabla **Calendario** le permite mostrar una vista de tipo de agenda que incluye todos los eventos. Puede moverse por el calendario y elegir mostrarlo por año, mes, semana, día o horario semanal. Al hacer clic en un evento, se abre la ventana de edición del evento en cuestión.
+La pestaña **Agenda** permite visualizar una vista tipo agenda que incluye todos los eventos. Puedes desplazarte por la agenda y elegir entre visualizarla por año, mes, semana, día o planificación semanal. Al hacer clic en un evento, se abre la ventana de edición del evento en cuestión.
 
 # Eventos
 
 ## Creación de un evento
 
-Para crear un nuevo evento, haga clic en el botón **Agregar evento** desde la página de configuración de la agenda a la que se debe adjuntar el evento o en el botón **Duplicar** desde la ventana de configuración de un evento perteneciente a la misma agenda.
+Para crear un nuevo evento, haz clic en el botón **Añadir evento** desde la página de configuración del calendario al que se va a vincular el evento, o en el botón **Duplicar** desde la ventana de configuración de un evento que pertenezca al mismo calendario.
 
 ## Configuración de eventos
 
-La ventana de creación / configuración de eventos le permite definir los parámetros, acciones y recurrencia específicos de cada evento. En la primera pestaña, encontrará :
+La ventana de creación/configuración de eventos permite definir los parámetros, las acciones y la periodicidad propios de cada evento. En la primera pestaña encontrarás:
 
-- **Nombre del evento** : Nombre de tu evento.
-- **Ocultar en widget** : permite no mostrar este evento en el widget.
-- **Icono** : le permite agregar un icono delante del nombre del evento *(haga clic en el botón "Elija un icono")*.
-- **Color de fondo** : te permite elegir el color de fondo del evento *(marque la casilla para un fondo transparente)*.
-- **Color del texto** : te permite elegir el color del texto del evento.
+- **Nombre del evento**: nombre de tu evento.
+- **Ocultar en el widget**: permite que este evento no se muestre en el widget.
+- **Icono**: permite añadir un icono delante del nombre del evento *(haz clic en el botón «Elegir un icono»)*.
+- **Color de fondo**: permite elegir el color de fondo del evento *(marca la casilla para un fondo transparente)*.
+- **Color del texto**: permite elegir el color del texto del evento.
 
-En la parte superior derecha de la ventana de edición de eventos hay 3 botones:
+En la parte superior derecha de la ventana de edición de eventos hay tres botones:
 
-- **Duplicar** : te permite duplicar el evento para crear uno nuevo *(recuerde guardar el nuevo evento así generado)*.
-- **Ahorrar** : te permite guardar el evento.
-- **Borrar** : le permite eliminar todo el evento o solo una ocurrencia.
+- **Duplicar**: permite duplicar el evento para crear uno nuevo *(no olvides guardar el nuevo evento así generado)*.
+- **Guardar**: permite guardar el evento.
+- **Eliminar**: permite eliminar el evento completo o solo una instancia.
 
 ## Acciones de inicio / finalización
 
-En esta pestaña podrás definir las acciones a realizar al inicio y / o al final del evento. Para agregar una acción, simplemente haga clic en el botón **+ Acción de inicio / fin**, puedes agregar tantas acciones como quieras.
+En esta pestaña podrás definir las acciones que se llevarán a cabo al inicio y/o al final del evento. Para añadir una acción, solo tienes que hacer clic en el botón **+ Acción de inicio/fin**; puedes añadir tantas acciones como desees.
 
-![Ajouter des actions](./images/calendar_addActions.png)
+![Añadir acciones](../images/calendar_addActions.png)
 
-Las acciones pueden ser comandos estándar de Jeedom o [comandos específicos del escenario](https://doc.jeedom.com/es_ES/core/4.1/scenario#Les%20commandes%20sp%C3%A9cifiques).
+Las acciones pueden ser comandos estándar de Jeedom o bien [comandos específicos de escenario](https://doc.jeedom.com/fr_FR/core/4.1/scenario#Les%20commandes%20sp%C3%A9cifiques).
 
->**TRUCO**
+>**CONSEJO**
 >
->Es posible cambiar el orden de las acciones arrastrando y soltando.
+>Es posible modificar el orden de las acciones arrastrando y soltando.
 
 ## Programación de eventos
 
-Es en esta pestaña donde puedes encontrar toda la gestión del tiempo de tu evento :
+En esta pestaña se encuentra toda la gestión temporal de tu evento:
 
-- **Fechas** :
-  - **Inicio** : Fecha de inicio del evento.
-  - **Final** : Fecha de finalización del evento *(el icono al final de la línea se utiliza para definir el evento durante todo el día)*.
-- **Incluir por fecha** : le permite agregar una fecha de ocurrencia. Puede definir varios separándolos por ``, (virgules)`` *(exemple: AAAA-MM-DD, AAAA-MM-DD)*. También es posible definir un rango de fechas con ``: (deux points)`` *(exemple: AAAA-MM-JJ:AAAA-MM-JJ)*.
-- **Incluir por calendario** : le permite incluir ocurrencias basadas en las de otro calendario u otro evento. Por ejemplo, tienes un evento ``A``, repetido todos los lunes, que incluye en su evento actual : entonces su evento actual también se repetirá todos los lunes.
-- **Excluir por fecha** : igual que **Incluir por fecha** pero ignorar los sucesos.
-- **Excluir por calendario** : le permite excluir este evento de acuerdo con otra agenda o evento *(para evitar que 2 eventos contradictorios se encuentren juntos por ejemplo)*.
+- **Fechas**:
+  - **Inicio**: fecha de inicio del evento.
+  - **Fin**: fecha de finalización del evento *(el icono al final de la línea permite configurar el evento para que dure todo el día)*.
+- **Incluir por fecha**: permite añadir una fecha de ocurrencia. Puedes definir varias separándolas con ``, (comas)`` *(ejemplo: AAAA-MM-DD,AAAA-MM-DD)*. También es posible definir un intervalo de fechas con «: (dos puntos)» *(ejemplo: AAAA-MM-DD:AAAA-MM-DD)*.
+- **Incluir según el calendario**: permite incluir entradas en función de las de otro calendario o de otro evento. Por ejemplo, si tienes un evento «A», que se repite todos los lunes, y lo incluyes en tu evento actual, tu evento actual también se repetirá todos los lunes.
+- **Excluir por fecha**: igual que **Incluir por fecha**, pero para ignorar entradas.
+- **Excluir por agenda**: permite excluir este evento en función de otra agenda o evento *(por ejemplo, para evitar que dos eventos contradictorios coincidan)*.
 
 >**INFORMACIÓN**
 >
->Las opciones **Excluir por fecha** y **Excluir por calendario** solo son accesibles si la repetición de eventos está activada.
+>Las opciones **Excluir por fecha** y **Excluir por agenda** solo están disponibles si se ha activado la repetición del evento.
 
 ## Repetición de eventos
 
-La repetición le permitirá configurar las ocurrencias de sus eventos exactamente como desee :
+La repetición te permitirá configurar la frecuencia de tus eventos exactamente como desees:
 
-- **Activar** : marque la casilla para activar la repetición y mostrar las opciones correspondientes.
-- **Modo - Repetición única** :
-  - **Repite cada** : le permite definir la frecuencia de repetición del evento *(cada 3 días, cada 2 meses, etc)*.
-  - **Solo el** : le permite restringir la repetición a ciertos días de la semana.
-- **Modo: repetición avanzada** :
-  - **Frecuencia** : le permite elegir una repetición cada segundo lunes del mes, por ejemplo...
-- **Restricción** : permite excluir días festivos o restringir el evento a días festivos / semanas pares / semanas impares solamente.
-- **Hasta** : última fecha de ocurrencia del evento.
+- **Activar**: marca la casilla para activar la repetición y mostrar las opciones correspondientes.
+- **Modo - Repetición simple**:
+  - **Repetir cada**: permite definir la frecuencia de repetición del evento *(cada 3 días, cada 2 meses, etc.)*.
+  - **Solo los**: permite limitar la repetición a determinados días de la semana.
+- **Modo - Repetición avanzada**:
+  - **Frecuencia**: permite elegir una repetición, por ejemplo, cada segundo lunes del mes...
+- **Restricción**: permite excluir los días festivos o limitar el evento únicamente a los días festivos, las semanas pares o las semanas impares.
+- **Hasta**: fecha límite en la que se produce el evento.
 
 >**INFORMACIÓN**
 >
->Los días festivos solo conciernen a la Francia metropolitana.
+>Los días festivos solo se aplican a Francia metropolitana.
 
 # Diario, pedidos y escenario
 
-Un diario tiene varios comandos :
+Una agenda tiene varios comandos:
 
-- **En curso** : da la lista de eventos actuales separados por comas. Para usarlo en un escenario, la forma más fácil es usar el operador *"contient"* (``matches``) Dónde *"no contiene"* (``not matches``) *(ejemplo : ``[Appartement][test][En curso] matches "/Anniv/"`` será verdadero si en la lista de eventos actuales hay "Anniv")*.
-- **Agregar una fecha** : permite, desde un escenario, agregar una fecha a un evento. Puede agregar varias fechas separándolas con comas *(tenga cuidado si cambia el nombre del evento, tendrá que cambiarse en el escenario)*.
-- **Eliminar una fecha** : permite, de un escenario, eliminar una fecha de un evento. Puede eliminar varias fechas separándolas con comas *(tenga cuidado si cambia el nombre del evento, tendrá que cambiarse en el escenario)*.
+- **En curso**: muestra la lista de eventos en curso separados por comas. Para utilizarlo en un escenario, lo más sencillo es emplear el operador *«contiene»* (``matches``) o *«no contiene»* (``not matches``) *(ejemplo: ``[Piso][prueba][En curso] matches "/Cumpleaños/"`` será verdadero si en la lista de eventos en curso aparece «Cumpleaños»)*.
+- **Añadir una fecha**: permite, desde un escenario, añadir una fecha a un evento. Puedes añadir varias fechas separándolas con comas *(atención: si cambias el nombre del evento, tendrás que modificarlo en el escenario)*.
+- **Eliminar una fecha**: permite, desde un escenario, eliminar una fecha de un evento. Puedes eliminar varias fechas separándolas con comas *(atención: si cambias el nombre del evento, tendrás que modificarlo en el escenario)*.
 
 >**INFORMACIÓN**
 >
->Es posible utilizar el comando "En curso" como desencadenante de escenario. Cada actualización de información desencadenará la ejecución del escenario, por lo que es preferible utilizar este comando en un escenario programado con una prueba sobre el valor.
+>Es posible utilizar el comando «En curso» como activador de un escenario. Cada actualización de la información activará la ejecución del escenario, por lo que es preferible utilizar este comando en un escenario programado con una comprobación del valor.
 
 >**IMPORTANTE**
 >
->Atención, es importante no hacer eventos repetidos que se superponen a sí mismos, este tipo de casos no son administrados por el complemento. Ejemplo un evento que dura 48 horas y se repite todos los días.
+>Atención: es muy importante que no se creen eventos que se repitan y se solapen entre sí, ya que el complemento no gestiona este tipo de casos. Por ejemplo, un evento que dure 48 horas y se repita todos los días.
 
 # API
 
-La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complemento:
+La API se basa en la API JSON-RPC y ofrece los siguientes métodos para el complemento:
 
-- **event::getAllCalendarAndEvents** le permite recuperar todos los calendarios y eventos
-- **event::getAllEvents** le permite recuperar todos los eventos de un calendario
-- **event::byId** permite recuperar un evento según su ID
-- **event::save** le permite crear / modificar un evento
-- **event::remove** le permite eliminar un evento
+- **event::getAllCalendarAndEvents** permite recuperar todos los calendarios y eventos
+- **event::getAllEvents** permite recuperar todos los eventos de un calendario
+- **event::byId** permite recuperar un evento en función de su ID
+- **event::save** permite crear o modificar un evento
+- **event::remove** permite eliminar un evento
 
 ## event::getAllCalendarAndEvents
 
 **Parámetros de entrada**
-/Aucun/
+/Ninguno/
 
 ```json
 {
     "jsonrpc": "2.0",
     "method": "event::getAllCalendarAndEvents",
     "params": {
-        "apikey": "0EVJcR8UyTBlhUFYbcbombaAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
+        "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
         "plugin": "calendar"
     }
 }
@@ -149,8 +149,8 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
       "id": "641",
       "name": "labo",
       "logicalId": "",
-      "tipo genérico": null,
-      "id_objeto": null,
+      "generic_type": null,
+      "object_id": null,
       "eqType_name": "calendar",
       "isVisible": "0",
       "isEnable": "1",
@@ -178,15 +178,15 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
           "id": "2",
           "eqLogic_id": "641",
           "cmd_param": {
-            "eventName": "Mi evento",
+            "eventName": "Mon event",
             "noDisplayOnDashboard": "0",
             "icon": "",
             "color": "#2980b9",
             "transparent": "0",
-            "color de texto": "#ffffff",
+            "text_color": "#ffffff",
             "start": [],
             "end": [],
-            "en curso": 1
+            "in_progress": 1
           },
           "startDate": "2023-03-17 10:30:00",
           "endDate": "2023-03-17 14:30:00",
@@ -218,15 +218,15 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
           "id": "3",
           "eqLogic_id": "641",
           "cmd_param": {
-            "eventName": "Mi evento 2",
+            "eventName": "Mon event 2",
             "noDisplayOnDashboard": "0",
             "icon": "",
             "color": "#2980b9",
             "transparent": "0",
-            "color de texto": "#ffffff",
+            "text_color": "#ffffff",
             "start": [],
             "end": [],
-            "en curso": 0
+            "in_progress": 0
           },
           "startDate": "2023-03-17 11:30:00",
           "endDate": "2023-03-17 11:45:00",
@@ -258,15 +258,15 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
           "id": "4",
           "eqLogic_id": "641",
           "cmd_param": {
-            "eventName": "Mi evento",
+            "eventName": "Mon event",
             "noDisplayOnDashboard": "0",
             "icon": "",
             "color": "#2980b9",
             "transparent": "0",
-            "color de texto": "#ffffff",
+            "text_color": "#ffffff",
             "start": [],
             "end": [],
-            "en curso": 0
+            "in_progress": 0
           },
           "startDate": "2023-03-18 10:30:00",
           "endDate": "2023-03-18 14:30:00",
@@ -298,15 +298,15 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
           "id": "5",
           "eqLogic_id": "641",
           "cmd_param": {
-            "eventName": "Mi evento",
+            "eventName": "Mon event",
             "noDisplayOnDashboard": "0",
             "icon": "",
             "color": "#2980b9",
             "transparent": "0",
-            "color de texto": "#ffffff",
+            "text_color": "#ffffff",
             "start": [],
             "end": [],
-            "en curso": 0
+            "in_progress": 0
           },
           "startDate": "2023-03-18 10:40:00",
           "endDate": "2023-03-18 14:50:00",
@@ -351,7 +351,7 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
     "jsonrpc": "2.0",
     "method": "event::getAllEvents",
     "params": {
-        "apikey": "0EVJcR8UyTBlhUFYbcbombaAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
+        "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
         "plugin": "calendar",
         "eqLogic_id": 641
     }
@@ -369,15 +369,15 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
       "id": "2",
       "eqLogic_id": "641",
       "cmd_param": {
-        "eventName": "Mi evento",
+        "eventName": "Mon event",
         "noDisplayOnDashboard": "0",
         "icon": "",
         "color": "#2980b9",
         "transparent": "0",
-        "color de texto": "#ffffff",
+        "text_color": "#ffffff",
         "start": [],
         "end": [],
-        "en curso": 0
+        "in_progress": 0
       },
       "startDate": "2023-03-17 10:30:00",
       "endDate": "2023-03-17 14:30:00",
@@ -409,15 +409,15 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
       "id": "3",
       "eqLogic_id": "641",
       "cmd_param": {
-        "eventName": "Mi evento 2",
+        "eventName": "Mon event 2",
         "noDisplayOnDashboard": "0",
         "icon": "",
         "color": "#2980b9",
         "transparent": "0",
-        "color de texto": "#ffffff",
+        "text_color": "#ffffff",
         "start": [],
         "end": [],
-        "en curso": 0
+        "in_progress": 0
       },
       "startDate": "2023-03-17 11:30:00",
       "endDate": "2023-03-17 11:45:00",
@@ -460,9 +460,9 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
     "jsonrpc": "2.0",
     "method": "event::byId",
     "params": {
-        "apikey": "0EVJcR8UyTBlhUFYbcbombaAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
+        "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
         "plugin": "calendar",
-        "evento_id": 5
+        "event_id": 5
     }
 }
 ```
@@ -477,12 +477,12 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
     "id": "5",
     "eqLogic_id": "641",
     "cmd_param": {
-      "eventName": "Mi evento cambió de nuevo",
+      "eventName": "Mon event encore modifié",
       "noDisplayOnDashboard": "0",
       "icon": "",
       "color": "#2980b9",
       "transparent": "0",
-      "color de texto": "#ffffff",
+      "text_color": "#ffffff",
       "start": [
         {
           "options": {
@@ -510,7 +510,7 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
           "cmd": "#2507#"
         }
       ],
-      "en curso": 0
+      "in_progress": 0
     },
     "startDate": "2023-03-18 10:19:00",
     "endDate": "2023-03-18 11:50:00",
@@ -552,18 +552,18 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
     "jsonrpc": "2.0",
     "method": "event::save",
     "params": {
-        "apikey": "0EVJcR8UyTBlhUFYbcbombaAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
+        "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
         "plugin": "calendar",
         "event":    {
   "eqLogic_id": "641",
   "id": "5",
   "cmd_param": {
-    "eventName": "Mi evento cambió de nuevo",
+    "eventName": "Mon event encore modifié",
     "noDisplayOnDashboard": "0",
     "icon": "",
     "color": "#2980b9",
     "transparent": "0",
-    "color de texto": "#ffffff",
+    "text_color": "#ffffff",
     "start": [
       {
         "options": {
@@ -632,12 +632,12 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
     "id": null,
     "eqLogic_id": "641",
     "cmd_param": {
-      "eventName": "Mi evento cambió de nuevo",
+      "eventName": "Mon event encore modifié",
       "noDisplayOnDashboard": "0",
       "icon": "",
       "color": "#2980b9",
       "transparent": "0",
-      "color de texto": "#ffffff",
+      "text_color": "#ffffff",
       "start": [
         {
           "options": {
@@ -665,7 +665,7 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
           "cmd": "#2507#"
         }
       ],
-      "en curso": 0
+      "in_progress": 0
     },
     "startDate": "2023-03-18 10:19:00",
     "endDate": "2023-03-18 11:50:00",
@@ -696,7 +696,7 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
 }
 ```
 
-## event::remove
+## evento::eliminar
 
 **Parámetros de entrada**
 
@@ -707,9 +707,9 @@ La api se basa en la api jsonrpc, ofrece los siguientes métodos para el complem
     "jsonrpc": "2.0",
     "method": "event::remove",
     "params": {
-        "apikey": "0EVJcR8UyTBlhUFYbcbombaAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
+        "apikey": "0EVJcR8UyTBlhUFYbcpumplfAMWBc2aYHtNAc0RPFdeIrlnXBRhnSNqiiQdrR5dt",
         "plugin": "calendar",
-        "evento_id": 5
+        "event_id": 5
     }
 }
 ```

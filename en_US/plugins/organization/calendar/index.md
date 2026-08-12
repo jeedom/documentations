@@ -1,131 +1,131 @@
 # Calendar plugin
 
-The plugin **Agenda** allows you to manage calendars and trigger actions at the start and / or end of an event.
+The **Agenda** plugin lets you manage calendars and trigger actions at the start and/or end of an event.
 
-# Configuration
+# Setup
 
 ## Plugin configuration
 
-This plugin does not require any special configuration and must simply be activated after installation.
+This plugin does not require any special configuration and simply needs to be activated after installation.
 
 ## Equipment configuration
 
-The equipment is accessible from the menu **Plugins → Organization → Agenda**.
+You can access the settings from the **Plugins → Organization → Calendar** menu.
 
-On this page you will find the list of your Agendas. Click on an agenda to access the configuration of the corresponding equipment :
+On this page, you'll find a list of your schedules. Click on a schedule to access the settings for the corresponding device:
 
-- **Calendar name** : Equipment Name Calendar.
-- **Parent object** : Indicates the parent object to which the equipment belongs.
-- **Category** : Allows you to choose the category of the equipment.
-- **Options** :
-  - **Activate** : Allows to make the equipment active.
-  - **Visible** : Makes equipment visible.
+- **Calendar Name**: Name of the Calendar device.
+- **Parent Object**: Specifies the parent object to which the device belongs.
+- **Category**: Allows you to select the category of the device.
+- **Options**:
+  - **Activate**: Turns the device active.
+  - **Visible**: Makes the device visible.
 
-- **Widget** :
-  - **Number of days** : set the maximum number of days to display on the widget.
-  - **Number of events** : set the maximum number of events to display on the widget.
+- **Widget**:
+  - **Number of days**: Sets the maximum number of days to display on the widget.
+  - **Number of events**: Sets the maximum number of events to display on the widget.
 
-- **List of calendar events** : displays the list of all calendar events *(a click on the name allows you to edit the event)*.
+- **Calendar Event List**: Displays a list of all calendar events *(click on a name to edit the event)*.
 
-The tab **Agenda** allows you to display an agenda type view including all events. You can move around in the calendar, choose to display it by year, month, week, day or weekly schedule. Clicking on an event opens the editing window for the event concerned.
+The **Calendar** tab displays a calendar type view that includes all events. You can navigate through the calendar and choose to view it by year, month, week, day, or weekly schedule. Clicking on an event opens the edit window for that event.
 
 # Events
 
 ## Creation of an event
 
-To create a new event, click on the button **Add event** from the configuration page of the agenda to which the event must be attached or on the button **Duplicate** from the configuration window of an event belonging to the same agenda.
+To create a new event, click the **Add Event** button on the calendar configuration page to which the event should be linked, or click the **Duplicate** button in the configuration window for an event belonging to the same calendar.
 
 ## Event configuration
 
-The event creation / configuration window allows you to define the parameters, actions and recurrence specific to each event. On the first tab, you find :
+The event creation/configuration window allows you to define the settings, actions, and recurrence specific to each event. On the first tab, you’ll find:
 
-- **Name of the event** : Name of your event.
-- **Hide on Widget** : allows not to display this event on the widget.
-- **Icon** : allows you to add an icon in front of the name of the event *(click on the button "Choose an icon")*.
-- **Background color** : allows you to choose the background color of the event *(check the box for a transparent background)*.
-- **Text color** : allows you to choose the color of the event text.
+- **Event Name**: Name of your event.
+- **Hide on the widget**: Prevents this event from being displayed on the widget.
+- **Icon**: Allows you to add an icon before the event name *(click the "Choose an icon" button)*.
+- **Background Color**: Allows you to choose the background color of the event *(check the box for a transparent background)*.
+- **Text Color**: Allows you to choose the color of the event text.
 
-At the top right of the event editing window are 3 buttons:
+In the upper-right corner of the event editing window, there are three buttons:
 
-- **Duplicate** : allows you to duplicate the event to create a new one *(remember to save the new event thus generated)*.
-- **Save** : allows you to save the event.
-- **To delete** : allows you to delete the entire event or just one occurrence.
+- **Duplicate**: allows you to duplicate the event to create a new one *(be sure to save the new event that is created)*.
+- **Save**: Saves the event.
+- **Delete**: Deletes the entire event or just a single occurrence.
 
 ## Start / end actions
 
-In this tab, you will be able to define the actions to be performed at the start and / or at the end of the event. To add an action, just click on the button **+ Start / end action**, you can add as many actions as you want.
+In this tab, you can define the actions to be performed at the start and/or end of the event. To add an action, simply click the **+ Start/End Action** button; you can add as many actions as you like.
 
-![Ajouter des actions](./images/calendar_addActions.png)
+![Add actions](../images/calendar_addActions.png)
 
-The actions can be standard Jeedom commands or [scenario specific commands](https://doc.jeedom.com/en_US/core/4.1/scenario#Les%20commandes%20sp%C3%A9cifiques).
+Actions can be standard Jeedom commands or [scenario-specific commands](https://doc.jeedom.com/fr_FR/core/4.1/scenario#Les%20commandes%20sp%C3%A9cifiques).
 
->**TRICK**
+>**TIP**
 >
->It is possible to change the order of actions by dragging and dropping.
+>You can change the order of actions using drag-and-drop.
 
 ## Programming of events
 
-It is in this tab that you can find all the time management of your event :
+This tab contains all the scheduling options for your event:
 
-- **Dates** :
-  - **Start** : Event start date.
-  - **End** : Event end date *(the icon at the end of the line is used to define the event over the whole day)*.
-- **Include by date** : allows you to add an occurrence date. You can define several by separating them by ``, (virgules)`` *(exemple: YYYY-MM-DD, YYYY-MM-DD)*. It is also possible to define a date range with ``: (deux points)`` *(exemple: AAAA-MM-JJ:AAAA-MM-JJ)*.
-- **Include by calendar** : allows you to include occurrences based on those of another calendar or another event. For example, you have an event ``A``, repeated every Monday, which you include in your current event : then your current event will also be repeated every Monday.
-- **Exclude by date** : same as **Include by date** but to ignore occurrences.
-- **Exclude by calendar** : allows you to exclude this event according to another agenda or event *(to avoid that 2 contradictory events are found together for example)*.
+- **Dates**:
+  - **Start**: the event's start date.
+  - **End**: Event end date *(the icon at the end of the line lets you set the event to last all day)*.
+- **Include by Date**: allows you to add a date of occurrence. You can specify multiple dates by separating them with ``, (commas)`` *(example: YYYY-MM-DD,YYYY-MM-DD)*. It is also possible to define a date range using ``: (colon)`` *(example: YYYY-MM-DD:YYYY-MM-DD)*.
+- **Include by calendar**: allows you to include occurrences based on those of another calendar or another event. For example, if you have an event ``A`` that repeats every Monday and you include it in your current event, your current event will also repeat every Monday.
+- **Exclude by date**: Same as **Include by date**, but used to ignore certain instances.
+- **Exclude by calendar**: allows you to exclude this event based on another calendar or event *(to prevent two conflicting events from occurring at the same time, for example)*.
 
 >**INFORMATION**
 >
->The options **Exclude by date** and **Exclude by calendar** are only accessible if event repetition is activated.
+>The **Exclude by Date** and **Exclude by Calendar** options are only available if the event is set to repeat.
 
 ## Repetition of events
 
-Repetition will allow you to configure the occurrences of your events exactly as you wish :
+The "Repeat" feature allows you to configure the frequency of your events exactly as you wish:
 
-- **Activate** : check the box to activate the repetition and display the corresponding options.
-- **Mode - Single repeat** :
-  - **Repeat every** : allows you to define the repetition frequency of the event *(every 3 days, every 2 months, etc)*.
-  - **Only the** : allows you to restrict repetition to certain days of the week.
-- **Mode - Advanced repeat** :
-  - **Frequency** : allows you to choose a repetition every 2nd Monday of the month for example...
-- **Restriction** : allows to exclude public holidays or to restrict the event to public holidays / even weeks / odd weeks only.
-- **Until** : last date of occurrence of the event.
+- **Enable**: Check the box to enable the repeat function and display the corresponding options.
+- **Mode - Single Repeat**:
+  - **Repeat every**: allows you to set the frequency at which the event repeats *(every 3 days, every 2 months, etc…​)*.
+  - **Only on**: allows you to restrict the repeat to certain days of the week.
+- **Mode - Advanced Repeat**:
+  - **Frequency**: allows you to set a recurring event, for example, every second Monday of the month...
+- **Restriction**: Allows you to exclude holidays or restrict the event to holidays / even weeks / odd weeks only.
+- **Until**: the latest date on which the event occurs.
 
 >**INFORMATION**
 >
->Public holidays only concern metropolitan France.
+>Public holidays apply only to metropolitan France.
 
 # Diary, orders and scenario
 
-A diary has several commands :
+A calendar has several commands:
 
-- **Running** : gives the list of current events separated by commas. To use it in a scenario, the easiest way is to use the operator *"contient"* (``matches``) Where *"does not contain"* (``not matches``) *(example : ``[Appartement][test][Running] matches "/Anniv/"`` will be true if in the list of current events there is "Anniv")*.
-- **Add a date** : allows, from a scenario, to add a date to an event. You can add multiple dates by separating them with commas *(be careful if you change the name of the event, it will have to be changed in the scenario)*.
-- **Remove a date** : allows, from a scenario, to remove a date from an event. You can remove multiple dates by separating them with commas *(be careful if you change the name of the event, it will have to be changed in the scenario)*.
+- **In Progress**: Returns a comma-separated list of events currently in progress. To use this in a scenario, the simplest way is to use the *"contains"* (``matches``) or *"does not contain"* (``not matches``) operator *(example: ``[Apartment][test][In Progress] matches "/Birthday/"`` will be true if "Birthday" is in the list of current events)*.
+- **Add a Date**: Allows you to add a date to an event from within a scenario. You can add multiple dates by separating them with commas *(note: if you change the event’s name, you’ll need to update it in the scenario)*.
+- **Remove a Date**: Allows you to remove a date from an event within a scenario. You can remove multiple dates by separating them with commas *(note: if you change the event name, you’ll need to update it in the scenario)*.
 
 >**INFORMATION**
 >
->It is possible to use the "In progress" command as a scenario trigger. Each information update will trigger the execution of the scenario, so it is preferable to use this command in a scenario programmed with a test on the value.
+>You can use the "In Progress" command as a scenario trigger. Each time the information is updated, the scenario will run; therefore, it is best to use this command in a scheduled scenario that includes a value check.
 
 >**IMPORTANT**
 >
->Attention it is important not to make repeated event that overlaps itself, this kind of case is not managed by the plugin. Example an event that lasts 48 hours and repeats every day.
+>Please note: You must not create a repeating event that overlaps with itself, as the plugin does not handle this type of situation. For example, an event that lasts 48 hours and repeats every day.
 
-# API
+# APIs
 
-The api is based on the jsonrpc api, it offers the following methods for the plugin:
+The API is based on the JSON-RPC API and provides the following methods for the plugin:
 
-- **event::getAllCalendarAndEvents** allows you to retrieve all the calendars and events
-- **event::getAllEvents** allows you to retrieve all the events of a calendar
-- **event::byId** allows to retrieve an event according to its ID
-- **event::save** allows you to create / modify an event
-- **event::remove** allows you to delete an event
+- **event::getAllCalendarAndEvents** retrieves all calendars and events
+- **event::getAllEvents** retrieves all events from a calendar
+- **event::byId** retrieves an event based on its ID
+- **event::save** allows you to create or modify an event
+- **event::remove** removes an event
 
 ## event::getAllCalendarAndEvents
 
-**Input parameters**
-/Aucun/
+**Input Parameters**
+/None/
 
 ```json
 {
@@ -138,7 +138,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
 }
 ```
 
-**Example of result**
+**Example result**
 
 ```json
 {
@@ -178,7 +178,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
           "id": "2",
           "eqLogic_id": "641",
           "cmd_param": {
-            "eventName": "My event",
+            "eventName": "Mon event",
             "noDisplayOnDashboard": "0",
             "icon": "",
             "color": "#2980b9",
@@ -218,7 +218,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
           "id": "3",
           "eqLogic_id": "641",
           "cmd_param": {
-            "eventName": "My event 2",
+            "eventName": "Mon event 2",
             "noDisplayOnDashboard": "0",
             "icon": "",
             "color": "#2980b9",
@@ -258,7 +258,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
           "id": "4",
           "eqLogic_id": "641",
           "cmd_param": {
-            "eventName": "My event",
+            "eventName": "Mon event",
             "noDisplayOnDashboard": "0",
             "icon": "",
             "color": "#2980b9",
@@ -298,7 +298,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
           "id": "5",
           "eqLogic_id": "641",
           "cmd_param": {
-            "eventName": "My event",
+            "eventName": "Mon event",
             "noDisplayOnDashboard": "0",
             "icon": "",
             "color": "#2980b9",
@@ -342,7 +342,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
 
 ## event::getAllEvents
 
-**Input parameters**
+**Input Parameters**
 
 - eqLogic_id /int/
 
@@ -358,7 +358,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
 }
 ```
 
-**Example of result**
+**Example result**
 
 ```json
 {
@@ -369,7 +369,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
       "id": "2",
       "eqLogic_id": "641",
       "cmd_param": {
-        "eventName": "My event",
+        "eventName": "Mon event",
         "noDisplayOnDashboard": "0",
         "icon": "",
         "color": "#2980b9",
@@ -409,7 +409,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
       "id": "3",
       "eqLogic_id": "641",
       "cmd_param": {
-        "eventName": "My event 2",
+        "eventName": "Mon event 2",
         "noDisplayOnDashboard": "0",
         "icon": "",
         "color": "#2980b9",
@@ -451,7 +451,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
 
 ## event::byId
 
-**Input parameters**
+**Input Parameters**
 
 - event_id /int/
 
@@ -467,7 +467,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
 }
 ```
 
-**Example of result**
+**Example result**
 
 ```json
 {
@@ -477,7 +477,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
     "id": "5",
     "eqLogic_id": "641",
     "cmd_param": {
-      "eventName": "My event changed again",
+      "eventName": "Mon event encore modifié",
       "noDisplayOnDashboard": "0",
       "icon": "",
       "color": "#2980b9",
@@ -543,7 +543,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
 
 ## event::save
 
-**Input parameters**
+**Input Parameters**
 
 - event /json object/
 
@@ -558,7 +558,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
   "eqLogic_id": "641",
   "id": "5",
   "cmd_param": {
-    "eventName": "My event changed again",
+    "eventName": "Mon event encore modifié",
     "noDisplayOnDashboard": "0",
     "icon": "",
     "color": "#2980b9",
@@ -622,7 +622,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
 }
 ```
 
-**Example of result**
+**Example result**
 
 ```json
 {
@@ -632,7 +632,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
     "id": null,
     "eqLogic_id": "641",
     "cmd_param": {
-      "eventName": "My event changed again",
+      "eventName": "Mon event encore modifié",
       "noDisplayOnDashboard": "0",
       "icon": "",
       "color": "#2980b9",
@@ -698,7 +698,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
 
 ## event::remove
 
-**Input parameters**
+**Input Parameters**
 
 - event_id /int/
 
@@ -714,7 +714,7 @@ The api is based on the jsonrpc api, it offers the following methods for the plu
 }
 ```
 
-**Example of result**
+**Example result**
 
 ```json
 {

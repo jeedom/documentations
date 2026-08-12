@@ -55,7 +55,7 @@ En haut à droite de la fenêtre d'édition des évènements se trouvent 3 bouto
 
 Dans cet onglet, vous allez pouvoir définir les actions à effectuer au début et/ou à la fin de l’évènement. Pour ajouter une action, il suffit de cliquer sur le bouton **+ Action de début/fin**, vous pouvez ajouter autant d'actions que vous le souhaitez.
 
-![Ajouter des actions](./images/calendar_addActions.png)
+![Ajouter des actions](../images/calendar_addActions.png)
 
 Les actions peuvent être des commandes Jeedom standards ou bien [des commandes spécifiques de scénario](https://doc.jeedom.com/fr_FR/core/4.1/scenario#Les%20commandes%20sp%C3%A9cifiques).
 

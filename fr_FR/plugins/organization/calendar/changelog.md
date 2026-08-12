@@ -4,6 +4,23 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 12/08/2026
+
+- Correction de 2 erreurs fatales pouvant apparaître lors de la restauration d'une sauvegarde
+- Nouvelle méthode de traduction de la documentation et du changelog
+
+# 09/06/2026
+
+- Mise à jour de la librairie `fullcalendar` de 6.1.9 vers 6.1.20
+
+# 08/06/2026
+
+- Remplacement de jQuery par du JavaScript natif dans les vues bureau
+- Blocage et confirmation de fermeture de la fenêtre d'édition d'un évènement en cours de modification
+- Correction de plusieurs anomalies d'affichage dans la liste des évènements
+- Prise en charge des traductions sur le widget
+- Version minimale du core Jeedom requise : 4.4.12
+
 # 26/08/2024
 
 - Correction d'un bug sur la répetition d'un evenement toute les heures

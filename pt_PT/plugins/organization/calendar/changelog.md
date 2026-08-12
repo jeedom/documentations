@@ -4,7 +4,22 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 09/06/2026
+
+- Mise à jour de la librairie `fullcalendar` de 6.1.9 vers 6.1.20
+
+# 08/06/2026
+
+- Remplacement de jQuery par du JavaScript natif dans les vues bureau
+- Blocage et confirmation de fermeture de la fenêtre d'édition d'un évènement en cours de modification
+- Correction de plusieurs anomalies d'affichage dans la liste des évènements
+- Prise en charge des traductions sur le widget
+- Versão mínima do núcleo do Jeedom necessária : 4.4.12
+
+# 26/08/2024
+
 - Corrigido um bug na repetição de um evento a cada hora
+- Suporte para imagens de equipamentos personalizados (Jeedom 4.5)
 
 # 23/01/2024
 
