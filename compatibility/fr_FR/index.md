@@ -112,65 +112,39 @@ Les identifiants, par défaut, pour accéder à la console système *(clavier/é
 
 ## Equipements compatibles
 
-Vous trouverez ici pour les protocoles principaux les liens vers les équipements compatibles.
-Pour les autres nous vous invitons à regarder directement la documentation du plugin.
+En fonction des protocoles et des plugins utilisés, il n'est pas toujours facile de savoir si un module sera bien pris en charge. Afin de vous aider à identifier la bonne compatiblité de votre matériel, vous pouvez vous appuyer sur le site [Compatibilité Jeedom](https://compatibility.jeedom.com/){:target="_blank"} dont la liste est maintenue à jour par les plugins eux-mêmes.
+
+En complément, les informations de ce site peuvent être recoupées avec celles disponibles sur le site de vente en ligne de matériel domotique [Domadoo](https://www.domadoo.fr/){:target="_blank"}.
+
+Ci-dessous quelques exemples de liens à consulter selon le protocole concerné :
 
 ### Bluetooth
 
-Vous trouverez [ici](https://compatibility.jeedom.com/index.php?p=home&plugin=blea) la liste des modules Bluetooth compatibles Jeedom.
+- [**Compatibilité Jeedom - Bluetooth**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=Bluetooth){:target="_blank"}
 
 ### Caméras
 
-Vous trouverez [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=camera) la liste des caméras compatibles Jeedom.
-
-### Edisio
-
-Vous trouverez [ici](../edisio/equipement.compatible) la liste des modules Edisio compatibles Jeedom et [ici](../edisio/) la documentation pour certains modules.
+- [**Compatibilité Jeedom - Caméras**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=IP){:target="_blank"}
+- [**Domadoo - Caméras**](https://www.domadoo.fr/fr/128-cameras-connectees){:target="_blank"}
 
 ### EnOcean
 
-Contrôleur EnOcean :
-
--   [clé USB EnOcean USB300](https://www.domadoo.fr/fr/interface-domotique/3206-enocean-controleur-usb-enocean-avec-connecteur-sma-3700527400280.html)
--   [clé USB EnOcean USB310 (Recommandé)](https://www.domadoo.fr/fr/interface-domotique/2433-enocean-controleur-usb-enocean-3700527400273.html)
-
-Vous trouverez [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) la liste des modules EnOcean compatibles Jeedom.
+- [**Compatibilité Jeedom - EnOcean**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=EnOcean){:target="_blank"}
+- [**Domadoo - EnOcean**](https://www.domadoo.fr/fr/225-domotique-enocean){:target="_blank"}
 
 ### RFXcom
 
-Contrôleur RFXcom :
-
--   RFXtrx433 USB
--   [RFXtrx433E USB (Recommandé)](https://www.domadoo.fr/fr/interface-domotique/4659-rfxcom-interface-radio-recepteuremetteur-xl-43392mhz-usb-chacon-somfy-rts-oregon-et-autres.html)
-
-Vous trouverez [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=rfxcom) la liste des modules Rfxcom compatibles Jeedom et [ici](../rfxcom/) la documentation pour certains modules.
-
-### SMS (GSM)
-
--   HUAWEI E220 (Recommandé)
--   Alcatel one touch X220L
--   HSDPA 7.2MBPS 3G Wireless
+- [**Compatibilité Jeedom - RFXcom**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=Rfxcom){:target="_blank"}
 
 ### Zigbee
 
-Contrôleur Zigbee :
+- [**Compatibilité Jeedom - Zigbee**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=zigbee){:target="_blank"}
+- [**Domadoo - Zigbee**](https://www.domadoo.fr/fr/206-produits-zigbee){:target="_blank"}
 
-- [Phoscon Conbee I/II](https://www.domadoo.fr/fr/interface-domotique/4974-phoscon-passerelle-universelle-zigbee-usb-conbee-ii-4260350821328.html)
-- [Zigate (beta)](https://www.domadoo.fr/fr/interface-domotique/5734-lixee-dongle-usb-zigbee-zigate-v2-compatible-jeedom-eedomus-domoticz-3770014375094.html?search_query=zigate&results=106)
-- [Popp (Elelabs) - Recommandée](https://www.domadoo.fr/fr/interface-domotique/5431-popp-dongle-usb-zigbee-zb-stick-chipset-efr32mg13-4251295701554.html)
+### Z-Wave
 
-Vous trouverez [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) la liste des modules Zigbee compatibles Jeedom.
-
-### Z-wave
-
-Contrôleur Z-WAVE :
-
--   SIGMA DESIGNS Contrôleur Z-Wave Plus USB
--   Z-WAVE.ME - Mini contrôleur USB Z-Wave Plus UZB1
--   AEON LABS Contrôleur Z-Wave Aeon Labs Z-Stick S2
--   [AEON LABS - Contrôleur USB Z-Wave Plus Z-Stick GEN5 (Recommandé)](https://www.domadoo.fr/fr/interface-domotique/2917-aeotec-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html?search_query=sigma&results=4)
-
-Vous trouverez [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openzwave) la liste des modules Z-Wave compatibles Jeedom et [ici](../zwave/) la documentation pour certains modules.
+- [**Compatibilité Jeedom - Z-Wave**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=Z-Wave){:target="_blank"}
+- [**Domadoo - Z-Wave**](https://www.domadoo.fr/fr/210-produits-zwave){:target="_blank"}
 
 ## Exemple de montage DIY
 
