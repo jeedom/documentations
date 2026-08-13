@@ -4,5 +4,5 @@
 
 # Contributing
 
-- FR : [Contribuer aux documentations](#contribuer-aux-documentations)
-- EN : [Contribute to documentations](#contribute-to-documentations)
+- FR : [Contribuer aux documentations](README.md#contribuer-aux-documentations)
+- EN : [Contribute to documentations](README.md#contribute-to-documentations)
