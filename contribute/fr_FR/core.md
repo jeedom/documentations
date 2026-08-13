@@ -1,4 +1,4 @@
-# Contribuer au core ou aux plugins
+# Contribuer au core et aux plugins
 
 Jeedom est un logiciel open-source dont le code est consultable sur [GitHub](https://github.com/jeedom/core/tree/develop){:target="_blank"} et qui est ouvert aux contributions des développeurs tiers.
 
@@ -26,7 +26,7 @@ Que vous soyez développeur confirmé ou pas, chacun a son rôle à jouer pour p
 
 ### Documentation développeurs
 
-Nous vous recommandons de prendre régulièrement connaissance des documentations relatives au [développement du core](/dev/core) ou au [développement d'un plugin](/dev/) afin d'appliquer les rêgles établies et d'être certain de respecter les normes de Jeedom.
+Nous vous recommandons de prendre régulièrement connaissance des documentations relatives au [développement du core](/dev/core) ou au [développement d'un plugin](/dev/) afin d'appliquer les règles établies et être certain de respecter les normes de Jeedom.
 
 ### Forum développeurs
 
