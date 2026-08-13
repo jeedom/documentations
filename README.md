@@ -1,4 +1,5 @@
-<img align="right" src="assets/img/logo.png" width="120">
+---
+<img align="right" src="assets/img/logo.png" width="150">
 
 # FR
 
@@ -39,9 +40,8 @@ Sauf indication contraire, **les modifications doivent impérativement être sou
 
 Il est également possible de contribuer aux plugins dont les dépôts sont publics. Dans la grande majorité des cas, **les modifications doivent être soumises sur la branche `beta`**.
 
-------------
-
-<img align="right" src="assets/img/logo.png" width="120">
+---
+<img align="right" src="assets/img/logo.png" width="150">
 
 # EN
 
