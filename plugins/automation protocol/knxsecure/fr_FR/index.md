@@ -217,6 +217,21 @@ Trois modes de regroupement :
 
 > Si vous choisissez *Par fonction* mais que le projet ne contient aucune fonction ETS, le plugin bascule **automatiquement** sur le mode *Par dossier*. Le **type d'équipement** (lampe, volet…) et les DPT sont devinés depuis ETS ; vérifiez le résultat avant de valider.
 
+### Comprendre les icônes de la prévisualisation
+
+Chaque ligne de commande affiche **deux pastilles distinctes**, à droite du champ d'adresse — elles ne disent pas la même chose :
+
+| Icône | Signification | Que faire |
+|---|---|---|
+| ✅ **cercle vert** | Une adresse de groupe a bien été trouvée pour cette commande. | Rien, c'est le cas normal. |
+| ⚠️ **cercle orange** (à la place du vert) | Le champ d'adresse est **vide** : aucune GA n'a pu être associée. | Saisissez l'adresse à la main, ou laissez vide (la commande sera créée sans adresse). |
+| ⚠️ **triangle orange** (colonne suivante) | Cette adresse est **déjà utilisée par un équipement Jeedom existant**. Survolez l'icône : l'infobulle donne le nom (« Déjà utilisée par *Équipement · Commande* »). | Vérifiez que vous ne créez pas un doublon qui piloterait les mêmes adresses. |
+| 🕘 **petite horloge bleue** (à côté du nom) | L'adresse affichée a été **restaurée de votre édition précédente**, mémorisée dans le cache du projet. | Rien, vos modifications manuelles ont été conservées. |
+
+Le vert et le triangle apparaissent donc **souvent ensemble** : l'adresse est valide *et* déjà prise ailleurs. Si **toutes** vos lignes portent le triangle, c'est le signe que ce projet a déjà été importé (ou migré depuis eibd) — relancer la création produirait des équipements en double.
+
+> Les adresses déjà utilisées sont **pénalisées** lors de l'association automatique (le plugin préfère une adresse libre) mais restent proposées faute de mieux : c'est à vous de trancher.
+
 ---
 
 ## Migration depuis le plugin eibd
