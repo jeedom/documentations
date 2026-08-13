@@ -186,9 +186,9 @@
       submenu: [
         { link: "/dev", fr_FR: "Plugins", en_US: "Plugins", es_ES: "Complementos", de_DE: "Plugins", pt_PT: "Plugins" },
         { link: "/dev/core", fr_FR: "Core", en_US: "Core", es_ES: "Core", de_DE: "Core", pt_PT: "Core" },
-        { link: "/core/api_http", fr_FR: "Api HTTP", en_US: "Api HTTP", es_ES: "Api HTTP", de_DE: "Api HTTP", pt_PT: "Api HTTP" },
-        { link: "/core/jsonrpc_api", fr_FR: "API JsonRPC", en_US: "API JsonRPC", es_ES: "API JsonRPC", de_DE: "API JsonRPC", pt_PT: "API JsonRPC" },
-        { link: "/phpdoc", newTab: true, fr_FR: "PhpDoc", en_US: "PhpDoc", es_ES: "PhpDoc", de_DE: "PhpDoc", pt_PT: "PhpDoc" },
+        { link: "/core/api_http", fr_FR: "API HTTP", en_US: "API HTTP", es_ES: "API HTTP", de_DE: "API HTTP", pt_PT: "API HTTP" },
+        { link: "/core/jsonrpc_api", fr_FR: "API JSON-RPC", en_US: "API JSON-RPC", es_ES: "API JSON-RPC", de_DE: "API JSON-RPC", pt_PT: "API JSON-RPC" },
+        { link: "/phpdoc", newTab: true, fr_FR: "PHPDoc", en_US: "PHPDoc", es_ES: "PHPDoc", de_DE: "PHPDoc", pt_PT: "PHPDoc" },
       ]
     }, {
       divider: true
