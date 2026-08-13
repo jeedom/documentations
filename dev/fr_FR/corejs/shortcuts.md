@@ -3,9 +3,9 @@
 
 Le Core v4.4+ propose plusieurs raccourcis permettant d'écrire plus facilement et rapidement certaines fonctions.
 
-Ces raccourcis sont définit dans le fichier `core/dom/dom.ui.js`.
+Ces raccourcis sont définis dans le fichier `core/dom/dom.ui.js`.
 
-> La plupart de ces méthodes retourne l'élément ou la liste d'éléments appelé(e). Ce qui permet de chaîner les méthodes, par exemple myEl.empty().addClass('newClass').
+> La plupart de ces méthodes retournent l'élément ou la liste d'éléments appelé(e). Ce qui permet de chaîner les méthodes, par exemple myEl.empty().addClass('newClass').
 
 ### isVisible() / isHidden()
 
@@ -122,7 +122,7 @@ document.querySelectorAll('div.myclass').remove()
 
 `querySelector()` permet de sélectionner le premier élément. Cette méthode permet de sélectionner le dernier élément d'une liste.
 
-`closestAll()` permet de sélectionner tous les parents, et renvoit une liste d'éléments.
+`closestAll()` permet de sélectionner tous les parents, et renvoie une liste d'éléments.
 
 ````js
 {% raw %}
@@ -151,7 +151,7 @@ document.querySelector('input.useroption').insertAtCursor(resultString)
 
 *HTMLSelectElement.prototype.sortOptions* 
 
-Tri les options d'un select
+Trie les options d'un select
 
 ````js
 {% raw %}
@@ -170,7 +170,7 @@ document.querySelector('select.class').sortOptions(false)
 Permet d'injecter une string html dans un élément.
 
 - _htmlString : La string html à injecter.  
-- _append (boolean : default(false)): Par défaut, html() remplace contenu de l'élément. Permet de conserver le contenu existant en faisant un *append*.  
+- _append (boolean : default(false)): Par défaut, html() remplace le contenu de l'élément. Permet de conserver le contenu existant en faisant un *append*.  
 - _callback : La méthode étant asynchrone, _callback est une fonction exécutée en sortie.
 
 ````js
