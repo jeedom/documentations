@@ -1,22 +1,20 @@
-<img align="right" src="https://www.jeedom.com/site/logo.png" width="100">
+<img align="right" src="assets/img/logo.png" width="120">
 
 # FR
 
-- [Consulter la documentation Jeedom](https://doc.jeedom.com/fr_FR/)
+Le site regroupant les documentations Jeedom est consultable à l'adresse suivante : <https://doc.jeedom.com/home/fr_FR/>.
 
 ## Contribuer aux documentations
 
->**IMPORTANT**
->
->A lire impérativement avant toute intervention : [**Comment contribuer aux documentations Jeedom ?**](https://doc.jeedom.com/fr_FR/contribute/doc)
+> [!IMPORTANT]
+> Veuillez lire la page [**Contribuer aux documentations**](https://doc.jeedom.com/contribute/fr_FR/doc) avant toute intervention.
 
 ### Documentation générale
 
-Les pages de documentation générale Jeedom sont directement accessibles sur ce dépôt, dans le dossier `fr_FR` : <https://github.com/jeedom/documentations/tree/master/fr_FR>.
+Les pages de documentation générale Jeedom sont directement accessibles sur ce dépôt. Chaque section dispose de son propre dossier *(compatibility, contribute, dev, etc.)*, les contributions devant être soumises dans le dossier `fr_FR` de la section concernée uniquement.
 
->**IMPORTANT**
->
->Les contributions peuvent être apportées dans tous les dossiers **sauf `core`, `plugins` et `plugins_contributor`**. Ces pages sont automatiquement générées depuis les dépôts du core ou des plugins Jeedom, les éventuelles modifications dans ces dossiers seraient automatiquement écrasées.
+> [!CAUTION]
+> Les contributions peuvent être apportées dans tous les dossiers **sauf `core`, `plugins` et `plugins_contributor`**. Ces pages sont générées depuis les dépôts du core et des plugins Jeedom, d'éventuelles modifications dans ces dossiers seraient écrasées dès le lendemain. La documentation `PHPDoc` est également générée automatiquement et ne doit donc pas être modifiée manuellement non plus.
 
 ### Documentation du core
 
@@ -26,56 +24,66 @@ La documentation relative au core Jeedom *(manuels d'utilisation et de configura
 
 Comme pour le core Jeedom, la documentation des plugins officiels est automatiquement générée depuis le dossier `docs/fr_FR` du dépôt du plugin concerné.
 
-## Contribuer au développement du core
+## Contribuer au développement
 
->**IMPORTANT**
->
->A lire impérativement avant toute intervention : [**Comment contribuer au développement du core Jeedom ?**](https://doc.jeedom.com/fr_FR/contribute/core)
+> [!IMPORTANT]
+> Veuillez lire la page [**Contribuer au core et aux plugins**](https://doc.jeedom.com/contribute/fr_FR/core) avant toute intervention.
+
+### Core
 
 Tout comme la documentation, le core Jeedom est open source et ouvert aux contributions. L'intégralité du code est consultable à cette adresse : <https://github.com/jeedom/core/tree/develop>.
+
 Sauf indication contraire, **les modifications doivent impérativement être soumises sur la branche `develop`**.
+
+### Plugins
+
+Il est également possible de contribuer aux plugins dont les dépôts sont publics. Dans la grande majorité des cas, **les modifications doivent être soumises sur la branche `beta`**.
 
 ------------
 
-<img align="right" src="https://www.jeedom.com/site/logo.png" width="100">
+<img align="right" src="assets/img/logo.png" width="120">
 
 # EN
 
-- [View Jeedom documentation](https://doc.jeedom.com/en_US/)
+The website gathering the Jeedom documentation is available at the following address: <https://doc.jeedom.com/home/en_US/>.
 
 ## Contribute to documentations
 
->**IMPORTANT**
->
->Must be read before any intervention : [**How to contribute to Jeedom documentations ?**](https://doc.jeedom.com/en_US/contribute/doc)
+> [!IMPORTANT]
+> Please read the [**Contribute to documentations**](https://doc.jeedom.com/contribute/en_US/doc) page before any intervention.
 
 ### General documentation
 
-The general Jeedom documentation pages are directly accessible on this repository, in the folder `fr_FR` : <https://github.com/jeedom/documentations/tree/master/fr_FR>.
+The general Jeedom documentation pages are directly accessible on this repository. Each section has its own folder *(compatibility, contribute, dev, etc.)*, contributions must only be submitted in the `fr_FR` folder of the relevant section.
 
->**IMPORTANT**
->
->Contributions can be made to any folder **except `core`, `plugins` and `plugins_contributor`**. These pages are automatically generated from the Jeedom core or plugin repositories, so any modifications to these folders will be automatically overwritten.
+> [!CAUTION]
+> Contributions can be made to any folder **except `core`, `plugins` and `plugins_contributor`**. These pages are generated from the Jeedom core and plugin repositories, any changes made to these folders would be overwritten by the next day. The `PHPDoc` documentation is also automatically generated and must not be modified manually either.
 
 ### Core documentation
 
-Documentation relative to the Jeedom core *(user and configuration manuals)* can be found in the folder `docs/fr_FR` from core repository : <https://github.com/jeedom/core/tree/develop/docs/fr_FR>. The `develop` branch is preferred for contributions.
+Documentation relative to the Jeedom core *(user and configuration manuals)* can be found in the `docs/fr_FR` folder of the core repository: <https://github.com/jeedom/core/tree/develop/docs/fr_FR>. The `develop` branch should be preferred for contributions.
 
 ### Plugins documentation
 
-As with the Jeedom core, officials plugins documentations are automatically generated from the `docs/fr_FR` folder of the related plugin repository.
+As with the Jeedom core, the documentation for official plugins is automatically generated from the `docs/fr_FR` folder of the relevant plugin repository.
 
-## Contribute to the development of the Core
+## Contribute to development
 
->**IMPORTANT**
->
->Must be read before any intervention : [**How to contribute to Jeedom core development ?**](https://doc.jeedom.com/en_US/contribute/core)
+> [!IMPORTANT]
+> Please read the [**Contribute to the core and plugins**](https://doc.jeedom.com/contribute/en_US/core) page before any intervention.
 
-Like documentation, the Jeedom core is open source and open to contributions. The complete code can be consulted at this address : <https://github.com/jeedom/core/tree/develop>.
-Unless otherwise indicated, **modifications must be submitted on the `develop` branch**.
+### Core
+
+Like the documentation, the Jeedom core is open source and open to contributions. The full code is available at this address: <https://github.com/jeedom/core/tree/develop>.
+
+Unless otherwise indicated, **modifications must imperatively be submitted on the `develop` branch**.
+
+### Plugins
+
+It is also possible to contribute to plugins whose repositories are public. In most cases, **modifications must be submitted on the `beta` branch**.
 
 ------------
 
 <p align="center">
-<img src="https://doc.jeedom.com/img/img_home.png" width="80%">
+<img src="home/images/img_home.png" width="80%">
 </p>
