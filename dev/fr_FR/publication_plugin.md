@@ -1,77 +1,73 @@
-# Comment publier le plugin sur le market
+# Publier un plugin sur le market
 
 ## Pré-requis
 
-- S’être inscrit en tant que dev, voir [ici](index).
-- Avoir attendu la validation du compte market comme développeur.
-- Vérifier sur Community que vous avez accès à "Salon des développeurs".
-- Avoir mis votre plugin sur github (dépôt privé ou non).
-- Présentez votre plugin dans le "Salon des développeurs" et "Présentation plugin"
+- Etre inscrit en tant que developpeur sur le market, voir [Développement de plugin > Compte développeur](index#Compte%20développeur),
+- Avoir déposé son plugin sur GitHub *(dépôt privé ou non)*.
+- Présenter son plugin sur le forum dans le [**Salon des développeurs**, catégorie **Présentation Plugin**](https://community.jeedom.com/c/developpeur-developpeurs/presentation-plugin/20){:target="_blank"}.
 
-## Présentation plugin
+>**INFORMATION**
+>
+>Si vous êtes bien inscrit en tant que développeur sur le market mais que vous n'avez pas accès en écriture au Salon des développeurs du forum pour pouvoir publier un message, il faut ouvrir une demande de support.
 
-Pourquoi présenter son plugin !
+## Présentation du plugin
 
-Pour éviter de travailler dans son coin et de voir à la fin un autre dev sortir la même chose.  
-Pour obtenir de l’aide sur la conception de celui-ci.  
-Pour permettre à l’équipe Jeedom lors d’un ToStable de connaître à quoi sert votre Plugin et comment il est codé.  
-Pour partager vos idées et vos remarques :wink:  
+Il est indispensable d'avoir rédigé la présentation de son plugin sur le forum pour soumettre une demande de passage en version stable.
 
-Nous ne vous demandons pas une dissertation sur vos plugins mais juste des infos :
+Nous conseillons de rédiger cette présentation dès sa première publication en bêta voire même dès que celui-ci est fonctionnel via un simple lien GitHub. Il y a en effet plusieurs avantages à présenter son plugin rapidement :
+- éviter de voir un autre développeur proposer le même plugin,
+- obtenir de l’aide pour la conception,
+- permettre à l’équipe Jeedom de savoir à quoi sert le plugin et comment il est codé,
+- comparer ses idées et remarques avec celles des utilisateurs.
 
-- Nom et id > Z-Wave (openzwave) // vous pouvez mettre cela en titre de votre sujet.
-- ce que fait votre plugin
-- type de langages utilisés
-- Utilise-t-il un démon ? des dépendances particulières ? des crons ?
-- Possède-t-il un panel dédié ?
-- Payant | gratuit ? (si vous avez déjà une idée)
-- Lien GitHub ou autre site de dépôt (si vous le souhaitez)
-- Lien vers la documentation
-De là un tag sera attribué par un modérateur à votre Plugin
+### Format de la présentation
 
-Vous avez aussi plusieurs tag a votre disposition, pour l’équipe Jeedom puisse vous avertir plus facilement :
+A chaque développeur de voir les informations qu'il veut fournir, officiellement seuls les champs suivants sont requis :
+- **Nom** et **id**
+- **Description des fonctionnalités**
+- **Langages utilisés** *(PHP, Javascript, Python, Node.js, C, etc.)*
+- Utilise-t-il un **démon** ? des **dépendances** ? des **crons** ? des **listeners** ?
+- Possède-t-il un **panel** *(dashboard et/ou mobile)* ?
+- Est-il **gratuit** ou **payant** ?
+- **Lien GitHub** *(sauf si le dépôt est privé)*
+- **Lien vers la documentation** *(si disponible)*
 
-demon (si vous avez un démon)  
-dependance_intall (si vous avez des installation de dépendance)  
-nodejs ou python (language utilisé dans votre démon)  
-cron (si vous utiliser le moteur cron de Jeedom)  
-jsonrpc (si vous utiliser l’api jsonrpc de Jeedom)  
-idée, beta, stable, prive (selon ou en est votre plugin)  
-gratuit, payant  
-panel-dash, panel-mob (si vous avez un panel dans votre plugin)  
+### Étiquettes
 
-## Configuration
+Différentes étiquettes *(ou tags)* sont disponibles sur le forum pour pouvoir catégoriser votre plugin :
+- **dependance_intall** : installe des dépendances
+- **demon** : utilise un démon
+- **nodejs** ou **python** : language utilisé par le démon
+- **jsonrpc** : utilise API JSON-RPC de Jeedom
+- **panel-dash** : genère un panel dédié
+- **beta** ou **stable** : statut du plugin
+- **gratuit** ou **payant** : tarification du plugin
 
-Une fois connecté avec votre compte dev sur le market il faut :
+Une fois le plugin validé en stable, une étiquette dédiée doit lui être attribuée sous la forme `plugin-ID_PLUGIN` afin de pouvoir facilement retrouver les sujets le concernant. Si ce tag n'était pas créé pour une raison ou une autre, vous pouvez ouvrir un sujet sur le forum ou une demande de support.
 
-- Cliquer sur market puis sur ajouter
-- Renseigner les informations sur votre plugin :
-  - Général :
-    - Prix.
-    - Id (celui dans le fichier info.json).
-    - Nom.
-    - Catégorie.
-    - Si il est privé ou non.
-  - Documentation et liens (Ces informations sont basé sur le fichier info.json de votre plugin)
-    - La description (bien mettre les points importants, la plupart des utilisateurs ne vont pas voir la documentation avant l'achat).
-    - Les langues.
-    - Le matériel compatible
-    - Une note sur l'utilisation si nécessaire.
-  - Github : c'est ici que vous aller mettre les information entre le market et Github.
-    - Le token (cela permet de remonter les infos du plugin dans la documentation jeedom). Vous pouvez le créer sur la page Github suivante : https://github.com/settings/tokens, choisir `token classic` ou `fine-grained` (dans ce cas lecture seul suffit), `aucune expiration` et cocher la partie `repo`.
-    - Votre nom d'utilisateur github.
-    - Le nom du dépôt sur github.
-    - Cocher la case pour que le market gère la traduction de votre plugin et de la documentation (attention dans ce cas à bien donner tous les droits à l'utilisateur `jeedom-market` de github sur votre dépot github).
+## Publication
 
-   Une fois sauvegardé, en retournant dans l'onglet github, vous pourrez indiquer les branches de votre github qui correspondent aux versions du market (pensez à cliquer sur `Valider` avant de cliquer sur `Test/Synchroniser`) :
+Pour publier un nouveau plugin, il faut se connecter au market avec son compte développeur puis cliquer sur le menu **Market** et **Ajouter**. Il ne reste plus qu'à renseigner les informations sur le plugin :
+- Général :
+  - Prix
+  - ID
+  - Nom
 
-   - Beta  (par exemple: beta)
-   - Stable  (par exemple: master)
-   - V3 (seulement si vous avez une branche différente pour le support de Jeedom v3).
+- Source du dépot
+  - Token *(permet l'accès aux dépôts privés)*. Pour créer un token il suffit de se rendre à cette [page Github](https://github.com/settings/tokens){:target="_blank"}, choisir `token classic` ou `fine-grained`, `aucune expiration` et cocher la partie `repo`
+  - Nom d'utilisateur du dépôt GitHub
+  - Nom du dépôt GitHub
 
-   La synchronisation se fait soit automatiquement tous les jours à 12h10 (attention de part le nombre de plugin et les restrictions d'appels API, la mise à jour commence à 12h10 mais peut prendre plusieurs dizaine d'heure), soit via une synchronisation manuelle d'une branche à partir de la fiche plugin.
-   
-   
-   > **Note**
-   > Vous avez un compte market avec un nom différent de community et vous désirez publier sous le nom de community.
-   > Allez sur votre compte market dans "Mon profil".  Dans la zone "Pour les développeurs", vous pouvez indiquer dans le champ auteur votre nom de community. 
+Une fois ces informations renseignées vous pouvez cliquer sur le bouton **VALIDER**. Si tout est bien configuré, le market devrait effectuer une première synchronisation du plugin. Il ne reste ensuite qu'à éditer la fiche du plugin pour renseigner les différentes branches *(pensez à cliquer sur **VALIDER** avant de faire un **TEST**)* :
+  - **Beta** : `beta` par exemple
+  - **Stable** : `master` par exemple
+
+>**INFORMATION**
+>
+>Par défaut, votre nom d'auteur de plugin est votre identifiant Market. Pour le changer, rendez vous sur votre **Profil** Market et renseignez la case **Auteur** de la section **Pour les développeurs**.
+
+### Synchronisation
+
+Les plugins sont tous synchronisés automatiquement avec le Market chaque jour à partir d'1 heure du matin. Il est également possible de procéder à une synchronisation manuelle d'une branche précise en cliquant sur le bouton **GitHub beta** ou **Github stable** depuis la fiche Market du plugin.
+
+C'est cette étape de synchronisation *(quotidienne automatiquement ou manuelle)* qui déclenche une alerte de mise à jour du plugin chez les utilisateurs et la mise à jour de la fiche Market.
