@@ -38,7 +38,7 @@ La actualización del sistema se llevará a cabo la próxima vez que se inicie e
 
 >**INFORMACIÓN**
 >
->Para preparar «manualmente» una restauración automática, sin pasar por la herramienta Jeedom, basta con enviar una imagen del sistema compatible renombrada como `JeedomSystemUpdate.img.gz` en la sección `/install/update` de Jeedom *(`/var/www/html/install/update/JeedomSystemUpdate.img.gz`)*.
+>Para preparar «manualmente» una restauración automática, sin pasar por la herramienta Jeedom, basta con enviar una imagen del sistema compatible renombrada como `JeedomSystemUpdate.img.gz` en la carpeta `/install/update` de Jeedom *(`/var/www/html/install/update/JeedomSystemUpdate.img.gz`)*.
 
 ### Modo USB
 

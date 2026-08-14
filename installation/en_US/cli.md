@@ -50,11 +50,11 @@ Once logged in to the system with a user account that has administrative privile
 
 The Jeedom installation script offers various options for customizing each instance:
 
-- **Database** (`-d`): Enables or disables the database managed by Jeedom *(`1` (by default)*
-- **Type of installation** (`-i`): Defines the type of installation *(`standard` (by default)*
-- **Step** (`-s`): executes a specific step *(`0` (by default)*
-- **Version** (`-v`): selects a Jeedom development branch *(`master` (by default)*
-- **Installation Guide** (`-w`): directory where to install Jeedom *(`/var/www/html` (by default)*
+- **Database** (`-d`): Enables or disables the database managed by Jeedom *(`1` by default)*
+- **Type of installation** (`-i`): Defines the type of installation *(`standard` by default)*
+- **Step** (`-s`): executes a specific step *(`0` by default)*
+- **Version** (`-v`): selects a Jeedom development branch *(`master` by default)*
+- **Installation Folder** (`-w`): directory where to install Jeedom *(`/var/www/html` by default)*
 
 ## Hardware Compatibility
 

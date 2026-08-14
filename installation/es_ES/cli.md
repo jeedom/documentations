@@ -54,7 +54,7 @@ El script de instalación de Jeedom dispone de diferentes opciones que permiten 
 - **Tipo de instalación** (`-i`): Define el tipo de instalación *(`standard` por defecto)*
 - **Etapa** (`-s`): ejecuta un paso específico *(`0` por defecto)*
 - **Versión** (`-v`): selecciona una rama de desarrollo de Jeedom *(`master` por defecto)*
-- **Expediente de instalación** (`-w`): directorio donde instalar Jeedom *(`/var/www/html` por defecto)*
+- **Carpeta de instalación** (`-w`): directorio donde instalar Jeedom *(`/var/www/html` por defecto)*
 
 ## Compatibilidad de hardware
 

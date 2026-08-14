@@ -50,11 +50,11 @@ Sobald Sie sich mit einem Benutzer mit Administratorrechten beim System angemeld
 
 Das Jeedom-Installationsskript verfügt über verschiedene Optionen, mit denen sich jede Instanz individuell anpassen lässt:
 
-- **Datenbank** (`-d`): Installiert die von Jeedom verwaltete Datenbank oder nicht *(`1` (Standard)*
-- **Art der Installation** (`-i`): Legt die Art der Installation fest *(`standard` (Standard)*
-- **Schritt** (`-s`): Führt einen bestimmten Schritt aus *(`0` (Standard)*
-- **Version** (`-v`): Wählt einen Jeedom-Entwicklungszweig aus *(`master` (Standard)*
-- **Installationsunterlagen** (`-w`): Verzeichnis, in dem Jeedom installiert werden soll *(`/var/www/html` (Standard)*
+- **Datenbank** (`-d`): Installiert die von Jeedom verwaltete Datenbank oder nicht *(`1` Standard)*
+- **Art der Installation** (`-i`): Legt die Art der Installation fest *(`standard` Standard)*
+- **Schritt** (`-s`): Führt einen bestimmten Schritt aus *(`0` Standard)*
+- **Version** (`-v`): Wählt einen Jeedom-Entwicklungszweig aus *(`master` Standard)*
+- **Installationsordner** (`-w`): Verzeichnis, in dem Jeedom installiert werden soll *(`/var/www/html` Standard)*
 
 ## Hardware-Kompatibilität
 

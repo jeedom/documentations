@@ -38,7 +38,7 @@ The system will be updated the next time it starts up, unless the restoration fi
 
 >**INFORMATION**
 >
->To "manually" prepare for an automatic Restoration without using the Jeedom utility, simply send a compatible system image renamed to `JeedomSystemUpdate.img.gz` in the feature `/install/update` by Jeedom *(`/var/www/html/install/update/JeedomSystemUpdate.img.gz`)*.
+>To "manually" prepare for an automatic Restoration without using the Jeedom utility, simply send a compatible system image renamed to `JeedomSystemUpdate.img.gz` in the folder `/install/update` by Jeedom *(`/var/www/html/install/update/JeedomSystemUpdate.img.gz`)*.
 
 ### USB Mode
 
