@@ -1,72 +1,72 @@
-# Installation sur machine virtuelle
+# Instalación en una máquina virtual
 
-La procédure suivante est basée sur l'utilisation d'un fichier d'image système incluant Debian et Jeedom préinstallé.
+El siguiente procedimiento se basa en el uso de una imagen del sistema que incluye Debian y Jeedom preinstalados.
 
->**Información**
+>**INFORMACIÓN**
 >
->Pour installer Jeedom manuellement sur une machine virtuelle sous Debian, se référer à la documentation concernant [l'installation en ligne de commande](cli).
+>Para instalar Jeedom manualmente en una máquina virtual con Debian, consulta la documentación sobre [la instalación mediante la línea de comandos](cli).
 
-## Création de la VM
+## Creación de la máquina virtual
 
-Vous avez très certainement un hyperviseur déjà en place pour lire cette documentation. Même si le processus de création d'une machine virtuelle *(VM)* est assez semblable d'une solution à l'autre, il est bien entendu indispensable de suivre la documentation adaptée à la plateforme utilisée.
+Seguramente ya dispones de un hipervisor para leer esta documentación. Aunque el proceso de creación de una máquina virtual *(VM)* es bastante similar en todas las soluciones, es imprescindible, por supuesto, seguir la documentación específica de la plataforma que utilices.
 
-Pour citer quelques hyperviseurs connus à titre d'exemple :
+Por citar algunos hipervisores conocidos a modo de ejemplo:
 
-- [**VirtualBox**](https://www.virtualbox.org/){:target="_blank"} : Hyperviseur de type 2, gratuit et open source, idéal pour les environnements de test ou les postes de travail. Compatible avec Windows, macOS et Linux.
-- [**VMware**](https://www.vmware.com/){:target="_blank"} : Large gamme d'hyperviseurs, dont VMware Workstation (type 2) pour les postes de travail et VMware ESXi (type 1) pour les serveurs. Solution robuste et largement utilisée en entreprise.
-- [**Proxmox**](https://www.proxmox.com/en/){:target="_blank"} : Plateforme open source basée sur KVM (type 1), combinant virtualisation complète et conteneurs LXC. Très adaptée aux serveurs et aux environnements professionnels ou homelabs.
-- [**Hyper-V**](https://learn.microsoft.com/fr-fr/windows-server/virtualization/hyper-v/get-started/Install-Hyper-V){:target="_blank"} : Hyperviseur natif de Microsoft intégré à Windows Server et aux éditions Pro/Entreprise de Windows.
+- [**VirtualBox**](https://www.virtualbox.org/){:target="_blank"} : Hipervisor de tipo 2, gratuito y de código abierto, ideal para entornos de prueba o puestos de trabajo. Compatible con Windows, macOS y Linux.
+- [**VMware**](https://www.vmware.com/){:target="_blank"} : Amplia gama de hipervisores, entre los que se incluyen VMware Workstation (tipo 2) para estaciones de trabajo y VMware ESXi (tipo 1) para servidores. Solución robusta y muy utilizada en el ámbito empresarial.
+- [**Proxmox**](https://www.proxmox.com/en/){:target="_blank"} : Plataforma de código abierto basada en KVM (tipo 1), que combina virtualización completa y contenedores LXC. Muy adecuada para servidores y entornos profesionales o «homelabs».
+- [**Hyper-V**](https://learn.microsoft.com/fr-fr/windows-server/virtualization/hyper-v/get-started/Install-Hyper-V){:target="_blank"} : Hipervisor nativo de Microsoft integrado en Windows Server y en las ediciones Pro y Enterprise de Windows.
 
-## Configuration de la VM
+## Configuración de la máquina virtual
 
-Il n'y a pas réellement de configuration recommandée pour Jeedom car cela va dépendre du degré de charge de chaque instance.
+En realidad, no hay una configuración recomendada para Jeedom, ya que dependerá de la carga de cada instancia.
 
-Pour une machine robuste sans être disproportionnée, on peut convenir que les valeurs suivantes sont suffisantes dans la plupart des cas :
+Para conseguir un equipo robusto sin que resulte desproporcionado, se puede considerar que los siguientes valores son suficientes en la mayoría de los casos:
 
-| CPU            | Mémoire        | Disque         |
+| CPU | Memoria | Disco |
 |----------------|----------------|----------------|
-| 2 Cores        | 2048 MiB       | 16 GiB         |
+| 2 núcleos | 2048 MiB | 16 GiB |
 
-## Démarrage sur l'image système
+## Arranque desde la imagen del sistema
 
-L'équipe Jeedom fournit des images système optimisées à destination des ordinateurs 64 bits.
+El equipo de Jeedom ofrece imágenes del sistema optimizadas para ordenadores de 64 bits.
 
-Avant de démarrer la machine virtuelle, il faut télécharger l'image système que vous souhaitez installer *(certains hyperviseurs permettent de télécharger le fichier directement depuis son lien URL)* :
+Antes de iniciar la máquina virtual, hay que descargar la imagen del sistema que quieras instalar *(algunos hipervisores permiten descargar el archivo directamente desde su enlace URL)*:
 
-- [**Image(s) système Jeedom x86-64**](https://images.jeedom.com/x86-64/){:target="_blank"}
+- [**Imagen(es) del sistema Jeedom x86-64**](https://images.jeedom.com/x86-64/){:target="_blank"}
 
->**Información**
+>**INFORMACIÓN**
 >
->Consulter [**la documentation dédiée**](../compatibility/#Images%20système%20officielles) pour plus de détails sur les images système Jeedom.
+>Consultar [**documentación específica**](/compatibility/#Images%20système%20officielles) Para obtener más información sobre las imágenes del sistema Jeedom.
 
-Le fichier image au format `iso` doit ensuite être chargé dans le lecteur optique *(CD/DVD)* émulé par la machine virtuelle, lui-même placé en première position dans l'ordre de démarrage.
+El archivo de imagen en formato `iso` A continuación, debe cargarse en la unidad óptica *(CD/DVD)* emulada por la máquina virtual, que a su vez debe estar en primera posición en el orden de arranque.
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
->En cas de difficultés, se référer à la documentation de l'hyperviseur.
+>En caso de dificultades, consulta la documentación del hipervisor.
 
-## Options d'installation
+## Opciones de instalación
 
-Différentes options d'installation sont affichées à l'écran après avoir démarré la machine virtuelle avec l'image système chargée dans le lecteur optique :
+Tras iniciar la máquina virtual con la imagen del sistema cargada en la unidad óptica, aparecen en pantalla diferentes opciones de instalación:
 
 {% include lightbox.html src="../images/install-menu-amd64.jpg" data="InstallMenuAMD64" title="Menu d'installation Jeedom (AMD64)" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
-- **Install Jeedom (automatic mode)** : **installe le système automatiquement** sans aucune intervention nécessaire. La machine est éteinte à la fin de l'opération.
-	>**IMPORTANT**
-	>
-	>Ce mode est exécuté par défaut au bout de 60 secondes, **l'installation peut donc être réalisée sans se connecter à l'écran virtuel**.
+- **Instalar Jeedom (modo automático)**: **instala el sistema automáticamente** sin necesidad de intervención alguna. El equipo se apaga al finalizar la operación.
+>**IMPORTANTE**
+>
+>Este modo se ejecuta de forma predeterminada al cabo de 60 segundos, **por lo que la instalación puede realizarse sin conectarse a la pantalla virtual**.
 
-- **Install Jeedom (manual mode)** : dans ce mode, vous devez **renseigner manuellement la configuration du système à installer** *(langue, pays, réseau, support de stockage, etc.)*.
+- **Instalación de Jeedom (modo manual)**: en este modo, debes **introducir manualmente la configuración del sistema que vas a instalar** *(idioma, país, red, dispositivo de almacenamiento, etc.)*.
 
-- **Jeedom Live** : permet de **tester Jeedom dans un environnement non persistant** sans installer le système.
-	>**Información**
-	>
-	>Cette fonctionnalité est accessible à partir de Debian 12 Bookworm.
+- **Jeedom Live**: permite **probar Jeedom en un entorno no persistente** sin necesidad de instalar el sistema.
+>**INFORMACIÓN**
+>
+>Esta función está disponible a partir de Debian 12 Bookworm.
 
-## Compatibilité matérielle
+## Compatibilidad de hardware
 
-La liste, non exhaustive, des hyperviseurs supportés par Jeedom est visible dans [la documentation **Compatibilité**](../compatibility/#Matériels%20supportés)
+La lista, no exhaustiva, de hipervisores compatibles con Jeedom se puede consultar en [Documentación **Compatibilidad**](/compatibility/#Matériels%20supportés)
 
-## Première connexion
+## Primera conexión
 
-Consulter la documentation relative à la [**Première connexion**](../premiers-pas/#Première%20connexion) pour accéder à l'interface Jeedom suite à l'installation.
+Consulta la documentación relativa a la [**Primera conexión**](/premiers-pas/#Première%20connexion) para acceder a la interfaz de Jeedom tras la instalación.
