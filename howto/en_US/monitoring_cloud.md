@@ -2,54 +2,54 @@
 
 ## Description
 
-Cloud monitoring is a paid Jeedom SAS service which permanently monitors your Jeedoms or your Jeedoms and warns you in case of problems.
+Cloud monitoring is a paid service from Jeedom SAS that continuously monitors your Jeedom device(s) and alerts you in case of any issues.
 
-Depending on the number of months taken, you will have the right to free months : 
+Depending on the number of months you sign up for, you’ll be eligible for free months:
 
-- 12 months : 1 month free
-- 24 months : 4 months free
-- 36 months : 8 months free
+- 12 months: 1 month free
+- 24 months: 4 months free
+- 36 months: 8 months free
 
-## What is being monitored
+## What Is Monitored
 
-Jeedom regularly sends the information on the health page to our monitoring service, which analyzes it and alerts you if you have any concerns. De plus si votre box n'envoi pas d'information pendant plus de 60min notre service monitoring vous prévient qu'il y a un soucis.
+Jeedom regularly sends information from the health page to our monitoring service, which analyzes it and alerts you if there are any issues. Additionally, if your box doesn't send any information for more than 60 minutes, our monitoring service will alert you that there is a problem.
 
-## How am i warned
+## How am I notified?
 
-By default you are notified by an email on your email configured in your profiles but you can in the cloud monitoring configuration (on your market profiles page) : 
+By default, you'll receive an email notification at the email address configured in your profile, but you can do the following in the cloud monitoring settings (on your profile page in the Marketplace):
 
-- Put another email address (only one possible)
+- Enter a different email address (only one allowed)
 - Add an alert on Telegram
-- Add an alert on Slack (just give the address of Webhook)
-- Add an SMS alert (note that this requires that you have SMS credit on the market)
-- Add an alert by Notification (requires the mobile app) 
+- Add an alert on Slack (you just need to provide the Webhook URL)
+- Add an SMS alert (please note that this requires you to have SMS credit on the Market)
+- Add an alert via Notification (requires the mobile app)
 
-> **Teleg**
+> **Telegram**
 >
-> You can find your chatid from jeedom by going to the telegram equipment then advanced configuration of the desired recipient's command then the information button and in the configuration field you have the chatid
+> You can find your chat ID in Jeedom by going to the Telegram device, then selecting "Advanced Command Configuration" for the desired recipient, then clicking the "Info" button, and there, in the "Configuration" field, you'll find the chat ID.
 
 > **IMPORTANT**
 >
-> Attention we see a lot of users with "mailinblack" mailboxes, who during the 1st exchange ask the sender to validate a link to prove that it is indeed a human. This system is not compatible with the mailing system of the monitoring service. So thank you on your market profiles page to put an email address not using this system otherwise you will never receive an alert from the system.
+> Please note that we’re seeing many users with “mailinblack” email accounts, which, during the first exchange, ask the sender to click a link to prove they’re human. This system is not compatible with the monitoring service’s email delivery system. So please make sure to enter an email address on your Market profile page that does not use this system; otherwise, you will never receive alerts from the system.
 
-## How to activate it
+## How to enable it
 
-The procedure is quite simple, you have to : 
+The procedure is fairly simple; you need to:
 
-- have credit monitoring cloud (you can buy it in a batch of 1 month, so you can take 2 months then stop 6 months and then resume after)
-- have jeedom 3.3.44 min
+- Have Cloud Monitoring credits (they’re sold in 1-month increments, so you can purchase 2 months, then pause for 6 months, and then resume later)
+- I have Jeedom 3.3.44 minimum
 
-After adding cloud monitoring credit, you must either wait a few hours (around 24 hours), or in Jeedom, on the configuration section then update click on the "test" button for connection to the market (this forces Jeedom to recover market information and therefore the fact that the cloud monitoring service is active).
-
->**IMPORTANT**
->
-> Once the service is activated, it monitors all Jeedom connected to your account. It is however possible from Jeedom 4.2 to deactivate monitoring from its configuration (Market / update tab))
+After adding the cloud monitoring credit, you must either wait a few hours (about 24 hours) or, in Jeedom, go to the configuration section, then click the "Test" button under "Update" to connect to the market (this forces Jeedom to retrieve information from the market and thus confirms that the cloud monitoring service is active).
 
 >**IMPORTANT**
 >
-> For notifications, just collect the arn from your mobile, it is located in the mobile plugin, on your mobile equipment, then access the "notification" tab, then copy the "ARN" line. that there is after "arn:aws:sns:eu-west-1:507915066327:endpoint/"
+> Once the service is enabled, it monitors all Jeedom devices linked to your account. However, starting with Jeedom 4.2, you can disable monitoring from the Jeedom settings (Market/Updates tab).
 
-## It is compatible with everything ?
+>**IMPORTANT**
+>
+> For notifications, simply retrieve the ARN from your mobile device. It can be found in the mobile plugin on your mobile device. Then, go to the "Notifications" tab and copy the "ARN" line. Please note that you must copy only the text that follows "arn:aws:sns:eu-west-1:507915066327:endpoint/".
+
+## Is it compatible with everything?
 
 - Smart (tested)
 - Debian x64 Stretch (tested)

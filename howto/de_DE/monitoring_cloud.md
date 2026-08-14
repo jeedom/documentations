@@ -1,55 +1,55 @@
 # Cloud-Überwachung
 
-## Description
+## Beschreibung
 
-Cloud Monitoring ist ein kostenpflichtiger Jeedom SAS-Dienst, der Ihre Jeedoms oder Jeedoms permanent überwacht und Sie bei Problemen warnt.
+Das Cloud-Monitoring ist ein kostenpflichtiger Dienst von Jeedom SAS, der Ihr Jeedom-System bzw. Ihre Jeedom-Systeme rund um die Uhr überwacht und Sie bei Problemen benachrichtigt.
 
-Abhängig von der Anzahl der Monate haben Sie das Recht, Monate freizugeben : 
+Je nach Anzahl der gebuchten Monate haben Sie Anspruch auf Gratis-Monate:
 
-- 12 Monate : 1 Monat frei
-- 24 Monate : 4 Monate frei
-- 36 Monate : 8 Monate frei
+- 12 Monate: 1 Monat gratis
+- 24 Monate: 4 Monate gratis
+- 36 Monate: 8 Monate gratis
 
 ## Was wird überwacht?
 
-Jeedom sendet die Informationen auf der Gesundheitsseite regelmäßig an unseren Überwachungsdienst, der sie analysiert und Sie benachrichtigt, wenn Sie Bedenken haben. De plus si votre box n'envoi pas d'information pendant plus de 60min notre service monitoring vous prévient qu'il y a un soucis.
+Jeedom sendet regelmäßig die Informationen der Statusseite an unseren Überwachungsdienst, der diese analysiert und Sie im Falle von Problemen benachrichtigt. Sollte Ihre Box zudem länger als 60 Minuten keine Informationen senden, benachrichtigt Sie unser Überwachungsdienst, dass ein Problem vorliegt.
 
-## Wie werde ich gewarnt?
+## Wie werde ich benachrichtigt?
 
-Standardmäßig werden Sie durch eine E-Mail in Ihrer E-Mail benachrichtigt, die in Ihren Profilen konfiguriert ist. Sie können dies jedoch in der Cloud-Überwachungskonfiguration (auf Ihrer Marktprofilseite) tun) : 
+Standardmäßig erhalten Sie eine Benachrichtigung per E-Mail an die in Ihrem Profil angegebene E-Mail-Adresse. Sie können jedoch in den Einstellungen der Cloud-Überwachung (auf Ihrer Profilseite im Market) Folgendes festlegen:
 
-- Geben Sie eine andere E-Mail-Adresse ein (nur eine möglich)
-- Fügen Sie eine Warnung zum Telegramm hinzu
-- Fügen Sie eine Warnung zu Slack hinzu (geben Sie einfach die Adresse von Webhook an)
-- Fügen Sie eine SMS-Warnung hinzu (beachten Sie, dass hierfür ein SMS-Guthaben auf dem Markt erforderlich ist)
-- Fügen Sie eine Benachrichtigung per Benachrichtigung hinzu (erfordert die mobile App) 
+- Eine andere E-Mail-Adresse eingeben (nur eine möglich)
+- Benachrichtigung auf Telegram hinzufügen
+- Eine Benachrichtigung auf Slack hinzufügen (man muss nur die Webhook-Adresse angeben)
+- SMS-Benachrichtigung hinzufügen (Achtung: Dazu benötigen Sie ein SMS-Guthaben im Market)
+- Benachrichtigung hinzufügen (erfordert die mobile App)
 
-> **Teleg**
+> **Telegram**
 >
-> Sie können Ihre Chat-ID von jeedom aus finden, indem Sie zur Telegrammausrüstung gehen, die erweiterte Konfiguration des Befehls des gewünschten Empfängers und dann die Informationstaste ausführen und im Konfigurationsfeld die Chat-ID haben
+> Sie können Ihre Chat-ID in Jeedom finden, indem Sie zu den Telegram-Geräten gehen, dann die erweiterten Einstellungen für den gewünschten Empfänger aufrufen, auf die Schaltfläche „Informationen“ klicken und dort im Feld „Konfiguration“ die Chat-ID finden.
 
-> **Wichtig**
+> **WICHTIG**
 >
-> Achtung, wir sehen viele Benutzer mit "mailinblack" -Postfächern, die beim ersten Austausch den Absender auffordern, einen Link zu validieren, um zu beweisen, dass es sich tatsächlich um einen Menschen handelt. Dieses System ist nicht kompatibel mit dem Mailing-System des Überwachungsdienstes. Vielen Dank, dass Sie auf Ihrer Marktprofilseite eine E-Mail-Adresse angeben, die dieses System nicht verwendet. Andernfalls erhalten Sie keine Benachrichtigung vom System.
+> Achtung: Es gibt viele Nutzer mit E-Mail-Adressen im Format „mailinblack“, bei denen der Absender beim ersten E-Mail-Austausch aufgefordert wird, einen Link zu bestätigen, um nachzuweisen, dass es sich tatsächlich um einen Menschen handelt. Dieses System ist nicht mit dem E-Mail-Versandsystem des Monitoring-Dienstes kompatibel. Bitte geben Sie daher auf Ihrer Profilseite im Marktplatz eine E-Mail-Adresse an, die dieses System nicht nutzt. Andernfalls erhalten Sie niemals Benachrichtigungen vom System.
 
-## Wie man es aktiviert
+## So aktivieren Sie die Funktion
 
-Das Verfahren ist recht einfach, das muss man : 
+Die Vorgehensweise ist recht einfach. Man muss:
 
-- Haben Sie eine Kreditüberwachungs-Cloud (Sie können sie in einem Stapel von 1 Monat kaufen, also können Sie 2 Monate dauern, dann 6 Monate anhalten und danach fortfahren)
-- habe Freiheit 3.3.44 min
+- Cloud-Monitoring-Guthaben haben (es wird in 1-Monats-Paketen erworben, Sie können also 2 Monate buchen, dann 6 Monate pausieren und danach wieder weitermachen)
+- Jeedom 3.3.44 oder höher erforderlich
 
-Nachdem Sie das Guthaben für die Cloud-Überwachung hinzugefügt haben, müssen Sie entweder einige Stunden (ca. 24 Stunden) oder in Jeedom im Konfigurationsbereich warten und dann auf die Schaltfläche "Test" klicken, um eine Verbindung zum Markt herzustellen (dies zwingt Jeedom zur Wiederherstellung Marktinformationen und damit die Tatsache, dass der Cloud-Überwachungsdienst aktiv ist).
+Nachdem Sie das Cloud-Monitoring-Guthaben hinzugefügt haben, müssen Sie entweder einige Stunden (ca. 24 Stunden) warten oder in Jeedom im Bereich „Konfiguration“ unter „Aktualisierung“ auf die Schaltfläche „Test“ klicken, um die Verbindung zum Market herzustellen (dadurch wird Jeedom dazu veranlasst, die Informationen aus dem Market abzurufen und somit festzustellen, dass der Cloud-Monitoring-Dienst aktiv ist).
 
->**Wichtig**
+>**WICHTIG**
 >
-> Sobald der Dienst aktiviert ist, überwacht er alle mit Ihrem Konto verbundenen Jeedom. Es ist jedoch möglich ab Jeedom 4.2, um die Überwachung aus ihrer Konfiguration zu deaktivieren (Registerkarte Markt / Update))
+> Sobald der Dienst aktiviert ist, überwacht er alle mit Ihrem Konto verbundenen Jeedom-Geräte. Ab Jeedom 4.2 ist es jedoch möglich, die Überwachung in den Einstellungen zu deaktivieren (Registerkarte „Market/Update“).
 
->**Wichtig**
+>**WICHTIG**
 >
-> Für Benachrichtigungen sammeln Sie einfach den Arn von Ihrem Handy. Er befindet sich im mobilen Plugin auf Ihrem Mobilgerät. Rufen Sie dann die Registerkarte "Benachrichtigung" auf und kopieren Sie die Zeile "ARN". dass es nach "arn:aws:sns:eu-west-1:507915066327:endpoint/"
+> Für Benachrichtigungen müssen Sie lediglich die ARN Ihres Mobilgeräts abrufen. Diese finden Sie im Mobil-Plugin auf Ihrem Mobilgerät. Rufen Sie dort den Reiter „Benachrichtigungen“ auf und kopieren Sie die Zeile „ARN“. Achtung: Sie dürfen nur den Teil kopieren, der nach „arn:aws:sns:eu-west-1:507915066327:endpoint/“ steht.
 
-## Es ist mit allem kompatibel ?
+## Ist das mit allem kompatibel?
 
 - Smart (getestet)
 - Debian x64 Stretch (getestet)

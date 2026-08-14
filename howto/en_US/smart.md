@@ -1,110 +1,110 @@
-# Restauration système Jeedom Smart
+# Jeedom Smart System Restore
 
-## Sauvegarde de Jeedom
+## Jeedom Backup
 
-Avant toute chose, **il est indispensable de réaliser une sauvegarde de Jeedom** qui pourra être restaurée à l'issue de la procédure.
+First and foremost, **it is essential to back up Jeedom** so that it can be restored once the procedure is complete.
 
-1. Se rendre sur l'interface Jeedom puis cliquer sur le menu **Réglages > Système > Sauvegardes**.
+1. Go to the Jeedom interface, then click on the **Settings > System > Backups** menu.
 
-2. Cliquer sur le bouton **Lancer une sauvegarde**.
+2. Click the **Start Backup** button.
 
-3. Quand la sauvegarde est terminée, cliquer sur **Télécharger la sauvegarde**.
+3. When the backup is complete, click **Download Backup**.
 
-4. Une fois la sauvegarde de Jeedom téléchargée, éteindre le système en passant par le menu **Réglages > Système > Eteindre**.
+4. Once the Jeedom backup has been downloaded, shut down the system via the **Settings > System > Shut Down** menu.
 
-## Restauration système par eMMC
+## System Restore via eMMC
 
-This procedure explains how to update the system environment of a Jeedom Smart box still running **Debian 10 Buster**. Il est nécessaire de graver directement le support de stockage interne *(eMMC)* en suivant les étapes suivantes.
+This procedure explains how to update the system environment of a Jeedom Smart box still running **Debian 10 Buster**. You must flash the internal storage *(eMMC)* directly by following the steps below.
 
 >**IMPORTANT**
 >
->**Avant de vous lancer, n'hésitez surtout pas à visionner la vidéo de remplacement de l'eMMC  détaillant le démontage et le remontage de la box Jeedom Smart** *(2 minutes)*:
+>**Before you get started, be sure to watch the video on replacing the eMMC, which details how to disassemble and reassemble the Jeedom Smart box** *(2 minutes)*:
 >
->[![Démontage/remontage Smart en vidéo](https://img.youtube.com/vi/lUhtP687s2E/hqdefault.jpg)](https://youtu.be/lUhtP687s2E){:target="_blank"}
+>[![Video Guide to Disassembling and Reassembling the Smart](https://img.youtube.com/vi/lUhtP687s2E/hqdefault.jpg)](https://youtu.be/lUhtP687s2E){:target="_blank"}
 
-### Prérequis
+### Prerequisites
 
-Afin de réaliser la mise à jour du système, il faut:
+To update the system, you must:
 
-- S'équiper d'**un petit tournevis cruciforme** pour ouvrir la box
+- Get a **small Phillips-head screwdriver** to open the box
 
 ---
 
-- Acquérir [**une carte eMMC de remplacement**](https://www.domadoo.fr/fr/controleurs-adaptateurs/5539-jeedom-carte-memoire-emmc-16go-de-remplacement-pour-jeedom-smart.html){:target="_blank"}
+- Purchase [**a replacement eMMC card**](https://www.domadoo.fr/fr/controleurs-adaptateurs/5539-jeedom-carte-memoire-emmc-16go-de-remplacement-pour-jeedom-smart.html){:target="_blank"}
 
-	**OU**
+**OR**
 
-- Télécharger la dernière [**image système Jeedom Smart fournie par l'équipe**](https://images.jeedom.com/smart/){:target="_blank"}
-- S'équiper d'**un adapteur eMMC>USB/SD/µSD compatible Odroid-C2** pour graver l'image depuis un ordinateur, par exemple:
+- Download the latest [**Image of the Jeedom Smart system provided by the team**](https://images.jeedom.com/smart/){:target="_blank"}
+- Get an **Odroid-C2-compatible eMMC-to-USB/SD/µSD adapter** to flash the image from a computer, for example:
 
-	![Exemple d'adaptateur eMMC](../images/emmc_adapter.jpg)
+![Example of an eMMC adapter](../images/emmc_adapter.jpg)
 
-### Démontage de la box Jeedom Smart
+### Disassembling the Jeedom Smart box
 
-1. Débrancher tous les périphériques externes branchés sur la Smart *(alimentation, éthernet, USB, HDMI...)* et dévisser l'antenne du contrôleur interne.
+1. Unplug all external devices connected to the Smart *(power, Ethernet, USB, HDMI, etc.)* and unscrew the antenna from the internal controller.
 
-2. Dévisser les 2 vis à l'avant de la box au niveau de la plaque en plexiglass ***(Attention fragile!)***.
+2. Unscrew the 2 screws on the front of the box near the Plexiglas plate ***(Caution: Fragile!)***.
 
-3. Faire coulisser la carte mère vers l'arrière du boitier:
+3. Slide the motherboard toward the back of the case:
 
-	 ![Ouvrir la Smart](../images/smart_open.jpg)
+![Open the Smart](../images/smart_open.jpg)
 
-### Gravure de l'eMMC
+### eMMC Programming
 
-1. Déclipser le stockage eMMC situé sous la carte mère:
+1. Unclip the eMMC storage module located under the motherboard:
 
-	 ![Déclipser eMMC](../images/smart_emmc.jpg)
-
->**INFORMATION**
->
->**En cas de remplacement de l'eMMC d'origine** par une eMMC avec Jeedom préinstallé sous Debian 11, **clipser la nouvelle eMMC** à la place de l'ancienne **puis passer directement à l'étape de [remontage](#Remontage%20de%20la%20box%20Jeedom%20Smart)**.
-
-2. Clipser l'eMMC sur l'adaptateur et le brancher sur un ordinateur:
-
-	 ![eMMC sur PC](../images/emmc_to_pc.jpg)
-
-3. Ouvrir le logiciel de gravure *(balenaEtcher par exemple)*.
-
-4. Sélectionner **le fichier d'image système comme source**, **le support eMMC comme cible** puis démarrer la gravure.
-
-5. A l'issue de la gravure, débrancher l'adapteur de l'ordinateur puis déclipser l'eMMC et la reclipser sous la carte mère de la Smart.
-
-### Remontage de la box Jeedom Smart
-
-1. Faire coulisser la carte mère de l'arrière vers l'avant à travers le boitier.
-
-2. Remettre le plexiglass en place puis revisser les 2 vis à l'avant de la box sans forcer:
-
-	 ![Dévisser Smart](../images/smart_unscrew.jpg)
-
-3. Revisser l'antenne puis rebrancher les périphériques externes en terminant par le câble d'alimentation.
-
-## Restauration système automatique ou USB
-
-Une fois le système Debian installé en version 11 ou supérieure, les mises à jour du système peuvent ensuite être effectuées directement depuis le core Jeedom en suivant [la nouvelle procédure d'installation sur Smart](../installation/recovery)
-
-## Prise en main du nouveau système
-
-### Premier démarrage
-
-Au premier démarrage, le système de fichiers est redimensionné pour prendre tout l'espace disponible avant que la box ne redémarre automatiquement.
+![Unclip the eMMC](../images/smart_emmc.jpg)
 
 >**INFORMATION**
 >
->Cette étape peut prendre jusqu'à 2 minutes.
+>**If you are replacing the original eMMC** with an eMMC that has Jeedom preinstalled on Debian 11, **snap the new eMMC** into place in place of the old one **and then proceed directly to the step of [rewinding](#Remontage%20de%20la%20box%20Jeedom%20Smart)**.
 
-### Accès à Jeedom
+2. Snap the eMMC onto the adapter and plug it into a computer:
 
-Le système ayant été réinstallé, le premier accès à l'interface Jeedom doit être réalisé avec les identifiants `admin`/`admin`.
+![eMMC on a PC](../images/emmc_to_pc.jpg)
 
-### Restauration de Jeedom
+3. Open the burning software *(such as balenaEtcher)*.
 
-1. Se rendre dans le menu **Réglages > Système > Sauvegardes**.
+4. Select **the system image file as the source**, **the eMMC as the destination**, and then start the burn process.
 
-2. Cliquer sur **Ajouter une sauvegarde** et sélectionner la sauvegarde réalisée précédemment.
+5. Once the burning process is complete, unplug the adapter from the computer, then unclip the eMMC and clip it back into place under the Smart's motherboard.
 
-3. Cliquer sur **Restaurer la sauvegarde**.
+### Reassembly of the Jeedom Smart box
 
-### Modification du port du contrôleur interne
+1. Slide the motherboard from the back to the front through the case.
 
-**A partir de Debian 11 il est nécessaire de modifier le port du contrôleur interne** qui n'est plus `/dev/ttyS1` mais `/dev/ttyAML1` sur ce nouveau système.
+2. Replace the plexiglass and then tighten the two screws on the front of the box without using excessive force:
+
+![Unscrew Smart](../images/smart_unscrew.jpg)
+
+3. Screw the antenna back on, then reconnect the external devices, finishing with the power cord.
+
+## Automatic system restore or USB restore
+
+Once Debian version 11 or higher is installed, system updates can then be performed directly from the Jeedom core by following [The new installation procedure on Smart](/installation/recovery)
+
+## Getting Started with the New System
+
+### First-time setup
+
+When the system is first started, the file system is resized to use all available space before the box automatically restarts.
+
+>**INFORMATION**
+>
+>This step may take up to 2 minutes.
+
+### Access to Jeedom
+
+Since the system has been reinstalled, you must log in to the Jeedom interface for the first time using your credentials `admin`/`admin`.
+
+### Jeedom Restoration
+
+1. Go to the **Settings > System > Backups** menu.
+
+2. Click **Add Backup** and select the backup you created earlier.
+
+3. Click **Restore Backup**.
+
+### Changing the Internal Controller Port
+
+**Starting with Debian 11, you need to change the port for the internal controller**, which is no longer `/dev/ttyS1` but `/dev/ttyAML1` on this new system.

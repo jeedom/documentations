@@ -1,56 +1,56 @@
-# How to report a bug ?
+# How do I report a bug?
 
-There are several ways in Jeedom to report a concern :
+There are several ways to report an issue in Jeedom:
 
-- Put the concern back on the [community](https://community.jeedom.com), this is usually where you will get the quickest response.
-- Report a concern to the Jeedom team :
-  - **Support request** (requires a service pack power or more or even if the concern is on a plugin / paid service), this request is **private** and will put you directly in contact with the Jeedom support team which analyzes your particular case.
-  - **Bug report**, in this case the request is **public** and will be posted on the community.
-  - **Request for improvement**, in this case the request is **public** and will be posted on the community.
+- Report the issue on the [community](https://community.jeedom.com)—that's usually where you'll get the quickest response.
+- Report an issue to the Jeedom team:
+  - **Support Request** (requires Power Service Pack or higher, or the issue must involve a paid plugin/service); this request is **private** and will put you in direct contact with the Jeedom support team, who will review your specific case.
+  - **Bug report**—in this case, the request is **public** and will be posted to the community.
+  - **Feature Request**—in this case, the request is **public** and will be posted in the community.
 
 > **NOTE**
 >
-> In the case of a support request on a third-party plugin, an email is sent to the plugin developer.
+> If a support request is submitted for a third-party plugin, an email is sent to the plugin's developer.
 
 > **IMPORTANT**
 >
-> The support being carried out exclusively by email, remember to monitor your spam. Most often, the support responds quickly (delay before response on average of less than 72 hours, be careful depending on the problem it can be much longer).
+> Since support is provided exclusively via email, be sure to check your spam folder. In most cases, the support team responds quickly (average response time is less than 72 hours; please note that depending on the issue, it may take much longer).
 
-## What information to send to have a solution as quickly as possible ?
+## What information should I provide to get a solution as quickly as possible?
 
-Whatever method is used to report the problem encountered, it is very important to give as much information as possible. Indeed, to our greatest regret, 80% of requests have the first standard response : "please give us more information about the problem so that we can help you. [...]". And yes ... despite our good will, we do not see your screen, we have no history of what you did as manipulation, and we sometimes use a different vocabulary to talk about the same things...
+Regardless of the method you use to report the issue you’re experiencing, it’s very important to provide as much information as possible. In fact, much to our regret, 80% of requests receive the following standard initial type of response: “Please provide us with more information about the issue you’re experiencing so that we can help you. [...]” And yes… despite our best efforts, we can’t see your screen, we have no record of the steps you’ve taken, and we sometimes use different terms to describe the same things…
 
-But as we really want to help you, here are some clues to give us some valuable information :
+But since we really want to help you, here are a few tips to help us gather some valuable information:
 
-- Your concern concerns a graphical display problem (widget, page, text fields ...), even if it seems obvious to you during the explanation, put a screenshot (indeed, it is possible to copy the image directly on the community!), it takes 30s for you, it will save several tens of minutes for the person trying to help you, and you will get a relevant answer, faster.
-- You have a "500" error or "\ {\ {" on Jeedom : in this case, directly put the http file.error (you can find it quickly in Analysis -> Logs), without that, we cannot know where the problem comes from (again, no warning light at jeedom or among third-party developers for the moment !^^)
-- You have a javascript error (warning panel at the top right) or when you do F12 then console a red line. In this case, start by giving us the full error message in question. Unfortunately, in the majority of cases this error message being sometimes a little vague, does not by itself allow to identify the problem encountered. So you have to do F12 (in the browser, on the Jeedom tab where you are having trouble). Then click on "console", then try to reproduce the problem encountered (start by refreshing the page, and if necessary, repeat the same actions). You will normally get the error message again but this time you will have to click at the end of the line (it can be either as in the screenshot below or in the form VMXXX.js) :
+- If your issue involves a graphical display problem (widget, page, text fields, etc.), even if it seems obvious to you when you explain it, please include a screenshot (you can actually upload the image directly to the community!). It takes just 30 seconds on your end, but it will save the person trying to help you several dozen minutes, and you’ll get a helpful response faster.
+- If you're seeing a "500" error or "\{\{" characters on Jeedom, please attach the http.error file directly (you can find it quickly under Analysis -> Logs). Without it, we won't be able to figure out where the problem is coming from (once again, no one at Jeedom or among third-party developers has figured it out yet! ^^)
+- You’re seeing a JavaScript error (warning banner in the top right corner) or, when you press F12 and go to the console, a red line appears. In this case, start by providing us with the full error message in question. Unfortunately, in most cases, this error message can be somewhat vague and isn’t enough on its own to identify the problem you’re experiencing. So, press F12 (in your browser, on the Jeedom tab where you’re experiencing the issue). Then click “Console,” and try to reproduce the problem (start by refreshing the page, and if necessary, repeat the same actions). You should normally see the error message again, but this time you’ll need to click at the end of the line (it may look like the screenshot below or take the form VMXXX.js):
 
-![remonter_un_bug001](../images/remonter_un_bug001.png)
+![report_a_bug001](../images/remonter_un_bug001.png)
 
-Then take a screenshot of what will be displayed, in particular the red line :
+Then take a screenshot of what appears on the screen, especially the line in red:
 
-![remonter_un_bug002](../images/remonter_un_bug002.png)
+![report_a_bug002](../images/remonter_un_bug002.png)
 
-Here if you follow all this well you should have answers to your problem much faster and much more accurate and maybe even allow the person who helped you to help another person faster.
+So, if you follow these steps carefully, you should get answers to your problem much faster and much more accurately—and you might even help the person who helped you assist someone else more quickly.
 
-- You have a problem with a demon ? it is absolutely necessary to put the log in debug of it otherwise no help will be possible. You can also add the dependencies installation log (often in\_update).
-- You have a problem installing dependencies ? it is absolutely necessary to put the log of their installation (often in\_update).
+- Are you having trouble with a daemon? You must set its logging to "debug" mode; otherwise, we won't be able to help you. You can also include the dependency installation log (often found in \_update).
+- Are you having trouble installing dependencies? You must include the installation log (often in \_update).
 
-# Assistance and Support requests (or tickets)
+# Assistance and Support Requests (or tickets)
 
-If you have not found a solution to your problem, you can request support from the Jeedom team. 
-This request goes through a ticket. 
+If you haven't found a solution to your problem, you can submit a support request to the Jeedom team.
+This request must be submitted via a support ticket.
 
 Support is available depending on your Service Pack
-- Service Pack Community (free version of Jeedom): 2 tickets / month on paid plugins only
-- Power and Ultimate Service Pack: 10 tickets / month
-- Service Pack Pro: 100 tickets / month
+- Community Service Pack (free version of Jeedom): 2 support tickets per month for paid plugins only
+- Power and Ultimate Service Pack: 10 tickets/month
+- Service Pack Pro: 100 tickets/month
 
-It is possible to open a request in several ways:
-[Documentation Support requests or tickets](/premiers-pas#Les%20demandes%20de%20support%20\(ou%20tickets\))
+There are several ways to submit a request:
+[Documentation: Support Requests or Tickets](/premiers-pas#Les%20demandes%20de%20support%20\(ou%20tickets\))
 
 >**IMPORTANT**
 >
->Attention we see a lot of users with "mailinblack" mailboxes, who during the 1st exchange ask the sender to validate a link to prove that it is indeed a human. This system is not compatible with our ticketing system, so even if we answer you, you will never receive the answer in your mailbox because it blocks us. So thank you on your market profiles page to put an email address not using this system otherwise you will never receive our response.
+>Please note: We’re seeing many users with “mailinblack” email accounts, which, during the first exchange, ask the sender to click a link to prove they’re human. This system isn’t compatible with our ticketing system, so even if we reply to you, you’ll never receive the response in your inbox because the system blocks it. Please make sure to enter an email address on your Market profile page that does not use this system; otherwise, you will never receive our reply.
 

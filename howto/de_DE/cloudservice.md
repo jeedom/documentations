@@ -1,32 +1,32 @@
 # Cloud-Dienst
 
-Der Cloud-Dienst ist ein Jeedom-Dienst, mit dem Sie die Möglichkeiten Ihres Jeedom einfach und schnell erweitern können. Seine Rolle besteht darin, als Gateway zwischen Ihrem Jeedom und den Cloud-Diensten anderer Dienstanbieter zu dienen.
+Der Cloud-Service ist ein Jeedom-Dienst, mit dem Sie die Möglichkeiten Ihres Jeedom einfach und schnell erweitern können. Er dient als Brücke zwischen Ihrem Jeedom und den Cloud-Diensten anderer Anbieter.
 
-Um Missbrauch zu vermeiden, unterliegt der Service abhängig von Ihrer Art des Service Packs Quoten.
+Um Missbrauch zu vermeiden, unterliegt der Dienst Nutzungsbeschränkungen, die von Ihrem Service-Pack-Typ abhängen.
 
-# Quote 
+# Kontingent
 
-| Bedienung | Service Pack-Community | Service Pack-Leistung oder mehr |
+| Service | Service Pack Community | Service Pack Power oder höher |
 | ------- | ---------------------- | -------------------------- |
-| Ajax-System | 2000 / 24h           |  2000 / 24h                  |
-| Treibstoff   | 10 / 24h             |  10 / 24h                    |
-| EJP         | 10 / 24h             |  10 / 24h                    |
-| Enedis      | 200 / 24h            |  200 / 24h                   |
-| Fitbit      | 100 / 1h             |  100 / 1h                    |
-| Gesetzlicher Feiertag  | 10 / 24h             |  10 / 24h                    |
-| Mail        | 1 / 24h              |  1 / 24h                     |
-| Meine IP        | 1 / 1h               |  1 / 1h                      |
-| Netatmo     | 20 / 1h              |  100 / 1h                    |
-| OpenWeatherMap (Wetter)    | 1 / 4h |  5 / 4h                      |
-| Verschmutzung   | 10 / 24h             |  10 / 24h                    |
-| Spotify     | Keine Grenzen      |  Keine Grenzen             |
-| Sonnenstand   | 2/10min   |  2/10min                   |
-| EDF Tempo   | 10 / 24h             |  10 / 24h                    |
-| Google TTS  | Nein              |  5 / 24h \*                   |
-| Schulferien  | 10 / 24h       |  10 / 24h                    |
-| Wachsamkeit   | 10 / 24h             |  10 / 24h                    |
-| Wochenende     | 10 / 24h             |  10 / 24h                    |
+| Ajax-System | 2000/24h |  2000/24h |
+| Kraftstoff   | 10/24 Std. |  10/24 Std. |
+| EJP | 10/24h |  10/24h |
+| Enedis | 200/24h |  200/24h |
+| Fitbit | 100/1h |  100/1h |
+| Feiertag  | 10/24h |  10/24h |
+| E-Mail | 1/24h |  1/24h |
+| MyIp | 1/1h |  1/1h |
+| Netatmo     | 20/1 h |  100/1 h |
+| OpenWeatherMap (Wetter)    | 1/4 Std. |  5/4 Std. |
+| Luftverschmutzung   | 10/24h |  10/24h |
+| Spotify     | Keine Begrenzung |  Keine Begrenzung |
+| Sonnenstand   | 2/10 Min.   |  2/10 Min. |
+| EDF Tempo   | 10/24 Std. |  10/24 Std. |
+| Google TTS  | Keine |  5/24h\* |
+| Schulferien  | 10/24 Std. |  10/24 Std. |
+| Überwachung   | 10/24 Std. |  10/24 Std. |
+| Wochenende     | 10/24 Std. |  10/24 Std. |
 
 
 
-\* Der TTS-Dienst ist etwas Besonderes, die Zählung erfolgt nur für die Sätze, die nie von Ihrem Jeedom angefordert wurden. Die Sätze sind in Stapel von 160 Zeichen unterteilt. Jedes Los zählt für 1 Quote
+\* Der TTS-Dienst funktioniert etwas anders: Die Abrechnung erfolgt nur für Sätze, die Sie Ihrem Jeedom nicht selbst übermittelt haben. Die Sätze werden in Blöcke zu je 160 Zeichen unterteilt. Jeder Block zählt als 1 Kontingent.

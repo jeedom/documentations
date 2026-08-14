@@ -1,33 +1,33 @@
-# Jeedom Kommandozeilen-Update
+# Befehlszeilen-Update für Jeedom
 
-Wir werden sehen, wie Sie Ihr Jeedom manuell aktualisieren können *(wenn Sie zum Beispiel nicht mehr auf die Schnittstelle zugreifen können)*
+Wir werden sehen, wie Sie Ihr Jeedom manuell aktualisieren können *(zum Beispiel, wenn Sie keinen Zugriff mehr auf die Benutzeroberfläche haben)*
 
 ## Voraussetzungen
 
--   weiß, wie man in SSH eine Verbindung zu Jeedom herstellt
--   SSH-Anmeldeinformationen kennen *(siehe Installationsdokumentation)*
--   haben Internetzugang von der Jeedom Box
+-   So stellen Sie eine SSH-Verbindung zu Jeedom her
+-   Die SSH-Anmeldedaten kennen *(siehe Installationsanleitung)*
+-   Internetzugang über die Jeedom-Box
 
 > **Wichtig**
 >
-> Denken Sie daran, vor jedem manuellen Update das neueste funktionsfähige Jeedom-Backup außerhalb der Box zu exportieren.
+> Denken Sie unbedingt daran, vor jedem manuellen Update die aktuellste funktionsfähige Jeedom-Sicherung aus der Box zu exportieren.
 
-## Herunterladen und entpacken
+## Herunterladen und Entpacken
 
-In SSH tun :
+Führen Sie in SSH Folgendes aus:
 
 ````bash
 su -
 cd /root
 wget https://github.com/jeedom/core/archive/master.zip
-entpacken Sie master.zip
+unzip master.zip
 cp -R core-master/* /var/www/html
 cp -R core-master/.[^.]* /var/www/html
 ````
 
-## Mise à jour
+## Aktualisierung
 
-Toujours en SSH:
+Weiterhin über SSH:
 
 ````bash
 su -
@@ -38,4 +38,4 @@ chown www-data:www-data -R /var/www/html
 
 > **Wichtig**
 >
-> Wenn Ihre Jeedom-Installation etwas alt ist, müssen Sie alle ersetzen ``/var/www/html`` Von ``/usr/share/nginx/www/jeedom``
+> Wenn Ihre Jeedom-Installation schon etwas älter ist, müssen Sie alle ``/var/www/html`` von ``/usr/share/nginx/www/jeedom``

@@ -1,20 +1,20 @@
 # Cloud backup
 
-Once the service has been purchased, it is necessary in jeedom : 
+Once you've purchased the service, you'll need to do the following in Jeedom:
 
-- go to its administration then in the “Updates/Market” tab and fill in
-  - [Backup cloud] Name : name of the folder where to put the Jeedom backups (if you have a Jeedom simply put jeedom, otherwise put a folder by Jeedom)
-  - [Backup cloud] Password : backup encryption password. WARNING if you lose it the backups are lost, it is impossible to recover the password
-- in backup management, check the “Sending backups” box at the “Backups Market” level"
+- Go to its settings, then to the "Updates/Market" tab, and fill in
+  - [Cloud Backup] Name: Name of the folder where Jeedom backups will be stored (if you have a Jeedom, simply enter "jeedom"; otherwise, create a separate folder for each Jeedom)
+  - [Cloud Backup] Password: the password used to encrypt the backup. WARNING: If you lose this password, your backups will be lost, and it is impossible to recover the password.
+- In backup management, check the "Send backups" box under "Market Backups"
 
 >**NOTE**
 >
->It is possible to see the jeedom backup files directly from your profile page on the market, tab my services then configuration at the level of the cloud backup service
+>You can view your Jeedom backup folders directly from your profile page on the Market, under the "My Services" tab, then "Configuration" for the Cloud Backup service
 
 >**IMPORTANT**
 >
->The maximum storage size per market account is 2GB. Beyond that, the system will delete the oldest backup files until they fall below 3GB (for the moment we tolerate 1GB more).
+>The maximum storage size per Market account is 2 GB. If this limit is exceeded, the system will delete the oldest backup files until the total falls below 3 GB (for now, we allow an additional 1 GB).
 
 >**IMPORTANT**
 >
->For the moment there is no maximum retention period but we are considering automatically deleting backups older than 12 months.
+>At this time, there is no maximum retention period, but we are considering automatically deleting backups older than 12 months.

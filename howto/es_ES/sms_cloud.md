@@ -1,18 +1,18 @@
-# SMS / llamadas en la nube
+# SMS/Llamadas en la nube
 
-## Description
+## Descripción
 
-Es un servicio pago de Jeedom SAS que le permite enviar SMS y hacer llamadas (con un mensaje leído por un robot) desde su Jeedom.
+Se trata de un servicio de pago de Jeedom SAS que te permite enviar SMS y realizar llamadas (con un mensaje leído por un robot) desde tu Jeedom.
 
-Un ejemplo simple es : en caso de activar la alarma entonces recibo una llamada con una voz que indica por ejemplo la zona donde se activa la alarma. Podemos hacer lo mismo con un SMS.
+Un ejemplo sencillo es: si se activa la alarma, recibo una llamada en la que una voz me indica, por ejemplo, la zona en la que se ha activado la alarma. Se puede hacer lo mismo con un SMS.
 
-> **Importante**
+> **IMPORTANTE**
 >
-> Este servicio funciona por Internet, si ya no tiene Internet, ya no es funcional
+> Este servicio funciona a través de Internet; si te quedas sin conexión a Internet, dejará de funcionar.
 
-## Cómo utilizarlo 
+## Cómo utilizarlo
 
-Es muy simple tienes que : 
+Es muy sencillo, hay que:
 
-- tener crédito por SMS  : SMS = 1 crédito (limitado a 140 caracteres), llamada = 2 créditos (limitado a 450 caracteres))
-- tener el plugin de phonemarket, instalarlo y configurarlo, documentación [aquí](/plugins/communication/phonemarket)
+- saldo de SMS: SMS = 1 crédito (limitado a 140 caracteres), llamada = 2 créditos (limitado a 450 caracteres)
+- Cómo obtener el complemento Phonemarket, instalarlo y configurarlo, documentación [aquí](/plugins/communication/phonemarket)

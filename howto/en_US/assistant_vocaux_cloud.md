@@ -1,27 +1,27 @@
-# Cloud voice assistants
+# Cloud-based voice assistants
 
 ## Description
 
-This service allows you to connect your Jeedom with voice assistants from Google and Amazon.
+This service lets you connect your Jeedom to Google and Amazon voice assistants.
 
-It can be used with 
+It can be used with
 
-- or the Google Smarthome plugin, [Documentation](/plugins/communication/gsh)
-- or the Alexa plugin, [Documentation](/plugins/communication/ash)
+- or the Google Smart Home plugin, [documentation](/plugins/communication/gsh)
+- or the Alexa plugin, [documentation](/plugins/communication/ash)
 
-This service is chargeable and can be subscribed on the Jeedom Market, in the page [My services](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+This is a paid service and can be subscribed to on the Jeedom Market, on the page [My Services](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
-You will find in the respective documentation of the plugins their differences.
+You can find the differences between the plugins in their respective documentation.
 
-Then once the subscription is subscribed it is necessary to configure by following the documentation of the plugin
-
-> **Important**
->
-> Google and AMAZON require that your Jeedom be accessible in HTTPS (the plugin does not work in HTTP) with a valid certificate (therefore no self-signed certificate)
->
-> Thanks to the Power or Ultimate Service Packs, your Jeedom is accessible via HTTPS.
-> If you have a Community Service Pack, you must install yourself an SSL certificate issued by a certification authority (ex: Let's encrypt, ...).
+Once you've signed up for the subscription, you'll need to configure it by following the plugin's documentation
 
 > **Important**
 >
->Please note, due to a constraint from our service provider (OVH), the service only works in ipv4, so it is not ipv6 compatible
+> Google and Amazon require that your Jeedom be accessible via HTTPS (the plugin does not work over HTTP) with a valid certificate (so no self-signed certificates)
+>
+> With the Power or Ultimate Service Packs, your Jeedom is accessible via HTTPS.
+> If you have a Community Service Pack, you must install an SSL certificate issued by a certificate authority (e.g., Let's Encrypt, etc.) yourself.
+
+> **Important**
+>
+>Please note: Due to a restriction imposed by our service provider (OVH), the service only works with IPv4 and is therefore not IPv6-compatible.

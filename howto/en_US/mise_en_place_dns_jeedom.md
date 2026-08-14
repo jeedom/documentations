@@ -1,64 +1,64 @@
-# Implementation of Jeedom DNS
+# Setting Up the Jeedom DNS
 
-## Objectif
+## Objective
 
-Set up Jeedom DNS to have access to your Jeedom externally via a HTTPS URL
+Set up the Jeedom DNS to access your Jeedom externally via an HTTPS URL
 
 > **IMPORTANT**
 >
->The Jeedom DNS acts as a reverse proxy so it only gives access to your Jeedom in https, it will therefore not be possible to access your Jeedom in SSH remotely with the Jeedom DNS
+>The Jeedom DNS acts as a reverse proxy, so it only provides access to your Jeedom via HTTPS; therefore, it will not be possible to remotely access your Jeedom via SSH using the Jeedom DNS
 
 ## Prerequisites
 
-To have access to Jeedom DNS it is absolutely necessary to have a service pack power or more.
+To access Jeedom DNS, you must have at least the Power service pack.
 
-## Principe
+## Principle
 
-The principle of Jeedom DNS is very simple, your Jeedom will connect to one of our VPN servers (encrypted connection). Then this server in question with us makes "reverse proxy" during the request : it takes your request to connect to your jeedom and transfers it to it.
+The principle behind Jeedom DNS is very simple: your Jeedom device connects to one of our servers via VPN (an encrypted connection). Then, that specific server acts as a "reverse proxy" when a request is made: it takes your request to connect to your Jeedom device and forwards it to the device itself.
 
-This principle has the advantage of not exposing your Jeedom on the internet, no port opening to do.
+The advantage of this approach is that it doesn't expose your Jeedom to the internet—no ports need to be opened.
 
 > **IMPORTANT**
 >
-> For this to work, your box must authorize an outgoing connection on ports 1194,1195,1196,1197,1198,1199,2000 and 2001 in UDP. In particular for Liveboxes and Huawei 4G routers you have to lower the level of the firewall, for people at free you also sometimes have to switch to a fixed IP (otherwise free shares your IP between several users which poses problems for the DNS) moreover for Freebox Delta you need to deactivate parental controls 
+> For this to work, your router must allow outbound connections on UDP ports 1194, 1195, 1196, 1197, 1198, 1199, 2000, and 2001. In particular, for Livebox devices and Huawei 4G routers, you’ll need to lower the firewall settings. For Free subscribers, you may also need to switch to a static IP address (otherwise, Free shares your IP address among multiple users, which can cause DNS issues). Additionally, for Freebox Delta devices, you’ll need to disable parental controls.
 
-## Set up
+## Setup
 
 ### Jeedom
 
-There it is super simple, you must connect your Jeedom to the market (see documentation first-step). 
+It's really simple—just connect your Jeedom to the market (see the "Getting Started" documentation).
 
-Then on your Jeedom, in its administration go to the Networks tab and check "Use Jeedom DNS" then save.
+Next, on your Jeedom, go to the "Networks" tab in the administration panel, check the box next to "Use Jeedom DNS," and then save.
 
-Jeedom will start the DNS and give you your access url to your Jeedom
+Jeedom will start the DNS service and provide you with the URL to access your Jeedom
 
 > **IMPORTANT**
 >
-> You can change this url by going to your market profile page then my services tab and clicking on configuration in "Easy remote access", in the DNS field you can personalize it. After registration, you must restart the DNS in Jeedom (Settings -> System -> Configuration then Networks tab and restart in the "DNS (proxy) Market" section"). It is advisable to do this manipulation with local access to your box.
+> You can change this URL by going to your Market profile page, then to the "My Services" tab, and clicking "Configuration" under "Easy Remote Access." There, in the DNS field, you can customize it. After saving, you’ll need to restart the DNS in Jeedom (Settings -> System -> Configuration, then the “Networks” tab, and restart in the “DNS (proxy) Market” section). It’s recommended that you perform this step while connected to your router locally.
 
-Here your Jeedom is accessible from the outside in https
+Now your Jeedom is accessible from outside via HTTPS
 
 ## FAQ
 
-> **Is there a need to open ports on my box**
+> **Do I need to open any ports on my router?**
 >
-> No, there is no need to open a port on your internet box to your Jeedom. The connection is in the Jeedom -> VPN direction, so it is an outgoing connection (on ports 1194,1195,1996,1997,1198,1199,2000 and 2001) and not an incoming connection.
+> No, you don't need to open any ports on your internet router for your Jeedom. The connection goes from Jeedom to the VPN, so it's an outbound connection (on ports 1194, 1195, 1996, 1997, 1198, 1199, 2000, and 2001) and not an inbound connection.
 
-> **Why Jeedom DNS protects my access to it**
+> **Why does the Jeedom DNS protect my access to it?**
 >
-> Jeedom DNS allows you to set up something very important, HTTPS access, this guarantees that the connection between your browser and your Jeedom is encrypted, moreover the certificate being valid nobody will be able to impersonate your Jeedom. Finally, the VPN connection between your Jeedom and our servers is also encrypted.
+> Jeedom DNS allows you to set up something very important: HTTPS access. This ensures that the connection between your browser and your Jeedom is encrypted. Furthermore, since the certificate is valid, no one will be able to impersonate your Jeedom. Finally, the VPN connection between your Jeedom and our servers is also encrypted.
 
-> **I changed the internal listening port of my Jeedom and the Jeedom DNS no longer work**
+> **I changed the internal listening port on my Jeedom, and the Jeedom DNS no longer works**
 >
-> Indeed the Jeedom DNS only works if your Jeedom listens on local port 80 (all the other ports are closed on the VPN interface when connecting). This does not pose security concerns because the VPN creates an encrypted tunnel, so even if the flow is in clear on port 80 it is encrypted in the VPN tunnel.
+> In fact, the Jeedom DNS only works if your Jeedom is listening on local port 80 (all other ports are closed on the VPN interface during connection). This does not pose a security risk because the VPN creates an encrypted tunnel; therefore, even if the traffic is unencrypted on port 80, it is encrypted within the VPN tunnel.
 
-> **I don't have the login page but can't login**
+> **I don't have the login page, but I can't log in**
 >
-> Check that you have changed the default jeedom credentials (admin / admin) and that your user is not restricted locally only.
+> Make sure you have changed the default Jeedom credentials (admin/admin) and that your user account is not restricted to local access only.
 
-> **My configuration is good but impossible to have a page it turns endlessly**
+> **My configuration is correct, but I can't load a page—it just keeps reloading indefinitely**
 >
 
-> **I have the error "ERROR: Cannot open TUN / TAP dev / dev / net / tun: No such file or directory (errno = 2)"**
+> **I'm getting the error "ERROR: Cannot open TUN/TAP dev /dev/net/tun: No such file or directory (errno=2)"**
 >
-> This error usually occurs on docker type installations, as indicated in the documentation for [compatibility](/compatibility) docker support is beta precisely because of this kind of problem. The solution is usually to install openvpn on the host (when possible))
+> This error generally occurs on Docker installations of type docker, as noted in the documentation for [Compatibility](/compatibility) Docker support is in beta precisely because of these kinds of issues. The solution is usually to install OpenVPN on the host (when possible).

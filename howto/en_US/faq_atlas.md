@@ -1,5 +1,5 @@
-# Jeedom Atlas faq
+# Jeedom Atlas FAQ
 
-## During a market connection test I : "Could not resolv...."
+## When I tried to connect to the market, I got the message: "Could not resolv...."
 
-Try to restart the Atlas box. This is a problem during DHCP negotiation which does not recover the DNS properly, restarting the box corrects the problem (which generally only happens once))
+Try restarting the Atlas box. This is an issue with the DHCP negotiation process that fails to properly retrieve the DNS settings; restarting the box resolves the issue (which usually only happens once).
