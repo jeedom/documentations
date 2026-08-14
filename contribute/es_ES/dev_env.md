@@ -63,7 +63,7 @@ Haz clic con el botón derecho del ratón en `jeedomRoot` y luego `Connecter un 
 En Windows, ahora dispones de un disco de red `jeedomRoot` !
 
 
-### Configuración del almacén local
+### Configuración del repositorio local
 
 Para duplicar el repositorio localmente y poder trabajar en él, vamos a recuperar [Sublime Merge portátil](https://www.sublimemerge.com/download).
 

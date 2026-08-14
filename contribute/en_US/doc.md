@@ -26,7 +26,7 @@ To contribute to the documentation, there are a few prerequisites you should be 
 
 ## General Documentation
 
-The general documentation pages cover all sections except those related to **Manuals** *(Jeedom core)* and **Plugins**. The files are available at [submission of documentation](https://github.com/jeedom/documentations/tree/master){:target="_blank"}.
+The general documentation pages cover all sections except those related to **Manuals** *(Jeedom core)* and **Plugins**. The files are available at [the documentation repository](https://github.com/jeedom/documentations/tree/master){:target="_blank"}.
 
 Each page of the documentation site corresponds to a file `Markdown` *(\*.md)* on GitHub, for example:
 - This page, **Contribute to the documentation** ([doc.jeedom.com/contribute/#LANG#/doc](/contribute/doc)) corresponds to the file [contribute/fr_FR/doc.md](https://github.com/jeedom/documentations/blob/master/contribute/fr_FR/doc.md){:target="_blank"}.

@@ -26,7 +26,7 @@ Um zur Dokumentation beizutragen, sollten Sie einige Voraussetzungen kennen und 
 
 ## Allgemeine Dokumentation
 
-Die Seiten mit der allgemeinen Dokumentation beziehen sich auf alle Abschnitte, mit Ausnahme derjenigen, die sich auf **Handbücher** *(Jeedom-Kern)* und **Plugins** beziehen. Die Dateien sind abrufbar unter [Einreichung der Unterlagen](https://github.com/jeedom/documentations/tree/master){:target="_blank"}.
+Die Seiten mit der allgemeinen Dokumentation beziehen sich auf alle Abschnitte, mit Ausnahme derjenigen, die sich auf **Handbücher** *(Jeedom-Kern)* und **Plugins** beziehen. Die Dateien sind abrufbar unter [das Dokumentations-Repository](https://github.com/jeedom/documentations/tree/master){:target="_blank"}.
 
 Jede Seite der Dokumentationswebsite entspricht einer Datei `Markdown` *(\*.md)* auf GitHub, zum Beispiel:
 - Diese Seite, **Zur Dokumentation beitragen** ([doc.jeedom.com/contribute/#LANG#/doc](/contribute/doc)) entspricht der Datei [contribute/fr_FR/doc.md](https://github.com/jeedom/documentations/blob/master/contribute/fr_FR/doc.md){:target="_blank"}.

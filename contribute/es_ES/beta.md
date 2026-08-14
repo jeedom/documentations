@@ -13,11 +13,11 @@ Como se ha indicado anteriormente, actualizar Jeedom o un complemento a una vers
 >
 >El equipo de Jeedom no se hace responsable de ningún fallo que se produzca tras la instalación de una versión que no sea la estable. En ese caso, **no se podrá acceder al servicio de asistencia oficial**, por lo que es necesario [enviar un informe](#Faire%20une%20remontée).
 
-## Sectores
+## Ramas
 
 Jeedom es un programa de código abierto cuyo desarrollo se puede seguir en tiempo real en [GitHub](https://github.com/jeedom/core){:target="_blank"}. Cada rama corresponde a diferentes niveles de avance en su desarrollo.
 
-### Áreas principales
+### Ramas principales
 
 -  **desarrollo**: Versión en fase de desarrollo que incluye modificaciones periódicas *(integración continua)*.
 -  **Lanzamiento**: La próxima versión se publicará unos días antes de pasar a la versión estable para poder probarla en condiciones reales y corregirla rápidamente si es necesario.
@@ -27,7 +27,7 @@ Jeedom es un programa de código abierto cuyo desarrollo se puede seguir en tiem
 >
 >Aunque hay más de un centenar de probadores beta registrados en el foro, apenas tenemos comentarios sobre los desarrollos en curso *(rama `develop`)*. Ya sea por falta de tiempo o por dudas sobre sus conocimientos técnicos, quienes deseen, no obstante, participar en los avances de Jeedom pueden probar la rama `release` *(ya estabilizada en gran parte)* antes de que se ponga a disposición de todos los usuarios en la versión estable.
 
-### Sectores relacionados
+### Ramas secundarias
 
 Las ramas secundarias corresponden a desarrollos independientes y puntuales, destinados a integrarse en una rama principal.
 
@@ -50,7 +50,7 @@ A continuación, haz clic en el botón **Guardar** y ve al menú **Configuració
 >**IMPORTANTE**
 >
 >En caso de que cambie la numeración del núcleo, se desaconseja encarecidamente volver a una versión anterior *(downgrade)*. Se recomienda, en cambio, esperar a que los cambios se incorporen a la versión estable para volver a ella.\
->En cuanto a las ramas secundarias, una vez probada la funcionalidad o la corrección, hay que volver a la versión base *(`develop` (en la mayoría de los casos)*.
+>En cuanto a las ramas secundarias, una vez probada la funcionalidad o la corrección, hay que volver a la versión base *(`develop` en la mayoría de los casos)*.
 
 ## Actualizaciones
 
@@ -92,7 +92,7 @@ Tras analizar claramente la situación, existen varios canales disponibles para 
 
 Los comentarios se pueden enviar directamente en [el salón de los beta-testers del foro Jeedom](https://community.jeedom.com/c/salon-des-beta-testeurs/6){:target="_blank"}.
 
-Elige la sección adecuada para la categoría de la publicación y añade las etiquetas *(tags)* relacionadas con el tema *(`v4_5` (por ejemplo)*. Ahora solo tienes que redactar tu informe incluyendo toda la información posible para que cualquier persona ajena al caso pueda comprender, reproducir y analizar la situación.
+Elige la sección adecuada para la categoría de la publicación y añade las etiquetas *(tags)* relacionadas con el tema *(`v4_5` por ejemplo)*. Ahora solo tienes que redactar tu informe incluyendo toda la información posible para que cualquier persona ajena al caso pueda comprender, reproducir y analizar la situación.
 
 >**INFORMACIÓN**
 >

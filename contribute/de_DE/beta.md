@@ -7,17 +7,17 @@ Ein Beta-Tester ist ein Nutzer, der Softwareversionen testet, bevor diese für a
 
 Obwohl die Entwickler größte Sorgfalt walten lassen, können in den in der Entwicklung befindlichen Versionen Fehler enthalten sein, die dazu führen können, dass ein Plugin oder der Kern vollständig funktionsunfähig wird. Ebenso können Funktionen, die sich in der Entwicklung befinden, je nach den Umständen verschoben oder sogar aufgegeben werden. Man sollte daher mit den Verfahren zur Sicherungs- und Wiederherstellung von Jeedom gut vertraut sein, bevor man mit dem Beta-Testing beginnt.
 
-Wie oben erwähnt, birgt das Umstellen von Jeedom oder eines Plugins auf eine Version, die sich noch in der Entwicklung befindet, Risiken. Daher **wird dringend empfohlen, dies auf einer eigens dafür vorgesehenen Testumgebung durchzuführen *([eine virtuelle Maschine](/installation/vm) (zum Beispiel)* statt auf einem Jeedom im Produktivbetrieb**.
+Wie oben erwähnt, birgt das Umstellen von Jeedom oder eines Plugins auf eine Version, die sich noch in der Entwicklung befindet, Risiken. Daher **wird dringend empfohlen, dies auf einer eigens dafür vorgesehenen Testumgebung durchzuführen *([eine virtuelle Maschine](/installation/vm) zum Beispiel)* statt auf einem Jeedom im Produktivbetrieb**.
 
 >**WICHTIG**
 >
 >Das Jeedom-Team übernimmt keine Haftung für Fehlfunktionen, die durch die Installation einer anderen als der stabilen Version entstehen. In diesem Fall **ist der Zugang zum offiziellen Support nicht möglich**, daher müssen Sie [eine Rückmeldung geben](#Faire%20une%20remontée).
 
-## Branchen
+## Zweige
 
 Jeedom ist eine Open-Source-Software, deren Entwicklung in Echtzeit unter [GitHub](https://github.com/jeedom/core){:target="_blank"}. Jeder dieser Bereiche entspricht unterschiedlichen Entwicklungsstufen.
 
-### Hauptbereiche
+### Hauptzweige
 
 -  **Entwicklung**: Version, die sich derzeit in der Entwicklung befindet und regelmäßig aktualisiert wird *(kontinuierliche Integration)*.
 -  **Release**: Die nächste Version wird einige Tage vor der Übernahme in die stabile Version bereitgestellt, um unter realen Bedingungen getestet und bei Bedarf schnell korrigiert zu werden.
@@ -27,7 +27,7 @@ Jeedom ist eine Open-Source-Software, deren Entwicklung in Echtzeit unter [GitHu
 >
 >Obwohl im Forum mehr als hundert Beta-Tester registriert sind, erhalten wir nur wenig Feedback zu den laufenden Entwicklungen *(Zweig `develop`)*. Ob aus Zeitmangel oder wegen Unsicherheiten hinsichtlich der eigenen technischen Kenntnisse – wer dennoch an den Weiterentwicklungen von Jeedom mitwirken möchte, kann den Branch testen `release` *(bereits weitgehend stabilisiert)* bevor sie allen Nutzern als stabile Version zur Verfügung gestellt wird.
 
-### Verwandte Bereiche
+### Nebenzweige
 
 Nebenzweige sind eigenständige, punktuelle Entwicklungen, die dazu bestimmt sind, in einen Hauptzweig integriert zu werden.
 
@@ -50,7 +50,7 @@ Klicken Sie anschließend auf die Schaltfläche **Speichern** und gehen Sie dann
 >**WICHTIG**
 >
 >Im Falle einer Änderung der Core-Versionsnummer wird dringend davon abgeraten, auf eine niedrigere Version *(Downgrade)* zurückzuwechseln. Es wird vielmehr empfohlen, abzuwarten, bis die Änderungen in einer stabilen Version verfügbar sind, um dann wieder darauf umzusteigen.\
->Was die Nebenzweige betrifft, muss man, sobald die Funktion oder der Patch getestet wurde, zur Basisversion zurückkehren *(`develop` (in den meisten Fällen)*.
+>Was die Nebenzweige betrifft, muss man, sobald die Funktion oder der Patch getestet wurde, zur Basisversion zurückkehren *(`develop` in den meisten Fällen)*.
 
 ## Aktualisierungen
 
@@ -92,7 +92,7 @@ Nach einer gründlichen Analyse der Situation stehen mehrere Kanäle zur Verfüg
 
 Feedback kann direkt in [Der Treffpunkt für Beta-Tester des Jeedom-Forums](https://community.jeedom.com/c/salon-des-beta-testeurs/6){:target="_blank"}.
 
-Wählen Sie den passenden Bereich für die Kategorie des Beitrags aus und fügen Sie dann die zum Thema passenden *Tags* hinzu *(`v4_5` (zum Beispiel)*. Nun müssen Sie nur noch Ihr Feedback verfassen und dabei so viele Informationen wie möglich angeben, damit auch Außenstehende die Situation nachvollziehen, nachstellen und analysieren können.
+Wählen Sie den passenden Bereich für die Kategorie des Beitrags aus und fügen Sie dann die zum Thema passenden *Tags* hinzu *(`v4_5` zum Beispiel)*. Nun müssen Sie nur noch Ihr Feedback verfassen und dabei so viele Informationen wie möglich angeben, damit auch Außenstehende die Situation nachvollziehen, nachstellen und analysieren können.
 
 >**INFORMATION**
 >

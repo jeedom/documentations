@@ -63,7 +63,7 @@ Klicken Sie mit der rechten Maustaste auf `jeedomRoot` dann `Connecter un lecteu
 Unter Windows steht Ihnen nun also ein Netzlaufwerk zur Verfügung `jeedomRoot` !
 
 
-### Einrichtung des lokalen Speichers
+### Einrichtung des lokalen Repositorys
 
 Um das Repository lokal zu duplizieren und daran arbeiten zu können, laden wir Folgendes herunter: [Sublime Merge (portable Version)](https://www.sublimemerge.com/download).
 

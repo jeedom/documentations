@@ -26,7 +26,7 @@ Para contribuir a la documentación, hay que conocer y tener en cuenta algunos r
 
 ## Documentación general
 
-Las páginas de documentación general abarcan todas las secciones, salvo las relativas a los **Manuales** *(Jeedom core)* y a los **Plugins**. Se puede acceder a los archivos en [la presentación de la documentación](https://github.com/jeedom/documentations/tree/master){:target="_blank"}.
+Las páginas de documentación general abarcan todas las secciones, salvo las relativas a los **Manuales** *(Jeedom core)* y a los **Plugins**. Se puede acceder a los archivos en [el repositorio de la documentación](https://github.com/jeedom/documentations/tree/master){:target="_blank"}.
 
 Cada página del sitio web de documentación corresponde a un archivo `Markdown` *(\*.md)* en GitHub, por ejemplo:
 - Esta página, **Colaborar en la documentación** ([doc.jeedom.com/contribute/#LANG#/doc](/contribute/doc)) corresponde al archivo [contribute/fr_FR/doc.md](https://github.com/jeedom/documentations/blob/master/contribute/fr_FR/doc.md){:target="_blank"}.
