@@ -151,7 +151,7 @@ Ein Objekt zu erstellen ist ganz einfach:
 -   Klicken Sie auf die Schaltfläche „Hinzufügen“.
 -   Jeedom fragt Sie nach dem Namen des Objekts. Bestätigen Sie. Damit haben Sie Ihr erstes Objekt erstellt:
 
-![Betreff](../images/FirstStep_object.jpg)
+![Objekt](../images/FirstStep_object.jpg)
 
 Weitere Informationen zu diesem Abschnitt finden Sie unter *Bedienungsanleitung -> Objekt*.
 
