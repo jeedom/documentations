@@ -29,9 +29,7 @@ Die WebApp dient in erster Linie zu Informationszwecken. Sie können natürlich 
 
 Mit der Jeedom-App (kompatibel mit iOS/Android) können Sie Ihr Jeedom-Hausautomationssystem steuern – sowohl über das lokale WLAN als auch über das 3G/4G-Netz Ihres Mobilfunkanbieters. Die App verbindet sich automatisch über einen QR-Code mit Ihrem Jeedom, eine Konfiguration ist nicht erforderlich. Auf Ihrem Smartphone stehen Ihnen alle Funktionen Ihres Jeedom-Systems zur Verfügung (Szenarien, vernetzte Geräte und Hausautomationskomponenten, Plugins). Außerdem können Sie Ihre App mit Verknüpfungen und vielem mehr individuell anpassen...
 
-[![App Store](../images/appstore.png)](https://itunes.apple.com/fr/app/jeedom/id1010855094?mt=8)	[![PlayStore](../images/googleplay.png)](https://play.google.com/store/apps/details?id=fr.jeedom.jeedom&hl=fr)
+[![App Store](../images/appstore.png)](https://itunes.apple.com/fr/app/jeedom/id1010855094?mt=8)	[![Play Store](../images/googleplay.png)](https://play.google.com/store/apps/details?id=fr.jeedom.jeedom&hl=fr)
 
 
 ![Jeedom-App](../images/screen322x572-1.jpg) ![Jeedom-App](../images/screen322x572-2.jpg) ![Jeedom-App](../images/screen322x572-3.jpg) ![Jeedom-App](../images/screen322x572-4.jpg) ![Jeedom-App](../images/screen322x572-5.jpg)
-
-

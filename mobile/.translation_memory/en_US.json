@@ -1,7 +1,6 @@
 {
-    "![AppStore": "![App Store",
-    "![PlayStore": "![Play Store",
     "Analyse : Accédez à la Timeline, aux Logs, Analyse équipement, Crons, Démons et Santé.": "Analysis: Access the Timeline, Logs, Device Analysis, Cron Jobs, Daemons, and Health.",
+    "App Store": "App Store",
     "Application Jeedom": "Jeedom App",
     "Autre : Basculez entre les thèmes principal et alternatif, accédez à la version Desktop, Forcez la mise à jour, accédez à la documentation, à propos, ou déconnectez-vous.": "Other: Switch between the main and alternate themes, access the desktop version, force an update, access the documentation, view \"About,\" or sign out.",
     "Cette version adaptée est aussi simplifiée, dans un souci d'affichage et de performance.": "This adapted version has also been simplified for better display and performance.",
@@ -14,6 +13,7 @@
     "La WebApp a un rôle principalement consultatif. Vous pouvez bien sûr interagir avec vos équipements comme en Desktop, mais vous ne pourrez pas, par exemple, éditer un scénario, modifier un équipement, accéder à la configuration de Jeedom.": "The WebApp serves primarily as a reference tool. You can, of course, interact with your devices just as you would on the desktop version, but you won’t be able to, for example, edit a scenario, modify a device, or access Jeedom’s configuration.",
     "La page d'accueil de la WebApp peu-être paramétrée sur votre Jeedom dans Réglages → Préférences.": "The WebApp home page can be configured on your Jeedom under Settings → Preferences.",
     "Messages : Afficher le centre de messages.": "Messages: Display the message center.",
+    "Play Store": "Play Store",
     "Plugins : Certains plugins peuvent avoir un affichage dédié à la WebApp. Ils seront accessibles ici.": "Plugins: Some plugins may have a dedicated view in the WebApp. They will be accessible here.",
     "Scénario : Affichage des tuiles de vos scénarios, par groupes, avec possibilité de les activer/désactiver, arrêter/démarrer. En cliquant sur le titre du scénario, vous accéderez à son log.": "Scenario: Displays your scenario tiles by group, with the option to enable/disable or stop/start them. Clicking on the scenario title will take you to its log.",
     "Tips": "Tips",

@@ -1,7 +1,6 @@
 {
-    "![AppStore": "![App Store",
-    "![PlayStore": "![PlayStore",
     "Analyse : Accédez à la Timeline, aux Logs, Analyse équipement, Crons, Démons et Santé.": "Análisis: Accede a la línea de tiempo, los registros, el análisis de equipos, las tareas programadas, los demonios y el estado del sistema.",
+    "App Store": "App Store",
     "Application Jeedom": "Aplicación Jeedom",
     "Autre : Basculez entre les thèmes principal et alternatif, accédez à la version Desktop, Forcez la mise à jour, accédez à la documentation, à propos, ou déconnectez-vous.": "Otros: Cambia entre el tema principal y el alternativo, accede a la versión de escritorio, fuerza la actualización, accede a la documentación, a la sección «Acerca de» o cierra sesión.",
     "Cette version adaptée est aussi simplifiée, dans un souci d'affichage et de performance.": "Esta versión adaptada también se ha simplificado, con el fin de mejorar la visualización y el rendimiento.",
@@ -14,6 +13,7 @@
     "La WebApp a un rôle principalement consultatif. Vous pouvez bien sûr interagir avec vos équipements comme en Desktop, mais vous ne pourrez pas, par exemple, éditer un scénario, modifier un équipement, accéder à la configuration de Jeedom.": "La aplicación web tiene una función principalmente consultiva. Por supuesto, puedes interactuar con tus dispositivos igual que en la versión de escritorio, pero no podrás, por ejemplo, editar un escenario, modificar un dispositivo ni acceder a la configuración de Jeedom.",
     "La page d'accueil de la WebApp peu-être paramétrée sur votre Jeedom dans Réglages → Préférences.": "La página de inicio de la aplicación web se puede configurar en tu Jeedom en Ajustes → Preferencias.",
     "Messages : Afficher le centre de messages.": "Mensajes: Mostrar el centro de mensajes.",
+    "Play Store": "Play Store",
     "Plugins : Certains plugins peuvent avoir un affichage dédié à la WebApp. Ils seront accessibles ici.": "Complementos: Algunos complementos pueden tener una interfaz específica para la aplicación web. Se podrá acceder a ellos desde aquí.",
     "Scénario : Affichage des tuiles de vos scénarios, par groupes, avec possibilité de les activer/désactiver, arrêter/démarrer. En cliquant sur le titre du scénario, vous accéderez à son log.": "Escenario: Visualización de los mosaicos de tus escenarios, agrupados, con la posibilidad de activarlos/desactivarlos, detenerlos/iniciarlos. Al hacer clic en el título del escenario, accederás a su registro.",
     "Tips": "Consejos",
