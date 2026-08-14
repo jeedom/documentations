@@ -33,5 +33,3 @@ The Jeedom mobile app (compatible with iOS/Android) lets you control your Jeedom
 
 
 ![Jeedom App](../images/screen322x572-1.jpg) ![Jeedom App](../images/screen322x572-2.jpg) ![Jeedom App](../images/screen322x572-3.jpg) ![Jeedom App](../images/screen322x572-4.jpg) ![Jeedom App](../images/screen322x572-5.jpg)
-
-

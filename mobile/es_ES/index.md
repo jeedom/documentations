@@ -29,9 +29,7 @@ La aplicación web tiene una función principalmente consultiva. Por supuesto, p
 
 La aplicación móvil Jeedom (compatible con iOS y Android) te permite controlar tu sistema de domótica Jeedom, ya sea a través de una red Wi-Fi local o de la red 3G/4G de tu operador. La aplicación se conecta automáticamente a tu Jeedom mediante un código QR, sin necesidad de configuración alguna. En tu móvil encontrarás todas las funciones de tu Jeedom (escenarios, dispositivos conectados y domóticos, complementos). También podrás personalizar tu aplicación con accesos directos y mucho más...
 
-[![App Store](../images/appstore.png)](https://itunes.apple.com/fr/app/jeedom/id1010855094?mt=8)	[![PlayStore](../images/googleplay.png)](https://play.google.com/store/apps/details?id=fr.jeedom.jeedom&hl=fr)
+[![App Store](../images/appstore.png)](https://itunes.apple.com/fr/app/jeedom/id1010855094?mt=8)	[![Play Store](../images/googleplay.png)](https://play.google.com/store/apps/details?id=fr.jeedom.jeedom&hl=fr)
 
 
 ![Aplicación Jeedom](../images/screen322x572-1.jpg) ![Aplicación Jeedom](../images/screen322x572-2.jpg) ![Aplicación Jeedom](../images/screen322x572-3.jpg) ![Aplicación Jeedom](../images/screen322x572-4.jpg) ![Aplicación Jeedom](../images/screen322x572-5.jpg)
-
-
