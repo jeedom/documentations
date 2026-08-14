@@ -61,7 +61,7 @@
     ", hors dossier ": ", not included in the report ",
     ", il est nécessaire de cocher la case **Activer l'accès aux plugins bêta** dans ": ", you must check the **Enable access to beta plugins** box in ",
     ", les intégrations étant continues, le journal des modifications n'est pas encore généré à cette étape. Pour prendre connaissance des changements apportés depuis la dernière version stable, il faut se référer aux ": ", since integrations are ongoing, the change log has not yet been generated at this stage. To review the changes made since the last stable release, please refer to the ",
-    ". Chaque branche correspondant à différents niveaux d'avancement dans son développement.": ". Each branch corresponds to different stages of development.",
+    ". Chaque branche correspond à différents niveaux d'avancement dans son développement.": ". Each branch corresponds to different stages of development.",
     ". Il est inutile de modifier ces fichiers car ils sont réécrits régulièrement par un robot.": ". There is no need to edit these files, as they are regularly overwritten by a bot.",
     ". Il suffit ensuite d'installer ou de réinstaller le plugin dans cette version.": ". Then simply install or reinstall the plugin in this version.",
     ". Éditez le et, après avoir modifié les bon chemins, enregistrez le code suivant:": ". Edit the file, and after updating the paths, save the following code:",

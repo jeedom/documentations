@@ -15,7 +15,7 @@ Wie oben erwähnt, birgt das Umstellen von Jeedom oder eines Plugins auf eine Ve
 
 ## Zweige
 
-Jeedom ist eine Open-Source-Software, deren Entwicklung in Echtzeit unter [GitHub](https://github.com/jeedom/core){:target="_blank"}. Jeder dieser Bereiche entspricht unterschiedlichen Entwicklungsstufen.
+Jeedom ist eine Open-Source-Software, deren Entwicklung in Echtzeit unter [GitHub](https://github.com/jeedom/core){:target="_blank"}. Jeder Zweig entspricht unterschiedlichen Entwicklungsstufen.
 
 ### Hauptzweige
 

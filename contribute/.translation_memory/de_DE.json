@@ -61,7 +61,7 @@
     ", hors dossier ": ", außerhalb des Dossiers ",
     ", il est nécessaire de cocher la case **Activer l'accès aux plugins bêta** dans ": ": Dazu muss das Kontrollkästchen **Zugriff auf Beta-Plugins aktivieren** in ",
     ", les intégrations étant continues, le journal des modifications n'est pas encore généré à cette étape. Pour prendre connaissance des changements apportés depuis la dernière version stable, il faut se référer aux ": "Da die Integrationen noch andauern, wird das Änderungsprotokoll in dieser Phase noch nicht erstellt. Um sich über die seit der letzten stabilen Version vorgenommenen Änderungen zu informieren, lesen Sie bitte die ",
-    ". Chaque branche correspondant à différents niveaux d'avancement dans son développement.": ". Jeder dieser Bereiche entspricht unterschiedlichen Entwicklungsstufen.",
+    ". Chaque branche correspond à différents niveaux d'avancement dans son développement.": ". Jeder Zweig entspricht unterschiedlichen Entwicklungsstufen.",
     ". Il est inutile de modifier ces fichiers car ils sont réécrits régulièrement par un robot.": ". Es ist sinnlos, diese Dateien zu ändern, da sie regelmäßig von einem Bot neu geschrieben werden.",
     ". Il suffit ensuite d'installer ou de réinstaller le plugin dans cette version.": ". Anschließend müssen Sie das Plugin in dieser Version installieren oder neu installieren.",
     ". Éditez le et, après avoir modifié les bon chemins, enregistrez le code suivant:": ". Bearbeiten Sie die Datei und speichern Sie den folgenden Code, nachdem Sie die entsprechenden Pfade angepasst haben:",
