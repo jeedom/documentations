@@ -29,9 +29,7 @@ La WebApp a un rôle principalement consultatif. Vous pouvez bien sûr interagir
 
 L'application mobile Jeedom (compatible IOS/Android) permet le pilotage de votre système domotique Jeedom, que ce soit en Wifi local, ou sur le réseau 3G/4G de votre opérateur. L'application se connecte automatiquement à votre Jeedom par l'intermédiaire d'un QRcode, aucune configuration n'est nécessaire. Vous retrouverez sur votre mobile les fonctionnalités de votre Jeedom. (scénarios, objets connectés et domotiques, plugins). Vous pourrez aussi personnaliser votre application avec des raccourcis et plus encore...
 
-[![AppStore](../images/appstore.png)](https://itunes.apple.com/fr/app/jeedom/id1010855094?mt=8)	[![PlayStore](../images/googleplay.png)](https://play.google.com/store/apps/details?id=fr.jeedom.jeedom&hl=fr)
+[![App Store](../images/appstore.png)](https://itunes.apple.com/fr/app/jeedom/id1010855094?mt=8)	[![Play Store](../images/googleplay.png)](https://play.google.com/store/apps/details?id=fr.jeedom.jeedom&hl=fr)
 
 
 ![Jeedom App](../images/screen322x572-1.jpg) ![Jeedom App](../images/screen322x572-2.jpg) ![Jeedom App](../images/screen322x572-3.jpg) ![Jeedom App](../images/screen322x572-4.jpg) ![Jeedom App](../images/screen322x572-5.jpg)
-
-
