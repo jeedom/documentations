@@ -1,62 +1,62 @@
 # Installation auf Raspberry Pi
 
-Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-PI **mit einer MiroSD-Karte.**. 
+Hier finden Sie die Anleitung zur Installation von Jeedom auf einem Raspberry Pi **mit einer microSD-Karte**.
 
-# Befehlszeileninstallation
+# Installation über die Befehlszeile
 
-## Laden Sie das neueste "lite" -Bild herunter"
+## Das neueste „Lite“-Image herunterladen
 
-[Raspberry Pi Imager](https://www.raspberrypi.com/software/)  permet de télécharger l'image d'installation de Raspberry Pi OS et de graver l'image directement sur la carte SD.
+[Raspberry Pi Imager](https://www.raspberrypi.com/software/)  ermöglicht es, das Installations-Image von Raspberry Pi OS herunterzuladen und direkt auf die SD-Karte zu brennen.
 
-## Aktivieren Sie den SSH-Zugriff
+## SSH-Zugriff aktivieren
 
 > **Warnung**
 >
-> Aus Sicherheitsgründen ist der SSH-Zugriff für diese Distribution standardmäßig nicht mehr aktiviert. Il faut donc l'activer via les options avancées de Raspberry Pi Imager.
+> Aus Sicherheitsgründen ist der SSH-Zugriff bei dieser Distribution standardmäßig nicht mehr aktiviert. Er muss daher über die erweiterten Optionen des Raspberry Pi Imager aktiviert werden.
 
-## Starten Sie den Raspberry Pi
+## Den Raspberry Pi starten
 
-Legen Sie Ihre MicroSD-Karte ein, schließen Sie das Netzwerkkabel an und schließen Sie die Stromversorgung an.
+Legen Sie Ihre MicroSD-Karte ein, schließen Sie das Netzwerkkabel an und schließen Sie das Netzteil an.
 
-## Verbinden Sie sich in SSH
+## Per SSH verbinden
 
 Identifizieren Sie Ihren Raspberry Pi im Netzwerk
 
-Sie müssen die IP-Adresse Ihres Raspberry PI kennen. Viele Lösungen :
+Sie müssen die IP-Adresse Ihres Raspberry Pi kennen. Dazu gibt es mehrere Möglichkeiten:
 
--   Konsultieren Sie die DHCP-Konfiguration in Ihrem Router
--   Verwenden Sie einen Port-Scanner wie "Angry IP Scanner"" [hier](http://angryip.org/download/#windows)
+-   Überprüfen Sie die DHCP-Einstellungen in Ihrem Router
+-   Verwenden Sie einen Port-Scanner wie „Angry IP Scanner“ [hier](http://angryip.org/download/#windows)
 
 Verbindung herstellen
 
-Verwenden Sie dann beispielsweise PuTTY, um Ihre Verbindung herzustellen [Hier](http://www.putty.org/)
+Verwenden Sie anschließend beispielsweise PuTTY, um Ihre Verbindung herzustellen [Hier](http://www.putty.org/)
 
-Geben Sie die IP-Adresse Ihres Raspberry Pi ein (hier 192.168.0.10) und klicken Sie auf Öffnen. Akzeptieren Sie die Standardsicherheitsmeldung bei der ersten Anmeldung.
+Geben Sie die IP-Adresse Ihres Raspberry Pi ein (hier 192.168.0.10) und klicken Sie auf „Öffnen“. Bestätigen Sie bei der ersten Verbindung die Standardmeldung zur Sicherheit.
 
-Connectez-vous avec les identifiants que vous avez défini dans Raspberry Pi Imager lors de la gravure.
+Melden Sie sich mit den Zugangsdaten an, die Sie beim Brennen im Raspberry Pi Imager festgelegt haben.
 
 > **Wichtig**
 >
-> Aus Sicherheitsgründen muss das Standardkennwort unbedingt geändert werden. Besonders häufig sind Fälle von Hacking, die auf der Verwendung des Standard-Login / Passwort-Paares des Raspberry Pi basieren. (Befehl : passwd und sudo passwd)
+> Aus Sicherheitsgründen ist es unbedingt erforderlich, das Standardpasswort zu ändern. Hackerangriffe, bei denen die Standard-Anmelde- und Passwortkombination des Raspberry Pi ausgenutzt wird, sind besonders verbreitet. (Befehl: passwd und sudo passwd)
 
-## Starten Sie das Installationsskript jeedom
+## Das Jeedom-Installationsskript starten
 
-„
+```
 wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
 chmod +x install.sh
 ./install.sh
-„
+```
 
-> **Notiz**
+> **Hinweis**
 >
-> Abhängig von Ihrer Internetgeschwindigkeit kann die Installation 45 bis 90 Minuten dauern. Sie dürfen den Vorgang nicht vor dem Ende unterbrechen. Andernfalls müssen Sie den gesamten Vorgang wiederholen.
+> Je nach Ihrer Internetgeschwindigkeit kann die Installation zwischen 45 und 90 Minuten dauern. Unterbrechen Sie den Vorgang auf keinen Fall vorzeitig. Andernfalls müssen Sie den gesamten Vorgang von vorne beginnen.
 
-Dann gehen Sie einfach zu IP\_MACHINE\_JEEDOM
+Anschließend müssen Sie lediglich zu IP\_MACHINE\_JEEDOM navigieren
 
-> **Notiz**
+> **Hinweis**
 >
-> Die Standardanmeldeinformationen sind admin / admin
+> Die Standard-Anmeldedaten lauten admin/admin
 
 Weitere Informationen zur Installation von Jeedom finden Sie hier [Dokumentation](cli)
 
-Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](/premiers-pas)
+Anschließend können Sie der Dokumentation folgen [Erste Schritte mit Jeedom](/premiers-pas)

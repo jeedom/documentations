@@ -1,45 +1,45 @@
 # Installation on Raspberry Pi
 
-You will find here the documentation to install Jeedom on a raspberry PI **with a MiroSD card.**. 
+Here you'll find the documentation for installing Jeedom on a Raspberry Pi **with a microSD card.**
 
-# Command line installation
+# Command-line installation
 
-## Download the latest "lite" image"
+## Download the latest "lite" image
 
-[Raspberry Pi Imager](https://www.raspberrypi.com/software/)  allows you to download the Raspberry Pi OS installation image and burn the image directly onto the SD card.
+[Raspberry Pi Imager](https://www.raspberrypi.com/software/)  allows you to download the Raspberry Pi OS installation image and write the image directly to the SD card.
 
 ## Enable SSH access
 
 > **Warning**
 >
-> For security reasons, SSH access is no longer enabled by default on this distribution. Therefore, it must be activated via the advanced options of Raspberry Pi Imager.
+> For security reasons, SSH access is no longer enabled by default on this distribution. You must therefore enable it through the advanced options in Raspberry Pi Imager.
 
 ## Start the Raspberry Pi
 
-Insert your MicroSD card, connect the network cable and connect the power.
+Insert your MicroSD card, connect the network cable, and plug in the power supply.
 
-## Connect in SSH
+## Connect via SSH
 
 Identify your Raspberry Pi on the network
 
-You need to know the IP address of your Raspberry PI. Many solutions :
+You need to know the IP address of your Raspberry Pi. There are several ways to do this:
 
--   Consult the DHCP configuration in your router
--   Use a port scanner such as "Angry IP Scanner" [here](http://angryip.org/download/#windows)
+-   Check the DHCP settings on your router
+-   Use a port scanner type "Angry IP Scanner" [here](http://angryip.org/download/#windows)
 
-Establish connection
+Establishing the connection
 
-Then use for example PuTTY to establish your connection [Here](http://www.putty.org/)
+Next, use PuTTY, for example, to establish your connection [Here](http://www.putty.org/)
 
-Enter the IP address of your Raspberry Pi (here 192.168.0.10) and click on open. Accept the default security message on first login.
+Enter the IP address of your Raspberry Pi (in this case, 192.168.0.10) and click "Open." Accept the default security message that appears when you connect for the first time.
 
-Log in with the credentials you set in Raspberry Pi Imager during the burning process.
+Log in using the credentials you set up in Raspberry Pi Imager during the flashing process.
 
 > **Important**
 >
-> For security reasons, it is imperative to change the default password. Cases of hacking based on the use of the default login / password pair of the Raspberry Pi are particularly widespread. (Command : passwd and sudo passwd)
+> For security reasons, it is essential to change the default password. Hacking incidents involving the exploitation of the Raspberry Pi’s default username and password combination are particularly common. (commands: passwd and sudo passwd)
 
-## Launch the jeedom installation script
+## Run the Jeedom installation script
 
 ```
 wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
@@ -47,16 +47,16 @@ chmod +x install.sh
 ./install.sh
 ```
 
-> **NOTE**
+> **Note**
 >
-> Depending on your internet speed, the installation can take 45 to 90 minutes. You must not interrupt the process before the end. Otherwise, you will have to repeat the entire procedure.
+> Depending on your internet speed, the installation may take between 45 and 90 minutes. It is very important that you do not interrupt the process before it is complete. Otherwise, you will have to start the entire procedure over.
 
-Then just go to IP\_MACHINE\_JEEDOM
+Then simply go to IP\_MACHINE\_JEEDOM
 
-> **NOTE**
+> **Note**
 >
-> The default credentials are admin / admin
+> The default login credentials are admin/admin
 
-For more information on installing Jeedom please see this [documentation](cli)
+For more information on installing Jeedom, please see this [documentation](cli)
 
-Then you can follow the documentation [First step with Jeedom](/premiers-pas)
+Next, you can follow the documentation [Getting Started with Jeedom](/premiers-pas)

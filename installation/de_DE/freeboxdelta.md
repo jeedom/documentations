@@ -1,41 +1,41 @@
-# Installation auf Freebox Delta
+# Installation auf der Freebox Delta
 
-Die Installation auf Freebox Delta Jeedom ist über das VM-System möglich.
+Auf der Freebox Delta lässt sich Jeedom über das VM-System installieren.
 
-## Verbindung zum Delta
+## Anschluss an das Delta-Netz
 
-Sie müssen zur Konfigurationsoberfläche Ihrer Freebox Delta gehen. Klicken Sie dann auf VMs.
+Rufen Sie die Konfigurationsoberfläche Ihrer Freebox Delta auf. Klicken Sie anschließend auf „VMs“.
 
 ![delta1](../images/delta1.png)
 
-## Stellen Sie die verschiedenen Optionen ein
+## Die verschiedenen Optionen einstellen
 
-Klicken Sie auf "VM hinzufügen""
+Klicken Sie auf „VM hinzufügen“
 ![delta2](../images/delta2.png)
 
-Funktionen konfigurieren. Wir empfehlen, dass Sie 2 CPUs und das Maximum in RAM stecken.
+Konfigurieren Sie die Spezifikationen. Wir empfehlen Ihnen, 2 CPUs und die maximale RAM-Kapazität zu wählen.
 
 ![delta3](../images/delta3.png)
 
-Konfigurieren Sie Benutzer und Passwort, **Sie müssen im Speicher bleiben, nach dem sie während einer SSH-Verbindung gefragt werden**:
+Richten Sie den Benutzernamen und das Passwort ein. **Merken Sie sich diese unbedingt, da sie bei einer SSH-Verbindung abgefragt werden**:
 ![delta4](../images/delta4.png)
 
 ## Installation läuft
 
-Warten Sie, während das Bild heruntergeladen wird
+Bitte haben Sie etwas Geduld, während das Bild heruntergeladen wird
 ![delta5](../images/delta5.png)
 
-## Verbinde dich mit deinem Jeedom
+## Melden Sie sich bei Ihrem Jeedom an
 
-Sie können eine Verbindung über die auf der Seite angegebene Adresse herstellen:
+Sie können sich über die auf der Seite angegebene Adresse anmelden:
 ![delta6](../images/delta6.png)
 
-Denken Sie daran, der VM den USB-Anschluss des Delta zuzuweisen, wenn Sie eine Antenne verwenden möchten.
+Denken Sie daran, den USB-Anschluss des Delta der VM zuzuweisen, wenn Sie eine Antenne verwenden möchten.
 
-Tu es nicht **nicht** Aktivieren Sie "Bildschirm", dies ist auf dem Jeedom-Bild unbrauchbar (abgesehen von übermäßigem Verbrauch).
+Aktivieren Sie **nicht** die Option „Bildschirm“ – dies hat auf dem Jeedom-Bildschirm keinen Nutzen (abgesehen von einem erhöhten Stromverbrauch).
 
-Die IP-Adresse Ihres Jeedom im Freebox Delta steht oben unter seinem Namen.
+Die IP-Adresse Ihres Jeedom auf der Freebox Delta ist oben unter dem Namen angegeben.
 
-Die Standardanmeldung und das Standardkennwort sind admin / admin, wenn Sie über Ihren Browser auf jeedom zugreifen.
+Der Standard-Benutzername und das Standard-Passwort lauten „admin/admin“, wenn Sie über Ihren Browser auf Jeedom zugreifen.
 
-Im Übrigen können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](/premiers-pas)
+Für die weiteren Schritte können Sie der Dokumentation folgen [Erste Schritte mit Jeedom](/premiers-pas)

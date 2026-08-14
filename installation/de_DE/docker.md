@@ -1,61 +1,61 @@
-# Installation dans Docker
+# Installation in Docker
 
-La procédure suivante s'adresse aux utilisateurs maitrisant les environnements Docker.
+Die folgende Anleitung richtet sich an Benutzer, die mit Docker-Umgebungen vertraut sind.
 
->**Wichtig**
+>**WICHTIG**
 >
->Les instances Jeedom sous Docker ne sont pas prises en charge par le support officiel.
+>Jeedom-Instanzen unter Docker werden vom offiziellen Support nicht unterstützt.
 
 ## Docker-Installation
 
-Docker est disponible sur toutes les distributions récentes.
+Docker ist auf allen neueren Distributionen verfügbar.
 So installieren Sie es auf einer Distribution
 
-- gemacht aus ``rpm`` :
-„`sh
+- auf Basis von ``rpm`` :
+````sh
 yum install docker
-„`
+````
 
-- gemacht aus ``deb`` :
-„`sh
+- auf Basis von ``deb`` :
+````sh
 sudo apt update && sudo apt install docker.io
-„`
+````
 
-## Installieren eines Jeedom-Images
+## Installation eines Jeedom-Images
 
-Image-Installation :
-„`sh
+Installation des Images:
+````sh
 docker pull jeedom/jeedom:latest
-„`
+````
 
-Puis lancez la :
-„`sh
+Starten Sie sie anschließend:
+````sh
 sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/db:/var/lib/mysql -p 80:80 -d jeedom/jeedom:latest
-„`
+````
 
-Mit :
+Mit:
 
 - ``jeedom-server`` : Name des gewünschten Jeedom-Containers
-- ``/opt/jeedom/www`` und ``/opt/jeedom/db`` : répertoire où les données de Jeedom sont mises sur l'hôte *(attention a bien les créer avant)*
-- ``-p 80:80``: le port du container *(80)* est redirigé vers le port de l'hôte *(par défaut 80 aussi)*
+- ``/opt/jeedom/www`` und ``/opt/jeedom/db`` : Verzeichnis, in dem die Jeedom-Daten auf dem Host abgelegt werden *(bitte darauf achten, diese vorher anzulegen)*
+- ``-p 80:80``: Der Port des Containers *(80)* wird auf den Port des Hosts *(standardmäßig ebenfalls 80)* umgeleitet
 
 > **INFORMATION**
 >
-> Avec l'option `-d` *(``detach``)*, Docker vous rend immédiatement la main mais installe en tâche de fond. Es ist möglich, den Protokollen mit dem Befehl `docker logs jeedom-server -f` zu folgen (Option f = follow)
+> Mit der Option `-d` *(``detach``)*, Docker gibt die Kontrolle sofort wieder an Sie zurück, führt die Installation jedoch im Hintergrund durch. Die Protokolle können mit dem Befehl `docker logs jeedom-server -f` (Option f = follow)
 
-Dann müssen Sie Jeedom installieren, indem Sie zu gehen : ``IP_DOCKER:80``
+Anschließend müssen Sie Jeedom installieren, indem Sie folgende Seite aufrufen: ``IP_DOCKER:80``
 
 > **INFORMATION**
 >
-> Sie können sehen, wie sich die Hafenarbeiter drehen ``docker ps`` Um Ihren Container, beispielsweise den Jeedom-Server, zu stoppen, müssen Sie nur tun ``docker stop jeedom-server``, um es wiederzubeleben ``docker start jeedom-server``
+> Sie können die laufenden Docker-Container sehen ``docker ps`` Um Ihren Container, zum Beispiel den Jeedom-Server, anzuhalten, müssen Sie lediglich Folgendes tun: ``docker stop jeedom-server``, um es wieder in Gang zu bringen ``docker start jeedom-server``
 
-## Docker komponieren
+## Docker Compose
 
-Auch Sie können Jeedom mit Docker Compose installieren :
+Auch Sie können Jeedom mit Docker Compose installieren:
 
-### En mode 1 service
+### Im 1-Dienst-Modus
 
-„dockerfile
+```dockerfile
 services:
   jeedom:
     image: jeedom/jeedom:latest
@@ -67,7 +67,7 @@ services:
     ports:
       - 40080:80
     restart: always
-    Netzwerkmodus: bridge
+    network_mode: bridge
     healthcheck:
       test: ["CMD", "curl", "-fs", "-S", "--max-time", "2", "http://localhost:80"]
       interval: 30s
@@ -76,15 +76,15 @@ services:
 volumes:
   db:
   http:
-„
+```
 
-### En mode 2 services *(experimental)*
+### Im 2-Dienste-Modus *(experimentell)*
 
-„dockerfile
+```dockerfile
 services:
   jeedom_db:
     image: mariadb:latest
-    Containername: jeedom_db
+    container_name: jeedom_db
     command:
       - "--default-authentication-plugin=mysql_native_password"
       - "--skip-name-resolve"
@@ -102,7 +102,7 @@ services:
       - "--innodb_large_prefix=on"
       - "--connect_timeout=600"
       - "--wait_timeout=600"
-      - "--Interactive_timeout=600"
+      - "--interactive_timeout=600"
     volumes:
       - db:/var/lib/mysql
     restart: always
@@ -114,8 +114,8 @@ services:
     expose:
       - 3306
   jeedom_http:
-    image: jeedom/jeedom:4.4-http-Bücherwurm
-    Containername: jeedom_http
+    image: jeedom/jeedom:4.4-http-bookworm
+    container_name: jeedom_http
     volumes:
       - http:/var/www/html
     tmpfs:
@@ -133,31 +133,31 @@ services:
       interval: 30s
       timeout: 10s
       retries: 5
-    kommt drauf an:
+    depends_on:
       - jeedom_db
 volumes:
   db:
   http:
-„
+```
 
 >**INFORMATION**
 >
->Vergessen Sie nicht, das „TODO“ mit den gewünschten Passwörtern zu vervollständigen
+>Vergessen Sie nicht, die `TODO` mit den gewünschten Passwörtern
 >
->Es ist möglich, den Apache-Listening-Port mit der Umgebungsvariablen „APACHE_PORT“ anzugeben. Achten Sie darauf, den „Healthcheck“ mit dem neuen Port zu aktualisieren. Bitte beachten Sie, dass dies erst ab Jeedom 4.5 möglich ist
+>Der Port, auf dem Apache lauscht, kann mit der Umgebungsvariable festgelegt werden `APACHE_PORT`, bitte achten Sie darauf, das `healthcheck` mit dem neuen Port. Achtung: Dies ist erst ab Jeedom 4.5 möglich.
 
 ## Liste der verfügbaren Bilder
 
-- `jeedom / jeedom:neuste` : Letzte Version **stetig** auf Debian Bookworm (Beta)
-- `jeedom / jeedom:beta` : Letzte Version **Beta**
-- `jeedom / jeedom:4.x` : Versionen ab 4.3 beibehalten
-- `jeedom / jeedom:4.x-bullseye` : Eine auf Debian Bullseye basierende Variante, die bevorzugt werden sollte
-- `jeedom / jeedom:4.x-buster‘ : Eine Variante basierend auf Debian Buster (veraltet)
-- `jeedom / jeedom:4.x-bücherwurm` : Eine Variante basierend auf Debian Bookworm (Beta)
-- `jeedom / jeedom:4.x-http-bookworm` : Eine auf Debian Bookworm basierende Variante, die nur Jeedom, keine Mariadb enthält. Wird für Docker Composer (Beta) verwendet)
+- `jeedom/jeedom:latest` : Neueste **stabile** Version auf Debian Bookworm (Beta)
+- `jeedom/jeedom:beta` : Neueste **Beta**-Version
+- `jeedom/jeedom:4.x` : Die Versionen werden seit 4.3 beibehalten
+- `jeedom/jeedom:4.x-bullseye` : Eine auf Debian Bullseye basierende Variante, die vorzuziehen ist
+- `jeedom/jeedom:4.x-buster` : Eine auf Debian Buster basierende Variante (veraltet)
+- `jeedom/jeedom:4.x-bookworm` : Eine auf Debian Bookworm basierende Variante (Beta)
+- `jeedom/jeedom:4.x-http-bookworm` : Eine auf Debian Bookworm basierende Variante, die nur Jeedom enthält, jedoch kein MariaDB. Wird für Docker Compose (Beta) verwendet.
 
-Die vollständige Liste finden Sie unter [Docker-Hub](https://hub.docker.com/r/jeedom/jeedom/tags)
+Die vollständige Liste finden Sie auf der [Docker Hub](https://hub.docker.com/r/jeedom/jeedom/tags)
 
-## Première connexion
+## Erste Anmeldung
 
-Consulter la documentation relative à la [**Première connexion**](../premiers-pas/#Première%20connexion) pour accéder à l'interface Jeedom suite à l'installation.
+Die Dokumentation zur [**Erste Anmeldung**](/premiers-pas/#Première%20connexion) um nach der Installation auf die Jeedom-Benutzeroberfläche zuzugreifen.
