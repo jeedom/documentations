@@ -135,7 +135,7 @@ Puedes personalizar la dirección de acceso remoto haciendo clic en el botón **
 
 Encuentra toda la información en [Documentación sobre el servicio de acceso remoto - DNS Jeedom](/howto/mise_en_place_dns_jeedom).
 
-## Crear mi primer dispositivo
+## Crear mi primer objeto
 
 Vas a crear tu primer objeto, pero primero tienes que saber qué es un objeto.
 
@@ -149,9 +149,9 @@ Crear un objeto no puede ser más sencillo:
 
 -   Ve a Herramientas → Objetos.
 -   Haz clic en el botón «Añadir».
--   Jeedom te pedirá que le pongas un nombre. Confirma. Ya tienes tu primer dispositivo creado:
+-   Jeedom te pedirá que le pongas un nombre. Confirma. Ya tienes tu primer objeto creado:
 
-![Asunto](../images/FirstStep_object.jpg)
+![Objeto](../images/FirstStep_object.jpg)
 
 Para obtener más información sobre esta sección, consulta *Manual de usuario -> Objeto*.
 

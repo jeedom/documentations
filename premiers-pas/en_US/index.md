@@ -135,7 +135,7 @@ You can customize the remote access address by clicking the **Configuration** bu
 
 Find all the details in [Documentation for the Remote Access service - Jeedom DNS](/howto/mise_en_place_dns_jeedom).
 
-## Create My First Device
+## Create My First Object
 
 You're about to create your first object, but first you need to know what an object is.
 
@@ -149,9 +149,9 @@ Creating an object couldn't be easier:
 
 -   Go to Tools → Objects.
 -   Click the Add button.
--   Jeedom will ask you to enter a name for it. Confirm. Here is your first device:
+-   Jeedom will ask you to enter a name for it. Confirm. Here is your first object:
 
-![Subject](../images/FirstStep_object.jpg)
+![Object](../images/FirstStep_object.jpg)
 
 For more information on this section, see *User Manual -> Object*.
 
