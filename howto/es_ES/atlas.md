@@ -1,66 +1,66 @@
-# Restauration en mode usine d'une Jeedom Atlas
+# Restablecimiento de los ajustes de fábrica de un Jeedom Atlas
 
-## Sauvegarde de Jeedom
+## Copia de seguridad de Jeedom
 
-Avant toute chose, **il est indispensable de réaliser une sauvegarde de Jeedom** qui pourra être restaurée à l'issue de la procédure.
+Antes de nada, **es imprescindible realizar una copia de seguridad de Jeedom** que se pueda restaurar una vez finalizado el proceso.
 
-1. Se rendre sur l'interface Jeedom puis cliquer sur le menu **Réglages > Système > Sauvegardes**.
+1. Accede a la interfaz de Jeedom y haz clic en el menú **Configuración > Sistema > Copias de seguridad**.
 
-2. Cliquer sur le bouton **Lancer une sauvegarde**.
+2. Haz clic en el botón **Iniciar una copia de seguridad**.
 
-3. Quand la sauvegarde est terminée, cliquer sur **Télécharger la sauvegarde**.
+3. Cuando haya finalizado la copia de seguridad, haz clic en **Descargar la copia de seguridad**.
 
-4. Une fois la sauvegarde de Jeedom téléchargée, éteindre le système en passant par le menu **Réglages > Système > Eteindre**.
+4. Una vez descargada la copia de seguridad de Jeedom, apaga el sistema a través del menú **Configuración > Sistema > Apagar**.
 
-## Présentation
+## Presentación
 
-La Jeedom Atlas est équipée d'un disque Emmc, garantissant une meilleure fiabilité qu'une carte SD, mais ce disque n'est pas directement accessible.
+El Jeedom Atlas está equipado con un disco eMMC, lo que garantiza una mayor fiabilidad que una tarjeta SD, pero no se puede acceder directamente a este disco.
 
-Le Recovery Mode USB englobe à la fois le système, l'OS, et aussi l'application Jeedom.
+El modo de recuperación USB abarca tanto el sistema como el sistema operativo y también la aplicación Jeedom.
 
-Il permet :
+Permite:
 
-- La réinitialisation  de la Jeedom Atlas en configuration « usine » OS+Jeedom.
-- La réinitialisation  de la Jeedom Atlas en configuration « usine », en appliquant ensuite sa sauvegarde Jeedom.
+- Restablecimiento del Jeedom Atlas a la configuración «de fábrica» de OS+Jeedom.
+- Restablecimiento del Jeedom Atlas a la configuración «de fábrica» y, a continuación, aplicación de su copia de seguridad de Jeedom.
 
-Pour rappel la gestion des sauvegardes/restauration est disponible dans Jeedom dans le menu « Réglages » en haut à droite, puis « Sauvegardes ».
+Como recordatorio, la gestión de copias de seguridad y restauraciones está disponible en Jeedom, en el menú «Configuración», situado en la parte superior derecha, y luego en «Copias de seguridad».
 
-Jeedom propose un service avec abonnement de sauvegarde automatique sur cloud privé Jeedom, pour ne plus vous soucier de rien. (Sur le Market, dans votre compte, menu à gauche « Backup Cloud »).
+Jeedom ofrece un servicio de suscripción con copia de seguridad automática en la nube privada de Jeedom, para que no tengas que preocuparte por nada. (En el Market, en tu cuenta, menú de la izquierda «Backup Cloud»).
 
-## Fonctionnement du recovery mode
+## Funcionamiento del modo de recuperación
 
->**Note**
+>**Nota**
 >
->Pensez à mettre de côté (en local) une sauvegarde de configuration Jeedom
+>No olvides guardar (localmente) una copia de seguridad de la configuración de Jeedom
 
->**Important**
+>**Importante**
 >
->L'application d'un Recovery entraine un changement de l'adresse MAC de votre box Jeedom. Il faudra alors changer votre réservation d'IP dans la configuration de votre serveur DHCP si vous en avez.
+>La aplicación de una recuperación provoca un cambio en la dirección MAC de tu dispositivo Jeedom. Por lo tanto, tendrás que modificar la reserva de IP en la configuración de tu servidor DHCP, si dispones de uno.
 
->**Important**
+>**Importante**
 >
->Suivant si vous avez encore accès ou non à votre box, la procédure n'est pas la même.
+>Dependiendo de si sigues teniendo acceso a tu router o no, el procedimiento varía.
 
-Matériel nécessaire : une clé USB (minimum 16Go).
+Material necesario: una memoria USB (mínimo 16 GB).
 
-CAS 1 : VOUS AVEZ ACCES A VOTRE BOX ATLAS
+CASO 1: TIENES ACCESO A TU BOX ATLAS
 
-Rendez-vous dans le plugin Atlas (Passerelle Domotique/Plugin Atlas), et cliquez sur Recovery, et suivez la procédure.
+Accede al complemento Atlas (Pasarela de domótica/Complemento Atlas), haz clic en «Recovery» y sigue los pasos indicados.
 
 ***
 
-CAS 2 : VOUS N'AVEZ PAS ACCES A VOTRE BOX ATLAS
+CASO 2: NO TIENES ACCESO A TU BOX ATLAS
 
-- Téléchargez le Recovery depuis votre profil sur le market : Profil / Mes Services et cliquer sur Télécharger USB Recovery Atlas
-![profilrecovery](../images/profilrecovery.png)
-- Téléchargez le logiciel [Balena etcher](https://www.balena.io/etcher/)
-- Dans le logiciel, choisissez votre image téléchargée, puis votre clé usb 
+- Descarga Recovery desde tu perfil en la tienda: Perfil / Mis servicios y haz clic en Descargar USB Recovery Atlas
+![recuperación de perfil](../images/profilrecovery.png)
+- Descarga el software [Balena Etcher](https://www.balena.io/etcher/)
+- En el programa, selecciona la imagen que has descargado y, a continuación, tu memoria USB
 ![balenaetcher](../images/balenaetcher.png)
-- Une fois la clé prête, la mettre dans le port USB 2 inférieur (port USB noir), puis allumer votre box Atlas
-- Attendre 5 à 10 minutes environ
-- Puis rendez-vous sur http://jeedomatlasrecovery.local/
-- Mettre les identifiants et mot de passe :  admin/admin, puis changer le mot de passe, IMPORTANT : mettre un compte market.
-- Une fois cela fait, Jeeasy se lance et vous présente la procédure de recovery
-- Suivre la procédure
+- Una vez que la memoria USB esté lista, insértala en el puerto USB 2 inferior (el puerto USB negro) y, a continuación, enciende tu Atlas Box.
+- Esperar entre 5 y 10 minutos aproximadamente
+- A continuación, visita http://jeedomatlasrecovery.local/
+- Introduce el nombre de usuario y la contraseña: admin/admin; a continuación, cambia la contraseña. IMPORTANTE: crea una cuenta en Market.
+- Una vez hecho esto, Jeeasy se inicia y te muestra el procedimiento de recuperación
+- Sigue los pasos
 
-Ce Recovery Mode n'est compatible qu'avec la Jeedom Atlas
+Este modo de recuperación solo es compatible con el Jeedom Atlas

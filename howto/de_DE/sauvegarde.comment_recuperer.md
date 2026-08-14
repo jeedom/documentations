@@ -1,43 +1,43 @@
-# Backup wiederherstellen
+# Wiederherstellung aus einem Backup
 
-Mit diesem Verfahren können Sie eine Verbindung zu Ihrer Box in SFTP herstellen, um die von ihr erstellten täglichen Sicherungen abzurufen.
+Mit dieser Anleitung können Sie eine SFTP-Verbindung zu Ihrer Box herstellen, um die von dieser erstellten täglichen Sicherungen abzurufen.
 
-> **Spitze**
+> **Tipp**
 >
-> Achtung, damit dieses Verfahren funktioniert, muss der SSH-Server der Box noch funktionsfähig sein.
+> Bitte beachten Sie: Damit dieser Vorgang funktioniert, muss der SSH-Server der Box stets betriebsbereit sein.
 
-## Installation von Filezilla
+## Installation von FileZilla
 
-Filezilla ist freie Software und auf allen Plattformen verfügbar. Sie können Dateien über verschiedene Protokolle (FTP, FTPS, SFTP…) übertragen. Über diese Protokolle können Sie sie herunterladen [Link](https://filezilla-project.org/download.php?type=client)
+FileZilla ist eine kostenlose Software, die auf allen Plattformen verfügbar ist. Sie ermöglicht die Übertragung von Dateien über verschiedene Protokolle (FTP, FTPS, SFTP…​). Sie kann über diesen Link heruntergeladen werden [Link](https://filezilla-project.org/download.php?type=client)
 
 ## Verbindung zur Box
 
-Um eine Verbindung zu Ihrer Box herzustellen, füllen Sie einfach die Informationsfelder oben im Filezilla-Fenster aus :
+Um eine Verbindung zu Ihrer Box herzustellen, müssen Sie lediglich die Eingabefelder oben im FileZilla-Fenster ausfüllen:
 
-![restore filezilla01](../images/restore-filezilla01.jpg)
+![Datei „filezilla01“ wiederherstellen](../images/restore-filezilla01.jpg)
 
--   Host : Jeedom IP-Adresse (``sftp://`` wird automatisch hinzugefügt)
--   Login : ``jeedom``
--   Passwort : ``Mjeedom96``
--   Hafen : 22
+-   Host: IP-Adresse von Jeedom (``sftp://`` wird automatisch hinzugefügt)
+-   Benutzername: ``jeedom``
+-   Passwort: ``Mjeedom96``
+-   Port: 22
 
-Klicken Sie dann auf "Schnellverbindung""
+Klicken Sie anschließend auf „Schnellverbindung“
 
-## Navigation zum Sicherungsverzeichnis
+## Navigation zum Speicherverzeichnis
 
-Sobald die Verbindung hergestellt ist, muss das Sicherungsverzeichnis von Jeedom aufgerufen werden.
+Sobald die Verbindung hergestellt ist, muss man zum Speicherverzeichnis von Jeedom wechseln.
 
-2 Szenarien :
+2 Anwendungsfälle:
 
--   Apache Server (Jeedom Smart Box) : ``/var/www/html/backup``
--   Nginx-Server :  ``/usr/share/nginx/www/jeedom/backup``
+-   Apache-Server (Jeedom Smart Box): ``/var/www/html/backup``
+-   Nginx-Server:  ``/usr/share/nginx/www/jeedom/backup``
 
-Der Pfad wird im Abschnitt "Remote-Standort" angezeigt.
+Der Pfad wird im Bereich „Remote-Standort“ abgefragt.
 
-![restore filezilla02](../images/restore-filezilla02.jpg)
+![Datei „filezilla02“ wiederherstellen](../images/restore-filezilla02.jpg)
 
-## Backup herunterladen
+## Sicherung herunterladen
 
-Wenn Sie in der Liste der Sicherungen mit der rechten Maustaste klicken, können Sie den Download starten.
+In der Liste der Backups kann man durch einen Rechtsklick den Download starten.
 
-![restore filezilla03](../images/restore-filezilla03.jpg)
+![Datei „filezilla03“ wiederherstellen](../images/restore-filezilla03.jpg)

@@ -1,27 +1,27 @@
 # Asistentes de voz en la nube
 
-## Description
+## Descripción
 
-Este servicio le permite conectar su Jeedom con asistentes de voz de Google y Amazon.
+Este servicio te permite conectar tu Jeedom con los asistentes de voz de Google y Amazon.
 
-Se puede usar con 
+Se puede utilizar con
 
-- o el complemento de Google Smarthome, [Documentación](/plugins/communication/gsh)
-- o el complemento de Alexa, [Documentación](/plugins/communication/ash)
+- o el complemento Google Smarthome, [documentación](/plugins/communication/gsh)
+- o el complemento de Alexa, [documentación](/plugins/communication/ash)
 
-Este servicio es de pago y puede suscribirse en el Jeedom Market, en la página [Mis servicios](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+Este servicio es de pago y se puede contratar en el Market de Jeedom, en la página [Mis servicios](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
-Encontrará en la documentación respectiva de los complementos sus diferencias.
+Encontrarás las diferencias entre los distintos complementos en la documentación correspondiente.
 
-Luego, una vez que se suscribe la suscripción, es necesario configurarla siguiendo la documentación del complemento
-
-> **Importante**
->
-> Google y AMAZON requieren que su Jeedom sea accesible en HTTPS (el complemento no funciona en HTTP) con un certificado válido (por lo tanto, sin certificado autofirmado)
->
-> Gracias a los paquetes de servicio Power o Ultimate, se puede acceder a su Jeedom a través de HTTPS.
-> Si tiene un Community Service Pack, debe instalar usted mismo un certificado SSL emitido por una autoridad de certificación (p. Ej: Vamos a cifrar, ...).
+A continuación, una vez contratada la suscripción, hay que realizar la configuración siguiendo la documentación del complemento
 
 > **Importante**
 >
->Tenga en cuenta que, debido a una restricción de nuestro proveedor de servicios (OVH), el servicio solo funciona en ipv4, por lo que no es compatible con ipv6
+> Google y Amazon exigen que tu Jeedom sea accesible a través de HTTPS (el complemento no funciona con HTTP) y cuente con un certificado válido (por lo tanto, no se admiten certificados autofirmados).
+>
+> Gracias a los Service Pack Power o Ultimate, se puede acceder a tu Jeedom a través de HTTPS.
+> Si dispone de un Service Pack Community, deberá instalar usted mismo un certificado SSL emitido por una autoridad de certificación (por ejemplo: Let's Encrypt, etc.).
+
+> **Importante**
+>
+>Atención: debido a una restricción de nuestro proveedor (OVH), el servicio solo funciona con IPv4, por lo que no es compatible con IPv6.

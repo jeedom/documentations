@@ -1,69 +1,69 @@
-# Frambuesa PI 3
+# Raspberry Pi 3
 
-Encontrará aquí la documentación para instalar Jeedom en una frambuesa PI 3 **sin tarjeta microSD.**
+Aquí encontrarás la documentación para instalar Jeedom en una Raspberry Pi 3 **sin tarjeta microSD.**
 
-De hecho, el PI3 ofrece la posibilidad de arrancar directamente en un dispositivo USB y, por lo tanto, liberarse de la tarjeta microSD que a veces genera problemas (corrupción).
+De hecho, el PI3 ofrece la posibilidad de arrancar directamente desde un dispositivo USB, lo que te permite prescindir de la tarjeta microSD, que a veces puede dar problemas (corrupción de datos).
 
-**El procedimiento de instalación es estrictamente idéntico al de una tarjeta microSD, pero deberá asegurarse de tener el firmware actualizado.**
+**El procedimiento de instalación es exactamente igual que el de una tarjeta microSD, pero hay que asegurarse de tener el firmware actualizado.**
 
-Para hacer esto, abra una conexión SSH. (si no sabes cómo, mira la instalación en microSD : [Aquí](/installation)
+Para ello, abre una conexión SSH. (Si no sabes cómo hacerlo, consulta la guía de instalación en microSD: [Aquí](/installation)
 
 ``vcgencmd otp_dump | grep 17:``
 
-Tienes que volver :
+Debes obtener a cambio:
 
 ``17:3020000a``
 
-Si es así, su PI3 está configurado correctamente para arrancar desde USB. Si no encuentra nada, se iniciará normalmente en una tarjeta microSD.
+Si es así, tu PI3 está correctamente configurado para arrancar desde el USB. Si no encuentra nada, arrancará normalmente desde una tarjeta microSD.
 
-Si la devolución es diferente, solo necesita actualizar.
+Si el resultado es diferente, solo tienes que actualizarlo.
 
 ``sudo apt-get update; sudo apt-get install rpi-update``
 
-puis
+y luego
 
 ``sudo rpi-update``
 
-Luego reinicie PI3
+A continuación, reinicio del PI3
 
 ``sudo reboot``
 
 > **Importante**
 >
-> Para evitar problemas de alimentación, elija una SSD mSATA de bajo consumo.
+> Para evitar problemas de consumo, opta por un disco SSD mSATA de bajo consumo.
 
-> **Punta**
+> **Consejo**
 >
-> Ahora puede instalar Jeedom siguiendo exactamente el mismo procedimiento que con una tarjeta SD. [Aquí](/installation)
+> Ahora puedes instalar Jeedom siguiendo exactamente el mismo procedimiento que con una tarjeta SD. [Aquí](/installation)
 
 ## Posibles ajustes
 
-**Deben tenerse en cuenta las siguientes observaciones :**
+**A continuación, hay que tener en cuenta las siguientes observaciones:**
 
 > **Importante**
 >
-> Los siguientes cambios son el resultado de problemas encontrados por los usuarios. Debes adaptarlos a tu caso. El soporte de Jeedom no interviene por problemas relacionados con su configuración.
+> Las siguientes modificaciones son el resultado de problemas que han tenido los usuarios. Debes adaptarlas a tu caso concreto. El servicio de asistencia de Jeedom no interviene en problemas relacionados con tu configuración.
 
--   **Si encuentra problemas de intercambio, debe modificarlo.**
-    -   **Aumentar su tamaño** :
-        -   Cambie el tamaño del intercambio abriendo este archivo :
-            ``sudo nano /etc/dphys-swapfile``
--   Encuentra la configuración correcta :
-    ``CONF_SWAPSIZE=100``
--   Cambiar el valor de ``CONF_SWAPSIZE`` a 1024, por ejemplo, luego reiniciar :
-    ``sudo reboot``
--   **Cambiar el valor de la llamada de intercambio.** Por defecto, el sistema llama al intercambio cuando hay menos del 40% de RAM.
--   Abra el archivo para cambiar esta configuración :
-    ``sudo nano /etc/sysctl.conf``
--   Agregue esta línea para pedirle a Pi3 que use el intercambio solo cuando tenga un 10% de memoria disponible (100 MB de RAM disponible) :
-    ``vm.swappiness = 10``
--   Luego reinicie :
-    ``sudo reboot``
--   **Deshabilite el bluetooth incorporado porque es incompatible con la tarjeta GPIO zwave.me**
-    -   Abra el archivo en cuestión :
-    ``sudo nano /boot/config.txt``
--   agregar línea :
-    ``dtoverlay=pi3-disable-bt``
+-   **Si tienes problemas con el swap, debes modificarlo.**
+    -   **Aumentar su tamaño**:
+        -   Cambia el tamaño del archivo de intercambio abriendo este archivo:
+``sudo nano /etc/dphys-swapfile``
+-   Encuentra la configuración adecuada:
+``CONF_SWAPSIZE=100``
+-   Cambia el valor de ``CONF_SWAPSIZE`` a 1024, por ejemplo, y luego reinicia:
+``sudo reboot``
+-   **Cambia el valor de activación del swap.** Por defecto, el sistema activa el swap cuando queda menos del 40 % de RAM.
+-   Abre el archivo para cambiar este parámetro:
+``sudo nano /etc/sysctl.conf``
+-   Añade esta línea para indicar al Pi3 que utilice el espacio de intercambio solo cuando le quede un 10 % de memoria disponible (es decir, 100 MB de RAM disponible):
+``vm.swappiness = 10``
+-   A continuación, reinicia:
+``sudo reboot``
+-   **Desactiva el Bluetooth integrado, ya que es incompatible con la tarjeta GPIO de zwave.me**
+    -   Abre el archivo correspondiente:
+``sudo nano /boot/config.txt``
+-   añadir la línea:
+``dtoverlay=pi3-disable-bt``
 -   Hacer una parada limpia
-    ``sudo halt``
--   Desconectar reconectar (no reiniciar sudo !).
+``sudo halt``
+-   Desconectar y volver a conectar (¡sin «sudo reboot»!).

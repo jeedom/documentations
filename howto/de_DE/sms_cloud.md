@@ -1,18 +1,18 @@
-# SMS / Cloud-Anrufe
+# SMS/Cloud-Anrufe
 
-## Description
+## Beschreibung
 
-Es handelt sich um einen kostenpflichtigen Jeedom SAS-Dienst, mit dem Sie von Ihrem Jeedom aus SMS senden und Anrufe (mit von einem Roboter gelesenen Nachrichten) tätigen können.
+Dies ist ein kostenpflichtiger Dienst von Jeedom SAS, mit dem Sie über Ihr Jeedom-System SMS versenden und Anrufe tätigen können (mit einer von einem Roboter vorgelesenen Nachricht).
 
-Ein einfaches Beispiel ist : Im Falle einer Alarmauslösung erhalte ich einen Anruf mit einer Stimme, die beispielsweise die Zone angibt, in der der Alarm ausgelöst wird. Wir können das gleiche mit einer SMS machen.
+Ein einfaches Beispiel: Wenn der Alarm ausgelöst wird, erhalte ich einen Anruf, bei dem mir eine Stimme beispielsweise mitteilt, in welchem Bereich der Alarm ausgelöst wurde. Das Gleiche ist auch per SMS möglich.
 
-> **Wichtig**
+> **WICHTIG**
 >
-> Dieser Dienst wird über das Internet angeboten. Wenn Sie kein Internet mehr haben, funktioniert er nicht mehr
+> Dieser Dienst läuft über das Internet. Wenn Sie keine Internetverbindung mehr haben, funktioniert er nicht mehr.
 
-## Wie man es benutzt 
+## So wird es verwendet
 
-Es ist sehr einfach, dass Sie müssen : 
+Das ist ganz einfach, man muss:
 
-- SMS-Guthaben haben  : SMS = 1 Credit (begrenzt auf 140 Zeichen), Anruf = 2 Credits (begrenzt auf 450 Zeichen))
-- habe das Phonemarket-Plugin, installiere und konfiguriere, Dokumentation [hier](/plugins/communication/phonemarket)
+- SMS-Guthaben: SMS = 1 Guthabenpunkt (begrenzt auf 140 Zeichen), Anruf = 2 Guthabenpunkte (begrenzt auf 450 Zeichen)
+- Das Phonemarket-Plugin herunterladen, installieren und konfigurieren, Dokumentation [hier](/plugins/communication/phonemarket)

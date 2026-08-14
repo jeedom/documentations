@@ -1,43 +1,43 @@
-# Restoring a backup
+# Restoring a Backup
 
-The procedure will allow you to connect to your box in SFTP in order to retrieve the daily backups made by it.
+This procedure will allow you to connect to your router via SFTP to retrieve the daily backups it creates.
 
 > **Tip**
 >
-> Attention, for this procedure to work, it is necessary that the SSH server of the box is still functional.
+> Please note: For this procedure to work, the box's SSH server must be up and running at all times.
 
-## Installation of Filezilla
+## Installing FileZilla
 
-Filezilla is free software and available on all platforms. It allows you to transfer files via different protocols (FTP, FTPS, SFTP…) It can be downloaded via this [Link](https://filezilla-project.org/download.php?type=client)
+FileZilla is free software available on all platforms. It allows you to transfer files using various protocols (FTP, FTPS, SFTP, etc.). It can be downloaded from this [link](https://filezilla-project.org/download.php?type=client)
 
-## Connection to the box
+## Connecting to the router
 
-To connect to your box, simply complete the information fields at the top of the Filezilla window :
+To connect to your router, simply fill in the fields at the top of the FileZilla window:
 
-![restore filezilla01](../images/restore-filezilla01.jpg)
+![Restore filezilla01](../images/restore-filezilla01.jpg)
 
--   Hostname : Jeedom IP address (``sftp://`` is added automatically)
--   Login : ``jeedom``
--   Password : ``Mjeedom96``
--   Harbor : 22
+-   Host: Jeedom IP address (``sftp://`` is added automatically)
+-   Username: ``jeedom``
+-   Password: ``Mjeedom96``
+-   Port: 22
 
-Then click on "Quick Connection"
+Then click "Quick Connect"
 
-## Navigation to the backup directory
+## Navigating to the backup directory
 
-Once the connection is established, it is necessary to go to the backup directory of Jeedom.
+Once the connection is established, you need to navigate to the Jeedom backup directory.
 
-2 scenarios :
+2 scenarios:
 
--   Apache Server (Jeedom Smart Box) : ``/var/www/html/backup``
--   Nginx server :  ``/usr/share/nginx/www/jeedom/backup``
+-   Apache Server (Jeedom Smart Box): ``/var/www/html/backup``
+-   Nginx server:  ``/usr/share/nginx/www/jeedom/backup``
 
-The path is displayed in the remote site section.
+The path is specified in the remote site section.
 
-![restore filezilla02](../images/restore-filezilla02.jpg)
+![Restore filezilla02](../images/restore-filezilla02.jpg)
 
-## Backup download
+## Downloading the backup
 
-On the list of backups, by right-clicking, it is possible to start its download.
+On the backup list, you can right-click to start the download.
 
-![restore filezilla03](../images/restore-filezilla03.jpg)
+![Restore FileZilla03](../images/restore-filezilla03.jpg)

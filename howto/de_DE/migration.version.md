@@ -1,87 +1,87 @@
-# Von Version migrieren (V3 → V4)
+# Versionswechsel (V3 → V4)
 
-Lassen Sie uns gemeinsam die wichtigsten Aktionen herausfinden, die implementiert werden müssen, um unter den besten Bedingungen von der Version von Jeedom zu migrieren. Dieses Tutorial basiert auf dem konkreten Fall einer Migration von V3 zu V4.
+Lassen Sie uns gemeinsam die wichtigsten Schritte betrachten, die erforderlich sind, um unter optimalen Bedingungen eine Jeedom-Version zu aktualisieren. Dieses Tutorial basiert auf dem konkreten Fall einer Migration von Version 3 auf Version 4.
 
-## Jeedom Backup
+## Sicherung von Jeedom
 
-Vor jedem Jeedom-Update ist es wichtig sicherzustellen, dass Sie die erforderlichen Vorkehrungen getroffen haben, um ein funktionsfähiges Hausautomationssystem bei Schwierigkeiten schnell wiederherstellen zu können.
+Vor jedem Jeedom-Update ist es wichtig, sicherzustellen, dass die notwendigen Vorkehrungen getroffen wurden, um im Falle von Schwierigkeiten schnell wieder eine funktionsfähige Hausautomationsanlage herstellen zu können.
 
-### Backup-Erstellung
+### Erstellung der Sicherung
 
-Wir werden zuerst die Sicherungsdatei Ihrer aktuellen Installation generieren.
+Zunächst erstellen wir eine Sicherungsdatei Ihrer aktuellen Installation.
 
-Gehen wir zum **Gangmenü**, Klicken Sie oben in der Navigationsleiste links auf der Uhr auf das Untermenü **Sicherungen** um auf die zuzugreifen [Komponente, die Backups verwaltet](/core/backup):    
-![backup menu](../images/migrate-version01.png)
+Gehen wir zum **Zahnrad-Menü**, das sich oben in der Navigationsleiste links neben der Uhr befindet, und klicken wir dann auf das Untermenü **Backups**, um zum [Komponente zur Verwaltung von Backups](/core/backup):
+![Backup-Menü](../images/migrate-version01.png)
 
-Um das Backup zu erstellen, klicken wir auf die grüne Schaltfläche **Start** im Abschnitt mit dem Titel **Sicherungen** :    
-![launch backup](../images/migrate-version02.png)
+Um die Sicherung zu erstellen, klicken wir im Bereich **Sicherungen** auf die grüne Schaltfläche **Starten**:
+![Sicherung starten](../images/migrate-version02.png)
 
-Bestätigen Sie die Nachricht, in der Sie um Bestätigung Ihres Wunsches gebeten werden, mit einem Jeedom-Backup fortzufahren, indem Sie auf die Schaltfläche klicken **In Ordnung** :    
-![agree backup](../images/migrate-version03.png)
+Bestätigen Sie die Meldung, in der Sie gefragt werden, ob Sie eine Sicherung von Jeedom durchführen möchten, indem Sie auf die Schaltfläche **OK** klicken:
+![Backup einrichten](../images/migrate-version03.png)
 
-Der Sicherungsprozess beginnt. Es kann einige Zeit dauern, Sie können den Fortschritt im benannten Fenster verfolgen **Information** :    
-![backup logs](../images/migrate-version04.png)
+Der Sicherungsvorgang wird gestartet. Dies kann eine Weile dauern. Sie können den Fortschritt im Fenster „**Informationen**“ verfolgen:
+![Sicherungsprotokolle](../images/migrate-version04.png)
 
-Wenn alles normal läuft, wird das Ende des Prozesses durch die Meldung angezeigt :      
+Wenn alles normal verläuft, wird das Ende des Vorgangs durch folgende Meldung angezeigt:
 ``***************Fin de la sauvegarde de Jeedom*************** [END BACKUP SUCCESS]``
 
-Die Sicherungsdatei wurde korrekt in Jeedom generiert.
+Die Sicherungsdatei wurde in Jeedom erfolgreich erstellt.
 
-### Backup herunterladen
+### Sicherung herunterladen
 
-Im aktuellen Status ist das zuvor generierte Backup nur von Jeedom aus zugänglich. Bei Schwierigkeiten während eines Updates ist Jeedom oder der Computer, auf dem es gehostet wird, möglicherweise nicht mehr verfügbar. Wir werden also sehen, wie die Sicherungsdatei auf einem Computer außerhalb von Jeedom wiederhergestellt wird.
+Derzeit ist die zuvor erstellte Sicherungsdatei nur über Jeedom zugänglich. Bei Problemen während eines Updates kann es jedoch vorkommen, dass Jeedom oder der Server, auf dem es gehostet wird, nicht mehr erreichbar sind. Wir werden daher nun sehen, wie man die Sicherungsdatei auf einem Computer außerhalb von Jeedom abrufen kann.
 
-Im Spiel **Lokale Backups**, Stellen Sie sicher, dass die im vorherigen Absatz erstellte Sicherung korrekt in die Zeile eingegeben wurde **Verfügbare Backups** durch Bestätigen mit dem Datum und der Uhrzeit, die im Dateinamen erscheinen. In diesem Fall können wir jetzt auf die grüne Schaltfläche klicken **Download** :    
-![download backup](../images/migrate-version05.png)
+Im Abschnitt **Lokale Backups** muss sichergestellt werden, dass das im vorherigen Abschnitt erstellte Backup in der Zeile **Verfügbare Backups** korrekt aufgeführt ist. Überprüfen Sie dies anhand des Datums und der Uhrzeit, die im Dateinamen angezeigt werden. Ist dies der Fall, können wir nun auf die grüne Schaltfläche **Herunterladen** klicken:
+![Sicherung herunterladen](../images/migrate-version05.png)
 
-Die Sicherungsdatei wird dann auf Ihren Computer heruntergeladen. Behalten Sie sie genau bei, da sie zum Zeitpunkt der Sicherung eine Kopie Ihres gesamten Jeedom enthält.
+Die Sicherungsdatei wird nun auf Ihren Computer heruntergeladen. Bewahren Sie sie sorgfältig auf, da sie eine vollständige Kopie Ihres Jeedom-Systems zum Zeitpunkt der Sicherung enthält.
 
 ## Einfaches Migrationstool
 
-Nachdem wir die Sicherung unseres Jeedom gesichert haben, können wir das Upgrade ruhig fortsetzen.
+Nachdem wir nun die Sicherung unseres Jeedom gesichert haben, können wir das Upgrade beruhigt durchführen.
 
-Seit V3.3.In 54 wurde ein einfaches Migrationstool implementiert **Update Center**. Um darauf zuzugreifen, müssen Sie zu gehen **Gangmenü**, Klicken Sie oben in der Navigationsleiste links auf der Uhr auf das Untermenü **Update Center**.
+Seit Version 3.3.54 wurde im **Update-Center** ein benutzerfreundliches Migrationstool implementiert. Um darauf zuzugreifen, klicken Sie auf das **Zahnrad-Menü** oben in der Navigationsleiste links neben der Uhr und wählen Sie dann im Untermenü den Eintrag **Update-Center** aus.
 
-Klicken Sie im Update Center auf die orangefarbene Schaltfläche mit dem Titel **Upgrade auf V4** um das modale Migrationsfenster zu öffnen :    
-![migration button](../images/migrate-version06.png)
+Sobald Sie sich im Update-Center befinden, klicken Sie auf die orangefarbene Schaltfläche mit der Bezeichnung **Auf V4 aktualisieren**, um das Modalfenster für die Migration zu öffnen:
+![Migrationsschaltfläche](../images/migrate-version06.png)
 
 ### Voraussetzungen
 
-Das Upgrade-Fenster analysiert das System und alle auf Ihrem Computer installierten Plugins aus dem Jeedom-Markt, um die mit V4 angekündigte Kompatibilität zu überprüfen. Es zerfällt in 2 Teile :
+Das Upgrade-Fenster analysiert das System und alle auf Ihrem Rechner über den Jeedom-Market installierten Plugins, um die angegebene Kompatibilität mit Version 4 zu überprüfen. Es gliedert sich in zwei Teile:
 
-- Im oberen Teil werden einige Neuerungen vorgestellt, die in V4 zu entdecken sind. Ein Banner fasst die Kompatibilität der installierten Plugins zusammen :    
-![migration modal up](../images/migrate-version07.png)
+- Im oberen Bereich gibt es in Version 4 einige Neuerungen zu entdecken, darunter eine Leiste, die einen allgemeinen Überblick über die Kompatibilität der installierten Plugins bietet:
+![Modal-Migration nach oben](../images/migrate-version07.png)
 
->**Wichtig**
+>**WICHTIG**
 >
->Eine vorherige Migration zu einer Installation mit einer Umgebung ist nicht möglich ``Debian Stretch 9.X`` *(``Debian 8.X Jessie`` oder niedriger)*. Sie werden außerdem aufgefordert, alle Plugins zu entfernen, die als veraltet eingestuft wurden.
+>Die Migration kann nicht auf einer Anlage durchgeführt werden, deren Umgebung älter ist als ``Debian Stretch 9.X`` *(``Debian 8.X Jessie`` oder niedriger)*. Außerdem werden Sie aufgefordert, eventuell als veraltet identifizierte Plugins zu entfernen.
 
-- Der untere Teil besteht aus einer Tabelle, in der alle installierten Plugins sowie ihre bestätigte Kompatibilität mit dieser neuen Version aufgeführt sind :    
-![migration modal down](../images/migrate-version08.png)
+- Der untere Teil besteht aus einer Tabelle, in der alle installierten Plugins sowie deren bestätigte oder nicht bestätigte Kompatibilität mit dieser neuen Version aufgeführt sind:
+![Modal-Migration nach unten](../images/migrate-version08.png)
 
-> **Wichtig**    
+> **WICHTIG**
 >
->Diese neue Version von Jeedom bringt große Änderungen mit sich. Infolgedessen werden Widgets von Drittanbietern und einige in V3 verwendete Designanpassungen möglicherweise nicht mehr wie gewünscht angezeigt oder reagieren nicht mehr und erfordern möglicherweise Ihr Eingreifen nach dem Wechsel zu V4.
+>Diese neue Version von Jeedom bringt wesentliche Änderungen mit sich. Daher kann es vorkommen, dass Widgets von Drittanbietern und bestimmte Designanpassungen, die in Version 3 verwendet wurden, nach dem Umstieg auf Version 4 nicht mehr wie gewünscht angezeigt werden oder reagieren und möglicherweise ein Eingreifen Ihrerseits erfordern.
 
-### Aktualisierung
+### Upgrade
 
-Nachdem wir alle wichtigen Informationen gelesen haben, die Sie vor dem Upgrade unseres Jeedom wissen müssen, können Sie die Migration starten, indem Sie auf die orangefarbene Schaltfläche klicken **Upgrade auf V4** oben rechts im modalen Fenster.
+Nachdem wir nun alle wichtigen Informationen zur Kenntnis genommen haben, die vor dem Upgrade unseres Jeedom zu beachten sind, können wir die Migration starten, indem wir oben rechts im Modalfenster auf die orangefarbene Schaltfläche **Auf V4 aktualisieren** klicken.
 
-> **Wissen**   
+> **WISSENSWERTES**
 >
->Die Schaltfläche **Upgrade auf V4** wird erst anklickbar, wenn das gesamte Fenster angezeigt wurde. Sie müssen daher sicherstellen, dass Sie zum Ende der Seite scrollen.
+>Die Schaltfläche **Auf V4 aktualisieren** wird erst dann anklickbar, wenn das gesamte Fenster angezeigt wird. Sie müssen daher darauf achten, bis zum Ende der Seite zu scrollen.
 
-Ein Popup-Fenster wird geöffnet und zeigt an, dass vor der Migration automatisch eine vollständige Sicherung durchgeführt wird, damit wir bei Bedarf schnell und einfach zu V3 zurückkehren können.
-Klicken Sie auf, um den Migrationsprozess zu starten **In Ordnung** :    
-![migration agree](../images/migrate-version09.png)
+Es öffnet sich ein Pop-up-Fenster, das uns darüber informiert, dass vor der Migration automatisch eine vollständige Sicherung durchgeführt wird, damit bei Bedarf schnell und einfach wieder auf Version 3 zurückgekehrt werden kann.
+Um den Migrationsvorgang zu starten, klicken Sie auf **OK**:
+![Migration vereinbart](../images/migrate-version09.png)
 
-Anschließend wechseln Sie zu der Seite mit den Migrationsprotokollen, auf der zunächst die aktuelle Installation gesichert wird, bevor die Plugins und der Core aktualisiert werden.
+Sie werden nun auf die Seite mit den Migrationsprotokollen weitergeleitet, auf der zunächst eine Sicherung der aktuellen Installation durchgeführt wird, bevor die Plugins und der Core aktualisiert werden.
 
-> **Wichtig**    
+> **WICHTIG**
 >
->Abhängig von der Hardware, auf der Jeedom installiert ist, kann dieser Vorgang einige Minuten dauern. Es ist wichtig, den Migrationsprozess bis zum Ende laufen zu lassen.
+>Je nach der Hardware, auf der Jeedom installiert ist, kann dieser Vorgang mehrere Minuten dauern. Es ist äußerst wichtig, den Migrationsprozess bis zum Ende ablaufen zu lassen.
 
-Sobald der Migrationsvorgang abgeschlossen ist, wird oben auf dem Bildschirm ein grünes Banner mit der Meldung angezeigt ***Die Operation ist erfolgreich. Bitte machen Sie `F5` für die neuesten Nachrichten*** :    
-![migration finish](../images/migrate-version10.png)
+Sobald der Migrationsvorgang abgeschlossen ist, erscheint oben auf dem Bildschirm ein grüner Balken mit der Meldung ***Der Vorgang war erfolgreich. Bitte `F5` Um die neuesten Informationen zu erhalten***:
+![Migration abgeschlossen](../images/migrate-version10.png)
 
-Sie müssen also nur die Taste "F5" auf der Tastatur drücken *(oder aktualisieren Sie die Seite)* um den tatsächlichen Übergang zu V4 zu sehen. Es ist möglich, dass einige Plugins nach der Migration erneut aktualisiert werden müssen. Zögern Sie nicht, sie sofort zu aktualisieren.
+Jetzt müssen Sie nur noch auf die Taste drücken `F5` Drücken Sie die Taste *(oder aktualisieren Sie die Seite)*, um zu überprüfen, ob der Wechsel zu V4 tatsächlich erfolgt ist. Es kann sein, dass einige Plugins nach der Migration erneut aktualisiert werden müssen. Zögern Sie nicht, diese sofort zu aktualisieren.

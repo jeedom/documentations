@@ -1,5 +1,5 @@
-# Häufig gestellte Fragen zum Jeedom Atlas
+# FAQ Jeedom Atlas
 
-## Während eines Marktverbindungstests I : "Konnte nicht aufgelöst werden...."
+## Bei einem Verbindungstest zum Market erhalte ich die Meldung: „Could not resolv....“
 
-Versuchen Sie, die Atlas-Box neu zu starten. Hierbei handelt es sich um ein Problem während der DHCP-Aushandlung, bei dem der DNS nicht ordnungsgemäß wiederhergestellt wird. Ein Neustart der Box behebt das Problem (was im Allgemeinen nur einmal auftritt))
+Versuchen Sie, die Atlas-Box neu zu starten. Es handelt sich um ein Problem bei der DHCP-Verhandlung, bei der die DNS-Einstellungen nicht korrekt abgerufen werden. Ein Neustart der Box behebt das Problem (das in der Regel nur einmal auftritt).

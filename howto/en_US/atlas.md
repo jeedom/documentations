@@ -1,66 +1,66 @@
-# Restauration en mode usine d'une Jeedom Atlas
+# Restoring a Jeedom Atlas in factory mode
 
-## Sauvegarde de Jeedom
+## Jeedom Backup
 
-Avant toute chose, **il est indispensable de réaliser une sauvegarde de Jeedom** qui pourra être restaurée à l'issue de la procédure.
+First and foremost, **it is essential to back up Jeedom** so that it can be restored once the procedure is complete.
 
-1. Se rendre sur l'interface Jeedom puis cliquer sur le menu **Réglages > Système > Sauvegardes**.
+1. Go to the Jeedom interface, then click on the **Settings > System > Backups** menu.
 
-2. Cliquer sur le bouton **Lancer une sauvegarde**.
+2. Click the **Start Backup** button.
 
-3. Quand la sauvegarde est terminée, cliquer sur **Télécharger la sauvegarde**.
+3. When the backup is complete, click **Download Backup**.
 
-4. Une fois la sauvegarde de Jeedom téléchargée, éteindre le système en passant par le menu **Réglages > Système > Eteindre**.
+4. Once the Jeedom backup has been downloaded, shut down the system via the **Settings > System > Shut Down** menu.
 
-## Présentation
+## Overview
 
-La Jeedom Atlas est équipée d'un disque Emmc, garantissant une meilleure fiabilité qu'une carte SD, mais ce disque n'est pas directement accessible.
+The Jeedom Atlas is equipped with an eMMC drive, which offers greater reliability than an SD card, but this drive is not directly accessible.
 
-Le Recovery Mode USB englobe à la fois le système, l'OS, et aussi l'application Jeedom.
+USB Recovery Mode covers the system, the OS, and the Jeedom app.
 
-Il permet :
+It allows you to:
 
-- La réinitialisation  de la Jeedom Atlas en configuration « usine » OS+Jeedom.
-- La réinitialisation  de la Jeedom Atlas en configuration « usine », en appliquant ensuite sa sauvegarde Jeedom.
+- Resetting the Jeedom Atlas to its "factory" OS+Jeedom settings.
+- Resetting the Jeedom Atlas to its "factory" settings, then restoring its Jeedom backup.
 
-Pour rappel la gestion des sauvegardes/restauration est disponible dans Jeedom dans le menu « Réglages » en haut à droite, puis « Sauvegardes ».
+As a reminder, backup and restore management is available in Jeedom under the “Settings” menu in the top-right corner, then “Backups.”
 
-Jeedom propose un service avec abonnement de sauvegarde automatique sur cloud privé Jeedom, pour ne plus vous soucier de rien. (Sur le Market, dans votre compte, menu à gauche « Backup Cloud »).
+Jeedom offers a subscription service for automatic backups to the Jeedom private cloud, so you don't have to worry about a thing. (On the Market, in your account, select "Backup Cloud" from the menu on the left.)
 
-## Fonctionnement du recovery mode
+## How Recovery Mode Works
 
 >**Note**
 >
->Pensez à mettre de côté (en local) une sauvegarde de configuration Jeedom
+>Be sure to save a backup of your Jeedom configuration (locally)
 
 >**Important**
 >
->L'application d'un Recovery entraine un changement de l'adresse MAC de votre box Jeedom. Il faudra alors changer votre réservation d'IP dans la configuration de votre serveur DHCP si vous en avez.
+>Running a recovery will change the MAC address of your Jeedom box. You will then need to update your IP reservation in your DHCP server settings, if you have one.
 
 >**Important**
 >
->Suivant si vous avez encore accès ou non à votre box, la procédure n'est pas la même.
+>Depending on whether or not you still have access to your router, the procedure will vary.
 
-Matériel nécessaire : une clé USB (minimum 16Go).
+Required equipment: a USB flash drive (at least 16 GB).
 
-CAS 1 : VOUS AVEZ ACCES A VOTRE BOX ATLAS
+CASE 1: YOU HAVE ACCESS TO YOUR ATLAS BOX
 
-Rendez-vous dans le plugin Atlas (Passerelle Domotique/Plugin Atlas), et cliquez sur Recovery, et suivez la procédure.
+Go to the Atlas plugin (Home Automation Gateway/Atlas Plugin), click on "Recovery," and follow the instructions.
 
 ***
 
-CAS 2 : VOUS N'AVEZ PAS ACCES A VOTRE BOX ATLAS
+CASE 2: YOU CAN'T ACCESS YOUR ATLAS BOX
 
-- Téléchargez le Recovery depuis votre profil sur le market : Profil / Mes Services et cliquer sur Télécharger USB Recovery Atlas
-![profilrecovery](../images/profilrecovery.png)
-- Téléchargez le logiciel [Balena etcher](https://www.balena.io/etcher/)
-- Dans le logiciel, choisissez votre image téléchargée, puis votre clé usb 
+- Download the Recovery from your profile on the Market: Profile / My Services, then click Download USB Recovery Atlas
+![profile recovery](../images/profilrecovery.png)
+- Download the software [Balena Etcher](https://www.balena.io/etcher/)
+- In the software, select the image you downloaded, then select your USB drive
 ![balenaetcher](../images/balenaetcher.png)
-- Une fois la clé prête, la mettre dans le port USB 2 inférieur (port USB noir), puis allumer votre box Atlas
-- Attendre 5 à 10 minutes environ
-- Puis rendez-vous sur http://jeedomatlasrecovery.local/
-- Mettre les identifiants et mot de passe :  admin/admin, puis changer le mot de passe, IMPORTANT : mettre un compte market.
-- Une fois cela fait, Jeeasy se lance et vous présente la procédure de recovery
-- Suivre la procédure
+- Once the USB drive is ready, insert it into the lower USB 2 port (the black USB port), then turn on your Atlas box
+- Wait about 5 to 10 minutes
+- Then go to http://jeedomatlasrecovery.local/
+- Enter the username and password: admin/admin, then change the password. IMPORTANT: Set up a Market account.
+- Once that's done, Jeeasy launches and walks you through the recovery process
+- Follow the procedure
 
-Ce Recovery Mode n'est compatible qu'avec la Jeedom Atlas
+This Recovery Mode is only compatible with the Jeedom Atlas
