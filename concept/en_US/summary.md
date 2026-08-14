@@ -1,6 +1,6 @@
-# Abstracts
+# Summaries
 
-## Browse Abstracts
+## Browse Summaries
 
 Jeedom offers a very simple and clear way to view the status of various components in your home, so you can immediately see how many lights are on, which shutters are open, the status of the alarm, the temperature, and more.
 
@@ -11,7 +11,7 @@ There are two types of summaries:
 - Overall Summary: This is the set of summary icons displayed in the Jeedom bar.
 - Object summaries: Each object has its own summary displayed in the object overview and on the Dashboard to the right of the object's name.
 
-![Browse Abstracts](../images/summary-intro.gif)
+![Browse Summaries](../images/summary-intro.gif)
 
 The overall summary cannot be configured directly. It is a compilation of the summaries from other objects. For example, if one light is on in the kitchen and two are on in the living room, the overall summary will show three lights on. Of course, all of this is configurable, as we’ll see below.
 
@@ -92,7 +92,7 @@ This page allows you to select summary commands in a different way: it displays 
 
 If at least one summary has already been defined, the selector appears in orange, with the summary types checked on the right.
 
-## Abstracts and Virtual Events
+## Summaries and Virtual Events
 
 The summaries are related to the [Virtual plugin](https://market.jeedom.com/index.php?v=d&p=market_display&id=21) An ambiguous concept—not always easy to grasp, but nevertheless very powerful, especially since Core v4.2 and summary actions! Still here? Let’s continue...
 
