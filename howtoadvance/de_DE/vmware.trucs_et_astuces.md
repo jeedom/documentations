@@ -1,14 +1,14 @@
-# VMware-Tipps und Trick
+# VMware – Tipps und Tricks
 
-Nicht wirklich eine Anleitung hier, sondern eher eine Sammlung von Tipps und Tricks zu VMware
+Das hier ist nicht wirklich eine Anleitung, sondern eher eine Sammlung von Tipps und Tricks zu VMware
 
-# Fügen Sie Ihre Lizenz hinzu
+# Lizenz hinzufügen
 
-Einmal über die Weboberfläche verbunden ``IP_ESXI/ui`` Gehen Sie zu "Verwalten"" :
+Sobald Sie sich auf der Weboberfläche angemeldet haben ``IP_ESXI/ui`` Gehen Sie auf „Verwalten“:
 
 ![vmware.tips](../images/vmware.tips.PNG)
 
-Klicken Sie dann auf "Lizenzierung" und klicken Sie auf "Lizenz zuweisen""
+Dann auf „Lizenzzuweisung“ und dort auf „Lizenz zuweisen“ klicken
 
 ![vmware.tips2](../images/vmware.tips2.PNG)
 
@@ -16,199 +16,199 @@ Und geben Sie Ihren Lizenzschlüssel ein
 
 ![vmware.tips3](../images/vmware.tips3.PNG)
 
-> **Notiz**
+> **Hinweis**
 >
-> Wenn Sie dies nicht tun, funktioniert Ihr ESXi nach 60 Tagen möglicherweise nicht mehr
+> Zur Erinnerung: Wenn Sie dies nicht tun, besteht die Gefahr, dass Ihr ESXi nach 60 Tagen nicht mehr funktioniert.
 
-# Mounten Sie einen NFS-Datenspeicher mit Synology
+# Einrichten eines NFS-Datenspeichers mit einem Synology-Gerät
 
-Hier erfahren Sie, wie Sie eine NFS-Freigabe von einer Synology auf VMware bereitstellen. Dies ermöglicht beispielsweise das Platzieren der virtuellen Maschinen in der Synology (die mehr Speicherplatz als das ESXi haben kann) oder das Senden der Sicherungen der Maschinen in der Synology
+Hier erfahren Sie, wie Sie eine NFS-Freigabe von einem Synology-Gerät auf VMware einrichten. Dies ermöglicht es beispielsweise, die virtuellen Maschinen auf dem Synology-Gerät zu speichern (das möglicherweise über mehr Speicherplatz verfügt als der ESXi) oder die Backups der Maschinen auf das Synology-Gerät zu übertragen.
 
-## Synologiekonfiguration
+## Einrichtung des Synology-Geräts
 
-Sie müssen zur Systemsteuerung und dann zu "Dateidienste" gehen und das Kontrollkästchen "NFS aktivieren" aktivieren" :
+Gehen Sie zur Systemsteuerung, dann zu „Dateidienste“ und aktivieren Sie das Kontrollkästchen „NFS aktivieren“:
 
 ![vmware.tips4](../images/vmware.tips4.PNG)
 
-Klicken Sie dann auf "Freigegebener Ordner", wählen Sie den freizugebenden Ordner aus (hier Backup), klicken Sie auf Ändern, dann auf "NFS-Autorisierung" und schließlich auf Erstellen (hier habe ich bereits einen, Ihre Liste sollte leer sein) :
+Anschließend klicken Sie auf „Gemeinsamer Ordner“, wählen dann den Ordner aus, den Sie freigeben möchten (hier „Backup“), klicken auf „Bearbeiten“, dann auf „NFS-Berechtigung“ und schließlich auf „Erstellen“ (hier habe ich bereits eine, Ihre Liste sollte leer sein):
 
 ![vmware.tips5](../images/vmware.tips5.PNG)
 
-Dann geben Sie die IP Ihres ESXi ein und in "Squash" setzen Sie "Mapping aller Benutzer auf admin", dann validieren Sie :
+Geben Sie anschließend die IP-Adresse Ihres ESXi ein und wählen Sie unter „Squash“ die Option „Alle Benutzer auf admin zuordnen“ aus. Bestätigen Sie anschließend:
 
 ![vmware.tips6](../images/vmware.tips6.PNG)
 
-Wir müssen dann den Freigabepfad wiederherstellen (hier ``/volume2/Backup``) :
+Anschließend muss der Pfad der Freigabe abgerufen werden (hier ``/volume2/Backup``) :
 
 ![vmware.tips7](../images/vmware.tips7.PNG)
 
-Hier ist es auf der Synology-Seite fertig, wir werden jetzt auf die ESXi-Seite wechseln
+So, das war’s dann von der Synology-Seite, jetzt geht es weiter mit ESXi
 
-## ESXi-Konfiguration
+## Konfiguration von ESXi
 
-Gehen Sie zu "Speicher" :
+Gehen Sie zu „Speicher“:
 
 ![vmware.tips8](../images/vmware.tips8.PNG)
 
-Klicken Sie dann auf "Neue Datenbank" :
+Klicken Sie anschließend auf „Neue Datenbank“:
 
 ![vmware.tips9](../images/vmware.tips9.PNG)
 
-Dort wählen Sie "NFS-Datenbank bereitstellen" und gehen dann wie folgt vor :
+Wählen Sie dort „NFS-Datenbank einbinden“ aus und gehen Sie dann wie folgt vor:
 
 ![vmware.tips10](../images/vmware.tips10.PNG)
 
-Geben Sie den Namen des zu erstellenden Datenspeichers ein (achten Sie darauf, Leerzeichen und Sonderzeichen zu vermeiden), geben Sie die IP unserer Synology ein und geben Sie den Freigabepfad ein (siehe oben) und validieren Sie schließlich :
+Geben Sie den Namen des zu erstellenden Datastores ein (achten Sie darauf, Leerzeichen und Sonderzeichen zu vermeiden), geben Sie die IP-Adresse unserer Synology ein, geben Sie den Pfad zur Freigabe ein (siehe oben) und bestätigen Sie abschließend:
 
 ![vmware.tips11](../images/vmware.tips11.PNG)
 
-Klicken Sie auf Fertig stellen :
+Klicken Sie auf „Fertigstellen“:
 
 ![vmware.tips12](../images/vmware.tips12.PNG)
 
-Und jetzt sollte Ihr neuer Datenspeicher angezeigt werden (andernfalls klicken Sie auf "Aktualisieren"").
+Und schon sollte Ihr neuer Datenspeicher angezeigt werden (falls nicht, klicken Sie auf „Aktualisieren“).
 
-# VAAI Synology Plugin für die NFS-Montage hinzugefügt
+# Hinzufügen des Synology-VAAI-Plugins für NFS-Einbindung
 
-Durch Hinzufügen dieses Plugins wird die Hardwarebeschleunigung auf NFS-Mounts aktiviert (eine Erläuterung finden Sie unter [hier](http://www.virtual-sddc.ovh/exploiter-les-vaai-nfs-avec-un-nas-synology/))
+Durch das Hinzufügen dieses Plugins kann die Hardwarebeschleunigung auf NFS-Mounts aktiviert werden (Erläuterung siehe [hier](http://www.virtual-sddc.ovh/exploiter-les-vaai-nfs-avec-un-nas-synology/))
 
-Um zu sehen, ob Sie es haben, müssen Sie sich mit dem Thick Client verbinden (ich habe die Informationen auf dem Web Client nicht gefunden) und zu Konfiguration → Speicher gehen :
+Um zu überprüfen, ob Sie diese Funktion haben, müssen Sie sich über den Desktop-Client anmelden (im Web-Client habe ich diese Information nicht gefunden) und zu „Konfiguration“ → „Speicher“ navigieren:
 
 ![vmware.tips13](../images/vmware.tips13.PNG)
 
-Die Implementierung ist recht einfach: Zuerst müssen Sie den SSH-Dienst des ESXi aktivieren (auf der Weboberfläche müssen Sie zu Aktion ⇒ Dienste ⇒ Secure Shell aktivieren) und dann in SSH oben eine Verbindung herstellen (die Bezeichner sind das gleiche wie für den Zugriff auf die Schnittstelle). Dann musst du nur noch tun :
+Die Einrichtung ist recht einfach: Zunächst muss der SSH-Dienst des ESXi aktiviert werden (im Webinterface gehen Sie dazu auf „Aktion“ ⇒ „Dienste“ ⇒ „Secure Shell aktivieren“), dann stellen Sie eine SSH-Verbindung her (die Anmeldedaten sind dieselben wie für den Zugriff auf das Webinterface). Anschließend müssen Sie lediglich Folgendes tun:
 
 ``esxcli software vib install -v https://global.download.synology.com/download/Tools/NFSVAAIPlugin/1.0-0001/VMware_ESXi/esx-nfsplugin.vib -f``
 
-Sie müssen haben :
+Sie benötigen:
 
 ![vmware.tips14](../images/vmware.tips14.PNG)
 
-Sie müssen dann ESXi neu starten, um zu überprüfen, ob es in Ordnung ist. Anschließend müssen Sie mit dem Thick Client zu Konfiguration → Speicher zurückkehren :
+Anschließend muss der ESXi neu gestartet werden. Um zu überprüfen, ob alles in Ordnung ist, kehren Sie mit dem Desktop-Client zu „Konfiguration → Speicher“ zurück:
 
 ![vmware.tips15](../images/vmware.tips15.PNG)
 
-# Installieren / Aktualisieren Sie den ESXi Embedded Host Client
+# ESXi Embedded Host Client installieren/aktualisieren
 
-ESXi Embedded Host Client ist eine Webschnittstelle (in HTML5) von ESXi, mit der in 95% der Fälle auf den Heavy Client verzichtet werden kann. Es ist standardmäßig in Version 6 vorhanden.0 Update 2, aber in Version 1.0, es wird dringend empfohlen, es zu aktualisieren.
+Der ESXi Embedded Host Client ist eine Weboberfläche (in HTML5) von ESXi, die es in 95 % der Fälle ermöglicht, auf den Full-Client zu verzichten. Sie ist standardmäßig in Version 6.0 Update 2 enthalten, liegt jedoch in der Version 1.0 vor; es wird dringend empfohlen, sie zu aktualisieren.
 
 Hier finden Sie alle Informationen
 [hier](https://labs.vmware.com/flings/esxi-embedded-host-client)
 
-Um zu sehen, ob Sie über die Weboberfläche verfügen, rufen Sie einfach Ihren Browser mit auf ``IP_ESXI/ui`` Wenn Sie nichts haben, müssen Sie es installieren, müssen Sie zuerst eine Verbindung in SSH auf dem ESXI herstellen und dann tun :
+Um zu prüfen, ob Sie über die Weboberfläche verfügen, rufen Sie einfach mit Ihrem Browser die folgende Adresse auf: ``IP_ESXI/ui`` Wenn Sie noch nichts installiert haben, müssen Sie es installieren. Verbinden Sie sich zunächst per SSH mit dem ESXI und führen Sie dann Folgendes aus:
 
 ``esxcli software vib install -v http://download3.vmware.com/software/vmw-tools/esxui/esxui-signed-latest.vib``
 
-Wenn Sie es bereits haben, müssen Sie es tun, um es zu aktualisieren :
+Wenn Sie es bereits haben, müssen Sie zum Aktualisieren Folgendes tun:
 
 ``esxcli software vib update -v http://download3.vmware.com/software/vmw-tools/esxui/esxui-signed-latest.vib``
 
-# Installation des Thick Clients
+# Installation des Fat-Client-Programms
 
-Dieser Teil ist optional, wenn Sie den USB nicht verwalten müssen.
+Dieser Abschnitt ist optional, wenn Sie den USB-Anschluss nicht verwalten müssen.
 
-Sie müssen mit Ihrem Internetbrowser zur IP des ESXi gehen und dann auf den Link klicken ``Download vSphere Client for Windows`` :
+Sie müssen mit Ihrem Webbrowser die IP-Adresse des ESXi aufrufen und dann auf den Link klicken ``Download vSphere Client for Windows`` :
 
 ![vmware.createvm](../images/vmware.createvm.PNG)
 
-Nach dem Herunterladen müssen Sie nur noch die Installation starten (ich gebe diesen Teil freiwillig weiter, da er ausreicht, um alles zu validieren).
+Sobald der Download abgeschlossen ist, müssen Sie lediglich die Installation starten (diesen Teil überspringe ich bewusst, da man lediglich alle Schritte bestätigen muss).
 
-Starten Sie dann VMware vSphere Client, den Sie haben sollten :
+Starten Sie anschließend den VMware vSphere Client. Folgendes sollte angezeigt werden:
 
 ![vmware.createvm1](../images/vmware.createvm1.PNG)
 
-Sie müssen nur die IP Ihres ESXi, den Benutzernamen und das Passwort eingeben und sind damit verbunden :
+Sie müssen lediglich die IP-Adresse Ihres ESXi, den Benutzernamen und das Passwort eingeben, und schon sind Sie angemeldet:
 
 ![vmware.createvm2](../images/vmware.createvm2.PNG)
 
 # ESXi-Update
 
-Das Verfahren ist recht einfach. Sie müssen den Patch zuerst wiederherstellen, indem Sie fortfahren [hier](https://my.vmware.com/group/vmware/patch#search) (Sie müssen sich wahrscheinlich mit Ihrem VMware-Konto anmelden). Auf der Liste ``Select a Product`` stellen ``ESXi (Embedded and Installable)``, Im Gegenteil, lassen Sie die neueste Version von VMware und tun Sie dies ``Search``. Laden Sie dann den gewünschten Patch herunter (normalerweise den letzten). Die Build-Nummer (die erste Nummer, die nicht mit KB beginnt) gibt Ihnen die Version des Patches, die Sie mit Ihrer Build-Nummer vergleichen können.
+Die Vorgehensweise ist recht einfach: Zunächst muss man den Patch herunterladen, indem man auf [hier](https://my.vmware.com/group/vmware/patch#search) (Sie müssen sich wahrscheinlich mit Ihrem VMware-Konto anmelden). In der Liste ``Select a Product`` stellen Sie ``ESXi (Embedded and Installable)``, dort die neueste Version von VMware installieren und ``Search``. Laden Sie anschließend den gewünschten Patch herunter (in der Regel den neuesten). Die Build-Nummer (die erste Nummer, nicht die mit „KB“ beginnende) gibt die Version des Patches an, die Sie mit Ihrer Build-Nummer vergleichen können.
 
-Übertragen Sie dann die Zip in einen Ihrer Datenspeicher und machen Sie :
+Übertragen Sie anschließend die ZIP-Datei auf einen Ihrer Datenspeicher und führen Sie folgenden Befehl aus:
 
 ``esxcli software vib update -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip``
 
-> **Notiz**
+> **Hinweis**
 >
-> Ersetzen Sie den Pfad und den Namen der Postleitzahl gemäß Ihrer Konfiguration
+> Passen Sie den Pfad und den Namen der ZIP-Datei entsprechend Ihrer Konfiguration an.
 
 > **Wichtig**
 >
-> Achten Sie darauf, den vollständigen Pfad zum Reißverschluss anzugeben, da dies sonst nicht funktioniert
+> Achte darauf, den vollständigen Pfad zur ZIP-Datei anzugeben, sonst funktioniert es nicht
 
-Der obige Befehl aktualisiert nur die Vibes, die ihn benötigen. Sie können jedoch die Installation aller Vibes im Paket erzwingen (achten Sie also darauf, dass dies herabgestuft werden kann) :
+Der obige Befehl aktualisiert nur die VIBs, die eine Aktualisierung benötigen. Sie können jedoch die Installation aller VIBs des Pakets erzwingen (Achtung: Dies kann zu einem Downgrade führen), indem Sie Folgendes ausführen:
 
 ``esxcli software vib install -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip``
 
 # NTP-Konfiguration
 
-Standardmäßig verwendet das ESXi kein NTP, was bedeutet, dass es nicht pünktlich ist und dass VMs nicht pünktlich sind. Die Korrektur ist sehr einfach. Sie müssen von der Webversion zu Verwalten → System → Datum und Uhrzeit wechseln und dort auf "Einstellungen ändern" klicken" :
+Standardmäßig nutzt ESXi kein NTP, was dazu führt, dass die Uhrzeit nicht stimmt und die VMs ebenfalls nicht die richtige Uhrzeit anzeigen. Das Problem lässt sich ganz einfach beheben. Rufen Sie in der Weboberfläche „Verwalten“ → „System“ → „Datum und Uhrzeit“ auf und klicken Sie dort auf „Einstellungen bearbeiten“:
 
 ![vmware.tips16](../images/vmware.tips16.PNG)
 
-Und in das Feld "NTP-Server" müssen Sie setzen : ``0.debian.pool.n, 1.debian.pool.n, 2.debian.pool.n, 3.debian.pool.n, time.nist.gov``
+Und im Feld „NTP-Server“ muss Folgendes eingegeben werden: ``0.debian.pool.n, 1.debian.pool.n, 2.debian.pool.n, 3.debian.pool.n, time.nist.gov``
 
 ![vmware.tips17](../images/vmware.tips17.PNG)
 
-Klicken Sie dann unter Aktionen → NTP-Dienst → Strategie auf "Mit dem Host starten und stoppen"" :
+Klicken Sie anschließend unter „Aktionen“ → „NTP-Dienst“ → „Strategie“ auf „Mit dem Host starten und stoppen“:
 
 ![vmware.tips18](../images/vmware.tips18.PNG)
 
-Klicken Sie weiterhin unter Aktionen → NTP-Dienst auf "Start""
+Klicken Sie unter „Aktionen“ → „NTP-Dienst“ auf „Starten“.
 
-Dies ist Ihr ESXi sollte sich jetzt die Zeit alleine nehmen.
+So, Ihr ESXi sollte nun die Uhrzeit automatisch richtig einstellen.
 
-# Externer Zugriff auf das ESXi
+# Externer Zugriff auf ESXi
 
-Um von außen auf das ESXi zugreifen zu können, benötigen Sie :
+Um von außen auf den ESXi-Server zuzugreifen, benötigen Sie:
 
--   Öffnen Sie den Port 443 für ESXi 443
--   Öffnen Sie den Port 902 zum ESXi 902
+-   Port 443 für den ESXi-Server öffnen
+-   Port 902 für den ESXi-Server öffnen
 
-Und das war's. Kleiner Tipp, wenn Sie ein Synology NAS haben, das Sie tun können (seien Sie vorsichtig, um zu folgen) :
+Das war’s auch schon. Ein kleiner Tipp: Wenn Sie ein Synology-NAS haben, können Sie Folgendes tun (beachten Sie bitte die folgenden Schritte genau):
 
--   Öffnen Sie 443 bis 5001 auf Synology NAS
--   Öffnen Sie die 80 in Richtung der 80 des NAS (nützlich, nur um die Zertifikate zu generieren, die wir verschlüsseln möchten)
--   Öffnen Sie den Port 902 zum ESXi 902
+-   Port 443 für den Port 5001 des Synology NAS öffnen
+-   Port 80 des NAS öffnen (nur zur Erstellung von Let’s Encrypt-Zertifikaten erforderlich)
+-   Port 902 für den ESXi-Server öffnen
 
-Dann auf dem NAS im Control Panel dann Anwendungsportal und Reverse Proxy (Achtung DSM 6 unbedingt erforderlich) :
+Anschließend auf dem NAS in der Systemsteuerung unter „Anwendungsportal“ und „Reverse-Proxy“ (Achtung: DSM 6 ist unbedingt erforderlich):
 
 ![vmware.tips19](../images/vmware.tips19.PNG)
 
-Klicken Sie auf Erstellen und setzen :
+Klicken Sie auf „Erstellen“ und geben Sie Folgendes ein:
 
 ![vmware.tips20](../images/vmware.tips20.PNG)
 
-In "Hostname" (auf Quellenebene) müssen Sie das gewünschte DNS eingeben (z. B. monesxi.mondsn.synology.Ich) und in "Hostname" (am Ziel) müssen Sie die IP des ESXi eingeben
+Unter „Hostname“ (auf der Quellseite) muss die gewünschte DNS-Adresse eingegeben werden (z. B. monesxi.mondsn.synology.me) und unter „Hostname“ (auf der Zielseite) die IP-Adresse des ESXi-Servers.
 
-> **Notiz**
+> **Hinweis**
 >
-> Sie können auch das Gleiche tun, um auf jeedom zuzugreifen, diesmal jedoch die jeedom-IP (der VM, wenn Sie virtualisiert sind) und Port 80 eingeben
+> Sie können dasselbe auch tun, um auf Jeedom zuzugreifen, müssen dabei jedoch die IP-Adresse von Jeedom (bzw. die der virtuellen Maschine, falls Sie in einer virtualisierten Umgebung arbeiten) und den Port 80 angeben.
 
-> **Notiz**
+> **Hinweis**
 >
-> Sobald Sie dies getan haben und Ihr DNS korrekt auf den NAS verweist, können Sie mit Let's encrypt kostenlos ein gültiges SSL-Zertifikat erstellen, indem Sie zu Secrity ⇒ certificate gehen und hinzugefügt haben. Vergessen Sie dann nicht, auf Konfigurieren zu klicken, um es Ihrem Reverse-Proxy zuzuweisen
+> Sobald Sie dies erledigt haben und Ihr DNS korrekt auf den NAS verweist, können Sie mit Let’s Encrypt kostenlos ein gültiges SSL-Zertifikat erstellen, indem Sie unter „Sicherheit“ ⇒ „Zertifikat“ auf „Hinzufügen“ klicken. Vergessen Sie anschließend nicht, auf „Konfigurieren“ zu klicken, um es Ihrem Reverse-Proxy zuzuweisen.
 
-Um dann auf Ihr ESXi zuzugreifen, müssen Sie nur mit Ihrem Browser zu Ihrem externen DNS oder Ihrer IP-Adresse wechseln, indem Sie am Ende / ui hinzufügen, und es ist gut.
+Um anschließend auf Ihren ESXi zuzugreifen, müssen Sie lediglich in Ihrem Browser die DNS-Adresse oder die externe IP-Adresse aufrufen und am Ende „/ui“ hinzufügen – fertig.
 
 > **Wichtig**
 >
-> Wenn Sie den NAS-Reverse-Proxy verwenden, funktioniert die Konsole im VM-Webmodus nicht (da sie über den Websocket ausgeführt wird). Wenn Sie jedoch die VMware Remote Console verwenden, sollte alles in Ordnung sein (über Port 902))
+> Wenn Sie den Reverse-Proxy des NAS nutzen, funktioniert die Webkonsole der VMs nicht (da diese über WebSocket läuft); wenn Sie hingegen die VMware Remote Console nutzen, sollte alles einwandfrei funktionieren (diese läuft über Port 902).
 
-> **Notiz**
+> **Hinweis**
 >
-> Es gibt auch eine Vmware Watchlist-Anwendung auf Android, mit der Sie auf ESXi sowie auf die Konsolen der VMs zugreifen können
+> Es gibt auch eine VMware Watchlist-App für Android, mit der man Zugriff auf den ESXi sowie auf die Konsolen der VMs erhält.
 
 # SSL-Zertifikat
 
-Es ist möglich, die VMware-Zertifikate direkt in Ihren PC zu importieren, um die Warnung nicht mehr zu erhalten.
+Sie können die VMware-Zertifikate direkt auf Ihren PC importieren, damit die Warnmeldung nicht mehr angezeigt wird.
 
-Damit ist es notwendig :
+In dieser Reihenfolge muss man:
 
--   Haben Sie eine URL (DNS), um auf Ihre Esxi zuzugreifen, hier nehmen wir ``esxi1.lan``
--   Konfigurieren Sie den Namen Ihres ESXI in ssh oben : ``esxcli system hostname set --host=esxi1``
--   Konfigurieren Sie die fqdn : ``esxcli system hostname set --fqdn=esxi1.lan``
--   Rufen Sie das Stammzertifikat von esxi ab, in dem es sich befindet ``/etc/vmware/ssl/castore.pem``
+-   Sie benötigen eine URL (DNS) für den Zugriff auf Ihren ESXi; hier nehmen wir ``esxi1.lan``
+-   Konfigurieren Sie den Namen Ihres ESXi-Servers. Geben Sie dazu per SSH Folgendes ein: ``esxcli system hostname set --host=esxi1``
+-   FQDN konfigurieren: ``esxcli system hostname set --fqdn=esxi1.lan``
+-   Das Stammzertifikat des ESXi abrufen; es befindet sich in ``/etc/vmware/ssl/castore.pem``
 
-Klicken Sie mit der rechten Maustaste auf den Computer, installieren Sie das Zertifikat und legen Sie es in "Trusted Root Certification Authority" ab"
+Klicken Sie mit der rechten Maustaste auf den Eintrag und installieren Sie das Zertifikat. Fügen Sie es unter „Vertrauenswürdige Stammzertifizierungsstellen“ hinzu.

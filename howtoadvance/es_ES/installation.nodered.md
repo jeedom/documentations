@@ -1,25 +1,25 @@
-# Instalación noder
+# Instalación de Node-RED
 
-Nodered es una herramienta escrita en Nodejs para administrar IoT o flujos orientados a la automatización del hogar. Ofrece una interfaz gráfica para editar flujos. El tutorial describe su instalación, una configuración de proxy inverso y un inicio en servicio
+Nodered es una herramienta desarrollada en Node.js para gestionar flujos orientados al IoT o a la domótica. Ofrece una interfaz gráfica para editar flujos. El tutorial describe su instalación, la configuración de un proxy inverso y su puesta en marcha como servicio.
 
 # Instalación de Nodered
 
-Aquí están los comandos para iniciar la instalación de noder con un nodo de trabajo js :
+Estos son los comandos que hay que ejecutar para instalar Node-RED una vez que Node.js esté en funcionamiento:
 
 ````
 sudo apt-get -y install libavahi-compat-libdnssd-dev libusb-1.0-0-dev build-essential
 sudo npm install -g node-red
 ````
 
-Para obtener Nodejs puedes instalar uno de los complementos de jeedom que lo hacen.
+Para obtener Node.js, puedes instalar uno de los complementos de Jeedom que se encarga de ello.
 
 #  Inicio automático de Nodered
 
-Es posible declarar Nodered como un servicio para que se inicie automáticamente cuando se inicia la caja. Un ejemplo [aquí](https://gist.github.com/bigmonkeyboy/9962293)
+Es posible configurar Nodered como un servicio para que se inicie automáticamente al arrancar el router. Un ejemplo [aquí](https://gist.github.com/bigmonkeyboy/9962293)
 
 # Configuración de Apache
 
-Aquí hay un ejemplo de un archivo para acceder a Nodered a través de un proxy inverso.
+A continuación se muestra un ejemplo de archivo para acceder a Node-RED a través de un proxy inverso.
 
 ````
 <Location /jeedom/nodered>
@@ -32,7 +32,7 @@ ProxyPass http://localhost:1880/jeedom/nodered/
 
 # Configuración de Nginx
 
-Aquí hay un ejemplo de un archivo para acceder a Nodered a través de un proxy inverso.
+A continuación se muestra un ejemplo de archivo para acceder a Node-RED a través de un proxy inverso.
 
 ````
 location /jeedom/nodered/ {
@@ -49,11 +49,11 @@ location /jeedom/nodered/ {
 }
 ````
 
-# Módulos existentes para Nodered
+# Módulos disponibles para Nodered
 
-Aquí hay ejemplos de extensiones disponibles para Nodered.
+A continuación se muestran algunos ejemplos de extensiones disponibles para Nodered.
 
-## Módulo de descubrimiento Avahi / Hello
+## Módulo de detección de Avahi/Bonjour
 
 ````
 sudo npm install node-red-node-discovery -g

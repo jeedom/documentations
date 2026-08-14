@@ -1,41 +1,41 @@
-# Vmware backup implementation
+# Setting up a VMware backup
 
-It is important to have backups of your VMs and this is a point not to be overlooked, not to mention hardware failures you may one day need to return to a backup due to improper handling or a problem following an update. Please note here we are talking about the complete image of the VMs, it is not just an application backup, it will therefore have a fairly large size.
+It’s important to have backups of your VMs, and this is something you absolutely must not overlook. Even setting aside hardware failures, you may one day need to restore from a backup due to user error or an issue caused by an update. Note that we’re talking about full VM images here—not just application backups—so the file size will be quite large.
 
-One of the constraints to make a backup under VMware is to have absolutely 2 datastores. For this you have several choices :
+One of the requirements for performing a backup in VMware is that you must have at least two datastores. To meet this requirement, you have several options:
 
--   2 hard drives / SSD with a datastore on each
--   a NAS (Synology type) that shares an NFS mount. In this case you must add a network file system to VMware so that it sees it as a datastore
+-   2 hard drives/SSDs, each with a datastore
+-   A NAS (type Synology) that shares an NFS mount. In this case, you need to add a network file system to VMware so that it recognizes it as a datastore
 
-For this tutorial I will use the ESXi web interface which is available either by installing a vib or from version 6.0 update 2. As a reminder, to access this interface just go to IP\_ESXI / ui
+For this tutorial, I’ll be using the ESXi web interface, which is available either by installing a VIB or starting with version 6.0 Update 2. As a reminder, to access this interface, simply go to IP\_ESXI/ui
 
-> **NOTE**
+> **Note**
 >
-> For this tutorial I will use the ESXi web interface which is available either by installing a vib or from version 6.0 update 2. For reminders to access this interface just go to ``IP_ESXI/ui``
+> For this tutorial, I’ll be using the ESXi web interface, which is available either by installing a VIB or starting with version 6.0 Update 2. As a reminder, to access this interface, simply go to ``IP_ESXI/ui``
 
-# GhettoVCB installation
+# Installing ghettoVCB
 
-We must recover this [script](https://raw.githubusercontent.com/lamw/ghettoVCB/master/ghettoVCB.sh) and transfer it to the ESXi (on the same datastore as the one that will host the backups for example).
+We need to retrieve this [script](https://raw.githubusercontent.com/lamw/ghettoVCB/master/ghettoVCB.sh) and transfer it to the ESXi (to the same datastore that will host the backups, for example).
 
-> **NOTE**
+> **Note**
 >
-> In the rest of this tutorial I consider that you have put the ghettoVCB script.sh in /vmfs/volumes/Backup/ghettoVCB.sh. It's up to you to adapt the commands / scripts provided according to your configuration.
+> In the rest of this tutorial, I’ll assume that you’ve placed the ghettoVCB.sh script in /vmfs/volumes/Backup/ghettoVCB.sh. It’s up to you to adapt the provided commands and scripts to your specific configuration.
 
-# Connection in ssh
+# SSH connection
 
-You will have to connect in SSH on the ESXi, to do this you must from the interface
+You'll need to connect to the ESXi via SSH. To do this, from the interface
 
 ![vmware.backup](../images/vmware.backup.PNG)
 
-Then with putty or kitty connect to it by putting the IP of your ESXi and using your identifiers of it
+Next, use PuTTY or Kitty to connect to it by entering your ESXi's IP address and using your ESXi login credentials.
 
-# Configuration file creation
+# Creating the configuration file
 
-> **NOTE**
+> **Note**
 >
-> For the rest of this tutorial I consider that your backup datastore has the path / vmfs / volumes / Backup, be careful to change if this is not the case for you
+> For the rest of this tutorial, I’ll assume that your backup datastore is located at /vmfs/volumes/Backup. Be sure to change this path if it’s different on your system.
 
-On the backup datastore you must create a file ``ghettoVCB.conf`` which contains :
+On the backup datastore, you need to create a file ``ghettoVCB.conf`` which contains:
 
 ````
 VM_BACKUP_VOLUME=/vmfs/volumes/Backup/
@@ -67,47 +67,47 @@ VM_SHUTDOWN_ORDER=
 VM_STARTUP_ORDER=
 ````
 
-The parameters that you must adapt are :
+The settings you need to adjust are:
 
--   ``VM_BACKUP_VOLUME`` ⇒ location of your backup datastore
--   ``VM_BACKUP_ROTATION_COUNT`` ⇒ number of backups per VM to keep
+-   ``VM_BACKUP_VOLUME`` ⇒ Location of your backup datastore
+-   ``VM_BACKUP_ROTATION_COUNT`` ⇒ Number of backups per VM to retain
 
-> **NOTE**
+> **Note**
 >
-> You can consult [here](https://communities.vmware.com/docs/DOC-8760) the complete ghettoVCB documentation with a description of each parameter
+> You can view [here](https://communities.vmware.com/docs/DOC-8760) The complete ghettoVCB documentation, including a description of each parameter
 
-> **IMPORTANT**
+> **Important**
 >
-> Be careful to put the ``/`` final for the parameter ``VM_BACKUP_VOLUME`` otherwise the script will be in error
+> Be sure to set the ``/`` final value for the parameter ``VM_BACKUP_VOLUME`` Otherwise, the script will return an error
 
-# Backup test
+# Backup Test
 
-Here we will launch a first initial backup of all VMs to see if everything is ok. Thereafter we will schedule it automatically. Return to the ESXi in SSH (reconnect if necessary) and do :
+Here, we’ll run an initial backup of all the VMs to make sure everything is working properly. We’ll then schedule it to run automatically. Return to the ESXi via SSH (reconnect if necessary) and run:
 
 ``/vmfs/volumes/Backup/ghettoVCB.sh -a -g /vmfs/volumes/Backup/ghettoVCB.conf``
 
-This will launch a backup of all your VMs (and can therefore take a long time). At the end you should have on your backup datastore a folder by VM and in each VMs folder a subfolder by date containing 4 files :
+This will start a backup of all your VMs (and may therefore take quite a while). When it’s finished, you should have one folder per VM on your backup datastore, and within each VM folder, a subfolder for each date containing 4 files:
 
 ![vmware.backup2](../images/vmware.backup2.PNG)
 
--   ``*-flat.vmdk`` ⇒ the virtual disk of your machine
--   ``*.vmdk`` ⇒ the descriptor of the disc
--   ``*.vmx`` ⇒ the file containing the configuration of your machine
--   ``STATUS.ok`` ⇒ indicates that the backup is ok
+-   ``*-flat.vmdk`` ⇒ your machine's virtual disk
+-   ``*.vmdk`` ⇒ the disk identifier
+-   ``*.vmx`` ⇒ the file containing your machine's configuration
+-   ``STATUS.ok`` ⇒ indicates that the backup is successful
 
-Here is another possibility for the command line :
+Here are some other options for the command line:
 
--   Backup simulation : ``/vmfs/volumes/Backup/ghettoVCB.sh -d dryrun -a -g /vmfs/volumes/Backup/ghettoVCB.conf``
--   Launch in debug mode : ``/vmfs/volumes/Backup/ghettoVCB.sh -d debug -a -g /vmfs/volumes/Backup/ghettoVCB.conf``
--   Backup only the VM "toto" ``/vmfs/volumes/Backup/ghettoVCB.sh -m toto -a -g /vmfs/volumes/Backup/ghettoVCB.conf``
+-   Backup simulation: ``/vmfs/volumes/Backup/ghettoVCB.sh -d dryrun -a -g /vmfs/volumes/Backup/ghettoVCB.conf``
+-   Launch in debug mode: ``/vmfs/volumes/Backup/ghettoVCB.sh -d debug -a -g /vmfs/volumes/Backup/ghettoVCB.conf``
+-   Back up only the "toto" VM ``/vmfs/volumes/Backup/ghettoVCB.sh -m toto -a -g /vmfs/volumes/Backup/ghettoVCB.conf``
 
-# Automatic backup launch
+# Automatic backup initiation
 
-You must add the command line to the crontab but under VMware the crontab is a little special and above all overwritten at each start. To avoid this you must therefore add a small script which will update the crontab at boot (don't worry it's quite simple and fast), in SSH on the ESXi do :
+You need to add the command line to the crontab, but in VMware, the crontab works a little differently and, more importantly, gets overwritten at every startup. To prevent this, you need to add a small script that will update the crontab at boot time (don’t worry, it’s pretty simple and quick). Connect to the ESXi via SSH and run:
 
 ``vi /etc/rc.local.d/local.sh``
 
-And before ``exit 0`` add the following lines :
+And before the ``exit 0`` Add the following lines:
 
 ````
 /bin/kill $(cat /var/run/crond.pid)
@@ -115,27 +115,27 @@ And before ``exit 0`` add the following lines :
 /usr/lib/vmware/busybox/bin/busybox crond
 ````
 
-> **NOTE**
+> **Note**
 >
-> Here I request a backup every 1st of the month, you can change this by modifying : ``0 0 1 * *``
+> Here, I'm setting up a backup for the 1st of every month. You can change this by editing: ``0 0 1 * *``
 
-> **NOTE**
+> **Note**
 >
-> Here I make a backup of all the VMs, you can adapt this by replacing the ``-a`` by ``-m ma_vm``, be careful if you want to put several VMs you have to duplicate the line ``/bin/echo "0 0 1 * *"``
+> Here, I'm backing up all the VMs; you can adapt this by replacing the ``-a`` by ``-m ma_vm``, note that if you want to add multiple VMs, you'll need to duplicate the line ``/bin/echo "0 0 1 * *"``
 ````
 /vmfs/volumes/Backup/ghettoVCB.sh -a -g
 /vmfs/volumes/Backup/ghettoVCB.conf &gt;/dev/null 2>&1";
-/var/spool/cron/crontabs/root" et en mettre une by VM à backuper
+/var/spool/cron/crontabs/root" et en mettre une par VM à backuper
 ````
 
-> **IMPORTANT**
+> **Important**
 >
-> Do not forget to adapt the path to the ghettoVCB configuration file according to your configuration : ``/vmfs/volumes/Backup/ghettoVCB.conf``
+> Don't forget to adjust the path to the ghettoVCB configuration file according to your setup: ``/vmfs/volumes/Backup/ghettoVCB.conf``
 
-Last step: you must restart your ESXi for cron to be taken into account, you can see the result by doing (always in SSH) :
+Final step: You need to restart your ESXi for the cron job to take effect. You can view the result by running the following command (still via SSH):
 
 ``cat /var/spool/cron/crontabs/root``
 
-Here you must have a line :
+Here you should have a line:
 
 ``0 0 1 * * /vmfs/volumes/Backup/ghettoVCB.sh -a -g /vmfs/volumes/Backup/ghettoVCB.conf >/dev/null 2>&1``

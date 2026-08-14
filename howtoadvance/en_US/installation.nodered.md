@@ -1,25 +1,25 @@
-# Nodered installation
+# Node-RED installation
 
-Nodered is a tool written in Nodejs to manage IoT or home automation oriented flows. It offers a graphical interface for editing flows. The tutorial describes its installation, a reverse proxy configuration and a startup in service
+Nodered is a tool written in Node.js for managing IoT- or home automation-oriented workflows. It offers a graphical interface for editing workflows. This tutorial describes how to install it, set up a reverse proxy, and start the service.
 
-# Installation of Nodered
+# Installing Nodered
 
-Here are the commands to launch to install nodered with a working nodejs :
+Here are the commands to run to install Node-RED once you have a working Node.js installation:
 
 ````
 sudo apt-get -y install libavahi-compat-libdnssd-dev libusb-1.0-0-dev build-essential
 sudo npm install -g node-red
 ````
 
-To get Nodejs you can install one of the jeedom plugins that do it.
+To get Node.js, you can install one of the Jeedom plugins that handles it.
 
-#  Automatic start of Nodered
+#  Automatic startup of Nodered
 
-It is possible to declare Nodered as a service so that it is started automatically when the box boots. An example [here](https://gist.github.com/bigmonkeyboy/9962293)
+You can register Nodered as a service so that it starts automatically when the box boots up. An example [here](https://gist.github.com/bigmonkeyboy/9962293)
 
-# Apache configuration
+# Apache Configuration
 
-Here is an example of a file to access Nodered via a reverse proxy.
+Here is an example file for accessing Nodered through a reverse proxy.
 
 ````
 <Location /jeedom/nodered>
@@ -30,9 +30,9 @@ ProxyPass http://localhost:1880/jeedom/nodered/
 </Location>
 ````
 
-# Configuration of Nginx
+# Configuring Nginx
 
-Here is an example of a file to access Nodered via a reverse proxy.
+Here is an example file for accessing Nodered through a reverse proxy.
 
 ````
 location /jeedom/nodered/ {
@@ -51,9 +51,9 @@ location /jeedom/nodered/ {
 
 # Existing modules for Nodered
 
-Here are examples of extensions available for Nodered.
+Here are some examples of extensions available for Nodered.
 
-## Avahi / Hello discovery module
+## Avahi/Bonjour discovery module
 
 ````
 sudo npm install node-red-node-discovery -g

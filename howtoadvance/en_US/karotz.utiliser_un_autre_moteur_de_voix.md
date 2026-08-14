@@ -1,12 +1,12 @@
-# Karotz use another voice engine
+# Karotz: Use a Different Voice Engine
 
-# Connect to Telnet
+# Log in via Telnet
 
-You must first connect to telnet (port 23) on openkarotz, the identifier being kartoz
+First, you need to connect via Telnet (port 23) to openkarotz; the username is kartoz
 
 # Adding a voice engine
 
-Go to ``/www/cgi-bin/`` and edit the file ``tts.inc``, add a function (example for Jeedom) :
+Go to ``/www/cgi-bin/`` and edit the file ``tts.inc``, add a function (example for Jeedom):
 
 ````
 function jeedomTTS {
@@ -28,11 +28,11 @@ function jeedomTTS {
 }
 ````
 
-Then edit the tts file and add :
+Next, edit the tts file and add:
 
 ``MP3_ID=$(jeedomTTS $TTS $VOICE $NO_CACHE $RAW_VOICE);;``
 
-In the ``case $TTS_ENGINE in`` to get :
+In the ``case $TTS_ENGINE in`` to have:
 
 ````
 case $TTS_ENGINE in
@@ -43,8 +43,8 @@ case $TTS_ENGINE in
 esac
 ````
 
-# Utilisation
+# Usage
 
-You just need to call the url giving the gear number (here 3) :
+Simply call the URL using the device number (in this case, 3):
 
 ``http://192.168.0.62/cgi-bin/tts?text=coucou%20ca%20va&nocache=0&engine=3``

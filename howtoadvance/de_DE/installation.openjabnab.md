@@ -1,14 +1,14 @@
 # Openjabnab-Installation
 
-Hier ist ein Tutorial, wie man openjabnab lokal installiert (auf einem RPI oder Brummen))
+Hier ist eine Anleitung zur lokalen Installation von openjabnab (auf einem RPi oder Humming)
 
-> **Notiz**
+> **Hinweis**
 >
-> Dieses Tutorial ist weitgehend inspiriert von [dieser hier](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
+> Diese Anleitung ist weitgehend inspiriert von [dieser](http://jetweb.free.fr/nabaztag_rpi/Tutoriel_OJN_RPi_v1-1.pdf)
 
-# Installation von Abhängigkeiten
+# Einrichtung der Nebengebäude
 
-Sobald das in SSH installierte System fertig ist :
+Sobald das System über SSH installiert ist, führen Sie Folgendes aus:
 
 ````
 apt-get update
@@ -26,11 +26,11 @@ apt-get install git
 
 # Netzwerkkonfiguration
 
-Dann müssen Sie die IP-Adresse des Systems wiederherstellen :
+Anschließend muss die IP-Adresse des Systems abgerufen werden:
 
 ``ifconfig``
 
-Das Ergebnis ist :
+Das Ergebnis lautet:
 
 ````
 eth0      Link encap:Ethernet  HWaddr d0:63:b4:00:54:98
@@ -43,30 +43,30 @@ eth0      Link encap:Ethernet  HWaddr d0:63:b4:00:54:98
           RX bytes:2032942 (1.9 MiB)  TX bytes:1230703 (1.1 MiB)
 ````
 
-Hier lautet die IP-Adresse 192.168.0.162.
+Die IP-Adresse lautet hier 192.168.0.162.
 
-> **Notiz**
+> **Hinweis**
 >
-> Für den Rest des Tutorials werde ich diese IP verwenden, sie muss natürlich entsprechend der tatsächlich vorhandenen ersetzt werden
+> Im weiteren Verlauf dieser Anleitung werde ich diese IP-Adresse verwenden; diese muss natürlich durch Ihre tatsächliche IP-Adresse ersetzt werden.
 
-Bearbeiten Sie dann die Datei ``/etc/resolv.conf``
+Bearbeiten Sie anschließend die Datei ``/etc/resolv.conf``
 
 ``vim  /etc/resolv.conf``
 
-Und hinzufügen :
+Und fügen Sie hinzu:
 
 ``nameserver 192.168.0.162``
 
 # DNS-Konfiguration
 
-Bearbeiten Sie die Datei ``/etc/bind/named.conf.local``
+Datei bearbeiten ``/etc/bind/named.conf.local``
 
 ````
 cd /etc/bind/
 vim named.conf.local
 ````
 
-Und hinzufügen :
+Und fügen Sie hinzu:
 
 ````
 zone "raspberry.pi"{
@@ -83,7 +83,7 @@ Erstellen Sie die Datei ``db.raspberry.pi``
 
 ``vim db.raspberry.pi ---``
 
-Und steck es ein :
+Und geben Sie Folgendes hinein:
 
 ````
 $TTL 604800
@@ -99,11 +99,11 @@ ojn IN A 192.168.0.162
 192.168.0.162 IN A 192.168.0.162
 ````
 
-Dann erstellen Sie diese Datei ``db.192.168.0.inv``
+Erstellen Sie anschließend diese Datei ``db.192.168.0.inv``
 
 ``vim db.192.168.0.inv``
 
-Und setzen :
+Und geben Sie Folgendes ein:
 
 ````
 $TTL 604800
@@ -120,17 +120,17 @@ $TTL 604800
 
 > **Wichtig**
 >
-> Denken Sie daran, den 162 in der letzten Zeile durch den letzten Teil der IP Ihres Systems zu ersetzen
+> Denken Sie daran, die 162 in der letzten Zeile durch den letzten Teil der IP-Adresse Ihres Systems zu ersetzen.
 
-Starten Sie DNS :
+DNS starten:
 
 ``/etc/init.d/bind9 start``
 
-Testen Sie, ob es gut ist :
+Probieren Sie aus, ob es funktioniert:
 
 ``ping ojn.raspberry.pi``
 
-Das solltest du haben :
+Sie sollten Folgendes haben:
 
 ````
 root@cubox-i:/home/ojn# ping ojn.raspberry.pi
@@ -145,28 +145,28 @@ PING ojn.raspberry.pi (192.168.0.162) 56(84) bytes of data.
 rtt min/avg/max/mdev = 0.059/0.065/0.069/0.010 ms
 ````
 
-> **Notiz**
+> **Hinweis**
 >
-> Sie müssen Strg + C drücken, um den Ping zu beenden
+> Um den Ping zu beenden, muss man Strg+C drücken.
 
-Aus Sicherheitsgründen werden wir auch die Auflösung in / etc / hosts hinzufügen :
+Zur Sicherheit fügen wir die Auflösung auch in die Datei /etc/hosts ein. Führen Sie dazu folgenden Befehl aus:
 
 ``vim /etc/hosts``
 
-Und hinzufügen :
+Und fügen Sie hinzu:
 
 ``192.168.0.162 ojn.raspberry.pi``
 
-# Openjabnab-Wiederherstellung
+# Wiederherstellung von openjabnab
 
-Wir werden zuerst den Benutzer erstellen :
+Zunächst erstellen wir den Benutzer:
 
 ````
 adduser ojn
 cd /home/ojn
 ````
 
-Dann klone openjabnab :
+Anschließend openjabnab klonen:
 
 ````
 git clone https://github.com/OpenJabNab/OpenJabNab.git
@@ -174,16 +174,16 @@ chown -R ojn:ojn /home/ojn/OpenJabNab/
 chmod 0777 /home/ojn/OpenJabNab/http-wrapper/ojn_admin/include
 ````
 
-# Webserverkonfiguration
+# Konfiguration des Webservers
 
-Tun :
+So geht’s:
 
 ````
 cd /etc/apache2/sites-available/
 vim ojn.conf
 ````
 
-Und hinzufügen :
+Und fügen Sie hinzu:
 
 ````
 <VirtualHost *:80>
@@ -202,15 +202,15 @@ Und hinzufügen :
 </VirtualHost>
 ````
 
-Aktivieren Sie dann die Site :
+Aktivieren Sie anschließend die Website:
 
 ``a2ensite ojn``
 
-Sie müssen dann das openjabnab-Serververzeichnis autorisieren :
+Anschließend müssen Sie das Verzeichnis des OpenJabnab-Servers freigeben. Führen Sie dazu folgenden Befehl aus:
 
 ``vim /etc/apache2/apache2.conf``
 
-Und hinzufügen :
+Und fügen Sie hinzu:
 
 ````
 <Directory /home/ojn/>
@@ -220,13 +220,13 @@ Und hinzufügen :
 </Directory>
 ````
 
-Dann starten wir Apache neu :
+Anschließend starten wir Apache neu:
 
 ``service apache2 reload``
 
 # Installation von openjabnab
 
-Tun :
+So geht’s:
 
 ````
 su ojn
@@ -235,20 +235,20 @@ qmake -r
 make
 ````
 
-> **Notiz**
+> **Hinweis**
 >
-> Dieser Schritt kann sehr lang sein (bis zu 45 Minuten))
+> Dieser Schritt kann sehr lange dauern (bis zu 45 Minuten)
 
-# Openjabnab-Konfiguration
+# Konfiguration von openjabnab
 
-Tun :
+So geht’s:
 
 ````
 cp openjabnab.ini-dist bin/openjabnab.ini
 vim bin/openjabnab.ini
 ````
 
-Und ändern Sie die folgenden Zeilen :
+Und ändern Sie die folgenden Zeilen:
 
 ````
 StandAloneAuthBypass = true
@@ -257,23 +257,23 @@ AllowUserManageBunny = true
 AllowUserManageZtamp = true
 ````
 
-Und alle ersetzen *my.domain.com* Von *ojn.raspberry.pi*
+Und ersetzen Sie alle *my.domain.com* durch *ojn.raspberry.pi*
 
-# Openjabnab-Webserverkonfiguration
+# Konfiguration des OpenJabnab-Webservers
 
-In Ihrem Beitrag müssen Sie die Datei bearbeiten ``C:\Windows\System32\drivers\etc`` und hinzufügen :
+In Ihrem Beitrag müssen Sie die Datei bearbeiten ``C:\Windows\System32\drivers\etc`` und hinzufügen:
 
 ``192.168.0.162 ojn.raspberry.pi``
 
-Dann mach weiter :
+Gehen Sie dann zu:
 
 ``http://ojn.raspberry.pi/ojn_admin/install.php``
 
-Alles validieren
+Bestätigen Sie alles
 
-# Serverstart
+# Start des Servers
 
-Jetzt ist alles fertig, alles was bleibt ist, den Server zu starten :
+So, alles ist bereit, jetzt muss nur noch der Server gestartet werden:
 
 ````
 su ojn
@@ -281,21 +281,21 @@ cd ~/OpenJabNab/server/bin
 ./openjabnab
 ````
 
-Jetzt geh zu :
+Gehen Sie nun zu:
 
 ``http://ojn.raspberry.pi/ojn_admin/index.php``
 
-> **Notiz**
+> **Hinweis**
 >
-> Wenn alles in Ordnung ist, sollten Sie die unten angezeigten Statistiken haben
+> Wenn alles geklappt hat, sollten unten die Statistiken angezeigt werden
 
-# Kaninchenkonfiguration
+# Einrichtung des „Lapin“
 
-Um das Kaninchen zu konfigurieren, ist es ganz einfach. Sie müssen es ausstecken, dann wieder einstecken und die Taste gedrückt halten. Es sollte normalerweise blau leuchten.
+Die Einrichtung des „Lapin“ ist ganz einfach: Sie müssen es ausstecken und wieder einstecken und dabei die Taste gedrückt halten. Normalerweise sollte es dann blau leuchten.
 
-Dann sollten Sie mit Ihrem PC ein neues nabaztagXX-WLAN-Netzwerk haben. Stellen Sie eine Verbindung her, indem Sie 192.168.0.1 eingeben.
+Anschließend sollte auf Ihrem PC ein neues WLAN-Netzwerk namens „nabaztagXX“ angezeigt werden. Verbinden Sie sich damit, indem Sie 192.168.0.1 eingeben.
 
-Geben Sie einmal Ihre WLAN-Konfiguration und die folgenden Informationen ein :
+Geben Sie dort Ihre WLAN-Konfiguration und die folgenden Informationen ein:
 
 ````
 DHCP enabled : no
@@ -304,16 +304,16 @@ Local gateway : 192.168.0.1 ou 192.168.0.254 (en fonction de votre réseau)
 DNS server : 192.168.0.162
 ````
 
-# Openjabnab Server Überwachung und Autostart
+# Überwachung des OpenJabNab-Servers und automatischer Start
 
-Wie Sie feststellen werden, stoppt der openjabnab-Server, wenn Sie Ihre Sitzung schließen. Fügen Sie also ein kleines Skript hinzu, um den Server zu überwachen und automatisch zu starten. Tun :
+Wie Sie feststellen werden, wird der OpenJabnab-Server beendet, wenn Sie sich abmelden. Daher muss ein kleines Skript hinzugefügt werden, um den Server zu überwachen und automatisch zu starten. Führen Sie Folgendes aus:
 
 ````
 cd /home/ojn
 vim checkojn.sh
 ````
 
-Und hinzufügen :
+Und fügen Sie Folgendes hinzu:
 
 ````
 if [ $(ps ax | grep openjabnab | grep -v grep | wc -l) -eq 0 ]; then
@@ -321,15 +321,15 @@ if [ $(ps ax | grep openjabnab | grep -v grep | wc -l) -eq 0 ]; then
 fi
 ````
 
-Dann mach es :
+Führen Sie anschließend Folgendes aus:
 
 ``chmod +x checkojn.sh``
 
-Wir müssen jetzt das Skript beim Start hinzufügen und beispielsweise alle 15 Minuten eine Überprüfung durchführen :
+Nun muss das Skript zum Systemstart hinzugefügt und beispielsweise alle 15 Minuten eine Überprüfung durchgeführt werden:
 
 ``crontab -e``
 
-Und hinzufügen :
+Und fügen Sie hinzu:
 
 ````
 @reboot /home/ojn/checkojn.sh
@@ -338,81 +338,81 @@ Und hinzufügen :
 
 > **Wichtig**
 >
-> Es ist absolut notwendig, es in die Root-Crontab zu legen, wenn Sie noch mit dem Benutzer zusammen sind und Strg + D drücken
+> Das muss unbedingt in die crontab von root eingefügt werden. Wenn Sie noch als Benutzer „ojn“ angemeldet sind, drücken Sie Strg+D.
 
-# Konfiguration Ihres Kaninchens in Openjabnab
+# Einrichtung Ihres „Lapin“ in OpenJabNab
 
-Weiter :
+Gehen Sie auf:
 
 ``http://ojn.raspberry.pi/ojn_admin/index.php``
 
-Sie müssen haben :
+Sie benötigen:
 
-![installation.openjabnab](../images/installation.openjabnab.PNG)
+![Installation.openjabnab](../images/installation.openjabnab.PNG)
 
-Sie müssen jetzt ein Konto erstellen, indem Sie auf Benutzer erstellen klicken :
+Sie müssen nun ein Konto erstellen, indem Sie auf „Benutzer anlegen“ klicken:
 
 ![installation.openjabnab2](../images/installation.openjabnab2.PNG)
 
-Geben Sie die angeforderten Informationen ein und melden Sie sich an :
+Geben Sie die erforderlichen Informationen ein und melden Sie sich an:
 
 ![installation.openjabnab3](../images/installation.openjabnab3.PNG)
 
-Sobald die Verbindung hergestellt ist, gehen Sie zum Server :
+Sobald Sie angemeldet sind, gehen Sie zum Server:
 
 ![installation.openjabnab4](../images/installation.openjabnab4.PNG)
 
-Gehen Sie dann nach unten, um die Liste der verbundenen Kaninchen zu finden und ihre Mac-Adresse zu erhalten :
+Scrollen Sie dann nach unten, um die Liste der verbundenen „Lapins“ anzuzeigen und deren MAC-Adresse abzurufen:
 
 ![installation.openjabnab5](../images/installation.openjabnab5.PNG)
 
-Gehen Sie dann zur Rechnung und füllen Sie den Namen und das Mac-Feld des Kaninchens aus und bestätigen Sie :
+Gehen Sie anschließend auf „Konto“ und geben Sie den Namen und die MAC-Adresse des „Lapin“ ein und bestätigen Sie anschließend:
 
 ![installation.openjabnab6](../images/installation.openjabnab6.PNG)
 
-Sie finden Ihr Kaninchen jetzt auf der Kaninchenseite. Klicken Sie darauf, um die Konfiguration zu öffnen :
+Auf der Seite „Kaninchen“ finden Sie nun Ihr Kaninchen. Klicken Sie darauf, um die Einstellungen zu öffnen:
 
 ![installation.openjabnab7](../images/installation.openjabnab7.PNG)
 
-Sie müssen jetzt die lila API aktivieren und öffentlich weitergeben. Hier finden Sie auch den lila API-Schlüssel, der für Jeedom verwendet wird :
+Sie müssen nun die Violet-API aktivieren und auf „öffentlich“ umstellen. Hier finden Sie auch den Violet-API-Schlüssel, den Sie für Jeedom benötigen:
 
 ![installation.openjabnab8](../images/installation.openjabnab8.PNG)
 
-Unten finden Sie die Liste der Plugins. Vergessen Sie nicht, diese zu aktivieren (TTS-Typ oder Ohrsteuerung)) :
+Nachfolgend finden Sie eine Liste der Plugins. Vergessen Sie nicht, diese zu aktivieren (z. B. TTS oder Ohrsteuerung):
 
 ![installation.openjabnab9](../images/installation.openjabnab9.PNG)
 
-# Jeedom Konfiguration
+# Jeedom-Konfiguration
 
-Die Konfiguration in Jeedom ist recht einfach. Sie müssen zuerst in SSH eine Verbindung zu Jeedom herstellen (wenn Sie eine Jeedom-Box haben, finden Sie die Kennungen im Installationsdokument). Bearbeiten Sie dann die Datei / etc / hosts
+Die Konfiguration in Jeedom ist recht einfach: Zunächst müssen Sie sich per SSH bei Jeedom anmelden (wenn Sie eine Jeedom-Box besitzen, finden Sie die Anmeldedaten in der Installationsanleitung). Bearbeiten Sie anschließend die Datei /etc/hosts
 
 ``vim /etc/hosts``
 
-Und fügen Sie die folgende Zeile hinzu :
+Und fügen Sie die folgende Zeile hinzu:
 
 ``192.168.0.162 ojn.raspberry.pi``
 
-Dann passiert alles in Jeedom, nachdem Sie Ihr Kaninchen erstellt haben, müssen Sie hier die Konfiguration vornehmen:
+Anschließend läuft alles über Jeedom. Nachdem Sie Ihr „Kaninchen“ erstellt haben, nehmen Sie bitte folgende Einstellungen vor:
 
-![installation.openjabnab10](../images/installation.openjabnab10.PNG)
+![Installation.openjabnab10](../images/installation.openjabnab10.PNG)
 
-Hier hat Ihr Kaninchen jetzt einen eigenen Bau !!!!!
+So, jetzt hat Ihr Kaninchen seinen eigenen Bau vor Ort!!!!!
 
-# Setzen Sie das TTS lokal ein
+# TTS lokal einrichten
 
-Alles ist lokal, mit Ausnahme des TTS, das die Acapela-Site durchläuft. Es ist jedoch möglich, einige Dateien so zu ändern, dass sie lokal übergeben werden
+Alles läuft lokal, mit Ausnahme der TTS, die über die Acapela-Website läuft. Durch Ändern einiger Dateien ist es jedoch möglich, diese ebenfalls lokal auszuführen.
 
-> **Notiz**
+> **Hinweis**
 >
-> Ich werde berücksichtigen, dass oenjabnab in / home / ojn / OpenJabNab installiert ist und dass Sie als Benutzer von openjabnab hier ojn angemeldet sind
+> Ich gehe davon aus, dass OpenJabNab unter /home/ojn/OpenJabNab installiert ist und dass Sie als OpenJabNab-Benutzer angemeldet sind, hier also als „ojn“.
 
-## Schaffung von tts jeedom
+## Erstellung des Jeedom-TTS
 
-Sie müssen einen jeedom-Ordner in servver / tts erstellen :
+Sie müssen einen Ordner „jeedom“ unter „server/tts“ erstellen:
 
 ``mkdir /home/ojn/OpenJabNab/server/tts/jeedom``
 
-Dann müssen Sie 3 Dateien erstellen :
+Anschließend müssen drei Dateien erstellt werden:
 
 -   ``jeedom.pro``
 
@@ -549,18 +549,18 @@ QByteArray TTSJeedom::CreateNewSound(QString text, QString voice, bool forceOver
 }
 ````
 
-> **Notiz**
+> **Hinweis**
 >
-> Vergessen Sie nicht, die TODOs zu ersetzen
+> Vergessen Sie nicht, die TODO-Einträge zu ersetzen
 
-Aktivieren Sie dann die tts jeedom, indem Sie die Datei ändern ``/home/ojn/OpenJabNab/server/tts/tts.pro`` durch Hinzufügen von Jeedom zu ``SUBDIRS`` :
+Anschließend muss die Jeedom-TTS-Funktion durch Bearbeiten der Datei aktiviert werden ``/home/ojn/OpenJabNab/server/tts/tts.pro`` durch Hinzufügen von Jeedom zu ``SUBDIRS`` :
 
 ````
 TEMPLATE = subdirs
 SUBDIRS = acapela google jeedom
 ````
 
-## Recompilation
+## Neukompilierung
 
 ````
 cd /home/ojn/OpenJabNab/server
@@ -568,10 +568,10 @@ qmake -r
 make
 ````
 
-## Änderung des tts-Dienstes
+## Änderung des TTS-Dienstes
 
-Bearbeiten Sie die Datei ``/home/ojn/OpenJabNab/server/bin/openjabnab.ini`` und ändern ``TTS=acapela`` Von ``TTS=jeedom``
+Die Datei muss bearbeitet werden ``/home/ojn/OpenJabNab/server/bin/openjabnab.ini`` und ändern ``TTS=acapela`` von ``TTS=jeedom``
 
-## Relaunch von Openjabnab
+## Neustart von openjabnab
 
-Am einfachsten ist es, den Computer neu zu starten, um openjabnab neu zu starten
+Am einfachsten ist es, den Rechner neu zu starten, um openjabnab neu zu starten.

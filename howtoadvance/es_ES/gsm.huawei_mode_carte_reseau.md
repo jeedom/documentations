@@ -1,16 +1,16 @@
-# Modo de tarjeta de red GSM Huawei
+# Modo de tarjeta de red GSM de Huawei
 
-Para usar la clave Huawei E3372 en modo de tarjeta de red, es necesario cambiar el modo operativo de la clave. Por defecto, esto está configurado en modo Módem para ser compatible con el complemento de SMS.
+Para utilizar el módem Huawei E3372 en modo tarjeta de red, es necesario cambiar el modo de funcionamiento del dispositivo. Por defecto, está configurado en modo módem para que sea compatible con el complemento de SMS.
 
-# Eliminar la configuración predeterminada
+# Eliminación de la configuración predeterminada
 
 ``sudo rm /etc/udev/rules.d/40-modemswitch.rules``
 
-# Agregar configuración
+# Añadir la configuración
 
 ``sudo nano /etc/usb_modeswitch.conf``
 
-luego agrega esto :
+y, a continuación, añade esto:
 
 ````
 TargetVendor=0x12d1
@@ -19,10 +19,10 @@ HuaweiNewMode=1
 NoDriverLoading=1
 ````
 
-Luego guarde presionando Ctrl + x
+A continuación, guarda pulsando Ctrl+x
 
-# Reboot
+# Reinicio
 
 ``sudo reboot``
 
-Luego puede verificar que la tarjeta esté bien reconocida haciendo un ifconfig, debería ver aparecer una clave usbnet.
+A continuación, puedes comprobar que la tarjeta se ha reconocido correctamente ejecutando el comando «ifconfig»; debería aparecer una clave «usbnet».

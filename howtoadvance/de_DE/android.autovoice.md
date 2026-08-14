@@ -1,85 +1,85 @@
 # Android Autovoice
 
-Der Zweck dieses Artikels ist es, Sie bei der Verwendung von Android zu unterstützen, um mit Jeedom zu sprechen. Wir werden die Jeedom-Interaktions-Engine verwenden, die es ermöglicht, Anfragen zu formulieren und dass Jeedom darauf reagiert (und auf Wunsch auch verschiedene Szenarien oder Elemente aktiviert)).
+Dieses Objekt soll Ihnen eine Anleitung zur Verwendung von Android für die Kommunikation mit Jeedom geben. Wir werden die Jeedom-Interaktions-Engine nutzen, mit der Sie Anfragen stellen können, auf die Jeedom antwortet (und auf Wunsch auch verschiedene Szenarien oder Elemente aktiviert).
 
 # Installation
 
-## Die Voraussetzungen
+## Voraussetzungen
 
-Natürlich benötigen Sie ein Android-Gerät (Tablet, Telefon, PC mit Mikrofon und Lautsprechern) und installieren es [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=fr) und [AutoVoice](https://play.google.com/store/apps/details?id=com.joaomgcd.autovoice&hl=fr). Mit letzterem können Sie Ihre eigenen Sprachbefehle für Google Now erstellen, um Ihre Aufgaben mithilfe von Sprache zu automatisieren.
+Natürlich benötigt man ein Android-Gerät (Tablet, Smartphone, PC mit Mikrofon und Lautsprechern) und muss darauf [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=fr) und [AutoVoice](https://play.google.com/store/apps/details?id=com.joaomgcd.autovoice&hl=fr). Mit dieser Funktion kann man eigene Sprachbefehle für Google Now erstellen, um Aufgaben per Sprachbefehl zu automatisieren.
 
-Hinweis : AutoVoice ist nur die Komponente für das Gespräch mit Jeedom, ermöglicht Jeedom jedoch keine Antwort. Dazu benötigen Sie das Tasker-Plugin nicht. Wir können dieses Beispiel auch verwenden, indem wir die Spracherkennung von AutoVoice durch ein NFC-Tag, eine Geolokalisierung, eine empfangene SMS usw. ersetzen
+Hinweis: AutoVoice ist lediglich die Komponente, um mit Jeedom zu sprechen, ermöglicht es Jeedom jedoch nicht, zu antworten. Damit dies möglich ist, wird das Tasker-Plugin nicht benötigt. Man kann dieses Beispiel auch nutzen, indem man die Spracherkennung von AutoVoice durch einen NFC-Tag, eine Geolokalisierung, eine empfangene SMS usw. ersetzt…​
 
 ## Das Prinzip
 
-Wir werden ein Tasker-Profil für den Status verwenden. Dies ist eine Spracherkennung von AutoVoice. In Task werden wir Tasker dann bitten, 2 Aktionen auszuführen. Der erste besteht darin, Jeedom anzurufen und das Textergebnis der Spracherkennung zu übertragen. Die zweite wird darin bestehen, die Rückkehr von Jeedom anzukündigen.
+Wir werden ein Tasker-Profil auf Basis eines Status verwenden. Dabei handelt es sich um eine Spracherkennung von AutoVoice. Anschließend weisen wir Tasker im Rahmen einer Aufgabe an, zwei Aktionen auszuführen. Die erste besteht darin, Jeedom aufzurufen und ihm das Textergebnis der Spracherkennung zu übermitteln. Die zweite besteht darin, die Rückmeldung von Jeedom auszusprechen.
 
-# Profilerstellung
+# Profil erstellen
 
-Wir fügen ein neues Profil mit einem hinzu **Zustand** als Auslöser.
+Wir fügen ein neues Profil hinzu, bei dem ein **Status** als Auslöser dient.
 
 ![android.autovoice1](../images/android.autovoice1.png)
 
-Wir wählen **Plugin** auf dem ersten Bildschirm.
+Auf dem ersten Bildschirm wählen Sie **Plugin** aus.
 
 ![android.autovoice2](../images/android.autovoice2.png)
 
-Im Plugin-Typ wählen wir **AutoVoice**.
+Als Plugin-Typ wählen wir **AutoVoice** aus.
 
 ![android.autovoice3](../images/android.autovoice3.png)
 
-Im Untermenü **AutoVoice**, Wir wählen **Anerkannt**.
+Im Untermenü **AutoVoice** wählen Sie **Recognized** aus.
 
 ![android.autovoice4](../images/android.autovoice4.png)
 
-Sie können die Standardkonfiguration speichern, sofern Sie dies nicht möchten
-Geben Sie Schlüsselwörter oder andere Parameter an.
+Sie können die Standardkonfiguration speichern, es sei denn, Sie möchten
+Geben Sie Suchbegriffe oder andere Parameter ein.
 
 ![android.autovoice5](../images/android.autovoice5.png)
 
-Wir können dem Profil einen Namen wie "Jeedom Interactions" geben und das Backup wird nach dem Link mit einer Aufgabe erstellt.
+Man kann dem Profil einen Namen wie „Jeedom Interactions“ geben, und die Speicherung erfolgt nach der Verknüpfung mit einer Aufgabe.
 
 # Die Aufgabe
 
-Wir fügen ein **neue Aufgabe** zum neu erstellten Profil. Zum Beispiel könnte es "Jeedom API" genannt werden".
+Dem neu erstellten Profil wird eine **neue Aufgabe** hinzugefügt. Diese könnte beispielsweise „Jeedom-API“ heißen.
 
 ![android.autovoice6](../images/android.autovoice6.png)
 
-Die Aufgabe gruppiert schließlich 2 Aktionen : **API-Aufruf** und **sag zurück**.
+Die Aufgabe umfasst letztendlich zwei Schritte: **API-Aufruf** und **Rückmeldung**.
 
 ![android.autovoice7](../images/android.autovoice7.png)
 
-Zuerst fügen wir eine Typaktion hinzu **Netzwerk**.
+Zunächst fügen wir eine Aktion vom Typ **Netzwerk** hinzu.
 
 ![android.autovoice8](../images/android.autovoice8.png)
 
-Dann wählen wir **Holen Sie sich HTTP**.
+Anschließend wählt man **Get HTTP** aus.
 
 ![android.autovoice9](../images/android.autovoice9.png)
 
-Hier werden wir mit Jeedom Informationen füllen. Hier sind die einzugebenden Informationen :
+Nun geben wir die Jeedom-Daten ein. Folgende Angaben müssen eingegeben werden:
 
--   Serveur:Hafen : ``https://mondomain.tld``
--   Weg : ``/jeedom/core/api/jeeApi.php?apikey=votreclef&type=interact&query=%avcommnofilter&utf8=1``
+-   Server:Port: ``https://mondomain.tld``
+-   Pfad: ``/jeedom/core/api/jeeApi.php?apikey=votreclef&type=interact&query=%avcommnofilter&utf8=1``
 
-Vergessen Sie nicht, Ihren API-Schlüssel anstelle der Kette "Ihr Schlüssel" zu verwenden" . Wir müssen gehen ``%avcommonfilter`` Am Ende wird es durch die Rückgabe von Autovoice ersetzt.
+Vergessen Sie nicht, Ihren API-Schlüssel anstelle der Zeichenfolge „Ihr Schlüssel“ einzufügen. Achten Sie darauf, ``%avcommonfilter`` Letztendlich wird dies durch die Rückkehr von Autovoice ersetzt werden.
 
 ![android.autovoice10](../images/android.autovoice10.png)
 
-Fügen Sie eine Typaktion hinzu **Zu sagen**. Filtern Sie dazu die Aktionen, indem Sie an der Lupe "say" setzen.
+Fügen Sie eine Aktion vom Typ **Dire** hinzu. Filtern Sie dazu die Aktionen, indem Sie in der Suchlupe „dire“ eingeben.
 
 ![android.autovoice11](../images/android.autovoice11.png)
 
-Und wir gehen zurück ``%HTTPD`` im Textfeld.
+Und dann geht’s nach Hause ``%HTTPD`` in das Textfeld.
 
 ![android.autovoice12](../images/android.autovoice12.png)
 
-Es ist vorbei. Bei der Texterkennung durch AutoVoice wird Jeedom aufgerufen und Sie haben die Antwort in den Interaktionen konfiguriert, die von Ihrem Telefon gesprochen werden. Vergessen Sie nicht, Jeedom-Interaktionen zu konfigurieren, und Sie können danach fragen, was Sie wollen. Von "Was ist die Temperatur im Wohnzimmer" bis "Schalten Sie das Wohnzimmerlicht ein."".
+Das war’s schon. Bei der Spracherkennung durch AutoVoice wird Jeedom aufgerufen, und Sie erhalten die in den Interaktionen konfigurierte Antwort, die von Ihrem Telefon angesagt wird. Vergessen Sie nicht, die Jeedom-Interaktionen zu konfigurieren, dann können Sie das System alles fragen, was Sie möchten. Von „Wie hoch ist die Temperatur im Wohnzimmer?“ bis hin zu „Schalte das Licht im Wohnzimmer ein“.
 
-> **Spitze**
+> **Tipp**
 >
-> Wenn es von Anfang an nicht funktioniert, liegt dies häufig daran, dass AutoVoice nicht aktiv ist. Starten Sie es dazu, klicken Sie auf Google Now Integration und oben auf die erste Option und autorisieren Sie AutoVoice.
+> Wenn es auf Anhieb nicht funktioniert, liegt das oft daran, dass AutoVoice nicht aktiviert ist. Starten Sie daher die App, klicken Sie auf „Google Now-Integration“ und dann auf die erste Option ganz oben und erteilen Sie AutoVoice die Berechtigung.
 
-> **Spitze**
+> **Tipp**
 >
-> Standardmäßig deaktiviert AutoVoice die Google Now-Suche. Es ist möglich, dieses Verhalten abzubrechen. Klicken Sie dazu in Tasker auf Ihr Profil, dann auf "Edition" (kleiner Stift), dann auf "Erweitert" (unten) und deaktivieren Sie "Do" Google Now Search "(ganz unten).
+> Standardmäßig deaktiviert AutoVoice die Google Now-Suche. Sie können diese Einstellung jedoch rückgängig machen. Klicken Sie dazu in Tasker auf Ihr Profil, dann auf „Bearbeiten“ (kleiner Bleistift), anschließend auf „Erweitert“ (ganz unten) und deaktivieren Sie die Option „Google Now-Suche durchführen“ (ganz unten).

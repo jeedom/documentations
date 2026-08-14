@@ -1,115 +1,115 @@
-# Synology use vpn
+# Uso de VPN en Synology
 
-Desde un navegador web en una computadora conectada a la misma red que Synology
+Desde un navegador web en un ordenador conectado a la misma red que el Synology
 
-Vaya a la interfaz DSM e inicie sesión con una cuenta de administrador, luego vaya al menú principal y seleccione Centro de paquetes
+Accede a la interfaz de DSM e inicia sesión con una cuenta de administrador; a continuación, ve al menú principal y selecciona «Package Center».
 
-Arriba a la izquierda en la ventana, haga una búsqueda con la palabra VPN. El servidor VPN debería aparecer, luego haga clic en instalar.
+En la parte superior izquierda de la ventana, busca la palabra «VPN». Debería aparecer «VPN Server»; haz clic en «Instalar».
 
-![synology.utilisation vpn1](../images/synology.utilisation_vpn1.png)
+![Synology. Uso de VPN1](../images/synology.utilisation_vpn1.png)
 
-Regrese al menú principal y seleccione Servidor VPN
+Vuelve al menú principal y selecciona «Servidor VPN».
 
-![synology.utilisation vpn2](../images/synology.utilisation_vpn2.png)
+![Synology. Uso de VPN2](../images/synology.utilisation_vpn2.png)
 
-Cuando se abra la ventana, vaya a L2TP / IPSEC
+Al abrir la ventana, ve a L2TP/IPSEC
 
-Elija la opción Habilitar servidor VPN L2TP / IPsec
+Selecciona la opción «Habilitar servidor VPN L2TP/IPsec»
 
-En Dirección IP dinámica, ingrese un número que corresponderá a la subred para asignar las IP de sus dispositivos VPN en la red interna de su hogar. NB : no elija lo mismo que la subred predeterminada de su box ex en free la subred de las máquinas es 192.168.1.0 así que en el ejemplo ponemos 2
+En «Dirección IP dinámica», introduce un número que se corresponda con la subred asignada a las direcciones IP de tus dispositivos conectados mediante VPN a la red interna de tu hogar. Nota: no debes elegir la misma subred que la predeterminada de tu router; por ejemplo, en Free, la subred de los dispositivos es 192.168.1.0, por lo que en el ejemplo ponemos 2.
 
-Luego ingrese el número máximo de conexiones que desea permitir en el servidor VPN, luego el número máximo de conexiones simultáneas para un usuario
+A continuación, introduce el número máximo de conexiones que deseas permitir en el servidor VPN y, después, el número máximo de conexiones simultáneas por usuario
 
-Finalmente ingrese una clave para compartir NB : es una contraseña que debe ingresarse en la configuración de VPN en el dispositivo móvil o tableta.
+Por último, introduce una clave compartida. Nota: se trata de una contraseña que deberás introducir al configurar la VPN en el móvil o la tableta.
 
-Luego aplique
+A continuación, haz clic en «Apply»
 
-![synology.utilisation vpn3](../images/synology.utilisation_vpn3.png)
+![Synology. Uso de VPN3](../images/synology.utilisation_vpn3.png)
 
-Luego, un mensaje indica los puertos que deben redirigirse en su Internet Box a su NAS.
+A continuación, aparecerá un mensaje indicando los puertos que deben redirigirse desde tu router a tu NAS.
 
-![synology.utilisation vpn4](../images/synology.utilisation_vpn4.png)
+![Synology. Uso de VPN4](../images/synology.utilisation_vpn4.png)
 
-# Permitir a los usuarios usar el servicio VPN en el NAS
+# Permitir a los usuarios utilizar el servicio VPN en el NAS
 
-Regrese al menú principal y seleccione Servidor VPN
+Vuelve al menú principal y selecciona «Servidor VPN».
 
-![synology.utilisation vpn2](../images/synology.utilisation_vpn2.png)
+![Synology. Uso de VPN2](../images/synology.utilisation_vpn2.png)
 
-En la parte izquierda, seleccione Privilegio
+En la parte izquierda, selecciona «Privilégio».
 
-Desmarque todas las casillas bajo PPTP Open VPN y L2TP
+Desmarca todas las casillas de PPTP OpenVPN y L2TP
 
-Marque solo la casilla frente al usuario que desea autorizar para usar la VPN .
+Marca únicamente la casilla situada junto al usuario al que quieras autorizar a utilizar la VPN.
 
-> **Punta**
+> **Consejo**
 >
-> Es aconsejable crear un usuario solo para la VPN y sin ningún otro derecho / autorización que no sea la VPN.
+> Se recomienda crear una cuenta de usuario exclusivamente para la VPN, sin otros derechos ni permisos más allá del uso de la VPN.
 
-![synology.utilisation vpn5](../images/synology.utilisation_vpn5.png)
+![Synology. Uso de VPN5](../images/synology.utilisation_vpn5.png)
 
-# Redireccionar los puertos de su BOX 
+# Redirigir los puertos de tu router
 
-En el navegador ingrese 192.168.1.1. Haga clic en la configuración de Freebox
+En el navegador, escribe 192.168.1.1. Haz clic en «Configuración» de la Freebox.
 
-![synology.utilisation vpn6](../images/synology.utilisation_vpn6.png)
+![Synology. Uso de VPN6](../images/synology.utilisation_vpn6.png)
 
-Seleccionar modo avanzado
+Seleccionar el modo avanzado
 
-![synology.utilisation vpn7](../images/synology.utilisation_vpn7.png)
+![Synology. Uso de VPN7](../images/synology.utilisation_vpn7.png)
 
-Seleccione Port Management
+Seleccionar «Gestión de puertos»
 
-![synology.utilisation vpn8](../images/synology.utilisation_vpn8.png)
+![Synology. Uso de VPN8](../images/synology.utilisation_vpn8.png)
 
-Agregar una redirección
+Añadir una redirección
 
-![synology.utilisation vpn9](../images/synology.utilisation_vpn9.png)
+![Synology. Uso de VPN9](../images/synology.utilisation_vpn9.png)
 
-Ingrese los parámetros de la siguiente manera.
+Introduce los parámetros de la siguiente manera.
 
-> **Punta**
+> **Consejo**
 >
-> El ID de destino es lo único que depende de su instalación, debe poner la IP de su Synology NAS
+> El ID de destino es lo único que depende de tu instalación; debes introducir ahí la dirección IP de tu NAS Synology
 
-Guardar
+Hacer una copia de seguridad
 
-![synology.utilisation vpn10](../images/synology.utilisation_vpn10.png)
+![Synology. Uso de VPN10](../images/synology.utilisation_vpn10.png)
 
-Luego observamos que la configuración se tiene en cuenta
+Se observa entonces que se tiene en cuenta la configuración
 
-![synology.utilisation vpn11](../images/synology.utilisation_vpn11.png)
+![Synology. Uso de VPN11](../images/synology.utilisation_vpn11.png)
 
-Repita la operación con los puertos UDP 500 y 4500
+Repite la operación con los puertos UDP 500 y 4500
 
-# Configura la VPN en tu móvil
+# Configurar la VPN en tu móvil
 
-Vaya a la aplicación y seleccione Configuración
+Ve a la aplicación y selecciona «Ajustes»
 
-![synology.utilisation vpn12](../images/synology.utilisation_vpn12.png)
+![Synology. Uso de VPN12](../images/synology.utilisation_vpn12.png)
 
-Haga clic en… Más
+Haz clic en… Más
 
-![synology.utilisation vpn13](../images/synology.utilisation_vpn13.png)
+![Synology. Uso de VPN13](../images/synology.utilisation_vpn13.png)
 
-Haga clic en VPN
+Haz clic en VPN
 
-![synology.utilisation vpn14](../images/synology.utilisation_vpn14.png)
+![Synology. Uso de VPN14](../images/synology.utilisation_vpn14.png)
 
-Haga clic en el + en la esquina superior derecha
+Haz clic en el signo «+» de la esquina superior derecha
 
-![synology.utilisation vpn15](../images/synology.utilisation_vpn15.png)
+![Synology. Uso de VPN15](../images/synology.utilisation_vpn15.png)
 
-Asigne un nombre al acceso VPN, establezca el tipo L2TP / IPSec PSK, ingrese la dirección pública de su casilla de Internet (o un nombre DNS si tiene uno) e ingrese la clave compartida ingresada en la sección Configurar un servidor VPN :
+Asigna un nombre al acceso VPN, selecciona como tipo L2TP/IPSec PSK, introduce la dirección pública de tu router (o un nombre DNS si dispones de uno) e introduce la clave compartida indicada en la sección «Configurar un servidor VPN»:
 
-![synology.utilisation vpn16](../images/synology.utilisation_vpn16.png)
+![Synology. Uso de VPN16](../images/synology.utilisation_vpn16.png)
 
-Ahora para iniciar la VPN, simplemente haga clic en la nueva línea que apareció con el nombre de su túnel VPN
+Ahora, para iniciar la VPN, solo tienes que hacer clic en la nueva línea que ha aparecido con el nombre de tu túnel VPN
 
-![synology.utilisation vpn17](../images/synology.utilisation_vpn17.png)
+![Synology. Uso de VPN17](../images/synology.utilisation_vpn17.png)
 
-Luego ingrese el nombre de usuario y la contraseña del usuario que ha sido configurado en la sección Configurar un servidor VPN
+Introduce entonces el nombre de usuario y la contraseña del usuario que se ha configurado en la sección «Configurar un servidor VPN».
 
-![synology.utilisation vpn18](../images/synology.utilisation_vpn18.png)
+![Synology. Uso de VPN18](../images/synology.utilisation_vpn18.png)
 
-Y eso es todo lo que haces en tu teléfono, es como estar conectado a WiFi desde casa !
+¡Y ya está! Todo lo que hagas desde tu móvil será como si estuvieras conectado a la red wifi de tu casa.
