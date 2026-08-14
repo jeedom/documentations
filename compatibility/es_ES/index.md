@@ -8,16 +8,16 @@
 
 **Jeedom y Domadoo** desarrollan y comercializan dispositivos oficiales «listos para usar», con Jeedom preinstalado en un sistema optimizado que incluye servicios, complementos y un servicio de asistencia técnica reforzado. Los dispositivos oficiales también cuentan con una herramienta de restauración automática del sistema.
 
-{% include lightbox.html src="../images/tableau-comparatif-atlas-et-luna.jpg" data="AtlasLuna" title="Jeedom Atlas y Jeedom Luna" imgstyle="display:block;margin:0 auto;" %}
+{% include lightbox.html src="../images/tableau-comparatif-atlas-et-luna.jpg" data="AtlasLuna" title="Jeedom Atlas & Jeedom Luna" imgstyle="display:block;margin:0 auto;" %}
 
 | Jeedom Atlas | Jeedom Luna |
 |-------------------------|-------------------------|
 | [Atlas **sin protocolo**](https://www.domadoo.fr/fr/box-domotique/7329-jeedom-controleur-domotique-jeedom-atlas-sans-protocole.html){:target="_blank"} | [Luna **Z-Wave, Zigbee + BT**](https://www.domadoo.fr/fr/box-domotique/6280-jeedom-controleur-domotique-jeedom-luna-z-wave700-zigbee30-bt.html){:target="_blank"} |
 | [Atlas **EnOcean**](https://www.domadoo.fr/fr/box-domotique/5877-jeedom-atlas-enocean.html){:target="_blank"} | [Luna **Z-Wave, Zigbee + 4G**](https://www.domadoo.fr/fr/box-domotique/6615-jeedom-controleur-domotique-jeedom-luna-z-wave-zigbee-et-4g.html){:target="_blank"} |
 | [Atlas **EnOcean + adaptador Z-Wave ZOOZ**](https://www.domadoo.fr/fr/box-domotique/6857-jeedom-controleur-domotique-jeedom-atlas-enocean-dongle-z-wave-zooz.html){:target="_blank"} | [Luna **Z-Wave, Zigbee, LoRaWAN + 4G**](https://www.domadoo.fr/fr/box-domotique/6617-jeedom-controleur-domotique-jeedom-luna-z-wave-zigbee-lorawan-4g.html){:target="_blank"} |
-| [Atlas **Pro, carril DIN sin protocolo**](https://www.domadoo.fr/fr/box-domotique/6567-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-sans-antenne.html){:target="_blank"} | |
-| [Atlas **Pro, carril DIN EnOcean**](https://www.domadoo.fr/fr/box-domotique/6565-jeedom-atlas-pro-enocean.html){:target="_blank"} | |
-| [Atlas **Pro rail DIN KNX**](https://www.domadoo.fr/fr/box-domotique/6563-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-knx.html){:target="_blank"} | |
+| [Atlas **Pro: riel DIN sin protocolo**](https://www.domadoo.fr/fr/box-domotique/6567-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-sans-antenne.html){:target="_blank"} |             |
+| [Atlas **Pro, carril DIN EnOcean**](https://www.domadoo.fr/fr/box-domotique/6565-jeedom-atlas-pro-enocean.html){:target="_blank"} |             |
+| [Atlas **Pro, carril DIN KNX**](https://www.domadoo.fr/fr/box-domotique/6563-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-knx.html){:target="_blank"} |             |
 
 >**INFORMACIÓN**
 >
@@ -29,7 +29,7 @@ Nuestras recomendaciones dependerán de varios factores:
 
 - **Jeedom Atlas o Luna**: la combinación de simplicidad, optimización y compatibilidad avanzada.
 - **Nanoordenador** *(Odroid C2, Rock Pi, Raspberry Pi, etc.)*: la mejor relación rendimiento-precio.
-- **Mini-PC** *(NUC)*: rendimiento extremo para un presupuesto más elevado *(consulta [el tutorial avanzado específico](/howtoadvance/vmware.installation_sur_nuc) para obtener más detalles)*.
+- **Mini-PC** *(NUC)*: rendimiento extremo para un presupuesto más elevado *(ver [el tutorial avanzado específico](/howtoadvance/vmware.installation_sur_nuc) (para más detalles)*.
 
 ### Dispositivos compatibles
 
@@ -88,18 +88,18 @@ El equipo desarrolla imágenes de sistema a medida para una amplia variedad de d
 |--------------------|--------------------|
 | [Luna](https://images.jeedom.com/luna/){:target="_blank"} | [Instalación en Luna](/plugins/home%20automation%20protocol/luna) |
 | [Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Instalación en Atlas](/installation/recovery) |
-| [Smart](https://images.jeedom.com/smart/){:target="_blank"} | [Instalación en Smart](/installation/recovery) |
+| [Inteligente](https://images.jeedom.com/smart/){:target="_blank"} | [Instalación en Smart](/installation/recovery) |
 | [Ordenadores](https://images.jeedom.com/x86-64/){:target="_blank"} | [Instalación en PC/mini-PC](/installation/baremetal) |
-| [Hipervisores](https://images.jeedom.com/x86-64/){:target="_blank"} | [Instalación en máquina virtual](/installation/vm) |
+| [Hipervisores](https://images.jeedom.com/x86-64/){:target="_blank"} | [Instalación en una máquina virtual](/installation/vm) |
 | [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [Instalación en Freebox](/installation/freeboxdelta) |
 
 ### Comprobación del archivo
 
-La **clave SHA256**, que permite verificar la integridad del archivo descargado, se puede consultar en el archivo `info.json` ubicado en la carpeta de descargas.
+La **clave SHA256**, que permite verificar la integridad del archivo descargado, se puede consultar en el archivo `info.json` que se encuentra en la carpeta de descargas.
 
 ### Primera conexión
 
-Consulta la documentación sobre la [**primera conexión**](/primeros-pasos/#Primera%20conexión) para acceder a la interfaz de Jeedom tras la instalación.
+Consulta la documentación relativa a la [**Primera conexión**](/premiers-pas/#Première%20connexion) para acceder a la interfaz de Jeedom tras la instalación.
 
 ### Consola del sistema
 
@@ -108,19 +108,19 @@ Consulta la documentación sobre la [**primera conexión**](/primeros-pasos/#Pri
 >No es recomendable ni necesario intervenir en la consola del sistema para utilizar Jeedom.\
 >Cualquier modificación del sistema puede afectar al correcto funcionamiento de Jeedom.
 
-Las credenciales predeterminadas para acceder a la consola del sistema *(teclado/pantalla o SSH)* son: `jeedom/Mjeedom96`. La contraseña `root` es la misma.
+Las credenciales predeterminadas para acceder a la consola del sistema *(teclado/pantalla o SSH)* son: `jeedom/Mjeedom96`. La contraseña `root` es idéntica.
 
 ## Equipos compatibles
 
-Dependiendo de los protocolos y los complementos utilizados, no siempre es fácil saber si un módulo será compatible. Para ayudarte a determinar la compatibilidad de tu hardware, puedes consultar la página web [Compatibilidad con Jeedom](https://compatibility.jeedom.com/){:target="_blank"}, cuya lista se mantiene actualizada por los propios complementos.
+Dependiendo de los protocolos y los complementos utilizados, no siempre es fácil saber si un módulo será compatible. Para ayudarte a determinar la compatibilidad de tu equipo, puedes consultar la página web [Compatibilidad con Jeedom](https://compatibility.jeedom.com/){:target="_blank"} cuya lista se mantiene actualizada por los propios complementos.
 
-Además, la información de esta página web puede contrastarse con la disponible en la tienda online de productos de domótica [Domadoo](https://www.domadoo.fr/){:target="_blank"}.
+Además, la información de esta página web puede contrastarse con la disponible en la tienda online de productos de domótica. [Domadoo](https://www.domadoo.fr/){:target="_blank"}.
 
 A continuación se incluyen algunos ejemplos de enlaces que puedes consultar según el protocolo en cuestión:
 
 ### Bluetooth
 
-- [**Compatibilidad entre Jeedom y Bluetooth**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=Bluetooth){:target="_blank"}
+- [**Compatibilidad de Jeedom con Bluetooth**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=Bluetooth){:target="_blank"}
 
 ### Cámaras
 

@@ -15,9 +15,9 @@
 | [Atlas **ohne Protokoll**](https://www.domadoo.fr/fr/box-domotique/7329-jeedom-controleur-domotique-jeedom-atlas-sans-protocole.html){:target="_blank"} | [Luna **Z-Wave, Zigbee + BT**](https://www.domadoo.fr/fr/box-domotique/6280-jeedom-controleur-domotique-jeedom-luna-z-wave700-zigbee30-bt.html){:target="_blank"} |
 | [Atlas **EnOcean**](https://www.domadoo.fr/fr/box-domotique/5877-jeedom-atlas-enocean.html){:target="_blank"} | [Luna **Z-Wave, Zigbee + 4G**](https://www.domadoo.fr/fr/box-domotique/6615-jeedom-controleur-domotique-jeedom-luna-z-wave-zigbee-et-4g.html){:target="_blank"} |
 | [Atlas **EnOcean + Z-Wave-Adapter ZOOZ**](https://www.domadoo.fr/fr/box-domotique/6857-jeedom-controleur-domotique-jeedom-atlas-enocean-dongle-z-wave-zooz.html){:target="_blank"} | [Luna **Z-Wave, Zigbee, LoRaWAN + 4G**](https://www.domadoo.fr/fr/box-domotique/6617-jeedom-controleur-domotique-jeedom-luna-z-wave-zigbee-lorawan-4g.html){:target="_blank"} |
-| [Atlas **Pro DIN-Schiene ohne Protokoll**](https://www.domadoo.fr/fr/box-domotique/6567-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-sans-antenne.html){:target="_blank"} | |
-| [Atlas **Pro DIN-Schiene EnOcean**](https://www.domadoo.fr/fr/box-domotique/6565-jeedom-atlas-pro-enocean.html){:target="_blank"} | |
-| [Atlas **Pro DIN-Schiene KNX**](https://www.domadoo.fr/fr/box-domotique/6563-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-knx.html){:target="_blank"} | |
+| [Atlas **Pro DIN-Schiene ohne Protokoll**](https://www.domadoo.fr/fr/box-domotique/6567-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-sans-antenne.html){:target="_blank"} |             |
+| [Atlas **Pro DIN-Schiene EnOcean**](https://www.domadoo.fr/fr/box-domotique/6565-jeedom-atlas-pro-enocean.html){:target="_blank"} |             |
+| [Atlas **Pro DIN-Schiene KNX**](https://www.domadoo.fr/fr/box-domotique/6563-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-knx.html){:target="_blank"} |             |
 
 >**INFORMATION**
 >
@@ -29,7 +29,7 @@ Unsere Empfehlungen hängen von verschiedenen Faktoren ab:
 
 - **Jeedom Atlas oder Luna**: die Kombination aus Einfachheit, Optimierung und fortschrittlicher Kompatibilität.
 - **Nano-Computer** *(Odroid C2, Rock Pi, Raspberry Pi usw.)*: das beste Preis-Leistungs-Verhältnis.
-- **Mini-PC** *(NUC)*: Extrem hohe Leistung für ein etwas größeres Budget *(weitere Details finden Sie im [entsprechenden Tutorial für Fortgeschrittene](/howtoadvance/vmware.installation_sur_nuc))*.
+- **Mini-PC** *(NUC)*: Extrem hohe Leistung für ein etwas größeres Budget *(siehe [das spezielle Tutorial für Fortgeschrittene](/howtoadvance/vmware.installation_sur_nuc) (weitere Informationen)*.
 
 ### Unterstützte Geräte
 
@@ -91,15 +91,15 @@ Das Team entwickelt maßgeschneiderte System-Images für zahlreiche verschiedene
 | [Smart](https://images.jeedom.com/smart/){:target="_blank"} | [Installation auf Smart](/installation/recovery) |
 | [Computer](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation auf PC/Mini-PC](/installation/baremetal) |
 | [Hypervisoren](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation auf einer virtuellen Maschine](/installation/vm) |
-| [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [Installation auf Freebox](/installation/freeboxdelta) |
+| [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [Installation auf der Freebox](/installation/freeboxdelta) |
 
 ### Datei überprüfen
 
-Der **SHA256-Schlüssel**, mit dem die Integrität der heruntergeladenen Datei überprüft werden kann, ist in der Datei `info.json` im Download-Ordner zu finden.
+Der **SHA256-Schlüssel**, mit dem die Integrität der heruntergeladenen Datei überprüft werden kann, ist in der Datei einsehbar `info.json` befindet sich im Download-Ordner.
 
 ### Erste Anmeldung
 
-Lesen Sie die Anleitung zur [**ersten Anmeldung**](/erste-schritte/#Erste%20Anmeldung), um nach der Installation auf die Jeedom-Benutzeroberfläche zuzugreifen.
+Die Dokumentation zur [**Erste Anmeldung**](/premiers-pas/#Première%20connexion) um nach der Installation auf die Jeedom-Benutzeroberfläche zuzugreifen.
 
 ### Systemkonsole
 
@@ -112,19 +112,19 @@ Die Standard-Anmeldedaten für den Zugriff auf die Systemkonsole *(Tastatur/Bild
 
 ## Kompatible Geräte
 
-Je nach den verwendeten Protokollen und Plugins ist es nicht immer einfach zu erkennen, ob ein Modul tatsächlich unterstützt wird. Um Ihnen dabei zu helfen, die Kompatibilität Ihrer Hardware zu überprüfen, können Sie die Website [Jeedom-Kompatibilität](https://compatibility.jeedom.com/){:target="_blank"} nutzen, deren Liste von den Plugins selbst auf dem neuesten Stand gehalten wird.
+Je nach den verwendeten Protokollen und Plugins ist es nicht immer einfach zu erkennen, ob ein Modul tatsächlich unterstützt wird. Um Ihnen dabei zu helfen, die Kompatibilität Ihrer Hardware zu überprüfen, können Sie sich auf die Website verlassen [Kompatibilität mit Jeedom](https://compatibility.jeedom.com/){:target="_blank"} deren Liste von den Plugins selbst auf dem neuesten Stand gehalten wird.
 
-Ergänzend dazu können die Informationen auf dieser Website mit denen auf der Online-Verkaufsseite für Hausautomationsgeräte [Domadoo](https://www.domadoo.fr/){:target="_blank"} abgeglichen werden.
+Ergänzend dazu können die Informationen auf dieser Website mit denen auf der Online-Verkaufsseite für Hausautomationsgeräte abgeglichen werden [Domadoo](https://www.domadoo.fr/){:target="_blank"}.
 
 Nachfolgend finden Sie einige Beispiele für Links, die Sie je nach dem jeweiligen Protokoll aufrufen können:
 
 ### Bluetooth
 
-- [**Jeedom-Kompatibilität – Bluetooth**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=Bluetooth){:target="_blank"}
+- [**Kompatibilität von Jeedom mit Bluetooth**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=Bluetooth){:target="_blank"}
 
 ### Kameras
 
-- [**Jeedom-Kompatibilität – Kameras**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=IP){:target="_blank"}
+- [**Kompatibilität von Jeedom mit Kameras**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=IP){:target="_blank"}
 - [**Domadoo – Kameras**](https://www.domadoo.fr/fr/128-cameras-connectees){:target="_blank"}
 
 ### EnOcean
