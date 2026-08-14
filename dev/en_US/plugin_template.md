@@ -404,7 +404,7 @@ This folder can contain two subfolders, “dashboard” and “mobile.” Jeedom
 
 ## i18n
 
-This is where your translation should be located as a JSON file (it’s best to check out the plugin, for example) [Z-Wave](https://github.com/jeedom/plugin-openzwave) (to view the file format)
+This is where your translation should be located as a JSON file (it’s best to check out the plugin, for example, [Z-Wave](https://github.com/jeedom/plugin-openzwave) to view the file format)
 
 ## AJAX
 

@@ -502,7 +502,7 @@ The code begins by verifying that the API key is correct:
     }
 ```
 
-The first test serves as a test method when the daemon starts (see call `jeedom_com.test()` (in the daemon's code):
+The first test serves as a test method when the daemon starts (see call `jeedom_com.test()` in the daemon's code):
 
 ```php
     if (init('test') != '') {
@@ -797,7 +797,7 @@ A few tips:
 - Don't do `apt-get upgrade`! You don't know what's on the machine, and it's not your job to update everything.
 - Do not use `apt` but `apt-get`. `apt` is designed for interactive use, and this will trigger a warning.
 - Add the flag `-y` when necessary to confirm prompts; otherwise, the script will stop with a message like `Do you want to continue [y/n]` and the user will be locked out.
-- Prefer the following syntax `python3 -m pip install ...` rather than `pip3 install ...` to install the Python packages, because the second one will cause problems if `pip3` (or `pip` If you're using Python v2, it isn't linked to the same version as Python 3: for example, if Python 3 points to version 3.7 and pip3 points to 3.9 or, worse yet, 2.7; You don’t know what changes have been made to the system, and you’re not immune to this kind of problem on the user’s machine; there are dozens of reported cases on the community forum.
+- Prefer the following syntax `python3 -m pip install ...` rather than `pip3 install ...` to install the Python packages, because the second one will cause problems if `pip3` (or `pip` if you're using Python v2) isn't linked to the same version as Python 3: for example, if Python 3 points to version 3.7 and pip3 points to 3.9 or, worse yet, 2.7; You don’t know what changes have been made to the system, and you’re not immune to this kind of problem on the user’s machine; there are dozens of reported cases on the community forum.
 
 > **Warning**
 >

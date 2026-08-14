@@ -404,7 +404,7 @@ Dieser Ordner kann zwei Unterordner enthalten: „Dashboard“ und „Mobile“.
 
 ## i18n
 
-Hier muss Ihre Übersetzung als JSON-Datei vorliegen (am besten sehen Sie sich beispielsweise das Plugin an [Z-Wave](https://github.com/jeedom/plugin-openzwave) (um das Dateiformat anzuzeigen)
+Hier muss Ihre Übersetzung als JSON-Datei vorliegen (am besten sehen Sie sich beispielsweise das Plugin [Z-Wave](https://github.com/jeedom/plugin-openzwave) an, um das Dateiformat anzuzeigen)
 
 ## Ajax
 

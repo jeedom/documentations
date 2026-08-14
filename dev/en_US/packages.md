@@ -96,4 +96,4 @@ If the file is present, the core relies SOLELY ON IT; it ignores the functions `
 For Node.js, it's a bit different: any request for Node.js or npm is automatically processed to install Node.js v12, regardless of the platform. After that, there are two options:
 
 - This is a package name; in this case, it is installed system-wide.
-- In this case, it's a path; Jeedom is placed in the directory in question, and an `npm install` is run (with the directory removed) ``node_modules``)
+- In this case, it's a path; Jeedom is placed in the directory in question, and an `npm install` is run (which removes the directory ``node_modules``)

@@ -12,7 +12,7 @@ Felder | Werte |
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 ``id`` * | Eindeutige Kennung des Plugins im Jeedom Market. Muss mit einem Buchstaben beginnen. Keine Akzente. Darf kein „_“ enthalten |
 ``name`` * | Name des Plugins. |
-``description`` * | Beschreibung des Plugins, wie sie im Jeedom Market angezeigt wird. Mindestens 80 Zeichen. (``<br/>`` (für den Zeilenumbruch). Achtung: Dies ist eine Tabelle für die verschiedenen möglichen Jeedom-Sprachen (sehen Sie sich das Beispiel des Plugin-Templates genau an) | |
+``description`` * | Beschreibung des Plugins, wie sie im Jeedom Market angezeigt wird. Mindestens 80 Zeichen. (``<br/>`` für den Zeilenumbruch). Achtung: Dies ist eine Tabelle für die verschiedenen möglichen Jeedom-Sprachen (sehen Sie sich das Beispiel des Plugin-Templates genau an) | |
 ``utilization``                    | Ergänzende Informationen zur Dokumentation zur Verwendung des Plugins. |
 ``licence`` * | Lizenzart. |
 ``author`` * | Name des Plugin-Autors, wie er nach der Installation des Plugins in den Plugin-Informationen angezeigt wird. |

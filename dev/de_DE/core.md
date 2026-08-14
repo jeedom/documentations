@@ -2,7 +2,7 @@
 
 ## Baumstruktur
 
-Der Code ist auf verschiedene Verzeichnisse im Stammverzeichnis von Jeedom verteilt *(`/var/www/html` (Standard)*:
+Der Code ist auf verschiedene Verzeichnisse im Stammverzeichnis von Jeedom verteilt *(`/var/www/html` Standard)*:
 
 - **3rdparty**: Ordner mit den von Jeedom verwendeten externen Bibliotheken *(jQuery, CodeMirror usw.)*.
 - **Backup**: Ordner mit den Jeedom-Sicherungen.

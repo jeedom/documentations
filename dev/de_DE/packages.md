@@ -96,4 +96,4 @@ Wenn die Datei vorhanden ist, stützt sich der Kern NUR AUF DIESE und ignoriert 
 Bei Node.js ist es etwas speziell: Jede Anfrage nach Node.js oder npm wird zusätzlich zur Installation von Node.js v12 weitergeleitet, unabhängig von der Plattform. Anschließend gibt es zwei Möglichkeiten:
 
 - Das ist in diesem Fall ein Paketname; dieses Paket ist systemweit installiert.
-- In diesem Fall handelt es sich um einen Pfad: Jeedom wird in das betreffende Verzeichnis kopiert und ein „npm install“ wird ausgeführt (wobei das Verzeichnis gelöscht wird) ``node_modules``)
+- In diesem Fall handelt es sich um einen Pfad: Jeedom wird in das betreffende Verzeichnis kopiert und ein „npm install“ wird ausgeführt (unter Löschung des Verzeichnisses ``node_modules``)

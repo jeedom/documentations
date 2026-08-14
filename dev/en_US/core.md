@@ -2,7 +2,7 @@
 
 ## Tree structure
 
-The code is spread across various directories in the Jeedom root directory *(`/var/www/html` (default)*:
+The code is spread across various directories in the Jeedom root directory *(`/var/www/html` default)*:
 
 - **3rdparty**: Folder containing the external libraries used by Jeedom *(jQuery, CodeMirror, etc.)*.
 - **backup**: Jeedom backup folder.

@@ -404,7 +404,7 @@ Esta carpeta, que puede contener dos subcarpetas («dashboard» y «mobile»), e
 
 ## i18n
 
-Aquí es donde debe encontrarse tu traducción en formato JSON (lo mejor es consultar, por ejemplo, el plugin [Z-Wave](https://github.com/jeedom/plugin-openzwave) (para ver el formato del archivo)
+Aquí es donde debe encontrarse tu traducción en formato JSON (lo mejor es consultar, por ejemplo, el plugin [Z-Wave](https://github.com/jeedom/plugin-openzwave), para ver el formato del archivo)
 
 ## AJAX
 
