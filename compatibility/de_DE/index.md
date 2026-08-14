@@ -29,7 +29,7 @@ Unsere Empfehlungen hängen von verschiedenen Faktoren ab:
 
 - **Jeedom Atlas oder Luna**: die Kombination aus Einfachheit, Optimierung und fortschrittlicher Kompatibilität.
 - **Nano-Computer** *(Odroid C2, Rock Pi, Raspberry Pi usw.)*: das beste Preis-Leistungs-Verhältnis.
-- **Mini-PC** *(NUC)*: Extrem hohe Leistung für ein etwas größeres Budget *(siehe [das spezielle Tutorial für Fortgeschrittene](/howtoadvance/vmware.installation_sur_nuc) (weitere Informationen)*.
+- **Mini-PC** *(NUC)*: Extrem hohe Leistung für ein etwas größeres Budget *(siehe [das spezielle Tutorial für Fortgeschrittene](/howtoadvance/vmware.installation_sur_nuc) weitere Informationen)*.
 
 ### Unterstützte Geräte
 
