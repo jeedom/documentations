@@ -41,7 +41,8 @@ Il faudra commencer par télécharger un logiciel tiers par exemple : [Win32 Dis
 -   Lancez le logiciel et vérifiez que la lettre en dessous de *Device* corresponde bien à celle de votre carte/lecteur de carte.
 -   Dans le champ *Image File*, indiquez le nom du fichier image que vous voulez créer ainsi que l’endroit où il sera enregistré.
 -   Enfin cliquez sur le bouton *Read*, afin de créer l’image.
-    image::images/save-restore09.jpg
+
+![save restore09](../images/save-restore09.jpg)
 
 ### Restauration
 
@@ -62,7 +63,7 @@ Pour vous faciliter la tâche, vous pouvez télécharger le logiciel [ApplePi-Ba
 -   Avec ApplePi-Baker : Sélectionnez la bonne carte dans la liste *Pi-Crust*, et cliquez sur *Create Backup* afin de créer un fichier image de votre carte microSD.
 
 -   En commande shell :
- -   Afin de trouver le disque correspondant à la carte, ouvrez un terminal et saisissez la commande : ``diskutil list``  
+ -   Afin de trouver le disque correspondant à la carte, ouvrez un terminal et saisissez la commande : ``diskutil list``
  ![save restore12](../images/save-restore12.jpg)
  -   Lancez la création de l’image en saisissant la commande : ``sudo dd if=/dev/disk1 of=~/Desktop/Backup_Jeedom.img bs=1m`` *Remarque: Dans cet exemple, le nom du disque de la carte  est `/dev/disk1`, il faut donc saisir dans la commande de  sauvegarde \`/dev/disk1\`*
 
