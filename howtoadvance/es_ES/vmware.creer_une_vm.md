@@ -35,7 +35,7 @@ Como podéis ver, la interfaz es bastante agradable y permite hacer muchas cosas
 
 # Envío de la imagen ISO de instalación
 
-Una vez que hayas descargado tu imagen ISO de instalación ([aquí](https://cdimage.debian.org/cdimage/archive/11.8.0/amd64/iso-cd/debian-11.8.0-amd64-netinst.iso) (por ejemplo, para Debian 11.8 en instalación desde red), debes guardarlo en tu almacén de datos.
+Una vez que hayas descargado tu imagen ISO de instalación ([aquí](https://cdimage.debian.org/cdimage/archive/11.8.0/amd64/iso-cd/debian-11.8.0-amd64-netinst.iso) por ejemplo, para Debian 11.8 en instalación desde red), debes guardarlo en tu almacén de datos.
 
 Para ello, haz clic en «datastore»:
 

@@ -35,7 +35,7 @@ As you can see, the interface is pretty cool and lets you do quite a few things.
 
 # Sending the installation ISO
 
-After downloading your installation ISO ([here](https://cdimage.debian.org/cdimage/archive/11.8.0/amd64/iso-cd/debian-11.8.0-amd64-netinst.iso) (for example, for Debian 11.8 via netinstall), you'll need to place it on your datastore.
+After downloading your installation ISO ([here](https://cdimage.debian.org/cdimage/archive/11.8.0/amd64/iso-cd/debian-11.8.0-amd64-netinst.iso) for example, for Debian 11.8 via netinstall), you'll need to place it on your datastore.
 
 To do this, click on "datastore":
 

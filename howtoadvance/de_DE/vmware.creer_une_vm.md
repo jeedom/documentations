@@ -35,7 +35,7 @@ Wie Sie sehen können, ist die Benutzeroberfläche recht ansprechend und bietet 
 
 # Versand der Installations-ISO-Datei
 
-Nachdem Sie Ihre Installations-ISO heruntergeladen haben ([hier](https://cdimage.debian.org/cdimage/archive/11.8.0/amd64/iso-cd/debian-11.8.0-amd64-netinst.iso) (z. B. für Debian 11.8 bei einer Netzwerkinstallation) müssen Sie diese Datei in Ihrem Datastore ablegen.
+Nachdem Sie Ihre Installations-ISO heruntergeladen haben ([hier](https://cdimage.debian.org/cdimage/archive/11.8.0/amd64/iso-cd/debian-11.8.0-amd64-netinst.iso) z. B. für Debian 11.8 bei einer Netzwerkinstallation), müssen Sie diese Datei in Ihrem Datastore ablegen.
 
 Klicken Sie dazu auf „Datastore“:
 
