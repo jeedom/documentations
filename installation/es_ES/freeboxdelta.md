@@ -1,41 +1,41 @@
 # Instalación en Freebox Delta
 
-Es posible instalar en Freebox Delta Jeedom a través del sistema VM.
+Es posible instalar Jeedom en Freebox Delta a través del sistema de máquinas virtuales.
 
-## Conexión al Delta
+## Conexión a Delta
 
-Debe ir a la interfaz de configuración de su Freebox Delta. Luego haga clic en VM.
+Debes acceder a la interfaz de configuración de tu Freebox Delta. A continuación, haz clic en «VMs».
 
 ![delta1](../images/delta1.png)
 
-## Establecer las diferentes opciones
+## Configurar las distintas opciones
 
-Haga clic en "Agregar una VM"
+Haz clic en «Añadir una máquina virtual»
 ![delta2](../images/delta2.png)
 
-Configurar funciones. Recomendamos que coloque 2 CPU y el máximo en RAM.
+Configura las especificaciones. Te recomendamos que elijas 2 CPU y la máxima cantidad de RAM.
 
 ![delta3](../images/delta3.png)
 
-Configurar usuario y contraseña, **deben mantenerse en la memoria, se les pedirá durante una conexión SSH**:
+Configura el nombre de usuario y la contraseña; **es importante que los recuerdes bien, ya que te los pedirán al iniciar sesión por SSH**:
 ![delta4](../images/delta4.png)
 
 ## Instalación en curso
 
-Espera mientras la imagen se descarga
+Por favor, espera mientras se descarga la imagen
 ![delta5](../images/delta5.png)
 
-## Conéctate a tu Jeedom
+## Inicia sesión en tu Jeedom
 
-Puede conectarse usando la dirección indicada en la página:
+Puede iniciar sesión utilizando la dirección que aparece en la página:
 ![delta6](../images/delta6.png)
 
-Recuerde asignar el puerto USB de Delta a la VM si desea usar una antena.
+Recuerda asignar el puerto USB de la Delta a la máquina virtual si quieres utilizar una antena.
 
-No **no** marque "Pantalla", esto es inútil en la imagen de Jeedom (aparte del consumo excesivo).
+**No** marques «Pantalla», ya que no sirve para nada en la imagen de Jeedom (aparte de un consumo excesivo).
 
-La dirección IP de su Jeedom en Freebox Delta está escrita en la parte superior, debajo de su nombre.
+La dirección IP de tu Jeedom en la Freebox Delta aparece en la parte superior, debajo de su nombre.
 
-El inicio de sesión y la contraseña predeterminados son admin / admin cuando accede a jeedom a través de su navegador.
+El nombre de usuario y la contraseña predeterminados son «admin/admin» cuando accedes a Jeedom a través de tu navegador.
 
-Por lo demás, puedes seguir la documentación [Primer paso con Jeedom](/premiers-pas)
+A continuación, puedes consultar la documentación [Primeros pasos con Jeedom](/premiers-pas)

@@ -1,41 +1,41 @@
-# GSM tarjeta de módem Huawei mode
+# Modo módem de la tarjeta GSM de Huawei
 
-En el 90% de los casos, no es necesario forzar las claves GSM solo en modo GSM (en lugar de GSM + cdrom + lector de tarjetas), el único caso en el que es obligatorio es si desea utilizar la clave en un Jeedom en una VM (VMware ESXi). De hecho, si no lo pasa en modo GSM, solo la clave no aparecerá en la lista de dispositivos USB que puede pasar a la VM.
+En el 90 % de los casos no es necesario forzar las llaves GSM al modo «solo GSM» (en lugar de GSM + CD-ROM + lector de tarjetas); el único caso en el que es obligatorio es si quieres utilizar la llave en un Jeedom en una máquina virtual (VMware ESXi). De hecho, si no la configuras en modo «solo GSM», la llave no aparecerá en la lista de dispositivos USB que puedes conectar a la máquina virtual.
 
 > **Importante**
 >
-> Este tutorial se realizó en Windows 10
+> Este tutorial se ha realizado en Windows 10
 
-# Instalación del controlador
+# Instalación de los controladores
 
-Una vez que la clave está conectada a una PC con Windows 10, debe tener una nueva unidad de CD-ROM. Debe hacer doble clic en él e instalar el software propuesto (no hay nada que cambiar, solo haga lo siguiente todo el tiempo).
+Una vez conectada la llave a un ordenador con Windows 10, debería aparecer una nueva unidad de CD-ROM. Haz doble clic en ella e instala el software que se te propone (no hay que cambiar nada, solo sigue las instrucciones paso a paso).
 
 ![gsmonly](../images/gsmonly.PNG)
 
-# Recuperación de puerto COM
+# Recuperación del puerto COM
 
-Luego debe recuperar el número de puerto de comunicación. Vaya al menú "Inicio" y busque "Administrador de dispositivos", ejecútelo y luego despliegue la sección "Puertos (COM y LPT)", debe tener un elemento que contenga "HUAWEI", debe recordar el número de Puerto COM :
+A continuación, hay que averiguar el número del puerto de comunicación. Ve al menú «Inicio» y busca «Administrador de dispositivos», ábrelo y despliega la sección «Puertos (COM y LPT)»; deberías ver una entrada con el nombre «HUAWEI». A continuación, solo tienes que anotar el número del puerto COM:
 
 ![gsmonly2](../images/gsmonly2.PNG)
 
-# Descarga de masilla
+# Descarga de Putty
 
-Luego descarga masilla [aquí](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) e inicie el archivo descargado
+A continuación, descarga PuTTY [aquí](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) y ejecuta el archivo descargado
 
-# Configuración de masilla y cambio al modo GSM solamente
+# Configuración de PuTTY y cambio al modo GSM únicamente
 
-Una vez iniciado, configure la masilla de esta manera (poniéndose su número de puerto COM, consulte el paso anterior) :
+Una vez iniciado, configura Putty de la siguiente manera (asegurándote de introducir tu propio número de puerto COM; consulta el paso anterior):
 
 ![gsmonly3](../images/gsmonly3.PNG)
 
-Aparecerá una ventana negra (de vez en cuando puede haber un mensaje "boot ...", esto es normal, significa que está bien conectado a la clave GSM). En esta ventana tienes que escribir y luego presionar la tecla "Enter"" :
+Aparecerá una ventana negra (en ocasiones puede aparecer el mensaje «boot…​», es normal; significa que estás correctamente conectado a la llave GSM). En esta ventana, debes escribir y, a continuación, pulsar la tecla «Intro»:
 
 ``AT^u2diag=0``
 
 > **Importante**
 >
-> Tenga cuidado cuando escriba el texto, no verá nada en la pantalla, es normal, el texto aún se tiene en cuenta.
+> Ten en cuenta que, cuando escribas el texto, no verás nada en la pantalla; es normal, pero el texto se tiene en cuenta correctamente.
 
-Normalmente a cambio debes tener un OK.
+Normalmente, deberías recibir un «OK» como respuesta.
 
-Eso es todo terminado. Su clave está solo en modo GSM y puede usarla a través de VMware ahora.
+Ya está. Tu llave está ahora en modo GSM únicamente y ya puedes utilizarla a través de VMware.

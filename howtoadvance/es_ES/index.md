@@ -1,33 +1,33 @@
-# Sommaire
+# Índice
 
-- [Modo de red GSM de Huawei](/es_ES/howtoadvance/gsm.huawei_mode_carte_reseau)
-- [Modo de módem GSM de Huawei](/es_ES/howtoadvance/gsm.huawei_mode_modem)
-- [Mariadb / Mysql punta y punta](/es_ES/howtoadvance/mysql.trucs_et_astuces)
-- [Github](/es_ES/howtoadvance/tuto.github)
+- [Modos de red GSM de Huawei](gsm.huawei_mode_carte_reseau)
+- [Módem Huawei en modo GSM](gsm.huawei_mode_modem)
+- [Mariadb/MySQL: consejos y trucos](mysql.trucs_et_astuces)
+- [GitHub](tuto.github)
 
 ## Debian
 
-- [Instalación](/es_ES/howtoadvance/debian.installation)
-- [Consejos y trucos](/es_ES/howtoadvance/debian.trucs_et_astuces)
+- [Instalación](debian.installation)
+- [Consejos y trucos](debian.trucs_et_astuces)
 
-## Vmware
+## VMware
 
-- [Crear una máquina virtual](/es_ES/howtoadvance/vmware.creer_une_vm)
-- [Instalación en NUC](/es_ES/howtoadvance/vmware.installation_sur_nuc)
-- [Copia de seguridad / restaurar](/es_ES/howtoadvance/vmware.mise_en_place_des_backups)
-- [Sugerencia y consejo](/es_ES/howtoadvance/vmware.trucs_et_astuces)
+- [Crear una máquina virtual](vmware.creer_une_vm)
+- [Instalación en NUC](vmware.installation_sur_nuc)
+- [Copia de seguridad/restauración](vmware.mise_en_place_des_backups)
+- [Consejos y trucos](vmware.trucs_et_astuces)
 
-## Archive
+## Archivo
 
-- [Autovoice de Android](/es_ES/howtoadvance/android.autovoice)
-- [Instalar monit](/es_ES/howtoadvance/installation.monit)
-- [Instalar noder](/es_ES/howtoadvance/installation.nodered)
-- [Instalar openjabnab](/es_ES/howtoadvance/installation.openjabnab)
-- [Instalar shellinbox](/es_ES/howtoadvance/installation.shellinabox)
-- [Migración de Jeelink](/es_ES/howtoadvance/jeelink.migration)
-- [Karotz cambia de voz](/es_ES/howtoadvance/karotz.utiliser_un_autre_moteur_de_voix)
-- [Encriptemos la configuración](/es_ES/howtoadvance/letsencrypt.mise_en_place)
-- [Migración Apache](/es_ES/howtoadvance/migration.apache)
-- [Uso de Synology de VPN](/es_ES/howtoadvance/synology.utilisation_vpn)
-- [Usando emoncms](/es_ES/howtoadvance/utilisation.emoncms)
-- [Usar opengarage](/es_ES/howtoadvance/utilisation.opengarage)
+- [Android Autovoice](android.autovoice)
+- [Instalar Monit](installation.monit)
+- [Instalar Node-RED](installation.nodered)
+- [Instalar openjabnab](installation.openjabnab)
+- [Instalar Shellinbox](installation.shellinabox)
+- [Migración a Jeelink](jeelink.migration)
+- [Karotz cambia la voz](karotz.utiliser_un_autre_moteur_de_voix)
+- [Configuración de Let's Encrypt](letsencrypt.mise_en_place)
+- [Migración de Apache](migration.apache)
+- [Uso de la VPN en Synology](synology.utilisation_vpn)
+- [Uso de emoncms](utilisation.emoncms)
+- [Uso de OpenGarage](utilisation.opengarage)

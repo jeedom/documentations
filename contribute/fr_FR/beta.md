@@ -15,7 +15,7 @@ Comme indiqué ci-dessus, le fait de basculer Jeedom ou un plugin sur une versio
 
 ## Branches
 
-Jeedom est un logiciel open-source dont le développement peut être suivi en temps réel sur [GitHub](https://github.com/jeedom/core){:target="_blank"}. Chaque branche correspondant à différents niveaux d'avancement dans son développement.
+Jeedom est un logiciel open-source dont le développement peut être suivi en temps réel sur [GitHub](https://github.com/jeedom/core){:target="_blank"}. Chaque branche correspond à différents niveaux d'avancement dans son développement.
 
 ### Branches principales
 

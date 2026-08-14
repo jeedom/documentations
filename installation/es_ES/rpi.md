@@ -1,62 +1,62 @@
 # Instalación en Raspberry Pi
 
-Encontrará aquí la documentación para instalar Jeedom en una PI de frambuesa **con una tarjeta MiroSD.**. 
+Aquí encontrarás la documentación para instalar Jeedom en una Raspberry Pi **con una tarjeta microSD**.
 
-# Instalación de línea de comando
+# Instalación mediante la línea de comandos
 
-## Descargue la última imagen "lite""
+## Descargar la última imagen «lite»
 
-[Generador de imágenes Raspberry Pi](https://www.raspberrypi.com/software/)  permet de télécharger l'image d'installation de Raspberry Pi OS et de graver l'image directement sur la carte SD.
+[Raspberry Pi Imager](https://www.raspberrypi.com/software/)  permite descargar la imagen de instalación de Raspberry Pi OS y grabarla directamente en la tarjeta SD.
 
-## Habilitar acceso SSH
+## Activar el acceso SSH
 
 > **Advertencia**
 >
-> Por razones de seguridad, el acceso SSH ya no está habilitado de forma predeterminada en esta distribución. Il faut donc l'activer via les options avancées de Raspberry Pi Imager.
+> Por motivos de seguridad, el acceso SSH ya no está activado de forma predeterminada en esta distribución. Por lo tanto, hay que activarlo a través de las opciones avanzadas de Raspberry Pi Imager.
 
-## Inicie la Raspberry Pi
+## Iniciar la Raspberry Pi
 
-Inserte su tarjeta MicroSD, conecte el cable de red y conecte la alimentación.
+Inserta tu tarjeta MicroSD, conecta el cable de red y enchufa la fuente de alimentación.
 
-## Conectarse en SSH
+## Conectarse por SSH
 
 Identifica tu Raspberry Pi en la red
 
-Necesita saber la dirección IP de su Raspberry PI. Muchas soluciones :
+Es necesario conocer la dirección IP de tu Raspberry Pi. Hay varias soluciones:
 
--   Consulte la configuración de DHCP en su enrutador
--   Utilice un escáner de puertos como "Angry IP Scanner" [aquí](http://angryip.org/download/#windows)
+-   Consulta la configuración de DHCP en tu router
+-   Utiliza un escáner de puertos como «Angry IP Scanner» [aquí](http://angryip.org/download/#windows)
 
-Establecer conexión
+Establecer la conexión
 
-Luego use, por ejemplo, PuTTY para establecer su conexión [Aquí](http://www.putty.org/)
+A continuación, utiliza, por ejemplo, PuTTY para establecer la conexión [Aquí](http://www.putty.org/)
 
-Ingrese la dirección IP de su Raspberry Pi (aquí 192.168.0.10) y haga clic en abrir. Acepte el mensaje de seguridad predeterminado en el primer inicio de sesión.
+Introduce la dirección IP de tu Raspberry Pi (en este caso, 192.168.0.10) y haz clic en «Abrir». Acepta el mensaje predeterminado relativo a la seguridad que aparece al conectarte por primera vez.
 
-Connectez-vous avec les identifiants que vous avez défini dans Raspberry Pi Imager lors de la gravure.
+Inicia sesión con los datos de acceso que hayas definido en Raspberry Pi Imager durante la grabación.
 
 > **Importante**
 >
-> Por razones de seguridad, es imprescindible cambiar la contraseña predeterminada. Los casos de piratería basados en el uso del par de inicio de sesión / contraseña predeterminado de Raspberry Pi están particularmente extendidos. (Comando : passwd y sudo passwd)
+> Por motivos de seguridad, es imprescindible cambiar la contraseña predeterminada. Son muy frecuentes los casos de piratería informática que se aprovechan de la combinación predeterminada de nombre de usuario y contraseña de la Raspberry Pi. (comandos: passwd y sudo passwd)
 
-## Inicie el script de instalación de jeedom
+## Ejecutar el script de instalación de Jeedom
 
 ```
-wget https://raw.githubusercontent.com/jeedom/core/master/install/instalar.sh
-chmod +x instalar.sh
-./instalar.sh
+wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
+chmod +x install.sh
+./install.sh
 ```
 
 > **Nota**
 >
-> Dependiendo de su velocidad de internet, la instalación puede tomar de 45 a 90 minutos. No debe interrumpir el proceso antes del final. De lo contrario, tendrá que repetir todo el procedimiento.
+> Dependiendo de la velocidad de tu conexión a Internet, la instalación puede tardar entre 45 y 90 minutos. Es muy importante que no interrumpas el proceso antes de que finalice. De lo contrario, tendrás que volver a realizar todo el procedimiento desde el principio.
 
-Luego solo vaya a IP\_MACHINE\_JEEDOM
+A continuación, solo tienes que ir a IP\_MACHINE\_JEEDOM
 
 > **Nota**
 >
-> Las credenciales predeterminadas son admin / admin
+> Las credenciales predeterminadas son admin/admin
 
-Para obtener más información sobre la instalación de Jeedom, consulte esto [documentación](cli)
+Para obtener más información sobre la instalación de Jeedom, consulta esta [documentación](cli)
 
-Entonces puedes seguir la documentación [Primer paso con Jeedom](/premiers-pas)
+A continuación, puedes consultar la documentación [Primeros pasos con Jeedom](/premiers-pas)

@@ -1,164 +1,164 @@
-# Erstellen Sie eine VM unter VMware
+# Eine virtuelle Maschine unter VMware erstellen
 
-Wir werden hier sehen, wie Sie eine VM unter VMware erstellen.
+Hier erfahren wir, wie man eine VM unter VMware erstellt.
 
-Es gibt etwas Wichtiges über VMware zu wissen: Es gibt zwei Möglichkeiten, es zu verwalten :
+Zunächst einmal gibt es eine wichtige Kleinigkeit, die man über VMware wissen sollte: Es gibt zwei Möglichkeiten, es zu verwalten:
 
--   die Weboberfläche (standardmäßig in 6 vorhanden.0 Update 2 oder über ein Vib für die anderen Versionen) wird über IP\_ESXI / ui darauf zugegriffen
--   der schwere und historische Client von VMware (vSphere-Client)
+-   Die Weboberfläche (standardmäßig in Version 6.0 Update 2 vorhanden oder über ein VIB für andere Versionen) ist über IP\_ESXI/ui erreichbar.
+-   der traditionelle, ressourcenintensive Client von VMware (vSphere-Client)
 
-Hier werde ich hauptsächlich die Weboberfläche verwenden, weil ich denke, dass es die Zukunft von VMware ist, die zunehmend auf den Heavy-Client verzichtet (eigentlich alle neuen Funktionen seit 5.1 kann nicht mit dem Thick Client verwendet werden).
+Hier werde ich hauptsächlich die Weboberfläche nutzen, da ich glaube, dass dies die Zukunft von VMware ist, das den Fat-Client zunehmend vernachlässigt (übrigens sind alle Neuerungen seit Version 5.1 nicht mehr mit dem Fat-Client nutzbar).
 
-Beachten Sie auch, dass die Weboberfläche bei VMware noch implementiert wird. Tatsächlich werden Sie sicherlich auf einige Fehler oder Verlangsamungen stoßen, aber nach einer kleinen Aktualisierung der Seite wird sie ohne Probleme wieder gestartet.
+Beachten Sie außerdem, dass sich die Weboberfläche bei VMware noch im Aufbau befindet. Es kann daher durchaus zu einigen Fehlern oder Verzögerungen kommen, aber ein kurzes Aktualisieren der Seite reicht aus, damit alles wieder reibungslos läuft.
 
-# Verbindung zum Webinterface
+# Anmeldung bei der Weboberfläche
 
-Gehen Sie mit Ihrem Internetbrowser zu IP\_ESXI / ui :
+Rufen Sie mit Ihrem Webbrowser die Adresse IP\_ESXI/ui auf. Dort sollten Sie Folgendes sehen:
 
 ![vmware.createvm3](../images/vmware.createvm3.PNG)
 
-> **Notiz**
+> **Hinweis**
 >
-> Wenn Sie nichts haben, rate ich Ihnen, die Weboberfläche zu installieren, alle Informationen [hier](vmware.trucs_et_astuces)
+> Falls Sie noch nichts haben, empfehle ich Ihnen, die Weboberfläche zu installieren. Alle Informationen [hier](vmware.trucs_et_astuces)
 
-Geben Sie Ihre Anmeldeinformationen bei ESXI ein :
+Geben Sie Ihre Anmeldedaten für ESXI ein:
 
 ![vmware.createvm4](../images/vmware.createvm4.PNG)
 
-Wie Sie sehen können, ist die Benutzeroberfläche sehr schön und ermöglicht es Ihnen, viele Dinge zu tun. Ich werde nicht auf Details eingehen, aber Sie können bereits von diesem Bildschirm aus :
+Wie Sie sehen können, ist die Benutzeroberfläche recht ansprechend und bietet zahlreiche Möglichkeiten. Ich werde hier nicht ins Detail gehen, aber bereits auf diesem Bildschirm können Sie:
 
--   Stoppen Sie den ESXi / starten Sie ihn neu
--   Ressourcennutzung anzeigen (CPU, Speicher und Festplatte))
--   Informationen zu Ihrem System haben (Betriebszeit, Version von VMware, Version des BIOS, Anzeige von Datenspeichern)
--   Schaltfläche zum Erstellen einer VM (wir werden sie direkt danach verwenden)
--   Mit einer Aktionsschaltfläche, mit der Sie in den Wartungsmodus wechseln können (praktisch, wenn Sie einen ESXi-Cluster haben, den Sie sonst nie verwenden werden), aktivieren / deaktivieren Sie den SSH-Dienst (wird im Tutorial zur Sicherungskonfiguration verwendet)
+-   ESXi herunterfahren/neu starten
+-   Ressourcenauslastung anzeigen (CPU, Arbeitsspeicher und Festplatte)
+-   Informationen zu Ihrem System abrufen (Betriebszeit, VMware-Version, BIOS-Version, Anzeige der Datastores)
+-   Schaltfläche zum Erstellen einer VM (die werden wir gleich danach verwenden)
+-   Eine Aktionsschaltfläche, mit der Sie unter anderem in den Wartungsmodus wechseln können (praktisch, wenn Sie einen ESXi-Cluster haben; andernfalls werden Sie sie nie benutzen) sowie den SSH-Dienst aktivieren/deaktivieren können (wird im Tutorial zur Konfiguration von Backups verwendet)
 
-# Installations-ISO senden
+# Versand der Installations-ISO-Datei
 
-Nach dem Herunterladen Ihrer Installation ISO ([hier](https://cdimage.debian.org/cdimage/archive/11.8.0/amd64/iso-cd/debian-11.8.0-amd64-netinst.iso) zum Beispiel für Debian 11.8 in netinstall) müssen Sie es in Ihrem Datenspeicher ablegen.
+Nachdem Sie Ihre Installations-ISO heruntergeladen haben ([hier](https://cdimage.debian.org/cdimage/archive/11.8.0/amd64/iso-cd/debian-11.8.0-amd64-netinst.iso) z. B. für Debian 11.8 bei einer Netzwerkinstallation), müssen Sie diese Datei in Ihrem Datastore ablegen.
 
-Klicken Sie dazu auf Datenspeicher :
+Klicken Sie dazu auf „Datastore“:
 
 ![vmware.createvm18](../images/vmware.createvm18.PNG)
 
-Wählen Sie Ihren Datenspeicher aus (normalerweise heißt er Datenspeicher1) :
+Wählen Sie Ihren Datenspeicher aus (in der Regel heißt er „datastore1“):
 
 ![vmware.createvm19](../images/vmware.createvm19.PNG)
 
-Klicken Sie auf "Datenbankbrowser" :
+Klicken Sie auf „Datenbank-Browser“:
 
 ![vmware.createvm20](../images/vmware.createvm20.PNG)
 
-Klicken Sie auf "Download" (der erste) :
+Klicken Sie auf „Herunterladen“ (der erste Link):
 
 ![vmware.createvm21](../images/vmware.createvm21.PNG)
 
-Wählen Sie die zuvor heruntergeladene ISO aus und validieren Sie sie :
+Wählen Sie die zuvor heruntergeladene ISO-Datei aus und bestätigen Sie:
 
 ![vmware.createvm22](../images/vmware.createvm22.PNG)
 
-Sie können dann den Fortschritt der Sendung verfolgen :
+Anschließend können Sie den Versandstatus verfolgen:
 
 ![vmware.createvm23](../images/vmware.createvm23.PNG)
 
-Sobald Sie fertig sind, können Sie sehen, dass Ihre ISO im Datenspeicher angekommen ist :
+Sobald der Vorgang abgeschlossen ist, können Sie sehen, dass Ihre ISO-Datei erfolgreich im Datenspeicher angekommen ist:
 
 ![vmware.createvm24](../images/vmware.createvm24.PNG)
 
-# Erstellung Ihrer ersten VM
+# Erstellen Ihrer ersten VM
 
-Klicken Sie auf die Schaltfläche "VM erstellen / speichern"" :
+Klicken Sie auf die Schaltfläche „VM erstellen/speichern“:
 
 ![vmware.createvm5](../images/vmware.createvm5.PNG)
 
-Klicken Sie auf Weiter :
+Klicken Sie auf „Weiter“:
 
 ![vmware.createvm6](../images/vmware.createvm6.PNG)
 
-Geben Sie dann Ihrem Computer einen Namen und geben Sie dessen Betriebssystem an (hier installieren wir einen Debian) :
+Geben Sie anschließend Ihrem Rechner einen Namen und geben Sie das Betriebssystem an (hier installieren wir Debian):
 
 ![vmware.createvm7](../images/vmware.createvm7.PNG)
 
-Geben Sie den Zieldatenspeicher an :
+Geben Sie den Ziel-Datenspeicher an:
 
 ![vmware.createvm8](../images/vmware.createvm8.PNG)
 
-Hier können Sie die Parameter Ihrer Maschine konfigurieren (Festplatte, CPU, Speicher usw.)) :
+Hier können Sie die Einstellungen Ihres Computers (Festplatte, CPU, Arbeitsspeicher…) konfigurieren:
 
 ![vmware.createvm9](../images/vmware.createvm9.PNG)
 
-> **Notiz**
+> **Hinweis**
 >
-> Alle diese Parameter können nachträglich problemlos geändert werden. Beachten Sie jedoch, dass es nicht wirklich möglich ist, die Größe einer Festplatte zu verringern. Sie können sie vergrößern (Sie müssen jedoch wissen, wie Sie dies auf der Ebene der Festplatte verwalten). . 'OS next), aber nicht reduzieren.
+> All diese Einstellungen lassen sich nachträglich problemlos ändern. Beachten Sie jedoch, dass es nicht wirklich möglich ist, die Größe einer Festplatte zu verringern; man kann sie zwar vergrößern (muss dies anschließend aber auf Betriebssystemebene entsprechend verwalten), nicht jedoch verkleinern.
 
-Wählen Sie im CD / DVD-Laufwerk "ISO-Dateidatenbank" aus" :
+Wählen Sie im CD-/DVD-Laufwerk die Option „ISO-Datei aus der Datenbank“ aus:
 
 ![vmware.createvm10](../images/vmware.createvm10.PNG)
 
-Wählen Sie dann den Speicherort Ihrer ISO aus (siehe vorheriges Kapitel) und validieren Sie :
+Wählen Sie anschließend den Speicherort Ihrer ISO-Datei aus (siehe vorheriges Kapitel) und bestätigen Sie:
 
 ![vmware.createvm11](../images/vmware.createvm11.PNG)
 
-Dann mach weiter :
+Gehen Sie anschließend wie folgt vor:
 
 ![vmware.createvm12](../images/vmware.createvm12.PNG)
 
-Sie haben dann eine Zusammenfassung Ihrer Konfiguration, klicken Sie auf "Fertig stellen"" :
+Anschließend erhalten Sie eine Zusammenfassung Ihrer Konfiguration. Klicken Sie auf „Fertigstellen“:
 
 ![vmware.createvm13](../images/vmware.createvm13.PNG)
 
-Eine Meldung oben zeigt an, dass es gut ist, und klicken Sie dann auf "Virtuelle Maschinen"" :
+Eine Meldung oben zeigt Ihnen an, dass alles in Ordnung ist. Klicken Sie anschließend auf „Virtuelle Maschinen“:
 
 ![vmware.createvm14](../images/vmware.createvm14.PNG)
 
-Sie sollten sehen, dass Ihre virtuelle Maschine (falls dies nicht der Fall ist, klicken Sie auf "Aktualisieren") darauf klickt :
+Sie sollten Ihre virtuelle Maschine sehen (falls nicht, klicken Sie auf „Aktualisieren“) und dann darauf klicken:
 
 ![vmware.createvm15](../images/vmware.createvm15.PNG)
 
-Sie müssen eine Seite dieses Typs haben, klicken Sie auf die Wiedergabetaste :
+Sie sollten eine Seite dieser Art haben. Klicken Sie auf die Wiedergabetaste:
 
 ![vmware.createvm16](../images/vmware.createvm16.PNG)
 
-Ihr Computer wird gestartet und Sie können Ihr Betriebssystem installieren :
+Ihr Rechner wird nun hochfahren, und Sie können mit der Installation Ihres Betriebssystems beginnen:
 
 ![vmware.createvm17](../images/vmware.createvm17.PNG)
 
 > **Wichtig**
 >
-> Sobald Ihr Computer installiert ist, ist es ABSOLUT erforderlich, VMware-Tools zu installieren (VMware kann Informationen über Ihre VM haben und diese ordnungsgemäß herunterfahren). Unter debian einfach "sudo apt-get -y installiere open-vm-tools".
+> Sobald Ihre Maschine installiert ist, müssen Sie UNBEDINGT die VMware-Tools installieren (dadurch erhält VMware Informationen über Ihre VM und kann diese ordnungsgemäß herunterfahren). Unter Debian reicht es aus, den Befehl „sudo apt-get -y install open-vm-tools“ auszuführen.
 
-Für den Rest der Installation lade ich Sie ein, dies zu lesen [Tutorial](debian.installation)
+Für die weiteren Schritte der Installation empfehle ich Ihnen, diesen Artikel zu lesen [Anleitung](debian.installation)
 
-# Mounten Sie USB-Geräte in der VM
+# USB-Geräte in der VM einbinden
 
-> **Notiz**
+> **Hinweis**
 >
-> Wenn Sie nicht über die folgenden Optionen verfügen, müssen Sie den ESXi Embedded Host Client mit allen Informationen aktualisieren [hier](vmware.trucs_et_astuces)
+> Wenn die unten aufgeführten Optionen nicht verfügbar sind, müssen Sie den ESXi Embedded Host Client aktualisieren. Alle Informationen [hier](vmware.trucs_et_astuces)
 
-Es ist eine eher seltene Notwendigkeit, aber ich musste es für Jeedom verwenden, tatsächlich habe ich auf meinem ESXi die Schlüssel Zwave, RFXcom, edisio, enOcean und GSM von verbunden und ich musste sie mit meiner VM verbinden Jeedom, um es benutzen zu können.
+Das kommt zwar eher selten vor, aber ich musste diese Funktion für Jeedom nutzen, da ich auf meinem ESXi-Server Z-Wave-, RFXcom-, Edisio-, enOcean- und GSM-Module angeschlossen habe und diese mit meiner Jeedom-VM verbinden musste, um sie nutzen zu können.
 
-> **Notiz**
+> **Hinweis**
 >
-> Für Zwave, RFXcom, edisio und enOcean gibt es kein Problem, für GSM-Schlüssel müssen Sie dies befolgen [Tutorial](gsm.huawei_mode_modem) vorher, um den Schlüssel nur im Modem-Modus zu erzwingen, sonst wird er auf dem ESXi nicht richtig angezeigt.
+> Bei Z-Wave, RFXcom, edisio und enOcean gibt es keine Probleme, bei GSM-Sticks müssen Sie folgende Schritte befolgen: [Anleitung](gsm.huawei_mode_modem) Zuvor muss der Schlüssel in den reinen Modem-Modus versetzt werden, da er sonst vom ESXi nicht korrekt erkannt wird.
 
-Gehen Sie zu Ihrer VM und führen Sie "Einstellungen ändern" aus" :
+Rufen Sie Ihre VM auf und wählen Sie „Einstellungen bearbeiten“:
 
 ![vmware.createvm25](../images/vmware.createvm25.PNG)
 
-Klicken Sie auf "Anderes Gerät hinzufügen" und dann auf USB-Controller :
+Klicken Sie auf „Ein weiteres Gerät hinzufügen“ und wählen Sie dann „USB-Controller“ aus:
 
 ![vmware.createvm26](../images/vmware.createvm26.PNG)
 
-> **Notiz**
+> **Hinweis**
 >
-> Der nächste Schritt muss für jedes USB-Gerät wiederholt werden, das Sie anschließen möchten
+> Der folgende Schritt muss für jedes USB-Gerät wiederholt werden, das Sie anschließen möchten
 
-Speichern, wiederholen Sie "Einstellungen ändern", dann "Anderes Gerät hinzufügen" und "USB-Gerät"" :
+Speichern Sie die Einstellungen, wählen Sie erneut „Einstellungen bearbeiten“, dann „Ein weiteres Gerät hinzufügen“ und „USB-Gerät“:
 
 ![vmware.createvm27](../images/vmware.createvm27.PNG)
 
-Wählen Sie Ihr USB-Gerät aus der Dropdown-Liste :
+Wählen Sie Ihr USB-Gerät aus der Dropdown-Liste aus:
 
 ![vmware.createvm28](../images/vmware.createvm28.PNG)
 
-Und jetzt ist Ihr Gerät an Ihre VM angeschlossen. Bei jedem Neustart wird es automatisch wieder mit der VM verbunden. Wenn Sie es physisch trennen / verbinden, wird es wieder mit Ihrer VM verbunden. Mit anderen Worten ist die Verwendung jetzt vollständig transparent.
+Und schon ist Ihr Gerät an Ihre VM angeschlossen. Bei jedem Neustart wird es automatisch wieder an die VM angeschlossen, und wenn Sie es physisch trennen oder anschließen, wird es ebenfalls wieder an Ihre VM angeschlossen. Mit anderen Worten: Die Nutzung ist nun völlig transparent.

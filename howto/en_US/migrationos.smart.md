@@ -1,103 +1,103 @@
-# Upgrade the Debian environment of a Smart
+# Upgrading the Debian environment on a Smart device
 
-We will detail the procedure of **migration of the Debian environment of the Smart box** so that you can have an overview of the different steps before practice. Note that all the steps are also explained on the screen as the migration progresses.
+We will walk you through the process of **migrating the Debian environment on the Smart box** so that you can get an overview of the different steps before putting them into practice. Please note that all steps are also explained on-screen as the migration progresses.
 
 ## Prerequisites
 
-The migration of the Debian environment and the Smart kernel is a long and complex process, several essential prerequisites must therefore be taken into account before starting the operation.
+Migrating the Smart's Debian environment and kernel is a long and complex process, so there are several essential prerequisites to consider before beginning the operation.
 
-It is necessary in particular :
+In particular, you need to:
 
-- power **stay on the migration page** during the whole process *(it takes about 1h30)*,
-- to prepare [a USB key formatted in **FAT32**](https://fr.wikihow.com/formater-en-FAT32){:target = "\_ blank"} and having **more than 8GB of free space**,
-- be on the **same local network** than the Smart box and access it from its **internal address**.
+- be able to **stay on the migration page** throughout the entire process *(which takes about 1 hour and 30 minutes)*,
+- prepare [a USB flash drive formatted in **FAT32**](https://fr.wikihow.com/formater-en-FAT32){:target="\_blank"} and with **more than 8 GB of free space**,
+- be on the **same local network** as the Smart box and access it using its **internal address**.
 
->**Important**
+>**IMPORTANT**
 >
->As usual, it is strongly recommended to keep a **recent backup** of your Jeedom beforehand.
+>As always, we strongly recommend that you have a **recent backup** of your Jeedom on hand beforehand.
 
 ## Migration
 
-### Initiate migration
+### Start the migration
 
-You have the possibility to initiate the migration procedure in 2 ways :
+You can start the migration process in two ways:
 
-- Going to the menu **Settings → System → Image Restore** :     
-![Menu Restauration Image](../images/migrateos-smart01.png)
+- Go to the **Settings → System → Image Restoration** menu:
+![Menu | Restoration | Image](../images/migrateos-smart01.png)
 
-- By being invited to the **Update center** when necessary :     
-![Mettre à niveau centre de MAJ](../images/migrateos-smart02.png)
+- When prompted to do so in the **update center** when necessary:
+![Upgrade the update center](../images/migrateos-smart02.png)
 
 ### Step 1
 
-The first step in the migration is to prepare and verify the hardware. The previously mentioned prerequisites are recalled in a pop-up window and you are prompted to insert a USB key *(formatted in FAT32)* with more than 8GB of free space in the Smart box.
+The first step in the migration process is to prepare and verify the hardware. The prerequisites mentioned earlier are displayed in a pop-up window, and you are prompted to insert a USB flash drive *(formatted in FAT32)* with more than 8 GB of free space into the Smart box.
 
-Once the USB stick is inserted, you can click on the arrow to start the process :
+Once the USB drive is inserted, you can click the arrow to start the process:
 
-![Insérer clé USB](../images/migrateos-smart03.png)
+![Insert USB drive](../images/migrateos-smart03.png)
 
-When the prerequisites are validated, we can go to step 2 :
+Once the prerequisites have been verified, we can move on to Step 2:
 
-![Clé USB vérifiée](../images/migrateos-smart04.png)
+![Verified USB flash drive](../images/migrateos-smart04.png)
 
->**Information**
+>**INFORMATION**
 >
->You don't have to stay in front of the screen during the whole process. This will take place automatically until you offer to restore a backup.
+>You don't need to stay in front of the screen during the entire process. It will run automatically until it prompts you to restore a backup.
 
 ### Step 2
 
-The second step will take care of generating a backup of your Jeedom, a copy of which will be kept on the USB key. This backup will be restored at the end of the migration process if you wish. If necessary, the backup is located in a directory named ``Backup`` on the USB stick.
+The second step will generate a backup of your Jeedom, a copy of which will be stored securely on the USB drive. This backup can be restored at the end of the migration process if you wish. If needed, the backup can be found in a directory named ``Backup`` on the USB flash drive.
 
-We still recommend that you make sure you have a recent Jeedom backup available elsewhere.
+We still recommend that you make sure you have a recent backup of Jeedom available elsewhere.
 
-![Sauvegarde de Jeedom](../images/migrateos-smart05.png)
+![Jeedom Backup](../images/migrateos-smart05.png)
 
-The duration of the backup phase will depend on the size of your installation and the remote backup options implemented. You have the option to speed up the process by disabling the sending of Market and / or Samba backups beforehand.
+The duration of the backup phase will depend on the size of your system and the remote backup options you have set up. You can speed up the process by disabling Market and/or Samba backups beforehand.
 
-![Copie de la sauvegarde on the USB stick](../images/migrateos-smart06.png)
+![Copy the backup to the USB flash drive](../images/migrateos-smart06.png)
 
 ### Step 3
 
-The third step will allow you to download the image containing the new version of the Debian environment and check its validity after downloading :
+The third step will allow you to download the image containing the new version of the Debian environment and verify that it is valid after the download:
 
-![Téléchargement de l'image](../images/migrateos-smart07.png)
+![Download image](../images/migrateos-smart07.png)
 
-This step may take a while and will depend on the speed of your internet connection as well as the read / write performance of the USB key :
+This step may take some time and will depend on the speed of your internet connection as well as the read/write performance of the USB drive:
 
-![Vérification de l'image](../images/migrateos-smart08.png)
+![Image verification](../images/migrateos-smart08.png)
 
 ### Step 4
 
-By far the most important step because it is the actual migration of the hardware. Above all, do not disconnect the USB key or cut off the power supply to the Smart during this phase !
+By far the most important step, as it involves the actual migration of the hardware. Under no circumstances should you unplug the USB drive or cut off the Smart’s power supply during this phase!
 
-![Migration de la Smart](../images/migrateos-smart09.png)
+![Smart Migration](../images/migrateos-smart09.png)
 
-This step lasts about thirty minutes after which the Smart box will restart. This first reboot is likely to take some time :
+This step takes about 30 minutes, after which the Smart box will restart. This first restart may take some time:
 
-![Redémarrage de la Smart](../images/migrateos-smart10.png)
+![Restarting the Smart](../images/migrateos-smart10.png)
 
-### Finalization of the migration
+### Completion of the migration
 
-At the end of the migration process, the Smart box is now in an up-to-date environment but with a virgin Jeedom. The finalization of the procedure will therefore consist either of starting from a clean installation or of restoring the backup generated during the first step :
+Once the migration process is complete, the Smart box is now running on an up-to-date environment but with a blank Jeedom installation. The final step of the procedure will therefore involve either starting from a blank installation or restoring the backup generated during the first step:
 
-![Finalisation migration](../images/migrateos-smart11.png)
+![Migration completion](../images/migrateos-smart11.png)
 
->**Important**
+>**IMPORTANT**
 >
->**Make sure to remove the USB key from the Smart box at the end of the operation.**
+>**Be sure to remove the USB drive from the Smart box once the process is complete.**
 
-Congratulations, **your Smart box is now up to date and operational** !
+Congratulations, **your Smart box is now up to date and ready to use**!
 
 ## Frequently Asked Questions
 
->**The migration process takes place correctly, however no change seems to have taken place after restarting the box ?**    
->This means that the USB key used is not correctly recognized by the migration tool. Please repeat the operation with another USB key or [repartition your USB key](https://fr.wikihow.com/partitionner-une-cl%C3%A9-USB){:target = "\_ blank"} taking care of **create only one partition** *(Single partition)*.
+>**The migration process is proceeding normally, but it doesn't seem like anything has changed after restarting the box?**
+>This means that the USB drive you are using is not being recognized properly by the migration tool. Please try again with a different USB drive or [Reformat your USB drive](https://fr.wikihow.com/partitionner-une-cl%C3%A9-USB){:target="\_blank"} making sure to **create only one partition** *(Single partition)*.
 
->**I can no longer authenticate on Jeedom following the migration of the environment.**    
->Jeedom having been reinstalled following the Debian environment update, as long as you have not restored a backup or created a new user, the default credentials are ***admin / admin***.
+>**I can no longer log in to Jeedom following the migration of the environment.**
+>Since Jeedom was reinstalled following the Debian environment update, the default login credentials are ***admin/admin*** until you restore a backup or create a new user.
 
->**My box is no longer reachable following the migration of the environment.**    
->Check the presence and the ip address of the Jeedom box from the interface of your router in case it has changed its ip address.
+>**My box is no longer accessible following the migration of the environment.**
+>Check whether the Jeedom box is present and verify its IP address from your router's interface in case its IP address has changed.
 
->**Some plugins no longer work following the migration.**    
->Make sure you have reinstalled dependencies for plugins that require them *(consult the plugin configuration page)*.
+>**Some plugins no longer work following the migration.**
+>Make sure you have reinstalled the dependencies for any plugins that require them *(see the plugin's configuration page)*.

@@ -57,7 +57,7 @@
       de_DE: "Benutzerhandbuch",
       pt_PT: "Manual do usuário",
       submenu: [
-        { link: "/core/changelog", icon: "fas fa-clipboard-list", fr_FR: "Changelog", en_US: "Changelog", es_ES: "Changelog", de_DE: "Changelog", pt_PT: "" },
+        { link: "/core/changelog", icon: "fas fa-clipboard-list", fr_FR: "Changelog", en_US: "Changelog", es_ES: "Registro de cambios", de_DE: "Änderungsprotokoll", pt_PT: "" },
         { link: "/core/dashboard", icon: "fas fa-tachometer-alt", fr_FR: "Dashboard", en_US: "Dashboard", es_ES: "Tablero", de_DE: "Dashboard", pt_PT: "" },
         { link: "/core/overview", icon: "fab fa-hubspot", fr_FR: "Synthèse", en_US: "Synthesis", es_ES: "Síntesis", de_DE: "Synthese", pt_PT: "Síntese" },
         { link: "/core/view", icon: "far fa-image", fr_FR: "Vues", en_US: "Views", es_ES: "Vistas", de_DE: "Ansichten ", pt_PT: "" },

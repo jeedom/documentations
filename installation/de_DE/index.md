@@ -1,40 +1,40 @@
 # Installation
 
-**Jeedom est un logiciel qui est, et restera, open source**. Son utilisation est entièrement gratuite et ne requiert aucun service cloud ou abonnement pour fonctionner.
-Certains plugins peuvent cependant être payants et/ou nécessiter une connexion internet, [**la liste complète des plugins disponibles est consultable sur le Market Jeedom**](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin){:target="_blank"}.
+**Jeedom ist eine Software, die Open Source ist und auch bleiben wird**. Die Nutzung ist völlig kostenlos und erfordert keinen Cloud-Dienst oder ein Abonnement, um zu funktionieren.
+Einige Plugins können jedoch kostenpflichtig sein und/oder eine Internetverbindung erfordern, [**Die vollständige Liste der verfügbaren Plugins finden Sie im Jeedom Market**](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin){:target="_blank"}.
 
-## Compatibilité
+## Kompatibilität
 
-[**Les boxes officielles Jeedom**](../compatibility/#Boxes%20officielles) garantissent une pleine compatibilité quelles que soient les évolutions logicielles futures.
+[**Die offiziellen Jeedom-Boxen**](/compatibility/#Boxes%20officielles) gewährleisten uneingeschränkte Kompatibilität unabhängig von zukünftigen Software-Weiterentwicklungen.
 
-Jeedom peut également être installé sur [tout matériel supporté](../compatibility/#Matériels%20supportés) prenant In charge le système [**Linux Debian In version actuellement recommandée**](../compatibility/#Debian).
+Jeedom kann auch auf folgenden Systemen installiert werden: [alle unterstützten Geräte](/compatibility/#Matériels%20supportés) das System unterstützt [**Derzeit empfohlene Version von Linux Debian**](/compatibility/#Debian).
 
-## Sauvegarde de Jeedom
+## Sicherung von Jeedom
 
-En cas de réinstallation, **il est indispensable de télécharger une sauvegarde récente de Jeedom** qui pourra être restaurée à l'issue de la procédure :
+Im Falle einer Neuinstallation **ist es unerlässlich, ein aktuelles Backup von Jeedom herunterzuladen**, das nach Abschluss des Vorgangs zur Wiederherstellung verwendet werden kann:
 
-1. Depuis l'interface Jeedom, cliquer sur le menu **Réglages > Système > Sauvegardes**.
+1. Klicken Sie in der Jeedom-Benutzeroberfläche auf das Menü **Einstellungen > System > Backups**.
 
-2. Cliquer sur le bouton **Lancer une sauvegarde**.
+2. Klicken Sie auf die Schaltfläche **Sicherung starten**.
 
-3. Quand l'opération est terminée, cliquer sur **Télécharger la sauvegarde**.
+3. Wenn der Vorgang abgeschlossen ist, klicken Sie auf **Sicherung herunterladen**.
 
-## Installation à la carte
+## Maßgeschneiderte Installation
 
-Quel que soit le support choisi pour déployer votre instance Jeedom, vous trouverez la documentation d'installation détaillée correspondante.
+Unabhängig davon, welche Plattform Sie für die Bereitstellung Ihrer Jeedom-Instanz wählen, finden Sie die entsprechende detaillierte Installationsanleitung.
 
-Vous souhaitez installer Jeedom :
+Sie möchten Jeedom installieren:
 
-- [auf einem **Luna**](/plugins/home%20automation%20protocol/luna)
-- [auf einem **Smart/Atlas**](recovery)
-- [Auf einem **Himbeer-Pi**](rpi)
-- [Auf einem **PC/mini-PC**](baremetal)
-- [auf einem **machine virtuelle**](vm)
-- [auf einem **Freebox Delta**](freeboxdelta)
-- [dans un **conteneur LXC Proxmox**](https://community-scripts.github.io/ProxmoxVE/scripts?id=jeedom){:target="_blank"}
-- [dans un **conteneur Docker**](docker) *(non recommandé)*
-- [In **Befehlszeile**](cli) *(utilisateurs avancés)*
+- [auf einer **Luna**](/plugins/home%20automation%20protocol/luna)
+- [bei einem **Smart/Atlas**](recovery)
+- [auf einem **Raspberry Pi**](rpi)
+- [auf einem **PC/Mini-PC**](baremetal)
+- [auf einer **virtuellen Maschine**](vm)
+- [auf einer **Freebox Delta**](freeboxdelta)
+- [in einem **Proxmox LXC-Container**](https://community-scripts.github.io/ProxmoxVE/scripts?id=jeedom){:target="_blank"}
+- [in einem **Docker-Container**](docker) *(nicht empfohlen)*
+- [in der **Befehlszeile**](cli) *(fortgeschrittene Nutzer)*
 
-## Premiers pas avec Jeedom
+## Erste Schritte mit Jeedom
 
-Le temps que l'installation se termine, pensez à consulter la documentation [**Premiers pas avec Jeedom**](../premiers-pas/).
+Bis die Installation abgeschlossen ist, lesen Sie bitte die Dokumentation durch. [**Erste Schritte mit Jeedom**](/premiers-pas/).

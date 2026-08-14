@@ -1,18 +1,18 @@
 # Jeedom
-- [Reset your Jeedom password in case of loss](reset.password)
+- [Resetting Your Jeedom Password If You Lose It](reset.password)
 - [Manually update Jeedom](jeedom.mise_a_jour_manuel)
-- [Make a backup](sauvegarde.comment_faire)
+- [Back up your data](sauvegarde.comment_faire)
 - [Restore a backup](sauvegarde.comment_recuperer)
 
-# Equipment
-- [Remise en état d'usine Smart/Atlas](../installation/recovery)
-- [Raspberry Pi3](raspberrypi3)
+# Hardware
+- [Smart/Atlas Factory Reset](/installation/recovery)
+- [Raspberry Pi 3](raspberrypi3)
 
 # Archive
-- [Remise en état d'usine Atlas](atlas)
-- [Remise en état d'usine Smart](smart)
-- [Mettre à niveau Debian sur Smart](migrationos.smart)
-- [Migrate from version (V3 → V4)](migration.version)
-- [Remise en état d'usine Mini+](mini)
-- [Clef wifi sur Mini+](mini.clef_wifi)
-- [Guide de démarrage Mini+](mini.demarrage)
+- [Atlas Factory Refurbishment](atlas)
+- [Smart Factory Reset](smart)
+- [Upgrading Debian on Smart](migrationos.smart)
+- [Upgrade (V3 → V4)](migration.version)
+- [Mini+ Factory Reset](mini)
+- [Wi-Fi Key on Mini+](mini.clef_wifi)
+- [Mini+ Getting Started Guide](mini.demarrage)

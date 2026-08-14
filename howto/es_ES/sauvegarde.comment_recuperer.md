@@ -1,43 +1,43 @@
-# Restaurar una copia de seguridad
+# Restauración de una copia de seguridad
 
-El procedimiento le permitirá conectarse a su caja en SFTP para recuperar las copias de seguridad diarias realizadas por él.
+Este procedimiento te permitirá conectarte mediante SFTP a tu router para recuperar las copias de seguridad diarias que este realiza.
 
-> **Punta**
+> **Consejo**
 >
-> Atención, para que este procedimiento funcione, es necesario que el servidor SSH de la caja siga funcionando.
+> Atención: para que este procedimiento funcione, es necesario que el servidor SSH del router esté siempre operativo.
 
-## Instalación de Filezilla
+## Instalación de FileZilla
 
-Filezilla es un software gratuito y está disponible en todas las plataformas. Le permite transferir archivos a través de diferentes protocolos (FTP, FTPS, SFTP ...) Se puede descargar a través de este [Enlace](https://filezilla-project.org/download.php?type=client)
+FileZilla es un programa gratuito disponible para todas las plataformas. Permite transferir archivos a través de diferentes protocolos (FTP, FTPS, SFTP…​). Se puede descargar desde este [enlace](https://filezilla-project.org/download.php?type=client)
 
-## Conexión a la caja
+## Conexión al router
 
-Para conectarse a su caja, simplemente complete los campos de información en la parte superior de la ventana de Filezilla :
+Para conectarte a tu router, solo tienes que rellenar los campos de información que aparecen en la parte superior de la ventana de FileZilla:
 
-![restore filezilla01](../images/restore-filezilla01.jpg)
+![Restaurar filezilla01](../images/restore-filezilla01.jpg)
 
--   Host : Dirección IP de Jeedom (``sftp://`` se agrega automáticamente)
--   Identificador : ``jeedom``
--   Contraseña : ``Mjeedom96``
--   Puerto : 22
+-   Host: Dirección IP de Jeedom (``sftp://`` se añade automáticamente)
+-   Nombre de usuario: ``jeedom``
+-   Contraseña: ``Mjeedom96``
+-   Puerto: 22
 
-Luego haga clic en "Conexión rápida"
+A continuación, haz clic en «Conexión rápida»
 
-## Navegación al directorio de respaldo
+## Navegación al directorio de copias de seguridad
 
-Una vez establecida la conexión, es necesario ir al directorio de respaldo de Jeedom.
+Una vez establecida la conexión, hay que ir a la carpeta de copias de seguridad de Jeedom.
 
-2 escenarios :
+Dos casos posibles:
 
--   Servidor Apache (Jeedom Smart Box) : ``/var/www/html/backup``
--   Servidor Nginx :  ``/usr/share/nginx/www/jeedom/backup``
+-   Servidor Apache (Box Jeedom Smart): ``/var/www/html/backup``
+-   Servidor Nginx:  ``/usr/share/nginx/www/jeedom/backup``
 
-La ruta se muestra en la sección del sitio remoto.
+La ruta de acceso se indica en la sección «sitio remoto».
 
-![restore filezilla02](../images/restore-filezilla02.jpg)
+![Restaurar filezilla02](../images/restore-filezilla02.jpg)
 
-## Descarga de respaldo
+## Descarga de la copia de seguridad
 
-En la lista de copias de seguridad, al hacer clic derecho, es posible comenzar su descarga.
+En la lista de copias de seguridad, al hacer clic con el botón derecho del ratón, se puede iniciar la descarga.
 
-![restore filezilla03](../images/restore-filezilla03.jpg)
+![Restaurar filezilla03](../images/restore-filezilla03.jpg)

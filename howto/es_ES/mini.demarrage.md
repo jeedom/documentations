@@ -1,56 +1,56 @@
-# Mini + inicio
+# Mini+ inicio
 
-En primer lugar, gracias por comprar el Jeedom Mini +. Aquí encontrará documentación detallada que explica cómo poner esta caja en servicio, y así descubrir la automatización del hogar con Jeedom.
+En primer lugar, gracias por adquirir el Jeedom Mini+. Aquí encontrarás la documentación detallada que explica cómo poner en marcha este dispositivo y, de este modo, iniciarte en la domótica con Jeedom.
 
-La caja Jeedom Mini + que recibió debe contener :
+La caja del Jeedom Mini+ que has recibido debe contener:
 
--   Una caja Jeedom Mini + (Tarjeta Mono JeedomBoard - ARM Cortex A9 1.2Ghz y 512MB RAM)
--   Un cargador de red de 5V 2A.
--   Una tarjeta micro SD con software Jeedom preinstalado. (Esta tarjeta normalmente ya está insertada en la caja)
--   Adaptador de tarjeta microSD / SD.
--   Pegatina Jeedom.
--   *Un módulo RFXcom 433E con su cable USB.* (Solo si ha comprado el paquete de inicio con interfaz RFXcom).
--   *Tarjeta RaZberry Z-Wave +.* (Solo si compró el paquete de inicio compatible con Z-Wave +) (Esta tarjeta normalmente ya está instalada en la caja)
+-   Una caja Jeedom Mini+ (tarjeta JeedomBoard Mono: ARM Cortex A9 a 1,2 GHz y 512 MB de RAM)
+-   Un cargador de red de 5 V y 2 A.
+-   Una tarjeta micro SD con el software Jeedom preinstalado. (Normalmente, esta tarjeta ya viene insertada en el dispositivo)
+-   Un adaptador para tarjetas MicroSD/SD.
+-   Una pegatina de Jeedom.
+-   *Un módulo RFXcom 433E con su cable USB.* (Solo si has comprado el pack de inicio con interfaz RFXcom).
+-   *Una tarjeta RaZberry Z-Wave+.* (Solo si has comprado el pack de inicio compatible con Z-Wave+) (Esta tarjeta suele venir ya instalada en la caja)
 
-![mini.demarrage01](../images/mini.demarrage01.png)
+![mini.inicio01](../images/mini.demarrage01.png)
 
-Antes de poder usarlo, debe conectar su caja Jeedom Mini + a su red local (en el enrutador, conmutador o caja de Internet ...) y a la red eléctrica.
+Antes de poder utilizarlo, debes conectar tu Jeedom Mini+ a tu red local (al router, al conmutador o a tu módem de Internet…) y a la red eléctrica.
 
-![mini.demarrage02](../images/mini.demarrage02.png)
+![mini.inicio02](../images/mini.demarrage02.png)
 
-![mini.demarrage03](../images/mini.demarrage03.png)
+![mini.inicio03](../images/mini.demarrage03.png)
 
-Antes de comenzar, tenga en cuenta que Jeedom funciona con complementos. Varios complementos están preinstalados en su Jeedom Mini + :
+Antes de empezar, ten en cuenta que Jeedom funciona mediante complementos. Tu Jeedom Mini+ viene con varios complementos preinstalados:
 
-![mini.demarrage04](../images/mini.demarrage04.png)
+![mini.inicio04](../images/mini.demarrage04.png)
 
-El complemento Z-Wave que se utiliza para configurar su red Z-Wave y agregar
+El complemento Z-Wave que sirve para configurar tu red Z-Wave y añadir
 nuevos módulos Z-Wave.
 
-![mini.demarrage05](../images/mini.demarrage05.png)
+![mini.inicio05](../images/mini.demarrage05.png)
 
-El complemento de correo.
+El complemento Mail.
 
-![mini.demarrage06](../images/mini.demarrage06.png)
+![mini.inicio06](../images/mini.demarrage06.png)
 
-Complementos de widgets y scripts.
+Los complementos «Widget» y «Script».
 
-![mini.demarrage07](../images/mini.demarrage07.png)
+![mini.inicio07](../images/mini.demarrage07.png)
 
-El plugin meteorológico.
+El complemento «Tiempo».
 
-![mini.demarrage08](../images/mini.demarrage08.png)
+![mini.inicio08](../images/mini.demarrage08.png)
 
-Todavía encontrará muchos otros complementos directamente a través de la interfaz de Jeedom en el mercado de Jeedom.
+Encontrarás muchos otros complementos directamente a través de la interfaz de Jeedom en el Market de Jeedom.
 
-Además, no olvide que tiene 2 cupones (enviados por correo electrónico), lo que le permite instalar 2 complementos pagos de forma gratuita (RFXCOM y Alarm). Para usarlo, debe crear una cuenta en Jeedom Market, consulte la documentación : [Doc mercado](/premiers-pas).
+Por otra parte, no olvides que dispones de dos cupones de descuento (enviados por correo electrónico) que te permiten instalar dos plugins de pago de forma gratuita (RFXCOM y Alarma). Para utilizarlos, debes crear una cuenta en el Market de Jeedom; consulta la documentación: [Doc Market](/premiers-pas).
 
-El correo electrónico que recibió también incluye el número del paquete de servicio asociado con el Jeedom Mini +. Puede ingresarlo en su perfil de Market, esto le permitirá, entre otras cosas, acceder a los diversos servicios correspondientes a su Service Pack.
+En el correo electrónico que has recibido también figura el número del Service Pack asociado al Jeedom Mini+. Puedes introducirlo en tu perfil del Market; esto te permitirá, entre otras cosas, acceder a los distintos servicios correspondientes a tu Service Pack.
 
-![mini.demarrage09](../images/mini.demarrage09.png)
+![mini.inicio09](../images/mini.demarrage09.png)
 
-Ahora puedes seguir la documentación : [Comenzando con Jeedom](/premiers-pas) Lo que le permitirá encontrar la dirección IP de su Jeedom Mini + y conectarse a ella para comenzar a configurarla y usarla.
+Ahora puedes consultar la documentación: [Primeros pasos con Jeedom](/premiers-pas) Esto te permitirá encontrar la dirección IP de tu Jeedom Mini+ y conectarte a él para empezar a configurarlo y utilizarlo.
 
-Para profundizar en el descubrimiento y uso de Jeedom, tiene documentación completa : [Documentación de Jeedom](/) y también una sección que enumera los videos tutoriales : [Video tutoriales](/presentation#tocAnchor-1-3). No dudes en ir al Foro Jeedom para cualquier otra pregunta : [Coomunity Jeedom](https://community.jeedom.com/).
+Para profundizar en el conocimiento y el uso de Jeedom, tienes a tu disposición una documentación completa: [Documentación de Jeedom](/) y también una sección con tutoriales en vídeo: [Vídeos tutoriales](/presentation#tocAnchor-1-3). No dudes en visitar el foro de Jeedom si tienes alguna otra pregunta: [Comunidad Jeedom](https://community.jeedom.com/).
 
-Gracias y buen descubrimiento de la automatización del hogar con Jeedom.
+Gracias, y disfruta descubriendo la domótica con Jeedom.

@@ -1,125 +1,124 @@
 # Concept
 
-Here are the main basic concepts of Jeedom. This documentation remains voluntarily simple in order to help you take control of your home automation.
+Here are the main basic concepts of Jeedom. This documentation is intentionally kept simple to help you get started with your home automation system.
 
-The possibilities of Jeedom are almost infinite, since you can create a lot of things with a few php, python or other scripts, but that is not the subject here.
+Jeedom's possibilities are virtually endless, since you can create a wide variety of things using a few PHP, Python, or other scripts, but that's not the topic here.
 
-## Affichage
+## Display
 
-Jeedom allows you to interface a large number of devices together, whether they are based on Z-Wave, Enocean, Zigbee etc. protocols, on APIs using plugins or directly in the form of scripts. You can watch on the [Market](https://market.jeedom.com/) to get an overview of supported devices.
+Jeedom allows you to integrate a wide variety of devices, whether they use protocols such as Z-Wave, Enocean, Zigbee, etc., via APIs using plugins, or directly through scripts. You can check out the [Market](https://market.jeedom.com/) to see a list of supported devices.
 
-You can view these devices in several ways :
+You can view these devices in several ways:
 
 - On the [Dashboard](/core/dashboard)
-- On the [Synthesis](/core/overview) (v4.5)
+- On the [Summary](/core/overview)
 - On a [View](/core/view)
 - On a [Design](/core/design)
-- On a [3D design](/core/design3d)
+- On a [3D Design](/core/design3d)
 
-![Synthese](../images/concept-synthese.jpg)
+![Summary](../images/concept-synthese.jpg)
 
-These can be viewed in a browser on a desktop computer, on a smartphone with the WebApp or the mobile application : [Mobile version](/en_US/mobile/index)
+These can be viewed in a browser on a desktop computer, on a smartphone using the WebApp, or via the mobile app: [Mobile Version](/mobile)
 
-## The Objects
+## Objects
 
-In order to organize your devices, you can create [Objects](/core/object).
+To organize your devices, you can create [Objects](/core/object).
 
-These objects can represent parts of the house (Living room, Bedroom, Workshop). Each object can have a parent object. This hierarchy will be used for display on the Dashboard. For example, you can have an object **House**, then objects **Living room** and **Bedroom** object children **House**. Once on the Dashboard, the object **House** will also display, below, its child objects.
+These objects can represent rooms in the home (Living Room, Bedroom, Workshop). Each object can have a parent object. This hierarchy will be used for display on the Dashboard. For example, you can have a **House** object, and then **Living Room** and **Bedroom** objects as children of the **House** object. Once on the Dashboard, the **House** object will also display its child objects below it.
 
-![Objet](../images/concept-objet.jpg)
+![Object](../images/concept-objet.jpg)
 
-> **Advice**
+> **Tip**
 >
-> In **Settings → Preferences**, you can define which object you want to arrive on the Dashboard. [Preferences](/core/profils)
+> In **Settings → Preferences**, you can choose which object you want to land on when you open the Dashboard. [Preferences](/core/profils)
 
 ![Dashboard](../images/concept-dashboard.jpg)
 
-## Equipment and their commands
+## Devices and Their Commands
 
-### Commandes
+### Commands
 
-To interact with our home automation, you need commands ! These are of two types :
+To interact with our home automation system, you need commands! There are two types of commands:
 
 > Note
 >
-> Rest assured, commands are normally created automatically ! These explanations are for a better understanding.
+> Don't worry—commands are normally created automatically! These explanations are provided to help you understand better.
 
-- The Commands *Info* :
-These commands store information from sensors. For example the temperature of a probe, a movement of a presence sensor, etc.
-These commands can be logged in order to keep this information over time in the form of a curve : [History](/core/history)
+- The *info* commands:
+These commands store information from sensors. For example, the temperature from a sensor, movement detected by a motion sensor, etc.
+These commands can be logged to preserve this information over time in the form of a graph: [History](/core/history)
 
-These commands can also be used to trigger [Scenarios](/core/scenario) in order to automate actions based on the information sent by your sensors. For example, a motion sensor detects a presence, which will trigger a scenario that will turn on the light.
+These commands can also be used to trigger [scenarios](/core/scenario) to automate actions based on information reported by your sensors. For example, a motion sensor detects someone's presence, which triggers a scenario that turns on the light.
 
-- The Commands *Action* :
-These commands allow you to control your actuators. For example, commands ````on```` and ````off```` of a controlled outlet will allow you to turn it on and off.
+- *Action* commands:
+These commands allow you to control your actuators. For example, the commands ``on`` and ``off`` with a smart plug will allow you to turn it on and off.
 
-Action commands are usually linked to info commands. Here our take has two actions ````on```` and ````off````, usually related to information **State**.
+Action commands are generally linked to info commands. Here, our outlet has two actions ``on`` and ``off``, generally related to **Status** information.
 
 ![Commands](../images/concept-commands.jpg)
 
-These two types of commands are attached in the form of equipment. The equipment therefore has info and / or action commands, and it is this equipment that will have an Object as parent, allowing you to display it where you want.
+These two types of commands are grouped together as a single piece of equipment. The equipment therefore has info and/or action commands, and this equipment will have an Object as its parent, allowing you to display it wherever you want.
 
-Each command can also have what is called a generic type, allowing Jeedom and some plugins to know the type of command (State of a socket, button of a light, etc). [**Tools → Equipment types**](/core/types).
+Each command can also have what is called a generic type, allowing Jeedom and certain plugins to identify the type of command (outlet status, light switch, etc.). [**Tools → Equipment Types**](/core/types).
 
-### Équipement
+### Equipment
 
-- Physiquement: I have a socket with an on / off button and a status led, in the living room.
-- In Jeedom: I have equipment with two on and off actions and a status info, in the Salon object.
+- Hardware: I have a power outlet with an on/off switch and a status LED in the living room.
+- In Jeedom: I have a device with two actions (on and off) and a status update in the Living Room object.
 
-These equipments are created by plugins. For example, the Z-Wave plugin will allow you to include your Z-Waze socket, which will create a device with its controls that you can name and link to an Object.
+These devices are created using plugins. For example, the Z-Wave plugin will allow you to add your Z-Wave outlet, which will create a device with its own commands that you can name and link to an Object.
 
-In terms of display, each command is displayed using a Widget. The Core offers the main Widgets, as well as a tool to create them (V4) : [Widget](/core/widgets).
+In terms of display, each command is shown using a widget. The Core provides the main widgets, as well as a tool for creating them (V4): [Widgets](/core/widgets).
 
-These commands are grouped in a tile corresponding to your equipment. And this tile will therefore be displayed on the Dashboard in the Object that you have assigned to it.
+These commands are grouped into a tile corresponding to your device. This tile will then be displayed on the Dashboard under the object you have assigned to it.
 
 ![Commands](../images/concept-equipment.jpg)
 
-Whatever your device, it will therefore be created in the form of a device, from a [Plugin](/core/plugin).
+Regardless of your device, it will be created as a piece of equipment based on a [Plugin](/core/plugin).
 
-This device will have its own commands *Info* or *Action*. These commands will be displayed as Widgets forming the equipment tile, in its parent object.
+This device will have its own *info* or *action* commands. These commands will be displayed as widgets that make up the device's tile within its parent object.
 
-You will then see that each Object, Equipment or Command has many options, in terms of functionality or display. But first things first, now you should have understood the basic concepts of Jeedom and thus be able to start organizing your home automation by knowing where to look.
+You’ll then see that each Object, Device, or command has numerous options in terms of functionality and display. But one thing at a time—by now you should have a grasp of Jeedom’s basic concepts and be able to start setting up your home automation system, knowing where to look.
 
-## My first scenario
+## My First Scenario
 
-The advantage of home automation, beyond centralized and remote control of our peripherals, lies above all in automation. The goal is not to spend hours in front of your Dashboard or Design, but on the contrary that your accommodation adapts to your habits and makes you forget. No more shutters to open and close every day, no more lights to turn on and off, be warned when to put the trash on the street, when there is mail in the letterbox, the heating which adapts according to the seasons and climatic conditions. The possibilities are endless, and depend on one's lifestyle. The scenarios are there for that !
+The appeal of home automation, beyond the centralized and remote control of our devices, lies primarily in automation. The goal isn’t to spend hours in front of your dashboard or interface, but rather for your home to adapt to your habits and run seamlessly in the background. No more opening and closing shutters every day, no more turning lights on and off; you’ll be notified when to put the trash out, when there’s mail in the mailbox, and the heating will adjust according to the seasons and weather conditions. The possibilities are endless and depend on each person’s mode of life. That’s what scenarios are for!
 
-A scenario is a series of defined actions that will be executed at certain times of the day. The execution can be scheduled (every Monday at a particular time), or caused by an event. As seen above, this event can for example be our info command *Presence* a motion detector, following a detection.
+A scenario is a sequence of defined actions that will run at specific times of the day. Execution can be scheduled (every Monday at a certain time) or triggered by an event. As shown above, this event could be, for example, the *Presence* command from a motion detector following a detection.
 
-The goal here is not to be exhaustive but to discover the scenarios through simple examples. The [user manual documentation](/core/scenario) is much more complete.
+The goal here is not to be exhaustive, but to explore different scenarios through simple examples. The [user manual documentation](/core/scenario) is much more comprehensive.
 
 
-### Light on motion detection.
+### Turns on the light when motion is detected.
 
-Suppose we have a controlled light and a motion detector in the room.
+Let's say we have a smart light and a motion sensor in the bedroom.
 
 ![1stScenario](../images/1stScenario.gif)
 
 - Go to **Tools → Scenarios**
-- Click on *Add* then give a name to the new scenario.
-- Right, in the section *Trigger*, check that the mode is in *Provoked* then click on *+ Trigger*.
-- Using the button *Choose a command* to the right of the field *Event*, select the object then the equipment and its command.
+- Click *Add*, then give the new scenario a name.
+- On the right, in the *Trigger* section, make sure the mode is set to *Triggered*, then click *+ Trigger*.
+- Using the *Select a Command* button to the right of the *Event* field, select the object, then the device, and finally its command.
 
-The *Trigger* is what will trigger the execution of this scenario. Here, we want to trigger it when our detector detects a presence, so we will use the command `#[Bedroom][Détecteur Bedroom][Presence]# == 1`.
+The *Trigger* is what will trigger the execution of this scenario. Here, we want to trigger it when our sensor detects a presence, so we’ll use the command `#[Chambre][Détecteur Chambre][Présence]# == 1`.
 
-The `#` indicates a command, then we find `[the name of its parent object]` then `[the name of the equipment]` and finally `[the name of the command]`. Here, we add ` == 1` because we want the scenario to be triggered only when a presence is detected. However on a presence detector, this detection goes back to 0 a few seconds after. This change to 0 will therefore not trigger our scenario again.
+The `#` indicate a command, then you'll find `[le nom de son objet parent]` then `[le nom de l'équipement]` and finally `[le nom de la commande]`. Here, we add ` == 1` because we want the scenario to trigger only when a presence is detected. However, with a presence detector, the detection resets to 0 a few seconds later. This reset to 0 will therefore not trigger our scenario again.
 
-- Click on the tab *Scenario* then the button at the top *Add block*. Choose a block *Action* then on this one, *Add* A *Action*. This action will be our light switching command. According to the same principle : ``#[Bedroom][Lumière Bedroom][On]#``.
+- Click the *Scenario* tab, then click the *Add Block* button at the top. Select an *Action* block, then *Add* an *Action* to it. This action will be our command to turn on the light. Following the same principle: `#[Chambre][Lumière Chambre][On]#`.
 
-- Save, and your script is ready !
+- Save, and your scenario is ready!
 
-We have only scratched the surface of the possible scenarios here. You can add conditions (block *If / Do / Else*), delay actions (block *In*), program them (block *At*) and even directly use php code (block *CODE*).
+Here, we’ve only scratched the surface of what’s possible with scenarios. You can add conditions (*If/Then/Else* block), delay actions (*In* block), schedule them (*A* block), and even use PHP code directly (*Code* block).
 
-Here we used the trigger mode *Provoked* with a command. But you can also use (and combine) the mode *Programmed* to run a scenario every morning or every hour, etc.
+Here, we used the *manual* trigger mode with a command. But you can also use (and combine) the *scheduled* mode to run a scenario every morning or every hour, etc.
 
 
-### Program of the day.
+### Today's schedule.
 
-A recurring topic for beginners on Jeedom, the programming of daily events like :
+A common topic for Jeedom beginners is programming daily events such as:
 
 - Turn on the coffee maker at 7 a.m. on weekdays.
 - Open the shutters at sunrise.
-- Close the shutters at sunset, if I'm not there.
+- Close the shutters at sunset if I'm not home.
 
-For this type of scenario, here is a very good introduction : [Program of the day](https://kiboost.github.io/jeedom_docs/jeedomV4Tips/Tutos/ProgDuJour/en_US/)
-
+For this type of scenario, here is a very good introduction: [Today's Schedule](https://kiboost.github.io/jeedom_docs/jeedomV4Tips/Tutos/ProgDuJour/fr_FR/)

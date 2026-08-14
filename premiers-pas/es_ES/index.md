@@ -1,231 +1,231 @@
-# Premiers pas avec Jeedom
+# Primeros pasos con Jeedom
 
-Cette documentation présente les étapes à suivre après la mise en service de votre box Jeedom.
+Esta documentación describe los pasos que debes seguir tras la puesta en marcha de tu dispositivo Jeedom.
 
-## Interface
+## Interfaz
 
-Votre instance Jeedom est accessible par son interface web à son adresse sur le réseau local.
+Se puede acceder a su instancia de Jeedom a través de su interfaz web en su dirección de la red local.
 
-### Accès local
+### Acceso local
 
-Pour accéder à l'interface Jeedom, il est nécessaire de connaître l'adresse IP ou le nom d'hôte de la machine sur le réseau local. Voici plusieurs méthodes pour l'obtenir :
+Para acceder a la interfaz de Jeedom, es necesario conocer la dirección IP o el nombre de host del dispositivo en la red local. A continuación se indican varios métodos para obtenerla:
 
-#### Découverte automatique
+#### Detección automática
 
-Le market Jeedom propose [**un outil de découverte permettant de récupérer les adresses IP des instances Jeedom connectées au même réseau local**](https://www.jeedom.com/market/index.php?v=d&p=find){:target="_blank"}.
+La tienda de Jeedom ofrece [**una herramienta de detección que permite obtener las direcciones IP de las instancias de Jeedom conectadas a la misma red local**](https://www.jeedom.com/market/index.php?v=d&p=find){:target="_blank"}.
 
->**Importante**
+>**IMPORTANTE**
 >
->Il est nécessaire que la box soit démarrée depuis plusieurs minutes pour que la découverte Jeedom fonctionne.\
->De plus, cette fonctionnalité dépend de la configuration réseau appliquée localement et peut être inutilisable dans certaines conditions.
+>Es necesario que el dispositivo lleve varios minutos encendido para que funcione la detección de Jeedom.\
+>Además, esta función depende de la configuración de red aplicada a nivel local y puede que no funcione en determinadas condiciones.
 
-#### Routeur
+#### Router
 
-Vous pouvez retrouver l'adresse IP de votre box Jeedom en accédant à l'interface d'administration de votre routeur ou box internet.
+Puedes encontrar la dirección IP de tu dispositivo Jeedom accediendo a la interfaz de administración de tu router o módem.
 
-La plupart propose une liste des appareils/périphériques connectés, avec leur nom d'hôte, adresse MAC et adresse IP. Recherchez un périphérique nommé “Jeedom” ou identifiez-le via son adresse MAC.
+La mayoría ofrece una lista de los dispositivos conectados, con su nombre de host, dirección MAC y dirección IP. Busca un dispositivo llamado «Jeedom» o identifícalo mediante su dirección MAC.
 
->**Importante**
+>**IMPORTANTE**
 >
->Se référer au manuel du fabricant en cas de difficulté à atteindre l'interface d'administration du routeur.
+>Consulte el manual del fabricante si tiene dificultades para acceder a la interfaz de administración del router.
 
-#### Nom d'hôte
+#### Nombre de host
 
-L'interface Jeedom est également accessible par le nom d'hôte de la machine.
+También se puede acceder a la interfaz de Jeedom mediante el nombre de host del equipo.
 
-- En cas d'utilisation d'une [image système officielle](../compatibility/#Images%20système%20officielles) pour déployer Jeedom, le nom d'hôte est connu et Jeedom doit être accessible sur :
+- En caso de utilizar una [imagen oficial del sistema](/compatibility/#Images%20système%20officielles) Para instalar Jeedom, se conoce el nombre de host y se debe poder acceder a Jeedom en:
 
-  | Machine            | Interface Jeedom   |
-  |--------------------|--------------------|
-  | **Luna** | [http://jeedomluna.local](http://jeedomluna.local){:target="_blank"} |
-  | **Atlas** | [http://jeedomatlas.local](http://jeedomatlas.local){:target="_blank"} |
-  | **Smart** | [http://jeedomsmart.local](http://jeedomsmart.local){:target="_blank"} |
-  | **Ordinateur/hyperviseur** *(installation automatique)* | [http://jeedom.local](http://jeedom.local){:target="_blank"} |
-  | **Freebox** | [http://jeedomfreebox.local](http://jeedomfreebox.local){:target="_blank"} |
+| Dispositivo | Interfaz Jeedom   |
+|--------------------|--------------------|
+| **Luna** | [http://jeedomluna.local](http://jeedomluna.local){:target="_blank"} |
+| **Atlas** | [http://jeedomatlas.local](http://jeedomatlas.local){:target="_blank"} |
+| **Inteligente** | [http://jeedomsmart.local](http://jeedomsmart.local){:target="_blank"} |
+| **Ordenador/hipervisor** *(instalación automática)* | [http://jeedom.local](http://jeedom.local){:target="_blank"} |
+| **Freebox** | [http://jeedomfreebox.local](http://jeedomfreebox.local){:target="_blank"} |
 
-- Si vous avez vous-même procédé à l'installation de Debian, le nom d'hôte correspond au nom de la machine défini lors de l'installation (`MACHINE`). `DOMAIN = local` par défaut, ou le nom de domaine spécifique renseigné à l'installation si c'est le cas.
+- Si has instalado Debian tú mismo, el nombre de host es el nombre del equipo que definiste durante la instalación (`MACHINE`). `DOMAIN = local` por defecto, o el nombre de dominio específico indicado durante la instalación, si procede.
 
-  L'adresse de l'interface Jeedom doit normalement correspondre à : `http://MACHINE.DOMAIN`.
+La dirección de la interfaz de Jeedom debería ser, normalmente: `http://MACHINE.DOMAIN`.
 
-#### Console système
+#### Consola del sistema
 
-Depuis une [image système officielle](../compatibility/#Images%20système%20officielles), tout accès direct à la console affiche immédiatement l'adresse de l'interface Jeedom :
+Desde hace un [imagen oficial del sistema](/compatibility/#Images%20système%20officielles): cada vez que se accede directamente a la consola, se muestra inmediatamente la dirección de la interfaz de Jeedom:
 
 {% include lightbox.html src="../images/shell_ip.jpg" data="shell_ip" title="Console système : IP Jeedom" imgstyle="display:block;margin:0 auto;" %}
 
-L'adresse IP peut également être affichée en tapant la commande :
+La dirección IP también se puede visualizar introduciendo el comando:
 ```sh
 ip addr | grep 'inet ' | tail -n 1
 ```
 
 ### Primera conexión
 
-[Une fois l'adresse de Jeedom connue](#Accès%20local), saisissez-la dans votre navigateur internet pour accéder à la page de connexion :
+[Una vez que se conoce la dirección de Jeedom](#Accès%20local), introdúzcala en su navegador de Internet para acceder a la página de inicio de sesión:
 
 {% include lightbox.html src="../images/FirstStep_box_connect.jpg" data="FirstStep_box_connect" title="Connexion Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
->**Importante**
+>**IMPORTANTE**
 >
->Les identifiants par défaut sont : `admin/admin`.
+>Los datos de acceso predeterminados son: `admin/admin`.
 
-Lorsque vous vous connectez avec les identifiants par défaut, Jeedom vous invite à modifier le mot de passe `admin`. **Saisissez simplement 2 fois le nouveau mot de passe pour sécuriser l'accès de cet utilisateur**.
+Cuando inicias sesión con los datos de acceso predeterminados, Jeedom te pide que cambies la contraseña `admin`. **Solo tienes que introducir dos veces la nueva contraseña para proteger el acceso de este usuario**.
 
-Il est également possible de modifier le mot de passe de l'utilisateur `admin` en cliquant sur le bouton **Contraseña** de la page de gestion des utilisateurs *(accessible par le menu **Réglages → Système → Utilisateurs**)* :
+También es posible cambiar la contraseña del usuario `admin` haciendo clic en el botón **Contraseña** de la página de gestión de usuarios *(a la que se accede desde el menú **Configuración → Sistema → Usuarios**)*:
 
-{% include lightbox.html src="../images/FirstStep_boxPassword.jpg" data="FirstStep_boxPassword" title="Contraseña admin" imgstyle="width:75%;display:block;margin:0 auto;" %}
+{% include lightbox.html src="../images/FirstStep_boxPassword.jpg" data="FirstStep_boxPassword" title="Mot de passe admin" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
->**Importante**
+>**IMPORTANTE**
 >
->Mémorisez bien le nouveau mot de passe, il permet de se connecter à l'interface Jeedom.
+>Recuerda bien la nueva contraseña, ya que te permite acceder a la interfaz de Jeedom.
 
-## Market
+## Mercado
 
-Le market permet de consulter, installer et même publier des plugins facilement, d'enregistrer ses instances Jeedom ou de bénéficier des services Jeedom notamment.
+El mercado permite consultar, instalar e incluso publicar complementos fácilmente, registrar tus instancias de Jeedom o disfrutar de los servicios de Jeedom, entre otras cosas.
 
-### Inscription
+### Registro
 
-Pour créer un compte sur le market Jeedom, il n'y a qu'à [**remplir les champs requis par la page d'enregistrement**](https://www.jeedom.com/market/index.php?v=d&p=register){:target="_blank"} :
+Para crear una cuenta en el mercado de Jeedom, solo tienes que [**Rellena los campos obligatorios de la página de registro**](https://www.jeedom.com/market/index.php?v=d&p=register){:target="_blank"} :
 
-{% include lightbox.html src="../images/FirstStep_market1.jpg" data="FirstStep_market1" title="Inscription Mercado Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
+{% include lightbox.html src="../images/FirstStep_market1.jpg" data="FirstStep_market1" title="Inscription Market Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
-Après validation, vous êtes connectés à votre compte et redirigés vers l'accueil :
+Una vez validado, se conectará a su cuenta y se le redirigirá a la página de inicio:
 
-{% include lightbox.html src="../images/FirstStep_market2.jpg" data="FirstStep_market2" title="Accueil Mercado Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
+{% include lightbox.html src="../images/FirstStep_market2.jpg" data="FirstStep_market2" title="Accueil Market Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
-### Service Pack
+### Paquete de servicio
 
-Les boxes officielles Jeedom sont accompagnées d'un code **Service Pack**, reçu par email, qui permet de bénéficier de plugins et de services gratuitement.
+Los dispositivos oficiales de Jeedom incluyen un código de **Service Pack**, que se recibe por correo electrónico y que permite disfrutar de complementos y servicios de forma gratuita.
 
-Pour activer votre Service Pack, il faut saisir ce code lorsque demandé après avoir cliqué sur le bouton **Je dispose d'un code** de l'onglet [**Mes services de votre profil market**](https://www.jeedom.com/market/index.php?v=d&p=profils#services){:target="_blank"}.
+Para activar tu Service Pack, debes introducir este código cuando se te solicite, tras hacer clic en el botón **Tengo un código** de la pestaña [**Mis servicios según tu perfil de mercado**](https://www.jeedom.com/market/index.php?v=d&p=profils#services){:target="_blank"}.
 
->**INFORMATION**
+>**INFORMACIÓN**
 >
->Veuillez vous rapprocher de votre revendeur si vous n'avez pas reçu de code Service Pack suite à l'acquisition d'une box officielle Jeedom.
+>Ponte en contacto con tu distribuidor si no has recibido el código del Service Pack tras la compra de un dispositivo oficial de Jeedom.
 
-### Lien avec Jeedom
+### Conexión con Jeedom
 
-Afin que votre instance Jeedom puisse communiquer avec le market, il faut renseigner les identifiants de votre profil dans la configuration générale en passant par le menu **Preferencias → Sistema → Configuración**.
+Para que tu instancia de Jeedom pueda comunicarse con el market, debes introducir los datos de acceso de tu perfil en la configuración general, accediendo a través del menú **Ajustes → Sistema → Configuración**.
 
-Rendez-vous ensuite à l'onglet **Actualizaciones / Mercado**, sous-onglet **Configuration des dépôts : Mercado** et renseignez les champs suivants avant de sauvegarder :
+A continuación, ve a la pestaña **Actualizaciones/Market**, a la subpestaña **Configuración de repositorios: Market** y rellena los siguientes campos antes de guardar:
 
-- Activer Market : cocher la case
-- Adresse : `https://market.jeedom.com`
-- Nombre de usuario : identifiant de votre profil market
-- Contraseña : mot de passe de votre profil market
+- Activar Market: marcar la casilla
+- Dirección: `https://market.jeedom.com`
+- Nombre de usuario: identificador de tu perfil de Market
+- Contraseña: la contraseña de tu perfil de Market
 
->**INFORMATION**
+>**INFORMACIÓN**
 >
->Vous pouvez cliquer sur le bouton **Tester** pour vérifier que la connexion s'effectue correctement.
+>Puedes hacer clic en el botón **Probar** para comprobar que la conexión se establece correctamente.
 
-### Accès à distance
+### Acceso remoto
 
-Que vous disposiez d'un Service Pack ou que vous ayez souscrit au service **Accès à distance facilité** *(DNS Jeedom)*, Jeedom génère une adresse d'accès à distance permettant de s'y connecter hors du réseau local.
+Tanto si dispone de un Service Pack como si se ha suscrito al servicio **Acceso remoto simplificado** *(DNS Jeedom)*, Jeedom genera una dirección de acceso remoto que permite conectarse desde fuera de la red local.
 
-Pour activer ce service, il faut simplement se rendre dans le menu **Réglages → Système → Configuration**, onglet **Réseaux** :
+Para activar este servicio, solo tienes que ir al menú **Ajustes → Sistema → Configuración**, pestaña **Redes**:
 
 {% include lightbox.html src="../images/FirstStep_dns.jpg" data="FirstStep_dns" title="Réseaux Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
-Marca la casilla **Activer DNS Jeedom**, puis cliquez sur le bouton **(Re)démarrer**. Après un bref instant et une fois le service démarré, l'adresse d'accès à distance s'affiche à l'écran.
+Marca la casilla **Activar DNS Jeedom** y, a continuación, haz clic en el botón **(Re)iniciar**. Tras unos instantes y una vez que el servicio se haya iniciado, aparecerá en pantalla la dirección de acceso remoto.
 
->**INFORMATION**
+>**INFORMACIÓN**
 >
->Selon les circonstances, l'accès à distance peut prendre plusieurs heures pour être totalement fonctionnel.
+>Dependiendo de las circunstancias, el acceso remoto puede tardar varias horas en estar totalmente operativo.
 
-Vous pouvez personnaliser l'adresse d'accès à distance en cliquant le bouton **Configuration** du service depuis [**votre profil market**](https://www.jeedom.com/market/index.php?v=d&p=profils#services){:target="_blank"}.
+Puedes personalizar la dirección de acceso remoto haciendo clic en el botón **Configuración** del servicio desde [**tu perfil de mercado**](https://www.jeedom.com/market/index.php?v=d&p=profils#services){:target="_blank"}.
 
-Retrouvez tous les détails dans [la documentation dédiée au service Accès à distance - DNS Jeedom](../howto/mise_en_place_dns_jeedom).
+Encuentra toda la información en [Documentación sobre el servicio de acceso remoto - DNS Jeedom](/howto/mise_en_place_dns_jeedom).
 
 ## Crear mi primer objeto
 
-Creará su primer objeto, pero primero debe saber qué es un objeto.
+Vas a crear tu primer objeto, pero primero tienes que saber qué es un objeto.
 
-En Jeedom, puede ser cualquier cosa, pero se recomienda hacerlo de acuerdo a sus habitaciones.
+En Jeedom, puede ser cualquier cosa, pero se recomienda configurarlo en función de tus habitaciones.
 
-> **Punta**
+> **Consejo**
 >
-> Es posible definir relaciones entre objetos. Exemple : la sala de estar pertenece al objeto de la planta baja que a su vez pertenece al objeto de la casa.
+> Es posible definir relaciones entre los objetos. Ejemplo: el salón pertenece al objeto «planta baja», que a su vez pertenece al objeto «casa».
 
-Nada podría ser más simple para crear un objeto :
+Crear un objeto no puede ser más sencillo:
 
--   Vaya a Herramientas → Objetos.
--   Haga clic en el botón Agregar.
--   Jeedom te preguntará el nombre. Validar. Este es tu primer objeto creado :
+-   Ve a Herramientas → Objetos.
+-   Haz clic en el botón «Añadir».
+-   Jeedom te pedirá que le pongas un nombre. Confirma. Ya tienes tu primer objeto creado:
 
-![Objet](../images/FirstStep_object.jpg)
+![Objeto](../images/FirstStep_object.jpg)
 
-Para obtener más información sobre esta parte, vea *Manual de usuario -> Objeto*.
+Para obtener más información sobre esta sección, consulta *Manual de usuario -> Objeto*.
 
 ## Instalar mi primer complemento
 
-Un complemento permite agregar funcionalidad a Jeedom. Hay cientos. Muchos son gratuitos, otros pueden ser de pago. Para acceder a la página de complementos, vaya a Complementos → Gestión de complementos.
+Un complemento permite añadir funcionalidades a Jeedom. Hay cientos de ellos. Muchos son gratuitos, mientras que otros pueden ser de pago. Para acceder a la página de complementos, ve a Complementos → Gestión de complementos.
 
-Luego solo haga clic en Market:
+A continuación, solo tienes que hacer clic en «Market»:
 
-Luego tendrá la lista de todos los complementos que se pueden instalar.
+A continuación, aparecerá la lista de todos los complementos que se pueden instalar.
 
 > **Importante**
 >
-> Tenga en cuenta que algunos son oficiales y otros no. En el caso de un problema con un complemento no oficial, el equipo de Jeedom no se hace responsable.
+> Atención: algunos son oficiales y otros no. En caso de que surja algún problema con un complemento no oficial, el equipo de Jeedom no se hace responsable.
 
-![Liste des Plugins](../images/FirstStep_plugin1.jpg)
+![Lista de complementos](../images/FirstStep_plugin1.jpg)
 
-Al hacer clic en un complemento, obtiene su archivo:
+Al hacer clic en un complemento, aparecerá su ficha:
 
-![Fiche Plugins](../images/FirstStep_plugin2.jpg)
+![Ficha de complementos](../images/FirstStep_plugin2.jpg)
 
-Entonces encuentras :
+Encontrarás lo siguiente:
 
-- Botones para instalar el complemento : la versión estable es muy recomendable,
+- Botones para instalar el complemento: se recomienda encarecidamente la versión estable,
 - Un botón para eliminar el complemento,
-- Una breve descripcion,
+- Una breve descripción,
 - Un enlace a la documentación del complemento,
-- Un enlace al registro de cambios (los últimos cambios),
-- Compatibilidad con diferentes plataformas,
-- Opiniones de usuarios,
-- Cómo usar el complemento,
-- Información adicional como el autor, el enlace a la discusión del foro sobre este complemento, la fecha de la última actualización, etc.
+- Un enlace al registro de cambios (las últimas modificaciones realizadas),
+- La compatibilidad con las distintas plataformas,
+- Opiniones de los usuarios,
+- Cómo utilizar el complemento,
+- Información adicional, como el autor, el enlace al hilo del foro sobre este complemento, la fecha de la última actualización, etc.
 
-Para más información sobre complementos, *Manual de usuario -> Complemento*.
+Para obtener más información sobre los complementos, *Manual de usuario -> Complementos*.
 
-# Support
+# Asistencia técnica
 
-Jeedom aborda campos muy amplios y evoluciona día a día.
-Sin embargo, hay muchas maneras de encontrar ayuda y hacer sus preguntas.
+Jeedom abarca ámbitos muy amplios que evolucionan día a día.
+No obstante, tienes a tu disposición numerosos medios para obtener ayuda y plantear tus dudas.
 
 ## El foro
 
-Lo encontraras [aquí](https://community.jeedom.com/).
+Lo encontrarás [aquí](https://community.jeedom.com/).
 
-El foro es muy activo y contiene mucha información. Si tiene alguna pregunta, no dude en preguntarla. Tendrá una respuesta en menos de una hora (en promedio). Tenga en cuenta que el foro es mantenido por la comunidad Jeedom, compuesta por voluntarios, y no por la compañía Jeedom.
+El foro es muy activo y contiene muchísima información. Si tienes alguna pregunta, no dudes en plantearla. Recibirás una respuesta en menos de una hora (de media). Sin embargo, ten en cuenta que el foro lo gestiona la comunidad de Jeedom, formada por voluntarios, y no la empresa Jeedom.
 
-## Solicitudes de soporte (o tickets))
+## Las solicitudes de asistencia (o tickets)
 
 > **Importante**
 >
-> Tenga en cuenta que todas las solicitudes de soporte deben tener una cuenta en Market.
+> Atención: para solicitar asistencia es imprescindible tener una cuenta en el Market.
 
-Si no ha encontrado una solución a su problema, como último recurso, puede solicitar asistencia al equipo de Jeedom. Esta solicitud pasa por un ticket. Hay varias formas de abrir uno:
+Si no has encontrado una solución a tu problema, como último recurso, puedes solicitar asistencia al equipo de Jeedom. Esta solicitud se realiza a través de un ticket. Hay varias formas de abrir uno:
 
--   Directamente de Jeedom (método recomendado): Menú de configuración → Solicitud de soporte.
--   Si por alguna razón no tiene acceso a su Jeedom, siempre puede abrir un boleto del Mercado :
-    -   O haciendo clic en su nombre y luego en *Solicitud de soporte*,
-    -   ya sea yendo a tu perfil, luego en la sección **Entradas**, use el botón "Abrir una solicitud de soporte".
+-   Directamente desde Jeedom (método recomendado): Menú Ajustes → Solicitud de asistencia.
+-   Si por cualquier motivo no tienes acceso a tu Jeedom, siempre puedes abrir un ticket desde el Market:
+    -   o bien haciendo clic en tu nombre y, a continuación, en *Solicitud de asistencia*,
+    -   O bien, accede a tu perfil y, en la sección **Tickets**, utiliza el botón «Abrir una solicitud de asistencia».
 
-![Solicitud de soporte](../images/FirstStep_support.jpg)
+![Solicitud de asistencia](../images/FirstStep_support.jpg)
 
-Todos los intercambios posteriores serán por correo electrónico.
+Todas las comunicaciones posteriores se realizarán por correo electrónico.
 
-> **Punta**
+> **Consejo**
 >
-> Si, al abrir un ticket, obtiene un error que indica que ha alcanzado su cuota, entonces está limitado a una cierta cantidad de solicitudes de soporte por mes, dependiendo de su paquete de servicios.
+> Si, al abrir un ticket, aparece un error indicando que has alcanzado tu cuota, significa que tienes un límite de solicitudes de asistencia al mes, en función de tu Service Pack.
 
-Los diferentes paquetes de servicio son :
-- Comunidad (gratis): 2 tickets / mes (solo en complementos pagos)
-- Power : 10 entradas / mes
-- Pro : 100 entradas / mes
+Los distintos paquetes de servicios son:
+- Comunidad (gratis): 2 tickets al mes (solo para plugins de pago)
+- Power: 10 tickets al mes
+- Pro: 100 tickets al mes
 
-Puede encontrar el detalle de los paquetes de servicio [aquí](https://www.jeedom.com/site/fr/soft.html#obtenir).
+Aquí puedes consultar los detalles de los paquetes de servicios [aquí](https://www.jeedom.com/site/fr/soft.html#obtenir).
 
->**Importante**
+>**IMPORTANTE**
 >
->Ojo, vemos muchos usuarios con buzones "mailinblack", que durante el primer intercambio piden al remitente que valide un enlace para demostrar que efectivamente se trata de un humano. Este sistema no es compatible con nuestro sistema de ticketing, por lo que aunque te contestemos nunca recibirás la respuesta en tu buzón porque nos bloquea. Por lo tanto, ingrese una dirección de correo electrónico en su página de perfil de mercado que no utilice este sistema; de lo contrario, nunca recibirá nuestra respuesta.
+>Atención: vemos que muchos usuarios tienen direcciones de correo electrónico «mailinblack», que en el primer intercambio piden al remitente que valide un enlace para demostrar que se trata de una persona real. Este sistema no es compatible con nuestro sistema de gestión de incidencias, por lo que, aunque te respondamos, nunca recibirás la respuesta en tu buzón de correo, ya que este nos bloquea. Por lo tanto, te agradecemos que, en tu página de perfil del mercado, indiques una dirección de correo electrónico que no utilice este sistema; de lo contrario, nunca recibirás nuestra respuesta.

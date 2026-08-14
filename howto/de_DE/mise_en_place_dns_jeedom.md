@@ -1,64 +1,64 @@
-# Implementierung von Jeedom DNS
+# Einrichtung des Jeedom-DNS
 
-## Objectif
+## Ziel
 
-Richten Sie Jeedom DNS so ein, dass Sie extern über eine HTTPS-URL auf Ihr Jeedom zugreifen können
+Einrichten des Jeedom-DNS, um über eine HTTPS-URL von außen auf das Jeedom-System zugreifen zu können
 
-> **Wichtig**
+> **WICHTIG**
 >
->Der Jeedom-DNS fungiert als Reverse-Proxy und ermöglicht daher nur den Zugriff auf Ihren Jeedom über https. Daher ist es nicht möglich, mit dem Jeedom-DNS remote über SSH auf Ihren Jeedom zuzugreifen
+>Der Jeedom-DNS fungiert als Reverse-Proxy und gewährt daher nur über HTTPS Zugriff auf Ihr Jeedom. Es ist daher nicht möglich, über den Jeedom-DNS per SSH aus der Ferne auf Ihr Jeedom zuzugreifen.
 
 ## Voraussetzungen
 
-Um auf Jeedom DNS zugreifen zu können, ist ein Service Pack oder mehr erforderlich.
+Um Zugriff auf die Jeedom-DNS zu erhalten, ist ein Power-Service-Pack oder höher zwingend erforderlich.
 
-## Principe
+## Prinzip
 
-Das Prinzip von Jeedom DNS ist sehr einfach. Ihr Jeedom stellt eine Verbindung zu einem unserer VPN-Server her (verschlüsselte Verbindung)). Dann macht dieser fragliche Server bei uns während der Anfrage "Reverse Proxy" : Es nimmt Ihre Anfrage, sich mit Ihrem Jeedom zu verbinden, und überträgt sie an dieses.
+Das Prinzip des Jeedom-DNS ist sehr einfach: Ihr Jeedom verbindet sich über ein VPN (verschlüsselte Verbindung) mit einem unserer Server. Anschließend fungiert dieser Server bei uns bei einer Anfrage als „Reverse-Proxy“: Er nimmt Ihre Verbindungsanfrage an Ihr Jeedom entgegen und leitet sie an dieses weiter.
 
-Dieses Prinzip hat den Vorteil, dass Sie Ihr Jeedom nicht im Internet verfügbar machen und keine Portöffnung durchführen müssen.
+Dieser Ansatz hat den Vorteil, dass Ihr Jeedom nicht im Internet sichtbar ist und keine Ports geöffnet werden müssen.
 
-> **Wichtig**
+> **WICHTIG**
 >
-> Damit dies funktioniert, muss Ihre Box eine ausgehende Verbindung auf den Ports 1194,1195,1196,1197,1198,1199,2000 und 2001 in UDP zulassen. Insbesondere bei Liveboxen und Huawei 4G-Routern muss man die Firewall-Stufe herabsetzen, bei Free-Nutzern muss man manchmal auch auf eine feste IP umstellen (ansonsten teilt Free seine IP zwischen mehreren Nutzern, was zu Problemen für den DNS führt). Freebox Delta müssen Sie die Kindersicherung deaktivieren 
+> Damit dies funktioniert, muss Ihre Box ausgehende Verbindungen über die UDP-Ports 1194, 1195, 1196, 1197, 1198, 1199, 2000 und 2001 zulassen. Insbesondere bei Liveboxen und 4G-Routern von Huawei muss die Firewall-Sicherheit herabgesetzt werden. Bei Free-Kunden ist es manchmal auch erforderlich, auf eine feste IP-Adresse umzustellen (da Free sonst Ihre IP-Adresse auf mehrere Nutzer verteilt, was zu Problemen mit dem DNS führt). Bei der Freebox Delta muss zudem die Kindersicherung deaktiviert werden.
 
-## Einrichten
+## Einrichtung
 
 ### Jeedom
 
-Dort ist es super einfach, Sie müssen Ihr Jeedom mit dem Markt verbinden (siehe Dokumentation im ersten Schritt). 
+Das ist ganz einfach: Sie müssen Ihr Jeedom mit dem Market verbinden (siehe Dokumentation „Erste Schritte“).
 
-Gehen Sie dann auf Ihrem Jeedom in seiner Verwaltung zur Registerkarte Netzwerke und aktivieren Sie "Jeedom DNS verwenden" und speichern Sie sie.
+Gehen Sie anschließend in Ihrem Jeedom in der Verwaltung auf die Registerkarte „Netzwerke“, aktivieren Sie die Option „Jeedom-DNS verwenden“ und speichern Sie die Einstellungen.
 
-Jeedom startet das DNS und gibt Ihnen Ihre Zugangs-URL zu Ihrem Jeedom
+Jeedom startet den DNS-Dienst und teilt Ihnen die URL für den Zugriff auf Ihr Jeedom mit
 
-> **Wichtig**
+> **WICHTIG**
 >
-> Sie können diese URL ändern, indem Sie auf Ihre Marktprofilseite und dann auf die Registerkarte „Meine Dienste“ gehen und unter „Einfacher Fernzugriff“ auf „Konfiguration“ klicken. Im DNS-Feld können Sie sie personalisieren. Nach der Registrierung müssen Sie den DNS in Jeedom neu starten (Einstellungen -> System -> Konfiguration, dann Registerkarte Netzwerke) und im Abschnitt „DNS (Proxy) Market“ neu starten"). Es ist ratsam, diese Manipulation mit lokalem Zugriff auf Ihre Box durchzuführen.
+> Sie können diese URL ändern, indem Sie auf Ihre Profilseite im Market gehen, dann auf den Reiter „Meine Dienste“ klicken und unter „Einfacher Fernzugriff“ auf „Konfiguration“ klicken. Dort können Sie das DNS-Feld individuell anpassen. Nach der Speicherung müssen Sie in Jeedom den DNS neu starten (Einstellungen -> System -> Konfiguration, dann auf den Reiter „Netzwerke“ und im Bereich „DNS (Proxy) Market“ auf „Neustart“ klicken). Es wird empfohlen, diesen Vorgang mit lokalem Zugriff auf Ihre Box durchzuführen.
 
-Hier ist Ihr Jeedom von außen in https zugänglich
+Jetzt ist Ihr Jeedom von außen über https erreichbar
 
-## FAQ
+## Häufig gestellte Fragen
 
-> **Muss ich Ports an meiner Box öffnen?**
+> **Müssen auf meiner Router-Box Ports geöffnet werden?**
 >
-> Nein, es ist nicht erforderlich, einen Port Ihrer Internetbox zu Ihrem Jeedom zu öffnen. Die Verbindung befindet sich in Richtung Jeedom -> VPN, es handelt sich also um eine ausgehende Verbindung (an den Ports 1194, 1195, 1996, 1997, 1198, 1199, 2000 und 2001) und nicht um eine eingehende Verbindung.
+> Nein, Sie müssen keinen Port an Ihrer Internet-Router-Box für Jeedom öffnen. Die Verbindung verläuft in Richtung Jeedom -> VPN, es handelt sich also um eine ausgehende Verbindung (über die Ports 1194, 1195, 1996, 1997, 1198, 1199, 2000 und 2001) und nicht um eine eingehende Verbindung.
 
-> **Warum Jeedom DNS meinen Zugriff darauf schützt**
+> **Warum schützt der Jeedom-DNS meinen Zugriff darauf?**
 >
-> Mit Jeedom DNS können Sie einen sehr wichtigen HTTPS-Zugriff einrichten. Dies garantiert, dass die Verbindung zwischen Ihrem Browser und Ihrem Jeedom verschlüsselt ist. Außerdem ist das gültige Zertifikat niemand in der Lage, sich als Ihr Jeedom auszugeben. Schließlich ist auch die VPN-Verbindung zwischen Ihrem Jeedom und unseren Servern verschlüsselt.
+> Die Jeedom-DNS ermöglichen die Einrichtung einer sehr wichtigen Funktion: den HTTPS-Zugang. Dieser gewährleistet, dass die Verbindung zwischen Ihrem Browser und Ihrem Jeedom verschlüsselt ist. Da das Zertifikat gültig ist, kann sich zudem niemand als Ihr Jeedom ausgeben. Schließlich ist auch die VPN-Verbindung zwischen Ihrem Jeedom und unseren Servern verschlüsselt.
 
-> **Ich habe den internen Listening-Port meines Jeedom geändert und der Jeedom-DNS funktioniert nicht mehr**
+> **Ich habe den internen Listening-Port meines Jeedom geändert und die Jeedom-DNS funktionieren nicht mehr**
 >
-> In der Tat funktioniert der Jeedom DNS nur, wenn Ihr Jeedom den lokalen Port 80 überwacht (alle anderen Ports auf der VPN-Schnittstelle sind beim Herstellen einer Verbindung geschlossen). Dies wirft keine Sicherheitsbedenken auf, da das VPN einen verschlüsselten Tunnel erstellt. Selbst wenn der Fluss an Port 80 frei ist, wird er im VPN-Tunnel verschlüsselt.
+> Tatsächlich funktioniert der Jeedom-DNS nur, wenn Ihr Jeedom auf dem lokalen Port 80 lauscht (alle anderen Ports sind bei der Verbindung über die VPN-Schnittstelle geschlossen). Dies stellt kein Sicherheitsrisiko dar, da das VPN einen verschlüsselten Tunnel erstellt; selbst wenn der Datenfluss auf Port 80 unverschlüsselt ist, wird er im VPN-Tunnel verschlüsselt.
 
 > **Ich habe keine Anmeldeseite, kann mich aber nicht anmelden**
 >
-> Stellen Sie sicher, dass Sie die Standardanmeldeinformationen für jeedom (admin / admin) geändert haben und dass Ihr Benutzer nicht nur lokal eingeschränkt ist.
+> Stellen Sie sicher, dass Sie die Standard-Anmeldedaten von Jeedom (admin/admin) geändert haben und dass Ihr Benutzer nicht nur lokal eingeschränkt ist.
 
-> **Meine Konfiguration ist gut, aber es ist unmöglich, eine Seite zu haben, die endlos umblättert**
+> **Meine Konfiguration ist korrekt, aber ich kann keine Seite aufrufen – der Ladevorgang läuft endlos weiter**
 >
 
-> **Ich habe den Fehler "ERROR: TUN / TAP dev / dev / net / tun kann nicht geöffnet werden: Keine solche Datei oder kein solches Verzeichnis (errno = 2)"**
+> **Ich erhalte die Fehlermeldung „ERROR: Cannot open TUN/TAP dev /dev/net/tun: No such file or directory (errno=2)“**
 >
-> Dieser Fehler tritt normalerweise bei Docker-Installationen auf, wie in der Dokumentation für angegeben [Kompatibilität](/compatibility) Docker-Unterstützung ist Beta gerade wegen dieser Art von Problem. Die Lösung besteht normalerweise darin, openvpn auf dem Host zu installieren (wenn möglich))
+> Dieser Fehler tritt in der Regel bei Docker-basierten Installationen auf, wie in der Dokumentation von [Kompatibilität](/compatibility) Die Docker-Unterstützung befindet sich gerade wegen solcher Probleme noch in der Beta-Phase. Die Lösung besteht in der Regel darin, OpenVPN auf dem Host zu installieren (sofern dies möglich ist).

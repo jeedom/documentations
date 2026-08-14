@@ -1,5 +1,5 @@
 # Preguntas frecuentes sobre Jeedom Atlas
 
-## Durante una prueba de conexión con el mercado, : "No se pudo resolver...."
+## Al intentar conectarme al Market, me aparece el mensaje: «Could not resolv...».
 
-Intenta reiniciar la caja Atlas. Este es un problema durante la negociación DHCP que no recupera el DNS correctamente, reiniciando el cuadro se corrige el problema (que generalmente solo ocurre una vez))
+Intenta reiniciar el router Atlas. Se trata de un problema durante la negociación DHCP que no recupera correctamente los DNS; reiniciar el router soluciona el problema (que, por lo general, solo ocurre una vez).

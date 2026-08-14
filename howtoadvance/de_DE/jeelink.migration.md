@@ -1,230 +1,230 @@
-# Jeelink-Migration
+# Migration zu Jeelink
 
-Wir werden hier sehen, wie eine Installation mit Jeedom im Slave-Modus mit dem Plugin "Jeedom Link" auf ein Jeedom migriert wird". Der Jeedom-Slave-Modus wird beim Übergang von Jeedom zu Version 3 abgebrochen.0 ist es notwendig, vor der Migration in den neuen Betriebsmodus fortzufahren.
+Hier erfahren Sie, wie Sie eine Jeedom-Installation im Slave-Modus auf ein Jeedom mit dem Plugin „Jeedom Link“ migrieren können. Da der Jeedom-Slave-Modus mit dem Übergang zu Jeedom Version 3.0 eingestellt wird, ist es notwendig, vorab die Migration auf den neuen Betriebsmodus durchzuführen.
 
-# Vorbereitung vor der Migration
+# Vorbereitungen vor der Migration
 
 > **Warnung**
 >
-> Es ist wichtig, die gesamte Dokumentation zu lesen, bevor Sie mit der Migration beginnen. Wichtige Informationen zu den Voraussetzungen für das Aktualisieren, Speichern und Wiederherstellen von Informationen sind für das ordnungsgemäße Verständnis des auszuführenden Vorgangs von wesentlicher Bedeutung. Wenn Sie diese Dokumentation nicht lesen, kann dies zu zerstörerischen Vorgängen bei Ihrer Installation führen. Wenn Sie einen Punkt nicht verstehen, zögern Sie nicht, Fragen im Forum zu stellen, bevor Sie mit dem Verfahren beginnen !
+> Es ist wichtig, diese Dokumentation vollständig durchzulesen, bevor Sie mit der Migration beginnen. Wichtige Informationen zu den Voraussetzungen für das Update sowie zur Datensicherung und -wiederherstellung sind für das richtige Verständnis des durchzuführenden Vorgangs unerlässlich. Wenn Sie diese Dokumentation nicht lesen, kann dies zu schwerwiegenden Schäden an Ihrer Anlage führen. Sollten Sie einen Punkt nicht verstehen, zögern Sie bitte nicht, im Forum Fragen zu stellen, bevor Sie mit dem Vorgang beginnen!
 
 > **Wichtig**
 >
-> Achten Sie darauf, dass Sie keine Geräte schleifen, indem Sie das Plugin "Jeedom Link" konfigurieren". Führen Sie zum Beispiel kein Equipment-X in einem Jeedom1 aus, das in einem Jeedom2 aufsteigt und dann in Jeedom1 wieder aufsteigt. Es könnte deine Jeedoms fallen lassen !
+> Achten Sie bei der Konfiguration des Plugins „Jeedom Link“ unbedingt darauf, keine Geräteschleifen zu bilden. Richten Sie beispielsweise kein Gerät X in einem Jeedom1 ein, das an ein Jeedom2 weitergeleitet wird und dann erneut an das Jeedom1 zurückgeleitet wird. Dies könnte zum Ausfall Ihrer Jeedom-Systeme führen!
 
-> **Notiz**
+> **Hinweis**
 >
-> Zum besseren Lesen und Verstehen dieses Tutorials werden hier die Begriffe verwendet :
+> Um das Verständnis dieses Tutorials zu erleichtern, finden Sie hier eine Liste der verwendeten Begriffe:
 >
-> - **Jeedom Ziel** : Server (Ihr alter Jeedom Master), der die Ausrüstung des zentralisiert **Jeedom (s) Quelle (n))**  Die Screenshots auf schwarzem Hintergrund entsprechen dem **Jeedom Ziel**.
+> - **Ziel-Jeedom**: Server (Ihr ehemaliger Jeedom-Master), der die Geräte des/der **Quell-Jeedom(s)** zentral verwaltet. Die Screenshots mit schwarzem Hintergrund beziehen sich auf das **Ziel-Jeedom**.
 >
-> - **Jeedom Source** : Server (Ihr / Ihr alter Jeedom Slave (s)), der Ihre Ausrüstung auf dem wieder zusammenbaut **Jeedom Ziel**.
+> - **Jeedom-Quelle**: Server (Ihr(e) ehemaliger(e) Jeedom-Slave(s)), der Ihre Geräte an den **Jeedom-Zielserver** meldet.
 >
-> - Die Begriffe von **Jeedom Meister** und **Jeedom Sklave** nicht mehr relevant. Die neue Betriebsart der Gerätesynchronisation zwischen mehreren Jeedoms kann bidirektional sein. Ein Jeedom-Server kann jetzt sein **Quelle** und **Ziel** während der alte Modus nur den Aufstieg der Ausrüstung von erlaubte  **der Sklave** zu **der Meister**. Mit dem neuen Modus ist es auch möglich, mehrere zu haben **Jeedom Ziele** für das gleiche **Jeedom Source**. Die Kommunikation zwischen Jeedoms kann jetzt auch über das Internet (Jeedom DNS oder andere) erfolgen).
+> - Die Begriffe **Jeedom-Master** und **Jeedom-Slave** sind nicht mehr aktuell. Der neue Synchronisationsmodus für Geräte zwischen mehreren Jeedom-Systemen kann bidirektional sein. Ein Jeedom-Server kann nun sowohl **Quelle** als auch **Ziel** sein, während im alten Modus nur die Übertragung von Geräten vom **Slave** zum **Master** möglich war. Mit dem neuen Modus ist es zudem möglich, mehrere **Jeedom-Ziele** für ein und dieselbe **Jeedom-Quelle** zu haben. Die Kommunikation zwischen den Jeedoms kann nun auch aus der Ferne über das Internet erfolgen (Jeedom-DNS oder andere).
 
 ![jeelink.migration9](../images/jeelink.migration9.png)
 
-## Konfigurationsaktualisierungen und Überprüfung
+## Updates und Konfigurationsprüfung
 
--   Aktualisieren Sie die **Jeedom Meister** auf die neueste Version (auch wenn Ihnen kein Update angeboten wird).
--   Plugins von aktualisieren **Jeedom Meister** die neuesten verfügbaren Versionen.
--   Überprüfen Sie auf der Seite Health die interne Netzwerkkonfiguration des **Jeedom Meister** ist OK (und extern, wenn Ihr **Jeedoms Quellen** wird entfernt sein).
+-   Aktualisieren Sie den **Jeedom-Master** auf die neueste Version (auch wenn kein Update angeboten wird).
+-   Aktualisieren Sie die Plugins des **Jeedom Master** auf die neuesten verfügbaren Versionen.
+-   Überprüfen Sie auf der Seite „Gesundheit“, ob die interne Netzwerkkonfiguration des **Jeedom-Masters** in Ordnung ist (sowie die externe, falls Ihre **Jeedom-Quellen** an entfernten Standorten liegen).
 
-## Nützliche Informationen sammeln
+## Zusammenstellung nützlicher Informationen
 
-Abhängig von den auf Ihrem installierten Plugins **Jeedom Sklave**, Die folgenden Informationen müssen abgerufen werden :
+Je nach den auf Ihrem **Jeedom-Slave** installierten Plugins müssen folgende Informationen abgerufen werden:
 
-### Zwave Plugin
+### Z-Wave-Plugin
 
--   Auf der Gesundheitsseite des Zwave-Plugins auf der **Jeedom Meister**, wähle dein **Sklave** im Dropdown-Menü und machen Sie einen Screenshot, um eine Liste der Geräte zu erhalten, die von ihm kommen.
--   Hinweis für jedes Gerät, das von kommt **der Sklave** : übergeordnetes Objekt, Name, ID (Knoten), Modell.
--   Zwcfg-Datei wiederherstellen : *Plugins ⇒ Plugin Management ⇒ Z-Welle*. Klicken Sie auf die rote Schaltfläche *Zwcfg* und kopieren Sie den Inhalt in eine Textdatei auf Ihrem Computer.
+-   Wählen Sie auf der Seite „Status“ des Z-Wave-Plugins auf dem **Jeedom-Master** Ihren **Slave** aus dem Dropdown-Menü aus und erstellen Sie einen Screenshot, um eine Liste der von diesem Slave stammenden Geräte zu erhalten.
+-   Notieren Sie für jedes Gerät von **l’Esclave**: das übergeordnete Objekt, den Namen, die ID (Node) und das Modell.
+-   Rufen Sie die Zwcfg-Datei ab: *Plugins ⇒ Plugin-Verwaltung ⇒ Z-Wave*. Klicken Sie auf die rote Schaltfläche *Zwcfg* und kopieren Sie den Inhalt in eine Textdatei auf Ihrem Computer.
 
-### RFXcom Plugin
+### RFXcom-Plugin
 
--   Hinweis für jedes Gerät, das von kommt **der Sklave** : übergeordnetes Objekt, Name, ID (logisch), Typ, Modell.
+-   Notieren Sie für jedes Gerät, das von **l’Esclave** stammt: das übergeordnete Objekt, den Namen, die ID (logisch), den Typ und das Modell.
 
-> **Notiz**
+> **Hinweis**
 >
-> Ein nicht erschöpfendes Informationsblatt, das für die Migration zu beachten ist, ist verfügbar [hier](../images/MemoMigration.xls)
+> Eine nicht vollständige Übersicht über die für die Migration zu beachtenden Informationen ist verfügbar [hier](../images/MemoMigration.xls)
 
-## Vorbeugende Backups
+## Vorbeugende Datensicherungen
 
--   Mach a [Jeedom Backup](/core/backup) von dir **Jeedom Meister** und dein (dein) **Jeedom Slave (s)** und stellen Sie es auf Ihrem PC / NAS wieder her….
--   Mach a [SD / Disk-Backup](/howto/sauvegarde.comment_faire#_sauvegarde_restauration_de_la_carte_microsd) von dir **Jeedom Meister** und dein (dein) **Jeedom Slave (s)** und stellen Sie sie auf Ihrem PC / NAS wieder her….
+-   Eine [Jeedom-Sicherung](/core/backup) Ihrer **Jeedom-Master** und Ihrer **Jeedom-Slave(s)** und diese auf Ihrem PC/NAS abrufen…​.
+-   Eine [Sicherung auf SD-Karte/Festplatte](/howto/sauvegarde.comment_faire#_sauvegarde_restauration_de_la_carte_microsd) Ihres **Jeedom-Master** und Ihres (Ihrer) **Jeedom-Slaves** und diese auf Ihrem PC/NAS abrufen…​.
 
 # Migration
 
-> **Notiz**
+> **Hinweis**
 >
-> Löschen Sie keine alten Geräte aus  **der Sklave** auf **der Meister**.
+> Die alten Geräte von **dem Slave** auf **dem Master** vorerst nicht entfernen.
 
-## Installieren und aktivieren Sie das Plugin "Jeedom Link" auf der **Jeedom Ziel** (ehemaliger Meister).
+## Installieren und aktivieren Sie das Plugin „Jeedom Link“ auf dem **Ziel-Jeedom** (ehemals Master).
 
-Auf deine **Jeedom Ziel**, *Plugins ⇒ Verwaltung von Plugins* :
+Auf Ihrem **Jeedom-Zielserver**, *Plugins ⇒ Plugin-Verwaltung*:
 
 ![jeelink.migration1](../images/jeelink.migration1.png)
 
 ## Installation von **Jeedom Source**
 
-> **Notiz**
+> **Hinweis**
 >
-> Wenn Sie einen zusätzlichen Raspberry Pi und eine andere SD-Karte haben, können Sie ein Protokoll nach dem anderen migrieren, indem Sie ein neues installieren **Jeedom Source** parallel, ohne dass Sie Ihre berühren müssen **Jeedom Sklave** bestehenden. Offensichtlich durch Verschieben möglicher Controller von einem zum anderen.
+> Wenn Sie über einen zusätzlichen Raspberry Pi und eine weitere SD-Karte verfügen, können Sie die Migration Protokoll für Protokoll durchführen, indem Sie parallel dazu ein neues **Jeedom-Source** installieren, ohne Ihr bestehendes **Jeedom-Slave** zu verändern. Dabei verschieben Sie natürlich nach und nach die jeweiligen Steuerungen von einem auf das andere.
 
 > **Warnung**
 >
-> Wenn Sie Ihr vorhandenes RaspberryPi verwenden, lesen Sie bitte das Sicherungskapitel dieser Dokumentation.
+> Wenn Sie Ihren vorhandenen Raspberry Pi verwenden, stellen Sie bitte sicher, dass Sie die Anweisungen im Kapitel „Sicherung“ dieser Dokumentation befolgt haben.
 
-> **Notiz**
+> **Hinweis**
 >
-> Wenn Sie den vorhandenen Raspberry Pi verwenden, der derzeit ein  **Jeedom Sklave**, Wir empfehlen Ihnen, eine neue SD / microSD-Karte zu verwenden. Auf diese Weise können Sie bei Bedarf problemlos zurückverfolgen.
+> Wenn Sie den vorhandenen Raspberry Pi verwenden, der derzeit als **Jeedom-Slave** fungiert, empfehlen wir Ihnen, eine neue SD-/microSD-Karte zu verwenden. So können Sie bei Bedarf problemlos einen Rückschritt durchführen.
 
--   Installieren Sie ein neues Jeedom auf einer neuen SD-Karte (ob Sie Ihre einlegen möchten **Jeedom Sklave** vorhanden oder für einen neuen Raspberry Pi) durch Befolgen der [Installationsdokumentation](/installation).
--   Aktualisieren Sie die **Jeedom Source** auf die neueste Version (auch wenn Ihnen kein Update angeboten wird).
--   Überprüfen Sie auf der Seite Health die interne Netzwerkkonfiguration (und gegebenenfalls die externe) des **Jeedom Source** ist ok.
+-   Installieren Sie ein neues Jeedom auf einer neuen SD-Karte (sei es für Ihren bestehenden **Jeedom-Slave** oder für einen neuen Raspberry Pi), indem Sie die folgenden Schritte befolgen: [Installationsanleitung](/installation).
+-   Aktualisieren Sie die **Jeedom-Quelle** auf die neueste Version (auch wenn kein Update angeboten wird).
+-   Überprüfen Sie auf der Seite „Status“, ob die interne (und gegebenenfalls externe) Netzwerkkonfiguration des **Jeedom Source** in Ordnung ist.
 
-## Konfiguration der Jeedom-Quelle
+## Einrichtung der Jeedom-Quelle
 
--   Ändern Sie das Passwort des Administrators oder / und konfigurieren Sie einen neuen Benutzer.
--   Konfigurieren Sie Ihr Jeedom Market-Konto (*Konfiguration ⇒ Updates und Dateien ⇒ Registerkarte "Markt""*). Klicken Sie nach dem Speichern auf Test, um die Eingabe Ihrer Jeedom Market-IDs zu bestätigen).
--   Installation und Aktivierung des Plugins "Jeedom Link" auf dem neuen **Jeedom Source**.
+-   Das Passwort des Benutzers „admin“ ändern und/oder einen neuen Benutzer anlegen.
+-   Konfigurieren Sie Ihr Jeedom Market-Konto (*Einstellungen ⇒ Updates und Dateien ⇒ Registerkarte „Market“*). Klicken Sie nach dem Speichern auf „Testen“, um die Eingabe Ihrer Jeedom Market-Anmeldedaten zu überprüfen.
+-   Installation und Aktivierung des Plugins „Jeedom Link“ auf dem neuen **Jeedom Source**.
 ![jeelink.migration2](../images/jeelink.migration2.png)
--   Installation und Aktivierung von Plugins, die Sie verwenden möchten. (Es ist ratsam, sie einzeln durchzuführen und jedes Mal zu überprüfen, ob die Abhängigkeiten und Dämonen in Ordnung sind).
--   Erstellen Sie den Baum der Objekte (nur die, die für Sie nützlich sein werden) des **Jeedom Ziel** (Alter Meister) auf Ihrem neuen **Jeedom Source** (Ehemaliger Sklave).
+-   Installation und Aktivierung der Plugins, die Sie verwenden möchten. (Es wird empfohlen, diese nacheinander zu installieren und dabei jedes Mal sorgfältig zu überprüfen, ob die Abhängigkeiten und eventuelle Daemons in Ordnung sind.)
+-   Erstellen Sie die Objektstruktur (nur die Objekte, die Sie benötigen) des **Ziel-Jeedom** (ehemals Master) auf Ihrem neuen **Quell-Jeedom** (ehemals Slave) neu.
 
-## Konfiguration der Ausrüstung auf dem **Jeedom Source**
+## Konfiguration der Geräte auf **Jeedom Source**
 
-Senden von Geräten auf dem **Jeedom Source** in Richtung **Jeedom Ziel** über das Plugin "Jeedom Link" muss es auf Ihrem neuen bereits betriebsbereit sein **Jeedom Source**.
+Um ein Gerät von der **Jeedom-Quelle** über das Plugin „Jeedom Link“ an die **Jeedom-Zielinstanz** zu übertragen, muss dieses Plugin bereits auf Ihrer neuen **Jeedom-Quelle** aktiv sein.
 
-> **Notiz**
+> **Hinweis**
 >
-> Denken Sie daran, die Protokollierung von Info-Befehlen für jedes Gerät auf dem Gerät zu deaktivieren **Jeedom Source** um die SD-Karte davon zu speichern (Historisierung wird auf dem durchgeführt  **Jeedom Ziel**).
+> Denken Sie daran, nach und nach die Protokollierung der Befehle und Informationen für jedes Gerät auf dem **Jeedom-Quellserver** zu deaktivieren, um dessen SD-Karte zu schonen (die Protokollierung erfolgt auf dem **Jeedom-Zielserver**).
 
-> **Notiz**
+> **Hinweis**
 >
-> Sie können die Ausrüstung auch schrittweise den auf dem neu erstellten Objekten zuweisen **Jeedom Source** damit sie später automatisch in das richtige Objekt auf dem platziert werden **Jeedom Ziel** bei der Deklaration im Jeedom Link Plugin". Im Falle eines doppelten Namens mit Geräten, die bereits in den Objekten des **Jeedom Ziel**,  Das Plugin fügt dem Namen des Geräts "remote XXXX" hinzu.
+> Sie können die Geräte nach und nach auch den auf dem **Jeedom-Quellserver** neu erstellten Objekten zuweisen, damit sie später bei der Deklaration im Plugin „Jeedom Link“ automatisch dem richtigen Objekt auf dem **Jeedom-Zielserver** zugeordnet werden. Bei Namenskonflikten mit einem Gerät, das bereits in den Objekten des **Jeedom-Ziels** vorhanden ist, fügt das Plugin „remote XXXX“ an den Namen des Geräts an.
 
-### Zwave Plugin
+### Z-Wave-Plugin
 
--   Klicken Sie auf die Schaltfläche "Synchronisieren", um die Ihrem Controller zugeordneten Module abzurufen. (Sie werden in Erinnerung behalten)
--   Datei ersetzen *Zwcfg* : *Plugins ⇒ Plugin Management ⇒ Z-Welle*. Klicken Sie auf die rote Schaltfläche *Zwcfg* und fügen Sie den Inhalt der zuvor auf Ihrem Computer erstellten Textdatei ein. *Änderungen speichern*.
--   Benennen Sie Ihre Module um und platzieren Sie sie mithilfe Ihres Migrationsprotokolls in den gewünschten Objekten.
+-   Klicken Sie auf die Schaltfläche „Synchronisieren“, um die mit Ihrem Controller verbundenen Module abzurufen. (Diese werden im Speicher des Controllers gespeichert.)
+-   Ersetzen Sie die Datei *Zwcfg*: *Plugins ⇒ Plugin-Verwaltung ⇒ Z-Wave*. Klicken Sie auf die rote Schaltfläche *Zwcfg* und fügen Sie den Inhalt der zuvor auf Ihrem Computer erstellten Textdatei ein. *Änderungen speichern*.
+-   Benennen Sie Ihre Module um und ordnen Sie sie mithilfe Ihrer Migrationsnotizen den gewünschten Objekten zu.
 
-### RFXcom Plugin :
+### Rfxcom-Plugin:
 
-#### Sonden, Sensoren, Detektoren,…
+#### Fühler, Sensoren, Detektoren,…​
 
--   Schalten Sie das Plugin in den Einschlussmodus.
--   Wiederholen Sie die Aufnahme, bis Sie alle Geräte dieses Typs haben.
--   Benennen Sie Ihre Geräte um und platzieren Sie sie mithilfe Ihres Migrationsprotokolls in den gewünschten Objekten.
+-   Das Plugin in den Einbindungsmodus versetzen.
+-   Wiederholen Sie den Vorgang, bis alle Geräte dieser Art erfasst sind.
+-   Benennen Sie Ihre Geräte um und ordnen Sie sie mithilfe Ihrer Migrationsnotizen den gewünschten Objekten zu.
 
-#### Aktoren, Steckdosen,…
+#### Aktoren, Steckdosen, …​
 
--   Neue Ausrüstung hinzufügen.
--   Definieren Sie den Namen, die ID, das übergeordnete Objekt, den Gerätetyp und das Modell mithilfe Ihres Migrationsprotokolls.
--   Wiederholen Sie dies für alle Ihre Geräte dieses Typs.
+-   Ein neues Gerät hinzufügen.
+-   Legen Sie den Namen, die ID, das übergeordnete Objekt, den Gerätetyp und das Modell anhand Ihrer Migrationsnotizen fest.
+-   Wiederholen Sie diesen Vorgang für alle Ihre Geräte dieser Art.
 
-## Konfiguration des "Jeedom Link Plugins""
+## Konfiguration des Plugins „Jeedom Link“
 
-Das "Jeedom Link" Plugin ist auf dem installiert **Jeedom Source** ermöglicht die Aufrüstung der Ausrüstung auf die **Jeedom Ziel** (Dein alter Meister).
+Das auf dem **Jeedom-Quellserver** installierte Plugin „Jeedom Link“ ermöglicht die Übertragung der Geräte auf den **Jeedom-Zielserver** (Ihren bisherigen Master).
 
-> **Notiz**
+> **Hinweis**
 >
-> Zur besseren Lektüre und zum besseren Verständnis dieses Tutorials :
+> Zur Erinnerung, damit Sie dieses Tutorial besser lesen und verstehen können:
 >
-> - Die Screenshots auf schwarzem Hintergrund entsprechen dem **Jeedom Ziel**.
-> - Die Screenshots auf weißem Hintergrund entsprechen **Jeedom Source**.
+> - Die Screenshots auf schwarzem Hintergrund stammen aus **Jeedom Cible**.
+> - Die Screenshots auf weißem Hintergrund stammen aus **Jeedom Source**.
 
-Auf dem **Jeedom Source**,
-[Projektierungs](/plugins/communication/jeelink)
-das "Jeedom Link" Plugin durch Angabe :
+Auf der **Jeedom Source**,
+[konfigurieren](/plugins/communication/jeelink)
+das Plugin „Jeedom Link“ mit folgenden Angaben:
 
--   Der Name von **Jeedom Ziel**.
--   Die IP-Adresse oder der DNS-Name des **Jeedom Ziel**.
--   Der API-Schlüssel von **Jeedom Ziel**.
+-   Der Name des **Jeedom-Ziels**.
+-   Die IP-Adresse oder der DNS-Name des **Jeedom-Ziels**.
+-   Der API-Schlüssel für **Jeedom Cible**.
 
 Und speichern Sie die Konfiguration.
 
 ![jeelink.migration3](../images/jeelink.migration3.png)
 
-In der Registerkarte *Zuordnung*, Fügen Sie die Ausrüstung hinzu, zu der Sie zurückkehren möchten **Jeedom Ziel**.
+Fügen Sie auf der Registerkarte *Zuweisung* die Geräte hinzu, die Sie an das **Ziel-Jeedom** melden möchten.
 
 ![jeelink.migration4](../images/jeelink.migration4.png)
 
-Klicken Sie auf *Ausrüstung hinzufügen* Wählen Sie das Objekt und die Ausrüstung aus, die hinzugefügt werden sollen :
+Klicken Sie auf *Gerät hinzufügen*. Wählen Sie das Objekt und das hinzuzufügende Gerät aus:
 
 ![jeelink.migration5](../images/jeelink.migration5.png)
 
-Nach dem Aktualisieren der Seite *Meine Jeelinks* die **Jeedom Ziel**, Sie sollten die automatische Erstellung der Ausrüstung sehen :
+Nachdem Sie die Seite *Meine JeeLinks* des **Jeedom-Ziels** aktualisiert haben, sollten Sie feststellen, dass das Gerät automatisch angelegt wurde:
 
 ![jeelink.migration6](../images/jeelink.migration6.png)
 
-Wie bei allen Jeedom-Geräten können Sie das Gerät, seine Steuerelemente usw. aktivieren / deaktivieren und anzeigen oder nicht oder die Kategorie ändern :
+Wie bei jedem Jeedom-Gerät können Sie das Gerät aktivieren/deaktivieren, es anzeigen oder ausblenden, seine Befehle anzeigen … oder die Kategorie ändern:
 
 ![jeelink.migration7](../images/jeelink.migration7.png)
 
-In der Registerkarte *Befehle*, Sie greifen auf alle Parameter der Gerätesteuerung zu :
+Auf der Registerkarte *Steuerung* können Sie auf alle Parameter der Gerätesteuerung zugreifen:
 
 ![jeelink.migration8](../images/jeelink.migration8.png)
 
-## Historische Erholung
+## Abruf von Verlaufsdaten
 
-> **Notiz**
+> **Hinweis**
 >
-> Weiter machen **Jeedom Ziel** (Ehemaliger Meister) für jeden Infobefehl der Ausrüstung des ersteren **Sklave** wessen Geschichte wir wiederherstellen wollen.
+> Auf dem **Jeedom-Zielserver** (ehemals „Master“) muss für jeden Befehl eine Abfrage der Geräteinformationen des ehemaligen **Slaves** erfolgen, dessen Verlaufsdaten abgerufen werden sollen.
 
--   Gehen Sie zur Bestellkonfiguration (*Zahnrad rechts*).
--   Gehen Sie zur Registerkarte *Erweiterte Konfiguration*.
--   Klicken Sie auf die Schaltfläche *Kopieren der Chronik von diesem Befehls auf einen anderen Befehl*.
--   Suchen Sie die entsprechende Bestellung für das entsprechende neue JeeLink-Gerät und bestätigen Sie.
+-   Gehen Sie zu den Steuerungseinstellungen (*Zahnrad rechts*).
+-   Wechseln Sie zur Registerkarte *Erweiterte Einstellungen*.
+-   Klicken Sie auf die Schaltfläche *Verlauf dieser Bestellung auf eine andere Bestellung kopieren*.
+-   Suchen Sie den entsprechenden Befehl für das neue JeeLink-Gerät und bestätigen Sie die Auswahl.
 
-## Ersatz alter Slave-Geräte in Szenarien / virtuell /…
+## Ersetzen der alten Slave-Geräte in den Szenarien/virtuellen Geräten/…​
 
-> **Notiz**
+> **Hinweis**
 >
-> Weiter machen **Jeedom Ziel** (Ehemaliger Meister) für jeden Info- / Aktionsbefehl der Ausrüstung des ersteren **Sklave** wessen Vorkommen wir in Szenarien / virtual /… ersetzen wollen
+> Auf dem **Jeedom-Ziel** (ehemals „Master“) ist für jeden Befehl „info/action“ der Geräte des ehemaligen **Slaves**, deren Instanzen in den Szenarien/virtuellen Geräten/… ersetzt werden sollen, Folgendes zu tun:
 
--   Gehen Sie zur Bestellkonfiguration (*Zahnrad rechts*).
--   Gehen Sie zur Registerkarte *Information*.
+-   Gehen Sie zu den Steuerungseinstellungen (*Zahnrad rechts*).
+-   Wechseln Sie zur Registerkarte *Informationen*.
 -   Klicken Sie auf die Schaltfläche *Diesen Befehl durch den Befehl ersetzen*.
--   Suchen Sie die entsprechende Bestellung für das entsprechende neue JeeLink-Gerät und bestätigen Sie.
+-   Suchen Sie den entsprechenden Befehl für das neue JeeLink-Gerät und bestätigen Sie die Auswahl.
 
-## Abrufen erweiterter Anzeigekonfigurationen für Befehle
+## Abruf der erweiterten Anzeigeeinstellungen der Befehle
 
-> **Notiz**
+> **Hinweis**
 >
-> Weiter machen **Jeedom Ziel** (Ehemaliger Meister) für jeden Info- / Aktionsbefehl der Ausrüstung des ersteren **Sklave** welche wir erweiterte Anzeigeeinstellungen abrufen möchten.
+> Dies muss auf dem **Jeedom-Ziel** (ehemals „Master“) für jeden Befehl „info/action“ der Geräte des ehemaligen **Slaves** durchgeführt werden, deren erweiterte Anzeigeeinstellungen abgerufen werden sollen.
 
--   Gehen Sie zur Bestellkonfiguration (*Zahnrad rechts*).
--   Klicken Sie auf die Schaltfläche *Übernehmen*.
--   Suchen Sie den entsprechenden Befehl für das entsprechende neue JeeLink-Gerät, wählen Sie ihn aus und bestätigen Sie ihn.
+-   Gehen Sie zu den Steuerungseinstellungen (*Zahnrad rechts*).
+-   Klicken Sie auf die Schaltfläche *Anwenden auf*.
+-   Suchen Sie den entsprechenden Befehl für das neue JeeLink-Gerät, wählen Sie ihn aus und bestätigen Sie.
 
-## Kopie der erweiterten Befehlskonfigurationen
+## Übertragung der erweiterten Konfigurationen der Befehle
 
-> **Notiz**
+> **Hinweis**
 >
-> Weiter machen **Jeedom Ziel** (Ehemaliger Meister) für jeden Info- / Aktionsbefehl der Ausrüstung des ersteren **Sklave** die wir wollen die erweiterte Konfiguration wiederherstellen.
+> Auf dem **Jeedom-Ziel** (ehemals „Master“) ist für jeden Befehl „info/action“ der Geräte des ehemaligen **Slaves**, deren erweiterte Konfiguration übernommen werden soll, Folgendes durchzuführen.
 
--   Auf dieser Ebene ist dies keine einfache Lösung. In Ihrem Browser müssen zwei Registerkarten / Fenster geöffnet sein.
--   Offene Bestellungen für Altgeräte **Sklave** in einer Registerkarte (Jeedom Target).
--   Öffnen Sie die Steuerelemente für jeeLink-Geräte auf der anderen Registerkarte (Jeedom Target)).
--   Und kopieren Sie die gewünschten Parameter von Hand.
+-   Hier gibt es keine einfache Lösung; Sie müssen zwei Registerkarten bzw. Fenster in Ihrem Browser geöffnet haben.
+-   Die Befehle für die Geräte des ehemaligen **Slaves** in einem Reiter öffnen (Jeedom-Ziel).
+-   Öffnen Sie die Befehle für die jeeLink-Geräte im anderen Reiter (Jeedom-Ziel).
+-   Und die gewünschten Einstellungen von Hand eintragen.
 
-> **Notiz**
+> **Hinweis**
 >
-> Um zu vermeiden, dass derselbe Befehl mehrmals wiederholt wird, führen Sie die Schritte 2.6 → 2 aus.9 kann nacheinander in derselben Reihenfolge ausgeführt werden, bevor mit dem Folgenden fortgefahren wird.
+> Um zu vermeiden, dass derselbe Befehl mehrmals aufgerufen werden muss, können die Schritte 2.6→2.9 nacheinander im selben Befehl ausgeführt werden, bevor man zu den nächsten übergeht.
 
 > **Warnung**
 >
-> Interaktionen auf dem **Jeedom Ziel** kann nicht mit Geräten von a gestartet werden **Jeedom Source** über das Jeedom Link Plugin übertragen".
+> Interaktionen auf dem **Jeedom-Ziel** können nicht über Geräte eines **Jeedom-Quellsystems** ausgelöst werden, die über das Plugin „Jeedom Link“ übertragen werden.
 
-# Haushalt auf der **Jeedom Ziel**
+# Haushaltsführung auf dem **Jeedom Cible**
 
-> **Notiz**
+> **Hinweis**
 >
-> Nachdem Sie mit Sicherheit überprüft haben, dass Ihre Geräte / Szenarien / Interaktionen / virtuell /…. Arbeiten Sie gut mit dem neuen Jeelink-System, können Sie die Reinigung durchführen.
+> Nachdem Sie sich vergewissert haben, dass Ihre Geräte/Szenarien/Interaktionen/virtuellen Elemente/… mit dem neuen Jeelink-System einwandfrei funktionieren, können Sie mit der Bereinigung fortfahren.
 
--   Entfernen Sie restliche Ausrüstung von der alten **Jeedom Sklave**.
--   Deaktivieren und löschen Sie Plugins, die für Sie nicht mehr nützlich sind (für die Sie nur Geräte auf dem Slave hatten).
--   Benennen Sie im Plugin "Jeedom Link" das Gerät um, dessen Name mit "remote" enden könnte XXXX".
--   Löschen Sie auf der Seite Jeedom Network die alte **Jeedom Sklave**.
+-   Die verbleibenden Geräte des alten **Jeedom-Slaves** entfernen.
+-   Deaktivieren und löschen Sie Plugins, die Sie nicht mehr benötigen (d. h. solche, für die Sie nur Geräte auf dem Slave hatten).
+-   Benennen Sie im Plugin „Jeedom Link“ die Geräte um, deren Name möglicherweise auf „remote XXXX“ endet.
+-   Löschen Sie auf der Seite „Jeedom-Netzwerk“ den alten **Jeedom-Slave**.

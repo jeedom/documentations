@@ -1,10 +1,10 @@
-# MySQL-Tipps und Tricks
+# MySQL – Tipps und Tricks
 
-Nicht wirklich ein Howto hier, sondern eher eine Sammlung von Tipps und Tricks zu MySQL
+Das hier ist nicht wirklich eine Anleitung, sondern eher eine Sammlung von Tipps und Tricks zu MySQL
 
-# Deaktivieren Sie die Schemaleistung
+# Leistungsschema deaktivieren
 
-Bearbeiten Sie die Datei ``/etc/mysql/mysql.conf.d/mysqld.cnf`` Und hinzufügen :
+Datei bearbeiten ``/etc/mysql/mysql.conf.d/mysqld.cnf`` und fügen Sie dort Folgendes hinzu:
 
 ````
 [mysqld]
@@ -15,14 +15,14 @@ performance_schema=OFF
 
 > **Wichtig**
 >
-> Diese Methode erfolgt auf eigenes Risiko. Bei Bedenken ist keine Unterstützung möglich.
+> Die Anwendung dieser Methode erfolgt auf eigene Gefahr. Bei Problemen kann kein Support geleistet werden.
 
--   Stoppen Sie den MySQL-Daemon und löschen Sie die Protokolldateien :
+-   Beenden Sie den MySQL-Daemon und löschen Sie die Protokolldateien:
 ````
 service mysql stop
 rm /var/lib/mysql/ib_logfile*
 ````
--   Dann mach es :
+-   Führen Sie anschließend Folgendes aus:
 ````
 touch /etc/mysql/conf.d/jeedom_my.cnf
 echo "[mysqld]" >> /etc/mysql/conf.d/jeedom_my.cnf
@@ -38,4 +38,4 @@ echo "innodb_flush_method = O_DIRECT" >> /etc/mysql/conf.d/jeedom_my.cnf
 echo "innodb_flush_log_at_trx_commit = 2" >> /etc/mysql/conf.d/jeedom_my.cnf
 echo "innodb_log_file_size = 32M" >> /etc/mysql/conf.d/jeedom_my.cnf
 ````
--   Starten Sie MySQL neu : ``service mysql start``
+-   MySQL neu starten: ``service mysql start``

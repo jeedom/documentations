@@ -1,192 +1,166 @@
-# Compatibilité
+# Compatibilidad
 
->**INFORMATION**
+>**INFORMACIÓN**
 >
->L'équipe Jeedom s'efforce de maintenir ces informations à jour, parfois au détriment d'autres développements. L'assistance de la communauté est précieuse à tout niveau de la documentation, cette page faisant partie des priorités.
+>El equipo de Jeedom se esfuerza por mantener esta información actualizada, a veces en detrimento de otros desarrollos. La colaboración de la comunidad es muy valiosa en todos los aspectos de la documentación, y esta página es una de las prioridades.
 
-## Boxes officielles
+## Cajas oficiales
 
-**Jeedom et Domadoo** développent et commercialisent des boxes officielles « clé en main », avec Jeedom préinstallé sur un système optimisé et incluant des services, des plugins ainsi qu'un support technique renforcé. Les boxes officielles bénéficient également d'un outil de restauration système automatique.
+**Jeedom y Domadoo** desarrollan y comercializan dispositivos oficiales «listos para usar», con Jeedom preinstalado en un sistema optimizado que incluye servicios, complementos y un servicio de asistencia técnica reforzado. Los dispositivos oficiales también cuentan con una herramienta de restauración automática del sistema.
 
 {% include lightbox.html src="../images/tableau-comparatif-atlas-et-luna.jpg" data="AtlasLuna" title="Jeedom Atlas & Jeedom Luna" imgstyle="display:block;margin:0 auto;" %}
 
-| Jeedom Atlas            | Jeedom Luna             |
+| Jeedom Atlas | Jeedom Luna |
 |-------------------------|-------------------------|
-| [Atlas **sans protocole**](https://www.domadoo.fr/fr/box-domotique/7329-jeedom-controleur-domotique-jeedom-atlas-sans-protocole.html){:target="_blank"} | [Luna **Z-Wave, Zigbee + BT**](https://www.domadoo.fr/fr/box-domotique/6280-jeedom-controleur-domotique-jeedom-luna-z-wave700-zigbee30-bt.html){:target="_blank"} |
+| [Atlas **sin protocolo**](https://www.domadoo.fr/fr/box-domotique/7329-jeedom-controleur-domotique-jeedom-atlas-sans-protocole.html){:target="_blank"} | [Luna **Z-Wave, Zigbee + BT**](https://www.domadoo.fr/fr/box-domotique/6280-jeedom-controleur-domotique-jeedom-luna-z-wave700-zigbee30-bt.html){:target="_blank"} |
 | [Atlas **EnOcean**](https://www.domadoo.fr/fr/box-domotique/5877-jeedom-atlas-enocean.html){:target="_blank"} | [Luna **Z-Wave, Zigbee + 4G**](https://www.domadoo.fr/fr/box-domotique/6615-jeedom-controleur-domotique-jeedom-luna-z-wave-zigbee-et-4g.html){:target="_blank"} |
-| [Atlas **EnOcean + clé Z-Wave ZOOZ**](https://www.domadoo.fr/fr/box-domotique/6857-jeedom-controleur-domotique-jeedom-atlas-enocean-dongle-z-wave-zooz.html){:target="_blank"} | [Luna **Z-Wave, Zigbee, LoRaWAN + 4G**](https://www.domadoo.fr/fr/box-domotique/6617-jeedom-controleur-domotique-jeedom-luna-z-wave-zigbee-lorawan-4g.html){:target="_blank"} |
-| [Atlas **Pro rail DIN sans protocole**](https://www.domadoo.fr/fr/box-domotique/6567-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-sans-antenne.html){:target="_blank"} |             |
-| [Atlas **Pro rail DIN EnOcean**](https://www.domadoo.fr/fr/box-domotique/6565-jeedom-atlas-pro-enocean.html){:target="_blank"} |             |
-| [Atlas **Pro rail DIN KNX**](https://www.domadoo.fr/fr/box-domotique/6563-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-knx.html){:target="_blank"} |             |
+| [Atlas **EnOcean + adaptador Z-Wave ZOOZ**](https://www.domadoo.fr/fr/box-domotique/6857-jeedom-controleur-domotique-jeedom-atlas-enocean-dongle-z-wave-zooz.html){:target="_blank"} | [Luna **Z-Wave, Zigbee, LoRaWAN + 4G**](https://www.domadoo.fr/fr/box-domotique/6617-jeedom-controleur-domotique-jeedom-luna-z-wave-zigbee-lorawan-4g.html){:target="_blank"} |
+| [Atlas **Pro: riel DIN sin protocolo**](https://www.domadoo.fr/fr/box-domotique/6567-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-sans-antenne.html){:target="_blank"} |             |
+| [Atlas **Pro, carril DIN EnOcean**](https://www.domadoo.fr/fr/box-domotique/6565-jeedom-atlas-pro-enocean.html){:target="_blank"} |             |
+| [Atlas **Pro, carril DIN KNX**](https://www.domadoo.fr/fr/box-domotique/6563-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-knx.html){:target="_blank"} |             |
 
->**INFORMATION**
+>**INFORMACIÓN**
 >
->Bien que plus commercialisée, la box Jeedom Smart reste une solution officielle tout à fait viable dont le système continue d'être maintenu par l'équipe.
+>Aunque ya no se comercializa tanto, la Jeedom Smart sigue siendo una solución oficial totalmente viable cuyo sistema sigue siendo mantenido por el equipo.
 
-## Matérielle
+## Equipos
 
-Nos recommandations vont dépendre de différents facteurs :
+Nuestras recomendaciones dependerán de varios factores:
 
-- **Jeedom Atlas ou Luna** : l'alliance de la simplicité, de l'optimisation et d'une compatibilité avancée.
-- **Nano-ordinateur** *(Odroid C2, Rock Pi, Rasperry Pi, etc.)* : le meilleur rapport performance/prix.
-- **Mini-PC** *(NUC)* : des performances extrêmes pour un budget plus conséquent *(voir [le tutoriel avancé dédié](../howtoadvance/vmware.installation_sur_nuc) pour plus de détails)*.
+- **Jeedom Atlas o Luna**: la combinación de simplicidad, optimización y compatibilidad avanzada.
+- **Nanoordenador** *(Odroid C2, Rock Pi, Raspberry Pi, etc.)*: la mejor relación rendimiento-precio.
+- **Mini-PC** *(NUC)*: rendimiento extremo para un presupuesto más elevado *(ver [el tutorial avanzado específico](/howtoadvance/vmware.installation_sur_nuc) para más detalles)*.
 
-### Matériels supportés
+### Dispositivos compatibles
 
->**Importante**
+>**IMPORTANTE**
 >
->Le support officiel concerne uniquement l'instance Jeedom. Seules les boxes officielles bénéficient également du support système *(hors modifications)*.
+>El soporte técnico oficial se limita exclusivamente a la instancia de Jeedom. Solo los dispositivos oficiales cuentan también con soporte técnico *(salvo modificaciones)*.
 
-| Boxes officielles      | Nano-ordinateurs       | Ordinateurs            | Hyperviseurs           |
+| Dispositivos oficiales | Nanocomputadoras | Ordenadores | Hipervisores |
 |------------------------|------------------------|------------------------|------------------------|
-| Smart, Atlas, Luna     | Odroid C2, Rock Pi Série 4, Raspberry Pi3/4 et assimilés | Systèmes 64 bits, Mini-PCs *(NUC)*, Processeur Intel® N100 | Systèmes 64 bits, VirtualBox, VMware, Proxmox, Hyper-V, Freebox |
+| Smart, Atlas, Luna     | Odroid C2, Rock Pi Serie 4, Raspberry Pi 3/4 y similares | Sistemas de 64 bits, mini-PC *(NUC)*, procesador Intel® N100 | Sistemas de 64 bits, VirtualBox, VMware, Proxmox, Hyper-V, Freebox |
 
-### Matériels non supportés
+### Equipos no compatibles
 
-| Boxes officielles      | Nano-ordinateurs       | Ordinateurs            | Hyperviseurs           |
+| Dispositivos oficiales | Nanocomputadoras | Ordenadores | Hipervisores |
 |------------------------|------------------------|------------------------|------------------------|
-| Jeedomboard, Mini+     | Hummingboard, Raspberry Pi0/1/2 et assimilés | Systèmes 32 bits | Systèmes 32 bits      |
+| Jeedomboard, Mini+     | Hummingboard, Raspberry Pi 0/1/2 y similares | Sistemas de 32 bits | Sistemas de 32 bits |
 
-## Logicielle
+## Por software
 
 ### Debian
 
-| Version            | Statut             |
+| Versión | Estado |
 |--------------------|--------------------|
-| Debian 11 Bullseye | Recommandé         |
-| Debian 12 Bookworm | Supporté *(4.5)*   |
-| Debian 13 Trixie   | En cours de validation |
-| Debian 10 Buster et antérieur | No compatible |
+| Debian 11 Bullseye | Recomendado |
+| Debian 12 Bookworm | Compatible *(4,5)*   |
+| Debian 13 Trixie   | En proceso de validación |
+| Debian 10 Buster y versiones anteriores | No compatible |
 
 ### PHP
 
-| Version            | Statut             |
+| Versión | Estado |
 |--------------------|--------------------|
-| PHP 7              | Recommandé         |
-| PHP 8              | Supporté *(4.5)*   |
-| PHP 5.6            | Fin de support *(4.1)* |
-| PHP 5.5 et antérieur | No compatible     |
+| PHP 7 | Recomendado |
+| PHP 8 | Compatible *(4.5)*   |
+| PHP 5.6 | Fin del soporte *(4.1)* |
+| PHP 5.5 y versiones anteriores | No compatible     |
 
 ### MySQL
 
-| Version            | Statut             |
+| Versión | Estado |
 |--------------------|--------------------|
-| Mysql 7.4          | Recommandé         |
-| MySQL 5.5/5.6/5.7  | Supporté           |
+| MySQL 7.4 | Recomendado |
+| MySQL 5.5/5.6/5.7  | Compatible |
 
 ### MariaDB
 
-| Version            | Statut             |
+| Versión | Estado |
 |--------------------|--------------------|
-| MariaDB 10         | Recommandé         |
+| MariaDB 10 | Recomendado |
 
-## Images système officielles
+## Imágenes oficiales del sistema
 
-L'équipe développe des images système sur-mesure à destination de nombreuses machines différentes, incluant Debian, Jeedom et toutes les dépendances logicielles recommandées :
+El equipo desarrolla imágenes de sistema a medida para una amplia variedad de dispositivos, incluyendo Debian, Jeedom y todas las dependencias de software recomendadas:
 
-| Image système      | Documentación      |
+| Imagen del sistema | Documentación |
 |--------------------|--------------------|
-| [Luna](https://images.jeedom.com/luna/){:target="_blank"} | [Installation sur Luna](/plugins/home%20automation%20protocol/luna) |
-| [Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Installation sur Atlas](../installation/recovery) |
-| [INTELIGENTE](https://images.jeedom.com/smart/){:target="_blank"} | [Installation sur Smart](../installation/recovery) |
-| [Ordinateurs](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation sur PC/mini-PC](../installation/baremetal) |
-| [Hyperviseurs](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation sur machine virtuelle](../installation/vm) |
-| [Caja libre](https://images.jeedom.com/freebox/){:target="_blank"} | [Installation sur Freebox](../installation/freeboxdelta) |
+| [Luna](https://images.jeedom.com/luna/){:target="_blank"} | [Instalación en Luna](/plugins/home%20automation%20protocol/luna) |
+| [Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Instalación en Atlas](/installation/recovery) |
+| [Inteligente](https://images.jeedom.com/smart/){:target="_blank"} | [Instalación en Smart](/installation/recovery) |
+| [Ordenadores](https://images.jeedom.com/x86-64/){:target="_blank"} | [Instalación en PC/mini-PC](/installation/baremetal) |
+| [Hipervisores](https://images.jeedom.com/x86-64/){:target="_blank"} | [Instalación en una máquina virtual](/installation/vm) |
+| [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [Instalación en Freebox](/installation/freeboxdelta) |
 
-### Vérification du fichier
+### Comprobación del archivo
 
-La **clé SHA256**, permettant de vérifier l'intégrité du fichier téléchargé, est consultable dans le fichier `info.json` situé dans le dossier de téléchargement.
+La **clave SHA256**, que permite verificar la integridad del archivo descargado, se puede consultar en el archivo `info.json` que se encuentra en la carpeta de descargas.
 
-### Première connexion
+### Primera conexión
 
-Consulter la documentation relative à la [**Première connexion**](../premiers-pas/#Première%20connexion) pour accéder à l'interface Jeedom suite à l'installation.
+Consulta la documentación relativa a la [**Primera conexión**](/premiers-pas/#Première%20connexion) para acceder a la interfaz de Jeedom tras la instalación.
 
-### Console système
+### Consola del sistema
 
->**Importante**
+>**IMPORTANTE**
 >
->Il n'est ni recommandé ni nécessaire d'intervenir au niveau de la console système pour utiliser Jeedom.\
->Toute modification du système est susceptible d'avoir un impact sur le bon fonctionnement de Jeedom.
+>No es recomendable ni necesario intervenir en la consola del sistema para utilizar Jeedom.\
+>Cualquier modificación del sistema puede afectar al correcto funcionamiento de Jeedom.
 
-Les identifiants, par défaut, pour accéder à la console système *(clavier/écran ou SSH)* sont : `jeedom/Mjeedom96`. Le mot de passe `root` est identique.
+Las credenciales predeterminadas para acceder a la consola del sistema *(teclado/pantalla o SSH)* son: `jeedom/Mjeedom96`. La contraseña `root` es idéntica.
 
 ## Equipos compatibles
 
-Encontrará aquí para los principales protocolos los enlaces a los equipos compatibles.
-Para los demás te invitamos a mirar directamente la documentación del plugin.
+Dependiendo de los protocolos y los complementos utilizados, no siempre es fácil saber si un módulo será compatible. Para ayudarte a determinar la compatibilidad de tu equipo, puedes consultar la página web [Compatibilidad con Jeedom](https://compatibility.jeedom.com/){:target="_blank"} cuya lista se mantiene actualizada por los propios complementos.
+
+Además, la información de esta página web puede contrastarse con la disponible en la tienda online de productos de domótica. [Domadoo](https://www.domadoo.fr/){:target="_blank"}.
+
+A continuación se incluyen algunos ejemplos de enlaces que puedes consultar según el protocolo en cuestión:
 
 ### Bluetooth
 
-Tu encontraras [aquí](https://compatibility.jeedom.com/index.php?p=home&plugin=blea) la lista de módulos Bluetooth compatibles con Jeedom.
+- [**Compatibilidad de Jeedom con Bluetooth**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=Bluetooth){:target="_blank"}
 
 ### Cámaras
 
-Tu encontraras [aquí](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=camera) la lista de cámaras compatibles con Jeedom.
-
-### Edisio
-
-Tu encontraras [aquí](../edisio/equipement.compatible) la lista de módulos Edisio compatibles con Jeedom y [aquí](../edisio/) documentación para algunos módulos.
+- [**Compatibilidad de Jeedom con cámaras**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=IP){:target="_blank"}
+- [**Domadoo - Cámaras**](https://www.domadoo.fr/fr/128-cameras-connectees){:target="_blank"}
 
 ### EnOcean
 
-Controlador ENOCEAN :
-
--   [clé USB EnOcean USB300](https://www.domadoo.fr/fr/interface-domotique/3206-enocean-controleur-usb-enocean-avec-connecteur-sma-3700527400280.html)
--   [clé USB EnOcean USB310 (Recommandé)](https://www.domadoo.fr/fr/interface-domotique/2433-enocean-controleur-usb-enocean-3700527400273.html)
-
-Tu encontraras [aquí](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) la lista de módulos EnOcean compatibles con Jeedom.
+- [**Compatibilidad entre Jeedom y EnOcean**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=EnOcean){:target="_blank"}
+- [**Domadoo - EnOcean**](https://www.domadoo.fr/fr/225-domotique-enocean){:target="_blank"}
 
 ### RFXcom
 
-Controlador RFXcom :
-
--   RFXtrx433 USB
--   [RFXtrx433E USB (recomendado)](https://www.domadoo.fr/fr/interface-domotique/4659-rfxcom-interface-radio-recepteuremetteur-xl-43392mhz-usb-chacon-somfy-rts-oregon-et-autres.html)
-
-Tu encontraras [aquí](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=rfxcom) la lista de módulos Rfxcom compatibles con Jeedom y [aquí](../rfxcom/) documentación para algunos módulos.
-
-### SMS (GSM)
-
--   HUAWEI E220 (Recomendado)
--   Alcatel one touch X220L
--   HSDPA 7.2MBPS 3G inalámbrico
+- [**Compatibilidad entre Jeedom y RFXcom**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=Rfxcom){:target="_blank"}
 
 ### Zigbee
 
-Controlador Zigbee :
+- [**Compatibilidad entre Jeedom y Zigbee**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=zigbee){:target="_blank"}
+- [**Domadoo - Zigbee**](https://www.domadoo.fr/fr/206-produits-zigbee){:target="_blank"}
 
-- [Phoscon Conbee I / II](https://www.domadoo.fr/fr/interface-domotique/4974-phoscon-passerelle-universelle-zigbee-usb-conbee-ii-4260350821328.html)
-- [Zigate (beta)](https://www.domadoo.fr/fr/interface-domotique/5734-lixee-dongle-usb-zigbee-zigate-v2-compatible-jeedom-eedomus-domoticz-3770014375094.html?search_query=zigate&results=106)
-- [Popp (Elelabs) - Recomendado](https://www.domadoo.fr/fr/interface-domotique/5431-popp-dongle-usb-zigbee-zb-stick-chipset-efr32mg13-4251295701554.html)
+### Z-Wave
 
-Tu encontraras [aquí](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) la lista de módulos Zigbee compatibles con Jeedom.
+- [**Compatibilidad entre Jeedom y Z-Wave**](https://compatibility.jeedom.com/index.php?v=d&p=home&protocol=Z-Wave){:target="_blank"}
+- [**Domadoo - Z-Wave**](https://www.domadoo.fr/fr/210-produits-zwave){:target="_blank"}
 
-### Z-wave
+## Ejemplo de instalación «hazlo tú mismo»
 
-Controlador Z-Wave :
+Para una instalación DIY (Do It Yourself), aquí tienes una configuración «típica» para empezar con Jeedom y Z-Wave:
 
--   DISEÑOS SIGMA Controlador USB Z-Wave Plus
--   Onda Z.ME - Mini controlador USB Z-Wave Plus UZB1
--   Controlador AEON LABS Z-Wave Aeon Labs Z-Stick S2
--   [AEON LABS - Controlador USB Z-Wave Plus Z-Stick GEN5 (recomendado)](https://www.domadoo.fr/fr/interface-domotique/2917-aeotec-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html?search_query=sigma&results=4)
+1.  Raspberry Pi 4:
 
-Tu encontraras [aquí](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openzwave) la lista de módulos Z-Wave compatibles con Jeedom y [aquí](../zwave/) documentación para algunos módulos.
+    -   Una Raspberry + carcasa, unos 50 €
+    -   Una llave Aeotec Gen 5 ~ 60 €
+    -   Una tarjeta microSD de tamaño reducido, unos 7 €
+    -   Un cargador USB de unos 8 €
 
-## Exemple de montage DIY
+Es decir, un total de 125 € por un dispositivo de domótica de código abierto con control total sobre su instalación.
 
-En montage DIY (Do It Yourself), voici une configuration "type" pour bien débuter avec Jeedom en Z-Wave :
-
-1.  Raspberry Pi 4 :
-
-    -   Un raspberry+boitier \~ 50 €
-    -   Une clé Aeotec Gen 5 \~ 60 €
-    -   Une micro carte microSD \~ 7 €
-    -   Une alimentation USB \~ 8 €
-
-Soit un total de 125 € pour une box domotique open source avec une maîtrise complète de son installation.
-
->**INFORMATION**
+>**INFORMACIÓN**
 >
->Il est possible d'ajouter ou de changer par une antenne Rfxcom, ou une clé enOcean, etc. En principe, il faut une clé USB par protocole supplémentaire. En fonction de leur nombre et de leur consommation cumulée, sur un Raspberry Pi vous pouvez avoir besoin d'un hub USB complémentaire avec son alimentation dédiée.\
->Pour la clé Z-Wave Aeotec Gen 5 en utilisation cumulée avec un Raspberry Pi 4 (modèles antérieurs non concernés), il faut en utliser une récente si vous souhaitez vous affranchir d'un hub USB. Se renseigner et se fournir chez un vendeur d'équipements domotiques.\
->RPi 4, il est vivement conseillé de remplacer la carte microSD par un disque dur mSATA USB3, directement relié au port USB3 avec boot natif. Les cartes microSD ont une durée de vie très limitée en échange de données intensif: à ne réserver que pour de courtes périodes de tests.
+>Es posible añadir o sustituir una antena Rfxcom, un adaptador enOcean, etc. En principio, se necesita un adaptador USB por cada protocolo adicional. Dependiendo de su número y de su consumo acumulado, es posible que necesites un concentrador USB adicional con su propia fuente de alimentación para una Raspberry Pi.\
+>Para utilizar el dispositivo Z-Wave Aeotec Gen 5 junto con una Raspberry Pi 4 (los modelos anteriores no son compatibles), es necesario utilizar un modelo reciente si se desea prescindir de un concentrador USB. Infórmate y adquiérelo en una tienda especializada en domótica.\
+>En el caso del RPi 4, se recomienda encarecidamente sustituir la tarjeta microSD por un disco duro mSATA USB 3, conectado directamente al puerto USB 3 con arranque nativo. Las tarjetas microSD tienen una vida útil muy limitada cuando se someten a un uso intensivo de intercambio de datos: deben reservarse únicamente para periodos cortos de pruebas.

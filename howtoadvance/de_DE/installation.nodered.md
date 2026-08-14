@@ -1,25 +1,25 @@
-# Nodered Installation
+# Installation von Node-RED
 
-Nodered ist ein in Nodejs geschriebenes Tool zur Verwaltung von IoT- oder Hausautomations-orientierten Flows. Es bietet eine grafische Oberfläche zum Bearbeiten von Flows. Das Lernprogramm beschreibt die Installation, eine Reverse-Proxy-Konfiguration und einen Start in Betrieb
+Nodered ist ein in Node.js geschriebenes Tool zur Verwaltung von IoT- oder Hausautomations-Workflows. Es bietet eine grafische Benutzeroberfläche zum Bearbeiten von Workflows. Das Tutorial beschreibt die Installation, die Konfiguration eines Reverse-Proxys und die Inbetriebnahme als Dienst.
 
 # Installation von Nodered
 
-Hier sind die Befehle, die gestartet werden müssen, um Nodered mit einem funktionierenden Knoten zu installieren :
+Hier sind die Befehle, die Sie ausführen müssen, um Node-RED zu installieren, vorausgesetzt, Sie verfügen über ein funktionsfähiges Node.js:
 
 ````
 sudo apt-get -y install libavahi-compat-libdnssd-dev libusb-1.0-0-dev build-essential
 sudo npm install -g node-red
 ````
 
-Um Nodejs zu erhalten, können Sie eines der Jeedom-Plugins installieren, die dies tun.
+Um Node.js zu erhalten, können Sie eines der Jeedom-Plugins installieren, das dies übernimmt.
 
 #  Automatischer Start von Nodered
 
-Es ist möglich, Nodered als Dienst zu deklarieren, damit es beim Booten der Box automatisch gestartet wird. Ein Beispiel [hier](https://gist.github.com/bigmonkeyboy/9962293)
+Nodered kann als Dienst registriert werden, damit es beim Hochfahren der Box automatisch gestartet wird. Ein Beispiel [hier](https://gist.github.com/bigmonkeyboy/9962293)
 
 # Apache-Konfiguration
 
-Hier ist ein Beispiel für eine Datei, mit der über einen Reverse-Proxy auf Nodered zugegriffen werden kann.
+Hier ist ein Beispiel für eine Datei, mit der Sie über einen Reverse-Proxy auf Node-RED zugreifen können.
 
 ````
 <Location /jeedom/nodered>
@@ -30,9 +30,9 @@ ProxyPass http://localhost:1880/jeedom/nodered/
 </Location>
 ````
 
-# Konfiguration von Nginx
+# Nginx-Konfiguration
 
-Hier ist ein Beispiel für eine Datei, mit der über einen Reverse-Proxy auf Nodered zugegriffen werden kann.
+Hier ist ein Beispiel für eine Datei, mit der Sie über einen Reverse-Proxy auf Node-RED zugreifen können.
 
 ````
 location /jeedom/nodered/ {
@@ -49,11 +49,11 @@ location /jeedom/nodered/ {
 }
 ````
 
-# Bestehende Module für Nodered
+# Vorhandene Module für Nodered
 
 Hier finden Sie Beispiele für Erweiterungen, die für Nodered verfügbar sind.
 
-## Avahi / Hello-Erkennungsmodul
+## Avahi/Bonjour-Erkennungsmodul
 
 ````
 sudo npm install node-red-node-discovery -g

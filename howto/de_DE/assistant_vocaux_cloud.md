@@ -1,27 +1,27 @@
-# Cloud-Sprachassistenten
+# Cloud-basierte Sprachassistenten
 
-## Description
+## Beschreibung
 
-Mit diesem Dienst können Sie Ihr Jeedom mit Sprachassistenten von Google und Amazon verbinden.
+Mit diesem Dienst können Sie Ihr Jeedom mit den Sprachassistenten von Google und Amazon verbinden.
 
-Es kann mit verwendet werden 
+Es kann verwendet werden mit
 
-- oder das Google Smarthome Plugin, [Dokumentation](/plugins/communication/gsh)
-- oder das Alexa Plugin, [Dokumentation](/plugins/communication/ash)
+- oder das Google Smart Home-Plugin, [Dokumentation](/plugins/communication/gsh)
+- oder das Alexa-Plugin, [Dokumentation](/plugins/communication/ash)
 
-Dieser Service ist kostenpflichtig und kann auf dem Jeedom Market auf der Seite abonniert werden [Meine Dienste](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+Dieser Dienst ist kostenpflichtig und kann im Jeedom Market auf der Seite [Meine Dienstleistungen](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
-Ihre Unterschiede finden Sie in der jeweiligen Dokumentation der Plugins.
+Die Unterschiede zwischen den einzelnen Plugins finden Sie in der jeweiligen Dokumentation.
 
-Sobald das Abonnement abonniert ist, muss die Konfiguration anhand der Dokumentation des Plugins erfolgen
-
-> **Wichtig**
->
-> Google und AMAZON verlangen, dass Ihr Jeedom in HTTPS (das Plugin funktioniert nicht in HTTP) mit einem gültigen Zertifikat (daher kein selbstsigniertes Zertifikat) zugänglich ist)
->
-> Dank der Power- oder Ultimate Service Packs ist Ihr Jeedom über HTTPS zugänglich.
-> Wenn Sie über ein Community Service Pack verfügen, müssen Sie selbst ein SSL-Zertifikat installieren, das von einer Zertifizierungsstelle ausgestellt wurde (z: Lassen Sie uns verschlüsseln, ...).
+Sobald das Abonnement abgeschlossen ist, müssen Sie die Konfiguration gemäß der Dokumentation des Plugins vornehmen.
 
 > **Wichtig**
 >
->Bitte beachten Sie, dass der Dienst aufgrund einer Einschränkung unseres Dienstanbieters (OVH) nur in IPv4 funktioniert und daher nicht mit IPv6 kompatibel ist
+> Google und Amazon verlangen, dass Ihr Jeedom über HTTPS erreichbar ist (das Plugin funktioniert nicht über HTTP) und über ein gültiges Zertifikat verfügt (also kein selbstsigniertes Zertifikat).
+>
+> Dank der Service Packs „Power“ oder „Ultimate“ ist Ihr Jeedom über HTTPS erreichbar.
+> Wenn Sie über ein Community Service Pack verfügen, müssen Sie selbst ein von einer Zertifizierungsstelle ausgestelltes SSL-Zertifikat installieren (z. B. Let's Encrypt, ...).
+
+> **Wichtig**
+>
+>Bitte beachten Sie: Aufgrund einer Einschränkung unseres Dienstanbieters (OVH) funktioniert der Dienst nur mit IPv4 und ist daher nicht IPv6-kompatibel.

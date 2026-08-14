@@ -1,20 +1,20 @@
-# Jeedom command line update
+# Jeedom Command-Line Update
 
-We will see how to manually update your Jeedom *(if you can no longer access the interface for example)*
+We'll show you how to manually update your Jeedom *(if, for example, you can no longer access the interface)*
 
 ## Prerequisites
 
--   know how to connect in SSH to Jeedom
--   know ssh credentials *(see installation documentation)*
--   have Internet access from the Jeedom box
+-   How to connect to Jeedom via SSH
+-   Know your SSH credentials *(see installation documentation)*
+-   Access the Internet from the Jeedom box
 
-> **IMPORTANT**
+> **Important**
 >
-> Remember to export the most recent functional Jeedom backup outside the box before any manual update.
+> Be sure to export the most recent functional Jeedom backup to a location outside the box before performing any manual updates.
 
 ## Download and unzip
 
-In SSH, do :
+In SSH, do the following:
 
 ````bash
 su -
@@ -25,9 +25,9 @@ cp -R core-master/* /var/www/html
 cp -R core-master/.[^.]* /var/www/html
 ````
 
-## Mise à jour
+## Update
 
-Toujours en SSH:
+Still in SSH:
 
 ````bash
 su -
@@ -36,6 +36,6 @@ chmod 775 -R /var/www/html
 chown www-data:www-data -R /var/www/html
 ````
 
-> **IMPORTANT**
+> **Important**
 >
-> If your Jeedom installation is a bit old, you must replace all ``/var/www/html`` by ``/usr/share/nginx/www/jeedom``
+> If your Jeedom installation is a bit outdated, you'll need to replace all the ``/var/www/html`` by ``/usr/share/nginx/www/jeedom``

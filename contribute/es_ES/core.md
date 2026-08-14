@@ -1,68 +1,68 @@
-# Contribuer au core ou aux plugins
+# Contribuir al núcleo y a los complementos
 
-Jeedom est un logiciel open-source dont le code est consultable sur [Github](https://github.com/jeedom/core/tree/develop){:target="_blank"} et qui est ouvert aux contributions des développeurs tiers.
+Jeedom es un programa de código abierto cuyo código se puede consultar en [GitHub](https://github.com/jeedom/core/tree/develop){:target="_blank"} y que está abierto a las aportaciones de desarrolladores externos.
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
->Il est crucial de comprendre le code proposé sans se reposer intégralement sur des développements réalisés par une intelligence artificielle. Celle-ci peut toutefois rester utile pour de l'optimisation ou pour effectuer des vérifications complémentaires.
+>Es fundamental comprender el código propuesto sin basarse exclusivamente en los resultados generados por la inteligencia artificial. No obstante, esta puede resultar útil para optimizar el código o para realizar comprobaciones adicionales.
 
-## Prérequis
+## Requisitos previos
 
-Pour contribuer au développement du core Jeedom ou d'un plugin, quelques prérequis sont à connaître et à prendre en compte :
-- Tout d'abord, il est indispensable de prendre connaissance et d'appliquer [la procédure de bêta-test de Jeedom](../contribute/beta),
-- il faut également disposer d'[un compte utilisateur sur GitHub](https://github.com/){:target="_blank"},
-- Savoir faire [une *Pull Request* sur GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request){:target="_blank"},
-- Comprendre le langage concerné par les modifications *(`PHP`, `JavaScript`, `HTML`, `CSS`, `Python`, `Node.js`, etc.)*,
-- Tester les changements proposés afin de s'assurer qu'ils n'engendrent pas d'autres bugs ou effets de bord,
-- Enfin, des connaissances du système Linux Debian peuvent être nécessaires en fonction du code à faire évoluer.
+Para contribuir al desarrollo del núcleo de Jeedom o de un complemento, hay que conocer y tener en cuenta algunos requisitos previos:
+- En primer lugar, es imprescindible conocer y aplicar [El proceso de pruebas beta de Jeedom](/contribute/beta),
+- también es necesario disponer de[una cuenta de usuario en GitHub](https://github.com/){:target="_blank"},
+- Experiencia [una *Pull Request* en GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request){:target="_blank"},
+- Comprender el lenguaje afectado por los cambios *(`PHP`, `JavaScript`, `HTML`, `CSS`, `Python`, `Node.js`, etc.)*,
+- Probar los cambios propuestos para asegurarse de que no provocan otros errores o efectos no deseados,
+- Por último, puede ser necesario tener conocimientos del sistema Linux Debian, dependiendo del código que se vaya a desarrollar.
 
-## Développeurs tiers
+## Desarrolladores externos
 
-Que vous soyez développeur confirmé ou pas, chacun a son rôle à jouer pour participer au développement et à l'évolution de la solution Jeedom à son niveau. Différentes aides peuvent être fournies à travers la documentation et le forum Jeedom.
+Tanto si eres un desarrollador experimentado como si no, cada uno tiene un papel que desempeñar para contribuir al desarrollo y la evolución de la solución Jeedom a su nivel. Se puede obtener ayuda a través de la documentación y el foro de Jeedom.
 
->**INFORMATION**
+>**INFORMACIÓN**
 >
->Si vous n'êtes pas à l'aise à l'idée d'intervenir directement sur les fichiers du core ou d'un plugin mais que vous souhaitez apporter votre pierre à l'édifice, vous pouvez toujours contribuer en créant un sujet sur le forum dans la section ["Utilisation du core de Jeedom"](https://community.jeedom.com/c/utilisation-du-core-de-jeedom/57){:target="_blank"} ou [celle dédiée aux plugins](https://community.jeedom.com/c/plugins/46){:target="_blank"} avec l'étiquette du plugin concerné.
+>Si no te sientes cómodo modificando directamente los archivos del núcleo o de un complemento, pero quieres aportar tu granito de arena, siempre puedes colaborar creando un tema en el foro, en la sección [«Uso del núcleo de Jeedom»](https://community.jeedom.com/c/utilisation-du-core-de-jeedom/57){:target="_blank"} o [la dedicada a los complementos](https://community.jeedom.com/c/plugins/46){:target="_blank"} con la etiqueta del complemento correspondiente.
 
-### Documentation développeurs
+### Documentación para desarrolladores
 
-Nous vous recommandons de prendre régulièrement connaissance des documentations relatives au [développement du core](../dev/core) ou au [développement d'un plugin](../dev/) afin d'appliquer les rêgles établies et d'être certain de respecter les normes de Jeedom.
+Le recomendamos que consulte periódicamente la documentación relativa a la [desarrollo del núcleo](/dev/core) o en el [desarrollo de un complemento](/dev/) con el fin de aplicar las normas establecidas y garantizar el cumplimiento de los estándares de Jeedom.
 
-### Forum développeurs
+### Foro de desarrolladores
 
-En complément de la documentation, vous avez également accès [au salon des développeurs du forum](https://community.jeedom.com/c/developpeur-developpeurs/5){:target="_blank"} qui regorge d'informations.
+Además de la documentación, también tienes acceso a [en la feria de desarrolladores del foro](https://community.jeedom.com/c/developpeur-developpeurs/5){:target="_blank"} que está repleto de información.
 
->**INFORMATION**
+>**INFORMACIÓN**
 >
->Ce salon est en lecture seule par défaut, pour pouvoir y intervenir il est indispensable d'être préalablement [inscrit en tant que développeur Jeedom](https://market.jeedom.com/index.php?v=d&p=becomeDeveloper){:target="_blank"}.
+>Este foro es de solo lectura por defecto; para poder participar en él, es imprescindible haber [registrado como desarrollador de Jeedom](https://market.jeedom.com/index.php?v=d&p=becomeDeveloper){:target="_blank"}.
 
-## Contribuer au core Jeedom
+## Contribuir al núcleo de Jeedom
 
-Les contributions au core Jeedom doivent être soumises sur [la branche `develop`](https://github.com/jeedom/core/tree/develop){:target="_blank"} dans la grande majorité des cas, sauf si une branche dédiée à la fonctionnalité existe déjà. En cas de doute, nous vous recommandons d'ouvrir une issue afin que les mainteneurs puissent vous orienter vers la bonne branche, voire en créer une si nécessaire.
+Las contribuciones al núcleo de Jeedom deben enviarse a [la rama «develop»](https://github.com/jeedom/core/tree/develop){:target="_blank"} en la gran mayoría de los casos, salvo que ya exista una rama dedicada a esa funcionalidad. En caso de duda, te recomendamos que abras una incidencia para que los mantenedores puedan indicarte cuál es la rama adecuada o, si es necesario, crear una nueva.
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
->Si vous souhaitez soumettre plusieurs changements, il faut ouvrir autant de *Solicitudes de extracción* que de corrections ou fonctionnalités concernées.
+>Si quieres enviar varios cambios, debes abrir tantas *solicitudes de incorporación* como correcciones o funcionalidades afectadas.
 
-## Contribuer aux plugins
+## Colaborar con los complementos
 
-Concernant les plugins, les demandes d'évolution doivent être soumises sur la branche `beta`.
+En cuanto a los complementos, las solicitudes de mejora deben enviarse a la rama `beta`.
 
->**INFORMATION**
+>**INFORMACIÓN**
 >
->Certains dépôts de plugins ne sont pas accessibles publiquement. Dans ce cas, vous pouvez également contribuer en créant un sujet sur [le forum](https://community.jeedom.com/c/plugins/46){:target="_blank"} avec l'étiquette du plugin concerné.
+>Algunos repositorios de plugins no son de acceso público. En ese caso, también puedes colaborar creando un tema en [el foro](https://community.jeedom.com/c/plugins/46){:target="_blank"} con la etiqueta del complemento correspondiente.
 
-## Gestion des traductions
+## Gestión de traducciones
 
-Les traductions sont générées automatiquement dans les fichiers `i18n/*.json`. Il est inutile de modifier ces fichiers car ils sont réécrits régulièrement par un robot.
+Las traducciones se generan automáticamente en los archivos `i18n/*.json`. No es necesario modificar estos archivos, ya que un robot los actualiza periódicamente.
 
-Pour que le système de traduction fonctionne il faut respecter un certain formalisme selon le langage utilisé :
-- En `PHP`, hors dossier `desktop/php` :
+Para que el sistema de traducción funcione, hay que respetar ciertas normas de formato según el idioma utilizado:
+- En `PHP`, fuera de la sección `desktop/php` :
 ```php
 $myString = __('Ma phrase qui sera traduite', __FILE__);
 ```
 
-- En `PHP`, dans le dossier `desktop/php` :
+- En `PHP`, en la sección `desktop/php` :
 ```php
 {% raw %}$myString = '{{Ma phrase qui sera traduite}}'{% endraw %};
 ```

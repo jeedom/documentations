@@ -1,46 +1,46 @@
-# Fügen Sie WiFi-Schlüssel auf Jeedom Mini
+# Hinzufügen eines WLAN-Schlüssels auf dem Jeedom Mini
 
-Hier ein End-to-End-Verfahren zum Installieren eines WLAN-Schlüssels vom Typ "Edimax ew-7811n" auf einem Jeedom Mini und unter Berücksichtigung einer WLAN-Authentifizierung vom Typ "WPA 2 + AES"".
+Hier finden Sie für alle Fälle eine Schritt-für-Schritt-Anleitung zur Installation eines WLAN-Adapters vom Typ „Edimax ew-7811n“ auf einem Jeedom Mini unter Verwendung der WLAN-Authentifizierung „WPA 2 + AES“.
 
-Bitte beachten Sie, dass dieses Verfahren nur im oben angegebenen strengen Kontext der Umgebung funktioniert (gleiches Modell, gleiche Jeedom-Box, gleiche WiFi-Authentifizierung)) . Natürlich kann es auch für andere Komponenten funktionieren (oder nicht), jedoch ohne Garantie.
-
-> **Wichtig**
->
-> Achtung, dieses Verfahren ist insbesondere bei mini + nicht zu beachten, da der Zugriff darauf verloren geht und alles neu installiert werden muss.
+Bitte beachten Sie, dass dieses Verfahren in der vorliegenden Form ausschließlich in der zuvor beschriebenen Umgebung funktioniert (gleiches Modell, gleiche Jeedom-Box, gleiche WLAN-Authentifizierung). Selbstverständlich kann es auch bei anderen Komponenten funktionieren (oder auch nicht), jedoch ohne jegliche Garantie.
 
 > **Wichtig**
 >
-> Dieses Dokument ist bei Problemen auf eigenes Risiko anzuwenden. Das Jeedom-Team kann in keiner Weise dafür verantwortlich gemacht werden.
+> Achtung: Dieser Vorgang darf auf keinen Fall auf dem mini+ durchgeführt werden, da sonst der Zugriff darauf verloren geht und alles neu installiert werden muss.
 
-## Überprüfung, ob der WLAN-Schlüssel gut erkannt wird
+> **Wichtig**
+>
+> Die Anwendung dieser Anleitung erfolgt auf eigene Gefahr. Bei Problemen kann das Jeedom-Team in keinem Fall haftbar gemacht werden.
 
-Geben Sie einfach den folgenden Befehl in SSH ein :
+## Überprüfen, ob der WLAN-Schlüssel korrekt erkannt wird
+
+Geben Sie dazu einfach über SSH den folgenden Befehl ein:
 
 ``sudo lsusb | grep Edimax``
 
-Wenn der Schlüssel richtig erkannt wird, sollte die folgende Meldung angezeigt werden :
+Wenn der Schlüssel erfolgreich erkannt wurde, sollte die folgende Meldung angezeigt werden:
 
 ``Bus 001 Device 004: ID 7392:7811 Edimax Technology Co., Ltd EW-7811Un 802.11n Wireless Adapter [Realtek RTL8188CUS]``
 
-Die Kennungen des Busses und des Geräts können je nach USB-Anschluss, an den Sie Ihren Schlüssel angeschlossen haben, für Sie unterschiedlich sein.
+Die Bus- und Geräte-IDs können bei Ihnen unterschiedlich sein, je nachdem, an welchem USB-Anschluss Sie Ihren Stick angeschlossen haben.
 
-## Überprüfung der Treiberbeladung
+## Überprüfung des Treiberladens
 
-Der Edimax WiFi-Schlüssel hat den Vorteil, dass bereits ein Treiber in Ihren Mini integriert ist, und Sie müssen ihn nur überprüfen, indem Sie den folgenden Befehl in SSH eingeben :
+Der Edimax-WLAN-Stick hat den Vorteil, dass der Treiber bereits in Ihrem Mini integriert ist. Sie müssen dies lediglich überprüfen, indem Sie den folgenden Befehl über SSH eingeben:
 
 ``sudo lsmod | grep 8192cu``
 
-Wenn der Befehl einen Wert zurückgibt, bedeutet dies, dass alles in Ordnung ist. Zum Beispiel zu Hause bekomme ich das zurück :
+Wenn der Befehl einen Wert zurückgibt, ist alles in Ordnung. Bei mir erhalte ich beispielsweise folgende Rückmeldung:
 
 ``8192cu                550797  0``
 
-## Bearbeiten der Datei ``/etc/network/interfaces``
+## Datei bearbeiten ``/etc/network/interfaces``
 
-Sie müssen zuerst die Datei "/ etc / network / interfaces" mit dem folgenden Befehl bearbeiten :
+Zunächst müssen Sie die Datei „/etc/network/interfaces“ mit dem folgenden Befehl bearbeiten:
 
 ``sudo nano /etc/network/interfaces``
 
-Hier ist der Inhalt der Betriebsdatei bei mir :
+Hier ist der Inhalt der Betriebsdatei bei mir zu Hause:
 
 ````
 auto lo
@@ -55,13 +55,13 @@ pre-up wpa_supplicant -Dwext -i wlan0 -c /etc/wpa_supplicant.conf -B
 iface default inet dhcp
 ````
 
-## Bearbeiten der Datei ``/etc/wpa\_supplicant.conf``
+## Datei bearbeiten ``/etc/wpa\_supplicant.conf``
 
-Jetzt müssen Sie nur noch Ihre WLAN-Einstellungen eingeben (Name Ihrer SSID und Ihres WPA-Schlüssels)). Dies erfolgt durch Bearbeiten der Datei / etc / wpa\_supplicant.conf mit Befehl :
+Jetzt müssen Sie nur noch Ihre WLAN-Einstellungen (Name Ihrer SSID und WPA-Schlüssel) eingeben. Dazu bearbeiten Sie die Datei /etc/wpa_supplicant.conf mit dem folgenden Befehl:
 
 ``sudo nano /etc/wpa_supplicant.conf``
 
-Hier ist meine Betriebsakte zu Hause :
+Hier ist meine bei mir zu Hause verwendete Konfigurationsdatei:
 
 ````
 ctrl_interface=/var/run/wpa_supplicant
@@ -81,17 +81,17 @@ network={
  }
 ````
 
-Achten Sie darauf, die unten angegebenen Parameter durch Ihre zu ersetzen :
+Bitte ersetzen Sie die unten angegebenen Parameter durch Ihre eigenen:
 
-- NOM_DE_TON_RESEAU_SSID mit dem Namen Ihres eigenen Netzwerks, wobei die Anführungszeichen gut bleiben (" ")
-- TA_CLE_WIFI mit dem Namen Ihres eigenen Netzwerks, wobei die Anführungszeichen gut bleiben (" ")
+- NOM_DE_TON_RESEAU_SSID durch den Namen Ihres eigenen Netzwerks ersetzen, dabei die Anführungszeichen („ “) unbedingt beibehalten
+- Ersetzen Sie „TA_CLE_WIFI“ durch den Namen Ihres eigenen Netzwerks und behalten Sie dabei unbedingt die Anführungszeichen („ “) bei.
 
-Ich mache Sie auch darauf aufmerksam, dass Ihr WLAN-Schlüssel in der Datei deutlich angezeigt wird. Wenn Sie mehr Sicherheit wünschen, können Sie Ihren Schlüssel vorher über den Befehl "sudo wpa_passphrase" verschlüsseln und dann Ihren verschlüsselten Schlüssel einfügen (in diesem Fall ohne Anführungszeichen)).
+Ich möchte Sie außerdem darauf hinweisen, dass Ihr WLAN-Schlüssel unverschlüsselt in der Datei erscheint. Wenn Sie mehr Sicherheit wünschen, können Sie Ihren Schlüssel vorab mit dem Befehl „sudo wpa_passphrase“ verschlüsseln und anschließend Ihren verschlüsselten Schlüssel eingeben (in diesem Fall ohne Anführungszeichen).
 
-## WiFi-Aktivierung
+## WLAN aktivieren
 
-Sobald die Dateien fertig sind, muss nur noch die WiFi-Verbindung durch Eingabe des folgenden Befehls gestartet werden :
+Sobald die Dateien eingerichtet sind, müssen Sie nur noch die WLAN-Verbindung herstellen, indem Sie den folgenden Befehl eingeben:
 
 ``sudo ifup wlan0``
 
-Normalerweise sollte Ihr WLAN auf Ihrem Mini betriebsbereit sein.
+Normalerweise sollte Ihr WLAN auf Ihrem Mini funktionieren.

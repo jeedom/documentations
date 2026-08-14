@@ -1,35 +1,35 @@
-# Installation Jeeodm sur une mini+
+# Instalación de Jeeodm en una mini+
 
-> **Tip**
+> **Consejo**
 >
-> Le nom de l'image Jeedom peut être différent de celui des captures faites dans cette documentation
+> El nombre de la imagen de Jeedom puede diferir del de las capturas de pantalla que aparecen en esta documentación
 
-## Installation de Etcher
+## Instalación de Etcher
 
-Vous devez télécharger le logicel Etcher [ici](https://etcher.io/) puis l'installer sur votre pc
+Tienes que descargar el programa Etcher [aquí](https://etcher.io/) y, a continuación, instalarlo en tu ordenador
 
-## Récupération de l'image de Jeedom
+## Recuperación de la imagen de Jeedom
 
-Vous devez aller [ici](https://images.jeedom.com/jeeboard/),puis dans le dossier Images récuperer l'image jeedom-jeeboard-\*.rar
+Tienes que ir [aquí](https://images.jeedom.com/jeeboard/), y luego, en la carpeta «Imágenes», busca el archivo jeedom-jeeboard-\*.rar
 
-![install humming 1](../images/install_humming_1.PNG)
+![Instalación del zumbido 1](../images/install_humming_1.PNG)
 
-## Décompression de l'image de Jeedom
+## Descompresión de la imagen de Jeedom
 
-Décompresser l'image de Jeedom (si vous n'avez rien pour la décompresser vous pouvez installer [winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)), vous devez obtenir :
+Descomprime la imagen de Jeedom (si no tienes nada para descomprimirla, puedes instalar [WinRAR](http://www.clubic.com/telecharger-fiche9632-winrar.html)), debes obtener:
 
-![install humming 2](../images/install_humming_2.PNG)
+![Instalación de Humming 2](../images/install_humming_2.PNG)
 
-![install humming 8](../images/install_humming_8.PNG)
+![Instalación de Humming 8](../images/install_humming_8.PNG)
 
-## Gravure de l'image sur la carte SD
+## Grabación de la imagen en la tarjeta SD
 
-Insérez votre carte SD dans votre ordinateur puis lancez le logiciel Etcher, donnez-lui le chemin de l'image, le chemin de la carte SD et cliquez sur "Flash!". Le logiciel va graver la carte SD et vérifier la gravure.
+Inserta tu tarjeta SD en el ordenador y, a continuación, inicia el programa Etcher, indícale la ruta de la imagen y la ruta de la tarjeta SD, y haz clic en «Flash!». El programa grabará la tarjeta SD y comprobará la grabación.
 
-Vous n'avez plus qu'à mettre la carte SD dans la Jeedomboard (ou Hummingboard), à brancher le réseau et l'alimentation, votre Jeedom va démarrer (5 min) et vous devriez le voir sur le réseau.
+Solo tienes que insertar la tarjeta SD en la Jeedomboard (o Hummingboard), conectar la red y la alimentación, y tu Jeedom se iniciará (5 min) y deberías poder verlo en la red.
 
-> **Tip**
+> **Consejo**
 >
-> Les identifiants SSH sont jeedom/Mjeedom96
+> Las credenciales de SSH son jeedom/Mjeedom96
 
-Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](/premiers-pas)
+A continuación, puedes consultar la documentación [Primeros pasos con Jeedom](/premiers-pas)

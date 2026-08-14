@@ -1,16 +1,16 @@
-# Procedure in case of loss of the password to connect to Jeedom
+# Procedure for Lost Jeedom Login Password
 
 # > 4.2
 
-The first thing to do is to connect in SSH to Jeedom (with a software type kitty or putty).
+The first thing to do is connect to Jeedom via SSH (using software such as Kitty or PuTTY).
 
 >**Reminders**
 >
->By default, the SSH connection credentials on Jeedom (Luna, Atlas, Smart, Mini and Mini+) are either :
->- Username : jeedom, password Mjeedom96
->- Username : root, password Mjeedom96
+>By default, the SSH login credentials on Jeedom (Luna, Atlas, Smart, Mini, and Mini+) are either:
+>- Username: jeedom, password: Mjeedom96
+>- Username: root, password: Mjeedom96
 
-Then you just have to type :
+Then just type:
 
 ````
 php /var/www/html/core/php/jeecli.php user list
@@ -22,17 +22,17 @@ php /var/www/html/core/php/jeecli.php user list
 php /var/www/html/core/php/jeecli.php user add [username] [password]
 ````
 
-With : 
-- ``[username]`` : user name
-- ``[password]`` : the new password, be careful, no spaces are required and a minimum length of 8 characters
+Featuring:
+- ``[username]`` : the user's name
+- ``[password]`` : The new password—please note that it must not contain any spaces and must be at least 8 characters long
 
-## A user exists, you just need to change their password 
+## A user already exists; you just need to change their password
 
 ````
 php /var/www/html/core/php/jeecli.php user password [username] [password]
 ````
 
-With : 
-- ``[username]`` : user name
-- ``[password]`` : the new password, be careful, no spaces are required and a minimum length of 8 characters
+Featuring:
+- ``[username]`` : the user's name
+- ``[password]`` : The new password—please note that it must not contain any spaces and must be at least 8 characters long
 

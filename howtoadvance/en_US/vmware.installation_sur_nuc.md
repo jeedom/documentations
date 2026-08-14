@@ -1,158 +1,158 @@
-# Installed vmware on nuc
+# Installed VMware on NUC
 
-Here is a tutorial to install VMware on an Intel NUC (gen6). We will see later how to add Jeedom on it
+Here's a tutorial on how to install VMware on an Intel NUC (Gen 6). Next, we'll see how to add Jeedom to it
 
-# Equipment 
+# Hardware
 
 ## Intel NUC
 
-The Intel NUC is a small PC, not the most powerful, but very energy efficient and small. This makes it a perfect little virtualization server based on VMware.
+The Intel NUC is a small PC—not the most powerful, but very energy-efficient and compact. This makes it a perfect little VMware-based virtualization server.
 
-There are currently 2 6th generation NUCs (the others also work for VMware but require additional drivers on the VMware kernel):
+There are currently two 6th-generation NUCs (the others also work with VMware but require additional drivers to be installed on the VMware kernel):
 
--   Intel Core i3-6100U (Dual-Core 2.3 GHz - - 4 threads - Cache 3 MB - TDP 15W)
--   Intel Core i5-6260U (Dual-Core 1.8 GHz - Turbo 2.9 GHz - 4 threads - Cache 4 MB)
+-   Intel Core i3-6100U (Dual-Core 2.3 GHz - - 4 threads - 3 MB cache - 15W TDP)
+-   Intel Core i5-6260U (Dual-Core 1.8 GHz - Turbo 2.9 GHz - 4 threads - 4 MB cache)
 
-The i5 is significantly more powerful because it has a little more cache memory and above all a turbo mode which allows it to go up much higher in frequency.
+The i5 is significantly more powerful because it has a little more cache and, most importantly, a turbo mode that allows it to run at much higher clock speeds.
 
-In addition, there are 2 types of case :
+In addition, there are two types of control units:
 
--   A thin case that can only contain one type M2 disc
--   A thicker case which can contain a type M2 disc and a 2 disc.5 inch
+-   A slim enclosure that can hold only one type M.2 drive
+-   A thicker case capable of holding an M.2 drive of type M and a 2.5-inch drive
 
-That makes 4 references :
+That makes a total of 4 items:
 
--   i3 M2 : [Intel NUC NUC6I3SYK](http://www.ldlc.com/fiche/PB00203086.html) 320 €
--   i3 M2 + 2.5inch : [Intel NUC NUC6I3SYH](http://www.ldlc.com/fiche/PB00203148.html) 320 €
--   i5 M2 : [Intel NUC NUC6I5SYK](http://www.ldlc.com/fiche/PB00203084.html) € 460
--   i5 M2 + 2.5inch : [Intel NUC NUC6I5SYH](http://www.ldlc.com/fiche/PB00202760.html) 430 €
+-   i3 M2: [Intel NUC NUC6I3SYK](http://www.ldlc.com/fiche/PB00203086.html) \~ 320€
+-   i3 M2 + 2.5-inch: [Intel NUC NUC6I3SYH](http://www.ldlc.com/fiche/PB00203148.html) \~ 320€
+-   i5 M2: [Intel NUC NUC6I5SYK](http://www.ldlc.com/fiche/PB00203084.html) \~ 460€
+-   i5 M2 + 2.5-inch: [Intel NUC NUC6I5SYH](http://www.ldlc.com/fiche/PB00202760.html) \~ 430€
 
 ## SSD
 
-You have to add an SSD and memory. SSD level I recommend 240GB or more, unless you take the model with a slot 2.5 inches (which allows you to put an additional hard drive) or to have a Synology NAS to make the iSCSI LUN. Do not forget that a basic VM (no storage) is between 20 to 40GB, add to that 40GB for the VMware itself it fills up quickly.
+You’ll also need to add an SSD and memory. For the SSD, I recommend 240 GB or more, unless you choose a model with a 2.5-inch drive bay (which lets you add an additional hard drive) or use a Synology-type NAS to set up an iSCSI LUN. Don’t forget that a basic VM (without storage) takes up between 20 and 40 GB; add 40 GB for VMware itself, and it fills up quickly.
 
-> **IMPORTANT**
+> **Important**
 >
-> VMware does not support adding USB disk, so it is difficult to expand the available space
+> VMware does not support adding USB drives, so it is difficult to expand the available storage space
 
--   [LDLC SSD M.2 2280 F6 PLUS 120 GB](http://www.ldlc.com/fiche/PB00203635.html) 55 €
--   [Samsung SSD 850 EVO 120 GB M.2](http://www.ldlc.com/fiche/PB00185923.html) € 100
--   [LDLC SSD M.2 2280 F6 PLUS 240 GB](http://www.ldlc.com/fiche/PB00203636.html) 105 €
--   [Samsung SSD 850 EVO 250 Go M.2](http://www.ldlc.com/fiche/PB00185924.html) € 120
--   [LDLC SSD M.2 2280 F6 PLUS 480 GB](http://www.ldlc.com/fiche/PB00207301.html) € 190
+-   [LDLC M.2 2280 F6 PLUS 120 GB SSD](http://www.ldlc.com/fiche/PB00203635.html) \~ 55€
+-   [Samsung SSD 850 EVO 120 GB M.2](http://www.ldlc.com/fiche/PB00185923.html) \~ 100€
+-   [LDLC M.2 2280 F6 PLUS 240 GB SSD](http://www.ldlc.com/fiche/PB00203636.html) \~ 105€
+-   [Samsung SSD 850 EVO 250 GB M.2](http://www.ldlc.com/fiche/PB00185924.html) \~ 120€
+-   [LDLC M.2 2280 F6 PLUS SSD, 480 GB](http://www.ldlc.com/fiche/PB00207301.html) \~ 190€
 
 ## Memory
 
-Attention for the memory it is absolutely necessary DDR4 in So-DIMM 260 pins, it is necessary at least 4GB for VMware, but by experience I advise you at least 8GB (personally I am even mounted up to 16GB, the NUC supports at most 32GB). There, no memory recommended, the cheapest goes very well (be careful I always take packs of 2 bars, this improves performance) :
+Note: For memory, you absolutely must use DDR4 in 260-pin SO-DIMM form factor. You need at least 4 GB for VMware, but based on my experience, I recommend at least 8 GB (personally, I’ve even gone up to 16 GB; the NUC supports a maximum of 32 GB). In this case, there’s no specific memory recommendation—the cheapest option works just fine (note that I always buy packs of two modules, as this improves performance):
 
--   [Crucial SO-DIMM DDR4 8 GB (2 x 4 GB) 2133 MHz CL15 SR X8](http://www.ldlc.com/fiche/PB00204134.html) € 35
--   [Crucial SO-DIMM DDR4 16 GB (2 x 8 GB) 2133 MHz CL15 DR X8](http://www.ldlc.com/fiche/PB00204135.html) € 65
--   [Crucial SO-DIMM DDR4 32 GB (2 x 16 GB) 2133 MHz CL15 DR X8](http://www.ldlc.com/fiche/PB00204136.html) € 120
+-   [Crucial DDR4 SO-DIMM 8 GB (2 x 4 GB) 2133 MHz CL15 SR X8](http://www.ldlc.com/fiche/PB00204134.html) \~ 35€
+-   [Crucial DDR4 SO-DIMM 16 GB (2 x 8 GB) 2133 MHz CL15 DR X8](http://www.ldlc.com/fiche/PB00204135.html) \~ 65€
+-   [Crucial DDR4 SO-DIMM 32 GB (2 x 16 GB) 2133 MHz CL15 DR X8](http://www.ldlc.com/fiche/PB00204136.html) \~ 120€
 
-# Installation preparation
+# Preparing for Installation
 
-Before launching the installation itself we will first have to recover VMware and put it on a USB key.
+Before starting the actual installation, you’ll first need to download VMware and copy it to a USB flash drive.
 
 ## VMware Download
 
-> **IMPORTANT**
+> **Important**
 >
-> If you put vmware 6.5, there is a problem with the new USB management and the Zwave keys, for this to work it is necessary to apply this [KB](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2147650). Attention this manipulation is no longer to be done in vmware 6.7
+> If you install VMware 6.5, there’s an issue with the new USB management and Z-Wave dongles; to make it work, you need to apply this [KB](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2147650). Please note that this procedure is no longer necessary in VMware 6.7
 
-It's the hardest actually I think, to simplify your life you have to :
+I actually think this is the hardest part. To make your life easier, you need to:
 
--   go on [here](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) and register
--   wait for the email to validate the registration
--   return [here](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) and log in (you may be asked to accept the conditions, you must validate)
--   then go [the](https://my.vmware.com/fr/web/vmware/details?productId=491&downloadGroup=ESXI60U2) and add to your account "ESXi ISO image (Includes VMware Tools)"
--   finally return [here](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) and there you must have in "Downlaod Packages", a package "ESXi ISO image (Includes VMware Tools)" which you must download
+-   go to [here](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) and sign up
+-   Wait for the email to confirm your registration
+-   Back [here](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) and log in (you may be asked to accept the terms and conditions; be sure to confirm)
+-   then go [there](https://my.vmware.com/fr/web/vmware/details?productId=491&downloadGroup=ESXI60U2) and add "ESXi ISO image (Includes VMware Tools)" to your account
+-   finally return [here](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) and there, under "Download Packages," you should see a package called "ESXi ISO image (Includes VMware Tools)" that you need to download
 
 ![installation.vmware.nuc](../images/installation.vmware.nuc.PNG)
 
-Just above you also have your license key, you can take advantage of it to recover it.
+Right above that, you'll also find your license key—you might as well grab it while you're there.
 
-## Rufus download
+## Download Rufus
 
-There it is much simpler you just have to click [the](http://rufus.akeo.ie/downloads/rufus-2.9.exe). Then you need to launch the .exe
+This is much simpler—just click [the](http://rufus.akeo.ie/downloads/rufus-2.9.exe). Next, you need to run the .exe file
 
-## Creation of the bootable USB key
+## Creating a bootable USB drive
 
-Here too it is easy this is how to configure rufus :
+This is easy, too—here's how to set up Rufus:
 
 ![installation.vmware.nuc2](../images/installation.vmware.nuc2.PNG)
 
-All you have to do is click on start and wait.
+All you have to do is click "Start" and wait.
 
-# Unpacking and assembling the NUC
+# Unboxing and Assembling the NUC
 
-These are the 3 components for my NUC :
+Here are the three components for my NUC:
 
 -   Intel NUC NUC6I5SYH
--   Samsung SSD 850 EVO 250 Go M.2
--   CORSAIR VENGEANCE SO-DIMM DDR4 16 GB (2 X 8 GB) 2400 MHZ CL16
+-   Samsung SSD 850 EVO 250 GB M.2
+-   CORSAIR VENGEANCE DDR4 SO-DIMM 16 GB (2 x 8 GB) 2400 MHz CL16
 
 ![installation.vmware.nuc3](../images/installation.vmware.nuc3.jpg)
 
-The NUC box :
+The NUC box:
 
 ![installation.vmware.nuc4](../images/installation.vmware.nuc4.jpg)
 
-Opening of it :
+To open it:
 
 ![installation.vmware.nuc5](../images/installation.vmware.nuc5.jpg)
 
-Components out of their box :
+Components taken out of their boxes:
 
 ![installation.vmware.nuc6](../images/installation.vmware.nuc6.jpg)
 
-Opening the NUC, there it is very simple, put it upside down, unscrew the 4 screws under the feet (they do not come out completely it's normal you just have to unscrew them), then slightly pull on the screws to open the NUC:
+Opening the NUC is very simple: turn it upside down, unscrew the four screws under the feet (they won’t come out completely—that’s normal; you just need to unscrew them), then pull slightly on the screws to open the NUC:
 
 ![installation.vmware.nuc7](../images/installation.vmware.nuc7.jpg)
 
-The SSD installed (on the left), the end screw to block it is a little painful to put back, fortunately we only do this once
+With the SSD installed (on the left), the screw at the end to secure it is a bit of a hassle to put back in—luckily, you only have to do this once
 
 ![installation.vmware.nuc8](../images/installation.vmware.nuc8.jpg)
 
-Memory installation (right) :
+Installing the memory (on the right):
 
 ![installation.vmware.nuc10](../images/installation.vmware.nuc10.jpg)
 
-And now, you can close (unless of course you have taken an SSD 2.5 inches which must be inserted in the cover in this case).
+There you go—you can close it up now (unless, of course, you’ve opted for a 2.5-inch SSD, in which case you’ll need to insert it into the cover).
 
-# VMware installation
+# VMware Installation
 
-There it is very simple, just put the USB key on one of the USB ports of the NUC, connect a screen to the HDMI port, a keyboard and the power supply. You turn on the NUC, the installation will launch itself :
+It’s very simple: just plug the USB flash drive into one of the NUC’s USB ports, connect a monitor to the HDMI port, a keyboard, and the power supply. Turn on the NUC, and the installation will start automatically:
 
 ![installation.vmware.nuc11](../images/installation.vmware.nuc11.jpg)
 
-> **NOTE**
+> **Note**
 >
-> I forgot to capture the validation of the license, you just have to agree by following the instructions
+> I forgot to take screenshots of the license validation; you just need to agree by following the instructions
 
-Here select the disk corresponding to the SSD (you can locate it either by name or by size)
+Here, be sure to select the drive that corresponds to the SSD (you can identify it either by its name or by its size)
 
 ![installation.vmware.nuc13](../images/installation.vmware.nuc13.jpg)
 
-Select "French" :
+Select "French":
 
 ![installation.vmware.nuc14](../images/installation.vmware.nuc14.jpg)
 
-Put a password, at the beginning I advise you to put a simple thing like "oooo" (we will change it later) :
+Set a password. To start with, I recommend using something simple like "oooo" (we'll change it later):
 
 ![installation.vmware.nuc15](../images/installation.vmware.nuc15.jpg)
 
-Confirm by pressing F11 :
+Press F11 to confirm:
 
 ![installation.vmware.nuc16](../images/installation.vmware.nuc16.jpg)
 
-The installation will take 10 to 20 minutes, then you will need to remove the USB key and wait for the system to reboot
+Installation will take 10 to 20 minutes. Afterward, you’ll need to remove the USB drive and wait for the system to reboot.
 
 ![installation.vmware.nuc17](../images/installation.vmware.nuc17.jpg)
 
-Once the reboot is finished you should have :
+Once the reboot is complete, you should have:
 
 ![installation.vmware.nuc18](../images/installation.vmware.nuc18.jpg)
 
-Here VMware is installed (in addition it is nice it gives you its IP), more than to play with !!!
+There you go—VMware is installed (and it’s nice because it gives you its IP address), so now it’s time to play around with it!!!
 
-For the rest here is a [Tutorial](vmware.creer_une_vm) for the creation of your first VM. And you will find [here](vmware.trucs_et_astuces) a tips and tricks tutorial (for example to upgrade your VMware license)
+Next, here is a [tutorial](vmware.creer_une_vm) for setting up your first VM. And you'll find [here](vmware.trucs_et_astuces) A tutorial on tips and tricks (for example, how to enter your VMware license)

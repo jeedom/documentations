@@ -1,80 +1,80 @@
-# Installation sur Smart/Atlas
+# Instalación en Smart/Atlas
 
-## Sauvegarde de Jeedom
+## Copia de seguridad de Jeedom
 
-Avant de réinstaller le système, **il est indispensable de télécharger une sauvegarde récente de Jeedom** qui pourra être restaurée à l'issue de la procédure :
+Antes de reinstalar el sistema, **es imprescindible descargar una copia de seguridad reciente de Jeedom** que se podrá restaurar una vez finalizado el proceso:
 
-1. Depuis l'interface Jeedom, cliquer sur le menu **Réglages → Système → Sauvegardes**.
+1. Desde la interfaz de Jeedom, haz clic en el menú **Configuración → Sistema → Copias de seguridad**.
 
-2. Cliquer sur le bouton **Lancer une sauvegarde**.
+2. Haz clic en el botón **Iniciar una copia de seguridad**.
 
-3. Quand l'opération est terminée, cliquer sur **Télécharger la sauvegarde**.
+3. Cuando haya finalizado la operación, haz clic en **Descargar la copia de seguridad**.
 
-## Restauration système
+## Restablecimiento del sistema
 
-**Depuis la version 4.4.20, l'équipe Jeedom développe sa propre fonctionnalité de restauration système automatique, initiée juste avant le démarrage du système**. Le processus dure environ vingt minutes durant lesquelles le système est inaccessible.
+**Desde la versión 4.4.20, el equipo de Jeedom está desarrollando su propia función de restauración automática del sistema, que se inicia justo antes de que el sistema se ponga en marcha**. El proceso dura unos veinte minutos, durante los cuales no se puede acceder al sistema.
 
-A l'issue, le système se lance une première fois avant de redémarrer automatiquement pour devenir finalement visible sur le réseau et accessible. Sur Smart, il est possible de suivre l'évolution en branchant un écran.
+Al finalizar, el sistema se inicia una primera vez antes de reiniciarse automáticamente para, finalmente, hacerse visible en la red y estar accesible. En Smart, es posible seguir el proceso conectando una pantalla.
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
->La patience est de mise : même si on a facilement l'impression que rien ne se passe, 20 minutes, finalement ce n'est pas si long.
+>Hay que tener paciencia: aunque parezca que no pasa nada, 20 minutos, al fin y al cabo, no es tanto tiempo.
 
->**INFORMATION**
+>**INFORMACIÓN**
 >
->Il est possible que l'adresse MAC de votre box *(et donc l'adresse IP)* change selon la version du noyau. Référez-vous aux [méthodes pour trouver la box sur le réseau local](../premiers-pas/#Accès%20local) en cas de besoin.
+>Es posible que la dirección MAC de tu router *(y, por lo tanto, la dirección IP)* cambie según la versión del núcleo. Consulta las [métodos para localizar el router en la red local](/premiers-pas/#Accès%20local) en caso de necesidad.
 
-La procédure peut directement être effectuée depuis Jeedom en cliquant sur le menu **Réglages → Système → Restauration système**, selon 2 modes opératoires différents :
+El procedimiento se puede llevar a cabo directamente desde Jeedom haciendo clic en el menú **Configuración → Sistema → Restauración del sistema**, siguiendo dos procedimientos diferentes:
 
 {% include lightbox.html src="../images/recovery.jpg" data="Recovery" title="Accueil page restauration système" imgstyle="display:block;margin:0 auto;" %}
 
-### Mode automatique
+### Modo automático
 
-Dans ce mode l'ensemble de la procédure est réalisé de manière entièrement automatique sans avoir besoin d'accéder physiquement à la box.
+En este modo, todo el proceso se lleva a cabo de forma totalmente automática, sin necesidad de acceder físicamente al router.
 
-Après avoir cliqué sur le bouton **Restauration automatique**, la dernière image système est directement téléchargée depuis nos serveurs vers le support de stockage interne. L'intégrité de l'image est vérifiée puis le fichier est renommé.
+Tras hacer clic en el botón **Restauración automática**, la última imagen del sistema se descarga directamente desde nuestros servidores al soporte de almacenamiento interno. Se comprueba la integridad de la imagen y, a continuación, se cambia el nombre del archivo.
 
-La mise à jour du système est effectuée au prochain démarrage sauf si le fichier de restauration est supprimé ou déplacé de son répertoire de téléchargement.
+La actualización del sistema se llevará a cabo la próxima vez que se inicie el sistema, a menos que el archivo de restauración se elimine o se mueva fuera de su carpeta de descargas.
 
->**INFORMATION**
+>**INFORMACIÓN**
 >
->Pour préparer «manuellement» une restauration automatique, sans passer par l'utilitaire Jeedom, il suffit d'envoyer une image système compatible renommée en `JeedomSystemUpdate.img.gz` dans le dossier `/install/update` de Jeedom *(`/var/www/html/install/update/JeedomSystemUpdate.img.gz`)*.
+>Para preparar «manualmente» una restauración automática, sin pasar por la herramienta Jeedom, basta con enviar una imagen del sistema compatible renombrada como `JeedomSystemUpdate.img.gz` en la carpeta `/install/update` de Jeedom *(`/var/www/html/install/update/JeedomSystemUpdate.img.gz`)*.
 
-### Mode USB
+### Modo USB
 
-Ce mode nécessite de brancher une clé USB, dont la première partition est formatée en `FAT` *(ou `ExFAT` + schéma `Enregistrement de démarrage principal (MBR)` sur MacOS)*, dans le port situé en haut à droite vu de l'arrière.
+Este modo requiere conectar una memoria USB, cuya primera partición esté formateada en `FAT` *(o `ExFAT` + esquema `Enregistrement de démarrage principal (MBR)` en macOS)*, en el puerto situado en la parte superior derecha, visto desde la parte trasera.
 
-Le bouton **Restauration USB** entraine, dans un premier temps, la détection, la vérification et le montage de la clé USB. Ensuite, la dernière image système est téléchargée depuis nos serveurs vers le support USB. L'intégrité de l'image est vérifiée puis le fichier de configuration USB est écrit.
+El botón **Restauración USB** provoca, en primer lugar, la detección, la comprobación y el montaje de la memoria USB. A continuación, se descarga la última imagen del sistema desde nuestros servidores al soporte USB. Se comprueba la integridad de la imagen y, a continuación, se escribe el archivo de configuración USB.
 
-Le système est mis à jour au démarrage si la clé USB préparée est branchée dans le premier port en haut à droite.
+El sistema se actualiza al arrancar si la memoria USB preparada está conectada en el primer puerto de la esquina superior derecha.
 
-Un fichier `JeedomSystemUpdate.log` est généré sur la clé USB durant le processus. Il contient le détail des étapes de restauration système et sert principalement à ne pas mettre le système à jour en boucle. Il faut supprimer ce fichier pour relancer la mise à jour du système *(sur une box identique avec la même clé USB par exemple)*.
+Un archivo `JeedomSystemUpdate.log` se genera en la memoria USB durante el proceso. Contiene los detalles de los pasos de la restauración del sistema y sirve principalmente para evitar que el sistema se actualice en bucle. Hay que eliminar este archivo para reiniciar la actualización del sistema *(por ejemplo, en un dispositivo idéntico con la misma memoria USB)*.
 
->**INFORMATION**
+>**INFORMACIÓN**
 >
->Pour créer soi-même une clé USB de restauration, il faut simplement, **via l'explorateur de fichiers** *(pas de gravure requise)*, envoyer à la racine de la première partition de la clé USB *(format `FAT`)* :
+>Para crear tú mismo una memoria USB de restauración, solo tienes que, **a través del explorador de archivos** *(sin necesidad de grabarla)*, copiar en la raíz de la primera partición de la memoria USB *(formato `FAT`)* :
 >
->- soit une image système compatible renommée en `JeedomSystemUpdate.img.gz`
->- soit une image système compatible **accompagnée du fichier de configuration USB** `JeedomSystemUpdate.ini` dont le contenu est `update_filename="Jeedom****-*.*.*_******-1*.*.img.gz"`.\
->`Jeedom****-*.*.*_******-1*.*.img.gz` correspondant au nom du fichier présent sur la clé USB.
+>- o bien una imagen del sistema compatible renombrada como `JeedomSystemUpdate.img.gz`
+>- o bien una imagen del sistema compatible **acompañada del archivo de configuración USB** `JeedomSystemUpdate.ini` cuyo contenido es `update_filename="Jeedom****-*.*.*_******-1*.*.img.gz"`.\
+>`Jeedom****-*.*.*_******-1*.*.img.gz` que coincida con el nombre del archivo que hay en la memoria USB.
 
-### Logs
+### Registros
 
-Les opérations effectuées par l'utilitaire de restauration système sont visibles dans le menu **Analyse → Logs**, section **recovery**.
+Las operaciones realizadas por la herramienta de restauración del sistema se pueden consultar en el menú **Análisis → Registros**, en la sección **recovery**.
 
-## Images système
+## Imágenes del sistema
 
-Les images systèmes actuellement fournies par l'équipe Jeedom sont librement consultables et téléchargeables aux adresses suivantes en fonction du matériel concerné :
+Las imágenes de sistema que ofrece actualmente el equipo de Jeedom se pueden consultar y descargar libremente en las siguientes direcciones, según el hardware en cuestión:
 
-- [**Image(s) système Jeedom Smart**](https://images.jeedom.com/smart/){:target="_blank"}
-- [**Image(s) système Jeedom Atlas**](https://images.jeedom.com/atlas/){:target="_blank"}
+- [**Imagen(es) del sistema Jeedom Smart**](https://images.jeedom.com/smart/){:target="_blank"}
+- [**Imagen(es) del sistema Jeedom Atlas**](https://images.jeedom.com/atlas/){:target="_blank"}
 
-Consulter [**la documentation dédiée aux images système officielles**](../compatibility/#Images%20système%20officielles) pour de plus amples précisions.
+Consultar [**Documentación sobre las imágenes de sistema oficiales**](/compatibility/#Images%20système%20officielles) para obtener más información.
 
-## Gravure eMMC Smart
+## Grabación eMMC Smart
 
-Les nouvelles fonctionnalités de restauration système ne peuvent pas être installées sur une Smart encore sous Debian 10. Dans ce cas il faut, dans un premier temps, écrire le support eMMC détachable pour passer sur une version supérieure de Debian, voir la documentation [**Guides → Tutoriaux → Remise en état d'usine Smart**](../howto/smart) pour plus de détails.
+Las nuevas funciones de restauración del sistema no se pueden instalar en un Smart que aún tenga Debian 10. En ese caso, lo primero que hay que hacer es formatear el soporte eMMC extraíble para pasar a una versión superior de Debian; consulta la documentación. [**Guías → Tutoriales → Restablecimiento de los ajustes de fábrica de Smart**](/howto/smart) para más información.
 
-## Première connexion
+## Primera conexión
 
-Consulter la documentation relative à la [**Première connexion**](../premiers-pas/#Première%20connexion) pour accéder à l'interface Jeedom suite à l'installation.
+Consulta la documentación relativa a la [**Primera conexión**](/premiers-pas/#Première%20connexion) para acceder a la interfaz de Jeedom tras la instalación.

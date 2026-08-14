@@ -1,110 +1,110 @@
-# Tutorial de Github
+# Tutorial de GitHub
 
-Este tutorial te presenta :
+Este tutorial te presenta:
 
--   Crea una cuenta de GitHub
--   Jeedom Core Fork o Documentación
--   Editar uno o más archivos
--   Enviar un cambio
--   Actualizando tu tenedor
+-   Creación de una cuenta en GitHub
+-   Bifurcación de Jeedom Core o de la documentación
+-   Modificación de uno o varios archivos
+-   Enviar una modificación
+-   Actualización de tu fork
 
-Para permitirle contribuir a Jeedom, deberá proponer las modificaciones (PR : Solicitud de extracción).
+Para poder colaborar con Jeedom, tendrás que proponer modificaciones (PR: Pull Request).
 
-# Crea una cuenta de GitHub
+# Creación de una cuenta en GitHub
 
-Discutiremos en este tutorial cómo crear una cuenta de GitHub, para poder informar errores (problema en el idioma de GitHub), o incluso proponer correcciones (Solicitud de extracción o PR en el lenguaje de Github) para todo el proyecto Jeedom, incluidos sus complementos o documentación gratuitos, o cualquier otro proyecto de github en el que le gustaría participar.
+En este tutorial vamos a explicar cómo crear una cuenta en GitHub para poder informar de errores (lo que en la jerga de GitHub se denomina «issue») o incluso proponer correcciones (lo que en la jerga de GitHub se denomina «Pull Request» o «PR») para todo el proyecto Jeedom, incluidos sus complementos gratuitos y la documentación, o para cualquier otro proyecto de GitHub en el que quieras participar.
 
-Ir [Github](https://github.com) y haga clic en el botón de registro. Por lo tanto, debe estar en una página similar a la siguiente y, por lo tanto, debe ingresar un apodo, un correo electrónico y una contraseña y luego hacer clic en **Crear una cuenta**
+Ir a [GitHub](https://github.com) y haz clic en el botón «Sign up». Deberías encontrarte en una página similar a la que se muestra a continuación, donde tendrás que introducir un nombre de usuario, una dirección de correo electrónico y una contraseña, y después hacer clic en **«Create an account»**.
 
-![tuto.github1](../images/tuto.github1.png)
+![tutorial.github1](../images/tuto.github1.png)
 
-Entonces llega a una segunda página como se muestra a continuación y no cambia nada, hace clic en **Continúa**
+Llegarás entonces a una segunda página como la que se muestra a continuación y, sin cambiar nada, haz clic en **Continuar**
 
-![tuto.github2](../images/tuto.github2.png)
+![tutorial.github2](../images/tuto.github2.png)
 
-Estás registrado y en la página de configuración de las opciones de tu cuenta. Le aconsejo que verifique la dirección de correo electrónico para poder recuperar su cuenta si olvida su contraseña, por ejemplo, pero también para poder enviar modificaciones. También te dejo descubrir las otras opciones si tienes curiosidad.
+Ya te has registrado y te encuentras en la página de configuración de las opciones de tu cuenta. Te recomiendo que compruebes la dirección de correo electrónico para poder recuperar tu cuenta en caso de que, por ejemplo, olvides la contraseña, pero también para poder enviar modificaciones. Te invito a que explores el resto de opciones si te pica la curiosidad.
 
-![tuto.github3](../images/tuto.github3.png)
+![tutorial.github3](../images/tuto.github3.png)
 
-# Jeedom Core Fork o Documentación
+# Bifurcación de Jeedom Core o de la documentación
 
-**Tenedor - Por qué - Cómo**
+**Fork: por qué y cómo**
 
-Fork es copiar un proyecto en su espacio github, para poder modificar el código y los archivos de documentación, luego enviar una solicitud de extracción al proyecto original, que luego será estudiado por el desarrollador (s) de dicho proyecto
+«Fork» consiste en copiar un proyecto a tu espacio de GitHub para poder modificar los archivos de código y la documentación, y posteriormente enviar una solicitud de incorporación de cambios (pull request) al proyecto original, que será evaluada por el desarrollador o los desarrolladores de dicho proyecto.
 
-Ahora que tiene una cuenta de Github y está identificado con su dirección de correo electrónico verificada, si va [aquí](https://github.com/jeedom/core) estás en el proyecto jeedom, a la derecha hay un botón de horquilla que te permite copiarlo en tu espacio github.
+Ahora que ya tienes una cuenta de GitHub y has iniciado sesión con tu dirección de correo electrónico verificada, si vas a [aquí](https://github.com/jeedom/core) Estás en el proyecto Jeedom; a la derecha hay un botón «fork» que te permite copiarlo a tu espacio de GitHub.
 
-![tuto.github4](../images/tuto.github4.png)
+![tutorial.github4](../images/tuto.github4.png)
 
-## Editar uno o más archivos
+## Modificación de uno o varios archivos
 
-En mi caso, por lo tanto, quiero insertar una modificación en el archivo *history.class.php* Este archivo se encuentra en el núcleo de la libertad y más precisamente aquí : núcleo / clase /
+En mi caso, quiero aplicar una modificación al archivo *history.class.php*. Este archivo se encuentra en el núcleo de Jeedom, concretamente aquí: core/class/
 
-- Así que estamos en mi repositorio (TaGGoU91 / core) que se indica como una bifurcación de Jeedom / core
-- Entonces vamos a / core / class (el primer núcleo está en negrita, es el repositorio donde estoy (core, vea Small 1))
-- Entonces tenemos nuestro archivo *history.class.php* - Hacemos clic en el archivo
+- Así que estamos en mi repositorio (TaGGoU91 / core), que aparece indicado como una bifurcación de Jeedom/core
+- Así pues, nos dirigimos a /core/class (el primer «core» aparece en negrita; es el repositorio en el que me encuentro (core, véase Petit 1))
+- Así que ya tenemos nuestro archivo *history.class.php*; hacemos clic en el archivo
 
 ![tuto.github5](../images/tuto.github5.png)
 
-- Entonces estamos en nuestro archivo
-- Hacemos clic en el lápiz para ingresar la modificación
+- Así que estamos en nuestro archivo
+- Haz clic en el lápiz para acceder al modo de edición
 
-![tuto.github6](../images/tuto.github6.png)
+![tutorial.github6](../images/tuto.github6.png)
 
-Para buscar el archivo, colóquese en el bloque de texto del archivo que acaba de abrir en modo de edición con el lápiz y presione "Ctrl + F" para activar la búsqueda. Pega o especifica el texto que está buscando (un elemento significativo y una línea solamente, no un bloque completo de una vez). Valide con "Enter" para comenzar la búsqueda.
-> **Punta**
+Para realizar una búsqueda en el archivo, sitúate en el bloque de texto del archivo que acabas de abrir en modo edición con el lápiz y pulsa «Ctrl + F» para activar la búsqueda. Pega o escribe el texto que buscas (un fragmento significativo y solo una línea, no todo un bloque de una vez). Pulsa «Intro» para iniciar la búsqueda.
+> **Consejo**
 >
-> Si no hace clic en la ventana que contiene el texto o el código que está buscando, se abrirá la búsqueda del navegador y, en mi caso, en Google Chrome, no sabrá cómo buscar en el código o documentación directamente.
+> Si no haces clic en la ventana que contiene el texto o el código que estás buscando, se abrirá el buscador del navegador y, en mi caso, en Google Chrome, este no sabe buscar directamente en el código o en la documentación.
 
-- El campo de búsqueda, sí, es bastante delgado como información, la línea copiada es mucho más grande;).
+- El campo de búsqueda… sí, es bastante escaso en cuanto a información, la línea copiada es mucho más larga ;).
 
 ![tuto.github7](../images/tuto.github7.png)
 
-- En amarillo, este es el resultado de la investigación
-- En azul, lo que acabo de seleccionar y que deseo modificar / reemplazar con mi código. Mi modificacion
+- En amarillo, el resultado de la búsqueda
+- En azul, lo que acabo de seleccionar y que quiero modificar o sustituir por mi código. Mi modificación
 
 ![tuto.github14](../images/tuto.github14.png)
 
-Entonces borro el bloque y lo reemplazo.
+Así que elimino el bloque y luego lo sustituyo.
 
-Luego en la parte inferior encontramos esto : 1. El título explícito se indica si es posible 2. Ingresamos una descripción un poco más precisa (en mi caso, sería demasiado largo, el enlace al foro será más significativo) 3. Nos aseguramos de que esté marcado así 4. En commit = Enviar cambio
+A continuación, en la parte inferior encontramos lo siguiente: 1. Se indica un título claro, si es posible. 2. Se introduce una descripción un poco más precisa (en mi caso, sería demasiado larga, el enlace al foro será más esclarecedor). 3. Nos aseguramos de que esté bien marcado así. 4. Se hace «commit» = Enviar el cambio.
 
-![tuto.github8](../images/tuto.github8.png)
+![tutorial.github8](../images/tuto.github8.png)
 
-## Enviar un cambio
+## Enviar una modificación
 
-El **cometer** hecho arriba solo se refiere a la bifurcación del proyecto en su espacio de GitHub. Para enviar cambios al proyecto original, debe realizar un PR (Solicitud de extracción)
+El **commit** realizado anteriormente solo afecta a la bifurcación del proyecto en tu espacio de GitHub. Para enviar los cambios al proyecto original, hay que crear una PR (solicitud de incorporación).
 
-- Hacemos clic en la pestaña Solicitud de extracción
-- Nueva solicitud de extracción (relaciones públicas para amigos))
+- Haz clic en la pestaña «Pull Request»
+- Nueva solicitud de incorporación de cambios (PR, para los que están al tanto)
 
 ![tuto.github9](../images/tuto.github9.png)
 
-- El RP lanzará una comparación entre la base de datos jeedom y su repositorio (la bifurcación).
-- Esto indica las modificaciones (la primera es porque me actualicé desde jeedom, la segunda precisamente sobre el cambio de la última función de cambio de estado, perfecto !!!)
-- El viejo código
+- El PR iniciará una comparación entre la base de datos de Jeedom y tu repositorio (el fork).
+- Esto indica los cambios (el primero se debe a que me he puesto al día con Jeedom, y el segundo se refiere precisamente al cambio en la función «lastchangestateduration», ¡perfecto!).
+- El código anterior
 - El nuevo código
-- Creamos la solicitud de extracción (PR)
+- Creamos la solicitud de incorporación de cambios (PR)
 
-![tuto.github10](../images/tuto.github10.png)
+![tutorial.github10](../images/tuto.github10.png)
 
-Es importante explicar claramente los cambios enviados para que los desarrolladores del proyecto original comprendan y puedan validar su solicitud.
+Es importante explicar bien los cambios propuestos para que los desarrolladores del proyecto original los entiendan y puedan validar tu solicitud.
 
-- Hacemos clic en los tres pequeños puntos
-- Copiamos la información que ingresamos previamente
-- Lo mismo, copiamos (de ahí el uso de ... en el paso 1 para evitar reescribir)
-- Hacemos clic en Crear solicitud de extracción
+- Haz clic en los tres puntitos
+- Copiamos la información que hemos introducido anteriormente
+- Lo mismo, lo copiamos (de ahí el uso de …​ en el paso 1 para evitar tener que volver a escribirlo)
+- Haz clic en «Create Pull Request»
 
 ![tuto.github11](../images/tuto.github11.png)
 
-**Se acabó.** Tienes que esperar hasta que tu RP sea validado.
+**Ya está.** Ahora solo tienes que esperar a que se apruebe tu PR.
 
-NB: Solo los usuarios que presionan directamente a Jeedom pueden validar el PR.
+Nota: Solo los usuarios con permiso de «push» en Jeedom pueden validar la solicitud de incorporación de cambios.
 
-Para asegurarse de que su modificación esté en la lista, puede hacer clic en Solicitudes de extracción
+Para asegurarte de que tu modificación aparece en la lista, puedes hacer clic en «Pull Requests».
 
 ![tuto.github12](../images/tuto.github12.png)
 
-Obtenemos la lista de PR en espera de validación. Podemos ver claramente el nuestro
+Se obtiene la lista de PR pendientes de validación. Se ve claramente el nuestro.
 
 ![tuto.github13](../images/tuto.github13.png)

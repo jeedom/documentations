@@ -1,41 +1,41 @@
-# GSM Huawei modem card mode
+# Huawei GSM in modem card mode
 
-In 90% of cases it is not necessary to force the GSM keys in GSM mode only (instead of GSM + cdrom + card reader), the only case where it is mandatory is if you want to use the key in a Jeedom on a VM (VMware ESXi). Indeed if you do not pass it in GSM mode only the key will not appear in the list of USB devices that you can pass to the VM.
+In 90% of cases, it is not necessary to force GSM keys into GSM-only mode (instead of GSM + CD-ROM + card reader); the only time this is required is if you want to use the key in a Jeedom instance running on a VM (VMware ESXi). In fact, if you do not set it to GSM-only mode, the dongle will not appear in the list of USB devices that you can pass to the VM.
 
-> **IMPORTANT**
+> **Important**
 >
-> This tutorial was done on a Windows 10
+> This tutorial was created on Windows 10
 
-# Driver installation
+# Installing Drivers
 
-Once the key is connected to a Windows 10 PC you must have a new CD-ROM drive. You have to double-click on it and install the proposed software (there is nothing to change just do next all along).
+Once the dongle is connected to a Windows 10 PC, you should see a new CD-ROM drive. Double-click it and install the software (there’s nothing to change—just click “Next” all the way through).
 
 ![gsmonly](../images/gsmonly.PNG)
 
-# COM port recovery
+# COM Port Detection
 
-Then you have to retrieve the communication port number. Go to the "Start" menu and search for "Device Manager", launch it then unfold the "Ports (COM and LPT)" section, you should have an item containing "HUAWEI", you must then just remember the number of the COM port :
+Next, you need to find the communication port number. Go to the "Start" menu and search for "Device Manager." Open it, then expand the "Ports (COM & LPT)" section. You should see an entry labeled "HUAWEI." Then, simply note down the COM port number:
 
 ![gsmonly2](../images/gsmonly2.PNG)
 
-# Putty Download
+# Download PuTTY
 
-Then download putty [here](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) and launch the downloaded file
+Next, download PuTTY [here](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) and run the downloaded file
 
-# Putty configuration and switch to GSM mode only
+# Configuring PuTTY and switching to GSM-only mode
 
-Once launched configure putty like this (by putting your COM port number to yourself, see step above) :
+Once launched, configure PuTTY as follows (be sure to enter your COM port number; see the step above):
 
 ![gsmonly3](../images/gsmonly3.PNG)
 
-A black window will appear (from time to time there may be a message "boot ...", this is normal, it means that you are well connected to the GSM key). In this window you have to type then press the "Enter" key" :
+A black window will appear (occasionally, a "boot…" message may appear; this is normal and means you are successfully connected to the GSM dongle). In this window, type the following and then press the "Enter" key:
 
 ``AT^u2diag=0``
 
-> **IMPORTANT**
+> **Important**
 >
-> Be careful when you type the text you will not see anything on the screen, it's normal, the text is still taken into account.
+> Please note that when you type the text, you won't see anything on the screen—this is normal, but the text is still being entered correctly.
 
-Normally in return you must have an OK.
+Normally, you should get an "OK" in response.
 
-That's it finished. Your key is in GSM mode only and you can use it through VMware now.
+That's it—you're all set. Your key is now in GSM-only mode, and you can use it through VMware.

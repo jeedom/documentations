@@ -1,38 +1,38 @@
 > **IMPORTANT**
 >
-> This tutorial is not made by Jeedom SAS but by a user of the community so we cannot guarantee that it works or that it is still current.
+> This tutorial was not created by Jeedom SAS but by a community user, so we cannot guarantee that it works or that it is still up to date.
 
 
 
-# Installation of Letsencrypt
+# Installing Let's Encrypt
 
-Here are the commands to launch to install letsencrypt before generation :
+Here are the commands to run to install Let's Encrypt before generating the certificate:
 
 ````
-apt-gand install -y git
+apt-get install -y git
 cd /opt
 git clone https://github.com/letsencrypt/letsencrypt
 cd letsencrypt
 ./letsencrypt-auto --help
 ````
 
-To request a certificate, you must have a domain name for which it will be generated.
+To request a certificate, you must own a domain name for which it will be generated.
 
-# Apache configuration
+# Apache Configuration
 
-For the letsEncrypt process to end properly, it is necessary to perform the three steps below beforehand :
+To ensure that the Let's Encrypt process completes successfully, you must first complete the three steps below:
 
-Attention it is necessary to open port 80 on the router (ISP) !
+Please note that you must open port 80 on your router (ISP)!
 
--   Activate the apache SSL module of the Jeedom box.
--   Activate the Apache VirtualHost HTTPS from the Jeedom box .
--   Configure a portForwarding of HTTPS requests on your Internet Box to redirect them to your Jeedom Box.
+-   Enable the Apache SSL module on the Jeedom box.
+-   Enable the Apache HTTPS VirtualHost on the Jeedom box.
+-   Set up port forwarding for HTTPS requests on your internet router to redirect them to your Jeedom box.
 
-## Activation of virtualHost and SSL module
+## Enabling the virtual host and the SSL module
 
-> **NOTE**
+> **Note**
 >
-> Connect in SSH on the Jeedom box.
+> Connect to the Jeedom box via SSH.
 
 ````
 a2enmod ssl
@@ -40,17 +40,17 @@ a2ensite default-ssl.conf
 service apache2 restart
 ````
 
-> **NOTE**
+> **Note**
 >
-> No certificate will be issued by LetsEncrypt as long as your HTTPS site cannot be reached from the outside.
+> LetsEncrypt will not issue a certificate until your HTTPS site is accessible from the outside.
 
 ``/opt/letsencrypt/letsencrypt-auto --apache --email email@domaine.com -d domaine.com``
 
-You need to replace the settings <email@domaine.com> and domain.com by your values. Normally the parameters for adding the HTTPS protocol are added by the script in Apache.
+You need to replace the settings <email@domaine.com> and domain.com using your values. Normally, the settings for adding the HTTPS protocol are added by the script in Apache.
 
-> **NOTE**
+> **Note**
 >
-> If you use the automatic renewal method below, you can deactivate virtualHost ``default-ssl.conf`` with the order ``a2dissite default-ssl.conf`` Remember to carry the default code below in the virtualHost created by the renewal script ``/etc/apache2/sites-available/000-default-le-ssl.conf``
+> If you use the automatic renewal method below, you can disable the virtual host ``default-ssl.conf`` with the command ``a2dissite default-ssl.conf`` Be sure to copy the default code below into the virtual host created by the renewal script ``/etc/apache2/sites-available/000-default-le-ssl.conf``
 
 ````
 <FilesMatch "\.(cgi|shtml|phtml|php)$">
@@ -62,17 +62,17 @@ You need to replace the settings <email@domaine.com> and domain.com by your valu
 </VirtualHost>
 ````
 
-# Configuration of Nginx
+# Configuring Nginx
 
-This command is only to be used if you have an Nginx web server.
+This command should only be used if you have an Nginx web server.
 
 ``./letsencrypt-auto certonly --email email@domaine.com -d domaine.com -a webroot --webroot-path /usr/share/nginx/www/``
 
-You must replace the email and domain parameters with your values, as well as the path to the server root. You must add the two HTTPS configuration lines in the nginx configuration :
+You must replace the email and domain settings with your own values, as well as the path to the server root. You must add the two HTTPS configuration lines to the nginx configuration:
 
 ``vi /etc/nginx/sites-enabled/default``
 
-Add the following lines, between the lines ``server {`` and ``root /usr/share/nginx/www ;`` :
+Add the following lines between the lines ``server {`` and ``root /usr/share/nginx/www ;`` :
 
 ````
 listen 80;
@@ -82,45 +82,45 @@ ssl_certificate_key /etc/nginx/ssl/ jeedom.chezmoi.fr.key;
 ssl_session_timeout 5m;
 ````
 
-And finally restart the Nginx server.
+And finally, restart the Nginx server.
 
 ``service nginx restart``
 
-# Renouvellement
+# Renewal
 
-Renewal is done with the order :
+Renewal is done using the following command:
 
 ``/opt/letsencrypt/letsencrypt-auto --apache --renew-by-default -d mondomaine.fr``
 
-You will receive an email automatically when the certificate expires which will remind you to launch this order.
+You will automatically receive an email when your certificate is about to expire, reminding you to place this command.
 
 ## Automatic method
 
-It's still better when it's automatic. To do this, here are the steps to follow :
+It’s definitely better when it’s automatic. To set it up, follow these steps:
 
--   Install **bc**, used in the le-renew script : ``apt-gand install -y bc``
--   Create a file to write the script (its location is free) : ``nano /bin/certletsencryptrenew.sh``
--   Enter the lines below in the file created previously. Copy / paste works via putty. This script checks the expiration of the certificate and renews it automatically if the expiration date is less than 30 days. You must replace the domain parameter.com by your value :
+-   Install **bc**, which is used in the le-renew script: ``apt-get install -y bc``
+-   Create a file to write the script in (you can choose any location): ``nano /bin/certletsencryptrenew.sh``
+-   Enter the lines below into the file you created earlier. You can copy and paste them using PuTTY. This script checks the certificate’s expiration date and automatically renews it if the expiration date is less than 30 days away. You must replace the parameter “domain.com” with your own value:
 ````
     curl -L -o /usr/local/sbin/le-renew https://raw.githubusercontent.com/frixo3190/le-renew/main/le-renew
     chmod +x /usr/local/sbin/le-renew
     le-renew domaine.com
 ````
--   Save the file then exit the text editor, for example, with nano :
+-   Save the file and then exit the text editor—for example, with nano:
 ````
-    ctrl+o -> Entrée     (permand de sauvegarder)
-    ctrl+x -> Entrée     (permand de quitter)
+    ctrl+o -> Entrée     (permet de sauvegarder)
+    ctrl+x -> Entrée     (permet de quitter)
 ````
--   Edit the crontab. You must be logged in as root ``crontab -e``
--   We add the following line : ``0 5 * * 1 /bin/certletsencryptrenew.sh``
-> **IMPORTANT**
+-   Edit the crontab. You must be logged in as root. ``crontab -e``
+-   Add the following line: ``0 5 * * 1 /bin/certletsencryptrenew.sh``
+> **Important**
 >
-> Be careful to adapt the path to the script.
+> Be sure to adjust the path to the script correctly.
 
 > **Tip**
 >
-> To understand planning ``0 5 * * 1``, check here and adjust it as needed :
--   Save the file then quit the text editor by saving :
+> Understanding Planning ``0 5 * * 1``, check here and adjust it to suit your needs if necessary:
+-   Save the file, then exit the text editor by saving:
 ````
     ctrl+o -> Entrée
     ctrl+x -> Entrée

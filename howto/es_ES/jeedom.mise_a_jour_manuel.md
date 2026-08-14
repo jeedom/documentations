@@ -1,33 +1,33 @@
-# Actualización de línea de comando de Jeedom
+# Actualización de Jeedom mediante la línea de comandos
 
-Veremos cómo actualizar manualmente su Jeedom *(si ya no puede acceder a la interfaz, por ejemplo)*
+Vamos a ver cómo actualizar manualmente tu Jeedom *(por ejemplo, si ya no puedes acceder a la interfaz)*
 
-## Prerrequisitos
+## Requisitos previos
 
--   saber cómo conectarse en SSH a Jeedom
--   conocer las credenciales ssh *(ver documentación de instalación)*
--   tener acceso a Internet desde el cuadro Jeedom
+-   Cómo conectarse por SSH a Jeedom
+-   Conocer las credenciales SSH *(véase la documentación de instalación)*
+-   tener acceso a Internet desde el router Jeedom
 
 > **Importante**
 >
-> Recuerde exportar la copia de seguridad Jeedom funcional más reciente fuera de la caja antes de cualquier actualización manual.
+> Asegúrate de exportar la copia de seguridad funcional más reciente de Jeedom fuera del dispositivo antes de realizar cualquier actualización manual.
 
-## Descargar y descomprimir
+## Descarga y descompresión
 
-En SSH, haz :
+En SSH, ejecuta:
 
 ````bash
 su -
 cd /root
 wget https://github.com/jeedom/core/archive/master.zip
-descomprimir master.zip
+unzip master.zip
 cp -R core-master/* /var/www/html
 cp -R core-master/.[^.]* /var/www/html
 ````
 
-## Mise à jour
+## Actualización
 
-Toujours en SSH:
+Siguiendo con SSH:
 
 ````bash
 su -
@@ -38,4 +38,4 @@ chown www-data:www-data -R /var/www/html
 
 > **Importante**
 >
-> Si su instalación de Jeedom es un poco vieja, debe reemplazar todas ``/var/www/html`` por ``/usr/share/nginx/www/jeedom``
+> Si tu instalación de Jeedom es un poco antigua, hay que sustituir todos los ``/var/www/html`` por ``/usr/share/nginx/www/jeedom``
