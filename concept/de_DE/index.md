@@ -1,125 +1,124 @@
-# Concept
+# Konzept
 
-Hier sind die wichtigsten Grundkonzepte von Jeedom. Diese Dokumentation bleibt freiwillig einfach, damit Sie die Kontrolle über Ihre Hausautomation übernehmen können.
+Hier finden Sie die wichtigsten Grundkonzepte von Jeedom. Diese Dokumentation ist bewusst einfach gehalten, um Ihnen den Einstieg in die Hausautomation zu erleichtern.
 
-Die Möglichkeiten von Jeedom sind nahezu endlos, da man mit ein paar PHP-, Python- oder anderen Skripten viele Dinge erstellen kann, aber das ist hier nicht das Thema.
+Die Möglichkeiten von Jeedom sind nahezu unbegrenzt, da man mit ein paar PHP-, Python- oder anderen Skripten eine Menge Dinge erstellen kann, aber darum geht es hier nicht.
 
-## Affichage
+## Anzeige
 
-Mit Jeedom können viele Geräte miteinander verbunden werden, sei es auf Basis der Protokolle Z-Wave, Enocean, Zigbee usw., auf APIs mithilfe von Plugins oder direkt in Form von Skripten. Sie können auf der sehen [Markt](https://market.jeedom.com/) um einen Überblick über die unterstützten Geräte zu erhalten.
+Mit Jeedom lassen sich zahlreiche Geräte miteinander vernetzen, unabhängig davon, ob diese auf den Protokollen Z-Wave, Enocean, Zigbee usw. basieren, über APIs mithilfe von Plugins oder direkt in Form von Skripten. Weitere Informationen finden Sie auf der [Markt](https://market.jeedom.com/) um einen Überblick über die unterstützten Geräte zu erhalten.
 
-Sie können diese Geräte auf verschiedene Arten anzeigen :
+Sie können diese Geräte auf verschiedene Arten anzeigen:
 
-- Auf dem [Armaturenbrett](/core/dashboard)
-- Auf dem [Synthese](/core/overview) (v4.5)
-- Auf einem [Ansicht](/core/view)
+- Auf der [Dashboard](/core/dashboard)
+- Auf der [Zusammenfassung](/core/overview)
+- Auf einer [Ansicht](/core/view)
 - Auf einem [Design](/core/design)
-- Auf einem [3D Design](/core/design3d)
+- Auf einem [3D-Design](/core/design3d)
 
-![Synthese](../images/concept-synthese.jpg)
+![Zusammenfassung](../images/concept-synthese.jpg)
 
-Diese können im Browser auf einem Desktop-Computer, auf einem Smartphone mit der WebApp oder der mobilen Anwendung angezeigt werden : [Mobil Version](/de_DE/mobile/index)
+Diese können in einem Browser auf einem Desktop-Computer, auf einem Smartphone über die WebApp oder die mobile App aufgerufen werden: [Mobile Version](/mobile)
 
-## Objekte
+## Die Objekte
 
-Um Ihre Geräte zu organisieren, können Sie erstellen [Objekte](/core/object).
+Um Ihre Geräte zu organisieren, können Sie [Objekte](/core/object).
 
-Diese Objekte können Teile des Hauses darstellen (Wohnzimmer, Schlafzimmer, Werkstatt). Jedes Objekt kann ein übergeordnetes Objekt haben. Diese Hierarchie wird für die Anzeige im Dashboard verwendet. Sie können beispielsweise ein Objekt haben **Haus**, dann Objekte **Wohnzimmer** und **Schlafzimmer** Objekt Kinder **Haus**. Einmal im Dashboard, das Objekt **Haus** zeigt auch unten seine untergeordneten Objekte an.
+Diese Objekte können Räume im Haus darstellen (Wohnzimmer, Schlafzimmer, Arbeitszimmer). Jedes Objekt kann ein übergeordnetes Objekt haben. Diese Hierarchie dient der Darstellung auf dem Dashboard. Sie können beispielsweise ein Objekt **Haus** haben, dessen untergeordnete Objekte **Wohnzimmer** und **Schlafzimmer** sind. Auf dem Dashboard werden unter dem Objekt **Haus** auch dessen untergeordnete Objekte angezeigt.
 
-![Objet](../images/concept-objet.jpg)
+![Objekt](../images/concept-objet.jpg)
 
-> **Beratung**
+> **Tipp**
 >
-> IN **Einstellungen → Einstellungen**, Sie können definieren, welches Objekt im Dashboard ankommen soll. [Vorlieben](/core/profils)
+> Unter **Einstellungen → Voreinstellungen** können Sie festlegen, zu welchem Objekt Sie auf dem Dashboard gelangen möchten. [Einstellungen](/core/profils)
 
-![Armaturenbrett](../images/concept-dashboard.jpg)
+![Dashboard](../images/concept-dashboard.jpg)
 
-## Ausrüstung und ihre Kontrollen
+## Geräte und deren Steuerung
 
-### Commandes
+### Steuerungen
 
-Für die Interaktion mit unserer Hausautomation benötigen Sie Befehle ! Es gibt zwei Arten :
+Um mit unserem Hausautomationssystem zu interagieren, braucht man Befehle! Es gibt zwei Arten von Befehlen:
 
-> Note
+> Anmerkung
 >
-> Seien Sie versichert, Bestellungen werden normalerweise automatisch erstellt ! Diese Erklärungen dienen dem besseren Verständnis.
+> Keine Sorge, Bestellungen werden normalerweise automatisch erstellt! Diese Erläuterungen dienen lediglich dem besseren Verständnis.
 
-- Bestellungen *Info* :
-Diese Befehle speichern Informationen von Sensoren. Zum Beispiel die Temperatur einer Sonde, die Bewegung eines Anwesenheitssensors usw.
-Diese Befehle können protokolliert werden, um diese Informationen über die Zeit in Form einer Kurve zu erhalten : [Chronik](/core/history)
+- Die *info*-Befehle:
+Diese Befehle speichern Informationen von Sensoren. Zum Beispiel die Temperatur eines Fühlers, eine Bewegung eines Präsenzmelders usw.
+Diese Befehle können protokolliert werden, um diese Informationen langfristig in Form einer Kurve zu speichern: [Geschichte](/core/history)
 
-Diese Befehle können auch zum Auslösen verwendet werden [Szenarien](/core/scenario) um Aktionen basierend auf den von Ihren Sensoren gesendeten Informationen zu automatisieren. Ein Bewegungssensor erkennt beispielsweise eine Anwesenheit, die ein Szenario auslöst, das das Licht einschaltet.
+Diese Befehle können auch dazu dienen, [Szenarien](/core/scenario) um Vorgänge anhand der von Ihren Sensoren übermittelten Informationen zu automatisieren. Wenn beispielsweise ein Bewegungssensor eine Präsenz erkennt, löst dies ein Szenario aus, das das Licht einschaltet.
 
-- Bestellungen *Aktion* :
-Mit diesen Befehlen können Sie Ihre Aktuatoren steuern. Zum Beispiel Befehle ````on```` und ````off```` Mit einer kontrollierten Steckdose können Sie sie ein- und ausschalten.
+- Die *action*-Befehle:
+Mit diesen Befehlen können Sie Ihre Aktoren steuern. Zum Beispiel die Befehle ``on`` und ``off`` Mit einer ferngesteuerten Steckdose können Sie das Gerät ein- und ausschalten.
 
-Aktionsbefehle sind normalerweise mit Info-Befehlen verknüpft. Hier hat unsere Einstellung zwei Aktionen ````on```` und ````off````, in der Regel im Zusammenhang mit Informationen **Zustand**.
+Aktionsbefehle sind in der Regel mit Info-Befehlen verknüpft. In diesem Fall verfügt unsere Steckdose über zwei Aktionen ``on`` und ``off``, die in der Regel mit einer **Status**-Information verbunden sind.
 
-![Befehle](../images/concept-commands.jpg)
+![Steuerungen](../images/concept-commands.jpg)
 
-Diese beiden Arten von Befehlen werden in Form von Geräten angehängt. Das Gerät verfügt daher über Info- und / oder Aktionsbefehle. Dieses Gerät verfügt über ein übergeordnetes Objekt, mit dem Sie es an der gewünschten Stelle anzeigen können.
+Diese beiden Befehlstypen sind in Form eines Geräts miteinander verknüpft. Das Gerät verfügt somit über Info- und/oder Aktionsbefehle, und dieses Gerät hat ein Objekt als übergeordnetes Element, sodass Sie es an beliebiger Stelle anzeigen können.
 
-Jeder Befehl kann auch einen sogenannten generischen Typ haben, der es Jeedom und einigen Plugins ermöglicht, den Befehlstyp (Status einer Steckdose, Taste eines Lichts usw). [**Werkzeuge → Gerätetypen**](/core/types).
+Jeder Befehl kann zudem einen sogenannten generischen Typ haben, wodurch Jeedom und bestimmte Plugins den Befehlstyp erkennen können (Status einer Steckdose, Schalter einer Leuchte usw.). [**Extras → Gerätetypen**](/core/types).
 
-### Équipement
+### Ausstattung
 
-- Physiquement: Ich habe eine Steckdose mit einem Ein / Aus-Knopf und einer Status-LED im Wohnzimmer.
-- In Jeedom: Ich habe Geräte mit zwei Ein- und Ausschaltaktionen und einer Statusinformation im Salonobjekt.
+- Hardware: Ich habe im Wohnzimmer eine Steckdose mit Ein-/Aus-Schalter und einer Status-LED.
+- In Jeedom: Ich habe ein Gerät mit zwei Aktionen (Ein und Aus) und einer Statusmeldung im Objekt „Wohnzimmer“.
 
-Diese Geräte werden von Plugins erstellt. Mit dem Z-Wave-Plugin können Sie beispielsweise Ihren Z-Waze-Sockel einbinden, wodurch ein Gerät mit seinen Steuerelementen erstellt wird, das Sie benennen und mit einem Objekt verknüpfen können.
+Diese Geräte werden über Plugins erstellt. Mit dem Z-Wave-Plugin können Sie beispielsweise Ihre Z-Wave-Steckdose hinzufügen. Dadurch wird ein Gerät mit entsprechenden Befehlen erstellt, das Sie benennen und mit einem Objekt verknüpfen können.
 
-In Bezug auf die Anzeige wird jede Bestellung mit einem Widget angezeigt. Der Core bietet die wichtigsten Widgets sowie ein Tool zum Erstellen dieser Widgets (V4)) : [Widgets](/core/widgets).
+Was die Darstellung angeht, wird jeder Befehl über ein Widget angezeigt. Der Core bietet die wichtigsten Widgets sowie ein Tool zu deren Erstellung (V4): [Widgets](/core/widgets).
 
-Diese Befehle sind in einer Kachel zusammengefasst, die Ihrer Ausrüstung entspricht. Und diese Kachel wird daher im Dashboard in dem Objekt angezeigt, das Sie ihr zugewiesen haben.
+Diese Befehle sind in einer Kachel zusammengefasst, die Ihrer Anlage entspricht. Diese Kachel wird dann auf dem Dashboard in dem Objekt angezeigt, dem Sie sie zugewiesen haben.
 
-![Befehle](../images/concept-equipment.jpg)
+![Steuerungen](../images/concept-equipment.jpg)
 
-Unabhängig von Ihrem Gerät wird es daher in Form eines Geräts aus a erstellt [Plugin](/core/plugin).
+Unabhängig davon, um welches Gerät es sich handelt, wird es als Gerät angelegt, und zwar auf der Grundlage eines [Plugin](/core/plugin).
 
-Dieses Gerät verfügt über eigene Befehle *Info* oder *Aktion*. Diese Befehle werden als Widgets angezeigt, die die Gerätekachel in ihrem übergeordneten Objekt bilden.
+Dieses Gerät verfügt über eigene Befehle *info* oder *action*. Diese Befehle werden in Form von Widgets angezeigt, die die Kachel des Geräts in seinem übergeordneten Objekt bilden.
 
-Sie werden dann sehen, dass jedes Objekt, jede Ausrüstung oder jeder Befehl zahlreiche Optionen hinsichtlich Funktionalität oder Anzeige bietet. Aber alles zu seiner Zeit, jetzt sollten Sie die Grundkonzepte von Jeedom verstanden haben und somit in der Lage sein, mit der Organisation Ihrer Hausautomation zu beginnen, indem Sie wissen, wo Sie suchen müssen.
+Sie werden im Folgenden feststellen, dass jedes Objekt, jedes Gerät und jeder Befehl zahlreiche Optionen hinsichtlich der Funktionen oder der Darstellung bietet. Aber eins nach dem anderen: Nun sollten Sie die Grundkonzepte von Jeedom verstanden haben und somit in der Lage sein, Ihre Hausautomation zu organisieren, da Sie wissen, wo Sie nachschauen müssen.
 
 ## Mein erstes Szenario
 
-Der Vorteil der Heimautomation über die zentrale und ferngesteuerte Steuerung unserer Peripheriegeräte hinaus liegt vor allem in der Automatisierung. Das Ziel ist nicht, Stunden vor Ihrem Dashboard oder Design zu verbringen, sondern im Gegenteil, dass sich Ihre Unterkunft an Ihre Gewohnheiten anpasst und Sie vergessen lässt. Keine Fensterläden mehr, die jeden Tag geöffnet und geschlossen werden müssen, keine Lichter mehr zum Ein- und Ausschalten, seien Sie gewarnt, wann Sie den Müll auf die Straße bringen müssen, wenn sich Post im Briefkasten befindet, die Heizung passt sich dem an Jahreszeiten und klimatische Bedingungen. Die Möglichkeiten sind endlos und hängen vom eigenen Lebensstil ab. Dafür gibt es die Szenarien !
+Der Vorteil der Hausautomation liegt – über die zentrale und ferngesteuerte Steuerung unserer Geräte hinaus – vor allem in der Automatisierung. Das Ziel ist nicht, stundenlang vor dem Dashboard oder dem Design zu sitzen, sondern im Gegenteil, dass sich Ihr Zuhause an Ihre Gewohnheiten anpasst und sich unauffällig in den Hintergrund einfügt. Nie wieder müssen Sie täglich Rollläden öffnen und schließen oder das Licht ein- und ausschalten; Sie werden benachrichtigt, wann Sie die Mülltonne an die Straße stellen müssen oder wann Post im Briefkasten liegt, und die Heizung passt sich je nach Jahreszeit und Wetterbedingungen an. Die Möglichkeiten sind unbegrenzt und hängen vom Lebensstil jedes Einzelnen ab. Dafür gibt es die Szenarien!
 
-Ein Szenario besteht aus einer Reihe definierter Aktionen, die zu bestimmten Tageszeiten ausgeführt werden. Die Ausführung kann geplant werden (jeden Montag zu einer bestimmten Zeit) oder durch ein Ereignis verursacht werden. Wie oben gezeigt, kann dieses Ereignis beispielsweise unser Info-Befehl sein *Präsenz* ein Bewegungsmelder nach einer Erkennung.
+Ein Szenario ist eine Abfolge festgelegter Aktionen, die zu bestimmten Tageszeiten ausgeführt werden. Die Ausführung kann zeitlich geplant sein (jeden Montag um eine bestimmte Uhrzeit) oder durch ein Ereignis ausgelöst werden. Wie oben beschrieben, kann dieses Ereignis beispielsweise unser Befehl „*Anwesenheit*“ an einen Bewegungsmelder sein, der nach einer Erkennung ausgelöst wird.
 
-Das Ziel hier ist nicht, erschöpfend zu sein, sondern die Szenarien anhand einfacher Beispiele zu entdecken. Das [Dokumentation des Benutzerhandbuchs](/core/scenario) ist viel vollständiger.
-
-
-### Licht bei Bewegungserkennung.
-
-Angenommen, wir haben ein kontrolliertes Licht und einen Bewegungsmelder im Raum.
-
-![1stScenario](../images/1stScenario.gif)
-
-- Gehe zu **Werkzeuge → Szenarien**
-- Klicken Sie auf *Hinzufügen* Geben Sie dann dem neuen Szenario einen Namen.
-- Richtig, im Abschnitt *Veröffentlichung*, Überprüfen Sie, ob der Modus aktiviert ist *Provozierten* dann klicken Sie auf *+ Auslöser*.
-- Mit der Taste *Wählen Sie eine Bestellung* rechts vom Feld *Ereignis*, Wählen Sie das Objekt, dann das Gerät und seine Reihenfolge.
-
-Die *Auslöser* ist das, was die Ausführung dieses Szenarios auslöst. Hier möchten wir es auslösen, wenn unser Detektor eine Anwesenheit erkennt, also werden wir den Befehl `verwenden#[Schlafzimmer][Détecteur Schlafzimmer][Präsenz]# == 1`.
-
-Das „#“ gibt einen Befehl an, dann finden wir „[den Namen seines übergeordneten Objekts]“, dann „[den Namen des Geräts]“ und schließlich „[den Namen des Befehls]“. Hier fügen wir „== 1“ hinzu, weil wir möchten, dass das Szenario nur bei Erkennung einer Anwesenheit ausgelöst wird. Bei einem Anwesenheitsdetektor wird diese Erkennung jedoch einige Sekunden später auf 0 zurückgesetzt. Diese Änderung auf 0 wird daher unser Szenario nicht erneut auslösen.
-
-- Klicken Sie auf die Registerkarte *Szenario* dann die Schaltfläche oben *Block hinzufügen*. Wähle einen Block *Aktion* dann auf diesem, *Hinzufügen* Ein *Aktion*. Diese Aktion wird unser Lichtschaltbefehl sein. Nach dem gleichen Prinzip : ``#[Schlafzimmer][Lumière Schlafzimmer][On]#``.
-
-- Speichern Sie und Ihr Skript ist fertig !
-
-Hier haben wir die Möglichkeiten der Szenarien nur gestreift. Sie können Bedingungen hinzufügen (blockieren *If / Then / Oder*), Verzögerungsaktionen (Block *IN*), programmiere sie (block *Bis*) und sogar direkt PHP-Code verwenden (Block *Code*).
-
-Hier haben wir den Triggermodus verwendet *Provozierten* mit einer Bestellung. Sie können den Modus aber auch verwenden (und kombinieren) *Programmiert* um jeden Morgen oder jede Stunde ein Szenario auszuführen usw.
+Das Ziel ist hier nicht, alle Aspekte abzudecken, sondern anhand einfacher Beispiele verschiedene Anwendungsszenarien aufzuzeigen. Die [Dokumentation der Bedienungsanleitung](/core/scenario) ist wesentlich umfassender.
 
 
-### Programm des Tages.
+### Einschalten des Lichts bei Bewegungserkennung.
 
-Ein wiederkehrendes Thema für Anfänger auf Jeedom, die Programmierung von täglichen Veranstaltungen wie :
+Nehmen wir an, wir haben eine steuerbare Leuchte und einen Bewegungsmelder im Schlafzimmer.
 
-- Schalten Sie die Kaffeemaschine an Wochentagen um 7 Uhr morgens ein.
-- Öffnen Sie die Fensterläden bei Sonnenaufgang.
-- Schließen Sie die Fensterläden bei Sonnenuntergang, wenn ich nicht da bin.
+![1. Szenario](../images/1stScenario.gif)
 
-Für diese Art von Szenario finden Sie hier eine sehr gute Einführung : [Programm des Tages](https://kiboost.github.io/jeedom_docs/jeedomV4Tips/Tutos/ProgDuJour/de_DE/)
+- Gehen Sie zu **Extras → Szenarien**
+- Klicken Sie auf *Hinzufügen* und geben Sie dem neuen Szenario einen Namen.
+- Überprüfen Sie rechts im Bereich *Auslösung*, ob der Modus auf *Ausgelöst* eingestellt ist, und klicken Sie dann auf *+ Auslöser*.
+- Wählen Sie mithilfe der Schaltfläche *Befehl auswählen* rechts neben dem Feld *Ereignis* das Objekt, anschließend das Gerät und dessen Befehl aus.
 
+Der *Auslöser* ist das, was die Ausführung dieses Szenarios auslöst. In diesem Fall möchten wir es auslösen, wenn unser Sensor eine Anwesenheit erkennt. Daher verwenden wir den Befehl `#[Chambre][Détecteur Chambre][Présence]# == 1`.
+
+Die `#` weisen auf einen Befehl hin, danach folgt `[le nom de son objet parent]` dann `[le nom de l'équipement]` und schließlich `[le nom de la commande]`. Hier fügen wir hinzu ` == 1` denn wir möchten, dass das Szenario nur bei der Erkennung einer Präsenz ausgelöst wird. Bei einem Präsenzmelder fällt dieser Wert jedoch einige Sekunden später wieder auf 0 zurück. Dieser Rückgang auf 0 löst unser Szenario daher nicht erneut aus.
+
+- Klicken Sie auf die Registerkarte *Szenario* und anschließend oben auf die Schaltfläche *Block hinzufügen*. Wählen Sie einen *Aktionsblock* aus und fügen Sie dann über diesen Block eine *Aktion* hinzu. Diese Aktion dient als Befehl zum Einschalten des Lichts. Nach dem gleichen Prinzip: `#[Chambre][Lumière Chambre][On]#`.
+
+- Speichern Sie, und schon ist Ihr Szenario fertig!
+
+Wir haben hier nur einen kurzen Überblick über die Möglichkeiten von Szenarien gegeben. Sie können Bedingungen hinzufügen (*Wenn/Dann/Sonst*-Block), Aktionen zeitlich verzögern (*In*-Block), sie programmieren (*A*-Block) und sogar direkt PHP-Code verwenden (*Code*-Block).
+
+Wir haben hier den Auslösemodus *auf Befehl* verwendet. Sie können jedoch auch den Modus *programmiert* nutzen (und kombinieren), um ein Szenario jeden Morgen oder jede Stunde usw. auszuführen.
+
+
+### Das Tagesprogramm.
+
+Ein immer wiederkehrendes Thema für Jeedom-Einsteiger ist die Programmierung von täglichen Ereignissen wie:
+
+- Die Kaffeemaschine werktags um 7 Uhr einschalten.
+- Die Rollläden bei Sonnenaufgang öffnen.
+- Die Rollläden bei Sonnenuntergang schließen, wenn ich nicht da bin.
+
+Für diese Art von Szenario gibt es hier eine sehr gute Einführung: [Tagesprogramm](https://kiboost.github.io/jeedom_docs/jeedomV4Tips/Tutos/ProgDuJour/fr_FR/)
