@@ -77,7 +77,6 @@
     "Mot de passe : mot de passe de votre profil market": "Passwort: Passwort für Ihr Market-Profil",
     "Nom d'hôte": "Hostname",
     "Nom d'utilisateur : identifiant de votre profil market": "Benutzername: Ihre Market-Profil-ID",
-    "Objet": "Betreff",
     "Pour accéder à l’interface Jeedom, il est nécessaire de connaître l’adresse IP ou le nom d’hôte de la machine sur le réseau local. Voici plusieurs méthodes pour l’obtenir :": "Um auf die Jeedom-Benutzeroberfläche zugreifen zu können, müssen Sie die IP-Adresse oder den Hostnamen des Geräts im lokalen Netzwerk kennen. Hier sind verschiedene Methoden, um diese zu ermitteln:",
     "Pour activer ce service, il faut simplement se rendre dans le menu **Réglages → Système → Configuration**, onglet **Réseaux** :": "Um diesen Dienst zu aktivieren, gehen Sie einfach ins Menü **Einstellungen → System → Konfiguration**, Registerkarte **Netzwerke**:",
     "Pour activer votre Service Pack, il faut saisir ce code lorsque demandé après avoir cliqué sur le bouton **Je dispose d'un code** de l'onglet ": "Um Ihr Service Pack zu aktivieren, müssen Sie diesen Code eingeben, wenn Sie dazu aufgefordert werden, nachdem Sie auf die Schaltfläche **Ich habe einen Code** auf der Registerkarte ",
