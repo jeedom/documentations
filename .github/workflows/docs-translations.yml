@@ -27,6 +27,7 @@ jobs:
           - home
           - legal_notice
           - mobile
+          - premiers-pas
     runs-on: ubuntu-latest
     steps:
       - uses: jeedom/jeetranslate-docs@main
