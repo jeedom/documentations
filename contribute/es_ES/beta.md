@@ -1,123 +1,123 @@
 
-# Bêta-test de Jeedom
+# Prueba beta de Jeedom
 
-Un bêta‑testeur est un utilisateur qui teste les versions du logiciel avant qu'elles soient diffusées à l'ensemble des utilisateurs. Le bêta-testing permet de remonter des erreurs qui pourraient apparaitre lors de la phase de développement *(bug fonctionnel ou souci d'interface par exemple)*. C'est une importante source d'amélioration pour le projet, qui permet d'apporter des idées fraîches et de tester les nouveautés en conditions réelles.
+Un probador beta es un usuario que prueba las versiones del software antes de que se distribuyan al conjunto de usuarios. Las pruebas beta permiten detectar errores que podrían surgir durante la fase de desarrollo *(por ejemplo, errores funcionales o problemas de interfaz)*. Son una importante fuente de mejora para el proyecto, ya que aportan ideas nuevas y permiten probar las novedades en condiciones reales.
 
-## Mises en garde
+## Advertencias
 
-Bien que les développeurs prennent un maximum de précautions, les versions en cours de développement sont susceptibles d'inclure des bugs pouvant rendre un plugin ou le core totalement inopérants. De la même manière, les fonctionnalités en cours de développement peuvent être reportées, voire abandonnées en fonction des circonstances. Il faut donc être plutôt à l'aise avec les procédures de sauvegarde/restauration de Jeedom avant de se lancer dans le bêta-testing.
+Aunque los desarrolladores toman todas las precauciones posibles, las versiones en fase de desarrollo pueden contener errores que hagan que un complemento o el núcleo dejen de funcionar por completo. Del mismo modo, las funcionalidades en fase de desarrollo pueden posponerse o incluso abandonarse, dependiendo de las circunstancias. Por lo tanto, es necesario estar bastante familiarizado con los procedimientos de copia de seguridad y restauración de Jeedom antes de lanzarse a las pruebas beta.
 
-Comme indiqué ci-dessus, le fait de basculer Jeedom ou un plugin sur une version en cours de développement comporte des risques. Par conséquent, **il est fortement recommandé de le faire sur une installation de test prévue à cet effet *([une machine virtuelle](../installation/vm) par exemple)* plutôt que sur un Jeedom en production**.
+Como se ha indicado anteriormente, actualizar Jeedom o un complemento a una versión en fase de desarrollo conlleva riesgos. Por lo tanto, **se recomienda encarecidamente hacerlo en una instalación de prueba destinada a tal fin *([una máquina virtual](/installation/vm) por ejemplo)* en lugar de en un Jeedom en producción**.
 
->**Importante**
+>**IMPORTANTE**
 >
->L'équipe Jeedom ne peut être tenue responsable de tout dysfonctionnement survenant suite à l'installation d'une version autre que stable. Dans ce cas **l'accès au support officiel est impossible**, il faut donc [faire une remontée](#Faire%20une%20remontée).
+>El equipo de Jeedom no se hace responsable de ningún fallo que se produzca tras la instalación de una versión que no sea la estable. En ese caso, **no se podrá acceder al servicio de asistencia oficial**, por lo que es necesario [enviar un informe](#Faire%20une%20remontée).
 
-## Branches
+## Sectores
 
-Jeedom est un logiciel open-source dont le développement peut être suivi en temps réel sur [Github](https://github.com/jeedom/core){:target="_blank"}. Chaque branche correspondant à différents niveaux d'avancement dans son développement.
+Jeedom es un programa de código abierto cuyo desarrollo se puede seguir en tiempo real en [GitHub](https://github.com/jeedom/core){:target="_blank"}. Cada rama corresponde a diferentes niveles de avance en su desarrollo.
 
-### Branches principales
+### Áreas principales
 
--  **develop** : Version en cours de développement incluant des modifications régulières *(intégration continue)*.
--  **release** : Prochaine version déployée quelques jours avant passage en stable pour être testée en conditions réelles et corrigée rapidement si nécessaire.
--  **maestro** : Version stable de Jeedom *(branche par défaut incluant le support officiel)*.
+-  **desarrollo**: Versión en fase de desarrollo que incluye modificaciones periódicas *(integración continua)*.
+-  **Lanzamiento**: La próxima versión se publicará unos días antes de pasar a la versión estable para poder probarla en condiciones reales y corregirla rápidamente si es necesario.
+-  **master**: Versión estable de Jeedom *(rama predeterminada que incluye el soporte oficial)*.
 
->**INFORMATION**
+>**INFORMACIÓN**
 >
->Bien qu'il y ait plus d'une centaine de bêta-testeurs enregistrés sur le forum, nous n'avons que peu de retours concernant les développements en cours *(branche `develop`)*. Que ce soit par manque de temps ou de doutes sur ses connaissances techniques, ceux qui souhaitent néanmoins participer aux évolutions de Jeedom peuvent tester la branche `release` *(déjà stabilisée en grande partie)* avant qu'elle soit mise à disposition en stable à tous les utilisateurs.
+>Aunque hay más de un centenar de probadores beta registrados en el foro, apenas tenemos comentarios sobre los desarrollos en curso *(rama `develop`)*. Ya sea por falta de tiempo o por dudas sobre sus conocimientos técnicos, quienes deseen, no obstante, participar en los avances de Jeedom pueden probar la rama `release` *(ya estabilizada en gran parte)* antes de que se ponga a disposición de todos los usuarios en la versión estable.
 
-### Branches annexes
+### Sectores relacionados
 
-Les branches annexes correspondent à des développements indépendants et ponctuels, voués à être intégrés à une branche principale.
+Las ramas secundarias corresponden a desarrollos independientes y puntuales, destinados a integrarse en una rama principal.
 
--  **feat/xxxxx-yyyyy** : Nouvelle fonctionnalité testable avant son déploiement dans `develop`.
--  **fix/xxxxx-yyyyy** :  Correctif non urgent testable quelques jours avant son déploiement dans `develop`.
--  **hotfix/xxxxx-yyyyy** : Correctif urgent rapidement déployé sur les 3 branches principales.
+-  **feat/xxxxx-yyyyy**: Nueva funcionalidad que se puede probar antes de su implementación en `develop`.
+-  **fix/xxxxx-yyyyy**:  Corrección no urgente que se puede probar unos días antes de su implementación en `develop`.
+-  **hotfix/xxxxx-yyyyy**: Parche urgente implementado rápidamente en las tres ramas principales.
 
->**INFORMATION**
+>**INFORMACIÓN**
 >
->`xxxxx-yyyyy` correspond au sujet court de la fonctionnalité ou du correctif en question.
+>`xxxxx-yyyyy` corresponde al asunto breve de la funcionalidad o el parche en cuestión.
 
-### Changer de version
+### Cambiar de versión
 
-A la lecture des [Mises en garde](#Mises%20en%20garde) exposées précédemment, il est évident que **cette manipulation est à réserver aux utilisateurs avancés en toute connaissance de cause**.
+Al leer el [advertencias](#Mises%20en%20garde) Como se ha explicado anteriormente, es evidente que **esta operación debe reservarse a usuarios avanzados que conozcan bien el tema**.
 
-Pour changer de branche, et donc de version Jeedom, rendez-vous dans le menu **Configuración → Sistema → Configuración**, pestaña **Actualizaciones / Mercado**. Laissez la source de mise à jour sur **Culpa** et sélectionnez la version du core *(branche)* que vous souhaitez installer.
+Para cambiar de rama y, por lo tanto, de versión de Jeedom, ve al menú **Ajustes → Sistema → Configuración**, pestaña **Actualizaciones/Market**. Deja la fuente de actualización en **Predeterminada** y selecciona la versión del núcleo *(rama)* que quieras instalar.
 
-Ensuite, cliquez sur le bouton **Sauvegarder** puis dirigez-vous vers le menu **Configuración → Sistema → Centro de actualización**. Depuis cette page il ne reste qu'à effectuer une mise à jour du core pour basculer sur la nouvelle version.
+A continuación, haz clic en el botón **Guardar** y ve al menú **Configuración → Sistema → Centro de actualizaciones**. Desde esta página, solo tienes que actualizar el núcleo para pasar a la nueva versión.
 
->**Importante**
+>**IMPORTANTE**
 >
->En cas de changement de numérotation du core, il est vivement déconseillé de revenir sur une version inférieure *(downgrade)*. Il est plutôt recommandé d'attendre que les modifications arrivent en version stable pour rebasculer dessus.\
->Concernant les branches annexes, une fois la fonctionnalité ou le correctif testés, il faut revenir sur la version à la base *(`develop` dans la majorité des cas)*.
+>En caso de que cambie la numeración del núcleo, se desaconseja encarecidamente volver a una versión anterior *(downgrade)*. Se recomienda, en cambio, esperar a que los cambios se incorporen a la versión estable para volver a ella.\
+>En cuanto a las ramas secundarias, una vez probada la funcionalidad o la corrección, hay que volver a la versión base *(`develop` (en la mayoría de los casos)*.
 
-## Mises à jour
+## Actualizaciones
 
-En `master` *(stable)* ou `release`, chaque nouvelle version entraine un changement de numérotation *(x.y.z)*. Si la case **Verificación automática de actualizaciones** est cochée, alors un message de notification sera émis dans Jeedom accompagné d'une pastille rouge dans la barre de menu. Sinon il faut se rendre dans le menu **Configuración → Sistema → Centro de actualización** puis cliquer sur le bouton **Buscar actualizaciones**.
+En `master` *(estable)* o `release`: cada nueva versión conlleva un cambio en la numeración *(x.y.z)*. Si la casilla **Comprobación automática de actualizaciones** está marcada, aparecerá un mensaje de notificación en Jeedom acompañado de un icono rojo en la barra de menú. De lo contrario, hay que ir al menú **Configuración → Sistema → Centro de actualizaciones** y hacer clic en el botón **Comprobar actualizaciones**.
 
-À l'inverse, les autres branches n'engendrent pas de notification ni d'alerte dans le centre de mises à jour malgré des modifications régulières. Il revient donc au bêta‑testeur de mettre le core à jour manuellement et régulièrement. Avant chaque phase de tests notamment, et surtout, avant d'effectuer toute remontée afin de s'assurer que le problème n'a pas déjà été corrigé.
+Por el contrario, las demás ramas no generan notificaciones ni alertas en el centro de actualizaciones, a pesar de que se modifican con regularidad. Por lo tanto, es responsabilidad del beta-tester actualizar el núcleo manualmente y con regularidad. En particular, antes de cada fase de pruebas y, sobre todo, antes de enviar cualquier informe, para asegurarse de que el problema no se haya corregido ya.
 
-## Changelog
+## Registro de cambios
 
-El **journal des modifications** *(ou changelog)* offre un aperçu des changements apportés par chaque version de Jeedom.
+El **registro de cambios** *(o changelog)* ofrece una visión general de las modificaciones introducidas en cada versión de Jeedom.
 
-Seules les versions `master` *(stable)* et `release` *(prochaine stable)* garantissent la présence d'un [changelog détaillé et à jour](/core/changelog){:target="_blank"}.
+Solo las versiones `master` *(estable)* y `release` *(próxima versión estable)* garantiza la presencia de un [Registro de cambios detallado y actualizado](/core/changelog){:target="_blank"}.
 
-En `develop`, les intégrations étant continues, le journal des modifications n'est pas encore généré à cette étape. Pour prendre connaissance des changements apportés depuis la dernière version stable, il faut se référer aux [notes de version](https://github.com/jeedom/core/blob/develop/docs/release-notes.md){:target="_blank"} qui listent les *Pull Requests* validées sur cette branche.
+En `develop`, dado que las integraciones son continuas, el registro de cambios aún no se ha generado en esta fase. Para conocer los cambios introducidos desde la última versión estable, hay que consultar los [notas de la versión](https://github.com/jeedom/core/blob/develop/docs/release-notes.md){:target="_blank"} que enumeran las *Pull Requests* validadas en esta rama.
 
-Les branches annexes faisant quant à elles référence à un élément précis, elles ne nécessitent à première vue pas de détails pour être appréhendées.
+Por su parte, las ramas secundarias, al referirse a un elemento concreto, a primera vista no requieren más detalles para ser comprendidas.
 
-## Plugins
+## Complementos
 
-La présente page s'attarde principalement sur les bêta-tests autour du core Jeedom mais le principe reste sensiblement le même pour les plugins. En effet, les plugins sont mis à disposition en version stable *(branche `master`)* par défaut mais ils disposent également de versions `beta` pour les développements en cours.
+Esta página se centra principalmente en las pruebas beta relacionadas con el núcleo de Jeedom, pero el principio es prácticamente el mismo para los complementos. De hecho, los complementos se ofrecen en versión estable *(rama `master`)* por defecto, pero también disponen de versiones `beta` para los proyectos en curso.
 
-Pour accéder aux plugins en version `beta`, il est nécessaire de cocher la case **Activer l'accès aux plugins bêta** dans [votre profil Market](https://market.jeedom.com/index.php?v=d&p=profils){:target="_blank"}. Il suffit ensuite d'installer ou de réinstaller le plugin dans cette version.
+Para acceder a los complementos en versión `beta`, es necesario marcar la casilla **Activar el acceso a los complementos beta** en [tu perfil de Market](https://market.jeedom.com/index.php?v=d&p=profils){:target="_blank"}. A continuación, solo tienes que instalar o reinstalar el complemento en esta versión.
 
->**Importante**
+>**IMPORTANTE**
 >
->L'installation d'un plugin en version `beta` fait perdre tout accès au support officiel.
+>La instalación de un complemento en versión `beta` hace que se pierda todo acceso al soporte técnico oficial.
 
-## Faire une remontée
+## Enviar una sugerencia
 
-Les bêta‑testeurs sont en première ligne pour identifier un dysfonctionnement, tester une nouvelle fonctionnalité ou valider une correction avant publication en stable.
+Los beta-testers son los primeros en detectar un fallo, probar una nueva funcionalidad o validar una corrección antes de su publicación en la versión estable.
 
-Après avoir clairement analysé la situation, plusieurs canaux sont disponibles pour effectuer des remontées les plus détaillées possibles avec tout le contexte nécessaire. Quel que soit le canal choisi, la première étape indispensable consiste à effectuer une recherche afin de s'assurer que le sujet n'est pas déjà abordé pour ne pas créer de doublons.
+Tras analizar claramente la situación, existen varios canales disponibles para realizar informes lo más detallados posible con todo el contexto necesario. Sea cual sea el canal elegido, el primer paso imprescindible consiste en realizar una búsqueda para asegurarse de que el tema no se haya tratado ya, con el fin de evitar duplicidades.
 
->**Importante**
+>**IMPORTANTE**
 >
->Il est crucial de comprendre un minimum le sujet par soi-même sans se reposer intégralement sur l'analyse d'une intelligence artificielle. Celle-ci peut toutefois rester utile pour la mise en forme de la remontée ou pour ajouter du complément *(vérifié)*.
+>Es fundamental tener un conocimiento básico del tema por uno mismo, sin depender por completo del análisis de una inteligencia artificial. No obstante, esta puede resultar útil para dar forma a la información recopilada o para añadir información complementaria *(verificada)*.
 
-### Forum Jeedom
+### Foro de Jeedom
 
-Les remontées peuvent être formulées directement dans [le salon des bêta‑testeurs du forum Jeedom](https://community.jeedom.com/c/salon-des-beta-testeurs/6){:target="_blank"}.
+Los comentarios se pueden enviar directamente en [el salón de los beta-testers del foro Jeedom](https://community.jeedom.com/c/salon-des-beta-testeurs/6){:target="_blank"}.
 
-Choisissez la section adaptée à la catégorie de la remontée puis ajoutez les étiquettes *(tags)* en lien avec le sujet *(`v4_5` par exemple)*. Il ne reste plus qu'à rédiger votre retour en incluant le maximum d'informations afin que toute personne extérieure soit en mesure de comprendre, de reproduire et d'analyser la situation.
+Elige la sección adecuada para la categoría de la publicación y añade las etiquetas *(tags)* relacionadas con el tema *(`v4_5` (por ejemplo)*. Ahora solo tienes que redactar tu informe incluyendo toda la información posible para que cualquier persona ajena al caso pueda comprender, reproducir y analizar la situación.
 
->**INFORMATION**
+>**INFORMACIÓN**
 >
->Le salon des bêta‑testeurs intègre également [une section **Suggestions**](https://community.jeedom.com/c/salon-des-beta-testeurs/suggestion/29){:target="_blank"} pour proposer des améliorations.
+>La feria de los beta-testers también incluye [una sección **Sugerencias**](https://community.jeedom.com/c/salon-des-beta-testeurs/suggestion/29){:target="_blank"} para proponer mejoras.
 
-### Issue GitHub
+### Tema de GitHub
 
-Si, après recherche, une *issue* ou une *pull request* est déjà ouverte sur le même sujet alors vous pouvez y ajouter votre analyse à condition qu'elle apporte des éléments pertinents dans le cadre du développement concerné.
+Si, tras realizar una búsqueda, ya hay una *issue* o una *pull request* abierta sobre el mismo tema, puedes añadir tu análisis siempre que aporte información relevante para el desarrollo en cuestión.
 
-Sinon, vous pouvez ouvrir [une *issue* sur GitHub](https://github.com/jeedom/core/issues){:target="_blank"} détaillant de manière exhaustive le dysfonctionnement rencontré.
+Si no, puedes abrir [una *publicación* en GitHub](https://github.com/jeedom/core/issues){:target="_blank"} describiendo de forma exhaustiva el fallo que se ha producido.
 
->**INFORMATION**
+>**INFORMACIÓN**
 >
->L'anglais est la norme sur GitHub pour que tout un chacun soit en mesure de comprendre le sujet mais nous acceptons les textes rédigés en français.
+>En GitHub se utiliza el inglés como idioma estándar para que todo el mundo pueda entender el tema, pero aceptamos textos redactados en francés.
 
-## Contribuer au développement
+## Contribuir al desarrollo
 
-Que ce soit pour corriger une simple faute d'orthographe ou de syntaxe, ou même pour proposer un changement plus important, tout le monde peut participer au développement et à l'évolution de la solution Jeedom à son niveau.
+Ya sea para corregir un simple error ortográfico o sintáctico, o incluso para proponer un cambio más importante, todo el mundo puede participar en el desarrollo y la evolución de la solución Jeedom a su nivel.
 
-### Documentation
+### Documentación
 
-Les pages de documentation que vous consultez actuellement nécessitent des mises à jour et des adaptations régulières pour rester valables et fiables. L'assistance de la communauté est grandement appréciée à ce niveau.
+Las páginas de documentación que estás consultando actualmente requieren actualizaciones y adaptaciones periódicas para seguir siendo válidas y fiables. Agradecemos enormemente la ayuda de la comunidad en este sentido.
 
-Quelques spécificités sont à prendre en compte avant de proposer des changements sur la documentation. Il est donc indispensable de prendre connaissance des bonnes pratiques pour [contribuer à la documentation](../contribute/doc) en premier lieu.
+Hay que tener en cuenta algunas particularidades antes de proponer cambios en la documentación. Por lo tanto, es imprescindible conocer las buenas prácticas para [colaborar en la documentación](/contribute/doc) ante todo.
 
-### Core et Plugins
+### Núcleo y complementos
 
-A l'instar de la documentation, le core Jeedom ainsi que la plupart des plugins sont également ouverts aux contributions externes. Référez-vous à la page ["Contribuer au core ou aux plugins"](../contribute/core) pour en savoir plus.
+Al igual que la documentación, el núcleo de Jeedom y la mayoría de los complementos también están abiertos a contribuciones externas. Consulta la página [«Contribuir al núcleo o a los complementos»](/contribute/core) Para más información.

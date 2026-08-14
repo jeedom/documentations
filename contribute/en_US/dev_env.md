@@ -1,48 +1,49 @@
+<!-- Unused for now -->
 ## Development environment
 
-Here we will see how to set up an efficient development environment between a test Pi and a Windows PC for editing code and maintaining the GitHub repository.
+Here, we'll look at how to set up an efficient development environment between a test Raspberry Pi and a Windows PC for editing code and maintaining the GitHub repository.
 
-This page concerns the Jeedom Core but this method can be used for the development of plugins.
+This page covers the Jeedom Core, but this method can also be used for plugin development.
 
-Of course, for quick edits of a few files, you can use the file editor directly on Jeedom. But this quickly becomes tedious and you then have to transfer all the modifications to the local repository or directly to GitHub. This is not the most practical.
+Sure, for quick edits to a few files, you can use the file editor directly in Jeedom. But that quickly becomes tedious, and you then have to push all the changes to the local repository or directly to GitHub. It’s not the most convenient way to do things.
 
-### Principe
+### Principle
 
-- Set up a test Pi with Jeedom and a Samba share to access it from the PC.
-- Duplicate the repository locally with **Sublime Merge**.
-- Implement **Sublime Text** for editing code from the repository with synchronization on the test Pi.
+- Set up a test Raspberry Pi with Jeedom and a Samba share to access it from the PC.
+- Duplicate the repository locally using **Sublime Merge**.
+- Set up **Sublime Text** for editing code in the repository and syncing it with the test Raspberry Pi.
 
-**Sublime Merge** and **Sublime Text** are certainly paid (a low price with 3 years of updates), but are very light, fast, easily customizable and very complete without requiring lots of plugins/packages. Also if you don't take a license you can use them normally, you will just get a little popup every now and then with a button *Cancel* !
+**Sublime Merge** and **Sublime Text** do cost money (a small fee that includes 3 years of updates), but they’re very lightweight, fast, easily customizable, and feature-rich without requiring a bunch of plugins or packages. Plus, even if you don’t purchase a license, you can still use them normally—you’ll just see a small pop-up every now and then with a *Cancel* button!
 
-This method is also possible with other tools, such as **Atom** (which will require some packages) and **GitHub Desktop**.
+This method is also possible with other tools, such as **Atom** (which will require a few packages) and **GitHub Desktop**.
 
-### Pi test / development
+### Test/Development Board
 
-The first thing to do if you are developing Core functions or a plugin : Set up a test configuration. Indeed, we do not develop on a production configuration !
+The first thing to do if you're developing Core features or a plugin: Set up a test environment. After all, you shouldn't develop on a production environment!
 
-For the installation of Jeedom, the documentation is there : [Installation on Raspberry Pi](/installation/rpi).
+For instructions on installing Jeedom, see the documentation here: [Installation on Raspberry Pi](/installation/rpi).
 
-Warning, prefer an SSD to an SD card !
+Note: Choose an SSD over an SD card!
 
-Once Jeedom is installed, install Samba, in SSH :
+Once Jeedom is installed, install Samba via SSH:
 
 `sudo apt-get install samba -y`
 
-Configure a password for www-data (the root of Jeedom) :
+Set a password for www-data (the Jeedom root user):
 
-`sudo smbpasswd www-data` then enter your *Password*.
+`sudo smbpasswd www-data` then enter your *password*.
 
-Edit the samba configuration :
+Edit the Samba configuration:
 
-`sudo nano / etc / samba / smb.conf`
+`sudo nano /etc/samba/smb.conf`
 
-Add :
+Add:
 
 ````text
 wins support = yes
 
 [jeedomRoot]
-path = / var / www / html
+path = /var/www/html
 browsable = yes
 writable = yes
 force user = www-data
@@ -51,39 +52,39 @@ read only = No
 guest ok = Yes
 ````
 
-Et redémarrez samba:
+And restart Samba:
 
 `sudo /etc/init.d/smbd restart`
 
-Sous Windows, dans un explorateur de fichier, entrez l'adresse IP du Pi `\\192.168.x.x`
+In Windows, in a file explorer, enter the Pi's IP address `\\192.168.x.x`
 
-Faites un clic droit sur `jeedomRoot` puis `Connecter un lecteur réseau...`
+Right-click on `jeedomRoot` then `Connecter un lecteur réseau...`
 
-Sous Windows, vous avez donc maintenant un Disque Réseau `jeedomRoot` !
+In Windows, you now have a Network Drive `jeedomRoot` !
 
 
-### Mise en place du dépôt local
+### Setting up the local repository
 
-Pour dupliquer le dépôt en local and pouvoir travailler dessus, nous allons récupérer [Sublime Merge portable](https://www.sublimemerge.com/download).
+To clone the repository locally so we can work on it, we'll fetch [Sublime Merge for Mac](https://www.sublimemerge.com/download).
 
-Récupérer également [Sublime Text portable 64bit](https://www.sublimetext.com/3).
+Also retrieve [Sublime Text Portable 64-bit](https://www.sublimetext.com/3).
 
-Décompressez les deux archives and placez les dans `C:\Program Files`.
+Unzip the two archives and place them in `C:\Program Files`.
 
-Indiquez à **Sublime Merge** l'éditeur de fichiers :
+Specify the file editor for **Sublime Merge**:
 
 {% include lightbox.html src="../images/sbm_settings1.jpg" data="settings" title="Editeur de fichiers" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
-Puis clonez le dépôt. Ici, si vous avez les droits sur le dépôt du Core, clonez le, sinon *forkez* le sur votre compte GitHub and clonez votre *fork*.
+Then clone the repository. Here, if you have access to the Core repository, clone it; otherwise, *fork* it on your GitHub account and clone your *fork*.
 
-**File / Clone dépôt...**
+**File / Clone Repository...**
 
 {% include lightbox.html src="../images/sbm_clonerepo.jpg" data="settings" title="Clone dépôt" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 
-### Mise en place de l'édition
+### Setting Up the Edition
 
-Dans **Sublime Text**, *Project* / *Edit Project*, définissez le répertoire de votre dépôt :
+In **Sublime Text**, go to *Project* / *Edit Project* and set the directory for your repository:
 
 ````json
 {
@@ -91,7 +92,7 @@ Dans **Sublime Text**, *Project* / *Edit Project*, définissez le répertoire de
   [
     {
       "name": "__GitHub Jeedom Core__",
-      "path": "W:\\_ GitHub-Repos _ \\ JeedomCore"
+      "path": "W:\\_GitHub-Repos_\\JeedomCore"
     },
     {
       "name": "___Pi_JeedomAlpha___",
@@ -101,41 +102,41 @@ Dans **Sublime Text**, *Project* / *Edit Project*, définissez le répertoire de
 }
 ````
 
-Here, adding the path of the test Pi is not mandatory, but it is always practical.
+Here, adding the path to the test Pi isn't required, but it's always handy.
 
-So you can now, in **Sublime Text**, edit files from local repository directly. Changes to these files will appear in **Sublime Merge**, where you can commit all or part of each file or revert changes if they don't work.
+So now, in **Sublime Text**, you can edit files in the local repository directly. Changes to these files will appear in **Sublime Merge**, where you can commit all or part of each file or discard the changes if they don't work.
 
-Now, it remains to test these code changes on the test Jeedom.
+Now, all that's left is to test these code changes on the test Jeedom.
 
-For that, you can of course copy the modified files to your Pi using the samba share on your PC. Or not ! When you edit ten files in different places, it will quickly become painful !
+To do this, you can, of course, copy the modified files to your Pi using Samba sharing on your PC. Or not! When you’re modifying a dozen files in different locations, it quickly becomes a hassle!
 
-We will therefore configure **Sublime Text** so that, when you save a file, it will copy it directly to the Pi !
+So we're going to configure **Sublime Text** so that when we save a file, it automatically syncs it to the Pi!
 
-Go to the directory `C:\ Program Files \ SublimeText3 \ Data \ Packages \ User` and create an `onSaveCopy.py` file. Edit it and, after modifying the correct paths, save the following code:
+Go to the directory `C:\Program Files\SublimeText3\Data\Packages\User` and create a file `onSaveCopy.py`. Edit the file, and after updating the paths, save the following code:
 
 ````py
-import sublime, sublime_plugin, bone
+import sublime, sublime_plugin, os
 from shutil import copyfile
 
-gitHub_repoCore = "W:\\_ GitHub-Repos _ \\ JeedomCore"
-rpi_root = "\\\\ 192.168.0.110 \\ jeedomRoot"
+gitHub_repoCore = "W:\\_GitHub-Repos_\\JeedomCore"
+rpi_root = "\\\\192.168.0.110\\jeedomRoot"
 
-class EventListener (sublime_plugin.EventListener ):
-  def on_post_save_async (self, view):
+class EventListener( sublime_plugin.EventListener ):
+  def on_post_save_async(self, view):
     fullPath = view.file_name()
-    path, baseName = os.path.split (fullPath)
+    path, baseName = os.path.split(fullPath)
     if gitHub_repoCore in path:
-      rpi_path = fullPath.replace (gitHub_repoCore, rpi_root)
-      copyfile (fullPath, rpi_path)
+      rpi_path = fullPath.replace(gitHub_repoCore, rpi_root)
+      copyfile(fullPath, rpi_path)
 ````
 
-Et voilà !
+There you go!
 
-A chaque fois que vous sauvez un fichier, si celui-ci fait partie du dépôt local, **Sublime Text** va également le copier au bon endroit sur votre Pi. Ctrl-S, F5 sur le Pi and voilà ! Si tout est bon, stage/commit/push dans **Sublime Merge**.
+Every time you save a file, if it’s part of the local repository, **Sublime Text** will also copy it to the right location on your Pi. Press Ctrl-S, then F5 on the Pi, and you’re done! If everything looks good, stage, commit, and push in **Sublime Merge**.
 
-Si vous annulez des modifications, en faisant un *Discard* dans **Sublime Merge**, pensez à faire un clic-droit, *Open in Editor*, and Ctrl-S pour le remettre sur le Pi.
+If you discard changes by clicking *Discard* in **Sublime Merge**, remember to right-click, select *Open in Editor*, and press Ctrl+S to save it back to the Pi.
 
-Et bien sûr, attention quand vous mettez à jour le Pi, vous allez écraser les fichiers du Core que vous avez modifié.
+And of course, be careful when you update the Pi—you'll overwrite any Core files you've modified.
 
 
-Vous pouvez bien sûr suivre la même méthode pour mettre en place vos dépôt and synchronisation sur vos plugins.
+You can, of course, follow the same method to set up your repositories and synchronization for your plugins.
