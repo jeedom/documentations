@@ -3,7 +3,7 @@ name: Docs translate (general content)
 on:
   push:
     branches:
-      - master
+      - test/docs-translations-wf
     paths:
       - '*/fr_FR/**'
   workflow_dispatch:
@@ -22,18 +22,7 @@ jobs:
     strategy:
       matrix:
         category:
-          - compatibility
-          - concept
-          - contribute
-          - dev
           - home
-          - howto
-          - howtoadvance
-          - installation
-          - legal_notice
-          - mobile
-          - premiers-pas
-          - presentation
     runs-on: ubuntu-latest
     steps:
       - uses: jeedom/jeetranslate-docs@main
