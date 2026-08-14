@@ -26,6 +26,7 @@ jobs:
           - compatibility
           - concept
           - home
+          - howto
           - legal_notice
           - mobile
           - premiers-pas
