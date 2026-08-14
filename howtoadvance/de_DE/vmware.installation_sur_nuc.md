@@ -1,158 +1,158 @@
-# Installierte VMware auf Nuc
+# VMware auf NUC installiert
 
-Hier ist ein Tutorial zum Installieren von VMware auf einem Intel NUC (Gen6)). Wir werden später sehen, wie man Jeedom hinzufügt
+Hier ist eine Anleitung zur Installation von VMware auf einem Intel NUC (Gen 6). Anschließend werden wir sehen, wie man Jeedom darauf installiert.
 
-# Das Material 
+# Die Hardware
 
 ## Intel NUC
 
-Der Intel NUC ist ein kleiner PC, nicht der leistungsstärkste, aber sehr energieeffizient und klein. Dies macht es zu einem perfekten kleinen Virtualisierungsserver, der auf VMware basiert.
+Der Intel NUC ist ein kleiner PC, zwar nicht der leistungsstärkste, aber sehr energieeffizient und kompakt. Damit eignet er sich perfekt als kleiner Virtualisierungsserver auf VMware-Basis.
 
-Derzeit gibt es 2 NUCs der 6. Generation (die anderen funktionieren auch für VMware, erfordern jedoch zusätzliche Treiber im VMware-Kernel):
+Derzeit gibt es zwei NUCs der 6. Generation (die anderen funktionieren ebenfalls mit VMware, erfordern jedoch die Installation zusätzlicher Treiber im VMware-Kernel):
 
--   Intel Core i3-6100U (Dual-Core 2.3 GHz - - 4 Threads - Cache 3 MB - TDP 15W)
--   Intel Core i5-6260U (Dual-Core 1.8 GHz - Turbo 2.9 GHz - 4 Threads - Cache 4 MB)
+-   Intel Core i3-6100U (Dual-Core 2,3 GHz – 4 Threads – 3 MB Cache – TDP 15 W)
+-   Intel Core i5-6260U (Dual-Core 1,8 GHz – Turbo 2,9 GHz – 4 Threads – 4 MB Cache)
 
-Der i5 ist deutlich leistungsstärker, weil er etwas mehr Cache-Speicher und vor allem einen Turbomodus hat, der es ihm ermöglicht, die Frequenz viel höher zu legen.
+Der i5 ist deutlich leistungsstärker, da er über etwas mehr Cache-Speicher verfügt und vor allem einen Turbo-Modus hat, der es ihm ermöglicht, die Taktfrequenz deutlich höher zu steigern.
 
-Darüber hinaus gibt es zwei Arten von Fällen :
+Hinzu kommen zwei Arten von Steuergeräten:
 
--   Ein dünnes Gehäuse, das nur eine M2-Disc enthalten kann
--   Ein dickeres Gehäuse, das eine Scheibe vom Typ M2 und eine Scheibe vom Typ 2 enthalten kann.5 Zoll
+-   Ein schlankes Gehäuse, das nur eine M.2-Festplatte aufnehmen kann
+-   Ein dickeres Gehäuse, das Platz für eine M.2-Festplatte und eine 2,5-Zoll-Festplatte bietet
 
-Das sind 4 Referenzen :
+Das sind also insgesamt 4 Artikel:
 
--   i3 M2 : [Intel NUC NUC6I3SYK](http://www.ldlc.com/fiche/PB00203086.html) 320 €
--   i3 M2 + 2.5 Zoll : [Intel NUC NUC6I3SYH](http://www.ldlc.com/fiche/PB00203148.html) 320 €
--   i5 M2 : [Intel NUC NUC6I5SYK](http://www.ldlc.com/fiche/PB00203084.html) 460 €
--   i5 M2 + 2.5 Zoll : [Intel NUC NUC6I5SYH](http://www.ldlc.com/fiche/PB00202760.html) 430 €
+-   i3 M2: [Intel NUC NUC6I3SYK](http://www.ldlc.com/fiche/PB00203086.html) \~ 320€
+-   i3 M2 + 2,5 Zoll: [Intel NUC NUC6I3SYH](http://www.ldlc.com/fiche/PB00203148.html) \~ 320€
+-   i5 M2: [Intel NUC NUC6I5SYK](http://www.ldlc.com/fiche/PB00203084.html) \~ 460€
+-   i5 M2 + 2,5 Zoll: [Intel NUC NUC6I5SYH](http://www.ldlc.com/fiche/PB00202760.html) \~ 430€
 
 ## SSD
 
-Sie müssen eine SSD und einen Speicher hinzufügen. SSD-Level Ich empfehle 240 GB oder mehr, es sei denn, Sie nehmen das Modell mit einem Steckplatz 2.5 Zoll (mit denen Sie eine zusätzliche Festplatte installieren können) oder ein Synology NAS, um die iSCSI-LUN zu erstellen. Vergessen Sie nicht, dass eine Basis-VM (kein Speicher) zwischen 20 und 40 GB groß ist. Fügen Sie diese 40 GB für die VMware selbst hinzu, die schnell voll ist.
+Dazu kommen noch eine SSD und Arbeitsspeicher. Bei der SSD empfehle ich 240 GB oder mehr, es sei denn, Sie entscheiden sich für das Modell mit einem 2,5-Zoll-Steckplatz (der es Ihnen ermöglicht, eine zusätzliche Festplatte einzubauen) oder verfügen über ein NAS vom Typ Synology, um iSCSI-LUNs einzurichten. Vergessen Sie nicht, dass eine einfache VM (ohne Speicher) zwischen 20 und 40 GB benötigt; rechnet man dazu noch 40 GB für die VMware-Software selbst hinzu, ist der Speicherplatz schnell voll.
 
 > **Wichtig**
 >
-> VMware unterstützt das Hinzufügen von USB-Datenträgern nicht, daher ist es schwierig, den verfügbaren Speicherplatz zu erweitern
+> VMware unterstützt das Hinzufügen von USB-Festplatten nicht, daher ist es schwierig, den verfügbaren Speicherplatz zu erweitern
 
--   [LDLC SSD M.2 2280 F6 PLUS 120 GB](http://www.ldlc.com/fiche/PB00203635.html) 55 €
--   [Samsung SSD 850 EVO 120 GB M.2](http://www.ldlc.com/fiche/PB00185923.html) 100 €
--   [LDLC SSD M.2 2280 F6 PLUS 240 GB](http://www.ldlc.com/fiche/PB00203636.html) 105 €
--   [Samsung SSD 850 EVO 250 Go M.2](http://www.ldlc.com/fiche/PB00185924.html) 120 €
--   [LDLC SSD M.2 2280 F6 PLUS 480 GB](http://www.ldlc.com/fiche/PB00207301.html) 190 €
+-   [LDLC SSD M.2 2280 F6 PLUS 120 GB](http://www.ldlc.com/fiche/PB00203635.html) \~ 55€
+-   [Samsung SSD 850 EVO 120 GB M.2](http://www.ldlc.com/fiche/PB00185923.html) \~ 100€
+-   [LDLC SSD M.2 2280 F6 PLUS 240 GB](http://www.ldlc.com/fiche/PB00203636.html) \~ 105€
+-   [Samsung SSD 850 EVO 250 GB M.2](http://www.ldlc.com/fiche/PB00185924.html) \~ 120€
+-   [LDLC SSD M.2 2280 F6 PLUS 480 GB](http://www.ldlc.com/fiche/PB00207301.html) \~ 190€
 
 ## Speicher
 
-Achtung für den Speicher, den Sie unbedingt für DDR4 in So-DIMM 260-Pins benötigen, benötigen Sie mindestens 4 GB für VMware, aber aus Erfahrung empfehle ich Ihnen mindestens 8 GB (persönlich bin ich sogar bis zu 16 GB, der NUC unterstützt maximal 32 GB). Dort wird kein Speicher empfohlen, der billigste geht sehr gut (Vorsicht, ich nehme immer Packungen mit 2 Riegeln, dies verbessert die Leistung) :
+Achtung: Für den Arbeitsspeicher ist unbedingt DDR4 in Form von 260-Pin-So-DIMMs erforderlich. Für VMware sind mindestens 4 GB erforderlich, aber aus Erfahrung empfehle ich mindestens 8 GB (ich persönlich habe sogar bis zu 16 GB eingebaut; der NUC unterstützt maximal 32 GB). Hier gibt es keine spezielle Speicherempfehlung, der günstigste reicht völlig aus (Achtung: Ich kaufe immer 2er-Packs, das verbessert die Leistung):
 
--   [Entscheidender SO-DIMM DDR4 8 GB (2 x 4 GB) 2133 MHz CL15 SR X8](http://www.ldlc.com/fiche/PB00204134.html) 35 €
--   [Entscheidender SO-DIMM DDR4 16 GB (2 x 8 GB) 2133 MHz CL15 DR X8](http://www.ldlc.com/fiche/PB00204135.html) 65 €
--   [Entscheidender SO-DIMM DDR4 32 GB (2 x 16 GB) 2133 MHz CL15 DR X8](http://www.ldlc.com/fiche/PB00204136.html) 120 €
+-   [Crucial SO-DIMM DDR4 8 GB (2 x 4 GB) 2133 MHz CL15 SR X8](http://www.ldlc.com/fiche/PB00204134.html) \~ 35€
+-   [Crucial SO-DIMM DDR4 16 GB (2 x 8 GB) 2133 MHz CL15 DR X8](http://www.ldlc.com/fiche/PB00204135.html) \~ 65€
+-   [Crucial SO-DIMM DDR4 32 GB (2 x 16 GB) 2133 MHz CL15 DR X8](http://www.ldlc.com/fiche/PB00204136.html) \~ 120€
 
-# Installationsvorbereitung
+# Vorbereitung der Installation
 
-Bevor wir die Installation selbst starten, müssen wir zuerst VMware wiederherstellen und auf einen USB-Stick stecken.
+Bevor die eigentliche Installation beginnen kann, muss zunächst VMware heruntergeladen und auf einen USB-Stick kopiert werden.
 
-## VMware-Download
+## VMware herunterladen
 
 > **Wichtig**
 >
-> Wenn Sie VMware 6 setzen.5 gibt es ein Problem mit der neuen USB-Verwaltung und den Zwave-Tasten, damit dies funktioniert, ist es notwendig, dies anzuwenden [KB](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2147650). Achtung, diese Manipulation ist in VMware 6.7 nicht mehr durchzuführen
+> Wenn Sie VMware 6.5 installieren, gibt es ein Problem mit der neuen USB-Verwaltung und den Z-Wave-Sticks. Damit dies funktioniert, müssen Sie Folgendes anwenden: [KB](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2147650). Achtung: Dieser Vorgang ist in VMware 6.7 nicht mehr erforderlich.
 
-Ich denke, es ist das Schwierigste, dein Leben zu vereinfachen :
+Das ist eigentlich das Schwierigste, glaube ich. Um euch das Leben zu erleichtern, müsst ihr:
 
--   mach weiter [hier](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) und registrieren
--   Warten Sie, bis die E-Mail die Registrierung bestätigt hat
--   zurück [hier](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) und melden Sie sich an (möglicherweise werden Sie aufgefordert, die Bedingungen zu akzeptieren, die Sie validieren müssen)
--   dann geh [die](https://my.vmware.com/fr/web/vmware/details?productId=491&downloadGroup=ESXI60U2) und fügen Sie Ihrem Konto "ESXi ISO-Image" hinzu (einschließlich VMware Tools)"
--   endlich zurück [hier](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) und dort müssen Sie in "Downlaod Packages" ein Paket "ESXi ISO-Image (einschließlich VMware Tools)" haben, das Sie herunterladen müssen
+-   weiter zu [hier](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) und sich registrieren
+-   Warten Sie auf die E-Mail, um die Anmeldung endgültig zu bestätigen
+-   Zurück [hier](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) und melden Sie sich an (möglicherweise werden Sie aufgefordert, die Nutzungsbedingungen zu akzeptieren; bestätigen Sie diese bitte)
+-   dann weiter [dort](https://my.vmware.com/fr/web/vmware/details?productId=491&downloadGroup=ESXI60U2) und fügen Sie Ihrem Konto „ESXi-ISO-Image (enthält VMware Tools)“ hinzu
+-   endlich zurückkehren [hier](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) Und dort sollten Sie unter „Download Packages“ ein Paket namens „ESXi ISO image (Includes VMware Tools)“ finden, das Sie herunterladen müssen
 
 ![installation.vmware.nuc](../images/installation.vmware.nuc.PNG)
 
-Direkt darüber haben Sie auch Ihren Lizenzschlüssel. Sie können ihn nutzen, um ihn wiederherzustellen.
+Direkt darüber finden Sie auch Ihren Lizenzschlüssel – nutzen Sie die Gelegenheit, ihn sich zu sichern.
 
 ## Rufus herunterladen
 
-Dort ist es viel einfacher, nur zu klicken [die](http://rufus.akeo.ie/downloads/rufus-2.9.exe). Dann müssen Sie die .exe starten
+Das ist viel einfacher – Sie müssen nur darauf klicken [die](http://rufus.akeo.ie/downloads/rufus-2.9.exe). Anschließend müssen Sie die .exe-Datei starten
 
-## Erstellung des bootfähigen USB-Sticks
+## Erstellung eines bootfähigen USB-Sticks
 
-Auch hier ist es einfach, rufus so zu konfigurieren :
+Auch das ist ganz einfach – so richten Sie Rufus ein:
 
 ![installation.vmware.nuc2](../images/installation.vmware.nuc2.PNG)
 
-Alles was Sie tun müssen, ist auf Start zu klicken und zu warten.
+Jetzt müssen Sie nur noch auf „Start“ klicken und abwarten.
 
-# Auspacken und Zusammenbauen des NUC
+# Auspacken und Zusammenbau des NUC
 
-Dies sind die 3 Komponenten für meinen NUC :
+Das sind die drei Komponenten für meinen NUC:
 
 -   Intel NUC NUC6I5SYH
--   Samsung SSD 850 EVO 250 Go M.2
--   CORSAIR VENGEANCE SO-DIMM DDR4 16 GB (2 x 8 GB) 2400 MHz CL16
+-   Samsung SSD 850 EVO 250 GB M.2
+-   CORSAIR VENGEANCE SO-DIMM DDR4 16 GB (2 × 8 GB) 2400 MHz CL16
 
 ![installation.vmware.nuc3](../images/installation.vmware.nuc3.jpg)
 
-Die NUC-Box :
+Die Verpackung des NUC:
 
 ![installation.vmware.nuc4](../images/installation.vmware.nuc4.jpg)
 
-Eröffnung davon :
+Öffnen Sie diese:
 
 ![installation.vmware.nuc5](../images/installation.vmware.nuc5.jpg)
 
-Komponenten aus der Box :
+Die Komponenten aus der Verpackung:
 
 ![installation.vmware.nuc6](../images/installation.vmware.nuc6.jpg)
 
-Öffnen Sie den NUC, dort ist es sehr einfach, stellen Sie ihn auf den Kopf, lösen Sie die 4 Schrauben unter den Füßen (sie kommen nicht ganz heraus, es ist normal, dass Sie sie nur lösen müssen) und ziehen Sie dann leicht an den Schrauben den NUC zu öffnen:
+Öffnen des NUC: Das ist ganz einfach. Drehen Sie ihn um, lösen Sie die vier Schrauben unter den Füßen (sie lassen sich nicht vollständig herausdrehen – das ist normal, Sie müssen sie nur lösen) und ziehen Sie dann leicht an den Schrauben, um den NUC zu öffnen:
 
 ![installation.vmware.nuc7](../images/installation.vmware.nuc7.jpg)
 
-Die installierte SSD (links), die Endschraube zum Blockieren ist etwas schmerzhaft zurückzusetzen, zum Glück machen wir das nur einmal
+Die SSD ist eingebaut (links), die Schraube am Ende, mit der sie befestigt wird, lässt sich etwas mühsam wieder eindrehen – zum Glück muss man das nur einmal machen.
 
 ![installation.vmware.nuc8](../images/installation.vmware.nuc8.jpg)
 
-Speicherinstallation (rechts) :
+Einbau des Arbeitsspeichers (rechts):
 
 ![installation.vmware.nuc10](../images/installation.vmware.nuc10.jpg)
 
-Und jetzt können Sie schließen (es sei denn, Sie haben natürlich eine SSD 2 genommen.5 Zoll, die in diesem Fall in die Abdeckung eingesetzt werden müssen).
+So, jetzt können Sie das Gehäuse wieder schließen (es sei denn, Sie haben sich für eine 2,5-Zoll-SSD entschieden – in diesem Fall müssen Sie diese in die Abdeckung einsetzen).
 
-# VMware-Installation
+# Installation von VMware
 
-Dort ist es sehr einfach, stecken Sie einfach den USB-Stick in einen der USB-Anschlüsse des NUC, schließen Sie einen Bildschirm an den HDMI-Anschluss, eine Tastatur und das Netzteil an. Wenn Sie den NUC einschalten, wird die Installation von selbst gestartet :
+Das ist ganz einfach: Stecken Sie den USB-Stick in einen der USB-Anschlüsse des NUC, schließen Sie einen Bildschirm an den HDMI-Anschluss an, sowie eine Tastatur und das Netzteil. Schalten Sie den NUC ein, die Installation startet dann automatisch:
 
 ![installation.vmware.nuc11](../images/installation.vmware.nuc11.jpg)
 
-> **Notiz**
+> **Hinweis**
 >
-> Ich habe vergessen, die Validierung der Lizenz zu erfassen. Sie müssen nur zustimmen, indem Sie den Anweisungen folgen
+> Ich habe vergessen, Screenshots von der Lizenzvalidierung zu machen; man muss einfach nur den Anweisungen folgen und zustimmen.
 
-Wählen Sie hier die der SSD entsprechende Festplatte aus (Sie können sie entweder nach Name oder nach Größe suchen)
+Wählen Sie hier unbedingt das Laufwerk aus, das der SSD entspricht (Sie können es entweder anhand des Namens oder der Größe identifizieren).
 
 ![installation.vmware.nuc13](../images/installation.vmware.nuc13.jpg)
 
-Wählen Sie "Französisch" :
+Wählen Sie „Französisch“ aus:
 
 ![installation.vmware.nuc14](../images/installation.vmware.nuc14.jpg)
 
-Geben Sie ein Passwort ein. Am Anfang rate ich Ihnen, eine einfache Sache wie "oooo" einzugeben (wir werden es später ändern) :
+Legen Sie ein Passwort fest. Zu Beginn empfehle ich Ihnen, etwas Einfaches wie „oooo“ zu wählen (wir werden es später ändern):
 
 ![installation.vmware.nuc15](../images/installation.vmware.nuc15.jpg)
 
-Bestätigen Sie mit F11 :
+Bestätigen Sie mit F11:
 
 ![installation.vmware.nuc16](../images/installation.vmware.nuc16.jpg)
 
-Die Installation dauert 10 bis 20 Minuten. Anschließend müssen Sie den USB-Stick entfernen und auf den Neustart des Systems warten
+Die Installation dauert 10 bis 20 Minuten. Anschließend müssen Sie den USB-Stick entfernen und warten, bis das System neu gestartet ist.
 
 ![installation.vmware.nuc17](../images/installation.vmware.nuc17.jpg)
 
-Sobald der Neustart abgeschlossen ist, sollten Sie haben :
+Nach Abschluss des Neustarts sollten Sie Folgendes vorfinden:
 
 ![installation.vmware.nuc18](../images/installation.vmware.nuc18.jpg)
 
-Hier ist VMware installiert (außerdem ist es schön, dass es Ihnen seine IP gibt), mehr als zum Spielen !!!
+So, VMware ist nun installiert (und das Tolle daran ist, dass es Ihnen seine IP-Adresse anzeigt) – jetzt heißt es nur noch, damit herumzuspielen!!!
 
-Für den Rest ist hier ein [Tutorial](vmware.creer_une_vm) für die Erstellung Ihrer ersten VM. Und du wirst finden [hier](vmware.trucs_et_astuces) Ein Tutorial mit Tipps und Tricks (zum Beispiel zum Aktualisieren Ihrer VMware-Lizenz)
+Im Folgenden finden Sie einen [Anleitung](vmware.creer_une_vm) für die Erstellung Ihrer ersten virtuellen Maschine. Und Sie finden [hier](vmware.trucs_et_astuces) Ein Tutorial mit Tipps und Tricks (zum Beispiel zum Einrichten Ihrer VMware-Lizenz)

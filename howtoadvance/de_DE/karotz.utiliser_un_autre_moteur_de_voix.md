@@ -1,12 +1,12 @@
-# Karotz benutzt eine andere Sprachmaschine
+# Karotz: Eine andere Sprach-Engine verwenden
 
-# Stellen Sie eine Verbindung zu Telnet her
+# Per Telnet verbinden
 
-Sie müssen zuerst eine Verbindung zu Telnet (Port 23) auf openkarotz herstellen, wobei die Kennung kartoz ist
+Zunächst muss man sich per Telnet (Port 23) bei openkarotz anmelden, wobei der Benutzername „kartoz“ lautet.
 
-# Hinzufügen einer Voice Engine
+# Hinzufügen einer Sprachausgabe
 
-Weiter ``/www/cgi-bin/`` und bearbeiten Sie die Datei ``tts.inc``, füge eine Funktion hinzu (Beispiel für Jeedom) :
+Gehen Sie auf ``/www/cgi-bin/`` und bearbeiten Sie die Datei ``tts.inc``, fügen Sie eine Funktion hinzu (Beispiel für Jeedom):
 
 ````
 function jeedomTTS {
@@ -28,11 +28,11 @@ function jeedomTTS {
 }
 ````
 
-Bearbeiten Sie dann die tts-Datei und fügen Sie sie hinzu :
+Bearbeiten Sie anschließend die TTS-Datei und fügen Sie Folgendes hinzu:
 
 ``MP3_ID=$(jeedomTTS $TTS $VOICE $NO_CACHE $RAW_VOICE);;``
 
-In dem ``case $TTS_ENGINE in`` bekommen :
+Im ``case $TTS_ENGINE in`` um Folgendes zu erhalten:
 
 ````
 case $TTS_ENGINE in
@@ -43,8 +43,8 @@ case $TTS_ENGINE in
 esac
 ````
 
-# Utilisation
+# Verwendung
 
-Sie müssen nur die URL mit der Zahnradnummer anrufen (hier 3) :
+Rufen Sie einfach die URL auf und geben Sie dabei die Gerätenummer (hier 3) an:
 
 ``http://192.168.0.62/cgi-bin/tts?text=coucou%20ca%20va&nocache=0&engine=3``

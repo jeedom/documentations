@@ -1,33 +1,33 @@
-# Sommaire
+# Table of Contents
 
-- [Huawei GSM network mode](/en_US/howtoadvance/gsm.huawei_mode_carte_reseau)
-- [Huawei GSM modem mode](/en_US/howtoadvance/gsm.huawei_mode_modem)
-- [Mariadb / Mysql tip and tip](/en_US/howtoadvance/mysql.trucs_et_astuces)
-- [Github](/en_US/howtoadvance/tuto.github)
+- [Huawei GSM network modes](gsm.huawei_mode_carte_reseau)
+- [Huawei GSM mode modem](gsm.huawei_mode_modem)
+- [MariaDB/MySQL Tips and Tricks](mysql.trucs_et_astuces)
+- [GitHub](tuto.github)
 
 ## Debian
 
-- [Setup](/en_US/howtoadvance/debian.installation)
-- [Tips and tricks](/en_US/howtoadvance/debian.trucs_et_astuces)
+- [Installation](debian.installation)
+- [Tips and Tricks](debian.trucs_et_astuces)
 
-## Vmware
+## VMware
 
-- [Create a VM](/en_US/howtoadvance/vmware.creer_une_vm)
-- [Installation on NUC](/en_US/howtoadvance/vmware.installation_sur_nuc)
-- [Backup / restore](/en_US/howtoadvance/vmware.mise_en_place_des_backups)
-- [Tips and tricks](/en_US/howtoadvance/vmware.trucs_et_astuces)
+- [Create a VM](vmware.creer_une_vm)
+- [Installation on NUC](vmware.installation_sur_nuc)
+- [Backup/Restoration](vmware.mise_en_place_des_backups)
+- [Tips and Tricks](vmware.trucs_et_astuces)
 
 ## Archive
 
-- [Android autovoice](/en_US/howtoadvance/android.autovoice)
-- [Install monit](/en_US/howtoadvance/installation.monit)
-- [Install nodered](/en_US/howtoadvance/installation.nodered)
-- [Install openjabnab](/en_US/howtoadvance/installation.openjabnab)
-- [Install shellinbox](/en_US/howtoadvance/installation.shellinabox)
-- [Jeelink migration](/en_US/howtoadvance/jeelink.migration)
-- [Karotz change voice](/en_US/howtoadvance/karotz.utiliser_un_autre_moteur_de_voix)
-- [Let's encrypt set up](/en_US/howtoadvance/letsencrypt.mise_en_place)
-- [Apache migration](/en_US/howtoadvance/migration.apache)
-- [Synology use of VPN](/en_US/howtoadvance/synology.utilisation_vpn)
-- [Using emoncms](/en_US/howtoadvance/utilisation.emoncms)
-- [Use opengarage](/en_US/howtoadvance/utilisation.opengarage)
+- [Android AutoVoice](android.autovoice)
+- [Install Monit](installation.monit)
+- [Install Node-RED](installation.nodered)
+- [Install openjabnab](installation.openjabnab)
+- [Install Shellinbox](installation.shellinabox)
+- [Jeelink Migration](jeelink.migration)
+- [Karotz: Change the Voice](karotz.utiliser_un_autre_moteur_de_voix)
+- [Let's Encrypt Setup](letsencrypt.mise_en_place)
+- [Apache Migration](migration.apache)
+- [Synology VPN usage](synology.utilisation_vpn)
+- [Using emoncms](utilisation.emoncms)
+- [Using OpenGarage](utilisation.opengarage)

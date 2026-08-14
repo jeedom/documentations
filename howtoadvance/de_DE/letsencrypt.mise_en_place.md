@@ -1,38 +1,38 @@
-> **Wichtig**
+> **WICHTIG**
 >
-> Dieses Tutorial wurde nicht von Jeedom SAS, sondern von einem Benutzer der Community erstellt, daher können wir nicht garantieren, dass es funktioniert oder noch aktuell ist.
+> Dieses Tutorial stammt nicht von Jeedom SAS, sondern von einem Nutzer der Community. Wir können daher nicht garantieren, dass es funktioniert oder noch aktuell ist.
 
 
 
-# Installation von Letsencrypt
+# Installation von Let’s Encrypt
 
-Hier sind die Befehle, die gestartet werden müssen, um letsencrypt vor der Generierung zu installieren :
+Hier sind die Befehle, die Sie ausführen müssen, um Let’s Encrypt vor der Generierung zu installieren:
 
 ````
-apt-gund install -y git
+apt-get install -y git
 cd /opt
 git clone https://github.com/letsencrypt/letsencrypt
 cd letsencrypt
 ./letsencrypt-auto --help
 ````
 
-Um ein Zertifikat anzufordern, müssen Sie einen Domainnamen haben, für den es generiert wird.
+Um ein Zertifikat zu beantragen, müssen Sie über einen Domainnamen verfügen, für den es ausgestellt wird.
 
 # Apache-Konfiguration
 
-Damit der Let'sEncrypt-Prozess ordnungsgemäß beendet werden kann, müssen Sie die folgenden drei Schritte ausführen :
+Damit der Let’s Encrypt-Vorgang erfolgreich abgeschlossen werden kann, müssen zuvor die folgenden drei Schritte durchgeführt werden:
 
-Achtung Es ist notwendig, Port 80 am Router (ISP) zu öffnen) !
+Achtung: Port 80 muss am Router (Internetanbieter) freigeschaltet werden!
 
 -   Aktivieren Sie das Apache-SSL-Modul der Jeedom-Box.
--   Aktivieren Sie das Apache VirtualHost HTTPS über die Jeedom-Box .
--   Konfigurieren Sie eine PortForwarding von HTTPS-Anforderungen auf Ihrer Internet Box, um sie an Ihre Jeedom Box umzuleiten.
+-   Den HTTPS-VirtualHost von Apache auf der Jeedom-Box aktivieren.
+-   Richten Sie eine Portweiterleitung für HTTPS-Anfragen auf Ihrer Internet-Box ein, um diese an Ihre Jeedom-Box weiterzuleiten.
 
-## Aktivierung des virtualHost- und SSL-Moduls
+## Aktivierung des VirtualHosts und des SSL-Moduls
 
-> **Notiz**
+> **Hinweis**
 >
-> Schließen Sie SSH an der Jeedom-Box an.
+> Stellen Sie eine SSH-Verbindung zur Jeedom-Box her.
 
 ````
 a2enmod ssl
@@ -40,17 +40,17 @@ a2ensite default-ssl.conf
 service apache2 restart
 ````
 
-> **Notiz**
+> **Hinweis**
 >
-> LetsEncrypt stellt kein Zertifikat aus, solange Ihre HTTPS-Site von außen nicht erreichbar ist.
+> LetsEncrypt stellt kein Zertifikat aus, solange Ihre HTTPS-Website von außen nicht erreichbar ist.
 
 ``/opt/letsencrypt/letsencrypt-auto --apache --email email@domaine.com -d domaine.com``
 
-Sie müssen die Einstellungen ersetzen <email@domaine.com> und Domain.com nach Ihren Werten. Normalerweise werden die Parameter zum Hinzufügen des HTTPS-Protokolls vom Skript in Apache hinzugefügt.
+Sie müssen die Einstellungen ändern <email@domaine.com> und domaine.com mit Ihren Werten. Normalerweise werden die Einstellungen für das HTTPS-Protokoll vom Skript in Apache hinzugefügt.
 
-> **Notiz**
+> **Hinweis**
 >
-> Wenn Sie die unten stehende automatische Erneuerungsmethode verwenden, können Sie virtualHost deaktivieren ``default-ssl.conf`` mit der Bestellung ``a2dissite default-ssl.conf`` Denken Sie daran, den folgenden Standardcode in dem vom Erneuerungsskript erstellten virtualHost zu tragen ``/etc/apache2/sites-available/000-default-le-ssl.conf``
+> Wenn Sie die unten beschriebene Methode zur automatischen Verlängerung verwenden, können Sie den virtualHost deaktivieren ``default-ssl.conf`` mit der Steuerung ``a2dissite default-ssl.conf`` Denken Sie daran, den unten stehenden Standardcode in den vom Verlängerungsskript erstellten VirtualHost zu übertragen ``/etc/apache2/sites-available/000-default-le-ssl.conf``
 
 ````
 <FilesMatch "\.(cgi|shtml|phtml|php)$">
@@ -62,17 +62,17 @@ Sie müssen die Einstellungen ersetzen <email@domaine.com> und Domain.com nach I
 </VirtualHost>
 ````
 
-# Konfiguration von Nginx
+# Nginx-Konfiguration
 
 Dieser Befehl darf nur verwendet werden, wenn Sie über einen Nginx-Webserver verfügen.
 
 ``./letsencrypt-auto certonly --email email@domaine.com -d domaine.com -a webroot --webroot-path /usr/share/nginx/www/``
 
-Sie müssen die E-Mail- und Domänenparameter durch Ihre Werte sowie den Pfad zum Serverstamm ersetzen. Sie müssen die beiden HTTPS-Konfigurationszeilen in der Nginx-Konfiguration hinzufügen :
+Sie müssen die Parameter „email“ und „domain“ durch Ihre eigenen Werte ersetzen sowie den Pfad zum Stammverzeichnis des Servers angeben. Sie müssen die beiden Zeilen zur HTTPS-Konfiguration in die Nginx-Konfiguration einfügen:
 
 ``vi /etc/nginx/sites-enabled/default``
 
-Fügen Sie die folgenden Zeilen zwischen den Zeilen hinzu ``server {`` und ``root /usr/share/nginx/www ;`` :
+Fügen Sie die folgenden Zeilen zwischen den Zeilen ein ``server {`` und ``root /usr/share/nginx/www ;`` :
 
 ````
 listen 80;
@@ -86,41 +86,41 @@ Und schließlich starten Sie den Nginx-Server neu.
 
 ``service nginx restart``
 
-# Renouvellement
+# Verlängerung
 
-Die Verlängerung erfolgt mit der Bestellung :
+Die Verlängerung erfolgt mit dem folgenden Befehl:
 
 ``/opt/letsencrypt/letsencrypt-auto --apache --renew-by-default -d mondomaine.fr``
 
-Sie erhalten automatisch eine E-Mail, wenn das Zertifikat abläuft, die Sie daran erinnert, diese Bestellung zu starten.
+Sie erhalten automatisch eine E-Mail, sobald das Zertifikat abläuft, um Sie daran zu erinnern, diese Bestellung aufzugeben.
 
-## Automatische Methode
+## Automatisches Verfahren
 
-Es ist immer noch besser, wenn es automatisch ist. Gehen Sie dazu wie folgt vor :
+Es ist doch besser, wenn es automatisch läuft. Dazu müssen Sie folgende Schritte befolgen:
 
--   Installieren **bc**, wird im Skript le-erneuern verwendet : ``apt-gund install -y bc``
--   Erstellen Sie eine Datei, um das Skript zu schreiben (der Speicherort ist frei) : ``nano /bin/certletsencryptrenew.sh``
--   Geben Sie die folgenden Zeilen in die zuvor erstellte Datei ein. Kopieren / Einfügen funktioniert über Kitt. Dieses Skript überprüft den Ablauf des Zertifikats und erneuert es automatisch, wenn das Ablaufdatum weniger als 30 Tage beträgt. Sie müssen den Domänenparameter ersetzen.com nach Ihrem Wert :
+-   Installieren Sie **bc**, das im Skript „le-renew“ verwendet wird: ``apt-get install -y bc``
+-   Erstellen Sie eine Datei, in die Sie das Skript schreiben können (der Speicherort ist beliebig): ``nano /bin/certletsencryptrenew.sh``
+-   Fügen Sie die folgenden Zeilen in die zuvor erstellte Datei ein. Das Kopieren und Einfügen funktioniert über PuTTY. Dieses Skript überprüft das Ablaufdatum des Zertifikats und erneuert es automatisch, wenn das Ablaufdatum weniger als 30 Tage entfernt ist. Sie müssen den Parameter „domaine.com“ durch Ihren eigenen Wert ersetzen:
 ````
     curl -L -o /usr/local/sbin/le-renew https://raw.githubusercontent.com/frixo3190/le-renew/main/le-renew
     chmod +x /usr/local/sbin/le-renew
     le-renew domaine.com
 ````
--   Speichern Sie die Datei und beenden Sie den Texteditor, z. B. mit nano :
+-   Speichern Sie die Datei und schließen Sie den Texteditor, zum Beispiel bei „nano“:
 ````
-    ctrl+o -> Entrée     (permund de sauvegarder)
-    ctrl+x -> Entrée     (permund de quitter)
+    ctrl+o -> Entrée     (permet de sauvegarder)
+    ctrl+x -> Entrée     (permet de quitter)
 ````
--   Bearbeiten Sie die Crontab. Sie müssen als root angemeldet sein ``crontab -e``
--   Wir fügen die folgende Zeile hinzu : ``0 5 * * 1 /bin/certletsencryptrenew.sh``
+-   Bearbeiten Sie die crontab. Dazu müssen Sie als Root angemeldet sein. ``crontab -e``
+-   Fügen Sie die folgende Zeile hinzu: ``0 5 * * 1 /bin/certletsencryptrenew.sh``
 > **Wichtig**
 >
-> Passen Sie den Pfad unbedingt an das Skript an.
+> Achten Sie darauf, den Pfad zum Skript korrekt anzupassen.
 
-> **Spitze**
+> **Tipp**
 >
-> Planung verstehen ``0 5 * * 1``, Überprüfen Sie hier und passen Sie es nach Bedarf an :
--   Speichern Sie die Datei und beenden Sie den Texteditor durch Speichern :
+> Grundlagen der Planung ``0 5 * * 1``, schauen Sie hier nach und passen Sie die Einstellungen bei Bedarf an:
+-   Speichern Sie die Datei und schließen Sie den Texteditor, nachdem Sie die Datei gespeichert haben:
 ````
     ctrl+o -> Entrée
     ctrl+x -> Entrée

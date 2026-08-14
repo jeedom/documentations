@@ -1,20 +1,20 @@
-# Installation überwachen
+# Installation und Überwachung
 
-Monit ist ein Serviceüberwachungsdienst. Es ist dafür verantwortlich, zu überprüfen, ob ein Dienst immer gestartet wird.
+Monit ist ein Dienst zur Überwachung von Diensten. Er sorgt dafür, dass ein Dienst stets gestartet ist.
 
-Hierzu geben wir die Bewertungskriterien und die zu ergreifenden Maßnahmen an.
+Dazu werden ihm die Bewertungskriterien und die zu ergreifenden Maßnahmen vorgegeben.
 
 # Installation von Monit
 
-Hier sind die Befehle, die gestartet werden müssen, um monit zu installieren :
+Hier sind die Befehle, die Sie ausführen müssen, um monit zu installieren:
 
 ``sudo apt-get -y monit``
 
-# Beispiele für conf
+# Konfigurationsbeispiele
 
-Hier sind Konfigurationsbeispiele für Monit with Jeedom.
+Hier finden Sie Konfigurationsbeispiele für Monit mit Jeedom.
 
-## Apache Aufsicht
+## Apache-Überwachung
 
 ````
 # Apache (test sur port 80)
@@ -24,7 +24,7 @@ check process apache2 with pidfile /var/run/apache2/apache2.pid
        if failed port 80 for 2 cycles then restart
 ````
 
-## Nginx-Aufsicht (einschließlich Php-fpm)
+## Nginx-Überwachung (einschließlich PHP-FPM)
 
 ````
 # Php-fpm
@@ -54,7 +54,7 @@ check process mysqld with pidfile /var/run/mysqld/mysqld.pid
        then alert
 ````
 
-## APCupsd Aufsicht
+## APCupsd-Überwachung
 
 ````
 # apcups (si vous disposez d'un onduleur avec ce service, sinon supprimer/adapter)

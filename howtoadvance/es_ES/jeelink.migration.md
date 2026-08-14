@@ -1,230 +1,230 @@
-# Migración de Jeelink
+# Migración a Jeelink
 
-Veremos aquí cómo migrar una instalación con Jeedom en modo esclavo a un Jeedom con el complemento "Jeedom Link". El modo esclavo Jeedom se abandona en la transición de Jeedom a la versión 3.0, es necesario proceder antes de la migración al nuevo modo operativo.
+Aquí veremos cómo migrar una instalación con Jeedom en modo esclavo a un Jeedom con el complemento «Jeedom Link». Dado que el modo esclavo de Jeedom se ha dejado de utilizar con la actualización a la versión 3.0, es necesario realizar primero la migración al nuevo modo de funcionamiento.
 
-# Preparación antes de la migración
+# Preparación previa a la migración
 
 > **Advertencia**
 >
-> Es importante leer toda esta documentación antes de embarcarse en la migración. La información importante sobre los requisitos previos para actualizar, guardar y recuperar información es esencial para la comprensión adecuada de la operación que se llevará a cabo. No leer esta documentación puede llevar a operaciones destructivas en su instalación. Si no entiende un punto, no dude en hacer preguntas en el foro antes de comenzar el procedimiento !
+> Es importante leer esta documentación en su totalidad antes de  iniciar la migración. La información relevante sobre  los requisitos previos para la actualización, la copia de seguridad y la recuperación  de datos es imprescindible para comprender correctamente  el proceso que se va a llevar a cabo. No leer esta documentación puede provocar daños en su instalación. Si hay algún punto que no entienda, ¡no dude en plantear sus preguntas en el foro antes de comenzar el procedimiento!
 
 > **Importante**
 >
-> Tenga cuidado de no conectar el equipo configurando el complemento "Jeedom Link"". Por ejemplo, no haga un Equipment-X en un Jeedom1 que vuelve a subir en un Jeedom2 y luego vuelve a subir en Jeedom1. Podría dejar caer tus Jeedoms !
+> Ten mucho cuidado de no crear bucles de dispositivos al configurar el plugin «Jeedom Link». Por ejemplo, no conectes un dispositivo X en un Jeedom1 que se transmita a un Jeedom2 y luego vuelva de nuevo al Jeedom1. ¡Esto podría provocar que tus Jeedoms dejen de funcionar!
 
 > **Nota**
 >
-> Para una mejor lectura y comprensión de este tutorial, aquí están los términos utilizados :
+> Para facilitar la lectura y la comprensión de este tutorial, a continuación se explican los términos utilizados:
 >
-> - **Jeedom Target** : Servidor (su antiguo Jeedom Master) que centraliza el equipo del **Jeedom (s) Fuente (s))**  Las capturas de pantalla en un fondo negro corresponden a la **Jeedom Target**.
+> - **Jeedom de destino**: servidor (tu antiguo Jeedom maestro) que centraliza los dispositivos del **Jeedom o Jeedoms de origen**. Las capturas de pantalla con fondo negro corresponden al **Jeedom de destino**.
 >
-> - **Fuente de la libertad** : Servidor (su / su antiguo esclavo (s) Jeedom) que vuelve a ensamblar su equipo en el **Jeedom Target**.
+> - **Jeedom Fuente**: servidor (tu(s) antiguo(s) esclavo(s) de Jeedom) que transmite los datos de tus dispositivos al **Jeedom Destino**.
 >
-> - Las nociones de **Jeedom Master** y **Jeedom Slave** ya no es relevante. El nuevo modo operativo de sincronización de equipos entre varios Jeedoms puede ser bidireccional. Un servidor Jeedom ahora puede ser **Fuente** y **Target** mientras que el modo antiguo solo permitía el ascenso del equipo de  **el esclavo** Hacia **el maestro**. Con el nuevo modo también es posible tener varios **Jeedom Targets** por lo mismo **Fuente de la libertad**. La comunicación entre Jeedoms ahora también se puede hacer de forma remota a través de Internet (Jeedom DNS u otro).
+> - Los conceptos de **Jeedom maestro** y **Jeedom esclavo** ya no están vigentes. El nuevo modo de funcionamiento de la sincronización de dispositivos entre varios Jeedoms puede ser bidireccional. Un servidor Jeedom puede ser ahora tanto **Fuente** como **Destino**, mientras que el modo anterior solo permitía la transmisión de datos de los dispositivos del **Esclavo** al **Maestro**. Con el nuevo modo, también es posible tener varios **Jeedom Destino** para un mismo **Jeedom Fuente**. La comunicación entre los Jeedoms ahora también puede realizarse a distancia a través de Internet (DNS de Jeedom u otro).
 
 ![jeelink.migration9](../images/jeelink.migration9.png)
 
-## Actualizaciones de configuración y verificación
+## Actualizaciones y comprobación de la configuración
 
--   Actualiza el **Jeedom Master** a la última versión (incluso si no se le ofrece ninguna actualización)).
--   Actualizar complementos de **Jeedom Master** las últimas versiones disponibles.
--   Compruebe en la página de Salud que la configuración de red interna del **Jeedom Master** está bien (y externo si su **Fuentes de Jeedoms** será distante).
+-   Actualiza el **Jeedom Maître** a la última versión (aunque no se te ofrezca ninguna actualización).
+-   Actualiza los complementos de **Jeedom Maître** a las últimas versiones disponibles.
+-   Comprueba en la página «Salud» que la configuración de red interna del **Jeedom Maestro** sea correcta (y la externa si tus **Jeedoms Fuente** van a estar en una ubicación remota).
 
-## Recopilando información útil
+## Recopilación de información útil
 
-Dependiendo de los complementos instalados en su **Jeedom Slave**, es necesario recuperar la siguiente información :
+En función de los complementos instalados en tu **Jeedom Esclave**, es necesario recopilar la siguiente información:
 
-### Complemento Zwave
+### Complemento Z-Wave
 
--   En la página de salud del complemento Zwave en el **Jeedom Master**, escoge tu **Esclavo** en el menú desplegable y haga una captura de pantalla para tener una lista del equipo que proviene de él.
--   Nota para cada equipo proveniente de **el esclavo** : objeto principal, nombre, ID (nodo), modelo.
--   Recuperar archivo Zwcfg : *Complementos ⇒ Gestión de complementos ⇒ onda Z*. Haga clic en el botón rojo *Zwcfg* y copie el contenido a un archivo de texto en su computadora.
+-   En la página «Salud» del complemento Z-Wave del **Jeedom Maestro**, selecciona tu **Esclavo** en el menú desplegable y haz una captura de pantalla, para disponer así de una lista de los dispositivos que provienen de él.
+-   Anota para cada dispositivo procedente de **l’Esclave**: el objeto principal, el nombre, el ID (Node) y el modelo.
+-   Recupera el archivo Zwcfg: *Plugins ⇒ Gestión de plugins ⇒ Z-wave*. Haz clic en el botón rojo *Zwcfg* y copia el contenido en un archivo de texto en tu ordenador.
 
 ### Complemento RFXcom
 
--   Nota para cada equipo proveniente de **el esclavo** : objeto principal, nombre, ID (lógico), tipo, modelo.
+-   Anota para cada dispositivo procedente de **l’Esclave**: el objeto principal, el nombre, el ID (lógico), el tipo y el modelo.
 
 > **Nota**
 >
-> Hay disponible una hoja de información no exhaustiva para la migración [aquí](../images/MemoMigration.xls)
+> Hay disponible una ficha no exhaustiva con la información que hay que tener en cuenta para la migración [aquí](../images/MemoMigration.xls)
 
 ## Copias de seguridad preventivas
 
--   Hacer un [Jeedom backup](/core/backup) de su **Jeedom Master** y tu (tu) **Jeedom Slave (s))** y recuperarlo (s) en su PC / NAS.
--   Hacer un [Copia de seguridad de disco / SD](/howto/sauvegarde.comment_faire#_sauvegarde_restauration_de_la_carte_microsd) de su **Jeedom Master** y tu (tu) **Jeedom Slave (s))** y recuperarlos en su PC / NAS.
+-   Hacer una [copia de seguridad de Jeedom](/core/backup) de tu **Jeedom maestro** y de tu(s) **Jeedom esclavo(s)** y recuperarlas en tu PC/NAS…​.
+-   Hacer una [copia de seguridad en tarjeta SD/disco duro](/howto/sauvegarde.comment_faire#_sauvegarde_restauration_de_la_carte_microsd) de tu **Jeedom maestro** y de tu(s) **Jeedom esclavo(s)** y guardarlas en tu PC/NAS…​.
 
-# Migration
+# Migración
 
 > **Nota**
 >
-> No elimine equipos viejos de  **el esclavo** sobre **el maestro**.
+> Por el momento, no elimines los antiguos dispositivos de **el Esclavo** en **el Maestro**.
 
-## Instale y active el complemento "Jeedom Link" en el **Jeedom Target** (ex maestro).
+## Instala y activa el complemento «Jeedom Link» en el **Jeedom de destino** (antiguo maestro).
 
-En su **Jeedom Target**, *Complementos ⇒ Gestión de complementos* :
+En tu **Jeedom de destino**, *Plugins ⇒ Gestión de plugins*:
 
 ![jeelink.migration1](../images/jeelink.migration1.png)
 
-## Instalación de **Fuente de la libertad**
+## Instalación de **Jeedom Source**
 
 > **Nota**
 >
-> Si tiene una Raspberry Pi adicional y otra tarjeta SD, puede migrar un protocolo tras otro instalando uno nuevo **Fuente de la libertad** en paralelo sin tener que tocar tu **Jeedom Slave** existente. Obviamente al mover posibles controladores de uno a otro.
+> Si dispones de una Raspberry Pi adicional y de otra tarjeta SD, puedes realizar la migración protocolo por protocolo instalando un nuevo **Jeedom Source** en paralelo sin tener que tocar tu **Jeedom Esclave** actual. Por supuesto, irás trasladando los posibles controladores de uno a otro a medida que avances.
 
 > **Advertencia**
 >
-> Si está utilizando su RaspberryPi existente, asegúrese de seguir el capítulo de copia de seguridad de esta documentación.
+> Si utilizas tu Raspberry Pi actual, asegúrate de haber seguido las instrucciones del capítulo sobre copias de seguridad de esta documentación.
 
 > **Nota**
 >
-> si está utilizando la Raspberry Pi existente, que actualmente es una  **Jeedom Slave**, le recomendamos que use una nueva tarjeta SD / microSD. Esto le permitirá retroceder fácilmente si es necesario.
+> Si utilizas la Raspberry Pi que ya tienes y que actualmente funciona como **esclavo de Jeedom**, te recomendamos que utilices una tarjeta SD/microSD nueva. Esto te permitirá volver atrás fácilmente si fuera necesario.
 
--   Instale un nuevo Jeedom en una nueva tarjeta SD (ya sea para poner en su **Jeedom Slave** existente o para una nueva Raspberry Pi) siguiendo el [documentación de instalación](/installation).
--   Actualiza el **Fuente de la libertad** a la última versión (incluso si no se le ofrece ninguna actualización)).
--   Compruebe en la página Estado que la configuración de red interna (y externa si es necesario) del **Fuente de la libertad** esta bien.
+-   Instala un nuevo Jeedom en una nueva tarjeta SD (ya sea para incorporarlo a tu **Jeedom esclavo** actual o para una nueva Raspberry Pi) siguiendo las instrucciones de la [documentación de instalación](/installation).
+-   Actualiza **Jeedom Source** a la última versión (aunque no se te ofrezca ninguna actualización).
+-   Comprueba en la página «Salud» que la configuración de red interna (y externa, si es necesario) de **Jeedom Source** sea correcta.
 
-## Configuración de fuente de Jeedom
+## Configuración de Jeedom Source
 
--   Cambie la contraseña del usuario administrador o / y configure un nuevo usuario.
--   Configure su cuenta de Jeedom Market (*Configuración ⇒ Actualizaciones y archivos ⇒ pestaña "Mercado""*). Haga clic en la prueba después de guardar, para confirmar la entrada de sus identificadores de Jeedom Market).
--   Instalación y activación del complemento "Jeedom Link" en el nuevo **Fuente de la libertad**.
+-   Cambiar la contraseña del usuario «admin» o configurar un nuevo usuario.
+-   Configura tu cuenta de Jeedom Market (*Configuración ⇒ Actualizaciones y archivos ⇒ pestaña «Market»*). Haz clic en «Probar» después de guardar para validar los datos de acceso a Jeedom Market.
+-   Instalación y activación del complemento «Jeedom Link» en el nuevo **Jeedom Source**.
 ![jeelink.migration2](../images/jeelink.migration2.png)
--   Instalación y activación de complementos que desea usar. (Es recomendable hacerlos uno por uno, verificando cada vez que las dependencias y los demonios estén bien).
--   Recrea el árbol de objetos (solo los que te serán útiles) del **Jeedom Target** (Viejo maestro) en tu nuevo **Fuente de la libertad** (Antiguo esclavo).
+-   Instalación y activación de los complementos que desees utilizar. (Se recomienda hacerlo uno por uno, comprobando cada vez que las dependencias y los posibles servicios estén correctos).
+-   Recrea la estructura de objetos (solo aquellos que te vayan a ser útiles) del **Jeedom de destino** (antiguo maestro) en tu nuevo **Jeedom de origen** (antiguo esclavo).
 
-## Configuración de equipos en el **Fuente de la libertad**
+## Configuración de los dispositivos en **Jeedom Source**
 
-Para enviar equipos presentes en el **Fuente de la libertad** hacia **Jeedom Target** a través del complemento "Jeedom Link", ya debe estar operativo en su nuevo **Fuente de la libertad**.
-
-> **Nota**
->
-> Recuerde desactivar el registro de comandos de información para cada equipo en el **Fuente de la libertad** para guardar la tarjeta SD (la historización se realizará en el  **Jeedom Target**).
+Para enviar un dispositivo presente en el **Jeedom de origen** al **Jeedom de destino** a través del complemento «Jeedom Link», es necesario que este último ya esté operativo en tu nuevo **Jeedom de origen**.
 
 > **Nota**
 >
-> También puede asignar gradualmente el equipo a los objetos recreados en el **Fuente de la libertad** para que luego se coloquen automáticamente en el objeto correcto en el **Jeedom Target** al declarar en el complemento Jeedom Link". En caso de nombre duplicado con equipo ya presente en los objetos del **Jeedom Target**,  el complemento agregará "XXXX remoto" al nombre del equipo.
-
-### Complemento Zwave
-
--   Haga clic en el botón "Sincronizar" para recuperar los módulos asociados con su controlador. (Se mantienen en el recuerdo)
--   Reemplazar archivo *Zwcfg* : *Complementos ⇒ Gestión de complementos ⇒ onda Z*. Haga clic en el botón rojo *Zwcfg* y pegue el contenido del archivo de texto creado previamente en su computadora. *Guardar cambios*.
--   Cambie el nombre de sus módulos y colóquelos en los objetos deseados, utilizando su memo de migración.
-
-### Complemento RFXcom :
-
-#### Sondas, sensores, detectores,
-
--   Cambie el complemento al modo de inclusión.
--   Repita la inclusión hasta que tenga todo su equipo de este tipo.
--   Cambie el nombre de su equipo y colóquelo en los objetos deseados utilizando su memo de migración.
-
-#### Actuadores, enchufes,
-
--   Agregar nuevo equipo.
--   Defina el nombre, ID, objeto principal, tipo de equipo y modelo utilizando su memo de migración.
--   Repita para todos sus equipos de este tipo.
-
-## Configuración del complemento "Jeedom Link"
-
-El complemento "Jeedom Link" instalado en el **Fuente de la libertad** permitirá que el equipo sea llevado a **Jeedom Target** (Tu viejo maestro).
+> A medida que avances, piensa en desactivar el historial de comandos y la información de cada dispositivo que se encuentre en el **Jeedom de origen** para ahorrar espacio en su tarjeta SD (el historial se guardará en el **Jeedom de destino**).
 
 > **Nota**
 >
-> Recordatorio, para una mejor lectura y comprensión de este tutorial :
+> También puedes ir asignando los dispositivos a los objetos recreados en el **Jeedom de origen** para que, más adelante, se asignen automáticamente al objeto correcto en el **Jeedom de destino** al declararlos en el plugin «Jeedom Link». En caso de que el nombre coincida con el de un dispositivo que ya esté presente entre los objetos de **Jeedom de destino**, el complemento añadirá «remote XXXX» al nombre del dispositivo.
+
+### Complemento Z-Wave
+
+-   Haz clic en el botón «Sincronizar» para recuperar los módulos asociados a tu controlador. (Estos se guardan en la memoria del mismo)
+-   Sustituye el archivo *Zwcfg*: *Plugins ⇒ Gestión de plugins ⇒ Z-wave*. Haz clic en el botón rojo *Zwcfg* y pega el contenido del archivo de texto que has creado previamente en tu ordenador. *Guarda los cambios*.
+-   Cambia el nombre de tus módulos y colócalos en los objetos deseados siguiendo las indicaciones de tu nota de migración.
+
+### Complemento Rfxcom:
+
+#### Sondas, sensores, detectores,…​
+
+-   Poner el plugin en modo de inclusión.
+-   Repite el proceso de incorporación hasta que hayas incluido todos tus dispositivos de este tipo.
+-   Cambia el nombre de tus dispositivos y colócalos en las categorías deseadas siguiendo las indicaciones de tu guía de migración.
+
+#### Actuadores, enchufes, …​
+
+-   Añadir un nuevo dispositivo.
+-   Define el nombre, el ID, el objeto principal, el tipo de equipo y el modelo con la ayuda de tu nota de migración.
+-   Repite el proceso con todos tus dispositivos de este tipo.
+
+## Configuración del complemento «Jeedom Link»
+
+El complemento «Jeedom Link», instalado en el **Jeedom Source**, permitirá la integración de los dispositivos en el **Jeedom Cible** (tu antiguo controlador).
+
+> **Nota**
 >
-> - Las capturas de pantalla en un fondo negro corresponden a la **Jeedom Target**.
-> - Las capturas de pantalla en un fondo blanco corresponden a **Fuente de la libertad**.
+> Recordatorio, para facilitar la lectura y la comprensión de este tutorial:
+>
+> - Las capturas de pantalla con fondo negro corresponden a **Jeedom Cible**.
+> - Las capturas de pantalla con fondo blanco corresponden a **Jeedom Source**.
 
-Sobre **Fuente de la libertad**,
-[Configurar](/plugins/communication/jeelink)
-el complemento "Jeedom Link" especificando :
+En **Jeedom Source**,
+[configurar](/plugins/communication/jeelink)
+el complemento «Jeedom Link» especificando:
 
--   El nombre de **Jeedom Target**.
--   La dirección IP o el nombre DNS del **Jeedom Target**.
--   La clave API de **Jeedom Target**.
+-   El nombre del **Jeedom de destino**.
+-   La dirección IP o el nombre DNS del **Jeedom de destino**.
+-   La clave API de **Jeedom Cible**.
 
 Y guarda la configuración.
 
 ![jeelink.migration3](../images/jeelink.migration3.png)
 
-En la pestaña *Cesión*, agregue el equipo que desea volver al **Jeedom Target**.
+En la pestaña *Asignación*, añade los dispositivos que desees conectar al **Jeedom de destino**.
 
 ![jeelink.migration4](../images/jeelink.migration4.png)
 
-Haga clic en *Agregar equipo* Seleccione el objeto y el equipo para agregar :
+Haz clic en *Añadir un dispositivo*. Selecciona el objeto y el dispositivo que deseas añadir:
 
 ![jeelink.migration5](../images/jeelink.migration5.png)
 
-Después de actualizar la página *Mis enlaces* del **Jeedom Target**, deberías ver la creación automática del equipo :
+Tras actualizar la página *Mis JeeLinks* del **Jeedom de destino**, deberías ver que el dispositivo se ha creado automáticamente:
 
 ![jeelink.migration6](../images/jeelink.migration6.png)
 
-Al igual que todos los equipos Jeedom, puede activar / desactivar y mostrar o no el equipo, sus controles, ... o cambiar la categoría :
+Al igual que con cualquier dispositivo de Jeedom, puedes activar o desactivar el dispositivo, mostrar o ocultar el dispositivo y sus controles… o cambiar la categoría:
 
 ![jeelink.migration7](../images/jeelink.migration7.png)
 
-En la pestaña *Comandos*, accede a todos los parámetros de los controles del equipo :
+En la pestaña *Controles* puedes acceder a todos los parámetros de control de los equipos:
 
 ![jeelink.migration8](../images/jeelink.migration8.png)
 
-## Recuperación histórica
+## Recuperación de historiales
 
 > **Nota**
 >
-> Para hacer en **Jeedom Target** (Ex maestro) para cada comando de información del equipo del ex **Esclavo** cuya historia queremos recuperar.
+> Se debe realizar en el **Jeedom Cible** (antiguo «Maître») para cada comando: información de los dispositivos del antiguo **«Esclave»** de los que se desea recuperar el historial.
 
--   Ir a la configuración del pedido (*Rueda dentada a la derecha*).
--   Ir a la pestaña *Configuración avanzada*.
--   Haga clic en el botón *Copiar el histórico de esta orden en otra orden*.
--   Encuentre el pedido correspondiente para el nuevo equipo JeeLink correspondiente y confirme.
+-   Ve a la configuración del mando (*rueda dentada a la derecha*).
+-   Ve a la pestaña *Configuración avanzada*.
+-   Haz clic en el botón *Copiar el historial de este pedido a otro pedido*.
+-   Busca el comando correspondiente al nuevo dispositivo JeeLink y confírmalo.
 
-## Reemplazo de equipos esclavos antiguos en escenarios / virtuales /
-
-> **Nota**
->
-> Para hacer en **Jeedom Target** (Ex maestro) para cada comando de información / acción del equipo del primero **Esclavo** cuyas ocurrencias queremos reemplazar en escenarios / virtuales /
-
--   Ir a la configuración del pedido (*Rueda dentada a la derecha*).
--   Ir a la pestaña *Información*.
--   Haga clic en el botón *Reemplazar este comando por el comando*.
--   Encuentre el pedido correspondiente para el nuevo equipo JeeLink correspondiente y confirme.
-
-## Recuperando configuraciones de pantalla avanzadas para comandos
+## Sustitución de los antiguos dispositivos esclavos en los escenarios/virtuales/…​
 
 > **Nota**
 >
-> Para hacer en **Jeedom Target** (Ex maestro) para cada comando de información / acción del equipo del primero **Esclavo** que queremos recuperar configuraciones de pantalla avanzadas.
+> Se debe realizar en el **Jeedom Cible** (antiguo Maestro) para cada comando  info/acción de los dispositivos del antiguo **Esclavo** cuyas instancias se deseen  sustituir en los escenarios/virtuales/…
 
--   Ir a la configuración del pedido (*Rueda dentada a la derecha*).
--   Haga clic en el botón *Aplicar*.
--   Busque y seleccione el comando correspondiente para el nuevo equipo JeeLink correspondiente y confirme.
+-   Ve a la configuración del mando (*rueda dentada a la derecha*).
+-   Ve a la pestaña *Información*.
+-   Haz clic en el botón *Sustituir este comando por el comando*.
+-   Busca el comando correspondiente al nuevo dispositivo JeeLink y confírmalo.
 
-## Copia de configuraciones de comando avanzadas
-
-> **Nota**
->
-> Para hacer en **Jeedom Target** (Ex maestro) para cada comando de información / acción del equipo del primero **Esclavo** que queremos recuperar la configuración avanzada.
-
--   No hay una solución fácil a este nivel, necesitará tener dos pestañas / ventanas abiertas en su navegador.
--   Órdenes abiertas para equipos viejos **Esclavo** en una pestaña (Jeedom Target).
--   Abra los controles del equipo jeeLink en la otra pestaña (Jeedom Target).
--   Y copie los parámetros deseados a mano.
+## Recuperación de las configuraciones avanzadas de visualización de los controles
 
 > **Nota**
 >
-> Para evitar repetir el mismo comando varias veces, operaciones 2.6 → 2.9 puede llevarse a cabo en secuencia en el mismo orden antes de proceder a lo siguiente.
+> Se debe realizar en el **Jeedom Cible** (antiguo «Maître») para cada comando  info/acción de los dispositivos del antiguo **«Esclave»** cuyos parámetros de visualización avanzados se deseen  recuperar.
+
+-   Ve a la configuración del mando (*rueda dentada a la derecha*).
+-   Haz clic en el botón «Aplicar a».
+-   Busca y selecciona el comando correspondiente al nuevo dispositivo JeeLink y confirma.
+
+## Copia de las configuraciones avanzadas de los controles
+
+> **Nota**
+>
+> Se debe realizar en el **Jeedom Cible** (antiguo «Maître») para cada comando  info/acción de los dispositivos del antiguo **«Esclave»** de los que se desea  recuperar la configuración avanzada.
+
+-   No hay una solución sencilla para esto, tendrás que tener dos pestañas o ventanas abiertas en tu navegador.
+-   Abrir los controles de los dispositivos del antiguo **Esclavo** en una pestaña (Jeedom Destino).
+-   Abrir los controles de los dispositivos jeeLink en la otra pestaña (Jeedom Cible).
+-   Y copiar a mano los parámetros deseados.
+
+> **Nota**
+>
+> Para evitar tener que repetir varias veces el mismo comando, las operaciones 2.6→2.9 pueden realizarse de forma consecutiva en un mismo comando antes de pasar a las siguientes.
 
 > **Advertencia**
 >
-> Interacciones en el **Jeedom Target** no se puede iniciar utilizando equipos de un **Fuente de la libertad** transferido a través del complemento Jeedom Link".
+> Las interacciones en el **Jeedom de destino** no podrán iniciarse  a través de dispositivos de un **Jeedom de origen** transferidos mediante el  complemento «Jeedom Link».
 
-# Hogar en el **Jeedom Target**
+# Gestión doméstica en **Jeedom Cible**
 
 > **Nota**
 >
-> Después de validar con certeza que su equipo / escenarios / interacciones / virtual /. funciona bien con el nuevo sistema jeelink, puedes hacer la limpieza.
+> Una vez que hayas comprobado con certeza que tus equipos, escenarios, interacciones, elementos virtuales, etc. funcionan correctamente con el nuevo sistema Jeelink, puedes proceder a la limpieza.
 
--   Eliminar el equipo residual de la antigua **Jeedom Slave**.
--   Deshabilite y elimine complementos que ya no le sean útiles (aquellos para los que solo tenía equipo en Slave).
--   En el complemento "Jeedom Link", cambie el nombre del equipo que podría tener un nombre que termine con "remoto XXXX".
--   En la página de Jeedom Network, elimine la anterior **Jeedom Slave**.
+-   Eliminar los dispositivos restantes del antiguo **Jeedom Esclave**.
+-   Desactiva y elimina los complementos que ya no te sirvan (aquellos en los que solo tenías dispositivos en el esclavo).
+-   En el complemento «Jeedom Link», cambia el nombre de los dispositivos que puedan tener un nombre que termine en «remote XXXX».
+-   En la página «Red Jeedom», elimina el antiguo **Jeedom Esclavo**.

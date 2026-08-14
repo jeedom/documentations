@@ -1,6 +1,6 @@
-# GSM Huawei Netzwerkkartenmodus
+# GSM-Modus von Huawei für Netzkarten
 
-Um den Huawei E3372-Schlüssel im Netzwerkkartenmodus zu verwenden, muss der Betriebsmodus des Schlüssels geändert werden. Standardmäßig ist dies im Modem-Modus konfiguriert, um mit dem SMS-Plugin kompatibel zu sein.
+Um den Huawei E3372-Stick im Netzwerkkartenmodus zu verwenden, muss der Betriebsmodus des Sticks geändert werden. Standardmäßig ist dieser im Modem-Modus konfiguriert, um mit dem SMS-Plugin kompatibel zu sein.
 
 # Löschen der Standardkonfiguration
 
@@ -10,7 +10,7 @@ Um den Huawei E3372-Schlüssel im Netzwerkkartenmodus zu verwenden, muss der Bet
 
 ``sudo nano /etc/usb_modeswitch.conf``
 
-dann füge dies hinzu :
+und dann Folgendes hinzufügen:
 
 ````
 TargetVendor=0x12d1
@@ -19,10 +19,10 @@ HuaweiNewMode=1
 NoDriverLoading=1
 ````
 
-Speichern Sie dann durch Drücken von Strg + x
+Anschließend mit Strg+x speichern
 
-# Reboot
+# Neustart
 
 ``sudo reboot``
 
-Sie können dann überprüfen, ob die Karte gut erkannt wird, indem Sie eine ifconfig ausführen. Es sollte ein USB-Schlüssel angezeigt werden.
+Anschließend können Sie mit dem Befehl „ifconfig“ überprüfen, ob die Karte erkannt wurde; dabei sollte ein Eintrag „usbnet“ angezeigt werden.

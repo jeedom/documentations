@@ -1,110 +1,110 @@
-# Github tutorial
+# GitHub Tutorial
 
-This tutorial presents you :
+This tutorial introduces you to:
 
--   Create a GitHub account
--   Jeedom Core Fork or Documentation
+-   Creating a GitHub account
+-   Fork of Jeedom Core or the documentation
 -   Editing one or more files
 -   Submit a change
 -   Updating your fork
 
-To allow you to contribute to Jeedom, you will need to propose the modifications (PR : Pull Request).
+To contribute to Jeedom, you'll need to submit changes (PR: Pull Request).
 
-# Create a GitHub account
+# Creating a GitHub account
 
-We will discuss in this tutorial how to create a GitHub account, in order to be able to report bugs (issue in GitHub language), or even propose corrections (Pull Request or PR in github language) for the whole Jeedom project, including its free plugins or documentation, or any other github project in which you would like to participate.
+In this tutorial, we’ll cover how to create a GitHub account so you can report bugs (known as “issues” in GitHub terminology) or even suggest fixes (known as “pull requests” or “PRs” in GitHub terminology) for the entire Jeedom project—including its free plugins and documentation—or any other GitHub project you’d like to contribute to.
 
-Go to [Github](https://github.com) and click on the sign up button. You should therefore be on a page similar to the one below and must therefore enter a nickname, an email and a password and then click on **Create an account**
+Go to [GitHub](https://github.com) and click the "Sign Up" button. You should then be taken to a page similar to the one below, where you'll need to enter a username, email address, and password, and then click **Create an account**
 
-![tuto.github1](../images/tuto.github1.png)
+![tutorial.github1](../images/tuto.github1.png)
 
-So you arrive on a 2nd page as below and you do not change anything, you click on **Keep on going**
+You'll then be taken to a second page like the one below. Don't change anything; just click **Continue**.
 
-![tuto.github2](../images/tuto.github2.png)
+![tutorial.github2](../images/tuto.github2.png)
 
-You are registered and on the configuration page of your account options. I advise you to check the email address in order to be able to recover your account if you forget your password for example but also in order to be able to submit modifications. I also let you discover the other options if you are curious.
+You’re now registered and on the page where you can configure your account settings. I recommend that you verify your email address so you can recover your account if you forget your password, for example, and also so you can submit changes. Feel free to explore the other options if you’re curious.
 
-![tuto.github3](../images/tuto.github3.png)
+![tutorial.github3](../images/tuto.github3.png)
 
-# Jeedom Core Fork or Documentation
+# Fork of Jeedom Core or the documentation
 
 **Fork - Why - How**
 
-Fork is to copy a project into your github space, in order to be able to modify the code and documentation files, then submit a Pull Request to the original project, which will then be studied by the developer (s) of said project
+Forking means copying a project into your GitHub repository so you can modify the code and documentation files and then submit a pull request to the original project, which will then be reviewed by the developer(s) of that project
 
-Now that you have a Github account and you are identified with your verified email address, if you go [here](https://github.com/jeedom/core) you are on the jeedom project, on the right there is a fork button allowing you to copy it into your github space.
+Now that you have a GitHub account and are logged in with your verified email address, if you go to [here](https://github.com/jeedom/core) You're on the Jeedom project; on the right, there's a "Fork" button that lets you copy it to your GitHub repository.
 
-![tuto.github4](../images/tuto.github4.png)
+![tutorial.github4](../images/tuto.github4.png)
 
 ## Editing one or more files
 
-In my case, I therefore want to push a modification on the file *history.class.php* This file is located in the core of jeedom and more precisely here : core / class /
+In my case, I want to push a change to the *history.class.php* file. This file is located in the Jeedom core, specifically here: core/class/
 
-- So we are on my repository (TaGGoU91 / core) which is indicated as being a fork of Jeedom / core
-- So we go to / core / class (the first core is in bold, it's the repository where I am (core, see Small 1)
-- So we have our file *history.class.php* - We click on the file
+- So we're on my repository (TaGGoU91 / core), which is listed as a fork of Jeedom/core
+- So we go to /core/class (the first "core" is in bold; that's the repository I'm in (core, see Petit 1))
+- So we have our *history.class.php* file—click on the file
 
-![tuto.github5](../images/tuto.github5.png)
+![tutorial.github5](../images/tuto.github5.png)
 
-- So we are in our file
-- We click on the pencil to enter modification
+- So we're definitely in our file
+- Click the pencil icon to enter edit mode
 
-![tuto.github6](../images/tuto.github6.png)
+![tutorial.github6](../images/tuto.github6.png)
 
-In order to search the file, position yourself in the text block of the file that you have just opened in edit mode with the pencil and press "Ctrl + F" to activate the search. You paste or specify the text you are looking for (a significant element and a line only, not a whole block all at once). Validate with "Enter" to start the search.
+To search the file, place the cursor in the text block of the file you just opened in edit mode using the pencil icon, then press "Ctrl + F" to activate the search. Paste or type the text you're looking for (a specific term and just one line at a time, not an entire block all at once). Press "Enter" to start the search.
 > **Tip**
 >
-> If you do not click in the window containing the text or the code you are looking for, the browser search will open and in my case, on Google chrome, it does not know how to search in the code or documentation directly.
+> If you don't click inside the window containing the text or code you're looking for, the browser's search function will open, and in my case, on Google Chrome, it can't search directly within the code or documentation.
 
-- The search field, yes it is quite thin as information, the line copied is much larger;).
+- The search field—yeah, that’s not much information; the copied line is much longer ;).
 
-![tuto.github7](../images/tuto.github7.png)
+![tutorial.github7](../images/tuto.github7.png)
 
-- In yellow, this is the result of research
-- In blue, what I have just selected and which I wish to modify / replace with my code. My modification
+- The search results are highlighted in yellow
+- The text in blue is what I just selected and want to modify or replace with my code. My modification
 
-![tuto.github14](../images/tuto.github14.png)
+![tutorial.github14](../images/tuto.github14.png)
 
-So I delete the block then I replace it.
+So I'll delete the block and then replace it.
 
-Then on the lower part we find this : 1. Explicit title is indicated if possible 2. We enter a slightly more precise description (in my case, it would be too long, the link to the forum will be more meaningful) 3. We make sure it is ticked like this 4. On commit = Submit change
+Next, at the bottom, you’ll find the following: 1. Provide a clear title if possible. 2. Enter a slightly more detailed description (in my case, this would be too long; the link to the forum will be more informative). 3. Make sure this box is checked, like this. 4. Commit = Submit the change.
 
-![tuto.github8](../images/tuto.github8.png)
+![tutorial.github8](../images/tuto.github8.png)
 
 ## Submit a change
 
-The **commit** done above only concerns the fork of the project in your GitHub space. To submit changes to the original project, you must perform a PR (Pull Request)
+The **commit** made above applies only to the project's fork in your GitHub space. To submit the changes to the original project, you must create a PR (Pull Request)
 
-- We click on the Pull Request tab
-- New Pull Request (PR for friends))
+- Click on the Pull Request tab
+- New Pull Request (PR for short)
 
-![tuto.github9](../images/tuto.github9.png)
+![tutorial.github9](../images/tuto.github9.png)
 
-- The PR will launch a comparison between the jeedom database with your repository (the fork).
-- This indicates the modifications (the first is because I have updated myself since jeedom, the second precisely concerning the change of the lastchangestateduration function, perfect !!!)
+- The PR will initiate a comparison between the Jeedom database and your repository (the fork).
+- This shows the changes (the first one is because I’ve updated from Jeedom, and the second one is specifically about the change to the `lastchangestateduration` function—perfect!!!)
 - The old code
 - The new code
-- We create the Pull Request (PR)
+- Create the Pull Request (PR)
 
-![tuto.github10](../images/tuto.github10.png)
+![tutorial.github10](../images/tuto.github10.png)
 
-It is important to clearly explain the changes submitted so that the developer (s) of the original project understand and can validate your request.
+It is important to clearly explain the proposed changes so that the developer(s) of the original project understand them and can approve your request.
 
-- We click on the three little dots
-- We copy the information that we entered previously
-- Same, we copy (hence the use of… in step 1 to avoid rewriting)
-- We click on Create Pull Request
+- Click on the three dots
+- Copy the information you entered earlier
+- Same thing—we'll copy it over (which is why we used …​ in step 1 to avoid having to rewrite it)
+- Click "Create Pull Request"
 
-![tuto.github11](../images/tuto.github11.png)
+![tutorial.github11](../images/tuto.github11.png)
 
-**It's over.** You have to wait until your PR is validated.
+**It's done.** Now you just have to wait for your PR to be approved.
 
-NB: Only users with a push right on Jeedom can validate the PR.
+Note: Only users with push permissions on Jeedom can approve the PR.
 
-To make sure that your modification is in the list, you can click on Pull Requests
+To make sure your change is included in the list, you can click on "Pull Requests"
 
-![tuto.github12](../images/tuto.github12.png)
+![tutorial.github12](../images/tuto.github12.png)
 
-We obtain the list of PR awaiting validation. We can clearly see ours
+We get the list of PRs awaiting validation. We can clearly see ours
 
-![tuto.github13](../images/tuto.github13.png)
+![tutorial.github13](../images/tuto.github13.png)

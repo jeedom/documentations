@@ -1,16 +1,16 @@
-# Shellinabox installation
+# Shellinabox Installation
 
-Shellinabox is a console accessible from a browser.
+Shellinabox is a console accessible via a web browser.
 
-This is in the form of a service listening on port 4200 in https. We will describe its installation and then the reverse proxy configurations
+This takes the form of a service listening on port 4200 via HTTPS. We’ll describe how to install it and then how to configure the reverse proxy.
 
-Here is the command to launch to install Shellinabox :
+Here is the command to run to install Shellinabox:
 
 ``sudo apt-get -y shellinabox``
 
 # Apache Reverse Proxy
 
-You have to create a file in ``/etc/apache2/sites-enabled/shellinabox.conf`` with the content below and then restart Apache
+You need to create a file in ``/etc/apache2/sites-enabled/shellinabox.conf`` with the content below, and then restart Apache
 
 ````
 <Location /jeedom/shellinabox>
@@ -20,9 +20,9 @@ Allow from all
 </Location>
 ````
 
-# Reverse Proxy Nginx
+# Nginx Reverse Proxy
 
-You have to create a file in ``/etc/nginx/sites-enabled/shellinabox.conf`` with the content below and then restart Nginx
+You need to create a file in ``/etc/nginx/sites-enabled/shellinabox.conf`` with the content below, and then restart Nginx
 
 ````
 location /jeedom/shellinabox/ {
