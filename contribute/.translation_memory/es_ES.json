@@ -61,7 +61,7 @@
     ", hors dossier ": ", fuera de la sección ",
     ", il est nécessaire de cocher la case **Activer l'accès aux plugins bêta** dans ": ", es necesario marcar la casilla **Activar el acceso a los complementos beta** en ",
     ", les intégrations étant continues, le journal des modifications n'est pas encore généré à cette étape. Pour prendre connaissance des changements apportés depuis la dernière version stable, il faut se référer aux ": ", dado que las integraciones son continuas, el registro de cambios aún no se ha generado en esta fase. Para conocer los cambios introducidos desde la última versión estable, hay que consultar los ",
-    ". Chaque branche correspondant à différents niveaux d'avancement dans son développement.": ". Cada rama corresponde a diferentes niveles de avance en su desarrollo.",
+    ". Chaque branche correspond à différents niveaux d'avancement dans son développement.": ". Cada rama corresponde a diferentes niveles de avance en su desarrollo.",
     ". Il est inutile de modifier ces fichiers car ils sont réécrits régulièrement par un robot.": ". No es necesario modificar estos archivos, ya que un robot los actualiza periódicamente.",
     ". Il suffit ensuite d'installer ou de réinstaller le plugin dans cette version.": ". A continuación, solo tienes que instalar o reinstalar el complemento en esta versión.",
     ". Éditez le et, après avoir modifié les bon chemins, enregistrez le code suivant:": ". Edítalo y, tras modificar las rutas correspondientes, guarda el siguiente código:",
