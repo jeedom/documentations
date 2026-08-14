@@ -6,6 +6,7 @@ on:
       - test/docs-translations-wf
     paths:
       - '*/fr_FR/**'
+      - '.github/workflows/docs-translations.yml'
   workflow_dispatch:
     inputs:
       target_languages:
