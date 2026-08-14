@@ -38,17 +38,17 @@ First, you'll need to download third-party software, such as: [Win32 Disk Imager
 
 ### Backup
 
--   Launch the software and verify that the letter listed under *Device* matches the letter assigned to your card or card reader.
--   In the *Image File* field, enter the name of the image file you want to create and the location where it will be saved.
--   Finally, click the *Read* button to create the image.
+- Launch the software and verify that the letter listed under *Device* matches the letter assigned to your card or card reader.
+- In the *Image File* field, enter the name of the image file you want to create and the location where it will be saved.
+- Finally, click the *Read* button to create the image.
 
 ![save restore09](../images/save-restore09.jpg)
 
-### Food Service
+### Restoration
 
--   Launch the software and verify that the letter listed under *Device* matches the letter assigned to your card or card reader.
--   In the *Image File* field, browse to the image file you want to restore.
--   Finally, click the *Write* button to restore this image to the microSD card.
+- Launch the software and verify that the letter listed under *Device* matches the letter assigned to your card or card reader.
+- In the *Image File* field, browse to the image file you want to restore.
+- Finally, click the *Write* button to restore this image to the microSD card.
 
 ![save restore10](../images/save-restore10.jpg)
 
@@ -60,36 +60,36 @@ To make things easier for you, you can download the software [ApplePi-Baker](htt
 
 ### Backup
 
--   With ApplePi-Baker: Select the correct board from the *Pi-Crust* list, and click *Create Backup* to create an image file of your microSD card.
+- With ApplePi-Baker: Select the correct board from the *Pi-Crust* list, and click *Create Backup* to create an image file of your microSD card.
 
--   In the command line:
- -   To find the drive letter associated with the card, open a terminal and enter the following command: ``diskutil list``
+- In the command line:
+ - To find the drive letter associated with the card, open a terminal and enter the following command: ``diskutil list``
 ![save restore12](../images/save-restore12.jpg)
- -   Start creating the image by entering the command: ``sudo dd if=/dev/disk1 of=~/Desktop/Backup_Jeedom.img bs=1m`` *Note: In this example, the drive letter for the card is `/dev/disk1`, so you need to enter the following in the backup command: \`/dev/disk1\`*
+ - Start creating the image by entering the command: ``sudo dd if=/dev/disk1 of=~/Desktop/Backup_Jeedom.img bs=1m`` *Note: In this example, the drive letter for the card is `/dev/disk1`, so you must enter the following in the save command: \`/dev/disk1\`*
 
-### Food Service
+### Restoration
 
--   With ApplePi-Baker: Select the correct card from the *Pi-Crust* list, enter the path to the image file you want to restore in the *IMG file* field in the *Pi-Ingredients* section, and click *Restore Backup* to restore the image to the microSD card.
--   In the command line:
-    -   To find the drive corresponding to the card, open a terminal and enter the same command as for the backup: ``diskutil list``
- -   Remove the partitions from the card by typing the following command: ``sudo diskutil unmountDisk /dev/disk1``
- -   Restore the image to the microSD card by entering the following command: ``sudo dd bs=1m if=~/Desktop/Backup_Jeedom.img of=/dev/disk1`` *Note: In this example, the drive letter for the card is `/dev/disk1`, so you must enter the following in the save command: \`/dev/disk1\`*
+- With ApplePi-Baker: Select the correct card from the *Pi-Crust* list, enter the path to the image file you want to restore in the *IMG file* field in the *Pi-Ingredients* section, and click *Restore Backup* to restore the image to the microSD card.
+- In the command line:
+    - To find the drive corresponding to the card, open a terminal and enter the same command as for the backup: ``diskutil list``
+ - Remove the partitions from the card by typing the following command: ``sudo diskutil unmountDisk /dev/disk1``
+ - Restore the image to the microSD card by entering the following command: ``sudo dd bs=1m if=~/Desktop/Backup_Jeedom.img of=/dev/disk1`` *Note: In this example, the drive letter for the card is `/dev/disk1`, so you must enter the following in the save command: \`/dev/disk1\`*
 
 ## On Linux
 
 ### Backup
 
--   To find the drive letter associated with the card, open a terminal and enter the following command: ``sudo fdisk -l | grep Dis``
+- To find the drive letter associated with the card, open a terminal and enter the following command: ``sudo fdisk -l | grep Dis``
     ````
     $ sudo fdisk -l | grep Dis
     Disk /dev/sda: 320.1 GB, 320072933376 bytes
     Disk /dev/sdb: 16.0 GB, 16012804096 bytes
     Disk /dev/sdc: 8.0 GB, 8006402048 bytes
     ````
--   Start creating the image by entering the command: ``sudo dd if=/dev/sdc of=Backup_Jeedom.img bs=1m`` *Note: In this example, the device name for the card is /dev/sdc.*
+- Start creating the image by entering the command: ``sudo dd if=/dev/sdc of=Backup_Jeedom.img bs=1m`` *Note: In this example, the device name for the card is /dev/sdc.*
 
-### Food Service
+### Restoration
 
--   To find the drive letter associated with the card, open a terminal and enter the following command: ``sudo fdisk -l | grep Dis``
--   Remove the partitions from the card by entering the following command (replacing the X with the partition numbers): ``sudo umount /dev/sdcX``
--   Restore the image to the microSD card by entering the following command: ``sudo dd if=Backup_Jeedom.img of=/dev/sdc bs=1m`` *Note: In this example, the device name for the card is /dev/sdc.*
+- To find the drive letter associated with the card, open a terminal and enter the following command: ``sudo fdisk -l | grep Dis``
+- Remove the partitions from the card by entering the following command (replacing the X with the partition numbers): ``sudo umount /dev/sdcX``
+- Restore the image to the microSD card by entering the following command: ``sudo dd if=Backup_Jeedom.img of=/dev/sdc bs=1m`` *Note: In this example, the device name for the card is /dev/sdc.*

@@ -23,7 +23,7 @@ In particular, you need to:
 You can start the migration process in two ways:
 
 - Go to the **Settings → System → Image Restoration** menu:
-![Menu | Dining | Image](../images/migrateos-smart01.png)
+![Menu | Restoration | Image](../images/migrateos-smart01.png)
 
 - When prompted to do so in the **update center** when necessary:
 ![Upgrade the update center](../images/migrateos-smart02.png)

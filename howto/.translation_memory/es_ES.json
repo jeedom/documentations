@@ -1,7 +1,6 @@
 {
     " *Remarque : Dans cet exemple, le nom du disque de la carte est ": " *Nota: En este ejemplo, el nombre del disco de la tarjeta es ",
-    " *Remarque: Dans cet exemple, le nom du disque de la carte  est ": " *Nota: En este ejemplo, el nombre del disco de la tarjeta es ",
-    " *Remarque: Dans cet exemple, le nom du disque de la carte est /dev/sdc.*": " *Nota: En este ejemplo, el nombre del disco de la tarjeta es /dev/sdc.*",
+    " *Remarque : Dans cet exemple, le nom du disque de la carte est /dev/sdc.*": " *Nota: En este ejemplo, el nombre del disco de la tarjeta es /dev/sdc.*",
     " : le nom de l'utilisateur": " : el nombre de usuario",
     " : le nouveau mot de passe, attention il ne faut pas d'espace et une longueur de 8 caractères minimum": " : la nueva contraseña; atención: no debe contener espacios y debe tener una longitud mínima de 8 caracteres",
     " Qui vous permettra de trouver l’adresse IP de votre Jeedom Mini+ et de vous y connecter afin de commencer à la paramètrer et à l’utiliser.": " Esto te permitirá encontrar la dirección IP de tu Jeedom Mini+ y conectarte a él para empezar a configurarlo y utilizarlo.",
@@ -48,7 +47,6 @@
     "*Un module RFXcom 433E avec son câble USB.* (Seulement si vous avez acheté le pack de démarrage avec interface RFXcom).": "*Un módulo RFXcom 433E con su cable USB.* (Solo si has comprado el pack de inicio con interfaz RFXcom).",
     "*Une carte RaZberry Z-Wave+.* (Seulement si vous avez acheté le pack de démarrage compatible Z-Wave+) (Cette carte est normalement déjà installée dans la box)": "*Una tarjeta RaZberry Z-Wave+.* (Solo si has comprado el pack de inicio compatible con Z-Wave+) (Esta tarjeta suele venir ya instalada en la caja)",
     ", c'est en général la que vous aurez la réponse la plus rapide.": "; por lo general, ahí es donde obtendrás la respuesta más rápida.",
-    ", il faut donc saisir dans la commande de  sauvegarde \\": ", por lo tanto, hay que introducir en el comando de  copia de seguridad \\",
     ", il faut donc saisir dans la commande de sauvegarde \\": ", por lo tanto, hay que introducir en el comando de copia de seguridad \\",
     ",puis dans le dossier Images récuperer l’image jeedom-jeeboard-\\*.rar": ", y luego, en la carpeta «Imágenes», busca el archivo jeedom-jeeboard-\\*.rar",
     ". N’hésitez pas à vous rendre sur le Forum de Jeedom pour toute autre question : ": ". No dudes en visitar el foro de Jeedom si tienes alguna otra pregunta: ",
