@@ -8,16 +8,16 @@
 
 **Jeedom and Domadoo** develop and market official “turnkey” boxes, with Jeedom preinstalled on an optimized system that includes services, plugins, and enhanced technical support. The official boxes also feature an automatic system restore tool.
 
-{% include lightbox.html src="../images/atlas-and-luna-comparison-table.jpg" data="AtlasLuna" title="Jeedom Atlas & Jeedom Luna" imgstyle="display:block;margin:0 auto;" %}
+{% include lightbox.html src="../images/tableau-comparatif-atlas-et-luna.jpg" data="AtlasLuna" title="Jeedom Atlas & Jeedom Luna" imgstyle="display:block;margin:0 auto;" %}
 
 | Jeedom Atlas | Jeedom Luna |
 |-------------------------|-------------------------|
-| [Atlas **protocol-free**](https://www.domadoo.fr/fr/box-domotique/7329-jeedom-controleur-domotique-jeedom-atlas-sans-protocole.html){:target="_blank"} | [Luna **Z-Wave, Zigbee + Bluetooth**](https://www.domadoo.fr/fr/box-domotique/6280-jeedom-controleur-domotique-jeedom-luna-z-wave700-zigbee30-bt.html){:target="_blank"} |
+| [Atlas **without protocol**](https://www.domadoo.fr/fr/box-domotique/7329-jeedom-controleur-domotique-jeedom-atlas-sans-protocole.html){:target="_blank"} | [Luna **Z-Wave, Zigbee + Bluetooth**](https://www.domadoo.fr/fr/box-domotique/6280-jeedom-controleur-domotique-jeedom-luna-z-wave700-zigbee30-bt.html){:target="_blank"} |
 | [Atlas **EnOcean**](https://www.domadoo.fr/fr/box-domotique/5877-jeedom-atlas-enocean.html){:target="_blank"} | [Luna **Z-Wave, Zigbee + 4G**](https://www.domadoo.fr/fr/box-domotique/6615-jeedom-controleur-domotique-jeedom-luna-z-wave-zigbee-et-4g.html){:target="_blank"} |
-| [Atlas **EnOcean + Z-Wave ZOOZ adapter**](https://www.domadoo.fr/fr/box-domotique/6857-jeedom-controleur-domotique-jeedom-atlas-enocean-dongle-z-wave-zooz.html){:target="_blank"} | [Luna **Z-Wave, Zigbee, LoRaWAN + 4G**](https://www.domadoo.fr/fr/box-domotique/6617-jeedom-controleur-domotique-jeedom-luna-z-wave-zigbee-lorawan-4g.html){:target="_blank"} |
-| [Atlas **Pro DIN rail without protocol**](https://www.domadoo.fr/fr/box-domotique/6567-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-sans-antenne.html){:target="_blank"} | |
-| [Atlas **Pro DIN rail EnOcean**](https://www.domadoo.fr/fr/box-domotique/6565-jeedom-atlas-pro-enocean.html){:target="_blank"} | |
-| [Atlas **Pro DIN rail KNX**](https://www.domadoo.fr/fr/box-domotique/6563-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-knx.html){:target="_blank"} | |
+| [Atlas **EnOcean + ZOOZ Z-Wave adapter**](https://www.domadoo.fr/fr/box-domotique/6857-jeedom-controleur-domotique-jeedom-atlas-enocean-dongle-z-wave-zooz.html){:target="_blank"} | [Luna **Z-Wave, Zigbee, LoRaWAN + 4G**](https://www.domadoo.fr/fr/box-domotique/6617-jeedom-controleur-domotique-jeedom-luna-z-wave-zigbee-lorawan-4g.html){:target="_blank"} |
+| [Atlas **Pro DIN rail without protocol**](https://www.domadoo.fr/fr/box-domotique/6567-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-sans-antenne.html){:target="_blank"} |             |
+| [Atlas **Pro DIN Rail EnOcean**](https://www.domadoo.fr/fr/box-domotique/6565-jeedom-atlas-pro-enocean.html){:target="_blank"} |             |
+| [Atlas **Pro DIN Rail KNX**](https://www.domadoo.fr/fr/box-domotique/6563-jeedom-controleur-domotique-sur-rail-din-jeedom-atlas-pro-knx.html){:target="_blank"} |             |
 
 >**INFORMATION**
 >
@@ -29,7 +29,7 @@ Our recommendations will depend on various factors:
 
 - **Jeedom Atlas or Luna**: the perfect blend of simplicity, optimization, and advanced compatibility.
 - **Nano-computer** *(Odroid C2, Rock Pi, Raspberry Pi, etc.)*: the best value for the price.
-- **Mini-PC** *(NUC)*: extreme performance for a higher budget *(see [the dedicated advanced tutorial](/howtoadvance/vmware.installation_sur_nuc) for more details)*.
+- **Mini-PC** *(NUC)*: Extreme performance for a higher budget *(see [the dedicated advanced tutorial](/howtoadvance/vmware.installation_sur_nuc) for more details)*.
 
 ### Supported Devices
 
@@ -88,18 +88,18 @@ The team develops custom system images for a wide variety of devices, including 
 |--------------------|--------------------|
 | [Luna](https://images.jeedom.com/luna/){:target="_blank"} | [Installation on Luna](/plugins/home%20automation%20protocol/luna) |
 | [Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Installation on Atlas](/installation/recovery) |
-| [Smart](https://images.jeedom.com/smart/){:target="_blank"} | [Installation on Smart](/installation/recovery) |
-| [Computers](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation on PC/Mini-PC](/installation/baremetal) |
+| [Smart](https://images.jeedom.com/smart/){:target="_blank"} | [Setup on Smart](/installation/recovery) |
+| [Computers](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation on a PC/mini-PC](/installation/baremetal) |
 | [Hypervisors](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation on a virtual machine](/installation/vm) |
-| [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [Installation on Freebox](/installation/freeboxdelta) |
+| [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [Setup on Freebox](/installation/freeboxdelta) |
 
 ### File verification
 
-The **SHA256 key**, which is used to verify the integrity of the downloaded file, can be found in the `info.json` file located in the download folder.
+The **SHA256 key**, which is used to verify the integrity of the downloaded file, can be found in the file `info.json` located in the download folder.
 
 ### First connection
 
-Refer to the documentation on [**first-time login**](/getting-started/#First%20Login) to access the Jeedom interface after installation.
+View the documentation related to [**First login**](/premiers-pas/#Première%20connexion) to access the Jeedom interface after installation.
 
 ### System console
 
@@ -108,11 +108,11 @@ Refer to the documentation on [**first-time login**](/getting-started/#First%20L
 >It is neither recommended nor necessary to make changes at the system console level to use Jeedom.\
 >Any changes to the system may affect the proper functioning of Jeedom.
 
-The default credentials for accessing the system console *(keyboard/screen or SSH)* are: `jeedom/Mjeedom96`. The `root` password is the same.
+The default credentials for accessing the system console *(keyboard/screen or SSH)* are: `jeedom/Mjeedom96`. The password `root` is the same.
 
 ## Compatible devices
 
-Depending on the protocols and plugins used, it’s not always easy to know whether a module will be supported. To help you determine whether your hardware is compatible, you can refer to the [Jeedom Compatibility](https://compatibility.jeedom.com/){:target="_blank"} website, where the list is kept up to date by the plugins themselves.
+Depending on the protocols and plugins used, it's not always easy to know whether a module will be supported. To help you determine whether your hardware is compatible, you can visit the website [Jeedom Compatibility](https://compatibility.jeedom.com/){:target="_blank"} whose list is kept up to date by the plugins themselves.
 
 In addition, the information on this site can be cross-referenced with that available on the online store for home automation equipment [Domadoo](https://www.domadoo.fr/){:target="_blank"}.
 
