@@ -2,7 +2,7 @@ const LANGUAGES = { fr_FR: 'Français', en_US: 'English', es_ES: 'Español', de_
 const LANGUAGE_CODES = Object.keys(LANGUAGES)
 const CORE_VERSIONS = ['4.3', '4.4', '4.5', '4.6']
 const SITE_ORIGIN = 'https://doc.jeedom.com'
-const GENERAL_SECTIONS = ['presentation', 'concept', 'howto', 'howtoadvance', 'installation', 'compatibility', 'premiers-pas', 'mobile', 'contribute', 'dev', 'legal_notice', 'home']
+const GENERAL_SECTIONS = ['compatibility', 'concept', 'contribute', 'dev', 'home', 'howto', 'howtoadvance', 'installation', 'legal_notice', 'mobile', 'premiers-pas', 'presentation']
 
 let _lang = getCookie('lang')
 if (!_lang) {
