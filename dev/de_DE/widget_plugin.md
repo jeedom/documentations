@@ -44,7 +44,7 @@ public static function templateWidget(){
 }
 ````
 
-Hier erstellen wir ein neues Widget auf Basis der Vorlage „tmplmultistate“ (die Liste der Vorlagen finden Sie [hier](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) das sind diejenigen mit „tmpl“ im Namen, für einen Befehl vom Typ „info“ und vom Untertyp „string“.
+Hier erstellen wir ein neues Widget auf Basis der Vorlage „tmplmultistate“ (die Liste der Vorlagen finden Sie [hier](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) das sind diejenigen mit „tmpl“ im Namen), für einen Befehl vom Typ „info“ und vom Untertyp „string“.
 
 > **WICHTIG**
 >

@@ -44,7 +44,7 @@ public static function templateWidget(){
 }
 ````
 
-Aquí vamos a crear un nuevo widget basado en la plantilla «tmplmultistate» (tienes la lista de plantillas [aquí](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) son los que llevan «tmpl» en el nombre, para un comando de tipo «info» y subtipo «string».
+Aquí vamos a crear un nuevo widget basado en la plantilla «tmplmultistate» (tienes la lista de plantillas [aquí](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) son los que llevan «tmpl» en el nombre), para un comando de tipo «info» y subtipo «string».
 
 > **IMPORTANTE**
 >
