@@ -3,9 +3,10 @@ name: Docs translate (general content)
 on:
   push:
     branches:
-      - master
+      - test/docs-translations-consolidate
     paths:
       - '*/fr_FR/**'
+      - '.github/workflows/docs-translations.yml'
   workflow_dispatch:
     inputs:
       target_languages:
@@ -19,26 +20,11 @@ permissions:
 
 jobs:
   translate:
-    strategy:
-      matrix:
-        category:
-          - compatibility
-          - concept
-          - contribute
-          - dev
-          - home
-          - howto
-          - howtoadvance
-          - installation
-          - legal_notice
-          - mobile
-          - premiers-pas
-          - presentation
     runs-on: ubuntu-latest
     steps:
       - uses: jeedom/jeetranslate-docs@main
         with:
-          documents_roots: ${{ matrix.category }}
-          branch: docs-translations-${{ matrix.category }}
+          documents_roots: compatibility,concept,contribute,dev,home,howto,howtoadvance,installation,legal_notice,mobile,premiers-pas,presentation
+          memory_path: ${{ github.workspace }}/.translation_memory
           target_languages: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.target_languages || 'en_US,es_ES,de_DE' }}
           deepl_api_key: ${{ secrets.DEEPL_API_KEY }}
