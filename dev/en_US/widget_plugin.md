@@ -44,7 +44,7 @@ public static function templateWidget(){
 }
 ````
 
-Here, we're going to create a new widget based on the "tmplmultistate" template (you have the list of templates [here](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) these are the ones with "tmpl" in their names, for a command of type "info" and subtype "string."
+Here, we're going to create a new widget based on the "tmplmultistate" template (you have the list of templates [here](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) these are the ones with "tmpl" in their names), for a command of type "info" and subtype "string."
 
 > **IMPORTANT**
 >
