@@ -1,0 +1,34 @@
+{
+  "id": "shelly_control",
+  "name": "Shelly Control",
+  "description": {
+    "fr_FR": "Contrôle local (sans cloud) des appareils Shelly Gen1 à Gen4 via un démon Python basé sur aioshelly. Découverte automatique sur le réseau (mDNS, CoIoT), remontée d'état en temps réel, pilotage des relais, volets, lumières (RVB/CCT), et gestion des scripts natifs des appareils Gen2 et supérieurs.",
+    "en_US": "Local (cloud-free) control of Shelly Gen1 to Gen4 devices via a Python daemon based on aioshelly. Automatic network discovery (mDNS, CoIoT), real-time state updates, control of relays, covers, lights (RGB/CCT), and native script management on Gen2+ devices.",
+    "es_ES": "Control local (sin nube) de los dispositivos Shelly Gen1 a Gen4 mediante un demonio Python basado en aioshelly. Descubrimiento automático en la red (mDNS, CoIoT), actualización de estado en tiempo real, control de relés, persianas, luces (RGB/CCT) y gestión de los scripts nativos de los dispositivos Gen2 y superiores.",
+    "de_DE": "Lokale Steuerung (ohne Cloud) von Shelly-Geräten Gen1 bis Gen4 über einen Python-Daemon auf Basis von aioshelly. Automatische Erkennung im Netzwerk (mDNS, CoIoT), Echtzeit-Statusaktualisierung, Steuerung von Relais, Rollläden, Lichtern (RGB/CCT) sowie Verwaltung der nativen Skripte von Gen2+-Geräten.",
+    "it_IT": "Controllo locale (senza cloud) dei dispositivi Shelly da Gen1 a Gen4 tramite un demone Python basato su aioshelly. Rilevamento automatico in rete (mDNS, CoIoT), aggiornamento dello stato in tempo reale, controllo di relè, tapparelle, luci (RGB/CCT) e gestione degli script nativi dei dispositivi Gen2 e superiori.",
+    "pt_PT": "Controlo local (sem nuvem) dos dispositivos Shelly Gen1 a Gen4 através de um daemon Python baseado em aioshelly. Deteção automática na rede (mDNS, CoIoT), atualização de estado em tempo real, controlo de relés, estores, luzes (RGB/CCT) e gestão dos scripts nativos dos dispositivos Gen2 e superiores.",
+    "ru_RU": "Локальное управление (без облака) устройствами Shelly от Gen1 до Gen4 через демон Python на базе aioshelly. Автоматическое обнаружение в сети (mDNS, CoIoT), обновление состояния в реальном времени, управление реле, шторами, освещением (RGB/CCT) и встроенными скриптами устройств Gen2 и новее.",
+    "nl_NL": "Lokale besturing (zonder cloud) van Shelly-apparaten Gen1 tot Gen4 via een Python-daemon op basis van aioshelly. Automatische detectie op het netwerk (mDNS, CoIoT), realtime statusupdates, besturing van relais, rolluiken, verlichting (RGB/CCT) en beheer van native scripts op Gen2+-apparaten."
+  },
+  "utilization": "Nécessite un accès réseau local aux appareils Shelly (même sous-réseau, ou routage IP + mDNS relayé). Un environnement Python (venv + aioshelly) est installé automatiquement lors de l'activation du plugin.",
+  "licence": "AGPL",
+  "author": "Limad44",
+  "require": "4.5",
+  "os": {
+    "min": 11
+  },
+  "version": "1.0.0",
+  "pluginVersion": "1.0.0",
+  "category": "automation protocol",
+  "hasDependency": true,
+  "hasOwnDeamon": true,
+  "maxDependancyInstallTime": 15,
+  "changelog": "https://limad.github.io/plugins-docs/plugin-shelly_control/fr_FR/changelog",
+  "documentation": "https://limad.github.io/plugins-docs/plugin-shelly_control/fr_FR/",
+  "link": {
+    "forum": "https://community.jeedom.com/tag/plugin-shelly_control/l/latest"
+  },
+  "language": ["fr_FR", "en_US", "es_ES", "de_DE", "it_IT", "pt_PT", "ru_RU", "nl_NL"],
+  "compatibility": ["miniplus", "smart", "atlas", "luna", "rpi", "docker", "diy", "v4"]
+}
