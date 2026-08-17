@@ -8,6 +8,9 @@
 >
 >Une refonte globale du plugin à été effectuée. Les méthodes d'écritures ou les parametrages des registres pourraient etre a refaire/re-adapter suivant les installations. Merci de bien faire un backup et de le télécharger en local avant de mettre à jour le plugin
 
+# 17/08/2026
+- Fix écriture FC05 (Write Single Coil) 
+
 # 11/03/2026
 - Ajout mode de connexion TCP : persistant ou court (connexion/déconnexion par opération)
 - Nouveau paramètre `tcpConnectionMode` configurable depuis l'interface équipement

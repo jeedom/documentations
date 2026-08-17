@@ -10,17 +10,17 @@ Plugin permettant de lire et écrire sur vos équipements ModbusTCP/IP et RTU av
 
 Después de descargar el complemento, primero debe activarlo, como cualquier complemento Jeedom :
 
-![config](./images/ModbusActiv.png)
+![config](../images/ModbusActiv.png)
 
 Luego, hay que iniciar la instalación de las dependencias (aunque aparezcan OK) :
 
-![dependances](./images/ModbusDep.png)
+![dependances](../images/ModbusDep.png)
 
 Finalmente, inicie el demonio :
 
-![demon](./images/ModbusDemon.png)
+![demon](../images/ModbusDemon.png)
 
-![socket](./images/ModbusConfig.png)
+![socket](../images/ModbusConfig.png)
 
 #### Paramètres de Configuration
 
@@ -72,7 +72,7 @@ Vous pourrez ensuite l'importer sur un nouvel équipement du même type (il suff
 
 Sur la page d'un équipement, vous trouverez les boutons d'import/export :
 
-![dependances](./images/importJson.png)
+![dependances](../images/importJson.png)
 
 ---
 
@@ -140,7 +140,7 @@ Par défaut, 3 types de commandes d'écriture sont proposées lors de la créati
 - **Bit de escritura** (FC06 pour modifier un bit spécifique)
 - **Ecriture MultiCoils** (FC15)
 
-![cmdEcritures](./images/modbusCmdsEcritures.png)
+![cmdEcritures](../images/modbusCmdsEcritures.png)
 
 ---
 
@@ -154,13 +154,13 @@ Par défaut, 3 types de commandes d'écriture sont proposées lors de la créati
 2. Choisir le function code : **FC16**
 3. Cliquer sur le bouton **"Configurer FC16"** qui apparaît
 
-![cmdEcritures](./images/configFc16.png)
+![cmdEcritures](../images/configFc16.png)
 
 4. Dans la fenêtre qui s'ouvre, configurer pour chaque registre :
    - La valeur à écrire
    - Le format de donnée (int16, int32, float32, etc.)
 
-![cmdEcritures](./images/bootboxFc16.png)
+![cmdEcritures](../images/bootboxFc16.png)
 
 5. Ajouter/Supprimer des lignes selon vos besoins
 6. Renseigner le **registro de salida** sur la commande
@@ -483,7 +483,7 @@ jeeModbusMQTT/nomDeLequipement/dataCmds
 
 Sur la page d'un équipement, vous pouvez modifier le topic par défaut :
 
-![renammeTopic](./images/renammeTopic.png)
+![renammeTopic](../images/renammeTopic.png)
 
 Remplacez "nomDeLequipement" par le nom de votre choix.
 
