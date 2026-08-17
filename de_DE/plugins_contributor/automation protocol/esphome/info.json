@@ -18,8 +18,7 @@
   "language": [
 		"fr_FR"
 	],
-  "compatibility" : [              
-        "smart",       
+  "compatibility" : [                
         "docker",            
         "diy",               
         "luna",        
