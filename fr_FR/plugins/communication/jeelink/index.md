@@ -2,7 +2,7 @@
 
 Le plugin **Jeedom Link** *(également appelé Jeelink)* permet la remontée d'équipements depuis une ou plusieurs installations Jeedom "sources" vers un (ou plusieurs) Jeedom "cible".
 
-![jeelink1](./images/jeelink1.png)
+![jeelink1](../images/jeelink1.png)
 
 Le plugin doit impérativement être installé sur chaque Jeedom, qu'il soit source ou cible.
 
@@ -23,7 +23,15 @@ Ce plugin ne nécessite pas de configuration particulière et doit simplement ê
 
 >**IMPORTANT**
 >
+>Attention la désactivation du plugin entraine la suppression des Jeedoms cibles du plugin sans aucun moyen de les récuperer (hormis restaurer un backup)
+
+>**IMPORTANT**
+>
 >Les configurations réseaux de l'ensemble des Jeedoms *(source & cible)* doivent IMPERATIVEMENT être OK sinon le plugin ne fonctionnera pas.
+
+>**IMPORTANT**
+>
+>Il ne faut surtout pas avoir la même clé api sur plusieurs Jeedom cibles. La clé d'un équimement est basé sur la clé api (il ne faut donc pas la changer après la configuration) et l'id source de l'équipement. Avoir la même clé api sur les Jeedom cibles entrainera donc des problèmes de synchronisation avec des équipements qui pourraient ne pas apparaître sur la source.
 
 ## Configuration Jeedom cible
 
@@ -34,11 +42,11 @@ Pour se faire, dirigez-vous vers le menu **Plugins → Communication → Jeedom 
 Une fenêtre va s'ouvrir à partir de laquelle vous pourrez ajouter ou modifier des **Jeedom(s) cible(s)**. Pour ajouter un **Jeedom cible**, il suffit de renseigner :
 
 - Le nom du **Jeedom cible**.
-- L’adresse IP ou le nom DNS à laquelle le **Jeedom cible** est joignable.
+- L’adresse IP ou le nom DNS auquell le **Jeedom cible** est joignable.
 - La **clé API du plugin Jeedom Link** du **Jeedom cible**.
 - Le mode d'accès, interne ou externe (utilisé pour le retour d’informations du **Jeedom source** vers le **Jeedom cible**).
 
-![jeelink2](./images/jeelink2.png)
+![jeelink2](../images/jeelink2.png)
 
 >**ASTUCE**
 >
@@ -48,15 +56,15 @@ Une fenêtre va s'ouvrir à partir de laquelle vous pourrez ajouter ou modifier 
 
 Après avoir effectué la configuration du **Jeedom cible** sur le **Jeedom source**, il faut aller dans l’onglet **Affectation** pour sélectionner les équipements à transmettre au **Jeedom cible**. Toutes les commandes de chaque équipement seront automatiquement créées et configurées sur le **Jeedom cible**.
 
-![jeelink3](./images/jeelink3.png)
+![jeelink3](../images/jeelink3.png)
 
 Ajoutez les équipements que vous désirez remonter vers le **Jeedom cible** en cliquant sur **Ajouter un équipement** puis sélectionnez l’objet et l’équipement :
 
-![jeelink5](./images/jeelink5.png)
+![jeelink5](../images/jeelink5.png)
 
 >**INFORMATION**
 >
->Les plugins utilisant un widget spécifique ne le retrouveront pas sur le **Jeedom cible** *(plugin Caméra, Networks, etc…​)*.
+>Les plugins utilisant un widget spécifique ne le retrouveront pas sur le **Jeedom cible** *(plugin Caméra, Networks, etc.)*.
 
 >**IMPORTANT**
 >
@@ -68,15 +76,15 @@ Il ne reste qu'à **Sauvegarder** pour que la liaison s'effectue et que les équ
 
 Dirigeons-nous maintenant vers le menu **Plugins → Communication → Jeedom Link** du **Jeedom cible** pour constater la création automatique des équipements sélectionnés précédemment :
 
-![jeelink4](./images/jeelink4.png)
+![jeelink4](../images/jeelink4.png)
 
 Comme tout équipement Jeedom, vous accédez à sa page de configuration en cliquant dessus :
 
-![jeelink6](./images/jeelink6.png)
+![jeelink6](../images/jeelink6.png)
 
 Dans l’onglet **Commandes**, vous accédez à tous les paramètres des commandes de l’équipement :
 
-![jeelink7](./images/jeelink7.png)
+![jeelink7](../images/jeelink7.png)
 
 >**IMPORTANT**
 >

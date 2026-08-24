@@ -43,23 +43,23 @@ Ensuite dans Jeedom dans Communication/Google Smarthome il faut cliquer sur sauv
 
 Ensuite sur l'application Google Home il faut aller dans le premier onglet cliquer sur Ajouter (le +) :
 
-![gsh](./images/gsh29.png)
+![gsh](../images/gsh29.png)
 
 Puis configurer un appareil :
 
-![gsh](./images/gsh30.png)
+![gsh](../images/gsh30.png)
 
 Sur "Fonctionne avec Google" :
 
-![gsh](./images/gsh31.png)
+![gsh](../images/gsh31.png)
 
 Ensuite dans la liste avec le bouton rechercher (loupe en haut à droite), chercher "Jeedom Smarthome" et cliquez dessus :
 
-![gsh](./images/gsh32.png)
+![gsh](../images/gsh32.png)
 
 La renseignez vos identifiants market (et bien ceux market pas ceux de votre Jeedom).
 
-![gsh](./images/gsh6.png)
+![gsh](../images/gsh6.png)
 
 Dans plugins -> communication -> Google Smarthome vous pouvez configurer vos différents équipements (voir chapite Configuration du plugin)
 
@@ -110,56 +110,56 @@ Il y a donc 2 applications côté Google : une pour la partie Google Smarthome e
 
 Allez [ici](https://console.actions.google.com) puis cliquez sur "Add/import project"
 
-![gsh](./images/gsh7.png)
+![gsh](../images/gsh7.png)
 
 Donnez un nom au projet changez langue et région par défaut et validez :
 
-![gsh](./images/gsh8.png)
+![gsh](../images/gsh8.png)
 
 Sélectionnez "Home control" :
 
-![gsh](./images/gsh9.png)
+![gsh](../images/gsh9.png)
 
 Cliquez sur "Smarthome" :
 
-![gsh](./images/gsh10.png)
+![gsh](../images/gsh10.png)
 
 Cliquez sur "Name your Smart Home action" :
 
-![gsh](./images/gsh11.png)
+![gsh](../images/gsh11.png)
 
 Mettez "test smarthome" et validez (bouton Save en haut à droite) :
 
-![gsh](./images/gsh12.png)
+![gsh](../images/gsh12.png)
 
 Ensuite à gauche cliquez sur "Actions" :
 
-![gsh](./images/gsh13.png)
+![gsh](../images/gsh13.png)
 
 Puis "Add your first action" :
 
-![gsh](./images/gsh14.png)
+![gsh](../images/gsh14.png)
 
 Il va falloir donner ici l'url d'arrivée de Jeedom. Pour l'avoir c'est très simple, il faut dans Jeedom aller sur la page de gestion du plugin, bien choisir le mode "Standalone" (et enregistrer au passage), l'url est celle qui s'appelle "Fulfillment URL"
 
-![gsh](./images/gsh15.png)
+![gsh](../images/gsh15.png)
 
 Ensuite allez dans "Account linking" (menu de gauche) :
 
-![gsh](./images/gsh13.png)
+![gsh](../images/gsh13.png)
 
 Sélectionnez "No, I only want to allow account creation on my website" et faite "Next" :
 
-![gsh](./images/gsh16.png)
+![gsh](../images/gsh16.png)
 
 
 Sélectionnez "OAuth" puis "Autorization code" et faite "Next" :
 
-![gsh](./images/gsh17.png)
+![gsh](../images/gsh17.png)
 
 Remplissez ensuite les 4 champs en fonction de la page de configuration du plugin, puis faite "Next" :
 
-![gsh](./images/gsh18.png)
+![gsh](../images/gsh18.png)
 
 > **NOTE**
 >
@@ -171,15 +171,15 @@ Remplissez ensuite les 4 champs en fonction de la page de configuration du plugi
 
 Il n'y a rien à faire là simplement "Next" :
 
-![gsh](./images/gsh19.png)
+![gsh](../images/gsh19.png)
 
 Ecrivez "Toto" puis faites "Save" :
 
-![gsh](./images/gsh20.png)
+![gsh](../images/gsh20.png)
 
 Il faut maintenant configurer la clé API homegraph, pour cela allez [ici](https://console.developers.google.com/apis/dashboard), puis à droite cliquez sur "Bibliothèque" :
 
-![gsh](./images/gsh21.png)
+![gsh](../images/gsh21.png)
 
 > **NOTE**
 >
@@ -187,23 +187,23 @@ Il faut maintenant configurer la clé API homegraph, pour cela allez [ici](https
 
 Et cherchez "Homegraph" :
 
-![gsh](./images/gsh22.png)
+![gsh](../images/gsh22.png)
 
 Cliquez sur homegraphapi puis activez l'api et cliquez sur gérer :
 
-![gsh](./images/gsh23.png)
+![gsh](../images/gsh23.png)
 
 Cliquez sur identifiant à gauche :
 
-![gsh](./images/gsh24.png)
+![gsh](../images/gsh24.png)
 
 Puis sur "Identifiants des API et services" :
 
-![gsh](./images/gsh25.png)
+![gsh](../images/gsh25.png)
 
 Cliquez sur "Créer des identifiants" puis sur "Clé API" :
 
-![gsh](./images/gsh26.png)
+![gsh](../images/gsh26.png)
 
 Copiez la clef API générée et collez la sur la page de gestion du plugin Google Smarthome dans "Homegraph API Google"
 
@@ -211,11 +211,11 @@ Dernière étape à faire donner l'id projet à Jeedom pour la gestion de la con
 
 Voilà vous pouvez maintenant cliquer à gauche sur "Action" :
 
-![gsh](./images/gsh27.png)
+![gsh](../images/gsh27.png)
 
 Puis sur test :
 
-![gsh](./images/gsh28.png)
+![gsh](../images/gsh28.png)
 
 Il vous faut ensuite sur un smartphone **android** (obligatoirement ne marche pas sur un iphone) vous connecter à votre Jeedom par **l'url externe** de celui-ci. Il faut ensuite aller dans l'application home puis "configurer ou ajouter" puis "Configurer un appareil" et enfin cliquer sur "Fonctionne avec Google" et là ajouter votre service créé plus haut (il commence par [test])
 
@@ -240,7 +240,7 @@ Pour faire la configuration il faut
 
 Sur votre Jeedom, allez sur Plugins -> Communication -> Google Smarthome et dans la partie équipement sélectionnez les équipements à transmettre à Google ainsi que le type de l'équipement.
 
-![gsh](./images/gsh2.png)
+![gsh](../images/gsh2.png)
 
 > **IMPORTANT**
 >
@@ -288,7 +288,7 @@ Les types d'équipements sont importants cela permet à Google de réagir en fon
 
 Vous pouvez aussi créer des scènes dans l'onglet scènario, avec des actions d'entrée et de sortie.
 
-![gsh](./images/gsh3.png)
+![gsh](../images/gsh3.png)
 
 > **NOTE**
 >
@@ -342,7 +342,7 @@ Il ne vous reste plus qu'à faire l'affectation des équipements aux pièces dan
 
 >**Vous avez un link error ou Impossible de mettre à jour le paramètre, vérifier votre connexion en mode cloud**
 >
->Il faut dans jeedom, sur le plugin ajouter des équipements, sauvegarder et refaire l'association de Jeedom Smarthome dans l'application Google Home
+>Il faut dans jeedom, sur le plugin ajouter des équipements, sauvegarder et refaire l'association de Jeedom Smarthome dans l'application Google Home. Attention il y a aussi des soucis avec l'application Google Home ou il faut vider le cache de celle-ci pour la connexion marche
 
 >**J'ai l'erreur "Apparemment Jeedom Smart Home est indisponible pour le moment." ou "Pardon je ne peux pas établir la connexion avec Jeedom Smart Home."**
 >
@@ -355,3 +355,7 @@ Il ne vous reste plus qu'à faire l'affectation des équipements aux pièces dan
 >**Le changement de vitesse sur un ventilateur ne marche pas**
 >
 >Après analyse Google n'envoie pas d'ordre lors d'une action sur la vitesse. Il faut donc attendre que Google corrige
+
+>**J'ai une erreur 404 lors l'association avec google home**
+>
+>C'est un bug dans l'application Gooogle home pour corriger vous pouvez essayer de vider le cache de l'application google home ou lors de la connexion vous pouvez essayer en lui demandant d'ouvrir la page de connexion dans le navigateur au lieu de l'application google home.

@@ -43,23 +43,23 @@ Then in Jeedom in Communication/Google Smarthome you must click on save to send 
 
 Then on the Google Home application you have to go to the first tab click on Add (the +) :
 
-![gsh](./images/gsh29.png)
+![gsh](../images/gsh29.png)
 
 Then configure a device :
 
-![gsh](./images/gsh30.png)
+![gsh](../images/gsh30.png)
 
 On "Works with Google" :
 
-![gsh](./images/gsh31.png)
+![gsh](../images/gsh31.png)
 
 Then in the list with the search button (magnifying glass at the top right), search for "Jeedom Smarthome" and click on it :
 
-![gsh](./images/gsh32.png)
+![gsh](../images/gsh32.png)
 
 Enter your market identifiers (well those market not those of your Jeedom).
 
-![gsh](./images/gsh6.png)
+![gsh](../images/gsh6.png)
 
 In plugins -> communication -> Google Smarthome you can configure your different equipment (see chapter Plugin configuration)
 
@@ -110,56 +110,56 @@ There are therefore 2 applications listed on Google : one for the Google Smartho
 
 Come on [here](https://console.actions.google.com) then click on "Add / import project"
 
-![gsh](./images/gsh7.png)
+![gsh](../images/gsh7.png)
 
 Give a name to the project change default language and region and validate :
 
-![gsh](./images/gsh8.png)
+![gsh](../images/gsh8.png)
 
 Select "Home control" :
 
-![gsh](./images/gsh9.png)
+![gsh](../images/gsh9.png)
 
 Click on "Smarthome" :
 
-![gsh](./images/gsh10.png)
+![gsh](../images/gsh10.png)
 
 Click on "Name your Smart Home action" :
 
-![gsh](./images/gsh11.png)
+![gsh](../images/gsh11.png)
 
 Put "smarthome test" and validate (Save button at the top right) :
 
-![gsh](./images/gsh12.png)
+![gsh](../images/gsh12.png)
 
 Then on the left click on "Actions" :
 
-![gsh](./images/gsh13.png)
+![gsh](../images/gsh13.png)
 
 Then "Add your first action" :
 
-![gsh](./images/gsh14.png)
+![gsh](../images/gsh14.png)
 
 You will have to give here the arrival URL of Jeedom. To get it it's very simple, in Jeedom you have to go to the plugin management page, choose the "Standalone" mode (and save in passing), the url is the one called "Fulfillment URL"
 
-![gsh](./images/gsh15.png)
+![gsh](../images/gsh15.png)
 
 Then go to "Account linking" (left menu) :
 
-![gsh](./images/gsh13.png)
+![gsh](../images/gsh13.png)
 
 Select "No, I only want to allow account creation on my website" and do "Next" :
 
-![gsh](./images/gsh16.png)
+![gsh](../images/gsh16.png)
 
 
 Select "OAuth" then "Authorization code" and do "Next" :
 
-![gsh](./images/gsh17.png)
+![gsh](../images/gsh17.png)
 
 Then fill in the 4 fields according to the plugin configuration page, then click "Next" :
 
-![gsh](./images/gsh18.png)
+![gsh](../images/gsh18.png)
 
 > **NOTE**
 >
@@ -171,15 +171,15 @@ Then fill in the 4 fields according to the plugin configuration page, then click
 
 There is nothing to do simply "Next" :
 
-![gsh](./images/gsh19.png)
+![gsh](../images/gsh19.png)
 
 Write "Toto" then do "Save" :
 
-![gsh](./images/gsh20.png)
+![gsh](../images/gsh20.png)
 
 You must now configure the homegraph API key, to do this go [here](https://console.developers.google.com/apis/dashboard), then right click on "Library" :
 
-![gsh](./images/gsh21.png)
+![gsh](../images/gsh21.png)
 
 > **NOTE**
 >
@@ -187,23 +187,23 @@ You must now configure the homegraph API key, to do this go [here](https://conso
 
 And look for "Homegraph" :
 
-![gsh](./images/gsh22.png)
+![gsh](../images/gsh22.png)
 
 Click on homegraphapi then activate the API and click on manage :
 
-![gsh](./images/gsh23.png)
+![gsh](../images/gsh23.png)
 
 Click on identifier on the left :
 
-![gsh](./images/gsh24.png)
+![gsh](../images/gsh24.png)
 
 Then on "Identifiers of APIs and services" :
 
-![gsh](./images/gsh25.png)
+![gsh](../images/gsh25.png)
 
 Click on "Create identifiers" then on "API key" :
 
-![gsh](./images/gsh26.png)
+![gsh](../images/gsh26.png)
 
 Copy the generated API key and paste it on the Google Smarthome plugin management page in "Homegraph API Google"
 
@@ -211,11 +211,11 @@ Last step to give Jeedom the project id to manage the connection, go [here](http
 
 That's it, you can now click on the left on "Action" :
 
-![gsh](./images/gsh27.png)
+![gsh](../images/gsh27.png)
 
 Then on test :
 
-![gsh](./images/gsh28.png)
+![gsh](../images/gsh28.png)
 
 Then you need on a smartphone **android** (must not work on an iphone) connect to your Jeedom by **the external url** of it. Then go to the home application then "configure or add" then "Configure a device" and finally click on "Works with Google" and add your service created above (it starts with [test])
 
@@ -240,7 +240,7 @@ To make the configuration you need
 
 On your Jeedom, go to Plugins -> Communication -> Google Smarthome and in the equipment section select the equipment to transmit to Google as well as the type of equipment.
 
-![gsh](./images/gsh2.png)
+![gsh](../images/gsh2.png)
 
 > **Important**
 >
@@ -288,7 +288,7 @@ The types of equipment are important this allows Google to react based on the se
 
 You can also create scenes in the scenario tab, with entry and exit actions.
 
-![gsh](./images/gsh3.png)
+![gsh](../images/gsh3.png)
 
 > **NOTE**
 >
@@ -342,7 +342,7 @@ All you have to do is assign the equipment to the rooms in the Google Home app
 
 >**You have a link error or Unable to update the parameter, check your connection in cloud mode**
 >
->It is necessary in jeedom, on the plugin to add equipment, save and redo the association of Jeedom Smarthome in the Google Home application
+>It is necessary in jeedom, on the plugin to add equipment, save and redo the association of Jeedom Smarthome in the Google Home application. Attention il y a aussi des soucis avec l'application Google Home ou il faut vider le cache de celle-ci pour la connexion marche
 
 >**I get the error "Apparently Jeedom Smart Home is unavailable at the moment." or "Sorry I can't connect to Jeedom Smart Home."**
 >
@@ -355,3 +355,7 @@ All you have to do is assign the equipment to the rooms in the Google Home app
 >**Changing the speed on a fan does not work**
 >
 >After analysis Google does not send an order during an action on speed. We must therefore wait for Google to correct
+
+>****
+>
+>.

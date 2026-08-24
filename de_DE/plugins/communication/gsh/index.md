@@ -43,23 +43,23 @@ Dann müssen Sie in Jeedom in Kommunikation/Google Smarthome auf Speichern klick
 
 Dann müssen Sie in der Google Home-Anwendung zur ersten Registerkarte gehen und auf Hinzufügen klicken (das +) :
 
-![gsh](./images/gsh29.png)
+![gsh](../images/gsh29.png)
 
 Konfigurieren Sie dann ein Gerät :
 
-![gsh](./images/gsh30.png)
+![gsh](../images/gsh30.png)
 
 Ein "Funktioniert mit Google" :
 
-![gsh](./images/gsh31.png)
+![gsh](../images/gsh31.png)
 
 Suchen Sie dann in der Liste mit der Suchschaltfläche (Lupe oben rechts) nach "Jeedom Smarthome" und klicken Sie darauf :
 
-![gsh](./images/gsh32.png)
+![gsh](../images/gsh32.png)
 
 Geben Sie Ihre Marktkennungen ein (also die Märkte, nicht die Ihrer Jeedom).
 
-![gsh](./images/gsh6.png)
+![gsh](../images/gsh6.png)
 
 Unter Plugins -> Kommunikation -> Google Smarthome können Sie Ihre verschiedenen Geräte konfigurieren (siehe Kapitel Plugin-Konfiguration))
 
@@ -110,56 +110,56 @@ Es sind daher 2 Anwendungen bei Google gelistet : eine für den Google Smarthome
 
 Komm schon [hier](https://console.actions.google.com) Klicken Sie dann auf "Projekt hinzufügen / importieren""
 
-![gsh](./images/gsh7.png)
+![gsh](../images/gsh7.png)
 
 Geben Sie dem Projekt einen Namen, ändern Sie die Standardsprache und -region und bestätigen Sie :
 
-![gsh](./images/gsh8.png)
+![gsh](../images/gsh8.png)
 
 Wählen Sie "Home Control"" :
 
-![gsh](./images/gsh9.png)
+![gsh](../images/gsh9.png)
 
 Klicken Sie auf "Smarthome" :
 
-![gsh](./images/gsh10.png)
+![gsh](../images/gsh10.png)
 
 Klicken Sie auf "Benennen Sie Ihre Smart Home-Aktion"" :
 
-![gsh](./images/gsh11.png)
+![gsh](../images/gsh11.png)
 
 Setzen Sie "smarthome test" und validieren Sie (Schaltfläche Speichern oben rechts) :
 
-![gsh](./images/gsh12.png)
+![gsh](../images/gsh12.png)
 
 Klicken Sie dann links auf "Aktionen" :
 
-![gsh](./images/gsh13.png)
+![gsh](../images/gsh13.png)
 
 Dann "Fügen Sie Ihre erste Aktion hinzu" :
 
-![gsh](./images/gsh14.png)
+![gsh](../images/gsh14.png)
 
 Sie müssen hier die Ankunfts-URL von Jeedom angeben. Um es zu haben, ist es sehr einfach: In Jeedom müssen Sie zur Plugin-Verwaltungsseite gehen, den "Standalone" -Modus auswählen (und nebenbei speichern). Die URL heißt "Fulfillment URL""
 
-![gsh](./images/gsh15.png)
+![gsh](../images/gsh15.png)
 
 Gehen Sie dann zu "Kontoverknüpfung" (linkes Menü) :
 
-![gsh](./images/gsh13.png)
+![gsh](../images/gsh13.png)
 
 Wählen Sie "Nein, ich möchte nur die Kontoerstellung auf meiner Website zulassen" und klicken Sie auf "Weiter"" :
 
-![gsh](./images/gsh16.png)
+![gsh](../images/gsh16.png)
 
 
 Wählen Sie "OAuth" und dann "Autorisierungscode" und klicken Sie auf "Weiter"" :
 
-![gsh](./images/gsh17.png)
+![gsh](../images/gsh17.png)
 
 Füllen Sie dann die 4 Felder gemäß der Plugin-Konfigurationsseite aus und klicken Sie auf "Weiter"" :
 
-![gsh](./images/gsh18.png)
+![gsh](../images/gsh18.png)
 
 > **Notiz**
 >
@@ -171,15 +171,15 @@ Füllen Sie dann die 4 Felder gemäß der Plugin-Konfigurationsseite aus und kli
 
 Es gibt nichts zu tun, einfach "Weiter" :
 
-![gsh](./images/gsh19.png)
+![gsh](../images/gsh19.png)
 
 Schreiben Sie „Toto“ und führen Sie dann „Speichern“ aus" :
 
-![gsh](./images/gsh20.png)
+![gsh](../images/gsh20.png)
 
 Sie müssen nun den Homegraph-API-Schlüssel konfigurieren, um dies zu tun [hier](https://console.developers.google.com/apis/dashboard), Klicken Sie dann mit der rechten Maustaste auf "Bibliothek" :
 
-![gsh](./images/gsh21.png)
+![gsh](../images/gsh21.png)
 
 > **Notiz**
 >
@@ -187,23 +187,23 @@ Sie müssen nun den Homegraph-API-Schlüssel konfigurieren, um dies zu tun [hier
 
 Und suchen Sie nach "Homegraph" :
 
-![gsh](./images/gsh22.png)
+![gsh](../images/gsh22.png)
 
 Klicken Sie auf homegraphapi, aktivieren Sie die API und klicken Sie auf verwalten :
 
-![gsh](./images/gsh23.png)
+![gsh](../images/gsh23.png)
 
 Klicken Sie links auf die Kennung :
 
-![gsh](./images/gsh24.png)
+![gsh](../images/gsh24.png)
 
 Dann auf "Kennungen von APIs und Diensten" :
 
-![gsh](./images/gsh25.png)
+![gsh](../images/gsh25.png)
 
 Klicken Sie auf "Kennungen erstellen" und dann auf "API-Schlüssel"" :
 
-![gsh](./images/gsh26.png)
+![gsh](../images/gsh26.png)
 
 Kopieren Sie den generierten API-Schlüssel und fügen Sie ihn auf der Verwaltungsseite des Google Smarthome-Plugins in „Homegraph API Google“ ein"
 
@@ -211,11 +211,11 @@ Der letzte Schritt, um Jeedom die Projekt-ID zum Verwalten der Verbindung zu geb
 
 Das war’s, Sie können nun links auf „Aktion“ klicken" :
 
-![gsh](./images/gsh27.png)
+![gsh](../images/gsh27.png)
 
 Dann auf Test :
 
-![gsh](./images/gsh28.png)
+![gsh](../images/gsh28.png)
 
 Dann brauchen Sie auf einem Smartphone **Androide** (darf nicht auf einem iphone funktionieren) verbinde dich mit deinem Jeedom durch **die externe URL** davon. Gehen Sie dann zur Heimanwendung, dann "Konfigurieren oder Hinzufügen", dann "Gerät konfigurieren" und klicken Sie schließlich auf "Funktioniert mit Google" und fügen Sie Ihren oben erstellten Dienst hinzu (er beginnt mit [Test])
 
@@ -240,7 +240,7 @@ Um die Konfiguration vorzunehmen, die Sie benötigen
 
 Gehen Sie auf Ihrem Jeedom zu Plugins -> Kommunikation -> Google Smarthome und wählen Sie im Abschnitt „Geräte“ das Gerät aus, das an Google übertragen werden soll, sowie den Gerätetyp.
 
-![gsh](./images/gsh2.png)
+![gsh](../images/gsh2.png)
 
 > **Wichtig**
 >
@@ -288,7 +288,7 @@ Die Art der Ausrüstung ist wichtig, damit Google auf die von Ihnen gesagten Sä
 
 Sie können im Szenario-Tab auch Szenen mit Ein- und Ausstiegsaktionen erstellen.
 
-![gsh](./images/gsh3.png)
+![gsh](../images/gsh3.png)
 
 > **Notiz**
 >
@@ -342,7 +342,7 @@ Sie müssen die Geräte lediglich den Räumen in der Google Home-App zuweisen
 
 >**Sie haben einen Verbindungsfehler oder können den Parameter nicht aktualisieren. Überprüfen Sie Ihre Verbindung im Cloud-Modus**
 >
->In jeedom ist es im Plugin erforderlich, Geräte hinzuzufügen, die Zuordnung von Jeedom Smarthome in der Google Home-Anwendung zu speichern und zu wiederholen
+>In jeedom ist es im Plugin erforderlich, Geräte hinzuzufügen, die Zuordnung von Jeedom Smarthome in der Google Home-Anwendung zu speichern und zu wiederholen. Attention il y a aussi des soucis avec l'application Google Home ou il faut vider le cache de celle-ci pour la connexion marche
 
 >**Ich erhalte die Fehlermeldung "Anscheinend ist Jeedom Smart Home derzeit nicht verfügbar." oder "Entschuldigung, ich kann keine Verbindung zu Jeedom Smart Home herstellen."**
 >
@@ -355,3 +355,7 @@ Sie müssen die Geräte lediglich den Räumen in der Google Home-App zuweisen
 >**Das Ändern der Drehzahl eines Lüfters funktioniert nicht**
 >
 >Nach der Analyse sendet Google während einer Geschwindigkeitsaktion keinen Auftrag. Wir müssen daher warten, bis Google korrigiert
+
+>****
+>
+>.

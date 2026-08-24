@@ -2,7 +2,7 @@
 
 Das Plugin **Jeedom Link** *(auch Jeelink genannt)* ermöglicht das Hochladen von Geräten von einer oder mehreren „Quell“-Jeedom-Installationen zu einem (oder mehreren) „Ziel“-Jeedom".
 
-![jeelink1](./images/jeelink1.png)
+![jeelink1](../images/jeelink1.png)
 
 Das Plugin muss auf jedem Jeedom installiert werden, egal ob Quelle oder Ziel.
 
@@ -23,7 +23,15 @@ Dieses Plugin erfordert keine spezielle Konfiguration und muss nach der Installa
 
 >**Wichtig**
 >
+>Bitte beachten Sie, dass die Deaktivierung des Plugins dazu führt, dass die Ziel-Jedoms des Plugins gelöscht werden, ohne dass eine Möglichkeit zur Wiederherstellung besteht (außer der Wiederherstellung eines Backups))
+
+>**Wichtig**
+>
 >Die Netzwerkkonfigurationen aller Jeedoms *(Quellenziel)* MUSS in Ordnung sein, sonst funktioniert das Plugin nicht.
+
+>**Wichtig**
+>
+>Sie sollten auf keinen Fall auf mehreren Jeedom-Zielen denselben API-Schlüssel haben. Der Schlüssel eines Geräts basiert auf dem API-Schlüssel (daher sollte er nach der Konfiguration nicht geändert werden) und der Quell-ID des Geräts. Derselbe API-Schlüssel auf dem Ziel-Jeedom führt daher zu Synchronisierungsproblemen mit Geräten, die möglicherweise nicht auf der Quelle angezeigt werden.
 
 ## Target Jeedom-Konfiguration
 
@@ -34,11 +42,11 @@ Gehen Sie dazu in das Menü **Plugins → Kommunikation → Jeedom Link** Klicke
 Es öffnet sich ein Fenster, in dem Sie hinzufügen oder ändern können **Jeedom (s) Ziel (e))**. Hinzufügen eines **Jeedom Ziel**, einfach ausfüllen :
 
 - Der Name von **Jeedom Ziel**.
-- Die IP-Adresse oder der DNS-Name, an den die **Jeedom Ziel** kann erreicht werden.
+- Die IP-Adresse oder der DNS-Name, zu dem die **Jeedom Ziel** kann erreicht werden.
 - Der **API-Schlüssel des Jeedom Link-Plugins** die **Jeedom Ziel**.
 - Der Zugriffsmodus, intern oder extern (verwendet für Feedback von der **Jeedom Source** in Richtung **Jeedom Ziel**).
 
-![jeelink2](./images/jeelink2.png)
+![jeelink2](../images/jeelink2.png)
 
 >**TRICK**
 >
@@ -48,15 +56,15 @@ Es öffnet sich ein Fenster, in dem Sie hinzufügen oder ändern können **Jeedo
 
 Nach der Konfiguration der **Jeedom Ziel** auf der **Jeedom Source**, Sie müssen zur Registerkarte gehen **Zuordnung** um die zu übertragenden Geräte auszuwählen **Jeedom Ziel**. Alle Befehle für jedes Gerät werden automatisch auf dem erstellt und konfiguriert **Jeedom Ziel**.
 
-![jeelink3](./images/jeelink3.png)
+![jeelink3](../images/jeelink3.png)
 
 Fügen Sie die Ausrüstung hinzu, die Sie hochladen möchten **Jeedom Ziel** anklicken **Ausrüstung hinzufügen** Wählen Sie dann das Objekt und die Ausrüstung aus :
 
-![jeelink5](./images/jeelink5.png)
+![jeelink5](../images/jeelink5.png)
 
 >**INFORMATION**
 >
->Plugins, die ein bestimmtes Widget verwenden, finden es nicht auf der **Jeedom Ziel** *(Plugin Kamera, Netzwerke, etc…​)*.
+>Plugins, die ein bestimmtes Widget verwenden, finden es nicht auf der **Jeedom Ziel** *(Plugin-Kamera, Netzwerke usw.)*.
 
 >**Wichtig**
 >
@@ -68,15 +76,15 @@ Es bleibt nur zu **Zu schützen** für die herzustellende Verbindung und das aus
 
 Kommen wir nun zum Menü **Plugins → Kommunikation → Jeedom Link** die **Jeedom Ziel** um die automatische Erstellung der zuvor ausgewählten Ausrüstung zu sehen :
 
-![jeelink4](./images/jeelink4.png)
+![jeelink4](../images/jeelink4.png)
 
 Wie bei jedem Jeedom-Gerät greifen Sie auf die Konfigurationsseite zu, indem Sie darauf klicken :
 
-![jeelink6](./images/jeelink6.png)
+![jeelink6](../images/jeelink6.png)
 
 In der Registerkarte **Befehle**, Sie greifen auf alle Parameter der Gerätesteuerung zu :
 
-![jeelink7](./images/jeelink7.png)
+![jeelink7](../images/jeelink7.png)
 
 >**Wichtig**
 >

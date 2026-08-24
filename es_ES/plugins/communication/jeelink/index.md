@@ -2,7 +2,7 @@
 
 El complemento **Enlace de libertad** *(también llamado jeelink)* permite que el equipo se cargue desde una o más instalaciones de Jeedom de "origen" a uno (o más) Jeedom de "objetivo"".
 
-![jeelink1](./images/jeelink1.png)
+![jeelink1](../images/jeelink1.png)
 
 El complemento debe instalarse en cada Jeedom, ya sea de origen o de destino.
 
@@ -23,7 +23,15 @@ Este complemento no requiere ninguna configuración especial y simplemente debe 
 
 >**Importante**
 >
+>Tenga en cuenta que desactivar el complemento da como resultado la eliminación de los Jeedoms de destino del complemento sin ningún medio para recuperarlos (excepto restaurar una copia de seguridad))
+
+>**Importante**
+>
 >Las configuraciones de red de todos los Jeedoms *(origen Destino)* DEBE estar bien, de lo contrario el complemento no funcionará.
+
+>**Importante**
+>
+>Definitivamente no deberías tener la misma clave API en varios objetivos de Jeedom. La clave de un dispositivo se basa en la clave API (por lo tanto, no debe cambiarse después de la configuración) y la identificación de origen del dispositivo. Por lo tanto, tener la misma clave API en el Jeedom de destino causará problemas de sincronización con el equipo que puede no aparecer en el origen.
 
 ## Configuración de Target Jeedom
 
@@ -34,11 +42,11 @@ Para hacerlo, vaya al menú **Complementos → Comunicación → Jeedom Link** l
 Se abrirá una ventana desde la que podrá añadir o modificar **Jeedom (s) Target (s))**. Para agregar un **Jeedom Target**, solo completa :
 
 - El nombre de **Jeedom Target**.
-- La dirección IP o el nombre DNS al que pertenece el **Jeedom Target** puede ser alcanzado.
+- La dirección IP o el nombre DNS al que **Jeedom Target** puede ser alcanzado.
 - El **Clave API del complemento Jeedom Link** del **Jeedom Target**.
 - El modo de acceso, interno o externo (usado para la retroalimentación del **Fuente de la libertad** hacia **Jeedom Target**).
 
-![jeelink2](./images/jeelink2.png)
+![jeelink2](../images/jeelink2.png)
 
 >**TRUCO**
 >
@@ -48,15 +56,15 @@ Se abrirá una ventana desde la que podrá añadir o modificar **Jeedom (s) Targ
 
 Después de realizar la configuración de la **Jeedom Target** sobre **Fuente de la libertad**, tienes que ir a la pestaña **Cesión** para seleccionar los dispositivos que se transmitirán al **Jeedom Target**. Todos los comandos para cada equipo se crearán y configurarán automáticamente en el **Jeedom Target**.
 
-![jeelink3](./images/jeelink3.png)
+![jeelink3](../images/jeelink3.png)
 
 Añade el equipo que quieras subir a la **Jeedom Target** haciendo clic en **Agregar equipo** luego seleccione el objeto y el equipo :
 
-![jeelink5](./images/jeelink5.png)
+![jeelink5](../images/jeelink5.png)
 
 >**INFORMACIÓN**
 >
->Los complementos que usan un widget específico no lo encontrarán en el **Jeedom Target** *(Complemento Cámara, Redes, etc…​)*.
+>Los complementos que usan un widget específico no lo encontrarán en el **Jeedom Target** *(Complemento de cámara, redes, etc.)*.
 
 >**Importante**
 >
@@ -68,15 +76,15 @@ Solo queda por **Para salvaguardar** para que se realice el enlace y se transmit
 
 Ahora vayamos al menú **Complementos → Comunicación → Jeedom Link** del **Jeedom Target** para ver la creación automática del equipo previamente seleccionado :
 
-![jeelink4](./images/jeelink4.png)
+![jeelink4](../images/jeelink4.png)
 
 Como cualquier equipo Jeedom, accedes a su página de configuración haciendo clic en él :
 
-![jeelink6](./images/jeelink6.png)
+![jeelink6](../images/jeelink6.png)
 
 En la pestaña **Comandos**, accede a todos los parámetros de los controles del equipo :
 
-![jeelink7](./images/jeelink7.png)
+![jeelink7](../images/jeelink7.png)
 
 >**Importante**
 >

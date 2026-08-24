@@ -2,7 +2,7 @@
 
 The plugin **Jeedom Link** *(also called Jeelink)* allows equipment to be uploaded from one or more "source" Jeedom installations to one (or more) "target" Jeedom".
 
-![jeelink1](./images/jeelink1.png)
+![jeelink1](../images/jeelink1.png)
 
 The plugin must be installed on each Jeedom, whether source or target.
 
@@ -23,7 +23,15 @@ This plugin does not require any special configuration and simply needs to be ac
 
 >**Important**
 >
+>Please note, deactivating the plugin results in the deletion of the target Jeedoms of the plugin without any means of recovering them (except restoring a backup)
+
+>**Important**
+>
 >The network configurations of all Jeedoms *(source & target)* MUST be OK otherwise the plugin will not work.
+
+>**Important**
+>
+>You should definitely not have the same API key on several Jeedom targets. The key of a device is based on the API key (therefore it should not be changed after configuration) and the source id of the device. Having the same API key on the target Jeedom will therefore cause synchronization problems with equipment that may not appear on the source.
 
 ## Target Jeedom configuration
 
@@ -38,7 +46,7 @@ A window will open from which you can add or modify **Jeedom (s) Target (s))**. 
 - The **Jeedom Link plugin API key** from **Jeedom Target**.
 - The access mode, internal or external (used for feedback from the **Jeedom Source** to the **Jeedom Target**).
 
-![jeelink2](./images/jeelink2.png)
+![jeelink2](../images/jeelink2.png)
 
 >**TRICK**
 >
@@ -48,15 +56,15 @@ A window will open from which you can add or modify **Jeedom (s) Target (s))**. 
 
 After performing the configuration of the **Jeedom Target** on the **Jeedom Source**, you have to go to the tab **Assignment** to select the devices to be transmitted to the **Jeedom Target**. All commands for each piece of equipment will be automatically created and configured on the **Jeedom Target**.
 
-![jeelink3](./images/jeelink3.png)
+![jeelink3](../images/jeelink3.png)
 
 Add the equipment you want to upload to the **Jeedom Target** clicking on **Add equipment** then select the object and the equipment :
 
-![jeelink5](./images/jeelink5.png)
+![jeelink5](../images/jeelink5.png)
 
 >**INFORMATION**
 >
->Plugins using a specific widget will not find it on the **Jeedom Target** *(Plugin Camera, Networks, etc…​)*.
+>Plugins using a specific widget will not find it on the **Jeedom Target** *(Plugin Camera, Networks, etc.)*.
 
 >**Important**
 >
@@ -68,15 +76,15 @@ It only remains to **To safeguard** for the link to be made and the selected equ
 
 Now let's head to the menu **Plugins → Communication → Jeedom Link** from **Jeedom Target** to see the automatic creation of the previously selected equipment :
 
-![jeelink4](./images/jeelink4.png)
+![jeelink4](../images/jeelink4.png)
 
 Like any Jeedom equipment, you access its configuration page by clicking on it :
 
-![jeelink6](./images/jeelink6.png)
+![jeelink6](../images/jeelink6.png)
 
 In the tab **Commands**, you access all the parameters of the equipment controls :
 
-![jeelink7](./images/jeelink7.png)
+![jeelink7](../images/jeelink7.png)
 
 >**Important**
 >
