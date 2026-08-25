@@ -36,7 +36,7 @@ The plugin ****  **)**.
 - .  
 - .).  
 
-!alt text](./images/image_dependance.png)
+!alt text](../images/image_dependance.png)
 ---
 
 ## The plugin
@@ -46,7 +46,7 @@ The plugin ****  **)**.
 
  :
 
-!alt text](./images/image.png)
+!alt text](../images/image.png)
 - **** : .  
 - **** : .  
 - **** : . *(.)*
@@ -55,7 +55,7 @@ The plugin ****  **)**.
 
  :
 
-!alt text](./images/accueil_config_equip.png)
+!alt text](../images/accueil_config_equip.png)
 
 - .  
 - .  
@@ -70,7 +70,7 @@ The plugin ****  **)**.
  :
 
 -   )
-!alt text](./images/equiplorawanconfig.png)
+!alt text](../images/equiplorawanconfig.png)
 .  
 
 ### 
@@ -90,10 +90,10 @@ The plugin ****  **)**.
 **** :  **** .
    
 -   An Orders tab (this is where you will find the controls corresponding to your equipment - this tab is standard at Jeedom)
-!alt text](./images/equipcommconfig.png)
+!alt text](../images/equipcommconfig.png)
 
 ## Adding equipment
-!alt text](./images/image-1.png)
+!alt text](../images/image-1.png)
 .
 
 .
@@ -101,7 +101,7 @@ The plugin ****  **)**.
 It is important on the right side to choose the type of equipment. This is what will allow us to know how to parse the frame.
 
  :
-!alt text](./images/equiplorawanconfig.png)
+!alt text](../images/equiplorawanconfig.png)
 -    )
 -   .
 -   .
@@ -407,7 +407,7 @@ json
   -  **** .
 
 - .
-!alt text](./images/image-3.png)
+!alt text](../images/image-3.png)
 
 ---
 ### 
@@ -492,7 +492,7 @@ json
 
 2. ****
 
-!alt text](./images/image-11.png)
+!alt text](../images/image-11.png)
 
  :
 - ),
@@ -525,10 +525,10 @@ json
 
 4. ****
 
-!alt text](./images/image-13.png)
+!alt text](../images/image-13.png)
 .
 .
-!alt text](./images/image-12.png)
+!alt text](../images/image-12.png)
 .
 .
 
@@ -537,7 +537,7 @@ json
 ## 
 -  ****  ****, .  
 - .  
-!alt text](./images/rak1.png)
+!alt text](../images/rak1.png)
 ---
 
 ## 
@@ -550,7 +550,7 @@ json
 ## 
 -  ****.  
 -  ****  (**.**).  
- !alt text](./images/rak2.png)
+ !alt text](../images/rak2.png)
  **** : .  
 
 ---
@@ -570,12 +570,12 @@ json
  **** :  
 
 ..
-!alt text](./images/rak3.png)
+!alt text](../images/rak3.png)
 
 .
 
 ## 
-!alt text](./images/rak4.png)
+!alt text](../images/rak4.png)
 
 # FAQ
 

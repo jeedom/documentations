@@ -36,7 +36,7 @@ Dans la page de configuration du plugin, vous pouvez :
 - Vérifier l’état des dépendances et les relancer en cas de doute.  
 - Accéder aux paramètres généraux (connexion MQTT, cache, etc.).  
 
-![alt text](./images/image_dependance.png)
+![alt text](../images/image_dependance.png)
 ---
 
 ## Le plugin
@@ -46,7 +46,7 @@ Sur cette page, vous pourrez voir la liste de vos équipements LoRaWAN déjà co
 
 En haut de la page se trouvent plusieurs boutons :
 
-![alt text](./images/image.png)
+![alt text](../images/image.png)
 - **Ajouter** : crée un nouvel équipement manuellement.  
 - **Configuration** : ouvre les paramètres du plugin.  
 - **Génération automatique** : crée un nouvel équipement à partir d’un DevEUI et d’un profil. *(Recommandé pour un ajout simple et rapide dans chirpstack et Jeedom.)*
@@ -55,7 +55,7 @@ En haut de la page se trouvent plusieurs boutons :
 
 En cliquant sur un module, vous accédez à sa page de configuration :
 
-![alt text](./images/accueil_config_equip.png)
+![alt text](../images/accueil_config_equip.png)
 
 - Nom de l’équipement.  
 - Activer / rendre visible.  
@@ -70,7 +70,7 @@ Sur la partie droite :
 Deux onglets supplémentaires :
 
 -   Un onglet LoRaWAN (décrit dans le prochain paragraphe)
-![alt text](./images/equiplorawanconfig.png)
+![alt text](../images/equiplorawanconfig.png)
 Dans cet onglet, vous configurez la liaison entre Jeedom et ChirpStack.  
 
 ### Changer l’application ChirpStack d’un équipement
@@ -90,10 +90,10 @@ Procédez comme suit :
 **NB** : Vous devrez effectuer à nouveau un **join** du capteur, car le changement d’application réinitialise son enregistrement côté ChirpStack.
    
 -   Un onglet Commandes (c'est ici que vous trouverez les commandes correspondantes à votre équipement - cet onglet est standard à Jeedom)
-![alt text](./images/equipcommconfig.png)
+![alt text](../images/equipcommconfig.png)
 
 ## Ajout d'un équipement
-![alt text](./images/image-1.png)
+![alt text](../images/image-1.png)
 Il suffit de cliquer sur le bouton `Génération automatique` et de choisir un nom.
 Ensuite vous pouvez configurer l'objet Parent, renseigner le Dev EUI l'app Key, l'application pour chirpstack
 Pour configurer, activer l'équipement, choisir une ou des catégories, et rendre l'équipement visible ou non.
@@ -101,7 +101,7 @@ Pour configurer, activer l'équipement, choisir une ou des catégories, et rendr
 Il est important sur la partie droite de choisir le type de l'équipement. C'est ce qui permettra de savoir comment parser la trame.
 
 L'onglet LoRaWAN est très important :
-![alt text](./images/equiplorawanconfig.png)
+![alt text](../images/equiplorawanconfig.png)
 -   Vous devez choisir la commande info qui reçoit le payload que ce soit MQTT ou autres ( important si vous avez utilisé le bouton `Ajouter` sinon avec `Génération automatique` tout est généré automatiquement )
 -   Vous pouvez choisir si le format du payload est en Hexadécimal ou Base64.
 -   Avec Euqueue downlink payload, vous pouvez envoyer des downlinks manuellement.
@@ -407,7 +407,7 @@ Supposons, dans la documentation Milesight, tu trouves ce tableau :
   - La liste **complète des capteurs connectées** au serveur LNS leurs statuts en temps réel.
 
 - Pour l'afficher, il faut se rendre dans la configuration du plugin Lorapayload, elle se trouve en bas a droite.
-![alt text](./images/image-3.png)
+![alt text](../images/image-3.png)
 
 ---
 ### Visualisation dans Jeedom
@@ -492,7 +492,7 @@ Le démon (`lorapayloadd.php`) tourne en continu et lit la clé de cache `queueD
 
 2. **Panneau d'administration**
 
-![alt text](./images/image-11.png)
+![alt text](../images/image-11.png)
 
 Dans l’interface Jeedom, onglet Acceuil → lorapayload → Cache queueDownlink :
 - Liste des downlinks en attente (`EqLogic ID`, `priorité`, `DevEUI`, `ts`, `Downlink (JSON)`, `actions`),
@@ -525,10 +525,10 @@ tailleQueue définit le nombre maximal d’entrées. Au-delà, les plus ancienne
 
 4. **Configuration**
 Configurer les équipements prioritaires en allant dans les configuration de l'équipement puis dans `LoRaWAN > Downlink`
-![alt text](./images/image-13.png)
+![alt text](../images/image-13.png)
 Si votre équipement est prioritaire, cochez sur le check point `Prioritaire` puis enregistrez.
 Ensuite rendez-vous dans les configurations du plugin Lorapayload et dans le champs configuration, ajustez les paramètres globaux en fonction de votre application.
-![alt text](./images/image-12.png)
+![alt text](../images/image-12.png)
 Redémarrer le démon s'il est arrêté ou en statut NOK.
 Suivre et gérer l'état de la file dans l'onglet Cache queueDownlink.
 
@@ -537,7 +537,7 @@ Suivre et gérer l'état de la file dans l'onglet Cache queueDownlink.
 ## 1. Intégration de l’équipement
 - Une fois le testeur **RAK10701** ajouté sur le plugin **LoRaPayload**, la génération des décodages et encodages se fait automatiquement.  
 - Aucun paramétrage supplémentaire n’est nécessaire côté utilisateur.  
-![alt text](./images/rak1.png)
+![alt text](../images/rak1.png)
 ---
 
 ## 2. Mise sous tension et join
@@ -550,7 +550,7 @@ Suivre et gérer l'état de la file dans l'onglet Cache queueDownlink.
 ## 3. Collecte des données GPS
 - Une fois le join réussi, cliquez **2 fois sur le bouton Power**.  
 - Le **RAK10701** enverra alors les données collectées (**RSSI, SNR, passerelle, GPS, etc.**).  
- ![alt text](./images/rak2.png)
+ ![alt text](../images/rak2.png)
 ⚠️ **Important** : placez-vous dans un endroit dégagé afin de permettre la capture correcte des coordonnées GPS.  
 
 ---
@@ -570,12 +570,12 @@ Suivre et gérer l'état de la file dans l'onglet Cache queueDownlink.
  **Chemin d’accès** :  `html/plugins/lorapayload/resources/lorapayload/payloads`
 
 → fichiers rak10701.csv et rak10701_history.json.
-![alt text](./images/rak3.png)
+![alt text](../images/rak3.png)
 
 Si la permission d’écriture n’est pas accordée rétablissez les droits des dossiers et fichier dans le champ OS/DB dans configuration.
 
 ## 6. Téléchargez le fichier et traitez les données
-![alt text](./images/rak4.png)
+![alt text](../images/rak4.png)
 _________
 # FAQ
 

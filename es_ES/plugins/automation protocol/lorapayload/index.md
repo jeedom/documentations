@@ -36,7 +36,7 @@ El complemento ****  **)**.
 - .  
 - .).  
 
-!alt text](./images/image_dependance.png)
+!alt text](../images/image_dependance.png)
 ---
 
 ## El complemento
@@ -46,7 +46,7 @@ El complemento ****  **)**.
 
  :
 
-!alt text](./images/image.png)
+!alt text](../images/image.png)
 - **** : .  
 - **** : .  
 - **** : . *(.)*
@@ -55,7 +55,7 @@ El complemento ****  **)**.
 
  :
 
-!alt text](./images/accueil_config_equip.png)
+!alt text](../images/accueil_config_equip.png)
 
 - .  
 - .  
@@ -70,7 +70,7 @@ El complemento ****  **)**.
  :
 
 -   )
-!alt text](./images/equiplorawanconfig.png)
+!alt text](../images/equiplorawanconfig.png)
 .  
 
 ### 
@@ -90,10 +90,10 @@ El complemento ****  **)**.
 **** :  **** .
    
 -   Una pestaña de Órdenes (aquí es donde encontrará los controles correspondientes a su equipo; esta pestaña es estándar en Jeedom)
-!alt text](./images/equipcommconfig.png)
+!alt text](../images/equipcommconfig.png)
 
 ## Agregar equipo
-!alt text](./images/image-1.png)
+!alt text](../images/image-1.png)
 .
 
 .
@@ -101,7 +101,7 @@ El complemento ****  **)**.
 Es importante en el lado derecho elegir el tipo de equipo. Esto es lo que permitirá saber cómo analizar el marco.
 
  :
-!alt text](./images/equiplorawanconfig.png)
+!alt text](../images/equiplorawanconfig.png)
 -    )
 -   .
 -   .
@@ -407,7 +407,7 @@ json
   -  **** .
 
 - .
-!alt text](./images/image-3.png)
+!alt text](../images/image-3.png)
 
 ---
 ### 
@@ -492,7 +492,7 @@ json
 
 2. ****
 
-!alt text](./images/image-11.png)
+!alt text](../images/image-11.png)
 
  :
 - ),
@@ -525,10 +525,10 @@ json
 
 4. ****
 
-!alt text](./images/image-13.png)
+!alt text](../images/image-13.png)
 .
 .
-!alt text](./images/image-12.png)
+!alt text](../images/image-12.png)
 .
 .
 
@@ -537,7 +537,7 @@ json
 ## 
 -  ****  ****, .  
 - .  
-!alt text](./images/rak1.png)
+!alt text](../images/rak1.png)
 ---
 
 ## 
@@ -550,7 +550,7 @@ json
 ## 
 -  ****.  
 -  ****  (**.**).  
- !alt text](./images/rak2.png)
+ !alt text](../images/rak2.png)
  **** : .  
 
 ---
@@ -570,12 +570,12 @@ json
  **** :  
 
 ..
-!alt text](./images/rak3.png)
+!alt text](../images/rak3.png)
 
 .
 
 ## 
-!alt text](./images/rak4.png)
+!alt text](../images/rak4.png)
 
 # FAQ
 
