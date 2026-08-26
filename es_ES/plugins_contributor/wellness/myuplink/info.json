@@ -1,7 +1,7 @@
 {
 	"id": "myuplink",
 	"name": "MyUplink API",
-	"pluginVersion": "1.32.0",
+	"pluginVersion": "1.32.1",
 	"description": {
 		"fr_FR": "Ce plugin permet de récupérer les informations des pompes à chaleur NiBe depuis le site https://myUplink.com. Ce plugin ne fonctionne pas avec l'ancienne API http://www.nibeuplink.com.",
 		"en_US": "This plugin allows you to retrieve NiBe heat pump information from https://myUplink.com. This plugin does not work with the old API http://www.nibeuplink.com.",
