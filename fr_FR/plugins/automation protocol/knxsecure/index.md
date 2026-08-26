@@ -334,7 +334,7 @@ Principaux DPT et leur interprétation dans Jeedom :
 | **20.102** | Mode HVAC (Confort, Éco…) | — | select |
 | **232.600 / 251.600** | Couleur RGB / RGBW | — | couleur |
 
-> Liste non exhaustive : le sélecteur de DPT du plugin couvre les DPT 1 à 251. Pour un DPT non listé, choisissez la famille (numéro principal) qui correspond à la taille de la donnée.
+> Liste non exhaustive : le sélecteur de DPT du plugin couvre les DPT 1 à 31 (types de base), les DPT couleur (232, 242-243, 249-254), et quelques DPT techniques (217 Version, 219 AlarmInfo, 229 MeteringValue, 230.1000 MBus_Address, 240-241 volets/stores, 246 Battery_Info, 273-274 prévisions météo). Pour un DPT non listé, choisissez la famille (numéro principal) qui correspond à la taille de la donnée.
 
 ### Diagnostiquer un DPT avec le Bus Monitor
 
@@ -427,7 +427,7 @@ Pour que Jeedom connaisse l'état réel du bus :
 
 L'onglet **Daemon** regroupe les réglages internes du processus Python et un outil de diagnostic de la connexion. Il se divise en deux blocs : **Paramètres internes** et **Diagnostic**.
 
-![Onglet Daemon : paramètres internes et bloc Diagnostic](../images/onglet-daemon.png)
+![Onglet Daemon : bloc Paramètres internes, avec la vérification d'exécution des commandes](../images/onglet-daemon.png)
 
 ### Paramètres internes
 
@@ -436,10 +436,33 @@ L'onglet **Daemon** regroupe les réglages internes du processus Python et un ou
 - **Limite débit** (télégrammes/s, `0` = illimité) — plafonne le nombre de télégrammes que le daemon peut envoyer sur le bus par seconde. Utile pour éviter de saturer une installation KNX ancienne ou avec beaucoup de participants lors d'actions groupées (scénario qui pilote de nombreux équipements d'un coup, par exemple).
 - **Rafraîchissement périodique des états** (case à cocher, désactivée par défaut) — active le polling automatique de xknx, qui relit périodiquement l'état de toutes les commandes. **Déconseillé** si le bus est chargé ou compte beaucoup d'équipements : préférez le **FlagInit** et la **lecture cyclique** par commande (voir *Lecture des états* plus bas), plus ciblés.
 - **Cache d'états au démarrage** (secondes, `0` = toujours relire le bus) — si supérieur à `0` : au démarrage du daemon, les adresses dont l'état connu est plus récent que cette durée ne sont **pas re-sollicitées** sur le bus, ce qui évite une rafale de lectures (`GroupValueRead`) sur une grande installation. Dans tous les cas, les valeurs en cache sont réaffichées immédiatement dans Jeedom, sans attendre le bus.
+- **Vérifier l'exécution des commandes** (case à cocher, désactivée par défaut) — voir la section ci-dessous.
+- **Délai de confirmation** (secondes, défaut `3`) — temps laissé à l'équipement pour se manifester avant de conclure à un échec.
+
+### Vérifier l'exécution des commandes
+
+Jusqu'ici, le plugin **ne confirmait pas** l'exécution d'une commande : quand vous envoyez « Allumer », le télégramme part sur le bus et l'affaire s'arrête là. Si l'actionneur est hors tension, débranché ou en panne, **rien ne le signale** — le bouton du dashboard change d'état comme si tout allait bien.
+
+Cette option ferme cette zone d'ombre. Après chaque commande, le daemon **surveille l'adresse de groupe d'état** de l'équipement :
+
+1. il écoute d'abord **passivement** pendant le délai configuré — la plupart des actionneurs émettent spontanément leur nouvel état après avoir agi, et dans ce cas **aucun trafic supplémentaire** n'est généré ;
+2. si rien n'arrive, il émet une **lecture explicite** (`GroupValueRead`) en dernier recours ;
+3. toujours aucun signe de vie → un message apparaît dans le centre de messages Jeedom.
+
+![Centre de messages : deux commandes restées sans confirmation, avec leur compteur d'occurrences](../images/messages-action-non-confirmee.png)
+
+Sur cet exemple, deux lampes ne répondent pas sur leur adresse d'état (`0/1/0` et `0/1/1`). La colonne **Occurrences** indique le nombre de fois où le problème s'est reproduit : une même erreur ne crée pas de nouvelle ligne, elle incrémente ce compteur et rafraîchit la date.
+
+**À savoir :**
+
+- Seules les commandes disposant d'une **adresse de groupe d'état** peuvent être vérifiées : c'est le seul retour exploitable, un ordre envoyé sur le bus n'étant pas acquitté par l'équipement. Le plugin la trouve dans cet ordre : GA d'état déclarée sur la commande, puis commande info explicitement liée, puis la commande info dont le DPT et le nom correspondent le mieux. Une commande sans état associé est ignorée, sans erreur.
+- L'alerte arrive **quelques secondes après** l'action, jamais au moment du clic : il faut laisser à l'équipement le temps de répondre.
+- En revanche, un échec de **transmission** (daemon arrêté, passerelle injoignable, tunnel coupé) est signalé **immédiatement à l'écran**, sans cette option — c'est un mécanisme distinct, toujours actif.
+- Augmentez le délai si vos volets mettent longtemps à publier leur position.
 
 ### Diagnostic
 
-Le bouton **Tester la connexion KNX** interroge le daemon en direct et affiche un badge de résultat à côté (visible sur la capture ci-dessus) :
+Le bouton **Tester la connexion KNX** interroge le daemon en direct et affiche un badge de résultat à côté :
 
 - **badge vert** — ex. *« Passerelle KNX connectée (10.3.6.13) »* : le daemon est bien connecté au bus via cette passerelle ;
 - **badge rouge** — la passerelle est injoignable ou la connexion a échoué, avec le message d'erreur renvoyé par le daemon.
@@ -478,11 +501,25 @@ Les messages ci-dessous sont ceux affichés par le plugin (fenêtre de test, pag
 | *SessionResponse MAC verification failed* (logs) | Le keyring ne correspond pas à la passerelle (device auth / mot de passe) | Ré-exporter le `.knxkeys` depuis ETS pour **cette** installation ; vérifier le mot de passe d'export |
 | *Fichier .knxkeys introuvable* / *invalide (XML mal formé)* | Fichier absent ou corrompu | Ré-importer le fichier ; vérifier qu'il provient bien d'un export ETS |
 
+**Commandes qui n'aboutissent pas**
+
+| Message | Cause | Solution |
+|---|---|---|
+| *… : action non exécutée — Le daemon KNX n'est pas démarré* | Le télégramme n'a pas pu être transmis : le daemon est arrêté | Démarrer le daemon (page de configuration du plugin) |
+| *… : action non exécutée — Non connecté au bus KNX* | Le daemon tourne mais n'a pas de lien avec la passerelle | Voir *Connexion à la passerelle* ci-dessus |
+| *Commande non transmise au bus : … — bus KNX injoignable* | La commande a été abandonnée après plusieurs tentatives, la passerelle ne répondant pas | Vérifier la passerelle et le réseau ; la commande n'a pas été rejouée, il faut la relancer |
+| *Action non confirmée : … — l'équipement n'a pas répondu sur …* | Le télégramme est bien parti, mais l'équipement n'a donné aucun signe de vie (option *Vérifier l'exécution des commandes*) | Actionneur hors tension, débranché ou en panne ; vérifier aussi que la **GA d'état** est la bonne, et augmenter le **délai de confirmation** si l'équipement est lent |
+
+Les deux premiers messages s'affichent **immédiatement à l'écran** au moment du clic : ils signalent un échec de *transmission*. Les deux derniers arrivent dans le **centre de messages** quelques secondes plus tard : le télégramme est parti, c'est la suite qui a manqué.
+
+> **Note** — une erreur qui se répète **ne crée pas une nouvelle ligne** dans le centre de messages : elle incrémente le compteur **Occurrences** de la ligne existante (voir *Vérifier l'exécution des commandes*). Un compteur qui grimpe signale un problème qui persiste.
+
 **États qui ne remontent pas**
 
 | Symptôme | Cause probable | Solution |
 |---|---|---|
 | L'état ne se met jamais à jour | La commande **info** ne porte pas la bonne **GA d'état** (`ga_state`) | Vérifier la GA d'état dans la fiche ; l'observer dans le Bus Monitor |
+| L'état affiche « allumé » alors que l'équipement n'a rien fait | Le plugin recopie la valeur envoyée dans la commande d'état tant qu'aucun retour réel n'arrive | Vérifier dans le Bus Monitor qu'un télégramme existe bien sur la GA d'état ; activer *Vérifier l'exécution des commandes* pour être alerté |
 | L'état est vide au démarrage mais se met à jour après une action | `FlagInit` inactif | Activer **Initialiser** sur la commande info |
 | L'équipement n'émet jamais spontanément | Appareil qui ne diffuse pas son état | Activer la **lecture cyclique** (intervalle ≥ 10 s) sur la commande info |
 | *Connectée au bus KNX* absent en page Santé | Pas de heartbeat récent (> 90 s) ou daemon non connecté au bus | Tester la connexion ; laisser la reconnexion automatique opérer |
@@ -524,6 +561,9 @@ En **tunneling**, chacun consomme un slot (attention à la limite). En **Routing
 
 **L'état d'un équipement ne remonte pas.**
 Dans l'ordre : la commande **info** porte-t-elle la bonne **GA d'état** ? Le flag **Initialiser** est-il actif ? L'appareil émet-il spontanément (sinon → **lecture cyclique**) ? Vérifiez le tout dans le **Bus Monitor**.
+
+**Comment savoir si une commande a réellement été exécutée ?**
+Par défaut, le plugin **ne le confirme pas** : le télégramme est déposé sur le bus, sans que personne n'accuse réception. Un actionneur hors tension ou en panne passe donc inaperçu — et le widget continue d'afficher le nouvel état, car le plugin y recopie la valeur envoyée. Activez **Vérifier l'exécution des commandes** (onglet Daemon) pour être averti quand l'équipement ne se manifeste pas. À distinguer d'un échec de *transmission* (daemon arrêté, passerelle injoignable), lui signalé **immédiatement à l'écran** au moment du clic, sans aucune option à activer.
 
 **Une valeur s'affiche mal (nombre bizarre, mauvaise unité).**
 C'est un problème de **DPT** : il doit correspondre à celui de la GA dans ETS. Voir *Référence des DPT* et la méthode de diagnostic au Bus Monitor.

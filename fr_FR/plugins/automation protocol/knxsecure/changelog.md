@@ -1,14 +1,29 @@
 # Changelog plugin knxSecure
 
->**IMPORTANT**
+> **IMPORTANT**
 >
->S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
+> S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
+
+# 26/08/2026 
+
+- **Passage de xknx 3.19.0 --> 3.20.0**
+- **Une action qui échoue est désormais signalée à l'écran** : jusqu'ici, appuyer sur un bouton du dashboard alors que le daemon était arrêté ou la passerelle injoignable affichait un succès silencieux — la commande était envoyée « à l'aveugle », sans jamais vérifier qu'elle était partie. Jeedom attend maintenant la confirmation d'envoi du daemon et affiche une erreur explicite (« Lampe1 – On : action non exécutée — Non connecté au bus KNX »). Le délai d'attente est court (3 s) pour ne pas figer l'interface, et le cas nominal reste imperceptible (~160 ms mesurées)
+- **Nouveau — vérification de l'exécution des commandes** (option, onglet Daemon, désactivée par défaut) : jusqu'ici le plugin ne confirmait pas qu'une commande avait été exécutée — elle partait sur le bus, et si l'actionneur était hors tension ou en panne, **rien ne le signalait**. Avec cette option, le daemon surveille l'adresse de groupe d'état après chaque commande — d'abord en écoutant passivement (aucun trafic ajouté quand l'équipement publie son état de lui-même), puis par une lecture explicite en dernier recours. Sans réponse, un message signale que l'action n'a pas été exécutée. Un délai configurable permet de s'adapter aux équipements lents
+
+# 12/08/2026 
+
+- **Passage de xknx 3.16.0 --> 3.19.0 et de xknxproject 3.8.2 --> 3.10.0**
+- **Fix xknx — transmission KNX Data Secure** : les trames dont le payload dépasse 15 octets (fréquent avec Data Secure, qui ajoute 12 octets de MAC) sont désormais correctement sérialisées en `L_Data_Extended`. Corrige un échec d'émission sur certaines commandes chiffrées à payload un peu long
+- **Fix xknx — synchronisation Data Secure** : correction de l'encodage du champ S-A-Service dans `S_A_SYNC_REQ`, utilisé lors de la procédure de synchronisation de sécurité entre appareils
+- **Nouveaux DPT couleur** : support des DPT de contrôle/transition couleur ajoutés par xknx 3.17-3.19 — 243.600 (xyY avec fondu), 249.600 (température de couleur avec fondu), 250.600 (contrôle relatif température de couleur), 252.600 (contrôle relatif RGBW), 253.600 (contrôle relatif xyY), 254.600 (contrôle relatif RGB) : décodage + sélecteur
+- **Nouveaux DPT divers** : 217.001 (Version), 219.001 (AlarmInfo), 229.001 (MeteringValue), 230.1000 (MBus_Address), 240.800 (position combinée volet/lamelles), 241.800 (statut actionneur volet/store), 246.600 (état de batterie), 273.00x et 274.001 (prévisions météo) : décodage + sélecteur
 
 # 10/08/2026
 
 - **Mise à jour du logo de jeedom**
 
 # 16/07/2026
+
 - **Le plugin requiert désormais xknx 3.x (Python ≥ 3.10)** : sur un système au Python trop ancien (ex. Debian 11), Python 3.11 est compilé automatiquement via pyenv (Python natif sur Debian 12). Corrige l'échec d'installation des dépendances sous Python 3.9
 - **Fix — reconnexion automatique sous xknx 3.x** : le callback d'état de connexion n'était jamais exécuté sous xknx 3.x (warning `coroutine ... never awaited`) → la reconnexion ne partait pas. Corrigé
 - **Fix — double moteur de reconnexion** : la reconnexion interne de xknx est désactivée, la reconnexion est pilotée uniquement par le daemon
