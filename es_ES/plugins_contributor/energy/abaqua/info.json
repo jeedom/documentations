@@ -2,7 +2,7 @@
     "id": "abaqua",
     "name": "Abaqua",
     "description": "Récupération automatique de la consommation d'eau quotidienne depuis votre espace client (Kyrnolia, Veolia) avec intégration précise dans l'historique Jeedom.",
-    "version": "2.1.1",
+    "version": "2.2.2",
     "licence": "AGPL",
     "author": "eljano",
     "require": "4.4",
