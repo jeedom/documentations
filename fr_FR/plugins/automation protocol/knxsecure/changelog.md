@@ -6,6 +6,7 @@
 
 # 26/08/2026 
 
+- **Fix — arrêt du démon impossible sur certaines installations** : erreur `Undefined constant "SIGTERM"` (extension PHP `pcntl` absente). 
 - **Passage de xknx 3.19.0 --> 3.20.0**
 - **Une action qui échoue est désormais signalée à l'écran** : jusqu'ici, appuyer sur un bouton du dashboard alors que le daemon était arrêté ou la passerelle injoignable affichait un succès silencieux — la commande était envoyée « à l'aveugle », sans jamais vérifier qu'elle était partie. Jeedom attend maintenant la confirmation d'envoi du daemon et affiche une erreur explicite (« Lampe1 – On : action non exécutée — Non connecté au bus KNX »). Le délai d'attente est court (3 s) pour ne pas figer l'interface, et le cas nominal reste imperceptible (~160 ms mesurées)
 - **Nouveau — vérification de l'exécution des commandes** (option, onglet Daemon, désactivée par défaut) : jusqu'ici le plugin ne confirmait pas qu'une commande avait été exécutée — elle partait sur le bus, et si l'actionneur était hors tension ou en panne, **rien ne le signalait**. Avec cette option, le daemon surveille l'adresse de groupe d'état après chaque commande — d'abord en écoutant passivement (aucun trafic ajouté quand l'équipement publie son état de lui-même), puis par une lecture explicite en dernier recours. Sans réponse, un message signale que l'action n'a pas été exécutée. Un délai configurable permet de s'adapter aux équipements lents
