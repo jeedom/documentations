@@ -5,13 +5,13 @@
     "author": "Limad44",
     "require": "4.0",
     "description": {
-        "fr_FR": "Plugin pour gérer les équipements Netatmo Sécurité et particulièrement les cameras. Sans emails intempestifs, Le plugin permet l’acquisition du live(snapshot ou vidéo) soit directement ou via le plugin Caméra sans changer les paramètres de sécurité de votre box. <br> Connexion via API et/ou en local (si possible)",
-        "en_US": "Plugin to manage Netatmo Security equipments and particularly cameras. Without unwanted emails, the plugin allows the acquisition of live (snapshot or video) either directly or throuth the Camera plugin without changing the security settings of your box. <br> Connection via API and/or locally (if possible)",
-        "es_ES": "Plugin para gestionar equipos de Netatmo Security y en particular cámaras. Sin correos electrónicos no deseados, el complemento permite la adquisición de videos en vivo (instantáneas o videos) directamente o a través del complemento de la cámara sin cambiar la configuración de seguridad de su caja. <br> Conexión vía API y/o localmente (si es posible)"
+        "fr_FR": "Plugin pour gérer les équipements Netatmo Sécurité et particulièrement les cameras, ainsi que certains équipements BTicino / Legrand partageant le même compte Netatmo (interphones Classe, serrures connectées, sirène). Sans emails intempestifs, Le plugin permet l’acquisition du live(snapshot ou vidéo) soit directement ou via le plugin Caméra sans changer les paramètres de sécurité de votre box. Les événements peuvent être actualisés en temps réel via un démon dédié, en complément du webhook Netatmo et du scan périodique. <br> Connexion via API et/ou en local (si possible)",
+        "en_US": "Plugin to manage Netatmo Security equipments and particularly cameras, as well as some BTicino / Legrand devices sharing the same Netatmo account (Classe video door entry units, connected locks, siren). Without unwanted emails, the plugin allows the acquisition of live (snapshot or video) either directly or throuth the Camera plugin without changing the security settings of your box. Events can be refreshed in real time via a dedicated daemon, in addition to the Netatmo webhook and periodic polling. <br> Connection via API and/or locally (if possible)",
+        "es_ES": "Plugin para gestionar equipos de Netatmo Security y en particular cámaras, así como algunos equipos BTicino / Legrand que comparten la misma cuenta Netatmo (videoporteros Classe, cerraduras conectadas, sirena). Sin correos electrónicos no deseados, el complemento permite la adquisición de videos en vivo (instantáneas o videos) directamente o a través del complemento de la cámara sin cambiar la configuración de seguridad de su caja. Los eventos pueden actualizarse en tiempo real mediante un demonio dedicado, además del webhook de Netatmo y el sondeo periódico. <br> Conexión vía API y/o localmente (si es posible)"
     },
     "utilization": "Il faut disposer d'un compte Netatmo et d'un client_Id/client_Secret crées sur >dev.natatmo.com<. Pour bénéficier des retours webhooks, il est nécessaire d'avoir un accées externe sur le port 80, 443, 88 ou 9443",
     "category": "security",
-    "hasDependency": false,
+    "hasDependency": true,
     "hasOwnDeamon": false,
     "display": "panel",
     "changelog": "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/#language#/changelog",
