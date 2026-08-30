@@ -25,8 +25,8 @@
 	},
 	"documentation": "https://jealg.github.io/documentation/plugin-freebox_os/#language#/",
 	"changelog": "https://jealg.github.io/documentation/plugin-freebox_os/#language#/changelog",
-	"changelog_beta": "https://jealg.github.io/documentation/plugin-freebox_os/#language#/beta_changelog",
-	"documentation_beta": "https://jealg.github.io/documentation/plugin-freebox_os/#language#/doc_beta",
+	"changelog_beta": "https://jealg.github.io/documentation/plugin-freebox_os/beta/#language#/changelog",
+	"documentation_beta": "https://jealg.github.io/documentation/plugin-freebox_os/beta/#language#/doc",
 	"language": [
 		"de_DE",
 		"en_US",

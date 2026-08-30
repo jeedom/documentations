@@ -30,7 +30,7 @@
 	],
 	"changelog": "https://jealg.github.io/documentation/plugin-tendance_baro/#language#/changelog",
 	"documentation": "https://jealg.github.io/documentation/plugin-tendance_baro/#language#/",
-	"changelog_beta": "https://jealg.github.io/documentation/plugin-tendance_baro/#language#/beta_changelog",
+	"changelog_beta": "https://jealg.github.io/documentation/plugin-tendance_baro/beta/#language#/changelog",
 	"documentation_beta": "https://jealg.github.io/documentation/plugin-tendance_baro/#language#/",
 	"link": {
 		"forum": "https://community.jeedom.com/tag/plugin-baro"
