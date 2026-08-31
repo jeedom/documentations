@@ -31,7 +31,7 @@
 	],
 	"changelog": "https://jealg.github.io/documentation/plugin-metar_infos/#language#/changelog",
 	"documentation": "https://jealg.github.io/documentation/plugin-metar_infos/#language#/",
-	"changelog_beta": "https://jealg.github.io/documentation/plugin-metar_infos/#language#/beta_changelog",
+	"changelog_beta": "https://jealg.github.io/documentation/plugin-metar_infos/beta/#language#/changelog",
 	"documentation_beta": "https://jealg.github.io/documentation/plugin-metar_infos/#language#/",
 	"link": {
 		"forum": "https://community.jeedom.com/tag/plugin-Metar_info"
