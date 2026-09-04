@@ -4,7 +4,7 @@
     "description": "Plugin permettant de récupérer les pogrammes TV et d'interagir avec les appareils multimedia connectés en lançant des actions scénarios sur le clic d'un logo ou une icône. Possibilité de créer plusieurs types de télécommandes",
     "licence": "AGPL",
     "author": "zyg0m4t1k",
-    "pluginVersion": "2.0",
+    "pluginVersion": "2.1",
     "require": "4.4",
     "os": {
         "min": 11,
