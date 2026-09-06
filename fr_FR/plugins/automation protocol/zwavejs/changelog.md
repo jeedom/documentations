@@ -4,9 +4,34 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 06/09/2026
+
+- Passage à la version *11.21.1* de ZwaveJsUI (stable)
+- Correction de l'affichage des noms de groupes
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration du contrôleur *Home Assistant Connect ZWA-2*
+- Ajout de la configuration *NeoCoolCam NAS-DS01Z v2* (propriétés : Opening, Battery)
+- Ajout de la configuration *NeoCoolCam NAS-PD07Z* (propriétés : Motion, Luminance, Temperature, Humidity, Tamper, Battery)
+- Ajout de la configuration *Philio PSE04* (propriétés : Temperature, Battery, Tamper, Sound)
+- Ajout de la configuration *Shelly Qubino Wave Dimmer* (propriétés : Multilevel, Power, Energy, Notification Heat-Sensor, Notification Over-Current, Notification Mains)
+- Ajout de la configuration *Shelly Qubino Wave H&T* (propriétés : Temperature, Humidity, Battery)
+- Ajout de la configuration *Shelly Qubino Wave Motion* (propriétés : Motion, Luminance, Battery)
+- Ajout de la configuration *Heatit Z-Water2* (9 relais libres de potentiel et 2 entrées de sonde de température NTC)
+- Ajout de la configuration *Zooz ZEN37 800LR Wall Remote* (propriétés : Central Scene x4, Battery)
+
+**Modifications de Configurations**
+
+- Correction de la configuration *Fibaro FGCD001* (ajout du firmware 4098)
+- Modification de la configuration *Shelly Qubino Wave Door/Window (QNDW-002C)* (ajout de la commande Tilt)
+- Correction de la configuration *Shelly Qubino Wave Shutter* (ajout du productId 131)
+- Modification de la configuration *Heatit Z-TEMP3* (ajout du mode *Energy Heat* sur le mode du thermostat)
+
 # 17/07/2026
 
 - Passage à la version *11.19.0* de ZwaveJsUI (stable)
+- Passage à la version *11.21.1* de ZwaveJsUI (beta)
 
 # 01/06/2026
 
@@ -24,9 +49,15 @@
 
 # 09/03/2026
 
+**Ajouts de Configurations**
+
+- Ajout de la configuration
 - Ajout de la configuration *Shelly Qubino Wave Door/Window (QNDW-002C)* (propriétés : Opening, Luminance, Direction, Battery)
 - Ajout de la configuration *Shelly Qubino Wave Plug (QNPL-0A112)* (propriétés : Switch, Power, Energy)
 - Ajout de la configuration *Zooz ZEN58 Low Voltage XS Relay* (propriétés : Switch, Power, Energy, Voltage, Current)
+
+**Modifications de Configurations**
+
 - Correction de la configuration *Aeotec ZWA001* (valeur par défaut du paramètre de température de couleur)
 
 # 02/03/2026
