@@ -51,7 +51,6 @@
 
 **Ajouts de Configurations**
 
-- Ajout de la configuration
 - Ajout de la configuration *Shelly Qubino Wave Door/Window (QNDW-002C)* (propriétés : Opening, Luminance, Direction, Battery)
 - Ajout de la configuration *Shelly Qubino Wave Plug (QNPL-0A112)* (propriétés : Switch, Power, Energy)
 - Ajout de la configuration *Zooz ZEN58 Low Voltage XS Relay* (propriétés : Switch, Power, Energy, Voltage, Current)
