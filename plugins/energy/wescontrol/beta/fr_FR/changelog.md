@@ -7,6 +7,7 @@
 # 08/09/2026
 
 - Nouvelle version stable
+- Nouvelle méthode de traduction de la documentation et du changelog
 
 # 05/06/2026
 

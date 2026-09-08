@@ -7,6 +7,7 @@
 # 08/09/2026
 
 - Nueva versión estable
+- Nuevo método para traducir la documentación y el registro de cambios
 
 # 05/06/2026
 
