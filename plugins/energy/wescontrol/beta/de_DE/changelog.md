@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich ausschließlich um eine Aktualisierung der Dokumentation, der Übersetzung oder des Textes handelt.
 
+# 08/09/2026
+
+- Neue stabile Version
+
 # 05/06/2026
 
 - Unterstützung benutzerdefinierter Bilder für Geräte

@@ -4,6 +4,10 @@
 >
 >A modo de recordatorio, si no hay información sobre la actualización, es porque esta se refiere únicamente a la actualización de la documentación, la traducción o el texto.
 
+# 08/09/2026
+
+- Nueva versión estable
+
 # 05/06/2026
 
 - Compatibilidad con imágenes personalizadas para los dispositivos

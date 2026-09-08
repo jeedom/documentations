@@ -4,6 +4,10 @@
 >
 >As a reminder, if there is no information about the update, it means that the update only involves changes to the documentation, translations, or text.
 
+# 08/09/2026
+
+- New stable version
+
 # 05/06/2026
 
 - Support for custom images for devices
