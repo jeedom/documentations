@@ -12,7 +12,7 @@
 	"utilization": "Ajoutez un équipement serveur Wes à partir duquel vous pourrez gérer les différents équipements enfants un par un (pinces ampèremétriques, compteurs à impulsions, relais, TIC, etc...).",
 	"licence": "AGPL",
 	"author": "Jeedom SAS",
-	"require": "4.2",
+	"require": "4.4",
 	"category": "energy",
 	"hasOwnDeamon": true,
 	"changelog": "https://doc.jeedom.com/#language#/plugins/energy/wescontrol/changelog",

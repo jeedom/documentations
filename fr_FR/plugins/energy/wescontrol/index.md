@@ -2,7 +2,7 @@
 
 Ce plugin va vous permettre de prendre le contrôle de votre [**serveur d'énergie WES de CartElectronic**](https://www.cartelectronic.fr/content/8-serveur-wes){:target="\_blank"} et d'en récupérer toutes les données instantanément dans Jeedom.
 
-![Visuel Wes](./images/wes.png)
+![Visuel Wes](../images/wes.png)
 
 >**IMPORTANT**
 >
@@ -33,7 +33,7 @@ Le plugin ne nécessite pas de configuration particulière mais propose un champ
 
 Pour accéder aux différents équipements **Wes Control**, dirigez-vous vers le menu **Plugins → Energie → Wes Control**.
 
-![Accueil du plugin](./images/wescontrol_navigate.png)
+![Accueil du plugin](../images/wescontrol_navigate.png)
 
 >**INFORMATION**
 >
@@ -65,7 +65,7 @@ La partie **Gestion des équipements** va vous permettre de sélectionner les fo
 
 Chaque **case cochée** aura pour conséquence la **création automatique de l'équipement correspondant**, et à l'inverse, **chaque case décochée** aura pour conséquence la **suppression automatique de l'équipement correspondant** :
 
-![Gestion des équipements](./images/wescontrol_generalManage.png)
+![Gestion des équipements](../images/wescontrol_generalManage.png)
 
 # Configuration des équipements/fonctionnalités
 
@@ -73,7 +73,7 @@ De retour sur la page générale du plugin **Wes Control**, les équipements act
 
 Le champ de recherche permet la visualisation immédiate de l'équipement recherché. Sur la droite, l'icône en forme de croix annule la recherche, le dossier ouvert déplie tous les menus et le dossier fermé replie l'ensemble.
 
-![Navigation dans les équipements](./images/wescontrol_screenshot1.png)
+![Navigation dans les équipements](../images/wescontrol_screenshot1.png)
 
 >**ASTUCE**
 >

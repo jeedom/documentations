@@ -4,15 +4,33 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+# 05/06/2026
+
+- Suporte para imagens personalizadas em mosaicos de equipamentos
+- Versão mínima do Jeedom necessária : **4.4**
+
+# 01/06/2026
+
+- Correção no tratamento de mensagens de atualização de CGX : Criação, atualização e exclusão automáticas com base no estado atual do servidor Wes
+
+# 25/05/2026
+
+- Nouvelle version du fichier CGX V1.0.6
+- Ajout de la prise en charge des variables Modbus *(firmware WES >= V0.9b05)*
+
+# 22/05/2026
+
+- Version de firmware Wes minimale requise : **V0.84A10** *(passer sur la branche less-than-V0.84A10 pour les versions inférieures)*
+- Diverses corrections pour Debian 12/PHP 8
+
 # 01/10/2024
 
 - Nova versão do arquivo CGX V1.0.5
 
-- Adição de “Consumo/Produção” à lista TIC
-- Alteração técnica no gerenciamento de filtros para ter campos declarados em diversas combinações de filtros
-- Adição de um pedido de “Produtor” 1 se a produção for ativada pela Enedis 0 caso contrário
-- Adição do índice de injeção (não reportado se produtor em 0)
-- Adição de potência aparente injetada (não relatada se o produtor estiver em 0)
+- Ajout de "Consommation/Production" à la liste TIC
+- Ajout d'une commande "Producteur" *(1 si production activée par Enedis, 0 sinon)*
+- Ajout de l'index d'injection *(non remonté si producteur à 0)*
+- Ajout de puissance apparente injectée *(non remontée si producteur à 0)*
 
 # 13/12/2022
 

@@ -1,100 +1,100 @@
 # WES Control plugin
 
-This plugin will allow you to take control of your [**CartElectronic WES energy server**](https://www.cartelectronic.fr/content/8-serveur-wes){:target = "\_ blank"} and recover all the data instantly in Jeedom.
+This plugin will allow you to take control of your [**CartElectronic WES Energy Server**](https://www.cartelectronic.fr/content/8-serveur-wes){:target="\_blank"} and retrieve all the data instantly in Jeedom.
 
-![Visuel Wes](./images/wes.png)
+![Wes Visual](../images/wes.png)
 
 >**IMPORTANT**
 >
->This material being in constant evolution, the plugin in stable version offers full compatibility with Wes servers with firmware lower than `V0.84A10` and the beta version with firmware greater than or equal to `V0.84A10`.
+>The plugin is compatible with Wes servers running firmware `V0.84A10` minimum. For earlier versions, there is [the less-than-V0.84A10 branch](https://github.com/jeedom/plugin-wescontrol/tree/less-than-V0.84A10) can be installed from GitHub.
 
 >
->The team is already working on the integration of the currently unsupported Wes extensions such as the 8 relay or modbus extension and will do its best to develop the plugin in this direction as soon as possible.
+>The team is already working on integrating Wes extensions that are currently unsupported, such as the 8-relay or Modbus extensions, and will do its best to update the plugin accordingly as soon as possible.
 
 # General configuration
 
 ## Plugin configuration
 
-Like any Jeedom plugin, the plugin **Wes control** must be activated after installation.
+Like any Jeedom plugin, the **Wes Control** plugin must be enabled after installation.
 
-The plugin **Wes control** uses its own daemon in order to stay in constant contact with the Wes server. You can check the status on the plugin configuration page.
+The **Wes Control** plugin uses its own daemon to maintain constant communication with the Wes server. You can check its status on the plugin's configuration page.
 
 >**INFORMATION**
 >
->It is not necessary to worry about the state of the daemon as soon as the plugin is activated because the creation of the 1st Wes server equipment will automatically configure and start the daemon.
+>You don't need to worry about the daemon's status once the plugin is activated, because creating the first Wes server device will automatically configure and start the daemon.
 
-The plugin does not require any particular configuration but offers a field allowing to choose the delay in seconds between 2 interrogations of the Wes server. *(30 seconds by default)*
+The plugin does not require any special configuration but provides a field where you can select the interval in seconds between two queries to the Wes server. *(30 seconds by default)*
 
 >**IMPORTANT**
 >
->If you decrease this value and experience system sluggishness or instability, revert to the default value *(30)*.
+>If you lower this value and notice that the system is running slowly or becoming unstable, revert to the default value *(30)*.
 
 ## Configuration of the Wes server equipment
 
-To access the different equipment **Wes control**, go to the menu **Plugins → Energy → Wes Control**.
+To access the various **Wes Control** devices, go to the **Plugins → Energy → Wes Control** menu.
 
-![Accueil du plugin](./images/wescontrol_navigate.png)
-
->**INFORMATION**
->
->The button **+ Add** allows you to add a new Wes server.
-
-After having created your Wes server equipment, click on it to access the access configuration as well as the equipment / functionalities management.
-
-Fill in the general information of the equipment then indicate whether you have optional equipment connected to the Wes such as a screen or a 9-volt power supply for measuring the mains voltage by checking the corresponding boxes.
-
-Then, fill in the access information to the Wes server in HTTP in order to be able to communicate with him :
-- **Wes's IP** : IP address on which the Wes server can be reached.
-- **Port of the Wes** *(facultatif)* : port on which the Wes server can be reached *(80 by default)*.
-- **HTTP ID** : identifier used to communicate in HTTP with the Wes server.
-- **HTTP password** : password used to communicate in HTTP with the Wes server.
-
-The plugin **Wes control** includes a file specially designed for Jeedom and allowing access to more data than those normally available by default. It is necessary to establish an FTP connection with the Wes server to transfer this file, the following fields must therefore be completed as well :
-- **FTP ID** : identifier used to communicate in FTP with the Wes server.
-- **FTP password** : password used to communicate in FTP with the Wes server.
-- **Jeedom CGX file** : check the box to use the Jeedom CGX file.
-- **Send CG fileX** : Once the FTP connection information has been entered, click on this button to immediately transfer the file to the Wes.
+![Plugin Home Page](../images/wescontrol_navigate.png)
 
 >**INFORMATION**
 >
->Connection information to the Wes server can be viewed from the Wes internet interface in the menu **Configuration → Secure access**.
+>The **+ Add** button lets you add a new Wes server.
+
+After creating your Wes server device, click on it to access the access settings and device/feature management.
+
+Enter the general information about the device, then indicate whether you have any optional equipment connected to the Wes—such as a display or a 9-volt power supply for measuring line voltage—by checking the corresponding boxes.
+
+Next, enter the HTTP access credentials for the Wes server so you can communicate with it:
+- **Wes IP**: the IP address at which the Wes server can be reached.
+- **Wes Port** *(optional)*: the port on which the Wes server is accessible *(80 by default)*.
+- **HTTP ID**: an identifier used to communicate with the Wes server via HTTP.
+- **HTTP Password**: The password used to communicate with the Wes server via HTTP.
+
+The **Wes Control** plugin includes a file specifically designed for Jeedom that provides access to more data than is normally available by default. You must establish an FTP connection with the Wes server to upload this file; therefore, the following fields must also be filled out:
+- **FTP username**: the username used to communicate with the Wes server via FTP.
+- **FTP password**: the password used to connect to the Wes server via FTP.
+- **Jeedom CGX File**: Check the box to use the Jeedom CGX file.
+- **Upload CGX File**: Once you have entered your FTP login information, click this button to immediately upload the file to the web.
+
+>**INFORMATION**
+>
+>The Wes server login credentials can be viewed from the Wes web interface under the **Configuration → Secure Access** menu.
 
 ## Equipment / functionality management
 
-The part **Equipment management** will allow you to select the features of the Wes to activate / deactivate.
+The **Device Management** section allows you to select which Wes features to enable or disable.
 
-Each **box checked** will result in **automatic creation of the corresponding equipment**, and conversely, **each box unchecked** will result in **automatic deletion of the corresponding equipment** :
+Each **checked box** will result in the **automatic creation of the corresponding device**, and conversely, **each unchecked box** will result in the **automatic deletion of the corresponding device**:
 
-![Equipment management](./images/wescontrol_generalManage.png)
+![Equipment management](../images/wescontrol_generalManage.png)
 
 # Equipment / functional configuration
 
-Back to the plugin's general page **Wes control**, previously activated devices are grouped by server and sorted in accordion menus classified by type of functionality.
+Back on the **Wes Control** plugin's main page, the devices previously enabled are grouped by server and organized into accordion menus sorted by feature type.
 
-The search field allows immediate visualization of the required equipment. On the right, the cross-shaped icon cancels the search, the open folder unfolds all the menus and the closed folder folds the whole.
+The search field allows you to immediately view the equipment you're looking for. On the right, the cross icon cancels the search, the open folder icon expands all menus, and the closed folder icon collapses them all.
 
-![Navigation dans les équipements](./images/wescontrol_screenshot1.png)
+![Browse Devices](../images/wescontrol_screenshot1.png)
 
->**TRICK**
+>**TIP**
 >
->It is possible to reorganize each menu in the list by remaining clicked on it while positioning it at the desired location.
+>You can rearrange each menu in the list by holding down the mouse button and dragging it to the desired location.
 
-As usual, clicking on an item of equipment takes you to its configuration page, allowing you to enter general information and view the list of orders.
+As usual, clicking on a device takes you to its configuration page, where you can enter general information and view the list of commands.
 
 ## Optional equipment parameters
 
-Some devices have additional configuration parameters that must be entered when activating them.
+Some devices have additional configuration settings that you'll need to enter when activating them.
 
-These parameters can be the type of measurement to be taken for current clamps *(consumption or production)* or the electric subscription formula concerning teleinfo for example.
+These settings may include the type of measurement to be recorded for current clamps *(consumption or generation)* or the electricity service plan regarding remote data collection, for example.
 
-Others may relate to the selection of a specific type of hardware in order to customize the illustrative images of the equipment such as the type of pulse meter *(water, gas, gas)* or the type of current clamp used *(20 Amps or 100 Amps)* among others.
+Others may involve selecting a specific type of equipment in order to customize the illustrative images of the devices, such as the type of pulse meter *(water, gas, Gazpar)* or the type of current clamp used *(20 amps or 100 amps)*, among other things.
 
 ## WES interface
 
-On each equipment page (including the Wes server equipment) there is, at the top right, a blue button named **Wes interface** which allows you to open the web interface of the Wes server in a new tab of your browser.
+On each device page (including the Wes server page), there is a blue button labeled **Wes Interface** in the upper-right corner that opens the Wes server's web interface in a new tab in your browser.
 
-Depending on the type of equipment you are on, you will be automatically redirected to the interface page corresponding to this feature.
+Depending on the type of device you are using, you will be automatically redirected to the interface page corresponding to this feature.
 
 # Upcoming developments
 
-The team is already working on the integration of the currently unsupported Wes extensions such as the 8 relay or modbus extension and will do its best to develop the plugin in this direction as soon as possible.
+The team is already working on integrating currently unsupported Wes extensions, such as the 8-relay or Modbus extensions, and will do its best to update the plugin accordingly as soon as possible.
