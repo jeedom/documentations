@@ -7,6 +7,17 @@
 
 
 
+# 31/08/2026
+- Fix VA : l'adresse physique (L1.xxx) est desormais enregistree comme UID a la creation des equipements. Auparavant c'est le numero de VA qui etait stocke, et l'equipement ne se rafraichissait jamais tant que la synchronisation n'avait pas ete lancee manuellement
+- Fix VA : la synchronisation et la creation retrouvent un equipement par son adresse physique quand la passerelle a renumerote sa table VA. Avant, l'equipement restait orphelin (valeurs figees) ou un doublon muet etait cree
+- Ajout de messages dans le centre de messages quand un equipement n'est jamais rafraichi ou quand deux equipements partagent la meme adresse
+- Ajout du bouton `Orphelins VA` : liste les equipements VA dont l'adresse n'est plus declaree par la passerelle (unites disparues, ancienne table VA) et permet de les desactiver apres selection. Rien n'est supprime, une reactivation depuis Jeedom suffit a revenir en arriere. Les equipements dont l'UID n'est pas une adresse physique sont signales mais jamais proposes : ils doivent d'abord passer par Sync UIDs VA
+
+
+# 28/08/2026
+- Ajout d'une commande action `Redemarrer le CoolMaster` sur les equipements CoolMaster, utilisable en scenario (masquee par defaut, a rendre visible dans la configuration de la commande si besoin d'un bouton)
+
+
 # 02/03/2026
 - Ajout bouton Synchronisation : recupere les VA associés au coolMaster et vient mettre à jour les UIDS physiques sur les eqlogics type VA deja créés
 

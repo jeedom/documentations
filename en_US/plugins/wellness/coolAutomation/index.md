@@ -21,7 +21,7 @@ Le plugin dispose d'une fonction de détection automatique des équipements Cool
 
 Il suffit simplement de cliquer sur **Scan Réseau** pour lancer une détection des équipements sur votre réseau.
 
-![scanNetwork](./images/scanNetwork.png)
+![scanNetwork](../images/scanNetwork.png)
 
 Une fois trouvés, les équipements (eqlogics) correspondants seront automatiquement créés dans votre Jeedom.
 
@@ -34,7 +34,7 @@ La page de l'équipement regroupe toutes les informations nécessaires à la con
 
 > **Note**: Toutes les informations de cette page sont automatiquement rafraîchies à chaque fois que vous y accédez.
 
-![eqlogicMain](./images/eqlogicMain.png)
+![eqlogicMain](../images/eqlogicMain.png)
 
 ## Informations techniques
 
@@ -60,7 +60,7 @@ En dessous des informations de connexion, vous trouverez l'état du Serveur REST
 
 Si le serveur n'est pas activé, vous devez l'activer en cliquant sur le bouton correspondant :
 
-![activateRestServer](./images/activateRestServer.png)
+![activateRestServer](../images/activateRestServer.png)
 
 > **ATTENTION**  
 > L'activation du serveur REST provoquera le redémarrage de l'équipement.
@@ -100,7 +100,7 @@ Vous pouvez personnaliser l'apparence de votre équipement CoolAutomation en mod
 3. Sélectionnez l'image qui correspond le mieux à votre équipement
 4. Cliquez sur "Sauvegarder" pour appliquer le changement
 
-![chooseImg](./images/chooseImg.png)
+![chooseImg](../images/chooseImg.png)
 
 # Creation of Units and their Master Equipment
 
@@ -110,7 +110,7 @@ Pour intégrer les unités de climatisation connectées à votre équipement Coo
 2. Dans la section "Gestion des Lignes Actives", cochez les unités que vous souhaitez contrôler
 3. Cliquez sur "Sauvegarder"
 
-![checkboxLines](./images/checkboxLines.png)
+![checkboxLines](../images/checkboxLines.png)
 
 Cette action créera :
 - Un équipement Jeedom pour chaque unité sélectionnée
@@ -125,10 +125,10 @@ Cette action créera :
 Après avoir configuré vos unités, vous pourrez visualiser l'ensemble des équipements créés.
 
 Vue d'ensemble des lignes créées :
-![linesCreated](./images/linesCreated.png)
+![linesCreated](../images/linesCreated.png)
 
 Détail des unités enfants :
-![detailsChilds](./images/detailsChilds.png)
+![detailsChilds](../images/detailsChilds.png)
 
 
 
@@ -144,7 +144,7 @@ Lorsque vous avez de nombreuses unités, il peut être fastidieux d'attribuer in
 2. Cliquez sur "Attribuer la sélection à un objet"
 3. Sélectionnez l'objet parent dans la liste déroulante
 
-![attribuateObjects](./images/attribuateObjects.png)
+![attribuateObjects](../images/attribuateObjects.png)
 
 > **Astuce** : Vous pouvez sélectionner toutes les unités en une seule fois en utilisant la case à cocher située à côté du bouton d'attribution.
 
@@ -189,11 +189,11 @@ Le plugin vous permet d'activer l'historisation des commandes pour plusieurs éq
 
 1. Accédez à la page principale du plugin et cliquez sur l'icône d'historisation :
 
-   ![modalHistorize](./images/modalHistorize.png)
+   ![modalHistorize](../images/modalHistorize.png)
 
 2. Sélectionnez le périmètre d'historisation souhaité :
 
-   ![chooseOptionHistorize](./images/chooseOptionHistorize.png)
+   ![chooseOptionHistorize](../images/chooseOptionHistorize.png)
 
    Options disponibles :
    - Une unité spécifique
@@ -202,11 +202,11 @@ Le plugin vous permet d'activer l'historisation des commandes pour plusieurs éq
 
 3. Selon votre choix initial, un second sélecteur apparaîtra pour affiner votre sélection :
 
-   ![secondSelect](./images/secondSelect.png)
+   ![secondSelect](../images/secondSelect.png)
 
 4. Sélectionnez les commandes à historiser (vous pouvez toutes les sélectionner via la première case à cocher) :
 
-   ![selectedCmds](./images/selectedCmds.png)
+   ![selectedCmds](../images/selectedCmds.png)
 
 5. Cliquez sur "Historiser" pour appliquer la configuration.
 
