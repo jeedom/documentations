@@ -20,12 +20,14 @@
   "require": "4.2",
   "hasDependency": true,
   "hasOwnDeamon": false,
-  "changelog": "https:\/\/github.com\/foireatout\/jeedom-jeeremi\/doc",
+  "documentation":"https://github.com/foireatout/jeedom-jeeremi/blob/stable/README.md",
+  "documentation_beta":"https://github.com/foireatout/jeedom-jeeremi/blob/beta/README.md",
+  "changelog": "https://github.com/foireatout/jeedom-jeeremi/blob/stable/changelog.md",
+  "changelog_beta": "https://github.com/foireatout/jeedom-jeeremi/blob/beta/changelog.md",
   "language": [
 	  "fr_FR"
   ],
   "compatibility": [
-		"miniplus",
 		"smart",
 		"rpi",
 		"docker",
