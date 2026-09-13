@@ -98,7 +98,7 @@
         // { link: "", icon: "fas fa-save", fr_FR: "Restauration Image", en_US: "Image restoration", es_ES: "Restauración de imagen", de_DE: "Bildwiederherstellung", pt_PT: "" },
         { link: "/core/update", icon: "fas fa-sync-alt", fr_FR: "Mise à jour", en_US: "Update", es_ES: "Mise à jour", de_DE: "Update", pt_PT: "" },
         { link: "/core/cron", icon: "fas fa-tasks", fr_FR: "Moteur de tâche", en_US: "Cron", es_ES: "Motor de tareas", de_DE: "Task-Engine", pt_PT: "" },
-        { link: "/core/custom", icon: "fas fa-pencil-alt", fr_FR: "Personalisation", en_US: "Personalisation", es_ES: "Personalizacion", de_DE: "Personalisierung", pt_PT: "" },
+        { link: "/core/custom", icon: "fas fa-pencil-alt", fr_FR: "Personnalisation", en_US: "Personalisation", es_ES: "Personalizacion", de_DE: "Personalisierung", pt_PT: "" },
         { link: "/core/user", icon: "fas fa-users", fr_FR: "Utilisateur", en_US: "Users", es_ES: "Usuario", de_DE: "Benutzer", pt_PT: "" },
         { link: "/core/profils", icon: "fas fa-briefcase", fr_FR: "Profils", en_US: "Profils", es_ES: "Perfiles", de_DE: "Profile", pt_PT: "" }
       ]
