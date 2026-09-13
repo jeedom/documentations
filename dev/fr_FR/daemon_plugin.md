@@ -380,7 +380,7 @@ Vous pouvez copier/coller le code ci-dessous tel quel et modifier les lignes ind
             sleep(1);
             $i++;
         }
-        if ($i >= 30) {
+        if ($i >= 20) {
             log::add(__CLASS__, 'error', __('Impossible de lancer le démon, vérifiez le log', __FILE__), 'unableStartDeamon');
             return false;
         }
@@ -606,7 +606,7 @@ Exemple :
 ```json
 {
   "pre-install" : {
-    "script" : "plugins/[pluginID]/resources/post-install.sh"
+    "script" : "plugins/[pluginID]/resources/pre-install.sh"
   }
 ```
 
