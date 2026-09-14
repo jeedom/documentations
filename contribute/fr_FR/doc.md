@@ -29,7 +29,7 @@ Pour contribuer à la documentation, quelques prérequis sont à connaître et �
 Les pages de documentation générale concernent toutes les sections, hormis celles relatives aux **Manuels** *(core Jeedom)* et aux **Plugins**. Les fichiers sont accessibles sur [le dépôt de la documentation](https://github.com/jeedom/documentations/tree/master){:target="_blank"}.
 
 Chaque page du site de documentation correspond à un fichier `Markdown` *(\*.md)* sur GitHub, par exemple :
-- La présente page, **Contribuer à la documentation** ([doc.jeedom.com/contribute/#LANG#/doc](/contribute/doc)) correspond au fichier [contribute/fr_FR/doc.md](https://github.com/jeedom/documentations/blob/master/contribute/fr_FR/doc.md){:target="_blank"}.
+- La présente page, **Contribuer à la documentation** ([doc.jeedom.com/contribute/#LANG#/doc](doc.md)) correspond au fichier [contribute/fr_FR/doc.md](https://github.com/jeedom/documentations/blob/master/contribute/fr_FR/doc.md){:target="_blank"}.
 - La page **Compatibilité** ([doc.jeedom.com/compatibility/#LANG#/](/compatibility)) correspond au fichier [compatibility/fr_FR/index.md](https://github.com/jeedom/documentations/blob/master/compatibility/fr_FR/index.md){:target="_blank"}.
 - La page **Installation sur Raspberry Pi** ([doc.jeedom.com/installation/#LANG#/rpi](/installation/rpi)) correspond au fichier [installation/fr_FR/rpi.md](https://github.com/jeedom/documentations/blob/master/installation/fr_FR/rpi.md){:target="_blank"}.
 - La page **Développement de plugin** ([doc.jeedom.com/dev/#LANG#/](/dev)) correspond au fichier [dev/fr_FR/index.md](https://github.com/jeedom/documentations/blob/master/dev/fr_FR/index.md){:target="_blank"}.

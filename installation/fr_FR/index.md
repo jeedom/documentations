@@ -26,14 +26,14 @@ Quel que soit le support choisi pour déployer votre instance Jeedom, vous trouv
 Vous souhaitez installer Jeedom :
 
 - [sur une **Luna**](/plugins/home%20automation%20protocol/luna)
-- [sur une **Smart/Atlas**](recovery)
-- [sur un **Raspberry Pi**](rpi)
-- [sur un **PC/mini-PC**](baremetal)
-- [sur une **machine virtuelle**](vm)
-- [sur une **Freebox Delta**](freeboxdelta)
+- [sur une **Smart/Atlas**](recovery.md)
+- [sur un **Raspberry Pi**](rpi.md)
+- [sur un **PC/mini-PC**](baremetal.md)
+- [sur une **machine virtuelle**](vm.md)
+- [sur une **Freebox Delta**](freeboxdelta.md)
 - [dans un **conteneur LXC Proxmox**](https://community-scripts.github.io/ProxmoxVE/scripts?id=jeedom){:target="_blank"}
-- [dans un **conteneur Docker**](docker) *(non recommandé)*
-- [en **ligne de commande**](cli) *(utilisateurs avancés)*
+- [dans un **conteneur Docker**](docker.md) *(non recommandé)*
+- [en **ligne de commande**](cli.md) *(utilisateurs avancés)*
 
 ## Premiers pas avec Jeedom
 

@@ -2,7 +2,7 @@
 
 ## Pré-requis
 
-- Etre inscrit en tant que developpeur sur le market, voir [Développement de plugin > Compte développeur](index#Compte%20développeur),
+- Etre inscrit en tant que developpeur sur le market, voir [Développement de plugin > Compte développeur](index.md#Compte%20développeur),
 - Avoir déposé son plugin sur GitHub *(dépôt privé ou non)*.
 - Présenter son plugin sur le forum dans le [**Salon des développeurs**, catégorie **Présentation Plugin**](https://community.jeedom.com/c/developpeur-developpeurs/presentation-plugin/20){:target="_blank"}.
 
