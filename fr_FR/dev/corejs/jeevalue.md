@@ -47,7 +47,7 @@ var eqLogic = document.getElementById('div_displayEqLogicConfigure').getJeeValue
 
 La fonction `jeeValue()` est à la fois un setter et un getter.
 
-Appelée sans argument, elle renvoi la valeur de l'élément.
+Appelée sans argument, elle renvoie la valeur de l'élément.
 
 Appelée avec un argument, elle assigne la valeur à l'élément.
 

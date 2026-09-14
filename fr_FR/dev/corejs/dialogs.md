@@ -5,7 +5,7 @@ La gestion des Boites de dialogue de Jeedom repose entièrement sur la lib inter
 
 ### jeeDialog.alert()
 
-Affiche une simple alerter, sans option.
+Affiche une simple alerte, sans options.
 
 ````js
 {% raw %}
@@ -57,7 +57,7 @@ jeeDialog.confirm({
     width: String,
     height: String,
     top: String,
-    backdrop: Boolan, //Default: true
+    backdrop: Boolean, //Default: true
     buttons: {},
     onShown: function(dialog //dialog HTMLelement) {
         console.log(dialog, 'shown')
@@ -104,7 +104,7 @@ jeeDialog.prompt({
     placeholder: String,
     value: String / Number, //Default value for inputType
     pattern: String, //Validation pattern. Default pattern if inputType 'time' : '[0-9]{4}-[0-9]{2}-[0-9]{2}'
-    backdrop: Boolan, //Default: true
+    backdrop: Boolean, //Default: true
     buttons: {},
     onShown: function(dialog //dialog HTMLelement) {
         console.log(dialog, 'shown')

@@ -36,11 +36,11 @@ Structure du DOM de Jeedom :
 </html>
 ````
 
-Les pages, que ce soit un plugin ou les pages du Core, sont chargées dynamiquement dans la div `<div id="div_pageContainer">` par la fonction `jeedomUtils.loadPage(_url, _noPushHistory)`. Cette fonction reset plusieurs chose, gère l'historique du navigateur, nettoie d'autres choses, puis appelle `document.getElementById('div_pageContainer').load(url, function() { //Do stuff }`.
+Les pages, que ce soit un plugin ou les pages du Core, sont chargées dynamiquement dans la div `<div id="div_pageContainer">` par la fonction `jeedomUtils.loadPage(_url, _noPushHistory)`. Cette fonction reset plusieurs choses, gère l'historique du navigateur, nettoie d'autres choses, puis appelle `document.getElementById('div_pageContainer').load(url, function() { //Do stuff }`.
 
 Pour simplifier, `jeedomUtils.loadPage()` vide la div *div_pageContainer* puis insère la nouvelle page dedans.
 
-Donc tous les *listeners* enregistrés sur des éléments de la page elle-même dans la *div_pageContainer* (click sur des boutons, etc.) seront automatiquement supprimés par le navigateur, puisque la les éléments DOM qui y existaient sont supprimés.
+Donc tous les *listeners* enregistrés sur des éléments de la page elle-même dans la *div_pageContainer* (click sur des boutons, etc.) seront automatiquement supprimés par le navigateur, puisque là, les éléments DOM qui y existaient sont supprimés.
 
 Par contre, tous les *listeners* enregistrés sur un parent de *div_pageContainer*, donc *window*, *body* etc, persistent !
 
