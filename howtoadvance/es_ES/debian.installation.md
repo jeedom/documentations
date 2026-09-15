@@ -24,7 +24,7 @@ Ahora solo tienes que hacer clic en «Iniciar», introducir la memoria USB en el
 
 ## En una máquina virtual
 
-El procedimiento es bastante sencillo: creas una nueva máquina virtual, la conectas, le añades una unidad de CD virtual que apunte al archivo ISO (no te olvides de conectarla) y arrancas la máquina. Ver [aquí](vmware.creer_une_vm) para más información.
+El procedimiento es bastante sencillo: creas una nueva máquina virtual, la conectas, le añades una unidad de CD virtual que apunte al archivo ISO (no te olvides de conectarla) y arrancas la máquina. Ver [aquí](vmware.creer_une_vm.md) para más información.
 
 # Instalación
 
@@ -150,4 +150,4 @@ Open VMware Tools instala los controladores específicos del sistema operativo i
 
 ``sudo apt-get install -y open-vm-tools``
 
-Ahora solo tienes que instalar Jeedom siguiendo [esto](/installation/cli)
+Ahora solo tienes que instalar Jeedom siguiendo [esto](../../installation/es_ES/cli.md)

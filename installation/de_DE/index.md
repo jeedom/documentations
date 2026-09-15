@@ -5,9 +5,9 @@ Einige Plugins können jedoch kostenpflichtig sein und/oder eine Internetverbind
 
 ## Kompatibilität
 
-[**Die offiziellen Jeedom-Boxen**](/compatibility/#Boxes%20officielles) gewährleisten uneingeschränkte Kompatibilität unabhängig von zukünftigen Software-Weiterentwicklungen.
+[**Die offiziellen Jeedom-Boxen**](../../compatibility/de_DE/index.md#Boxes%20officielles) gewährleisten uneingeschränkte Kompatibilität unabhängig von zukünftigen Software-Weiterentwicklungen.
 
-Jeedom kann auch auf folgenden Systemen installiert werden: [alle unterstützten Geräte](/compatibility/#Matériels%20supportés) das System unterstützt [**Derzeit empfohlene Version von Linux Debian**](/compatibility/#Debian).
+Jeedom kann auch auf folgenden Systemen installiert werden: [alle unterstützten Geräte](../../compatibility/de_DE/index.md#Matériels%20supportés) das System unterstützt [**Derzeit empfohlene Version von Linux Debian**](../../compatibility/de_DE/index.md#Debian).
 
 ## Sicherung von Jeedom
 
@@ -26,15 +26,15 @@ Unabhängig davon, welche Plattform Sie für die Bereitstellung Ihrer Jeedom-Ins
 Sie möchten Jeedom installieren:
 
 - [auf einer **Luna**](/plugins/home%20automation%20protocol/luna)
-- [bei einem **Smart/Atlas**](recovery)
-- [auf einem **Raspberry Pi**](rpi)
-- [auf einem **PC/Mini-PC**](baremetal)
-- [auf einer **virtuellen Maschine**](vm)
-- [auf einer **Freebox Delta**](freeboxdelta)
+- [bei einem **Smart/Atlas**](recovery.md)
+- [auf einem **Raspberry Pi**](rpi.md)
+- [auf einem **PC/Mini-PC**](baremetal.md)
+- [auf einer **virtuellen Maschine**](vm.md)
+- [auf einer **Freebox Delta**](freeboxdelta.md)
 - [in einem **Proxmox LXC-Container**](https://community-scripts.github.io/ProxmoxVE/scripts?id=jeedom){:target="_blank"}
-- [in einem **Docker-Container**](docker) *(nicht empfohlen)*
-- [in der **Befehlszeile**](cli) *(fortgeschrittene Nutzer)*
+- [in einem **Docker-Container**](docker.md) *(nicht empfohlen)*
+- [in der **Befehlszeile**](cli.md) *(fortgeschrittene Nutzer)*
 
 ## Erste Schritte mit Jeedom
 
-Bis die Installation abgeschlossen ist, lesen Sie bitte die Dokumentation durch. [**Erste Schritte mit Jeedom**](/premiers-pas/).
+Bis die Installation abgeschlossen ist, lesen Sie bitte die Dokumentation durch. [**Erste Schritte mit Jeedom**](../../premiers-pas/de_DE/index.md).

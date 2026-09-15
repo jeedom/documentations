@@ -48,7 +48,7 @@ Der Support ist je nach Ihrem Service Pack verfügbar
 - Service Pack Pro: 100 Tickets/Monat
 
 Es gibt verschiedene Möglichkeiten, eine Anfrage zu stellen:
-[Dokumentation Supportanfragen oder Tickets](/premiers-pas#Les%20demandes%20de%20support%20\(ou%20tickets\))
+[Dokumentation Supportanfragen oder Tickets](../../premiers-pas/de_DE/index.md#Les%20demandes%20de%20support%20\(ou%20tickets\))
 
 >**WICHTIG**
 >

@@ -9,7 +9,7 @@ Jeedom es un programa de código abierto cuyo código se puede consultar en [Git
 ## Requisitos previos
 
 Para contribuir al desarrollo del núcleo de Jeedom o de un complemento, hay que conocer y tener en cuenta algunos requisitos previos:
-- En primer lugar, es imprescindible conocer y aplicar [El proceso de pruebas beta de Jeedom](/contribute/beta),
+- En primer lugar, es imprescindible conocer y aplicar [El proceso de pruebas beta de Jeedom](beta.md),
 - también es necesario disponer de[una cuenta de usuario en GitHub](https://github.com/){:target="_blank"},
 - Experiencia [una *Pull Request* en GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request){:target="_blank"},
 - Comprender el lenguaje afectado por los cambios *(`PHP`, `JavaScript`, `HTML`, `CSS`, `Python`, `Node.js`, etc.)*,
@@ -26,7 +26,7 @@ Tanto si eres un desarrollador experimentado como si no, cada uno tiene un papel
 
 ### Documentación para desarrolladores
 
-Le recomendamos que consulte periódicamente la documentación relativa a la [desarrollo del núcleo](/dev/core) o en el [desarrollo de un complemento](/dev/) con el fin de aplicar las normas establecidas y garantizar el cumplimiento de los estándares de Jeedom.
+Le recomendamos que consulte periódicamente la documentación relativa a la [desarrollo del núcleo](../../dev/es_ES/core.md) o en el [desarrollo de un complemento](../../dev/es_ES/index.md) con el fin de aplicar las normas establecidas y garantizar el cumplimiento de los estándares de Jeedom.
 
 ### Foro de desarrolladores
 

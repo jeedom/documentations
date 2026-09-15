@@ -86,7 +86,7 @@ El archivo plugin-template.js y la mayoría de las páginas del Core utilizan ah
 
 Funciones DOM propias de Core:
 
-[Doc Core js](corejs/index)
+[Doc Core js](corejs/index.md)
 
 [domUtils {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)
 

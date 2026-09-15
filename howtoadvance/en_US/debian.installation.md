@@ -24,7 +24,7 @@ All you have to do is click "Start," then insert the USB drive into the computer
 
 ## On a VM
 
-The process is fairly simple: create a new virtual machine, connect it, set up a virtual CD drive that points to the ISO file (be sure to connect it), and start the machine. See [here](vmware.creer_une_vm) for more details.
+The process is fairly simple: create a new virtual machine, connect it, set up a virtual CD drive that points to the ISO file (be sure to connect it), and start the machine. See [here](vmware.creer_une_vm.md) for more details.
 
 # Installation
 
@@ -150,4 +150,4 @@ Open VMware Tools installs drivers specific to the installed operating system an
 
 ``sudo apt-get install -y open-vm-tools``
 
-All you have to do now is install Jeedom by following [this](/installation/cli)
+All you have to do now is install Jeedom by following [this](../../installation/en_US/cli.md)

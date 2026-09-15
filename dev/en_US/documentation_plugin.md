@@ -6,7 +6,7 @@ In this guide, we'll show you how to document your plugin.
 
 ## Principle
 
-The concept is very simple: the plugin's documentation should be a simple web link that you specify in your info.json file (see details [here](structure_info_json) ) in the "Documentation" field.
+The concept is very simple: the plugin's documentation should be a simple web link that you specify in your info.json file (see details [here](structure_info_json.md) ) in the "Documentation" field.
 
 Please note that there is also a Changelog field, which should work the same way as the documentation field.
 
@@ -30,7 +30,7 @@ We're not going to describe the complete Markdown syntax here; other sites alrea
 
 ### Location
 
-We recommend that you create a folder in your plugin (hosted on GitHub) and copy the files and directories from the /docs folder in the plugin template into it (see [here](plugin_template) )
+We recommend that you create a folder in your plugin (hosted on GitHub) and copy the files and directories from the /docs folder in the plugin template into it (see [here](plugin_template.md) )
 
 Once you've done that, you'll have a fr_FR folder in the /docs directory (the only one you need to modify). In this folder, we recommend creating two files:
 

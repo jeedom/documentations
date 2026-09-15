@@ -155,4 +155,4 @@ Once the reboot is complete, you should have:
 
 There you go—VMware is installed (and it’s nice because it gives you its IP address), so now it’s time to play around with it!!!
 
-Next, here is a [tutorial](vmware.creer_une_vm) for setting up your first VM. And you'll find [here](vmware.trucs_et_astuces) A tutorial on tips and tricks (for example, how to enter your VMware license)
+Next, here is a [tutorial](vmware.creer_une_vm.md) for setting up your first VM. And you'll find [here](vmware.trucs_et_astuces.md) A tutorial on tips and tricks (for example, how to enter your VMware license)

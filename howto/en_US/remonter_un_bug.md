@@ -48,7 +48,7 @@ Support is available depending on your Service Pack
 - Service Pack Pro: 100 tickets/month
 
 There are several ways to submit a request:
-[Documentation: Support Requests or Tickets](/premiers-pas#Les%20demandes%20de%20support%20\(ou%20tickets\))
+[Documentation: Support Requests or Tickets](../../premiers-pas/en_US/index.md#Les%20demandes%20de%20support%20\(ou%20tickets\))
 
 >**IMPORTANT**
 >

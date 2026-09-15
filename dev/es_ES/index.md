@@ -6,25 +6,25 @@
 
 ## Etapas de desarrollo
 
-- [Tutorial](tutorial_plugin)
+- [Tutorial](tutorial_plugin.md)
 
-- [Icono de un complemento](Icone_de_plugin)
-- [Estructura de info.json](structure_info_json)
-- [Documentación de un complemento](documentation_plugin)
-- [Publicación de un complemento](publication_plugin)
-- [Widget de un complemento](widget_plugin)
-- [Plantilla de plugin](plugin_template)
-- [Demonio y dependencias de un complemento](daemon_plugin)
-- [Recomendación sobre el valor de los pedidos](cmd_value)
+- [Icono de un complemento](Icone_de_plugin.md)
+- [Estructura de info.json](structure_info_json.md)
+- [Documentación de un complemento](documentation_plugin.md)
+- [Publicación de un complemento](publication_plugin.md)
+- [Widget de un complemento](widget_plugin.md)
+- [Plantilla de plugin](plugin_template.md)
+- [Demonio y dependencias de un complemento](daemon_plugin.md)
+- [Recomendación sobre el valor de los pedidos](cmd_value.md)
 
 ## Javascript core 4.4+
 
-- [Desarrollo en JavaScript y Core 4.4 +](corejs/)
+- [Desarrollo en JavaScript y Core 4.4 +](corejs/index.md)
 
 ## Novedades del núcleo y adaptaciones de los complementos
 
-- [Core v4.4](core4.4)
-- [Core v4.3](core4.3)
+- [Core v4.4](core4.4.md)
+- [Core v4.3](core4.3.md)
 
 ## Transferencia de complementos
 

@@ -6,7 +6,7 @@ En esta documentación veremos cómo crear la documentación de tu plugin.
 
 ## Principio
 
-El principio es muy sencillo: la documentación del complemento debe ser un simple enlace web que hay que indicar en tu archivo info.json (ver los detalles [aquí](structure_info_json) ) en el campo «documentación».
+El principio es muy sencillo: la documentación del complemento debe ser un simple enlace web que hay que indicar en tu archivo info.json (ver los detalles [aquí](structure_info_json.md) ) en el campo «documentación».
 
 Ten en cuenta que también hay un campo «changelog» que debe funcionar de la misma manera que el campo «documentación».
 
@@ -30,7 +30,7 @@ No vamos a describir aquí la sintaxis completa de Markdown, ya que hay otros si
 
 ### Ubicación
 
-Te recomendamos que, en tu plugin (alojado en GitHub), crees una carpeta y copies en ella los archivos y directorios de la carpeta /docs de la plantilla del plugin (véase [aquí](plugin_template) )
+Te recomendamos que, en tu plugin (alojado en GitHub), crees una carpeta y copies en ella los archivos y directorios de la carpeta /docs de la plantilla del plugin (véase [aquí](plugin_template.md) )
 
 Una vez hecho esto, tendrás en la carpeta /docs una carpeta llamada fr_FR (la única que hay que modificar). En esta carpeta, te recomendamos que crees dos archivos:
 

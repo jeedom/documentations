@@ -51,7 +51,7 @@ En función de los complementos instalados en tu **Jeedom Esclave**, es necesari
 ## Copias de seguridad preventivas
 
 -   Hacer una [copia de seguridad de Jeedom](/core/backup) de tu **Jeedom maestro** y de tu(s) **Jeedom esclavo(s)** y recuperarlas en tu PC/NAS…​.
--   Hacer una [copia de seguridad en tarjeta SD/disco duro](/howto/sauvegarde.comment_faire#_sauvegarde_restauration_de_la_carte_microsd) de tu **Jeedom maestro** y de tu(s) **Jeedom esclavo(s)** y guardarlas en tu PC/NAS…​.
+-   Hacer una [copia de seguridad en tarjeta SD/disco duro](../../howto/es_ES/sauvegarde.comment_faire.md#_sauvegarde_restauration_de_la_carte_microsd) de tu **Jeedom maestro** y de tu(s) **Jeedom esclavo(s)** y guardarlas en tu PC/NAS…​.
 
 # Migración
 
@@ -79,7 +79,7 @@ En tu **Jeedom de destino**, *Plugins ⇒ Gestión de plugins*:
 >
 > Si utilizas la Raspberry Pi que ya tienes y que actualmente funciona como **esclavo de Jeedom**, te recomendamos que utilices una tarjeta SD/microSD nueva. Esto te permitirá volver atrás fácilmente si fuera necesario.
 
--   Instala un nuevo Jeedom en una nueva tarjeta SD (ya sea para incorporarlo a tu **Jeedom esclavo** actual o para una nueva Raspberry Pi) siguiendo las instrucciones de la [documentación de instalación](/installation).
+-   Instala un nuevo Jeedom en una nueva tarjeta SD (ya sea para incorporarlo a tu **Jeedom esclavo** actual o para una nueva Raspberry Pi) siguiendo las instrucciones de la [documentación de instalación](../../installation/es_ES/index.md).
 -   Actualiza **Jeedom Source** a la última versión (aunque no se te ofrezca ninguna actualización).
 -   Comprueba en la página «Salud» que la configuración de red interna (y externa, si es necesario) de **Jeedom Source** sea correcta.
 

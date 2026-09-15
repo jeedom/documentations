@@ -2,7 +2,7 @@
 
 ## Einleitung
 
-Im [Anleitung](tutorial_plugin) und die [Dokumentation](plugin_template) Sie haben gelernt, wie Sie Ihr erstes Plugin programmieren, das relativ einfache Aktionen ausführt, die entweder vom Benutzer über einen Aktionsbefehl oder durch eine vom Core geplante Aufgabe (Cron-Jobs) ausgelöst werden.
+Im [Anleitung](tutorial_plugin.md) und die [Dokumentation](plugin_template.md) Sie haben gelernt, wie Sie Ihr erstes Plugin programmieren, das relativ einfache Aktionen ausführt, die entweder vom Benutzer über einen Aktionsbefehl oder durch eine vom Core geplante Aufgabe (Cron-Jobs) ausgelöst werden.
 Das Plugin ist dann in der Lage, bei Bedarf Informationen abzurufen (beispielsweise über eine HTTP-Anfrage) oder alle möglichen Vorgänge auszuführen, sofern diese in PHP programmiert werden können.
 
 Es kann vorkommen, dass Sie mehr als das benötigen; hier einige Beispiele (ohne Anspruch auf Vollständigkeit):
@@ -20,7 +20,7 @@ Keine Panik, im Jeedom-Kern ist bereits alles vorgesehen, um uns bei der Einrich
 Der Code und/oder die ausführbare Datei Ihres Daemons muss sich natürlich im Verzeichnisbaum Ihres Plugins befinden und muss daher bei der Installation eines Plugins in das Archiv aufgenommen und mitgeliefert werden.
 Es gibt keine strenge Regel für den genauen Speicherort Ihres Daemons, allerdings ist es üblich, diesen im Unterverzeichnis `./resources/` des Plugins.
 
-In der Plugin-Vorlage finden Sie die Grundlagen für die Implementierung eines Daemons in Python. Dieses Beispiel werden wir in dieser Dokumentation verwenden. Es steht Ihnen jedoch frei, Ihren Daemon in einer Sprache Ihrer Wahl zu entwickeln, sofern er auf den [Von Jeedom unterstützte Plattformen](/compatibility/).
+In der Plugin-Vorlage finden Sie die Grundlagen für die Implementierung eines Daemons in Python. Dieses Beispiel werden wir in dieser Dokumentation verwenden. Es steht Ihnen jedoch frei, Ihren Daemon in einer Sprache Ihrer Wahl zu entwickeln, sofern er auf den [Von Jeedom unterstützte Plattformen](../../compatibility/de_DE/index.md).
 Die meisten Daemons der Jeedom-Plugins sind in Python oder Node.js geschrieben, es gibt jedoch auch welche in .NET Core und sicherlich auch in anderen Technologien.
 
 Außerdem finden Sie hier einige nützliche Methoden für einen Daemon in Node.js, die möglicherweise in einer zukünftigen Version dieser Dokumentation näher erläutert werden. Vorerst empfehle ich Ihnen, die Entwickler-Community zu konsultieren, um sich mit anderen Entwicklern über alle Aspekte von Node.js abzustimmen, insbesondere hinsichtlich der zu verwendenden Version.
@@ -380,7 +380,7 @@ Sie können den folgenden Code unverändert kopieren und einfügen und die marki
             sleep(1);
             $i++;
         }
-        if ($i >= 30) {
+        if ($i >= 20) {
             log::add(__CLASS__, 'error', __('Impossible de lancer le démon, vérifiez le log', __FILE__), 'unableStartDeamon');
             return false;
         }
@@ -606,7 +606,7 @@ Beispiel:
 ```json
 {
   "pre-install" : {
-    "script" : "plugins/[pluginID]/resources/post-install.sh"
+    "script" : "plugins/[pluginID]/resources/pre-install.sh"
   }
 ```
 

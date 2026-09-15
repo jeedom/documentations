@@ -1,4 +1,4 @@
-[<< Core.js](index)
+[<< Core.js](index.md)
 ## Ereignisbehandlung (*Listeners*) in JavaScript
 
 ### Ereignispersistenz

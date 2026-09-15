@@ -32,4 +32,4 @@ Sie müssen nur noch die SD-Karte in das Jeedomboard (oder Hummingboard) einstec
 >
 > Die SSH-Anmeldedaten lauten jeedom/Mjeedom96
 
-Für die weiteren Schritte können Sie der Dokumentation folgen [Erste Schritte mit Jeedom](/premiers-pas)
+Für die weiteren Schritte können Sie der Dokumentation folgen [Erste Schritte mit Jeedom](../../premiers-pas/de_DE/index.md)

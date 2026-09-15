@@ -2,7 +2,7 @@
 
 ## Requisitos previos
 
-- Estar registrado como desarrollador en el mercado, ver [Desarrollo de complementos > Cuenta de desarrollador](index#Compte%20développeur),
+- Estar registrado como desarrollador en el mercado, ver [Desarrollo de complementos > Cuenta de desarrollador](index.md#Compte%20développeur),
 - Haber subido su plugin a GitHub *(repositorio privado o público)*.
 - Presentar tu plugin en el foro en la sección [**Feria de desarrolladores**, categoría **Presentación de plugins**](https://community.jeedom.com/c/developpeur-developpeurs/presentation-plugin/20){:target="_blank"}.
 

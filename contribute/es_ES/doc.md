@@ -29,10 +29,10 @@ Para contribuir a la documentación, hay que conocer y tener en cuenta algunos r
 Las páginas de documentación general abarcan todas las secciones, salvo las relativas a los **Manuales** *(Jeedom core)* y a los **Plugins**. Se puede acceder a los archivos en [el repositorio de la documentación](https://github.com/jeedom/documentations/tree/master){:target="_blank"}.
 
 Cada página del sitio web de documentación corresponde a un archivo `Markdown` *(\*.md)* en GitHub, por ejemplo:
-- Esta página, **Colaborar en la documentación** ([doc.jeedom.com/contribute/#LANG#/doc](/contribute/doc)) corresponde al archivo [contribute/fr_FR/doc.md](https://github.com/jeedom/documentations/blob/master/contribute/fr_FR/doc.md){:target="_blank"}.
-- La página **Compatibilidad** ([doc.jeedom.com/compatibility/#LANG#/](/compatibility)) corresponde al archivo [compatibilidad/es_ES/index.md](https://github.com/jeedom/documentations/blob/master/compatibility/fr_FR/index.md){:target="_blank"}.
-- La página **Instalación en Raspberry Pi** ([doc.jeedom.com/installation/#LANG#/rpi](/installation/rpi)) corresponde al archivo [instalación/fr_FR/rpi.md](https://github.com/jeedom/documentations/blob/master/installation/fr_FR/rpi.md){:target="_blank"}.
-- La página **Desarrollo de complementos** ([doc.jeedom.com/dev/#LANG#/](/dev)) corresponde al archivo [dev/fr_FR/index.md](https://github.com/jeedom/documentations/blob/master/dev/fr_FR/index.md){:target="_blank"}.
+- Esta página, **Colaborar en la documentación** ([doc.jeedom.com/contribute/#LANG#/doc](doc.md)) corresponde al archivo [contribute/fr_FR/doc.md](https://github.com/jeedom/documentations/blob/master/contribute/fr_FR/doc.md){:target="_blank"}.
+- La página **Compatibilidad** ([doc.jeedom.com/compatibility/#LANG#/](../../compatibility/es_ES/index.md)) corresponde al archivo [compatibilidad/es_ES/index.md](https://github.com/jeedom/documentations/blob/master/compatibility/fr_FR/index.md){:target="_blank"}.
+- La página **Instalación en Raspberry Pi** ([doc.jeedom.com/installation/#LANG#/rpi](../../installation/es_ES/rpi.md)) corresponde al archivo [instalación/fr_FR/rpi.md](https://github.com/jeedom/documentations/blob/master/installation/fr_FR/rpi.md){:target="_blank"}.
+- La página **Desarrollo de complementos** ([doc.jeedom.com/dev/#LANG#/](../../dev/es_ES/index.md)) corresponde al archivo [dev/fr_FR/index.md](https://github.com/jeedom/documentations/blob/master/dev/fr_FR/index.md){:target="_blank"}.
 - Y así sucesivamente...
 
 >**IMPORTANTE**

@@ -6,7 +6,7 @@ In dieser Dokumentation erfahren Sie, wie Sie die Dokumentation für Ihr Plugin 
 
 ## Prinzip
 
-Das Prinzip ist ganz einfach: Die Dokumentation des Plugins muss ein einfacher Weblink sein, der in Ihrer Datei „info.json“ angegeben werden muss (siehe Details [hier](structure_info_json) ) im Feld „Dokumentation“.
+Das Prinzip ist ganz einfach: Die Dokumentation des Plugins muss ein einfacher Weblink sein, der in Ihrer Datei „info.json“ angegeben werden muss (siehe Details [hier](structure_info_json.md) ) im Feld „Dokumentation“.
 
 Beachten Sie, dass Sie auch ein Feld „Changelog“ haben, das genauso funktionieren sollte wie das Feld „Dokumentation“.
 
@@ -30,7 +30,7 @@ Wir werden hier nicht die gesamte Markdown-Syntax beschreiben, da andere Website
 
 ### Standort
 
-Wir empfehlen Ihnen, in Ihrem Plugin (das auf GitHub gehostet wird) einen Ordner anzulegen und die Dateien und Verzeichnisse aus dem Ordner /docs der Plugin-Vorlage dorthin zu kopieren (siehe [hier](plugin_template) )
+Wir empfehlen Ihnen, in Ihrem Plugin (das auf GitHub gehostet wird) einen Ordner anzulegen und die Dateien und Verzeichnisse aus dem Ordner /docs der Plugin-Vorlage dorthin zu kopieren (siehe [hier](plugin_template.md) )
 
 Sobald dies erledigt ist, finden Sie im Ordner /docs einen Ordner namens fr_FR (der einzige, der geändert werden muss). In diesem Ordner empfehlen wir Ihnen, zwei Dateien anzulegen:
 

@@ -86,7 +86,7 @@ The plugin-template.js file and most of the Core pages now use these functions. 
 
 Core-specific DOM functions:
 
-[Doc Core JS](corejs/index)
+[Doc Core JS](corejs/index.md)
 
 [domUtils {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)
 

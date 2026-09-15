@@ -22,7 +22,7 @@ Al finalizar, el sistema se inicia una primera vez antes de reiniciarse automát
 
 >**INFORMACIÓN**
 >
->Es posible que la dirección MAC de tu router *(y, por lo tanto, la dirección IP)* cambie según la versión del núcleo. Consulta las [métodos para localizar el router en la red local](/premiers-pas/#Accès%20local) en caso de necesidad.
+>Es posible que la dirección MAC de tu router *(y, por lo tanto, la dirección IP)* cambie según la versión del núcleo. Consulta las [métodos para localizar el router en la red local](../../premiers-pas/es_ES/index.md#Accès%20local) en caso de necesidad.
 
 El procedimiento se puede llevar a cabo directamente desde Jeedom haciendo clic en el menú **Configuración → Sistema → Restauración del sistema**, siguiendo dos procedimientos diferentes:
 
@@ -69,12 +69,12 @@ Las imágenes de sistema que ofrece actualmente el equipo de Jeedom se pueden co
 - [**Imagen(es) del sistema Jeedom Smart**](https://images.jeedom.com/smart/){:target="_blank"}
 - [**Imagen(es) del sistema Jeedom Atlas**](https://images.jeedom.com/atlas/){:target="_blank"}
 
-Consultar [**Documentación sobre las imágenes de sistema oficiales**](/compatibility/#Images%20système%20officielles) para obtener más información.
+Consultar [**Documentación sobre las imágenes de sistema oficiales**](../../compatibility/es_ES/index.md#Images%20système%20officielles) para obtener más información.
 
 ## Grabación eMMC Smart
 
-Las nuevas funciones de restauración del sistema no se pueden instalar en un Smart que aún tenga Debian 10. En ese caso, lo primero que hay que hacer es formatear el soporte eMMC extraíble para pasar a una versión superior de Debian; consulta la documentación. [**Guías → Tutoriales → Restablecimiento de los ajustes de fábrica de Smart**](/howto/smart) para más información.
+Las nuevas funciones de restauración del sistema no se pueden instalar en un Smart que aún tenga Debian 10. En ese caso, lo primero que hay que hacer es formatear el soporte eMMC extraíble para pasar a una versión superior de Debian; consulta la documentación. [**Guías → Tutoriales → Restablecimiento de los ajustes de fábrica de Smart**](../../howto/es_ES/smart.md) para más información.
 
 ## Primera conexión
 
-Consulta la documentación relativa a la [**Primera conexión**](/premiers-pas/#Première%20connexion) para acceder a la interfaz de Jeedom tras la instalación.
+Consulta la documentación relativa a la [**Primera conexión**](../../premiers-pas/es_ES/index.md#Première%20connexion) para acceder a la interfaz de Jeedom tras la instalación.

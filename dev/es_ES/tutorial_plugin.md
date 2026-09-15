@@ -6,7 +6,7 @@
 
 Aquí tienes un pequeño ejercicio práctico para explicar cómo crear un plugin. A modo de ejemplo, vamos a crear un plugin que devuelva una frase de la web viedemerde.fr. (El plugin se irá ampliando).
 
-En ningún caso sustituye a la [documentación oficial](index)
+En ningún caso sustituye a la [documentación oficial](index.md)
 
 # Crear la base del complemento
 
@@ -152,7 +152,7 @@ function vdm_remove() {
 }
 ```
 
-Ya está listo el complemento, pero aún queda por personalizarlo y actualizar el icono: [Documentación para desarrolladores - Icono del complemento](Icone_de_plugin)
+Ya está listo el complemento, pero aún queda por personalizarlo y actualizar el icono: [Documentación para desarrolladores - Icono del complemento](Icone_de_plugin.md)
 
 Añade el icono a la carpeta plugin_info con el nombre vdm_icon.png
 

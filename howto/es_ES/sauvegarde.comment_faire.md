@@ -10,7 +10,7 @@ La mejor forma de estar tranquilo es utilizar ambas opciones: hacer una copia de
 
 > **Consejo**
 >
-> El procedimiento de restauración de la tarjeta microSD puede resultar útil para restablecer los ajustes predeterminados de un Jeedom a partir de la imagen facilitada por el equipo. Véase [aquí](/installation).
+> El procedimiento de restauración de la tarjeta microSD puede resultar útil para restablecer los ajustes predeterminados de un Jeedom a partir de la imagen facilitada por el equipo. Véase [aquí](../../installation/es_ES/index.md).
 
 # Copia de seguridad/Restauración de Jeedom
 

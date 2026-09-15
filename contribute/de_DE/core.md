@@ -9,7 +9,7 @@ Jeedom ist eine Open-Source-Software, deren Quellcode unter [GitHub](https://git
 ## Voraussetzungen
 
 Um zur Entwicklung des Jeedom-Kerns oder eines Plugins beizutragen, sollten Sie einige Voraussetzungen kennen und berücksichtigen:
-- Zunächst einmal ist es unerlässlich, sich mit den folgenden Punkten vertraut zu machen und sie anzuwenden [Das Beta-Testverfahren von Jeedom](/contribute/beta),
+- Zunächst einmal ist es unerlässlich, sich mit den folgenden Punkten vertraut zu machen und sie anzuwenden [Das Beta-Testverfahren von Jeedom](beta.md),
 - Außerdem muss man über[ein Benutzerkonto auf GitHub](https://github.com/){:target="_blank"},
 - Know-how [ein *Pull Request* auf GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request){:target="_blank"},
 - Die von den Änderungen betroffene Sprache verstehen *(`PHP`, `JavaScript`, `HTML`, `CSS`, `Python`, `Node.js`, usw.)*,
@@ -26,7 +26,7 @@ Ganz gleich, ob Sie ein erfahrener Entwickler sind oder nicht – jeder kann auf
 
 ### Entwicklerdokumentation
 
-Wir empfehlen Ihnen, sich regelmäßig mit den Unterlagen zum Thema [Entwicklung des Kerns](/dev/core) oder im [Entwicklung eines Plugins](/dev/) um die festgelegten Regeln anzuwenden und sicherzustellen, dass die Jeedom-Standards eingehalten werden.
+Wir empfehlen Ihnen, sich regelmäßig mit den Unterlagen zum Thema [Entwicklung des Kerns](../../dev/de_DE/core.md) oder im [Entwicklung eines Plugins](../../dev/de_DE/index.md) um die festgelegten Regeln anzuwenden und sicherzustellen, dass die Jeedom-Standards eingehalten werden.
 
 ### Entwicklerforum
 

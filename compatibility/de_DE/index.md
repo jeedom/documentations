@@ -29,7 +29,7 @@ Unsere Empfehlungen hängen von verschiedenen Faktoren ab:
 
 - **Jeedom Atlas oder Luna**: die Kombination aus Einfachheit, Optimierung und fortschrittlicher Kompatibilität.
 - **Nano-Computer** *(Odroid C2, Rock Pi, Raspberry Pi usw.)*: das beste Preis-Leistungs-Verhältnis.
-- **Mini-PC** *(NUC)*: Extrem hohe Leistung für ein etwas größeres Budget *(siehe [das spezielle Tutorial für Fortgeschrittene](/howtoadvance/vmware.installation_sur_nuc) weitere Informationen)*.
+- **Mini-PC** *(NUC)*: Extrem hohe Leistung für ein etwas größeres Budget *(siehe [das spezielle Tutorial für Fortgeschrittene](../../howtoadvance/de_DE/vmware.installation_sur_nuc.md) weitere Informationen)*.
 
 ### Unterstützte Geräte
 
@@ -87,11 +87,11 @@ Das Team entwickelt maßgeschneiderte System-Images für zahlreiche verschiedene
 | Systemabbild | Dokumentation |
 |--------------------|--------------------|
 | [Luna](https://images.jeedom.com/luna/){:target="_blank"} | [Installation auf Luna](/plugins/home%20automation%20protocol/luna) |
-| [Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Installation auf Atlas](/installation/recovery) |
-| [Smart](https://images.jeedom.com/smart/){:target="_blank"} | [Installation auf Smart](/installation/recovery) |
-| [Computer](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation auf PC/Mini-PC](/installation/baremetal) |
-| [Hypervisoren](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation auf einer virtuellen Maschine](/installation/vm) |
-| [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [Installation auf der Freebox](/installation/freeboxdelta) |
+| [Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Installation auf Atlas](../../installation/de_DE/recovery.md) |
+| [Smart](https://images.jeedom.com/smart/){:target="_blank"} | [Installation auf Smart](../../installation/de_DE/recovery.md) |
+| [Computer](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation auf PC/Mini-PC](../../installation/de_DE/baremetal.md) |
+| [Hypervisoren](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation auf einer virtuellen Maschine](../../installation/de_DE/vm.md) |
+| [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [Installation auf der Freebox](../../installation/de_DE/freeboxdelta.md) |
 
 ### Datei überprüfen
 
@@ -99,7 +99,7 @@ Der **SHA256-Schlüssel**, mit dem die Integrität der heruntergeladenen Datei �
 
 ### Erste Anmeldung
 
-Die Dokumentation zur [**Erste Anmeldung**](/premiers-pas/#Première%20connexion) um nach der Installation auf die Jeedom-Benutzeroberfläche zuzugreifen.
+Die Dokumentation zur [**Erste Anmeldung**](../../premiers-pas/de_DE/index.md#Première%20connexion) um nach der Installation auf die Jeedom-Benutzeroberfläche zuzugreifen.
 
 ### Systemkonsole
 

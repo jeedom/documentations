@@ -9,7 +9,7 @@ Jeedom is open-source software whose source code is available at [GitHub](https:
 ## Prerequisites
 
 To contribute to the development of the Jeedom core or a plugin, there are a few prerequisites you should be aware of and take into account:
-- First of all, it is essential to understand and apply [Jeedom's beta testing process](/contribute/beta),
+- First of all, it is essential to understand and apply [Jeedom's beta testing process](beta.md),
 - You also need to have[a GitHub user account](https://github.com/){:target="_blank"},
 - Expertise [a *Pull Request* on GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request){:target="_blank"},
 - Understanding the language affected by the changes *(`PHP`, `JavaScript`, `HTML`, `CSS`, `Python`, `Node.js`, etc.)*,
@@ -26,7 +26,7 @@ Whether you’re an experienced developer or not, everyone has a role to play in
 
 ### Developer Documentation
 
-We recommend that you regularly review the documentation related to [core development](/dev/core) or [plugin development](/dev/) in order to apply the established rules and ensure compliance with Jeedom standards.
+We recommend that you regularly review the documentation related to [core development](../../dev/en_US/core.md) or [plugin development](../../dev/en_US/index.md) in order to apply the established rules and ensure compliance with Jeedom standards.
 
 ### Developer Forum
 

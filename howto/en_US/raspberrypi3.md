@@ -6,7 +6,7 @@ The PI3 allows you to boot directly from a USB device, freeing you from the micr
 
 **The installation procedure is exactly the same as for a microSD card, but you’ll need to make sure you have the latest firmware.**
 
-To do this, open an SSH connection. (If you don't know how, see the microSD installation guide: [Here](/installation)
+To do this, open an SSH connection. If you don't know how, see the instructions for installing on a microSD card: [Here](../../installation/en_US/index.md)
 
 ``vcgencmd otp_dump | grep 17:``
 
@@ -34,7 +34,7 @@ Then restart the PI3
 
 > **Tip**
 >
-> You can now install Jeedom by following the exact same procedure as with an SD card. [Here](/installation)
+> You can now install Jeedom by following the exact same procedure as with an SD card. [Here](../../installation/en_US/index.md)
 
 ## Possible adjustments
 
