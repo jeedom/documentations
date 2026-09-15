@@ -150,4 +150,4 @@ Les Open VMware Tools installent les drivers spécifiques au système d’exploi
 
 ``sudo apt-get install -y open-vm-tools``
 
-Il ne vous reste plus qu’à installer Jeedom en suivant [ceci](/installation/cli)
+Il ne vous reste plus qu’à installer Jeedom en suivant [ceci](../../installation/fr_FR/cli.md)

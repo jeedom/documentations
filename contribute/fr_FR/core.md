@@ -26,7 +26,7 @@ Que vous soyez développeur confirmé ou pas, chacun a son rôle à jouer pour p
 
 ### Documentation développeurs
 
-Nous vous recommandons de prendre régulièrement connaissance des documentations relatives au [développement du core](/dev/core) ou au [développement d'un plugin](/dev/) afin d'appliquer les règles établies et être certain de respecter les normes de Jeedom.
+Nous vous recommandons de prendre régulièrement connaissance des documentations relatives au [développement du core](../../dev/fr_FR/core.md) ou au [développement d'un plugin](../../dev/fr_FR/index.md) afin d'appliquer les règles établies et être certain de respecter les normes de Jeedom.
 
 ### Forum développeurs
 

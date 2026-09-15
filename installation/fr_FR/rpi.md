@@ -59,4 +59,4 @@ Il vous suffit ensuite d’aller sur IP\_MACHINE\_JEEDOM
 
 Pour plus d'information sur l'installation de Jeedom veuillez consulter cette [documentation](cli.md)
 
-Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](/premiers-pas)
+Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](../../premiers-pas/fr_FR/index.md)

@@ -81,7 +81,7 @@ Afin de réaliser la mise à jour du système, il faut:
 
 ## Restauration système automatique ou USB
 
-Une fois le système Debian installé en version 11 ou supérieure, les mises à jour du système peuvent ensuite être effectuées directement depuis le core Jeedom en suivant [la nouvelle procédure d'installation sur Smart](/installation/recovery)
+Une fois le système Debian installé en version 11 ou supérieure, les mises à jour du système peuvent ensuite être effectuées directement depuis le core Jeedom en suivant [la nouvelle procédure d'installation sur Smart](../../installation/fr_FR/recovery.md)
 
 ## Prise en main du nouveau système
 

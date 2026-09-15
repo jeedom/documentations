@@ -5,7 +5,7 @@
 - [Restaurer une sauvegarde](sauvegarde.comment_recuperer.md)
 
 # Matériel
-- [Remise en état d'usine Smart/Atlas](/installation/recovery)
+- [Remise en état d'usine Smart/Atlas](../../installation/fr_FR/recovery.md)
 - [Raspberry Pi3](raspberrypi3.md)
 
 # Archive

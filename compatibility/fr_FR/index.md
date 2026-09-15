@@ -29,7 +29,7 @@ Nos recommandations vont dépendre de différents facteurs :
 
 - **Jeedom Atlas ou Luna** : l'alliance de la simplicité, de l'optimisation et d'une compatibilité avancée.
 - **Nano-ordinateur** *(Odroid C2, Rock Pi, Rasperry Pi, etc.)* : le meilleur rapport performance/prix.
-- **Mini-PC** *(NUC)* : des performances extrêmes pour un budget plus conséquent *(voir [le tutoriel avancé dédié](/howtoadvance/vmware.installation_sur_nuc) pour plus de détails)*.
+- **Mini-PC** *(NUC)* : des performances extrêmes pour un budget plus conséquent *(voir [le tutoriel avancé dédié](../../howtoadvance/fr_FR/vmware.installation_sur_nuc.md) pour plus de détails)*.
 
 ### Matériels supportés
 
@@ -87,11 +87,11 @@ L'équipe développe des images système sur-mesure à destination de nombreuses
 | Image système      | Documentation      |
 |--------------------|--------------------|
 | [Luna](https://images.jeedom.com/luna/){:target="_blank"} | [Installation sur Luna](/plugins/home%20automation%20protocol/luna) |
-| [Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Installation sur Atlas](/installation/recovery) |
-| [Smart](https://images.jeedom.com/smart/){:target="_blank"} | [Installation sur Smart](/installation/recovery) |
-| [Ordinateurs](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation sur PC/mini-PC](/installation/baremetal) |
-| [Hyperviseurs](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation sur machine virtuelle](/installation/vm) |
-| [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [Installation sur Freebox](/installation/freeboxdelta) |
+| [Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Installation sur Atlas](../../installation/fr_FR/recovery.md) |
+| [Smart](https://images.jeedom.com/smart/){:target="_blank"} | [Installation sur Smart](../../installation/fr_FR/recovery.md) |
+| [Ordinateurs](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation sur PC/mini-PC](../../installation/fr_FR/baremetal.md) |
+| [Hyperviseurs](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation sur machine virtuelle](../../installation/fr_FR/vm.md) |
+| [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [Installation sur Freebox](../../installation/fr_FR/freeboxdelta.md) |
 
 ### Vérification du fichier
 
@@ -99,7 +99,7 @@ La **clé SHA256**, permettant de vérifier l'intégrité du fichier télécharg
 
 ### Première connexion
 
-Consulter la documentation relative à la [**première connexion**](/premiers-pas/#Première%20connexion) pour accéder à l'interface Jeedom suite à l'installation.
+Consulter la documentation relative à la [**première connexion**](../../premiers-pas/fr_FR/index.md#Première%20connexion) pour accéder à l'interface Jeedom suite à l'installation.
 
 ### Console système
 
