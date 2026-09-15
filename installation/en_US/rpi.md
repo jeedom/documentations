@@ -57,6 +57,6 @@ Then simply go to IP\_MACHINE\_JEEDOM
 >
 > The default login credentials are admin/admin
 
-For more information on installing Jeedom, please see this [documentation](cli)
+For more information on installing Jeedom, please see this [documentation](cli.md)
 
-Next, you can follow the documentation [Getting Started with Jeedom](/premiers-pas)
+Next, you can follow the documentation [Getting Started with Jeedom](../../premiers-pas/en_US/index.md)

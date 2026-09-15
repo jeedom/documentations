@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In the [tutorial](tutorial_plugin) and the [documentation](plugin_template) You've learned how to code your first plugin using relatively simple actions triggered by the user via an action command or by a task scheduled by the core (crons).
+In the [tutorial](tutorial_plugin.md) and the [documentation](plugin_template.md) You've learned how to code your first plugin using relatively simple actions triggered by the user via an action command or by a task scheduled by the core (crons).
 The plugin is then capable of periodically retrieving information (for example, via an HTTP request) or performing all kinds of operations, as long as they can be coded in PHP.
 
 There may be times when you need more than that; here are a few examples, though this list is not exhaustive:
@@ -20,7 +20,7 @@ Don't panic—everything is already built into the Jeedom core to help us set up
 The code and/or executable file for your daemon must, of course, be located in your plugin's directory structure and must therefore be included and delivered with the archive when installing a plugin.
 There are no strict rules regarding the exact location of your daemon; however, it is customary to place it in the subdirectory `./resources/` of the plugin.
 
-In the plugin template, you'll find the basics for implementing a Python daemon, and that's the example we'll be using in this documentation; however, you're free to develop your daemon in the language of your choice, provided it can be run on the [Platforms supported by Jeedom](/compatibility/).
+In the plugin template, you'll find the basics for implementing a Python daemon, and that's the example we'll be using in this documentation; however, you're free to develop your daemon in the language of your choice, provided it can be run on the [Platforms supported by Jeedom](../../compatibility/en_US/index.md).
 Most Jeedom plugin daemons are written in Python or Node.js, but there are also some written in .NET Core and certainly other technologies as well.
 
 You’ll also find some useful methods for a Node.js daemon, which may be covered in more detail in a future version of this documentation. For now, I encourage you to check out the developer community to coordinate with other developers on all matters related to Node.js, particularly regarding which version to use.
@@ -380,7 +380,7 @@ You can copy and paste the code below as is and modify the indicated lines.
             sleep(1);
             $i++;
         }
-        if ($i >= 30) {
+        if ($i >= 20) {
             log::add(__CLASS__, 'error', __('Impossible de lancer le démon, vérifiez le log', __FILE__), 'unableStartDeamon');
             return false;
         }
@@ -606,7 +606,7 @@ Example:
 ```json
 {
   "pre-install" : {
-    "script" : "plugins/[pluginID]/resources/post-install.sh"
+    "script" : "plugins/[pluginID]/resources/pre-install.sh"
   }
 ```
 

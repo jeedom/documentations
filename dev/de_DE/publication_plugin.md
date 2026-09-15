@@ -2,7 +2,7 @@
 
 ## Voraussetzungen
 
-- Als Entwickler im Market registriert sein, siehe [Plugin-Entwicklung > Entwicklerkonto](index#Compte%20développeur),
+- Als Entwickler im Market registriert sein, siehe [Plugin-Entwicklung > Entwicklerkonto](index.md#Compte%20développeur),
 - Das Plugin auf GitHub hochgeladen haben *(privates oder öffentliches Repository)*.
 - Stellen Sie Ihr Plugin im Forum im [**Entwicklermesse**, Kategorie **Plugin-Präsentation**](https://community.jeedom.com/c/developpeur-developpeurs/presentation-plugin/20){:target="_blank"}.
 

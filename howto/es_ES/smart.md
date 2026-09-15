@@ -81,7 +81,7 @@ Para actualizar el sistema, hay que:
 
 ## Recuperación automática del sistema o mediante USB
 
-Una vez instalado el sistema Debian en su versión 11 o superior, las actualizaciones del sistema se pueden realizar directamente desde el núcleo de Jeedom siguiendo estos pasos: [el nuevo procedimiento de instalación en Smart](/installation/recovery)
+Una vez instalado el sistema Debian en su versión 11 o superior, las actualizaciones del sistema se pueden realizar directamente desde el núcleo de Jeedom siguiendo estos pasos: [el nuevo procedimiento de instalación en Smart](../../installation/es_ES/recovery.md)
 
 ## Introducción al nuevo sistema
 

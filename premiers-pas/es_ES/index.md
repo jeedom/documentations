@@ -33,7 +33,7 @@ La mayoría ofrece una lista de los dispositivos conectados, con su nombre de ho
 
 También se puede acceder a la interfaz de Jeedom mediante el nombre de host del equipo.
 
-- En caso de utilizar una [imagen oficial del sistema](/compatibility/#Images%20système%20officielles) Para instalar Jeedom, se conoce el nombre de host y se debe poder acceder a Jeedom en:
+- En caso de utilizar una [imagen oficial del sistema](../../compatibility/es_ES/index.md#Images%20système%20officielles) Para instalar Jeedom, se conoce el nombre de host y se debe poder acceder a Jeedom en:
 
 | Dispositivo | Interfaz Jeedom   |
 |--------------------|--------------------|
@@ -49,7 +49,7 @@ La dirección de la interfaz de Jeedom debería ser, normalmente: `http://MACHIN
 
 #### Consola del sistema
 
-Desde hace un [imagen oficial del sistema](/compatibility/#Images%20système%20officielles): cada vez que se accede directamente a la consola, se muestra inmediatamente la dirección de la interfaz de Jeedom:
+Desde hace un [imagen oficial del sistema](../../compatibility/es_ES/index.md#Images%20système%20officielles): cada vez que se accede directamente a la consola, se muestra inmediatamente la dirección de la interfaz de Jeedom:
 
 {% include lightbox.html src="../images/shell_ip.jpg" data="shell_ip" title="Console système : IP Jeedom" imgstyle="display:block;margin:0 auto;" %}
 
@@ -133,7 +133,7 @@ Marca la casilla **Activar DNS Jeedom** y, a continuación, haz clic en el botó
 
 Puedes personalizar la dirección de acceso remoto haciendo clic en el botón **Configuración** del servicio desde [**tu perfil de mercado**](https://www.jeedom.com/market/index.php?v=d&p=profils#services){:target="_blank"}.
 
-Encuentra toda la información en [Documentación sobre el servicio de acceso remoto - DNS Jeedom](/howto/mise_en_place_dns_jeedom).
+Encuentra toda la información en [Documentación sobre el servicio de acceso remoto - DNS Jeedom](../../howto/es_ES/mise_en_place_dns_jeedom.md).
 
 ## Crear mi primer objeto
 

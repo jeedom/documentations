@@ -29,8 +29,8 @@ Felder | Werte |
 ``link`` -> ``forum``               | HTML-Link zum offiziellen Forum zum Thema des Plugins. |
 ``language``                | Liste der für das Plugin verfügbaren Sprachen: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``es_ES``, ``pt_PT``            |
 ``compatibility``            | Plugin-Kompatibilität: miniplus, smart, docker, rpi, diy, mobileapp, v4. |
-``hasDependency``            | „true“, wenn [Das Plugin muss Abhängigkeiten installieren](daemon_plugin#Les%20d%C3%A9pendance), andernfalls „false“ oder nicht vorhanden. |
-``hasOwnDeamon``             | „true“, wenn [Das Plugin muss Daemons ausführen](daemon_plugin#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), andernfalls „false“ oder nicht vorhanden. |
+``hasDependency``            | „true“, wenn [Das Plugin muss Abhängigkeiten installieren](daemon_plugin.md#Les%20d%C3%A9pendance), andernfalls „false“ oder nicht vorhanden. |
+``hasOwnDeamon``             | „true“, wenn [Das Plugin muss Daemons ausführen](daemon_plugin.md#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), andernfalls „false“ oder nicht vorhanden. |
 ``maxDependancyInstallTime`` | Maximale Zeit für die Installation der Nebengebäude, angegeben in Minuten. |
 ``specialAttributes`` | Ermöglicht es Plugins, [zusätzliche Einstellung](#SpecialAttributes) auf [von Objekten](#Attributs%20Objet) oder [der Nutzer](#Attributs%20User) (Schauen Sie sich das Beispiel für die Plugin-Vorlage genau an) (Siehe Erläuterungen unten) |
 ``issue``                    | URL zum Bugtracker, falls extern (falls nicht ausgefüllt, erhalten Sie eine E-Mail)

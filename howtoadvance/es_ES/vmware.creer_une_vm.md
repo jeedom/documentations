@@ -19,7 +19,7 @@ Accede a IP\_ESXI/ui con tu navegador de Internet; deberías ver lo siguiente:
 
 > **Nota**
 >
-> Si aún no tienes nada, te recomiendo que instales la interfaz web; toda la información [aquí](vmware.trucs_et_astuces)
+> Si aún no tienes nada, te recomiendo que instales la interfaz web; toda la información [aquí](vmware.trucs_et_astuces.md)
 
 Introduce tus datos de acceso a ESXI:
 
@@ -127,19 +127,19 @@ Tu ordenador se encenderá y podrás instalar tu sistema operativo:
 >
 > Una vez instalada tu máquina, es IMPRESCINDIBLE instalar las herramientas de VMware (esto permite a VMware obtener información sobre tu máquina virtual y apagarla correctamente). En Debian, basta con ejecutar «sudo apt-get -y install open-vm-tools».
 
-Para continuar con la instalación, te invito a leer esto [tutorial](debian.installation)
+Para continuar con la instalación, te invito a leer esto [tutorial](debian.installation.md)
 
 # Montar los dispositivos USB en la máquina virtual
 
 > **Nota**
 >
-> Si no ves las opciones que aparecen a continuación, significa que tienes que actualizar el ESXi Embedded Host Client; toda la información [aquí](vmware.trucs_et_astuces)
+> Si no ves las opciones que aparecen a continuación, significa que tienes que actualizar el ESXi Embedded Host Client; toda la información [aquí](vmware.trucs_et_astuces.md)
 
 Es una necesidad bastante poco habitual, pero tuve que recurrir a ella para Jeedom, ya que tengo conectadas en mi ESXi las claves Z-Wave, RFXcom, Edisio, enOcean y GSM, y necesitaba conectarlas a mi máquina virtual Jeedom para poder utilizarlas.
 
 > **Nota**
 >
-> Con Z-Wave, RFXcom, edisio y enOcean no hay ningún problema; en cuanto a los módulos GSM, debes seguir estas instrucciones [tutorial](gsm.huawei_mode_modem) antes para forzar la clave en modo módem únicamente; de lo contrario, esta no se detecta correctamente en el ESXi.
+> Con Z-Wave, RFXcom, edisio y enOcean no hay ningún problema; en cuanto a los módulos GSM, debes seguir estas instrucciones [tutorial](gsm.huawei_mode_modem.md) antes para forzar la clave en modo módem únicamente; de lo contrario, esta no se detecta correctamente en el ESXi.
 
 Accede a tu máquina virtual y selecciona «Modificar parámetros»:
 

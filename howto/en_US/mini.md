@@ -32,4 +32,4 @@ All you have to do is insert the SD card into the Jeedomboard (or Hummingboard),
 >
 > The SSH credentials are jeedom/Mjeedom96
 
-For the next steps, please refer to the documentation [Getting Started with Jeedom](/premiers-pas)
+For the next steps, please refer to the documentation [Getting Started with Jeedom](../../premiers-pas/en_US/index.md)

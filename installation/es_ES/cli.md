@@ -4,13 +4,13 @@ El siguiente procedimiento está dirigido a usuarios avanzados y permite instala
 
 >**INFORMACIÓN**
 >
->Si tienes alguna duda sobre la instalación de Debian, el equipo de Jeedom también ofrece imágenes del sistema que incluyen Debian y Jeedom preinstalados. Consulta [**documentación específica**](/compatibility/#Images%20système%20officielles) para más información.
+>Si tienes alguna duda sobre la instalación de Debian, el equipo de Jeedom también ofrece imágenes del sistema que incluyen Debian y Jeedom preinstalados. Consulta [**documentación específica**](../../compatibility/es_ES/index.md#Images%20système%20officielles) para más información.
 
 ## Versión de Debian
 
 Jeedom es un programa para Linux diseñado para funcionar de forma óptima en [un servidor Debian](https://www.debian.org/){:target="_blank"}.
 
-No olvides comprobar que [**Jeedom es compatible con tu versión de Debian**](/compatibility/#Debian) antes de proceder a la instalación.
+No olvides comprobar que [**Jeedom es compatible con tu versión de Debian**](../../compatibility/es_ES/index.md#Debian) antes de proceder a la instalación.
 
 ## Instalación manual
 
@@ -58,8 +58,8 @@ El script de instalación de Jeedom dispone de diferentes opciones que permiten 
 
 ## Compatibilidad de hardware
 
-La lista, no exhaustiva, de los dispositivos compatibles con Jeedom se puede consultar en [Documentación **Compatibilidad**](/compatibility/#Matériels%20supportés)
+La lista, no exhaustiva, de los dispositivos compatibles con Jeedom se puede consultar en [Documentación **Compatibilidad**](../../compatibility/es_ES/index.md#Matériels%20supportés)
 
 ## Primera conexión
 
-Consulta la documentación relativa a la [**Primera conexión**](/premiers-pas/#Première%20connexion) para acceder a la interfaz de Jeedom tras la instalación.
+Consulta la documentación relativa a la [**Primera conexión**](../../premiers-pas/es_ES/index.md#Première%20connexion) para acceder a la interfaz de Jeedom tras la instalación.

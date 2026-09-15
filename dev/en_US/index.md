@@ -6,25 +6,25 @@
 
 ## Development stages
 
-- [Tutorial](tutorial_plugin)
+- [Tutorial](tutorial_plugin.md)
 
-- [Plugin icon](Icone_de_plugin)
-- [info.json structure](structure_info_json)
-- [Plugin Documentation](documentation_plugin)
-- [Publishing a plugin](publication_plugin)
-- [Plugin widget](widget_plugin)
-- [Plugin template](plugin_template)
-- [Plugin daemon and dependencies](daemon_plugin)
-- [Command Value Recommendation](cmd_value)
+- [Plugin icon](Icone_de_plugin.md)
+- [info.json structure](structure_info_json.md)
+- [Plugin Documentation](documentation_plugin.md)
+- [Publishing a plugin](publication_plugin.md)
+- [Plugin widget](widget_plugin.md)
+- [Plugin template](plugin_template.md)
+- [Plugin daemon and dependencies](daemon_plugin.md)
+- [Command Value Recommendation](cmd_value.md)
 
 ## JavaScript Core 4.4+
 
-- [JavaScript development and Core 4.4+](corejs/)
+- [JavaScript development and Core 4.4+](corejs/index.md)
 
 ## Core Updates and Plugin Adaptations
 
-- [Core v4.4](core4.4)
-- [Core v4.3](core4.3)
+- [Core v4.4](core4.4.md)
+- [Core v4.3](core4.3.md)
 
 ## Plugin Transfer
 

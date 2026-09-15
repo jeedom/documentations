@@ -18,7 +18,7 @@ Puedes visualizar estos dispositivos de varias formas:
 
 ![Resumen](../images/concept-synthese.jpg)
 
-Se puede acceder a ellos desde un navegador en un ordenador de sobremesa, en un smartphone con la WebApp o con la aplicación móvil: [Versión móvil](/mobile)
+Se puede acceder a ellos desde un navegador en un ordenador de sobremesa, en un smartphone con la WebApp o con la aplicación móvil: [Versión móvil](../../mobile/es_ES/index.md)
 
 ## Los objetos
 

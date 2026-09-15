@@ -38,4 +38,4 @@ Die IP-Adresse Ihres Jeedom auf der Freebox Delta ist oben unter dem Namen angeg
 
 Der Standard-Benutzername und das Standard-Passwort lauten „admin/admin“, wenn Sie über Ihren Browser auf Jeedom zugreifen.
 
-Für die weiteren Schritte können Sie der Dokumentation folgen [Erste Schritte mit Jeedom](/premiers-pas)
+Für die weiteren Schritte können Sie der Dokumentation folgen [Erste Schritte mit Jeedom](../../premiers-pas/de_DE/index.md)

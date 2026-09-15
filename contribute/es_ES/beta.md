@@ -7,7 +7,7 @@ Un probador beta es un usuario que prueba las versiones del software antes de qu
 
 Aunque los desarrolladores toman todas las precauciones posibles, las versiones en fase de desarrollo pueden contener errores que hagan que un complemento o el núcleo dejen de funcionar por completo. Del mismo modo, las funcionalidades en fase de desarrollo pueden posponerse o incluso abandonarse, dependiendo de las circunstancias. Por lo tanto, es necesario estar bastante familiarizado con los procedimientos de copia de seguridad y restauración de Jeedom antes de lanzarse a las pruebas beta.
 
-Como se ha indicado anteriormente, actualizar Jeedom o un complemento a una versión en fase de desarrollo conlleva riesgos. Por lo tanto, **se recomienda encarecidamente hacerlo en una instalación de prueba destinada a tal fin *([una máquina virtual](/installation/vm) por ejemplo)* en lugar de en un Jeedom en producción**.
+Como se ha indicado anteriormente, actualizar Jeedom o un complemento a una versión en fase de desarrollo conlleva riesgos. Por lo tanto, **se recomienda encarecidamente hacerlo en una instalación de prueba destinada a tal fin *([una máquina virtual](../../installation/es_ES/vm.md) por ejemplo)* en lugar de en un Jeedom en producción**.
 
 >**IMPORTANTE**
 >
@@ -116,8 +116,8 @@ Ya sea para corregir un simple error ortográfico o sintáctico, o incluso para 
 
 Las páginas de documentación que estás consultando actualmente requieren actualizaciones y adaptaciones periódicas para seguir siendo válidas y fiables. Agradecemos enormemente la ayuda de la comunidad en este sentido.
 
-Hay que tener en cuenta algunas particularidades antes de proponer cambios en la documentación. Por lo tanto, es imprescindible conocer las buenas prácticas para [colaborar en la documentación](/contribute/doc) ante todo.
+Hay que tener en cuenta algunas particularidades antes de proponer cambios en la documentación. Por lo tanto, es imprescindible conocer las buenas prácticas para [colaborar en la documentación](doc.md) ante todo.
 
 ### Núcleo y complementos
 
-Al igual que la documentación, el núcleo de Jeedom y la mayoría de los complementos también están abiertos a contribuciones externas. Consulta la página [«Contribuir al núcleo o a los complementos»](/contribute/core) Para más información.
+Al igual que la documentación, el núcleo de Jeedom y la mayoría de los complementos también están abiertos a contribuciones externas. Consulta la página [«Contribuir al núcleo o a los complementos»](core.md) Para más información.

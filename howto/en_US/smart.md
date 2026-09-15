@@ -81,7 +81,7 @@ To update the system, you must:
 
 ## Automatic system restore or USB restore
 
-Once Debian version 11 or higher is installed, system updates can then be performed directly from the Jeedom core by following [The new installation procedure on Smart](/installation/recovery)
+Once Debian version 11 or higher is installed, system updates can then be performed directly from the Jeedom core by following [The new installation procedure on Smart](../../installation/en_US/recovery.md)
 
 ## Getting Started with the New System
 

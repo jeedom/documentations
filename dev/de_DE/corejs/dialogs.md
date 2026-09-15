@@ -1,4 +1,4 @@
-[<< Core.js](index)
+[<< Core.js](index.md)
 ## Dialogfelder
 
 Die Verwaltung der Dialogfelder in Jeedom basiert vollständig auf der internen Bibliothek jeeDialog().

@@ -160,4 +160,4 @@ Die vollständige Liste finden Sie auf der [Docker Hub](https://hub.docker.com/r
 
 ## Erste Anmeldung
 
-Die Dokumentation zur [**Erste Anmeldung**](/premiers-pas/#Première%20connexion) um nach der Installation auf die Jeedom-Benutzeroberfläche zuzugreifen.
+Die Dokumentation zur [**Erste Anmeldung**](../../premiers-pas/de_DE/index.md#Première%20connexion) um nach der Installation auf die Jeedom-Benutzeroberfläche zuzugreifen.

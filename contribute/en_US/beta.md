@@ -7,7 +7,7 @@ A beta tester is a user who tests software versions before they are released to 
 
 Although developers take every possible precaution, versions currently under development may contain bugs that could render a plugin or the core completely inoperable. Similarly, features currently under development may be postponed or even abandoned depending on circumstances. You should therefore be fairly comfortable with Jeedom’s backup and Restoration procedures before embarking on beta testing.
 
-As noted above, switching Jeedom or a plugin to a version currently under development carries risks. Therefore, **it is strongly recommended that you do this on a test installation set up for this purpose *([a virtual machine](/installation/vm) for example)* rather than on a Jeedom in production**.
+As noted above, switching Jeedom or a plugin to a version currently under development carries risks. Therefore, **it is strongly recommended that you do this on a test installation set up for this purpose *([a virtual machine](../../installation/en_US/vm.md) for example)* rather than on a Jeedom in production**.
 
 >**IMPORTANT**
 >
@@ -116,8 +116,8 @@ Whether it's to correct a simple spelling or syntax error, or even to suggest a 
 
 The documentation pages you are currently viewing require regular updates and revisions to remain valid and reliable. We greatly appreciate the community's assistance in this regard.
 
-There are a few specific considerations to keep in mind before proposing changes to the documentation. It is therefore essential to familiarize yourself with best practices for [contribute to the documentation](/contribute/doc) first and foremost.
+There are a few specific considerations to keep in mind before proposing changes to the documentation. It is therefore essential to familiarize yourself with best practices for [contribute to the documentation](doc.md) first and foremost.
 
 ### Core and Plugins
 
-Like the documentation, the Jeedom core and most plugins are also open to external contributions. Please refer to the page ["Contribute to the core or to plugins"](/contribute/core) Learn more.
+Like the documentation, the Jeedom core and most plugins are also open to external contributions. Please refer to the page ["Contribute to the core or to plugins"](core.md) Learn more.

@@ -57,6 +57,6 @@ Anschließend müssen Sie lediglich zu IP\_MACHINE\_JEEDOM navigieren
 >
 > Die Standard-Anmeldedaten lauten admin/admin
 
-Weitere Informationen zur Installation von Jeedom finden Sie hier [Dokumentation](cli)
+Weitere Informationen zur Installation von Jeedom finden Sie hier [Dokumentation](cli.md)
 
-Anschließend können Sie der Dokumentation folgen [Erste Schritte mit Jeedom](/premiers-pas)
+Anschließend können Sie der Dokumentation folgen [Erste Schritte mit Jeedom](../../premiers-pas/de_DE/index.md)

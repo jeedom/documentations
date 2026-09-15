@@ -1,4 +1,4 @@
-[<< Core js](index)
+[<< Core js](index.md)
 ## Cuadros de diálogo
 
 La gestión de los cuadros de diálogo de Jeedom se basa íntegramente en la función interna jeeDialog().

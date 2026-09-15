@@ -21,7 +21,7 @@ This method is also possible with other tools, such as **Atom** (which will requ
 
 The first thing to do if you're developing Core features or a plugin: Set up a test environment. After all, you shouldn't develop on a production environment!
 
-For instructions on installing Jeedom, see the documentation here: [Installation on Raspberry Pi](/installation/rpi).
+For instructions on installing Jeedom, see the documentation here: [Installation on Raspberry Pi](../../installation/en_US/rpi.md).
 
 Note: Choose an SSD over an SD card!
 

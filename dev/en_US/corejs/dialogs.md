@@ -1,4 +1,4 @@
-[<< Core.js](index)
+[<< Core.js](index.md)
 ## Dialog boxes
 
 Jeedom's dialog box management relies entirely on the internal library function jeeDialog().

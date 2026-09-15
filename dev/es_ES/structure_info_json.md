@@ -29,8 +29,8 @@ Campos | Valores |
 ``link`` -> ``forum``               | Enlace HTML al foro sobre el tema oficial del complemento. |
 ``language``                | Lista de idiomas disponibles para el complemento: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``es_ES``, ``pt_PT``            |
 ``compatibility``            | Compatibilidad del complemento: miniplus, smart, docker, rpi, diy, mobileapp, v4. |
-``hasDependency``            | «true» si [El complemento debe instalar algunas dependencias](daemon_plugin#Les%20d%C3%A9pendance), o bien «false» o ausente. |
-``hasOwnDeamon``             | «true» si [El complemento debe ejecutar daemons](daemon_plugin#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), o bien «false» o ausente. |
+``hasDependency``            | «true» si [El complemento debe instalar algunas dependencias](daemon_plugin.md#Les%20d%C3%A9pendance), o bien «false» o ausente. |
+``hasOwnDeamon``             | «true» si [El complemento debe ejecutar daemons](daemon_plugin.md#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), o bien «false» o ausente. |
 ``maxDependancyInstallTime`` | Tiempo máximo asignado para la instalación de los dispositivos, expresado en minutos. |
 ``specialAttributes`` | Permite a los complementos solicitar [parámetro adicional](#SpecialAttributes) en [de los objetos](#Attributs%20Objet) o [de los usuarios](#Attributs%20User) (fíjate bien en el ejemplo de la plantilla del complemento) (Ver explicaciones más abajo) |
 ``issue``                    | URL del gestor de incidencias, si es externo (si no se rellena, recibirás un correo electrónico)
