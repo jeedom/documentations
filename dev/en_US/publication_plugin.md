@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- To register as a developer on the marketplace, see [Plugin Development > Developer Account](index.md#Compte%20développeur),
+- To register as a developer on the marketplace, see [Plugin Development > Developer Account](index.md#developer-account),
 - Have uploaded your plugin to GitHub *(private or public repository)*.
 - Post your plugin on the forum in the [**Developer Expo**, **Plugin Showcase** category](https://community.jeedom.com/c/developpeur-developpeurs/presentation-plugin/20){:target="_blank"}.
 

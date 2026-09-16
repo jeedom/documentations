@@ -51,7 +51,7 @@ Depending on the plugins installed on your **Jeedom Slave**, you’ll need to re
 ## Preventive backups
 
 -   Create a [Jeedom backup](/core/backup) from your **Jeedom Master** and your **Jeedom Slave(s)** and retrieve them on your PC/NAS…​.
--   Create a [SD card/hard drive backup](../../howto/en_US/sauvegarde.comment_faire.md#_sauvegarde_restauration_de_la_carte_microsd) from your **Jeedom Master** and your **Jeedom Slave(s)** and retrieve them on your PC/NAS…​.
+-   Create a [SD card/hard drive backup](../../howto/en_US/sauvegarde.comment_faire.md#backing-uprestoring-the-microsd-card) from your **Jeedom Master** and your **Jeedom Slave(s)** and retrieve them on your PC/NAS…​.
 
 # Migration
 

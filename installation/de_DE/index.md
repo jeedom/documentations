@@ -5,9 +5,9 @@ Einige Plugins können jedoch kostenpflichtig sein und/oder eine Internetverbind
 
 ## Kompatibilität
 
-[**Die offiziellen Jeedom-Boxen**](../../compatibility/de_DE/index.md#Boxes%20officielles) gewährleisten uneingeschränkte Kompatibilität unabhängig von zukünftigen Software-Weiterentwicklungen.
+[**Die offiziellen Jeedom-Boxen**](../../compatibility/de_DE/index.md#offizielle-boxen) gewährleisten uneingeschränkte Kompatibilität unabhängig von zukünftigen Software-Weiterentwicklungen.
 
-Jeedom kann auch auf folgenden Systemen installiert werden: [alle unterstützten Geräte](../../compatibility/de_DE/index.md#Matériels%20supportés) das System unterstützt [**Derzeit empfohlene Version von Linux Debian**](../../compatibility/de_DE/index.md#Debian).
+Jeedom kann auch auf folgenden Systemen installiert werden: [alle unterstützten Geräte](../../compatibility/de_DE/index.md#unterstützte-geräte) das System unterstützt [**Derzeit empfohlene Version von Linux Debian**](../../compatibility/de_DE/index.md#debian).
 
 ## Sicherung von Jeedom
 

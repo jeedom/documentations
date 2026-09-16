@@ -11,7 +11,7 @@ Como se ha indicado anteriormente, actualizar Jeedom o un complemento a una vers
 
 >**IMPORTANTE**
 >
->El equipo de Jeedom no se hace responsable de ningún fallo que se produzca tras la instalación de una versión que no sea la estable. En ese caso, **no se podrá acceder al servicio de asistencia oficial**, por lo que es necesario [enviar un informe](#Faire%20une%20remontée).
+>El equipo de Jeedom no se hace responsable de ningún fallo que se produzca tras la instalación de una versión que no sea la estable. En ese caso, **no se podrá acceder al servicio de asistencia oficial**, por lo que es necesario [enviar un informe](#enviar-una-sugerencia).
 
 ## Ramas
 
@@ -41,7 +41,7 @@ Las ramas secundarias corresponden a desarrollos independientes y puntuales, des
 
 ### Cambiar de versión
 
-Al leer el [advertencias](#Mises%20en%20garde) Como se ha explicado anteriormente, es evidente que **esta operación debe reservarse a usuarios avanzados que conozcan bien el tema**.
+Al leer el [advertencias](#advertencias) Como se ha explicado anteriormente, es evidente que **esta operación debe reservarse a usuarios avanzados que conozcan bien el tema**.
 
 Para cambiar de rama y, por lo tanto, de versión de Jeedom, ve al menú **Ajustes → Sistema → Configuración**, pestaña **Actualizaciones/Market**. Deja la fuente de actualización en **Predeterminada** y selecciona la versión del núcleo *(rama)* que quieras instalar.
 

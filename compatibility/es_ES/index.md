@@ -99,7 +99,7 @@ La **clave SHA256**, que permite verificar la integridad del archivo descargado,
 
 ### Primera conexión
 
-Consulta la documentación relativa a la [**Primera conexión**](../../premiers-pas/es_ES/index.md#Première%20connexion) para acceder a la interfaz de Jeedom tras la instalación.
+Consulta la documentación relativa a la [**Primera conexión**](../../premiers-pas/es_ES/index.md#primera-conexión) para acceder a la interfaz de Jeedom tras la instalación.
 
 ### Consola del sistema
 

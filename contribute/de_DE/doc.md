@@ -3,9 +3,9 @@
 Die Jeedom-Dokumentation ist auf dieser Website über verschiedene Mechanismen zentralisiert. Wie der Kern von Jeedom, [Die Dokumentation ist auf GitHub einsehbar](https://github.com/jeedom/documentations){:target="_blank"} und ist Open-Source *(MIT-Lizenz)*.
 
 Diese lässt sich in drei große Kategorien unterteilen:
-- [Allgemeine Dokumentation](#Documentation%20générale)
-- [Die Dokumentation zum Jeedom-Core](#Documentation%20du%20core%20Jeedom)
-- [Die Dokumentation zu den Plugins](#Documentation%20des%20plugins)
+- [Allgemeine Dokumentation](#allgemeine-dokumentation)
+- [Die Dokumentation zum Jeedom-Core](#jeedom-core-dokumentation)
+- [Die Dokumentation zu den Plugins](#plugin-dokumentation)
 
 >**INFORMATION**
 >

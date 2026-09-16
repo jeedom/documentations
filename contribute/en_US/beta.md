@@ -11,7 +11,7 @@ As noted above, switching Jeedom or a plugin to a version currently under develo
 
 >**IMPORTANT**
 >
->The Jeedom team cannot be held responsible for any malfunctions that occur as a result of installing a version other than the stable release. In this case, **access to official support is not available**, so you must [submit a report](#Faire%20une%20remontée).
+>The Jeedom team cannot be held responsible for any malfunctions that occur as a result of installing a version other than the stable release. In this case, **access to official support is not available**, so you must [submit a report](#submit-a-report).
 
 ## Branches
 
@@ -41,7 +41,7 @@ Branches are independent, one-off developments intended to be integrated into a 
 
 ### Change version
 
-Upon reading the [warnings](#Mises%20en%20garde) As explained earlier, it is clear that **this procedure should only be performed by advanced users who fully understand what they are doing**.
+Upon reading the [warnings](#warnings) As explained earlier, it is clear that **this procedure should only be performed by advanced users who fully understand what they are doing**.
 
 To change branches—and thus Jeedom versions—go to the **Settings → System → Configuration** menu, then the **Updates/Market** tab. Leave the update source set to **Default** and select the core version *(branch)* you want to install.
 

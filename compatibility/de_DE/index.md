@@ -99,7 +99,7 @@ Der **SHA256-Schlüssel**, mit dem die Integrität der heruntergeladenen Datei �
 
 ### Erste Anmeldung
 
-Die Dokumentation zur [**Erste Anmeldung**](../../premiers-pas/de_DE/index.md#Première%20connexion) um nach der Installation auf die Jeedom-Benutzeroberfläche zuzugreifen.
+Die Dokumentation zur [**Erste Anmeldung**](../../premiers-pas/de_DE/index.md#erste-anmeldung) um nach der Installation auf die Jeedom-Benutzeroberfläche zuzugreifen.
 
 ### Systemkonsole
 

@@ -16,7 +16,7 @@ El primer paso consiste en descargar la imagen del sistema que quieras instalar:
 
 >**INFORMACIÓN**
 >
->Consultar [**documentación específica**](../../compatibility/es_ES/index.md#Images%20système%20officielles) Para obtener más información sobre las imágenes del sistema Jeedom.
+>Consultar [**documentación específica**](../../compatibility/es_ES/index.md#imágenes-oficiales-del-sistema) Para obtener más información sobre las imágenes del sistema Jeedom.
 
 ## Grabación de la imagen del sistema
 
@@ -54,8 +54,8 @@ Tras arrancar el ordenador desde el soporte que contiene la imagen del sistema, 
 
 ## Compatibilidad de hardware
 
-La lista, no exhaustiva, de ordenadores compatibles con Jeedom se puede consultar en [Documentación **Compatibilidad**](../../compatibility/es_ES/index.md#Matériels%20supportés)
+La lista, no exhaustiva, de ordenadores compatibles con Jeedom se puede consultar en [Documentación **Compatibilidad**](../../compatibility/es_ES/index.md#dispositivos-compatibles)
 
 ## Primera conexión
 
-Consulta la documentación relativa a la [**Primera conexión**](../../premiers-pas/es_ES/index.md#Première%20connexion) para acceder a la interfaz de Jeedom tras la instalación.
+Consulta la documentación relativa a la [**Primera conexión**](../../premiers-pas/es_ES/index.md#primera-conexión) para acceder a la interfaz de Jeedom tras la instalación.

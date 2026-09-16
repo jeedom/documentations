@@ -51,7 +51,7 @@ En función de los complementos instalados en tu **Jeedom Esclave**, es necesari
 ## Copias de seguridad preventivas
 
 -   Hacer una [copia de seguridad de Jeedom](/core/backup) de tu **Jeedom maestro** y de tu(s) **Jeedom esclavo(s)** y recuperarlas en tu PC/NAS…​.
--   Hacer una [copia de seguridad en tarjeta SD/disco duro](../../howto/es_ES/sauvegarde.comment_faire.md#_sauvegarde_restauration_de_la_carte_microsd) de tu **Jeedom maestro** y de tu(s) **Jeedom esclavo(s)** y guardarlas en tu PC/NAS…​.
+-   Hacer una [copia de seguridad en tarjeta SD/disco duro](../../howto/es_ES/sauvegarde.comment_faire.md#copia-de-seguridadrestauración-de-la-tarjeta-microsd) de tu **Jeedom maestro** y de tu(s) **Jeedom esclavo(s)** y guardarlas en tu PC/NAS…​.
 
 # Migración
 
