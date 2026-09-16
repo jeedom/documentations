@@ -58,7 +58,7 @@ Et redémarrez samba:
 
 Sous Windows, dans un explorateur de fichier, entrez l'adresse IP du Pi `\\192.168.x.x`
 
-Faites un clic droit sur `jeedomRoot` puis `Connecter un lecteur réseau...`
+Faites un clic droit sur `jeedomRoot` puis **Connecter un lecteur réseau...**
 
 Sous Windows, vous avez donc maintenant un Disque Réseau `jeedomRoot` !
 

@@ -102,7 +102,7 @@ Admettons que nous ayons une lumière pilotée et un détecteur de mouvement dan
 
 Le *Déclencheur* est ce qui va déclencher l’exécution de ce scénario. Ici, nous souhaitons le déclencher quand notre détecteur détecte une présence, nous allons donc utiliser la commande `#[Chambre][Détecteur Chambre][Présence]# == 1`.
 
-Les `#` indiquent une commande, ensuite on trouve `[le nom de son objet parent]` puis `[le nom de l'équipement]` et enfin `[le nom de la commande]`. Ici, on ajoute ` == 1` car on veut que le scénario se déclenche seulement sur la détection d'une présence. Or sur un détecteur de présence, cette détection repasse à 0 quelques secondes après. Ce passage à 0 ne déclenchera donc pas une nouvelle fois notre scénario.
+Les `#` indiquent une commande, ensuite on trouve **[le nom de son objet parent]** puis **[le nom de l'équipement]** et enfin **[le nom de la commande]**. Ici, on ajoute ` == 1` car on veut que le scénario se déclenche seulement sur la détection d'une présence. Or sur un détecteur de présence, cette détection repasse à 0 quelques secondes après. Ce passage à 0 ne déclenchera donc pas une nouvelle fois notre scénario.
 
 - Cliquez sur l'onglet *Scénario* puis sur le bouton en haut *Ajouter bloc*. Choisissez un bloc *Action* puis sur celui-ci, *Ajoutez* une *Action*. Cette action sera notre commande d'allumage de la lumière. Selon le même principe : `#[Chambre][Lumière Chambre][On]#`.
 
