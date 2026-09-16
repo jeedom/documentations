@@ -11,7 +11,7 @@ Comme indiqué ci-dessus, le fait de basculer Jeedom ou un plugin sur une versio
 
 >**IMPORTANT**
 >
->L'équipe Jeedom ne peut être tenue responsable de tout dysfonctionnement survenant suite à l'installation d'une version autre que stable. Dans ce cas **l'accès au support officiel est impossible**, il faut donc [faire une remontée](#Faire%20une%20remontée).
+>L'équipe Jeedom ne peut être tenue responsable de tout dysfonctionnement survenant suite à l'installation d'une version autre que stable. Dans ce cas **l'accès au support officiel est impossible**, il faut donc [faire une remontée](#faire-une-remontée).
 
 ## Branches
 
@@ -41,7 +41,7 @@ Les branches annexes correspondent à des développements indépendants et ponct
 
 ### Changer de version
 
-A la lecture des [mises en garde](#Mises%20en%20garde) exposées précédemment, il est évident que **cette manipulation est à réserver aux utilisateurs avancés en toute connaissance de cause**.
+A la lecture des [mises en garde](#mises-en-garde) exposées précédemment, il est évident que **cette manipulation est à réserver aux utilisateurs avancés en toute connaissance de cause**.
 
 Pour changer de branche, et donc de version Jeedom, rendez-vous dans le menu **Réglages → Système → Configuration**, onglet **Mises à jour/Market**. Laissez la source de mise à jour sur **Défaut** et sélectionnez la version du core *(branche)* que vous souhaitez installer.
 

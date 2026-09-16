@@ -51,7 +51,7 @@ En fonction des plugins installés sur votre **Jeedom Esclave**, il est nécessa
 ## Sauvegardes préventives
 
 -   Faire une [sauvegarde Jeedom](/core/backup) de votre **Jeedom Maître** et de votre (vos) **Jeedom Esclave(s)** et récupérer celle(s)-ci sur votre PC/NAS…​.
--   Faire une [sauvegarde SD/Disque](../../howto/fr_FR/sauvegarde.comment_faire.md#_sauvegarde_restauration_de_la_carte_microsd) de votre **Jeedom Maître** et de votre (vos) **Jeedom Esclave(s)** et les récupérer sur votre PC/NAS…​.
+-   Faire une [sauvegarde SD/Disque](../../howto/fr_FR/sauvegarde.comment_faire.md#sauvegarderestauration-de-la-carte-microsd) de votre **Jeedom Maître** et de votre (vos) **Jeedom Esclave(s)** et les récupérer sur votre PC/NAS…​.
 
 # Migration
 

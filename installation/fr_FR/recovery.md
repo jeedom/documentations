@@ -22,7 +22,7 @@ A l’issue, le système se lance une première fois avant de redémarrer automa
 
 >**INFORMATION**
 >
->Il est possible que l'adresse MAC de votre box *(et donc l'adresse IP)* change selon la version du noyau. Référez-vous aux [méthodes pour trouver la box sur le réseau local](../../premiers-pas/fr_FR/index.md#Accès%20local) en cas de besoin.
+>Il est possible que l'adresse MAC de votre box *(et donc l'adresse IP)* change selon la version du noyau. Référez-vous aux [méthodes pour trouver la box sur le réseau local](../../premiers-pas/fr_FR/index.md#accès-local) en cas de besoin.
 
 La procédure peut directement être effectuée depuis Jeedom en cliquant sur le menu **Réglages → Système → Restauration système**, selon 2 modes opératoires différents :
 
@@ -69,7 +69,7 @@ Les images systèmes actuellement fournies par l'équipe Jeedom sont librement c
 - [**Image(s) système Jeedom Smart**](https://images.jeedom.com/smart/){:target="_blank"}
 - [**Image(s) système Jeedom Atlas**](https://images.jeedom.com/atlas/){:target="_blank"}
 
-Consulter [**la documentation dédiée aux images système officielles**](../../compatibility/fr_FR/index.md#Images%20système%20officielles) pour de plus amples précisions.
+Consulter [**la documentation dédiée aux images système officielles**](../../compatibility/fr_FR/index.md#images-système-officielles) pour de plus amples précisions.
 
 ## Gravure eMMC Smart
 
@@ -77,4 +77,4 @@ Les nouvelles fonctionnalités de restauration système ne peuvent pas être ins
 
 ## Première connexion
 
-Consulter la documentation relative à la [**première connexion**](../../premiers-pas/fr_FR/index.md#Première%20connexion) pour accéder à l'interface Jeedom suite à l'installation.
+Consulter la documentation relative à la [**première connexion**](../../premiers-pas/fr_FR/index.md#première-connexion) pour accéder à l'interface Jeedom suite à l'installation.

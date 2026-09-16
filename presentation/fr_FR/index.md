@@ -49,7 +49,7 @@ Le Core comprend entre autres :
 
 *Les scénarios permettent d'automatiser tout ou partie de vos équipements. Ils sont construits avec différents blocs. Des blocs conditionnels (Si, Alors, Sinon), d'actions, de programmation (DANS x minutes ou A hhmm), de boucle, de commentaire, ou de code php. Tous les blocs sont imbricables les uns dans les autres, offrant des possibilités infinies.*
 
-[Mon premier scénario](../../concept/fr_FR/index.md#tocAnchor-4)
+[Mon premier scénario](../../concept/fr_FR/index.md#mon-premier-scénario)
 
 ![Page Scénario](../images/doc-presentation-scenario.jpg)
 

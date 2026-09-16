@@ -99,7 +99,7 @@ La **clé SHA256**, permettant de vérifier l'intégrité du fichier télécharg
 
 ### Première connexion
 
-Consulter la documentation relative à la [**première connexion**](../../premiers-pas/fr_FR/index.md#Première%20connexion) pour accéder à l'interface Jeedom suite à l'installation.
+Consulter la documentation relative à la [**première connexion**](../../premiers-pas/fr_FR/index.md#première-connexion) pour accéder à l'interface Jeedom suite à l'installation.
 
 ### Console système
 
