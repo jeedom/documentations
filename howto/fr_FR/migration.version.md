@@ -92,4 +92,4 @@ Une fois l'opération de migration terminée, un bandeau vert s'affiche en haut 
 
 ![migration finish](../images/migrate-version10.png)
 
-Il ne reste donc plus qu'à appuyer sur la touche <kbd>F5</kbd> du clavier *(ou actualiser la page)* pour constater le passage effectif en V4. Il est possible que certains plugins demandent à nouveau d'être mis à jour suite à la migration, n'hésitez pas à les mettre à jour immédiatement.
+Il ne reste donc plus qu'à appuyer sur la touche <kbd>F5</kbd> *(ou actualiser la page)* pour constater le passage effectif en V4. Il est possible que certains plugins demandent à nouveau d'être mis à jour suite à la migration, n'hésitez pas à les mettre à jour immédiatement.
