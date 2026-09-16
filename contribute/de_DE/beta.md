@@ -11,7 +11,7 @@ Wie oben erwähnt, birgt das Umstellen von Jeedom oder eines Plugins auf eine Ve
 
 >**WICHTIG**
 >
->Das Jeedom-Team übernimmt keine Haftung für Fehlfunktionen, die durch die Installation einer anderen als der stabilen Version entstehen. In diesem Fall **ist der Zugang zum offiziellen Support nicht möglich**, daher müssen Sie [eine Rückmeldung geben](#Faire%20une%20remontée).
+>Das Jeedom-Team übernimmt keine Haftung für Fehlfunktionen, die durch die Installation einer anderen als der stabilen Version entstehen. In diesem Fall **ist der Zugang zum offiziellen Support nicht möglich**, daher müssen Sie [eine Rückmeldung geben](#eine-rückmeldung-senden).
 
 ## Zweige
 
@@ -41,7 +41,7 @@ Nebenzweige sind eigenständige, punktuelle Entwicklungen, die dazu bestimmt sin
 
 ### Version wechseln
 
-Beim Lesen der [Warnhinweise](#Mises%20en%20garde) Wie bereits dargelegt, ist es offensichtlich, dass **diese Vorgehensweise ausschließlich erfahrenen Benutzern vorbehalten ist, die sich der Risiken voll bewusst sind**.
+Beim Lesen der [Warnhinweise](#warnhinweise) Wie bereits dargelegt, ist es offensichtlich, dass **diese Vorgehensweise ausschließlich erfahrenen Benutzern vorbehalten ist, die sich der Risiken voll bewusst sind**.
 
 Um den Zweig und damit die Jeedom-Version zu wechseln, gehen Sie im Menü zu **Einstellungen → System → Konfiguration**, Registerkarte **Updates/Market**. Belassen Sie die Update-Quelle auf **Standard** und wählen Sie die Version des Core *(Zweig)* aus, die Sie installieren möchten.
 

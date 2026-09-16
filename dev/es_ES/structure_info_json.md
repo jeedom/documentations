@@ -18,7 +18,7 @@ Campos | Valores |
 ``author`` * | Nombre del autor del complemento, tal y como aparecerá una vez instalado el complemento, en la información del mismo. |
 ``require`` * | Versión mínima requerida de Jeedom (Core). |
 ``os``                 | Versión mínima y máxima requerida de Debian. En formato JSON, por ejemplo: {"min": 10, "max": 12.99} (Core 4.4.15 como mínimo). Si no se rellena alguno de los dos campos, no se comparará con la versión del sistema operativo del usuario. Puedes indicar una versión más precisa, como 10.5, por ejemplo. Para eliminar la restricción de versión, hay que volver a publicar en la tienda con un valor vacío «». Ten en cuenta que, para el valor máximo, se recomienda poner .99 para incluir todas las versiones menores. |
-``category`` * | Categoría de clasificación del complemento en el Market de Jeedom. **Es imprescindible respetar la [lista de elementos de la tabla siguiente](#NOMENCLATURE%20CATEGORIES)** |
+``category`` * | Categoría de clasificación del complemento en el Market de Jeedom. **Es imprescindible respetar la [lista de elementos de la tabla siguiente](#lista-de-categorías)** |
 ``display``                  | Si el complemento utiliza un panel específico en el escritorio, este es el nombre del archivo principal de dicho panel. |
 ``mobile``                   | Si el complemento utiliza un panel específico en la aplicación web de Jeedom, este es el nombre del archivo principal de dicho panel.   |
 ``changelog`` * | Enlace HTML al registro de cambios. |
@@ -29,10 +29,10 @@ Campos | Valores |
 ``link`` -> ``forum``               | Enlace HTML al foro sobre el tema oficial del complemento. |
 ``language``                | Lista de idiomas disponibles para el complemento: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``es_ES``, ``pt_PT``            |
 ``compatibility``            | Compatibilidad del complemento: miniplus, smart, docker, rpi, diy, mobileapp, v4. |
-``hasDependency``            | «true» si [El complemento debe instalar algunas dependencias](daemon_plugin.md#Les%20d%C3%A9pendance), o bien «false» o ausente. |
-``hasOwnDeamon``             | «true» si [El complemento debe ejecutar daemons](daemon_plugin.md#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), o bien «false» o ausente. |
+``hasDependency``            | «true» si [El complemento debe instalar algunas dependencias](daemon_plugin.md#las-dependencias), o bien «false» o ausente. |
+``hasOwnDeamon``             | «true» si [El complemento debe ejecutar daemons](daemon_plugin.md#los-demonios-y-las-dependencias), o bien «false» o ausente. |
 ``maxDependancyInstallTime`` | Tiempo máximo asignado para la instalación de los dispositivos, expresado en minutos. |
-``specialAttributes`` | Permite a los complementos solicitar [parámetro adicional](#SpecialAttributes) en [de los objetos](#Attributs%20Objet) o [de los usuarios](#Attributs%20User) (fíjate bien en el ejemplo de la plantilla del complemento) (Ver explicaciones más abajo) |
+``specialAttributes`` | Permite a los complementos solicitar [parámetro adicional](#atributos-especiales) en [de los objetos](#atributos-del-objeto) o [de los usuarios](#atributos-de-usuario) (fíjate bien en el ejemplo de la plantilla del complemento) (Ver explicaciones más abajo) |
 ``issue``                    | URL del gestor de incidencias, si es externo (si no se rellena, recibirás un correo electrónico)
 
 ## Ejemplo

@@ -33,7 +33,7 @@ La mayoría ofrece una lista de los dispositivos conectados, con su nombre de ho
 
 También se puede acceder a la interfaz de Jeedom mediante el nombre de host del equipo.
 
-- En caso de utilizar una [imagen oficial del sistema](../../compatibility/es_ES/index.md#Images%20système%20officielles) Para instalar Jeedom, se conoce el nombre de host y se debe poder acceder a Jeedom en:
+- En caso de utilizar una [imagen oficial del sistema](../../compatibility/es_ES/index.md#imágenes-oficiales-del-sistema) Para instalar Jeedom, se conoce el nombre de host y se debe poder acceder a Jeedom en:
 
 | Dispositivo | Interfaz Jeedom   |
 |--------------------|--------------------|
@@ -49,7 +49,7 @@ La dirección de la interfaz de Jeedom debería ser, normalmente: `http://MACHIN
 
 #### Consola del sistema
 
-Desde hace un [imagen oficial del sistema](../../compatibility/es_ES/index.md#Images%20système%20officielles): cada vez que se accede directamente a la consola, se muestra inmediatamente la dirección de la interfaz de Jeedom:
+Desde hace un [imagen oficial del sistema](../../compatibility/es_ES/index.md#imágenes-oficiales-del-sistema): cada vez que se accede directamente a la consola, se muestra inmediatamente la dirección de la interfaz de Jeedom:
 
 {% include lightbox.html src="../images/shell_ip.jpg" data="shell_ip" title="Console système : IP Jeedom" imgstyle="display:block;margin:0 auto;" %}
 
@@ -60,7 +60,7 @@ ip addr | grep 'inet ' | tail -n 1
 
 ### Primera conexión
 
-[Una vez que se conoce la dirección de Jeedom](#Accès%20local), introdúzcala en su navegador de Internet para acceder a la página de inicio de sesión:
+[Una vez que se conoce la dirección de Jeedom](#acceso-local), introdúzcala en su navegador de Internet para acceder a la página de inicio de sesión:
 
 {% include lightbox.html src="../images/FirstStep_box_connect.jpg" data="FirstStep_box_connect" title="Connexion Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
 

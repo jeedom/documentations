@@ -5,9 +5,9 @@ Sin embargo, algunos complementos pueden ser de pago y/o requerir una conexión 
 
 ## Compatibilidad
 
-[**Los dispositivos oficiales de Jeedom**](../../compatibility/es_ES/index.md#Boxes%20officielles) garantizan una compatibilidad total, independientemente de las futuras actualizaciones de software.
+[**Los dispositivos oficiales de Jeedom**](../../compatibility/es_ES/index.md#cajas-oficiales) garantizan una compatibilidad total, independientemente de las futuras actualizaciones de software.
 
-Jeedom también se puede instalar en [compatible con cualquier dispositivo](../../compatibility/es_ES/index.md#Matériels%20supportés) compatible con el sistema [**Linux Debian, versión recomendada actualmente**](../../compatibility/es_ES/index.md#Debian).
+Jeedom también se puede instalar en [compatible con cualquier dispositivo](../../compatibility/es_ES/index.md#dispositivos-compatibles) compatible con el sistema [**Linux Debian, versión recomendada actualmente**](../../compatibility/es_ES/index.md#debian).
 
 ## Copia de seguridad de Jeedom
 

@@ -51,6 +51,6 @@ In der E-Mail, die Sie erhalten haben, ist auch die Nummer des Service Packs fü
 
 Sie können nun der Dokumentation folgen: [Erste Schritte mit Jeedom](../../premiers-pas/de_DE/index.md) Damit können Sie die IP-Adresse Ihres Jeedom Mini+ ermitteln und eine Verbindung herstellen, um mit der Konfiguration und Nutzung zu beginnen.
 
-Um mehr über Jeedom zu erfahren und es besser nutzen zu können, steht Ihnen eine umfassende Dokumentation zur Verfügung: [Jeedom-Dokumentation](/) sowie einen Bereich mit Video-Anleitungen: [Video-Anleitungen](../../presentation/de_DE/index.md#tocAnchor-1-3). Bei weiteren Fragen können Sie gerne das Jeedom-Forum besuchen: [Jeedom-Community](https://community.jeedom.com/).
+Um mehr über Jeedom zu erfahren und es besser nutzen zu können, steht Ihnen eine umfassende Dokumentation zur Verfügung: [Vorstellung von Jeedom](../../presentation/de_DE/index.md). Bei weiteren Fragen können Sie gerne das Jeedom-Forum besuchen: [Jeedom-Community](https://community.jeedom.com/).
 
 Vielen Dank und viel Spaß beim Entdecken der Hausautomation mit Jeedom.

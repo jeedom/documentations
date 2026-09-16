@@ -37,7 +37,7 @@ Antes de iniciar la máquina virtual, hay que descargar la imagen del sistema qu
 
 >**INFORMACIÓN**
 >
->Consultar [**documentación específica**](../../compatibility/es_ES/index.md#Images%20système%20officielles) Para obtener más información sobre las imágenes del sistema Jeedom.
+>Consultar [**documentación específica**](../../compatibility/es_ES/index.md#imágenes-oficiales-del-sistema) Para obtener más información sobre las imágenes del sistema Jeedom.
 
 El archivo de imagen en formato `iso` A continuación, debe cargarse en la unidad óptica *(CD/DVD)* emulada por la máquina virtual, que a su vez debe estar en primera posición en el orden de arranque.
 
@@ -65,8 +65,8 @@ Tras iniciar la máquina virtual con la imagen del sistema cargada en la unidad 
 
 ## Compatibilidad de hardware
 
-La lista, no exhaustiva, de hipervisores compatibles con Jeedom se puede consultar en [Documentación **Compatibilidad**](../../compatibility/es_ES/index.md#Matériels%20supportés)
+La lista, no exhaustiva, de hipervisores compatibles con Jeedom se puede consultar en [Documentación **Compatibilidad**](../../compatibility/es_ES/index.md#dispositivos-compatibles)
 
 ## Primera conexión
 
-Consulta la documentación relativa a la [**Primera conexión**](../../premiers-pas/es_ES/index.md#Première%20connexion) para acceder a la interfaz de Jeedom tras la instalación.
+Consulta la documentación relativa a la [**Primera conexión**](../../premiers-pas/es_ES/index.md#primera-conexión) para acceder a la interfaz de Jeedom tras la instalación.

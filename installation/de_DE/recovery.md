@@ -22,7 +22,7 @@ Anschließend startet das System zunächst einmal, bevor es automatisch neu star
 
 >**INFORMATION**
 >
->Es ist möglich, dass sich die MAC-Adresse Ihrer Box *(und damit auch die IP-Adresse)* je nach Kernel-Version ändert. Weitere Informationen finden Sie unter [Methoden zum Auffinden der Box im lokalen Netzwerk](../../premiers-pas/de_DE/index.md#Accès%20local) bei Bedarf.
+>Es ist möglich, dass sich die MAC-Adresse Ihrer Box *(und damit auch die IP-Adresse)* je nach Kernel-Version ändert. Weitere Informationen finden Sie unter [Methoden zum Auffinden der Box im lokalen Netzwerk](../../premiers-pas/de_DE/index.md#lokaler-zugriff) bei Bedarf.
 
 Der Vorgang kann direkt in Jeedom durchgeführt werden, indem Sie im Menü auf **Einstellungen → System → Wiederherstellung** klicken. Dabei stehen zwei verschiedene Vorgehensweisen zur Auswahl:
 
@@ -69,7 +69,7 @@ Die derzeit vom Jeedom-Team bereitgestellten System-Images können je nach betro
 - [**Bild(er) des Jeedom Smart-Systems**](https://images.jeedom.com/smart/){:target="_blank"}
 - [**System-Bild(er) von Jeedom Atlas**](https://images.jeedom.com/atlas/){:target="_blank"}
 
-Anzeigen [**die Dokumentation zu den offiziellen System-Images**](../../compatibility/de_DE/index.md#Images%20système%20officielles) Weitere Informationen finden Sie hier.
+Anzeigen [**die Dokumentation zu den offiziellen System-Images**](../../compatibility/de_DE/index.md#offizielle-system-images) Weitere Informationen finden Sie hier.
 
 ## eMMC-Smart-Beschriftung
 
@@ -77,4 +77,4 @@ Die neuen Funktionen zur Wiederherstellung des Systems können nicht auf einem S
 
 ## Erste Anmeldung
 
-Die Dokumentation zur [**Erste Anmeldung**](../../premiers-pas/de_DE/index.md#Première%20connexion) um nach der Installation auf die Jeedom-Benutzeroberfläche zuzugreifen.
+Die Dokumentation zur [**Erste Anmeldung**](../../premiers-pas/de_DE/index.md#erste-anmeldung) um nach der Installation auf die Jeedom-Benutzeroberfläche zuzugreifen.

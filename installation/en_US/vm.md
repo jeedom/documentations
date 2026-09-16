@@ -37,7 +37,7 @@ Before starting the virtual machine, you must download the system image you want
 
 >**INFORMATION**
 >
->View [**Related documentation**](../../compatibility/en_US/index.md#Images%20système%20officielles) For more details on Jeedom system images.
+>View [**Related documentation**](../../compatibility/en_US/index.md#official-system-images) For more details on Jeedom system images.
 
 The image file in the format `iso` must then be loaded into the optical drive *(CD/DVD)* emulated by the virtual machine, which is set as the first device in the boot order.
 
@@ -65,8 +65,8 @@ Various installation options appear on the screen after you start the virtual ma
 
 ## Hardware Compatibility
 
-A non-exhaustive list of hypervisors supported by Jeedom can be found at [**Compatibility** documentation](../../compatibility/en_US/index.md#Matériels%20supportés)
+A non-exhaustive list of hypervisors supported by Jeedom can be found at [**Compatibility** documentation](../../compatibility/en_US/index.md#supported-devices)
 
 ## First connection
 
-View the documentation related to [**First login**](../../premiers-pas/en_US/index.md#Première%20connexion) to access the Jeedom interface after installation.
+View the documentation related to [**First login**](../../premiers-pas/en_US/index.md#first-connection) to access the Jeedom interface after installation.

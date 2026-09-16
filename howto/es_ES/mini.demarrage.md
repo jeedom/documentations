@@ -51,6 +51,6 @@ En el correo electrónico que has recibido también figura el número del Servic
 
 Ahora puedes consultar la documentación: [Primeros pasos con Jeedom](../../premiers-pas/es_ES/index.md) Esto te permitirá encontrar la dirección IP de tu Jeedom Mini+ y conectarte a él para empezar a configurarlo y utilizarlo.
 
-Para profundizar en el conocimiento y el uso de Jeedom, tienes a tu disposición una documentación completa: [Documentación de Jeedom](/) y también una sección con tutoriales en vídeo: [Vídeos tutoriales](../../presentation/es_ES/index.md#tocAnchor-1-3). No dudes en visitar el foro de Jeedom si tienes alguna otra pregunta: [Comunidad Jeedom](https://community.jeedom.com/).
+Para profundizar en el conocimiento y el uso de Jeedom, tienes a tu disposición una documentación completa: [Presentación de Jeedom](../../presentation/es_ES/index.md). No dudes en visitar el foro de Jeedom si tienes alguna otra pregunta: [Comunidad Jeedom](https://community.jeedom.com/).
 
 Gracias, y disfruta descubriendo la domótica con Jeedom.

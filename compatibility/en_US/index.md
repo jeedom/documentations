@@ -99,7 +99,7 @@ The **SHA256 key**, which is used to verify the integrity of the downloaded file
 
 ### First connection
 
-View the documentation related to [**First login**](../../premiers-pas/en_US/index.md#Première%20connexion) to access the Jeedom interface after installation.
+View the documentation related to [**First login**](../../premiers-pas/en_US/index.md#first-connection) to access the Jeedom interface after installation.
 
 ### System console
 

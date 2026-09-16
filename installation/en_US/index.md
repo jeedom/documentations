@@ -5,9 +5,9 @@ However, some plugins may require a fee and/or an internet connection, [**The co
 
 ## Compatibility
 
-[**Official Jeedom boxes**](../../compatibility/en_US/index.md#Boxes%20officielles) ensure full compatibility regardless of future software updates.
+[**Official Jeedom boxes**](../../compatibility/en_US/index.md#official-boxes) ensure full compatibility regardless of future software updates.
 
-Jeedom can also be installed on [all supported hardware](../../compatibility/en_US/index.md#Matériels%20supportés) that supports the system [**Currently Recommended Version of Debian Linux**](../../compatibility/en_US/index.md#Debian).
+Jeedom can also be installed on [all supported hardware](../../compatibility/en_US/index.md#supported-devices) that supports the system [**Currently Recommended Version of Debian Linux**](../../compatibility/en_US/index.md#debian).
 
 ## Jeedom Backup
 

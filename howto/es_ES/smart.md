@@ -57,7 +57,7 @@ Para actualizar el sistema, hay que:
 
 >**INFORMACIÓN**
 >
->**En caso de sustituir la eMMC original** por una eMMC con Jeedom preinstalado en Debian 11, **conecta la nueva eMMC** en lugar de la antigua **y pasa directamente al paso de [remontaje](#Remontage%20de%20la%20box%20Jeedom%20Smart)**.
+>**En caso de sustituir la eMMC original** por una eMMC con Jeedom preinstalado en Debian 11, **conecta la nueva eMMC** en lugar de la antigua **y pasa directamente al paso de [remontaje](#montaje-de-la-caja-jeedom-smart)**.
 
 2. Inserta la tarjeta eMMC en el adaptador y conéctalo a un ordenador:
 
