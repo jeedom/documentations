@@ -298,22 +298,14 @@
     $('.collapsible').collapsible()
 
     $('#div_summary').empty().append('<ul></ul>')
-    // TODO: id/anchor scheme based on heading text is not language-independent (translated headings
-    // have different text, so a hardcoded #anchor only resolves on the language it was written for).
-    // A previous version used a positional counter (tocAnchor-N) which was language-independent, but
-    // existing content links referencing it have drifted out of sync with real heading order over
-    // time. Rework needed: position-based (not text-based), skip h1 (normally a single one per page,
-    // not a useful anchor target), and scan h2 to h4 (currently only h1-h3).
     $('#div_content h1,h2,h3,.pluginName').each(function() {
-      var id = encodeURIComponent($(this).text())
+      const id = $(this).is('.pluginName') ? encodeURIComponent($(this).text()) : $(this).attr('id')
       $(this).attr('id', id)
       if ($(this).is('h1')) {
         $('#div_summary ul').append('<li><a href="#' + id + '" class="tocAnchor">' + $(this).text() + '</a></li>')
-      }
-      if ($(this).is('h2') || $(this).is('.pluginName')) {
+      } else if ($(this).is('h2') || $(this).is('.pluginName')) {
         $('#div_summary ul').append('<li><a href="#' + id + '" class="tocAnchor" style="margin-left:10px;">' + $(this).text() + '</a></li>')
-      }
-      if ($(this).is('h3')) {
+      } else if ($(this).is('h3')) {
         $('#div_summary ul').append('<li><a href="#' + id + '" class="tocAnchor" style="margin-left:20px;">' + $(this).text() + '</a></li>')
       }
       $(this).addClass('scrollspy')
@@ -361,8 +353,21 @@
     replaceContentVars()
 
     if (window.location.hash) {
-      document.getElementById(window.location.hash.replace('#', '')).scrollIntoView()
-      window.scrollBy(0, -200)
+      let hashTarget = document.getElementById(decodeURIComponent(window.location.hash.replace('#', '')))
+      if (!hashTarget) {
+        // Fallback for old links using the pre-kramdown anchor scheme (added 2026-09)
+        $('#div_content h1,h2,h3').each(function() {
+          if ('#' + encodeURIComponent($(this).text()) === window.location.hash) {
+            hashTarget = this
+            history.replaceState(null, '', '#' + hashTarget.id)
+            return false
+          }
+        })
+      }
+      if (hashTarget) {
+        hashTarget.scrollIntoView()
+        window.scrollBy(0, -200)
+      }
     }
   })
 
