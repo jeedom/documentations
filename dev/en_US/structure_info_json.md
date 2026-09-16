@@ -18,7 +18,7 @@ Fields | Values |
 ``author`` * | Name of the plugin author, as it will appear in the plugin's information once the plugin is installed. |
 ``require`` * | Minimum required version of Jeedom (Core). |
 ``os``                 | Minimum and maximum required Debian versions. Specified as a JSON object, for example: {"min": 10, "max": 12.99} (Core 4.4.15 minimum). If either field is left blank, it will not be compared to the user's OS version. You can specify a more precise version, such as 10.5, for example. To remove the version restriction, you must republish the app on the marketplace with an empty value "". Note that for the maximum value, it is recommended to use .99 to include all minor versions. |
-``category`` * | Plugin category on the Jeedom Market. **It is essential to comply with the [Legend for the table below](#NOMENCLATURE%20CATEGORIES)** |
+``category`` * | Plugin category on the Jeedom Market. **It is essential to comply with the [Legend for the table below](#category-list)** |
 ``display``                  | If the plugin uses a dedicated panel on the desktop, this is the name of the panel's main file. |
 ``mobile``                   | If the plugin uses a dedicated panel in the Jeedom web app, this is the name of the main file for that panel.   |
 ``changelog`` * | HTML link to the Changelog. |
@@ -29,10 +29,10 @@ Fields | Values |
 ``link`` -> ``forum``               | HTML link to the forum thread on the plugin's official topic. |
 ``language``                | List of languages available for the plugin: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``es_ES``, ``pt_PT``            |
 ``compatibility``            | Plugin compatibility: miniplus, smart, docker, rpi, diy, mobileapp, v4. |
-``hasDependency``            | "true" if [The plugin must install dependencies](daemon_plugin#Les%20d%C3%A9pendance), otherwise "false" or absent. |
-``hasOwnDeamon``             | "true" if [The plugin must run daemons](daemon_plugin#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), otherwise "false" or absent. |
+``hasDependency``            | "true" if [The plugin must install dependencies](daemon_plugin.md#outbuildings), otherwise "false" or absent. |
+``hasOwnDeamon``             | "true" if [The plugin must run daemons](daemon_plugin.md#daemons--dependencies), otherwise "false" or absent. |
 ``maxDependancyInstallTime`` | Maximum time allowed for installing the outbuildings, expressed in minutes. |
-``specialAttributes`` | Allows plugins to request [additional setting](#SpecialAttributes) on [devices](#Attributs%20Objet) or [users](#Attributs%20User) (be sure to look closely at the plugin template example) (See explanation below) |
+``specialAttributes`` | Allows plugins to request [additional setting](#specialattributes) on [devices](#object-attributes) or [users](#user-attributes) (be sure to look closely at the plugin template example) (See explanation below) |
 ``issue``                    | URL to the bug tracker (if external; if left blank, you will receive an email)
 
 ## Example

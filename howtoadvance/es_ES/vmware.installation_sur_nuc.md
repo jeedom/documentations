@@ -155,4 +155,4 @@ Una vez finalizado el reinicio, deberías tener:
 
 Ya está instalado VMware (además, es muy práctico, te muestra su dirección IP), ¡¡¡ahora solo queda probarlo!!!
 
-A continuación, aquí tienes un [tutorial](vmware.creer_une_vm) para crear tu primera máquina virtual. Y encontrarás [aquí](vmware.trucs_et_astuces) un tutorial con consejos y trucos (por ejemplo, para instalar tu licencia de VMware)
+A continuación, aquí tienes un [tutorial](vmware.creer_une_vm.md) para crear tu primera máquina virtual. Y encontrarás [aquí](vmware.trucs_et_astuces.md) un tutorial con consejos y trucos (por ejemplo, para instalar tu licencia de VMware)

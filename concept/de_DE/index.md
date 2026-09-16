@@ -18,7 +18,7 @@ Sie können diese Geräte auf verschiedene Arten anzeigen:
 
 ![Zusammenfassung](../images/concept-synthese.jpg)
 
-Diese können in einem Browser auf einem Desktop-Computer, auf einem Smartphone über die WebApp oder die mobile App aufgerufen werden: [Mobile Version](/mobile)
+Diese können in einem Browser auf einem Desktop-Computer, auf einem Smartphone über die WebApp oder die mobile App aufgerufen werden: [Mobile Version](../../mobile/de_DE/index.md)
 
 ## Die Objekte
 

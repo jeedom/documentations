@@ -160,4 +160,4 @@ La lista completa está disponible en la [Docker Hub](https://hub.docker.com/r/j
 
 ## Primera conexión
 
-Consulta la documentación relativa a la [**Primera conexión**](/premiers-pas/#Première%20connexion) para acceder a la interfaz de Jeedom tras la instalación.
+Consulta la documentación relativa a la [**Primera conexión**](../../premiers-pas/es_ES/index.md#primera-conexión) para acceder a la interfaz de Jeedom tras la instalación.

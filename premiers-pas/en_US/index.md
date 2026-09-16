@@ -33,7 +33,7 @@ Most systems provide a list of connected devices, including their host names, MA
 
 The Jeedom interface can also be accessed using the machine's hostname.
 
-- If you are using a [official system image](/compatibility/#Images%20système%20officielles) To deploy Jeedom, the hostname is known, and Jeedom must be accessible at:
+- If you are using a [official system image](../../compatibility/en_US/index.md#official-system-images) To deploy Jeedom, the hostname is known, and Jeedom must be accessible at:
 
 | Machine | Jeedom Interface   |
 |--------------------|--------------------|
@@ -49,7 +49,7 @@ The Jeedom interface address should normally be: `http://MACHINE.DOMAIN`.
 
 #### System console
 
-For the past [official system image](/compatibility/#Images%20système%20officielles), any direct access to the console immediately displays the Jeedom interface address:
+For the past [official system image](../../compatibility/en_US/index.md#official-system-images), any direct access to the console immediately displays the Jeedom interface address:
 
 {% include lightbox.html src="../images/shell_ip.jpg" data="shell_ip" title="Console système : IP Jeedom" imgstyle="display:block;margin:0 auto;" %}
 
@@ -60,7 +60,7 @@ ip addr | grep 'inet ' | tail -n 1
 
 ### First connection
 
-[Once you know the Jeedom address](#Accès%20local), enter it in your web browser to access the login page:
+[Once you know the Jeedom address](#local-access), enter it in your web browser to access the login page:
 
 {% include lightbox.html src="../images/FirstStep_box_connect.jpg" data="FirstStep_box_connect" title="Connexion Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
@@ -133,7 +133,7 @@ Check the **Enable Jeedom DNS** box, then click the **(Re)start** button. After 
 
 You can customize the remote access address by clicking the **Configuration** button for the service from [**Your market profile**](https://www.jeedom.com/market/index.php?v=d&p=profils#services){:target="_blank"}.
 
-Find all the details in [Documentation for the Remote Access service - Jeedom DNS](/howto/mise_en_place_dns_jeedom).
+Find all the details in [Documentation for the Remote Access service - Jeedom DNS](../../howto/en_US/mise_en_place_dns_jeedom.md).
 
 ## Create My First Object
 

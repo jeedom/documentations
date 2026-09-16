@@ -4,7 +4,7 @@ Die folgende Vorgehensweise basiert auf der Verwendung einer System-Image-Datei,
 
 >**INFORMATION**
 >
->Um Jeedom manuell auf einer virtuellen Maschine unter Debian zu installieren, lesen Sie bitte die Dokumentation zu [Installation über die Befehlszeile](cli).
+>Um Jeedom manuell auf einer virtuellen Maschine unter Debian zu installieren, lesen Sie bitte die Dokumentation zu [Installation über die Befehlszeile](cli.md).
 
 ## Erstellung der VM
 
@@ -37,7 +37,7 @@ Bevor Sie die virtuelle Maschine starten, müssen Sie das System-Image herunterl
 
 >**INFORMATION**
 >
->Anzeigen [**die entsprechende Dokumentation**](/compatibility/#Images%20système%20officielles) Weitere Informationen zu den Jeedom-System-Images.
+>Anzeigen [**die entsprechende Dokumentation**](../../compatibility/de_DE/index.md#offizielle-system-images) Weitere Informationen zu den Jeedom-System-Images.
 
 Die Bilddatei im Format `iso` muss anschließend in das von der virtuellen Maschine emulierte optische Laufwerk *(CD/DVD)* geladen werden, das selbst an erster Stelle in der Startreihenfolge steht.
 
@@ -65,8 +65,8 @@ Nach dem Start der virtuellen Maschine mit dem in das optische Laufwerk geladene
 
 ## Hardware-Kompatibilität
 
-Eine nicht vollständige Liste der von Jeedom unterstützten Hypervisoren finden Sie unter [Dokumentation **Kompatibilität**](/compatibility/#Matériels%20supportés)
+Eine nicht vollständige Liste der von Jeedom unterstützten Hypervisoren finden Sie unter [Dokumentation **Kompatibilität**](../../compatibility/de_DE/index.md#unterstützte-geräte)
 
 ## Erste Anmeldung
 
-Die Dokumentation zur [**Erste Anmeldung**](/premiers-pas/#Première%20connexion) um nach der Installation auf die Jeedom-Benutzeroberfläche zuzugreifen.
+Die Dokumentation zur [**Erste Anmeldung**](../../premiers-pas/de_DE/index.md#erste-anmeldung) um nach der Installation auf die Jeedom-Benutzeroberfläche zuzugreifen.

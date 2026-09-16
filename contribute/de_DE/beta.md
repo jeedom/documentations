@@ -7,11 +7,11 @@ Ein Beta-Tester ist ein Nutzer, der Softwareversionen testet, bevor diese für a
 
 Obwohl die Entwickler größte Sorgfalt walten lassen, können in den in der Entwicklung befindlichen Versionen Fehler enthalten sein, die dazu führen können, dass ein Plugin oder der Kern vollständig funktionsunfähig wird. Ebenso können Funktionen, die sich in der Entwicklung befinden, je nach den Umständen verschoben oder sogar aufgegeben werden. Man sollte daher mit den Verfahren zur Sicherungs- und Wiederherstellung von Jeedom gut vertraut sein, bevor man mit dem Beta-Testing beginnt.
 
-Wie oben erwähnt, birgt das Umstellen von Jeedom oder eines Plugins auf eine Version, die sich noch in der Entwicklung befindet, Risiken. Daher **wird dringend empfohlen, dies auf einer eigens dafür vorgesehenen Testumgebung durchzuführen *([eine virtuelle Maschine](/installation/vm) zum Beispiel)* statt auf einem Jeedom im Produktivbetrieb**.
+Wie oben erwähnt, birgt das Umstellen von Jeedom oder eines Plugins auf eine Version, die sich noch in der Entwicklung befindet, Risiken. Daher **wird dringend empfohlen, dies auf einer eigens dafür vorgesehenen Testumgebung durchzuführen *([eine virtuelle Maschine](../../installation/de_DE/vm.md) zum Beispiel)* statt auf einem Jeedom im Produktivbetrieb**.
 
 >**WICHTIG**
 >
->Das Jeedom-Team übernimmt keine Haftung für Fehlfunktionen, die durch die Installation einer anderen als der stabilen Version entstehen. In diesem Fall **ist der Zugang zum offiziellen Support nicht möglich**, daher müssen Sie [eine Rückmeldung geben](#Faire%20une%20remontée).
+>Das Jeedom-Team übernimmt keine Haftung für Fehlfunktionen, die durch die Installation einer anderen als der stabilen Version entstehen. In diesem Fall **ist der Zugang zum offiziellen Support nicht möglich**, daher müssen Sie [eine Rückmeldung geben](#eine-rückmeldung-senden).
 
 ## Zweige
 
@@ -41,7 +41,7 @@ Nebenzweige sind eigenständige, punktuelle Entwicklungen, die dazu bestimmt sin
 
 ### Version wechseln
 
-Beim Lesen der [Warnhinweise](#Mises%20en%20garde) Wie bereits dargelegt, ist es offensichtlich, dass **diese Vorgehensweise ausschließlich erfahrenen Benutzern vorbehalten ist, die sich der Risiken voll bewusst sind**.
+Beim Lesen der [Warnhinweise](#warnhinweise) Wie bereits dargelegt, ist es offensichtlich, dass **diese Vorgehensweise ausschließlich erfahrenen Benutzern vorbehalten ist, die sich der Risiken voll bewusst sind**.
 
 Um den Zweig und damit die Jeedom-Version zu wechseln, gehen Sie im Menü zu **Einstellungen → System → Konfiguration**, Registerkarte **Updates/Market**. Belassen Sie die Update-Quelle auf **Standard** und wählen Sie die Version des Core *(Zweig)* aus, die Sie installieren möchten.
 
@@ -116,8 +116,8 @@ Ob es nun darum geht, einen einfachen Rechtschreib- oder Syntaxfehler zu korrigi
 
 Die Dokumentationsseiten, die Sie gerade lesen, müssen regelmäßig aktualisiert und angepasst werden, damit sie aktuell und zuverlässig bleiben. Die Unterstützung durch die Community wird in diesem Zusammenhang sehr geschätzt.
 
-Bevor Änderungen an der Dokumentation vorgeschlagen werden, sind einige Besonderheiten zu berücksichtigen. Es ist daher unerlässlich, sich mit den bewährten Vorgehensweisen vertraut zu machen, um [Zur Dokumentation beitragen](/contribute/doc) an erster Stelle.
+Bevor Änderungen an der Dokumentation vorgeschlagen werden, sind einige Besonderheiten zu berücksichtigen. Es ist daher unerlässlich, sich mit den bewährten Vorgehensweisen vertraut zu machen, um [Zur Dokumentation beitragen](doc.md) an erster Stelle.
 
 ### Kern und Plugins
 
-Genau wie die Dokumentation sind auch der Jeedom-Kern sowie die meisten Plugins für externe Beiträge offen. Weitere Informationen finden Sie auf der Seite [„Zum Kern oder zu den Plugins beitragen“](/contribute/core) Weitere Informationen.
+Genau wie die Dokumentation sind auch der Jeedom-Kern sowie die meisten Plugins für externe Beiträge offen. Weitere Informationen finden Sie auf der Seite [„Zum Kern oder zu den Plugins beitragen“](core.md) Weitere Informationen.

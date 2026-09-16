@@ -7,11 +7,11 @@ Un bêta‑testeur est un utilisateur qui teste les versions du logiciel avant q
 
 Bien que les développeurs prennent un maximum de précautions, les versions en cours de développement sont susceptibles d'inclure des bugs pouvant rendre un plugin ou le core totalement inopérants. De la même manière, les fonctionnalités en cours de développement peuvent être reportées, voire abandonnées en fonction des circonstances. Il faut donc être plutôt à l'aise avec les procédures de sauvegarde/restauration de Jeedom avant de se lancer dans le bêta-testing.
 
-Comme indiqué ci-dessus, le fait de basculer Jeedom ou un plugin sur une version en cours de développement comporte des risques. Par conséquent, **il est fortement recommandé de le faire sur une installation de test prévue à cet effet *([une machine virtuelle](/installation/vm) par exemple)* plutôt que sur un Jeedom en production**.
+Comme indiqué ci-dessus, le fait de basculer Jeedom ou un plugin sur une version en cours de développement comporte des risques. Par conséquent, **il est fortement recommandé de le faire sur une installation de test prévue à cet effet *([une machine virtuelle](../../installation/fr_FR/vm.md) par exemple)* plutôt que sur un Jeedom en production**.
 
 >**IMPORTANT**
 >
->L'équipe Jeedom ne peut être tenue responsable de tout dysfonctionnement survenant suite à l'installation d'une version autre que stable. Dans ce cas **l'accès au support officiel est impossible**, il faut donc [faire une remontée](#Faire%20une%20remontée).
+>L'équipe Jeedom ne peut être tenue responsable de tout dysfonctionnement survenant suite à l'installation d'une version autre que stable. Dans ce cas **l'accès au support officiel est impossible**, il faut donc [faire une remontée](#faire-une-remontée).
 
 ## Branches
 
@@ -41,7 +41,7 @@ Les branches annexes correspondent à des développements indépendants et ponct
 
 ### Changer de version
 
-A la lecture des [mises en garde](#Mises%20en%20garde) exposées précédemment, il est évident que **cette manipulation est à réserver aux utilisateurs avancés en toute connaissance de cause**.
+A la lecture des [mises en garde](#mises-en-garde) exposées précédemment, il est évident que **cette manipulation est à réserver aux utilisateurs avancés en toute connaissance de cause**.
 
 Pour changer de branche, et donc de version Jeedom, rendez-vous dans le menu **Réglages → Système → Configuration**, onglet **Mises à jour/Market**. Laissez la source de mise à jour sur **Défaut** et sélectionnez la version du core *(branche)* que vous souhaitez installer.
 
@@ -116,8 +116,8 @@ Que ce soit pour corriger une simple faute d'orthographe ou de syntaxe, ou même
 
 Les pages de documentation que vous consultez actuellement nécessitent des mises à jour et des adaptations régulières pour rester valables et fiables. L'assistance de la communauté est grandement appréciée à ce niveau.
 
-Quelques spécificités sont à prendre en compte avant de proposer des changements sur la documentation. Il est donc indispensable de prendre connaissance des bonnes pratiques pour [contribuer à la documentation](/contribute/doc) en premier lieu.
+Quelques spécificités sont à prendre en compte avant de proposer des changements sur la documentation. Il est donc indispensable de prendre connaissance des bonnes pratiques pour [contribuer à la documentation](doc.md) en premier lieu.
 
 ### Core et Plugins
 
-A l'instar de la documentation, le core Jeedom ainsi que la plupart des plugins sont également ouverts aux contributions externes. Référez-vous à la page ["Contribuer au core ou aux plugins"](/contribute/core) pour en savoir plus.
+A l'instar de la documentation, le core Jeedom ainsi que la plupart des plugins sont également ouverts aux contributions externes. Référez-vous à la page ["Contribuer au core ou aux plugins"](core.md) pour en savoir plus.

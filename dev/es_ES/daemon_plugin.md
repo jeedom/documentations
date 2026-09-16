@@ -2,7 +2,7 @@
 
 ## Introducción
 
-En el [tutorial](tutorial_plugin) y la [documentación](plugin_template) Has aprendido a programar tu primer plugin con acciones relativamente sencillas que el usuario activa mediante un comando de acción o mediante una tarea programada por el núcleo (los crons).
+En el [tutorial](tutorial_plugin.md) y la [documentación](plugin_template.md) Has aprendido a programar tu primer plugin con acciones relativamente sencillas que el usuario activa mediante un comando de acción o mediante una tarea programada por el núcleo (los crons).
 El plugin es capaz de recuperar información de forma puntual (por ejemplo, mediante una solicitud HTTP) o de realizar todo tipo de operaciones, siempre que estas puedan programarse en PHP.
 
 Puede que en algún momento necesites algo más que eso; a continuación, te ofrecemos algunos ejemplos, sin pretender que la lista sea exhaustiva:
@@ -20,7 +20,7 @@ Que no cunda el pánico, en el núcleo de Jeedom ya está todo previsto para ayu
 El código y/o el ejecutable de tu demonio deben encontrarse, evidentemente, en el árbol de directorios de tu plugin y, por lo tanto, deben incluirse y entregarse junto con el archivo comprimido al instalar un plugin.
 No hay ninguna regla estricta sobre la ubicación exacta de tu demonio; sin embargo, lo habitual es colocarlo en el subdirectorio `./resources/` del complemento.
 
-En la plantilla del complemento encontrarás los fundamentos para implementar un demonio en Python, y ese es el ejemplo que vamos a utilizar en esta documentación; sin embargo, tienes libertad para desarrollar tu propio demonio en el lenguaje que prefieras, siempre que pueda ejecutarse en los [plataformas compatibles con Jeedom](/compatibility/).
+En la plantilla del complemento encontrarás los fundamentos para implementar un demonio en Python, y ese es el ejemplo que vamos a utilizar en esta documentación; sin embargo, tienes libertad para desarrollar tu propio demonio en el lenguaje que prefieras, siempre que pueda ejecutarse en los [plataformas compatibles con Jeedom](../../compatibility/es_ES/index.md).
 La mayoría de los demonios de los complementos de Jeedom están escritos en Python o Node.js, pero también hay algunos en .NET Core y seguramente en otras tecnologías.
 
 También encontrarás algunos métodos útiles para un demonio en Node.js que quizá se detallen en una próxima versión de esta documentación. Por ahora, te invito a consultar la comunidad de desarrolladores para ponerte al día con el resto de desarrolladores en todo lo relacionado con Node.js, sobre todo en cuanto a la versión que se debe utilizar.
@@ -380,7 +380,7 @@ Puedes copiar y pegar el código que aparece a continuación tal cual y modifica
             sleep(1);
             $i++;
         }
-        if ($i >= 30) {
+        if ($i >= 20) {
             log::add(__CLASS__, 'error', __('Impossible de lancer le démon, vérifiez le log', __FILE__), 'unableStartDeamon');
             return false;
         }
@@ -606,7 +606,7 @@ Ejemplo:
 ```json
 {
   "pre-install" : {
-    "script" : "plugins/[pluginID]/resources/post-install.sh"
+    "script" : "plugins/[pluginID]/resources/pre-install.sh"
   }
 ```
 

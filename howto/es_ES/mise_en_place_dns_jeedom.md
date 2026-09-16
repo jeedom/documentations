@@ -61,4 +61,4 @@ Ya está, ahora puedes acceder a tu Jeedom desde fuera a través de https
 
 > **Me aparece el error «ERROR: No se puede abrir el dispositivo TUN/TAP /dev/net/tun: No existe tal archivo o directorio (errno=2)»**
 >
-> Este error suele producirse en instalaciones de tipo Docker, tal y como se indica en la documentación de [compatibilidad](/compatibility) La compatibilidad con Docker está en fase beta precisamente debido a este tipo de problemas. La solución suele ser instalar OpenVPN en el servidor (cuando sea posible).
+> Este error suele producirse en instalaciones de tipo Docker, tal y como se indica en la documentación de [compatibilidad](../../compatibility/es_ES/index.md) La compatibilidad con Docker está en fase beta precisamente debido a este tipo de problemas. La solución suele ser instalar OpenVPN en el servidor (cuando sea posible).

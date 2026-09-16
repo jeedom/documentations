@@ -22,7 +22,7 @@ Once complete, the system starts up once before automatically rebooting, after w
 
 >**INFORMATION**
 >
->The MAC address of your router *(and therefore the IP address)* may change depending on the kernel version. Please refer to the [Ways to find the router on the local network](/premiers-pas/#Accès%20local) if needed.
+>The MAC address of your router *(and therefore the IP address)* may change depending on the kernel version. Please refer to the [Ways to find the router on the local network](../../premiers-pas/en_US/index.md#local-access) if needed.
 
 The procedure can be performed directly from Jeedom by clicking on the **Settings → System → Restoration** menu, using one of two different modes:
 
@@ -69,12 +69,12 @@ The system images currently provided by the Jeedom team are freely available for
 - [**Jeedom Smart system image(s)**](https://images.jeedom.com/smart/){:target="_blank"}
 - [**Jeedom Atlas system image(s)**](https://images.jeedom.com/atlas/){:target="_blank"}
 
-View [**Documentation for official system images**](/compatibility/#Images%20système%20officielles) for more details.
+View [**Documentation for official system images**](../../compatibility/en_US/index.md#official-system-images) for more details.
 
 ## Smart eMMC Programming
 
-The new system restoration features cannot be installed on a Smart device still running Debian 10. In this case, you must first format the removable eMMC storage to upgrade to a newer version of Debian; see the documentation [**Guides → Tutorials → Smart Factory Reset**](/howto/smart) for more details.
+The new system restoration features cannot be installed on a Smart device still running Debian 10. In this case, you must first format the removable eMMC storage to upgrade to a newer version of Debian; see the documentation [**Guides → Tutorials → Smart Factory Reset**](../../howto/en_US/smart.md) for more details.
 
 ## First connection
 
-View the documentation related to [**First login**](/premiers-pas/#Première%20connexion) to access the Jeedom interface after installation.
+View the documentation related to [**First login**](../../premiers-pas/en_US/index.md#first-connection) to access the Jeedom interface after installation.

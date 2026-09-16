@@ -57,7 +57,7 @@ Afin de réaliser la mise à jour du système, il faut:
 
 >**INFORMATION**
 >
->**En cas de remplacement de l'eMMC d'origine** par une eMMC avec Jeedom préinstallé sous Debian 11, **clipser la nouvelle eMMC** à la place de l'ancienne **puis passer directement à l'étape de [remontage](#Remontage%20de%20la%20box%20Jeedom%20Smart)**.
+>**En cas de remplacement de l'eMMC d'origine** par une eMMC avec Jeedom préinstallé sous Debian 11, **clipser la nouvelle eMMC** à la place de l'ancienne **puis passer directement à l'étape de [remontage](#remontage-de-la-box-jeedom-smart)**.
 
 2. Clipser l'eMMC sur l'adaptateur et le brancher sur un ordinateur:
 
@@ -81,7 +81,7 @@ Afin de réaliser la mise à jour du système, il faut:
 
 ## Restauration système automatique ou USB
 
-Une fois le système Debian installé en version 11 ou supérieure, les mises à jour du système peuvent ensuite être effectuées directement depuis le core Jeedom en suivant [la nouvelle procédure d'installation sur Smart](/installation/recovery)
+Une fois le système Debian installé en version 11 ou supérieure, les mises à jour du système peuvent ensuite être effectuées directement depuis le core Jeedom en suivant [la nouvelle procédure d'installation sur Smart](../../installation/fr_FR/recovery.md)
 
 ## Prise en main du nouveau système
 

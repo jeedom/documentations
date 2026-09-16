@@ -6,7 +6,7 @@
 
 Hier ist eine kleine Übung, um zu erklären, wie man ein Plugin erstellt. Als Beispiel erstellen wir ein Plugin, das einen Satz von der Website viedemerde.fr zurückgibt. (Das Plugin wird weiterentwickelt.)
 
-Es ersetzt keinesfalls die [offizielle Dokumentation](index)
+Es ersetzt keinesfalls die [offizielle Dokumentation](index.md)
 
 # Die Grundlage für das Plugin erstellen
 
@@ -152,7 +152,7 @@ function vdm_remove() {
 }
 ```
 
-Das Plugin ist nun fertig, aber es müssen noch Anpassungen vorgenommen und das Symbol aktualisiert werden: [Entwicklerdokumentation – Plugin-Symbol](Icone_de_plugin)
+Das Plugin ist nun fertig, aber es müssen noch Anpassungen vorgenommen und das Symbol aktualisiert werden: [Entwicklerdokumentation – Plugin-Symbol](Icone_de_plugin.md)
 
 Fügen Sie das Symbol im Ordner „plugin_info“ unter dem Namen „vdm_icon.png“ hinzu
 

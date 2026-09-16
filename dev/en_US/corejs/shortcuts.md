@@ -1,4 +1,4 @@
-[<< Core.js](index)
+[<< Core.js](index.md)
 ## Shortcuts for HTML elements
 
 Core v4.4+ offers several shortcuts that make it easier and faster to write certain functions.

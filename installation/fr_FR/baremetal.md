@@ -4,7 +4,7 @@ La procédure suivante est basée sur l'utilisation d'un fichier d'image systèm
 
 >**INFORMATION**
 >
->Pour installer Jeedom manuellement sur un sytème Debian, se référer à la documentation concernant [l'installation en ligne de commande](cli).
+>Pour installer Jeedom manuellement sur un sytème Debian, se référer à la documentation concernant [l'installation en ligne de commande](cli.md).
 
 ## Téléchargement de l'image système
 
@@ -16,7 +16,7 @@ La première étape consiste à télécharger l'image système que vous souhaite
 
 >**INFORMATION**
 >
->Consulter [**la documentation dédiée**](/compatibility/#Images%20système%20officielles) pour plus de détails sur les images système Jeedom.
+>Consulter [**la documentation dédiée**](../../compatibility/fr_FR/index.md#images-système-officielles) pour plus de détails sur les images système Jeedom.
 
 ## Gravure de l'image système
 
@@ -54,8 +54,8 @@ Différentes options d'installation sont affichées à l'écran après avoir dé
 
 ## Compatibilité matérielle
 
-La liste, non exhaustive, des ordinateurs supportés par Jeedom est visible dans [la documentation **Compatibilité**](/compatibility/#Matériels%20supportés)
+La liste, non exhaustive, des ordinateurs supportés par Jeedom est visible dans [la documentation **Compatibilité**](../../compatibility/fr_FR/index.md#matériels-supportés)
 
 ## Première connexion
 
-Consulter la documentation relative à la [**première connexion**](/premiers-pas/#Première%20connexion) pour accéder à l'interface Jeedom suite à l'installation.
+Consulter la documentation relative à la [**première connexion**](../../premiers-pas/fr_FR/index.md#première-connexion) pour accéder à l'interface Jeedom suite à l'installation.

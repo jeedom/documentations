@@ -33,7 +33,7 @@ Die meisten bieten eine Liste der verbundenen Geräte/Peripheriegeräte mit dere
 
 Auf die Jeedom-Oberfläche kann auch über den Hostnamen des Rechners zugegriffen werden.
 
-- Bei Verwendung einer [offizielles System-Image](/compatibility/#Images%20système%20officielles) Um Jeedom zu installieren, ist der Hostname bekannt und Jeedom muss unter folgender Adresse erreichbar sein:
+- Bei Verwendung einer [offizielles System-Image](../../compatibility/de_DE/index.md#offizielle-system-images) Um Jeedom zu installieren, ist der Hostname bekannt und Jeedom muss unter folgender Adresse erreichbar sein:
 
 | Gerät | Jeedom-Schnittstelle   |
 |--------------------|--------------------|
@@ -49,7 +49,7 @@ Die Adresse der Jeedom-Schnittstelle sollte normalerweise lauten: `http://MACHIN
 
 #### Systemkonsole
 
-Seit einer [offizielles System-Image](/compatibility/#Images%20système%20officielles): Bei jedem direkten Zugriff auf die Konsole wird sofort die Adresse der Jeedom-Schnittstelle angezeigt:
+Seit einer [offizielles System-Image](../../compatibility/de_DE/index.md#offizielle-system-images): Bei jedem direkten Zugriff auf die Konsole wird sofort die Adresse der Jeedom-Schnittstelle angezeigt:
 
 {% include lightbox.html src="../images/shell_ip.jpg" data="shell_ip" title="Console système : IP Jeedom" imgstyle="display:block;margin:0 auto;" %}
 
@@ -60,7 +60,7 @@ ip addr | grep 'inet ' | tail -n 1
 
 ### Erste Anmeldung
 
-[Sobald die Adresse von Jeedom bekannt ist](#Accès%20local), geben Sie diese Adresse in Ihren Internetbrowser ein, um zur Anmeldeseite zu gelangen:
+[Sobald die Adresse von Jeedom bekannt ist](#lokaler-zugriff), geben Sie diese Adresse in Ihren Internetbrowser ein, um zur Anmeldeseite zu gelangen:
 
 {% include lightbox.html src="../images/FirstStep_box_connect.jpg" data="FirstStep_box_connect" title="Connexion Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
@@ -133,7 +133,7 @@ Aktivieren Sie das Kontrollkästchen **Jeedom-DNS aktivieren** und klicken Sie a
 
 Sie können die Adresse für den Fernzugriff anpassen, indem Sie auf die Schaltfläche **Konfiguration** des Dienstes klicken unter [**Ihr Marktprofil**](https://www.jeedom.com/market/index.php?v=d&p=profils#services){:target="_blank"}.
 
-Alle Details finden Sie unter [Dokumentation zum Dienst „Fernzugriff“ – DNS Jeedom](/howto/mise_en_place_dns_jeedom).
+Alle Details finden Sie unter [Dokumentation zum Dienst „Fernzugriff“ – DNS Jeedom](../../howto/de_DE/mise_en_place_dns_jeedom.md).
 
 ## Mein erstes Objekt erstellen
 

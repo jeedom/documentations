@@ -4,13 +4,13 @@ Die folgende Anleitung richtet sich an fortgeschrittene Benutzer und beschreibt 
 
 >**INFORMATION**
 >
->Falls Sie Fragen zur Installation von Debian haben, bietet das Jeedom-Team auch System-Images an, auf denen Debian und Jeedom bereits vorinstalliert sind. Weitere Informationen finden Sie unter [**die entsprechende Dokumentation**](/compatibility/#Images%20système%20officielles) Weitere Informationen finden Sie hier.
+>Falls Sie Fragen zur Installation von Debian haben, bietet das Jeedom-Team auch System-Images an, auf denen Debian und Jeedom bereits vorinstalliert sind. Weitere Informationen finden Sie unter [**die entsprechende Dokumentation**](../../compatibility/de_DE/index.md#offizielle-system-images) Weitere Informationen finden Sie hier.
 
 ## Debian-Version
 
 Jeedom ist eine Linux-Software, die für den optimalen Betrieb auf [ein Debian-Server-System](https://www.debian.org/){:target="_blank"}.
 
-Denken Sie daran, zu überprüfen, ob [**Ihre Debian-Version wird von Jeedom unterstützt**](/compatibility/#Debian) bevor Sie mit der Installation beginnen.
+Denken Sie daran, zu überprüfen, ob [**Ihre Debian-Version wird von Jeedom unterstützt**](../../compatibility/de_DE/index.md#debian) bevor Sie mit der Installation beginnen.
 
 ## Manuelle Installation
 
@@ -58,8 +58,8 @@ Das Jeedom-Installationsskript verfügt über verschiedene Optionen, mit denen s
 
 ## Hardware-Kompatibilität
 
-Eine nicht vollständige Liste der von Jeedom unterstützten Geräte finden Sie unter [Dokumentation **Kompatibilität**](/compatibility/#Matériels%20supportés)
+Eine nicht vollständige Liste der von Jeedom unterstützten Geräte finden Sie unter [Dokumentation **Kompatibilität**](../../compatibility/de_DE/index.md#unterstützte-geräte)
 
 ## Erste Anmeldung
 
-Die Dokumentation zur [**Erste Anmeldung**](/premiers-pas/#Première%20connexion) um nach der Installation auf die Jeedom-Benutzeroberfläche zuzugreifen.
+Die Dokumentation zur [**Erste Anmeldung**](../../premiers-pas/de_DE/index.md#erste-anmeldung) um nach der Installation auf die Jeedom-Benutzeroberfläche zuzugreifen.

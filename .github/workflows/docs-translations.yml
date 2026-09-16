@@ -3,7 +3,7 @@ name: Docs translate (general content)
 on:
   push:
     branches:
-      - master
+      - rework # TODO: revert to master before merging #199
     paths:
       - '*/fr_FR/**'
   workflow_dispatch:

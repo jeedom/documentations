@@ -18,7 +18,7 @@ Felder | Werte |
 ``author`` * | Name des Plugin-Autors, wie er nach der Installation des Plugins in den Plugin-Informationen angezeigt wird. |
 ``require`` * | Erforderliche Mindestversion von Jeedom (Core). |
 ``os``                 | Mindest- und Höchstversion von Debian. In Form eines JSON-Objekts, Beispiel: {"min": 10, "max": 12.99} (mindestens Core 4.4.15). Wenn eines der beiden Felder nicht ausgefüllt ist, wird kein Vergleich mit der Betriebssystemversion des Benutzers durchgeführt. Sie können eine genauere Version angeben, zum Beispiel 10.5. Um die Versionsbeschränkung aufzuheben, müssen Sie die App im Market mit einem leeren Wert „“ erneut veröffentlichen. Beachten Sie, dass es für den Maximalwert empfehlenswert ist, .99 anzugeben, um alle Nebenversionen einzubeziehen. |
-``category`` * | Einstufungskategorie des Plugins im Jeedom Market. **Bitte unbedingt die [Legende zur folgenden Tabelle](#NOMENCLATURE%20CATEGORIES)** |
+``category`` * | Einstufungskategorie des Plugins im Jeedom Market. **Bitte unbedingt die [Legende zur folgenden Tabelle](#kategorienübersicht)** |
 ``display``                  | Wenn das Plugin ein eigenes Panel auf dem Desktop verwendet, handelt es sich hierbei um den Namen der Hauptdatei dieses Panels. |
 ``mobile``                   | Falls das Plugin ein eigenes Panel in der Jeedom-WebApp verwendet, handelt es sich hierbei um den Namen der Hauptdatei dieses Panels.   |
 ``changelog`` * | HTML-Link zum Changelog. |
@@ -29,10 +29,10 @@ Felder | Werte |
 ``link`` -> ``forum``               | HTML-Link zum offiziellen Forum zum Thema des Plugins. |
 ``language``                | Liste der für das Plugin verfügbaren Sprachen: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``es_ES``, ``pt_PT``            |
 ``compatibility``            | Plugin-Kompatibilität: miniplus, smart, docker, rpi, diy, mobileapp, v4. |
-``hasDependency``            | „true“, wenn [Das Plugin muss Abhängigkeiten installieren](daemon_plugin#Les%20d%C3%A9pendance), andernfalls „false“ oder nicht vorhanden. |
-``hasOwnDeamon``             | „true“, wenn [Das Plugin muss Daemons ausführen](daemon_plugin#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), andernfalls „false“ oder nicht vorhanden. |
+``hasDependency``            | „true“, wenn [Das Plugin muss Abhängigkeiten installieren](daemon_plugin.md#nebengebäude), andernfalls „false“ oder nicht vorhanden. |
+``hasOwnDeamon``             | „true“, wenn [Das Plugin muss Daemons ausführen](daemon_plugin.md#dämonen--abhängigkeiten), andernfalls „false“ oder nicht vorhanden. |
 ``maxDependancyInstallTime`` | Maximale Zeit für die Installation der Nebengebäude, angegeben in Minuten. |
-``specialAttributes`` | Ermöglicht es Plugins, [zusätzliche Einstellung](#SpecialAttributes) auf [von Objekten](#Attributs%20Objet) oder [der Nutzer](#Attributs%20User) (Schauen Sie sich das Beispiel für die Plugin-Vorlage genau an) (Siehe Erläuterungen unten) |
+``specialAttributes`` | Ermöglicht es Plugins, [zusätzliche Einstellung](#sonderattribute) auf [von Objekten](#objektattribute) oder [der Nutzer](#benutzerattribute) (Schauen Sie sich das Beispiel für die Plugin-Vorlage genau an) (Siehe Erläuterungen unten) |
 ``issue``                    | URL zum Bugtracker, falls extern (falls nicht ausgefüllt, erhalten Sie eine E-Mail)
 
 ## Beispiel

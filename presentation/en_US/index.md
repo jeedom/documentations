@@ -49,7 +49,7 @@ The Core includes, among other things:
 
 *Scenarios allow you to automate all or part of your devices. They are built using different blocks: conditional blocks (If, Then, Else), action blocks, scheduling blocks (IN x minutes or At hhmm), loop blocks, comment blocks, and PHP code blocks. All blocks can be nested within one another, offering endless possibilities.*
 
-[My First Scenario](/concept/#tocAnchor-4)
+[My First Scenario](../../concept/en_US/index.md#my-first-scenario)
 
 ![Scenario Page](../images/doc-presentation-scenario.jpg)
 

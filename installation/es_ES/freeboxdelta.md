@@ -38,4 +38,4 @@ La dirección IP de tu Jeedom en la Freebox Delta aparece en la parte superior, 
 
 El nombre de usuario y la contraseña predeterminados son «admin/admin» cuando accedes a Jeedom a través de tu navegador.
 
-A continuación, puedes consultar la documentación [Primeros pasos con Jeedom](/premiers-pas)
+A continuación, puedes consultar la documentación [Primeros pasos con Jeedom](../../premiers-pas/es_ES/index.md)

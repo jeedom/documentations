@@ -49,7 +49,7 @@ Der Core umfasst unter anderem:
 
 *Mit Szenarien können Sie Ihre Geräte ganz oder teilweise automatisieren. Sie bestehen aus verschiedenen Bausteinen: Bedingungsbausteine („Wenn“, „Dann“, „Sonst“), Aktionsbausteine, Programmierbausteine („IN x Minuten“ oder „Um hhmm“), Schleifenbausteine, Kommentarbausteine oder PHP-Code-Bausteine. Alle Bausteine lassen sich miteinander verknüpfen und bieten so unendliche Möglichkeiten.*
 
-[Mein erstes Szenario](/concept/#tocAnchor-4)
+[Mein erstes Szenario](../../concept/de_DE/index.md#mein-erstes-szenario)
 
 ![Seite „Szenario“](../images/doc-presentation-scenario.jpg)
 

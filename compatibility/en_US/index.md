@@ -29,7 +29,7 @@ Our recommendations will depend on various factors:
 
 - **Jeedom Atlas or Luna**: the perfect blend of simplicity, optimization, and advanced compatibility.
 - **Nano-computer** *(Odroid C2, Rock Pi, Raspberry Pi, etc.)*: the best value for the price.
-- **Mini-PC** *(NUC)*: Extreme performance for a higher budget *(see [the dedicated advanced tutorial](/howtoadvance/vmware.installation_sur_nuc) for more details)*.
+- **Mini-PC** *(NUC)*: Extreme performance for a higher budget *(see [the dedicated advanced tutorial](../../howtoadvance/en_US/vmware.installation_sur_nuc.md) for more details)*.
 
 ### Supported Devices
 
@@ -87,11 +87,11 @@ The team develops custom system images for a wide variety of devices, including 
 | System Overview | Documentation |
 |--------------------|--------------------|
 | [Luna](https://images.jeedom.com/luna/){:target="_blank"} | [Installation on Luna](/plugins/home%20automation%20protocol/luna) |
-| [Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Installation on Atlas](/installation/recovery) |
-| [Smart](https://images.jeedom.com/smart/){:target="_blank"} | [Setup on Smart](/installation/recovery) |
-| [Computers](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation on a PC/mini-PC](/installation/baremetal) |
-| [Hypervisors](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation on a virtual machine](/installation/vm) |
-| [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [Setup on Freebox](/installation/freeboxdelta) |
+| [Atlas](https://images.jeedom.com/atlas/){:target="_blank"} | [Installation on Atlas](../../installation/en_US/recovery.md) |
+| [Smart](https://images.jeedom.com/smart/){:target="_blank"} | [Setup on Smart](../../installation/en_US/recovery.md) |
+| [Computers](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation on a PC/mini-PC](../../installation/en_US/baremetal.md) |
+| [Hypervisors](https://images.jeedom.com/x86-64/){:target="_blank"} | [Installation on a virtual machine](../../installation/en_US/vm.md) |
+| [Freebox](https://images.jeedom.com/freebox/){:target="_blank"} | [Setup on Freebox](../../installation/en_US/freeboxdelta.md) |
 
 ### File verification
 
@@ -99,7 +99,7 @@ The **SHA256 key**, which is used to verify the integrity of the downloaded file
 
 ### First connection
 
-View the documentation related to [**First login**](/premiers-pas/#Première%20connexion) to access the Jeedom interface after installation.
+View the documentation related to [**First login**](../../premiers-pas/en_US/index.md#first-connection) to access the Jeedom interface after installation.
 
 ### System console
 

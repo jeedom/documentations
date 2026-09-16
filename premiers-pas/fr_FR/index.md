@@ -33,7 +33,7 @@ La plupart propose une liste des appareils/périphériques connectés, avec leur
 
 L'interface Jeedom est également accessible par le nom d'hôte de la machine.
 
-- En cas d'utilisation d'une [image système officielle](/compatibility/#Images%20système%20officielles) pour déployer Jeedom, le nom d'hôte est connu et Jeedom doit être accessible sur :
+- En cas d'utilisation d'une [image système officielle](../../compatibility/fr_FR/index.md#images-système-officielles) pour déployer Jeedom, le nom d'hôte est connu et Jeedom doit être accessible sur :
 
   | Machine            | Interface Jeedom   |
   |--------------------|--------------------|
@@ -49,7 +49,7 @@ L'interface Jeedom est également accessible par le nom d'hôte de la machine.
 
 #### Console système
 
-Depuis une [image système officielle](/compatibility/#Images%20système%20officielles), tout accès direct à la console affiche immédiatement l'adresse de l'interface Jeedom :
+Depuis une [image système officielle](../../compatibility/fr_FR/index.md#images-système-officielles), tout accès direct à la console affiche immédiatement l'adresse de l'interface Jeedom :
 
 {% include lightbox.html src="../images/shell_ip.jpg" data="shell_ip" title="Console système : IP Jeedom" imgstyle="display:block;margin:0 auto;" %}
 
@@ -60,7 +60,7 @@ ip addr | grep 'inet ' | tail -n 1
 
 ### Première connexion
 
-[Une fois l'adresse de Jeedom connue](#Accès%20local), saisissez-la dans votre navigateur internet pour accéder à la page de connexion :
+[Une fois l'adresse de Jeedom connue](#accès-local), saisissez-la dans votre navigateur internet pour accéder à la page de connexion :
 
 {% include lightbox.html src="../images/FirstStep_box_connect.jpg" data="FirstStep_box_connect" title="Connexion Jeedom" imgstyle="width:75%;display:block;margin:0 auto;" %}
 
@@ -133,7 +133,7 @@ Cochez la case **Activer DNS Jeedom**, puis cliquez sur le bouton **(Re)démarre
 
 Vous pouvez personnaliser l'adresse d'accès à distance en cliquant le bouton **Configuration** du service depuis [**votre profil market**](https://www.jeedom.com/market/index.php?v=d&p=profils#services){:target="_blank"}.
 
-Retrouvez tous les détails dans [la documentation dédiée au service Accès à distance - DNS Jeedom](/howto/mise_en_place_dns_jeedom).
+Retrouvez tous les détails dans [la documentation dédiée au service Accès à distance - DNS Jeedom](../../howto/fr_FR/mise_en_place_dns_jeedom.md).
 
 ## Créer mon premier objet
 

@@ -6,7 +6,7 @@
 
 Voici un petit TP pour expliquer comment créer un plugin. Pour l’exemple nous allons créer un plugin qui retourne une phrase du site viedemerde.fr .(Le plugin sera évolutif)
 
-Il ne remplace en aucun cas la [documentation officielle](index)
+Il ne remplace en aucun cas la [documentation officielle](index.md)
 
 # Créer la base du plugin
 
@@ -152,7 +152,7 @@ function vdm_remove() {
 }
 ```
 
-Voilà le plugin est prêt mais il reste la customisation et l’icône à mettre à jour : [Documentation développeurs - Icône de plugin](Icone_de_plugin)
+Voilà le plugin est prêt mais il reste la customisation et l’icône à mettre à jour : [Documentation développeurs - Icône de plugin](Icone_de_plugin.md)
 
 Ajoutez l'icône dans le dossier plugin_info sous le nom vdm_icon.png
 

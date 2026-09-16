@@ -155,4 +155,4 @@ Nach Abschluss des Neustarts sollten Sie Folgendes vorfinden:
 
 So, VMware ist nun installiert (und das Tolle daran ist, dass es Ihnen seine IP-Adresse anzeigt) – jetzt heißt es nur noch, damit herumzuspielen!!!
 
-Im Folgenden finden Sie einen [Anleitung](vmware.creer_une_vm) für die Erstellung Ihrer ersten virtuellen Maschine. Und Sie finden [hier](vmware.trucs_et_astuces) Ein Tutorial mit Tipps und Tricks (zum Beispiel zum Einrichten Ihrer VMware-Lizenz)
+Im Folgenden finden Sie einen [Anleitung](vmware.creer_une_vm.md) für die Erstellung Ihrer ersten virtuellen Maschine. Und Sie finden [hier](vmware.trucs_et_astuces.md) Ein Tutorial mit Tipps und Tricks (zum Beispiel zum Einrichten Ihrer VMware-Lizenz)

@@ -48,7 +48,7 @@ El servicio de asistencia está disponible en función de tu Service Pack
 - Service Pack Pro: 100 tickets al mes
 
 Hay varias formas de presentar una solicitud:
-[Documentación: Solicitudes de asistencia o tickets](/premiers-pas#Les%20demandes%20de%20support%20\(ou%20tickets\))
+[Documentación: Solicitudes de asistencia o tickets](../../premiers-pas/es_ES/index.md#las-solicitudes-de-asistencia-o-tickets)
 
 >**IMPORTANTE**
 >

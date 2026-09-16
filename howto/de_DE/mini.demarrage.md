@@ -43,14 +43,14 @@ Das Wetter-Plugin.
 
 Zahlreiche weitere Plugins finden Sie direkt über die Jeedom-Benutzeroberfläche im Jeedom Market.
 
-Vergessen Sie außerdem nicht, dass Ihnen zwei Rabattgutscheine (per E-Mail versandt) zur Verfügung stehen, mit denen Sie zwei kostenpflichtige Plugins (RFXCOM und Alarme) kostenlos installieren können. Um diese einzulösen, müssen Sie ein Konto im Jeedom Market erstellen. Weitere Informationen finden Sie in der Dokumentation: [Doc Market](/premiers-pas).
+Vergessen Sie außerdem nicht, dass Ihnen zwei Rabattgutscheine (per E-Mail versandt) zur Verfügung stehen, mit denen Sie zwei kostenpflichtige Plugins (RFXCOM und Alarme) kostenlos installieren können. Um diese einzulösen, müssen Sie ein Konto im Jeedom Market erstellen. Weitere Informationen finden Sie in der Dokumentation: [Doc Market](../../premiers-pas/de_DE/index.md).
 
 In der E-Mail, die Sie erhalten haben, ist auch die Nummer des Service Packs für den Jeedom Mini+ angegeben. Sie können diese in Ihrem Market-Profil eingeben. Dadurch erhalten Sie unter anderem Zugriff auf die verschiedenen Dienste, die Ihrem Service Pack entsprechen.
 
 ![mini.start09](../images/mini.demarrage09.png)
 
-Sie können nun der Dokumentation folgen: [Erste Schritte mit Jeedom](/premiers-pas) Damit können Sie die IP-Adresse Ihres Jeedom Mini+ ermitteln und eine Verbindung herstellen, um mit der Konfiguration und Nutzung zu beginnen.
+Sie können nun der Dokumentation folgen: [Erste Schritte mit Jeedom](../../premiers-pas/de_DE/index.md) Damit können Sie die IP-Adresse Ihres Jeedom Mini+ ermitteln und eine Verbindung herstellen, um mit der Konfiguration und Nutzung zu beginnen.
 
-Um mehr über Jeedom zu erfahren und es besser nutzen zu können, steht Ihnen eine umfassende Dokumentation zur Verfügung: [Jeedom-Dokumentation](/) sowie einen Bereich mit Video-Anleitungen: [Video-Anleitungen](/presentation#tocAnchor-1-3). Bei weiteren Fragen können Sie gerne das Jeedom-Forum besuchen: [Jeedom-Community](https://community.jeedom.com/).
+Um mehr über Jeedom zu erfahren und es besser nutzen zu können, steht Ihnen eine umfassende Dokumentation zur Verfügung: [Vorstellung von Jeedom](../../presentation/de_DE/index.md). Bei weiteren Fragen können Sie gerne das Jeedom-Forum besuchen: [Jeedom-Community](https://community.jeedom.com/).
 
 Vielen Dank und viel Spaß beim Entdecken der Hausautomation mit Jeedom.

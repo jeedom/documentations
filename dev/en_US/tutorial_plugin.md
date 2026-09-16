@@ -6,7 +6,7 @@
 
 Here’s a quick hands-on exercise to explain how to create a plugin. For this example, we’ll create a plugin that returns a phrase from the website viedemerde.fr. (The plugin will be expandable.)
 
-It is by no means a substitute for [official documentation](index)
+It is by no means a substitute for [official documentation](index.md)
 
 # Create the plugin's base
 
@@ -152,7 +152,7 @@ function vdm_remove() {
 }
 ```
 
-The plugin is ready, but we still need to customize it and update the icon: [Developer Documentation - Plugin Icon](Icone_de_plugin)
+The plugin is ready, but we still need to customize it and update the icon: [Developer Documentation - Plugin Icon](Icone_de_plugin.md)
 
 Add the icon to the plugin_info folder with the name vdm_icon.png
 

@@ -46,7 +46,7 @@ Here are the recommendations:
 
 ## ``info.json``
 
-See [here](structure_info_json)
+See [here](structure_info_json.md)
 
 ## ``install.php``
 

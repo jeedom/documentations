@@ -1,4 +1,4 @@
-[<< Core.js](index)
+[<< Core.js](index.md)
 ## Tastenkombinationen für HTML-Elemente
 
 Core v4.4+ bietet mehrere Tastenkombinationen, mit denen sich bestimmte Funktionen einfacher und schneller ausführen lassen.

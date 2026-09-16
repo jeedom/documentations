@@ -18,7 +18,7 @@ You can view these devices in several ways:
 
 ![Summary](../images/concept-synthese.jpg)
 
-These can be viewed in a browser on a desktop computer, on a smartphone using the WebApp, or via the mobile app: [Mobile Version](/mobile)
+These can be viewed in a browser on a desktop computer, on a smartphone using the WebApp, or via the mobile app: [Mobile Version](../../mobile/en_US/index.md)
 
 ## Objects
 

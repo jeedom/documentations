@@ -1,4 +1,4 @@
-[<< Core js](index)
+[<< Core js](index.md)
 ## Atajos para los elementos HTML
 
 Core v4.4+ ofrece varios atajos que permiten escribir ciertas funciones de forma más fácil y rápida.

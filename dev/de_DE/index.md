@@ -6,25 +6,25 @@
 
 ## Entwicklungsphasen
 
-- [Anleitung](tutorial_plugin)
+- [Anleitung](tutorial_plugin.md)
 
-- [Symbol eines Plugins](Icone_de_plugin)
-- [Struktur von info.json](structure_info_json)
-- [Dokumentation eines Plugins](documentation_plugin)
-- [Veröffentlichung eines Plugins](publication_plugin)
-- [Widget eines Plugins](widget_plugin)
-- [Plugin-Vorlage](plugin_template)
-- [Daemon und Abhängigkeiten eines Plugins](daemon_plugin)
-- [Empfehlung zum Bestellwert](cmd_value)
+- [Symbol eines Plugins](Icone_de_plugin.md)
+- [Struktur von info.json](structure_info_json.md)
+- [Dokumentation eines Plugins](documentation_plugin.md)
+- [Veröffentlichung eines Plugins](publication_plugin.md)
+- [Widget eines Plugins](widget_plugin.md)
+- [Plugin-Vorlage](plugin_template.md)
+- [Daemon und Abhängigkeiten eines Plugins](daemon_plugin.md)
+- [Empfehlung zum Bestellwert](cmd_value.md)
 
 ## JavaScript Core 4.4+
 
-- [JS-Entwicklung und Core 4.4 +](corejs/)
+- [JS-Entwicklung und Core 4.4 +](corejs/index.md)
 
 ## Entwicklungen im Core und Anpassungen der Plugins
 
-- [Core v4.4](core4.4)
-- [Core v4.3](core4.3)
+- [Core v4.4](core4.4.md)
+- [Core v4.3](core4.3.md)
 
 ## Plugin-Übertragung
 

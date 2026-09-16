@@ -17,15 +17,12 @@ El objetivo aquí no es explicar todos los métodos de JavaScript, ya que hay su
 
 A continuación, veremos las principales funciones que ofrece el Core y que se pueden utilizar en los complementos.
 
-- [Dov dev Jeedom Core 4.4](/dev/core4.4)
+- [Dov dev Jeedom Core 4.4](../core4.4.md)
 
-- [Atajos para los elementos HTML](shortcuts)
-- [Cuadros de diálogo](dialogs)
-- [Ayudas](helpers)
-- [Gestión de eventos (*listeners*) en JavaScript](events)
-- [Gestión de llamadas Ajax](ajax)
-- [Establecer y obtener valores](jeevalue)
-- [Autocompletado](jeeComplete)
-
-
-
+- [Atajos para los elementos HTML](shortcuts.md)
+- [Cuadros de diálogo](dialogs.md)
+- [Ayudas](helpers.md)
+- [Gestión de eventos (*listeners*) en JavaScript](events.md)
+- [Gestión de llamadas Ajax](ajax.md)
+- [Establecer y obtener valores](jeevalue.md)
+- [Autocompletado](jeeComplete.md)

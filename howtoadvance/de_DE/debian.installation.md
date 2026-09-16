@@ -24,7 +24,7 @@ Jetzt müssen Sie nur noch auf „Start“ klicken, den USB-Stick in den Rechner
 
 ## Auf einer VM
 
-Die Vorgehensweise ist recht einfach: Sie erstellen eine neue virtuelle Maschine, stellen eine Verbindung her, fügen ein virtuelles CD-Laufwerk hinzu, das auf die ISO-Datei verweist (denken Sie daran, es anzuschließen), und starten die Maschine. Siehe [hier](vmware.creer_une_vm) Weitere Informationen finden Sie hier.
+Die Vorgehensweise ist recht einfach: Sie erstellen eine neue virtuelle Maschine, stellen eine Verbindung her, fügen ein virtuelles CD-Laufwerk hinzu, das auf die ISO-Datei verweist (denken Sie daran, es anzuschließen), und starten die Maschine. Siehe [hier](vmware.creer_une_vm.md) Weitere Informationen finden Sie hier.
 
 # Installation
 
@@ -150,4 +150,4 @@ Die Open VMware Tools installieren die für das jeweilige Betriebssystem spezifi
 
 ``sudo apt-get install -y open-vm-tools``
 
-Jetzt müssen Sie nur noch Jeedom installieren, indem Sie den folgenden Schritten folgen [dies](/installation/cli)
+Jetzt müssen Sie nur noch Jeedom installieren, indem Sie den folgenden Schritten folgen [dies](../../installation/de_DE/cli.md)

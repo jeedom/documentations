@@ -10,7 +10,7 @@ The best way to ensure peace of mind is to do both: Back up the microSD card fro
 
 > **Tip**
 >
-> The microSD card restoration procedure may be useful for restoring a Jeedom to its default settings using the image provided by the team. See [here](/installation).
+> The microSD card restoration procedure may be useful for restoring a Jeedom to its default settings using the image provided by the team. See [here](../../installation/en_US/index.md).
 
 # Jeedom Backup/Restore
 

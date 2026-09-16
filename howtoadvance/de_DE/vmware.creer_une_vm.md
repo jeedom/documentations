@@ -19,7 +19,7 @@ Rufen Sie mit Ihrem Webbrowser die Adresse IP\_ESXI/ui auf. Dort sollten Sie Fol
 
 > **Hinweis**
 >
-> Falls Sie noch nichts haben, empfehle ich Ihnen, die Weboberfläche zu installieren. Alle Informationen [hier](vmware.trucs_et_astuces)
+> Falls Sie noch nichts haben, empfehle ich Ihnen, die Weboberfläche zu installieren. Alle Informationen [hier](vmware.trucs_et_astuces.md)
 
 Geben Sie Ihre Anmeldedaten für ESXI ein:
 
@@ -127,19 +127,19 @@ Ihr Rechner wird nun hochfahren, und Sie können mit der Installation Ihres Betr
 >
 > Sobald Ihre Maschine installiert ist, müssen Sie UNBEDINGT die VMware-Tools installieren (dadurch erhält VMware Informationen über Ihre VM und kann diese ordnungsgemäß herunterfahren). Unter Debian reicht es aus, den Befehl „sudo apt-get -y install open-vm-tools“ auszuführen.
 
-Für die weiteren Schritte der Installation empfehle ich Ihnen, diesen Artikel zu lesen [Anleitung](debian.installation)
+Für die weiteren Schritte der Installation empfehle ich Ihnen, diesen Artikel zu lesen [Anleitung](debian.installation.md)
 
 # USB-Geräte in der VM einbinden
 
 > **Hinweis**
 >
-> Wenn die unten aufgeführten Optionen nicht verfügbar sind, müssen Sie den ESXi Embedded Host Client aktualisieren. Alle Informationen [hier](vmware.trucs_et_astuces)
+> Wenn die unten aufgeführten Optionen nicht verfügbar sind, müssen Sie den ESXi Embedded Host Client aktualisieren. Alle Informationen [hier](vmware.trucs_et_astuces.md)
 
 Das kommt zwar eher selten vor, aber ich musste diese Funktion für Jeedom nutzen, da ich auf meinem ESXi-Server Z-Wave-, RFXcom-, Edisio-, enOcean- und GSM-Module angeschlossen habe und diese mit meiner Jeedom-VM verbinden musste, um sie nutzen zu können.
 
 > **Hinweis**
 >
-> Bei Z-Wave, RFXcom, edisio und enOcean gibt es keine Probleme, bei GSM-Sticks müssen Sie folgende Schritte befolgen: [Anleitung](gsm.huawei_mode_modem) Zuvor muss der Schlüssel in den reinen Modem-Modus versetzt werden, da er sonst vom ESXi nicht korrekt erkannt wird.
+> Bei Z-Wave, RFXcom, edisio und enOcean gibt es keine Probleme, bei GSM-Sticks müssen Sie folgende Schritte befolgen: [Anleitung](gsm.huawei_mode_modem.md) Zuvor muss der Schlüssel in den reinen Modem-Modus versetzt werden, da er sonst vom ESXi nicht korrekt erkannt wird.
 
 Rufen Sie Ihre VM auf und wählen Sie „Einstellungen bearbeiten“:
 

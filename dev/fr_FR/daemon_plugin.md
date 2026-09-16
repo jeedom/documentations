@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Dans le [tutoriel](tutorial_plugin) et la [documentation](plugin_template) vous avez appris comment coder votre premier plugin avec des actions relativement simples déclenchées par l'utilisateur via une commande action ou par une tâche planifiée par le core (les crons).
+Dans le [tutoriel](tutorial_plugin.md) et la [documentation](plugin_template.md) vous avez appris comment coder votre premier plugin avec des actions relativement simples déclenchées par l'utilisateur via une commande action ou par une tâche planifiée par le core (les crons).
 Le plugin est alors capable de ponctuellement aller chercher de l'information (par exemple via requête http) ou de faire toute sortes d'opérations pour autant que cela puisse être codé en PHP.
 
 Il va arriver que vous ayez besoin de plus que cela, quelques exemples sans être exhaustif:
@@ -20,7 +20,7 @@ Pas de panique, tout est déjà prévu dans le core de jeedom pour nous aider à
 Le code et/ou l'exécutable de votre démon doit évidement se trouver dans l'arborescence de votre plugin et doit donc être inclus et livré avec l'archive lors de l'installation d'un plugin.
 Il n'y a pas de règle stricte sur l'emplacement exact de votre démon, cependant la convention veut que l'on place celui-ci dans le sous-répertoire `./resources/` du plugin.
 
-Dans le plugin template vous trouverez les bases pour implémenter un démon en python et c'est l'exemple que l'on va utiliser dans cette documentation cependant vous êtes libre de développer votre démon dans le langage de votre choix à condition qu'il puisse être exécuté sur les [plateformes supportées par Jeedom](/compatibility/).
+Dans le plugin template vous trouverez les bases pour implémenter un démon en python et c'est l'exemple que l'on va utiliser dans cette documentation cependant vous êtes libre de développer votre démon dans le langage de votre choix à condition qu'il puisse être exécuté sur les [plateformes supportées par Jeedom](../../compatibility/fr_FR/index.md).
 La plupart des démons des plugins Jeedom sont en python ou nodeJs mais il en existe aussi en .netCore et certainement d'autres technos.
 
 Vous trouverez également quelques méthodes utiles pour un démon en nodeJs qui seront peut-être détaillées dans une prochaine version de cette documentation. Pour l'instant je vous invite à consulter le community dev pour vous aligner avec les autres développeurs sur tout ce qui concerne NodeJs, principalement sur la version à utiliser.

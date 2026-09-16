@@ -21,7 +21,7 @@ Diese Methode ist auch mit anderen Tools möglich, wie beispielsweise **Atom** (
 
 Das Erste, was Sie tun sollten, wenn Sie Core-Funktionen oder ein Plugin entwickeln: Richten Sie eine Testumgebung ein. Denn man entwickelt nicht auf einer Produktionsumgebung!
 
-Für die Installation von Jeedom finden Sie hier die Dokumentation: [Installation auf Raspberry Pi](/installation/rpi).
+Für die Installation von Jeedom finden Sie hier die Dokumentation: [Installation auf Raspberry Pi](../../installation/de_DE/rpi.md).
 
 Achtung: Verwenden Sie lieber eine SSD als eine SD-Karte!
 

@@ -1,4 +1,4 @@
-[<< Core.js](index)
+[<< Core.js](index.md)
 ## Hilfsprogramme
 
 *Helper* sind vorgefertigte Funktionen des Core, die von Plugins aufgerufen werden können und verschiedene Aufgaben übernehmen.

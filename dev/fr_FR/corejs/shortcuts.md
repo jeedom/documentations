@@ -1,4 +1,4 @@
-[<< Core js](index)  
+[<< Core js](index.md)  
 ## Raccourcis sur les éléments html
 
 Le Core v4.4+ propose plusieurs raccourcis permettant d'écrire plus facilement et rapidement certaines fonctions.

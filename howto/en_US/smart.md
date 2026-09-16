@@ -57,7 +57,7 @@ To update the system, you must:
 
 >**INFORMATION**
 >
->**If you are replacing the original eMMC** with an eMMC that has Jeedom preinstalled on Debian 11, **snap the new eMMC** into place in place of the old one **and then proceed directly to the step of [rewinding](#Remontage%20de%20la%20box%20Jeedom%20Smart)**.
+>**If you are replacing the original eMMC** with an eMMC that has Jeedom preinstalled on Debian 11, **snap the new eMMC** into place in place of the old one **and then proceed directly to the step of [rewinding](#reassembly-of-the-jeedom-smart-box)**.
 
 2. Snap the eMMC onto the adapter and plug it into a computer:
 
@@ -81,7 +81,7 @@ To update the system, you must:
 
 ## Automatic system restore or USB restore
 
-Once Debian version 11 or higher is installed, system updates can then be performed directly from the Jeedom core by following [The new installation procedure on Smart](/installation/recovery)
+Once Debian version 11 or higher is installed, system updates can then be performed directly from the Jeedom core by following [The new installation procedure on Smart](../../installation/en_US/recovery.md)
 
 ## Getting Started with the New System
 

@@ -19,7 +19,7 @@ Go to IP\_ESXI/ui in your web browser; you should see:
 
 > **Note**
 >
-> If you don't have anything set up yet, I recommend installing the web interface; all the information [here](vmware.trucs_et_astuces)
+> If you don't have anything set up yet, I recommend installing the web interface; all the information [here](vmware.trucs_et_astuces.md)
 
 Enter your ESXi login credentials:
 
@@ -127,19 +127,19 @@ Your machine will start up, and you'll be able to install your operating system:
 >
 > Once your machine is installed, you MUST install the VMware Tools (this allows VMware to access information about your VM and shut it down properly). On Debian, simply run "sudo apt-get -y install open-vm-tools".
 
-For the rest of the installation, please read this [tutorial](debian.installation)
+For the rest of the installation, please read this [tutorial](debian.installation.md)
 
 # Mount USB devices in the VM
 
 > **Note**
 >
-> If you don't see the options below, you need to update the ESXi Embedded Host Client. All the information [here](vmware.trucs_et_astuces)
+> If you don't see the options below, you need to update the ESXi Embedded Host Client. All the information [here](vmware.trucs_et_astuces.md)
 
 This is a fairly rare need, but I had to use it for Jeedom. In fact, I have Z-Wave, RFXcom, Edisio, enOcean, and GSM devices connected to my ESXi server, and I needed to link them to my Jeedom VM in order to use them.
 
 > **Note**
 >
-> For Z-Wave, RFXcom, Edisio, and enOcean, there are no issues; for GSM dongles, you'll need to follow these [tutorial](gsm.huawei_mode_modem) First, force the key to modem-only mode; otherwise, it won't be recognized properly on ESXi.
+> For Z-Wave, RFXcom, Edisio, and enOcean, there are no issues; for GSM dongles, you'll need to follow these [tutorial](gsm.huawei_mode_modem.md) First, force the key to modem-only mode; otherwise, it won't be recognized properly on ESXi.
 
 Go to your VM and click "Edit Settings":
 

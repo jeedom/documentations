@@ -51,7 +51,7 @@ Je nach den auf Ihrem **Jeedom-Slave** installierten Plugins müssen folgende In
 ## Vorbeugende Datensicherungen
 
 -   Eine [Jeedom-Sicherung](/core/backup) Ihrer **Jeedom-Master** und Ihrer **Jeedom-Slave(s)** und diese auf Ihrem PC/NAS abrufen…​.
--   Eine [Sicherung auf SD-Karte/Festplatte](/howto/sauvegarde.comment_faire#_sauvegarde_restauration_de_la_carte_microsd) Ihres **Jeedom-Master** und Ihres (Ihrer) **Jeedom-Slaves** und diese auf Ihrem PC/NAS abrufen…​.
+-   Eine [Sicherung auf SD-Karte/Festplatte](../../howto/de_DE/sauvegarde.comment_faire.md#sichernwiederherstellen-der-microsd-karte) Ihres **Jeedom-Master** und Ihres (Ihrer) **Jeedom-Slaves** und diese auf Ihrem PC/NAS abrufen…​.
 
 # Migration
 
@@ -79,7 +79,7 @@ Auf Ihrem **Jeedom-Zielserver**, *Plugins ⇒ Plugin-Verwaltung*:
 >
 > Wenn Sie den vorhandenen Raspberry Pi verwenden, der derzeit als **Jeedom-Slave** fungiert, empfehlen wir Ihnen, eine neue SD-/microSD-Karte zu verwenden. So können Sie bei Bedarf problemlos einen Rückschritt durchführen.
 
--   Installieren Sie ein neues Jeedom auf einer neuen SD-Karte (sei es für Ihren bestehenden **Jeedom-Slave** oder für einen neuen Raspberry Pi), indem Sie die folgenden Schritte befolgen: [Installationsanleitung](/installation).
+-   Installieren Sie ein neues Jeedom auf einer neuen SD-Karte (sei es für Ihren bestehenden **Jeedom-Slave** oder für einen neuen Raspberry Pi), indem Sie die folgenden Schritte befolgen: [Installationsanleitung](../../installation/de_DE/index.md).
 -   Aktualisieren Sie die **Jeedom-Quelle** auf die neueste Version (auch wenn kein Update angeboten wird).
 -   Überprüfen Sie auf der Seite „Status“, ob die interne (und gegebenenfalls externe) Netzwerkkonfiguration des **Jeedom Source** in Ordnung ist.
 

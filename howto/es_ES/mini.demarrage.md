@@ -43,14 +43,14 @@ El complemento «Tiempo».
 
 Encontrarás muchos otros complementos directamente a través de la interfaz de Jeedom en el Market de Jeedom.
 
-Por otra parte, no olvides que dispones de dos cupones de descuento (enviados por correo electrónico) que te permiten instalar dos plugins de pago de forma gratuita (RFXCOM y Alarma). Para utilizarlos, debes crear una cuenta en el Market de Jeedom; consulta la documentación: [Doc Market](/premiers-pas).
+Por otra parte, no olvides que dispones de dos cupones de descuento (enviados por correo electrónico) que te permiten instalar dos plugins de pago de forma gratuita (RFXCOM y Alarma). Para utilizarlos, debes crear una cuenta en el Market de Jeedom; consulta la documentación: [Doc Market](../../premiers-pas/es_ES/index.md).
 
 En el correo electrónico que has recibido también figura el número del Service Pack asociado al Jeedom Mini+. Puedes introducirlo en tu perfil del Market; esto te permitirá, entre otras cosas, acceder a los distintos servicios correspondientes a tu Service Pack.
 
 ![mini.inicio09](../images/mini.demarrage09.png)
 
-Ahora puedes consultar la documentación: [Primeros pasos con Jeedom](/premiers-pas) Esto te permitirá encontrar la dirección IP de tu Jeedom Mini+ y conectarte a él para empezar a configurarlo y utilizarlo.
+Ahora puedes consultar la documentación: [Primeros pasos con Jeedom](../../premiers-pas/es_ES/index.md) Esto te permitirá encontrar la dirección IP de tu Jeedom Mini+ y conectarte a él para empezar a configurarlo y utilizarlo.
 
-Para profundizar en el conocimiento y el uso de Jeedom, tienes a tu disposición una documentación completa: [Documentación de Jeedom](/) y también una sección con tutoriales en vídeo: [Vídeos tutoriales](/presentation#tocAnchor-1-3). No dudes en visitar el foro de Jeedom si tienes alguna otra pregunta: [Comunidad Jeedom](https://community.jeedom.com/).
+Para profundizar en el conocimiento y el uso de Jeedom, tienes a tu disposición una documentación completa: [Presentación de Jeedom](../../presentation/es_ES/index.md). No dudes en visitar el foro de Jeedom si tienes alguna otra pregunta: [Comunidad Jeedom](https://community.jeedom.com/).
 
 Gracias, y disfruta descubriendo la domótica con Jeedom.

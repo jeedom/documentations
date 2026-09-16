@@ -1,4 +1,4 @@
-[<< Core js](index)  
+[<< Core js](index.md)  
 ## Gestion des événements (*listeners*) js
 
 ### Persistance des événements

@@ -5,9 +5,9 @@ However, some plugins may require a fee and/or an internet connection, [**The co
 
 ## Compatibility
 
-[**Official Jeedom boxes**](/compatibility/#Boxes%20officielles) ensure full compatibility regardless of future software updates.
+[**Official Jeedom boxes**](../../compatibility/en_US/index.md#official-boxes) ensure full compatibility regardless of future software updates.
 
-Jeedom can also be installed on [all supported hardware](/compatibility/#Matériels%20supportés) that supports the system [**Currently Recommended Version of Debian Linux**](/compatibility/#Debian).
+Jeedom can also be installed on [all supported hardware](../../compatibility/en_US/index.md#supported-devices) that supports the system [**Currently Recommended Version of Debian Linux**](../../compatibility/en_US/index.md#debian).
 
 ## Jeedom Backup
 
@@ -26,15 +26,15 @@ Regardless of the platform you choose to deploy your Jeedom instance on, you'll 
 If you'd like to install Jeedom:
 
 - [on a **Luna**](/plugins/home%20automation%20protocol/luna)
-- [on a **Smart/Atlas**](recovery)
-- [on a **Raspberry Pi**](rpi)
-- [on a **PC/mini-PC**](baremetal)
-- [on a **virtual machine**](vm)
-- [on a **Freebox Delta**](freeboxdelta)
+- [on a **Smart/Atlas**](recovery.md)
+- [on a **Raspberry Pi**](rpi.md)
+- [on a **PC/mini-PC**](baremetal.md)
+- [on a **virtual machine**](vm.md)
+- [on a **Freebox Delta**](freeboxdelta.md)
 - [in a **Proxmox LXC container**](https://community-scripts.github.io/ProxmoxVE/scripts?id=jeedom){:target="_blank"}
-- [in a **Docker container**](docker) *(not recommended)*
-- [via **command line**](cli) *(advanced users)*
+- [in a **Docker container**](docker.md) *(not recommended)*
+- [via **command line**](cli.md) *(advanced users)*
 
 ## Getting Started with Jeedom
 
-While the installation is completing, be sure to review the documentation [**Getting Started with Jeedom**](/premiers-pas/).
+While the installation is completing, be sure to review the documentation [**Getting Started with Jeedom**](../../premiers-pas/en_US/index.md).

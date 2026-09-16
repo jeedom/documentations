@@ -10,7 +10,7 @@ Am sichersten ist es, beides zu nutzen: Erstellen Sie von Zeit zu Zeit ein Backu
 
 > **Tipp**
 >
-> Das Verfahren zur Wiederherstellung der microSD-Karte kann nützlich sein, um ein Jeedom anhand des vom Team bereitgestellten Images auf die Werkseinstellungen zurückzusetzen, siehe [hier](/installation).
+> Das Verfahren zur Wiederherstellung der microSD-Karte kann nützlich sein, um ein Jeedom anhand des vom Team bereitgestellten Images auf die Werkseinstellungen zurückzusetzen, siehe [hier](../../installation/de_DE/index.md).
 
 # Sicherung/Wiederherstellung von Jeedom
 

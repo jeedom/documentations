@@ -49,7 +49,7 @@ El Core incluye, entre otras cosas:
 
 *Los escenarios permiten automatizar la totalidad o parte de tus dispositivos. Se construyen con diferentes bloques: bloques condicionales (Si, Entonces, Si no), de acciones, de programación (EN x minutos o A hhmm), de bucle, de comentario o de código PHP. Todos los bloques se pueden anidar entre sí, lo que ofrece infinitas posibilidades.*
 
-[Mi primer escenario](/concept/#tocAnchor-4)
+[Mi primer escenario](../../concept/es_ES/index.md#mi-primer-escenario)
 
 ![Página «Escenarios»](../images/doc-presentation-scenario.jpg)
 
