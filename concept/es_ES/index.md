@@ -102,7 +102,7 @@ Supongamos que tenemos una luz programable y un detector de movimiento en el dor
 
 El *Desencadenante* es lo que activará la ejecución de este escenario. En este caso, queremos que se active cuando nuestro detector detecte una presencia, por lo que utilizaremos el comando `#[Chambre][Détecteur Chambre][Présence]# == 1`.
 
-Los `#` indican un comando, a continuación encontramos `[le nom de son objet parent]` y luego `[le nom de l'équipement]` y, por último, `[le nom de la commande]`. Aquí se añade ` == 1` porque queremos que el escenario se active únicamente cuando se detecte una presencia. Sin embargo, en un detector de presencia, esta detección vuelve a 0 unos segundos después. Por lo tanto, este retorno a 0 no activará de nuevo nuestro escenario.
+Los `#` indican un comando; a continuación, aparece **[el nombre de su objeto principal]**, luego **[el nombre del dispositivo]** y, por último, **[el nombre del comando]**. Aquí, añadimos ` == 1` porque queremos que el escenario se active únicamente cuando se detecte una presencia. Sin embargo, en un detector de presencia, esta detección vuelve a 0 unos segundos después. Por lo tanto, este retorno a 0 no activará de nuevo nuestro escenario.
 
 - Haz clic en la pestaña *Escenario* y, a continuación, en el botón de la parte superior *Añadir bloque*. Elige un bloque *Acción* y, en él, *Añade* una *Acción*. Esta acción será nuestro comando para encender la luz. Siguiendo el mismo principio: `#[Chambre][Lumière Chambre][On]#`.
 

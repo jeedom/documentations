@@ -42,7 +42,7 @@ Das System-Update wird beim nächsten Systemstart durchgeführt, es sei denn, di
 
 ### USB-Modus
 
-In diesem Modus muss ein USB-Stick angeschlossen werden, dessen erste Partition auf FAT32 formatiert ist `FAT` *(oder `ExFAT` + Schema `Enregistrement de démarrage principal (MBR)` unter macOS)*, in den Anschluss oben rechts (von hinten gesehen).
+In diesem Modus muss ein USB-Stick angeschlossen werden, dessen erste Partition auf FAT32 formatiert ist `FAT` *(oder `ExFAT` + Schema „Master Boot Record (MBR)“ auf ``MacOS``)*, in den Anschluss oben rechts, von hinten gesehen.
 
 Die Schaltfläche **USB-Wiederherstellung** löst zunächst die Erkennung, Überprüfung und Einbindung des USB-Sticks aus. Anschließend wird das neueste System-Image von unseren Servern auf den USB-Stick heruntergeladen. Die Integrität des Images wird überprüft, und anschließend wird die USB-Konfigurationsdatei geschrieben.
 

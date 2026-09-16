@@ -102,7 +102,7 @@ Let's say we have a smart light and a motion sensor in the bedroom.
 
 The *Trigger* is what will trigger the execution of this scenario. Here, we want to trigger it when our sensor detects a presence, so we’ll use the command `#[Chambre][Détecteur Chambre][Présence]# == 1`.
 
-The `#` indicate a command, then you'll find `[le nom de son objet parent]` then `[le nom de l'équipement]` and finally `[le nom de la commande]`. Here, we add ` == 1` because we want the scenario to trigger only when a presence is detected. However, with a presence detector, the detection resets to 0 a few seconds later. This reset to 0 will therefore not trigger our scenario again.
+The `#` specify a command, followed by **[the name of its parent object]**, then **[the name of the device]**, and finally **[the name of the command]**. Here, we add ` == 1` because we want the scenario to trigger only when a presence is detected. However, with a presence detector, the detection resets to 0 a few seconds later. This reset to 0 will therefore not trigger our scenario again.
 
 - Click the *Scenario* tab, then click the *Add Block* button at the top. Select an *Action* block, then *Add* an *Action* to it. This action will be our command to turn on the light. Following the same principle: `#[Chambre][Lumière Chambre][On]#`.
 

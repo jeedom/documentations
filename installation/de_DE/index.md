@@ -31,7 +31,7 @@ Sie möchten Jeedom installieren:
 - [auf einem **PC/Mini-PC**](baremetal.md)
 - [auf einer **virtuellen Maschine**](vm.md)
 - [auf einer **Freebox Delta**](freeboxdelta.md)
-- [in einem **Proxmox LXC-Container**](https://community-scripts.github.io/ProxmoxVE/scripts?id=jeedom){:target="_blank"}
+<!-- - [dans un **conteneur LXC Proxmox**](https://community-scripts.github.io/ProxmoxVE/scripts?id=jeedom){:target="_blank"} -->
 - [in einem **Docker-Container**](docker.md) *(nicht empfohlen)*
 - [in der **Befehlszeile**](cli.md) *(fortgeschrittene Nutzer)*
 

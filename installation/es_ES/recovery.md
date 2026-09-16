@@ -42,7 +42,7 @@ La actualización del sistema se llevará a cabo la próxima vez que se inicie e
 
 ### Modo USB
 
-Este modo requiere conectar una memoria USB, cuya primera partición esté formateada en `FAT` *(o `ExFAT` + esquema `Enregistrement de démarrage principal (MBR)` en macOS)*, en el puerto situado en la parte superior derecha, visto desde la parte trasera.
+Este modo requiere conectar una memoria USB, cuya primera partición esté formateada en `FAT` *(o `ExFAT` + esquema «Sector de arranque maestro (MBR)» en ``MacOS``)*, en el puerto situado en la parte superior derecha, visto desde atrás.
 
 El botón **Restauración USB** provoca, en primer lugar, la detección, la comprobación y el montaje de la memoria USB. A continuación, se descarga la última imagen del sistema desde nuestros servidores al soporte USB. Se comprueba la integridad de la imagen y, a continuación, se escribe el archivo de configuración USB.
 
