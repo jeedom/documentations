@@ -58,7 +58,7 @@ And restart Samba:
 
 In Windows, in a file explorer, enter the Pi's IP address `\\192.168.x.x`
 
-Right-click on `jeedomRoot` then `Connecter un lecteur réseau...`
+Right-click on `jeedomRoot` then **Connect a network drive...**
 
 In Windows, you now have a Network Drive `jeedomRoot` !
 

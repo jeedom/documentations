@@ -42,7 +42,7 @@ The system will be updated the next time it starts up, unless the restoration fi
 
 ### USB Mode
 
-This mode requires you to plug in a USB flash drive, the first partition of which is formatted as `FAT` *(or `ExFAT` + diagram `Enregistrement de démarrage principal (MBR)` on macOS)*, in the port located at the top right when viewed from the back.
+This mode requires you to plug in a USB flash drive, the first partition of which is formatted as `FAT` *(or `ExFAT` + diagram "Master Boot Record (MBR)" on ``MacOS``)*, in the port located at the top right when viewed from the back.
 
 The **USB Restoration** button first detects, verifies, and mounts the USB drive. Next, the latest system image is downloaded from our servers to the USB drive. The integrity of the image is verified, and then the USB configuration file is written.
 

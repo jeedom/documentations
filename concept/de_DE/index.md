@@ -102,7 +102,7 @@ Nehmen wir an, wir haben eine steuerbare Leuchte und einen Bewegungsmelder im Sc
 
 Der *Auslöser* ist das, was die Ausführung dieses Szenarios auslöst. In diesem Fall möchten wir es auslösen, wenn unser Sensor eine Anwesenheit erkennt. Daher verwenden wir den Befehl `#[Chambre][Détecteur Chambre][Présence]# == 1`.
 
-Die `#` weisen auf einen Befehl hin, danach folgt `[le nom de son objet parent]` dann `[le nom de l'équipement]` und schließlich `[le nom de la commande]`. Hier fügen wir hinzu ` == 1` denn wir möchten, dass das Szenario nur bei der Erkennung einer Präsenz ausgelöst wird. Bei einem Präsenzmelder fällt dieser Wert jedoch einige Sekunden später wieder auf 0 zurück. Dieser Rückgang auf 0 löst unser Szenario daher nicht erneut aus.
+Die `#` bezeichnen einen Befehl; danach folgt **[der Name des übergeordneten Objekts]**, dann **[der Name des Geräts]** und schließlich **[der Name des Befehls]**. Hier fügen wir hinzu ` == 1` denn wir möchten, dass das Szenario nur bei der Erkennung einer Präsenz ausgelöst wird. Bei einem Präsenzmelder fällt dieser Wert jedoch einige Sekunden später wieder auf 0 zurück. Dieser Rückgang auf 0 löst unser Szenario daher nicht erneut aus.
 
 - Klicken Sie auf die Registerkarte *Szenario* und anschließend oben auf die Schaltfläche *Block hinzufügen*. Wählen Sie einen *Aktionsblock* aus und fügen Sie dann über diesen Block eine *Aktion* hinzu. Diese Aktion dient als Befehl zum Einschalten des Lichts. Nach dem gleichen Prinzip: `#[Chambre][Lumière Chambre][On]#`.
 
