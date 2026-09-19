@@ -1,7 +1,7 @@
 {
 	"id": "Creality_Cloud",
 	"name": "Creality Cloud",
-	"pluginVersion": "0.62",
+	"pluginVersion": "0.63.0",
 	"description": {
 		"fr_FR": "Plugin permettant de récupérer les informations depuis son compte Creality Cloud et de piloter son imprimante.",
 		"en_US": "Plugin that allows retrieving information from your Creality Cloud account and controlling your 3D printer.",
