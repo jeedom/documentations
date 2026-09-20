@@ -1,0 +1,33 @@
+{
+    "id": "LandroidRTK",
+    "name": "Landroid RTK",
+    "pluginVersion": "1.1.0",
+    "description": {
+        "fr_FR": "Pilotage des tondeuses robot Worx Landroid Vision Cloud (2WD/4WD, avec RTK/GPS) via l'API cloud officielle Worx, avec suivi en temps réel et programmation automatique intelligente basée sur la météo. Ne gère volontairement PAS les anciens modèles Worx sans RTK (déjà couverts par le plugin worxLandroidS).<br/><br/>- Synchronisation automatique des tondeuses depuis le compte Worx (numéro de série, modèle, image dédiée)<br/>- Suivi en temps réel via démon connecté en permanence (MQTT) : batterie, statut, erreurs, position de coupe<br/>- Commandes manuelles : Démarrer, Stop, Retour à la base, Tonte des bordures, Mode festif (activer/désactiver)<br/>- Lecture de l'état de la coupe intelligente des bordures (smart trim)<br/>- Statuts et erreurs de la tondeuse traduits en français<br/>- Alerte automatique en cas de perte de connexion prolongée<br/>- Programmation automatique de tonte basée sur la météo, l'humidité et la pluie<br/>- Sécurité pluie : retour automatique à la base et redémarrage différé après le passage de la pluie<br/>- Protections température (gel et canicule) et seuil de batterie minimum avant tout démarrage<br/>- Notifications personnalisables (Discord, application mobile Jeedom...)<br/>- Détection automatique des équipements manquants, pour éviter tout faux déclenchement<br/>- Widget dashboard dédié avec curseurs de réglage rapide (marge, espacement, seuil d'humidité)<br/>- Tableau détaillé de l'état de chaque condition de démarrage (humidité, température, météo, batterie...)",
+        "en_US": "Control your Worx Landroid Vision Cloud robot mowers (2WD/4WD, with RTK/GPS) through the official Worx cloud API, with real-time monitoring and smart weather-based automatic scheduling. Deliberately does NOT support older Worx models without RTK (already covered by the worxLandroidS plugin).<br/><br/>- Automatic sync of mowers from your Worx account (serial number, model, dedicated image)<br/>- Real-time monitoring via an always-connected daemon (MQTT): battery, status, errors, mowing position<br/>- Manual commands: Start, Stop, Return home, Edge mowing, Party mode (on/off)<br/>- Reads the smart edge-trim status<br/>- Mower statuses and errors translated into your language<br/>- Automatic alert on prolonged connection loss<br/>- Automatic mowing schedule based on weather, humidity and rain<br/>- Rain safety: automatic return home and delayed restart once the ground has dried<br/>- Temperature protections (frost and heatwave) and a minimum battery threshold before starting<br/>- Customizable notifications (Discord, Jeedom mobile app...)<br/>- Automatic detection of missing equipment, to prevent any false triggering<br/>- Dedicated dashboard widget with quick-adjust sliders (margin, spacing, humidity threshold)<br/>- Detailed status table for every starting condition (humidity, temperature, weather, battery...)"
+    },
+    "licence": "AGPL",
+    "author": "Anakin",
+    "require": "4.2",
+    "category": "devicecommunication",
+    "changelog": "https://github.com/Anakins/LandroidRTK/blob/master/docs/changelog.md",
+    "documentation": "https://github.com/Anakins/LandroidRTK",
+    "changelog_beta": "https://github.com/Anakins/LandroidRTK/blob/beta/docs/changelog.md",
+    "documentation_beta": "https://github.com/Anakins/LandroidRTK/tree/beta",
+    "issue": "https://github.com/Anakins/LandroidRTK/issues",
+    "language": [
+        "fr_FR"
+    ],
+    "compatibility": [
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile"
+    ],
+    "hasOwnDeamon": true,
+    "hasDependency": true,
+    "maxDependancyInstallTime": 20,
+    "screenshot": [],
+    "state": "stable"
+}
