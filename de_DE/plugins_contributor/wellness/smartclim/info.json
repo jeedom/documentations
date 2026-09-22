@@ -1,0 +1,44 @@
+{
+	"id": "smartclim",
+	"name": "SmartClim",
+	"pluginVersion": "0.52",
+	"description": {
+		"fr_FR": "Pilotez depuis Jeedom les climatiseurs Wi-Fi de l'écosystème AUX, Broadlink et AC Freedom, quelle que soit la marque imprimée sur la façade : AUX, Ballu, Centek, Dunham Bush, Kenwood, Rinnai, Rcool, Tornado, Akai, Hyundai, Hisense, Royal Clima et d'autres encore, la liste n'ayant rien de limitatif — seul compte le protocole que parle l'appareil. Trois chemins d'accès interchangeables : le cloud AUX Home, le réseau local Broadlink (pilotage sans Internet) et le cloud historique AC Freedom, avec bascule automatique de l'un à l'autre. Chaque climatiseur reçoit les commandes correspondant aux fonctions réellement détectées sur lui : marche/arrêt, mode, température de consigne, vitesse de ventilation, oscillations et fonctions de confort.",
+		"en_US": "Control your AUX, Broadlink and AC Freedom Wi-Fi air conditioners from Jeedom, whatever the brand printed on the front panel: AUX, Ballu, Centek, Dunham Bush, Kenwood, Rinnai, Rcool, Tornado, Akai, Hyundai, Hisense, Royal Clima and more — the list is not restrictive, only the protocol the unit speaks matters. Three interchangeable ways in: the AUX Home cloud, the Broadlink local network (control without Internet) and the legacy AC Freedom cloud, with automatic switching from one to the other. Each air conditioner gets the commands matching the features actually detected on it: power, mode, target temperature, fan speed, swing and comfort features.",
+		"de_DE": "Steuern Sie Ihre WLAN-Klimageräte des AUX-, Broadlink- und AC-Freedom-Ökosystems aus Jeedom, unabhängig von der Marke auf der Frontblende: AUX, Ballu, Centek, Dunham Bush, Kenwood, Rinnai, Rcool, Tornado, Akai, Hyundai, Hisense, Royal Clima und weitere — die Liste ist nicht abschließend, entscheidend ist allein das Protokoll des Geräts. Drei austauschbare Zugangswege: die AUX-Home-Cloud, das lokale Broadlink-Netzwerk (Steuerung ohne Internet) und die ältere AC-Freedom-Cloud, mit automatischem Wechsel zwischen ihnen. Jedes Klimagerät erhält die Befehle, die den tatsächlich erkannten Funktionen entsprechen: Ein/Aus, Betriebsart, Solltemperatur, Lüfterstufe, Schwenken und Komfortfunktionen.",
+		"es_ES": "Controla desde Jeedom los aires acondicionados Wi-Fi del ecosistema AUX, Broadlink y AC Freedom, sea cual sea la marca impresa en el frontal: AUX, Ballu, Centek, Dunham Bush, Kenwood, Rinnai, Rcool, Tornado, Akai, Hyundai, Hisense, Royal Clima y otras más; la lista no es limitativa, solo cuenta el protocolo que utiliza el aparato. Tres vías de acceso intercambiables: la nube AUX Home, la red local Broadlink (control sin Internet) y la nube histórica AC Freedom, con conmutación automática entre ellas. Cada aire acondicionado recibe los comandos correspondientes a las funciones realmente detectadas: encendido, modo, temperatura de consigna, velocidad de ventilación, oscilaciones y funciones de confort."
+	},
+	"licence": "GPL",
+	"author": "superdcat",
+	"require": "4.2",
+	"os" : {
+		"min" : 10,
+		"max" : 12.99
+	},
+	"category": "wellness",
+	"display": "panel",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"changelog_beta": "https:\/\/jeedomdocs.decastro.fr\/smartclim\/changelog\/",
+	"changelog": "https:\/\/jeedomdocs.decastro.fr\/smartclim\/changelog\/",
+	"documentation_beta": "https:\/\/jeedomdocs.decastro.fr\/smartclim\/",
+	"documentation": "https:\/\/jeedomdocs.decastro.fr\/smartclim\/",
+	"link": {
+		"forum": "https:\/\/community.jeedom.com\/"
+	},
+	"language": [
+		"fr_FR",
+		"en_US",
+		"de_DE",
+		"es_ES"
+	],
+	"compatibility": [
+		"smart",
+		"luna",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile"
+	]
+}

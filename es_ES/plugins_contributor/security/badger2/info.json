@@ -1,0 +1,38 @@
+{
+	"id": "badger",
+	"name": "Badger",
+	"pluginVersion": "0.1",
+	"description": {
+		"fr_FR": "Ce plugin permet de connecter des lecteurs de badges (RFID/NFC) utilisant le protocole Wiegand (8/26/34)."
+	},
+	"licence": "AGPL",
+	"author": "superdcat",
+	"require": "4.4",
+	"os" : {
+		"min" : 10,
+		"max" : 12.99
+	},
+	"category": "security",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog_beta": "https://github.com/superdcat/JeedomBadger/commits/master",
+	"changelog": "https://github.com/superdcat/JeedomBadger/commits/master",
+	"documentation_beta": "https://github.com/superdcat/JeedomBadger/blob/master/doc/fr_FR/index.asciidoc",
+	"documentation": "https://github.com/superdcat/JeedomBadger/blob/master/doc/fr_FR/index.asciidoc",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-badger"
+	},
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"smart",
+		"luna",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile"
+	]
+}
