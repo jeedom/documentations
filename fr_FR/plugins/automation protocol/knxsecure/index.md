@@ -17,7 +17,8 @@ Un daemon Python (basé sur la bibliothèque [xknx](https://github.com/XKNX/xknx
 - Jeedom **≥ 4.2**, PHP 8.1+
 - Toute passerelle/routeur **KNX/IP** (tunneling ou routing)
 - **KNX IP Secure** (ETS 5.5+ / ETS 6)
-- Le daemon nécessite Python 3 et installe automatiquement ses dépendances (`xknx`, `xknxproject`)
+- Le daemon nécessite **Python 3.10 minimum** (version exigée par `xknx` 3.x) et installe automatiquement ses dépendances (`xknx`, `xknxproject`) dans un environnement isolé propre au plugin
+- Debian 12 et supérieur (Python 3.11) : installation immédiate. Debian 11 (Python 3.9) : le plugin compile un Python dédié, la première installation dure alors environ une heure
 
 ---
 
@@ -26,6 +27,8 @@ Un daemon Python (basé sur la bibliothèque [xknx](https://github.com/XKNX/xknx
 1. Installez le plugin depuis le Market Jeedom.
 2. Activez-le sur la page du plugin.
 3. Lancez l'installation des dépendances (bouton **Dépendances** sur la page de configuration). Le plugin crée un environnement Python isolé et installe `xknx` et `xknxproject`.
+
+> **Note.** L'installation n'apporte **aucune modification à votre système** : ni dépôt apt, ni source apt modifiée, ni fichier en dehors du dossier du plugin. Tout est confiné dans `plugins/knxsecure/resources/`.
 4. Démarrez le daemon.
 
 ![Page de configuration du plugin avec le bouton Dépendances](../images/installation.png)
@@ -409,6 +412,40 @@ Le moniteur affiche en **temps réel** les télégrammes circulant sur le bus KN
 C'est l'outil principal de diagnostic pour vérifier qu'un équipement réagit, identifier l'adresse réelle utilisée, ou diagnostiquer une surcharge du bus.
 
 > Si une GA n'a pas de DPT dans le projet ETS chargé (ex. équipement migré depuis EIBD avec un projet ETS plus ancien), le DPT de la commande Jeedom correspondante est utilisé en secours pour un décodage correct.
+
+---
+
+## Santé des équipements
+
+Bouton **Santé** sur la page du plugin. Là où la [page Santé](#page-santé) renseigne sur le plugin lui-même (daemon, dépendances, passerelle), cette modale répond à une autre question : **quels équipements communiquent réellement sur le bus ?**
+
+Chaque équipement reçoit une note sur 5, affichée sous forme de barres de signal :
+
+| Barres | Couleur | Signification |
+|---|---|---|
+| 4 à 5 | vert | équipement en bonne santé |
+| 3 | orange | à surveiller |
+| 1 à 2 | rouge | à vérifier |
+| aucune | gris | jamais vu sur le bus |
+
+### Comment la note est calculée
+
+Elle croise deux mesures :
+
+- **Couverture (60 %)** — la proportion des adresses de groupe d'état de l'équipement dont une valeur est connue. Elle indique si l'équipement est correctement configuré et câblé.
+- **Fraîcheur (40 %)** — l'âge de l'adresse vue le plus récemment. Elle indique s'il communique.
+
+Ce dosage est volontaire : **un équipement peu sollicité ne doit pas passer pour défaillant**. Une lampe dont toutes les adresses sont connues mais qui n'a pas changé d'état depuis trois jours reste en vert — elle va bien, elle n'a simplement rien eu à signaler. À l'inverse, un équipement dont une seule adresse sur quatre répond descend dans le rouge même s'il vient d'émettre.
+
+Les adresses d'**écriture** n'entrent pas dans la note : une adresse de commande n'est jamais « vue » sur le bus tant que personne ne l'actionne.
+
+### Détail par commande
+
+Un clic sur une ligne la déplie et affiche, pour chaque commande de l'équipement : son adresse de groupe, son DPT, sa dernière valeur connue et la date à laquelle elle a été vue. C'est ce qui permet d'isoler l'adresse fautive quand un équipement est noté en rouge.
+
+La modale propose aussi un filtre par nom et par niveau (à vérifier / jamais vus / en bonne santé), et un compteur de synthèse en bas.
+
+> Les informations proviennent du cache d'états du daemon. Si le daemon est arrêté, la liste des équipements reste affichée mais sans note : un bandeau l'indique. Si la passerelle est déconnectée, les états affichés sont ceux du dernier cache connu.
 
 ---
 
