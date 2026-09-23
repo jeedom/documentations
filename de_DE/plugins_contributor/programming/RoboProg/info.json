@@ -3,7 +3,7 @@
     "name": "RoboProg",
     "licence": "AGPL",
     "require": "4.2",
-    "author": "Anakin en dev",
+    "author": "Anakin",
     "changelog": "https://github.com/Anakins/RoboProg/blob/master/docs/changelog.md",
     "documentation": "https://github.com/Anakins/RoboProg",
     "changelog_beta": "https://github.com/Anakins/RoboProg/blob/beta/docs/changelog.md",
@@ -11,7 +11,7 @@
     "issue": "https://github.com/Anakins/RoboProg/issues",
     "category": "programming",
     "state": "stable",
-    "pluginVersion": "0.4.0",
+    "pluginVersion": "0.6.0",
     "language": ["fr_FR"],
     "compatibility": ["smart", "rpi", "docker", "diy", "mobile"],
     "requirement": {
