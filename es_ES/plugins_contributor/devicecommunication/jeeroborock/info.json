@@ -1,7 +1,7 @@
 {
     "id": "jeeroborock",
     "name": "JeeRoborock",
-    "pluginVersion": "0.13",
+    "pluginVersion": "0.17",
     "description": {
         "fr_FR": "Pilotez vos aspirateurs robots Roborock depuis Jeedom : etats en temps reel, commandes de nettoyage et execution des routines definies dans l'application mobile, via le cloud Roborock.",
         "en_US": "Control your Roborock robot vacuums from Jeedom: real-time status, cleaning commands and execution of the routines defined in the mobile application, through the Roborock cloud.",
@@ -9,7 +9,7 @@
         "es_ES": "Controla tus aspiradoras robot Roborock desde Jeedom: estados en tiempo real, comandos de limpieza y ejecucion de las rutinas definidas en la aplicacion movil, a traves de la nube Roborock."
     },
     "licence": "AGPL",
-    "author": "edecastro-mass",
+    "author": "superdcat",
     "require": "4.2",
     "os": {
         "min": 12,

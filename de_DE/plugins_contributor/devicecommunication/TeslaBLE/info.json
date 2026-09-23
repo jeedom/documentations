@@ -16,10 +16,8 @@
 	"hasDependency": false,
 	"hasOwnDeamon": false,
 	"maxDependancyInstallTime": 0,
-	"changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/template\/beta\/changelog",
-	"changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/template\/changelog",
-	"documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/template\/beta",
-	"documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/template",
+	"changelog": "https:\/\/jeedomdocs.decastro.fr\/teslable\/changelog\/",
+	"documentation": "https:\/\/jeedomdocs.decastro.fr\/teslable\/",
 	"link": {
 		"forum": "Lien vers le forum",
 		"video": "Lien vers une video"

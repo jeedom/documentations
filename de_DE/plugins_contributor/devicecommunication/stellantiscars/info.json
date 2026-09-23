@@ -1,0 +1,46 @@
+{
+	"id": "stellantiscars",
+	"name": "Stellantis Cars",
+	"pluginVersion": "0.1",
+	"description": {
+		"fr_FR": "Connecte les véhicules Stellantis / Groupe PSA (Peugeot, Citroën, DS, Opel, Vauxhall) à Jeedom : télémétrie (batterie, charge, autonomie, carburant, position, kilométrage, portes) et, à terme, pilotage à distance.",
+		"en_US": "Connects Stellantis / PSA Group vehicles (Peugeot, Citroën, DS, Opel, Vauxhall) to Jeedom: telemetry (battery, charging, range, fuel, position, mileage, doors) and, eventually, remote control.",
+		"de_DE": "Verbindet Stellantis- / PSA-Konzernfahrzeuge (Peugeot, Citroën, DS, Opel, Vauxhall) mit Jeedom: Telemetrie (Batterie, Ladung, Reichweite, Kraftstoff, Position, Kilometerstand, Türen) und künftig Fernsteuerung.",
+		"es_ES": "Conecta los vehículos Stellantis / Grupo PSA (Peugeot, Citroën, DS, Opel, Vauxhall) con Jeedom: telemetría (batería, carga, autonomía, combustible, posición, kilometraje, puertas) y, próximamente, control remoto."
+	},
+	"licence": "GPL-3.0",
+	"author": "superdcat",
+	"require": "4.2",
+	"os" : {
+		"min" : 10,
+		"max" : 12.99
+	},
+	"category": "devicecommunication",
+	"display": "panel",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 30,
+	"changelog_beta": "https://jeedomdocs.decastro.fr/stellantiscars/changelog/",
+	"changelog": "https://jeedomdocs.decastro.fr/stellantiscars/changelog/",
+	"documentation_beta": "https://jeedomdocs.decastro.fr/stellantiscars/",
+	"documentation": "https://jeedomdocs.decastro.fr/stellantiscars/",
+	"link": {
+		"forum": "Lien vers le forum",
+		"video": "Lien vers une video"
+	},
+	"language": [
+		"fr_FR",
+		"en_US",
+		"de_DE",
+		"es_ES"
+	],
+	"compatibility": [
+		"smart",
+		"luna",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile"
+	]
+}

@@ -1,7 +1,7 @@
 {
-	"id": "badger",
-	"name": "Badger",
-	"pluginVersion": "0.1",
+	"id": "badger2",
+	"name": "Badger Fork",
+	"pluginVersion": "0.2",
 	"description": {
 		"fr_FR": "Ce plugin permet de connecter des lecteurs de badges (RFID/NFC) utilisant le protocole Wiegand (8/26/34)."
 	},
@@ -16,10 +16,10 @@
 	"hasDependency": false,
 	"hasOwnDeamon": false,
 	"maxDependancyInstallTime": 0,
-	"changelog_beta": "https://github.com/superdcat/JeedomBadger/commits/master",
-	"changelog": "https://github.com/superdcat/JeedomBadger/commits/master",
-	"documentation_beta": "https://github.com/superdcat/JeedomBadger/blob/master/doc/fr_FR/index.asciidoc",
-	"documentation": "https://github.com/superdcat/JeedomBadger/blob/master/doc/fr_FR/index.asciidoc",
+	"changelog_beta": "https://jeedomdocs.decastro.fr/badger2/changelog/",
+	"changelog": "https://jeedomdocs.decastro.fr/badger2/changelog/",
+	"documentation_beta": "https://jeedomdocs.decastro.fr/badger2/",
+	"documentation": "https://jeedomdocs.decastro.fr/badger2/",
 	"link": {
 		"forum": "https://community.jeedom.com/tag/plugin-badger"
 	},
