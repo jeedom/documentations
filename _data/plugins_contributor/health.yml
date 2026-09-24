@@ -1,13 +1,27 @@
-- id: withings
-  name: "Withings / Nokia"
-  market_id: 3400
+- id: beeriob
+  name: "Beer Monitor"
+  market_id: 2872
   doc:
     stable:
-      fr_FR: "http://mika-nt28.github.io/Documentations/withings/fr_FR"
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/beeriob/fr_FR/index.html"
     beta: false
   changelog:
     stable:
-      fr_FR: "https://mika-nt28.github.io/Documentations/withings/fr_FR/changelog"
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/beeriob/fr_FR/index.html#_changelog"
+    beta: false
+  description: {}
+- id: withings
+  name: "Withings"
+  market_id: 3400
+  doc:
+    stable:
+      en_US: "http://mika-nt28.github.io/Documentations/withings/en_US"
+      de_DE: "http://mika-nt28.github.io/Documentations/withings/de_DE"
+    beta: false
+  changelog:
+    stable:
+      en_US: "https://mika-nt28.github.io/Documentations/withings/en_US/changelog"
+      de_DE: "https://mika-nt28.github.io/Documentations/withings/de_DE/changelog"
     beta: false
   description:
     fr_FR: "Recuperer vos informations de santé sur le cloud Nokia"
