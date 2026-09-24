@@ -1,3 +1,65 @@
+- id: gigaelem
+  name: "Gigaset Elements"
+  market_id: 4115
+  doc:
+    stable:
+      fr_FR: "https://astro-sam.github.io/jeedom-gigaelem/fr_FR/"
+      en_US: "https://astro-sam.github.io/jeedom-gigaelem/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://astro-sam.github.io/jeedom-gigaelem/fr_FR/changelog"
+      en_US: "https://astro-sam.github.io/jeedom-gigaelem/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Gestion du système d'alarme/domotique Gigaset Elements"
+- id: jeeipxv3
+  name: "JeeIPXv3"
+  market_id: 4411
+  doc:
+    stable:
+      fr_FR: "https://amg0.github.io/plugin-jeeipxv3/fr_FR/"
+      en_US: "https://amg0.github.io/plugin-jeeipxv3/en_US/"
+    beta:
+      fr_FR: "https://amg0.github.io/plugin-jeeipxv3/fr_FR/"
+      en_US: "https://amg0.github.io/plugin-jeeipxv3/en_US/"
+  changelog:
+    stable:
+      fr_FR: "https://amg0.github.io/plugin-jeeipxv3/fr_FR/changelog"
+      en_US: "https://amg0.github.io/plugin-jeeipxv3/en_US/changelog"
+    beta:
+      fr_FR: "https://amg0.github.io/plugin-jeeipxv3/fr_FR/changelog"
+      en_US: "https://amg0.github.io/plugin-jeeipxv3/en_US/changelog"
+  description:
+    fr_FR: "Plugin pour interfacer Jeedom avec IPXv3"
+- id: jeeksenia
+  name: "JeeKSenia"
+  market_id: 4418
+  doc:
+    stable:
+      fr_FR: "https://amg0.github.io/plugin-jeeksenia/fr_FR/"
+    beta:
+      fr_FR: "https://amg0.github.io/plugin-jeeksenia/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://amg0.github.io/plugin-jeeksenia/fr_FR/changelog"
+    beta:
+      fr_FR: "https://amg0.github.io/plugin-jeeksenia/fr_FR/changelog"
+  description:
+    fr_FR: "Plugin pour interfacer KSenia Lares 128 avec Jeedom"
+- id: loxone
+  name: "Loxone"
+  market_id: 3578
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/loxone/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/loxone/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Permet d'interconnecter un Miniserver Loxone avec Jeedom. Ainsi vous pouvez récupérer les états et piloter les composants de votre installation Loxone."
 - id: MerosSync
   name: "MerosSync"
   market_id: 4329
@@ -12,8 +74,7 @@
     beta:
       fr_FR: "https://github.com/impulsio/MerosSync/blob/main/docs/fr_FR/changelog.md"
   description:
-    fr_FR: "Plugin pour contrôler les appareils MEROSS. Pour l'instant ce plugin fonctionne parfaitement avec les prises connectées meross, les portes de garage, les lumières, les volets roulants, thermostat chauffage, le hub meross avec détecteur de fuite et le diffuseur d'huile essentielles. Si vous avez d'autres éléments Meross merci de me contacter en message privé pour que je puisse voir le résultat et améliorer le plugin. De même si vous avez un bug / une question / un message amical :)"
-
+    fr_FR: "Plugin pour contrôler les appareils MEROSS. Pour l’instant ce plugin fonctionne parfaitement avec les prises connectées meross, les portes de garage, les lumières, les volets roulants, thermostat chauffage, le hub meross avec détecteur de fuite et le diffuseur d'huile essentielles. Si vous avez d'autres éléments Meross merci de me contacter en message privé pour que je puisse voir le résultat et améliorer le plugin. De même si vous avez un bug / une question / un message amical :)"
 - id: nhc
   name: "Niko Home Control"
   market_id: 4585
@@ -29,7 +90,6 @@
       fr_FR: "https://github.com/smn-btn/jeedom_nikoHomeControl/blob/main/docs/fr_FR/changelog_beta.md"
   description:
     fr_FR: "Ce plugin permet de piloter les équipements de votre installation Niko Home Control. Il utilise l'API locale (Hobby API) fournie par Niko, qui communique via le protocole MQTT."
-
 - id: SomfyUnified
   name: "SomfyUnified"
   market_id: 4505
@@ -48,9 +108,10 @@
       fr_FR: "https://eridani78.github.io/SomfyUnified-Doc/fr_FR/changelog"
       en_US: "https://eridani78.github.io/SomfyUnified-Doc/en_US/changelog"
   description:
-    fr_FR: "Plugin destiné à permettre une interface entre Jeedom et les équipements connectés via les API OverKiz (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz). Suporte également les équipements Cozytouch WiFi Direct (Naviclim, Navilink)."
-    en_US: "Plugin designed to allow interfacing Jeedom with equipment connected to the OverKiz API's (Somfy TaHoma Cloud & Local, Atlantic Cozytouch, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Nexity Eugénie, Simu (LiveIn2), Ubiwizz). Also suitable for Cozytouch WiFi Direct  (Naviclim, Navilink)."
-
+    fr_FR: "Plugin destiné à permettre une interface entre Jeedom et les équipements connectés via les API OverKiz. Supporte également les équipements Cozytouch WiFi Direct. Mots clés: Atlantic, Bft, Cozytouch, Daikin, Danfoss, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Legrand Netatmo, Naviclim, Navilink, Nexity Eugénie, Philips, Roto, Sauter, Siegenia, Simu (LiveIn2), Somfy, Sonos, Tahoma, Tahoma Locale, Teleco, Thermor, Ubiwizz, Velux, Yale"
+    de_DE: "Plugin designed to allow interfacing Jeedom with equipment connected via OverKiz API's or Direct WiFi. Keywords: Atlantic, Bft, Cozytouch, Daikin, Danfoss, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Legrand Netatmo, Naviclim, Navilink, Nexity Eugénie, Philips, Roto, Sauter, Siegenia, Simu (LiveIn2), Somfy, Sonos, Tahoma, Tahoma Locale, Teleco, Thermor, Ubiwizz, Velux, Yale"
+    en_US: "Plugin designed to allow interfacing Jeedom with equipment connected via OverKiz API's or Direct WiFi. Keywords: Atlantic, Bft, Cozytouch, Daikin, Danfoss, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Legrand Netatmo, Naviclim, Navilink, Nexity Eugénie, Philips, Roto, Sauter, Siegenia, Simu (LiveIn2), Somfy, Sonos, Tahoma, Tahoma Locale, Teleco, Thermor, Ubiwizz, Velux, Yale"
+    es_ES: "Plugin designed to allow interfacing Jeedom with equipment connected via OverKiz API's or Direct WiFi. Keywords: Atlantic, Bft, Cozytouch, Daikin, Danfoss, Flexom, Hexaom HexaConnect, Hitachi Hi Kumo, Legrand Netatmo, Naviclim, Navilink, Nexity Eugénie, Philips, Roto, Sauter, Siegenia, Simu (LiveIn2), Somfy, Sonos, Tahoma, Tahoma Locale, Teleco, Thermor, Ubiwizz, Velux, Yale"
 - id: SomfyUnifiedExt1
   name: "SomfyUnifiedExt1"
   market_id: 4559
@@ -65,8 +126,22 @@
     beta:
       en_US: "https://eridani78.github.io/SomfyUnified-Doc/en_US/changelog"
   description:
-    fr_FR: "Plugin Extension1 du plugin **SomfyUnified** qui fournit des widgets et/ou panels spécifiques pour une amélioration de l'interface utilisateur. Le plugin SomfyUnifiedExt1 est dédié aux équipements appartenant aux familles ***HeatingSystem*** et ***WaterHeatingSystem***."
-
+    fr_FR: "Plugin Extension1 du plugin **SomfyUnified** qui fournit des widgets et/ou panels spécifiques pour une amélioration de l'interface utilisateur. Le plugin SomfyUnifiedExt1 est dédié aux équipements appartenant aux familles ***HeatingSystem***, ***HitachiHeatingSystem*** et ***WaterHeatingSystem*** et SEULEMENT ces catégories. ATTENTION ! Ce pluginn ne supporte, pour le moment, pas les équipements WiFi Direct (voir documentation)."
+- id: SomfyUnifiedExt2
+  name: "SomfyUnifiedExt2"
+  market_id: 4618
+  doc:
+    stable:
+      en_US: "https://eridani78.github.io/SomfyUnified-Doc/en_US/"
+    beta:
+      en_US: "https://eridani78.github.io/SomfyUnified-Doc/en_US/"
+  changelog:
+    stable:
+      en_US: "https://eridani78.github.io/SomfyUnified-Doc/en_US/changelog"
+    beta:
+      en_US: "https://eridani78.github.io/SomfyUnified-Doc/en_US/changelog"
+  description:
+    fr_FR: "Plugin Extension2 du plugin **SomfyUnified** qui fournit des widgets et/ou panels spécifiques pour une amélioration de l'interface utilisateur. Le plugin SomfyUnifiedExt2 est dédié aux équipements appartenant aux familles ***VentilationSystem***."
 - id: TaHomaLocal
   name: "TaHomaLocal"
   market_id: 4445
@@ -93,13 +168,31 @@
       es_ES: "https://eridani78.github.io/TaHomaLocal-Doc/es_ES/changelog"
       de_DE: "https://eridani78.github.io/TaHomaLocal-Doc/de_DE/changelog"
   description:
-    fr_FR: "Le nouveau plugin SOMFYUNIFIED incluant TaHomaLocal plus des fonctionnalités plus étendues doit être préféré. Plugin destiné à permettre une interface entre Jeedom et une box Somfy (TaHoma ou équivalente éligible) sur laquelle l'API locale Somfy a été activée. Permet un fonctionnement 'Cloudless' et des retours d'état immédiats.<br> - IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale). Mots clés: API locale, Somfy, Tahoma, Tahoma Locale"
-    en_US: "Please also consider new plugin SOMFYUNIFIED for improved capabilities. Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses.<br> - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation)."
-    es_ES: "Please also consider new plugin SOMFYUNIFIED for improved capabilities. Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses.<br> - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation)."
-    de_DE: "Please also consider new plugin SOMFYUNIFIED for improved capabilities. Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses.<br> - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation)."
-
+    fr_FR: "Le nouveau plugin SOMFYUNIFIED incluant TaHomaLocal plus des fonctionnalités plus étendues doit être préféré. Plugin destiné à permettre une interface entre Jeedom et une box Somfy (TaHoma ou équivalente éligible) sur laquelle l'API locale Somfy a été activée. Permet un fonctionnement 'Cloudless' et des retours d'état immédiats. - IMPORTANT - Avant toute chose, bien s'assurer que l'on possède une box Somfy compatible sur laquelle il est possible d'activer sur son compte Somfy le mode Développeur (active l'API Locale). Mots clés: API locale, Somfy, Tahoma, Tahoma Locale"
+    en_US: "Please also consider new plugin SOMFYUNIFIED for improved capabilities. Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses. - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation)."
+    de_DE: "Please also consider new plugin SOMFYUNIFIED for improved capabilities. Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses. - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation)."
+    es_ES: "Please also consider new plugin SOMFYUNIFIED for improved capabilities. Plugin designed to allow interfacing Jeedom with a Somfy TaHoma box (or an eligible equivalent box) on which the Somfy Local API is activated. Enable cloudless operations and immediate state responses. - IMPORTANT NOTICE - First of all, make sure you have a compatible Somfy box on which you can activate the Developer Mode through your Somfy account (activate local API operation)."
+- id: veralink
+  name: "Veralink"
+  market_id: 4279
+  doc:
+    stable:
+      fr_FR: "https://amg0.github.io/plugin-veralink/fr_FR/"
+      en_US: "https://amg0.github.io/plugin-veralink/en_US/"
+    beta:
+      fr_FR: "https://amg0.github.io/plugin-veralink/fr_FR/beta/"
+      en_US: "https://amg0.github.io/plugin-veralink/en_US/beta/"
+  changelog:
+    stable:
+      fr_FR: "https://amg0.github.io/plugin-veralink/fr_FR/changelog"
+      en_US: "https://amg0.github.io/plugin-veralink/en_US/changelog"
+    beta:
+      fr_FR: "https://amg0.github.io/plugin-veralink/fr_FR/beta/changelog"
+      en_US: "https://amg0.github.io/plugin-veralink/en_US/beta/changelog"
+  description:
+    fr_FR: "Plugin pour interfacer Jeedom avec Vera. il permet d'avoir un equipement pour chaque piece de la vera avec l'acces aux scenes de la piece. Il permet aussi d'utiliser des equipements pour les principaux peripheriques vera sur jeedom"
 - id: Yokis
-  name: "Yokis passerelle"
+  name: "Yokis"
   market_id: 4248
   doc:
     stable:
