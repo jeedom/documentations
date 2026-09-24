@@ -4,62 +4,44 @@
   doc:
     stable:
       fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/fr_FR/"
-      en_US: "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/en_US/"
-      es_ES: "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/es_ES/"
-      de_DE: "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/de_DE/"
     beta:
       fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/fr_FR/"
-      en_US: "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/en_US/"
-      es_ES: "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/es_ES/"
-      de_DE: "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/de_DE/"
   changelog:
     stable:
       fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/fr_FR/changelog"
-      en_US: "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/en_US/changelog"
-      es_ES: "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/es_ES/changelog"
-      de_DE: "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/de_DE/changelog"
     beta:
       fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/fr_FR/changelog"
-      en_US: "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/en_US/changelog"
-      es_ES: "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/es_ES/changelog"
-      de_DE: "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/de_DE/changelog"
   description:
     fr_FR: "Plugin permettant d'activer ou désactiver votre serveur AdGuard Home. De gérer les clients Et beaucoup plus !!"
     en_US: "Plugin to activate or deactivate your AdGuard Home server, manage customers and much more!"
     es_ES: "Plugin que le permite activar o desactivar su servidor AdGuard Home, gestionar clientes y ¡mucho más!"
     de_DE: "Plugin zum Aktivieren oder Deaktivieren Ihres AdGuard Home Servers. Zum Verwalten von Clients Und vieles mehr!!!"
-
-- id: archiplus
-  name: "archiplus"
-  market_id: 4679
+- id: apcups
+  name: "Onduleur (APC)"
+  market_id: 1492
   doc:
     stable:
-      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/fr_FR/index"
-      en_US: "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/en_US/index"
-      es_ES: "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/es_ES/index"
-      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/de_DE/index"
-    beta:
-      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/fr_FR/index_beta"
-      en_US: "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/en_US/index_beta"
-      es_ES: "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/es_ES/index_beta"
-      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/de_DE/index_beta"
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/apcups/"
+    beta: false
   changelog:
     stable:
-      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/fr_FR/changelog"
-      en_US: "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/en_US/changelog"
-      es_ES: "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/es_ES/changelog"
-      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/de_DE/changelog"
-    beta:
-      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/fr_FR/changelog_beta"
-      en_US: "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/en_US/changelog_beta"
-      es_ES: "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/es_ES/changelog_beta"
-      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom-archiplus/doc/de_DE/changelog_beta"
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/apcups/changelog.html"
+    beta: false
   description:
-    fr_FR: "La fonction principale du plugin est de fournir un ensemble complet d'outils permettant :<br/><br/>- de gérer les paramètres d'archivage des commandes de type INFO<br/>- de visualiser les volumes de données et de détecter les anomalies<br/>- d'insérer facilement des données historiques à partir de fichiers de type Excel<br/>- de récupérer les historiques à partir des archives Jeedom<br/>- d'étendre les options d'archivage standard de Jeedom<br/><br/>L'activation optionnelle de l'archivage intégré au plugin permet d'étendre très significativement les fonctions d'archivage proposées par Jeedom."
-    en_US: "The plugin's main function is to provide a comprehensive set of tools that allow you to:<br/><br/>- manage archiving settings for INFO-type commands<br/>- view data volumes and detect anomalies<br/>- easily import historical data from Excel-type files<br/>- retrieve historical data from Jeedom archives<br/>- extend Jeedom's standard archiving options<br/><br/>Optionally enabling the plugin's built-in archiving feature significantly expands the archiving capabilities offered by Jeedom."
-    es_ES: "La función principal del complemento es proporcionar un conjunto completo de herramientas que permiten:<br/><br/>- gestionar los parámetros de archivo de los comandos de tipo INFO<br/>- visualizar los volúmenes de datos y detectar anomalías<br/>- introducir fácilmente datos históricos a partir de archivos de tipo Excel<br/>- recuperar los historiales de los archivos de Jeedom<br/>- ampliar las opciones de archivo estándar de Jeedom<br/><br/>La activación opcional del archivo integrado en el complemento permite ampliar de forma muy significativa las funciones de archivo que ofrece Jeedom."
-    de_DE: "Die Hauptfunktion des Plugins besteht darin, eine umfassende Palette an Tools bereitzustellen, mit denen Folgendes möglich ist:<br/><br/>- die Archivierungseinstellungen für Befehle vom Typ INFO zu verwalten<br/>- Datenmengen zu visualisieren und Anomalien zu erkennen<br/>- das einfache Einfügen historischer Daten aus Excel-Dateien<br/>- das Abrufen von Verlaufsdaten aus den Jeedom-Archiven<br/>- die Erweiterung der Standard-Archivierungsoptionen von Jeedom<br/><br/>Durch die optionale Aktivierung der im Plugin integrierten Archivierung lassen sich die von Jeedom angebotenen Archivierungsfunktionen erheblich erweitern."
-
+    fr_FR: "Le plugin permet de récupérer les informations d'un onduleur APC branché en USB par défaut. Mais il est possible de récupérer les infos via le réseau. Il utilise apcupsd."
+- id: asuswrt
+  name: "AsusWRT"
+  market_id: 3826
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/asuswrt/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/asuswrt/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet d'utiliser un routeur Asuswrt pour vérifier la présence sur le réseau des équipements."
 - id: bbox_sagemcom
   name: "BBox Sagemcom"
   market_id: 1487
@@ -73,21 +55,134 @@
     beta: false
   description:
     fr_FR: "Plugin pour monitorer la BBox de Sagemcom"
-
+- id: brother
+  name: "Brother"
+  market_id: 4266
+  doc:
+    stable:
+      fr_FR: "https://docs.bad.wf/fr_FR/brother/stable/index"
+      en_US: "https://docs.bad.wf/en_US/brother/stable/index"
+    beta:
+      fr_FR: "https://docs.bad.wf/fr_FR/brother/beta/index"
+      en_US: "https://docs.bad.wf/en_US/brother/beta/index"
+  changelog:
+    stable:
+      fr_FR: "https://docs.bad.wf/fr_FR/brother/changelog"
+      en_US: "https://docs.bad.wf/en_US/brother/changelog"
+    beta:
+      fr_FR: "https://docs.bad.wf/fr_FR/brother/changelog"
+      en_US: "https://docs.bad.wf/en_US/brother/changelog"
+  description:
+    fr_FR: "Ce plugin récupère les informations de votre imprimante Brother en utilisant SNMP, notamment les niveaux d'encre (jet d'encre ou laser)."
+    en_US: "This plugin retrieves information from your Brother printer using SNMP, including ink levels (inkjet or laser)."
+- id: Creality_Box
+  name: "Creality Box"
+  market_id: 4217
+  doc:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/documentation-du-plugin-creality-box-pour-jeedom/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-creality-box-pour-jeedom/"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de récupérer les informations de la Creality Box.Il faut impérativement que l'accès Telnet soit ouvert sur la box."
+    en_US: "Plugin to retrieve information from the Creality Box.It is imperative that the Telnet access remains open on the box."
+- id: CryptoPtf
+  name: "Crypto Portfolio"
+  market_id: 4169
+  doc:
+    stable:
+      fr_FR: "https://hbedek.github.io/Jeedom_docs/docs/CryptoPtf/fr_FR/"
+      en_US: "https://hbedek.github.io/Jeedom_docs/docs/CryptoPtf/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://hbedek.github.io/Jeedom_docs/docs/CryptoPtf/fr_FR/changelog"
+      en_US: "https://hbedek.github.io/Jeedom_docs/docs/CryptoPtf/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de récupérer les informations de plusieurs portefeuilles cryptos. Actuellement disponible: Just Mining, Binance, Wallet Ethereum. Il est également possible de rentrer les informations à la main."
+    en_US: "Plugin fetching informations from multiple crypto portfolios. Currently Just Mining, Binance, Ethereum wallet are available"
+- id: cubecoders
+  name: "cubecoders"
+  market_id: 4501
+  doc:
+    stable:
+      fr_FR: "https://github.com/vampi62/jeedom_cubecoders/blob/main/docs/fr_FR/index.md"
+    beta:
+      fr_FR: "https://github.com/vampi62/jeedom_cubecoders/blob/main/docs/fr_FR/beta/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/vampi62/jeedom_cubecoders/blob/main/docs/fr_FR/changelog.md"
+    beta:
+      fr_FR: "https://github.com/vampi62/jeedom_cubecoders/blob/main/docs/fr_FR/beta/changelog.md"
+  description:
+    fr_FR: "connecter un serveur cubecoders à jeedom"
 - id: defauts
   name: "Défauts"
   market_id: 4147
   doc:
     stable:
-      fr_FR: "https://ktn001.github.io/fr_FR/defauts/index.html"
+      fr_FR: "https://docsjeedom.ockolly.ch/plugins/defauts/fr_FR/index.html"
+      en_US: "https://docsjeedom.ockolly.ch/plugins/defauts/en_US/index.html"
+      es_ES: "https://docsjeedom.ockolly.ch/plugins/defauts/es_ES/index.html"
+      de_DE: "https://docsjeedom.ockolly.ch/plugins/defauts/de_DE/index.html"
     beta: false
   changelog:
     stable:
-      fr_FR: "https://ktn001.github.io/fr_FR/defauts/changelog.html"
+      fr_FR: "https://docsjeedom.ockolly.ch/plugins/defauts/fr_FR/changelog.html"
+      en_US: "https://docsjeedom.ockolly.ch/plugins/defauts/en_US/changelog.html"
+      es_ES: "https://docsjeedom.ockolly.ch/plugins/defauts/es_ES/changelog.html"
+      de_DE: "https://docsjeedom.ockolly.ch/plugins/defauts/de_DE/changelog.html"
     beta: false
   description:
     fr_FR: "Surveillance de cohérence état/mesure"
-
+    en_US: "State/Measurement Consistency Monitoring"
+    es_ES: "Supervisión de la coherencia entre el estado y la medición"
+    de_DE: "Überwachung der Konsistenz zwischen Zustand und Messwert"
+- id: docker
+  name: "Docker"
+  market_id: 3888
+  doc:
+    stable:
+      fr_FR: "https://taggou91.github.io/jeedom_docs/plugins/docker/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://taggou91.github.io/jeedom_docs/plugins/docker/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant le pilotage de vos container Docker. Remonté du statut de chaque container, actions allumer/éteindre/redémarrer"
+- id: ecoflow
+  name: "EcoFlow"
+  market_id: 4373
+  doc:
+    stable:
+      fr_FR: "https://github.com/EFCAugure/EcoFlow/tree/main/docs/fr_FR/index.md"
+    beta:
+      fr_FR: "https://github.com/EFCAugure/EcoFlow/tree/main/docs/fr_FR/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/EFCAugure/EcoFlow/tree/main/docs/fr_FR/changelog.md"
+    beta:
+      fr_FR: "https://github.com/EFCAugure/EcoFlow/tree/main/docs/fr_FR/changelog.md"
+  description:
+    fr_FR: "Plugin de monitoring des batteries EcoFlow"
+- id: ethermine
+  name: "Ethermine"
+  market_id: 4132
+  doc:
+    stable:
+      fr_FR: "https://frixo3190.github.io/jeedom_plugins/ethermine/docs/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://frixo3190.github.io/jeedom_plugins/ethermine/docs/fr_FR/#changelog"
+    beta: false
+  description:
+    fr_FR: "Connectez Jeedom a Ethermine pour suivre à la trace vos ring de minage ! (Nombre de worker actif, date de paiement, etc..). Vous pouvez activer des alertes pour être prévenu lorsque vos workers sont innactifs, ou lorsque vous avez été payé ! Paramétrez la puissance effective de votre appareil minant, votre prix de l'électricité , et le plugin vous estimera en temps réel vos gains consommation électrique déduite !"
 - id: fail2ban
   name: "fail2ban"
   market_id: 4439
@@ -114,13 +209,12 @@
       es_ES: "https://mips2648.github.io/jeedom-plugins-docs/fail2ban/beta/es_ES/changelog"
       de_DE: "https://mips2648.github.io/jeedom-plugins-docs/fail2ban/beta/de_DE/changelog"
   description:
-    fr_FR: "Plugin pour monitorer fail2ban. Il permet de remonter toutes les infos instantanées d'une instance de fail2ban locale ou distante (via SSH) mais il garde également des compteurs journaliers des ip bloquées ainsi qu'un compteur pour pays d'origine (pays récupéré par géolocalisation de l'adresse IP).<br>Il permet également de bannir et de débannir une adresse ip."
-    en_US: "Plugin for monitoring fail2ban. It allows you to retrieve all instant info from a local or remote (via SSH) fail2ban instance, but it also keeps daily counters of blocked ip's and a counter for country of origin (country retrieved by geolocating the IP address).<br>It also allows you to ban and unban an ip address."
-    es_ES: "Plugin para monitorizar fail2ban. Le permite recuperar toda la información instantánea de una instancia fail2ban local o remota (vía SSH) pero también mantiene contadores diarios de direcciones ip bloqueadas así como un contador para el país de origen (país recuperado geolocalizando la dirección IP).<br>También le permite banear y desbanear una dirección ip."
-    de_DE: "Plugin zum Überwachen von fail2ban. Das Plugin ermöglicht es, alle sofortigen Informationen von einer lokalen oder entfernten (über SSH) fail2ban-Instanz zu erhalten, aber es behält auch tägliche Zähler für blockierte IPs und einen Zähler für das Herkunftsland (Land, das durch Geolokalisierung der IP-Adresse abgerufen wird).<br> Es ermöglicht auch, eine IP-Adresse zu verbannen und zu debannern."
-
+    fr_FR: "Plugin pour monitorer fail2ban. Il permet de remonter toutes les infos instantanées d'une instance de fail2ban locale ou distante (via SSH) mais il garde également des compteurs journaliers des ip bloquées ainsi qu'un compteur pour pays d'origine (pays récupéré par géolocalisation de l'adresse IP).<br/>Il permet également de bannir et de débannir une adresse ip."
+    en_US: "Plugin for monitoring fail2ban. It allows you to retrieve all instant info from a local or remote (via SSH) fail2ban instance, but it also keeps daily counters of blocked ip's and a counter for country of origin (country retrieved by geolocating the IP address).<br/>It also allows you to ban and unban an ip address."
+    es_ES: "Plugin para monitorizar fail2ban. Le permite recuperar toda la información instantánea de una instancia fail2ban local o remota (vía SSH) pero también mantiene contadores diarios de direcciones ip bloqueadas así como un contador para el país de origen (país recuperado geolocalizando la dirección IP).<br/>También le permite banear y desbanear una dirección ip."
+    de_DE: "Plugin zum Überwachen von fail2ban. Das Plugin ermöglicht es, alle sofortigen Informationen von einer lokalen oder entfernten (über SSH) fail2ban-Instanz zu erhalten, aber es behält auch tägliche Zähler für blockierte IPs und einen Zähler für das Herkunftsland (Land, das durch Geolokalisierung der IP-Adresse abgerufen wird).<br/> Es ermöglicht auch, eine IP-Adresse zu verbannen und zu debannern."
 - id: Freebox_OS
-  name: "Freebox"
+  name: "FreeboxOS"
   market_id: 1666
   doc:
     stable:
@@ -129,10 +223,10 @@
       es_ES: "https://jealg.github.io/documentation/plugin-freebox_os/es_ES/"
       de_DE: "https://jealg.github.io/documentation/plugin-freebox_os/de_DE/"
     beta:
-      fr_FR: "https://jealg.github.io/documentation/plugin-freebox_os/fr_FR/doc_beta"
-      en_US: "https://jealg.github.io/documentation/plugin-freebox_os/en_US/doc_beta"
-      es_ES: "https://jealg.github.io/documentation/plugin-freebox_os/es_ES/doc_beta"
-      de_DE: "https://jealg.github.io/documentation/plugin-freebox_os/de_DE/doc_beta"
+      fr_FR: "https://jealg.github.io/documentation/plugin-freebox_os/beta/fr_FR/doc"
+      en_US: "https://jealg.github.io/documentation/plugin-freebox_os/beta/en_US/doc"
+      es_ES: "https://jealg.github.io/documentation/plugin-freebox_os/beta/es_ES/doc"
+      de_DE: "https://jealg.github.io/documentation/plugin-freebox_os/beta/de_DE/doc"
   changelog:
     stable:
       fr_FR: "https://jealg.github.io/documentation/plugin-freebox_os/fr_FR/changelog"
@@ -140,16 +234,15 @@
       es_ES: "https://jealg.github.io/documentation/plugin-freebox_os/es_ES/changelog"
       de_DE: "https://jealg.github.io/documentation/plugin-freebox_os/de_DE/changelog"
     beta:
-      fr_FR: "https://jealg.github.io/documentation/plugin-freebox_os/fr_FR/beta_changelog"
-      en_US: "https://jealg.github.io/documentation/plugin-freebox_os/en_US/beta_changelog"
-      es_ES: "https://jealg.github.io/documentation/plugin-freebox_os/es_ES/beta_changelog"
-      de_DE: "https://jealg.github.io/documentation/plugin-freebox_os/de_DE/beta_changelog"
+      fr_FR: "https://jealg.github.io/documentation/plugin-freebox_os/beta/fr_FR/changelog"
+      en_US: "https://jealg.github.io/documentation/plugin-freebox_os/beta/en_US/changelog"
+      es_ES: "https://jealg.github.io/documentation/plugin-freebox_os/beta/es_ES/changelog"
+      de_DE: "https://jealg.github.io/documentation/plugin-freebox_os/beta/de_DE/changelog"
   description:
-    fr_FR: "Ce plugin permet de récupérer les informations disponibles sur les box Freebox Révolution/Delta/Pop/Ultra.<br/>Pour les Freebox Delta, il permet aussi de récupérer les équipements connectés (Domotique)."
-    en_US: "This plugin retrieves information available on Freebox Revolution/Delta/Pop/Ultra boxes.<br/>For Freebox Delta, it also retrieves connected equipment (home automation)."
+    fr_FR: "Ce plugin permet de récupérer les informations disponibles sur les box Freebox Révolution/Delta/Pop/Ultra.Pour les Freebox Delta, il permet aussi de récupérer les équipements connectés (Domotique)."
+    en_US: "This plugin retrieves information available on Freebox Revolution/Delta/Pop/Ultra boxes.For Freebox Delta, it also retrieves connected equipment (home automation)."
     es_ES: "Este plugin permite recuperar la información disponible en las cajas Freebox Revolution/Delta/Pop/Ultra. Para la Freebox Delta, también permite recuperar los equipos conectados (domótica)."
-    de_DE: "Mit diesem Plugin können Sie die Informationen abrufen, die auf den Boxen Freebox Révolution/Delta/Pop/Ultra verfügbar sind.<br/>Für die Freebox Delta können Sie damit auch die angeschlossenen Geräte (Domotik) abrufen."
-
+    de_DE: "Mit diesem Plugin können Sie die Informationen abrufen, die auf den Boxen Freebox Révolution/Delta/Pop/Ultra verfügbar sind.Für die Freebox Delta können Sie damit auch die angeschlossenen Geräte (Domotik) abrufen."
 - id: fronius
   name: "Onduleur Fronius"
   market_id: 3761
@@ -161,11 +254,9 @@
     stable:
       fr_FR: "https://sattaz.github.io/Jeedom_Fronius/fr_FR/changelog"
     beta: false
-  description:
-    fr_FR: "Plugin pour récupérer les valeurs d'un onduleur Fronius"
-
+  description: {}
 - id: fully_kiosk
-  name: "Fully KiosK"
+  name: "Fully KiosK 2"
   market_id: 4528
   doc:
     stable:
@@ -177,7 +268,6 @@
     beta: false
   description:
     fr_FR: "Plugin FullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk"
-
 - id: fullyKiosK
   name: "fullyKiosK"
   market_id: 3406
@@ -191,7 +281,6 @@
     beta: false
   description:
     fr_FR: "Plugin fullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk"
-
 - id: gain_market
   name: "Gain Market"
   market_id: 4228
@@ -205,7 +294,6 @@
     beta: false
   description:
     fr_FR: "Récupère votre solde sur le market Jeedom (en tant que développeur) et peut vous alerter lorsqu'il évolue ou que le paiement Jeedom est détecté"
-
 - id: graphs
   name: "Graphique Netatmo"
   market_id: 2101
@@ -217,9 +305,19 @@
     stable:
       fr_FR: "https://zyg0m4t1k.github.io/graphs/fr_FR/changelog"
     beta: false
-  description:
-    fr_FR: "Plugin qui permet de visualiser les graphiques des différentes sondes Netatmo"
-
+  description: {}
+- id: grocy
+  name: "Grocy"
+  market_id: 3945
+  doc:
+    stable:
+      fr_FR: "https://hotfirenet.github.io/jeedom_docs/plugins/grocy/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://hotfirenet.github.io/jeedom_docs/plugins/grocy/fr_FR/changelog.html"
+    beta: false
+  description: {}
 - id: groupe
   name: "Groupe"
   market_id: 2854
@@ -236,7 +334,6 @@
     en_US: "Group devices and control a global state with a customizable widget."
     es_ES: "Agrupa equipos y controla un estado global con un widget personalizable."
     de_DE: "Geräte gruppieren und einen globalen Status mit einem anpassbaren Widget steuern."
-
 - id: haBridge
   name: "Ha-Bridge"
   market_id: 4045
@@ -250,7 +347,6 @@
     beta: false
   description:
     fr_FR: "Ce plugin permet l'utilisation d'un serveur Ha-Bridge. Grâce à lui vous pourrez utiliser tous vos équipements ALEXA pour piloter votre domotique d'une simple commande vocale."
-
 - id: hdsentinel
   name: "Hard Disk Sentinel"
   market_id: 4247
@@ -264,24 +360,24 @@
     beta: false
   description:
     fr_FR: "Ce plugin permet de récuperer les informations de santé de ses disques durs grâce à l'outil linux Hard Disk Sentinel."
+    de_DE: "Mit diesem Plugin können Sie mithilfe des Linux-Tools Hard Disk Sentinel Informationen über den Gesundheitszustand Ihrer Festplatten abrufen."
     en_US: "This plugin enables you to retrieve information on the health of your hard disks using the linux Hard Disk Sentinel tool."
     es_ES: "Este plugin le permite recuperar información sobre la salud de sus discos duros utilizando la herramienta Linux Hard Disk Sentinel."
-    de_DE: "Mit diesem Plugin können Sie mithilfe des Linux-Tools Hard Disk Sentinel Informationen über den Gesundheitszustand Ihrer Festplatten abrufen."
-
 - id: histolisse
   name: "HistoLisse"
   market_id: 4575
   doc:
     stable:
       fr_FR: "https://pax24fr.github.io/HistoLisse-Jeedom/"
-    beta: false
+    beta:
+      fr_FR: "https://pax24fr.github.io/HistoLisse-Jeedom/"
   changelog:
     stable:
       fr_FR: "https://github.com/Pax24fr/HistoLisse-Jeedom/blob/main/CHANGELOG.md"
-    beta: false
+    beta:
+      fr_FR: "https://github.com/Pax24fr/HistoLisse-Jeedom/blob/main/CHANGELOG.md"
   description:
     fr_FR: "Permet de gérer précisément le lissage des données de votre historique au long de la journée ainsi que leur archivage à long terme. Afin d'accélérer l'affichage des graphiques et de réduire la taille de la base de données (-30 à -70%) et les sauvegardes (-20 à -50%) tout en conservant des données informatives à long terme.   *** Lissage périodique des données par : Heure / Jour / Semaine / Mois / Année, Diagnostic des données en base.   *** Par exemple : garder une valeur par minute en temps réel (par heure), puis 1 valeur toutes les 15 minutes après 15 jours d'ancienneté (par semaine), puis 1 donnée toutes les 3h au delà de 3 mois (par mois)."
-
 - id: huawei4g
   name: "Huawei 4G"
   market_id: 3891
@@ -295,9 +391,8 @@
     beta: false
   description:
     fr_FR: "Plugin pour la supervision de routeur 4G Huawei"
-
 - id: influxdb
-  name: "InfluxDB"
+  name: "InfluxDB Connector"
   market_id: 3935
   doc:
     stable:
@@ -326,7 +421,6 @@
     en_US: "Plugin for connection to an InfluxDB v1 or v2 DB, allowing you to easily send the information you need by simply selecting the corresponding commands from a list, thus externalizing the history, which can then be consulted via Grafana, for example."
     es_ES: "Plugin para conectarse a una BD InfluxDB v1 o v2. Facilita el envío de la información que se necesita con sólo seleccionar los comandos correspondientes en una lista. Esto permite externalizar el historial, que luego se puede consultar a través de Grafana, por ejemplo."
     de_DE: "Plugin zur Verbindung mit einer InfluxDB v1 oder v2. Es ermöglicht das einfache Senden der gewünschten Informationen durch einfaches Auswählen der entsprechenden Befehle aus einer Liste, was das Auslagern der Historie ermöglicht, die dann z. B. über Grafana abgerufen werden kann."
-
 - id: ipx800v4ln
   name: "ipx800v4 client"
   market_id: 3715
@@ -340,7 +434,6 @@
     beta: false
   description:
     fr_FR: "Plugin de récupération d'informations d'un ipx800v4"
-
 - id: Jailbreak
   name: "Jailbreak"
   market_id: 3928
@@ -353,11 +446,23 @@
       fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-jailbreak-pour-jeedom/"
     beta: false
   description:
-    fr_FR: "Ce plugin s'adresse à tous les iPad et iPhone retrouvés dans les placards et tiroirs, qui ont pris la poussière, que l'on a oubliés ou délaissés. Il permet d'intéragir avec Jeedom pour remonter des informations, lancer Application, exécuter des actions... Plus d'informations sur la présentation du plugin : https://flobul-domotique.fr/presentation-du-plugin-jailbreak-pour-jeedom/"
+    fr_FR: "Ce plugin s’adresse à tous les iPad et iPhone retrouvés dans les placards et tiroirs, qui ont pris la poussière, que l’on a oubliés ou délaissés. Il permet d'intéragir avec Jeedom pour remonter des informations, lancer Application, exécuter des actions... Plus d'informations sur la présentation du plugin : https://flobul-domotique.fr/presentation-du-plugin-jailbreak-pour-jeedom/"
+    de_DE: "Dieses Plugin ist für alle iPads und iPhones gedacht, die in Schränken und Schubladen verstauben, die man vergessen oder vernachlässigt hat. Es ermöglicht Ihnen, mit Jeedom zu interagieren, um Informationen zu erhalten, Anwendungen zu starten, Aktionen auszuführen... Weitere Informationen über das Plugin finden Sie unter: https://flobul-domotique.fr/presentation-du-plugin-jailbreak-pour-jeedom/"
     en_US: "This plugin is for all those iPads and iPhones you've found in closets and drawers, gathering dust, forgotten or neglected. It allows you to interact with Jeedom to send back information, launch applications, execute actions... More information on the plugin presentation: https://flobul-domotique.fr/presentation-du-plugin-jailbreak-pour-jeedom/"
     es_ES: "Este plug-in es para todos esos iPads y iPhones que tienes en armarios y cajones, acumulando polvo, olvidados o descuidados. Te permite interactuar con Jeedom para enviar información, lanzar aplicaciones, ejecutar acciones, etc. Para más información sobre el plugin: https://flobul-domotique.fr/presentation-du-plugin-jailbreak-pour-jeedom/"
-    de_DE: "Dieses Plugin ist für alle iPads und iPhones gedacht, die in Schränken und Schubladen verstauben, die man vergessen oder vernachlässigt hat. Es ermöglicht Ihnen, mit Jeedom zu interagieren, um Informationen zu erhalten, Anwendungen zu starten, Aktionen auszuführen... Weitere Informationen über das Plugin finden Sie unter: https://flobul-domotique.fr/presentation-du-plugin-jailbreak-pour-jeedom/"
-
+- id: jdownloader
+  name: "jdownloader"
+  market_id: 4162
+  doc:
+    stable:
+      fr_FR: "https://mathman.github.io/Jeedom-jdownloader/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mathman.github.io/Jeedom-jdownloader/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin qui permet de récupérer les informations d'un compte my.jdownloader"
 - id: jeebase
   name: "Jeebase"
   market_id: 367
@@ -371,21 +476,67 @@
     beta: false
   description:
     fr_FR: "Plugin pour récuperer et utiliser les données de Zibase"
-
+- id: jeeHistoGraph
+  name: "jeeHistoGraph"
+  market_id: 4609
+  doc:
+    stable:
+      fr_FR: "https://github.com/Noyax-37/jeeHistoGraph/blob/main/docs/fr_FR/index.md"
+    beta:
+      fr_FR: "https://github.com/Noyax-37/jeeHistoGraph/blob/develop/docs/fr_FR/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/Noyax-37/jeeHistoGraph/blob/main/docs/fr_FR/changelog.md"
+    beta:
+      fr_FR: "https://github.com/Noyax-37/jeeHistoGraph/blob/develop/docs/fr_FR/changelog.md"
+  description:
+    fr_FR: "Plugin permettant l'affichage jusqu'à 10 historiques par un graphique sur une tuile"
 - id: jeelog
   name: "JeeLog"
   market_id: 3362
   doc:
     stable:
       fr_FR: "https://kiboost.github.io/jeedom_docs/plugins/jeelog/fr_FR/"
-    beta: false
+    beta:
+      fr_FR: "https://kiboost.github.io/jeedom_docs/plugins/jeelog/fr_FR/"
   changelog:
     stable:
       fr_FR: "https://kiboost.github.io/jeedom_docs/plugins/jeelog/fr_FR/changelog.html"
-    beta: false
+    beta:
+      fr_FR: "https://kiboost.github.io/jeedom_docs/plugins/jeelog/fr_FR/changelog.html"
   description:
-    fr_FR: "Plugin de journalisation d'activité pour les équipements, scénarios, et fichiers log"
-
+    fr_FR: "Plugin de journalisation d’activité pour les équipements, scénarios, et fichiers log."
+    en_US: "Activity logging plugin for equipment, scenarios, and log."
+- id: jeewatchdog
+  name: "JeeWatchdog"
+  market_id: 4693
+  doc:
+    stable:
+      fr_FR: "https://docsjeedom.ockolly.ch/plugins/jeewatchdog/fr_FR/index.html"
+      en_US: "https://docsjeedom.ockolly.ch/plugins/jeewatchdog/en_US/index.html"
+      es_ES: "https://docsjeedom.ockolly.ch/plugins/jeewatchdog/es_ES/index.html"
+      de_DE: "https://docsjeedom.ockolly.ch/plugins/jeewatchdog/de_DE/index.html"
+    beta:
+      fr_FR: "https://docsjeedom.ockolly.ch/plugins/jeewatchdog/fr_FR/index.html"
+      en_US: "https://docsjeedom.ockolly.ch/plugins/jeewatchdog/en_US/index.html"
+      es_ES: "https://docsjeedom.ockolly.ch/plugins/jeewatchdog/es_ES/index.html"
+      de_DE: "https://docsjeedom.ockolly.ch/plugins/jeewatchdog/de_DE/index.html"
+  changelog:
+    stable:
+      fr_FR: "https://docsjeedom.ockolly.ch/plugins/jeewatchdog/fr_FR/changelog.html"
+      en_US: "https://docsjeedom.ockolly.ch/plugins/jeewatchdog/en_US/changelog.html"
+      es_ES: "https://docsjeedom.ockolly.ch/plugins/jeewatchdog/es_ES/changelog.html"
+      de_DE: "https://docsjeedom.ockolly.ch/plugins/jeewatchdog/de_DE/changelog.html"
+    beta:
+      fr_FR: "https://docsjeedom.ockolly.ch/plugins/jeewatchdog/fr_FR/changelog.html"
+      en_US: "https://docsjeedom.ockolly.ch/plugins/jeewatchdog/en_US/changelog.html"
+      es_ES: "https://docsjeedom.ockolly.ch/plugins/jeewatchdog/es_ES/changelog.html"
+      de_DE: "https://docsjeedom.ockolly.ch/plugins/jeewatchdog/de_DE/changelog.html"
+  description:
+    fr_FR: "watchdog permettant de couper l'alimentation durant quelques secondes pour un redémarrage hard de jeedom"
+    en_US: "A watchdog that cuts power for a few seconds to perform a hard reboot of Jeedom"
+    es_ES: "programa de vigilancia que permite cortar la alimentación durante unos segundos para realizar un reinicio forzado de Jeedom"
+    de_DE: "Watchdog, der die Stromversorgung für einige Sekunden unterbricht, um einen Hard-Neustart von Jeedom durchzuführen"
 - id: libreNMS
   name: "LibreNMS"
   market_id: 3446
@@ -398,22 +549,68 @@
       fr_FR: "https://mika-nt28.github.io/Documentations/libreNMS/fr_FR/changelog"
     beta: false
   description:
-    fr_FR: "LibreNMS est une AutoDiscovery PHP/MySQL/SNMP réseau de surveillance qui comprend la prise en charge d'une large gamme de matériel réseau et les systèmes d'exploitation, y compris Cisco, Linux, FreeBSD, Juniper, Brocade, Foundry, HP et beaucoup plus."
-
+    fr_FR: "LibreNMS est une AutoDiscovery PHP/MySQL/SNMP réseau de surveillance qui comprend la prise en charge d’une large gamme de matériel réseau et les systèmes d’exploitation, y compris Cisco, Linux, FreeBSD, Juniper, Brocade, Foundry, HP et beaucoup plus."
+- id: mcmyadmin
+  name: "mcmyadmin"
+  market_id: 4422
+  doc:
+    stable:
+      fr_FR: "https://github.com/vampi62/jeedom_mcmyadmin/blob/main/docs/fr_FR/index.md"
+    beta:
+      fr_FR: "https://github.com/vampi62/jeedom_mcmyadmin/blob/main/docs/fr_FR/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/vampi62/jeedom_mcmyadmin/blob/main/docs/fr_FR/changelog.md"
+    beta:
+      fr_FR: "https://github.com/vampi62/jeedom_mcmyadmin/blob/main/docs/fr_FR/changelog.md"
+  description:
+    fr_FR: "connecter un serveur mcmyadmin à jeedom"
+    en_US: "connect a mcmyadmin server to jeedom"
+    es_ES: "conectar un servidor mcmyadmin a jeedom"
+    de_DE: "einen mcmyadmin-Server mit jeedom verbinden"
+- id: miwifiRouter
+  name: "miwifiRouter"
+  market_id: 3857
+  doc:
+    stable:
+      fr_FR: "https://supradolph.github.io/posts/miwifiRouter_fr_FR"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://supradolph.github.io/posts/miwifiRouter_fr_FR/#changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de requêter son routeur Xiaomi miwifi"
 - id: Monitoring
   name: "Monitoring"
   market_id: 282
   doc:
     stable:
-      fr_FR: "https://surveillancestation.github.io/surveillancestation/monitoring/fr_FR/"
-    beta: false
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/Monitoring/index"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/Monitoring/index"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/Monitoring/index"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/Monitoring/index"
+    beta:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/Monitoring/beta/index"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/Monitoring/beta/index"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/Monitoring/beta/index"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/Monitoring/beta/index"
   changelog:
     stable:
-      fr_FR: "https://surveillancestation.github.io/surveillancestation/monitoring/fr_FR/#tocAnchor-1-10"
-    beta: false
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/Monitoring/changelog"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/Monitoring/changelog"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/Monitoring/changelog"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/Monitoring/changelog"
+    beta:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/Monitoring/beta/changelog"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/Monitoring/beta/changelog"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/Monitoring/beta/changelog"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/Monitoring/beta/changelog"
   description:
-    fr_FR: "Plugin permettant le monitoring des équipements"
-
+    fr_FR: "Plugin pour surveiller vos systèmes Linux, NAS (Synology, QNAP, Medion), Proxmox, LXC et routeurs ASUS-WRT (locaux ou distants via SSH) : distribution, uptime, charge système, RAM, swap, disques, réseau, CPU, températures et commandes personnalisées."
+    en_US: "Plugin to monitor your Linux systems, NAS (Synology, QNAP, Medion), Proxmox, LXC and ASUS-WRT routers (local or remote via SSH): distribution, uptime, system load, RAM, swap, disks, network, CPU, temperatures and custom commands."
+    es_ES: "Plugin para supervisar sus sistemas Linux, NAS (Synology, QNAP, Medion), Proxmox, LXC y routers ASUS-WRT (locales o remotos a través de SSH): distribución, uptime, carga del sistema, RAM, swap, discos, red, CPU, temperaturas y comandos personalizados."
+    de_DE: "Plugin zur Überwachung Ihrer Linux-Systeme, NAS (Synology, QNAP, Medion), Proxmox, LXC und ASUS-WRT-Router (lokal oder remote über SSH): Distribution, Uptime, Systemlast, RAM, Swap, Festplatten, Netzwerk, CPU, Temperaturen und benutzerdefinierte Befehle."
 - id: monitorsensor
   name: "Monitor sensors"
   market_id: 4207
@@ -427,7 +624,18 @@
     beta: false
   description:
     fr_FR: "Ce plugin va vous permettre de garder un oeil sur l'ensemble de vos capteurs (Z-Wave , EnOcean, ZigBee) afin de vérifier leur santé, leur portée , leur dernier message recu , etc . le tout synthétisé dans un tableau, des alertes en cas de défaillance ! Surveillance aussi toute particulière du réseau Z-Wave (Queue, Status). Surveillance du status des Daemons de tous les plugins."
-
+- id: nagioschecks
+  name: "Checks Nagios"
+  market_id: 1840
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/nagioschecks/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/nagioschecks/changelog.html"
+    beta: false
+  description: {}
 - id: noip
   name: "No-Ip Renew"
   market_id: 4112
@@ -444,21 +652,64 @@
   description:
     fr_FR: "Ce plugin permet de renouveler automatiquement vos noms de domaines gratuits no-ip.com (opération à faire tous les 30 jours manuellement sinon)."
     en_US: "This plugin allows to automatically renew your free no-ip.com domain names (oepration to manually perform every 30 days instead)."
-
 - id: Nut_free
-  name: "Nut_free"
+  name: "NUT Free"
   market_id: 2855
   doc:
     stable:
-      fr_FR: "https://megastorage.github.io/Nut_Free"
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/Nut_free/index"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/Nut_free/index"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/Nut_free/index"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/Nut_free/index"
+    beta:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/Nut_free/beta/index"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/Nut_free/beta/index"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/Nut_free/beta/index"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/Nut_free/beta/index"
+  changelog:
+    stable:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/Nut_free/changelog"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/Nut_free/changelog"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/Nut_free/changelog"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/Nut_free/changelog"
+    beta:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/Nut_free/beta/changelog"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/Nut_free/beta/changelog"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/Nut_free/beta/changelog"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/Nut_free/beta/changelog"
+  description:
+    fr_FR: "Plugin de supervision d'onduleur (UPS) via le protocole NUT (Network UPS Tools). Connexion en TCP (NUT) ou SSH (via SSH-Manager). Supervise le statut, les tensions et fréquences entrée/sortie, la charge, l'autonomie, les températures batterie/onduleur, la puissance et le minuteur d'arrêt. Génère automatiquement toutes les commandes et supporte différentes actions sur l'onduleur : beeper (activation/désactivation), test batterie, arrêt/redémarrage, etc."
+    en_US: "UPS monitoring plugin via the NUT (Network UPS Tools) protocol. Connects via TCP (NUT) or SSH (via SSH-Manager). Monitors status, input/output voltages and frequencies, load, runtime, battery/UPS temperatures, power and shutdown timer. Automatically generates all commands and supports various UPS actions: beeper (enable/disable), battery test, shutdown/reboot, etc."
+    es_ES: "Plugin de supervisión de SAI (UPS) mediante el protocolo NUT (Network UPS Tools). Conexión por TCP (NUT) o SSH (a través de SSH-Manager). Supervisa el estado, las tensiones y frecuencias de entrada/salida, la carga, la autonomía, las temperaturas de batería/SAI, la potencia y el temporizador de apagado. Genera automáticamente todos los comandos y soporta diversas acciones sobre el SAI: beeper (activar/desactivar), prueba de batería, apagado/reinicio, etc."
+    de_DE: "Plugin zur Überwachung von USV-Geräten (UPS) über das NUT-Protokoll (Network UPS Tools). Verbindung über TCP (NUT) oder SSH (via SSH-Manager). Überwacht Status, Ein-/Ausgangsspannungen und -frequenzen, Last, Laufzeit, Batterie-/USV-Temperaturen, Leistung und Abschalttimer. Erstellt automatisch alle Befehle und unterstützt verschiedene USV-Aktionen: Beeper (ein-/ausschalten), Batterietest, Abschalten/Neustart, usw."
+- id: ondilo
+  name: "Ondilo - ICO"
+  market_id: 3998
+  doc:
+    stable:
+      fr_FR: "https://hotfirenet.github.io/jeedom_docs/plugins/ondilo/fr_FR/"
     beta: false
   changelog:
     stable:
-      fr_FR: "https://megastorage.github.io/Nut_Free/fr_FR/changelog.html"
+      fr_FR: "https://hotfirenet.github.io/jeedom_docs/plugins/ondilo/changelog/"
     beta: false
   description:
-    fr_FR: "Plugin de UPS free"
-
+    fr_FR: "Les flotteurs de la gamme Ico conçus  par la société Ondilo sont des capteurs Wifi qui permettent l'analyse de votre piscine ou de votre SPA."
+- id: openWrt
+  name: "openWrt"
+  market_id: 4056
+  doc:
+    stable:
+      fr_FR: "https://supradolph.github.io/posts/openWrt_fr_FR"
+      en_US: "https://supradolph.github.io/posts/openWrt_en_US"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://supradolph.github.io/posts/openWrt_fr_FR/#changelog"
+      en_US: "https://supradolph.github.io/posts/openWrt_en_US/#changelog"
+    beta: false
+  description:
+    fr_FR: "OpenWrt est un firmware alternatif et open source vous offrant une totale personnalisation de votre routeur. Cela permet notamment d’étendre les possibilités de votre matériel qui étaient bloquées par votre fabricant. Ce plugin permet de récupérer quelques informations essentielles de votre routeur tournant sous openWrt telles que la charge CPU, la mémoire disponible ou encore pouvoir le rebooter à distance. Mais l’objectif principal reste de pouvoir superviser la présence d’équipements WiFi tel qu’un téléphone portable et ainsi obtenir de manière fiable la présence de ce périphérique et par conséquent de son propriétaire."
 - id: PaC_Hayward
   name: "Pompe à chaleur Hayward"
   market_id: 3615
@@ -471,7 +722,6 @@
     beta: false
   description:
     fr_FR: "Plugin pour piloter votre pompe à chaleur de piscine"
-
 - id: piHole
   name: "piHole V6"
   market_id: 3420
@@ -490,7 +740,22 @@
     en_US: "Plugin to enable or disable your V6 pi-Hole server. A switch to disable it and some numbers."
     es_ES: "Plugin para activar o desactivar su servidor pi-Hole V6. Un interruptor para desactivarlo y algunos números."
     de_DE: "Plugin zum Ein- und Ausschalten Ihres V6 pi-Hole-Servers. Ein Schalter zum Ausschalten und ein paar Zahlen, lassen Sie mich wissen."
-
+- id: Pingserver
+  name: "Server ping"
+  market_id: 1464
+  doc:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/Pingserver/fr_FR/"
+      en_US: "https://zyg0m4t1k.github.io/Pingserver/en_US/"
+      de_DE: "https://zyg0m4t1k.github.io/Pingserver/de_DE/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/Pingserver/fr_FR/changelog"
+      en_US: "https://zyg0m4t1k.github.io/Pingserver/en_US/changelog"
+      de_DE: "https://zyg0m4t1k.github.io/Pingserver/de_DE/changelog"
+    beta: false
+  description: {}
 - id: portainer
   name: "Portainer"
   market_id: 3931
@@ -521,7 +786,6 @@
     en_US: "Plugin to connect to Portainer.io, a docker management tool, and thus manage your dockers and containers on Jeedom."
     es_ES: "Plugin para conectar con Portainer.io, una herramienta de gestión de dockers, para que puedas gestionar tus dockers y contenedores en Jeedom."
     de_DE: "Plugin, das die Verbindung zu Portainer.io, einem Werkzeug zur Verwaltung von Dockern, ermöglicht. Damit können Sie Ihre Docker und Container in Jeedom verwalten."
-
 - id: proxmox
   name: "Proxmox"
   market_id: 3835
@@ -552,7 +816,33 @@
     en_US: "Plugin for Proxmox server management. All resources (nodes, virtual machines, storage, etc.) and their properties (status, memory, CPU, disk, IP address, activity time, snapshot list, etc.) can be retrieved. The plugin also enables you to start and stop VMs and containers, as well as take snapshots and backups. It also features a dedicated health page summarizing all your equipment information."
     es_ES: "Plugin para gestionar un servidor Proxmox. Permite recuperar todos los recursos (nodos, máquinas virtuales, almacenamiento, etc.) y todas sus propiedades (estado, memoria, CPU, disco, dirección IP, tiempo de actividad, lista de instantáneas, etc.). El plugin también permite iniciar y detener máquinas virtuales y contenedores, y realizar instantáneas y copias de seguridad. También dispone de una página de salud dedicada que resume toda la información sobre tus equipos."
     de_DE: "Plugin, das die Verwaltung eines Proxmox-Servers ermöglicht. Es ist möglich, alle Ressourcen (Knoten, virtuelle Maschinen, Speicher...) und alle ihre Eigenschaften (Status, Speicher, CPU, Festplatte, IP-Adresse, Aktivitätszeit, Snapshot-Liste...) abzurufen. Das Plugin ermöglicht auch das Starten und Stoppen von VMs und Containern sowie das Erstellen von Snapshots und Backups. Es verfügt auch über eine spezielle Gesundheitsseite, die alle Informationen über Ihre Geräte zusammenfasst."
-
+- id: pterodactyl
+  name: "Pterodactyl"
+  market_id: 4317
+  doc:
+    stable:
+      fr_FR: "https://ddelec24.github.io/docs-jeedom/pterodactyl/fr_FR/"
+      en_US: "https://ddelec24.github.io/docs-jeedom/pterodactyl/en_US/"
+      es_ES: "https://ddelec24.github.io/docs-jeedom/pterodactyl/es_ES/"
+      de_DE: "https://ddelec24.github.io/docs-jeedom/pterodactyl/de_DE/"
+    beta:
+      fr_FR: "https://ddelec24.github.io/docs-jeedom/pterodactyl/fr_FR/beta/"
+      en_US: "https://ddelec24.github.io/docs-jeedom/pterodactyl/en_US/beta/"
+      es_ES: "https://ddelec24.github.io/docs-jeedom/pterodactyl/es_ES/beta/"
+      de_DE: "https://ddelec24.github.io/docs-jeedom/pterodactyl/de_DE/beta/"
+  changelog:
+    stable:
+      fr_FR: "https://ddelec24.github.io/docs-jeedom/pterodactyl/fr_FR/changelog"
+      en_US: "https://ddelec24.github.io/docs-jeedom/pterodactyl/en_US/changelog"
+      es_ES: "https://ddelec24.github.io/docs-jeedom/pterodactyl/es_ES/changelog"
+      de_DE: "https://ddelec24.github.io/docs-jeedom/pterodactyl/de_DE/changelog"
+    beta:
+      fr_FR: "https://ddelec24.github.io/docs-jeedom/pterodactyl/fr_FR/beta/changelog"
+      en_US: "https://ddelec24.github.io/docs-jeedom/pterodactyl/en_US/beta/changelog"
+      es_ES: "https://ddelec24.github.io/docs-jeedom/pterodactyl/es_ES/beta/changelog"
+      de_DE: "https://ddelec24.github.io/docs-jeedom/pterodactyl/de_DE/beta/changelog"
+  description:
+    fr_FR: "Monitoring et gestion de vos serveurs de jeux via le manager Pterodactyl (Rust, Minecraft, ARK etc...)"
 - id: QNAP
   name: "QNAP"
   market_id: 3327
@@ -564,9 +854,20 @@
     stable:
       fr_FR: "https://tux1c0.github.io/plugin-qnap/fr_FR/"
     beta: false
+  description: {}
+- id: rack
+  name: "Rack Informatique"
+  market_id: 3868
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/rack/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/rack/changelog.html"
+    beta: false
   description:
-    fr_FR: "Plugin pour la supervision de NAS QNAP"
-
+    fr_FR: "Ce plugin permet de gérer différents équipements d'un rack informatique. Actuellement des Smart PDU Intellinet et des onduleurs sous NUT"
 - id: rikaha
   name: "rikaha"
   market_id: 3432
@@ -582,7 +883,25 @@
     beta: false
   description:
     fr_FR: "Plugin de monitoring poêles Rika"
-
+- id: scan_ip
+  name: "Scan.Ip"
+  market_id: 4058
+  doc:
+    stable:
+      fr_FR: "https://ynats-dev.github.io/jeedom-plugin-scan.ip/fr_FR/"
+      en_US: "https://ynats-dev.github.io/jeedom-plugin-scan.ip/en_US/"
+      es_ES: "https://ynats-dev.github.io/jeedom-plugin-scan.ip/es_ES/"
+      de_DE: "https://ynats-dev.github.io/jeedom-plugin-scan.ip/de_DE/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://ynats-dev.github.io/jeedom-plugin-scan.ip/fr_FR/changelog"
+      en_US: "https://ynats-dev.github.io/jeedom-plugin-scan.ip/en_US/changelog"
+      es_ES: "https://ynats-dev.github.io/jeedom-plugin-scan.ip/es_ES/changelog"
+      de_DE: "https://ynats-dev.github.io/jeedom-plugin-scan.ip/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: "{{Ce plugin permet de scanner un réseau, de suivre par adresse MAC les éléments d’un réseau, de mettre à jour les changements d’Ip sur des plugins avec l’aide de bridges, de réveiller un équiment (WoL) et d’être alerté d’un nouvelle élément entrant dans le réseau.}}"
 - id: sfrBox
   name: "sfrBox"
   market_id: 3752
@@ -596,21 +915,21 @@
     beta: false
   description:
     fr_FR: "Plugin pour contrôler sfr/neuf box"
-
-- id: SMA_SunnyBoy
-  name: "Onduleur SMA Sunny Boy"
-  market_id: 3760
+- id: snapmaker
+  name: "snapmaker"
+  market_id: 4436
   doc:
     stable:
-      fr_FR: "https://sattaz.github.io/Jeedom_SMA_Sunny_Boy/fr_FR/"
-    beta: false
+      fr_FR: "https://github.com/vampi62/jeedom_snapmaker/blob/main/docs/fr_FR/index.md"
+    beta:
+      fr_FR: "https://github.com/vampi62/jeedom_snapmaker/blob/main/docs/fr_FR/index.md"
   changelog:
     stable:
-      fr_FR: "https://sattaz.github.io/Jeedom_SMA_Sunny_Boy/fr_FR/changelog"
-    beta: false
+      fr_FR: "https://github.com/vampi62/jeedom_snapmaker/blob/main/docs/fr_FR/changelog.md"
+    beta:
+      fr_FR: "https://github.com/vampi62/jeedom_snapmaker/blob/main/docs/fr_FR/changelog.md"
   description:
-    fr_FR: "Plugin pour récupérer les valeurs d'un onduleur SMA SunnyBoy"
-
+    fr_FR: "connecter une ou plusieurs imprimantes 3D snapmaker à jeedom, stocker vos fichiers et lancer vos impressions depuis jeedom"
 - id: snmp_client
   name: "Client snmp"
   market_id: 3705
@@ -624,7 +943,6 @@
     beta: false
   description:
     fr_FR: "Plugin de récupération d'informations SNMP"
-
 - id: solax
   name: "Onduleur Solax"
   market_id: 3767
@@ -636,9 +954,7 @@
     stable:
       fr_FR: "https://sattaz.github.io/Jeedom_Solax/fr_FR/changelog"
     beta: false
-  description:
-    fr_FR: "Plugin pour récupérer les valeurs d'un onduleur Solax"
-
+  description: {}
 - id: solaxcloud
   name: "Solax Cloud"
   market_id: 4049
@@ -652,7 +968,6 @@
     beta: false
   description:
     fr_FR: "Plugin permettant de récupérer les infos des onduleurs Solax via Solax Cloud"
-
 - id: speedtest
   name: "Speedtest"
   market_id: 2876
@@ -666,7 +981,6 @@
     beta: false
   description:
     fr_FR: "Plugin permettant de contrôler sa connexion internet"
-
 - id: speedtestByOokla
   name: "Speedtest by Ookla"
   market_id: 4345
@@ -682,7 +996,20 @@
       fr_FR: "https://spine34.github.io/jeedom-documentations/fr_FR/speedtestByOokla/beta/changelog"
   description:
     fr_FR: "Ce plugin permet de tester la bande passante internet à l'aide de https://www.speedtest.net"
-
+    en_US: "This plugin allows you to test the Internet bandwidth using https://www.speedtest.net"
+- id: synologyapi
+  name: "Synology - API"
+  market_id: 4048
+  doc:
+    stable:
+      fr_FR: "http://jeedom.sigalou-domotique.fr/plugin-synology-api-documentation"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "http://jeedom.sigalou-domotique.fr/plugin-synology-api-changelog-todolist"
+    beta: false
+  description:
+    fr_FR: "Pour dialoguer avec les NAS ou Routeurs Synology. Envoyer des ordres à vos Synology ou récupérer l'état du wifi, des connexions, des disques, ..."
 - id: unifi
   name: "UniFi Network"
   market_id: 3433
@@ -701,7 +1028,6 @@
     en_US: "UniFi Network - Connect to a UniFi Network controller<br/>Allow some actions (Localization, Manage site LED, Update Firmware, PowerCycle/Enable/Disable POE on switchs, Enable/Disable/Reboot AP, Enable/Disable WLAN's, Block/Unblock/Presence management of Wi-Fi clients, ...)<br/><br/>Does not replace Controller Web Interface<br/><br/>Not supported : UniFi Protect & UniFi Access & UniFi Talk & UniFi Connect<br/><br/>WARNING : Not supported : Debian Buster(10) Stretch(9) Jessie(8) & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)"
     es_ES: "Red UniFi - Conexión a un controlador de red UniFi.<br/>Permite ciertas acciones (Localizar, Gestionar LED de sitio, Actualizar Firmware, PowerCycle/Activar/Desactivar POE en switches, Activar/Desactivar/Reiniciar Puntos de Acceso, Activar/Desactivar WLANs, Bloquear/Desbloquear/Gestionar presencia de clientes WiFi, etc)<br/><br/>No pretende sustituir a la interfaz del controlador<br/><br/>No soportado: UniFi Protect & UniFi Access & UniFi Talk & UniFi Connect"
     de_DE: "UniFi Network - Verbindung zu einem UniFi Network Controller.<br/>Ermöglicht bestimmte Aktionen (Lokalisieren, Standort-LEDs verwalten, Firmware-Update, PowerCycle/Aktivierung/Deaktivierung von POE auf Switches, Aktivierung/Deaktivierung/Reboot von Access Points, Aktivierung/Deaktivierung von WLANs, Blockieren/Entsperren/Anwesenheitsverwaltung von WiFi-Clients, usw.)<br/><br/>Soll die Controller-Schnittstelle nicht ersetzen<br/><br/>Nicht unterstützt: UniFi Protect & UniFi Access & UniFi Talk & UniFi Connect"
-
 - id: veolia_eau
   name: "Veolia eau"
   market_id: 2568
@@ -715,9 +1041,8 @@
     beta: false
   description:
     fr_FR: "Plugin pour retrouver le télé-relevé Veolia eau / Tout sur mon eau / Eau en ligne / Eau du grand Lyon"
-
 - id: vmware
-  name: "Vmware"
+  name: "VMWARE"
   market_id: 3816
   doc:
     stable:
@@ -729,17 +1054,44 @@
     beta: false
   description:
     fr_FR: "Plugin permettant le pilotage de votre ESXi pour lister les VMs et divers attributs. Gestion des snapshots, Gestion du stop/start, etc"
-
 - id: watchdog
   name: "Watchdog"
   market_id: 3716
   doc:
     stable:
-      fr_FR: "http://sigalou-domotique.fr/plugin-jeedom-watchdog/68-watchdog-documentation"
-    beta: false
+      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom_watchdog/doc/fr_FR/index"
+      en_US: "https://bernard-dandrea.github.io/documentation/jeedom_watchdog/doc/en_US/index"
+      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom_watchdog/doc/de_DE/index"
+    beta:
+      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom_watchdog/doc/fr_FR/index_beta"
+      en_US: "https://bernard-dandrea.github.io/documentation/jeedom_watchdog/doc/en_US/index_beta"
+      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom_watchdog/doc/de_DE/index_beta"
   changelog:
     stable:
-      fr_FR: "http://sigalou-domotique.fr/plugin-jeedom-watchdog/69-watchdog-changelog"
-    beta: false
+      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom_watchdog/doc/fr_FR/changelog"
+      en_US: "https://bernard-dandrea.github.io/documentation/jeedom_watchdog/doc/en_US/changelog"
+      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom_watchdog/doc/de_DE/changelog"
+    beta:
+      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom_watchdog/doc/fr_FR/changelog_beta"
+      en_US: "https://bernard-dandrea.github.io/documentation/jeedom_watchdog/doc/en_US/changelog_beta"
+      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom_watchdog/doc/de_DE/changelog_beta"
   description:
     fr_FR: "Plugin watchdog"
+- id: weenect
+  name: "Weenect"
+  market_id: 4487
+  doc:
+    stable:
+      fr_FR: "https://github.com/Bbillyben/Weenect-plugin/tree/master/docs/fr_FR/index.md"
+      en_US: "https://github.com/Bbillyben/Weenect-plugin/tree/master/docs/en_US/index.md"
+    beta:
+      fr_FR: "https://github.com/Bbillyben/Weenect-plugin/tree/master/docs/fr_FR/index.md"
+      en_US: "https://github.com/Bbillyben/Weenect-plugin/tree/master/docs/en_US/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/Bbillyben/Weenect-plugin/blob/master/docs/changelog.md"
+    beta:
+      fr_FR: "https://github.com/Bbillyben/Weenect-plugin/blob/master/docs/changelog_beta.md"
+  description:
+    fr_FR: "Plugin permettant de consulter les information de tracker weenect rattaché à un compte weenect"
+    en_US: "Plugin to view weenect tracker information attached to a weenect account"
