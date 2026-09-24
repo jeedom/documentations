@@ -1,5 +1,5 @@
 - id: blink1
-  name: "Blink(1)"
+  name: "Blink (1)"
   market_id: 1244
   doc:
     stable: true
@@ -7,12 +7,7 @@
   changelog:
     stable: true
     beta: false
-  description:
-    fr_FR: "Plugin servant à piloter une clé blink(1)"
-    en_US: "Plugin used to control a blink key (1)"
-    es_ES: "Complemento utilizado para controlar una tecla de parpadeo (1)"
-    de_DE: "Plugin zur Steuerung eines Blinkschlüssels (1)"
-
+  description: {}
 - id: husqvarna
   name: "Husqvarna"
   market_id: 3101
@@ -22,12 +17,7 @@
   changelog:
     stable: false
     beta: false
-  description:
-    fr_FR: ""
-    en_US: ""
-    es_ES: ""
-    de_DE: ""
-
+  description: {}
 - id: karotz
   name: "Karotz"
   market_id: 148
@@ -37,12 +27,7 @@
   changelog:
     stable: true
     beta: true
-  description:
-    fr_FR: "Plugin pour commander le Karotz"
-    en_US: "Plugin to order the Karotz"
-    es_ES: "Plugin para ordenar el Karotz"
-    de_DE: "Plugin um den Karotz zu bestellen"
-
+  description: {}
 - id: nabaztag
   name: "Nabaztag"
   market_id: 151
@@ -52,8 +37,4 @@
   changelog:
     stable: true
     beta: false
-  description:
-    fr_FR: "Plugin pour commander le Nabaztag"
-    en_US: "Plugin to order the Nabaztag"
-    es_ES: "Plugin para ordenar el Nabaztag"
-    de_DE: "Plugin um den Nabaztag zu bestellen"
+  description: {}
