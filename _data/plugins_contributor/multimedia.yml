@@ -13,21 +13,19 @@
     beta: false
   description:
     fr_FR: "Plugin pour piloter les videoprojecteurs Acer"
-
 - id: alexaamazonmusic
-  name: "Alexa - Amazon Music"
+  name: "Alexa - AmazonMusic"
   market_id: 3910
   doc:
     stable:
-      fr_FR: "http://jeedom.sigalou-domotique.fr/alexa-amazon-music-documentation"
+      fr_FR: "https://youdom.net/alexa-amazonmusic-documentation"
     beta: false
   changelog:
     stable:
-      fr_FR: "http://jeedom.sigalou-domotique.fr/alexa-api-changelog"
+      fr_FR: "https://youdom.net/alexa-api-et-amazonmusic-deezer-spotify-changelog-todo-list/"
     beta: false
   description:
     fr_FR: "Interface Amazon Music"
-
 - id: alexadeezer
   name: "Alexa - Deezer"
   market_id: 3911
@@ -41,7 +39,6 @@
     beta: false
   description:
     fr_FR: "Interface Deezer"
-
 - id: alexafiretv
   name: "Alexa - Fire TV"
   market_id: 4064
@@ -55,7 +52,6 @@
     beta: false
   description:
     fr_FR: "Plugin pour interface Fire TV"
-
 - id: alexaspotify
   name: "Alexa - Spotify"
   market_id: 3913
@@ -69,25 +65,45 @@
     beta: false
   description:
     fr_FR: "Interface Spotify"
-
-- id: ambilightByHyperion
-  name: "Ambilight by Hyperion"
-  market_id: 4515
+- id: ampli_pioneer
+  name: "Ampli Pioneer"
+  market_id: 2974
   doc:
     stable:
-      fr_FR: "https://spine34.github.io/jeedom-plugin-ambilightByHyperion/fr_FR/"
-    beta:
-      fr_FR: "https://spine34.github.io/jeedom-plugin-ambilightByHyperion/fr_FR/beta/"
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/ampli_pioneer/fr_FR/index.html"
+    beta: false
   changelog:
     stable:
-      fr_FR: "https://spine34.github.io/jeedom-plugin-ambilightByHyperion/fr_FR/changelog"
-    beta:
-      fr_FR: "https://spine34.github.io/jeedom-plugin-ambilightByHyperion/fr_FR/beta/changelog"
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/ampli_pioneer/fr_FR/index.html#_changelog"
+    beta: false
+  description: {}
+- id: AndroidTV
+  name: "Android TV"
+  market_id: 4067
+  doc:
+    stable:
+      fr_FR: "http://mika-nt28.github.io/Documentations/AndroidTV/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/AndroidTV/fr_FR/changelog"
+    beta: false
   description:
-    fr_FR: "Ce plugin permet de contrôler un serveur Hyperion."
-
+    fr_FR: "Plugin pour piloter les Android TV et autres équipements Android"
+- id: bbox_tv
+  name: "BBox TV"
+  market_id: 1734
+  doc:
+    stable:
+      fr_FR: "https://alucard29.github.io/bbox_tv/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://alucard29.github.io/bbox_tv/fr_FR/changelog"
+    beta: false
+  description: {}
 - id: BoseSoundTouch
-  name: "Bose SoundTouch"
+  name: "Enceinte Bose SoundTouch"
   market_id: 3565
   doc:
     stable:
@@ -101,7 +117,6 @@
     beta: false
   description:
     fr_FR: "Plugin pour piloter les enceintes Bose SoundTouch."
-
 - id: Creality_Cloud
   name: "Creality Cloud"
   market_id: 4219
@@ -120,23 +135,21 @@
     en_US: "Plugin that allows retrieving information from your Creality Cloud account and controlling your 3D printer."
     es_ES: "Plugin que permite recuperar información de su cuenta en Creality Cloud y controlar su impresora 3D."
     de_DE: "Plugin, mit dem Sie Informationen aus Ihrem Creality Cloud-Konto abrufen und Ihren 3D-Drucker steuern können."
-
 - id: diaporama
   name: "Diaporama"
   market_id: 3870
   doc:
     stable:
-      fr_FR: "http://sigalou-domotique.fr/diaporama/82-plugin-diaporama-documentation"
+      fr_FR: "http://jeedom.sigalou-domotique.fr/plugin-diaporama-documentation"
     beta: false
   changelog:
     stable:
-      fr_FR: "http://sigalou-domotique.fr/diaporama/81-plugin-diaporama-changelog-todolist"
+      fr_FR: "http://jeedom.sigalou-domotique.fr/plugin-diaporama-changelog-todolist#ChangeLog"
     beta: false
   description:
-    fr_FR: "Diaporama"
-
+    fr_FR: "Afficher sur un de vos écrans domotique un diaporama de vos photos préférées. Possible en plein écran ou dans un cadre. 400% WAF, adoré de Madame et des enfants !! Les photos peuvent être stockées sur la machine de Jeedom ou sur une autre machine (via Samba). Il est également possible de tout simplement afficher les photos de votre compte Facebook, le plugin se charge d'aller les récupérer et les faire défiler."
 - id: FreeboxMini4k
-  name: "Télécommande Freebox mini4K"
+  name: "Freebox mini4K"
   market_id: 3756
   doc:
     stable:
@@ -146,9 +159,7 @@
     stable:
       fr_FR: "https://mika-nt28.github.io/Documentations/FreeboxMini4k/fr_FR/changelog"
     beta: false
-  description:
-    fr_FR: "Télécommande pour votre Freebox mini4K"
-
+  description: {}
 - id: freeCrystal
   name: "Freebox Crystal"
   market_id: 1139
@@ -160,9 +171,7 @@
     stable:
       fr_FR: "https://mika-nt28.github.io/Documentations/freeCrystal/fr_FR/changelog"
     beta: false
-  description:
-    fr_FR: "Récupère les informations de votre Freebox Crystal"
-
+  description: {}
 - id: googlecast
   name: "Google Cast"
   market_id: 3350
@@ -176,7 +185,32 @@
     beta: false
   description:
     fr_FR: "Plugin de gestion des équipements compatibles Google Cast"
-
+- id: harmanKardonRC
+  name: "harmanKardonRC"
+  market_id: 3566
+  doc:
+    stable:
+      fr_FR: "https://supradolph.github.io/posts/harmanKardonRC_fr_FR"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://supradolph.github.io/posts/harmanKardonRC_fr_FR/#changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin est basé sur HKAPI (https://github.com/KarimGeiger/HKAPI) et permet de contrôler des amplificateurs de la marque Harman Kardon. Attention, cette API a été réalisée en reverse engineering car HK n'expose pas son API."
+- id: heosCLI
+  name: "Heos"
+  market_id: 3741
+  doc:
+    stable:
+      fr_FR: "https://github.com/Sh0n/docs/wiki/Plugin-Heos-(heosCLI)"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/Sh0n/docs/blob/master/heosCLI/Changelog.md"
+    beta: false
+  description:
+    fr_FR: "Plugin pour la communication avec le protocol HEOS"
 - id: homepTalk
   name: "HomepTalk"
   market_id: 3825
@@ -195,35 +229,45 @@
     en_US: "TTS to an Apple HomePod<br/><br/>Add an Apple HomePod or HomePod Mini and make it talk!"
     es_ES: "TTS a un HomePod de Apple<br/><br/>¡Añade un HomePod o HomePod Mini de Apple y haz que hable!"
     de_DE: "TTS zu einem Apple HomePod<br/><br/>Fügen Sie einen Apple HomePod oder HomePod Mini hinzu und lassen Sie ihn sprechen!"
-
+- id: hyperionNg
+  name: "Hyperion NG"
+  market_id: 4191
+  doc:
+    stable:
+      fr_FR: "https://mathman.github.io/Jeedom-hyperionNg/fr_FR/index"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mathman.github.io/Jeedom-hyperionNg/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin qui permet de controler un serveur Hyperion"
 - id: JeeOrangeTv
   name: "JeeOrangeTv"
   market_id: 2706
   doc:
     stable:
-      fr_FR: "https://totoff974.github.io/JeeOrangeTv/fr_FR/"
+      en_US: "https://totoff974.github.io/JeeOrangeTv/en_US/"
+      de_DE: "https://totoff974.github.io/JeeOrangeTv/de_DE/"
     beta: false
   changelog:
     stable:
-      fr_FR: "https://totoff974.github.io/JeeOrangeTv/fr_FR/changelog"
+      en_US: "https://totoff974.github.io/JeeOrangeTv/en_US/changelog"
+      de_DE: "https://totoff974.github.io/JeeOrangeTv/de_DE/changelog"
     beta: false
-  description:
-    fr_FR: "Plugin pour piloter le décodeur TV Orange par IP"
-
-- id: jellyfin
-  name: "Jellyfin"
-  market_id: 4631
+  description: {}
+- id: jeetransmission
+  name: "Transmission BT"
+  market_id: 2583
   doc:
     stable:
-      fr_FR: "https://github.com/NeoRed-domo/plugin-jellyfin/blob/main/docs/fr_FR/index.md"
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/jeetransmission/"
     beta: false
   changelog:
     stable:
-      fr_FR: "https://github.com/NeoRed-domo/plugin-jellyfin/blob/main/docs/fr_FR/changelog.md"
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/jeetransmission/changelog.html"
     beta: false
-  description:
-    fr_FR: "Intégration avancée de Jellyfin. Permet le pilotage complet de vos lecteurs, la remontée d'informations en temps réel (médias, jaquettes, progression) et l'automatisation de vos séances cinéma."
-
+  description: {}
 - id: marantzdenon
   name: "Marantz Denon"
   market_id: 3342
@@ -235,9 +279,7 @@
     stable:
       fr_FR: "https://github.com/guirem/plugin-marantzdenon/blob/master/docs/fr_FR/changelog.md"
     beta: false
-  description:
-    fr_FR: "Plugin permettant de piloter les amplificateurs Denon / Marantz"
-
+  description: {}
 - id: MPD
   name: "MPD"
   market_id: 4464
@@ -268,7 +310,6 @@
     en_US: "Plugin for controlling MPD players"
     es_ES: "Complemento que permite controlar los reproductores MPD"
     de_DE: "Plugin zur Steuerung von MPD-Playern"
-
 - id: musiccast
   name: "MusicCast controller"
   market_id: 3099
@@ -280,11 +321,9 @@
     stable:
       fr_FR: "https://granddam.github.io/plugin-musiccast/fr_FR/changelog"
     beta: false
-  description:
-    fr_FR: "Plugin de controle de Yamaha MusicCast"
-
+  description: {}
 - id: onkyo
-  name: "onkyo"
+  name: "Onkyo"
   market_id: 1107
   doc:
     stable:
@@ -296,21 +335,32 @@
     beta: false
   description:
     fr_FR: "Plugin pour piloter les amplificateurs de la marque Onkyo"
-
 - id: philips
   name: "philips"
   market_id: 3875
   doc:
     stable:
-      fr_FR: "https://barre35.github.io/jeedom-plugin-philips/fr_FR/index"
+      fr_FR: "https://barre35.github.io/jeedom-plugin-doc/fr_FR/philips_documentation"
     beta: false
   changelog:
     stable:
-      fr_FR: "https://barre35.github.io/jeedom-plugin-philips/fr_FR/changelog"
+      fr_FR: "https://barre35.github.io/jeedom-plugin-doc/fr_FR/philips_changelog"
     beta: false
   description:
-    fr_FR: "Plugin pour le pilotage des TV philips"
-
+    fr_FR: "Plugin pour les TV philips"
+- id: playtts
+  name: "PlayTTS"
+  market_id: 2449
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/playtts/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/playtts/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet d'utiliser le TTS en local sur son jeedom mais également un Linux déporté. Une commande pour lire des fichiers audio est également présente, ce qui permet de lire des sons d'annonce par exemple et tout autre fichier."
 - id: plex
   name: "Plex"
   market_id: 1380
@@ -322,9 +372,35 @@
     stable:
       fr_FR: "https://mika-nt28.github.io/Documentations/plex/fr_FR/changelog"
     beta: false
+  description: {}
+- id: pvremote
+  name: "PVR Remote"
+  market_id: 1960
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/pvremote/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/pvremote/changelog.html"
+    beta: false
+  description: {}
+- id: sonarr
+  name: "Sonarr & Radarr"
+  market_id: 4157
+  doc:
+    stable:
+      fr_FR: "https://hbedek.github.io/Jeedom_docs/docs/sonarr/fr_FR/"
+      en_US: "https://hbedek.github.io/Jeedom_docs/docs/sonarr/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://hbedek.github.io/Jeedom_docs/docs/sonarr/fr_FR/changelog"
+      en_US: "https://hbedek.github.io/Jeedom_docs/docs/sonarr/en_US/changelog"
+    beta: false
   description:
-    fr_FR: ""
-
+    fr_FR: "Plugin permettant d'interconnecter Jeedom, Sonarr et Radarr. Il est possible de récupérer les films / épisodes manquants, à venir et téléchargés. Le plugin permet également d'effectuer des recherches, ajouter un film / série et de raffraîchir les films / épisodes manquants. Enfin le plugin possède son propre système de notification HTML lorsque qu'un film ou un épisode est téléchargé"
+    en_US: "This plugin allows the interaction between Sonarr, Radarr and Jeedom. This plugins retrieves the missing episodes / movies, the downloaded episodes / movies, the future releases and has it's own notification system when a movie or episode has been downloaded."
 - id: sonybravia
   name: "Sony Bravia"
   market_id: 3100
@@ -338,9 +414,8 @@
     beta: false
   description:
     fr_FR: "Contrôle et monitoring des TV Sony bravia"
-
 - id: spotify
-  name: "Spotify"
+  name: "spotify"
   market_id: 3700
   doc:
     stable:
@@ -352,9 +427,8 @@
     beta: false
   description:
     fr_FR: "Plugin pour le pilotage spotify connect"
-
 - id: synoaudio
-  name: "Syno Audio Station"
+  name: "SynoAudio"
   market_id: 2063
   doc:
     stable:
@@ -370,9 +444,8 @@
     beta: false
   description:
     fr_FR: "Plugin pour Synology Audio Station"
-
 - id: synodownload
-  name: "Syno Download"
+  name: "SynoDownload"
   market_id: 2624
   doc:
     stable:
@@ -388,9 +461,8 @@
     beta: false
   description:
     fr_FR: "Plugin pour Synology Download Station."
-
 - id: synovideo
-  name: "Syno Video Station"
+  name: "SynoVideo"
   market_id: 2887
   doc:
     stable:
@@ -406,7 +478,6 @@
     beta: false
   description:
     fr_FR: "Plugin pour Synology Video Station"
-
 - id: telecfree
   name: "Freebox Révolution"
   market_id: 2032
@@ -420,7 +491,6 @@
     beta: false
   description:
     fr_FR: "Plugin pour piloter le Freebox Player de la Freebox Revolution"
-
 - id: Telejee
   name: "Telejee"
   market_id: 1415
@@ -434,7 +504,48 @@
     beta: false
   description:
     fr_FR: "Plugin permettant de récupérer les pogrammes TV et d'interagir avec les appareils multimedia connectés en lançant des actions scénarios sur le clic d'un logo ou une icône. Possibilité de créer plusieurs types de télécommandes"
-
+- id: ttscast
+  name: "TTS Cast"
+  market_id: 4475
+  doc:
+    stable:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/TTSCast/index"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/TTSCast/index"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/TTSCast/index"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/TTSCast/index"
+    beta:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/TTSCast/beta/index"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/TTSCast/beta/index"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/TTSCast/beta/index"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/TTSCast/beta/index"
+  changelog:
+    stable:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/TTSCast/changelog"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/TTSCast/changelog"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/TTSCast/changelog"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/TTSCast/changelog"
+    beta:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/TTSCast/beta/changelog"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/TTSCast/beta/changelog"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/TTSCast/beta/changelog"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/TTSCast/beta/changelog"
+  description:
+    fr_FR: "Plugin pour gérer ses équipements Google, type Google Home, Nest Mini, Nest Hub (Max), Chromecast. Il permet de générer des notifications TTS (Text To Speech) et de les diffuser sur les équipements Google. Il permet également de diffuser des sons (mp3), des vidéos YouTube, une page Web, ou encore une radio en streaming sur ces mêmes équipements."
+    en_US: "Plugin to manage Google equipment, such as Google Home, Nest Mini, Nest Hub (Max), Chromecast. It allows you to generate TTS (Text To Speech) notifications and broadcast them to Google devices. It also allows you to broadcast sounds (mp3), YouTube videos, a web page, or even streaming radio on the same equipment."
+    es_ES: "Complemento para administrar equipos de Google, como Google Home, Nest Mini, Nest Hub (Max), Chromecast. Le permite generar notificaciones TTS (Text To Speech) y transmitirlas a dispositivos de Google. También permite transmitir sonidos (mp3), vídeos de YouTube, una página web o incluso radio en streaming en el mismo equipo."
+    de_DE: "Plugin zur Verwaltung von Google-Geräten wie Google Home, Nest Mini, Nest Hub (Max), Chromecast. Es ermöglicht Ihnen, TTS-Benachrichtigungen (Text To Speech) zu generieren und diese an Google-Geräte zu senden. Sie können damit auch Sounds (mp3), YouTube-Videos, eine Webseite oder sogar Radio-Streaming auf demselben Gerät übertragen."
+- id: ttsWebServer
+  name: "TTS Web Server"
+  market_id: 2867
+  doc:
+    stable:
+      fr_FR: "https://abarrau.github.io/jeedom-plugins-doc/ttsWebServer/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://abarrau.github.io/jeedom-plugins-doc/ttsWebServer/?changelog"
+    beta: false
+  description: {}
 - id: tvByOrange
   name: "TV by Orange"
   market_id: 4546
@@ -450,23 +561,90 @@
       fr_FR: "https://spine34.github.io/jeedom-documentations/fr_FR/tvByOrange/beta/changelog"
   description:
     fr_FR: "Ce plugin permet de contrôler un décodeur Orange/Sosh"
-
+- id: TvDomSamsung
+  name: "Samsung Smart TV"
+  market_id: 2227
+  doc:
+    stable:
+      en_US: "https://Berco63.github.io/TvDomSamsung/en_US/"
+    beta: false
+  changelog:
+    stable:
+      en_US: "https://Berco63.github.io/TvDomSamsung/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Télécommande pour téléviseurs Samsung Smart TV (connectés)"
+- id: tvphillips
+  name: "Tv Phillips"
+  market_id: 1119
+  doc:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/tvphillips/fr_FR/index.html"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/tvphillips/fr_FR/index.html#_changelog"
+    beta: false
+  description: {}
+- id: tvremote
+  name: "TV Remote"
+  market_id: 4496
+  doc:
+    stable:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/TVRemote/index"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/TVRemote/index"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/TVRemote/index"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/TVRemote/index"
+    beta:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/TVRemote/beta/index"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/TVRemote/beta/index"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/TVRemote/beta/index"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/TVRemote/beta/index"
+  changelog:
+    stable:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/TVRemote/changelog"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/TVRemote/changelog"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/TVRemote/changelog"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/TVRemote/changelog"
+    beta:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/TVRemote/beta/changelog"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/TVRemote/beta/changelog"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/TVRemote/beta/changelog"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/TVRemote/beta/changelog"
+  description:
+    fr_FR: "Plugin pour contrôler les équipements Android de type Télévision (Sony, Nvidia Shield, Freebox TV, etc...) via le service de télécommande Google (TVRemote) ou via ADB. Il permet de contrôler les différentes fonctions de sa télévision (power, volume, entrées HDMI, lancement d'applications, chaînes TV, navigation dans l'interface, etc...)"
+    en_US: "Plugin to control Android TV devices (Sony, Nvidia Shield, Freebox TV, etc...) via Google remote control service (TVRemote) or via ADB. It allows you to control various functions of your TV (power, volume, HDMI inputs, launching applications, TV channels, navigating the interface, etc...)"
+    es_ES: "Plugin para controlar dispositivos Android TV (Sony, Nvidia Shield, Freebox TV, etc.) a través del servicio de control remoto de Google (TVRemote) o a través de ADB. Permite controlar las distintas funciones del televisor (encendido, volumen, entradas HDMI, inicio de aplicaciones, canales de TV, navegación por la interfaz, etc.)"
+    de_DE: "Plugin zur Steuerung von Android-Geräten vom Typ Fernseher (Sony, Nvidia Shield, Freebox TV, usw.) über den Google-Fernbedienungsdienst (TVRemote) oder über ADB. Damit kann man die verschiedenen Funktionen seines Fernsehers steuern (Power, Lautstärke, HDMI-Eingänge, Starten von Apps, TV-Kanälen, Navigation durch die Benutzeroberfläche, usw.)"
+- id: webOS
+  name: "webOS"
+  market_id: 4594
+  doc:
+    stable:
+      fr_FR: "https://didier3l.github.io/Documentation-plugin-webOS/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://didier3l.github.io/Documentation-plugin-webOS/CHANGELOG.html"
+    beta: false
+  description:
+    fr_FR: "Le plugin webOS permet de piloter plusieurs téléviseurs LG équipés du système WebOS directement depuis Jeedom. Il offre un contrôle complet de vos TV's LG incluant la gestion des applications, des entrées, des chaînes TNT, des commandes média, l'envoi de message d’alerte sur l’écran de la TV, et bien plus..."
 - id: webosTv
   name: "WebOS TV"
   market_id: 3301
   doc:
     stable:
-      fr_FR: "https://zyg0m4t1k.github.io/webosTv/fr_FR/"
+      en_US: "https://zyg0m4t1k.github.io/webosTv/en_US/"
+      de_DE: "https://zyg0m4t1k.github.io/webosTv/de_DE/"
     beta: false
   changelog:
     stable:
-      fr_FR: "https://zyg0m4t1k.github.io/webosTv/fr_FR/changelog"
+      en_US: "https://zyg0m4t1k.github.io/webosTv/en_US/changelog"
+      de_DE: "https://zyg0m4t1k.github.io/webosTv/de_DE/changelog"
     beta: false
-  description:
-    fr_FR: "Plugin pour commander les TVs LG WebOs."
-
+  description: {}
 - id: WebOStvLG
-  name: "LG WebOS"
+  name: "LG WebOS "
   market_id: 4554
   doc:
     stable:
@@ -478,3 +656,16 @@
     beta: false
   description:
     fr_FR: "Plugin pour commander les TVs LG connectées (Modeles WebOS apres 2012). Basé sur le plugin LG TV"
+- id: xiaomiTalk
+  name: "XiaomiTalk"
+  market_id: 3580
+  doc:
+    stable:
+      fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/xiaomiTalk/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/xiaomiTalk/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "TTS vers la passerelle Xiaomi (Mijia) v2 (lumi.gateway.v3)N'EST PAS COMPATIBLE AVEC LA PASSERELLE AQARA HOMEKIT !!!"
