@@ -9,10 +9,9 @@
     beta: true
   description:
     fr_FR: "Plugin spécialisé pour la box Jeedom Atlas."
-    en_US: "Specialized plugin for the Jeedom Atlas box."
-    es_ES: "Complemento especializado para la caja Jeedom Atlas."
-    de_DE: "Spezialisiertes Plugin für die Jeedom Atlas-Box."
-
+    en_US: "Specialized plugin for the Jeedom Atlas box"
+    es_ES: "Complemento especializado para la caja Jeedom Atlas"
+    de_DE: "Spezialisiertes Plugin für die Jeedom Atlas Box"
 - id: luna
   name: "Luna"
   market_id: 4346
@@ -24,10 +23,9 @@
     beta: true
   description:
     fr_FR: "Plugin spécialisé pour la box Jeedom Luna."
-    en_US: "Specialized plugin for the Jeedom Luna box."
-    es_ES: "Complemento especializado para la caja Jeedom Luna."
-    de_DE: "Spezialisiertes Plugin für die Jeedom Luna Box."
-
+    en_US: "Specialized plugin for the Jeedom Luna box"
+    es_ES: "Complemento especializado para la caja Jeedom Luna"
+    de_DE: "Spezialisiertes Plugin für die Jeedom Luna Box"
 - id: zeroTier
   name: "zeroTier"
   market_id: 4518
