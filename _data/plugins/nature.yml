@@ -7,8 +7,4 @@
   changelog:
     stable: true
     beta: false
-  description:
-    fr_FR: "Plugin pour les capteurs de plante koubachi"
-    en_US: "Plugin for koubachi plant sensors"
-    es_ES: "Plugin para sensores de planta koubachi"
-    de_DE: "Plugin für Koubachi Pflanzensensoren"
+  description: {}
