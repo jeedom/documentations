@@ -63,7 +63,8 @@
   changelog:
     stable: true
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour le superviseur ewattch"
 - id: extel
   name: "Extel"
   market_id: 2979
