@@ -1,17 +1,70 @@
-- id: CaveVin
-  name: "Cave à Vin"
-  market_id: 1980
+- id: angers
+  name: "Angers"
+  market_id: 4128
   doc:
     stable:
-      fr_FR: "https://mika-nt28.github.io/Documentations/CaveVin/fr_FR/"
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/angers/"
     beta: false
   changelog:
     stable:
-      fr_FR: "https://mika-nt28.github.io/Documentations/CaveVin/fr_FR/changelog"
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/angers/changelog.html"
     beta: false
   description:
-    fr_FR: "Quel vin j'ai dans ma cave?<br/>Une question que tous le monde se pose, et un plugin pour essayer d'y repondre"
-
+    fr_FR: "Ce plugin permet de récupérer des informations mise en OpenData par Angers Loire Métropole."
+- id: ayat
+  name: "Ayat"
+  market_id: 2846
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/ayat/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/ayat/changelog.html"
+    beta: false
+  description: {}
+- id: birthday
+  name: "Anniversaires"
+  market_id: 4416
+  doc:
+    stable:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/Birthday/fr_FR/"
+      en_US: "https://tomitomas.github.io/jeedom_doc/Birthday/en_US/"
+      es_ES: "https://tomitomas.github.io/jeedom_doc/Birthday/es_ES/"
+      de_DE: "https://tomitomas.github.io/jeedom_doc/Birthday/de_DE/"
+    beta:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/Birthday/fr_FR/"
+      en_US: "https://tomitomas.github.io/jeedom_doc/Birthday/en_US/"
+      es_ES: "https://tomitomas.github.io/jeedom_doc/Birthday/es_ES/"
+      de_DE: "https://tomitomas.github.io/jeedom_doc/Birthday/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/Birthday/fr_FR/changelog"
+      en_US: "https://tomitomas.github.io/jeedom_doc/Birthday/en_US/changelog"
+      es_ES: "https://tomitomas.github.io/jeedom_doc/Birthday/es_ES/changelog"
+      de_DE: "https://tomitomas.github.io/jeedom_doc/Birthday/de_DE/changelog"
+    beta:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/Birthday/fr_FR/changelog_beta"
+      en_US: "https://tomitomas.github.io/jeedom_doc/Birthday/en_US/changelog_beta"
+      es_ES: "https://tomitomas.github.io/jeedom_doc/Birthday/es_ES/changelog_beta"
+      de_DE: "https://tomitomas.github.io/jeedom_doc/Birthday/de_DE/changelog_beta"
+  description:
+    fr_FR: "Plus d'excuse pour oublier un anniversaire ! Ce plugin permet d'enregistrer les anniversaires des membres de votre famille, animaux, amis, collègues ... et de réaliser différentes actions en amont (acheter un kdo !) et/ou le jour J (envoyer un sms, mail, ...)."
+    en_US: "No more excuses for forgetting a birthday! This plugin lets you record the birthdays of members of your family, pets, friends, colleagues ... and carry out various actions beforehand (buy a kdo!) and/or on the big day (send an SMS, e-mail, ...)."
+    es_ES: "¡Se acabaron las excusas para olvidar un cumpleaños! Este plugin te permite registrar los cumpleaños de los miembros de tu familia, mascotas, amigos, compañeros de trabajo, etc. y realizar diversas acciones con antelación (¡comprar un kdo!) y/o en el gran día (enviar un SMS, correo electrónico, etc.)."
+    de_DE: "Keine Ausrede mehr, einen Geburtstag zu vergessen! Mit diesem Plugin können Sie die Geburtstage Ihrer Familienmitglieder, Haustiere, Freunde, Kollegen ... registrieren und verschiedene Aktionen im Vorfeld (Kauf eines Kdo!) und/oder am Tag X (Senden einer SMS, E-Mail, ...) durchführen."
+- id: CaveVin
+  name: "Cave à vin"
+  market_id: 1980
+  doc:
+    stable:
+      en_US: "https://mika-nt28.github.io/Documentations/CaveVin/en_US/"
+    beta: false
+  changelog:
+    stable:
+      en_US: "https://mika-nt28.github.io/Documentations/CaveVin/en_US/changelog"
+    beta: false
+  description: {}
 - id: comptes
   name: "Comptes"
   market_id: 1399
@@ -23,9 +76,61 @@
     stable:
       fr_FR: "https://koleos6.github.io/comptes/fr_FR/changelog"
     beta: false
+  description: {}
+- id: CovidAttest
+  name: "CovidAttest"
+  market_id: 4070
+  doc:
+    stable:
+      fr_FR: "https://github.com/Bbillyben/CovidAttest/blob/master/README.md"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/Bbillyben/CovidAttest/blob/master/docs/fr_FR/changelog.md"
+    beta: false
   description:
-    fr_FR: ""
-
+    fr_FR: "Générateur de l'attestation dérogatoire au confinement. Il vous permet de générer un fichier pdf semblable à celui officiel, QRCode compris et de le transmettre via une commande type plugin Telegram ou Mail. Vous pouvez également transférer un png du QRcode directement, envoyer les url des fichiers vers un scenario,..."
+- id: dayinfo
+  name: "Information du Jour"
+  market_id: 1808
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/dayinfo/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/dayinfo/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de disposer des informations suivantes, sans connexion externe nécessaire : week-end en cours, jour férié en cours, nombre de jours avant le prochain jour férié, saison en cours, nombre de jours avant prochaine saison, vacances en cours, label des vacances, nombre de jours avant les prochaines vacances, nombre de jours avant la fin des prochaines vacances, phase de la lune, age de la lune"
+- id: diagrelationnel
+  name: "Diagramme relationnel"
+  market_id: 4483
+  doc:
+    stable:
+      fr_FR: "https://github.com/BisonJeedom/documentations/blob/main/diagrelationnel/index_stable.md"
+    beta:
+      fr_FR: "https://github.com/BisonJeedom/documentations/blob/main/diagrelationnel/index_beta.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/BisonJeedom/documentations/blob/main/diagrelationnel/changelog_stable.md"
+    beta:
+      fr_FR: "https://github.com/BisonJeedom/documentations/blob/main/diagrelationnel/changelog_beta.md"
+  description:
+    fr_FR: "Ce plugin permet la création de diagramme relationnel des liens entres scénarios et déclencheurs"
+- id: geotrav
+  name: "Localisation et Trajet"
+  market_id: 2956
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/geotrav/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/geotrav/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de gérer ses positions et les informations liées (adresse, département, coordonnées ...) Mais aussi les trajets en voiture, vélo, à pied, transports. Les prochains départs et arrivées à une station de transports. Et enfin le geofencing."
 - id: gkeep
   name: "Google Keep"
   market_id: 4423
@@ -38,25 +143,40 @@
       fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-google-keep-pour-jeedom/"
     beta: false
   description:
-    fr_FR: "Plugin permettant de synchroniser ses notes et listes avec Google Keep.</br>Nécéssite python >= v3.8 pour fonctionner."
+    fr_FR: "Plugin permettant de synchroniser ses notes et listes avec Google Keep.Nécéssite python &gt;= v3.8 pour fonctionner."
     en_US: "Plugin for synchronizing notes and lists with Google Keep"
     es_ES: "Plugin para sincronizar notas y listas con Google Keep"
     de_DE: "Plugin zum Synchronisieren von Notizen und Listen mit Google Keep"
-
 - id: gsl
   name: "Google shared locations"
   market_id: 3422
   doc:
     stable:
       fr_FR: "https://yoan-m.github.io/jeedom_gsl/fr_FR/"
-    beta: false
+    beta:
+      fr_FR: "https://yoan-m.github.io/jeedom_gsl/fr_FR/"
   changelog:
     stable:
       fr_FR: "https://yoan-m.github.io/jeedom_gsl/fr_FR/changelog"
-    beta: false
+    beta:
+      fr_FR: "https://yoan-m.github.io/jeedom_gsl/fr_FR/changelog"
   description:
-    fr_FR: "Plugin qui récupère les geolocalisations partagées avec Google.<br />L'affichage est parametrable au sein du plugin.<br />Les coordonnées peuvent être envoyées à d'atures plugins Geoloc, Geotrav, Jeeloc, etc..."
-
+    fr_FR: "Plugin qui récupère les geolocalisations partagées avec Google.L'affichage est parametrable au sein du plugin.Les coordonnées peuvent être envoyées à d'atures plugins Geoloc, Geotrav, Jeeloc, etc..."
+- id: iCalendar
+  name: "iCalendar"
+  market_id: 1993
+  doc:
+    stable:
+      fr_FR: "https://abarrau.github.io/jeedom-plugins-doc/iCalendar/"
+    beta:
+      fr_FR: "https://abarrau.github.io/jeedom-plugins-doc/iCalendar/"
+  changelog:
+    stable:
+      fr_FR: "https://abarrau.github.io/jeedom-plugins-doc/iCalendar/?changelog"
+    beta:
+      fr_FR: "https://abarrau.github.io/jeedom-plugins-doc/iCalendar/?changelog"
+  description:
+    fr_FR: "Synchronisation de vos calendriers ical/caldev dans Jeedom pour le déclenchement d'évènements"
 - id: ics
   name: "Calendrier Ics"
   market_id: 3108
@@ -73,9 +193,8 @@
     en_US: "Turn your Google, iCloud or CalDAV calendar into a home automation engine for Jeedom: automatically trigger actions and scenarios from your calendar events."
     es_ES: "Convierte tu calendario de Google, iCloud o CalDAV en un motor domótico para Jeedom: activa automáticamente acciones y escenarios a partir de los eventos de tu calendario."
     de_DE: "Verwandeln Sie Ihren Google-, iCloud- oder CalDAV-Kalender in eine Hausautomations-Engine für Jeedom: Lösen Sie automatisch Aktionen und Szenarien aus Ihren Kalenderereignissen aus."
-
 - id: import2calendar
-  name: "ical2Calendar"
+  name: "Ical2calendar"
   market_id: 4493
   doc:
     stable:
@@ -104,7 +223,46 @@
     en_US: "ical2Calendar lets you import an ical calendar into the official calendar plugin, whether it's from Google, Outlook, Nextcloud or another source."
     es_ES: "ical2Calendar le permite importar un calendario ical en el plugin de calendario oficial, ya venga de Google, Outlook, Nextcloud u otra fuente."
     de_DE: "mit ical2Calendar können Sie einen ical-Kalender in das offizielle Kalender-Plugin importieren, unabhängig davon, ob dieser von Google, Outlook, Nextcloud oder anderen Anbietern stammt."
-
+- id: invoxia
+  name: "Invoxia (Linker for GPS Tracker)"
+  market_id: 4568
+  doc:
+    stable:
+      fr_FR: "https://www.pasteck.com/plugin-jeedom-linker-for-tracker/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/mrgreenfr/JeedomPlugins_Docs/blob/master/linkerfortracker/changelog.md"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant la recuperation des données (dont localisations) de vos trackers GPS de la marque Invoxia disponibles ici : https://www.invoxia.com/fr. Vous pourrez visualiser la position actuelle et recuperer l'historique des positions de votre tracker. Les positions GPS sont actualisees toutes les 5 a 10mn par le plugin pour ne pas surcharger les serveurs d'Invoxia (l'actualisation des positions depend aussi de la configuration de votre tracker). Il est interdit de modifier le code du plugin pour reduire le temps d'actualisation des positions (au risque de surcharger les serveurs Invoxia et de vous faire bloquer votre compte par Invoxia). Ce plugin est developpe par un tiers qui n'a pas de lien avec l'entreprise Invoxia. Le developpeur ou Jeedom ne peuvent pas etres tenus responsables de l'arret du fonctionnement du plugin si Invoxia decide de modifier ou supprimer son API ou que le plugin n'est plus compatible avec l'API."
+- id: jcalendar
+  name: "Jewish Calendar"
+  market_id: 4028
+  doc:
+    stable:
+      fr_FR: "https://rombautsdidier.github.io/jcalendar/fr_FR/"
+      en_US: "https://rombautsdidier.github.io/jcalendar/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://rombautsdidier.github.io/jcalendar/fr_FR/changelog"
+      en_US: "https://rombautsdidier.github.io/jcalendar/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour récupérer les informations du calendrier juif"
+- id: jeebike
+  name: "Jeebike"
+  market_id: 2816
+  doc:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/jeebike/fr_FR/index.html"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/jeebike/fr_FR/index.html#_changelog"
+    beta: false
+  description: {}
 - id: jeeloc
   name: "Jeeloc"
   market_id: 3404
@@ -121,7 +279,63 @@
     en_US: "Jeeloc is a Jeedom plugin designed to centralize location data. It does not collect GPS coordinates itself, but reuses existing commands (iOSCloud, Android, fixed coordinates, etc.) to display them in a unified and interactive widget."
     es_ES: "Jeeloc es un plugin de Jeedom para centralizar ubicaciones. No recopila directamente las coordenadas GPS, sino que reutiliza comandos existentes (iOSCloud, Android, coordenadas fijas, etc.) para mostrarlas en un widget unificado e interactivo."
     de_DE: "Jeeloc ist ein Jeedom-Plugin zur Zentralisierung von Standortdaten. Es erfasst keine GPS-Koordinaten selbst, sondern nutzt vorhandene Befehle (iOSCloud, Android, feste Koordinaten usw.), um sie in einem einheitlichen und interaktiven Widget darzustellen."
-
+- id: jeeWunderlist
+  name: "Wunderlist"
+  market_id: 2584
+  doc:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/jeeWunderlist/fr_FR/index.html"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/jeeWunderlist/fr_FR/index.html#_changelog"
+    beta: false
+  description: {}
+- id: magictrigger
+  name: "magictrigger"
+  market_id: 4060
+  doc:
+    stable:
+      fr_FR: "https://benoit5672.github.io/plugin-magictrigger/fr_FR/"
+      en_US: "https://benoit5672.github.io/plugin-magictrigger/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://benoit5672.github.io/plugin-magictrigger/fr_FR/changelog"
+      en_US: "https://benoit5672.github.io/plugin-magictrigger/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de collecter des evenements, et de prevoir de maniere statistiques les chances d'apparence de ces evenements pour declenchers des actions."
+- id: mqttDomutils
+  name: " MQTT Domutils"
+  market_id: 4361
+  doc:
+    stable:
+      fr_FR: "https://wocha-fr.github.io/jeedom-domutils/fr_FR/"
+      en_US: "https://wocha-fr.github.io/jeedom-domutils/en_US/"
+      es_ES: "https://wocha-fr.github.io/jeedom-domutils/es_ES/"
+      de_DE: "https://wocha-fr.github.io/jeedom-domutils/de_DE/"
+    beta:
+      fr_FR: "https://wocha-fr.github.io/jeedom-domutils/fr_FR/index_beta"
+      en_US: "https://wocha-fr.github.io/jeedom-domutils/en_US/index_beta"
+      es_ES: "https://wocha-fr.github.io/jeedom-domutils/es_ES/index_beta"
+      de_DE: "https://wocha-fr.github.io/jeedom-domutils/de_DE/index_beta"
+  changelog:
+    stable:
+      fr_FR: "https://wocha-fr.github.io/jeedom-domutils/fr_FR/changelog"
+      en_US: "https://wocha-fr.github.io/jeedom-domutils/en_US/changelog"
+      es_ES: "https://wocha-fr.github.io/jeedom-domutils/es_ES/changelog"
+      de_DE: "https://wocha-fr.github.io/jeedom-domutils/de_DE/changelog"
+    beta:
+      fr_FR: "https://wocha-fr.github.io/jeedom-domutils/fr_FR/changelog_beta"
+      en_US: "https://wocha-fr.github.io/jeedom-domutils/en_US/changelog_beta"
+      es_ES: "https://wocha-fr.github.io/jeedom-domutils/es_ES/changelog_beta"
+      de_DE: "https://wocha-fr.github.io/jeedom-domutils/de_DE/changelog_beta"
+  description:
+    fr_FR: "Ce plugin permet de récupérer de nombreuses infos.- Jour férié- Week-End- Vacances scolaires- Soleil & Lune- Couleur EDF Tempo- Vigilance Météo..."
+    en_US: "This plugin allows you to retrieve many infos.- Holiday- Weekend- School holidays- Sun & Moon- EDF Tempo Color- Weather Watch..."
+    es_ES: "Este plugin le permite recuperar muchas informaciones.- Días festivos- Fin de semana- Vacaciones escolares- Sol y Luna- EDF Tempo Color- Vigilancia meteorológica..."
+    de_DE: "Mit diesem Plugin können Sie zahlreiche Infos abrufen.- Feiertag- Wochenende- Schulferien- Sonne & Mond- EDF-Farbe Tempo- Wetterwarnung..."
 - id: mybin
   name: "My Bin"
   market_id: 4125
@@ -142,7 +356,122 @@
   description:
     fr_FR: "Poubelle verte ? Poubelle jaune ? Laquelle faut-il sortir ce soir ? Utilisez ce petit plugin pour ne plus avoir à vous en rappeler ! "
     en_US: "Green bin? Yellow bin? Which one needs to be put out tonight? Use this simple plugin for not having to remember it anymore!"
-
+- id: namesoftheday
+  name: "Prénoms du jour"
+  market_id: 4349
+  doc:
+    stable:
+      fr_FR: "https://jeanrobertjs.github.io/jeedom_namesoftheday/fr_FR/"
+      en_US: "https://jeanrobertjs.github.io/jeedom_namesoftheday/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeanrobertjs.github.io/jeedom_namesoftheday/fr_FR/changelog"
+      en_US: "https://jeanrobertjs.github.io/jeedom_namesoftheday/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de disposer plusieurs commandes afin de récupérer les prénoms/saints du jour du calendrier en France, ceux du jour précédent (la veille) et ceux du lendemain. Le tout en local, sans connexion à internet."
+    en_US: "This plugin allows you to have the following information without external connection: names of the day, names of yesterday and names of tomorrow"
+- id: parcelTracking
+  name: "Suivi Colis"
+  market_id: 4517
+  doc:
+    stable:
+      fr_FR: "https://xav-74.github.io/Documentation/parcelTracking/fr_FR/"
+      en_US: "https://xav-74.github.io/Documentation/parcelTracking/en_US/"
+      es_ES: "https://xav-74.github.io/Documentation/parcelTracking/es_ES/"
+      de_DE: "https://xav-74.github.io/Documentation/parcelTracking/de_DE/"
+    beta:
+      fr_FR: "https://xav-74.github.io/Documentation/parcelTracking/fr_FR/"
+      en_US: "https://xav-74.github.io/Documentation/parcelTracking/en_US/"
+      es_ES: "https://xav-74.github.io/Documentation/parcelTracking/es_ES/"
+      de_DE: "https://xav-74.github.io/Documentation/parcelTracking/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://xav-74.github.io/Documentation/parcelTracking/fr_FR/changelog"
+      en_US: "https://xav-74.github.io/Documentation/parcelTracking/en_US/changelog"
+      es_ES: "https://xav-74.github.io/Documentation/parcelTracking/es_ES/changelog"
+      de_DE: "https://xav-74.github.io/Documentation/parcelTracking/de_DE/changelog"
+    beta:
+      fr_FR: "https://xav-74.github.io/Documentation/parcelTracking/fr_FR/changelog"
+      en_US: "https://xav-74.github.io/Documentation/parcelTracking/en_US/changelog"
+      es_ES: "https://xav-74.github.io/Documentation/parcelTracking/es_ES/changelog"
+      de_DE: "https://xav-74.github.io/Documentation/parcelTracking/de_DE/changelog"
+  description:
+    fr_FR: "Ce plugin vous permet de suivre vos colis en provenance des principaux transporteurs français et internationaux (La Poste, Mondial Relay, Relais Colis, Colis Privé, Aliexpress, Shein, Amazon, eBay, FedEx, UPS, ...)"
+    en_US: "This plugin allows you to track your parcels from the main French and international carriers (La Poste, Mondial Relay, Relais Colis, Colis Privé, Aliexpress, Shein, Amazon, eBay, FedEx, UPS, ...)"
+    es_ES: "Este plugin le permite realizar el seguimiento de sus paquetes de los principales transportistas franceses e internacionales (La Poste, Mondial Relay, Relais Colis, Colis Privé, Aliexpress, Shein, Amazon, eBay, FedEx, UPS, etc.)"
+    de_DE: "Mit diesem Plugin können Sie Ihre Pakete von den wichtigsten französischen und internationalen Transportunternehmen verfolgen (La Poste, Mondial Relay, Relais Colis, Colis Privé, Aliexpress, Shein, Amazon, eBay, FedEx, UPS, ...)"
+- id: pluginsutiles
+  name: "Plugins Utiles"
+  market_id: 4389
+  doc:
+    stable:
+      fr_FR: "https://github.com/BisonJeedom/documentations/blob/main/pluginsutiles/index_stable.md"
+    beta:
+      fr_FR: "https://github.com/BisonJeedom/documentations/blob/main/pluginsutiles/index_beta.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/BisonJeedom/documentations/blob/main/pluginsutiles/changelog_stable.md"
+    beta:
+      fr_FR: "https://github.com/BisonJeedom/documentations/blob/main/pluginsutiles/changelog_beta.md"
+  description:
+    fr_FR: "Configurez des mots-clefs / centres d'intérêt et ce plugin vous permettra de rester informé lors de la sortie d'un plugin correspondant à vos attentes"
+- id: post_it
+  name: "Post_It"
+  market_id: 4586
+  doc:
+    stable:
+      fr_FR: "https://github.com/Pax24fr/Post_It/blob/main/README.md"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/Pax24fr/Post_It/blob/main/CHANGELOG.md"
+    beta: false
+  description:
+    fr_FR: "Ajoute un pense-bête (Post It) au bout de la barre de navigation de Jeedom qui permet de noter et consulter rapidement des informations temporaires au fil de la navigation. Options pour 1 ou 2 notes, compteur, bouton fermer, taille max des notes. Simple et efficace !"
+- id: praytimes
+  name: "Prières"
+  market_id: 4406
+  doc:
+    stable:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/PrayTimes/fr_FR/"
+      en_US: "https://tomitomas.github.io/jeedom_doc/PrayTimes/en_US/"
+      es_ES: "https://tomitomas.github.io/jeedom_doc/PrayTimes/es_ES/"
+      de_DE: "https://tomitomas.github.io/jeedom_doc/PrayTimes/de_DE/"
+    beta:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/PrayTimes/fr_FR/"
+      en_US: "https://tomitomas.github.io/jeedom_doc/PrayTimes/en_US/"
+      es_ES: "https://tomitomas.github.io/jeedom_doc/PrayTimes/es_ES/"
+      de_DE: "https://tomitomas.github.io/jeedom_doc/PrayTimes/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/PrayTimes/fr_FR/changelog"
+      en_US: "https://tomitomas.github.io/jeedom_doc/PrayTimes/en_US/changelog"
+      es_ES: "https://tomitomas.github.io/jeedom_doc/PrayTimes/es_ES/changelog"
+      de_DE: "https://tomitomas.github.io/jeedom_doc/PrayTimes/de_DE/changelog"
+    beta:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/PrayTimes/fr_FR/changelog_beta"
+      en_US: "https://tomitomas.github.io/jeedom_doc/PrayTimes/en_US/changelog_beta"
+      es_ES: "https://tomitomas.github.io/jeedom_doc/PrayTimes/es_ES/changelog_beta"
+      de_DE: "https://tomitomas.github.io/jeedom_doc/PrayTimes/de_DE/changelog_beta"
+  description:
+    fr_FR: "Récupérez les heures des prières de la journée, ainsi que celle du lendemain."
+    en_US: "Retrieve the day's prayer times, as well as the next day's."
+    es_ES: "Recuperar las horas de oración del día y del día siguiente."
+    de_DE: "Rufen Sie die Gebetszeiten des Tages sowie die des nächsten Tages ab."
+- id: presence
+  name: "Présence"
+  market_id: 290
+  doc:
+    stable:
+      fr_FR: "https://ticed35.github.io/jeedom-presence-doc/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://ticed35.github.io/jeedom-presence-doc/fr_FR/changelog"
+    beta: false
+  description: {}
 - id: prixcarburants
   name: "Prix Carburants"
   market_id: 3984
@@ -150,15 +479,18 @@
     stable:
       fr_FR: "https://floman321.github.io/prixcarburants/fr_FR/"
       en_US: "https://floman321.github.io/prixcarburants/en_US/"
-    beta: false
+    beta:
+      fr_FR: "https://floman321.github.io/prixcarburants/fr_FR/"
+      en_US: "https://floman321.github.io/prixcarburants/en_US/"
   changelog:
     stable:
       fr_FR: "https://floman321.github.io/prixcarburants/fr_FR/changelog"
       en_US: "https://floman321.github.io/prixcarburants/en_US/changelog"
-    beta: false
+    beta:
+      fr_FR: "https://floman321.github.io/prixcarburants/fr_FR/changelog"
+      en_US: "https://floman321.github.io/prixcarburants/en_US/changelog"
   description:
     fr_FR: "Récupère les informations des prix des carburants via https://www.prix-carburants.gouv.fr"
-
 - id: programmateur
   name: "Programmateur"
   market_id: 3942
@@ -166,46 +498,89 @@
     stable:
       fr_FR: "https://caelion.github.io/jeedom-plugins-documentation/Programmateur/fr_FR/"
       en_US: "https://caelion.github.io/jeedom-plugins-documentation/Programmateur/en_US/"
+      es_ES: "https://caelion.github.io/jeedom-plugins-documentation/Programmateur/es_ES/"
       de_DE: "https://caelion.github.io/jeedom-plugins-documentation/Programmateur/de_DE/"
     beta: false
   changelog:
     stable:
       fr_FR: "https://caelion.github.io/jeedom-plugins-documentation/Programmateur/fr_FR/changelog"
       en_US: "https://caelion.github.io/jeedom-plugins-documentation/Programmateur/en_US/changelog"
+      es_ES: "https://caelion.github.io/jeedom-plugins-documentation/Programmateur/es_ES/changelog"
       de_DE: "https://caelion.github.io/jeedom-plugins-documentation/Programmateur/de_DE/changelog"
     beta: false
   description:
-    fr_FR: "Plugin pour ajouter un programmateur à une commande"
-
-- id: ProJote
-  name: "Plugin Pronote"
-  market_id: 4543
+    fr_FR: "Plugin Jeedom permettant de programmer des actions ou scénarios selon des horaires personnalisés, avec gestion avancée des jours et délais."
+- id: qrcodemanager
+  name: "QR-Code Manager"
+  market_id: 4172
   doc:
     stable:
-      fr_FR: "/plugins/ProJote/docs/fr_FR/index.html"
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/qrcodemanager/"
     beta: false
   changelog:
     stable:
-      fr_FR: "https://aldarande.github.io/ProJote/fr_FR/index.html#Version"
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/qrcodemanager/changelog.html"
     beta: false
   description:
-    fr_FR: "Plugin destinée à récupérer les informations de Pronote"
-    en_US: "Plugin to retrieve information from Pronote school management platform"
-
+    fr_FR: "Ce plugin permet de gérer des QR Codes et Barcodes, en important des existants ou en en créant des nouveaux."
+- id: remindme
+  name: "Pense-Bête"
+  market_id: 4342
+  doc:
+    stable:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/RemindMe/fr_FR/"
+      en_US: "https://tomitomas.github.io/jeedom_doc/RemindMe/en_US/"
+      es_ES: "https://tomitomas.github.io/jeedom_doc/RemindMe/es_ES/"
+      de_DE: "https://tomitomas.github.io/jeedom_doc/RemindMe/de_DE/"
+    beta:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/RemindMe/fr_FR/"
+      en_US: "https://tomitomas.github.io/jeedom_doc/RemindMe/en_US/"
+      es_ES: "https://tomitomas.github.io/jeedom_doc/RemindMe/es_ES/"
+      de_DE: "https://tomitomas.github.io/jeedom_doc/RemindMe/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/RemindMe/fr_FR/changelog"
+      en_US: "https://tomitomas.github.io/jeedom_doc/RemindMe/en_US/changelog"
+      es_ES: "https://tomitomas.github.io/jeedom_doc/RemindMe/es_ES/changelog"
+      de_DE: "https://tomitomas.github.io/jeedom_doc/RemindMe/de_DE/changelog"
+    beta:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/RemindMe/fr_FR/changelog_beta"
+      en_US: "https://tomitomas.github.io/jeedom_doc/RemindMe/en_US/changelog_beta"
+      es_ES: "https://tomitomas.github.io/jeedom_doc/RemindMe/es_ES/changelog_beta"
+      de_DE: "https://tomitomas.github.io/jeedom_doc/RemindMe/de_DE/changelog_beta"
+  description:
+    fr_FR: "Plus d'excuse pour oublier ceci ou cela ! Ce plugin permet d'enregistrer des Pense Bêtes et de réaliser différentes actions lorsqu'une tâche est sur le point d'arriver."
+    en_US: "No more excuses for forgetting this or that! This plugin allows you to record Post It and perform different actions when a task is about to arrive"
+    es_ES: "¡No más excusas por olvidar esto o aquello! Este plugin te permite grabar recordatorios y realizar diferentes acciones cuando una tarea está a punto de suceder"
+    de_DE: "Keine Ausrede mehr, dies oder jenes zu vergessen! Mit diesem Plugin können Sie Brainstorms aufzeichnen und verschiedene Aktionen ausführen, wenn eine Aufgabe ansteht."
 - id: reveil
-  name: "Réveil"
+  name: "Reveil"
   market_id: 2775
   doc:
     stable:
-      fr_FR: "https://mika-nt28.github.io/Documentations/reveil/fr_FR/"
+      en_US: "https://mika-nt28.github.io/Documentations/reveil/en_US/"
+      de_DE: "https://mika-nt28.github.io/Documentations/reveil/de_DE/"
     beta: false
   changelog:
     stable:
-      fr_FR: "https://mika-nt28.github.io/Documentations/reveil/fr_FR/changelog"
+      en_US: "https://mika-nt28.github.io/Documentations/reveil/en_US/changelog"
+      de_DE: "https://mika-nt28.github.io/Documentations/reveil/de_DE/changelog"
     beta: false
   description:
     fr_FR: "Utiliser votre domotique pour vous réveiller"
-
+- id: salat
+  name: "Salat"
+  market_id: 281
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/salat/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/salat/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Plugin pour calculer les horaires de Salat avec itools. Actuellement les horaires sont récupérés et affichés dans un widget et utilisable en scénario. La qibla, la date et l'évènement du jour quand il y en a un, sont affichés. L'événement du lendemain ainsi que quelques autres informations sont disponibles pour les scénarios uniquement."
 - id: stockexchange
   name: "Stock exchange"
   market_id: 3841
@@ -232,11 +607,10 @@
       es_ES: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/beta/es_ES/changelog"
       de_DE: "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/beta/de_DE/changelog"
   description:
-    fr_FR: "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin). Toutes les données sont généralement disponibles en temps réel mais la fréquence d'actualisation dépend du service utilisé."
+    fr_FR: "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin). Toutes les données sont généralement disponibles en temps réel mais la fréquence d’actualisation dépend du service utilisé."
     en_US: "Plugin for retrieving stock market prices (regardless of the symbol requested) as well as the exchange rate between two currencies (including crypto-currencies such as bitcoin). All data is generally available in real time, but the frequency of updates depends on the service used."
     es_ES: "Plugin para recuperar las cotizaciones bursátiles (independientemente del símbolo solicitado), así como el tipo de cambio entre dos divisas (incluidas criptomonedas como el bitcoin). Por lo general, todos los datos están disponibles en tiempo real, pero la frecuencia de las actualizaciones depende del servicio utilizado."
     de_DE: "Plugin zum Abrufen von Börsenkursen (unabhängig vom angeforderten Symbol), aber auch des Wechselkurses zwischen zwei Währungen (einschließlich Kryptowährungen wie Bitcoin). Alle Daten sind in der Regel in Echtzeit verfügbar, die Häufigkeit der Aktualisierung hängt jedoch vom verwendeten Dienst ab."
-
 - id: Suivreuncolis
   name: "Suivre un colis"
   market_id: 2404
@@ -254,7 +628,6 @@
     beta: false
   description:
     fr_FR: "Plugin pour suivre un colis"
-
 - id: TaskLauncher
   name: "Task Launcher"
   market_id: 1314
@@ -271,57 +644,38 @@
     en_US: "Plugin to schedule alarms, clocks and events in order to automatically trigger actions or custom scenarios in Jeedom."
     es_ES: "Plugin que permite programar alarmas, relojes y eventos para activar automáticamente acciones o escenarios personalizados en Jeedom."
     de_DE: "Plugin zum Planen von Weckern, Uhren und Ereignissen, um automatisch Aktionen oder benutzerdefinierte Szenarien in Jeedom auszulösen."
-
 - id: telco
   name: "Telecommande"
   market_id: 2861
   doc:
     stable:
-      fr_FR: "https://zyg0m4t1k.github.io/telco/fr_FR/"
-      en_US: "https://zyg0m4t1k.github.io/telco/en_US/"
-      de_DE: "https://zyg0m4t1k.github.io/telco/de_DE/"
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/telco/"
     beta: false
   changelog:
     stable:
-      fr_FR: "https://zyg0m4t1k.github.io/telco/fr_FR/changelog"
-      en_US: "https://zyg0m4t1k.github.io/telco/en_US/changelog"
-      de_DE: "https://zyg0m4t1k.github.io/telco/de_DE/changelog"
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/telco/changelog/"
     beta: false
   description:
-    fr_FR: "Plugin permettant de créer des télécommandes"
-
+    fr_FR: "Ce plugin permet de créer des télécommandes virtuelles et d'assigner des actions (unique, message, scénario...) aux boutons."
+    en_US: "This plugin allows you to create virtual remote controls and assign actions (single action, message, scenario...) to buttons."
+    es_ES: "Este plugin permite crear controles remotos virtuales y asignar acciones (acción única, mensaje, escenario...) a los botones."
+    de_DE: "Dieses Plugin ermöglicht das Erstellen virtueller Fernbedienungen und das Zuweisen von Aktionen (einzelne Aktion, Nachricht, Szenario...) zu den Tasten."
 - id: todo
   name: "Todo List"
   market_id: 1976
   doc:
     stable:
-      fr_FR: "https://zyg0m4t1k.github.io/todo/fr_FR/"
-      en_US: "https://zyg0m4t1k.github.io/todo/en_US/"
-      de_DE: "https://zyg0m4t1k.github.io/todo/de_DE/"
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/todo/"
     beta: false
   changelog:
     stable:
-      fr_FR: "https://zyg0m4t1k.github.io/todo/fr_FR/changelog"
-      en_US: "https://zyg0m4t1k.github.io/todo/en_US/changelog"
-      de_DE: "https://zyg0m4t1k.github.io/todo/de_DE/changelog"
+      fr_FR: "https://zyg0m4t1k.github.io/plugins/docs/todo/changelog/"
     beta: false
   description:
-    fr_FR: "Plugin qui permet la création de todolist"
-
-- id: todov2
-  name: "todo List v2"
-  market_id: 4474
-  doc:
-    stable:
-      fr_FR: "https://www.domlabs.fr/jeedom_docs/ToDo/fr-FR/"
-    beta: false
-  changelog:
-    stable:
-      fr_FR: "https://www.domlabs.fr/jeedom_docs/todo/fr-FR/"
-    beta: false
-  description:
-    fr_FR: "Plugin qui permet la création de todo list (Reprise pour correction du plugin de zyg0m4t1k)"
-
+    fr_FR: "Créez des listes de tâches simples avec notes, dates et suivi de budget. Compatible scénarios Jeedom."
+    en_US: "Create simple task lists with notes, dates and budget tracking. Compatible with Jeedom scenarios."
+    es_ES: "Crea listas de tareas sencillas con notas, fechas y seguimiento de presupuesto. Compatible con escenarios de Jeedom."
+    de_DE: "Erstellen Sie einfache Aufgabenlisten mit Notizen, Terminen und Budgetverfolgung. Kompatibel mit Jeedom-Szenarien."
 - id: traccar
   name: "Traccar"
   market_id: 2518
@@ -335,3 +689,15 @@
     beta: false
   description:
     fr_FR: "Ce plugin permet d'interfacer un serveur Traccar avec le plugin Geoloc de Jeedom"
+- id: trafictransilien
+  name: "Trafic Transilien"
+  market_id: 2210
+  doc:
+    stable:
+      fr_FR: "https://github.com/gtranche/jeedom-trafic-transilien/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/gtranche/jeedom-trafic-transilien/"
+    beta: false
+  description: {}
