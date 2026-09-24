@@ -1,19 +1,3 @@
-- id: advancedScenario
-  name: "Advanced Scenario"
-  market_id: 4281
-  doc:
-    stable:
-      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/advancedScenario/fr_FR"
-    beta:
-      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/advancedScenario/fr_FR"
-  changelog:
-    stable:
-      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/advancedScenario/fr_FR/changelog"
-    beta:
-      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/advancedScenario/fr_FR/changelog"
-  description:
-    fr_FR: "Plugins pour gérer, créer ou modifier vos scénarios. Utilise le système de scénario existant en ajoutant quelque fonctionnalité."
-
 - id: autologin
   name: "AutoLogin"
   market_id: 3394
@@ -27,72 +11,110 @@
     beta: false
   description:
     fr_FR: "Automatic user login based on IP"
-
-- id: blea2mqtt
-  name: "BLEA2MQTT Gateway Manager"
-  market_id: 4403
+- id: ColorTransition
+  name: "ColorTransition"
+  market_id: 4197
   doc:
     stable:
-      fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-blea2mqtt-pour-jeedom/"
-    beta:
-      fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-blea2mqtt-pour-jeedom/"
+      fr_FR: "https://github.com/Bbillyben/ColorTransition/blob/master/docs/fr_FR/README.md"
+      en_US: "https://github.com/Bbillyben/ColorTransition/blob/master/docs/en_US/README.md"
+      es_ES: "https://github.com/Bbillyben/ColorTransition/blob/master/docs/es_ES/README.md"
+    beta: false
   changelog:
     stable:
-      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-blea2mqtt-pour-jeedom/"
-    beta:
-      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-blea2mqtt-pour-jeedom/"
+      fr_FR: "https://github.com/Bbillyben/ColorTransition/blob/master/docs/changelog.md"
+    beta: false
   description:
-    fr_FR: "Plugin gérant l'installation, la configuration et le démarrage du service blea2mqtt, permettant de créer des antennes BLEA à partir de Linux ou MacOS, via une connexion SSH."
-    en_US: "Plugin managing the installation, configuration and startup of the blea2mqtt service, allowing the creation of BLEA antennas from Linux or MacOS, via an SSH connection."
-    es_ES: "Plugin que gestiona la instalación, configuración y arranque del servicio blea2mqtt, lo que permite la creación de antenas BLEA desde Linux o MacOS, a través de una conexión SSH."
-    de_DE: "Plugin zur Verwaltung der Installation, Konfiguration und Start des blea2mqtt-Dienstes, der die Erstellung von BLEA-Antennen von Linux oder MacOS aus über eine SSH-Verbindung ermöglicht."
-
-- id: EventTranslator
-  name: "EventTranslator"
-  market_id: 4650
+    fr_FR: "Ce Plugin permets de calculer des transitions entre différentes couleurs selon un indice. Il permet différents types de transitions (linéaire, exponentielle, logarithmique, puissance,...), et sort la couleur de transition sous différents formats."
+    es_ES: "Este plugin permite calcular las transiciones entre diferentes colores según un índice. Permite diferentes tipos de transiciones (lineal, exponencial, logarítmica, de potencia,...), y emite el color de la transición en diferentes formatos."
+- id: ColorTransition_actuator
+  name: "ColorTransition actuator"
+  market_id: 4205
   doc:
     stable:
-      fr_FR: "https://mickadam29.github.io/EventTranslator/fr_FR/"
-    beta:
-      fr_FR: "https://mickadam29.github.io/EventTranslator/fr_FR/"
+      fr_FR: "https://github.com/Bbillyben/ColorTransition_actuator/blob/master/docs/fr_FR/README.md"
+      en_US: "https://github.com/Bbillyben/ColorTransition_actuator/blob/master/docs/en_US/README.md"
+      es_ES: "https://github.com/Bbillyben/ColorTransition_actuator/blob/master/docs/es_ES/README.md"
+    beta: false
   changelog:
     stable:
-      fr_FR: "https://mickadam29.github.io/EventTranslator/fr_FR/changelog"
-    beta:
-      fr_FR: "https://mickadam29.github.io/EventTranslator/fr_FR/changelog"
+      fr_FR: "https://github.com/Bbillyben/ColorTransition_actuator/blob/master/docs/fr_FR/changelog.md"
+      en_US: "https://github.com/Bbillyben/ColorTransition_actuator/blob/master/docs/en_US/changelog.md"
+      es_ES: "https://github.com/Bbillyben/ColorTransition_actuator/blob/master/docs/es_ES/changelog.md"
+    beta: false
   description:
-    fr_FR: "Traducteur/convertisseur d'événements en temps réel : mappe les valeurs d'une commande info source vers des actions Jeedom (commande ou scénario). Mode apprentissage automatique (5 min), aucune dépendance, aucun démon.<br/>Cas d'usage 1 : adapter les valeurs d'un clavier, télécommande ou interrupteur Zigbee/Z-Wave/WiFi vers le plugin Alarme, ArmManager ou tout autre plugin cible — sans scénario.<br/>Cas d'usage 2 : piloter jusqu'à 12 actions distinctes depuis un interrupteur multi-boutons (simple / double / long appui) en quelques clics."
-
-- id: genericTypeManager
-  name: "Generic type manager"
-  market_id: 4235
+    fr_FR: "Permet de dérouler/mettre en mouvement des transitions de couleurs à partir du plugin ColorTransition sur des commandes, selon un temps défini. Les couleurs sont applicable par la méthode event d'une commande info, par des commande de type message (dans le titre ou le mesage) ou des commande type color. Le plugin permet également d'appeler un scénario avec le tag color. Vous pouvez configurer plusieurs équipements, de différents type, à mettre à jour dans un seul équipement ColorTransform_actuator pour syncrhoniser les transitions."
+    en_US: "Allows to run/set in motion color transitions from the ColorTransition plugin on commands, according to a defined time. The colors are applicable by the event method of an info command, by message type commands (in the title or the message) or by color type commands. The plugin also allows to call a scenario with the color tag. You can configure several devices, of different types, to be updated in a single device ColorTransform_actuator to sync the transitions."
+    es_ES: "Permite desenrollar/puesta en marcha las transiciones de color del plugin ColorTransition en los comandos, según un tiempo definido. Los colores son aplicables por el método de evento de un comando de información, por comandos de tipo de mensaje (en el título o en el mensaje) o por comandos de tipo de color. El plugin también permite llamar a un escenario con la etiqueta de color. Puede configurar varios dispositivos, de diferentes tipos, para que se actualicen en un único dispositivo ColorTransform_actuator para sincronizar las transiciones."
+- id: Djeesign
+  name: "Djeesign"
+  market_id: 4082
   doc:
     stable:
-      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/genericTypeManager/fr_FR"
-    beta:
-      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/genericTypeManager/fr_FR"
+      fr_FR: "https://github.com/PhilippeJ-code/Djeesign/blob/master/docs/fr_FR/index.md"
+    beta: false
   changelog:
     stable:
-      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/genericTypeManager/fr_FR/changelog"
-    beta:
-      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/genericTypeManager/fr_FR/changelog"
+      fr_FR: "https://github.com/PhilippeJ-code/Djeesign/blob/master/docs/fr_FR/changelog.md"
+    beta: false
   description:
-    fr_FR: "Plugin pour gérer vos commandes via leur type générique de manière dynamique. Ce plugin a l'avantage de tout centraliser et permettre une gestion hiérarchique des ‹ objets ›"
-
+    fr_FR: "Ce plugin permet de définir l'aspect visuel ( menu tuiles et graphes ) des designs.Vous voulez en changer, un clic suffit"
+- id: emulStore
+  name: "Emulateur de Store"
+  market_id: 4332
+  doc:
+    stable:
+      fr_FR: "https://ktn001.github.io/fr_FR/emulStore/index.html"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://ktn001.github.io/fr_FR/emulStore/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Emulateur de volet roulant"
+- id: github
+  name: "VIDE_"
+  market_id: 4101
+  doc:
+    stable:
+      fr_FR: "https://github.com/DuchkPy/plugin-github/blob/master/docs/fr_FR/index.md"
+      en_US: "https://github.com/DuchkPy/plugin-github/blob/master/docs/en_US/index.md"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/DuchkPy/plugin-github/blob/master/docs/fr_FR/changelog.md"
+      en_US: "https://github.com/DuchkPy/plugin-github/blob/master/docs/en_US/changelog.md"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de récupérer les informations de vote compte Github ainsi que celles de vos différents repositories."
+    en_US: "This plugin allows to get information fro, your Github account as well as information from your different repositories."
 - id: httpRemoteEvent
   name: "Http Remote Event"
   market_id: 1939
   doc:
-    stable: false
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/httpRemoteEvent/fr_FR/index.html"
     beta: false
   changelog:
-    stable: false
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/httpRemoteEvent/fr_FR/index.html#_changelog"
+    beta: false
+  description: {}
+- id: icon
+  name: "Icônes"
+  market_id: 3328
+  doc:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/icon/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/icon/fr_FR/changelog"
     beta: false
   description:
-    fr_FR: ""
-
+    fr_FR: "Plugin pour ajouter des icônes à Jeedom"
 - id: logmanager
-  name: "LogManager"
+  name: "Log Manager"
   market_id: 3817
   doc:
     stable:
@@ -121,7 +143,6 @@
     en_US: "Plugin for customized log management in your scenarios. You can create as many logs as you like, with different log levels for each log file. This allows you to organize your scenario logs according to your preferences, for example, to group all actions on a piece of equipment in the same log, whatever the scenario."
     es_ES: "Plugin para la gestión personalizada de registros en sus escenarios. Puede crear tantos registros como desee, y son posibles diferentes niveles de registro para cada archivo de registro. Esto te permite organizar los registros de tus escenarios según tus preferencias, por ejemplo agrupando todas las acciones sobre un equipo en un mismo registro, sea cual sea el escenario."
     de_DE: "Plugin, das eine personalisierte Log-Verwaltung in Ihren Szenarien ermöglicht. Es können beliebig viele Logs erstellt werden, wobei für jede Logdatei verschiedene Logstufen möglich sind. So können Sie Ihre Szenarien-Logs nach Ihren Wünschen organisieren, z. B. alle Aktionen an einem Gerät in einem einzigen Log zusammenfassen, unabhängig vom Szenario."
-
 - id: lumina
   name: "Lumina"
   market_id: 4639
@@ -134,8 +155,37 @@
       fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/lumina/changelog/"
     beta: false
   description:
-    fr_FR: ""
-
+    fr_FR: "Plugin de gestion de l'éclairage intelligent pour Jeedom"
+- id: mcpia
+  name: "Mcp IA"
+  market_id: 4632
+  doc:
+    stable:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/mcpIA/index"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/mcpIA/index"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/mcpIA/index"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/mcpIA/index"
+    beta:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/mcpIA/beta/index"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/mcpIA/beta/index"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/mcpIA/beta/index"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/mcpIA/beta/index"
+  changelog:
+    stable:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/mcpIA/changelog"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/mcpIA/changelog"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/mcpIA/changelog"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/mcpIA/changelog"
+    beta:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/mcpIA/beta/changelog"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/mcpIA/beta/changelog"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/mcpIA/beta/changelog"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/mcpIA/beta/changelog"
+  description:
+    fr_FR: "Plugin Jeedom pour intégrer des services d'Intelligence Artificielle via le protocole MCP (Model Context Protocol). Permet de connecter Jeedom à des agents IA et d'interagir avec divers modèles de langage."
+    en_US: "Jeedom plugin to integrate Artificial Intelligence services via the MCP (Model Context Protocol) protocol. Allows connecting Jeedom to AI agents and interacting with various language models."
+    es_ES: "Complemento de Jeedom para integrar servicios de inteligencia artificial a través del protocolo MCP (Model Context Protocol). Permite conectar Jeedom con agentes de IA e interactuar con diversos modelos de lenguaje."
+    de_DE: "Jeedom-Plugin zur Integration von KI-Diensten über das MCP-Protokoll (Model Context Protocol). Ermöglicht die Verbindung von Jeedom mit KI-Agenten und die Interaktion mit verschiedenen Sprachmodellen."
 - id: pimpJeedom
   name: "Pimp my Jeedom"
   market_id: 4005
@@ -148,10 +198,106 @@
       fr_FR: "https://salvialf.github.io/Salvialf-Documentation/pimpJeedom/fr_FR/changelog"
     beta: false
   description:
-    fr_FR: "Personnalisez Jeedom en fonction de VOS envies !<br/> Installez facilement les widgets réalisés par Salvialf et les menus de designs réalisés par Noodom et paramétrez les options de personnalisation en quelques clics.<br/> En cas de mise à jour disponible pour un widget un message vous notifie dans Jeedom afin de toujours bénéficier des dernières évolutions.</br> Le plugin inclus également un outil permettant de créer et de gérer les widgets tiers. De nombreuses fonctions sont disponibles : gestion des commandes liées au widget, des paramètres du widget, possibilité d'inclure ou de supprimer des fichiers, éditeur de code et prévisualisation en temps réel.<br/> De nombreuses autres fonctions sont en cours de développement afin de rendre la personnalisation de Jeedom accessible à tout un chacun."
-
+    fr_FR: "Personnalisez Jeedom en fonction de VOS envies ! Installez facilement les widgets réalisés par Salvialf et les menus de designs réalisés par Noodom et paramétrez les options de personnalisation en quelques clics. En cas de mise à jour disponible pour un widget un message vous notifie dans Jeedom afin de toujours bénéficier des dernières évolutions. Le plugin inclus également un outil permettant de créer et de gérer les widgets tiers. De nombreuses fonctions sont disponibles : gestion des commandes liées au widget, des paramètres du widget, possibilité d'inclure ou de supprimer des fichiers, éditeur de code et prévisualisation en temps réel. De nombreuses autres fonctions sont en cours de développement afin de rendre la personnalisation de Jeedom accessible à tout un chacun."
+- id: rsync
+  name: "Rsync backup (Sauvegarde Rsync)"
+  market_id: 3901
+  doc:
+    stable:
+      fr_FR: "https://www.pasteck.com/plugins-rsync-de-jeedom/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/mrgreenfr/JeedomPlugins_Docs/blob/master/rsync/changelog.md"
+    beta: false
+  description:
+    fr_FR: "Copie miroir de dossier avec RSync"
+- id: scenario_conditionner
+  name: "Activation Conditionner"
+  market_id: 4215
+  doc:
+    stable:
+      fr_FR: "https://github.com/Bbillyben/scenario_conditionner/tree/master/docs/fr_FR/README.md"
+      en_US: "https://github.com/Bbillyben/scenario_conditionner/tree/master/docs/en_US/README.md"
+    beta:
+      fr_FR: "https://github.com/Bbillyben/scenario_conditionner/tree/beta/docs/fr_FR/README.md"
+      en_US: "https://github.com/Bbillyben/scenario_conditionner/tree/beta/docs/en_US/README.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/Bbillyben/scenario_conditionner/tree/master/docs/fr_FR/changelog.md"
+      en_US: "https://github.com/Bbillyben/scenario_conditionner/tree/master/docs/en_US/changelog.md"
+    beta:
+      fr_FR: "https://github.com/Bbillyben/scenario_conditionner/tree/beta/docs/fr_FR/changelog.md"
+      en_US: "https://github.com/Bbillyben/scenario_conditionner/tree/beta/docs/en_US/changelog.md"
+  description:
+    fr_FR: "Ce plugin permet d activer ou de désactiver des scénarios ou équipements selon l évaluation d une condition, qui peut être composite. Les actions sont définies selon l'entrée dans la condition (vrai) ou la sortie de la condition (faux)"
+    en_US: "This plugin allows to activate or deactivate scenarios or equipmenet according to the evaluation of a condition, which can be composite. The actions are defined according to the entry in the condition (true) or the exit from the condition (false)"
+    es_ES: "Este plugin permite activar o desactivar escenarios o equipos en función de la evaluación de una condición, que puede ser compuesta. Las acciones se definen en función de la entrada en la condición (verdadero) o la salida de la condición (falso)"
+- id: sshmanager
+  name: "SSH Manager"
+  market_id: 4529
+  doc:
+    stable:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/SSHManager/index"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/SSHManager/index"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/SSHManager/index"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/SSHManager/index"
+    beta:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/SSHManager/beta/index"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/SSHManager/beta/index"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/SSHManager/beta/index"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/SSHManager/beta/index"
+  changelog:
+    stable:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/SSHManager/changelog"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/SSHManager/changelog"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/SSHManager/changelog"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/SSHManager/changelog"
+    beta:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/SSHManager/beta/changelog"
+      en_US: "https://titidom-rc.github.io/Documentation/en_US/SSHManager/beta/changelog"
+      es_ES: "https://titidom-rc.github.io/Documentation/es_ES/SSHManager/beta/changelog"
+      de_DE: "https://titidom-rc.github.io/Documentation/de_DE/SSHManager/beta/changelog"
+  description:
+    fr_FR: "Plugin permettant d'ajouter (manuellement ou à partir de templates) des commandes SSH à executer (manuellement ou automatiquement) sur des équipements distants, et pouvant également être utilisé par d'autres plugin comme passerelle SSH."
+    en_US: "Plugin for adding (manually or from templates) SSH commands to be executed (manually or automatically) on remote devices, and which can also be used by other plugins as an SSH gateway."
+    es_ES: "Plugin para añadir (manualmente o desde plantillas) comandos SSH para ser ejecutados (manual o automáticamente) en dispositivos remotos, y que también puede ser utilizado por otros plugins como pasarela SSH."
+    de_DE: "Plugin zum Hinzufügen (manuell oder aus Templates) von SSH-Befehlen, die (manuell oder automatisch) auf entfernten Geräten ausgeführt werden sollen, und das auch von anderen Plugins als SSH-Gateway verwendet werden kann."
+- id: State_Capturer
+  name: " State Capturer "
+  market_id: 4229
+  doc:
+    stable:
+      fr_FR: "https://github.com/Bbillyben/State_Capturer/tree/master/docs/fr_FR/README.md"
+      en_US: "https://github.com/Bbillyben/State_Capturer/tree/master/docs/en_US/README.md"
+      es_ES: "https://github.com/Bbillyben/State_Capturer/tree/master/docs/es_ES/README.md"
+    beta:
+      fr_FR: "https://github.com/Bbillyben/State_Capturer/tree/beta/docs/fr_FR/README.md"
+      en_US: "https://github.com/Bbillyben/State_Capturer/tree/beta/docs/en_US/README.md"
+      es_ES: "https://github.com/Bbillyben/State_Capturer/tree/beta/docs/es_ES/README.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/Bbillyben/State_Capturer/tree/master/docs/changelog.md"
+    beta:
+      fr_FR: "https://github.com/Bbillyben/State_Capturer/tree/beta/docs/changelog.md"
+  description:
+    fr_FR: "Ce plugin permet de capturer différents états, de différents équipements et d'appeler ces états par la suite. Pour cela, il suffit de paramétrer dans un équipement State Capturer les équipements que vous souhaitez photographier, de les positionner dans l'état souhaité, et de lancer la capture. Cette capture pourra alors être rechargée. Vous pouvez paramétrer plusieurs captures dans un seul équipement. Chaque capture conserve les valeurs de toutes les commandes info des équipements capturés, et recherche les commandes associées. Ces commandes seront alors automatiquement appelées pour mettre à jour l'équipement. Vous pouvez éditer chaque capture pour définir quelles sont les commandes à mettre à jour, modifier l état conservé, ainsi que les commandes qui contrôlent la modification des valeurs. Si aucune commande n'est associée, le plugin essaiera de passer par la commande event pour mettre à jour l'information."
+    en_US: "This plugin allows you to capture different states, from different devices and call these states afterwards. To do this, simply set up in an equipment State Capture the equipment you want to photograph, position them in the desired state, and launch the capture. This capture can then be reloaded. You can set up multiple captures in a single device. Each capture keeps the values of all the info commands of the captured equipment, and searches for the associated commands. These commands will then be automatically called to update the device.   You can edit each capture to define which commands to update, to change the retained state, and which commands control the change of values. If no command is associated, the plugin will try to use the `event` command to update the information."
+    es_ES: "Este plugin te permite capturar diferentes estados, de diferentes equipos y llamar a estos estados después. Para ello, basta con que se instale en un estado de equipo Capturar el equipo que desea fotografiar, situarlo en el estado deseado e iniciar la captura. Esta captura se puede volver a cargar. Puedes configurar varias capturas en un solo dispositivo. Cada captura guarda los valores de todos los comandos de información del equipo capturado, y busca los comandos asociados. Estos comandos serán llamados automáticamente para actualizar el equipo.   Puede editar cada captura para definir los comandos que deben actualizarse, cambiar el estado retenido y los comandos que controlan el cambio de valores. Si no hay ningún comando asociado, el plugin intentará utilizar el comando `event` para actualizar la información."
+- id: synchronize
+  name: "Synchronize"
+  market_id: 3124
+  doc:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/synchronize/fr_FR/index.html"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/synchronize/fr_FR/index.html#_changelog"
+    beta: false
+  description: {}
 - id: tgw
-  name: "Theengs Gateway"
+  name: "Theengs gateway"
   market_id: 4441
   doc:
     stable:
@@ -180,7 +326,6 @@
     en_US: "Plugin for easy installation and configuration of antennas running under Theengs Gateway that can capture Bluetooth devices (BLEA) and upload them to Jeedom for integration via the MQTT Discovery plugin"
     es_ES: "Plugin para instalar y configurar fácilmente antenas corriendo bajo Theengs Gateway, que puede captar dispositivos Bluetooth (BLEA) y enviarlos a Jeedom para ser integrados vía el plugin MQTT Discovery"
     de_DE: "Plugin zur einfachen Installation und Konfiguration von Antennen, die unter Theengs Gateway laufen, das Bluetooth-Geräte (BLEA) empfängt und an Jeedom zurücksendet, um über das MQTT Discovery Plugin integriert zu werden"
-
 - id: webview
   name: "Webview"
   market_id: 3089
@@ -192,5 +337,15 @@
     stable:
       fr_FR: "http://engles.fr/jeedom_webview_docs/fr_FR/#changelog"
     beta: false
+  description: {}
+- id: youdesign
+  name: "youdesign"
+  market_id: 4440
+  doc:
+    stable: false
+    beta: false
+  changelog:
+    stable: false
+    beta: false
   description:
-    fr_FR: ""
+    fr_FR: "Plugin permettant de créer des Design complet comprennant menu iframe, design avec ou sans tuiles. Vous avez la possibilité de choisir entre plusieurs templates, d'importer de nouveaux ou d'exporter vos créations."
