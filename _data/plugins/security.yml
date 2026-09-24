@@ -11,8 +11,7 @@
     fr_FR: "Plugin servant à se connecter à une alarme Ajax"
     en_US: "Plugin used to connect to an Ajax alarm"
     es_ES: "Complemento utilizado para conectarse a una alarma Ajax"
-    de_DE: "Plugin zum Verbinden mit einem Ajax-Alarm"
-
+    de_DE: "Plugin zum Herstellen einer Verbindung mit einem Ajax-Alarm"
 - id: alarm
   name: "Alarme"
   market_id: 26
@@ -24,12 +23,11 @@
     beta: true
   description:
     fr_FR: "Plugin pour la gestion de la sécurité. Constituez votre alarme facilement (sans programmation), complète et personnalisable."
-    en_US: "Security management plugin. Build your alarm easily (without programming), complete and customizable."
-    es_ES: "Complemento de gestión de seguridad. Cree su alarma fácilmente (sin programación), completa y personalizable."
-    de_DE: "Sicherheitsmanagement-Plugin. Erstellen Sie Ihren Alarm einfach (ohne Programmierung), vollständig und anpassbar."
-
+    en_US: "Plugin for security management. Constitute your alarm easily (without programming), complete and customizable"
+    es_ES: "Complemento para la gestión de seguridad. Constituya su alarma fácilmente (sin programación), completa y personalizable"
+    de_DE: "Plugin für das Sicherheitsmanagement. Erstellen Sie Ihren Alarm einfach (ohne Programmierung), vollständig und anpassbar"
 - id: camera
-  name: "Caméra"
+  name: "Camera"
   market_id: 70
   doc:
     stable: true
@@ -39,10 +37,9 @@
     beta: true
   description:
     fr_FR: "Plugin permettant l'affichage des caméras IP. L'affichage vidéo de la caméra s'effectue par snapshots (captures) successives toutes les secondes. Le plugin est compatible avec les cameras RTSP."
-    en_US: "Plugin allowing the display of IP cameras. The video display of the camera is carried out by successive snapshots (captures) every second. The plugin is compatible with RTSP cameras."
-    es_ES: "Complemento que permite la visualización de cámaras IP. La visualización de vídeo de la cámara se realiza mediante sucesivas instantáneas (capturas) cada segundo. El complemento es compatible con cámaras RTSP."
-    de_DE: "Plugin zur Anzeige von IP-Kameras. Die Videoanzeige der Kamera erfolgt jede Sekunde durch aufeinanderfolgende Schnappschüsse (Aufnahmen). Das Plugin ist mit RTSP-Kameras kompatibel."
-
+    en_US: "Plugin for displaying IP cameras. The camera's video feed is displayed as a series of snapshots taken every second. The plugin is compatible with RTSP cameras."
+    es_ES: "Complemento que permite visualizar las cámaras IP. La visualización del vídeo de la cámara se realiza mediante instantáneas sucesivas cada segundo. El complemento es compatible con cámaras RTSP."
+    de_DE: "Plugin zur Anzeige von IP-Kameras. Die Videoanzeige der Kamera erfolgt durch aufeinanderfolgende Schnappschüsse (Aufnahmen) im Sekundentakt. Das Plugin ist mit RTSP-Kameras kompatibel."
 - id: gestAccess
   name: "Gestion d'accès"
   market_id: 3686
@@ -54,10 +51,9 @@
     beta: true
   description:
     fr_FR: "Plugin qui permet de gérer le contrôle d'accès d'un bâtiment via la création d'utilisateurs, groupes, plages horaires et lecteurs/actionneurs. ATTENTION : Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack. Ils sont disponibles uniquement sur devis auprès de Jeedom (contact via notre site web)."
-    en_US: "Plugin that allows you to manage the access control of a building by creating users, groups, time slots and readers / actuators. Be careful : PREMIUM plugins are NOT included in ANY Service Pack. They are only available on request from Jeedom (contact via our website)."
-    es_ES: "Complemento que permite gestionar el control de acceso de un edificio mediante la creación de usuarios, grupos, franjas horarias y lectores / actuadores. Atención : Los complementos PREMIUM NO están incluidos en NINGÚN Service Pack. Solo están disponibles a pedido de Jeedom (póngase en contacto a través de nuestro sitio web)."
-    de_DE: "Plugin, mit dem Sie die Zugriffskontrolle eines Gebäudes über die Erstellung von Benutzern, Gruppen, Zeitfenstern und Lesern / Aktoren verwalten können. Achtung : PREMIUM-Plugins sind in keinem Service Pack enthalten. Sie sind nur auf Anfrage bei Jeedom erhältlich (Kontakt über unsere Website)."
-
+    en_US: "Plugin that allows you to manage the access control of a building via the creation of users, groups, time slots and readers / actuators. CAUTION: PREMIUM plugins are NOT included in ANY Service Pack. They are only available on request from Jeedom (contact via our website)"
+    es_ES: "Plugin que permite gestionar el control de acceso de un edificio mediante la creación de usuarios, grupos, franjas horarias y lectores / actuadores. PRECAUCIÓN: Los complementos PREMIUM NO están incluidos en NINGÚN Service Pack. Solo están disponibles a pedido de Jeedom (contacto a través de nuestro sitio web)"
+    de_DE: "Plugin, mit dem Sie die Zugriffskontrolle eines Gebäudes über die Erstellung von Benutzern, Gruppen, Zeitfenstern und Lesern / Aktoren verwalten können. VORSICHT: PREMIUM-Plugins sind in keinem Service Pack enthalten. Sie sind nur auf Anfrage bei Jeedom erhältlich (Kontakt über unsere Website)"
 - id: jeelocker
   name: "jeelocker"
   market_id: 4238
@@ -72,7 +68,6 @@
     en_US: "Jeelocker is a plugin dedicated to locker access management"
     es_ES: "Jeelocker es un complemento dedicado a la gestión del acceso a los casilleros"
     de_DE: "Jeelocker ist ein Plugin für die Schließfachzugriffsverwaltung"
-
 - id: nuki
   name: "Nuki"
   market_id: 2819
@@ -84,12 +79,11 @@
     beta: true
   description:
     fr_FR: "Ce plugin permet de piloter les serrures connectées Nuki à l'aide du bridge. Il permet aussi de configurer le bridge en mode push"
-    en_US: "This plugin allows you to control Nuki connected locks using the bridge. It also allows to configure the bridge in push mode"
-    es_ES: "Este complemento le permite controlar las cerraduras conectadas de Nuki utilizando el puente. También permite configurar el puente en modo push"
-    de_DE: "Mit diesem Plugin können Sie Nuki-verbundene Schlösser über die Brücke steuern. Außerdem kann die Bridge im Push-Modus konfiguriert werden"
-
+    en_US: "This plugin is used to control Nuki connected locks using the bridge. It also allows to configure the bridge in push mode"
+    es_ES: "Este complemento se usa para controlar las cerraduras conectadas de Nuki usando el puente. También permite configurar el puente en modo push"
+    de_DE: "Dieses Plugin wird verwendet, um mit Nuki verbundene Schlösser über die Brücke zu steuern. Sie können die Bridge auch im Push-Modus konfigurieren"
 - id: simonsvoss
-  name: "Simons voss"
+  name: "Simons Voss"
   market_id: 3906
   doc:
     stable: true
@@ -102,7 +96,6 @@
     en_US: "Plugin for Simons Voss Smart Intego locks"
     es_ES: "Plugin para las cerraduras Smart Intego de Simons Voss"
     de_DE: "Plugin für Simons Voss Smart Intego-Sperren"
-
 - id: vesta
   name: "Vesta"
   market_id: 4330
