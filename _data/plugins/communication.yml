@@ -127,7 +127,8 @@
   changelog:
     stable: true
     beta: true
-  description: {}
+  description:
+    fr_FR: "Plugin permettant de gérer un ou plusieurs Jarvis"
 - id: jeelink
   name: "Jeedom Link"
   market_id: 2530
@@ -330,7 +331,8 @@
   changelog:
     stable: true
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour la gestion des équipements wifipower"
 - id: wireguard
   name: "Wireguard"
   market_id: 4222
