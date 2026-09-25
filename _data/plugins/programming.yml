@@ -1,0 +1,182 @@
+- id: clink
+  name: "Click link"
+  market_id: 1867
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Ce plugin permet la gestion de liens et d’évènements directement sur l’interface Jeedom. Vous pourrez, par exemple, créer une commande qui ouvre une modale (fenêtre de dialogue) avec une vue contenant vos caméras. Cela permet lorsque quelqu’un sonne chez vous d’afficher la caméra de l’entrée sur votre Jeedom."
+    en_US: "Link and interface management plugin"
+    es_ES: "Complemento de gestión de enlaces e interfaces"
+    de_DE: "Link- und Schnittstellenverwaltungs-Plugin"
+- id: dataservice
+  name: "Data service"
+  market_id: 3886
+  doc:
+    stable: false
+    beta: true
+  changelog:
+    stable: false
+    beta: true
+  description:
+    fr_FR: "Plugin pour la récupération de diverse données (ejp, vacance, saint du jour...) et l'envoi de diverse données (sms, mail) ainsi que le partage communautaire de données (température, humidité...)"
+    en_US: "Plugin for the recovery of various data (ejp, vacancy, saint of the day ...) and the sending of various data (sms, mail) as well as the community sharing of data (temperature, humidity ...)"
+    es_ES: "Complemento para la recuperación de varios datos (ejp, vacante, santo del día ...) y el envío de varios datos (sms, correo) así como el intercambio de datos en la comunidad (temperatura, humedad ...)"
+    de_DE: "Plugin zur Wiederherstellung verschiedener Daten (EJP, Vakanz, Heiliger des Tages ...) und zum Versenden verschiedener Daten (SMS, Mail) sowie zum Community-Austausch von Daten (Temperatur, Luftfeuchtigkeit ...)"
+- id: docker2
+  name: "Docker management"
+  market_id: 4204
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin Docker permettant de gérer des conteneurs dans Jeedom."
+    en_US: "Docker plugin for managing containers in Jeedom"
+    es_ES: "Complemento Docker para administrar contenedores en Jeedom"
+    de_DE: "Docker-Plugin zum Verwalten von Containern in Jeedom"
+- id: dyndns
+  name: "Dyndns"
+  market_id: 1928
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour mettre à jour dynamiquement des DNS"
+    en_US: "Plugin to dynamically update DNS"
+    es_ES: "Complemento para actualizar dinámicamente DNS"
+    de_DE: "Plugin zum dynamischen Aktualisieren von DNS"
+- id: genTypePerso
+  name: "Generic Type"
+  market_id: 4494
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin Generic Type"
+    en_US: "Generic Type Plugin"
+    es_ES: "Tipo genérico de complemento"
+    de_DE: "Generischer Plugin-Typ"
+- id: htmldisplay
+  name: "HTML Display"
+  market_id: 3843
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs)."
+    en_US: "Plugin allowing you to put HTML code in an equipment widget (for example allows you to make your own menu for designs)"
+    es_ES: "Complemento que le permite poner código HTML en un widget de equipo (por ejemplo, le permite crear su propio menú de diseños)"
+    de_DE: "Plugin, mit dem Sie HTML-Code in ein Geräte-Widget einfügen können (z. B. können Sie Ihr eigenes Menü für Designs erstellen)"
+- id: jeeasy
+  name: "Jeeasy"
+  market_id: 3828
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de configurer facilement Jeedom"
+    en_US: "Plugin to easily configure Jeedom"
+    es_ES: "Complemento para configurar fácilmente Jeedom"
+    de_DE: "Plugin zur einfachen Konfiguration von Jeedom"
+- id: lns
+  name: "LNS"
+  market_id: 4408
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin servant à installer Chirpstack V3 sur Jeedom Luna Lora"
+    en_US: "Plugin used to install Chirpstack V3 on Jeedom Luna Lora"
+    es_ES: "Complemento utilizado para instalar Chirpstack V3 en Jeedom Luna Lora"
+    de_DE: "Plugin zur Installation von Chirpstack V3 auf Jeedom Luna Lora"
+- id: mqtt2
+  name: "MQTT Manager"
+  market_id: 4213
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin servant de base pour les plugins utilisant MQTT"
+    en_US: "Plugin serving as a basis for plugins using MQTT"
+    es_ES: "Complemento que sirve como base para complementos que utilizan MQTT"
+    de_DE: "Plugin als Basis für Plugins mit MQTT"
+- id: script
+  name: "Script"
+  market_id: 20
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin ajoutant le support des scripts dans Jeedom. Les scripts sont des programmes en Python/PHP/Shell/Ruby etc... qui permettent d'ajouter des fonctions à Jeedom"
+    en_US: "Plugin adding scripting support in Jeedom. Scripts are programs in Python / PHP / Shell / Ruby etc ... which allow you to add functions to Jeedom"
+    es_ES: "Complemento que agrega compatibilidad con scripts en Jeedom. Los scripts son programas en Python / PHP / Shell / Ruby, etc., que le permiten agregar funciones a Jeedom"
+    de_DE: "Plugin zur Unterstützung von Skripten in Jeedom. Skripte sind Programme in Python / PHP / Shell / Ruby usw., mit denen Sie Jeedom Funktionen hinzufügen können"
+- id: simupre
+  name: "Simulation présence"
+  market_id: 3762
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour la simulation de présence"
+    en_US: "Plugin for presence simulation"
+    es_ES: "Plugin para simulación de presencia"
+    de_DE: "Plugin zur Anwesenheitssimulation"
+- id: sunPulseEasy
+  name: "sunPulseEasy"
+  market_id: 4583
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Wizard de configuration pour les installateurs SunPulse"
+    en_US: "Configuration wizard for SunPulse installers"
+    es_ES: "Asistente de configuración para instaladores SunPulse"
+    de_DE: "Konfigurationsassistent für SunPulse-Installateure"
+- id: virtual
+  name: "Virtuel"
+  market_id: 21
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de créer des équipements virtuels dans Jeedom."
+    en_US: "Plugin for creating virtual equipment in Jeedom"
+    es_ES: "Complemento que permite crear equipos virtuales en Jeedom"
+    de_DE: "Plugin zum Erstellen virtueller Geräte in Jeedom"

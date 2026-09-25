@@ -1,2 +1,0 @@
-# Complemento de nivel cero
-

@@ -1,0 +1,281 @@
+- id: arrosageAuto
+  name: "Arrosage automatique"
+  market_id: 2903
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/arrosageAuto/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/arrosageAuto/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de gérer votre arrosage automatique"
+- id: ChauffeEau
+  name: "Gestion du Chauffe Eau"
+  market_id: 2671
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/ChauffeEau/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/ChauffeEau/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin gère l'allumage et l'extinction notre chauffe-eau en fonction de la température de l'eau et / ou de l'heure disponibilité de l'eau chaude"
+- id: deepstack
+  name: "DeepStack"
+  market_id: 4173
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/deepstack/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/deepstack/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de requeter une instance DeepStack pour faire de la reconnaissance sur image."
+- id: dkron
+  name: "Time Manager"
+  market_id: 3980
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/dkron/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/dkron/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de planifier des actions avec une gestion des secondes. Il est ainsi possible de déclencher dans 1mn, qui effectura l'action réellement dans 60s et pas la minute suivante. Pareil on peut lui indiquer de lancer l'action dans 45s etc."
+- id: eleroha
+  name: "Eleroha"
+  market_id: 3450
+  doc:
+    stable:
+      fr_FR: "https://openhautomation.github.io/eleroha/fr_FR/"
+      en_US: "https://openhautomation.github.io/eleroha/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://openhautomation.github.io/eleroha/fr_FR/changelog"
+      en_US: "https://openhautomation.github.io/eleroha/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin de communication avec les stores équipés d'un système Elero"
+- id: fliprpilot
+  name: "Flipr Pilot"
+  market_id: 4661
+  doc:
+    stable:
+      fr_FR: "https://dimitri23.github.io/Documentations/FliprPilot/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://dimitri23.github.io/Documentations/FliprPilot/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Pilotage de piscine : sonde Flipr, filtration et pompe à chaleur avec automatisation intelligente. ⚠️ Note importante ⚠️ Ce plugin repose sur l'API Flipr. À l'heure de son développement, cette API fonctionne parfaitement. Toutefois, la société Flipr ayant été placée en liquidation judiciaire fin 2025, l'auteur ne peut être et n'est en aucun cas responsable si l'API venait à devenir inaccessible."
+- id: Laundry
+  name: "Laundry machines"
+  market_id: 4177
+  doc:
+    stable:
+      fr_FR: "https://hbedek.github.io/Jeedom_docs/docs/Laundry/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://hbedek.github.io/Jeedom_docs/docs/Laundry/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de créer des équipements de machine à laver / Lave linge / sèche linge / Lave vaisselle et d'être avertie lorsque la machine se lance ou est terminée. Nécessite une prise mesurant la puissance et un capteur d'ouverture de porte (Optionnel)."
+- id: LightGroup
+  name: "Light Group"
+  market_id: 4193
+  doc:
+    stable:
+      fr_FR: "https://hbedek.github.io/Jeedom_docs/docs/LightGroup/fr_FR/"
+    beta:
+      fr_FR: "https://hbedek.github.io/Jeedom_docs/docs/LightGroup/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://hbedek.github.io/Jeedom_docs/docs/LightGroup/fr_FR/changelog"
+    beta:
+      fr_FR: "https://hbedek.github.io/Jeedom_docs/docs/LightGroup/fr_FR/changelog"
+  description:
+    fr_FR: "Light group vous permet de gérer l'ensemble de vos lumières. Le plugin vous propose de grouper vos lumières, homogénéiser les différentes valeurs et propose des automatismes pré concus."
+- id: llamalab
+  name: "Automate"
+  market_id: 4176
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/llamalab/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/llamalab/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de connecter des périphériques Android ayant Automate installé."
+- id: mailbox
+  name: "Boite à lettres"
+  market_id: 3878
+  doc:
+    stable:
+      en_US: "https://baubry.github.io/jeedom-plugin-mailbox-documentation/en_US/"
+    beta: false
+  changelog:
+    stable:
+      en_US: "https://baubry.github.io/jeedom-plugin-mailbox-documentation/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour la gestion d'une boite à lettres"
+- id: naturalLight
+  name: "Natural Light"
+  market_id: 4374
+  doc:
+    stable:
+      fr_FR: "https://github.com/Arnaud69Jeedom/naturalLight/blob/master/docs/fr_FR/index.md"
+    beta:
+      fr_FR: "https://github.com/Arnaud69Jeedom/naturalLight/blob/beta/docs/fr_FR/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/Arnaud69Jeedom/naturalLight/blob/master/docs/fr_FR/changelog.md"
+    beta:
+      fr_FR: "https://github.com/Arnaud69Jeedom/naturalLight/blob/beta/docs/fr_FR/changelog.md"
+  description:
+    fr_FR: "plugins naturalLight pour Jeedom. Permet de moduler la luminosité et la couleur de la lumière en fonction de l'heure et de a position du soleil (adaptive lighting)"
+- id: portail_gen
+  name: "Portail Générique"
+  market_id: 4231
+  doc:
+    stable:
+      fr_FR: "https://frixo3190.github.io/jeedom_plugins/portail_gen/docs/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://frixo3190.github.io/jeedom_plugins/portail_gen/docs/fr_FR/#changelog"
+    beta: false
+  description:
+    fr_FR: "Pilotez facilement votre portail (a battant ou coulissant ou porte de garage) que vous avez domotisé ! Le plugin se débrouillera avec ce que vous avez ! (Même si vous n'avez pas de capteur d'ouverture fermeture !). Le plug in prend en charge le portillon (ou ouverture d'un seul battant) si vous en avez un. "
+- id: porte
+  name: "Gestion de porte"
+  market_id: 4396
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/porte/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/porte/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin, permet de gere vos porte"
+- id: sequencing
+  name: "Séquencement d'actions"
+  market_id: 3982
+  doc:
+    stable:
+      fr_FR: "https://agp42.github.io/sequencing/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://agp42.github.io/sequencing/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour gérer des actions séquencées et déclencheurs complexes"
+- id: simulation
+  name: "Simulation"
+  market_id: 3257
+  doc:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/simulation/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/simulation/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour créer des groupes de simulation"
+- id: stock
+  name: "Gestion de Stock"
+  market_id: 2527
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/stock/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/stock/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de gérer votre stock dans Jeedom via un backend Grocy. Grocy est un outil de gestion du stock complet pour tout type de ressources. Que ce soit pour votre cuisine, frigo ou bien encore vos stocks liés à la maison comme le bois de chauffage."
+- id: swassist
+  name: "switch assistant"
+  market_id: 4170
+  doc:
+    stable:
+      fr_FR: "https://ktn001.github.io/fr_FR/swassist/index.html"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://ktn001.github.io/fr_FR/swassist/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Plugin pour assister le fonctionnement des interrupteurs"
+- id: systembridge
+  name: "System Bridge"
+  market_id: 4168
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/systembridge/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/systembridge/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de connecter un ou des ordinateurs/serveurs avec System Bridge installé."
+- id: vmcAuto
+  name: "VMC auto"
+  market_id: 4336
+  doc:
+    stable:
+      fr_FR: "https://scanab.github.io/jeedom-plugin-vmcAuto/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://scanab.github.io/jeedom-plugin-vmcAuto/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant la gestion de la vitesse d'une VMC en fonction de la pression athmosphérique, de la températures et du taux d'humidité. Le plugin calcule la concentration (en g/m3) d'eau dans l'air extérieur et la compare à celle de l'air intérieur afin de savoir si il faut déclencher la ventilation. Le plugin fonctionne idéalement avec une VMC commandable par Jeedom (marche / arret ou vitesse 1 / vitesse 2), mais peut aussi servir pour déclencher des alertes demandant d'aérer (cf. doc)."
+- id: voletProp
+  name: "Volet Proportionnel"
+  market_id: 3229
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/voletProp/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/voletProp/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin gère l'ouverture et la fermeture proportionnel de nos volet"
+- id: Volets
+  name: "Gestion des Volets"
+  market_id: 2612
+  doc:
+    stable:
+      en_US: "https://mika-nt28.github.io/Documentations/Volets/en_US/"
+      de_DE: "https://mika-nt28.github.io/Documentations/Volets/de_DE/"
+    beta: false
+  changelog:
+    stable:
+      en_US: "https://mika-nt28.github.io/Documentations/Volets/en_US/changelog"
+      de_DE: "https://mika-nt28.github.io/Documentations/Volets/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin gère l'ouverture et la fermeture de nos volets"

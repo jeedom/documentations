@@ -1,0 +1,657 @@
+- id: alarme_IMA
+  name: "Alarme IMA téléassistance"
+  market_id: 3184
+  doc:
+    stable:
+      fr_FR: "https://github.com/lplancke/jeedom_alarme_IMA/blob/master/docs/fr_FR/index.md"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/lplancke/jeedom_alarme_IMA/blob/master/docs/fr_FR/changelog.md"
+    beta: false
+  description:
+    fr_FR: "Gestion de l'alarme IMA téléassistance"
+- id: Alarmemyfox
+  name: "AlarmeMyfox"
+  market_id: 4471
+  doc:
+    stable:
+      fr_FR: "https://vegeta0911.github.io/documentation/plugins/fr_FR/AlarmeMyfox/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://vegeta0911.github.io/documentation/plugins/fr_FR/AlarmeMyfox/changelog"
+    beta: false
+  description:
+    fr_FR: "je reprends le plugin qui a été abondonné. Plugin V2 pour utiliser la centrale Myfox, Evology, Easybox, permet de recuperer les infos du capteur de temperature, luminosite, congelateur, fumee, chauffage, evenements, etat de l'alarme, et d'activer / desactiver l'alarme et des equipements, jouer des scenarios"
+- id: arlo
+  name: "Arlo"
+  market_id: 3708
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/arlo/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/arlo/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/arlo/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/arlo/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/arlo/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/arlo/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/arlo/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/arlo/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/arlo/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/arlo/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/arlo/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/arlo/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/arlo/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/arlo/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/arlo/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/arlo/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin permettant le contrôle des équipements de la gamme Arlo comme les caméras, la station de base et la sirène intégrée.<br/>Il est possible de contrôler le mode, l'activation et désactivation des caméras, visualiser le flux live des caméras, déclencher des captures et des enregistrements vidéos, déclencher la sirène...<br/>Tous les modèles actuels supportés par l'application Arlo (web ou mobile) sont supportés par le plugin: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell et Video Doorbell..."
+    en_US: "Plugin allowing control of Arlo devices such as cameras, base station and built-in siren.<br/>It is possible to control the mode, activation and deactivation of cameras, view the live stream of cameras, trigger video captures and recordings, trigger the siren...<br/>All current models supported by the Arlo application (web or mobile) are supported by the plugin: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell and Video Doorbell..."
+    es_ES: "Plugin para controlar los equipos de la gama Arlo, como las cámaras, la estación base y la sirena integrada.<br/>Es posible controlar el modo, la activación y desactivación de las cámaras, ver la señal en directo de las cámaras, activar la captura y grabación de vídeo, activar la sirena, etc.<br/>Todos los modelos actuales compatibles con la aplicación Arlo (web o móvil) son compatibles con el plugin: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell y Video Doorbell..."
+    de_DE: "Plugin, das die Steuerung der Geräte der Arlo-Reihe wie Kameras, Basisstation und integrierte Sirene ermöglicht.<br/>Es ist möglich, den Modus, das Ein- und Ausschalten der Kameras zu steuern, den Live-Stream der Kameras anzuzeigen, Videoaufnahmen und -aufzeichnungen auszulösen, die Sirene auszulösen...<br/>Alle aktuellen Modelle, die von der Arlo-App (Web oder Handy) unterstützt werden, werden auch vom Plugin unterstützt: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell und Video Doorbell..."
+- id: badger
+  name: "Badger"
+  market_id: 3413
+  doc:
+    stable:
+      fr_FR: "https://jeedom.github.io/plugin-badger/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeedom.github.io/plugin-badger/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de connecter des lecteurs de badges (RFID/NFC) utilisant le protocole Wiegand (8/26/34)."
+- id: blink_camera
+  name: "Blink Camera"
+  market_id: 3776
+  doc:
+    stable:
+      fr_FR: "https://d9-197.github.io/blink_camera/fr_FR"
+      en_US: "https://d9-197.github.io/blink_camera/en_US"
+    beta:
+      fr_FR: "https://d9-197.github.io/blink_camera/beta/fr_FR"
+      en_US: "https://d9-197.github.io/blink_camera/beta/en_US"
+  changelog:
+    stable:
+      fr_FR: "https://d9-197.github.io/blink_camera/fr_FR/changelog"
+      en_US: "https://d9-197.github.io/blink_camera/en_US/changelog"
+    beta:
+      fr_FR: "https://d9-197.github.io/blink_camera/beta/fr_FR/changelog"
+      en_US: "https://d9-197.github.io/blink_camera/beta/en_US/changelog"
+  description:
+    fr_FR: "Permet d'interagir sur les caméras Blink et de récupérer les informations, vidéos et photos."
+    en_US: "Allows you to interact on Blink cameras and retrieve information, videos and photos."
+- id: camPatrol
+  name: "CamPatrol"
+  market_id: 4324
+  doc:
+    stable:
+      fr_FR: "https://pemily.github.io/CamPatrol/fr_FR/"
+      en_US: "https://pemily.github.io/CamPatrol/en_US/"
+    beta:
+      fr_FR: "https://pemily.github.io/CamPatrol/fr_FR/"
+      en_US: "https://pemily.github.io/CamPatrol/en_US/"
+  changelog:
+    stable:
+      fr_FR: "https://pemily.github.io/CamPatrol/fr_FR/changelog"
+      en_US: "https://pemily.github.io/CamPatrol/en_US/changelog"
+    beta:
+      fr_FR: "https://pemily.github.io/CamPatrol/fr_FR/changelog"
+      en_US: "https://pemily.github.io/CamPatrol/en_US/changelog"
+  description:
+    fr_FR: "Ce plugin permet de recevoir les alertes de vos caméras.Beaucoup de caméras incluent une détection de mouvement, humaine ou de son. Le but de ce plugin est de s'appuyer sur cette détection et d'être automatiquement notifié dans Jeedom lorsque la caméra detecte quelque chose."
+    en_US: "This plugin is able to receive alerts from your cameras.A lot of camera owns a motion/human/sound detector. The goal of this plugin is to use this detector and be automatically notified in Jeedom when the camera detects something."
+- id: digiaction
+  name: "DigiAction"
+  market_id: 4124
+  doc:
+    stable:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/DigiAction/fr_FR/"
+      en_US: "https://tomitomas.github.io/jeedom_doc/DigiAction/en_US/"
+      es_ES: "https://tomitomas.github.io/jeedom_doc/DigiAction/es_ES/"
+      de_DE: "https://tomitomas.github.io/jeedom_doc/DigiAction/de_DE/"
+    beta:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/DigiAction/fr_FR/"
+      en_US: "https://tomitomas.github.io/jeedom_doc/DigiAction/en_US/"
+      es_ES: "https://tomitomas.github.io/jeedom_doc/DigiAction/es_ES/"
+      de_DE: "https://tomitomas.github.io/jeedom_doc/DigiAction/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/DigiAction/fr_FR/changelog"
+      en_US: "https://tomitomas.github.io/jeedom_doc/DigiAction/en_US/changelog"
+      es_ES: "https://tomitomas.github.io/jeedom_doc/DigiAction/es_ES/changelog"
+      de_DE: "https://tomitomas.github.io/jeedom_doc/DigiAction/de_DE/changelog"
+    beta:
+      fr_FR: "https://tomitomas.github.io/jeedom_doc/DigiAction/fr_FR/changelog_beta"
+      en_US: "https://tomitomas.github.io/jeedom_doc/DigiAction/en_US/changelog_beta"
+      es_ES: "https://tomitomas.github.io/jeedom_doc/DigiAction/es_ES/changelog_beta"
+      de_DE: "https://tomitomas.github.io/jeedom_doc/DigiAction/de_DE/changelog_beta"
+  description:
+    fr_FR: "Ce plugin permet d'appliquer un mode réalisant une/des action(s) sous condition(s), et d'ajouter un contrôle par saisie de mot de passe (facultatif) via un digicode."
+    en_US: "This plugin allows you to apply a mode that performs one or more actions under certain conditions, and to add password control (optional) via a keypad."
+    es_ES: "Este plugin permite aplicar un modo que realiza una o varias acciones en determinadas condiciones, y añadir el control mediante la introducción de una contraseña (opcional) a través de un teclado."
+    de_DE: "Mit diesem Plugin können Sie einen Modus anwenden, der eine/mehrere Aktion(en) unter bestimmten Bedingungen ausführt, und eine Steuerung durch Passworteingabe (optional) über einen Digicode hinzufügen."
+- id: domonial
+  name: "Domonial"
+  market_id: 2857
+  doc:
+    stable:
+      fr_FR: "https://apages2.github.io/pluginjeedom-domonial/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://apages2.github.io/pluginjeedom-domonial/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour recevoir les notifications d'une alarme Domonial"
+- id: doorbird
+  name: "Doorbird"
+  market_id: 2141
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/doorbird/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/doorbird/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Permet de connecter vos portiers Doorbird à votre Jeedom. Vous pouvez récupérer le flux vidéos, les triggers Doorbird et déclencher les actions disponibles."
+- id: doorbirdv2
+  name: "Doorbird V2"
+  market_id: 4503
+  doc:
+    stable:
+      fr_FR: "https://vegeta0911.github.io/documentation/plugins/fr_FR/Doorbirdv2/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://vegeta0911.github.io/documentation/plugins/fr_FR/Doorbirdv2/changelog"
+    beta: false
+  description: {}
+- id: dsc
+  name: "Alarme DSC"
+  market_id: 1839
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/dsc/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/dsc/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de récupérer les informations et évènements d'une alarme DSC. Nécessite une carte Envisalink qui sert d'interface IP entre Jeedom et la centrale DSC."
+- id: eufy
+  name: "Eufy"
+  market_id: 4392
+  doc:
+    stable:
+      fr_FR: "https://github.com/lxrootard/eufy"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/lxrootard/eufy#changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de piloter les périphériques de sécurité Eufy: caméras, sonnettes, stations..."
+    en_US: "Plugin to control the Eufy security devices: webcams, ringbells, stations..."
+- id: facerecognition
+  name: "Reconnaissance facial"
+  market_id: 3863
+  doc:
+    stable:
+      fr_FR: "http://mika-nt28.github.io/Documentations/facerecognition/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/facerecognition/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet utilise OpenCv pour détecter votre visiage et vous reconnaitre.Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos)"
+- id: frigate
+  name: "Frigate"
+  market_id: 4516
+  doc:
+    stable:
+      fr_FR: "https://sagitaz.github.io/plugin-frigate/fr_FR"
+      en_US: "https://sagitaz.github.io/plugin-frigate/en_US"
+      es_ES: "https://sagitaz.github.io/plugin-frigate/es_ES"
+      de_DE: "https://sagitaz.github.io/plugin-frigate/de_DE"
+    beta:
+      fr_FR: "https://sagitaz.github.io/plugin-frigate/fr_FR"
+      en_US: "https://sagitaz.github.io/plugin-frigate/en_US"
+      es_ES: "https://sagitaz.github.io/plugin-frigate/es_ES"
+      de_DE: "https://sagitaz.github.io/plugin-frigate/de_DE"
+  changelog:
+    stable:
+      fr_FR: "https://sagitaz.github.io/plugin-frigate/fr_FR/changelog"
+      en_US: "https://sagitaz.github.io/plugin-frigate/en_US/changelog"
+      es_ES: "https://sagitaz.github.io/plugin-frigate/es_ES/changelog"
+      de_DE: "https://sagitaz.github.io/plugin-frigate/de_DE/changelog"
+    beta:
+      fr_FR: "https://sagitaz.github.io/plugin-frigate/fr_FR/changelog"
+      en_US: "https://sagitaz.github.io/plugin-frigate/en_US/changelog"
+      es_ES: "https://sagitaz.github.io/plugin-frigate/es_ES/changelog"
+      de_DE: "https://sagitaz.github.io/plugin-frigate/de_DE/changelog"
+  description:
+    fr_FR: "Plugin Frigate pour Jeedom. Ne fonctionne qu'avec les versions de Frigate &gt; 0.13.0. Le plugin n'installe pas le serveur Frigate mais permet de le controler."
+    en_US: "Frigate plugin for Jeedom. Works only with Frigate versions &gt; 0.13.0"
+    es_ES: "Plugin Frigate para Jeedom. Sólo funciona con versiones de Frigate &gt; 0.13.0"
+    de_DE: "Frigate-Plugin für Jeedom. Funktioniert nur mit Frigate-Versionen &gt; 0.13.0"
+- id: gds3710
+  name: "GrandStream GDS3710"
+  market_id: 3487
+  doc:
+    stable:
+      fr_FR: "https://ripleyxlr8.github.io/jeedom-plugin-gds3710/fr_FR/"
+      en_US: "https://ripleyxlr8.github.io/jeedom-plugin-gds3710/en_US/"
+      es_ES: "https://ripleyxlr8.github.io/jeedom-plugin-gds3710/es_ES/"
+      de_DE: "https://ripleyxlr8.github.io/jeedom-plugin-gds3710/de_DE/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://ripleyxlr8.github.io/jeedom-plugin-gds3710/fr_FR/changelog"
+      en_US: "https://ripleyxlr8.github.io/jeedom-plugin-gds3710/en_US/changelog"
+      es_ES: "https://ripleyxlr8.github.io/jeedom-plugin-gds3710/es_ES/changelog"
+      de_DE: "https://ripleyxlr8.github.io/jeedom-plugin-gds3710/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant l'intégration du portier GrandStream GDS3710"
+- id: georide
+  name: "GeoRide"
+  market_id: 3714
+  doc:
+    stable:
+      fr_FR: "https://github.com/ImoucheG/GeoRide-Jeedom-Source"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/ImoucheG/GeoRide-Jeedom-Source"
+    beta: false
+  description:
+    fr_FR: "{{Plugin afin d'utiliser l'api ouvert de GeoRide}}"
+- id: hikvision
+  name: "Hikvision"
+  market_id: 3750
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/hikvision/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/hikvision/changelog.html"
+    beta: false
+  description:
+    fr_FR: "ATTENTION, MAJ de mai 2022 : upgrade majeur, veuillez vous référez à la documentation. Ce plugin vise à fournir une intégration complète de vos caméras Hikvision dans Jeedom en autonomie au plugin : visualisation, PTZ, intéractuions Jeedom, notification avec screenshots, récupération des URL RTSP, snap et aussi API Hikvision permettant de récupérer des events détectés par la caméra/NVR. Il fournit également un commande de notification pour envoyer vos screenshots dans les scénarios, l'intégration avec les interactions Jeedom et les assistants vocaux (Google). Vous pouvez trouver aussi les commandes PTZ, Zoom et IR. Ainsi que les flux jpeg, RTSP, MPEG (ce dernier permettant par exemple de streamer vos caméras directement sur des Chromecasts via Google Devices)"
+- id: hikvisionevent
+  name: "Hikvision Event"
+  market_id: 4255
+  doc:
+    stable:
+      fr_FR: "https://loic691.github.io/jeedom_docs/plugins/HikvisionEvent/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://loic691.github.io/jeedom_docs/plugins/HikvisionEvent/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin utilise l'API Hikvision et permet de recevoir tout type d'alarmes intelligentes des périphériques HIKVISION (fielddetection, linedetection, regionentrance, facedetection, accès illégal à l'interface web, problème réseau ou HDD, masquage,...). Il permet aussi de recevoir le type de target détecté (humain ou voiture) sur les caméras compatibles (Acusense par exemple). <br/>Le plugin est compatible avec l'ensemble des caméras et NVR de la marque et marques affiliées. Il gère également de nombreuses autres fonctions : le heartbeat, la réception d'image d'alarme depuis le flux d'alerte (pour les caméras compatibles), le reboot du périphérique, l'activation et désactivation des alarmes par type (linedetection, fieldetectio, VMD,...)  <br/> Découvrez sur la doc les futures fonctionnalités en cours de développement.<br/>L'API est réécrite intégralement car l'autre plugin dispo sur le market utilise une API obsolete."
+- id: jElocky
+  name: "jElocky"
+  market_id: 3593
+  doc:
+    stable:
+      fr_FR: "https://domotruc.github.io/jElocky/fr_FR/"
+      en_US: "https://domotruc.github.io/jElocky/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://domotruc.github.io/jElocky/fr_FR/index.html#changelog"
+      en_US: "https://domotruc.github.io/jElocky/en_US/index.html#changelog"
+    beta: false
+  description:
+    fr_FR: "Le plugin **jElocky** interface les équipements de la marque Elocky (serrure eVy, box eZy, beacon) avec Jeedom."
+- id: motion
+  name: "Motion"
+  market_id: 1542
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/motion/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/motion/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de configurer et d'utiliser le logiciel Motion. Celui-ci permet de streamer nos webcams et de faire de la détection de mouvement sur nos caméras"
+- id: mqttRing
+  name: "MQTT Ring"
+  market_id: 4366
+  doc:
+    stable:
+      fr_FR: "https://wocha-fr.github.io/jeedom-ring/fr_FR/"
+      en_US: "https://wocha-fr.github.io/jeedom-ring/en_US/"
+      es_ES: "https://wocha-fr.github.io/jeedom-ring/es_ES/"
+      de_DE: "https://wocha-fr.github.io/jeedom-ring/de_DE/"
+    beta:
+      fr_FR: "https://wocha-fr.github.io/jeedom-ring/fr_FR/index_beta"
+      en_US: "https://wocha-fr.github.io/jeedom-ring/en_US/index_beta"
+      es_ES: "https://wocha-fr.github.io/jeedom-ring/es_ES/index_beta"
+      de_DE: "https://wocha-fr.github.io/jeedom-ring/de_DE/index_beta"
+  changelog:
+    stable:
+      fr_FR: "https://wocha-fr.github.io/jeedom-ring/fr_FR/changelog"
+      en_US: "https://wocha-fr.github.io/jeedom-ring/en_US/changelog"
+      es_ES: "https://wocha-fr.github.io/jeedom-ring/es_ES/changelog"
+      de_DE: "https://wocha-fr.github.io/jeedom-ring/de_DE/changelog"
+    beta:
+      fr_FR: "https://wocha-fr.github.io/jeedom-ring/fr_FR/changelog_beta"
+      en_US: "https://wocha-fr.github.io/jeedom-ring/en_US/changelog_beta"
+      es_ES: "https://wocha-fr.github.io/jeedom-ring/es_ES/changelog_beta"
+      de_DE: "https://wocha-fr.github.io/jeedom-ring/de_DE/changelog_beta"
+  description:
+    fr_FR: "Plugin permettant d'intéragir avec un système RING depuis JeedomRequiert Jeedom v4.4.17 (nodeJS 20) pour un fonctionnement optimal."
+    en_US: "Plugin to interact with a RING system from JeedomRequires Jeedom v4.4.17 (nodeJS 20) for optimal performance."
+    es_ES: "Plugin para interactuar con un sistema RING de JeedomRequiere Jeedom v4.4.17 (nodeJS 20) para un rendimiento óptimo."
+    de_DE: "Plugin, um von Jeedom aus mit einem RING-System zu interagierenErfordert Jeedom v4.4.17 (nodeJS 20), um optimal zu funktionieren."
+- id: multiRequests
+  name: "multiRequests"
+  market_id: 3441
+  doc:
+    stable:
+      fr_FR: "https://github.com/KiwiHC16/multi-requests/tree/beta/docs"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/KiwiHC16/multi-requests/tree/beta/docs"
+    beta: false
+  description:
+    fr_FR: "Le plugin multiRequests est une évolution du plugin Virtuels.<br/><br/>Le plugin Virtual (virtuel) permet la création de périphériques virtuels et de leurs propriétés.<br/><br/>Est ajouté la possibilté de déclencher des actions en fonction d'une valeur.<br/><br/>Exemple: vous etes plusieurs à vouloir allumer ou éteindre une ampoule. Si chacun allume ou éteint l'ampoule sans consulter l'autre, vous aller à un moment ou à un autre vour retrouver dans le noir car l'autre à éteint. Maintenant si un objet represente la requete que vous faites: &quot;allume la lumiere&quot;, qu'un objet prend les requetes de chacun, consolide et prend la bonne action alors vous ne serez plus dans le noir. Il y a plusieurs facons de faire cela dans jeedom: scenario,... ici l'idée est d'avoir tout dans un objet visuel."
+- id: myfoxv2
+  name: "Myfox V2"
+  market_id: 2856
+  doc:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/myfoxv2/fr_FR/index.html"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/myfoxv2/fr_FR/index.html#_changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin V2 pour utiliser la centrale Myfox, Evology, Easybox, permet de recuperer les infos du capteur de temperature, luminosite, congelateur, fumee, chauffage, evenements, etat de l'alarme, et d'activer / desactiver l'alarme et des equipements, jouer des scenarios"
+- id: netatmoSecurity
+  name: "Netatmo Securité"
+  market_id: 4472
+  doc:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/fr_FR/"
+      en_US: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/en_US/"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/es_ES/"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/fr_FR/"
+      en_US: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/en_US/"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/es_ES/"
+  changelog:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/en_US/changelog"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/es_ES/changelog"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/en_US/changelog"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/es_ES/changelog"
+  description:
+    fr_FR: "Plugin pour gérer les équipements Netatmo Sécurité et particulièrement les cameras, ainsi que certains équipements BTicino / Legrand partageant le même compte Netatmo (interphones Classe, serrures connectées, sirène). Sans emails intempestifs, Le plugin permet l’acquisition du live(snapshot ou vidéo) soit directement ou via le plugin Caméra sans changer les paramètres de sécurité de votre box. Les événements peuvent être actualisés en temps réel via un démon dédié, en complément du webhook Netatmo et du scan périodique.  Connexion via API et/ou en local (si possible)"
+    en_US: "Plugin to manage Netatmo Security equipments and particularly cameras, as well as some BTicino / Legrand devices sharing the same Netatmo account (Classe video door entry units, connected locks, siren). Without unwanted emails, the plugin allows the acquisition of live (snapshot or video) either directly or throuth the Camera plugin without changing the security settings of your box. Events can be refreshed in real time via a dedicated daemon, in addition to the Netatmo webhook and periodic polling.  Connection via API and/or locally (if possible)"
+    es_ES: "Plugin para gestionar equipos de Netatmo Security y en particular cámaras, así como algunos equipos BTicino / Legrand que comparten la misma cuenta Netatmo (videoporteros Classe, cerraduras conectadas, sirena). Sin correos electrónicos no deseados, el complemento permite la adquisición de videos en vivo (instantáneas o videos) directamente o a través del complemento de la cámara sin cambiar la configuración de seguridad de su caja. Los eventos pueden actualizarse en tiempo real mediante un demonio dedicado, además del webhook de Netatmo y el sondeo periódico.  Conexión vía API y/o localmente (si es posible)"
+- id: openalpr
+  name: "OpenALPR - Reconnaissance de plaque"
+  market_id: 1613
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/openalpr/fr_FR"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/openalpr/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permanent de faire de la reconnaissance de plaque d'immatriculation avec nos camera"
+- id: phone_detection
+  name: "Détection de téléphone (Bluetooth)"
+  market_id: 3852
+  doc:
+    stable:
+      fr_FR: "https://github.com/sebmafate/phone_detection/blob/master/README.md"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/sebmafate/phone_detection/blob/master/changelog.md"
+    beta: false
+  description:
+    fr_FR: "Ping à intervals réguliers un téléphone pour en déterminer sa présence"
+- id: powerlink
+  name: "Powerlink"
+  market_id: 2164
+  doc:
+    stable:
+      fr_FR: "https://jeedomsteph37.github.io/powerlink/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeedomsteph37.github.io/powerlink/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour alarme Visonic avec Powerlink 2"
+- id: protexiom
+  name: "Alarme Somfy"
+  market_id: 510
+  doc:
+    stable:
+      fr_FR: "https://fdp1nm.github.io/plugin-protexiom/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/fdp1nm/plugin-protexiom/releases"
+    beta: false
+  description:
+    fr_FR: "Plugin pour contrôler les sytèmes d'alarme Somfy Protexiom<br/><br/>Le plugin permet:<br/>     - d'activer l'alarme (zone par zone ou totale)<br/>     - de désactiver l’alarme<br/>     - de récupérer l'état de l'alarme<br/>     - de supprimer les alarmes<br/><br/>Le retour d'état est géré par polling (fréquence paramétrable, avec un minimum de 5 secondes)"
+- id: QRacces
+  name: "Accès par QR code"
+  market_id: 3758
+  doc:
+    stable:
+      fr_FR: "http://mika-nt28.github.io/Documentations/QRacces/fr_FR"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/QRacces/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Gerer les acces de votre maison par QR code."
+- id: reolink
+  name: "Reolink"
+  market_id: 4253
+  doc:
+    stable:
+      fr_FR: "https://github.com/Jezza34000/reolink/blob/master/README.md"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/Jezza34000/reolink/blob/master/changelog.md"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant le paramétrage et contrôle des caméras Reolink via l'API officiel. La liste complètes des fonctionnalités utilisable sous Jeedom est disponible dans la documentation ci-dessous. Fonctionne uniquement avec les modèles de la marque qui ont l'API (RLC, RLN, DUO, DUO2, DUO3, C1 & C2, TrackMix, CX, etc...). Les modèles : E1, Bxxx, Dxxx, Keen, Lumus, et les séries ARGUS & GO n'ayant pas d'API ne sont pas supportés."
+- id: seniorcarealertbt
+  name: "Senior Care - Bouton d'alerte"
+  market_id: 3948
+  doc:
+    stable:
+      fr_FR: "https://agp42.github.io/seniorcarealertbt/fr_FR/"
+      en_US: "https://agp42.github.io/seniorcarealertbt/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://agp42.github.io/seniorcarealertbt/fr_FR/changelog"
+      en_US: "https://agp42.github.io/seniorcarealertbt/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour l'assistance aux personnes âgées - Gestion des boutons d'alertes"
+- id: seniorcarecomfortsecurity
+  name: "Senior Care - Confort & Sécurité"
+  market_id: 3972
+  doc:
+    stable:
+      fr_FR: "https://superbricolo.github.io/superbricoloDocs/seniorcarecomfortsecurity/fr_FR/"
+      en_US: "https://superbricolo.github.io/superbricoloDocs/seniorcarecomfortsecurity/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://superbricolo.github.io/superbricoloDocs/seniorcarecomfortsecurity/fr_FR/changelog"
+      en_US: "https://superbricolo.github.io/superbricoloDocs/seniorcarecomfortsecurity/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour l'assistance aux personnes âgées - Gestion du confort et de la sécurité du logement"
+- id: seniorcareinactivity
+  name: "Senior Care - Détection d'inactivité"
+  market_id: 3947
+  doc:
+    stable:
+      fr_FR: "https://superbricolo.github.io/superbricoloDocs/seniorcareinactivity/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://superbricolo.github.io/superbricoloDocs/seniorcareinactivity/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour l'assistance aux personnes âgées - Fonction de détection d'inactivité"
+- id: shinobi
+  name: "Shinobi"
+  market_id: 4041
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/shinobi/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/shinobi/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Permet de récupérer les caméras configurées dans Shinobi (monitors) en gardant Shinobi comme CCTV/NVR. Le plugin propose : commandes de statut dans Shinobi, commandes PTZ via Shinobi, commandes pour récupérer les events Shinobi"
+- id: SomfyHomeAlarm
+  name: "Somfy Home Alarm"
+  market_id: 4081
+  doc:
+    stable:
+      fr_FR: "https://erobert-c.github.io/docs-somfyHomeAlarm/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://erobert-c.github.io/docs-somfyHomeAlarm/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de contrôler l'alarme Somfy Home alarme depuis Jeedom."
+- id: surveillanceStation
+  name: "Synology Surveillance Station"
+  market_id: 1303
+  doc:
+    stable:
+      fr_FR: "https://surveillancestation.github.io/surveillancestation/surveillancestation/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://surveillancestation.github.io/surveillancestation/surveillancestation/fr_FR/#tocAnchor-1-13"
+    beta: false
+  description:
+    fr_FR: "Plugin pour Synology Surveillance Station"
+- id: tedee
+  name: "Tedee"
+  market_id: 4185
+  doc:
+    stable:
+      fr_FR: "http://www.meyerdom.fr/"
+    beta: false
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: "Contrôle des serrures de la gamme Tedee ayant un bridge"
+- id: thekeys
+  name: "The Keys"
+  market_id: 2840
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/thekeys/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/thekeys/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant d'interface vos serrures connectées The Keys gràce à la gateway."
+- id: verisure
+  name: "Verisure"
+  market_id: 3997
+  doc:
+    stable:
+      fr_FR: "https://xav-74.github.io/Documentation/verisure/fr_FR/"
+      en_US: "https://xav-74.github.io/Documentation/verisure/en_US/"
+      es_ES: "https://xav-74.github.io/Documentation/verisure/es_ES/"
+      de_DE: "https://xav-74.github.io/Documentation/verisure/de_DE/"
+    beta:
+      fr_FR: "https://xav-74.github.io/Documentation/verisure/fr_FR/"
+      en_US: "https://xav-74.github.io/Documentation/verisure/en_US/"
+      es_ES: "https://xav-74.github.io/Documentation/verisure/es_ES/"
+      de_DE: "https://xav-74.github.io/Documentation/verisure/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://xav-74.github.io/Documentation/verisure/fr_FR/changelog"
+      en_US: "https://xav-74.github.io/Documentation/verisure/en_US/changelog"
+      es_ES: "https://xav-74.github.io/Documentation/verisure/es_ES/changelog"
+      de_DE: "https://xav-74.github.io/Documentation/verisure/de_DE/changelog"
+    beta:
+      fr_FR: "https://xav-74.github.io/Documentation/verisure/fr_FR/changelog"
+      en_US: "https://xav-74.github.io/Documentation/verisure/en_US/changelog"
+      es_ES: "https://xav-74.github.io/Documentation/verisure/es_ES/changelog"
+      de_DE: "https://xav-74.github.io/Documentation/verisure/de_DE/changelog"
+  description:
+    fr_FR: "Ce plugin vous permet d'interagir avec votre alarme Verisure au même titre que l’application officielle “My Verisure”. Il est compatible avec 3 générations de matériels Verisure. Voir la documentation ! Vous retrouverez les principales fonctionnalités de l'application : détail de votre installation / journal d'activité / activation de l'alarme (avec les différents modes : total, jour, nuit, partiel et extérieur) / désactivation de l'alarme / demande d'images. Ce plugin est également compatible avec le plugin Homebridge afin de piloter votre alarme depuis l'application Home d'Apple et/ou depuis Siri."
+    en_US: "This plugin lets you interact with your Verisure alarm system just like the official “My Verisure” app. It’s compatible with three generations of Verisure hardware. See the documentation! You’ll find the app’s main features here: installation details / activity log / arming the alarm (with different modes: full, day, night, partial, and outdoor) / disarming the alarm / requesting images. This plugin is also compatible with the Homebridge plugin, allowing you to control your alarm from the Apple Home app and/or via Siri."
+    es_ES: "Este complemento te permite interactuar con tu alarma Verisure de la misma forma que la aplicación oficial «My Verisure». Es compatible con tres generaciones de dispositivos Verisure. ¡Consulta la documentación! Encontrarás las principales funciones de la aplicación: detalles de tu instalación, registro de actividad, activación de la alarma (con los distintos modos: total, diurno, nocturno, parcial y exterior), desactivación de la alarma y solicitud de imágenes. Este complemento también es compatible con el complemento Homebridge para controlar tu alarma desde la aplicación Home de Apple y/o desde Siri."
+    de_DE: "Mit diesem Plugin können Sie genauso mit Ihrer Verisure-Alarmanlage interagieren wie mit der offiziellen App „My Verisure“. Es ist mit drei Generationen von Verisure-Geräten kompatibel. Siehe Dokumentation! Sie finden hier die wichtigsten Funktionen der App: Details zu Ihrer Anlage / Aktivitätsprotokoll / Aktivierung der Alarmanlage (mit den verschiedenen Modi: Vollalarm, Tag, Nacht, Teilalarm und Außenalarm) / Deaktivierung der Alarmanlage / Bildabfrage. Dieses Plugin ist außerdem mit dem Homebridge-Plugin kompatibel, sodass Sie Ihre Alarmanlage über die Apple Home-App und/oder über Siri steuern können."
+- id: wiegandAccess
+  name: "Wiegand Access"
+  market_id: 4654
+  doc:
+    stable:
+      fr_FR: "https://mickadam29.github.io/wiegandAccess/fr_FR/"
+    beta:
+      fr_FR: "https://mickadam29.github.io/wiegandAccess/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://mickadam29.github.io/wiegandAccess/fr_FR/changelog"
+    beta:
+      fr_FR: "https://mickadam29.github.io/wiegandAccess/fr_FR/changelog"
+  description:
+    fr_FR: "Contrôle d'accès multi-lecteurs par badge RFID et/ou clavier PIN (digicode). Compatible avec tout équipement Jeedom disposant d'une commande événement (Zigbee/PTVO, Z-Wave, WiFi, MQTT, virtuel…).Enregistrement de badges par apprentissage ou import CSV, planning horaire par badge, historique des accès, protection anti-intrusion. Lecteur virtuel de démo inclus — testez sans matériel."
+- id: zoneminder
+  name: "Zoneminder"
+  market_id: 2247
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/zoneminder/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/zoneminder/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Permet de récupérer les caméras configurées dans Zoneminder (monitors) en gardant Zoneminder comme point central. Le plugin propose : configuration automatique des monitors dans le plugin Camera afin de récupérer la visu dans Jeedom, informations du mode et statut d'activation, commandes de modification du mode et statut"

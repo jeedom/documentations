@@ -1,3 +1,0 @@
-# Apagar / reiniciar
-
-(en curso)

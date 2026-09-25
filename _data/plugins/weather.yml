@@ -1,0 +1,14 @@
+- id: weather
+  name: "Weather"
+  market_id: 7
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Ce plugin permet de récupérer les informations météorologiques du lieu de votre choix telles que les conditions et les températures actuelles et des jours à venir, le taux d'humidité, la force du vent et sa direction, les heures de lever et coucher du soleil et bien plus encore... Vous vouliez acheter une station météo? Ce plugin vous fera sûrement changer d'avis!"
+    en_US: "This plugin allows you to retrieve meteorological information from the location of your choice such as the current and future conditions and temperatures, the humidity level, the strength of the wind and its direction, the times of sunrise and sunset and much more... You wanted to buy a weather station? This plugin will surely change your mind!"
+    es_ES: "Este complemento te permite recuperar información meteorológica desde la ubicación que elijas, como las condiciones y temperaturas actuales y futuras, el nivel de humedad, la fuerza del viento y su dirección, las horas de salida y puesta del sol y mucho más... Quería comprar una estación meteorológica? ¡Este complemento seguramente cambiará de opinión!"
+    de_DE: "Mit diesem Plugin können Sie meteorologische Informationen von einem Ort Ihrer Wahl abrufen, wie z. B. die aktuellen und zukünftigen Bedingungen und Temperaturen, die Luftfeuchtigkeit, die Stärke des Windes und seine Richtung, die Zeiten von Sonnenauf- und -untergang und vieles mehr ... Sie Wollten Sie eine Wetterstation kaufen? Dieses Plugin wird sicherlich Ihre Meinung ändern!"

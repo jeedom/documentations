@@ -1,0 +1,935 @@
+- id: AbeilleLora
+  name: "AbeilleLora"
+  market_id: 4042
+  doc:
+    stable:
+      fr_FR: "http://kiwihc16.free.fr/docAbeilleLora/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "http://kiwihc16.free.fr/docAbeilleLora/Changelog.html"
+    beta: false
+  description:
+    fr_FR: "Plugin premettant d envoyer des messages avec une clef LoraGate"
+- id: ai_assistant
+  name: "Ai Assistant"
+  market_id: 4636
+  doc:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-ai_assistant/fr_FR"
+      en_US: "https://limad.github.io/plugins-docs/plugin-ai_assistant/en_US"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-ai_assistant/es_ES"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-ai_assistant/de_DE"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-ai_assistant/fr_FR"
+      en_US: "https://limad.github.io/plugins-docs/plugin-ai_assistant/en_US"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-ai_assistant/es_ES"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-ai_assistant/de_DE"
+  changelog:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-ai_assistant/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-ai_assistant/en_US/changelog"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-ai_assistant/es_ES/changelog"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-ai_assistant/de_DE/changelog"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-ai_assistant/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-ai_assistant/en_US/changelog"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-ai_assistant/es_ES/changelog"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-ai_assistant/de_DE/changelog"
+  description:
+    fr_FR: "Ce plugin repose sur trois piliers :<br/>- **Agent conversationnel classique** : dialogue fluide pour vos questions générales.<br/>- **Assistant spécialisé Jeedom** : un expert qui connaît votre installation.<br/>- **Pont MCP (Model Context Protocol)** : lien direct entre votre serveur MCP et votre modèle d'IA (Plugin 'MCP AI Server' conseillé)."
+    en_US: "This plugin is based on three pillars:<br/>- **Classic Conversational Agent**: fluid dialogue for general questions.<br/>- **Jeedom Specialized Assistant**: an expert who knows your installation.<br/>- **MCP Bridge (Model Context Protocol)**: direct link between your MCP server and your AI model ('MCP AI Server' plugin recommended)."
+    es_ES: "Este plugin se basa en tres pilares:<br/>- **Agente conversacional clásico**: diálogo fluido para sus preguntas generales.<br/>- **Asistente especializado en Jeedom**: un experto que conoce su instalación.<br/>- **Puente MCP (Model Context Protocol)**: enlace directo entre su servidor MCP y su modelo de IA (se recomienda el plugin 'MCP AI Server')."
+- id: alexaapi
+  name: "Alexa - API"
+  market_id: 3614
+  doc:
+    stable:
+      fr_FR: "http://jeedom.sigalou-domotique.fr/alexa-api-documentation"
+    beta: false
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: "[Non - Maintenu] Plugin pour interface Alexa"
+- id: alexaapiv2
+  name: "Alexa Premium"
+  market_id: 4498
+  doc:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-alexaapiv2/fr_FR/"
+      en_US: "https://limad.github.io/plugins-docs/plugin-alexaapiv2/en_US/"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-alexaapiv2/es_ES/"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-alexaapiv2/de_DE/"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-alexaapiv2/fr_FR/"
+      en_US: "https://limad.github.io/plugins-docs/plugin-alexaapiv2/en_US/"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-alexaapiv2/es_ES/"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-alexaapiv2/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-alexaapiv2/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-alexaapiv2/en_US/changelog"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-alexaapiv2/es_ES/changelog"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-alexaapiv2/de_DE/changelog"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-alexaapiv2/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-alexaapiv2/en_US/changelog"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-alexaapiv2/es_ES/changelog"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-alexaapiv2/de_DE/changelog"
+  description:
+    fr_FR: "Plugin pour gérer les équipements Alexa (Devices et SmartHome) dans Jeedom"
+    en_US: "Plugin for Alexa interface - Premium"
+    es_ES: "Complemento para la interfaz Alexa - Premium"
+    de_DE: "Plugin für Alexa-Schnittstelle - Premium"
+- id: artyom
+  name: "Artyom"
+  market_id: 2161
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/artyom/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/artyom/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Permet d'activer la reconnaissance vocale depuis le dashboard de Jeedom. Les interactions seront automatiquement utilisées en réponse. La reconnaissance se fait en javascript en utilisant les services Google disponible sur Google Chrome."
+- id: asteriskcalls
+  name: "AsteriskCalls"
+  market_id: 1810
+  doc:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/asteriskcalls/fr_FR/index.html"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/asteriskcalls/fr_FR/index.html#_changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin Asterisk Calls "
+- id: clicksend
+  name: "ClickSend"
+  market_id: 4468
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/clicksend/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/clicksend/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/clicksend/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/clicksend/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/clicksend/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/clicksend/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/clicksend/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/clicksend/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/clicksend/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/clicksend/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/clicksend/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/clicksend/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/clicksend/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/clicksend/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/clicksend/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/clicksend/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin pour intégrer la plateforme ClickSend qui permet l'envoi de message texte (SMS) ou vocaux (TTS)"
+    en_US: "Plugin to integrate the ClickSend platform for sending text (SMS) or voice (TTS) messages"
+    es_ES: "Plugin para integrar la plataforma ClickSend para el envío de mensajes de texto (SMS) o de voz (TTS)"
+    de_DE: "Plugin zur Integration der ClickSend-Plattform, die das Versenden von Textnachrichten (SMS) oder Sprachnachrichten (TTS) ermöglicht"
+- id: clientSIP
+  name: "Client SIP"
+  market_id: 3038
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/clientSIP/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/clientSIP/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Connecter Jeedom a votre reseau SIP"
+- id: cloudsyncpro
+  name: "CloudSync Pro"
+  market_id: 3061
+  doc:
+    stable:
+      fr_FR: "https://thanaus.github.io/jeedom_docs/plugins/cloudsyncpro/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://thanaus.github.io/jeedom_docs/plugins/cloudsyncpro/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Outil de sauvegarde dans le Cloud"
+- id: datatransfert
+  name: "Data Transfert"
+  market_id: 3062
+  doc:
+    stable:
+      fr_FR: "https://github.com/fensoft/plugin-datatransfert/blob/master/doc/fr_FR/index.asciidoc"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/fensoft/plugin-datatransfert/commits/master"
+    beta: false
+  description:
+    fr_FR: "Plugin d'envoi de fichier<br/><br/>- protocoles:<br/>dropbox (passage en apiv2)<br/>local<br/>webdav<br/>ftp<br/>sftp<br/>google drive (la cible peut-être un folder-id, voir le lien au dessus de la config)<br/>samba<br/>rclone donc: Amazon Drive, Amazon S3, Backblaze B2, Box, Ceph, Dreamhost, Google Cloud Storage, Google Drive, HTTP, Hubic, Memset Memstore, Microsoft Azure Blob Storage, Microsoft OneDrive, Minio, OVH, Openstack Swift, Oracle Cloud Storage, QingStor, Rackspace Cloud Files, Wasabi, Yandex Disk (avec autoconfigurateur windows)<br/><br/>- nettoyage auto distant (garder x jours ou x fichiers par exemple)<br/>- status (ok, ko, uploading, cleaning)<br/>- chemins récursifs (sauf pour gdrive avec des _ au lieu des / pour les sous dossiers)<br/>- date devinée à partir du nom du fichier par défaut (utilise celle du cloud sinon)<br/>- progression de l'upload au pourcent près"
+- id: devolo_cpl
+  name: "Devolo CPL"
+  market_id: 4388
+  doc:
+    stable:
+      fr_FR: "https://ktn001.github.io/fr_FR/devolo_cpl/index.html"
+    beta:
+      fr_FR: "https://ktn001.github.io/fr_FR/devolo_cpl/index.html"
+  changelog:
+    stable:
+      fr_FR: "https://ktn001.github.io/fr_FR/devolo_cpl/changelog.html"
+    beta:
+      fr_FR: "https://ktn001.github.io/fr_FR/devolo_cpl/changelog.html"
+  description:
+    fr_FR: "Plugin pour les réseaux CPL de Devolo"
+    en_US: "Plugin for Devolo PLC networks"
+    es_ES: "Plugin para redes PLC Devolo"
+    de_DE: "Plugin für Powerline-Netzwerke von Devolo"
+- id: discordlink
+  name: "Discord Link"
+  market_id: 3938
+  doc:
+    stable:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/DiscordLink/index"
+    beta:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/DiscordLink/index"
+  changelog:
+    stable:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/DiscordLink/changelog"
+    beta:
+      fr_FR: "https://titidom-rc.github.io/Documentation/fr_FR/DiscordLink/beta/changelog"
+  description:
+    fr_FR: "Le plugin DiscordLink permet d'envoyer des messages sur son serveur Discord : messages standards, évolués, TTS - Gestion des Channels (Salons) - Fonction ASK - Envoi de Fichiers - Compatible avec les interactions de Jeedom - Fonction état des Démons de Jeedom - Fonction état des Dépendances des plugins Jeedom - Fonction état du résumé global."
+    en_US: "The DiscordLink plugin allows you to send messages to your Discord server: standard messages, advanced messages, TTS - Channel management - ASK function - File sending - Compatible with Jeedom interactions - Jeedom Daemon status function - Jeedom plugin dependency status function - Global summary status function."
+    es_ES: "El complemento DiscordLink permite enviar mensajes a su servidor Discord: mensajes estándar, avanzados, TTS - Gestión de canales (salas) - Función ASK - Envío de archivos - Compatible con las interacciones de Jeedom - Función de estado de los demonios de Jeedom - Función de estado de las dependencias de los complementos de Jeedom - Función de estado del resumen global."
+    de_DE: "Mit dem Plugin DiscordLink können Nachrichten an den Discord-Server gesendet werden: Standardnachrichten, erweiterte Nachrichten, TTS – Verwaltung von Kanälen (Chatrooms) – ASK-Funktion – Senden von Dateien – Kompatibel mit Jeedom-Interaktionen – Statusfunktion der Jeedom-Daemons – Statusfunktion der Abhängigkeiten der Jeedom-Plugins – Statusfunktion der globalen Zusammenfassung."
+- id: elevenlabs
+  name: "Elevenlabs TTS"
+  market_id: 4442
+  doc:
+    stable:
+      fr_FR: "https://github.com/kenin/jeedom-tts-elevenlabs/blob/main/docs/fr_FR/index.md"
+    beta:
+      fr_FR: "https://github.com/kenin/jeedom-tts-elevenlabs/blob/beta/docs/fr_FR/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/kenin/jeedom-tts-elevenlabs/blob/main/docs/fr_FR/changelog.md"
+    beta:
+      fr_FR: "https://github.com/kenin/jeedom-tts-elevenlabs/blob/beta/docs/fr_FR/changelog.md"
+  description:
+    fr_FR: "Permet d'utiliser le TTS de elevenlabs"
+    en_US: "Allows you to use elevenlabs TTS"
+- id: fluxrss
+  name: "Flux RSS"
+  market_id: 2817
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/fluxrss/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/fluxrss/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet à Jeedom de créer des flux RSS et de publier des informations dessus. Ainsi vous pouvez suivre votre domotique au travers de votre lecteur RSS préféré."
+- id: FreeSms
+  name: "Free Mobile SMS"
+  market_id: 130
+  doc:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/FreeSms/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://mika-nt28.github.io/Documentations/FreeSms/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant d'envoyer des sms sur son portable via l'option notification SMS de l'opérateur Free Mobile.<br/><br/>La notification sera envoyée seulement sur le portable lié au compte."
+- id: gammu
+  name: "Gammu"
+  market_id: 2176
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/gammu/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/gammu/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant d'utiliser Gammu pour envoyer des SMS. Si votre clef 3G fonctionne avec le plugin officiel, il est préférable d'utiliser l'officiel. Ce plugin vient proposer une solution pour ceux qui auraient une clef déjà en leur possession et supportée uniquement par Gammu"
+- id: gandiDnsApi
+  name: "Gandi DNS Api"
+  market_id: 3348
+  doc:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/gandiDnsApi/fr_FR/index.html"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/gandiDnsApi/fr_FR/index.html#_changelog"
+    beta: false
+  description:
+    fr_FR: "Pour les noms de domaine hébergé chez Gandi.net.<br/>Permet la mise à jour des enregistrements DNS via les API de Gandi Live."
+- id: gestionmsg
+  name: "Gestion Message"
+  market_id: 4613
+  doc:
+    stable:
+      fr_FR: "https://dpi-automation.github.io/gestionmsgDocs/fr_FR/"
+    beta:
+      fr_FR: "https://dpi-automation.github.io/gestionmsgDocs/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://dpi-automation.github.io/gestionmsgDocs/fr_FR/changelog"
+    beta:
+      fr_FR: "https://dpi-automation.github.io/gestionmsgDocs/fr_FR/changelog_beta"
+  description:
+    fr_FR: "Plugin permettant de gérer les messages et les destinataires associés"
+- id: ghlocal
+  name: "Google Devices"
+  market_id: 3676
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/ghlocal/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/ghlocal/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de piloter vos Google Home, Nest Hub, Android TV, Chromecast. Pour les Google Home, il utilise une API non officielle pour récupérer les alarmes, les présences Bluetooth et la diffusion TTS et son. Mais il permet aussi d'interagir avec les chromecast, les Android TV (avec notifications via Pipup) et les Android ayant adb d'activé. Permet d'enregistrer des fichiers mp3 à diffuser, de créer des fichiers TTS ... Ne fonctionne pas avec Debian 9."
+- id: gmailinfo
+  name: "Gmail Informations"
+  market_id: 258
+  doc:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/gmailinfo/fr_FR/index.html"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/gmailinfo/fr_FR/index.html#_changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour récupérer des informations sur son compte GMail. Actuellement limité au nombre d'email non lus."
+- id: gotify
+  name: "Gotify"
+  market_id: 3774
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/gotify/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/gotify/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/gotify/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/gotify/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/gotify/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/gotify/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/gotify/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/gotify/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/gotify/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/gotify/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/gotify/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/gotify/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/gotify/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/gotify/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/gotify/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/gotify/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin permettant la connection à un serveur Gotify. Gotify est une solution self-hosted, libre et open source permettant l'envoi et la réception de message. Plus d'info sur https://gotify.net/"
+    en_US: "Plugin to connect to a Gotify server. Gotify is a self-hosted, free and open source solution for sending and receiving messages. More info at https://gotify.net/"
+    es_ES: "Plugin para conectarse a un servidor Gotify. Gotify es una solución autoalojada, gratuita y de código abierto para enviar y recibir mensajes. Más información en https://gotify.net/"
+    de_DE: "Plugin, das die Verbindung zu einem Gotify-Server ermöglicht. Gotify ist eine freie Open-Source-Lösung, die das Senden und Empfangen von Nachrichten ermöglicht. Weitere Informationen unter https://gotify.net/"
+- id: homebridge
+  name: "Homebridge"
+  market_id: 2983
+  doc:
+    stable:
+      fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/"
+    beta:
+      fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/index-beta"
+  changelog:
+    stable:
+      fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/changelog"
+    beta:
+      fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/changelog"
+  description:
+    fr_FR: "Plugin pour Homebridge.<br/>Passerelle Apple HomeKit pour Jeedom.<br/>Controle de certains périphériques Jeedom par Siri et via application Maison et Eve."
+    en_US: "Plugin for Homebridge.<br/>Apple Homekit Gateway for Jeedom.<br/>Control some of your Jeedom equipments via Siri, Home and Eve apps.<br/><br/>WARNING : Not supported : Debian Buster(10) Stretch(9) Jessie(8) & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)<br/><br/>Jeedom MUST be on the same network than your iPhone/AppleTV. (no routing, no NAT).<br/><br/>An AppleTV 4+ or iPad iOS 10+(old homekit infra only) or HomePod are mandatory for remote access.<br/><br/>Support on the forum (One request per subject, like a ticket system)."
+    es_ES: "Complemento para Homebridge.<br/>Apple Homekit Gateway para Jeedom.<br/>Controla algunos de tus equipos Jeedom a través de las aplicaciones Siri, Home y Eve.<br/><br/>IMPORTANTE : No compatible: Debian Buster(10) Stretch(9) Jessie(8) & Docker & Jeedom Mini + & Raspberry Pi 1-2 & Zero (armv6) y i386 (32bits)<br/><br/>Jeedom DEBE estar en la misma red que su iPhone / AppleTV. (sin enrutamiento, sin NAT).<br/><br/>Se requiere un AppleTV 4+ o un iPad con iOS 10+(Solo infraestructura heredada de homekit) o un HomePod para el acceso remoto.<br/><br/>Soporte en el foro (una solicitud por tema, como un sistema de tickets)."
+    de_DE: "Plugin für Homebridge.<br/>Apple Homekit Gateway für Jeedom.<br/>Steuern Sie einige Ihrer Jeedom-Geräte über die Apps Siri, Home und Eve.<br/><br/>WARNUNG: Nicht unterstützt: Debian Buster(10) Stretch(9) Jessie(8) & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)<br/><br/>Jeedom MUSS sich im selben Netzwerk wie Ihr iPhone/AppleTV befinden. (kein Routing, kein NAT).<br/><br/>Für den Fernzugriff sind ein AppleTV 4+ oder iPad iOS 10+ (nur alte Homekit-Infrastruktur) oder ein HomePod erforderlich.<br/><br/>Support im Forum (Eine Anfrage pro Thema, wie ein Ticketsystem)."
+- id: informe
+  name: "Informe"
+  market_id: 4210
+  doc:
+    stable:
+      fr_FR: "http://jeedom.sigalou-domotique.fr/plugin-informe-documentation/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "http://jeedom.sigalou-domotique.fr/plugin-informe-changelog-todo-list"
+    beta: false
+  description:
+    fr_FR: "Ce plugin va vous permettre de simplifier vos scénarios.<br/>Pour informer un utilisateur, il suffira de demander « Informe Sigalou que la porte du frigo est ouverte »<br/>En effet, en permanence, le plugin saura où est Sigalou (Dans sa voiture, à la maison, à l’extérieur,…), il saura sur quelle tranche horaire on se trouve (Jour, Nuit, …) et plusieurs niveaux de priorité pourront être définis (par exemple : Informe, Notifie, Alerte,…)<br/>Ces informations ne sont pas toutes gérées par Informe, mais Informe les récupère des autres plugins (de localisation, Blea, Jeemate, Présence, Alarme, …)"
+- id: ioscloud
+  name: "Ios Icloud"
+  market_id: 3131
+  doc:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/ioscloud/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/ioscloud/changelog/"
+    beta: false
+  description:
+    fr_FR: "Plugin pour récupérer les infos d'un compte icloud permettant de récupérer la localisation, émettre un son..."
+- id: JeedomConnect
+  name: "Jeedom Connect"
+  market_id: 4077
+  doc:
+    stable:
+      fr_FR: "https://jeedomconnect-team.github.io/jc-doc/docs/documentation/intro"
+    beta:
+      fr_FR: "https://jeedomconnect-team.github.io/jc-doc/docs/documentation/intro"
+  changelog:
+    stable:
+      fr_FR: "https://jeedomconnect-team.github.io/jc-doc/docs/changelog/stable"
+    beta:
+      fr_FR: "https://jeedomconnect-team.github.io/jc-doc/docs/changelog/beta"
+  description:
+    fr_FR: "Plugin permettant la connexion avec l'application mobile Jeedom Connect (disponible sur le play store pour les appareils Android et l'Apple store pour les appareils IOS)."
+- id: jeemate
+  name: "JeeMate"
+  market_id: 4113
+  doc:
+    stable:
+      fr_FR: "https://docs.jeemate.fr/fr/home"
+    beta:
+      fr_FR: "https://docs.jeemate.fr/fr/home"
+  changelog:
+    stable:
+      fr_FR: "https://docs.jeemate.fr/fr/changelog/plugin"
+    beta:
+      fr_FR: "https://docs.jeemate.fr/fr/changelog/plugin"
+  description:
+    fr_FR: "JeeMate est une application mobile disponible pour les appareils Android et wearOS (Play store), iOS (Apple store) et Windows (Microsoft store).Contrôlez facilement votre maison intelligente grâce à son interface intuitive, customisable et l'IA.JeeMate est compatible avec de nombreux plugins Jeedom automatiquement.Ce plugin vous permet de lier l'application mobile à votre Jeedom.JeeMate utilise les types génériques de Jeedom.Notifications, géolocalisation, TTS, Intelligence artificielle, planificateur de scénario, etc... JeeMate vous apporte tout dans une seule application. Le plugin inclut la synchronisation avec Google Fit: créez vos équipements et récupérez vos données de santé."
+    es_ES: "JeeMate es una aplicación móvil disponible para dispositivos Android y wearOS (playStore), iOS (Apple store) y Windows (Microsoft store).Controla fácilmente tu casa inteligente con su interfaz intuitiva y personalizable.JeeMate es compatible con muchos plugins Jeedom de forma automática.Este plugin te permite vincular la aplicación móvil a tu Jeedom.JeeMate utiliza tipos genéricos de Jeedom.Notificaciones, geolocalización, TTS, programador de escenarios, etc..... JeeMate te lo trae todo en una sola aplicación.El plugin incluye sincronización con Google Fit: crea tu equipo y recupera tus datos de salud."
+    en_US: "JeeMate is a mobile app available for Android and wearOS devices (playStore), iOS (Apple store) and Windows (Microsoft store).Easily control your smart home with its intuitive, customizable interface.JeeMate is compatible with many Jeedom plugins automatically.This plugin lets you link the mobile app to your Jeedom.JeeMate uses generic Jeedom types.Notifications, geolocation, TTS, scenario scheduler, etc.... JeeMate brings you everything in a single application.The plugin includes synchronization with Google Fit: create your equipment and retrieve your health data."
+    de_DE: "JeeMate ist eine mobile App, die für Android- und WearOS-Geräte (playStore), iOS (Apple store) und Windows (Microsoft store) erhältlich ist.Steuern Sie Ihr Smart Home ganz einfach über die intuitive und anpassbare Benutzeroberfläche.JeeMate ist mit vielen Jeedom-Plugins automatisch kompatibel.Dieses Plugin ermöglicht es Ihnen, die mobile App mit Ihrem Jeedom zu verbinden.JeeMate nutzt die generischen Typen von Jeedom.Benachrichtigungen, Geolokalisierung, TTS, Szenarioplaner, etc. JeeMate bietet Ihnen alles in einer einzigen Anwendung. Das Plugin beinhaltet die Synchronisation mit Google Fit: Erstellen Sie Ihre Geräte und rufen Sie Ihre Gesundheitsdaten ab."
+- id: jeematePremium
+  name: "JeeMate Premium"
+  market_id: 4127
+  doc:
+    stable:
+      fr_FR: "https://jeemate.fr/documentation/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeemate.fr/changelog-plugin/"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de vous donner accès à la version premium de JeeMate. Il n'est pas utile de l'installer. L'avoir acheté suffit."
+    en_US: "This plugin gives you access to the premium version of jeemate. It is not useful to install it. Buying it is enough."
+    de_DE: "Dieses Plugin ermöglicht es Ihnen, Zugriff auf die Premium-Version von Jeemate. Es ist nicht sinnvoll, es zu installieren. Es ist genug, ihn zu kaufen."
+    es_ES: "Este plugin le da acceso a la versión premium de jeemate. No es útil instalarlo. Comprarlo es suficiente."
+- id: JeeRemi
+  name: "JeeRemi"
+  market_id: 4614
+  doc:
+    stable:
+      fr_FR: "https://github.com/foireatout/jeedom-jeeremi/blob/stable/README.md"
+    beta:
+      fr_FR: "https://github.com/foireatout/jeedom-jeeremi/blob/beta/README.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/foireatout/jeedom-jeeremi/blob/stable/changelog.md"
+    beta:
+      fr_FR: "https://github.com/foireatout/jeedom-jeeremi/blob/beta/changelog.md"
+  description:
+    fr_FR: "Plugin permettant de gérer les réveils REMI de la marque UrbanHello. Il permet de connaitre et de gérer: le visage affiché, la luminosité de la veilleuse et le volume. Il permet également de jouer/stopper une musique déjà stockée sur l'appareil, de connaitre la température de la pièce et si l'appareil est en ligne."
+    en_US: "This plugin allows you to manage REMI alarm clocks from the UrbanHello brand. It lets you view and manage the displayed face, the nightlight brightness, and the volume. It also allows you to play/pause music already stored on the device, check the room temperature, and see if the device is online."
+    es_ES: "Este complemento te permite administrar los despertadores REMI de UrbanHello. Te permite ver y administrar la esfera que se muestra, el brillo de la luz nocturna y el volumen. También te permite reproducir/pausar música almacenada en el dispositivo, comprobar la temperatura ambiente y ver si el dispositivo está conectado."
+    de_DE: "Dieses Plugin ermöglicht die Steuerung von REMI-Weckern der Marke UrbanHello. Sie können das angezeigte Zifferblatt, die Helligkeit des Nachtlichts und die Lautstärke anpassen. Außerdem können Sie bereits auf dem Gerät gespeicherte Musik abspielen/pausieren, die Raumtemperatur überprüfen und den Online-Status des Geräts einsehen."
+- id: jeerhasspy
+  name: "jeeRhasspy"
+  market_id: 3869
+  doc:
+    stable:
+      fr_FR: "https://kiboost.github.io/jeedom_docs/plugins/jeerhasspy/fr_FR/"
+    beta:
+      fr_FR: "https://kiboost.github.io/jeedom_docs/plugins/jeerhasspy/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "https://kiboost.github.io/jeedom_docs/plugins/jeerhasspy/fr_FR/changelog.html"
+    beta:
+      fr_FR: "https://kiboost.github.io/jeedom_docs/plugins/jeerhasspy/fr_FR/changelog.html"
+  description:
+    fr_FR: "Plugin pour le support de l'assistant vocal Rhasspy dans Jeedom."
+    en_US: "Integrate your Rhasspy vocal assistant into Jeedom."
+- id: JeeRss
+  name: "JeeRss"
+  market_id: 2782
+  doc:
+    stable:
+      fr_FR: "https://nextdom.github.io/plugin-jeerss/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://nextdom.github.io/plugin-jeerss/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour lire un flux Rss"
+- id: ledticker
+  name: "LedTicker"
+  market_id: 1821
+  doc:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/ledticker/fr_FR/index.html"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/ledticker/fr_FR/index.html#_changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin servant à piloter un Afficheur LED"
+- id: linksys
+  name: "Linksys"
+  market_id: 4090
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/linksys/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/linksys/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/linksys/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/linksys/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/linksys/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/linksys/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/linksys/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/linksys/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/linksys/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/linksys/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/linksys/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/linksys/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/linksys/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/linksys/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/linksys/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/linksys/beta/de_DE/changelog"
+  description:
+    fr_FR: "Informations et contrôle de vos routeurs Linksys."
+    en_US: "Information and control of your Linksys routers."
+    es_ES: "Información y control de sus routers Linksys."
+    de_DE: "Informationen und Kontrolle über Ihre Linksys-Router."
+- id: livebox
+  name: "Livebox"
+  market_id: 1076
+  doc:
+    stable:
+      fr_FR: "https://ceyal14.github.io/plugin-livebox/fr_FR/"
+      en_US: "https://ceyal14.github.io/plugin-livebox/en_US/"
+      de_DE: "https://ceyal14.github.io/plugin-livebox/de_DE/"
+    beta:
+      fr_FR: "https://github.com/ceyal14/plugin-livebox/blob/beta/docs/fr_FR/index.md"
+      en_US: "https://github.com/ceyal14/plugin-livebox/blob/beta/docs/en_US/index.md"
+      de_DE: "https://github.com/ceyal14/plugin-livebox/blob/beta/docs/de_DE/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://ceyal14.github.io/plugin-livebox/fr_FR/changelog"
+      en_US: "https://ceyal14.github.io/plugin-livebox/en_US/changelog"
+      de_DE: "https://ceyal14.github.io/plugin-livebox/de_DE/changelog"
+    beta:
+      fr_FR: "https://raw.githubusercontent.com/ceyal14/plugin-livebox/beta/docs/fr_FR/changelog.md"
+      en_US: "https://raw.githubusercontent.com/ceyal14/plugin-livebox/beta/docs/en_US/changelog.md"
+      de_DE: "https://raw.githubusercontent.com/ceyal14/plugin-livebox/beta/docs/de_DE/changelog.md"
+  description:
+    fr_FR: "Plugin pour Livebox 2, Play, 4, Fibre, 6, 7, 7.7 (Wifi 7) et S"
+- id: maillistener
+  name: "Mail Listener"
+  market_id: 1935
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/maillistener/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/maillistener/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Permet de mettre une boite mail en surveillance par Jeedom. Dès qu'un mail est recu, différentes informations sont disponibles : expéditeur, sujet, texte, pièce jointe."
+- id: mcp_jeedom
+  name: "MCP AI Server"
+  market_id: 4629
+  doc:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/fr_FR"
+      en_US: "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/en_US"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/es_ES"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/de_DE"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/fr_FR"
+      en_US: "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/en_US"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/es_ES"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/de_DE"
+  changelog:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/en_US/changelog"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/es_ES/changelog"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/de_DE/changelog"
+    beta:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/fr_FR/changelog"
+      en_US: "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/en_US/changelog"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/es_ES/changelog"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-mcp_jeedom/de_DE/changelog"
+  description:
+    fr_FR: "Exposez Jeedom comme un serveur MCP (Model Context Protocol). Cette fonctionnalité permet aux outils d’intelligence artificielle (Claude Desktop, Cursor, etc.) de découvrir et piloter vos équipements, de consulter leurs états et d’exécuter des commandes et beaucoup d'autres possibilités via une interface standardisée et sécurisée. Vous pouvez également utiliser le plugin « AI Assistant » pour contrôler le MCP directement depuis Jeedom, avec l’IA de votre choix."
+    en_US: "Exposes Jeedom as a Model Context Protocol (MCP) server. Enables AI assistants (Claude Desktop, Cursor, etc.) to discover, read and control your home automation devices through a standardised and secure interface."
+    es_ES: "Expone Jeedom como un servidor del Protocolo de Contexto del Modelo (MCP). Permite a los asistentes de IA (Claude Desktop, Cursor, etc.) descubrir, leer y controlar sus dispositivos de domótica a través de una interfaz estandarizada y segura."
+    de_DE: "Stellt Jeedom als Model Context Protocol (MCP)-Server bereit. Ermöglicht KI-Assistenten (Claude Desktop, Cursor usw.), Ihre Hausautomatisierungsgeräte über eine standardisierte und sichere Schnittstelle zu erkennen, zu lesen und zu steuern."
+- id: nc_talk
+  name: "Nextcloud Talk"
+  market_id: 4225
+  doc:
+    stable:
+      fr_FR: "https://necen.github.io/nc_talk/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://necen.github.io/nc_talk/fr_FR/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de communiquer et d'interagir avec Jeedom via Nextcloud Talk."
+- id: newsapi
+  name: "NewsAPI"
+  market_id: 3674
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/newsapi/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/newsapi/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de récupérer les dernières informations depuis newsapi.org.<br/>Il est possible de gérer les critères de sélection et recherche."
+- id: notificationqueue
+  name: "Notification Queue"
+  market_id: 3823
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin permettant de créer des commandes de notifications (commande de type action/message) qui se comportent comme une file d'attente et ne délivrent les notifications (envoyées dans leur file respective) que si une condition est remplie. Cela permet de gérer également les doublons et les (non-)répétitions de messages."
+    en_US: "Plugin for creating notification commands (action/message type command) that behave like a queue and deliver notifications (sent in their respective queue) only if a condition is met. This also makes it possible to manage message duplication and (non-)repetition."
+    es_ES: "Plugin que permite crear comandos de notificación (comandos de tipo acción/mensaje) que se comportan como una cola y sólo entregan notificaciones (enviadas a sus respectivas colas) si se cumple una condición. Esto también permite gestionar la duplicación y (no) repetición de mensajes."
+    de_DE: "Plugin zum Erstellen von Benachrichtigungsbefehlen (Befehl vom Typ Aktion/Nachricht), die sich wie eine Warteschlange verhalten und die Benachrichtigungen (die in ihre jeweilige Warteschlange gesendet werden) nur dann ausliefern, wenn eine Bedingung erfüllt ist. Auf diese Weise lassen sich auch doppelte und (nicht) wiederholte Nachrichten verwalten."
+- id: ntfy
+  name: "Ntfy"
+  market_id: 4341
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/ntfy/"
+    beta:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/ntfy/"
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/ntfy/changelog.html"
+    beta:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/ntfy/changelog.html"
+  description:
+    fr_FR: "Permet d'envoyer des notifications sur le service ntfy, y compris une instance personnelle"
+- id: pilot
+  name: "Pilot : client domotique"
+  market_id: 3220
+  doc:
+    stable:
+      fr_FR: "https://patrickferreira.github.io/PilotJeedom/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://patrickferreira.github.io/PilotJeedom/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin officiel de l'application Pilot sur iOS. Ce plugin permet de paramétrer Pilot en un clic via le scan d'un QR code.<br/><br/>Téléchargez l'application sur l'App Store : https://itunes.apple.com/fr/app/pilot-home-automation-client/id902546368?l=fr&ls=1&mt=8<br/><br/>Plus d'info : https://pilot.patrickferreira.com"
+- id: pipup
+  name: "PiPup"
+  market_id: 4254
+  doc:
+    stable:
+      fr_FR: "https://github.com/Arnaud69Jeedom/pipup/blob/master/docs/fr_FR/index.md"
+    beta:
+      fr_FR: "https://github.com/Arnaud69Jeedom/pipup/blob/beta/docs/fr_FR/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/Arnaud69Jeedom/pipup/blob/master/docs/fr_FR/changelog.md"
+    beta:
+      fr_FR: "https://github.com/Arnaud69Jeedom/pipup/blob/beta/docs/fr_FR/changelog.md"
+  description:
+    fr_FR: "Plugin pour les notifications sur Android TV via PiPup"
+- id: pushbullet
+  name: "PushBullet"
+  market_id: 251
+  doc:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/pushbullet/fr_FR/index.html"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeedom.github.io/documentation/third_plugin/pushbullet/fr_FR/index.html#_changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour utiliser PushBullet"
+- id: pushover2
+  name: "Pushover2"
+  market_id: 4356
+  doc:
+    stable:
+      fr_FR: "https://wocha-fr.github.io/jeedom-pushover2/fr_FR/"
+      en_US: "https://wocha-fr.github.io/jeedom-pushover2/en_US/"
+      es_ES: "https://wocha-fr.github.io/jeedom-pushover2/es_ES/"
+    beta:
+      fr_FR: "https://wocha-fr.github.io/jeedom-pushover2/fr_FR/index_beta"
+      en_US: "https://wocha-fr.github.io/jeedom-pushover2/en_US/index_beta"
+      es_ES: "https://wocha-fr.github.io/jeedom-pushover2/es_ES/index_beta"
+  changelog:
+    stable:
+      fr_FR: "https://wocha-fr.github.io/jeedom-pushover2/fr_FR/changelog"
+      en_US: "https://wocha-fr.github.io/jeedom-pushover2/en_US/changelog"
+      es_ES: "https://wocha-fr.github.io/jeedom-pushover2/es_ES/changelog"
+    beta:
+      fr_FR: "https://wocha-fr.github.io/jeedom-pushover2/fr_FR/changelog_beta"
+      en_US: "https://wocha-fr.github.io/jeedom-pushover2/en_US/changelog_beta"
+      es_ES: "https://wocha-fr.github.io/jeedom-pushover2/es_ES/changelog_beta"
+  description:
+    fr_FR: "Permet d'utiliser Pushover pour envoyer des notifications"
+- id: rocketchat
+  name: "Rocket.Chat"
+  market_id: 3902
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin permettant la connexion à un serveur Rocket.chat. Rocket.chat est une plateforme de messagerie collaborative (type slack, HipChat...)"
+    en_US: "Plugin for connecting to a Rocket.chat server. Rocket.chat is a collaborative messaging platform (type slack, HipChat...)"
+    es_ES: "Plugin para conectarse a un servidor Rocket.chat. Rocket.chat es una plataforma de mensajería colaborativa (como slack, HipChat...)"
+    de_DE: "Plugin, das die Verbindung zu einem Rocket.chat-Server ermöglicht. Rocket.chat ist eine Plattform für kollaboratives Messaging (Typ slack, HipChat...)"
+- id: sigfox
+  name: "Sigfox"
+  market_id: 2343
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/sigfox/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/sigfox/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Sigfox est un protocole pour les objets connectés. Ne nécessite pas de connexion internet et ayant une portée de plusieurs kms pour émettre à une antenne, c'est le protocole idéal pour de nombreux domaines.Ce plugin permet à Jeedom de récupérer les infos de Sigfox directement sur réception en callback. Il ne permet pas d'envoyer des données à Sigfox actuellement (pas possible d'utiliser une carte d'extension par exemple)"
+- id: signal
+  name: "Signal Messenger"
+  market_id: 4325
+  doc:
+    stable:
+      fr_FR: "https://ddelec24.github.io/docs-jeedom/signal/fr_FR/"
+      en_US: "https://ddelec24.github.io/docs-jeedom/signal/en_US/"
+      es_ES: "https://ddelec24.github.io/docs-jeedom/signal/es_ES/"
+      de_DE: "https://ddelec24.github.io/docs-jeedom/signal/de_DE/"
+    beta:
+      fr_FR: "https://ddelec24.github.io/docs-jeedom/signal/fr_FR/beta/"
+      en_US: "https://ddelec24.github.io/docs-jeedom/signal/en_US/beta/"
+      es_ES: "https://ddelec24.github.io/docs-jeedom/signal/es_ES/beta/"
+      de_DE: "https://ddelec24.github.io/docs-jeedom/signal/de_DE/beta/"
+  changelog:
+    stable:
+      fr_FR: "https://ddelec24.github.io/docs-jeedom/signal/fr_FR/changelog"
+      en_US: "https://ddelec24.github.io/docs-jeedom/signal/en_US/changelog"
+      es_ES: "https://ddelec24.github.io/docs-jeedom/signal/es_ES/changelog"
+      de_DE: "https://ddelec24.github.io/docs-jeedom/signal/de_DE/changelog"
+    beta:
+      fr_FR: "https://ddelec24.github.io/docs-jeedom/signal/fr_FR/beta/changelog"
+      en_US: "https://ddelec24.github.io/docs-jeedom/signal/en_US/beta/changelog"
+      es_ES: "https://ddelec24.github.io/docs-jeedom/signal/es_ES/beta/changelog"
+      de_DE: "https://ddelec24.github.io/docs-jeedom/signal/de_DE/beta/changelog"
+  description:
+    fr_FR: "Plugin Jeedom permettant de recevoir et envoyer des messages via l'API Signal"
+- id: snips
+  name: "Snips Voice Assistant"
+  market_id: 3419
+  doc:
+    stable:
+      fr_FR: "https://docs.snips.ai/guides/raspberrypi/jeedom/fr"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/snipsco/snips-jeedom-plugin/blob/master/CHANGE_LOG.md"
+    beta: false
+  description:
+    fr_FR: "Snips est un assistant vocal 100% personnalisable vous permettant de contrôler vos appareils connectés à Jeedom. Snips respecte votre vie privée car aucune requête n'est traité dans le cloud, tout est stocké et géré localement. <br/><br/>Rejoignez la discussion sur le forum Snips:<br/>https://forum.snips.ai/c/home-automation/jeedom-fr<br/><br/>Projet sur Github: <br/>https://github.com/snipsco/snips-jeedom-plugin<br/><br/>Tout rapport de bogue et suggestion de fonctionnalité peut être soumis ici:<br/>https://github.com/snipsco/snips-jeedom-plugin/issues<br/>--------<br/>* En téléchargeant et en installant cet assistant, vous acceptez d’en faire un usage non-commercial. <br/>* By downloading and installing this assistant, you acknowledge that it is free for non-commercial use."
+- id: Swissms
+  name: "Swiss SMS"
+  market_id: 2302
+  doc:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/Swissms/fr_FR/"
+      en_US: "https://zyg0m4t1k.github.io/Swissms/en_US/"
+      de_DE: "https://zyg0m4t1k.github.io/Swissms/de_DE/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/Swissms/fr_FR/changelog"
+      en_US: "https://zyg0m4t1k.github.io/Swissms/en_US/changelog"
+      de_DE: "https://zyg0m4t1k.github.io/Swissms/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour envoyer des Sms via swisscom"
+- id: synologychat
+  name: "Chat Synology"
+  market_id: 2916
+  doc:
+    stable:
+      fr_FR: "https://jeedom.github.io/plugin-synologychat/fr_FR/"
+      en_US: "https://jeedom.github.io/plugin-synologychat/en_US/"
+      de_DE: "https://jeedom.github.io/plugin-synologychat/de_DE/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeedom.github.io/plugin-synologychat/fr_FR/changelog"
+      en_US: "https://jeedom.github.io/plugin-synologychat/en_US/changelog"
+      de_DE: "https://jeedom.github.io/plugin-synologychat/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour integrer Jeedom au chat Synology"
+- id: TaskerAutoRemote
+  name: "TaskerAutoRemote"
+  market_id: 3795
+  doc:
+    stable:
+      fr_FR: "https://agp42.github.io/Jeedom-TaskerAutoremote/fr_FR"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://agp42.github.io/Jeedom-TaskerAutoremote/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour envoyer des messages et notification à tout appareil Android via AutoRemote"
+- id: telegram
+  name: "Telegram"
+  market_id: 2076
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/telegram/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/telegram/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Permet d'utiliser un Bot Telegram pour discuter avec votre Jeedom. Le plugin permet d'utiliser les fonctionnalités d'interactions, ask (avec menu réponses) et l'envoi de pièces jointes par Jeedom. Attention il nécessite d'avoir une connexion https fonctionnelle sur votre Jeedom"
+- id: telnet
+  name: "Telnet"
+  market_id: 3740
+  doc:
+    stable:
+      fr_FR: "https://github.com/Sh0n/docs/wiki/Plugin-Telnet-(telnet)"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/Sh0n/docs/blob/master/telnet/Changelog.md"
+    beta: false
+  description:
+    fr_FR: "Plugin pour l'envoi de commande telnet"
+- id: tendaac
+  name: "Routeur Tenda AC"
+  market_id: 3934
+  doc:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/presentation-du-plugin-routeur-tenda-ac-pour-jeedom/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-routeur-tenda-ac-pour-jeedom/"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de gérer les routeurs Tenda AC11"
+- id: twilio
+  name: "Twilio"
+  market_id: 4233
+  doc:
+    stable:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/twilio/fr_FR/"
+    beta:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/twilio/fr_FR/"
+  changelog:
+    stable:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/twilio/fr_FR/changelog"
+    beta:
+      fr_FR: "http://fobsoft.github.io/jeedom-plugins-documentation/twilio/fr_FR/changelog"
+  description:
+    fr_FR: "Plugins pour envoyez et recevoir des messages texte. Ajoutez des SMS à votre application dès aujourd'hui."
+- id: zipabox
+  name: "Zipabox"
+  market_id: 2953
+  doc:
+    stable:
+      fr_FR: "https://revlysj.github.io/zipabox/fr_FR/index"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://revlysj.github.io/zipabox/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour communiquer avec une zipabox."

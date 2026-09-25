@@ -1,0 +1,163 @@
+# Installation von Node-RED
+
+Nodered ist ein in Node.js geschriebenes Tool zur Verwaltung von IoT- oder Hausautomations-Workflows. Es bietet eine grafische Benutzeroberfläche zum Bearbeiten von Workflows. Das Tutorial beschreibt die Installation, die Konfiguration eines Reverse-Proxys und die Inbetriebnahme als Dienst.
+
+# Installation von Nodered
+
+Hier sind die Befehle, die Sie ausführen müssen, um Node-RED zu installieren, vorausgesetzt, Sie verfügen über ein funktionsfähiges Node.js:
+
+````
+sudo apt-get -y install libavahi-compat-libdnssd-dev libusb-1.0-0-dev build-essential
+sudo npm install -g node-red
+````
+
+Um Node.js zu erhalten, können Sie eines der Jeedom-Plugins installieren, das dies übernimmt.
+
+#  Automatischer Start von Nodered
+
+Nodered kann als Dienst registriert werden, damit es beim Hochfahren der Box automatisch gestartet wird. Ein Beispiel [hier](https://gist.github.com/bigmonkeyboy/9962293)
+
+# Apache-Konfiguration
+
+Hier ist ein Beispiel für eine Datei, mit der Sie über einen Reverse-Proxy auf Node-RED zugreifen können.
+
+````
+<Location /jeedom/nodered>
+ProxyPass ws://localhost:1880/jeedom/nodered/
+ProxyPass http://localhost:1880/jeedom/nodered/
+#ProxyPassReverse ws://localhost:1880/jeedom/nodered/
+#ProxyPassReverse http://localhost:1880/jeedom/nodered/
+</Location>
+````
+
+# Nginx-Konfiguration
+
+Hier ist ein Beispiel für eine Datei, mit der Sie über einen Reverse-Proxy auf Node-RED zugreifen können.
+
+````
+location /jeedom/nodered/ {
+  proxy_pass http://127.0.0.1:1880;
+  proxy_set_header Host $host;
+  proxy_buffering off;
+  tcp_nodelay on;
+  access_log off;
+  proxy_http_version 1.1;
+  proxy_set_header Upgrade $http_upgrade;
+  proxy_set_header Connection 'Upgrade';
+  proxy_redirect off;
+  proxy_read_timeout 6000;
+}
+````
+
+# Vorhandene Module für Nodered
+
+Hier finden Sie Beispiele für Erweiterungen, die für Nodered verfügbar sind.
+
+## Avahi/Bonjour-Erkennungsmodul
+
+````
+sudo npm install node-red-node-discovery -g
+ google module sudo npm
+install node-red-node-google -g
+ sun events module sudo npm install
+node-red-contrib-sunevents -g
+ Json path sudo npm install
+node-red-contrib-jsonpath -g
+ geofence module, check if localisation is in zone sudo npm install node-red-node-geofence -g 
+ geohas, decode
+latitude longitude from string sudo npm install node-red-node-geohash -g
+ Foursquare, recommandation on location sudo npm install
+node-red-node-foursquare -g
+ Ping sudo npm install
+node-red-contrib-advanced-ping -g sudo npm install node-red-node-ping -g
+ WOL sudo npm install node-red-node-wol -g
+ SNMP sudo npm install
+node-red-node-snmp -g
+ Weather sudo npm install
+node-red-node-forecastio -g sudo npm install
+node-red-node-openweathermap -g sudo npm install
+node-red-node-weather-underground -g
+ General GPIO sudo npm install
+node-red-contrib-gpio -g
+ Electirc Imp sudo npm install imp-io -g
+Spark Core sudo npm install spark-io -g
+ Arduino/Firmata sudo npm
+install firmata -g
+ Pushover sudo npm install node-red-node-pushover -g
+ Notify My Android sudo npm install node-red-node-nma -g
+Pushbullet sudo npm install node-red-node-pushbullet -g
+ Prowl sudo
+npm install node-red-node-prowl -g
+ XMPP sudo npm install
+node-red-node-xmpp -g
+ IRC sudo npm install node-red-node-irc -g
+Slack sudo npm install node-red-contrib-slack -g
+ Pusher sudo npm
+install node-red-node-pusher -g
+ Stockage sudo npm install
+node-red-node-dropbox -g sudo npm install node-red-node-flickr -g sudo
+npm install node-red-node-aws -g sudo npm install node-red-node-box -g
+ Musique sudo npm install node-red-contrib-mpd -g sudo npm install
+node-red-contrib-mopidy -g
+ Activities sudo npm install
+node-red-node-fitbit -g sudo npm install node-red-node-jawboneup -g sudo
+npm install node-red-node-strava -g
+ KNX/EIBD sudo npm install
+node-red-contrib-eibd -g
+ OpenZwave sudo npm install
+node-red-contrib-openzwave -g
+ RFXcom sudo npm install
+node-red-contrib-rfxcom -g
+ OWFS sudo npm install
+node-red-contrib-owfs -g
+ Nest sudo npm install node-red-contrib-nest -g
+ Hue sudo npm install node-red-contrib-hue -g
+ Spark-Core sudo
+npm install node-red-contrib-sparkcore -g
+ Wemo sudo npm install
+node-red-node-wemo -g
+ Zibase sudo npm install node-red-contrib-zibase -g
+ SensorTag sudo npm install node-red-node-sensortag -g
+Blinkstick sudo npm install node-red-node-blinkstick -g
+ Blink1 sudo
+npm install node-red-node-blink1 -g
+ Tellstick *sudo npm install
+node-red-contrib-tellstick -g
+ PiTFT
+sudo npm install
+node-red-contrib-pitft-touch -g
+ Pibrella
+sudo npm install
+node-red-node-pibrella -g
+sudo apt-get -y install python-rpi.gpio
+PiBord
+sudo npm install node-red-node-ledborg -g
+ Sensors
+sudo npm
+install node-red-contrib-bmp085 -g
+sudo npm install
+node-red-contrib-ds18b20-sensor -g
+sudo npm install
+node-red-contrib-dht-sensor -g
+ GPIO
+ HummingBoard
+sudo npm
+install node-red-node-hbgpio -g
+sudo cp
+node\_modules/node-red-node-hbgpio/gpiohb /usr/local/bin/
+sudo chmod
+4755 /usr/lcoal/bin/gpiohb
+ Raspberry Pi
+sudo npm install raspi-io -g
+* BeagleBone Black
+sudo npm install beaglebone-io -g
+
+Galileo/Edison
+sudo npm install galileo-io -g
+ Blend Micro
+sudo
+npm install blend-micro-io -g
+ LightBlue Bean
+sudo npm install
+bean-io -g
+````

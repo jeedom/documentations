@@ -1,0 +1,454 @@
+- id: airquality
+  name: "Air Quality"
+  market_id: 4165
+  doc:
+    stable:
+      fr_FR: "https://oliviermongeot.github.io/airquality/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://github.com/OlivierMongeot/airquality/blob/Master/docs/changelog.md"
+    beta: false
+  description:
+    fr_FR: "Ce plugin affiche les concentrations de polluants dans l'air partout dans le monde, il indique également les prévisons sur 5 jours ainsi que des alertes"
+    en_US: "This plugin displays the concentrations of pollutants, it also shows the forecasts on 5 days and give alerts"
+- id: AtmoFrance
+  name: "Atmo France, Pollens & AQI"
+  market_id: 4567
+  doc:
+    stable:
+      fr_FR: "https://jpty.github.io/jeedom/plugins/AtmoFrance/fr_FR/index.html"
+    beta:
+      fr_FR: "https://jpty.github.io/jeedom/plugins/AtmoFrance/fr_FR/index.html"
+  changelog:
+    stable:
+      fr_FR: "https://jpty.github.io/jeedom/plugins/AtmoFrance/fr_FR/changelog.html"
+    beta:
+      fr_FR: "https://jpty.github.io/jeedom/plugins/AtmoFrance/fr_FR/changelog.html"
+  description:
+    fr_FR: "Plugin pour récupération des pollens et des polluants. Le site Atmo France est utilisé comme source de données."
+- id: baro
+  name: "Tendance Baro"
+  market_id: 2405
+  doc:
+    stable:
+      fr_FR: "https://jealg.github.io/documentation/plugin-tendance_baro/fr_FR/"
+      en_US: "https://jealg.github.io/documentation/plugin-tendance_baro/en_US/"
+      es_ES: "https://jealg.github.io/documentation/plugin-tendance_baro/es_ES/"
+      de_DE: "https://jealg.github.io/documentation/plugin-tendance_baro/de_DE/"
+    beta:
+      fr_FR: "https://jealg.github.io/documentation/plugin-tendance_baro/fr_FR/"
+      en_US: "https://jealg.github.io/documentation/plugin-tendance_baro/en_US/"
+      es_ES: "https://jealg.github.io/documentation/plugin-tendance_baro/es_ES/"
+      de_DE: "https://jealg.github.io/documentation/plugin-tendance_baro/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://jealg.github.io/documentation/plugin-tendance_baro/fr_FR/changelog"
+      en_US: "https://jealg.github.io/documentation/plugin-tendance_baro/en_US/changelog"
+      es_ES: "https://jealg.github.io/documentation/plugin-tendance_baro/es_ES/changelog"
+      de_DE: "https://jealg.github.io/documentation/plugin-tendance_baro/de_DE/changelog"
+    beta:
+      fr_FR: "https://jealg.github.io/documentation/plugin-tendance_baro/beta/fr_FR/changelog"
+      en_US: "https://jealg.github.io/documentation/plugin-tendance_baro/beta/en_US/changelog"
+      es_ES: "https://jealg.github.io/documentation/plugin-tendance_baro/beta/es_ES/changelog"
+      de_DE: "https://jealg.github.io/documentation/plugin-tendance_baro/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin de calcul de tendance météo basée sur les variations de pression d'un baromètre connecté à Jeedom (local)"
+    en_US: "Plugin for calculating weather trends based on pressure variations from a barometer connected to Jeedom (local)"
+    es_ES: "Plugin para calcular la evolución del tiempo a partir de las variaciones de presión de un barómetro conectado a Jeedom (local)"
+    de_DE: "Plugin zur Berechnung von Wettertrends basierend auf den Druckschwankungen eines mit Jeedom verbundenen Barometers (lokal)"
+- id: blitzortung
+  name: "Impacts de foudre"
+  market_id: 4431
+  doc:
+    stable:
+      fr_FR: "https://github.com/BisonJeedom/documentations/blob/main/blitzortung/index_stable.md"
+    beta:
+      fr_FR: "https://github.com/BisonJeedom/documentations/blob/main/blitzortung/index_beta.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/BisonJeedom/documentations/blob/main/blitzortung/changelog_stable.md"
+    beta:
+      fr_FR: "https://github.com/BisonJeedom/documentations/blob/main/blitzortung/changelog_beta.md"
+  description:
+    fr_FR: "Ce plugin permet la récupération des impacts de foudre à travers le monde"
+- id: darksky
+  name: "Dark Sky"
+  market_id: 2619
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/darksky/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/darksky/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de récupérer les données météo depuis Dark Sky. <br/><br/>Attention, Dark Sky a été racheté par Apple le 31 mars 2020. Depuis il n'est plus possible de créer de clef API. Le plugin ne fonctionnera que pour les installations existantes le temps qu'ils la maintiennent."
+- id: designImgSwitch
+  name: "Design Background Image"
+  market_id: 3819
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/designImgSwitch/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/designImgSwitch/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/designImgSwitch/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/designImgSwitch/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/designImgSwitch/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/designImgSwitch/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/designImgSwitch/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/designImgSwitch/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/designImgSwitch/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/designImgSwitch/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/designImgSwitch/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/designImgSwitch/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/designImgSwitch/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/designImgSwitch/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/designImgSwitch/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/designImgSwitch/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin permettant de changer automatiquement l'image de fond de vos design en fonction de la météo."
+    en_US: "Plugin that automatically changes the background image of your designs according to the weather."
+    es_ES: "Plugin que cambia automáticamente la imagen de fondo de tus diseños en función del tiempo."
+    de_DE: "Plugin, mit dem Sie das Hintergrundbild Ihrer Designs je nach Wetterlage automatisch ändern können."
+- id: heliotrope
+  name: "Heliotrope"
+  market_id: 1482
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/heliotrope/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/heliotrope/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Permet de calculer plusieurs valeurs relatives au soleil sans API, tout le calcul est fait en local. Les valeurs utiles : altitude : la hauteur du soleil a l'instant t, azimuth : la direction du soleil a l'instant t, sunrise : le lever du soleil du jour, sunset : le coucher du soleil du jour. L'altitude et l'azimuth servent principalement a agir sur l'ouverture/fermeture de volets pour se protéger ou récupérer la chaleur du soleil."
+- id: horlogehtc
+  name: "horlogehtc"
+  market_id: 2360
+  doc:
+    stable:
+      fr_FR: "https://ZitouneOlivier.github.io/jeedom_horlogehtc/fr_FR/"
+      en_US: "https://ZitouneOlivier.github.io/jeedom_horlogehtc/en_US/"
+      es_ES: "https://ZitouneOlivier.github.io/jeedom_horlogehtc/es_ES/"
+      de_DE: "https://ZitouneOlivier.github.io/jeedom_horlogehtc/de_DE/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://ZitouneOlivier.github.io/jeedom_horlogehtc/fr_FR/changelog"
+      en_US: "https://ZitouneOlivier.github.io/jeedom_horlogehtc/en_US/changelog"
+      es_ES: "https://ZitouneOlivier.github.io/jeedom_horlogehtc/es_ES/changelog"
+      de_DE: "https://ZitouneOlivier.github.io/jeedom_horlogehtc/de_DE/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant d'afficher une Horloge de type HTC, avec Météo en cours issue de forecast.io"
+- id: LunarPhase
+  name: "LunarPhase"
+  market_id: 4604
+  doc:
+    stable:
+      fr_FR: "https://eridani78.github.io/LunarPhase-Doc/docs/fr_FR/"
+      en_US: "https://eridani78.github.io/LunarPhase-Doc/docs/en_US/"
+    beta:
+      fr_FR: "https://eridani78.github.io/LunarPhase-Doc/docs/fr_FR/"
+      en_US: "https://eridani78.github.io/LunarPhase-Doc/docs/en_US/"
+  changelog:
+    stable:
+      fr_FR: "https://eridani78.github.io/LunarPhase-Doc/CHANGELOG"
+    beta:
+      fr_FR: "https://eridani78.github.io/LunarPhase-Doc/CHANGELOG_beta"
+  description:
+    fr_FR: "Plugin montrant l'apparence visuelle de la lune du jour ainsi que diverses informations complémentaires sur les phases lunaires en cours. Mots clés: cloudless, lune, moon, lunaire, lunar, phase"
+- id: Metar_infos
+  name: "Metar_infos"
+  market_id: 2342
+  doc:
+    stable:
+      fr_FR: "https://jealg.github.io/documentation/plugin-metar_infos/fr_FR/"
+      en_US: "https://jealg.github.io/documentation/plugin-metar_infos/en_US/"
+      es_ES: "https://jealg.github.io/documentation/plugin-metar_infos/es_ES/"
+      de_DE: "https://jealg.github.io/documentation/plugin-metar_infos/de_DE/"
+    beta:
+      fr_FR: "https://jealg.github.io/documentation/plugin-metar_infos/fr_FR/"
+      en_US: "https://jealg.github.io/documentation/plugin-metar_infos/en_US/"
+      es_ES: "https://jealg.github.io/documentation/plugin-metar_infos/es_ES/"
+      de_DE: "https://jealg.github.io/documentation/plugin-metar_infos/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://jealg.github.io/documentation/plugin-metar_infos/fr_FR/changelog"
+      en_US: "https://jealg.github.io/documentation/plugin-metar_infos/en_US/changelog"
+      es_ES: "https://jealg.github.io/documentation/plugin-metar_infos/es_ES/changelog"
+      de_DE: "https://jealg.github.io/documentation/plugin-metar_infos/de_DE/changelog"
+    beta:
+      fr_FR: "https://jealg.github.io/documentation/plugin-metar_infos/beta/fr_FR/changelog"
+      en_US: "https://jealg.github.io/documentation/plugin-metar_infos/beta/en_US/changelog"
+      es_ES: "https://jealg.github.io/documentation/plugin-metar_infos/beta/es_ES/changelog"
+      de_DE: "https://jealg.github.io/documentation/plugin-metar_infos/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin pour recevoir les observations météo des aéroports (METAR) ainsi que les prévisions (TAF)"
+    en_US: "Plugin to receive airport weather observations (METAR) and forecasts (TAF)"
+    es_ES: "Plugin para recibir observaciones meteorológicas de aeropuertos (METAR) y previsiones (TAF)"
+    de_DE: "Plugin zum Empfang von Wetterbeobachtungen von Flughäfen (METAR) sowie Vorhersagen (TAF)"
+- id: meteofrance
+  name: "Météo France"
+  market_id: 4039
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/meteofrance/"
+    beta:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/meteofrance/"
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/meteofrance/changelog.html"
+    beta:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/meteofrance/changelog.html"
+  description:
+    fr_FR: "Ce plugin permet de récupérer différents types d'informations/alertes météo depuis le site de Météo France : vigilance, pluie, alertes, météo marine, marée ..."
+- id: MeteoFull
+  name: "MeteoFull"
+  market_id: 4102
+  doc:
+    stable:
+      fr_FR: "https://anthonydomotique.github.io/jeedom_docs/MeteoFull_plugin/documentation.html"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://anthonydomotique.github.io/jeedom_docs/MeteoFull_plugin/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Le plugin est le fruit de la réalisation du widget MeteoFull. De ce fait, le manque de fonctionnalités, de commandes pour son utilisation dans les scénarios, ... a fait naître l'obligation de développer ce plugin. Il permettra de faire tout ce que le widget faisait, à savoir bénéficier de la météo quotidienne et heure par heure pour 5 jours, mais également d'obtenir des statistiques, une personnalisation toujours plus poussée, ... Il a été développé à trois, jcamus86, jvanoost et AnthonyDomotique. Les données sont récupérées depuis l'api de https://www.prevision-meteo.ch/ pour la plupart des données et pour la zone géographique (France, Belgique, Suisse).Les autres données pour cette zone géographique, viennent de https://meteofrance.com/ ou sont calculées directement. N'hésitez pas à me suivre sur Twitter : https://twitter.com/AnthonyDomotiq"
+- id: meteomc
+  name: "Météo Concept"
+  market_id: 4372
+  doc:
+    stable:
+      fr_FR: "https://WoCha-FR.github.io/jeedom-meteomc/fr_FR/"
+      en_US: "https://WoCha-FR.github.io/jeedom-meteomc/en_US/"
+    beta:
+      fr_FR: "https://WoCha-FR.github.io/jeedom-meteomc/fr_FR/index_beta"
+      en_US: "https://WoCha-FR.github.io/jeedom-meteomc/en_US/index_beta"
+  changelog:
+    stable:
+      fr_FR: "https://WoCha-FR.github.io/jeedom-meteomc/fr_FR/changelog"
+      en_US: "https://WoCha-FR.github.io/jeedom-meteomc/en_US/changelog"
+    beta:
+      fr_FR: "https://WoCha-FR.github.io/jeedom-meteomc/fr_FR/changelog_beta"
+      en_US: "https://WoCha-FR.github.io/jeedom-meteomc/en_US/changelog_beta"
+  description:
+    fr_FR: "Récupération des prévisions météo depuis L'API de Météo Concept."
+    en_US: "Retrieve weather forecasts from the Météo Concept API."
+- id: meteoprev
+  name: "Prevision meteo"
+  market_id: 3228
+  doc:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/meteoprev/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/meteoprev/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Plugin pour récupérer les prévisions météo sur 5 jours"
+- id: netatmoPublicData
+  name: "Netatmo OpenData"
+  market_id: 4008
+  doc:
+    stable:
+      fr_FR: "https://jim005.github.io/jeedom-netatmoPublicData/fr_FR/"
+      en_US: "https://jim005.github.io/jeedom-netatmoPublicData/en_US/"
+      es_ES: "https://jim005.github.io/jeedom-netatmoPublicData/es_ES/"
+      de_DE: "https://jim005.github.io/jeedom-netatmoPublicData/de_DE/"
+    beta:
+      fr_FR: "https://github.com/jim005/jeedom-netatmoPublicData/blob/beta/docs/fr_FR/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://jim005.github.io/jeedom-netatmoPublicData/fr_FR/changelog"
+      en_US: "https://jim005.github.io/jeedom-netatmoPublicData/en_US/changelog"
+      es_ES: "https://jim005.github.io/jeedom-netatmoPublicData/es_ES/changelog"
+      de_DE: "https://jim005.github.io/jeedom-netatmoPublicData/de_DE/changelog"
+    beta:
+      fr_FR: "https://github.com/jim005/jeedom-netatmoPublicData/blob/beta/docs/fr_FR/changelog.md"
+  description:
+    fr_FR: "Vos voisins ont une station météo Netatmo dans leur jardin (et pas vous ) ?<br/>Récupérer leurs données pour votre Jeedom (température, pression, pluie, vent...) et gratuitement."
+    en_US: "Do your neighbors have a Netatmo weather station in their garden (and you don't)?<br/>Get their data for your Jeedom (temperature, pressure, rain, wind...) for free."
+    es_ES: "¿Tus vecinos tienen una estación meteorológica Netatmo en su jardín (y tú no)?<br/>Obtén gratis sus datos para tu Jeedom (temperatura, presión, lluvia, viento, etc.)."
+    de_DE: "Ihre Nachbarn haben eine Netatmo-Wetterstation in ihrem Garten (und Sie nicht )?<br/>Holen Sie sich ihre Daten für Ihr Jeedom (Temperatur, Luftdruck, Regen, Wind...) und das kostenlos."
+- id: previsy
+  name: "Previsy"
+  market_id: 4016
+  doc:
+    stable:
+      fr_FR: "https://ynats.github.io/jeedom-plugin-previsy/fr_FR/"
+      en_US: "https://ynats.github.io/jeedom-plugin-previsy/en_US/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://ynats.github.io/jeedom-plugin-previsy/fr_FR/changelog"
+      en_US: "https://ynats.github.io/jeedom-plugin-previsy/en_US/changelog"
+    beta: false
+  description:
+    fr_FR: "Ce plugin annonce les prochaines prévisions en alerte météo (72H) en France, Belgique et Suisse. Previsy construit également des phrases qui peuvent être utilisées pour vous être envoyées par sms, annoncées par votre home ou slack etc… Par ailleurs, vous avez également la possibilité d'utiliser les données brutes pour vous créer des scénarios sur mesure."
+    en_US: "This plugin announces the next forecasts in weather alert (72H) in France, Belgium and Switzerland. Previsy also builds sentences that can be used to be sent to you by sms, announced by your home or slack etc... Moreover, you also have the possibility to use the raw data to create custom scenarios."
+- id: propluvia
+  name: "Propluvia"
+  market_id: 4446
+  doc:
+    stable:
+      fr_FR: "https://github.com/OUARZA/Propluvia/blob/stable/docs/fr_FR/index.md"
+      en_US: "https://github.com/OUARZA/Propluvia/blob/stable/docs/en_US/index.md"
+      es_ES: "https://github.com/OUARZA/Propluvia/blob/stable/docs/es_ES/index.md"
+      de_DE: "https://github.com/OUARZA/Propluvia/blob/stable/docs/de_DE/index.md"
+    beta:
+      fr_FR: "https://github.com/OUARZA/Propluvia/blob/beta/docs/fr_FR/index.md"
+      en_US: "https://github.com/OUARZA/Propluvia/blob/beta/docs/en_US/index.md"
+      es_ES: "https://github.com/OUARZA/Propluvia/blob/beta/docs/es_ES/index.md"
+      de_DE: "https://github.com/OUARZA/Propluvia/blob/beta/docs/de_DE/index.md"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/OUARZA/Propluvia/blob/stable/docs/fr_FR/changelog.md"
+      en_US: "https://github.com/OUARZA/Propluvia/blob/stable/docs/en_US/changelog.md"
+      es_ES: "https://github.com/OUARZA/Propluvia/blob/stable/docs/es_ES/changelog.md"
+      de_DE: "https://github.com/OUARZA/Propluvia/blob/stable/docs/de_DE/changelog.md"
+    beta:
+      fr_FR: "https://github.com/OUARZA/Propluvia/blob/beta/docs/fr_FR/changelog.md"
+      en_US: "https://github.com/OUARZA/Propluvia/blob/beta/docs/en_US/changelog.md"
+      es_ES: "https://github.com/OUARZA/Propluvia/blob/beta/docs/es_ES/changelog.md"
+      de_DE: "https://github.com/OUARZA/Propluvia/blob/beta/docs/de_DE/changelog.md"
+  description:
+    fr_FR: "Ce plugin permet de remonter les informations du site de l'information sécheresse du Gouvernement Propluvia https://propluvia.developpement-durable.gouv.fr/ via l'API du site https://eau.api.agriculture.gouv.fr."
+- id: pws
+  name: "Personal Weather Station"
+  market_id: 3927
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/pws/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/pws/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de connecter les stations météo compatibles avec WS View directement avec Jeedom."
+- id: rosee
+  name: "Rosée & Givre"
+  market_id: 1653
+  doc:
+    stable:
+      fr_FR: "https://jealg.github.io/documentation/plugin-rosee/fr_FR/"
+      en_US: "https://jealg.github.io/documentation/plugin-rosee/en_US/"
+      es_ES: "https://jealg.github.io/documentation/plugin-rosee/es_ES/"
+      de_DE: "https://jealg.github.io/documentation/plugin-rosee/de_DE/"
+    beta:
+      fr_FR: "https://jealg.github.io/documentation/plugin-rosee/fr_FR/"
+      en_US: "https://jealg.github.io/documentation/plugin-rosee/en_US/"
+      es_ES: "https://jealg.github.io/documentation/plugin-rosee/es_ES/"
+      de_DE: "https://jealg.github.io/documentation/plugin-rosee/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://jealg.github.io/documentation/plugin-rosee/fr_FR/changelog"
+      en_US: "https://jealg.github.io/documentation/plugin-rosee/en_US/changelog"
+      es_ES: "https://jealg.github.io/documentation/plugin-rosee/es_ES/changelog"
+      de_DE: "https://jealg.github.io/documentation/plugin-rosee/de_DE/changelog"
+    beta:
+      fr_FR: "https://jealg.github.io/documentation/plugin-rosee/beta/fr_FR/changelog"
+      en_US: "https://jealg.github.io/documentation/plugin-rosee/beta/en_US/changelog"
+      es_ES: "https://jealg.github.io/documentation/plugin-rosee/beta/es_ES/changelog"
+      de_DE: "https://jealg.github.io/documentation/plugin-rosee/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin permetant de calculer : le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo. Le point de givrage ainsi que l'alerte ne se calculent uniquement dans le cas où la température &lt; 5°C. "
+    en_US: "Plugin for calculating: dew point, icing point, absolute humidity and weather trend. The icing point as well as the alert are calculated only in the case of temperature &lt; 5°C. "
+    es_ES: "Plugin para calcular: punto de rocío, punto de congelación, humedad absoluta y tendencia del tiempo. El punto de congelación así como la alerta sólo se calculan en caso de temperatura &lt; 5°C. "
+    de_DE: "Plugin zur Berechnung von: Taupunkt, Vereisungspunkt, absoluter Luftfeuchtigkeit und Wettertrend. Der Vereisungspunkt sowie die Warnung werden nur berechnet, wenn die Temperatur &lt; 5°C beträgt. "
+- id: swissmeteo
+  name: "Meteo Suisse"
+  market_id: 4145
+  doc:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/swissmeteo/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://zyg0m4t1k.github.io/docs/plugins/swissmeteo/changelog/"
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de récupérer les données météorologiques en suisse via le site officiel et l'application officielle"
+- id: temperature
+  name: "Température"
+  market_id: 2778
+  doc:
+    stable:
+      fr_FR: "https://jealg.github.io/documentation/plugin-temperature/fr_FR/"
+      en_US: "https://jealg.github.io/documentation/plugin-temperature/en_US/"
+      es_ES: "https://jealg.github.io/documentation/plugin-temperature/es_ES/"
+      de_DE: "https://jealg.github.io/documentation/plugin-temperature/de_DE/"
+    beta:
+      fr_FR: "https://jealg.github.io/documentation/plugin-temperature/fr_FR/"
+      en_US: "https://jealg.github.io/documentation/plugin-temperature/en_US/"
+      es_ES: "https://jealg.github.io/documentation/plugin-temperature/es_ES/"
+      de_DE: "https://jealg.github.io/documentation/plugin-temperature/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://jealg.github.io/documentation/plugin-temperature/fr_FR/changelog"
+      en_US: "https://jealg.github.io/documentation/plugin-temperature/en_US/changelog"
+      es_ES: "https://jealg.github.io/documentation/plugin-temperature/es_ES/changelog"
+      de_DE: "https://jealg.github.io/documentation/plugin-temperature/de_DE/changelog"
+    beta:
+      fr_FR: "https://jealg.github.io/documentation/plugin-temperaturee/beta/fr_FR/changelog"
+      en_US: "https://jealg.github.io/documentation/plugin-temperaturee/beta/en_US/changelog"
+      es_ES: "https://jealg.github.io/documentation/plugin-temperaturee/beta/es_ES/changelog"
+      de_DE: "https://jealg.github.io/documentation/plugin-temperaturee/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin pour calculer le windchill et l'indice de température"
+    en_US: "Plugin to calculate windchill and temperature index"
+    es_ES: "Plugin para calcular la sensación térmica y el índice de temperatura"
+    de_DE: "Plugin zur Berechnung von Windchill und Temperaturindex"
+- id: vigilancemeteo
+  name: "Vigilance Météo"
+  market_id: 1818
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/vigilancemeteo/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/vigilancemeteo/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de récupérer différents types d'informations/alertes météo : vigilance, pluie, qualité d'air, pollen, surf, marée, crue ... Suite à un changement majeur dans le site de Météo France, les informations de pluie 1h et météo des plages ne fonctionnent plus. Une correction est en cours."
+- id: weatherbit
+  name: "Weatherbit.io"
+  market_id: 4025
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/weatherbit/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/weatherbit/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Permet de récupérer les informations météo partout dans le monde gràce au site Weatherbit.io. Retrouvez les informations par heure, par jour et le tout mis à disposition également via un panel météo complet. Des informations de qualité d'air, pollen, et autres sont aussi disponible en plus des informations météos détaillées."
+- id: weatherForecast
+  name: "Weather Forecast, CAP alerts"
+  market_id: 4549
+  doc:
+    stable:
+      fr_FR: "https://jpty.github.io/jeedom/plugins/weatherForecast/"
+    beta:
+      fr_FR: "https://jpty.github.io/jeedom/plugins/weatherForecast/"
+  changelog:
+    stable:
+      fr_FR: "https://jpty.github.io/jeedom/plugins/weatherForecast/fr_FR/changelog.html"
+    beta:
+      fr_FR: "https://jpty.github.io/jeedom/plugins/weatherForecast/fr_FR/changelog.html"
+  description:
+    fr_FR: "Ce plugin permet de récupérer la météo actuelle et les prévisions météorologiques sur quelques jours en utilisant les sources Météo France, OpenWeather ou WeatherAPI. Les alertes météos de Meteoalarm ou Météo France sont aussi récupérées. Un widget est fourni permettant d'afficher la météo sous une horloge similaire à celle du plugin horlogeHTC."
+    en_US: "This plugin allows you to retrieve the current weather and the weather forecast for a few days using Météo France, OpenWeather or WeatherAPI sources. Weather alerts from Meteoalarm or Météo France are also retrieved. A widget is provided to display the weather under a clock similar to that of the horlogeHTC plugin."
+    de_DE: "Dieses Plugin ermöglicht das Abrufen des aktuellen Wetters und der Wettervorhersage für einige Tage unter Verwendung von OpenWeather- oder WeatherAPI-Quellen. Auch Wetterwarnungen von Meteoalarm oder Météo France werden abgerufen. Es steht ein Widget zur Verfügung, um das Wetter unter einer Uhr anzuzeigen, ähnlich dem Plugin horlogeHTC."
+    es_ES: "Este complemento permite recuperar el clima actual y el pronóstico del tiempo para algunos días utilizando fuentes OpenWeather o WeatherAPI. También se recuperan alertas meteorológicas de Meteoalarm o Météo France. Se proporciona un widget para mostrar el clima debajo de un reloj similar al complemento horlogeHTC."

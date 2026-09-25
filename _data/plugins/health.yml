@@ -1,0 +1,14 @@
+- id: fitbit
+  name: "Fitbit"
+  market_id: 1018
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour Fitbit"
+    en_US: "Plugbit for Fitbit"
+    es_ES: "Plugbit para Fitbit"
+    de_DE: "Plugbit für Fitbit"

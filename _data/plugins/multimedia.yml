@@ -1,0 +1,148 @@
+- id: denonavr
+  name: "Denon AVR"
+  market_id: 2077
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de piloter les amplificateurs Denon"
+    en_US: "Plugin to control Denon amplifiers"
+    es_ES: "Plugin para controlar amplificadores Denon"
+    de_DE: "Plugin zur Steuerung von Denon-Verstärkern"
+- id: harmonyhub
+  name: "Harmony Hub"
+  market_id: 1599
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de contrôler un ou plusieurs Harmony Hub."
+    en_US: "Plugin allowing to control one or more Harmony Hub"
+    es_ES: "Complemento que permite controlar uno o más Harmony Hub"
+    de_DE: "Plugin zur Steuerung eines oder mehrerer Harmony Hub"
+- id: hyperion2
+  name: "Ambilight"
+  market_id: 1909
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin hyperion pour le controle de celui-ci"
+- id: kodi
+  name: "Kodi"
+  market_id: 1398
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour envoyer et recevoir des commandes à/depuis Kodi"
+    en_US: "Plugin to send and receive orders to / from Kodi"
+    es_ES: "Complemento para enviar y recibir pedidos a / desde Kodi"
+    de_DE: "Plugin zum Senden und Empfangen von Bestellungen an / von Kodi"
+- id: pjlink
+  name: "PJLink"
+  market_id: 4034
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Le plugin PJLink permet le contrôle des vidéoprojecteurs compatibles avec le protocole PJLink pour communiquer sur le réseau local. La liste non-exhaustive des marques compatibles avec le protocole PJLink est : BenQ, Canon, Casio, Epson, Fujifilm, Hitachi, InFocus, Maxell, Mitsubishi, Nec, Panasconic, Ricoh, Sharp, Sky, Sony... Consultez la documentation de votre matériel pour confirmer la compatibilité avec le protocole PJLink."
+    en_US: "The PJLink plugin allows the control of video projectors compatible with the PJLink protocol to communicate on the local network.  The non-exhaustive list of brands compatible with the PJLink protocol is: BenQ, Canon, Casio, Epson, Fujifilm, Hitachi, InFocus, Maxell, Mitsubishi, Nec, Panasconic, Ricoh, Sharp, Sky, Sony ...  Check your hardware documentation to confirm compatibility with the PJLink protocol"
+    es_ES: "El complemento PJLink permite el control de proyectores de video compatibles con el protocolo PJLink para comunicarse en la red local.  La lista no exhaustiva de marcas compatibles con el protocolo PJLink es: BenQ, Canon, Casio, Epson, Fujifilm, Hitachi, InFocus, Maxell, Mitsubishi, Nec, Panasconic, Ricoh, Sharp, Sky, Sony ...  Consulte la documentación de su hardware para confirmar la compatibilidad con el protocolo PJLink"
+    de_DE: "Das PJLink-Plugin ermöglicht die Steuerung von Videoprojektoren, die mit dem PJLink-Protokoll kompatibel sind, für die Kommunikation im lokalen Netzwerk.  Die nicht vollständige Liste der mit dem PJLink-Protokoll kompatiblen Marken lautet: BenQ, Canon, Casio, Epson, Fujifilm, Hitachi, InFocus, Maxell, Mitsubishi, Nec, Panasconic, Ricoh, Sharp, Sky, Sony ...  Überprüfen Sie Ihre Hardwaredokumentation, um die Kompatibilität mit dem PJLink-Protokoll zu bestätigen"
+- id: pulseaudio
+  name: "PulseAudio"
+  market_id: 2704
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Auteur du plugin : Slobberbone.ATTENTION, il ne s’agit pas d’un plugin Officiel Jeedom mais d’un plugin développé par une tierce personne et dont l’évolution a été abandonnée. L’équipe technique Jeedom assurera l’assistance sur ce plugin sans obligation de résultat. Ce plugin permet la gestion du service PulseAudio. Ce service gère tout ce qui concerne les entrées sorties sons et micro, que les sorties soient filaires, via bluetooth ou encore sur le réseau. Ce plugin rend visible le service PulseAudio sur votre réseau interne, il vous est alors possible de le contrôler depuis un PC sous GNU/Linux et de faire en sorte que la musique lue sur votre PC soit envoyée sur la sortie son de Jeedom. Ce plugin permet également l'ajout des enceintes Bluetooth au service PulseAudio de Jeedom et le propose comme une sortie standard. Ainsi, via Jeedom et ce plugin PulseAudio vous pouvez exécuter Deezer sur votre PC sous GNU/Linux (ou Windows avec le client PulseAudio compatible) et faire en sorte que le son soit envoyées aux enceintes bluetooth raccordées à Jeedom ainsi que sur la sortie son (HDMI/Jack) de Jeedom pour compléter avec un ampli. Ce mode simultané arrivera prochainement avec la possibilité de mettre une latence, évitant le décalage entre les sorties son HDMI/Jack/Bluetooth, parfait pour le mode soirée à la fois sur la terrasse avec les enceintes Bluetooth et dans la salle avec l'ampli !"
+    en_US: "Author of the plugin: Slobberbone.  WARNING, this is not an Official Jeedom plugin but a plugin developed by a third party and whose evolution has been abandoned. The Jeedom technical team will provide assistance on this plugin without any obligation of result"
+    es_ES: "Autor del complemento: Slobberbone.  ADVERTENCIA, este no es un complemento oficial de Jeedom, sino un complemento desarrollado por un tercero y cuya evolución ha sido abandonada. El equipo técnico de Jeedom proporcionará asistencia en este complemento sin ninguna obligación de resultado"
+    de_DE: "Autor des Plugins: Slobberbone.  WARNUNG, dies ist kein offizielles Jeedom-Plugin, sondern ein Plugin, das von einem Dritten entwickelt wurde und dessen Entwicklung aufgegeben wurde. Das technische Team von Jeedom wird dieses Plugin ohne Ergebnisverpflichtung unterstützen"
+- id: roku
+  name: "Roku"
+  market_id: 2301
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de contrôler votre Roku. Il peut le détecter tout seul et synchroniser ses chaînes. Ainsi il sera possible d'avoir un widget en 3 parties :<br/><br/>1 partie télécommande<br/><br/>1 partie recherche<br/><br/>1 partie chaînes<br/>"
+- id: songs
+  name: "Songs"
+  market_id: 3794
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant d'ajouter des MP3 et d'avoir la voix Google pour les textes pour etre jouer par des plugins TTS (utilisant le TTS Jeedom)"
+    en_US: "Plugin allowing to add MP3 and to have Google voice for texts to be played by TTS plugins (using TTS Jeedom)"
+    es_ES: "Complemento que permite agregar MP3 y tener Google Voice para que los textos sean reproducidos por complementos TTS (usando TTS Jeedom)"
+    de_DE: "Plugin zum Hinzufügen von MP3 und zur Verwendung von Google Voice für Texte, die von TTS-Plugins abgespielt werden sollen (mit TTS Jeedom)"
+- id: sonos3
+  name: "Sonos controller"
+  market_id: 1502
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin de contrôle de Sonos/Ikea Symfonisk. ATTENTION : il faut au minimum PHP 7.4."
+    en_US: "Sonos / Ikea Symfonisk control plugin. CAUTION: PHP 7.4 minimum is required"
+    es_ES: "Complemento de control de Sonos / Ikea Symfonisk. PRECAUCIÓN: Se requiere PHP 7.4 como mínimo"
+    de_DE: "Sonos / Ikea Symfonisk-Steuerungs-Plugin. VORSICHT: Mindestens PHP 7.4 ist erforderlich"
+- id: spotifyconnect
+  name: "Spotify connect"
+  market_id: 4152
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de connecter Jeedom à un ou plusieurs comptes Spotify Connect."
+    en_US: "Plugin for connecting Jeedom to one or more Spotify Connect accounts"
+    es_ES: "Complemento para conectar Jeedom a una o más cuentas de Spotify Connect"
+    de_DE: "Plugin zum Verbinden von Jeedom mit einem oder mehreren Spotify Connect-Konten"
+- id: squeezeboxcontrol
+  name: "SqueezeBox Control"
+  market_id: 1710
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Ce plugin vous permet de contrôler vos Squeezebox.Il fait de l'autodecouverte, il attribue vos squeezebox aux bons objets si elles contiennent le nom de l'objet.Il permet aussi une gestion complète multidirectionnelle de la synchro. La possibilité de synchroniser toutes les squeezebox en un clic, toutes les allumer, toutes les éteindre etc.... Une fonction TTS est aussi disponibleUn panel dédié simple (mais qui va vouloir devenir très complet) est aussi disponible.De nombreuses autres fonctions sont aussi présentes"
+    en_US: "This plugin allows you to control your Squeezeboxes.It does autodiscover, it assigns your squeezeboxes to the right objects if they contain the object name.It also allows full multidirectional sync management. The ability to synchronize all the squeezeboxes in one click, turn them all on, turn them all off etc ... A TTS function is also available A simple dedicated panel (but which will want to become very complete) is also available. also present"
+    es_ES: "Este complemento le permite controlar sus Squeezeboxes. Detecta automáticamente, asigna sus squeezeboxes a los objetos correctos si contienen el nombre del objeto. También permite una gestión de sincronización multidireccional completa. La capacidad de sincronizar todos los squeezeboxes con un solo clic, encenderlos, apagarlos, etc. También está disponible una función TTS También está disponible un panel dedicado simple (pero que querrá ser muy completo). Muchas otras funciones están disponibles. también presente"
+    de_DE: "Mit diesem Plugin können Sie Ihre Squeezeboxen steuern. Es erkennt automatisch und weist Ihre Squeezeboxen den richtigen Objekten zu, wenn sie den Objektnamen enthalten. Außerdem ermöglicht es die vollständige multidirektionale Synchronisierungsverwaltung. Die Möglichkeit, alle Squeezeboxen mit einem Klick zu synchronisieren, alle einzuschalten, alle auszuschalten usw. Eine TTS-Funktion ist ebenfalls verfügbar. Ein einfaches dediziertes Bedienfeld (das jedoch sehr vollständig werden soll) ist ebenfalls verfügbar. Viele andere Funktionen sind verfügbar. auch vorhanden"

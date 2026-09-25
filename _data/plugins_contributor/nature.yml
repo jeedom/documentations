@@ -1,0 +1,144 @@
+- id: arrosage
+  name: "arrosage"
+  market_id: 2353
+  doc:
+    stable:
+      fr_FR: "https://jeedom.github.io/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://jeedom.github.io/"
+    beta: false
+  description:
+    fr_FR: "Plugin pour la gestion d'arrosage multizone"
+- id: foobot
+  name: "Foobot"
+  market_id: 2602
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/foobot/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/foobot/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Récupérer les valeurs de vos capteurs de qualité d'air Foobot dans Jeedom. Avec ce plugin les valeurs de température, humidité, CO2, particules fines et volatiles sont disponibles dans Jeedom ainsi que l'indice général."
+- id: gardena
+  name: "Gardena-Husqvarna"
+  market_id: 4031
+  doc:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/gardena/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/gardena/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/gardena/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/gardena/de_DE/"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/gardena/beta/fr_FR/"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/gardena/beta/en_US/"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/gardena/beta/es_ES/"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/gardena/beta/de_DE/"
+  changelog:
+    stable:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/gardena/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/gardena/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/gardena/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/gardena/de_DE/changelog"
+    beta:
+      fr_FR: "https://mips2648.github.io/jeedom-plugins-docs/gardena/beta/fr_FR/changelog"
+      en_US: "https://mips2648.github.io/jeedom-plugins-docs/gardena/beta/en_US/changelog"
+      es_ES: "https://mips2648.github.io/jeedom-plugins-docs/gardena/beta/es_ES/changelog"
+      de_DE: "https://mips2648.github.io/jeedom-plugins-docs/gardena/beta/de_DE/changelog"
+  description:
+    fr_FR: "Plugin permettant d'intégrer tous les appareils de la gamme Gardena Smart System (Water Control, sensor, irrigation control, power socket et Sileno mower) ce qui permet de controler votre système d'arrosage et votre robot tondeuse ainsi que les robots Husqvarna Automower Connect. Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions en fonction de l'appareil (voir la documentation)."
+    en_US: "Plugin for integrating all Gardena Smart System devices (Water Control, sensor, irrigation control, power socket and Sileno mower), enabling you to control your watering system and robotic mower, as well as Husqvarna Automower Connect robots. You can access and monitor device data, and perform certain device-specific actions (see documentation)."
+    es_ES: "Plugin para integrar todos los dispositivos Gardena Smart System (Water Control, sensor, control de riego, toma de corriente y cortacésped Sileno) que le permite controlar su sistema de riego y su robot cortacésped, así como los robots Husqvarna Automower Connect. Es posible acceder a los datos de los dispositivos y supervisarlos, así como realizar determinadas acciones en función del dispositivo (consulte la documentación)."
+    de_DE: "Plugin zur Integration aller Geräte des Gardena Smart System (Water Control, Sensor, irrigation control, power socket und Sileno mower), mit dem Sie Ihr Bewässerungssystem und Ihren Mähroboter sowie die Husqvarna Automower Connect-Roboter steuern können. Es ist möglich, auf die Daten der Geräte zuzugreifen, sie zu überwachen und bestimmte Aktionen je nach Gerät durchzuführen (siehe Dokumentation)."
+- id: jardin
+  name: "Jardin & Potager"
+  market_id: 4530
+  doc:
+    stable:
+      fr_FR: "https://vegeta0911.github.io/documentation/plugins/fr_FR/Jardin/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://vegeta0911.github.io/documentation/plugins/fr_FR/Jardin/changelog"
+    beta: false
+  description:
+    fr_FR: "Je reprends le plugin abandonné par son créateur. [100% compatible tablette et smartphone !] Ce plugin va vous permettre de gérer votre potager, vos semences, vos semis et votre arrosage ! Saisissez vos semences, créez des semis de semences, et vous pourrez d'un simple coup d'œil savoir quand les semer, les éclaircir, les replanter en terre, etc. Construisez graphiquement votre plan de potager et imprimez le plan, afin de ne plus oublier où vous avez planter vos semences. Le plugin peut vous aider à faire de la permaculture, en vous invitant à rapprocher les espèces compatibles de façon intuitive et interactive (lorsque vous positionnerez une de vos semences dans le potager, toutes les semences compatibles (à associer) s'entoureront d'un halo vert, et inversement, toutes les semences incompatibles s'entoureront d'un halo rouge ! Ajoutez vos équipements JEEDOM aussi ! Ainsi, vous pourrez consulter vos sondes d'humidité, de température, ou même contrôler vos électrovannes ! Nouveau : gérez vos arrosages , de nombreux cas complexe sont programmables !N’hésitez pas à consulter la documentation qui est régulièrement mise à jour !"
+- id: MiFlora
+  name: "MiFlora"
+  market_id: 2686
+  doc:
+    stable:
+      en_US: "https://NextDom.github.io/plugin-MiFlora/en_US"
+    beta: false
+  changelog:
+    stable:
+      en_US: "https://NextDom.github.io/plugin-MiFlora/en_US/#tocAnchor-1-13"
+    beta: false
+  description:
+    fr_FR: "Ce plugin permet de gèrer les Xiaomi plants ou Mi Flora ainsi que les Parrots. Il nécéssite une connection bluetooth vers les objets."
+- id: netro
+  name: "Netro"
+  market_id: 4313
+  doc:
+    stable:
+      fr_FR: "https://shinzah.github.io/jeedom-doc/netro"
+    beta:
+      fr_FR: "https://shinzah.github.io/jeedom-doc/netro"
+  changelog:
+    stable:
+      fr_FR: "https://shinzah.github.io/jeedom-doc/netro/beta/changelog"
+    beta:
+      fr_FR: "https://shinzah.github.io/jeedom-doc/netro/beta/changelog"
+  description:
+    fr_FR: "Pilotage des equipements d'arrosage Netro"
+- id: netroarrosage
+  name: "Netro arrosage"
+  market_id: 4354
+  doc:
+    stable:
+      fr_FR: "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/fr_FR/"
+      en_US: "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/en_US/"
+    beta:
+      fr_FR: "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/fr_FR/beta/"
+      en_US: "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/en_US/beta/"
+  changelog:
+    stable:
+      fr_FR: "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/fr_FR/changelog"
+      en_US: "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/en_US/changelog"
+    beta:
+      fr_FR: "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/fr_FR/beta/changelog"
+      en_US: "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/en_US/beta/changelog"
+  description:
+    fr_FR: "Plugin basé sur le système d'arrosage automatique Netro Smart Garden"
+    en_US: "Plugin based on Netro Smart Garden automatic watering system"
+- id: opensprinkler
+  name: "OpenSprinkler"
+  market_id: 2257
+  doc:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/opensprinkler/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/opensprinkler/changelog.html"
+    beta: false
+  description:
+    fr_FR: "Plugin pour utiliser un OpenSprinkler qui est un système d'arrosage automatisé pour le jardin. Disponible prêt à l'emploi et autonome, ce plugin permet de récupérer les états des vannes, et autres infos ainsi que de forcer des actions dessus."
+- id: potager
+  name: "Potager & Arrosage"
+  market_id: 4130
+  doc:
+    stable:
+      fr_FR: "https://frixo3190.github.io/jeedom_plugins/potager/docs/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://frixo3190.github.io/jeedom_plugins/potager/docs/fr_FR/#changelog"
+    beta: false
+  description:
+    fr_FR: "[100% compatible tablette et smartphone !] Ce plugin va vous permettre de gérer votre potager, vos semences, vos semis et votre arrosage ! Saisissez vos semences, créez des semis de semences, et vous pourrez d'un simple coup d'œil savoir quand les semer, les éclaircir, les replanter en terre, etc. Construisez graphiquement votre plan de potager et imprimez le plan, afin de ne plus oublier où vous avez planter vos semences. Le plugin peut vous aider à faire de la permaculture, en vous invitant à rapprocher les espèces compatibles de façon intuitive et interactive (lorsque vous positionnerez une de vos semences dans le potager, toutes les semences compatibles (à associer) s'entoureront d'un halo vert, et inversement, toutes les semences incompatibles s'entoureront d'un halo rouge ! Ajoutez vos équipements JEEDOM aussi ! Ainsi, vous pourrez consulter vos sondes d'humidité, de température, ou même contrôler vos électrovannes ! Nouveau : gérez vos arrosages , de nombreux cas complexe sont programmables !N’hésitez pas à consulter la documentation qui est régulièrement mise à jour !"
+    en_US: "Template plugin"

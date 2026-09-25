@@ -1,0 +1,349 @@
+- id: aruba
+  name: "Aruba"
+  market_id: 4108
+  doc:
+    stable: false
+    beta: false
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: ""
+- id: ash
+  name: "Alexa"
+  market_id: 3409
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant d'utiliser Amazon Alexa (echo, dot...) pour piloter votre Jeedom. Important : le plugin nécessite un abonnement aux services vocaux . Pour gérer cet abonnement : https://www.jeedom.com/market/index.php?v=d&p=profils#services"
+    en_US: "Plugin allowing you to use Amazon Alexa (echo, dot ...) to control your Jeedom. Important: the plugin requires a subscription to voice services. To manage this subscription: https://www.jeedom.com/market/index.php?v=d&p=profils#services"
+    es_ES: "Complemento que le permite usar Amazon Alexa (echo, dot ...) para controlar su Jeedom. Importante: el complemento requiere una suscripción a los servicios de voz. Para administrar esta suscripción: https://www.jeedom.com/market/index.php?v=d&p=profils#services"
+    de_DE: "Plugin, mit dem Sie Amazon Alexa (Echo, Punkt ...) verwenden können, um Ihr Jeedom zu steuern. Wichtig: Für das Plugin ist ein Abonnement für Sprachdienste erforderlich. So verwalten Sie dieses Abonnement: https://www.jeedom.com/market/index.php?v=d&p=profils#services"
+- id: bornetenda
+  name: "Borne Tenda W301A"
+  market_id: 1299
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Auteur du plugin : Thomas GuenneguezATTENTION, il ne s’agit pas d’un plugin Officiel Jeedom mais d’un plugin développé par une tierce personne et dont l’évolution a été abandonnée. L’équipe technique Jeedom assurera l’assistance sur ce plugin sans obligation de résultat.Plugin permettant de gérer les Bornes Tenda W301A."
+    en_US: "Author of the plugin: Thomas Guenneguez  WARNING, this is not an Official Jeedom plugin but a plugin developed by a third party and whose evolution has been abandoned. The Jeedom technical team will provide assistance on this plugin without any obligation of result.  Plugin to manage Tenda W301A Terminals"
+    es_ES: "Autor del complemento: Thomas Guenneguez  ADVERTENCIA, este no es un complemento oficial de Jeedom, sino un complemento desarrollado por un tercero y cuya evolución ha sido abandonada. El equipo técnico de Jeedom proporcionará asistencia en este complemento sin ninguna obligación de resultado.  Complemento para administrar terminales Tenda W301A"
+    de_DE: "Autor des Plugins: Thomas Guenneguez  WARNUNG, dies ist kein offizielles Jeedom-Plugin, sondern ein Plugin, das von einem Dritten entwickelt wurde und dessen Entwicklung aufgegeben wurde. Das technische Team von Jeedom wird dieses Plugin ohne Ergebnisverpflichtung unterstützen.  Plugin zur Verwaltung von Tenda W301A Terminals"
+- id: gcast
+  name: "Gcast"
+  market_id: 3057
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de faire parler un device CAST. Il permet aussi de régler le volume. En usage combiné avec un Google home il permet de faire le pont avec les interactions et d'avoir un retour vocal, il permet aussi d'utiliser la fonction ask."
+    en_US: "Plugin allowing a CAST device to speak. It also allows you to adjust the volume. When used in combination with a Google home, it allows you to bridge interactions and have voice feedback, it also allows you to use the ask function"
+    es_ES: "Complemento que permite que un dispositivo CAST hable. También le permite ajustar el volumen. Cuando se usa en combinación con un hogar de Google, le permite unir interacciones y tener comentarios de voz, también le permite usar la función de preguntar"
+    de_DE: "Plugin, mit dem ein CAST-Gerät sprechen kann. Sie können damit auch die Lautstärke einstellen. In Kombination mit einer Google-Startseite können Sie Interaktionen überbrücken und Sprachfeedback erhalten. Außerdem können Sie die Ask-Funktion verwenden"
+- id: glinet
+  name: "GliNet"
+  market_id: 4181
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin de gestion des GliNet (sms, connexion)"
+    en_US: "GliNet management plugin (sms, connection)"
+    es_ES: "Complemento de administración GliNet (sms, conexión)"
+    de_DE: "GliNet-Verwaltungs-Plugin (SMS, Verbindung)"
+- id: gsh
+  name: "Google Smarthome"
+  market_id: 3412
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour piloter Jeedom avec un Google Home. Important : le plugin nécessite un abonnement aux services vocaux (3 mois offerts lors de l’achat du plugin) pour une configuration facile. Pour gérer cet abonnement : https://www.jeedom.com/market/index.php?v=d&p=profils#services Vous pouvez utiliser aussi le mode standalone mais sa configuration est plus complexe, nous vous conseillons vivement de lire la documentation avant tout achat si vous souhaitez utiliser ce mode."
+    en_US: "Plugin to control Jeedom with a Google Home. Important: the plugin requires a subscription to voice services (3 months free when purchasing the plugin) for easy configuration. To manage this subscription: https://www.jeedom.com/market/index.php?v=d&p=profils#services You can also use the standalone mode but its configuration is more complex, we strongly advise you to read the documentation before any purchase if you want to use this mode"
+    es_ES: "Complemento para controlar Jeedom con un Google Home. Importante: el complemento requiere una suscripción a los servicios de voz (3 meses gratis al comprar el complemento) para una fácil configuración. Para administrar esta suscripción: https://www.jeedom.com/market/index.php?v=d&p=profils#services También puede usar el modo independiente pero su configuración es más compleja, le recomendamos encarecidamente que lea la documentación antes de cualquier compra si desea utilizar este modo"
+    de_DE: "Plugin zur Steuerung von Jeedom mit einem Google Home. Wichtig: Für die einfache Konfiguration des Plugins ist ein Abonnement für Sprachdienste erforderlich (3 Monate kostenlos beim Kauf des Plugins). So verwalten Sie dieses Abonnement: https://www.jeedom.com/market/index.php?v=d&p=profils#services Sie können auch den Standalone-Modus verwenden, die Konfiguration ist jedoch komplexer. Wir empfehlen Ihnen dringend, die Dokumentation zu lesen vor jedem Kauf, wenn Sie diesen Modus verwenden möchten"
+- id: heliumhotspot
+  name: "Helium Hotspot"
+  market_id: 4315
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de récupérer les infos des hotspots Helium"
+- id: ifttt
+  name: "IFTTT"
+  market_id: 1705
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes."
+    en_US: "Thanks to this plugin, you can benefit from the countless recipes available on IFTT. Thus a Jeedom event can become an entry point for an IFTT recipe and trigger events of all kinds"
+    es_ES: "Gracias a este complemento, puede beneficiarse de las innumerables recetas disponibles en IFTT. Por lo tanto, un evento de Jeedom puede convertirse en un punto de entrada para una receta IFTT y desencadenar eventos de todo tipo"
+    de_DE: "Dank dieses Plugins können Sie von den unzähligen Rezepten profitieren, die auf IFTT verfügbar sind. Somit kann ein Jeedom-Ereignis ein Einstiegspunkt für ein IFTT-Rezept werden und Ereignisse aller Art auslösen"
+- id: inter2N
+  name: "inter2N"
+  market_id: 4166
+  doc:
+    stable: false
+    beta: true
+  changelog:
+    stable: false
+    beta: true
+  description:
+    fr_FR: "Plugin pour gérer les interphones inter2N"
+    en_US: "Plugin to manage inter2N intercoms"
+    es_ES: "Complemento para gestionar los intercomunicadores inter2N"
+    de_DE: "Plugin zur Verwaltung von Inter2N-Gegensprechanlagen"
+- id: jarvis
+  name: "Jarvis"
+  market_id: 2577
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de gérer un ou plusieurs Jarvis"
+- id: jeelink
+  name: "Jeedom Link"
+  market_id: 2530
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Ce plugin va vous permettre de lier plusieurs installations Jeedom afin de remonter les équipements d'un ou plusieurs &quot;Jeedoms sources&quot; vers un ou plusieurs &quot;Jeedoms cibles&quot;."
+    en_US: "This plugin will allow you to link several Jeedom installations in order to transfer equipment from one or more &quot;source Jeedoms&quot; to one or more &quot;target Jeedoms&quot;"
+    es_ES: "Este complemento le permitirá vincular varias instalaciones de Jeedom para transferir equipos de uno o más &quot;Jeedoms de origen&quot; a uno o más &quot;Jeedoms de destino&quot;"
+    de_DE: "Mit diesem Plugin können Sie mehrere Jeedom-Installationen verknüpfen, um Geräte von einem oder mehreren &quot;Quell-Jeedoms&quot; auf einen oder mehrere &quot;Ziel-Jeedoms&quot; zu übertragen"
+- id: lametric
+  name: "LaMetric"
+  market_id: 2818
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant d'afficher des notifications sur LaMetric Time."
+    en_US: "Plugin for displaying notifications on LaMetric Time"
+    es_ES: "Complemento para mostrar notificaciones en LaMetric Time"
+    de_DE: "Plugin zum Anzeigen von Benachrichtigungen zur LaMetric Time"
+- id: mail
+  name: "E-mail"
+  market_id: 22
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Ce plugin permet d'envoyer des e-mails depuis Jeedom. Cela permet de vous notifier directement par mail lors d'une alerte ou tout simplement pour un bilan journalier. Vous pouvez définir autant de destinataires que vous voulez, cela est utile pour envoyer des rapports personnalisés ou cibler les alertes pour tel ou tel destinataire."
+    en_US: "This plugin allows you to send e-mails from Jeedom. This allows you to notify you directly by email during an alert or simply for a daily report. You can define as many recipients as you want, this is useful for sending personalized reports or targeting alerts for a particular recipient"
+    es_ES: "Este complemento le permite enviar correos electrónicos desde Jeedom. Esto le permite notificarle directamente por correo electrónico durante una alerta o simplemente para un informe diario. Puede definir tantos destinatarios como desee, esto es útil para enviar informes personalizados o alertas de orientación para un destinatario en particular"
+    de_DE: "Mit diesem Plugin können Sie E-Mails von Jeedom senden. Auf diese Weise können Sie Sie während einer Benachrichtigung oder einfach für einen täglichen Bericht direkt per E-Mail benachrichtigen. Sie können so viele Empfänger definieren, wie Sie möchten. Dies ist nützlich, um personalisierte Berichte zu senden oder Warnungen für einen bestimmten Empfänger auszurichten"
+- id: mobile
+  name: "Mobile"
+  market_id: 2030
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "L’app V2 nécessite Android14 ou IOS 12.4 minimum. Attention, l'app v1 n'est pas compatible avec le dernier Android. L'application officielle Jeedom permet le pilotage de votre système domotique Jeedom, que ce soit en Wifi local, ou sur le réseau 4G/%G de votre opérateur. L'app se connecte automatiquement à votre Jeedom avec une initialisation automatique par QRcode, aucune configuration n'est nécessaire. (possibilité de le faire manuellement)Vous retrouverez sur votre mobile toutes les fonctionnalités de votre Jeedom.Vous pourrez personnaliser votre application avec des raccourcis et plus encore...Fonctionnalités actuelles:- Gestion de vos scénarios.- Gestion de votre domotique en fonction de vos pièces et équipements.- Maj et retour d'état automatique - Interface personnalisable avec les raccourcis Notifications (avec prise en charge du ASKD'autres fonctionnalités et compatibilités sont à venir dans les prochaines mises à jour !Respect de la vie privée.Aucune donnée (domotique ou personnelle) n'est stockée ou conservée sur nos serveurs."
+    en_US: "Warning: the BETA version no longer supports the V1 app, it is reserved for the new V2 app (currently beta). Requires Android14 or IOS 12.4 minimum. Please note that the v1 app is not compatible with the latest Android. The official Jeedom application allows you to control your Jeedom home automation system, whether in local WiFi, or on your operator's 3G/4G network. The app automatically connects to your Jeedom with automatic initialization by QRcode, no configuration is necessary. (possibility to do it manually) You will find all the features of your Jeedom on your mobile. You will be able to customize your application with shortcuts and more... Current features: - Management of your scenarios. - Management of your home automation based on your rooms and equipment. - Automatic shift and return to state - Compatibility with plugins, such as thermostat, alarm, camera etc... - Customizable interface with shortcuts. - General and room-by-room home automation summary - Notifications (with ASK support) - Displaying Designs More features and compatibilities are coming in future updates! Respect for privacy. No data (home automation or personal) is stored or kept on our servers"
+    es_ES: "Tenga en cuenta: la versión BETA ya no es compatible con la aplicación V1, está reservada para la nueva aplicación V2 (actualmente beta). Requiere Android14 o IOS 12.4 mínimo. Tenga en cuenta que la aplicación v1 no es compatible con la última versión de Android. La aplicación oficial Jeedom te permite controlar tu sistema domótico Jeedom, ya sea a través de WiFi local o en la red 3G/4G de tu operador. La aplicación se conecta automáticamente a tu Jeedom con inicialización automática mediante código QR, no es necesaria ninguna configuración. (posibilidad de hacerlo manualmente) Encontrarás todas las funciones de tu Jeedom en tu móvil. Podrás personalizar tu aplicación con atajos y más... Características actuales: - Gestión de tus escenarios. - Gestión de tu domótica en función de tus estancias y equipamientos. - Cambio y retorno automático de estado. - Compatibilidad con complementos, como termostato, alarma, cámara, etc... - Interfaz personalizable con atajos. - Resumen general de domótica y por estancias - Notificaciones (con soporte ASK) - Exhibición de Diseños ¡Más funciones y compatibilidad estarán disponibles en futuras actualizaciones! Respeto a la privacidad. No se almacena ni retiene ningún dato (domótico o personal) en nuestros servidores"
+    de_DE: "Bitte beachten Sie: Die BETA-Version unterstützt die V1-App nicht mehr, sie ist für die neue V2-App (derzeit Beta) reserviert. Erfordert mindestens Android14 oder IOS 12.4. Bitte beachten Sie, dass die v1-App nicht mit dem neuesten Android kompatibel ist. Mit der offiziellen Jeedom-Anwendung können Sie Ihr Jeedom-Hausautomationssystem steuern, sei es über lokales WLAN oder über das 3G/4G-Netzwerk Ihres Betreibers. Die App verbindet sich automatisch mit Ihrem Jeedom mit automatischer Initialisierung per QR-Code, eine Konfiguration ist nicht erforderlich. (Möglichkeit, dies manuell zu tun) Sie finden alle Funktionen Ihres Jeedom auf Ihrem Handy. Sie können Ihre Anwendung mit Verknüpfungen und mehr personalisieren ... Aktuelle Funktionen: - Verwaltung Ihrer Szenarien. - Verwaltung Ihrer Hausautomation entsprechend Ihren Räumen und Ihrer Ausstattung. - Automatische Statusverschiebung und -rückkehr - Kompatibilität mit Plugins wie Thermostat, Alarm, Kamera usw. - Anpassbare Benutzeroberfläche mit Verknüpfungen. - Allgemeine Zusammenfassung der Hausautomation und nach Raum - Benachrichtigungen (mit ASK-Unterstützung) - Anzeige von Designs Weitere Funktionen und Kompatibilität folgen in zukünftigen Updates! Respekt vor der Privatsphäre. Auf unseren Servern werden keine Daten (hausautomatische oder persönliche) gespeichert oder aufbewahrt"
+- id: netatmo
+  name: "Netatmo"
+  market_id: 4062
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour recuperer les équipements Netatmo (Weather,Energie,Securité). A travers le cloud Jeedom. Attention pour l'instant il n'est pas possible d'avoir le flux des cameras."
+    en_US: "Plugin to retrieve Netatmo equipment (Weather, Energy, Security). Through the Jeedom cloud. Attention for the moment it is not possible to have the flow of the cameras"
+    es_ES: "Complemento para recuperar equipos de Netatmo (Meteorología, Energía, Seguridad). A través de la nube Jeedom. Atención por el momento no es posible contar con el flujo de las cámaras"
+    de_DE: "Plugin zum Abrufen von Netatmo-Geräten (Wetter, Energie, Sicherheit). Durch die Jeedom-Wolke. Achtung, im Moment ist es nicht möglich, den Fluss der Kameras zu überwachen"
+- id: networks
+  name: "Networks"
+  market_id: 1950
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant la gestion réseau des équipements : ping (ip, arp, port) et wake on lan"
+    en_US: "Plugin allowing network management of equipment: ping (ip, arp, port) and wake on lan"
+    es_ES: "Complemento que permite la gestión de equipos en red: ping (ip, arp, puerto) y wake on lan"
+    de_DE: "Plugin zur Netzwerkverwaltung von Geräten: Ping (IP, Arp, Port) und Wake-On-LAN"
+- id: notificationmanager
+  name: "Notification Manager"
+  market_id: 3315
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Ce plugin permet de gérer les notifications (reprise en cas d'erreur, génération de texte, etc...)."
+    en_US: "This plugin is used to manage notifications (recovery in case of error, generation of text, etc.)"
+    es_ES: "Este plugin se utiliza para gestionar notificaciones (recuperación en caso de error, generación de texto, etc.)"
+    de_DE: "Dieses Plugin wird zum Verwalten von Benachrichtigungen verwendet (Wiederherstellung im Fehlerfall, Generierung von Text usw.)"
+- id: openvpn
+  name: "Openvpn"
+  market_id: 1965
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de gérer la connexion à un serveur openvpn."
+    en_US: "Plugin to manage the connection to an openvpn server"
+    es_ES: "Complemento para administrar la conexión a un servidor openvpn"
+    de_DE: "Plugin zum Verwalten der Verbindung zu einem OpenVPN-Server"
+- id: philipsHue
+  name: "Philips Hue"
+  market_id: 190
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant d'intégrer un écosystème Philips Hue dans Jeedom. Le plugin est capable de gérer jusqu'à 2 ponts simultanément."
+    en_US: "Plugin allowing to integrate a Philips Hue ecosystem in Jeedom. The plugin is able to manage up to 2 bridges simultaneously"
+    es_ES: "Complemento que permite integrar un ecosistema Philips Hue en Jeedom. El complemento puede administrar hasta 2 puentes simultáneamente"
+    de_DE: "Plugin zur Integration eines Philips Hue-Ökosystems in Jeedom. Das Plugin kann bis zu 2 Bridges gleichzeitig verwalten"
+- id: phonemarket
+  name: "Phone market"
+  market_id: 1694
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin pour utiliser le market comme passerelle SMS et pour passer des appels"
+    en_US: "Plugin to use the market as an SMS gateway and to make calls"
+    es_ES: "Complemento para usar el mercado como puerta de enlace de SMS y hacer llamadas"
+    de_DE: "Plugin, um den Markt als SMS-Gateway zu nutzen und Anrufe zu tätigen"
+- id: sarah
+  name: "S.A.R.A.H"
+  market_id: 17
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Plugin pour utiliser Sarah (http://encausse.wordpress.com/s-a-r-a-h/)"
+    en_US: "Plugin to use Sarah (http://encausse.wordpress.com/sarah/)"
+    es_ES: "Complemento para usar Sarah (http://encausse.wordpress.com/sarah/)"
+    de_DE: "Plugin zur Verwendung von Sarah (http://encausse.wordpress.com/sarah/)"
+- id: sms
+  name: "SMS"
+  market_id: 16
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin ajoutant la gestion (envoi/réception) de SMS à Jeedom. Avec ce plugin vous pouvez ainsi être notifié par SMS, voire poser une question ou déclencher une action via SMS grâce au moteur d'interactions. (Nécessite une clé 3G et une carte SIM )."
+    en_US: "Plugin adding the management (sending / receiving) of SMS to Jeedom. With this plugin you can be notified by SMS, even ask a question or trigger an action via SMS thanks to the interaction engine. (Requires a 3G key and a SIM card)"
+    es_ES: "Complemento que agrega la gestión (envío / recepción) de SMS a Jeedom. Con este plugin puedes ser notificado por SMS, incluso hacer una pregunta o activar una acción a través de SMS gracias al motor de interacción. (Requiere una clave 3G y una tarjeta SIM)"
+    de_DE: "Plugin, das die Verwaltung (Senden / Empfangen) von SMS zu Jeedom hinzufügt. Mit diesem Plugin können Sie dank der Interaktions-Engine per SMS benachrichtigt, sogar eine Frage gestellt oder eine Aktion per SMS ausgelöst werden. (Benötigt einen 3G-Schlüssel und eine SIM-Karte)"
+- id: tplinksms
+  name: "TPLink SMS"
+  market_id: 4626
+  doc:
+    stable: false
+    beta: false
+  changelog:
+    stable: false
+    beta: false
+  description:
+    fr_FR: "Plugin pour Jeedom permettant d'utiliser les fonctions SMS des routeurs 4G TP-Link MR-XXX avec la prise en charge des interactions et du ASK. La compatibilité est confirmée avec les modèles Archer MR-600, Archer MR-200 v5, TL-MR150 et TL-MR6400 v5. <br/>Attention : il n'est pas possible d'accéder à l'interface web du routeur lorsque le démon du plugin est démarré."
+    en_US: "Plugin pour Jeedom permettant d'utiliser les fonctions SMS des routeurs 4G TP-Link MR-XXX avec la prise en charge des interactions et du ASK. La compatibilité est confirmée avec les modèles Archer MR-600, Archer MR-200 v5, TL-MR150 et TL-MR6400 v5. <br/>Attention : il n'est pas possible d'accéder à l'interface web du routeur lorsque le démon du plugin est démarré"
+    es_ES: "Plugin pour Jeedom permettant d'utiliser les fonctions SMS des routeurs 4G TP-Link MR-XXX avec la prise en charge des interactions et du ASK. La compatibilité est confirmée avec les modèles Archer MR-600, Archer MR-200 v5, TL-MR150 et TL-MR6400 v5. <br/>Attention : il n'est pas possible d'accéder à l'interface web du routeur lorsque le démon du plugin est démarré"
+    de_DE: "Plugin pour Jeedom permettant d'utiliser les fonctions SMS des routeurs 4G TP-Link MR-XXX avec la prise en charge des interactions et du ASK. La compatibilité est confirmée avec les modèles Archer MR-600, Archer MR-200 v5, TL-MR150 et TL-MR6400 v5. <br/>Attention : il n'est pas possible d'accéder à l'interface web du routeur lorsque le démon du plugin est démarré"
+- id: wifip
+  name: "Wifip"
+  market_id: 2286
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Plugin permettant de gérer le wifi de votre box ainsi que fixer l'ip."
+- id: wifipower
+  name: "Wifipower"
+  market_id: 1046
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Plugin pour la gestion des équipements wifipower"
+- id: wireguard
+  name: "Wireguard"
+  market_id: 4222
+  doc:
+    stable: true
+    beta: true
+  changelog:
+    stable: true
+    beta: true
+  description:
+    fr_FR: "Plugin permettant de gérer la connexion à un serveur Wireguard. Compatible uniquement avec le DNS Jeedom pour le moment"
+    en_US: "Plugin to manage the connection to a wireguard server"
+    es_ES: "Complemento para administrar la conexión a un servidor wireguard"
+    de_DE: "Plugin zur Verwaltung der Verbindung zu einem Wireguard-Server"

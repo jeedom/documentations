@@ -1,2 +1,0 @@
-# Registro de cambios palazzetti
-

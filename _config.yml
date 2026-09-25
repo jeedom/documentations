@@ -1,9 +1,6 @@
 ---
 languages: [fr_FR,en_US,es_ES,de_DE]
 baseurl: "/"
-sass:
-  sass_dir: css
-  style: compressed
 permalink: /404.html
 markdown: kramdown
 kramdown:
@@ -17,6 +14,7 @@ exclude:
 plugins:
 - jekyll-paginate
 - jekyll-seo-tag
+- jekyll-relative-links
 title: "Documentation Jeedom"
 description: "Ceci est la documentation liée à la solution domotique Jeedom."
 author: "Jeedom"

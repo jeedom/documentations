@@ -1,0 +1,11 @@
+- id: koubachi
+  name: "Koubachi"
+  market_id: 1012
+  doc:
+    stable: true
+    beta: false
+  changelog:
+    stable: true
+    beta: false
+  description:
+    fr_FR: "Plugin pour les capteurs de plante koubachi"
