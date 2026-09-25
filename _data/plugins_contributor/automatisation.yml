@@ -9,7 +9,8 @@
     stable:
       fr_FR: "https://mika-nt28.github.io/Documentations/arrosageAuto/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant de gérer votre arrosage automatique"
 - id: ChauffeEau
   name: "Gestion du Chauffe Eau"
   market_id: 2671
@@ -129,7 +130,8 @@
     stable:
       en_US: "https://baubry.github.io/jeedom-plugin-mailbox-documentation/en_US/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour la gestion d'une boite à lettres"
 - id: naturalLight
   name: "Natural Light"
   market_id: 4374
