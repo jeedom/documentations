@@ -7,4 +7,5 @@
   changelog:
     stable: true
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour les capteurs de plante koubachi"
