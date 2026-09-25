@@ -76,7 +76,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/documentation/third_plugin/ampli_pioneer/fr_FR/index.html#_changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Ce nouveau plugin permet d'exploiter la plupart des commandes de votre ampli.<br/>La communication avec l'ampli se fait via Telnet,<br/>Cela implique donc que, pour fonctionner, votre ampli doit impérativement être connecté au même réseau local que votre box Jeedom ......<br/><br/>Les commandes disponibles sur ces amplis sont très nombreuses, cela va de la sélection des entrées en passant par la configuration des modes sonore (stéréo, DTS,...),et jusqu'au réglages les plus fins de chaque haut-parleur individuellement.<br/><br/>Ajouter les centaines de commandes aurait été trop lourd et compliqué à mettre en œuvre, j'ai donc pris le parti de ne créer que le les commandes essentielles, mais de permettre à chacun de créer toutes les commandes supplémentaires dont il a besoin.<br/><br/>Pour cette raison, j'ai aussi choisi de ne pas créer de tuiles sur mesure pour ce plugin, mais au contraire de vous laisser toute liberté pour organiser votre interface sur le Dashboard avec vos commandes (vous pouvez changer l'ordre des commandes, en créer de nouvelles, et choisir celles que vous souhaitez afficher, et vous avez la possibilité de les personnaliser (notamment avec le plugin Widget)..."
 - id: AndroidTV
   name: "Android TV"
   market_id: 4067
@@ -101,7 +102,8 @@
     stable:
       fr_FR: "https://alucard29.github.io/bbox_tv/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour contrôler le décodeur de la BBox en SNMP. <br/><br/>Une fois le plugin configuré et activé, une tuile semblable à votre télécommande apparaît sur votre Dashboard. Vous pouvez aussi utiliser les différentes commandes dans des scénarios ou autres grâce aux IDs.<br/><br/>La Compatibilité matériel pourra être améliorée en fonction de vos retours sur le Forum.<br/><br/>"
 - id: BoseSoundTouch
   name: "Enceinte Bose SoundTouch"
   market_id: 3565
@@ -159,7 +161,8 @@
     stable:
       fr_FR: "https://mika-nt28.github.io/Documentations/FreeboxMini4k/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Ce plugin crée une télécommande pour votre Freebox mini4K.                                                                                                            <br/>                                "
 - id: freeCrystal
   name: "Freebox Crystal"
   market_id: 1139
@@ -171,7 +174,8 @@
     stable:
       fr_FR: "https://mika-nt28.github.io/Documentations/freeCrystal/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Récupère les information de votre freebox Crystal.<br/>Vérifie l'etat des équipements connecter a votre freebox<br/>Permet le redémarrage de votre freebox"
 - id: googlecast
   name: "Google Cast"
   market_id: 3350
@@ -255,7 +259,8 @@
       en_US: "https://totoff974.github.io/JeeOrangeTv/en_US/changelog"
       de_DE: "https://totoff974.github.io/JeeOrangeTv/de_DE/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour piloter le décodeur TV Orange par IP"
 - id: jeetransmission
   name: "Transmission BT"
   market_id: 2583
@@ -267,7 +272,8 @@
     stable:
       fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/jeetransmission/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant de récupérer les stats d'un Transmission : vitesse, torrents actifs, liste des torrents<br/>Permet également des actions sur torrent (ajout, stop, suppression ...)"
 - id: marantzdenon
   name: "Marantz Denon"
   market_id: 3342
@@ -279,7 +285,8 @@
     stable:
       fr_FR: "https://github.com/guirem/plugin-marantzdenon/blob/master/docs/fr_FR/changelog.md"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour commander les ampli de marque Marantz et Denon.<br/><br/>Ce plugin se base sur le plugin officiel (denonavr) mais ajoute quelques fonctionnalités et la compatibilité avec les amplis plus récents.<br/><br/>Fonctionnalités :<br/>Allumer / éteindre (veille), changer d'entrée, contrôler le volume et activer/désactiver mute, veille programmable (sleep), retour d'état sur les principales fonctionnalités, possibilité d'ajouter des commandes personnalisées.<br/><br/>Modèle compatibles :<br/>- Marantz M-CR511 & Marantz M-CR611<br/>- Marantz NR1606 ou similaire<br/>- Denon AVR X2000/3000/4000<br/>- Denon CEOL Nx<br/>- Probablement d'autres modèles Denon/Marantz"
 - id: MPD
   name: "MPD"
   market_id: 4464
@@ -321,7 +328,8 @@
     stable:
       fr_FR: "https://granddam.github.io/plugin-musiccast/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin de controle des enceintes, ampli, barres de son, éléments HIFI Yamaha MusicCast"
 - id: onkyo
   name: "Onkyo"
   market_id: 1107
@@ -372,7 +380,8 @@
     stable:
       fr_FR: "https://mika-nt28.github.io/Documentations/plex/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Contrôler vos clients plex grâce a votre domotique.<br/>Créer des réveil, musical grâce a l'association de plex et de jeedom.<br/><br/>Qu'est ce que PLEX?<br/>Plex organise vidéo, musique et photos à partir de bibliothèques de médias personnels et les cours d'eau pour les téléviseurs intelligents, des boîtes en streaming et les appareils mobiles. Il est un système de lecteur multimédia et suite logicielle composée de plusieurs applications de lecture pour les interfaces utilisateur."
 - id: pvremote
   name: "PVR Remote"
   market_id: 1960
@@ -384,7 +393,8 @@
     stable:
       fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/pvremote/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Permet d'afficher la liste des épisodes disponibles, ceux à venir et les manqués par Sickbeard/Sickrage.<br/>On peut également purge l'historique et relancer la recherche des épisodes manqués."
 - id: sonarr
   name: "Sonarr & Radarr"
   market_id: 4157
@@ -545,7 +555,8 @@
     stable:
       fr_FR: "https://abarrau.github.io/jeedom-plugins-doc/ttsWebServer/?changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Gestion des applications Android (TTS Web Server) dédiées à ce plugin. <br/><br/>Permet de générer des fichiers TTS et de les diffusers localement sur Android ou sur autre player/plugin compatibles"
 - id: tvByOrange
   name: "TV by Orange"
   market_id: 4546
@@ -585,7 +596,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/documentation/third_plugin/tvphillips/fr_FR/index.html#_changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour commander certaines TVs Phillips connectées"
 - id: tvremote
   name: "TV Remote"
   market_id: 4496
