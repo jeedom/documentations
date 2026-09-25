@@ -105,7 +105,8 @@
   changelog:
     stable: true
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour monitorer vos serveurs d'impression 3D. Plusieurs serveurs peuvent être ajoutés."
 - id: unifiprotect
   name: "Unifi Protect"
   market_id: 4188
@@ -129,4 +130,5 @@
   changelog:
     stable: false
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant la liaison Global de l'app VMI Link avec la VMI du groupe Ventilairsec"
