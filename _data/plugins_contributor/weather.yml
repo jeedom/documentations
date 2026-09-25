@@ -83,7 +83,8 @@
     stable:
       fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/darksky/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant de récupérer les données météo depuis Dark Sky. <br/><br/>Attention, Dark Sky a été racheté par Apple le 31 mars 2020. Depuis il n'est plus possible de créer de clef API. Le plugin ne fonctionnera que pour les installations existantes le temps qu'ils la maintiennent."
 - id: designImgSwitch
   name: "Design Background Image"
   market_id: 3819
