@@ -35,7 +35,8 @@
     stable:
       fr_FR: "https://davzero.github.io/jeedom_boilerThermostat/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Thermostat multizone pour chaudière.<br/><br/>Permet la création de plusieurs thermostat commandant la même chaudière<br/>Permet la prise en compte de la présence/distance par rapport au domicile pour adapter la consigne."
 - id: candy
   name: "Candy Simply-Fi"
   market_id: 4175
@@ -174,7 +175,8 @@
     stable:
       fr_FR: "https://peofofo.github.io/jeedom_hottoh/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Le plugin permet la gestion et surveillance de votre poêle ou chaudière à pellets avec l'interface web WIFI.<br/>Il est possible de gérer le poêle:<br/>*Allumage / Arrêt<br/>*Modifier les niveaux de températures, puissances et ventilations<br/>*Modifier les consignes de températures en mode chrono<br/>*Visualiser et historiser l'état de l'appareil, les températures, les ventilations"
 - id: humidity
   name: "Gestion Humidité"
   market_id: 3978
@@ -290,7 +292,8 @@
   changelog:
     stable: false
     beta: false
-  description: {}
+  description:
+    fr_FR: "Permet de gérer son chauffage et sa climatisation Mitsubishi à distance grâce au wifi . Pac Air/Air ou Air/Eau"
 - id: mideawifi
   name: "Midea Wifi"
   market_id: 4069
@@ -518,7 +521,8 @@
     stable:
       fr_FR: "https://sattaz.github.io/Jeedom_OFoehn/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Le plugin OFoehn permet de récupérer les informations et de contrôler une pompe à chaleur (PAC) pour piscine de la marque O'Foehn."
 - id: Palazzetti
   name: "Palazzetti"
   market_id: 3104
@@ -550,7 +554,8 @@
       en_US: "https://scadinot.github.io/pool/en_US/changelog"
       de_DE: "https://scadinot.github.io/pool/de_DE/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant de gérer la filtration d'une piscine en fonction de la température.<br/><br/>Le plugin gère également les fonctions suivantes :<br/><br/>- Filtre à sable.<br/>- Surpresseur pour robot nettoyeur.<br/>- Hivernage actif.<br/>- Asservissement chauffage solaire.<br/>- Prise en compte optionnelle des heures creuses."
 - id: qivivo
   name: "Qivivo"
   market_id: 3551
@@ -578,7 +583,8 @@
     stable:
       fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/remora/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Remora est un appareil de gestion du chauffage par fil pilote. Basé sur un spark core logé dans votre tableau électrique sur rail-din il est relié à 6 zones et le chauffeau. Bonus, il a également le connecteur téléinfo. Avec ce plugin Jeedom pourra paramétrer chacune des 7 zones dans le mode souhaité, vous aurez également le retour d'état de chaque zone, une zone globale pour gérer l'ensemble du chauffage et la remontée de la téléinfo biensur."
 - id: sensibosky
   name: "Sensibo Sky"
   market_id: 4015
@@ -622,7 +628,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/documentation/third_plugin/tadohome/fr_FR/index.html#_changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour utiliser le thermostat intelligent Tado°. Recupere la Temperature et l'humidité."
 - id: terrarium
   name: "terrarium"
   market_id: 4107
