@@ -130,7 +130,8 @@
   changelog:
     stable: true
     beta: true
-  description: {}
+  description:
+    fr_FR: "Auteur du plugin : Thomas Guenneguez<br/><br/>ATTENTION, il ne s’agit pas d’un plugin Officiel Jeedom mais d’un plugin développé par une tierce personne et dont l’évolution a été abandonnée. L’équipe technique Jeedom assurera l’assistance sur ce plugin sans obligation de résultat.<br/><br/>Plugin pour gerer les cartes ecodevice GCE.<br/>Il permet de récupérer dans Jeedom les données des compteurs EDF et des compteurs d'impulsions (eau, gaz, fuel, ...)."
 - id: ipx800
   name: "Ipx800 V3"
   market_id: 344
@@ -140,7 +141,8 @@
   changelog:
     stable: true
     beta: true
-  description: {}
+  description:
+    fr_FR: "Auteur du plugin : Thomas guenneguez<br/><br/>ATTENTION, il ne s’agit pas d’un plugin Officiel Jeedom mais d’un plugin développé par une tierce personne et dont l’évolution a été abandonnée. L’équipe technique Jeedom assurera l’assistance sur ce plugin sans obligation de résultat.<br/><br/>Plugin pour gerer les cartes ipx800 GCE.<br/>Prend en charge les extension x800. Permet de connaitre l'état des relais, entrées, .. de l'IPX et de modifier l'état des relais"
 - id: ipx800v2
   name: "IPX800 v2"
   market_id: 1194
@@ -150,7 +152,8 @@
   changelog:
     stable: false
     beta: false
-  description: {}
+  description:
+    fr_FR: "Auteur du plugin : Thomas Guenneguez<br/><br/>ATTENTION, il ne s’agit pas d’un plugin Officiel Jeedom mais d’un plugin développé par une tierce personne et dont l’évolution a été abandonnée. L’équipe technique Jeedom assurera l’assistance sur ce plugin sans obligation de résultat.<br/><br/>Plugin pour gerer les cartes ipx800 v2 GCE.<br/>Prend en charge les extension x800. Permet de connaitre l'état des relais, entrées, .. de l'IPX et de modifier l'état des relais"
 - id: ipx800v4
   name: "IPX 800 v4"
   market_id: 2046
@@ -284,7 +287,8 @@
   changelog:
     stable: false
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour zigbee sniffer (Texas Instrument CC2531). Attention à bien lire la documentation !!!"
 - id: rfplayer2
   name: "RfPlayer2"
   market_id: 3349
@@ -350,7 +354,8 @@
   changelog:
     stable: false
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant a Jeedom de communiquer avec des équipements xPL"
 - id: z2m
   name: "JeeZigbee"
   market_id: 4351
