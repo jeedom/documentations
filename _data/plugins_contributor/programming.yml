@@ -99,7 +99,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/documentation/third_plugin/httpRemoteEvent/fr_FR/index.html#_changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant d'envoyer des données à jeedom en http depuis n'importe quel système pouvant faire des appels http (raspberry pi ou esp8266 ou arduino + module ethernet...).<br/><br/>Il suffit d’appeler une url avec en paramètre get les infos que vous voulez que votre jeedom enregistre (des température, une consommation électrique...).<br/>"
 - id: icon
   name: "Icônes"
   market_id: 3328
@@ -199,6 +200,22 @@
     beta: false
   description:
     fr_FR: "Personnalisez Jeedom en fonction de VOS envies !<br/> Installez facilement les widgets réalisés par Salvialf et les menus de designs réalisés par Noodom et paramétrez les options de personnalisation en quelques clics.<br/> En cas de mise à jour disponible pour un widget un message vous notifie dans Jeedom afin de toujours bénéficier des dernières évolutions.<br/> Le plugin inclus également un outil permettant de créer et de gérer les widgets tiers. De nombreuses fonctions sont disponibles : gestion des commandes liées au widget, des paramètres du widget, possibilité d'inclure ou de supprimer des fichiers, éditeur de code et prévisualisation en temps réel.<br/> De nombreuses autres fonctions sont en cours de développement afin de rendre la personnalisation de Jeedom accessible à tout un chacun."
+- id: RoboProg
+  name: "RoboProg"
+  market_id: 4701
+  doc:
+    stable:
+      fr_FR: "https://github.com/Anakins/RoboProg"
+    beta:
+      fr_FR: "https://github.com/Anakins/RoboProg/tree/beta"
+  changelog:
+    stable:
+      fr_FR: "https://github.com/Anakins/RoboProg/blob/master/docs/changelog.md"
+    beta:
+      fr_FR: "https://github.com/Anakins/RoboProg/blob/beta/docs/changelog.md"
+  description:
+    fr_FR: "RoboProg est un planificateur de tonte générique, compatible avec N'IMPORTE QUEL robot tondeuse déjà intégré à Jeedom (Worx, Husqvarna, Gardena, Bosch...), du moment qu'il expose au moins une commande de démarrage.<br/><br/>Contrairement à un plugin dédié à une seule marque, RoboProg ne communique jamais directement avec le robot : il se contente de piloter les commandes de VOTRE équipement robot existant (démarrer, retour à la base, bordures...) au bon moment, selon des règles météo et un calendrier configurables.<br/><br/>- Fonctionne avec un simple couple Démarrer + capteur d'humidité (via un plugin météo) au minimum<br/>- Plus vous liez de commandes (retour à la base, bordures, batterie, statut, capteur pluie...), plus de fonctions avancées se débloquent automatiquement<br/>- Plage horaire et espacement entre tontes configurables<br/>- Sécurité météo : humidité, pluie, température (protection gel/canicule), condition météo actuelle<br/>- Programmation dédiée à la coupe des bordures (jours fixes ou intervalle), avec rattrapage automatique et relance du cycle de tonte classique une fois les bordures terminées<br/>- Notifications personnalisables (Discord, appli mobile...), avec choix fin de qui reçoit quoi<br/>- Outils de débogage intégrés pour tester sans attendre les délais réels"
+    en_US: "RoboProg is a generic mowing scheduler, compatible with ANY robot mower already integrated into Jeedom (Worx, Husqvarna, Gardena, Bosch...), as long as it exposes at least a start command.<br/><br/>Unlike a brand-specific plugin, RoboProg never talks to the robot directly: it simply drives YOUR existing robot equipment's commands (start, return home, edge cutting...) at the right time, based on configurable weather rules and a schedule.<br/><br/>- Works with a simple Start + humidity sensor (via a weather plugin) at minimum<br/>- The more commands you link (return home, edge cutting, battery, status, rain sensor...), the more advanced features unlock automatically<br/>- Configurable time window and spacing between mows<br/>- Weather safety: humidity, rain, temperature (frost/heatwave protection), current weather condition<br/>- Dedicated edge-cutting schedule (fixed days or interval), with automatic catch-up and resuming the planned regular mow cycle once edges are done<br/>- Customizable notifications (Discord, mobile app...), with fine control over who receives what<br/>- Built-in debugging tools to test without waiting for real-world delays"
 - id: rsync
   name: "Rsync backup (Sauvegarde Rsync)"
   market_id: 3901
@@ -295,7 +312,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/documentation/third_plugin/synchronize/fr_FR/index.html#_changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Permet de fusionner plusieurs commandes/info en une seule.<br/><br/>Utile avec des appareils sans retour d'état."
 - id: tgw
   name: "Theengs gateway"
   market_id: 4441
@@ -337,7 +355,8 @@
     stable:
       fr_FR: "http://engles.fr/jeedom_webview_docs/fr_FR/#changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant d’afficher une webview. Il peut afficher du code HTML une iframe par exemple ou directement un lien HTTP.<br/>Mode proxy possible pour accéder à des équipements sur le réseau interne."
 - id: youdesign
   name: "youdesign"
   market_id: 4440
