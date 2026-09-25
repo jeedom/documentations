@@ -133,7 +133,8 @@
     stable:
       fr_FR: "https://superbricolo.github.io/superbricoloDocs/consoWidget/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant d'afficher les graphiques de suivie conso sur le dashboard ou sur des vues.<br/><br/>Attention se plugin nécessite Suivi Conso Installer Et Activé."
 - id: dspsmartplug
   name: "DSP-W215 Smartplug"
   market_id: 3442
@@ -289,7 +290,8 @@
   changelog:
     stable: false
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour les contrôleurs Enphase Energy-S<br/><br/>fonctionne sur le produit suivant :<br/>https://enphase.com/en-us/products-and-services/envoy/family<br/><br/>Version Beta :<br/><br/>Ajout des infos batteries<br/>Ajout des infos des pinces"
 - id: enphasesecur
   name: "Enphase Secure"
   market_id: 4334
@@ -364,7 +366,8 @@
   changelog:
     stable: false
     beta: false
-  description: {}
+  description:
+    fr_FR: "Acquisition des données et contrôle des chaudières à granulés Hargassner.<br/>La chaudière doit être connectée au réseau Ethernet via le module passerelle (option Hargassner). Testé sur une chaudière NanoPk<br/>"
 - id: helloWatt
   name: "helloWatt"
   market_id: 4395
@@ -500,7 +503,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/documentation/third_plugin/mystrom/fr_FR/index.html#_changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Gestion des équipements Mystrom.<br/><br/>"
 - id: mywallbox
   name: "myWallBox"
   market_id: 4428
@@ -804,7 +808,8 @@
     stable:
       fr_FR: "https://github.com/mrgreenfr/JeedomPlugins_Docs/blob/master/stopleak/changelog.md"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Détecter et stopper ou alerter d'une fuite d'eau, d'électricité, de gaz.<br/><br/>Le plugin permet de paramétrer 5 types de fuites pour permettre la détection d'une petite fuite à une plus grande."
 - id: suiviCO2
   name: "Suivi CO2"
   market_id: 3929
@@ -833,7 +838,8 @@
     stable:
       fr_FR: "https://github.com/domoticadavinci/Sunny_Portal_Plugin/commits/master"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour l'integration des interfaces SunnyPortal"
 - id: teleo
   name: "Veolia Téléo"
   market_id: 4116
