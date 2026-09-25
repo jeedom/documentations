@@ -21,7 +21,8 @@
   changelog:
     stable: true
     beta: true
-  description: {}
+  description:
+    fr_FR: "Plugin pour contrôler les brumisateurs Alfawise<br/><br/>L'ensemble des fonctions est contrôlable"
 - id: aristonBoiler
   name: "AristonECS"
   market_id: 4582
@@ -70,7 +71,8 @@
   changelog:
     stable: false
     beta: true
-  description: {}
+  description:
+    fr_FR: "Plugin permettant de gérer de A à Z votre robot tondeuse équipée de la puce robonect. Ce plugin dispose d'un panel, de différentes options supplémentaires à ce qui est natif. Les widgets sont animés et complets. Le widget est aussi multipage."
 - id: smartercoffee
   name: "Smarter Coffee"
   market_id: 2285
@@ -122,4 +124,5 @@
   changelog:
     stable: true
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant de contrôler les aspirateurs Roomba à l'aide du module Thinking Cleaner.<br/>Les fonctions disponibles sont :<br/>- Clean<br/>- Spot<br/>- Max<br/>- Dock<br/>- Stop<br/>- Find Me"
