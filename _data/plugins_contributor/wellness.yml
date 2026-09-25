@@ -751,19 +751,6 @@
     en_US: "Plugin to connect to a myVaillant system, which replaces sensoApp & multiMATIC, (compatible with Bulex, Saunier Duval, Vaillant brands) via its internet gateway. The status of all connected equipment can be uploaded to Jeedom and controlled: set mode (On, Off, Auto...), define setpoint temperatures, activate fast mode, activate forced operation... Valves and thermostats from the ambiSENSE range connected to the system are also managed."
     es_ES: "Plugin para conectarse a un sistema myVaillant, que sustituye a sensoApp & multiMATIC en particular, (compatible con Bulex, Saunier Duval, Vaillant) a través de su pasarela de Internet. Puede consultar el estado de todos los equipos conectados en Jeedom y controlarlos: establecer el modo (Encendido, Apagado, Auto, etc.), definir temperaturas de consigna, activar un modo rápido, activar el funcionamiento forzado, etc. También se gestionan las válvulas y termostatos de la gama ambiSENSE conectados al sistema."
     de_DE: "Plugin, mit dem man sich über das Internet-Gateway mit einem myVaillant-System verbinden kann, das insbesondere sensoApp & multiMATIC ersetzt (kompatibel mit den Marken Bulex, Saunier Duval, Vaillant). Es ist möglich, den Status aller angeschlossenen Geräte in Jeedom abzurufen und sie zu steuern: Modus einstellen (Ein, Aus, Auto...), Solltemperaturen festlegen, einen Schnellmodus aktivieren, einen Zwangslauf aktivieren... Die an das System angeschlossenen Ventile und Thermostate der ambiSENSE-Reihe werden ebenfalls verwaltet."
-- id: viessmann
-  name: "Viessmann"
-  market_id: 4118
-  doc:
-    stable:
-      fr_FR: "https://github.com/PhilippeJ-code/viessmann/blob/master/docs/fr_FR/index.md"
-    beta: false
-  changelog:
-    stable:
-      fr_FR: "https://github.com/PhilippeJ-code/viessmann/blob/master/docs/fr_FR/changelog.md"
-    beta: false
-  description:
-    fr_FR: "Ce plugin est obsolète, merci d'utiliser le plugin viessmannIot"
 - id: viessmannIot
   name: "ViessmannIot"
   market_id: 4167
