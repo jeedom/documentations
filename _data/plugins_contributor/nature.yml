@@ -22,7 +22,8 @@
     stable:
       fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/foobot/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Récupérer les valeurs de vos capteurs de qualité d'air Foobot dans Jeedom. Avec ce plugin les valeurs de température, humidité, CO2, particules fines et volatiles sont disponibles dans Jeedom ainsi que l'indice général."
 - id: gardena
   name: "Gardena-Husqvarna"
   market_id: 4031
@@ -125,7 +126,8 @@
     stable:
       fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/opensprinkler/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour utiliser un OpenSprinkler qui est un système d'arrosage automatisé pour le jardin. Disponible prêt à l'emploi et autonome, ce plugin permet de récupérer les états des vannes, et autres infos ainsi que de forcer des actions dessus."
 - id: potager
   name: "Potager & Arrosage"
   market_id: 4130
