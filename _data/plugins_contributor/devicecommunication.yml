@@ -217,7 +217,8 @@
       en_US: "https://tof32.github.io/docPluginFlipr/en_US/changelog"
       de_DE: "https://tof32.github.io/docPluginFlipr/de_DE/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin de récupération des données de l'analyseur connecté pour piscines Flipr.<br/><br/>Le plugin est basé sur l’API de Flipr et lit les données sur la plateforme Flipr toutes les heures.<br/><br/>Pour l’utiliser il faut un modèle supportant la lecture des données à distance. Le modèle avec un accès uniquement à proximité en bluetooth ne sera pas suffisant.<br/><br/>ATTENTION : Ce plugin n'est pas supporté par l'entreprise Flipr et cette dernière ne saurait être tenue responsable si le plugin ne fonctionne pas."
 - id: fordcar
   name: "FordCar"
   market_id: 4319
@@ -244,7 +245,8 @@
     stable:
       fr_FR: "https://xlec.github.io/jeedom-gardenasmartsystem/fr_FR/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant de gérer les équipements Gardena Smart System (tondeuses uniquement pour l'instant)"
 - id: govee
   name: "Govee"
   market_id: 4371
@@ -804,7 +806,8 @@
     stable:
       fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/nfc/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant de récupérer les ID des tags NFC via un lecteur connecté à votre Jeedom.<br/>Il est possible d'utiliser aussi des lecteurs réseaux en configurant l'URL du plugin dessus (tasker, esp ...)"
 - id: nissan_leaf_connect
   name: "Nissan Leaf Connect"
   market_id: 2383
@@ -816,7 +819,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/documentation/third_plugin/nissan_leaf_connect/fr_FR/index.html#_changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour la gestion d'une Nissan Leaf<br/><br/>uniquement PHP (plus de python)<br/>thanks to https://github.com/gboudreau"
 - id: oklyn
   name: "Oklyn"
   market_id: 4156
@@ -930,7 +934,8 @@
     stable:
       fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/smartledmessenger/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant de gérer l'affichage sur des Smart Led Messenger<br/>Vous pouvez avec envoyer vos messages à un ou plusieurs Smart Led Messenger mais également gérer leurs paramètres d'affichage."
 - id: SmartLife
   name: "SmartLife/Tuya"
   market_id: 3724
@@ -1112,7 +1117,8 @@
     stable:
       fr_FR: "https://koleos6.github.io/twinkly/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant de commander les guirlandes Twinkly. <br/>En cours de création pour ajouter divers fonctionnalités."
 - id: velux
   name: "Velux"
   market_id: 4453
@@ -1160,7 +1166,8 @@
     stable:
       fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/violetmirror/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant d'utiliser le Mir:ror by Violet (concepteur des Karotz et autres lapins connectés)<br/>Pas besoin de lapin pour ce plugin, le Mir:ror est un lecteur RFID qui se branche directement sur Jeedom (il est également possible de faire tourner le script sur un linux et d'envoyer les données à Jeedom)"
 - id: volvocars
   name: "Volvo"
   market_id: 4476
@@ -1272,7 +1279,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/documentation/third_plugin/worxLandroid/fr_FR/index.html#_changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin worxLandroid pour la gerer les tondeuses compatibles de la marque"
 - id: worxLandroidS
   name: "worxLandroidS"
   market_id: 3396
