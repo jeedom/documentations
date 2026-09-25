@@ -1,8 +1,34 @@
 # Changelog plugin knxSecure
 
->**IMPORTANT**
+> **IMPORTANT**
 >
->S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
+> S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
+>
+> Les versions marquées **(beta)** ne sont pas encore disponibles en stable : elles sont en cours de validation sur la branche beta.
+
+# 23/09/2026
+
+- **Logs du démon plus détaillés** : le démarrage journalise la configuration utilisée (mode, passerelle, adresse demandée, sécurité), puis les étapes de connexion, le slot obtenu, les reconnexions et l'arrêt. Visible en niveau de log « info »
+- **Nouveau — modale « Santé des équipements »** (bouton *Santé*) : note sur 5 en barres de signal par équipement, avec le détail de chaque commande au clic
+- **L'installation des dépendances ne modifie plus le système** : plus aucune écriture dans les dépôts apt ni hors du dossier du plugin. La gestion des bibliothèques système relève du core Jeedom
+- **Installation plus rapide** : aucun appel à `apt` quand le Python du système convient (Debian 12). Seuil corrigé à 3.10, la version réellement exigée par xknx
+- **Python dédié confiné au plugin** : sur Debian 11, la compilation s'installe dans le dossier du plugin au lieu de `/opt/pyenv` partagé, et est réutilisée d'une mise à jour à l'autre
+- **Fix** : plugin qui restait bloqué en « installation en cours » après une installation interrompue
+
+# 26/08/2026 
+
+- **Fix — arrêt du démon impossible sur certaines installations** : erreur `Undefined constant "SIGTERM"` (extension PHP `pcntl` absente). 
+- **Passage de xknx 3.19.0 --> 3.20.0**
+- **Une action qui échoue est désormais signalée à l'écran** : plus de succès silencieux quand le démon est arrêté ou la passerelle injoignable. Jeedom attend la confirmation d'envoi (3 s max)
+- **Nouveau — vérification de l'exécution des commandes** (option, onglet Daemon, désactivée par défaut) : le démon surveille l'adresse d'état après chaque commande et signale l'absence de réponse. Délai configurable
+
+# 12/08/2026 
+
+- **Passage de xknx 3.16.0 --> 3.19.0 et de xknxproject 3.8.2 --> 3.10.0**
+- **Fix xknx — transmission KNX Data Secure** : les trames de plus de 15 octets sont correctement sérialisées en `L_Data_Extended`. Corrige un échec d'émission sur certaines commandes chiffrées
+- **Fix xknx — synchronisation Data Secure** : correction de l'encodage du champ S-A-Service dans `S_A_SYNC_REQ`, utilisé lors de la procédure de synchronisation de sécurité entre appareils
+- **Nouveaux DPT couleur** : 243.600, 249.600, 250.600, 252.600, 253.600 et 254.600 (contrôle et transition couleur) — décodage + sélecteur
+- **Nouveaux DPT divers** : 217.001, 219.001, 229.001, 230.1000, 240.800, 241.800, 246.600, 273.00x et 274.001 (version, alarme, comptage, volet, batterie, météo) — décodage + sélecteur
 
 # 10/08/2026
 
@@ -10,7 +36,7 @@
 
 # 16/07/2026
 
-- **Le plugin requiert désormais xknx 3.x (Python ≥ 3.10)** : sur un système au Python trop ancien (ex. Debian 11), Python 3.11 est compilé automatiquement via pyenv (Python natif sur Debian 12). Corrige l'échec d'installation des dépendances sous Python 3.9
+- **Le plugin requiert désormais xknx 3.x (Python ≥ 3.10)** : Python 3.11 est compilé automatiquement si celui du système est trop ancien (Debian 11). Corrige l'échec d'installation sous Python 3.9
 - **Fix — reconnexion automatique sous xknx 3.x** : le callback d'état de connexion n'était jamais exécuté sous xknx 3.x (warning `coroutine ... never awaited`) → la reconnexion ne partait pas. Corrigé
 - **Fix — double moteur de reconnexion** : la reconnexion interne de xknx est désactivée, la reconnexion est pilotée uniquement par le daemon
 - **Fix — comparaison de projets ETS (réimport)** : le diff affichait « Aucune modification » même entre deux projets différents (adresses non indexées). Rétabli
@@ -19,17 +45,17 @@
 
 # 03/07/2026
 
-- **Migration EIBD — widgets appliqués automatiquement** : après migration d'un équipement EIBD, les widgets Jeedom (dashboard/mobile) du template correspondant au type détecté sont appliqués aux commandes migrées (matching type + subType + DPT). Les équipements migrés retrouvent immédiatement leur rendu visuel (volet, thermostat, lumière…) sans repasser par l'application manuelle d'un template
-- **Type d'appareil — nouveaux profils sélectionnables** : la liste « Type d'appareil » d'un équipement propose désormais aussi Station météo, Horloge NTP, Téléinfo/Linky, Digicode, Détecteur de fumée, Détecteur de fuite, Capteur luminosité, Qualité de l'air, Citerne/Cuve et Bouton/Impulsion
+- **Migration EIBD — widgets appliqués automatiquement** : les équipements migrés retrouvent leur rendu visuel (volet, thermostat, lumière…) sans application manuelle d'un template
+- **Type d'appareil — nouveaux profils** : station météo, horloge NTP, Téléinfo/Linky, digicode, détecteur de fumée ou de fuite, capteur de luminosité, qualité de l'air, citerne, bouton/impulsion
 - **Template météo** : la commande d'alarme jour/nuit (DPT 1.005) n'est plus visible par défaut sur le widget
-- **Fix — hiérarchie GA de secours** : les adresses de groupe malformées (segments non numériques) sont ignorées lors de la reconstruction de l'arborescence de secours, au lieu de créer des groupes fantômes. Les formats TwoLevel et FreeStyle restent pris en charge
+- **Fix — hiérarchie GA de secours** : les adresses malformées sont ignorées au lieu de créer des groupes fantômes. TwoLevel et FreeStyle restent pris en charge
 
 # 24/06/2026
 
-- **Icônes automatiques sur les commandes** : une map centralisée `generic_type → icône` est appliquée à la création/mise à jour des commandes via template. Chaque commande dotée d'un `generic_type` connu reçoit automatiquement l'icône FontAwesome cohérente (lumière, volet, thermostat, ventilation, énergie, serrure, météo…). Une icône explicite définie dans un template reste prioritaire
+- **Icônes automatiques sur les commandes** : chaque commande dotée d'un `generic_type` connu reçoit son icône FontAwesome. Une icône définie dans un template reste prioritaire
 - **Templates enrichis** : comblement des `generic_type` manquants et ajout d'icônes explicites pour les commandes sans type standard — toute commande de template est visuellement identifiable
-- **Recommandation de GA par DPT** : dans les modales d'application de template et de création d'équipement, le sélecteur d'adresse de groupe ne propose plus que les GA sauvegardées dont le DPT correspond (DPT exact marqué ★, puis même DPT principal), avec compteur de GA compatibles. La saisie manuelle reste toujours disponible
-- **Propagation automatique entre commandes du même équipement** : dès qu'une GA est choisie sur une commande, les autres commandes encore vides sont pré-remplies si une GA compatible DPT partage le même dernier segment d'adresse (convention ETS répandue). Les suggestions sont signalées visuellement et restent modifiables
+- **Recommandation de GA par DPT** : les sélecteurs d'adresse ne proposent plus que les GA au DPT compatible (exact marqué ★). La saisie manuelle reste disponible
+- **Propagation automatique entre commandes** : choisir une GA pré-remplit les commandes vides dont le DPT correspond et qui partagent le même dernier segment d'adresse. Suggestions signalées et modifiables
 - **Fix — doublons d'adresse dans la propagation automatique** : une GA déjà attribuée à une commande n'est plus re-suggérée à une autre, sauf pour les paires explicitement couplées par le template (ex : Monter/Descendre)
 - **Fix — propagation figée après la première ancre** : les suggestions automatiques sont distinguées des valeurs confirmées par l'utilisateur et recalculées tant que la commande n'a pas été renseignée explicitement
 - **Fix — icône en doublon sur les widgets composites** : l'icône automatique ne s'applique plus aux commandes dotées d'un widget dédié (core::heat, core::shutter, core::light…), qui l'affichaient en double au-dessus du rendu natif
@@ -37,7 +63,7 @@
 # 23/06/2026
 
 - **Nouveaux templates d'équipements** : qualité de l'air, citerne/cuve, détecteur de fumée, digicode, porte, garage, compteur d'impulsions, détecteur de fuite, luminosité, prise, téléinformation (Linky) et fenêtre
-- **Fix — reconnexion en rafale (coupures longues)** : les reconnexions au daemon sont sérialisées (un seul essai à la fois, rafales coalescées) — la sauvegarde simultanée de plusieurs équipements ne sature plus le slot unique de la passerelle (`RuntimeError: Pas de connexion active`)
+- **Fix — reconnexion en rafale (coupures longues)** : les reconnexions sont sérialisées ; sauvegarder plusieurs équipements ne sature plus le slot unique de la passerelle
 - **Fix — slot fantôme tunneling UDP** : l'adresse individuelle de tunnel peut être fixée aussi en Tunneling UDP — après une coupure brutale, la passerelle remplace le slot fantôme au lieu de refuser la reconnexion
 - **UI Connexion KNX — indications par mode** : champ adresse tunnel exposé en Tunneling UDP, bloc « Slots tunnel de la passerelle » affiché pour tous les modes tunneling, bloc d'information pour le mode Routing
 - **Fix — migration EIBD : équipements suivants ignorés** : la déduplication compare désormais exactement l'id source — chaque équipement est traité indépendamment

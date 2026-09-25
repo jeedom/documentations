@@ -358,12 +358,12 @@ json
 
 - : 
 
-- : ``milesight_gs601.png``)
+- : )
 ---
 ### ?
 .
 
-    - Regarde le tableau  la section “ downlink”  “ via payload”,
+    - Regardez le tableau  la section “ downlink”  “ via payload”,
 
     - .
 
@@ -442,10 +442,45 @@ json
   -  ****.  
     **** .  
 3. ****
-    - ****  
-  .  
-    - ****  
-  .  
+
+    - ****
+  .
+    - ****
+  .
+    - ****
+  .
+  !alt text](../images/ongletintegrationmass.png)
+  ** : ** :
+  
+  -  : **** ( **X)** .
+  - .
+  !alt text](../images/selectfortemplate.png)
+  -  **""** .
+
+  ** : ** :
+   :
+  - **** : ).
+  - **** : , ****.
+  - **** : , ****.
+  - **** : :).
+  - **** : :).
+  - **** : ).
+  - **** : ).
+
+  ** : ** :
+  - ).
+  <p align="center">
+    <img src="../images/analyse.png" width="500" height="400">
+  </p>
+
+  - .
+  !alt text](../images/tableaupostanalyse.png)
+
+  - ..">. .
+  ** :** .
+  - .">
+  - .">. .
+
 4. ****  
    .
 
@@ -564,17 +599,17 @@ json
 
 ## 
 -  :  
-  -  ****  ****,  
-  -  **** .  
+  -  **** for exploitation on ****,  
+  -  **** for automated use or scripts.  
 
- **** :  
+ **Access path** :  
 
-..
+→ rak10701 files.csv and rak10701_history.json.
 !alt text](../images/rak3.png)
 
-.
+If write permission is not granted, restore the folder and file permissions in the OS/DB field in configuration.
 
-## 
+## 6. Download the file and process the data
 !alt text](../images/rak4.png)
 
 # FAQ

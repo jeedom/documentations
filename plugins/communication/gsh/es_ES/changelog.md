@@ -4,12 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-# 
+# 11/06/2025
 
-- 
-- 
+- Ajout du type décodeur
+- Ajout de la prise en compte des différents modes sur un équipement de type Thermostat
 - Corrección de errores para PHP8
-- 
+- Correction de la gestion du MFA
 
 # 11/06/2024
 

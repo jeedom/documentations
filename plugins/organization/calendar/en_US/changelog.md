@@ -1,46 +1,66 @@
-# Changelog Agenda
+# Changelog Calendar
 
->**Important**
+>**IMPORTANT**
 >
->If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
+>If there is no information about the update, it means that the update only involves documentation, translations, or text.
+
+# 12/08/2026
+
+- Fixed two fatal errors that could occur when restoring a backup
+- New method for translating documentation and the changelog
+
+# 09/06/2026
+
+- Update the `fullcalendar` library from 6.1.9 to 6.1.20
+
+# 08/06/2026
+
+- Replacing jQuery with native JavaScript in desktop views
+- Locking and Confirming the Closure of the Event Edit Window While an Event Is Being Edited
+- Fixed several display issues in the event list
+- Translation support for the widget
+- Minimum required Jeedom core version: 4.4.12
+
+# 26/08/2024
 
 - Fixed a bug on the repetition of an event every hour
+- Support for custom device images (Jeedom 4.5)
 
-# 01/23/2024
+# 23/01/2024
 
 - Fixed a bug when deleting an occurrence of a recurring event
 
-# 01/08/2024
+# 08/01/2024
 
 - Preparing for jeedom 4.4
 - Users with limited rights can now make changes from the widget
 
 # 01/12/2023
 
-- Optimization of occurrence calculation **Include/Exclude by date**
+- Optimization of the **Include/Exclude by Date** occurrence calculation
 
-# 11/27/2023
+# 27/11/2023
 
-- Updated the `fullcalendar` library to 6.0.1 to 6.1.9
-- Adding a view **Year**
+- Update the `fullcalendar` library from 6.0.1 to 6.1.9
+- Add a **Year** view
 - The selected view is saved when saving the equipment
 
-# 03/17/2023
+# 17/03/2023
 
-- Provision of an API to list, add, modify and delete an event.
+- Providing an API to list, add, modify, and delete an event.
 
 # 22/12/2022
 
-- Updated `fullcalendar` library from 3.10.5 to 6.0.1
-- Adding a view **Schedule** listing all the events of the week
-- Minimum Jeedom core version required : 4.2
+- Update the `fullcalendar` library from 3.10.5 to 6.0.1
+- Added a **Schedule** view listing all events for the week
+- Minimum required Jeedom core version: 4.2
 
-# 01/25/2022
+# 25/01/2022
 
 - Fixed a bug that could shift repeated events with a start or end date between 2 a.m. and 3 a.m
 - V4.2 optimizations
 
-# 12/02/2021
+# 02/12/2021
 
 - Bugfix
 - Preparation for Jeedom 4.2
@@ -50,27 +70,27 @@
 
 - Possibility to include / exclude dates according to all the events of a diary
 
-# 10/21/2021
+# 21/10/2021
 
 - Addition of the layout of equipment in table mode
 
-# 12/11/2020
+# 11/12/2020
 
-- Update of the calendar display library *(fix a display bug in week mode)*
+- Update to the calendar display library *(fixes a display bug in week mode)*
 
 # 07/12/2020
 
 - Fixed a bug on the color of events in the agenda in V4
 
-# 10/29/2020
+# 29/10/2020
 
 - Fixed a bug on annual repetitions and 32bits OS
 
-# 03/20/2020
+# 20/03/2020
 
 - Bug fix in Spanish
 
-# 11/15/2019
+# 15/11/2019
 
 - Bugfix
 
@@ -78,7 +98,7 @@
 
 - Widget improvement
 
-# 10/14/2019
+# 14/10/2019
 
 - Improved interface
 
@@ -103,46 +123,46 @@
 - Bugfix
 - Improved interface
 
-# 03/18/2019
+# 18/03/2019
 
 - When deleting an event the end actions are no longer executed
 - Improved interface
 - Bugfix
 
-# 01/08/2018
+# 08/01/2018
 
 - Fixed a bug when including/excluding dates if they are excluded/included
 
-# 10/14/2018
+# 14/10/2018
 
 - Bug correction on unrepeated events
 
-# 10/12/2018
+# 12/10/2018
 
 - Adding a reprogramming of all events every day at 00:00
 
-# 10/16/2018
+# 16/10/2018
 
 - Minor interface fix
 - Addition of order for the inclusion / exclusion of date from the scenarios
 
-# 10/15/2018
+# 15/10/2018
 
 - Correction of a bug on the inclusion of date
 
-# 03/29/2018
+# 29/03/2018
 
 - Correction of a bug on "until" if the repetition is not a simple repetition
 
-# 03/26/2018
+# 26/03/2018
 
 - Correction of a bug on the images of the configuration page
-- Correction of a bug during the calculation of the recurrence of events if no bound is defined.
+- Fixed a bug that occurred when calculating event recurrence if no time range was defined.
 
-# 03/02/2018
+# 02/03/2018
 
 - If an event is in progress when the agenda is reactivated, the start actions are launched
 
-# 02/27/2018
+# 27/02/2018
 
-- Removal of activation / deactivation commands *(to deactivate an agenda from a scenario, you must now use the equipment deactivation function)*
+- Removal of activation/deactivation commands *(to deactivate a schedule from a scenario, you must now use the device deactivation function)*

@@ -1,10 +1,30 @@
 # Agenda de cambios
 
->**Importante**
+>**IMPORTANTE**
 >
->Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
+>Si no hay información sobre la actualización, es porque esta se refiere únicamente a la actualización de la documentación, la traducción o el texto.
+
+# 12/08/2026
+
+- Se han corregido dos errores graves que podían producirse al restaurar una copia de seguridad
+- Nuevo método para traducir la documentación y el registro de cambios
+
+# 09/06/2026
+
+- Actualización de la biblioteca `fullcalendar` de la versión 6.1.9 a la 6.1.20
+
+# 08/06/2026
+
+- Sustitución de jQuery por JavaScript nativo en las vistas de escritorio
+- Bloqueo y confirmación del cierre de la ventana de edición de un evento que se está modificando
+- Se han corregido varios errores de visualización en la lista de eventos
+- Compatibilidad con las traducciones en el widget
+- Versión mínima requerida del núcleo de Jeedom: 4.4.12
+
+# 26/08/2024
 
 - Se corrigió un error en la repetición de un evento cada hora
+- Compatibilidad con imágenes personalizadas de los dispositivos (Jeedom 4.5)
 
 # 23/01/2024
 
@@ -17,23 +37,23 @@
 
 # 01/12/2023
 
-- Optimización del cálculo de ocurrencia **Incluir/Excluir por fecha**
+- Optimización del cálculo de las ocurrencias **Incluir/Excluir por fecha**
 
 # 27/11/2023
 
-- Se actualizó la biblioteca `fullcalendar` a 6.0.1 a 6.1.9
-- Agregar una vista **Año**
+- Actualización de la biblioteca `fullcalendar` de la versión 6.0.1 a la 6.1.9
+- Se ha añadido una vista **Año**
 - La vista seleccionada se guarda al guardar el equipo
 
 # 17/03/2023
 
-- Provisión de una API para enumerar, agregar, modificar y eliminar un evento.
+- Puesta a disposición de una API para listar, añadir, modificar y eliminar un evento.
 
 # 22/12/2022
 
-- Biblioteca `fullcalendar` actualizada de 3.10.5 a 6.0.1
-- Agregar una vista **Calendario** listado de todos los eventos de la semana
-- Se requiere la versión básica mínima de Jeedom : 4.2
+- Actualización de la biblioteca `fullcalendar` de la versión 3.10.5 a la 6.0.1
+- Se ha añadido una vista **Planificación** que muestra todos los eventos de la semana
+- Versión mínima requerida del núcleo de Jeedom: 4.2
 
 # 25/01/2022
 
@@ -54,11 +74,11 @@
 
 - Adición del diseño de equipos en modo mesa
 
-# 12/11/2020
+# 11/12/2020
 
-- Actualización de la biblioteca de visualización del calendario *(corregir un error de visualización en el modo semana)*
+- Actualización de la biblioteca de visualización del calendario *(corrige un error de visualización en el modo semanal)*
 
-# 12/07/2020
+# 07/12/2020
 
 - Se corrigió un error en el color de los eventos en la agenda en V4
 
@@ -70,7 +90,7 @@
 
 - Corrección de errores en español
 
-# 11/15/2019
+# 15/11/2019
 
 - Correcciones de errores
 
@@ -78,11 +98,11 @@
 
 - Mejora de widgets
 
-# 10/14/2019
+# 14/10/2019
 
 - Interfaz mejorada
 
-# 06/03/2019
+# 03/06/2019
 
 - Correcciones de errores
 
@@ -90,11 +110,11 @@
 
 - Correcciones de errores
 
-# 05/09/2019
+# 09/05/2019
 
 - Correcciones de errores
 
-# 04/28/2019
+# 28/04/2019
 
 - Correcciones de errores
 
@@ -109,7 +129,7 @@
 - Interfaz mejorada
 - Correcciones de errores
 
-# 01/08/2018
+# 08/01/2018
 
 - Se corrigió un error al incluir/excluir fechas si están excluidas/incluidas
 
@@ -117,7 +137,7 @@
 
 - Corrección de errores en eventos no repetidos
 
-# 10/12/2018
+# 12/10/2018
 
 - Agregar una reprogramación de todos los eventos todos los días a las 00:00
 
@@ -137,7 +157,7 @@
 # 26/03/2018
 
 - Corrección de un error en las imágenes de la página de configuración
-- Corrección de un error durante el cálculo de la recurrencia de eventos si no se define ningún límite.
+- Se ha corregido un error que se producía al calcular la periodicidad de los eventos cuando no se definía ningún límite.
 
 # 02/03/2018
 
@@ -145,4 +165,4 @@
 
 # 27/02/2018
 
-- Eliminación de comandos de activación / desactivación *(para desactivar una agenda de un escenario, ahora debes usar la función de desactivación de equipos)*
+- Eliminación de los comandos de activación/desactivación *(para desactivar un programa desde un escenario, ahora hay que utilizar la función de desactivación de equipos)*
