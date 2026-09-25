@@ -278,17 +278,6 @@
     en_US: "Plugin adding EnOcean support to Jeedom https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean Many modules will be added quickly and continuously We advise you to migrate with caution"
     es_ES: "Complemento que agrega soporte de EnOcean a Jeedom https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean Se agregarán muchos módulos de forma rápida y continua Le recomendamos que migre con precaución"
     de_DE: "Plugin, das EnOcean-Unterstützung zu Jeedom hinzufügt https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean Viele Module werden schnell und kontinuierlich hinzugefügt Wir empfehlen Ihnen, mit Vorsicht zu migrieren"
-- id: openzigbee
-  name: "OpenZigbee"
-  market_id: 3609
-  doc:
-    stable: false
-    beta: false
-  changelog:
-    stable: false
-    beta: false
-  description:
-    fr_FR: "Plugin pour zigbee sniffer (Texas Instrument CC2531). Attention à bien lire la documentation !!!"
 - id: rfplayer2
   name: "RfPlayer2"
   market_id: 3349
@@ -345,17 +334,6 @@
     en_US: "This plugin allows you to control Wattlet's Wattcubes modules via the Wattcube Web"
     es_ES: "Este complemento le permite controlar los módulos Wattcubes de Wattlet a través de la web de Wattcube"
     de_DE: "Mit diesem Plugin können Sie die Wattcubes-Module von Wattlet über das Wattcube Web steuern"
-- id: xpl
-  name: "xPL"
-  market_id: 6
-  doc:
-    stable: false
-    beta: false
-  changelog:
-    stable: false
-    beta: false
-  description:
-    fr_FR: "Plugin permettant a Jeedom de communiquer avec des équipements xPL"
 - id: z2m
   name: "JeeZigbee"
   market_id: 4351
