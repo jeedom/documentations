@@ -35,7 +35,8 @@
   changelog:
     stable: true
     beta: true
-  description: {}
+  description:
+    fr_FR: "Plugin hyperion pour le controle de celui-ci"
 - id: kodi
   name: "Kodi"
   market_id: 1398
@@ -87,7 +88,8 @@
   changelog:
     stable: true
     beta: false
-  description: {}
+  description:
+    fr_FR: "Ce plugin permet de contrôler votre Roku. Il peut le détecter tout seul et synchroniser ses chaînes. Ainsi il sera possible d'avoir un widget en 3 parties :<br/><br/>1 partie télécommande<br/><br/>1 partie recherche<br/><br/>1 partie chaînes<br/>"
 - id: songs
   name: "Songs"
   market_id: 3794
