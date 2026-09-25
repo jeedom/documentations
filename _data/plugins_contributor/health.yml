@@ -9,7 +9,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/documentation/third_plugin/beeriob/fr_FR/index.html#_changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour monitorer une ou plusieurs pompes à bières"
 - id: withings
   name: "Withings"
   market_id: 3400
