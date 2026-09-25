@@ -65,7 +65,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/plugin-badger/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Ce plugin permet de connecter des lecteurs de badges (RFID/NFC) utilisant le protocole Wiegand (8/26/34)."
 - id: blink_camera
   name: "Blink Camera"
   market_id: 3776
@@ -160,7 +161,8 @@
     stable:
       fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/doorbird/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Permet de connecter vos portiers Doorbird à votre Jeedom. Vous pouvez récupérer le flux vidéos, les triggers Doorbird et déclencher les actions disponibles."
 - id: doorbirdv2
   name: "Doorbird V2"
   market_id: 4503
@@ -300,7 +302,7 @@
       fr_FR: "https://loic691.github.io/jeedom_docs/plugins/HikvisionEvent/fr_FR/changelog"
     beta: false
   description:
-    fr_FR: "Ce plugin utilise l'API Hikvision et permet de recevoir tout type d'alarmes intelligentes des périphériques HIKVISION (fielddetection, linedetection, regionentrance, facedetection, accès illégal à l'interface web, problème réseau ou HDD, masquage,...). Il permet aussi de recevoir le type de target détecté (humain ou voiture) sur les caméras compatibles (Acusense par exemple). <br/>Le plugin est compatible avec l'ensemble des caméras et NVR de la marque et marques affiliées. Il gère également de nombreuses autres fonctions : le heartbeat, la réception d'image d'alarme depuis le flux d'alerte (pour les caméras compatibles), le reboot du périphérique, l'activation et désactivation des alarmes par type (linedetection, fieldetectio, VMD,...)  <br/> Découvrez sur la doc les futures fonctionnalités en cours de développement.<br/>L'API est réécrite intégralement car l'autre plugin dispo sur le market utilise une API obsolete."
+    fr_FR: "Ce plugin utilise l'API Hikvision et permet de recevoir tout type d'alarmes intelligentes des périphériques HIKVISION (fielddetection, linedetection, regionentrance, facedetection, accès illégal à l'interface web, problème réseau ou HDD, masquage,...). Il permet aussi de recevoir le type de target détecté (humain ou voiture) sur les caméras compatibles (Acusense par exemple). <br/>Le plugin est compatible avec l'ensemble des caméras et NVR de la marque et marques affiliées. Il gère également de nombreuses autres fonctions : le heartbeat, la réception d'image d'alarme depuis le flux d'alerte (pour les caméras compatibles), le reboot du périphérique, l'activation et désactivation des alarmes par type (linedetection, fieldetectio, VMD,...)  <br/> Découvrez sur la doc les futures fonctionnalités en cours de développement.<br/>L'API est réécrite intégralement car l'autre plugin dispo sur le market utilise une API obsolete."
 - id: jElocky
   name: "jElocky"
   market_id: 3593
@@ -314,7 +316,8 @@
       fr_FR: "https://domotruc.github.io/jElocky/fr_FR/index.html#changelog"
       en_US: "https://domotruc.github.io/jElocky/en_US/index.html#changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Le plugin **jElocky** interface les équipements de la marque Elocky (serrure eVy, box eZy, beacon) avec Jeedom."
 - id: motion
   name: "Motion"
   market_id: 1542
@@ -369,7 +372,8 @@
     stable:
       fr_FR: "https://github.com/KiwiHC16/multi-requests/tree/beta/docs"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Le plugin multiRequests est une évolution du plugin Virtuels.<br/><br/>Le plugin Virtual (virtuel) permet la création de périphériques virtuels et de leurs propriétés.<br/><br/>Est ajouté la possibilté de déclencher des actions en fonction d'une valeur.<br/><br/>Exemple: vous etes plusieurs à vouloir allumer ou éteindre une ampoule. Si chacun allume ou éteint l'ampoule sans consulter l'autre, vous aller à un moment ou à un autre vour retrouver dans le noir car l'autre à éteint. Maintenant si un objet represente la requete que vous faites: &quot;allume la lumiere&quot;, qu'un objet prend les requetes de chacun, consolide et prend la bonne action alors vous ne serez plus dans le noir. Il y a plusieurs facons de faire cela dans jeedom: scenario,... ici l'idée est d'avoir tout dans un objet visuel."
 - id: myfoxv2
   name: "Myfox V2"
   market_id: 2856
@@ -458,7 +462,8 @@
     stable:
       fr_FR: "https://github.com/fdp1nm/plugin-protexiom/releases"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour contrôler les sytèmes d'alarme Somfy Protexiom<br/><br/>Le plugin permet:<br/>     - d'activer l'alarme (zone par zone ou totale)<br/>     - de désactiver l’alarme<br/>     - de récupérer l'état de l'alarme<br/>     - de supprimer les alarmes<br/><br/>Le retour d'état est géré par polling (fréquence paramétrable, avec un minimum de 5 secondes)"
 - id: QRacces
   name: "Accès par QR code"
   market_id: 3758
@@ -590,7 +595,8 @@
     stable:
       fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/thekeys/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant d'interface vos serrures connectées The Keys gràce à la gateway."
 - id: verisure
   name: "Verisure"
   market_id: 3997
@@ -647,4 +653,5 @@
     stable:
       fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/zoneminder/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Permet de récupérer les caméras configurées dans Zoneminder (monitors) en gardant Zoneminder comme point central. Le plugin propose : configuration automatique des monitors dans le plugin Camera afin de récupérer la visu dans Jeedom, informations du mode et statut d'activation, commandes de modification du mode et statut"
