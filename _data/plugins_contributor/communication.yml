@@ -106,7 +106,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/documentation/third_plugin/asteriskcalls/fr_FR/index.html#_changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin Asterisk Calls "
 - id: clicksend
   name: "ClickSend"
   market_id: 4468
@@ -174,7 +175,8 @@
     stable:
       fr_FR: "https://github.com/fensoft/plugin-datatransfert/commits/master"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin d'envoi de fichier<br/><br/>- protocoles:<br/>dropbox (passage en apiv2)<br/>local<br/>webdav<br/>ftp<br/>sftp<br/>google drive (la cible peut-être un folder-id, voir le lien au dessus de la config)<br/>samba<br/>rclone donc: Amazon Drive, Amazon S3, Backblaze B2, Box, Ceph, Dreamhost, Google Cloud Storage, Google Drive, HTTP, Hubic, Memset Memstore, Microsoft Azure Blob Storage, Microsoft OneDrive, Minio, OVH, Openstack Swift, Oracle Cloud Storage, QingStor, Rackspace Cloud Files, Wasabi, Yandex Disk (avec autoconfigurateur windows)<br/><br/>- nettoyage auto distant (garder x jours ou x fichiers par exemple)<br/>- status (ok, ko, uploading, cleaning)<br/>- chemins récursifs (sauf pour gdrive avec des _ au lieu des / pour les sous dossiers)<br/>- date devinée à partir du nom du fichier par défaut (utilise celle du cloud sinon)<br/>- progression de l'upload au pourcent près"
 - id: devolo_cpl
   name: "Devolo CPL"
   market_id: 4388
@@ -251,7 +253,8 @@
     stable:
       fr_FR: "https://mika-nt28.github.io/Documentations/FreeSms/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant d'envoyer des sms sur son portable via l'option notification SMS de l'opérateur Free Mobile.<br/><br/>La notification sera envoyée seulement sur le portable lié au compte."
 - id: gammu
   name: "Gammu"
   market_id: 2176
@@ -276,7 +279,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/documentation/third_plugin/gandiDnsApi/fr_FR/index.html#_changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Pour les noms de domaine hébergé chez Gandi.net.<br/>Permet la mise à jour des enregistrements DNS via les API de Gandi Live."
 - id: gestionmsg
   name: "Gestion Message"
   market_id: 4613
@@ -316,7 +320,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/documentation/third_plugin/gmailinfo/fr_FR/index.html#_changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour récupérer des informations sur son compte GMail. Actuellement limité au nombre d'email non lus."
 - id: gotify
   name: "Gotify"
   market_id: 3774
@@ -485,7 +490,8 @@
     stable:
       fr_FR: "https://nextdom.github.io/plugin-jeerss/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour lire un flux Rss"
 - id: ledticker
   name: "LedTicker"
   market_id: 1821
@@ -497,7 +503,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/documentation/third_plugin/ledticker/fr_FR/index.html#_changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin servant à piloter un Afficheur LED"
 - id: linksys
   name: "Linksys"
   market_id: 4090
@@ -618,7 +625,8 @@
     stable:
       fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/newsapi/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Ce plugin permet de récupérer les dernières informations depuis newsapi.org.<br/>Il est possible de gérer les critères de sélection et recherche."
 - id: notificationqueue
   name: "Notification Queue"
   market_id: 3823
@@ -675,7 +683,8 @@
     stable:
       fr_FR: "https://patrickferreira.github.io/PilotJeedom/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin officiel de l'application Pilot sur iOS. Ce plugin permet de paramétrer Pilot en un clic via le scan d'un QR code.<br/><br/>Téléchargez l'application sur l'App Store : https://itunes.apple.com/fr/app/pilot-home-automation-client/id902546368?l=fr&ls=1&mt=8<br/><br/>Plus d'info : https://pilot.patrickferreira.com"
 - id: pipup
   name: "PiPup"
   market_id: 4254
@@ -808,7 +817,8 @@
     stable:
       fr_FR: "https://github.com/snipsco/snips-jeedom-plugin/blob/master/CHANGE_LOG.md"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Snips est un assistant vocal 100% personnalisable vous permettant de contrôler vos appareils connectés à Jeedom. Snips respecte votre vie privée car aucune requête n'est traité dans le cloud, tout est stocké et géré localement. <br/><br/>Rejoignez la discussion sur le forum Snips:<br/>https://forum.snips.ai/c/home-automation/jeedom-fr<br/><br/>Projet sur Github: <br/>https://github.com/snipsco/snips-jeedom-plugin<br/><br/>Tout rapport de bogue et suggestion de fonctionnalité peut être soumis ici:<br/>https://github.com/snipsco/snips-jeedom-plugin/issues<br/>--------<br/>* En téléchargeant et en installant cet assistant, vous acceptez d’en faire un usage non-commercial. <br/>* By downloading and installing this assistant, you acknowledge that it is free for non-commercial use."
 - id: Swissms
   name: "Swiss SMS"
   market_id: 2302
@@ -824,7 +834,8 @@
       en_US: "https://zyg0m4t1k.github.io/Swissms/en_US/changelog"
       de_DE: "https://zyg0m4t1k.github.io/Swissms/de_DE/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour envoyer des Sms via swisscom"
 - id: synologychat
   name: "Chat Synology"
   market_id: 2916
@@ -920,4 +931,5 @@
     stable:
       fr_FR: "https://revlysj.github.io/zipabox/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour communiquer avec une zipabox."
