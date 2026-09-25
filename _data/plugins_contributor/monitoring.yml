@@ -254,7 +254,8 @@
     stable:
       fr_FR: "https://sattaz.github.io/Jeedom_Fronius/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Le plugin Fronius permet de récupérer les informations de production photovoltaïque des onduleurs de la marque Fronius.<br/><br/>Il est compatible avec les versions 0 et 1 de l'API Fronius.<br/><br/>En application courante, il permet par exemple d'allumer ou d'éteindre un équipement en fonction de la puissance réelle générée par votre installation PV depuis un scénario dans Jeedom."
 - id: fully_kiosk
   name: "Fully KiosK 2"
   market_id: 4528
@@ -305,7 +306,8 @@
     stable:
       fr_FR: "https://zyg0m4t1k.github.io/graphs/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour la création de graphique via les données des sondes de la station Netatmo"
 - id: grocy
   name: "Grocy"
   market_id: 3945
@@ -317,7 +319,8 @@
     stable:
       fr_FR: "https://hotfirenet.github.io/jeedom_docs/plugins/grocy/fr_FR/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin Grocy pour le système domotique Jeedom. Grocy est un ERP permettant la gestion de stock de vos aliments et de vos tâches ménagère. Le système est open source est auto-hébergé."
 - id: groupe
   name: "Groupe"
   market_id: 2854
@@ -635,7 +638,8 @@
     stable:
       fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/nagioschecks/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Ce plugin permet d'éxécuter des check Nagios. Tous les check disponibles localement sont utilisable et il est également possible d'utiliser le check_by_ssh pour éxécuter des actions distantes."
 - id: noip
   name: "No-Ip Renew"
   market_id: 4112
@@ -755,7 +759,8 @@
       en_US: "https://zyg0m4t1k.github.io/Pingserver/en_US/changelog"
       de_DE: "https://zyg0m4t1k.github.io/Pingserver/de_DE/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour executer un ping sur une adresseip ou un domaine"
 - id: portainer
   name: "Portainer"
   market_id: 3931
@@ -854,7 +859,8 @@
     stable:
       fr_FR: "https://tux1c0.github.io/plugin-qnap/fr_FR/"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour la supervision de NAS QNAP"
 - id: rack
   name: "Rack Informatique"
   market_id: 3868
@@ -954,7 +960,8 @@
     stable:
       fr_FR: "https://sattaz.github.io/Jeedom_Solax/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Le plugin Solax permet de récupérer les informations de production photovoltaïque des onduleurs de la marque Solax.<br/><br/>En application courante, il permet par exemple d'allumer ou d'éteindre un équipement en fonction de la puissance réelle générée par votre installation PV depuis un scénario dans Jeedom."
 - id: solaxcloud
   name: "Solax Cloud"
   market_id: 4049
