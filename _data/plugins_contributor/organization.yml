@@ -22,7 +22,8 @@
     stable:
       fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/ayat/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Permet d'obtenir des versets et sourates en version texte et audio depuis une API"
 - id: birthday
   name: "Anniversaires"
   market_id: 4416
@@ -64,7 +65,8 @@
     stable:
       en_US: "https://mika-nt28.github.io/Documentations/CaveVin/en_US/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Quel vin j'ai dans ma cave?<br/>Une question que tous le monde se pose, et un plugin pour essayer d'y repondre"
 - id: comptes
   name: "Comptes"
   market_id: 1399
@@ -76,7 +78,8 @@
     stable:
       fr_FR: "https://koleos6.github.io/comptes/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin qui ajoute le suivi de comptes bancaires à Jeedom (manuel)"
 - id: CovidAttest
   name: "CovidAttest"
   market_id: 4070
@@ -262,7 +265,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/documentation/third_plugin/jeebike/fr_FR/index.html#_changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin donnant le nombre de Velib dispo pour une station"
 - id: jeeloc
   name: "Jeeloc"
   market_id: 3404
@@ -290,7 +294,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/documentation/third_plugin/jeeWunderlist/fr_FR/index.html#_changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour gérer ses listes Wunderlist"
 - id: magictrigger
   name: "magictrigger"
   market_id: 4060
@@ -471,7 +476,8 @@
     stable:
       fr_FR: "https://ticed35.github.io/jeedom-presence-doc/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour la gestion et l'automatisation de la présence dans le domicile."
 - id: prixcarburants
   name: "Prix Carburants"
   market_id: 3984
@@ -700,4 +706,5 @@
     stable:
       fr_FR: "https://github.com/gtranche/jeedom-trafic-transilien/"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour afficher l'état du trafic d'une ligne du Transilien.<br/>"
