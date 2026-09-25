@@ -7,7 +7,8 @@
   changelog:
     stable: true
     beta: false
-  description: {}
+  description:
+    fr_FR: "Ce plugin permet de contrôler une clé Blink1 depuis votre Jeedom. Ainsi vous pourrez depuis Jeedom faire changer la couleur de votre clé au grès de votre humeur ou pour vous notifier d'une alerte par exemple. <br/><br/><br/> Il faut installer sur un poste windows ou mac le logiciel Blink1 Control : https://github.com/todbot/blink1/releases et dans les options activer l'api server en mode &quot;any&quot;.<br/><br/>Vous pouvez aussi configurer une url de surveillance (l'url est indiqué sur la page de configuration de l'équipement blink1). "
 - id: husqvarna
   name: "Husqvarna"
   market_id: 3101
@@ -17,7 +18,8 @@
   changelog:
     stable: false
     beta: false
-  description: {}
+  description:
+    fr_FR: "Auteur du plugin : Thomas Guenneguez<br/><br/>ATTENTION, il ne s’agit pas d’un plugin Officiel Jeedom mais d’un plugin développé par une tierce personne et dont l’évolution a été abandonnée. L’équipe technique Jeedom assurera l’assistance sur ce plugin sans obligation de résultat.<br/><br/>Permet de connaitre l'état de son ou ses automover et des changer l'état (START, STOP, PARK)."
 - id: karotz
   name: "Karotz"
   market_id: 148
@@ -27,7 +29,8 @@
   changelog:
     stable: true
     beta: true
-  description: {}
+  description:
+    fr_FR: "Cela va de sa led, à ses oreilles en passant par les sons et la synthèse vocale et plein d’autres.<br/><br/>Pratiquement tout ce qui est réalisable avec le Karotz est intégré. Pour la gestion de la caméra. il faut noter qu'elle est parfaitement géré dans le plugin caméra"
 - id: nabaztag
   name: "Nabaztag"
   market_id: 151
@@ -37,4 +40,5 @@
   changelog:
     stable: true
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin pour commander le Nabaztag."
