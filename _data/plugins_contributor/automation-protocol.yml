@@ -157,7 +157,8 @@
     stable:
       fr_FR: "https://mika-nt28.github.io/Documentations/globalcache/fr_FR/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Ce plugin permet de connecter tous les appareils Global Cache à Jeedom"
 - id: hkControl
   name: "Homekit Network Devices Control"
   market_id: 3919
@@ -202,7 +203,8 @@
     stable:
       fr_FR: "https://github.com/rezolv-fr/jeedoredaemon-dotnet/blob/master/docs/index.md"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Le plugin permet de piloter des équipements DeltaDore via une box Tydom <br/><br/>Actuellement, il est possible de :<br/>- piloter et d'identifier des volets roulants, chauffage, stores<br/>- connaitre l'état de tous les équipements Delta Dore : porte, porte de garage, porte-fenêtre, fenêtre, alarme, lumière et 'autres'<br/>- exécuter des scenarii configurer depuis la Tydom<br/>"
 - id: jeedouino
   name: "Jeedouino"
   market_id: 2064
@@ -250,7 +252,8 @@
       en_US: "https://totoff974.github.io/JeePlcBus/en_US/changelog"
       de_DE: "https://totoff974.github.io/JeePlcBus/de_DE/changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant d’utiliser le module PLCBUS-1141 avec Jeedom. Ce plugin fonctionne en local.<br/><br/>Le plugin PlcBus permet de dialoguer avec l’ensemble des périphériques compatibles avec le module PLCBUS-1141.<br/>Le module PLCBUS-1141 permet d’interfacer un ordinateur avec le signal PLCBUS afin de pouvoir contrôler les différents modules de l’installation à partir de celui-ci. "
 - id: jMQTT
   name: "jMQTT"
   market_id: 3166
@@ -291,7 +294,8 @@
     stable:
       fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/kmtronic/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Ce plugin permet d'utiliser les cartes Web Relay TCP de KMTronic. La carte relais est utilisable en rail din directement dans le tableau électrique, dispose de 8 relais. Tous sont utilisables via Jeedom, le retour d'information se fait suite à une action, en refresh auto ou manuel. La carte est homologuée CE et dispose d'un boitier."
 - id: Lecteur_IR
   name: "Lecteur IR V3"
   market_id: 1948
@@ -303,7 +307,8 @@
     stable:
       fr_FR: "https://www.carle.fr/plugin-lecteur-ir/2-changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "NOTE: cette version nécessite Jeedom en version 3.0 ou supérieur<br/><br/>Ce Plugin est constitué d'un daemon qui écoute sur le port de votre receiver IR et de son plugin Jeedom pour l'exploiter :<br/><br/>Lorsqu'un code IR est identifié sur le récepteur IR, son ID est envoyé sur un déclencheur (type info) qui permet de lancer des actions spécifiques (par exemple des scénarios) selon les codes reçus...<br/>NOTE: Ce plugin a été testé avec succès sur RPI1 & 2 avec un capteur IR sur USB, ainsi que sur HummingBoard avec le capteur intégré sur la carte. Beaucoup d'autres configurations peuvent fonctionner, mais je ne peux garantir son fonctionnement car cela peut aussi dépendre de votre capteur IR (surtout avec un capteur sur GPIO)..."
 - id: LegrandIoblMyhome
   name: "Legrand Boxio et Myhome"
   market_id: 4526
@@ -341,7 +346,8 @@
     stable:
       fr_FR: "https://github.com/mrgreenfr/JeedomPlugins_Docs/blob/master/lorattngw/changelog.md"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Nouveau Plugins : N'hésitez pas à me faire des retours et demander de l'aide sur le forum : https://www.jeedom.com/forum/viewtopic.php?f=140&t=46348<br/><br/>Gérer votre Gateway The Things Network sur un Raspberry Pi avec Jeedom.<br/><br/>Fonctionne uniquement sur Raspberry Pi uniquement.<br/>SPI doit-être activé.<br/>Testé avec une carte IC880A-SPI.<br/><br/>Documentation disponible ici : https://www.pasteck.com/fabriquer-son-gateway-the-things-network-avec-jeedom-sur-raspberry-pi/"
 - id: matter
   name: "Matter"
   market_id: 4634
@@ -552,7 +558,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/documentation/third_plugin/rcswitch/fr_FR/index.html#_changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Plugin permettant l'utilisation d'un kit 433 MHz par les GPIO"
 - id: relaynet
   name: "Carte Ethernet 8 Relais"
   market_id: 1824
@@ -564,7 +571,8 @@
     stable:
       fr_FR: "https://lunarok.github.io/jeedom_docs/plugins/relaynet/changelog.html"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Ce plugin permet de controler une carte ethernet 8 relais/8 inputs qu'on peut trouver chez les commercants chinois.<br/>Le plugin permet de controler les relais et récupérer l'état des relais et input."
 - id: rflink
   name: "RFLink"
   market_id: 1981
@@ -628,7 +636,8 @@
     stable:
       fr_FR: "https://jeedom.github.io/documentation/third_plugin/Store/fr_FR/index.html#_changelog"
     beta: false
-  description: {}
+  description:
+    fr_FR: "Gestion 4 Commandes de volet "
 - id: tahoma
   name: "Tahoma"
   market_id: 1719
