@@ -612,6 +612,22 @@
     beta: false
   description:
     fr_FR: "Ce plugin permet d'utiliser les modules Shelly."
+- id: shelly_control
+  name: "Shelly Control"
+  market_id: 4689
+  doc:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-shelly_control/fr_FR/"
+    beta: false
+  changelog:
+    stable:
+      fr_FR: "https://limad.github.io/plugins-docs/plugin-shelly_control/fr_FR/changelog"
+    beta: false
+  description:
+    fr_FR: "Contrôle local (sans cloud) des appareils Shelly Gen1 à Gen4 via un démon Python basé sur aioshelly. Découverte automatique sur le réseau (mDNS, CoIoT), remontée d'état en temps réel, pilotage des relais, volets, lumières (RVB/CCT), et gestion des scripts natifs des appareils Gen2 et supérieurs."
+    en_US: "Local (cloud-free) control of Shelly Gen1 to Gen4 devices via a Python daemon based on aioshelly. Automatic network discovery (mDNS, CoIoT), real-time state updates, control of relays, covers, lights (RGB/CCT), and native script management on Gen2+ devices."
+    es_ES: "Control local (sin nube) de los dispositivos Shelly Gen1 a Gen4 mediante un demonio Python basado en aioshelly. Descubrimiento automático en la red (mDNS, CoIoT), actualización de estado en tiempo real, control de relés, persianas, luces (RGB/CCT) y gestión de los scripts nativos de los dispositivos Gen2 y superiores."
+    de_DE: "Lokale Steuerung (ohne Cloud) von Shelly-Geräten Gen1 bis Gen4 über einen Python-Daemon auf Basis von aioshelly. Automatische Erkennung im Netzwerk (mDNS, CoIoT), Echtzeit-Statusaktualisierung, Steuerung von Relais, Rollläden, Lichtern (RGB/CCT) sowie Verwaltung der nativen Skripte von Gen2+-Geräten."
 - id: siapro
   name: "SIA Pro"
   market_id: 3994
