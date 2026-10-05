@@ -1,41 +1,49 @@
 # Changelog jeeasy
 
->**Important**
+>**IMPORTANT**
 >
->As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
+>As a reminder, if there is no information about an update, it means that the update applies only to documentation, translations, or text.
 
+# 05/10/2026
 
-# 01/18/2024
+- Complete rewrite, optimization, and modernization of the configuration wizard
+- Added the option to select a country on the Home screen
+- Add an Interface step *(theme selection and icon coloring)*
+- Add a "Networks" step *(local and external access)*
+- The plugin for the Atlas, Luna, and Freebox Delta routers is available in the Plugins section instead of being installed automatically
+- Elimination of the plugin configuration step, as each plugin applies its own default configuration
+- Removal of the Atlas restoration wizard is now handled by the core
+- Minimum Jeedom core version: 4.4
 
-- Adding Building Image for object creation
-- Clean jquery object.modal
+# 18/01/2024
 
+- Adding a Building image to create objects
 
 # 20/11/2022
 
-- Added Luna support
-- New Modal Rename Box
-- Automatic DNS activation
-- New UI
+- Support for the Luna box
+- New window to rename the box
+- Automatic activation of Jeedom DNS
+- New interface
 
-# 04/26/2022
+# 26/04/2022
 
-- Bugfix
+- Bug fixes
 - Improved translations
 
-# 01/31/2022
+# 31/01/2022
 
-- Addition proposed installation of plugins on service pack.
-- Addition of Discover which allows you to find compatible equipment on the local network (LAN).
+- Proposal to install the plugins included in the service pack
+- Added support for detecting compatible devices on the local network
 
-# 12/06/2021
+# 06/12/2021
 
-- Added choice of language.
+- Added choice of language
 
-# 09/30/2021
+# 30/09/2021
 
-- Add Recovery Atlas.
+- Added the Atlas restoration wizard
 
-# 09/16/2021
+# 16/09/2021
 
-- Integration of the automatic installation of the Atlas plugin.
+- Automatic installation of the Atlas plugin

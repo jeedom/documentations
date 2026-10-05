@@ -1,41 +1,49 @@
 # Changelog jeeasy
 
->**Wichtig**
+>**WICHTIG**
 >
->Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
+>Zur Erinnerung: Wenn keine Informationen zu einem Update vorliegen, betrifft dieses ausschließlich die Dokumentation, Übersetzungen oder Texte.
 
+# 05/10/2026
 
-# 18.01.2024
+- Komplette Neuprogrammierung, Optimierung und Modernisierung des Konfigurationsassistenten
+- Hinzufügen der Länderauswahl im Schritt „Startseite“
+- Hinzufügen eines Schritts „Benutzeroberfläche“ *(Auswahl des Designs und Farbgestaltung der Symbole)*
+- Hinzufügen eines Schritts „Netzwerke“ *(lokaler und externer Zugriff)*
+- Das Plugin für die Atlas-, Luna- und Freebox Delta-Boxen wird im Schritt „Plugins“ angeboten, anstatt automatisch installiert zu werden
+- Entfall des Schritts zur Konfiguration der Plugins, da jedes Plugin seine eigene Standardkonfiguration verwendet
+- Die Deaktivierung des Atlas-Wiederherstellungsassistenten wird nun vom Core verwaltet
+- Mindestversion des Jeedom-Cores: 4.4
 
-- Gebäudebild zur Objekterstellung hinzufügen
-- Bereinigen Sie jquery object.modal
+# 18/01/2024
 
+- Hinzufügen eines Gebäudebildes zur Erstellung von Objekten
 
-# 20.11.2022
+# 20/11/2022
 
-- Luna-Unterstützung hinzugefügt
-- Neues modales Umbenennungsfeld
-- Automatische DNS-Aktivierung
+- Unterstützung für die Luna-Box
+- Neues Fenster zum Umbenennen der Box
+- Automatische Aktivierung des Jeedom-DNS
 - Neue Benutzeroberfläche
 
-# 26.04.2022
+# 26/04/2022
 
-- Fehlerbehebung
+- Fehlerbehebungen
 - Verbesserte Übersetzungen
 
-# 31.01.2022
+# 31/01/2022
 
-- Zusätzlich vorgeschlagene Installation von Plugins auf Service Pack.
-- Hinzufügen von Discover, mit dem Sie kompatible Geräte im lokalen Netzwerk (LAN).
+- Vorschlag zur Installation der im Service Pack enthaltenen Plugins
+- Erkennung kompatibler Geräte im lokalen Netzwerk hinzugefügt
 
-# 12.06.2021
+# 06/12/2021
 
-- Sprachauswahl hinzugefügt.
+- Sprachauswahl hinzugefügt
 
-# 30.09.2021
+# 30/09/2021
 
-- Wiederherstellungsatlas hinzufügen.
+- Hinzufügen des Atlas-Wiederherstellungsassistenten
 
-# 16.09.2021
+# 16/09/2021
 
-- Integration der automatischen Installation des Atlas-Plugins.
+- Automatische Installation des Atlas-Plugins

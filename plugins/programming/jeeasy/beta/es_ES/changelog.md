@@ -1,41 +1,49 @@
 # Registro de cambios jeeasy
 
->**Importante**
+>**IMPORTANTE**
 >
->Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
+>A modo de recordatorio, si no hay información sobre una actualización, es porque esta afecta únicamente a la documentación, las traducciones o los textos.
 
+# 05/10/2026
+
+- Reescritura completa, optimización y modernización del asistente de configuración
+- Se ha añadido la opción de seleccionar el país en el paso «Inicio»
+- Añadir un paso de interfaz *(selección del tema y colores de los iconos)*
+- Añadir un paso de Redes *(acceso local y externo)*
+- El complemento específico para los routers Atlas, Luna y Freebox Delta se ofrece en el paso «Complementos», en lugar de instalarse automáticamente
+- Se ha eliminado el paso de configuración de los complementos, ya que cada uno aplica su propia configuración por defecto
+- La eliminación del asistente de restauración Atlas ahora la gestiona el núcleo
+- Versión mínima del núcleo de Jeedom: 4.4
 
 # 18/01/2024
 
-- Agregar imagen de edificio para la creación de objetos
-- Limpiar objeto jquery.modal
-
+- Añadir una imagen de «Edificio» para la creación de objetos
 
 # 20/11/2022
 
-- Añadido soporte de Luna
-- Nuevo cuadro de cambio de nombre modal
-- Activación automática de DNS
-- Nueva interfaz de usuario
+- Compatibilidad con el router Luna
+- Nueva ventana para cambiar el nombre del router
+- Activación automática del DNS de Jeedom
+- Nueva interfaz
 
 # 26/04/2022
 
-- Arreglo del fallo
+- Corrección de errores
 - Traducciones mejoradas
 
 # 31/01/2022
 
-- Adición propuesta de instalación de complementos en el paquete de servicio.
-- Adición de Discover que le permite encontrar equipos compatibles en la red local (LAN).
+- Propuesta de instalación de los complementos incluidos en el paquete de servicio
+- Se ha añadido la detección de dispositivos compatibles en la red local
 
 # 06/12/2021
 
-- Mayor elección de idioma.
+- Mayor elección de idioma
 
 # 30/09/2021
 
-- Agregar Atlas de recuperación.
+- Incorporación del asistente de restauración Atlas
 
 # 16/09/2021
 
-- Integración de la instalación automática del complemento Atlas.
+- Instalación automática del complemento Atlas
