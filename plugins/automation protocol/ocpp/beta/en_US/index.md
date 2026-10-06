@@ -1,126 +1,137 @@
-# Plugin OCPP
+# OCPP Plugin
 
-Le plugin **OCPP** permet d'utiliser Jeedom en tant que système central OCPP *(Open Charge Point Protocol)*. Il offre la possibilité de superviser une ou plusieurs bornes de recharge de véhicules électriques compatibles avec ce protocole.
+The **OCPP** plugin allows you to use Jeedom as an OCPP *(Open Charge Point Protocol)* central system. It enables you to monitor one or more electric vehicle charging stations that are compatible with this protocol.
 
-# Configuration
+# Setup
 
-## Configuration de la borne
+## Terminal Configuration
 
-Pour que le plugin soit en mesure de communiquer avec la borne, il est indispensable de la configurer correctement. Cette étape de configuration est propre à chaque modèle/fabricant, l'attendu étant :
+For the plugin to be able to communicate with the gateway, it is essential to configure it correctly. This configuration step varies by model and manufacturer, but the expected outcome is:
 
-- **Version du protocole** : activer la connexion OCPP en version supportée *(OCPP 1.6/2.0.1)*.
-- **Adresse IP/URL/Endpoint** : renseigner l'adresse du système central OCPP *(ws://``IP_LOCALE_JEEDOM``:9000)*.
-- **Identifiant de la borne** : chaque borne doit avoir un identifiant unique pour être reconnue par Jeedom *(ws://``IP_LOCALE_JEEDOM``:9000/``ID_BORNE``)*.
+- **Protocol version**: Enable the OCPP connection, version 1.6.
+- **IP Address/URL/Endpoint**: Enter the address of the OCPP central system *(ws://``IP_LOCALE_JEEDOM``:9000)*.
+- **Terminal ID**: Each terminal must have a unique ID to be recognized by Jeedom *(ws://``IP_LOCALE_JEEDOM``:9000/``ID_BORNE``)*.
 
-## Configuration du plugin
+## Plugin Configuration
 
-Comme tout plugin Jeedom, le plugin **OCPP** doit être activé après l'installation. Puis, suite à l'installation des dépendances, le démon peut être démarré.
+Like any Jeedom plugin, the **OCPP** plugin must be enabled after installation. Then, once the dependencies have been installed, the daemon can be started.
 
-Dans les minutes qui suivent le démarrage du démon, les bornes de recharge correctement configurées se connectent au système central Jeedom. Les équipements correspondants sont créés automatiquement.
-
->**INFORMATION**
->
->La communication s'établit par défaut sur le port `9000`. Il est possible de modifier ce port en cas de conflit, la configuration de la borne devant être adaptée en conséquence.
-
-## Configuration des équipements
-
-### Autorisations
-
-Par défaut, toute borne nouvellement créée n'autorise aucune charge *(transaction)*.
-
-Un menu déroulant permet d'autoriser toutes les transactions ou de sélectionner [un groupe d'autorisation](#Groupes%20d'autorisations).
-
->**IMPORTANT**
->
->En mode "Tout autoriser", ce sont les identifiants des utilisateurs Jeedom qui peuvent démarrer une charge.
-
-### Paramètres de la borne
-
-L'onglet **Paramètres** donne accès à l'ensemble des paramètres de configuration de la borne. Certains sont modifiables et d'autres non. Ils sont répartis en deux grandes familles : ceux propres au protocole OCPP et ceux spécifiques au fabricant.
+Within minutes of the daemon starting up, properly configured charging stations connect to the Jeedom central system. The corresponding devices are created automatically.
 
 >**INFORMATION**
 >
->Pour afficher les champs non modifiables il faut cliquer sur l'icône en forme d'œil. Cliquer sur l'œil barré pour les cacher à nouveau.
+>Communication is established by default on port `9000`. This port can be changed in the event of a conflict; the terminal's configuration must be adjusted accordingly.
 
-Chaque borne peut donc être directement configurée depuis l'équipement Jeedom en cliquant sur le bouton **Enregistrer les paramètres sur la borne**. Une fenêtre listant l'ensemble des modifications apportées s'affiche alors, sélectionner les paramètres à appliquer puis cliquer sur **Enregistrer** pour les envoyer sur la borne.
+## Device Setup
+
+### Permissions
+
+By default, any newly created terminal does not allow any charges *(transactions)*.
+
+A drop-down menu allows you to authorize all transactions or select [an authorization group](#permission-groups).
 
 >**IMPORTANT**
 >
->Toute modification d'un paramètre de configuration de la borne est à appliquer en connaissance de cause. Une erreur étant susceptible d'entraîner des dysfonctionnements.
+>In "Allow All" mode, any credentials presented at the terminal are accepted. The **Start Load** command then displays the list of Jeedom users.
 
-# Groupes d'autorisations
+### Terminal settings
 
-Cliquer sur le bouton **Autorisations** pour afficher la fenêtre de gestion des groupes d'autorisation. Cliquer sur **Ajouter un groupe** pour ajouter un nouveau groupe ou sélectionner un groupe existant pour le modifier.
+The **Settings** tab provides access to all of the hub's configuration settings. Some settings can be modified, while others cannot. They are divided into two main categories: those specific to the OCPP protocol and those specific to the manufacturer.
 
-## Ajouter des autorisations
+>**INFORMATION**
+>
+>To display the read-only fields, click the eye icon. Click the crossed-out eye icon to hide them again.
 
-Chaque groupe permet d'ajouter des autorisations manuellement ou de télécharger/envoyer le fichier d'autorisations au format CSV.
+Each device can therefore be configured directly from the Jeedom interface by clicking the **Save Settings to Device** button. A window listing all the changes made will then appear; select the settings to apply, then click **Save** to send them to the device.
 
-Une autorisation étant composée :
-- **d'un identifiant** : unique pour chaque utilisateur *(badge RFID par exemple)*.
-- **d'un statut** : Autorisé, Bloqué, Expiré ou Invalide.
-- **d'une date d'expiration** : date de fin de l'autorisation *(facultatif sauf borne Hager par exemple)*
-- **d'une autorisation pour les transactions concurrentes** : cocher la case pour autoriser plusieurs charges en parallèle pour cet identifiant.
+>**IMPORTANT**
+>
+>Any changes to the gateway's configuration settings should be made with full knowledge of the implications, as an error could lead to malfunctions.
 
-Cliquer sur le bouton **Sauvegarder les autorisations** pour enregistrer les groupes d'autorisations.
+# Permission Groups
+
+Click the **Permissions** button to display the permission group management window. Click **Add Group** to add a new group, or select an existing group to edit it.
+
+## Add permissions
+
+For each group, you can add permissions manually or upload/export the permissions file in CSV format.
+
+To add a permissions group, simply click the **Add Group** button and enter the group name.
+
+>**INFORMATION**
+>
+>Double-click a group's name to rename it.
+
+An authorization consists of:
+- **an identifier**: unique for each user *(e.g., an RFID badge—case-insensitive)*.
+- **a name**: user-readable identifier *(optional)*.
+- **status**: Authorized, Blocked, Expired, or Invalid.
+- **expiration date**: the date the authorization expires *(optional, except for Hager terminals, for example)*
+- **Authorization for concurrent transactions**: Check the box to allow multiple charges to occur simultaneously for this ID.
+
+Click the **Save Permissions** button to save the permission groups.
 
 # Transactions
 
-Les données des transactions *(charges)* propres à chaque contexte *(toutes, par équipement, par autorisation)* sont accessibles par le bouton **Transactions** :
-- **ID** : identifiant de la transaction.
-- **Equipement** : nom de l'équipement Jeedom.
-- **Utilisateur** : identifiant de l'utilisateur.
-- **Début** : date de début.
-- **Fin** : date de fin.
-- **Durée** : durée totale de la charge.
-- **Consommation (Wh)** : consommation totale en wattheures.
-- **Connecteur** : numéro du connecteur/prise.
+Transaction data *(charges)* specific to each context *(all, by device, by authorization)* can be accessed via the **Transactions** button:
+- **ID**: transaction identifier.
+- **Device**: Name of the Jeedom device.
+- **User**: username or user name.
+- **Start**: start date.
+- **End**: end date.
+- **Duration**: total charging time.
+- **Power Consumption (Wh)**: total power consumption in watt-hours.
+- **Connector**: connector/outlet number.
 
-# Commandes
+>**INFORMATION**
+>
+>Regardless of the list of requested transactions *(all, by terminal, or by user)*, they are updated in real time upon creation or closure.
 
-## Borne
+# Commands
 
-- **Etat borne** *(info/binary)* : état d'activation de la borne.
-- **Activer/Désactiver borne** *(action/other)* : disponibilité de la borne.
-- **Statut borne** *(info/string)* : statut général de la borne.
-- **Erreur borne** *(info/string)* : dernier message/code d'erreur.
-- **Info borne** *(info/string)* : informations complémentaires.
-- **Courant max borne** *(info/numeric)* : courant maximal *(SmartCharging)*.
-- **Courant borne** *(action/slider)* : définir le courant maximal de la charge en cours *(SmartCharging)*.
-- **Puissance max borne** *(info/numeric)* : puissance maximale *(SmartCharging)*.
-- **Puissance borne** *(action/slider)* : définir la puissance maximale de la charge en cours *(SmartCharging)*.
-- **Redémarrage logiciel/matériel borne** *(action/other)* : redémarrer la borne.
+## Terminal
 
-## Connecteur(s)
+- **Terminal Status** *(info/binary)*: the terminal's activation status.
+- **Enable/Disable Access Point** *(action/other)*: Access point availability.
+- **Terminal status** *(info/string)*: general status of the terminal.
+- **Terminal error** *(info/string)*: last message/error code.
+- **Terminal Info** *(info/string)*: additional information.
+- **Max. terminal current** *(info/numeric)*: maximum current *(SmartCharging)*.
+- **Terminal Current** *(action/slider)*: Set the maximum current for the terminal *(SmartCharging)*.
+- **Maximum terminal power** *(info/numeric)*: maximum power *(SmartCharging)*.
+- **Terminal Power** *(action/slider)*: Set the maximum power of the terminal *(SmartCharging)*.
+- **Software/Hardware Reboot of the Access Point** *(action/other)*: Reboot the access point.
 
-- **Etat connecteur** *(info/binary)* : état d'activation du connecteur.
-- **Activer/Désactiver connecteur** *(action/other)* : disponibilité du connecteur.
-- **Statut connecteur** *(info/string)* : statut du connecteur.
-- **Erreur connecteur** *(info/string)* : dernier message/code d'erreur.
-- **Info connecteur** *(info/string)* : informations complémentaires.
-- **Utilisateur connecteur** *(info/string)* : identifiant de l'utilisateur en cours.
-- **Démarrer charge connecteur** *(action/select)* : démarrer une transaction sur le connecteur.
-- **Arrêter charge connecteur** *(action/other)* : arrêter la transaction en cours.
+## Connector(s)
 
-## Mesures
+- **Connector status** *(info/binary)*: the connector's activation status.
+- **Enable/Disable Connector** *(action/other)*: Connector availability.
+- **Connector Status** *(info/string)*: connector status.
+- **Connector error** *(info/string)*: latest message/error code.
+- **Connector Info** *(info/string)*: additional information.
+- **Connector user** *(info/string)*: ID of the current user.
+- **Start connector job** *(action/select)*: Start a transaction on the connector.
+- **Stop connector load** *(action/other)*: Stop the current transaction.
 
-Les mesures sont créées automatiquement par le plugin selon la configuration **MeterValuesSampledData** définie sur la borne.
-Chaque mesure reçue génère une commande **info/numeric**, historisée par défaut, avec l'unité adaptée *(Wh, W, A, V, Hz, °C, %, RPM)*.
-Si la borne fournit des valeurs par phase, les commandes sont suffixées par **L1**, **L2** ou **L3**.
+## Measurements
 
-### Exemples de mesures
+Measurements are automatically created by the plugin based on the **MeterValuesSampledData** configuration defined on the terminal.
+Each measurement received generates an **info/numeric** command, which is logged by default, with the appropriate unit *(Wh, W, A, V, Hz, °C, %, RPM)*.
+If the terminal provides values per phase, the commands are suffixed with **L1**, **L2**, or **L3**.
 
-- **Current.Import – Courant consommé** *(A)* : intensité du courant utilisé *(par phase si disponible)*.
-- **Current.Export – Courant injecté** *(A)* : intensité du courant renvoyé vers le réseau.
-- **Current.Offered – Courant maximal** *(A)* : intensité maximale autorisée.
-- **Energy.Active.Import.Register – Énergie consommée** *(Wh)* : énergie totale utilisée.
-- **Energy.Active.Export.Register – Énergie injectée** *(Wh)* : énergie totale renvoyée vers le réseau.
-- **Power.Active.Import – Puissance consommée** *(W)* : puissance instantanée utilisée.
-- **Power.Active.Export – Puissance injectée** *(W)* : puissance instantanée renvoyée vers le réseau.
-- **Power.Offered – Puissance maximale** *(W)* : puissance maximale autorisée.
-- **Voltage – Tension** *(V)* : tension mesurée *(par phase si disponible)*.
-- **Frequency – Fréquence** *(Hz)* : fréquence du réseau.
-- **Power.Factor – Facteur de puissance** : rapport entre puissance active et apparente.
-- **SoC – Niveau de charge** *(%)* : état de charge de la batterie du véhicule.
-- **Temperature – Température** *(°C)* : température interne de la borne.
-- **RPM – Vitesse du ventilateur** *(RPM)* : vitesse de rotation du ventilateur.
+### Examples of measures
+
+- **Current.Import – Current Consumed** *(A)*: current drawn *(per phase, if available)*.
+- **Current.Export – Current Fed into the Grid** *(A)*: the current fed back into the grid.
+- **Current.Offered – Maximum Current** *(A)*: maximum permitted current.
+- **Energy.Active.Import.Register – Energy Consumed** *(Wh)*: total energy used.
+- **Energy.Active.Export.Register – Energy Fed into the Grid** *(Wh)*: total energy fed back into the grid.
+- **Power.Active.Import – Power Consumed** *(W)*: instantaneous power consumption.
+- **Power.Active.Export – Power fed into the grid** *(W)*: instantaneous power fed back into the grid.
+- **Power.Offered – Maximum Power** *(W)*: maximum permitted power.
+- **Voltage** *(V)*: measured voltage *(per phase, if available)*.
+- **Frequency** *(Hz)*: mains frequency.
+- **Power Factor**: the ratio of active power to apparent power.
+- **SoC – State of Charge** *(%)*: the vehicle's battery charge level.
+- **Temperature** *(°C)*: internal temperature of the terminal.
+- **RPM – Fan Speed** *(RPM)*: the fan's rotational speed.

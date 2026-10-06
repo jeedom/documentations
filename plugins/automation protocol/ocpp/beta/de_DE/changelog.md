@@ -1,36 +1,69 @@
-# Changelog OCPP
+# OCPP-Änderungsprotokoll
 
->**IMPORTANT**
+>**WICHTIG**
 >
->S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
+>Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich ausschließlich um eine Aktualisierung der Dokumentation, der Übersetzung oder des Textes handelt.
 
-#  ***()***
+## 06/10/2026 ***(1.0.0)***
 
-- **** : 
-- **** : 
-- **Commandes** :  *()*
+- Erste stabile Version
+- **Berechtigungen**: verschiedene Korrekturen und Optimierungen bei der Registrierung
+- **Daemon**: Optimierung der Behandlung möglicher Kommunikationsfehler mit dem Terminal
 
-# 24/11/2025 ***(0.8.5)***
+## 05/07/2026 ***(0.9.6)***
 
-- **Commandes** : ajout des commandes pour gérer le courant et/ou la puissance maximum lors de la charge *(bornes compatibles SmartCharging uniquement)*
-- **Commandes** : ajout des commandes de redémarrage de la borne *(logiciel/matériel)*
-- **Commandes** : définition de la liste des utilisateurs pouvant démarrer la charge
-- **Documentation** : rédaction de la documentation
+- **Transaktionen**: Echtzeit-Aktualisierung der Transaktionsliste *(Eröffnung/Schließung)*
 
-# 20/11/2025 ***(0.6.5)***
+## 04/07/2026 ***(0.9.5)***
 
-- **Dépendances** : montée de version *(OCPP 2.0.0 & websockets 15.0.1)*
+- **Berechtigungen**: Optimierung der Speicherung von Gruppen und Berechtigungslisten
 
-# 25/06/2025 ***(0.6.2)***
+## 03/07/2026 ***(0.9.4)***
 
-- **Fenêtre Autorisations** : ajout d'une case à cocher par identifiant pour autoriser les transactions concurrentes simultanées
-- **Fenêtre Autorisations** : ajout de bulles d'aide
-- Optimisation des statuts envoyés à la borne lors d'une demande d'autorisation
+- **Transaktionen**: Hinzufügen eines Piktogramms für aktive Transaktionen *(grün = läuft, orange = seit mehr als 24 Stunden, rot = seit mehr als 48 Stunden)*
+- **Transaktionen**: Hinzufügen eines Piktogramms für abgeschlossene Transaktionen, das beim Darüberfahren mit der Maus den Grund für den Abschluss der Transaktion anzeigt
 
-# 15/04/2025 ***(0.5)***
+## 02/07/2026 ***(0.9.3)***
 
-- Gestion des autorisations par groupes
+- **Berechtigungen**: Möglichkeit, einen lesbaren Namen zur Kennung hinzuzufügen *(wird in der Liste der Transaktionen und der Benutzer verwendet, die einen Ladevorgang starten können, sofern angegeben)*
+- **Berechtigungen**: Korrektur der Spaltensortierung
+- **Steuerung**: Automatische Aktualisierung der Liste der Benutzer, die einen Ladevorgang starten dürfen
 
-# 17/05/2024
+## 01/07/2026 ***(0.9.1)***
 
-- Début du développement
+- **Berechtigungen**: Bei der Autorisierung einer Transaktion wird bei den Anmeldedaten nicht mehr zwischen Groß- und Kleinschreibung unterschieden
+- **Berechtigungen**: Behebung eines möglichen Verlusts von Anmeldedaten beim Speichern
+- **Transaktionen**: Automatischer Abschluss einer eventuell noch nicht abgeschlossenen Transaktion
+- **Knotenpunkt**: Bessere Verwaltung der (Wieder-)Verbindung zum Zentralsystem
+- **Terminal**: Optimierung der Berücksichtigung eines Austauschs mit derselben Kennung
+
+## 05/12/2025 ***(0.8.8)***
+
+- **Transaktionen**: Hinzufügen einer Schaltfläche zum Löschen
+- **Ereignisse**: Behebung eines Fehlers bei den Kopfhörern einer OCPP-Transaktion
+- **Steuerungen**: Bessere Verwaltung der Belastungsgrenzen *(A/W)*
+
+## 24/11/2025 ***(0.8.5)***
+
+- **Befehle**: Es wurden Befehle hinzugefügt, um den Strom und/oder die maximale Leistung während des Ladevorgangs zu steuern *(nur SmartCharging-kompatible Ladestationen)*
+- **Befehle**: Befehle zum Neustart des Geräts *(Software/Hardware)* hinzugefügt
+- **Steuerung**: Festlegung der Liste der Benutzer, die den Ladevorgang starten dürfen
+- **Dokumentation**: Erstellung der Dokumentation
+
+## 20/11/2025 ***(0.6.5)***
+
+- **Abhängigkeiten**: Versions-Upgrade *(OCPP 2.0.0 & WebSockets 15.0.1)*
+
+## 25/06/2025 ***(0.6.2)***
+
+- **Berechtigungen**: Hinzufügen eines Kontrollkästchens pro Identifikator, um gleichzeitige konkurrierende Transaktionen zuzulassen
+- **Berechtigungen**: Hinzufügen von Hinweisfeldern
+- **Terminal**: Optimierung der bei einer Autorisierungsanfrage gesendeten Statusmeldungen
+
+## 15/04/2025 ***(0.5)***
+
+- **Berechtigungen**: Verwaltung von Berechtigungen nach Gruppen
+
+## 17/05/2024
+
+- Beginn der Entwicklung
