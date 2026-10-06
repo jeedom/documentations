@@ -44,23 +44,18 @@ There are several ways to provide them:
 - via the Jeedom settings (see the Jeedom settings menu)
 - by directly selecting a command from the geoloc or geoloc_ios plugin, if these plugins exist (this option should no longer be used for new devices; instead, use the command selection option explained above)
 
-You can also select which subscriptions should be activated when calculating the route. Enter a comma-separated list of values, or _*_ to activate all of them.
+You can also set the route calculation options:
+
+- **Vehicle type**: Select “Private” (default), “Taxi,” or “Motorcycle.”
+- **Avoid toll roads**: When this option is checked, Waze tries to calculate a route that avoids tolls.
+- **Avoid roads requiring a toll sticker**: Request a route that avoids roads subject to a toll sticker or subscription fee.
+- **Avoid ferries**: Request a route that doesn't include a ferry crossing.
+
+These options apply to the calculation of round-trip routes.
 
 ### Display settings
 
 This setting simply hides the selected routes in the widget on the dashboard; however, they will still be updated when the device is refreshed.
-
-### Commands
-
-![config3](../images/cmd_list.png)
-
-- Duration 1, 2, & 3: one-way travel time for routes 1, 2, & 3
-- Route 1, 2, & 3: Route names 1, 2, & 3 (provided by Waze)
-- Return trip duration 1, 2, and 3: return trip duration for routes 1, 2, and 3
-- Return Trip 1, 2, & 3: Name of Return Trip 1, 2, & 3 (provided by Waze)
-- Refresh: Refreshes the information
-
-All these commands are available via scenarios and via the dashboard
 
 # The widget
 

@@ -9,6 +9,8 @@
 - Actualización importante para solucionar el bloqueo de Waze (error 403)
 - Se requieren nuevas dependencias, que se instalarán durante la actualización
 - El complemento cuenta con un servicio en segundo plano que debe iniciarse para poder actualizar las rutas
+- Se han añadido nuevos parámetros de ruta: *Tipo de vehículo*, *Evitar carreteras de peaje*, *Evitar carreteras que requieran viñeta*, *Evitar transbordadores*
+- Se han añadido nuevos comandos de información para los tres trayectos de ida y vuelta: *Distancia*
 - Eliminación de la compatibilidad con «América del Norte»
 - Se requiere Debian 12 y Python 3.11
 - Se requiere Jeedom v4.5

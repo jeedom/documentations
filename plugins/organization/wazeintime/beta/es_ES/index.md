@@ -44,23 +44,18 @@ Se pueden suministrar de varias formas:
 - a través de la configuración de Jeedom (véase el menú de configuración de Jeedom)
 - seleccionando directamente un comando del complemento «geoloc» o «geoloc_ios» si dichos complementos existen (esta opción ya no debería utilizarse para los nuevos dispositivos; es preferible utilizar la opción de selección de comando explicada anteriormente)
 
-También es posible seleccionar las suscripciones que deben activarse al calcular la ruta. Hay que introducir una lista de valores separados por una coma o _*_ para activarlas todas.
+También puedes configurar las opciones de cálculo de la ruta:
+
+- **Tipo de vehículo**: elige «Particular» (valor por defecto), «Taxi» o «Moto».
+- **Evitar carreteras de peaje**: cuando esta opción está marcada, Waze intenta calcular una ruta sin peajes.
+- **Evitar las carreteras que requieran una viñeta**: solicita una ruta que evite las carreteras sujetas a una viñeta o a una suscripción.
+- **Evitar los transbordadores**: solicita una ruta sin travesías en transbordador.
+
+Estas opciones se aplican al cálculo de los trayectos de ida y vuelta.
 
 ### Configuraciones de pantalla
 
 Esta configuración permite simplemente ocultar los trayectos seleccionados en el widget del panel de control; no obstante, estos se actualizarán cuando se actualice el dispositivo.
-
-### Panel de control
-
-![config3](../images/cmd_list.png)
-
-- Duración 1, 2 y 3: duración del trayecto de ida con las rutas 1, 2 y 3
-- Ruta 1, 2 y 3: nombre de la ruta 1, 2 y 3 (proporcionado por Waze)
-- Duración del trayecto de vuelta 1, 2 y 3: duración del trayecto de vuelta con las rutas 1, 2 y 3
-- Ruta de vuelta 1, 2 y 3: nombre de la ruta de vuelta 1, 2 y 3 (proporcionado por Waze)
-- Actualizar: Permite actualizar la información
-
-Todos estos comandos están disponibles a través de escenarios y a través del tablero
 
 # El widget
 

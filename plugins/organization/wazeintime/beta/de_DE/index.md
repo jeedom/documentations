@@ -44,23 +44,18 @@ Es gibt verschiedene Möglichkeiten, diese bereitzustellen:
 - über die Jeedom-Konfiguration (siehe Menü „Konfiguration“ in Jeedom)
 - durch direkte Auswahl eines Befehls aus dem Plugin „geoloc“ oder „geoloc_ios“, sofern diese Plugins vorhanden sind (diese Option sollte für neue Geräte nicht mehr verwendet werden; nutzen Sie stattdessen die oben beschriebene Option zur Befehlsauswahl)
 
-Es ist außerdem möglich, die Abonnements auszuwählen, die bei der Routenberechnung aktiviert werden sollen. Dazu muss eine durch Kommas getrennte Liste von Werten eingegeben werden oder _*_, um alle zu aktivieren.
+Sie können außerdem die Optionen für die Routenberechnung festlegen:
+
+- **Fahrzeugtyp**: Wählen Sie „Privatfahrzeug“ (Standardwert), „Taxi“ oder „Motorrad“.
+- **Mautstraßen vermeiden**: Wenn diese Option aktiviert ist, versucht Waze, eine Route ohne Maut zu berechnen.
+- **Straßen vermeiden, für die eine Vignette erforderlich ist**: Fordere eine Route an, die Straßen vermeidet, für die eine Vignette oder ein Abonnement erforderlich ist.
+- **Fähren vermeiden**: Eine Route ohne Fährüberfahrt anfordern.
+
+Diese Optionen gelten für die Berechnung der Hin- und Rückfahrt.
 
 ### Bildschirmeinstellungen
 
 Mit dieser Einstellung können Sie die im Widget auf dem Dashboard ausgewählten Routen einfach ausblenden; diese werden jedoch bei der Aktualisierung der Geräte weiterhin aktualisiert.
-
-### Bedienfeld
-
-![config3](../images/cmd_list.png)
-
-- Dauer 1, 2 & 3: Dauer der Hinfahrt mit den Strecken 1, 2 & 3
-- Route 1, 2 & 3: Name der Route 1, 2 & 3 (von Waze angegeben)
-- Rückfahrzeit 1, 2 & 3: Rückfahrzeit mit den Routen 1, 2 & 3
-- Rückfahrt 1, 2 und 3: Name der Rückfahrt 1, 2 und 3 (von Waze angegeben)
-- Aktualisieren: Ermöglicht das Aktualisieren der Informationen
-
-Alle diese Befehle sind über Szenarien und über das Dashboard verfügbar
 
 # Das Widget
 

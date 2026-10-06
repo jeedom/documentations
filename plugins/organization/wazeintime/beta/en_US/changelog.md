@@ -9,6 +9,8 @@
 - Major update to bypass the Waze block (Error 403)
 - New dependencies are required; they will be installed during the update
 - The plugin has a daemon that must be started in order to refresh the routes
+- Added new route settings: *Vehicle type*, *Avoid toll roads*, *Avoid roads requiring a vignette*, *Avoid ferries*
+- Added new info commands for the 3 outbound and return trips: *Distance*
 - Removal of "North American" compatibility
 - Debian 12 & Python 3.11 required
 - Jeedom v4.5 required

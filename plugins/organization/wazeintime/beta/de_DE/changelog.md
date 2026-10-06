@@ -9,6 +9,8 @@
 - Umfangreiches Update zur Umgehung der Waze-Sperre (Fehler 403)
 - Es werden neue Abhängigkeiten benötigt, diese werden beim Update installiert.
 - Das Plugin verfügt über einen Daemon, der gestartet werden muss, damit die Routen aktualisiert werden können.
+- Neue Routeneinstellungen hinzugefügt: *Fahrzeugtyp*, *Mautstraßen vermeiden*, *Straßen vermeiden, für die eine Vignette erforderlich ist*, *Fähren vermeiden*
+- Hinzufügen neuer Info-Befehle für die drei Hin- und Rückfahrten: *Entfernung*
 - Aufhebung der „Nordamerika“-Kompatibilität
 - Debian 12 und Python 3.11 erforderlich
 - Jeedom v4.5 erforderlich
