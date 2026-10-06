@@ -1,36 +1,36 @@
 # Complemento Harmony Hub
 
-Este complemento le permite controlar y recuperar todos los dispositivos asociados con uno o más Harmony Hub.
+Este complemento permite controlar y detectar todos los dispositivos asociados a uno o varios Harmony Hub.
 
-Después de haber recuperado toda la información relacionada con estos dispositivos, el complemento podrá crear automáticamente todos los comandos asociados para un control total desde Jeedom.
+Una vez recopilada toda la información relativa a estos dispositivos, el complemento podrá crear automáticamente todos los comandos asociados para un control total desde Jeedom.
 
-# Configuration
+# Configuración
 
-Como cualquier complemento de Jeedom, el complemento **Harmony Hub** debe activarse después de la instalación.
+Al igual que cualquier plugin de Jeedom, el plugin **Harmony Hub** debe activarse tras su instalación.
 
 ## Configuración del complemento
 
-El complemento usa dependencias que deben instalarse primero haciendo clic en el botón **Reanimar**.
+El complemento utiliza dependencias que habrá que instalar primero haciendo clic en el botón **Reiniciar**.
 
-Una vez instaladas las dependencias, puede introducir la dirección IP en la que se puede acceder a Harmony Hub.
+Una vez instaladas las dependencias, puedes introducir la dirección IP en la que se puede acceder al Harmony Hub.
 
->**TRUCO**
+>**CONSEJO**
 >
->El complemento puede interactuar con varios concentradores al mismo tiempo. Para ello, debe indicar la dirección IP de cada hub separada por el símbolo `|''.
+>El complemento es capaz de comunicarse con varios hubs al mismo tiempo. Para ello, hay que indicar la dirección IP de cada hub separada por el símbolo `|`.
 
-Guarde la configuración e inicie el demonio.
+Guarda la configuración e inicia el demonio.
 
 ## Configuración del equipo
 
-Para acceder a los diferentes equipos, vaya al menú **Complementos → Multimedia → Harmony Hub**.
+Para acceder a los distintos dispositivos, ve al menú **Plugins → Multimedia → Harmony Hub**.
 
-Si la configuración del plugin es correcta, todos tus equipos habrán sido creados automáticamente con sus comandos.
+Si la configuración del complemento es correcta, todos tus dispositivos se habrán creado automáticamente con sus comandos.
 
-Para cada dispositivo encontramos los parámetros generales habituales, así como 1 menú desplegable que permite elegir el icono del dispositivo. Esta configuración es opcional y no influye en el comportamiento del complemento.
+Para cada dispositivo, encontramos los parámetros generales habituales, así como un menú desplegable que permite elegir el icono del dispositivo. Esta configuración es opcional y no influye en absoluto en el funcionamiento del complemento.
 
 # Información importante
 
-Comprueba si necesitas **habilitar la opción de desarrollador** en la aplicación Harmony.
+Comprueba si debes **activar la opción de desarrollador** en la aplicación Harmony.
 
-Ver este enlace de Logitech :
+Echa un vistazo a este enlace de Logitech:
 <https://community.logitech.com/s/question/0D55A00008OsX3CSAV/update-to-accessing-harmony-hubs-local-api-via-xmpp>

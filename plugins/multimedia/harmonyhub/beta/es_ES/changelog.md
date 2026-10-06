@@ -1,46 +1,49 @@
-# Changelog Harmony Hub
+# Registro de cambios de Harmony Hub
 
->**Importante**
+>**IMPORTANTE**
 >
->A modo de recordatorio, si no hay información sobre la actualización es porque solo se refiere a la actualización de documentación, traducción o texto.
+>A modo de recordatorio, si no hay información sobre la actualización, es porque esta se refiere únicamente a la actualización de la documentación, la traducción o el texto.
+
+# 18/05/2026
+
+- Comprobación de la conectividad entre el demonio y el concentrador al enviar un comando
 
 # 10/07/2025
 
-- Ajout d'un healthcheck dans le démon pour vérifier que celui-ci est toujours connecté aux hubs et s'y reconnecter si besoin
-- Fix un crash au démarrage du démon dans le cas où un hub est mal configuré ou non-joignable: le démon pourra démarrer avec les autres hubs s'ils existent ou s'arrêtera proprement si aucun hub n'est joignable
-- 
+- Se ha corregido un fallo que provocaba un bloqueo al iniciar el demonio en caso de que un concentrador estuviera mal configurado o no fuera accesible: el demonio podrá iniciarse junto con los demás concentradores, si los hay, o se cerrará correctamente si no se puede acceder a ningún concentrador.
+- Adaptación de los registros
 
 # 30/04/2025
 
-- Fix un problème sur le lancement de commandes pour certaines installations (hub inconnu) suite à la version du 28/04
+- Se ha solucionado un problema relacionado con la ejecución de comandos en determinadas instalaciones (hub desconocido) tras la versión del 28/04
 
 # 28/04/2025
 
-> Attention
-> Rediseño significativo del complemento: le plugin a été entièrement réécrit y compris la communication avec le hub Harmony (via démon à présent)
+> Atención
+> Reestructuración importante del complemento: se ha reescrito por completo, incluida la comunicación con el hub Harmony (ahora a través de un demonio).
 >
 > Requiere Jeedom 4.4.8
 >
-> Compatible con Debian 11 y 12! El complemento ya no es compatible con Debian 10, si todavía estás en Debian 10, no instales esta versión.
+> ¡Compatible con Debian 11 y 12! El complemento ya no es compatible con Debian 10; si todavía utilizas Debian 10, no instales esta versión.
 >
-> Los equipos antiguos se marcarán como obsoletos y no se migrarán. Utilice la herramienta "Reemplazar" del núcleo si desea adaptar fácilmente sus escenarios.
+> Los equipos antiguos se marcarán como obsoletos y no se migrarán. Utiliza la herramienta «Reemplazar» del núcleo si deseas adaptar fácilmente tus escenarios.
 >
-> Ver también [este tema en la comunidad](https://community.jeedom.com/t/importante-mise-a-jour-pour-debian-11-et-debian-12/129908) para más detalles
+> Véase también [este tema en la comunidad](https://community.jeedom.com/t/importante-mise-a-jour-pour-debian-11-et-debian-12/129908) Para más información
 
 - Reescritura completa del complemento
 - Usando el método de instalación de dependencia central
 - Cambiar la biblioteca para comunicarse con Harmony Hub para utilizar una biblioteca con un mejor seguimiento
-- Usando un demonio para:
+- Uso de un demonio para:
   - para mejorar la capacidad de respuesta de las acciones
   - para tener retroalimentación de estado en tiempo real
-- Configuración simplificada: Ya solo queda la configuración de la IP del hub para entrar en el plugin config e iniciar el daemon y el equipo se sincroniza con Jeedom.
-- Agregar un pedido **Iniciar actividad** que indica la actividad que se está iniciando (vacío si no hay ninguna))
-- Bloque la version d'une dépendance pour éviter un breaking change (async-timeout v5 break timeout context)
+- Configuración simplificada: solo hay que introducir la dirección IP del hub en la configuración del complemento e iniciar el demonio, y los dispositivos se sincronizan automáticamente con Jeedom.
+- Se ha añadido un comando **Inicio de actividad** que indica la actividad que se está iniciando (queda en blanco si no hay ninguna).
+- Bloquea la versión de una dependencia para evitar un cambio que rompa la compatibilidad (async-timeout v5 rompe el contexto de tiempo de espera)
 
 # 17/09/2023
 
 - Reparar la compatibilidad de Debian 11 y Python 3
-- versión básica mínima requerida: v4.2
+- versión mínima requerida del núcleo: v4.2
 
 # 19/10/2022
 
@@ -57,9 +60,9 @@
 
 - Optimizaciones generales
 - Nueva presentación de la lista de objetos
-- Adición de la etiqueta "compatibilidad V4"
+- Se ha añadido la etiqueta «Compatibilidad con la versión 4»
 
-# 20/09/2019
+# 20-09-2019
 
 - Adaptación V4
 
@@ -67,15 +70,15 @@
 
 - Corrección de errores en dependencias NOK mientras está bien
 
-# 2019-05-23
+# 23-05-2019
 
 - Instalación de la página del equipo para el futuro Jeedom
 
-# 2019-02-19
+# 19-02-2019
 
-Esta actualización está vinculada a la actualización de Logitech que reactiva el XMMP. Deberá volver a crear el archivo conf y, especialmente, activar en la aplicación Harmony el modo desarrollador que activa el XMMP
-Para información, este cambio interviene el mismo día que el parche Logitech. Al igual que la solución del 21-12-2018, que permitió reparar a muchas personas, ya que funcionaba para todos los que estaban bajo el límite de Debian (mejor que nada). No sabíamos cuándo iba a lanzar Logitech el soporte para XMMP. Pero golpe tras golpe hubo una reacción.
+Esta actualización es una versión mayor relacionada con la actualización de Logitech que reactiva el XMMP. Tendrás que volver a crear el archivo de configuración y, sobre todo, activar en la aplicación Harmony el modo de desarrollador que habilita el XMMP.
+A título informativo, esta actualización se produce el mismo día que el parche de Logitech. Al igual que la solución provisional del 21 de diciembre de 2018, que permitió a muchas personas solucionar el problema, ya que funcionaba para todos los que utilizaban Debian Stretch (mejor que nada). No sabíamos cuándo iba a restablecer Logitech la compatibilidad con XMMP. Pero, de repente, se produjo una reacción.
 
-# 2018-12-21
+# 21-12-2018
 
-Corrección de emergencia relacionada con la mayor parte de Logitech (temporal para solucionar problemas, recuerde relanzar las dependencias)
+Corrección urgente relacionada con la actualización de Logitech (provisional para solucionar el problema; no olvides reiniciar las dependencias)

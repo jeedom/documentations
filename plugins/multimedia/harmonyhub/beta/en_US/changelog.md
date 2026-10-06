@@ -1,29 +1,32 @@
-# Changelog Harmony Hub
+# Harmony Hub Changelog
 
->**Important**
+>**IMPORTANT**
 >
->As a reminder, if there is no information on the update, it is because it only concerns the update of documentation, translation or text.
+>As a reminder, if there is no information about the update, it means that the update only involves changes to the documentation, translations, or text.
+
+# 18/05/2026
+
+- Verifying connectivity between the daemon and the hub when sending commands
 
 # 10/07/2025
 
-- Ajout d'un healthcheck dans le démon pour vérifier que celui-ci est toujours connecté aux hubs et s'y reconnecter si besoin
-- Fix un crash au démarrage du démon dans le cas où un hub est mal configuré ou non-joignable: le démon pourra démarrer avec les autres hubs s'ils existent ou s'arrêtera proprement si aucun hub n'est joignable
-- 
+- Fixes a crash when the daemon starts up if a hub is misconfigured or unreachable: the daemon will start up with the other hubs if they exist, or will shut down gracefully if no hubs are reachable
+- Log customization
 
 # 30/04/2025
 
-- Fix un problème sur le lancement de commandes pour certaines installations (hub inconnu) suite à la version du 28/04
+- Fixed an issue with issuing commands for certain setups (unknown hub) following the April 28 release
 
 # 28/04/2025
 
-> Attention
-> Major plugin overhaul: le plugin a été entièrement réécrit y compris la communication avec le hub Harmony (via démon à présent)
+> Caution
+> Major plugin overhaul: the plugin has been completely rewritten, including communication with the Harmony hub (now via a daemon)
 >
 > Requires Jeedom 4.4.8
 >
-> Compatible with Debian 11 and 12! The plugin is no longer compatible with Debian 10, if you are still on Debian 10, do not install this version.
+> Compatible with Debian 11 and 12! The plugin is no longer compatible with Debian 10; if you are still running Debian 10, do not install this version.
 >
-> Old equipment will be marked obsolete and will not be migrated. Use the core's "Replace" tool if you want to easily adapt your scenarios.
+> Legacy devices will be marked as obsolete and will not be migrated. Use the "Replace" tool in the core if you want to easily adapt your scenarios.
 >
 > See also [this topic on community](https://community.jeedom.com/t/importante-mise-a-jour-pour-debian-11-et-debian-12/129908) for more details
 
@@ -33,21 +36,21 @@
 - Using a daemon to:
   - to improve the responsiveness of actions
   - to have real-time status feedback
-- Simplified configuration: All that remains is to configure the hub IP address in the plugin configuration and start the daemon and the equipment will synchronize automatically with Jeedom.
-- Adding a command **Start activity** which indicates the activity that is currently starting (empty if none)
-- Bloque la version d'une dépendance pour éviter un breaking change (async-timeout v5 break timeout context)
+- Simplified setup: All you need to do is enter the hub’s IP address in the plugin’s settings and start the daemon, and the devices will sync with Jeedom automatically.
+- Added a **Start Activity** command that indicates which activity is being started (empty if none)
+- Lock the version of a dependency to prevent a breaking change (async-timeout v5 breaks the timeout context)
 
-# 09/17/2023
+# 17/09/2023
 
 - Fix Debian 11 & Python 3 compatibility
-- minimum core version required: v4.2
+- Minimum required core version: v4.2
 
-# 10/19/2022
+# 19/10/2022
 
 - Updated list of commands for Jeedom v4.3
 - Minor fixes & optimizations in the equipment management screen
 
-# 05/18/2021
+# 18/05/2021
 
 - Correction of a malfunction of some controls
 - Interface review
@@ -57,9 +60,9 @@
 
 - General optimizations
 - New presentation of the list of objects
-- Addition of the tag "V4 compatibility"
+- Added the "V4 Compatibility" tag
 
-# 09-20-2019
+# 20-09-2019
 
 - V4 adaptation
 
@@ -67,15 +70,15 @@
 
 - Bugfix on NOK dependencies while OK
 
-# 2019-05-23
+# 23-05-2019
 
 - Installation of the equipment page for future Jeedom
 
-# 2019-02-19
+# 19-02-2019
 
-This update is a major linked to the update of Logitech which reactivates the XMMP. You will have to recreate the conf file and especially activate in the Harmony application the developer mode activating the XMMP
-For information, this shift intervenes the same day as the Logitech patch. Just like the workaround of 21-12-2018 which allowed many people to be repaired since it worked for everyone who was under Debian stretch (better than nothing). We did not know when Logitech was going to release support for XMMP. But blow after blow there was a reaction.
+This update is a major update related to the Logitech update that re-enables XMMP. You will need to recreate the configuration file and, most importantly, enable developer mode in the Harmony app to activate XMMP.
+For your information, this update was released on the same day as Logitech’s fix. Just like the workaround from December 21, 2018, which helped many people resolve their issues since it worked for everyone running Debian Stretch (better than nothing). We didn’t know when Logitech would restore support for XMMP. But one thing led to another, and there was a response.
 
-# 2018-12-21
+# 21-12-2018
 
-Emergency correction related to the major of Logitech (temporary to troubleshoot, remember to relaunch the dependencies)
+Urgent fix related to the Logitech update (temporary workaround—remember to re-run the dependencies)

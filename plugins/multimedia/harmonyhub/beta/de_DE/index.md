@@ -1,22 +1,22 @@
 # Harmony Hub Plugin
 
-Mit diesem Plugin können Sie alle Geräte steuern und wiederherstellen, die einem oder mehreren Harmony Hub zugeordnet sind.
+Mit diesem Plugin können Sie alle Geräte steuern und abrufen, die mit einem oder mehreren Harmony Hubs verbunden sind.
 
-Nachdem alle Informationen zu diesen Geräten abgerufen wurden, kann das Plugin automatisch alle zugehörigen Befehle für die vollständige Kontrolle von Jeedom erstellen.
+Nachdem alle Informationen zu diesen Geräten erfasst wurden, kann das Plugin automatisch alle zugehörigen Befehle erstellen, um eine vollständige Steuerung über Jeedom zu ermöglichen.
 
-# Configuration
+# Konfiguration
 
-Wie jedes Jeedom-Plugin auch das Plugin **Harmony Hub** muss nach der Installation aktiviert werden.
+Wie jedes Jeedom-Plugin muss auch das **Harmony Hub**-Plugin nach der Installation aktiviert werden.
 
 ## Plugin Konfiguration
 
-Das Plugin verwendet Abhängigkeiten, die zuerst durch Klicken auf die Schaltfläche installiert werden müssen **Beleben**.
+Das Plugin verwendet Abhängigkeiten, die zunächst installiert werden müssen, indem Sie auf die Schaltfläche **Neustart** klicken.
 
 Sobald die Abhängigkeiten installiert sind, können Sie die IP-Adresse eingeben, unter der der Harmony Hub erreichbar ist.
 
->**TRICK**
+>**TIPP**
 >
->Das Plugin kann gleichzeitig mit mehreren Hubs interagieren. Dazu müssen Sie die IP-Adresse jedes Hubs durch das Symbol `getrennt angeben|``.
+>Das Plugin kann gleichzeitig mit mehreren Hubs kommunizieren. Dazu muss die IP-Adresse jedes Hubs durch das Symbol getrennt angegeben werden `|`.
 
 Speichern Sie die Konfiguration und starten Sie den Daemon.
 
@@ -24,13 +24,13 @@ Speichern Sie die Konfiguration und starten Sie den Daemon.
 
 Um auf die verschiedenen Geräte zuzugreifen, gehen Sie zum Menü **Plugins → Multimedia → Harmony Hub**.
 
-Wenn die Plugin-Konfiguration korrekt ist, werden alle Ihre Geräte automatisch mit ihren Befehlen erstellt.
+Wenn das Plugin korrekt konfiguriert ist, wurden alle Ihre Geräte automatisch mit ihren Befehlen angelegt.
 
-Für jedes Gerät finden wir die üblichen allgemeinen Parameter sowie 1 Dropdown-Menü, in dem Sie das Gerätesymbol auswählen können. Diese Konfiguration ist optional und hat keinen Einfluss auf das Verhalten des Plugins.
+Für jedes Gerät finden wir die üblichen allgemeinen Einstellungen sowie ein Dropdown-Menü, über das das Symbol des Geräts ausgewählt werden kann. Diese Konfiguration ist optional und hat keinerlei Einfluss auf das Verhalten des Plugins.
 
 # Wichtige Informationen
 
-Überprüfen Sie, ob dies erforderlich ist **Entwickleroption aktivieren** in der Harmony App.
+Überprüfen Sie, ob Sie in der Harmony-App die **Entwickleroption** aktivieren müssen.
 
-Siehe diesen Logitech-Link :
+Siehe diesen Link von Logitech:
 <https://community.logitech.com/s/question/0D55A00008OsX3CSAV/update-to-accessing-harmony-hubs-local-api-via-xmpp>
