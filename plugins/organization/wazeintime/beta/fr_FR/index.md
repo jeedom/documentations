@@ -44,23 +44,18 @@ Il est possible de les fournir par plusieurs moyen:
 - via la config Jeedom (voir menu configuration de Jeedom)
 - en sélectionnant directement une commande du plugin geoloc ou geoloc_ios si ces plugins existent (cette option ne devrait plus être utilisée pour les nouveaux équipements, préférez l'option de sélection de la commande expliquée ci-dessus)
 
-Il est également possible de sélectionner les abonnements qui doivent être activés lors du calcul du trajet. Il faut y mettre une liste de valeur séparée par une virgule ou _*_ pour tout activer.
+Vous pouvez également définir les options de calcul du trajet :
+
+- **Type de véhicule** : choisissez « Particulier » (valeur par défaut), « Taxi » ou « Moto ».
+- **Éviter les routes à péage** : lorsque cette option est cochée, Waze essaie de calculer un itinéraire sans péage.
+- **Éviter les routes nécessitant une vignette** : demande un itinéraire qui évite les routes soumises à une vignette ou à un abonnement.
+- **Éviter les ferries** : demande un itinéraire sans traversée en ferry.
+
+Ces options s’appliquent au calcul des trajets aller et retour.
 
 ### Paramètres d'affichage
 
 Cette configuration permet simplement de masquer les trajets sélectionnés dans le widget sur le dashboard, ceux-ci seront tout de même mis à jour lors du rafraîchissement de l'équipement.
-
-### Tableau de Commandes
-
-![config3](../images/cmd_list.png)
-
-- Durée 1, 2 & 3: durée aller avec le trajet 1, 2 & 3
-- Trajet 1, 2 & 3: nom du trajet 1, 2 & 3 (donné par Waze)
-- Durée retour 1, 2 & 3 : durée retour avec le trajet 1, 2 & 3
-- Trajet retour 1, 2 & 3 : nom du trajet retour 1, 2 & 3  (donné par Waze)
-- Rafraîchir : Permet de rafraîchir les infos
-
-Toutes ces commandes sont disponibles via scénarios et via le dashboard
 
 # Le widget
 
