@@ -1,35 +1,35 @@
 # Openvpn plugin
 
-This plugin allows to connect Jeedom to an openvpn server. It is also used and therefore mandatory for the Jeedom DNS service which allows you to access your Jeedom from the internet.
+This plugin allows you to connect Jeedom to an OpenVPN server. It is also used—and therefore required—for the Jeedom DNS service, which lets you access your Jeedom from the internet.
 
 # Plugin configuration
 
-After downloading the plugin, simply activate and install the openvpn dependencies (click on the button **Install / Update**)
+After downloading the plugin, simply enable it and install the OpenVPN dependencies (click the **Install/Update** button)
 
 # Equipment configuration
 
-Here you find all the configuration of your equipment :
+Here you'll find all the settings for your equipment:
 
--   **Name of the openvpn device** : name of your Openvpn device,
--   **Parent object** : indicates the parent object to which the equipment belongs,
--   **Category** : equipment categories (it can belong to several categories),
--   **Activate** : makes your equipment active,
--   **Visible** : makes your equipment visible on the dashboard,
+-   **OpenVPN device name**: the name of your OpenVPN device,
+-   **Parent object**: specifies the parent object to which the device belongs,
+-   **Category**: the device's categories (it may belong to multiple categories),
+-   **Activate**: turns your device active,
+-   **Visible**: makes your equipment visible on the dashboard,
 
-> **NOTE**
+> **Note**
 >
-> The other options will not be detailed here, for more information please refer to the [openvpn documentation](https://openvpn.net/index.php/open-source/documentation.html)
+> The other options will not be discussed in detail here; for more information, please refer to the [openvpn documentation](https://openvpn.net/index.php/open-source/documentation.html)
 
-> **NOTE**
+> **Note**
 >
-> Concerning shell commands executed after startup, there is the tag `#interface#`allowing to obtain the name of the current interface.
+> Regarding shell commands executed after startup, there is the tag `#interface#` that retrieves the name of the current interface.
 
-Below you find the list of orders :
+Below is a list of commands:
 
--   **Name** : the name displayed on the dashboard,
--   **Pin up** : allows to display the data on the dashboard,
--   **Test** : Used to test the command
+-   **Name**: the name displayed on the dashboard,
+-   **Display**: displays the data on the dashboard,
+-   **Test**: allows you to test the command
 
-> **NOTE**
+> **Note**
 >
-> Jeedom will check every 5 minutes if the VPN is started or stopped and act accordingly if it is not.
+> Jeedom will check every 5 minutes to see if the VPN is running or stopped, and take appropriate action if it isn't.

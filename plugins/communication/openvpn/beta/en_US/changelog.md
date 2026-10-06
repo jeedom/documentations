@@ -1,15 +1,25 @@
-# Changelog Openvpn
+# OpenVPN Changelog
 
->**Important**
+>**IMPORTANT**
 >
->As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+>As a reminder, if there is no information about the update, it means that the update only involves documentation, translations, or text changes.
 
-# 08/26/2024
+# 26/09/2026
+
+- Set mtu to a fixed value
+- Translation Review
+- Add the *Status* column to the list of commands
+- Dynamic management of Apache's `remoteip` module for enhanced security:
+  - When the Jeedom DNS service starts, the Apache "remoteip" module will be automatically enabled and configured
+  - Conversely, when the system is shut down, the module will be deactivated as a safety measure
+- Jeedom v4.5 required
+
+# 26/08/2024
 
 - Better PHP8 support
-- Support for custom equipment images (Jeedom 4.5)
+- Support for custom device images (Jeedom 4.5)
 
-# 01/08/2024
+# 08/01/2024
 
 - Preparing for jeedom 4.4
 
@@ -18,60 +28,60 @@
 - Bug fixes and optimization
 - Ability to use certificate, password or both
 
-# 01/13/2023
+# 13/01/2023
 
 - Reduced load for DNS infrastructure
 
-# 02/15/2021
+# 15/02/2021
 
 - Beginning of high availability support for the new DNS system
 
 # 16/11/2020
 
 - New presentation of the list of objects
-- Addition of the tag "V4 compatibility"
+- Added the "V4 Compatibility" tag
 
-# 11/14/2019
-
-- Bugfix
-
-# 04/28/2019
+# 14/11/2019
 
 - Bugfix
 
-# 04/16/2019
+# 28/04/2019
 
-- Optimisations
+- Bugfix
 
-# 01/16/2019
+# 16/04/2019
+
+- Optimizations
+
+# 16/01/2019
 
 - Fixed an issue with dependencies
 
-# 11/23/2018
+# 23/11/2018
 
-- Optimisations
+- Optimizations
 
-# 11/09/2018
+# 09/11/2018
 
 - Possibility to add options on the openvpn configuration
-- Ability to execute commands after starting DNS (the tag #interface# allows to obtain the name of the interface)
+- Ability to execute commands after the DNS starts up (the #interface# tag is used to obtain the interface name)
 
-# 10/30/2018
+# 30/10/2018
 
 - Improvement of the calculation of the installation or not of the dependencies
 
-# 05/29/2018
+# 29/05/2018
 
 - Optimization of the plugin for Jeedom DNS
 
-# 04/20/2018
+# 20/04/2018
 
 - Correction of a bug on the plugin startup
 
-# 04/15/2018
+# 15/04/2018
 
 - The VPN status check is now done every 5 minutes instead of 15 minutes
 
-# 03/01/2018
+# 01/03/2018
 
--	Correction of a bug on file upload (CA and others)
+- Fixed a bug related to file uploads (CA and others)

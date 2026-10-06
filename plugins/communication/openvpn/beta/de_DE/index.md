@@ -1,35 +1,35 @@
 # Openvpn Plugin
 
-Dieses Plugin ermöglicht die Verbindung von Jeedom mit einem openvpn-Server. Es wird auch für den Jeedom-DNS-Dienst verwendet und ist daher obligatorisch, mit dem Sie über das Internet auf Ihr Jeedom zugreifen können.
+Dieses Plugin ermöglicht die Verbindung von Jeedom mit einem OpenVPN-Server. Es wird auch für den Jeedom-DNS-Dienst verwendet und ist daher zwingend erforderlich, damit Sie über das Internet auf Ihr Jeedom zugreifen können.
 
 # Plugin Konfiguration
 
-Aktivieren und installieren Sie nach dem Herunterladen des Plugins einfach die openvpn-Abhängigkeiten (klicken Sie auf die Schaltfläche **Installiere Update**)
+Nach dem Herunterladen des Plugins müssen Sie lediglich die OpenVPN-Abhängigkeiten aktivieren und installieren (klicken Sie auf die Schaltfläche **Installieren/Aktualisieren**).
 
 # Gerätekonfiguration
 
-Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
+Hier finden Sie alle Einstellungen für Ihre Geräte:
 
--   **Name des openvpn-Geräts** : Name Ihres Openvpn-Geräts,
--   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
--   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören),
--   **Aktivieren** : macht Ihre Ausrüstung aktiv,
--   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
+-   **Name des OpenVPN-Geräts**: Name Ihres OpenVPN-Geräts,
+-   **Übergeordnetes Objekt**: Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
+-   **Kategorie**: Die Kategorien des Geräts (es kann mehreren Kategorien angehören),
+-   **Aktivieren**: Damit können Sie Ihre Geräte aktivieren,
+-   **Sichtbar**: Macht Ihre Geräte auf dem Dashboard sichtbar,
 
-> **Notiz**
+> **Hinweis**
 >
-> Die anderen Optionen werden hier nicht näher erläutert. Weitere Informationen finden Sie in der [openvpn Dokumentation](https://openvpn.net/index.php/open-source/documentation.html)
+> Auf die übrigen Optionen wird hier nicht näher eingegangen. Weitere Informationen finden Sie in der [openvpn Dokumentation](https://openvpn.net/index.php/open-source/documentation.html)
 
-> **Notiz**
+> **Hinweis**
 >
-> In Bezug auf Shell-Befehle, die nach dem Start ausgeführt werden, gibt es das Tag `#interface#`Erlauben, den Namen der aktuellen Schnittstelle zu erhalten.
+> Für Shell-Befehle, die nach dem Start ausgeführt werden, gibt es das Tag `#interface#` mit der der Name der aktuell aktiven Schnittstelle abgerufen werden kann.
 
-Nachfolgend finden Sie die Liste der Bestellungen :
+Nachfolgend finden Sie eine Liste der Befehle:
 
--   **Name** : Der im Dashboard angezeigte Name,
--   **Anzeige** : ermöglicht die Anzeige der Daten im Dashboard,
--   **Test** : Wird zum Testen des Befehls verwendet
+-   **Name**: Der Name, der auf dem Dashboard angezeigt wird,
+-   **Anzeigen**: Ermöglicht die Anzeige der Daten auf dem Dashboard,
+-   **Testen**: Ermöglicht das Testen des Befehls
 
-> **Notiz**
+> **Hinweis**
 >
-> Jeedom überprüft alle 5 Minuten, ob das VPN gestartet oder gestoppt wurde, und handelt entsprechend, wenn dies nicht der Fall ist.
+> Jeedom überprüft alle 5 Minuten, ob das VPN gestartet oder beendet ist, und ergreift entsprechende Maßnahmen, falls dies nicht der Fall ist.
