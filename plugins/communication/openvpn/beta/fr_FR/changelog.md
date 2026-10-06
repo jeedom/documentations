@@ -4,6 +4,16 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 26/09/2026
+
+- Force mtu à une valeur fixe
+- Nettoyage des traductions
+- Ajout de la colonne *Etat* dans la liste des commandes
+- Gestion dynamique de module ´remoteip´ d'Apache pour une sécurité améliorée:
+  - lors du démarrage du DNS Jeedom, le module ´remoteip´ d'Apache sera automatiquement activé et configuré
+  - à l'inverse, lors de l'arrêt, le module sera désactivé par mesure de sécurité
+- Jeedom v4.5 requis
+
 # 26/08/2024
 
 - Meilleur support de PHP8
@@ -74,4 +84,4 @@
 
 # 01/03/2018
 
--	Correction d'un bug sur l'upload de fichier (CA et autres)
+- Correction d'un bug sur l'upload de fichier (CA et autres)
