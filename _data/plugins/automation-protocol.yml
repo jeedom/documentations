@@ -254,10 +254,10 @@
   name: "OCPP"
   market_id: 4569
   doc:
-    stable: false
+    stable: true
     beta: true
   changelog:
-    stable: false
+    stable: true
     beta: true
   description:
     fr_FR: "Plugin permettant de contrôler les bornes de recharge de véhicules compatibles avec le protocole OCPP en faisant de Jeedom un système central OCPP."
