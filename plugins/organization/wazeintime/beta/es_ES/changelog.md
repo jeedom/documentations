@@ -1,22 +1,31 @@
 # Registro de cambios Waze in Time
 
->**Importante**
+>**IMPORTANTE**
 >
->Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+>Recuerda que, si no hay información sobre la actualización, es porque esta se refiere únicamente a la actualización de la documentación, la traducción o el texto.
 
-# 
+# 06/10/2026
 
-- "
+- Actualización importante para solucionar el bloqueo de Waze (error 403)
+- Se requieren nuevas dependencias, que se instalarán durante la actualización
+- El complemento cuenta con un servicio en segundo plano que debe iniciarse para poder actualizar las rutas
+- Eliminación de la compatibilidad con «América del Norte»
+- Se requiere Debian 12 y Python 3.11
+- Se requiere Jeedom v4.5
+
+# 20/12/2025
+
+- Corrección para los trayectos «América del Norte»
 
 # 29/11/2025
 
-- Correction de l'URL utilisée suite à un changement de Waze
-- Version Jeedom 4.4 ou plus requis
-- Version Debian 11 ou plus requis
+- Corrección de la URL utilizada tras un cambio en Waze
+- Se requiere la versión 4.4 o superior de Jeedom
+- Se requiere Debian 11 o una versión posterior
 
 # 29/06/2025
 
-- Optimisation des requêtes vers Waze afin de réduire la latence
+- Optimización de las consultas a Waze para reducir la latencia
 
 # 17/10/2022
 
@@ -28,20 +37,20 @@
 
 # 08/12/2021
 
-- Adición de una opción para configurar las suscripciones para que se activen al calcular las rutas (ver documentación)
+- Se ha añadido una opción para configurar las suscripciones que se deben activar al calcular las rutas (véase la documentación)
 - Opción agregada para usar cualquier comando de cualquier complemento como posición inicial o final
 - Se corrigió la extracción de información de viaje debido a un cambio de API de Waze
 
 # 18/10/2021
 
-- Páginas de configuración mejoradas para v4:
+- Mejoras en las páginas de configuración para la versión 4:
   - Agregar el cuadro de búsqueda
-  - Adición de la presentación en modo mesa de equipo (Jeedom v4.2)
+  - Incorporación de la vista en modo tabla de los dispositivos (Jeedom v4.2)
   - Nueva presentación de la página de configuración
   - Nueva presentación de la lista de objetos en la página del equipo
   - Nueva presentación de la lista de pedidos
 - Se agregó soporte para la geolocalización configurada en el núcleo de Jeedom
-- Adición de un cron personalizado de actualización automática en la configuración del equipo; atención debe reconfigurar su equipo porque el cron30 está deshabilitado; De lo contrario, la actualización de los viajes ya no se realizará automáticamente.
+- Añade una tarea cron de actualización automática personalizada en la configuración del dispositivo; ten en cuenta que debes volver a configurar tus dispositivos, ya que la tarea cron30 está desactivada; de lo contrario, la actualización de las rutas ya no se realizará automáticamente.
 - Extracción de información fija debido al cambio de API de Waze
 
 # 23/10/2019
