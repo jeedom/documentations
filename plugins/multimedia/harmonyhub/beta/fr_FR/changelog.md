@@ -4,9 +4,12 @@
 >
 >Pour rappel, s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement la mise à jour de documentation, de traduction ou de texte.
 
+# 18/05/2026
+
+- Vérifiaction de la connectivité entre le démon et le hub lors de l'envoi de commande
+
 # 10/07/2025
 
-- Ajout d'un healthcheck dans le démon pour vérifier que celui-ci est toujours connecté aux hubs et s'y reconnecter si besoin
 - Fix un crash au démarrage du démon dans le cas où un hub est mal configuré ou non-joignable: le démon pourra démarrer avec les autres hubs s'ils existent ou s'arrêtera proprement si aucun hub n'est joignable
 - Adaptation des logs
 
