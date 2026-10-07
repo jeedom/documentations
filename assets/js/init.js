@@ -314,7 +314,7 @@
       setCookie('lang', newLang, 7)
       window.location.href = LANGUAGE_CODES.reduce(function(url, l) {
         return url.replace('/' + l, '/' + newLang)
-      }, window.location.href)
+      }, window.location.pathname + window.location.search)
     })
 
     $('#sel_theme').on('change', function() {
