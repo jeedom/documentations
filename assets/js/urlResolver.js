@@ -3,6 +3,10 @@ function nextSegment(path) {
   return slash === -1 ? [path.slice(1), ''] : [path.slice(1, slash), path.slice(slash)]
 }
 
+function isLangSegment(segment) {
+  return /^[a-z]{2}_[A-Z]{2}$/.test(segment)
+}
+
 function localizeHref(href) {
   const [section, rest] = nextSegment(href)
 
@@ -11,7 +15,7 @@ function localizeHref(href) {
     if (CORE_VERSIONS.includes(maybeVersion) || /^\d+\.\d+$/.test(maybeVersion)) {
       const resolvedVersion = CORE_VERSIONS.includes(maybeVersion) ? maybeVersion : _jeedomVersion
       const [maybeLang, afterLang] = nextSegment(afterVersion)
-      const pageRest = LANGUAGE_CODES.includes(maybeLang) ? afterLang : afterVersion
+      const pageRest = isLangSegment(maybeLang) ? afterLang : afterVersion
       return '/' + section + '/' + resolvedVersion + '/' + _lang + pageRest
     }
     return '/' + section + '/' + _jeedomVersion + '/' + _lang + rest
@@ -20,7 +24,7 @@ function localizeHref(href) {
   if (section === 'plugins' || section === 'plugins_contributor') {
     const [category, catRest] = nextSegment(rest)
     const [maybeCategoryLang] = nextSegment(catRest || '/')
-    if (catRest === '' || catRest === '/' || LANGUAGE_CODES.includes(maybeCategoryLang)) {
+    if (catRest === '' || catRest === '/' || isLangSegment(maybeCategoryLang)) {
       return '/' + section + '/' + category + '/' + _lang + '/'
     }
     const [plugin, pluginRest] = nextSegment(catRest)
@@ -28,7 +32,7 @@ function localizeHref(href) {
     const betaPrefix = maybeBeta === 'beta' ? '/beta' : ''
     const pageRest = maybeBeta === 'beta' ? afterBeta : pluginRest
     const [maybeLang, afterLang] = nextSegment(pageRest)
-    const finalRest = LANGUAGE_CODES.includes(maybeLang) ? afterLang : pageRest
+    const finalRest = isLangSegment(maybeLang) ? afterLang : pageRest
     return '/' + section + '/' + category + '/' + plugin + betaPrefix + '/' + _lang + (finalRest === '' ? '/' : finalRest)
   }
 
@@ -46,7 +50,7 @@ function localizeHref(href) {
   }
 
   const [maybeLang, afterLang] = nextSegment(rest)
-  const pageRest = LANGUAGE_CODES.includes(maybeLang) ? afterLang : rest
+  const pageRest = isLangSegment(maybeLang) ? afterLang : rest
   return '/' + section + '/' + _lang + (pageRest === '' ? '/' : pageRest)
 }
 

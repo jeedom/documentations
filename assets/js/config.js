@@ -9,7 +9,7 @@ if (!_lang) {
   const userLang = (navigator.language || navigator.userLanguage).toLowerCase()
   _lang = LANGUAGE_CODES.find(function(l) { return userLang.indexOf(l.slice(0, 2)) !== -1 })
   if (!_lang) {
-    _lang = LANGUAGE_CODES.find(function(l) { return window.location.href.indexOf('/' + l) !== -1 }) || 'fr_FR'
+    _lang = LANGUAGE_CODES.find(function(l) { return window.location.href.indexOf('/' + l) !== -1 }) || 'en_US'
   }
   setCookie('lang', _lang, 7)
 }
