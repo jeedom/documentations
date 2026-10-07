@@ -1,7 +1,8 @@
-[<< Core js](index.md)  
-## Gestion des événements (*listeners*) js
+# Gestion des événements (*listeners*) js
 
-### Persistance des événements
+[<< Core js](index.md)
+
+## Persistance des événements
 
 La gestion des événements en js est relativement simple, toutefois il faut absolument veiller à ne leur (non) persistance.
 
@@ -81,7 +82,7 @@ jeedomUtils.loadPage = function(_url, _noPushHistory) {
 {% endraw %}
 ````
 
-### Déclencher des événements
+## Déclencher des événements
 
 Pour déclencher dynamiquement un événement, vous pouvez créer un nouvel événement et le déclencher :
 
@@ -112,7 +113,7 @@ document.querySelectorAll('div.myclass').triggerEvent('update', {capture: false,
 {% endraw %}
 ````
 
-### Evénements du Core
+## Evénements du Core
 
 Vous pouvez enregistrer une fonction qui sera déclenchée une fois la page chargée :
 
@@ -124,7 +125,7 @@ domUtils(function() {
 {% endraw %}
 ````
 
-### Délégation d'événements
+## Délégation d'événements
 
 Dans 99% des cas, vous ne serez pas concerné par la persistance des événements, et déclarerez vos déclencheurs normalement.
 

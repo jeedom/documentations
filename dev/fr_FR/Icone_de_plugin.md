@@ -1,4 +1,4 @@
-**Documentation icône de plugins**
+# Icône de plugin
 
 Afin de pouvoir être publié sur le Market Jeedom, tout plugin doit disposer d’une icône.
 

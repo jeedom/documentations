@@ -1,4 +1,4 @@
-## Développement js et Core 4.4 +
+# Développement js et Core 4.4 +
 
 
 Le Core de Jeedom a subi une profonde restructuration du front-end en v4.4. Historiquement basé sur jQuery et Bootstrap v3, le Core est dorénavant écrit en Vanilla js, sans framework. Les plugins jQuery ont été remplacées par des librairies internes ou d'autres librairies également en js.

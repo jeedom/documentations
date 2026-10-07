@@ -1,9 +1,10 @@
-[<< Core js](index.md)  
-## Boites de dialogue
+# Boites de dialogue
+
+[<< Core js](index.md)
 
 La gestion des Boites de dialogue de Jeedom repose entièrement sur la lib interne jeeDialog().
 
-### jeeDialog.alert()
+## jeeDialog.alert()
 
 Affiche une simple alerte, sans options.
 
@@ -34,7 +35,7 @@ jeeDialog.alert({
 ````
 
 
-### jeeDialog.confirm()
+## jeeDialog.confirm()
 
 Demande une confirmation à l'utilisateur, avec retour.
 
@@ -73,7 +74,7 @@ jeeDialog.confirm({
 ````
 
 
-### jeeDialog.prompt()
+## jeeDialog.prompt()
 
 Demande une information à l'utilisateur, avec information en retour.
 
@@ -119,7 +120,7 @@ jeeDialog.prompt({
 {% endraw %}
 ````
 
-### jeedomUtils.showAlert()
+## jeedomUtils.showAlert()
 
 Affiche une notification.  
 
@@ -148,7 +149,7 @@ jeedomUtils.showAlert({
 ````
 
 
-### jeeDialog.dialog()
+## jeeDialog.dialog()
 
 Affiche une boite de dialogue complète (redimensionnable, maximisable) avec contenu dynamique.
 
