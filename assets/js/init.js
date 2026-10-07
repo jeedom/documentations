@@ -267,7 +267,6 @@
   }
 
   $(function() {
-    document.title = 'Documentation Jeedom'
     $('.sidenav').sidenav()
     setTimeout(function() {
       if ($('#slide-out').length > 0 && window.matchMedia("only screen and (max-width: 760px)").matches) {
