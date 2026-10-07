@@ -11,6 +11,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{% if page.title %}{{ page.title | escape_once }} - {% endif %}{{ site.site_name[page_lang] }}</title>
   <meta property="og:image" content="https://doc.jeedom.com/assets/img/logo.png">
+  {%- assign lang_segment = '/' | append: page_lang | append: '/' %}
+  {%- if page.url contains lang_segment %}
+  {%- for lang in site.languages %}
+  {%- assign alt_segment = '/' | append: lang | append: '/' %}
+  <link rel="alternate" hreflang="{{ lang | slice: 0, 2 }}" href="https://doc.jeedom.com{{ page.url | replace: lang_segment, alt_segment }}">
+  {%- endfor %}
+  <link rel="alternate" hreflang="x-default" href="https://doc.jeedom.com{{ page.url | replace: lang_segment, '/en_US/' }}">
+  {%- endif %}
   <link rel="icon" href="/favicon.ico" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="/assets/fonts/roboto/roboto.css">
