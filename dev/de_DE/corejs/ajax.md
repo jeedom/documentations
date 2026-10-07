@@ -1,7 +1,8 @@
-[<< Core.js](index.md)
-## Ajax JS
+# Ajax JS
 
-### Abrufen ...
+[<< Core.js](index.md)
+
+## Abrufen ...
 
 Im Grunde genommen ist das Abrufen einer Ressource ein recht einfacher Vorgang. Eine Anfrage geht ein, und es wird eine Antwort ausgegeben. Beispiel mit der nativen JavaScript-Methode `fetch()`:
 
@@ -35,7 +36,7 @@ Die internen Funktionen des Core ermöglichen es zudem, alle Ajax-Aufrufe global
 
 Darüber hinaus konnten durch diese Methoden bestimmte dynamisch geladene Skripte isoliert werden, wie beispielsweise die Bibliotheken in core/3rdparty oder in plugin/3rdparty, die nun geladen und im Head gespeichert werden, um die Leistung zu steigern.
 
-### Verwendung der JavaScript-Methoden des Core:
+## Verwendung der JavaScript-Methoden des Core:
 
 ````js
 {% raw %}
@@ -54,7 +55,7 @@ jeedom.config.load({
 {% endraw %}
 ````
 
-### Ajax-Aufruf außerhalb der Core-JS-Klassen:
+## Ajax-Aufruf außerhalb der Core-JS-Klassen:
 
 ````js
 {% raw %}

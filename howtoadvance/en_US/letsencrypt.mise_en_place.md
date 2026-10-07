@@ -1,10 +1,12 @@
+# Setting up Let's Encrypt
+
 > **IMPORTANT**
 >
 > This tutorial was not created by Jeedom SAS but by a community user, so we cannot guarantee that it works or that it is still up to date.
 
 
 
-# Installing Let's Encrypt
+## Installing Let's Encrypt
 
 Here are the commands to run to install Let's Encrypt before generating the certificate:
 
@@ -18,7 +20,7 @@ cd letsencrypt
 
 To request a certificate, you must own a domain name for which it will be generated.
 
-# Apache Configuration
+## Apache Configuration
 
 To ensure that the Let's Encrypt process completes successfully, you must first complete the three steps below:
 
@@ -28,7 +30,7 @@ Please note that you must open port 80 on your router (ISP)!
 -   Enable the Apache HTTPS VirtualHost on the Jeedom box.
 -   Set up port forwarding for HTTPS requests on your internet router to redirect them to your Jeedom box.
 
-## Enabling the virtual host and the SSL module
+### Enabling the virtual host and the SSL module
 
 > **Note**
 >
@@ -62,7 +64,7 @@ You need to replace the settings <email@domaine.com> and domain.com using your v
 </VirtualHost>
 ````
 
-# Configuring Nginx
+## Configuring Nginx
 
 This command should only be used if you have an Nginx web server.
 
@@ -86,7 +88,7 @@ And finally, restart the Nginx server.
 
 ``service nginx restart``
 
-# Renewal
+## Renewal
 
 Renewal is done using the following command:
 
@@ -94,7 +96,7 @@ Renewal is done using the following command:
 
 You will automatically receive an email when your certificate is about to expire, reminding you to place this command.
 
-## Automatic method
+### Automatic method
 
 It’s definitely better when it’s automatic. To set it up, follow these steps:
 

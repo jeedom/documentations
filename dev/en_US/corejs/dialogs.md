@@ -1,9 +1,10 @@
+# Dialog boxes
+
 [<< Core.js](index.md)
-## Dialog boxes
 
 Jeedom's dialog box management relies entirely on the internal library function jeeDialog().
 
-### jeeDialog.alert()
+## jeeDialog.alert()
 
 Displays a simple alert, with no options.
 
@@ -34,7 +35,7 @@ jeeDialog.alert({
 ````
 
 
-### jeeDialog.confirm()
+## jeeDialog.confirm()
 
 Prompt the user for confirmation, with feedback.
 
@@ -73,7 +74,7 @@ jeeDialog.confirm({
 ````
 
 
-### jeeDialog.prompt()
+## jeeDialog.prompt()
 
 Requests information from the user, with feedback provided.
 
@@ -119,7 +120,7 @@ jeeDialog.prompt({
 {% endraw %}
 ````
 
-### jeedomUtils.showAlert()
+## jeedomUtils.showAlert()
 
 Displays a notification.
 
@@ -148,7 +149,7 @@ jeedomUtils.showAlert({
 ````
 
 
-### jeeDialog.dialog()
+## jeeDialog.dialog()
 
 Displays a full-featured dialog box (resizable, maximizable) with dynamic content.
 

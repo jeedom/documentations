@@ -1,5 +1,3 @@
-### Jeedom Documentation
-
 Welcome to the documentation site for the Jeedom home automation solution.
 
 <div id="div_searchBar"></div>

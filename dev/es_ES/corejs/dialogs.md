@@ -1,9 +1,10 @@
+# Cuadros de diálogo
+
 [<< Core js](index.md)
-## Cuadros de diálogo
 
 La gestión de los cuadros de diálogo de Jeedom se basa íntegramente en la función interna jeeDialog().
 
-### jeeDialog.alert()
+## jeeDialog.alert()
 
 Muestra una alerta sencilla, sin opciones.
 
@@ -34,7 +35,7 @@ jeeDialog.alert({
 ````
 
 
-### jeeDialog.confirm()
+## jeeDialog.confirm()
 
 Solicita una confirmación al usuario, con respuesta.
 
@@ -73,7 +74,7 @@ jeeDialog.confirm({
 ````
 
 
-### jeeDialog.prompt()
+## jeeDialog.prompt()
 
 Solicita información al usuario y le proporciona una respuesta.
 
@@ -119,7 +120,7 @@ jeeDialog.prompt({
 {% endraw %}
 ````
 
-### jeedomUtils.showAlert()
+## jeedomUtils.showAlert()
 
 Muestra una notificación.
 
@@ -148,7 +149,7 @@ jeedomUtils.showAlert({
 ````
 
 
-### jeeDialog.dialog()
+## jeeDialog.dialog()
 
 Muestra un cuadro de diálogo completo (redimensionable, maximizable) con contenido dinámico.
 

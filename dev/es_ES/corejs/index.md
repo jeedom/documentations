@@ -1,4 +1,4 @@
-## Desarrollo en JavaScript y Core 4.4 +
+# Desarrollo en JavaScript y Core 4.4 +
 
 
 El núcleo de Jeedom ha sufrido una profunda reestructuración del front-end en la versión 4.4. Aunque históricamente se basaba en jQuery y Bootstrap v3, el núcleo ahora está escrito en Vanilla JS, sin ningún marco de trabajo. Los complementos de jQuery se han sustituido por bibliotecas internas u otras bibliotecas también en JS.

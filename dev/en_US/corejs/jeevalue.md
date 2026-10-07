@@ -1,7 +1,8 @@
-[<< Core.js](index.md)
-## Setting / Retrieving Values
+# Setting / Retrieving Values
 
-### getJeeValues() / setJeeValues()
+[<< Core.js](index.md)
+
+## getJeeValues() / setJeeValues()
 
 *Element.prototype.getJeeValues*
 *NodeList.prototype.getJeeValues*
@@ -13,7 +14,7 @@ These functions allow you to assign parameters stored in the database to element
 
 > Database -> setJeeValues() -> interface -> user changes -> getJeeValues() -> Database
 
-#### setJeeValues()
+### setJeeValues()
 
 ````js
 {% raw %}
@@ -29,7 +30,7 @@ jeedom.eqLogic.byId({
 ````
 
 
-#### getJeeValues()
+### getJeeValues()
 
 ````js
 {% raw %}
@@ -40,7 +41,7 @@ var eqLogic = document.getElementById('div_displayEqLogicConfigure').getJeeValue
 > Don't worry if you don't use these features for your plugin; the Core handles it for you in most cases.
 
 
-### jeeValue()
+## jeeValue()
 
 *Element.prototype.jeeValue*
 *NodeList.prototype.jeeValue*

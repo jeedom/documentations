@@ -1,10 +1,11 @@
+# Ayudas
+
 [<< Core js](index.md)
-## Ayudas
 
 Los *helpers* son funciones del Core listas para usar que pueden ser invocadas por los plugins y se encargan de diversas tareas.
 
 
-### initTooltips()
+## initTooltips()
 
 *jeedomUtils.initTooltips(_el)*
 
@@ -14,14 +15,14 @@ Inicializa las descripciones emergentes buscando los elementos HTML con un atrib
 
 
 
-### initSpinners()
+## initSpinners()
 
 *jeedomUtils.initSpinners()*
 
 Inicializa los spinners buscando en la página los elementos *input[type="number"].ispin*, con la biblioteca [ISpin](https://unmanner.github.io/ispinjs/)
 
 
-### datePickerInit()
+## datePickerInit()
 
 *jeedomUtils.datePickerInit(_format, _selector)*
 
@@ -40,7 +41,7 @@ flatpickr(_input, {
 {% endraw %}
 ````
 
-### dateTimePickerInit()
+## dateTimePickerInit()
 
 *jeedomUtils.dateTimePickerInit(_step) *
 
@@ -62,7 +63,7 @@ flatpickr(_input, {
 > En estas dos funciones, el idioma es «us», «fr» o «es», dependiendo del idioma del Core.
 
 
-### setCheckContextMenu()
+## setCheckContextMenu()
 
 *jeedomUtils.setCheckContextMenu()*
 
@@ -86,7 +87,7 @@ jeedomUtils.setCheckContextMenu(checkContextMenuCallback)
 {% endraw %}
 ````
 
-### initDataTables()
+## initDataTables()
 
 *jeedomUtils.initDataTables(_selector, _paging, _searching)*
 

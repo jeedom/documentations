@@ -1,10 +1,10 @@
-## Core v4.3 | Plugin Developers
+# Core v4.3 | Plugin Developers
 
-### Obsolete
+## Obsolete
 
 -
 
-### Deprecated
+## Deprecated
 
 Almost all variables and functions on the Core pages have been isolated into a namespace: this prevents having to recreate all the functions when returning to the page, isolates variables and functions by page so there’s no risk of conflicts, makes the code much more readable since you know where each function or variable comes from and goes, and greatly aids debugging (just use the namespace console and you can see everything).
 
@@ -38,9 +38,9 @@ Similarly, variables passed from PHP to JavaScript are now in the namespace jeep
 
 - Example: The js variable `planHeader_id` is becoming `jeephp2js.planHeader_id`.
 
-### Optional modifications
+## Optional modifications
 
-#### Source code and translations
+### Source code and translations
 
 It is now possible to develop a plugin using source code in English.
 
@@ -85,13 +85,13 @@ Without an i18n file, the plugin will be displayed in English on a Core configur
 
 
 
-#### addCmdToTable()
+### addCmdToTable()
 
 The addCmdToTable() function is no longer required. If it is not present, the Core's version will be used. You just need to create an HTML table. `<table id="table_cmd" class="table table-bordered table-condensed"></table>`
 
 On the command info controls, the **Test** button is no longer displayed; instead, the value is displayed and updated in real time. To add this information to a command table: `<span class="cmdAttr" data-l1key="htmlstate"></span>`
 
-#### Widgets
+### Widgets
 
 The declaration of the update function is changing:
 
@@ -122,7 +122,7 @@ jeedom.cmd.refreshValue([{cmd_id :'#id#',display_value: '#state#', valueDate: '#
 
 Note the new setting `unit`, which allows the Core to convert, for example, 3,500 W to 3.5 kW.
 
-#### Message source (4.3.7):
+### Message source (4.3.7):
 
 When a **message** action occurs, the Core now displays the specified source instead of 'scenario'.
 
@@ -133,7 +133,7 @@ $options['source'] = 'plugin Mode '.$this->getName();
 scenarioExpression::createAndExec('action', $action['cmd'], $options);
 ````
 
-#### Displaying Passwords (4.3.9):
+### Displaying Passwords (4.3.9):
 
 In version 4.3, passwords and API keys are no longer displayed in plain text in the admin panel; there is now a button on the right to show them. This feature is now also available in plugins:
 

@@ -1,5 +1,6 @@
+# Shortcuts for HTML elements
+
 [<< Core.js](index.md)
-## Shortcuts for HTML elements
 
 Core v4.4+ offers several shortcuts that make it easier and faster to write certain functions.
 
@@ -7,7 +8,7 @@ These shortcuts are defined in the file `core/dom/dom.ui.js`.
 
 > Most of these methods return the called element or list of elements. This allows you to chain methods together, for example, myEl.empty().addClass('newClass').
 
-### isVisible() / isHidden()
+## isVisible() / isHidden()
 
 *Element.prototype.isVisible*
 *Element.prototype.isHidden*
@@ -33,7 +34,7 @@ document.querySelectorAll('div.myclass').forEach(_el => {
 {% endraw %}
 ````
 
-### seen() / unseen()
+## seen() / unseen()
 
 *Element.prototype.seen*
 *NodeList.prototype.seen*
@@ -51,7 +52,7 @@ document.querySelectorAll('div.myclass').seen()
 {% endraw %}
 ````
 
-### empty()
+## empty()
 
 *Element.prototype.empty*
 *NodeList.prototype.empty*
@@ -67,7 +68,7 @@ document.querySelectorAll('div.myclass').empty()
 {% endraw %}
 ````
 
-### CSS classes
+## CSS classes
 
 *Element.prototype.addClass*
 *NodeList.prototype.addClass*
@@ -103,7 +104,7 @@ document.querySelectorAll('div.myclass').forEach(_el => {
 {% endraw %}
 ````
 
-### remove()
+## remove()
 
 *NodeList.prototype.remove*
 
@@ -115,7 +116,7 @@ document.querySelectorAll('div.myclass').remove()
 {% endraw %}
 ````
 
-### last() / closestAll()
+## last() / closestAll()
 
 *NodeList.prototype.last*
 *Element.prototype.closestAll*
@@ -135,7 +136,7 @@ myEl.closestAll('.element').forEach( _parent => {
 {% endraw %}
 ````
 
-### insertAtCursor()
+## insertAtCursor()
 
 *Element.prototype.insertAtCursor*
 
@@ -147,7 +148,7 @@ document.querySelector('input.useroption').insertAtCursor(resultString)
 {% endraw %}
 ````
 
-### sortOptions()
+## sortOptions()
 
 *HTMLSelectElement.prototype.sortOptions*
 
@@ -163,7 +164,7 @@ document.querySelector('select.class').sortOptions(false)
 ````
 
 
-### html()
+## html()
 
 *Element.prototype.html*
 
@@ -181,7 +182,7 @@ document.getElementById('#myID').html(_htmlString, _append, _callback)
 > This method allows you to inject HTML content with JavaScript scripts. For simple HTML ('<div>text</div>'), use innerHTML = String or textContent = String.
 
 
-### load()
+## load()
 
 *Element.prototype.load*
 
@@ -201,7 +202,7 @@ document.getElementById('#myID').load(_path, function() {
 ````
 
 
-### extend object
+## extend object
 
 *domUtils.extend(_object /*, _object... */)*
 
