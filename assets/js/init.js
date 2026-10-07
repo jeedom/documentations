@@ -214,7 +214,6 @@
     $('#sel_lang').append('<option value="' + l + '">' + LANGUAGES[l] + '</option>')
   })
   $('#sel_lang').val(_lang)
-  $('#meta-lang').attr('content', _lang)
 
   CORE_VERSIONS.forEach(function(v) {
     $('#sel_jeedomVersion').append('<option value="' + v + '">Core ' + v + '</option>')

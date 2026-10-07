@@ -4,7 +4,7 @@
   {%- if site.languages contains segment -%}{%- assign page_lang = segment -%}{%- endif -%}
 {%- endfor -%}
 <!DOCTYPE html>
-<html lang="{{ site.lang }}">
+<html lang="{{ page_lang | replace: '_', '-' }}">
 
 <head>
   <title>{% if page.title %}{{ page.title | escape_once }} - {% endif %}{{ site.site_name[page_lang] }}</title>
@@ -18,7 +18,6 @@
   <link rel="stylesheet" href="/assets/css/font-awesome5/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/lightbox.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta id="meta-lang" http-equiv="Content-Language" content="fr-FR">
   <link rel="icon" href="/favicon.ico" />
 </head>
 
