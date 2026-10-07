@@ -7,7 +7,7 @@
   if (section === 'dev' && secondSegment === 'phpdoc') {
     // phpdoc lived under /dev/phpdoc/<version>/... before the rework (never localized, just moved).
     target = localizeHref(rest)
-  } else if (LANGUAGE_CODES.includes(section)) {
+  } else if (isLangSegment(section)) {
     // the old scheme had the language as the first path segment everywhere else.
     target = localizeHref(rest || '/')
   } else {

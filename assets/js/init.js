@@ -210,15 +210,6 @@
 
   setTheme()
 
-  var urlLang = LANGUAGE_CODES.find(function(l) { return window.location.href.indexOf('/' + l) !== -1 })
-  if (urlLang && urlLang !== _lang) {
-    var preferredHref = localizeHref(window.location.pathname)
-    if (preferredHref !== window.location.pathname) {
-      window.location.replace(preferredHref + window.location.search + window.location.hash)
-      return
-    }
-  }
-
   LANGUAGE_CODES.forEach(function(l) {
     $('#sel_lang').append('<option value="' + l + '">' + LANGUAGES[l] + '</option>')
   })

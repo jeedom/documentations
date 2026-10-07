@@ -4,17 +4,14 @@ const CORE_VERSIONS = ['4.3', '4.4', '4.5', '4.6']
 const SITE_ORIGIN = 'https://doc.jeedom.com'
 const GENERAL_SECTIONS = ['compatibility', 'concept', 'contribute', 'dev', 'home', 'howto', 'howtoadvance', 'installation', 'legal_notice', 'mobile', 'premiers-pas', 'presentation']
 
-let _lang = getCookie('lang')
+let _lang = window.location.pathname.split('/').find(function(s) { return LANGUAGE_CODES.includes(s) }) || getCookie('lang')
 if (!_lang) {
   const userLang = (navigator.language || navigator.userLanguage).toLowerCase()
-  _lang = LANGUAGE_CODES.find(function(l) { return userLang.indexOf(l.slice(0, 2)) !== -1 })
-  if (!_lang) {
-    _lang = LANGUAGE_CODES.find(function(l) { return window.location.href.indexOf('/' + l) !== -1 }) || 'fr_FR'
-  }
+  _lang = LANGUAGE_CODES.find(function(l) { return userLang.indexOf(l.slice(0, 2)) !== -1 }) || 'en_US'
   setCookie('lang', _lang, 7)
 }
 
-let _jeedomVersion = CORE_VERSIONS.find(function(v) { return window.location.href.indexOf('/' + v) !== -1 }) || getCookie('jeedomVersion') || CORE_VERSIONS[CORE_VERSIONS.length - 1]
+const _jeedomVersion = CORE_VERSIONS.find(function(v) { return window.location.href.indexOf('/' + v) !== -1 }) || getCookie('jeedomVersion') || CORE_VERSIONS[CORE_VERSIONS.length - 1]
 if (getCookie('jeedomVersion') != _jeedomVersion) {
   setCookie('jeedomVersion', _jeedomVersion, 7)
 }
