@@ -1,3 +1,5 @@
+# Plugins tiers Protocole domotique
+
 {% include plugin-category-banner.html category="automation-protocol" lang="fr_FR" section="contributor" %}
 
 {% include plugin-index-table.html category="automation-protocol" lang="fr_FR" section="contributor" %}
