@@ -1,5 +1,3 @@
-### Documentation Jeedom
-
 Bienvenue sur le site de documentation de la solution domotique Jeedom.
 
 <div id="div_searchBar"></div>

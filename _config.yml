@@ -1,29 +1,10 @@
----
 languages: [fr_FR,en_US,es_ES,de_DE]
-baseurl: "/"
-permalink: /404.html
-markdown: kramdown
+permalink: /:path/:basename
 kramdown:
   input: GFM
-  hard_wrap: false
   parse_block_html: true
-  syntax_highlighter: rouge
-highlighter: rouge
-exclude:
-- vendor
-plugins:
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-relative-links
-title: "Documentation Jeedom"
-description: "Ceci est la documentation liée à la solution domotique Jeedom."
-author: "Jeedom"
-image: https://www.jeedom.com/site/logo.png
-twitter:
-  username: Jeedom_domotic
-social:
-  name: Jeedom
-  links:
-    - https://twitter.com/Jeedom_domotic
-    - https://www.facebook.com/Jeedom-249936178537210/
-    - https://github.com/jeedom
+site_name:
+  fr_FR: Documentation Jeedom
+  en_US: Jeedom Documentation
+  es_ES: Documentación de Jeedom
+  de_DE: Jeedom-Dokumentation

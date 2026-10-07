@@ -1,5 +1,5 @@
+# Environnement de développement
 <!-- Unused for now -->
-## Environnement de développement
 
 Nous allons voir ici comment mettre en place un environnement de développement efficace entre un Pi de test et un PC sous Windows pour l'édition du code et la maintenance du dépôt GitHub.
 
@@ -7,7 +7,7 @@ Cette page concerne le Core de Jeedom mais cette méthode peut être utilisée p
 
 Certes, pour des éditions rapides de quelques fichiers, on peut utiliser l'éditeur de fichiers directement sur Jeedom. Mais c'est rapidement fastidieux et il faut ensuite reporter toutes les modifications sur le dépôt local ou directement sur GitHub. Ce n'est pas ce qu'il y a de plus pratique.
 
-### Principe
+## Principe
 
 - Mettre en place un Pi de test avec Jeedom et un partage Samba pour y accéder depuis le PC.
 - Dupliquer le dépôt en local avec **Sublime Merge**.
@@ -17,7 +17,7 @@ Certes, pour des éditions rapides de quelques fichiers, on peut utiliser l'édi
 
 Cette méthode est également possible avec d'autres outils, comme **Atom** (qui nécessitera quelques packages) et **GitHub Desktop**.
 
-### Pi de test / développement
+## Pi de test / développement
 
 La première chose à faire si vous développez des fonctions du Core ou un plugin : Mettre en place une configuration de test. En effet, on ne développe pas sur une configuration de production !
 
@@ -63,7 +63,7 @@ Faites un clic droit sur `jeedomRoot` puis **Connecter un lecteur réseau...**
 Sous Windows, vous avez donc maintenant un Disque Réseau `jeedomRoot` !
 
 
-### Mise en place du dépôt local
+## Mise en place du dépôt local
 
 Pour dupliquer le dépôt en local et pouvoir travailler dessus, nous allons récupérer [Sublime Merge portable](https://www.sublimemerge.com/download).
 
@@ -82,7 +82,7 @@ Puis clonez le dépôt. Ici, si vous avez les droits sur le dépôt du Core, clo
 {% include lightbox.html src="../images/sbm_clonerepo.jpg" data="settings" title="Clone dépôt" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 
-### Mise en place de l'édition
+## Mise en place de l'édition
 
 Dans **Sublime Text**, *Project* / *Edit Project*, définissez le répertoire de votre dépôt :
 

@@ -225,6 +225,10 @@ input,
   line-height: 32px !important;
 }
 
+#ul_menu li > a > i {
+  margin-right: 20px;
+}
+
 #ul_menu li.menu_active {
   background-color: var(--logo-primary-color);
 }
