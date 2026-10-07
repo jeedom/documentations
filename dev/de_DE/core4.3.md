@@ -1,10 +1,10 @@
-## Core v4.3 | Plugin-Entwickler
+# Core v4.3 | Plugin-Entwickler
 
-### Veraltet
+## Veraltet
 
 -
 
-### Veraltet
+## Veraltet
 
 Fast alle Variablen und Funktionen der Core-Seiten wurden in einem Namespace isoliert: So müssen nicht alle Funktionen neu erstellt werden, wenn man zur Seite zurückkehrt; die Variablen und Funktionen sind pro Seite isoliert, sodass keine Kollisionen möglich sind; der Code wird dadurch wesentlich lesbarer, da man weiß, woher eine Funktion oder Variable stammt und wohin sie führt; und das erleichtert das Debuggen enorm (eine Namespace-Konsole, und man sieht alles).
 
@@ -38,9 +38,9 @@ Aus dem gleichen Grund befinden sich die von PHP an JS übergebenen Variablen nu
 
 - Beispiel: Die Variable „js“ `planHeader_id` wird `jeephp2js.planHeader_id`.
 
-### Optionale Änderungen
+## Optionale Änderungen
 
-#### Quellcode und Übersetzungen
+### Quellcode und Übersetzungen
 
 Es ist nun möglich, ein Plugin mit dem Quellcode in Englisch zu entwickeln.
 
@@ -85,13 +85,13 @@ Ohne i18n-Datei wird das Plugin auf einem auf Französisch konfigurierten Core a
 
 
 
-#### addCmdToTable()
+### addCmdToTable()
 
 Die Funktion addCmdToTable() ist nicht mehr zwingend erforderlich. Falls sie nicht vorhanden ist, wird die des Core verwendet. Es muss lediglich eine HTML-Tabelle erstellt werden. `<table id="table_cmd" class="table table-bordered table-condensed"></table>`
 
 Bei den Info-Steuerelementen wird die Schaltfläche **Testen** nicht mehr angezeigt; stattdessen wird der Wert angezeigt und in Echtzeit aktualisiert. So fügen Sie diese Information in eine Steuerungstabelle ein: `<span class="cmdAttr" data-l1key="htmlstate"></span>`
 
-#### Widgets
+### Widgets
 
 Die Deklaration der Update-Funktion ändert sich:
 
@@ -122,7 +122,7 @@ jeedom.cmd.refreshValue([{cmd_id :'#id#',display_value: '#state#', valueDate: '#
 
 Beachten Sie die neue Einstellung `unit`, wodurch der Core beispielsweise 3500 W in 3,5 kW umrechnen kann.
 
-#### Quelle der Meldung (4.3.7):
+### Quelle der Meldung (4.3.7):
 
 Bei einer **Message**-Aktion gibt der Core nun die angegebene Quelle anstelle von „scenario“ an.
 
@@ -133,7 +133,7 @@ $options['source'] = 'plugin Mode '.$this->getName();
 scenarioExpression::createAndExec('action', $action['cmd'], $options);
 ````
 
-#### Anzeige von Passwörtern (4.3.9):
+### Anzeige von Passwörtern (4.3.9):
 
 In Version 4.3 werden Passwörter und API-Schlüssel im Admin-Bereich nicht mehr im Klartext angezeigt; rechts befindet sich nun eine Schaltfläche, über die sie angezeigt werden können. Diese Funktion ist nun auch für Plugins verfügbar:
 

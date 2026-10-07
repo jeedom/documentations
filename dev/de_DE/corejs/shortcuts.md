@@ -1,5 +1,6 @@
+# Tastenkombinationen für HTML-Elemente
+
 [<< Core.js](index.md)
-## Tastenkombinationen für HTML-Elemente
 
 Core v4.4+ bietet mehrere Tastenkombinationen, mit denen sich bestimmte Funktionen einfacher und schneller ausführen lassen.
 
@@ -7,7 +8,7 @@ Diese Tastenkombinationen sind in der Datei definiert `core/dom/dom.ui.js`.
 
 > Die meisten dieser Methoden geben das aufgerufene Element oder die Liste der Elemente zurück. Dadurch lassen sich Methoden verketten, zum Beispiel myEl.empty().addClass('newClass').
 
-### isVisible() / isHidden()
+## isVisible() / isHidden()
 
 *Element.prototype.isVisible*
 *Element.prototype.isHidden*
@@ -33,7 +34,7 @@ document.querySelectorAll('div.myclass').forEach(_el => {
 {% endraw %}
 ````
 
-### seen() / unseen()
+## seen() / unseen()
 
 *Element.prototype.seen*
 *NodeList.prototype.seen*
@@ -51,7 +52,7 @@ document.querySelectorAll('div.myclass').seen()
 {% endraw %}
 ````
 
-### empty()
+## empty()
 
 *Element.prototype.empty*
 *NodeList.prototype.empty*
@@ -67,7 +68,7 @@ document.querySelectorAll('div.myclass').empty()
 {% endraw %}
 ````
 
-### CSS-Klassen
+## CSS-Klassen
 
 *Element.prototype.addClass*
 *NodeList.prototype.addClass*
@@ -103,7 +104,7 @@ document.querySelectorAll('div.myclass').forEach(_el => {
 {% endraw %}
 ````
 
-### remove()
+## remove()
 
 *NodeList.prototype.remove*
 
@@ -115,7 +116,7 @@ document.querySelectorAll('div.myclass').remove()
 {% endraw %}
 ````
 
-### last() / closestAll()
+## last() / closestAll()
 
 *NodeList.prototype.last*
 *Element.prototype.closestAll*
@@ -135,7 +136,7 @@ myEl.closestAll('.element').forEach( _parent => {
 {% endraw %}
 ````
 
-### insertAtCursor()
+## insertAtCursor()
 
 *Element.prototype.insertAtCursor*
 
@@ -147,7 +148,7 @@ document.querySelector('input.useroption').insertAtCursor(resultString)
 {% endraw %}
 ````
 
-### sortOptions()
+## sortOptions()
 
 *HTMLSelectElement.prototype.sortOptions*
 
@@ -163,7 +164,7 @@ document.querySelector('select.class').sortOptions(false)
 ````
 
 
-### html()
+## html()
 
 *Element.prototype.html*
 
@@ -181,7 +182,7 @@ document.getElementById('#myID').html(_htmlString, _append, _callback)
 > Diese Methode ermöglicht das Einfügen von HTML-Inhalten mit JavaScript-Skripten. Für einfachen HTML-Code ('<div>Text</div>'), verwenden Sie innerHTML = String oder textContent = String.
 
 
-### load()
+## load()
 
 *Element.prototype.load*
 
@@ -201,7 +202,7 @@ document.getElementById('#myID').load(_path, function() {
 ````
 
 
-### Objekt erweitern
+## Objekt erweitern
 
 *domUtils.extend(_object /*, _object... */)*
 

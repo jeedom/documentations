@@ -1,6 +1,6 @@
-## Core v4.4 | Plugin Developers
+# Core v4.4 | Plugin Developers
 
-### One day, jQuery...
+## One day, jQuery...
 
 jQuery is a framework that’s still widely used in web interfaces, and Jeedom has historically relied heavily on it. Nevertheless, HTML5 and modern browsers are making it increasingly possible to do without it. For Jeedom, the main concern is performance, and there are no plans yet to remove jQuery and its plugins (jQuery UI, contextmenu, modals, autocomplete, tablesorter, etc.).
 
@@ -94,24 +94,24 @@ Core-specific DOM functions:
 
 
 
-### Obsolete
+## Obsolete
 
-#### PHP function
+### PHP function
 
 `displayExeption()` -> `displayException()`
 `convertDayEnToFr()` -> `convertDayFromEn()`
 
-#### JS functions (available since Core 4.3):
+### JS functions (available since Core 4.3):
 
 `displayPlan()` -> `jeeFrontEnd.plan.displayPlan()`
 
-#### jQuery Toastr / Tooltipster
+### jQuery Toastr / Tooltipster
 
 The *toastr* library has been removed from the Core. It was used through the jeedomUtils.showAlert() and hideAlert() functions and has been replaced by the Core's internal function jeeDialog.toast().
 
 The Tooltipster library, which depends on jQuery, has also been replaced by the Tippy.js library. The use of jeedomUtils.initTooltips() by plugins remains unchanged.
 
-#### jQuery datetimepicker
+### jQuery datetimepicker
 
 The *datetimepicker* library has been removed from the Core. It was used through the jeedomUtils.datePickerInit() and dateTimePickerInit() functions and has been replaced by the library [flatpickr](https://flatpickr.js.org/).
 
@@ -144,15 +144,15 @@ jeedomUtils.datePickerInit('Y-m-d H:i:00', '#myCustomDatetime') //Will initializ
 
 
 
-### Deprecated
+## Deprecated
 
 *These functions return an error message but still work:*
 
-#### PHP functions:
+### PHP functions:
 
 `eqLogic::byTypeAndSearhConfiguration()` -> `eqLogic::byTypeAndSearchConfiguration()`
 
-#### JS functions (available since Core 4.2):
+### JS functions (available since Core 4.2):
 
 `jeedom.eqLogic.builSelectCmd` -> `jeedom.eqLogic.buildSelectCmd`
 `checkPageModified` -> `jeedomUtils.checkPageModified`
@@ -174,7 +174,7 @@ jeedomUtils.datePickerInit('Y-m-d H:i:00', '#myCustomDatetime') //Will initializ
 `chooseIcon` -> `jeedomUtils.chooseIcon`
 `getOpenedModal` -> `jeedomUtils.getOpenedModal`
 
-#### JS variables (available since Core 4.3):
+### JS variables (available since Core 4.3):
 
 `jeedom_langage` -> `jeeFrontEnd.language`
 `userProfils` -> `jeeFrontEnd.userProfils`
@@ -183,7 +183,7 @@ jeedomUtils.datePickerInit('Y-m-d H:i:00', '#myCustomDatetime') //Will initializ
 >
 > These changes may require upgrading to the minimum required version of Jeedom for many plugins. That is why *deprecated* features do not appear in the Core master branch, but allow developers to see what they can fix.
 
-#### jQuery Autocomplete
+### jQuery Autocomplete
 
 The Autocomplete library, which depends on jQuery, will be removed in a future version of the Core. It is being replaced by the Core’s built-in function **input.jeeComplete()**. This function supports most of the previous options (AJAX source, etc.), but fixes several bugs, introduces new behaviors (up and down arrows to select a suggestion, etc.), and allows a single container to be used for multiple input fields, greatly reducing the impact on the DOM, particularly in scenarios.
 
@@ -209,7 +209,7 @@ source: dataArray
 
 </details>
 
-#### jQuery Bootbox
+### jQuery Bootbox
 
 The bootbox library, which depends on jQuery, will be removed in a future version of Core. jeeDialog() replaces these functions with jeeDialog.alert(), jeeDialog.confirm(), and jeeDialog.prompt().
 
@@ -243,7 +243,7 @@ if (result) {
 
 </details>
 
-#### jQuery UI
+### jQuery UI
 
 The jQuery UI library will be removed in a future version of the Core. jeeDialog.dialog() replaces the use of *ui-dialog* modals.
 
@@ -269,16 +269,16 @@ contentUrl: 'index.php?v=d&modal=system.action'
 
 </details>
 
-#### jQuery UI Sortable
+### jQuery UI Sortable
 
 The jQuery Sortable library will be removed in a future version of the Core.
 The SortableJS library has been integrated into the Core: [SortableJS](http://sortablejs.github.io/Sortable/)
 
-#### jQuery caret
+### jQuery caret
 
 The jQuery plugin *jquery.at.caret* is now deprecated. Use `myElement.insertAtCursor(myString)`
 
-#### jQuery contextMenu
+### jQuery contextMenu
 
 The contextMenu library, which depends on jQuery, will be removed in a future version of Core. jeeCtxMenu() replaces these functions.
 
@@ -334,7 +334,7 @@ position: function(opt, x, y) {
 
 </details>
 
-#### jQuery FileUpload
+### jQuery FileUpload
 
 The jQuery fileupload library will be removed in a future version of the Core. jeeFileUploader() replaces the use of these functions.
 
@@ -380,7 +380,7 @@ See [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 >
 > You can test your plugins on the Core without jQuery or Bootstrap. To do this, go to Settings > System > Configuration, then the "Devices" tab, and select **Core js (dev)**.
 
-### Optional modifications
+## Optional modifications
 
 - Managing multiple checkboxes
 

@@ -1,4 +1,4 @@
-**Documentación sobre los iconos de los complementos**
+# Icono del complemento
 
 Para poder publicarse en el Market de Jeedom, todo plugin debe tener un icono.
 

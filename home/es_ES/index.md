@@ -1,5 +1,3 @@
-### Documentación de Jeedom
-
 Bienvenido a la página web de documentación de la solución de domótica Jeedom.
 
 <div id="div_searchBar"></div>

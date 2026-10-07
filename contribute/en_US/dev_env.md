@@ -1,5 +1,5 @@
+# Development environment
 <!-- Unused for now -->
-## Development environment
 
 Here, we'll look at how to set up an efficient development environment between a test Raspberry Pi and a Windows PC for editing code and maintaining the GitHub repository.
 
@@ -7,7 +7,7 @@ This page covers the Jeedom Core, but this method can also be used for plugin de
 
 Sure, for quick edits to a few files, you can use the file editor directly in Jeedom. But that quickly becomes tedious, and you then have to push all the changes to the local repository or directly to GitHub. It’s not the most convenient way to do things.
 
-### Principle
+## Principle
 
 - Set up a test Raspberry Pi with Jeedom and a Samba share to access it from the PC.
 - Duplicate the repository locally using **Sublime Merge**.
@@ -17,7 +17,7 @@ Sure, for quick edits to a few files, you can use the file editor directly in Je
 
 This method is also possible with other tools, such as **Atom** (which will require a few packages) and **GitHub Desktop**.
 
-### Test/Development Board
+## Test/Development Board
 
 The first thing to do if you're developing Core features or a plugin: Set up a test environment. After all, you shouldn't develop on a production environment!
 
@@ -63,7 +63,7 @@ Right-click on `jeedomRoot` then **Connect a network drive...**
 In Windows, you now have a Network Drive `jeedomRoot` !
 
 
-### Setting up the local repository
+## Setting up the local repository
 
 To clone the repository locally so we can work on it, we'll fetch [Sublime Merge for Mac](https://www.sublimemerge.com/download).
 
@@ -82,7 +82,7 @@ Then clone the repository. Here, if you have access to the Core repository, clon
 {% include lightbox.html src="../images/sbm_clonerepo.jpg" data="settings" title="Clone dépôt" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 
-### Setting Up the Edition
+## Setting Up the Edition
 
 In **Sublime Text**, go to *Project* / *Edit Project* and set the directory for your repository:
 

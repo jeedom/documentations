@@ -1,5 +1,5 @@
+# Entwicklungsumgebung
 <!-- Unused for now -->
-## Entwicklungsumgebung
 
 Hier erfahren Sie, wie Sie eine effiziente Entwicklungsumgebung zwischen einem Test-Pi und einem Windows-PC einrichten, um Code zu bearbeiten und das GitHub-Repository zu verwalten.
 
@@ -7,7 +7,7 @@ Diese Seite bezieht sich auf den Jeedom-Core, aber diese Methode kann auch für 
 
 Zugegeben, für schnelle Bearbeitungen einiger weniger Dateien kann man den Dateieditor direkt in Jeedom nutzen. Das wird jedoch schnell mühsam, und anschließend müssen alle Änderungen in das lokale Repository oder direkt auf GitHub übertragen werden. Das ist nicht gerade die praktischste Vorgehensweise.
 
-### Prinzip
+## Prinzip
 
 - Einrichten eines Test-Raspberry Pi mit Jeedom und einer Samba-Freigabe, um vom PC aus darauf zugreifen zu können.
 - Das Repository lokal mit **Sublime Merge** duplizieren.
@@ -17,7 +17,7 @@ Zugegeben, für schnelle Bearbeitungen einiger weniger Dateien kann man den Date
 
 Diese Methode ist auch mit anderen Tools möglich, wie beispielsweise **Atom** (wofür einige Pakete erforderlich sind) und **GitHub Desktop**.
 
-### Test- und Entwicklungs-Pi
+## Test- und Entwicklungs-Pi
 
 Das Erste, was Sie tun sollten, wenn Sie Core-Funktionen oder ein Plugin entwickeln: Richten Sie eine Testumgebung ein. Denn man entwickelt nicht auf einer Produktionsumgebung!
 
@@ -63,7 +63,7 @@ Klicken Sie mit der rechten Maustaste auf `jeedomRoot` und dann **Netzwerklaufwe
 Unter Windows steht Ihnen nun also ein Netzlaufwerk zur Verfügung `jeedomRoot` !
 
 
-### Einrichtung des lokalen Repositorys
+## Einrichtung des lokalen Repositorys
 
 Um das Repository lokal zu duplizieren und daran arbeiten zu können, laden wir Folgendes herunter: [Sublime Merge (portable Version)](https://www.sublimemerge.com/download).
 
@@ -82,7 +82,7 @@ Klonen Sie anschließend das Repository. Wenn Sie Zugriffsrechte auf das Core-Re
 {% include lightbox.html src="../images/sbm_clonerepo.jpg" data="settings" title="Clone dépôt" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 
-### Einrichtung der Ausgabe
+## Einrichtung der Ausgabe
 
 Legen Sie in **Sublime Text** unter *Project* / *Edit Project* das Verzeichnis Ihres Repositorys fest:
 

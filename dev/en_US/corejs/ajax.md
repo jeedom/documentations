@@ -1,7 +1,8 @@
-[<< Core.js](index.md)
-## Ajax JS
+# Ajax JS
 
-### Fetch ...
+[<< Core.js](index.md)
+
+## Fetch ...
 
 At a high level, fetching a resource is a fairly simple operation. A request is sent, and a response is returned. Here’s an example using the native JavaScript `fetch()` method:
 
@@ -35,7 +36,7 @@ The Core's internal functions also allow for global handling of all Ajax calls, 
 
 In addition, these methods have made it possible to isolate certain dynamically loaded scripts, such as the libraries in core/3rdparty or plugin/3rdparty, which are now loaded and kept in the head to improve performance.
 
-### Using the Core's JavaScript class methods:
+## Using the Core's JavaScript class methods:
 
 ````js
 {% raw %}
@@ -54,7 +55,7 @@ jeedom.config.load({
 {% endraw %}
 ````
 
-### Calling Ajax outside of the Core JavaScript classes:
+## Calling Ajax outside of the Core JavaScript classes:
 
 ````js
 {% raw %}

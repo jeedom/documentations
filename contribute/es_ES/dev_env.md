@@ -1,5 +1,5 @@
+# Entorno de desarrollo
 <!-- Unused for now -->
-## Entorno de desarrollo
 
 Aquí veremos cómo configurar un entorno de desarrollo eficaz entre una Raspberry Pi de prueba y un PC con Windows para la edición del código y el mantenimiento del repositorio de GitHub.
 
@@ -7,7 +7,7 @@ Esta página trata sobre el núcleo de Jeedom, pero este método puede utilizars
 
 Es cierto que, para editar rápidamente unos cuantos archivos, se puede utilizar el editor de archivos directamente en Jeedom. Pero pronto resulta tedioso y, además, hay que transferir después todos los cambios al repositorio local o directamente a GitHub. No es lo más práctico del mundo.
 
-### Principio
+## Principio
 
 - Configurar una Raspberry Pi de prueba con Jeedom y un recurso compartido de Samba para poder acceder a ella desde el ordenador.
 - Duplicar el repositorio local con **Sublime Merge**.
@@ -17,7 +17,7 @@ Es cierto que, para editar rápidamente unos cuantos archivos, se puede utilizar
 
 Este método también se puede llevar a cabo con otras herramientas, como **Atom** (que requerirá algunos paquetes) y **GitHub Desktop**.
 
-### Placa de pruebas/desarrollo
+## Placa de pruebas/desarrollo
 
 Lo primero que hay que hacer si estás desarrollando funciones del Core o un plugin: configurar un entorno de pruebas. ¡Porque no se desarrolla en un entorno de producción!
 
@@ -63,7 +63,7 @@ Haz clic con el botón derecho del ratón en `jeedomRoot` y luego **Conectar un 
 En Windows, ahora dispones de un disco de red `jeedomRoot` !
 
 
-### Configuración del repositorio local
+## Configuración del repositorio local
 
 Para duplicar el repositorio localmente y poder trabajar en él, vamos a recuperar [Sublime Merge portátil](https://www.sublimemerge.com/download).
 
@@ -82,7 +82,7 @@ A continuación, clona el repositorio. En este caso, si tienes permisos sobre el
 {% include lightbox.html src="../images/sbm_clonerepo.jpg" data="settings" title="Clone dépôt" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 
-### Configuración de la edición
+## Configuración de la edición
 
 En **Sublime Text**, en *Proyecto* / *Editar proyecto*, define el directorio de tu repositorio:
 

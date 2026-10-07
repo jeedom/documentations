@@ -1,10 +1,12 @@
+# Einrichtung von Let's Encrypt
+
 > **WICHTIG**
 >
 > Dieses Tutorial stammt nicht von Jeedom SAS, sondern von einem Nutzer der Community. Wir können daher nicht garantieren, dass es funktioniert oder noch aktuell ist.
 
 
 
-# Installation von Let’s Encrypt
+## Installation von Let’s Encrypt
 
 Hier sind die Befehle, die Sie ausführen müssen, um Let’s Encrypt vor der Generierung zu installieren:
 
@@ -18,7 +20,7 @@ cd letsencrypt
 
 Um ein Zertifikat zu beantragen, müssen Sie über einen Domainnamen verfügen, für den es ausgestellt wird.
 
-# Apache-Konfiguration
+## Apache-Konfiguration
 
 Damit der Let’s Encrypt-Vorgang erfolgreich abgeschlossen werden kann, müssen zuvor die folgenden drei Schritte durchgeführt werden:
 
@@ -28,7 +30,7 @@ Achtung: Port 80 muss am Router (Internetanbieter) freigeschaltet werden!
 -   Den HTTPS-VirtualHost von Apache auf der Jeedom-Box aktivieren.
 -   Richten Sie eine Portweiterleitung für HTTPS-Anfragen auf Ihrer Internet-Box ein, um diese an Ihre Jeedom-Box weiterzuleiten.
 
-## Aktivierung des VirtualHosts und des SSL-Moduls
+### Aktivierung des VirtualHosts und des SSL-Moduls
 
 > **Hinweis**
 >
@@ -62,7 +64,7 @@ Sie müssen die Einstellungen ändern <email@domaine.com> und domaine.com mit Ih
 </VirtualHost>
 ````
 
-# Nginx-Konfiguration
+## Nginx-Konfiguration
 
 Dieser Befehl darf nur verwendet werden, wenn Sie über einen Nginx-Webserver verfügen.
 
@@ -86,7 +88,7 @@ Und schließlich starten Sie den Nginx-Server neu.
 
 ``service nginx restart``
 
-# Verlängerung
+## Verlängerung
 
 Die Verlängerung erfolgt mit dem folgenden Befehl:
 
@@ -94,7 +96,7 @@ Die Verlängerung erfolgt mit dem folgenden Befehl:
 
 Sie erhalten automatisch eine E-Mail, sobald das Zertifikat abläuft, um Sie daran zu erinnern, diese Bestellung aufzugeben.
 
-## Automatisches Verfahren
+### Automatisches Verfahren
 
 Es ist doch besser, wenn es automatisch läuft. Dazu müssen Sie folgende Schritte befolgen:
 

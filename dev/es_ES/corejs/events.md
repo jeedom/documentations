@@ -1,7 +1,8 @@
-[<< Core js](index.md)
-## Gestión de eventos (*listeners*) en JavaScript
+# Gestión de eventos (*listeners*) en JavaScript
 
-### Persistencia de eventos
+[<< Core js](index.md)
+
+## Persistencia de eventos
 
 La gestión de eventos en JavaScript es relativamente sencilla; sin embargo, hay que prestar especial atención a su (no) persistencia.
 
@@ -81,7 +82,7 @@ jeedomUtils.loadPage = function(_url, _noPushHistory) {
 {% endraw %}
 ````
 
-### Activar eventos
+## Activar eventos
 
 Para activar un evento de forma dinámica, puedes crear un nuevo evento y activarlo:
 
@@ -112,7 +113,7 @@ document.querySelectorAll('div.myclass').triggerEvent('update', {capture: false,
 {% endraw %}
 ````
 
-### Eventos de Core
+## Eventos de Core
 
 Puedes registrar una función que se activará una vez que se haya cargado la página:
 
@@ -124,7 +125,7 @@ domUtils(function() {
 {% endraw %}
 ````
 
-### Delegación de eventos
+## Delegación de eventos
 
 En el 99 % de los casos, la persistencia de los eventos no te afectará y declararás tus desencadenantes con normalidad.
 

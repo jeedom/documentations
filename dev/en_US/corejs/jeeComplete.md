@@ -1,5 +1,6 @@
+# jeeComplete()
+
 [<< Core.js](index.md)
-## jeeComplete()
 
 *HTMLInputElement.prototype.jeeComplete(_options)*
 
@@ -27,7 +28,7 @@ HTMLInputElement.jeeComplete({
 ````
 
 
-### static autocomplete
+## static autocomplete
 
 A simple example of the *action.message.default* widget in jeeComplete
 
@@ -79,7 +80,7 @@ _expr.querySelector('.expressionAttr[data-l1key="' + _params.type + '"]').jeeCom
 {% endraw %}
 ````
 
-### dynamic autocomplete
+## dynamic autocomplete
 
 Example of jeeComplete for a scenario group. Since this list may change, it is dynamically reloaded using an Ajax call.
 

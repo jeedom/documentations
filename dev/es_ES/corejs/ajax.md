@@ -1,7 +1,8 @@
-[<< Core js](index.md)
-## Ajax JS
+# Ajax JS
 
-### Recuperar...
+[<< Core js](index.md)
+
+## Recuperar...
 
 A grandes rasgos, la recuperación de un recurso es una operación bastante sencilla. Llega una solicitud y se devuelve una respuesta. Ejemplo con el método nativo de JavaScript fetch():
 
@@ -35,7 +36,7 @@ Las funciones internas del Core también permiten gestionar todas las llamadas A
 
 Además, estos métodos han permitido aislar ciertos scripts cargados dinámicamente, como las bibliotecas de core/3rdparty o de plugin/3rdparty, que ahora se cargan y se mantienen en el encabezado para mejorar el rendimiento.
 
-### Utilizar los métodos de Class.js del Core:
+## Utilizar los métodos de Class.js del Core:
 
 ````js
 {% raw %}
@@ -54,7 +55,7 @@ jeedom.config.load({
 {% endraw %}
 ````
 
-### Llamada a Ajax fuera de las clases js del núcleo:
+## Llamada a Ajax fuera de las clases js del núcleo:
 
 ````js
 {% raw %}

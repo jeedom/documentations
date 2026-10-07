@@ -1,4 +1,4 @@
-**Plugin Icon Documentation**
+# Plugin icon
 
 In order to be published on the Jeedom Market, every plugin must have an icon.
 

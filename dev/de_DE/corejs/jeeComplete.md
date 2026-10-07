@@ -1,5 +1,6 @@
+# jeeComplete()
+
 [<< Core.js](index.md)
-## jeeComplete()
 
 *HTMLInputElement.prototype.jeeComplete(_options)*
 
@@ -27,7 +28,7 @@ HTMLInputElement.jeeComplete({
 ````
 
 
-### Statische Autovervollständigung
+## Statische Autovervollständigung
 
 Einfaches Beispiel für das jeeComplete-Widget *action.message.default*
 
@@ -79,7 +80,7 @@ _expr.querySelector('.expressionAttr[data-l1key="' + _params.type + '"]').jeeCom
 {% endraw %}
 ````
 
-### dynamische Autovervollständigung
+## dynamische Autovervollständigung
 
 Beispiel für jeeComplete zur Darstellung einer Szenario-Gruppe. Da sich diese Liste ändern kann, wird sie dynamisch per Ajax-Aufruf neu geladen.
 

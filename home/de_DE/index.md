@@ -1,5 +1,3 @@
-### Jeedom-Dokumentation
-
 Willkommen auf der Dokumentationsseite der Hausautomationslösung Jeedom.
 
 <div id="div_searchBar"></div>

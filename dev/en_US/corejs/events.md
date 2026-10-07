@@ -1,7 +1,8 @@
-[<< Core.js](index.md)
-## Event handling (*listeners*) in JavaScript
+# Event handling (*listeners*) in JavaScript
 
-### Event persistence
+[<< Core.js](index.md)
+
+## Event persistence
 
 Event handling in JavaScript is relatively simple; however, it is essential to ensure that events are (not) persistent.
 
@@ -81,7 +82,7 @@ jeedomUtils.loadPage = function(_url, _noPushHistory) {
 {% endraw %}
 ````
 
-### Trigger events
+## Trigger events
 
 To dynamically trigger an event, you can create a new event and trigger it:
 
@@ -112,7 +113,7 @@ document.querySelectorAll('div.myclass').triggerEvent('update', {capture: false,
 {% endraw %}
 ````
 
-### Core Events
+## Core Events
 
 You can register a function that will be triggered once the page has loaded:
 
@@ -124,7 +125,7 @@ domUtils(function() {
 {% endraw %}
 ````
 
-### Event Delegation
+## Event Delegation
 
 In 99% of cases, you won't need to worry about event persistence, and you can declare your triggers as usual.
 

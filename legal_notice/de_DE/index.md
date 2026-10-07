@@ -1,4 +1,4 @@
-## Impressum
+# Impressum
 
 Die Website jeedom wird von der Firma JEEDOM SAS herausgegeben und betrieben, einer vereinfachten Aktiengesellschaft (SAS) mit einem Stammkapital von 4.000 €, eingetragen im Handels- und Gesellschaftsregister von Lyon unter der Nummer 810505784 RCS LYON.
 

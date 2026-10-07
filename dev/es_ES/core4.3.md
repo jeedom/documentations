@@ -1,10 +1,10 @@
-## Core v4.3 | Desarrolladores de complementos
+# Core v4.3 | Desarrolladores de complementos
 
-### Obsoleto
+## Obsoleto
 
 -
 
-### Obsoleto
+## Obsoleto
 
 Casi todas las variables y funciones de las páginas del Core se han aislado en un espacio de nombres: esto permite no tener que volver a crear todas las funciones si se vuelve a la página, aislar las variables y funciones por página, por lo que no hay posibilidad de colisión, hace que el código sea mucho más legible, ya que se sabe de dónde viene y adónde va cada función o variable, y facilita enormemente la depuración (una consola del espacio de nombres y se ve todo).
 
@@ -38,9 +38,9 @@ Siguiendo la misma lógica, las variables que se pasan de PHP a JavaScript ahora
 
 - Ejemplo: La variable js `planHeader_id` se está convirtiendo en `jeephp2js.planHeader_id`.
 
-### Modificaciones opcionales
+## Modificaciones opcionales
 
-#### Código fuente y traducciones
+### Código fuente y traducciones
 
 Ahora es posible desarrollar un complemento con el código fuente en inglés.
 
@@ -85,13 +85,13 @@ Sin el archivo i18n, el complemento se mostrará en inglés en un Core configura
 
 
 
-#### addCmdToTable()
+### addCmdToTable()
 
 La función addCmdToTable() ya no es obligatoria. Si no está presente, se utilizará la del Core. Solo hay que crear una tabla HTML. `<table id="table_cmd" class="table table-bordered table-condensed"></table>`
 
 En los controles de información, ya no aparece el botón **Probar**, sino que se muestra el valor, que se actualiza en tiempo real. Para añadir esta información a una tabla de control: `<span class="cmdAttr" data-l1key="htmlstate"></span>`
 
-#### Widgets
+### Widgets
 
 La declaración de la función «update» cambia:
 
@@ -122,7 +122,7 @@ jeedom.cmd.refreshValue([{cmd_id :'#id#',display_value: '#state#', valueDate: '#
 
 Toma nota del nuevo parámetro `unit`, que permite al Core convertir, por ejemplo, 3500 W en 3,5 kW.
 
-#### Fuente del mensaje (4.3.7):
+### Fuente del mensaje (4.3.7):
 
 En caso de una acción **mensaje**, el Core ahora indica la fuente especificada en lugar de «escenario».
 
@@ -133,7 +133,7 @@ $options['source'] = 'plugin Mode '.$this->getName();
 scenarioExpression::createAndExec('action', $action['cmd'], $options);
 ````
 
-#### Visualización de contraseñas (4.3.9):
+### Visualización de contraseñas (4.3.9):
 
 En la versión 4.3, las contraseñas y las claves API ya no se muestran a la vista en el panel de administración, sino que hay un botón a la derecha para mostrarlas. Ahora también se puede utilizar en los plugins:
 

@@ -1,7 +1,8 @@
-[<< Core.js](index.md)
-## Ereignisbehandlung (*Listeners*) in JavaScript
+# Ereignisbehandlung (*Listeners*) in JavaScript
 
-### Ereignispersistenz
+[<< Core.js](index.md)
+
+## Ereignispersistenz
 
 Die Ereignisbehandlung in JavaScript ist relativ einfach, allerdings muss unbedingt darauf geachtet werden, dass sie (nicht) persistent sind.
 
@@ -81,7 +82,7 @@ jeedomUtils.loadPage = function(_url, _noPushHistory) {
 {% endraw %}
 ````
 
-### Ereignisse auslösen
+## Ereignisse auslösen
 
 Um ein Ereignis dynamisch auszulösen, können Sie ein neues Ereignis erstellen und es auslösen:
 
@@ -112,7 +113,7 @@ document.querySelectorAll('div.myclass').triggerEvent('update', {capture: false,
 {% endraw %}
 ````
 
-### Core-Veranstaltungen
+## Core-Veranstaltungen
 
 Sie können eine Funktion registrieren, die ausgelöst wird, sobald die Seite geladen ist:
 
@@ -124,7 +125,7 @@ domUtils(function() {
 {% endraw %}
 ````
 
-### Ereignisdelegierung
+## Ereignisdelegierung
 
 In 99 % der Fälle sind Sie von der Persistenz der Ereignisse nicht betroffen und melden Ihre Auslöser wie gewohnt.
 

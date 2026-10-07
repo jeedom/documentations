@@ -1,4 +1,4 @@
-## Legal Notice
+# Legal Notice
 
 The Jeedom website is published and operated by JEEDOM SAS, a simplified joint-stock company (SAS) with a capital of €4,000, registered with the Lyon Trade and Companies Register under No. 810505784 RCS LYON.
 

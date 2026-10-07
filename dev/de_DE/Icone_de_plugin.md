@@ -1,4 +1,4 @@
-**Dokumentation zu Plugin-Symbolen**
+# Plugin-Symbol
 
 Damit ein Plugin im Jeedom Market veröffentlicht werden kann, muss es über ein Symbol verfügen.
 

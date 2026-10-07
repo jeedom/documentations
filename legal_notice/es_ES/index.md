@@ -1,4 +1,4 @@
-## Aviso legal
+# Aviso legal
 
 La página web de Jeedom está editada y gestionada por la empresa JEEDOM SAS, sociedad por acciones simplificada (SAS) con un capital social de 4.000 €, inscrita en el Registro Mercantil y de Sociedades de Lyon con el n.º 810505784 RCS LYON.
 

@@ -1,9 +1,10 @@
+# Dialogfelder
+
 [<< Core.js](index.md)
-## Dialogfelder
 
 Die Verwaltung der Dialogfelder in Jeedom basiert vollständig auf der internen Bibliothek jeeDialog().
 
-### jeeDialog.alert()
+## jeeDialog.alert()
 
 Zeigt eine einfache Warnmeldung ohne Optionen an.
 
@@ -34,7 +35,7 @@ jeeDialog.alert({
 ````
 
 
-### jeeDialog.confirm()
+## jeeDialog.confirm()
 
 Fordert eine Bestätigung vom Benutzer an, mit Rückmeldung.
 
@@ -73,7 +74,7 @@ jeeDialog.confirm({
 ````
 
 
-### jeeDialog.prompt()
+## jeeDialog.prompt()
 
 Fordert vom Benutzer eine Eingabe an und gibt eine Rückmeldung.
 
@@ -119,7 +120,7 @@ jeeDialog.prompt({
 {% endraw %}
 ````
 
-### jeedomUtils.showAlert()
+## jeedomUtils.showAlert()
 
 Zeigt eine Benachrichtigung an.
 
@@ -148,7 +149,7 @@ jeedomUtils.showAlert({
 ````
 
 
-### jeeDialog.dialog()
+## jeeDialog.dialog()
 
 Zeigt ein vollständiges Dialogfeld (in der Größe anpassbar, maximierbar) mit dynamischem Inhalt an.
 
