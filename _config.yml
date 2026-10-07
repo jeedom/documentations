@@ -1,19 +1,8 @@
----
 languages: [fr_FR,en_US,es_ES,de_DE]
-baseurl: "/"
-permalink: /404.html
-markdown: kramdown
+permalink: /:path/:basename
 kramdown:
   input: GFM
-  hard_wrap: false
   parse_block_html: true
-  syntax_highlighter: rouge
-highlighter: rouge
-exclude:
-- vendor
-plugins:
-- jekyll-relative-links
-- jekyll-titles-from-headings
 site_name:
   fr_FR: Documentation Jeedom
   en_US: Jeedom Documentation
