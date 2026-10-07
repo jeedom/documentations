@@ -7,8 +7,12 @@
 <html lang="{{ page_lang | replace: '_', '-' }}">
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{% if page.title %}{{ page.title | escape_once }} - {% endif %}{{ site.site_name[page_lang] }}</title>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta property="og:image" content="https://doc.jeedom.com/assets/img/logo.png">
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="/assets/fonts/roboto/roboto.css">
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/dark.css">
@@ -17,8 +21,6 @@
   <link rel="stylesheet" href="/assets/css/materialize.min.css">
   <link rel="stylesheet" href="/assets/css/font-awesome5/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/lightbox.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="/favicon.ico" />
 </head>
 
 <body>
