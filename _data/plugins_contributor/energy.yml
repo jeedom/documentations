@@ -386,7 +386,7 @@
       fr_FR: "https://limad.github.io/plugins-docs/plugin-helloWatt/fr_FR/changelog"
       en_US: "https://limad.github.io/plugins-docs/plugin-helloWatt/en_US/changelog"
   description:
-    fr_FR: "Récupérer les informations de comptage Linky/Gazpar à partir de son compte-client 'Hello Watt'. Permet également de déterminer le couleur du jour Tempo et récuperer les informations d'injection solaire"
+    fr_FR: "Récupérer les informations de comptage Linky/Gazpar à partir de son compte-client 'Hello Watt'.<br/> Permet également de déterminer le couleur du jour Tempo et récuperer les informations d'injection solaire"
 - id: hydrolinkhome
   name: "Hydrolink Home"
   market_id: 4645
