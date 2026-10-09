@@ -4,6 +4,21 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 06/10/2026
+
+- Mise à jour majeure pour contourner le blocage de Waze (erreur 403)
+- Nouvelles dépendances requises, elles seront installées lors de la mise à jour
+- Le plugin dispose d'un démon qui doit être démarré pour pouvoir rafrachir les trajets
+- Ajout de nouveaux paramètres de trajet: *Type de véhicule*, *Eviter les routes à péage*, *Eviter les routes nécessitant une vignettes*, *Eviter ferries*
+- Ajout de nouvelles commandes infos pour les 3 trajets aller et retour: *Distance*
+- Suppression de la compatibilité "Amérique du Nord"
+- Debian 12 & Python 3.11 requis
+- Jeedom v4.5 requis
+
+# 20/12/2025
+
+- Correction pour les trajets "Amérique du Nord"
+
 # 29/11/2025
 
 - Correction de l'URL utilisée suite à un changement de Waze

@@ -1,75 +1,70 @@
 # Waze in Time Plugin
 
-Mit diesem Plugin können Sie die Reiseinformationen (Verkehr berücksichtigt) über Waze abrufen. Dieses Plugin funktioniert möglicherweise nicht mehr, wenn Waze nicht mehr akzeptiert, dass wir seine Site abfragen
+Dieses Plugin ermöglicht es, über Waze Routeninformationen (unter Berücksichtigung der Verkehrslage) abzurufen. Dieses Plugin funktioniert möglicherweise nicht mehr, wenn Waze keine Abfragen an seine Website mehr zulässt.
 
-![wazeintime screenshot1](../images/wazeintime_screenshot1.jpg)
+![wazeintime Screenshot1](../images/wazeintime_screenshot1.jpg)
 
-# Configuration
+# Konfiguration
 
 ## Plugin Konfiguration
 
-Um das Plugin verwenden zu können, müssen Sie es wie jedes Jeedom-Plugin herunterladen, installieren und aktivieren.
+Um das Plugin nutzen zu können, müssen Sie es wie jedes andere Jeedom-Plugin herunterladen, installieren und aktivieren.
 
-Danach müssen Sie Ihre Reise (n) erstellen. Gehe in das Plugins / Organisationsmenü, dort findest du das Waze in Time Plugin :
+Anschließend müssen Sie Ihre Route(n) erstellen. Gehen Sie dazu in das Menü „Plugins/Organisation“, dort finden Sie das Plugin „Waze in Time“:
 
-![configuration1](../images/configuration1.jpg)
+![Konfiguration 1](../images/configuration1.jpg)
 
-Dann kommen Sie auf die Seite, die Ihre Ausrüstung auflistet (Sie können mehrere Routen haben) und auf der Sie diese erstellen können, indem Sie auf die Schaltfläche "Hinzufügen" klicken":
+Anschließend gelangen Sie auf die Seite, auf der Ihre Geräte aufgelistet sind (Sie können mehrere Routen haben) und auf der Sie durch Klicken auf die Schaltfläche „Hinzufügen“ neue Routen erstellen können:
 
-![wazeintime screenshot2](../images/eqlogic_list.png)
+![wazeintime Screenshot2](../images/eqlogic_list.png)
 
-Sie gelangen dann auf die Konfigurationsseite Ihrer Reise:
+Anschließend gelangen Sie auf die Konfigurationsseite Ihrer Route:
 
-![wazeintime screenshot3](../images/eqlogic_config.png)
+![wazeintime Screenshot3](../images/eqlogic_config.png)
 
-Auf dieser Seite finden Sie drei Abschnitte :
+Auf dieser Seite finden Sie drei Abschnitte:
 
 ### Allgemeine Einstellungen
 
-In diesem Abschnitt finden Sie alle Jeedom-Konfigurationen. Nämlich den Namen Ihres Geräts, das Objekt, dem Sie es zuordnen möchten, die Kategorie, ob das Gerät aktiv sein soll oder nicht und ob es auf dem Dashboard sichtbar sein soll.
+In diesem Abschnitt finden Sie alle Jeedom-Konfigurationen. Dazu gehören der Name Ihres Geräts, das Objekt, mit dem Sie es verknüpfen möchten, die Kategorie, ob das Gerät aktiv sein soll oder nicht und ob es auf dem Dashboard angezeigt werden soll.
 
-Schließlich müssen Sie, wenn Sie möchten, das Auto-Update konfigurieren. Wenn Sie nichts konfigurieren, werden die Reiseinformationen nicht automatisch aktualisiert.
+Zum Schluss müssen Sie, falls gewünscht, noch die automatische Aktualisierung einrichten. Wenn Sie keine Einstellungen vornehmen, werden die Informationen zu den Routen nicht automatisch aktualisiert.
 
 ### Reiseparameter
 
-Dieser Abschnitt ist einer der wichtigsten und ermöglicht es Ihnen, den Start- und Endpunkt festzulegen.
+Dieser Abschnitt ist einer der wichtigsten, da er die Einstellung des Start- und Endpunkts ermöglicht.
 
 - Diese Informationen müssen die Breiten- und Längengrade der Positionen sein
-- Sie können über die Website gefunden werden, indem Sie auf den Seitenlink klicken (geben Sie einfach eine Adresse ein und klicken Sie auf GPS-Koordinaten abrufen)
+- Sie können über die angegebene Website abgerufen werden, indem Sie auf den Link auf der Seite klicken (geben Sie einfach eine Adresse ein und klicken Sie auf „GPS-Koordinaten abrufen“).
 
-Es ist möglich, sie auf verschiedene Weise bereitzustellen:
+Es gibt verschiedene Möglichkeiten, diese bereitzustellen:
 
 - manuell müssen Sie dann den Breiten- und Längengrad direkt codieren
-- über einen info-Befehl von einem anderen Jeedom-Plugin müssen Sie dann den Befehl auswählen, der die Informationen im Format 'Breitengrad, Längengrad . zurückgeben muss'
-- über die Jeedom-Konfiguration (siehe Jeedom-Konfigurationsmenü)
-- indem Sie direkt einen Befehl aus dem geoloc- oder geoloc_ios-Plugin auswählen, wenn diese Plugins vorhanden sind (diese Option sollte nicht mehr für neue Geräte verwendet werden, bevorzugen Sie die oben beschriebene Befehlsauswahloption)
+- über einen Info-Befehl eines anderen Jeedom-Plugins. Wählen Sie in diesem Fall den Befehl aus, der die Informationen im Format „Breitengrad, Längengrad“ zurückgeben soll.
+- über die Jeedom-Konfiguration (siehe Menü „Konfiguration“ in Jeedom)
+- durch direkte Auswahl eines Befehls aus dem Plugin „geoloc“ oder „geoloc_ios“, sofern diese Plugins vorhanden sind (diese Option sollte für neue Geräte nicht mehr verwendet werden; nutzen Sie stattdessen die oben beschriebene Option zur Befehlsauswahl)
 
-Es ist auch möglich, die Abonnements auszuwählen, die bei der Berechnung der Fahrt aktiviert werden müssen. Sie müssen eine Liste von Werten eingeben, die durch ein Komma oder _ * _ getrennt sind, um alles zu aktivieren.
+Sie können außerdem die Optionen für die Routenberechnung festlegen:
+
+- **Fahrzeugtyp**: Wählen Sie „Privatfahrzeug“ (Standardwert), „Taxi“ oder „Motorrad“.
+- **Mautstraßen vermeiden**: Wenn diese Option aktiviert ist, versucht Waze, eine Route ohne Maut zu berechnen.
+- **Straßen vermeiden, für die eine Vignette erforderlich ist**: Fordere eine Route an, die Straßen vermeidet, für die eine Vignette oder ein Abonnement erforderlich ist.
+- **Fähren vermeiden**: Eine Route ohne Fährüberfahrt anfordern.
+
+Diese Optionen gelten für die Berechnung der Hin- und Rückfahrt.
 
 ### Bildschirmeinstellungen
 
-Diese Konfiguration ermöglicht es Ihnen einfach, die ausgewählten Fahrten im Widget auf dem Dashboard auszublenden, sie werden weiterhin aktualisiert, wenn die Ausrüstung aktualisiert wird.
-
-### Bedienfeld
-
-![config3](../images/cmd_list.png)
-
-- Dauer 1, 2 & 3: Fahrzeit mit Route 1, 2 & 3
-- Route 1, 2 & 3: Name der Route 1, 2 & 3 (von Waze . gegeben))
-- Rückgabedauer 1, 2 & 3 : Hin- und Rückfahrt mit Route 1, 2 & 3
-- Rückfahrt 1, 2 & 3 : Name der Rückfahrt 1, 2 & 3 (von Waze . gegeben))
-- Aktualisieren : Informationen aktualisieren
-
-Alle diese Befehle sind über Szenarien und über das Dashboard verfügbar
+Mit dieser Einstellung können Sie die im Widget auf dem Dashboard ausgewählten Routen einfach ausblenden; diese werden jedoch bei der Aktualisierung der Geräte weiterhin aktualisiert.
 
 # Das Widget
 
-![wazeintime screenshot1](../images/wazeintime_screenshot1.jpg)
+![wazeintime Screenshot1](../images/wazeintime_screenshot1.jpg)
 
-- Die Schaltfläche oben rechts aktualisiert die Informationen.
-- Alle Informationen sind sichtbar (bei Reisen kann die Reise, wenn sie lang ist, abgeschnitten werden, aber die Vollversion wird angezeigt, indem Sie die Maus darauf lassen)
+- Mit der Schaltfläche oben rechts können Sie die Informationen aktualisieren.
+- Alle Informationen sind sichtbar (bei Routen: Bei langen Routen kann der Text abgeschnitten sein, die vollständige Version wird jedoch angezeigt, wenn man mit der Maus darüberfährt).
 
-# Wie werden Routen aktualisiert??
+# Wie werden die Routen aktualisiert?
 
-Die Informationen werden entsprechend der Auto-Update-Konfiguration des Geräts aktualisiert. Wenn nichts konfiguriert ist, werden die Fahrten nie automatisch aktualisiert.
-Sie können sie bei Bedarf über das Szenario mit dem Aktualisierungsbefehl oder über das Dashboard mit den Doppelpfeilen aktualisieren.
+Die Informationen werden entsprechend der Einstellung zur automatischen Aktualisierung des Geräts aktualisiert. Wenn keine Einstellung vorgenommen wurde, werden die Routen niemals automatisch aktualisiert.
+Sie können sie bei Bedarf über ein Szenario mit dem Befehl „Aktualisieren“ oder über das Dashboard mit den Doppelpfeilen aktualisieren.
