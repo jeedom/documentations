@@ -87,8 +87,10 @@
       fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-creality-box-pour-jeedom/"
     beta: false
   description:
-    fr_FR: "Plugin permettant de récupérer les informations de la Creality Box.Il faut impérativement que l'accès Telnet soit ouvert sur la box."
-    en_US: "Plugin to retrieve information from the Creality Box.It is imperative that the Telnet access remains open on the box."
+    fr_FR: "Plugin permettant de récupérer les informations de la Creality Box.<br/>Il faut impérativement que l'accès Telnet soit ouvert sur la box."
+    en_US: "Plugin to retrieve information from the Creality Box.<br/>It is imperative that the Telnet access remains open on the box."
+    de_DE: "Plugin zum Abrufen von Informationen von der Creality Box.<br/> Es ist zwingend erforderlich, dass der Telnet-Zugang auf der Box geöffnet ist."
+    es_ES: "Plugin para recuperar información de la Creality Box. El acceso Telnet debe estar abierto en la caja."
 - id: CryptoPtf
   name: "Crypto Portfolio"
   market_id: 4169
