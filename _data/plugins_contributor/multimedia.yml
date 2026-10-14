@@ -18,11 +18,11 @@
   market_id: 3910
   doc:
     stable:
-      fr_FR: "https://youdom.net/alexa-amazonmusic-documentation"
+      fr_FR: "http://jeedom.sigalou-domotique.fr/alexa-amazon-music-documentation"
     beta: false
   changelog:
     stable:
-      fr_FR: "https://youdom.net/alexa-api-et-amazonmusic-deezer-spotify-changelog-todo-list/"
+      fr_FR: "http://jeedom.sigalou-domotique.fr/alexa-api-changelog"
     beta: false
   description:
     fr_FR: "Interface Amazon Music"
