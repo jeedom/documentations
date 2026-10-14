@@ -140,13 +140,15 @@
   doc:
     stable:
       fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-google-keep-pour-jeedom/"
-    beta: false
+    beta:
+      fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-google-keep-pour-jeedom/"
   changelog:
     stable:
       fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-google-keep-pour-jeedom/"
-    beta: false
+    beta:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-google-keep-pour-jeedom/"
   description:
-    fr_FR: "Plugin permettant de synchroniser ses notes et listes avec Google Keep.Nécéssite python &gt;= v3.8 pour fonctionner."
+    fr_FR: "Plugin permettant de synchroniser ses notes et listes avec Google Keep.<br/>Nécéssite python &gt;= v3.8 pour fonctionner."
     en_US: "Plugin for synchronizing notes and lists with Google Keep"
     es_ES: "Plugin para sincronizar notas y listas con Google Keep"
     de_DE: "Plugin zum Synchronisieren von Notizen und Listen mit Google Keep"
