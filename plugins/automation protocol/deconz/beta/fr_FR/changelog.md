@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 15/10/2026
+
+- Correction d'une erreur « Division by zero » sur les lampes couleur qui ne remontent pas de couleur en mode blanc
+
 # 17/02/2026
 
 - Compatibilité Debian 12

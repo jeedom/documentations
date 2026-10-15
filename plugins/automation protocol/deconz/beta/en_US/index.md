@@ -1,34 +1,34 @@
 # Deconz plugin
 
-This plugin allows, via a conbee key (1 or 2), to control the deconz tool which allows you to zigbee (xiaomi module, philips hue, ikea...).
+This plugin uses a Conbee key (1 or 2) to control the Deconz tool, which enables Zigbee connectivity (Xiaomi, Philips Hue, IKEA modules, etc.).
 
-This plugin is completely cloudless, so it makes no communication to the outside (third party server) and functions 100% locally !!!!
+This plugin is completely cloud-free, so it does not communicate with any external sources (third-party servers) and operates 100% locally!!!!
 
-Attention the Zigbee does not work at all like the Zwave, the list of modules included is not saved at all in the key (nothing is saved in the key). So it is easy to replace the key (by backup / restore, the backup can be recovered from jeedom but not restored from jeedom, it is necessary for restoration to go through Deconz, if you are in local installation it is IP_JEEDOM:8484). By cons in case of moving the key from one system to another it is also necessary to make a backup / restore.
+Please note that Zigbee works completely differently from Z-Wave; the list of included modules is not saved on the key at all (nothing is saved on the key). So it’s easy to replace the key (via backup/restore; the backup can be retrieved from Jeedom but cannot be restored from Jeedom—you must use Deconz for Restoration; if you’re running a local installation, the address is IP_JEEDOM:8484). However, if you move the key from one system to another, you’ll also need to perform a backup and restore.
 
->**Important**
+>**IMPORTANT**
 >
-> This plugin requires a USB key [Conbee](http://bit.ly/2n4VyWc)
+> This plugin requires a USB drive [Conbee](http://bit.ly/2n4VyWc)
 
->**Important**
+>**IMPORTANT**
 >
 > Debian Strech (debian 9) or higher is absolutely necessary for the plugin to work
 
->**Important**
+>**IMPORTANT**
 >
-> The plugin is not compatible with a 32-bit architecture (old hardware). The module is compatible with all Raspberry Pi
+> The plugin is not compatible with 32-bit architecture (older hardware). The module is compatible with all Raspberry Pi models.
 
->**Important**
+>**IMPORTANT**
 >
-> On RPI it is necessary to deactivate the serial options so that the conbee key works correctly (it happens in ssh in raspi-config)
+> On the Raspberry Pi, you need to disable the serial options for the Conbee dongle to work properly (this is done via SSH in raspi-config)
 
 # Compatible module
 
-Here you find the list of deconz compatible modules [here](https://phoscon.de/en/conbee/compatible)
+Here you'll find a list of modules compatible with Deconz [here](https://phoscon.de/en/conbee/compatible)
 
 >**NOTE**
 >
-> Adding a module is not managed directly by Jeedom SAS but by the publisher of the Deconz gataway. So we cannot guarantee that a support request for a new module will succeed. It is therefore strongly advised to buy a compatible module
+> The addition of modules is not handled directly by Jeedom SAS but by Deconz, the company that manufactures the gateway. Therefore, we cannot guarantee that a request for support for a new module will be successful. We strongly recommend purchasing a compatible module.
 
 >**NOTE**
 >
@@ -36,29 +36,29 @@ Here you find the list of deconz compatible modules [here](https://phoscon.de/en
 
 # Plugins configuration
 
-The plugin supports several deconz gateways (1 conbee key per gateway). A conbee gateway can be installed on :
+The plugin supports multiple ConBee gateways (1 ConBee key per gateway). A ConBee gateway can be installed on:
 
-- jeedom himself (smart, rpi and x64_86 supported)
+- Jeedom itself (Smart, RPi, and x64_86 supported)
 - a remote rpi
-- or any other card compatible with deconz.
+- or any other card compatible with Deconz.
 
-For remote installation here is the [Documentation](https://phoscon.de/en/conbee/install)
+For remote installation, here is the [Documentation](https://phoscon.de/en/conbee/install)
 
-For installation on jeedom you just have to click on the button to install deconz locally.
+To install it on Jeedom, simply click the button to install Deconz locally.
 
->**Important**
+>**IMPORTANT**
 >
 > You MUST NOT do the 2 installation methods on the same system, it is one or the other
 
 >**NOTE**
 >
->To update local deconz simply click on the local deconz installation button
+>To update Deconz locally, simply click the Deconz local installation button again
 
 ## Adding gateways
 
-To add new gateways to the plugin, either on the plugin configuration page (Plugin -&gt; Plugin management then deconz), click on discovery (it does not always work) or by hand add at least the ip of the gateway and the port.
+To add new gateways to the plugin, you must either go to the plugin's configuration page (Plugins -> Plugin Management, then deconz), click "Discover" (this doesn't always work), or manually enter at least the gateway's IP address and port.
 
-Then in deconz (Phoscon, if you installed it locally you have to go to IPJEEDOM:8484) then in the menu at the top left (the 3 small lines) you have to go to "gateway" then "advanced" and click "Authenticate App" and finally in the 60s go to the configuration of the plugin in Jeedom, save the list of gateways if you have changed it then click on "Recover API key".
+Next, in Deconz (Phoscon; if you’ve installed it locally, go to IPJEEDOM:8484), then in the menu at the top left (the three small lines), go to “Gateway,” then “Advanced,” and click “Authenticate App.” Finally, within 60 seconds, go to the plugin’s settings in Jeedom; be sure to save the gateway list if you’ve changed it, then click “Retrieve API Key.”
 
 # Deconz networks
 
@@ -66,69 +66,69 @@ Attention at the top right you have a selection button to choose the gateway to 
 
 ## Summary
 
-Here you will find the main information of your deconz networks (in particular the version of deconz and firmware).
+Here you'll find the key information about your Deconz network (specifically, the Deconz and firmware versions).
 
 ## Action
 
-There you will be able :
+Here, you'll be able to:
 
-- update the firmware (only works if there is no other USB key connected to the machine)
-- do a reset (beware it requires re-associating everything)
-- change the source of firmware update (it is not recommended to touch it)
+- Update the firmware (this will only work if no other USB flash drive is plugged into the computer)
+- Perform a reset (note: this will require you to re-pair everything)
+- Change the firmware update source (it is not recommended to change this)
 - change the channel
 
-## Noeuds
+## Knots
 
-Here you have a summary of the known nodes of the key, with the date of last communication, the firmware version, the battery level and by clicking on the info button the details of the node.
+Here is a summary of the known nodes on the key, including the date of the last communication, the firmware version, and the battery level. Click the "Info" button to view the node details.
 
 >**NOTE**
 >
->Here the nodes are cut by type, so a module can appear several times depending on the number of type
+>Here, the nodes are grouped by type, so a module may appear multiple times depending on the number of types
 
 # Inclusion
 
-For inclusion you just have to click on the inclusion button, the system asks for the gateway once validated you have 3 min to do it.
+To add a device, simply click the "Add" button. The system will ask you for the gateway; once confirmed, you have 3 minutes to complete the setup.
 
 To switch the module to inclusion mode, you must go to the documentation for the module in question
 
->**Important**
+>**IMPORTANT**
 >
-> The Zigbee network is very different from the Zwave network, the zigbee can go through a repeater but it must be the case from the inclusion. It is therefore necessary when including the module to do so as close as possible to the key if you do not want the communication to go through a repeater (be careful you can have a maximum of 32 modules live on the conbee key).Or as close as possible to the repeater (any powered module can be a repeater).
+> The Zigbee network is very different from the Z-Wave network; Zigbee can use a repeater, but this must be set up at the time of inclusion. Therefore, when including the module, you must do so either as close as possible to the Conbee key if you do not want communication to go through a repeater (note that you can have a maximum of 32 modules connected directly to the Conbee key).Or as close as possible to the repeater (any powered module can act as a repeater).
 
-# Synchronisation
+# Synchronization
 
-Once the inclusion is made Jeedom should send you directly to the page of the new module. If the discovery did not work simply click on synchronize
+Once the module has been added, Jeedom should take you directly to the new module's page. If the discovery process didn't work, simply click "Synchronize."
 
-# Equipement
+# Device
 
-You will find in the first tab all the configuration of your equipment :
+In the first tab, you'll find all the settings for your equipment:
 
-- Name of equipment : name of your Simulation equipment,
-- Parent object : indicates the parent object to which the equipment belongs,
-- Activate : makes your equipment active,
-- Visible : makes your equipment visible on the dashboard.
-- A configuration button which, depending on the module, will offer you the possible options (be careful here Jeedom will display the options such as the module offers them sometimes, it doesn't make much sense depending on the module)
+- Device name: Name of your Simulation device,
+- Parent object: specifies the parent object to which the device belongs,
+- Activate: turns your device active,
+- Visible: Makes your equipment visible on the dashboard.
+- A configuration button that, depending on the module, will display the available options (note that here, Jeedom displays the options exactly as the module provides them; sometimes this doesn't make much sense depending on the module)
 - general information about the module
 - the choice of visual
 
->**Important**
+>**IMPORTANT**
 >
-> Here order management is not at all like the zwave. When including a module there are several possible cases :
-> - the module has a specific configuration : in this case you have the visual of the module as well as an adapted configuration (this is rarely the case because may be necessary in zigbee)
-> - the module has a generic configuration depending on the types  : you have a generic visual and the commands corresponding to the types of the module (this is the most common case)
-> - module and types are unknown from jeedom : in this case you have to open a support request to add it in the next plugin update
+> Here, command handling is completely different from Z-Wave. When adding a module, there are several possible scenarios:
+> - The module has a specific configuration: in this case, you have the module's display as well as a customized configuration (this is rarely the case, as it is not necessary with Zigbee)
+> - The module has a generic configuration based on its type: you have a generic interface and commands corresponding to the module's type (this is the most common scenario)
+> - Jeedom does not recognize the module or types: in this case, you'll need to submit a support request so we can add them in the next plugin update
 
-# Sauvegarde
+# Backups
 
-The plugin performs a backup of the network contained in the key in a local file, you can download it from the configuration page.
+The plugin backs up the network information stored on the USB drive to a local file; you can download it from the configuration page.
 
-# Restauration
+# Restoration
 
-When restoring a Jeedom backup, the equipment is restored but not attached to the key, you may have to reinstall the key. To do this you will need the backup mentioned above. This file is located in ``plugins/deconz/data`` and will be included in Phoscon, but the file extension must first be changed to ``.tar.gz`` In ``.dat``. 
+When performing a restoration of a Jeedom backup, the devices are restored but not reassigned to the key; you may need to reinstall the key. To do this, you will need the backup mentioned above. This file is located in ``plugins/deconz/data`` and will be included in Phoscon, but you must first change the file extension ``.tar.gz`` in ``.dat``.
 
-Then go to the Phoscon interface. Menu => Gateway => Backup Option => Load Backup.
+Next, go to the Phoscon interface. Menu => Gateway => Backup Option => Load Backup.
 
-You just have to do an API key discovery, Save and finally a synchronization from the plugin page.
+All you have to do now is generate an API key, save it, and then sync from the plugin page.
 
 # Firmware update
 
@@ -138,37 +138,37 @@ You can do it directly from jeedom if the key is plugged into it, from the plugi
 
 ## Conbee
 
-Go on [here](https://www.dresden-elektronik.de/rpi/deconz-firmware/?C=M;O=D) and check if there is a new firmware, if yes get it back
+Go to [here](https://www.dresden-elektronik.de/rpi/deconz-firmware/?C=M;O=D) and check if there is new firmware; if so, download it
 
 ````
 wget https://www.dresden-elektronik.de/rpi/deconz-firmware/deCONZ_Rpi_0x26300500.bin.GCF
 sudo GCFFlasher_internal -d 0 -f deCONZ_Rpi_0x26300500.bin.GCF
 ````
 
->**Important**
+>**IMPORTANT**
 >
->Attention to be able to flash it is absolutely necessary that all the daemons on a USb key (zwave, enocean, rfxcom ...) be cut and check that the key is in 0 with ``GCFFlasher_internal -l``. It is advisable to disconnect the other keys
+>Please note: To flash the device, you must ensure that all daemons on the USB dongle (Z-Wave, Enocean, RFxCom, etc.) are turned off, and verify that the dongle is set to 0 with ``GCFFlasher_internal -l``. It is recommended that you unplug the other keys
 
-# FAQ
+# Faq
 
->**The demon starts and cuts itself off after a minute**
+>**The daemon starts up and shuts down on its own after one minute**
 >
->If you are under RPI the serial should not have been cut (it happens in raspi-config)
+>If you're using RPI, the serial port shouldn't have been disabled (this is done in raspi-config)
 
->**I have a daylight equipment in the node list but not in Jeedom**
+>**I have a Daylight device in the node list but not in Jeedom**
 >
->It is normally a non-removable virtual equipment created by Deconz. Since it is not a &quot;real&quot; Jeedom equipment does not reassemble it
+>This is normally a non-deletable virtual device created by Deconz. Since it's not a "true" device, Jeedom doesn't report it.
 
->**I have the error &quot;Error during the request : 127.0.0.1:8484 / api / 931559A482 / sensors (POST), data : null error : 1 => unauthorized user"**
+>**I'm getting the error "Error during request: 127.0.0.1:8484/api/931559A482/sensors(POST), data: null, error: 1 => unauthorized user"**
 >
->You have not authorized Jeedom to connect to Deconz, you must in deconz (Phoscon, if you installed it locally you must go to IPJEEDOM:8484) then in the menu at the top left (the 3 small lines) you have to go to "gateway" then "advanced" and click Authenticate App and finally in the 60s go to the configuration of the plugin in Jeedom, save the list of gateway if you have changed it then click on "Recover API key"
+>You haven't authorized Jeedom to connect to Deconz. In Deconz (Phoscon—if you've installed it locally, go to IPJEEDOM:8484), click the three dots in the top-left menu (the three small lines), select “Gateway,” then “Advanced,” and click “Authenticate App.” Finally, within 60 seconds, go to the plugin settings in Jeedom, make sure to save the gateway list if you’ve changed it, and then click “Retrieve API Key.”
 
->**My rpi (4) does not see the deconz key**
+>**My Raspberry Pi (4) doesn't recognize the Deconz key**
 >
->You have to update the key firmware using another system (windows)
+>You need to update the dongle's firmware using another system (Windows)
 
->**I manage to control my equipment but I have no feedback on information orders**
+>**I can control my devices, but I don't get any feedback on the commands**
 >
->This is probably due to a problem with time zones (deconz is very picky above). It is necessary :
->- check in "Deconz Networks" that the timezone and the time are correct if not you can either configure it in deconz or check the "Time zones" box on the gateway in the configuration of the deconz plugin (if you do this last method you must wait 1 hour before the correction is effective)
->- check the time zone of your OS (especially on the rpi) which must absolutely be good
+>This is probably due to an issue with time zones (deconz is very particular about this). You need to:
+>- Check in "Deconz Networks" to make sure the time zone and time are correct. If not, you can either configure them in Deconz or check the "Time Zones" box on the gateway in the Deconz plugin settings (if you use the latter method, you'll need to wait 1 hour for the change to take effect).
+>- Check the time zone setting on your OS (especially on RPi devices)—it absolutely must be correct
