@@ -1,64 +1,64 @@
 # Deconz Plugin
 
-Mit diesem Plugin können Sie über einen Conbee-Schlüssel (1 oder 2) das Dekonz-Tool steuern, mit dem Sie Zigbee (Xiaomi-Modul, Philips-Farbton, Ikea) ausführen können...).
+Dieses Plugin ermöglicht es, über einen Conbee-Stick (1 oder 2) das Tool „deconz“ zu steuern, mit dem man Zigbee-Geräte (Xiaomi-Modul, Philips Hue, IKEA...) bedienen kann.
 
-Dieses Plugin ist vollständig Cloud-frei, stellt also keine Kommunikation nach außen (Drittanbieter-Server) her und funktioniert zu 100% lokal !!!!
+Dieses Plugin ist komplett cloudfrei, es stellt also keinerlei Verbindung nach außen (zu Servern von Drittanbietern) her und läuft zu 100 % lokal!!!!
 
-Achtung, der Zigbee funktioniert überhaupt nicht wie der Zwave, die Liste der enthaltenen Module wird überhaupt nicht im Schlüssel gespeichert (nichts wird im Schlüssel gespeichert). So ist es einfach, den Schlüssel zu ersetzen (durch Sichern / Wiederherstellen kann das Backup aus Jeedom wiederhergestellt, aber nicht aus Jeedom wiederhergestellt werden. Für die Wiederherstellung muss Deconz ausgeführt werden. Wenn Sie sich in einer lokalen Installation befinden, handelt es sich um IP_JEEDOM:8484). Im Falle des Verschiebens des Schlüssels von einem System auf ein anderes ist es auch erforderlich, eine Sicherung / Wiederherstellung durchzuführen.
+Achtung: Zigbee funktioniert ganz anders als Z-Wave. Die Liste der enthaltenen Module wird überhaupt nicht auf dem Schlüssel gespeichert (auf dem Schlüssel wird überhaupt nichts gespeichert). Daher ist es einfach, den Schlüssel zu ersetzen (per Backup/Wiederherstellung; das Backup kann aus Jeedom abgerufen, aber nicht über Jeedom wiederhergestellt werden; für die Wiederherstellung muss man Deconz verwenden; bei einer lokalen Installation lautet die Adresse IP_JEEDOM:8484). Wenn der Schlüssel jedoch von einem System auf ein anderes übertragen wird, muss ebenfalls ein Backup/eine Wiederherstellung durchgeführt werden.
 
->**Wichtig**
+>**WICHTIG**
 >
-> Dieses Plugin benötigt einen USB-Stick [Conbee](http://bit.ly/2n4VyWc)
+> Für dieses Plugin ist ein USB-Stick erforderlich [Conbee](http://bit.ly/2n4VyWc)
 
->**Wichtig**
+>**WICHTIG**
 >
 > Debian Strech (Debian 9) oder höher ist unbedingt erforderlich, damit das Plugin funktioniert
 
->**Wichtig**
+>**WICHTIG**
 >
-> Das Plugin ist nicht mit einer 32-Bit-Architektur (alte Hardware) kompatibel). Das Modul ist mit allen Raspberry Pi kompatibel
+> Das Plugin ist nicht mit einer 32-Bit-Architektur (ältere Hardware) kompatibel. Das Modul ist mit allen Raspberry Pi-Modellen kompatibel.
 
->**Wichtig**
+>**WICHTIG**
 >
-> Bei RPI müssen die seriellen Optionen deaktiviert werden, damit der Conbee-Schlüssel ordnungsgemäß funktioniert (dies geschieht in ssh in raspi-config)
+> Auf dem Raspberry Pi müssen die seriellen Optionen deaktiviert werden, damit der Conbee-Stick ordnungsgemäß funktioniert (dies erfolgt per SSH in raspi-config)
 
 # Kompatibles Modul
 
-Hier finden Sie die Liste der deconz-kompatiblen Module [hier](https://phoscon.de/en/conbee/compatible)
+Hier finden Sie eine Liste der mit Deconz kompatiblen Module [hier](https://phoscon.de/en/conbee/compatible)
 
->**Notiz**
+>**HINWEIS**
 >
-> Das Hinzufügen eines Moduls wird nicht direkt von Jeedom SAS verwaltet, sondern vom Herausgeber des Deconz-Gataways. Wir können daher nicht garantieren, dass eine Supportanfrage für ein neues Modul erfolgreich ist. Es wird daher dringend empfohlen, ein kompatibles Modul zu kaufen
+> Das Hinzufügen von Modulen wird nicht direkt von Jeedom SAS, sondern vom Hersteller des Deconz-Gateways verwaltet. Daher können wir nicht garantieren, dass eine Supportanfrage für ein neues Modul erfolgreich ist. Es wird daher dringend empfohlen, ein kompatibles Modul zu kaufen.
 
->**Notiz**
+>**HINWEIS**
 >
 > Im Falle eines sogenannten kompatiblen Moduls, das nicht oder nur teilweise unterstützt wird, kann das Unternehmen Jeedom SAS nicht verantwortlich gemacht werden und ist nicht verpflichtet, bei der Korrektur von Bedenken Ergebnisse zu erzielen
 
 # Plugins Konfiguration
 
-Das Plugin unterstützt mehrere Deconz-Gateways (1 Conbee-Schlüssel pro Gateway). Ein Conbee-Gateway kann installiert werden :
+Das Plugin unterstützt mehrere ConBee-Gateways (1 ConBee-Schlüssel pro Gateway). Ein ConBee-Gateway kann installiert werden auf:
 
-- jeedom selbst (smart, rpi und x64_86 unterstützt)
+- Jeedom selbst (Smart, RPi und x64_86 werden unterstützt)
 - eine entfernte RPI
-- oder jede andere mit deconz kompatible Karte.
+- oder jede andere Karte, die mit Deconz kompatibel ist.
 
-Für die Remote-Installation ist hier die [Dokumentation](https://phoscon.de/en/conbee/install)
+Für die Ferninstallation finden Sie hier die [Dokumentation](https://phoscon.de/en/conbee/install)
 
-Für die Installation auf jeedom müssen Sie nur auf die Schaltfläche klicken, um deconz lokal zu installieren.
+Für die Installation auf Jeedom müssen Sie lediglich auf die Schaltfläche klicken, um Deconz lokal zu installieren.
 
->**Wichtig**
+>**WICHTIG**
 >
 > Sie dürfen die beiden Installationsmethoden NICHT auf demselben System ausführen, es ist die eine oder andere
 
->**Notiz**
+>**HINWEIS**
 >
->Um Local Deconz zu aktualisieren, klicken Sie einfach auf die Schaltfläche Local Deconz Installation
+>Um Deconz lokal zu aktualisieren, klicken Sie einfach erneut auf die Schaltfläche zur lokalen Installation von Deconz.
 
 ## Hinzufügen von Gateways
 
-Um dem Plugin neue Gateways hinzuzufügen, klicken Sie entweder auf der Plugin-Konfigurationsseite (Plugin -&gt; Plugin-Verwaltung, dann dekonzieren) auf Erkennung (es funktioniert nicht immer) oder fügen Sie von Hand mindestens die IP-Adresse von hinzu das Gateway und der Port.
+Um dem Plugin neue Gateways hinzuzufügen, muss man entweder auf der Konfigurationsseite des Plugins (Plugin -> Plugin-Verwaltung, dann deconz) auf „Erkennen“ klicken (das funktioniert nicht immer) oder man muss mindestens die IP-Adresse des Gateways und den Port manuell eingeben.
 
-Dann in deconz (Phoscon, wenn Sie es lokal installiert haben, müssen Sie zu IPJEEDOM gehen:8484) Dann müssen Sie im Menü oben links (die 3 kleinen Zeilen) zu "Gateway" und dann zu "Erweitert" gehen und auf "App authentifizieren" klicken. Schließlich müssen Sie in den 60er Jahren zur Konfiguration des Plugins in Jeedom gehen und das speichern Liste der Gateways, wenn Sie sie geändert haben, klicken Sie auf "API-Schlüssel wiederherstellen"".
+Anschließend in Deconz (Phoscon; wenn Sie es lokal installiert haben, müssen Sie die Adresse IPJEEDOM:8484 aufrufen) und dann im Menü oben links (die drei kleinen Striche) auf „Gateway“, dann auf „Erweitert“ und auf „App authentifizieren“ klicken. Schließlich müssen Sie innerhalb von 60 Sekunden die Plugin-Konfiguration in Jeedom aufrufen, die Liste der Gateways sicher speichern, falls Sie diese geändert haben, und dann auf „API-Schlüssel abrufen“ klicken.
 
 # Deconz-Netzwerke
 
@@ -66,69 +66,69 @@ Achtung oben rechts haben Sie eine Auswahlschaltfläche, mit der Sie das zu betr
 
 ## Zusammenfassung
 
-Hier finden Sie die wichtigsten Informationen Ihrer Deconz-Netzwerke (insbesondere die Version von Deconz und Firmware).
+Hier finden Sie die wichtigsten Informationen zu Ihrem Deconz-Netzwerk (insbesondere die Version von Deconz und der Firmware).
 
-## Action
+## Aktion
 
-Dort wirst du in der Lage sein :
+Hier haben Sie folgende Möglichkeiten:
 
-- Aktualisieren Sie die Firmware (funktioniert nur, wenn kein anderer USB-Stick an das Gerät angeschlossen ist)
-- Führen Sie einen Reset durch (Vorsicht, es ist erforderlich, alles neu zuzuordnen)
-- Ändern Sie die Quelle des Firmware-Updates (es wird nicht empfohlen, es zu berühren)
+- Firmware aktualisieren (funktioniert nur, wenn kein anderer USB-Stick an den Computer angeschlossen ist)
+- einen Reset durchführen (Achtung: Dadurch müssen alle Geräte neu zugeordnet werden)
+- die Quelle für Firmware-Updates ändern (es wird davon abgeraten, daran etwas zu ändern)
 - Kanal wechseln
 
-## Noeuds
+## Knoten
 
-Hier haben Sie eine Zusammenfassung der bekannten Knoten des Schlüssels mit dem Datum der letzten Kommunikation, der Firmware-Version, dem Akkuladestand und durch Klicken auf die Info-Schaltfläche die Details des Knotens.
+Hier finden Sie eine Übersicht über die bekannten Knoten des Schlüssels mit dem Datum der letzten Kommunikation, der Firmware-Version und dem Stand der Batterie. Durch Klicken auf die Schaltfläche „Info“ werden die Details zum jeweiligen Knoten angezeigt.
 
->**Notiz**
+>**HINWEIS**
 >
->Hier werden die Knoten nach Typ geschnitten, sodass ein Modul je nach Anzahl der Typen mehrmals angezeigt werden kann
+>Hier sind die Knoten nach Typ unterteilt, sodass ein Modul je nach Anzahl der Typen mehrmals erscheinen kann
 
-# Inclusion
+# Aufnahme
 
-Für die Aufnahme müssen Sie nur auf die Schaltfläche &quot;Aufnahme&quot; klicken. Das System fragt nach dem Gateway, sobald die Überprüfung abgeschlossen ist. Sie haben 3 Minuten Zeit, dies zu tun.
+Um das Gerät hinzuzufügen, klicken Sie einfach auf die Schaltfläche „Hinzufügen“. Das System fragt Sie nach dem Gateway. Nach der Bestätigung haben Sie 3 Minuten Zeit, um die Verbindung herzustellen.
 
 Um das Modul in den Einschlussmodus zu schalten, müssen Sie die Dokumentation für das betreffende Modul aufrufen
 
->**Wichtig**
+>**WICHTIG**
 >
-> Das ZigBee-Netzwerk unterscheidet sich stark vom Zwave-Netzwerk. Das ZigBee-Netzwerk kann einen Repeater durchlaufen, dies muss jedoch bei der Aufnahme der Fall sein. Wenn Sie das Modul einschließen, ist es daher erforderlich, dies so nah wie möglich am Schlüssel zu tun, wenn die Kommunikation nicht über einen Repeater erfolgen soll (achten Sie darauf, dass maximal 32 Module auf dem Conbee-Schlüssel leben können).Oder so nah wie möglich am Repeater (jedes angetriebene Modul kann ein Repeater sein).
+> Das Zigbee-Netzwerk unterscheidet sich stark vom Z-Wave-Netzwerk. Zigbee-Signale können zwar über einen Repeater geleitet werden, dies muss jedoch bereits bei der Einbindung des Moduls festgelegt werden. Wenn Sie nicht möchten, dass die Kommunikation über einen Repeater läuft, müssen Sie das Modul daher bei der Einbindung entweder so nah wie möglich am Conbee-Schlüssel platzieren (bitte beachten Sie, dass maximal 32 Module direkt mit dem Conbee-Schlüssel verbunden sein können).Oder so nah wie möglich am Repeater (jedes mit Strom versorgte Modul kann als Repeater fungieren).
 
-# Synchronisation
+# Synchronisierung
 
-Sobald die Aufnahme erfolgt ist, sollte Jeedom Sie direkt zur Seite des neuen Moduls senden. Wenn die Erkennung nicht funktioniert hat, klicken Sie einfach auf Synchronisieren
+Sobald die Einbindung abgeschlossen ist, sollte Jeedom Sie direkt auf die Seite des neuen Moduls weiterleiten. Falls die Erkennung nicht funktioniert hat, klicken Sie einfach auf „Synchronisieren“.
 
-# Equipement
+# Gerät
 
-Auf der ersten Registerkarte finden Sie die gesamte Konfiguration Ihrer Geräte :
+Auf der ersten Registerkarte finden Sie alle Einstellungen für Ihre Geräte:
 
-- Name der Ausrüstung : Name Ihrer Simulationsausrüstung,
-- Übergeordnetes Objekt : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
-- Aktivieren : macht Ihre Ausrüstung aktiv,
-- Sichtbar : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar.
-- Eine Konfigurationsschaltfläche, die Ihnen je nach Modul die möglichen Optionen bietet (seien Sie vorsichtig, hier zeigt Jeedom die Optionen an, wie sie das Modul manchmal bietet. Je nach Modul ist dies nicht sehr sinnvoll)
+- Gerätename: Name Ihres Simulationsgeräts,
+- Übergeordnetes Objekt: Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
+- Aktivieren: Damit können Sie Ihre Geräte aktivieren,
+- Sichtbar: Macht Ihre Geräte auf dem Dashboard sichtbar.
+- Eine Konfigurationsschaltfläche, die Ihnen je nach Modul die verfügbaren Optionen anzeigt (Achtung: Jeedom zeigt Ihnen hier die Optionen so an, wie sie vom Modul angeboten werden; je nach Modul ergibt dies manchmal wenig Sinn).
 - Allgemeine Informationen zum Modul
 - die Wahl der visuellen
 
->**Wichtig**
+>**WICHTIG**
 >
-> Hier ist die Auftragsverwaltung überhaupt nicht wie die zwave. Beim Einfügen eines Moduls gibt es mehrere mögliche Fälle :
-> - Das Modul hat eine bestimmte Konfiguration : In diesem Fall haben Sie das Bild des Moduls sowie eine angepasste Konfiguration (dies ist selten der Fall, da dies im Zickzack erforderlich sein kann)
-> - Das Modul hat je nach Typ eine generische Konfiguration  : Sie haben eine allgemeine Grafik und die Befehle, die den Modultypen entsprechen (dies ist der häufigste Fall)
-> - Modul und Typen sind aus jeedom unbekannt : In diesem Fall müssen Sie eine Support-Anfrage öffnen, um sie beim nächsten Plugin-Update hinzuzufügen
+> Die Befehlsverwaltung funktioniert hier ganz anders als bei Z-Wave. Beim Einbinden eines Moduls gibt es mehrere mögliche Fälle:
+> - Das Modul verfügt über eine spezielle Konfiguration: In diesem Fall sehen Sie die Anzeige des Moduls sowie eine angepasste Konfiguration (dies ist selten der Fall, da es bei Zigbee möglicherweise erforderlich ist).
+> - Das Modul verfügt über eine generische Konfiguration, die von den Typen abhängt: Es gibt eine generische Benutzeroberfläche und die Befehle, die den Modultypen entsprechen (dies ist der häufigste Fall).
+> - Das Modul und die Typen sind Jeedom unbekannt: In diesem Fall müssen Sie eine Supportanfrage stellen, damit sie im nächsten Update des Plugins hinzugefügt werden.
 
-# Sauvegarde
+# Schutz
 
-Das Plugin führt eine Sicherung des im Schlüssel enthaltenen Netzwerks in einer lokalen Datei durch. Sie können es von der Konfigurationsseite herunterladen.
+Das Plugin erstellt eine Sicherungskopie des auf dem Stick gespeicherten Netzwerks in einer lokalen Datei, die Sie über die Konfigurationsseite herunterladen können.
 
-# Restauration
+# Verpflegung
 
-Wenn Sie ein Jeedom-Backup wiederherstellen, wird das Gerät wiederhergestellt, aber nicht an den Schlüssel angeschlossen. Möglicherweise müssen Sie den Schlüssel neu installieren. Dazu benötigen Sie das oben erwähnte Backup. Ce fichier se trouve dans ``plugins/deconz/data`` et sera à inclure dans dans Phoscon mais il faut au préalable changer l'extension du fichier ``.tar.gz`` In ``.dat``. 
+Bei der Wiederherstellung eines Jeedom-Backups werden die Geräte zwar wiederhergestellt, aber nicht mit dem Stick verbunden. Möglicherweise müssen Sie den Stick neu installieren. Dazu benötigen Sie das oben genannte Backup. Diese Datei befindet sich in ``plugins/deconz/data`` und wird in Phoscon integriert, allerdings muss zuvor die Dateiendung geändert werden ``.tar.gz`` in ``.dat``.
 
-Gehen Sie dann zur Phoscon-Oberfläche. Menü => Gateway => Sicherungsoption => Sicherung laden.
+Wechseln Sie anschließend zur Benutzeroberfläche von Phoscon. Menü => Gateway => Backup-Option => Backup laden.
 
-Sie müssen nur eine API-Schlüsselerkennung, Speichern und schließlich eine Synchronisierung über die Plugin-Seite durchführen.
+Jetzt müssen Sie nur noch einen API-Schlüssel abrufen, speichern und schließlich über die Plugin-Seite eine Synchronisierung durchführen.
 
 # Firmware-Update
 
@@ -138,37 +138,37 @@ Sie können dies direkt von jeedom aus tun, wenn der Schlüssel in der Plugin-Ko
 
 ## Conbee
 
-Mach weiter [hier](https://www.dresden-elektronik.de/rpi/deconz-firmware/?C=M;O=D) und prüfen Sie, ob es eine neue Firmware gibt, wenn ja, holen Sie sie zurück
+Weiter zu [hier](https://www.dresden-elektronik.de/rpi/deconz-firmware/?C=M;O=D) und prüfen Sie, ob eine neue Firmware verfügbar ist; falls ja, laden Sie diese herunter
 
 ````
 wget https://www.dresden-elektronik.de/rpi/deconz-firmware/deCONZ_Rpi_0x26300500.bin.GCF
 sudo GCFFlasher_internal -d 0 -f deCONZ_Rpi_0x26300500.bin.GCF
 ````
 
->**Wichtig**
+>**WICHTIG**
 >
->Um blinken zu können, müssen unbedingt alle Dämonen auf einem USb-Schlüssel (zwave, enocean, rfxcom ...) abgeschnitten und überprüft werden, ob der Schlüssel tatsächlich 0 ist ``GCFFlasher_internal -l``. Es ist ratsam, die anderen Schlüssel zu trennen
+>Achtung: Um das Firmware-Update durchführen zu können, müssen unbedingt alle Dämonen auf dem USB-Stick (Z-Wave, Enocean, RFxCom...) deaktiviert sein. Überprüfen Sie außerdem, ob der Stick tatsächlich auf 0 steht, und zwar mit ``GCFFlasher_internal -l``. Es wird empfohlen, die anderen Sticks abzuziehen
 
-# FAQ
+# Faq
 
->**Der Dämon startet und schneidet sich nach einer Minute ab**
+>**Der Daemon startet und schaltet sich nach einer Minute von selbst aus**
 >
->Wenn Sie unter RPI sind, sollte die Seriennummer nicht abgeschnitten worden sein (dies geschieht in raspi-config)
+>Wenn Sie RPI verwenden, sollte die serielle Schnittstelle nicht deaktiviert worden sein (dies erfolgt in raspi-config)
 
->**Ich habe eine Tageslichtausrüstung in der Knotenliste, aber nicht in Jeedom**
+>**Ich habe ein Daylight-Gerät in der Knotenliste, aber nicht in Jeedom**
 >
->Normalerweise handelt es sich um ein nicht entfernbares virtuelles Gerät, das von Deconz erstellt wurde. Da es sich nicht um ein &quot;echtes&quot; Jeedom-Gerät handelt, wird es nicht wieder zusammengebaut
+>Normalerweise handelt es sich hierbei um ein virtuelles, nicht löschbares Gerät, das von Deconz erstellt wurde. Da es sich nicht um ein „echtes“ Gerät handelt, wird es von Jeedom nicht angezeigt.
 
->**Ich habe den Fehler &quot;Fehler während der Anfrage : 127.0.0.1:8484 / api / 931559A482 / Sensoren (POST), Daten : Null Fehler : 1 => nicht autorisierter Benutzer"**
+>**Ich erhalte die Fehlermeldung „Fehler bei der Anfrage: 127.0.0.1:8484/api/931559A482/sensors(POST), Daten: null, Fehler: 1 => nicht autorisierter Benutzer“**
 >
->Sie haben Jeedom nicht autorisiert, eine Verbindung zu Deconz herzustellen. Sie müssen in deconz (Phoscon, wenn Sie es lokal installiert haben, müssen Sie zu IPJEEDOM gehen:8484) Dann müssen Sie im Menü oben links (die 3 kleinen Zeilen) zu "Gateway" und dann zu "Erweitert" gehen und auf "App authentifizieren" klicken. Schließlich müssen Sie in den 60er Jahren zur Konfiguration des Plugins in Jeedom gehen und die Liste von speichern Wenn Sie das Gateway geändert haben, klicken Sie auf "API-Schlüssel wiederherstellen""
+>Sie haben Jeedom noch nicht die Verbindung zu Deconz gestattet. Gehen Sie dazu in Deconz (Phoscon; falls Sie es lokal installiert haben, geben Sie IPJEEDOM:8484 ein) und dann im Menü oben links (die drei kleinen Striche) auf „Gateway“, dann auf „Erweitert“ und auf „App authentifizieren“ klicken. Anschließend müssen Sie innerhalb von 60 Sekunden in Jeedom zur Plugin-Konfiguration wechseln. Speichern Sie die Gateway-Liste unbedingt, falls Sie sie geändert haben, und klicken Sie dann auf „API-Schlüssel abrufen“.
 
->**Mein RPI (4) sieht den Dekonz-Schlüssel nicht**
+>**Mein Raspberry Pi (4) erkennt den Deconz-Stick nicht**
 >
->Sie müssen die Key-Firmware mit einem anderen System (Windows) aktualisieren)
+>Die Firmware des Sticks muss über ein anderes Betriebssystem (Windows) aktualisiert werden.
 
->**Es gelingt mir, meine Ausrüstung zu kontrollieren, aber ich habe kein Feedback zu Informationsbestellungen**
+>**Ich kann meine Geräte steuern, erhalte aber keine Rückmeldung zu den Befehlen**
 >
->Dies ist wahrscheinlich auf ein Problem mit Zeitzonen zurückzuführen (deconz ist oben sehr wählerisch). Du musst :
->- Überprüfen Sie in "Deconz Networks", ob die Zeitzone und die Zeit korrekt sind. Wenn nicht, können Sie sie entweder in deconz konfigurieren oder das Kontrollkästchen "Zeitzonen" auf dem Gateway in der Konfiguration des deconz-Plugins aktivieren (wenn Sie diese letzte Methode ausführen, müssen Sie dies tun Warten Sie 1 Stunde, bevor die Korrektur wirksam wird)
->- Überprüfen Sie die Zeitzone Ihres Betriebssystems (insbesondere auf dem RPI), die unbedingt gut sein muss
+>Das liegt wahrscheinlich an einem Problem mit den Zeitzonen (deconz ist da sehr pingelig). Man muss:
+>- Überprüfen Sie unter „DeConz-Netzwerke“, ob die Zeitzone und die Uhrzeit korrekt sind. Falls nicht, können Sie dies entweder in DeConz konfigurieren oder das Kontrollkästchen „Zeitzonen“ auf dem Gateway in der Konfiguration des DeConz-Plugins aktivieren (wenn Sie die letztere Methode wählen, müssen Sie eine Stunde warten, bis die Änderung wirksam wird).
+>- Überprüfen Sie die Zeitzone Ihres Betriebssystems (insbesondere auf RPIs), die unbedingt korrekt eingestellt sein muss
