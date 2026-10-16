@@ -4,6 +4,12 @@
 >
 >Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich ausschließlich um eine Aktualisierung der Dokumentation, der Übersetzung oder des Textes handelt.
 
+## 16/10/2026 ***(1.0.1)***
+
+- **Fehler**: Kommunikationsfehler mit dem Gateway werden nun im Protokoll des Plugins gemeldet
+- **Berechtigungen**: Korrektur der Zeitverschiebung beim Ablaufdatum, das an die Terminalstation übermittelt wird; dieses wird nun in allen Berechtigungsantworten gesendet
+- **Steuerung**: Optimierung der an die Ladestation übermittelten Informationen *(Ladegrenze, Identifikationsnummer für den Ladevorgang)*
+
 ## 06/10/2026 ***(1.0.0)***
 
 - Erste stabile Version

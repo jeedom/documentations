@@ -4,6 +4,12 @@
 >
 >If there is no information about the update, it means that the update only involves documentation, translations, or text.
 
+## 16/10/2026 ***(1.0.1)***
+
+- **Demon**: Communication errors with the gateway are now reported in the plugin log
+- **Authorizations**: Fixed the time offset for the expiration date sent to the gateway; it is now included in all authorization responses
+- **Commands**: Optimization of information transmitted to the charging station *(charge limit, charge start ID)*
+
 ## 06/10/2026 ***(1.0.0)***
 
 - First stable release

@@ -4,6 +4,12 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+## 16/10/2026 ***(1.0.1)***
+
+- **Démon** : les erreurs de communication avec la borne sont désormais signalées dans le log du plugin
+- **Autorisations** : correction du décalage horaire de la date d'expiration transmise à la borne, désormais envoyée dans toutes les réponses d'autorisation
+- **Commandes** : optimisation des informations transmises à la borne *(limite de charge, identifiant de démarrage de charge)*
+
 ## 06/10/2026 ***(1.0.0)***
 
 - Première version stable

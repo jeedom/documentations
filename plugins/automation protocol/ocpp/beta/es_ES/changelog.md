@@ -4,6 +4,12 @@
 >
 >Si no hay información sobre la actualización, es porque esta se refiere únicamente a la actualización de la documentación, la traducción o el texto.
 
+## 16/10/2026 ***(1.0.1)***
+
+- **Demonio**: los errores de comunicación con el terminal ahora se registran en el registro del complemento
+- **Autorizaciones**: corrección del desfase horario de la fecha de caducidad transmitida al terminal; a partir de ahora se envía en todas las respuestas de autorización
+- **Comandos**: optimización de la información transmitida a la estación de recarga *(límite de carga, identificador de inicio de carga)*
+
 ## 06/10/2026 ***(1.0.0)***
 
 - Primera versión estable
