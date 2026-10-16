@@ -436,11 +436,13 @@
   doc:
     stable:
       fr_FR: "https://flobul-domotique.fr/documentation-du-plugin-myuplink-pour-jeedom"
-    beta: false
+    beta:
+      fr_FR: "https://flobul-domotique.fr/documentation-du-plugin-myuplink-pour-jeedom"
   changelog:
     stable:
       fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-myuplink-pour-jeedom/"
-    beta: false
+    beta:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-myuplink-pour-jeedom/"
   description:
     fr_FR: "Ce plugin permet de récupérer les informations des pompes à chaleur NiBe depuis le site https://myUplink.com. Ce plugin ne fonctionne pas avec l'ancienne API http://www.nibeuplink.com."
     en_US: "This plugin allows you to retrieve NiBe heat pump information from https://myUplink.com. This plugin does not work with the old API http://www.nibeuplink.com."
@@ -452,15 +454,17 @@
   doc:
     stable:
       fr_FR: "https://flobul-domotique.fr/documentation-du-plugin-myuplink-internal-pour-jeedom"
-    beta: false
+    beta:
+      fr_FR: "https://flobul-domotique.fr/documentation-du-plugin-myuplink-internal-pour-jeedom"
   changelog:
     stable:
       fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-myuplink-internal-pour-jeedom/"
-    beta: false
+    beta:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-myuplink-internal-pour-jeedom/"
   description:
-    fr_FR: "Ce plugin permet de récupérer les informations des pompes à chaleur NiBe depuis l'API internal du site https://myUplink.com. Ce plugin ne fonctionne pas avec l'ancienne API http://www.nibeuplink.com.En plus des commandes de base, le plugin permet de générer des commandes depuis l'interface console (consommations, durées...)"
-    en_US: "This plugin allows you to retrieve NiBe heat pump information from the internal API of https://myUplink.com. This plugin does not work with the old API http://www.nibeuplink.com.In addition to the basic commands, the plugin allows you to generate commands from the console interface (consumptions, durations)"
-    de_DE: "Mit diesem Plugin können Sie die Informationen der NiBe-Wärmepumpen von der internen API der Website https://myUplink.com abrufen. Dieses Plugin funktioniert nicht mit der alten API http://www.nibeuplink.com. Neben den grundlegenden Befehlen können mit dem Plugin auch Befehle von der Konsolenschnittstelle aus generiert werden (Verbrauch, Dauer...)"
+    fr_FR: "Ce plugin permet de récupérer les informations des pompes à chaleur NiBe depuis l'API internal du site https://myUplink.com. Ce plugin ne fonctionne pas avec l'ancienne API http://www.nibeuplink.com.<br/>En plus des commandes de base, le plugin permet de générer des commandes depuis l'interface console (consommations, durées...)"
+    en_US: "This plugin allows you to retrieve NiBe heat pump information from the internal API of https://myUplink.com. This plugin does not work with the old API http://www.nibeuplink.com.<br/>In addition to the basic commands, the plugin allows you to generate commands from the console interface (consumptions, durations)"
+    de_DE: "Mit diesem Plugin können Sie die Informationen der NiBe-Wärmepumpen von der internen API der Website https://myUplink.com abrufen. Dieses Plugin funktioniert nicht mit der alten API http://www.nibeuplink.com.<br/> Neben den grundlegenden Befehlen können mit dem Plugin auch Befehle von der Konsolenschnittstelle aus generiert werden (Verbrauch, Dauer...)"
     es_ES: "Este plugin permite recuperar información sobre las bombas de calor NiBe desde la API interna de la página web https://myUplink.com. Este plugin no funciona con la antigua API http://www.nibeuplink.com. Además de los comandos básicos, el plugin puede utilizarse para generar comandos desde la interfaz de la consola (consumo, duración, etc.)"
 - id: MyVaillant
   name: "MyVaillant"
