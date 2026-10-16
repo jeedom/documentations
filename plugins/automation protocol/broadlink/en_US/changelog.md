@@ -1,58 +1,60 @@
-# Changelog Broadlink
+# Broadlink Changelog
 
 >**IMPORTANT**
 >
->If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
+>If there is no information about the update, it means that the update only involves documentation, translations, or text.
 
-# 
+# 17/10/2026
 
--  **** 
+- Bug fixes
+- Jeedom v4.5 required
 
-# 12/27/2024
+# 28/02/2025
 
 - Fix memory leak on daemon
 - Fixed a dependency installation issue that could occur on some installations
+- Removal of **the installation** of 2 dependencies (`pycrypto` & `asn1crypto`) that are no longer needed for the plugin
 - Interface modernization
 - Debian 11 required
 - Debian 12 Compatibility
 - Jeedom v4.4.8 required
 
-# 09/30/2022
+# 30/09/2022
 
 - Fixed the installation of dependencies on Jeedom v4.2
 
-# 03/05/2021
+# 05/03/2021
 
 - Update of the dependencies script following the cryptography change
 
-# 01/15/2021
+# 15/01/2021
 
 - Fixed a problem with buster dependencies
 
 # 23/11/2020
 
-- Management of the dependencies of certain installations corrupted by third parties of cryptography in python 3 *(restart the dependencies if you are faced with a problem)*
+- Managing dependencies for certain installations corrupted by third-party cryptography libraries in Python 3 *(reinstall the dependencies if you encounter a problem)*
 
 # 20/11/2020
 
 - General optimizations
 - New presentation of the list of objects
-- Addition of the tag "V4 compatibility"
+- Added the "V4 Compatibility" tag
 
-# 07/31/2020
+# 31/07/2020
 
-- Switch to python 3 *(you probably need to restart the dependencies)*
-- Added RM4 management *(read the documentation for the particularity)*
-- Added advanced RF learning with two stages, one to vary frequencies and find it and another to learn. It will increase learning compatibility
+- Migration to Python 3 *(you'll probably need to reinstall the dependencies)*
+- Added support for the RM4 *(see the documentation for specific details)*
+- Added an advanced two-step RF learning process: one step to vary the frequencies and find the correct one, and another to learn it. This will improve learning compatibility.
 
-# 09/11/2019
+# 11/09/2019
 
 - Adaptation for jeedom v4
 
-# 05/09/2018
+# 09/05/2018
 
 - Addition of the image of SC1
 
-# 03/10/2018
+# 10/03/2018
 
 - Force yes on dependencies
