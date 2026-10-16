@@ -4,7 +4,7 @@
 >
 >Si no hay información sobre la actualización, es porque esta se refiere únicamente a cambios en la documentación, la traducción o el texto.
 
-# 19/05/2026
+# 17/10/2026
 
 - Corrección de errores
 - Se requiere Jeedom v4.5

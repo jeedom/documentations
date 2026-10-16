@@ -4,7 +4,7 @@
 >
 >Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich ausschließlich um eine Aktualisierung der Dokumentation, der Übersetzung oder des Textes handelt.
 
-# 19/05/2026
+# 17/10/2026
 
 - Fehlerbehebungen
 - Jeedom v4.5 erforderlich

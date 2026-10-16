@@ -4,7 +4,7 @@
 >
 >If there is no information about the update, it means that the update only involves documentation, translations, or text.
 
-# 19/05/2026
+# 17/10/2026
 
 - Bug fixes
 - Jeedom v4.5 required
