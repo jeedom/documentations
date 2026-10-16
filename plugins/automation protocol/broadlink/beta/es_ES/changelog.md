@@ -2,17 +2,22 @@
 
 >**IMPORTANTE**
 >
->Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
+>Si no hay información sobre la actualización, es porque esta se refiere únicamente a cambios en la documentación, la traducción o el texto.
+
+# 19/05/2026
+
+- Corrección de errores
+- Se requiere Jeedom v4.5
 
 # 28/02/2025
 
 - Reparar una pérdida de memoria en el demonio
 - Solucionar un problema al instalar dependencias que podrían ocurrir en ciertas instalaciones
-- Suppression de **l'installation** de 2 dépendances (`pycrypto` & `asn1crypto`) qui ne sont plus utiles pour le plugin
+- Eliminación de **la instalación** de 2 dependencias (`pycrypto` & `asn1crypto`) que ya no son útiles para el complemento
 - Modernización de la interfaz
 - Se requiere Debian 11
 - Compatibilidad con Debian 12
-- Jeedom v4.4.8 requeridos
+- Se requiere Jeedom v4.4.8
 
 # 30/09/2022
 
@@ -28,28 +33,28 @@
 
 # 23/11/2020
 
-- Gestión de las dependencias de ciertas instalaciones corrompidas por terceros de criptografía en python 3 *(reiniciar las dependencias si se enfrenta a un problema)*
+- Gestión de las dependencias de ciertas instalaciones dañadas por bibliotecas de criptografía de terceros en Python 3 *(vuelve a instalar las dependencias si tienes algún problema)*
 
 # 20/11/2020
 
 - Optimizaciones generales
 - Nueva presentación de la lista de objetos
-- Adición de la etiqueta "compatibilidad V4"
+- Se ha añadido la etiqueta «Compatibilidad con la versión 4»
 
 # 31/07/2020
 
-- Cambiar a Python 3 *(probablemente necesite reiniciar las dependencias)*
-- Gestión RM4 añadida *(leer la documentación para la particularidad)*
-- Se agregó aprendizaje avanzado de RF con dos etapas, una para variar frecuencias y encontrarlas y otra para aprender. Aumentará la compatibilidad de aprendizaje
+- Migración a Python 3 *(probablemente haya que volver a instalar las dependencias)*
+- Se ha añadido la gestión del RM4 *(consulta la documentación para conocer las particularidades)*
+- Se ha añadido un aprendizaje avanzado por radiofrecuencia (RF) en dos etapas: una para variar las frecuencias y encontrar la adecuada, y otra para el aprendizaje. Esto aumentará la compatibilidad del aprendizaje.
 
 # 11/09/2019
 
 - Adaptación para jeedom v4
 
-# 05/09/2018
+# 09/05/2018
 
 - Adición de la imagen de SC1
 
-# 03/10/2018
+# 10/03/2018
 
 - Fuerza sí en dependencias
