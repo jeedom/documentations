@@ -358,11 +358,13 @@
   doc:
     stable:
       fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-hdsentinel-pour-jeedom/"
-    beta: false
+    beta:
+      fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-hdsentinel-pour-jeedom/"
   changelog:
     stable:
       fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-hdsentinel-pour-jeedom/"
-    beta: false
+    beta:
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-hdsentinel-pour-jeedom/"
   description:
     fr_FR: "Ce plugin permet de récuperer les informations de santé de ses disques durs grâce à l'outil linux Hard Disk Sentinel."
     de_DE: "Mit diesem Plugin können Sie mithilfe des Linux-Tools Hard Disk Sentinel Informationen über den Gesundheitszustand Ihrer Festplatten abrufen."
