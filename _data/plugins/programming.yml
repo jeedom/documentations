@@ -12,20 +12,6 @@
     en_US: "Link and interface management plugin"
     es_ES: "Complemento de gestión de enlaces e interfaces"
     de_DE: "Link- und Schnittstellenverwaltungs-Plugin"
-- id: dataservice
-  name: "Data service"
-  market_id: 3886
-  doc:
-    stable: false
-    beta: true
-  changelog:
-    stable: false
-    beta: true
-  description:
-    fr_FR: "Plugin pour la récupération de diverse données (ejp, vacance, saint du jour...) et l'envoi de diverse données (sms, mail) ainsi que le partage communautaire de données (température, humidité...)"
-    en_US: "Plugin for the recovery of various data (ejp, vacancy, saint of the day ...) and the sending of various data (sms, mail) as well as the community sharing of data (temperature, humidity ...)"
-    es_ES: "Complemento para la recuperación de varios datos (ejp, vacante, santo del día ...) y el envío de varios datos (sms, correo) así como el intercambio de datos en la comunidad (temperatura, humedad ...)"
-    de_DE: "Plugin zur Wiederherstellung verschiedener Daten (EJP, Vakanz, Heiliger des Tages ...) und zum Versenden verschiedener Daten (SMS, Mail) sowie zum Community-Austausch von Daten (Temperatur, Luftfeuchtigkeit ...)"
 - id: docker2
   name: "Docker management"
   market_id: 4204
