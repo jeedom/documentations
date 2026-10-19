@@ -26,17 +26,6 @@
     en_US: "Plugin allowing to control one or more Harmony Hub"
     es_ES: "Complemento que permite controlar uno o más Harmony Hub"
     de_DE: "Plugin zur Steuerung eines oder mehrerer Harmony Hub"
-- id: hyperion2
-  name: "Ambilight"
-  market_id: 1909
-  doc:
-    stable: true
-    beta: true
-  changelog:
-    stable: true
-    beta: true
-  description:
-    fr_FR: "Plugin hyperion pour le controle de celui-ci"
 - id: kodi
   name: "Kodi"
   market_id: 1398
