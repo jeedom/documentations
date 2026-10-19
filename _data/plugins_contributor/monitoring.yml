@@ -241,10 +241,10 @@
       es_ES: "https://jealg.github.io/documentation/plugin-freebox_os/beta/es_ES/changelog"
       de_DE: "https://jealg.github.io/documentation/plugin-freebox_os/beta/de_DE/changelog"
   description:
-    fr_FR: "Ce plugin permet de récupérer les informations disponibles sur les box Freebox Révolution/Delta/Pop/Ultra.Pour les Freebox Delta, il permet aussi de récupérer les équipements connectés (Domotique)."
-    en_US: "This plugin retrieves information available on Freebox Revolution/Delta/Pop/Ultra boxes.For Freebox Delta, it also retrieves connected equipment (home automation)."
+    fr_FR: "Ce plugin permet de récupérer les informations disponibles sur les box Freebox Révolution/Delta/Pop/Ultra.<br/>Pour les Freebox Delta, il permet aussi de récupérer les équipements connectés (Domotique)."
+    en_US: "This plugin retrieves information available on Freebox Revolution/Delta/Pop/Ultra boxes.<br/>For Freebox Delta, it also retrieves connected equipment (home automation)."
     es_ES: "Este plugin permite recuperar la información disponible en las cajas Freebox Revolution/Delta/Pop/Ultra. Para la Freebox Delta, también permite recuperar los equipos conectados (domótica)."
-    de_DE: "Mit diesem Plugin können Sie die Informationen abrufen, die auf den Boxen Freebox Révolution/Delta/Pop/Ultra verfügbar sind.Für die Freebox Delta können Sie damit auch die angeschlossenen Geräte (Domotik) abrufen."
+    de_DE: "Mit diesem Plugin können Sie die Informationen abrufen, die auf den Boxen Freebox Révolution/Delta/Pop/Ultra verfügbar sind.<br/>Für die Freebox Delta können Sie damit auch die angeschlossenen Geräte (Domotik) abrufen."
 - id: fronius
   name: "Onduleur Fronius"
   market_id: 3761
