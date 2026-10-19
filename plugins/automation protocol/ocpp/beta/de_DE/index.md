@@ -26,13 +26,21 @@ In den Minuten nach dem Start des Daemons verbinden sich die korrekt konfigurier
 
 ### Berechtigungen
 
-Standardmäßig lässt jede neu erstellte Klemme keine Last *(Transaktion)* zu.
+Standardmäßig lässt jede neu erstellte Klemme keine Belastung *(Transaktion)* zu: Die Berechtigungsgruppe ist auf **Alles ablehnen** eingestellt.
 
-Über ein Dropdown-Menü können Sie alle Transaktionen zulassen oder auswählen [eine Berechtigungsgruppe](#berechtigungsgruppen).
+Über das Dropdown-Menü **Berechtigungsgruppe** können Sie alle Transaktionen zulassen *(**Alles zulassen**)* oder auswählen [eine Berechtigungsgruppe](#berechtigungsgruppen).
 
 >**WICHTIG**
 >
->Im Modus „Alles zulassen“ wird jede am Terminal vorgelegte Identifikation akzeptiert. Der Befehl **Ladevorgang starten** zeigt dann die Liste der Jeedom-Benutzer an.
+>Im Modus **Alles zulassen** wird jede am Terminal vorgelegte Kennung akzeptiert. Der Befehl **Ladevorgang starten** zeigt dann die Liste der Jeedom-Benutzer an oder nur die festgelegte Kennung, wenn der [Inbetriebnahme beim Anschließen](#start-beim-anschließen) ist aktiviert.
+
+### Start beim Anschließen
+
+Im Modus **Alles zulassen** startet die Option **Beim Anschließen starten** automatisch den Ladevorgang, sobald ein Fahrzeug angeschlossen wird, ohne dass ein Ausweis oder eine Aktion in Jeedom erforderlich ist.
+
+Eine Kennung *(maximal 20 Zeichen)* muss zwingend angegeben werden. Sie wird für alle Ladevorgänge der Ladestation verwendet, unabhängig davon, ob diese beim Anschließen oder über den Befehl **Ladevorgang starten** gestartet werden, der dann nur noch diese Kennung anbietet. Alle Transaktionen der Ladestation werden somit derselben Kennung zugeordnet.
+
+Nach einem Stopp über den Befehl **Ladevorgang stoppen** wird der Ladevorgang erst wieder aufgenommen, wenn das Fahrzeug vom Ladegerät getrennt wurde. Er kann manuell mit dem Befehl **Ladevorgang starten** wieder gestartet werden.
 
 ### Klemmenparameter
 
@@ -115,7 +123,8 @@ Die Transaktionsdaten *(Kosten)* für jeden Kontext *(alle, nach Gerät, nach Be
 
 ## Maßnahmen
 
-Die Messwerte werden vom Plugin automatisch anhand der am Anschluss definierten Konfiguration **MeterValuesSampledData** erstellt.
+Die Messwerte werden vom Plugin automatisch anhand der Parameter des Messpunkts erstellt: **MeterValuesSampledData** *(periodische Messungen während einer Last)* und **MeterValuesAlignedData** *(Messwerte in festen Intervallen, die über **ClockAlignedDataInterval** festgelegt werden)*.
+
 Jeder empfangene Messwert erzeugt einen Befehl vom Typ **info/numeric**, der standardmäßig protokolliert wird und die entsprechende Einheit enthält *(Wh, W, A, V, Hz, °C, %, RPM)*.
 Wenn die Klemme Werte pro Phase liefert, werden die Befehle mit **L1**, **L2** oder **L3** ergänzt.
 

@@ -4,6 +4,12 @@
 >
 >Si no hay información sobre la actualización, es porque esta se refiere únicamente a la actualización de la documentación, la traducción o el texto.
 
+## 19/10/2026 ***(1.1.0)***
+
+- **Autorizaciones**: se ha añadido una opción para iniciar automáticamente la recarga al conectar el vehículo en el modo «Permitir todo» *(con un identificador específico por punto de recarga)*
+- **Comandos**: el comando **Iniciar carga** solo muestra el identificador de inicio al conectarse cuando está activado
+- **Complemento**: compatible con PHP 8.4
+
 ## 16/10/2026 ***(1.0.1)***
 
 - **Demonio**: los errores de comunicación con el terminal ahora se registran en el registro del complemento

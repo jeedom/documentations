@@ -4,6 +4,12 @@
 >
 >If there is no information about the update, it means that the update only involves documentation, translations, or text.
 
+## 19/10/2026 ***(1.1.0)***
+
+- **Permissions**: Added an option to automatically start charging when the vehicle is plugged in while in “Allow All” mode *(with a dedicated ID per charging station)*
+- **Commands**: The **Start Load** command only displays the start ID when the connection is enabled
+- **Plugin**: PHP 8.4 compatibility
+
 ## 16/10/2026 ***(1.0.1)***
 
 - **Demon**: Communication errors with the gateway are now reported in the plugin log

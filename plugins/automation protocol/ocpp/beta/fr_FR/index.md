@@ -26,13 +26,21 @@ Dans les minutes qui suivent le démarrage du démon, les bornes de recharge cor
 
 ### Autorisations
 
-Par défaut, toute borne nouvellement créée n'autorise aucune charge *(transaction)*.
+Par défaut, toute borne nouvellement créée n'autorise aucune charge *(transaction)* : le groupe d'autorisations est réglé sur **Tout refuser**.
 
-Un menu déroulant permet d'autoriser toutes les transactions ou de sélectionner [un groupe d'autorisation](#groupes-dautorisations).
+Le menu déroulant **Groupe d'autorisations** permet d'autoriser toutes les transactions *(**Tout autoriser**)* ou de sélectionner [un groupe d'autorisations](#groupes-dautorisations).
 
 >**IMPORTANT**
 >
->En mode "Tout autoriser", tout identifiant présenté à la borne est accepté. La commande **Démarrer charge** propose alors la liste des utilisateurs Jeedom.
+>En mode **Tout autoriser**, tout identifiant présenté à la borne est accepté. La commande **Démarrer charge** propose alors la liste des utilisateurs Jeedom, ou uniquement l'identifiant défini si le [démarrage au branchement](#démarrage-au-branchement) est activé.
+
+### Démarrage au branchement
+
+En mode **Tout autoriser**, l'option **Démarrer au branchement** démarre automatiquement une charge dès qu'un véhicule est branché, sans badge ni action dans Jeedom.
+
+Un identifiant *(20 caractères maximum)* doit obligatoirement être renseigné. Il est utilisé pour toutes les charges de la borne, qu'elles démarrent au branchement ou via la commande **Démarrer charge**, qui ne propose alors plus que cet identifiant. Toutes les transactions de la borne sont ainsi rattachées au même identifiant.
+
+Après un arrêt via la commande **Arrêter charge**, la charge ne redémarre pas tant que le véhicule n'est pas débranché. Elle peut être relancée manuellement avec la commande **Démarrer charge**.
 
 ### Paramètres de la borne
 
@@ -115,7 +123,8 @@ Les données des transactions *(charges)* propres à chaque contexte *(toutes, p
 
 ## Mesures
 
-Les mesures sont créées automatiquement par le plugin selon la configuration **MeterValuesSampledData** définie sur la borne.
+Les mesures sont créées automatiquement par le plugin à partir des paramètres de la borne : **MeterValuesSampledData** *(mesures périodiques pendant une charge)* et **MeterValuesAlignedData** *(relevés à intervalle fixe, réglé par **ClockAlignedDataInterval**)*.
+
 Chaque mesure reçue génère une commande **info/numeric**, historisée par défaut, avec l'unité adaptée *(Wh, W, A, V, Hz, °C, %, RPM)*.
 Si la borne fournit des valeurs par phase, les commandes sont suffixées par **L1**, **L2** ou **L3**.
 

@@ -4,6 +4,12 @@
 >
 >Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich ausschließlich um eine Aktualisierung der Dokumentation, der Übersetzung oder des Textes handelt.
 
+## 19/10/2026 ***(1.1.0)***
+
+- **Berechtigungen**: Hinzufügen einer Option zum automatischen Start des Ladevorgangs beim Anschließen des Fahrzeugs im Modus „Alles zulassen“ *(mit einer dedizierten Kennung pro Ladestation)*
+- **Befehle**: Der Befehl **Ladung starten** gibt nur die Start-ID beim Anschließen an, wenn diese Funktion aktiviert ist
+- **Plugin**: Kompatibilität mit PHP 8.4
+
 ## 16/10/2026 ***(1.0.1)***
 
 - **Fehler**: Kommunikationsfehler mit dem Gateway werden nun im Protokoll des Plugins gemeldet

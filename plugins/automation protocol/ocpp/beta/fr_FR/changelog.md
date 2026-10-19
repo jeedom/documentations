@@ -4,6 +4,12 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+## 19/10/2026 ***(1.1.0)***
+
+- **Autorisations** : ajout d'une option de démarrage automatique de la charge au branchement du véhicule en mode « Tout autoriser » *(avec un identifiant dédié par borne)*
+- **Commandes** : la commande **Démarrer charge** ne propose que l'identifiant du démarrage au branchement lorsque celui-ci est activé
+- **Plugin** : compatibilité PHP 8.4
+
 ## 16/10/2026 ***(1.0.1)***
 
 - **Démon** : les erreurs de communication avec la borne sont désormais signalées dans le log du plugin
