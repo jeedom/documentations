@@ -118,17 +118,6 @@
     en_US: "Plugin to manage inter2N intercoms"
     es_ES: "Complemento para gestionar los intercomunicadores inter2N"
     de_DE: "Plugin zur Verwaltung von Inter2N-Gegensprechanlagen"
-- id: jarvis
-  name: "Jarvis"
-  market_id: 2577
-  doc:
-    stable: true
-    beta: true
-  changelog:
-    stable: true
-    beta: true
-  description:
-    fr_FR: "Plugin permettant de gérer un ou plusieurs Jarvis"
 - id: jeelink
   name: "Jeedom Link"
   market_id: 2530
@@ -269,20 +258,6 @@
     en_US: "Plugin to use the market as an SMS gateway and to make calls"
     es_ES: "Complemento para usar el mercado como puerta de enlace de SMS y hacer llamadas"
     de_DE: "Plugin, um den Markt als SMS-Gateway zu nutzen und Anrufe zu tätigen"
-- id: sarah
-  name: "S.A.R.A.H"
-  market_id: 17
-  doc:
-    stable: true
-    beta: false
-  changelog:
-    stable: true
-    beta: false
-  description:
-    fr_FR: "Plugin pour utiliser Sarah (http://encausse.wordpress.com/s-a-r-a-h/)"
-    en_US: "Plugin to use Sarah (http://encausse.wordpress.com/sarah/)"
-    es_ES: "Complemento para usar Sarah (http://encausse.wordpress.com/sarah/)"
-    de_DE: "Plugin zur Verwendung von Sarah (http://encausse.wordpress.com/sarah/)"
 - id: sms
   name: "SMS"
   market_id: 16
@@ -333,17 +308,3 @@
     beta: false
   description:
     fr_FR: "Plugin pour la gestion des équipements wifipower"
-- id: wireguard
-  name: "Wireguard"
-  market_id: 4222
-  doc:
-    stable: true
-    beta: true
-  changelog:
-    stable: true
-    beta: true
-  description:
-    fr_FR: "Plugin permettant de gérer la connexion à un serveur Wireguard. Compatible uniquement avec le DNS Jeedom pour le moment"
-    en_US: "Plugin to manage the connection to a wireguard server"
-    es_ES: "Complemento para administrar la conexión a un servidor wireguard"
-    de_DE: "Plugin zur Verwaltung der Verbindung zu einem Wireguard-Server"
