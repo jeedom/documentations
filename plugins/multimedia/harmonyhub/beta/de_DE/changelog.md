@@ -62,23 +62,23 @@
 - Neue Darstellung der Objektliste
 - Hinzufügen des Tags „V4-Kompatibilität“
 
-# 20-09-2019
+# 20/09/2019
 
 - V4 Anpassung
 
-# 07-06-2019
+# 07/06/2019
 
 - Bugfix für NOK-Abhängigkeiten bei OK
 
-# 23-05-2019
+# 23/05/2019
 
 - Installation der Ausrüstungsseite für zukünftige Jeedom
 
-# 19-02-2019
+# 19/02/2019
 
 Dieses Update ist ein größeres Update im Zusammenhang mit dem Logitech-Update, das XMMP wieder aktiviert. Sie müssen die Konfigurationsdatei neu erstellen und vor allem in der Harmony-App den Entwicklermodus aktivieren, um XMMP zu aktivieren.
 Zur Information: Dieses Update erscheint am selben Tag wie der Patch von Logitech. Genau wie die Umgehungslösung vom 21.12.2018, die vielen Nutzern geholfen hat, da sie bei allen funktionierte, die Debian Stretch nutzten (besser als nichts). Wir wussten nicht, wann Logitech die Unterstützung für XMMP wiederherstellen würde. Doch kurz darauf gab es eine Reaktion.
 
-# 21-12-2018
+# 21/12/2018
 
 Dringende Korrektur im Zusammenhang mit dem Logitech-Update (vorläufige Lösung zur Behebung des Problems; bitte denken Sie daran, die Abhängigkeiten neu zu starten)

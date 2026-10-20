@@ -6,7 +6,7 @@
 
 # 18/05/2026
 
-- Verifying connectivity between the daemon and the hub when sending commands
+- Checking connectivity between the daemon and the hub when sending a command
 
 # 10/07/2025
 
@@ -62,23 +62,23 @@
 - New presentation of the list of objects
 - Added the "V4 Compatibility" tag
 
-# 20-09-2019
+# 20/09/2019
 
 - V4 adaptation
 
-# 07-06-2019
+# 07/06/2019
 
 - Bugfix on NOK dependencies while OK
 
-# 23-05-2019
+# 23/05/2019
 
 - Installation of the equipment page for future Jeedom
 
-# 19-02-2019
+# 19/02/2019
 
 This update is a major update related to the Logitech update that re-enables XMMP. You will need to recreate the configuration file and, most importantly, enable developer mode in the Harmony app to activate XMMP.
 For your information, this update was released on the same day as Logitech’s fix. Just like the workaround from December 21, 2018, which helped many people resolve their issues since it worked for everyone running Debian Stretch (better than nothing). We didn’t know when Logitech would restore support for XMMP. But one thing led to another, and there was a response.
 
-# 21-12-2018
+# 21/12/2018
 
 Urgent fix related to the Logitech update (temporary workaround—remember to re-run the dependencies)
