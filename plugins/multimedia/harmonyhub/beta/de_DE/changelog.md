@@ -4,12 +4,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich ausschließlich um eine Aktualisierung der Dokumentation, der Übersetzung oder des Textes handelt.
 
-# 18/05/2026
+# 22/10/2026
 
 - Überprüfung der Verbindung zwischen dem Daemon und dem Hub beim Senden von Befehlen
-
-# 10/07/2025
-
 - Behebung eines Absturzes beim Start des Daemons, falls ein Hub falsch konfiguriert oder nicht erreichbar ist: Der Daemon kann nun zusammen mit den anderen Hubs starten, sofern diese vorhanden sind, oder wird ordnungsgemäß beendet, wenn kein Hub erreichbar ist
 - Anpassung der Protokolle
 

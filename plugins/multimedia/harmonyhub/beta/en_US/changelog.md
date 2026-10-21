@@ -4,12 +4,9 @@
 >
 >As a reminder, if there is no information about the update, it means that the update only involves changes to the documentation, translations, or text.
 
-# 18/05/2026
+# 22/10/2026
 
 - Checking connectivity between the daemon and the hub when sending a command
-
-# 10/07/2025
-
 - Fixes a crash when the daemon starts up if a hub is misconfigured or unreachable: the daemon will start up with the other hubs if they exist, or will shut down gracefully if no hubs are reachable
 - Log customization
 

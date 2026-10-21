@@ -4,12 +4,9 @@
 >
 >A modo de recordatorio, si no hay información sobre la actualización, es porque esta se refiere únicamente a la actualización de la documentación, la traducción o el texto.
 
-# 18/05/2026
+# 22/10/2026
 
 - Comprobación de la conectividad entre el demonio y el concentrador al enviar un comando
-
-# 10/07/2025
-
 - Se ha corregido un fallo que provocaba un bloqueo al iniciar el demonio en caso de que un concentrador estuviera mal configurado o no fuera accesible: el demonio podrá iniciarse junto con los demás concentradores, si los hay, o se cerrará correctamente si no se puede acceder a ningún concentrador.
 - Adaptación de los registros
 
