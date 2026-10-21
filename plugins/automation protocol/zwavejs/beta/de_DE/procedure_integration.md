@@ -1,64 +1,64 @@
-# Procédure d'Intégration
+# Integrationsverfahren
 
-Pour créer un fichier de configuration pour un nouveau produit, commencez par inclure ce produit dans Jeedom.
+Um eine Konfigurationsdatei für ein neues Produkt zu erstellen, fügen Sie dieses Produkt zunächst in Jeedom hinzu.
 
-![alt text](../images/equipment.png)
+![Alternativtext](../images/equipment.png)
 
-Une fois sur la page du produit, cliquez sur le bouton **"Noeud"** pour faire apparaître cette fenêtre modale :
+Sobald Sie sich auf der Produktseite befinden, klicken Sie auf die Schaltfläche **„Knoten“**, um dieses modale Fenster anzuzeigen:
 
-![alt text](../images/modal_noeud.png)
+![Alternativtext](../images/modal_noeud.png)
 
-Les informations importantes à récupérer sont :
+Die folgenden wichtigen Informationen müssen abgerufen werden:
 
-- **Identifiant :** XXX - XXX - XXX  
-- **Configuration :** XXX.json
+- **Benutzername:** XXX - XXX - XXX
+- **Konfiguration:** XXX.json
 
-Le champ **Configuration** indique le nom à donner au fichier de configuration.  
-Exemple : `qmsw-0A1X8.json`
+Im Feld **Konfiguration** geben Sie den Namen an, den die Konfigurationsdatei erhalten soll.
+Beispiel: `qmsw-0A1X8.json`
 
-Le champ **Identifiant** permet de déterminer :
-- le dossier dans lequel créer le fichier ;
-- la version à indiquer dans la configuration.
+Über das Feld **ID** lässt sich Folgendes festlegen:
+- der Ordner, in dem die Datei erstellt werden soll;
+- Die in der Konfiguration anzugebende Version.
 
-Le **premier nombre** de l'identifiant correspond au dossier.  
-Exemple : avec `1120`, il faut créer le fichier `qmsw-0A1X8.json` dans le dossier `shellyqubino_1120`.
+Die **erste Ziffer** der Kennung steht für den Ordner.
+Beispiel: mit `1120`, muss die Datei erstellt werden `qmsw-0A1X8.json` im Ordner `shellyqubino_1120`.
 
-> ⚠️ **Attention :** Le nom du dossier ne correspond pas toujours au nom du fabricant. Il faut **se baser sur le numéro** !  
-> Exemple : *Wintop* a pour numéro `151`, ce qui fait référence au dossier `schlage_151`.
+> ⚠️ **Achtung:** Der Name des Ordners stimmt nicht immer mit dem Namen des Herstellers überein. Man muss sich **an der Nummer orientieren**!
+> Beispiel: *Wintop* hat die Nummer `151`, was sich auf den Ordner bezieht `schlage_151`.
 
-Les **deuxième et troisième nombres** de l'identifiant correspondent à la **version**.  
-Exemple : Version `"2"` : `[ "142" ]`
+Die **zweite und dritte Ziffer** der Kennung geben die **Version** an.
+Beispiel: Version `"2"` : `[ "142" ]`
 
-![alt text](../images/config_exemple.png)
+![Alternativtext](../images/config_exemple.png)
 
-- Pour le champ `"name"`, utilisez le modèle du produit.  
-  Exemple : `"QMSW-0A1X8"`
-- Pour le champ `"type"`, indiquez le type de produit : *Micromodule, Relais, Type d'ouverture*, etc.
+- Für das Feld `"name"`, verwenden Sie die Produktvorlage.
+Beispiel: `"QMSW-0A1X8"`
+- Für das Feld `"type"`, geben Sie bitte den Produkttyp an: *Mikromodul, Relais, Öffnungsart* usw.
 
 ---
 
-## Création de commandes
+## Erstellung von Befehlen
 
-La création automatique des commandes repose sur le champ `"properties"`.
+Die automatische Erstellung von Bestellungen basiert auf dem Feld `"properties"`.
 
-Commencez par cliquer sur le bouton **"Valeurs"**, qui ouvrira une modale similaire à celle-ci :
+Klicken Sie zunächst auf die Schaltfläche **„Werte“**, woraufhin sich ein Modalfenster ähnlich dem folgenden öffnet:
 
-![alt text](../images/modal_valeurs.png)
+![Alternativtext](../images/modal_valeurs.png)
 
-Les champs **"Manufacturer Specific"**, **"Configuration"** et **"Version"** peuvent être ignorés.
+Die Felder **„Manufacturer Specific“**, **„Configuration“** und **„Version“** können ignoriert werden.
 
-Les données intéressantes sont :
-- Le **nom des commandes**
-- leur **classe**
+Die relevanten Daten sind:
+- die **Befehlsnamen**
+- ihre **Klasse**
 
-Dans le cas des **notifications**, on souhaite par exemple créer des commandes pour les alarmes de chaleur, ainsi que le niveau et le type d'alarme.
+Bei **Benachrichtigungen** möchte man beispielsweise Befehle für Hitzewarnungen erstellen und dabei die Stufe sowie die Art des Alarms festlegen.
 
-Pour cela, on se réfère au fichier `Notification.json` dans le dossier `properties`.
+Dazu wird auf die Datei verwiesen `Notification.json` im Ordner `properties`.
 
-![alt text](../images/notification.png)
+![Alternativtext](../images/notification.png)
 
-Une fois dans ce fichier, identifiez le type de propriété à utiliser.  
-Exemple : pour créer une commande d'alarme `"heat-sensor"`, on ajoute dans le fichier de configuration :
+Sobald Sie sich in dieser Datei befinden, legen Sie fest, welche Art von Eigenschaft verwendet werden soll.
+Beispiel: So erstellen Sie einen Alarmbefehl `"heat-sensor"`: In der Konfigurationsdatei fügen wir Folgendes hinzu:
 
 ```json
 "Notification|heat-sensor": {

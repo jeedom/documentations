@@ -1,64 +1,64 @@
-# Procédure d'Intégration
+# Integration Procedure
 
-Pour créer un fichier de configuration pour un nouveau produit, commencez par inclure ce produit dans Jeedom.
+To create a configuration file for a new product, start by adding that product to Jeedom.
 
 ![alt text](../images/equipment.png)
 
-Une fois sur la page du produit, cliquez sur le bouton **"Noeud"** pour faire apparaître cette fenêtre modale :
+Once you're on the product page, click the **"Node"** button to bring up this modal window:
 
 ![alt text](../images/modal_noeud.png)
 
-Les informations importantes à récupérer sont :
+The important information to retrieve is:
 
-- **Identifiant :** XXX - XXX - XXX  
-- **Configuration :** XXX.json
+- **ID:** XXX - XXX - XXX
+- **Configuration:** XXX.json
 
-Le champ **Configuration** indique le nom à donner au fichier de configuration.  
-Exemple : `qmsw-0A1X8.json`
+The **Configuration** field specifies the name to give the configuration file.
+Example: `qmsw-0A1X8.json`
 
-Le champ **Identifiant** permet de déterminer :
-- le dossier dans lequel créer le fichier ;
-- la version à indiquer dans la configuration.
+The **ID** field is used to determine:
+- the folder in which to create the file;
+- the version to specify in the configuration.
 
-Le **premier nombre** de l'identifiant correspond au dossier.  
-Exemple : avec `1120`, il faut créer le fichier `qmsw-0A1X8.json` dans le dossier `shellyqubino_1120`.
+The **first digit** of the ID corresponds to the folder.
+Example: with `1120`, you need to create the file `qmsw-0A1X8.json` in the folder `shellyqubino_1120`.
 
-> ⚠️ **Attention :** Le nom du dossier ne correspond pas toujours au nom du fabricant. Il faut **se baser sur le numéro** !  
-> Exemple : *Wintop* a pour numéro `151`, ce qui fait référence au dossier `schlage_151`.
+> ⚠️ **Note:** The folder name does not always match the manufacturer's name. You must **use the number**!
+> Example: *Wintop* has the number `151`, which refers to the folder `schlage_151`.
 
-Les **deuxième et troisième nombres** de l'identifiant correspondent à la **version**.  
-Exemple : Version `"2"` : `[ "142" ]`
+The **second and third digits** of the identifier correspond to the **version**.
+Example: Version `"2"` : `[ "142" ]`
 
 ![alt text](../images/config_exemple.png)
 
-- Pour le champ `"name"`, utilisez le modèle du produit.  
-  Exemple : `"QMSW-0A1X8"`
-- Pour le champ `"type"`, indiquez le type de produit : *Micromodule, Relais, Type d'ouverture*, etc.
+- For the field `"name"`, use the product model.
+Example: `"QMSW-0A1X8"`
+- For the field `"type"`, specify the product type: *Micromodule, Relay, Opening Type*, etc.
 
 ---
 
-## Création de commandes
+## Creating Commands
 
-La création automatique des commandes repose sur le champ `"properties"`.
+Automatic command creation is based on the field `"properties"`.
 
-Commencez par cliquer sur le bouton **"Valeurs"**, qui ouvrira une modale similaire à celle-ci :
+Start by clicking the **"Values"** button, which will open a modal similar to this one:
 
 ![alt text](../images/modal_valeurs.png)
 
-Les champs **"Manufacturer Specific"**, **"Configuration"** et **"Version"** peuvent être ignorés.
+The **"Manufacturer Specific"**, **"Configuration"**, and **"Version"** fields can be ignored.
 
-Les données intéressantes sont :
-- Le **nom des commandes**
-- leur **classe**
+The relevant data are:
+- **command names**
+- their **class**
 
-Dans le cas des **notifications**, on souhaite par exemple créer des commandes pour les alarmes de chaleur, ainsi que le niveau et le type d'alarme.
+In the case of **notifications**, for example, we want to create commands for heat alarms, as well as specify the level and type of alarm.
 
-Pour cela, on se réfère au fichier `Notification.json` dans le dossier `properties`.
+To do this, refer to the file `Notification.json` in the folder `properties`.
 
 ![alt text](../images/notification.png)
 
-Une fois dans ce fichier, identifiez le type de propriété à utiliser.  
-Exemple : pour créer une commande d'alarme `"heat-sensor"`, on ajoute dans le fichier de configuration :
+Once you're in this file, identify the type of property to use.
+Example: To create an alarm command `"heat-sensor"`, add the following to the configuration file:
 
 ```json
 "Notification|heat-sensor": {

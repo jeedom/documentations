@@ -2,94 +2,140 @@
 
 >**IMPORTANTE**
 >
->Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
+>Si no hay información sobre la actualización, es porque esta se refiere únicamente a cambios en la documentación, la traducción o el texto.
+
+# 21/10/2026
+
+**Nuevas configuraciones**
+
+- Se ha añadido la configuración *Neo Coolcam Light Switch 2 Channel (EU-2)* (propiedades: Switch x2)
+
+**Modificaciones de configuración**
+
+- Corrección de la configuración del *sensor de techo PIR Kaipule* (propiedades «Motion» y «Tamper» de Z-Wave JS en lugar de la antigua sintaxis de OpenZWave)
+- Corrección de la configuración *Nice IBT4ZWAVE* (archivo no válido no cargado, tipo «Portal»)
+
+# 06/09/2026
+
+- Actualización a la versión *11.21.1* de ZwaveJsUI (estable)
+- Actualización a la versión *11.23.0* de ZwaveJsUI (beta)
+- Corrección de la visualización de los nombres de los grupos
+
+**Nuevas configuraciones**
+
+- Añadir la configuración del controlador *Home Assistant Connect ZWA-2*
+- Se ha añadido la configuración *NeoCoolCam NAS-DS01Z v2* (propiedades: Apertura, Batería)
+- Se ha añadido la configuración *NeoCoolCam NAS-PD07Z* (propiedades: movimiento, luminancia, temperatura, humedad, manipulación, batería)
+- Incorporación de la configuración *Philio PSE04* (propiedades: temperatura, batería, sabotaje, sonido)
+- Se ha añadido la configuración *Shelly Qubino Wave Dimmer* (propiedades: Multinivel, Potencia, Energía, Notificación del sensor de calor, Notificación de sobrecorriente, Notificación de red eléctrica)
+- Incorporación de la configuración *Shelly Qubino Wave H&T* (parámetros: temperatura, humedad, batería)
+- Se ha añadido la configuración *Shelly Qubino Wave Motion* (propiedades: Movimiento, Luminancia, Batería)
+- Incorporación de la configuración *Heatit Z-Water2* (9 relés sin potencial y 2 entradas para sensores de temperatura NTC)
+- Se ha añadido la configuración *Zooz ZEN37 800LR Wall Remote* (propiedades: Escena central x4, Batería)
+
+**Modificaciones de configuración**
+
+- Corrección de la configuración del *Fibaro FGCD001* (incorporación del firmware 4098)
+- Modificación de la configuración del *Shelly Qubino Wave Door/Window (QNDW-002C)* (adición del comando «Tilt»)
+- Corrección de la configuración del *Shelly Qubino Wave Shutter* (se ha añadido el productId 131)
+- Modificación de la configuración del *Heatit Z-TEMP3* (incorporación del modo *Energy Heat* al modo del termostato)
+
+# 17/07/2026
+
+- Actualización a la versión *11.19.0* de ZwaveJsUI (estable)
+- Actualización a la versión *11.21.1* de ZwaveJsUI (beta)
 
 # 01/06/2026
 
-- Cambiar a versión *11.15.1* de ZwaveJsUI (stable)
-- Cambiar a versión *11.19.0* de ZwaveJsUI (beta)
+- Actualización a la versión *11.15.1* de ZwaveJsUI (estable)
+- Actualización a la versión *11.19.0* de ZwaveJsUI (beta)
 
 # 31/03/2026
 
-- Cambiar a versión *11.12.0* de ZwaveJsUI (stable)
-- Cambiar a versión *11.15.1* de ZwaveJsUI (beta)
+- Actualización a la versión *11.12.0* de ZwaveJsUI (estable)
+- Actualización a la versión *11.15.1* de ZwaveJsUI (beta)
 
 # 16/03/2026
 
-- Configuration automatique du plugin sur les boxes officielles *(Jeedom 4.5.3 mini)*
+- Configuración automática del complemento en los dispositivos oficiales *(Jeedom 4.5.3 mini)*
 
 # 09/03/2026
 
-- Configuración añadida *Shelly Qubino Wave Door/Window (QNDW-002C)* (propiedades : Opening, Luminance, Direction, Battery)
-- Configuración añadida *Shelly Qubino Wave Plug (QNPL-0A112)* (propiedades : Switch, Power, Energy)
-- Configuración añadida *Zooz ZEN58 Low Voltage XS Relay* (propiedades : Switch, Power, Energy, Voltage, Current)
-- Correction de la configuration *Aeotec ZWA001* (valeur par défaut du paramètre de température de couleur)
+**Nuevas configuraciones**
+
+- Se ha añadido la configuración *Shelly Qubino Wave Door/Window (QNDW-002C)* (propiedades: Apertura, Luminancia, Dirección, Batería)
+- Se ha añadido la configuración *Shelly Qubino Wave Plug (QNPL-0A112)* (propiedades: Interruptor, Potencia, Energía)
+- Se ha añadido la configuración *Zooz ZEN58 Low Voltage XS Relay* (propiedades: Interruptor, Potencia, Energía, Tensión, Corriente)
+
+**Modificaciones de configuración**
+
+- Corrección de la configuración del *Aeotec ZWA001* (valor predeterminado del parámetro de temperatura de color)
 
 # 02/03/2026
 
-- Correction mineure sur la page *Statistiques*
+- Pequeña corrección en la página *Estadísticas*
 
 # 24/02/2026
 
-- Support des images d'équipement personnalisées *(Jeedom 4.5 mini)*
-- Ajout des traductions manquantes pour les messages arrivant dans le centre de notifications
+- Compatibilidad con imágenes personalizadas de los dispositivos *(Jeedom 4.5 mini)*
+- Se han añadido las traducciones que faltaban para los mensajes que llegan al centro de notificaciones
 
 # 21/02/2026
 
-- Cambiar a versión *11.12.0* de ZwaveJsUI (beta) *(corrige les alertes "Dead" intempestives)*
+- Actualización a la versión *11.12.0* de ZwaveJsUI (beta) *(corrige las alertas «Dead» inoportunas)*
 
 # 11/02/2026
 
-- Cambiar a versión *11.6.1* de ZwaveJsUI (stable)
-- Cambiar a versión *11.11.0* de ZwaveJsUI (beta)
-- Ajout d'une option dans la page de configuration du plugin pour configurer un port de contrôleur distant via socket tcp (utile pour les controleurs comme le SLZB-MR1U)
+- Actualización a la versión *11.6.1* de ZwaveJsUI (estable)
+- Actualización a la versión *11.11.0* de ZwaveJsUI (beta)
+- Se ha añadido una opción en la página de configuración del complemento para configurar un puerto de control remoto a través de un socket TCP (útil para controladores como el SLZB-MR1U)
 
 # 04/11/2025
 
-- Cambiar a versión *11.2.1* de ZwaveJsUI (stable)
-- Cambiar a versión *11.6.1* de ZwaveJsUI (beta)
+- Actualización a la versión *11.2.1* de ZwaveJsUI (estable)
+- Actualización a la versión *11.6.1* de ZwaveJsUI (beta)
 
 # 16/09/2025
 
-- Cambiar a versión *10.5.1* de ZwaveJsUI (stable)
-- Cambiar a versión *11.2.1* de ZwaveJsUI (beta)
+- Actualización a la versión *10.5.1* de ZwaveJsUI (estable)
+- Actualización a la versión *11.2.1* de ZwaveJsUI (beta)
 
 # 24/06/2025
 
-- Correction d'un bug qui se produisait sous PHP8 lors de la création des commandes manquantes.
+- Se ha corregido un error que se producía en PHP 8 al crear los comandos que faltaban.
 
 # 10/06/2025
 
-- Mise à jour de la configuration *Mco Home MH-S412 double*
+- Actualización de la configuración *Mco Home MH-S412 doble*
 
 # 05/06/2025
 
 **Mejoras**
 
-- Ajout de la procédure d'intégration
+- Incorporación del procedimiento de integración
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Configuración añadida *Shelly Qubino WAVE_PM_MINI - WAVE PM Mini - Relay* (propiedades : Power, Energy, Notification Over-Current, Notification Over-Voltage, Notification Heat-Sensor, Notification Alarm-Level, Notification Mains, Indicator)
-- Configuración añadida *Zooz ZAC38 - ZAC38 - Range extender* (propiedades : Switch, Notification Alarm-Level, Notification Mains, Indicator, Battery)
+- Se ha añadido la configuración *Shelly Qubino WAVE_PM_MINI - WAVE PM Mini - Relé* (propiedades: Potencia, Energía, Notificación de sobrecorriente, Notificación de sobretensión, Notificación del sensor de calor, Notificación del nivel de alarma, Notificación de la red eléctrica, Indicador)
+- Se ha añadido la configuración *Zooz ZAC38 - ZAC38 - Amplificador de señal* (propiedades: Interruptor, Notificación de nivel de alarma, Notificación de red eléctrica, Indicador, Batería)
 
 # 04/06/2025
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Configuración añadida *Mco Home MH-S411 Simple* (propiedades : Switch, Scene, Central Scene)
-- Configuración añadida *Remotec ZXT-800* (propiedades : Air temperature, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Thermostatfanmode, Indicator)
-- Configuración añadida *Shelly Qubino Wave 1PM Mini QMSW-0A1P8* (propiedades : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor, Notification Alarm-Level)
-- Configuración añadida *Shelly Qubino Wave 1 Mini QMSW-0A1X8* (propiedades : Switch, Notification Mains, Notification Heat-Sensor, Notification Alarm-Level)
-- Configuración añadida *Heatit Thermostat Z-TEMP3* (propiedades : Air temperature, Humidity, Thermostatmode, Thermostatoperatingstate, Thermostatsetpoint, Battery, Indicator)
-- Configuración añadida *Zooz ZEN15 - Power Switch* (propiedades : Switch, Notification Alarm-Level, Notification Power-Status, Scene, Indicator, Voltage, Power, Energy, Current)
-- Configuración añadida *Zooz ZEN54_LR - 0-10V Dimmer* (propiedades : Multilevel, Indicator)
-- Configuración añadida *Zooz ZES11 - ZSE 11 - Q SENSOR* (propiedades : Motion, Temperature, Luminance, Humidity, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Battery-Maintenance, Indicator)
-- Configuración añadida *Zooz ZES18 - ZSE 18 - MOTION SENSOR* (propiedades : Motion, Battery, Notification Alarm-Level, Notification Power-Status, Notification Motion, Notification Magnetic, Indicator)
+- Incorporación de la configuración *Mco Home MH-S411 Simple* (propiedades: Interruptor, Escena, Escena central)
+- Se ha añadido la configuración *Remotec ZXT-800* (propiedades: Temperatura del aire, Modo del termostato, Estado de funcionamiento del termostato, Punto de consigna del termostato, Modo del ventilador del termostato, Indicador)
+- Se ha añadido la configuración *Shelly Qubino Wave 1PM Mini QMSW-0A1P8* (propiedades: Interruptor, Potencia, Energía, Notificación de red eléctrica, Notificación de sobrecorriente, Notificación del sensor de calor, Notificación de nivel de alarma)
+- Se ha añadido la configuración *Shelly Qubino Wave 1 Mini QMSW-0A1X8* (propiedades: Interruptor, Notificación de red eléctrica, Notificación de sensor de calor, Notificación de nivel de alarma)
+- Se ha añadido la configuración *Termostato Heatit Z-TEMP3* (propiedades: Temperatura del aire, Humedad, Modo del termostato, Estado de funcionamiento del termostato, Punto de consigna del termostato, Batería, Indicador)
+- Se ha añadido la configuración *Zooz ZEN15 - Interruptor de alimentación* (propiedades: Interruptor, Notificación de nivel de alarma, Notificación de estado de alimentación, Escena, Indicador, Tensión, Potencia, Energía, Corriente)
+- Se ha añadido la configuración *Zooz ZEN54_LR - Regulador de intensidad 0-10 V* (propiedades: Multinivel, Indicador)
+- Se ha añadido la configuración *Zooz ZES11 - ZSE 11 - Q SENSOR* (propiedades: movimiento, temperatura, luminosidad, humedad, batería, notificación de nivel de alarma, notificación de estado de alimentación, notificación de movimiento, notificación de mantenimiento de la batería, indicador)
+- Se ha añadido la configuración *Zooz ZES18 - ZSE 18 - SENSOR DE MOVIMIENTO* (propiedades: Movimiento, Batería, Notificación de nivel de alarma, Notificación de estado de alimentación, Notificación de movimiento, Notificación magnética, Indicador)
 
 # 15/11/2024
 
-- Cambiar a versión *9.26.0* por ZwaveJsUI
+- Actualización a la versión *9.26.0* de ZwaveJsUI
 - Arreglar el método de instalación de dependencia
 
 # 10/11/2024
@@ -98,49 +144,49 @@
 
 # 27/09/2024
 
-- Cambio de versiones mínimas: núcleo 4.4 y sistema operativo Debian 11
+- Cambio en los requisitos mínimos: core 4.4 y sistema operativo Debian 11
 
 # 26/09/2024
 
 **Mejoras**
 
-- Cambiar a versión *9.20.0* por ZwaveJsUI
+- Actualización a la versión *9.20.0* de ZwaveJsUI
 - Limpieza de código
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Configuración añadida *Repetidor de señal Neo+* (propiedades : Temperatura, humedad)
-- Configuración añadida *Fibaro FGR224* (propiedades : Interruptor, potencia, energía, notificación de sobrecorriente, notificación de sobretensión)
+- Incorporación de la configuración *Neo Signal Repeater +* (propiedades: temperatura, humedad)
+- Se ha añadido la configuración *Fibaro FGR224* (propiedades: Interruptor, Alimentación, Energía, Notificación de sobrecorriente, Notificación de sobretensión)
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *Fibaro Fgrgbwm442* para usar las propiedades
-- Cambiar la configuración *Fibaro FGD212* Propiedades de notificación mejoradas
+- Modificación de la configuración del *Fibaro Fgrgbwm442* para utilizar las propiedades
+- Modificación de la configuración del *Fibaro FGD212*: mejora de las propiedades de notificación
 
 # 20/05/2024
 
 **Mejoras**
 
-- Cambiar a versión *9.12.0* por ZwaveJsUI
+- Actualización a la versión *9.12.0* de ZwaveJsUI
 - Incorporación y gestión de las dos nuevas llaves de seguridad S2 Long Range
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Configuración añadida *Repetidor de señal neo* (propiedades : Temperatura, humedad)
-- Configuración añadida *Shelly Qubino Ola 1* (propiedades : Interruptor, notificación de manos, notificación de sobrecorriente, notificación de sensor de calor)
-- Configuración añadida *Shelly Qubino Ola 13:00* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
-- Configuración añadida *Shelly Qubino Wave Pro 1* (propiedades : Interruptor, notificación de manos, notificación de sensor de calor)
-- Configuración añadida *Shelly Qubino Wave Pro 13:00* (propiedades : Interruptor, potencia, energía, notificación de red, notificación de sobrecorriente, notificación de sobretensión, notificación de sensor de calor)
-- Configuración añadida *Shelly Qubino Ola 2 p.m* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
-- Configuración añadida *Shelly Qubino Wave Pro 2* (propiedades : Switch)
-- Configuración añadida *Shelly Qubino Wave Pro 2 p.m* (propiedades : Interruptor, potencia, energía, notificación de sobrecorriente, notificación de sobretensión)
-- Configuración añadida *Shelly Qubino Ola I4* (propiedades : Escena Central)
-- Configuración añadida *Obturador de ondas Shelly Qubino* (propiedades : Obturador, potencia, energía, notificación de manos, notificación de sobrecorriente, notificación de sensor de calor)
-- Agregar una subpropiedad *notificación-de-sobretensión* para la propiedad *Notificación*
+- Incorporación de la configuración *Neo Signal Repeater* (propiedades: temperatura, humedad)
+- Se ha añadido la configuración *Shelly Qubino Wave 1* (propiedades: interruptor, notificación de red eléctrica, notificación de sobrecorriente, notificación del sensor de calor)
+- Se ha añadido la configuración *Shelly Qubino Wave 1 PM* (propiedades: Interruptor, Alimentación, Energía, Notificación de red eléctrica, Notificación de sobrecorriente, Notificación del sensor de calor)
+- Se ha añadido la configuración *Shelly Qubino Wave Pro 1* (propiedades: Interruptor, Notificación de red eléctrica, Notificación del sensor de calor)
+- Se ha añadido la configuración *Shelly Qubino Wave Pro 1 PM* (propiedades: Interruptor, Alimentación, Energía, Notificación de red eléctrica, Notificación de sobrecorriente, Notificación de sobretensión, Notificación del sensor de calor)
+- Se ha añadido la configuración *Shelly Qubino Wave 2 PM* (propiedades: Interruptor, Alimentación, Energía, Notificación de red eléctrica, Notificación de sobrecorriente, Notificación del sensor de calor)
+- Incorporación de la configuración *Shelly Qubino Wave Pro 2* (propiedades: Interruptor)
+- Se ha añadido la configuración *Shelly Qubino Wave Pro 2 PM* (propiedades: Interruptor, Alimentación, Energía, Notificación de sobrecorriente, Notificación de sobretensión)
+- Incorporación de la configuración *Shelly Qubino Wave I4* (propiedades: Central Scene)
+- Se ha añadido la configuración *Shelly Qubino Wave Shutter* (propiedades: Persiana, Alimentación, Energía, Notificación de red eléctrica, Notificación de sobrecorriente, Notificación del sensor de calor)
+- Se ha añadido una subpropiedad *notification-overvoltage* a la propiedad *Notification*
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *Enchufe Neo* para usar las propiedades (*Tenga cuidado, algunos modelos quieren incluirse en S2 aunque el fabricante no proporcione ningún DSK, inclúyalos eligiendo el modo no seguro en lugar del automático*)
+- Modificación de la configuración del *Neo Plug* para utilizar las propiedades (*atención: algunos modelos tienden a ponerse en modo S2, aunque el fabricante no proporcione ningún DSK; inclúyelos seleccionando «no seguro» en lugar del modo automático*)
 
 # 27/02/2024
 
@@ -148,322 +194,322 @@
 
 - Adición de una función adicionalDependancyCheck para el núcleo
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *MCOcasa Mh7h* para usar las propiedades
+- Modificación de la configuración *MCOhome Mh7h* para utilizar las propiedades
 
 # 26/12/2023
 
 **Mejoras**
 
-- Se agregó una opción para habilitar o deshabilitar el *Reinicio suave*
-- Cambiar a versión *9.6.2* por ZwaveJsUI
+- Se ha añadido una opción que permite activar o desactivar el *Soft Reset*
+- Actualización a la versión *9.6.2* de ZwaveJsUI
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Configuración añadida *HeatIt Z-TRM6* (propiedades : Temperatura, modo termostato, estado de funcionamiento del termostato, acción del modo termostato, punto de ajuste del termostato, notificación del sensor de calor, notificación de sobrecarga)
-- Configuración añadida *Control remoto Sunricher de 12 botones* (propiedades : CentralScene x12, Batería)
+- Se ha añadido la configuración *HeatIt Z-TRM6* (propiedades: Temperature, ThermostatMode, ThermostatOperatingState, ThermostatModeAction, ThermostatSetpoint, Notification Heat-Sensor, Notification Over-Load)
+- Se ha añadido la configuración *Sunricher Remote Control 12 Button* (características: CentralScene x12, batería)
 
-# 12/11/2023
+# 11/12/2023
 
 **Mejoras**
 
-- Cambiar a versión *9.5.1* de ZwaveJsUI (para poder elegir un puerto en el formato de ruta necesario en ciertas VM, debe actualizar el núcleo)
+- Actualización a la versión *9.5.1* de ZwaveJsUI (para poder elegir un puerto en el formato de ruta necesario en algunas máquinas virtuales, hay que actualizar el núcleo)
 
-**Arreglos**
+**Correcciones**
 
-- Corregir error de inclusión *T2* corregido en el lado de la interfaz de usuario de ZwaveJS, lo siguiente subió (de hecho, las devoluciones de llamada no se realizaron a menos que tuviera una ventana abierta en la interfaz de la interfaz de usuario de ZwaveJS))
+- Se ha corregido el error de inclusión *S2* en la interfaz de usuario de ZwaveJS tras recibir una notificación (de hecho, las llamadas de retorno no se realizaban a menos que se tuviera una ventana abierta en la interfaz de usuario de ZwaveJS).
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Configuración añadida *Shelly Qubino Ola 1PM* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
-- Configuración añadida *Shelly Qubino Ola 1* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
-- Configuración añadida *Obturador de ondas Shelly Qubino* (propiedades : Obturador, potencia, energía, notificación de manos, notificación de sobrecorriente, notificación de sensor de calor)
-- Configuración añadida *Shelly Qubino Ola 2PM* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
-- Configuración añadida *Shelly Qubino Ola 1* (propiedades : Interruptor, notificación de manos, notificación de sobrecorriente, notificación de sensor de calor)  *duda si agregar Potencia y Energía (haga un ticket si se supone que el dispositivo debe informar consumo pero no lo creo))*
-- Agregar una propiedad *Revestimiento de ventanas*
+- Se ha añadido la configuración *Shelly Qubino Wave 1PM* (propiedades: Interruptor, Alimentación, Energía, Notificación de red eléctrica, Notificación de sobrecorriente, Notificación del sensor de calor)
+- Se ha añadido la configuración *Shelly Qubino Wave 1* (propiedades: Interruptor, Alimentación, Energía, Notificación de red eléctrica, Notificación de sobrecorriente, Notificación del sensor de calor)
+- Se ha añadido la configuración *Shelly Qubino Wave Shutter* (propiedades: Persiana, Alimentación, Energía, Notificación de red eléctrica, Notificación de sobrecorriente, Notificación del sensor de calor)
+- Se ha añadido la configuración *Shelly Qubino Wave 2PM* (propiedades: Interruptor, Alimentación, Energía, Notificación de red eléctrica, Notificación de sobrecorriente, Notificación del sensor de calor)
+- Se ha añadido la configuración *Shelly Qubino Wave 1* (propiedades: Interruptor, Notificación de red eléctrica, Notificación de sobrecorriente, Notificación del sensor de calor)  *No estoy seguro de si hay que añadir «Potencia» y «Energía» (abriré un ticket si el dispositivo debe registrar el consumo, pero no creo que sea necesario)*
+- Añadir una propiedad *WindowsCovering*
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *Teclado inferior* para usar las propiedades (copia de Zipato pero en la siguiente versión))
-- Cambiar la configuración *MCOhome Mh8FC* para usar las propiedades
-- Cambiar la configuración *MCOhome Mh8FC-4* para usar las propiedades
-- Cambiar la configuración *Qubino ZMNKID - Termostato de encendido y apagado 2* para usar las propiedades
-- Cambiar la configuración *Motor con cable Widom Meta* para utilizar la propiedad Cubierta de Windows
-- Cambiar la configuración *Wenzhou TZ78* uso del punto final 0 en lugar del punto final 1 (de acuerdo con los comentarios de los usuarios)
-- Editando la imagen *MCOhome Mh8FC* (recorte)
-- Editando la imagen *MCOhome Mh8FC-4* (recorte)
+- Modificación de la configuración del *Benext Keypad* para utilizar las propiedades (copia del Zipato, pero en la versión de Benext)
+- Modificación de la configuración del *MCOhome Mh8FC* para utilizar las propiedades
+- Modificación de la configuración del *MCOhome Mh8FC-4* para utilizar las propiedades
+- Modificación de la configuración *Qubino ZMNKID - Flush OnOff Thermostat 2* para utilizar las propiedades
+- Modificación de la configuración del *Widom Meta Wired Motor* para utilizar la propiedad «Windows Covering»
+- Modificación de la configuración del *Wenzhou TZ78*: uso del punto final 0 en lugar del punto final 1 (de acuerdo con las sugerencias de los usuarios)
+- Modificación de la imagen *MCOhome Mh8FC* (recorte)
+- Modificación de la imagen *MCOhome Mh8FC-4* (recorte)
 
 # 27/10/2023
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Agregar una subpropiedad *puerta de notificación* para la propiedad *Inclinación*
+- Se ha añadido una subpropiedad *notification-door* a la propiedad *Tilt*
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *Aeotec Zwa012*  para usar las propiedades
-- Modificación de una subpropiedad *notificación simple* para la propiedad *Apertura*
-
-**Mejoras**
-
-- Cambiar a versión *9.1.2* por ZwaveJsUI
-
-# 10/11/2023
-
-**Arreglos**
-
-- Cambiar a versión *8.26.0* de ZwaveJsUI temporalmente
-
-# 10/09/2023
-
-**Arreglos**
-
-- Corrección evitando ciertos mensajes en el log *Error HTTP* en ciertos casos especiales
+- Modificación de la configuración del *Aeotec Zwa012* para utilizar las propiedades
+- Modificación de una subpropiedad *notification-simple* para la propiedad *Opening*
 
 **Mejoras**
 
-- Cambiar a versión *9.1.0* por ZwaveJsUI
-- Se agregó una opción para administrar *notificaciones* en el centro de mensajes *nodos vivos y muertos*
-- Se agregó una opción para administrar *notificaciones* en el centro de mensajes *despertares perdidos y regreso*
+- Actualización a la versión *9.1.2* de ZwaveJsUI
 
-**Adiciones de configuración**
+# 11/10/2023
 
-- Configuración añadida *Puerta Empotrada Aeotec ZW187* (propiedades : Apertura simple, batería, software de notificación, notificación de estado de energía)
-- Configuración añadida *Thermofloor Heat It ZM Relé Alta Potencia* (propiedades : Interruptor, alimentación, energía, notificación de sensor de calor, notificación de sobrecarga, escena central)
-- Agregar una subpropiedad *notificación simple* para la propiedad *Apertura*
+**Correcciones**
+
+- Cambio temporal a la versión *8.26.0* de ZwaveJsUI
+
+# 09/10/2023
+
+**Correcciones**
+
+- Corrección que evita que aparezcan determinados mensajes en el registro *http.error* en algunos casos concretos
+
+**Mejoras**
+
+- Actualización a la versión *9.1.0* de ZwaveJsUI
+- Se ha añadido una opción para gestionar las *notificaciones* en el centro de mensajes *de los nodos activos e inactivos*
+- Se ha añadido una opción para gestionar las *notificaciones* en el centro de mensajes *de las alarmas no activadas y viceversa*
+
+**Nuevas configuraciones**
+
+- Se ha añadido la configuración *Aeotec ZW187 Recessed Door* (propiedades: Apertura simple, Batería, Notificación de software, Notificación de estado de alimentación)
+- Se ha añadido la configuración *Thermofloor Heat It ZM Relay High Power* (propiedades: Interruptor, Potencia, Energía, Notificación del sensor de calor, Notificación de sobrecarga, Escena Centra)
+- Se ha añadido una subpropiedad *notification-simple* a la propiedad *Opening*
 
 # 11/09/2023
 
-**Arreglos**
+**Correcciones**
 
-- Corrección de actualización *OTA* del firmware de un módulo después de un cambio de ZwaveJSUI
-
-**Mejoras**
-
-- Cambiar a versión *8.25.1* por ZwaveJsUI.
-- Se agregó la posibilidad de realizar una actualización *OTW* un controlador (si es compatible)
-- Se agregó una opción para administrar *notificaciones* en el centro de mensajes *nodos vivos y muertos*
-- Se agregó una opción para administrar *notificaciones* en el centro de mensajes *despertares perdidos y regreso*
-
-**Adiciones de configuración**
-
-- Configuración añadida *Shelly Qubino Ola 1PM* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
-- Configuración añadida *Shelly Qubino Ola 1* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
-- Agregar una subpropiedad *agua-binaria* para la propiedad *Inundación*
-- Agregar una subpropiedad *barrera de nivel* para la propiedad *Multi nivel*
-
-**Cambios de configuración**
-
-- Cambiar la configuración *MCOhome Mh8FC*  para usar las propiedades
-- Cambiar la configuración *NeoCoolCam WS02Z*  para usar las propiedades
-- Cambiar la configuración *Kaipule IM20*  para usar las propiedades
-- Cambiar la configuración *HRT4_SRT321* para aprovechar mejor las propiedades
-- Cambiar la configuración *Atenuador enchufable Benext* para aprovechar mejor las propiedades
-- Cambiar la configuración *Domo de encendido y apagado Interruptor enchufable Atenuador enchufable* para aprovechar mejor las propiedades
-- Cambiar la configuración *Domux dx2skz* para aprovechar mejor las propiedades
-- Cambiar la configuración *Enchufe deslizante* para aprovechar mejor las propiedades
-- Cambiar la configuración *Everspring SM810* para aprovechar mejor las propiedades
-- Cambiar la configuración *Zipato PD01z* para aprovechar mejor las propiedades
-- Cambiar la configuración *Seguridad de visión ZS5101* para aprovechar mejor las propiedades
-
-# 08/02/2023
+- Corrección de la actualización *OTA* del firmware de un módulo tras un cambio en ZwaveJSUI
 
 **Mejoras**
 
-- Cambiar a versión *8.22.0* por ZwaveJsUI.
-- Suma de todos *tty* en la lista de puertos (esto será inútil con el nuevo núcleo que le permitirá elegir un puerto directamente por la identificación)
-- Se agregó la última ruta en la página de estadísticas de un nodo (depende del SDK del controlador))
-- Se agregó la última tasa de velocidad en baudios en la página de estadísticas de un nodo (depende del SDK del controlador))
-- Se agregó la última velocidad en baudios en la página de estadísticas globales (depende del SDK del controlador))
-- Se agregó la última ruta en la página de estadísticas globales (depende del SDK del controlador))
-- Se agregó el último rssi en la página de estadísticas globales (depende del SDK del controlador))
-- Se agregó el último rssi en la página de estadísticas de un nodo (depende del SDK del controlador))
-- Adición de un gráfico *Ruta de red* representando las últimas rutas tomadas (se escalará y es posible que no maneje todos los casos, depende del SDK del controlador))
-- Adición de un mensaje en el centro de mensajes cuando un nodo queda muerto (además del comando de estado del equipo)
-- Adición de un mensaje en el centro de mensajes cuando un nodo pasa a Alive después de estar Dead (además del comando de estado del equipo)
+- Actualización a la versión *8.25.1* de ZwaveJsUI.
+- Se ha añadido la posibilidad de realizar una actualización *OTW* de un controlador (si es compatible)
+- Se ha añadido una opción para gestionar las *notificaciones* en el centro de mensajes *de los nodos activos e inactivos*
+- Se ha añadido una opción para gestionar las *notificaciones* en el centro de mensajes *de las alarmas no activadas y viceversa*
+
+**Nuevas configuraciones**
+
+- Se ha añadido la configuración *Shelly Qubino Wave 1PM* (propiedades: Interruptor, Alimentación, Energía, Notificación de red eléctrica, Notificación de sobrecorriente, Notificación del sensor de calor)
+- Se ha añadido la configuración *Shelly Qubino Wave 1* (propiedades: Interruptor, Alimentación, Energía, Notificación de red eléctrica, Notificación de sobrecorriente, Notificación del sensor de calor)
+- Se ha añadido una subpropiedad *binary-water* a la propiedad *Flood*
+- Se ha añadido una subpropiedad *onlevel-barrier* a la propiedad *Multilevel*
+
+**Modificaciones de configuración**
+
+- Modificación de la configuración *MCOhome Mh8FC*  para utilizar las propiedades
+- Modificación de la configuración de la *NeoCoolCam WS02Z* para utilizar las propiedades
+- Modificación de la configuración del *Kaipule IM20* para utilizar las propiedades
+- Modificación de la configuración *HRT4_SRT321* para aprovechar mejor las propiedades
+- Modificación de la configuración del *Benext Plug In Dimmer* para aprovechar mejor sus propiedades
+- Modificación de la configuración *Dome On Off Plug In Switch Plug In Dimmer* para aprovechar mejor sus propiedades
+- Modificación de la configuración del *Domux Dx2skz* para aprovechar mejor sus propiedades
+- Modificación de la configuración de *Swiid Plug* para aprovechar mejor sus propiedades
+- Modificación de la configuración del *Everspring SM810* para aprovechar mejor sus propiedades
+- Modificación de la configuración del *Zipato PD01z* para aprovechar mejor sus propiedades
+- Modificación de la configuración del *Vision Security ZS5101* para aprovechar mejor sus características
+
+# 02/08/2023
+
+**Mejoras**
+
+- Actualización a la versión *8.22.0* de ZwaveJsUI.
+- Inclusión de todos los *tty* en la lista de puertos (esto será innecesario con el nuevo núcleo, que permitirá seleccionar un puerto directamente por su ID)
+- Incorporación de la última ruta en la página de estadísticas de un nodo (depende del SDK del controlador)
+- Incorporación de la última velocidad de transmisión en la página de estadísticas de un nodo (depende del SDK del controlador)
+- Se ha añadido la última velocidad de transmisión a la página de estadísticas generales (depende del SDK del controlador)
+- Inclusión de la última ruta en la página de estadísticas generales (depende del SDK del controlador)
+- Incorporación del último RSSI en la página de estadísticas generales (depende del SDK del controlador)
+- Incorporación del último valor RSSI en la página de estadísticas de un nodo (depende del SDK del controlador)
+- Se ha añadido un gráfico «Ruta de red» que muestra las últimas rutas recorridas (estará en desarrollo y es posible que no cubra todos los casos, dependiendo del SDK del controlador).
+- Añadir un mensaje en el centro de mensajes cuando un nodo pasa a estado «Dead» (además del comando de estado del equipo)
+- Añadir un mensaje en el centro de mensajes cuando un nodo pasa a estado «Alive» tras haber estado en estado «Dead» (además del comando de estado del equipo)
 - Adición de un mensaje en el centro de mensajes cuando un nodo no se ha despertado después de 4 veces su intervalo de activación
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Agregar una propiedad *Estado del ventilador del termostato*
-- Adición de un subcomando *Estado de la etiqueta* a la propiedad Operador de barrera (para tener un comando de etiqueta con texto además del comando numérico)
-- Configuración añadida *MCOhome Mh8FC* (propiedades : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperature)
-- Configuración añadida *Heltun HE-FT01* (propiedades : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperatura, Iluminancia, Humedad, Potencia, Energía)
-- Configuración añadida *MCOhome MH3901* (propiedades : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatOperatingState, Temperature)
-- Adición de un subcomando *Estado de la etiqueta* a la propiedad Estado operativo del termostato (para tener un comando de etiqueta con texto además del comando numérico)
+- Se ha añadido la propiedad *ThermostatFanState*
+- Se ha añadido un subcomando *Label State* a la propiedad «Barrier Operator» (para disponer de un comando de etiqueta con texto, además del comando numérico).
+- Se ha añadido la configuración *MCOhome Mh8FC* (propiedades: ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperature)
+- Se ha añadido la configuración *Heltun HE-FT01* (propiedades: ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperature, Illuminance, Humidity, Power, Energy)
+- Se ha añadido la configuración *MCOhome MH3901* (propiedades: ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatOperatingState, Temperature)
+- Se ha añadido un subcomando *Label State* a la propiedad «Thermostat Operating State» (para disponer de un comando de etiqueta con texto, además del comando numérico).
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *HRT4_SRT321* para usar las propiedades
-- Cambiar la configuración *SRT323* para usar las propiedades
-- Editando la imagen *HRT4_SRT321* (recorte)
-- Editando la imagen *SRT323* (recorte)
-- Editando la imagen *SSR303* (recorte)
-- Editando la imagen *SIR321* (recorte)
-- Editando la imagen *SES303* (recorte)
-- Editando la imagen *SES302* (recorte)
-- Editando la imagen *SCSC17* (recorte)
+- Modificación de la configuración *HRT4_SRT321* para utilizar las propiedades
+- Modificación de la configuración del *SRT323* para utilizar las propiedades
+- Modificación de la imagen *HRT4_SRT321* (recorte)
+- Modificación de la imagen *SRT323* (recorte)
+- Modificación de la imagen *SSR303* (recorte)
+- Modificación de la imagen *SIR321* (recorte)
+- Modificación de la imagen *SES303* (recorte)
+- Modificación de la imagen *SES302* (recorte)
+- Modificación de la imagen *SCSC17* (recorte)
 
 # 26/06/2023
 
 **Mejoras**
 
-- Cambiar a versión *8.19.0* por ZwaveJsUI.
-- Los módulos *FLIRS* ya no se consideran activos en la malla en el gráfico de red
+- Actualización a la versión *8.19.0* de ZwaveJsUI.
+- Los módulos *FLIRS* ya no se consideran activos en la malla de la red.
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *Sensor de ventana de puerta Aeotec DSB04100* para usar las propiedades
-- Cambiar la configuración *Interruptor de servicio pesado Aeotec DSC10* para usar las propiedades
-- Cambiar la configuración *Interruptor de energía inteligente Aeotec DSC06106* para usar las propiedades
-- Cambiar la configuración *Tira inteligente Aeotec DSC11* para usar las propiedades
-- Cambiar la configuración *Iluminador de energía inteligente Aeotec DSC08101* para usar las propiedades
-- Cambiar la configuración *Control de persianas Aeotec DSC014104* para usar las propiedades
-- Cambiar la configuración *Aeotec DSC17103 Micro Interruptor Doble* para usar las propiedades
-- Cambiar la configuración *Aeotec DSC18103 Microinterruptor 2º* para usar las propiedades
-- Cambiar la configuración *Aeotec DSC26103 Microinterruptor 2º* para usar las propiedades
-- Cambiar la configuración *Aeotec DSC27103 Micro Dimmer 2do* para usar las propiedades
-- Cambiar la configuración *Reloj Pánico Benext* para usar las propiedades
-- Cambiar la configuración *Botón de pánico Benext* para usar las propiedades
-- Cambiar la configuración *Atenuador enchufable Benext* para usar las propiedades
-- Cambiar la configuración *Domo de encendido y apagado Interruptor enchufable Atenuador enchufable* para usar las propiedades
-- Cambiar la configuración *Domux dx2skz* para usar las propiedades
-- Cambiar la configuración *Siempre primavera AD142* para usar las propiedades
-- Cambiar la configuración *Primavera eterna AN145* para usar las propiedades
-- Cambiar la configuración *Proyector LED Everspring EH403* para usar las propiedades
-- Cambiar la configuración *Heiman Dx2skz* para usar las propiedades
-- Cambiar la configuración *Atenuador inteligente Philio E27* para usar las propiedades
-- Cambiar la configuración *Philio pan03* para usar las propiedades
-- Cambiar la configuración *Enchufe inteligente Popp* para usar las propiedades
-- Cambiar la configuración *Papá 009105* para usar las propiedades
-- Cambiar la configuración *Schlage en la pared* para usar las propiedades
-- Cambiar la configuración *Enchufe Sigma* para usar las propiedades
-- Cambiar la configuración *Enchufe deslizante* para usar las propiedades
+- Modificación de la configuración del *sensor de puerta y ventana Aeotec DSB04100* para utilizar las propiedades
+- Modificación de la configuración del *Aeotec DSC10 Heavy Duty Switch* para utilizar las propiedades
+- Modificación de la configuración del *Aeotec DSC06106 Smart Energy Switch* para utilizar las propiedades
+- Modificación de la configuración del *Aeotec DSC11 Smart Strip* para utilizar las propiedades
+- Modificación de la configuración del *Aeotec DSC08101 Smart Energy Illuminator* para utilizar las propiedades
+- Modificación de la configuración del *Aeotec DSC014104 Blind Control* para utilizar las propiedades
+- Modificación de la configuración del *Aeotec DSC17103 Micro Double Switch* para utilizar las propiedades
+- Modificación de la configuración del *Aeotec DSC18103 Micro Switch 2nd* para utilizar las propiedades
+- Modificación de la configuración del *Aeotec DSC26103 Micro Switch 2nd* para utilizar las propiedades
+- Modificación de la configuración del *Aeotec DSC27103 Micro Dimmer 2nd* para utilizar las propiedades
+- Modificación de la configuración de *Benext Panic Watch* para utilizar las propiedades
+- Modificación de la configuración del *Benext Panic Button* para utilizar las propiedades
+- Modificación de la configuración del *Benext Plug In Dimmer* para utilizar las propiedades
+- Modificación de la configuración *Dome On Off Plug In Switch Plug In Dimmer* para utilizar las propiedades
+- Modificación de la configuración del *Domux Dx2skz* para utilizar las propiedades
+- Modificación de la configuración del *Everspring AD142* para utilizar las propiedades
+- Modificación de la configuración del *Everspring AN145* para utilizar las propiedades
+- Modificación de la configuración del *Everspring EH403 Led FloodLight* para utilizar las propiedades
+- Modificación de la configuración del *Heiman Dx2skz* para utilizar las propiedades
+- Modificación de la configuración del *Philio Smart Dimmer E27* para utilizar las propiedades
+- Modificación de la configuración de *Philio Pan03* para utilizar las propiedades
+- Modificación de la configuración del *Popp Smart Plug* para utilizar las propiedades
+- Modificación de la configuración *Popp 009105* para utilizar las propiedades
+- Modificación de la configuración de *Schlage On Wall* para utilizar las propiedades
+- Modificación de la configuración de *Sigma Power Plug* para utilizar las propiedades
+- Modificación de la configuración de *Swiid Plug* para utilizar las propiedades
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Configuración añadida *Atenuador Heat It ZM* (propiedades : Multinivel, Poder, Energía, CentralScene, Notificación)
-- Configuración añadida *Sigma PZ701U* (propiedades : Switch)
-- Configuración añadida *Neo RC03Z* (propiedades : Escena Central, Batería)
-- Añadir una subpropiedad *Sensor de calor* en la propiedad *Notificación*
-- Configuración añadida *U-Hada GR-201N* (propiedades : Switch)
+- Se ha añadido la configuración *Heat It ZM Dimmer* (propiedades: Multilevel, Power, Energy, CentralScene, Notification)
+- Se ha añadido la configuración *Sigma PZ701U* (propiedades: conmutador)
+- Se ha añadido la configuración *Neo RC03Z* (propiedades: Central Scene, Battery)
+- Se ha añadido una subpropiedad *Heat-Sensor* a la propiedad *Notification*
+- Incorporación de la configuración *U-Fairy GR-201N* (propiedades: interruptor)
 
-# 04/10/2023
+# 10/04/2023
 
 **Mejoras**
 
-- EL *actualizar* ahora puede ir hasta 100 segundos en lugar de 60
-- Cambiar a versión *8.13.1* por ZwaveJsUI.
-- Cambiar la función *valor de la encuesta* para propiedades en *valor* (gracias @superbricolo)
+- Las *actualizaciones* ahora pueden durar hasta 100 segundos en lugar de 60
+- Actualización a la versión *8.13.1* de ZwaveJsUI.
+- Modificación de la función *pollValue* para las propiedades con *value* (gracias, @superbricolo)
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *Sensor de agua Aeotec ZWA19* para usar las propiedades
-- Cambiar la configuración *Aeotec ZWA24 7en1* para usar las propiedades
-- Cambiar la configuración *Everspring SM810* para usar las propiedades
-- Edición de una propiedad *Velocidad*
-- Editando la imagen *Dlink 510* (recorte)
-- Editando la imagen *Fibaro fgs-213* (recorte)
+- Modificación de la configuración del *sensor de agua Aeotec ZWA19* para utilizar las propiedades
+- Modificación de la configuración del *Aeotec ZWA24 7in1* para utilizar las propiedades
+- Modificación de la configuración del *Everspring SM810* para utilizar las propiedades
+- Modificación de una propiedad *Velocity*
+- Modificación de la imagen *Dlink 510* (recorte)
+- Modificación de la imagen *Fibaro Fgs-213* (recorte)
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Configuración añadida *Sigma PZ701U* (propiedades : Switch)
-- Configuración añadida *Neo RC03Z* (propiedades : Escena Central, Batería)
-- Añadir una subpropiedad *Sensor de calor* en la propiedad *Notificación*
-- Configuración añadida *U-Hada GR-201N* (propiedades : Switch)
+- Se ha añadido la configuración *Sigma PZ701U* (propiedades: conmutador)
+- Se ha añadido la configuración *Neo RC03Z* (propiedades: Central Scene, Battery)
+- Se ha añadido una subpropiedad *Heat-Sensor* a la propiedad *Notification*
+- Incorporación de la configuración *U-Fairy GR-201N* (propiedades: interruptor)
 
 # 14/02/2023
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *Aeotec ZWA24 7en1* para usar las propiedades
-- Cambiar la configuración *Everspring SM810* para usar las propiedades
-- Cambiar la configuración *Aeotec ZW122* para usar las propiedades
-- Agrupación de configuraciones *Conexión viva de Danfoss*
-- Cambiar la configuración *Fibaro FGR-223* cambio de puntos finales de potencia y energía
-- Cambiar la configuración *Fibaro FGR-223* adición de hardware y notificación de sobrecorriente
-- Cambiar la configuración *Fibaro FGS213* cambiar al punto final 1 (firmware >=3.3) y sensor de calor añadido y notificación de sobrecorriente
-- Editando la imagen *Aeotec ZWA24 7en1* (recorte)
-- Edición de una propiedad *Velocidad*
-- Editando la imagen *Dlink 510* (recorte)
-- Editando la imagen *Fibaro fgs-213* (recorte)
-- Editando la imagen *Fibaro fgs-221* (recorte)
-- Editando la imagen *Fibaro fgs-223* (recorte)
-- Editando la imagen *Enchufe de pared Fibaro* (recorte)
-- Editando la imagen *Enchufe de pared Fibaro GEN5* (recorte)
+- Modificación de la configuración del *Aeotec ZWA24 7in1* para utilizar las propiedades
+- Modificación de la configuración del *Everspring SM810* para utilizar las propiedades
+- Modificación de la configuración del *Aeotec ZW122* para utilizar las propiedades
+- Agrupación de configuraciones *Danfoss Living Connect*
+- Modificación de la configuración del *Fibaro FGR-223*: cambio de los puntos finales de potencia y energía
+- Modificación de la configuración del *Fibaro FGR-223*: incorporación de notificaciones de fallos de hardware y sobrecorriente
+- Modificación de la configuración del *Fibaro FGS213*: cambio al punto final 1 (firmware >=3.3) y adición de notificaciones del sensor de calor y de sobrecorriente
+- Modificación de la imagen *Aeotec ZWA24 7 en 1* (recorte)
+- Modificación de una propiedad *Velocity*
+- Modificación de la imagen *Dlink 510* (recorte)
+- Modificación de la imagen *Fibaro Fgs-213* (recorte)
+- Modificación de la imagen *Fibaro Fgs-221* (recorte)
+- Modificación de la imagen *Fibaro Fgs-223* (recorte)
+- Modificación de la imagen *Fibaro Wall Plug* (recorte)
+- Modificación de la imagen *Fibaro Wall Plug GEN5* (recorte)
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Añadir una subpropiedad *Sensor de calor* en la propiedad *Notificación*
-- Configuración añadida *U-Hada GR-201N* (propiedades : Switch)
-- Configuración añadida *Relé de caldera Danfoss* (propiedades : Switch)
-- Configuración añadida *Sonido de alarma Benext* (propiedades : Switch)
+- Se ha añadido una subpropiedad *Heat-Sensor* a la propiedad *Notification*
+- Incorporación de la configuración *U-Fairy GR-201N* (propiedades: interruptor)
+- Se ha añadido la configuración *Danfoss Boiler Relay* (propiedades: Interruptor)
+- Se ha añadido la configuración *Benext Alarm Sound* (propiedades: Interruptor)
 
 # 24/12/2022
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *Sensor de puerta Aeotec ZWA008* para usar las propiedades
-- Cambiar la configuración *Termostato Qubino ZMNHLAX PWM* para usar las propiedades
-- Cambiar la configuración *Atenuador Qubino ZMNHDA2* para usar las propiedades
-- Cambiar la configuración *Fibaro FGR-223* modificación de los puntos finales de *actualizar*
-- Cambiar la configuración *Fibaro Fgrgbwm442* para usar las propiedades
-- Cambiar la configuración *Fibaro FGD212* propiedades de notificación agregadas
-- Cambiar la configuración *Qubino ZMNHBA2 Flush 2 Relés* para usar las propiedades
-- Cambiar la configuración *Interruptor Fibaro Walli* propiedades de notificación agregadas
-- Cambiar la configuración *Dlink Dchz110* para usar las propiedades
-- Cambiar la configuración *Luz LED inteligente Domitech* para usar las propiedades
-- Cambiar la configuración *Interruptor Duwii* para usar las propiedades
-- Cambiar la configuración *Primavera eterna AN157* para usar las propiedades
-- Cambiar la configuración *Sensor de humo popp* para usar las propiedades
-- Cambiar la configuración *Duwii Edan 300* para usar las propiedades
-- Editando la imagen *Atenuador Duwii* (recorte)
-- Editando la imagen *Sensor de puerta Aeotec ZWA008* (recorte)
-- Editando la imagen *Interruptor Duwii* (recorte)
-- Editando la imagen *Duwii Edan 300* (recorte)
-- Editando la imagen *Control de persianas Duwii* (recorte)
-- Editando la imagen *Mando a distancia Duwii* (recorte)
-- Editando la imagen *Duwii zs3500* (recorte)
-- Editando la imagen *Atenuador MCO Zipato p210* (recorte)
+- Modificación de la configuración del *sensor de puerta Aeotec ZWA008* para utilizar las propiedades
+- Modificación de la configuración del *termostato PWM Qubino ZMNHLAX* para utilizar las propiedades
+- Modificación de la configuración del *Qubino ZMNHDA2 Dimmer* para utilizar las propiedades
+- Modificación de la configuración del *Fibaro FGR-223*: modificación de los puntos finales de *refresh*
+- Modificación de la configuración del *Fibaro Fgrgbwm442* para utilizar las propiedades
+- Modificación de la configuración del *Fibaro FGD212*: añadir las propiedades de notificación
+- Modificación de la configuración del *Qubino ZMNHBA2 Flush 2 Relays* para utilizar las propiedades
+- Modificación de la configuración del *Fibaro Walli Switch*: añadir las propiedades de notificación
+- Modificación de la configuración del *Dlink Dchz110* para utilizar las propiedades
+- Modificación de la configuración de *Domitech Smart Led Light* para utilizar las propiedades
+- Modificación de la configuración de *Duwii Switch* para utilizar las propiedades
+- Modificación de la configuración del *Everspring AN157* para utilizar las propiedades
+- Modificación de la configuración del *Popp Smoke Sensor* para utilizar las propiedades
+- Modificación de la configuración del *Duwii Edan 300* para utilizar las propiedades
+- Modificación de la imagen *Duwii Dimmer* (recorte)
+- Modificación de la imagen *Aeotec ZWA008 Door Sensor* (recorte)
+- Modificación de la imagen *Duwii Switch* (recorte)
+- Modificación de la imagen *Duwii Edan 300* (recorte)
+- Modificación de la imagen *Duwii Blind Control* (recorte)
+- Modificación de la imagen *Duwii Remote* (recorte)
+- Modificación de la imagen *Duwii Zs3500* (recorte)
+- Modificación de la imagen *MCO Zipato p210 dimmer* (recorte)
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Añadir una subpropiedad *Error de carga* en la propiedad *Notificación*
-- Añadir una subpropiedad *Fibaro-effects2* en la propiedad *Color*
+- Se ha añadido una subpropiedad *Load-error* a la propiedad *Notification*
+- Se ha añadido una subpropiedad *Fibaro-effets2* a la propiedad *Color*
 
-*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+*Si has realizado algún cambio o has añadido alguna configuración, realiza una sincronización y, a continuación, vuelve a cargar los comandos del equipo «recreando todos los comandos» tras la actualización.*
 
 # 22/12/2022
 
 **Mejoras**
 
-- Adición de un motor completo *Gestión de actualización*, útil para algunos módulos que no informan correctamente algunos cambios después de la acción. No debe usarse sin una razón válida. Los archivos de configuración llevarán los elementos si es necesario
-- Agregar una pestaña *Opciones* en la página del equipo. Para ver y configurar Actualizaciones y posibles opciones futuras
-- Adición del número de *Actualizar* en la pagina *Salud*
+- Se ha añadido un motor completo de *Gestión de actualización*, útil para algunos módulos que no reflejan correctamente ciertos cambios tras una acción. No debe utilizarse sin una razón válida. Los archivos de configuración incluirán los elementos necesarios si es preciso.
+- Se ha añadido una pestaña *Opciones* en la página de cada dispositivo. Para ver y configurar las opciones de actualización y  cualquier otra opción futura
+- Se ha añadido el número de *Actualizaciones* en la página *Salud*
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *Luz inteligente Qubino Luxy* para usar las propiedades
-- Cambiar la configuración *Medidor de lluvia Popp* para usar las propiedades
-- Cambiar la configuración *Fibaro FGR-223* primera configuración para usar el motor de actualización (de hecho, este módulo tiene un error conocido, no sube las posiciones o de manera errónea cuando el Z-Wave inicia un movimiento) para recuperar la actualización (vaya al comando de recarga seleccionando " sin volver a crear pedidos") debería ver "actualizar" en la pestaña de opciones.
-- Cambiar la configuración *Fibaro FGR-223* cambio de puntos finales de potencia y energía
-- Cambiar la configuración *Fibaro FGR-223* adición de hardware y notificación de sobrecorriente
-- Cambiar la configuración *Fibaro FGR-223* reemplazar propiedad de escena con centralscene
+- Modificación de la configuración de *Qubino Luxy Smart Light* para utilizar las propiedades
+- Modificación de la configuración de *Popp RainMeter* para utilizar las propiedades
+- Modificación de la configuración del *Fibaro FGR-223*: primera configuración que utiliza el motor de actualización (de hecho, este módulo tiene un error conocido: no transmite las posiciones o las transmite de forma errónea cuando Z-Wave inicia un movimiento). Para recuperar las actualizaciones (ve a «Recargar comandos» y selecciona «Sin recrear comandos»), deberías ver las «actualizaciones» en la pestaña «Opciones».
+- Modificación de la configuración del *Fibaro FGR-223*: cambio de los puntos finales de potencia y energía
+- Modificación de la configuración del *Fibaro FGR-223*: incorporación de notificaciones de fallos de hardware y sobrecorriente
+- Modificación de la configuración del *Fibaro FGR-223*: sustitución de la propiedad «scene» por «centralscene»
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Configuración añadida *Interruptor inteligente Qubino Luxy* (propiedades : Switch, Multinivel, Potencia, Energía, Color, Notificación, Evento de notificación)
-- Agregando la imagen *Interruptor inteligente Qubino Luxy*
-- Configuración añadida *Centro de seguridad Abus SHSG10000* (propiedades : Interruptor, batería)
-- Agregando la imagen *Centro de seguridad Abus SHSG10000*
-- Añadir una subpropiedad *General* en la propiedad *Lluvia*
-- Añadir una subpropiedad *Básico* en la propiedad *Lluvia*
-- Añadir una subpropiedad *Sobrecarga* en la propiedad *Notificación*
-- Agregar una propiedad *Consumo de agua*
-- Agregar una propiedad *Evento de notificación*
+- Se ha añadido la configuración del *Qubino Luxy Smart Switch* (propiedades: Switch, Multilevel, Power, Energy, Color, Notification, NotificationEvent)
+- Se ha añadido la imagen *Qubino Luxy Smart Switch*
+- Se ha añadido la configuración *Abus Security Center SHSG10000* (propiedades: conmutador, batería)
+- Se ha añadido la imagen *Abus Security Center SHSG10000*
+- Se ha añadido una subpropiedad *Global* a la propiedad *Rain*
+- Se ha añadido una subpropiedad *Basic* a la propiedad *Rain*
+- Se ha añadido una subpropiedad *Over-Load* a la propiedad *Notification*
+- Añadir una propiedad *Waterconsumption*
+- Añadir una propiedad *Notificationevent*
 
-*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+*Si has realizado algún cambio o has añadido alguna configuración, realiza una sincronización y, a continuación, vuelve a cargar los comandos del equipo «recreando todos los comandos» tras la actualización.*
 
 # 21/12/2022
 
@@ -471,278 +517,278 @@
 
 - Adición de la gestión de Notificaciones de Nodos
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *Extensor de rango Aeotec 6* para usar las propiedades
-- Cambiar la configuración *Zipato PD01z* para usar las propiedades
-- Cambiar la configuración *NeoCoolCam PD01zt* para usar las propiedades
-- Cambiar la configuración *NeoCoolCam PD01z* para usar las propiedades
-- Cambiar la configuración *Medidor de energía de micromódulo Philio/Zipato* para usar las propiedades
-- Cambiar la configuración *Fibaro FGS214* para usar las propiedades
-- Cambiar la configuración *Fibaro FGS213* cambiar al punto final 0 (por confirmar))
-- Reversión de configuración *Fibaro FGD212 firmware 3.5*
-- Cambiar la configuración *Teclado Zipato* adición de propiedad *Notificación de nodo*
-- Cambiar la configuración *Teclado Schlage* adición de propiedad *Notificación de nodo*
-- Cambiar la configuración *Espíritu de válvula Eurotronic* para usar las propiedades
-- Agrupación de configuraciones *Conexión viva de Danfoss*
-- Cambiar la configuración *Danfoss Devolo Living Connect* para usar las propiedades
-- Cambiar la configuración *Conexión viva de Danfoss* para usar las propiedades
-- Cambiar la configuración *Termostato de radiador Pop de Danfoss* para usar las propiedades
-- Cambiar la configuración *Philio psp05* para usar las propiedades
-- Cambiar la configuración *Zipato ZP3102* para usar las propiedades
-- Cambiar la configuración *Visión ZP3102* para usar las propiedades
-- Cambiar la configuración *Control remoto ZXT-120* para usar las propiedades
-- Cambiar la configuración *Anuncio Everspring147* para usar las propiedades
-- Cambiar la configuración *Heatit ThermoFloor Ztemp2* para usar las propiedades
-- Editando la imagen *Horstmann Seguro SRT321* (recorte)
-- Editando la imagen *Control remoto ZXT-120* (recorte)
-- Editando la imagen *Fibaro FGS 224* (recorte)
-- Editando la imagen *Fibaro FGS 213* (recorte)
-- Editando la imagen *Botón Fibaro* (recorte)
+- Modificación de la configuración del *Aeotec Range Extender 6* para utilizar las propiedades
+- Modificación de la configuración del *Zipato PD01z* para utilizar las propiedades
+- Modificación de la configuración de la *NeoCoolCam PD01zt* para utilizar las propiedades
+- Modificación de la configuración de la *NeoCoolCam PD01z* para utilizar las propiedades
+- Modificación de la configuración del *Philio / Zipato Micromodule Energy Meter* para utilizar las propiedades
+- Modificación de la configuración del *Fibaro FGS214* para utilizar las propiedades
+- Modificación de la configuración del *Fibaro FGS213*: cambio al punto final 0 (por confirmar)
+- Resumen de la configuración del *Fibaro FGD212, firmware 3.5*
+- Modificación de la configuración del *Zipato Keypad*: se ha añadido la propiedad *NodeNotification*
+- Modificación de la configuración del *Schlage Keypad*: se ha añadido la propiedad *NodeNotification*
+- Modificación de la configuración de *Eurotronic Valve Spirit* para utilizar las propiedades
+- Agrupación de configuraciones *Danfoss Living Connect*
+- Modificación de la configuración de *Danfoss Devolo Living Connect* para utilizar las propiedades
+- Modificación de la configuración de *Danfoss Living Connect* para utilizar las propiedades
+- Modificación de la configuración del *termostato de radiador Danfoss Pop* para utilizar las propiedades
+- Modificación de la configuración del *Philio PSP05* para utilizar las propiedades
+- Modificación de la configuración del *Zipato ZP3102* para utilizar las propiedades
+- Modificación de la configuración del *Vision ZP3102* para utilizar las propiedades
+- Modificación de la configuración del *Remotec ZXT-120* para utilizar las propiedades
+- Modificación de la configuración del *Everspring Ad147* para utilizar las propiedades
+- Modificación de la configuración de *Heatit ThermoFloor Ztemp2* para utilizar las propiedades
+- Modificación de la imagen *Horstmann Secure SRT321* (recorte)
+- Modificación de la imagen *Remotec ZXT-120* (recorte)
+- Modificación de la imagen *Fibaro FGS 224* (recorte)
+- Modificación de la imagen *Fibaro FGS 213* (recorte)
+- Modificación de la imagen *Fibaro Button* (recorte)
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Configuración añadida *Cherubini ORA ZRX* (propiedades : Obturador, Notificación)
-- Agregando la imagen *Cherubini ORA ZRX*
-- Configuración añadida *Sirena Heiman HS2WD* (propiedades : Interruptor, batería)
-- Agregando la imagen *Sirena Heiman HS2WD*
-- Añadir una subpropiedad *Estado de energía* en la propiedad *Notificación*
-- Agregar una propiedad *Notificación de nodo*
+- Se ha añadido la configuración *Cherubini ORA ZRX* (propiedades: obturador, notificación)
+- Se ha añadido la imagen *Cherubini ORA ZRX*
+- Se ha añadido la configuración *Heiman HS2WD Siren* (propiedades: Interruptor, Batería)
+- Se ha añadido la imagen *Heiman HS2WD Siren*
+- Se ha añadido una subpropiedad *Power-status* a la propiedad *Notification*
+- Añadir una propiedad *NodeNotification*
 
-*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+*Si has realizado algún cambio o has añadido alguna configuración, realiza una sincronización y, a continuación, vuelve a cargar los comandos del equipo «recreando todos los comandos» tras la actualización.*
 
 # 19/12/2022
 
-**Arreglos**
+**Correcciones**
 
-- Fijar en algunos *atributos faltantes* en la página de salud en algunos nodos para evitar errores (sin consecuencias) en el *Error HTTP*
+- Corrección de algunos *atributos que faltaban* en la página de estado de algunos nodos para evitar errores (sin consecuencias) en el *http.error*
 
 **Mejoras**
 
-- Pasaje de *Interfaz de usuario de ZwaveJS* a versión *8.6.1*
-- Adición de la *gestión S2* (La interfaz de usuario de ZwaveJS ha realizado los cambios esperados)
-- Además de *tipo de seguridad* en la pagina *información del nodo*
+- Actualización de *ZwaveJS UI* a la versión *8.6.1*
+- Incorporación de la *gestión S2* (la interfaz de usuario de ZwaveJS ha realizado los cambios previstos)
+- Incorporación del *tipo de seguridad* en la página *información de un nodo*
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *Sensor de CO Heiman* para usar las propiedades
-- Cambiar la configuración *Detector de humo Heiman* para usar las propiedades
-- Cambiar la configuración *Sensor de CO Domux* para usar las propiedades
-- Cambiar la configuración *Seguridad de visión ZS5101* para usar las propiedades
-- Cambiar la configuración *InicioSeer Ez Motion* para usar las propiedades
-- Cambiar la configuración *Detector de humo Shenzhen* para usar las propiedades
-- Cambiar la configuración *Seguridad de visión ZD2102* para usar las propiedades
-- Editando la imagen *Seguridad de visión ZD2102* (recorte)
-- Cambiar la configuración *Extensor de rango Aeotec 7* para usar las propiedades
-- Cambiar la configuración *Zipato ZD2102* para usar las propiedades
-- Cambiar la configuración *Estación meteorológica Qubino* para usar las propiedades
-- Cambiar la configuración *Resorte eterno ST814* para usar las propiedades
-- Cambiar la configuración *Hank HKZW-SO08* para usar las propiedades
-- Cambiar la configuración *Hank HKZW-SO01* para usar las propiedades
-- Cambiar la configuración *Hank HKZW-SCN01* para usar las propiedades
-- Cambiar la configuración *Filio PAT02-B* para usar las propiedades
-- Editando la imagen *Filio PAT02-B* (recorte)
-- Editando la imagen *Abuso SHWM1000*
+- Modificación de la configuración del *sensor de CO Heiman* para utilizar las propiedades
+- Modificación de la configuración del *detector de humo Heiman* para utilizar las propiedades
+- Modificación de la configuración del *sensor de CO Domux* para utilizar las propiedades
+- Modificación de la configuración del *Vision Security ZS5101* para utilizar las propiedades
+- Modificación de la configuración de *HomeSeer Ez Motion* para utilizar las propiedades
+- Modificación de la configuración del *detector de humo Shenzen* para utilizar las propiedades
+- Modificación de la configuración del *Vision Security ZD2102* para utilizar las propiedades
+- Modificación de la imagen *Vision Security ZD2102* (recorte)
+- Modificación de la configuración del *Aeotec Range Extender 7* para utilizar las propiedades
+- Modificación de la configuración del *Zipato ZD2102* para utilizar las propiedades
+- Modificación de la configuración de *Qubino Weather Station* para utilizar las propiedades
+- Modificación de la configuración del *Everspring ST814* para utilizar las propiedades
+- Modificación de la configuración del *Hank HKZW-SO08* para utilizar las propiedades
+- Modificación de la configuración del *Hank HKZW-SO01* para utilizar las propiedades
+- Modificación de la configuración del *Hank HKZW-SCN01* para utilizar las propiedades
+- Modificación de la configuración del *Philio PAT02-B* para utilizar las propiedades
+- Modificación de la imagen *Philio PAT02-B* (recorte)
+- Modificación de la imagen *Abus SHWM1000*
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Configuración añadida *Medidor de energía Zipato* (propiedades : Potencia, Energía, Voltaje, Corriente)
-- Imagen añadida para *Medidor de energía Zipato*
-- Configuración añadida *Airzone Aidoo Zwave* (propiedades : Temperatura, modo de termostato, modo de acción del termostato, modo de ventilador del termostato, modo de ventilador del termostato, punto de ajuste del termostato, notificación)
-- Imagen añadida para *Airzone Aidoo Zwave*
-- Agregar una propiedad *Termostato en modo ventilador*
-- Agregar una propiedad *Termostatoventiladordeacción*
-- Agregar una propiedad *Dirección*
-- Agregar una propiedad *Velocidad*
-- Agregar una propiedad *Lluvia*
-- Agregar una propiedad *Co*
-- Añadir una subpropiedad *Movimiento básico* en la propiedad *Movimiento*
-- Añadir una subpropiedad *Polvo en el dispositivo* en la propiedad *Notificación*
+- Incorporación de la configuración *Zipato Energy Meter* (propiedades: potencia, energía, tensión, corriente)
+- Se ha añadido la imagen del *Zipato Energy Meter*
+- Se ha añadido la configuración *Airzone Aidoo Zwave* (propiedades: Temperatura, Modo del termostato, Acción del modo del termostato, Modo del ventilador del termostato, Acción del modo del ventilador del termostato, Punto de consigna del termostato, Notificación)
+- Se ha añadido la imagen de *Airzone Aidoo Zwave*
+- Añadir una propiedad *Thermostatfanmode*
+- Añadir una propiedad *Thermostatfanmodeaction*
+- Añadir una propiedad *Dirección*
+- Añadir una propiedad *Velocity*
+- Añadir una propiedad *Rain*
+- Añadir una propiedad *Co*
+- Se ha añadido una subpropiedad *Basic-motion* a la propiedad *Motion*
+- Se ha añadido una subpropiedad *Dust-in-device* a la propiedad *Notification*
 
-*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+*Si has realizado algún cambio o has añadido alguna configuración, realiza una sincronización y, a continuación, vuelve a cargar los comandos del equipo «recreando todos los comandos» tras la actualización.*
 
 # 15/12/2022
 
 **Mejoras**
 
-- Se agregó la capacidad de mostrar *asistentes explicativos* en la página de ciertos equipos (Teclado Zipato por ejemplo para explicar el funcionamiento de los códigos)
+- Se ha añadido la posibilidad de mostrar *guías explicativas* en la página de determinados dispositivos (por ejemplo, el teclado Zipato, para explicar el funcionamiento de los códigos).
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *Cuádruple Aetoec Nanomote* para usar las propiedades
-- Cambiar la configuración *Fibaro fgs211* para usar las propiedades
-- Cambiar la configuración *Obturador Fibaro fgwreu111 Walli* pasar una propiedad Shutter/level y pasar potencia y energía en el punto final 1
-- Cambiar la configuración *Teclado Zipato* para usar las propiedades
-- Cambiar la configuración *Teclado Schlage* para usar las propiedades
+- Modificación de la configuración del *Aetoec Nanomote Quad* para utilizar las propiedades
+- Modificación de la configuración del *Fibaro Fgs211* para utilizar las propiedades
+- Modificación de la configuración del *Fibaro fgwreu111 Walli Shutter*: cambio a una propiedad Shutter/level y cambio de «power» y «energy» al punto final 1
+- Modificación de la configuración del *Zipato Keypad* para utilizar las propiedades
+- Modificación de la configuración del *Schlage Keypad* para utilizar las propiedades
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Configuración añadida *ZoozZEN17* (propiedades : Switch)
-- Imagen añadida para *ZoozZEN17*
-- Configuración añadida *Sensor de inundación Abus* (propiedades : Inundación, sabotaje, batería)
-- Imagen añadida para *Sensor de inundación Abus*
-- Agregar una propiedad *Codigo de usuario*
+- Se ha añadido la configuración *Zooz ZEN17* (propiedades: Interruptor)
+- Se ha añadido la imagen del *Zooz ZEN17*
+- Se ha añadido la configuración *Abus Flood Sensor* (propiedades: inundación, manipulación, batería)
+- Se ha añadido la imagen del *sensor de inundación Abus*
+- Añadir una propiedad *UserCode*
 
-*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+*Si has realizado algún cambio o has añadido alguna configuración, realiza una sincronización y, a continuación, vuelve a cargar los comandos del equipo «recreando todos los comandos» tras la actualización.*
 
-# 12/05/2022
-
-**Mejoras**
-
-- Agregar una pestaña *Gestión de MNV* en la página de la red. Copia de seguridad, descarga, envío y restauración
-- Agregar una pestaña *Actualización* en una página de nodo.
-- Adición de la versión de *SDK* en la página de información de un controlador o de los módulos que lo elevan
-
-**Cambios de configuración**
-
-- Cambiar la configuración *Enchufe inteligente Widom Cherubini* para usar las propiedades
-- Cambiar la configuración *Medidor Trifásico Qubino* para usar las propiedades
-- Cambio de propiedad *Factor de potencia* para la opción *producción*
-
-**Adiciones de configuración**
-
-- Configuración añadida *Interruptor doble Cherubini Widom Meta* (propiedades : Interruptor, escena central)
-- Imagen añadida para *Interruptor doble Cherubini Widom Meta*
-- Configuración añadida *Cherubini Widom Meta motor cableado CONTR.7* (propiedades : Shutter)
-- Imagen añadida para *Cherubini Widom Meta motor cableado CONTR.7*
-
-*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
-
-# 12/01/2022
+# 05/12/2022
 
 **Mejoras**
 
-- Administración *comandos sin unidades* mientras que debería (en el retorno de zwaveJS) para no contaminar el registro
+- Se ha añadido una pestaña *Gestión NVM* en la página de red. Guardar, descargar, enviar y restaurar
+- Se ha añadido una pestaña *Actualización* en la página de un nodo.
+- Incorporación de la versión del *SDK* en la página de información de un controlador o de los módulos que lo controlan
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *Qubino ZMNHNDX Rasante 1D* para usar las propiedades
-- Cambiar la configuración *Fibaro FGSS101 Humo* para usar las propiedades
-- Cambiar la configuración *Hogar inteligente Everspring AN-179* para usar las propiedades
-- Cambiar la configuración *Aeotec ZWA009 AERQ* para usar las propiedades
-- Cambiar la configuración *Sirena exterior Popp* usar las propiedades (en parte)
-- Cambiar la configuración *Aetoec ZWA080* para usar las propiedades (en parte) y agregar controles de sonido (volumen y sonido)
-- Cambio de propiedad *Calor* con gestión de casos de clase *SENSOR DE ALARMA*
-- Cambio de propiedad *Fumar* con gestión de casos de clase *SENSOR DE ALARMA*
-- Cambio de propiedad *Termostato de punto de consigna* para tener las instrucciones con el widget *botón* por defecto
-- Editando la imagen *Sirena exterior Popp* recorte
+- Modificación de la configuración del *Cherubini Widom Smart Plug* para utilizar las propiedades
+- Modificación de la configuración del *Qubino 3 Phase Meter* para utilizar las propiedades
+- Modificación de la propiedad *Power Factor* para la opción *production*
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Configuración añadida *Seguro Hortsmann SRT321* (propiedades : Modo Termostato, Estado Operativo Termostato, Acción Modo Termostato, Punto Consigna Termostato, Temperatura, Batería)
-- Imagen añadida para *Seguro Hortsmann SRT321*
-- Configuración añadida *Bloqueo Hoppe ConnectSense* (propiedades : Apertura, Sensor de notificaciones, Inclinación, Batería)
-- Imagen añadida para *Bloqueo Hoppe ConnectSense*
-- Se agregaron parámetros para *Bloqueo Hoppe ConnectSense*
+- Se ha añadido la configuración *Cherubini Widom Meta doble interruptor* (propiedades: Interruptor, Escena central)
+- Se ha añadido la imagen del *Cherubini Widom Meta doble interruptor*
+- Se ha añadido la configuración *Cherubini Widom Meta motor con cable CONTR.7* (propiedades: persiana)
+- Se ha añadido la imagen del *motor con cable Cherubini Widom Meta CONTR.7*
 
-*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+*Si has realizado algún cambio o has añadido alguna configuración, realiza una sincronización y, a continuación, vuelve a cargar los comandos del equipo «recreando todos los comandos» tras la actualización.*
+
+# 01/12/2022
+
+**Mejoras**
+
+- Gestión de *comandos sin unidades*, cuando debería (en la respuesta de Z-WaveJS) para no saturar el registro
+
+**Modificaciones de configuración**
+
+- Modificación de la configuración del *Qubino ZMNHNDX Flush 1D* para utilizar las propiedades
+- Modificación de la configuración del *Fibaro FGSS101 Smoke* para utilizar las propiedades
+- Modificación de la configuración del *Smarthome Everspring AN-179* para utilizar las propiedades
+- Modificación de la configuración del *Aeotec ZWA009 AERQ* para utilizar las propiedades
+- Modificación de la configuración de la *Popp Outdoor Siren* para utilizar (parcialmente) sus propiedades
+- Modificación de la configuración del *Aetoec ZWA080* para utilizar (parcialmente) sus propiedades y añadir controles de sonido (volumen y tono)
+- Modificación de la propiedad *Heat* con gestión del caso de clase *ALARM SENSOR*
+- Modificación de la propiedad *Smoke* con gestión del caso de clase *ALARM SENSOR*
+- Modificación de la propiedad *Thermostat Setpoint* para que los valores de consigna se establezcan de forma predeterminada mediante el widget *button*
+- Modificación de la imagen *Popp Outdoor Siren*: recorte
+
+**Nuevas configuraciones**
+
+- Se ha añadido la configuración *Secure Hortsmann SRT321* (propiedades: ThermostatMode, ThermostatOperatingState, ThermostatModeAction, ThermostatSetpoint, Temperature, Battery)
+- Se ha añadido la imagen del *Secure Hortsmann SRT321*
+- Se ha añadido la configuración de la *cerradura Hoppe ConnectSense* (propiedades: Apertura, Sensor de notificación, Inclinación, Batería)
+- Se ha añadido la imagen de la *cerradura Hoppe ConnectSense*
+- Se han añadido los parámetros para la *cerradura Hoppe ConnectSense*
+
+*Si has realizado algún cambio o has añadido alguna configuración, realiza una sincronización y, a continuación, vuelve a cargar los comandos del equipo «recreando todos los comandos» tras la actualización.*
 
 # 28/11/2022
 
-**Arreglos**
+**Correcciones**
 
-- Corrección en *parámetros de configuración* con el fin de *para evitar enviar 0 en primer lugar* durante una elección de tipo lista (sobre un parámetro que lo propone))
+- Corrección en los *parámetros de configuración* para *evitar enviar un 0 inicialmente* al seleccionar una opción de tipo lista (en un parámetro que ofrezca esta posibilidad).
 
 **Mejoras**
 
-- Adición de un *RELANZAR* necesario del motor *en caso de exclusión fallida*
-- Visualización del mensaje relativo a la *0 pedido* que en el caso de un *nodo iniciado*
+- Se ha añadido un *reinicio* necesario del motor *en caso de que falle la exclusión*
+- Visualización del mensaje relativo al *comando 0* únicamente en el caso de un *nodo iniciado*
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *Aeotec TriSensor* para usar las propiedades
-- Cambiar la configuración *Hank HKZW-MS02* para usar las propiedades
-- Cambiar la configuración *Filio PSM02* para usar las propiedades
-- Cambiar la configuración *Primavera eterna AN158* para usar las propiedades
-- Cambiar la configuración *Sensor de habitación Danfoss* para usar las propiedades
-- Cambiar la configuración *Vision ZS Golpes y vibraciones* para usar las propiedades
-- Cambiar la configuración *Controlador Fibaro Walli* para usar las propiedades
-- Cambiar la configuración *Fibaro FGD211* para usar las propiedades
-- Cambiar la configuración *Enchufe De Pared Fibaro España* para usar las propiedades
-- Cambiar la configuración *Fibaro Walli Outlet F* para usar las propiedades
-- Cambiar la configuración *Atenuador Fibaro Walli* para usar las propiedades
-- Cambiar la configuración *Fibaro RGBW441* usar la propiedad *efectos fibaro*
-- Cambio de propiedad *Luminancia* con adición de una moda en %
-- Cambio de propiedad *Termostato de punto de consigna* para tener las instrucciones con el widget *botón* por defecto
-- Cambio de propiedad *Color* con adición de un tipo *efectos fibaro* (dejar de describir los comandos)
-- Adición de un *ajuste recomendado* para el *Filio PST02*
+- Modificación de la configuración del *Aeotec TriSensor* para utilizar las propiedades
+- Modificación de la configuración del *Hank HKZW-MS02* para utilizar las propiedades
+- Modificación de la configuración del *Philio PSM02* para utilizar las propiedades
+- Modificación de la configuración del *Everspring AN158* para utilizar las propiedades
+- Modificación de la configuración del *Danfoss Room Sensor* para utilizar las propiedades
+- Modificación de la configuración de *Vision ZS Shock and Vibration* para utilizar las propiedades
+- Modificación de la configuración del *Fibaro Walli Controller* para utilizar las propiedades
+- Modificación de la configuración del *Fibaro FGD211* para utilizar las propiedades
+- Modificación de la configuración del *Fibaro Wall Plug UK* para utilizar las propiedades
+- Modificación de la configuración del *Fibaro Walli Outlet F* para utilizar las propiedades
+- Modificación de la configuración del *Fibaro Walli Dimmer* para utilizar las propiedades
+- Modificación de la configuración del *Fibaro RGBW441* para utilizar la propiedad *fibaro-effects*
+- Modificación de la propiedad *Luminancia* con la incorporación de un modo en %
+- Modificación de la propiedad *Thermostat Setpoint* para que los valores de consigna se establezcan de forma predeterminada mediante el widget *button*
+- Modificación de la propiedad *Color* con la incorporación de un tipo *fibaro-effects* (para dejar de describir los comandos)
+- Se ha añadido un *parámetro recomendado* para el *Philio PST02*
 
-*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+*Si has realizado algún cambio o has añadido alguna configuración, realiza una sincronización y, a continuación, vuelve a cargar los comandos del equipo «recreando todos los comandos» tras la actualización.*
 
 # 25/11/2022
 
 **Mejoras**
 
-- Adición de un *Gestión de versiones de la interfaz de usuario de ZwaveJS*
-- Adición de un mensaje en el *centro de mensajes* y en la página del complemento cuando ZwaveJS UI *necesita ser actualizado*
-- Paso de la *Versión de la interfaz de usuario de ZwaveJS* a versión *8.5.1*
+- Incorporación de una *gestión de versiones de ZwaveJS UI*
+- Añadir un mensaje en el *centro de mensajes* y en la página del complemento cuando la interfaz de usuario de ZwaveJS *deba actualizarse*
+- Actualización de la *versión ZwaveJS UI* a la versión *8.5.1*
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración de *Enchufe inteligente Hank (HKZW-SO08)* (Problema de visualización)
+- Modificación de los ajustes del *Hank Smart Plug (HKZW-SO08)* (problema de visualización)
 
-*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+*Si has realizado algún cambio o has añadido alguna configuración, realiza una sincronización y, a continuación, vuelve a cargar los comandos del equipo «recreando todos los comandos» tras la actualización.*
 
 # 23/11/2022
 
 **Mejoras**
 
-- Adición de una imagen para un *parámetro o despertar* a la espera
-- Adición de una página que permite ver todos los *configuraciones* a la espera
-- Adición de una página webapp que permite ver todos los *configuraciones* a la espera
-- Adición de un botón de eliminar en la página *A la espera*. Le permite eliminar una línea en espera. Esto no elimina la orden que se ha enviado al controlador, sino solo la información pendiente en Jeedom (útil para los parámetros de calibración, por ejemplo, que nunca toman el valor enviado o cualquier otro parámetro donde sería inútil))
+- Añadir un elemento visual para un *parámetro o activación* pendiente
+- Se ha añadido una página que permite ver todos los *parámetros* pendientes
+- Se ha añadido una página web que permite ver todos los *parámetros* pendientes
+- Se ha añadido un botón «Eliminar» en la página *Pendiente*. Permite eliminar una línea pendiente. Este botón no elimina la orden que se ha enviado al controlador, sino solo la información pendiente en Jeedom (útil, por ejemplo, para los parámetros de calibración que nunca adoptan el valor enviado o cualquier otro parámetro en el que no sea necesario).
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *Cerradura Popp Strike* para usar la propiedad de apertura (para el contacto)
-- Cambiar la configuración *Fibaro FGD212* para agregar la gestión de diferencias desde el firmware 3.5 (punto final 1 en firmware <= 3.4 punto final 0 en el objetivo solo de lo contrario)
-- Cambio de propiedad *Cerradura de la puerta* para agregar Desbloqueo (con tiempo de espera) en todos los dispositivos que usan esta propiedad
+- Modificación de la configuración de *Popp Strike Lock* para utilizar la propiedad «opening» (para el contacto)
+- Modificación de la configuración del *Fibaro FGD212* para añadir la gestión de diferencias a partir del firmware 3.5 (punto final 1 en firmware <= 3.4; punto final 0 solo en el destino, en caso contrario)
+- Modificación de la propiedad *Door Lock* para añadir el desbloqueo (con tiempo de espera) en todos los dispositivos que utilicen esta propiedad
 
-**Adiciones de configuración**
+**Nuevas configuraciones**
 
-- Configuración añadida *Enchufe inteligente Hank (HKZW-SO08)* (propiedades : Interruptor, poder, energía, voltaje, corriente, escena)
-- Configuración añadida *Atenuador de pie Idinio* (propiedades : Multinivel, Poder, Energía)
-- Se agregaron parámetros para *Enchufe inteligente Hank (HKZW-SO08)*
+- Se ha añadido la configuración del *Hank Smart Plug (HKZW-SO08)* (propiedades: Interruptor, Potencia, Energía, Tensión, Corriente, Escena)
+- Se ha añadido la configuración *Idinio foot dimmer* (propiedades: Multilevel, Power, Energy)
+- Se han añadido los parámetros para el *Hank Smart Plug (HKZW-SO08)*
 
-*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+*Si has realizado algún cambio o has añadido alguna configuración, realiza una sincronización y, a continuación, vuelve a cargar los comandos del equipo «recreando todos los comandos» tras la actualización.*
 
 # 21/11/2022
 
-**Arreglos**
+**Correcciones**
 
-- Cambiar en el *redes gráficas* : solo las primeras rutas directas se volverán rojas al pasar el mouse sobre un nodo para evitar el error en ciertas instalaciones y ciertos navegadores *Tamaño máximo de pila excedido* relacionado con las recursiones
+- Cambio en el *gráfico de redes*: solo las primeras rutas directas se mostrarán en rojo al pasar el cursor por encima de un nodo, para evitar, en determinadas instalaciones y navegadores, el error *Max Stack Size Exceeded* relacionado con las recursiones.
 
 **Mejoras**
 
-- Para tomar en consideración *actualizarNodoCC* como una propiedad de un comando creado manualmente para actualizar un CC
-- Adición de un *desplazamiento horizontal* en la pestaña/modal de red *tabla de ruteo* (Gracias @Salvialf)
-- Desplazamiento de *contador de pedidos* en el lado derecho de la página del equipo
+- Incorporación de *refreshNodeCC* como propiedad de un comando creado manualmente para actualizar un CC
+- Se ha añadido un *desplazamiento horizontal* en la ventana modal de red / pestaña *tabla de enrutamiento* (gracias, @Salvialf)
+- Se ha desplazado el *contador de pedidos* a la parte derecha de la página de equipamiento
 
-**Cambios de configuración**
+**Modificaciones de configuración**
 
-- Cambiar la configuración *Fibaro FGR223* usar el poder de la clase multinivel
-- Cambiar la configuración *Fibaro FGR222* usar el poder de la clase multinivel
-- Cambiar la configuración *Fibaro FGRM222* usar el poder de la clase multinivel
-- Cambiar la configuración *Devolo Mt02648* para usar propiedades y agregar configuraciones recomendadas
-- Cambiar la configuración *Devolo Mt02647* para usar propiedades y agregar configuraciones recomendadas
-- Cambiar la configuración *Cerradura Popp Strike* para usar las propiedades
-- Cambiar la configuración *Aeotec ZWA011* para usar las propiedades y agregar su imagen
+- Modificación de la configuración del *Fibaro FGR223* para aprovechar la potencia de la clase multinivel
+- Modificación de la configuración del *Fibaro FGR222* para aprovechar la potencia de la clase multinivel
+- Modificación de la configuración del *Fibaro FGRM222* para aprovechar la potencia de la clase multinivel
+- Modificación de la configuración del *Devolo Mt02648* para utilizar las propiedades y añadir los parámetros recomendados
+- Modificación de la configuración del *Devolo Mt02647* para utilizar las propiedades y añadir los parámetros recomendados
+- Modificación de la configuración de *Popp Strike Lock* para utilizar las propiedades
+- Modificación de la configuración del *Aeotec ZWA011* para utilizar sus propiedades y añadir su imagen
 
-*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+*Si has realizado algún cambio o has añadido alguna configuración, realiza una sincronización y, a continuación, vuelve a cargar los comandos del equipo «recreando todos los comandos» tras la actualización.*
 
 # 18/11/2022
 
 **Mejoras**
 
-- Acceso agregado a la interfaz de usuario de ZwaveJS *(en el menú Red Z-Wave, pestaña Acciones)*. No lo use para cambiar la configuración!
-- Adición de un puerto para el caso particular de algunas Raspberry Pi *(se añadirán más según sea necesario)*
-- Se agregó un contador de comando para cada equipo *(ignorando los 4 comandos técnicos)*
-- Añadida ayuda dinámica en el caso de cero comandos.
+- Se ha añadido un acceso a la interfaz ZwaveJS UI *(en el menú Red Z-Wave, pestaña Acciones)*. ¡No lo utilices para modificar la configuración!
+- Se ha añadido un puerto para el caso concreto de algunas Raspberry Pi *(se añadirán otros si es necesario)*
+- Incorporación de un contador de comandos para cada equipo *(sin tener en cuenta los 4 comandos técnicos)*
+- Se ha añadido una ayuda dinámica en caso de que no haya ningún comando.
 
 # 15/11/2022
 
 - Cambiar a versión estable
 
-# 05/04/2022
+# 04/05/2022
 
 - Beta 1ra fase

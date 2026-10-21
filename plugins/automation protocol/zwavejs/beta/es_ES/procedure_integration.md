@@ -1,64 +1,64 @@
-# Procédure d'Intégration
+# Procedimiento de integración
 
-Pour créer un fichier de configuration pour un nouveau produit, commencez par inclure ce produit dans Jeedom.
+Para crear un archivo de configuración para un nuevo producto, empieza por añadir ese producto a Jeedom.
 
-![alt text](../images/equipment.png)
+![texto alternativo](../images/equipment.png)
 
-Une fois sur la page du produit, cliquez sur le bouton **"Noeud"** pour faire apparaître cette fenêtre modale :
+Una vez en la página del producto, haz clic en el botón **«Nodo»** para que aparezca esta ventana modal:
 
-![alt text](../images/modal_noeud.png)
+![texto alternativo](../images/modal_noeud.png)
 
-Les informations importantes à récupérer sont :
+La información importante que hay que recopilar es:
 
-- **Identifiant :** XXX - XXX - XXX  
-- **Configuration :** XXX.json
+- **Identificador:** XXX - XXX - XXX
+- **Configuración:** XXX.json
 
-Le champ **Configuration** indique le nom à donner au fichier de configuration.  
-Exemple : `qmsw-0A1X8.json`
+El campo **Configuración** indica el nombre que se le debe dar al archivo de configuración.
+Ejemplo: `qmsw-0A1X8.json`
 
-Le champ **Identifiant** permet de déterminer :
-- le dossier dans lequel créer le fichier ;
-- la version à indiquer dans la configuration.
+El campo **Identificador** permite determinar:
+- la carpeta en la que se va a crear el archivo;
+- la versión que hay que indicar en la configuración.
 
-Le **premier nombre** de l'identifiant correspond au dossier.  
-Exemple : avec `1120`, il faut créer le fichier `qmsw-0A1X8.json` dans le dossier `shellyqubino_1120`.
+El **primer dígito** del identificador corresponde a la carpeta.
+Ejemplo: con `1120`, hay que crear el archivo `qmsw-0A1X8.json` en la carpeta `shellyqubino_1120`.
 
-> ⚠️ **Attention :** Le nom du dossier ne correspond pas toujours au nom du fabricant. Il faut **se baser sur le numéro** !  
-> Exemple : *Wintop* a pour numéro `151`, ce qui fait référence au dossier `schlage_151`.
+> ⚠️ **Atención:** El nombre de la carpeta no siempre coincide con el nombre del fabricante. ¡Hay que **guiarse por el número**!
+> Ejemplo: *Wintop* tiene el número `151`, que hace referencia a la carpeta `schlage_151`.
 
-Les **deuxième et troisième nombres** de l'identifiant correspondent à la **version**.  
-Exemple : Version `"2"` : `[ "142" ]`
+El **segundo y tercer dígito** del identificador corresponden a la **versión**.
+Ejemplo: Versión `"2"` : `[ "142" ]`
 
-![alt text](../images/config_exemple.png)
+![texto alternativo](../images/config_exemple.png)
 
-- Pour le champ `"name"`, utilisez le modèle du produit.  
-  Exemple : `"QMSW-0A1X8"`
-- Pour le champ `"type"`, indiquez le type de produit : *Micromodule, Relais, Type d'ouverture*, etc.
+- Para el campo `"name"`, utilice la ficha del producto.
+Ejemplo: `"QMSW-0A1X8"`
+- Para el campo `"type"`, indique el tipo de producto: *Micromódulo, relé, tipo de apertura*, etc.
 
 ---
 
-## Création de commandes
+## Creación de comandos
 
-La création automatique des commandes repose sur le champ `"properties"`.
+La creación automática de órdenes se basa en el campo `"properties"`.
 
-Commencez par cliquer sur le bouton **"Valeurs"**, qui ouvrira une modale similaire à celle-ci :
+Empieza haciendo clic en el botón **«Valores»**, lo que abrirá una ventana emergente similar a esta:
 
-![alt text](../images/modal_valeurs.png)
+![texto alternativo](../images/modal_valeurs.png)
 
-Les champs **"Manufacturer Specific"**, **"Configuration"** et **"Version"** peuvent être ignorés.
+Los campos **«Manufacturer Specific»**, **«Configuration»** y **«Version»** pueden omitirse.
 
-Les données intéressantes sont :
-- Le **nom des commandes**
-- leur **classe**
+Los datos interesantes son:
+- **nombre de los comandos**
+- su **clase**
 
-Dans le cas des **notifications**, on souhaite par exemple créer des commandes pour les alarmes de chaleur, ainsi que le niveau et le type d'alarme.
+En el caso de las **notificaciones**, se desea, por ejemplo, crear comandos para las alarmas de calor, así como el nivel y el tipo de alarma.
 
-Pour cela, on se réfère au fichier `Notification.json` dans le dossier `properties`.
+Para ello, hay que consultar el archivo `Notification.json` en la carpeta `properties`.
 
-![alt text](../images/notification.png)
+![texto alternativo](../images/notification.png)
 
-Une fois dans ce fichier, identifiez le type de propriété à utiliser.  
-Exemple : pour créer une commande d'alarme `"heat-sensor"`, on ajoute dans le fichier de configuration :
+Una vez en este archivo, identifica el tipo de propiedad que se va a utilizar.
+Ejemplo: para crear un comando de alarma `"heat-sensor"`, se añade lo siguiente al archivo de configuración:
 
 ```json
 "Notification|heat-sensor": {
