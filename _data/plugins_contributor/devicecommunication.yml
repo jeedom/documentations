@@ -900,9 +900,9 @@
       fr_FR: "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-pyhon-pour-jeedom/"
   changelog:
     stable:
-      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-pyhOn-pour-jeedom/"
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-pyhon-pour-jeedom/"
     beta:
-      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-pyhOn-pour-jeedom/"
+      fr_FR: "https://flobul-domotique.fr/liste-des-versions-du-plugin-pyhon-pour-jeedom/"
   description:
     fr_FR: "Ce plugin permet de créer un équipement pour chaque appareil identifié sur son compte hOn. La communication se fait uniquement par l'API non documentée hOn, aucune connexion directe entre Jeedom et l'appareil n'est réalisée. Les commandes générées lors de la synchronisation dépendent de l'appareil (chaque appareil fournit sa liste de commandes), elles dépendent aussi des informations remontées par l'API."
     en_US: "This plugin allows you to create equipment for each device identified on your hOn account. Communication is only via the undocumented hOn API; there is no direct connection between Jeedom and the device. The commands generated during synchronization depend on the device (each device provides its own list of commands) and on the information returned via the API."
