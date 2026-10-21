@@ -1,32 +1,33 @@
-# Changelog Nuki
+# Nuki Changelog
 
->**Important**
+>**IMPORTANT**
 >
->As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+>As a reminder, if there is no information about the update, it means that the update only involves documentation, translations, or text changes
 
-## 11/18/2024
+## 19/02/2025
 
-- Minor optimizations to avoid warnings in the event that a lock cannot be reached (battery failure for example))
+- Minor optimizations to prevent warnings when a lock is unreachable (e.g., due to a dead battery)
 - Jeedom version 4.4 required
 - Update of the equipment configuration page for Jeedom >= 4.3
-- Adding a command *Binary gate state* on the smart lock
+- Add a *Binary Door Status* command to the smart lock
 - Addition of a plugin config for the request timeout as well as the number of attempts for action commands
-- Setting default generic types on commands (only for newly created commands)
-- Fix: orders were not created after the first sync, it needed a second sync.
+- Set default generic types for commands (only for newly created commands)
+- Fixed: Commands were not created after the first sync; a second sync was required.
+- Minor corrections
 
-# 07/18/2020
+# 18/07/2020
 
 - Support for nuki Opener
 
-# 10/23/2019
+# 23/10/2019
 
 - Jeedom V4 support
 
-# 07/30/2018
+# 30/07/2018
 
 - Correction of the bug which displayed the equipment page at the bottom when the left banner was unfolded
 
-# 07/03/2018
+# 03/07/2018
 
 - Fixed a bug that multiplied locks during sync
 - Addition of command for homekit

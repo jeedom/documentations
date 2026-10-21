@@ -1,18 +1,19 @@
 # Registro de cambios Nuki
 
->**Importante**
+>**IMPORTANTE**
 >
->Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+>Recuerda que, si no hay información sobre la actualización, es porque esta se refiere únicamente a la actualización de la documentación, la traducción o el texto.
 
-## 18/11/2024
+## 19/02/2025
 
-- Optimizaciones menores para evitar advertencias en caso de que no se pueda alcanzar un bloqueo (fallo de la batería, por ejemplo))
-- Versión Jeedom 4.4 requeridos
+- Pequeñas optimizaciones para evitar avisos en caso de que no se pueda contactar con una cerradura (por ejemplo, por falta de batería).
+- Se requiere la versión 4.4 de Jeedom
 - Se actualizó la página de configuración del equipo para Jeedom >= 4.3
-- Agregar un comando *Estado de puerta binaria* en la cerradura inteligente
+- Se ha añadido un comando *Estado binario de la puerta* en la cerradura inteligente
 - Adición de una configuración de complemento para el tiempo de espera de la solicitud, así como la cantidad de intentos para los comandos de acción
-- Configuración de tipos genéricos predeterminados en comandos (solo para comandos recién creados))
-- Fix: los pedidos no se crearon después de la primera sincronización, necesitaba una segunda sincronización.
+- Definición de los tipos genéricos por defecto en los comandos (solo para los comandos recién creados)
+- Solución: los comandos no se creaban tras la primera sincronización, era necesaria una segunda sincronización.
+- Correcciones menores
 
 # 18/07/2020
 
@@ -26,7 +27,7 @@
 
 - Corrección del error que mostraba la página del equipo en la parte inferior cuando se desplegó el banner izquierdo
 
-# 07/03/2018
+# 03/07/2018
 
 - Se corrigió un error que multiplicaba los bloqueos durante la sincronización
 - Adición de comando para homekit

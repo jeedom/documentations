@@ -1,32 +1,33 @@
-# Changelog Nuki
+# Änderungsprotokoll Nuki
 
->**Wichtig**
+>**WICHTIG**
 >
->Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich ausschließlich um eine Aktualisierung der Dokumentation, der Übersetzung oder des Textes handelt.
 
-## 18.11.2024
+## 19/02/2025
 
-- Kleinere Optimierungen zur Vermeidung von Warnungen für den Fall, dass eine Sperre nicht erreicht werden kann (z. B. Batterieausfall))
-- Jeedom 4-Version.4 erforderlich
+- Kleinere Optimierungen, um Warnmeldungen zu vermeiden, falls ein Schloss nicht erreichbar ist (z. B. bei Ausfall der Batterie)
+- Jeedom-Version 4.4 erforderlich
 - Die Gerätekonfigurationsseite für Jeedom >= 4.3 wurde aktualisiert
-- Hinzufügen eines Befehls *Binärer Gate-Zustand* auf dem Smartlock
+- Hinzufügen eines Befehls *Binärer Türstatus* zum Smart Lock
 - Hinzufügen einer Plugin-Konfiguration für das Anforderungs-Timeout sowie die Anzahl der Versuche für Aktionsbefehle
-- Festlegen von standardmäßigen generischen Typen für Befehle (nur für neu erstellte Befehle)
-- Fix: Bestellungen wurden nach der ersten Synchronisierung nicht erstellt, es war eine zweite Synchronisierung erforderlich.
+- Festlegung der Standard-Generiktypen für Befehle (gilt nur für neu erstellte Befehle)
+- Behoben: Nach der ersten Synchronisierung wurden die Befehle nicht erstellt, es war eine zweite Synchronisierung erforderlich.
+- Kleinere Korrekturen
 
-# 18.07.2020
+# 18/07/2020
 
 - Unterstützung für Nuki Opener
 
-# 23.10.2019
+# 23/10/2019
 
 - Jeedom V4 Unterstützung
 
-# 30.07.2008
+# 30/07/2018
 
 - Korrektur des Fehlers, der die Ausrüstungsseite unten anzeigte, als das linke Banner entfaltet wurde
 
-# 07/03/2018
+# 03/07/2018
 
 - Es wurde ein Fehler behoben, durch den Sperren während der Synchronisierung vervielfacht wurden
 - Hinzufügen eines Befehls für das Homekit

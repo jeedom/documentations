@@ -1,41 +1,41 @@
 # Nuki Plugin
 
-Mit diesem Plugin können Sie Nuki-verbundene Schlösser über die Brücke steuern.
+Mit diesem Plugin lassen sich die vernetzten Nuki-Schlösser über die Bridge steuern.
 
 ## Plugin Konfiguration
 
-Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur aktivieren und dann die Bridge-Informationen konfigurieren.
+Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es lediglich aktivieren und anschließend die Bridge-Daten konfigurieren.
 
-Diese Informationen sind in der mobilen Anwendung verfügbar, wenn die Bridge konfiguriert wird, nachdem der API-Zugriff darauf aktiviert wurde.
+Diese Informationen sind in der mobilen App bei der Konfiguration der Bridge verfügbar, nachdem der API-Zugriff auf dieser aktiviert wurde.
 
 ![nuki1](../images/nuki1.png)
 
-Es ist dann notwendig, auf die Schaltfläche "Brücke konfigurieren" zu klicken, um der Brücke die Adresse von Jeedom für die Rückmeldung anzuzeigen.
+Anschließend müssen Sie auf die Schaltfläche „Bridge konfigurieren“ klicken, um der Bridge die Jeedom-Adresse für die Rückmeldung mitzuteilen.
 
 ## Gerätekonfiguration
 
-Die Synchronisierung von Schlössern ist über das Menü Plugins > Sicherheit > Nuki zugänglich:
+Die Synchronisierung der Schlösser ist über das Menü „Plugins > Sicherheit > Nuki“ zugänglich:
 
 ![nuki2](../images/nuki2.png)
 
-> **Notiz**
+> **Hinweis**
 >
-> Bestellungen werden automatisch erstellt und müssen nicht manuell hinzugefügt werden.
+> Die Bestellungen werden automatisch erstellt, es ist nicht erforderlich, sie manuell hinzuzufügen.
 
-## Mögliche Werte für den Befehl *Bundesland*
+## Mögliche Werte für den Befehl *Status*
 
-|     | **intelligentes Schloss**             | **offen**  | **Türsensor** |
+|     | **Smartlock** | **Türöffner**  | **Türsensor** |
 |-----|---------------------------|-------------|----------------|
-| 0   | Nicht kalibriert               | Nicht kalibriert | -              |
-| 1   | Gesperrt               | Online    | Deaktiviert     |
-| 2   | Freischalten            | -           | Abgeschlossen         |
-| 3   | Entsperrt             | rto aktiv  | Geöffnet        |
-| 4   | Ausgangssperre              | -           | Unbekannt       |
-| 5   | Entsperrt (Latch)    | Offen      | Kalibrierung      |
-| 6   | Entsperrt (lock n go) | -           | -              |
-| 7   | Entsperren (Latch)   | Öffnung   | -              |
-| 16  | -                         | -           | Nicht kalibriert    |
-| 240 | -                         | -           | Gelöscht       |
-| 253 | -                         | Anlaufen   | -              |
-| 254 | Motor stecken             | -           | -              |
-| 255 | Unbekannt                   | Unbekannt     | -              |
+| 0   | Nicht kalibriert | Nicht kalibriert | - |
+| 1   | Gesperrt | Online    | Deaktiviert     |
+| 2   | Entriegelung | - | Geschlossen |
+| 3   | Entriegelt | RTO aktiv  | Offen |
+| 4   | Verriegelung | - | Unbekannt |
+| 5   | Entriegelt (Riegel)    | Offen | Kalibrierung |
+| 6   | Entriegelt (Lock-n-Go) | - | - |
+| 7   | Entriegelung (Riegel)   | Öffnen   | - |
+| 16  | - | - | Nicht kalibriert    |
+| 240 | - | - | Gelöscht |
+| 253 | - | Start   | - |
+| 254 | Motor blockiert | - | - |
+| 255 | Unbekannt | Unbekannt     | - |
