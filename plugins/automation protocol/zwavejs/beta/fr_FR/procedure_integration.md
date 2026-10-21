@@ -2,11 +2,11 @@
 
 Pour créer un fichier de configuration pour un nouveau produit, commencez par inclure ce produit dans Jeedom.
 
-![alt text](../img/equipment.png)
+![alt text](../images/equipment.png)
 
 Une fois sur la page du produit, cliquez sur le bouton **"Noeud"** pour faire apparaître cette fenêtre modale :
 
-![alt text](../img/modal_noeud.png)
+![alt text](../images/modal_noeud.png)
 
 Les informations importantes à récupérer sont :
 
@@ -29,7 +29,7 @@ Exemple : avec `1120`, il faut créer le fichier `qmsw-0A1X8.json` dans le dossi
 Les **deuxième et troisième nombres** de l’identifiant correspondent à la **version**.  
 Exemple : Version `"2"` : `[ "142" ]`
 
-![alt text](../img/config_exemple.png)
+![alt text](../images/config_exemple.png)
 
 - Pour le champ `"name"`, utilisez le modèle du produit.  
   Exemple : `"QMSW-0A1X8"`
@@ -43,7 +43,7 @@ La création automatique des commandes repose sur le champ `"properties"`.
 
 Commencez par cliquer sur le bouton **"Valeurs"**, qui ouvrira une modale similaire à celle-ci :
 
-![alt text](../img/modal_valeurs.png)
+![alt text](../images/modal_valeurs.png)
 
 Les champs **"Manufacturer Specific"**, **"Configuration"** et **"Version"** peuvent être ignorés.
 
@@ -55,7 +55,7 @@ Dans le cas des **notifications**, on souhaite par exemple créer des commandes 
 
 Pour cela, on se réfère au fichier `Notification.json` dans le dossier `properties`.
 
-![alt text](../img/notification.png)
+![alt text](../images/notification.png)
 
 Une fois dans ce fichier, identifiez le type de propriété à utiliser.  
 Exemple : pour créer une commande d’alarme `"heat-sensor"`, on ajoute dans le fichier de configuration :
