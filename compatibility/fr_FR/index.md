@@ -53,17 +53,17 @@ Nos recommandations vont dépendre de différents facteurs :
 
 | Version            | Statut             |
 |--------------------|--------------------|
-| Debian 11 Bullseye | Recommandé         |
-| Debian 12 Bookworm | Supporté *(4.5)*   |
 | Debian 13 Trixie   | En cours de validation |
+| Debian 12 Bookworm | Recommandé *(4.5)* |
+| Debian 11 Bullseye | Fin de support     |
 | Debian 10 Buster et antérieur | Non supporté |
 
 ### PHP
 
 | Version            | Statut             |
 |--------------------|--------------------|
-| PHP 7              | Recommandé         |
-| PHP 8              | Supporté *(4.5)*   |
+| PHP 8.2            | Recommandé *(4.5)* |
+| PHP 7              | Fin de support     |
 | PHP 5.6            | Fin de support *(4.1)* |
 | PHP 5.5 et antérieur | Non supporté     |
 
