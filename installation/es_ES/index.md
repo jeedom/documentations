@@ -31,7 +31,7 @@ Sea cual sea el soporte elegido para implementar su instancia de Jeedom, encontr
 - [en un **PC/mini-PC**](baremetal.md)
 - [en una **máquina virtual**](vm.md)
 - [en una **Freebox Delta**](freeboxdelta.md)
-- [en un **contenedor LXC de Proxmox**](https://github.com/Salvialf/pve-scripts/blob/main/docs/ct/jeedom.md){:target="_blank"} *(no oficial)*
+- [en un **contenedor LXC de Proxmox**](https://github.com/Salvialf/pve-scripts/blob/main/docs/lxc/jeedom.md){:target="_blank"} *(no oficial)*
 - [en un **contenedor Docker**](docker.md) *(no recomendado)*
 - [en **línea de control**](cli.md) *(usuarios avanzados)*
 
