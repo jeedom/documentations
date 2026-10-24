@@ -345,16 +345,24 @@
     stable:
       fr_FR: "https://limad.github.io/plugins-docs/plugin-grdfConnect/fr_FR"
       en_US: "https://limad.github.io/plugins-docs/plugin-grdfConnect/en_US"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-grdfConnect/es_ES"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-grdfConnect/de_DE"
     beta:
       fr_FR: "https://limad.github.io/plugins-docs/plugin-grdfConnect/fr_FR"
       en_US: "https://limad.github.io/plugins-docs/plugin-grdfConnect/en_US"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-grdfConnect/es_ES"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-grdfConnect/de_DE"
   changelog:
     stable:
       fr_FR: "https://limad.github.io/plugins-docs/plugin-grdfConnect/fr_FR/changelog"
       en_US: "https://limad.github.io/plugins-docs/plugin-grdfConnect/en_US/changelog"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-grdfConnect/es_ES/changelog"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-grdfConnect/de_DE/changelog"
     beta:
       fr_FR: "https://limad.github.io/plugins-docs/plugin-grdfConnect/fr_FR/changelog"
       en_US: "https://limad.github.io/plugins-docs/plugin-grdfConnect/en_US/changelog"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-grdfConnect/es_ES/changelog"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-grdfConnect/de_DE/changelog"
   description:
     fr_FR: "Récupérer les informations de comptage gaz à partir de son compte-client GRDF ."
 - id: hargassner
