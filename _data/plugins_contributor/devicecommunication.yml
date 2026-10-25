@@ -1173,14 +1173,14 @@
   market_id: 4476
   doc:
     stable:
-      fr_FR: "https://ktn001.github.io/fr_FR/volvocars/index.html"
+      fr_FR: "https://docsjeedom.ockolly.ch/plugins/volvocars/fr_FR/index.html"
     beta:
-      fr_FR: "https://ktn001.github.io/fr_FR/volvocars/index.html"
+      fr_FR: "https://docsjeedom.ockolly.ch/plugins/volvocars/fr_FR/index.html"
   changelog:
     stable:
-      fr_FR: "https://ktn001.github.io/fr_FR/volvocars/changelog.html"
+      fr_FR: "https://docsjeedom.ockolly.ch/plugins/volvocars/fr_FR/changelog.html"
     beta:
-      fr_FR: "https://ktn001.github.io/fr_FR/volvocars/changelog.html"
+      fr_FR: "https://docsjeedom.ockolly.ch/plugins/volvocars/fr_FR/changelog.html"
   description:
     fr_FR: "Plugin pour l'intégration de véhicules Volvo dans Jeedom"
     en_US: "Plugin for integrating Volvo vehicles in Jeedom"
