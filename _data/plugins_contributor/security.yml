@@ -395,19 +395,23 @@
       fr_FR: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/fr_FR/"
       en_US: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/en_US/"
       es_ES: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/es_ES/"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/de_DE/"
     beta:
       fr_FR: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/fr_FR/"
       en_US: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/en_US/"
       es_ES: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/es_ES/"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/de_DE/"
   changelog:
     stable:
       fr_FR: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/fr_FR/changelog"
       en_US: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/en_US/changelog"
       es_ES: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/es_ES/changelog"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/de_DE/changelog"
     beta:
       fr_FR: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/fr_FR/changelog"
       en_US: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/en_US/changelog"
       es_ES: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/es_ES/changelog"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-netatmoSecurity/de_DE/changelog"
   description:
     fr_FR: "Plugin pour gérer les équipements Netatmo Sécurité et particulièrement les cameras, ainsi que certains équipements BTicino / Legrand partageant le même compte Netatmo (interphones Classe, serrures connectées, sirène). Sans emails intempestifs, Le plugin permet l’acquisition du live(snapshot ou vidéo) soit directement ou via le plugin Caméra sans changer les paramètres de sécurité de votre box. Les événements peuvent être actualisés en temps réel via un démon dédié, en complément du webhook Netatmo et du scan périodique. <br/> Connexion via API et/ou en local (si possible)"
     en_US: "Plugin to manage Netatmo Security equipments and particularly cameras, as well as some BTicino / Legrand devices sharing the same Netatmo account (Classe video door entry units, connected locks, siren). Without unwanted emails, the plugin allows the acquisition of live (snapshot or video) either directly or throuth the Camera plugin without changing the security settings of your box. Events can be refreshed in real time via a dedicated daemon, in addition to the Netatmo webhook and periodic polling. <br/> Connection via API and/or locally (if possible)"
