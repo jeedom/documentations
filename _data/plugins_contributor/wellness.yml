@@ -501,16 +501,24 @@
     stable:
       fr_FR: "https://limad.github.io/plugins-docs/plugin-naEnergie/fr_FR/"
       en_US: "https://limad.github.io/plugins-docs/plugin-naEnergie/en_US/"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-naEnergie/es_ES/"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-naEnergie/de_DE/"
     beta:
       fr_FR: "https://limad.github.io/plugins-docs/plugin-naEnergie/fr_FR/"
       en_US: "https://limad.github.io/plugins-docs/plugin-naEnergie/en_US/"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-naEnergie/es_ES/"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-naEnergie/de_DE/"
   changelog:
     stable:
       fr_FR: "https://limad.github.io/plugins-docs/plugin-naEnergie/fr_FR/changelog"
       en_US: "https://limad.github.io/plugins-docs/plugin-naEnergie/en_US/changelog"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-naEnergie/es_ES/changelog"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-naEnergie/de_DE/changelog"
     beta:
       fr_FR: "https://limad.github.io/plugins-docs/plugin-naEnergie/fr_FR/changelog"
       en_US: "https://limad.github.io/plugins-docs/plugin-naEnergie/en_US/changelog"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-naEnergie/es_ES/changelog"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-naEnergie/de_DE/changelog"
   description:
     fr_FR: " Plugin pour intégrer les équipements Netatmo Energie( Thermostat, Vannes, Thermostat OpenTherm) et Netatmo Météo dans Jeedom.<br/>Le plugin permet l'acquisition des informations de  votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).<br/>L'actualisation se fait via API et par retours webhook.<br/>Compatible avec le plugin mobile"
     en_US: " Plugin pour intégrer les équipements Netatmo Energie( Thermostat et Vannes) et Netatmo Météo dans Jeedom. Le plugin permet acquisition des informations relatives à votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).L'actualisation se fait via API et par retours webhooks. Compatible avec le plugin mobile"
