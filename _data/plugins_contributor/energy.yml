@@ -383,16 +383,24 @@
     stable:
       fr_FR: "https://limad.github.io/plugins-docs/plugin-helloWatt/fr_FR"
       en_US: "https://limad.github.io/plugins-docs/plugin-helloWatt/en_US"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-helloWatt/es_ES"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-helloWatt/de_DE"
     beta:
       fr_FR: "https://limad.github.io/plugins-docs/plugin-helloWatt/fr_FR"
       en_US: "https://limad.github.io/plugins-docs/plugin-helloWatt/en_US"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-helloWatt/es_ES"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-helloWatt/de_DE"
   changelog:
     stable:
       fr_FR: "https://limad.github.io/plugins-docs/plugin-helloWatt/fr_FR"
       en_US: "https://limad.github.io/plugins-docs/plugin-helloWatt/en_US"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-helloWatt/es_ES"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-helloWatt/de_DE"
     beta:
       fr_FR: "https://limad.github.io/plugins-docs/plugin-helloWatt/fr_FR/changelog"
       en_US: "https://limad.github.io/plugins-docs/plugin-helloWatt/en_US/changelog"
+      es_ES: "https://limad.github.io/plugins-docs/plugin-helloWatt/es_ES/changelog"
+      de_DE: "https://limad.github.io/plugins-docs/plugin-helloWatt/de_DE/changelog"
   description:
     fr_FR: "Récupérer les informations de comptage Linky/Gazpar à partir de son compte-client 'Hello Watt'.<br/> Permet également de déterminer le couleur du jour Tempo et récuperer les informations d'injection solaire"
 - id: hydrolinkhome
