@@ -1,14 +1,24 @@
 # Registro de cambios Enedis
 
->**Importante**
+>**IMPORTANTE**
 >
->Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
+>Si no hay información sobre la actualización, es porque esta se refiere únicamente a cambios en la documentación, la traducción o el texto.
 
-# 11/06/2023
+# 26/10/2026
+
+- Se requiere como mínimo Jeedom 4.4
+- La plantilla del widget ahora se activa o desactiva desde el campo **Plantilla del widget** de la configuración avanzada del dispositivo (pestaña **Información**).
+- Se ha añadido un campo **Descripción del contador** en la página del equipo
+- La incorporación de historiales de datos diarios, mensuales, anuales y de potencia máxima se realiza ahora por año completo, para obtener totales mensuales y anuales precisos.
+- Corrección de los totales mensuales y anuales cuando Enedis no facilita los datos del día 1 del mes
+- Corrección de las fechas que aparecen en los registros al recuperar los datos horarios
+- Los historiales diarios, mensuales, anuales y de potencia máxima ya registrados se corrigen ahora cuando los datos de Enedis llegan con retraso o se modifican.
+
+# 06/11/2023
 
 - transición a la versión estable
 
-# 10/04/2023
+# 04/10/2023
 
 - Llamadas actualizadas para que sean compatibles con la API V5 Enedis Data-Connect
 
@@ -30,18 +40,18 @@
 
 - Se corrigió un error de visualización de datos de producción en caso de múltiples widgets en la página
 
-# 08/02/2022
+# 02/08/2022
 
 - Optimización de llamadas a servidores de Enedis
 
 # 24/01/2022
 
-- Eliminación del comando "Máxima producción de energía""
+- Eliminación del comando «Potencia máxima de producción»
 
 # 05/01/2022
 
 - Se corrigió un error en la recopilación de datos el 1 de enero
-- Adición de un indicador en el widget para saber si los datos están actualizados *(verde = OK, rojo = KO, naranja = algunos datos KO)*
+- Se ha añadido un indicador luminoso en el widget para saber si los datos están actualizados *(verde = OK, rojo = NO, naranja = algunos datos NO)*
 
 # 03/06/2021
 
@@ -56,37 +66,37 @@
 
 # 18/02/2021
 
-- Se agregó administración de dependencias para confirmar la presencia de `php-mbstring` ausente en algunas instalaciones
+- Se ha añadido la gestión de dependencias para confirmar la presencia de `php-mbstring` ausente en algunas instalaciones
 - Nuevo ícono de complemento más acorde con las prerrogativas de Enedis
 
 # 01/02/2021
 
 - Reescritura completa del complemento que ahora usa la API de Enedis Data-Connect
-- Añadiendo el comando **Potencia máxima / día**
+- Se ha añadido el comando **Potencia máxima/día**
 - Posibilidad de recuperar consumos, producción o ambas medidas a la vez
 - Generación automática de historiales de los últimos 3 años al crear pedidos
 - Reescritura de cuadros de mando y plantillas de widgets móviles
-- Se agregó la posibilidad de elegir el color de fondo de la plantilla del widget *(o transparente)*
+- Se ha añadido la posibilidad de elegir el color de fondo de la plantilla del widget *(o transparente)*
 - Reescritura de documentación
 
 # 10/09/2020
 
-- Se corrigió un error de visualización en la vista móvil sin la plantilla de widget.
+- Se ha corregido un error de visualización en la vista móvil sin la plantilla del widget.
 
-# 09/06/2020
+# 06/09/2020
 
-- Adición de la plantilla para la versión del tablero.
-- Adición de la plantilla para la versión móvil.
-- Optimización del número de llamadas a los servidores de Enedis.
+- Se ha añadido la plantilla para la versión del panel de control.
+- Se ha añadido la plantilla para la versión móvil.
+- Optimización del número de solicitudes a los servidores de Enedis.
 
 # 21/08/2020
 
-- Recuperación de información en un minuto aleatorio para no sobrecargar los servidores de Enedis.
+- Recuperación de la información en un minuto aleatorio para no sobrecargar los servidores de Enedis.
 
 # 17/08/2020
 
-- Cambiar a estable.
+- Cambio a modo estable.
 
 # 12/08/2020
 
-- Suministro del complemento en versión beta.
+- El plugin ya está disponible en versión beta.

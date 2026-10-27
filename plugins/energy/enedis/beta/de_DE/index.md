@@ -1,108 +1,84 @@
 # Enedis Plugin
 
-Plugin zur Wiederherstellung von Stromverbrauchsdaten von intelligenten Zählern *(Linky zum Beispiel)* durch die Befragung der [Kundenkonto **Enedis**](https://mon-compte.enedis.fr/auth/XUI/#login/&realm=/enedis&forward=true){:target = "\_ leer"}.
+Plugin zum Abrufen der Stromverbrauchsdaten von intelligenten Stromzählern *(z. B. Linky)* durch Abfrage des [Kundenkonto **Enedis**](https://mon-compte.enedis.fr/auth/XUI/#login/&realm=/enedis&forward=true){:target="\_blank"}.
 
->**Wichtig**
->
->Das Plugin wurde im Februar 2021 komplett neu geschrieben **die offizielle Enedis Data-Connect API**. Wenn Sie das Plugin zuvor verwendet haben, laden wir Sie ein, ein neues Gerät zu erstellen oder alle Steuerelemente eines früheren Geräts zu löschen.
+Es ist möglich, direkt in einem Gerät auf die Daten zum **Verbrauch**, zur **Erzeugung** oder zu beiden Messarten zuzugreifen.
 
-Es ist möglich, auf Daten von zuzugreifen **Verbrauch**, von **Produktion** oder zu den 2 Messarten direkt in einem Gerät.
+Es werden 5 Verbrauchswerte angezeigt, sowie dieselben 4 Werte ohne die maximale Leistung bei der Erzeugung:
+- der **stündliche Verbrauch** pro halbe Stunde *(in kW)*.
+- der **tägliche Verbrauch** *(in kWh)*.
+- der **monatliche Verbrauch** *(in kWh)*.
+- der **Jahresverbrauch** *(in kWh)*.
+- die **maximale Leistung** *(in kVA)*.
 
-Für jede Messart werden 5 Daten angegeben :
-- die **stündlicher Verbrauch** pro halbe Stunde *(in kW)*.
-- die **Täglicher Verbrauch** *(in kWh)*.
-- die **monatlicher Verbrauch** *(in kWh)*.
-- die **Jahresverbrauch** *(in kWh)*.
-- die **maximale Kraft** *(in kVA)*.
+Da Enedis die Daten nicht in Echtzeit zur Verfügung stellt, ruft das Plugin täglich die Daten des Vortags ab. Solange noch nicht alle Daten abgerufen wurden, fragt es die Enedis-Server bis 19 Uhr alle 30 Minuten erneut ab und setzt den Vorgang am nächsten Morgen fort.
 
->**INFORMATION**
->
->Da die Daten nicht in Echtzeit verfügbar sind, ruft das Plugin die Stromverbrauchsdaten vom Vortag ab.
+Bei jedem Abruf werden die Daten zu Tag, Monat, Jahr und maximaler Leistung seit dem 1. Januar des laufenden Jahres sowie die stündlichen Daten der letzten 7 Tage abgefragt. Die bereits gespeicherten historischen Daten werden an die Daten von Enedis angepasst: Eine verspätet übermittelte oder von Enedis korrigierte Angabe aktualisiert die entsprechenden Werte.
 
-Solange das Plugin nicht alle Daten vom Vortag abgerufen hat, fragt es weiterhin alle 30 Minuten die Enedis-Server ab, ansonsten werden die Aufrufe bis zum nächsten Tag ausgesetzt.
+# Konfiguration
 
-# Configuration
-
-Wie jedes Jeedom-Plugin auch das Plugin **Enedis** muss nach der Installation aktiviert werden.
+Wie jedes Jeedom-Plugin muss auch das **Enedis**-Plugin nach der Installation aktiviert werden.
 
 ## Plugin Konfiguration
 
-Wenn Sie dies noch nicht getan haben, autorisieren Sie zunächst die Freigabe von Enedis-Daten mit Jeedom, indem Sie auf die Schaltfläche klicken **Autorisieren Sie den Zugriff auf Enedis-Server : Ich greife auf meinen Enedis-Kundenbereich zu** von der Plugin-Konfigurationsseite :
+Falls noch nicht geschehen, erlauben Sie zunächst die Weitergabe von Enedis-Daten an Jeedom, indem Sie auf der Konfigurationsseite des Plugins auf die Schaltfläche **Zugriff auf die Enedis-Server erlauben: Ich gehe zu meinem Enedis-Kundenbereich** klicken:
 
-![Lien espace-client Enedis](../images/link_enedis.png)
+![Link zum Enedis-Kundenbereich](../images/link_enedis.png)
 
-Sie werden dann zu dieser Seite weitergeleitet, auf der Sie informieren müssen **Ihre Anmeldedaten für den Jeedom-Markt** Klicken Sie dann auf die Schaltfläche **Bestätigen** :
+Sie werden dann auf diese Seite weitergeleitet, auf der Sie **Ihre Anmeldedaten für den Jeedom-Market** eingeben und anschließend auf die Schaltfläche **Bestätigen** klicken müssen:
 
-![Authentification compte Market Jeedom](../images/Auth_Jeedom.png)
+![Authentifizierung des Jeedom-Market-Kontos](../images/Auth_Jeedom.png)
 
-Weiterleitung zur Enedis-Einwilligungsseite, auf der dies erforderlich ist **Aktivieren Sie das Kontrollkästchen** und klicken Sie auf **Bestätigen** :
+Weiterleitung zur Einwilligungsseite von Enedis, auf der Sie **das Kästchen ankreuzen** und auf **Bestätigen** klicken müssen:
 
-![Autorisation Enedis](../images/Auth_Enedis.png)
+![Genehmigung durch Enedis](../images/Auth_Enedis.png)
 
-Sobald die Datenfreigabe überprüft wurde, wird diese Seite angezeigt :
+Sobald die Datenfreigabe bestätigt wurde, wird folgende Seite angezeigt:
 
-![Succès](../images/Auth_Enedis_success.png)
+![Erfolg](../images/Auth_Enedis_success.png)
 
->**Wichtig**
+>**WICHTIG**
 >
->Wenn Sie auf keine dieser Seiten zugreifen können, deaktivieren Sie den Browser-Werbeblocker.
+>Wenn Sie eine dieser Seiten nicht aufrufen können, deaktivieren Sie bitte den Werbeblocker Ihres Browsers.
 
 ## Gerätekonfiguration
 
-Zugriff auf die verschiedenen Geräte **Enedis**, Gehe zum Menü **Plugins → Energie → Enedis**.
+Um auf die verschiedenen **Enedis**-Geräte zuzugreifen, gehen Sie zum Menü **Plugins → Energie → Enedis**. Über die Schaltfläche **+ Hinzufügen** können Sie einen neuen Zähler/PDL hinzufügen.
 
->**INFORMATION**
->
->Die Schaltfläche **+ Hinzufügen** Ermöglicht das Hinzufügen eines neuen Messgeräts / einer neuen PDL.
+Sobald die Datenfreigabe auf der Konfigurationsseite des Plugins autorisiert wurde, müssen nur noch **die Identifikationsnummer der betreffenden Lieferstelle** *(PDL)* und die **Art der Messung**, die abgerufen werden soll, eingegeben werden.
 
-Nachdem die Datenfreigabe auf der Plugin-Konfigurationsseite autorisiert wurde, müssen Sie nur noch eingeben **die Identifikationsnummer der Lieferstelle** besorgt *(PDL)* und der **Art der Messung** zurück zu bekommen.
+Bei der ersten Datensicherung eines aktiven und konfigurierten Geräts erstellt das Plugin automatisch die erforderlichen Befehle und integriert die auf der Enedis-Website verfügbaren Verlaufsdaten ab dem 1. Januar des laufenden Jahres. Dieser Vorgang kann mehrere Minuten dauern; Sie können den Fortschritt im Menü **Analyse → Protokolle** verfolgen *(Protokolle in ``debug``)*.
 
-Während der ersten Sicherung eines aktiven und konfigurierten Geräts erstellt das Plugin automatisch die erforderlichen Befehle und integriert die seit dem 1. Januar des laufenden Jahres auf der Enedis-Site verfügbaren Historien. Dieser Vorgang dauert wahrscheinlich einige Minuten. Sie können den Fortschritt über das Menü verfolgen **Analyse → Protokolle** *(meldet sich an ``debug``)*.
-
->**INFORMATION**
->
->Die stündlichen Verbrauchsdaten werden höchstens in den letzten 7 Tagen abgerufen.
-
-Wenn Sie nicht aktiviert haben **Erfassung und Erfassung des stündlichen Verbrauchs** in Ihrem Enedis-Konto müssen Sie das Kästchen ankreuzen **Stündliche Daten : Deaktivieren** damit die entsprechenden Aufträge nicht erstellt werden.
+Wenn Sie **die Erfassung und Speicherung des stündlichen Verbrauchs** in Ihrem Enedis-Konto nicht aktiviert haben, müssen Sie das Kontrollkästchen **Stündliche Daten: Deaktivieren** anklicken, damit die entsprechenden Befehle nicht erstellt werden.
 
 # Daten hinzufügen
 
-Es ist möglich, Historien bei Bedarf bis zu 3 Jahren direkt von der Enedis-Site aus zu integrieren. Klicken Sie dazu einfach auf die blaue Schaltfläche **Historische Ergänzungen** von der Registerkarte **Aufträge** eines Ausrüstungsgegenstandes in der Spalte **Aktion** der betreffenden Bestellung :
+Auf Wunsch können die Verbrauchsdaten der vergangenen Jahre von den Enedis-Servern integriert werden. Klicken Sie dazu einfach auf die blaue Schaltfläche **Verbrauchsdaten hinzufügen** auf der Registerkarte **Befehle** eines Geräts in der Spalte **Aktion** des betreffenden Befehls:
 
-![Ajout d'historiques](../images/enedis_addHistory.png)
+![Verlaufsdaten hinzufügen](../images/enedis_addHistory.png)
 
-Wählen Sie dann das Startdatum und klicken Sie auf **In Ordnung** um den Prozess zu initiieren.
+Für die Steuerungen „Tag“ und „Maximalleistung“ wählen Sie das Startjahr aus den letzten drei Jahren aus: Die Daten für Tag, Monat, Jahr und Maximalleistung werden vom 1. Januar dieses Jahres bis zum 1. Januar des laufenden Jahres berücksichtigt.
 
-Die Daten für Tag, Monat, Jahr und maximale Leistung werden ab dem gewählten Datum bis zum 1. Januar des laufenden Jahres integriert. Die stündlichen Daten werden, wenn sie vorliegen, bis zu 7 Tage nach dem gewählten Datum integriert.
+Für zeitgesteuerte Bestellungen wählen Sie bitte das Startdatum aus, wobei der Zeitraum auf die letzten drei Jahre beschränkt ist: Die Daten werden in den folgenden sieben Tagen integriert, was der von Enedis festgelegten maximalen Dauer entspricht.
 
->**INFORMATION**
->
->Diese zeitlichen Einschränkungen werden von Enedis festgelegt.
+Klicken Sie anschließend auf **OK**, um die Integration zu starten.
 
 # Widget-Vorlage
 
->**INFORMATION**
->
->Die Widget-Vorlage wird sowohl auf Desktop- als auch auf Mobilversionen angezeigt.
-
-Das Plugin bietet die Möglichkeit, Verbrauchs- und / oder Produktionsdaten in einer Widget-Vorlage anzuzeigen, die das Erscheinungsbild eines Zählers imitiert *Linky*. Der Klick auf die Schaltfläche "**- \.| +**" ermöglicht den Wechsel vom Verbrauch zur Produktion für diejenigen, die Zugang zu zwei Arten von Maßnahmen haben. Ein Indikator informiert Sie auch darüber, ob die Daten aktuell sind oder nicht *(grün = alle Daten sind aktuell, orange = einige Daten sind nicht aktuell, rot = keine Daten sind aktuell)*.
+Das Plugin bietet die Möglichkeit, Verbrauchs- und/oder Erzeugungsdaten in einer Widget-Vorlage anzuzeigen, die das Aussehen eines *Linky*-Zählers nachahmt, und zwar sowohl in der Desktop- als auch in der mobilen Version. Durch Klicken auf die Schaltfläche „**- \| +**“ kann zwischen Verbrauch und Erzeugung umgeschaltet werden, sofern beide Messarten verfügbar sind. Eine Kontrollleuchte zeigt zudem an, ob die Daten aktuell sind oder nicht *(grün = alle Daten sind aktuell, orange = einige Daten sind nicht aktuell, rot = keine Daten sind aktuell)*.
 
 ![Widget-Vorlage](../images/enedis_screenshot1.png)
 
-Um diese Option zu aktivieren, aktivieren Sie einfach das Kontrollkästchen **Ermöglichen** Sektion **Widget-Vorlage** auf der allgemeinen Seite der betreffenden Ausrüstung. Sobald die Widget-Vorlage aktiviert ist, gehen Sie zur Registerkarte **Anzeige** aus der Konfiguration des Geräts, um die Hintergrundfarbe des Widgets auszuwählen *(„Vorlage : background-color` - standardmäßig 163, 204, 40)* und/oder Titelfarbe *(„Vorlage : titlebar-color` - standardmäßig transparent)* abhängig von der Jeedom-Zugriffsversion *(Desktop oder Handy)*.
+Die Widget-Vorlage ist standardmäßig aktiviert. Um zum Standard-Widget von Jeedom zurückzukehren, deaktivieren Sie einfach das Kontrollkästchen **Widget-Vorlage** auf der Registerkarte **Informationen** in den erweiterten Einstellungen des Geräts.
 
-![Personnaliser le widget](../images/enedis_customizeWidget.png)
+Die Farben der Vorlage lassen sich auf der Registerkarte **Anzeige** in den erweiterten Einstellungen des Geräts separat für die Desktop- und die mobile Version anpassen:
+- Hintergrundfarbe *(`Template : background-color`)*, grün am Zähler *(163, 204, 40)*, wenn das Kontrollkästchen **Standard** aktiviert ist.
+- die Farbe der Titelleiste *(`Template : titlebar-color`)*, transparent bei der Erstellung des Geräts.
 
->**TIPP**
+![Das Widget anpassen](../images/enedis_customizeWidget.png)
+
+# Häufig gestellte Fragen
+
+>**In den Protokollen werden Fehler beim Abrufen der Daten angezeigt, obwohl diese auf der Enedis-Website sichtbar sind**
 >
->Das Feld "Standard" ermöglicht es Ihnen, die Standardfarben der Kachel beizubehalten.
-
-# FAQ
-
->**Ich habe "Error on enedis json return"-Fehler in den Protokollen, die Daten sind jedoch auf der Enedis-Site sichtbar**
->
->Es kommt manchmal vor, dass Sie direkt auf die Enedis-Site gehen müssen, um die neuesten AGB zu validieren, um erneut auf die Daten zuzugreifen. Manchmal ist es auch notwendig, den Jeedom / Enedis-Link von der Plugin-Konfigurationsseite zu ersetzen.
-
->**Ich habe keine Daten zu Tag/Monat/Jahr für den 31. Dezember 2021**
->
->Um diese Daten wiederherzustellen, klicken Sie einfach auf die Schaltfläche **Historische Ergänzungen** der Bestellung **Konsumtag** und wählen Sie als Abreisedatum den 1. Januar 2021.
+>Manchmal muss man direkt auf die Enedis-Website gehen, um die aktuellsten Nutzungsbedingungen zu akzeptieren und wieder Zugriff auf die Daten zu erhalten. Manchmal ist es auch erforderlich, die Verbindung zwischen Jeedom und Enedis über die Konfigurationsseite des Plugins neu herzustellen.

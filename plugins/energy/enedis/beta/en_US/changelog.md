@@ -1,8 +1,18 @@
-# Changelog Enedis
+# Enedis Changelog
 
->**Important**
+>**IMPORTANT**
 >
->If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
+>If there is no information about the update, it means that the update only involves documentation, translations, or text.
+
+# 26/10/2026
+
+- Jeedom 4.4 or higher required
+- The widget template is now active or disabled from the **Widget Template** field in the device's advanced settings (**Information** tab)
+- Added a **Meter Description** field to the device page
+- Data history for day, month, year, and maximum power is now recorded on a full-year basis to ensure accurate monthly and annual totals
+- Correction of monthly and annual totals when Enedis does not provide data on the 1st of the month
+- Fixed the dates displayed in the logs when retrieving hourly data
+- The daily, monthly, and annual records, as well as the maximum power records that have already been saved, are now corrected when Enedis data arrives late or is modified
 
 # 06/11/2023
 
@@ -18,15 +28,15 @@
 - Removed dependencies already needed for core
 - The widget template color settings are now in the equipment configuration, Display tab, Widget section
 
-# 10/23/2022
+# 23/10/2022
 
 - transition to stable version
 
-# 10/18/2022
+# 18/10/2022
 
 - Updated command list for Jeedom v4.3
 
-# 08/15/2022
+# 15/08/2022
 
 - Fixed a production data display bug in case of multiple widgets on the page
 
@@ -34,59 +44,59 @@
 
 - Optimization of calls to Enedis servers
 
-# 01/24/2022
+# 24/01/2022
 
-- Removal of the "Maximum Power Production" command"
+- Removal of the "Max Power Output" command
 
-# 01/05/2022
+# 05/01/2022
 
 - Fixed a bug on data collection on January 1st
-- Addition of an indicator on the widget to know if the data is up to date *(green = OK, red = KO, orange = some data KO)*
+- Added an indicator light to the widget to show whether the data is up to date *(green = OK, red = not OK, orange = some data not OK)*
 
-# 06/03/2021
+# 03/06/2021
 
 - Correction to prevent auto-programming from being stopped in rare cases
 
-# 05/18/2021
+# 18/05/2021
 
 - Implementation of an auto-programming system
 - Possibility of integrating histories on demand
 - Better data processing and integration
 - Reorganization of configuration settings, files and documentation
 
-# 02/18/2021
+# 18/02/2021
 
-- Added dependency management to confirm the presence of `php-mbstring` absent on some installations
+- Added dependency management to confirm the presence of `php-mbstring` not available on some systems
 - New plugin icon more in line with Enedis prerogatives
 
-# 02/01/2021
+# 01/02/2021
 
 - Complete rewrite of the plugin which now uses the Enedis Data-Connect API
-- Adding the command **Max power / day**
+- Added the **Max Power/Day** command
 - Possibility of recovering consumption, production or both measurements at the same time
 - Automatic generation of histories for the last 3 years when creating orders
 - Rewriting of dashboard & mobile widget templates
-- Added the possibility to choose the background color of the widget template *(or transparent)*
+- Added the option to choose the background color of the widget template *(or transparent)*
 - Documentation rewrite
 
-# 09/10/2020
+# 10/09/2020
 
-- Fixed a display bug in mobile view without the widget template.
+- Fixed a display bug in mobile view when the widget template is not used.
 
 # 06/09/2020
 
-- Addition of the template for dashboard version.
-- Addition of the template for mobile version.
-- Optimization of the number of calls to Enedis servers.
+- Added the template for the dashboard version.
+- Added the template for the mobile version.
+- Optimizing the number of requests to Enedis servers.
 
-# 08/21/2020
+# 21/08/2020
 
-- Retrieval of information at a random minute so as not to overload the Enedis servers.
+- Retrieving information at a random minute to avoid overloading the Enedis servers.
 
-# 08/17/2020
+# 17/08/2020
 
-- Switching to stable.
+- Switched to stable.
 
-# 08/12/2020
+# 12/08/2020
 
-- Provision of the plugin in beta version.
+- The plugin is now available in beta.

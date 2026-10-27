@@ -1,108 +1,84 @@
 # Enedis plugin
 
-Plugin allowing the recovery of electricity consumption data from smart meters *(linky for example)* by questioning the [customer account **Enedis**](https://mon-compte.enedis.fr/auth/XUI/#login/&realm=/enedis&forward=true){:target = "\_ blank"}.
+Plugin that retrieves electricity consumption data from smart meters *(such as Linky)* by querying the [**Enedis** customer account](https://mon-compte.enedis.fr/auth/XUI/#login/&realm=/enedis&forward=true){:target="\_blank"}.
 
->**Important**
->
->The plugin was completely rewritten in February 2021 to use **the official Enedis Data-Connect API**. If you used the plugin before, we invite you to create a new equipment or to delete all the controls of a previous equipment.
+You can access data on **consumption**, **production**, or both types of measurements directly from a device.
 
-It is possible to access data from **consumption**, of **production** or to the 2 types of measurement directly in a device.
+5 data points are reported for consumption, and the same 4 without the maximum power for production:
+- **Hourly consumption** by half-hour *(in kW)*.
+- **daily consumption** *(in kWh)*.
+- **monthly consumption** *(in kWh)*.
+- **annual consumption** *(in kWh)*.
+- the **maximum power** *(in kVA)*.
 
-5 data are reported for each type of measurement :
-- the **hourly consumption** per half hour *(in kW)*.
-- the **daily consumption** *(in kWh)*.
-- the **monthly consumption** *(in kWh)*.
-- the **annual consumption** *(in kWh)*.
-- the **max power** *(in kVA)*.
+Since Enedis does not provide data in real time, the plugin retrieves the previous day's data each day. Until it has retrieved all of the data, it queries the Enedis servers again every 30 minutes until 7:00 p.m., then resumes the next morning.
 
->**INFORMATION**
->
->As the data is not made available in real time, the plugin retrieves the electricity consumption data from the day before each day.
+Each time data is retrieved, the day, month, year, and maximum power data are queried starting from January 1 of the current year, along with hourly data for the past 7 days. Previously recorded historical data is realigned with Enedis data: if Enedis provides data late or corrects it, the relevant values are updated.
 
-As long as the plugin has not retrieved all the data from the previous day, it continues to query the Enedis servers every 30 minutes, otherwise the calls are suspended until the next day.
+# Setup
 
-# Configuration
-
-Like any Jeedom plugin, the plugin **Enedis** must be activated after installation.
+Like any Jeedom plugin, the **Enedis** plugin must be enabled after installation.
 
 ## Plugin configuration
 
-If you haven't already done so, start by authorizing the sharing of Enedis data with Jeedom by clicking on the button **Authorize access to Enedis servers : I access my Enedis customer area** from the plugin configuration page :
+If you haven't already done so, start by authorizing the sharing of Enedis data with Jeedom by clicking the **Authorize access to Enedis servers: Access my Enedis customer portal** button on the plugin's configuration page:
 
-![Lien espace-client Enedis](../images/link_enedis.png)
+![Link to the Enedis customer portal](../images/link_enedis.png)
 
-You are then redirected to this page on which you must inform **your login details for the Jeedom market** then click on the button **Validate** :
+You will then be redirected to this page, where you must enter **your Jeedom Market credentials** and then click the **Validate** button:
 
-![Authentification compte Market Jeedom](../images/Auth_Jeedom.png)
+![Jeedom Market Account Authentication](../images/Auth_Jeedom.png)
 
-Redirection to the Enedis consent page on which it is necessary **check the box** and click on **Validate** :
+You will be redirected to the Enedis consent page, where you must **check the box** and click **Submit**:
 
-![Autorisation Enedis](../images/Auth_Enedis.png)
+![Enedis Authorization](../images/Auth_Enedis.png)
 
-Once the data sharing is validated, this page is displayed :
+Once data sharing has been approved, this page appears:
 
-![Succès](../images/Auth_Enedis_success.png)
+![Success](../images/Auth_Enedis_success.png)
 
->**Important**
+>**IMPORTANT**
 >
->If you are unable to access any of these pages, disable the browser ad blocker.
+>If you are unable to access one of these pages, disable your browser's ad blocker.
 
 ## Equipment configuration
 
-To access the different equipment **Enedis**, go to the menu **Plugins → Energy → Enedis**.
+To access the various **Enedis** devices, go to the **Plugins → Energy → Enedis** menu. The **+ Add** button lets you add a new meter/PDL.
 
->**INFORMATION**
->
->The button **+ Add** allows you to add a new meter / PDL.
+Once data sharing has been authorized on the plugin's configuration page, all that's left to do is enter **the identification number of the relevant Delivery Point** *(PDL)* and the **type of measurement** to be retrieved.
 
-Once data sharing has been authorized from the plugin configuration page, all you have to do is enter **the identification number of the Delivery Point** concerned *(PDL)* and the **type of measurement** to get back.
+When you first back up an active and configured device, the plugin will automatically create the necessary commands and import the historical data available on the Enedis website dating back to January 1 of the current year. This process may take several minutes; you can track its progress from the **Analysis → Logs** menu *(logs in ``debug``)*.
 
-During the 1st backup of an active and configured device, the plugin will automatically create the necessary commands and integrate the histories available on the Enedis site since January 1st of the current year. This process is likely to take several minutes, you can follow the progress from the menu **Analysis → Logs** *(logs in ``debug``)*.
-
->**INFORMATION**
->
->Hourly consumption data is retrieved over the last 7 days at most.
-
-If you have not activated **recording and collecting hourly consumption** on your Enedis account, you must tick the box **Hourly data : Disable** so that the corresponding orders are not created.
+If you have not enabled **recording and collection of hourly consumption** in your Enedis account, you will need to check the **Hourly Data: Disable** box so that the corresponding commands are not created.
 
 # Adding data
 
-It is possible to integrate histories on demand, up to 3 years back, directly from the Enedis site. To do so, just click on the blue button **Historical additions** from the tab **Orders** of an item of equipment, in the column **Action** of the order concerned :
+You can import historical data from previous years from the Enedis servers upon request. To do so, simply click the blue **Add Historical Data** button on the **Commands** tab for a device, in the **Action** column for the relevant command:
 
-![Ajout d'historiques](../images/enedis_addHistory.png)
+![Adding History](../images/enedis_addHistory.png)
 
-Then choose the start date and click on **Okay** to initiate the process.
+For daily and maximum power commands, select the start year from the previous 3 years: the data for day, month, year, and maximum power will be included from January 1 of that year through January 1 of the current year.
 
-The day, month, year and maximum power data will be integrated from the date chosen until January 1 of the current year. The hourly data, when they are, will be integrated up to 7 days after the chosen date.
+For scheduled commands, select a start date within the last 3 years: the data will be integrated over the following 7 days, which is the maximum duration set by Enedis.
 
->**INFORMATION**
->
->These time constraints are set by Enedis.
+Then click **OK** to start the integration.
 
 # Widget template
 
->**INFORMATION**
->
->The widget template will be displayed on both desktop and mobile versions.
-
-The plugin offers the possibility of displaying consumption and / or production data in a widget template imitating the appearance of a meter *Linky*. The click on the button "**- \| +**" allows to switch from consumption to production for those who have access to 2 types of measures. An indicator also lets you know if the data is up to date or not *(green = all data is up to date, orange = some data is not up to date, red = no data is up to date)*.
+The plugin allows you to display consumption and/or production data in a widget template that mimics the appearance of a *Linky* meter, on both the desktop and mobile versions. Clicking the "**- \| +**" button lets you switch between consumption and production for those who have access to both types of measurements. An indicator also shows whether the data is up to date or not *(green = all data is up to date, orange = some data is not up to date, red = none of the data is up to date)*.
 
 ![Widget template](../images/enedis_screenshot1.png)
 
-To activate this option, just check the box **Enable** section **Widget template** on the general page of the equipment concerned. Once the widget template is activated, go to the tab **Display** from the configuration of the equipment to choose the background color of the widget *(`Template : background-color` - 163, 204, 40 by default)* and/or title color *(`Template : titlebar-color` - transparent by default)* depending on the Jeedom access version *(desktop or mobile)*.
+The widget template is enabled by default. To revert to the standard Jeedom widget, simply uncheck the **Widget Template** box in the **Information** tab of the device's advanced settings.
 
-![Personnaliser le widget](../images/enedis_customizeWidget.png)
+The template colors can be adjusted in the **Display** tab of the device's advanced settings, separately for the desktop and mobile versions:
+- background color *(`Template : background-color`)*, green on the meter *(163, 204, 40)* when the **Default** checkbox is selected.
+- the color of the title bar *(`Template : titlebar-color`)*, which is transparent when the device is created.
 
->**TRICK**
+![Customize the widget](../images/enedis_customizeWidget.png)
+
+# Faq
+
+>**I'm getting data retrieval errors in the logs, even though the data is visible on the Enedis website**
 >
->The "Default" box allows you to keep the default colors of the tile.
-
-# FAQ
-
->**I have `Error on enedis json return` errors in the logs yet the data is visible on the Enedis site**
->
->It sometimes happens that you have to go directly to the Enedis site in order to validate the latest T & Cs to access the data again. It is also sometimes necessary to replace the Jeedom / Enedis link from the plugin configuration page.
-
->**I don't have Day / Month / Year data for December 31, 2021**
->
->To recover this data just click on the button **Historical additions** of the order **Consumption Day** and select the date of January 1, 2021 as the departure date.
+>Sometimes you may need to go directly to the Enedis website to accept the most recent Terms of Service in order to regain access to your data. It may also be necessary to re-establish the Jeedom/Enedis connection from the plugin's configuration page.

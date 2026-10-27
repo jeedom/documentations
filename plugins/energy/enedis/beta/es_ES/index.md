@@ -1,108 +1,84 @@
 # Complemento de Enedis
 
-Complemento que permite la recuperación de datos de consumo eléctrico de contadores inteligentes *(linky por ejemplo)* cuestionando el [cuenta cliente **Enedis**](https://mon-compte.enedis.fr/auth/XUI/#login/&realm=/enedis&forward=true){:target = "\_ en blanco"}.
+Complemento que permite recuperar los datos de consumo eléctrico de los contadores inteligentes *(por ejemplo, Linky)* mediante la consulta del [cuenta de cliente **Enedis**](https://mon-compte.enedis.fr/auth/XUI/#login/&realm=/enedis&forward=true){:target="\_blank"}.
 
->**Importante**
->
->El complemento se reescribió por completo en febrero de 2021 para usar **la API oficial de Enedis Data-Connect**. Si usó el complemento antes, lo invitamos a crear un nuevo equipo o eliminar todos los controles de un equipo anterior.
+Es posible acceder a los datos de **consumo**, de **producción** o a ambos tipos de medición directamente desde un equipo.
 
-Es posible acceder a datos desde **consumo**, de **producción** oa los 2 tipos de medición directamente en un dispositivo.
-
-Se reportan 5 datos para cada tipo de medición :
-- el **consumo por hora** por media hora *(en kW)*.
+Se han registrado 5 datos de consumo, y los mismos 4 sin la potencia máxima en generación:
+- el **consumo horario** por media hora *(en kW)*.
 - el **consumo diario** *(en kWh)*.
 - el **consumo mensual** *(en kWh)*.
 - el **consumo anual** *(en kWh)*.
-- el **máximo poder** *(en kVA)*.
+- la **potencia máxima** *(en kVA)*.
 
->**INFORMACIÓN**
->
->Como los datos no están disponibles en tiempo real, el complemento recupera los datos de consumo de electricidad del día anterior a cada día.
+Dado que Enedis no facilita los datos en tiempo real, el complemento recupera cada día los datos del día anterior. Mientras no los haya recuperado todos, vuelve a consultar los servidores de Enedis cada 30 minutos hasta las 19:00 h, y reanuda la consulta a la mañana siguiente.
 
-Mientras el complemento no haya recuperado todos los datos del día anterior, continúa consultando los servidores de Enedis cada 30 minutos, de lo contrario, las llamadas se suspenden hasta el día siguiente.
+En cada recuperación, se consultan los datos de día, mes, año y potencia máxima desde el 1 de enero del año en curso, así como los datos horarios de los últimos 7 días. Los historiales ya registrados se reajustan según los datos de Enedis: cualquier dato facilitado con retraso o corregido por Enedis actualiza los valores correspondientes.
 
-# Configuration
+# Configuración
 
-Como cualquier complemento de Jeedom, el complemento **Enedis** debe activarse después de la instalación.
+Al igual que cualquier plugin de Jeedom, el plugin **Enedis** debe activarse tras su instalación.
 
 ## Configuración del plugin
 
-Si aún no lo ha hecho, comience por autorizar el intercambio de datos de Enedis con Jeedom haciendo clic en el botón **Autorizar el acceso a los servidores de Enedis : Accedo a mi área de clientes de Enedis** desde la página de configuración del complemento :
+Si aún no lo has hecho, empieza por autorizar el intercambio de datos entre Enedis y Jeedom haciendo clic en el botón **Autorizar el acceso a los servidores de Enedis: accedo a mi área de cliente de Enedis** desde la página de configuración del complemento:
 
-![Lien espace-client Enedis](../images/link_enedis.png)
+![Enlace al área de clientes de Enedis](../images/link_enedis.png)
 
-A continuación, se le redirige a esta página en la que debe informar **sus datos de inicio de sesión para el mercado de Jeedom** luego haga clic en el botón **Validar** :
+A continuación, se te redirigirá a esta página, en la que deberás introducir **tus datos de acceso al Jeedom Market** y, a continuación, hacer clic en el botón **Validar**:
 
-![Authentification compte Market Jeedom](../images/Auth_Jeedom.png)
+![Autenticación de la cuenta de Market Jeedom](../images/Auth_Jeedom.png)
 
-Redirección a la página de consentimiento de Enedis en la que es necesario **marcar la casilla** y haga clic en **Validar** :
+Redirección a la página de consentimiento de Enedis, en la que hay que **marcar la casilla** y hacer clic en **Validar**:
 
-![Autorisation Enedis](../images/Auth_Enedis.png)
+![Autorización de Enedis](../images/Auth_Enedis.png)
 
-Una vez que se valida el intercambio de datos, se muestra esta página :
+Una vez validado el intercambio de datos, aparecerá esta página:
 
-![Succès](../images/Auth_Enedis_success.png)
+![Éxito](../images/Auth_Enedis_success.png)
 
->**Importante**
+>**IMPORTANTE**
 >
->Si no puede acceder a ninguna de estas páginas, desactive el bloqueador de anuncios del navegador.
+>Si no consigues acceder a alguna de estas páginas, desactiva el bloqueador de anuncios del navegador.
 
 ## Configuración del equipo
 
-Para acceder a los diferentes equipos **Enedis**, ir al menú **Complementos → Energía → Enedis**.
+Para acceder a los distintos dispositivos de **Enedis**, dirígete al menú **Complementos → Energía → Enedis**. El botón **+ Añadir** te permite añadir un nuevo contador o PDL.
 
->**INFORMACIÓN**
->
->El botón **+ Agregar** le permite agregar un nuevo medidor / PDL.
+Una vez autorizado el intercambio de datos desde la página de configuración del complemento, solo queda introducir **el número de identificación del punto de entrega** correspondiente *(PDL)* y el **tipo de medición** que se desea recuperar.
 
-Una vez que se haya autorizado el intercambio de datos desde la página de configuración del complemento, todo lo que tiene que hacer es ingresar **el número de identificación del Punto de Entrega** preocupado *(PDL)* y el **tipo de medida** volver.
+Al realizar la primera copia de seguridad de un equipo activo y configurado, el complemento creará automáticamente los comandos necesarios e integrará los historiales disponibles en la página web de Enedis desde el 1 de enero del año en curso. Este proceso puede tardar varios minutos; puedes seguir su progreso desde el menú **Análisis → Registros** *(registros en ``debug``)*.
 
-Durante la primera copia de seguridad de un dispositivo activo y configurado, el complemento creará automáticamente los comandos necesarios e integrará los historiales disponibles en el sitio de Enedis desde el 1 de enero del año en curso. Es probable que este proceso tarde varios minutos, puede seguir el progreso desde el menú **Análisis → Registros** *(inicia sesión ``debug``)*.
-
->**INFORMACIÓN**
->
->Los datos de consumo por hora se recuperan durante los últimos 7 días como máximo.
-
-Si no has activado **registrar y recopilar el consumo horario** en su cuenta Enedis, debe marcar la casilla **Datos horarios : Deshabilitar** para que no se creen los pedidos correspondientes.
+Si no ha activado **el registro y la recopilación del consumo por horas** en su cuenta de Enedis, deberá marcar la casilla **Datos por horas: Desactivar** para que no se creen los comandos correspondientes.
 
 # Agregar datos
 
-Es posible integrar historias bajo demanda, hasta 3 años atrás, directamente desde el sitio de Enedis. Para hacerlo, simplemente haga clic en el botón azul **Adiciones históricas** desde la pestaña **Pedidos** de un equipo, en la columna **Acción** de la orden en cuestión :
+Es posible integrar, si se desea, los historiales de años anteriores desde los servidores de Enedis. Para ello, basta con hacer clic en el botón azul **Añadir historiales** desde la pestaña **Comandos** de un equipo, en la columna **Acción** del comando correspondiente:
 
-![Ajout d'historiques](../images/enedis_addHistory.png)
+![Añadir historiales](../images/enedis_addHistory.png)
 
-Luego elija la fecha de inicio y haga clic en **Bueno** para iniciar el proceso.
+Para los comandos «día» y «potencia máxima», elige el año de inicio entre los tres años anteriores: los datos de día, mes, año y potencia máxima se incluirán desde el 1 de enero de ese año hasta el 1 de enero del año en curso.
 
-Los datos de día, mes, año y potencia máxima se integrarán desde la fecha elegida hasta el 1 de enero del año en curso. Los datos horarios, cuando lo sean, se integrarán hasta 7 días después de la fecha elegida.
+Para los comandos programados, elige la fecha de inicio, dentro de los últimos tres años: los datos se integrarán en los siete días siguientes, que es el plazo máximo establecido por Enedis.
 
->**INFORMACIÓN**
->
->Estas limitaciones de tiempo las establece Enedis.
+A continuación, haz clic en **Aceptar** para iniciar la integración.
 
 # Plantilla de widget
 
->**INFORMACIÓN**
->
->La plantilla del widget se mostrará en las versiones de escritorio y móvil.
-
-El complemento ofrece la posibilidad de mostrar datos de consumo y / o producción en una plantilla de widget imitando la apariencia de un medidor *Linky*. El clic en el botón "**- \| +**" permite pasar del consumo a la producción para quienes tienen acceso a 2 tipos de medidas. Un indicador también le permite saber si los datos están actualizados o no *(verde = todos los datos están actualizados, naranja = algunos datos no están actualizados, rojo = no hay datos actualizados)*.
+El complemento ofrece la posibilidad de mostrar los datos de consumo y/o producción en una plantilla de widget que imita el aspecto de un contador *Linky*, tanto en la versión de escritorio como en la móvil. Al hacer clic en el botón «**- \| +**» se puede cambiar de consumo a producción para aquellos que tengan acceso a ambos tipos de mediciones. Además, un indicador permite saber si los datos están actualizados o no *(verde = todos los datos están actualizados; naranja = algunos datos no están actualizados; rojo = ningún dato está actualizado)*.
 
 ![Plantilla de widget](../images/enedis_screenshot1.png)
 
-Para activar esta opción, simplemente marque la casilla **Habilitar** sección **Plantilla de widget** en la página general del equipo en cuestión. Una vez activada la plantilla del widget, vaya a la pestaña **Monitor** desde la configuración del equipo para elegir el color de fondo del widget *(`Plantilla : color de fondo` - 163, 204, 40 por defecto)* y/o color del título *(`Plantilla : titlebar-color` - transparente por defecto)* dependiendo de la versión de acceso de Jeedom *(escritorio o móvil)*.
+La plantilla del widget está activada por defecto. Para volver al widget estándar de Jeedom, basta con desmarcar la casilla **Plantilla del widget** en la pestaña **Información** de la configuración avanzada del dispositivo.
 
-![Personnaliser le widget](../images/enedis_customizeWidget.png)
+Los colores de la plantilla se configuran en la pestaña **Visualización** de la configuración avanzada del dispositivo, por separado para las versiones de escritorio y móvil:
+- el color de fondo *(`Template : background-color`)*, verde en el contador *(163, 204, 40)* cuando la casilla **Por defecto** está marcada.
+- el color de la barra de título *(`Template : titlebar-color`)*, transparente en el momento de la creación del equipo.
 
->**CONSEJO**
+![Personalizar el widget](../images/enedis_customizeWidget.png)
+
+# Preguntas más frecuentes
+
+>**Me aparecen errores de recuperación de datos en los registros, aunque se pueden ver en la página web de Enedis**
 >
->El cuadro "Predeterminado" le permite mantener los colores predeterminados del mosaico.
-
-# FAQ
-
->**Tengo errores de `Error en enedis json return` en los registros, pero los datos son visibles en el sitio de Enedis**
->
->A veces sucede que tienes que ir directamente al sitio de Enedis para validar los últimos TyC para acceder a los datos nuevamente. A veces también es necesario reemplazar el enlace Jeedom / Enedis de la página de configuración del complemento.
-
->**No tengo datos de día / mes / año para el 31 de diciembre de 2021**
->
->Para recuperar estos datos simplemente haga clic en el botón **Adiciones históricas** De la orden **Día de consumo** y seleccione la fecha del 1 de enero de 2021 como fecha de salida.
+>A veces es necesario acceder directamente a la página web de Enedis para aceptar las últimas condiciones generales de uso y poder volver a acceder a los datos. En ocasiones también es necesario restablecer la conexión entre Jeedom y Enedis desde la página de configuración del complemento.

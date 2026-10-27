@@ -4,6 +4,16 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 26/10/2026
+
+- Jeedom 4.4 minimum requis
+- Le template de widget s'active ou se désactive désormais depuis la case **Template de widget** de la configuration avancée de l'équipement (onglet **Informations**)
+- Ajout d'un champ **Description du compteur** sur la page de l'équipement
+- L'ajout d'historiques des données jour, mois, année et puissance max se fait désormais par année entière, pour des cumuls mensuels et annuels justes
+- Correction des cumuls mensuels et annuels lorsqu'Enedis ne fournit pas la donnée du 1er du mois
+- Correction des dates affichées dans les logs lors de la récupération des données horaires
+- Les historiques jour, mois, année et puissance max déjà enregistrés sont désormais corrigés lorsqu'une donnée Enedis arrive en retard ou est modifiée
+
 # 06/11/2023
 
 - passage en version stable
