@@ -63,8 +63,8 @@ Our recommendations will depend on various factors:
 | Version | Status |
 |--------------------|--------------------|
 | PHP 8.2 | Recommended *(4.5)* |
-| PHP 7 | End of Support     |
-| PHP 5.6 and earlier | Not supported     |
+| PHP 7.4 | End of support     |
+| PHP 7.3 and earlier | Not supported     |
 
 ### MySQL
 
