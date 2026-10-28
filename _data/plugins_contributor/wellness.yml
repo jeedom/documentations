@@ -160,10 +160,10 @@
       es_ES: "https://jealg.github.io/documentation/plugin-horoscope/beta/es_ES/changelog"
       de_DE: "https://jealg.github.io/documentation/plugin-horoscope/beta/de_DE/changelog"
   description:
-    fr_FR: "Plugin permettant de générer une phrase (selon différents thèmes) tous les jours en fonction des différents signes astrologiques.Très sympa pour donner l'horoscope le matin à une personne via TTS (par exemple avec la caméra Netatmo qui reconnait les visages) ou par SMS."
-    en_US: "Plugin to generate a phrase (according to different themes) every day based on the different astrological signs.Very useful for giving the horoscope in the morning to a person via TTS (for example with the Netatmo camera that recognizes faces) or by SMS."
-    es_ES: "Plugin que genera una frase (basada en diferentes temas) cada día según los diferentes signos astrológicos.Muy útil para dar el horóscopo por la mañana a alguien vía TTS (por ejemplo con la cámara Netatmo que reconoce caras) o por SMS."
-    de_DE: "Plugin, mit dem man jeden Tag einen Satz (nach verschiedenen Themen) entsprechend der verschiedenen Sternzeichen generieren kann. Sehr nett, um einer Person morgens das Horoskop über TTS (z.B. mit der Netatmo-Kamera, die Gesichter erkennt) oder per SMS zu geben."
+    fr_FR: "Plugin permettant de générer une phrase (selon différents thèmes) tous les jours en fonction des différents signes astrologiques.<br/>Très sympa pour donner l'horoscope le matin à une personne via TTS (par exemple avec la caméra Netatmo qui reconnait les visages) ou par SMS."
+    en_US: "Plugin to generate a phrase (according to different themes) every day based on the different astrological signs.<br/>Very useful for giving the horoscope in the morning to a person via TTS (for example with the Netatmo camera that recognizes faces) or by SMS."
+    es_ES: "Plugin que genera una frase (basada en diferentes temas) cada día según los diferentes signos astrológicos.<br/>Muy útil para dar el horóscopo por la mañana a alguien vía TTS (por ejemplo con la cámara Netatmo que reconoce caras) o por SMS."
+    de_DE: "Plugin, mit dem man jeden Tag einen Satz (nach verschiedenen Themen) entsprechend der verschiedenen Sternzeichen generieren kann.<br/> Sehr nett, um einer Person morgens das Horoskop über TTS (z.B. mit der Netatmo-Kamera, die Gesichter erkennt) oder per SMS zu geben."
 - id: hottoh
   name: "Hottoh"
   market_id: 3670
