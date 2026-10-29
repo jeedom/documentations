@@ -4,6 +4,10 @@
 >
 >Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich ausschließlich um eine Aktualisierung der Dokumentation, der Übersetzung oder des Textes handelt.
 
+# 29/10/2026
+
+- Abruf der Messwerte über die neue API „Mesures V2“ von Enedis, die die alte API ersetzt, deren Einstellung angekündigt wurde
+
 # 26/10/2026
 
 - Jeedom 4.4 (Mindestanforderung)

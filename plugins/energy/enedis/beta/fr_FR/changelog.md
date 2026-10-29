@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 29/10/2026
+
+- Récupération des mesures via la nouvelle API Mesures V2 d'Enedis, en remplacement de l'ancienne dont l'arrêt est annoncé
+
 # 26/10/2026
 
 - Jeedom 4.4 minimum requis
