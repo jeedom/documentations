@@ -57,7 +57,7 @@ Auf Wunsch können die Verbrauchsdaten der vergangenen Jahre von den Enedis-Serv
 
 ![Verlaufsdaten hinzufügen](../images/enedis_addHistory.png)
 
-Für die Steuerungen „Tag“ und „Maximalleistung“ wählen Sie das Startjahr aus den letzten drei Jahren aus: Die Daten für Tag, Monat, Jahr und Maximalleistung werden vom 1. Januar dieses Jahres bis zum 1. Januar des laufenden Jahres berücksichtigt.
+Für die Steuerungen „Tag“ und „Maximalleistung“ wählen Sie das Startjahr aus den beiden vorangegangenen Jahren aus: Die Daten für Tag, Monat, Jahr und Maximalleistung werden vom 1. Januar dieses Jahres bis zum 1. Januar des laufenden Jahres berücksichtigt.
 
 Für zeitgesteuerte Bestellungen wählen Sie bitte das Startdatum aus, wobei der Zeitraum auf die letzten drei Jahre beschränkt ist: Die Daten werden in den folgenden sieben Tagen integriert, was der von Enedis festgelegten maximalen Dauer entspricht.
 

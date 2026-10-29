@@ -57,7 +57,7 @@ Il est possible d'intégrer à la demande les historiques des années précéden
 
 ![Ajout d'historiques](../images/enedis_addHistory.png)
 
-Pour les commandes jour et puissance max, choisissez l'année de début parmi les 3 années précédentes : les données jour, mois, année et puissance max seront intégrées du 1er janvier de cette année jusqu'au 1er janvier de l'année en cours.
+Pour les commandes jour et puissance max, choisissez l'année de début parmi les 2 années précédentes : les données jour, mois, année et puissance max seront intégrées du 1er janvier de cette année jusqu'au 1er janvier de l'année en cours.
 
 Pour les commandes horaires, choisissez la date de début, dans la limite des 3 dernières années : les données seront intégrées sur les 7 jours suivants, durée maximale fixée par Enedis.
 

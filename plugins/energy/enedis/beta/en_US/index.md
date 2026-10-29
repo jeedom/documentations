@@ -57,7 +57,7 @@ You can import historical data from previous years from the Enedis servers upon 
 
 ![Adding History](../images/enedis_addHistory.png)
 
-For daily and maximum power commands, select the start year from the previous 3 years: the data for day, month, year, and maximum power will be included from January 1 of that year through January 1 of the current year.
+For daily and maximum power commands, select the start year from the two preceding years: the data for day, month, year, and maximum power will be included from January 1 of that year through January 1 of the current year.
 
 For scheduled commands, select a start date within the last 3 years: the data will be integrated over the following 7 days, which is the maximum duration set by Enedis.
 

@@ -57,7 +57,7 @@ Es posible integrar, si se desea, los historiales de años anteriores desde los 
 
 ![Añadir historiales](../images/enedis_addHistory.png)
 
-Para los comandos «día» y «potencia máxima», elige el año de inicio entre los tres años anteriores: los datos de día, mes, año y potencia máxima se incluirán desde el 1 de enero de ese año hasta el 1 de enero del año en curso.
+Para los comandos «día» y «potencia máxima», elige el año de inicio entre los dos años anteriores: los datos de día, mes, año y potencia máxima se incluirán desde el 1 de enero de ese año hasta el 1 de enero del año en curso.
 
 Para los comandos programados, elige la fecha de inicio, dentro de los últimos tres años: los datos se integrarán en los siete días siguientes, que es el plazo máximo establecido por Enedis.
 
