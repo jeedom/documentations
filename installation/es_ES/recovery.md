@@ -42,7 +42,7 @@ La actualización del sistema se llevará a cabo la próxima vez que se inicie e
 
 ### Modo USB
 
-Este modo requiere conectar una memoria USB, cuya primera partición esté formateada en `FAT` *(o `ExFAT` + esquema «Sector de arranque maestro (MBR)» en ``MacOS``)*, en el puerto situado en la parte superior derecha, visto desde atrás.
+Este modo requiere conectar una memoria USB, cuya primera partición esté formateada en `FAT32`, en el puerto situado en la parte superior derecha visto desde atrás. Una memoria USB de 32 GB como máximo es lo más sencillo: si supera esa capacidad, la herramienta de formateo de Windows no siempre ofrece la opción de `FAT32`. En macOS, en la Utilidad de disco, selecciona el formato `MS-DOS (FAT)` y el esquema «Sector de arranque maestro (MBR)».
 
 El botón **Restauración USB** provoca, en primer lugar, la detección, la comprobación y el montaje de la memoria USB. A continuación, se descarga la última imagen del sistema desde nuestros servidores al soporte USB. Se comprueba la integridad de la imagen y, a continuación, se escribe el archivo de configuración USB.
 
