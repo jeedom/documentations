@@ -4,6 +4,13 @@
 >
 >If there is no information about the update, it means that the update only involves documentation, translations, or text.
 
+## 30/10/2026 ***(1.1.1)***
+
+- **Authorizations**: Fixed an issue where badges were rejected when an imported CSV file contained additional columns
+- **Permissions**: Securing the saving of permission lists *(the previous list is retained in case of failure)*
+- **Permissions**: The management window remains open if a save error occurs, and a new group without a badge is now retained
+- **Transactions**: Optimizing the display of the transaction list
+
 ## 19/10/2026 ***(1.1.0)***
 
 - **Permissions**: Added an option to automatically start charging when the vehicle is plugged in while in “Allow All” mode *(with a dedicated ID per charging station)*

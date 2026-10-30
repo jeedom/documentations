@@ -4,6 +4,13 @@
 >
 >Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich ausschließlich um eine Aktualisierung der Dokumentation, der Übersetzung oder des Textes handelt.
 
+## 30/10/2026 ***(1.1.1)***
+
+- **Berechtigungen**: Behebung des Problems, dass Ausweise abgelehnt wurden, wenn eine importierte CSV-Datei zusätzliche Spalten enthielt
+- **Berechtigungen**: Sicherung der Speicherung von Berechtigungslisten *(die vorherige Liste bleibt bei einem Fehlschlag erhalten)*
+- **Berechtigungen**: Das Verwaltungsfenster bleibt bei einem Speicherfehler geöffnet, und eine neue Gruppe ohne Ausweis wird nun beibehalten
+- **Transaktionen**: Optimierung der Anzeige der Transaktionsliste
+
 ## 19/10/2026 ***(1.1.0)***
 
 - **Berechtigungen**: Hinzufügen einer Option zum automatischen Start des Ladevorgangs beim Anschließen des Fahrzeugs im Modus „Alles zulassen“ *(mit einer dedizierten Kennung pro Ladestation)*
