@@ -42,7 +42,7 @@ The system will be updated the next time it starts up, unless the restoration fi
 
 ### USB Mode
 
-This mode requires you to plug in a USB flash drive, the first partition of which is formatted as `FAT` *(or `ExFAT` + diagram "Master Boot Record (MBR)" on ``MacOS``)*, in the port located at the top right when viewed from the back.
+This mode requires you to plug in a USB flash drive, the first partition of which is formatted as `FAT32`, in the port located at the top right when viewed from the back. A flash drive with a maximum capacity of 32 GB is the simplest option: for larger capacities, the Windows formatting tool does not always offer the `FAT32`. On macOS, in Disk Utility, select the format `MS-DOS (FAT)` and the "Master Boot Record (MBR)" diagram.
 
 The **USB Restoration** button first detects, verifies, and mounts the USB drive. Next, the latest system image is downloaded from our servers to the USB drive. The integrity of the image is verified, and then the USB configuration file is written.
 
