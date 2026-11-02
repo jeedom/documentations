@@ -2,26 +2,26 @@
 
 >**IMPORTANTE**
 >
->Si no hay información sobre la actualización, significa que solo se trata de actualización de documentación, traducción o texto.
+>Si no hay información sobre la actualización, es porque esta se refiere únicamente a cambios en la documentación, la traducción o el texto.
 
 # 25/06/2025 ***(1.0.2)***
 
-- Il est désormais possible de comptabiliser plusieurs transactions simultanées d'un même utilisateur pour les **compteurs OCPP**
-- Les puissances sont cumulées en cas de transactions actives simultanément *(compteurs personnalisés et OCPP)*
+- Ahora es posible contabilizar varias transacciones simultáneas de un mismo usuario en los **contadores OCPP**
+- Las potencias se suman en caso de transacciones activas simultáneas *(contadores personalizados y OCPP)*
 
 # 25/04/2025 ***(1.0)***
 
-- Ajout d'un bouton permettant de forcer la création des compteurs OCPP *(page de configuration du plugin)*
-- Ajout d'une commande "Index total" pour les compteurs en tarification HP/HC
+- Se ha añadido un botón que permite forzar la creación de contadores OCPP *(página de configuración del complemento)*
+- Se ha añadido un comando «Índice total» para los contadores con tarifas HP/HC
 
 # 30/01/2025
 
-- Ajout d'une commande d'enregistrement de la puissance pour les compteurs personnalisés et OCPP
+- Se ha añadido un comando de registro de potencia para contadores personalizados y OCPP
 
 # 20/09/2024
 
-- Mise à disposition en beta
+- Disponible en versión beta
 
-# 09/03/2024
+# 03/09/2024
 
 - Inicio del desarrollo

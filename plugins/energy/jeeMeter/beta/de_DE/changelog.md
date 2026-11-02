@@ -2,26 +2,26 @@
 
 >**WICHTIG**
 >
->Liegen keine Informationen zur Aktualisierung vor, bedeutet dies, dass es sich nur um die Aktualisierung der Dokumentation, Übersetzung oder des Textes handelt.
+>Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich ausschließlich um eine Aktualisierung der Dokumentation, der Übersetzung oder des Textes handelt.
 
 # 25/06/2025 ***(1.0.2)***
 
-- Il est désormais possible de comptabiliser plusieurs transactions simultanées d'un même utilisateur pour les **compteurs OCPP**
-- Les puissances sont cumulées en cas de transactions actives simultanément *(compteurs personnalisés et OCPP)*
+- Es ist nun möglich, mehrere gleichzeitige Transaktionen desselben Benutzers für **OCPP-Zähler** zu erfassen.
+- Bei gleichzeitig aktiven Transaktionen werden die Leistungen addiert *(benutzerdefinierte Zähler und OCPP)*
 
 # 25/04/2025 ***(1.0)***
 
-- Ajout d'un bouton permettant de forcer la création des compteurs OCPP *(page de configuration du plugin)*
-- Ajout d'une commande "Index total" pour les compteurs en tarification HP/HC
+- Hinzufügen einer Schaltfläche, mit der die Erstellung von OCPP-Zählern erzwungen werden kann *(Konfigurationsseite des Plugins)*
+- Hinzufügen einer Schaltfläche „Gesamtstand“ für Zähler mit HP/HC-Tarifierung
 
 # 30/01/2025
 
-- Ajout d'une commande d'enregistrement de la puissance pour les compteurs personnalisés et OCPP
+- Hinzufügen eines Befehls zur Leistungserfassung für benutzerdefinierte Zähler und OCPP
 
-# 20.09.2024
+# 20/09/2024
 
-- Mise à disposition en beta
+- Verfügbar als Beta-Version
 
-# 09.03.2024
+# 03/09/2024
 
 - Beginn der Entwicklung

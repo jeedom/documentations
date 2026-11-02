@@ -1,69 +1,69 @@
 # Virtuelles Zähler-Plugin
 
-Das Plugin **Virtueller Schalter** ermöglicht Ihnen die Erstellung von Energiezählern in Kilowattstunden aus Rohindizes *(Wh/kWh)* und/oder Befugnisse *(W/kW)*, sei es zum Einzeltarif oder zu Haupt-/Nebenverkehrszeiten. Ce plugin permet également de créer des compteurs liés à une identification *(Angepasst/OCPP)*.
+Mit dem Plugin **Virtueller Zähler** können Energiezähler in Kilowattstunden aus Brutto-Zählerständen *(Wh/kWh)* und/oder Leistungswerten *(W/kW)* erstellt werden, sei es im Einheits- oder im Spitzen-/Nebenzeittarif. Dieses Plugin ermöglicht zudem die Erstellung von Zählern, die mit einer Kennung *(Benutzerdefiniert/OCPP)* verknüpft sind.
 
->**IMPORTANT**
+>**WICHTIG**
 >
->Les options relatives au protocole OCPP ne sont visibles que **si le plugin OCPP est installé**.
+>Die Optionen zum OCPP-Protokoll sind nur sichtbar, **wenn das OCPP-Plugin installiert ist**.
 
-# Configuration
+# Konfiguration
 
 ## Plugin-Setup
 
 ![Plugin-Setup](../images/config_plugin.jpg)
 
-- **Standardpreise**: Wählen Sie Standardpreise für virtuelle Zähler aus *(Einzeltarif oder Haupt-/Nebenverkehrszeiten)*.
-- **Preisumschaltung**: Bei Standardpreisen in Haupt-/Nebenverkehrszeiten wählen Sie den Befehl „Standardpreis zum Umschalten von Informationen/Binärdaten“ aus *(1=Hauptverkehrszeiten/0=Nebenverkehrszeiten)*.
+- **Standardtarif**: Wählen Sie den Standardtarif für die virtuellen Zähler aus *(Einheitstarif oder Spitzen-/Nebenzeiten-Tarif)*.
+- **Tarifumschaltung**: Bei einer Standardtarifierung nach Spitzen- und Nebenzeiten wählen Sie den Info-/Binärbefehl für die Standard-Tarifumschaltung aus *(1 = Spitzenzeiten / 0 = Nebenzeiten)*.
 - **OCPP**:
-  - **Automatische Erstellung von Zählern**: Aktivieren Sie das Kontrollkästchen, um automatisch Zähler pro Benutzer für jede neue OCPP-Transaktion zu erstellen.
-  - **Forcer**: Crée instantanément tous les compteurs OCPP des utilisateurs autorisés sans devoir attendre une transaction.
+  - **Automatische Erstellung von Zählern**: Aktivieren Sie das Kontrollkästchen, um bei jeder neuen OCPP-Transaktion automatisch Zähler pro Benutzer zu erstellen.
+  - **Erzwingen**: Erstellt sofort alle OCPP-Zähler der autorisierten Benutzer, ohne dass auf eine Transaktion gewartet werden muss.
 
 ## Gerätekonfiguration
 
 Um einen neuen virtuellen Zähler hinzuzufügen, klicken Sie auf die Schaltfläche **+Hinzufügen**.
 
-- **Zählertyp**: Wählen Sie den Zählertyp aus *(Standard/Personnalisé/OCPP)*.
-- **Preise**: Passen Sie ggf. die Preise an.
-- **Preisumschaltung**: Passen Sie bei Spitzen-/Nebenzeitenpreisen ggf. den Befehl zum Umschalten zwischen Info- und binärer Preisgestaltung an.
+- **Zählertyp**: Wählen Sie den Zählertyp aus *(Standard/Benutzerdefiniert/OCPP)*.
+- **Preisgestaltung**: Passen Sie die Preisgestaltung bei Bedarf an.
+- **Tarifumschaltung**: Bei einer Tarifgestaltung mit Spitzen- und Nebenzeiten muss der Info-/Binärbefehl für die Tarifumschaltung gegebenenfalls angepasst werden.
 
 ---
 
-- **Kennung**: Pour les compteurs de type personnalisé ou OCPP, indiquer l'identifiant à valider pour comptabiliser la transaction.
+- **ID**: Bei benutzerdefinierten oder OCPP-Zählern geben Sie bitte die zu validierende ID an, um die Transaktion zu verbuchen.
 
 ### Zu verarbeitende Daten
 
-Virtuelle Zähler vom Typ **OCPP** Transaktionsdaten für jeden Benutzer automatisch abrufen.
+Virtuelle Zähler vom Typ **OCPP** erfassen automatisch die Transaktionsdaten jedes Nutzers.
 
-Für andere müssen Sie auf die Schaltfläche klicken **Bestellungen verwalten** des Abschnitts **Zu verarbeitende Daten** Dann **Fügen Sie einen Eintrag hinzu**.
+In allen anderen Fällen müssen Sie im Abschnitt **Zu bearbeitende Daten** auf die Schaltfläche **Bestellungen verwalten** klicken und anschließend **Eintrag hinzufügen** wählen.
 
 - **Standardzähler**:
 
-  ![Daten compteur standard](../images/default_input.jpg)
+![Standard-Zählerdaten](../images/default_input.jpg)
 
-	- **Daten**: Info/digitale Kontrolle der zu verarbeitenden Rohdaten.
-	- **Einheit**: Wählen Sie das Gerät aus, wenn es nicht automatisch erkannt wird *(Wh/kWh/W/kW)*.
+	- **Daten**: Info-/Zahlensteuerung der zu verarbeitenden Rohdaten.
+	- **Einheit**: Wählen Sie die Einheit aus, falls sie nicht automatisch erkannt wird *(Wh/kWh/W/kW)*.
 
-- **Benutzerdefinierte Zähler**:
+- **Individuell angepasste Zähler**:
 
-  ![Daten compteur personnalisé](../images/custom_input.jpg)
+![Individuelle Zählerdaten](../images/custom_input.jpg)
 
-	- **Daten**: Info/digitale Kontrolle der zu verarbeitenden Rohdaten.
-	- **Einheit**: Wählen Sie das Gerät aus, wenn es nicht automatisch erkannt wird *(Wh/kWh/W/kW)*.
-	- **Kennung**: Renseigner la commande info/autre stipulant l'identifiant en cours *(Damit die Transaktion erfasst werden kann, muss der Wert mit der auf Geräteebene definierten Kennung übereinstimmen)*.
+	- **Daten**: Info-/Zahlensteuerung der zu verarbeitenden Rohdaten.
+	- **Einheit**: Wählen Sie die Einheit aus, falls sie nicht automatisch erkannt wird *(Wh/kWh/W/kW)*.
+	- **ID**: Geben Sie den Befehl „info/autre“ ein, der die aktuelle ID angibt *(der Wert muss mit der auf Geräteebene definierten ID übereinstimmen, damit die Transaktion verbucht wird)*.
 
-## Commandes
+## Bestellungen
 
-Les commandes suivantes sont créées, en fonction de la tarification:
+Je nach Preisgestaltung werden die folgenden Bestellungen erstellt:
 
-- **Einzelpreis**:
-  - **Index** *(Info/numerisch in kWh)*.
+- **Einheitspreis**:
+  - **Zählerstand** *(Info/digital in kWh)*.
 
-- **Haupt-/Nebenverkehrszeiten**:
-  - **Spitzenstundenindex** *(Info/numerisch in kWh)*.
-  - **Index der Stunden außerhalb der Hauptverkehrszeiten** *(Info/numerisch in kWh)*.
-  - **Index total** *(Info/numerisch in kWh)*.
+- **Spitzenzeiten/Nebenzeiten**:
+  - **Spitzenlast-Index** *(Info/digital in kWh)*.
+  - **Niedertarif-Index** *(Info/digital in kWh)*.
+  - **Gesamtverbrauch** *(Info/digital in kWh)*.
 
-Et en fonction du type de compteur:
+Und je nach Zählertyp:
 
-- **Compteurs OCPP et compteurs personnalisés *(si données brutes en W ou kW)***:
-  - **Puissance** *(Info/numérique en W)*.
+- **OCPP-Zähler und benutzerdefinierte Zähler *(sofern Rohdaten in W oder kW vorliegen)***:
+  - **Leistung** *(Angabe/numerisch in W)*.

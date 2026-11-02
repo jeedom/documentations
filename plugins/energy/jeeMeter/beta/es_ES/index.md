@@ -1,69 +1,69 @@
 # Complemento de contador virtual
 
-El complemento **Contador virtual** le permite crear medidores de energía en kilovatios-hora a partir de índices sin procesar *(Wh/kWh)* y/o poderes *(Vatios/kW)*, ya sea a tarifa única o en horas punta/valle. Ce plugin permet également de créer des compteurs liés à une identification *(Personalizado/OCPP)*.
+El complemento **Contador virtual** permite crear contadores de energía en kilovatios-hora a partir de lecturas brutas *(Wh/kWh)* y/o potencias *(W/kW)*, ya sea con tarifa única o con horas punta/horas valle. Este complemento también permite crear contadores vinculados a una identificación *(Personalizada/OCPP)*.
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
->Les options relatives au protocole OCPP ne sont visibles que **si le plugin OCPP est installé**.
+>Las opciones relacionadas con el protocolo OCPP solo son visibles **si está instalado el complemento OCPP**.
 
-# Configuration
+# Configuración
 
 ## Configuración del complemento
 
 ![Configuración del complemento](../images/config_plugin.jpg)
 
-- **Precio predeterminado**: Seleccione el precio predeterminado para medidores virtuales *(tarifa única u horas punta/valle)*.
-- **Alternar precios**: En caso de precios predeterminados en horas pico/de menor actividad, seleccione el comando de alternancia de información/binario de precios predeterminados *(1=horas pico/0=horas valle)*.
+- **Tarificación por defecto**: Selecciona la tarificación por defecto de los contadores virtuales *(tarifa única o horas punta/horas valle)*.
+- **Cambio de tarifa**: En caso de que la tarifa por defecto sea de horas punta/horas valle, seleccione el comando de información/binario de cambio de tarifa por defecto *(1 = horas punta / 0 = horas valle)*.
 - **OCPP**:
-  - **Creación automática de contadores**: Marque la casilla para crear automáticamente contadores por usuario para cualquier nueva transacción OCPP.
-  - **Forcer**: Crée instantanément tous les compteurs OCPP des utilisateurs autorisés sans devoir attendre une transaction.
+  - **Creación automática de contadores**: Marca la casilla para crear automáticamente contadores por usuario para cualquier nueva transacción OCPP.
+  - **Forzar**: Crea al instante todos los contadores OCPP de los usuarios autorizados sin tener que esperar a que se realice una transacción.
 
 ## Configuración del equipo
 
-Para agregar un nuevo contador virtual, haga clic en el botón **+Agregar**.
+Para añadir un nuevo contador virtual, haz clic en el botón **+Añadir**.
 
-- **Tipo de medidor**: Seleccione el tipo de medidor *(Standard/Personnalisé/OCPP)*.
-- **Precios**: Adapte los precios si es necesario.
-- **Alternar precios**: En el caso de precios pico/no pico, adapte el comando de alternancia de precios información/precio binario si es necesario.
+- **Tipo de contador**: Selecciona el tipo de contador *(Estándar/Personalizado/OCPP)*.
+- **Tarificación**: Adaptar la tarificación si es necesario.
+- **Cambio de tarifa**: En caso de tarifas de hora punta/hora valle, adapta el comando de información/binario de cambio de tarifa si es necesario.
 
 ---
 
-- **Identificador**: Pour les compteurs de type personnalisé ou OCPP, indiquer l'identifiant à valider pour comptabiliser la transaction.
+- **Identificador**: En el caso de contadores personalizados u OCPP, indique el identificador que debe validarse para contabilizar la transacción.
 
 ### Datos a procesar
 
-Contadores virtuales de tipo **OCPP** recuperar automáticamente datos de transacciones para cada usuario.
+Los contadores virtuales de tipo **OCPP** recogen automáticamente los datos de las transacciones de cada usuario.
 
-Para otros, debes hacer clic en el botón **Gestionar pedidos** de la sección **Datos a procesar** Entonces **Añadir una entrada**.
+Para el resto, hay que hacer clic en el botón **Gestionar pedidos** de la sección **Datos a procesar** y, a continuación, en **Añadir una entrada**.
 
 - **Contadores estándar**:
 
-  ![Datos compteur standard](../images/default_input.jpg)
+![Datos del contador estándar](../images/default_input.jpg)
 
-	- **Datos**: Información/control digital de los datos brutos a procesar.
-	- **Unidad**: Seleccione la unidad si no se detecta automáticamente *(Wh/kWh/W/kW)*.
+	- **Datos**: Comando de información/numérico de los datos brutos que se van a procesar.
+	- **Unidad**: Selecciona la unidad si no se detecta automáticamente *(Wh/kWh/W/kW)*.
 
 - **Contadores personalizados**:
 
-  ![Datos compteur personnalisé](../images/custom_input.jpg)
+![Datos personalizados del contador](../images/custom_input.jpg)
 
-	- **Datos**: Información/control digital de los datos brutos a procesar.
-	- **Unidad**: Seleccione la unidad si no se detecta automáticamente *(Wh/kWh/W/kW)*.
-	- **Identificador**: Renseigner la commande info/autre stipulant l'identifiant en cours *(el valor debe corresponder al identificador definido a nivel de equipo para que se registre la transacción)*.
+	- **Datos**: Comando de información/numérico de los datos brutos que se van a procesar.
+	- **Unidad**: Selecciona la unidad si no se detecta automáticamente *(Wh/kWh/W/kW)*.
+	- **Identificador**: Introduce el comando «info/otro» indicando el identificador actual *(el valor debe coincidir con el identificador definido en el equipo para que se contabilice la transacción)*.
 
-## Commandes
+## Órdenes
 
-Les commandes suivantes sont créées, en fonction de la tarification:
+Se crean los siguientes pedidos, en función de la tarifa:
 
-- **Precio único**:
-  - **Índice** *(Información/numérico en kWh)*.
+- **Tarifa única**:
+  - **Índice** *(Información/consumo en kWh)*.
 
-- **Horas pico/valle**:
-  - **Índice de horas pico** *(Información/numérico en kWh)*.
-  - **Índice de horas valle** *(Información/numérico en kWh)*.
-  - **Index total** *(Información/numérico en kWh)*.
+- **Horario de punta/Horario de valle**:
+  - **Índice de horas de punta** *(Información/datos en kWh)*.
+  - **Tarifa de horas valle** *(Información/datos en kWh)*.
+  - **Índice total** *(Información/consumo en kWh)*.
 
-Et en fonction du type de compteur:
+Y según el tipo de contador:
 
-- **Compteurs OCPP et compteurs personnalisés *(si données brutes en W ou kW)***:
-  - **Puissance** *(Info/numérique en W)*.
+- **Contadores OCPP y contadores personalizados *(si los datos brutos están en W o kW)***:
+  - **Potencia** *(Información/valor numérico en W)*.

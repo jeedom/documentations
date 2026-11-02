@@ -2,25 +2,25 @@
 
 >**IMPORTANT**
 >
->If there is no information about the update, it is because it only concerns the update of documentation, translation or text.
+>If there is no information about the update, it means that the update only involves documentation, translations, or text.
 
 # 25/06/2025 ***(1.0.2)***
 
-- Il est désormais possible de comptabiliser plusieurs transactions simultanées d'un même utilisateur pour les **compteurs OCPP**
-- Les puissances sont cumulées en cas de transactions actives simultanément *(compteurs personnalisés et OCPP)*
+- It is now possible to track multiple simultaneous transactions by the same user for **OCPP meters**
+- Power ratings are cumulative when multiple transactions are active simultaneously *(custom meters and OCPP)*
 
 # 25/04/2025 ***(1.0)***
 
-- Ajout d'un bouton permettant de forcer la création des compteurs OCPP *(page de configuration du plugin)*
-- Ajout d'une commande "Index total" pour les compteurs en tarification HP/HC
+- Added a button to force the creation of OCPP counters *(plugin configuration page)*
+- Added a "Total Reading" command for meters with HP/HC pricing
 
 # 30/01/2025
 
-- Ajout d'une commande d'enregistrement de la puissance pour les compteurs personnalisés et OCPP
+- Added a power logging command for custom meters and OCPP
 
 # 20/09/2024
 
-- Mise à disposition en beta
+- Available in beta
 
 # 03/09/2024
 
