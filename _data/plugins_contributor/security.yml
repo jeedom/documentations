@@ -241,10 +241,10 @@
       es_ES: "https://sagitaz.github.io/plugin-frigate/es_ES/changelog"
       de_DE: "https://sagitaz.github.io/plugin-frigate/de_DE/changelog"
   description:
-    fr_FR: "Plugin Frigate pour Jeedom. Ne fonctionne qu'avec les versions de Frigate &gt; 0.13.0. Le plugin n'installe pas le serveur Frigate mais permet de le controler."
-    en_US: "Frigate plugin for Jeedom. Works only with Frigate versions &gt; 0.13.0"
-    es_ES: "Plugin Frigate para Jeedom. Sólo funciona con versiones de Frigate &gt; 0.13.0"
-    de_DE: "Frigate-Plugin für Jeedom. Funktioniert nur mit Frigate-Versionen &gt; 0.13.0"
+    fr_FR: "Plugin Frigate pour Jeedom. Nécessite Frigate 0.16 ou plus récent. Le plugin n'installe pas le serveur Frigate mais permet de le contrôler."
+    en_US: "Frigate plugin for Jeedom. Requires Frigate 0.16 or later."
+    es_ES: "Plugin Frigate para Jeedom. Requiere Frigate 0.16 o posterior."
+    de_DE: "Frigate-Plugin für Jeedom. Erfordert Frigate 0.16 oder neuer."
 - id: gds3710
   name: "GrandStream GDS3710"
   market_id: 3487
