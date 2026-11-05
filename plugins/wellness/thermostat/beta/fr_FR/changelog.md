@@ -4,6 +4,19 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 05/11/2026
+
+- Correction de l'affichage de `undefined` devant le nom des programmations de l'Agenda sans icône, dans l'onglet **Programmation**
+
+# 02/11/2026
+
+- Distinction des défaillances de sonde (délai de réception, seuil bas/haut et valeur invalide) dans les notifications via `#failure_message#`.
+- Correction des alertes masquées ou répétées lors de défauts simultanés ou successifs, et de l’aide sur les défaillances de sonde/chauffage.
+
+# 10/09/2026
+
+- Correction d'un bug : une consigne vide ou non numérique faisait planter le plugin (TypeError PHP 8 dans le calcul d'hystérésis) et interrompait le traitement des thermostats suivants [LIEN](https://github.com/jeedom/plugin-thermostat/issues/68)
+
 # 22/11/2025
 
 - Correction sur la saisie des dates et la consultation des historiques depuis le panel *(Jeedom v4.4 mini)*

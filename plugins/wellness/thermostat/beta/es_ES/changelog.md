@@ -1,20 +1,33 @@
-# Changelog Thermostat
+# Registro de cambios del termostato
 
->**Importante**
+>**IMPORTANTE**
 >
->Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+>Recuerda que, si no hay información sobre la actualización, es porque esta se refiere únicamente a la actualización de la documentación, la traducción o el texto.
+
+# 05/11/2026
+
+- Corrección de la visualización de `undefined` delante del nombre de las programaciones de la Agenda que no tienen icono, en la pestaña **Programación**
+
+# 02/11/2026
+
+- Distinción entre los fallos de los sensores (retraso en la recepción, umbral bajo/alto y valor no válido) en las notificaciones a través de `#failure_message#`.
+- Corrección de las alertas ocultas o repetidas en caso de fallos simultáneos o sucesivos, y de la ayuda sobre fallos de sondas o calefacción.
+
+# 10/09/2026
+
+- Corrección de un error: un valor de consigna vacío o no numérico provocaba que el complemento se colgara (TypeError de PHP 8 en el cálculo de la histéresis) e interrumpía el procesamiento de los termostatos siguientes [ENLACE](https://github.com/jeedom/plugin-thermostat/issues/68)
 
 # 22/11/2025
 
-- Correction sur la saisie des dates et la consultation des historiques depuis le panel *(Jeedom v4.4 mini)*
+- Corrección en la introducción de fechas y la consulta del historial desde el panel *(Jeedom v4.4 mini)*
 
 # 14/10/2024
 
-- El smartstart respeta ahora el porcentaje mínimo de calefacción [ENLACE](https://github.com/jeedom/plugin-thermostat/issues/60)
+- El SmartStart respeta ahora el porcentaje mínimo de calefacción [ENLACE](https://github.com/jeedom/plugin-thermostat/issues/60)
 
 # 30/09/2024
 
-- Soporte para imágenes de equipos personalizados (Jeedom 4.5)
+- Compatibilidad con imágenes personalizadas de los dispositivos (Jeedom 4.5)
 - Se corrigió un error en la compatibilidad con instrucciones decimales
 
 # 22/07/2024
@@ -28,9 +41,9 @@
 # 19/02/2024
 
 - Se corrigió un error que crea crons no válidos
-- Corrección de error si había 2 pedidos al mismo tiempo (gracias @phpvarious)
+- Se ha corregido un error que se producía si había dos órdenes al mismo tiempo (gracias, @phpvarious)
 
-# 01/03/2024
+# 03/01/2024
 
 - Preparándose para el apuro 4.4
 
@@ -47,7 +60,7 @@
 
 - Mejora en la gestión de aperturas
 
-# 10/03/2022
+# 03/10/2022
 
 - El smartstart ya no puede anular el bloqueo del termostato
 
@@ -70,9 +83,9 @@
 # 11/11/2020
 
 - Optimizaciones generales
-- Eliminación de la "Humedad"
+- Eliminación del comando «Humedad»
 - Nueva presentación de la lista de objetos
-- Adición de la etiqueta "compatibilidad V4"
+- Se ha añadido la etiqueta «Compatibilidad con la versión 4»
 
 # 01/06/2020
 
@@ -89,12 +102,12 @@
 # 17/12/2019
 
 - Problema de visualización solucionado
-- Adición de una opción "Umbral de ciclo o calefacción se considera caliente"
+- Se ha añadido una opción «Umbral del ciclo en el que la calefacción se considera caliente».
 
 # 16/12/2019
 
 - Corrección de errores en modo apagado del termostato
-- Adición de una opción para limitar la duración de un segundo ciclo al 100% del tiempo (permite tener en cuenta que los radiadores ya están calientes)
+- Se ha añadido una opción para limitar la duración de un segundo ciclo al 100 % del tiempo (lo que permite tener en cuenta que los radiadores ya están calientes).
 
 # 03/11/2019
 
@@ -108,11 +121,11 @@
 
 - Correcciones de errores
 
-# 10/06/2019
+# 06/10/2019
 
 - Actualización de las preguntas frecuentes sobre las preocupaciones de la no visualización de acciones / modos
 
-# 10/01/2019
+# 01/10/2019
 
 - Correcciones de errores
 
@@ -121,7 +134,7 @@
 - Actualizando el documento
 - Soporte para PHP 7.3
 
-# 07/02/2019
+# 02/07/2019
 
 - Correcciones de errores
 
@@ -131,7 +144,7 @@
 
 # 29/04/2019
 
-- Adición de una opción "Limita los ciclos de encendido / apagado (pellet, gas, fuel oil) y PID". Gracias @Pierrick
+- Se ha añadido una opción «Limita los ciclos de encendido/apagado (pellets, gas, gasóleo) y PID». Gracias, @Pierrick
 
 # 11/03/2019
 
@@ -139,7 +152,7 @@
 - Agregar un punto de ajuste delta en modo de tiempo
 - Correcciones de errores
 
-# 01/04/2019
+# 04/01/2019
 
 - Se corrigió un error en Smartstart si la agenda se desactivaba después de la programación
 
@@ -155,7 +168,7 @@
 
 - Agregar un cálculo de rendimiento (kWh / DJU) si se da un comando de consumo al complemento
 - Corrección de un error en la gestión de alertas de falla del sensor de temperatura
-- Adición de un campo para un control de humedad (útil solo para el complemento Google Smarthome)
+- Se ha añadido un campo para el control de la humedad (útil únicamente para el complemento Google Smarthome)
 
 # 01/07/2018
 
