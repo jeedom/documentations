@@ -52,7 +52,7 @@
     stable: false
     beta: false
   description:
-    fr_FR: "[Non - Maintenu] Plugin pour interface Alexa"
+    fr_FR: "OBSOLÈTE : remplacé par Alexa Premium (alexaapiv2). Plugin pour interface Alexa"
 - id: alexaapiv2
   name: "Alexa Premium"
   market_id: 4498
