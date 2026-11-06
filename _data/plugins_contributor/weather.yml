@@ -435,7 +435,7 @@
   description:
     fr_FR: "Permet de récupérer les informations météo partout dans le monde gràce au site Weatherbit.io. Retrouvez les informations par heure, par jour et le tout mis à disposition également via un panel météo complet. Des informations de qualité d'air, pollen, et autres sont aussi disponible en plus des informations météos détaillées."
 - id: weatherForecast
-  name: "Weather Forecast, CAP alerts"
+  name: "Weather Forecast"
   market_id: 4549
   doc:
     stable:
