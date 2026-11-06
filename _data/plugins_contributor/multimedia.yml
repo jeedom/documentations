@@ -64,7 +64,7 @@
       fr_FR: "http://jeedom.sigalou-domotique.fr/alexa-api-changelog"
     beta: false
   description:
-    fr_FR: "Interface Spotify"
+    fr_FR: "OBSOLÈTE : dépend d'Alexa - API. Alternative : Alexa - Amazon Music (alexaamazonmusic), avec Alexa Premium (alexaapiv2). Interface Spotify"
 - id: ampli_pioneer
   name: "Ampli Pioneer"
   market_id: 2974
