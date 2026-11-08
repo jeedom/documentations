@@ -837,23 +837,6 @@
     beta: false
   description:
     fr_FR: "Plugin pour envoyer des Sms via swisscom"
-- id: synologychat
-  name: "Chat Synology"
-  market_id: 2916
-  doc:
-    stable:
-      fr_FR: "https://jeedom.github.io/plugin-synologychat/fr_FR/"
-      en_US: "https://jeedom.github.io/plugin-synologychat/en_US/"
-      de_DE: "https://jeedom.github.io/plugin-synologychat/de_DE/"
-    beta: false
-  changelog:
-    stable:
-      fr_FR: "https://jeedom.github.io/plugin-synologychat/fr_FR/changelog"
-      en_US: "https://jeedom.github.io/plugin-synologychat/en_US/changelog"
-      de_DE: "https://jeedom.github.io/plugin-synologychat/de_DE/changelog"
-    beta: false
-  description:
-    fr_FR: "Plugin pour integrer Jeedom au chat Synology"
 - id: TaskerAutoRemote
   name: "TaskerAutoRemote"
   market_id: 3795
