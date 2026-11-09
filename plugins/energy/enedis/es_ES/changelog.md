@@ -4,6 +4,10 @@
 >
 >Si no hay información sobre la actualización, es porque esta se refiere únicamente a cambios en la documentación, la traducción o el texto.
 
+# 29/10/2026
+
+- Recuperación de las lecturas a través de la nueva API de lecturas V2 de Enedis, que sustituye a la anterior, cuya retirada ya se ha anunciado
+
 # 26/10/2026
 
 - Se requiere como mínimo Jeedom 4.4

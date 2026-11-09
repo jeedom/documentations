@@ -4,6 +4,10 @@
 >
 >If there is no information about the update, it means that the update only involves documentation, translations, or text.
 
+# 29/10/2026
+
+- Retrieving meter readings via Enedis’s new Meter Readings API V2, which replaces the old API that is scheduled to be discontinued
+
 # 26/10/2026
 
 - Jeedom 4.4 or higher required
