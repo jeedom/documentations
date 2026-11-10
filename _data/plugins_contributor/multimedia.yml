@@ -43,12 +43,10 @@
   name: "Alexa - Fire TV"
   market_id: 4064
   doc:
-    stable:
-      fr_FR: "http://jeedom.sigalou-domotique.fr/alexa-fire-tv-documentation"
+    stable: false
     beta: false
   changelog:
-    stable:
-      fr_FR: "http://jeedom.sigalou-domotique.fr/alexa-api-changelog"
+    stable: false
     beta: false
   description:
     fr_FR: "Plugin pour interface Fire TV"
