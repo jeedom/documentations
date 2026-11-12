@@ -678,4 +678,4 @@
       fr_FR: "https://nebzhb.github.io/jeedom_docs/plugins/xiaomiTalk/fr_FR/changelog"
     beta: false
   description:
-    fr_FR: "TTS vers la passerelle Xiaomi (Mijia) v2 (lumi.gateway.v3)N'EST PAS COMPATIBLE AVEC LA PASSERELLE AQARA HOMEKIT !!!"
+    fr_FR: "TTS vers la passerelle Xiaomi (Mijia) v2 (lumi.gateway.v3)<br/>N'EST PAS COMPATIBLE AVEC LA PASSERELLE AQARA HOMEKIT !!!"
