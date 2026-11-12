@@ -42,6 +42,10 @@ Es obligatorio introducir un identificador *(20 caracteres como máximo)*. Se ut
 
 Tras una interrupción mediante el comando **Detener carga**, la carga no se reanuda hasta que se desconecte el vehículo. Se puede reanudar manualmente con el comando **Iniciar carga**.
 
+### Añadir insignias desconocidas
+
+Cuando se selecciona un grupo de permisos, la opción **Añadir insignias desconocidas** añade a [este grupo](#añadir-permisos) cualquier tarjeta desconocida que se presente en el terminal con el estado **No válida** por defecto.
+
 ### Parámetros del terminal
 
 La pestaña **Configuración** permite acceder a todos los parámetros de configuración del terminal. Algunos se pueden modificar y otros no. Se dividen en dos grandes grupos: los propios del protocolo OCPP y los específicos del fabricante.
@@ -62,7 +66,7 @@ Haz clic en el botón **Autorizaciones** para abrir la ventana de gestión de gr
 
 ## Añadir permisos
 
-Cada grupo permite añadir permisos manualmente o descargar/enviar el archivo de permisos en formato CSV.
+Cada grupo permite añadir autorizaciones manualmente o descargar/enviar el archivo de autorizaciones en formato CSV. Las tarjetas desconocidas presentadas en un terminal también pueden [añadidos automáticamente](#añadir-insignias-desconocidas).
 
 Para añadir un grupo de permisos, basta con hacer clic en el botón **Añadir un grupo** y, a continuación, introducir el nombre del grupo.
 

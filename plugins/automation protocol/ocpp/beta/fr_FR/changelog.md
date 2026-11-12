@@ -4,6 +4,12 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+## 12/11/2026 ***(1.2.0)***
+
+- **Autorisations** : ajout d'une option par équipement pour créer automatiquement les badges inconnus présentés sur la borne *(statut Invalide par défaut)*
+- **Autorisations** : les badges inconnus sont signalés dans le log du plugin
+- **Autorisations** : un fichier CSV importé s'affiche dans le tableau et n'est enregistré qu'à la sauvegarde *(colonnes lues par leur nom, statut inconnu considéré comme invalide)*
+
 ## 30/10/2026 ***(1.1.1)***
 
 - **Autorisations** : correction du refus des badges lorsqu'un fichier CSV importé contient des colonnes supplémentaires

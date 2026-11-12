@@ -4,6 +4,12 @@
 >
 >Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich ausschließlich um eine Aktualisierung der Dokumentation, der Übersetzung oder des Textes handelt.
 
+## 12/11/2026 ***(1.2.0)***
+
+- **Berechtigungen**: Hinzufügen einer Option pro Gerät, um unbekannte Ausweise, die am Terminal vorgelegt werden, automatisch anzulegen *(Standardstatus: Ungültig)*
+- **Berechtigungen**: Unbekannte Ausweise werden im Protokoll des Plugins gemeldet
+- **Berechtigungen**: Eine importierte CSV-Datei wird in der Tabelle angezeigt und erst beim Speichern gespeichert *(Spalten werden anhand ihrer Namen gelesen, unbekannter Status wird als ungültig betrachtet)*
+
 ## 30/10/2026 ***(1.1.1)***
 
 - **Berechtigungen**: Behebung des Problems, dass Ausweise abgelehnt wurden, wenn eine importierte CSV-Datei zusätzliche Spalten enthielt

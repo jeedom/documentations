@@ -4,6 +4,12 @@
 >
 >Si no hay información sobre la actualización, es porque esta se refiere únicamente a la actualización de la documentación, la traducción o el texto.
 
+## 12/11/2026 ***(1.2.0)***
+
+- **Autorizaciones**: se ha añadido una opción por dispositivo para crear automáticamente las tarjetas de acceso desconocidas que se presenten en el terminal *(estado «No válido» por defecto)*
+- **Autorizaciones**: las credenciales desconocidas se registran en el registro del complemento
+- **Autorizaciones**: un archivo CSV importado se muestra en la tabla y solo se guarda al guardar el archivo *(las columnas se leen por su nombre; el estado «desconocido» se considera inválido)*
+
 ## 30/10/2026 ***(1.1.1)***
 
 - **Autorizaciones**: se ha corregido el error por el que se rechazaban las tarjetas de identificación cuando un archivo CSV importado contenía columnas adicionales

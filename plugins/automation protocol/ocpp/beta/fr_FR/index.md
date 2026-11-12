@@ -42,6 +42,10 @@ Un identifiant *(20 caractères maximum)* doit obligatoirement être renseigné.
 
 Après un arrêt via la commande **Arrêter charge**, la charge ne redémarre pas tant que le véhicule n'est pas débranché. Elle peut être relancée manuellement avec la commande **Démarrer charge**.
 
+### Ajout des badges inconnus
+
+Lorsqu'un groupe d'autorisations est sélectionné, l'option **Ajouter les badges inconnus** ajoute à [ce groupe](#ajouter-des-autorisations) tout badge inconnu présenté sur la borne avec le statut **Invalide** par défaut.
+
 ### Paramètres de la borne
 
 L'onglet **Paramètres** donne accès à l'ensemble des paramètres de configuration de la borne. Certains sont modifiables et d'autres non. Ils sont répartis en deux grandes familles : ceux propres au protocole OCPP et ceux spécifiques au fabricant.
@@ -62,7 +66,7 @@ Cliquer sur le bouton **Autorisations** pour afficher la fenêtre de gestion des
 
 ## Ajouter des autorisations
 
-Chaque groupe permet d'ajouter des autorisations manuellement ou de télécharger/envoyer le fichier d'autorisations au format CSV.
+Chaque groupe permet d'ajouter des autorisations manuellement ou de télécharger/envoyer le fichier d'autorisations au format CSV. Les badges inconnus présentés sur une borne peuvent aussi y être [ajoutés automatiquement](#ajout-des-badges-inconnus).
 
 Pour ajouter un groupe d'autorisations, il suffit de cliquer sur le bouton **Ajouter un groupe** puis renseigner le nom du groupe.
 

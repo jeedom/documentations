@@ -42,6 +42,10 @@ Eine Kennung *(maximal 20 Zeichen)* muss zwingend angegeben werden. Sie wird fü
 
 Nach einem Stopp über den Befehl **Ladevorgang stoppen** wird der Ladevorgang erst wieder aufgenommen, wenn das Fahrzeug vom Ladegerät getrennt wurde. Er kann manuell mit dem Befehl **Ladevorgang starten** wieder gestartet werden.
 
+### Hinzufügen unbekannter Badges
+
+Wenn eine Berechtigungsgruppe ausgewählt ist, fügt die Option **Unbekannte Ausweise hinzufügen** Folgendes hinzu: [diese Gruppe](#berechtigungen-hinzufügen) Jedes unbekannte Ausweis, das am Terminal vorgelegt wird, erhält standardmäßig den Status **Ungültig**.
+
 ### Klemmenparameter
 
 Über die Registerkarte **Einstellungen** haben Sie Zugriff auf alle Konfigurationseinstellungen des Geräts. Einige davon sind veränderbar, andere nicht. Sie lassen sich in zwei große Gruppen unterteilen: die für das OCPP-Protokoll spezifischen und die herstellerspezifischen Einstellungen.
@@ -62,7 +66,7 @@ Klicken Sie auf die Schaltfläche **Berechtigungen**, um das Fenster zur Verwalt
 
 ## Berechtigungen hinzufügen
 
-In jeder Gruppe können Berechtigungen manuell hinzugefügt oder die Berechtigungsdatei im CSV-Format hochgeladen bzw. gesendet werden.
+In jeder Gruppe können Berechtigungen manuell hinzugefügt oder die Berechtigungsdatei im CSV-Format hochgeladen bzw. gesendet werden. Unbekannte Ausweise, die an einem Terminal vorgelegt werden, können dort ebenfalls [automatisch hinzugefügt](#hinzufügen-unbekannter-badges).
 
 Um eine Berechtigungsgruppe hinzuzufügen, klicken Sie einfach auf die Schaltfläche **Gruppe hinzufügen** und geben Sie dann den Namen der Gruppe ein.
 

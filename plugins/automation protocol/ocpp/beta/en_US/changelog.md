@@ -4,6 +4,12 @@
 >
 >If there is no information about the update, it means that the update only involves documentation, translations, or text.
 
+## 12/11/2026 ***(1.2.0)***
+
+- **Permissions**: Added an option per device to automatically create unknown badges presented at the terminal *(default status: Invalid)*
+- **Permissions**: Unknown badges are reported in the plugin log
+- **Permissions**: An imported CSV file is displayed in the table and is saved only when the page is refreshed *(columns are read by name; unknown statuses are considered invalid)*
+
 ## 30/10/2026 ***(1.1.1)***
 
 - **Authorizations**: Fixed an issue where badges were rejected when an imported CSV file contained additional columns

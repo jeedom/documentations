@@ -42,6 +42,10 @@ A user ID *(maximum 20 characters)* must be entered. It is used for all charging
 
 After stopping the charge using the **Stop Charge** command, the charge will not resume until the vehicle is unplugged. It can be restarted manually using the **Start Charge** command.
 
+### Adding unknown badges
+
+When a permission group is selected, the **Add Unknown Badges** option adds to [this group](#add-permissions) Any unknown badge presented at the terminal is assigned the default status of **Invalid**.
+
 ### Terminal settings
 
 The **Settings** tab provides access to all of the hub's configuration settings. Some settings can be modified, while others cannot. They are divided into two main categories: those specific to the OCPP protocol and those specific to the manufacturer.
@@ -62,7 +66,7 @@ Click the **Permissions** button to display the permission group management wind
 
 ## Add permissions
 
-For each group, you can add permissions manually or upload/export the permissions file in CSV format.
+For each group, you can add permissions manually or upload/export the permissions file in CSV format. Unknown badges presented at a terminal can also be [added automatically](#adding-unknown-badges).
 
 To add a permissions group, simply click the **Add Group** button and enter the group name.
 
