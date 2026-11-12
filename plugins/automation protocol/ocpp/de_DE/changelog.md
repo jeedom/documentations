@@ -4,6 +4,25 @@
 >
 >Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich ausschließlich um eine Aktualisierung der Dokumentation, der Übersetzung oder des Textes handelt.
 
+## 30/10/2026 ***(1.1.1)***
+
+- **Berechtigungen**: Behebung des Problems, dass Ausweise abgelehnt wurden, wenn eine importierte CSV-Datei zusätzliche Spalten enthielt
+- **Berechtigungen**: Sicherung der Speicherung von Berechtigungslisten *(die vorherige Liste bleibt bei einem Fehlschlag erhalten)*
+- **Berechtigungen**: Das Verwaltungsfenster bleibt bei einem Speicherfehler geöffnet, und eine neue Gruppe ohne Ausweis wird nun beibehalten
+- **Transaktionen**: Optimierung der Anzeige der Transaktionsliste
+
+## 19/10/2026 ***(1.1.0)***
+
+- **Berechtigungen**: Hinzufügen einer Option zum automatischen Start des Ladevorgangs beim Anschließen des Fahrzeugs im Modus „Alles zulassen“ *(mit einer dedizierten Kennung pro Ladestation)*
+- **Befehle**: Der Befehl **Ladung starten** gibt nur die Start-ID beim Anschließen an, wenn diese Funktion aktiviert ist
+- **Plugin**: Kompatibilität mit PHP 8.4
+
+## 16/10/2026 ***(1.0.1)***
+
+- **Fehler**: Kommunikationsfehler mit dem Gateway werden nun im Protokoll des Plugins gemeldet
+- **Berechtigungen**: Korrektur der Zeitverschiebung beim Ablaufdatum, das an die Terminalstation übermittelt wird; dieses wird nun in allen Berechtigungsantworten gesendet
+- **Steuerung**: Optimierung der an die Ladestation übermittelten Informationen *(Ladegrenze, Identifikationsnummer für den Ladevorgang)*
+
 ## 06/10/2026 ***(1.0.0)***
 
 - Erste stabile Version

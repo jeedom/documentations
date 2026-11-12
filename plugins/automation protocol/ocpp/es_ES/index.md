@@ -26,13 +26,21 @@ En los minutos siguientes al inicio del demonio, los puntos de recarga correctam
 
 ### Autorizaciones
 
-Por defecto, cualquier terminal recién creado no permite ninguna carga *(transacción)*.
+Por defecto, cualquier terminal recién creada no permite ninguna carga *(transacción)*: el grupo de permisos está configurado en **Rechazar todo**.
 
-Un menú desplegable permite autorizar todas las transacciones o seleccionar [un grupo de permisos](#grupos-de-permisos).
+El menú desplegable **Grupo de autorizaciones** permite autorizar todas las transacciones *(**Autorizar todo**)* o seleccionar [un grupo de permisos](#grupos-de-permisos).
 
 >**IMPORTANTE**
 >
->En el modo «Permitir todo», se acepta cualquier identificador que se presente en el terminal. El comando **Iniciar carga** muestra entonces la lista de usuarios de Jeedom.
+>En el modo **Permitir todo**, se acepta cualquier identificador que se presente en el terminal. El comando **Iniciar carga** muestra entonces la lista de usuarios de Jeedom, o solo el identificador definido si el [Puesta en marcha al conectarlo](#puesta-en-marcha-al-conectarlo) está activada.
+
+### Puesta en marcha al conectarlo
+
+En el modo **Permitir todo**, la opción **Iniciar al conectar** inicia automáticamente la recarga en cuanto se conecta un vehículo, sin necesidad de tarjeta ni de realizar ninguna acción en Jeedom.
+
+Es obligatorio introducir un identificador *(20 caracteres como máximo)*. Se utiliza para todas las cargas del punto de recarga, tanto si se inician al conectarse como mediante el comando **Iniciar carga**, que en ese caso solo muestra dicho identificador. De este modo, todas las transacciones del punto de recarga quedan vinculadas al mismo identificador.
+
+Tras una interrupción mediante el comando **Detener carga**, la carga no se reanuda hasta que se desconecte el vehículo. Se puede reanudar manualmente con el comando **Iniciar carga**.
 
 ### Parámetros del terminal
 
@@ -115,7 +123,8 @@ Se puede acceder a los datos de las transacciones *(gastos)* específicos de cad
 
 ## Medidas
 
-El plugin crea automáticamente las mediciones según la configuración **MeterValuesSampledData** definida en el terminal.
+El plugin genera automáticamente las lecturas a partir de los parámetros del terminal: **MeterValuesSampledData** *(lecturas periódicas durante una carga)* y **MeterValuesAlignedData** *(lecturas a intervalos fijos, configurados mediante **ClockAlignedDataInterval**)*.
+
 Cada medida recibida genera un comando **info/numeric**, que se registra de forma predeterminada, con la unidad correspondiente *(Wh, W, A, V, Hz, °C, %, RPM)*.
 Si el terminal proporciona valores por fase, los comandos llevan el sufijo **L1**, **L2** o **L3**.
 

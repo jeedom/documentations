@@ -4,6 +4,25 @@
 >
 >Si no hay información sobre la actualización, es porque esta se refiere únicamente a la actualización de la documentación, la traducción o el texto.
 
+## 30/10/2026 ***(1.1.1)***
+
+- **Autorizaciones**: se ha corregido el error por el que se rechazaban las tarjetas de identificación cuando un archivo CSV importado contenía columnas adicionales
+- **Autorizaciones**: protección del registro de las listas de autorizaciones *(se conserva la lista anterior en caso de fallo)*
+- **Autorizaciones**: la ventana de gestión permanece abierta en caso de error de registro y, a partir de ahora, se conserva un nuevo grupo sin credencial
+- **Transacciones**: optimización de la visualización de la lista de transacciones
+
+## 19/10/2026 ***(1.1.0)***
+
+- **Autorizaciones**: se ha añadido una opción para iniciar automáticamente la recarga al conectar el vehículo en el modo «Permitir todo» *(con un identificador específico por punto de recarga)*
+- **Comandos**: el comando **Iniciar carga** solo muestra el identificador de inicio al conectarse cuando está activado
+- **Complemento**: compatible con PHP 8.4
+
+## 16/10/2026 ***(1.0.1)***
+
+- **Demonio**: los errores de comunicación con el terminal ahora se registran en el registro del complemento
+- **Autorizaciones**: corrección del desfase horario de la fecha de caducidad transmitida al terminal; a partir de ahora se envía en todas las respuestas de autorización
+- **Comandos**: optimización de la información transmitida a la estación de recarga *(límite de carga, identificador de inicio de carga)*
+
 ## 06/10/2026 ***(1.0.0)***
 
 - Primera versión estable
