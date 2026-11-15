@@ -163,12 +163,12 @@
   market_id: 4321
   doc:
     stable:
-      fr_FR: "https://ktn001.github.io/fr_FR/EaseeCharger/index.html"
+      fr_FR: "https://docsjeedom.ockolly.ch/fr_FR/EaseeCharger/index.html"
     beta:
       fr_FR: "https://ktn001.github.io/fr_FR/EaseeCharger/index.html"
   changelog:
     stable:
-      fr_FR: "https://ktn001.github.io/fr_FR/EaseeCharger/changelog.html"
+      fr_FR: "https://docsjeedom.ockolly.ch/fr_FR/EaseeCharger/changelog.html"
     beta:
       fr_FR: "https://ktn001.github.io/fr_FR/EaseeCharger/changelog.html"
   description:
