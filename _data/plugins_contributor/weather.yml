@@ -293,8 +293,8 @@
       en_US: "https://ynats.github.io/jeedom-plugin-previsy/en_US/changelog"
     beta: false
   description:
-    fr_FR: "Ce plugin annonce les prochaines prévisions en alerte météo (72H) en France, Belgique et Suisse. Previsy construit également des phrases qui peuvent être utilisées pour vous être envoyées par sms, annoncées par votre home ou slack etc… Par ailleurs, vous avez également la possibilité d'utiliser les données brutes pour vous créer des scénarios sur mesure."
-    en_US: "This plugin announces the next forecasts in weather alert (72H) in France, Belgium and Switzerland. Previsy also builds sentences that can be used to be sent to you by sms, announced by your home or slack etc... Moreover, you also have the possibility to use the raw data to create custom scenarios."
+    fr_FR: "Ce plugin annonce les prochaines prévisions en alerte météo (72H), partout dans le monde avec Open-Meteo ou en France, Belgique et Suisse avec prevision-meteo.ch. Previsy construit également des phrases qui peuvent être utilisées pour vous être envoyées par sms, annoncées par votre home ou slack etc… Vous pouvez aussi créer vos propres alertes (pluie, vent, direction, température, humidité, pression, plage horaire...) et recevoir les vigilances officielles (Météo-France, IRM, MétéoSuisse...). Enfin, les données brutes sont disponibles pour vous créer des scénarios sur mesure."
+    en_US: "This plugin announces the next forecasts in weather alert (72H), worldwide with Open-Meteo or in France, Belgium and Switzerland with prevision-meteo.ch. Previsy also builds sentences that can be used to be sent to you by sms, announced by your home or slack etc... You can also create your own alerts (rain, wind, direction, temperature, humidity, pressure, time range...) and receive the official weather warnings (Météo-France, RMI, MeteoSwiss...). Finally, the raw data is available to create custom scenarios."
 - id: propluvia
   name: "Propluvia"
   market_id: 4446
