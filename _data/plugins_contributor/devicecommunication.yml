@@ -163,12 +163,18 @@
   market_id: 4321
   doc:
     stable:
-      fr_FR: "https://docsjeedom.ockolly.ch/fr_FR/EaseeCharger/index.html"
+      fr_FR: "https://docsjeedom.ockolly.ch/plugins/EaseeCharger/fr_FR/index.html"
+      en_US: "https://docsjeedom.ockolly.ch/plugins/EaseeCharger/en_US/index.html"
+      es_ES: "https://docsjeedom.ockolly.ch/plugins/EaseeCharger/es_ES/index.html"
+      de_DE: "https://docsjeedom.ockolly.ch/plugins/EaseeCharger/de_DE/index.html"
     beta:
       fr_FR: "https://ktn001.github.io/fr_FR/EaseeCharger/index.html"
   changelog:
     stable:
-      fr_FR: "https://docsjeedom.ockolly.ch/fr_FR/EaseeCharger/changelog.html"
+      fr_FR: "https://docsjeedom.ockolly.ch/plugins/EaseeCharger/fr_FR/changelog.html"
+      en_US: "https://docsjeedom.ockolly.ch/plugins/EaseeCharger/en_US/changelog.html"
+      es_ES: "https://docsjeedom.ockolly.ch/plugins/EaseeCharger/es_ES/changelog.html"
+      de_DE: "https://docsjeedom.ockolly.ch/plugins/EaseeCharger/de_DE/changelog.html"
     beta:
       fr_FR: "https://ktn001.github.io/fr_FR/EaseeCharger/changelog.html"
   description:
