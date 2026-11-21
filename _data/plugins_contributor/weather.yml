@@ -361,10 +361,10 @@
       es_ES: "https://jealg.github.io/documentation/plugin-rosee/beta/es_ES/changelog"
       de_DE: "https://jealg.github.io/documentation/plugin-rosee/beta/de_DE/changelog"
   description:
-    fr_FR: "Plugin permetant de calculer : le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo. Le point de givrage ainsi que l'alerte ne se calculent uniquement dans le cas où la température &lt; 5°C. "
-    en_US: "Plugin for calculating: dew point, icing point, absolute humidity and weather trend. The icing point as well as the alert are calculated only in the case of temperature &lt; 5°C. "
-    es_ES: "Plugin para calcular: punto de rocío, punto de congelación, humedad absoluta y tendencia del tiempo. El punto de congelación así como la alerta sólo se calculan en caso de temperatura &lt; 5°C. "
-    de_DE: "Plugin zur Berechnung von: Taupunkt, Vereisungspunkt, absoluter Luftfeuchtigkeit und Wettertrend. Der Vereisungspunkt sowie die Warnung werden nur berechnet, wenn die Temperatur &lt; 5°C beträgt. "
+    fr_FR: "Plugin permetant de calculer : le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo. <br/>Le point de givrage ainsi que l'alerte ne se calculent uniquement dans le cas où la température &lt; 5°C. <br/>"
+    en_US: "Plugin for calculating: dew point, icing point, absolute humidity and weather trend. <br/>The icing point as well as the alert are calculated only in the case of temperature &lt; 5°C. <br/>"
+    es_ES: "Plugin para calcular: punto de rocío, punto de congelación, humedad absoluta y tendencia del tiempo. <br/>El punto de congelación así como la alerta sólo se calculan en caso de temperatura &lt; 5°C. <br/>"
+    de_DE: "Plugin zur Berechnung von: Taupunkt, Vereisungspunkt, absoluter Luftfeuchtigkeit und Wettertrend. <br/>Der Vereisungspunkt sowie die Warnung werden nur berechnet, wenn die Temperatur &lt; 5°C beträgt. <br/>"
 - id: swissmeteo
   name: "Meteo Suisse"
   market_id: 4145
