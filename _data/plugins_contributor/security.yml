@@ -493,7 +493,7 @@
       fr_FR: "https://github.com/Jezza34000/reolink/blob/master/changelog.md"
     beta: false
   description:
-    fr_FR: "Plugin permettant le paramétrage et contrôle des caméras Reolink via l'API officiel. La liste complètes des fonctionnalités utilisable sous Jeedom est disponible dans la documentation ci-dessous. Fonctionne uniquement avec les modèles de la marque qui ont l'API (RLC, RLN, DUO, DUO2, DUO3, C1 & C2, TrackMix, CX, etc...). Les modèles : E1, Bxxx, Dxxx, Keen, Lumus, et les séries ARGUS & GO n'ayant pas d'API ne sont pas supportés."
+    fr_FR: "Plugin permettant le paramétrage et contrôle des caméras Reolink via l'API officiel. La liste complètes des fonctionnalités utilisable sous Jeedom est disponible dans la documentation ci-dessous. Fonctionne uniquement avec les modèles de la marque qui ont l'API (RLC, RLN, DUO, DUO2, DUO3, C1 & C2, E1 Zoom, E1 Outdoor, TrackMix, CX, etc...). Les modèles : E1 / E1 Pro (sans API HTTP), Bxxx, Dxxx, Keen, Lumus, et les séries ARGUS & GO n'ayant pas d'API ne sont pas supportés."
 - id: seniorcarealertbt
   name: "Senior Care - Bouton d'alerte"
   market_id: 3948
