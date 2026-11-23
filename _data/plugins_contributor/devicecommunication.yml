@@ -981,15 +981,30 @@
   doc:
     stable:
       fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/fr_FR/index"
+      en_US: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/en_US/index"
+      es_ES: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/es_ES/index"
+      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/de_DE/index"
     beta:
-      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/fr_FR/index_beta"
+      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/fr_FR/index"
+      en_US: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/en_US/index"
+      es_ES: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/es_ES/index"
+      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/de_DE/index"
   changelog:
     stable:
       fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/fr_FR/changelog"
+      en_US: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/en_US/changelog"
+      es_ES: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/es_ES/changelog"
+      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/de_DE/changelog"
     beta:
-      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/fr_FR/changelog_beta"
+      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/fr_FR/changelog"
+      en_US: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/en_US/changelog"
+      es_ES: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/es_ES/changelog"
+      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom-SNMP3/doc/de_DE/changelog"
   description:
     fr_FR: "Plugin permettant de s'interfacer avec SNMP"
+    en_US: "Plugin for interfacing with SNMP"
+    es_ES: "Complemento que permite la integración con SNMP"
+    de_DE: "Plugin zur Anbindung an SNMP"
 - id: sonoffdiy
   name: "Sonoff - DIY"
   market_id: 3890
