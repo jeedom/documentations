@@ -486,14 +486,14 @@
   market_id: 4253
   doc:
     stable:
-      fr_FR: "https://github.com/Jezza34000/reolink/blob/master/README.md"
+      fr_FR: "https://github.com/Jezza34000/jeedom_reolink_plugin/blob/master/README.md"
     beta: false
   changelog:
     stable:
-      fr_FR: "https://github.com/Jezza34000/reolink/blob/master/changelog.md"
+      fr_FR: "https://github.com/Jezza34000/jeedom_reolink_plugin/blob/master/changelog.md"
     beta: false
   description:
-    fr_FR: "Plugin permettant le paramétrage et contrôle des caméras Reolink via l'API officiel. La liste complètes des fonctionnalités utilisable sous Jeedom est disponible dans la documentation ci-dessous. Fonctionne uniquement avec les modèles de la marque qui ont l'API (RLC, RLN, DUO, DUO2, DUO3, C1 & C2, E1 Zoom, E1 Outdoor, TrackMix, CX, etc...). Les modèles : E1 / E1 Pro (sans API HTTP), Bxxx, Dxxx, Keen, Lumus, et les séries ARGUS & GO n'ayant pas d'API ne sont pas supportés."
+    fr_FR: "Plugin permettant le paramétrage, les captures, le flux Live (go2rtc) et le contrôle des caméras et NVR Reolink sous Jeedom. Supporte en direct HTTP/HTTPS (RLC, RLN, Home Hub, DUO, E1 Zoom, E1 Outdoor, TrackMix, CX, Doorbell, Fisheye...), en direct Baichuan TCP port 9000 pour les modèles secteur sans interface web (E1, E1 Pro, E320/E321, Lumus...), ainsi que les caméras sur batterie (Argus, Altas, Keen...) et kits Bxxx/Dxxx lorsqu'elles sont rattachées à un NVR ou Home Hub Reolink. Non supportés en direct : caméras 4G (série Go), caméras batterie autonomes sans Hub/NVR et caméras Bxxx/Dxxx sans NVR."
 - id: seniorcarealertbt
   name: "Senior Care - Bouton d'alerte"
   market_id: 3948
