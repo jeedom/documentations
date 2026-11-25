@@ -97,15 +97,30 @@
   doc:
     stable:
       fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/fr_FR/index"
+      en_US: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/en_US/index"
+      es_ES: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/es_ES/index"
+      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/de_DE/index"
     beta:
-      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/fr_FR/index_beta"
+      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/fr_FR/index"
+      en_US: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/en_US/index"
+      es_ES: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/es_ES/index"
+      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/de_DE/index"
   changelog:
     stable:
       fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/fr_FR/changelog"
+      en_US: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/en_US/changelog"
+      es_ES: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/es_ES/changelog"
+      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/de_DE/changelog"
     beta:
-      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/fr_FR/changelog_beta"
+      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/fr_FR/changelog"
+      en_US: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/en_US/changelog"
+      es_ES: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/es_ES/changelog"
+      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom-BSBLAN/doc/de_DE/changelog"
   description:
     fr_FR: "Plugin permettant de s'interfacer avec les controleurs BSB-LAN"
+    en_US: "Plugin for interfacing with BSB-LAN controllers"
+    es_ES: "Complemento que permite conectarse con los controladores BSB-LAN"
+    de_DE: "Plugin zur Anbindung an BSB-LAN-Steuerungen"
 - id: cloudedge
   name: "CloudEdge"
   market_id: 4514
@@ -887,15 +902,30 @@
   doc:
     stable:
       fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/fr_FR/index"
+      en_US: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/en_US/index"
+      es_ES: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/es_ES/index"
+      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/de_DE/index"
     beta:
-      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/fr_FR/index_beta"
+      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/fr_FR/index"
+      en_US: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/en_US/index"
+      es_ES: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/es_ES/index"
+      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/de_DE/index"
   changelog:
     stable:
       fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/fr_FR/changelog"
+      en_US: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/en_US/changelog"
+      es_ES: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/es_ES/changelog"
+      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/de_DE/changelog"
     beta:
-      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/fr_FR/changelog_beta"
+      fr_FR: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/fr_FR/changelog"
+      en_US: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/en_US/changelog"
+      es_ES: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/es_ES/changelog"
+      de_DE: "https://bernard-dandrea.github.io/documentation/jeedom-OZW/doc/de_DE/changelog"
   description:
     fr_FR: "Plugin permettant de s'interfacer avec les controleurs SIEMENS de type OZW"
+    en_US: "Plugin for interfacing with SIEMENS OZW-type controllers"
+    es_ES: "Complemento que permite la conexión con los controladores SIEMENS del tipo OZW"
+    de_DE: "Plugin zur Anbindung an SIEMENS-Steuerungen vom Typ OZW"
 - id: pyhOn
   name: "hOn"
   market_id: 4599
